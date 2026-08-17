@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cap sur l'Inconnu — générateur de road trip mystère</title>
+<meta name="description" content="Générateur de road trip surprise basé sur de vraies communes françaises, de vrais points d'intérêt OpenStreetMap et les vrais tarifs de péage VINCI Autoroutes.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%A7%AD%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow"><span class="dot"></span>Générateur de road trip mystère</div>
+    <h1 class="title">Cap sur l'inconnu<em>votre prochaine escapade n'a pas encore de nom</em></h1>
+    <p class="lede">Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à 21 jours et 15 villes — parmi les communes françaises, avec de vraies curiosités locales quand on en connaît, et une liste à emporter, le tout dans votre budget.</p>
+    <p class="disclaimer">Communes, distances, péages et points d'intérêt reposent sur des données officielles (IGN, VINCI Autoroutes, OpenStreetMap). Les temps de trajet et prix restent des estimations — vérifiez toujours l'itinéraire réel et la disponibilité des hébergements avant de partir.</p>
+  </header>
+
+  <p class="load-error" id="load-error" role="alert"></p>
+
+  <form class="dash" id="form">
+    <div class="dash-head">
+      <h2>Feuille de route</h2>
+      <span id="clock">— à remplir —</span>
+    </div>
+
+    <div class="field-grid">
+      <div class="field" id="city-field">
+        <label for="city">Ville de départ</label>
+        <div class="suggest-wrap">
+          <input type="text" id="city" placeholder="Chargement des communes…" disabled autocomplete="off" aria-required="true"
+                 aria-describedby="city-hint city-error" role="combobox" aria-autocomplete="list"
+                 aria-expanded="false" aria-controls="city-suggest" />
+          <ul class="suggest-list" id="city-suggest" role="listbox"></ul>
+        </div>
+        <span class="field-hint" id="city-hint">Tapez 3 lettres (nom) ou 3 chiffres (code postal), puis choisissez une commune dans la liste.</span>
+        <span class="field-error" id="city-error" role="alert">Merci d'indiquer une ville de départ.</span>
+      </div>
+
+      <div class="field" id="dates-field">
+        <label for="date-start">Dates du séjour</label>
+        <div class="date-range">
+          <input type="date" id="date-start" aria-label="Date d'arrivée" />
+          <span class="date-sep" aria-hidden="true">→</span>
+          <input type="date" id="date-end" aria-label="Date de retour" />
+        </div>
+        <span class="field-hint" id="duration-hint">3 jours</span>
+        <span class="field-error" id="dates-error" role="alert">La date de retour doit être après la date d'arrivée.</span>
+      </div>
+
+      <div class="field">
+        <label for="budget">Budget global</label>
+        <select id="budget">
+          <option value="economique">Économique</option>
+          <option value="moyen" selected>Moyen</option>
+          <option value="confortable">Confortable</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="transport">Mode de transport</label>
+        <select id="transport">
+          <option value="voiture-thermique">Voiture (thermique)</option>
+          <option value="voiture-hybride">Voiture hybride</option>
+          <option value="voiture-electrique">Voiture électrique</option>
+          <option value="van">Van aménagé</option>
+          <option value="moto">Moto</option>
+          <option value="velo">Vélo / bikepacking</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="toll-field">
+      <label class="toggle-label" for="toll-toggle">
+        <input type="checkbox" id="toll-toggle" checked />
+        <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
+        <span class="toggle-text">Autoroutes à péage autorisées</span>
+      </label>
+    </div>
+
+    <div class="toll-field">
+      <label class="toggle-label" for="tent-toggle">
+        <input type="checkbox" id="tent-toggle" />
+        <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
+        <span class="toggle-text">Éviter le bivouac et la nuit sous tente</span>
+      </label>
+      <span class="field-hint">Coché : les nuitées à la belle étoile en budget économique sont remplacées par une formule cabane/yourte/gîte.</span>
+    </div>
+
+    <div class="radius-field">
+      <label style="font:700 .68rem/1 var(--font-body); letter-spacing:.09em; text-transform:uppercase; color:var(--ink-soft);">Limite de rayon</label>
+      <div class="seg" role="group" aria-label="Type de limite">
+        <button type="button" id="mode-km" aria-pressed="true">Distance max (km)</button>
+        <button type="button" id="mode-h" aria-pressed="false">Temps de trajet retour max (h)</button>
+      </div>
+      <div class="radius-input">
+        <input type="number" id="radius" min="20" max="1200" value="300" />
+        <span class="unit" id="radius-unit">km autour du départ</span>
+      </div>
+    </div>
+
+    <div class="launch-row">
+      <button type="submit" class="launch" id="launch-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none"/></svg>
+        Lancer le générateur de road trip aléatoire
+      </button>
+      <span class="launch-hint">Une destination secrète vous attend.</span>
+    </div>
+  </form>
+
+  <section class="reveal" id="reveal" aria-live="polite">
+    <svg class="compass" id="compass" viewBox="0 0 100 100" fill="none">
+      <circle cx="50" cy="50" r="46" stroke="var(--line-strong)" stroke-width="2"/>
+      <circle cx="50" cy="50" r="3" fill="var(--accent-2)"/>
+      <path d="M50 10 L58 50 L50 90 L42 50 Z" fill="var(--accent)"/>
+      <text x="50" y="10" text-anchor="middle" font-size="9" fill="var(--ink-faint)" font-family="ui-sans-serif">N</text>
+    </svg>
+    <div class="roulette-label" id="roulette-label">Tirage en cours…</div>
+    <div class="roulette-name" id="roulette-name">???</div>
+    <div class="roulette-clue" id="roulette-clue">La route va parler.</div>
+    <div class="stamp" id="stamp">Destination confirmée</div>
+    <div class="reveal-real" id="reveal-real">
+      <div class="reveal-region" id="reveal-region"></div>
+    </div>
+  </section>
+
+  <section class="map-card" id="map-card">
+    <h3>Carte du parcours</h3>
+    <div class="map-svg-wrap" id="map-svg-wrap"></div>
+    <p class="map-note">Points positionnés aux coordonnées réelles des communes. Le tracé relie les étapes à vol d'oiseau — la route suivie serpente davantage.</p>
+  </section>
+
+  <section class="timeline" id="timeline">
+    <div class="timeline-head">
+      <h2>Journal de bord</h2>
+      <div class="stats" id="timeline-stats"></div>
+    </div>
+    <div id="days"></div>
+  </section>
+
+  <section class="pack-card" id="pack-card">
+    <div class="pack-progress" id="pack-progress" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+    </div>
+    <div class="pack-head">
+      <h2>Sac à préparer</h2>
+      <span id="pack-sub">L'indispensable pour cette mission mystère</span>
+    </div>
+    <div class="pack-grid" id="pack-grid"></div>
+  </section>
+
+  <div class="again-row" id="again-row">
+    <button type="button" class="again" id="again-btn">Retirer une autre destination</button>
+  </div>
+
+  <footer>Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab). Points d'intérêt : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes.</footer>
+</div>
+<script src="js/app.js" defer></script>
+</body>
+</html>
