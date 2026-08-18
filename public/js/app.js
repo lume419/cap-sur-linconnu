@@ -1231,6 +1231,22 @@
   }
 
   /* ---------- RENDER: MAP ---------- */
+  // Les 11 communes les plus peuplées de France (source : communes.txt, donc mêmes coordonnées
+  // que le reste de la carte), affichées en repère discret sur la carte pour aider à se situer —
+  // ce ne sont pas des destinations, juste un fond de carte familier.
+  var MAJOR_CITIES = [
+    {name:'Paris', lat:48.8589, lon:2.347},
+    {name:'Marseille', lat:43.2803, lon:5.3806},
+    {name:'Lyon', lat:45.758, lon:4.8351},
+    {name:'Toulouse', lat:43.6007, lon:1.4328},
+    {name:'Nice', lat:43.7032, lon:7.2528},
+    {name:'Nantes', lat:47.2382, lon:-1.5603},
+    {name:'Montpellier', lat:43.61, lon:3.8742},
+    {name:'Strasbourg', lat:48.5691, lon:7.7621},
+    {name:'Bordeaux', lat:44.8624, lon:-0.5848},
+    {name:'Lille', lat:50.6311, lon:3.0468},
+    {name:'Rennes', lat:48.1159, lon:-1.6884}
+  ];
   function renderMap(legs, city, cityCoord){
     var vb = FRANCE_MAP.viewBox;
     var startPt = (cityCoord && cityCoord.lat!=null && cityCoord.lon!=null) ? projectLonLat(cityCoord.lon, cityCoord.lat) : null;
@@ -1294,9 +1310,21 @@
       pins += '<text x="'+midX.toFixed(1)+'" y="'+(midY-6).toFixed(1)+'" text-anchor="middle" font-size="9" font-style="italic" fill="var(--accent)" font-family="ui-sans-serif">retour</text>';
     }
 
+    // Repères discrets (grisés) pour aider à se situer — pas des épingles cliquables, juste un
+    // fond de carte familier. Sautés s'ils tomberaient pile sur une épingle du trajet (ex. départ
+    // ou étape dans l'une de ces grandes villes) pour ne pas dupliquer l'affichage.
+    var majorMarks = MAJOR_CITIES.map(function(mc){
+      var p = projectLonLat(mc.lon, mc.lat);
+      var overlapsRoute = placed.some(function(pl){ return Math.hypot(pl[0]-p[0], pl[1]-p[1]) < 11; });
+      if(overlapsRoute) return '';
+      return '<circle cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="2.6" fill="var(--ink-faint)" fill-opacity="0.55"/>'+
+        '<text x="'+p[0].toFixed(1)+'" y="'+(p[1]-5).toFixed(1)+'" text-anchor="middle" font-size="7.5" fill="var(--ink-faint)" fill-opacity="0.65" font-family="ui-sans-serif">'+mc.name+'</text>';
+    }).join('');
+
     var svg = '<svg viewBox="0 0 '+vb.W+' '+vb.H+'" width="100%" height="auto" role="img" aria-label="Carte de France avec le tracé du road trip">'+
       '<path d="'+FRANCE_MAP.mainlandPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
       '<path d="'+FRANCE_MAP.corsicaPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
+      majorMarks +
       (routePath ? '<path d="'+routePath+'" fill="none" stroke="var(--accent-3)" stroke-width="2.4" stroke-dasharray="1 7" stroke-linecap="round"/>' : '')+
       (returnPath ? '<path d="'+returnPath+'" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="6 5" stroke-linecap="round"/>' : '')+
       pins +
