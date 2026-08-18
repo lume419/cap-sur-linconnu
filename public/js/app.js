@@ -248,6 +248,8 @@
     transport: document.getElementById('transport'),
     radius: document.getElementById('radius'),
     radiusUnit: document.getElementById('radius-unit'),
+    radiusValueWrap: document.getElementById('radius-value-wrap'),
+    radiusValueDisplay: document.getElementById('radius-value-display'),
     minDistanceField: document.getElementById('min-distance-field'),
     minDistance: document.getElementById('min-distance'),
     maxDistance: document.getElementById('max-distance'),
@@ -482,14 +484,17 @@
   els.city.addEventListener('blur', function(){ setTimeout(hideSuggestions, 120); });
 
   /* ---------- RADIUS MODE TOGGLE ---------- */
-  // En mode heures, l'unité affichée à côté du champ montre la durée mise en forme (ex. "4h30")
-  // plutôt que le nombre décimal brut de l'input (ex. "4.5") — et sans répéter le "h" de l'unité
-  // puisque le format "4h30" le contient déjà.
+  // En mode heures, le champ affiche directement la durée mise en forme (ex. "4h30") par-dessus
+  // le nombre décimal brut (ex. "4.5") — voir .radius-value-display en CSS — plutôt que de
+  // l'indiquer seulement à côté. Le texte d'unité n'a donc plus besoin de répéter le "h".
   function updateRadiusUnitLabel(){
     if(radiusMode === 'h'){
       var h = parseFloat(els.radius.value) || 0;
-      els.radiusUnit.textContent = '≈ ' + fmtHours(h) + ' de trajet retour max';
+      els.radiusValueDisplay.textContent = fmtHours(h);
+      els.radiusValueWrap.classList.add('show-duration');
+      els.radiusUnit.textContent = 'de trajet retour max';
     } else {
+      els.radiusValueWrap.classList.remove('show-duration');
       els.radiusUnit.textContent = 'km autour du départ';
     }
   }

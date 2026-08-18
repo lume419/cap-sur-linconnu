@@ -298,6 +298,20 @@
   .seg button[aria-pressed="true"]{background:var(--accent); color:var(--accent-ink);}
   .radius-input{display:flex; align-items:center; gap:.5rem; margin-top:.15rem;}
   .radius-input input{max-width:9rem;}
+  .radius-value-wrap{position:relative; max-width:9rem;}
+  .radius-value-wrap input{max-width:none; width:100%;}
+  /* En mode "temps de trajet", le champ affiche la durée mise en forme (ex. "4h30") par-dessus
+     l'input numérique plutôt qu'à côté : le nombre décimal reste éditable (flèches +/-, saisie
+     clavier) mais devient invisible, seul le texte de l'incrustation — qui suit sa valeur en
+     temps réel — est visible. Le curseur de saisie (caret) reste affiché pour qu'on sache où l'on
+     tape. */
+  .radius-value-wrap.show-duration input{color:transparent; caret-color:var(--ink);}
+  .radius-value-display{
+    position:absolute; inset:0; display:none; align-items:center;
+    padding:.65rem .7rem; font:600 .95rem/1.2 var(--font-body); color:var(--ink);
+    pointer-events:none; white-space:nowrap; overflow:hidden;
+  }
+  .radius-value-wrap.show-duration .radius-value-display{display:flex;}
 
   /* ============ LAUNCH BUTTON ============ */
   .launch-row{display:flex; flex-direction:column; align-items:center; gap:.6rem; padding-top:.35rem;}
