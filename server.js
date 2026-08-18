@@ -44,11 +44,18 @@ async function resolvePlacePhoto(name, deptCode){
     let data;
     try { data = await fetchWikiSummary(title); } catch(e){ console.warn('[photo] échec pour "'+title+'":', e.message); continue; }
     if(!data || data.type === 'disambiguation') continue;
-    const image = (data.thumbnail && data.thumbnail.source) || (data.originalimage && data.originalimage.source) || null;
-    if(!image) continue;
-    // `image` (vignette ~330px) sert à l'affichage rapide dans les tuiles ; `imageFull` (résolution
-    // d'origine de l'image Wikimedia, quand elle diffère) est réservée à l'agrandissement en pop-up.
-    const imageFull = (data.originalimage && data.originalimage.source) || image;
+    const thumbSource = (data.thumbnail && data.thumbnail.source) || null;
+    const originalSource = (data.originalimage && data.originalimage.source) || null;
+    if(!thumbSource && !originalSource) continue;
+    // La vignette renvoyée par l'API "summary" ne fait qu'environ 320px de large — nette en petite
+    // icône, mais visiblement floue une fois affichée en grand bandeau. On a essayé de demander à
+    // Wikimedia une vignette plus large en modifiant la largeur dans l'URL (".../800px-fichier.jpg"),
+    // mais leur service refuse ces tailles "à la demande" non déjà mises en cache (protection
+    // anti-abus, HTTP 400 "Use thumbnail sizes listed on...") même quand l'image d'origine est bien
+    // plus grande. La solution fiable est donc d'utiliser directement l'image d'origine (résolution
+    // native), qui elle est toujours disponible — au prix d'un téléchargement un peu plus lourd.
+    const image = originalSource || thumbSource;
+    const imageFull = originalSource || thumbSource;
     return {
       image: image,
       imageFull: imageFull,
