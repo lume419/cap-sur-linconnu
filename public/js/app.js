@@ -677,7 +677,18 @@
       if(candidates.length===0) break;
       candidates.forEach(function(x){
         var feat = FEATURED[x.commune.norm];
-        x.score = (feat ? 1000 + feat.pois.length*60 : 0) + Math.min(x.commune.pop, 8000)/40 + rand(0,90);
+        // Le bonus "commune avec un vrai POI nommé" (FEATURED) reste un coup de pouce, pas un
+        // passe-droit : FEATURED ne couvre qu'~300 communes sur 35 000, concentrées à ~92% dans
+        // une poignée de départements de l'Est (Jura/Haute-Savoie/Alsace) faute de données OSM
+        // plus larges au moment de la constitution du jeu de données — un bonus trop élevé les
+        // fait quasi systématiquement gagner face à n'importe quelle commune "normale", ce qui
+        // écarte de fait des régions entières (Bretagne comprise, 0 commune FEATURED) du tirage.
+        // Même ramené à l'échelle de la population (jusqu'à 150 encore testé), le bonus suffisait
+        // à lui seul à dépasser le score max d'une commune non-FEATURED — la moitié des tirages
+        // restait concentrée sur ce même petit cluster. Réduit à un vrai petit coup de pouce
+        // (comparable au bruit aléatoire), pour que la population et le hasard dominent largement
+        // le choix et que toutes les régions redeviennent compétitives.
+        x.score = (feat ? 25 + feat.pois.length*12 : 0) + Math.min(x.commune.pop, 8000)/40 + rand(0,90);
       });
       candidates.sort(function(a,b){ return b.score - a.score; });
       var top = candidates.slice(0, Math.min(6, candidates.length));
@@ -912,7 +923,9 @@
       }
       candidates.forEach(function(x){
         var feat = FEATURED[x.commune.norm];
-        x.score = (feat ? 1000 + feat.pois.length*60 : 0) + Math.min(x.commune.pop,8000)/40 + rand(0,90);
+        // Voir buildRealRoute pour le détail : bonus FEATURED ramené à une échelle comparable à la
+        // population, pour ne pas écarter systématiquement les régions sans commune répertoriée.
+        x.score = (feat ? 25 + feat.pois.length*12 : 0) + Math.min(x.commune.pop,8000)/40 + rand(0,90);
       });
       candidates.sort(function(a,b){ return b.score-a.score; });
       var stop = pick(candidates.slice(0, Math.min(6, candidates.length))).commune;
