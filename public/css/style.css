@@ -305,10 +305,15 @@
      mais devient invisible, seul le texte de l'incrustation — qui suit sa valeur en temps réel —
      est visible. Le curseur de saisie (caret) est masqué : sa position suit le nombre décimal réel
      (ex. "5.5"), pas le texte affiché ("5h30", longueur différente), donc il apparaissait à un
-     endroit incohérent. La saisie clavier directe est bloquée en JS (voir app.js) et la sélection
-     à la souris désactivée ici : taper ou sélectionner ce texte caché n'aurait aucun sens visible.
-  */
+     endroit incohérent. La saisie clavier directe est bloquée en JS (voir app.js).
+     Empêcher la SÉLECTION elle-même est peu fiable sur un <input type="number"> : `user-select:
+     none` est ignoré par la plupart des navigateurs sur le texte natif d'un champ de formulaire,
+     et l'API de sélection (setSelectionRange) refuse justement les inputs de type "number" — donc
+     impossible de la neutraliser en JS non plus. On rend plutôt la sélection invisible via
+     ::selection : elle peut techniquement exister, mais plus rien ne le montre à l'écran. */
   .radius-value-wrap.show-duration input{color:transparent; caret-color:transparent; user-select:none;}
+  .radius-value-wrap.show-duration input::selection{background:transparent; color:transparent;}
+  .radius-value-wrap.show-duration input::-moz-selection{background:transparent; color:transparent;}
   .radius-value-display{
     position:absolute; inset:0; display:none; align-items:center;
     padding:.65rem .7rem; font:600 .95rem/1.2 var(--font-body); color:var(--ink);
