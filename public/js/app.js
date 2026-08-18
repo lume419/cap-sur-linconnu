@@ -316,7 +316,7 @@
   (function initDates(){
     var today = new Date();
     today.setHours(0,0,0,0);
-    var defaultStart = addDays(today, 14); // par défaut, un départ dans deux semaines
+    var defaultStart = today; // par défaut, un départ aujourd'hui
     var defaultEnd = addDays(defaultStart, 2); // par défaut, un séjour de 3 jours / 2 nuits
     els.dateStart.min = isoDate(today);
     els.dateStart.value = isoDate(defaultStart);
