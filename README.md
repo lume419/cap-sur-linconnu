@@ -58,6 +58,16 @@ Comme l'app sert des fichiers statiques, elle fonctionne aussi tout aussi bien d
 serveur de fichiers statiques (nginx seul, Caddy seul, etc.) en pointant directement sur `public/` —
 `server.js` n'est là que par simplicité.
 
+**Sur hébergement mutualisé avec Apache/cPanel** (ex. o2switch, "Setup Node.js App" via Passenger) :
+Apache expose alors généralement la racine du projet, pas seulement `public/` — `server.js`,
+`package.json` et `package-lock.json` deviennent consultables publiquement en clair si rien ne les
+bloque explicitement (vérifiable avec `curl -I https://votre-domaine/server.js` : un `200` confirme
+le problème). Voir `.htaccess-security-block.txt` à la racine du dépôt pour un bloc de règles à
+ajouter — **pas à copier en écrasant** — au `.htaccess` généré par cPanel (qui contient les
+directives Passenger nécessaires au fonctionnement de l'app). Ce même fichier explique aussi
+pourquoi `public/data/*.txt`/`*.json` ne sont volontairement pas bloqués : ce sont les données que
+le navigateur charge lui-même au démarrage de l'app.
+
 ## Photos réelles
 
 Un artefact Claude ne peut charger aucune image externe (CSP) ; sur ce serveur, cette limite n'existe

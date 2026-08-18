@@ -1,0 +1,46 @@
+# ============================================================================
+# BLOC À AJOUTER à votre .htaccess existant sur le serveur (o2switch) — pas à
+# copier tel quel en écrasant le fichier ! cPanel a très probablement généré
+# un .htaccess contenant des directives Passenger (PassengerAppRoot,
+# PassengerStartupFile, PassengerNodejs...) qui font tourner l'app Node — les
+# retirer casserait le site. Ouvrez le .htaccess existant du site (Gestionnaire
+# de fichiers cPanel, ou FTP/SFTP) et collez ce bloc à la fin, sans rien
+# supprimer.
+#
+# Faites une copie de sauvegarde du fichier existant avant de le modifier.
+# ============================================================================
+
+# --- Redirection HTTP -> HTTPS ---
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# --- Bloque l'accès direct aux fichiers techniques du serveur ---
+# Confirmé exposés publiquement au moment de l'audit (18/08/2026) :
+# https://road.lume419.fr/server.js et /package.json répondaient tous les
+# deux 200 avec le code source brut. Ces fichiers ne sont jamais nécessaires
+# au navigateur — Node/Passenger les lit directement sur le disque du
+# serveur, sans passer par une requête HTTP, donc cette règle ne bloque en
+# rien le fonctionnement de l'app elle-même, seulement leur consultation
+# publique. Redirige vers l'accueil plutôt qu'un 403/404, pour ne pas
+# confirmer leur existence à quelqu'un qui devinerait l'URL.
+RewriteRule ^(server\.js|package(-lock)?\.json|README\.md)$ /? [R=301,L]
+
+# --- Dossier .git éventuel et node_modules ---
+# .git exposerait tout l'historique du dépôt (déjà bloqué en 403 au moment de
+# l'audit, mais gardé ici en filet de sécurité) ; node_modules n'est jamais
+# utile au navigateur.
+RewriteRule ^\.git(/.*)?$ /? [R=301,L]
+RewriteRule ^node_modules(/.*)?$ /? [R=301,L]
+
+# ============================================================================
+# NON INCLUS volontairement : public/data/communes.txt, featured.txt et
+# france-map.json. Contrairement à server.js, ce sont les FICHIERS QUE LE
+# NAVIGATEUR CHARGE LUI-MÊME au démarrage de l'app (fetch() côté client,
+# voir public/js/app.js) — les bloquer casserait le site pour de vrai (plus
+# aucune commune ne se chargerait). Ce sont aussi des données publiques
+# ouvertes (IGN/Etalab, OpenStreetMap), sans contenu sensible à protéger.
+# toll-reference.json (non chargé par l'app, gardé en référence) est lui
+# aussi resté accessible : lui aussi public/non sensible (barème péage
+# officiel VINCI), pas de bénéfice réel à le bloquer.
+# ============================================================================
