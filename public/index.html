@@ -14,7 +14,7 @@
   <header class="hero">
     <div class="eyebrow"><span class="dot"></span>Générateur de road trip mystère</div>
     <h1 class="title">Cap sur l'inconnu<em>votre prochaine escapade n'a pas encore de nom</em></h1>
-    <p class="lede">Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à 21 jours et 15 villes — parmi les communes françaises, avec de vraies curiosités locales quand on en connaît, et une liste à emporter, le tout dans votre budget.</p>
+    <p class="lede">Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à 21 jours et 15 villes — parmi les communes françaises et une liste à emporter, le tout dans votre budget.</p>
     <p class="disclaimer">Communes, distances, péages et points d'intérêt reposent sur des données officielles (IGN, VINCI Autoroutes, OpenStreetMap). Les temps de trajet et prix restent des estimations — vérifiez toujours l'itinéraire réel et la disponibilité des hébergements avant de partir.</p>
   </header>
 
@@ -35,7 +35,6 @@
                  aria-expanded="false" aria-controls="city-suggest" />
           <ul class="suggest-list" id="city-suggest" role="listbox"></ul>
         </div>
-        <span class="field-hint" id="city-hint">Tapez 3 lettres (nom) ou 3 chiffres (code postal), puis choisissez une commune dans la liste.</span>
         <span class="field-error" id="city-error" role="alert">Merci d'indiquer une ville de départ.</span>
       </div>
 
@@ -105,7 +104,7 @@
         <button type="button" class="step-btn" id="radius-inc" aria-label="Augmenter">+</button>
         <span class="unit" id="radius-unit">km autour du départ</span>
       </div>
-      <span class="field-hint">S'applique uniquement au <strong>dernier trajet</strong> (le retour) : le séjour peut s'éloigner davantage entre-temps si la durée le permet, du moment que la toute dernière étape avant de rentrer respecte cette limite.</span>
+      <span class="field-hint">S'applique uniquement au <strong>dernier trajet</strong> (le retour)</span>
     </div>
 
     <div class="field" id="min-distance-field">
@@ -128,7 +127,8 @@
           <span class="unit">km au maximum</span>
         </div>
       </div>
-      <span class="field-hint">Minimum : la première étape sera à au moins cette distance (quitte à dépasser la limite de rayon ci-dessus, qui ne borne que le retour). Maximum : le trajet ne s'éloignera jamais plus loin que cette distance du point de départ, à aucun moment du séjour.</span>
+      <span class="field-hint">Minimum : la première étape sera à au moins cette distance. </span>
+      <span class="field-hint">Maximum : le trajet ne dépassera jamais cette distance du point de départ, à aucun moment du séjour.</span>
       <span class="field-error" id="min-distance-error" role="alert"></span>
     </div>
 

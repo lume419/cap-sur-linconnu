@@ -84,8 +84,8 @@
 
   /* ---------- REFERENCE DATA ---------- */
   var TRANSPORT = {
-    'voiture-thermique': {label:'voiture', speed:82, tollClass:1, extra:["Carte grise et permis à jour","Chargeur allume-cigare","Trousse de secours"]},
-    'voiture-hybride': {label:'voiture hybride', speed:81, tollClass:1, extra:["Carte grise et permis à jour","Chargeur allume-cigare","Trousse de secours"]},
+    'voiture-thermique': {label:'voiture', speed:82, tollClass:1, extra:["Carte grise et permis à jour","Trousse de secours"]},
+    'voiture-hybride': {label:'voiture hybride', speed:81, tollClass:1, extra:["Carte grise et permis à jour","Trousse de secours"]},
     'voiture-electrique': {label:'voiture électrique', speed:78, electric:true, tollClass:1, extra:["Câble de recharge Type 2","Appli multi-réseaux de bornes de recharge (ex. Chargemap)","Marge de 20% sur l'autonomie annoncée"]},
     'van': {label:'van', speed:70, tollClass:2, extra:["Jerrican d'eau potable","Cartouche de gaz de camping","Cales de mise à niveau"]},
     'moto': {label:'moto', speed:85, tollClass:5, extra:["Casque et gants","Combinaison ou surpantalon pluie","Sangles élastiques pour bagages"]},
