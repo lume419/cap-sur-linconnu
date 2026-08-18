@@ -482,20 +482,31 @@
   els.city.addEventListener('blur', function(){ setTimeout(hideSuggestions, 120); });
 
   /* ---------- RADIUS MODE TOGGLE ---------- */
+  // En mode heures, l'unité affichée à côté du champ montre la durée mise en forme (ex. "4h30")
+  // plutôt que le nombre décimal brut de l'input (ex. "4.5") — et sans répéter le "h" de l'unité
+  // puisque le format "4h30" le contient déjà.
+  function updateRadiusUnitLabel(){
+    if(radiusMode === 'h'){
+      var h = parseFloat(els.radius.value) || 0;
+      els.radiusUnit.textContent = '≈ ' + fmtHours(h) + ' de trajet retour max';
+    } else {
+      els.radiusUnit.textContent = 'km autour du départ';
+    }
+  }
   function setMode(mode){
     radiusMode = mode;
     els.modeKm.setAttribute('aria-pressed', mode==='km');
     els.modeH.setAttribute('aria-pressed', mode==='h');
     if(mode==='km'){
-      els.radius.value = 300; els.radius.min=20; els.radius.max=1200;
-      els.radiusUnit.textContent = 'km autour du départ';
+      els.radius.value = 300; els.radius.min=20; els.radius.max=1200; els.radius.step=10;
     } else {
       els.radius.value = 4; els.radius.min=0.5; els.radius.max=12; els.radius.step=0.5;
-      els.radiusUnit.textContent = 'h de trajet retour max';
     }
+    updateRadiusUnitLabel();
   }
   els.modeKm.addEventListener('click', function(){ setMode('km'); });
   els.modeH.addEventListener('click', function(){ setMode('h'); });
+  els.radius.addEventListener('input', updateRadiusUnitLabel);
 
   /* ---------- HELPERS ---------- */
   function rand(min,max){ return Math.random()*(max-min)+min; }
