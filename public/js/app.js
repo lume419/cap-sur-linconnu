@@ -250,6 +250,7 @@
     radiusUnit: document.getElementById('radius-unit'),
     minDistanceField: document.getElementById('min-distance-field'),
     minDistance: document.getElementById('min-distance'),
+    maxDistance: document.getElementById('max-distance'),
     minDistanceError: document.getElementById('min-distance-error'),
     modeKm: document.getElementById('mode-km'),
     modeH: document.getElementById('mode-h'),
@@ -570,47 +571,67 @@
   // Construit un itinéraire réel par proche-en-proche : à chaque étape, on part de la position
   // courante et on choisit — avec un peu de hasard pondéré — une commune réelle non encore
   // visitée, en favorisant celles qui ont un point d'intérêt réel (FEATURED) et les plus peuplées
-  // (plus probable d'y trouver un vrai commerce/logement). Le rayon max demandé borne le premier
-  // saut ; les suivants restent volontairement courts pour dessiner une boucle cohérente.
+  // (plus probable d'y trouver un vrai commerce/logement).
   //
-  // Si une distance minimale est demandée (minDistanceKm), la première étape doit s'en éloigner
-  // d'au moins cette distance — quitte à dépasser le rayon/temps de retour max, qui ne borne que
-  // le trajet ALLER dans ce cas. La dernière étape (quand il y en a plusieurs) est alors choisie
-  // pour que le retour vers le départ reste dans ce rayon max, afin que le dernier trajet respecte
-  // le temps demandé même si le voyage s'est aventuré plus loin entre-temps.
-  function buildRealRoute(startLat, startLon, maxRadiusKm, numStops, avoidNorm, minDistanceKm){
+  // La "limite de rayon" (maxRadiusKm) ne borne QUE le tout dernier trajet — le retour vers le
+  // point de départ. Sur un séjour à plusieurs étapes, le voyage peut s'éloigner bien plus loin
+  // entre-temps (ex. 7 jours/6 nuits avec un rayon de retour de 300 km peut très bien pousser
+  // jusqu'à 800 km puis revenir en plusieurs étapes pour que le dernier trajet reste ≤ 300 km).
+  // Sur un trajet à une seule étape, en revanche, cette étape sert à la fois d'aller ET de retour :
+  // la limite de rayon s'y applique donc directement, comme avant.
+  //
+  // `minDistanceKm` (optionnelle) impose que la première étape soit à au moins cette distance.
+  // `maxDistanceKm` (optionnelle) plafonne la distance au point de départ pour TOUTE étape, à
+  // n'importe quel moment du séjour — un vrai plafond, contrairement à la limite de rayon.
+  function buildRealRoute(startLat, startLon, maxRadiusKm, numStops, avoidNorm, minDistanceKm, maxDistanceKm){
     var route = [];
     var used = {};
     if(avoidNorm) used[avoidNorm] = true;
     var curLat = startLat, curLon = startLon;
     var minDist = minDistanceKm || 0;
+    var maxDist = maxDistanceKm || 0; // 0 = pas de plafond
+    var hopCeiling = maxDist > 0 ? maxDist : 600;
     for(var i=0; i<numStops; i++){
       var isFirst = i===0;
       var isLast = !isFirst && i===numStops-1;
+      var isOnlyStop = numStops === 1;
       var minHop = isFirst ? Math.max(15, minDist) : 8;
-      var maxHop = isFirst
-        ? Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, 600))
-        : Math.max(35, Math.min(maxRadiusKm*0.5, 160));
+      var maxHop;
+      if(isFirst && isOnlyStop){
+        // Étape unique : elle sert aussi de retour, donc la limite de rayon s'y applique.
+        maxHop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, hopCeiling));
+      } else if(isFirst){
+        maxHop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, hopCeiling) : hopCeiling);
+      } else {
+        maxHop = Math.max(35, Math.min(hopCeiling*0.5, 220));
+      }
       var minPop = isFirst ? 300 : 80;
 
       var candidates;
-      if(isLast && minDist > maxRadiusKm){
-        // Le voyage s'est éloigné au-delà du rayon de retour : on cherche la dernière étape
-        // parmi les communes proches de la position courante ET dans le rayon de retour autour
-        // du point de départ, pour que le trajet final respecte le temps demandé.
-        candidates = findNearbyCommunes(curLat, curLon, 0, Math.max(maxHop, maxRadiusKm), minPop)
+      if(isLast){
+        // La limite de rayon/temps de retour ne s'applique qu'ici : quel que soit l'éloignement
+        // atteint entre-temps, la dernière étape doit être choisie pour que le trajet final
+        // rentre dans le rayon demandé (et dans le plafond maxDistanceKm, s'il y en a un).
+        var lastCap = maxDist > 0 ? Math.min(maxRadiusKm, maxDist) : maxRadiusKm;
+        candidates = findNearbyCommunes(curLat, curLon, 0, Math.max(maxHop, lastCap), minPop)
           .filter(function(x){ return !used[x.commune.norm]; })
-          .filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxRadiusKm; });
+          .filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= lastCap; });
         if(candidates.length===0){
-          candidates = findNearbyCommunes(startLat, startLon, 0, maxRadiusKm, 30)
+          candidates = findNearbyCommunes(startLat, startLon, 0, lastCap, 30)
             .filter(function(x){ return !used[x.commune.norm]; });
         }
       } else {
         candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop, minPop)
           .filter(function(x){ return !used[x.commune.norm]; });
+        if(maxDist > 0){
+          candidates = candidates.filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxDist; });
+        }
         if(candidates.length===0){
           candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop*2, 30)
             .filter(function(x){ return !used[x.commune.norm]; });
+          if(maxDist > 0){
+            candidates = candidates.filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxDist; });
+          }
         }
       }
       if(candidates.length===0) break;
@@ -830,17 +851,25 @@
     }
     return options;
   }
-  function buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, avoidNorm, minDistanceKm){
+  function buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, avoidNorm, minDistanceKm, maxDistanceKm){
     var speed = TRANSPORT[transportKey].speed;
     var cLat = cityCoord.lat, cLon = cityCoord.lon;
     var legs = [];
     var minDist = minDistanceKm || 0;
+    var maxDist = maxDistanceKm || 0;
 
     if(days <= 1){
+      // Jour unique : l'étape sert aussi de retour, donc la limite de rayon s'y applique
+      // directement (comme pour un trajet à une seule étape dans buildRealRoute).
+      var hopCeiling0 = maxDist > 0 ? maxDist : 600;
       var minHop0 = Math.max(15, minDist);
-      var hop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, 600));
+      var hop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, hopCeiling0));
       var candidates = findNearbyCommunes(cLat, cLon, minHop0, hop, 300).filter(function(x){ return x.commune.norm !== avoidNorm; });
-      if(candidates.length===0) candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 30);
+      if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
+      if(candidates.length===0){
+        candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 30);
+        if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
+      }
       candidates.forEach(function(x){
         var feat = FEATURED[x.commune.norm];
         x.score = (feat ? 1000 + feat.pois.length*60 : 0) + Math.min(x.commune.pop,8000)/40 + rand(0,90);
@@ -882,8 +911,8 @@
     var minStops = forceMultiStop ? 2 : (totalNights >= 3 ? Math.min(3, maxPossibleStops) : 1);
     minStops = Math.min(minStops, maxPossibleStops);
     var numStops = randInt(minStops, maxPossibleStops);
-    var route = buildRealRoute(cLat, cLon, maxRadiusKm, numStops, avoidNorm, minDist);
-    if(route.length === 0) route = buildRealRoute(cLat, cLon, Math.max(maxRadiusKm, 300), 1, null, 0);
+    var route = buildRealRoute(cLat, cLon, maxRadiusKm, numStops, avoidNorm, minDist, maxDist);
+    if(route.length === 0) route = buildRealRoute(cLat, cLon, Math.max(maxRadiusKm, 300), 1, null, 0, maxDist);
     var nights = distributeNights(route, totalNights);
 
     var dayCounter = 0;
@@ -1286,14 +1315,19 @@
     var cityCoord = { lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept };
 
     var minDistanceKm = parseFloat(els.minDistance.value) || 0;
+    var maxDistanceKm = parseFloat(els.maxDistance.value) || 0;
     var totalNights = Math.max(0, days - 1);
     clearMinDistanceError();
+    if(minDistanceKm > 0 && maxDistanceKm > 0 && minDistanceKm > maxDistanceKm){
+      showMinDistanceError("La distance minimale (" + minDistanceKm + " km) ne peut pas dépasser la distance maximale (" + maxDistanceKm + " km).");
+      return;
+    }
     if(minDistanceKm > 0 && minDistanceKm > maxRadiusKm && totalNights <= 1){
       showMinDistanceError("Impossible : avec seulement " + (totalNights === 0 ? '1 jour et aucune nuitée' : '1 nuitée') + ", on ne peut pas s'éloigner d'au moins " + minDistanceKm + " km puis revenir dans le rayon/temps de retour choisi (" + Math.round(maxRadiusKm) + " km). Augmentez la durée du séjour, réduisez la distance minimale, ou élargissez le rayon max.");
       return;
     }
 
-    var legs = buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, lastNorm, minDistanceKm);
+    var legs = buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, lastNorm, minDistanceKm, maxDistanceKm);
     if(legs.length === 0){
       showCityError("Impossible de construire un itinéraire depuis cette ville pour l'instant — réessayez, ou élargissez le rayon.");
       return;

@@ -216,6 +216,8 @@
   .input-unit{display:flex; align-items:center; gap:.5rem;}
   .input-unit input{flex:1; min-width:0;}
   .unit{font:var(--font-mono); font-size:.8rem; color:var(--ink-faint); white-space:nowrap;}
+  .distance-range-inputs{display:flex; gap:.7rem; flex-wrap:wrap;}
+  .distance-range-inputs .input-unit{flex:1; min-width:9.5rem;}
 
   .date-range{display:flex; align-items:center; gap:.4rem;}
   .date-range input{flex:1; min-width:0;}

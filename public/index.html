@@ -99,15 +99,22 @@
         <input type="number" id="radius" min="20" max="1200" value="300" />
         <span class="unit" id="radius-unit">km autour du départ</span>
       </div>
+      <span class="field-hint">S'applique uniquement au <strong>dernier trajet</strong> (le retour) : le séjour peut s'éloigner davantage entre-temps si la durée le permet, du moment que la toute dernière étape avant de rentrer respecte cette limite.</span>
     </div>
 
     <div class="field" id="min-distance-field">
-      <label for="min-distance">Distance minimale d'éloignement (optionnel)</label>
-      <div class="input-unit">
-        <input type="number" id="min-distance" min="0" max="2000" placeholder="Aucun minimum" />
-        <span class="unit">km au moins</span>
+      <label>Distance d'éloignement (optionnel)</label>
+      <div class="distance-range-inputs">
+        <div class="input-unit">
+          <input type="number" id="min-distance" min="0" max="3000" placeholder="Aucun minimum" />
+          <span class="unit">km au moins</span>
+        </div>
+        <div class="input-unit">
+          <input type="number" id="max-distance" min="0" max="3000" placeholder="Aucun maximum" />
+          <span class="unit">km au maximum</span>
+        </div>
       </div>
-      <span class="field-hint">Ne proposer que des destinations à au moins cette distance. Si c'est plus loin que le rayon/temps de retour max, le trajet fera un détour pour revenir dans les temps sur la dernière étape.</span>
+      <span class="field-hint">Minimum : la première étape sera à au moins cette distance (quitte à dépasser la limite de rayon ci-dessus, qui ne borne que le retour). Maximum : le trajet ne s'éloignera jamais plus loin que cette distance du point de départ, à aucun moment du séjour.</span>
       <span class="field-error" id="min-distance-error" role="alert"></span>
     </div>
 
