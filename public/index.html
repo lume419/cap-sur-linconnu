@@ -97,10 +97,12 @@
         <button type="button" id="mode-h" aria-pressed="false">Temps de trajet retour max (h)</button>
       </div>
       <div class="radius-input">
+        <button type="button" class="radius-step" id="radius-dec" aria-label="Diminuer">−</button>
         <div class="radius-value-wrap" id="radius-value-wrap">
           <input type="number" id="radius" min="20" max="1200" value="300" step="10" />
           <span class="radius-value-display" id="radius-value-display" aria-hidden="true"></span>
         </div>
+        <button type="button" class="radius-step" id="radius-inc" aria-label="Augmenter">+</button>
         <span class="unit" id="radius-unit">km autour du départ</span>
       </div>
       <span class="field-hint">S'applique uniquement au <strong>dernier trajet</strong> (le retour) : le séjour peut s'éloigner davantage entre-temps si la durée le permet, du moment que la toute dernière étape avant de rentrer respecte cette limite.</span>

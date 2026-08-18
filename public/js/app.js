@@ -251,6 +251,8 @@
     radiusUnit: document.getElementById('radius-unit'),
     radiusValueWrap: document.getElementById('radius-value-wrap'),
     radiusValueDisplay: document.getElementById('radius-value-display'),
+    radiusDec: document.getElementById('radius-dec'),
+    radiusInc: document.getElementById('radius-inc'),
     minDistanceField: document.getElementById('min-distance-field'),
     minDistance: document.getElementById('min-distance'),
     maxDistance: document.getElementById('max-distance'),
@@ -524,6 +526,22 @@
     if(allowed.indexOf(e.key) === -1){ e.preventDefault(); }
   });
   els.radius.addEventListener('paste', function(e){ if(radiusMode === 'h') e.preventDefault(); });
+  // Boutons +/- toujours tactiles, indépendants des flèches natives du champ (peu fiables, voire
+  // absentes, sur mobile) et du champ lui-même (invisible en mode heures). Seul vrai moyen
+  // d'ajuster la valeur au doigt.
+  function stepRadius(dir){
+    var el = els.radius;
+    var step = parseFloat(el.step) || 1;
+    var min = parseFloat(el.min), max = parseFloat(el.max);
+    var cur = parseFloat(el.value);
+    if(isNaN(cur)) cur = min;
+    var next = Math.min(max, Math.max(min, cur + dir*step));
+    next = Math.round(next*100)/100; // évite les artefacts d'arrondi flottant (ex. 0.5+0.1*3)
+    el.value = next;
+    el.dispatchEvent(new Event('input', {bubbles:true}));
+  }
+  els.radiusDec.addEventListener('click', function(){ stepRadius(-1); });
+  els.radiusInc.addEventListener('click', function(){ stepRadius(1); });
 
   /* ---------- FOURCHETTE DE PRIX DU BUDGET SÉLECTIONNÉ ---------- */
   // Affiche le plafond réellement utilisé pour préremplir les liens Airbnb/Booking (voir
