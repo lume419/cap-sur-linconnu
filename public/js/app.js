@@ -197,6 +197,9 @@
     transport: document.getElementById('transport'),
     radius: document.getElementById('radius'),
     radiusUnit: document.getElementById('radius-unit'),
+    minDistanceField: document.getElementById('min-distance-field'),
+    minDistance: document.getElementById('min-distance'),
+    minDistanceError: document.getElementById('min-distance-error'),
     modeKm: document.getElementById('mode-km'),
     modeH: document.getElementById('mode-h'),
     clock: document.getElementById('clock'),
@@ -262,20 +265,31 @@
     var defaultEnd = addDays(defaultStart, 3);
     els.dateStart.min = isoDate(today);
     els.dateStart.value = isoDate(defaultStart);
-    els.dateEnd.min = isoDate(addDays(defaultStart,1));
+    els.dateEnd.min = isoDate(defaultStart); // même jour autorisé (virée sans nuitée)
     els.dateEnd.value = isoDate(defaultEnd);
   })();
   function clearDatesError(){
     els.datesField.classList.remove('invalid');
     els.datesError.classList.remove('show');
   }
+  // Convention standard (hôtellerie/voyage) : le nombre de nuits est l'écart en jours calendaires
+  // entre arrivée et retour (0 si même jour = virée sans nuitée) ; le nombre de "jours" du séjour
+  // est nuits + 1 (le jour d'arrivée compte, celui de retour aussi). Ex. du 7 au 9 = 2 nuits, 3 jours.
+  function tripNightsAndDays(start, end){
+    var rawNights = Math.round((end - start) / 86400000);
+    var nights = Math.max(0, Math.min(MAX_TRIP_DAYS - 1, rawNights));
+    return { nights: nights, days: nights + 1, capped: nights < rawNights };
+  }
   function updateDatesHint(){
     var start = parseIsoDate(els.dateStart.value);
     var end = parseIsoDate(els.dateEnd.value);
-    if(start && end && end > start){
-      els.dateEnd.min = isoDate(addDays(start,1));
-      var n = Math.min(MAX_TRIP_DAYS, Math.round((end-start)/86400000));
-      els.durationHint.textContent = n + (n===1 ? ' jour' : ' jours') + (n < Math.round((end-start)/86400000) ? ' ('+MAX_TRIP_DAYS+' max)' : '');
+    if(start && end && end >= start){
+      els.dateEnd.min = isoDate(start);
+      var t = tripNightsAndDays(start, end);
+      var label = t.nights === 0
+        ? '1 jour (aller-retour, sans nuitée)'
+        : t.days + ' jours (' + t.nights + (t.nights === 1 ? ' nuit' : ' nuits') + ')';
+      els.durationHint.textContent = label + (t.capped ? ' — ' + MAX_TRIP_DAYS + ' jours max' : '');
       clearDatesError();
     } else {
       els.durationHint.textContent = '—';
@@ -285,8 +299,8 @@
     var start = parseIsoDate(els.dateStart.value);
     var end = parseIsoDate(els.dateEnd.value);
     if(start){
-      els.dateEnd.min = isoDate(addDays(start,1));
-      if(!end || end <= start){ els.dateEnd.value = isoDate(addDays(start,3)); }
+      els.dateEnd.min = isoDate(start);
+      if(!end || end < start){ els.dateEnd.value = isoDate(addDays(start,3)); }
     }
     updateDatesHint();
   });
@@ -295,8 +309,8 @@
   function getTripDays(){
     var start = parseIsoDate(els.dateStart.value);
     var end = parseIsoDate(els.dateEnd.value);
-    if(!start || !end || end <= start) return null;
-    return Math.max(1, Math.min(MAX_TRIP_DAYS, Math.round((end-start)/86400000)));
+    if(!start || !end || end < start) return null;
+    return tripNightsAndDays(start, end).days;
   }
 
   /* ---------- CITY VALIDATION ---------- */
@@ -312,6 +326,21 @@
     void els.cityField.offsetWidth; // restart shake animation
     els.cityField.classList.add('shake');
     els.city.focus();
+  }
+
+  /* ---------- MIN-DISTANCE VALIDATION ---------- */
+  function clearMinDistanceError(){
+    els.minDistanceField.classList.remove('invalid');
+    els.minDistanceError.classList.remove('show');
+  }
+  function showMinDistanceError(message){
+    els.minDistanceError.textContent = message;
+    els.minDistanceField.classList.add('invalid');
+    els.minDistanceError.classList.add('show');
+    els.minDistanceField.classList.remove('shake');
+    void els.minDistanceField.offsetWidth;
+    els.minDistanceField.classList.add('shake');
+    els.minDistance.focus();
   }
 
   /* ---------- CITY AUTOCOMPLETE (nom ou code postal) ---------- */
@@ -492,21 +521,46 @@
   // visitée, en favorisant celles qui ont un point d'intérêt réel (FEATURED) et les plus peuplées
   // (plus probable d'y trouver un vrai commerce/logement). Le rayon max demandé borne le premier
   // saut ; les suivants restent volontairement courts pour dessiner une boucle cohérente.
-  function buildRealRoute(startLat, startLon, maxRadiusKm, numStops, avoidNorm){
+  //
+  // Si une distance minimale est demandée (minDistanceKm), la première étape doit s'en éloigner
+  // d'au moins cette distance — quitte à dépasser le rayon/temps de retour max, qui ne borne que
+  // le trajet ALLER dans ce cas. La dernière étape (quand il y en a plusieurs) est alors choisie
+  // pour que le retour vers le départ reste dans ce rayon max, afin que le dernier trajet respecte
+  // le temps demandé même si le voyage s'est aventuré plus loin entre-temps.
+  function buildRealRoute(startLat, startLon, maxRadiusKm, numStops, avoidNorm, minDistanceKm){
     var route = [];
     var used = {};
     if(avoidNorm) used[avoidNorm] = true;
     var curLat = startLat, curLon = startLon;
+    var minDist = minDistanceKm || 0;
     for(var i=0; i<numStops; i++){
       var isFirst = i===0;
-      var minHop = isFirst ? 15 : 8;
-      var maxHop = isFirst ? Math.max(40, Math.min(maxRadiusKm, 600)) : Math.max(35, Math.min(maxRadiusKm*0.5, 160));
+      var isLast = !isFirst && i===numStops-1;
+      var minHop = isFirst ? Math.max(15, minDist) : 8;
+      var maxHop = isFirst
+        ? Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, 600))
+        : Math.max(35, Math.min(maxRadiusKm*0.5, 160));
       var minPop = isFirst ? 300 : 80;
-      var candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop, minPop)
-        .filter(function(x){ return !used[x.commune.norm]; });
-      if(candidates.length===0){
-        candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop*2, 30)
+
+      var candidates;
+      if(isLast && minDist > maxRadiusKm){
+        // Le voyage s'est éloigné au-delà du rayon de retour : on cherche la dernière étape
+        // parmi les communes proches de la position courante ET dans le rayon de retour autour
+        // du point de départ, pour que le trajet final respecte le temps demandé.
+        candidates = findNearbyCommunes(curLat, curLon, 0, Math.max(maxHop, maxRadiusKm), minPop)
+          .filter(function(x){ return !used[x.commune.norm]; })
+          .filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxRadiusKm; });
+        if(candidates.length===0){
+          candidates = findNearbyCommunes(startLat, startLon, 0, maxRadiusKm, 30)
+            .filter(function(x){ return !used[x.commune.norm]; });
+        }
+      } else {
+        candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop, minPop)
           .filter(function(x){ return !used[x.commune.norm]; });
+        if(candidates.length===0){
+          candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop*2, 30)
+            .filter(function(x){ return !used[x.commune.norm]; });
+        }
       }
       if(candidates.length===0) break;
       candidates.forEach(function(x){
@@ -685,15 +739,17 @@
   function activityFor(poi){
     return poi.name + ' (' + (POI_TYPE_LABEL[poi.type] || 'curiosité locale') + ')';
   }
-  function buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, avoidNorm){
+  function buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, avoidNorm, minDistanceKm){
     var speed = TRANSPORT[transportKey].speed;
     var cLat = cityCoord.lat, cLon = cityCoord.lon;
     var legs = [];
+    var minDist = minDistanceKm || 0;
 
     if(days <= 1){
-      var hop = Math.max(40, Math.min(maxRadiusKm, 600));
-      var candidates = findNearbyCommunes(cLat, cLon, 15, hop, 300).filter(function(x){ return x.commune.norm !== avoidNorm; });
-      if(candidates.length===0) candidates = findNearbyCommunes(cLat, cLon, 15, hop*1.6, 30);
+      var minHop0 = Math.max(15, minDist);
+      var hop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, 600));
+      var candidates = findNearbyCommunes(cLat, cLon, minHop0, hop, 300).filter(function(x){ return x.commune.norm !== avoidNorm; });
+      if(candidates.length===0) candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 30);
       candidates.forEach(function(x){
         var feat = FEATURED[x.commune.norm];
         x.score = (feat ? 1000 + feat.pois.length*60 : 0) + Math.min(x.commune.pop,8000)/40 + rand(0,90);
@@ -727,10 +783,16 @@
 
     var totalNights = days - 1;
     var maxPossibleStops = Math.max(1, Math.min(MAX_STOPS, totalNights));
-    var minStops = totalNights >= 3 ? Math.min(3, maxPossibleStops) : 1;
+    // Si la distance minimale demandée dépasse le rayon/temps de retour max, il faut au moins
+    // 2 étapes pour pouvoir s'éloigner suffisamment PUIS revenir dans les temps sur le dernier
+    // trajet (voir buildRealRoute) — sinon la contrainte serait mathématiquement impossible à
+    // tenir avec une seule étape (generate() bloque déjà ce cas quand il ne reste qu'1 nuit).
+    var forceMultiStop = minDist > maxRadiusKm && maxPossibleStops >= 2;
+    var minStops = forceMultiStop ? 2 : (totalNights >= 3 ? Math.min(3, maxPossibleStops) : 1);
+    minStops = Math.min(minStops, maxPossibleStops);
     var numStops = randInt(minStops, maxPossibleStops);
-    var route = buildRealRoute(cLat, cLon, maxRadiusKm, numStops, avoidNorm);
-    if(route.length === 0) route = buildRealRoute(cLat, cLon, Math.max(maxRadiusKm, 300), 1, null);
+    var route = buildRealRoute(cLat, cLon, maxRadiusKm, numStops, avoidNorm, minDist);
+    if(route.length === 0) route = buildRealRoute(cLat, cLon, Math.max(maxRadiusKm, 300), 1, null, 0);
     var nights = distributeNights(route, totalNights);
 
     var dayCounter = 0;
@@ -848,6 +910,24 @@
                   '</span>'+
                 '</a>'+
                 '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
+              // Filet de sécurité : si l'URL d'image renvoyée par Wikipédia échoue quand même
+              // au chargement (lien mort, hotlink refusé...), on retombe sur la tuile de secours
+              // plutôt que de laisser une icône d'image cassée affichée.
+              var imgEl = tileEl.querySelector('.photo-tile-img');
+              if(imgEl){
+                imgEl.onerror = function(){
+                  tileEl.className = 'photo-tile';
+                  tileEl.innerHTML =
+                    '<a class="photo-tile-main" href="'+photoLinks.images+'" target="_blank" rel="noopener">'+
+                      '<span class="photo-tile-icon">'+icon('camera')+'</span>'+
+                      '<span class="photo-tile-text">'+
+                        '<span class="photo-tile-title">Voir '+stopName+' en photo</span>'+
+                        '<span class="photo-tile-sub">Image indisponible — recherche d’images en direct</span>'+
+                      '</span>'+
+                    '</a>'+
+                    '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
+                };
+              }
             } else {
               var sub = tileEl.querySelector('.photo-tile-sub');
               if(sub) sub.textContent = 'Aucune photo trouvée sur Wikipédia pour ce lieu';
@@ -1072,7 +1152,15 @@
     var maxRadiusKm = Math.max(20, effectiveRadiusKm(speed));
     var cityCoord = { lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept };
 
-    var legs = buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, lastNorm);
+    var minDistanceKm = parseFloat(els.minDistance.value) || 0;
+    var totalNights = Math.max(0, days - 1);
+    clearMinDistanceError();
+    if(minDistanceKm > 0 && minDistanceKm > maxRadiusKm && totalNights <= 1){
+      showMinDistanceError("Impossible : avec seulement " + (totalNights === 0 ? '1 jour et aucune nuitée' : '1 nuitée') + ", on ne peut pas s'éloigner d'au moins " + minDistanceKm + " km puis revenir dans le rayon/temps de retour choisi (" + Math.round(maxRadiusKm) + " km). Augmentez la durée du séjour, réduisez la distance minimale, ou élargissez le rayon max.");
+      return;
+    }
+
+    var legs = buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, lastNorm, minDistanceKm);
     if(legs.length === 0){
       showCityError("Impossible de construire un itinéraire depuis cette ville pour l'instant — réessayez, ou élargissez le rayon.");
       return;

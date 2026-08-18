@@ -78,9 +78,19 @@ app.get('/api/photo', async (req, res) => {
 
 app.use(express.static(path.join(__dirname, 'public'), {
   // Les données (communes.txt, featured.txt, france-map.json) sont volumineuses mais
-  // statiques : autant laisser les navigateurs les mettre en cache.
+  // statiques : autant laisser les navigateurs les mettre en cache longtemps. En revanche
+  // le HTML/CSS/JS change à chaque mise à jour de l'app — un cache d'1h dessus faisait qu'un
+  // simple rechargement de page pouvait continuer à servir une ancienne version depuis le
+  // cache navigateur sans même revalider auprès du serveur. On force donc une revalidation
+  // systématique (`must-revalidate`) pour ces fichiers, tout en gardant le cache long pour
+  // /data/ qui est volumineux et ne change qu'avec le code (donc avec un nouveau déploiement).
   maxAge: '1h',
-  extensions: ['html']
+  extensions: ['html'],
+  setHeaders: function(res, filePath){
+    if(!/[\\/]data[\\/]/.test(filePath)){
+      res.setHeader('Cache-Control', 'no-cache, must-revalidate');
+    }
+  }
 }));
 
 app.listen(PORT, () => {

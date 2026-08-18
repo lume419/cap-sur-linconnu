@@ -47,7 +47,7 @@
           <input type="date" id="date-end" aria-label="Date de retour" />
         </div>
         <span class="field-hint" id="duration-hint">3 jours</span>
-        <span class="field-error" id="dates-error" role="alert">La date de retour doit être après la date d'arrivée.</span>
+        <span class="field-error" id="dates-error" role="alert">La date de retour doit être le même jour ou après la date d'arrivée.</span>
       </div>
 
       <div class="field">
@@ -99,6 +99,16 @@
         <input type="number" id="radius" min="20" max="1200" value="300" />
         <span class="unit" id="radius-unit">km autour du départ</span>
       </div>
+    </div>
+
+    <div class="field" id="min-distance-field">
+      <label for="min-distance">Distance minimale d'éloignement (optionnel)</label>
+      <div class="input-unit">
+        <input type="number" id="min-distance" min="0" max="2000" placeholder="Aucun minimum" />
+        <span class="unit">km au moins</span>
+      </div>
+      <span class="field-hint">Ne proposer que des destinations à au moins cette distance. Si c'est plus loin que le rayon/temps de retour max, le trajet fera un détour pour revenir dans les temps sur la dernière étape.</span>
+      <span class="field-error" id="min-distance-error" role="alert"></span>
     </div>
 
     <div class="launch-row">
