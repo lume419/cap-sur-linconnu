@@ -512,6 +512,17 @@
   els.modeKm.addEventListener('click', function(){ setMode('km'); });
   els.modeH.addEventListener('click', function(){ setMode('h'); });
   els.radius.addEventListener('input', updateRadiusUnitLabel);
+  // En mode heures, le nombre décimal réel de l'input est rendu invisible (voir .show-duration
+  // en CSS) : taper dessus au clavier ne montrerait rien d'utile, et permettrait de sélectionner
+  // ce texte caché. On bloque donc la saisie clavier directe, en ne laissant passer que les
+  // touches qui pilotent le pas de 0,5h (flèches haut/bas) et la navigation (Tab) — l'ajustement
+  // de la valeur reste possible via ces flèches ou via les boutons +/- natifs du champ.
+  els.radius.addEventListener('keydown', function(e){
+    if(radiusMode !== 'h') return;
+    var allowed = ['Tab','ArrowUp','ArrowDown','Escape'];
+    if(allowed.indexOf(e.key) === -1){ e.preventDefault(); }
+  });
+  els.radius.addEventListener('paste', function(e){ if(radiusMode === 'h') e.preventDefault(); });
 
   /* ---------- HELPERS ---------- */
   function rand(min,max){ return Math.random()*(max-min)+min; }

@@ -301,12 +301,14 @@
   .radius-value-wrap{position:relative; max-width:9rem;}
   .radius-value-wrap input{max-width:none; width:100%;}
   /* En mode "temps de trajet", le champ affiche la durée mise en forme (ex. "4h30") par-dessus
-     l'input numérique plutôt qu'à côté : le nombre décimal reste éditable (flèches +/-, saisie
-     clavier) mais devient invisible, seul le texte de l'incrustation — qui suit sa valeur en
-     temps réel — est visible. Le curseur de saisie (caret) est aussi masqué : sa position suit le
-     nombre décimal réel (ex. "5.5"), pas le texte affiché ("5h30", longueur différente), donc il
-     apparaissait à un endroit incohérent avec ce qui est visible. */
-  .radius-value-wrap.show-duration input{color:transparent; caret-color:transparent;}
+     l'input numérique plutôt qu'à côté : le nombre décimal reste ajustable via les flèches +/-
+     mais devient invisible, seul le texte de l'incrustation — qui suit sa valeur en temps réel —
+     est visible. Le curseur de saisie (caret) est masqué : sa position suit le nombre décimal réel
+     (ex. "5.5"), pas le texte affiché ("5h30", longueur différente), donc il apparaissait à un
+     endroit incohérent. La saisie clavier directe est bloquée en JS (voir app.js) et la sélection
+     à la souris désactivée ici : taper ou sélectionner ce texte caché n'aurait aucun sens visible.
+  */
+  .radius-value-wrap.show-duration input{color:transparent; caret-color:transparent; user-select:none;}
   .radius-value-display{
     position:absolute; inset:0; display:none; align-items:center;
     padding:.65rem .7rem; font:600 .95rem/1.2 var(--font-body); color:var(--ink);
