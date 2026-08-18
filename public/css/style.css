@@ -221,6 +221,9 @@
   .unit{font:var(--font-mono); font-size:.8rem; color:var(--ink-faint); white-space:nowrap;}
   .distance-range-inputs{display:flex; gap:.7rem; flex-wrap:wrap;}
   .distance-range-inputs .input-unit{flex:1; min-width:9.5rem;}
+  /* Pour la lisibilité, "km au moins"/"km au maximum" passe systématiquement sous les boutons -/+,
+     pas seulement quand la place manque — plus facile à lire que collé juste après le "+". */
+  .distance-range-inputs .input-unit .unit{flex-basis:100%;}
   /* Boutons +/- dans la DA du site à la place des flèches natives par défaut du navigateur, comme
      pour le champ de rayon (voir plus bas — même règle -moz-appearance/opacity+[type=number] pour
      les masquer sur Firefox et Chromium). */
