@@ -323,7 +323,13 @@
   .radius-step:active{background:color-mix(in srgb, var(--accent-3) 20%, var(--surface-2));}
   /* Les flèches natives du champ faisaient double emploi avec les boutons +/- ci-dessus (redondant
      en mode km, carrément flottantes dans le vide en mode heures où le champ réel est masqué) —
-     masquées dans les deux modes, les boutons +/- sont désormais le seul contrôle. */
+     masquées dans les deux modes, les boutons +/- sont désormais le seul contrôle. Chrome/Safari/
+     Edge se masquent via les pseudo-éléments ::-webkit-*-spin-button ; Firefox les ignore
+     totalement et affiche son propre petit sélecteur ⇅ à la place — d'où le doublon signalé,
+     resté visible malgré le premier correctif. -moz-appearance:textfield est le seul moyen de le
+     supprimer côté Firefox.
+  */
+  .radius-value-wrap input{-moz-appearance:textfield;}
   .radius-value-wrap input::-webkit-inner-spin-button,
   .radius-value-wrap input::-webkit-outer-spin-button{opacity:0; pointer-events:none;}
   /* En mode "temps de trajet", le champ affiche la durée mise en forme (ex. "4h30") par-dessus
