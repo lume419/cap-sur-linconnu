@@ -313,7 +313,7 @@
     var today = new Date();
     today.setHours(0,0,0,0);
     var defaultStart = addDays(today, 14); // par défaut, un départ dans deux semaines
-    var defaultEnd = addDays(defaultStart, 3);
+    var defaultEnd = addDays(defaultStart, 2); // par défaut, un séjour de 3 jours / 2 nuits
     els.dateStart.min = isoDate(today);
     els.dateStart.value = isoDate(defaultStart);
     els.dateEnd.min = isoDate(defaultStart); // même jour autorisé (virée sans nuitée)
@@ -351,7 +351,7 @@
     var end = parseIsoDate(els.dateEnd.value);
     if(start){
       els.dateEnd.min = isoDate(start);
-      if(!end || end < start){ els.dateEnd.value = isoDate(addDays(start,3)); }
+      if(!end || end < start){ els.dateEnd.value = isoDate(addDays(start,2)); } // 3 jours / 2 nuits par défaut
     }
     updateDatesHint();
   });
