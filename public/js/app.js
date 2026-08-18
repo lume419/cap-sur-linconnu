@@ -1270,6 +1270,31 @@
     }
     legPts.forEach(function(pt, idx){ if(pt) legPts[idx] = declutter(pt); });
 
+    // Zoome la carte sur la zone du trajet plutôt que d'afficher toute la France à chaque fois —
+    // beaucoup plus lisible pour un séjour local que de chercher un petit tracé perdu dans le pays.
+    var routePoints = (startPt ? [startPt] : []).concat(legPts.filter(Boolean));
+    var cropVb = { x:0, y:0, W:vb.W, H:vb.H };
+    if(routePoints.length){
+      var minX = Math.min.apply(null, routePoints.map(function(p){return p[0];}));
+      var maxX = Math.max.apply(null, routePoints.map(function(p){return p[0];}));
+      var minY = Math.min.apply(null, routePoints.map(function(p){return p[1];}));
+      var maxY = Math.max.apply(null, routePoints.map(function(p){return p[1];}));
+      var routeW = maxX-minX, routeH = maxY-minY;
+      // Marge généreuse : de la place pour les étiquettes (noms de ville au-dessus/en dessous des
+      // épingles), pas juste pour les points eux-mêmes.
+      var padX = Math.max(45, routeW*0.28), padY = Math.max(55, routeH*0.32);
+      var cropX0 = minX-padX, cropY0 = minY-padY, cropW = routeW+padX*2, cropH = routeH+padY*2;
+      // Zoom minimal : évite un cadrage absurde sur un trajet très local (voire une seule ville).
+      var minCropW = vb.W*0.16, minCropH = vb.H*0.16;
+      if(cropW < minCropW){ cropX0 -= (minCropW-cropW)/2; cropW = minCropW; }
+      if(cropH < minCropH){ cropY0 -= (minCropH-cropH)/2; cropH = minCropH; }
+      // Reste dans les limites de la carte d'origine (évite trop de vide/mer visible autour).
+      cropW = Math.min(cropW, vb.W); cropH = Math.min(cropH, vb.H);
+      cropX0 = Math.max(0, Math.min(cropX0, vb.W-cropW));
+      cropY0 = Math.max(0, Math.min(cropY0, vb.H-cropH));
+      cropVb = { x:cropX0, y:cropY0, W:cropW, H:cropH };
+    }
+
     var routePts = startPt ? [startPt] : [];
     legs.forEach(function(leg, idx){ if(!leg.isReturn && legPts[idx]) routePts.push(legPts[idx]); });
     var routePath = routePts.length > 1
@@ -1321,7 +1346,7 @@
         '<text x="'+p[0].toFixed(1)+'" y="'+(p[1]-5).toFixed(1)+'" text-anchor="middle" font-size="7.5" fill="var(--ink-faint)" fill-opacity="0.65" font-family="ui-sans-serif">'+mc.name+'</text>';
     }).join('');
 
-    var svg = '<svg viewBox="0 0 '+vb.W+' '+vb.H+'" width="100%" height="auto" role="img" aria-label="Carte de France avec le tracé du road trip">'+
+    var svg = '<svg viewBox="'+cropVb.x.toFixed(1)+' '+cropVb.y.toFixed(1)+' '+cropVb.W.toFixed(1)+' '+cropVb.H.toFixed(1)+'" width="100%" height="auto" role="img" aria-label="Carte de France, zoomée sur le trajet">'+
       '<path d="'+FRANCE_MAP.mainlandPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
       '<path d="'+FRANCE_MAP.corsicaPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
       majorMarks +

@@ -544,7 +544,11 @@
   .activity-card-img{width:100%; height:100%; object-fit:cover; display:block;}
   .activity-card-body{padding:.55rem .65rem .7rem;}
   .activity-card-title{font:700 .82rem/1.25 var(--font-body); color:var(--ink);}
-  .activity-card-type{font-size:.72rem; color:var(--ink-faint); text-transform:capitalize; margin-top:.1rem;}
+  /* Majuscule sur la seule première lettre, pas "capitalize" (qui met une majuscule à CHAQUE mot —
+     correct pour une étiquette d'un mot comme "château", mais casse les phrases plus longues comme
+     "à faire sur place" en "À Faire Sur Place"). */
+  .activity-card-type{font-size:.72rem; color:var(--ink-faint); margin-top:.1rem;}
+  .activity-card-type::first-letter{text-transform:uppercase;}
 
   /* ============ PACKING LIST ============ */
   .pack-card{
