@@ -137,8 +137,9 @@
     var lon = parseFloat(latlon[0]);
     var lat = parseFloat(latlon[1]);
     var cps = parts[2].split(',');
-    var name = parts[3];
-    return { name:name, norm:normalizeCityName(name), cps:cps, pop:pop, lat:lat, lon:lon };
+    var dept = parts[3];
+    var name = parts[4];
+    return { name:name, norm:normalizeCityName(name), cps:cps, pop:pop, lat:lat, lon:lon, dept:dept };
   });
 
   // Recherche à partir de 3 caractères : chiffres -> préfixe de code postal, lettres -> préfixe du nom.
@@ -153,9 +154,9 @@
       if(isPostal){
         var matchCp = null;
         for(var j=0;j<c.cps.length;j++){ if(c.cps[j].indexOf(q)===0){ matchCp = c.cps[j]; break; } }
-        if(matchCp) matches.push({name:c.name, cp:matchCp, allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon});
+        if(matchCp) matches.push({name:c.name, cp:matchCp, allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept});
       } else if(c.norm.indexOf(q)===0){
-        matches.push({name:c.name, cp:c.cps[0], allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon});
+        matches.push({name:c.name, cp:c.cps[0], allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept});
       }
     }
     matches.sort(function(a,b){ return b.pop - a.pop; });
@@ -351,7 +352,7 @@
     els.city.setAttribute('aria-expanded','true');
   }
   function selectCommune(r){
-    selectedCity = { name:r.name, cp:r.cp, lat:r.lat, lon:r.lon };
+    selectedCity = { name:r.name, cp:r.cp, lat:r.lat, lon:r.lon, dept:r.dept };
     els.city.value = r.name + ' (' + r.cp + ')';
     hideSuggestions();
     clearCityError();
@@ -653,16 +654,28 @@
       booking: 'https://www.booking.com/searchresults.fr.html?ss=' + q + '&checkin=' + checkIn + '&checkout=' + checkOut + '&group_adults=2&no_rooms=1&nflt=price%3DEUR-0-' + priceMax + '-1'
     };
   }
-  // Photos réelles : même principe que les liens d'hébergement — cet artefact ne stocke et n'embarque
-  // aucune image (la CSP d'un artefact publié bloque de toute façon le chargement d'images externes
-  // en direct). On ouvre plutôt, en un clic, de vraies photos à jour : la page Wikipédia du lieu et
-  // une recherche d'images — rien n'est fabriqué ni mis en cache ici.
+  // Liens de secours (toujours utiles pendant le chargement, ou si aucune photo n'est trouvée) :
+  // une recherche Wikipédia et une recherche d'images, en un clic, sans rien stocker.
   function buildPhotoLinks(placeName){
     var q = encodeURIComponent(placeName + ' France');
     return {
       wiki: 'https://fr.wikipedia.org/wiki/Special:Search?search=' + encodeURIComponent(placeName) + '&go=Go',
       images: 'https://www.google.com/search?tbm=isch&q=' + q
     };
+  }
+  // Vraie photo du lieu : on interroge notre propre serveur (/api/photo), qui va chercher la
+  // photo d'infobox de l'article Wikipédia correspondant (avec désambiguïsation par département)
+  // et la met en cache côté serveur. Ici, on ne fait qu'éviter de redemander deux fois la même
+  // commune pendant l'affichage (ex. plusieurs nuits au même endroit).
+  var clientPhotoCache = {};
+  function fetchPlacePhoto(name, dept){
+    var key = name + '|' + (dept || '');
+    if(!clientPhotoCache[key]){
+      clientPhotoCache[key] = fetch('/api/photo?name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || ''))
+        .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
+        .catch(function(){ return { image:null, wikiUrl:null, title:null }; });
+    }
+    return clientPhotoCache[key];
   }
   // Choisit une étape "aller-retour" plausible pour un jour unique, ou construit un itinéraire
   // réel à plusieurs étapes (buildRealRoute) pour un séjour plus long. Les activités viennent des
@@ -699,7 +712,7 @@
         activity: acts.join(' puis '),
         lodging: null,
         isReturn:false,
-        lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop
+        lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept
       }, finalizeLeg(distOut, speed, transportKey, tollEnabled)));
       legs.push(Object.assign({
         label:'Retour',
@@ -707,7 +720,7 @@
         activity: null,
         lodging: null,
         isReturn:true,
-        lat: cLat, lon: cLon
+        lat: cLat, lon: cLon, dept: cityCoord.dept
       }, finalizeLeg(distBack, speed, transportKey, tollEnabled)));
       return legs;
     }
@@ -743,7 +756,7 @@
           checkIn: checkIn, checkOut: checkOut,
           lodgingLinks: buildLodgingLinks(commune.name, checkIn, checkOut, budgetKey),
           isReturn:false,
-          lat: commune.lat, lon: commune.lon, norm: commune.norm, pop: commune.pop
+          lat: commune.lat, lon: commune.lon, norm: commune.norm, pop: commune.pop, dept: commune.dept
         }, legInfo));
       }
       prevLat = commune.lat; prevLon = commune.lon;
@@ -757,7 +770,7 @@
       activity: null,
       lodging: null,
       isReturn:true,
-      lat: cLat, lon: cLon
+      lat: cLat, lon: cLon, dept: cityCoord.dept
     }, finalizeLeg(distBackKm, speed, transportKey, tollEnabled)));
 
     return legs;
@@ -813,11 +826,34 @@
             '<span class="photo-tile-icon">'+icon('camera')+'</span>'+
             '<span class="photo-tile-text">'+
               '<span class="photo-tile-title">Voir '+leg.stop+' en photo</span>'+
-              '<span class="photo-tile-sub">Recherche d’images en direct — rien n’est stocké ici</span>'+
+              '<span class="photo-tile-sub">Recherche d’une vraie photo…</span>'+
             '</span>'+
           '</a>'+
           '<a class="photo-tile-wiki" href="'+photos.wiki+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
         body.appendChild(tile);
+
+        fetchPlacePhoto(leg.stop, leg.dept).then(function(stopName, tileEl, photoLinks){
+          return function(data){
+            if(data && data.image){
+              var articleUrl = data.wikiUrl || photoLinks.wiki;
+              tileEl.className = 'photo-tile has-image';
+              tileEl.innerHTML =
+                '<a class="photo-tile-imgwrap" href="'+articleUrl+'" target="_blank" rel="noopener">'+
+                  '<img class="photo-tile-img" src="'+data.image+'" alt="'+stopName+'" referrerpolicy="no-referrer">'+
+                '</a>'+
+                '<a class="photo-tile-main photo-tile-main--img" href="'+articleUrl+'" target="_blank" rel="noopener">'+
+                  '<span class="photo-tile-text">'+
+                    '<span class="photo-tile-title">'+stopName+'</span>'+
+                    '<span class="photo-tile-sub">Photo réelle · © Wikimedia Commons</span>'+
+                  '</span>'+
+                '</a>'+
+                '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
+            } else {
+              var sub = tileEl.querySelector('.photo-tile-sub');
+              if(sub) sub.textContent = 'Aucune photo trouvée sur Wikipédia pour ce lieu';
+            }
+          };
+        }(leg.stop, tile, photos));
       }
 
       if(leg.tollInfo){
@@ -1034,7 +1070,7 @@
     var avoidTent = els.tentToggle.checked;
     var speed = TRANSPORT[transportKey].speed;
     var maxRadiusKm = Math.max(20, effectiveRadiusKm(speed));
-    var cityCoord = { lat: selectedCity.lat, lon: selectedCity.lon };
+    var cityCoord = { lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept };
 
     var legs = buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, lastNorm);
     if(legs.length === 0){

@@ -12,21 +12,23 @@ restructurée en petit projet Node.js statique, prête à héberger sur un serve
 ```
 cap-sur-linconnu/
 ├── package.json
-├── server.js              # serveur Express minimal, sert public/ tel quel
+├── server.js              # Express : sert public/ tel quel + une route GET /api/photo
 ├── public/
 │   ├── index.html
 │   ├── css/style.css
-│   ├── js/app.js          # toute la logique (client-side, aucun état côté serveur)
+│   ├── js/app.js          # toute la génération d'itinéraire (client-side)
 │   └── data/
-│       ├── communes.txt        # ~35 000 communes (nom, population, coordonnées, codes postaux)
+│       ├── communes.txt        # ~35 000 communes (nom, population, coordonnées, codes postaux, département)
 │       ├── featured.txt        # ~300 communes avec de vrais points d'intérêt nommés (OSM)
 │       ├── france-map.json     # contour simplifié de la France + paramètres de projection
 │       └── toll-reference.json # 54 liaisons péage réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
 ```
 
-Le serveur ne fait que servir des fichiers statiques : pas de base de données, pas de session, pas de
-donnée utilisateur conservée. Toute la génération d'itinéraire se fait dans le navigateur.
+Le serveur sert les fichiers statiques et une seule route dynamique, `GET /api/photo?name=…&dept=…`,
+qui va chercher une vraie photo sur Wikipédia pour la commune demandée (voir plus bas). Pas de base
+de données, pas de session, pas de donnée utilisateur conservée — juste un petit cache en mémoire
+pour les photos.
 
 ## Démarrer en local
 
@@ -56,19 +58,24 @@ Comme l'app sert des fichiers statiques, elle fonctionne aussi tout aussi bien d
 serveur de fichiers statiques (nginx seul, Caddy seul, etc.) en pointant directement sur `public/` —
 `server.js` n'est là que par simplicité.
 
-## Différences avec la version « artefact Claude »
+## Photos réelles
 
-- Les données (communes, points d'intérêt, contour de carte) ne sont plus embarquées dans un seul
-  fichier HTML géant : elles sont chargées via `fetch()` au démarrage depuis `public/data/`. Le champ
-  « Ville de départ » reste désactivé le temps du chargement (quelques dizaines de ms en local).
-- Un serveur privé n'a plus la contrainte CSP d'un artefact Claude (qui bloque tout chargement
-  d'image externe). Les liens « Photos » / « Wikipédia » pourraient donc devenir de vraies vignettes
-  intégrées (`<img>`) si vous le souhaitez — ce n'est pas fait ici pour rester fidèle à la version
-  d'origine, mais c'est une amélioration facile à ajouter dans `app.js` (fonction `buildPhotoLinks`
-  et son usage dans `renderDays`).
-- Aucune autre limite technique d'artefact ne s'applique plus : vous pourriez par exemple ajouter un
-  vrai backend (API Airbnb si vous obtenez un accès, cache serveur des données OpenStreetMap pour les
-  rafraîchir périodiquement, etc.) sans les contraintes précédentes.
+Un artefact Claude ne peut charger aucune image externe (CSP) ; sur ce serveur, cette limite n'existe
+plus. Chaque étape affiche donc une vraie photo (récupérée via `GET /api/photo`, qui interroge
+l'API REST de Wikipédia côté serveur et met le résultat en cache 24h en mémoire) plutôt qu'un simple
+lien à ouvrir. Points notables de l'implémentation :
+
+- **Désambiguïsation par département** : plusieurs communes françaises partagent le même nom (trois
+  « Thoiry », par exemple). Le serveur essaie d'abord `"Nom (Département)"` — la convention de
+  Wikipédia pour ces homonymes — avant `"Nom"` seul, et renvoie « pas de photo » plutôt qu'une image
+  potentiellement fausse si la page reste une page d'homonymie.
+- Pas de clé API requise (l'API REST de Wikipédia est publique et gratuite).
+- Si aucune photo n'existe pour une commune (petits villages sans page dédiée), la tuile retombe sur
+  un lien de recherche d'images classique — jamais d'image cassée.
+
+Aucune autre limite technique d'artefact ne s'applique plus non plus : vous pourriez par exemple
+ajouter un vrai backend (API Airbnb si vous obtenez un accès, rafraîchissement périodique des données
+OpenStreetMap, etc.) sans les contraintes précédentes.
 
 ## Sources des données
 
@@ -79,6 +86,9 @@ serveur de fichiers statiques (nginx seul, Caddy seul, etc.) en pointant directe
   (dérivé IGN).
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (ASF, Cofiroute — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées).
+- Photos et département de désambiguïsation : [Wikipédia](https://fr.wikipedia.org) (API REST,
+  images sous licence Wikimedia Commons — crédit affiché sous chaque photo) ;
+  [geo.api.gouv.fr](https://geo.api.gouv.fr) pour les codes département.
 
 Toutes ces données sont figées au moment de la génération de ce projet (2026). Pour les rafraîchir,
 relancez les mêmes sources et remplacez les fichiers dans `public/data/`.
