@@ -469,12 +469,17 @@
   }
   .day-badge .num.final{background:var(--accent);}
   .day-badge .line{width:2px; flex:1; background:repeating-linear-gradient(var(--line-strong) 0 4px, transparent 4px 8px); min-height:14px;}
-  .day-body{display:flex; flex-direction:column; gap:.6rem;}
+  /* min-width:0 partout ci-dessous : par défaut, un enfant de grid/flex ne rétrécit jamais en
+     dessous de la largeur de son contenu le plus large (ex. le lien "Wikipédia ↗" en
+     white-space:nowrap) — sur un écran étroit, ça forçait la carte entière à déborder au lieu de
+     laisser le texte passer à la ligne. min-width:0 autorise le rétrécissement normal. */
+  .day-body{display:flex; flex-direction:column; gap:.6rem; min-width:0;}
   .day-top{display:flex; align-items:baseline; justify-content:space-between; gap:.8rem; flex-wrap:wrap;}
   .day-top h3{font:800 .78rem/1 var(--font-body); text-transform:uppercase; letter-spacing:.08em; color:var(--ink-faint);}
   .day-top .route-time{font:var(--font-mono); font-size:.78rem; color:var(--accent-3); font-variant-numeric:tabular-nums;}
   .day-stop{font:800 1.15rem/1.2 var(--font-body); color:var(--ink);}
-  .day-row{display:flex; gap:.55rem; align-items:flex-start; font-size:.92rem; color:var(--ink-soft);}
+  .day-row{display:flex; gap:.55rem; align-items:flex-start; font-size:.92rem; color:var(--ink-soft); min-width:0;}
+  .day-row > span{min-width:0;}
   .day-row svg{width:16px; height:16px; flex:none; margin-top:.15rem; color:var(--accent-2);}
   .day-row .lbl{font:700 .66rem/1.5 var(--font-body); letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); display:block;}
   .lodging-links{display:inline-flex; gap:.5rem; margin-top:.35rem; flex-wrap:wrap;}
@@ -485,7 +490,7 @@
   }
   .lodging-link:hover{border-color:var(--accent-3); color:var(--accent);}
   .photo-tile{
-    display:flex; align-items:stretch; gap:.4rem;
+    display:flex; align-items:stretch; gap:.4rem; min-width:0;
     border-radius:12px; padding:.3rem;
     background:linear-gradient(135deg, color-mix(in srgb, var(--accent-3) 16%, var(--surface-2)), var(--surface-2));
     border:1px solid var(--line);
@@ -526,7 +531,7 @@
   }
   .photo-tile-zoom svg{width:16px; height:16px;}
   .photo-tile-imgwrap:hover .photo-tile-zoom{background:rgba(10,14,13,.8);}
-  .photo-tile-caption{display:flex; align-items:center; justify-content:space-between; gap:.6rem; padding:.6rem .75rem;}
+  .photo-tile-caption{display:flex; align-items:center; justify-content:space-between; gap:.6rem; padding:.6rem .75rem; min-width:0;}
   .photo-tile-main--img{padding:.2rem .6rem;}
 
   /* ============ POP-UP PHOTO (agrandissement) ============ */
