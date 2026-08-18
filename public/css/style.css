@@ -346,6 +346,14 @@
     pointer-events:none; white-space:nowrap; overflow:hidden;
   }
   .radius-value-wrap.show-duration .radius-value-display{display:flex;}
+  /* Sur mobile, "km autour du départ" / "de trajet retour max" (white-space:nowrap, pour ne pas se
+     couper au milieu) refusait de rétrécir et écrasait les boutons -/+/champ à côté — au point de
+     rendre le champ de saisie quasi invisible (largeur proche de 0). Passé sur sa propre ligne, en
+     dessous, pour laisser -/valeur/+ toute la largeur disponible. */
+  @media (max-width:480px){
+    .radius-input{flex-wrap:wrap;}
+    .radius-input .unit{flex-basis:100%; margin-top:.3rem;}
+  }
 
   /* ============ LAUNCH BUTTON ============ */
   .launch-row{display:flex; flex-direction:column; align-items:center; gap:.6rem; padding-top:.35rem;}
