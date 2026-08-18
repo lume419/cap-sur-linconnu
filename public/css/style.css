@@ -469,10 +469,58 @@
     white-space:nowrap;
   }
   .photo-tile-wiki:hover{color:var(--accent); text-decoration:underline;}
-  .photo-tile.has-image{padding:.4rem; align-items:center;}
-  .photo-tile-imgwrap{flex:none; display:block; border-radius:9px; overflow:hidden; width:64px; height:64px;}
-  .photo-tile-img{width:100%; height:100%; object-fit:cover; display:block; background:var(--surface-2);}
+  .photo-tile.has-image{flex-direction:column; align-items:stretch; gap:0; padding:0; overflow:hidden;}
+  .photo-tile-imgwrap{
+    display:block; width:100%; border:none; padding:0; margin:0; cursor:zoom-in;
+    position:relative; aspect-ratio:16/9; background:var(--surface-2);
+    border-radius:11px 11px 0 0; overflow:hidden;
+  }
+  .photo-tile-img{width:100%; height:100%; object-fit:cover; display:block;}
+  .photo-tile-zoom{
+    position:absolute; right:.6rem; bottom:.6rem; width:32px; height:32px; border-radius:999px;
+    background:rgba(10,14,13,.55); color:#fff; display:flex; align-items:center; justify-content:center;
+    pointer-events:none; transition:background .15s ease;
+  }
+  .photo-tile-zoom svg{width:16px; height:16px;}
+  .photo-tile-imgwrap:hover .photo-tile-zoom{background:rgba(10,14,13,.8);}
+  .photo-tile-caption{display:flex; align-items:center; justify-content:space-between; gap:.6rem; padding:.6rem .75rem;}
   .photo-tile-main--img{padding:.2rem .6rem;}
+
+  /* ============ POP-UP PHOTO (agrandissement) ============ */
+  .lightbox{
+    position:fixed; inset:0; z-index:200; display:none; flex-direction:column; align-items:center;
+    justify-content:center; gap:.9rem; padding:2.2rem 1.2rem; background:rgba(8,12,11,.9);
+  }
+  .lightbox.show{display:flex;}
+  .lightbox-img{max-width:min(94vw, 1150px); max-height:76vh; object-fit:contain; border-radius:10px; box-shadow:0 24px 70px rgba(0,0,0,.55);}
+  .lightbox-caption{display:flex; align-items:center; justify-content:center; gap:.7rem; flex-wrap:wrap; color:#EDE6D2; font-size:.85rem; text-align:center;}
+  .lightbox-caption a{color:#E3BE52; text-decoration:none; font-weight:700;}
+  .lightbox-caption a:hover{text-decoration:underline;}
+  .lightbox-close{
+    position:absolute; top:1.1rem; right:1.2rem; width:40px; height:40px; border-radius:999px;
+    background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.25); color:#fff;
+    display:flex; align-items:center; justify-content:center; cursor:pointer; transition:background .15s ease;
+  }
+  .lightbox-close:hover{background:rgba(255,255,255,.22);}
+  .lightbox-close svg{width:18px; height:18px;}
+  body.lightbox-open{overflow:hidden;}
+
+  /* ============ ACTIVITÉS POSSIBLES ============ */
+  .activity-options{display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:.6rem; margin-top:.15rem;}
+  .activity-card{
+    display:flex; flex-direction:column; border-radius:11px; overflow:hidden;
+    background:var(--surface-2); border:1px solid var(--line);
+  }
+  .activity-card-visual{
+    aspect-ratio:4/3; display:flex; align-items:center; justify-content:center;
+    background:color-mix(in srgb, var(--accent-3) 20%, var(--surface-2)); color:var(--accent-3);
+  }
+  .activity-card-visual svg{width:26px; height:26px;}
+  .activity-card.has-image .activity-card-visual{cursor:zoom-in; position:relative;}
+  .activity-card-img{width:100%; height:100%; object-fit:cover; display:block;}
+  .activity-card-body{padding:.55rem .65rem .7rem;}
+  .activity-card-title{font:700 .82rem/1.25 var(--font-body); color:var(--ink);}
+  .activity-card-type{font-size:.72rem; color:var(--ink-faint); text-transform:capitalize; margin-top:.1rem;}
 
   /* ============ PACKING LIST ============ */
   .pack-card{

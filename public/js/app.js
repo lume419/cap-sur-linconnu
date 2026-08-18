@@ -33,9 +33,54 @@
     toll:'<path d="M4 21V6a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v15M20 21V6a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v15"/><path d="M7 12l10-5M4 21h16"/>',
     search:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
     check:'<path d="M5 12.5l4.5 4.5L19 7.5"/>',
-    camera:'<path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13.5" r="3.3"/>'
+    camera:'<path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13.5" r="3.3"/>',
+    walk:'<path d="M3 19l6-11 4 6 2-3 6 8H3Z"/><circle cx="8" cy="6" r="1.6"/>',
+    zoom:'<circle cx="11" cy="11" r="7"/><path d="M11 8v6M8 11h6"/><path d="M21 21l-4.3-4.3"/>',
+    close:'<path d="M6 6l12 12M18 6L6 18"/>'
   };
   function icon(name){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';}
+
+  /* ---------- POP-UP PHOTO (agrandissement en qualité maximale) ---------- */
+  // Une seule popup réutilisée pour toutes les images cliquables (tuile principale + activités) :
+  // on y affiche l'image en résolution d'origine renvoyée par Wikipédia (imageFull), pas la
+  // vignette utilisée dans les tuiles.
+  var lightboxEl = null;
+  function ensureLightbox(){
+    if(lightboxEl) return lightboxEl;
+    lightboxEl = document.createElement('div');
+    lightboxEl.className = 'lightbox';
+    lightboxEl.setAttribute('role', 'dialog');
+    lightboxEl.setAttribute('aria-modal', 'true');
+    lightboxEl.innerHTML =
+      '<button type="button" class="lightbox-close" aria-label="Fermer la photo">'+icon('close')+'</button>'+
+      '<img class="lightbox-img" alt="">'+
+      '<div class="lightbox-caption"></div>';
+    document.body.appendChild(lightboxEl);
+    lightboxEl.addEventListener('click', function(e){ if(e.target === lightboxEl) closeLightbox(); });
+    lightboxEl.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && lightboxEl.classList.contains('show')) closeLightbox();
+    });
+    return lightboxEl;
+  }
+  function openLightbox(imgUrl, caption, wikiUrl){
+    if(!imgUrl) return;
+    var el = ensureLightbox();
+    var img = el.querySelector('.lightbox-img');
+    img.src = imgUrl;
+    img.alt = caption || '';
+    var capEl = el.querySelector('.lightbox-caption');
+    capEl.innerHTML = (caption ? '<span>'+caption+'</span>' : '') +
+      (wikiUrl ? '<a href="'+wikiUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>' : '');
+    el.classList.add('show');
+    document.body.classList.add('lightbox-open');
+  }
+  function closeLightbox(){
+    if(!lightboxEl) return;
+    lightboxEl.classList.remove('show');
+    document.body.classList.remove('lightbox-open');
+    lightboxEl.querySelector('.lightbox-img').src = '';
+  }
 
   /* ---------- REFERENCE DATA ---------- */
   var TRANSPORT = {
@@ -107,6 +152,12 @@
     "Randonnée ou balade dans les environs",
     "Découverte d'un producteur ou artisan local"
   ];
+  // Suggestions génériques hors "balade" : la balade a sa propre logique de sélection
+  // (voir buildActivityOptions) pour éviter le doublon avec GENERIC_ACTIVITIES ci-dessus.
+  var GENERIC_ACTIVITIES_NO_WALK = GENERIC_ACTIVITIES.filter(function(a){ return a.indexOf('Randonnée') !== 0; });
+  // Types de POI OSM qui se prêtent à une vraie suggestion de balade/randonnée (plutôt qu'une
+  // visite en intérieur) : on les préfère comme suggestion "balade" quand ils sont disponibles.
+  var WALK_POI_TYPES = { viewpoint:1, nature_reserve:1, peak:1, waterfall:1, cave_entrance:1, beach:1 };
   var FEATURED = {};
   FEATURED_RAW.split('\n').forEach(function(line){
     var parts = line.split(';');
@@ -736,8 +787,48 @@
   // vrais points d'intérêt (FEATURED) quand la commune en a, sinon d'une suggestion générique
   // honnête. Le logement n'est plus une description inventée : seulement une catégorie indicative
   // (voir lodgingCategoryLabel) associée à de vrais liens de recherche Airbnb / Booking.
-  function activityFor(poi){
-    return poi.name + ' (' + (POI_TYPE_LABEL[poi.type] || 'curiosité locale') + ')';
+  // Construit jusqu'à 3 suggestions d'activités pour une journée : jusqu'à 2 vraies curiosités
+  // locales (POI OSM, réellement nommées) quand il y en a, une suggestion de balade/randonnée
+  // (réutilisant un POI de plein air — point de vue, cascade, sommet... — quand disponible plutôt
+  // qu'une formule générique), puis on complète avec d'autres suggestions génériques jusqu'à 3.
+  // `poisQueue` et `genericQueue` sont mutées (consommées au fil des jours d'un même séjour pour
+  // éviter les répétitions), et `genericQueue` est réapprovisionnée si elle vient à manquer.
+  function buildActivityOptions(poisQueue, genericQueue){
+    var options = [];
+    var poiCount = Math.min(2, poisQueue.length);
+    for(var i=0; i<poiCount; i++){
+      var poi = poisQueue.shift();
+      options.push({
+        label: poi.name,
+        typeLabel: POI_TYPE_LABEL[poi.type] || 'curiosité locale',
+        searchName: poi.name,
+        isReal: true,
+        isWalk: !!WALK_POI_TYPES[poi.type]
+      });
+    }
+    if(!options.some(function(o){ return o.isWalk; })){
+      var walkIdx = -1;
+      for(var j=0; j<poisQueue.length; j++){ if(WALK_POI_TYPES[poisQueue[j].type]){ walkIdx = j; break; } }
+      if(walkIdx >= 0){
+        var walkPoi = poisQueue.splice(walkIdx, 1)[0];
+        options.push({
+          label: walkPoi.name,
+          typeLabel: POI_TYPE_LABEL[walkPoi.type] || 'balade',
+          searchName: walkPoi.name,
+          isReal: true,
+          isWalk: true
+        });
+      } else {
+        options.push({ label: 'Randonnée ou balade dans les environs', typeLabel: 'balade', isReal: false, isWalk: true });
+      }
+    }
+    while(options.length < 3){
+      if(genericQueue.length === 0){ Array.prototype.push.apply(genericQueue, shuffle(GENERIC_ACTIVITIES_NO_WALK)); }
+      var g = genericQueue.shift();
+      if(options.some(function(o){ return o.label === g; })) continue; // évite le doublon dans la même journée
+      options.push({ label: g, typeLabel: 'à faire sur place', isReal: false, isWalk: false });
+    }
+    return options;
   }
   function buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, avoidNorm, minDistanceKm){
     var speed = TRANSPORT[transportKey].speed;
@@ -757,15 +848,15 @@
       candidates.sort(function(a,b){ return b.score-a.score; });
       var stop = pick(candidates.slice(0, Math.min(6, candidates.length))).commune;
       var featured0 = FEATURED[stop.norm];
-      var acts = (featured0 && featured0.pois.length)
-        ? featured0.pois.slice(0,2).map(activityFor)
-        : [pick(GENERIC_ACTIVITIES)];
+      var poisQueue0 = featured0 ? featured0.pois.slice() : [];
+      var genericQueue0 = shuffle(GENERIC_ACTIVITIES_NO_WALK);
+      var activities0 = buildActivityOptions(poisQueue0, genericQueue0);
       var distOut = Math.round(roadDistanceKm(cLat, cLon, stop.lat, stop.lon));
       var distBack = Math.round(roadDistanceKm(stop.lat, stop.lon, cLat, cLon));
       legs.push(Object.assign({
         label:'Jour unique — aller-retour mystère',
         stop: stop.name,
-        activity: acts.join(' puis '),
+        activities: activities0,
         lodging: null,
         isReturn:false,
         lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept
@@ -773,7 +864,7 @@
       legs.push(Object.assign({
         label:'Retour',
         stop: city,
-        activity: null,
+        activities: null,
         lodging: null,
         isReturn:true,
         lat: cLat, lon: cLon, dept: cityCoord.dept
@@ -801,19 +892,18 @@
       var nightsHere = nights[stopIdx];
       var featured = FEATURED[commune.norm];
       var poisQueue = featured ? featured.pois.slice() : [];
-      var genericQueue = shuffle(GENERIC_ACTIVITIES);
+      var genericQueue = shuffle(GENERIC_ACTIVITIES_NO_WALK);
       for(var n=0; n<nightsHere; n++){
         dayCounter++;
         var distanceKm = n===0 ? Math.round(roadDistanceKm(prevLat, prevLon, commune.lat, commune.lon)) : Math.round(rand(3,14));
         var legInfo = finalizeLeg(distanceKm, speed, transportKey, tollEnabled);
-        var poi = poisQueue.length ? poisQueue.shift() : null;
-        var activity = poi ? activityFor(poi) : genericQueue[n % genericQueue.length];
+        var activities = buildActivityOptions(poisQueue, genericQueue);
         var checkIn = isoDate(addDays(tripStart, dayCounter-1));
         var checkOut = isoDate(addDays(tripStart, dayCounter));
         legs.push(Object.assign({
           label: 'Jour '+dayCounter + (nightsHere>1 ? ' ('+(n+1)+'/'+nightsHere+' à '+commune.name+')' : ''),
           stop: commune.name,
-          activity: activity,
+          activities: activities,
           lodging: lodgingCategoryLabel(budgetKey, avoidTent),
           checkIn: checkIn, checkOut: checkOut,
           lodgingLinks: buildLodgingLinks(commune.name, checkIn, checkOut, budgetKey),
@@ -829,7 +919,7 @@
     legs.push(Object.assign({
       label: 'Jour '+dayCounter+' — retour',
       stop: city,
-      activity: null,
+      activities: null,
       lodging: null,
       isReturn:true,
       lat: cLat, lon: cLon, dept: cityCoord.dept
@@ -898,18 +988,20 @@
           return function(data){
             if(data && data.image){
               var articleUrl = data.wikiUrl || photoLinks.wiki;
+              var fullUrl = data.imageFull || data.image;
               tileEl.className = 'photo-tile has-image';
               tileEl.innerHTML =
-                '<a class="photo-tile-imgwrap" href="'+articleUrl+'" target="_blank" rel="noopener">'+
+                '<button type="button" class="photo-tile-imgwrap" aria-label="Agrandir la photo de '+stopName+'">'+
                   '<img class="photo-tile-img" src="'+data.image+'" alt="'+stopName+'" referrerpolicy="no-referrer">'+
-                '</a>'+
-                '<a class="photo-tile-main photo-tile-main--img" href="'+articleUrl+'" target="_blank" rel="noopener">'+
+                  '<span class="photo-tile-zoom">'+icon('zoom')+'</span>'+
+                '</button>'+
+                '<div class="photo-tile-caption">'+
                   '<span class="photo-tile-text">'+
                     '<span class="photo-tile-title">'+stopName+'</span>'+
                     '<span class="photo-tile-sub">Photo réelle · © Wikimedia Commons</span>'+
                   '</span>'+
-                '</a>'+
-                '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
+                  '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>'+
+                '</div>';
               // Filet de sécurité : si l'URL d'image renvoyée par Wikipédia échoue quand même
               // au chargement (lien mort, hotlink refusé...), on retombe sur la tuile de secours
               // plutôt que de laisser une icône d'image cassée affichée.
@@ -927,6 +1019,10 @@
                     '</a>'+
                     '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
                 };
+              }
+              var imgWrapBtn = tileEl.querySelector('.photo-tile-imgwrap');
+              if(imgWrapBtn){
+                imgWrapBtn.addEventListener('click', function(){ openLightbox(fullUrl, stopName, articleUrl); });
               }
             } else {
               var sub = tileEl.querySelector('.photo-tile-sub');
@@ -955,11 +1051,48 @@
         chargeRow.innerHTML = icon('plug') + '<span><span class="lbl">Recharge électrique</span>'+c.stops+' pause'+(c.stops>1?'s':'')+' recharge estimée'+(c.stops>1?'s':'')+' (~'+c.minutes+' min au total) sur borne rapide.</span>';
         body.appendChild(chargeRow);
       }
-      if(leg.activity){
-        var actRow = document.createElement('div');
-        actRow.className = 'day-row';
-        actRow.innerHTML = icon('spark') + '<span><span class="lbl">Activité du jour</span>'+leg.activity+'</span>';
-        body.appendChild(actRow);
+      if(leg.activities && leg.activities.length){
+        var actLabelRow = document.createElement('div');
+        actLabelRow.className = 'day-row';
+        actLabelRow.innerHTML = icon('spark') + '<span class="lbl">Activités possibles — au choix</span>';
+        body.appendChild(actLabelRow);
+
+        var actList = document.createElement('div');
+        actList.className = 'activity-options';
+        leg.activities.forEach(function(opt){
+          var card = document.createElement('div');
+          card.className = 'activity-card';
+          card.innerHTML =
+            '<div class="activity-card-visual">'+icon(opt.isWalk ? 'walk' : 'spark')+'</div>'+
+            '<div class="activity-card-body">'+
+              '<div class="activity-card-title">'+opt.label+'</div>'+
+              '<div class="activity-card-type">'+opt.typeLabel+'</div>'+
+            '</div>';
+          actList.appendChild(card);
+          // Pour une vraie curiosité nommée (POI OSM), on tente de récupérer sa propre photo
+          // Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que la
+          // photo générale de la commune. Silencieux si rien n'est trouvé : l'icône reste affichée.
+          if(opt.isReal && opt.searchName){
+            fetchPlacePhoto(opt.searchName, leg.dept).then(function(cardEl, label){
+              return function(data){
+                if(!data || !data.image) return;
+                var fullUrl = data.imageFull || data.image;
+                var wikiUrl = data.wikiUrl;
+                var visual = cardEl.querySelector('.activity-card-visual');
+                if(!visual) return;
+                visual.innerHTML = '<img class="activity-card-img" src="'+data.image+'" alt="'+label+'" referrerpolicy="no-referrer">';
+                cardEl.classList.add('has-image');
+                var im = visual.querySelector('.activity-card-img');
+                im.addEventListener('error', function(){
+                  cardEl.classList.remove('has-image');
+                  visual.innerHTML = icon('spark');
+                });
+                visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
+              };
+            }(card, opt.label));
+          }
+        });
+        body.appendChild(actList);
       }
       if(leg.lodging){
         var lodgeRow = document.createElement('div');

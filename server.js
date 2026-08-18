@@ -46,13 +46,17 @@ async function resolvePlacePhoto(name, deptCode){
     if(!data || data.type === 'disambiguation') continue;
     const image = (data.thumbnail && data.thumbnail.source) || (data.originalimage && data.originalimage.source) || null;
     if(!image) continue;
+    // `image` (vignette ~330px) sert à l'affichage rapide dans les tuiles ; `imageFull` (résolution
+    // d'origine de l'image Wikimedia, quand elle diffère) est réservée à l'agrandissement en pop-up.
+    const imageFull = (data.originalimage && data.originalimage.source) || image;
     return {
       image: image,
+      imageFull: imageFull,
       wikiUrl: (data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page) || null,
       title: data.title || title
     };
   }
-  return { image: null, wikiUrl: null, title: null };
+  return { image: null, imageFull: null, wikiUrl: null, title: null };
 }
 
 app.get('/api/photo', async (req, res) => {
@@ -70,7 +74,7 @@ app.get('/api/photo', async (req, res) => {
   try {
     data = await resolvePlacePhoto(name, dept);
   } catch(err){
-    data = { image: null, wikiUrl: null, title: null };
+    data = { image: null, imageFull: null, wikiUrl: null, title: null };
   }
   photoCache.set(cacheKey, { data, ts: Date.now() });
   res.json(data);
