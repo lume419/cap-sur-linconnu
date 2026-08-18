@@ -255,7 +255,11 @@
     radiusInc: document.getElementById('radius-inc'),
     minDistanceField: document.getElementById('min-distance-field'),
     minDistance: document.getElementById('min-distance'),
+    minDistanceDec: document.getElementById('min-distance-dec'),
+    minDistanceInc: document.getElementById('min-distance-inc'),
     maxDistance: document.getElementById('max-distance'),
+    maxDistanceDec: document.getElementById('max-distance-dec'),
+    maxDistanceInc: document.getElementById('max-distance-inc'),
     minDistanceError: document.getElementById('min-distance-error'),
     modeKm: document.getElementById('mode-km'),
     modeH: document.getElementById('mode-h'),
@@ -529,19 +533,25 @@
   // Boutons +/- toujours tactiles, indépendants des flèches natives du champ (peu fiables, voire
   // absentes, sur mobile) et du champ lui-même (invisible en mode heures). Seul vrai moyen
   // d'ajuster la valeur au doigt.
-  function stepRadius(dir){
-    var el = els.radius;
+  // Réutilisé par tous les champs numériques du formulaire équipés de boutons +/- (rayon, distance
+  // min/max) : incrémente/décrémente comme le ferait la flèche native, en respectant step/min/max.
+  function stepNumberField(el, dir){
     var step = parseFloat(el.step) || 1;
     var min = parseFloat(el.min), max = parseFloat(el.max);
     var cur = parseFloat(el.value);
-    if(isNaN(cur)) cur = min;
+    if(isNaN(cur)) cur = min; // champ vide ("Aucun minimum"...) : on part du plancher du champ
     var next = Math.min(max, Math.max(min, cur + dir*step));
     next = Math.round(next*100)/100; // évite les artefacts d'arrondi flottant (ex. 0.5+0.1*3)
     el.value = next;
     el.dispatchEvent(new Event('input', {bubbles:true}));
   }
+  function stepRadius(dir){ stepNumberField(els.radius, dir); }
   els.radiusDec.addEventListener('click', function(){ stepRadius(-1); });
   els.radiusInc.addEventListener('click', function(){ stepRadius(1); });
+  els.minDistanceDec.addEventListener('click', function(){ stepNumberField(els.minDistance, -1); });
+  els.minDistanceInc.addEventListener('click', function(){ stepNumberField(els.minDistance, 1); });
+  els.maxDistanceDec.addEventListener('click', function(){ stepNumberField(els.maxDistance, -1); });
+  els.maxDistanceInc.addEventListener('click', function(){ stepNumberField(els.maxDistance, 1); });
 
   /* ---------- FOURCHETTE DE PRIX DU BUDGET SÉLECTIONNÉ ---------- */
   // Affiche le plafond réellement utilisé pour préremplir les liens Airbnb/Booking (voir

@@ -97,12 +97,12 @@
         <button type="button" id="mode-h" aria-pressed="false">Temps de trajet retour max (h)</button>
       </div>
       <div class="radius-input">
-        <button type="button" class="radius-step" id="radius-dec" aria-label="Diminuer">−</button>
+        <button type="button" class="step-btn" id="radius-dec" aria-label="Diminuer">−</button>
         <div class="radius-value-wrap" id="radius-value-wrap">
           <input type="number" id="radius" min="20" max="1200" value="300" step="10" />
           <span class="radius-value-display" id="radius-value-display" aria-hidden="true"></span>
         </div>
-        <button type="button" class="radius-step" id="radius-inc" aria-label="Augmenter">+</button>
+        <button type="button" class="step-btn" id="radius-inc" aria-label="Augmenter">+</button>
         <span class="unit" id="radius-unit">km autour du départ</span>
       </div>
       <span class="field-hint">S'applique uniquement au <strong>dernier trajet</strong> (le retour) : le séjour peut s'éloigner davantage entre-temps si la durée le permet, du moment que la toute dernière étape avant de rentrer respecte cette limite.</span>
@@ -112,11 +112,19 @@
       <label>Distance d'éloignement (optionnel)</label>
       <div class="distance-range-inputs">
         <div class="input-unit">
-          <input type="number" id="min-distance" min="0" max="3000" step="10" placeholder="Aucun minimum" />
+          <div class="stepper-row">
+            <button type="button" class="step-btn" id="min-distance-dec" aria-label="Diminuer">−</button>
+            <input type="number" id="min-distance" min="0" max="3000" step="10" placeholder="Aucun minimum" />
+            <button type="button" class="step-btn" id="min-distance-inc" aria-label="Augmenter">+</button>
+          </div>
           <span class="unit">km au moins</span>
         </div>
         <div class="input-unit">
-          <input type="number" id="max-distance" min="0" max="3000" step="10" placeholder="Aucun maximum" />
+          <div class="stepper-row">
+            <button type="button" class="step-btn" id="max-distance-dec" aria-label="Diminuer">−</button>
+            <input type="number" id="max-distance" min="0" max="3000" step="10" placeholder="Aucun maximum" />
+            <button type="button" class="step-btn" id="max-distance-inc" aria-label="Augmenter">+</button>
+          </div>
           <span class="unit">km au maximum</span>
         </div>
       </div>

@@ -213,11 +213,22 @@
   }
   .field.invalid .field-hint{display:none;}
 
-  .input-unit{display:flex; align-items:center; gap:.5rem;}
+  /* flex-wrap:wrap : sur un champ étroit, "km au moins"/"km au maximum" (white-space:nowrap, pour
+     ne pas se couper au milieu) passe proprement sur sa propre ligne plutôt que d'écraser le
+     champ à côté — même correctif que sur le champ de rayon (voir .radius-input plus bas). */
+  .input-unit{display:flex; align-items:center; flex-wrap:wrap; gap:.4rem .5rem;}
   .input-unit input{flex:1; min-width:0;}
   .unit{font:var(--font-mono); font-size:.8rem; color:var(--ink-faint); white-space:nowrap;}
   .distance-range-inputs{display:flex; gap:.7rem; flex-wrap:wrap;}
   .distance-range-inputs .input-unit{flex:1; min-width:9.5rem;}
+  /* Boutons +/- dans la DA du site à la place des flèches natives par défaut du navigateur, comme
+     pour le champ de rayon (voir plus bas — même règle -moz-appearance/opacity+[type=number] pour
+     les masquer sur Firefox et Chromium). */
+  .stepper-row{display:flex; align-items:center; gap:.4rem; flex:1; min-width:8rem;}
+  .stepper-row input{flex:1; min-width:0;}
+  .stepper-row input[type="number"]{-moz-appearance:textfield;}
+  .stepper-row input[type="number"]::-webkit-inner-spin-button,
+  .stepper-row input[type="number"]::-webkit-outer-spin-button{opacity:0; pointer-events:none;}
 
   .date-range{display:flex; align-items:center; gap:.4rem;}
   .date-range input{flex:1; min-width:0;}
@@ -308,19 +319,20 @@
   .radius-input input{max-width:9rem;}
   .radius-value-wrap{position:relative; max-width:9rem;}
   .radius-value-wrap input{max-width:none; width:100%;}
-  /* Boutons +/- toujours visibles et tactiles : les flèches natives d'un <input type="number">
-     sont minuscules voire absentes sur mobile (la plupart des navigateurs mobiles n'en affichent
-     aucune), et en mode heures l'input réel est de toute façon invisible (voir .show-duration) —
-     sans ces boutons, il n'y avait tout simplement aucun moyen de changer la valeur au doigt. */
-  .radius-step{
+  /* Boutons +/- toujours visibles et tactiles, pour tout champ numérique du formulaire (rayon,
+     distance min/max) : les flèches natives d'un <input type="number"> sont minuscules voire
+     absentes sur mobile, moches et hétérogènes d'un navigateur à l'autre sur desktop, et en mode
+     heures du champ de rayon l'input réel est de toute façon invisible (voir .show-duration) —
+     ces boutons, dans la DA du site, remplacent ces flèches partout plutôt qu'à un seul endroit. */
+  .step-btn{
     flex:none; width:2.4rem; height:2.4rem; border-radius:9px;
     border:1px solid var(--line); background:var(--surface-2); color:var(--ink);
     font:700 1.3rem/1 var(--font-body); cursor:pointer;
     display:flex; align-items:center; justify-content:center;
     transition:background .15s ease, border-color .15s ease;
   }
-  .radius-step:hover{border-color:var(--accent-3);}
-  .radius-step:active{background:color-mix(in srgb, var(--accent-3) 20%, var(--surface-2));}
+  .step-btn:hover{border-color:var(--accent-3);}
+  .step-btn:active{background:color-mix(in srgb, var(--accent-3) 20%, var(--surface-2));}
   /* Les flèches natives du champ faisaient double emploi avec les boutons +/- ci-dessus (redondant
      en mode km, carrément flottantes dans le vide en mode heures où le champ réel est masqué) —
      masquées dans les deux modes, les boutons +/- sont désormais le seul contrôle.
