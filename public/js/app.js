@@ -645,7 +645,11 @@
       } else {
         maxHop = Math.max(35, Math.min(hopCeiling*0.5, 220));
       }
-      var minPop = isFirst ? 300 : 80;
+      // La taille de la commune n'est plus un critère d'éligibilité : un hameau de 50 habitants
+      // est un candidat aussi valable qu'une grande ville, du moment qu'il reste dans le rayon de
+      // recherche. Seuil très bas gardé uniquement pour écarter les artefacts de données
+      // (communes à population nulle/inconnue dans la base).
+      var minPop = 15;
 
       var candidates;
       if(isLast){
@@ -657,7 +661,7 @@
           .filter(function(x){ return !used[x.commune.norm]; })
           .filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= lastCap; });
         if(candidates.length===0){
-          candidates = findNearbyCommunes(startLat, startLon, 0, lastCap, 30)
+          candidates = findNearbyCommunes(startLat, startLon, 0, lastCap, 0)
             .filter(function(x){ return !used[x.commune.norm]; });
         }
       } else {
@@ -667,7 +671,7 @@
           candidates = candidates.filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxDist; });
         }
         if(candidates.length===0){
-          candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop*2, 30)
+          candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop*2, 0)
             .filter(function(x){ return !used[x.commune.norm]; });
           if(maxDist > 0){
             candidates = candidates.filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxDist; });
@@ -678,17 +682,13 @@
       candidates.forEach(function(x){
         var feat = FEATURED[x.commune.norm];
         // Le bonus "commune avec un vrai POI nommé" (FEATURED) reste un coup de pouce, pas un
-        // passe-droit : FEATURED ne couvre qu'~300 communes sur 35 000, concentrées à ~92% dans
-        // une poignée de départements de l'Est (Jura/Haute-Savoie/Alsace) faute de données OSM
-        // plus larges au moment de la constitution du jeu de données — un bonus trop élevé les
-        // fait quasi systématiquement gagner face à n'importe quelle commune "normale", ce qui
-        // écarte de fait des régions entières (Bretagne comprise, 0 commune FEATURED) du tirage.
-        // Même ramené à l'échelle de la population (jusqu'à 150 encore testé), le bonus suffisait
-        // à lui seul à dépasser le score max d'une commune non-FEATURED — la moitié des tirages
-        // restait concentrée sur ce même petit cluster. Réduit à un vrai petit coup de pouce
-        // (comparable au bruit aléatoire), pour que la population et le hasard dominent largement
-        // le choix et que toutes les régions redeviennent compétitives.
-        x.score = (feat ? 25 + feat.pois.length*12 : 0) + Math.min(x.commune.pop, 8000)/40 + rand(0,90);
+        // passe-droit (voir plus haut pourquoi — couverture très inégale du jeu de données). La
+        // population aussi n'est plus qu'un tout petit coup de pouce : une grande ville n'a pas
+        // à être favorisée sur un petit village, du moment que le village a bien de quoi dormir
+        // et visiter (liens de logement et activités génériques toujours proposés, quelle que
+        // soit la taille — voir buildLodgingLinks / GENERIC_ACTIVITIES). Le hasard (rand) domine
+        // donc largement le tirage.
+        x.score = (feat ? 25 + feat.pois.length*12 : 0) + Math.min(x.commune.pop, 8000)/400 + rand(0,90);
       });
       candidates.sort(function(a,b){ return b.score - a.score; });
       var top = candidates.slice(0, Math.min(6, candidates.length));
@@ -915,17 +915,19 @@
       var hopCeiling0 = maxDist > 0 ? maxDist : 600;
       var minHop0 = Math.max(15, minDist);
       var hop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, hopCeiling0));
-      var candidates = findNearbyCommunes(cLat, cLon, minHop0, hop, 300).filter(function(x){ return x.commune.norm !== avoidNorm; });
+      // La taille n'est plus un critère d'éligibilité (voir buildRealRoute) : seuil très bas gardé
+      // uniquement pour écarter les artefacts de données.
+      var candidates = findNearbyCommunes(cLat, cLon, minHop0, hop, 15).filter(function(x){ return x.commune.norm !== avoidNorm; });
       if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
       if(candidates.length===0){
-        candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 30);
+        candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 0);
         if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
       }
       candidates.forEach(function(x){
         var feat = FEATURED[x.commune.norm];
-        // Voir buildRealRoute pour le détail : bonus FEATURED ramené à une échelle comparable à la
-        // population, pour ne pas écarter systématiquement les régions sans commune répertoriée.
-        x.score = (feat ? 25 + feat.pois.length*12 : 0) + Math.min(x.commune.pop,8000)/40 + rand(0,90);
+        // Voir buildRealRoute pour le détail : la taille de la commune n'est plus qu'un tout petit
+        // coup de pouce, pour que le hasard domine le tirage plutôt que la population.
+        x.score = (feat ? 25 + feat.pois.length*12 : 0) + Math.min(x.commune.pop,8000)/400 + rand(0,90);
       });
       candidates.sort(function(a,b){ return b.score-a.score; });
       var stop = pick(candidates.slice(0, Math.min(6, candidates.length))).commune;
