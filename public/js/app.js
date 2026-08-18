@@ -539,7 +539,12 @@
 
   /* ---------- HELPERS ---------- */
   function rand(min,max){ return Math.random()*(max-min)+min; }
-  function randInt(min,max){ return Math.round(rand(min,max)); }
+  // Math.round(rand(min,max)) n'est PAS uniforme sur les entiers min..max : les deux bornes
+  // (min et max) ne reçoivent que la moitié de la plage de valeurs continues des entiers du
+  // milieu (ex. randInt(0,5) tirait "0" deux fois moins souvent que "2" ou "3") — un vrai biais
+  // qui, répété à chaque choix (pick, shuffle, nombre d'étapes...), favorisait des résultats
+  // "du milieu" et cassait le hasard perçu. Math.floor donne une distribution uniforme correcte.
+  function randInt(min,max){ return Math.floor(rand(min, max+1)); }
   function pick(arr){ return arr[randInt(0,arr.length-1)]; }
   function shuffle(arr){
     var a = arr.slice();
@@ -591,11 +596,20 @@
     });
   }
   function findNearbyCommunes(lat, lon, minKm, maxKm, minPop){
-    var span = Math.ceil(maxKm / (GRID_CELL_DEG*111)) + 1;
+    // 1° de latitude vaut ~111 km partout, mais 1° de longitude se rétrécit avec cos(latitude) —
+    // à la latitude de la France (~42-51°N), c'est ~25-35% de moins qu'à l'équateur. Utiliser le
+    // même "span" en cellules pour dx (nord-sud) et dy (est-ouest) sous-couvrait donc largement la
+    // direction est-ouest : une recherche censée porter à 600 km ne portait réellement qu'à
+    // ~430 km plein ouest (vérifié) — assez pour manquer la Bretagne depuis la majorité du pays.
+    // Calcul séparé du span est-ouest, élargi du facteur de compression, pour couvrir le même
+    // rayon réel dans toutes les directions.
+    var latSpan = Math.ceil(maxKm / (GRID_CELL_DEG*111)) + 1;
+    var kmPerLonDeg = Math.max(111 * Math.cos(lat * Math.PI/180), 20); // garde-fou, sans objet en France
+    var lonSpan = Math.ceil(maxKm / (GRID_CELL_DEG*kmPerLonDeg)) + 1;
     var cx = Math.floor(lat/GRID_CELL_DEG), cy = Math.floor(lon/GRID_CELL_DEG);
     var out = [];
-    for(var dx=-span; dx<=span; dx++){
-      for(var dy=-span; dy<=span; dy++){
+    for(var dx=-latSpan; dx<=latSpan; dx++){
+      for(var dy=-lonSpan; dy<=lonSpan; dy++){
         var list = COMMUNE_GRID[(cx+dx)+'_'+(cy+dy)];
         if(!list) continue;
         for(var i=0;i<list.length;i++){
@@ -679,20 +693,16 @@
         }
       }
       if(candidates.length===0) break;
-      candidates.forEach(function(x){
-        var feat = FEATURED[x.commune.norm];
-        // Le bonus "commune avec un vrai POI nommé" (FEATURED) reste un coup de pouce, pas un
-        // passe-droit (voir plus haut pourquoi — couverture très inégale du jeu de données). La
-        // population aussi n'est plus qu'un tout petit coup de pouce : une grande ville n'a pas
-        // à être favorisée sur un petit village, du moment que le village a bien de quoi dormir
-        // et visiter (liens de logement et activités génériques toujours proposés, quelle que
-        // soit la taille — voir buildLodgingLinks / GENERIC_ACTIVITIES). Le hasard (rand) domine
-        // donc largement le tirage.
-        x.score = (feat ? 25 + feat.pois.length*12 : 0) + Math.min(x.commune.pop, 8000)/400 + rand(0,90);
-      });
-      candidates.sort(function(a,b){ return b.score - a.score; });
-      var top = candidates.slice(0, Math.min(6, candidates.length));
-      var chosen = pick(top);
+      // Tirage réellement uniforme dans tout le bassin de candidats éligibles — pas de score de
+      // population ni de bonus "commune avec un vrai POI" (FEATURED) ici. Testé : même un bonus
+      // modeste sur ~23 000 candidats suffit à écraser le hasard dès qu'il existe ne serait-ce que
+      // quelques dizaines de communes qui en bénéficient (ce qui est le cas : FEATURED ne couvre
+      // que 19 départements sur 108, concentrés à 92% dans un coin de l'Est) — la Bretagne, par
+      // exemple, n'était alors *jamais* tirée malgré ~5% de part légitime du bassin de candidats.
+      // La découverte de vrais points d'intérêt reste au rendez-vous quand la commune tirée en a
+      // (voir buildActivityOptions, qui consulte FEATURED pour la commune once choisie) — mais ça
+      // n'influence plus QUI est choisi, seulement CE QUI EST PROPOSÉ une fois le lieu tiré.
+      var chosen = candidates[randInt(0, candidates.length-1)];
       used[chosen.commune.norm] = true;
       route.push(chosen.commune);
       curLat = chosen.commune.lat; curLon = chosen.commune.lon;
@@ -923,14 +933,9 @@
         candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 0);
         if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
       }
-      candidates.forEach(function(x){
-        var feat = FEATURED[x.commune.norm];
-        // Voir buildRealRoute pour le détail : la taille de la commune n'est plus qu'un tout petit
-        // coup de pouce, pour que le hasard domine le tirage plutôt que la population.
-        x.score = (feat ? 25 + feat.pois.length*12 : 0) + Math.min(x.commune.pop,8000)/400 + rand(0,90);
-      });
-      candidates.sort(function(a,b){ return b.score-a.score; });
-      var stop = pick(candidates.slice(0, Math.min(6, candidates.length))).commune;
+      // Tirage uniforme, voir buildRealRoute pour le détail de pourquoi (tout score, même modeste,
+      // écrase le hasard sur un aussi grand bassin de candidats).
+      var stop = candidates[randInt(0, candidates.length-1)].commune;
       var featured0 = FEATURED[stop.norm];
       var poisQueue0 = featured0 ? featured0.pois.slice() : [];
       var genericQueue0 = shuffle(GENERIC_ACTIVITIES_NO_WALK);
