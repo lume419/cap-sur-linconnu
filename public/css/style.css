@@ -323,15 +323,17 @@
   .radius-step:active{background:color-mix(in srgb, var(--accent-3) 20%, var(--surface-2));}
   /* Les flèches natives du champ faisaient double emploi avec les boutons +/- ci-dessus (redondant
      en mode km, carrément flottantes dans le vide en mode heures où le champ réel est masqué) —
-     masquées dans les deux modes, les boutons +/- sont désormais le seul contrôle. Chrome/Safari/
-     Edge se masquent via les pseudo-éléments ::-webkit-*-spin-button ; Firefox les ignore
-     totalement et affiche son propre petit sélecteur ⇅ à la place — d'où le doublon signalé,
-     resté visible malgré le premier correctif. -moz-appearance:textfield est le seul moyen de le
-     supprimer côté Firefox.
-  */
+     masquées dans les deux modes, les boutons +/- sont désormais le seul contrôle.
+     -moz-appearance:textfield pour Firefox, qui ignore les pseudo-éléments ::-webkit-*-spin-button
+     et affiche son propre petit sélecteur à la place.
+     Sur Chromium (Chrome/Edge/Opera...), une règle plus ancienne et plus spécifique — .dash
+     input[type="number"]::-webkit-inner-spin-button{opacity:0.6} — gagnait sur la mienne et
+     laissait les flèches natives visibles en semi-transparence au lieu de les masquer
+     complètement : d'où le doublon resté visible malgré le premier correctif. Ajout de
+     [type="number"] ici pour égaler sa spécificité (et gagner grâce à l'ordre dans le fichier). */
   .radius-value-wrap input{-moz-appearance:textfield;}
-  .radius-value-wrap input::-webkit-inner-spin-button,
-  .radius-value-wrap input::-webkit-outer-spin-button{opacity:0; pointer-events:none;}
+  .radius-value-wrap input[type="number"]::-webkit-inner-spin-button,
+  .radius-value-wrap input[type="number"]::-webkit-outer-spin-button{opacity:0; pointer-events:none;}
   /* En mode "temps de trajet", le champ affiche la durée mise en forme (ex. "4h30") par-dessus
      l'input numérique plutôt qu'à côté : le nombre décimal reste ajustable via les flèches +/-
      mais devient invisible, seul le texte de l'incrustation — qui suit sa valeur en temps réel —
