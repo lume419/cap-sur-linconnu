@@ -1306,6 +1306,11 @@
       var minCropW = vb.W*0.16, minCropH = vb.H*0.16;
       if(cropW < minCropW){ cropX0 -= (minCropW-cropW)/2; cropW = minCropW; }
       if(cropH < minCropH){ cropY0 -= (minCropH-cropH)/2; cropH = minCropH; }
+      // Encore un peu trop serré au goût des utilisateurs : 25% de zone visible en plus autour du
+      // trajet, en gardant le même centre.
+      var centerX = cropX0 + cropW/2, centerY = cropY0 + cropH/2;
+      cropW *= 1.25; cropH *= 1.25;
+      cropX0 = centerX - cropW/2; cropY0 = centerY - cropH/2;
       // Reste dans les limites de la carte d'origine (évite trop de vide/mer visible autour).
       cropW = Math.min(cropW, vb.W); cropH = Math.min(cropH, vb.H);
       cropX0 = Math.max(0, Math.min(cropX0, vb.W-cropW));

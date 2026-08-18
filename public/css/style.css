@@ -296,6 +296,14 @@
     cursor:pointer;
   }
   .seg button[aria-pressed="true"]{background:var(--accent); color:var(--accent-ink);}
+  /* Sur un écran étroit, les deux boutons côte à côte ("Distance max (km)" / "Temps de trajet
+     retour max (h)") n'ont chacun qu'une fraction de la largeur déjà réduite du mobile — le texte
+     se retrouve coupé mot par mot sur 3 lignes, illisible. Empilés en colonne, chacun récupère
+     toute la largeur disponible. */
+  @media (max-width:480px){
+    .seg{flex-direction:column; width:100%;}
+    .seg button{width:100%;}
+  }
   .radius-input{display:flex; align-items:center; gap:.5rem; margin-top:.15rem;}
   .radius-input input{max-width:9rem;}
   .radius-value-wrap{position:relative; max-width:9rem;}
@@ -313,12 +321,11 @@
   }
   .radius-step:hover{border-color:var(--accent-3);}
   .radius-step:active{background:color-mix(in srgb, var(--accent-3) 20%, var(--surface-2));}
-  /* Les flèches natives du champ (desktop uniquement, où elles fonctionnent bien) restent en plus
-     des boutons — mais inutile de les dupliquer visuellement en mode heures, où le champ réel est
-     déjà masqué. */
-  .radius-value-wrap.show-duration input{-webkit-appearance:textfield; appearance:textfield;}
-  .radius-value-wrap.show-duration input::-webkit-inner-spin-button,
-  .radius-value-wrap.show-duration input::-webkit-outer-spin-button{opacity:0; pointer-events:none;}
+  /* Les flèches natives du champ faisaient double emploi avec les boutons +/- ci-dessus (redondant
+     en mode km, carrément flottantes dans le vide en mode heures où le champ réel est masqué) —
+     masquées dans les deux modes, les boutons +/- sont désormais le seul contrôle. */
+  .radius-value-wrap input::-webkit-inner-spin-button,
+  .radius-value-wrap input::-webkit-outer-spin-button{opacity:0; pointer-events:none;}
   /* En mode "temps de trajet", le champ affiche la durée mise en forme (ex. "4h30") par-dessus
      l'input numérique plutôt qu'à côté : le nombre décimal reste ajustable via les flèches +/-
      mais devient invisible, seul le texte de l'incrustation — qui suit sa valeur en temps réel —
