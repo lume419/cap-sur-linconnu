@@ -245,6 +245,7 @@
     datesError: document.getElementById('dates-error'),
     tentToggle: document.getElementById('tent-toggle'),
     budget: document.getElementById('budget'),
+    budgetHint: document.getElementById('budget-hint'),
     transport: document.getElementById('transport'),
     radius: document.getElementById('radius'),
     radiusUnit: document.getElementById('radius-unit'),
@@ -523,6 +524,18 @@
     if(allowed.indexOf(e.key) === -1){ e.preventDefault(); }
   });
   els.radius.addEventListener('paste', function(e){ if(radiusMode === 'h') e.preventDefault(); });
+
+  /* ---------- FOURCHETTE DE PRIX DU BUDGET SÉLECTIONNÉ ---------- */
+  // Affiche le plafond réellement utilisé pour préremplir les liens Airbnb/Booking (voir
+  // buildLodgingLinks, BUDGET_PRICE_MAX) — "jusqu'à X€" reflète le filtre "0 à X€" appliqué sur
+  // ces liens, pas une fourchette contiguë entre paliers.
+  function updateBudgetHint(){
+    var key = els.budget.value;
+    var max = BUDGET_PRICE_MAX[key];
+    els.budgetHint.textContent = "Jusqu'à " + max + " € / nuit (indicatif, 2 adultes) — utilisé pour préremplir les recherches Airbnb/Booking.";
+  }
+  els.budget.addEventListener('change', updateBudgetHint);
+  updateBudgetHint();
 
   /* ---------- HELPERS ---------- */
   function rand(min,max){ return Math.random()*(max-min)+min; }
