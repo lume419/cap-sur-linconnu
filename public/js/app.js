@@ -1255,7 +1255,15 @@
       if(leg.activities && leg.activities.length){
         var actLabelRow = document.createElement('div');
         actLabelRow.className = 'day-row';
-        actLabelRow.innerHTML = icon('spark') + '<span class="lbl">Activités possibles — au choix</span>';
+        // Cette commune n'a pas de POI répertorié dans FEATURED (la grande majorité des communes) :
+        // une recherche de vraies curiosités locales via OpenStreetMap est en cours en tâche de
+        // fond (voir plus bas) — la petite mention rend l'attente légitime plutôt que de laisser
+        // les suggestions génériques ci-dessous paraître figées sans explication. Overpass peut
+        // prendre plusieurs secondes, en particulier pour une grande ville.
+        var loadingNoteHtml = leg.needsRealPOIs
+          ? ' <span class="activities-loading-note">— recherche de vraies activités locales…</span>'
+          : '';
+        actLabelRow.innerHTML = icon('spark') + '<span class="lbl">Activités possibles — au choix'+loadingNoteHtml+'</span>';
         body.appendChild(actLabelRow);
 
         var actList = document.createElement('div');
@@ -1263,21 +1271,21 @@
         renderActivityCards(actList, leg.activities, leg.dept);
         body.appendChild(actList);
 
-        // Cette commune n'a pas de POI répertorié dans FEATURED (la grande majorité des communes) :
-        // on tente en tâche de fond de récupérer de vraies curiosités locales via OpenStreetMap
-        // plutôt que de se contenter des suggestions génériques déjà affichées ci-dessus. Si
-        // Overpass ne répond rien (indisponible, aucun résultat...), les activités génériques
-        // restent affichées telles quelles — aucune erreur visible, juste pas de mise à jour.
+        // Si Overpass ne répond rien (indisponible, aucun résultat...), les activités génériques
+        // restent affichées telles quelles — aucune erreur visible, juste pas de mise à jour (et la
+        // mention de recherche ci-dessus disparaît dans tous les cas, succès ou non).
         if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
-          fetchRealPOIs(leg.lat, leg.lon).then(function(actListEl, dept){
+          fetchRealPOIs(leg.lat, leg.lon).then(function(actListEl, dept, labelRow){
             return function(pois){
+              var note = labelRow.querySelector('.activities-loading-note');
+              if(note) note.remove();
               if(!pois || !pois.length) return;
               var poisQueue = shuffle(pois);
               var genericQueue = shuffle(GENERIC_ACTIVITIES_NO_WALK);
               var freshActivities = buildActivityOptions(poisQueue, genericQueue);
               renderActivityCards(actListEl, freshActivities, dept);
             };
-          }(actList, leg.dept));
+          }(actList, leg.dept, actLabelRow));
         }
       }
       if(leg.lodging){

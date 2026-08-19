@@ -167,6 +167,16 @@ async function queryOverpass(url, query){
 // figé un faux négatif pendant 14 jours à la moindre lenteur passagère d'Overpass (ce qui est
 // arrivé en pratique : une commune re-testée avec Overpass de nouveau disponible restait bloquée
 // sur un résultat vide mis en cache lors d'un essai précédent en échec).
+function haversineKm(lat1, lon1, lat2, lon2){
+  const R = 6371, toRad = x => x * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1), dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat/2)**2 + Math.cos(toRad(lat1))*Math.cos(toRad(lat2))*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+// Rayon max toléré pour un résultat, un peu plus large que POI_RADIUS_M pour absorber les petits
+// écarts de projection — sans quoi le garde-fou ci-dessous deviendrait lui-même trop agressif.
+const POI_MAX_DISTANCE_KM = (POI_RADIUS_M / 1000) * 1.25;
+
 async function fetchRealPOIs(lat, lon){
   const query = buildOverpassQuery(lat, lon);
   let data = null;
@@ -181,6 +191,17 @@ async function fetchRealPOIs(lat, lon){
     const name = el.tags && el.tags.name;
     const type = el.tags && poiTypeFromTags(el.tags);
     if(!name || !type || seen.has(name)) continue;
+    // Le filtre "around" d'Overpass garantit que la GÉOMÉTRIE d'une way/relation croise le rayon
+    // demandé, pas que son CENTRE calculé (out center) y reste — une grande zone (ex. une réserve
+    // naturelle de plusieurs km²) peut avoir un centre à des dizaines de km du point réellement
+    // concerné, alors qu'un simple bord touche le rayon. D'où des activités proposées bien plus
+    // loin que prévu (signalé : "à plus d'une heure de route"). On revérifie donc la vraie distance
+    // et on écarte ce qui dépasse nettement le rayon demandé plutôt que de faire confiance au filtre
+    // Overpass seul.
+    const elLat = el.lat != null ? el.lat : (el.center && el.center.lat);
+    const elLon = el.lon != null ? el.lon : (el.center && el.center.lon);
+    if(elLat == null || elLon == null) continue;
+    if(haversineKm(lat, lon, elLat, elLon) > POI_MAX_DISTANCE_KM) continue;
     seen.add(name);
     pois.push({ name, type });
   }

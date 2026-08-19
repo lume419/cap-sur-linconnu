@@ -520,6 +520,7 @@
   .day-row > span{min-width:0;}
   .day-row svg{width:16px; height:16px; flex:none; margin-top:.15rem; color:var(--accent-2);}
   .day-row .lbl{font:700 .66rem/1.5 var(--font-body); letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); display:block;}
+  .activities-loading-note{font:italic 400 .66rem/1.5 var(--font-hand); letter-spacing:0; text-transform:none; color:var(--accent-3); opacity:.85;}
   .lodging-links{display:inline-flex; gap:.5rem; margin-top:.35rem; flex-wrap:wrap;}
   .lodging-link{
     font:700 .72rem/1 var(--font-body); color:var(--accent-3); text-decoration:none;
