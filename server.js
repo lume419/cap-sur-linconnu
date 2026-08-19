@@ -387,6 +387,107 @@ async function fetchRealPOIs(lat, lon){
   return shuffleArr(pois).slice(0, 10);
 }
 
+// Vraies randonnées balisées via Visorando (visorando.com), pour la suggestion "balade" quand elle
+// tombe sur la formule générique par défaut — un vrai itinéraire préparé (avec trace GPS, distance,
+// dénivelé) vaut bien mieux qu'une phrase générique. On ne récupère QUE le nom et le lien de chaque
+// rando (des faits, pas le travail créatif de Visorando : ni la trace GPX, ni la description, ni les
+// photos) — l'app renvoie directement vers leur site pour la suite, jamais de contenu recopié ni
+// republié. robots.txt de visorando.com autorise ces pages (seul /index.php?component=webservices,
+// leur API interne, est explicitement exclu — non utilisée ici).
+const VISORANDO_CACHE_TTL_MS = 14 * 24 * 60 * 60 * 1000; // 14j : ces listes changent peu
+const visorandoCache = new Map();
+const VISORANDO_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36 CapSurLInconnu/1.0 (+https://github.com/lume419/cap-sur-linconnu)';
+
+function visorandoSlug(name){
+  return String(name || '')
+    .toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+const HTML_NAMED_ENTITIES = { amp:'&', quot:'"', lt:'<', gt:'>', nbsp:' ', thinsp:' ', apos:"'",
+  eacute:'é', egrave:'è', ecirc:'ê', euml:'ë', agrave:'à', acirc:'â', ccedil:'ç',
+  ocirc:'ô', ouml:'ö', ucirc:'û', ugrave:'ù', uuml:'ü', icirc:'î', iuml:'ï',
+  Eacute:'É', Egrave:'È', Agrave:'À', Ccedil:'Ç', OElig:'Œ', oelig:'œ' };
+function decodeHtmlEntities(s){
+  return String(s || '')
+    .replace(/&#(\d+);/g, (m, n) => String.fromCodePoint(+n))
+    .replace(/&([a-zA-Z]+);/g, (m, name) => (name in HTML_NAMED_ENTITIES) ? HTML_NAMED_ENTITIES[name] : m);
+}
+
+async function fetchVisorandoHikes(communeName){
+  const slug = visorandoSlug(communeName);
+  if(!slug) return [];
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 10000);
+  let resp;
+  try {
+    resp = await fetch('https://www.visorando.com/randonnee-' + slug + '.html', {
+      headers: { 'User-Agent': VISORANDO_UA },
+      signal: controller.signal
+    });
+  } finally {
+    clearTimeout(timer);
+  }
+  if(resp.status === 404) return []; // pas de page pour cette commune : aucune rando à proximité
+  if(!resp.ok) throw new Error('HTTP ' + resp.status);
+  const html = await resp.text();
+  const hikes = [];
+  const seen = new Set();
+  // Un bloc par rando listée ; on ne cherche le nom/lien/distance/durée/difficulté que DANS ce
+  // bloc, pour ne jamais associer les infos d'une rando à une autre.
+  const blocks = html.split('vr-card vr-card--rando').slice(1);
+  for(const block of blocks){
+    const linkMatch = block.match(/<a class="card--link" title="([^"]+)" href="(https:\/\/www\.visorando\.com\/randonnee-[a-z0-9-]+\/)"/);
+    if(!linkMatch) continue;
+    const url = linkMatch[2];
+    if(seen.has(url)) continue;
+    seen.add(url);
+    const distMatch = block.match(/title="Distance"[^>]*\/><span>([^<]+)<\/span>/);
+    const durMatch = block.match(/title="Durée"[^>]*\/><span>([^<]+)<\/span>/);
+    const diffMatch = block.match(/title="(Facile|Moyenne|Difficile|Très difficile)"/);
+    hikes.push({
+      name: decodeHtmlEntities(linkMatch[1]),
+      url,
+      distance: distMatch ? decodeHtmlEntities(distMatch[1]).trim() : null,
+      duration: durMatch ? decodeHtmlEntities(durMatch[1]).trim() : null,
+      difficulty: diffMatch ? diffMatch[1] : null
+    });
+  }
+  return hikes;
+}
+
+// Une seule rando par appel (choisie au hasard parmi celles trouvées) : c'est tout ce dont
+// buildActivityOptions a besoin pour la suggestion "balade". `null` = échec réseau, pas mis en
+// cache (on retentera) ; `{hikes:[]}` en cache = vraiment aucune rando trouvée pour cette commune.
+async function fetchVisorandoHike(communeName){
+  const cacheKey = communeName.toLowerCase();
+  const cached = visorandoCache.get(cacheKey);
+  if(cached && (Date.now() - cached.ts) < VISORANDO_CACHE_TTL_MS){
+    return cached.hikes.length ? cached.hikes[Math.floor(Math.random() * cached.hikes.length)] : null;
+  }
+  let hikes;
+  try {
+    hikes = await fetchVisorandoHikes(communeName);
+  } catch(err){
+    console.warn('[hike] échec pour "' + communeName + '":', err.message);
+    return null;
+  }
+  visorandoCache.set(cacheKey, { hikes, ts: Date.now() });
+  return hikes.length ? hikes[Math.floor(Math.random() * hikes.length)] : null;
+}
+
+app.get('/api/hike', async (req, res) => {
+  const name = String(req.query.name || '').trim();
+  if(!name || name.length > 120){
+    return res.status(400).json({ error: 'invalid name', hike: null });
+  }
+  let hike = null;
+  try { hike = await fetchVisorandoHike(name); } catch(err){ /* silencieux : voir fetchVisorandoHike */ }
+  res.json({ hike });
+});
+
 app.get('/api/pois', async (req, res) => {
   const lat = parseFloat(req.query.lat);
   const lon = parseFloat(req.query.lon);

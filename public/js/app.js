@@ -920,6 +920,20 @@
     }
     return clientPoiCache[key];
   }
+  // Une vraie randonnée balisée (Visorando, via notre serveur) pour la suggestion "balade" quand
+  // aucun POI de plein air (point de vue, cascade...) n'a été trouvé pour la compléter — un vrai
+  // itinéraire préparé, avec sa propre trace, vaut mieux qu'une phrase générique. Mémoïsé par nom de
+  // commune : plusieurs jours au même endroit, ou plusieurs visiteurs, ne redemandent qu'une fois.
+  var clientHikeCache = {};
+  function fetchVisorandoHike(communeName){
+    if(!clientHikeCache[communeName]){
+      clientHikeCache[communeName] = fetch('/api/hike?name=' + encodeURIComponent(communeName))
+        .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
+        .then(function(data){ return (data && data.hike) || null; })
+        .catch(function(){ return null; });
+    }
+    return clientHikeCache[communeName];
+  }
   // Lance à l'avance les mêmes requêtes que renderDays fera plus tard (photo de chaque étape,
   // vrais POI Overpass pour les communes qui en ont besoin, puis photo de chacun des POI trouvés) —
   // appelée pendant l'animation de la roulette, qui dure quelques secondes, plutôt que d'attendre
@@ -934,6 +948,7 @@
       if(leg.activities){
         leg.activities.forEach(function(opt){
           if(opt.isReal && opt.searchName) fetchPlacePhoto(opt.searchName, leg.dept);
+          if(opt.needsHike) fetchVisorandoHike(leg.stop);
         });
       }
       if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
@@ -996,7 +1011,10 @@
           imageFull: walkPoi.imageFull || null
         });
       } else {
-        options.push({ label: 'Randonnée ou balade dans les environs', typeLabel: 'balade', isReal: false, isWalk: true });
+        // Aucun POI de plein air disponible pour compléter cette suggestion : on tentera une vraie
+        // rando balisée via Visorando (voir renderActivityCards) plutôt que de garder cette formule
+        // générique telle quelle. Si Visorando ne renvoie rien non plus, elle reste affichée ainsi.
+        options.push({ label: 'Randonnée ou balade dans les environs', typeLabel: 'balade', isReal: false, isWalk: true, needsHike: true });
       }
     }
     while(options.length < 3){
@@ -1135,16 +1153,19 @@
     });
     visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
   }
-  function renderActivityCards(actList, activities, dept){
+  function renderActivityCards(actList, activities, dept, communeName){
     actList.innerHTML = '';
     activities.forEach(function(opt){
       var card = document.createElement('div');
       card.className = 'activity-card';
+      var noteHtml = opt.needsHike
+        ? ' <span class="activities-loading-note">— recherche d\'une vraie randonnée…</span>'
+        : '';
       card.innerHTML =
         '<div class="activity-card-visual">'+icon(opt.isWalk ? 'walk' : 'spark')+'</div>'+
         '<div class="activity-card-body">'+
           '<div class="activity-card-title">'+opt.label+'</div>'+
-          '<div class="activity-card-type">'+opt.typeLabel+'</div>'+
+          '<div class="activity-card-type">'+opt.typeLabel+noteHtml+'</div>'+
         '</div>';
       actList.appendChild(card);
       if(opt.image){
@@ -1161,6 +1182,34 @@
             applyActivityCardImage(cardEl, label, data.image, data.imageFull, data.wikiUrl);
           };
         }(card, opt.label));
+      } else if(opt.needsHike && communeName){
+        // Aucun POI de plein air trouvé pour cette journée : on tente une vraie rando balisée sur
+        // Visorando. On ne récupère QUE le nom et le lien — jamais leur trace GPS, leur texte de
+        // description ni leurs photos (voir server.js) — et la carte entière renvoie directement
+        // vers leur page, avec la source explicitement créditée. Si rien n'est trouvé, la carte
+        // générique reste affichée telle quelle.
+        fetchVisorandoHike(communeName).then(function(cardEl){
+          return function(hike){
+            if(!hike || !cardEl.parentNode) return;
+            var metaBits = [];
+            if(hike.distance) metaBits.push(hike.distance);
+            if(hike.duration) metaBits.push(hike.duration);
+            if(hike.difficulty) metaBits.push(hike.difficulty);
+            var newCard = document.createElement('a');
+            newCard.className = 'activity-card has-hike';
+            newCard.href = hike.url;
+            newCard.target = '_blank';
+            newCard.rel = 'noopener';
+            newCard.innerHTML =
+              '<div class="activity-card-visual">'+icon('walk')+'</div>'+
+              '<div class="activity-card-body">'+
+                '<div class="activity-card-title">'+hike.name+'</div>'+
+                '<div class="activity-card-type">'+(metaBits.length ? metaBits.join(' · ') : 'randonnée balisée')+'</div>'+
+                '<div class="activity-card-source">Source : Visorando ↗</div>'+
+              '</div>';
+            cardEl.parentNode.replaceChild(newCard, cardEl);
+          };
+        }(card));
       }
     });
   }
@@ -1307,14 +1356,14 @@
 
         var actList = document.createElement('div');
         actList.className = 'activity-options';
-        renderActivityCards(actList, leg.activities, leg.dept);
+        renderActivityCards(actList, leg.activities, leg.dept, leg.stop);
         body.appendChild(actList);
 
         // Si Overpass ne répond rien (indisponible, aucun résultat...), les activités génériques
         // restent affichées telles quelles — aucune erreur visible, juste pas de mise à jour (et la
         // mention de recherche ci-dessus disparaît dans tous les cas, succès ou non).
         if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
-          fetchRealPOIs(leg.lat, leg.lon, leg.stop, leg.dept).then(function(actListEl, dept, labelRow){
+          fetchRealPOIs(leg.lat, leg.lon, leg.stop, leg.dept).then(function(actListEl, dept, stopName, labelRow){
             return function(pois){
               var note = labelRow.querySelector('.activities-loading-note');
               if(note) note.remove();
@@ -1322,9 +1371,9 @@
               var poisQueue = shuffle(pois);
               var genericQueue = shuffle(GENERIC_ACTIVITIES_NO_WALK);
               var freshActivities = buildActivityOptions(poisQueue, genericQueue);
-              renderActivityCards(actListEl, freshActivities, dept);
+              renderActivityCards(actListEl, freshActivities, dept, stopName);
             };
-          }(actList, leg.dept, actLabelRow));
+          }(actList, leg.dept, leg.stop, actLabelRow));
         }
       }
       if(leg.lodging){

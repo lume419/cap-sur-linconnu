@@ -25,11 +25,12 @@ cap-sur-linconnu/
 │                                # (non chargé par l'app — conservé comme référence/source)
 ```
 
-Le serveur sert les fichiers statiques et deux routes dynamiques : `GET /api/photo?name=…&dept=…`,
-qui va chercher une vraie photo sur Wikipédia (voir plus bas), et `GET /api/pois?lat=…&lon=…`, qui
-va chercher de vrais points d'intérêt sur OpenStreetMap autour d'une commune (voir "Activités
-réelles"). Pas de base de données, pas de session, pas de donnée utilisateur conservée — juste un
-petit cache en mémoire pour ces deux routes.
+Le serveur sert les fichiers statiques et trois routes dynamiques : `GET /api/photo?name=…&dept=…`,
+qui va chercher une vraie photo sur Wikipédia (voir plus bas), `GET /api/pois?lat=…&lon=…`, qui va
+chercher de vrais points d'intérêt sur OpenStreetMap autour d'une commune (voir "Activités
+réelles"), et `GET /api/hike?name=…`, qui va chercher une vraie randonnée balisée sur Visorando pour
+une commune (voir "Randonnées réelles"). Pas de base de données, pas de session, pas de donnée
+utilisateur conservée — juste un petit cache en mémoire pour ces trois routes.
 
 ## Démarrer en local
 
@@ -117,6 +118,28 @@ monuments, points de vue, réserves naturelles...). Points notables :
   sauf s'il en a déjà une via la galerie de l'article de la commune — aucune image n'est stockée sur
   le serveur, juste des liens vers Wikimedia Commons.
 
+## Randonnées réelles
+
+Quand aucun point d'intérêt de plein air (point de vue, cascade, réserve naturelle...) n'a été
+trouvé pour la suggestion "balade" d'une journée, l'app tente de la remplacer par une vraie
+randonnée balisée trouvée sur [Visorando](https://www.visorando.com), plutôt que de garder une
+formule générique du type « Randonnée ou balade dans les environs ». Pour ne pas réutiliser leur
+travail sans le créditer :
+
+- Seuls le **nom**, le **lien**, la **distance**, la **durée** et la **difficulté** de la
+  randonnée sont récupérés (des faits, pas leur texte de description, ni leur trace GPS, ni leurs
+  photos) — voir `extractVisorandoHikes` dans `server.js`.
+- La carte affichée dans l'app est un vrai lien cliquable (`<a target="_blank">`) qui **renvoie
+  directement vers la page de cette randonnée précise** sur visorando.com (jamais vers une page de
+  recherche), avec une mention explicite « Source : Visorando » sur la carte elle-même.
+- `robots.txt` de visorando.com autorise la lecture de ces pages publiques (seule leur API interne,
+  `component=webservices`, est explicitement exclue — non utilisée ici).
+- Mis en cache serveur 14 jours par commune, avec le même principe que pour les activités
+  Overpass : un échec réseau n'est jamais mis en cache (on retentera au prochain tirage), seul un
+  « pas de page trouvée pour cette commune » légitime l'est.
+- Si Visorando ne renvoie rien pour la commune tirée, la formule générique reste affichée telle
+  quelle — aucune erreur visible.
+
 ## Sources des données
 
 - Communes : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
@@ -131,6 +154,9 @@ monuments, points de vue, réserves naturelles...). Points notables :
 - Photos et département de désambiguïsation : [Wikipédia](https://fr.wikipedia.org) (API REST,
   images sous licence Wikimedia Commons — crédit affiché sous chaque photo) ;
   [geo.api.gouv.fr](https://geo.api.gouv.fr) pour les codes département.
+- Randonnées : [Visorando](https://www.visorando.com) — nom, distance, durée et difficulté
+  affichés à titre indicatif, lien direct vers leur page pour le tracé complet (voir "Randonnées
+  réelles" ci-dessus).
 
 Toutes ces données sont figées au moment de la génération de ce projet (2026). Pour les rafraîchir,
 relancez les mêmes sources et remplacez les fichiers dans `public/data/`.

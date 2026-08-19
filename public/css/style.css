@@ -612,6 +612,12 @@
      "à faire sur place" en "À Faire Sur Place"). */
   .activity-card-type{font-size:.72rem; color:var(--ink-faint); margin-top:.1rem;}
   .activity-card-type::first-letter{text-transform:uppercase;}
+  /* Vraie rando Visorando : toute la carte est un lien (clic = va directement au trajet, sur leur
+     site) — mêmes dimensions qu'une carte normale, avec un léger indice visuel au survol et la
+     source explicitement créditée (voir renderActivityCards dans app.js). */
+  a.activity-card.has-hike{text-decoration:none; cursor:pointer; transition:border-color .15s, transform .15s;}
+  a.activity-card.has-hike:hover{border-color:var(--accent-3); transform:translateY(-2px);}
+  .activity-card-source{font-size:.68rem; color:var(--accent-3); margin-top:.3rem; font-weight:600;}
 
   /* ============ PACKING LIST ============ */
   .pack-card{
