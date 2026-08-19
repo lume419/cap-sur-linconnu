@@ -1377,11 +1377,9 @@
         }
       }
       if(leg.lodging){
-        var lodgeRow = document.createElement('div');
-        lodgeRow.className = 'day-row';
-        lodgeRow.innerHTML = icon('bed') + '<span><span class="lbl">Type de logement</span>'+leg.lodging+'</span>';
-        body.appendChild(lodgeRow);
-
+        // Pas de ligne "Type de logement" séparée : la catégorie choisie est déjà reflétée dans
+        // les recherches Airbnb/Booking ci-dessous (budget, dates), qui l'affichent en pratique
+        // plutôt qu'en théorie — une ligne à part ne faisait que répéter la même information.
         if(leg.lodgingLinks){
           var linksRow = document.createElement('div');
           linksRow.className = 'day-row';
