@@ -410,7 +410,7 @@
   var activeSuggestIndex = -1;
 
   function formatCpBadge(r){
-    return r.allCps.length > 1 ? (r.cp + ' +' + (r.allCps.length - 1)) : r.cp;
+    return (r.allCps && r.allCps.length > 1) ? (r.cp + ' +' + (r.allCps.length - 1)) : r.cp;
   }
   function renderSuggestions(results){
     els.citySuggest.innerHTML = '';
@@ -442,7 +442,7 @@
     els.city.setAttribute('aria-expanded','true');
   }
   function selectCommune(r){
-    selectedCity = { name:r.name, cp:r.cp, lat:r.lat, lon:r.lon, dept:r.dept };
+    selectedCity = { name:r.name, cp:r.cp, allCps:r.allCps, lat:r.lat, lon:r.lon, dept:r.dept };
     els.city.value = r.name + ' (' + r.cp + ')';
     hideSuggestions();
     clearCityError();
@@ -813,7 +813,8 @@
     els.rouletteLabel.textContent = 'Destination tirée au sort';
     setTimeout(function(){
       els.stamp.classList.add('show');
-      var bits = [firstStop.name];
+      // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France).
+      var bits = [firstStop.name + (firstStop.cp ? ' (' + formatCpBadge(firstStop) + ')' : '')];
       if(firstStop.pop) bits.push(firstStop.pop.toLocaleString('fr-FR')+' habitants');
       if(FEATURED[firstStop.norm]) bits.push(FEATURED[firstStop.norm].pois.length+' point'+(FEATURED[firstStop.norm].pois.length>1?'s':'')+" d'intérêt réel"+(FEATURED[firstStop.norm].pois.length>1?'s':'')+' repéré'+(FEATURED[firstStop.norm].pois.length>1?'s':''));
       els.revealRegion.textContent = bits.join(' · ');
@@ -1018,7 +1019,7 @@
         needsRealPOIs: !featured0,
         lodging: null,
         isReturn:false,
-        lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept
+        lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept, cp: stop.cps[0], allCps: stop.cps
       }, finalizeLeg(distOut, speed, transportKey, tollEnabled)));
       legs.push(Object.assign({
         label:'Retour',
@@ -1026,7 +1027,7 @@
         activities: null,
         lodging: null,
         isReturn:true,
-        lat: cLat, lon: cLon, dept: cityCoord.dept
+        lat: cLat, lon: cLon, dept: cityCoord.dept, cp: cityCoord.cp, allCps: cityCoord.allCps
       }, finalizeLeg(distBack, speed, transportKey, tollEnabled)));
       return legs;
     }
@@ -1068,7 +1069,7 @@
           checkIn: checkIn, checkOut: checkOut,
           lodgingLinks: buildLodgingLinks(commune.name, checkIn, checkOut, budgetKey),
           isReturn:false,
-          lat: commune.lat, lon: commune.lon, norm: commune.norm, pop: commune.pop, dept: commune.dept
+          lat: commune.lat, lon: commune.lon, norm: commune.norm, pop: commune.pop, dept: commune.dept, cp: commune.cps[0], allCps: commune.cps
         }, legInfo));
       }
       prevLat = commune.lat; prevLon = commune.lon;
@@ -1082,7 +1083,7 @@
       activities: null,
       lodging: null,
       isReturn:true,
-      lat: cLat, lon: cLon, dept: cityCoord.dept
+      lat: cLat, lon: cLon, dept: cityCoord.dept, cp: cityCoord.cp, allCps: cityCoord.allCps
     }, finalizeLeg(distBackKm, speed, transportKey, tollEnabled)));
 
     return legs;
@@ -1167,7 +1168,10 @@
 
       var stopEl = document.createElement('div');
       stopEl.className = 'day-stop';
-      stopEl.textContent = leg.isReturn ? ('Retour vers ' + leg.stop) : ('Étape mystère : ' + leg.stop);
+      // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France) —
+      // sans lui, impossible de savoir laquelle a été tirée au sort rien qu'au nom.
+      var stopLabel = leg.stop + (leg.cp ? ' (' + formatCpBadge(leg) + ')' : '');
+      stopEl.textContent = leg.isReturn ? ('Retour vers ' + stopLabel) : ('Étape mystère : ' + stopLabel);
       body.appendChild(stopEl);
 
       if(leg.stop){
@@ -1536,7 +1540,7 @@
     var avoidTent = els.tentToggle.checked;
     var speed = TRANSPORT[transportKey].speed;
     var maxRadiusKm = Math.max(20, effectiveRadiusKm(speed));
-    var cityCoord = { lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept };
+    var cityCoord = { lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept, cp: selectedCity.cp, allCps: selectedCity.allCps };
 
     var minDistanceKm = parseFloat(els.minDistance.value) || 0;
     var maxDistanceKm = parseFloat(els.maxDistance.value) || 0;
@@ -1576,7 +1580,7 @@
 
     if(rouletteTimer) clearTimeout(rouletteTimer);
 
-    var firstStopInfo = { name: firstLeg.stop, norm: firstLeg.norm, pop: firstLeg.pop };
+    var firstStopInfo = { name: firstLeg.stop, norm: firstLeg.norm, pop: firstLeg.pop, cp: firstLeg.cp, allCps: firstLeg.allCps };
     runReveal(firstStopInfo, spinPool, function(){
       renderDays(legs, city);
       renderMap(legs, city, cityCoord);
