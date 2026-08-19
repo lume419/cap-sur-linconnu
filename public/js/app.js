@@ -158,6 +158,12 @@
   // Types de POI OSM qui se prêtent à une vraie suggestion de balade/randonnée (plutôt qu'une
   // visite en intérieur) : on les préfère comme suggestion "balade" quand ils sont disponibles.
   var WALK_POI_TYPES = { viewpoint:1, nature_reserve:1, peak:1, waterfall:1, cave_entrance:1, beach:1 };
+  // Pour la diversité des activités proposées (voir buildActivityOptions), certains types comptent
+  // comme une seule et même catégorie même si leur étiquette affichée reste distincte (voir
+  // POI_TYPE_LABEL) — un monument aux morts EST un mémorial, proposer les deux en même temps
+  // n'apporterait pas de vraie diversité.
+  var POI_DIVERSITY_GROUP = { monument:'memorial', memorial:'memorial' };
+  function diversityGroup(type){ return POI_DIVERSITY_GROUP[type] || type; }
   var FEATURED = {};
   FEATURED_RAW.split('\n').forEach(function(line){
     var parts = line.split(';');
@@ -962,9 +968,9 @@
     var i = 0;
     while(options.length < 2 && i < poisQueue.length){
       var poi = poisQueue[i];
-      if(usedTypes[poi.type]){ i++; continue; }
+      if(usedTypes[diversityGroup(poi.type)]){ i++; continue; }
       poisQueue.splice(i, 1); // l'élément suivant glisse à cet index, donc on ne bouge pas i
-      usedTypes[poi.type] = true;
+      usedTypes[diversityGroup(poi.type)] = true;
       options.push({
         label: poi.name,
         typeLabel: POI_TYPE_LABEL[poi.type] || 'curiosité locale',
@@ -977,7 +983,7 @@
     }
     if(!options.some(function(o){ return o.isWalk; })){
       var walkIdx = -1;
-      for(var j=0; j<poisQueue.length; j++){ if(WALK_POI_TYPES[poisQueue[j].type] && !usedTypes[poisQueue[j].type]){ walkIdx = j; break; } }
+      for(var j=0; j<poisQueue.length; j++){ if(WALK_POI_TYPES[poisQueue[j].type] && !usedTypes[diversityGroup(poisQueue[j].type)]){ walkIdx = j; break; } }
       if(walkIdx >= 0){
         var walkPoi = poisQueue.splice(walkIdx, 1)[0];
         options.push({
