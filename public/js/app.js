@@ -954,9 +954,17 @@
   // éviter les répétitions), et `genericQueue` est réapprovisionnée si elle vient à manquer.
   function buildActivityOptions(poisQueue, genericQueue){
     var options = [];
-    var poiCount = Math.min(2, poisQueue.length);
-    for(var i=0; i<poiCount; i++){
-      var poi = poisQueue.shift();
+    // Un maximum d'un lieu par type (musée, mémorial, château...) — sans ça, une zone où un seul
+    // type de POI domine largement en nombre (ex. les nombreux "Puits n°X" mémoriaux des anciens
+    // bassins miniers du Nord) pouvait accaparer les 2 suggestions réelles avec deux variantes
+    // quasi identiques du même genre de lieu, au détriment de la diversité.
+    var usedTypes = {};
+    var i = 0;
+    while(options.length < 2 && i < poisQueue.length){
+      var poi = poisQueue[i];
+      if(usedTypes[poi.type]){ i++; continue; }
+      poisQueue.splice(i, 1); // l'élément suivant glisse à cet index, donc on ne bouge pas i
+      usedTypes[poi.type] = true;
       options.push({
         label: poi.name,
         typeLabel: POI_TYPE_LABEL[poi.type] || 'curiosité locale',
@@ -969,7 +977,7 @@
     }
     if(!options.some(function(o){ return o.isWalk; })){
       var walkIdx = -1;
-      for(var j=0; j<poisQueue.length; j++){ if(WALK_POI_TYPES[poisQueue[j].type]){ walkIdx = j; break; } }
+      for(var j=0; j<poisQueue.length; j++){ if(WALK_POI_TYPES[poisQueue[j].type] && !usedTypes[poisQueue[j].type]){ walkIdx = j; break; } }
       if(walkIdx >= 0){
         var walkPoi = poisQueue.splice(walkIdx, 1)[0];
         options.push({
