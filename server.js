@@ -560,32 +560,106 @@ function clip(s, max){
   return s.length > max ? s.slice(0, max - 1) + '…' : s;
 }
 
+// Palette approximative des tokens CSS du site (voir public/css/style.css, thème clair) — pdfkit
+// ne peut pas lire les variables CSS, donc on les recopie ici en dur. Pas d'embarquement de police
+// custom (Georgia/Iowan pour --font-hand, la police display du site) : les 14 polices standard PDF
+// (Helvetica/Times) suffisent et évitent d'avoir à livrer/charger un fichier .ttf sur un
+// hébergement mutualisé — Times-Italic sert d'équivalent au ton "manuscrit" du site.
 const PDF_INK = '#1A1F1C';
 const PDF_INK_SOFT = '#4A544D';
-const PDF_ACCENT = '#B04A19';
-const PDF_ACCENT_3 = '#1F4F44';
+const PDF_ACCENT = '#B04A19';   // --accent (orange) : titre, badge retour, ligne "fin de mission"
+const PDF_ACCENT_2 = '#8A6414'; // --accent-2 (moutarde) : activités "à faire sur place"
+const PDF_ACCENT_3 = '#1F4F44'; // --accent-3 (teal) : badges de jour, liens (rando/logement), sac
+const PDF_BG = '#F6F1E2';       // --surface : fond du bandeau d'en-tête
+const PDF_BG_ALT = '#ECE4CC';   // --surface-2 : fond des jetons de statistiques
 const PDF_LINE = '#C9C2A0';
+const PDF_LINE_STRONG = '#8F8564'; // ligne de jonction entre les badges de jour ("timeline")
+
+// Fond crème (--bg du site) plutôt qu'une page blanche brute — posé sous tout le reste à chaque
+// nouvelle page (page 1 explicitement, pages suivantes via pdfRunningHeader/'pageAdded').
+function pdfPageBackground(doc){
+  doc.rect(0, 0, doc.page.width, doc.page.height).fill(PDF_BG);
+}
 
 function pdfEnsureSpace(doc, minHeight){
   const bottom = doc.page.height - doc.page.margins.bottom;
   if(doc.y + minHeight > bottom) doc.addPage();
 }
 
-function pdfBullet(doc, text, opts){
+// Écrit du texte à une position X fixe (colonne de contenu, décalée à droite des badges de jour)
+// en réutilisant toujours le Y courant — évite de répéter "x, doc.y" à chaque appel.
+function pdfText(doc, str, x, width, opts){
+  doc.text(str, x, doc.y, Object.assign({ width: width }, opts || {}));
+}
+
+// Puce colorée (point plein) ou case à cocher (carré creux, pour le sac à préparer) suivie du
+// texte — le point/la case est dessiné séparément du texte pour pouvoir lui donner une couleur
+// différente selon la nature de la ligne (péage, activité, lien réel...), comme les icônes du site.
+function pdfBullet(doc, text, x, width, opts){
   opts = opts || {};
   pdfEnsureSpace(doc, 24);
-  doc.fillColor(opts.link ? PDF_ACCENT_3 : PDF_INK).fontSize(9.5).font('Helvetica')
-    .text('•  ' + text, { link: opts.link || undefined, underline: !!opts.link });
+  const markY = doc.y + 4.6;
+  if(opts.checkbox){
+    doc.lineWidth(1).rect(x - 3, doc.y + 1.8, 6.4, 6.4).stroke(PDF_ACCENT_3);
+  } else {
+    doc.circle(x, markY, 2.1).fill(opts.color || PDF_INK_SOFT);
+  }
+  doc.font('Helvetica').fontSize(9.5).fillColor(opts.link ? PDF_ACCENT_3 : PDF_INK);
+  pdfText(doc, text, x + 11, width - 11, { link: opts.link || undefined, underline: !!opts.link });
+}
+
+// Jeton arrondi façon ".stats span" du site (voir style.css) — la largeur dépend du texte, donc on
+// la mesure avant de dessiner ; revient à la ligne si la suivante dépasserait la largeur utile.
+function pdfChipRow(doc, items, x, maxWidth){
+  const padX = 8, padY = 4.5, fontSize = 9, h = fontSize + padY * 2, gap = 6;
+  const colors = [PDF_ACCENT_3, PDF_ACCENT_2, PDF_ACCENT];
+  let cx = x, cy = doc.y, rowStartY = cy;
+  doc.font('Helvetica-Bold').fontSize(fontSize);
+  items.forEach(function(text, i){
+    const w = doc.widthOfString(text) + padX * 2;
+    if(cx > x && cx + w > x + maxWidth){ cx = x; cy += h + gap; }
+    doc.roundedRect(cx, cy, w, h, h / 2).fill(colors[i % colors.length]);
+    doc.fillColor('#FFFFFF').text(text, cx + padX, cy + padY - 0.5, { width: w - padX * 2, lineBreak: false });
+    cx += w + gap;
+  });
+  doc.y = cy + h;
+  doc.x = x;
+}
+
+// Bandeau de marque affiché en haut de chaque page suivant la première (qui a le grand bandeau
+// complet, voir buildTripPdf) — juste assez pour rester identifiable si l'itinéraire déborde sur
+// plusieurs pages, sans reproduire tout l'en-tête à chaque fois.
+function pdfRunningHeader(doc, marginLeft, contentWidth, tripLabel){
+  pdfPageBackground(doc);
+  doc.rect(0, 0, doc.page.width, 34).fill(PDF_BG_ALT);
+  doc.fillColor(PDF_ACCENT).font('Helvetica-Bold').fontSize(10).text("CAP SUR L'INCONNU", marginLeft, 12, { characterSpacing: 1 });
+  doc.fillColor(PDF_INK_SOFT).font('Helvetica-Oblique').fontSize(8.5)
+    .text(clip(tripLabel, 60), marginLeft, 13, { width: contentWidth, align: 'right' });
+  doc.y = doc.page.margins.top;
+  doc.x = marginLeft;
 }
 
 function buildTripPdf(doc, trip){
   const marginLeft = doc.page.margins.left;
   const contentWidth = doc.page.width - doc.page.margins.left - doc.page.margins.right;
+  const tripLabel = trip.tripLabel || trip.city || '';
 
-  doc.fillColor(PDF_ACCENT).fontSize(20).font('Helvetica-Bold').text("Cap sur l'inconnu");
-  doc.fillColor(PDF_INK_SOFT).fontSize(11).font('Helvetica').text(clip(trip.city, 80) + ' — itinéraire mystère');
-  doc.moveDown(0.3);
+  // Pages 2+ (si l'itinéraire déborde) : bandeau réduit, voir pdfRunningHeader. La page 1 existe
+  // déjà à la construction du document (pdfkit l'ajoute avant qu'on ait pu s'abonner à
+  // 'pageAdded') : elle n'est donc jamais concernée par ce bandeau réduit, seulement par le grand
+  // en-tête ci-dessous — exactement le partage voulu entre les deux.
+  doc.on('pageAdded', function(){ pdfRunningHeader(doc, marginLeft, contentWidth, tripLabel); });
 
+  // ---- Grand bandeau d'en-tête (page 1 uniquement) ----
+  pdfPageBackground(doc);
+  doc.rect(0, 0, doc.page.width, 96).fill(PDF_ACCENT);
+  doc.fillColor('#FFFFFF').font('Helvetica-Bold').fontSize(22).text("CAP SUR L'INCONNU", marginLeft, 26, { characterSpacing: 1.2 });
+  doc.fillColor('#FBE7D6').font('Times-Italic').fontSize(12.5)
+    .text(clip(trip.city, 80) + ' — itinéraire mystère', marginLeft, 58);
+  doc.y = 114;
+  doc.x = marginLeft;
+
+  // ---- Jetons de statistiques ----
   const stats = trip.stats || {};
   const statsBits = [];
   if(stats.days) statsBits.push(stats.days + (stats.days > 1 ? ' jours' : ' jour'));
@@ -596,25 +670,45 @@ function buildTripPdf(doc, trip){
     const tollAmountTxt = (Math.round(stats.toll.amount * 10) / 10).toFixed(1).replace('.', ',');
     statsBits.push('~' + tollAmountTxt + ' € de péage ' + (stats.toll.enabled ? 'estimé' : 'évités'));
   }
-  doc.fillColor(PDF_INK).fontSize(10).font('Helvetica-Bold').text(statsBits.join('   ·   '));
-  doc.moveDown(0.8);
-  doc.strokeColor(PDF_LINE).lineWidth(1).moveTo(marginLeft, doc.y).lineTo(marginLeft + contentWidth, doc.y).stroke();
-  doc.moveDown(0.8);
+  if(statsBits.length) pdfChipRow(doc, statsBits, marginLeft, contentWidth);
+  doc.moveDown(1.1);
 
+  // ---- Jours : badge rond numéroté + ligne de jonction façon "timeline" du site, contenu décalé
+  // à droite des badges (contentX). Le badge du jour de retour utilise l'orange (comme la couleur
+  // "final" du badge sur le site) plutôt que le teal des jours normaux. ----
+  const contentX = marginLeft + 28;
+  const contentWidth2 = contentWidth - 28;
+  let prevBadgeCY = null;
   const legs = Array.isArray(trip.legs) ? trip.legs : [];
-  legs.forEach(function(leg){
+  legs.forEach(function(leg, idx){
     if(!leg) return;
-    pdfEnsureSpace(doc, 70);
-    doc.fillColor(PDF_ACCENT_3).fontSize(12.5).font('Helvetica-Bold').text(clip(leg.label, 120));
-    if(leg.distanceKm != null && leg.travelTime){
-      doc.fillColor(PDF_INK_SOFT).fontSize(9).font('Helvetica-Oblique')
-        .text('~ ' + clip(leg.travelTime, 20) + ' de route · ' + Math.round(leg.distanceKm) + ' km');
+    const pageBefore = doc.page;
+    pdfEnsureSpace(doc, 74);
+    const pageChanged = doc.page !== pageBefore;
+    const dayTop = doc.y;
+    const badgeCX = marginLeft + 9, badgeCY = dayTop + 9;
+    const isReturn = !!leg.isReturn;
+
+    if(prevBadgeCY != null && !pageChanged){
+      doc.lineWidth(1.3).moveTo(badgeCX, prevBadgeCY + 9).lineTo(badgeCX, badgeCY - 9).stroke(PDF_LINE_STRONG);
     }
-    const stopLabel = (leg.isReturn ? 'Retour vers ' : 'Étape mystère : ') + clip(leg.stop, 100) +
+    doc.circle(badgeCX, badgeCY, 9).fill(isReturn ? PDF_ACCENT : PDF_ACCENT_3);
+    doc.fillColor('#FFFFFF').font('Helvetica-Bold').fontSize(9)
+      .text(isReturn ? 'R' : String(idx + 1), badgeCX - 9, badgeCY - 4.5, { width: 18, align: 'center' });
+    prevBadgeCY = badgeCY;
+
+    doc.y = dayTop;
+    doc.fillColor(PDF_ACCENT_3).font('Helvetica-Bold').fontSize(12.5);
+    pdfText(doc, clip(leg.label, 120), contentX, contentWidth2);
+    if(leg.distanceKm != null && leg.travelTime){
+      doc.fillColor(PDF_INK_SOFT).font('Helvetica-Oblique').fontSize(9);
+      pdfText(doc, '~ ' + clip(leg.travelTime, 20) + ' de route · ' + Math.round(leg.distanceKm) + ' km', contentX, contentWidth2);
+    }
+    const stopLabel = (isReturn ? 'Retour vers ' : 'Étape mystère : ') + clip(leg.stop, 100) +
       (leg.cpBadge ? ' (' + clip(leg.cpBadge, 20) + ')' : '');
-    doc.fillColor(PDF_INK).fontSize(10.5).font('Helvetica-Bold').text(stopLabel);
-    doc.font('Helvetica');
-    doc.moveDown(0.25);
+    doc.fillColor(PDF_INK).font('Helvetica-Bold').fontSize(10.5);
+    pdfText(doc, stopLabel, contentX, contentWidth2);
+    doc.moveDown(0.3);
 
     if(leg.tollInfo){
       const t = leg.tollInfo;
@@ -624,49 +718,56 @@ function buildTripPdf(doc, trip){
       const tollTxt = t.enabled
         ? ('Péage estimé : ~' + amountTxt + ' € (' + barrierTxt + ') — environ ' + savedMin + ' min gagnées par rapport à un trajet sans péage.')
         : ('Sans péage (option décochée) : environ ' + savedMin + ' min auraient pu être gagnées en autoroute (~' + amountTxt + ' €, ' + barrierTxt + ').');
-      pdfBullet(doc, tollTxt);
+      pdfBullet(doc, tollTxt, contentX, contentWidth2);
     }
     if(leg.chargeInfo){
       const c = leg.chargeInfo;
       pdfBullet(doc, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge estimée' + (c.stops > 1 ? 's' : '') +
-        ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.');
+        ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.', contentX, contentWidth2);
     }
     const activities = Array.isArray(leg.activities) ? leg.activities : [];
     activities.slice(0, 6).forEach(function(act){
       if(!act || !act.label) return;
       const text = clip(act.label, 140) + (act.typeLabel ? ' — ' + clip(act.typeLabel, 80) : '') +
         (act.source ? ' (Source : ' + clip(act.source, 30) + ')' : '');
-      pdfBullet(doc, text, { link: isHttpUrl(act.hikeUrl) ? act.hikeUrl : null });
+      const link = isHttpUrl(act.hikeUrl) ? act.hikeUrl : null;
+      pdfBullet(doc, text, contentX, contentWidth2, { link: link, color: link ? PDF_ACCENT_3 : PDF_ACCENT_2 });
     });
     if(leg.lodgingLinks && leg.checkInLabel){
       const links = leg.lodgingLinks;
-      if(isHttpUrl(links.airbnb)) pdfBullet(doc, 'Logement (Airbnb) pour le ' + clip(leg.checkInLabel, 40), { link: links.airbnb });
-      if(isHttpUrl(links.booking)) pdfBullet(doc, 'Logement (Booking.com) pour le ' + clip(leg.checkInLabel, 40), { link: links.booking });
+      if(isHttpUrl(links.airbnb)) pdfBullet(doc, 'Logement (Airbnb) pour le ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.airbnb });
+      if(isHttpUrl(links.booking)) pdfBullet(doc, 'Logement (Booking.com) pour le ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.booking });
     }
-    if(leg.isReturn){
-      pdfBullet(doc, 'Fin de mission — retour à la maison, road trip mystère bouclé.');
+    if(isReturn){
+      pdfBullet(doc, 'Fin de mission — retour à la maison, road trip mystère bouclé.', contentX, contentWidth2, { color: PDF_ACCENT });
     }
-    doc.moveDown(0.7);
+    doc.moveDown(0.75);
   });
 
+  // ---- Sac à préparer : puces remplacées par des cases à cocher, comme sur le site ----
   const packing = Array.isArray(trip.packing) ? trip.packing : [];
   if(packing.length){
     pdfEnsureSpace(doc, 60);
-    doc.strokeColor(PDF_LINE).lineWidth(1).moveTo(marginLeft, doc.y).lineTo(marginLeft + contentWidth, doc.y).stroke();
+    doc.lineWidth(1).moveTo(marginLeft, doc.y).lineTo(marginLeft + contentWidth, doc.y).stroke(PDF_LINE);
     doc.moveDown(0.6);
-    doc.fillColor(PDF_ACCENT).fontSize(13).font('Helvetica-Bold').text('Sac à préparer');
-    doc.fillColor(PDF_INK_SOFT).fontSize(9.5).font('Helvetica-Oblique')
-      .text('Pour ' + clip(trip.transportLabel, 60) + ', budget ' + clip(trip.budgetLabel, 40) + '.');
-    doc.font('Helvetica');
-    doc.moveDown(0.4);
-    packing.slice(0, 60).forEach(function(item){ pdfBullet(doc, clip(item, 120)); });
+    doc.fillColor(PDF_ACCENT).font('Helvetica-Bold').fontSize(13);
+    pdfText(doc, 'Sac à préparer', marginLeft, contentWidth);
+    doc.fillColor(PDF_INK_SOFT).font('Helvetica-Oblique').fontSize(9.5);
+    pdfText(doc, 'Pour ' + clip(trip.transportLabel, 60) + ', budget ' + clip(trip.budgetLabel, 40) + '.', marginLeft, contentWidth);
+    doc.moveDown(0.5);
+    packing.slice(0, 60).forEach(function(item){ pdfBullet(doc, clip(item, 120), marginLeft + 4, contentWidth - 4, { checkbox: true }); });
   }
 
   const today = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
   doc.moveDown(1);
-  doc.fillColor(PDF_INK_SOFT).fontSize(7.5).font('Helvetica').text(
+  pdfEnsureSpace(doc, 30);
+  doc.lineWidth(1).moveTo(marginLeft, doc.y).lineTo(marginLeft + contentWidth, doc.y).stroke(PDF_LINE);
+  doc.moveDown(0.4);
+  doc.fillColor(PDF_INK_SOFT).font('Helvetica').fontSize(7.5);
+  pdfText(doc,
     "Généré le " + today + " par Cap sur l'inconnu — communes : IGN/geo.api.gouv.fr · points d'intérêt : " +
-    "OpenStreetMap (ODbL) · péages : VINCI Autoroutes · randonnées : Visorando."
+    "OpenStreetMap (ODbL) · péages : VINCI Autoroutes · randonnées : Visorando.",
+    marginLeft, contentWidth
   );
 }
 

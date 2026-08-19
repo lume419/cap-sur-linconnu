@@ -1769,9 +1769,9 @@
     var payload = buildTripExportPayload();
     if(!payload) return;
     var originalLabel = els.exportPdfBtn.innerHTML;
+    var originalHint = els.exportHint ? els.exportHint.textContent : '';
     els.exportPdfBtn.disabled = true;
     els.exportPdfBtn.textContent = 'Génération du PDF…';
-    if(els.exportHint) els.exportHint.textContent = 'Le PDF se télécharge directement — rien à imprimer.';
     fetch('/api/export-pdf', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -1789,7 +1789,10 @@
       a.remove();
       setTimeout(function(){ URL.revokeObjectURL(url); }, 4000);
     }).catch(function(){
-      if(els.exportHint) els.exportHint.textContent = 'Échec de la génération du PDF — réessayez dans un instant.';
+      if(els.exportHint){
+        els.exportHint.textContent = 'Échec de la génération du PDF — réessayez dans un instant.';
+        setTimeout(function(){ els.exportHint.textContent = originalHint; }, 6000);
+      }
     }).then(function(){
       els.exportPdfBtn.disabled = false;
       els.exportPdfBtn.innerHTML = originalLabel;
