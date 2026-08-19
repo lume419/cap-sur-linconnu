@@ -99,12 +99,23 @@ monuments, points de vue, réserves naturelles...). Points notables :
 
 - Interrogé une seule fois par commune (cache serveur 14 jours) : la plupart des affichages
   bénéficient du cache dès qu'une commune a été tirée une première fois, par n'importe quel visiteur.
-- Deux miroirs Overpass publics essayés en série (overpass-api.de, puis overpass.kumi.systems en
-  repli) — ces instances publiques peuvent être lentes ou temporairement saturées ; c'est sans gravité
-  ici car la requête part après l'affichage initial du trajet (activités génériques), jamais avant.
-  Si rien ne répond, les activités génériques restent affichées telles quelles — pas d'erreur visible.
-- Chaque lieu réel trouvé tente ensuite sa propre photo Wikipédia (voir "Photos réelles" ci-dessus) —
-  aucune image n'est stockée sur le serveur, juste des liens vers Wikimedia Commons.
+- Trois miroirs Overpass publics essayés en série (overpass.openstreetmap.fr — hébergé en France,
+  le plus rapide/fiable en test —, puis overpass-api.de, puis overpass.kumi.systems en dernier
+  recours) — ces instances publiques peuvent être lentes ou temporairement saturées ; c'est sans
+  gravité ici car la requête part après l'affichage initial du trajet (activités génériques), jamais
+  avant. Si rien ne répond, les activités génériques restent affichées telles quelles — pas d'erreur
+  visible. Un garde-fou revérifie aussi la distance réelle de chaque résultat (Overpass garantit que
+  la *géométrie* d'un lieu croise le rayon demandé, pas que son centre calculé y reste — une grande
+  zone comme une réserve naturelle peut avoir un centre à des dizaines de km du point concerné).
+- **En complément d'Overpass**, l'app essaie aussi de lire la section « Lieux et monuments » (ou
+  « Patrimoine ») de l'article Wikipédia de la commune elle-même, quand elle existe : souvent plus
+  riche et déjà sourcée (base Mérimée...), et parfois déjà illustrée via une galerie de photos —
+  y compris pour des lieux qui n'ont pas leur propre article Wikipédia (donc introuvables par la
+  photo habituelle), comme une petite église ou chapelle de village. Les deux sources sont combinées
+  et dédoublonnées par nom.
+- Chaque lieu réel trouvé tente ensuite sa propre photo Wikipédia (voir "Photos réelles" ci-dessus),
+  sauf s'il en a déjà une via la galerie de l'article de la commune — aucune image n'est stockée sur
+  le serveur, juste des liens vers Wikimedia Commons.
 
 ## Sources des données
 

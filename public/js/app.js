@@ -899,10 +899,15 @@
   // sans jamais bloquer l'affichage si Overpass est indisponible (voir renderDays, qui retombe sur
   // les activités génériques déjà affichées si rien n'est trouvé).
   var clientPoiCache = {};
-  function fetchRealPOIs(lat, lon){
+  // `name`/`dept` (optionnels) permettent au serveur de compléter Overpass avec la section "Lieux
+  // et monuments" de l'article Wikipédia de la commune, quand elle existe — souvent plus riche, et
+  // déjà illustrée y compris pour des lieux sans article dédié (voir server.js).
+  function fetchRealPOIs(lat, lon, name, dept){
     var key = lat.toFixed(3) + ',' + lon.toFixed(3);
     if(!clientPoiCache[key]){
-      clientPoiCache[key] = fetch('/api/pois?lat=' + encodeURIComponent(lat) + '&lon=' + encodeURIComponent(lon))
+      var url = '/api/pois?lat=' + encodeURIComponent(lat) + '&lon=' + encodeURIComponent(lon);
+      if(name) url += '&name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || '');
+      clientPoiCache[key] = fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
         .then(function(data){ return (data && data.pois) || []; })
         .catch(function(){ return []; });
@@ -926,9 +931,11 @@
         });
       }
       if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
-        fetchRealPOIs(leg.lat, leg.lon).then(function(dept){
+        fetchRealPOIs(leg.lat, leg.lon, leg.stop, leg.dept).then(function(dept){
           return function(pois){
-            (pois || []).slice(0, 4).forEach(function(p){ fetchPlacePhoto(p.name, dept); });
+            // Un lieu venu de la section Wikipédia "Lieux et monuments" apporte parfois déjà sa
+            // photo (voir server.js) — pas besoin de la redemander via /api/photo dans ce cas.
+            (pois || []).slice(0, 4).forEach(function(p){ if(!p.image) fetchPlacePhoto(p.name, dept); });
           };
         }(leg.dept));
       }
@@ -955,7 +962,9 @@
         typeLabel: POI_TYPE_LABEL[poi.type] || 'curiosité locale',
         searchName: poi.name,
         isReal: true,
-        isWalk: !!WALK_POI_TYPES[poi.type]
+        isWalk: !!WALK_POI_TYPES[poi.type],
+        image: poi.image || null, // déjà résolue (galerie Wikipédia) : voir renderActivityCards
+        imageFull: poi.imageFull || null
       });
     }
     if(!options.some(function(o){ return o.isWalk; })){
@@ -968,7 +977,9 @@
           typeLabel: POI_TYPE_LABEL[walkPoi.type] || 'balade',
           searchName: walkPoi.name,
           isReal: true,
-          isWalk: true
+          isWalk: true,
+          image: walkPoi.image || null,
+          imageFull: walkPoi.imageFull || null
         });
       } else {
         options.push({ label: 'Randonnée ou balade dans les environs', typeLabel: 'balade', isReal: false, isWalk: true });
@@ -1093,6 +1104,23 @@
   // `activities`. Réutilisée à la fois pour l'affichage initial (activités FEATURED ou génériques,
   // disponibles immédiatement) et pour la mise à jour asynchrone quand de vrais points d'intérêt
   // arrivent d'Overpass (voir plus bas) — le rendu d'une carte est identique dans les deux cas.
+  // Applique une image à une carte d'activité (remplace l'icône par défaut), avec filet de
+  // sécurité si l'URL échoue au chargement. Partagé entre une image déjà connue à l'avance (voir
+  // ci-dessous — cas d'un lieu venu de la galerie Wikipédia de la commune) et une image récupérée
+  // après coup via /api/photo.
+  function applyActivityCardImage(cardEl, label, image, imageFull, wikiUrl){
+    var fullUrl = imageFull || image;
+    var visual = cardEl.querySelector('.activity-card-visual');
+    if(!visual) return;
+    visual.innerHTML = '<img class="activity-card-img" src="'+image+'" alt="'+label+'" referrerpolicy="no-referrer">';
+    cardEl.classList.add('has-image');
+    var im = visual.querySelector('.activity-card-img');
+    im.addEventListener('error', function(){
+      cardEl.classList.remove('has-image');
+      visual.innerHTML = icon('spark');
+    });
+    visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
+  }
   function renderActivityCards(actList, activities, dept){
     actList.innerHTML = '';
     activities.forEach(function(opt){
@@ -1105,25 +1133,18 @@
           '<div class="activity-card-type">'+opt.typeLabel+'</div>'+
         '</div>';
       actList.appendChild(card);
-      // Pour une vraie curiosité nommée (POI OSM), on tente de récupérer sa propre photo
-      // Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que la
-      // photo générale de la commune. Silencieux si rien n'est trouvé : l'icône reste affichée.
-      if(opt.isReal && opt.searchName){
+      if(opt.image){
+        // Déjà résolue côté serveur (galerie de l'article Wikipédia de la commune, voir server.js)
+        // — pas besoin d'un aller-retour /api/photo supplémentaire.
+        applyActivityCardImage(card, opt.label, opt.image, opt.imageFull, null);
+      } else if(opt.isReal && opt.searchName){
+        // Pour une vraie curiosité nommée (POI OSM sans photo déjà connue), on tente sa propre
+        // photo Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que
+        // la photo générale de la commune. Silencieux si rien n'est trouvé : l'icône reste affichée.
         fetchPlacePhoto(opt.searchName, dept).then(function(cardEl, label){
           return function(data){
             if(!data || !data.image) return;
-            var fullUrl = data.imageFull || data.image;
-            var wikiUrl = data.wikiUrl;
-            var visual = cardEl.querySelector('.activity-card-visual');
-            if(!visual) return;
-            visual.innerHTML = '<img class="activity-card-img" src="'+data.image+'" alt="'+label+'" referrerpolicy="no-referrer">';
-            cardEl.classList.add('has-image');
-            var im = visual.querySelector('.activity-card-img');
-            im.addEventListener('error', function(){
-              cardEl.classList.remove('has-image');
-              visual.innerHTML = icon('spark');
-            });
-            visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
+            applyActivityCardImage(cardEl, label, data.image, data.imageFull, data.wikiUrl);
           };
         }(card, opt.label));
       }
@@ -1279,7 +1300,7 @@
         // restent affichées telles quelles — aucune erreur visible, juste pas de mise à jour (et la
         // mention de recherche ci-dessus disparaît dans tous les cas, succès ou non).
         if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
-          fetchRealPOIs(leg.lat, leg.lon).then(function(actListEl, dept, labelRow){
+          fetchRealPOIs(leg.lat, leg.lon, leg.stop, leg.dept).then(function(actListEl, dept, labelRow){
             return function(pois){
               var note = labelRow.querySelector('.activities-loading-note');
               if(note) note.remove();

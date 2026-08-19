@@ -67,6 +67,183 @@ async function resolvePlacePhoto(name, deptCode){
   return { image: null, imageFull: null, wikiUrl: null, title: null };
 }
 
+// "Lieux et monuments" depuis Wikipédia, en complément d'Overpass : l'article de la commune a
+// souvent une section listant son patrimoine local, parfois illustrée par une galerie de photos —
+// y compris pour des lieux qui n'ont pas leur propre article Wikipédia (donc aucune photo possible
+// via resolvePlacePhoto), comme une petite église ou chapelle de village. Overpass, lui, ne connaît
+// que ce qui est nommé et taggé dans OpenStreetMap : les deux sources se complètent.
+async function fetchWikiWikitext(title){
+  const resp = await fetch('https://fr.wikipedia.org/w/api.php?action=parse&page=' + encodeURIComponent(title) + '&prop=wikitext&format=json&formatversion=2', {
+    headers: {
+      'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)',
+      'Accept': 'application/json'
+    }
+  });
+  if(!resp.ok) return null;
+  const data = await resp.json();
+  if(data.error || !data.parse) return null;
+  return data.parse.wikitext || null;
+}
+
+// Repère la section "Lieux et monuments" (ou proche : "Patrimoine", "Monuments") quel que soit son
+// niveau de titre (== ou ===, ça varie d'un article à l'autre), extrait sa liste à puces et sa
+// galerie d'images éventuelle.
+function extractMonumentsSection(wikitext){
+  const m = wikitext.match(/={2,4}\s*(?:Lieux et monuments|Patrimoine(?: architectural)?|Monuments(?: et lieux)?)\s*={2,4}\n([\s\S]*?)(?=\n={2,4}[^=]|$)/i);
+  if(!m) return null;
+  const section = m[1];
+
+  const gallery = [];
+  const galleryBlock = section.match(/<gallery[^>]*>([\s\S]*?)<\/gallery>/i);
+  if(galleryBlock){
+    for(const line of galleryBlock[1].split('\n')){
+      const fm = line.match(/^\s*Fichier:([^|]+\.(?:jpe?g|png|gif))/i);
+      if(!fm) continue;
+      const captionMatch = line.match(/<center>(.*?)<\/center>/i);
+      const caption = (captionMatch ? captionMatch[1] : line).replace(/<[^>]+>/g, '').replace(/\[\[[^\]|]*\|?/g, '').replace(/\]\]/g, '').trim();
+      gallery.push({ file: fm[1].trim(), caption });
+    }
+  }
+
+  const items = [];
+  const bulletRe = /^\*\s*(.+)$/gm;
+  let bm;
+  while((bm = bulletRe.exec(section))){
+    const line = bm[1];
+    if(/^<gallery/i.test(line)) continue;
+    const linkMatch = line.match(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/);
+    let name = linkMatch ? linkMatch[1].trim() : line.split(/[,.;(]/)[0].trim();
+    name = name.replace(/^Vestiges (du|de la|des) /i, '').trim(); // "Vestiges du château de X" -> le lieu lui-même
+    if(!name || name.length < 3 || name.length > 90) continue;
+    if(/^[a-zà-ÿ]/.test(name)) name = name.charAt(0).toUpperCase() + name.slice(1); // wikilien en minuscule ("[[château de X]]")
+    items.push(name);
+  }
+  return { items, gallery };
+}
+
+// Le wikitexte ne tague pas le "type" du lieu comme le fait OpenStreetMap — simple déduction par
+// mot-clé dans le nom, suffisante pour choisir une icône/étiquette cohérente avec le reste de l'app.
+function inferMonumentType(name){
+  const n = name.toLowerCase();
+  if(/ch[aâ]teau/.test(n)) return 'castle';
+  if(/manoir/.test(n)) return 'manor';
+  if(/\begl?ise\b/.test(n)) return 'place_of_worship';
+  if(/chapelle/.test(n)) return 'chapel';
+  if(/mus[ée]e/.test(n)) return 'museum';
+  if(/dolmen|menhir|site (arch[ée]ologique|gallo-romain)/.test(n)) return 'archaeological_site';
+  if(/fort(eresse)?|citadelle/.test(n)) return 'fort';
+  if(/ruines?/.test(n)) return 'ruins';
+  return 'monument';
+}
+
+// Associe les lieux de la liste aux images de la galerie — évite un aller-retour Wikipédia
+// supplémentaire quand la photo est déjà là, dans l'article de la commune (le seul moyen d'avoir
+// une image pour un lieu sans article dédié).
+//
+// Deux pièges rencontrés en testant sur un cas réel (Saint-Pierre-de-Frugie) :
+// 1) Le nom de la commune elle-même apparaît dans presque toutes les légendes (ce sont ses photos)
+//    — un mot comme "Pierre" tiré de "Église Saint-Pierre-et-Saint-Paul" matchait alors n'importe
+//    quelle légende mentionnant "Saint-Pierre-de-Frugie", pas l'église. `excludeWords` (les mots du
+//    nom de la commune) neutralise ça.
+// 2) Deux lieux différents peuvent ne partager qu'un seul mot distinctif (ex. "Château de
+//    Montcigoux" et "Chapelle de Montcigoux" — seul "Montcigoux" les distingue du reste) : associer
+//    lieu par lieu dans l'ordre de la liste faisait "gagner" le premier traité même quand l'autre
+//    correspondait mieux. On calcule donc un score pour CHAQUE paire (lieu, image), et on assigne
+//    dans l'ordre décroissant de score (un lieu et une image ne servent qu'une fois) plutôt que
+//    lieu par lieu.
+const MONUMENT_STOPWORDS = new Set(['château','chateau','manoir','église','eglise','chapelle','vestiges','ancien','ancienne','saint','sainte','du','de','des','la','le','les','et']);
+const MONUMENT_TYPE_WORDS = ['château','chateau','manoir','église','eglise','chapelle','musée','musee','fort','citadelle'];
+function communeNameWords(name){
+  return new Set(
+    String(name || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .split(/[\s'-]+/).filter(w => w.length > 2)
+  );
+}
+function matchGalleryImages(items, gallery, excludeWords){
+  const pairs = [];
+  items.forEach((name, idx) => {
+    const lower = name.toLowerCase();
+    const typeWord = MONUMENT_TYPE_WORDS.find(t => lower.indexOf(t) >= 0) || null;
+    const words = lower.split(/[\s'-]+/).filter(w => w.length > 3 && !MONUMENT_STOPWORDS.has(w) && !excludeWords.has(w));
+    if(!words.length) return;
+    gallery.forEach((g, gIdx) => {
+      const cap = g.caption.toLowerCase();
+      const wordScore = words.filter(w => cap.indexOf(w) >= 0).length;
+      if(wordScore === 0) return;
+      const typeBonus = (typeWord && cap.indexOf(typeWord) >= 0) ? 1 : 0;
+      pairs.push({ idx, gIdx, score: wordScore * 2 + typeBonus });
+    });
+  });
+  pairs.sort((a, b) => b.score - a.score);
+  const usedItems = new Set(), usedFiles = new Set();
+  const result = new Map(); // idx -> nom de fichier
+  for(const p of pairs){
+    if(usedItems.has(p.idx) || usedFiles.has(p.gIdx)) continue;
+    usedItems.add(p.idx); usedFiles.add(p.gIdx);
+    result.set(p.idx, gallery[p.gIdx].file);
+  }
+  return result;
+}
+function commonsFileUrl(filename){
+  return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(filename);
+}
+
+// Même logique d'essais que resolvePlacePhoto : "Nom (Département)" d'abord si connu (convention
+// de désambiguïsation Wikipédia), puis "Nom" seul.
+async function fetchCommuneMonuments(name, deptCode){
+  const deptName = deptCode && DEPARTMENTS[deptCode];
+  const attempts = [];
+  if(deptName) attempts.push(name + ' (' + deptName + ')');
+  attempts.push(name);
+  for(const title of attempts){
+    let wikitext;
+    try { wikitext = await fetchWikiWikitext(title); } catch(e){ continue; }
+    if(!wikitext) continue;
+    const extracted = extractMonumentsSection(wikitext);
+    if(extracted && extracted.items.length) return extracted;
+  }
+  return null;
+}
+
+function normalizePoiName(s){
+  return String(s || '').trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
+
+// Combine les deux sources : Wikipédia d'abord (généralement plus fiable — sourcé, souvent déjà
+// illustré), puis Overpass pour compléter/diversifier, dédoublonné par nom normalisé.
+async function fetchAllRealPOIs(lat, lon, name, deptCode){
+  const [overpassResult, wikiResult] = await Promise.all([
+    fetchRealPOIs(lat, lon).catch(() => null),
+    name ? fetchCommuneMonuments(name, deptCode).catch(() => null) : Promise.resolve(null)
+  ]);
+  const seen = new Set();
+  const combined = [];
+  if(wikiResult){
+    const imageByIdx = matchGalleryImages(wikiResult.items, wikiResult.gallery, communeNameWords(name));
+    wikiResult.items.forEach((itemName, idx) => {
+      const key = normalizePoiName(itemName);
+      if(seen.has(key)) return;
+      seen.add(key);
+      const file = imageByIdx.get(idx);
+      const entry = { name: itemName, type: inferMonumentType(itemName) };
+      if(file){ entry.image = commonsFileUrl(file); entry.imageFull = entry.image; }
+      combined.push(entry);
+    });
+  }
+  if(overpassResult){
+    for(const p of overpassResult){
+      const key = normalizePoiName(p.name);
+      if(seen.has(key)) continue;
+      seen.add(key);
+      combined.push(p);
+    }
+  }
+  // null seulement si on n'a rien ET qu'Overpass (la source la moins fiable) a explicitement
+  // échoué — voir /api/pois pour pourquoi cette distinction compte pour la mise en cache.
+  if(combined.length === 0 && overpassResult === null) return null;
+  return shuffleArr(combined).slice(0, 12);
+}
+
 // Points d'intérêt réels en direct (OpenStreetMap / Overpass), pour les communes hors de
 // featured.txt (~300 communes seulement sur 35 000 — voir les commits précédents sur le biais
 // géographique que ça causait). Plutôt que d'inventer des activités, on interroge Overpass au
@@ -213,24 +390,30 @@ async function fetchRealPOIs(lat, lon){
 app.get('/api/pois', async (req, res) => {
   const lat = parseFloat(req.query.lat);
   const lon = parseFloat(req.query.lon);
+  const name = String(req.query.name || '').trim();
+  const dept = String(req.query.dept || '').trim();
   if(!isFinite(lat) || !isFinite(lon) || lat < 40 || lat > 52 || lon < -6 || lon > 10){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
-  // Précision ~1 km : suffisant pour un bon taux de cache sans jamais confondre deux communes.
-  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2);
+  if(name.length > 120){
+    return res.status(400).json({ error: 'invalid name', pois: [] });
+  }
+  // Clé par nom+département plutôt que seules les coordonnées arrondies : plus fiable pour ne
+  // jamais confondre deux communes proches, et cohérent avec la recherche Wikipédia (par nom).
+  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2) + '|' + name.toLowerCase() + '|' + dept;
   const cached = poiCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < POI_CACHE_TTL_MS){
     return res.json({ pois: cached.pois });
   }
   let pois = null;
   try {
-    pois = await fetchRealPOIs(lat, lon);
+    pois = await fetchAllRealPOIs(lat, lon, name, dept);
   } catch(err){
-    console.warn('[pois] échec Overpass pour ' + cacheKey + ':', err.message);
+    console.warn('[pois] échec pour ' + cacheKey + ':', err.message);
   }
   // Ne met en cache que les échecs "propres" (requête aboutie, 0 résultat) — jamais un échec de
-  // requête (les deux miroirs down), pour ne pas figer un faux négatif ; la prochaine visite sur
-  // cette commune retentera Overpass au lieu de rester bloquée dessus pendant 14 jours.
+  // requête (les deux miroirs Overpass down), pour ne pas figer un faux négatif ; la prochaine
+  // visite sur cette commune retentera au lieu de rester bloquée dessus pendant 14 jours.
   if(pois !== null){
     poiCache.set(cacheKey, { pois, ts: Date.now() });
   }
