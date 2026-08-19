@@ -1,6 +1,7 @@
-// Serveur minimal : sert le dossier public/ tel quel (HTML, CSS, JS, données), plus une seule
-// route API qui va chercher une vraie photo de la commune sur Wikipédia (voir plus bas). Aucune
-// donnée du visiteur n'est reçue ni conservée ; le seul état en mémoire est le cache de photos.
+// Serveur minimal : sert le dossier public/ tel quel (HTML, CSS, JS, données), plus deux routes
+// API — une qui va chercher une vraie photo sur Wikipédia, une qui va chercher de vrais points
+// d'intérêt sur OpenStreetMap (voir plus bas). Aucune donnée du visiteur n'est reçue ni conservée ;
+// le seul état en mémoire est le cache de ces deux routes.
 const path = require('path');
 const express = require('express');
 
@@ -65,6 +66,126 @@ async function resolvePlacePhoto(name, deptCode){
   }
   return { image: null, imageFull: null, wikiUrl: null, title: null };
 }
+
+// Points d'intérêt réels en direct (OpenStreetMap / Overpass), pour les communes hors de
+// featured.txt (~300 communes seulement sur 35 000 — voir les commits précédents sur le biais
+// géographique que ça causait). Plutôt que d'inventer des activités, on interroge Overpass au
+// moment du tirage pour la commune réellement choisie, avec les mêmes catégories que celles ayant
+// servi à constituer featured.txt à l'origine.
+const OVERPASS_URL = 'https://overpass-api.de/api/interpreter';
+const POI_RADIUS_M = 8000; // ~8 km autour du centre de la commune — à portée d'une sortie sur place
+const poiCache = new Map();
+const POI_CACHE_TTL_MS = 14 * 24 * 60 * 60 * 1000; // 14j : ces lieux ne changent presque jamais
+
+function buildOverpassQuery(lat, lon){
+  const around = `around:${POI_RADIUS_M},${lat},${lon}`;
+  return `[out:json][timeout:20];(
+    node["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|theme_park|artwork)$"]["name"](${around});
+    way["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|theme_park|artwork)$"]["name"](${around});
+    node["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"]["name"](${around});
+    way["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"]["name"](${around});
+    node["natural"~"^(peak|waterfall|beach|cave_entrance)$"]["name"](${around});
+    node["leisure"="nature_reserve"]["name"](${around});
+    node["amenity"="place_of_worship"]["name"](${around});
+  );out center 25;`;
+}
+
+// Le type interne (utilisé par POI_TYPE_LABEL côté client) est directement l'une des valeurs de
+// tag ciblées par la requête ci-dessus — pas besoin d'une table de correspondance séparée.
+function poiTypeFromTags(tags){
+  if(tags.tourism) return tags.tourism;
+  if(tags.historic) return tags.historic;
+  if(tags.natural) return tags.natural;
+  if(tags.leisure === 'nature_reserve') return 'nature_reserve';
+  if(tags.amenity === 'place_of_worship') return 'place_of_worship';
+  return null;
+}
+
+function shuffleArr(arr){
+  const a = arr.slice();
+  for(let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// L'instance publique overpass-api.de est parfois lente ou en limite de charge (504, ou simplement
+// longue à répondre) — un deuxième miroir public en repli évite qu'une indisponibilité passagère
+// prive tout le monde de l'enrichissement le temps que ça se rétablisse. Reste silencieux dans tous
+// les cas : c'est un "bonus" (vraies activités), jamais un blocage du tirage lui-même.
+const OVERPASS_MIRRORS = [
+  'https://overpass-api.de/api/interpreter',
+  'https://overpass.kumi.systems/api/interpreter'
+];
+
+async function queryOverpass(url, query){
+  const controller = new AbortController();
+  // Les instances publiques Overpass répondent parfois en 15-20s sous charge (constaté en test) —
+  // sans gravité ici puisque cet enrichissement arrive en tâche de fond après l'affichage initial
+  // du trajet (voir app.js), jamais avant.
+  const timer = setTimeout(() => controller.abort(), 18000);
+  try {
+    const resp = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'text/plain',
+        'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)'
+      },
+      body: query,
+      signal: controller.signal
+    });
+    if(!resp.ok) throw new Error('HTTP ' + resp.status);
+    return await resp.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchRealPOIs(lat, lon){
+  const query = buildOverpassQuery(lat, lon);
+  let data = null;
+  for(const url of OVERPASS_MIRRORS){
+    try { data = await queryOverpass(url, query); break; }
+    catch(e){ console.warn('[pois] miroir ' + url + ' en échec pour ' + lat + ',' + lon + ':', e.message); }
+  }
+  if(!data) return [];
+  const seen = new Set();
+  const pois = [];
+  for(const el of (data.elements || [])){
+    const name = el.tags && el.tags.name;
+    const type = el.tags && poiTypeFromTags(el.tags);
+    if(!name || !type || seen.has(name)) continue;
+    seen.add(name);
+    pois.push({ name, type });
+  }
+  // Mélangé côté serveur : Overpass renvoie sensiblement toujours le même ordre de découverte pour
+  // un même point — sans ça, les 2 premiers lieux affichés seraient quasi figés à chaque tirage.
+  return shuffleArr(pois).slice(0, 10);
+}
+
+app.get('/api/pois', async (req, res) => {
+  const lat = parseFloat(req.query.lat);
+  const lon = parseFloat(req.query.lon);
+  if(!isFinite(lat) || !isFinite(lon) || lat < 40 || lat > 52 || lon < -6 || lon > 10){
+    return res.status(400).json({ error: 'invalid coordinates', pois: [] });
+  }
+  // Précision ~1 km : suffisant pour un bon taux de cache sans jamais confondre deux communes.
+  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2);
+  const cached = poiCache.get(cacheKey);
+  if(cached && (Date.now() - cached.ts) < POI_CACHE_TTL_MS){
+    return res.json({ pois: cached.pois });
+  }
+  let pois;
+  try {
+    pois = await fetchRealPOIs(lat, lon);
+  } catch(err){
+    console.warn('[pois] échec Overpass pour ' + cacheKey + ':', err.message);
+    pois = []; // silencieux : l'appli retombe sur les activités génériques, jamais d'erreur visible
+  }
+  poiCache.set(cacheKey, { pois, ts: Date.now() });
+  res.json({ pois });
+});
 
 app.get('/api/photo', async (req, res) => {
   const name = String(req.query.name || '').trim();

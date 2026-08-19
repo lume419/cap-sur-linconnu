@@ -892,6 +892,22 @@
     }
     return clientPhotoCache[key];
   }
+  // Vrais points d'intérêt en direct (OpenStreetMap/Overpass, via notre serveur) pour les communes
+  // hors de FEATURED — la grande majorité (~34 700 sur 35 000). Mis en cache 24h côté serveur, donc
+  // rarement lent en pratique après le tout premier tirage sur une commune donnée ; silencieux et
+  // sans jamais bloquer l'affichage si Overpass est indisponible (voir renderDays, qui retombe sur
+  // les activités génériques déjà affichées si rien n'est trouvé).
+  var clientPoiCache = {};
+  function fetchRealPOIs(lat, lon){
+    var key = lat.toFixed(3) + ',' + lon.toFixed(3);
+    if(!clientPoiCache[key]){
+      clientPoiCache[key] = fetch('/api/pois?lat=' + encodeURIComponent(lat) + '&lon=' + encodeURIComponent(lon))
+        .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
+        .then(function(data){ return (data && data.pois) || []; })
+        .catch(function(){ return []; });
+    }
+    return clientPoiCache[key];
+  }
   // Choisit une étape "aller-retour" plausible pour un jour unique, ou construit un itinéraire
   // réel à plusieurs étapes (buildRealRoute) pour un séjour plus long. Les activités viennent des
   // vrais points d'intérêt (FEATURED) quand la commune en a, sinon d'une suggestion générique
@@ -974,6 +990,7 @@
         label:'Jour unique — aller-retour mystère',
         stop: stop.name,
         activities: activities0,
+        needsRealPOIs: !featured0,
         lodging: null,
         isReturn:false,
         lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept
@@ -1021,6 +1038,7 @@
           label: 'Jour '+dayCounter + (nightsHere>1 ? ' ('+(n+1)+'/'+nightsHere+' à '+commune.name+')' : ''),
           stop: commune.name,
           activities: activities,
+          needsRealPOIs: !featured,
           lodging: lodgingCategoryLabel(budgetKey, avoidTent),
           checkIn: checkIn, checkOut: checkOut,
           lodgingLinks: buildLodgingLinks(commune.name, checkIn, checkOut, budgetKey),
@@ -1043,6 +1061,47 @@
     }, finalizeLeg(distBackKm, speed, transportKey, tollEnabled)));
 
     return legs;
+  }
+
+  // Remplit (ou remplace intégralement le contenu de) `actList` avec des cartes d'activité pour
+  // `activities`. Réutilisée à la fois pour l'affichage initial (activités FEATURED ou génériques,
+  // disponibles immédiatement) et pour la mise à jour asynchrone quand de vrais points d'intérêt
+  // arrivent d'Overpass (voir plus bas) — le rendu d'une carte est identique dans les deux cas.
+  function renderActivityCards(actList, activities, dept){
+    actList.innerHTML = '';
+    activities.forEach(function(opt){
+      var card = document.createElement('div');
+      card.className = 'activity-card';
+      card.innerHTML =
+        '<div class="activity-card-visual">'+icon(opt.isWalk ? 'walk' : 'spark')+'</div>'+
+        '<div class="activity-card-body">'+
+          '<div class="activity-card-title">'+opt.label+'</div>'+
+          '<div class="activity-card-type">'+opt.typeLabel+'</div>'+
+        '</div>';
+      actList.appendChild(card);
+      // Pour une vraie curiosité nommée (POI OSM), on tente de récupérer sa propre photo
+      // Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que la
+      // photo générale de la commune. Silencieux si rien n'est trouvé : l'icône reste affichée.
+      if(opt.isReal && opt.searchName){
+        fetchPlacePhoto(opt.searchName, dept).then(function(cardEl, label){
+          return function(data){
+            if(!data || !data.image) return;
+            var fullUrl = data.imageFull || data.image;
+            var wikiUrl = data.wikiUrl;
+            var visual = cardEl.querySelector('.activity-card-visual');
+            if(!visual) return;
+            visual.innerHTML = '<img class="activity-card-img" src="'+data.image+'" alt="'+label+'" referrerpolicy="no-referrer">';
+            cardEl.classList.add('has-image');
+            var im = visual.querySelector('.activity-card-img');
+            im.addEventListener('error', function(){
+              cardEl.classList.remove('has-image');
+              visual.innerHTML = icon('spark');
+            });
+            visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
+          };
+        }(card, opt.label));
+      }
+    });
   }
 
   /* ---------- RENDER: DAYS ---------- */
@@ -1176,40 +1235,25 @@
 
         var actList = document.createElement('div');
         actList.className = 'activity-options';
-        leg.activities.forEach(function(opt){
-          var card = document.createElement('div');
-          card.className = 'activity-card';
-          card.innerHTML =
-            '<div class="activity-card-visual">'+icon(opt.isWalk ? 'walk' : 'spark')+'</div>'+
-            '<div class="activity-card-body">'+
-              '<div class="activity-card-title">'+opt.label+'</div>'+
-              '<div class="activity-card-type">'+opt.typeLabel+'</div>'+
-            '</div>';
-          actList.appendChild(card);
-          // Pour une vraie curiosité nommée (POI OSM), on tente de récupérer sa propre photo
-          // Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que la
-          // photo générale de la commune. Silencieux si rien n'est trouvé : l'icône reste affichée.
-          if(opt.isReal && opt.searchName){
-            fetchPlacePhoto(opt.searchName, leg.dept).then(function(cardEl, label){
-              return function(data){
-                if(!data || !data.image) return;
-                var fullUrl = data.imageFull || data.image;
-                var wikiUrl = data.wikiUrl;
-                var visual = cardEl.querySelector('.activity-card-visual');
-                if(!visual) return;
-                visual.innerHTML = '<img class="activity-card-img" src="'+data.image+'" alt="'+label+'" referrerpolicy="no-referrer">';
-                cardEl.classList.add('has-image');
-                var im = visual.querySelector('.activity-card-img');
-                im.addEventListener('error', function(){
-                  cardEl.classList.remove('has-image');
-                  visual.innerHTML = icon('spark');
-                });
-                visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
-              };
-            }(card, opt.label));
-          }
-        });
+        renderActivityCards(actList, leg.activities, leg.dept);
         body.appendChild(actList);
+
+        // Cette commune n'a pas de POI répertorié dans FEATURED (la grande majorité des communes) :
+        // on tente en tâche de fond de récupérer de vraies curiosités locales via OpenStreetMap
+        // plutôt que de se contenter des suggestions génériques déjà affichées ci-dessus. Si
+        // Overpass ne répond rien (indisponible, aucun résultat...), les activités génériques
+        // restent affichées telles quelles — aucune erreur visible, juste pas de mise à jour.
+        if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
+          fetchRealPOIs(leg.lat, leg.lon).then(function(actListEl, dept){
+            return function(pois){
+              if(!pois || !pois.length) return;
+              var poisQueue = shuffle(pois);
+              var genericQueue = shuffle(GENERIC_ACTIVITIES_NO_WALK);
+              var freshActivities = buildActivityOptions(poisQueue, genericQueue);
+              renderActivityCards(actListEl, freshActivities, dept);
+            };
+          }(actList, leg.dept));
+        }
       }
       if(leg.lodging){
         var lodgeRow = document.createElement('div');
