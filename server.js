@@ -121,10 +121,10 @@ const OVERPASS_MIRRORS = [
 
 async function queryOverpass(url, query){
   const controller = new AbortController();
-  // Les instances publiques Overpass répondent parfois en 15-20s sous charge (constaté en test) —
-  // sans gravité ici puisque cet enrichissement arrive en tâche de fond après l'affichage initial
-  // du trajet (voir app.js), jamais avant.
-  const timer = setTimeout(() => controller.abort(), 18000);
+  // Les instances publiques Overpass répondent parfois en 20s passées sous charge (constaté en
+  // test réel) — sans gravité ici puisque cet enrichissement arrive en tâche de fond après
+  // l'affichage initial du trajet (voir app.js), jamais avant.
+  const timer = setTimeout(() => controller.abort(), 25000);
   try {
     const resp = await fetch(url, {
       method: 'POST',
@@ -142,6 +142,12 @@ async function queryOverpass(url, query){
   }
 }
 
+// Renvoie `null` (pas `[]`) si les DEUX miroirs ont échoué (timeout, 5xx...) — distinct d'une
+// requête qui a bien abouti mais n'a simplement rien trouvé à proximité. La différence compte
+// pour la mise en cache côté appelant : mettre en cache un échec comme un "rien trouvé" aurait
+// figé un faux négatif pendant 14 jours à la moindre lenteur passagère d'Overpass (ce qui est
+// arrivé en pratique : une commune re-testée avec Overpass de nouveau disponible restait bloquée
+// sur un résultat vide mis en cache lors d'un essai précédent en échec).
 async function fetchRealPOIs(lat, lon){
   const query = buildOverpassQuery(lat, lon);
   let data = null;
@@ -149,7 +155,7 @@ async function fetchRealPOIs(lat, lon){
     try { data = await queryOverpass(url, query); break; }
     catch(e){ console.warn('[pois] miroir ' + url + ' en échec pour ' + lat + ',' + lon + ':', e.message); }
   }
-  if(!data) return [];
+  if(!data) return null;
   const seen = new Set();
   const pois = [];
   for(const el of (data.elements || [])){
@@ -176,15 +182,19 @@ app.get('/api/pois', async (req, res) => {
   if(cached && (Date.now() - cached.ts) < POI_CACHE_TTL_MS){
     return res.json({ pois: cached.pois });
   }
-  let pois;
+  let pois = null;
   try {
     pois = await fetchRealPOIs(lat, lon);
   } catch(err){
     console.warn('[pois] échec Overpass pour ' + cacheKey + ':', err.message);
-    pois = []; // silencieux : l'appli retombe sur les activités génériques, jamais d'erreur visible
   }
-  poiCache.set(cacheKey, { pois, ts: Date.now() });
-  res.json({ pois });
+  // Ne met en cache que les échecs "propres" (requête aboutie, 0 résultat) — jamais un échec de
+  // requête (les deux miroirs down), pour ne pas figer un faux négatif ; la prochaine visite sur
+  // cette commune retentera Overpass au lieu de rester bloquée dessus pendant 14 jours.
+  if(pois !== null){
+    poiCache.set(cacheKey, { pois, ts: Date.now() });
+  }
+  res.json({ pois: pois || [] }); // le client ne voit jamais l'échec : juste une liste vide
 });
 
 app.get('/api/photo', async (req, res) => {
