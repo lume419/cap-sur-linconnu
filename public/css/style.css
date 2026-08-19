@@ -664,6 +664,26 @@
   .pack-item input:checked + label .check-text{color:var(--ink-faint); text-decoration:line-through;}
   .pack-item input:focus-visible + label .check-box{outline:2.5px solid var(--focus); outline-offset:2px;}
 
+  /* ============ EXPORT PDF ============ */
+  /* Même famille visuelle que .launch (action positive), mais en accent-3 (teal, déjà utilisé pour
+     les éléments "confirmés" ailleurs — voir .check-box) plutôt qu'en accent (orange, réservé au
+     lancement du tirage) : hiérarchie claire entre l'action principale et cette action secondaire,
+     optionnelle, qui n'apparaît qu'une fois un itinéraire déjà tiré ("si ce dernier plaît"). */
+  .export-row{display:none; flex-direction:column; align-items:center; gap:.5rem; padding-top:.15rem;}
+  .export-row.show{display:flex;}
+  .export-pdf{
+    display:inline-flex; align-items:center; gap:.6rem;
+    background:var(--accent-3); color:var(--accent-ink);
+    border:none; border-radius:999px; padding:.85rem 1.8rem;
+    font:800 .82rem/1 var(--font-body); text-transform:uppercase; letter-spacing:.07em;
+    cursor:pointer; transition:transform .15s ease, background .15s ease, box-shadow .15s ease;
+    box-shadow:0 14px 26px -14px color-mix(in srgb, var(--accent-3) 70%, black 10%);
+  }
+  .export-pdf:hover{background:color-mix(in srgb, var(--accent-3) 85%, black 8%); transform:translateY(-1px);}
+  .export-pdf:active{transform:translateY(1px) scale(.98);}
+  .export-pdf svg{width:18px; height:18px; flex:none;}
+  .export-hint{font:var(--font-hand); font-size:.8rem; color:var(--ink-faint); text-align:center; max-width:26rem;}
+
   /* ============ REROLL / FOOTER ============ */
   .again-row{display:none; justify-content:center; padding-top:.4rem;}
   .again-row.show{display:flex;}
@@ -698,3 +718,30 @@
 }
 .load-error.show{display:block;}
 .dash input:disabled{opacity:.55; cursor:progress;}
+
+/* ============ IMPRESSION / EXPORT PDF ============ */
+/* "Enregistrer en PDF" côté navigateur (window.print(), voir app.js) plutôt qu'une librairie de
+   génération PDF côté client : zéro dépendance ajoutée, rien n'est envoyé à un serveur, cohérent
+   avec le reste du site. Cette feuille ne s'applique qu'à l'impression : on y force la palette
+   claire (peu importe le thème système ou choisi) pour ne pas gâcher d'encre avec un fond sombre,
+   et on masque tout ce qui n'a de sens qu'à l'écran (formulaire de saisie, mécanique d'animation
+   de la roulette, boutons d'action, notes de confidentialité déjà sans objet sur papier). Placée
+   en toute fin de fichier : les règles de thème (:root, :root[data-theme="dark"]) plus haut ont la
+   même spécificité, donc c'est l'ordre dans le fichier qui décide laquelle l'emporte à l'impression.
+*/
+@media print{
+  :root, :root[data-theme="dark"]{
+    --bg:#ffffff; --bg-alt:#ffffff; --surface:#ffffff; --surface-2:#F4F1E5;
+    --ink:#1A1F1C; --ink-soft:#3E463F; --ink-faint:#63695F;
+    --line:#C9C2A0; --line-strong:#A89F78; --shadow:transparent;
+    color-scheme:light;
+  }
+  body{background:#fff;}
+  #form, #load-error, .roulette-label, .roulette-name, .roulette-clue, #compass,
+  .again-row, .export-row, .lede, .disclaimer, footer, .pack-progress{
+    display:none !important;
+  }
+  .wrap{padding-bottom:1rem;}
+  .day-card, .activity-card, .map-card, .pack-card{box-shadow:none !important; break-inside:avoid;}
+  a{color:inherit;}
+}

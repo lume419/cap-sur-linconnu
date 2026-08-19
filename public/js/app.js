@@ -237,6 +237,7 @@
   var radiusMode = 'km';
   var lastNorm = null; // évite de retomber sur la même première étape deux fois de suite
   var rouletteTimer = null;
+  var currentTripLabel = ''; // "Ville — X jours", pour nommer le PDF exporté (voir export-pdf-btn)
 
   var els = {
     form: document.getElementById('form'),
@@ -283,6 +284,8 @@
     timeline: document.getElementById('timeline'),
     timelineStats: document.getElementById('timeline-stats'),
     days: document.getElementById('days'),
+    exportRow: document.getElementById('export-row'),
+    exportPdfBtn: document.getElementById('export-pdf-btn'),
     packCard: document.getElementById('pack-card'),
     packProgress: document.getElementById('pack-progress'),
     packSub: document.getElementById('pack-sub'),
@@ -1657,6 +1660,7 @@
     els.reveal.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto':'smooth', block:'start'});
     els.mapCard.classList.remove('show');
     els.timeline.classList.remove('show');
+    els.exportRow.classList.remove('show');
     els.packCard.classList.remove('show');
     els.againRow.classList.remove('show');
 
@@ -1667,9 +1671,11 @@
       renderDays(legs, city);
       renderMap(legs, city, cityCoord);
       renderPacking(budgetKey, transportKey);
+      currentTripLabel = city + ' - ' + days + (days > 1 ? ' jours' : ' jour');
 
       els.mapCard.classList.add('show');
       els.timeline.classList.add('show');
+      els.exportRow.classList.add('show');
       els.packCard.classList.add('show');
       els.againRow.classList.add('show');
     });
@@ -1680,5 +1686,18 @@
     generate();
   });
   els.againBtn.addEventListener('click', generate);
+
+  // Export PDF : on laisse le navigateur s'en charger (fenêtre d'impression, destination
+  // "Enregistrer en PDF") plutôt que d'ajouter une librairie de génération PDF côté client — pas
+  // de dépendance en plus, rien n'est envoyé à un serveur (voir le style d'impression dédié dans
+  // style.css, qui masque le formulaire et la mécanique d'animation pour ne garder que
+  // l'itinéraire). Le titre du document sert de nom de fichier suggéré par défaut par la plupart
+  // des navigateurs — le vrai titre est restauré juste après, qu'il y ait eu impression ou non.
+  els.exportPdfBtn.addEventListener('click', function(){
+    var originalTitle = document.title;
+    if(currentTripLabel) document.title = "Cap sur l'inconnu - " + currentTripLabel;
+    window.print();
+    document.title = originalTitle;
+  });
 
 })();
