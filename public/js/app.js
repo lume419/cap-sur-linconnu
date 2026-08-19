@@ -238,6 +238,7 @@
   var lastNorm = null; // évite de retomber sur la même première étape deux fois de suite
   var rouletteTimer = null;
   var currentTripLabel = ''; // "Ville — X jours", pour nommer le PDF exporté (voir export-pdf-btn)
+  var currentTripData = null; // {legs, city, budgetKey, transportKey} du dernier itinéraire affiché
 
   var els = {
     form: document.getElementById('form'),
@@ -286,6 +287,7 @@
     days: document.getElementById('days'),
     exportRow: document.getElementById('export-row'),
     exportPdfBtn: document.getElementById('export-pdf-btn'),
+    exportHint: document.getElementById('export-hint'),
     packCard: document.getElementById('pack-card'),
     packProgress: document.getElementById('pack-progress'),
     packSub: document.getElementById('pack-sub'),
@@ -1191,9 +1193,16 @@
         // description ni leurs photos (voir server.js) — et la carte entière renvoie directement
         // vers leur page, avec la source explicitement créditée. Si rien n'est trouvé, la carte
         // générique reste affichée telle quelle.
-        fetchVisorandoHike(communeName).then(function(cardEl){
+        fetchVisorandoHike(communeName).then(function(cardEl, opt){
           return function(hike){
-            if(!hike || !cardEl.parentNode) return;
+            if(!hike) return;
+            // On mémorise la trouvaille directement sur `opt` (donc sur leg.activities, puisque
+            // c'est le même objet) — pas seulement dans le DOM — pour que l'export PDF (voir
+            // buildTripExportPayload) reflète la vraie randonnée trouvée plutôt que la formule
+            // générique de repli, même généré après coup.
+            opt.hikeName = hike.name; opt.hikeUrl = hike.url;
+            opt.hikeDistance = hike.distance; opt.hikeDuration = hike.duration; opt.hikeDifficulty = hike.difficulty;
+            if(!cardEl.parentNode) return;
             var metaBits = [];
             if(hike.distance) metaBits.push(hike.distance);
             if(hike.duration) metaBits.push(hike.duration);
@@ -1212,7 +1221,7 @@
               '</div>';
             cardEl.parentNode.replaceChild(newCard, cardEl);
           };
-        }(card));
+        }(card, opt));
       }
     });
   }
@@ -1374,6 +1383,9 @@
               var poisQueue = shuffle(pois);
               var genericQueue = shuffle(GENERIC_ACTIVITIES_NO_WALK);
               var freshActivities = buildActivityOptions(poisQueue, genericQueue);
+              // On remplace aussi leg.activities (pas seulement l'affichage) pour que l'export PDF
+              // (voir buildTripExportPayload) reflète les vraies activités trouvées.
+              leg.activities = freshActivities;
               renderActivityCards(actListEl, freshActivities, dept, stopName);
             };
           }(actList, leg.dept, leg.stop, actLabelRow));
@@ -1594,6 +1606,59 @@
     els.packProgress.classList.toggle('complete', allChecked);
   }
 
+  // Construit les données envoyées à /api/export-pdf, à partir de l'état ACTUEL du voyage — pas
+  // une simple relecture de legs tel que buildItinerary l'a produit initialement, mais tel qu'il
+  // est maintenant (vrais POI Overpass et vraie randonnée Visorando une fois résolus, voir les
+  // écritures dans leg.activities plus haut) : exactement ce que l'utilisateur voit à l'écran au
+  // moment du clic. Le PDF lui-même est mis en page côté serveur (voir server.js) ; ici on ne fait
+  // que rassembler des données déjà calculées, sans dupliquer la logique de calcul elle-même — les
+  // libellés déjà formatés (codes postaux, dates, listes) sont réutilisés tels quels quand ils
+  // existent (formatCpBadge, formatFrDate), ou relus directement depuis le DOM déjà rendu pour le
+  // sac à préparer (renderPacking dédoublonne déjà la liste, pas la peine de recalculer).
+  function buildTripExportPayload(){
+    if(!currentTripData) return null;
+    var legs = currentTripData.legs, city = currentTripData.city;
+    var budgetKey = currentTripData.budgetKey, transportKey = currentTripData.transportKey;
+    var totalKm = legs.reduce(function(s,l){ return s + (l.distanceKm||0); }, 0);
+    var nights = legs.filter(function(l){ return l.lodging; }).length;
+    var villes = {};
+    legs.forEach(function(l){ if(!l.isReturn) villes[l.stop] = true; });
+    var tollLegs = legs.filter(function(l){ return l.tollInfo; });
+    var tollSummary = tollLegs.length ? {
+      enabled: tollLegs[0].tollInfo.enabled,
+      amount: tollLegs.reduce(function(s,l){ return s + l.tollInfo.amount; }, 0)
+    } : null;
+    return {
+      city: city,
+      tripLabel: currentTripLabel,
+      budgetLabel: BUDGET[budgetKey].label,
+      transportLabel: TRANSPORT[transportKey].label,
+      stats: { days: legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, toll: tollSummary },
+      legs: legs.map(function(leg){
+        return {
+          label: leg.label,
+          stop: leg.stop,
+          cpBadge: leg.cp ? formatCpBadge(leg) : null,
+          isReturn: !!leg.isReturn,
+          distanceKm: leg.distanceKm,
+          travelTime: leg.travelTime,
+          tollInfo: leg.tollInfo || null,
+          chargeInfo: leg.chargeInfo || null,
+          checkInLabel: leg.checkIn ? formatFrDate(leg.checkIn) : null,
+          lodgingLinks: leg.lodgingLinks || null,
+          activities: (leg.activities || []).map(function(opt){
+            return opt.hikeUrl ? {
+              label: opt.hikeName,
+              typeLabel: [opt.hikeDistance, opt.hikeDuration, opt.hikeDifficulty].filter(Boolean).join(' · ') || 'randonnée balisée',
+              source: 'Visorando', hikeUrl: opt.hikeUrl
+            } : { label: opt.label, typeLabel: opt.typeLabel, source: null, hikeUrl: null };
+          })
+        };
+      }),
+      packing: Array.prototype.map.call(els.packGrid.querySelectorAll('.check-text'), function(el){ return el.textContent; })
+    };
+  }
+
   /* ---------- MAIN FLOW ---------- */
   function generate(){
     var typed = els.city.value.trim();
@@ -1672,6 +1737,7 @@
       renderMap(legs, city, cityCoord);
       renderPacking(budgetKey, transportKey);
       currentTripLabel = city + ' - ' + days + (days > 1 ? ' jours' : ' jour');
+      currentTripData = { legs: legs, city: city, budgetKey: budgetKey, transportKey: transportKey };
 
       els.mapCard.classList.add('show');
       els.timeline.classList.add('show');
@@ -1687,17 +1753,47 @@
   });
   els.againBtn.addEventListener('click', generate);
 
-  // Export PDF : on laisse le navigateur s'en charger (fenêtre d'impression, destination
-  // "Enregistrer en PDF") plutôt que d'ajouter une librairie de génération PDF côté client — pas
-  // de dépendance en plus, rien n'est envoyé à un serveur (voir le style d'impression dédié dans
-  // style.css, qui masque le formulaire et la mécanique d'animation pour ne garder que
-  // l'itinéraire). Le titre du document sert de nom de fichier suggéré par défaut par la plupart
-  // des navigateurs — le vrai titre est restauré juste après, qu'il y ait eu impression ou non.
+  // Nom de fichier local uniquement (pas d'URL à slugifier) : on garde surtout des caractères
+  // "sûrs" pour un système de fichiers (accents inclus, la plupart des OS actuels les gèrent bien
+  // dans un nom de fichier téléchargé — seuls les séparateurs et symboles réservés sont remplacés).
+  function pdfFilename(label){
+    var base = (label || 'itineraire').replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim();
+    return "Cap sur l'inconnu - " + base + '.pdf';
+  }
+
+  // Export PDF : générée côté serveur (voir server.js, /api/export-pdf) et téléchargée directement
+  // — pas de fenêtre d'impression à gérer soi-même, un vrai fichier .pdf. On envoie l'état ACTUEL
+  // du voyage (voir buildTripExportPayload) ; le serveur ne fait que la mise en page, aucune donnée
+  // n'est conservée côté serveur au-delà de la réponse.
   els.exportPdfBtn.addEventListener('click', function(){
-    var originalTitle = document.title;
-    if(currentTripLabel) document.title = "Cap sur l'inconnu - " + currentTripLabel;
-    window.print();
-    document.title = originalTitle;
+    var payload = buildTripExportPayload();
+    if(!payload) return;
+    var originalLabel = els.exportPdfBtn.innerHTML;
+    els.exportPdfBtn.disabled = true;
+    els.exportPdfBtn.textContent = 'Génération du PDF…';
+    if(els.exportHint) els.exportHint.textContent = 'Le PDF se télécharge directement — rien à imprimer.';
+    fetch('/api/export-pdf', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(function(r){
+      if(!r.ok) throw new Error('http ' + r.status);
+      return r.blob();
+    }).then(function(blob){
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = pdfFilename(currentTripLabel);
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(function(){ URL.revokeObjectURL(url); }, 4000);
+    }).catch(function(){
+      if(els.exportHint) els.exportHint.textContent = 'Échec de la génération du PDF — réessayez dans un instant.';
+    }).then(function(){
+      els.exportPdfBtn.disabled = false;
+      els.exportPdfBtn.innerHTML = originalLabel;
+    });
   });
 
 })();

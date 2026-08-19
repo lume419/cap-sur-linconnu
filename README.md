@@ -25,12 +25,14 @@ cap-sur-linconnu/
 │                                # (non chargé par l'app — conservé comme référence/source)
 ```
 
-Le serveur sert les fichiers statiques et trois routes dynamiques : `GET /api/photo?name=…&dept=…`,
+Le serveur sert les fichiers statiques et quatre routes dynamiques : `GET /api/photo?name=…&dept=…`,
 qui va chercher une vraie photo sur Wikipédia (voir plus bas), `GET /api/pois?lat=…&lon=…`, qui va
 chercher de vrais points d'intérêt sur OpenStreetMap autour d'une commune (voir "Activités
-réelles"), et `GET /api/hike?name=…`, qui va chercher une vraie randonnée balisée sur Visorando pour
-une commune (voir "Randonnées réelles"). Pas de base de données, pas de session, pas de donnée
-utilisateur conservée — juste un petit cache en mémoire pour ces trois routes.
+réelles"), `GET /api/hike?name=…`, qui va chercher une vraie randonnée balisée sur Visorando pour
+une commune (voir "Randonnées réelles"), et `POST /api/export-pdf`, qui génère le PDF téléchargeable
+de l'itinéraire affiché (voir "Export PDF"). Pas de base de données, pas de session, pas de donnée
+utilisateur conservée au-delà de la réponse — juste un petit cache en mémoire pour les trois
+premières routes.
 
 ## Démarrer en local
 
@@ -139,6 +141,17 @@ travail sans le créditer :
   « pas de page trouvée pour cette commune » légitime l'est.
 - Si Visorando ne renvoie rien pour la commune tirée, la formule générique reste affichée telle
   quelle — aucune erreur visible.
+
+## Export PDF
+
+Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois
+un itinéraire tiré) télécharge directement un vrai fichier `.pdf` — pas de fenêtre d'impression du
+navigateur à gérer soi-même. Le client envoie l'état actuel du voyage tel qu'affiché à l'écran
+(POI réels et randonnée Visorando déjà résolus, si trouvés) à `POST /api/export-pdf`, qui met en
+page le document avec [pdfkit](https://pdfkit.org/) (pur JavaScript, sans binaire externe type
+Chromium — adapté à un hébergement mutualisé) et le renvoie en réponse, sans rien conserver côté
+serveur. Le PDF inclut de vrais liens cliquables vers les randonnées Visorando et les recherches
+Airbnb/Booking.
 
 ## Sources des données
 

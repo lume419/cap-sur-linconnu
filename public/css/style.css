@@ -681,6 +681,7 @@
   }
   .export-pdf:hover{background:color-mix(in srgb, var(--accent-3) 85%, black 8%); transform:translateY(-1px);}
   .export-pdf:active{transform:translateY(1px) scale(.98);}
+  .export-pdf:disabled{opacity:.6; cursor:progress; transform:none;}
   .export-pdf svg{width:18px; height:18px; flex:none;}
   .export-hint{font:var(--font-hand); font-size:.8rem; color:var(--ink-faint); text-align:center; max-width:26rem;}
 
@@ -718,30 +719,3 @@
 }
 .load-error.show{display:block;}
 .dash input:disabled{opacity:.55; cursor:progress;}
-
-/* ============ IMPRESSION / EXPORT PDF ============ */
-/* "Enregistrer en PDF" côté navigateur (window.print(), voir app.js) plutôt qu'une librairie de
-   génération PDF côté client : zéro dépendance ajoutée, rien n'est envoyé à un serveur, cohérent
-   avec le reste du site. Cette feuille ne s'applique qu'à l'impression : on y force la palette
-   claire (peu importe le thème système ou choisi) pour ne pas gâcher d'encre avec un fond sombre,
-   et on masque tout ce qui n'a de sens qu'à l'écran (formulaire de saisie, mécanique d'animation
-   de la roulette, boutons d'action, notes de confidentialité déjà sans objet sur papier). Placée
-   en toute fin de fichier : les règles de thème (:root, :root[data-theme="dark"]) plus haut ont la
-   même spécificité, donc c'est l'ordre dans le fichier qui décide laquelle l'emporte à l'impression.
-*/
-@media print{
-  :root, :root[data-theme="dark"]{
-    --bg:#ffffff; --bg-alt:#ffffff; --surface:#ffffff; --surface-2:#F4F1E5;
-    --ink:#1A1F1C; --ink-soft:#3E463F; --ink-faint:#63695F;
-    --line:#C9C2A0; --line-strong:#A89F78; --shadow:transparent;
-    color-scheme:light;
-  }
-  body{background:#fff;}
-  #form, #load-error, .roulette-label, .roulette-name, .roulette-clue, #compass,
-  .again-row, .export-row, .lede, .disclaimer, footer, .pack-progress{
-    display:none !important;
-  }
-  .wrap{padding-bottom:1rem;}
-  .day-card, .activity-card, .map-card, .pack-card{box-shadow:none !important; break-inside:avoid;}
-  a{color:inherit;}
-}

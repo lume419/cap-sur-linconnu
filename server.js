@@ -4,6 +4,7 @@
 // le seul état en mémoire est le cache de ces deux routes.
 const path = require('path');
 const express = require('express');
+const PDFDocument = require('pdfkit');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -540,6 +541,155 @@ app.get('/api/photo', async (req, res) => {
   }
   photoCache.set(cacheKey, { data, ts: Date.now() });
   res.json(data);
+});
+
+// ============ EXPORT PDF ============
+// Un vrai fichier .pdf téléchargeable en un clic (pas la fenêtre d'impression du navigateur) :
+// pdfkit est du JS pur (aucun binaire externe type Chromium/wkhtmltopdf), donc sans souci sur un
+// hébergement mutualisé. Le client envoie l'état ACTUEL du voyage tel qu'affiché à l'écran (voir
+// buildTripExportPayload dans app.js — POI réels et randonnée Visorando déjà résolus si trouvés) ;
+// le serveur ne fait que la mise en page. Rien n'est conservé ni journalisé au-delà de la réponse.
+
+function isHttpUrl(u){
+  return typeof u === 'string' && /^https?:\/\//i.test(u) && u.length < 500;
+}
+// Filet de sécurité contre un payload abusif (chaîne énorme) qui ralentirait inutilement la mise
+// en page du PDF — jamais atteint en usage normal, l'app elle-même ne produit rien d'aussi long.
+function clip(s, max){
+  s = (s == null) ? '' : String(s);
+  return s.length > max ? s.slice(0, max - 1) + '…' : s;
+}
+
+const PDF_INK = '#1A1F1C';
+const PDF_INK_SOFT = '#4A544D';
+const PDF_ACCENT = '#B04A19';
+const PDF_ACCENT_3 = '#1F4F44';
+const PDF_LINE = '#C9C2A0';
+
+function pdfEnsureSpace(doc, minHeight){
+  const bottom = doc.page.height - doc.page.margins.bottom;
+  if(doc.y + minHeight > bottom) doc.addPage();
+}
+
+function pdfBullet(doc, text, opts){
+  opts = opts || {};
+  pdfEnsureSpace(doc, 24);
+  doc.fillColor(opts.link ? PDF_ACCENT_3 : PDF_INK).fontSize(9.5).font('Helvetica')
+    .text('•  ' + text, { link: opts.link || undefined, underline: !!opts.link });
+}
+
+function buildTripPdf(doc, trip){
+  const marginLeft = doc.page.margins.left;
+  const contentWidth = doc.page.width - doc.page.margins.left - doc.page.margins.right;
+
+  doc.fillColor(PDF_ACCENT).fontSize(20).font('Helvetica-Bold').text("Cap sur l'inconnu");
+  doc.fillColor(PDF_INK_SOFT).fontSize(11).font('Helvetica').text(clip(trip.city, 80) + ' — itinéraire mystère');
+  doc.moveDown(0.3);
+
+  const stats = trip.stats || {};
+  const statsBits = [];
+  if(stats.days) statsBits.push(stats.days + (stats.days > 1 ? ' jours' : ' jour'));
+  if(stats.cities) statsBits.push(stats.cities + (stats.cities > 1 ? ' villes' : ' ville'));
+  if(stats.nights != null) statsBits.push(stats.nights + (stats.nights > 1 ? ' nuitées' : ' nuitée'));
+  if(stats.totalKm) statsBits.push('~' + Math.round(stats.totalKm) + ' km au total');
+  if(stats.toll){
+    const tollAmountTxt = (Math.round(stats.toll.amount * 10) / 10).toFixed(1).replace('.', ',');
+    statsBits.push('~' + tollAmountTxt + ' € de péage ' + (stats.toll.enabled ? 'estimé' : 'évités'));
+  }
+  doc.fillColor(PDF_INK).fontSize(10).font('Helvetica-Bold').text(statsBits.join('   ·   '));
+  doc.moveDown(0.8);
+  doc.strokeColor(PDF_LINE).lineWidth(1).moveTo(marginLeft, doc.y).lineTo(marginLeft + contentWidth, doc.y).stroke();
+  doc.moveDown(0.8);
+
+  const legs = Array.isArray(trip.legs) ? trip.legs : [];
+  legs.forEach(function(leg){
+    if(!leg) return;
+    pdfEnsureSpace(doc, 70);
+    doc.fillColor(PDF_ACCENT_3).fontSize(12.5).font('Helvetica-Bold').text(clip(leg.label, 120));
+    if(leg.distanceKm != null && leg.travelTime){
+      doc.fillColor(PDF_INK_SOFT).fontSize(9).font('Helvetica-Oblique')
+        .text('~ ' + clip(leg.travelTime, 20) + ' de route · ' + Math.round(leg.distanceKm) + ' km');
+    }
+    const stopLabel = (leg.isReturn ? 'Retour vers ' : 'Étape mystère : ') + clip(leg.stop, 100) +
+      (leg.cpBadge ? ' (' + clip(leg.cpBadge, 20) + ')' : '');
+    doc.fillColor(PDF_INK).fontSize(10.5).font('Helvetica-Bold').text(stopLabel);
+    doc.font('Helvetica');
+    doc.moveDown(0.25);
+
+    if(leg.tollInfo){
+      const t = leg.tollInfo;
+      const barrierTxt = t.fluxLibre ? 'péage à flux libre, sans barrière' : 'péage classique avec barrière';
+      const amountTxt = (Math.round((t.amount || 0) * 10) / 10).toFixed(1).replace('.', ',');
+      const savedMin = Math.round(t.savedMin || 0);
+      const tollTxt = t.enabled
+        ? ('Péage estimé : ~' + amountTxt + ' € (' + barrierTxt + ') — environ ' + savedMin + ' min gagnées par rapport à un trajet sans péage.')
+        : ('Sans péage (option décochée) : environ ' + savedMin + ' min auraient pu être gagnées en autoroute (~' + amountTxt + ' €, ' + barrierTxt + ').');
+      pdfBullet(doc, tollTxt);
+    }
+    if(leg.chargeInfo){
+      const c = leg.chargeInfo;
+      pdfBullet(doc, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge estimée' + (c.stops > 1 ? 's' : '') +
+        ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.');
+    }
+    const activities = Array.isArray(leg.activities) ? leg.activities : [];
+    activities.slice(0, 6).forEach(function(act){
+      if(!act || !act.label) return;
+      const text = clip(act.label, 140) + (act.typeLabel ? ' — ' + clip(act.typeLabel, 80) : '') +
+        (act.source ? ' (Source : ' + clip(act.source, 30) + ')' : '');
+      pdfBullet(doc, text, { link: isHttpUrl(act.hikeUrl) ? act.hikeUrl : null });
+    });
+    if(leg.lodgingLinks && leg.checkInLabel){
+      const links = leg.lodgingLinks;
+      if(isHttpUrl(links.airbnb)) pdfBullet(doc, 'Logement (Airbnb) pour le ' + clip(leg.checkInLabel, 40), { link: links.airbnb });
+      if(isHttpUrl(links.booking)) pdfBullet(doc, 'Logement (Booking.com) pour le ' + clip(leg.checkInLabel, 40), { link: links.booking });
+    }
+    if(leg.isReturn){
+      pdfBullet(doc, 'Fin de mission — retour à la maison, road trip mystère bouclé.');
+    }
+    doc.moveDown(0.7);
+  });
+
+  const packing = Array.isArray(trip.packing) ? trip.packing : [];
+  if(packing.length){
+    pdfEnsureSpace(doc, 60);
+    doc.strokeColor(PDF_LINE).lineWidth(1).moveTo(marginLeft, doc.y).lineTo(marginLeft + contentWidth, doc.y).stroke();
+    doc.moveDown(0.6);
+    doc.fillColor(PDF_ACCENT).fontSize(13).font('Helvetica-Bold').text('Sac à préparer');
+    doc.fillColor(PDF_INK_SOFT).fontSize(9.5).font('Helvetica-Oblique')
+      .text('Pour ' + clip(trip.transportLabel, 60) + ', budget ' + clip(trip.budgetLabel, 40) + '.');
+    doc.font('Helvetica');
+    doc.moveDown(0.4);
+    packing.slice(0, 60).forEach(function(item){ pdfBullet(doc, clip(item, 120)); });
+  }
+
+  const today = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+  doc.moveDown(1);
+  doc.fillColor(PDF_INK_SOFT).fontSize(7.5).font('Helvetica').text(
+    "Généré le " + today + " par Cap sur l'inconnu — communes : IGN/geo.api.gouv.fr · points d'intérêt : " +
+    "OpenStreetMap (ODbL) · péages : VINCI Autoroutes · randonnées : Visorando."
+  );
+}
+
+app.post('/api/export-pdf', express.json({ limit: '512kb' }), (req, res) => {
+  const trip = req.body;
+  if(!trip || typeof trip !== 'object' || !Array.isArray(trip.legs) || trip.legs.length === 0 || trip.legs.length > 25){
+    return res.status(400).json({ error: 'invalid trip data' });
+  }
+  const filenameBase = clip(trip.tripLabel || trip.city || 'itineraire', 60).replace(/[\\/:*?"<>|]+/g, '-') || 'itineraire';
+  const doc = new PDFDocument({
+    size: 'A4',
+    margins: { top: 50, bottom: 50, left: 55, right: 55 },
+    info: { Title: "Cap sur l'inconnu - " + filenameBase }
+  });
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', "attachment; filename=\"itineraire.pdf\"; filename*=UTF-8''" + encodeURIComponent(filenameBase) + '.pdf');
+  doc.pipe(res);
+  try {
+    buildTripPdf(doc, trip);
+  } catch(err){
+    console.warn('[export-pdf] erreur de mise en page:', err.message);
+  }
+  doc.end();
 });
 
 app.use(express.static(path.join(__dirname, 'public'), {
