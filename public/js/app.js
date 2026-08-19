@@ -908,6 +908,31 @@
     }
     return clientPoiCache[key];
   }
+  // Lance à l'avance les mêmes requêtes que renderDays fera plus tard (photo de chaque étape,
+  // vrais POI Overpass pour les communes qui en ont besoin, puis photo de chacun des POI trouvés) —
+  // appelée pendant l'animation de la roulette, qui dure quelques secondes, plutôt que d'attendre
+  // que l'itinéraire s'affiche pour commencer. fetchPlacePhoto()/fetchRealPOIs() mémoïsent déjà
+  // leur résultat par clé (nom+département, ou coordonnées) : renderDays() récupère donc une
+  // promesse déjà résolue (ou bien avancée) au lieu de repartir de zéro — moins d'attente visible
+  // pour les photos et les activités, sans changer le rythme de l'animation elle-même.
+  function prefetchLegAssets(legs){
+    legs.forEach(function(leg){
+      if(!leg.stop) return;
+      fetchPlacePhoto(leg.stop, leg.dept);
+      if(leg.activities){
+        leg.activities.forEach(function(opt){
+          if(opt.isReal && opt.searchName) fetchPlacePhoto(opt.searchName, leg.dept);
+        });
+      }
+      if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
+        fetchRealPOIs(leg.lat, leg.lon).then(function(dept){
+          return function(pois){
+            (pois || []).slice(0, 4).forEach(function(p){ fetchPlacePhoto(p.name, dept); });
+          };
+        }(leg.dept));
+      }
+    });
+  }
   // Choisit une étape "aller-retour" plausible pour un jour unique, ou construit un itinéraire
   // réel à plusieurs étapes (buildRealRoute) pour un séjour plus long. Les activités viennent des
   // vrais points d'intérêt (FEATURED) quand la commune en a, sinon d'une suggestion générique
@@ -1525,6 +1550,11 @@
     }
     var firstLeg = legs[0];
     lastNorm = firstLeg.norm || null;
+
+    // L'itinéraire complet est déjà connu ici, avant même le début de l'animation — autant lancer
+    // dès maintenant les requêtes (photos, vrais points d'intérêt) dont renderDays() aura besoin
+    // dans quelques secondes, une fois la roulette terminée.
+    prefetchLegAssets(legs);
 
     // Vivier de vrais noms de communes proches, pour faire défiler la roulette avant la révélation.
     var spinRadius = Math.max(60, Math.min(maxRadiusKm, 400));
