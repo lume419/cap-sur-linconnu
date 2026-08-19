@@ -77,16 +77,23 @@ const POI_RADIUS_M = 8000; // ~8 km autour du centre de la commune — à porté
 const poiCache = new Map();
 const POI_CACHE_TTL_MS = 14 * 24 * 60 * 60 * 1000; // 14j : ces lieux ne changent presque jamais
 
+// `amenity=place_of_worship` retiré volontairement : dans une ville dense (testé sur Lyon), cette
+// seule catégorie fait à elle seule dépasser le budget temps interne d'Overpass (`[timeout:20]`,
+// qui répond alors HTTP 200 mais avec un simple `"remark": "runtime error: Query timed out..."`
+// dans le corps — un "succès" muet, jamais détecté comme une erreur, qui se traduisait par 0
+// résultat pour absolument toutes les grandes villes). Vérifié : la même requête sans cette
+// catégorie passe de "timeout après 21s" à "10,7s, dizaines de résultats" pour Lyon. Une église de
+// quartier n'est de toute façon pas la curiosité la plus différenciante (déjà couverte, en creux,
+// par la suggestion générique "Visite de l'église ou du patrimoine bâti local").
 function buildOverpassQuery(lat, lon){
   const around = `around:${POI_RADIUS_M},${lat},${lon}`;
-  return `[out:json][timeout:20];(
+  return `[out:json][timeout:24];(
     node["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|theme_park|artwork)$"]["name"](${around});
     way["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|theme_park|artwork)$"]["name"](${around});
     node["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"]["name"](${around});
     way["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"]["name"](${around});
     node["natural"~"^(peak|waterfall|beach|cave_entrance)$"]["name"](${around});
     node["leisure"="nature_reserve"]["name"](${around});
-    node["amenity"="place_of_worship"]["name"](${around});
   );out center 25;`;
 }
 
@@ -97,8 +104,15 @@ function poiTypeFromTags(tags){
   if(tags.historic) return tags.historic;
   if(tags.natural) return tags.natural;
   if(tags.leisure === 'nature_reserve') return 'nature_reserve';
-  if(tags.amenity === 'place_of_worship') return 'place_of_worship';
   return null;
+}
+
+// Filet de sécurité complémentaire : Overpass peut répondre HTTP 200 tout en ayant abandonné la
+// requête en cours de route (voir plus haut) — ce cas se signale par un champ "remark" au lieu
+// d'une vraie erreur HTTP. Sans ce contrôle, une telle réponse partielle serait mise en cache comme
+// un "0 résultat" légitime pendant 14 jours.
+function isPartialOverpassResponse(data){
+  return !!(data && typeof data.remark === 'string' && /timed out|runtime error/i.test(data.remark));
 }
 
 function shuffleArr(arr){
@@ -110,11 +124,14 @@ function shuffleArr(arr){
   return a;
 }
 
-// L'instance publique overpass-api.de est parfois lente ou en limite de charge (504, ou simplement
-// longue à répondre) — un deuxième miroir public en repli évite qu'une indisponibilité passagère
-// prive tout le monde de l'enrichissement le temps que ça se rétablisse. Reste silencieux dans tous
-// les cas : c'est un "bonus" (vraies activités), jamais un blocage du tirage lui-même.
+// Les instances publiques Overpass sont parfois lentes ou en limite de charge (504, timeout...) —
+// plusieurs miroirs en repli évitent qu'une indisponibilité passagère prive tout le monde de
+// l'enrichissement le temps que ça se rétablisse. Reste silencieux dans tous les cas : c'est un
+// "bonus" (vraies activités), jamais un blocage du tirage lui-même.
+// overpass.openstreetmap.fr en premier : hébergé en France (comme ce serveur), constaté plus
+// rapide et plus fiable que les deux autres lors des tests (13s contre 20-25s, voire échec).
 const OVERPASS_MIRRORS = [
+  'https://overpass.openstreetmap.fr/api/interpreter',
   'https://overpass-api.de/api/interpreter',
   'https://overpass.kumi.systems/api/interpreter'
 ];
@@ -136,7 +153,9 @@ async function queryOverpass(url, query){
       signal: controller.signal
     });
     if(!resp.ok) throw new Error('HTTP ' + resp.status);
-    return await resp.json();
+    const data = await resp.json();
+    if(isPartialOverpassResponse(data)) throw new Error('réponse partielle (' + data.remark + ')');
+    return data;
   } finally {
     clearTimeout(timer);
   }
