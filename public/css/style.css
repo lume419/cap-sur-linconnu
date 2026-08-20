@@ -290,19 +290,21 @@
   .toggle-text{font:700 .82rem/1.2 var(--font-body); color:var(--ink);}
 
   /* ============ THÈME CLAIR/SOMBRE/AUTO ============ */
-  /* Réutilise le style ".seg" existant (voir plus bas) — même contrôle segmenté que pour "Type de
-     limite" dans le formulaire, pour une cohérence visuelle immédiate. En flux normal en haut de
-     ".wrap" (pas en position fixe) : évite tout risque de chevauchement avec l'en-tête, notamment
-     sur mobile où l'en-tête est centré et peut occuper toute la largeur. */
+  /* Un seul bouton (pas un contrôle segmenté à plusieurs options) : un clic fait tourner
+     auto -> clair -> sombre -> auto..., l'icône et le libellé reflètent l'état actuel (voir
+     js/theme.js). En flux normal en haut de ".wrap" (pas en position fixe) : évite tout risque de
+     chevauchement avec l'en-tête, notamment sur mobile où l'en-tête est centré. Même famille
+     visuelle que ".again" (bouton fantôme, discret) plutôt qu'un bouton plein — c'est un réglage
+     annexe, pas une action principale. */
   .theme-toggle-row{display:flex; justify-content:flex-end;}
-  /* .theme-toggle réutilise .seg (voir plus bas), dont la règle mobile empile les boutons en pleine
-     largeur — pertinent pour les 2 longues options "Type de limite" du formulaire, beaucoup moins
-     pour ce petit réglage annexe qui doit rester discret. Sélecteur composé (.theme-toggle.seg) pour
-     l'emporter sur la règle .seg générique quel que soit l'ordre dans le fichier. */
-  @media (max-width:480px){
-    .theme-toggle.seg{flex-direction:row; width:fit-content;}
-    .theme-toggle.seg button{width:auto; padding:.4rem .55rem; font-size:.62rem;}
+  .theme-toggle-btn{
+    display:inline-flex; align-items:center; gap:.4rem;
+    background:transparent; border:1.5px solid var(--line-strong); color:var(--ink-soft);
+    border-radius:999px; padding:.45rem .85rem .45rem .7rem; font:700 .68rem/1 var(--font-body);
+    text-transform:uppercase; letter-spacing:.06em; cursor:pointer;
   }
+  .theme-toggle-btn:hover{border-color:var(--accent-3); color:var(--accent-3);}
+  .theme-toggle-btn svg{width:15px; height:15px; flex:none;}
 
   .radius-field{display:flex; flex-direction:column; gap:.4rem;}
   .seg{
