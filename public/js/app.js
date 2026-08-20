@@ -300,10 +300,13 @@
 
   // Une commune réelle différente à chaque chargement de la page plutôt qu'un exemple toujours
   // identique ("Ex. Lyon ou 69001") — dans l'esprit "mystère" du site. Filtrée sur une population
-  // minimale pour rester un exemple lisible (pas un hameau de 12 habitants au nom obscur), avec un
-  // repli sur l'ensemble des communes dans l'improbable cas où le filtre ne laisserait rien.
+  // minimale pour rester un exemple lisible (pas un hameau de 12 habitants au nom obscur), et sur
+  // 16 caractères maximum pour le nom : au-delà, "Ex. <nom> ou <cp>" ne tient plus dans le champ
+  // sans réduire la taille du texte du placeholder (vérifié empiriquement). Repli en cascade sur un
+  // filtre moins strict si l'un d'eux ne laissait rien (improbable, mais gratuit à couvrir).
   function randomPlaceholderCity(){
-    var pool = COMMUNES.filter(function(c){ return c.pop >= 2000; });
+    var pool = COMMUNES.filter(function(c){ return c.pop >= 2000 && c.name.length <= 16; });
+    if(!pool.length) pool = COMMUNES.filter(function(c){ return c.name.length <= 16; });
     if(!pool.length) pool = COMMUNES;
     var c = pool[Math.floor(Math.random() * pool.length)];
     return 'Ex. ' + c.name + ' ou ' + c.cps[0];
