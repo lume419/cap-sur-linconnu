@@ -17,6 +17,7 @@ cap-sur-linconnu/
 │   ├── index.html
 │   ├── mentions-legales.html
 │   ├── politique-confidentialite.html
+│   ├── og-image.png       # carte de partage (Open Graph/Twitter Card), 1200×630
 │   ├── css/style.css
 │   ├── js/app.js          # toute la génération d'itinéraire (client-side)
 │   └── data/
