@@ -2,6 +2,10 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
+<!-- Applique le thème clair/sombre mémorisé AVANT le chargement de la feuille de style, pour
+     éviter un flash du mauvais thème au chargement de la page (voir js/theme.js pour la bascule
+     elle-même, identique sur les trois pages du site). -->
+<script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Politique de confidentialité — Cap sur l'Inconnu</title>
 <meta name="description" content="Politique de confidentialité du site Cap sur l'Inconnu : quelles données sont traitées, et pourquoi.">
@@ -21,6 +25,14 @@
 <body>
 <div class="wrap legal-page">
 
+  <div class="theme-toggle-row">
+    <div class="theme-toggle seg" role="group" aria-label="Thème du site">
+      <button type="button" data-theme-choice="auto" aria-pressed="true">Auto</button>
+      <button type="button" data-theme-choice="light" aria-pressed="false">Clair</button>
+      <button type="button" data-theme-choice="dark" aria-pressed="false">Sombre</button>
+    </div>
+  </div>
+
   <a class="legal-back" href="./">← Retour à l'accueil</a>
 
   <header class="hero">
@@ -34,11 +46,18 @@
     <h2>En résumé</h2>
     <p>Ce site ne demande aucun compte, aucun formulaire, aucun cookie, et n'installe aucun traceur ni
     outil d'analyse d'audience. La feuille de route que vous remplissez (ville de départ, dates,
-    budget...) reste dans votre navigateur : elle n'est jamais enregistrée sur le serveur.</p>
+    budget...) reste dans votre navigateur : elle n'est jamais enregistrée sur le serveur. Seule
+    exception, sans lien avec votre identité : votre choix de thème clair/sombre, si vous le
+    personnalisez (voir « Cookies et traceurs » ci-dessous).</p>
 
     <h2>Cookies et traceurs</h2>
     <p>Ce site ne dépose aucun cookie et n'utilise aucun service d'analytics, de publicité ou de réseau
     social. Aucun bandeau de consentement n'est donc nécessaire.</p>
+    <p>Une seule information technique est mémorisée localement dans votre navigateur (via
+    <code>localStorage</code>, pas un cookie) : votre choix de thème clair/sombre si vous en changez
+    manuellement. Cette préférence reste sur votre appareil, n'est jamais envoyée au serveur, ne permet
+    pas de vous identifier, et relève de la personnalisation d'interface — une catégorie explicitement
+    dispensée de consentement par la CNIL.</p>
 
     <h2>Génération de l'itinéraire</h2>
     <p>Le tirage au sort de l'itinéraire (communes, distances, péages) se fait entièrement dans votre
@@ -90,5 +109,6 @@
 
   <footer>Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit.</footer>
 </div>
+<script src="js/theme.js" defer></script>
 </body>
 </html>

@@ -289,6 +289,21 @@
   .toggle-label input:focus-visible + .toggle-track{outline:2.5px solid var(--focus); outline-offset:2px;}
   .toggle-text{font:700 .82rem/1.2 var(--font-body); color:var(--ink);}
 
+  /* ============ THÈME CLAIR/SOMBRE/AUTO ============ */
+  /* Réutilise le style ".seg" existant (voir plus bas) — même contrôle segmenté que pour "Type de
+     limite" dans le formulaire, pour une cohérence visuelle immédiate. En flux normal en haut de
+     ".wrap" (pas en position fixe) : évite tout risque de chevauchement avec l'en-tête, notamment
+     sur mobile où l'en-tête est centré et peut occuper toute la largeur. */
+  .theme-toggle-row{display:flex; justify-content:flex-end;}
+  /* .theme-toggle réutilise .seg (voir plus bas), dont la règle mobile empile les boutons en pleine
+     largeur — pertinent pour les 2 longues options "Type de limite" du formulaire, beaucoup moins
+     pour ce petit réglage annexe qui doit rester discret. Sélecteur composé (.theme-toggle.seg) pour
+     l'emporter sur la règle .seg générique quel que soit l'ordre dans le fichier. */
+  @media (max-width:480px){
+    .theme-toggle.seg{flex-direction:row; width:fit-content;}
+    .theme-toggle.seg button{width:auto; padding:.4rem .55rem; font-size:.62rem;}
+  }
+
   .radius-field{display:flex; flex-direction:column; gap:.4rem;}
   .seg{
     display:inline-flex;

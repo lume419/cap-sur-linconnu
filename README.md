@@ -20,6 +20,7 @@ cap-sur-linconnu/
 │   ├── og-image.png       # carte de partage (Open Graph/Twitter Card), 1200×630
 │   ├── css/style.css
 │   ├── js/app.js          # toute la génération d'itinéraire (client-side)
+│   ├── js/theme.js        # bascule clair/sombre/auto, partagée par les 3 pages
 │   └── data/
 │       ├── communes.txt        # ~35 000 communes (nom, population, coordonnées, codes postaux, département)
 │       ├── featured.txt        # ~300 communes avec de vrais points d'intérêt nommés (OSM)
@@ -155,6 +156,16 @@ page le document avec [pdfkit](https://pdfkit.org/) (pur JavaScript, sans binair
 Chromium — adapté à un hébergement mutualisé) et le renvoie en réponse, sans rien conserver côté
 serveur. Le PDF inclut de vrais liens cliquables vers les randonnées Visorando et les recherches
 Airbnb/Booking.
+
+## Thème clair / sombre
+
+Le contrôle "Auto / Clair / Sombre" en haut de chaque page (index, mentions légales, politique de
+confidentialité) permet de forcer un thème, en plus du choix automatique selon la préférence système
+du visiteur (`prefers-color-scheme`, déjà géré par `style.css`). Le choix est mémorisé dans le
+`localStorage` du navigateur (`js/theme.js`, partagé par les trois pages) — jamais envoyé au
+serveur. Un petit script identique et synchrone, exécuté dans le `<head>` de chaque page avant le
+chargement de la feuille de style, applique le choix mémorisé pour éviter un flash du mauvais thème
+au chargement.
 
 ## Sources des données
 

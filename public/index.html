@@ -2,6 +2,11 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
+<!-- Applique le thème clair/sombre mémorisé AVANT le chargement de la feuille de style, pour
+     éviter un flash du mauvais thème au chargement de la page (voir js/theme.js pour la bascule
+     elle-même). Rien de fait ici si aucun choix n'a été mémorisé : c'est alors la préférence système
+     du visiteur qui décide, via la media query CSS. -->
+<script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cap sur l'Inconnu — générateur de road trip mystère</title>
 <meta name="description" content="Générateur de road trip surprise basé sur de vraies communes françaises, de vrais points d'intérêt OpenStreetMap et les vrais tarifs de péage VINCI Autoroutes.">
@@ -30,6 +35,14 @@
 </head>
 <body>
 <div class="wrap">
+
+  <div class="theme-toggle-row">
+    <div class="theme-toggle seg" role="group" aria-label="Thème du site">
+      <button type="button" data-theme-choice="auto" aria-pressed="true">Auto</button>
+      <button type="button" data-theme-choice="light" aria-pressed="false">Clair</button>
+      <button type="button" data-theme-choice="dark" aria-pressed="false">Sombre</button>
+    </div>
+  </div>
 
   <header class="hero">
     <div class="eyebrow"><span class="dot"></span>Générateur de road trip mystère</div>
@@ -219,6 +232,7 @@
     <span class="footer-legal-links"><a href="mentions-legales">Mentions légales</a> · <a href="politique-confidentialite">Politique de confidentialité</a></span>
   </footer>
 </div>
+<script src="js/theme.js" defer></script>
 <script src="js/app.js" defer></script>
 </body>
 </html>

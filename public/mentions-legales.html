@@ -2,6 +2,10 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
+<!-- Applique le thème clair/sombre mémorisé AVANT le chargement de la feuille de style, pour
+     éviter un flash du mauvais thème au chargement de la page (voir js/theme.js pour la bascule
+     elle-même, identique sur les trois pages du site). -->
+<script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mentions légales — Cap sur l'Inconnu</title>
 <meta name="description" content="Mentions légales du site Cap sur l'Inconnu, générateur de road trip mystère.">
@@ -20,6 +24,14 @@
 </head>
 <body>
 <div class="wrap legal-page">
+
+  <div class="theme-toggle-row">
+    <div class="theme-toggle seg" role="group" aria-label="Thème du site">
+      <button type="button" data-theme-choice="auto" aria-pressed="true">Auto</button>
+      <button type="button" data-theme-choice="light" aria-pressed="false">Clair</button>
+      <button type="button" data-theme-choice="dark" aria-pressed="false">Sombre</button>
+    </div>
+  </div>
 
   <a class="legal-back" href="./">← Retour à l'accueil</a>
 
@@ -74,5 +86,6 @@
 
   <footer>Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit.</footer>
 </div>
+<script src="js/theme.js" defer></script>
 </body>
 </html>
