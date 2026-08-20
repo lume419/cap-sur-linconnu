@@ -18,6 +18,8 @@ cap-sur-linconnu/
 │   ├── mentions-legales.html
 │   ├── politique-confidentialite.html
 │   ├── og-image.png       # carte de partage (Open Graph/Twitter Card), 1200×630
+│   ├── robots.txt
+│   ├── sitemap.xml
 │   ├── css/style.css
 │   ├── js/app.js          # toute la génération d'itinéraire (client-side)
 │   ├── js/theme.js        # bascule clair/sombre/auto, partagée par les 3 pages
@@ -166,6 +168,16 @@ du visiteur (`prefers-color-scheme`, déjà géré par `style.css`). Le choix es
 serveur. Un petit script identique et synchrone, exécuté dans le `<head>` de chaque page avant le
 chargement de la feuille de style, applique le choix mémorisé pour éviter un flash du mauvais thème
 au chargement.
+
+## Référencement (SEO)
+
+- `robots.txt` autorise l'exploration du site, bloque `/api/` et `/data/` (routes techniques et
+  fichiers de données bruts, pas des pages), et pointe vers `sitemap.xml`.
+- `sitemap.xml` liste les trois pages du site.
+- Chaque page a son propre `<title>`, sa méta description, un lien `rel="canonical"`, ainsi que les
+  balises Open Graph / Twitter Card (voir carte de partage ci-dessus). La page d'accueil porte en
+  plus des données structurées [schema.org](https://schema.org) (`WebApplication`), les deux pages
+  légales un `WebPage` plus léger.
 
 ## Sources des données
 
