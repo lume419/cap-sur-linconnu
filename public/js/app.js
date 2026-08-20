@@ -298,9 +298,20 @@
     tollToggle: document.getElementById('toll-toggle')
   };
 
+  // Une commune réelle différente à chaque chargement de la page plutôt qu'un exemple toujours
+  // identique ("Ex. Lyon ou 69001") — dans l'esprit "mystère" du site. Filtrée sur une population
+  // minimale pour rester un exemple lisible (pas un hameau de 12 habitants au nom obscur), avec un
+  // repli sur l'ensemble des communes dans l'improbable cas où le filtre ne laisserait rien.
+  function randomPlaceholderCity(){
+    var pool = COMMUNES.filter(function(c){ return c.pop >= 2000; });
+    if(!pool.length) pool = COMMUNES;
+    var c = pool[Math.floor(Math.random() * pool.length)];
+    return 'Ex. ' + c.name + ' ou ' + c.cps[0];
+  }
+
   // Les données sont chargées : on peut activer la recherche de ville.
   els.city.disabled = false;
-  els.city.placeholder = 'Ex. Lyon ou 69001';
+  els.city.placeholder = randomPlaceholderCity();
 
   function tickClock(){
     var d = new Date();
