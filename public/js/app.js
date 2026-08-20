@@ -1736,7 +1736,10 @@
       renderDays(legs, city);
       renderMap(legs, city, cityCoord);
       renderPacking(budgetKey, transportKey);
-      currentTripLabel = city + ' - ' + days + (days > 1 ? ' jours' : ' jour');
+      // Le départ seul (city) se répète à chaque nouvel essai depuis la même ville — c'est la
+      // première destination tirée au sort (firstLeg.stop) qui change à chaque tirage et rend le
+      // nom de fichier réellement distinct d'un export à l'autre (voir pdfFilename).
+      currentTripLabel = city + ' → ' + firstLeg.stop + ' - ' + days + (days > 1 ? ' jours' : ' jour');
       currentTripData = { legs: legs, city: city, budgetKey: budgetKey, transportKey: transportKey };
 
       els.mapCard.classList.add('show');
@@ -1753,12 +1756,20 @@
   });
   els.againBtn.addEventListener('click', generate);
 
+  // AAAAMMJJ-HHhMMmSS, triable et sans caractère à échapper dans un nom de fichier — évite que deux
+  // exports du même trajet (même ville de départ, même destination tirée) ne finissent avec un nom
+  // identique que le navigateur devrait renuméroter lui-même ("(1)", "(2)"...).
+  function pdfTimestamp(){
+    var d = new Date();
+    function pad(n){ return String(n).padStart(2, '0'); }
+    return d.getFullYear() + pad(d.getMonth()+1) + pad(d.getDate()) + '-' + pad(d.getHours()) + 'h' + pad(d.getMinutes()) + 'm' + pad(d.getSeconds());
+  }
   // Nom de fichier local uniquement (pas d'URL à slugifier) : on garde surtout des caractères
   // "sûrs" pour un système de fichiers (accents inclus, la plupart des OS actuels les gèrent bien
   // dans un nom de fichier téléchargé — seuls les séparateurs et symboles réservés sont remplacés).
   function pdfFilename(label){
     var base = (label || 'itineraire').replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim();
-    return "Cap sur l'inconnu - " + base + '.pdf';
+    return "Cap sur l'inconnu - " + base + ' - ' + pdfTimestamp() + '.pdf';
   }
 
   // Export PDF : générée côté serveur (voir server.js, /api/export-pdf) et téléchargée directement
