@@ -15,6 +15,8 @@ cap-sur-linconnu/
 ├── server.js              # Express : sert public/ tel quel + une route GET /api/photo
 ├── public/
 │   ├── index.html
+│   ├── mentions-legales.html
+│   ├── politique-confidentialite.html
 │   ├── css/style.css
 │   ├── js/app.js          # toute la génération d'itinéraire (client-side)
 │   └── data/
