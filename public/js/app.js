@@ -344,6 +344,14 @@
     if(!d) return '';
     return d.toLocaleDateString('fr-FR', {day:'numeric', month:'short'});
   }
+  // Une seule ligne "Trouver un vrai logement" par séjour (voir buildItinerary), pas une par nuit :
+  // le libellé doit donc pouvoir couvrir une plage ("20 août → 22 août") plutôt qu'une seule date
+  // quand le séjour dure plus d'une nuit.
+  function formatStayRange(checkIn, checkOut){
+    var d1 = parseIsoDate(checkIn), d2 = parseIsoDate(checkOut);
+    var nights = (d1 && d2) ? Math.round((d2 - d1) / 86400000) : 1;
+    return nights > 1 ? (formatFrDate(checkIn) + ' → ' + formatFrDate(checkOut)) : formatFrDate(checkIn);
+  }
   (function initDates(){
     var today = new Date();
     today.setHours(0,0,0,0);
@@ -1115,6 +1123,14 @@
       var featured = FEATURED[commune.norm];
       var poisQueue = featured ? featured.pois.slice() : [];
       var genericQueue = shuffle(GENERIC_ACTIVITIES_NO_WALK);
+      // Un séjour de plusieurs nuits au même endroit ne doit donner lieu qu'à UNE seule réservation
+      // (les dates couvrent tout le séjour), pas une recherche Airbnb/Booking distincte — et donc
+      // un lien différent — pour chaque nuit individuelle. Calculées une fois avant la boucle sur
+      // les nuits, attachées uniquement à la première (voir plus bas) : c'est là, à l'arrivée, que
+      // la recherche de logement est utile — pas répétée chaque jour du même séjour.
+      var stayCheckIn = isoDate(addDays(tripStart, dayCounter));
+      var stayCheckOut = isoDate(addDays(tripStart, dayCounter + nightsHere));
+      var stayLodgingLinks = buildLodgingLinks(commune.name, stayCheckIn, stayCheckOut, budgetKey);
       for(var n=0; n<nightsHere; n++){
         dayCounter++;
         var distanceKm = n===0 ? Math.round(roadDistanceKm(prevLat, prevLon, commune.lat, commune.lon)) : Math.round(rand(3,14));
@@ -1122,6 +1138,7 @@
         var activities = buildActivityOptions(poisQueue, genericQueue);
         var checkIn = isoDate(addDays(tripStart, dayCounter-1));
         var checkOut = isoDate(addDays(tripStart, dayCounter));
+        var isFirstNightHere = (n === 0);
         legs.push(Object.assign({
           label: 'Jour '+dayCounter + (nightsHere>1 ? ' ('+(n+1)+'/'+nightsHere+' à '+commune.name+')' : ''),
           stop: commune.name,
@@ -1129,7 +1146,9 @@
           needsRealPOIs: !featured,
           lodging: lodgingCategoryLabel(budgetKey, avoidTent),
           checkIn: checkIn, checkOut: checkOut,
-          lodgingLinks: buildLodgingLinks(commune.name, checkIn, checkOut, budgetKey),
+          lodgingLinks: isFirstNightHere ? stayLodgingLinks : null,
+          lodgingCheckIn: isFirstNightHere ? stayCheckIn : null,
+          lodgingCheckOut: isFirstNightHere ? stayCheckOut : null,
           isReturn:false,
           lat: commune.lat, lon: commune.lon, norm: commune.norm, pop: commune.pop, dept: commune.dept, cp: commune.cps[0], allCps: commune.cps
         }, legInfo));
@@ -1413,7 +1432,7 @@
           var linksRow = document.createElement('div');
           linksRow.className = 'day-row';
           linksRow.innerHTML = icon('search') +
-            '<span><span class="lbl">Trouver un vrai logement · '+formatFrDate(leg.checkIn)+'</span>'+
+            '<span><span class="lbl">Trouver un vrai logement · '+formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut)+'</span>'+
             '<span class="lodging-links">'+
               '<a href="'+leg.lodgingLinks.airbnb+'" target="_blank" rel="noopener" class="lodging-link">Airbnb ↗</a>'+
               '<a href="'+leg.lodgingLinks.booking+'" target="_blank" rel="noopener" class="lodging-link">Booking.com ↗</a>'+
@@ -1658,7 +1677,7 @@
           travelTime: leg.travelTime,
           tollInfo: leg.tollInfo || null,
           chargeInfo: leg.chargeInfo || null,
-          checkInLabel: leg.checkIn ? formatFrDate(leg.checkIn) : null,
+          checkInLabel: leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null,
           lodgingLinks: leg.lodgingLinks || null,
           activities: (leg.activities || []).map(function(opt){
             return opt.hikeUrl ? {

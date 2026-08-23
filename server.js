@@ -734,9 +734,13 @@ function buildTripPdf(doc, trip){
       pdfBullet(doc, text, contentX, contentWidth2, { link: link, color: link ? PDF_ACCENT_3 : PDF_ACCENT_2 });
     });
     if(leg.lodgingLinks && leg.checkInLabel){
+      // checkInLabel peut être une seule date ("20 août") ou une plage ("20 août → 22 août") pour
+      // un séjour de plusieurs nuits au même endroit — une seule recherche pour tout le séjour,
+      // pas une par nuit (voir buildTripExportPayload côté client). "·" plutôt que "pour le" reste
+      // grammaticalement correct dans les deux cas.
       const links = leg.lodgingLinks;
-      if(isHttpUrl(links.airbnb)) pdfBullet(doc, 'Logement (Airbnb) pour le ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.airbnb });
-      if(isHttpUrl(links.booking)) pdfBullet(doc, 'Logement (Booking.com) pour le ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.booking });
+      if(isHttpUrl(links.airbnb)) pdfBullet(doc, 'Logement (Airbnb) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.airbnb });
+      if(isHttpUrl(links.booking)) pdfBullet(doc, 'Logement (Booking.com) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.booking });
     }
     if(isReturn){
       pdfBullet(doc, 'Fin de mission — retour à la maison, road trip mystère bouclé.', contentX, contentWidth2, { color: PDF_ACCENT });
