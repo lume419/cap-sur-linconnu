@@ -459,14 +459,17 @@ async function fetchVisorandoHikes(communeName){
   return hikes;
 }
 
-// Une seule rando par appel (choisie au hasard parmi celles trouvées) : c'est tout ce dont
-// buildActivityOptions a besoin pour la suggestion "balade". `null` = échec réseau, pas mis en
-// cache (on retentera) ; `{hikes:[]}` en cache = vraiment aucune rando trouvée pour cette commune.
-async function fetchVisorandoHike(communeName){
+// Renvoie plusieurs randos (pas une seule choisie au hasard) : quand une commune a plusieurs nuits
+// d'affilée, chaque jour a besoin d'une suggestion différente (voir buildActivityOptions côté
+// client, qui pioche dans cette liste sans jamais reproposer la même rando deux fois pour le même
+// séjour). `null` = échec réseau, pas mis en cache (on retentera) ; `{hikes:[]}` en cache = vraiment
+// aucune rando trouvée pour cette commune. Plafonné à 8 : largement plus que le nombre de nuits
+// possibles au même endroit dans un même voyage.
+async function fetchVisorandoHikeList(communeName){
   const cacheKey = communeName.toLowerCase();
   const cached = visorandoCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < VISORANDO_CACHE_TTL_MS){
-    return cached.hikes.length ? cached.hikes[Math.floor(Math.random() * cached.hikes.length)] : null;
+    return cached.hikes.slice(0, 8);
   }
   let hikes;
   try {
@@ -476,17 +479,17 @@ async function fetchVisorandoHike(communeName){
     return null;
   }
   visorandoCache.set(cacheKey, { hikes, ts: Date.now() });
-  return hikes.length ? hikes[Math.floor(Math.random() * hikes.length)] : null;
+  return hikes.slice(0, 8);
 }
 
 app.get('/api/hike', async (req, res) => {
   const name = String(req.query.name || '').trim();
   if(!name || name.length > 120){
-    return res.status(400).json({ error: 'invalid name', hike: null });
+    return res.status(400).json({ error: 'invalid name', hikes: [] });
   }
-  let hike = null;
-  try { hike = await fetchVisorandoHike(name); } catch(err){ /* silencieux : voir fetchVisorandoHike */ }
-  res.json({ hike });
+  let hikes = [];
+  try { hikes = (await fetchVisorandoHikeList(name)) || []; } catch(err){ /* silencieux : voir fetchVisorandoHikeList */ }
+  res.json({ hikes });
 });
 
 app.get('/api/pois', async (req, res) => {

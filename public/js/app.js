@@ -947,19 +947,58 @@
     }
     return clientPoiCache[key];
   }
-  // Une vraie randonnée balisée (Visorando, via notre serveur) pour la suggestion "balade" quand
-  // aucun POI de plein air (point de vue, cascade...) n'a été trouvé pour la compléter — un vrai
-  // itinéraire préparé, avec sa propre trace, vaut mieux qu'une phrase générique. Mémoïsé par nom de
-  // commune : plusieurs jours au même endroit, ou plusieurs visiteurs, ne redemandent qu'une fois.
+  // Une commune avec plusieurs nuits d'affilée a besoin d'activités DIFFÉRENTES chaque jour — sans
+  // coordination, chaque jour ferait sa propre copie mélangée de la même liste de POI (fetchRealPOIs
+  // est mémoïsé, donc c'est la MÊME liste à chaque fois) et pourrait retomber sur le même lieu deux
+  // fois. On construit ici une seule file partagée par commune (mélangée une fois, à la première
+  // résolution), que buildActivityOptions consomme ensuite par .splice() à chaque appel — exactement
+  // le même principe que le partage de poisQueue/genericQueue entre nuits consécutives dans
+  // buildItinerary (voir plus bas), appliqué cette fois à la mise à jour asynchrone après coup.
+  var poiQueueByLocation = {};
+  var genericQueueByLocation = {};
+  function realPoiQueueFor(lat, lon, name, dept){
+    var key = lat.toFixed(3) + ',' + lon.toFixed(3);
+    return fetchRealPOIs(lat, lon, name, dept).then(function(pois){
+      if(!poiQueueByLocation[key]) poiQueueByLocation[key] = shuffle(pois || []);
+      if(!genericQueueByLocation[key]) genericQueueByLocation[key] = shuffle(GENERIC_ACTIVITIES_NO_WALK);
+      return {
+        poisQueue: poiQueueByLocation[key],
+        genericQueue: genericQueueByLocation[key],
+        hasPois: !!(pois && pois.length)
+      };
+    });
+  }
+  // Plusieurs vraies randonnées balisées (Visorando, via notre serveur) pour la suggestion
+  // "balade" quand aucun POI de plein air (point de vue, cascade...) n'a été trouvé pour la
+  // compléter — un vrai itinéraire préparé, avec sa propre trace, vaut mieux qu'une phrase
+  // générique. La LISTE est mémoïsée par nom de commune (un seul appel réseau même pour plusieurs
+  // nuits au même endroit) ; voir pickHikeForCommune juste après pour la distribution d'une rando
+  // DIFFÉRENTE par jour à partir de cette liste partagée.
   var clientHikeCache = {};
-  function fetchVisorandoHike(communeName){
+  function fetchVisorandoHikeList(communeName){
     if(!clientHikeCache[communeName]){
       clientHikeCache[communeName] = fetch('/api/hike?name=' + encodeURIComponent(communeName))
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
-        .then(function(data){ return (data && data.hike) || null; })
-        .catch(function(){ return null; });
+        .then(function(data){ return (data && data.hikes) || []; })
+        .catch(function(){ return []; });
     }
     return clientHikeCache[communeName];
+  }
+  // Pioche une rando pas encore proposée pour cette commune — sans ça, deux nuits d'affilée au même
+  // endroit pouvaient se voir suggérer exactement la même randonnée (le fetch est mémoïsé, donc
+  // sans coordination, chaque appel choisirait au hasard dans la même liste). La file partagée est
+  // construite une seule fois (au premier appel, une fois la liste connue) puis vidée par .shift() ;
+  // comme fetchVisorandoHikeList est déjà mémoïsé, les .then() successifs pour la même commune
+  // s'exécutent dans l'ordre d'attachement (une seule file, jamais recréée entre-temps) — chaque
+  // jour reçoit donc bien un élément différent, tant qu'il en reste. File épuisée -> null (la
+  // suggestion générique de repli reste affichée plutôt que de répéter une rando déjà proposée).
+  var hikeQueueByCommune = {};
+  function pickHikeForCommune(communeName){
+    return fetchVisorandoHikeList(communeName).then(function(hikes){
+      if(!hikeQueueByCommune[communeName]) hikeQueueByCommune[communeName] = shuffle(hikes);
+      var queue = hikeQueueByCommune[communeName];
+      return queue.length ? queue.shift() : null;
+    });
   }
   // Lance à l'avance les mêmes requêtes que renderDays fera plus tard (photo de chaque étape,
   // vrais POI Overpass pour les communes qui en ont besoin, puis photo de chacun des POI trouvés) —
@@ -975,7 +1014,11 @@
       if(leg.activities){
         leg.activities.forEach(function(opt){
           if(opt.isReal && opt.searchName) fetchPlacePhoto(opt.searchName, leg.dept);
-          if(opt.needsHike) fetchVisorandoHike(leg.stop);
+          // Réchauffe seulement la LISTE (mémoïsée, sans effet de bord) — piocher une rando
+          // précise pour ce jour se décide au rendu (voir pickHikeForCommune), pas ici : appeler
+          // pickHikeForCommune dès le préchargement consommerait la file avant même que renderDays
+          // sache quels jours en ont réellement besoin.
+          if(opt.needsHike) fetchVisorandoHikeList(leg.stop);
         });
       }
       if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
@@ -1191,7 +1234,7 @@
     });
     visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
   }
-  function renderActivityCards(actList, activities, dept, communeName){
+  function renderActivityCards(actList, activities, dept, communeName, leg){
     actList.innerHTML = '';
     activities.forEach(function(opt){
       var card = document.createElement('div');
@@ -1225,8 +1268,15 @@
         // Visorando. On ne récupère QUE le nom et le lien — jamais leur trace GPS, leur texte de
         // description ni leurs photos (voir server.js) — et la carte entière renvoie directement
         // vers leur page, avec la source explicitement créditée. Si rien n'est trouvé, la carte
-        // générique reste affichée telle quelle.
-        fetchVisorandoHike(communeName).then(function(cardEl, opt){
+        // générique reste affichée telle quelle. pickHikeForCommune (pas un fetch direct) : évite
+        // de reproposer la même rando pour deux jours au même endroit — mémoïsée sur `leg` lui-même
+        // (pas juste par commune) car une même journée est rendue deux fois (le rendu générique
+        // initial, puis la mise à jour une fois les vrais POI arrivés) : sans ce cache par jour, les
+        // DEUX rendus de la MÊME journée consommeraient chacun un élément de la file partagée, la
+        // vidant avant même d'atteindre le jour suivant.
+        var hikePromise = (leg && leg.__hikePromise) || pickHikeForCommune(communeName);
+        if(leg) leg.__hikePromise = hikePromise;
+        hikePromise.then(function(cardEl, opt){
           return function(hike){
             if(!hike) return;
             // On mémorise la trouvaille directement sur `opt` (donc sur leg.activities, puisque
@@ -1259,23 +1309,56 @@
     });
   }
 
+  // Regroupe les nuits consécutives passées dans la même ville en une seule "case" (un seul
+  // day-card à l'affichage) — par construction de buildItinerary, les nuits d'un même séjour sont
+  // déjà contiguës dans `legs`, donc regrouper des voisins qui partagent le même `stop` (et ne sont
+  // jamais un retour) suffit, pas besoin de comparer autre chose. startDay/endDay (1-based, jour
+  // global du voyage) servent au badge et au titre combiné (voir formatDayRangeLabel).
+  function groupLegsByStay(legs){
+    var groups = [];
+    legs.forEach(function(leg, idx){
+      var prev = groups[groups.length - 1];
+      if(!leg.isReturn && prev && !prev.legs[0].isReturn && prev.legs[0].stop === leg.stop){
+        prev.legs.push(leg);
+        prev.endDay = idx + 1;
+      } else {
+        groups.push({ legs: [leg], startDay: idx + 1, endDay: idx + 1 });
+      }
+    });
+    return groups;
+  }
+  function formatDayRangeLabel(startDay, endDay){
+    return (endDay - startDay === 1)
+      ? ('Jours ' + startDay + ' et ' + endDay)
+      : ('Jours ' + startDay + ' à ' + endDay);
+  }
+
   /* ---------- RENDER: DAYS ---------- */
   function renderDays(legs, city){
     els.days.innerHTML = '';
     var totalKm = 0;
-    legs.forEach(function(leg, idx){
-      totalKm += leg.distanceKm || 0;
+    legs.forEach(function(leg){ totalKm += leg.distanceKm || 0; });
+
+    // Un séjour de plusieurs nuits au même endroit devient une seule "case" (un seul day-card) —
+    // voir groupLegsByStay. Le badge/titre résument la plage de jours ; le trajet/péage/photo ne
+    // sont montrés qu'une fois (ceux du jour d'arrivée) ; en revanche chaque jour du séjour garde
+    // SA PROPRE section "Activités possibles" (voir la boucle dédiée plus bas), pour ne jamais
+    // reproposer le même lieu deux fois au même endroit (voir realPoiQueueFor/pickHikeForCommune).
+    var groups = groupLegsByStay(legs);
+    groups.forEach(function(group, gIdx){
+      var firstLeg = group.legs[0];
+      var isMultiDay = group.legs.length > 1;
       var card = document.createElement('div');
       card.className = 'day-card';
-      card.style.animationDelay = (idx*0.09)+'s';
+      card.style.animationDelay = (gIdx*0.09)+'s';
 
       var badge = document.createElement('div');
       badge.className = 'day-badge';
       var num = document.createElement('div');
-      num.className = 'num' + (leg.isReturn? ' final':'');
-      num.textContent = leg.isReturn ? '⟲' : String(idx+1);
+      num.className = 'num' + (firstLeg.isReturn? ' final':'');
+      num.textContent = firstLeg.isReturn ? '⟲' : (isMultiDay ? (group.startDay+'-'+group.endDay) : String(group.startDay));
       badge.appendChild(num);
-      if(idx < legs.length-1){
+      if(gIdx < groups.length-1){
         var line = document.createElement('div');
         line.className = 'line';
         badge.appendChild(line);
@@ -1288,10 +1371,10 @@
       var top = document.createElement('div');
       top.className = 'day-top';
       var h3 = document.createElement('h3');
-      h3.textContent = leg.label;
+      h3.textContent = isMultiDay ? formatDayRangeLabel(group.startDay, group.endDay) : firstLeg.label;
       var rt = document.createElement('div');
       rt.className = 'route-time';
-      rt.innerHTML = '~ '+leg.travelTime+' de route · '+leg.distanceKm+' km';
+      rt.innerHTML = '~ '+firstLeg.travelTime+' de route · '+firstLeg.distanceKm+' km';
       top.appendChild(h3); top.appendChild(rt);
       body.appendChild(top);
 
@@ -1299,26 +1382,26 @@
       stopEl.className = 'day-stop';
       // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France) —
       // sans lui, impossible de savoir laquelle a été tirée au sort rien qu'au nom.
-      var stopLabel = leg.stop + (leg.cp ? ' (' + formatCpBadge(leg) + ')' : '');
-      stopEl.textContent = leg.isReturn ? ('Retour vers ' + stopLabel) : ('Étape mystère : ' + stopLabel);
+      var stopLabel = firstLeg.stop + (firstLeg.cp ? ' (' + formatCpBadge(firstLeg) + ')' : '');
+      stopEl.textContent = firstLeg.isReturn ? ('Retour vers ' + stopLabel) : ('Étape mystère : ' + stopLabel);
       body.appendChild(stopEl);
 
-      if(leg.stop){
-        var photos = buildPhotoLinks(leg.stop);
+      if(firstLeg.stop){
+        var photos = buildPhotoLinks(firstLeg.stop);
         var tile = document.createElement('div');
         tile.className = 'photo-tile';
         tile.innerHTML =
           '<a class="photo-tile-main" href="'+photos.images+'" target="_blank" rel="noopener">'+
             '<span class="photo-tile-icon">'+icon('camera')+'</span>'+
             '<span class="photo-tile-text">'+
-              '<span class="photo-tile-title">Voir '+leg.stop+' en photo</span>'+
+              '<span class="photo-tile-title">Voir '+firstLeg.stop+' en photo</span>'+
               '<span class="photo-tile-sub">Recherche d’une vraie photo…</span>'+
             '</span>'+
           '</a>'+
           '<a class="photo-tile-wiki" href="'+photos.wiki+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
         body.appendChild(tile);
 
-        fetchPlacePhoto(leg.stop, leg.dept).then(function(stopName, tileEl, photoLinks){
+        fetchPlacePhoto(firstLeg.stop, firstLeg.dept).then(function(stopName, tileEl, photoLinks){
           return function(data){
             if(data && data.image){
               var articleUrl = data.wikiUrl || photoLinks.wiki;
@@ -1363,11 +1446,11 @@
               if(sub) sub.textContent = 'Aucune photo trouvée sur Wikipédia pour ce lieu';
             }
           };
-        }(leg.stop, tile, photos));
+        }(firstLeg.stop, tile, photos));
       }
 
-      if(leg.tollInfo){
-        var t = leg.tollInfo;
+      if(firstLeg.tollInfo){
+        var t = firstLeg.tollInfo;
         var barrierTxt = t.fluxLibre ? 'péage à flux libre, sans barrière (facturation automatique par caméra)' : 'péage classique avec barrière';
         var amountTxt = formatEuro(t.amount);
         var tollRow = document.createElement('div');
@@ -1378,14 +1461,21 @@
         tollRow.innerHTML = icon('toll') + '<span><span class="lbl">Péage (barème ASF 2026)</span>'+tollTxt+'</span>';
         body.appendChild(tollRow);
       }
-      if(leg.chargeInfo){
-        var c = leg.chargeInfo;
+      if(firstLeg.chargeInfo){
+        var c = firstLeg.chargeInfo;
         var chargeRow = document.createElement('div');
         chargeRow.className = 'day-row';
         chargeRow.innerHTML = icon('plug') + '<span><span class="lbl">Recharge électrique</span>'+c.stops+' pause'+(c.stops>1?'s':'')+' recharge estimée'+(c.stops>1?'s':'')+' (~'+c.minutes+' min au total) sur borne rapide.</span>';
         body.appendChild(chargeRow);
       }
-      if(leg.activities && leg.activities.length){
+
+      // Une section "Activités possibles" PAR JOUR du séjour (pas une seule pour tout le groupe) :
+      // chaque jour garde ses propres suggestions, distinctes des autres jours au même endroit
+      // (voir realPoiQueueFor/pickHikeForCommune). Le numéro de jour affiché ("Jour 1", "Jour 2"...)
+      // est la position DANS ce séjour, pas le numéro global du voyage — inutile de le répéter
+      // quand il n'y a qu'un seul jour ("— au choix" comme avant, sans numérotation superflue).
+      group.legs.forEach(function(leg, dayIdxInGroup){
+        if(!(leg.activities && leg.activities.length)) return;
         var actLabelRow = document.createElement('div');
         actLabelRow.className = 'day-row';
         // Cette commune n'a pas de POI répertorié dans FEATURED (la grande majorité des communes) :
@@ -1396,51 +1486,54 @@
         var loadingNoteHtml = leg.needsRealPOIs
           ? ' <span class="activities-loading-note">— recherche de vraies activités locales…</span>'
           : '';
-        actLabelRow.innerHTML = icon('spark') + '<span class="lbl">Activités possibles — au choix'+loadingNoteHtml+'</span>';
+        var actLabelText = isMultiDay ? ('Activités possibles — Jour ' + (dayIdxInGroup + 1)) : 'Activités possibles — au choix';
+        actLabelRow.innerHTML = icon('spark') + '<span class="lbl">'+actLabelText+loadingNoteHtml+'</span>';
         body.appendChild(actLabelRow);
 
         var actList = document.createElement('div');
         actList.className = 'activity-options';
-        renderActivityCards(actList, leg.activities, leg.dept, leg.stop);
+        renderActivityCards(actList, leg.activities, leg.dept, leg.stop, leg);
         body.appendChild(actList);
 
         // Si Overpass ne répond rien (indisponible, aucun résultat...), les activités génériques
         // restent affichées telles quelles — aucune erreur visible, juste pas de mise à jour (et la
         // mention de recherche ci-dessus disparaît dans tous les cas, succès ou non).
         if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
-          fetchRealPOIs(leg.lat, leg.lon, leg.stop, leg.dept).then(function(actListEl, dept, stopName, labelRow){
-            return function(pois){
+          // realPoiQueueFor (pas fetchRealPOIs directement) : partage une seule file de POI/repli
+          // par commune entre tous les jours d'un même séjour, pour ne jamais reproposer le même
+          // lieu deux fois (voir sa définition plus haut).
+          realPoiQueueFor(leg.lat, leg.lon, leg.stop, leg.dept).then(function(actListEl, dept, stopName, labelRow, dayLeg){
+            return function(shared){
               var note = labelRow.querySelector('.activities-loading-note');
               if(note) note.remove();
-              if(!pois || !pois.length) return;
-              var poisQueue = shuffle(pois);
-              var genericQueue = shuffle(GENERIC_ACTIVITIES_NO_WALK);
-              var freshActivities = buildActivityOptions(poisQueue, genericQueue);
+              if(!shared.hasPois) return;
+              var freshActivities = buildActivityOptions(shared.poisQueue, shared.genericQueue);
               // On remplace aussi leg.activities (pas seulement l'affichage) pour que l'export PDF
               // (voir buildTripExportPayload) reflète les vraies activités trouvées.
-              leg.activities = freshActivities;
-              renderActivityCards(actListEl, freshActivities, dept, stopName);
+              dayLeg.activities = freshActivities;
+              renderActivityCards(actListEl, freshActivities, dept, stopName, dayLeg);
             };
-          }(actList, leg.dept, leg.stop, actLabelRow));
+          }(actList, leg.dept, leg.stop, actLabelRow, leg));
         }
-      }
-      if(leg.lodging){
+      });
+
+      if(firstLeg.lodging){
         // Pas de ligne "Type de logement" séparée : la catégorie choisie est déjà reflétée dans
         // les recherches Airbnb/Booking ci-dessous (budget, dates), qui l'affichent en pratique
         // plutôt qu'en théorie — une ligne à part ne faisait que répéter la même information.
-        if(leg.lodgingLinks){
+        if(firstLeg.lodgingLinks){
           var linksRow = document.createElement('div');
           linksRow.className = 'day-row';
           linksRow.innerHTML = icon('search') +
-            '<span><span class="lbl">Trouver un vrai logement · '+formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut)+'</span>'+
+            '<span><span class="lbl">Trouver un vrai logement · '+formatStayRange(firstLeg.lodgingCheckIn, firstLeg.lodgingCheckOut)+'</span>'+
             '<span class="lodging-links">'+
-              '<a href="'+leg.lodgingLinks.airbnb+'" target="_blank" rel="noopener" class="lodging-link">Airbnb ↗</a>'+
-              '<a href="'+leg.lodgingLinks.booking+'" target="_blank" rel="noopener" class="lodging-link">Booking.com ↗</a>'+
+              '<a href="'+firstLeg.lodgingLinks.airbnb+'" target="_blank" rel="noopener" class="lodging-link">Airbnb ↗</a>'+
+              '<a href="'+firstLeg.lodgingLinks.booking+'" target="_blank" rel="noopener" class="lodging-link">Booking.com ↗</a>'+
             '</span></span>';
           body.appendChild(linksRow);
         }
       }
-      if(leg.isReturn){
+      if(firstLeg.isReturn){
         var homeRow = document.createElement('div');
         homeRow.className = 'day-row';
         homeRow.innerHTML = icon('clock') + '<span><span class="lbl">Fin de mission</span>Retour à la maison, road trip mystère bouclé.</span>';
