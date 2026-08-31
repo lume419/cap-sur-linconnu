@@ -68,6 +68,7 @@
     clock:'<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
     plug:'<path d="M9 7V3M15 7V3M7 7h10v3a5 5 0 0 1-5 5 5 5 0 0 1-5-5V7Z"/><path d="M12 15v3M9 21h6"/>',
     toll:'<path d="M4 21V6a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v15M20 21V6a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v15"/><path d="M7 12l10-5M4 21h16"/>',
+    ferry:'<path d="M4 18.5c1.4 1 2.9 1 4.3 0s2.9-1 4.3 0 2.9 1 4.3 0 2.9-1 4.3 0"/><path d="M5.2 18 6.5 11h9L19 18"/><path d="M12 11V4M12 4.5h3.5L13 7.5"/>',
     search:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
     check:'<path d="M5 12.5l4.5 4.5L19 7.5"/>',
     camera:'<path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13.5" r="3.3"/>',
@@ -154,13 +155,16 @@
   // label/extra ne sont plus stockés ici en dur : ils dépendent de la langue choisie (voir
   // transportLabel()/transportPackExtra() plus haut, résolues à la volée via I18N à chaque usage) —
   // seules les données non textuelles (vitesse, classe de péage, motorisation) restent ici.
+  // ferryClass (voir FERRY_ROUTES plus bas) : contrairement à tollClass, jamais null — un vélo ne
+  // peut pas prendre l'autoroute mais peut tout à fait monter à bord d'un ferry, comme piéton avec
+  // sa monture (tarif "foot", nettement moins cher qu'une place véhicule).
   var TRANSPORT = {
-    'voiture-thermique': {speed:82, tollClass:1},
-    'voiture-hybride': {speed:81, tollClass:1},
-    'voiture-electrique': {speed:78, electric:true, tollClass:1},
-    'van': {speed:70, tollClass:2},
-    'moto': {speed:85, tollClass:5},
-    'velo': {speed:17, tollClass:null}
+    'voiture-thermique': {speed:82, tollClass:1, ferryClass:1},
+    'voiture-hybride': {speed:81, tollClass:1, ferryClass:1},
+    'voiture-electrique': {speed:78, electric:true, tollClass:1, ferryClass:1},
+    'van': {speed:70, tollClass:2, ferryClass:2},
+    'moto': {speed:85, tollClass:5, ferryClass:5},
+    'velo': {speed:17, tollClass:null, ferryClass:'foot'}
   };
   // Recharge électrique : autonomie route réaliste retenue avant de viser une pause.
   var EV_RANGE_KM = 320;
@@ -205,6 +209,81 @@
     PT: { 1: 0.036, 2: 0.056, 5: 0.021 }
   };
   var TOLL_MIN_DISTANCE_KM = 60; // en-deçà, le péage n'entre pas en ligne de compte
+
+  // ---- Ferries : traversées maritimes réelles (Corse, Baléares, Canaries) ----
+  // Contrairement au réseau routier, une île n'est jamais reliée au continent par la route : le
+  // moteur de distance (roadDistanceKm, vol d'oiseau × 1,17) n'avait, avant ceci, aucune idée de la
+  // mer — un trajet pouvait "traverser" la Méditerranée ou l'Atlantique comme une route normale,
+  // silencieusement faux. Modélisé ici comme un mode à part, avec une durée et un tarif FIXES par
+  // ligne (pas un calcul au km/heure comme la route, voir finalizeFerryLeg) : un ferry ne va pas
+  // plus vite avec un moteur plus puissant, contrairement à une voiture.
+  //
+  // Volontairement PAS d'avion, même pour les îles les plus lointaines (Canaries) : hors sujet pour
+  // un site de road trip, dont le principe est de garder SON véhicule tout du long — un ferry le
+  // permet, un vol l'abandonne au point de départ. Concrètement, ça exclut les Açores et Madère :
+  // aucune liaison maritime régulière n'existe aujourd'hui (2026) entre le Portugal continental et
+  // ces archipels — seulement des projets/annonces politiques (budget 2025/2026), rien
+  // d'opérationnel (sources : jm-madeira.pt, publico.pt). Ces communes restent donc accessibles
+  // comme point de départ (recherche manuelle) mais jamais comme étape reliée au reste d'un
+  // itinéraire — cohérent avec le principe "jamais de trajet fabriqué" déjà appliqué au reste du
+  // site (voir ferryRouteFor : l'absence d'entrée pour ce couple de masses continentales suffit à
+  // les exclure, sans code spécifique).
+  //
+  // Tarifs "classe 1" = voiture, place pont/couchette économique, BASSE saison — comme pour les
+  // péages, un ordre de grandeur indicatif construit à partir de vraies grilles tarifaires, pas un
+  // tarif garanti. Classes 2/5/foot extrapolées faute de grille détaillée par catégorie (même
+  // limite déjà assumée pour les péages espagnol/portugais).
+  // - Corse : Corsica Linea (Marseille, ~11-13h) / Corsica Ferries (Nice ~4h30, Toulon ~7-10h) —
+  //   ~50-180 €/voiture, ~30-50 €/passager basse saison (corsicalinea.com, hissez-o.fr,
+  //   visit-corsica.com). Retenu : ~8h30 (moyenne), 90 €/voiture.
+  // - Baléares : Baleària/Trasmediterranea, Barcelone/Valence -> Palma — ~7h30, ~120-150 €/voiture,
+  //   ~180 € pour un van/camping-car (balearia.com, barcelonamallorca.com). Retenu : 135 €/voiture.
+  // - Canaries : Naviera Armas/Baleària Canarias, Cadix -> Las Palmas/Ténérife — traversée BIEN plus
+  //   longue (37 à 46h, quasi deux jours en mer, à ne pas confondre avec les autres lignes), à
+  //   partir de ~124 € (armastrasmediterranea.com). Retenu : ~41h (moyenne), 280 €/voiture.
+  var FERRY_ROUTES = {
+    'continental|corsica': { routeKey:'ferry.route.corsica', durationH:8.5, distanceKm:250, priceByClass:{1:90, 2:140, 5:40, foot:40} },
+    'balearic|continental': { routeKey:'ferry.route.balearic', durationH:7.5, distanceKm:230, priceByClass:{1:135, 2:200, 5:55, foot:50} },
+    'canary|continental': { routeKey:'ferry.route.canary', durationH:41, distanceKm:1700, priceByClass:{1:280, 2:420, 5:130, foot:150} }
+  };
+  function landmassKey(a, b){ return [a, b].sort().join('|'); }
+  function ferryRouteFor(a, b){ return (a === b) ? null : (FERRY_ROUTES[landmassKey(a, b)] || null); }
+  // Détecte la masse continentale d'une commune : son pays pour la France (le champ dept y est un
+  // vrai code de département, 2A/2B identifient la Corse sans ambiguïté) ; ses coordonnées pour
+  // l'Espagne/le Portugal (dept y est déjà un nom de région en clair, pas exploitable ici — voir
+  // parseCommunesFile). Bornes larges mais qui ne mordent jamais sur le continent correspondant :
+  // vérifié que la France métropolitaine ne dépasse pas ~7,7°E (hors de la plage Corse) et que la
+  // façade est de l'Espagne autour de Barcelone est à plus de 41°N (hors de la plage Baléares).
+  function landmassOf(c){
+    if(c.country === 'FR') return (c.dept === '2A' || c.dept === '2B') ? 'corsica' : 'continental';
+    if(c.country === 'ES'){
+      if(c.lon >= -18.5 && c.lon <= -13.0 && c.lat >= 27.5 && c.lat <= 29.6) return 'canary';
+      if(c.lon >= 1.0 && c.lon <= 4.6 && c.lat >= 38.5 && c.lat <= 40.3) return 'balearic';
+      return 'continental';
+    }
+    if(c.country === 'PT'){
+      // Aucune ligne dans FERRY_ROUTES pour ces deux valeurs : voir le commentaire au-dessus de
+      // FERRY_ROUTES — pas une omission, l'absence de vraie liaison maritime régulière.
+      if(c.lon <= -20) return 'azores';
+      if(c.lon <= -14) return 'madeira';
+      return 'continental';
+    }
+    return 'continental'; // Andorre, Belgique — déjà reliées au continent par la route
+  }
+  // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans
+  // rapport avec la vitesse du véhicule choisi — contrairement à finalizeLeg. Ni péage ni recharge
+  // électrique en mer (une voiture électrique peut recharger sur certaines lignes, mais aucune
+  // donnée fiable là-dessus : pas modélisé, plutôt que d'inventer un chiffre).
+  function finalizeFerryLeg(transportKey, route){
+    var ferryClass = TRANSPORT[transportKey].ferryClass;
+    return {
+      travelTime: fmtHours(route.durationH),
+      distanceKm: route.distanceKm,
+      tollInfo: null,
+      chargeInfo: null,
+      ferryInfo: { routeKey: route.routeKey, amount: route.priceByClass[ferryClass], durationH: route.durationH }
+    };
+  }
   // label n'est plus stocké ici (voir budgetLabel() plus haut) — seul l'ordre reste une donnée
   // stable, indépendante de la langue.
   var BUDGET = {
@@ -414,7 +493,8 @@
     againRow: document.getElementById('again-row'),
     againBtn: document.getElementById('again-btn'),
     launchBtn: document.getElementById('launch-btn'),
-    tollToggle: document.getElementById('toll-toggle')
+    tollToggle: document.getElementById('toll-toggle'),
+    ferryToggle: document.getElementById('ferry-toggle')
   };
 
   // Une commune réelle différente à chaque chargement de la page plutôt qu'un exemple toujours
@@ -824,14 +904,24 @@
   // `minDistanceKm` (optionnelle) impose que la première étape soit à au moins cette distance.
   // `maxDistanceKm` (optionnelle) plafonne la distance au point de départ pour TOUTE étape, à
   // n'importe quel moment du séjour — un vrai plafond, contrairement à la limite de rayon.
-  function buildRealRoute(startLat, startLon, maxRadiusKm, numStops, avoidNorm, minDistanceKm, maxDistanceKm){
+  function buildRealRoute(startLat, startLon, startLandmass, maxRadiusKm, numStops, avoidNorm, minDistanceKm, maxDistanceKm, ferryEnabled){
     var route = [];
     var used = {};
     if(avoidNorm) used[avoidNorm] = true;
     var curLat = startLat, curLon = startLon;
+    var curLandmass = startLandmass;
     var minDist = minDistanceKm || 0;
     var maxDist = maxDistanceKm || 0; // 0 = pas de plafond
     var hopCeiling = maxDist > 0 ? maxDist : 600;
+    // Même masse continentale que la position courante -> toujours autorisé (route normale, comme
+    // avant). Masse différente -> seulement si les ferries sont activés ET qu'une vraie ligne
+    // relie les deux (voir ferryRouteFor) ; sinon la commune est écartée du bassin de candidats,
+    // quelle que soit sa distance à vol d'oiseau (qui ne veut rien dire pour une île sans liaison —
+    // voir landmassOf/FERRY_ROUTES plus haut).
+    function reachable(x){
+      var toLandmass = landmassOf(x.commune);
+      return toLandmass === curLandmass || (ferryEnabled && !!ferryRouteFor(curLandmass, toLandmass));
+    }
     for(var i=0; i<numStops; i++){
       var isFirst = i===0;
       var isLast = !isFirst && i===numStops-1;
@@ -860,20 +950,24 @@
         var lastCap = maxDist > 0 ? Math.min(maxRadiusKm, maxDist) : maxRadiusKm;
         candidates = findNearbyCommunes(curLat, curLon, 0, Math.max(maxHop, lastCap), minPop)
           .filter(function(x){ return !used[x.commune.norm]; })
+          .filter(reachable)
           .filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= lastCap; });
         if(candidates.length===0){
           candidates = findNearbyCommunes(startLat, startLon, 0, lastCap, 0)
-            .filter(function(x){ return !used[x.commune.norm]; });
+            .filter(function(x){ return !used[x.commune.norm]; })
+            .filter(reachable);
         }
       } else {
         candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop, minPop)
-          .filter(function(x){ return !used[x.commune.norm]; });
+          .filter(function(x){ return !used[x.commune.norm]; })
+          .filter(reachable);
         if(maxDist > 0){
           candidates = candidates.filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxDist; });
         }
         if(candidates.length===0){
           candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop*2, 0)
-            .filter(function(x){ return !used[x.commune.norm]; });
+            .filter(function(x){ return !used[x.commune.norm]; })
+            .filter(reachable);
           if(maxDist > 0){
             candidates = candidates.filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxDist; });
           }
@@ -893,6 +987,7 @@
       used[chosen.commune.norm] = true;
       route.push(chosen.commune);
       curLat = chosen.commune.lat; curLon = chosen.commune.lon;
+      curLandmass = landmassOf(chosen.commune);
     }
     return route;
   }
@@ -1238,12 +1333,27 @@
     }
     return options;
   }
-  function buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, avoidNorm, minDistanceKm, maxDistanceKm){
+  function buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, avoidNorm, minDistanceKm, maxDistanceKm, ferryEnabled){
     var speed = TRANSPORT[transportKey].speed;
     var cLat = cityCoord.lat, cLon = cityCoord.lon;
+    var startLandmass = landmassOf(cityCoord);
     var legs = [];
     var minDist = minDistanceKm || 0;
     var maxDist = maxDistanceKm || 0;
+
+    // Choisit finalizeLeg (route) ou finalizeFerryLeg (traversée) selon que les deux extrémités du
+    // saut sont sur la même masse continentale — voir landmassOf/ferryRouteFor plus haut. Un
+    // changement de masse ne peut se produire que si les ferries étaient activés au moment du
+    // tirage (seule condition sous laquelle buildRealRoute/les candidats ci-dessous les proposent) :
+    // pas besoin de revérifier ferryEnabled ici, juste de reconnaître la traversée déjà décidée.
+    function finalizeHop(fromPoint, toPoint, distanceKm, country){
+      var fromLandmass = landmassOf(fromPoint), toLandmass = landmassOf(toPoint);
+      if(fromLandmass !== toLandmass){
+        var route = ferryRouteFor(fromLandmass, toLandmass);
+        if(route) return finalizeFerryLeg(transportKey, route);
+      }
+      return finalizeLeg(distanceKm, speed, transportKey, tollEnabled, country);
+    }
 
     if(days <= 1){
       // Jour unique : l'étape sert aussi de retour, donc la limite de rayon s'y applique
@@ -1251,12 +1361,18 @@
       var hopCeiling0 = maxDist > 0 ? maxDist : 600;
       var minHop0 = Math.max(15, minDist);
       var hop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, hopCeiling0));
+      function reachable0(x){
+        var toLandmass = landmassOf(x.commune);
+        return toLandmass === startLandmass || (ferryEnabled && !!ferryRouteFor(startLandmass, toLandmass));
+      }
       // La taille n'est plus un critère d'éligibilité (voir buildRealRoute) : seuil très bas gardé
       // uniquement pour écarter les artefacts de données.
-      var candidates = findNearbyCommunes(cLat, cLon, minHop0, hop, 15).filter(function(x){ return x.commune.norm !== avoidNorm; });
+      var candidates = findNearbyCommunes(cLat, cLon, minHop0, hop, 15)
+        .filter(function(x){ return x.commune.norm !== avoidNorm; })
+        .filter(reachable0);
       if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
       if(candidates.length===0){
-        candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 0);
+        candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 0).filter(reachable0);
         if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
       }
       // Tirage uniforme, voir buildRealRoute pour le détail de pourquoi (tout score, même modeste,
@@ -1280,7 +1396,7 @@
         lodging: null,
         isReturn:false,
         lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept, country: stop.country, cp: stop.cps[0], allCps: stop.cps
-      }, finalizeLeg(distOut, speed, transportKey, tollEnabled, stop.country)));
+      }, finalizeHop(cityCoord, stop, distOut, stop.country)));
       legs.push(Object.assign({
         label: t('day.return'), labelKind: 'returnBare',
         stop: city,
@@ -1288,7 +1404,7 @@
         lodging: null,
         isReturn:true,
         lat: cLat, lon: cLon, dept: cityCoord.dept, country: cityCoord.country, cp: cityCoord.cp, allCps: cityCoord.allCps
-      }, finalizeLeg(distBack, speed, transportKey, tollEnabled, cityCoord.country)));
+      }, finalizeHop(stop, cityCoord, distBack, cityCoord.country)));
       return legs;
     }
 
@@ -1302,12 +1418,13 @@
     var minStops = forceMultiStop ? 2 : (totalNights >= 3 ? Math.min(3, maxPossibleStops) : 1);
     minStops = Math.min(minStops, maxPossibleStops);
     var numStops = randInt(minStops, maxPossibleStops);
-    var route = buildRealRoute(cLat, cLon, maxRadiusKm, numStops, avoidNorm, minDist, maxDist);
-    if(route.length === 0) route = buildRealRoute(cLat, cLon, Math.max(maxRadiusKm, 300), 1, null, 0, maxDist);
+    var route = buildRealRoute(cLat, cLon, startLandmass, maxRadiusKm, numStops, avoidNorm, minDist, maxDist, ferryEnabled);
+    if(route.length === 0) route = buildRealRoute(cLat, cLon, startLandmass, Math.max(maxRadiusKm, 300), 1, null, 0, maxDist, ferryEnabled);
     var nights = distributeNights(route, totalNights);
 
     var dayCounter = 0;
     var prevLat = cLat, prevLon = cLon;
+    var prevPoint = cityCoord; // landmassOf a besoin de dept/country, pas seulement lat/lon
     route.forEach(function(commune, stopIdx){
       var nightsHere = nights[stopIdx];
       var featured = FEATURED[commune.norm];
@@ -1324,7 +1441,10 @@
       for(var n=0; n<nightsHere; n++){
         dayCounter++;
         var distanceKm = n===0 ? Math.round(roadDistanceKm(prevLat, prevLon, commune.lat, commune.lon)) : Math.round(rand(3,14));
-        var legInfo = finalizeLeg(distanceKm, speed, transportKey, tollEnabled, commune.country);
+        // n===0 : arrivée depuis l'étape précédente (peut-être une traversée, voir finalizeHop) ;
+        // n>0 : nuit supplémentaire au même endroit (petit trajet local, jamais un ferry vers
+        // soi-même — finalizeLeg direct, pas la peine de passer par finalizeHop pour ça).
+        var legInfo = n===0 ? finalizeHop(prevPoint, commune, distanceKm, commune.country) : finalizeLeg(distanceKm, speed, transportKey, tollEnabled, commune.country);
         var activities = buildActivityOptions(poisQueue, genericQueue);
         var checkIn = isoDate(addDays(tripStart, dayCounter-1));
         var checkOut = isoDate(addDays(tripStart, dayCounter));
@@ -1344,6 +1464,7 @@
         }, legInfo));
       }
       prevLat = commune.lat; prevLon = commune.lon;
+      prevPoint = commune;
     });
 
     dayCounter++;
@@ -1355,7 +1476,7 @@
       lodging: null,
       isReturn:true,
       lat: cLat, lon: cLon, dept: cityCoord.dept, country: cityCoord.country, cp: cityCoord.cp, allCps: cityCoord.allCps
-    }, finalizeLeg(distBackKm, speed, transportKey, tollEnabled, cityCoord.country)));
+    }, finalizeHop(prevPoint, cityCoord, distBackKm, cityCoord.country)));
 
     return legs;
   }
@@ -1589,7 +1710,7 @@
       h3.textContent = isMultiDay ? formatDayRangeLabel(group.startDay, group.endDay) : singleLegLabel(firstLeg);
       var rt = document.createElement('div');
       rt.className = 'route-time';
-      rt.innerHTML = t('day.routeTime', {time: firstLeg.travelTime, km: firstLeg.distanceKm});
+      rt.innerHTML = t(firstLeg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: firstLeg.travelTime, km: firstLeg.distanceKm});
       top.appendChild(h3); top.appendChild(rt);
       body.appendChild(top);
 
@@ -1673,6 +1794,14 @@
         var tollTxt = t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: amountTxt, barrier: barrierTxt, min: ti.savedMin});
         tollRow.innerHTML = icon('toll') + '<span><span class="lbl">'+t('toll.label')+'</span>'+tollTxt+'</span>';
         body.appendChild(tollRow);
+      }
+      if(firstLeg.ferryInfo){
+        var fi = firstLeg.ferryInfo;
+        var ferryRow = document.createElement('div');
+        ferryRow.className = 'day-row';
+        var ferryTxt = t('ferry.text', { route: t(fi.routeKey), amount: formatEuro(fi.amount), duration: fmtHours(fi.durationH) });
+        ferryRow.innerHTML = icon('ferry') + '<span><span class="lbl">'+t('ferry.label')+'</span>'+ferryTxt+'</span>';
+        body.appendChild(ferryRow);
       }
       if(firstLeg.chargeInfo){
         var c = firstLeg.chargeInfo;
@@ -1779,6 +1908,11 @@
     if(tollLegs.length){
       var tollSum = tollLegs.reduce(function(s,l){return s+l.tollInfo.amount;},0);
       statsHtml += '<span><b>~'+formatEuro(tollSum)+' €</b> '+t(tollLegs[0].tollInfo.enabled ? 'stats.tollEstimated' : 'stats.tollAvoided')+'</span>';
+    }
+    var ferryLegs = legs.filter(function(l){return l.ferryInfo;});
+    if(ferryLegs.length){
+      var ferrySum = ferryLegs.reduce(function(s,l){return s+l.ferryInfo.amount;},0);
+      statsHtml += '<span><b>~'+formatEuro(ferrySum)+' €</b> '+t('stats.ferryTotal')+'</span>';
     }
     els.timelineStats.innerHTML = statsHtml;
   }
@@ -1967,6 +2101,7 @@
           travelTime: leg.travelTime,
           tollInfo: leg.tollInfo || null,
           chargeInfo: leg.chargeInfo || null,
+          ferryInfo: leg.ferryInfo ? { route: t(leg.ferryInfo.routeKey), amount: leg.ferryInfo.amount } : null,
           checkInLabel: leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null,
           lodgingLinks: leg.lodgingLinks || null,
           activities: (leg.activities || []).map(function(opt){
@@ -2010,6 +2145,7 @@
     var budgetKey = els.budget.value;
     var transportKey = els.transport.value;
     var tollEnabled = els.tollToggle.checked;
+    var ferryEnabled = els.ferryToggle.checked;
     var avoidTent = els.tentToggle.checked;
     var speed = TRANSPORT[transportKey].speed;
     var maxRadiusKm = Math.max(20, effectiveRadiusKm(speed));
@@ -2029,7 +2165,7 @@
       return;
     }
 
-    var legs = buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, lastNorm, minDistanceKm, maxDistanceKm);
+    var legs = buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, lastNorm, minDistanceKm, maxDistanceKm, ferryEnabled);
     if(legs.length === 0){
       showCityError(t('error.routeImpossible'));
       return;

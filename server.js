@@ -762,7 +762,8 @@ function buildTripPdf(doc, trip){
     pdfText(doc, clip(leg.label, 120), contentX, contentWidth2);
     if(leg.distanceKm != null && leg.travelTime){
       doc.fillColor(PDF_INK_SOFT).font('Helvetica-Oblique').fontSize(9);
-      pdfText(doc, '~ ' + clip(leg.travelTime, 20) + ' de route · ' + Math.round(leg.distanceKm) + ' km', contentX, contentWidth2);
+      const routeWord = leg.ferryInfo ? ' de traversée · ' : ' de route · ';
+      pdfText(doc, '~ ' + clip(leg.travelTime, 20) + routeWord + Math.round(leg.distanceKm) + ' km', contentX, contentWidth2);
     }
     const stopLabel = (isReturn ? 'Retour vers ' : 'Étape mystère : ') + clip(leg.stop, 100) +
       (leg.cpBadge ? ' (' + clip(leg.cpBadge, 20) + ')' : '');
@@ -784,6 +785,11 @@ function buildTripPdf(doc, trip){
       const c = leg.chargeInfo;
       pdfBullet(doc, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge estimée' + (c.stops > 1 ? 's' : '') +
         ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.', contentX, contentWidth2);
+    }
+    if(leg.ferryInfo){
+      const f = leg.ferryInfo;
+      const amountTxt = (Math.round((f.amount || 0) * 10) / 10).toFixed(1).replace('.', ',');
+      pdfBullet(doc, 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ~' + amountTxt + ' €.', contentX, contentWidth2);
     }
     const activities = Array.isArray(leg.activities) ? leg.activities : [];
     activities.slice(0, 6).forEach(function(act){

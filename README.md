@@ -2,8 +2,9 @@
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique — voir "Pays couverts" plus bas pour
-l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap), de vrais tarifs de péage et
-une carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français, anglais,
+l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap), de vrais tarifs de péage, de
+vraies traversées en ferry pour la Corse/les Baléares/les Canaries (voir "Ferries" plus bas) et une
+carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français, anglais,
 espagnol, portugais, néerlandais et allemand (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
@@ -226,6 +227,41 @@ travail sans le créditer :
 - Si Visorando ne renvoie rien pour la commune tirée, la formule générique reste affichée telle
   quelle — aucune erreur visible.
 
+## Ferries
+
+Une île n'est jamais reliée au continent par la route : le moteur de distance (vol d'oiseau × 1,17,
+voir `roadDistanceKm` dans `app.js`) n'a par nature aucune idée de la mer. Sans ce qui suit, un
+trajet pouvait "traverser" la Méditerranée ou l'Atlantique comme une route normale, silencieusement
+faux. Décoché par défaut (comme "Autoroutes à péage autorisées", juste au-dessus dans le
+formulaire) — le tirage au sort reste alors confiné à la même masse continentale du début à la fin.
+
+- **Coché**, le tirage peut inclure la **Corse**, les **Baléares** ou les **Canaries**, reliées au
+  continent par une vraie ligne de ferry réelle (durée et tarif fixes par ligne, voir
+  `FERRY_ROUTES` dans `app.js` — pas un calcul au km/heure comme la route, un ferry ne va pas plus
+  vite avec un moteur plus puissant). Fonctionne pour tous les modes de transport, y compris le
+  vélo (tarif piéton avec vélo, moins cher qu'une place véhicule) — contrairement au péage
+  autoroutier, qui lui reste interdit au vélo.
+- **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
+  principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
+  non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
+  aujourd'hui entre le Portugal continental et ces archipels — seulement des projets/annonces
+  politiques (2025-2026), rien d'opérationnel. Ces communes restent accessibles comme point de
+  départ (recherche manuelle) mais jamais comme étape reliée au reste d'un itinéraire, même avec
+  les ferries activés — l'absence d'entrée dans `FERRY_ROUTES` pour ces archipels suffit à les
+  exclure, sans code spécifique.
+- La détection "cette commune est sur quelle masse continentale" (`landmassOf` dans `app.js`) est
+  exacte pour la France (le code département distingue déjà la Corse, 2A/2B) et par coordonnées
+  pour l'Espagne/le Portugal (le champ région de ces deux pays n'étant pas exploitable pour ça —
+  voir "Pays couverts" ci-dessus).
+- Limite connue : les petites îles françaises sans pont ni département propre (Belle-Île, Ouessant,
+  Groix...) ne sont pas détectées individuellement et restent traitées comme le continent le plus
+  proche — un cas rare (quelques dizaines de communes sur ~35 000) laissé de côté pour l'instant.
+  De même, les 9 îles de l'archipel des Açores sont regroupées sous une seule étiquette : un trajet
+  qui resterait entièrement dans les Açores pourrait proposer un trajet routier entre deux îles
+  différentes de l'archipel, alors qu'il faudrait en réalité un bateau/avion inter-îles — un cas
+  qui ne peut survenir qu'en partant soi-même d'une commune des Açores (jamais depuis le continent,
+  voir plus haut), donc rare en pratique.
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois
@@ -282,6 +318,11 @@ au chargement.
 - Randonnées : [Visorando](https://www.visorando.com) (France uniquement) — nom, distance, durée et
   difficulté affichés à titre indicatif, lien direct vers leur page pour le tracé complet (voir
   "Randonnées réelles" ci-dessus).
+- Tarifs et durées de ferry : [Corsica Linea](https://www.corsicalinea.com) / [Corsica
+  Ferries](https://www.corsica-ferries.fr) (Corse), [Baleària](https://www.balearia.com) (Baléares),
+  [Naviera Armas/Baleària Canarias](https://armastrasmediterranea.com) (Canaries) — voir "Ferries"
+  ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour les péages, pas un
+  tarif garanti).
 
 Toutes ces données sont figées au moment de la génération de ce projet (2026). Pour les rafraîchir,
 relancez les mêmes sources et remplacez les fichiers dans `public/data/`.
