@@ -5,7 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['AD', 'ES', 'PT'];
+const COUNTRIES = ['BE']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
+// AD/ES/PT sont déjà générés et commités (public/data/communes-ad|es|pt.txt), pas la peine de
+// retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -48,13 +50,25 @@ function nearest(gridObj, lat, lon, maxKm){
   return (best && bestDist <= maxKm) ? best : null;
 }
 
-// Écart isolé et confirmé (grep manuel) entre le champ "name" canonique de GeoNames et le nom
-// local : GeoNames stocke "Lisbon" (anglais) au lieu de "Lisboa" pour la capitale portugaise —
-// vérifié sur un échantillon d'une dizaine d'autres grandes villes ES/PT (Sevilla, Zaragoza,
-// Coimbra, Braga, Córdoba, Valencia, Porto...), toutes correctes en langue locale. Cas isolé,
-// corrigé à la main plutôt que d'intégrer le fichier alternateNamesV2 (bien plus volumineux) pour
-// une seule exception connue.
-const NAME_OVERRIDES = { 'Lisbon': 'Lisboa' };
+// Écarts isolés et confirmés (grep manuel) entre le champ "name" canonique de GeoNames et le nom
+// local : GeoNames stocke parfois un exonyme anglais/français plutôt que le nom réellement utilisé
+// sur place. "Lisbon" au lieu de "Lisboa" pour la capitale portugaise — vérifié sur un échantillon
+// d'une dizaine d'autres grandes villes ES/PT (Sevilla, Zaragoza, Coimbra, Braga, Córdoba, Valencia,
+// Porto...), toutes correctes en langue locale. Même chose pour quatre villes belges : "Brussels"
+// (anglais — remplacé par le français "Bruxelles", déjà ce qu'utilise le champ "place" du fichier
+// des codes postaux pour cette même ville), "Antwerp"/"Ostend" (anglais, remplacés par le
+// néerlandais "Antwerpen"/"Oostende" — région flamande, comme "Gent"/"Brugge"/"Ieper" déjà corrects
+// dans le dump), "Saint-Vith" (francisé, remplacé par l'allemand "Sankt Vith" — cette commune est
+// dans la Communauté germanophone, troisième langue officielle du pays). Cas isolés, corrigés à la
+// main plutôt que d'intégrer le fichier alternateNamesV2 (bien plus volumineux) pour si peu
+// d'exceptions connues.
+const NAME_OVERRIDES = {
+  'Lisbon': 'Lisboa',
+  'Brussels': 'Bruxelles',
+  'Antwerp': 'Antwerpen',
+  'Ostend': 'Oostende',
+  'Saint-Vith': 'Sankt Vith'
+};
 
 for(const country of COUNTRIES){
   const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');

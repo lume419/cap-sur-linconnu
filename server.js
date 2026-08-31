@@ -548,9 +548,10 @@ app.get('/api/pois', async (req, res) => {
   const name = String(req.query.name || '').trim();
   const dept = String(req.query.dept || '').trim();
   const country = String(req.query.country || '').trim().toUpperCase();
-  // Englobe la France, l'Andorre, l'Espagne et le Portugal (mainland) — pas seulement la France :
-  // la borne d'origine (lat 40-52) rejetait à tort le sud de l'Espagne/Portugal (Andalousie,
-  // Algarve, jusqu'à ~36°N).
+  // Englobe la France, l'Andorre, l'Espagne, le Portugal (mainland) et la Belgique — pas seulement
+  // la France : la borne d'origine (lat 40-52) rejetait à tort le sud de l'Espagne/Portugal
+  // (Andalousie, Algarve, jusqu'à ~36°N). La Belgique (lat ~49,5-51,5 / lon ~2,5-6,4) tient déjà
+  // dans cette même boîte, aucun élargissement nécessaire pour elle.
   if(!isFinite(lat) || !isFinite(lon) || lat < 36 || lat > 52 || lon < -10 || lon > 10){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }

@@ -1,7 +1,7 @@
 # Cap sur l'Inconnu
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
-avec de vraies communes (France, Andorre, Espagne, Portugal — voir "Pays couverts" plus bas pour
+avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique — voir "Pays couverts" plus bas pour
 l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap), de vrais tarifs de péage et
 une carte interactive (Leaflet + tuiles OpenStreetMap).
 
@@ -32,6 +32,7 @@ cap-sur-linconnu/
 │       ├── communes-ad.txt     # ~60 lieux andorrans, même format (voir "Pays couverts")
 │       ├── communes-es.txt     # ~29 000 lieux espagnols, même format
 │       ├── communes-pt.txt     # ~16 500 lieux portugais, même format
+│       ├── communes-be.txt     # ~12 500 lieux belges, même format
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -49,7 +50,7 @@ les trois premières routes.
 
 ## Pays couverts
 
-Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne et Portugal pour l'instant,
+Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal et Belgique pour l'instant,
 d'autres viendront. Chaque pays ajoute deux choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -222,7 +223,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises : [GeoNames](https://www.geonames.org) (licence
+- Communes andorranes/espagnoles/portugaises/belges : [GeoNames](https://www.geonames.org) (licence
   [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Points d'intérêt : [OpenStreetMap](https://www.openstreetmap.org) via l'API Overpass — figés dans
   `featured.txt` pour ~300 communes françaises, interrogés en direct via `/api/pois` pour les autres

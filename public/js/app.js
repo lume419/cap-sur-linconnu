@@ -8,12 +8,16 @@
   // seuls la France et l'Espagne ont un vrai réseau autoroutier à péage significatif au tarif
   // kilométrique repéré (voir plus bas, finalizeLeg) ; le Portugal n'a que son réseau à péage
   // électronique sans barrière (tarif très inférieur, cohérent avec les grilles Via Verde/Ascendi
-  // consultées) ; l'Andorre n'a pas d'autoroute à péage — aucun montant n'y est donc jamais affiché.
+  // consultées) ; l'Andorre et la Belgique n'ont pas d'autoroute à péage — aucun montant n'y est
+  // donc jamais affiché (la Belgique a bien aboli le péage sur son réseau autoroutier il y a des
+  // décennies ; le péage kilométrique Viapass n'existe que pour les poids lourds, hors périmètre de
+  // cette app qui ne modélise que des véhicules légers).
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false },
     ES: { code:'ES', name:'Espagne', file:'communes-es.txt', hasToll:true },
-    PT: { code:'PT', name:'Portugal', file:'communes-pt.txt', hasToll:true }
+    PT: { code:'PT', name:'Portugal', file:'communes-pt.txt', hasToll:true },
+    BE: { code:'BE', name:'Belgique', file:'communes-be.txt', hasToll:false }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
 
@@ -153,6 +157,8 @@
   //   à barrières. Échantillon plus restreint que la France (une seule liaison de référence) :
   //   estimation moins précise, affinable plus tard avec d'autres sections Ascendi/Via Verde.
   // - Andorre : pas de réseau autoroutier à péage — aucun montant n'est jamais calculé (hasToll:false).
+  // - Belgique : autoroutes gratuites depuis l'abolition du dernier péage (tunnel de Liefkenshoek,
+  //   2017) — aucun montant n'est jamais calculé (hasToll:false), comme l'Andorre.
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,
