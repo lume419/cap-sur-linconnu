@@ -5,9 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['BE']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
-// AD/ES/PT sont déjà générés et commités (public/data/communes-ad|es|pt.txt), pas la peine de
-// retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
+const COUNTRIES = ['NL']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
+// AD/ES/PT/BE sont déjà générés et commités (public/data/communes-ad|es|pt|be.txt), pas la peine
+// de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -59,15 +59,19 @@ function nearest(gridObj, lat, lon, maxKm){
 // des codes postaux pour cette même ville), "Antwerp"/"Ostend" (anglais, remplacés par le
 // néerlandais "Antwerpen"/"Oostende" — région flamande, comme "Gent"/"Brugge"/"Ieper" déjà corrects
 // dans le dump), "Saint-Vith" (francisé, remplacé par l'allemand "Sankt Vith" — cette commune est
-// dans la Communauté germanophone, troisième langue officielle du pays). Cas isolés, corrigés à la
-// main plutôt que d'intégrer le fichier alternateNamesV2 (bien plus volumineux) pour si peu
-// d'exceptions connues.
+// dans la Communauté germanophone, troisième langue officielle du pays). Même chose pour "The
+// Hague" (anglais, remplacé par le néerlandais "Den Haag" — nom déjà utilisé tel quel par le champ
+// "place" du fichier des codes postaux pour cette même ville ; le reste de l'échantillon néerlandais
+// vérifié, Rotterdam/Utrecht/Eindhoven/Nijmegen..., est déjà correct en langue locale). Cas isolés,
+// corrigés à la main plutôt que d'intégrer le fichier alternateNamesV2 (bien plus volumineux) pour
+// si peu d'exceptions connues.
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
   'Antwerp': 'Antwerpen',
   'Ostend': 'Oostende',
-  'Saint-Vith': 'Sankt Vith'
+  'Saint-Vith': 'Sankt Vith',
+  'The Hague': 'Den Haag'
 };
 
 for(const country of COUNTRIES){

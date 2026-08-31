@@ -1,5 +1,5 @@
 // Construit public/data/aliases-XX.txt : correspondances "nom dans une autre langue -> nom
-// canonique" pour les communes andorranes/espagnoles/portugaises/belges, à partir du fichier
+// canonique" pour les communes andorranes/espagnoles/portugaises/belges/néerlandaises, à partir du fichier
 // GeoNames alternateNamesV2 (download.geonames.org/export/dump/alternatenames/XX.zip — mêmes
 // données que le dump utilisé par build-country-communes.js, mais avec les noms alternatifs
 // étiquetés par langue ISO, justement conçues pour ce genre de besoin). Permet de saisir une ville
@@ -22,7 +22,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['AD', 'ES', 'PT', 'BE'];
+const COUNTRIES = ['NL']; // AD/ES/PT/BE déjà générés et commités (public/data/aliases-ad|es|pt|be.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les six langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant.
@@ -32,7 +32,8 @@ const NAME_OVERRIDES = {
   'Brussels': 'Bruxelles',
   'Antwerp': 'Antwerpen',
   'Ostend': 'Oostende',
-  'Saint-Vith': 'Sankt Vith'
+  'Saint-Vith': 'Sankt Vith',
+  'The Hague': 'Den Haag'
 };
 
 function haversineKm(lat1, lon1, lat2, lon2){

@@ -1,0 +1,431 @@
+nl;Zuiderend;Suorein
+nl;Zevenhuizen;Sânhuzen
+nl;Zes Gehuchten;Zesgehuchten
+nl;Zeijen;Zeyen
+nl;Zélland;Zeeland
+nl;Wouterswoud;Wâlterswâld
+nl;Wouterswoude;Wâlterswâld
+nl;Woerkum;Woudrichem
+nl;Winterswijk Woold;Woold
+nl;Witteveen;It Wytfean
+nl;Witveen;It Wytfean
+fr;Witveen;It Wytfean
+pt;Wytmarsum;Witmarsum
+es;Wytmarsum;Witmarsum
+fr;Wytgaard;Wijtgaard
+nl;Wytgaard;Wijtgaard
+nl;Wijns;Wyns
+nl;Winaldum;Wijnaldum
+nl;West Nieuwland;West-Nieuwland
+nl;Westeinde;Westeind
+en;Westend;Westeind
+fr;Wenum-Wiesel;Wenum
+nl;Wenum-Wiesel;Wenum
+nl;Welsrijp;Wjelsryp
+nl;Wartena;Warten
+nl;Warniahuizen;Warniahuzen
+nl;Wergea;Warga
+en;Wergea;Warga
+fr;Wergea;Warga
+fr;Wânswert;Wanswerd
+pt;Vada;Wageningen
+nl;Waaxens;Waaksens
+nl;Lieve Vrouwe Parochie;Vrouwenparochie
+nl;Lieve Vrouwenparochie;Vrouwenparochie
+en;Flushing;Vlissingen
+es;Flesinga;Vlissingen
+fr;Flessingue;Vlissingen
+nl;Vischbuurt;Visbuurt
+nl;Vierhuizen;Vierhuis
+en;Velsen;Velsen-Zuid
+de;Velsen;Velsen-Zuid
+fr;Velsen;Velsen-Zuid
+nl;Velsen;Velsen-Zuid
+pt;Velsen;Velsen-Zuid
+nl;Stobbegat;Vegelinsoord
+nl;Stobbega;Vegelinsoord
+nl;Veenwoudsterwal;Feanwâldsterwâl
+nl;Farebuorren;Vaardeburen
+pt;Utreque;Utrecht
+nl;Tjummarum;Tzummarum
+nl;Tjum;Tzum
+de;2e Valthermond;Tweede Valthermond
+pt;2e Valthermond;Tweede Valthermond
+en;2e Valthermond;Tweede Valthermond
+fr;2e Valthermond;Tweede Valthermond
+nl;2e Valthermond;Tweede Valthermond
+nl;'t Waar;t Waar
+nl;'t Veld;t Veld
+nl;Het Schoor;'t Schoor
+nl;Schoor;'t Schoor
+nl;'t Kruis;t Kruis
+es;Tilburgo;Tilburg
+pt;Tilburgo;Tilburg
+nl;Tietjerk;Tytsjerk
+nl;'t Harde;t Harde
+nl;'t Haantje;t Haantje
+de;'t Haantje;t Haantje
+en;'t Haantje;t Haantje
+fr;'t Haantje;t Haantje
+nl;Gooi en vechtstreek;t Goy
+nl;Terzool;Tersoal
+nl;Terhorne;Terherne
+en;Terhole;Ter Hole
+fr;Terhole;Ter Hole
+nl;Terhole;Ter Hole
+nl;Suameer;Sumar
+en;De Stolpen;Stolpen
+fr;De Stolpen;Stolpen
+nl;De Stolpen;Stolpen
+nl;Staveren;Stavoren
+nl;Speers;Spears
+nl;Bunschoten-Spakenburg;Spakenburg
+nl;Sorremorre;Soarremoarre
+nl;Sluis 13;Sluis Dertien
+fr;Sint-Odiliënberg;Sint Odiliënberg
+nl;Sint Nikolaasga;Sint Nicolaasga
+fr;Saint-Michel-Gestel;Sint-Michielsgestel
+nl;Sint Johannisga;Sintjohannesga
+nl;Annaparochie;Sint Annaparochie
+nl;St, Anna Land;Sint Annaland
+nl;Anna Land;Sint Annaland
+nl;Sythuizen;Sijthuizen
+nl;Sijbrandaburen;Sibrandabuorren
+nl;Sigerswoude;Sigerswâld
+nl;Siegerswolde;Sigerswâld
+nl;Siegerswoude;Sigerswâld
+nl;Kloosterburen;Sigerswâld
+nl;Sigerswoude;Siegerswoude
+fr;Bois-le-Duc;'s-Hertogenbosch
+es;Bolduque;'s-Hertogenbosch
+nl;Oeteldonk;'s-Hertogenbosch
+de;Herzogenbusch;'s-Hertogenbosch
+nl;Den Bosch;'s-Hertogenbosch
+de;’s-Hertogenbosch;'s-Hertogenbosch
+nl;'s-Heer Hendrikskinderen;s-Heer Hendrikskinderen
+de;’s-Heer Hendrikskinderen;s-Heer Hendrikskinderen
+en;'s-Heer Hendrikskinderen;s-Heer Hendrikskinderen
+fr;'s-Heer Hendrikskinderen;s-Heer Hendrikskinderen
+es;'s-Heer Hendrikskinderen;s-Heer Hendrikskinderen
+nl;'s-Heerenhoek;s-Heerenhoek
+de;’s-Heerenhoek;s-Heerenhoek
+pt;'s-Heerenhoek;s-Heerenhoek
+en;'s-Heerenhoek;s-Heerenhoek
+fr;'s-Heerenhoek;s-Heerenhoek
+es;'s-Heerenhoek;s-Heerenhoek
+nl;'s-Heerenbroek;s-Heerenbroek
+de;’s-Heerenberg;'s-Heerenberg
+nl;'s-Heer Arendskerke;s-Heer Arendskerke
+de;'s-Heer Arendskerke;s-Heer Arendskerke
+en;'s-Heer Arendskerke;s-Heer Arendskerke
+fr;'s-Heer Arendskerke;s-Heer Arendskerke
+nl;'s-Heer Abtskerke;s-Heer Abtskerke
+de;'s-Heer Abtskerke;s-Heer Abtskerke
+pt;'s-Heer Abtskerke;s-Heer Abtskerke
+en;'s-Heer Abtskerke;s-Heer Abtskerke
+fr;'s-Heer Abtskerke;s-Heer Abtskerke
+es;'s-Heer Abtskerke;s-Heer Abtskerke
+de;’s-Gravenpolder;'s-Gravenpolder
+fr;La Haye;Den Haag
+es;La Haya;Den Haag
+en;The Hague;Den Haag
+pt;A Haia;Den Haag
+en;Hague;Den Haag
+en;'s-Gravendeel;s-Gravendeel
+de;’s-Gravendeel;s-Gravendeel
+nl;'s-Gravendeel;s-Gravendeel
+en;'s-Graveland;s-Graveland
+fr;'s-Graveland;s-Graveland
+nl;'s-Graveland;s-Graveland
+nl;Sixbierum;Sexbierum
+nl;Zeerijp;Seerijp
+nl;Seeryp;Seerijp
+nl;Schuilenburg;Skûlenboarch
+fr;Schuilenburg;Skûlenboarch
+nl;Schingen;Skingen
+nl;Scheij;Schei
+nl;Schey;Schei
+nl;Schaalsum;Schalsum
+fr;Sas de Gand;Sas van Gent
+nl;Sanderbanken;Sander
+pt;Roterdão;Rotterdam
+es;Róterdam;Rotterdam
+fr;Rosendael;Roosendaal
+nl;Roordahuizum;Reduzum
+nl;Roodkerk;Readtsjerk
+fr;Ruremonde;Roermond
+nl;Rinsumageest;Rinsumageast
+nl;Riperkerk;Ryptsjerk
+nl;Rijperkerk;Ryptsjerk
+nl;Rhoonseveer;Rhoonse Veer
+fr;Rhoonsche Veer;Rhoonse Veer
+nl;Winterswijk Ratum;Ratum
+nl;Poppingawier;Poppenwier
+nl;Poppenhuizen;Poppenhuzen
+nl;Graauwedijk;Overschild
+nl;Nijega;Ouwster-Nijega
+nl;Ousternijega;Ouwster-Nijega
+nl;Ooster-Nijega;Ouwster-Nijega
+nl;Oosterhaule;Ouwsterhaule
+fr;Vieux-Vossemeer;Oud-Vossemeer
+nl;Oud-Over;Oudover
+nl;Oudkerk;Aldtsjerk
+nl;Oud-Heusden;Oudheusden
+nl;Oude Schouw;Aldskou
+nl;Ouderkerk a/d IJssel;Ouderkerk aan den IJssel
+nl;Ouderkerk aan de IJssel;Ouderkerk aan den IJssel
+nl;Ouderkerk aan de Yssel;Ouderkerk aan den IJssel
+nl;Ouderkerk a/d Yssel;Ouderkerk aan den IJssel
+nl;Ouderkerk aan den Yssel;Ouderkerk aan den IJssel
+nl;Ouderkerk a/d Amstel;Ouderkerk aan de Amstel
+fr;Ouderkerk-sur-l'Amstel;Ouderkerk aan de Amstel
+nl;Oude Leije;Alde Leie
+nl;Oldehaske;Oudehaske
+nl;Oude Biltzijl;Oude Bildtzijl
+pt;Oud-Annerveen;Oud Annerveen
+nl;Op Andel;Op-Andel
+nl;Oostwolder Hamrik;Oostwolderhamrik
+en;Easterwierrum;Oosterwierum
+fr;Easterwierrum;Oosterwierum
+en;Easterlittens;Oosterlittens
+fr;Easterlittens;Oosterlittens
+nl;Easterein;Oosterend
+nl;Oosterboorn;Easterboarn
+nl;Oldeboorn;Aldeboarn
+nl;Oenkerk;Oentsjerk
+nl;Noord-Stroe;Noordstroe
+fr;Noordse Buurt;Noordsebuurt
+nl;Noordbergum;Noardburgum
+nl;De Nollen;Nollen
+de;Nimwegen;Nijmegen
+es;Nimega;Nijmegen
+fr;Nimègue;Nijmegen
+pt;Nimegue;Nijmegen
+nl;Nijeklooster;Nykleaster
+nl;Nieuwehaske;Nijehaske
+nl;Nieuwerkerk a/d IJssel;Nieuwerkerk aan den IJssel
+nl;Nieuwerkerk aan de IJssel;Nieuwerkerk aan den IJssel
+nl;Nieuwerkerk aan de Yssel;Nieuwerkerk aan den IJssel
+nl;Nieuwerkerk a/d Yssel;Nieuwerkerk aan den IJssel
+nl;Nieuwe Biltzijl;Nieuwe Bildtzijl
+nl;Nieuw Annerveen;Nieuw-Annerveen
+nl;Hoge Neerstraat;Neerstraat
+nl;Naarderburen;Naarderbuorren
+nl;Moscou;Moskou
+nl;Mortel;De Mortel
+nl;Moleneind;Mûnein
+nl;Molenend;Mûnein
+nl;Winterswijk Miste;Miste
+fr;Middelbourg;Middelburg
+pt;Midelburgo;Middelburg
+nl;Menaldum;Menaam
+nl;Winterswijk Meddo;Meddo
+nl;Marssum;Marsum
+es;Mastrique;Maastricht
+pt;Mastrique;Maastricht
+nl;Muszès;Maashees
+en;Lytsewierrum;Lutkewierum
+fr;Lytsewierrum;Lutkewierum
+nl;Lutjepost;Lutkepost
+nl;'t Hoekje;Loons Hoekje
+nl;Venloen op Zand;Loon op Zand
+en;Loenen;Loenen aan de Vecht
+nl;Loenen;Loenen aan de Vecht
+fr;Leyde;Leiden
+pt;Leida;Leiden
+nl;Langedijk;Langedijke
+nl;Het Laar;Laar
+nl;Krimpen a/d IJssel;Krimpen aan den IJssel
+nl;Krimpen aan de Yssel;Krimpen aan den IJssel
+nl;Krimpen a/d Yssel;Krimpen aan den IJssel
+nl;Krimpen aan den Yssel;Krimpen aan den IJssel
+nl;Krimpen a/d Lek;Krimpen aan de Lek
+nl;Krimpen aan den Lek;Krimpen aan de Lek
+nl;Kreiel;Kreielt
+nl;Krabbeburen;Krabburen
+nl;Koudekerk a/d Rijn;Koudekerk aan den Rijn
+nl;Koudekerk aan de Rijn;Koudekerk aan den Rijn
+nl;Winterswijk Kotten;Kotten
+nl;Lidlum;Klooster-Lidlum
+nl;Klein Wieren;Lytse Wierren
+nl;Kleine Koolwijk;Klein Koolwijk
+nl;Kleinegeest;Lytse Geast
+de;Agelo;Klein Agelo
+de;Kirchrath;Kerkrade
+en;Katwijk;Katwijk aan den Rijn
+de;Katwijk;Katwijk aan den Rijn
+fr;Katwijk;Katwijk aan den Rijn
+pt;Katwijk;Katwijk aan den Rijn
+nl;Katwijk aan de Rijn;Katwijk aan den Rijn
+nl;Katwijk a/d Rijn;Katwijk aan den Rijn
+nl;Katwijk;Katwijk aan den Rijn
+nl;Katwijk aan de Maas;Katwijk
+nl;Calslagen;Kalslagen
+pt;Calslagen;Kalslagen
+en;Calslagen;Kalslagen
+nl;Jouwswier;Jouswier
+en;Jonkerslân;Jonkersland
+nl;Jeth;Jet
+nl;Janum;Jannum
+nl;Jouwerswijk;Jagerswijk
+nl;Jauwerswiek;Jagerswijk
+fr;Ysendyck;IJzendijke
+nl;IJsbrechtum;Ysbrechtum
+nl;Ypecolsga;IJpecolsga
+en;Ypecolsga;IJpecolsga
+fr;Ypecolsga;IJpecolsga
+de;Ĳmuiden;IJmuiden
+nl;Taskenhuizen;Idskenhuizen
+nl;Idaard;Idaerd
+nl;Winterswijk Huppel;Huppel
+nl;Huins;Húns
+nl;Hoven;De Hoven
+nl;Hornsterzwaag;Hoornsterzwaag
+nl;Hornsterburen;Hoarnsterbuorren
+nl;Hoorn NH;Hoorn
+nl;Hoogzand;It Heechsân
+fr;Hoogzand;It Heechsân
+nl;Hoogeind (Rijkevoort);Hoogeind
+nl;Hogebeintum;Hegebeintum
+nl;Huifkens;Hoefkens
+nl;Hijlaard;Hilaard
+nl;'t Westeinde;Het Westeinde
+nl;Het Vliet;It Fliet
+nl;Het Veen;t Veen
+fr;'t Beijersche;Het Beijersche
+nl;'t Beijersche;Het Beijersche
+en;Hinnaard;Hennaard
+fr;Hinnaard;Hennaard
+nl;Heikant (Sambeek);Heikant
+nl;Heikant (Overloon);Heikant
+de;MC Heijen;Heijen
+nl;Heidhuizen;Heidehuizen
+nl;Ter Heide;Heide
+pt;Coriovalo;Heerlen
+nl;Harkema-Opeinde;Harkema
+de;Hantumerútbuorren;Hantumeruitburen
+en;Hantumerútbuorren;Hantumeruitburen
+nl;Grouw;Grou
+nl;Groot Wieren;Grutte Wierren
+pt;Wetsinge;Groot Wetsinge
+en;Wetsinge;Groot Wetsinge
+fr;Wetsinge;Groot Wetsinge
+nl;Wetsinge;Groot Wetsinge
+es;Groninga;Groningen
+fr;Groningue;Groningen
+pt;Groninga;Groningen
+de;Gronsbeck;Groesbeek
+nl;Gorkum;Gorinchem
+es;Gorcum;Gorinchem
+nl;Goengarijp;Goingarijp
+nl;Goingahuizen;Goëngahuizen
+nl;Giekerkerhoek;De Gytsjerkerhoeke
+en;Ginnum;Genum
+fr;Ginnum;Genum
+fr;Mont-Sainte-Gertrude;Geertruidenberg
+nl;Fochtelo;Fochteloo
+nl;Finkum;Feinsum
+en;Finkum;Feinsum
+de;Ingwierrum;Engwierum
+nl;Engwerd;Ingwert
+nl;Engelum;Ingelum
+nl;Elslo;Elsloo
+nl;Egmond a/d Hoef;Egmond aan den Hoef
+nl;Egmond aan de Hoef;Egmond aan den Hoef
+nl;Eestrum;Jistrum
+nl;Eernewoude;Earnewâld
+fr;Een West;Een-West
+en;Iens;Edens
+fr;Iens;Edens
+nl;Dronrijp;Dronryp
+nl;Droogeham;Drogeham
+nl;Driesum;Driezum
+nl;Drachster Compaghnie;Drachtstercompagnie
+nl;De Compagnie;Drachtstercompagnie
+pt;Dordreque;Dordrecht
+nl;Dongensevaart;Dongense Vaart
+es;Domburgo;Domburg
+fr;Dombourg;Domburg
+nl;Dokkumernieuwezijlen;Dokkumer Nieuwe Zijlen
+nl;Wilgen;De Wilgen
+nl;Valom;De Falom
+nl;De Valom;De Falom
+fr;Le Helder;Den Helder
+nl;Deersum;Dearsum
+de;De Bult, Friesland;De Bult
+nl;Murmerwoude;Damwâld
+fr;Culembourg;Culemborg
+nl;Kuuk;Cuijk
+nl;Crummert;Cromvoirt
+nl;Cornjum;Koarnjum
+nl;Carnisselande;Carnisse
+nl;Capelle a/d IJssel;Capelle aan den IJssel
+nl;Capelle aan de IJssel;Capelle aan den IJssel
+nl;Capelle aan den Yssel;Capelle aan den IJssel
+nl;Capelle a/d Yssel;Capelle aan den IJssel
+nl;Capelle aan de Yssel;Capelle aan den IJssel
+nl;Bunschoten-Spakenburg;Bunschoten
+nl;Buitenstvallaat;Buitenstverlaat
+nl;Broeksterwoude;Broeksterwâld
+nl;'t Broek;Broek
+nl;Britswert;Britswerd
+en;Britswert;Britswerd
+fr;Britswert;Britswerd
+nl;Breedeweg;Bredeweg
+nl;Boyl;Boijl
+nl;Borsele;Borssele
+nl;Bornwerd;Bornwird
+de;Boarnwert;Bornwird
+nl;Surhuisterveensterheide;Boelenslaan
+nl;Blija;Blije
+nl;Bernsterburen;Bernsterbuorren
+nl;Berlikum;Berltsum
+fr;Berg-op-Zoom;Bergen op Zoom
+de;Bergen (Nord-Holland);Bergen
+nl;Berg aan de Maas;Berg
+nl;Beetgumermolen;Bitgummole
+nl;Beetgum;Bitgum
+en;Bears;Beers
+fr;Bears;Beers
+nl;Beek;Beek gem Montferland
+nl;Beek (Montferland);Beek gem Montferland
+nl;Akswijk;Axwijk
+de;Arnheim;Arnhem
+pt;Arnhemia;Arnhem
+nl;Nieuw Appelsga;Appelscha
+nl;Appelsga;Appelscha
+nl;Andijk West;Andijk
+nl;Andik;Andijk
+nl;Andoik;Andijk
+nl;Andijk Oost;Andijk
+pt;Amesterdã;Amsterdam
+pt;Amesterdão;Amsterdam
+pt;Amsterdã;Amsterdam
+nl;Mokum;Amsterdam
+nl;Alphen a/d Rijn;Alphen aan den Rijn
+nl;Alphen aan de Maas;Alphen
+nl;Almere;Almere Stad
+nl;Aegum;Eagum
+nl;Abbingawier;Abbenwier
+nl;Abbeweer;Abbenwier
+nl;Abbengawier;Abbenwier
+nl;Aalsum;Aalzum
+de;Aalsum;Aalzum
+en;Aalsum;Aalzum
+fr;Aalsum;Aalzum
+en;Wijk en Aalburg;Aalburg
+fr;Wijk en Aalburg;Aalburg
+de;Wijk en Aalburg;Aalburg
+nl;Wijk en Aalburg;Aalburg
+nl;Zeijerveen;Zeyerveen
+nl;Zeijerveld;Zeyerveld
+nl;Boschkant;Boskant
+nl;Kremsel;Kremselen
+nl;Geitberg;Chevremont
+nl;Gotum;Goattum
+nl;De Knijpe;De Knipe
+nl;Schelum;Skyldum
+nl;Suameerderheide;Sumarreheide
+nl;Zwartewegsend;Swartewesein
+nl;Noordermeer;Noardermar
+nl;Lutje Saaksum;Lutke Saaxum

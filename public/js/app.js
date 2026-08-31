@@ -8,22 +8,25 @@
   // seuls la France et l'Espagne ont un vrai réseau autoroutier à péage significatif au tarif
   // kilométrique repéré (voir plus bas, finalizeLeg) ; le Portugal n'a que son réseau à péage
   // électronique sans barrière (tarif très inférieur, cohérent avec les grilles Via Verde/Ascendi
-  // consultées) ; l'Andorre et la Belgique n'ont pas d'autoroute à péage — aucun montant n'y est
-  // donc jamais affiché (la Belgique a bien aboli le péage sur son réseau autoroutier il y a des
-  // décennies ; le péage kilométrique Viapass n'existe que pour les poids lourds, hors périmètre de
-  // cette app qui ne modélise que des véhicules légers).
-  // aliasFile (AD/ES/PT/BE seulement) : noms alternatifs par langue (voir scripts/build-aliases.js,
-  // source GeoNames alternateNamesV2) — permet de saisir une ville dans la langue choisie pour
-  // l'interface (ex. "Anvers" pour la commune belge "Antwerpen", voir searchCommunes plus bas).
-  // Absent pour la France : ses communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun
-  // geonameid n'est donc disponible pour les relier à ces noms alternatifs (voir le script pour le
-  // détail de ce choix).
+  // consultées) ; l'Andorre, la Belgique et les Pays-Bas n'ont pas d'autoroute à péage — aucun
+  // montant n'y est donc jamais affiché (la Belgique a bien aboli le péage sur son réseau
+  // autoroutier il y a des décennies ; aux Pays-Bas, le Westerscheldetunnel est gratuit pour les
+  // véhicules légers depuis janvier 2025 — seul le petit Kiltunnel reste payant, un cas isolé non
+  // comparable à un barème kilométrique national ; dans les deux pays, la redevance kilométrique
+  // annoncée ne concerne que les poids lourds, hors périmètre de cette app).
+  // aliasFile (AD/ES/PT/BE/NL seulement) : noms alternatifs par langue (voir
+  // scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une ville dans
+  // la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen", "La Haye"
+  // pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
+  // France : ses communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun geonameid n'est donc
+  // disponible pour les relier à ces noms alternatifs (voir le script pour le détail de ce choix).
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
     ES: { code:'ES', name:'Espagne', file:'communes-es.txt', hasToll:true, aliasFile:'aliases-es.txt' },
     PT: { code:'PT', name:'Portugal', file:'communes-pt.txt', hasToll:true, aliasFile:'aliases-pt.txt' },
-    BE: { code:'BE', name:'Belgique', file:'communes-be.txt', hasToll:false, aliasFile:'aliases-be.txt' }
+    BE: { code:'BE', name:'Belgique', file:'communes-be.txt', hasToll:false, aliasFile:'aliases-be.txt' },
+    NL: { code:'NL', name:'Pays-Bas', file:'communes-nl.txt', hasToll:false, aliasFile:'aliases-nl.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -202,6 +205,10 @@
   // - Andorre : pas de réseau autoroutier à péage — aucun montant n'est jamais calculé (hasToll:false).
   // - Belgique : autoroutes gratuites depuis l'abolition du dernier péage (tunnel de Liefkenshoek,
   //   2017) — aucun montant n'est jamais calculé (hasToll:false), comme l'Andorre.
+  // - Pays-Bas : réseau autoroutier gratuit à 99% (isdetunnelopen.nl, tolls.eu) — seul le petit
+  //   Kiltunnel (Dordrecht, ~2 €) reste payant, un cas isolé non comparable à un barème
+  //   kilométrique national ; le Westerscheldetunnel, lui, est gratuit pour les véhicules légers
+  //   depuis janvier 2025. Même traitement que la Belgique (hasToll:false).
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,
@@ -241,11 +248,28 @@
   // - Canaries : Naviera Armas/Baleària Canarias, Cadix -> Las Palmas/Ténérife — traversée BIEN plus
   //   longue (37 à 46h, quasi deux jours en mer, à ne pas confondre avec les autres lignes), à
   //   partir de ~124 € (armastrasmediterranea.com). Retenu : ~41h (moyenne), 280 €/voiture.
+  // - Îles Wadden (Pays-Bas) : TESO, Den Helder -> Texel — traversée courte (20 min), ~31-46 €
+  //   l'ALLER-RETOUR voiture selon le jour (boottexel.eu, hellotexel.com) -> ~18 €/traversée une
+  //   fois ramené au sens "un seul passage" utilisé ici (voir finalizeFerryLeg, appelé une fois par
+  //   sens, pas un billet aller-retour). Les quatre autres îles (Vlieland, Terschelling — Rederij
+  //   Doeksen — Ameland, Schiermonnikoog — Wagenborg) sont couvertes par le même tarif faute de
+  //   mieux, alors que leurs traversées sont nettement plus chères et l'accès en voiture bien plus
+  //   restreint en pratique (souvent réservé aux résidents) : approximation plus grossière que pour
+  //   la Corse/les Baléares/les Canaries pour ces quatre-là spécifiquement. IMPORTANT : chacune
+  //   garde sa PROPRE masse continentale (wadden-texel, wadden-vlieland...), pas une seule
+  //   "wadden" partagée — sans ça, le moteur les aurait crues reliées entre elles par la route,
+  //   alors qu'aucune ne l'est (il faut repasser par le continent, donc un second ferry, pour
+  //   aller par exemple de Texel à Terschelling). Chacune n'est reliée qu'au continent, jamais
+  //   directement à une autre île Wadden — voir la boucle juste après qui génère les 5 entrées.
+  var WADDEN_ISLANDS = ['texel', 'vlieland', 'terschelling', 'ameland', 'schiermonnikoog'];
   var FERRY_ROUTES = {
     'continental|corsica': { routeKey:'ferry.route.corsica', durationH:8.5, distanceKm:250, priceByClass:{1:90, 2:140, 5:40, foot:40} },
     'balearic|continental': { routeKey:'ferry.route.balearic', durationH:7.5, distanceKm:230, priceByClass:{1:135, 2:200, 5:55, foot:50} },
     'canary|continental': { routeKey:'ferry.route.canary', durationH:41, distanceKm:1700, priceByClass:{1:280, 2:420, 5:130, foot:150} }
   };
+  WADDEN_ISLANDS.forEach(function(island){
+    FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
+  });
   function landmassKey(a, b){ return [a, b].sort().join('|'); }
   function ferryRouteFor(a, b){ return (a === b) ? null : (FERRY_ROUTES[landmassKey(a, b)] || null); }
   // Détecte la masse continentale d'une commune : son pays pour la France (le champ dept y est un
@@ -266,6 +290,19 @@
       // FERRY_ROUTES — pas une omission, l'absence de vraie liaison maritime régulière.
       if(c.lon <= -20) return 'azores';
       if(c.lon <= -14) return 'madeira';
+      return 'continental';
+    }
+    if(c.country === 'NL'){
+      // Cinq îles Wadden, chacune sa propre commune aux Pays-Bas (contrairement à la Corse/aux
+      // Baléares, le champ dept y est directement exploitable — un nom de commune, pas un simple
+      // nom de région comme pour le reste de l'Espagne/Portugal). Une étiquette PAR île (voir
+      // WADDEN_ISLANDS/FERRY_ROUTES plus haut) — jamais "wadden" tout court, sans quoi le moteur
+      // les aurait crues reliées entre elles par la route. Repli sur une simple recherche de
+      // sous-chaîne (pas d'égalité stricte) : une coquille du dump GeoNames orthographie l'une
+      // d'elles "Ameland Municipalitye".
+      for(var wi=0; wi<WADDEN_ISLANDS.length; wi++){
+        if(new RegExp(WADDEN_ISLANDS[wi], 'i').test(c.dept || '')) return 'wadden-' + WADDEN_ISLANDS[wi];
+      }
       return 'continental';
     }
     return 'continental'; // Andorre, Belgique — déjà reliées au continent par la route
@@ -1375,6 +1412,10 @@
         candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 0).filter(reachable0);
         if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
       }
+      // Toujours rien même avec ce repli élargi (arrive surtout depuis une toute petite île sans
+      // ferry activé, ou avec des contraintes de distance trop serrées) : itinéraire vide plutôt
+      // qu'un plantage juste en dessous — generate() sait déjà afficher un message clair pour ça.
+      if(candidates.length===0) return [];
       // Tirage uniforme, voir buildRealRoute pour le détail de pourquoi (tout score, même modeste,
       // écrase le hasard sur un aussi grand bassin de candidats).
       var stop = candidates[randInt(0, candidates.length-1)].commune;
@@ -1420,6 +1461,13 @@
     var numStops = randInt(minStops, maxPossibleStops);
     var route = buildRealRoute(cLat, cLon, startLandmass, maxRadiusKm, numStops, avoidNorm, minDist, maxDist, ferryEnabled);
     if(route.length === 0) route = buildRealRoute(cLat, cLon, startLandmass, Math.max(maxRadiusKm, 300), 1, null, 0, maxDist, ferryEnabled);
+    // Aucune commune trouvable même avec ce repli élargi (arrive surtout depuis une toute petite
+    // île — Corse mise à part, quelques dizaines de communes seulement — sans ferry activé, ou
+    // avec des contraintes de distance trop serrées pour son bassin de candidats) : mieux vaut
+    // remonter un itinéraire vide, que generate() sait déjà signaler proprement (voir
+    // "error.routeImpossible"), que de laisser distributeNights planter sur un tableau vide juste
+    // après.
+    if(route.length === 0) return [];
     var nights = distributeNights(route, totalNights);
 
     var dayCounter = 0;

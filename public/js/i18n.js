@@ -26,7 +26,7 @@
       'hero.eyebrow': 'Générateur de road trip mystère',
       'hero.title': "Cap sur l'inconnu",
       'hero.subtitle': "votre prochaine escapade n'a pas encore de nom",
-      'hero.lede': "Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à {maxDays} jours et {maxStops} villes — parmi les communes de France, d'Andorre, d'Espagne, du Portugal et de Belgique, et une liste à emporter, le tout dans votre budget.",
+      'hero.lede': "Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à {maxDays} jours et {maxStops} villes — parmi les communes de France, d'Andorre, d'Espagne, du Portugal, de Belgique et des Pays-Bas, et une liste à emporter, le tout dans votre budget.",
       'hero.disclaimer': "Communes, distances, péages et points d'intérêt reposent sur des données officielles (IGN/GeoNames, guides tarifaires des sociétés d'autoroutes, OpenStreetMap). Les temps de trajet et prix restent des estimations — vérifiez toujours l'itinéraire réel et la disponibilité des hébergements avant de partir.",
 
       'form.heading': 'Feuille de route',
@@ -59,7 +59,7 @@
       'form.transport.velo': 'Vélo / bikepacking',
       'form.toll.label': 'Autoroutes à péage autorisées',
       'form.ferry.label': 'Traversées en ferry autorisées (îles)',
-      'form.ferry.hint': 'Coché : le tirage peut inclure la Corse, les Baléares ou les Canaries, reliées par une vraie ligne de ferry (jamais par avion).',
+      'form.ferry.hint': 'Coché : le tirage peut inclure la Corse, les Baléares, les Canaries ou les îles Wadden, reliées par une vraie ligne de ferry (jamais par avion).',
       'form.tent.label': 'Éviter le bivouac et la nuit sous tente',
       'form.tent.hint': 'Coché : les nuitées à la belle étoile en budget économique sont remplacées par une formule cabane/yourte/gîte.',
       'form.radius.label': 'Limite de rayon',
@@ -133,6 +133,7 @@
       'ferry.route.corsica': 'Continent ↔ Corse',
       'ferry.route.balearic': 'Continent ↔ Baléares',
       'ferry.route.canary': 'Continent ↔ Canaries',
+      'ferry.route.wadden': 'Continent ↔ îles Wadden',
       'toll.label': 'Péage (barème ASF 2026)',
       'toll.barrierFree': 'péage à flux libre, sans barrière (facturation automatique par caméra)',
       'toll.barrierClassic': 'péage classique avec barrière',
@@ -205,7 +206,7 @@
 
       'again.button': 'Retirer une autre destination',
 
-      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal et la Belgique. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal) — autoroutes gratuites en Belgique et en Andorre.",
+      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique et les Pays-Bas. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal) — autoroutes gratuites en Belgique, en Andorre et aux Pays-Bas.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': 'Politique de confidentialité',
 
@@ -232,7 +233,7 @@
       'hero.eyebrow': 'Mystery road trip generator',
       'hero.title': 'Cap on the unknown',
       'hero.subtitle': "your next getaway doesn't have a name yet",
-      'hero.lede': "Enter your starting point and constraints. The machine randomly draws a real day-by-day itinerary — up to {maxDays} days and {maxStops} towns — among the towns of France, Andorra, Spain, Portugal and Belgium, plus a packing list, all within your budget.",
+      'hero.lede': "Enter your starting point and constraints. The machine randomly draws a real day-by-day itinerary — up to {maxDays} days and {maxStops} towns — among the towns of France, Andorra, Spain, Portugal, Belgium and the Netherlands, plus a packing list, all within your budget.",
       'hero.disclaimer': "Towns, distances, tolls and points of interest are based on official data (IGN/GeoNames, motorway operators' rate guides, OpenStreetMap). Travel times and prices remain estimates — always double-check the real itinerary and accommodation availability before you leave.",
 
       'form.heading': 'Trip sheet',
@@ -265,7 +266,7 @@
       'form.transport.velo': 'Bike / bikepacking',
       'form.toll.label': 'Toll motorways allowed',
       'form.ferry.label': 'Ferry crossings allowed (islands)',
-      'form.ferry.hint': 'Checked: the draw can include Corsica, the Balearic Islands or the Canary Islands, connected by a real ferry line (never by plane).',
+      'form.ferry.hint': 'Checked: the draw can include Corsica, the Balearic Islands, the Canary Islands or the Wadden Islands, connected by a real ferry line (never by plane).',
       'form.tent.label': 'Avoid wild camping / tent nights',
       'form.tent.hint': 'Checked: budget-tier wild-camping nights are replaced with a cabin/yurt/gîte stay.',
       'form.radius.label': 'Radius limit',
@@ -339,6 +340,7 @@
       'ferry.route.corsica': 'Mainland ↔ Corsica',
       'ferry.route.balearic': 'Mainland ↔ Balearic Islands',
       'ferry.route.canary': 'Mainland ↔ Canary Islands',
+      'ferry.route.wadden': 'Mainland ↔ Wadden Islands',
       'toll.label': 'Toll (ASF 2026 rate guide)',
       'toll.barrierFree': 'free-flow toll, no barrier (automatic camera billing)',
       'toll.barrierClassic': 'classic barrier toll',
@@ -411,7 +413,7 @@
 
       'again.button': 'Draw another destination',
 
-      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal and Belgium. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal) — free motorways in Belgium and Andorra.",
+      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium and the Netherlands. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal) — free motorways in Belgium, Andorra and the Netherlands.",
       'footer.legalMentions': 'Legal notice',
       'footer.privacyPolicy': 'Privacy policy',
 
@@ -438,7 +440,7 @@
       'hero.eyebrow': 'Generador de road trips misteriosos',
       'hero.title': 'Rumbo a lo desconocido',
       'hero.subtitle': 'tu próxima escapada todavía no tiene nombre',
-      'hero.lede': "Indica tu punto de partida y tus condiciones. La máquina sortea un itinerario real día a día — hasta {maxDays} días y {maxStops} ciudades — entre los municipios de Francia, Andorra, España, Portugal y Bélgica, además de una lista de equipaje, todo dentro de tu presupuesto.",
+      'hero.lede': "Indica tu punto de partida y tus condiciones. La máquina sortea un itinerario real día a día — hasta {maxDays} días y {maxStops} ciudades — entre los municipios de Francia, Andorra, España, Portugal, Bélgica y los Países Bajos, además de una lista de equipaje, todo dentro de tu presupuesto.",
       'hero.disclaimer': 'Los municipios, distancias, peajes y puntos de interés se basan en datos oficiales (IGN/GeoNames, guías de tarifas de las autopistas, OpenStreetMap). Los tiempos de trayecto y precios son estimaciones — comprueba siempre el itinerario real y la disponibilidad de alojamiento antes de partir.',
 
       'form.heading': 'Hoja de ruta',
@@ -471,7 +473,7 @@
       'form.transport.velo': 'Bicicleta / bikepacking',
       'form.toll.label': 'Autopistas de peaje permitidas',
       'form.ferry.label': 'Travesías en ferry permitidas (islas)',
-      'form.ferry.hint': 'Marcado: el sorteo puede incluir Córcega, las Baleares o las Canarias, unidas por una línea de ferry real (nunca en avión).',
+      'form.ferry.hint': 'Marcado: el sorteo puede incluir Córcega, las Baleares, las Canarias o las islas Frisias, unidas por una línea de ferry real (nunca en avión).',
       'form.tent.label': 'Evitar la acampada libre y dormir en tienda',
       'form.tent.hint': 'Marcado: las noches a la intemperie en presupuesto económico se sustituyen por una opción de cabaña/yurta/casa rural.',
       'form.radius.label': 'Límite de radio',
@@ -545,6 +547,7 @@
       'ferry.route.corsica': 'Continente ↔ Córcega',
       'ferry.route.balearic': 'Continente ↔ Baleares',
       'ferry.route.canary': 'Continente ↔ Canarias',
+      'ferry.route.wadden': 'Continente ↔ islas Frisias',
       'toll.label': 'Peaje (tarifa ASF 2026)',
       'toll.barrierFree': 'peaje de flujo libre, sin barrera (cobro automático por cámara)',
       'toll.barrierClassic': 'peaje clásico con barrera',
@@ -617,7 +620,7 @@
 
       'again.button': 'Sortear otro destino',
 
-      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal y Bélgica. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal) — autopistas gratuitas en Bélgica y Andorra.",
+      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica y los Países Bajos. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal) — autopistas gratuitas en Bélgica, Andorra y los Países Bajos.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidad',
 
@@ -644,7 +647,7 @@
       'hero.eyebrow': 'Gerador de road trips misteriosos',
       'hero.title': 'Rumo ao desconhecido',
       'hero.subtitle': 'a sua próxima escapadela ainda não tem nome',
-      'hero.lede': "Indique o seu ponto de partida e as suas condições. A máquina sorteia um itinerário real dia a dia — até {maxDays} dias e {maxStops} cidades — entre os municípios de França, Andorra, Espanha, Portugal e Bélgica, mais uma lista de bagagem, tudo dentro do seu orçamento.",
+      'hero.lede': "Indique o seu ponto de partida e as suas condições. A máquina sorteia um itinerário real dia a dia — até {maxDays} dias e {maxStops} cidades — entre os municípios de França, Andorra, Espanha, Portugal, Bélgica e os Países Baixos, mais uma lista de bagagem, tudo dentro do seu orçamento.",
       'hero.disclaimer': 'Municípios, distâncias, portagens e pontos de interesse baseiam-se em dados oficiais (IGN/GeoNames, tabelas tarifárias das concessionárias de autoestradas, OpenStreetMap). Os tempos de viagem e preços são estimativas — verifique sempre o itinerário real e a disponibilidade de alojamento antes de partir.',
 
       'form.heading': 'Folha de rota',
@@ -677,7 +680,7 @@
       'form.transport.velo': 'Bicicleta / bikepacking',
       'form.toll.label': 'Autoestradas com portagem permitidas',
       'form.ferry.label': 'Travessias de ferry permitidas (ilhas)',
-      'form.ferry.hint': 'Marcado: o sorteio pode incluir a Córsega, as Baleares ou as Canárias, ligadas por uma linha de ferry real (nunca de avião).',
+      'form.ferry.hint': 'Marcado: o sorteio pode incluir a Córsega, as Baleares, as Canárias ou as ilhas Frísias, ligadas por uma linha de ferry real (nunca de avião).',
       'form.tent.label': 'Evitar bivaque e dormir em tenda',
       'form.tent.hint': 'Marcado: as noites ao relento no orçamento económico são substituídas por uma opção de cabana/yurte/casa de campo.',
       'form.radius.label': 'Limite de raio',
@@ -751,6 +754,7 @@
       'ferry.route.corsica': 'Continente ↔ Córsega',
       'ferry.route.balearic': 'Continente ↔ Baleares',
       'ferry.route.canary': 'Continente ↔ Canárias',
+      'ferry.route.wadden': 'Continente ↔ ilhas Frísias',
       'toll.label': 'Portagem (tabela ASF 2026)',
       'toll.barrierFree': 'portagem de fluxo livre, sem barreira (cobrança automática por câmara)',
       'toll.barrierClassic': 'portagem clássica com barreira',
@@ -823,7 +827,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal e Bélgica. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal) — autoestradas gratuitas na Bélgica e em Andorra.",
+      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica e os Países Baixos. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal) — autoestradas gratuitas na Bélgica, em Andorra e nos Países Baixos.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidade',
 
@@ -850,7 +854,7 @@
       'hero.eyebrow': 'Mysterieuze roadtripgenerator',
       'hero.title': 'Koers naar het onbekende',
       'hero.subtitle': 'je volgende uitstapje heeft nog geen naam',
-      'hero.lede': "Vul je vertrekpunt en je voorwaarden in. De machine loot dag na dag een echte reisroute — tot {maxDays} dagen en {maxStops} steden — tussen de gemeenten van Frankrijk, Andorra, Spanje, Portugal en België, plus een paklijst, alles binnen je budget.",
+      'hero.lede': "Vul je vertrekpunt en je voorwaarden in. De machine loot dag na dag een echte reisroute — tot {maxDays} dagen en {maxStops} steden — tussen de gemeenten van Frankrijk, Andorra, Spanje, Portugal, België en Nederland, plus een paklijst, alles binnen je budget.",
       'hero.disclaimer': 'Gemeenten, afstanden, tol en bezienswaardigheden zijn gebaseerd op officiële gegevens (IGN/GeoNames, tarievengidsen van de snelwegbeheerders, OpenStreetMap). Reistijden en prijzen blijven schattingen — controleer altijd de werkelijke route en de beschikbaarheid van accommodatie voordat je vertrekt.',
 
       'form.heading': 'Reisblad',
@@ -883,7 +887,7 @@
       'form.transport.velo': 'Fiets / bikepacking',
       'form.toll.label': 'Tolwegen toegestaan',
       'form.ferry.label': 'Veerbootoversteken toegestaan (eilanden)',
-      'form.ferry.hint': 'Aangevinkt: de loting kan Corsica, de Balearen of de Canarische Eilanden bevatten, verbonden via een echte veerbootlijn (nooit per vliegtuig).',
+      'form.ferry.hint': 'Aangevinkt: de loting kan Corsica, de Balearen, de Canarische Eilanden of de Waddeneilanden bevatten, verbonden via een echte veerbootlijn (nooit per vliegtuig).',
       'form.tent.label': 'Wildkamperen en overnachten in een tent vermijden',
       'form.tent.hint': 'Aangevinkt: overnachtingen onder de blote hemel bij budgetreizen worden vervangen door een hut/yurt/gîte.',
       'form.radius.label': 'Straal-limiet',
@@ -957,6 +961,7 @@
       'ferry.route.corsica': 'Vasteland ↔ Corsica',
       'ferry.route.balearic': 'Vasteland ↔ Balearen',
       'ferry.route.canary': 'Vasteland ↔ Canarische Eilanden',
+      'ferry.route.wadden': 'Vasteland ↔ Waddeneilanden',
       'toll.label': 'Tol (ASF-tarief 2026)',
       'toll.barrierFree': 'vrije doorstroming, geen slagboom (automatische facturatie via camera)',
       'toll.barrierClassic': 'klassieke tol met slagboom',
@@ -1029,7 +1034,7 @@
 
       'again.button': 'Nog een bestemming loten',
 
-      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal en België. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal) — gratis snelwegen in België en Andorra.",
+      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België en Nederland. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal) — gratis snelwegen in België, Andorra en Nederland.",
       'footer.legalMentions': 'Wettelijke vermeldingen',
       'footer.privacyPolicy': 'Privacybeleid',
 
@@ -1056,7 +1061,7 @@
       'hero.eyebrow': 'Geheimnisvoller Roadtrip-Generator',
       'hero.title': 'Kurs auf das Unbekannte',
       'hero.subtitle': 'dein nächster Kurztrip hat noch keinen Namen',
-      'hero.lede': "Gib deinen Startort und deine Bedingungen an. Die Maschine würfelt Tag für Tag eine echte Route aus — bis zu {maxDays} Tage und {maxStops} Städte — unter den Gemeinden Frankreichs, Andorras, Spaniens, Portugals und Belgiens, dazu eine Packliste, alles innerhalb deines Budgets.",
+      'hero.lede': "Gib deinen Startort und deine Bedingungen an. Die Maschine würfelt Tag für Tag eine echte Route aus — bis zu {maxDays} Tage und {maxStops} Städte — unter den Gemeinden Frankreichs, Andorras, Spaniens, Portugals, Belgiens und der Niederlande, dazu eine Packliste, alles innerhalb deines Budgets.",
       'hero.disclaimer': 'Gemeinden, Entfernungen, Mautgebühren und Sehenswürdigkeiten basieren auf offiziellen Daten (IGN/GeoNames, Tarifübersichten der Autobahnbetreiber, OpenStreetMap). Fahrzeiten und Preise bleiben Schätzungen — prüfe vor der Abfahrt immer die tatsächliche Route und die Verfügbarkeit der Unterkünfte.',
 
       'form.heading': 'Reiseblatt',
@@ -1089,7 +1094,7 @@
       'form.transport.velo': 'Fahrrad / Bikepacking',
       'form.toll.label': 'Mautautobahnen erlaubt',
       'form.ferry.label': 'Fährüberfahrten erlaubt (Inseln)',
-      'form.ferry.hint': 'Aktiviert: Die Auslosung kann Korsika, die Balearen oder die Kanarischen Inseln einschließen, verbunden durch eine echte Fährlinie (nie per Flugzeug).',
+      'form.ferry.hint': 'Aktiviert: Die Auslosung kann Korsika, die Balearen, die Kanarischen Inseln oder die Wattenmeerinseln einschließen, verbunden durch eine echte Fährlinie (nie per Flugzeug).',
       'form.tent.label': 'Wildcampen und Zeltnächte vermeiden',
       'form.tent.hint': 'Aktiviert: Nächte unter freiem Himmel im günstigen Budget werden durch Hütte/Jurte/Gîte ersetzt.',
       'form.radius.label': 'Radiusbegrenzung',
@@ -1163,6 +1168,7 @@
       'ferry.route.corsica': 'Festland ↔ Korsika',
       'ferry.route.balearic': 'Festland ↔ Balearen',
       'ferry.route.canary': 'Festland ↔ Kanarische Inseln',
+      'ferry.route.wadden': 'Festland ↔ Wattenmeerinseln',
       'toll.label': 'Maut (ASF-Tarif 2026)',
       'toll.barrierFree': 'freie Durchfahrt ohne Schranke (automatische Erfassung per Kamera)',
       'toll.barrierClassic': 'klassische Mautstelle mit Schranke',
@@ -1235,7 +1241,7 @@
 
       'again.button': 'Neues Ziel auslosen',
 
-      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal und Belgien. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal) — mautfreie Autobahnen in Belgien und Andorra.",
+      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien und die Niederlande. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal) — mautfreie Autobahnen in Belgien, Andorra und den Niederlanden.",
       'footer.legalMentions': 'Impressum',
       'footer.privacyPolicy': 'Datenschutzerklärung',
 
