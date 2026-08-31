@@ -1,0 +1,10 @@
+fr;Sanctuaire de Meritxeli;Meritxell
+fr;Escaldes-Engordany;les Escaldes
+es;Escaldes-Engordany;les Escaldes
+en;Escaldes-Engordany;les Escaldes
+de;Escaldes-Engordany;les Escaldes
+nl;Escaldes-Engordany;les Escaldes
+pt;Escaldes-Engordany;les Escaldes
+fr;Andorre-la-Vieille;Andorra la Vella
+pt;Andorra-a-Velha;Andorra la Vella
+en;Bordes de Envalira;Bordes d'Envalira

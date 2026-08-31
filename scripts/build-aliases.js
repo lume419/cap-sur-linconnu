@@ -1,0 +1,142 @@
+// Construit public/data/aliases-XX.txt : correspondances "nom dans une autre langue -> nom
+// canonique" pour les communes andorranes/espagnoles/portugaises/belges, à partir du fichier
+// GeoNames alternateNamesV2 (download.geonames.org/export/dump/alternatenames/XX.zip — mêmes
+// données que le dump utilisé par build-country-communes.js, mais avec les noms alternatifs
+// étiquetés par langue ISO, justement conçues pour ce genre de besoin). Permet de saisir une ville
+// dans la langue choisie pour l'interface (ex. "Anvers" en français pour la commune belge stockée
+// sous son nom néerlandais "Antwerpen" — voir js/app.js, searchCommunes) plutôt que seulement son
+// nom local.
+//
+// La France n'est PAS couverte ici : ses communes viennent de geo.api.gouv.fr (IGN/Etalab), pas de
+// GeoNames — aucun geonameid n'est disponible pour les y relier. Les grandes villes françaises ont
+// de toute façon presque toujours le même nom d'une langue à l'autre (Paris, Lyon, Marseille...),
+// contrairement aux villes des quatre autres pays où l'écart est plus fréquent (Bruxelles/Brussels/
+// Brussel, Séville/Sevilla/Seville...) : le gain attendu pour la France serait donc marginal, pour
+// un effort disproportionné (reconstituer un rapprochement fiable geonameid <-> commune IGN).
+//
+// Reproduit ICI la même extraction que build-country-communes.js (mêmes filtres, même
+// dédoublonnage, même jointure code postal) plutôt que d'appeler ce script : le seul besoin
+// supplémentaire est de garder le geonameid sur l'entrée choisie, pour la relier ensuite aux noms
+// alternatifs — dupliquer ce petit calcul évite de complexifier l'autre script, déjà stable, pour
+// un besoin qui ne concerne que celui-ci.
+const fs = require('fs');
+const path = require('path');
+
+const COUNTRIES = ['AD', 'ES', 'PT', 'BE'];
+const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
+// Les six langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
+// langue non encore proposée ne servirait à rien pour l'instant.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de']);
+const NAME_OVERRIDES = {
+  'Lisbon': 'Lisboa',
+  'Brussels': 'Bruxelles',
+  'Antwerp': 'Antwerpen',
+  'Ostend': 'Oostende',
+  'Saint-Vith': 'Sankt Vith'
+};
+
+function haversineKm(lat1, lon1, lat2, lon2){
+  const R = 6371;
+  const dLat = (lat2-lat1) * Math.PI/180, dLon = (lon2-lon1) * Math.PI/180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+function buildGrid(points){
+  const grid = new Map();
+  const cell = (lat, lon) => Math.round(lat*10) + '_' + Math.round(lon*10);
+  points.forEach(p => {
+    const k = cell(p.lat, p.lon);
+    if(!grid.has(k)) grid.set(k, []);
+    grid.get(k).push(p);
+  });
+  return { grid, cell };
+}
+function nearest(gridObj, lat, lon, maxKm){
+  const { grid } = gridObj;
+  const cLat = Math.round(lat*10), cLon = Math.round(lon*10);
+  let best = null, bestDist = Infinity;
+  for(let dLat=-1; dLat<=1; dLat++){
+    for(let dLon=-1; dLon<=1; dLon++){
+      const bucket = grid.get((cLat+dLat) + '_' + (cLon+dLon));
+      if(!bucket) continue;
+      for(const p of bucket){
+        const d = haversineKm(lat, lon, p.lat, p.lon);
+        if(d < bestDist){ bestDist = d; best = p; }
+      }
+    }
+  }
+  return (best && bestDist <= maxKm) ? best : null;
+}
+// Normalisation légère (minuscules, sans accents) pour comparer un alias au nom canonique et
+// écarter les paires identiques (ex. beaucoup de lignes GeoNames répètent juste le nom local sous
+// plusieurs codes langue — "Sant Julià de Lòria" en de/pt/nl : ce n'est pas une vraie traduction).
+function normalize(s){
+  return String(s || '').trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
+
+for(const country of COUNTRIES){
+  const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
+  const postalRaw = fs.readFileSync(path.join(__dirname, 'postal', country + '_postal.txt'), 'utf8');
+  const altRaw = fs.readFileSync(path.join(__dirname, 'altnames', country + '.txt'), 'utf8');
+
+  const postalPoints = postalRaw.split('\n').filter(Boolean).map(line => {
+    const c = line.split('\t');
+    return { postcode: c[1], code1: c[4] || '', lat: parseFloat(c[9]), lon: parseFloat(c[10]) };
+  }).filter(p => !isNaN(p.lat) && !isNaN(p.lon));
+  const postalGrid = buildGrid(postalPoints);
+  const postalByAdmin1Code = new Map();
+  if(country === 'AD'){
+    postalPoints.forEach(p => { if(p.code1) postalByAdmin1Code.set(p.code1, p); });
+  }
+
+  const rows = dumpRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
+  const places = rows
+    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
+    .map(c => ({
+      geonameid: c[0],
+      name: NAME_OVERRIDES[c[1]] || c[1],
+      lat: parseFloat(c[4]),
+      lon: parseFloat(c[5]),
+      admin1Code: c[10] || '',
+      pop: parseInt(c[14], 10) || 0
+    }))
+    .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
+
+  const seen = new Map();
+  for(const p of places){
+    const key = p.name.toLowerCase() + '|' + p.lat.toFixed(2) + '|' + p.lon.toFixed(2);
+    const existing = seen.get(key);
+    if(!existing || p.pop > existing.pop) seen.set(key, p);
+  }
+  // geonameid -> nom canonique final, UNIQUEMENT pour les communes qui ont bien survécu à la
+  // jointure code postal (donc réellement présentes dans public/data/communes-XX.txt) — un alias
+  // pointant vers une commune absente du fichier ne servirait à rien côté recherche.
+  const canonicalByGeonameId = new Map();
+  for(const p of seen.values()){
+    const near = (country === 'AD') ? (postalByAdmin1Code.get(p.admin1Code) || null) : nearest(postalGrid, p.lat, p.lon, 15);
+    if(near) canonicalByGeonameId.set(p.geonameid, p.name);
+  }
+
+  // Fichier alternateNames : alternateNameId, geonameid, isolanguage, alternate name,
+  // isPreferredName, isShortName, isColloquial, isHistoric, from, to.
+  const aliasRows = altRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
+  const seenAlias = new Set(); // dédoublonnage (lang, alias, canonical) — plusieurs lignes GeoNames
+  // donnent parfois exactement la même correspondance (variantes préférée/courte du même nom).
+  const out = [];
+  for(const c of aliasRows){
+    const geonameid = c[1], lang = c[2], alt = c[3], isHistoric = c[7];
+    if(!SUPPORTED_LANGS.has(lang)) continue;
+    if(isHistoric === '1') continue;
+    const canonical = canonicalByGeonameId.get(geonameid);
+    if(!canonical || !alt) continue;
+    if(normalize(alt) === normalize(canonical)) continue; // pas une vraie variante
+    const dedupeKey = lang + '|' + normalize(alt) + '|' + canonical;
+    if(seenAlias.has(dedupeKey)) continue;
+    seenAlias.add(dedupeKey);
+    out.push(`${lang};${alt};${canonical}`);
+  }
+
+  const outPath = path.join(__dirname, '..', 'public', 'data', 'aliases-' + country.toLowerCase() + '.txt');
+  fs.writeFileSync(outPath, out.join('\n') + (out.length ? '\n' : ''), 'utf8');
+  console.log(country, ':', canonicalByGeonameId.size, 'communes couvertes ->', out.length, 'alias ->', outPath);
+}

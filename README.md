@@ -3,7 +3,8 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique — voir "Pays couverts" plus bas pour
 l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap), de vrais tarifs de péage et
-une carte interactive (Leaflet + tuiles OpenStreetMap).
+une carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français, anglais,
+espagnol, portugais, néerlandais et allemand (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -15,7 +16,8 @@ cap-sur-linconnu/
 ├── package.json
 ├── server.js              # Express : sert public/ tel quel + une route GET /api/photo
 ├── scripts/
-│   └── build-country-communes.js  # génère public/data/communes-XX.txt pour un nouveau pays (GeoNames)
+│   ├── build-country-communes.js  # génère public/data/communes-XX.txt pour un nouveau pays (GeoNames)
+│   └── build-aliases.js           # génère public/data/aliases-XX.txt (noms multilingues, GeoNames)
 ├── public/
 │   ├── index.html
 │   ├── mentions-legales.html
@@ -25,6 +27,7 @@ cap-sur-linconnu/
 │   ├── sitemap.xml
 │   ├── css/style.css
 │   ├── js/app.js          # toute la génération d'itinéraire (client-side)
+│   ├── js/i18n.js         # dictionnaire de traduction + sélecteur de langue (voir "Langues")
 │   ├── js/theme.js        # bascule clair/sombre/auto, partagée par les 3 pages
 │   ├── vendor/leaflet/    # Leaflet (BSD-2-Clause), hébergé localement — moteur de la carte du parcours
 │   └── data/
@@ -33,6 +36,10 @@ cap-sur-linconnu/
 │       ├── communes-es.txt     # ~29 000 lieux espagnols, même format
 │       ├── communes-pt.txt     # ~16 500 lieux portugais, même format
 │       ├── communes-be.txt     # ~12 500 lieux belges, même format
+│       ├── aliases-ad.txt      # noms alternatifs multilingues (voir "Langues") pour l'Andorre
+│       ├── aliases-es.txt      # idem pour l'Espagne (~1 700 alias)
+│       ├── aliases-pt.txt      # idem pour le Portugal
+│       ├── aliases-be.txt      # idem pour la Belgique
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -67,6 +74,36 @@ d'autres viendront. Chaque pays ajoute deux choses, indépendamment des autres :
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
 des coordonnées valides.
+
+Optionnel : **des alias multilingues** pour saisir une ville dans une autre langue que son nom
+local (voir "Langues" ci-dessous, `scripts/build-aliases.js`) — non disponible pour la France (ses
+communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun identifiant commun pour les relier aux
+noms alternatifs GeoNames).
+
+## Langues
+
+Interface traduite en français, anglais, espagnol, portugais, néerlandais et allemand (`public/js/
+i18n.js` — dictionnaire à plat par langue + petit moteur `t(clé, variables)`/`tl(clé)` pour les
+listes). Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour
+accueillir d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme
+le thème) et, à défaut, détecté depuis la langue du navigateur. Un changement de langue en cours de
+session retraduit aussi bien le formulaire qu'un itinéraire déjà affiché, sans le retirer au sort
+(voir l'écouteur `i18n:langchange` dans `app.js`) — un `leg.__poiUpgradeStarted` (même principe que
+`leg.__hikePromise`, déjà utilisé pour les randonnées) garantit qu'aucun ré-affichage ne redemande
+Overpass/Visorando ni ne reconsomme la file de points d'intérêt partagée entre les jours d'un même
+séjour.
+
+Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
+en français (texte juridique dense, hors du périmètre de ce premier passage).
+
+**Saisir une ville dans une autre langue** (ex. "Anvers" plutôt que "Antwerpen", "Séville" plutôt
+que "Sevilla") : `scripts/build-aliases.js` télécharge le fichier GeoNames `alternateNamesV2` par
+pays (noms alternatifs déjà étiquetés par langue ISO — la source faite pour ce besoin, plutôt qu'une
+petite table maintenue à la main) et produit `public/data/aliases-XX.txt` (une ligne par alias :
+`langue;alias;nom canonique`). Chargés au démarrage comme les fichiers de communes, ils élargissent
+simplement la recherche (`searchCommunes` dans `app.js`) : un alias reconnu, dans n'importe laquelle
+des langues couvertes, résout vers la commune réelle avec son vrai nom local — jamais l'alias saisi,
+qui n'était qu'un moyen de la trouver.
 
 Les activités (points d'intérêt OpenStreetMap) et les photos (Wikipédia) fonctionnent déjà pour
 n'importe quel pays sans réglage supplémentaire — seule l'extraction de la section "Lieux et
@@ -225,6 +262,8 @@ au chargement.
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
 - Communes andorranes/espagnoles/portugaises/belges : [GeoNames](https://www.geonames.org) (licence
   [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
+- Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
+  voir "Langues" ci-dessus.
 - Points d'intérêt : [OpenStreetMap](https://www.openstreetmap.org) via l'API Overpass — figés dans
   `featured.txt` pour ~300 communes françaises, interrogés en direct via `/api/pois` pour les autres
   (voir "Activités réelles" ci-dessus), dans tous les pays couverts — © les contributeurs

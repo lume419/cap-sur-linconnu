@@ -1,0 +1,88 @@
+pt;Vila Fresca de Azeitão;Vila Fresca
+pt;São Simão;Vila Fresca
+en;Vila de Porto Santo;Vila Baleira
+en;Tavira Municipality;Tavira
+en;Sines Municipality;Sines
+de;Sao Martinho;São Martinho do Porto
+pt;Santo António da Serra;Santo da Serra
+de;Santo André (Setúbal);Santo André
+de;Santa Cruz (Madeira);Santa Cruz
+de;Ponta Delgada (Madeira);Ponta Delgada
+es;Santa Maria dos Olivais;Olivais
+fr;Santa Maria dos Olivais;Olivais
+nl;Santa Maria dos Olivais;Olivais
+de;Olhos d'Agua;Olhos de Água
+pt;Mira d’Aire;Mira
+de;Lissabon;Lisboa
+en;Lisbon;Lisboa
+fr;Lisbonne;Lisboa
+nl;Lissabon;Lisboa
+en;Linda a Velha;Linda-a-Velha
+de;Lagos (Distrito de Faro);Lagos
+pt;Curvaceiras;Curvaceiras Pequenas
+pt;Charneca;Charneca de Caparica
+en;Castro Verde Municipality;Castro Verde
+pt;Pateta;Carvalhal
+en;Cape Roca;Cabo da Roca
+es;Cabo de la Roca;Cabo da Roca
+fr;Cap de Roca;Cabo da Roca
+nl;Rotskaap;Cabo da Roca
+fr;Tour de Belém;Belém
+es;Torre de Belém;Belém
+de;Torre de Belém;Belém
+en;Belém Tower;Belém
+nl;Torre de Belém;Belém
+pt;Torre de Belém;Belém
+pt;Arneiro;Arneiro dos Marinheiros
+de;Arco da Calheta, Madeira;Arco da Calheta
+pt;Alfouvés;Alfouvez
+en;Soure Municipality;Soure
+pt;Soza;Sosa
+pt;Póvoa do Rodrigo Alves;Póvoa de Tonda
+es;Oporto;Porto
+en;Peso da Régua Municipality;Peso da Régua
+pt;Paranhos da Beira;Paranhos
+es;Miranda del Duero;Miranda do Douro
+en;Matosinhos Municipality;Matosinhos
+de;Marco de Canaveses;Marco de Canavezes
+en;Marco de Canaveses;Marco de Canavezes
+nl;Marco de Canaveses;Marco de Canavezes
+pt;Marco de Canaveses;Marco de Canavezes
+es;Marco de Canaveses;Marco de Canavezes
+fr;Marco de Canaveses;Marco de Canavezes
+pt;Linhares da Beira;Linhares
+pt;Vila Boa do Mondego;Jejua
+pt;Cabanas;Ifanes
+es;Buscando a Magarzo;Gestoso
+fr;Gafanha da Nazaré;Gafanha
+en;Freixo de Espada à Cinta Municipality;Freixo de Espada à Cinta
+en;Figueira de Castelo Rodrigo Municipality;Figueira de Castelo Rodrigo
+en;Figueira da Foz Municipality;Figueira da Foz
+pt;Santa Maria da Feira;Feira
+fr;Bragance;Bragança
+es;Braganza;Bragança
+de;Braganza;Bragança
+en;Aguiar da Beira Municipality;Aguiar da Beira
+en;Águeda Municipality;Águeda
+pt;São Pedro da Afurada;Afurada de Baixo
+pt;Aboim;Aboim da Nóbrega
+pt;Praínha;Prainha de Cima
+en;Praya;Praia
+pt;Praia da Graciosa;Praia
+pt;Santa Cruz da Graciosa;Praia
+pt;São Mateus;Praia
+pt;Lajes do Pico;Lajes
+en;Lagens;Lajes das Flores
+fr;Corvo;Vila do Corvo
+es;Costa de Estoril;Costa do Estoril
+en;Campo Pequeno, Lisbon, Portugal;Campo Pequeno
+pt;Campo Pequeno, Lisboa;Campo Pequeno
+pt;Valença;Valenza
+es;Barrio Alto de Lisboa;Bairro Alto
+de;Ponta Delgada (Azores);Ponta Delgada
+pt;Costa de Caparica;Costa da Caparica
+pt;João Alvo;João Lavo
+pt;Adofreire;A-do-Freire
+pt;Catrivana;Catribana
+pt;Ribeira d' Elos;Ribeira de Elos
+pt;Ribeira d'Elos;Ribeira de Elos

@@ -1,0 +1,1686 @@
+es;La Zubia;Zubia
+es;Zahara;Zahara de los Atunes
+es;Villamarchante;Vilamarxant
+es;Villacarlos;Es Castell
+es;El Verger;Vergel
+es;Vélez-Rubio;Velez Rubio
+en;Velez-Rubio;Velez Rubio
+en;Velez Blanco;Vélez-Blanco
+es;Vallehermoso;Vallehermosa
+fr;Vallehermoso;Vallehermosa
+de;Vallehermoso;Vallehermosa
+en;Vallehermoso;Vallehermosa
+nl;Vallehermoso;Vallehermosa
+pt;Vallehermoso;Vallehermosa
+es;Valle Guerra;Valleguerra
+es;Valldemosa;Valldemossa
+fr;Valence;Valencia
+es;Valle la Verja;Valdeverdeja
+en;Uleila de Campo;Uleila del Campo
+en;Torre Pacheco;Torre-Pacheco
+es;Torrente;Torrent
+es;Torremanzanas;La Torre de les Maçanes
+es;La Horadada;Torre de la Horadada
+fr;Tolède;Toledo
+es;Tocón de Illora;Tocón
+es;Villa y Puerto de Tazacorte;Tazacorte
+es;Tabernes de Valldigna;Tavernes de la Valldigna
+es;Tabernes Blanques;Tavernes Blanques
+es;Sumacárcel;Sumacàrcer
+es;Son Verí;Son Verí Nou
+en;Son Verí;Son Verí Nou
+de;Son Verí;Son Verí Nou
+es;Simat de Valldigna;Simat de la Valldigna
+en;Seville;Sevilla
+fr;Séville;Sevilla
+pt;Sevilha;Sevilla
+es;Señera;Senyera
+es;El Sauzal;Sauzal
+fr;El Sauzal;Sauzal
+de;El Sauzal;Sauzal
+en;El Sauzal;Sauzal
+nl;El Sauzal;Sauzal
+pt;El Sauzal;Sauzal
+es;San Vicente del Raspeig;San Vicent del Raspeig
+es;San Vicente;San Vicent del Raspeig
+es;Sanvi;San Vicent del Raspeig
+en;Saint Vincent;San Vicente
+en;St. Vincent;San Vicente
+es;San Telmo;Sant Elm
+es;Santa Margarita;Santa Margalida
+es;Santa Lucía de Tirajana;Santa Lucía
+es;Santa Eulalia del Río;Santa Eulària des Riu
+pt;Santa Eulalia del Río;Santa Eulària des Riu
+en;Santa Eulalia del Rio;Santa Eulària des Riu
+en;Tenerife;Santa Cruz de Tenerife
+de;Teneriffa;Santa Cruz de Tenerife
+en;San Pedro;San Pedro Alcántara
+en;San Miguel;San Miguel de Salinas
+en;Sant Miguel de Balansat;Sant Miquel de Balansat
+fr;San Miguel de Balansat;Sant Miquel de Balansat
+es;San Miguel de Balansat;Sant Miquel de Balansat
+es;San Luis;Sant Lluís
+es;San Juan de Alicante;Sant Joan d'Alacant
+de;San Juan (bei Alicante);Sant Joan d'Alacant
+es;San Juan Bautista;Sant Joan de Labritja
+de;Playa San Juan;Playa de San Juan
+es;San Jose de la Atalaya;Sant Josep de sa Talaia
+en;San Jose;Sant Josep de sa Talaia
+es;San Francisco Javier;Sant Francesc de Formentera
+de;San Cristóbal de La Laguna;La Laguna
+en;San Cristóbal de La Laguna;La Laguna
+es;San Cristóbal de La Laguna;La Laguna
+fr;San Cristóbal de La Laguna;La Laguna
+nl;San Cristóbal de La Laguna;La Laguna
+pt;San Cristóbal de La Laguna;La Laguna
+es;San Carlos;Sant Carles de Peralta
+en;Caserío San Bartolomé;San Bartolomé
+es;San Antonio;Sant Antoni de Portmany
+pt;San Antonio;Sant Antoni de Portmany
+es;Bahia de San Antonio;Sant Antoni de Portmany
+en;Bahia de San Antonio;Sant Antoni de Portmany
+pt;Bahia de San Antonio;Sant Antoni de Portmany
+es;San Antonio Abad;Sant Antoni de Portmany
+es;Huerta de Santa Cruz;Santa Cruz
+es;Santa Cruz (Murcia);Santa Cruz
+es;Pedanía de Santa Cruz;Santa Cruz
+de;Sagunt;Sagunto
+fr;Sagonte;Sagunto
+nl;Saguntum;Sagunto
+es;Ribera de Molina;Ribera de Arriba
+es;Ribera de Molina;Ribera de Abajo
+es;Ribarroja;Ribarroja del Turia
+es;Real de Montroy;Real de Montroi
+es;Puzol;Puçol
+en;Punta Mujeres;Punta de Mujeres
+de;Punta Mujeres;Punta de Mujeres
+nl;Punta Mujeres;Punta de Mujeres
+es;Punta Mujeres;Punta de Mujeres
+es;Puerto Santiago;Puerto de Santiago
+es;Puebla Larga;La Pobla Llarga
+es;Puebla de Vallbona;La Pobla de Vallbona
+es;Pozorrubio de Santiago;Pozorrubio
+en;Portocristo;Porto Cristo
+en;Porto Cristo Novo;Porto Cristo
+en;Porto Colom;Portocolom
+es;Porreras;Porreres
+es;Polop de la Marina;Polop
+es;Pollensa;Pollença
+es;Poliña de Júcar;Polinyà de Xúquer
+fr;El Pinós;Pinoso
+es;Picasent;Picassent
+es;Picaña;Picanya
+de;Palma de Mallorca;Palma
+nl;Palma de Mallorca;Palma
+pt;Palma de Maiorca;Palma
+es;Palma de Mallorca;Palma
+es;Onteniente;Ontinyent
+es;Ollería;L'Olleria
+es;Muro de Alcoy;Muro del Alcoy
+fr;Murcie;Murcia
+es;Morro Jable;Morro del Jable
+en;Montserrat;Monserrat
+es;Monte Ruin;Monroy
+en;Monòver;Monóvar
+es;Moncofar;Moncofa
+es;Mojácar Pueblo;Mojacar
+en;Mojacar Pueblo;Mojacar
+es;Ciudad de Melilla;Melilla
+es;Ciudad Autónoma de Melilla;Melilla
+es;Medina-Sidonia;Medina Sidonia
+en;Medina-Sidonia;Medina Sidonia
+de;Medina-Sidonia;Medina Sidonia
+nl;Medina-Sidonia;Medina Sidonia
+pt;Medina-Sidonia;Medina Sidonia
+en;Marines el Viejo;Marines
+es;Aljarafe;Mairena del Aljarafe
+de;Mahon (Menorca);Maó
+es;Lugar Nuevo de San Jerónimo;Llocnou de Sant Jeroni
+es;Lugar Nuevo de Fenollet;Llocnou d'En Fenollet
+es;Luc Villos;Lucillos
+es;Luchente;Llutxent
+en;Canada de San Pedro;Los Martínez de Cañadas de San Pedro
+es;Los Caños;Los Caños de Meca
+en;Banos y Mendigo;Los Baños
+es;Llombay;Llombai
+es;Liria;Llíria
+es;Nuestra Señora del Pilar;La Virgen del Pilar
+es;Pilar de la Mola;La Virgen del Pilar
+pt;Las Palmas;Las Palmas de Gran Canaria
+es;Palmas de Gran Canaria;Las Palmas de Gran Canaria
+es;Las Palmas de G.C.;Las Palmas de Gran Canaria
+de;La Playa de Mogán;Puerto de Mogán
+de;Arguineguín;La Playa de Arguineguín
+pt;Arguineguín;La Playa de Arguineguín
+en;Arguineguín;La Playa de Arguineguín
+fr;Arguineguín;La Playa de Arguineguín
+es;Arguineguín;La Playa de Arguineguín
+nl;Arguineguín;La Playa de Arguineguín
+es;Lapeza;La Peza
+es;Orotava;La Orotava
+en;Muleria;La Mulería
+en;Oasis (La Marina);La Marina
+en;La Hoya;La Hoya Hermosa
+es;La Eliana;L'Eliana
+es;Jijona;Xixona
+es;Jerez;Jerez de la Frontera
+fr;Xérès;Jerez de la Frontera
+en;Jeres del Marquesado;Jérez del Marquesado
+es;Jeresa;Xeresa
+de;Xàbia;Javea
+nl;Xàbia;Javea
+pt;Xàbia;Javea
+en;Xàbia;Javea
+es;Játiva;Xàtiva
+fr;Xaló;Jalón
+de;Isla de Canela;Isla Canela
+de;Ibiza-Stadt;Ibiza
+nl;Ibiza-stad;Ibiza
+en;Ibiza Town;Ibiza
+en;Huercal Overa;Huercal-Overa
+es;Huércal Overa;Huercal-Overa
+fr;Huércal Overa;Huercal-Overa
+es;Higuera de Aracena;Higuera de la Sierra
+es;Guardamar;Guardamar del Segura
+es;Guardamar de la Segura;Guardamar del Segura
+es;Guadasuar;Guadassuar
+es;Guadalupe de Maciascoque;Guadalupe
+fr;Grenade;Granada
+nl;Grenada;Granada
+en;Garachiko;Garachico
+fr;Gandie;Gandia
+es;Gabarda;Gavarda
+es;Fuente la Higuera;La Font de la Figuera
+es;Fuente Álamo;Fuente-Álamo de Murcia
+es;Foyos;Foios
+es;Formentera del Segura;Formentera de Segura
+es;Fontanares;Fontanars dels Alforins
+es;Ferrerias;Ferreries
+en;Fernán Núñez;Fernán-Núñez
+es;Fernán Núñez;Fernán-Núñez
+nl;Fernán Núñez;Fernán-Núñez
+es;El Espartal;l'Espartal
+es;Énova;L'Ènova
+es;El Puerto;El Puerto de Santa María
+es;Puerto de Santa María;El Puerto de Santa María
+es;Pto. de Sta. María;El Puerto de Santa María
+es;Puerto de Sagunto;El Port de Sagunt
+en;Port de Sagunt;El Port de Sagunt
+es;Puerto de Sóller;Port de Sóller
+de;Port de Sóller (Mallorca);Port de Sóller
+es;Molinos Dalgurrea;El Molinillo
+en;Llano del Espino;El Llano del Espino
+es;Grao;El Grao
+de;Elx;Elche
+fr;Elx;Elche
+pt;Elx;Elche
+nl;Elx;Elche
+es;Rodalquilar;El Campillo de Rodalquilar
+es;El Arenal;s'Arenal
+de;El Arenal;s'Arenal
+es;El Alted;El Altet
+en;Los Abrigos;El Abrigo
+fr;Los Abrigos;El Abrigo
+es;Los Abrigos;El Abrigo
+nl;Los Abrigos;El Abrigo
+es;Daimuz;Daimús
+en;Cullar;Cúllar de Baza
+es;Cúllar;Cúllar de Baza
+es;Cúllar-Baza;Cúllar de Baza
+es;Cuatretonda;Quatretonda
+es;Cuartell;Quartell
+es;Cuart de Poblet;Quart de Poblet
+es;Cuart de les Valls;Quart de les Valls
+fr;Crevillent;Crevillente
+en;Crevillent;Crevillente
+nl;Crevillent;Crevillente
+pt;Crevillent;Crevillente
+en;Cordova;Córdoba
+fr;Cordoue;Córdoba
+pt;Córdova;Córdoba
+es;Corbera de Alcira;Corbera
+es;Conil;Conil de la Frontera
+es;Colonia de San Jorge;Colònia de Sant Jordi
+es;Villa-Real;Ciudad Real
+es;Chiclana;Chiclana de la Frontera
+en;La Duquesa;Castillo de la Duquesa
+es;Castellonet;Castellonet de la Conquesta
+es;Castellón de Rugat;Castelló de Rugat
+en;Castellón de la Plana;Castelló de la Plana
+es;Castellón de la Plana;Castelló de la Plana
+de;Castellón de la Plana;Castelló de la Plana
+fr;Castellón de la Plana;Castelló de la Plana
+nl;Castellón de la Plana;Castelló de la Plana
+pt;Castellón de la Plana;Castelló de la Plana
+en;Castellon;Castelló de la Plana
+en;Castellon - Castello de la Plana;Castelló de la Plana
+fr;Carthagène;Cartagena
+es;El Carrizal;Carrizal
+es;Carrizal de Ingenio;Carrizal
+es;Carcagente;Carcaixent
+es;C'an Picafort;Can Picafort
+es;Canet de Berenguer;Canet d'En Berenguer
+es;Campo de Mirra;el Camp de Mirra
+es;Campello;El Campello
+es;Calpe;Calp
+en;Calpe;Calp
+fr;Calpe;Calp
+nl;Calpe;Calp
+pt;Calpe;Calp
+es;Callosa de Ensarriá;Callosa d'En Sarrià
+en;Cala Ratjada;Cala Rajada
+de;Cala Ratjada;Cala Rajada
+es;Cala Ratjada;Cala Rajada
+es;La tacita de plata;Cadiz
+es;Cai;Cadiz
+fr;Cadix;Cadiz
+pt;Cádis;Cadiz
+es;Cabezabuei;Cabeza del Buey
+de;Bunyol;Buñol
+es;El Borge;Borge
+es;Bocairente;Bocairent
+es;Berro del Calejo;Berrocalejo
+pt;Bona Querencia;Benquerencia
+es;Benisoda;Benissoda
+es;Benimasot;Benimassot
+es;Benifayó;Benifaió
+es;Benicull;Benicull de Xúquer
+es;Benejama;Beneixama
+es;Benegida;Beneixida
+es;Benaguacil;Benaguasil
+es;Bellreguart;Bellreguard
+es;Berajín;El Bejarin
+es;Bejis;Begís
+es;Bechi;Betxí
+es;Bárig;Barx
+es;Barcheta;Barxeta
+es;Ayelo de Rugat;Aielo de Rugat
+es;Ayelo de Malferit;Aielo de Malferit
+es;Arico;Arico el Nuevo
+fr;Arico;Arico el Nuevo
+de;Arico;Arico el Nuevo
+en;Arico;Arico el Nuevo
+nl;Arico;Arico el Nuevo
+pt;Arico;Arico el Nuevo
+es;Altea la Vieja;Altea la Vella
+es;Alquería de la Condesa;L'Alqueria de la Comtessa
+es;Alqueria de Aznar;l'Alqueria d'Asnar
+es;Almusafes;Almussafes
+es;Almiserat;Almiserà
+es;Almazora;Almassora
+pt;Alacante;Alicante
+fr;Algésiras;Algeciras
+es;Algar de Palancia;Algar
+en;Alfarb;Alfarp
+es;Alfahuir;Alfauir
+es;Aldaya;Aldaia
+es;Alcudia de Crespins;L'Alcúdia de Crespìns
+es;Alcudia de Carlet;L'Alcúdia
+de;Alcoi;Alcoy
+pt;Alcoi;Alcoy
+es;Alcira;Alzira
+es;Alcántara de Júcar;Alcàntera de Xúquer
+de;Brücke von Alcántara;Alcántara
+es;Alberique;Alberic
+es;Albalat de Taronchers;Albalat dels Tarongers
+es;Alayor;Alaior
+es;Alacuás;Alaquàs
+es;Aguas de Busot;Aigües
+es;Adzaneta de Albaida;Atzeneta d'Albaida
+es;Costa Adeje;Adeje
+es;Zurbano;Zurbao / Zurbano
+es;Zunzarren;Zuntzarren
+es;Zumaya;Zumaia
+es;Zuloagas;Zuloaga
+es;Zuazu;Zuhatzu
+es;Zuazo;Zuhatzu / Zuazo de Vitoria
+es;Zuazo de Vitoria;Zuhatzu / Zuazo de Vitoria
+es;Zuazo de Gamboa;Zuhatzu Ganboa
+es;Zuazo;Zuhatzu Kuartango
+es;Zuazo de Cuartango;Zuhatzu Kuartango
+es;Zuazo de San Millán;Zuhatzu Donemiliaga / Zuazo de San Millán
+es;Zuaza;Zuhatza / Zuaza
+es;Señorío de Zuasti;Zuasti
+es;Zuasti de Iza;Zuasti
+es;Zollo-Elejalde;Zollo-Elexalde
+es;Zarranz;Zarrantz
+es;Zarimuz;Zarimutz
+es;Sarikola;Sariakola
+es;Zarauz;Zarautz
+de;Saragossa;Zaragoza
+fr;Saragosse;Zaragoza
+pt;Saragoça;Zaragoza
+en;Saragossa;Zaragoza
+es;Zaragosa;Zaragoza
+pt;Samarra;Zamarra
+es;Zaldivia;Zaldibia
+es;Zaldívar;Zaldibar
+es;Záitegui;Zaitegi
+es;Zabaldica;Zabaldika
+es;Yurreta;Iurreta
+es;Yurre;Igorre
+es;Yecora;Iekora / Yécora
+es;Yanci;Igantzi
+es;Yaben;Ihaben
+es;Viu;Víu de Linás
+es;Vitoriano;Bitoriano
+es;Vitoria;Gasteiz / Vitoria
+en;Vitoria-Gasteiz;Gasteiz / Vitoria
+de;Vitoria;Gasteiz / Vitoria
+fr;Vitoria;Gasteiz / Vitoria
+nl;Vitoria-Gasteiz;Gasteiz / Vitoria
+pt;Vitória;Gasteiz / Vitoria
+es;Virgala Mayor;Birgaragoien / Vírgala Mayor
+es;Viñols y Archs;Vinyols i els Arcs
+es;Viñaspre;Binasperi / Viñaspre
+es;Vinaroz;Vinaròs
+es;Vilovi de Oñar;Vilobí d'Onyar
+es;Viloví;Vilobí del Penedès
+es;Vilosell;el Vilosell
+es;Villodas;Billoda / Víllodas
+es;Villayón;Vilaión
+es;Villavega de Castrillo;Villavega
+es;Villarreal de Urrechu;Urretxu
+es;Villarreal de Urrechua;Urretxu
+es;Villarreal;Legutio
+es;Villarreal de Alava;Legutio
+es;Villaro;Areatza
+pt;Villarino dos Ares;Villarino de los Aires
+es;Valdegovia;Villanueva de Valdegovía
+es;Valdegobia;Villanueva de Valdegovía
+es;Villanueva de Araquil;Arakil-Hiriberri
+es;Villalba Saserra;Vilalba Sasserra
+es;Villalba de los Arcos;Vilalba dels Arcs
+es;Villalba;Vilalba
+es;Villafranca de Ordicia;Ordizia
+es;Villafranca de Ordizia;Ordizia
+es;Villafranca de Oria;Ordizia
+es;Villafranca del Panadés;Vilafranca del Penedès
+es;Vilafranca Penedes;Vilafranca del Penedès
+es;Villabuena de Álava;Eskuernaga / Villabuena de Álava
+es;Villava;Atarrabia
+es;Vilella Baja;la Vilella Baixa
+es;Vilella Alta;la Vilella Alta
+es;Vildósola;Bildosola
+es;Vilavert;Vilaverd
+es;Vilanova Del Valles;Vilanova de la Roca
+es;Vilanova de Escornalbou;Vilanova d'Escornalbou
+es;Vilallonga;Vilallonga del Camp
+es;Vilagrasa;Vilagrassa
+es;Viladesens;Viladasens
+es;Viella;Vielha
+en;Vielha e Mijaran;Vielha
+nl;Vielha e Mijaran;Vielha
+pt;Vielha e Mijaran;Vielha
+es;Viella Mitg Arán;Vielha
+de;Vielha e Mijaran;Vielha
+es;Vidreras;Vidreres
+es;Vidania;Bidania
+es;Vicuña;Bikuña
+es;Viana del Bollo;Viana do Bolo
+es;Vespella;Vespella de Gaià
+es;Vergara;Bergara
+es;Verano;Berano Txikia
+es;Vera de Bidasoa;Bera
+es;Vera;Bera
+es;Ventas de Arraiz;Arraitz
+es;Vendrell;El Vendrell
+es;Velilla de Cinca;Vilella de Cinca
+es;Vedía;Bedia
+en;Baqueira;Baqueira-Beret
+en;Beret;Baqueira-Beret
+es;Baqueira;Baqueira-Beret
+en;Valverde;Valverde de Curueño
+es;Valmaseda;Balmaseda
+es;Vallromanas;Vallromanes
+es;Vallfogona de Riucorp;Vallfogona de Riucorb
+es;Vallbona;Vallbona d'Anoia
+es;Pucela;Valladolid
+es;Pincia;Valladolid
+es;Valcobero;Valcovero
+es;Valcarlos;Luzaide
+es;Uztegui;Uztegi
+es;Uzquiano;Uzkiano
+es;Ursuarán;Urtsuaran
+es;Urroz de Santesteban;Malerreka-Urrotz
+es;Urrizola;Urritzola
+es;Urriza;Urritza
+es;Urréjola;Urrexola
+es;Urrasun de Azpilcueta;Urrasun
+es;Urquizu;Urkizu
+es;Urquiola;Urkiola
+es;Parque natural de Urkiola;Urkiola
+fr;Parc naturel dUrkiola;Urkiola
+es;Urízar de Lemóniz;Urizar
+es;Uriz;Uritz
+es;Urdax;Urdazubi / Urdax
+es;Unza;Untza
+es;Uncella;Untzilla
+es;Unanua;Unanu
+es;Ulzurrun;Ultzurrun
+es;Ullibarri Viña;Uribarri Dibiña / Ullibarri Viña
+es;Ullíbarri-Gamboa;Uribarri Ganboa
+es;Ullíbarri de los Olleros;Uribarri Nagusia / Ullibarri de los Olleros
+es;Ullívarri de los Olleros;Uribarri Nagusia / Ullibarri de los Olleros
+es;Ullíbarri Arana;Uribarri Harana / Ullíbarri Arana
+es;Ullestret;Ullastret
+es;Udave;Udabe
+es;Tuy;Tui
+es;Trincherpe;Trintxerpe
+es;Trespuentes;Trasponte / Trespuentes
+es;Tovilla;Tobillas
+es;Tovillas;Tobillas
+es;Totorica;Totorika
+es;Tossa;Tossa de Mar
+es;Torroja;Torroja del Priorat
+es;Torreserona;Torre-serona
+es;Torrente de Cinca;Torrent de Cinca / Torrente de Cinca
+es;Torrellas de Llobregat;Torrelles de Llobregat
+es;Torrellas de Foix;Torrelles de Foix
+es;Torrelameo;Torrelameu
+es;Torre del Español;la Torre de l'Espanyol
+es;Torre de Fontaubella;la Torre de Fontaubella
+es;Torrebeses;Torrebesses
+es;Torrano;Dorrao
+es;Toro, Zamora;Toro
+es;Torms;els Torms
+pt;Tordesilhas;Tordesillas
+es;Tolva;Tolba / Tolva
+es;Tivisa;Tivissa
+es;Tarroja;Tarroja de Segarra
+fr;Tarragone;Tarragona
+fr;Tarazona de Aragón;Tarazona
+en;Tamarit de Llitera;Tamarit de Llitera / Tamarite de Litera
+es;Tamarite de Litera;Tamarit de Llitera / Tamarite de Litera
+es;Suñé;Sunyer
+es;Sumbilla;Sunbilla
+es;Subijana de Alava;Subillana Gasteiz / Subijana de Álava
+es;Subijana;Subijana Morillas
+es;Sota Albo;Sotalbo
+es;Soluanes;Soloaran
+es;Sojoguti;Soxoguti / Sojoguti
+es;Sojo;Soxo / Sojo
+es;San Juan de Sobreira;Sobreira
+es;Sitramina;Sitrama de Tera
+es;Siete Iglesias;Sieteiglesias
+es;Sidamunt;Sidamon
+es;La Seo de Urgel;La Seu d'Urgell
+es;Seo de Urgel;La Seu d'Urgell
+es;La Seu de Urgell;La Seu d'Urgell
+es;Senant;Senan
+fr;Ségovie;Segovia
+es;Savallá del Condado;Savallà del Comtat
+es;Sarreal;Sarral
+es;Sarasa;Saratsa
+en;San Vicenç de Torelló;Sant Vicenç de Torelló
+es;San Vicente de Mont-Alt;Sant Vicenç de Montalt
+es;San Vicente de Castellet;Sant Vicenç de Castellet
+es;Baracaldo;Barakaldo
+es;San Vicente de Baracaldo;Barakaldo
+es;San Vicente de Arana;Done Bikendi Harana / San Vicente de Arana
+es;Santurce;Santurtzi
+es;Santurce-Antiguo;Santurtzi
+es;Santillana del Mar;Santillana
+fr;Saint-Jacques-de-Compostelle;Santiago de Compostela
+es;Santesteban;Doneztebe-Santesteban
+es;Santa Susana;Santa Susanna
+es;Santa Perpetua de Moguda;Santa Perpètua de Mogoda
+es;Santa Perpètua;Santa Perpètua de Gaià
+es;Santa Marina de Frojanes;Santa Mariña de Froxais
+es;Santa María de Martorellas de Arriba;Santa Maria de Martorelles
+es;Santa María de Lezama;Lezama
+es;Santa María de Barberà;Barberà del Vallès
+es;Santa Lucia;Santa Luzia
+es;Santa Fe del Panadés;Santa Fe del Penedès
+en;Santa Eulalia;Santa Eulalia de Oscos
+es;Santolaya;Santa Eulalia
+es;Santa Cruz de Campezo;Santikurutze Kanpezu / Santa Cruz de Campezo
+es;Santa Cristina de Aro;Santa Cristina d'Aro
+en;Santa Cristina de Aro;Santa Cristina d'Aro
+pt;Santa Cristina de Aro;Santa Cristina d'Aro
+es;Santa Coloma de Farnés;Santa Coloma de Farners
+es;Santa Águeda Guesalíbar;Gesalibar
+es;S.S. de los Reyes;San Sebastián de los Reyes
+es;SS de los Reyes;San Sebastián de los Reyes
+es;San Sebastián;Donostia / San Sebastián
+es;La Bella Easo;Donostia / San Sebastián
+es;Sanse;Donostia / San Sebastián
+fr;Saint-Sébastien;Donostia / San Sebastián
+en;Donostia;Donostia / San Sebastián
+nl;San Sebastian;Donostia / San Sebastián
+pt;São Sebastião;Donostia / San Sebastián
+es;San Roman de Campezo;Durruma Kanpezu / San Román de Campezo
+es;San Román;Durruma / San Román de San Millán
+es;San Román de San Millán;Durruma / San Román de San Millán
+es;San Rafael del Rio;Sant Rafel del Maestrat
+es;San Quirico Safaja;Sant Quirze Safaja
+es;San Quirico de Tarrasa;Sant Quirze del Vallès
+es;San Quirico de Besora;Sant Quirze de Besora
+es;San Quintin de Mediona;Sant Quintí de Mediona
+es;San Pol de Mar;Sant Pol de Mar
+es;San Pelayo;Gibelortzaga (San Pelaio)
+es;San Pedro de Vilamajor;Sant Pere de Vilamajor
+es;San Pedro de Ribas;Sant Pere de Ribes
+pt;San Pedro de Ribas;Sant Pere de Ribes
+es;San Pedro de Galdames;San Pedro Galdames
+es;San Pedro de Boroa;Boroa
+es;San Pedro de Idotorbe;Idotorbe (San Pedro)
+es;San Miguel de Otero;San Miguel do Outeiro
+es;San Miguel de Campmajor;Sant Miquel de Campmajor
+es;San Martivell;Sant Martí Vell
+es;San Martín Sasgayolas;Sant Martí Sesgueioles
+es;San Martín de Tous;Sant Martí de Tous
+es;San Martín del Bas;Sant Martí d'Albars
+es;San Martín de Lauquiniz;San Martin / San Martín de Tours
+es;San Martín de Tours;San Martin / San Martín de Tours
+es;Orobio;Oromiño
+es;San Marcos;Oromiño
+es;San Mamés;Santi Mami
+es;Lorenzo de Tormes;San Lorenzo de Tormes
+es;Meñaca;Mesterika
+es;San Lorenzo de Mesterica;Mesterika
+es;San Lorenzo de Maruri;Ergoien
+es;San Lorenzo de Hortons;Sant Llorenç d'Hortons
+es;El Escorial;San Lorenzo de El Escorial
+en;El Escorial;San Lorenzo de El Escorial
+pt;El Escorial;San Lorenzo de El Escorial
+de;El Escorial;San Lorenzo de El Escorial
+fr;El Escorial;San Lorenzo de El Escorial
+es;San Lorenzo;Sallobente-Ermuaran
+es;Musques;San Julián de Muskiz
+es;San Julián de Musques;San Julián de Muskiz
+es;Vilassar del Mar;Vilassar de Mar
+es;San Juan de Somorrostro;San Juan
+es;Somorrostro;San Juan
+es;San Juan de Mollet;Sant Joan de Mollet
+es;San Juan de Berbíquez;Berbikiz
+es;San Jorge;Sant Jordi
+es;San Jordi Desvalls;Sant Jordi Desvalls
+es;San Jaime dels Domenys;Sant Jaume dels Domenys
+es;La Granja;San Ildefonso
+es;La Granja de San Ildefonso;San Ildefonso
+fr;Real Sitio de San Ildefonso;San Ildefonso
+nl;Real Sitio de San Ildefonso;San Ildefonso
+pt;Real Sitio de San Ildefonso;San Ildefonso
+es;San Ignacio;San Inazio
+es;San Hilario Sacalm;Sant Hilari Sacalm
+es;Sangüesa;Sangüesa/Zangoza
+en;Sangüesa;Sangüesa/Zangoza
+nl;Sangüesa;Sangüesa/Zangoza
+pt;Sangüesa;Sangüesa/Zangoza
+fr;Sangüesa;Sangüesa/Zangoza
+es;Sangróniz;Zangroiz
+es;San Gregorio;Sant Gregori
+es;Sangenjo;Sanxenxo
+es;San Fructuoso de Bages;Sant Fruitós de Bages
+es;San Ferreol;Sant Ferriol
+es;San Feliu Saserra;Sant Feliu Sasserra
+es;San Feliú de Llobregat;Sant Feliu de Llobregat
+es;San Feliu de Codinas;Sant Feliu de Codines
+es;San Feliu;Sant Feliu
+es;San Esteban Sasroviras;Sant Esteve Sesrovires
+es;San Esteban de Palautordera;Sant Esteve de Palautordera
+es;San Esteban de Litera;San Esteban de Litera (Sant Esteve de Llitera)
+es;Sandianes;Sandiás
+es;Sant Damai;San Dalmay
+es;San Cugat Sasgarrigas;Sant Cugat Sesgarrigues
+en;Sant Cugat;Sant Cugat del Vallès
+es;Sant Cugat;Sant Cugat del Vallès
+es;San Clemente de Llobregat;Sant Climent de Llobregat
+es;San Cipriano de Vallalta;Sant Cebrià de Vallalta
+es;San Cibrián;Sancibrián
+es;Sanchósolo;Santxosolo-San Pedro
+es;San Celoni;Sant Celoni
+es;San baudilio de Llusanés;Sant Boi de Lluçanès
+es;San Antonio de Vilamajor;Sant Antoni de Vilamajor
+es;San Andrés Salou;Sant Andreu Salou
+es;San Andrés de la Barca;Sant Andreu de la Barca
+es;Echevarría;Erbera
+es;San Andrés de Echevarría;Erbera
+es;San Agustín de Llusanés;Sant Agustí de Lluçanès
+es;San Adrián de Besós;Sant Adrià de Besòs
+es;San Acisclo de Vallalta;Sant Iscle de Vallalta
+es;Sampedor;Santpedor
+es;Langreo;Sama
+fr;Langreo;Sama
+de;Langreo;Sama
+en;Langreo;Sama
+nl;Langreo;Sama
+pt;Langreo;Sama
+es;Salvatierra;Agurain / Salvatierra
+en;Salitkha;Salitja
+es;Salinillas de Buradon;Gatzaga Buradon / Salinillas de Buradón
+es;Salinas de Léniz;Leintz-Gatzaga
+es;Salinas de Añana;Gesaltza Añana / Salinas de Añana
+es;Salavinera;Sant Pere Sallavinera
+es;Salas de Llierca;Sales de Llierca
+fr;Salamanque;Salamanca
+es;Sant Fagund;Sahagún
+es;Sahelices del Río;Saelices del Río
+es;Rozavales;Rozabales
+es;Rourell;El Rourell
+es;Roselló;Rosselló
+es;Rosas;Roses
+es;Roquetas;Roquetes
+fr;Roncevaux;Orreaga
+en;Roncesvaux;Orreaga
+es;Roncesvalles;Orreaga
+de;Roncesvalles;Orreaga
+en;Roncesvalles;Orreaga
+nl;Roncesvalles;Orreaga
+pt;Roncesvalles;Orreaga
+es;Roitegui;Erroitegi / Róitegui
+es;Rodoñá;Rodonyà
+en;Roda de Berà;Roda de Barà
+fr;Roda de Berà;Roda de Barà
+nl;Roda de Berà;Roda de Barà
+en;Roa de Duero;Roa
+es;Ruidoms;Riudoms
+es;Riudecañas;Riudecanyes
+es;Riudarenas;Riudarenes
+es;Ripa;Erripa
+en;Riosmenudos De La Peña;Ríos Menudos
+es;Rigoitia;Errigoiti
+es;Riells;Riells i Viabrea
+es;Ribarroja de Ebro;Riba-roja d'Ebre
+es;Riaño;Riañu
+es;Rialb;Rialp
+es;Retes de Tudela;Erretes Tudela / Retes de Tudela
+es;Retana;Erretana
+es;Respaldiza;Arespalditza / Respaldiza
+pt;Requião;Requián
+es;Rentería;Errenteria
+es;Rellinás;Rellinars
+es;Régil;Errezil
+es;Redin;Erredin
+es;Recalde;Errekalde
+es;Ramallosa;A Ramallosa
+es;San Pedro de la Ramallosa;A Ramallosa
+es;Quejana;Kexaa / Quejana
+es;Puigvert de Lèrida;Puigverd de Lleida
+es;Puigvert de Agramunt;Puigverd d'Agramunt
+es;Puigreig;Puig-reig
+es;Puig-Grós;Puiggròs
+es;Puigdalba;Puigdàlber
+es;Puertomarín;Portomarín
+es;Puerto de la Selva;el Port de la Selva
+en;A Pontenova;Puente Nuevo
+es;Puentelarrá;Larrazubi / Puentelarrá
+en;Puente La Reina – Gares;Puente la Reina
+fr;Puente la Reina-Gares;Puente la Reina
+es;Prats de Llusanés;Prats de Lluçanès
+es;Prat de Compte;Prat de Comte
+es;Posatas;Posadas
+es;Portu;Portugalete
+es;la villa jarrillera;Portugalete
+es;Portilla;Zabalate / Portilla
+es;Porqueras;Porqueres
+es;Poo de Cabrales;Poo
+es;Lena;Pola de Lena
+es;Laviana;Pola de Laviana
+es;Allande;Pola de Allande
+de;Allande;Pola de Allande
+en;Allande;Pola de Allande
+nl;Allande;Pola de Allande
+pt;Allande;Pola de Allande
+es;Pobla de Segur;la Pobla de Segur
+es;Pobla de Montornés;la Pobla de Montornès
+es;Pobla de Masaluca;la Pobla de Massaluca
+es;Poal;el Poal
+es;Plencia;Plentzia
+es;Plaza de Olzerin-Mendi e Ibarguen;Plaza
+es;Castillo-Elejabeitia;Herriko Plaza
+es;Plaza de Castillo-Elejabeitia;Herriko Plaza
+es;Playa de Aro;Platja d'Aro
+fr;Plasence;Plasencia
+es;Planolas;Planoles
+es;Pla del Panadés;el Pla del Penedès
+es;Placencia de las Armas;Soraluze / Placencia de las Armas
+es;Placencia;Soraluze / Placencia de las Armas
+es;Pineda;Pineda de Mar
+es;San Mamed de Piedrafita;Pedrafita
+es;San Salvador de Perlora;Perlora
+en;San Salvador de Perlora;Perlora
+pt;San Salvador de Perlora;Perlora
+es;Pereña de la Ribera;Pereña
+es;Perelló;El Perelló
+en;Peralta – Azkoien;Peralta
+pt;Penhíscola;Peníscola
+de;Peniscola (Castellon);Peníscola
+es;Peñacerrada;Urizaharra / Peñacerrada
+es;Pedraza de la Sierra;Pedraza
+es;Pedernales;Sukarrieta
+es;Payueta;Pagoeta / Payueta
+es;Patones de Abajo;Patones
+es;Pasarón de la Vera;Pasarón
+es;Pasanant;Passanant
+es;Pasajes;Pasai San Pedro
+es;Pasajes de San Pedro;Pasai San Pedro
+es;Pasajes;Pasai Donibane
+es;Pasajes San Juan;Pasai Donibane
+es;Pasajes de San Juan;Pasai Donibane
+es;Pasajes;Pasai Antxo
+es;Pasaje Ancho;Pasai Antxo
+es;Pasajes Ancho;Pasai Antxo
+es;Parlabá;Parlavà
+es;Papiol;El Papiol
+fr;Pampelune;Pamplona
+es;Palol de Rebardit;Palol de Revardit
+es;Pallaresos;els Pallaresos
+es;Palau de Anglesola;el Palau d'Anglesola
+es;Palas del Rey;Palas de Rey
+es;Oyon;Oion / Oyón
+es;Oyarzun;Oiartzun
+es;Oyardo;Oiardo
+es;Oya;Oia
+es;Orol;Ourol
+es;Oteiza;Oteitza
+es;Ocerinmendi;Otzerinmendi
+es;Ostiz;Ostitz
+es;Osso;Osso de Cinca
+pt;São João de Osedo;Osedo
+es;Oscotz;Oskotz
+es;Orozqueta;Orozketa
+es;Oroz-Betelu;Orotz-Betelu
+es;Oroquieta;Orokieta
+es;Orpesa;Oropesa del Mar
+es;Oronoz-Mugaire;Oronoz-Mugairi
+es;Ormáiztegui;Ormaiztegi
+es;Orgañá;Organyà
+es;Orense;Ourense
+es;Oreja;Orexa
+es;Orduña;Urduña / Orduña
+es;Ordorica;Ordorika
+es;Ordoñana;Erdoñana / Ordoñana
+es;Orcoyen;Orkoien
+en;Orcoyen;Orkoien
+es;Orbaiz;Orbaitz
+es;Orbaiceta;Orbaizta
+es;Oquina;Okina
+es;Opacua;Opakua
+es;Onraita;Erroeta / Onraita
+es;Ondátegui;Ondategi
+es;Oñate;Oñati
+es;Omellons;els Omellons
+es;Olza;Oltza
+es;Ollo;Olloibar
+en;Ollo;Olloibar
+es;Ollavarre;Olabarri / Ollávarre
+es;Olbán;Olvan
+es;Olaz;Olatz Txipia
+es;Olave;Olabe
+es;Olaeta;Oleta
+es;Olacueta;Olakueta
+es;Olavarri;Olabarri
+es;Oiz;Oitz
+es;Oiquina;Oikia
+es;Ochovi;Otxobi
+es;Ochandiano;Otxandio
+es;Ocariz;Okariz
+es;Nuestra Señora del Rosario de Ugarte;Ugarte
+es;Nogueira;Nogueira de Ramuín
+es;Navárniz;Elexalde
+es;Navárniz-Elejalde;Elexalde
+es;Narvaja;Narbaiza
+es;Nanclares de la Oca;Langraiz Oka / Nanclares de la Oca
+es;Nanclares de Ganboa;Langara Ganboa / Nanclares de Ganboa
+es;Nalech;Nalec
+es;Nachitua;Natxitua
+es;Murtaza;Murtatza
+es;Murguía;Murgia
+es;Munguía;Mungia
+es;Mundaca;Mundaka
+es;Muguiro;Mugiro
+es;Muxía;Mugia
+es;Motrico;Mutriku
+es;Morell;el Morell
+es;Moreda de Alava;Moreda Araba / Moreda de Álava
+es;Mora la Nueva;Móra la Nova
+es;Mora de Ebro;Móra d'Ebre
+es;Montroig;Mont-roig del Camp
+es;Montreal;Mont-ral
+es;Montornès;Montornès de Segarra
+en;Mongrony;Montgrony
+de;Monterrei;Monterrey
+es;Montbrio de Tarragona;Montbrió del Camp
+es;Montblanch;Montblanc
+es;Montañana;Montanyana
+es;Mondragón;Arrasate / Mondragón
+de;Mondragón;Arrasate / Mondragón
+nl;Arrasate;Arrasate / Mondragón
+es;Montdragon;Arrasate / Mondragón
+es;Moncada i Reixac;Montcada i Reixac
+es;Mollerusa;Mollerussa
+fr;Molina d'Aragon;Molina de Aragón
+pt;Molina de Aragão;Molina de Aragón
+es;Molá;el Molar
+es;Miravalles;Ugao / Miraballes
+es;Miñano Menor;Miñao Gutxia / Miñano Menor
+es;Miñano Mayor;Miñao / Miñano Mayor
+es;Miñano;Miñao / Miñano Mayor
+es;Milá;el Milà
+es;Mieza de la Ribera;Mieza
+es;Mieres del Camino;Mieres
+es;Mieras;Mieres
+es;Mezquia;Mezkia
+es;Merica;Merika
+es;Mequinenza;Mequinensa / Mequinenza
+es;Menoyo;Menoio
+es;Mendraca;Mendraka
+es;Mendívil;Mendibil
+es;Mendioroz;Mendiorotz
+es;Mendíjur;Mendixur / Mendíjur
+es;Mendeica;Mendeika
+es;Menagaray;Menagarai
+es;Melque;Melque de Cercos
+es;Medina;Medinaceli
+es;Mechicas;Metxika
+es;Meagas;Meaga
+es;Meacaur de Morga;Meakaur
+es;Meacáur de Morga;Meaka
+es;Meaca;Meaka
+es;Mayals;Maials
+es;Maurolas;Maurola
+es;Maulanda;Marulanda
+es;Matauco;Matauko
+es;Masroig;el Masroig
+es;masoteras;Massoteres
+es;Masllorens;Masllorenç
+es;Marquio;Markio
+es;Marquínez;Markinez
+es;Marquina-Jeméin;Markina-Xemein
+pt;Marquina-Jeméin;Markina-Xemein
+es;Marquina;Markina
+pt;Rio Marañón;Marañón
+es;Maranges;Meranges
+es;Mañuas;Mañua
+es;Mandalúniz;Mandaluiz
+es;Mallavia;Mallabia
+en;Mallavia;Mallabia
+es;Malax;Malats
+es;La Madalena;A Madalena
+es;Madalena;A Madalena
+es;Maestu;Maeztu / Maestu
+es;Los Madriles;Madrid
+es;Madremaña;Madremanya
+es;Madoz;Madotz
+es;Luzás;Lluçars
+es;Luquiano;Lukiano
+es;Luco;Luko
+es;Loza;Lotza
+es;Loyola;Loiola
+es;Los Mártires;Osintxu
+es;Canfranc Estación;Los Arañones
+en;Lomas de Campos;Lomas
+es;Lomas de Campos;Lomas
+es;Llorens del Panadés;Llorenç del Penedès
+es;Llodio;Laudio / Llodio
+fr;Laudio;Laudio / Llodio
+nl;Llodio;Laudio / Llodio
+pt;Llodio;Laudio / Llodio
+es;Llissá de Munt;Lliçà d'Amunt
+es;Llinás;Llinars del Vallès
+es;Lles;Lles de Cerdanya
+es;Llano de Zaldu;Zaldu
+es;Llanás;Llanars
+es;Llambillas;Llambilles
+es;Lizarza;Lizartza
+es;Liñola;Linyola
+es;Licona;Likoa
+es;Líbano de Arrieta;Libao
+es;Lesaca;Lesaka
+es;Lérida;Lleida
+fr;Lérida;Lleida
+nl;Lerida;Lleida
+pt;Lérida;Lleida
+es;Lequerica;Lekerika
+es;Lequeitio;Lekeitio
+es;Lejona;Leioa
+es;Leiza;Leitza
+es;Legazpia;Legazpi
+es;Lecumberri;Lekunberri
+es;Leciñana del Camino;Leziñana / Leciñana del Camino
+es;Lecároz;Lekaroz
+es;Leagui;Leagi
+es;Lazcaumendi;Lazkaomendi
+es;Lazcano;Lazkao
+es;La Vega;A Veiga
+es;Vall de Bas;la Vall del Bac
+es;la Tallada;la Tallada d'Empordà
+es;Las Rozas;Las Rozas de Madrid
+es;las Pilas;Les Piles
+es;las Llosas;les Llosses
+es;La Selva del Campo;La Selva del Camp
+es;las Bordas;es Bòrdes
+es;Labarrieta;Olabarrieta / Labarrieta
+es;Las Barrietas Altas;Olabarrietagoikoa / Las Barrietas Altas
+es;Lasarte-Oria;Lasarte
+es;Arenas de Cabrales;Las Arenas de Cabrales
+es;Lasaga;Latsaga
+es;Larumbe;Larunbe
+es;Larragueta;Larrageta
+es;Larrabezúa;Larrabetzu
+es;la Riera;la Riera de Gaià
+es;La Reineta;Larreineta
+es;Pobla de Mafumet;la Pobla de Mafumet
+es;Teverga;La Plaza
+es;La Peña;Abusu / La Peña
+pt;A Penha;La Peña
+en;Orconera;La Orconera
+es;Lanz;Lantz
+es;Lantarón;Lantarou
+fr;Lantarón;Lantarou
+en;Lantarón;Lantarou
+nl;Lantarón;Lantarou
+pt;Lantarón;Lantarou
+es;Langarica;Langarika
+es;Lanciego;Lantziego / Lanciego
+es;Lamindano;Lamindao
+es;Masó;la Masó
+es;La Lueza;Alueza
+es;La Herrera;Herrera
+es;La Guardia;A Guarda
+es;La Graña;A Graña
+es;Fuliola;La Fuliola
+es;La Estrada;A Estrada
+es;El Ladrillar;Ladrillar
+es;Lacunza;Lakuntza
+es;La Costa;A Costa
+es;La Cruz;Kurtzea
+fr;La Corogne;A Coruña
+es;La Coruña;A Coruña
+es;Coruña;A Coruña
+pt;Corunha;A Coruña
+es;La Cañiza;A Cañiza
+es;La Bola;A Bola
+es;la Bisbal;la Bisbal d'Empordà
+en;La Bisbal;la Bisbal d'Empordà
+es;La Bisbal del Ampurdán;la Bisbal d'Empordà
+es;Labastida;Bastida / Labastida
+es;La Barra;A Barra
+es;La Barquera;A Barqueira
+es;La Arboleda;Zugaztieta / La Arboleda
+es;la Ametlla;l'Ametlla del Vallès
+es;La Ameijenda;A Ameixenda
+es;Juyá;Juià
+es;Junguitu;Jungitu
+es;Jócano;Jokano
+es;Jaurrieta;Ihaurrieta
+en;Jaurrieta;Ihaurrieta
+es;Jaunsaras;Jauntsarats
+es;Izurza;Izurtza
+es;Izcue;Izkue
+es;Izarza;Izartza
+es;Iturrioz;Iturriotz
+es;Isóbol;Isòvol
+es;Isasondo;Itsasondo
+es;Irurzun;Irurtzun
+es;Irún-Uranzu;Irun
+es;Iroz;Irotz
+es;Iráuregui;Irauregi
+es;Iragui;Iragi
+es;Inza;Intza
+es;Ilzarbe;Iltzarbe
+es;Ilarregui;Ilarregi
+es;Ilárraza;Ilarratza
+es;Igueldo;Igeldo
+es;Ichaso;Itsaso
+es;Icazteguieta;Ikaztegieta
+es;Iborra;Ivorra
+es;Ibiricu;Egues-Ibiriku
+es;Ibars de Urgel;Ivars d'Urgell
+es;Ibarranguelua;Ibarrangelu
+es;Campo Ibarra;Ibarra
+es;Huici;Uitzi
+es;Hueto Arriba;Otogoien / Hueto Arriba
+es;Hueto Abajo;Otobarren / Hueto Abajo
+es;Huerta del Vero;Huerta de Vero
+es;Hospitalet de Llobregat;L'Hospitalet de Llobregat
+es;Horta de San Juan;Horta de Sant Joan
+es;Hijona;Ixona / Hijona
+es;Hecho;Echo
+es;Gumucio;Gumuzio
+es;Gulina;Gulia
+es;Gújuli;Goiuri
+es;Guizaburuaga;Gizaburuaga
+es;Guisona;Guissona
+es;Guinea;Ginea
+es;Guils de Cerdaña;Guils de Cerdanya
+es;Guiamets;els Guiamets
+es;Guezala;Gezala
+es;Guevara;Gebara
+es;Guetaria;Getaria
+es;Guerricaiz;Gerrikaitz
+es;Guerrica;Gerrika
+es;Guernica;Gernika-Lumo
+es;Guernica y Luno;Gernika-Lumo
+es;Guereñu;Gereñu
+es;Guerena;Gerea
+es;Guerediaga;Gerediaga
+es;Guellano;Gellao
+es;Guardiola de Berga;Guardiola de Berguedà
+es;Guardiola;Sant Salvador de Guardiola
+en;Gualter;la Serra de Rialb
+es;El Grove;O Grove
+es;Grijoá;Grixoa
+es;Granja de Escarpe;la Granja d'Escarp
+es;Grañena de Cervera;Granyena de Segarra
+es;Granadella;la Granadella
+es;Goyerri;Goierri
+es;Goyaz;Goiatz
+es;Goronaeta;Goroeta
+es;Gorocica;Gorozika
+es;Górliz;Elexalde
+es;Gopegui;Gopegi
+es;Gomecha;Gometxa
+es;Goitiolza;Goitioltza
+es;Goitana;Goita
+es;Goicolegea;Goikoelexea
+es;Paso difusion de Magarzo;Gestoso
+es;Gerona;Girona
+fr;Gérone;Girona
+nl;Gerona;Girona
+es;Gaviria;Gabiria
+es;Gatica;Gatika
+es;Gastelu;Gaztelu
+es;Garrigolas;Garrigoles
+es;Garidells;els Garidells
+es;Gardélegui;Gardelegi
+es;Garayoa;Garaioa
+es;Garayo;Garaio
+es;Garay;Garai
+es;San Miguel;Garai
+pt;Garay;Garai
+es;Garagarza;Garagartza
+es;Ganzaga;Gantzaga
+es;Gandarias;Gandariats
+es;Gamarra Menor;Gamarra Gutxia / Gamarra Menor
+es;Gamarra Mayor;Gamarra Nagusia / Gamarra Mayor
+es;Galdácano;Galdakao
+es;Galarza;Galartza
+fr;Cendea de Galar;Galar
+pt;Cendea de Galar;Galar
+es;Gaínza;Gaintza
+es;Gaceta;Gazeta
+es;Gaceo;Gazeo
+fr;Fontarabie;Hondarribia
+es;Fuenterrabía;Hondarribia
+es;Fuejo (Cabruñana);La Fuexa
+es;Fuejo;Fuejo (Grado)
+es;Fuejo;Fuejo (Tineo)
+es;Fruniz;Fruiz
+es;Frojanes;Froxais
+en;Fontecha De La Peña;Fontecha
+es;Fontcuberta;Fontcoberta
+es;Fontanillas;Fontanilles
+es;Fogás de Tordera;Fogars de Tordera
+es;Fogás de Monclús;Fogars de Montclús
+es;Floresta;la Floresta
+es;Flassá;Flaçà
+es;Finisterre;Fisterra
+fr;Finisterre;Fisterra
+es;Fica;Fika
+es;La Ferreira;A Ferreirúa
+es;Febró;la Febró
+es;Fatarella;la Fatarella
+es;Faido;Faidu / Faido
+es;Ezquioga;Ezkio
+es;Ezquerecocha;Ezkerekotxa
+es;Ezcurra;Ezkurra
+es;Eugui;Eugi
+es;Esturo;Esturu
+es;Estopiñán del Castillo;Estopanyà / Estopiñán del Castillo
+es;Estopiñán;Estopanyà / Estopiñán del Castillo
+es;Esterri de Aneu;Esterri d'Àneu
+es;Estella;Estella-Lizarra
+es;Esquerica;Eskerika
+es;Espluga de Francolí;L' Espluga de Francolí
+de;L’Espluga de Francoli;L' Espluga de Francolí
+es;Espluga Calva;L' Espluga Calba
+es;Espinelvas;Espinelves
+es;Espinal-Auzperri;Aurizberri
+es;Esnoz;Esnotz
+es;Escota;Axkoeta / Escota
+es;Escoriaza;Eskoriatza
+es;Erviti;Erbiti
+es;Erroz;Errotz
+es;Erro;Erroibar
+es;Errazquin;Errazkin
+es;Ergoyen;Ergoien
+es;Ergobi;Ergobia
+es;Erenchun;Erentxun
+es;Erasun;Eratsun
+es;Eransus;Erantsus
+es;Elzaburu;Eltzaburu
+es;Elvillar;Bilar / Elvillar
+es;San Salvador del Río;O Río
+es;El Río;O Río
+es;El Regato;Errekatxo / El Regato
+es;Elochelerri;Loiu
+es;Lujua;Loiu
+es;El Mazo;O Mazo
+es;Elgueta;Elgeta
+es;Elguea;Elgea
+es;El Figaró;Figaró
+fr;L'Escurial;El Escorial
+es;Elejalde;Elexalde-Zeeta
+es;Elejalde;Elexalde
+es;Elduayen;Elduain
+es;Elcoaz;Elkoatz
+es;Elburgo;Burgelu / Elburgo
+es;Elanchove;Elantxobe
+es;Egea de los Caballeros;Ejea de los Caballeros
+es;Ejea;Ejea de los Caballeros
+es;Eizaga;Eitzaga
+es;Villanueva de San Andrés de Heybar;Eibar
+es;Villanueva de San Andrés;Eibar
+es;Ehibar;Eibar
+es;Heybar;Eibar
+es;Eybar;Eibar
+es;Heivar;Eibar
+es;Eguileta;Egileta
+es;Eguileor;Egileor
+es;Eguilaz;Egilatz / Eguilaz
+es;Eguiarreta;Egiarreta
+es;Eguaras;Eguarats
+es;Egozcue;Egozkue
+es;Echeverri;Etxeberri
+es;Echávarri;Etxabarri Kuartango
+es;Echávarri de Cuartango;Etxabarri Kuartango
+es;Echarri;Etxarri
+es;Echarren;Arakil-Etxarren
+es;Echano;Etxano
+es;Echalecu;Etxaleku
+es;Echalar;Etxalar
+es;Echaide de Elizondo;Barrio Etxaide
+es;Ecay;Ekai
+es;Tavira;Durango
+es;Dosaiguas;Duesaigües
+es;Domaiquia;Domaikia
+es;Deva;Deba
+es;Délica;Delika
+es;Cuacos de Yuste;Cuacos
+es;Crispijana;Krispiña / Crispijana
+es;Cripan;Kripan
+es;Basílica de Covadonga;Covadonga
+es;Costera;Opellora / Costera
+es;Sobrarbe;Coscojuela de Sobrarbe
+es;Cluña;Coruña del Conde
+es;Crunnia;Coruña del Conde
+es;Crunna;Coruña del Conde
+es;Cruña;Coruña del Conde
+es;Curuña;Coruña del Conde
+es;Coruña;Coruña del Conde
+es;Cortezubi;Kortezubi
+es;Corsá;Corçà
+es;Corres;Korres
+es;Cornudella;Cornudella de Montsant
+es;Convento de la Vera Cruz de las Mercedarias Misioneras;Vera Cruz Mesedetako Misiolarien komentua / Convento de la Vera Cruz de las Mercedarias Misioneras
+es;Comunion;Komunioi / Comunión
+es;Colomés;Colomers
+es;Montegrande del Colmenar;Colmenar de Montemayor
+es;Collado Villalba;Collado-Villalba
+de;Collado Villalba;Collado-Villalba
+en;Collado Villalba;Collado-Villalba
+nl;Collado Villalba;Collado-Villalba
+pt;Collado Villalba;Collado-Villalba
+es;Cogull;el Cogul
+es;Cizúrquil;Zizurkil
+pt;Cidade Rodrigo;Ciudad Rodrigo
+es;Ciudadela;Ciutadella
+fr;Ciudadela;Ciutadella
+es;Ciordia;Ziordia
+es;Cilveti;Zilbeti
+es;Cilbarrena;Cillarrena
+es;Cildoz;Zildotz
+es;La Cuesta-Ciérvana;Zierbena
+es;Ciérvana;Zierbena
+es;La Cuesta;Zierbena
+es;Cicujano;Zekuiano / Cicujano
+es;Ciaño;Ciañu
+es;Chinchetru;Txintxetru
+es;Cherta;Xerta
+es;Chert;Chert/Xert
+es;Chávarri;Txabarri
+es;Cestona;Zestoa
+es;Zarréu;Cerredo
+es;Cerio;Zerio
+es;Ceráin;Zerain
+es;Cenarruza;Goierria Ziortza
+es;Celayetas;Zelaieta
+es;Celaya;Zelaia
+es;San Pedro de Mendeja;Zelaia
+es;Cegama;Zegama
+es;O Cebreiro;Cebrero
+en;O Cebreiro;Cebrero
+es;Ceánuri;Zeanuri
+es;Ceánuri Alto;Zeanuri
+es;Catllar;el Catllar
+de;Castro Urdiales;Castro-Urdiales
+en;Castro Urdiales;Castro-Urdiales
+es;Castriyón;Castrillón
+es;Castillonroy;Castellonroi / Castillonroy
+es;Castillo de Aro;Castell-Platja d'Aro
+es;Castillo;Gaztelu / Castillo
+es;Castellvell;Castellvell del Camp
+es;Castelltersol;Castellterçol
+es;Castellfullit de Riubregós;Castellfollit de Riubregós
+es;Castell del Areny;Castell de l'Areny
+es;Castelbisbal;Castellbisbal
+es;Caserras del Castillo;Casserres del Castell
+es;Caseras;Caseres
+es;Carrica;Karrika
+es;Cárcamo;Karkamu
+es;Capsanes;Capçanes
+es;Capafons;Capafonts
+es;Canyellas;Canyelles
+es;Canovellas;Canovelles
+es;Canet de Adri;Canet d'Adri
+es;Canala;Kanala
+es;Caso;Campo de Caso
+de;Caso;Campo de Caso
+en;Caso;Campo de Caso
+nl;Caso;Campo de Caso
+pt;Caso;Campo de Caso
+es;Campanchu;Kanpantxu
+es;Campa;Landa
+es;La Campa;Landa
+en;Camarassa;Camarasa
+es;Calella;Calella de Palafrugell
+es;Caldas de Malavella;Caldes de Malavella
+es;Caldas de Estrach;Caldes d'Estrac
+pt;Caldas de Estrach;Caldes d'Estrac
+es;Cabrera de Igualada;Cabrera d'Igualada
+es;Cabra del Campo;Cabra del Camp
+pt;São Romão de Cabo Vilhano;Cabovilaño
+es;Aller;Cabañaquinta
+es;Butrón;Butroe
+es;Burlada;Burlata
+es;Burguete;Auritz
+es;Bruñola;Brunyola
+es;La Broza;A Broza
+es;Bríncola;Brinkola
+es;San Esteban;Brime de Urz
+es;Bozate de Arizcun;Bozate
+es;Bosost;Bossòst
+es;Borjas del Campo;les Borges del Camp
+es;Bolívar;Bolibar-Ugazua
+es;Bobera;Bovera
+es;Bisbal del Panadés;la Bisbal del Penedès
+es;Bisbal de Falset;la Bisbal de Falset
+es;El Bocho;Bilbao
+pt;Bilbau;Bilbao
+es;Beunza;Beuntza
+es;Besánguiz;Bezangiz
+es;Berrueco;Berruco
+es;Berrosteguieta;Berrostegieta
+es;Berriozabal-Arabios;Berriozabaleta
+es;Berrioplano;Berriobeiti
+es;Bergüenda;Bergonda / Bergüenda
+es;Berástegui;Berastegi
+es;Bequea;Bekea
+es;Beótegui;Beotegi
+es;Benisanet;Benissanet
+es;Benicásim;Benicàssim
+es;Benia de Onís;Benia
+es;Bengoeche;Agirre-Aperribai
+es;Bengoeche-Aperribay;Agirre-Aperribai
+es;Bengoechea;Bengoetxea
+es;Benavent de Lérida;Benavent de Segrià
+es;Benabarre;Benavarri / Benabarre
+es;Belunza;Beluntza
+es;Belmonte de San José;Bellmunt de Mesquí / Belmonte de San José
+es;Bellvey;Bellvei
+es;Bellmunt de Ciurana;Bellmunt de Priorat
+es;Bellmunt;Bellmunt d'Urgell
+es;Belaunza;Belauntza
+en;Labayen;Labaien
+es;Beinza-Labayen;Labaien
+es;Labayen;Labaien
+en;Beintza-Labaien;Labaien
+es;Behovia;Behobia
+es;Begas;Begues
+es;Bedayo;Bedaio
+es;Bedarona;Bedaroa
+es;Beci;Bezi
+es;Beceite;Beseit / Beceite
+es;Basechetas;Basetxeta
+en;Bas;Sant Esteve d'en Bas
+es;Barriobusto;Gorrebusto / Barriobusto
+en;la Baronia de Rialb;Gualter
+fr;Barcelone;Barcelona
+es;Baños de Ebro;Mañueta / Baños de Ebro
+fr;Mañueta;Mañueta / Baños de Ebro
+nl;Baños de Ebro;Mañueta / Baños de Ebro
+pt;Baños de Ebro;Mañueta / Baños de Ebro
+es;San Félix de Baños;Baños
+es;Bañolas;Banyoles
+es;Bañeras;Banyeres del Penedès
+es;Baldellou;Valldellou / Baldellou
+es;Bacáicoa;Bakaiku
+es;Azuqueca;Azuqueca de Henares
+es;Azquizu;Askizu
+es;Azpilcueta;Azpilkueta
+es;Azoz;Azotz
+es;Azcoitia;Azkoitia
+es;Azcoaga;Azkoaga
+es;Azanza;Azantza
+es;Azáceta;Azazeta
+es;La Hayuela;Ayuela
+es;Aytona;Aitona
+es;Aya;Aia
+es;Axpe de Busturia;Axpe-San Bartolome
+es;Avinyonet;Avinyonet del Penedès
+es;Ávila de los Santos;Ávila
+es;Ávila de los Caballeros;Ávila
+es;Ávila del Rey;Ávila
+es;Ávila de los Leales;Ávila
+es;Auzochiquía;Auzotxikia
+es;Aulestia;Aulesti
+es;Audícana;Audikana
+es;Atiega;Atiaga / Atiega
+es;Atallo;Atallu
+es;Astúlez;Estuliz / Astúlez
+es;Astorecas;Astoreka
+es;Astóbiza;Astobitza
+es;Astiz;Astitz
+es;Asterrica;Asterrika
+es;Asteguieta;Astegieta
+es;Aspuru;Axpuru
+es;Ascarza;Askartza
+es;Ascarraga;Askarraga Auzoa
+es;Arzuaga;Altzuaga
+es;Artigas;Artika
+es;Articuza;Artikutza
+es;Artica;Artika
+es;Artesa de Lérida;Artesa de Lleida
+es;Artaza;Artatza / Artaza
+es;Arruiz;Arruitz
+es;Arróyabe;Arroiabe
+es;Arrona;Arroa Goia
+es;Arrona  de Arriba;Arroa Goia
+es;Arriondas;Les Arriondes
+en;Arriondas;Les Arriondes
+fr;Arriondas;Les Arriondes
+de;Arriondas;Les Arriondes
+es;Arrietas;Arrieta
+es;Arriba;Arribe
+es;Arrayoz;Arraioz
+es;Arosteguieta;Aroztegieta
+es;Arnoya;Arnoia
+es;Arminza;Armintza
+es;Arlucea;Arluzea
+es;Arizu;Aritzu
+es;Arizcun;Arizkun
+es;Arive;Aribe
+es;Aríñez;Ariñiz / Aríñez
+es;Argentera;l' Argentera
+es;Arganda del Rey;Arganda
+es;Arens de Lledó;Arenys de Lledó / Arens de Lledó
+es;Arenaza;Areantza
+es;Aréjola;Arexola
+es;Arechavaleta;Aretxabaleta
+es;Arechalde;Aretxalde
+es;Ardaiz;Ardaitz
+de;Arcos de la Llana;Arcos
+en;Arcos de la Llana;Arcos
+es;Arcos de la Llana;Arcos
+es;Arcocha;Arkotxa
+es;Arceniega;Artziniega
+fr;Arce-Artzi;Arce
+es;Arcaya;Arkaia
+es;Arcaute;Arkauti / Arcaute
+es;Arcarazo;Arkarazo
+es;Arbulo;Arbulu
+es;Arboset;l'Arbocet
+es;Arbós;L'Arboç
+es;Arazuri;Aratzuri
+es;Araya;Araia
+es;Asparrena;Araia
+es;Machinventa;Aratz-Matxinbenta
+es;Araoz;Araotz
+es;Aránzazu;Zelaia
+es;Aránzazu Celaya;Zelaia
+es;Aránzazu;Arantzazu
+es;Aranguiz;Arangiz
+es;Aranaz;Arantza
+es;Arana;Arene
+es;Aracaldo;Elexalde
+es;Aprícano;Aprikano
+es;Apózaga;Apotzaga
+es;Apérregui;Aperregi
+es;Apellaniz;Apilaiz / Apellániz
+es;Aozaraza;Aozaratza
+es;Anzuola;Antzuola
+es;Anucita;Anuntzeta / Anúcita
+es;Antezana de Álava;Andetxa / Antezana
+es;Antezana;Andetxa / Antezana
+es;Antezana de Foronda;Andetxa / Antezana
+es;Anteparaluceta;Andaparaluzeta
+es;Anoz;Anotz
+es;Anguiozar;Angiozar
+es;Andracas;Andraka
+es;Andicona;Andikoa
+es;Andagoya;Andagoia
+es;Amorebieta-Echano;Amorebieta
+es;Amézqueta;Amezketa
+es;Amézola;Ametzola
+es;Amézaga;Ametzaga
+es;Alzusta;Altzusta
+es;Alzola;Altzola
+es;Alzo de Arriba;Altzo Muño
+es;Alzo de Abajo;Altzoazpi
+es;Alzate;Altzate
+es;Alzaga;Altzaga
+es;Alza;Altza
+es;Alsasua;Altsasu
+en;Alsasua – Altsasu;Altsasu
+es;Alquiza;Alkiza
+es;Alonsótegui;Alonsotegi
+es;La Allonca;A Allonca
+es;Ali;Ehari / Ali
+es;Algayón;el Gaió
+es;Lalén;Alen
+es;Aleixar;l' Aleixar
+es;Alegría de Oria;Alegia
+es;Alegría;Alegia
+es;Alegria;Dulantzi / Alegría
+es;Alecha;Aletxa
+pt;Aldeiadávila da Ribera;Aldeadávila de la Ribera
+es;Aldaz;Aldatz
+es;Alday;Aldai
+es;Alcoz;Alkotz
+es;Alcora;l'Alcora
+en;Alcossebre;Alcocéber
+es;Alcayaga;Alkaiaga
+pt;Alcanizes;Alcañices
+es;Alcampell;el Campell / Alcampell
+es;Cómpluto;Alcalá de Henares
+es;Alcala de Chivert;Alcalà de Xivert
+es;Alboniga;Almika
+es;Albocacer;Albocàsser
+es;Albístur;Albiztur
+es;Albiol;l' Albiol
+es;Albiñana;Albinyana
+es;Albi;l' Albi
+es;Albéniz;Albeiz / Albéniz
+es;Albatarrech;Albatàrrec
+es;Albagés;l' Albagés
+es;Lagoa;A Lagoa
+es;Ajurias;Aiuria
+es;Ajamil de Cameros;Ajamil
+fr;Ajamil de Cameros;Ajamil
+nl;Ajamil de Cameros;Ajamil
+es;Aizpurucho;Aizpurutxo
+es;Aincioa;Aintzioa
+es;Aguinaga;Aginaga
+es;Acosta;Okoizta / Acosta
+es;Acorda;Akorda
+es;Acilu;Azilu
+es;Abornícano;Abornikano
+es;Abecia;Abezia
+es;Abechuco;Abetxuko
+es;Abaurrea Baja;Abaurrepea
+es;Abaurrea Alta;Abaurregaina
+es;Abalcisqueta;Abaltzisketa
+es;Abandiano Celayeta;Abadiño
+es;Abadiano;Abadiño
+es;Abadiano Celayeta;Abadiño
+es;Baquio;Basigo
+es;La Cabaña;A Cabana
+es;Santa Ponça;Santa Ponsa
+de;Santa Ponça;Santa Ponsa
+es;Arrona-Estación;Arroa Behea
+es;Arrona de Abajo;Arroa Behea
+es;San Miguel de Ayastia;Aiastia (San Migel)
+es;Santa Lucía de Ezama;Santa Lutzia
+es;Ría;Santio Erreka
+es;Puente de Montañana;el Pont de Montanyana / Puente de Montañana
+es;Arén;Areny de Noguera / Arén
+es;Vencillón;Vensilló / Vencillón
+es;Altorricón;el Torricó / Altorricon
+es;Lecesarri;Lezesarri
+es;San Miguel de Artadi;Artadi
+es;Ereñozu;Ereñotzu
+es;Echegarate;Etxegarate
+es;Iciar;Itziar
+es;Ventas;Katea / Ventas
+es;San Nicolás de Lastur;Lastur
+es;Paoaga;Pagoaga
+es;San Esteban Goiburu;Goiburu
+es;San Pedro;Andatza
+es;San Prudencio;San Prudentzio
+es;San Saturnino;Saturdia
+es;Soravilla;Sorabilla
+es;Ugaldecho;Ugaldetxo
+es;Antenza;Entença
+es;Playa de Tarajalillo;Tarajalillo
+en;Palma Nova;Palmanova
+de;Cala Sant Vicenç;Cala San Vicente
+en;Magalluf;Magaluf
+es;Paguera;Peguera
+de;es Camp de Mar;Camp de Mar
+es;Miami Playa;Miami Platja
+es;Litera;Lliterà
+es;La Manga;La Manga del Mar Menor
+de;Las Américas;Playa de las Américas
+es;Las Américas;Playa de las Américas
+en;Illetes;ses Illetas
+es;La Massella;Masella
+es;Comarruga;Coma-ruga
+es;La Baiuca;A Baiuca
+es;Patones;Patones de Arriba
+pt;Serra Nevada;Sierra Nevada
+es;Playa de Gandía;Platja de Gandía
+es;El Castillo;Caleta de Fuste
+es;Costa Caleta;Caleta de Fuste
+es;Platja d'en Bossa;Platja den Bossa
+es;Playa d'en Bossa;Platja den Bossa
+en;Playa d'en Bossa;Platja den Bossa
+fr;Playa d'en Bossa;Platja den Bossa
+de;Playa d'en Bossa;Platja den Bossa
+en;Cala en Porter;Cala'n Porter
+es;El Retamar;Retamar
+es;Sagaro;S'Agaró
+es;Puerto de San Miguel;Port de Sant Miquel
+en;Guadalmina Alta;Guadalmina
+en;Guadalmina Baja;Guadalmina
+es;Portinatx;Cala de Portinatx
+en;Portinatx;Cala de Portinatx
+en;Playa de Portinatx;Cala de Portinatx
+es;La Campiña;A Campiña
+es;Cala en Bosch;Cala'n Bosch
+en;Cala en Bosch;Cala'n Bosch
+es;La Lanzada;A Lanzada
+es;Lanzada;A Lanzada
+en;Santo Tomas;Sant Tomàs
+de;Santo Tomas;Sant Tomàs
+de;S’illot;S'illot
+es;Alfaz del Pi;l'Alfàs del Pi
+es;Cala en Blanes;Cala'N Blanes
+de;Cala en Blanes;Cala'N Blanes
+es;Aeropuerto de Bilbao;Bilboko aireportua / Aeropuerto de Bilbao
+es;Santuchu;Santutxu
+en;Campo International;Campo Internacional
+es;Binibeca Vell;Binibèquer Vell
+es;Acantilado de los Gigantes;Los Gigantes
+es;Pasajes;Pasaia
+es;El Entrego;L'Entregu/El Entrego
+es;Les Meravelles;Las Maravillas
+en;Les Meravelles;Las Maravillas
+de;El Pinar;El Pinar de El Hierro
+en;El Pinar;El Pinar de El Hierro
+fr;El Pinar;El Pinar de El Hierro
+es;Cala Viñas;Cala Vinyes
+es;Ogarite;El Ogarite
+en;Alfoquia;La Alfoquia
+en;El Arroyo Albanchez;Arroyo Albanchez
+en;Santa Cruz De Marchen;Santa Cruz De Marchena
+de;Corvera;Corvera de Asturias
+en;Quesada;Ciudad Quesada
+en;Los Altos;Residencia los Altos
+en;Pinar de Campoverde;El Pinar de Campoverde
+es;Pinar de Campoverde;El Pinar de Campoverde
+nl;Pinar de Campoverde;El Pinar de Campoverde
+en;Orihuela Costa;Urbanizacion los Balcones
+en;El Calon;Cala El Calón
+es;Urbanización Marbella Este;Marbella Del Este
+en;Arroyo Medina;El Arroyo de Medina
+es;Bajo de Llobregat;Baix Llobregat
+es;El Cerrogordo;El Cerro Gordo
+es;Sant Jordi De Ses Salines;Sant Jordi
+es;Mendeja;Mendexa
+nl;San Rafael;Sant Rafel
+en;San Rafael;Sant Rafel
+fr;San Rafael;Sant Rafel
+es;San Rafael de Sa Creu;Sant Rafel
+en;Bancalejo;El Bancalejo
+es;Torreblanca del Sur;Torreblanca
+es;Santa Gertrudis;Santa Gertrudis de Fruitera
+pt;Santa Gertrudis;Santa Gertrudis de Fruitera
+en;Santa Gertrudis;Santa Gertrudis de Fruitera
+es;Urbanización Doña Pepa;Doña Pepa
+es;La Isleta;La Isleta del Moro
+es;Coto Ríos;Coto-Rios
+es;Lejarzo;Lexartzu
+en;El Raso;Urbanización El Raso
+es;Peñoñori;Peñoñuri
+en;Igai;Igay
+es;Igai;Igay
+en;New Golden Mile;Guadalmansa
+en;Benamara;Saladillo Benamara
+en;Atalaya;Atalaya Isdabe
+en;La Heredia;Urbanización la Heredia
+en;La Quinta;Lomas de la Quinta
+pt;Olivença;Olivenza
+en;Los Alamillos;Gafares
+es;Los Alamillos;Gafares
+en;La Gangosa;La Gangosa Vistasol
+en;Gangosa Vitasol;La Gangosa Vistasol
+es;El Puig;Puig
+es;El Puig de Rialb;Puig
+es;Las Vegas;Les Vegues
+en;The Morotes;Los Morotes
+es;Costa Ballena;Playa de la Ballena
+es;Combarro;Combarru
+en;El Pareton;Paretón
+es;Sigirey;Sixirei
+es;Sigirei;Sixirei
+es;San Lorenzo;San Lourenzo
+es;Satrejas;Satrexas
+es;Villanueva;Vilanova
+es;Barrio de Segorb;Barri de Segorb
+es;Valdomar;Baldomar
+es;La Cruz;La Cruz de Firgas
+en;Urb. Campo Norte;Urbanizacion Campo Norte
+es;Navarrete;Nafarrate
+es;Fajilde;Faxilde
+es;Fagilde;Faxilde
+es;Collado;Collao
+es;Acebedo del Río;Acevedo del Río
+es;Requejo;Requeixo
+es;El Faedo de Belmonte;Faedo
+es;La Peña;A Pena
+es;La Manchica;A Manchica
+es;San Esteban de Ribas de Miño;Santo Estevo de Ribas de Miño
+en;Los Castaños;Barriada Los Castaños

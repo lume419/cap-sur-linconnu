@@ -1,0 +1,255 @@
+fr;Zerkeghem;Zerkegem
+fr;Zeebruges;Zeebrugge
+de;Seebrügge;Zeebrugge
+es;Santvliet;Zandvliet
+en;Woluwe-Saint-Pierre - Sint-Pieters-Woluwe;Woluwe-Saint-Pierre
+de;Woluwe-Saint-Pierre/Sint-Pieters-Woluwe;Woluwe-Saint-Pierre
+nl;Sint-Pieters-Woluwe;Woluwe-Saint-Pierre
+de;Woluwe-Saint-Lambert/Sint-Lambrechts-Woluwe;Woluwe-Saint-Lambert
+nl;Sint-Lambrechts-Woluwe;Woluwe-Saint-Lambert
+nl;Westel;Westerlo
+nl;Waver;Wavre
+fr;Bruxelles (Watermael-Boitsfort);Watermael-Boitsfort
+de;Watermael-Boitsfort/Watermaal-Bosvoorde;Watermael-Boitsfort
+nl;Brussel (Watermaal-Bosvoorde);Watermael-Boitsfort
+nl;Watermaal-Bosvoorde;Watermael-Boitsfort
+de;Uccle/Ukkel;Uccle
+fr;Bruxelles (Uccle);Uccle
+nl;Brussel (Ukkel);Uccle
+nl;Ukkel;Uccle
+nl;Doornik;Tournai
+fr;Tongres;Tongeren
+fr;Tirlemont;Tienen
+de;Thienen;Tienen
+nl;Stropwijk;Strop
+nl;Strombeek;Strombeek-Bever
+fr;Chapelle-Saint-Ulric;Sint-Ulriks-Kapelle
+fr;Saint-Trond;Sint-Truiden
+fr;Woluwe-Saint-Étienne;Sint-Stevens-Woluwe
+fr;Leeuw-Saint-Pierre;Sint-Pieters-Leeuw
+fr;Saint-Nicolas;Sint-Niklaas
+nl;Voeren (Sint-Martens-Voeren);Sint-Martens-Voeren
+fr;Fouron-Saint-Martin;Sint-Martens-Voeren
+fr;Fourons (Fouron-Saint-Martin);Sint-Martens-Voeren
+fr;Lierde-Saint-Martin;Sint-Martens-Lierde
+fr;Bodeghem-Saint-Martin;Sint-Martens-Bodegem
+fr;Lierde-Sainte-Marie;Sint-Maria-Lierde
+nl;Mariaburg;Sint-Mariaburg
+fr;Lennick-Saint-Quentin;Sint-Kwintens-Lennik
+fr;Winkel-Sainte-Croix;Sint-Kruis-Winkel
+es;Sint Katelijne Waver;Sint-Katelijne-Waver
+fr;Audenhove-Saint-Géry;Sint-Goriks-Oudenhove
+fr;Saint-Gilles-Waes;Sint-Gillis-Waas
+en;Sint-Gertrudis-Pede;Sint-Gertruide Pede
+fr;Pede-Sainte-Gertrude;Sint-Gertruide Pede
+nl;Sint-Gertrudis-Pede;Sint-Gertruide Pede
+fr;Rhode-Saint-Genèse;Sint-Genesius-Rode
+fr;Saint-Denis-Westrem;Sint-Denijs-Westrem
+fr;Mont-Saint-Amand;Sint-Amandsberg
+de;Schönberg;Schoenberg
+fr;Montaigu;Scherpenheuvel
+fr;Schepdael;Schepdaal
+de;Schaerbeek/Schaarbeek;Schaerbeek
+es;Schaarbeek;Schaerbeek
+en;Schaarbeek;Schaerbeek
+nl;Schaarbeek;Schaerbeek
+fr;Saint-Vith;Sankt Vith
+en;Saint-Séverin-en-Condroz;Saint-Séverin-en Condroz
+fr;Saint-Séverin-en-Condroz;Saint-Séverin-en Condroz
+nl;Saint-Séverin;Saint-Séverin-en Condroz
+fr;Bruxelles (Saint-Josse-ten-Noode);Saint-Josse-ten-Noode
+de;Saint-Josse-ten-Noode/Sint-Joost-ten-Node;Saint-Josse-ten-Noode
+nl;Brussel (Sint-Joost-ten-Node);Saint-Josse-ten-Noode
+nl;Sint-Joost-ten-Node;Saint-Josse-ten-Noode
+fr;Saint-Job;Sint-Job
+de;Saint-Gilles/Sint-Gillis;Saint-Gilles
+nl;Sint-Gillis;Saint-Gilles
+es;Rupelmundo;Rupelmonde
+fr;Ruysbroeck;Ruisbroek
+fr;Roulers;Roeselare
+fr;Reninghelst;Reningelst
+fr;Raversyde;Raversijde
+nl;Blieberg;Plombières
+fr;Petit-Enghien;Lettelingen
+de;Petit-Enghien;Lettelingen
+en;Petit-Enghien;Lettelingen
+fr;Pervyse;Pervijze
+fr;Passchendaele;Passendale
+fr;Audenarde;Oudenaarde
+fr;Oudecapelle;Oudekapelle
+fr;Oppuers;Oppuurs
+de;Ostende;Oostende
+en;Ostend;Oostende
+fr;Ostende;Oostende
+es;Ostende;Oostende
+pt;Ostende;Oostende
+de;Ostdünkirchen;Oostduinkerke
+fr;Ostdunkerque;Oostduinkerke
+fr;Wavre-Notre-Dame;Onze-Lieve-Vrouw-Waver
+fr;Lombeek-Notre-Dame;Onze-Lieve-Vrouw-Lombeek
+nl;Nijvel;Nivelles
+fr;Nieuport;Nieuwpoort
+fr;Neuve-Église;Nieuwkerke
+fr;Bruxelles (Neder-Over-Heembeek);Neder-Over-Heembeek
+nl;Brussel (Neder-Over-Heembeek);Neder-Over-Heembeek
+nl;Namen;Namur
+nl;Moeskroen;Mouscron
+fr;Mouland;Moelingen
+nl;Voeren (Moelingen);Moelingen
+fr;Fourons (Mouland);Moelingen
+nl;Bergen;Mons
+fr;Bruxelles (Molenbeek-Saint-Jean);Molenbeek-Saint-Jean
+de;Molenbeek-Saint-Jean/Sint-Jans-Molenbeek;Molenbeek-Saint-Jean
+nl;Brussel (Sint-Jans-Molenbeek);Molenbeek-Saint-Jean
+nl;Sint-Jans-Molenbeek;Molenbeek-Saint-Jean
+en;Mesen;Messines
+de;Mesen;Messines
+nl;Mesen;Messines
+fr;Menin;Menen
+es;Malinas;Mechelen
+de;Mecheln;Mechelen
+fr;Malines;Mechelen
+pt;Malines;Mechelen
+fr;Marcq;Mark
+nl;Marbeek;Marbais
+fr;Locre;Loker
+nl;Limburg;Limbourg
+nl;Lillo-Fort;Lillo
+fr;Lierre;Lier
+de;Lüttich;Liège
+es;Lieja;Liège
+nl;Luik;Liège
+de;Löwen;Leuven
+fr;Louvain;Leuven
+pt;Lovaina;Leuven
+es;Lovaina;Leuven
+fr;Bourg-Léopold;Leopoldsburg
+nl;Kaart;Lage Kaart
+fr;Bruxelles (Laeken);Laeken
+en;Laken;Laeken
+nl;Brussel (Laken);Laeken
+nl;Laken;Laeken
+de;Kelmis;La Calamine
+nl;Lillo Kruisweg;Kruisweg
+fr;Courtrai;Kortrijk
+es;Courtrai;Kortrijk
+pt;Courtrai;Kortrijk
+fr;Coxyde;Koksijde
+fr;Bruxelles (Koekelberg);Koekelberg
+nl;Brussel (Koekelberg);Koekelberg
+fr;Keyem;Keiem
+fr;Chapelle-au-Bois;Kapelle-op-den-Bos
+fr;Caeskerke;Kaaskerke
+nl;Jurbeke;Jurbise
+de;Jupille;Jupille-sur-Meuse
+nl;Geldenaken;Jodoigne
+fr;Bruxelles (Jette);Jette
+nl;Brussel (Jette);Jette
+fr;Isenberghe;Izenberge
+de;Ixelles/Elsene;Ixelles
+en;Ixelles-Elsene;Ixelles
+nl;Elsene;Ixelles
+de;Ypern;Ieper
+es;Ypres;Ieper
+fr;Ypres;Ieper
+nl;Hoei;Huy
+en;Houthem;Houtem
+fr;Houthem;Houtem
+fr;Houcke;Hoeke
+fr;Heysel;Heisel
+fr;Herck-la-Ville;Herk-de-Stad
+fr;Helchin;Helkijn
+pt;Heist-aan-Zee;Heist
+en;Heist-aan-Zee;Heist
+nl;Brussel (Haren);Haren
+fr;Bruxelles (Haren);Haren
+fr;Grand-Bigard;Groot-Bijgaarden
+nl;Graven;Grez-Doiceau
+en;Ghent;Gent
+es;Gante;Gent
+fr;Gand;Gent
+pt;Gante;Gent
+nl;Gembloers;Gembloux
+fr;Bruxelles (Ganshoren);Ganshoren
+nl;Brussel (Ganshoren);Ganshoren
+fr;Fouron-Saint-Pierre;Sint-Pieters-Voeren
+nl;Voeren (Sint-Pieters-Voeren);Sint-Pieters-Voeren
+fr;Fourons (Fouron-Saint-Pierre);Sint-Pieters-Voeren
+fr;Fouron-le-Comte;'s-Gravenvoeren
+nl;'s Gravenvoeren;'s-Gravenvoeren
+nl;Voeren ('s Gravenvoeren);'s-Gravenvoeren
+fr;Fourons (Fouron-le-Comte);'s-Gravenvoeren
+fr;Bruxelles (Forest);Forest
+de;Forest/Vorst;Forest
+nl;Brussel (Vorst);Forest
+nl;Vorst;Forest
+nl;Vloesberg;Flobecq
+fr;Bruxelles (Evere);Evere
+nl;Brussel (Evere);Evere
+nl;Steenput;Estaimpuis
+fr;Emptinale;Emptinnal
+fr;Emptinal;Emptinnal
+nl;Dottenijs;Dottignies
+fr;Dixmude;Diksmuide
+fr;Heure-le-Tixhe;Diets-Heur
+fr;La Panne;De Panne
+fr;Termonde;Dendermonde
+de;Büllingen;Bullange
+en;Büllingen;Bullange
+nl;Büllingen;Bullange
+nl;Brussel;Bruxelles
+es;Bruselas;Bruxelles
+de;Brüssel;Bruxelles
+en;Brussels;Bruxelles
+pt;Bruxelas;Bruxelles
+en;City of Brussels;Bruxelles
+en;Bruges;Brugge
+es;Brujas;Brugge
+fr;Bruges;Brugge
+pt;Bruges;Brugge
+nl;s-Gravenbrakel;Braine-le-Comte
+nl;Eigenbrakel;Braine-l'Alleud
+de;Braine-l’Alleud;Braine-l'Alleud
+fr;Looz;Borgloon
+fr;Boitsfort;Bosvoorde
+nl;Beveren Waas;Beveren
+fr;Biévène;Bever
+nl;Bettenhoven;Bettincourt
+fr;Bruxelles (Berchem-Sainte-Agathe);Berchem-Sainte-Agathe
+en;Sint-Agatha-Berchem;Berchem-Sainte-Agathe
+de;Berchem-Sainte-Agathe/Sint-Agatha-Berchem;Berchem-Sainte-Agathe
+nl;Brussel (Sint-Agatha-Berchem);Berchem-Sainte-Agathe
+nl;Sint-Agatha-Berchem;Berchem-Sainte-Agathe
+fr;Belœil;Beloeil
+de;Belœil;Beloeil
+nl;Belœil;Beloeil
+es;Bastoña;Bastogne
+nl;Bastenaken;Bastogne
+fr;Baerle-Duc;Baarle-Hertog
+fr;Bruxelles (Auderghem);Auderghem
+de;Auderghem/Oudergem;Auderghem
+nl;Brussel (Oudergem);Auderghem
+nl;Oudergem;Auderghem
+nl;Aat;Ath
+de;Arel;Arlon
+nl;Aarlen;Arlon
+en;Antwerp;Antwerpen
+es;Amberes;Antwerpen
+fr;Anvers;Antwerpen
+pt;Antuérpia;Antwerpen
+fr;Bruxelles (Anderlecht);Anderlecht
+nl;Brussel (Anderlecht);Anderlecht
+de;Amel;Amblève
+en;Amel;Amblève
+nl;Amel;Amblève
+fr;Adinkerque;Adinkerke
+fr;Abeele;Abele
+fr;Alost;Aalst
+nl;Vlaamse Televisie Maatschappij;VTM
+fr;Société de Télévision Flamande;VTM
+fr;Montaigu-Zichem;Scherpenheuvel-Zichem
+fr;Fourons;Voeren
+nl;Essenhoek;Essen-Hoek
+nl;Den Hoek;Hoek
+nl;Zandvlietse Hoek;Hoek
+nl;Brugsepoort;Brugse Poort

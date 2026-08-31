@@ -34,8 +34,8 @@ RewriteRule ^\.git(/.*)?$ /? [R=301,L]
 RewriteRule ^node_modules(/.*)?$ /? [R=301,L]
 
 # ============================================================================
-# NON INCLUS volontairement : public/data/communes.txt, communes-XX.txt et
-# featured.txt. Contrairement à server.js, ce sont les FICHIERS QUE LE
+# NON INCLUS volontairement : public/data/communes.txt, communes-XX.txt,
+# aliases-XX.txt et featured.txt. Contrairement à server.js, ce sont les FICHIERS QUE LE
 # NAVIGATEUR CHARGE LUI-MÊME au démarrage de l'app (fetch() côté client,
 # voir public/js/app.js) — les bloquer casserait le site pour de vrai (plus
 # aucune commune ne se chargerait). Ce sont aussi des données publiques

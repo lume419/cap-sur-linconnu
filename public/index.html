@@ -63,6 +63,7 @@
 <div class="wrap">
 
   <div class="theme-toggle-row">
+    <div class="lang-switcher" id="lang-switcher"></div>
     <button type="button" class="theme-toggle-btn" data-theme-current="auto" title="Changer de thème (auto / clair / sombre)">
       <svg class="theme-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 000 18V3z" fill="currentColor" stroke="none"/></svg>
       <span class="theme-toggle-label">Auto</span>
@@ -70,62 +71,62 @@
   </div>
 
   <header class="hero">
-    <div class="eyebrow"><span class="dot"></span>Générateur de road trip mystère</div>
-    <h1 class="title">Cap sur l'inconnu<em>votre prochaine escapade n'a pas encore de nom</em></h1>
-    <p class="lede">Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à 21 jours et 15 villes — parmi les communes de France, d'Andorre, d'Espagne, du Portugal et de Belgique, et une liste à emporter, le tout dans votre budget.</p>
-    <p class="disclaimer">Communes, distances, péages et points d'intérêt reposent sur des données officielles (IGN/GeoNames, guides tarifaires des sociétés d'autoroutes, OpenStreetMap). Les temps de trajet et prix restent des estimations — vérifiez toujours l'itinéraire réel et la disponibilité des hébergements avant de partir.</p>
+    <div class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">Générateur de road trip mystère</span></div>
+    <h1 class="title"><span data-i18n="hero.title">Cap sur l'inconnu</span><em data-i18n="hero.subtitle">votre prochaine escapade n'a pas encore de nom</em></h1>
+    <p class="lede" data-i18n="hero.lede">Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à 21 jours et 15 villes — parmi les communes de France, d'Andorre, d'Espagne, du Portugal et de Belgique, et une liste à emporter, le tout dans votre budget.</p>
+    <p class="disclaimer" data-i18n="hero.disclaimer">Communes, distances, péages et points d'intérêt reposent sur des données officielles (IGN/GeoNames, guides tarifaires des sociétés d'autoroutes, OpenStreetMap). Les temps de trajet et prix restent des estimations — vérifiez toujours l'itinéraire réel et la disponibilité des hébergements avant de partir.</p>
   </header>
 
   <p class="load-error" id="load-error" role="alert"></p>
 
   <form class="dash" id="form">
     <div class="dash-head">
-      <h2>Feuille de route</h2>
-      <span id="clock">— à remplir —</span>
+      <h2 data-i18n="form.heading">Feuille de route</h2>
+      <span id="clock" data-i18n="form.clockPlaceholder">— à remplir —</span>
     </div>
 
     <div class="field-grid">
       <div class="field" id="city-field">
-        <label for="city">Ville de départ</label>
+        <label for="city" data-i18n="form.city.label">Ville de départ</label>
         <div class="suggest-wrap">
-          <input type="text" id="city" placeholder="Chargement des communes…" disabled autocomplete="off" aria-required="true"
+          <input type="text" id="city" placeholder="Chargement des communes…" data-i18n-placeholder="form.city.loadingPlaceholder" disabled autocomplete="off" aria-required="true"
                  aria-describedby="city-hint city-error" role="combobox" aria-autocomplete="list"
                  aria-expanded="false" aria-controls="city-suggest" />
           <ul class="suggest-list" id="city-suggest" role="listbox"></ul>
         </div>
-        <span class="field-error" id="city-error" role="alert">Merci d'indiquer une ville de départ.</span>
+        <span class="field-error" id="city-error" role="alert" data-i18n="form.city.error.required">Merci d'indiquer une ville de départ.</span>
       </div>
 
       <div class="field" id="dates-field">
-        <label for="date-start">Dates du séjour</label>
+        <label for="date-start" data-i18n="form.dates.label">Dates du séjour</label>
         <div class="date-range">
-          <input type="date" id="date-start" aria-label="Date d'arrivée" />
+          <input type="date" id="date-start" aria-label="Date d'arrivée" data-i18n-aria-label="form.dates.arrivalAria" />
           <span class="date-sep" aria-hidden="true">→</span>
-          <input type="date" id="date-end" aria-label="Date de retour" />
+          <input type="date" id="date-end" aria-label="Date de retour" data-i18n-aria-label="form.dates.returnAria" />
         </div>
         <span class="field-hint" id="duration-hint">3 jours (2 nuits)</span>
-        <span class="field-error" id="dates-error" role="alert">La date de retour doit être le même jour ou après la date d'arrivée.</span>
+        <span class="field-error" id="dates-error" role="alert" data-i18n="form.dates.error">La date de retour doit être le même jour ou après la date d'arrivée.</span>
       </div>
 
       <div class="field">
-        <label for="budget">Budget global</label>
+        <label for="budget" data-i18n="form.budget.label">Budget global</label>
         <select id="budget">
-          <option value="economique">Économique</option>
-          <option value="moyen" selected>Moyen</option>
-          <option value="confortable">Confortable</option>
+          <option value="economique" data-i18n="form.budget.economique">Économique</option>
+          <option value="moyen" selected data-i18n="form.budget.moyen">Moyen</option>
+          <option value="confortable" data-i18n="form.budget.confortable">Confortable</option>
         </select>
         <span class="field-hint" id="budget-hint">Jusqu'à 130 € / nuit (indicatif, 2 adultes) — utilisé pour préremplir les recherches Airbnb/Booking.</span>
       </div>
 
       <div class="field">
-        <label for="transport">Mode de transport</label>
+        <label for="transport" data-i18n="form.transport.label">Mode de transport</label>
         <select id="transport">
-          <option value="voiture-thermique">Voiture (thermique)</option>
-          <option value="voiture-hybride">Voiture hybride</option>
-          <option value="voiture-electrique">Voiture électrique</option>
-          <option value="van">Van aménagé</option>
-          <option value="moto">Moto</option>
-          <option value="velo">Vélo / bikepacking</option>
+          <option value="voiture-thermique" data-i18n="form.transport.voitureThermique">Voiture (thermique)</option>
+          <option value="voiture-hybride" data-i18n="form.transport.voitureHybride">Voiture hybride</option>
+          <option value="voiture-electrique" data-i18n="form.transport.voitureElectrique">Voiture électrique</option>
+          <option value="van" data-i18n="form.transport.van">Van aménagé</option>
+          <option value="moto" data-i18n="form.transport.moto">Moto</option>
+          <option value="velo" data-i18n="form.transport.velo">Vélo / bikepacking</option>
         </select>
       </div>
     </div>
@@ -134,7 +135,7 @@
       <label class="toggle-label" for="toll-toggle">
         <input type="checkbox" id="toll-toggle" />
         <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
-        <span class="toggle-text">Autoroutes à péage autorisées</span>
+        <span class="toggle-text" data-i18n="form.toll.label">Autoroutes à péage autorisées</span>
       </label>
     </div>
 
@@ -142,60 +143,60 @@
       <label class="toggle-label" for="tent-toggle">
         <input type="checkbox" id="tent-toggle" />
         <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
-        <span class="toggle-text">Éviter le bivouac et la nuit sous tente</span>
+        <span class="toggle-text" data-i18n="form.tent.label">Éviter le bivouac et la nuit sous tente</span>
       </label>
-      <span class="field-hint">Coché : les nuitées à la belle étoile en budget économique sont remplacées par une formule cabane/yourte/gîte.</span>
+      <span class="field-hint" data-i18n="form.tent.hint">Coché : les nuitées à la belle étoile en budget économique sont remplacées par une formule cabane/yourte/gîte.</span>
     </div>
 
     <div class="radius-field">
-      <label style="font:700 .68rem/1 var(--font-body); letter-spacing:.09em; text-transform:uppercase; color:var(--ink-soft);">Limite de rayon</label>
-      <div class="seg" role="group" aria-label="Type de limite">
-        <button type="button" id="mode-km" aria-pressed="true">Distance max (km)</button>
-        <button type="button" id="mode-h" aria-pressed="false">Temps de trajet retour max (h)</button>
+      <label style="font:700 .68rem/1 var(--font-body); letter-spacing:.09em; text-transform:uppercase; color:var(--ink-soft);" data-i18n="form.radius.label">Limite de rayon</label>
+      <div class="seg" role="group" aria-label="Type de limite" data-i18n-aria-label="form.radius.groupAria">
+        <button type="button" id="mode-km" aria-pressed="true" data-i18n="form.radius.modeKm">Distance max (km)</button>
+        <button type="button" id="mode-h" aria-pressed="false" data-i18n="form.radius.modeH">Temps de trajet retour max (h)</button>
       </div>
       <div class="radius-input">
-        <button type="button" class="step-btn" id="radius-dec" aria-label="Diminuer">−</button>
+        <button type="button" class="step-btn" id="radius-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
         <div class="radius-value-wrap" id="radius-value-wrap">
           <input type="number" id="radius" min="20" max="1200" value="300" step="10" />
           <span class="radius-value-display" id="radius-value-display" aria-hidden="true"></span>
         </div>
-        <button type="button" class="step-btn" id="radius-inc" aria-label="Augmenter">+</button>
-        <span class="unit" id="radius-unit">km autour du départ</span>
+        <button type="button" class="step-btn" id="radius-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
+        <span class="unit" id="radius-unit" data-i18n="form.radius.unitKm">km autour du départ</span>
       </div>
-      <span class="field-hint">S'applique uniquement au <strong>dernier trajet</strong> (le retour)</span>
+      <span class="field-hint" id="radius-hint-line">S'applique uniquement au <strong>dernier trajet</strong> (le retour)</span>
     </div>
 
     <div class="field" id="min-distance-field">
-      <label>Distance d'éloignement (optionnel)</label>
+      <label data-i18n="form.minDistance.label">Distance d'éloignement (optionnel)</label>
       <div class="distance-range-inputs">
         <div class="input-unit">
           <div class="stepper-row">
-            <button type="button" class="step-btn" id="min-distance-dec" aria-label="Diminuer">−</button>
-            <input type="number" id="min-distance" min="0" max="3000" step="10" placeholder="Aucun minimum" />
-            <button type="button" class="step-btn" id="min-distance-inc" aria-label="Augmenter">+</button>
+            <button type="button" class="step-btn" id="min-distance-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
+            <input type="number" id="min-distance" min="0" max="3000" step="10" placeholder="Aucun minimum" data-i18n-placeholder="form.minDistance.minPlaceholder" />
+            <button type="button" class="step-btn" id="min-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
-          <span class="unit">km au moins</span>
+          <span class="unit" data-i18n="form.minDistance.unitMin">km au moins</span>
         </div>
         <div class="input-unit">
           <div class="stepper-row">
-            <button type="button" class="step-btn" id="max-distance-dec" aria-label="Diminuer">−</button>
-            <input type="number" id="max-distance" min="0" max="3000" step="10" placeholder="Aucun maximum" />
-            <button type="button" class="step-btn" id="max-distance-inc" aria-label="Augmenter">+</button>
+            <button type="button" class="step-btn" id="max-distance-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
+            <input type="number" id="max-distance" min="0" max="3000" step="10" placeholder="Aucun maximum" data-i18n-placeholder="form.minDistance.maxPlaceholder" />
+            <button type="button" class="step-btn" id="max-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
-          <span class="unit">km au maximum</span>
+          <span class="unit" data-i18n="form.minDistance.unitMax">km au maximum</span>
         </div>
       </div>
-      <span class="field-hint">Minimum : la première étape sera à au moins cette distance. </span>
-      <span class="field-hint">Maximum : le trajet ne dépassera jamais cette distance du point de départ, à aucun moment du séjour.</span>
+      <span class="field-hint" data-i18n="form.minDistance.hintMin">Minimum : la première étape sera à au moins cette distance. </span>
+      <span class="field-hint" data-i18n="form.minDistance.hintMax">Maximum : le trajet ne dépassera jamais cette distance du point de départ, à aucun moment du séjour.</span>
       <span class="field-error" id="min-distance-error" role="alert"></span>
     </div>
 
     <div class="launch-row">
       <button type="submit" class="launch" id="launch-btn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none"/></svg>
-        Lancer le générateur de road trip aléatoire
+        <span data-i18n="form.launch.button">Lancer le générateur de road trip aléatoire</span>
       </button>
-      <span class="launch-hint">Une destination secrète vous attend.</span>
+      <span class="launch-hint" data-i18n="form.launch.hint">Une destination secrète vous attend.</span>
     </div>
   </form>
 
@@ -206,34 +207,34 @@
       <path d="M50 10 L58 50 L50 90 L42 50 Z" fill="var(--accent)"/>
       <text x="50" y="10" text-anchor="middle" font-size="9" fill="var(--ink-faint)" font-family="ui-sans-serif">N</text>
     </svg>
-    <div class="roulette-label" id="roulette-label">Tirage en cours…</div>
+    <div class="roulette-label" id="roulette-label" data-i18n="reveal.drawing">Tirage en cours…</div>
     <div class="roulette-name" id="roulette-name">???</div>
-    <div class="roulette-clue" id="roulette-clue">La route va parler.</div>
-    <div class="stamp" id="stamp">Destination confirmée</div>
+    <div class="roulette-clue" id="roulette-clue" data-i18n="reveal.clueIdle">La route va parler.</div>
+    <div class="stamp" id="stamp" data-i18n="reveal.stamp">Destination confirmée</div>
     <div class="reveal-real" id="reveal-real">
       <div class="reveal-region" id="reveal-region"></div>
     </div>
   </section>
 
   <section class="map-card" id="map-card">
-    <h3>Carte du parcours</h3>
+    <h3 data-i18n="map.title">Carte du parcours</h3>
     <div class="map-wrap" id="map-wrap"></div>
-    <p class="map-note">Fond de carte OpenStreetMap. Points positionnés aux coordonnées réelles des communes — le tracé relie les étapes à vol d'oiseau, la route suivie serpente davantage.</p>
+    <p class="map-note" data-i18n="map.note">Fond de carte OpenStreetMap. Points positionnés aux coordonnées réelles des communes — le tracé relie les étapes à vol d'oiseau, la route suivie serpente davantage.</p>
   </section>
 
   <section class="timeline" id="timeline">
     <div class="timeline-head">
-      <h2>Journal de bord</h2>
+      <h2 data-i18n="timeline.title">Journal de bord</h2>
       <div class="stats" id="timeline-stats"></div>
     </div>
     <div id="days"></div>
   </section>
 
   <div class="export-row" id="export-row">
-    <span class="export-hint" id="export-hint">Ce roadtrip vous tente ? Pensez à le télécharger, il ne sera probablement jamais reproposé.</span>
+    <span class="export-hint" id="export-hint" data-i18n="export.hint">Ce roadtrip vous tente ? Pensez à le télécharger, il ne sera probablement jamais reproposé.</span>
     <button type="button" class="export-pdf" id="export-pdf-btn">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
-      Exporter cet itinéraire en PDF
+      <span data-i18n="export.button">Exporter cet itinéraire en PDF</span>
     </button>
   </div>
 
@@ -242,21 +243,22 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
     </div>
     <div class="pack-head">
-      <h2>Sac à préparer</h2>
-      <span id="pack-sub">L'indispensable pour cette mission mystère</span>
+      <h2 data-i18n="pack.title">Sac à préparer</h2>
+      <span id="pack-sub" data-i18n="pack.subDefault">L'indispensable pour cette mission mystère</span>
     </div>
     <div class="pack-grid" id="pack-grid"></div>
   </section>
 
   <div class="again-row" id="again-row">
-    <button type="button" class="again" id="again-btn">Retirer une autre destination</button>
+    <button type="button" class="again" id="again-btn" data-i18n="again.button">Retirer une autre destination</button>
   </div>
 
   <footer>
-    Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal et la Belgique. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal) — autoroutes gratuites en Belgique et en Andorre.
-    <span class="footer-legal-links"><a href="mentions-legales">Mentions légales</a> · <a href="politique-confidentialite">Politique de confidentialité</a></span>
+    <span id="footer-text" data-i18n="footer.text">Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal et la Belgique. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal) — autoroutes gratuites en Belgique et en Andorre.</span>
+    <span class="footer-legal-links"><a href="mentions-legales" data-i18n="footer.legalMentions">Mentions légales</a> · <a href="politique-confidentialite" data-i18n="footer.privacyPolicy">Politique de confidentialité</a></span>
   </footer>
 </div>
+<script src="js/i18n.js" defer></script>
 <script src="js/theme.js" defer></script>
 <script src="vendor/leaflet/leaflet.js" defer></script>
 <script src="js/app.js" defer></script>

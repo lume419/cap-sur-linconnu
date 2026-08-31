@@ -12,34 +12,50 @@
   // donc jamais affiché (la Belgique a bien aboli le péage sur son réseau autoroutier il y a des
   // décennies ; le péage kilométrique Viapass n'existe que pour les poids lourds, hors périmètre de
   // cette app qui ne modélise que des véhicules légers).
+  // aliasFile (AD/ES/PT/BE seulement) : noms alternatifs par langue (voir scripts/build-aliases.js,
+  // source GeoNames alternateNamesV2) — permet de saisir une ville dans la langue choisie pour
+  // l'interface (ex. "Anvers" pour la commune belge "Antwerpen", voir searchCommunes plus bas).
+  // Absent pour la France : ses communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun
+  // geonameid n'est donc disponible pour les relier à ces noms alternatifs (voir le script pour le
+  // détail de ce choix).
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
-    AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false },
-    ES: { code:'ES', name:'Espagne', file:'communes-es.txt', hasToll:true },
-    PT: { code:'PT', name:'Portugal', file:'communes-pt.txt', hasToll:true },
-    BE: { code:'BE', name:'Belgique', file:'communes-be.txt', hasToll:false }
+    AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
+    ES: { code:'ES', name:'Espagne', file:'communes-es.txt', hasToll:true, aliasFile:'aliases-es.txt' },
+    PT: { code:'PT', name:'Portugal', file:'communes-pt.txt', hasToll:true, aliasFile:'aliases-pt.txt' },
+    BE: { code:'BE', name:'Belgique', file:'communes-be.txt', hasToll:false, aliasFile:'aliases-be.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
+  var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
   // tant que ce chargement n'est pas terminé. La carte du parcours, elle, n'a plus besoin d'aucun
   // fichier local : elle s'appuie sur de vraies tuiles OpenStreetMap via Leaflet (voir renderMap).
-  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW;
+  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW, ALIASES_RAW_BY_COUNTRY = {};
   try {
     var communesFetches = COUNTRY_LIST.map(function(cc){
       var file = COUNTRIES[cc].file;
       return fetch('data/' + file).then(function(r){ if(!r.ok) throw new Error(file + ' : HTTP ' + r.status); return r.text(); });
     });
+    // Tolérant à l'échec individuel (contrairement aux fetches ci-dessus) : la saisie multilingue
+    // des villes est un bonus, pas une donnée essentielle — un fichier d'alias manquant/en erreur ne
+    // doit jamais empêcher le site de fonctionner (voir le .catch propre à chacun, pas le try/catch
+    // global qui, lui, affiche l'écran d'erreur bloquant pour les données réellement essentielles).
+    var aliasFetches = ALIAS_COUNTRY_LIST.map(function(cc){
+      return fetch('data/' + COUNTRIES[cc].aliasFile).then(function(r){ return r.ok ? r.text() : ''; }).catch(function(){ return ''; });
+    });
     var results = await Promise.all(communesFetches.concat([
       fetch('data/featured.txt').then(function(r){ if(!r.ok) throw new Error('featured.txt : HTTP '+r.status); return r.text(); })
     ]));
+    var aliasResults = await Promise.all(aliasFetches);
     COUNTRY_LIST.forEach(function(cc, i){ COMMUNES_RAW_BY_COUNTRY[cc] = results[i]; });
     FEATURED_RAW = results[COUNTRY_LIST.length];
+    ALIAS_COUNTRY_LIST.forEach(function(cc, i){ ALIASES_RAW_BY_COUNTRY[cc] = aliasResults[i]; });
   } catch(err){
     var loadErr = document.getElementById('load-error');
     if(loadErr){
-      loadErr.textContent = "Impossible de charger les données (" + err.message + "). Vérifiez que le serveur sert bien le dossier public/data.";
+      loadErr.textContent = window.I18N.t('error.loadData', {msg: err.message});
       loadErr.classList.add('show');
     }
     return;
@@ -62,15 +78,35 @@
   function icon(name){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';}
 
   // Langue Wikipédia utilisée pour les photos/articles d'un lieu (voir /api/photo côté serveur) :
-  // celle du visiteur, pas celle de la commune ni celle, fixe, de l'interface — une commune
-  // espagnole affiche donc son article en espagnol pour un visiteur dont le navigateur est
-  // configuré en espagnol, en français pour un visiteur francophone, etc. Repli sur le français
-  // (langue principale du site) si la langue du navigateur n'est pas exploitable.
-  var VISITOR_LANG = (function(){
-    var raw = (navigator.language || (navigator.languages && navigator.languages[0]) || 'fr');
-    var code = String(raw).split('-')[0].toLowerCase();
-    return /^[a-z]{2,3}$/.test(code) ? code : 'fr';
-  })();
+  // celle choisie par le visiteur pour l'INTERFACE (voir js/i18n.js — détectée depuis son
+  // navigateur au premier chargement, mémorisée ensuite) — une commune espagnole affiche donc son
+  // article en espagnol pour un visiteur ayant choisi l'espagnol, en français pour un visiteur en
+  // français, etc. Tenue à jour à chaque changement de langue (voir l'écouteur 'i18n:langchange'
+  // plus bas) : les prochaines recherches de photo utilisent alors tout de suite la nouvelle langue.
+  var t = window.I18N.t, tl = window.I18N.tl;
+  var VISITOR_LANG = window.I18N.current();
+  // Code court -> étiquette de locale complète, pour Intl/toLocaleDateString (horloge, dates
+  // formatées, nombre d'habitants...) — une seule variante par langue suffit ici, pas besoin de
+  // distinguer ex. pt-PT/pt-BR pour ce site.
+  var LOCALE_TAG = { fr:'fr-FR', en:'en-GB', es:'es-ES', pt:'pt-PT', nl:'nl-NL', de:'de-DE' };
+  function localeTag(){ return LOCALE_TAG[VISITOR_LANG] || 'fr-FR'; }
+  // Suffixe de clé i18n depuis une clé TRANSPORT à tirets ("voiture-thermique" -> "voitureThermique") —
+  // évite de dupliquer les six libellés dans une structure séparée juste pour la casse.
+  function camelFromDash(key){
+    return key.replace(/-([a-z])/g, function(_, c){ return c.toUpperCase(); });
+  }
+  function transportLabel(key){ return t('transport.' + camelFromDash(key) + '.label'); }
+  function transportPackExtra(key){ return tl('pack.' + camelFromDash(key)); }
+  function budgetLabel(key){ return t('form.budget.' + key); }
+  // Types de POI connus (voir POI_TYPE_LABEL plus bas, remplacé par une résolution i18n à la
+  // volée) — sert seulement à savoir si un type a une vraie traduction ou doit retomber sur le
+  // libellé générique ("curiosité locale").
+  var KNOWN_POI_TYPES = {
+    attraction:1, museum:1, viewpoint:1, castle:1, gallery:1, zoo:1, theme_park:1, monument:1,
+    memorial:1, archaeological_site:1, cave_entrance:1, ruins:1, fort:1, citadel:1, manor:1,
+    chapel:1, place_of_worship:1, nature_reserve:1, peak:1, waterfall:1, beach:1, artwork:1
+  };
+  function poiTypeLabel(type){ return (type && KNOWN_POI_TYPES[type]) ? t('poiType.' + type) : t('poiType.fallback'); }
 
   /* ---------- POP-UP PHOTO (agrandissement en qualité maximale) ---------- */
   // Une seule popup réutilisée pour toutes les images cliquables (tuile principale + activités) :
@@ -84,7 +120,7 @@
     lightboxEl.setAttribute('role', 'dialog');
     lightboxEl.setAttribute('aria-modal', 'true');
     lightboxEl.innerHTML =
-      '<button type="button" class="lightbox-close" aria-label="Fermer la photo">'+icon('close')+'</button>'+
+      '<button type="button" class="lightbox-close" aria-label="'+t('photo.closeAria')+'">'+icon('close')+'</button>'+
       '<img class="lightbox-img" alt="">'+
       '<div class="lightbox-caption"></div>';
     document.body.appendChild(lightboxEl);
@@ -103,7 +139,7 @@
     img.alt = caption || '';
     var capEl = el.querySelector('.lightbox-caption');
     capEl.innerHTML = (caption ? '<span>'+caption+'</span>' : '') +
-      (wikiUrl ? '<a href="'+wikiUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>' : '');
+      (wikiUrl ? '<a href="'+wikiUrl+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>' : '');
     el.classList.add('show');
     document.body.classList.add('lightbox-open');
   }
@@ -115,13 +151,16 @@
   }
 
   /* ---------- REFERENCE DATA ---------- */
+  // label/extra ne sont plus stockés ici en dur : ils dépendent de la langue choisie (voir
+  // transportLabel()/transportPackExtra() plus haut, résolues à la volée via I18N à chaque usage) —
+  // seules les données non textuelles (vitesse, classe de péage, motorisation) restent ici.
   var TRANSPORT = {
-    'voiture-thermique': {label:'voiture', speed:82, tollClass:1, extra:["Carte grise et permis à jour","Trousse de secours"]},
-    'voiture-hybride': {label:'voiture hybride', speed:81, tollClass:1, extra:["Carte grise et permis à jour","Trousse de secours"]},
-    'voiture-electrique': {label:'voiture électrique', speed:78, electric:true, tollClass:1, extra:["Câble de recharge Type 2","Appli multi-réseaux de bornes de recharge (ex. Chargemap)","Marge de 20% sur l'autonomie annoncée"]},
-    'van': {label:'van', speed:70, tollClass:2, extra:["Jerrican d'eau potable","Cartouche de gaz de camping","Cales de mise à niveau"]},
-    'moto': {label:'moto', speed:85, tollClass:5, extra:["Casque et gants","Combinaison ou surpantalon pluie","Sangles élastiques pour bagages"]},
-    'velo': {label:'vélo', speed:17, tollClass:null, extra:["Kit anti-crevaison complet","Sacoches étanches","Batterie externe pour le GPS"]}
+    'voiture-thermique': {speed:82, tollClass:1},
+    'voiture-hybride': {speed:81, tollClass:1},
+    'voiture-electrique': {speed:78, electric:true, tollClass:1},
+    'van': {speed:70, tollClass:2},
+    'moto': {speed:85, tollClass:5},
+    'velo': {speed:17, tollClass:null}
   };
   // Recharge électrique : autonomie route réaliste retenue avant de viser une pause.
   var EV_RANGE_KM = 320;
@@ -166,20 +205,19 @@
     PT: { 1: 0.036, 2: 0.056, 5: 0.021 }
   };
   var TOLL_MIN_DISTANCE_KM = 60; // en-deçà, le péage n'entre pas en ligne de compte
+  // label n'est plus stocké ici (voir budgetLabel() plus haut) — seul l'ordre reste une donnée
+  // stable, indépendante de la langue.
   var BUDGET = {
-    economique:{label:'économique', order:0},
-    moyen:{label:'moyen', order:1},
-    confortable:{label:'confortable', order:2}
+    economique:{order:0},
+    moyen:{order:1},
+    confortable:{order:2}
   };
   // Plafond de prix / nuit (2 adultes) utilisé uniquement pour préremplir les liens de recherche
   // Airbnb / Booking — un repère indicatif choisi pour ce générateur, pas une donnée tarifaire réelle.
   var BUDGET_PRICE_MAX = { economique: 70, moyen: 130, confortable: 260 };
-  var PACK_BASE = ["Trousse à pharmacie","Gourde réutilisable","Chargeur & batterie externe","Espèces d'appoint","Playlist de route"];
-  var PACK_BUDGET = {
-    economique:["Duvet 3 saisons","Popote / réchaud de camping","Tente ultralégère (en secours du bivouac)"],
-    moyen:["Nécessaire de toilette compact","Petit coussin de voyage"],
-    confortable:["Une tenue correcte pour le restaurant du soir","Trousse de toilette complète"]
-  };
+  // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
+  // base et compléments par budget/transport, résolus à la langue courante à chaque rendu
+  // (renderPacking) plutôt que figés en français ici.
 
   /* ---------- POINTS D'INTÉRÊT RÉELS (OpenStreetMap) ---------- */
   // ~300 communes disposant d'au moins un point d'intérêt touristique ou patrimonial nommé,
@@ -190,24 +228,14 @@
   // du pays restent des étapes possibles, avec une activité générique (marché, patrimoine
   // local, balade) plutôt qu'un point d'intérêt inventé.
   
-  var POI_TYPE_LABEL = {
-    attraction:'curiosité locale', museum:'musée', viewpoint:'point de vue', castle:'château',
-    gallery:'galerie', zoo:'parc animalier', theme_park:"parc d'attractions",
-    monument:'monument', memorial:'mémorial', archaeological_site:'site archéologique',
-    cave_entrance:'grotte', ruins:'ruines', fort:'fort', citadel:'citadelle', manor:'manoir',
-    chapel:'chapelle', place_of_worship:'édifice religieux', nature_reserve:'réserve naturelle',
-    peak:'sommet', waterfall:'cascade', beach:'plage', artwork:"œuvre d'art"
-  };
-  var GENERIC_ACTIVITIES = [
-    "Flânerie dans le centre historique",
-    "Marché local et produits du terroir (jours à vérifier sur place)",
-    "Visite de l'église ou du patrimoine bâti local",
-    "Randonnée ou balade dans les environs",
-    "Découverte d'un producteur ou artisan local"
-  ];
-  // Suggestions génériques hors "balade" : la balade a sa propre logique de sélection
-  // (voir buildActivityOptions) pour éviter le doublon avec GENERIC_ACTIVITIES ci-dessus.
-  var GENERIC_ACTIVITIES_NO_WALK = GENERIC_ACTIVITIES.filter(function(a){ return a.indexOf('Randonnée') !== 0; });
+  // POI_TYPE_LABEL n'est plus une table de libellés figée : voir poiTypeLabel()/KNOWN_POI_TYPES
+  // plus haut, résolus via I18N à chaque rendu (nécessaire pour qu'un changement de langue en
+  // cours de session retraduise les activités déjà affichées — voir renderActivityCards).
+  // Suggestions génériques : des CLÉS i18n (pas du texte résolu) — un changement de langue doit
+  // pouvoir les retraduire sans rejouer le tirage (voir buildActivityOptions/renderActivityCards).
+  // "generic.walk" à part : la balade a sa propre logique de sélection (voir buildActivityOptions),
+  // pour éviter le doublon avec les 4 autres suggestions génériques ci-dessous.
+  var GENERIC_KEYS_NO_WALK = ['generic.market', 'generic.church', 'generic.stroll', 'generic.producer'];
   // Types de POI OSM qui se prêtent à une vraie suggestion de balade/randonnée (plutôt qu'une
   // visite en intérieur) : on les préfère comme suggestion "balade" quand ils sont disponibles.
   var WALK_POI_TYPES = { viewpoint:1, nature_reserve:1, peak:1, waterfall:1, cave_entrance:1, beach:1 };
@@ -261,21 +289,63 @@
     return all.concat(parseCommunesFile(COMMUNES_RAW_BY_COUNTRY[cc], cc));
   }, []);
 
-  // Recherche à partir de 3 caractères : chiffres -> préfixe de code postal, lettres -> préfixe du nom.
-  // Résultats triés par population décroissante pour faire remonter les villes connues.
+  // Saisie d'une ville dans une AUTRE langue que son nom local (ex. "Anvers" en français pour la
+  // commune belge "Antwerpen", "Séville" pour "Sevilla" — voir scripts/build-aliases.js, source
+  // GeoNames alternateNamesV2). ALIASES[i].commune référence directement l'entrée COMMUNES
+  // correspondante : sélectionner un résultat trouvé par alias résout donc bien vers le VRAI nom
+  // local (celui utilisé partout ailleurs dans l'app — carte, activités, péage...), pas vers
+  // l'alias saisi, qui n'était qu'un moyen de le trouver. Un alias reconnu dans N'IMPORTE LAQUELLE
+  // des langues couvertes fonctionne, pas seulement celle actuellement choisie pour l'interface :
+  // plus simple (pas besoin de reconstruire l'index à chaque changement de langue) et plus tolérant
+  // pour l'utilisateur (fonctionne même juste après avoir changé de langue, ou par habitude).
+  var ALIASES = [];
+  ALIAS_COUNTRY_LIST.forEach(function(cc){
+    var raw = ALIASES_RAW_BY_COUNTRY[cc];
+    if(!raw) return;
+    var byName = {};
+    COMMUNES.forEach(function(c){
+      if(c.country !== cc) return;
+      (byName[c.name] = byName[c.name] || []).push(c);
+    });
+    raw.split('\n').filter(Boolean).forEach(function(line){
+      var parts = line.split(';');
+      var alias = parts[1], canonical = parts[2];
+      if(!alias || !canonical) return;
+      var targets = byName[canonical];
+      if(!targets) return;
+      var norm = normalizeCityName(alias);
+      targets.forEach(function(c){ ALIASES.push({ norm: norm, commune: c }); });
+    });
+  });
+
+  // Recherche à partir de 3 caractères : chiffres -> préfixe de code postal, lettres -> préfixe du
+  // nom LOCAL ou d'un alias connu dans une autre langue (voir ALIASES ci-dessus). Résultats triés
+  // par population décroissante pour faire remonter les villes connues.
   function searchCommunes(query, limit){
     var q = normalizeCityName(query);
     if(q.length < 3) return [];
     var isPostal = /^[0-9]/.test(q);
     var matches = [];
+    var seenKeys = {}; // évite qu'une même commune apparaisse deux fois (nom local + alias, tous deux correspondant à la saisie)
+    function pushMatch(c, cp){
+      var key = c.country + '|' + c.norm + '|' + cp;
+      if(seenKeys[key]) return;
+      seenKeys[key] = true;
+      matches.push({name:c.name, cp:cp, allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept, country:c.country});
+    }
     for(var i=0; i<COMMUNES.length; i++){
       var c = COMMUNES[i];
       if(isPostal){
         var matchCp = null;
         for(var j=0;j<c.cps.length;j++){ if(c.cps[j].indexOf(q)===0){ matchCp = c.cps[j]; break; } }
-        if(matchCp) matches.push({name:c.name, cp:matchCp, allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept, country:c.country});
+        if(matchCp) pushMatch(c, matchCp);
       } else if(c.norm.indexOf(q)===0){
-        matches.push({name:c.name, cp:c.cps[0], allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept, country:c.country});
+        pushMatch(c, c.cps[0]);
+      }
+    }
+    if(!isPostal){
+      for(var k=0; k<ALIASES.length; k++){
+        if(ALIASES[k].norm.indexOf(q) === 0) pushMatch(ALIASES[k].commune, ALIASES[k].commune.cps[0]);
       }
     }
     matches.sort(function(a,b){ return b.pop - a.pop; });
@@ -353,21 +423,28 @@
   // 16 caractères maximum pour le nom : au-delà, "Ex. <nom> ou <cp>" ne tient plus dans le champ
   // sans réduire la taille du texte du placeholder (vérifié empiriquement). Repli en cascade sur un
   // filtre moins strict si l'un d'eux ne laissait rien (improbable, mais gratuit à couvrir).
-  function randomPlaceholderCity(){
+  // La commune elle-même est tirée une seule fois par chargement de page (pas à chaque changement
+  // de langue) — seul le gabarit "Ex. X ou CP" autour d'elle est retraduit (voir placeholderText(),
+  // rappelée par l'écouteur 'i18n:langchange' plus bas).
+  var placeholderCommune = null;
+  function pickPlaceholderCommune(){
     var pool = COMMUNES.filter(function(c){ return c.pop >= 2000 && c.name.length <= 16; });
     if(!pool.length) pool = COMMUNES.filter(function(c){ return c.name.length <= 16; });
     if(!pool.length) pool = COMMUNES;
-    var c = pool[Math.floor(Math.random() * pool.length)];
-    return 'Ex. ' + c.name + ' ou ' + c.cps[0];
+    return pool[Math.floor(Math.random() * pool.length)];
+  }
+  function placeholderText(){
+    if(!placeholderCommune) placeholderCommune = pickPlaceholderCommune();
+    return t('form.city.placeholder', {name: placeholderCommune.name, cp: placeholderCommune.cps[0]});
   }
 
   // Les données sont chargées : on peut activer la recherche de ville.
   els.city.disabled = false;
-  els.city.placeholder = randomPlaceholderCity();
+  els.city.placeholder = placeholderText();
 
   function tickClock(){
     var d = new Date();
-    els.clock.textContent = d.toLocaleDateString('fr-FR',{weekday:'long', day:'numeric', month:'long'});
+    els.clock.textContent = d.toLocaleDateString(localeTag(),{weekday:'long', day:'numeric', month:'long'});
   }
   tickClock();
 
@@ -391,7 +468,7 @@
   function formatFrDate(iso){
     var d = parseIsoDate(iso);
     if(!d) return '';
-    return d.toLocaleDateString('fr-FR', {day:'numeric', month:'short'});
+    return d.toLocaleDateString(localeTag(), {day:'numeric', month:'short'});
   }
   // Une seule ligne "Trouver un logement" par séjour (voir buildItinerary), pas une par nuit :
   // le libellé doit donc pouvoir couvrir une plage ("20 août → 22 août") plutôt qu'une seule date
@@ -428,14 +505,14 @@
     var end = parseIsoDate(els.dateEnd.value);
     if(start && end && end >= start){
       els.dateEnd.min = isoDate(start);
-      var t = tripNightsAndDays(start, end);
-      var label = t.nights === 0
-        ? '1 jour (aller-retour, sans nuitée)'
-        : t.days + ' jours (' + t.nights + (t.nights === 1 ? ' nuit' : ' nuits') + ')';
-      els.durationHint.textContent = label + (t.capped ? ' — ' + MAX_TRIP_DAYS + ' jours max' : '');
+      var dur = tripNightsAndDays(start, end);
+      var label = dur.nights === 0
+        ? t('form.dates.oneDay')
+        : t(dur.nights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: dur.days, nights: dur.nights});
+      els.durationHint.textContent = label + (dur.capped ? t('form.dates.maxSuffix', {max: MAX_TRIP_DAYS}) : '');
       clearDatesError();
     } else {
-      els.durationHint.textContent = '—';
+      els.durationHint.textContent = t('form.dates.placeholder');
     }
   }
   els.dateStart.addEventListener('change', function(){
@@ -581,10 +658,10 @@
       var h = parseFloat(els.radius.value) || 0;
       els.radiusValueDisplay.textContent = fmtHours(h);
       els.radiusValueWrap.classList.add('show-duration');
-      els.radiusUnit.textContent = 'de trajet retour max';
+      els.radiusUnit.textContent = t('form.radius.unitH');
     } else {
       els.radiusValueWrap.classList.remove('show-duration');
-      els.radiusUnit.textContent = 'km autour du départ';
+      els.radiusUnit.textContent = t('form.radius.unitKm');
     }
   }
   function setMode(mode){
@@ -642,7 +719,7 @@
   function updateBudgetHint(){
     var key = els.budget.value;
     var max = BUDGET_PRICE_MAX[key];
-    els.budgetHint.textContent = "Jusqu'à " + max + " € / nuit (indicatif, 2 adultes) — utilisé pour préremplir les recherches Airbnb/Booking.";
+    els.budgetHint.textContent = t('form.budget.hint', {max: max});
   }
   els.budget.addEventListener('change', updateBudgetHint);
   updateBudgetHint();
@@ -658,7 +735,7 @@
   function pick(arr){ return arr[randInt(0,arr.length-1)]; }
   function shuffle(arr){
     var a = arr.slice();
-    for(var i=a.length-1;i>0;i--){ var j=randInt(0,i); var t=a[i]; a[i]=a[j]; a[j]=t; }
+    for(var i=a.length-1;i>0;i--){ var j=randInt(0,i); var tmp=a[i]; a[i]=a[j]; a[j]=tmp; }
     return a;
   }
   function fmtHours(h){
@@ -847,9 +924,9 @@
     return nights;
   }
   function lodgingCategoryLabel(budgetKey, avoidTent){
-    if(budgetKey==='economique') return avoidTent ? "Auberge, chambre simple ou petit hôtel (bivouac évité)" : "Camping, bivouac ou aire naturelle (petit budget)";
-    if(budgetKey==='moyen') return "Gîte, chambre d'hôtes ou hôtel 2-3★";
-    return "Hôtel de charme ou location haut de gamme";
+    if(budgetKey==='economique') return avoidTent ? t('lodging.economiqueNoTent') : t('lodging.economiqueTent');
+    if(budgetKey==='moyen') return t('lodging.moyen');
+    return t('lodging.confortable');
   }
   buildCommuneGrid(); // appelé ici (après la déclaration de COMMUNE_GRID ci-dessus), pas plus haut
 
@@ -860,7 +937,7 @@
     els.compass.classList.remove('spin');
     void els.compass.offsetWidth; // restart animation
     els.compass.classList.add('spin');
-    els.rouletteLabel.textContent = 'Tirage en cours…';
+    els.rouletteLabel.textContent = t('reveal.drawing');
 
     var names = shuffle(spinPool.filter(function(c){return c.norm!==firstStop.norm;})).slice(0,6).map(function(c){return c.name;});
     if(names.length===0) names.push(firstStop.name);
@@ -869,7 +946,7 @@
     var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if(reduced){
       els.rouletteName.textContent = firstStop.name;
-      els.rouletteClue.textContent = 'Un vrai lieu vous attend.';
+      els.rouletteClue.textContent = t('reveal.clueReduced');
       finishReveal(firstStop, onDone);
       return;
     }
@@ -878,27 +955,31 @@
     var totalSteps = names.length + 10;
     function tick(){
       els.rouletteName.textContent = names[i % names.length];
-      els.rouletteClue.textContent = 'Direction inconnue…';
+      els.rouletteClue.textContent = t('reveal.clueSpinning');
       i++; step++;
       delay = delay * 1.16;
       if(step < totalSteps){
         rouletteTimer = setTimeout(tick, delay);
       } else {
         els.rouletteName.textContent = firstStop.name;
-        els.rouletteClue.textContent = 'Voici votre point de départ mystère.';
+        els.rouletteClue.textContent = t('reveal.clueFinal');
         finishReveal(firstStop, onDone);
       }
     }
     tick();
   }
   function finishReveal(firstStop, onDone){
-    els.rouletteLabel.textContent = 'Destination tirée au sort';
+    els.rouletteLabel.textContent = t('reveal.confirmed');
     setTimeout(function(){
       els.stamp.classList.add('show');
+      els.stamp.textContent = t('reveal.stamp');
       // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France).
       var bits = [firstStop.name + (firstStop.cp ? ' (' + formatCpBadge(firstStop) + ')' : '')];
-      if(firstStop.pop) bits.push(firstStop.pop.toLocaleString('fr-FR')+' habitants');
-      if(FEATURED[firstStop.norm]) bits.push(FEATURED[firstStop.norm].pois.length+' point'+(FEATURED[firstStop.norm].pois.length>1?'s':'')+" d'intérêt réel"+(FEATURED[firstStop.norm].pois.length>1?'s':'')+' repéré'+(FEATURED[firstStop.norm].pois.length>1?'s':''));
+      if(firstStop.pop) bits.push(t('reveal.inhabitants', {n: firstStop.pop.toLocaleString(localeTag())}));
+      if(FEATURED[firstStop.norm]){
+        var n = FEATURED[firstStop.norm].pois.length;
+        bits.push(t(n > 1 ? 'reveal.poiN' : 'reveal.poi1', {n: n}));
+      }
       els.revealRegion.textContent = bits.join(' · ');
       els.revealReal.classList.add('show');
       if(onDone) onDone();
@@ -958,7 +1039,7 @@
   function buildPhotoLinks(placeName){
     var q = encodeURIComponent(placeName + ' France');
     return {
-      wiki: 'https://fr.wikipedia.org/wiki/Special:Search?search=' + encodeURIComponent(placeName) + '&go=Go',
+      wiki: 'https://' + VISITOR_LANG + '.wikipedia.org/wiki/Special:Search?search=' + encodeURIComponent(placeName) + '&go=Go',
       images: 'https://www.google.com/search?tbm=isch&q=' + q
     };
   }
@@ -1016,7 +1097,7 @@
     var key = lat.toFixed(3) + ',' + lon.toFixed(3);
     return fetchRealPOIs(lat, lon, name, dept, country).then(function(pois){
       if(!poiQueueByLocation[key]) poiQueueByLocation[key] = shuffle(pois || []);
-      if(!genericQueueByLocation[key]) genericQueueByLocation[key] = shuffle(GENERIC_ACTIVITIES_NO_WALK);
+      if(!genericQueueByLocation[key]) genericQueueByLocation[key] = shuffle(GENERIC_KEYS_NO_WALK);
       return {
         poisQueue: poiQueueByLocation[key],
         genericQueue: genericQueueByLocation[key],
@@ -1099,6 +1180,12 @@
   // qu'une formule générique), puis on complète avec d'autres suggestions génériques jusqu'à 3.
   // `poisQueue` et `genericQueue` sont mutées (consommées au fil des jours d'un même séjour pour
   // éviter les répétitions), et `genericQueue` est réapprovisionnée si elle vient à manquer.
+  // Options générées avec des clés/données brutes (typeKey, labelKey) plutôt que du texte déjà
+  // traduit : renderActivityCards résout le texte affiché à CHAQUE rendu via I18N — nécessaire pour
+  // qu'un changement de langue en cours de session retraduise correctement des activités déjà
+  // tirées, sans avoir à refaire le tirage ni reconsommer les files partagées (voir écouteur
+  // 'i18n:langchange' plus bas). Seuls poi.name/hike.name restent du texte "en dur" : ce sont de
+  // vrais noms propres (lieux réels), pas des libellés d'interface.
   function buildActivityOptions(poisQueue, genericQueue){
     var options = [];
     // Un maximum d'un lieu par type (musée, mémorial, château...) — sans ça, une zone où un seul
@@ -1114,7 +1201,7 @@
       usedTypes[diversityGroup(poi.type)] = true;
       options.push({
         label: poi.name,
-        typeLabel: POI_TYPE_LABEL[poi.type] || 'curiosité locale',
+        typeKey: poi.type || null,
         searchName: poi.name,
         isReal: true,
         isWalk: !!WALK_POI_TYPES[poi.type],
@@ -1129,7 +1216,7 @@
         var walkPoi = poisQueue.splice(walkIdx, 1)[0];
         options.push({
           label: walkPoi.name,
-          typeLabel: POI_TYPE_LABEL[walkPoi.type] || 'balade',
+          typeKey: walkPoi.type || null,
           searchName: walkPoi.name,
           isReal: true,
           isWalk: true,
@@ -1140,14 +1227,14 @@
         // Aucun POI de plein air disponible pour compléter cette suggestion : on tentera une vraie
         // rando balisée via Visorando (voir renderActivityCards) plutôt que de garder cette formule
         // générique telle quelle. Si Visorando ne renvoie rien non plus, elle reste affichée ainsi.
-        options.push({ label: 'Randonnée ou balade dans les environs', typeLabel: 'balade', isReal: false, isWalk: true, needsHike: true });
+        options.push({ labelKey: 'generic.walk', typeI18nKey: 'poiType.walkFallback', isReal: false, isWalk: true, needsHike: true });
       }
     }
     while(options.length < 3){
-      if(genericQueue.length === 0){ Array.prototype.push.apply(genericQueue, shuffle(GENERIC_ACTIVITIES_NO_WALK)); }
-      var g = genericQueue.shift();
-      if(options.some(function(o){ return o.label === g; })) continue; // évite le doublon dans la même journée
-      options.push({ label: g, typeLabel: 'à faire sur place', isReal: false, isWalk: false });
+      if(genericQueue.length === 0){ Array.prototype.push.apply(genericQueue, shuffle(GENERIC_KEYS_NO_WALK)); }
+      var gKey = genericQueue.shift();
+      if(options.some(function(o){ return o.labelKey === gKey; })) continue; // évite le doublon dans la même journée
+      options.push({ labelKey: gKey, typeI18nKey: 'poiType.generic', isReal: false, isWalk: false });
     }
     return options;
   }
@@ -1177,12 +1264,16 @@
       var stop = candidates[randInt(0, candidates.length-1)].commune;
       var featured0 = FEATURED[stop.norm];
       var poisQueue0 = featured0 ? featured0.pois.slice() : [];
-      var genericQueue0 = shuffle(GENERIC_ACTIVITIES_NO_WALK);
+      var genericQueue0 = shuffle(GENERIC_KEYS_NO_WALK);
       var activities0 = buildActivityOptions(poisQueue0, genericQueue0);
       var distOut = Math.round(roadDistanceKm(cLat, cLon, stop.lat, stop.lon));
       var distBack = Math.round(roadDistanceKm(stop.lat, stop.lon, cLat, cLon));
+      // label : texte dans la langue au moment du tirage, utilisé tel quel par l'export PDF (rendu
+      // côté serveur, non traduit — voir buildTripExportPayload). labelKind/dayNum : la même info
+      // sous forme de données, résolue en texte à la volée par l'affichage web (voir
+      // singleLegLabel) pour rester correcte après un changement de langue en cours de session.
       legs.push(Object.assign({
-        label:'Jour unique — aller-retour mystère',
+        label: t('day.single'), labelKind: 'single',
         stop: stop.name,
         activities: activities0,
         needsRealPOIs: !featured0,
@@ -1191,7 +1282,7 @@
         lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept, country: stop.country, cp: stop.cps[0], allCps: stop.cps
       }, finalizeLeg(distOut, speed, transportKey, tollEnabled, stop.country)));
       legs.push(Object.assign({
-        label:'Retour',
+        label: t('day.return'), labelKind: 'returnBare',
         stop: city,
         activities: null,
         lodging: null,
@@ -1221,7 +1312,7 @@
       var nightsHere = nights[stopIdx];
       var featured = FEATURED[commune.norm];
       var poisQueue = featured ? featured.pois.slice() : [];
-      var genericQueue = shuffle(GENERIC_ACTIVITIES_NO_WALK);
+      var genericQueue = shuffle(GENERIC_KEYS_NO_WALK);
       // Un séjour de plusieurs nuits au même endroit ne doit donner lieu qu'à UNE seule réservation
       // (les dates couvrent tout le séjour), pas une recherche Airbnb/Booking distincte — et donc
       // un lien différent — pour chaque nuit individuelle. Calculées une fois avant la boucle sur
@@ -1239,7 +1330,7 @@
         var checkOut = isoDate(addDays(tripStart, dayCounter));
         var isFirstNightHere = (n === 0);
         legs.push(Object.assign({
-          label: 'Jour '+dayCounter + (nightsHere>1 ? ' ('+(n+1)+'/'+nightsHere+' à '+commune.name+')' : ''),
+          label: t('day.n', {n: dayCounter}), labelKind: 'day', dayNum: dayCounter,
           stop: commune.name,
           activities: activities,
           needsRealPOIs: !featured,
@@ -1258,7 +1349,7 @@
     dayCounter++;
     var distBackKm = Math.round(roadDistanceKm(prevLat, prevLon, cLat, cLon));
     legs.push(Object.assign({
-      label: 'Jour '+dayCounter+' — retour',
+      label: t('day.nReturn', {n: dayCounter}), labelKind: 'dayReturn', dayNum: dayCounter,
       stop: city,
       activities: null,
       lodging: null,
@@ -1308,6 +1399,29 @@
     visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
     applyActivityCardWikiLink(cardEl, wikiUrl);
   }
+  // Libellé/type affichés d'une option d'activité, résolus à la langue COURANTE — jamais mis en
+  // cache sur l'option elle-même (voir buildActivityOptions : seules des clés y sont stockées),
+  // pour qu'un changement de langue en cours de session (voir renderDays/écouteur
+  // 'i18n:langchange') retraduise correctement un rendu déjà affiché en rappelant simplement cette
+  // même fonction, sans avoir à retirer quoi que ce soit d'une file partagée.
+  function optionLabel(opt){ return opt.isReal ? opt.label : t(opt.labelKey); }
+  function optionTypeLabel(opt){
+    if(opt.typeKey) return poiTypeLabel(opt.typeKey);
+    if(opt.typeI18nKey) return t(opt.typeI18nKey);
+    return t('poiType.fallback');
+  }
+  function hikeCardHtml(hike){
+    var metaBits = [];
+    if(hike.distance) metaBits.push(hike.distance);
+    if(hike.duration) metaBits.push(hike.duration);
+    if(hike.difficulty) metaBits.push(hike.difficulty);
+    return '<div class="activity-card-visual">'+icon('walk')+'</div>'+
+      '<div class="activity-card-body">'+
+        '<div class="activity-card-title">'+hike.name+'</div>'+
+        '<div class="activity-card-type">'+(metaBits.length ? metaBits.join(' · ') : t('hike.defaultType'))+'</div>'+
+        '<div class="activity-card-source">'+t('hike.sourceLabel')+'</div>'+
+      '</div>';
+  }
   function renderActivityCards(actList, activities, dept, communeName, leg){
     actList.innerHTML = '';
     // Visorando ne couvre que la France (voir server.js) — inutile d'afficher "recherche d'une
@@ -1315,16 +1429,31 @@
     // resterait de toute façon affichée telle quelle.
     var canHike = !leg || leg.country === 'FR';
     activities.forEach(function(opt){
+      // Une vraie rando a déjà été trouvée pour cette option lors d'un rendu précédent (voir plus
+      // bas) — ex. un changement de langue redessine tout le jour, mais la découverte Visorando,
+      // elle, reste acquise : pas la peine de rejouer la promesse mémoïsée pour ça, juste réafficher
+      // la carte trouvée (avec ses textes d'interface retraduits).
+      if(opt.hikeUrl){
+        var foundCard = document.createElement('a');
+        foundCard.className = 'activity-card has-hike';
+        foundCard.href = opt.hikeUrl;
+        foundCard.target = '_blank';
+        foundCard.rel = 'noopener';
+        foundCard.innerHTML = hikeCardHtml({ name: opt.hikeName, url: opt.hikeUrl, distance: opt.hikeDistance, duration: opt.hikeDuration, difficulty: opt.hikeDifficulty });
+        actList.appendChild(foundCard);
+        return;
+      }
       var card = document.createElement('div');
       card.className = 'activity-card';
+      var label = optionLabel(opt);
       var noteHtml = (opt.needsHike && canHike)
-        ? ' <span class="activities-loading-note">— recherche d\'une vraie randonnée…</span>'
+        ? ' <span class="activities-loading-note">'+t('activities.loadingHike')+'</span>'
         : '';
       card.innerHTML =
         '<div class="activity-card-visual">'+icon(opt.isWalk ? 'walk' : 'spark')+'</div>'+
         '<div class="activity-card-body">'+
-          '<div class="activity-card-title">'+opt.label+'</div>'+
-          '<div class="activity-card-type">'+opt.typeLabel+noteHtml+'</div>'+
+          '<div class="activity-card-title">'+label+'</div>'+
+          '<div class="activity-card-type">'+optionTypeLabel(opt)+noteHtml+'</div>'+
         '</div>';
       actList.appendChild(card);
       if(opt.image){
@@ -1332,7 +1461,7 @@
         // — voir server.js) — pas besoin d'un aller-retour /api/photo supplémentaire. opt.wikiUrl
         // (commune, ou page de description Commons/article dédié pour un POI OSM) sert de lien sur
         // le titre.
-        applyActivityCardImage(card, opt.label, opt.image, opt.imageFull, opt.wikiUrl || null);
+        applyActivityCardImage(card, label, opt.image, opt.imageFull, opt.wikiUrl || null);
       } else if(opt.isReal && opt.searchName){
         // Pour une vraie curiosité nommée (POI OSM sans photo déjà connue), on tente sa propre
         // photo Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que
@@ -1344,7 +1473,7 @@
             if(data.image) applyActivityCardImage(cardEl, label, data.image, data.imageFull, data.wikiUrl);
             else applyActivityCardWikiLink(cardEl, data.wikiUrl);
           };
-        }(card, opt.label));
+        }(card, label));
       } else if(opt.needsHike && canHike && communeName){
         // Aucun POI de plein air trouvé pour cette journée : on tente une vraie rando balisée sur
         // Visorando. On ne récupère QUE le nom et le lien — jamais leur trace GPS, leur texte de
@@ -1352,10 +1481,10 @@
         // vers leur page, avec la source explicitement créditée. Si rien n'est trouvé, la carte
         // générique reste affichée telle quelle. pickHikeForCommune (pas un fetch direct) : évite
         // de reproposer la même rando pour deux jours au même endroit — mémoïsée sur `leg` lui-même
-        // (pas juste par commune) car une même journée est rendue deux fois (le rendu générique
-        // initial, puis la mise à jour une fois les vrais POI arrivés) : sans ce cache par jour, les
-        // DEUX rendus de la MÊME journée consommeraient chacun un élément de la file partagée, la
-        // vidant avant même d'atteindre le jour suivant.
+        // (pas juste par commune) car une même journée peut être rendue plusieurs fois (le rendu
+        // générique initial, la mise à jour une fois les vrais POI arrivés, un changement de
+        // langue...) : sans ce cache par jour, chaque rendu consommerait un élément de la file
+        // partagée, la vidant avant même d'atteindre le jour suivant.
         var hikePromise = (leg && leg.__hikePromise) || pickHikeForCommune(communeName);
         if(leg) leg.__hikePromise = hikePromise;
         hikePromise.then(function(cardEl, opt){
@@ -1363,27 +1492,17 @@
             if(!hike) return;
             // On mémorise la trouvaille directement sur `opt` (donc sur leg.activities, puisque
             // c'est le même objet) — pas seulement dans le DOM — pour que l'export PDF (voir
-            // buildTripExportPayload) reflète la vraie randonnée trouvée plutôt que la formule
-            // générique de repli, même généré après coup.
+            // buildTripExportPayload) et un futur rendu (voir plus haut, opt.hikeUrl) reflètent la
+            // vraie randonnée trouvée plutôt que la formule générique de repli.
             opt.hikeName = hike.name; opt.hikeUrl = hike.url;
             opt.hikeDistance = hike.distance; opt.hikeDuration = hike.duration; opt.hikeDifficulty = hike.difficulty;
             if(!cardEl.parentNode) return;
-            var metaBits = [];
-            if(hike.distance) metaBits.push(hike.distance);
-            if(hike.duration) metaBits.push(hike.duration);
-            if(hike.difficulty) metaBits.push(hike.difficulty);
             var newCard = document.createElement('a');
             newCard.className = 'activity-card has-hike';
             newCard.href = hike.url;
             newCard.target = '_blank';
             newCard.rel = 'noopener';
-            newCard.innerHTML =
-              '<div class="activity-card-visual">'+icon('walk')+'</div>'+
-              '<div class="activity-card-body">'+
-                '<div class="activity-card-title">'+hike.name+'</div>'+
-                '<div class="activity-card-type">'+(metaBits.length ? metaBits.join(' · ') : 'randonnée balisée')+'</div>'+
-                '<div class="activity-card-source">Source : Visorando ↗</div>'+
-              '</div>';
+            newCard.innerHTML = hikeCardHtml(hike);
             cardEl.parentNode.replaceChild(newCard, cardEl);
           };
         }(card, opt));
@@ -1411,8 +1530,22 @@
   }
   function formatDayRangeLabel(startDay, endDay){
     return (endDay - startDay === 1)
-      ? ('Jours ' + startDay + ' et ' + endDay)
-      : ('Jours ' + startDay + ' à ' + endDay);
+      ? t('day.rangeAnd', {a: startDay, b: endDay})
+      : t('day.rangeTo', {a: startDay, b: endDay});
+  }
+  // Titre d'un day-card à un seul jour (voir buildItinerary : labelKind/dayNum posés au moment de
+  // la construction de l'itinéraire, résolus en texte ICI plutôt que figés dans `leg.label` à la
+  // construction) — nécessaire pour qu'un changement de langue en cours de session (voir
+  // renderDays rappelé depuis l'écouteur 'i18n:langchange') retraduise correctement un itinéraire
+  // déjà affiché sans avoir à le reconstruire.
+  function singleLegLabel(leg){
+    switch(leg.labelKind){
+      case 'single': return t('day.single');
+      case 'returnBare': return t('day.return');
+      case 'day': return t('day.n', {n: leg.dayNum});
+      case 'dayReturn': return t('day.nReturn', {n: leg.dayNum});
+      default: return leg.label || '';
+    }
   }
 
   /* ---------- RENDER: DAYS ---------- */
@@ -1453,10 +1586,10 @@
       var top = document.createElement('div');
       top.className = 'day-top';
       var h3 = document.createElement('h3');
-      h3.textContent = isMultiDay ? formatDayRangeLabel(group.startDay, group.endDay) : firstLeg.label;
+      h3.textContent = isMultiDay ? formatDayRangeLabel(group.startDay, group.endDay) : singleLegLabel(firstLeg);
       var rt = document.createElement('div');
       rt.className = 'route-time';
-      rt.innerHTML = '~ '+firstLeg.travelTime+' de route · '+firstLeg.distanceKm+' km';
+      rt.innerHTML = t('day.routeTime', {time: firstLeg.travelTime, km: firstLeg.distanceKm});
       top.appendChild(h3); top.appendChild(rt);
       body.appendChild(top);
 
@@ -1465,7 +1598,7 @@
       // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France) —
       // sans lui, impossible de savoir laquelle a été tirée au sort rien qu'au nom.
       var stopLabel = firstLeg.stop + (firstLeg.cp ? ' (' + formatCpBadge(firstLeg) + ')' : '');
-      stopEl.textContent = firstLeg.isReturn ? ('Retour vers ' + stopLabel) : ('Étape mystère : ' + stopLabel);
+      stopEl.textContent = t(firstLeg.isReturn ? 'day.returnTo' : 'day.stepMystery', {stop: stopLabel});
       body.appendChild(stopEl);
 
       if(firstLeg.stop){
@@ -1476,11 +1609,11 @@
           '<a class="photo-tile-main" href="'+photos.images+'" target="_blank" rel="noopener">'+
             '<span class="photo-tile-icon">'+icon('camera')+'</span>'+
             '<span class="photo-tile-text">'+
-              '<span class="photo-tile-title">Voir '+firstLeg.stop+' en photo</span>'+
-              '<span class="photo-tile-sub">Recherche d’une vraie photo…</span>'+
+              '<span class="photo-tile-title">'+t('photo.view', {name: firstLeg.stop})+'</span>'+
+              '<span class="photo-tile-sub">'+t('photo.searching')+'</span>'+
             '</span>'+
           '</a>'+
-          '<a class="photo-tile-wiki" href="'+photos.wiki+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
+          '<a class="photo-tile-wiki" href="'+photos.wiki+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>';
         body.appendChild(tile);
 
         fetchPlacePhoto(firstLeg.stop, firstLeg.dept, firstLeg.country).then(function(stopName, tileEl, photoLinks){
@@ -1490,16 +1623,16 @@
               var fullUrl = data.imageFull || data.image;
               tileEl.className = 'photo-tile has-image';
               tileEl.innerHTML =
-                '<button type="button" class="photo-tile-imgwrap" aria-label="Agrandir la photo de '+stopName+'">'+
+                '<button type="button" class="photo-tile-imgwrap" aria-label="'+t('photo.enlargeAria', {name: stopName})+'">'+
                   '<img class="photo-tile-img" src="'+data.image+'" alt="'+stopName+'" referrerpolicy="no-referrer">'+
                   '<span class="photo-tile-zoom">'+icon('zoom')+'</span>'+
                 '</button>'+
                 '<div class="photo-tile-caption">'+
                   '<span class="photo-tile-text">'+
                     '<span class="photo-tile-title">'+stopName+'</span>'+
-                    '<span class="photo-tile-sub">Photo réelle · © Wikimedia Commons</span>'+
+                    '<span class="photo-tile-sub">'+t('photo.real')+'</span>'+
                   '</span>'+
-                  '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>'+
+                  '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>'+
                 '</div>';
               // Filet de sécurité : si l'URL d'image renvoyée par Wikipédia échoue quand même
               // au chargement (lien mort, hotlink refusé...), on retombe sur la tuile de secours
@@ -1512,11 +1645,11 @@
                     '<a class="photo-tile-main" href="'+photoLinks.images+'" target="_blank" rel="noopener">'+
                       '<span class="photo-tile-icon">'+icon('camera')+'</span>'+
                       '<span class="photo-tile-text">'+
-                        '<span class="photo-tile-title">Voir '+stopName+' en photo</span>'+
-                        '<span class="photo-tile-sub">Image indisponible — recherche d’images en direct</span>'+
+                        '<span class="photo-tile-title">'+t('photo.view', {name: stopName})+'</span>'+
+                        '<span class="photo-tile-sub">'+t('photo.unavailable')+'</span>'+
                       '</span>'+
                     '</a>'+
-                    '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
+                    '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>';
                 };
               }
               var imgWrapBtn = tileEl.querySelector('.photo-tile-imgwrap');
@@ -1525,29 +1658,28 @@
               }
             } else {
               var sub = tileEl.querySelector('.photo-tile-sub');
-              if(sub) sub.textContent = 'Aucune photo trouvée sur Wikipédia pour ce lieu';
+              if(sub) sub.textContent = t('photo.none');
             }
           };
         }(firstLeg.stop, tile, photos));
       }
 
       if(firstLeg.tollInfo){
-        var t = firstLeg.tollInfo;
-        var barrierTxt = t.fluxLibre ? 'péage à flux libre, sans barrière (facturation automatique par caméra)' : 'péage classique avec barrière';
-        var amountTxt = formatEuro(t.amount);
+        var ti = firstLeg.tollInfo;
+        var barrierTxt = t(ti.fluxLibre ? 'toll.barrierFree' : 'toll.barrierClassic');
+        var amountTxt = formatEuro(ti.amount);
         var tollRow = document.createElement('div');
         tollRow.className = 'day-row';
-        var tollTxt = t.enabled
-          ? ('Péage estimé : ~'+amountTxt+' € ('+barrierTxt+') — vous gagnez environ '+t.savedMin+' min par rapport à un trajet sans péage.')
-          : ('Sans péage (option décochée) : vous auriez pu gagner environ '+t.savedMin+' min en autoroute (~'+amountTxt+' €, '+barrierTxt+').');
-        tollRow.innerHTML = icon('toll') + '<span><span class="lbl">Péage (barème ASF 2026)</span>'+tollTxt+'</span>';
+        var tollTxt = t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: amountTxt, barrier: barrierTxt, min: ti.savedMin});
+        tollRow.innerHTML = icon('toll') + '<span><span class="lbl">'+t('toll.label')+'</span>'+tollTxt+'</span>';
         body.appendChild(tollRow);
       }
       if(firstLeg.chargeInfo){
         var c = firstLeg.chargeInfo;
         var chargeRow = document.createElement('div');
         chargeRow.className = 'day-row';
-        chargeRow.innerHTML = icon('plug') + '<span><span class="lbl">Recharge électrique</span>'+c.stops+' pause'+(c.stops>1?'s':'')+' recharge estimée'+(c.stops>1?'s':'')+' (~'+c.minutes+' min au total) sur borne rapide.</span>';
+        var chargeTxt = t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: c.stops, min: c.minutes});
+        chargeRow.innerHTML = icon('plug') + '<span><span class="lbl">'+t('charge.label')+'</span>'+chargeTxt+'</span>';
         body.appendChild(chargeRow);
       }
 
@@ -1566,9 +1698,9 @@
         // les suggestions génériques ci-dessous paraître figées sans explication. Overpass peut
         // prendre plusieurs secondes, en particulier pour une grande ville.
         var loadingNoteHtml = leg.needsRealPOIs
-          ? ' <span class="activities-loading-note">— recherche de vraies activités locales…</span>'
+          ? ' <span class="activities-loading-note">'+t('activities.loadingReal')+'</span>'
           : '';
-        var actLabelText = isMultiDay ? ('Activités possibles — Jour ' + (dayIdxInGroup + 1)) : 'Activités possibles — au choix';
+        var actLabelText = isMultiDay ? t('activities.day', {n: dayIdxInGroup + 1}) : t('activities.choice');
         actLabelRow.innerHTML = icon('spark') + '<span class="lbl">'+actLabelText+loadingNoteHtml+'</span>';
         body.appendChild(actLabelRow);
 
@@ -1579,13 +1711,22 @@
 
         // Si Overpass ne répond rien (indisponible, aucun résultat...), les activités génériques
         // restent affichées telles quelles — aucune erreur visible, juste pas de mise à jour (et la
-        // mention de recherche ci-dessus disparaît dans tous les cas, succès ou non).
-        if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
+        // mention de recherche ci-dessus disparaît dans tous les cas, succès ou non). Le drapeau
+        // __poiUpgradeStarted (posé une seule fois, jamais retiré) rend renderDays rejouable sans
+        // effet de bord : un changement de langue en cours de session peut donc rappeler renderDays
+        // sur le même itinéraire (voir écouteur 'i18n:langchange' plus bas) sans redemander Overpass
+        // ni reconsommer la file partagée une seconde fois.
+        if(leg.needsRealPOIs && !leg.__poiUpgradeStarted && leg.lat != null && leg.lon != null){
+          leg.__poiUpgradeStarted = true;
           // realPoiQueueFor (pas fetchRealPOIs directement) : partage une seule file de POI/repli
           // par commune entre tous les jours d'un même séjour, pour ne jamais reproposer le même
           // lieu deux fois (voir sa définition plus haut).
           realPoiQueueFor(leg.lat, leg.lon, leg.stop, leg.dept, leg.country).then(function(actListEl, dept, stopName, labelRow, dayLeg){
             return function(shared){
+              // Marqué résolu qu'il y ait ou non de vrais POI trouvés : sinon, un ré-rendu ultérieur
+              // (changement de langue) réafficherait indéfiniment la mention "recherche en cours"
+              // pour un résultat déjà connu (voir loadingNoteHtml plus haut, qui teste ce champ).
+              dayLeg.needsRealPOIs = false;
               var note = labelRow.querySelector('.activities-loading-note');
               if(note) note.remove();
               if(!shared.hasPois) return;
@@ -1607,10 +1748,10 @@
           var linksRow = document.createElement('div');
           linksRow.className = 'day-row';
           linksRow.innerHTML = icon('search') +
-            '<span><span class="lbl">Trouver un logement · '+formatStayRange(firstLeg.lodgingCheckIn, firstLeg.lodgingCheckOut)+'</span>'+
+            '<span><span class="lbl">'+t('lodging.find', {range: formatStayRange(firstLeg.lodgingCheckIn, firstLeg.lodgingCheckOut)})+'</span>'+
             '<span class="lodging-links">'+
-              '<a href="'+firstLeg.lodgingLinks.airbnb+'" target="_blank" rel="noopener" class="lodging-link">Airbnb ↗</a>'+
-              '<a href="'+firstLeg.lodgingLinks.booking+'" target="_blank" rel="noopener" class="lodging-link">Booking.com ↗</a>'+
+              '<a href="'+firstLeg.lodgingLinks.airbnb+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.airbnb')+'</a>'+
+              '<a href="'+firstLeg.lodgingLinks.booking+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.booking')+'</a>'+
             '</span></span>';
           body.appendChild(linksRow);
         }
@@ -1618,7 +1759,7 @@
       if(firstLeg.isReturn){
         var homeRow = document.createElement('div');
         homeRow.className = 'day-row';
-        homeRow.innerHTML = icon('clock') + '<span><span class="lbl">Fin de mission</span>Retour à la maison, road trip mystère bouclé.</span>';
+        homeRow.innerHTML = icon('clock') + '<span><span class="lbl">'+t('end.label')+'</span>'+t('end.text')+'</span>';
         body.appendChild(homeRow);
       }
 
@@ -1630,16 +1771,14 @@
     var villes = {};
     legs.forEach(function(l){ if(!l.isReturn) villes[l.stop]=true; });
     var statsHtml =
-      '<span><b>'+legs.length+'</b> jours</span>'+
-      '<span><b>'+Object.keys(villes).length+'</b> villes</span>'+
-      '<span><b>'+nights+'</b> nuitées</span>'+
-      '<span><b>~'+totalKm+' km</b> au total</span>';
+      '<span><b>'+legs.length+'</b> '+t('stats.days')+'</span>'+
+      '<span><b>'+Object.keys(villes).length+'</b> '+t('stats.cities')+'</span>'+
+      '<span><b>'+nights+'</b> '+t('stats.nights')+'</span>'+
+      '<span><b>~'+totalKm+' km</b> '+t('stats.totalKm')+'</span>';
     var tollLegs = legs.filter(function(l){return l.tollInfo;});
     if(tollLegs.length){
       var tollSum = tollLegs.reduce(function(s,l){return s+l.tollInfo.amount;},0);
-      statsHtml += tollLegs[0].tollInfo.enabled
-        ? '<span><b>~'+formatEuro(tollSum)+' €</b> de péage estimé</span>'
-        : '<span><b>~'+formatEuro(tollSum)+' €</b> de péage évités</span>';
+      statsHtml += '<span><b>~'+formatEuro(tollSum)+' €</b> '+t(tollLegs[0].tollInfo.enabled ? 'stats.tollEstimated' : 'stats.tollAvoided')+'</span>';
     }
     els.timelineStats.innerHTML = statsHtml;
   }
@@ -1659,6 +1798,7 @@
 
   function ensureTripMap(){
     if(tripMap) return tripMap;
+    els.mapWrap.setAttribute('aria-label', t('map.ariaLabel'));
     tripMap = L.map(els.mapWrap, {
       scrollWheelZoom: false, // la molette scrolle la page tant qu'on n'a pas cliqué sur la carte
       attributionControl: true
@@ -1705,7 +1845,7 @@
       }).addTo(tripMapLayer);
       var midLL = L.latLng((lastStopLL.lat+startLL.lat)/2, (lastStopLL.lng+startLL.lng)/2);
       L.marker(midLL, {
-        icon: tripDivIcon('trip-return-label', 'retour', [50, 16], [25, 8]),
+        icon: tripDivIcon('trip-return-label', t('map.returnLabel'), [50, 16], [25, 8]),
         interactive: false, keyboard: false
       }).addTo(tripMapLayer);
     }
@@ -1714,7 +1854,7 @@
     if(startLL){
       L.marker(startLL, {
         icon: tripDivIcon('trip-pin trip-pin-start',
-          '<div class="trip-pin-badge">D</div><div class="trip-pin-label">'+(city||'Départ')+'</div>',
+          '<div class="trip-pin-badge">D</div><div class="trip-pin-label">'+(city||t('map.departFallback'))+'</div>',
           [110, 50], [55, 13]),
         keyboard: false
       }).addTo(tripMapLayer);
@@ -1755,14 +1895,14 @@
   /* ---------- RENDER: PACKING LIST ---------- */
   function renderPacking(budgetKey, transportKey){
     var items = [];
-    items = items.concat(PACK_BASE);
-    items = items.concat(TRANSPORT[transportKey].extra);
-    items = items.concat(PACK_BUDGET[budgetKey]);
+    items = items.concat(tl('pack.base'));
+    items = items.concat(transportPackExtra(transportKey));
+    items = items.concat(tl('pack.' + budgetKey));
     // dedupe
     var seen = {};
     items = items.filter(function(it){ if(seen[it]) return false; seen[it]=true; return true; });
 
-    els.packSub.textContent = 'Pour '+TRANSPORT[transportKey].label+', budget '+BUDGET[budgetKey].label+'.';
+    els.packSub.textContent = t('pack.sub', {transport: transportLabel(transportKey), budget: budgetLabel(budgetKey)});
     els.packGrid.innerHTML = '';
     items.forEach(function(it, idx){
       var wrap = document.createElement('div');
@@ -1814,8 +1954,8 @@
     return {
       city: city,
       tripLabel: currentTripLabel,
-      budgetLabel: BUDGET[budgetKey].label,
-      transportLabel: TRANSPORT[transportKey].label,
+      budgetLabel: budgetLabel(budgetKey),
+      transportLabel: transportLabel(transportKey),
       stats: { days: legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, toll: tollSummary },
       legs: legs.map(function(leg){
         return {
@@ -1832,9 +1972,9 @@
           activities: (leg.activities || []).map(function(opt){
             return opt.hikeUrl ? {
               label: opt.hikeName,
-              typeLabel: [opt.hikeDistance, opt.hikeDuration, opt.hikeDifficulty].filter(Boolean).join(' · ') || 'randonnée balisée',
+              typeLabel: [opt.hikeDistance, opt.hikeDuration, opt.hikeDifficulty].filter(Boolean).join(' · ') || t('hike.defaultType'),
               source: 'Visorando', hikeUrl: opt.hikeUrl
-            } : { label: opt.label, typeLabel: opt.typeLabel, source: null, hikeUrl: null };
+            } : { label: optionLabel(opt), typeLabel: optionTypeLabel(opt), source: null, hikeUrl: null };
           })
         };
       }),
@@ -1846,11 +1986,11 @@
   function generate(){
     var typed = els.city.value.trim();
     if(!typed){
-      showCityError("Merci d'indiquer une ville de départ.");
+      showCityError(t('form.city.error.required'));
       return;
     }
     if(!selectedCity){
-      showCityError("Sélectionnez une commune dans la liste déroulante (recherche par nom ou code postal).");
+      showCityError(t('form.city.error.selectFromList'));
       return;
     }
     var city = selectedCity.name;
@@ -1880,17 +2020,18 @@
     var totalNights = Math.max(0, days - 1);
     clearMinDistanceError();
     if(minDistanceKm > 0 && maxDistanceKm > 0 && minDistanceKm > maxDistanceKm){
-      showMinDistanceError("La distance minimale (" + minDistanceKm + " km) ne peut pas dépasser la distance maximale (" + maxDistanceKm + " km).");
+      showMinDistanceError(t('error.minMaxDistance', {min: minDistanceKm, max: maxDistanceKm}));
       return;
     }
     if(minDistanceKm > 0 && minDistanceKm > maxRadiusKm && totalNights <= 1){
-      showMinDistanceError("Impossible : avec seulement " + (totalNights === 0 ? '1 jour et aucune nuitée' : '1 nuitée') + ", on ne peut pas s'éloigner d'au moins " + minDistanceKm + " km puis revenir dans le rayon/temps de retour choisi (" + Math.round(maxRadiusKm) + " km). Augmentez la durée du séjour, réduisez la distance minimale, ou élargissez le rayon max.");
+      var contextTxt = t(totalNights === 0 ? 'error.minDistanceContextDay' : 'error.minDistanceContextNight');
+      showMinDistanceError(t('error.minDistanceTooFar', {context: contextTxt, min: minDistanceKm, radius: Math.round(maxRadiusKm)}));
       return;
     }
 
     var legs = buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, lastNorm, minDistanceKm, maxDistanceKm);
     if(legs.length === 0){
-      showCityError("Impossible de construire un itinéraire depuis cette ville pour l'instant — réessayez, ou élargissez le rayon.");
+      showCityError(t('error.routeImpossible'));
       return;
     }
     var firstLeg = legs[0];
@@ -1923,7 +2064,10 @@
       // première destination tirée au sort (firstLeg.stop) qui change à chaque tirage et rend le
       // nom de fichier réellement distinct d'un export à l'autre (voir pdfFilename).
       currentTripLabel = city + ' → ' + firstLeg.stop + ' - ' + days + (days > 1 ? ' jours' : ' jour');
-      currentTripData = { legs: legs, city: city, budgetKey: budgetKey, transportKey: transportKey };
+      // cityCoord conservé (pas seulement legs/city) : nécessaire pour pouvoir rappeler renderMap
+      // depuis l'écouteur 'i18n:langchange' plus bas, qui redessine l'itinéraire déjà affiché dans
+      // la nouvelle langue sans repartir d'un nouveau tirage.
+      currentTripData = { legs: legs, city: city, budgetKey: budgetKey, transportKey: transportKey, cityCoord: cityCoord };
 
       els.mapCard.classList.add('show');
       els.timeline.classList.add('show');
@@ -1965,7 +2109,7 @@
     var originalLabel = els.exportPdfBtn.innerHTML;
     var originalHint = els.exportHint ? els.exportHint.textContent : '';
     els.exportPdfBtn.disabled = true;
-    els.exportPdfBtn.textContent = 'Génération du PDF…';
+    els.exportPdfBtn.textContent = t('export.generating');
     fetch('/api/export-pdf', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -1984,13 +2128,42 @@
       setTimeout(function(){ URL.revokeObjectURL(url); }, 4000);
     }).catch(function(){
       if(els.exportHint){
-        els.exportHint.textContent = 'Échec de la génération du PDF — réessayez dans un instant.';
+        els.exportHint.textContent = t('export.error');
         setTimeout(function(){ els.exportHint.textContent = originalHint; }, 6000);
       }
     }).then(function(){
       els.exportPdfBtn.disabled = false;
       els.exportPdfBtn.innerHTML = originalLabel;
     });
+  });
+
+  /* ---------- MULTILINGUE : mise à jour dynamique au changement de langue ---------- */
+  // Le passage statique de js/i18n.js (au chargement de la page) a déjà traduit tout le texte figé
+  // du HTML (voir les attributs data-i18n dans index.html) — sauf hero.lede, qui a besoin de deux
+  // constantes (MAX_TRIP_DAYS/MAX_STOPS) connues seulement ici, pas dans i18n.js. Rempli une
+  // première fois au chargement, puis à chaque changement de langue avec le reste ci-dessous.
+  var heroLedeEl = document.querySelector('[data-i18n="hero.lede"]');
+  function applyHeroLede(){
+    if(heroLedeEl) heroLedeEl.textContent = t('hero.lede', {maxDays: MAX_TRIP_DAYS, maxStops: MAX_STOPS});
+  }
+  applyHeroLede();
+
+  window.addEventListener('i18n:langchange', function(){
+    VISITOR_LANG = window.I18N.current();
+    applyHeroLede();
+    els.city.placeholder = placeholderText();
+    updateDatesHint();
+    updateBudgetHint();
+    updateRadiusUnitLabel();
+    // Un itinéraire est déjà affiché : on le redessine dans la nouvelle langue à partir des MÊMES
+    // données (pas un nouveau tirage) — renderDays()/renderPacking() sont sûrs à rappeler (voir
+    // leurs commentaires : __poiUpgradeStarted/__hikePromise empêchent toute nouvelle requête réseau
+    // ou consommation d'une file partagée), renderMap() recrée juste les calques sur la même carte.
+    if(currentTripData){
+      renderDays(currentTripData.legs, currentTripData.city);
+      renderMap(currentTripData.legs, currentTripData.city, currentTripData.cityCoord);
+      renderPacking(currentTripData.budgetKey, currentTripData.transportKey);
+    }
   });
 
 })();
