@@ -401,7 +401,7 @@
     if(!d) return '';
     return d.toLocaleDateString('fr-FR', {day:'numeric', month:'short'});
   }
-  // Une seule ligne "Trouver un vrai logement" par séjour (voir buildItinerary), pas une par nuit :
+  // Une seule ligne "Trouver un logement" par séjour (voir buildItinerary), pas une par nuit :
   // le libellé doit donc pouvoir couvrir une plage ("20 août → 22 août") plutôt qu'une seule date
   // quand le séjour dure plus d'une nuit.
   function formatStayRange(checkIn, checkOut){
@@ -1281,10 +1281,27 @@
   // `activities`. Réutilisée à la fois pour l'affichage initial (activités FEATURED ou génériques,
   // disponibles immédiatement) et pour la mise à jour asynchrone quand de vrais points d'intérêt
   // arrivent d'Overpass (voir plus bas) — le rendu d'une carte est identique dans les deux cas.
+  // Transforme le titre d'une carte d'activité en lien vers sa page Wikipédia (ou, pour un lieu
+  // OSM sans article dédié, vers la page de description du fichier sur Commons — voir server.js) —
+  // le seul moyen d'atteindre la source pour un lieu SANS image trouvée, qui sinon n'avait aucun
+  // lien du tout. Sans effet si aucune URL n'est connue, ou si le titre est déjà un lien.
+  function applyActivityCardWikiLink(cardEl, wikiUrl){
+    if(!wikiUrl) return;
+    var titleEl = cardEl.querySelector('.activity-card-title');
+    if(!titleEl || titleEl.tagName === 'A') return;
+    var link = document.createElement('a');
+    link.className = 'activity-card-title';
+    link.href = wikiUrl;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.textContent = titleEl.textContent;
+    titleEl.replaceWith(link);
+  }
   // Applique une image à une carte d'activité (remplace l'icône par défaut), avec filet de
   // sécurité si l'URL échoue au chargement. Partagé entre une image déjà connue à l'avance (voir
   // ci-dessous — cas d'un lieu venu de la galerie Wikipédia de la commune) et une image récupérée
-  // après coup via /api/photo.
+  // après coup via /api/photo. Le titre devient aussi un lien direct vers la page (en plus du clic
+  // sur l'image, qui ouvre l'agrandissement).
   function applyActivityCardImage(cardEl, label, image, imageFull, wikiUrl){
     var fullUrl = imageFull || image;
     var visual = cardEl.querySelector('.activity-card-visual');
@@ -1297,6 +1314,7 @@
       visual.innerHTML = icon('spark');
     });
     visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
+    applyActivityCardWikiLink(cardEl, wikiUrl);
   }
   function renderActivityCards(actList, activities, dept, communeName, leg){
     actList.innerHTML = '';
@@ -1318,17 +1336,21 @@
         '</div>';
       actList.appendChild(card);
       if(opt.image){
-        // Déjà résolue côté serveur (galerie de l'article Wikipédia de la commune, voir server.js)
-        // — pas besoin d'un aller-retour /api/photo supplémentaire.
-        applyActivityCardImage(card, opt.label, opt.image, opt.imageFull, null);
+        // Déjà résolue côté serveur (galerie Wikipédia de la commune, ou tag OSM wikimedia_commons
+        // — voir server.js) — pas besoin d'un aller-retour /api/photo supplémentaire. opt.wikiUrl
+        // (commune, ou page de description Commons/article dédié pour un POI OSM) sert de lien sur
+        // le titre.
+        applyActivityCardImage(card, opt.label, opt.image, opt.imageFull, opt.wikiUrl || null);
       } else if(opt.isReal && opt.searchName){
         // Pour une vraie curiosité nommée (POI OSM sans photo déjà connue), on tente sa propre
         // photo Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que
-        // la photo générale de la commune. Silencieux si rien n'est trouvé : l'icône reste affichée.
+        // la photo générale de la commune. Même sans photo trouvée, un lien vers une vraie page
+        // Wikipédia (quand une existe) reste appliqué au titre — mieux qu'aucun lien du tout.
         fetchPlacePhoto(opt.searchName, dept, leg && leg.country).then(function(cardEl, label){
           return function(data){
-            if(!data || !data.image) return;
-            applyActivityCardImage(cardEl, label, data.image, data.imageFull, data.wikiUrl);
+            if(!data) return;
+            if(data.image) applyActivityCardImage(cardEl, label, data.image, data.imageFull, data.wikiUrl);
+            else applyActivityCardWikiLink(cardEl, data.wikiUrl);
           };
         }(card, opt.label));
       } else if(opt.needsHike && canHike && communeName){
@@ -1593,7 +1615,7 @@
           var linksRow = document.createElement('div');
           linksRow.className = 'day-row';
           linksRow.innerHTML = icon('search') +
-            '<span><span class="lbl">Trouver un vrai logement · '+formatStayRange(firstLeg.lodgingCheckIn, firstLeg.lodgingCheckOut)+'</span>'+
+            '<span><span class="lbl">Trouver un logement · '+formatStayRange(firstLeg.lodgingCheckIn, firstLeg.lodgingCheckOut)+'</span>'+
             '<span class="lodging-links">'+
               '<a href="'+firstLeg.lodgingLinks.airbnb+'" target="_blank" rel="noopener" class="lodging-link">Airbnb ↗</a>'+
               '<a href="'+firstLeg.lodgingLinks.booking+'" target="_blank" rel="noopener" class="lodging-link">Booking.com ↗</a>'+

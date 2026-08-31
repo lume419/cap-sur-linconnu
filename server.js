@@ -53,13 +53,22 @@ async function resolvePlacePhoto(name, deptCode, country, lang){
   if(deptName) attempts.push(name + ' (' + deptName + ')');
   attempts.push(name);
 
+  let bestNoImage = null; // meilleure page trouvée SANS photo, gardée en repli (voir plus bas)
   for(const title of attempts){
     let data;
     try { data = await fetchWikiSummary(title, lang); } catch(e){ console.warn('[photo] échec pour "'+title+'":', e.message); continue; }
     if(!data || data.type === 'disambiguation') continue;
     const thumbSource = (data.thumbnail && data.thumbnail.source) || null;
     const originalSource = (data.originalimage && data.originalimage.source) || null;
-    if(!thumbSource && !originalSource) continue;
+    const wikiUrl = (data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page) || null;
+    if(!thumbSource && !originalSource){
+      // Une vraie page existe (ce n'est pas une homonymie), juste sans photo dessus — un lien vers
+      // elle reste préférable à aucun lien du tout. Gardé de côté au cas où aucune tentative
+      // suivante ne ferait mieux (ex. la version désambiguïsée "Nom (Région)" échoue mais "Nom"
+      // seul aboutit avec une vraie photo, cette dernière doit primer).
+      if(!bestNoImage) bestNoImage = { image: null, imageFull: null, wikiUrl: wikiUrl, title: data.title || title };
+      continue;
+    }
     // La vignette renvoyée par l'API "summary" ne fait qu'environ 320px de large — nette en petite
     // icône, mais visiblement floue une fois affichée en grand bandeau. On a essayé de demander à
     // Wikimedia une vignette plus large en modifiant la largeur dans l'URL (".../800px-fichier.jpg"),
@@ -69,14 +78,9 @@ async function resolvePlacePhoto(name, deptCode, country, lang){
     // native), qui elle est toujours disponible — au prix d'un téléchargement un peu plus lourd.
     const image = originalSource || thumbSource;
     const imageFull = originalSource || thumbSource;
-    return {
-      image: image,
-      imageFull: imageFull,
-      wikiUrl: (data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page) || null,
-      title: data.title || title
-    };
+    return { image: image, imageFull: imageFull, wikiUrl: wikiUrl, title: data.title || title };
   }
-  return { image: null, imageFull: null, wikiUrl: null, title: null };
+  return bestNoImage || { image: null, imageFull: null, wikiUrl: null, title: null };
 }
 
 // "Lieux et monuments" depuis Wikipédia, en complément d'Overpass : l'article de la commune a
@@ -212,7 +216,13 @@ async function fetchCommuneMonuments(name, deptCode){
     try { wikitext = await fetchWikiWikitext(title); } catch(e){ continue; }
     if(!wikitext) continue;
     const extracted = extractMonumentsSection(wikitext);
-    if(extracted && extracted.items.length) return extracted;
+    if(extracted && extracted.items.length){
+      // Ces lieux (église, mur d'une abbaye disparue...) n'ont en général pas leur propre article —
+      // seule la page de LA COMMUNE en parle, dans cette section. Un lien vers elle reste plus utile
+      // qu'aucun lien du tout.
+      extracted.pageUrl = 'https://fr.wikipedia.org/wiki/' + encodeURIComponent(title.replace(/ /g, '_'));
+      return extracted;
+    }
   }
   return null;
 }
@@ -242,7 +252,7 @@ async function fetchAllRealPOIs(lat, lon, name, deptCode, country){
       if(seen.has(key)) return;
       seen.add(key);
       const file = imageByIdx.get(idx);
-      const entry = { name: itemName, type: inferMonumentType(itemName) };
+      const entry = { name: itemName, type: inferMonumentType(itemName), wikiUrl: wikiResult.pageUrl || null };
       if(file){ entry.image = commonsFileUrl(file); entry.imageFull = entry.image; }
       combined.push(entry);
     });
@@ -397,7 +407,31 @@ async function fetchRealPOIs(lat, lon){
     if(elLat == null || elLon == null) continue;
     if(haversineKm(lat, lon, elLat, elLon) > POI_MAX_DISTANCE_KM) continue;
     seen.add(name);
-    pois.push({ name, type });
+    const poi = { name, type };
+    // OpenStreetMap indique parfois directement LA bonne photo pour CE lieu précis (tag
+    // wikimedia_commons) — bien plus fiable qu'une recherche Wikipédia par le seul nom, qui peut
+    // tomber sur un homonyme bien plus connu. Cas réel rencontré : une petite réplique de la
+    // "Statue de la Liberté" existe dans plusieurs villages français (ex. Roybon, Isère) — cherchée
+    // par ce seul nom sur Wikipédia, on retombe sur l'article de LA statue new-yorkaise, pas la
+    // réplique locale. Priorité systématique à cette référence OSM quand elle existe. wikiUrl
+    // pointe ici vers la page de description du fichier sur Commons (métadonnées/licence), pas
+    // vers l'image brute (déjà utilisée pour `image`).
+    const commonsTag = el.tags.wikimedia_commons;
+    if(commonsTag){
+      const filename = String(commonsTag).replace(/^(file|fichier):/i, '');
+      const url = commonsFileUrl(filename);
+      poi.image = url;
+      poi.imageFull = url;
+      poi.wikiUrl = 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(filename);
+    }
+    // Repli : le tag "wikipedia" (format "langue:Titre") pointe vers un vrai article Wikipédia
+    // dédié quand il existe, même sans photo Commons associée — un lien reste préférable à aucun
+    // lien du tout pour un lieu sans image trouvée.
+    if(!poi.wikiUrl && el.tags.wikipedia){
+      const wpMatch = String(el.tags.wikipedia).match(/^([a-z-]{2,})\s*:\s*(.+)$/i);
+      if(wpMatch) poi.wikiUrl = 'https://' + wpMatch[1].toLowerCase() + '.wikipedia.org/wiki/' + encodeURIComponent(wpMatch[2].trim().replace(/ /g, '_'));
+    }
+    pois.push(poi);
   }
   // Mélangé côté serveur : Overpass renvoie sensiblement toujours le même ordre de découverte pour
   // un même point — sans ça, les 2 premiers lieux affichés seraient quasi figés à chaque tirage.
