@@ -857,7 +857,7 @@ app.post('/api/export-pdf', express.json({ limit: '512kb' }), (req, res) => {
 });
 
 app.use(express.static(path.join(__dirname, 'public'), {
-  // Les données (communes.txt, featured.txt, france-map.json) sont volumineuses mais
+  // Les données (communes.txt, communes-XX.txt, featured.txt) sont volumineuses mais
   // statiques : autant laisser les navigateurs les mettre en cache longtemps. En revanche
   // le HTML/CSS/JS change à chaque mise à jour de l'app — un cache d'1h dessus faisait qu'un
   // simple rechargement de page pouvait continuer à servir une ancienne version depuis le

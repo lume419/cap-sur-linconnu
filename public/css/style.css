@@ -488,8 +488,70 @@
   }
   .map-card.show{display:flex;}
   .map-card h3{font:800 .8rem/1 var(--font-body); text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft);}
-  .map-svg-wrap{border:1px dashed var(--line); border-radius:12px; overflow:hidden; background:var(--surface-2);}
+  .map-wrap{
+    border:1px dashed var(--line);
+    border-radius:12px;
+    overflow:hidden;
+    background:var(--surface-2);
+    height:min(56vh, 440px);
+    min-height:260px;
+  }
   .map-note{font:var(--font-hand); font-size:.85rem; color:var(--ink-faint);}
+
+  /* Habillage de Leaflet aux couleurs du site (voir js/app.js : renderMap) — les tuiles elles-mêmes
+     viennent d'OpenStreetMap et gardent leurs propres couleurs, seule l'interface autour (contrôles,
+     attribution, popups) reprend les tokens du thème. */
+  .leaflet-container{
+    background:var(--surface-2);
+    font:var(--font-body);
+    color:var(--ink);
+  }
+  .leaflet-control-zoom a{
+    background:var(--surface);
+    color:var(--ink);
+    border-color:var(--line) !important;
+  }
+  .leaflet-control-zoom a:hover{background:var(--surface-2);}
+  .leaflet-control-attribution{
+    background:var(--surface);
+    color:var(--ink-faint);
+    font-size:.68rem;
+  }
+  .leaflet-control-attribution a{color:var(--ink-soft);}
+  /* Tuiles assombries en thème sombre : OpenStreetMap ne fournit qu'un style clair, ce filtre CSS
+     évite un rectangle de carte blanc éblouissant au milieu d'une page sombre — même principe que
+     la bascule de thème du reste du site (voir :root[data-theme] plus haut). */
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]) .leaflet-tile-pane{
+      filter:invert(1) hue-rotate(180deg) brightness(0.92) contrast(0.9) saturate(0.85);
+    }
+  }
+  :root[data-theme="dark"] .leaflet-tile-pane{
+    filter:invert(1) hue-rotate(180deg) brightness(0.92) contrast(0.9) saturate(0.85);
+  }
+
+  /* Épingles du trajet : DivIcon Leaflet, mêmes couleurs que l'ancien tracé SVG maison. Un
+     className maison (au lieu du défaut "leaflet-div-icon") pour ne pas hériter du carré blanc que
+     leaflet.css applique par défaut à ce type d'icône. */
+  .trip-pin-wrap{background:transparent; border:0;}
+  .trip-pin{position:relative; display:flex; align-items:center; justify-content:center; text-align:center;}
+  .trip-pin-badge{
+    width:26px; height:26px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font:700 .78rem/1 var(--font-body);
+    box-shadow:0 2px 6px -1px var(--shadow);
+  }
+  .trip-pin-start .trip-pin-badge{background:var(--surface); color:var(--ink); border:2.2px solid var(--ink);}
+  .trip-pin-stop .trip-pin-badge{background:var(--accent-3); color:var(--accent-ink); border:1.4px solid var(--surface);}
+  .trip-pin-label{
+    position:absolute; top:28px; left:50%; transform:translateX(-50%);
+    white-space:nowrap; font:600 .68rem/1 var(--font-body); color:var(--ink);
+    text-shadow:0 0 3px var(--surface), 0 0 3px var(--surface), 0 0 6px var(--surface);
+  }
+  .trip-return-label{
+    font:italic 700 .68rem/1 var(--font-body); color:var(--accent); text-align:center;
+    text-shadow:0 0 3px var(--surface), 0 0 3px var(--surface), 0 0 6px var(--surface);
+  }
 
   /* ============ TIMELINE ============ */
   .timeline{display:none; flex-direction:column; gap:1.1rem;}

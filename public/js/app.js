@@ -17,22 +17,21 @@
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
 
-  // Les données (communes par pays, points d'intérêt réels, contour de la carte) ne sont plus
-  // embarquées dans le script : elles sont chargées depuis /data au démarrage. Le formulaire reste
-  // désactivé (voir index.html) tant que ce chargement n'est pas terminé.
-  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW, FRANCE_MAP;
+  // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
+  // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
+  // tant que ce chargement n'est pas terminé. La carte du parcours, elle, n'a plus besoin d'aucun
+  // fichier local : elle s'appuie sur de vraies tuiles OpenStreetMap via Leaflet (voir renderMap).
+  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW;
   try {
     var communesFetches = COUNTRY_LIST.map(function(cc){
       var file = COUNTRIES[cc].file;
       return fetch('data/' + file).then(function(r){ if(!r.ok) throw new Error(file + ' : HTTP ' + r.status); return r.text(); });
     });
     var results = await Promise.all(communesFetches.concat([
-      fetch('data/featured.txt').then(function(r){ if(!r.ok) throw new Error('featured.txt : HTTP '+r.status); return r.text(); }),
-      fetch('data/france-map.json').then(function(r){ if(!r.ok) throw new Error('france-map.json : HTTP '+r.status); return r.json(); })
+      fetch('data/featured.txt').then(function(r){ if(!r.ok) throw new Error('featured.txt : HTTP '+r.status); return r.text(); })
     ]));
     COUNTRY_LIST.forEach(function(cc, i){ COMMUNES_RAW_BY_COUNTRY[cc] = results[i]; });
     FEATURED_RAW = results[COUNTRY_LIST.length];
-    FRANCE_MAP = results[COUNTRY_LIST.length + 1];
   } catch(err){
     var loadErr = document.getElementById('load-error');
     if(loadErr){
@@ -277,19 +276,6 @@
     return matches.slice(0, limit);
   }
 
-
-  /* ---------- FOND DE CARTE : CONTOUR DE LA FRANCE ---------- */
-  // Tracé simplifié (Douglas-Peucker) du contour officiel de la France métropolitaine
-  // (IGN / Etalab, via gregoiredavid/france-geojson, "métropole-version-simplifiée"),
-  // projeté en équirectangulaire avec correction cos(latitude) — mêmes paramètres que
-  // ceux utilisés pour placer les points (ville de départ, étapes) sur la carte.
-  
-  function projectLonLat(lon, lat){
-    var p = FRANCE_MAP.proj;
-    var x = lon * p.cosLat0 * p.scale + p.offX;
-    var y = -lat * p.scale + p.offY;
-    return [x, y];
-  }
   /* ---------- STATE ---------- */
   var radiusMode = 'km';
   var lastNorm = null; // évite de retomber sur la même première étape deux fois de suite
@@ -338,7 +324,7 @@
     revealReal: document.getElementById('reveal-real'),
     revealRegion: document.getElementById('reveal-region'),
     mapCard: document.getElementById('map-card'),
-    mapSvgWrap: document.getElementById('map-svg-wrap'),
+    mapWrap: document.getElementById('map-wrap'),
     timeline: document.getElementById('timeline'),
     timelineStats: document.getElementById('timeline-stats'),
     days: document.getElementById('days'),
@@ -1653,97 +1639,79 @@
   }
 
   /* ---------- RENDER: MAP ---------- */
-  // Les communes les plus peuplées des pays couverts (source : communes.txt / communes-XX.txt,
-  // donc mêmes coordonnées que le reste de la carte), affichées en repère discret sur la carte
-  // pour aider à se situer — ce ne sont pas des destinations, juste un fond de carte familier.
-  var MAJOR_CITIES = [
-    {name:'Paris', lat:48.8589, lon:2.347},
-    {name:'Marseille', lat:43.2803, lon:5.3806},
-    {name:'Lyon', lat:45.758, lon:4.8351},
-    {name:'Toulouse', lat:43.6007, lon:1.4328},
-    {name:'Nice', lat:43.7032, lon:7.2528},
-    {name:'Nantes', lat:47.2382, lon:-1.5603},
-    {name:'Montpellier', lat:43.61, lon:3.8742},
-    {name:'Strasbourg', lat:48.5691, lon:7.7621},
-    {name:'Bordeaux', lat:44.8624, lon:-0.5848},
-    {name:'Lille', lat:50.6311, lon:3.0468},
-    {name:'Rennes', lat:48.1159, lon:-1.6884},
-    {name:'Madrid', lat:40.4165, lon:-3.7026},
-    {name:'Barcelone', lat:41.3888, lon:2.159},
-    {name:'Lisbonne', lat:38.7251, lon:-9.1498}
-  ];
+  // Carte interactive Leaflet + tuiles OpenStreetMap (voir index.html pour le chargement de la
+  // bibliothèque). Remplace l'ancien tracé SVG maison (contours de pays simplifiés à la main,
+  // projection équirectangulaire artisanale) : les vraies tuiles OSM couvrent nativement le monde
+  // entier, sans jonctions de frontières à recoller ni fichier de contour à maintenir par pays.
+  // L'instance de carte est créée une seule fois et réutilisée d'un tirage à l'autre (clearLayers
+  // sur le calque de tracé), Leaflet n'acceptant pas d'être réinitialisé sur un conteneur déjà actif.
+  var tripMap = null, tripMapLayer = null;
+
+  function cssVar(name){
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  }
+
+  function ensureTripMap(){
+    if(tripMap) return tripMap;
+    tripMap = L.map(els.mapWrap, {
+      scrollWheelZoom: false, // la molette scrolle la page tant qu'on n'a pas cliqué sur la carte
+      attributionControl: true
+    });
+    tripMap.attributionControl.setPrefix(false); // retire le lien "Leaflet" ajouté par défaut devant le crédit OSM
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'
+    }).addTo(tripMap);
+    // Convenience classique Leaflet : la molette ne zoome la carte qu'une fois qu'on a cliqué
+    // dedans (sinon on ne peut plus faire défiler la page en passant la souris sur la carte).
+    tripMap.on('click', function(){ tripMap.scrollWheelZoom.enable(); });
+    els.mapWrap.addEventListener('mouseleave', function(){ tripMap.scrollWheelZoom.disable(); });
+    tripMapLayer = L.layerGroup().addTo(tripMap);
+    return tripMap;
+  }
+
+  function tripDivIcon(className, html, size, anchor){
+    return L.divIcon({ className: 'trip-pin-wrap', html: '<div class="'+className+'">'+html+'</div>', iconSize: size, iconAnchor: anchor });
+  }
+
   function renderMap(legs, city, cityCoord){
-    var vb = FRANCE_MAP.viewBox;
-    var startPt = (cityCoord && cityCoord.lat!=null && cityCoord.lon!=null) ? projectLonLat(cityCoord.lon, cityCoord.lat) : null;
-    var legPts = legs.map(function(leg){
-      return (leg.lat!=null && leg.lon!=null) ? projectLonLat(leg.lon, leg.lat) : null;
+    var map = ensureTripMap();
+    tripMapLayer.clearLayers();
+
+    var startLL = (cityCoord && cityCoord.lat!=null && cityCoord.lon!=null) ? L.latLng(cityCoord.lat, cityCoord.lon) : null;
+    var legLLs = legs.map(function(leg){
+      return (leg.lat!=null && leg.lon!=null) ? L.latLng(leg.lat, leg.lon) : null;
     });
 
-    // Évite que deux points quasi identiques (ex. deux étapes du même hameau) se recouvrent pile.
-    var placed = startPt ? [startPt] : [];
-    function declutter(pt){
-      var tries = 0;
-      while(tries < 8){
-        var tooClose = placed.some(function(p){ return Math.hypot(p[0]-pt[0], p[1]-pt[1]) < 11; });
-        if(!tooClose) break;
-        var angle = tries * 2.4;
-        pt = [pt[0] + Math.cos(angle)*12, pt[1] + Math.sin(angle)*12];
-        tries++;
-      }
-      placed.push(pt);
-      return pt;
-    }
-    legPts.forEach(function(pt, idx){ if(pt) legPts[idx] = declutter(pt); });
-
-    // Zoome la carte sur la zone du trajet plutôt que d'afficher toute la France à chaque fois —
-    // beaucoup plus lisible pour un séjour local que de chercher un petit tracé perdu dans le pays.
-    var routePoints = (startPt ? [startPt] : []).concat(legPts.filter(Boolean));
-    var cropVb = { x:0, y:0, W:vb.W, H:vb.H };
-    if(routePoints.length){
-      var minX = Math.min.apply(null, routePoints.map(function(p){return p[0];}));
-      var maxX = Math.max.apply(null, routePoints.map(function(p){return p[0];}));
-      var minY = Math.min.apply(null, routePoints.map(function(p){return p[1];}));
-      var maxY = Math.max.apply(null, routePoints.map(function(p){return p[1];}));
-      var routeW = maxX-minX, routeH = maxY-minY;
-      // Marge généreuse : de la place pour les étiquettes (noms de ville au-dessus/en dessous des
-      // épingles), pas juste pour les points eux-mêmes.
-      var padX = Math.max(45, routeW*0.28), padY = Math.max(55, routeH*0.32);
-      var cropX0 = minX-padX, cropY0 = minY-padY, cropW = routeW+padX*2, cropH = routeH+padY*2;
-      // Zoom minimal : évite un cadrage absurde sur un trajet très local (voire une seule ville).
-      var minCropW = vb.W*0.16, minCropH = vb.H*0.16;
-      if(cropW < minCropW){ cropX0 -= (minCropW-cropW)/2; cropW = minCropW; }
-      if(cropH < minCropH){ cropY0 -= (minCropH-cropH)/2; cropH = minCropH; }
-      // Encore trop serré au goût des utilisateurs, deux fois de suite : d'abord +25%, puis encore
-      // +25% par-dessus (donc ×1.5625 au total par rapport au cadrage strict trajet + marge),
-      // toujours en gardant le même centre.
-      var centerX = cropX0 + cropW/2, centerY = cropY0 + cropH/2;
-      cropW *= 1.5625; cropH *= 1.5625;
-      cropX0 = centerX - cropW/2; cropY0 = centerY - cropH/2;
-      // Reste dans les limites de la carte d'origine (évite trop de vide/mer visible autour).
-      cropW = Math.min(cropW, vb.W); cropH = Math.min(cropH, vb.H);
-      cropX0 = Math.max(0, Math.min(cropX0, vb.W-cropW));
-      cropY0 = Math.max(0, Math.min(cropY0, vb.H-cropH));
-      cropVb = { x:cropX0, y:cropY0, W:cropW, H:cropH };
+    var routeLatLngs = startLL ? [startLL] : [];
+    legs.forEach(function(leg, idx){ if(!leg.isReturn && legLLs[idx]) routeLatLngs.push(legLLs[idx]); });
+    if(routeLatLngs.length > 1){
+      L.polyline(routeLatLngs, {
+        color: cssVar('--accent-3'), weight: 3, opacity: 0.9, dashArray: '1 8', lineCap: 'round'
+      }).addTo(tripMapLayer);
     }
 
-    var routePts = startPt ? [startPt] : [];
-    legs.forEach(function(leg, idx){ if(!leg.isReturn && legPts[idx]) routePts.push(legPts[idx]); });
-    var routePath = routePts.length > 1
-      ? 'M ' + routePts.map(function(p){return p[0].toFixed(1)+' '+p[1].toFixed(1);}).join(' L ')
-      : '';
-
-    var lastStopPt = null;
-    for(var i=legs.length-1;i>=0;i--){ if(!legs[i].isReturn && legPts[i]){ lastStopPt = legPts[i]; break; } }
-    var returnPath = '';
-    if(lastStopPt && startPt){
-      returnPath = 'M '+lastStopPt[0].toFixed(1)+' '+lastStopPt[1].toFixed(1)+' L '+startPt[0].toFixed(1)+' '+startPt[1].toFixed(1);
+    var lastStopLL = null;
+    for(var i=legs.length-1;i>=0;i--){ if(!legs[i].isReturn && legLLs[i]){ lastStopLL = legLLs[i]; break; } }
+    if(lastStopLL && startLL){
+      L.polyline([lastStopLL, startLL], {
+        color: cssVar('--accent'), weight: 2.2, opacity: 0.9, dashArray: '6 6', lineCap: 'round'
+      }).addTo(tripMapLayer);
+      var midLL = L.latLng((lastStopLL.lat+startLL.lat)/2, (lastStopLL.lng+startLL.lng)/2);
+      L.marker(midLL, {
+        icon: tripDivIcon('trip-return-label', 'retour', [50, 16], [25, 8]),
+        interactive: false, keyboard: false
+      }).addTo(tripMapLayer);
     }
 
-    var pins = '';
-    if(startPt){
-      pins += '<g><circle cx="'+startPt[0].toFixed(1)+'" cy="'+startPt[1].toFixed(1)+'" r="7.5" fill="var(--surface)" stroke="var(--ink)" stroke-width="2.2"/>' +
-        '<text x="'+startPt[0].toFixed(1)+'" y="'+(startPt[1]+3.5).toFixed(1)+'" text-anchor="middle" font-size="8.5" font-weight="700" fill="var(--ink)">D</text>' +
-        '<text x="'+startPt[0].toFixed(1)+'" y="'+(startPt[1]-11).toFixed(1)+'" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ink)" font-family="ui-sans-serif">'+(city||'Départ')+'</text></g>';
+    var allPts = startLL ? [startLL] : [];
+    if(startLL){
+      L.marker(startLL, {
+        icon: tripDivIcon('trip-pin trip-pin-start',
+          '<div class="trip-pin-badge">D</div><div class="trip-pin-label">'+(city||'Départ')+'</div>',
+          [110, 50], [55, 13]),
+        keyboard: false
+      }).addTo(tripMapLayer);
     }
 
     // Une seule épingle par ville distincte : les nuits successives au même endroit partagent
@@ -1754,41 +1722,28 @@
       if(leg.isReturn) return; // le retour rejoint le point de départ, déjà marqué
       if(leg.stop === lastStopName) return;
       lastStopName = leg.stop;
-      var p = legPts[idx];
-      if(!p) return;
+      var ll = legLLs[idx];
+      if(!ll) return;
       stopNum++;
-      pins += '<g><circle cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="7.5" fill="var(--accent-3)" stroke="var(--surface)" stroke-width="1.4"/>'+
-        '<text x="'+p[0].toFixed(1)+'" y="'+(p[1]+3.2).toFixed(1)+'" text-anchor="middle" font-size="9" font-weight="700" fill="var(--accent-ink)">'+stopNum+'</text>'+
-        '<text x="'+p[0].toFixed(1)+'" y="'+(p[1]+19).toFixed(1)+'" text-anchor="middle" font-size="10" fill="var(--ink-soft)" font-family="ui-sans-serif">'+leg.stop.split(' ').slice(0,2).join(' ')+'</text></g>';
+      allPts.push(ll);
+      L.marker(ll, {
+        icon: tripDivIcon('trip-pin trip-pin-stop',
+          '<div class="trip-pin-badge">'+stopNum+'</div><div class="trip-pin-label">'+leg.stop.split(' ').slice(0,2).join(' ')+'</div>',
+          [110, 50], [55, 13]),
+        keyboard: false
+      }).addTo(tripMapLayer);
     });
-    if(returnPath && lastStopPt){
-      var midX = (lastStopPt[0]+startPt[0])/2, midY = (lastStopPt[1]+startPt[1])/2;
-      pins += '<text x="'+midX.toFixed(1)+'" y="'+(midY-6).toFixed(1)+'" text-anchor="middle" font-size="9" font-style="italic" fill="var(--accent)" font-family="ui-sans-serif">retour</text>';
+
+    if(allPts.length){
+      // requestAnimationFrame : le conteneur peut encore être caché (display:none, voir
+      // map-card.show ajouté juste après cet appel) au moment précis de ce calcul — Leaflet a
+      // besoin d'une taille non nulle pour mesurer correctement les limites de la carte.
+      requestAnimationFrame(function(){
+        map.invalidateSize();
+        if(allPts.length === 1) map.setView(allPts[0], 12);
+        else map.fitBounds(L.latLngBounds(allPts), { padding: [36, 36], maxZoom: 12 });
+      });
     }
-
-    // Repères discrets (grisés) pour aider à se situer — pas des épingles cliquables, juste un
-    // fond de carte familier. Sautés s'ils tomberaient pile sur une épingle du trajet (ex. départ
-    // ou étape dans l'une de ces grandes villes) pour ne pas dupliquer l'affichage.
-    var majorMarks = MAJOR_CITIES.map(function(mc){
-      var p = projectLonLat(mc.lon, mc.lat);
-      var overlapsRoute = placed.some(function(pl){ return Math.hypot(pl[0]-p[0], pl[1]-p[1]) < 11; });
-      if(overlapsRoute) return '';
-      return '<circle cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="2.6" fill="var(--ink-faint)" fill-opacity="0.55"/>'+
-        '<text x="'+p[0].toFixed(1)+'" y="'+(p[1]-5).toFixed(1)+'" text-anchor="middle" font-size="7.5" fill="var(--ink-faint)" fill-opacity="0.65" font-family="ui-sans-serif">'+mc.name+'</text>';
-    }).join('');
-
-    var svg = '<svg viewBox="'+cropVb.x.toFixed(1)+' '+cropVb.y.toFixed(1)+' '+cropVb.W.toFixed(1)+' '+cropVb.H.toFixed(1)+'" width="100%" height="auto" role="img" aria-label="Carte de France, Andorre, Espagne et Portugal, zoomée sur le trajet">'+
-      '<path d="'+FRANCE_MAP.mainlandPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
-      '<path d="'+FRANCE_MAP.corsicaPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
-      '<path d="'+FRANCE_MAP.spainPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
-      '<path d="'+FRANCE_MAP.portugalPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
-      '<path d="'+FRANCE_MAP.andorraPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
-      majorMarks +
-      (routePath ? '<path d="'+routePath+'" fill="none" stroke="var(--accent-3)" stroke-width="2.4" stroke-dasharray="1 7" stroke-linecap="round"/>' : '')+
-      (returnPath ? '<path d="'+returnPath+'" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="6 5" stroke-linecap="round"/>' : '')+
-      pins +
-      '</svg>';
-    els.mapSvgWrap.innerHTML = svg;
   }
 
   /* ---------- RENDER: PACKING LIST ---------- */

@@ -3,7 +3,7 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal — voir "Pays couverts" plus bas pour
 l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap), de vrais tarifs de péage et
-une carte projetée depuis les contours officiels de ces pays.
+une carte interactive (Leaflet + tuiles OpenStreetMap).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -15,8 +15,7 @@ cap-sur-linconnu/
 ├── package.json
 ├── server.js              # Express : sert public/ tel quel + une route GET /api/photo
 ├── scripts/
-│   ├── build-country-communes.js  # génère public/data/communes-XX.txt pour un nouveau pays (GeoNames)
-│   └── build-map.js               # étend public/data/france-map.json à un nouveau pays (contour + projection)
+│   └── build-country-communes.js  # génère public/data/communes-XX.txt pour un nouveau pays (GeoNames)
 ├── public/
 │   ├── index.html
 │   ├── mentions-legales.html
@@ -27,13 +26,13 @@ cap-sur-linconnu/
 │   ├── css/style.css
 │   ├── js/app.js          # toute la génération d'itinéraire (client-side)
 │   ├── js/theme.js        # bascule clair/sombre/auto, partagée par les 3 pages
+│   ├── vendor/leaflet/    # Leaflet (BSD-2-Clause), hébergé localement — moteur de la carte du parcours
 │   └── data/
 │       ├── communes.txt        # ~35 000 communes françaises (nom, population, coordonnées, codes postaux, département)
 │       ├── communes-ad.txt     # ~60 lieux andorrans, même format (voir "Pays couverts")
 │       ├── communes-es.txt     # ~29 000 lieux espagnols, même format
 │       ├── communes-pt.txt     # ~16 500 lieux portugais, même format
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
-│       ├── france-map.json     # contours simplifiés (France, Andorre, Espagne, Portugal) + projection commune
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
 ```
@@ -51,7 +50,7 @@ les trois premières routes.
 ## Pays couverts
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne et Portugal pour l'instant,
-d'autres viendront. Chaque pays ajoute trois choses, indépendamment des autres :
+d'autres viendront. Chaque pays ajoute deux choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
@@ -60,14 +59,13 @@ d'autres viendront. Chaque pays ajoute trois choses, indépendamment des autres 
    (`COUNTRIES` dans `app.js`), fusionné dans le même tableau de communes que la France — une ville
    espagnole ou portugaise se cherche, se tire au sort et se compare aux autres exactement comme
    une ville française.
-2. **Un contour sur la carte** (`scripts/build-map.js` étend `france-map.json` : dé-projette les
-   tracés existants, ajoute le nouveau contour — [Natural Earth](https://www.naturalearthdata.com)/
-   simplifications GeoJSON usuelles pour un grand pays, [OpenStreetMap](https://www.openstreetmap.org)
-   via Nominatim pour un micro-état absent de ces jeux de données comme l'Andorre — puis recalcule
-   une projection commune qui fait tenir tous les pays couverts dans le même viewBox).
-3. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
+2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre, a `hasToll:false` : aucun montant n'est jamais affiché pour
    ce pays plutôt que d'en inventer un).
+
+La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
+pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
+des coordonnées valides.
 
 Les activités (points d'intérêt OpenStreetMap) et les photos (Wikipédia) fonctionnent déjà pour
 n'importe quel pays sans réglage supplémentaire — seule l'extraction de la section "Lieux et
@@ -230,10 +228,9 @@ au chargement.
   `featured.txt` pour ~300 communes françaises, interrogés en direct via `/api/pois` pour les autres
   (voir "Activités réelles" ci-dessus), dans tous les pays couverts — © les contributeurs
   d'OpenStreetMap, licence [ODbL](https://opendatacommons.org/licenses/odbl/).
-- Contours de la carte : [gregoiredavid/france-geojson](https://github.com/gregoiredavid/france-geojson)
-  (France, dérivé IGN) ; [johan/world.geo.json](https://github.com/johan/world.geo.json) (Espagne,
-  Portugal) ; OpenStreetMap via Nominatim, © les contributeurs d'OpenStreetMap, licence ODbL
-  (Andorre, absente des jeux de données simplifiés courants).
+- Fond de carte : tuiles [OpenStreetMap](https://www.openstreetmap.org) standard, chargées via
+  [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
+  d'OpenStreetMap, licence ODbL.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /

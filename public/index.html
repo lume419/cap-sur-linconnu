@@ -53,6 +53,10 @@
 }
 </script>
 
+<!-- Leaflet (BSD-2-Clause), hébergé localement comme le reste du site — sert de moteur à la carte
+     du parcours (voir plus bas) : seules les tuiles de fond viennent d'un serveur distant
+     (OpenStreetMap), la bibliothèque elle-même ne fait aucun appel externe. -->
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -213,8 +217,8 @@
 
   <section class="map-card" id="map-card">
     <h3>Carte du parcours</h3>
-    <div class="map-svg-wrap" id="map-svg-wrap"></div>
-    <p class="map-note">Points positionnés aux coordonnées réelles des communes. Le tracé relie les étapes à vol d'oiseau — la route suivie serpente davantage.</p>
+    <div class="map-wrap" id="map-wrap"></div>
+    <p class="map-note">Fond de carte OpenStreetMap. Points positionnés aux coordonnées réelles des communes — le tracé relie les étapes à vol d'oiseau, la route suivie serpente davantage.</p>
   </section>
 
   <section class="timeline" id="timeline">
@@ -249,11 +253,12 @@
   </div>
 
   <footer>
-    Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne et le Portugal. Points d'intérêt : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal).
+    Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne et le Portugal. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal).
     <span class="footer-legal-links"><a href="mentions-legales">Mentions légales</a> · <a href="politique-confidentialite">Politique de confidentialité</a></span>
   </footer>
 </div>
 <script src="js/theme.js" defer></script>
+<script src="vendor/leaflet/leaflet.js" defer></script>
 <script src="js/app.js" defer></script>
 </body>
 </html>
