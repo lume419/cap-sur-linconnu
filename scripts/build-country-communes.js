@@ -1,0 +1,125 @@
+// Convertit les données GeoNames (dump géographique + codes postaux) en fichiers communes-XX.txt
+// au même format que communes.txt (France) : population;lon,lat;cp1,cp2,...;region;nom
+// Une ligne de plus par rapport au format France : le code pays est dans le nom de fichier
+// (communes-es.txt), pas dans chaque ligne — cohérent avec le choix "un fichier par pays".
+const fs = require('fs');
+const path = require('path');
+
+const COUNTRIES = ['AD', 'ES', 'PT'];
+// Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
+// d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
+// doublons et les lieux qui n'existent plus.
+const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
+
+function haversineKm(lat1, lon1, lat2, lon2){
+  const R = 6371;
+  const dLat = (lat2-lat1) * Math.PI/180, dLon = (lon2-lon1) * Math.PI/180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+// Grille spatiale simple (cellules ~0.1°) pour retrouver rapidement les entrées de codes postaux
+// proches d'un point donné, sans comparer chaque lieu à des dizaines de milliers de codes postaux.
+function buildGrid(points){
+  const grid = new Map();
+  const cell = (lat, lon) => Math.round(lat*10) + '_' + Math.round(lon*10);
+  points.forEach(p => {
+    const k = cell(p.lat, p.lon);
+    if(!grid.has(k)) grid.set(k, []);
+    grid.get(k).push(p);
+  });
+  return { grid, cell };
+}
+function nearest(gridObj, lat, lon, maxKm){
+  const { grid, cell } = gridObj;
+  const cLat = Math.round(lat*10), cLon = Math.round(lon*10);
+  let best = null, bestDist = Infinity;
+  for(let dLat=-1; dLat<=1; dLat++){
+    for(let dLon=-1; dLon<=1; dLon++){
+      const k = (cLat+dLat) + '_' + (cLon+dLon);
+      const bucket = grid.get(k);
+      if(!bucket) continue;
+      for(const p of bucket){
+        const d = haversineKm(lat, lon, p.lat, p.lon);
+        if(d < bestDist){ bestDist = d; best = p; }
+      }
+    }
+  }
+  return (best && bestDist <= maxKm) ? best : null;
+}
+
+// Écart isolé et confirmé (grep manuel) entre le champ "name" canonique de GeoNames et le nom
+// local : GeoNames stocke "Lisbon" (anglais) au lieu de "Lisboa" pour la capitale portugaise —
+// vérifié sur un échantillon d'une dizaine d'autres grandes villes ES/PT (Sevilla, Zaragoza,
+// Coimbra, Braga, Córdoba, Valencia, Porto...), toutes correctes en langue locale. Cas isolé,
+// corrigé à la main plutôt que d'intégrer le fichier alternateNamesV2 (bien plus volumineux) pour
+// une seule exception connue.
+const NAME_OVERRIDES = { 'Lisbon': 'Lisboa' };
+
+for(const country of COUNTRIES){
+  const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
+  const postalRaw = fs.readFileSync(path.join(__dirname, 'postal', country + '_postal.txt'), 'utf8');
+
+  // Fichier codes postaux : country, postcode, place, admin_name1, admin_code1, admin_name2,
+  // admin_code2, admin_name3, admin_code3, lat, lon, accuracy
+  const postalPoints = postalRaw.split('\n').filter(Boolean).map(line => {
+    const c = line.split('\t');
+    return {
+      postcode: c[1],
+      admin1: c[3] || '',
+      code1: c[4] || '',
+      admin2: c[5] || '',
+      lat: parseFloat(c[9]),
+      lon: parseFloat(c[10])
+    };
+  }).filter(p => !isNaN(p.lat) && !isNaN(p.lon));
+  const postalGrid = buildGrid(postalPoints);
+  // L'Andorre n'a que 7 codes postaux (un par paroisse) : les centroïdes des paroisses sont trop
+  // proches les uns des autres pour qu'un rapprochement par COORDONNÉES les distingue de façon
+  // fiable (testé : Sispony, réellement en paroisse de La Massana, se voyait rattaché à Andorra-
+  // la-Vella par pure proximité géographique). Le code de paroisse (admin1) du fichier dump et
+  // celui du fichier codes postaux utilisent exactement le même référentiel — un rapprochement
+  // PAR CODE est donc à la fois plus simple et strictement exact pour ce pays précis.
+  const postalByAdmin1Code = new Map();
+  if(country === 'AD'){
+    postalPoints.forEach(p => { if(p.code1) postalByAdmin1Code.set(p.code1, p); });
+  }
+
+  // Fichier dump : geonameid, name, asciiname, alternatenames, lat, lon, feature class, feature
+  // code, country, cc2, admin1, admin2, admin3, admin4, population, elevation, dem, timezone, mod
+  const rows = dumpRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
+  const places = rows
+    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
+    .map(c => ({
+      name: NAME_OVERRIDES[c[1]] || c[1],
+      lat: parseFloat(c[4]),
+      lon: parseFloat(c[5]),
+      admin1Code: c[10] || '',
+      pop: parseInt(c[14], 10) || 0
+    }))
+    .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
+
+  // Dédoublonnage : même nom normalisé + coordonnées quasi identiques (arrondi ~1km) -> un seul
+  // gardé (le plus peuplé). Certaines localités apparaissent en double dans le dump GeoNames.
+  const seen = new Map();
+  for(const p of places){
+    const key = p.name.toLowerCase() + '|' + p.lat.toFixed(2) + '|' + p.lon.toFixed(2);
+    const existing = seen.get(key);
+    if(!existing || p.pop > existing.pop) seen.set(key, p);
+  }
+  const deduped = Array.from(seen.values());
+
+  const lines = deduped.map(p => {
+    const near = (country === 'AD')
+      ? (postalByAdmin1Code.get(p.admin1Code) || null)
+      : nearest(postalGrid, p.lat, p.lon, 15);
+    const cp = near ? near.postcode : '';
+    const region = near ? (near.admin2 || near.admin1 || '') : '';
+    if(!cp) return null; // sans code postal on ne peut pas désambiguïser à l'affichage -> écarté
+    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};${region};${p.name}`;
+  }).filter(Boolean);
+
+  const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
+  fs.writeFileSync(outPath, lines.join('\n') + '\n', 'utf8');
+  console.log(country, ': ', places.length, 'lieux bruts ->', deduped.length, 'dédoublonnés ->', lines.length, 'avec code postal ->', outPath);
+}

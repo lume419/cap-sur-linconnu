@@ -1,0 +1,62 @@
+0;1.4874,42.5533;AD400;La Massana;Xixerella
+1418;1.5665,42.5318;AD200;Encamp;Vila
+0;1.4891,42.4860;AD500;Andorra la Vella;Tossalet i Vinyals
+251;1.5276,42.5646;AD300;Ordino;Sornàs
+602;1.6677,42.5769;AD100;Canillo;Soldeu
+833;1.5161,42.5337;AD400;La Massana;Sispony
+58;1.5381,42.5571;AD300;Ordino;Segudet
+1003;1.6536,42.5795;AD100;Canillo;El Tarter
+8022;1.4913,42.4637;AD600;Sant Julià de Lòria;Sant Julià de Lòria
+0;1.6076,42.5712;AD100;Canillo;Sant Joan de Caselles
+3236;1.4990,42.4945;AD500;Andorra la Vella;Santa Coloma
+275;1.6381,42.5814;AD100;Canillo;Ransol
+0;1.5740,42.4973;AD700;Escaldes-Engordany;Ràmio
+81;1.5940,42.5600;AD100;Canillo;Prats
+2996;1.7336,42.5428;AD200;Encamp;Pas de la Casa
+235;1.4752,42.5459;AD400;La Massana;Pal
+3066;1.5332,42.5562;AD300;Ordino;Ordino
+63;1.5023,42.4714;AD600;Sant Julià de Lòria;Nagol
+0;1.5898,42.5509;AD100;Canillo;Molleres
+61;1.5909,42.5540;AD100;Canillo;Meritxell
+0;1.4886,42.5693;AD400;La Massana;Mas de Ribafeta
+0;1.4513,42.4411;AD600;Sant Julià de Lòria;Mas d’Alins
+4;1.5116,42.4723;AD600;Sant Julià de Lòria;Llumeneres
+246;1.5266,42.5962;AD300;Ordino;Llorts
+6;1.5415,42.6206;AD300;Ordino;Les Subiranes
+0;1.5370,42.6095;AD300;Ordino;Les Salines
+15853;1.5341,42.5073;AD700;Escaldes-Engordany;les Escaldes
+1171;1.5865,42.5387;AD200;Encamp;Les Bons
+0;1.5386,42.5047;AD700;Escaldes-Engordany;La Plana
+7211;1.5148,42.5450;AD400;La Massana;la Massana
+195;1.6290,42.5789;AD100;Canillo;l'Aldosa de canillo
+594;1.5229,42.5439;AD400;La Massana;l'Aldosa
+931;1.5185,42.5742;AD300;Ordino;La Cortinada
+167;1.4919,42.4400;AD600;Sant Julià de Lòria;Juberri
+127;1.4647,42.4541;AD600;Sant Julià de Lòria;Fontaneda
+17;1.5090,42.5464;AD400;La Massana;Escàs
+556;1.4968,42.5622;AD400;La Massana;Erts
+0;1.5412,42.5112;AD700;Escaldes-Engordany;Engordany
+11223;1.5801,42.5347;AD200;Encamp;Encamp
+0;1.6080,42.5720;AD100;Canillo;El Vilar
+38;1.6327,42.5814;AD100;Canillo;Els Plans
+236;1.5391,42.6183;AD300;Ordino;El Serrat
+85;1.5061,42.4746;AD600;Sant Julià de Lòria;Certers
+3292;1.5976,42.5676;AD100;Canillo;Canillo
+54;1.4605,42.4820;AD600;Sant Julià de Lòria;Bixessarri
+215;1.4925,42.4531;AD600;Sant Julià de Lòria;Aubinyà
+1419;1.4845,42.5720;AD400;La Massana;Arinsal
+226;1.5184,42.5823;AD300;Ordino;Arans
+1006;1.5251,42.5346;AD400;La Massana;Anyós
+49;1.5220,42.5688;AD300;Ordino;Ansalonga
+20430;1.5211,42.5078;AD500;Andorra la Vella;Andorra la Vella
+69;1.4890,42.4764;AD600;Sant Julià de Lòria;Aixovall
+1041;1.5021,42.4624;AD600;Sant Julià de Lòria;Aixirivall
+0;1.4684,42.4865;AD600;Sant Julià de Lòria;Aixàs
+155;1.4902,42.4860;AD500;Andorra la Vella;La Margineda
+330;1.6627,42.5829;AD100;Canillo;Incles
+0;1.6858,42.5596;AD100;Canillo;Bordes d'Envalira
+0;1.5599,42.5112;AD700;Escaldes-Engordany;Sant Miquel d'Engolasters
+400;1.4916,42.5652;AD400;La Massana;Puiol del Piu
+0;1.5336,42.5164;AD700;Escaldes-Engordany;Els Vilars
+0;1.5288,42.5012;AD500;Andorra la Vella;La Comella
+0;1.5598,42.5111;AD700;Escaldes-Engordany;Engolasters

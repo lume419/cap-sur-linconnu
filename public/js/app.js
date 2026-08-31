@@ -2,19 +2,37 @@
 (async function(){
   "use strict";
 
-  // Les données (communes, points d'intérêt réels, contour de la France) ne sont plus embarquées
-  // dans le script : elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé
-  // (voir index.html) tant que ce chargement n'est pas terminé.
-  var COMMUNES_RAW, FEATURED_RAW, FRANCE_MAP;
+  // Pays couverts, un par un (voir README) — chaque entrée pointe vers son propre fichier
+  // communes-XX.txt (même format que la France : population;lon,lat;cp;région;nom), pour pouvoir
+  // ajouter un nouveau pays sans toucher aux fichiers déjà en place. hasToll/tollRateByClass :
+  // seuls la France et l'Espagne ont un vrai réseau autoroutier à péage significatif au tarif
+  // kilométrique repéré (voir plus bas, finalizeLeg) ; le Portugal n'a que son réseau à péage
+  // électronique sans barrière (tarif très inférieur, cohérent avec les grilles Via Verde/Ascendi
+  // consultées) ; l'Andorre n'a pas d'autoroute à péage — aucun montant n'y est donc jamais affiché.
+  var COUNTRIES = {
+    FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
+    AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false },
+    ES: { code:'ES', name:'Espagne', file:'communes-es.txt', hasToll:true },
+    PT: { code:'PT', name:'Portugal', file:'communes-pt.txt', hasToll:true }
+  };
+  var COUNTRY_LIST = Object.keys(COUNTRIES);
+
+  // Les données (communes par pays, points d'intérêt réels, contour de la carte) ne sont plus
+  // embarquées dans le script : elles sont chargées depuis /data au démarrage. Le formulaire reste
+  // désactivé (voir index.html) tant que ce chargement n'est pas terminé.
+  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW, FRANCE_MAP;
   try {
-    var results = await Promise.all([
-      fetch('data/communes.txt').then(function(r){ if(!r.ok) throw new Error('communes.txt : HTTP '+r.status); return r.text(); }),
+    var communesFetches = COUNTRY_LIST.map(function(cc){
+      var file = COUNTRIES[cc].file;
+      return fetch('data/' + file).then(function(r){ if(!r.ok) throw new Error(file + ' : HTTP ' + r.status); return r.text(); });
+    });
+    var results = await Promise.all(communesFetches.concat([
       fetch('data/featured.txt').then(function(r){ if(!r.ok) throw new Error('featured.txt : HTTP '+r.status); return r.text(); }),
       fetch('data/france-map.json').then(function(r){ if(!r.ok) throw new Error('france-map.json : HTTP '+r.status); return r.json(); })
-    ]);
-    COMMUNES_RAW = results[0];
-    FEATURED_RAW = results[1];
-    FRANCE_MAP = results[2];
+    ]));
+    COUNTRY_LIST.forEach(function(cc, i){ COMMUNES_RAW_BY_COUNTRY[cc] = results[i]; });
+    FEATURED_RAW = results[COUNTRY_LIST.length];
+    FRANCE_MAP = results[COUNTRY_LIST.length + 1];
   } catch(err){
     var loadErr = document.getElementById('load-error');
     if(loadErr){
@@ -39,6 +57,17 @@
     close:'<path d="M6 6l12 12M18 6L6 18"/>'
   };
   function icon(name){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';}
+
+  // Langue Wikipédia utilisée pour les photos/articles d'un lieu (voir /api/photo côté serveur) :
+  // celle du visiteur, pas celle de la commune ni celle, fixe, de l'interface — une commune
+  // espagnole affiche donc son article en espagnol pour un visiteur dont le navigateur est
+  // configuré en espagnol, en français pour un visiteur francophone, etc. Repli sur le français
+  // (langue principale du site) si la langue du navigateur n'est pas exploitable.
+  var VISITOR_LANG = (function(){
+    var raw = (navigator.language || (navigator.languages && navigator.languages[0]) || 'fr');
+    var code = String(raw).split('-')[0].toLowerCase();
+    return /^[a-z]{2,3}$/.test(code) ? code : 'fr';
+  })();
 
   /* ---------- POP-UP PHOTO (agrandissement en qualité maximale) ---------- */
   // Une seule popup réutilisée pour toutes les images cliquables (tuile principale + activités) :
@@ -111,7 +140,26 @@
   
   // Médiane €/km observée sur les 30 liaisons ci-dessus (classe 1 / 2 / 5). La classe 2 s'applique
   // au van aménagé (hauteur/PTAC), la classe 5 aux motos ; le vélo est exclu (interdit sur autoroute).
+  //
+  // Espagne et Portugal : même principe (tarif €/km "classe 1" dérivé d'un échantillon réel de
+  // liaisons officielles), classes 2/5 extrapolées avec les MÊMES ratios que la France (2 ≈ ×1,55,
+  // 5 ≈ ×0,58 la classe 1) faute de grille détaillée par classe pour ces deux pays — à affiner si
+  // des barèmes complets deviennent disponibles.
+  // - Espagne (AP-68 Bilbao-Zaragoza, barème officiel Autopistas/Abertis, janvier 2026 :
+  //   autopistas.com/tarifas-y-descuentos/tarifas — plusieurs liaisons "Ligeros" ~294 km/39,90 €)
+  //   -> ~0,14 €/km, très proche du tarif classe 1 français (péage classique avec barrière).
+  // - Portugal (A22 Via do Infante, péage électronique sans barrière, vialivre.pt/en/tolls/tolls-on-a22 :
+  //   somme des tarifs de section sur tout le trajet ~130 km pour 4,65 €) -> ~0,036 €/km, nettement
+  //   moins cher — cohérent avec un réseau ex-SCUT à péage électronique, pas une grande autoroute
+  //   à barrières. Échantillon plus restreint que la France (une seule liaison de référence) :
+  //   estimation moins précise, affinable plus tard avec d'autres sections Ascendi/Via Verde.
+  // - Andorre : pas de réseau autoroutier à péage — aucun montant n'est jamais calculé (hasToll:false).
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
+  var TOLL_RATE_BY_COUNTRY = {
+    FR: TOLL_RATE_BY_CLASS,
+    ES: { 1: 0.14, 2: 0.218, 5: 0.081 },
+    PT: { 1: 0.036, 2: 0.056, 5: 0.021 }
+  };
   var TOLL_MIN_DISTANCE_KM = 60; // en-deçà, le péage n'entre pas en ligne de compte
   var BUDGET = {
     economique:{label:'économique', order:0},
@@ -187,17 +235,26 @@
       .normalize('NFD').replace(DIACRITICS_RE,'')
       .replace(SEP_RE,' ').replace(/\s+/g,' ').trim();
   }
-  var COMMUNES = COMMUNES_RAW.split('\n').map(function(line){
-    var parts = line.split(';');
-    var pop = parseInt(parts[0], 10) || 0;
-    var latlon = parts[1].split(',');
-    var lon = parseFloat(latlon[0]);
-    var lat = parseFloat(latlon[1]);
-    var cps = parts[2].split(',');
-    var dept = parts[3];
-    var name = parts[4];
-    return { name:name, norm:normalizeCityName(name), cps:cps, pop:pop, lat:lat, lon:lon, dept:dept };
-  });
+  // Un fichier par pays, même format compact (voir plus haut), fusionnés en un seul tableau tagué
+  // `country` — c'est ce tag qui distingue ensuite un code de département français (à résoudre via
+  // DEPARTMENTS côté serveur) d'un nom de région déjà en clair pour les autres pays (ex. "Almería",
+  // "Aveiro" — voir scripts/build-country-communes.js, qui produit directement ce nom).
+  function parseCommunesFile(raw, country){
+    return raw.split('\n').filter(Boolean).map(function(line){
+      var parts = line.split(';');
+      var pop = parseInt(parts[0], 10) || 0;
+      var latlon = parts[1].split(',');
+      var lon = parseFloat(latlon[0]);
+      var lat = parseFloat(latlon[1]);
+      var cps = parts[2].split(',');
+      var dept = parts[3];
+      var name = parts[4];
+      return { name:name, norm:normalizeCityName(name), cps:cps, pop:pop, lat:lat, lon:lon, dept:dept, country:country };
+    });
+  }
+  var COMMUNES = COUNTRY_LIST.reduce(function(all, cc){
+    return all.concat(parseCommunesFile(COMMUNES_RAW_BY_COUNTRY[cc], cc));
+  }, []);
 
   // Recherche à partir de 3 caractères : chiffres -> préfixe de code postal, lettres -> préfixe du nom.
   // Résultats triés par population décroissante pour faire remonter les villes connues.
@@ -211,9 +268,9 @@
       if(isPostal){
         var matchCp = null;
         for(var j=0;j<c.cps.length;j++){ if(c.cps[j].indexOf(q)===0){ matchCp = c.cps[j]; break; } }
-        if(matchCp) matches.push({name:c.name, cp:matchCp, allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept});
+        if(matchCp) matches.push({name:c.name, cp:matchCp, allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept, country:c.country});
       } else if(c.norm.indexOf(q)===0){
-        matches.push({name:c.name, cp:c.cps[0], allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept});
+        matches.push({name:c.name, cp:c.cps[0], allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept, country:c.country});
       }
     }
     matches.sort(function(a,b){ return b.pop - a.pop; });
@@ -475,7 +532,7 @@
     els.city.setAttribute('aria-expanded','true');
   }
   function selectCommune(r){
-    selectedCity = { name:r.name, cp:r.cp, allCps:r.allCps, lat:r.lat, lon:r.lon, dept:r.dept };
+    selectedCity = { name:r.name, cp:r.cp, allCps:r.allCps, lat:r.lat, lon:r.lon, dept:r.dept, country:r.country };
     els.city.value = r.name + ' (' + r.cp + ')';
     hideSuggestions();
     clearCityError();
@@ -860,12 +917,13 @@
   // Au-delà de TOLL_MIN_DISTANCE_KM, une portion du trajet emprunterait plausiblement une autoroute
   // à péage. Le péage coché rend l'étape plus rapide (temps réduit) ; décoché, le temps annoncé
   // correspond à l'itinéraire sans péage et on indique ce qui aurait pu être gagné.
-  function finalizeLeg(distanceKm, speed, transportKey, tollEnabled){
+  function finalizeLeg(distanceKm, speed, transportKey, tollEnabled, country){
     var hours = distanceKm / speed;
     var tollInfo = null;
     var tollClass = TRANSPORT[transportKey].tollClass; // null pour le vélo, interdit sur autoroute
-    if(tollClass && distanceKm >= TOLL_MIN_DISTANCE_KM){
-      var rate = TOLL_RATE_BY_CLASS[tollClass];
+    var countryToll = COUNTRIES[country] && COUNTRIES[country].hasToll ? TOLL_RATE_BY_COUNTRY[country] : null;
+    if(tollClass && countryToll && distanceKm >= TOLL_MIN_DISTANCE_KM){
+      var rate = countryToll[tollClass];
       var amount = Math.round(distanceKm * rate * 10) / 10;
       var savedRatio = rand(0.15, 0.30);
       var savedMin = Math.round(hours * 60 * savedRatio);
@@ -913,33 +971,39 @@
     };
   }
   // Vraie photo du lieu : on interroge notre propre serveur (/api/photo), qui va chercher la
-  // photo d'infobox de l'article Wikipédia correspondant (avec désambiguïsation par département)
-  // et la met en cache côté serveur. Ici, on ne fait qu'éviter de redemander deux fois la même
-  // commune pendant l'affichage (ex. plusieurs nuits au même endroit).
+  // photo d'infobox de l'article Wikipédia correspondant, dans la langue du VISITEUR (VISITOR_LANG
+  // — voir plus haut), avec désambiguïsation par région (département français, ou nom de région
+  // déjà en clair pour les autres pays — voir `country`) et la met en cache côté serveur. Ici, on
+  // ne fait qu'éviter de redemander deux fois la même commune pendant l'affichage (ex. plusieurs
+  // nuits au même endroit).
   var clientPhotoCache = {};
-  function fetchPlacePhoto(name, dept){
-    var key = name + '|' + (dept || '');
+  function fetchPlacePhoto(name, dept, country){
+    var key = name + '|' + (dept || '') + '|' + (country || '') + '|' + VISITOR_LANG;
     if(!clientPhotoCache[key]){
-      clientPhotoCache[key] = fetch('/api/photo?name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || ''))
+      var url = '/api/photo?name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || '') +
+        '&country=' + encodeURIComponent(country || '') + '&lang=' + encodeURIComponent(VISITOR_LANG);
+      clientPhotoCache[key] = fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
         .catch(function(){ return { image:null, wikiUrl:null, title:null }; });
     }
     return clientPhotoCache[key];
   }
   // Vrais points d'intérêt en direct (OpenStreetMap/Overpass, via notre serveur) pour les communes
-  // hors de FEATURED — la grande majorité (~34 700 sur 35 000). Mis en cache 24h côté serveur, donc
-  // rarement lent en pratique après le tout premier tirage sur une commune donnée ; silencieux et
-  // sans jamais bloquer l'affichage si Overpass est indisponible (voir renderDays, qui retombe sur
-  // les activités génériques déjà affichées si rien n'est trouvé).
+  // hors de FEATURED — la grande majorité. Mis en cache 24h côté serveur, donc rarement lent en
+  // pratique après le tout premier tirage sur une commune donnée ; silencieux et sans jamais
+  // bloquer l'affichage si Overpass est indisponible (voir renderDays, qui retombe sur les
+  // activités génériques déjà affichées si rien n'est trouvé).
   var clientPoiCache = {};
   // `name`/`dept` (optionnels) permettent au serveur de compléter Overpass avec la section "Lieux
   // et monuments" de l'article Wikipédia de la commune, quand elle existe — souvent plus riche, et
-  // déjà illustrée y compris pour des lieux sans article dédié (voir server.js).
-  function fetchRealPOIs(lat, lon, name, dept){
+  // déjà illustrée y compris pour des lieux sans article dédié (voir server.js). Cette extraction
+  // reste pour l'instant limitée aux communes françaises (voir server.js) : `country` permet au
+  // serveur de savoir quand ne pas s'y essayer inutilement.
+  function fetchRealPOIs(lat, lon, name, dept, country){
     var key = lat.toFixed(3) + ',' + lon.toFixed(3);
     if(!clientPoiCache[key]){
       var url = '/api/pois?lat=' + encodeURIComponent(lat) + '&lon=' + encodeURIComponent(lon);
-      if(name) url += '&name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || '');
+      if(name) url += '&name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || '') + '&country=' + encodeURIComponent(country || '');
       clientPoiCache[key] = fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
         .then(function(data){ return (data && data.pois) || []; })
@@ -956,9 +1020,9 @@
   // buildItinerary (voir plus bas), appliqué cette fois à la mise à jour asynchrone après coup.
   var poiQueueByLocation = {};
   var genericQueueByLocation = {};
-  function realPoiQueueFor(lat, lon, name, dept){
+  function realPoiQueueFor(lat, lon, name, dept, country){
     var key = lat.toFixed(3) + ',' + lon.toFixed(3);
-    return fetchRealPOIs(lat, lon, name, dept).then(function(pois){
+    return fetchRealPOIs(lat, lon, name, dept, country).then(function(pois){
       if(!poiQueueByLocation[key]) poiQueueByLocation[key] = shuffle(pois || []);
       if(!genericQueueByLocation[key]) genericQueueByLocation[key] = shuffle(GENERIC_ACTIVITIES_NO_WALK);
       return {
@@ -1010,25 +1074,25 @@
   function prefetchLegAssets(legs){
     legs.forEach(function(leg){
       if(!leg.stop) return;
-      fetchPlacePhoto(leg.stop, leg.dept);
+      fetchPlacePhoto(leg.stop, leg.dept, leg.country);
       if(leg.activities){
         leg.activities.forEach(function(opt){
-          if(opt.isReal && opt.searchName) fetchPlacePhoto(opt.searchName, leg.dept);
+          if(opt.isReal && opt.searchName) fetchPlacePhoto(opt.searchName, leg.dept, leg.country);
           // Réchauffe seulement la LISTE (mémoïsée, sans effet de bord) — piocher une rando
           // précise pour ce jour se décide au rendu (voir pickHikeForCommune), pas ici : appeler
           // pickHikeForCommune dès le préchargement consommerait la file avant même que renderDays
-          // sache quels jours en ont réellement besoin.
-          if(opt.needsHike) fetchVisorandoHikeList(leg.stop);
+          // sache quels jours en ont réellement besoin. Visorando ne couvre que la France.
+          if(opt.needsHike && leg.country === 'FR') fetchVisorandoHikeList(leg.stop);
         });
       }
       if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
-        fetchRealPOIs(leg.lat, leg.lon, leg.stop, leg.dept).then(function(dept){
+        fetchRealPOIs(leg.lat, leg.lon, leg.stop, leg.dept, leg.country).then(function(dept, country){
           return function(pois){
             // Un lieu venu de la section Wikipédia "Lieux et monuments" apporte parfois déjà sa
             // photo (voir server.js) — pas besoin de la redemander via /api/photo dans ce cas.
-            (pois || []).slice(0, 4).forEach(function(p){ if(!p.image) fetchPlacePhoto(p.name, dept); });
+            (pois || []).slice(0, 4).forEach(function(p){ if(!p.image) fetchPlacePhoto(p.name, dept, country); });
           };
-        }(leg.dept));
+        }(leg.dept, leg.country));
       }
     });
   }
@@ -1132,16 +1196,16 @@
         needsRealPOIs: !featured0,
         lodging: null,
         isReturn:false,
-        lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept, cp: stop.cps[0], allCps: stop.cps
-      }, finalizeLeg(distOut, speed, transportKey, tollEnabled)));
+        lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept, country: stop.country, cp: stop.cps[0], allCps: stop.cps
+      }, finalizeLeg(distOut, speed, transportKey, tollEnabled, stop.country)));
       legs.push(Object.assign({
         label:'Retour',
         stop: city,
         activities: null,
         lodging: null,
         isReturn:true,
-        lat: cLat, lon: cLon, dept: cityCoord.dept, cp: cityCoord.cp, allCps: cityCoord.allCps
-      }, finalizeLeg(distBack, speed, transportKey, tollEnabled)));
+        lat: cLat, lon: cLon, dept: cityCoord.dept, country: cityCoord.country, cp: cityCoord.cp, allCps: cityCoord.allCps
+      }, finalizeLeg(distBack, speed, transportKey, tollEnabled, cityCoord.country)));
       return legs;
     }
 
@@ -1177,7 +1241,7 @@
       for(var n=0; n<nightsHere; n++){
         dayCounter++;
         var distanceKm = n===0 ? Math.round(roadDistanceKm(prevLat, prevLon, commune.lat, commune.lon)) : Math.round(rand(3,14));
-        var legInfo = finalizeLeg(distanceKm, speed, transportKey, tollEnabled);
+        var legInfo = finalizeLeg(distanceKm, speed, transportKey, tollEnabled, commune.country);
         var activities = buildActivityOptions(poisQueue, genericQueue);
         var checkIn = isoDate(addDays(tripStart, dayCounter-1));
         var checkOut = isoDate(addDays(tripStart, dayCounter));
@@ -1193,7 +1257,7 @@
           lodgingCheckIn: isFirstNightHere ? stayCheckIn : null,
           lodgingCheckOut: isFirstNightHere ? stayCheckOut : null,
           isReturn:false,
-          lat: commune.lat, lon: commune.lon, norm: commune.norm, pop: commune.pop, dept: commune.dept, cp: commune.cps[0], allCps: commune.cps
+          lat: commune.lat, lon: commune.lon, norm: commune.norm, pop: commune.pop, dept: commune.dept, country: commune.country, cp: commune.cps[0], allCps: commune.cps
         }, legInfo));
       }
       prevLat = commune.lat; prevLon = commune.lon;
@@ -1207,8 +1271,8 @@
       activities: null,
       lodging: null,
       isReturn:true,
-      lat: cLat, lon: cLon, dept: cityCoord.dept, cp: cityCoord.cp, allCps: cityCoord.allCps
-    }, finalizeLeg(distBackKm, speed, transportKey, tollEnabled)));
+      lat: cLat, lon: cLon, dept: cityCoord.dept, country: cityCoord.country, cp: cityCoord.cp, allCps: cityCoord.allCps
+    }, finalizeLeg(distBackKm, speed, transportKey, tollEnabled, cityCoord.country)));
 
     return legs;
   }
@@ -1236,10 +1300,14 @@
   }
   function renderActivityCards(actList, activities, dept, communeName, leg){
     actList.innerHTML = '';
+    // Visorando ne couvre que la France (voir server.js) — inutile d'afficher "recherche d'une
+    // vraie randonnée…" ni de tenter l'appel pour une commune d'un autre pays, la case générique
+    // resterait de toute façon affichée telle quelle.
+    var canHike = !leg || leg.country === 'FR';
     activities.forEach(function(opt){
       var card = document.createElement('div');
       card.className = 'activity-card';
-      var noteHtml = opt.needsHike
+      var noteHtml = (opt.needsHike && canHike)
         ? ' <span class="activities-loading-note">— recherche d\'une vraie randonnée…</span>'
         : '';
       card.innerHTML =
@@ -1257,13 +1325,13 @@
         // Pour une vraie curiosité nommée (POI OSM sans photo déjà connue), on tente sa propre
         // photo Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que
         // la photo générale de la commune. Silencieux si rien n'est trouvé : l'icône reste affichée.
-        fetchPlacePhoto(opt.searchName, dept).then(function(cardEl, label){
+        fetchPlacePhoto(opt.searchName, dept, leg && leg.country).then(function(cardEl, label){
           return function(data){
             if(!data || !data.image) return;
             applyActivityCardImage(cardEl, label, data.image, data.imageFull, data.wikiUrl);
           };
         }(card, opt.label));
-      } else if(opt.needsHike && communeName){
+      } else if(opt.needsHike && canHike && communeName){
         // Aucun POI de plein air trouvé pour cette journée : on tente une vraie rando balisée sur
         // Visorando. On ne récupère QUE le nom et le lien — jamais leur trace GPS, leur texte de
         // description ni leurs photos (voir server.js) — et la carte entière renvoie directement
@@ -1401,7 +1469,7 @@
           '<a class="photo-tile-wiki" href="'+photos.wiki+'" target="_blank" rel="noopener">Wikipédia ↗</a>';
         body.appendChild(tile);
 
-        fetchPlacePhoto(firstLeg.stop, firstLeg.dept).then(function(stopName, tileEl, photoLinks){
+        fetchPlacePhoto(firstLeg.stop, firstLeg.dept, firstLeg.country).then(function(stopName, tileEl, photoLinks){
           return function(data){
             if(data && data.image){
               var articleUrl = data.wikiUrl || photoLinks.wiki;
@@ -1502,7 +1570,7 @@
           // realPoiQueueFor (pas fetchRealPOIs directement) : partage une seule file de POI/repli
           // par commune entre tous les jours d'un même séjour, pour ne jamais reproposer le même
           // lieu deux fois (voir sa définition plus haut).
-          realPoiQueueFor(leg.lat, leg.lon, leg.stop, leg.dept).then(function(actListEl, dept, stopName, labelRow, dayLeg){
+          realPoiQueueFor(leg.lat, leg.lon, leg.stop, leg.dept, leg.country).then(function(actListEl, dept, stopName, labelRow, dayLeg){
             return function(shared){
               var note = labelRow.querySelector('.activities-loading-note');
               if(note) note.remove();
@@ -1563,9 +1631,9 @@
   }
 
   /* ---------- RENDER: MAP ---------- */
-  // Les 11 communes les plus peuplées de France (source : communes.txt, donc mêmes coordonnées
-  // que le reste de la carte), affichées en repère discret sur la carte pour aider à se situer —
-  // ce ne sont pas des destinations, juste un fond de carte familier.
+  // Les communes les plus peuplées des pays couverts (source : communes.txt / communes-XX.txt,
+  // donc mêmes coordonnées que le reste de la carte), affichées en repère discret sur la carte
+  // pour aider à se situer — ce ne sont pas des destinations, juste un fond de carte familier.
   var MAJOR_CITIES = [
     {name:'Paris', lat:48.8589, lon:2.347},
     {name:'Marseille', lat:43.2803, lon:5.3806},
@@ -1577,7 +1645,10 @@
     {name:'Strasbourg', lat:48.5691, lon:7.7621},
     {name:'Bordeaux', lat:44.8624, lon:-0.5848},
     {name:'Lille', lat:50.6311, lon:3.0468},
-    {name:'Rennes', lat:48.1159, lon:-1.6884}
+    {name:'Rennes', lat:48.1159, lon:-1.6884},
+    {name:'Madrid', lat:40.4165, lon:-3.7026},
+    {name:'Barcelone', lat:41.3888, lon:2.159},
+    {name:'Lisbonne', lat:38.7251, lon:-9.1498}
   ];
   function renderMap(legs, city, cityCoord){
     var vb = FRANCE_MAP.viewBox;
@@ -1684,9 +1755,12 @@
         '<text x="'+p[0].toFixed(1)+'" y="'+(p[1]-5).toFixed(1)+'" text-anchor="middle" font-size="7.5" fill="var(--ink-faint)" fill-opacity="0.65" font-family="ui-sans-serif">'+mc.name+'</text>';
     }).join('');
 
-    var svg = '<svg viewBox="'+cropVb.x.toFixed(1)+' '+cropVb.y.toFixed(1)+' '+cropVb.W.toFixed(1)+' '+cropVb.H.toFixed(1)+'" width="100%" height="auto" role="img" aria-label="Carte de France, zoomée sur le trajet">'+
+    var svg = '<svg viewBox="'+cropVb.x.toFixed(1)+' '+cropVb.y.toFixed(1)+' '+cropVb.W.toFixed(1)+' '+cropVb.H.toFixed(1)+'" width="100%" height="auto" role="img" aria-label="Carte de France, Andorre, Espagne et Portugal, zoomée sur le trajet">'+
       '<path d="'+FRANCE_MAP.mainlandPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
       '<path d="'+FRANCE_MAP.corsicaPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
+      '<path d="'+FRANCE_MAP.spainPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
+      '<path d="'+FRANCE_MAP.portugalPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
+      '<path d="'+FRANCE_MAP.andorraPath+'" fill="var(--accent-3)" fill-opacity="0.22" stroke="var(--line-strong)" stroke-width="1.4"/>'+
       majorMarks +
       (routePath ? '<path d="'+routePath+'" fill="none" stroke="var(--accent-3)" stroke-width="2.4" stroke-dasharray="1 7" stroke-linecap="round"/>' : '')+
       (returnPath ? '<path d="'+returnPath+'" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="6 5" stroke-linecap="round"/>' : '')+
@@ -1816,7 +1890,7 @@
     var avoidTent = els.tentToggle.checked;
     var speed = TRANSPORT[transportKey].speed;
     var maxRadiusKm = Math.max(20, effectiveRadiusKm(speed));
-    var cityCoord = { lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept, cp: selectedCity.cp, allCps: selectedCity.allCps };
+    var cityCoord = { lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept, cp: selectedCity.cp, allCps: selectedCity.allCps, country: selectedCity.country };
 
     var minDistanceKm = parseFloat(els.minDistance.value) || 0;
     var maxDistanceKm = parseFloat(els.maxDistance.value) || 0;

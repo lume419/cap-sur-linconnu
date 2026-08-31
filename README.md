@@ -1,8 +1,9 @@
 # Cap sur l'Inconnu
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
-avec de vraies communes françaises, de vrais points d'intérêt (OpenStreetMap), de vrais tarifs de
-péage (VINCI Autoroutes) et une carte de France projetée depuis le contour officiel (IGN).
+avec de vraies communes (France, Andorre, Espagne, Portugal — voir "Pays couverts" plus bas pour
+l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap), de vrais tarifs de péage et
+une carte projetée depuis les contours officiels de ces pays.
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -13,6 +14,9 @@ restructurée en petit projet Node.js statique, prête à héberger sur un serve
 cap-sur-linconnu/
 ├── package.json
 ├── server.js              # Express : sert public/ tel quel + une route GET /api/photo
+├── scripts/
+│   ├── build-country-communes.js  # génère public/data/communes-XX.txt pour un nouveau pays (GeoNames)
+│   └── build-map.js               # étend public/data/france-map.json à un nouveau pays (contour + projection)
 ├── public/
 │   ├── index.html
 │   ├── mentions-legales.html
@@ -24,21 +28,52 @@ cap-sur-linconnu/
 │   ├── js/app.js          # toute la génération d'itinéraire (client-side)
 │   ├── js/theme.js        # bascule clair/sombre/auto, partagée par les 3 pages
 │   └── data/
-│       ├── communes.txt        # ~35 000 communes (nom, population, coordonnées, codes postaux, département)
-│       ├── featured.txt        # ~300 communes avec de vrais points d'intérêt nommés (OSM)
-│       ├── france-map.json     # contour simplifié de la France + paramètres de projection
-│       └── toll-reference.json # 54 liaisons péage réelles ayant servi à calculer le tarif €/km
+│       ├── communes.txt        # ~35 000 communes françaises (nom, population, coordonnées, codes postaux, département)
+│       ├── communes-ad.txt     # ~60 lieux andorrans, même format (voir "Pays couverts")
+│       ├── communes-es.txt     # ~29 000 lieux espagnols, même format
+│       ├── communes-pt.txt     # ~16 500 lieux portugais, même format
+│       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
+│       ├── france-map.json     # contours simplifiés (France, Andorre, Espagne, Portugal) + projection commune
+│       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
 ```
 
-Le serveur sert les fichiers statiques et quatre routes dynamiques : `GET /api/photo?name=…&dept=…`,
-qui va chercher une vraie photo sur Wikipédia (voir plus bas), `GET /api/pois?lat=…&lon=…`, qui va
+Le serveur sert les fichiers statiques et quatre routes dynamiques : `GET /api/photo?name=…&dept=…
+&country=…&lang=…`, qui va chercher une vraie photo sur Wikipédia — dans la langue du VISITEUR
+(`lang`), pas celle de la commune (voir plus bas), `GET /api/pois?lat=…&lon=…&country=…`, qui va
 chercher de vrais points d'intérêt sur OpenStreetMap autour d'une commune (voir "Activités
-réelles"), `GET /api/hike?name=…`, qui va chercher une vraie randonnée balisée sur Visorando pour
-une commune (voir "Randonnées réelles"), et `POST /api/export-pdf`, qui génère le PDF téléchargeable
-de l'itinéraire affiché (voir "Export PDF"). Pas de base de données, pas de session, pas de donnée
-utilisateur conservée au-delà de la réponse — juste un petit cache en mémoire pour les trois
-premières routes.
+réelles"), `GET /api/hike?name=…`, qui va chercher de vraies randonnées balisées sur Visorando pour
+une commune française (voir "Randonnées réelles"), et `POST /api/export-pdf`, qui génère le PDF
+téléchargeable de l'itinéraire affiché (voir "Export PDF"). Pas de base de données, pas de session,
+pas de donnée utilisateur conservée au-delà de la réponse — juste un petit cache en mémoire pour
+les trois premières routes.
+
+## Pays couverts
+
+Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne et Portugal pour l'instant,
+d'autres viendront. Chaque pays ajoute trois choses, indépendamment des autres :
+
+1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
+   `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
+   [GeoNames](https://www.geonames.org) — licence CC-BY 4.0 — pour le pays demandé : population,
+   coordonnées, codes postaux, nom de région). Chargé au démarrage de l'app comme les autres
+   (`COUNTRIES` dans `app.js`), fusionné dans le même tableau de communes que la France — une ville
+   espagnole ou portugaise se cherche, se tire au sort et se compare aux autres exactement comme
+   une ville française.
+2. **Un contour sur la carte** (`scripts/build-map.js` étend `france-map.json` : dé-projette les
+   tracés existants, ajoute le nouveau contour — [Natural Earth](https://www.naturalearthdata.com)/
+   simplifications GeoJSON usuelles pour un grand pays, [OpenStreetMap](https://www.openstreetmap.org)
+   via Nominatim pour un micro-état absent de ces jeux de données comme l'Andorre — puis recalcule
+   une projection commune qui fait tenir tous les pays couverts dans le même viewBox).
+3. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
+   péage significatif, comme l'Andorre, a `hasToll:false` : aucun montant n'est jamais affiché pour
+   ce pays plutôt que d'en inventer un).
+
+Les activités (points d'intérêt OpenStreetMap) et les photos (Wikipédia) fonctionnent déjà pour
+n'importe quel pays sans réglage supplémentaire — seule l'extraction de la section "Lieux et
+monuments" d'un article Wikipédia (voir "Activités réelles") reste, pour l'instant, spécifique au
+français (conventions de titres de section propres à Wikipédia FR) ; les randonnées Visorando
+restent, elles, propres à la France (pas de couverture internationale chez eux).
 
 ## Démarrer en local
 
@@ -85,10 +120,16 @@ plus. Chaque étape affiche donc une vraie photo (récupérée via `GET /api/pho
 l'API REST de Wikipédia côté serveur et met le résultat en cache 24h en mémoire) plutôt qu'un simple
 lien à ouvrir. Points notables de l'implémentation :
 
-- **Désambiguïsation par département** : plusieurs communes françaises partagent le même nom (trois
-  « Thoiry », par exemple). Le serveur essaie d'abord `"Nom (Département)"` — la convention de
-  Wikipédia pour ces homonymes — avant `"Nom"` seul, et renvoie « pas de photo » plutôt qu'une image
-  potentiellement fausse si la page reste une page d'homonymie.
+- **Désambiguïsation par région** : plusieurs communes partagent le même nom (trois « Thoiry »
+  françaises, par exemple). Le serveur essaie d'abord `"Nom (Région)"` — la convention de Wikipédia
+  pour ces homonymes — avant `"Nom"` seul, et renvoie « pas de photo » plutôt qu'une image
+  potentiellement fausse si la page reste une page d'homonymie. « Région » vient de la table
+  `DEPARTMENTS` pour la France, et directement des données pour les autres pays (voir "Pays
+  couverts").
+- **Langue du visiteur, pas celle de la commune** : l'article Wikipédia consulté (et donc la photo
+  et le lien renvoyés) est dans la langue du navigateur du visiteur (`VISITOR_LANG` côté client,
+  `lang` transmis à `/api/photo`) — une commune espagnole s'affiche en espagnol pour un visiteur
+  hispanophone, en français pour un visiteur francophone, etc.
 - Pas de clé API requise (l'API REST de Wikipédia est publique et gratuite).
 - Si aucune photo n'existe pour une commune (petits villages sans page dédiée), la tuile retombe sur
   un lien de recherche d'images classique — jamais d'image cassée.
@@ -116,12 +157,13 @@ monuments, points de vue, réserves naturelles...). Points notables :
   visible. Un garde-fou revérifie aussi la distance réelle de chaque résultat (Overpass garantit que
   la *géométrie* d'un lieu croise le rayon demandé, pas que son centre calculé y reste — une grande
   zone comme une réserve naturelle peut avoir un centre à des dizaines de km du point concerné).
-- **En complément d'Overpass**, l'app essaie aussi de lire la section « Lieux et monuments » (ou
-  « Patrimoine ») de l'article Wikipédia de la commune elle-même, quand elle existe : souvent plus
-  riche et déjà sourcée (base Mérimée...), et parfois déjà illustrée via une galerie de photos —
-  y compris pour des lieux qui n'ont pas leur propre article Wikipédia (donc introuvables par la
-  photo habituelle), comme une petite église ou chapelle de village. Les deux sources sont combinées
-  et dédoublonnées par nom.
+- **En complément d'Overpass, pour les communes françaises** (voir "Pays couverts" : conventions de
+  section propres à Wikipédia en français, pas encore adaptées aux autres langues), l'app essaie
+  aussi de lire la section « Lieux et monuments » (ou « Patrimoine ») de l'article Wikipédia de la
+  commune elle-même, quand elle existe : souvent plus riche et déjà sourcée (base Mérimée...), et
+  parfois déjà illustrée via une galerie de photos — y compris pour des lieux qui n'ont pas leur
+  propre article Wikipédia (donc introuvables par la photo habituelle), comme une petite église ou
+  chapelle de village. Les deux sources sont combinées et dédoublonnées par nom.
 - Chaque lieu réel trouvé tente ensuite sa propre photo Wikipédia (voir "Photos réelles" ci-dessus),
   sauf s'il en a déjà une via la galerie de l'article de la commune — aucune image n'est stockée sur
   le serveur, juste des liens vers Wikimedia Commons.
@@ -181,21 +223,28 @@ au chargement.
 
 ## Sources des données
 
-- Communes : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
+- Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
+- Communes andorranes/espagnoles/portugaises : [GeoNames](https://www.geonames.org) (licence
+  [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Points d'intérêt : [OpenStreetMap](https://www.openstreetmap.org) via l'API Overpass — figés dans
-  `featured.txt` pour ~300 communes, interrogés en direct via `/api/pois` pour les autres (voir
-  "Activités réelles" ci-dessus) — © les contributeurs d'OpenStreetMap, licence
-  [ODbL](https://opendatacommons.org/licenses/odbl/).
-- Contour de la France : [gregoiredavid/france-geojson](https://github.com/gregoiredavid/france-geojson)
-  (dérivé IGN).
+  `featured.txt` pour ~300 communes françaises, interrogés en direct via `/api/pois` pour les autres
+  (voir "Activités réelles" ci-dessus), dans tous les pays couverts — © les contributeurs
+  d'OpenStreetMap, licence [ODbL](https://opendatacommons.org/licenses/odbl/).
+- Contours de la carte : [gregoiredavid/france-geojson](https://github.com/gregoiredavid/france-geojson)
+  (France, dérivé IGN) ; [johan/world.geo.json](https://github.com/johan/world.geo.json) (Espagne,
+  Portugal) ; OpenStreetMap via Nominatim, © les contributeurs d'OpenStreetMap, licence ODbL
+  (Andorre, absente des jeux de données simplifiés courants).
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
-  (ASF, Cofiroute — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées).
-- Photos et département de désambiguïsation : [Wikipédia](https://fr.wikipedia.org) (API REST,
-  images sous licence Wikimedia Commons — crédit affiché sous chaque photo) ;
-  [geo.api.gouv.fr](https://geo.api.gouv.fr) pour les codes département.
-- Randonnées : [Visorando](https://www.visorando.com) — nom, distance, durée et difficulté
-  affichés à titre indicatif, lien direct vers leur page pour le tracé complet (voir "Randonnées
-  réelles" ci-dessus).
+  (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
+  [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /
+  [Via Verde](https://www.vialivre.pt) (Portugal) — voir "Pays couverts" pour la méthode de calcul
+  hors de France (échantillon plus restreint que pour la France).
+- Photos et région de désambiguïsation : [Wikipédia](https://www.wikipedia.org) (API REST, dans la
+  langue du visiteur — voir "Pays couverts" — images sous licence Wikimedia Commons, crédit affiché
+  sous chaque photo) ; [geo.api.gouv.fr](https://geo.api.gouv.fr) pour les codes département français.
+- Randonnées : [Visorando](https://www.visorando.com) (France uniquement) — nom, distance, durée et
+  difficulté affichés à titre indicatif, lien direct vers leur page pour le tracé complet (voir
+  "Randonnées réelles" ci-dessus).
 
 Toutes ces données sont figées au moment de la génération de ce projet (2026). Pour les rafraîchir,
 relancez les mêmes sources et remplacez les fichiers dans `public/data/`.

@@ -20,8 +20,16 @@ const DEPARTMENTS = {"01":"Ain","02":"Aisne","03":"Allier","04":"Alpes-de-Haute-
 const photoCache = new Map();
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
 
-async function fetchWikiSummary(title){
-  const resp = await fetch('https://fr.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(title), {
+// Seules des lettres minuscules (2-3, sous-domaines Wikipédia standards, ex. "fr", "es", "pt") —
+// filet de sécurité avant d'insérer la valeur dans une URL, jamais un souci en usage normal
+// (voir VISITOR_LANG côté client, qui produit déjà une valeur propre).
+function sanitizeLangCode(raw){
+  const code = String(raw || '').toLowerCase();
+  return /^[a-z]{2,3}$/.test(code) ? code : 'fr';
+}
+
+async function fetchWikiSummary(title, lang){
+  const resp = await fetch('https://' + sanitizeLangCode(lang) + '.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(title), {
     headers: {
       'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)',
       'Accept': 'application/json'
@@ -31,20 +39,23 @@ async function fetchWikiSummary(title){
   return resp.json();
 }
 
-// Résout une vraie photo Wikipédia pour une commune. Essaie d'abord "Nom (Département)" quand
-// le département est connu (la convention de désambiguïsation de Wikipédia pour les communes
-// homonymes), puis "Nom" seul. Si le résultat est une page d'homonymie (plusieurs communes du
-// même nom, département inconnu), on renvoie "pas de photo" plutôt qu'une image potentiellement
-// fausse — mieux vaut aucune image qu'une image du mauvais endroit.
-async function resolvePlacePhoto(name, deptCode){
-  const deptName = deptCode && DEPARTMENTS[deptCode];
+// Résout une vraie photo Wikipédia pour une commune, dans la langue du VISITEUR (lang — voir
+// VISITOR_LANG côté client), pas celle de la commune ni celle de l'interface. Essaie d'abord
+// "Nom (Région)" quand la région est connue (la convention de désambiguïsation de Wikipédia pour
+// les lieux homonymes), puis "Nom" seul. Pour la France, "Région" vient de la table DEPARTMENTS
+// (code -> nom) ; pour les autres pays, le nom de région est déjà en clair dans les données (voir
+// scripts/build-country-communes.js), pas besoin de table de correspondance. Si le résultat est
+// une page d'homonymie (plusieurs lieux du même nom, région inconnue), on renvoie "pas de photo"
+// plutôt qu'une image potentiellement fausse — mieux vaut aucune image qu'une image du mauvais endroit.
+async function resolvePlacePhoto(name, deptCode, country, lang){
+  const deptName = (!country || country === 'FR') ? (deptCode && DEPARTMENTS[deptCode]) : (deptCode || null);
   const attempts = [];
   if(deptName) attempts.push(name + ' (' + deptName + ')');
   attempts.push(name);
 
   for(const title of attempts){
     let data;
-    try { data = await fetchWikiSummary(title); } catch(e){ console.warn('[photo] échec pour "'+title+'":', e.message); continue; }
+    try { data = await fetchWikiSummary(title, lang); } catch(e){ console.warn('[photo] échec pour "'+title+'":', e.message); continue; }
     if(!data || data.type === 'disambiguation') continue;
     const thumbSource = (data.thumbnail && data.thumbnail.source) || null;
     const originalSource = (data.originalimage && data.originalimage.source) || null;
@@ -211,11 +222,16 @@ function normalizePoiName(s){
 }
 
 // Combine les deux sources : Wikipédia d'abord (généralement plus fiable — sourcé, souvent déjà
-// illustré), puis Overpass pour compléter/diversifier, dédoublonné par nom normalisé.
-async function fetchAllRealPOIs(lat, lon, name, deptCode){
+// illustré), puis Overpass pour compléter/diversifier, dédoublonné par nom normalisé. La section
+// "Lieux et monuments" (fetchCommuneMonuments) repose sur des conventions propres à Wikipédia EN
+// FRANÇAIS (titres de section, vocabulaire des types de lieux — voir extractMonumentsSection et
+// MONUMENT_TYPE_WORDS) : pas encore adaptée aux autres langues, donc volontairement pas tentée
+// hors de France (country) — Overpass, lui, fonctionne déjà partout sans changement.
+async function fetchAllRealPOIs(lat, lon, name, deptCode, country){
+  const tryMonuments = name && (!country || country === 'FR');
   const [overpassResult, wikiResult] = await Promise.all([
     fetchRealPOIs(lat, lon).catch(() => null),
-    name ? fetchCommuneMonuments(name, deptCode).catch(() => null) : Promise.resolve(null)
+    tryMonuments ? fetchCommuneMonuments(name, deptCode).catch(() => null) : Promise.resolve(null)
   ]);
   const seen = new Set();
   const combined = [];
@@ -497,7 +513,11 @@ app.get('/api/pois', async (req, res) => {
   const lon = parseFloat(req.query.lon);
   const name = String(req.query.name || '').trim();
   const dept = String(req.query.dept || '').trim();
-  if(!isFinite(lat) || !isFinite(lon) || lat < 40 || lat > 52 || lon < -6 || lon > 10){
+  const country = String(req.query.country || '').trim().toUpperCase();
+  // Englobe la France, l'Andorre, l'Espagne et le Portugal (mainland) — pas seulement la France :
+  // la borne d'origine (lat 40-52) rejetait à tort le sud de l'Espagne/Portugal (Andalousie,
+  // Algarve, jusqu'à ~36°N).
+  if(!isFinite(lat) || !isFinite(lon) || lat < 36 || lat > 52 || lon < -10 || lon > 10){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
   if(name.length > 120){
@@ -505,14 +525,14 @@ app.get('/api/pois', async (req, res) => {
   }
   // Clé par nom+département plutôt que seules les coordonnées arrondies : plus fiable pour ne
   // jamais confondre deux communes proches, et cohérent avec la recherche Wikipédia (par nom).
-  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2) + '|' + name.toLowerCase() + '|' + dept;
+  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2) + '|' + name.toLowerCase() + '|' + dept + '|' + country;
   const cached = poiCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < POI_CACHE_TTL_MS){
     return res.json({ pois: cached.pois });
   }
   let pois = null;
   try {
-    pois = await fetchAllRealPOIs(lat, lon, name, dept);
+    pois = await fetchAllRealPOIs(lat, lon, name, dept, country);
   } catch(err){
     console.warn('[pois] échec pour ' + cacheKey + ':', err.message);
   }
@@ -528,17 +548,19 @@ app.get('/api/pois', async (req, res) => {
 app.get('/api/photo', async (req, res) => {
   const name = String(req.query.name || '').trim();
   const dept = String(req.query.dept || '').trim();
+  const country = String(req.query.country || '').trim().toUpperCase();
+  const lang = sanitizeLangCode(req.query.lang);
   if(!name || name.length > 120){
     return res.status(400).json({ error: 'invalid name' });
   }
-  const cacheKey = name + '|' + dept;
+  const cacheKey = name + '|' + dept + '|' + country + '|' + lang;
   const cached = photoCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < CACHE_TTL_MS){
     return res.json(cached.data);
   }
   let data;
   try {
-    data = await resolvePlacePhoto(name, dept);
+    data = await resolvePlacePhoto(name, dept, country, lang);
   } catch(err){
     data = { image: null, imageFull: null, wikiUrl: null, title: null };
   }
