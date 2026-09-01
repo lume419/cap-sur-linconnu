@@ -1,0 +1,817 @@
+de;Zwikowetz;Zvíkovec
+de;Burg Zvíkov;Zvíkov
+en;Zvíkov Castle;Zvíkov
+de;Friedeberg;Žulová
+de;Znaim;Znojmo
+de;Znaym;Znojmo
+de;Slitschko;Zlíčko
+de;Slitsch;Zlíč
+de;Zuckmantel;Zlaté Hory
+de;Seitendorf bei Neutitschein;Životice u Nového Jičína
+de;Söhle;Žilina
+de;Groß Seelowitz;Židlochovice
+de;Schimitz;Židenice
+en;Brno-Židenice;Židenice
+de;Sichelsdorf;Žichlínek
+de;Shorsch;Zhoř
+de;Seesitz;Žežice
+de;Schirnik;Žernovník
+de;Senftleben;Ženklava
+de;Eisenbrod;Železný Brod
+de;Markt Eisenstein;Železná Ruda
+de;Schebetein;Žebětín
+en;Brno-Žebětín;Žebětín
+de;Klein Stiebnitz;Zdobnička
+de;Groß Stiebnitz;Zdobnice
+en;Zdar;Žďár nad Sázavou
+de;Scheer;Žďár
+de;Zdaretz;Žďárec u Skutče
+de;Brand an der Mettau;Žďár nad Metují
+de;Oberhaid;Zbytiny
+de;Zbýšov u Brna;Zbýšov
+de;Zboschno;Zbožnov
+de;Bühlfeld;Závrchy
+de;Sawersdorf;Závišice
+de;Ebenau;Zátoň
+de;Saaz;Žatec
+de;Zaschowitz;Zašovice
+de;Sandau;Žandov
+de;Schanda;Žandov
+fr;Reichstadt;Zákupy
+de;Furt;Zájezd
+de;Hasendorf;Zaječiny
+de;Sahorschan;Zahořany
+de;Saduba;Zádub
+en;Brno-Žabovřesky;Žabovřesky
+de;Wiederbruck;Vydří Most
+de;Hohenfurth;Vyšší Brod
+de;Hochsichel;Vysoká Srbská
+de;Vysoká Pec u Jirkova;Vysoká Pec
+de;Wisoka;Vysoká
+de;Wischkowitz;Výškovice
+de;Steingrün b. Haslau;Výhledy
+de;Neugrün b. Haslau;Výhledy
+de;Neumark;Všeruby
+de;Wschemin;Všemina
+de;Werchowin;Vrchoviny
+de;Hohen Erlitz;Vrchní Orlice
+de;Hohenelbe;Vrchlabí
+de;Frohnau;Vránov
+de;Wallern;Volary
+de;Woitzdorf;Vojtovice
+de;Waitischin;Vojtěšín
+de;Voitersreuth;Vojtanov
+de;Wilkischen;Vlkýš
+de;Weltschowitz;Vlčovice
+de;Wltschnow;Vlčnov
+de;Wolfsdorf;Vlčnov
+de;Wöllsdorf;Vlčkovice
+de;Wildschnitz;Vlčinec
+de;Wildschütz;Vlčice
+de;Wiesen;Vižňov
+de;Witkowitz;Vítkovice
+de;Witkow;Vítkov
+de;Dörfel;Víska
+de;Wikletitz, Kr. Saaz;Vikletice
+de;Witzoměřitz;Víceměřice
+de;Wettern;Větřní
+de;Wietrschkowitz;Větřkovice
+de;Westetz;Vestec
+de;Weska;Véska
+de;Wessely an der March;Veselí nad Moravou
+de;Veselíčko u Lipníka nad Bečvou;Veselíčko
+de;Wessiedel;Veselí
+de;Dörfel;Vesec
+de;Deutsch Wernersdorf;Vernéřovice
+de;Gross Aurim;Velký Uhřínov
+de;Groß Auerschim;Velký Uhřínov
+de;Großmeseritsch;Velké Meziříčí
+de;Grossullersdorf;Velké Losiny
+de;Groß Ledhuj;Velká Ledhuje
+de;Welhartitz;Velhartice
+de;Weipert;Vejprty
+de;Warnsdorf;Varnsdorf
+hsb;Warnoćicy;Varnsdorf
+de;Setzdorf;Vápenná
+de;Wallachisch Meseritsch;Valašské Meziříčí
+de;Wall;Val
+de;Zuflucht;Utociste
+de;Neumarkt;Úterý
+en;Brno-Útěchov;Útěchov
+de;Wildenschwert;Ústí nad Orlicí
+de;Aussig;Ústí nad Labem
+de;Aussig an der Elbe;Ústí nad Labem
+de;Hausbrunn;Úsobrno
+de;Tannzapfen;U Šišky
+de;Auporsch;Úpoř
+de;Mährisch Neustadt;Uničov
+de;Ungarisch Brod;Uherský Brod
+de;Ungarisch Hradisch;Uherské Hradiště
+de;Ungarisch-Hradisch;Uherské Hradiště
+de;Turnau;Turnov
+en;Brno-Tuřany;Tuřany
+de;Trautenau;Trutnov
+de;Treublitz;Troubelice
+de;Dreihacken;Tři Sekery
+de;Treschtitz;Třeštice
+de;Tremoschnitz;Třemošnice
+de;Wittingau;Třeboň
+de;Trebitsch-Stadt;Třebíč
+de;Krautenwalde;Travná
+de;Trabschitz;Travčice
+de;Domsdorf;Tomíkovice
+de;Dollmitschau;Tlumačov
+de;Tischnowitz;Tišnov
+de;Eiben;Tis
+de;Tzieschkowitz;Těškovice
+de;Theresienstadt;Terezín
+nl;Theresienstadt;Terezín
+de;Tereschau;Terešov
+de;Wekelsdorf;Teplice nad Metují
+de;Weckelsdorf an der Mettau;Teplice nad Metují
+de;Teplitz-Schönau;Teplice
+de;Teplitz;Teplice
+de;Telnitz;Telnice
+de;Teltsch;Telč
+de;Tasswitz;Tasovice
+de;Schwoika b. Böhmisch Leipa;Svojkov
+de;Zwittau;Svitavy
+de;Swinnai;Svinná
+de;Schwihau;Švihov
+de;Kirchschlag in Böhmen;Světlík
+de;Schwansdorf;Svatoňovice
+de;Kathrein;Svatá Kateřina
+de;Mährisch-Schönberg;Šumperk
+de;Dörrengrund;Suchý Důl
+de;Suchey;Suché
+de;Suchenthal an der Lainsitz;Suchdol nad Lužnicí
+de;Strisowitz;Střížovice
+de;Ohrnsdorf;Střítež nad Ludinou
+de;Mies;Stříbro
+de;Střelice u Brna;Střelice
+de;Wartenberg am Rollberg;Stráž pod Ralskem
+de;Warttenberg am Rollberg;Stráž pod Ralskem
+de;Straßnitz;Strážnice
+de;Schönwald;Šumvald
+de;Stranetzka Zhor;Stránecká Zhoř
+de;Strakonitz;Strakonice
+de;Straden;Stradov
+de;Stiepanau;Štěpánov
+de;Štěchovice u Prahy;Štěchovice
+de;Alttitschein;Starý Jičín
+de;Neusorge;Starostín
+de;Sorge;Starost
+de;Starkstadt;Stárkov
+de;Starkotsch;Starkoč
+de;Staré Město pod Sněžníkem;Staré Město
+de;Staré Město u Uherského Hradiště;Staré Město
+de;Alt Kesterschan;Kestřany
+de;Staditz;Stadice
+hsb;Serbske Kamjenicy;Srbská Kamenice
+de;Spitta;Spyta
+de;Spindlermühle;Špindlerův Mlýn
+de;Saufloß;Souvlastní
+de;Schönau;Šonov
+de;Sollnitz;Solnice
+de;Falkenau an der Eger;Sokolov
+de;Falkenau;Sokolov
+de;Sobochleben;Soběchleby
+de;Sneschnei;Sněžné
+de;Sněžné na Moravě;Sněžné
+de;Krondorf;Smrčina
+de;Lusetin;Služetín
+de;Schluckenau;Šluknov
+de;Slaup;Sloup
+de;Slawoniow;Slavoňov
+de;Klein Labnay;Slavný
+de;Austerlitz;Slavkov u Brna
+pt;Austerlitz;Slavkov u Brna
+fr;Austerlitz;Slavkov u Brna
+de;Moorwies;Slatina nad Zdobnicí
+en;Brno-Slatina;Slatina
+de;Slapy nad Vltavou;Slapy
+de;Skutsch;Skuteč
+de;Skuchrow an der Alba;Skuhrov nad Bělou
+de;Wachtl;Skřípov
+de;Gurtendorf;Skorotín
+de;Gurschdorf;Skorošice
+de;Hangenstein bei Römerstadt;Skály
+de;Schittwa;Šitboř
+de;Bad Sommerau;Sirkové Lázně
+de;Schippin b. Scheiben Radisch;Šipín
+de;Zeißermühl;Sezemín
+de;Schönau;Šenov u Nového Jičína
+de;Siebenhuben;Sedmlánů
+de;Sattel;Sedloňov
+de;Sedlnitz;Sedlnice
+de;Sedletz;Sedlec
+de;Schediwie;Šediviny
+de;Schöbersdorf;Šebanov
+de;Scheithau;Šajtava
+de;Sadowa;Sadová
+de;Riese;Rysé
+de;Rienek;Rýnek
+de;Reichenau an der Knieschna;Rychnov nad Kněžnou
+de;Richaltitz;Rychaltice
+de;Teichlein;Rybníčky
+de;Reimlich;Rybí
+de;Rozenkranz;Růženec
+de;Rosenau;Růžená
+de;Ruppersdorf;Ruprechtice
+de;Rumburg;Rumburk
+de;Rudník v Krkonoších;Rudník
+de;Hertine;Rtyně nad Bílinou
+de;Roztoky u Prahy;Roztoky
+de;Rosenthal im Böhmerwalde;Rožmitál na Šumavě
+de;Rosenthal;Rožmitál
+de;Rowney;Rovné
+de;Rowen;Roveň
+de;Neu Raußnitz;Rousínov
+de;Neuraussnitz;Rousínov
+de;Raudnig;Roudníky
+de;Raudnitz a.d. Elbe;Roudnice nad Labem
+de;Rosice u Brna;Rosice
+de;Rachel b. Kaaden;Rokle
+de;Stubenberg;Rohozná
+de;Ritschka;Říčky v Orlických horách
+de;Rössin;Řešín
+de;Gross Tschochau;Řehlovice
+en;Brno-Řečkovice a Mokrá Hora;Řečkovice
+de;Raase;Razová
+es;Ciudad de Rapotín;Rapotín
+de;Rankowitz;Rankovice
+de;Rampusch;Rampuše
+de;Rakonitz;Rakovník
+de;Rathschlag;Radslav
+de;Klein Radeinles;Radouňka
+de;Ratkau;Radkov
+de;Radeschau;Radešov
+de;Radlowitz;Radějovice
+de;Ratschitz;Radčice
+de;Wüstenei;Pustiny
+de;Wüst Pohlom;Pustá Polom
+de;Mitteldorf;Prostřední Rokytnice
+de;Prossnitz;Prostějov
+de;Prorub;Proruby
+de;Proloch;Proloh
+de;Freiberg;Příbor
+de;Pristen;Přestanov
+de;Prchalau;Prchalov
+es;Praga;Praha
+en;Prague;Praha
+fr;Prague;Praha
+it;Praga;Praha
+lb;Prag;Praha
+nl;Praag;Praha
+pt;Praga;Praha
+de;Prag;Praha
+de;Prachatitz;Prachatice
+de;Pratsch, Pratzen;Prace
+de;Pömmerle;Povrly
+de;Postupitz;Postupice
+de;Popelow;Popelov
+de;Pinklau;Poniklá
+de;Grenzdörfel;Pomeznice
+de;Pohl b. Bölten;Polom
+de;Politz an der Mettau;Police nad Metují
+de;Pohorsch;Pohoř
+de;Padol;Podolí
+de;Neuberg;Podhradí
+de;Richenburg;Předhradí
+de;Deutsch Neudörfel;Podhoří
+de;Podtschapl;Počaply
+de;Pilsen;Plzeň
+es;Pilsen;Plzeň
+fr;Pilsen;Plzeň
+it;Pilsen;Plzeň
+nl;Pilsen;Plzeň
+en;Pilsen;Plzeň
+hsb;Pilzeń;Plzeň
+de;Fleissen;Plesná
+de;Plaßnitz;Plasnice
+de;Planá u Mariánských Lázní;Planá
+de;Heinersdorf;Pilínkov
+de;Heinersdorf am Jeschken;Pilínkov
+de;Deutsch Petersdorf;Petrovičky
+de;Peterswald;Petrovice
+de;Petersdorf;Petrovice
+de;Böhmisch Petersdorf;Petrovice
+de;Bettlern;Petlery
+de;Böhmisch Bernschlag;Nový Vojířov
+de;Piekau;Pěkov
+de;Petzer;Pec pod Sněžkou
+de;Petschin;Pěčín
+de;Pavlov u Dolních Věstonic;Pavlov
+de;Hüttenberg;Pastviny
+de;Weiden;Pastviny
+de;Brand;Paseka
+hsb;Pardubicy;Pardubice
+de;Herrnfeld;Panské Pole
+de;Herrenbuchen;Panská Habrová
+de;Polzendorf;Palačov
+de;Patzdorf, Bez. Zizkov;Pacov
+de;Patzin bei Hurz;Pačín
+de;Ottendorf;Otovice
+de;Ottenreuth;Otín
+de;Schlackenwerth;Ostrov
+de;Mährisch-Ostrau;Ostrava
+de;Woschenitz;Osečnice
+en;Brno-Ořešín;Ořešín
+de;Troppau;Opava
+de;Olmütz;Olomouc
+hsb;Wołomuc;Olomouc
+de;Woleschnitz;Olešnice
+de;Olleschnitz;Olešnice
+de;Olešnice na Moravě;Olešnice
+de;Buschullersdorf;Oldřichov v Hájích
+de;Okenau;Okounov
+de;Wochnischau;Ohnišov
+de;Odrau;Odry
+de;Wochos;Ochoz
+de;Nürschan;Nýřany
+de;Neuenberg;Nymburk
+de;Nimburg;Nymburk
+de;Neuwelt;Nový Svět
+en;Brno-Nový Lískovec;Nový Lískovec
+de;Neu Gramatin;Nový Kramolín
+de;Neutitschein;Nový Jičín
+de;Neubürgles;Nový Hrádek
+de;Neuhof bei Weckelsdorf an der Mettau;Nový Dvůr
+de;Haida;Nový Bor
+de;Weißkirchlitz;Novosedlice
+de;Neustadt an der Tafelfichte;Nové Město pod Smrkem
+de;Neustadt an der Mettau;Nové Město nad Metují
+de;Deutsch Neustadtl;Německý Neustadtl
+de;Neu Kesterschan;Nové Kestřany
+de;Neuschloss;Nové Hrady
+de;Neuhammer;Nové Hamry
+de;Gebirgsneudorf;Nová Ves v Horách
+de;Neudorf b. Petschau;Nová Ves
+de;Neureisch;Nová Říše
+de;Neuhütten im Böhmerwald;Nová Knížecí Huť
+de;Nieder Drewitsch;Nízký Dřevíč
+de;Niedersichel;Nízká Srbská
+de;Nettin;Netín
+de;Pomeisl;Nepomyšl
+de;Nemanitz;Nemanice
+de;Wassersuppen;Nemanice
+de;Neudek in Böhmen;Nejdek
+de;Nehasitz;Nehasice
+de;Netschetin;Nečtiny
+de;Himmlisch Rybnai;Nebeská Rybná
+de;Himmlisch Ribnei;Nebeská Rybná
+de;Nahorschetitz;Nahořečice
+de;Mistietin;Mstětín
+de;Mosty;Mosty u Českého Těšína
+en;Mosty;Mosty u Českého Těšína
+fr;Mosty;Mosty u Českého Těšína
+de;Brüx;Most
+de;Engelswald;Mošnov
+de;Murk;Mořkov
+de;Müglitz;Mohelnice
+de;Modlan;Modlany
+de;Mönchsdorf;Mniší
+de;Böhmisch Einsiedel;Mníšek
+de;Münchengrätz;Mnichovo Hradiště
+de;Wichstadtl;Mladkov
+de;Mirowitz;Mirovice
+de;Mirotitz;Mirotice
+de;Mörkau;Mírkov
+de;Münkendorf;Minkovice
+de;Niemes;Mimoň
+hsb;Mimonjecy;Mimoň
+de;Mühlfraun;Dyje
+de;Mühlhausen;Milevsko
+de;Niklasdorf;Mikulovice
+de;Nikolsburg;Mikulov
+de;Nixdorf;Mikulášovice
+de;Mühle;Mezina
+de;Halbstadt;Meziměstí
+de;Deutsch Matha;Metujka
+de;Weißwasser bei Jauernig;Bílá Voda
+de;Markt Weißwasser;Bílá Voda
+de;Tuschkau Stadt;Město Touškov
+de;Tepl;Teplá
+de;Mierkowitz;Měrkovice
+de;Wollein;Měřín
+de;Meltsch;Melč
+de;Meedl;Medlov
+en;Brno-Medlánky;Medlánky
+de;Maschowitz;Mašovice
+de;Märzdorf;Martínkovice
+de;Marienbad;Mariánské Lázně
+nl;Mariënbad;Mariánské Lázně
+de;Klein Aurim;Malý Uhřínov
+de;Klein Auerschim;Malý Uhřínov
+en;Brno-Maloměřice a Obřany;Maloměřice
+de;Malkowitz;Málkovice
+de;Klein Wöhlen;Malá Veleň
+de;Halbseiten;Malá Strana
+de;Kleinskalitz;Malá Skalice
+de;Klein Ledhuj;Malá Ledhuje
+de;Sankt Maria Magdalena;Majdalena
+de;Lissa an der Elbe;Lysá nad Labem
+de;Lukawitz;Lukavice
+de;Luisenthal;Luisino Údolí
+de;Lutschitz b. Bölten;Lučice
+de;Schönbach;Luby
+de;Laudmer;Luboměř
+de;Lobositz;Lovosice
+de;Laun;Louny
+de;Lonkau;Louky
+de;Grün, Kr. Tepl;Louka
+de;Klosterbruck;Louka
+de;Bruck an der Thaya;Louka
+de;Ehrenberg;Loučka
+de;Bruch;Lom
+de;Lobnig;Lomnice
+de;Lomnice u Tišnova;Lomnice
+de;Lochtschitz;Lochočice
+de;Oberleutensdorf;Litvínov
+de;Leitmeritz;Litoměřice
+de;Lüttenburg;Litohrady
+en;Brno-Starý Lískovec;Starý Lískovec
+de;Lösch;Líšeň
+en;Brno-Líšeň;Líšeň
+de;Lindenhof;Lipovka
+de;Lindenau, Kr. Böhmisch Leipa;Lindava
+de;Lichnau;Lichnov
+de;Libisch;Libhošť
+de;Rehberg;Liberk
+de;Reichenberg;Liberec
+de;Freiung;Lhotka
+de;Lhota hinter Rothkosteletz;Lhota za Červeným Kostelcem
+de;Elhoten bei Tschernoschin;Lhota
+de;Elhoten bei Mies;Lhota
+de;Elhoten bei Pilsen;Lhota
+de;Waldolbersdorf;Lesní Albrechtice
+de;Leschan;Lešany
+de;Laschan;Lažany
+de;Landskron/Schönhengstgau;Lanškroun
+de;Löchau;Lachov
+de;Schwanenberg;Labutice
+de;Kwasnei;Kvasiny
+de;Kwasin;Kvasiny
+de;Kuttenberg;Kutná Hora
+de;Kunwald;Kunvald
+de;Kunnersdorf;Kunratice
+de;Kunewald;Kunín
+de;Kuniowitz;Kunějovice
+de;Kunzendorf;Kunčina Ves
+de;Kunčice nad Ostravicí;Kunčice
+de;Ochsendorf;Kunačice
+de;Kunatschitz;Kunačice
+de;Kriegern;Kryry
+de;Grubitz b. Kaaden;Krupice
+de;Krukanitz;Krukanice
+de;Kiritein;Křtiny
+de;Kremsier;Kroměříž
+de;Jägerndorf;Krnov
+de;Pürglitz;Křivoklát
+de;Rodwald;Krčín
+de;Kraschowitz, Kr. Pilsen;Krašovice
+de;Krasch;Krašov
+de;Schönwald;Krásný Les
+de;Schönlind, Kr. Falkenau a.d. Eger;Krásná Lípa
+de;Schönbach bei Asch;Krásná
+de;Graslitz;Kraslice
+de;Königsfeld;Královo Pole
+en;Brno-Královo Pole;Královo Pole
+de;Lockerwinkel;Kouty
+de;Kauth;Kout na Šumavě
+de;Kounov u Rakovníka;Kounov
+de;Koschumberg;Košumberk
+de;Kosterschan;Kostrčany
+de;Schwarzkosteletz;Kostelec nad Černými lesy
+de;Hochkirchen;Kostelec
+de;Nesselsdorf;Kopřivnice
+de;Konskau;Konská
+de;Konitz;Konice
+de;Kontschin;Končiny
+en;Brno-Komín;Komín
+de;Köln an der Elbe;Kolín
+de;Kohlhau;Kolava
+de;Kojetein;Kojetín
+en;Brno-Kohoutovice;Kohoutovice
+de;Klein Kinitz;Kníničky
+en;Brno-Kníničky;Kníničky
+de;Klötten;Kletné
+de;Kletz;Klec
+de;Klattau;Klatovy
+de;Klösterle an der Adler;Klášterec nad Orlicí
+de;Gesseln;Klášterecká Jeseň
+de;Göblitz;Keblice
+de;Keblitz;Keblice
+de;Kaltendorf;Kateřinice
+de;Kasejowitz;Kasejovice
+de;Fryštát;Karviná
+en;Fryštát;Karviná
+fr;Fryštát;Karviná
+lb;Fryštát;Karviná
+de;Karlstein;Karlštejn
+de;Karlsbad;Karlovy Vary
+nl;Karlsbad;Karlovy Vary
+hsb;Karlowe Wary;Karlovy Vary
+de;Karolinsfeld;Karlinky
+de;Kaplitz;Kaplice
+de;Steingrund;Kamenné
+de;Kamitz b. Odrau;Kamenka
+de;Steinicht;Kameničná
+de;Kamnitz;Kamenice
+de;Stegreifen;Kamenec
+de;Kámen u Pacova;Kámen
+de;Kaaden;Kadaň
+de;Katscher;Kačerov
+en;Brno-Jundrov;Jundrov
+en;Jirsko 1. dil;Jirsko
+de;Neuhaus;Jindřichův Hradec
+de;Heinersdorf an der Tafelfichte;Jindřichovice pod Smrkem
+de;Iglau;Jihlava
+de;Itschina;Jičina
+de;Jeskowitz;Jezdkovice
+de;Dittersbach;Jetřichov
+de;Jastersdorf;Jestřabí
+de;Jeschtietitz;Ještětice
+de;Freiwaldau;Jeseník
+de;Lang Ugest;Jenišův Újezd
+de;Jamnitz;Jemnice
+de;Melm;Jelm
+en;Brno-Jehnice;Jehnice
+de;Einserdorf;Jednov
+de;Höflitz;Jedlka
+de;Jaberlich;Javorník
+de;Jauernig;Javorník
+de;Jawornitz;Javornice
+de;Obermohren;Javor
+de;Jaroslau;Jaroslav
+de;Johannesberg;Jansky Vrch
+de;Johannisbad;Janské Lázně
+de;Johannesberg;Janovičky
+de;Janowitz;Janovice
+de;Johanneshöfen;Janov
+de;Jantsch;Jančí
+de;Kohlgruben;Jámy
+de;Beerenhof;Jahodov
+de;Joachimsthal;Jáchymov
+de;St. Joachimstal;Jáchymov
+de;Deutsch Gabel;Jablonné v Podještědí
+de;Gablonz;Jablonec nad Nisou
+de;Gablonz an der Neisse;Jablonec nad Nisou
+en;Brno-Ivanovice;Ivanovice
+de;Heinzendorf;Hynčice
+de;Heinzendorf b. Odrau;Hynčice
+de;Hüttendorf;Hutě
+de;Hundschitz;Hunčice
+de;Hochwald;Hukvaldy
+de;Hrochowteinitz;Hrochův Týnec
+de;Hrochow-Teinitz;Hrochův Týnec
+de;Hraschtitz;Hraštice
+de;Gränzdorf;Hraničky
+de;Hranice na Moravě;Hranice
+de;Hradischt;Hradiště
+de;Königgrätz;Hradec Králové
+de;Grätz;Hradec nad Moravicí
+de;Hrabstwie;Hrabství
+de;Hottowies;Hostovice
+de;Hurschk;Hoštěc
+de;Horschowitz;Hořovice
+de;Tierlitzko;Horní Těrlicko
+de;Ober Wekelsdorf;Horní Teplice
+de;Oberweckelsdorf;Horní Teplice
+de;Stefansdorf;Horní Štěpánov
+de;Ober-Gurschdorf;Horní Skorošice
+de;Ober-Sklenau;Horní Sklenov
+de;Oberdorf;Horní Rokytnice
+de;Oberplan;Horní Planá
+de;Ober-Stögenwald;Horní Pestřice
+de;Oberreuth;Horní Paseky
+de;Oberkosteletz;Horní Kostelec
+de;Oberforst;Horní Fořt
+de;Ober Drewitsch;Horní Dřevíč
+de;Ober-Thomasdorf bei Freiwaldau;Horní Domašov
+de;Höritz im Böhmerwalde;Hořice na Šumavě
+de;Hořice v Podkrkonoší;Hořice
+de;Ober Hohenelbe;Hořejší Vrchlabí
+de;Sankt Katharinaberg;Hora Svaté Kateřiny
+de;Hutberg;Hony
+de;Hollowing;Holubín
+de;Hotzendorf;Hodslavice
+de;Hniewietitz;Hněvětice
+de;Tiefengrund;Hlubočec
+de;Hlinsko v Čechách;Hlinsko
+de;Groß Labnay;Hlavňov
+de;Seitendorf (bei Fulnek);Hladké Životice
+de;Hermannstädtel;Heřmanův Městec
+de;Hermannshütte;Heřmanova Huť
+de;Hermsdorf;Heřmánkovice
+de;Heraltitz;Heraltice
+de;Hauptmannsdorf;Hejtmánkovice
+de;Haindorf;Hejnice
+de;Hannchen;Hanička
+de;Hammer am See;Hamr na Jezeře
+de;Hammerdorf;Hamernice
+de;Halow;Hájov
+de;Gehaag b. Eger;Háje
+de;Haberzie;Habří
+de;Burg Grabštejn;Grabštejn
+de;Friedberg in Böhmen;Frymburk
+de;Frymburk nad Vltavou;Frymburk
+de;Frýdlant v Čechách;Frýdlant
+de;Fritzendorf;Fryčovice
+de;Frankstadt;Frenštát pod Radhoštěm
+de;Franzensbad;Františkovy Lázně
+de;Emaus;Emauzy
+de;Höfen;Dvory
+it;Dux;Duchcov
+de;Dauba;Dubá
+de;Daub;Dub
+de;Dürrmaul;Drmoul
+de;Wiederdriss;Dříš
+de;Drzinow bei Kremsier;Dřínov
+de;Dreihunken;Drahůnky
+de;Daubrawitz bei Böhmisch Skalitz;Doubravice u České Skalice
+de;Daubrawitz;Doubravice
+de;Eichicht;Doubí
+de;Taus;Domažlice
+de;Domaschin;Domašín
+de;Tomitschan;Domašín
+de;Unter Dreihöfen;Dolní Záhoří
+de;Unter Wekelsdorf;Dolní Teplice
+de;Unterweckelsdorf;Dolní Teplice
+de;Unter-Sklenau;Dolní Sklenov
+de;Unter-Sekeran;Dolní Sekyřany
+de;Niederdorf;Dolní Rokytnice
+de;Unter-Stögenwald;Dolní Pestřice
+de;Niederreuth;Dolní Paseky
+de;Niederwald;Dolní Les
+de;Unter Losau;Dolní Lažany
+de;Nieder Hanichen;Dolní Hanychov
+de;Nieder Gündersdorf;Dolní Guntramovice
+de;Niederforst-Dreschgärtner;Dolní Fořt Mlatci Zahradníci
+de;Kunzendorf b. Fulnek;Dolejší Kunčice
+de;Klein Tesswitz;Dobšice
+de;Tesswitz;Dobšice
+de;Dobrin a.d. Elbe;Dobřín
+de;Manderscheid, Bez. Eule;Dobřejovice
+de;Dobrei;Dobré
+de;Dobschan;Dobřany
+de;Langendorf;Dlouhá Ves
+de;Dittmannsdorf;Dětmarovice
+de;Deschney;Deštné v Orlických horách
+de;Niedermohren;Dědov
+de;Tetschen;Děčín
+de;Debretz;Debřece
+de;Darkau;Darkov
+fr;Lázně Darkov;Darkov
+de;Tschihana;Číhaná
+de;Tschihak;Čihák
+en;Brno-Chrlice;Chrlice
+de;Kozobentz;Chotěbuz
+de;Kotzobenz;Chotěbuz
+de;Komotau;Chomutov
+de;Kulm;Chlumec
+de;Chlum;Chloumek
+de;Chliwitz;Chlívce
+de;Prag - Cestlice;Čestlice
+de;Tschechisch Teschen;Český Těšín
+de;Teschen;Český Těšín
+de;Krumau;Český Krumlov
+de;Böhmisch Krumau;Český Krumlov
+de;Krummau;Český Krumlov
+de;Krumau an der Moldau;Český Krumlov
+de;Krummau an der Moldau;Český Krumlov
+de;Böhmisch Aicha;Český Dub
+de;Budweis;České Budějovice
+de;Böhmisch Budweis;České Budějovice
+de;Böhmisch Skalitz;Česká Skalice
+de;Böhmisch Matha;Česká Metuje
+de;Böhmisch-Leipa;Česká Lípa
+de;Rothkosteletz;Červený Kostelec
+de;Schwarzenthal;Černý Důl
+en;Brno-Černovice;Černovice
+de;Černovice u Tábora;Černovice
+de;Tschernikowitz;Černíkovice
+de;Schwarzbach an der Moldau;Černá v Pošumaví
+de;Schwarzwasser;Černá Voda
+de;Tscheliv;Čeliv
+de;Tschaslau;Čáslav
+de;Czaslau;Čáslav
+de;Friedersdorf b. Jägerndorf;Čaková
+de;Bisenz;Bzenec
+de;Webeschan;Bžany
+de;Wüstrey;Bystré
+de;Bystré u Poličky;Bystré
+en;Brno-Bystrc;Bystrc
+de;Botenwald;Butovice
+de;Bukowitz;Bukový
+de;Buchsdorf;Buková
+de;Bautsch;Budišov nad Budišovkou
+de;Butsch;Budeč
+de;Buchwaldsdorf;Bučnice
+de;Bubenetz;Bubnov
+de;Braunsdorf;Brumovice
+de;Pirnitz;Brtnice
+de;Braunau;Broumov
+de;Deutsch Brodek;Brodek u Konice
+de;Brotzney;Brocná
+de;Brünn;Brno
+de;Brná;Brná nad Labem
+en;Brná;Brná nad Labem
+fr;Brná;Brná nad Labem
+de;Birkicht;Březová
+de;Briesau;Březová
+de;Priesen;Březno
+de;Wirschin;Březín
+de;Lundenburg;Břeclav
+de;Barzdorf;Božanov
+en;Brno-Bosonohy;Bosonohy
+de;Boskowitz;Boskovice
+de;Dreigiebel;Borovec
+de;Bor u Tachova;Bor
+de;Polletitz;Boletice
+de;Osoudov;Bohusoudov
+en;Brno-Bohunice;Bohunice
+de;Bodisch;Bohdašín
+de;Bochdaschin;Bohdašín
+de;Podesdorf;Bohdalovice
+de;Blauendorf;Bludovice
+de;Blaschkow;Blažkov
+de;Bílovice u Uherského Hradiště;Bílovice
+de;Wagstadt;Bílovec
+de;Bilin;Bílina
+de;Bernklau;Bezvěrov
+de;Beraun;Beroun
+de;Barnsdorf;Bernartice nad Odrou
+de;Pernartitz;Bernartice
+de;Bergau;Bergov
+de;Benatek;Benátky
+de;Bölten;Bělotín
+de;Weissensulz;Bělá nad Radbuzou
+de;Bielai;Bělá
+de;Bielei;Bělá
+de;Pihanken;Běhánky
+de;Batzdorf im Adlergebirge;Bartošovice v Orlických horách
+de;Partschendorf;Bartošovice
+de;Batschetin;Bačetín
+de;Asch;Aš
+de;Klein Olbersdorf;Albrechtičky
+de;Adamov u Brna;Adamov
+en;Brno-střed;Brno střed
+en;Brno-Vinohrady;Vinohrady
+de;Köttnitz;Skotnice
+de;Zauchtel;Suchdol nad Odrou
+de;Schönau;Šonov u Broumova
+de;Tannbusch;Jedlina
+de;Wlasenka;Vlásenka
+de;Neue Heimat;Nové Město
+de;Ölberg;Olivětín
+de;Sand;Poříčí
+de;Kaltwasser;Studená Voda
+de;Neuperstein;Nový Berstejn
+de;Kamitz-Überschar;Kamenička
+de;Frauendorf;Panenská
+de;Wetzwalde;Václavice
+de;Ullersdorf,Ullersdorf bei Friedland;Ullersdorf
+de;Oberberzdorf;Horní Suchá
+de;Niederberzdorf;Dolní Suchá
+de;Ober-Tannwald;Horní Tanvald
+de;Schumburg-Gistei;Gistej, Jistebsko
+de;Siebengründen;Sedmidoli
+de;Schüsselbauden;Misecky
+de;Hackelsdorf;Herlikovice
+de;Keilbauden;Klínové Boudy
+de;Markhausen;Hraničná
+de;Dürngrün;Výspa
+de;Dürrngrün;Výspa
+de;Wernersreuth;Vernéřov
+de;Hartenberg;Hřebeny
+de;Reschwitz;Radošovice
+de;Wudingrün;Vitkov
+de;St. Anna;Svatá Anna
+de;Schloppenhof;Slapany
+de;Josefihütte;Josefova Huť
+de;Neulosimthal;Jedlina
+de;Plöß;Pleš
+de;Schönwald;Strážná
+de;Vorder-Ehrnsdorf;Předni Arnoštov
+de;Neu-Würben;Nové Vrbno
+de;Unterhütte;Dolní Huť
+de;Fichtenbach;Bystřice
+de;Kühberg;Chřepice
+de;Schürerhof;Schürerův Dvůr
+de;Scheschulkahof;Žežulka
+de;Maurenzen;Mouřice
+de;Scheiben;Vyšovatka
+de;Fichtau;Smrčná
+de;Buchwald;Bučina
+de;Wolfsgrub;Vlčí Jámy
+de;Landstraßen;Silnice
+de;Schönberg;Krásná Hora
+de;Althütten;Staré Hutě
+de;Reichers;Rejchýř
+de;Gottschallings;Koštálkov
+de;Göllitz;Jedlice
+de;Gerstenfeld;Ječmeniště
+de;Langendorf;Dlouhá Loučka
+en;Brno-South;Brno-jih
+de;Rossrein;Rozhraní

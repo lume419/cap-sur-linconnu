@@ -657,7 +657,8 @@ const PDF_LINE_STRONG = '#8F8564'; // ligne de jonction entre les badges de jour
 // fichier n'ayant pas accès au module client-side (voir buildTripPdf pour l'usage).
 const VIGNETTE_URLS = {
   CH: 'https://via.admin.ch/shop/',
-  AT: 'https://shop.asfinag.at/en/'
+  AT: 'https://shop.asfinag.at/en/',
+  CZ: 'https://edalnice.gov.cz/en/simple-purchase'
 };
 
 // Fond crème (--bg du site) plutôt qu'une page blanche brute — posé sous tout le reste à chaque

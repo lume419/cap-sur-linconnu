@@ -22,7 +22,11 @@
   // pas un abonnement. Chacun a aussi ses propres ouvrages isolés à péage EN PLUS de la vignette,
   // non modélisés pour la même raison que le Kiltunnel néerlandais : le Grand-Saint-Bernard/Munt la
   // Schera pour la Suisse, plusieurs tunnels/tronçons alpins (Brenner, Tauern, Karawanken...) pour
-  // l'Autriche. L'Allemagne est, elle, un cas simple : ses autoroutes (Autobahn) sont entièrement
+  // l'Autriche. La République tchèque rejoint ce même groupe à vignette (électronique depuis 2021,
+  // e-dálniční známka — SFDI, edalnice.gov.cz) : 1 jour/10 jours/30 jours/1 an à prix fixe en CZK
+  // (230/300/480/2570 CZK 2026 pour un véhicule léger), aucun ouvrage isolé à péage connu en plus de
+  // la vignette (contrairement à la Suisse/l'Autriche). L'Allemagne est, elle, un cas simple : ses
+  // autoroutes (Autobahn) sont entièrement
   // gratuites pour tous les modes de transport que couvre cette app (voiture, van, moto) — seuls les
   // poids lourds ≥3,5 t paient une redevance kilométrique (LKW-Maut, élargie aux véhicules de 3,5 t
   // depuis juillet 2024), un seuil qu'aucun véhicule modélisé ici n'atteint (un van aménagé reste un
@@ -35,18 +39,20 @@
   // "entièrement gratuit" : aucun des quatre n'a de réseau autoroutier à péage ni de vignette (Malte
   // a bien un péage urbain à Valette, mais UNIQUEMENT une redevance de congestion aux heures de
   // bureau, pas un péage routier — non modélisé, comme les ouvrages isolés ci-dessus).
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE seulement) : noms alternatifs par
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
   // France : ses communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun geonameid n'est donc
   // disponible pour les relier à ces noms alternatifs (voir le script pour le détail de ce choix).
-  // currency (CH/LI/GG/JE) : la Suisse et le Liechtenstein (franc suisse, union monétaire) ne sont
+  // currency (CH/LI/GG/JE/CZ) : la Suisse et le Liechtenstein (franc suisse, union monétaire) ne sont
   // pas dans la zone euro ; Guernesey et Jersey non plus (livre de Guernesey/livre de Jersey, deux
   // monnaies locales À PARITÉ FIXE avec la livre sterling — jamais l'euro malgré la proximité avec la
   // France) — modélisées ici sous 'GBP', la devise réellement utilisée pour les prix affichés
   // (Airbnb/Booking n'ont pas de sélecteur "livre de Jersey/Guernesey", seulement GBP). Monaco et
-  // Malte, eux, sont bien en zone euro (absent -> EUR par défaut, voir countryCurrency plus bas).
+  // Malte, eux, sont bien en zone euro (absent -> EUR par défaut, voir countryCurrency plus bas). La
+  // République tchèque n'a, elle non plus, jamais adopté l'euro (membre de l'UE mais hors zone euro,
+  // comme la Suisse) : sa monnaie propre, la couronne tchèque ('CZK'), reste utilisée ici.
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -66,7 +72,9 @@
     MC: { code:'MC', name:'Monaco', file:'communes-mc.txt', hasToll:false, aliasFile:'aliases-mc.txt' },
     MT: { code:'MT', name:'Malte', file:'communes-mt.txt', hasToll:false, aliasFile:'aliases-mt.txt' },
     GG: { code:'GG', name:'Guernesey', file:'communes-gg.txt', hasToll:false, aliasFile:'aliases-gg.txt', currency:'GBP' },
-    JE: { code:'JE', name:'Jersey', file:'communes-je.txt', hasToll:false, aliasFile:'aliases-je.txt', currency:'GBP' }
+    JE: { code:'JE', name:'Jersey', file:'communes-je.txt', hasToll:false, aliasFile:'aliases-je.txt', currency:'GBP' },
+    CZ: { code:'CZ', name:'République tchèque', file:'communes-cz.txt', hasToll:false, aliasFile:'aliases-cz.txt', currency:'CZK',
+      vignette:{ url:'https://edalnice.gov.cz/en/simple-purchase' } }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -75,18 +83,20 @@
   // le plafond de prix budget/logement (voir BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks)
   // — jamais pour le péage/ferry, dont les montants ne sont de toute façon calculés que pour des pays
   // en euros (voir plus haut).
-  // vignette (CH/AT seulement) : URL de la BOUTIQUE OFFICIELLE de la vignette autoroutière du pays —
+  // vignette (CH/AT/CZ) : URL de la BOUTIQUE OFFICIELLE de la vignette autoroutière du pays —
   // via.admin.ch (portail officiel de l'Office fédéral de la douane et de la sécurité des frontières,
   // pas un revendeur tiers) pour la Suisse, shop.asfinag.at (société publique gestionnaire des
-  // autoroutes autrichiennes) pour l'Autriche. Utilisé par renderDays pour afficher un petit rappel
-  // la première fois qu'un pays à vignette apparaît dans l'itinéraire — voir plus bas.
+  // autoroutes autrichiennes) pour l'Autriche, edalnice.gov.cz (portail .gov.cz du SFDI — Fonds
+  // d'Etat pour les infrastructures de transport, seul émetteur officiel) pour la République
+  // tchèque. Utilisé par renderDays pour afficher un petit rappel la première fois qu'un pays à
+  // vignette apparaît dans l'itinéraire — voir plus bas.
   function countryCurrency(cc){ return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR'; }
   // Symbole/code affiché à côté d'un montant (voir updateBudgetHint plus bas) : "€" pour l'euro (le
-  // seul des trois à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/"GBP"
-  // tels quels pour les deux autres — la livre sterling se note généralement "£" devant le montant en
-  // anglais, mais rester en code ISO ici évite toute ambiguïté avec les livres locales de Guernesey/
-  // Jersey (jamais interchangeables avec un simple "£" hors de leurs îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP' };
+  // seul des quatre à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/
+  // "GBP"/"CZK" tels quels pour les trois autres — la livre sterling se note généralement "£" devant
+  // le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les livres locales
+  // de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs îles respectives).
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -298,6 +308,12 @@
   //   A13 (12,50 € l'aller), Tauern A10 (15 €), Karawanken A11, Arlberg S16... — mais suivent le même
   //   raisonnement que le Kiltunnel néerlandais/le Grand-Saint-Bernard suisse : des ouvrages isolés
   //   parmi d'autres itinéraires possibles, non modélisés.
+  // - République tchèque : même principe que la Suisse/l'Autriche — vignette électronique
+  //   obligatoire (e-dálniční známka, depuis 2021, SFDI/edalnice.gov.cz) plutôt qu'un péage au
+  //   trajet : 1 jour (230 CZK), 10 jours (300 CZK), 30 jours (480 CZK) ou 1 an (2 570 CZK) pour
+  //   une voiture — aucun barème CZK/km ne peut en dériver, et l'app ne simule pas un abonnement
+  //   (hasToll:false). Contrairement à la Suisse/l'Autriche, aucun ouvrage isolé à péage EN PLUS de
+  //   la vignette n'a été identifié sur le réseau tchèque — cas plus simple sur ce point précis.
   // - Saint-Marin : aucune autoroute (292 km de routes au total, aucune à péage) — cas le plus
   //   simple de tous, comme l'Andorre.
   // - Liechtenstein : même chose — aucune autoroute propre, donc ni péage ni vignette propre. La
@@ -516,10 +532,17 @@
   // les deux — hôtels dès ~40 £/nuit, moyenne Airbnb ~143-155 £ (Jersey/Guernesey), jusqu'à ~250-320 £
   // en haute saison (échantillon likibu.com/hotels.uk.com/airroi.com 2026) — paliers proches des
   // montants EUR (même ordre de grandeur en valeur nominale), pas de la conversion au taux de change.
+  // CZK (République tchèque) : à l'inverse de la Suisse, un pays moins cher que la zone euro — même
+  // à Prague (la ville la plus chère du pays, largement au-dessus de la moyenne nationale des petites
+  // communes que ce générateur tire au sort), le loyer Airbnb médian ~2 470 CZK/nuit et la fourchette
+  // couvrant 80% des annonces ~1 650-3 900 CZK restent sous l'équivalent d'une simple conversion des
+  // paliers EUR (échantillon airdna.co/airroi.com/bestpragueguide.com 2026) — paliers donc légèrement
+  // EN DESSOUS de l'équivalent EUR converti, pas au-dessus comme pour la Suisse.
   var BUDGET_PRICE_MAX = {
     EUR: { economique: 70, moyen: 130, confortable: 260 },
     CHF: { economique: 130, moyen: 250, confortable: 480 },
-    GBP: { economique: 60, moyen: 120, confortable: 220 }
+    GBP: { economique: 60, moyen: 120, confortable: 220 },
+    CZK: { economique: 1000, moyen: 2000, confortable: 4000 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu

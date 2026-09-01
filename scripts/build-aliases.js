@@ -23,8 +23,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['MC', 'MT', 'GG', 'JE']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI déjà générés et
-// commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li.txt)
+const COUNTRIES = ['CZ']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE déjà générés et commités
+// (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
@@ -83,7 +83,9 @@ const NAME_OVERRIDES = {
   'Florence': 'Firenze',
   'Padua': 'Padova',
   'Venice': 'Venezia',
-  'Vienna': 'Wien'
+  'Vienna': 'Wien',
+  'Prague': 'Praha',
+  'Pilsen': 'Plzeň'
 };
 // Même exclusion que build-country-communes.js (voir son commentaire pour le détail) : Sercq n'a
 // aucune liaison en ferry pour véhicules, un alias y menant ne servirait donc à rien côté recherche

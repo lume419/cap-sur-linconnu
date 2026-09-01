@@ -5,10 +5,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['MC', 'MT', 'GG', 'JE']; // dump/ et postal/ ne contiennent que les fichiers des
-// pays en cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI sont déjà générés et commités
-// (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li.txt), pas la peine de retélécharger leurs
-// sources pour les régénérer à l'identique à chaque nouvel ajout.
+const COUNTRIES = ['CZ']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE sont déjà générés et commités
+// (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je.txt), pas la peine de
+// retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -101,7 +101,14 @@ const NAME_OVERRIDES = {
   'Florence': 'Firenze',
   'Padua': 'Padova',
   'Venice': 'Venezia',
-  'Vienna': 'Wien'
+  'Vienna': 'Wien',
+  // Deux cas tchèques (échantillon des 80 plus grandes communes du pays — Brno, Ostrava, Liberec,
+  // Olomouc, České Budějovice, Hradec Králové, Ústí nad Labem... déjà bons) : "Prague" (anglais,
+  // remplacé par le tchèque "Praha") et "Pilsen" (exonyme allemand, remplacé par le tchèque
+  // "Plzeň" — nom déjà utilisé par le reste du dump pour cette même ville, ex. son district
+  // "Plzeň-město").
+  'Prague': 'Praha',
+  'Pilsen': 'Plzeň'
 };
 // Sercq (Sark), dépendance du bailliage de Guernesey, remonte dans le dump GeoNames sous le code
 // pays GG (elle n'a pas son propre code ISO) au même titre que les paroisses de Guernesey — mais

@@ -2,8 +2,8 @@
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
-Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey — voir
-"Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap),
+Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
+tchèque — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap),
 de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les Baléares/les Canaries/la
 Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes (voir "Ferries" plus bas) et une carte
 interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français, anglais, espagnol,
@@ -68,6 +68,8 @@ cap-sur-linconnu/
 │       ├── aliases-gg.txt      # idem pour Guernesey
 │       ├── communes-je.txt     # 84 lieux jersiais, même format
 │       ├── aliases-je.txt      # idem pour Jersey (alias FR/EN/DE/NRF-JE/...)
+│       ├── communes-cz.txt     # ~16 400 lieux tchèques, même format (Prague/Plzeň corrigés)
+│       ├── aliases-cz.txt      # idem pour la République tchèque (817 alias, dont 751 en allemand)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -86,9 +88,9 @@ les trois premières routes.
 ## Pays couverts
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
-Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey
-et Jersey pour l'instant, d'autres viendront. Chaque pays ajoute deux à trois choses, indépendamment
-des autres :
+Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
+Jersey et République tchèque pour l'instant, d'autres viendront. Chaque pays ajoute deux à trois
+choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
@@ -120,13 +122,22 @@ des autres :
    pays contrairement à la Suisse/l'Autriche). Monaco, Malte, Guernesey et Jersey rejoignent ce même
    groupe des cas les plus simples : aucun des quatre n'a de réseau autoroutier à péage ni de
    vignette (Malte a bien une redevance de congestion à Valette aux heures de bureau, mais ce n'est
-   pas un péage routier — non modélisée, comme les ouvrages isolés ci-dessus).
+   pas un péage routier — non modélisée, comme les ouvrages isolés ci-dessus). La République tchèque,
+   elle, rejoint le groupe Suisse/Autriche : vignette électronique obligatoire depuis 2021
+   (e-dálniční známka, SFDI/edalnice.gov.cz) plutôt qu'un péage au trajet — 1/10/30 jours ou 1 an à
+   prix fixe en CZK, `hasToll:false`, même rappel « pensez à la commander » que pour la Suisse/
+   l'Autriche (`vignette.url` pointant vers edalnice.gov.cz/en/simple-purchase, la boutique
+   officielle du SFDI). Aucun ouvrage isolé à péage identifié en plus de la vignette tchèque,
+   contrairement à la Suisse/l'Autriche — cas plus simple sur ce point précis.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
    avec la livre sterling, jamais l'euro malgré la proximité géographique avec la France ; Airbnb/
    Booking n'ayant pas de sélecteur pour ces deux monnaies locales, GBP est la devise réellement
-   utilisée pour les prix affichés). Monaco et Malte, eux, sont bien en zone euro (pas de champ
+   utilisée pour les prix affichés), et la République tchèque, elle aussi hors zone euro malgré son
+   appartenance à l'UE (`CZK`, la couronne tchèque — contrairement à la Suisse, un pays moins cher
+   que la zone euro : les paliers `BUDGET_PRICE_MAX.CZK` sont légèrement EN DESSOUS de l'équivalent
+   EUR converti, pas au-dessus). Monaco et Malte, eux, sont bien en zone euro (pas de champ
    `currency`, EUR par défaut). La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage/ferry, qui ne sont de
@@ -221,6 +232,22 @@ vérifié mot à mot. Choix assumé avec l'utilisateur avant de les ajouter quan
 omettre (voir le commentaire au-dessus des blocs `lij`/`nrf-je`/`nrf-gg` dans `public/js/i18n.js`) —
 une relecture par un locuteur natif reste largement recommandée avant de considérer ces trois blocs
 comme définitifs.
+
+La République tchèque n'apporte, elle, aucune nouvelle langue — exactement comme l'Autriche
+ci-dessus, et pour les mêmes deux motifs d'exclusion. Elle a ratifié la Charte européenne des
+langues régionales ou minoritaires pour cinq langues : l'allemand (déjà couvert, voir le Luxembourg/
+la Suisse/l'Allemagne/l'Autriche plus haut), le polonais (dialecte de Cieszyn/Zaolzie, région
+frontalière polonaise — déjà langue nationale d'un pays voisin non encore couvert, comme le tchèque
+l'était pour l'Autriche ci-dessus), le slovaque (même motif — langue nationale de la Slovaquie, non
+encore couverte), le croate morave (jihomoravští Chorvati, quelques centaines de locuteurs dans deux
+villages de Moravie du Sud, descendants de réfugiés du XVIe siècle — classé comme une variété du
+croate, donc soumis au même motif que le polonais/slovaque : déjà langue nationale d'un pays voisin
+non couvert, même s'il s'agit ici d'une communauté implantée depuis des siècles plutôt que du
+standard national lui-même — traitement cohérent avec le croate du Burgenland autrichien ci-dessus,
+qui n'a pas non plus été distingué du croate standard pour cette même raison) et le romani (comme
+pour l'Autriche/l'Italie, aucune forme écrite standard unique). Aucune de ces cinq ne rejoint donc
+l'interface pour l'instant — chacune pourrait, en théorie, redevenir éligible le jour où son pays
+d'origine (Pologne, Slovaquie, Croatie) serait lui-même ajouté.
 
 Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
@@ -461,7 +488,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.
