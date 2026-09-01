@@ -13,8 +13,8 @@
 (function(){
   "use strict";
 
-  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de'];
-  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch' };
+  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb'];
+  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch' };
   var STORAGE_KEY = 'lang';
 
   var STRINGS = {
@@ -26,7 +26,7 @@
       'hero.eyebrow': 'Générateur de road trip mystère',
       'hero.title': "Cap sur l'inconnu",
       'hero.subtitle': "votre prochaine escapade n'a pas encore de nom",
-      'hero.lede': "Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à {maxDays} jours et {maxStops} villes — parmi les communes de France, d'Andorre, d'Espagne, du Portugal, de Belgique et des Pays-Bas, et une liste à emporter, le tout dans votre budget.",
+      'hero.lede': "Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à {maxDays} jours et {maxStops} villes — parmi les communes de France, d'Andorre, d'Espagne, du Portugal, de Belgique, des Pays-Bas et du Luxembourg, et une liste à emporter, le tout dans votre budget.",
       'hero.disclaimer': "Communes, distances, péages et points d'intérêt reposent sur des données officielles (IGN/GeoNames, guides tarifaires des sociétés d'autoroutes, OpenStreetMap). Les temps de trajet et prix restent des estimations — vérifiez toujours l'itinéraire réel et la disponibilité des hébergements avant de partir.",
 
       'form.heading': 'Feuille de route',
@@ -206,7 +206,7 @@
 
       'again.button': 'Retirer une autre destination',
 
-      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique et les Pays-Bas. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal) — autoroutes gratuites en Belgique, en Andorre et aux Pays-Bas.",
+      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique, les Pays-Bas et le Luxembourg. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal) — autoroutes gratuites en Belgique, en Andorre, aux Pays-Bas et au Luxembourg.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': 'Politique de confidentialité',
 
@@ -233,7 +233,7 @@
       'hero.eyebrow': 'Mystery road trip generator',
       'hero.title': 'Cap on the unknown',
       'hero.subtitle': "your next getaway doesn't have a name yet",
-      'hero.lede': "Enter your starting point and constraints. The machine randomly draws a real day-by-day itinerary — up to {maxDays} days and {maxStops} towns — among the towns of France, Andorra, Spain, Portugal, Belgium and the Netherlands, plus a packing list, all within your budget.",
+      'hero.lede': "Enter your starting point and constraints. The machine randomly draws a real day-by-day itinerary — up to {maxDays} days and {maxStops} towns — among the towns of France, Andorra, Spain, Portugal, Belgium, the Netherlands and Luxembourg, plus a packing list, all within your budget.",
       'hero.disclaimer': "Towns, distances, tolls and points of interest are based on official data (IGN/GeoNames, motorway operators' rate guides, OpenStreetMap). Travel times and prices remain estimates — always double-check the real itinerary and accommodation availability before you leave.",
 
       'form.heading': 'Trip sheet',
@@ -413,7 +413,7 @@
 
       'again.button': 'Draw another destination',
 
-      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium and the Netherlands. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal) — free motorways in Belgium, Andorra and the Netherlands.",
+      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands and Luxembourg. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal) — free motorways in Belgium, Andorra, the Netherlands and Luxembourg.",
       'footer.legalMentions': 'Legal notice',
       'footer.privacyPolicy': 'Privacy policy',
 
@@ -440,7 +440,7 @@
       'hero.eyebrow': 'Generador de road trips misteriosos',
       'hero.title': 'Rumbo a lo desconocido',
       'hero.subtitle': 'tu próxima escapada todavía no tiene nombre',
-      'hero.lede': "Indica tu punto de partida y tus condiciones. La máquina sortea un itinerario real día a día — hasta {maxDays} días y {maxStops} ciudades — entre los municipios de Francia, Andorra, España, Portugal, Bélgica y los Países Bajos, además de una lista de equipaje, todo dentro de tu presupuesto.",
+      'hero.lede': "Indica tu punto de partida y tus condiciones. La máquina sortea un itinerario real día a día — hasta {maxDays} días y {maxStops} ciudades — entre los municipios de Francia, Andorra, España, Portugal, Bélgica, los Países Bajos y Luxemburgo, además de una lista de equipaje, todo dentro de tu presupuesto.",
       'hero.disclaimer': 'Los municipios, distancias, peajes y puntos de interés se basan en datos oficiales (IGN/GeoNames, guías de tarifas de las autopistas, OpenStreetMap). Los tiempos de trayecto y precios son estimaciones — comprueba siempre el itinerario real y la disponibilidad de alojamiento antes de partir.',
 
       'form.heading': 'Hoja de ruta',
@@ -620,7 +620,7 @@
 
       'again.button': 'Sortear otro destino',
 
-      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica y los Países Bajos. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal) — autopistas gratuitas en Bélgica, Andorra y los Países Bajos.",
+      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica, los Países Bajos y Luxemburgo. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal) — autopistas gratuitas en Bélgica, Andorra, los Países Bajos y Luxemburgo.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidad',
 
@@ -647,7 +647,7 @@
       'hero.eyebrow': 'Gerador de road trips misteriosos',
       'hero.title': 'Rumo ao desconhecido',
       'hero.subtitle': 'a sua próxima escapadela ainda não tem nome',
-      'hero.lede': "Indique o seu ponto de partida e as suas condições. A máquina sorteia um itinerário real dia a dia — até {maxDays} dias e {maxStops} cidades — entre os municípios de França, Andorra, Espanha, Portugal, Bélgica e os Países Baixos, mais uma lista de bagagem, tudo dentro do seu orçamento.",
+      'hero.lede': "Indique o seu ponto de partida e as suas condições. A máquina sorteia um itinerário real dia a dia — até {maxDays} dias e {maxStops} cidades — entre os municípios de França, Andorra, Espanha, Portugal, Bélgica, os Países Baixos e o Luxemburgo, mais uma lista de bagagem, tudo dentro do seu orçamento.",
       'hero.disclaimer': 'Municípios, distâncias, portagens e pontos de interesse baseiam-se em dados oficiais (IGN/GeoNames, tabelas tarifárias das concessionárias de autoestradas, OpenStreetMap). Os tempos de viagem e preços são estimativas — verifique sempre o itinerário real e a disponibilidade de alojamento antes de partir.',
 
       'form.heading': 'Folha de rota',
@@ -827,7 +827,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica e os Países Baixos. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal) — autoestradas gratuitas na Bélgica, em Andorra e nos Países Baixos.",
+      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica, os Países Baixos e o Luxemburgo. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal) — autoestradas gratuitas na Bélgica, em Andorra, nos Países Baixos e no Luxemburgo.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidade',
 
@@ -854,7 +854,7 @@
       'hero.eyebrow': 'Mysterieuze roadtripgenerator',
       'hero.title': 'Koers naar het onbekende',
       'hero.subtitle': 'je volgende uitstapje heeft nog geen naam',
-      'hero.lede': "Vul je vertrekpunt en je voorwaarden in. De machine loot dag na dag een echte reisroute — tot {maxDays} dagen en {maxStops} steden — tussen de gemeenten van Frankrijk, Andorra, Spanje, Portugal, België en Nederland, plus een paklijst, alles binnen je budget.",
+      'hero.lede': "Vul je vertrekpunt en je voorwaarden in. De machine loot dag na dag een echte reisroute — tot {maxDays} dagen en {maxStops} steden — tussen de gemeenten van Frankrijk, Andorra, Spanje, Portugal, België, Nederland en Luxemburg, plus een paklijst, alles binnen je budget.",
       'hero.disclaimer': 'Gemeenten, afstanden, tol en bezienswaardigheden zijn gebaseerd op officiële gegevens (IGN/GeoNames, tarievengidsen van de snelwegbeheerders, OpenStreetMap). Reistijden en prijzen blijven schattingen — controleer altijd de werkelijke route en de beschikbaarheid van accommodatie voordat je vertrekt.',
 
       'form.heading': 'Reisblad',
@@ -1034,7 +1034,7 @@
 
       'again.button': 'Nog een bestemming loten',
 
-      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België en Nederland. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal) — gratis snelwegen in België, Andorra en Nederland.",
+      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België, Nederland en Luxemburg. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal) — gratis snelwegen in België, Andorra, Nederland en Luxemburg.",
       'footer.legalMentions': 'Wettelijke vermeldingen',
       'footer.privacyPolicy': 'Privacybeleid',
 
@@ -1061,7 +1061,7 @@
       'hero.eyebrow': 'Geheimnisvoller Roadtrip-Generator',
       'hero.title': 'Kurs auf das Unbekannte',
       'hero.subtitle': 'dein nächster Kurztrip hat noch keinen Namen',
-      'hero.lede': "Gib deinen Startort und deine Bedingungen an. Die Maschine würfelt Tag für Tag eine echte Route aus — bis zu {maxDays} Tage und {maxStops} Städte — unter den Gemeinden Frankreichs, Andorras, Spaniens, Portugals, Belgiens und der Niederlande, dazu eine Packliste, alles innerhalb deines Budgets.",
+      'hero.lede': "Gib deinen Startort und deine Bedingungen an. Die Maschine würfelt Tag für Tag eine echte Route aus — bis zu {maxDays} Tage und {maxStops} Städte — unter den Gemeinden Frankreichs, Andorras, Spaniens, Portugals, Belgiens, der Niederlande und Luxemburgs, dazu eine Packliste, alles innerhalb deines Budgets.",
       'hero.disclaimer': 'Gemeinden, Entfernungen, Mautgebühren und Sehenswürdigkeiten basieren auf offiziellen Daten (IGN/GeoNames, Tarifübersichten der Autobahnbetreiber, OpenStreetMap). Fahrzeiten und Preise bleiben Schätzungen — prüfe vor der Abfahrt immer die tatsächliche Route und die Verfügbarkeit der Unterkünfte.',
 
       'form.heading': 'Reiseblatt',
@@ -1241,7 +1241,7 @@
 
       'again.button': 'Neues Ziel auslosen',
 
-      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien und die Niederlande. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal) — mautfreie Autobahnen in Belgien, Andorra und den Niederlanden.",
+      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien, die Niederlande und Luxemburg. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal) — mautfreie Autobahnen in Belgien, Andorra, den Niederlanden und Luxemburg.",
       'footer.legalMentions': 'Impressum',
       'footer.privacyPolicy': 'Datenschutzerklärung',
 
@@ -1258,6 +1258,215 @@
       'transport.van.label': 'Campingbus',
       'transport.moto.label': 'Motorrad',
       'transport.velo.label': 'Fahrrad'
+    },
+
+    // Lëtzebuergesch — 3. offiziell Sprooch vu Lëtzebuerg (nieft Franséisch a Däitsch, déi hei scho
+    // virdrun dobäi waren), dobäikomm mam Land selwer (siehe "Pays couverts" am README).
+    lb: {
+      'lang.buttonLabel': 'Sprooch',
+      'lang.searchPlaceholder': 'Sprooch sichen…',
+      'lang.searchNoResults': 'Keng Sprooch fonnt.',
+
+      'hero.eyebrow': 'Geheimnesvollen Roadtrip-Generator',
+      'hero.title': "Kurs op d'Onbekannt",
+      'hero.subtitle': 'däin nächste Ausfluch huet nach kee Numm',
+      'hero.lede': "Gëff däi Startpunkt an deng Bedingunge un. D'Maschinn zitt Dag fir Dag eng richteg Streck eraus — bis zu {maxDays} Deeg a {maxStops} Stied — tëscht de Gemenge vu Frankräich, Andorra, Spuenien, Portugal, der Belsch, den Nidderlanden a Lëtzebuerg, plus eng Pack-Lëscht, alles bannent dengem Budget.",
+      'hero.disclaimer': "Gemengen, Distanzen, Peagen a Sehenswiirdegkeeten baséiere sech op offiziellen Donnéeën (IGN/GeoNames, Tarifguiden vun den Autobunn-Gesellschaften, OpenStreetMap). D'Fuerzäiten a Präisser bleiwen Schätzungen — kontrolléier ëmmer déi richteg Streck an d'Disponibilitéit vun den Ënnerkonften ier de lassfiers.",
+
+      'form.heading': 'Reesblat',
+      'form.clockPlaceholder': '— nach auszefëllen —',
+      'form.city.label': 'Startuertschaft',
+      'form.city.loadingPlaceholder': 'Gemenge ginn geluede…',
+      'form.city.placeholder': 'Z.B. {name} oder {cp}',
+      'form.city.error.required': 'Gëff w.e.g. eng Startuertschaft un.',
+      'form.city.error.selectFromList': 'Wielt eng Gemeng aus der Lëscht (Sich no Numm oder Postleitzuel).',
+      'form.dates.label': 'Datumen vum Openthalt',
+      'form.dates.arrivalAria': 'Arrivéesdatum',
+      'form.dates.returnAria': 'Réckdatum',
+      'form.dates.error': 'D\'Réckdatum muss den nämmlechten Dag oder no der Arrivéesdatum sinn.',
+      'form.dates.oneDay': '1 Dag (Hin- a Réckreesen, ouni Iwwernuechtung)',
+      'form.dates.duration1': '{days} Deeg (1 Nuecht)',
+      'form.dates.durationN': '{days} Deeg ({nights} Nächt)',
+      'form.dates.maxSuffix': ' — max. {max} Deeg',
+      'form.dates.placeholder': '—',
+      'form.budget.label': 'Gesamtbudget',
+      'form.budget.economique': 'Économique',
+      'form.budget.moyen': 'Mëttel',
+      'form.budget.confortable': 'Komfortabel',
+      'form.budget.hint': "Bis zu {max} € / Nuecht (Richtwäert, 2 Erwuessener) — gëtt benotzt fir d'Airbnb-/Booking-Sichen scho virauszefëllen.",
+      'form.transport.label': 'Transportmëttel',
+      'form.transport.voitureThermique': 'Auto (Verbrenner)',
+      'form.transport.voitureHybride': 'Hybridauto',
+      'form.transport.voitureElectrique': 'Elektroauto',
+      'form.transport.van': 'Camping-Bus',
+      'form.transport.moto': 'Motorrad',
+      'form.transport.velo': 'Vëlo / Bikepacking',
+      'form.toll.label': 'Peage-Autobunnen erlaabt',
+      'form.ferry.label': 'Fähriwwerfaarte erlaabt (Inselen)',
+      'form.ferry.hint': 'Ugekräizt: D\'Zéiwen ka Korsika, d\'Baleare, d\'Kanareschen Inselen oder d\'Wadden-Inselen abegräifen, déi mat enger richteger Fährlinn verbonne sinn (ni mam Fliger).',
+      'form.tent.label': 'Bivouac an d\'Nuecht am Zelt vermeiden',
+      'form.tent.hint': 'Ugekräizt: D\'Nuechte fräi ënnert freiem Himmel bei economesche Budget ginn duerch eng Kabäng-/Jurte-/Gîte-Optioun ersat.',
+      'form.radius.label': 'Radiusbegrenzung',
+      'form.radius.modeKm': 'Max. Distanz (km)',
+      'form.radius.modeH': 'Max. Réckfuerzäit (Stonn)',
+      'form.radius.groupAria': 'Typ vun der Begrenzung',
+      'form.radius.decAria': 'Reduzéieren',
+      'form.radius.incAria': 'Erhéijen',
+      'form.radius.unitKm': 'km ronderëm de Start',
+      'form.radius.unitH': 'Réckfuerzäit',
+      'form.radius.hint': 'Gëllt nëmme fir déi {strong} (de Réckwee)',
+      'form.radius.hintStrong': 'lescht Etapp',
+      'form.minDistance.label': 'Distanz vun doheem (fakultativ)',
+      'form.minDistance.minPlaceholder': 'Kee Minimum',
+      'form.minDistance.maxPlaceholder': 'Kee Maximum',
+      'form.minDistance.unitMin': 'km op d\'mannst',
+      'form.minDistance.unitMax': 'km héchstens',
+      'form.minDistance.hintMin': 'Minimum: Déi éischt Etapp läit op d\'mannst esou wäit ewech.',
+      'form.minDistance.hintMax': 'Maximum: D\'Streck iwwerschreift ni dës Distanz zum Startpunkt, zu kengem Moment vum Openthalt.',
+      'form.launch.button': 'Zoufällegen Trip-Generator starten',
+      'form.launch.hint': 'Eng geheim Destinatioun waart op dech.',
+
+      'reveal.drawing': 'Zéiwen am Gaang…',
+      'reveal.clueIdle': 'D\'Streck wäert geschwënn schwätzen.',
+      'reveal.clueSpinning': 'Onbekannt Richtung…',
+      'reveal.clueFinal': 'Hei ass däi geheimnesvolle Startpunkt.',
+      'reveal.clueReduced': 'En echte Plaz waart op dech.',
+      'reveal.confirmed': 'Destinatioun gezunn',
+      'reveal.stamp': 'Destinatioun bestätegt',
+      'reveal.inhabitants': '{n} Awunner',
+      'reveal.poi1': '1 richteg Sehenswiirdegkeet fonnt',
+      'reveal.poiN': '{n} richteg Sehenswiirdegkeeten fonnt',
+
+      'map.title': 'Streckekaart',
+      'map.note': 'Kaart baséiert op OpenStreetMap. D\'Punkten stinn op deene richtege Koordinaten vun de Gemengen — d\'Linn verbënnt d\'Etappe Loftlinn, déi richteg Streck schléngelt méi.',
+      'map.ariaLabel': 'Streckekaart, OpenStreetMap-Hannergrond',
+      'map.departFallback': 'Start',
+      'map.returnLabel': 'Réckreesen',
+
+      'timeline.title': 'Reesjournal',
+      'stats.days': 'Deeg',
+      'stats.cities': 'Stied',
+      'stats.nights': 'Iwwernuechtungen',
+      'stats.totalKm': 'am Ganzen',
+      'stats.tollEstimated': 'geschate Peage',
+      'stats.tollAvoided': 'verwidderte Peage',
+      'stats.ferryTotal': 'Fähr',
+
+      'day.single': 'Eenzegen Dag — geheimnesvoll Hin- a Réckreesen',
+      'day.return': 'Réckreesen',
+      'day.n': 'Dag {n}',
+      'day.nReturn': 'Dag {n} — Réckreesen',
+      'day.rangeAnd': 'Deeg {a} an {b}',
+      'day.rangeTo': 'Deeg {a} bis {b}',
+      'day.routeTime': '~ {time} ënnerwee · {km} km',
+      'day.crossingTime': '~ {time} Iwwerfaart · {km} km',
+      'day.stepMystery': 'Geheimnesvoll Etapp: {stop}',
+      'day.returnTo': 'Réckreesen op {stop}',
+
+      'photo.view': 'E Foto vu {name} kucken',
+      'photo.searching': 'Sicht no engem richtege Foto…',
+      'photo.real': 'Richtege Foto · © Wikimedia Commons',
+      'photo.none': 'Kee Foto op Wikipedia fonnt fir dës Plaz',
+      'photo.unavailable': 'Bild net disponibel — sicht grad Online no Biller',
+      'photo.enlargeAria': 'De Foto vu {name} vergréisseren',
+      'photo.closeAria': 'De Foto zoumaachen',
+      'wiki.link': 'Wikipedia ↗',
+
+      'ferry.label': 'Fähriwwerfaart',
+      'ferry.text': '{route} — ongeféier {amount} € · {duration} Iwwerfaart.',
+      'ferry.route.corsica': 'Festland ↔ Korsika',
+      'ferry.route.balearic': 'Festland ↔ Baleare',
+      'ferry.route.canary': 'Festland ↔ Kanaresch Inselen',
+      'ferry.route.wadden': 'Festland ↔ Wadden-Inselen',
+      'toll.label': 'Peage (ASF-Tarif 2026)',
+      'toll.barrierFree': 'fräi Duerchfaart ouni Barrière (automatesch Ofrechnung per Kamera)',
+      'toll.barrierClassic': 'klassesche Peage mat Barrière',
+      'toll.enabled': 'Geschate Peage: ~{amount} € ({barrier}) — s de spuerst ongeféier {min} Min. am Verglach zu enger Streck ouni Peage.',
+      'toll.disabled': 'Ouni Peage (Optioun net ugekräizt): s de hätts ongeféier {min} Min. op der Autobunn spuere kënnen (~{amount} €, {barrier}).',
+
+      'charge.label': 'Elektresch Opluede',
+      'charge.text1': '1 geschate Luedstopp (~{min} Min. am Ganzen) op enger Schnelllued-Statioun.',
+      'charge.textN': '{n} geschate Luedstopps (~{min} Min. am Ganzen) op Schnelllued-Statiounen.',
+
+      'activities.choice': 'Méiglech Aktivitéiten — no der Wiel',
+      'activities.day': 'Méiglech Aktivitéiten — Dag {n}',
+      'activities.loadingReal': '— sicht no richtege lokale Aktivitéiten…',
+      'activities.loadingHike': '— sicht no enger richteger Wanderung…',
+
+      'poiType.attraction': 'lokal Sehenswiirdegkeet',
+      'poiType.museum': 'Musée',
+      'poiType.viewpoint': 'Aussiichtspunkt',
+      'poiType.castle': 'Schlass',
+      'poiType.gallery': 'Galerie',
+      'poiType.zoo': 'Déierepark',
+      'poiType.theme_park': 'Fräizäitpark',
+      'poiType.monument': 'Monument',
+      'poiType.memorial': 'Gedenkplaz',
+      'poiType.archaeological_site': 'archeologesch Plaz',
+      'poiType.cave_entrance': 'Grott',
+      'poiType.ruins': 'Ruinne',
+      'poiType.fort': 'Fort',
+      'poiType.citadel': 'Zitadell',
+      'poiType.manor': 'Herrenhaus',
+      'poiType.chapel': 'Kapell',
+      'poiType.place_of_worship': 'reliéist Gebai',
+      'poiType.nature_reserve': 'Naturschutzgebitt',
+      'poiType.peak': 'Sommet',
+      'poiType.waterfall': 'Waasserfall',
+      'poiType.beach': 'Plage',
+      'poiType.artwork': 'Konschtwierk',
+      'poiType.fallback': 'lokal Sehenswiirdegkeet',
+      'poiType.walkFallback': 'Spadséiergang',
+      'poiType.generic': 'op der Plaz ze maachen',
+
+      'generic.walk': 'Wanderung oder Spadséiergang an der Ëmgéigend',
+      'generic.market': 'Lokale Maart a Produkter vun der Regioun (Deeg op der Plaz nokucken)',
+      'generic.church': 'Besuch vun der Kierch oder vum lokale Patrimoine',
+      'generic.stroll': 'Spadséieren duerch de historesche Kär',
+      'generic.producer': 'E lokale Produzent oder Handwierker entdecken',
+
+      'hike.sourceLabel': 'Quell: Visorando ↗',
+      'hike.defaultType': 'markéiert Wanderung',
+
+      'lodging.find': 'Ënnerkonft fannen · {range}',
+      'lodging.airbnb': 'Airbnb ↗',
+      'lodging.booking': 'Booking.com ↗',
+      'lodging.economiqueTent': 'Camping, Bivouac oder Naturberäich (klengt Budget)',
+      'lodging.economiqueNoTent': 'Jugendherberg, einfacht Zëmmer oder klengt Hotel (ouni Bivouac)',
+      'lodging.moyen': 'Gîte, Chambre d\'hôtes oder 2-3★-Hotel',
+      'lodging.confortable': 'Charmant Hotel oder héichwäerteg Locatioun',
+
+      'end.label': 'Missioun ofgeschloss',
+      'end.text': 'Zréck doheem, geheimnesvollen Trip fäerdeg.',
+
+      'export.hint': 'Interesséiert dech dëse Roadtrip? Denk drun en erofzelueden, hie gëtt wuel ni méi virgeschloen.',
+      'export.button': 'Dës Streck als PDF exportéieren',
+      'export.generating': 'PDF gëtt generéiert…',
+      'export.error': 'PDF-Generatioun feelgeschloen — probéier et an engem Moment nach eng Kéier.',
+
+      'pack.title': 'Rucksak fir preparéieren',
+      'pack.subDefault': 'D\'Wichtegst fir dës geheimnesvoll Missioun',
+      'pack.sub': 'Fir {transport}, Budget {budget}.',
+
+      'again.button': 'Nach eng aner Destinatioun zéien',
+
+      'footer.text': "Kurs op d'Onbekannt — e spilleresche Generator, et gi ni Donnéeën iergendwouhinner geschéckt. Gemengen: IGN / geo.api.gouv.fr (Etalab) fir Frankräich, GeoNames (CC-BY-Lizenz) fir Andorra, Spuenien, Portugal, d'Belsch, d'Nidderlanden a Lëtzebuerg. Sehenswiirdegkeeten a Kaart-Hannergrond: © d'OpenStreetMap-Mataarbechter (ODbL-Lizenz). Peage: VINCI Autoroutes (Frankräich), Autopistas (Spuenien), Via Verde/Ascendi (Portugal) — gratis Autobunnen an der Belsch, an Andorra, an den Nidderlanden a Lëtzebuerg.",
+      'footer.legalMentions': 'Legal Notiz',
+      'footer.privacyPolicy': 'Dateschutzerklärung',
+
+      'error.loadData': 'D\'Donnéeë konnte net gelueden ginn ({msg}). Kontrolléiert ob de Server den Dossier public/data richteg zur Verfügung stellt.',
+      'error.routeImpossible': 'Et konnt aktuell keng Streck vun dëser Stad aus gebaut ginn — probéier nach eng Kéier, oder vergréisser de Radius.',
+      'error.minMaxDistance': 'D\'Mindestdistanz ({min} km) däerf d\'Héchstdistanz ({max} km) net iwwerschreiden.',
+      'error.minDistanceContextDay': '1 Dag an keng Iwwernuechtung',
+      'error.minDistanceContextNight': '1 Iwwernuechtung',
+      'error.minDistanceTooFar': 'Onméiglech: Mat just {context} kann een sech net op d\'mannst {min} km ewechbewegen an nach bannent dem gewielte Réckradius/-zäit ({radius} km) zréckkommen. Verlängert d\'Dauer vum Openthalt, reduzéiert d\'Mindestdistanz, oder vergréissert de Maximalradius.',
+
+      'transport.voitureThermique.label': 'Auto',
+      'transport.voitureHybride.label': 'Hybridauto',
+      'transport.voitureElectrique.label': 'Elektroauto',
+      'transport.van.label': 'Camping-Bus',
+      'transport.moto.label': 'Motorrad',
+      'transport.velo.label': 'Vëlo'
     }
   };
 
@@ -1336,6 +1545,18 @@
       'pack.van': ['Trinkwasserkanister', 'Camping-Gaskartusche', 'Unterlegkeile'],
       'pack.moto': ['Helm und Handschuhe', 'Regenkombi oder Überhose', 'Elastische Gepäckspanngurte'],
       'pack.velo': ['Komplettes Pannenset', 'Wasserdichte Packtaschen', 'Externer Akku fürs GPS']
+    },
+    lb: {
+      'pack.base': ['Apdikt', 'Widderbenotzbar Waasserfläsch', 'Lueder & Powerbank', 'E puer Nout-Sue', 'Playlist fir ënnerwee'],
+      'pack.economique': ['3-Joreszäiten-Schlofsak', 'Camping-Kächer / -Geschir', 'Ultraliicht Zelt (Ersatz fir de Bivouac)'],
+      'pack.moyen': ['Kompakt Necessaire', 'Klengt Reesküssen'],
+      'pack.confortable': ['Eng anstänneg Kleedung fir owes Iessen ze goen', 'Komplett Necessaire'],
+      'pack.voitureThermique': ['Gëlteg Fahrzeugschäin a Führerschäin', 'Éischt-Hëllef-Set'],
+      'pack.voitureHybride': ['Gëlteg Fahrzeugschäin a Führerschäin', 'Éischt-Hëllef-Set'],
+      'pack.voitureElectrique': ['Typ-2-Luedkabel', 'Multi-Netzwierk-Lued-App (z.B. Chargemap)', '20% Marge op der ugëfte Reechwäit'],
+      'pack.van': ['Kanister mat Drénkwaasser', 'Camping-Gaskartusch', 'Ausgläichskeeën'],
+      'pack.moto': ['Helm a Handschueh', 'Reekombi oder Iwwerhose', 'Elastesch Gepäckspanngurten'],
+      'pack.velo': ['Komplett Flécksset', 'Waasserdicht Packtaschen', 'Extern Batterie fir de GPS']
     }
   };
 

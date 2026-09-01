@@ -5,9 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['NL']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
-// AD/ES/PT/BE sont déjà générés et commités (public/data/communes-ad|es|pt|be.txt), pas la peine
-// de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
+const COUNTRIES = ['LU']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
+// AD/ES/PT/BE/NL sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl.txt), pas la
+// peine de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.

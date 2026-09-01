@@ -8,13 +8,15 @@
   // seuls la France et l'Espagne ont un vrai réseau autoroutier à péage significatif au tarif
   // kilométrique repéré (voir plus bas, finalizeLeg) ; le Portugal n'a que son réseau à péage
   // électronique sans barrière (tarif très inférieur, cohérent avec les grilles Via Verde/Ascendi
-  // consultées) ; l'Andorre, la Belgique et les Pays-Bas n'ont pas d'autoroute à péage — aucun
-  // montant n'y est donc jamais affiché (la Belgique a bien aboli le péage sur son réseau
-  // autoroutier il y a des décennies ; aux Pays-Bas, le Westerscheldetunnel est gratuit pour les
-  // véhicules légers depuis janvier 2025 — seul le petit Kiltunnel reste payant, un cas isolé non
-  // comparable à un barème kilométrique national ; dans les deux pays, la redevance kilométrique
-  // annoncée ne concerne que les poids lourds, hors périmètre de cette app).
-  // aliasFile (AD/ES/PT/BE/NL seulement) : noms alternatifs par langue (voir
+  // consultées) ; l'Andorre, la Belgique, les Pays-Bas et le Luxembourg n'ont pas d'autoroute à
+  // péage — aucun montant n'y est donc jamais affiché. Dans les trois derniers, un ou deux ponts/
+  // tunnels isolés restent payants (Kiltunnel/pont de Nieuwerbrug aux Pays-Bas, quelques tunnels
+  // ponctuels au Luxembourg) mais ne sont, volontairement, pas modélisés : contrairement à un
+  // réseau autoroutier ou à une traversée en ferry (toujours obligatoire, voir plus bas), rien ne
+  // dit qu'un trajet donné passerait justement par cet ouvrage précis plutôt qu'un itinéraire
+  // alternatif gratuit — cette app ne calcule pas de vrai itinéraire routier (voir roadDistanceKm),
+  // les ajouter au hasard serait donc plus souvent faux que juste.
+  // aliasFile (AD/ES/PT/BE/NL/LU seulement) : noms alternatifs par langue (voir
   // scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une ville dans
   // la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen", "La Haye"
   // pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -26,7 +28,8 @@
     ES: { code:'ES', name:'Espagne', file:'communes-es.txt', hasToll:true, aliasFile:'aliases-es.txt' },
     PT: { code:'PT', name:'Portugal', file:'communes-pt.txt', hasToll:true, aliasFile:'aliases-pt.txt' },
     BE: { code:'BE', name:'Belgique', file:'communes-be.txt', hasToll:false, aliasFile:'aliases-be.txt' },
-    NL: { code:'NL', name:'Pays-Bas', file:'communes-nl.txt', hasToll:false, aliasFile:'aliases-nl.txt' }
+    NL: { code:'NL', name:'Pays-Bas', file:'communes-nl.txt', hasToll:false, aliasFile:'aliases-nl.txt' },
+    LU: { code:'LU', name:'Luxembourg', file:'communes-lu.txt', hasToll:false, aliasFile:'aliases-lu.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -92,7 +95,7 @@
   // Code court -> étiquette de locale complète, pour Intl/toLocaleDateString (horloge, dates
   // formatées, nombre d'habitants...) — une seule variante par langue suffit ici, pas besoin de
   // distinguer ex. pt-PT/pt-BR pour ce site.
-  var LOCALE_TAG = { fr:'fr-FR', en:'en-GB', es:'es-ES', pt:'pt-PT', nl:'nl-NL', de:'de-DE' };
+  var LOCALE_TAG = { fr:'fr-FR', en:'en-GB', es:'es-ES', pt:'pt-PT', nl:'nl-NL', de:'de-DE', lb:'lb-LU' };
   function localeTag(){ return LOCALE_TAG[VISITOR_LANG] || 'fr-FR'; }
   // Suffixe de clé i18n depuis une clé TRANSPORT à tirets ("voiture-thermique" -> "voitureThermique") —
   // évite de dupliquer les six libellés dans une structure séparée juste pour la casse.
@@ -208,7 +211,12 @@
   // - Pays-Bas : réseau autoroutier gratuit à 99% (isdetunnelopen.nl, tolls.eu) — seul le petit
   //   Kiltunnel (Dordrecht, ~2 €) reste payant, un cas isolé non comparable à un barème
   //   kilométrique national ; le Westerscheldetunnel, lui, est gratuit pour les véhicules légers
-  //   depuis janvier 2025. Même traitement que la Belgique (hasToll:false).
+  //   depuis janvier 2025. Même traitement que la Belgique (hasToll:false). Un autre cas isolé, le
+  //   pont à péage privé de Nieuwerbrug (le seul du pays, gratuit pour piétons/vélos/motos et pour
+  //   les habitants du village), reste lui aussi hors modèle pour la même raison.
+  // - Luxembourg : réseau autoroutier et routier entièrement gratuit pour les véhicules légers,
+  //   seuls certains poids lourds paient une redevance kilométrique (nakordoni.eu, taxe-auto.be) —
+  //   même traitement que l'Andorre/la Belgique/les Pays-Bas (hasToll:false).
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,

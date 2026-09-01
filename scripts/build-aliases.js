@@ -1,5 +1,6 @@
 // Construit public/data/aliases-XX.txt : correspondances "nom dans une autre langue -> nom
-// canonique" pour les communes andorranes/espagnoles/portugaises/belges/néerlandaises, à partir du fichier
+// canonique" pour les communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises,
+// à partir du fichier
 // GeoNames alternateNamesV2 (download.geonames.org/export/dump/alternatenames/XX.zip — mêmes
 // données que le dump utilisé par build-country-communes.js, mais avec les noms alternatifs
 // étiquetés par langue ISO, justement conçues pour ce genre de besoin). Permet de saisir une ville
@@ -22,11 +23,12 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['NL']; // AD/ES/PT/BE déjà générés et commités (public/data/aliases-ad|es|pt|be.txt)
+const COUNTRIES = ['LU']; // AD/ES/PT/BE/NL déjà générés et commités (public/data/aliases-ad|es|pt|be|nl.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
-// Les six langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
-// langue non encore proposée ne servirait à rien pour l'instant.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de']);
+// Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
+// langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
+// l'ajout du Luxembourg.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb']);
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
