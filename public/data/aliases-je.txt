@@ -1,0 +1,20 @@
+en;St. Ouen’s Bay;Saint Ouen’s Bay
+en;Saint John’s Church;Saint John
+en;St. John’s Church;Saint John
+en;St. John;Saint John
+fr;Saint Jean;Saint John
+en;St Helier;Saint Helier
+en;St. Helier;Saint Helier
+fr;Saint-Hélier;Saint Helier
+de;St Aubin;Saint Aubin
+de;St. Aubin;Saint Aubin
+fr;Gouray;Gorey
+nrf-je;Gouôrray;Gorey
+en;Ville Bagot;La Ville Bagot
+fr;La Trinité;Trinity
+nrf-je;La Trinneté;Trinity
+de;St. Brelade;St Brelade
+en;St. Clements;Saint Clements
+en;St Clement;Saint Clements
+de;St. Martin;St Martin
+en;St Quen;St Ouen Town

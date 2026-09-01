@@ -1,0 +1,115 @@
+mt;Iż-Żebbuġ;Żebbuġ
+mt;Ħaż-Żebbuġ;Haz-Zebbug
+fr;Ħaż-Żabbar;Żabbar
+mt;Ħaż-Żabbar;Żabbar
+en;Xghajra;Xgħajra
+es;Xghajra;Xgħajra
+fr;Xghajra;Xgħajra
+de;Xghajra;Xgħajra
+pt;Xghajra;Xgħajra
+it;Caccia;Xagħra
+mt;Ix-Xagħra;Xagħra
+en;Xaghra;Xagħra
+es;Xaghra;Xagħra
+fr;Xaghra;Xagħra
+de;Xaghra;Xagħra
+pt;Xaghra;Xagħra
+fr;La Valette;Valletta
+it;La Valletta;Valletta
+nds;Valetta;Valletta
+pt;Valeta;Valletta
+es;La Valeta;Valletta
+lij;A Valletta;Valletta
+en;Ta' Xbiex;Ta’ Xbiex
+es;Ta' Xbiex;Ta’ Xbiex
+fr;Ta' Xbiex;Ta’ Xbiex
+de;Ta' Xbiex;Ta’ Xbiex
+pt;Ta' Xbiex;Ta’ Xbiex
+mt;Ħal Tarxien;Tarxien
+it;Tarscen;Tarxien
+mt;Casal Tarxien;Tarxien
+mt;Tas-Sliema;Sliema
+it;Suggeui;Siġġiewi
+en;Saint Venera;Santa Venera
+en;St. Venera;Santa Venera
+en;St. Lucia;Saint Lucia
+mt;Santa Luċija;Saint Lucia
+fr;Santa Luċija;Saint Lucia
+de;St Paul's Bay;San Pawl il-Baħar
+en;San Pawl il-Bahar;San Pawl il-Baħar
+es;San Pawl il-Bahar;San Pawl il-Baħar
+fr;San Pawl il-Bahar;San Pawl il-Baħar
+pt;San Pawl il-Bahar;San Pawl il-Baħar
+fr;Ta' Sannat;Sannat
+mt;Ta' Sannat;Sannat
+en;Saint Lawrence;San Lawrenz
+mt;San Laurenz;San Lawrenz
+es;San Julián;San Ġiljan
+en;St. Julian's;San Ġiljan
+de;St. Julian's;San Ġiljan
+it;San Julian's;San Ġiljan
+en;Saint Julian's;San Ġiljan
+mt;Casal Safi;Safi
+mt;Rabat;Victoria
+fr;Ir-Rabat;Victoria
+it;Crendi;Qrendi
+mt;Ħal Qormi;Qormi
+it;La Cala;Qala
+en;Tal-Pietà;Pietà
+it;Nasciaro;Naxxar
+mt;In-Nadur;Nadur
+en;Msida;Imsida
+en;Mellieha;Mellieħa
+es;Mellieha;Mellieħa
+fr;Mellieha;Mellieħa
+de;Mellieha;Mellieħa
+pt;Mellieha;Mellieħa
+fr;Mdina;Imdina
+de;Mdina;Imdina
+es;Mdina;Imdina
+en;Mdina;Imdina
+it;Mdina;Imdina
+mt;Mdina;Imdina
+nl;Mdina;Imdina
+en;Marsascala;Marsaskala
+mt;Casal Luca;Luqa
+mt;Lia;Lija
+mt;Casal Lia;Lija
+mt;Ħal-Kirkop;Kirkop
+mt;Casal Chircop;Kirkop
+mt;Furjana;Floriana
+es;Birgu;Vittoriosa
+fr;Birgu;Vittoriosa
+de;Birgu;Vittoriosa
+en;Birgu;Vittoriosa
+mt;Birgu;Vittoriosa
+en;Hamrun;Ħamrun
+es;Hamrun;Ħamrun
+fr;Hamrun;Ħamrun
+de;Hamrun;Ħamrun
+pt;Hamrun;Ħamrun
+mt;Hal Ghaxiak;Għaxaq
+mt;Ghashiak;Għaxaq
+mt;Casal Asciak;Għaxaq
+mt;Axiak;Għaxaq
+mt;Ashiak;Għaxaq
+en;Ghaxaq;Għaxaq
+es;Ghaxaq;Għaxaq
+fr;Ghaxaq;Għaxaq
+de;Ghaxaq;Għaxaq
+pt;Ghaxaq;Għaxaq
+en;Gharb;Għarb
+es;Gharb;Għarb
+fr;Gharb;Għarb
+de;Gharb;Għarb
+pt;Gharb;Għarb
+en;Ghajnsielem;Għajnsielem
+es;Ghajnsielem;Għajnsielem
+fr;Ghajnsielem;Għajnsielem
+de;Ghajnsielem;Għajnsielem
+pt;Ghajnsielem;Għajnsielem
+mt;Il-Fgura;Fgura
+it;Figura;Fgura
+mt;Casal Balzan;Balzan
+fr;Bahar iċ-Ċagħaq;Baħar iċ-Ċagħaq
+mt;Kemmuna;Comino

@@ -562,8 +562,14 @@ app.get('/api/pois', async (req, res) => {
   // la borne à 11° héritée de la Suisse — élargie à 16°, avec une marge dans les deux cas. L'Italie
   // déborde encore un peu plus à l'est : le Salento (talon de la botte, Pouilles) va jusqu'à
   // ~18,49°E, au-delà de la borne à 16° héritée de l'Allemagne — élargie à 19°. Aucun ajustement au
-  // sud (lat min italienne ~36,7°N, dans la boîte d'origine grâce à l'Andalousie/l'Algarve).
-  if(!isFinite(lat) || !isFinite(lon) || lat < 36 || lat > 56 || lon < -10 || lon > 19){
+  // sud pour l'Italie elle-même (lat min italienne ~36,7°N, dans la boîte d'origine grâce à
+  // l'Andalousie/l'Algarve). Saint-Marin, le Liechtenstein et Monaco tiennent déjà largement dans
+  // cette boîte, sans ajustement. Malte, elle, déborde bel et bien au sud : son point le plus
+  // méridional (Ħal Far, sud de l'île principale) descend jusqu'à ~35,82°N, sous la borne à 36°
+  // héritée de l'Espagne/Portugal — élargie à 35,7° pour la couvrir avec une marge (Gozo, plus au
+  // nord, tenait déjà dans la boîte). Guernesey/Jersey (lat ~49,2-49,5°N, lon ~-2,7 à -1,9°E)
+  // tiennent déjà largement dans la boîte d'origine, sans ajustement.
+  if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 56 || lon < -10 || lon > 19){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
   if(name.length > 120){

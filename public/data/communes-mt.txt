@@ -1,0 +1,191 @@
+3660;14.5430,35.8421;MXK;Marsaxlokk;Marsaxlokk
+10962;14.4759,35.8296;ZRQ;Iż-Żurrieq;Żurrieq
+0;14.5650,35.8708;MSK;Marsaskala;Żonqor
+11549;14.5334,35.8555;ZTN;Iż-Żejtun;Żejtun
+1770;14.2370,36.0719;MFN;Iż-Żebbuġ;Żebbuġ
+11079;14.4411,35.8719;ZBG;Ħaż-Żebbuġ;Haz-Zebbug
+0;14.3794,35.9203;MGR;L-Imġarr;Iż-Żebbiegħ
+15648;14.5359,35.8769;ZBR;Ħaż-Żabbar;Żabbar
+0;14.5697,35.8406;MXK;Marsaxlokk;Xrobb il-Għaġin
+1830;14.5475,35.8856;XJR;Ix-Xgħajra;Xgħajra
+3303;14.2559,36.0341;XWK;Ix-Xewkija;Xewkija
+3680;14.2642,36.0500;XRA;Ix-Xagħra;Xagħra
+0;14.4144,35.9247;MST;Il-Mosta;Wied l-Arkata
+0;14.5294,35.8969;KKR;Il-Kalkara;Wied Għammieq
+0;14.4775,35.8183;ZRQ;Iż-Żurrieq;Wied Fulija
+0;14.4111,35.9381;SPB;Saint Paul’s Bay;Wardija Crossroads
+6794;14.5148,35.8997;VLT;Il-Belt Valletta;Valletta
+2012;14.4946,35.8991;XBX;Ta’ Xbiex;Ta’ Xbiex
+0;14.3564,35.9061;MGR;L-Imġarr;Tas-Santi
+0;14.4519,35.8508;MQB;L-Imqabba;Tas-Salvatur
+0;14.4417,35.8356;QRD;Il-Qrendi;Ta’ San Niklaw
+0;14.4658,35.8867;QRM;Qormi;Ta’ San Ġwakkin
+8627;14.5151,35.8656;TXN;Tarxien;Tarxien
+0;14.4272,35.8942;ATD;Attard;Ta’ Qali
+0;14.3769,35.8561;DGL;Dingli;Tal-Veċċa
+0;14.3706,35.8600;DGL;Dingli;Tal-Pitkal
+0;14.5228,35.8178;BBG;Birżebbuġa;Tal-Papa
+0;14.5622,35.8494;MSK;Marsaskala;Tal-Munxar
+0;14.3983,35.9269;SPB;Saint Paul’s Bay;Tal-Milord
+0;14.3439,35.8789;DGL;Dingli;Tal-Merħla
+0;14.4689,35.9161;SWQ;Is-Swieqi;Tal-Mejda
+0;14.4944,35.8347;SFI;Safi;Tal-Liebru
+0;14.4683,35.8369;MQB;L-Imqabba;Tal-Kittienija
+0;14.4644,35.9156;SWQ;Is-Swieqi;Tal-Ibraġ
+0;14.4517,35.8731;ZBG;Ħaż-Żebbuġ;Tal-Ħlas
+0;14.4681,35.8708;QRM;Qormi;Tal-Ħandaq
+0;14.5147,35.8711;TXN;Tarxien;Tal-Borġ
+0;14.3911,35.9639;SPB;Saint Paul’s Bay;Tal-Blata
+0;14.5203,35.8564;ZTN;Iż-Żejtun;Tal-Barrani
+0;14.4256,35.8372;SGW;Is-Siġġiewi;Tal-Bajjada
+0;14.3503,35.9075;MGR;L-Imġarr;Ta’ l-Abatija
+0;14.4450,35.8467;SGW;Is-Siġġiewi;Ta’ Ħaxxluq
+0;14.2647,36.0400;XWK;Ix-Xewkija;Ta’ Ħamet
+0;14.4722,35.8508;MQB;L-Imqabba;Tad-Dawl
+0;14.2406,36.0375;FNT;Il-Fontana;Taċ-Ċawla
+0;14.5367,35.8697;ZBR;Ħaż-Żabbar;Ta’ Ċantar
+0;14.4022,35.9289;SPB;Saint Paul’s Bay;Ta’ Brared
+0;14.4906,35.8528;LQA;Luqa;Ta’ Bir Miftuħ
+22591;14.5017,35.9125;SLM;Tas-Sliema;Sliema
+8721;14.4361,35.8555;SGW;Is-Siġġiewi;Siġġiewi
+0;14.5406,35.8908;KKR;Il-Kalkara;Santu Rokku
+0;14.2011,36.0608;GRB;L-Għarb;Santu Pietru
+7590;14.4729,35.8900;SVR;Saint Venera;Santa Venera
+0;14.2172,36.0431;KCM;Ta’ Kerċem;Saint Lucia
+32042;14.4156,35.9506;SPB;Saint Paul’s Bay;San Pawl il-Baħar
+1681;14.2428,36.0245;SNT;Sannat;Sannat
+0;14.5558,35.8783;XJR;Ix-Xgħajra;San Leonardo
+530;14.2039,36.0554;SLZ;Saint Lawrence;San Lawrenz
+0;14.2058,36.0656;GRB;L-Għarb;San Katald
+13792;14.4898,35.9184;STJ;Saint Julian's;San Ġiljan
+2280;14.4849,35.8331;SFI;Safi;Safi
+8706;14.4990,35.8730;PLA;Paola;Paola
+6596;14.2412,36.0447;VCT;Victoria;Victoria
+11936;14.3987,35.8815;RBT;Ir-Rabat;Rabat
+3148;14.4578,35.8345;QRD;Il-Qrendi;Qrendi
+16801;14.4720,35.8760;QRM;Qormi;Qormi
+0;14.2503,36.0778;MFN;Iż-Żebbuġ;Qbajjar
+0;14.4231,35.9569;NXR;In-Naxxar;Qawra
+1929;14.3094,36.0361;QLA;Il-Qala;Qala
+4892;14.4936,35.8930;PTA;Tal-Pietà;Pietà
+0;14.3858,35.8828;RBT;Ir-Rabat;Nigred
+14890;14.4438,35.9137;IKL;L-Iklin;Naxxar
+3933;14.2938,36.0379;NDR;In-Nadur;Nadur
+1707;14.2347,36.0305;FNT;Il-Fontana;Munxar
+2615;14.3982,35.8924;MTF;L-Imtarfa;Imtarfa
+0;14.4833,35.9000;MSD;L-Imsida;Msieraħ
+13713;14.4828,35.8925;SVR;Saint Venera;Imsida
+3339;14.4682,35.8476;MQB;L-Imqabba;Mqabba
+23482;14.4257,35.9094;MST;Il-Mosta;Mosta
+0;14.3581,35.9500;MLH;Il-Mellieħa;Miżieb
+0;14.3736,35.8686;DGL;Dingli;Misraħ Suffara
+0;14.5453,35.8506;MXK;Marsaxlokk;Misraħ Strejnu
+0;14.4908,35.8281;SFI;Safi;Misraħ Ħlantun
+2868;14.2950,36.0253;GSM;Għajnsielem;Mġarr
+3802;14.3650,35.9215;MGR;L-Imġarr;Imġarr
+11389;14.3626,35.9566;MLH;Il-Mellieħa;Mellieħa
+193;14.4031,35.8864;MDN;L-Imdina;Imdina
+10024;14.5670,35.8622;MSK;Marsaskala;Marsaskala
+168;14.2586,36.0711;MFN;Iż-Żebbuġ;Marsalforn
+5454;14.4946,35.8792;MRS;Il-Marsa;Marsa
+539;14.3533,35.9400;MLH;Il-Mellieħa;Manikata
+0;14.4478,35.9364;NXR;In-Naxxar;Magħtab
+0;14.4661,35.9275;SWQ;Is-Swieqi;Il-Madliena
+6162;14.4890,35.8599;LQA;Luqa;Luqa
+2720;14.5159,35.8878;ISL;L-Isla;Senglea
+0;14.3556,35.9131;MGR;L-Imġarr;L-Iskorvit
+0;14.3717,35.9433;MLH;Il-Mellieħa;L-Imbordin
+3422;14.4542,35.9041;IKL;L-Iklin;L-Iklin
+3202;14.4463,35.9005;LJA;Lija;Lija
+0;14.3658,35.8861;MTF;L-Imtarfa;L-Andrijiet
+2397;14.4856,35.8423;KKP;Kirkop;Kirkop
+1627;14.2269,36.0416;FNT;Il-Fontana;Kerċem
+3059;14.5328,35.8892;KKR;Il-Kalkara;Kalkara
+0;14.5344,35.8181;BBG;Birżebbuġa;Kalafrana
+0;14.5072,35.8511;GDJ;Il-Gudja;Ix-Xlejli
+0;14.4628,35.9214;SWQ;Is-Swieqi;Ix-Xgħajriet
+0;14.4064,35.8653;RBT;Ir-Rabat;Ix-Xagħra ta’ l-Isqof
+14452;14.4800,35.9215;SWQ;Is-Swieqi;Swieqi
+0;14.3589,35.9664;MLH;Il-Mellieħa;Is-Sellum
+0;14.3428,35.9353;MGR;L-Imġarr;In-Naħħalija
+0;14.2094,36.0575;GRB;L-Għarb;Il-Wilġa
+0;14.4089,35.9025;MST;Il-Mosta;Il-Qattara
+0;14.5350,35.8339;BBG;Birżebbuġa;Il-Qajjenza
+0;14.3672,35.9356;MGR;L-Imġarr;Il-Palma
+0;14.4953,35.8172;ZRQ;Iż-Żurrieq;Il-Miżieb
+0;14.5447,35.8819;XJR;Ix-Xgħajra;Il-Ħofra
+0;14.4233,35.8589;SGW;Is-Siġġiewi;Il-Ħamrija
+0;14.4608,35.8822;QRM;Qormi;Il-Ħammieri
+11669;14.4881,35.9058;GZR;Il-Gżira;Gżira
+0;14.5000,35.9000;XBX;Ta’ Xbiex;Il-Gżira
+2032;14.5083,35.8958;VLT;Il-Belt Valletta;Floriana
+0;14.4019,35.8403;SGW;Is-Siġġiewi;Il-Fawwara
+0;14.5214,35.8306;BBG;Birżebbuġa;Il-Brolli
+2489;14.5176,35.8916;ISL;L-Isla;Vittoriosa
+0;14.5544,35.8689;MSK;Marsaskala;Il-Bidni
+0;14.3328,35.9764;MLH;Il-Mellieħa;Id-Daħar
+0;14.3767,35.8733;DGL;Dingli;Ħofret ir-Rizz
+0;14.5433,35.8708;ZBR;Ħaż-Żabbar;Ħas-Sajd
+9743;14.4850,35.8845;HMR;Il-Ħamrun;Ħamrun
+0;14.4236,35.8686;ZBG;Ħaż-Żebbuġ;Ħalq Dieri
+0;14.5425,35.8467;MXK;Marsaxlokk;Ħal Ġinwi
+3184;14.5059,35.8505;GDJ;Il-Gudja;Gudja
+0;14.3964,35.8708;RBT;Ir-Rabat;Ġnien il-Kbir
+0;14.3658,35.8922;MTF;L-Imtarfa;Għemieri
+4860;14.5169,35.8493;GXQ;Ħal Għaxaq;Għaxaq
+631;14.2264,36.0578;GSR;L-Għasri;Għasri
+0;14.4583,35.8722;QRM;Qormi;Għar Ram
+0;14.4061,35.8494;SGW;Is-Siġġiewi;Għar Mundu
+2857;14.4512,35.9241;GHR;Ħal Għargħur;Hal Gharghur
+1298;14.2092,36.0597;GRB;L-Għarb;Għarb
+0;14.2183,36.0661;GSR;L-Għasri;Għammar
+0;14.3714,35.9639;MLH;Il-Mellieħa;Il-Qortin ta’ Għajn Żejtuna
+0;14.3672,35.9664;MLH;Il-Mellieħa;Għajn Żejtuna
+0;14.3533,35.9258;MGR;L-Imġarr;Għajn Tuffieħa
+2931;14.2864,36.0257;GSM;Għajnsielem;Għajnsielem
+0;14.3867,35.8861;MTF;L-Imtarfa;Għajn Qajjied
+0;14.3847,35.8856;RBT;Ir-Rabat;Għajn Klieb
+0;14.2397,36.0386;FNT;Il-Fontana;Għajn il-Kbira
+0;14.4081,35.8544;SGW;Is-Siġġiewi;Għajn il-Kbira
+12877;14.5133,35.8703;TXN;Tarxien;Fgura
+0;14.3836,35.9053;MTF;L-Imtarfa;Dwejra
+3711;14.3821,35.8615;DGL;Dingli;Dingli
+0;14.5597,35.8247;MXK;Marsaxlokk;Delimara
+0;14.4139,35.9358;SPB;Saint Paul’s Bay;Bur Marrad
+0;14.5136,35.8428;GXQ;Ħal Għaxaq;Bur Magħtab
+0;14.4106,35.9514;SPB;Saint Paul’s Bay;Buġibba
+0;14.4781,35.8247;ZRQ;Iż-Żurrieq;Bubaqra
+6096;14.5275,35.8856;BRG;Il-Birgu;Cospicua
+0;14.5303,35.8339;BBG;Birżebbuġa;Borġ in-Nadur
+0;14.3469,35.9664;MLH;Il-Mellieħa;Biskra
+12915;14.5268,35.8255;BBG;Birżebbuġa;Birżebbuġa
+24356;14.4611,35.8971;BKR;Birkirkara;Birkirkara
+0;14.1986,36.0642;GRB;L-Għarb;Birbuba
+0;14.3736,35.9100;MGR;L-Imġarr;Binġemma
+0;14.4086,35.9122;MST;Il-Mosta;Beżbeżija
+4689;14.4521,35.9021;BZN;Balzan;Balzan
+0;14.4542,35.9386;NXR;In-Naxxar;Baħar iċ-Ċagħaq
+11377;14.4425,35.8897;ATD;Attard;Attard
+0;14.3486,35.8944;MGR;L-Imġarr;Il-Baħrija
+0;14.5246,35.8924;BRG;Il-Birgu;Bighi
+0;14.3322,35.9811;MLH;Il-Mellieħa;L-Aħrax tal-Għajn
+14720;14.4761,35.9056;SGN;Saint John;San Ġwann
+0;14.5067,35.8167;BBG;Birżebbuġa;Ħal Far
+120;14.2180,36.0288;MXR;Il-Munxar;Xlendi
+0;14.4895,35.9238;STJ;Saint Julian's;Paceville
+10;14.3357,36.0147;QLA;Il-Qala;Comino
+922;14.2360,36.0380;FNT;Il-Fontana;Fontana
+3842;14.4779,35.9302;PBK;Pembroke;Pembroke
+0;14.2214,36.0637;GSR;L-Għasri;Fanal
+0;14.2391,36.0381;FNT;Il-Fontana;Manresa
+350;14.3859,35.8713;DGL;Dingli;Santa Katarina
+0;14.3462,35.9858;MLH;Il-Mellieħa;Marfa
+0;14.5403,35.8903;KKR;Il-Kalkara;Smart City
+0;14.3803,35.9496;SPB;Saint Paul’s Bay;Xemxija
+121;14.1909,36.0521;SLZ;Saint Lawrence;Dwejra
+65;14.2006,36.0506;SLZ;Saint Lawrence;Debba
+112;14.2021,36.0533;SLZ;Saint Lawrence;Gebla
+98;14.2023,36.0564;SLZ;Saint Lawrence;Wileg
+76;14.2009,36.0577;SLZ;Saint Lawrence;Ghonoq
+32;14.1983,36.0594;GRB;L-Għarb;Rosa
+56;14.2066,36.0551;SLZ;Saint Lawrence;Pawluzzu

@@ -2,12 +2,13 @@
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
-Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein — voir "Pays couverts" plus bas pour l'ajout
-d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies
-traversées en ferry pour la Corse/les Baléares/les Canaries/la Sardaigne/la Sicile (voir "Ferries"
-plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en
-français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien, romanche,
-bas-allemand, sorabe, frison du Nord, sarde, frioulan et ladin (voir "Langues" plus bas).
+Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey — voir
+"Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap),
+de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les Baléares/les Canaries/la
+Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes (voir "Ferries" plus bas) et une carte
+interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français, anglais, espagnol,
+portugais, néerlandais, allemand, luxembourgeois, italien, romanche, bas-allemand, sorabe, frison du
+Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais et guernésiais (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -59,6 +60,14 @@ cap-sur-linconnu/
 │       ├── aliases-sm.txt      # idem pour Saint-Marin (alias FR/EN/ES/IT/PT/DE/RM)
 │       ├── communes-li.txt     # 67 lieux liechtensteinois, même format
 │       ├── aliases-li.txt      # idem pour le Liechtenstein (1 alias : Gamprin-Bendern)
+│       ├── communes-mc.txt     # 1 lieu (Monaco lui-même — micro-Etat, pas de subdivision GeoNames)
+│       ├── aliases-mc.txt      # idem pour Monaco (1 alias : "Mùnegu", nom monégasque)
+│       ├── communes-mt.txt     # 191 lieux maltais (Malte + Gozo), même format
+│       ├── aliases-mt.txt      # idem pour Malte (alias FR/EN/ES/IT/DE/PT/NDS/MT/...)
+│       ├── communes-gg.txt     # 260 lieux guernesiais, même format (Sercq exclue, voir "Ferries")
+│       ├── aliases-gg.txt      # idem pour Guernesey
+│       ├── communes-je.txt     # 84 lieux jersiais, même format
+│       ├── aliases-je.txt      # idem pour Jersey (alias FR/EN/DE/NRF-JE/...)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -77,8 +86,9 @@ les trois premières routes.
 ## Pays couverts
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
-Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin et Liechtenstein pour l'instant, d'autres
-viendront. Chaque pays ajoute deux à trois choses, indépendamment des autres :
+Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey
+et Jersey pour l'instant, d'autres viendront. Chaque pays ajoute deux à trois choses, indépendamment
+des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
@@ -107,13 +117,20 @@ viendront. Chaque pays ajoute deux à trois choses, indépendamment des autres :
    ci-dessus — ni l'un ni l'autre n'a la moindre autoroute (Saint-Marin : 292 km de routes, aucune
    à péage ; le Liechtenstein n'a même pas de vignette propre — la vignette suisse, union douanière
    oblige, y reste valable mais n'y est jamais obligatoire, donc aucun rappel n'est affiché pour ce
-   pays contrairement à la Suisse/l'Autriche).
+   pays contrairement à la Suisse/l'Autriche). Monaco, Malte, Guernesey et Jersey rejoignent ce même
+   groupe des cas les plus simples : aucun des quatre n'a de réseau autoroutier à péage ni de
+   vignette (Malte a bien une redevance de congestion à Valette aux heures de bureau, mais ce n'est
+   pas un péage routier — non modélisée, comme les ouvrages isolés ci-dessus).
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
-   pas l'euro) : elle détermine le plafond de prix affiché pour le logement (`BUDGET_PRICE_MAX`, un
-   jeu de valeurs par devise, pas une simple conversion au taux de change) et la devise des liens de
-   recherche Airbnb/Booking générés — jamais le péage/ferry, qui ne sont de toute façon jamais
-   calculés pour un pays hors zone euro pour l'instant.
+   pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
+   avec la livre sterling, jamais l'euro malgré la proximité géographique avec la France ; Airbnb/
+   Booking n'ayant pas de sélecteur pour ces deux monnaies locales, GBP est la devise réellement
+   utilisée pour les prix affichés). Monaco et Malte, eux, sont bien en zone euro (pas de champ
+   `currency`, EUR par défaut). La devise détermine le plafond de prix affiché pour le logement
+   (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
+   la devise des liens de recherche Airbnb/Booking générés — jamais le péage/ferry, qui ne sont de
+   toute façon jamais calculés pour un pays hors zone euro pour l'instant.
 
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
@@ -127,8 +144,9 @@ noms alternatifs GeoNames).
 ## Langues
 
 Interface traduite en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois,
-italien, romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan et ladin (`public/js/i18n.js`
-— dictionnaire à plat par langue + petit moteur `t(clé, variables)`/`tl(clé)` pour les listes). Le
+italien, romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque,
+jèrriais et guernésiais (`public/js/i18n.js` — dictionnaire à plat par langue + petit moteur
+`t(clé, variables)`/`tl(clé)` pour les listes). Le
 luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
 aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
@@ -176,6 +194,33 @@ informellement à Saint-Marin, ou l'alémanique parlé au Liechtenstein, n'ont n
 forme écrite standardisée distincte — même situation que l'allemand autrichien, jamais traité comme
 une langue à part). L'italien (déjà couvert) et l'allemand (déjà couvert) restent leurs seules
 langues officielles respectives.
+
+Malte apporte le maltais (malti, code ISO 639-1 `mt`) : seule langue officielle sémitique du site
+(les 18 autres sont toutes romanes ou germaniques), co-officielle avec l'anglais (déjà couvert).
+Bien dotée en ressources numériques — niveau de confiance comparable au reste des langues déjà
+couvertes, pas de réserve particulière à signaler.
+
+Monaco, Guernesey et Jersey apportent chacun une langue bien plus délicate à traiter : le monégasque
+(munegascu, un dialecte ligure intémélien SANS code ISO 639-3 propre — utilisé ici sous le code de
+repli `lij`, celui du ligure) pour Monaco ; le jèrriais et le guernésiais (deux variétés du normand,
+codées `nrf-je`/`nrf-gg` — GeoNames et l'ISO 639-3 ne leur attribuent qu'un seul code commun, `nrf`,
+la RA ISO les ayant fusionnées faute de les distinguer assez ; le sous-tag régional IETF, celui-là
+même utilisé par Wikipédia pour ce même besoin, permet de les garder séparées ici) pour
+Guernesey/Jersey respectivement. Les trois sont réellement parlées, institutionnellement reconnues
+(Monaco : Comité national des traditions monégasques, orthographe codifiée depuis 1976 ; Jersey :
+Office du Jèrriais, panneaux routiers bilingues ; Guernesey : Guernsey Language Commission) et
+dotées d'un dictionnaire/d'une grammaire — donc incluses, contrairement au romanche/romagnol de
+Saint-Marin ou à l'alémanique du Liechtenstein, qui n'ont ni statut officiel ni forme écrite
+standardisée. Mais AUCUNE des trois n'a d'édition Wikipédia dédiée ni de corpus numérique
+significatif (quelques centaines à quelques milliers de locuteurs, transmission essentiellement
+orale) : le niveau de confiance de ces trois blocs de traduction est nettement plus faible que pour
+toutes les autres langues du site, y compris le sorabe/frison du Nord/ladin déjà signalés
+ci-dessus — approximées à partir du français (jèrriais/guernésiais) ou de l'italien (monégasque)
+avec les dérivations phonétiques les plus documentées de chaque langue plutôt qu'un vocabulaire
+vérifié mot à mot. Choix assumé avec l'utilisateur avant de les ajouter quand même plutôt que de les
+omettre (voir le commentaire au-dessus des blocs `lij`/`nrf-je`/`nrf-gg` dans `public/js/i18n.js`) —
+une relecture par un locuteur natif reste largement recommandée avant de considérer ces trois blocs
+comme définitifs.
 
 Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
@@ -328,20 +373,33 @@ faux. Décoché par défaut (comme "Autoroutes à péage autorisées", juste au-
 formulaire) — le tirage au sort reste alors confiné à la même masse continentale du début à la fin.
 
 - **Coché**, le tirage peut inclure la **Corse**, les **Baléares**, les **Canaries**, les **îles
-  Wadden** (Pays-Bas — Texel, Vlieland, Terschelling, Ameland, Schiermonnikoog), la **Sardaigne**
-  ou la **Sicile**, reliées au continent par une vraie ligne de ferry réelle (durée et tarif fixes
-  par ligne, voir `FERRY_ROUTES` dans `app.js` — pas un calcul au km/heure comme la route, un ferry
-  ne va pas plus vite avec un moteur plus puissant). Fonctionne pour tous les modes de transport, y
-  compris le vélo (tarif piéton avec vélo, moins cher qu'une place véhicule) — contrairement au
-  péage autoroutier, qui lui reste interdit au vélo. Pour les îles Wadden spécifiquement, un seul
-  tarif (celui de TESO/Texel, la ligne la plus "classique" en voiture) est réutilisé pour les
-  quatre autres — leurs traversées réelles (Doeksen, Wagenborg) sont nettement plus chères et
-  l'accès en voiture souvent plus restreint en pratique : approximation plus grossière que pour la
-  Corse/les Baléares/les Canaries sur ces quatre-là spécifiquement. La Sicile est un cas à part
-  parmi les traversées longues : le détroit de Messine ne fait que ~3 km, une traversée courte
-  (~20-25 min) bien plus proche du profil des îles Wadden que de la Corse — aucun pont routier
-  n'existe à ce jour (2026), le projet "ponte sullo Stretto di Messina" étant encore au stade de
-  l'autorisation administrative (mise en service visée au plus tôt 2033-2034).
+  Wadden** (Pays-Bas — Texel, Vlieland, Terschelling, Ameland, Schiermonnikoog), la **Sardaigne**,
+  la **Sicile**, **Malte**, **Gozo**, **Jersey** ou **Guernesey**, reliées au continent (ou, pour
+  Gozo/les îles Anglo-Normandes entre elles, à leur île voisine) par une vraie ligne de ferry réelle
+  (durée et tarif fixes par ligne, voir `FERRY_ROUTES` dans `app.js` — pas un calcul au km/heure
+  comme la route, un ferry ne va pas plus vite avec un moteur plus puissant). Fonctionne pour tous
+  les modes de transport, y compris le vélo (tarif piéton avec vélo, moins cher qu'une place
+  véhicule) — contrairement au péage autoroutier, qui lui reste interdit au vélo. Pour les îles
+  Wadden spécifiquement, un seul tarif (celui de TESO/Texel, la ligne la plus "classique" en
+  voiture) est réutilisé pour les quatre autres — leurs traversées réelles (Doeksen, Wagenborg) sont
+  nettement plus chères et l'accès en voiture souvent plus restreint en pratique : approximation
+  plus grossière que pour la Corse/les Baléares/les Canaries sur ces quatre-là spécifiquement. La
+  Sicile est un cas à part parmi les traversées longues : le détroit de Messine ne fait que ~3 km,
+  une traversée courte (~20-25 min) bien plus proche du profil des îles Wadden que de la Corse —
+  aucun pont routier n'existe à ce jour (2026), le projet "ponte sullo Stretto di Messina" étant
+  encore au stade de l'autorisation administrative (mise en service visée au plus tôt 2033-2034).
+  Malte se décompose en DEUX masses distinctes — l'île principale et Gozo, séparées par le canal de
+  Gozo (traversée très courte, ~25 min, Gozo Channel Line) — reliée elle-même au continent via
+  Pozzallo (Sicile), seul opérateur (Virtu Ferries, quasi-monopole, tarifs plus élevés que les
+  liaisons méditerranéennes concurrentielles malgré une traversée bien plus courte). Jersey et
+  Guernesey sont, elles aussi, deux masses distinctes reliées chacune au continent (Saint-Malo,
+  Condor Ferries — aucune liaison avec le Royaume-Uni n'est modélisée, Poole/Portsmouth ne
+  desservant aucun pays couvert par cette app) ET reliées entre elles par une ligne inter-îles.
+  Sercq (Sark), dépendance du bailliage de Guernesey, est explicitement EXCLUE de
+  `communes-gg.txt` (voir `SARK_EXCLUDE_NAMES` dans `scripts/build-country-communes.js`) : l'île est
+  un site sans voiture (aucune liaison en ferry pour véhicules n'existe, pour personne), une
+  destination réellement impossible pour tous les modes de transport couverts ici — contrairement
+  aux îles Wadden, dont l'accès en voiture reste restreint en pratique mais bien réel.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -355,7 +413,11 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   (chaque île Wadden est sa propre commune, le champ région y est directement son nom) et pour
   l'Italie (comparaison exacte à la liste des provinces de Sardaigne/Sicile, le champ région y étant
   un nom de province en clair) ; par coordonnées pour l'Espagne/le Portugal (le champ région de ces
-  deux pays n'étant pas exploitable pour ça — voir "Pays couverts" ci-dessus).
+  deux pays n'étant pas exploitable pour ça — voir "Pays couverts" ci-dessus) et pour Malte (seuil de
+  latitude à 36,00° entre l'île principale et Gozo, vérifié exhaustivement sur `communes-mt.txt` —
+  Comino, l'îlot minuscule entre les deux, rejoint la masse "gozo" par ce même seuil faute d'étiquette
+  dédiée). Guernesey et Jersey n'ont, elles, besoin d'aucune subdivision : le pays lui-même EST la
+  masse continentale (`c.country === 'GG'`/`'JE'`), chacune une île à part entière.
 - Limite connue : les petites îles françaises sans pont ni département propre (Belle-Île, Ouessant,
   Groix...) ne sont pas détectées individuellement et restent traitées comme le continent le plus
   proche — un cas rare (quelques dizaines de communes sur ~35 000) laissé de côté pour l'instant.
@@ -399,7 +461,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.
@@ -426,9 +488,12 @@ au chargement.
   Ferries](https://www.corsica-ferries.fr) (Corse), [Baleària](https://www.balearia.com) (Baléares),
   [Naviera Armas/Baleària Canarias](https://armastrasmediterranea.com) (Canaries),
   [TESO](https://www.teso.nl) (îles Wadden), [Moby](https://www.moby.it)/[Tirrenia](https://www.tirrenia.it)
-  (Sardaigne), [Caronte & Tourist](https://www.carontetourist.it) (Sicile, détroit de Messine) — voir
-  "Ferries" ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour les
-  péages, pas un tarif garanti).
+  (Sardaigne), [Caronte & Tourist](https://www.carontetourist.it) (Sicile, détroit de Messine),
+  [Virtu Ferries](https://www.virtuferries.com) (Malte ↔ Sicile), [Gozo
+  Channel](https://www.gozochannel.com) (Malte ↔ Gozo), [Condor
+  Ferries](https://www.condorferries.co.uk) (Jersey/Guernesey ↔ Saint-Malo, et la ligne inter-îles)
+  — voir "Ferries" ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour
+  les péages, pas un tarif garanti).
 
 Toutes ces données sont figées au moment de la génération de ce projet (2026). Pour les rafraîchir,
 relancez les mêmes sources et remplacez les fichiers dans `public/data/`.

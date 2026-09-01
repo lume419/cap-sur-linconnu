@@ -31,16 +31,22 @@
   // et le Liechtenstein (aucune autoroute non plus, quelques mètres de route classée "autoroute" à la
   // frontière suisse mais sans aucun péage ni vignette propre — la vignette suisse, si elle est
   // achetée, y est valable aussi, mais n'est jamais obligatoire pour le seul Liechtenstein) ont un
-  // réseau routier entièrement gratuit.
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI seulement) : noms alternatifs par langue (voir
-  // scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une ville dans
-  // la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen", "La Haye"
-  // pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
+  // réseau routier entièrement gratuit. Monaco, Malte, Guernesey et Jersey rejoignent ce même groupe
+  // "entièrement gratuit" : aucun des quatre n'a de réseau autoroutier à péage ni de vignette (Malte
+  // a bien un péage urbain à Valette, mais UNIQUEMENT une redevance de congestion aux heures de
+  // bureau, pas un péage routier — non modélisé, comme les ouvrages isolés ci-dessus).
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE seulement) : noms alternatifs par
+  // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
+  // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
+  // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
   // France : ses communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun geonameid n'est donc
   // disponible pour les relier à ces noms alternatifs (voir le script pour le détail de ce choix).
-  // currency (CH et LI seulement) : la Suisse ET le Liechtenstein (qui utilise le franc suisse par
-  // union monétaire avec son voisin, pas l'euro) ne sont pas dans la zone euro — absent pour les
-  // autres pays, qui utilisent tous l'euro (voir countryCurrency plus bas).
+  // currency (CH/LI/GG/JE) : la Suisse et le Liechtenstein (franc suisse, union monétaire) ne sont
+  // pas dans la zone euro ; Guernesey et Jersey non plus (livre de Guernesey/livre de Jersey, deux
+  // monnaies locales À PARITÉ FIXE avec la livre sterling — jamais l'euro malgré la proximité avec la
+  // France) — modélisées ici sous 'GBP', la devise réellement utilisée pour les prix affichés
+  // (Airbnb/Booking n'ont pas de sélecteur "livre de Jersey/Guernesey", seulement GBP). Monaco et
+  // Malte, eux, sont bien en zone euro (absent -> EUR par défaut, voir countryCurrency plus bas).
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -56,21 +62,31 @@
     AT: { code:'AT', name:'Autriche', file:'communes-at.txt', hasToll:false, aliasFile:'aliases-at.txt',
       vignette:{ url:'https://shop.asfinag.at/en/' } },
     SM: { code:'SM', name:'Saint-Marin', file:'communes-sm.txt', hasToll:false, aliasFile:'aliases-sm.txt' },
-    LI: { code:'LI', name:'Liechtenstein', file:'communes-li.txt', hasToll:false, aliasFile:'aliases-li.txt', currency:'CHF' }
+    LI: { code:'LI', name:'Liechtenstein', file:'communes-li.txt', hasToll:false, aliasFile:'aliases-li.txt', currency:'CHF' },
+    MC: { code:'MC', name:'Monaco', file:'communes-mc.txt', hasToll:false, aliasFile:'aliases-mc.txt' },
+    MT: { code:'MT', name:'Malte', file:'communes-mt.txt', hasToll:false, aliasFile:'aliases-mt.txt' },
+    GG: { code:'GG', name:'Guernesey', file:'communes-gg.txt', hasToll:false, aliasFile:'aliases-gg.txt', currency:'GBP' },
+    JE: { code:'JE', name:'Jersey', file:'communes-je.txt', hasToll:false, aliasFile:'aliases-je.txt', currency:'GBP' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
-  // Devise d'un pays donné : EUR par défaut (tous les pays actuels sauf la Suisse et le
-  // Liechtenstein), CHF pour ces deux-là (COUNTRIES[cc].currency). Utilisé pour le plafond de prix
-  // budget/logement (voir BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks) — jamais pour le
-  // péage/ferry, dont les montants ne sont de toute façon calculés que pour des pays en euros (voir
-  // plus haut).
+  // Devise d'un pays donné : EUR par défaut (tous les pays actuels sauf ceux listés ci-dessous), CHF
+  // pour la Suisse/le Liechtenstein, GBP pour Guernesey/Jersey (COUNTRIES[cc].currency). Utilisé pour
+  // le plafond de prix budget/logement (voir BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks)
+  // — jamais pour le péage/ferry, dont les montants ne sont de toute façon calculés que pour des pays
+  // en euros (voir plus haut).
   // vignette (CH/AT seulement) : URL de la BOUTIQUE OFFICIELLE de la vignette autoroutière du pays —
   // via.admin.ch (portail officiel de l'Office fédéral de la douane et de la sécurité des frontières,
   // pas un revendeur tiers) pour la Suisse, shop.asfinag.at (société publique gestionnaire des
   // autoroutes autrichiennes) pour l'Autriche. Utilisé par renderDays pour afficher un petit rappel
   // la première fois qu'un pays à vignette apparaît dans l'itinéraire — voir plus bas.
   function countryCurrency(cc){ return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR'; }
+  // Symbole/code affiché à côté d'un montant (voir updateBudgetHint plus bas) : "€" pour l'euro (le
+  // seul des trois à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/"GBP"
+  // tels quels pour les deux autres — la livre sterling se note généralement "£" devant le montant en
+  // anglais, mais rester en code ISO ici évite toute ambiguïté avec les livres locales de Guernesey/
+  // Jersey (jamais interchangeables avec un simple "£" hors de leurs îles respectives).
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -358,6 +374,39 @@
   //   administrative, chantier annoncé fin 2026, mise en service visée 2033-2034 (mit.gov.it,
   //   stradeeautostrade.it) — trop lointain et non garanti pour anticiper sa mise en service ici ;
   //   le ferry reste, à ce jour, l'unique traversée réelle.
+  // - Malte : Virtu Ferries, Pozzallo (Sicile) -> Valette — ~1h45, seul opérateur sur cette ligne
+  //   (quasi-monopole, prix nettement plus élevés que Corse/Sardaigne malgré une traversée bien plus
+  //   courte : plusieurs sources citent un tarif "voiture" grand public entre ~85 et ~120 €, jusqu'à
+  //   plusieurs centaines d'euros en tarif flexible/haute saison — rome2rio.com, maltauncovered.com,
+  //   ferryscanner.com). Retenu : ~120 €/voiture (borne basse représentative, même logique que pour
+  //   la Sardaigne : écarter le tarif flexible premium plutôt qu'un vrai prix "voiture seule"),
+  //   ratios classe 2/5/foot identiques à la Corse/Sardaigne (×1,5/×0,45/×0,45) faute de grille par
+  //   catégorie. Distance ~100 km (estimée aux coordonnées des deux ports).
+  // - Gozo (Malte) : Gozo Channel Line, Ċirkewwa -> Mġarr — traversée très courte (~25 min, un départ
+  //   toutes les 30 min, 24h/24), au même profil que Messine/les îles Wadden. Tarif "voiture +
+  //   conducteur" officiel ~15,70 € (gozochannel.com/ferry/fares/car-and-driver), mais UNIQUEMENT
+  //   perçu au retour (comme pour Texel, jamais facturé dans les deux sens) -> ~8 €/traversée une
+  //   fois ramené au sens "un seul passage" utilisé ici ; ~4 €/traversée pour une moto (tarif "moto +
+  //   pilote" ~8,15 € constaté, même conversion), ~2 €/traversée piéton (tarif AR piéton ~4,65 €,
+  //   même conversion). Comino, îlot minuscule entre les deux (population quasi nulle, aucune route),
+  //   rejoint la masse "gozo" par simple seuil de latitude (36,00°) plutôt qu'une étiquette dédiée :
+  //   sans commune propre dans les données, le distinguer n'aurait aucun effet observable.
+  // - Guernesey/Jersey (îles Anglo-Normandes) : Condor Ferries, Saint-Malo -> Jersey (~1h25, Condor
+  //   Voyager) et Saint-Malo -> Guernesey (~2h) ; liaison INTER-îles Jersey<->Guernesey (~1h à 2h
+  //   selon le navire, ~1h10 en moyenne) — condorferries.co.uk, directferries.com. Aucune liaison
+  //   n'existe avec le Royaume-Uni dans ce modèle : les ports anglais (Poole, Portsmouth) ne
+  //   desservent aucun pays couvert par cette app, seul Saint-Malo (France, déjà un pays couvert)
+  //   compte ici. Tarifs "voiture" grand public à partir de ~99 £ (~115 € au taux 2026) sur les deux
+  //   lignes Saint-Malo, tarif passager à partir de ~36 £/personne (~42 €) — condorferries.co.uk,
+  //   directferries.com. Retenus : Saint-Malo->Jersey ~110 km/1h25/115 €, Saint-Malo->Guernesey ~155
+  //   km/2h/115 €, Jersey<->Guernesey ~65 km/1h10/75 € (aucun tarif "voiture" publié pour cette
+  //   dernière : estimation interpolée entre les deux lignes Saint-Malo au prorata de la distance,
+  //   plus élevée qu'une simple règle de trois pour tenir compte des coûts fixes d'une courte
+  //   traversée). Classe 5/foot dérivées des tarifs passager trouvés plutôt que du ratio Corse
+  //   (×0,45) : ce dernier sous-estimerait nettement le passager sur ces lignes, dont le tarif publié
+  //   est déjà proche de la moitié du tarif voiture. Sercq (voir SARK_EXCLUDE_NAMES,
+  //   scripts/build-country-communes.js) n'a AUCUNE liaison en ferry pour véhicules — exclue en
+  //   amont, jamais une destination possible ici.
   var WADDEN_ISLANDS = ['texel', 'vlieland', 'terschelling', 'ameland', 'schiermonnikoog'];
   // Provinces italiennes de Sardaigne (5) et de Sicile (9) — voir landmassOf plus bas. Liste
   // vérifiée exhaustivement sur les 107 provinces distinctes présentes dans communes-it.txt.
@@ -368,7 +417,12 @@
     'balearic|continental': { routeKey:'ferry.route.balearic', durationH:7.5, distanceKm:230, priceByClass:{1:135, 2:200, 5:55, foot:50} },
     'canary|continental': { routeKey:'ferry.route.canary', durationH:41, distanceKm:1700, priceByClass:{1:280, 2:420, 5:130, foot:150} },
     'continental|sardinia': { routeKey:'ferry.route.sardinia', durationH:11.5, distanceKm:280, priceByClass:{1:100, 2:150, 5:45, foot:45} },
-    'continental|sicily': { routeKey:'ferry.route.sicily', durationH:0.4, distanceKm:5, priceByClass:{1:35, 2:55, 5:12, foot:3} }
+    'continental|sicily': { routeKey:'ferry.route.sicily', durationH:0.4, distanceKm:5, priceByClass:{1:35, 2:55, 5:12, foot:3} },
+    'continental|malta': { routeKey:'ferry.route.malta', durationH:1.75, distanceKm:100, priceByClass:{1:120, 2:180, 5:54, foot:54} },
+    'gozo|malta': { routeKey:'ferry.route.gozo', durationH:0.42, distanceKm:6, priceByClass:{1:8, 2:12, 5:4, foot:2} },
+    'continental|jersey': { routeKey:'ferry.route.jersey', durationH:1.42, distanceKm:110, priceByClass:{1:115, 2:170, 5:50, foot:42} },
+    'continental|guernsey': { routeKey:'ferry.route.guernsey', durationH:2, distanceKm:155, priceByClass:{1:115, 2:170, 5:50, foot:42} },
+    'guernsey|jersey': { routeKey:'ferry.route.channelIslands', durationH:1.17, distanceKm:65, priceByClass:{1:75, 2:110, 5:35, foot:25} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -417,7 +471,18 @@
       if(SICILY_PROVINCES.indexOf(c.dept) !== -1) return 'sicily';
       return 'continental';
     }
-    return 'continental'; // Andorre, Belgique — déjà reliées au continent par la route
+    // Malte : tout le pays est une île, mais DEUX masses distinctes reliées entre elles par leur
+    // propre ferry (voir gozo|malta plus haut) — l'île principale (Malte) au sud, Gozo au nord,
+    // séparées par le canal de Gozo (Comino, l'îlot entre les deux, rejoint la masse "gozo" par ce
+    // même seuil faute d'étiquette dédiée, voir le commentaire au-dessus de FERRY_ROUTES). Seuil
+    // vérifié sur l'ensemble de communes-mt.txt : le point le plus au nord de Malte (Marfa, 35,986°)
+    // et le plus au sud de Gozo (Sannat, 36,025°) encadrent une marge nette de la latitude retenue.
+    if(c.country === 'MT') return (c.lat >= 36.0) ? 'gozo' : 'malta';
+    // Guernesey/Jersey : chacune sa propre masse (voir continental|jersey/continental|guernsey/
+    // guernsey|jersey plus haut) — deux îles distinctes, jamais reliées entre elles par la route.
+    if(c.country === 'GG') return 'guernsey';
+    if(c.country === 'JE') return 'jersey';
+    return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
   }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans
   // rapport avec la vitesse du véhicule choisi — contrairement à finalizeLeg. Ni péage ni recharge
@@ -447,10 +512,14 @@
   // nettement plus élevé qu'en zone euro pour une catégorie équivalente (chambre privée en
   // auberge ~90-150 CHF, hôtel 2-3★ ~150-350 CHF, haut de gamme au-delà de 250 CHF — hostelz.com,
   // holiday-thun.ch, myswissalps.com, échantillon 2026), d'où des paliers CHF proportionnellement
-  // plus hauts que leur équivalent EUR plutôt qu'une simple conversion.
+  // plus hauts que leur équivalent EUR plutôt qu'une simple conversion. GBP (Guernesey/Jersey) : entre
+  // les deux — hôtels dès ~40 £/nuit, moyenne Airbnb ~143-155 £ (Jersey/Guernesey), jusqu'à ~250-320 £
+  // en haute saison (échantillon likibu.com/hotels.uk.com/airroi.com 2026) — paliers proches des
+  // montants EUR (même ordre de grandeur en valeur nominale), pas de la conversion au taux de change.
   var BUDGET_PRICE_MAX = {
     EUR: { economique: 70, moyen: 130, confortable: 260 },
-    CHF: { economique: 130, moyen: 250, confortable: 480 }
+    CHF: { economique: 130, moyen: 250, confortable: 480 },
+    GBP: { economique: 60, moyen: 120, confortable: 220 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu
@@ -555,13 +624,22 @@
     });
   });
 
-  // Recherche à partir de 3 caractères : chiffres -> préfixe de code postal, lettres -> préfixe du
-  // nom LOCAL ou d'un alias connu dans une autre langue (voir ALIASES ci-dessus). Résultats triés
-  // par population décroissante pour faire remonter les villes connues.
+  // Recherche à partir de 3 caractères : préfixe de code postal OU préfixe du nom LOCAL/d'un alias
+  // connu dans une autre langue (voir ALIASES ci-dessus), LES DEUX à chaque fois plutôt qu'un choix
+  // exclusif selon le premier caractère saisi (chiffre -> code postal, lettre -> nom) comme avant
+  // l'ajout de Malte/Guernesey/Jersey : leurs codes postaux commencent par des LETTRES ("VLT", "JE2",
+  // "GY6"...), contrairement aux codes purement numériques de tous les pays précédents — un simple
+  // `/^[0-9]/` sur la saisie aurait fait passer "VLT" pour un début de nom de commune (et donc
+  // manquer la recherche par code postal) plutôt que le préfixe de code postal qu'il est réellement.
+  // Essayer les deux systématiquement coûte à peine plus cher (même parcours de COMMUNES) et reste
+  // sans risque de faux positif : aucun nom de commune ne commence par un chiffre, et un code postal
+  // ne matche jamais par hasard un nom. Comparaison de code postal insensible à la casse (cps.txt
+  // garde la casse d'origine GeoNames, ex. "VLT" — la saisie normalisée par normalizeCityName est,
+  // elle, toujours en minuscules). Résultats triés par population décroissante pour faire remonter
+  // les villes connues.
   function searchCommunes(query, limit){
     var q = normalizeCityName(query);
     if(q.length < 3) return [];
-    var isPostal = /^[0-9]/.test(q);
     var matches = [];
     var seenKeys = {}; // évite qu'une même commune apparaisse deux fois (nom local + alias, tous deux correspondant à la saisie)
     function pushMatch(c, cp){
@@ -572,18 +650,13 @@
     }
     for(var i=0; i<COMMUNES.length; i++){
       var c = COMMUNES[i];
-      if(isPostal){
-        var matchCp = null;
-        for(var j=0;j<c.cps.length;j++){ if(c.cps[j].indexOf(q)===0){ matchCp = c.cps[j]; break; } }
-        if(matchCp) pushMatch(c, matchCp);
-      } else if(c.norm.indexOf(q)===0){
-        pushMatch(c, c.cps[0]);
-      }
+      var matchCp = null;
+      for(var j=0;j<c.cps.length;j++){ if(c.cps[j].toLowerCase().indexOf(q)===0){ matchCp = c.cps[j]; break; } }
+      if(matchCp) pushMatch(c, matchCp);
+      if(c.norm.indexOf(q)===0) pushMatch(c, c.cps[0]);
     }
-    if(!isPostal){
-      for(var k=0; k<ALIASES.length; k++){
-        if(ALIASES[k].norm.indexOf(q) === 0) pushMatch(ALIASES[k].commune, ALIASES[k].commune.cps[0]);
-      }
+    for(var k=0; k<ALIASES.length; k++){
+      if(ALIASES[k].norm.indexOf(q) === 0) pushMatch(ALIASES[k].commune, ALIASES[k].commune.cps[0]);
     }
     matches.sort(function(a,b){ return b.pop - a.pop; });
     return matches.slice(0, limit);
@@ -809,6 +882,20 @@
   function formatCpBadge(r){
     return (r.allCps && r.allCps.length > 1) ? (r.cp + ' +' + (r.allCps.length - 1)) : r.cp;
   }
+  // Émoji drapeau générique à partir d'un code pays ISO 3166-1 alpha-2 (ex. "SM" -> 🇸🇲) : chaque
+  // lettre est encodée en "regional indicator symbol" Unicode (U+1F1E6 = 'A' + 127397) — fonctionne
+  // pour N'IMPORTE QUEL code à 2 lettres sans table de correspondance à maintenir par pays, y compris
+  // Guernesey/Jersey ("GG"/"JE", codes ISO à part entière malgré leur statut de dépendance de la
+  // Couronne, tout comme Saint-Marin/Liechtenstein/Andorre n'ont rien de spécial à gérer). Affiché
+  // devant le nom dans la liste de suggestions (voir renderSuggestions plus bas) pour distinguer d'un
+  // coup d'œil deux communes homonymes de pays différents (ex. "San Marino" saint-marinais vs les
+  // sept villages italiens du même nom, la confusion qui a motivé cet ajout) — visible directement,
+  // pas seulement au survol, pour rester utile sur mobile.
+  function countryFlagEmoji(cc){
+    if(!cc || cc.length !== 2) return '';
+    var base = 127397; // 0x1F1E6 (regional indicator 'A') - 65 (code de 'A')
+    return String.fromCodePoint(base + cc.charCodeAt(0), base + cc.charCodeAt(1));
+  }
   function renderSuggestions(results){
     els.citySuggest.innerHTML = '';
     currentSuggestions = results;
@@ -824,12 +911,25 @@
       li.id = 'city-opt-'+idx;
       li.setAttribute('role','option');
       li.setAttribute('aria-selected','false');
+      // Drapeau + nom regroupés SOUS le même span flex "suggest-name" (plutôt qu'un troisième enfant
+      // direct de la li) : la li reste en `justify-content:space-between` avec exactement DEUX
+      // blocs (nom, code postal) comme avant cet ajout — un troisième enfant y aurait cassé la mise
+      // en page en espaçant les trois uniformément au lieu de "nom à gauche, cp à droite".
       var nameSpan = document.createElement('span');
       nameSpan.className = 'suggest-name';
-      nameSpan.textContent = r.name;
+      var flagSpan = document.createElement('span');
+      flagSpan.className = 'suggest-flag';
+      flagSpan.textContent = countryFlagEmoji(r.country);
+      flagSpan.setAttribute('aria-hidden','true'); // décoratif : le nom du pays est repris en texte dans le title ci-dessous
+      var nameTextSpan = document.createElement('span');
+      nameTextSpan.textContent = r.name;
+      nameSpan.appendChild(flagSpan);
+      nameSpan.appendChild(nameTextSpan);
       var cpSpan = document.createElement('span');
       cpSpan.className = 'suggest-cp';
       cpSpan.textContent = formatCpBadge(r);
+      var countryName = (COUNTRIES[r.country] && COUNTRIES[r.country].name) || '';
+      if(countryName) li.setAttribute('title', countryName); // survol/lecteur d'écran : nom du pays en clair, pas seulement le drapeau
       li.appendChild(nameSpan);
       li.appendChild(cpSpan);
       li.addEventListener('mousedown', function(e){ e.preventDefault(); selectCommune(r); });
@@ -963,7 +1063,7 @@
     var key = els.budget.value;
     var currency = countryCurrency(selectedCity && selectedCity.country);
     var max = BUDGET_PRICE_MAX[currency][key];
-    els.budgetHint.textContent = t('form.budget.hint', {max: max, currency: currency === 'CHF' ? 'CHF' : '€'});
+    els.budgetHint.textContent = t('form.budget.hint', {max: max, currency: CURRENCY_SYMBOL[currency]});
   }
   els.budget.addEventListener('change', updateBudgetHint);
   updateBudgetHint();

@@ -23,8 +23,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['SM', 'LI']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT déjà générés et commités
-// (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at.txt)
+const COUNTRIES = ['MC', 'MT', 'GG', 'JE']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI déjà générés et
+// commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
@@ -39,7 +39,15 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // les localités, contrairement au sarde/frioulan qui, eux, en ont une réelle. Le ladin reste malgré
 // tout une langue d'interface complète (public/js/i18n.js) : seule la recherche de ville par son nom
 // ladin n'est pas possible, exactement comme pour la France (aucun aliasFile du tout, voir plus haut).
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld']);
+// "mt" (maltais, ISO 639-1) depuis l'ajout de Malte. "lij" (ligure, ISO 639-3 — le monégasque n'a
+// PAS son propre code, voir COUNTRIES/app.js) depuis l'ajout de Monaco, même si GeoNames n'a
+// vraisemblablement aucune ligne "lij" à proposer (langue quasi absente des bases de données
+// existantes). "nrf-je"/"nrf-gg" (jèrriais/guernésiais) depuis l'ajout de Jersey/Guernesey — voir
+// LANG_OUTPUT_REMAP_BY_COUNTRY juste en dessous : GeoNames n'utilise qu'un seul code ISO 639-3
+// ("nrf", Norman) pour les DEUX variantes, la RA ISO 639-3 les ayant fusionnées faute d'assez les
+// distinguer ; le sous-tag IETF régional (nrf-JE/nrf-GG, aussi utilisé par Wikipédia pour ce même
+// besoin) permet de les garder comme deux langues d'interface bien séparées malgré ce code commun.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -48,6 +56,14 @@ const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it',
 // deux) plutôt qu'ignorés — un alias bas-sorabe reste un alias sorabe valide pour la recherche de ville,
 // même s'il ne correspond pas exactement à l'écriture haut-sorabe utilisée dans public/js/i18n.js.
 const LANG_OUTPUT_REMAP = { dsb: 'hsb' };
+// Remap supplémentaire, PAR PAYS cette fois (contrairement à LANG_OUTPUT_REMAP ci-dessus, global) :
+// le même code source GeoNames "nrf" doit devenir "nrf-je" pour les alias de Jersey mais "nrf-gg"
+// pour ceux de Guernesey — un remap global unique ne pourrait pas faire cette distinction, qui ne
+// dépend que du pays en cours de traitement (voir la boucle plus bas).
+const LANG_OUTPUT_REMAP_BY_COUNTRY = {
+  JE: { nrf: 'nrf-je' },
+  GG: { nrf: 'nrf-gg' }
+};
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
@@ -69,6 +85,10 @@ const NAME_OVERRIDES = {
   'Venice': 'Venezia',
   'Vienna': 'Wien'
 };
+// Même exclusion que build-country-communes.js (voir son commentaire pour le détail) : Sercq n'a
+// aucune liaison en ferry pour véhicules, un alias y menant ne servirait donc à rien côté recherche
+// (la commune elle-même est absente de communes-gg.txt).
+const SARK_EXCLUDE_NAMES = new Set(['Sark', 'La Seigneurie']);
 
 function haversineKm(lat1, lon1, lat2, lon2){
   const R = 6371;
@@ -135,7 +155,8 @@ for(const country of COUNTRIES){
       admin1Code: c[10] || '',
       pop: parseInt(c[14], 10) || 0
     }))
-    .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
+    .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name)
+    .filter(p => !(country === 'GG' && SARK_EXCLUDE_NAMES.has(p.name)));
 
   const seen = new Map();
   for(const p of places){
@@ -157,10 +178,13 @@ for(const country of COUNTRIES){
   const aliasRows = altRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
   const seenAlias = new Set(); // dédoublonnage (lang, alias, canonical) — plusieurs lignes GeoNames
   // donnent parfois exactement la même correspondance (variantes préférée/courte du même nom).
+  const countryRemap = LANG_OUTPUT_REMAP_BY_COUNTRY[country] || {};
   const out = [];
   for(const c of aliasRows){
     const geonameid = c[1], rawLang = c[2], alt = c[3], isHistoric = c[7];
-    const lang = LANG_OUTPUT_REMAP[rawLang] || rawLang; // ex. "dsb" (bas-sorabe) -> "hsb" en sortie
+    // ex. "dsb" (bas-sorabe) -> "hsb" partout ; "nrf" -> "nrf-je"/"nrf-gg" seulement pour Jersey/
+    // Guernesey (voir LANG_OUTPUT_REMAP_BY_COUNTRY plus haut) — le remap par pays a priorité.
+    const lang = countryRemap[rawLang] || LANG_OUTPUT_REMAP[rawLang] || rawLang;
     if(!SUPPORTED_LANGS.has(lang)) continue;
     if(isHistoric === '1') continue;
     const canonical = canonicalByGeonameId.get(geonameid);

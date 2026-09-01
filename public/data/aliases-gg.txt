@@ -1,0 +1,14 @@
+fr;Saint Phillipe de Torteval;Torteval
+en;Saint Sampson’s;Saint Sampson
+en;St. Sampson;Saint Sampson
+fr;Saint-Pierre-Port;Saint Peter Port
+en;St Peter Port;Saint Peter Port
+pt;St Peter Port;Saint Peter Port
+en;Saint Anne;St Anne
+en;St. Anne;St Anne
+en;St. Johns;Saint Johns
+en;St. Germain;Saint Germain
+en;St. George;Saint George
+en;Mont St;Mont Saint
+en;St. Saviour;Saint Saviour
+de;St. Martin;St Martin

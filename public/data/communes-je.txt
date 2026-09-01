@@ -1,0 +1,84 @@
+0;-2.2185,49.2448;JE1;Jersey Channel Islands;Vinchelez de Haut Manor
+0;-2.2170,49.2464;JE1;Jersey Channel Islands;Vinchelez de Bas Manor
+0;-2.2003,49.2019;JE1;Jersey Channel Islands;Ville des Quennevais
+0;-2.1500,49.2333;JE4;;Six Rues
+0;-2.2139,49.2214;JE1;Jersey Channel Islands;Saint Ouen’s Bay
+3051;-2.1386,49.2456;JE4;;Saint John
+28000;-2.1049,49.1880;JE1;Jersey Channel Islands;Saint Helier
+0;-2.1706,49.1875;JE1;Jersey Channel Islands;Saint Aubin
+0;-2.0461,49.2364;JE4;;Rozel
+0;-2.1383,49.1986;JE1;Jersey Channel Islands;Millbrook
+0;-2.1622,49.1947;JE1;Jersey Channel Islands;Lower Blanc Pignon
+0;-2.0833,49.1833;JE1;Jersey Channel Islands;Longueville
+0;-2.2352,49.2353;JE1;Jersey Channel Islands;L’Etacq
+0;-2.2167,49.2167;JE1;Jersey Channel Islands;La Hougue
+0;-2.1833,49.1833;JE1;Jersey Channel Islands;La Haule
+0;-2.0667,49.2000;JE4;;Grand Chemins
+0;-2.0283,49.1994;JE4;;Gorey
+0;-2.1472,49.1981;JE1;Jersey Channel Islands;Bel Royal
+0;-2.1731,49.1914;JE1;Jersey Channel Islands;Belle Vue
+0;-2.1586,49.1964;JE1;Jersey Channel Islands;Beaumont
+0;-2.2056,49.1806;JE1;Jersey Channel Islands;Les Creux
+0;-2.2142,49.1797;JE1;Jersey Channel Islands;Mont Fiquet
+0;-2.2222,49.1822;JE1;Jersey Channel Islands;La Moye
+0;-2.1286,49.1947;JE1;Jersey Channel Islands;Ville ès Nouaux
+0;-2.1806,49.1747;JE1;Jersey Channel Islands;La Fosse
+0;-2.2156,49.2277;JE1;Jersey Channel Islands;La Ville au Bas
+0;-2.2367,49.2408;JE1;Jersey Channel Islands;La Villaise
+0;-2.2258,49.2502;JE1;Jersey Channel Islands;Portinfer
+0;-2.2072,49.2426;JE1;Jersey Channel Islands;La Ville Bagot
+0;-2.1811,49.2389;JE4;;Le Rondin
+0;-2.1689,49.2494;JE4;;La Falaise
+0;-2.1483,49.2553;JE4;;Grand Mourier
+0;-2.1442,49.2517;JE4;;Perruque
+0;-2.1242,49.2469;JE4;;Mont Mado
+0;-2.1044,49.2462;JE4;;Les Platons
+3355;-2.0927,49.2341;JE4;;Trinity
+0;-2.1763,49.2365;JE4;;St Mary's Village
+0;-2.2048,49.1915;JE1;Jersey Channel Islands;St Brelade
+5561;-2.1414,49.2158;JE4;;St Lawrence
+0;-2.0503,49.1840;JE4;;Grouville
+0;-2.0572,49.1740;JE1;Jersey Channel Islands;Saint Clements
+0;-2.0287,49.2278;JE4;;Fliquet
+0;-2.2029,49.2454;JE4;;La Grève de Lecq
+3948;-2.0513,49.2201;JE4;;St Martin
+0;-2.0814,49.1983;JE4;;Five Oaks
+0;-2.1826,49.2148;JE1;Jersey Channel Islands;St Peter
+0;-2.1835,49.2129;JE1;Jersey Channel Islands;St Peters Village
+0;-2.1942,49.2142;JE1;Jersey Channel Islands;La Presse
+0;-2.2001,49.2250;JE1;Jersey Channel Islands;St Ouen's Manor
+0;-2.1822,49.2020;JE1;Jersey Channel Islands;St. Peters Arsenal
+0;-2.1755,49.2074;JE1;Jersey Channel Islands;La Fontaine
+0;-2.2388,49.2337;JE1;Jersey Channel Islands;La Saline
+0;-2.2418,49.2393;JE1;Jersey Channel Islands;La Porte
+0;-2.2340,49.2298;JE1;Jersey Channel Islands;Les Labeurs
+0;-2.2312,49.2266;JE1;Jersey Channel Islands;La Crabiere
+0;-2.2043,49.2328;JE1;Jersey Channel Islands;St Ouen's Village
+0;-2.2035,49.2345;JE1;Jersey Channel Islands;St Ouen Town
+0;-2.1977,49.2349;JE1;Jersey Channel Islands;Creux Baillot
+0;-2.2071,49.2383;JE1;Jersey Channel Islands;Leoville
+0;-2.2084,49.2254;JE1;Jersey Channel Islands;La Ville de L'Eglise
+0;-2.2077,49.2233;JE1;Jersey Channel Islands;La Caroline
+0;-2.2056,49.2222;JE1;Jersey Channel Islands;L'Amiral
+0;-2.2231,49.2073;JE1;Jersey Channel Islands;Le Port
+0;-2.2244,49.1981;JE1;Jersey Channel Islands;Le Braye
+0;-2.2300,49.1876;JE1;Jersey Channel Islands;La Pulente
+0;-2.2418,49.1824;JE1;Jersey Channel Islands;Le Grouet
+0;-2.2372,49.1816;JE1;Jersey Channel Islands;La Corbiere
+0;-2.2166,49.1822;JE1;Jersey Channel Islands;Le Mont es Croix
+0;-2.0618,49.1682;JE1;Jersey Channel Islands;Le Hocq
+0;-2.1206,49.2251;JE4;;Les St Germain
+0;-2.1066,49.2255;JE4;;Vill es Normans
+0;-2.1022,49.2273;JE4;;Trinity Manor
+0;-2.0949,49.2223;JE4;;La Chesnee
+0;-2.0940,49.2198;JE4;;Le Hurrel
+0;-2.0825,49.2224;JE4;;Les Vaux
+0;-2.0820,49.2159;JE4;;Victoria Village
+0;-2.0658,49.2102;JE4;;Maufant
+0;-2.0581,49.2129;JE4;;Les Carrieres
+0;-2.2250,49.2359;JE1;Jersey Channel Islands;La Robeline
+0;-2.2227,49.2409;JE1;Jersey Channel Islands;Millais
+0;-2.2165,49.2389;JE1;Jersey Channel Islands;Trodez
+0;-2.2088,49.2481;JE4;;Le Bas de Lecq
+0;-2.2319,49.2479;JE1;Jersey Channel Islands;Les Pallieres
+0;-2.2276,49.2567;JE4;;Plemont

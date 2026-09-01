@@ -5,9 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['SM', 'LI']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
-// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT sont déjà générés et commités
-// (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at.txt), pas la peine de retélécharger leurs
+const COUNTRIES = ['MC', 'MT', 'GG', 'JE']; // dump/ et postal/ ne contiennent que les fichiers des
+// pays en cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI sont déjà générés et commités
+// (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li.txt), pas la peine de retélécharger leurs
 // sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
@@ -103,6 +103,19 @@ const NAME_OVERRIDES = {
   'Venice': 'Venezia',
   'Vienna': 'Wien'
 };
+// Sercq (Sark), dépendance du bailliage de Guernesey, remonte dans le dump GeoNames sous le code
+// pays GG (elle n'a pas son propre code ISO) au même titre que les paroisses de Guernesey — mais
+// contrairement aux îles Wadden (voir FERRY_ROUTES/landmassOf dans app.js), qui ont toutes une VRAIE
+// ligne de ferry pour véhicules même si son usage touristique reste restreint en pratique, Sercq n'a
+// AUCUNE liaison en ferry pour véhicules, pour personne : l'île est un site classé sans voiture
+// (Dark Sky Island, seuls tracteurs/chevaux y circulent), desservie uniquement par vedettes à
+// passagers depuis Guernesey/Jersey. Un trajet en voiture/van/moto y menant serait donc non pas une
+// approximation généreuse mais un trajet réellement IMPOSSIBLE, quel que soit le mode couvert par
+// cette app — écartée à la source plutôt que laissée au hasard du tirage. Repérée par nom exact
+// (2 lieux : Sercq elle-même et le manoir "La Seigneurie" qui s'y trouve) plutôt que par
+// coordonnées : la plus petite île du lot n'a pas de zone dédiée simple à borner sans risquer
+// d'exclure par erreur un lieu de Guernesey proprement dit.
+const SARK_EXCLUDE_NAMES = new Set(['Sark', 'La Seigneurie']);
 
 for(const country of COUNTRIES){
   const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
@@ -145,7 +158,8 @@ for(const country of COUNTRIES){
       admin1Code: c[10] || '',
       pop: parseInt(c[14], 10) || 0
     }))
-    .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
+    .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name)
+    .filter(p => !(country === 'GG' && SARK_EXCLUDE_NAMES.has(p.name)));
 
   // Dédoublonnage : même nom normalisé + coordonnées quasi identiques (arrondi ~1km) -> un seul
   // gardé (le plus peuplé). Certaines localités apparaissent en double dans le dump GeoNames.
