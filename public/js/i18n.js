@@ -26,7 +26,7 @@
       'hero.eyebrow': 'Générateur de road trip mystère',
       'hero.title': "Cap sur l'inconnu",
       'hero.subtitle': "votre prochaine escapade n'a pas encore de nom",
-      'hero.lede': "Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à {maxDays} jours et {maxStops} villes — parmi les communes de France, d'Andorre, d'Espagne, du Portugal, de Belgique, des Pays-Bas, du Luxembourg et de Suisse, et une liste à emporter, le tout dans votre budget.",
+      'hero.lede': "Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à {maxDays} jours et {maxStops} villes.",
       'hero.disclaimer': "Communes, distances, péages et points d'intérêt reposent sur des données officielles (IGN/GeoNames, guides tarifaires des sociétés d'autoroutes, OpenStreetMap). Les temps de trajet et prix restent des estimations — vérifiez toujours l'itinéraire réel et la disponibilité des hébergements avant de partir.",
 
       'form.heading': 'Feuille de route',
@@ -233,7 +233,7 @@
       'hero.eyebrow': 'Mystery road trip generator',
       'hero.title': 'Cap on the unknown',
       'hero.subtitle': "your next getaway doesn't have a name yet",
-      'hero.lede': "Enter your starting point and constraints. The machine randomly draws a real day-by-day itinerary — up to {maxDays} days and {maxStops} towns — among the towns of France, Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg and Switzerland, plus a packing list, all within your budget.",
+      'hero.lede': "Enter your starting point and constraints. The machine randomly draws a real day-by-day itinerary — up to {maxDays} days and {maxStops} towns.",
       'hero.disclaimer': "Towns, distances, tolls and points of interest are based on official data (IGN/GeoNames, motorway operators' rate guides, OpenStreetMap). Travel times and prices remain estimates — always double-check the real itinerary and accommodation availability before you leave.",
 
       'form.heading': 'Trip sheet',
@@ -440,7 +440,7 @@
       'hero.eyebrow': 'Generador de road trips misteriosos',
       'hero.title': 'Rumbo a lo desconocido',
       'hero.subtitle': 'tu próxima escapada todavía no tiene nombre',
-      'hero.lede': "Indica tu punto de partida y tus condiciones. La máquina sortea un itinerario real día a día — hasta {maxDays} días y {maxStops} ciudades — entre los municipios de Francia, Andorra, España, Portugal, Bélgica, los Países Bajos, Luxemburgo y Suiza, además de una lista de equipaje, todo dentro de tu presupuesto.",
+      'hero.lede': "Indica tu punto de partida y tus condiciones. La máquina sortea un itinerario real día a día — hasta {maxDays} días y {maxStops} ciudades.",
       'hero.disclaimer': 'Los municipios, distancias, peajes y puntos de interés se basan en datos oficiales (IGN/GeoNames, guías de tarifas de las autopistas, OpenStreetMap). Los tiempos de trayecto y precios son estimaciones — comprueba siempre el itinerario real y la disponibilidad de alojamiento antes de partir.',
 
       'form.heading': 'Hoja de ruta',
@@ -647,7 +647,7 @@
       'hero.eyebrow': 'Gerador de road trips misteriosos',
       'hero.title': 'Rumo ao desconhecido',
       'hero.subtitle': 'a sua próxima escapadela ainda não tem nome',
-      'hero.lede': "Indique o seu ponto de partida e as suas condições. A máquina sorteia um itinerário real dia a dia — até {maxDays} dias e {maxStops} cidades — entre os municípios de França, Andorra, Espanha, Portugal, Bélgica, os Países Baixos, o Luxemburgo e a Suíça, mais uma lista de bagagem, tudo dentro do seu orçamento.",
+      'hero.lede': "Indique o seu ponto de partida e as suas condições. A máquina sorteia um itinerário real dia a dia — até {maxDays} dias e {maxStops} cidades.",
       'hero.disclaimer': 'Municípios, distâncias, portagens e pontos de interesse baseiam-se em dados oficiais (IGN/GeoNames, tabelas tarifárias das concessionárias de autoestradas, OpenStreetMap). Os tempos de viagem e preços são estimativas — verifique sempre o itinerário real e a disponibilidade de alojamento antes de partir.',
 
       'form.heading': 'Folha de rota',
@@ -854,7 +854,7 @@
       'hero.eyebrow': 'Mysterieuze roadtripgenerator',
       'hero.title': 'Koers naar het onbekende',
       'hero.subtitle': 'je volgende uitstapje heeft nog geen naam',
-      'hero.lede': "Vul je vertrekpunt en je voorwaarden in. De machine loot dag na dag een echte reisroute — tot {maxDays} dagen en {maxStops} steden — tussen de gemeenten van Frankrijk, Andorra, Spanje, Portugal, België, Nederland, Luxemburg en Zwitserland, plus een paklijst, alles binnen je budget.",
+      'hero.lede': "Vul je vertrekpunt en je voorwaarden in. De machine loot dag na dag een echte reisroute — tot {maxDays} dagen en {maxStops} steden.",
       'hero.disclaimer': 'Gemeenten, afstanden, tol en bezienswaardigheden zijn gebaseerd op officiële gegevens (IGN/GeoNames, tarievengidsen van de snelwegbeheerders, OpenStreetMap). Reistijden en prijzen blijven schattingen — controleer altijd de werkelijke route en de beschikbaarheid van accommodatie voordat je vertrekt.',
 
       'form.heading': 'Reisblad',
@@ -1061,7 +1061,7 @@
       'hero.eyebrow': 'Geheimnisvoller Roadtrip-Generator',
       'hero.title': 'Kurs auf das Unbekannte',
       'hero.subtitle': 'dein nächster Kurztrip hat noch keinen Namen',
-      'hero.lede': "Gib deinen Startort und deine Bedingungen an. Die Maschine würfelt Tag für Tag eine echte Route aus — bis zu {maxDays} Tage und {maxStops} Städte — unter den Gemeinden Frankreichs, Andorras, Spaniens, Portugals, Belgiens, der Niederlande, Luxemburgs und der Schweiz, dazu eine Packliste, alles innerhalb deines Budgets.",
+      'hero.lede': "Gib deinen Startort und deine Bedingungen an. Die Maschine würfelt Tag für Tag eine echte Route aus — bis zu {maxDays} Tage und {maxStops} Städte.",
       'hero.disclaimer': 'Gemeinden, Entfernungen, Mautgebühren und Sehenswürdigkeiten basieren auf offiziellen Daten (IGN/GeoNames, Tarifübersichten der Autobahnbetreiber, OpenStreetMap). Fahrzeiten und Preise bleiben Schätzungen — prüfe vor der Abfahrt immer die tatsächliche Route und die Verfügbarkeit der Unterkünfte.',
 
       'form.heading': 'Reiseblatt',
@@ -1270,7 +1270,7 @@
       'hero.eyebrow': 'Geheimnesvollen Roadtrip-Generator',
       'hero.title': "Kurs op d'Onbekannt",
       'hero.subtitle': 'däin nächste Ausfluch huet nach kee Numm',
-      'hero.lede': "Gëff däi Startpunkt an deng Bedingunge un. D'Maschinn zitt Dag fir Dag eng richteg Streck eraus — bis zu {maxDays} Deeg a {maxStops} Stied — tëscht de Gemenge vu Frankräich, Andorra, Spuenien, Portugal, der Belsch, den Nidderlanden, Lëtzebuerg an der Schwäiz, plus eng Pack-Lëscht, alles bannent dengem Budget.",
+      'hero.lede': "Gëff däi Startpunkt an deng Bedingunge un. D'Maschinn zitt Dag fir Dag eng richteg Streck eraus — bis zu {maxDays} Deeg a {maxStops} Stied.",
       'hero.disclaimer': "Gemengen, Distanzen, Peagen a Sehenswiirdegkeeten baséiere sech op offiziellen Donnéeën (IGN/GeoNames, Tarifguiden vun den Autobunn-Gesellschaften, OpenStreetMap). D'Fuerzäiten a Präisser bleiwen Schätzungen — kontrolléier ëmmer déi richteg Streck an d'Disponibilitéit vun den Ënnerkonften ier de lassfiers.",
 
       'form.heading': 'Reesblat',
@@ -1479,7 +1479,7 @@
       'hero.eyebrow': 'Generatore di road trip misterioso',
       'hero.title': "Rotta verso l'ignoto",
       'hero.subtitle': 'la tua prossima scappatella non ha ancora un nome',
-      'hero.lede': "Indica il tuo punto di partenza e i tuoi vincoli. La macchina estrae a sorte un itinerario reale giorno per giorno — fino a {maxDays} giorni e {maxStops} città — tra i comuni di Francia, Andorra, Spagna, Portogallo, Belgio, Paesi Bassi, Lussemburgo e Svizzera, più una lista di cose da portare, il tutto nel tuo budget.",
+      'hero.lede': "Indica il tuo punto di partenza e i tuoi vincoli. La macchina estrae a sorte un itinerario reale giorno per giorno — fino a {maxDays} giorni e {maxStops} città.",
       'hero.disclaimer': "Comuni, distanze, pedaggi e punti d'interesse si basano su dati ufficiali (IGN/GeoNames, listini tariffari delle società autostradali, OpenStreetMap). I tempi di percorrenza e i prezzi restano stime — verifica sempre il vero itinerario e la disponibilità degli alloggi prima di partire.",
 
       'form.heading': 'Foglio di viaggio',
@@ -1692,7 +1692,7 @@
       'hero.eyebrow': 'Generatur da road trip misteriusa',
       'hero.title': "Direcziun l'ignot",
       'hero.subtitle': 'tia proxima gita n\'ha anc nagin num',
-      'hero.lede': "Indica tes punct da partenza e tias cundiziuns. La machina tira a sort in itinerari real di per di — fin a {maxDays} dis e {maxStops} citads — tranter las vischnancas da Frantscha, Andorra, Spagna, Portugal, Belgia, ils Pajais Bass, Luxemburg e la Svizra, plus ina glista da bagascha, tut en tes budget.",
+      'hero.lede': "Indica tes punct da partenza e tias cundiziuns. La machina tira a sort in itinerari real di per di — fin a {maxDays} dis e {maxStops} citads.",
       'hero.disclaimer': "Vischnancas, distanzas, taxas da via e puncts d'interess sa basan sin datas uffizialas (IGN/GeoNames, tariffas da las societads d'autostrada, OpenStreetMap). Ils temps da viadi e ils pretschs restan stimaziuns — controllescha adina l'itinerari real e la disponibladad da las allogiaziuns avant da partir.",
 
       'form.heading': 'Fegl da viadi',
