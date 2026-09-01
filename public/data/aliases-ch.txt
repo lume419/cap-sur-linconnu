@@ -1,0 +1,1012 @@
+de;Zuzwil SG;Zuzwil
+it;Zurigo;Zürich
+pt;Zurique;Zürich
+rm;Turitg;Zürich
+de;Zuerich;Zürich
+de;Zumholz FR;Zumholz
+fr;Zoug;Zug
+it;Zugo;Zug
+pt;Zugo;Zug
+de;Zollikon Dorf;Zollikon
+fr;Zofingue;Zofingen
+rm;Zezras;Zizers
+rm;Zir;Zizers
+it;Zirano;Zillis
+rm;Ziraun;Zillis
+de;Zell ZH;Zell
+de;Zell LU;Zell
+de;Davos Wolfgang;Wolfgang
+de;Wohlen AG;Wohlen
+de;Wittenbach SG;Wittenbach
+fr;Winterthour;Winterthur
+de;Eulachstadt;Winterthur
+de;Wiler b. Utzenstorf;Wiler
+de;Wiler (Lötschen);Wiler
+de;Wildhaus SG;Wildhaus
+de;Wil ZH;Wil
+de;Wil SG;Wil
+de;Wetzikon ZH;Wetzikon
+es;Wengi bei Büren;Wengi
+nl;Wengi bei Büren;Wengi
+de;Weiningen ZH;Weiningen
+de;Wassen UR;Wassen
+de;Wasen im Emmental;Wasen
+de;Wangen b. Olten;Wangen
+de;Wangen SZ;Wangen
+de;Walterswil BE;Walterswil
+de;Waltensburg Dorf;Waltensburg
+rm;Vuorz;Waltensburg
+de;Waltensburg/Vuorz;Waltensburg
+de;Waldenburg BL;Waldenburg
+de;Wald ZH;Wald
+de;Wahlen bei Laufen;Wahlen
+de;Wagenhausen TG;Wagenhausen
+de;Volketswil (Dorf);Volketswil / Volketswil (Dorf)
+de;Volketswil;Volketswil / Volketswil (Dorf)
+fr;Viège;Visp
+fr;La Villettaz;Villetta
+de;Villeneuve VD;Villeneuve
+fr;Villars / Ollon;Villars-sur-Ollon
+de;Villa;Vella
+de;Vigens;Vignogn
+rm;Vigogn;Vignogn
+de;Vicques JU;Vicques
+de;Veyrier GE;Veyrier
+de;Vex VS;Vex
+rm;Versomi;Versam
+pt;Vendoeuvres;Vandœuvres
+rm;Val;Vals Platz
+de;Vals;Vals Platz
+rm;Valendau;Valendas
+de;Ursenbach BE;Ursenbach
+rm;Urmagn;Urmein
+rm;Vaz Sut;Untervaz
+de;Erlinsbach SO;Untererlinsbach
+de;Erlinsbach;Untererlinsbach
+de;Uitikon am Albis;Uitikon
+de;Uitikon Waldegg;Uitikon
+de;Uetikon am See;Uetikon
+fr;Douanne;Twann
+fr;Tourtemagne;Turtmann
+de;Truns;Trun
+de;Trun GR;Trun
+de;Trogen AR;Trogen
+de;Trimmis Dorf;Trimmis
+rm;Termin;Trimmis
+de;Trimbach SO;Trimbach
+de;Trient VS;Trient
+rm;Traun;Trans
+de;Tumegl/Tomils;Tomils
+rm;Tumegl;Tomils
+rm;Tinizung;Tinzen
+rm;Casti;Tiefencastel
+rm;Tusaun;Thusis
+de;Thundorf TG;Thundorf
+fr;Thoune;Thun
+pt;Tune;Thun
+de;Thalheim an der Thur;Thalheim
+de;Thalkirch;Thal
+en;Teufen AR;Teufen
+de;Teufen AR;Teufen
+de;Tenna GR;Tenna
+de;Tenigerbad;Bogn Tenigia
+lb;Täsch VS;Täsch
+rm;Tumein;Tamins
+fr;Tavel;Tafers
+rm;Susch;Süs
+de;Susch;Süs
+de;Sulz AG;Sulz
+de;Sulgen TG;Sulgen
+de;Suhr AG;Suhr
+rm;Sur;Sufers
+de;Süderen;Südern
+de;Stürvis;Stierva
+rm;Stugl;Stuls
+de;Stoos SZ;Stoos
+de;Stein AR;Stein
+de;Steg im Tösstal;Steg
+de;Stalden (Sarnen);Stalden
+de;Stalden VS;Stalden
+de;Stadel b. Niederglatt;Stadel
+it;Spluga;Splügen
+rm;Spleja;Splügen
+rm;Spligia;Splügen
+de;Speicher AR;Speicher
+de;Soral GE;Soral
+rm;Sumvitg;Somvix
+fr;Soleure;Solothurn
+it;Soletta;Solothurn
+pt;Soleura;Solothurn
+es;Soleura;Solothurn
+rm;Soloturn;Solothurn
+de;Soglio GR;Soglio
+de;Sitten;Sion
+pt;Sião;Sion
+rm;Silvaplauna;Silvaplana
+rm;Seglias;Sils im Domleschg
+de;Siders;Sierre
+de;Sevelen SG;Sevelen
+de;Sessa TI;Sessa
+de;Sins GR;Sent
+de;Sent GR;Sent
+de;Sils;Sils-Segl Maria
+de;Sils-Maria;Sils-Segl Maria
+rm;Segl-Maria;Sils-Segl Maria
+rm;Segl;Sils-Segl Maria
+de;Seewis Dorf;Seewis im Prätigau
+rm;Sievgia;Seewis im Prätigau
+rm;Sevgein;Seewis
+de;Seewen SZ;Seewen
+de;Seedorf BE;Seedorf
+de;Seedorf UR;Seedorf
+fr;Schwytz;Schwyz
+it;Svitto;Schwyz
+rm;Sviz;Schwyz
+de;Schwarzenburg BE;Schwarzenburg
+de;Schwarzenberg LU;Schwarzenberg
+de;Schwanden GL;Schwanden
+de;Schönenberg ZH;Schönenberg
+de;Urtenen-Schönbühl;Schönbühl
+de;Schmitten FR;Schmitten
+de;Schmitten (Albula);Schmitten
+rm;Ferrera;Schmitten
+de;Schmitten GR;Schmitten
+rm;Schluein;Schleuis
+de;Schluein;Schleuis
+de;Schlatt TG;Schlatt
+en;Schlatt TG;Schlatt
+rm;Aschera;Schiers
+rm;Sched;Scheid
+de;Sched;Scheid
+rm;Scharons;Scharans
+fr;Schaffhouse;Schaffhausen
+it;Sciaffusa;Schaffhausen
+pt;Sciaffusa;Schaffhausen
+rm;Schaffusa;Schaffhausen
+de;Schachen LU;Schachen
+rm;S-chanf;Scanfs
+de;S-chanf;Scanfs
+de;Saxon VS;Saxon
+de;Sattel SZ;Sattel
+it;S. Antonio (Val Morobbia);Sant'Antonio
+rm;Santa Maria Val Müstair;Santa Maria
+de;Santa Maria im Münstertal;Santa Maria
+it;S. Nazzaro;San Nazzaro
+de;San Nazzaro TI;San Nazzaro
+de;St. Stephan;Sankt Stephan
+de;St. Peterzell;Sankt Peterzell
+de;St. Peter-Pagig;Sankt Peter
+de;St. Niklaus VS;Sankt Niklaus
+de;St. Moritz-Bad;Sankt Moritz-Bad
+de;Sankt Moritz;St. Moritz
+es;Sankt Moritz;St. Moritz
+fr;Saint-Moritz;St. Moritz
+it;Sankt Moritz;St. Moritz
+nl;Sankt Moritz;St. Moritz
+pt;São Moritz;St. Moritz
+lb;Sankt Moritz;St. Moritz
+en;Saint Moritz;St. Moritz
+rm;San Murezzan;St. Moritz
+de;St. Margrethen SG;Sankt Margrethen
+de;St. Margrethen;Sankt Margrethen
+de;St. Gallenkappel;Sankt Gallenkappel
+de;St. Gallen;Sankt Gallen
+fr;Saint-Gall;Sankt Gallen
+es;San Galo;Sankt Gallen
+en;St. Gallen;Sankt Gallen
+it;San Gallo;Sankt Gallen
+rm;Son Gagl;Sankt Gallen
+en;Saint Gallen;Sankt Gallen
+rm;Sogn Gagl;Sankt Gallen
+rm;Sontg Antönia;Sankt Antönien
+de;St. Antönien;Sankt Antönien
+fr;Saint-Antoine;Sankt Antoni
+de;St. Antoni FR;Sankt Antoni
+en;St. Antoni;Sankt Antoni
+en;Saint Antoni;Sankt Antoni
+rm;San Bernardin;San Bernardino
+rm;Samignun;Samnaun
+de;Salvan VS;Salvan
+rm;Salouf;Salux
+fr;Salquenen;Salgesch
+de;Saint-Sulpice VD;Saint-Sulpice
+de;Saint-Maurice VS;Saint-Maurice
+es;San Mauricio;Saint-Maurice
+de;Saint-Léonard VS;Saint-Léonard
+de;Sankt Immer;Saint-Imier
+de;Saint-Gingolph VS;Saint-Gingolph
+de;Sainte-Croix VD;Sainte-Croix
+de;Saint-Blaise NE;Saint-Blaise
+de;Saint-Aubin FR;Saint-Aubin
+de;Sagens;Sagogn
+rm;Saas Almagell;Saas-Almagell
+rm;Sausch;Saas im Prättigau
+de;Saanen-Gstaad;Saanen
+de;Rüti ZH;Rüti
+de;Rüti GL;Rüti
+de;Rue FR;Rue
+de;Rougemont VD;Rougemont
+de;Rothrist-Dorf;Rothrist
+rm;Giuvaulta;Rothenbrunnen
+de;Röthenbach im Emmental;Röthenbach
+de;Rossens FR;Rossens
+de;Rossa GR;Rossa
+de;Rorbas-Freienstein;Rorbas
+de;Romont FR;Romont
+de;Rolle VD;Rolle
+de;Rohrbach BE;Rohrbach
+de;Rohr SO;Rohr
+de;Roggwil TG;Roggwil
+de;Roggwil BE;Roggwil
+rm;Roten;Rodels
+de;Roches BE;Roches
+de;Roche VD;Roche
+de;Ringgenberg;Zignau
+de;Ringgenberg BE;Ringgenberg
+de;Riedholz SO;Riedholz
+de;Ried-Brig;Ried
+de;Rickenbach ZH;Rickenbach
+de;Rickenbach b. Wil;Rickenbach bei Wil
+de;Rickenbach TG;Rickenbach bei Wil
+de;Ricken SG;Ricken
+de;Rheinfelden, Aargau;Rheinfelden
+de;Rheineck SG;Rheineck
+rm;Razén;Rhäzüns
+de;Reinach AG;Reinach
+de;Reichenbach im Kandertal;Reichenbach
+rm;Riom;Reams
+fr;Rarogne;Raron
+es;Raroña;Raron
+de;Rapperswil SG;Rapperswil
+de;Rapperswil BE;Rapperswil
+de;Randa VS;Randa
+de;Radelfingen b. Aarberg;Radelfingen
+de;Quinto TI;Quinto
+de;Pura TI;Pura
+de;Provence VD;Provence
+rm;Prez;Präz
+rm;Preaz;Präz
+de;Basel-Pratteln;Pratteln
+it;Prato (Leventina);Prato
+it;Prato Leventina;Prato
+rm;Puschlav;Poschiavo
+fr;Portalban-Dessous;Portalban
+rm;Puntraschigna;Pontresina
+rm;La Punt;La Punt Chamues-ch
+it;Ponte Campovasto;La Punt Chamues-ch
+it;Ponte;La Punt Chamues-ch
+rm;La Punt-Chamues-ch;La Punt Chamues-ch
+de;La Punt-Chamues-ch;La Punt Chamues-ch
+nl;La Punt-Chamues-ch;La Punt Chamues-ch
+en;La Punt-Chamues-ch;La Punt Chamues-ch
+de;La Punt;La Punt Chamues-ch
+fr;Planfayon;Plaffeien
+rm;Pignia;Pignieu
+fr;Perles;Pieterlen
+de;Pfaffhusen;Pfaffhausen
+de;Pfeffingen BL;Pfeffingen
+en;Pfaeffikon;Pfäffikon
+de;Pfäffikon ZH;Pfäffikon
+de;Pfäffikon SZ;Pfäffikon
+rm;Pasqual;Paspels
+de;Parpan/Lenzerheide;Parpan
+de;Pailly VD;Pailly
+de;Bern-Ostermundigen;Ostermundigen
+fr;Orpond;Orpund
+de;Opfikon-Glattbrugg;Opfikon
+de;Oetwil an der Limmat;Oetwil / Oetwil an der Limmat
+de;Oetwil am See;Oetwil
+fr;Oetwil am See;Oetwil
+de;Önsingen;Oensingen
+de;Obstalden GL;Obstalden
+de;Oberwil BL;Oberwil
+de;Oberwil b. Büren;Oberwil
+de;Oberwil im Simmental;Oberwil
+de;Oberwangen TG;Oberwangen
+rm;Vaz;Obervaz
+rm;Sursaissa;Obersaxen
+de;Oberried am Brienzersee;Oberried
+de;Oberhofen;Oberhofen bei Etzgen
+es;Gurzelen;Ober Gurzelen
+fr;Gurzelen;Ober Gurzelen
+de;Gurzelen;Ober Gurzelen
+en;Gurzelen;Ober Gurzelen
+it;Gurzelen;Ober Gurzelen
+pt;Gurzelen;Ober Gurzelen
+de;Oberglatt ZH;Oberglatt
+de;Endingen AG;Endingen
+de;Oberems VS;Oberems
+de;Oberegg AI;Oberegg
+en;Oberegg District;Oberegg
+de;Oberdorf BL;Oberdorf
+de;Oberdorf SO;Oberdorf
+de;Oberdorf (SO);Oberdorf
+de;Oberbüre;Oberbüren
+rm;Nueinas;Nufenen
+de;Nods BE;Nods
+de;Niederried b. Interlaken;Niederried
+de;Gösgen;Niedergösgen
+de;Neu St. Johann;Neu Sankt Johann
+de;Neukirch (Egnach);Neukirch
+de;Neuhausen am Rheinfall;Neuhausen
+de;Neuenburg;Neuchâtel
+rm;Mut;Mutten
+de;Münster;Müstair
+de;Murten;Murten/Morat
+fr;Morat;Murten/Morat
+it;Morat;Murten/Morat
+nl;Murten;Murten/Morat
+es;Murten;Murten/Morat
+de;Muri AG;Muri
+es;Muri bei Bern;Muri
+fr;Muri bei Bern;Muri
+de;Muri bei Bern;Muri
+en;Muri bei Bern;Muri
+it;Muri bei Bern;Muri
+de;Muri b. Bern;Muri
+fr;Monsmier;Müntschemier
+de;Münster-Geschinen;Münster
+de;Mund VS;Mund
+de;Münchwilen TG;Münchwilen
+de;Müllheim Dorf;Müllheim
+de;Müllheim TG;Müllheim
+it;Arosio-Mugena;Mugena
+rm;Murissen;Morissen
+de;Möriken-Wildegg;Möriken
+de;Mörel-Filet;Mörel
+fr;Lavey-Morcles;Morcles
+de;Kirchleerau-Moosleerau;Moosleerau
+de;Montfaucon JU;Montfaucon
+de;Montana VS;Montana
+fr;Montagny-près-Yverdon;Montagny
+de;Davos Monstein;Monstein
+de;Mons;Mon
+de;Messen SO;Messen
+de;Menzingen ZG;Menzingen
+de;Mellingen AG;Mellingen
+de;Melide TI;Melide
+fr;Montménil;Meinisberg
+de;Obersaxen Meierhof;Meierhof
+rm;Sursaissa;Meierhof
+rm;Medel (Valrain);Medels im Rheinwald
+de;Matzendorf SO;Matzendorf
+es;Matten bei Interlaken;Matten
+fr;Matten b.I.;Matten
+de;Matten bei Interlaken;Matten
+en;Matten bei Interlaken;Matten
+it;Matten bei Interlaken;Matten
+pt;Matten bei Interlaken;Matten
+de;Matten (St. Stephan);Matten
+de;Matt GL;Matt
+rm;Maton;Mathon
+de;Martinsbruck;Martina
+de;Märstetten;Märstetten-Dorf
+rm;Murmarera;Marmorera
+de;Marbach LU;Marbach
+de;Manno TI;Manno
+fr;Mannens-Grandsivaz;Mannens
+it;Maloggia;Maloja
+rm;Malögia;Maloja
+de;Bezirk Maloja;Maloja
+es;Distrito de Maloja;Maloja
+it;Distretto di Maloggia;Maloja
+pt;Distrito de Maloja;Maloja
+fr;Malleray-Bévilard;Malleray
+de;Malans GR;Malans
+rm;Malans GR;Malans
+de;Maienfeld GR;Maienfeld
+rm;Maiavilla;Maienfeld
+fr;Macolin;Magglingen
+de;Maggia TI;Maggia
+en;Lucerne;Luzern
+es;Lucerna;Luzern
+fr;Lucerne;Luzern
+it;Lucerna;Luzern
+pt;Lucerna;Luzern
+rm;Lucerna;Luzern
+de;Lützelflüh-Goldbach;Lützelflüh
+de;Lütisburg-Dorf;Lütisburg
+de;Lully FR;Lully
+de;Luchsingen-Hätzingen;Luchsingen
+de;Lohn SH;Lohn
+de;Lodrino TI;Lodrino
+de;Linthal GL;Linthal
+de;Linden BE;Linden
+de;Lindau ZH;Lindau
+de;Lignières NE;Lignières
+fr;Gléresse;Ligerz
+de;Lieli LU;Lieli
+fr;Loèche-les-Bains;Leukerbad
+fr;Loèche;Leuk
+pt;Loèche;Leuk
+rm;Lai;Lenzerheide
+de;Lenzerheide/Lai;Lenzerheide
+fr;Lenzbourg;Lenzburg
+rm;Lantsch;Lenz
+de;Lantsch/Lenz;Lenz
+de;Lens VS;Lens
+de;Lenk im Simmental;Lenk
+fr;Longeau;Lengnau
+de;Lengnau BE;Lengnau
+es;Lengnau bei Biel;Lengnau
+de;Lehn;Lelin
+de;Leimbach TG;Leimbach
+de;Lausen BL;Lausen
+es;Lausana;Lausanne
+it;Losanna;Lausanne
+pt;Lausana;Lausanne
+rm;Losanna;Lausanne
+de;Laupen BE;Laupen
+de;Laufen BL;Laufen
+fr;Laufon;Laufen
+de;Lauenen b. Gstaad;Lauenen
+de;La Roche FR;La Roche
+de;Langnau b. Reiden;Langnau
+de;Langnau im Emmental;Langnau
+de;Lajoux JU;Lajoux
+de;La Ferrière BE;La Ferrière
+de;Lachen SZ;Lachen
+de;Chaux-de-Fonds;La Chaux-de-Fonds
+fr;Küssnacht am Rigi;Küssnacht
+de;Küssnacht SZ;Küssnacht
+it;Küssnacht am Rigi;Küssnacht
+nl;Küssnacht am Rigi;Küssnacht
+pt;Küssnacht am Rigi;Küssnacht
+es;Küssnacht am Rigi;Küssnacht
+en;Kuessnacht;Küssnacht
+de;Küsnacht ZH;Küsnacht
+rm;Cuvlignas;Küblis
+de;Kradolf-Schönenberg;Kradolf
+de;Koblenz AG;Koblenz
+pt;Coblença;Koblenz
+de;Klosters;Klosters Platz
+rm;Claustra;Klosters Platz
+de;Klosters;Klosters Dorf
+de;Kirchdorf BE;Kirchdorf
+de;Kirchberg SG;Kirchberg
+de;Kirchberg BE;Kirchberg
+de;Kilchberg ZH;Kilchberg
+fr;Chiètres;Kerzers
+de;Kemptthal;Kempttal
+de;Kappelen BE;Kappelen
+de;Kappel am Albis;Kappel
+de;Kaltbrunn SG;Kaltbrunn
+de;Jussy GE;Jussy
+rm;Gianin;Jenins
+rm;Gianatsch;Jenaz
+es;Entrelagos;Interlaken
+fr;Anet;Ins
+de;Ins BE;Ins
+rm;Calantgil;Innerferrera
+rm;Glion;Ilanz
+nl;Ilanz/Glion;Ilanz
+rm;Eigias;Igis
+de;Hüttlingen-Mettendorf;Hüttlingen
+de;Hüttlingen TG;Hüttlingen
+de;Hünenberg ZG;Hünenberg
+de;Hornussen AG;Hornussen
+de;Horn TG;Horn
+de;Homburg TG;Homburg
+pt;Homburgo;Homburg
+de;Holderbank SO;Holderbank
+de;Hasliberg Hohfluh;Hohfluh
+de;Hofstetten ZH;Hofstetten
+rm;Rein Posteriur;Hinterrhein
+de;Hinterrhein GR;Hinterrhein
+rm;Valragn;Hinterrhein
+de;Hergiswil b. Willisau;Hergiswil
+de;Hergiswil NW;Hergiswil
+de;Herdern TG;Herdern
+de;Hemberg SG;Hemberg
+de;Heimberg BE;Heimberg
+de;Heiden AR;Heiden
+de;Hauteville FR;Hauteville
+pt;Altavila;Hauteville
+de;Hauterive FR;Hauterive
+de;Hausen am Albis;Hausen am Albis / Hausen (Dorf)
+de;Hauptwil-Gottshaus;Hauptwil
+de;Haslen AI;Haslen
+de;Hasle b. Burgdorf;Hasle
+de;Hasle LU;Hasle
+de;Hagenbuch ZH;Hagenbuch
+de;Gwatt (Thun);Gwatt
+de;Muri-Gümligen;Gümligen
+nl;Muri bij Bern;Gümligen
+de;Guarda GR;Guarda
+de;Gsteig b. Gstaad;Gsteig
+rm;Crusch;Grüsch
+de;Grund b. Gstaad;Grund
+de;Grosshöchstetten;Gross Höchstetten
+fr;Granges;Grenchen
+de;Grandval BE;Grandval
+de;Grandfontaine JU;Grandfontaine
+de;Gossau SG;Gossau
+de;Gossau ZH;Gossau
+de;Goldswil b. Interlaken;Goldswil
+de;Goldach SG;Goldach
+es;Glaris;Glarus
+fr;Glaris;Glarus
+it;Glarona;Glarus
+pt;Glarona;Glarus
+rm;Glaruna;Glarus
+de;Davos Glaris;Glaris
+de;Gland VD;Gland
+lb;Gland VD;Gland
+de;Gimel VD;Gimel
+de;Gilly VD;Gilly
+de;Gerzensee BE;Gerzensee
+it;Gerra (Gambarogno);Gerra
+de;Genf;Genève
+en;Geneva;Genève
+es;Ginebra;Genève
+it;Ginevra;Genève
+pt;Genebra;Genève
+rm;Genevra;Genève
+de;Gams SG;Gams
+fr;Champion;Gampelen
+fr;Chules;Gals
+de;Gais AR;Gais
+de;Furth;Uors
+de;Furna GR;Furna
+de;Furkels;Furggels
+de;Froideville VD;Froideville
+de;Frick AG;Frick
+de;Freiburg;Fribourg
+it;Friborgo;Fribourg
+de;Freiburg im Üechtland;Fribourg
+es;Friburgo;Fribourg
+it;Friburgo;Fribourg
+pt;Friburgo;Fribourg
+rm;Friburg;Fribourg
+de;Davos Frauenkirch;Frauenkirch
+de;Flühli LU;Flühli
+rm;Flem;Flims
+rm;Flearda;Flerden
+de;Fischingen TG;Fischingen
+rm;Filisour;Filisur
+de;Fideris Dorf;Fideris
+rm;Fadrein;Fideris
+de;Felsberg GR;Felsberg
+rm;Favugn;Felsberg
+rm;Veulden;Feldis
+de;Felben-Wellhausen;Felben
+de;Fankhaus (Trub);Fankhaus
+de;Fahrni b. Thun;Fahrni
+de;Leubringen;Evilard
+it;Leubringen/Magglingen;Evilard
+pt;Leubringen/Magglingen;Evilard
+de;Eschlikon TG;Eschlikon
+de;Eschenbach SG;Eschenbach
+de;Eschenbach LU;Eschenbach
+de;Erlenbach ZH;Erlenbach
+de;Erlen TG;Erlen
+de;Erlach BE;Erlach
+fr;Cerlier;Erlach
+de;Ependes FR;Ependes
+de;Ependes VD;Ependes
+de;Engi GL;Engi
+de;Unter Embrach;Embrach
+de;Elm GL;Elm
+rm;Dialma;Elm
+de;Ellikon an der Thur;Ellikon
+de;Eisten VS;Eisten
+de;Eich LU;Eich
+de;Eich am Sempachersee;Eich
+de;Ecublens FR;Ecublens
+de;Ebnat;Ebnat-Kappel
+rm;Duin;Duvin
+fr;Guin;Düdingen
+de;Dornach SO;Dornach
+de;Domat/Ems;Domat
+rm;Mustér;Disentis
+de;Diesbach GL;Diesbach
+de;Derendingen SO;Derendingen
+de;Degersheim SG;Degersheim
+rm;Tavau;Davos
+rm;Tafaas;Davos
+rm;Tavau;Davos Dorf
+de;Davos;Davos Dorf
+de;Baden-Dättwil;Dättwil
+de;Cumbels;Cumbel
+de;Cully VD;Cully
+de;Cully (VD);Cully
+de;Cugy FR;Cugy
+de;Cugy VD;Cugy
+de;Court BE;Court
+fr;Cougevaux;Courgevaux
+de;Gurwolf;Courgevaux
+de;Courgenay JU;Courgenay
+de;Cottens FR;Cottens
+de;Corsier GE;Corsier
+de;Corminboeuf FR;Corminboeuf
+de;Corcelles BE;Corcelles
+de;Conters im Prättigau;Conters
+rm;Cunter;Conters
+de;Samnaun-Compatsch;Compatsch
+rm;Samignun-Compatsch;Compatsch
+de;Comano TI;Comano
+de;Colombier NE;Colombier
+rm;Clugen;Clugin
+de;Davos Clavadel;Clavadel
+de;Claro TI;Claro
+rm;Cinuos-chel;Cinuskel
+rm;Tschierv;Cierfs
+de;Tschierv;Cierfs
+rm;Curvalda;Churwalden
+es;Coira;Chur
+fr;Coire;Chur
+it;Coira;Chur
+pt;Coira;Chur
+rm;Cuira;Chur
+rm;Cuera;Chur
+en;Cheseaux-sur-Lausanne;Cheseaux
+en;Chesaux-sur-Lausanne;Cheseaux
+de;Chavornay VD;Chavornay
+fr;Chavannes-près-Renens;Chavannes
+de;Chardonne VD;Chardonne
+de;Champagne VD;Champagne
+lb;Champagne VD;Champagne
+de;Cham ZG;Cham
+rm;Schlarigna;Celerina
+de;Celerina/Schlarigna;Celerina
+rm;Cazas;Cazis
+de;Castel San Pietro TI;Castel San Pietro
+de;Cartigny GE;Cartigny
+it;Campo (Blenio);Campo Blenio
+it;Campo (Vallemaggia);Campo
+de;Champfèr;Campfer
+rm;Champfèr;Campfer
+de;St. Moritz-Champfer;Campfer
+de;Bürglen TG;Bürglen
+de;Bürglen UR;Bürglen
+lb;Bürglen UR;Bürglen
+fr;Berthoud;Burgdorf
+de;Büren NW;Büren nid dem Bach
+de;Bure JU;Bure
+de;Bürchen VS;Bürchen
+de;Bullet VD;Bullet
+de;Bulle FR;Bulle
+de;Bühler AR;Bühler
+de;Buchs ZH;Buchs / Buchs (Dorf)
+de;Buchs AG;Buchs
+de;Buchs SG;Buchs
+de;Buchen im Prättigau;Buchen
+rm;Fagieu;Buchen
+de;Buchberg SH;Buchberg
+de;Buch am Irchel;Buch
+de;Bubendorf BL;Bubendorf
+rm;Brüsch;Brusio
+de;Brunnen SZ;Brunnen
+de;Broc FR;Broc
+de;Brissago TI;Brissago
+es;Brisa;Brissago
+it;Brione (Verzasca);Brione
+fr;Brigue-Glis;Brig
+it;Briga-Glis;Brig
+pt;Briga-Glis;Brig
+rm;Brinzauls;Brienz
+de;Bremgarten AG;Bremgarten
+de;Bremgarten b. Bern;Bremgarten
+de;Breitenbach SO;Breitenbach
+de;Brigels;Breíl
+de;Breil / Brigels;Breíl
+de;Braunwald GL;Braunwald
+de;Bösingen FR;Bösingen
+it;Bosco/Gurin;Bosco Gurin
+de;Bönigen b. Interlaken;Bönigen
+de;Boncourt JU;Boncourt
+rm;Panaduz;Bonaduz
+it;Bodio TI;Bodio
+de;Bodio TI;Bodio
+de;Blumenstein BE;Blumenstein
+de;Blausee-Mitholz;Blausee
+de;Blauen BL;Blauen
+de;Blatten (Lötschen);Blatten
+de;Blatten-Belalp;Blatten
+rm;Beiva;Bivio
+de;Birr AG;Birr
+de;Birmensdorf ZH;Birmensdorf
+fr;Bienne;Biel/Bienne
+es;Biel-Bienne;Biel/Bienne
+it;Bienna;Biel/Bienne
+nl;Biel;Biel/Bienne
+pt;Bienna;Biel/Bienne
+de;Biel;Biel/Bienne
+rm;Bienna;Biel/Bienne
+it;Bienne;Biel/Bienne
+de;Bibern SH;Thayngen, Bibern
+de;Bever GR;Bever
+fr;Bâche;Bettlach
+de;Bettingen BS;Bettingen
+de;Betten VS;Betten
+de;Betelried Blankenburg;Bettelried
+de;Bernex GE;Bernex
+es;Berna;Bern
+fr;Berne;Bern
+de;Bundesstadt;Bern
+en;Berne;Bern
+it;Berna;Bern
+pt;Berna;Bern
+rm;Berna;Bern
+de;Beringen SH;Beringen
+rm;Bravuogn;Bergün
+de;Bergün/Bravuogn;Bergün
+rm;Bergün/Bravuogn;Bergün
+de;Berg TG;Berg
+de;Benken ZH;Benken
+de;Benken SG;Benken
+fr;Bellinzone;Bellinzona
+de;Bellevue GE;Bellevue
+de;Beinwil SO;Beinwil
+de;Beinwil am See;Beinwil
+es;Basilea;Basel
+fr;Bâle;Basel
+it;Basilea;Basel
+nl;Bazel;Basel
+pt;Basileia;Basel
+rm;Basilea;Basel
+de;Bangerten bei Dieterswil;Bangerten
+de;Balstal;Balsthal
+fr;Le Lac-Noir;Bad-Schwarzsee
+de;Baden AG;Baden
+de;Bäch SZ;Bäch
+de;Avry FR;Avry-sur-Matran
+de;Autigny FR;Autigny
+rm;Ferera;Ausserferrera
+rm;Feraila;Ausserferrera
+rm;Farera;Ausserferrera
+de;Aubonne VD;Aubonne
+de;Au SG;Au
+de;Assens VD;Assens
+de;Arzier-Le Muids;Arzier
+en;Arzier-Le Muids;Arzier
+es;Arzier-Le Muids;Arzier
+fr;Arzier-Le Muids;Arzier
+rm;Arzier-Le Muids;Arzier
+de;Arth SZ;Arth
+de;Ardon VS;Ardon
+de;Andwil SG;Andwil
+rm;Ursera;Andermatt
+rm;Alvaschagn;Alvaschein
+de;Alvaneu Dorf;Alvaneu
+rm;Alvagni;Alvaneu
+de;Altstätten SG;Altstätten
+de;Alt St. Johann;Alt Sankt Johann
+de;Altdorf UR;Altdorf
+lb;Altdorf UR;Altdorf
+de;Allmendingen b. Bern;Allmendingen
+de;Alle JU;Alle
+de;Aigle VD;Aigle
+de;Agno TI;Agno
+de;Aeschi bei Spiez;Aeschi b. Spiez
+de;Aesch BL;Aesch
+de;Aesch LU;Aesch
+de;Acheberg;Achenberg
+de;Abtwil SG;Abtwil
+de;Aathal-Seegräben;Aathal
+de;Ecublens VD;Ecublens
+de;Adlikon b. Andelfingen;Adlikon
+de;Wisli;Wiesli
+de;Teufen ZH;Unter-Teufen
+de;Adlikon b. Regensdorf;Adlikon
+de;Ober-Dürnten;Oberdürnten
+de;Grüt (Gossau ZH);Grüt
+de;Laupen ZH;Laupen
+de;Forch;Forch (südl. Teil)
+de;Ettenhusen;Ettenhausen
+de;Winterberg ZH;Winterberg
+de;Wangen b. Dübendorf;Wangen
+de;Niederglatt ZH;Niederglatt
+de;Aesch ZH;Aesch
+de;Guttet;Guttet-Feschel
+de;Cademario-Lugano;Cademario
+de;Buch SH;Buch
+de;Etoy VD;Etoy
+de;Ponte Tresa TI;Ponte Tresa
+de;Thal SG;Thal
+de;Friedliswart;Frinvillier
+de;Pläntsch;Plagne
+de;Plagne BE;Plagne
+de;Romont BE;Romont
+de;Langendorf SO;Langendorf
+de;Niederwil SO;Niederwil
+de;Balm b. Günsberg;Balm bei Guensberg
+de;Aeschi SO;Aeschi
+de;Halten SO;Halten
+de;Lohn-Ammannsegg;Ammansegg
+de;Steinhof SO;Steinhof
+de;Lüsslingen-Nennigkofen;Nennigkofen
+de;Buchs LU;Buchs
+de;Bettenhausen BE;Bettenhausen
+de;St. Urban;Sankt Urban
+de;Neuendorf SO;Neuendorf
+de;Kappel SO;Kappel
+de;Grandvaux VD;Grandvaux
+de;Aarau Rohr;Rohr AG
+de;Rohr im Aargau;Rohr AG
+de;Paradiso TI;Paradiso
+de;Wilen (Sarnen);Wilen
+de;Hauterive NE;Hauterive
+it;S. Antonino;Sant Antonino
+fr;Villars les Moines;Münchenwiler
+de;Staad SG;Staad
+de;Haute-Nendaz;Haute Nendaz
+de;Stetten SH;Stetten
+de;Bargen SH;Bargen
+de;Nussbaumen bei Baden;Nussbaumen
+de;Nussbaumen AG;Nussbaumen
+de;Nussbaumen (Obersiggenthal);Nussbaumen
+de;Rieden (Obersiggenthal);Rieden
+de;Kirchdorf (Obersiggenthal);Kirchdorf
+de;Kirchdorf AG;Kirchdorf
+fr;Montilier;Muntelier
+de;Bättwil-Flüh;Bättwil
+de;Sisseln AG;Sisseln
+de;Thunstetten BE;Thunstetten
+de;Bussy FR;Bussy
+de;Hausen AG;Hausen
+de;Lengnau AG;Lengnau
+de;Baldingen AG;Baldingen
+de;Döttingen AG;Döttingen
+de;Kleinwangen;Kleinwangeen
+de;Hasliberg Reuti;Hasliberg-Reuti
+de;Wiriehorn;Nüegg
+de;Wisen SO;Wisen
+de;Schliern bei Köniz;Schliern
+de;Davos;Davos Platz
+de;Neuhaus SG;Neuhaus
+de;Busswil TG;Busswil
+de;Buttikon SZ;Buttikon
+fr;Chailly-Montreux;Chailly
+it;Davesco-Soragno;Davesco
+de;Egg (Flawil);Egg
+de;Egg SZ;Egg
+de;Ettenhausen TG;Ettenhausen
+de;Freidorf TG;Freidorf
+de;Rüschegg Gambach;Gambach
+de;Hasliberg Goldern;Goldern
+de;Guntershausen b. Aadorf;Guntershausen
+de;Heiligkreuz (Mels);Heiligkreuz
+de;Rüschegg Heubach;Heubach
+de;Lüterswil-Gächliwil;Lüterswil
+de;Mannenbach-Salenstein;Mannenbach
+de;Mauren TG;Mauren
+de;Neukirch an der Thur;Neukirch a. d. Thur
+de;Niederwil SG;Niederwil
+de;Oberwil b. Zug;Oberwil
+it;Roveredo TI;Roveredo
+de;St. Pantaleon;Sankt Pantaleon
+de;Schachen b. Reute;Schachen
+de;Schwarzenbach SG;Schwarzenbach
+de;St. Margarethen TG;St. Margarethen
+de;Studen SZ;Studen
+fr;Villars-sur-Fontenais;Villars
+de;Schmiedrued-Walde;Walde
+de;Walde SG;Walde
+de;Hasliberg Wasserwendi;Wasserwendi
+de;Wiezikon b Sirnach;Wiezikon
+de;Wiler b. Seedorf;Wiler
+de;Obersaxen Affeier;Affeier
+rm;Sursaissa Affeier;Affeier
+de;Forst b. Längenbühl;Forst
+de;Häusernmoos im Emmental;Häusernmoos
+de;Heinrichswil-Winistorf;Heinrichswil
+de;Helgisried-Rohrbach;Helgisried
+de;Iselisberg;Iselisbärg
+de;Mittellunden;Lunden
+de;Flumserberg Portels;Portels
+de;Flumserberg;Portels
+it;Prato-Sornico;Prato
+de;St. Niklausen OW;Sankt Niklausen
+de;Schachen b. Herisau;Schachen
+de;Sils Baselgia;Segl Baselgia
+de;St. Niklausen LU;St. Niklausen
+fr;Thyon-Les Collons;Thyon
+de;Uetliburg SG;Uetliburg
+de;Wilen (Gottshaus);Wilen
+de;Curio TI;Curio
+de;Mühledorf SO;Mühledorf
+it;Lamone-Cadempino;Lamone
+de;Villiers NE;Villiers
+de;Grub AR;Grub
+de;Hofstetten b. Brienz;Hofstetten
+fr;Vich-Coinsins;Vich
+de;Vich VD;Vich
+de;Muzzano TI;Muzzano
+de;Lengwil-Oberhofen;Lengwil
+de;Chevilly VD;Chevilly
+de;Orny VD;Orny
+de;Rueyres VD;Rueyres
+de;Spiegel b. Bern;Spiegel BE
+de;Schwarzenbach;Schwarzenbach (Huttwil)
+de;Erlinsbach;Erlinsbach AG
+de;Luzern Reussbühl;Reussbühl
+de;Haldi b. Schattdorf;Haldi
+it;Rivera;Rivera TI
+it;San Pietro;S. Pietro
+rm;Sursaissa Giraniga;Obersaxen Giraniga
+rm;Sursaissa Friggahüs;Obersaxen Friggahüs
+rm;Sogn Benedetg;S. Benedetg
+de;Putz GR;Putz
+de;Schwendi im Weisstannental;Schwendi
+rm;Alvagni;Alvaneu Bad
+de;Bernina Hospiz;Ospizio Bernina
+de;Bichelsee-Balterswil;Balterswil
+de;Ottikon (Gossau ZH);Ottikon (Gossau)
+de;Haslen GL;Haslen
+de;Mädris-Vermol;Mädris
+de;Schwende AI;Schwende
+en;Schwende District;Schwende
+de;Reute AR;Reute
+de;Stein SG;Stein
+de;Eggbergen;Eggberge
+de;Berg SG;Berg
+de;Bözberg AG;Bözberg
+de;Mülligen AG;Mülligen
+de;Boussens VD;Boussens
+de;Fey VD;Fey
+de;Mézières VD;Mézières
+de;Carrouge VD;Carrouge
+de;Cottens VD;Cottens
+de;Lavigny VD;Lavigny
+de;Mies VD;Mies
+de;Croy VD;Croy
+de;Vallon FR;Vallon
+de;Fontaines NE;Fontaines
+de;Studen BE;Studen
+de;Port BE;Port
+de;Jens BE;Jens
+de;Seehof BE;Seehof
+fr;Elay;Seehof
+de;Roggenburg BL;Roggenburg
+de;Châtillon JU;Châtillon
+de;Mühledorf BE;Mühledorf
+de;Noflen BE;Noflen
+fr;Ormey;Ulmiz
+de;Grafenried BE;Grafenried
+de;Limpach BE;Limpach
+de;Mörel-Filet;Filet
+de;Grindel SO;Grindel
+de;Büren SO;Büren
+de;Niederdorf BL;Niederdorf
+de;Kienberg SO;Kienberg
+de;Kilchberg BL;Kilchberg
+de;Rohrbachgraben BE;Rohrbachgraben
+de;Walterswil SO;Walterswil
+de;Braunau TG;Braunau
+de;Bondo GR;Bondo
+de;Hinter Gummen;Gummenalp
+de;Bibermüli;Bibermühle
+it;Costa dell’Albera;Costa dell'Albera
+it;Sant’Abbondio;Sant'Abbondio
+it;Monti di Sant’ Abbondio;Monti di Sant' Abbondio
+it;Ronco Sant’ Antonio;Ronco Sant' Antonio
+it;Molino;Grotto al Mulino
+it;Croglio;Opera castellana del Castello di Croglio
+it;San Martino;Opera castellano del Castello di San Martino
+it;La Madonna;Madonna della Cintola
+it;Sant’ Antonio;Sant' Antonio
+it;Tur dell’Alpe;Tur dell'Alpe
+fr;Ganet d’Avau;Ganet d'Avau
+fr;Drotsu d’En Haut;Drotsu d'En Haut
+fr;L’Arpille;L'Arpille
+fr;L’Epenetta;L'Epenetta
+fr;L’Abergement;L'Abergement
+fr;L’Arzillier;L'Arzillier
+fr;Gîte d’Avau;Gîte d'Avau
+fr;Rochena d’Amon;Rochena d'Amon
+fr;L’Albergeux;L'Albergeux
+fr;Champ de l’Eglise;Champ de l'Eglise
+fr;Chez les Currat d’Avau;Chez les Currat d'Avau
+fr;Les Chavonnes d’Amon;Les Chavonnes d'Amon
+fr;Crêt d’Illens;Crêt d'Illens
+fr;Ranch du Bois d’Archan;Ranch du Bois d'Archan
+fr;Pré d’Etoy;Pré d'Etoy
+fr;Moulin d’Assens;Moulin d'Assens
+fr;Moulin d’Amour;Moulin d'Amour
+fr;L’Ouffemaz;L'Ouffemaz
+fr;L’Arbalète;L'Arbalète
+fr;La Croix d’Or;La Croix d'Or
+fr;Chalet d’Orsoud;Chalet d'Orsoud
+de;Z’Hinderst;Z'Hinderst
+rm;L’Aqua;L'Aqua

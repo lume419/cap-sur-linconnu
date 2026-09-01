@@ -548,13 +548,16 @@ app.get('/api/pois', async (req, res) => {
   const name = String(req.query.name || '').trim();
   const dept = String(req.query.dept || '').trim();
   const country = String(req.query.country || '').trim().toUpperCase();
-  // Englobe la France, l'Andorre, l'Espagne, le Portugal (mainland), la Belgique et les Pays-Bas —
-  // pas seulement la France : la borne d'origine (lat 40-52) rejetait à tort le sud de
-  // l'Espagne/Portugal (Andalousie, Algarve, jusqu'à ~36°N). La Belgique (lat ~49,5-51,5 /
-  // lon ~2,5-6,4) tenait déjà dans cette boîte, mais les Pays-Bas débordent au nord : Schiermonnikoog
-  // et les îles Wadden montent jusqu'à ~53,5°N, au-delà de l'ancienne borne à 52° — élargie à 54°
-  // pour les couvrir avec une marge.
-  if(!isFinite(lat) || !isFinite(lon) || lat < 36 || lat > 54 || lon < -10 || lon > 10){
+  // Englobe la France, l'Andorre, l'Espagne, le Portugal (mainland), la Belgique, les Pays-Bas, le
+  // Luxembourg et la Suisse — pas seulement la France : la borne d'origine (lat 40-52) rejetait à
+  // tort le sud de l'Espagne/Portugal (Andalousie, Algarve, jusqu'à ~36°N). La Belgique (lat
+  // ~49,5-51,5 / lon ~2,5-6,4) tenait déjà dans cette boîte, mais les Pays-Bas débordent au nord :
+  // Schiermonnikoog et les îles Wadden montent jusqu'à ~53,5°N, au-delà de l'ancienne borne à 52° —
+  // élargie à 54° pour les couvrir avec une marge. La Suisse déborde à l'est : la vallée de
+  // Müstair (Grisons) monte jusqu'à ~10,46°E, au-delà de l'ancienne borne à 10° — élargie à 11°
+  // pour la couvrir avec une marge (avec le Luxembourg, entièrement dans la boîte d'origine, sans
+  // ajustement nécessaire).
+  if(!isFinite(lat) || !isFinite(lon) || lat < 36 || lat > 54 || lon < -10 || lon > 11){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
   if(name.length > 120){

@@ -8,20 +8,28 @@
   // seuls la France et l'Espagne ont un vrai réseau autoroutier à péage significatif au tarif
   // kilométrique repéré (voir plus bas, finalizeLeg) ; le Portugal n'a que son réseau à péage
   // électronique sans barrière (tarif très inférieur, cohérent avec les grilles Via Verde/Ascendi
-  // consultées) ; l'Andorre, la Belgique, les Pays-Bas et le Luxembourg n'ont pas d'autoroute à
-  // péage — aucun montant n'y est donc jamais affiché. Dans les trois derniers, un ou deux ponts/
-  // tunnels isolés restent payants (Kiltunnel/pont de Nieuwerbrug aux Pays-Bas, quelques tunnels
-  // ponctuels au Luxembourg) mais ne sont, volontairement, pas modélisés : contrairement à un
-  // réseau autoroutier ou à une traversée en ferry (toujours obligatoire, voir plus bas), rien ne
+  // consultées) ; l'Andorre, la Belgique, les Pays-Bas, le Luxembourg et la Suisse n'ont pas de
+  // péage AU TRAJET — aucun montant n'y est donc jamais affiché. Dans les trois premiers, un ou
+  // deux ponts/tunnels isolés restent payants (Kiltunnel/pont de Nieuwerbrug aux Pays-Bas, quelques
+  // tunnels ponctuels au Luxembourg) mais ne sont, volontairement, pas modélisés : contrairement à
+  // un réseau autoroutier ou à une traversée en ferry (toujours obligatoire, voir plus bas), rien ne
   // dit qu'un trajet donné passerait justement par cet ouvrage précis plutôt qu'un itinéraire
   // alternatif gratuit — cette app ne calcule pas de vrai itinéraire routier (voir roadDistanceKm),
-  // les ajouter au hasard serait donc plus souvent faux que juste.
-  // aliasFile (AD/ES/PT/BE/NL/LU seulement) : noms alternatifs par langue (voir
+  // les ajouter au hasard serait donc plus souvent faux que juste. La Suisse est un cas à part :
+  // son réseau autoroutier n'est pas gratuit, mais son usage est soumis à une vignette ANNUELLE à
+  // prix fixe (40 CHF, valable un an entier, indépendante du nombre de trajets ou de kilomètres
+  // parcourus) plutôt qu'à un péage par trajet — aucun modèle €/km n'a de sens ici, et l'app ne
+  // simule pas un abonnement annuel. Un ou deux tunnels alpins isolés (Grand-Saint-Bernard vers
+  // l'Italie, Munt la Schera vers l'Italie) restent payants EN PLUS de la vignette, mais suivent le
+  // même raisonnement que les ouvrages isolés ci-dessus : non modélisés.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH seulement) : noms alternatifs par langue (voir
   // scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une ville dans
   // la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen", "La Haye"
   // pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
   // France : ses communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun geonameid n'est donc
   // disponible pour les relier à ces noms alternatifs (voir le script pour le détail de ce choix).
+  // currency (CH seulement pour l'instant) : la Suisse n'est pas dans la zone euro (CHF) — absent
+  // pour les autres pays, qui utilisent tous l'euro (voir countryCurrency plus bas).
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -29,10 +37,16 @@
     PT: { code:'PT', name:'Portugal', file:'communes-pt.txt', hasToll:true, aliasFile:'aliases-pt.txt' },
     BE: { code:'BE', name:'Belgique', file:'communes-be.txt', hasToll:false, aliasFile:'aliases-be.txt' },
     NL: { code:'NL', name:'Pays-Bas', file:'communes-nl.txt', hasToll:false, aliasFile:'aliases-nl.txt' },
-    LU: { code:'LU', name:'Luxembourg', file:'communes-lu.txt', hasToll:false, aliasFile:'aliases-lu.txt' }
+    LU: { code:'LU', name:'Luxembourg', file:'communes-lu.txt', hasToll:false, aliasFile:'aliases-lu.txt' },
+    CH: { code:'CH', name:'Suisse', file:'communes-ch.txt', hasToll:false, aliasFile:'aliases-ch.txt', currency:'CHF' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
+  // Devise d'un pays donné : EUR par défaut (tous les pays actuels sauf la Suisse), CHF pour la
+  // Suisse (COUNTRIES[cc].currency). Utilisé pour le plafond de prix budget/logement (voir
+  // BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks) — jamais pour le péage/ferry, dont les
+  // montants ne sont de toute façon calculés que pour des pays en euros (voir plus haut).
+  function countryCurrency(cc){ return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR'; }
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -95,7 +109,7 @@
   // Code court -> étiquette de locale complète, pour Intl/toLocaleDateString (horloge, dates
   // formatées, nombre d'habitants...) — une seule variante par langue suffit ici, pas besoin de
   // distinguer ex. pt-PT/pt-BR pour ce site.
-  var LOCALE_TAG = { fr:'fr-FR', en:'en-GB', es:'es-ES', pt:'pt-PT', nl:'nl-NL', de:'de-DE', lb:'lb-LU' };
+  var LOCALE_TAG = { fr:'fr-FR', en:'en-GB', es:'es-ES', pt:'pt-PT', nl:'nl-NL', de:'de-DE', lb:'lb-LU', it:'it-CH', rm:'rm-CH' };
   function localeTag(){ return LOCALE_TAG[VISITOR_LANG] || 'fr-FR'; }
   // Suffixe de clé i18n depuis une clé TRANSPORT à tirets ("voiture-thermique" -> "voitureThermique") —
   // évite de dupliquer les six libellés dans une structure séparée juste pour la casse.
@@ -217,6 +231,13 @@
   // - Luxembourg : réseau autoroutier et routier entièrement gratuit pour les véhicules légers,
   //   seuls certains poids lourds paient une redevance kilométrique (nakordoni.eu, taxe-auto.be) —
   //   même traitement que l'Andorre/la Belgique/les Pays-Bas (hasToll:false).
+  // - Suisse : pas gratuite, mais pas un péage au trajet non plus — une vignette annuelle à prix
+  //   fixe (40 CHF/an, ch.ch/fr/circulation-et-vehicules/.../vignette-autoroutiere) donne un accès
+  //   illimité au réseau, quel que soit le nombre de trajets ou de kilomètres parcourus dans
+  //   l'année : aucun barème €/km ou CHF/km ne peut en dériver, et l'app ne simule pas un
+  //   abonnement (hasToll:false). Le tunnel du Grand-Saint-Bernard (vers l'Italie, ~31 CHF
+  //   aller simple/50 CHF aller-retour, letunnel.com) reste payant EN PLUS de la vignette, mais
+  //   reste un ouvrage isolé non modélisé, même raisonnement que le Kiltunnel néerlandais.
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,
@@ -338,7 +359,16 @@
   };
   // Plafond de prix / nuit (2 adultes) utilisé uniquement pour préremplir les liens de recherche
   // Airbnb / Booking — un repère indicatif choisi pour ce générateur, pas une donnée tarifaire réelle.
-  var BUDGET_PRICE_MAX = { economique: 70, moyen: 130, confortable: 260 };
+  // Plafonds de prix par palier de budget, un jeu de valeurs par devise (voir countryCurrency) —
+  // pas une simple conversion au taux de change : le coût réel du logement en Suisse est
+  // nettement plus élevé qu'en zone euro pour une catégorie équivalente (chambre privée en
+  // auberge ~90-150 CHF, hôtel 2-3★ ~150-350 CHF, haut de gamme au-delà de 250 CHF — hostelz.com,
+  // holiday-thun.ch, myswissalps.com, échantillon 2026), d'où des paliers CHF proportionnellement
+  // plus hauts que leur équivalent EUR plutôt qu'une simple conversion.
+  var BUDGET_PRICE_MAX = {
+    EUR: { economique: 70, moyen: 130, confortable: 260 },
+    CHF: { economique: 130, moyen: 250, confortable: 480 }
+  };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu
   // (renderPacking) plutôt que figés en français ici.
@@ -730,6 +760,7 @@
     els.city.value = r.name + ' (' + r.cp + ')';
     hideSuggestions();
     clearCityError();
+    updateBudgetHint(); // la devise du plafond affiché dépend du pays de la ville choisie (voir plus bas)
   }
   function hideSuggestions(){
     els.citySuggest.classList.remove('show');
@@ -752,6 +783,7 @@
     selectedCity = null;
     if(els.city.value.trim()) clearCityError();
     renderSuggestions(searchCommunes(els.city.value, 8));
+    updateBudgetHint(); // ville désélectionnée : retombe sur la devise par défaut (EUR)
   });
   els.city.addEventListener('keydown', function(e){
     if(!els.citySuggest.classList.contains('show')) return;
@@ -839,12 +871,16 @@
 
   /* ---------- FOURCHETTE DE PRIX DU BUDGET SÉLECTIONNÉ ---------- */
   // Affiche le plafond réellement utilisé pour préremplir les liens Airbnb/Booking (voir
-  // buildLodgingLinks, BUDGET_PRICE_MAX) — "jusqu'à X€" reflète le filtre "0 à X€" appliqué sur
-  // ces liens, pas une fourchette contiguë entre paliers.
+  // buildLodgingLinks, BUDGET_PRICE_MAX) — "jusqu'à X €/CHF" reflète le filtre "0 à X" appliqué sur
+  // ces liens, pas une fourchette contiguë entre paliers. La devise suit le pays de la ville de
+  // départ SÉLECTIONNÉE (selectedCity.country) quand elle est connue — un simple aperçu avant
+  // tirage, puisque chaque étape du séjour utilisera ensuite sa propre devise (voir
+  // buildLodgingLinks, appelé par commune) ; EUR par défaut tant qu'aucune ville n'est choisie.
   function updateBudgetHint(){
     var key = els.budget.value;
-    var max = BUDGET_PRICE_MAX[key];
-    els.budgetHint.textContent = t('form.budget.hint', {max: max});
+    var currency = countryCurrency(selectedCity && selectedCity.country);
+    var max = BUDGET_PRICE_MAX[currency][key];
+    els.budgetHint.textContent = t('form.budget.hint', {max: max, currency: currency === 'CHF' ? 'CHF' : '€'});
   }
   els.budget.addEventListener('change', updateBudgetHint);
   updateBudgetHint();
@@ -1165,13 +1201,18 @@
   // ne peut pas interroger une API Airbnb/hôtel en direct (aucun appel réseau externe n'est autorisé
   // au runtime, et aucune clé d'accès n'est disponible). On construit donc des liens de recherche
   // pré-remplis avec la vraie ville, les vraies dates et un plafond de prix indicatif — ils ouvrent
-  // les résultats réels et à jour sur Airbnb / Booking.
-  function buildLodgingLinks(town, checkIn, checkOut, budgetKey){
-    var q = encodeURIComponent(town + ', France');
-    var priceMax = BUDGET_PRICE_MAX[budgetKey];
+  // les résultats réels et à jour sur Airbnb / Booking. `country` (code ISO, ex. "CH") sert à deux
+  // choses : préciser la ville dans la requête (au lieu de toujours accoler ", France" — un nom de
+  // commune n'est pas forcément unique hors de France) et choisir la devise/le plafond de prix
+  // adaptés (voir BUDGET_PRICE_MAX/countryCurrency) plutôt que systématiquement l'euro.
+  function buildLodgingLinks(town, checkIn, checkOut, budgetKey, country){
+    var countryName = (COUNTRIES[country] && COUNTRIES[country].name) || 'France';
+    var q = encodeURIComponent(town + ', ' + countryName);
+    var currency = countryCurrency(country);
+    var priceMax = BUDGET_PRICE_MAX[currency][budgetKey];
     return {
-      airbnb: 'https://www.airbnb.fr/s/' + encodeURIComponent(town) + '/homes?checkin=' + checkIn + '&checkout=' + checkOut + '&adults=2&price_max=' + priceMax,
-      booking: 'https://www.booking.com/searchresults.fr.html?ss=' + q + '&checkin=' + checkIn + '&checkout=' + checkOut + '&group_adults=2&no_rooms=1&nflt=price%3DEUR-0-' + priceMax + '-1'
+      airbnb: 'https://www.airbnb.fr/s/' + encodeURIComponent(town) + '/homes?checkin=' + checkIn + '&checkout=' + checkOut + '&adults=2&price_max=' + priceMax + '&currency=' + currency,
+      booking: 'https://www.booking.com/searchresults.fr.html?ss=' + q + '&checkin=' + checkIn + '&checkout=' + checkOut + '&group_adults=2&no_rooms=1&nflt=price%3D' + currency + '-0-' + priceMax + '-1'
     };
   }
   // Liens de secours (toujours utiles pendant le chargement, ou si aucune photo n'est trouvée) :
@@ -1493,7 +1534,7 @@
       // la recherche de logement est utile — pas répétée chaque jour du même séjour.
       var stayCheckIn = isoDate(addDays(tripStart, dayCounter));
       var stayCheckOut = isoDate(addDays(tripStart, dayCounter + nightsHere));
-      var stayLodgingLinks = buildLodgingLinks(commune.name, stayCheckIn, stayCheckOut, budgetKey);
+      var stayLodgingLinks = buildLodgingLinks(commune.name, stayCheckIn, stayCheckOut, budgetKey, commune.country);
       for(var n=0; n<nightsHere; n++){
         dayCounter++;
         var distanceKm = n===0 ? Math.round(roadDistanceKm(prevLat, prevLon, commune.lat, commune.lon)) : Math.round(rand(3,14));

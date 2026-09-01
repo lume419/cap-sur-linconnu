@@ -5,9 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['LU']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
-// AD/ES/PT/BE/NL sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl.txt), pas la
-// peine de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
+const COUNTRIES = ['CH']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
+// AD/ES/PT/BE/NL/LU sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu.txt), pas
+// la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -62,16 +62,24 @@ function nearest(gridObj, lat, lon, maxKm){
 // dans la Communauté germanophone, troisième langue officielle du pays). Même chose pour "The
 // Hague" (anglais, remplacé par le néerlandais "Den Haag" — nom déjà utilisé tel quel par le champ
 // "place" du fichier des codes postaux pour cette même ville ; le reste de l'échantillon néerlandais
-// vérifié, Rotterdam/Utrecht/Eindhoven/Nijmegen..., est déjà correct en langue locale). Cas isolés,
-// corrigés à la main plutôt que d'intégrer le fichier alternateNamesV2 (bien plus volumineux) pour
-// si peu d'exceptions connues.
+// vérifié, Rotterdam/Utrecht/Eindhoven/Nijmegen..., est déjà correct en langue locale). Deux cas
+// suisses (échantillon des ~60 plus grandes communes du pays, reste correct en langue locale malgré
+// les quatre langues officielles en présence — Zürich, Basel, Luzern, Biel/Bienne, Bellinzona,
+// Sankt Gallen... déjà bons) : "Geneva" (exonyme anglais, remplacé par le français "Genève" — seule
+// langue officielle du canton), "Sitten" (exonyme allemand employé côté GeoNames pour cette commune
+// bilingue du Valais, remplacé par le français "Sion" — nom officiel utilisé pour la signalétique et
+// les codes postaux de cette ville, bien que "Sitten" reste un nom attesté côté germanophone). Cas
+// isolés, corrigés à la main plutôt que d'intégrer le fichier alternateNamesV2 (bien plus volumineux)
+// pour si peu d'exceptions connues.
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
   'Antwerp': 'Antwerpen',
   'Ostend': 'Oostende',
   'Saint-Vith': 'Sankt Vith',
-  'The Hague': 'Den Haag'
+  'The Hague': 'Den Haag',
+  'Geneva': 'Genève',
+  'Sitten': 'Sion'
 };
 
 for(const country of COUNTRIES){

@@ -23,19 +23,22 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['LU']; // AD/ES/PT/BE/NL déjà générés et commités (public/data/aliases-ad|es|pt|be|nl.txt)
+const COUNTRIES = ['CH']; // AD/ES/PT/BE/NL/LU déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
-// l'ajout du Luxembourg.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb']);
+// l'ajout du Luxembourg ; "it"/"rm" (italien/romanche) depuis l'ajout de la Suisse — GeoNames
+// utilise "rm" pour le romanche (isolanguage ISO 639-1), comme public/js/i18n.js.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm']);
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
   'Antwerp': 'Antwerpen',
   'Ostend': 'Oostende',
   'Saint-Vith': 'Sankt Vith',
-  'The Hague': 'Den Haag'
+  'The Hague': 'Den Haag',
+  'Geneva': 'Genève',
+  'Sitten': 'Sion'
 };
 
 function haversineKm(lat1, lon1, lat2, lon2){

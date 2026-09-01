@@ -1,11 +1,12 @@
 # Cap sur l'Inconnu
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
-avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg — voir
-"Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap),
+avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse —
+voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap),
 de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les Baléares/les Canaries (voir
 "Ferries" plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en
-français, anglais, espagnol, portugais, néerlandais, allemand et luxembourgeois (voir "Langues" plus bas).
+français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien et romanche
+(voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -45,6 +46,8 @@ cap-sur-linconnu/
 │       ├── aliases-nl.txt      # idem pour les Pays-Bas
 │       ├── communes-lu.txt     # ~640 lieux luxembourgeois, même format
 │       ├── aliases-lu.txt      # idem pour le Luxembourg (alias FR/DE/LB/... vers le nom canonique)
+│       ├── communes-ch.txt     # ~11 400 lieux suisses, même format
+│       ├── aliases-ch.txt      # idem pour la Suisse (alias FR/DE/IT/RM/... vers le nom canonique)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -62,8 +65,9 @@ les trois premières routes.
 
 ## Pays couverts
 
-Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas
-et Luxembourg pour l'instant, d'autres viendront. Chaque pays ajoute deux choses, indépendamment des autres :
+Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
+Luxembourg et Suisse pour l'instant, d'autres viendront. Chaque pays ajoute deux à trois choses,
+indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
@@ -74,7 +78,16 @@ et Luxembourg pour l'instant, d'autres viendront. Chaque pays ajoute deux choses
    une ville française.
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
-   jamais affiché pour ce pays plutôt que d'en inventer un).
+   jamais affiché pour ce pays plutôt que d'en inventer un). La Suisse a aussi `hasToll:false`, mais
+   pour une raison différente : son réseau autoroutier est payant, via une vignette ANNUELLE à prix
+   fixe (40 CHF, indépendante du nombre de trajets) plutôt qu'un péage par trajet — aucun barème
+   €/km ou CHF/km ne peut en dériver, et l'app ne simule pas un abonnement (voir le commentaire de
+   `COUNTRIES` dans `app.js` pour le détail).
+3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). Seule la
+   Suisse en a besoin pour l'instant (`CHF`) : elle détermine le plafond de prix affiché pour le
+   logement (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de
+   change) et la devise des liens de recherche Airbnb/Booking générés — jamais le péage/ferry, qui
+   ne sont de toute façon jamais calculés pour un pays hors zone euro pour l'instant.
 
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
@@ -87,14 +100,21 @@ noms alternatifs GeoNames).
 
 ## Langues
 
-Interface traduite en français, anglais, espagnol, portugais, néerlandais, allemand et luxembourgeois
-(`public/js/i18n.js` — dictionnaire à plat par langue + petit moteur `t(clé, variables)`/`tl(clé)`
-pour les listes). Le luxembourgeois est arrivé avec le Luxembourg lui-même (voir "Pays couverts") :
-c'est sa 3ᵉ langue officielle, aux côtés du français et de l'allemand déjà couverts. Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour
-accueillir d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme
-le thème) et, à défaut, détecté depuis la langue du navigateur. Un changement de langue en cours de
-session retraduit aussi bien le formulaire qu'un itinéraire déjà affiché, sans le retirer au sort
-(voir l'écouteur `i18n:langchange` dans `app.js`) — un `leg.__poiUpgradeStarted` (même principe que
+Interface traduite en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois,
+italien et romanche (`public/js/i18n.js` — dictionnaire à plat par langue + petit moteur
+`t(clé, variables)`/`tl(clé)` pour les listes). Le luxembourgeois est arrivé avec le Luxembourg
+(voir "Pays couverts") : c'est sa 3ᵉ langue officielle, aux côtés du français et de l'allemand déjà
+couverts. L'italien et le romanche sont arrivés avec la Suisse, ses 3ᵉ et 4ᵉ langues officielles
+(français et allemand déjà couverts) — le romanche (~40 000 locuteurs, Grisons) est traduit en
+rumantsch grischun (forme écrite standardisée), avec un niveau de confiance plus faible que les
+autres langues : très peu de ressources numériques disponibles pour vérifier le vocabulaire d'une
+langue aussi minoritaire ; une relecture par un locuteur natif reste recommandée.
+
+Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
+d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
+et, à défaut, détecté depuis la langue du navigateur. Un changement de langue en cours de session
+retraduit aussi bien le formulaire qu'un itinéraire déjà affiché, sans le retirer au sort (voir
+l'écouteur `i18n:langchange` dans `app.js`) — un `leg.__poiUpgradeStarted` (même principe que
 `leg.__hikePromise`, déjà utilisé pour les randonnées) garantit qu'aucun ré-affichage ne redemande
 Overpass/Visorando ni ne reconsomme la file de points d'intérêt partagée entre les jours d'un même
 séjour.
@@ -307,7 +327,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.
