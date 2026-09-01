@@ -2,7 +2,7 @@
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
-Allemagne, Italie — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+Allemagne, Italie, Autriche — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
 d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
 Baléares/les Canaries/la Sardaigne/la Sicile (voir "Ferries" plus bas) et une carte interactive
 (Leaflet + tuiles OpenStreetMap). Interface disponible en français, anglais, espagnol, portugais,
@@ -53,6 +53,8 @@ cap-sur-linconnu/
 │       ├── aliases-de.txt      # idem pour l'Allemagne (alias FR/EN/NDS/HSB/FRR/... vers le nom canonique)
 │       ├── communes-it.txt     # ~61 800 lieux italiens, même format
 │       ├── aliases-it.txt      # idem pour l'Italie (alias FR/EN/SC/FUR/... vers le nom canonique)
+│       ├── communes-at.txt     # ~20 000 lieux autrichiens, même format
+│       ├── aliases-at.txt      # idem pour l'Autriche (alias FR/EN/ES/IT/... vers le nom canonique)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -71,8 +73,8 @@ les trois premières routes.
 ## Pays couverts
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
-Luxembourg, Suisse, Allemagne et Italie pour l'instant, d'autres viendront. Chaque pays ajoute deux à
-trois choses, indépendamment des autres :
+Luxembourg, Suisse, Allemagne, Italie et Autriche pour l'instant, d'autres viendront. Chaque pays
+ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
@@ -86,12 +88,13 @@ trois choses, indépendamment des autres :
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
    pour la même raison — l'Autobahn est réellement gratuite pour tous les véhicules modélisés ici,
    seuls les poids lourds ≥3,5 t paient une redevance (LKW-Maut), hors du périmètre de l'app. La
-   Suisse a `hasToll:false` pour une raison différente : son réseau autoroutier est payant, via une
-   vignette ANNUELLE à prix fixe (40 CHF, indépendante du nombre de trajets) plutôt qu'un péage par
-   trajet — aucun barème €/km ou CHF/km ne peut en dériver, et l'app ne simule pas un abonnement
-   (voir le commentaire de `COUNTRIES` dans `app.js` pour le détail). L'Italie, elle, a un vrai
-   réseau à péage classique avec barrière comme la France — `hasToll:true`, tarif dérivé du barème
-   officiel Autostrade per l'Italia 2026 (0,086 €/km retenu, entre les tarifs plaine/montagne).
+   Suisse et l'Autriche ont `hasToll:false` pour une raison différente, tous les deux : leur réseau
+   autoroutier est payant, via une vignette à prix fixe (Suisse : 40 CHF/an ; Autriche : de 12,80 €
+   pour 10 jours à 106,80 €/an, asfinag.at) plutôt qu'un péage par trajet — aucun barème €/km ou
+   CHF/km ne peut en dériver, et l'app ne simule pas un abonnement (voir le commentaire de
+   `COUNTRIES` dans `app.js` pour le détail). L'Italie, elle, a un vrai réseau à péage classique avec
+   barrière comme la France — `hasToll:true`, tarif dérivé du barème officiel Autostrade per l'Italia
+   2026 (0,086 €/km retenu, entre les tarifs plaine/montagne).
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). Seule la
    Suisse en a besoin pour l'instant (`CHF`) : elle détermine le plafond de prix affiché pour le
    logement (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de
@@ -145,6 +148,13 @@ confiance plus faible, comme le sorabe/frison du Nord — et n'a, en plus, AUCUN
 alpins, pas vers des communes, contrairement au sarde/frioulan qui ont une vraie toponymie de
 localités. Le ladin reste une langue d'interface complète, seule la recherche de ville par son nom
 ladin n'est pas possible (comme pour la France, qui n'a aucun alias du tout).
+
+L'Autriche, elle, n'a apporté aucune nouvelle langue : ses 6 langues minoritaires reconnues
+(Volksgruppengesetz — croate du Burgenland, tchèque, hongrois, romani, slovaque, slovène) sont
+toutes déjà des langues nationales d'un pays voisin non encore couvert (croate, tchèque, hongrois,
+slovaque, slovène), sauf le romani qui n'a pas de forme écrite standard unique — exactement les deux
+mêmes motifs d'exclusion déjà appliqués aux 9 langues minoritaires italiennes ci-dessus. L'allemand,
+déjà couvert (voir le Luxembourg et l'Allemagne plus haut), reste sa seule langue officielle.
 
 Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
@@ -368,7 +378,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.

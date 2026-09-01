@@ -1,0 +1,328 @@
+de;Zwettl;Zwettl Stadt
+de;Zürs am Arlberg;Zürs
+pt;Íbosa do Danúbio;Ybbs an der Donau
+de;Wolkersdorf;Wolkersdorf im Weinviertel
+pt;Viselburgo;Wieselburg
+de;Wr. Neustadt;Wiener Neustadt
+fr;Vienne;Wien
+es;Viena;Wien
+en;Vienna;Wien
+it;Vienna;Wien
+pt;Viena;Wien
+nl;Wenen;Wien
+rm;Vienna;Wien
+de;Weißenkirchen i. d. Wachau;Weißenkirchen in der Wachau
+it;Weißenbach an der Triesting;Weissenbach an der Triesting
+nl;Weißenbach an der Triesting;Weissenbach an der Triesting
+de;Weißenbach;Weissenbach
+de;Weißbriach;Weissbriach
+de;Weiden;Weiden bei Rechnitz
+de;Warth am Arlberg;Warth
+de;St. Barbara;Wartberg
+de;Wallern;Wallern im Burgenland
+de;Wagram a.d. Donau;Wagram an der Donau
+it;Villaco;Villach
+fur;Vilac;Villach
+de;Velden;Velden am Wörther See
+de;Velden am Wörthersee;Velden am Wörther See
+de;Unterweißenbach;Unterweissenbach
+de;Unteroberndorf;Unter-Oberndorf
+de;Unterdraßnitz;Untere Drassnitz
+de;Unterbergen;Podgora
+de;Überacken;Uberackern
+de;Tscherberg;Črgoviče
+de;Trögern;Korte
+de;Treffen am Ossiacher See;Treffen
+it;Treffen am Ossiacher See;Treffen
+pt;Treffen am Ossiacher See;Treffen
+de;Treffen / Gerlitzen;Treffen
+de;Tallak;Thallack
+de;Strengen am Arlberg;Strengen
+de;Straßwalchen;Strasswalchen
+de;Straßham;Strassham
+de;Straß im Straßertale;Strass
+de;Straß;Strass
+de;Stinkenbrunn;Steinbrunn
+es;Steyermühl;Steyrermühl
+de;Steinbach bei Göstling;Steinbach
+lb;Steinach um Brenner;Steinach am Brenner
+de;Steeg, Lechtal;Steeg
+de;Spitz an der Donau;Spitz
+fr;Hall en Tyrol;Hall in Tirol
+de;Siegendorf;Siegendorf im Burgenland
+en;Seefeld;Seefeld Kadolz
+de;Seeboden am Millstätter See;Seeboden
+de;See im Paznauntal;See
+de;Schleißheim;Schleissheim
+es;Scheffau;Scheffau am Wilden Kaiser
+en;Schaerding;Schärding
+es;Schaerding;Schärding
+fr;Schaerding;Schärding
+pt;Schaerding;Schärding
+de;St. Wolfgang im Salzkammergut;Sankt Wolfgang im Salzkammergut
+en;St Wolfgang;Sankt Wolfgang
+de;St. Veit im Pongau;Sankt Veit im Pongau
+de;St. Veit;Sankt Veit im Pongau
+de;St. Veit;Sankt Veit im Jauntal
+de;St. Veit an der Glan;Sankt Veit an der Glan
+de;St. Valentin;Sankt Valentin
+de;St. Urban;Sankt Urban
+de;St. Ulrich am Pillersee;Sankt Ulrich am Pillersee
+en;St Stefan im Gailtal;Sankt Stefan an der Gail
+de;Sankt Stefan im Lavanttal;Sankt Stefan
+de;St. Stefan im Lavanttal;Sankt Stefan
+de;Sankt Stefan;St. Stefan
+de;St. Primus;Sankt Primus
+it;St. Pölten;Sankt Pölten
+en;St. Pölten;Sankt Pölten
+de;St. Pölten;Sankt Pölten
+de;Pölten;Sankt Pölten
+en;Saint Pölten;Sankt Pölten
+de;St. Peter am Kammersberg;Sankt Peter am Kammersberg
+de;St. Paul;Sankt Paul
+de;St. Oswald bei Freistadt;Sankt Oswald bei Freistadt
+de;St. Nikolai im Sausal;Sankt Nikolai im Sausal
+en;St Michael im Lungau;Sankt Michael im Lungau
+de;St. Michael im Lungau;Sankt Michael im Lungau
+de;Sankt Michael;Sankt Michael ob Bleiburg
+de;Smihel nad Pliberkom;Sankt Michael ob Bleiburg
+de;St. Martin b. Lofer;Sankt Martin bei Lofer
+de;St. Martin an der Raab;Sankt Martin an der Raab
+de;Sankt Marienkirchen;Sankt Marienkirchen bei Schärding
+de;St. Margarethen im Lungau;Sankt Margarethen im Lungau
+de;St. Margarethen im Lavanttal;Sankt Margarethen im Lavanttal
+de;St. Margarethen im Burgenland;Sankt Margarethen im Burgenland
+de;Sankt Magdalena;Sankt Magdalena am Lemberg
+de;St. Lorenzen im Lesachtal;Sankt Lorenzen im Lesachtal
+de;St. Lorenzen im Gitschtal;Sankt Lorenzen im Gitschtal
+de;St. Lorenzen ob Murau;Sankt Lorenzen ob Murau
+de;Sankt Leonhard;Sankt Leonhard am Wald
+de;Sankt Leonhard am Walde;Sankt Leonhard am Wald
+de;St. Leonhard;Sankt Leonhard
+de;Sankt Kanzian am Klopeiner See;Sankt Kanzian
+de;St. Johann in Tirol;Sankt Johann in Tirol
+de;St. Johann in der Haide;Sankt Johann in der Haide
+en;St Johann im Pongau;Sankt Johann im Pongau
+de;St. Johann im Pongau;Sankt Johann im Pongau
+de;St. Johann am Tauern;Sankt Johann am Tauern
+de;St. Jakob in Haus;Sankt Jakob in Haus
+de;St. Jakob im Walde;Sankt Jakob im Walde
+de;St. Jakob im Lesachtal;Sankt Jakob im Lesachtal
+de;St. Jakob im Rosental;Sankt Jakob
+en;St. Gilgen;Sankt Gilgen
+en;Saint Gilgen;Sankt Gilgen
+de;St. Gilgen;Sankt Gilgen
+de;St. Gertraud;Sankt Gertraud
+de;St. Georgen ob Murau;Sankt Georgen ob Murau
+de;St. Georgen ob Judenburg;Sankt Georgen ob Judenburg
+de;St. Georgen im Attergau;Sankt Georgen im Attergau
+de;St. Georgen / Leys;Sankt Georgen an der Leys
+de;St. Georgen an der Leys;Sankt Georgen an der Leys
+de;St. Gallenkirch;Sankt Gallenkirch
+de;St. Florian am Inn;Sankt Florian am Inn
+de;St. Egyden;Sankt Egyden
+en;Saint Bernhard;Sankt Bernhard
+en;St. Bernhard;Sankt Bernhard
+es;Montafon;Sankt Anton im Montafon
+de;St. Anton im Montafon;Sankt Anton im Montafon
+en;Saint Anton;St Anton am Arlberg
+de;St. Anton am Arlberg;St Anton am Arlberg
+en;St. Anton;St Anton am Arlberg
+en;Sankt Anton am Arlberg;St Anton am Arlberg
+de;St. Anna am Aigen;Sankt Anna am Aigen
+de;St. Andrä am Zicksee;Sankt Andrä am Zicksee
+de;Sankt Andrä;Sankt Andrä an der Traisen
+de;St. Andrä an der Traisen;Sankt Andrä an der Traisen
+de;St. Agatha;Sankt Agatha
+es;Salzburgo;Salzburg
+fr;Salzbourg;Salzburg
+it;Salisburgo;Salzburg
+pt;Salzburgo;Salzburg
+es;Saafelden;Saalfelden am Steinernen Meer
+de;Saalbach-Hinterglemm;Saalbach
+de;Rust, Burgenland;Rust
+de;Rust am Neusiedler See;Rust
+de;Rußbach am Paß Gschütt;Russbach am Pass Gschütt
+de;Rußbach;Russbach
+de;Rußbachsaag;Russbachsaag
+de;Rosenau am Hengstpaß;Rosenau am Hengstpass
+de;Riegersburg Stmk.;Riegersburg
+de;Reutte in Tirol;Reutte
+es;Katschberg;Rennweg am Katschberg
+de;Ramsau;Ramsau am Dachstein
+de;Raabs / Thaya;Raabs an der Thaya
+de;Prägraten am Großvenediger;Prägraten
+de;Pößnitz;Pössnitz
+de;Pörtschach am Wörther See;Pörtschach am Wörthersee
+it;Pörtschach am Wörther See;Pörtschach am Wörthersee
+fur;Pörtschach am Wörther See;Pörtschach am Wörthersee
+pt;Pörtschach am Wörther See;Pörtschach am Wörthersee
+es;Polling;Polling im Innkreis
+de;Pöllau bei Hartberg;Pöllau
+de;Podersdorf;Podersdorf am See
+de;Pirkdorf;Breška Ves
+de;Pyrath;Pirath
+rm;Fuond;Pfunds
+de;Pfarrkirchen;Pfarrkirchen im Mühlkreis
+de;Bereneck;Pernegg an der Mur
+de;Pernegg;Pernegg an der Mur
+de;Petersdorf;Perchtoldsdorf
+de;Orth a.d.Donau;Orth an der Donau
+de;Ollersdorf;Ollersdorf im Burgenland
+de;Oberweißenbach;Oberweissenbach
+es;Obertrum;Obertrum am See
+de;Oberplaißa;Ober Plaissa
+de;Ober-Neustift;Oberneustift
+es;Oberndorf;Oberndorf in Tirol
+de;Wildschönau-Oberau;Oberau
+de;Niederdörfl;Spodnja Vesca
+de;Wildschönau-Niederau;Niederau
+en;Neustift;Neustift im Stubaital
+de;Neustift bei Scheibbs;Neustift
+de;Neudorf;Neudorf bei Parndorf
+it;Nodrio;Nauders
+de;Muehlfeld;Mühlfeld
+de;Bad Mitterndorf;Mitterndorf im Steirischen Salzkammergut
+de;Minihof-Liebau;Minihof Liebau
+de;Zillertal;Mayrhofen
+de;Maiss;Maiß
+de;Losensteinleithen;Losensteinleiten
+de;Bad Loipersdorf;Loipersdorf bei Fürstenfeld
+de;Lohnsburg am Kobernaußerwald;Lohnsburg
+de;Lochau am Bodensee;Lochau
+de;Lettenstätten;Letina
+de;Leopoldsdorf bei Wien;Leopoldsdorf
+de;Markt Leopoldschlag;Leopoldschlag
+en;Leibnitz, Styria;Leibnitz
+it;Leibnitz, Stiria;Leibnitz
+de;Lech am Arlberg;Lech
+fr;Laxenbourg;Laxenburg
+pt;Laxemburgo;Laxenburg
+de;Laßnitzhöhe;Lassnitzhöhe
+de;Krumpendorf am Wörther See;Krumpendorf
+de;Krummnußbaum;Krumnussbaum
+en;Krems;Krems an der Donau
+de;Kraubath in der Weststeiermark;Kraubath
+fr;Korneubourg;Korneuburg
+de;Kömmel;Komelj
+de;Klein-Wien;Kleinwien
+de;Klein-Schönbichl;Kleinschönbichl
+de;Kleinschollach;Klein-Schollach
+de;Klam bei Grein;Klam
+de;Klagenfurt;Klagenfurt am Wörthersee
+en;Klagenfurt;Klagenfurt am Wörthersee
+es;Klagenfurt;Klagenfurt am Wörthersee
+fr;Klagenfurt;Klagenfurt am Wörthersee
+it;Klagenfurt;Klagenfurt am Wörthersee
+nl;Klagenfurt;Klagenfurt am Wörthersee
+pt;Klagenfurt;Klagenfurt am Wörthersee
+es;Kirchdorf;Kirchdorf in Tirol
+fr;Kirchdorf en Tyrol;Kirchdorf in Tirol
+es;Kirchberg;Kirchberg in Tirol
+de;Kirchbach im Gailtal;Kirchbach
+es;Keutschach;Keutschach am See
+fr;Kematen en Tyrol;Kematen in Tirol
+de;Kanzelhöhe/Gerlitzen;Kanzelhöhe
+de;Kanzelhöhe / Gerlitzen;Kanzelhöhe
+de;Kalsdorf;Kalsdorf bei Graz
+de;Jöß;Jöss
+de;Maria Jeutendorf;Jeutendorf
+de;Jenig-Tröpolach;Jenig
+de;Irdning-Donnersbachtal;Irdning
+de;Höggen / Radstadt;Höggen
+de;Hof;Dvor
+de;Hirschegg Rein;Hirschegg
+de;Heiligenblut am Großglockner;Heiligenblut
+en;Heiligenblut am Großglockner;Heiligenblut
+de;Haller am Haldensee;Haller
+de;Haid bei Ansfelden;Haid
+en;Guessing;Güssing
+es;Guessing;Güssing
+fr;Guessing;Güssing
+pt;Guessing;Güssing
+de;Maria Gugging;Gugging
+de;Großsulz;Grosssulz
+de;Großsöding;Grosssöding
+de;Grossschollach;Groß-Schollach
+de;Grossrassberg;Groß-Raßberg
+de;Großraming;Grossraming
+de;Großpetersdorf;Grosspetersdorf
+de;Bad Großpertholz;Grosspertholz
+de;Großhöflein;Grosshöflein
+de;Großgmain;Grossgmain
+de;Großarl;Grossarl
+de;Goldegg im Pongau;Goldegg
+de;Going am Wilden Kaiser;Going
+de;Sonnleiten;Gnesau Sonnleiten
+de;Gmünd in Kärnten;Gmünd
+de;Gießenberg;Giessenberg
+de;Fukersberg;Fuckersberg
+en;Fukersberg;Fuckersberg
+nl;Fukersberg;Fuckersberg
+de;Flirsch am Arlberg;Flirsch
+de;Fließ im Oberinntal;Fliess
+de;Fließ;Fliess
+de;Feuchten;Feichten
+de;Feichten im Kaunertal;Feichten
+de;Feldkirchen;Feldkirchen bei Graz
+de;Feldkirchen a. d. Donau;Feldkirchen an der Donau
+fur;Feistris;Feistritz an der Gail
+de;Dobersberg a.d. Thaya;Dobersberg
+de;Deutschschützen;Deutsch Schützen-Eisenberg
+de;Deutsch Schützen;Deutsch Schützen-Eisenberg
+de;Deutsch Reinersdorf;Reinersdorf
+de;Bruck an der Glocknerstrasse;Bruck an der Großglocknerstraße
+fr;Bruck an der Grossglocknerstrasse;Bruck an der Großglocknerstraße
+de;Breitenbrunn am Neusiedler See;Breitenbrunn
+fr;Brégence;Bregenz
+de;Bleiburg;Bleiburg/Pliberk
+en;Bleiburg;Bleiburg/Pliberk
+it;Bleiburg;Bleiburg/Pliberk
+nl;Bleiburg;Bleiburg/Pliberk
+de;Bad Bleiberg;Bleiberg ob Villach
+de;Bergheim bei Salzburg;Bergheim
+de;Bad St. Leonhard im Lavanttal;Bad Sankt Leonhard im Lavanttal
+de;Bad Goisern am Hallstättersee;Bad Goisern
+en;Bad Goisern am Hallstättersee;Bad Goisern
+fr;Bad Goisern am Hallstättersee;Bad Goisern
+it;Bad Goisern am Hallstättersee;Bad Goisern
+nl;Bad Goisern am Hallstättersee;Bad Goisern
+en;Baden bei Wien;Baden
+nl;Baden bei Wien;Baden
+it;Baden bei Wien;Baden
+de;Baden bei Wien;Baden
+de;Außertreffling;Aussertreffling
+de;Asten (Linz-Land);Asten
+fur;Oristagn;Arnoldstein
+de;Annenheim am Ossiachersee;Annenheim
+de;Ampflwang im Hausruckwald;Ampflwang
+de;Allersdorf;Allersdorf im Burgenland
+de;Kömmelgupf;Vrh
+de;Weißenbach;Bela
+de;St. Jakob in Defereggen;Sankt Jakob in Defereggen
+de;St. Leonhard im Pitztal;Sankt Leonhard im Pitztal
+de;Rennweg am Katschberg;Rennweg
+de;St. Veit;Sankt Veit
+de;Rohrmoos-Untertal;Rohrmoos
+de;Rohrmoos bei Schladming;Rohrmoos
+de;Seelach;Seelach am Klopeinersee
+es;Seelach;Seelach am Klopeinersee
+de;Sankt Martin am Tennengebirge;St. Martin of Tennengebirge
+de;St. Martin am Tennengebirge;St. Martin of Tennengebirge
+de;Roßleithen;Rossleithen
+de;St. Koloman;Sankt Koloman
+es;Nassfeld;Sonnenalpe Nassfeld
+de;Nassfeld-Sonnalpe;Sonnenalpe Nassfeld
+de;Sankt Andrä-Lintsching;Lintsching
+de;Kirchlandl;Kirchenlandl
+de;Nußham;Nussham
+de;Weißenbrunn;Weissenbrunn
+de;Groß Reith;Gross Reith
+de;Fißlthal;Fisslthal
+de;Öd;Oed
+de;Hohensaß;Hohensass
+de;Eggmayr;Eggmair
+de;Graßing;Grassing
+de;Salzburg-Nonnberg;Nonnberg-Salzburg
+de;Waldamt;Ybbsitz-Waldamt
+de;Raith bei Annaberg;Reith

@@ -8,25 +8,26 @@
   // la France, l'Espagne et l'Italie ont un vrai réseau autoroutier à péage significatif au tarif
   // kilométrique repéré (voir plus bas, finalizeLeg) ; le Portugal n'a que son réseau à péage
   // électronique sans barrière (tarif très inférieur, cohérent avec les grilles Via Verde/Ascendi
-  // consultées) ; l'Andorre, la Belgique, les Pays-Bas, le Luxembourg, la Suisse et l'Allemagne
-  // n'ont pas de péage AU TRAJET — aucun montant n'y est donc jamais affiché. Dans les trois
-  // premiers, un ou deux ponts/tunnels isolés restent payants (Kiltunnel/pont de Nieuwerbrug aux
-  // Pays-Bas, quelques tunnels ponctuels au Luxembourg) mais ne sont, volontairement, pas modélisés :
-  // contrairement à un réseau autoroutier ou à une traversée en ferry (toujours obligatoire, voir
-  // plus bas), rien ne dit qu'un trajet donné passerait justement par cet ouvrage précis plutôt
-  // qu'un itinéraire alternatif gratuit — cette app ne calcule pas de vrai itinéraire routier (voir
-  // roadDistanceKm), les ajouter au hasard serait donc plus souvent faux que juste. La Suisse est un
-  // cas à part : son réseau autoroutier n'est pas gratuit, mais son usage est soumis à une vignette
-  // ANNUELLE à prix fixe (40 CHF, valable un an entier, indépendante du nombre de trajets ou de
-  // kilomètres parcourus) plutôt qu'à un péage par trajet — aucun modèle €/km n'a de sens ici, et
-  // l'app ne simule pas un abonnement annuel. Un ou deux tunnels alpins isolés (Grand-Saint-Bernard
-  // vers l'Italie, Munt la Schera vers l'Italie) restent payants EN PLUS de la vignette, mais
-  // suivent le même raisonnement que les ouvrages isolés ci-dessus : non modélisés. L'Allemagne est,
-  // elle, un cas simple : ses autoroutes (Autobahn) sont entièrement gratuites pour tous les modes
-  // de transport que couvre cette app (voiture, van, moto) — seuls les poids lourds ≥3,5 t paient
-  // une redevance kilométrique (LKW-Maut, élargie aux véhicules de 3,5 t depuis juillet 2024), un
-  // seuil qu'aucun véhicule modélisé ici n'atteint (un van aménagé reste un véhicule léger).
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT seulement) : noms alternatifs par langue (voir
+  // consultées) ; l'Andorre, la Belgique, les Pays-Bas, le Luxembourg, la Suisse, l'Allemagne et
+  // l'Autriche n'ont pas de péage AU TRAJET — aucun montant n'y est donc jamais affiché. Dans les
+  // trois premiers, un ou deux ponts/tunnels isolés restent payants (Kiltunnel/pont de Nieuwerbrug
+  // aux Pays-Bas, quelques tunnels ponctuels au Luxembourg) mais ne sont, volontairement, pas
+  // modélisés : contrairement à un réseau autoroutier ou à une traversée en ferry (toujours
+  // obligatoire, voir plus bas), rien ne dit qu'un trajet donné passerait justement par cet ouvrage
+  // précis plutôt qu'un itinéraire alternatif gratuit — cette app ne calcule pas de vrai itinéraire
+  // routier (voir roadDistanceKm), les ajouter au hasard serait donc plus souvent faux que juste. La
+  // Suisse et l'Autriche sont un cas à part, tous les deux : leur réseau autoroutier n'est pas
+  // gratuit, mais son usage est soumis à une vignette ANNUELLE (ou de plus courte durée) à prix fixe
+  // plutôt qu'à un péage par trajet — aucun modèle €/km ou CHF/km n'a de sens ici, et l'app ne simule
+  // pas un abonnement. Chacun a aussi ses propres ouvrages isolés à péage EN PLUS de la vignette,
+  // non modélisés pour la même raison que le Kiltunnel néerlandais : le Grand-Saint-Bernard/Munt la
+  // Schera pour la Suisse, plusieurs tunnels/tronçons alpins (Brenner, Tauern, Karawanken...) pour
+  // l'Autriche. L'Allemagne est, elle, un cas simple : ses autoroutes (Autobahn) sont entièrement
+  // gratuites pour tous les modes de transport que couvre cette app (voiture, van, moto) — seuls les
+  // poids lourds ≥3,5 t paient une redevance kilométrique (LKW-Maut, élargie aux véhicules de 3,5 t
+  // depuis juillet 2024), un seuil qu'aucun véhicule modélisé ici n'atteint (un van aménagé reste un
+  // véhicule léger).
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT seulement) : noms alternatifs par langue (voir
   // scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une ville dans
   // la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen", "La Haye"
   // pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -44,7 +45,8 @@
     LU: { code:'LU', name:'Luxembourg', file:'communes-lu.txt', hasToll:false, aliasFile:'aliases-lu.txt' },
     CH: { code:'CH', name:'Suisse', file:'communes-ch.txt', hasToll:false, aliasFile:'aliases-ch.txt', currency:'CHF' },
     DE: { code:'DE', name:'Allemagne', file:'communes-de.txt', hasToll:false, aliasFile:'aliases-de.txt' },
-    IT: { code:'IT', name:'Italie', file:'communes-it.txt', hasToll:true, aliasFile:'aliases-it.txt' }
+    IT: { code:'IT', name:'Italie', file:'communes-it.txt', hasToll:true, aliasFile:'aliases-it.txt' },
+    AT: { code:'AT', name:'Autriche', file:'communes-at.txt', hasToll:false, aliasFile:'aliases-at.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -256,6 +258,14 @@
   //   classe A (voiture) : 0,07869 €/km en plaine, 0,09315 €/km en zone de montagne. Retenu :
   //   0,086 €/km (valeur intermédiaire), classes 2/5 extrapolées avec les mêmes ratios que la
   //   France/l'Espagne/le Portugal (2 ≈ ×1,55, 5 ≈ ×0,58) faute de grille détaillée par classe.
+  // - Autriche : même principe que la Suisse — pas gratuite, mais pas un péage au trajet non plus.
+  //   Une vignette (autocollante ou digitale, asfinag.at) donne un accès illimité au réseau pour sa
+  //   durée : 10 jours (12,80 €), 2 mois (32 €) ou 1 an (106,80 €) pour une voiture — aucun barème
+  //   €/km ne peut en dériver, et l'app ne simule pas un abonnement (hasToll:false). Plusieurs
+  //   tronçons alpins isolés (Sondermautstrecken) restent payants EN PLUS de la vignette — Brenner
+  //   A13 (12,50 € l'aller), Tauern A10 (15 €), Karawanken A11, Arlberg S16... — mais suivent le même
+  //   raisonnement que le Kiltunnel néerlandais/le Grand-Saint-Bernard suisse : des ouvrages isolés
+  //   parmi d'autres itinéraires possibles, non modélisés.
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,

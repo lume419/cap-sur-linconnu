@@ -5,9 +5,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['IT']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
-// AD/ES/PT/BE/NL/LU/CH/DE sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de.txt),
-// pas la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
+const COUNTRIES = ['AT']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
+// AD/ES/PT/BE/NL/LU/CH/DE/IT sont déjà générés et commités
+// (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it.txt), pas la peine de retélécharger leurs sources
+// pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -77,8 +78,10 @@ function nearest(gridObj, lat, lon, maxKm){
 // y compris les villes bilingues du Tyrol du Sud) : les grandes capitales régionales les plus connues
 // à l'international ont presque toutes un exonyme anglais dans le dump GeoNames — "Rome"->"Roma",
 // "Milan"->"Milano", "Naples"->"Napoli", "Turin"->"Torino", "Genoa"->"Genova", "Florence"->"Firenze",
-// "Padua"->"Padova", "Venice"->"Venezia". Cas isolés, corrigés à la main plutôt que d'intégrer le
-// fichier alternateNamesV2 (bien plus volumineux) pour si peu d'exceptions connues.
+// "Padua"->"Padova", "Venice"->"Venezia". Un cas autrichien (échantillon des 25 plus grandes
+// communes du pays — Graz, Linz, Salzburg, Innsbruck, Klagenfurt am Wörthersee... déjà bons) :
+// "Vienna" (anglais, remplacé par l'allemand "Wien"). Cas isolés, corrigés à la main plutôt que
+// d'intégrer le fichier alternateNamesV2 (bien plus volumineux) pour si peu d'exceptions connues.
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
@@ -97,7 +100,8 @@ const NAME_OVERRIDES = {
   'Genoa': 'Genova',
   'Florence': 'Firenze',
   'Padua': 'Padova',
-  'Venice': 'Venezia'
+  'Venice': 'Venezia',
+  'Vienna': 'Wien'
 };
 
 for(const country of COUNTRIES){
