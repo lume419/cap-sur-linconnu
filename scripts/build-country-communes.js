@@ -5,8 +5,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['DE']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
-// AD/ES/PT/BE/NL/LU/CH sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch.txt),
+const COUNTRIES = ['IT']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
+// AD/ES/PT/BE/NL/LU/CH/DE sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de.txt),
 // pas la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
@@ -72,8 +72,13 @@ function nearest(gridObj, lat, lon, maxKm){
 // cas allemands (échantillon des 30 plus grandes communes du pays, reste déjà correct en langue
 // locale — Köln, Frankfurt am Main, Düsseldorf, Hannover, Braunschweig... malgré leurs exonymes
 // français/anglais fréquents) : "Munich" (anglais, remplacé par l'allemand "München"), "Nuremberg"
-// (anglais, remplacé par l'allemand "Nürnberg"). Cas isolés, corrigés à la main plutôt que d'intégrer
-// le fichier alternateNamesV2 (bien plus volumineux) pour si peu d'exceptions connues.
+// (anglais, remplacé par l'allemand "Nürnberg"). Huit cas italiens (échantillon des 70 plus grandes
+// communes du pays — Palermo, Bologna, Bari, Catania, Verona, Trieste, Bolzano, Udine... déjà bons,
+// y compris les villes bilingues du Tyrol du Sud) : les grandes capitales régionales les plus connues
+// à l'international ont presque toutes un exonyme anglais dans le dump GeoNames — "Rome"->"Roma",
+// "Milan"->"Milano", "Naples"->"Napoli", "Turin"->"Torino", "Genoa"->"Genova", "Florence"->"Firenze",
+// "Padua"->"Padova", "Venice"->"Venezia". Cas isolés, corrigés à la main plutôt que d'intégrer le
+// fichier alternateNamesV2 (bien plus volumineux) pour si peu d'exceptions connues.
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
@@ -84,7 +89,15 @@ const NAME_OVERRIDES = {
   'Geneva': 'Genève',
   'Sitten': 'Sion',
   'Munich': 'München',
-  'Nuremberg': 'Nürnberg'
+  'Nuremberg': 'Nürnberg',
+  'Rome': 'Roma',
+  'Milan': 'Milano',
+  'Naples': 'Napoli',
+  'Turin': 'Torino',
+  'Genoa': 'Genova',
+  'Florence': 'Firenze',
+  'Padua': 'Padova',
+  'Venice': 'Venezia'
 };
 
 for(const country of COUNTRIES){

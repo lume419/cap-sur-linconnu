@@ -23,15 +23,22 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['DE']; // AD/ES/PT/BE/NL/LU/CH déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch.txt)
+const COUNTRIES = ['IT']; // AD/ES/PT/BE/NL/LU/CH/DE déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
 // l'ajout du Luxembourg ; "it"/"rm" (italien/romanche) depuis l'ajout de la Suisse — GeoNames
 // utilise "rm" pour le romanche (isolanguage ISO 639-1), comme public/js/i18n.js. "nds"/"hsb"/"frr"
 // (bas-allemand/sorabe/frison du Nord, ISO 639-2/3 — pas de code 639-1 pour ces trois) depuis
-// l'ajout de l'Allemagne.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr']);
+// l'ajout de l'Allemagne. "sc"/"fur"/"lld" (sarde/frioulan/ladin, ISO 639-1 pour le sarde, 639-2/3
+// pour les deux autres) depuis l'ajout de l'Italie — "lld" reste dans cet ensemble par cohérence,
+// mais ne produira JAMAIS d'alias en pratique : les 91 lignes "lld" du fichier alternateNamesV2
+// italien pointent toutes vers des sommets/massifs (Aspromonte, Nebrodi, Monte Linas...), aucune
+// vers une commune (feature class P) — GeoNames n'a tout simplement pas de toponymie ladine pour
+// les localités, contrairement au sarde/frioulan qui, eux, en ont une réelle. Le ladin reste malgré
+// tout une langue d'interface complète (public/js/i18n.js) : seule la recherche de ville par son nom
+// ladin n'est pas possible, exactement comme pour la France (aucun aliasFile du tout, voir plus haut).
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -50,7 +57,15 @@ const NAME_OVERRIDES = {
   'Geneva': 'Genève',
   'Sitten': 'Sion',
   'Munich': 'München',
-  'Nuremberg': 'Nürnberg'
+  'Nuremberg': 'Nürnberg',
+  'Rome': 'Roma',
+  'Milan': 'Milano',
+  'Naples': 'Napoli',
+  'Turin': 'Torino',
+  'Genoa': 'Genova',
+  'Florence': 'Firenze',
+  'Padua': 'Padova',
+  'Venice': 'Venezia'
 };
 
 function haversineKm(lat1, lon1, lat2, lon2){

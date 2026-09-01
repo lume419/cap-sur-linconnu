@@ -2,11 +2,12 @@
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
-Allemagne — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points d'intérêt
-(OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les Baléares/les
-Canaries (voir "Ferries" plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface
-disponible en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien,
-romanche, bas-allemand, sorabe et frison du Nord (voir "Langues" plus bas).
+Allemagne, Italie — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
+Baléares/les Canaries/la Sardaigne/la Sicile (voir "Ferries" plus bas) et une carte interactive
+(Leaflet + tuiles OpenStreetMap). Interface disponible en français, anglais, espagnol, portugais,
+néerlandais, allemand, luxembourgeois, italien, romanche, bas-allemand, sorabe, frison du Nord, sarde,
+frioulan et ladin (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -50,6 +51,8 @@ cap-sur-linconnu/
 │       ├── aliases-ch.txt      # idem pour la Suisse (alias FR/DE/IT/RM/... vers le nom canonique)
 │       ├── communes-de.txt     # ~77 000 lieux allemands, même format
 │       ├── aliases-de.txt      # idem pour l'Allemagne (alias FR/EN/NDS/HSB/FRR/... vers le nom canonique)
+│       ├── communes-it.txt     # ~61 800 lieux italiens, même format
+│       ├── aliases-it.txt      # idem pour l'Italie (alias FR/EN/SC/FUR/... vers le nom canonique)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -68,8 +71,8 @@ les trois premières routes.
 ## Pays couverts
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
-Luxembourg, Suisse et Allemagne pour l'instant, d'autres viendront. Chaque pays ajoute deux à trois
-choses, indépendamment des autres :
+Luxembourg, Suisse, Allemagne et Italie pour l'instant, d'autres viendront. Chaque pays ajoute deux à
+trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
@@ -86,7 +89,9 @@ choses, indépendamment des autres :
    Suisse a `hasToll:false` pour une raison différente : son réseau autoroutier est payant, via une
    vignette ANNUELLE à prix fixe (40 CHF, indépendante du nombre de trajets) plutôt qu'un péage par
    trajet — aucun barème €/km ou CHF/km ne peut en dériver, et l'app ne simule pas un abonnement
-   (voir le commentaire de `COUNTRIES` dans `app.js` pour le détail).
+   (voir le commentaire de `COUNTRIES` dans `app.js` pour le détail). L'Italie, elle, a un vrai
+   réseau à péage classique avec barrière comme la France — `hasToll:true`, tarif dérivé du barème
+   officiel Autostrade per l'Italia 2026 (0,086 €/km retenu, entre les tarifs plaine/montagne).
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). Seule la
    Suisse en a besoin pour l'instant (`CHF`) : elle détermine le plafond de prix affiché pour le
    logement (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de
@@ -105,15 +110,15 @@ noms alternatifs GeoNames).
 ## Langues
 
 Interface traduite en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois,
-italien, romanche, bas-allemand, sorabe et frison du Nord (`public/js/i18n.js` — dictionnaire à plat
-par langue + petit moteur `t(clé, variables)`/`tl(clé)` pour les listes). Le luxembourgeois est arrivé
-avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle, aux côtés du français et de
-l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la Suisse, ses 3ᵉ et 4ᵉ langues
-officielles (français et allemand déjà couverts) — le romanche (~40 000 locuteurs, Grisons) est
-traduit en rumantsch grischun (forme écrite standardisée).
+italien, romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan et ladin (`public/js/i18n.js`
+— dictionnaire à plat par langue + petit moteur `t(clé, variables)`/`tl(clé)` pour les listes). Le
+luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
+aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
+Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
+(~40 000 locuteurs, Grisons) est traduit en rumantsch grischun (forme écrite standardisée).
 
 Le bas-allemand, le sorabe et le frison du Nord sont arrivés avec l'Allemagne : trois de ses sept
-langues régionales/minoritaires reconnues par la charte européenne (les quatre autres — danois,
+langues régionales/minoritaires reconnues par la charte européenne (les trois autres — danois,
 frison saterlandais, romani — restent hors périmètre pour l'instant, soit parce qu'une langue
 nationale d'un pays non couvert n'a pas la même légitimité qu'une langue propre à un pays déjà
 couvert, soit par absence de forme écrite standard unique). Le bas-allemand (plattdüütsch,
@@ -126,6 +131,20 @@ un niveau de confiance nettement plus faible que les autres langues du projet : 
 numériques disponibles pour vérifier le vocabulaire de langues aussi minoritaires — comme pour le
 romanche, une relecture par un locuteur natif reste recommandée avant de considérer ces blocs comme
 définitifs.
+
+Le sarde, le frioulan et le ladin sont arrivés avec l'Italie : trois de ses douze langues minoritaires
+reconnues (loi 482/1999) — les neuf autres (allemand du Tyrol du Sud, français/franco-provençal du
+Val d'Aoste, slovène, croate, grec, albanais, catalan, occitan) restent hors périmètre, soit parce
+qu'elles sont déjà des langues nationales d'un autre pays (le français n'a pas plus de légitimité
+"italienne" que "française"), soit parce qu'elles ne concernent que de minuscules enclaves. Le sarde
+(sardu, limba sarda comuna, ~1 à 1,5 million de locuteurs — la langue régionale la plus parlée
+d'Italie) et le frioulan (furlan, ~600 000 locuteurs) ont un niveau de confiance comparable au
+bas-allemand. Le ladin (~30 000 locuteurs, Dolomites, forme écrite ladin dolomitan) a un niveau de
+confiance plus faible, comme le sorabe/frison du Nord — et n'a, en plus, AUCUN alias de ville : les
+91 entrées "lld" du fichier GeoNames alternateNamesV2 italien pointent toutes vers des sommets/massifs
+alpins, pas vers des communes, contrairement au sarde/frioulan qui ont une vraie toponymie de
+localités. Le ladin reste une langue d'interface complète, seule la recherche de ville par son nom
+ladin n'est pas possible (comme pour la France, qui n'a aucun alias du tout).
 
 Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
@@ -277,17 +296,21 @@ trajet pouvait "traverser" la Méditerranée ou l'Atlantique comme une route nor
 faux. Décoché par défaut (comme "Autoroutes à péage autorisées", juste au-dessus dans le
 formulaire) — le tirage au sort reste alors confiné à la même masse continentale du début à la fin.
 
-- **Coché**, le tirage peut inclure la **Corse**, les **Baléares**, les **Canaries** ou les **îles
-  Wadden** (Pays-Bas — Texel, Vlieland, Terschelling, Ameland, Schiermonnikoog), reliées au
-  continent par une vraie ligne de ferry réelle (durée et tarif fixes par ligne, voir
-  `FERRY_ROUTES` dans `app.js` — pas un calcul au km/heure comme la route, un ferry ne va pas plus
-  vite avec un moteur plus puissant). Fonctionne pour tous les modes de transport, y compris le
-  vélo (tarif piéton avec vélo, moins cher qu'une place véhicule) — contrairement au péage
-  autoroutier, qui lui reste interdit au vélo. Pour les îles Wadden spécifiquement, un seul tarif
-  (celui de TESO/Texel, la ligne la plus "classique" en voiture) est réutilisé pour les quatre
-  autres — leurs traversées réelles (Doeksen, Wagenborg) sont nettement plus chères et l'accès en
-  voiture souvent plus restreint en pratique : approximation plus grossière que pour la
-  Corse/les Baléares/les Canaries sur ces quatre-là spécifiquement.
+- **Coché**, le tirage peut inclure la **Corse**, les **Baléares**, les **Canaries**, les **îles
+  Wadden** (Pays-Bas — Texel, Vlieland, Terschelling, Ameland, Schiermonnikoog), la **Sardaigne**
+  ou la **Sicile**, reliées au continent par une vraie ligne de ferry réelle (durée et tarif fixes
+  par ligne, voir `FERRY_ROUTES` dans `app.js` — pas un calcul au km/heure comme la route, un ferry
+  ne va pas plus vite avec un moteur plus puissant). Fonctionne pour tous les modes de transport, y
+  compris le vélo (tarif piéton avec vélo, moins cher qu'une place véhicule) — contrairement au
+  péage autoroutier, qui lui reste interdit au vélo. Pour les îles Wadden spécifiquement, un seul
+  tarif (celui de TESO/Texel, la ligne la plus "classique" en voiture) est réutilisé pour les
+  quatre autres — leurs traversées réelles (Doeksen, Wagenborg) sont nettement plus chères et
+  l'accès en voiture souvent plus restreint en pratique : approximation plus grossière que pour la
+  Corse/les Baléares/les Canaries sur ces quatre-là spécifiquement. La Sicile est un cas à part
+  parmi les traversées longues : le détroit de Messine ne fait que ~3 km, une traversée courte
+  (~20-25 min) bien plus proche du profil des îles Wadden que de la Corse — aucun pont routier
+  n'existe à ce jour (2026), le projet "ponte sullo Stretto di Messina" étant encore au stade de
+  l'autorisation administrative (mise en service visée au plus tôt 2033-2034).
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -297,10 +320,11 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   les ferries activés — l'absence d'entrée dans `FERRY_ROUTES` pour ces archipels suffit à les
   exclure, sans code spécifique.
 - La détection "cette commune est sur quelle masse continentale" (`landmassOf` dans `app.js`) est
-  exacte pour la France (le code département distingue déjà la Corse, 2A/2B) et pour les Pays-Bas
-  (chaque île Wadden est sa propre commune, le champ région y est directement son nom), et par
-  coordonnées pour l'Espagne/le Portugal (le champ région de ces deux pays n'étant pas exploitable
-  pour ça — voir "Pays couverts" ci-dessus).
+  exacte pour la France (le code département distingue déjà la Corse, 2A/2B), pour les Pays-Bas
+  (chaque île Wadden est sa propre commune, le champ région y est directement son nom) et pour
+  l'Italie (comparaison exacte à la liste des provinces de Sardaigne/Sicile, le champ région y étant
+  un nom de province en clair) ; par coordonnées pour l'Espagne/le Portugal (le champ région de ces
+  deux pays n'étant pas exploitable pour ça — voir "Pays couverts" ci-dessus).
 - Limite connue : les petites îles françaises sans pont ni département propre (Belle-Île, Ouessant,
   Groix...) ne sont pas détectées individuellement et restent traitées comme le continent le plus
   proche — un cas rare (quelques dizaines de communes sur ~35 000) laissé de côté pour l'instant.
@@ -344,7 +368,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.
@@ -358,8 +382,9 @@ au chargement.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /
-  [Via Verde](https://www.vialivre.pt) (Portugal) — voir "Pays couverts" pour la méthode de calcul
-  hors de France (échantillon plus restreint que pour la France).
+  [Via Verde](https://www.vialivre.pt) (Portugal), [Autostrade per l'Italia](https://www.autostrade.it)
+  (Italie) — voir "Pays couverts" pour la méthode de calcul hors de France (échantillon plus
+  restreint que pour la France).
 - Photos et région de désambiguïsation : [Wikipédia](https://www.wikipedia.org) (API REST, dans la
   langue du visiteur — voir "Pays couverts" — images sous licence Wikimedia Commons, crédit affiché
   sous chaque photo) ; [geo.api.gouv.fr](https://geo.api.gouv.fr) pour les codes département français.
@@ -369,8 +394,10 @@ au chargement.
 - Tarifs et durées de ferry : [Corsica Linea](https://www.corsicalinea.com) / [Corsica
   Ferries](https://www.corsica-ferries.fr) (Corse), [Baleària](https://www.balearia.com) (Baléares),
   [Naviera Armas/Baleària Canarias](https://armastrasmediterranea.com) (Canaries),
-  [TESO](https://www.teso.nl) (îles Wadden) — voir "Ferries" ci-dessus pour la méthode (un ordre de
-  grandeur indicatif par ligne, comme pour les péages, pas un tarif garanti).
+  [TESO](https://www.teso.nl) (îles Wadden), [Moby](https://www.moby.it)/[Tirrenia](https://www.tirrenia.it)
+  (Sardaigne), [Caronte & Tourist](https://www.carontetourist.it) (Sicile, détroit de Messine) — voir
+  "Ferries" ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour les
+  péages, pas un tarif garanti).
 
 Toutes ces données sont figées au moment de la génération de ce projet (2026). Pour les rafraîchir,
 relancez les mêmes sources et remplacez les fichiers dans `public/data/`.

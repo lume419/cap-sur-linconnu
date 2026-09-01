@@ -5,7 +5,7 @@
   // Pays couverts, un par un (voir README) — chaque entrée pointe vers son propre fichier
   // communes-XX.txt (même format que la France : population;lon,lat;cp;région;nom), pour pouvoir
   // ajouter un nouveau pays sans toucher aux fichiers déjà en place. hasToll/tollRateByClass :
-  // seuls la France et l'Espagne ont un vrai réseau autoroutier à péage significatif au tarif
+  // la France, l'Espagne et l'Italie ont un vrai réseau autoroutier à péage significatif au tarif
   // kilométrique repéré (voir plus bas, finalizeLeg) ; le Portugal n'a que son réseau à péage
   // électronique sans barrière (tarif très inférieur, cohérent avec les grilles Via Verde/Ascendi
   // consultées) ; l'Andorre, la Belgique, les Pays-Bas, le Luxembourg, la Suisse et l'Allemagne
@@ -26,7 +26,7 @@
   // de transport que couvre cette app (voiture, van, moto) — seuls les poids lourds ≥3,5 t paient
   // une redevance kilométrique (LKW-Maut, élargie aux véhicules de 3,5 t depuis juillet 2024), un
   // seuil qu'aucun véhicule modélisé ici n'atteint (un van aménagé reste un véhicule léger).
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE seulement) : noms alternatifs par langue (voir
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT seulement) : noms alternatifs par langue (voir
   // scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une ville dans
   // la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen", "La Haye"
   // pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -43,7 +43,8 @@
     NL: { code:'NL', name:'Pays-Bas', file:'communes-nl.txt', hasToll:false, aliasFile:'aliases-nl.txt' },
     LU: { code:'LU', name:'Luxembourg', file:'communes-lu.txt', hasToll:false, aliasFile:'aliases-lu.txt' },
     CH: { code:'CH', name:'Suisse', file:'communes-ch.txt', hasToll:false, aliasFile:'aliases-ch.txt', currency:'CHF' },
-    DE: { code:'DE', name:'Allemagne', file:'communes-de.txt', hasToll:false, aliasFile:'aliases-de.txt' }
+    DE: { code:'DE', name:'Allemagne', file:'communes-de.txt', hasToll:false, aliasFile:'aliases-de.txt' },
+    IT: { code:'IT', name:'Italie', file:'communes-it.txt', hasToll:true, aliasFile:'aliases-it.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -114,7 +115,9 @@
   // Code court -> étiquette de locale complète, pour Intl/toLocaleDateString (horloge, dates
   // formatées, nombre d'habitants...) — une seule variante par langue suffit ici, pas besoin de
   // distinguer ex. pt-PT/pt-BR pour ce site.
-  var LOCALE_TAG = { fr:'fr-FR', en:'en-GB', es:'es-ES', pt:'pt-PT', nl:'nl-NL', de:'de-DE', lb:'lb-LU', it:'it-CH', rm:'rm-CH', nds:'nds-DE', hsb:'hsb-DE', frr:'frr-DE' };
+  // it : it-IT depuis l'ajout de l'Italie elle-même (plutôt que it-CH, utilisé quand l'italien
+  // n'était encore que la 3e langue de la Suisse) — l'Italie est sa patrie la plus naturelle.
+  var LOCALE_TAG = { fr:'fr-FR', en:'en-GB', es:'es-ES', pt:'pt-PT', nl:'nl-NL', de:'de-DE', lb:'lb-LU', it:'it-IT', rm:'rm-CH', nds:'nds-DE', hsb:'hsb-DE', frr:'frr-DE', sc:'sc-IT', fur:'fur-IT', lld:'lld-IT' };
   function localeTag(){ return LOCALE_TAG[VISITOR_LANG] || 'fr-FR'; }
   // Suffixe de clé i18n depuis une clé TRANSPORT à tirets ("voiture-thermique" -> "voitureThermique") —
   // évite de dupliquer les six libellés dans une structure séparée juste pour la casse.
@@ -248,11 +251,17 @@
   //   ponctuel contrairement aux Pays-Bas/au Luxembourg). Seuls les poids lourds à partir de 3,5 t
   //   paient la LKW-Maut (toll-collect.de) — hors du périmètre des véhicules modélisés par l'app,
   //   même un van aménagé restant un véhicule léger (hasToll:false).
+  // - Italie : réseau à péage classique avec barrière (comme la France), barème officiel Autostrade
+  //   per l'Italia 2026 (autostrade.it/en/servizi-al-cliente/pedaggio/come-si-calcola-il-pedaggio) —
+  //   classe A (voiture) : 0,07869 €/km en plaine, 0,09315 €/km en zone de montagne. Retenu :
+  //   0,086 €/km (valeur intermédiaire), classes 2/5 extrapolées avec les mêmes ratios que la
+  //   France/l'Espagne/le Portugal (2 ≈ ×1,55, 5 ≈ ×0,58) faute de grille détaillée par classe.
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,
     ES: { 1: 0.14, 2: 0.218, 5: 0.081 },
-    PT: { 1: 0.036, 2: 0.056, 5: 0.021 }
+    PT: { 1: 0.036, 2: 0.056, 5: 0.021 },
+    IT: { 1: 0.086, 2: 0.133, 5: 0.050 }
   };
   var TOLL_MIN_DISTANCE_KM = 60; // en-deçà, le péage n'entre pas en ligne de compte
 
@@ -300,11 +309,32 @@
   //   alors qu'aucune ne l'est (il faut repasser par le continent, donc un second ferry, pour
   //   aller par exemple de Texel à Terschelling). Chacune n'est reliée qu'au continent, jamais
   //   directement à une autre île Wadden — voir la boucle juste après qui génère les 5 entrées.
+  // - Sardaigne : Moby/Tirrenia/GNV, Gênes -> Olbia — traversée longue (~11h10 à 12h selon la
+  //   compagnie), ~90-110 €/voiture en place pont basse saison (traghetti.com, moby.it — le tarif
+  //   moyen ~258 € cité par plusieurs comparateurs inclut cabine/famille, pas comparable à ce
+  //   modèle "voiture seule" déjà utilisé pour la Corse/les Baléares). Retenu : ~11h30 (moyenne),
+  //   100 €/voiture, ratios classe 2/5/foot identiques à la Corse (×1,5/×0,45/×0,45).
+  // - Sicile : Caronte & Tourist, Villa San Giovanni -> Messine — le détroit de Messine ne fait que
+  //   ~3 km de large, traversée très courte (~20-25 min, plusieurs dizaines de rotations par jour),
+  //   plus proche des îles Wadden que de la Corse dans son profil. Tarif par longueur de véhicule
+  //   (carontetourist.it/en/strait-messina/rates-cars) : ~17 € jusqu'à 3,50 m, ~42 € de 3,51 à
+  //   5,50 m (la plupart des voitures) — retenu ~35 €/voiture (valeur médiane représentative), et
+  //   ~3 €/passager piéton (tarif piéton affiché, sans véhicule). AUCUN pont routier n'existe à ce
+  //   jour (2026) : le "ponte sullo Stretto di Messina" est encore au stade de l'autorisation
+  //   administrative, chantier annoncé fin 2026, mise en service visée 2033-2034 (mit.gov.it,
+  //   stradeeautostrade.it) — trop lointain et non garanti pour anticiper sa mise en service ici ;
+  //   le ferry reste, à ce jour, l'unique traversée réelle.
   var WADDEN_ISLANDS = ['texel', 'vlieland', 'terschelling', 'ameland', 'schiermonnikoog'];
+  // Provinces italiennes de Sardaigne (5) et de Sicile (9) — voir landmassOf plus bas. Liste
+  // vérifiée exhaustivement sur les 107 provinces distinctes présentes dans communes-it.txt.
+  var SARDINIA_PROVINCES = ['Cagliari', 'Sassari', 'Nuoro', 'Oristano', 'Sud Sardegna'];
+  var SICILY_PROVINCES = ['Agrigento', 'Caltanissetta', 'Catania', 'Enna', 'Messina', 'Palermo', 'Ragusa', 'Siracusa', 'Trapani'];
   var FERRY_ROUTES = {
     'continental|corsica': { routeKey:'ferry.route.corsica', durationH:8.5, distanceKm:250, priceByClass:{1:90, 2:140, 5:40, foot:40} },
     'balearic|continental': { routeKey:'ferry.route.balearic', durationH:7.5, distanceKm:230, priceByClass:{1:135, 2:200, 5:55, foot:50} },
-    'canary|continental': { routeKey:'ferry.route.canary', durationH:41, distanceKm:1700, priceByClass:{1:280, 2:420, 5:130, foot:150} }
+    'canary|continental': { routeKey:'ferry.route.canary', durationH:41, distanceKm:1700, priceByClass:{1:280, 2:420, 5:130, foot:150} },
+    'continental|sardinia': { routeKey:'ferry.route.sardinia', durationH:11.5, distanceKm:280, priceByClass:{1:100, 2:150, 5:45, foot:45} },
+    'continental|sicily': { routeKey:'ferry.route.sicily', durationH:0.4, distanceKm:5, priceByClass:{1:35, 2:55, 5:12, foot:3} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -342,6 +372,15 @@
       for(var wi=0; wi<WADDEN_ISLANDS.length; wi++){
         if(new RegExp(WADDEN_ISLANDS[wi], 'i').test(c.dept || '')) return 'wadden-' + WADDEN_ISLANDS[wi];
       }
+      return 'continental';
+    }
+    if(c.country === 'IT'){
+      // Comme pour l'Espagne/le Portugal, dept est ici un nom de PROVINCE en clair (pas un code),
+      // issu du fichier des codes postaux — comparaison stricte à la liste exacte des provinces de
+      // chaque île plutôt qu'une sous-chaîne, pour éviter tout faux positif avec une province du
+      // continent qui contiendrait par hasard le même mot.
+      if(SARDINIA_PROVINCES.indexOf(c.dept) !== -1) return 'sardinia';
+      if(SICILY_PROVINCES.indexOf(c.dept) !== -1) return 'sicily';
       return 'continental';
     }
     return 'continental'; // Andorre, Belgique — déjà reliées au continent par la route
@@ -1154,19 +1193,30 @@
     }
     tick();
   }
+  // Rejoue juste le TEXTE des libellés "Destination confirmée"/nombre d'habitants/de POI posés par
+  // finishReveal (jamais leur classe "show", déjà acquise, ni le délai de 250 ms qui n'a de sens que
+  // pour l'animation initiale) — extrait à part pour pouvoir être rappelé tel quel depuis l'écouteur
+  // 'i18n:langchange' plus bas. Sans ça, un changement de langue après un tirage laissait ces trois
+  // libellés dans l'ancienne langue alors que le reste de la page (jours, carte, sac) suivait bien la
+  // nouvelle — même firstStop que celui gardé dans currentTripData (voir plus bas), reconstruit à
+  // l'identique.
+  function updateRevealTexts(firstStop){
+    els.rouletteLabel.textContent = t('reveal.confirmed');
+    els.stamp.textContent = t('reveal.stamp');
+    // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France).
+    var bits = [firstStop.name + (firstStop.cp ? ' (' + formatCpBadge(firstStop) + ')' : '')];
+    if(firstStop.pop) bits.push(t('reveal.inhabitants', {n: firstStop.pop.toLocaleString(localeTag())}));
+    if(FEATURED[firstStop.norm]){
+      var n = FEATURED[firstStop.norm].pois.length;
+      bits.push(t(n > 1 ? 'reveal.poiN' : 'reveal.poi1', {n: n}));
+    }
+    els.revealRegion.textContent = bits.join(' · ');
+  }
   function finishReveal(firstStop, onDone){
     els.rouletteLabel.textContent = t('reveal.confirmed');
     setTimeout(function(){
       els.stamp.classList.add('show');
-      els.stamp.textContent = t('reveal.stamp');
-      // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France).
-      var bits = [firstStop.name + (firstStop.cp ? ' (' + formatCpBadge(firstStop) + ')' : '')];
-      if(firstStop.pop) bits.push(t('reveal.inhabitants', {n: firstStop.pop.toLocaleString(localeTag())}));
-      if(FEATURED[firstStop.norm]){
-        var n = FEATURED[firstStop.norm].pois.length;
-        bits.push(t(n > 1 ? 'reveal.poiN' : 'reveal.poi1', {n: n}));
-      }
-      els.revealRegion.textContent = bits.join(' · ');
+      updateRevealTexts(firstStop); // re-sets rouletteLabel too, harmless (same value already set above)
       els.revealReal.classList.add('show');
       if(onDone) onDone();
     }, 250);
@@ -2310,7 +2360,7 @@
       // cityCoord conservé (pas seulement legs/city) : nécessaire pour pouvoir rappeler renderMap
       // depuis l'écouteur 'i18n:langchange' plus bas, qui redessine l'itinéraire déjà affiché dans
       // la nouvelle langue sans repartir d'un nouveau tirage.
-      currentTripData = { legs: legs, city: city, budgetKey: budgetKey, transportKey: transportKey, cityCoord: cityCoord };
+      currentTripData = { legs: legs, city: city, budgetKey: budgetKey, transportKey: transportKey, cityCoord: cityCoord, firstStop: firstStopInfo };
 
       els.mapCard.classList.add('show');
       els.timeline.classList.add('show');
@@ -2406,6 +2456,7 @@
       renderDays(currentTripData.legs, currentTripData.city);
       renderMap(currentTripData.legs, currentTripData.city, currentTripData.cityCoord);
       renderPacking(currentTripData.budgetKey, currentTripData.transportKey);
+      updateRevealTexts(currentTripData.firstStop);
     }
   });
 

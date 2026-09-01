@@ -1,0 +1,1925 @@
+fr;Venetico;Venetico Superiore
+de;Venetico;Venetico Superiore
+en;Venetico;Venetico Superiore
+it;Venetico;Venetico Superiore
+nl;Venetico;Venetico Superiore
+pt;Venetico;Venetico Superiore
+en;Troina;Troina / Draginai
+fr;Troina;Troina / Draginai
+it;Troina;Troina / Draginai
+nl;Troina;Troina / Draginai
+pt;Troina;Troina / Draginai
+de;Troina;Troina / Draginai
+sc;Tarraba;Terralba
+fr;Taormine;Taormina
+de;Steccato di Cutro;Steccato
+it;Soverato;Soverato Marina
+en;Syracuse;Siracusa
+fr;Syracuse;Siracusa
+de;Syrakus;Siracusa
+nl;Syracuse;Siracusa
+it;Sant'Eufemia Lamezia;Santa Eufemia Lamezia
+it;Sant’Anna;Sant'Anna
+de;Sant Alessio Siculo;Sant'Alessio Siculo
+it;Santa Domenica di Ricadi;Santa Domenica
+de;San Nicolo di Ricadi;San Nicolò
+sc;Samugheu;Samugheo
+de;Reggio di Calabria;Reggio Calabria
+fr;Reggio de Calabre;Reggio Calabria
+it;Reggio di Calabria;Reggio Calabria
+nl;Reggio di Calabria;Reggio Calabria
+pt;Reggio di Calabria;Reggio Calabria
+es;Regio de Calabria;Reggio Calabria
+fr;Raguse;Ragusa
+it;Cuartu Santa Alèni;Quartu Sant'Elena
+de;Poggioreale;Nuovo Centro Urbano Poggioreale
+en;Poggioreale;Nuovo Centro Urbano Poggioreale
+fr;Poggioreale;Nuovo Centro Urbano Poggioreale
+it;Poggioreale;Nuovo Centro Urbano Poggioreale
+nl;Poggioreale;Nuovo Centro Urbano Poggioreale
+pt;Poggioreale;Nuovo Centro Urbano Poggioreale
+sc;Foghesu;Perdasdefogu
+fr;Pedace;Pedace-Perito
+en;Pedace;Pedace-Perito
+it;Pedace;Pedace-Perito
+nl;Pedace;Pedace-Perito
+pt;Pedace;Pedace-Perito
+es;Paula;Paola
+fr;Palerme;Palermo
+it;Palermu;Palermo
+sc;Aristanis;Oristano
+de;Mojo Alcantara;Moio Alcantara
+fr;Mojo Alcantara;Moio Alcantara
+it;Mojo Alcantara;Moio Alcantara
+nl;Mojo Alcantara;Moio Alcantara
+pt;Mojo Alcantara;Moio Alcantara
+en;Mojo Alcantara;Moio Alcantara
+fr;Messine;Messina
+es;Mesina;Messina
+de;Marinella di Selinunte;Marinella
+pt;Locros;Locri
+fr;Limbadi;Limbadi-Caroni
+en;Limbadi;Limbadi-Caroni
+it;Limbadi;Limbadi-Caroni
+nl;Limbadi;Limbadi-Caroni
+pt;Limbadi;Limbadi-Caroni
+nl;Leontini;Lentini
+fr;Laino Castello;Laino Castello-Nuovo Centro
+en;Laino Castello;Laino Castello-Nuovo Centro
+it;Laino Castello;Laino Castello-Nuovo Centro
+nl;Laino Castello;Laino Castello-Nuovo Centro
+pt;Laino Castello;Laino Castello-Nuovo Centro
+de;Laino Castello;Laino Castello-Nuovo Centro
+de;Grisolia Lido;Grisolia
+en;Gibellina;Nuova Gibellina
+de;Gibellina;Nuova Gibellina
+fr;Gibellina;Nuova Gibellina
+it;Gibellina;Nuova Gibellina
+nl;Gibellina;Nuova Gibellina
+pt;Gibellina;Nuova Gibellina
+de;Giardini Naxos;Giardini-Naxos
+fr;Gairo;Gairo Sant'Elena
+en;Gairo;Gairo Sant'Elena
+it;Gairo;Gairo Sant'Elena
+nl;Gairo;Gairo Sant'Elena
+pt;Gairo;Gairo Sant'Elena
+fr;Fiumefreddo di Sicilia;Fiumefreddo Sicilia
+de;Fiumefreddo di Sicilia;Fiumefreddo Sicilia
+en;Fiumefreddo di Sicilia;Fiumefreddo Sicilia
+it;Fiumefreddo di Sicilia;Fiumefreddo Sicilia
+nl;Fiumefreddo di Sicilia;Fiumefreddo Sicilia
+pt;Fiumefreddo di Sicilia;Fiumefreddo Sicilia
+es;Isla Favignana;Favignana
+fr;Mont Éryx;Erice
+es;Crotona;Crotone
+fr;Catane;Catania
+sc;Cabuderra;Capoterra
+sc;Casteddu;Cagliari
+it;Casteddu;Cagliari
+sc;Bugerru;Buggerru
+sc;Brebì;Belvì
+fr;Belvedere di Spinello;Belvedere Spinello
+en;Belvedere di Spinello;Belvedere Spinello
+it;Belvedere di Spinello;Belvedere Spinello
+nl;Belvedere di Spinello;Belvedere Spinello
+pt;Belvedere di Spinello;Belvedere Spinello
+sc;Arbatassa;Arbatax
+fr;Anoia;Anoia Inferiore
+en;Anoia;Anoia Inferiore
+it;Anoia;Anoia Inferiore
+nl;Anoia;Anoia Inferiore
+pt;Anoia;Anoia Inferiore
+sc;Abas;Ales
+de;Agrigent;Agrigento
+fr;Agrigente;Agrigento
+nl;Acquappessa;Acquappesa
+fur;Zui;Zuglio
+fur;Copule;Zoppola
+it;Col;Zolla
+fr;Zinasco;Zinasco Vecchio
+en;Zinasco;Zinasco Vecchio
+it;Zinasco;Zinasco Vecchio
+nl;Zinasco;Zinasco Vecchio
+pt;Zinasco;Zinasco Vecchio
+fr;Vodo di Cadore;Vodo
+en;Vodo di Cadore;Vodo
+it;Vodo di Cadore;Vodo
+nl;Vodo di Cadore;Vodo
+pt;Vodo di Cadore;Vodo
+fur;Vivar;Vivaro
+fur;Vit;Vito d'Asio
+fr;Viterbe;Viterbo
+de;Sterzing;Vipiteno
+nl;Sterzing;Vipiteno
+en;Sterzing;Vipiteno
+fur;Viles;Villesse
+fur;Vile Visintine;Villa Vicentina
+fur;Vile Santine;Villa Santina
+it;Villa Ottone;Uttenheim
+fr;Villa di Tirano;Villa
+en;Villa di Tirano;Villa
+it;Villa di Tirano;Villa
+nl;Villa di Tirano;Villa
+pt;Villa di Tirano;Villa
+de;Niederdorf;Villabassa
+en;Niederdorf;Villabassa
+nl;Niederdorf;Villabassa
+de;Vignola Mare;Vignola
+de;Vico d’Arbia;Vico d'Arbia
+fr;Vicence;Vicenza
+it;Vetriolo Terme;Vetriolo
+fr;Vérone;Verona
+fr;Verceil;Vercelli
+fur;Vençon;Venzone
+fr;Vintimille;Ventimiglia
+de;Venedig;Venezia
+es;Venecia;Venezia
+en;Venice;Venezia
+fr;Venise;Venezia
+lb;Venedeg;Venezia
+nl;Venetië;Venezia
+pt;Veneza;Venezia
+fur;Vignesie;Venezia
+it;Feldthurns;Velturno
+de;Feldthurns;Velturno
+en;Feldthurns;Velturno
+it;Velturno - Feldthurns;Velturno
+nl;Feldthurns;Velturno
+it;Veiano;Vejano
+de;Vahrn;Varna
+en;Vahrn;Varna
+nl;Vahrn;Varna
+de;Vahrn bei Brixen;Varna
+fur;Vil di Var;Varmo
+fr;Varano de'Melegari;Varano De' Melegari
+fr;Varallo Sesia;Varallo
+de;Varallo Sesia;Varallo
+en;Varallo Sesia;Varallo
+it;Varallo Sesia;Varallo
+nl;Varallo Sesia;Varallo
+pt;Varallo Sesia;Varallo
+fur;Voleson;Valvasone
+fr;Valmadrera;Valmadrera-Caserta
+en;Valmadrera;Valmadrera-Caserta
+it;Valmadrera;Valmadrera-Caserta
+nl;Valmadrera;Valmadrera-Caserta
+pt;Valmadrera;Valmadrera-Caserta
+de;Wahlen;Valle San Silvestro
+it;San Silvestro;Valle San Silvestro
+de;Vals-Mühlbach;Valles
+de;Durnholz;Valdurna
+de;Olang;Valdaora di Mezzo
+fr;Valdaora;Valdaora di Mezzo
+en;Olang;Valdaora di Mezzo
+it;Valdaora;Valdaora di Mezzo
+nl;Olang;Valdaora di Mezzo
+pt;Valdaora;Valdaora di Mezzo
+fr;Vairano Patenora;Vairano-Patenora
+en;Vairano Patenora;Vairano-Patenora
+it;Vairano Patenora;Vairano-Patenora
+nl;Vairano Patenora;Vairano-Patenora
+pt;Vairano Patenora;Vairano-Patenora
+fur;Vaiont;Vajont
+nl;Pfatten;Vadena
+fr;Usmate Velate;Usmate-Velate
+en;Usmate Velate;Usmate-Velate
+it;Usmate Velate;Usmate-Velate
+nl;Usmate Velate;Usmate-Velate
+pt;Usmate Velate;Usmate-Velate
+fr;Urbin;Urbino
+fur;Udin;Udine
+fur;Turiàc;Turriaco
+de;Taufers im Münstertal;Tubre
+en;Taufers im Münstertal;Tubre
+nl;Taufers im Münstertal;Tubre
+de;Truden;Trodena
+en;Truden;Trodena
+nl;Truden;Trodena
+it;Trodena nel parco naturale;Trodena
+de;Truden im Naturpark;Trodena
+it;Trivignano;Trivignano Udinese
+fur;Trivignan;Trivignano Udinese
+en;Trivero;Trivero-Prativero-Ponzone
+it;Trivero;Trivero-Prativero-Ponzone
+fr;Trivero;Trivero-Prativero-Ponzone
+de;Trivero;Trivero-Prativero-Ponzone
+nl;Trivero;Trivero-Prativero-Ponzone
+pt;Trivero;Trivero-Prativero-Ponzone
+de;Triest;Trieste
+fur;Triest;Trieste
+nl;Triëst;Trieste
+fur;Tresesin;Tricesimo
+fr;Trévise;Treviso
+fr;Tresigallo;Tresigallo-Final di Rero
+en;Tresigallo;Tresigallo-Final di Rero
+it;Tresigallo;Tresigallo-Final di Rero
+nl;Tresigallo;Tresigallo-Final di Rero
+pt;Tresigallo;Tresigallo-Final di Rero
+fur;Trep Grant;Treppo Grande
+de;Trient;Trento
+fr;Trente;Trento
+nl;Trente;Trento
+fur;Traves;Travesio
+fur;Tramonç Disore;Tramonti di Sopra
+en;Toscolano-Maderno;Toscolano Maderno
+de;Toscolano-Maderno;Toscolano Maderno
+fr;Toscolano-Maderno;Toscolano Maderno
+it;Toscolano-Maderno;Toscolano Maderno
+nl;Toscolano-Maderno;Toscolano Maderno
+pt;Toscolano-Maderno;Toscolano Maderno
+fur;Tor di Zuin;Torviscosa
+de;Torrimpietra - Fiumicino;Torrimpietra
+fr;Torricella Sicura;Torricella
+de;Torricella Sicura;Torricella
+en;Torricella Sicura;Torricella
+it;Torricella Sicura;Torricella
+nl;Torricella Sicura;Torricella
+pt;Torricella Sicura;Torricella
+fr;Torrevecchia Teatina;Torrevecchia
+en;Torrevecchia Teatina;Torrevecchia
+it;Torrevecchia Teatina;Torrevecchia
+nl;Torrevecchia Teatina;Torrevecchia
+pt;Torrevecchia Teatina;Torrevecchia
+en;Marina di Montalto;Montalto Marina
+fr;Marina di Montalto;Montalto Marina
+fr;Torre de'Busi;Torre de' Busi
+fur;Torean;Torreano
+de;Turin;Torino
+en;Turin;Torino
+es;Turín;Torino
+fr;Turin;Torino
+lb;Turin;Torino
+nl;Turijn;Torino
+pt;Turim;Torino
+fur;Turin;Torino
+sc;Torinu;Torino
+nds;Turin;Torino
+de;Turbel;Torbole sul Garda
+it;Torbole;Torbole sul Garda
+de;Torbole;Torbole sul Garda
+it;Passo del Tonale;Tonale
+de;Passo del Tonale;Tonale
+fur;Tumieç;Tolmezzo
+es;Tibur;Tivoli
+en;Marina di Pisa-Tirrenia-Calambrone;Tirrenia
+de;Tiers;Tires
+en;Tiers;Tires
+nl;Tiers;Tires
+fr;Tezze sul Brenta;Tezze
+en;Tezze sul Brenta;Tezze
+it;Tezze sul Brenta;Tezze
+nl;Tezze sul Brenta;Tezze
+pt;Tezze sul Brenta;Tezze
+de;Tisens;Tesimo
+en;Tisens;Tesimo
+nl;Tisens;Tesimo
+de;Taisten;Tesido
+de;Tramin an der Weinstrasse;Termeno
+de;Terlan;Terlano
+en;Terlan;Terlano
+nl;Terlan;Terlano
+de;Terenten;Terento
+en;Terenten;Terento
+nl;Terenten;Terento
+pt;Terenten;Terento
+sc;Tèmpiu;Tempio Pausania
+it;Telese;Telese Terme
+fur;Tei;Teglio Veneto
+fr;Teggiano;Teggiano-Macchiaroli
+en;Teggiano;Teggiano-Macchiaroli
+it;Teggiano;Teggiano-Macchiaroli
+nl;Teggiano;Teggiano-Macchiaroli
+pt;Teggiano;Teggiano-Macchiaroli
+fr;Tavernole sul Mella;Tavernole
+en;Tavernole sul Mella;Tavernole
+it;Tavernole sul Mella;Tavernole
+nl;Tavernole sul Mella;Tavernole
+pt;Tavernole sul Mella;Tavernole
+fur;Tavagna;Tavagnacco
+fur;Tarvis;Tarvisio
+de;Tarsch;Tarres
+fur;Tarcint;Tarcento
+de;Tarent;Taranto
+es;Tarento;Taranto
+fr;Tarente;Taranto
+nl;Tarente;Taranto
+it;Tarde;Taranto
+fur;Tapoian;Tapogliano
+fur;Taipane;Taipana
+fr;Suse;Susa
+de;Stuls;Stulles
+fur;Stregne;Stregna
+de;Stilfs;Stelvio
+en;Stilfs;Stelvio
+nl;Stilfs;Stelvio
+fur;Staranzan;Staranzano
+it;Stanga;Stanghe
+fr;Spolète;Spoleto
+it;Perignano;Le Casine-Perignano-Spinelli
+it;Spinelli;Le Casine-Perignano-Spinelli
+it;Le Casine;Le Casine-Perignano-Spinelli
+fur;Spilimberc;Spilimbergo
+fur;Spilinberc;Spilimbergo
+fr;Spigno Saturnia;Spigno Saturnia Superiore
+en;Spigno Saturnia;Spigno Saturnia Superiore
+it;Spigno Saturnia;Spigno Saturnia Superiore
+nl;Spigno Saturnia;Spigno Saturnia Superiore
+pt;Spigno Saturnia;Spigno Saturnia Superiore
+de;Sorrent;Sorrento
+fr;Sorrente;Sorrento
+de;Oberbozen;Soprabolzano
+de;Unterinn;Soprabolzano
+de;Sulden;Solda
+de;Schluderns;Sluderno
+en;Schluderns;Sluderno
+nl;Schluderns;Sluderno
+de;Schlinig;Slingia
+it;Siusi allo Sciliar;Siusi
+de;Seis am Schlern;Siusi
+de;Sistiana;Sistiana-Visogliano
+it;Sistiana;Sistiana-Visogliano
+de;Schlanders;Silandro
+en;Schlanders;Silandro
+nl;Schlanders;Silandro
+fr;Sienne;Siena
+en;Sienna;Siena
+fr;Sestrières;Sestriere
+fur;Sest;Sesto al Reghena
+de;Sexten;Sesto
+en;Sexten;Sesto
+nl;Sexten;Sesto
+fr;Serra de'Conti;Serra de' Conti
+fur;Secual;Sequals
+de;Unsere Liebe Frau im Walde-St. Felix;Senale
+de;Unsere liebe Frau im Walde;Senale
+de;Mühlwald;Selva dei Molini
+en;Mühlwald;Selva dei Molini
+nl;Mühlwald;Selva dei Molini
+de;Wolkenstein;Selva
+de;Wolkenstein in Gröden;Selva
+fr;Selva di Val Gardena;Selva
+it;Selva di Val Gardena;Selva
+pt;Selva di Val Gardena;Selva
+fur;Sedean;Sedegliano
+sc;A Secondigliano andiamo noi;Secondigliano
+de;Natz-Schabs;Naz-Sciaves - Natz-Schabs
+fr;Naz-Sciaves;Naz-Sciaves - Natz-Schabs
+en;Natz-Schabs;Naz-Sciaves - Natz-Schabs
+it;Naz-Sciaves;Naz-Sciaves - Natz-Schabs
+nl;Natz-Schabs;Naz-Sciaves - Natz-Schabs
+pt;Naz-Sciaves;Naz-Sciaves - Natz-Schabs
+fr;Scheggia e Pascelupo;Scheggia
+en;Scheggia e Pascelupo;Scheggia
+it;Scheggia e Pascelupo;Scheggia
+nl;Scheggia e Pascelupo;Scheggia
+pt;Scheggia e Pascelupo;Scheggia
+fr;Savone;Savona
+fur;Savogne di Gurize;Savogna d'Isonzo
+fur;Savogne di Gurice;Savogna d'Isonzo
+fr;Saviore dell'Adamello;Saviore
+en;Saviore dell'Adamello;Saviore
+it;Saviore dell'Adamello;Saviore
+nl;Saviore dell'Adamello;Saviore
+pt;Saviore dell'Adamello;Saviore
+fr;Sauris;Sauris di Sotto
+de;Sauris;Sauris di Sotto
+en;Sauris;Sauris di Sotto
+fur;Sauris;Sauris di Sotto
+it;Sauris;Sauris di Sotto
+nl;Sauris;Sauris di Sotto
+pt;Sauris;Sauris di Sotto
+sc;Tattari;Sassari
+sc;Tàthari;Sassari
+it;Tatari;Sassari
+de;Sarnthein;Sarentino
+en;Sarnthein;Sarentino
+nl;Sarntal;Sarentino
+fur;Sapade;Sappada
+fur;Sant Vît di Feagne;San Vito di Fagagna
+fur;San Vit di Feagne;San Vito di Fagagna
+en;San Vito di Cadore;San Vito
+fr;San Vito di Cadore;San Vito
+it;San Vito di Cadore;San Vito
+nl;San Vito di Cadore;San Vito
+pt;San Vito di Cadore;San Vito
+de;San Vito di Cadore;San Vito
+fur;San Vit dal Tiliment;San Vito al Tagliamento
+de;Sankt Valentin auf der Haide;San Valentino alla Muta
+it;Santo Stino di Livenza;San Stino di Livenza
+fur;San Stin;San Stino di Livenza
+nl;Tempel van Romulus;Santi Cosma e Damiano
+de;St. Walburg;Santa Valburga
+it;Santa Teresa di Gallura;Santa Teresa Gallura
+en;Santarcangelo di Romagna;Santarcangelo
+fr;Santarcangelo di Romagna;Santarcangelo
+it;Santarcangelo di Romagna;Santarcangelo
+nl;Santarcangelo di Romagna;Santarcangelo
+pt;Santarcangelo di Romagna;Santarcangelo
+it;Sant'Angelo a Lecore;Sant'Angelo
+fur;Sante Marie la Lungje;Santa Maria la Longa
+de;Sant' Agostino;Sant'Agostino
+en;Sant'Agata de' Goti;Sant'Agata de'Goti
+it;Sant'Agata de' Goti;Sant'Agata de'Goti
+nl;Sant'Agata de' Goti;Sant'Agata de'Goti
+de;Sant'Agata-Bolognese;Sant'Agata Bolognese
+en;Santa Cristina;Santa Cristina Valgardena
+en;Santa Cristina Val Gardena;Santa Cristina Valgardena
+de;St. Christina in Gröden;Santa Cristina Valgardena
+de;St. Christina;Santa Cristina Valgardena
+de;St. Sigmund/Kiens;San Sigismondo
+nl;San Remo;Sanremo
+fur;San Cuarin;San Quirino
+fur;San Pieri dai Sclavons;San Pietro al Natisone
+fur;San Pieri dal Lusinç;San Pier d'Isonzo
+fur;San Pieri dai Sclas;San Pier d'Isonzo
+de;Sankt Pankraz;San Pancrazio
+en;St. Pankraz;San Pancrazio
+nl;Sankt Pankraz;San Pancrazio
+en;Saint Pankraz;San Pancrazio
+fur;San Michel dal Tiliment;San Michele al Tagliamento
+it;San Mauro a Signa;San Mauro
+fr;San Maurizio Canavese;San Maurizio
+de;San Maurizio Canavese;San Maurizio
+en;San Maurizio Canavese;San Maurizio
+it;San Maurizio Canavese;San Maurizio
+nl;San Maurizio Canavese;San Maurizio
+pt;San Maurizio Canavese;San Maurizio
+de;St. Martin in Passeier;San Martino in Passiria
+nl;Sankt Martin in Passeier;San Martino in Passiria
+de;St. Lorenzen;San Lorenzo di Sebato
+en;St. Lorenzen;San Lorenzo di Sebato
+nl;Sankt Lorenzen;San Lorenzo di Sebato
+en;Saint Lorenzen;San Lorenzo di Sebato
+fr;San Leucio del Sannio;San Leucio del Sannio-Cavuoti
+en;San Leucio del Sannio;San Leucio del Sannio-Cavuoti
+it;San Leucio del Sannio;San Leucio del Sannio-Cavuoti
+nl;San Leucio del Sannio;San Leucio del Sannio-Cavuoti
+pt;San Leucio del Sannio;San Leucio del Sannio-Cavuoti
+de;St. Leonhard in Passeier;San Leonardo in Passiria
+en;St. Leonhard in Passeier;San Leonardo in Passiria
+nl;Sankt Leonhard in Passeier;San Leonardo in Passiria
+de;St. Leonhard im Passeiertal;San Leonardo in Passiria
+en;Saint Leonhard in Passeier;San Leonardo in Passiria
+fur;Sant Lenart;San Leonardo
+de;San Lazzaro di Savena;San Lazzaro
+en;San Lazzaro di Savena;San Lazzaro
+fr;San Lazzaro di Savena;San Lazzaro
+it;San Lazzaro di Savena;San Lazzaro
+nl;San Lazzaro di Savena;San Lazzaro
+pt;San Lazzaro di Savena;San Lazzaro
+de;Antholz Obertal;Anterselva di Sopra
+de;Moos;Moso
+it;S. Giovanni Valdarno;San Giovanni Valdarno
+it;San Giovanni V.no;San Giovanni Valdarno
+fur;Sant Zuan dal Nadison;San Giovanni al Natisone
+fur;San Zuan dal Nadison;San Giovanni al Natisone
+fur;Sant Zorç di Noiâr;San Giorgio di Nogaro
+fur;San Zorc di Nuiar;San Giorgio di Nogaro
+fur;San Zorc de Richinvelde;San Giorgio della Richinvelda
+en;Jenesien;San Genesio Atesino
+nl;Jenesien;San Genesio Atesino
+de;Jenesien;San Genesio Atesino
+fur;San Florean dal Cuei;San Floriano del Collio
+fur;San Florean dai Cuei;San Floriano del Collio
+fr;San Fior;San Fior di Sopra
+en;San Fior;San Fior di Sopra
+it;San Fior;San Fior di Sopra
+nl;San Fior;San Fior di Sopra
+pt;San Fior;San Fior di Sopra
+fr;San Dorligo della Valle;Dolina
+en;San Dorligo della Valle;Dolina
+it;San Dorligo della Valle;Dolina
+nl;San Dorligo della Valle;Dolina
+pt;San Dorligo della Valle;Dolina
+de;San Daniele;San Daniele del Friuli
+fur;Sant Denêl;San Daniele del Friuli
+fur;San Denel;San Daniele del Friuli
+fr;San Colombano Certénoli;San Colombano
+en;San Colombano Certénoli;San Colombano
+it;San Colombano Certénoli;San Colombano
+nl;San Colombano Certénoli;San Colombano
+pt;San Colombano Certénoli;San Colombano
+de;St. Kassian;San Cassiano
+de;Innichen;San Candido
+en;Innichen;San Candido
+nl;Innichen;San Candido
+fr;Saluces;Saluzzo
+de;Saltaus;Saltusio
+de;Salurn;Salorno
+nl;Salurn;Salorno
+de;Barbarano di Salo;Salò
+fr;Salerne;Salerno
+de;Salern;Salerno
+fur;Sagrat;Sagrado
+fur;Sacîl;Sacile
+fr;Monrupino;Repen
+de;Monrupino;Repen
+en;Monrupino;Repen
+it;Monrupino;Repen
+nl;Monrupino;Repen
+pt;Monrupino;Repen
+fr;Pragela;Pragelato-Ruà
+de;Pragelato;Pragelato-Ruà
+en;Pragelato;Pragelato-Ruà
+it;Pragelato;Pragelato-Ruà
+nl;Pragelato;Pragelato-Ruà
+pt;Pragelato;Pragelato-Ruà
+fur;Lavoreit;Roveredo in Piano
+it;Rosignano;Rosignano Solvay-Castiglioncello
+de;Rosignano Solvay;Rosignano Solvay-Castiglioncello
+it;Rosignano;Rosignano Marittimo
+fur;Roncjis;Ronchis
+fur;Roncjis di Tisane;Ronchis
+fur;Roncjis;Ronchi dei Legionari
+fur;Roncji;Ronchi dei Legionari
+fur;Romans dal Lusinc;Romans d'Isonzo
+fr;Romagnano al Monte;Scalo Romagnano al Monte
+en;Romagnano al Monte;Scalo Romagnano al Monte
+it;Romagnano al Monte;Scalo Romagnano al Monte
+nl;Romagnano al Monte;Scalo Romagnano al Monte
+pt;Romagnano al Monte;Scalo Romagnano al Monte
+de;Rom;Roma
+en;Rome;Roma
+fr;Rome;Roma
+fur;Rome;Roma
+lb;Roum;Roma
+nds;Rom;Roma
+nl;Rome;Roma
+fr;Roisan;La Cretaz-Roisan
+de;Roisan;La Cretaz-Roisan
+en;Roisan;La Cretaz-Roisan
+it;Roisan;La Cretaz-Roisan
+nl;Roisan;La Cretaz-Roisan
+pt;Roisan;La Cretaz-Roisan
+de;Rodeneck;Rodengo
+en;Rodeneck-Rodengo;Rodengo
+nl;Rodeneck;Rodengo
+en;Rodeneck;Rodengo
+fr;Rodano;Lucino-Rodano
+en;Rodano;Lucino-Rodano
+it;Rodano;Lucino-Rodano
+nl;Rodano;Lucino-Rodano
+pt;Rodano;Lucino-Rodano
+fr;Rocca Susella;Susella
+en;Rocca Susella;Susella
+it;Rocca Susella;Susella
+nl;Rocca Susella;Susella
+pt;Rocca Susella;Susella
+fr;Roccaspinalveti;Roccaspinalveti-Santa Giusta
+en;Roccaspinalveti;Roccaspinalveti-Santa Giusta
+it;Roccaspinalveti;Roccaspinalveti-Santa Giusta
+nl;Roccaspinalveti;Roccaspinalveti-Santa Giusta
+pt;Roccaspinalveti;Roccaspinalveti-Santa Giusta
+fr;Roccamontepiano;San Rocco
+en;Roccamontepiano;San Rocco
+it;Roccamontepiano;San Rocco
+nl;Roccamontepiano;San Rocco
+pt;Roccamontepiano;San Rocco
+fur;Rivignan;Rivignano
+fur;Rivis d'Arcjan;Rive d'Arcano
+fr;Rivarolo del Re ed Uniti;Rivarolo del Re
+en;Rivarolo del Re ed Uniti;Rivarolo del Re
+it;Rivarolo del Re ed Uniti;Rivarolo del Re
+nl;Rivarolo del Re ed Uniti;Rivarolo del Re
+pt;Rivarolo del Re ed Uniti;Rivarolo del Re
+it;Rivanazzano Terme;Rivanazzano
+fr;Ripalta Cremasca;Ripalta Nuova
+en;Ripalta Cremasca;Ripalta Nuova
+it;Ripalta Cremasca;Ripalta Nuova
+nl;Ripalta Cremasca;Ripalta Nuova
+pt;Ripalta Cremasca;Ripalta Nuova
+de;Mühlbach;Rio di Pusteria
+en;Mühlbach;Rio di Pusteria
+nl;Mühlbach;Rio di Pusteria
+de;Mühlbach im Pustertal;Rio di Pusteria
+fr;Rima San Giuseppe;Rima
+de;Rima San Giuseppe;Rima
+en;Rima San Giuseppe;Rima
+it;Rima San Giuseppe;Rima
+nl;Rima San Giuseppe;Rima
+pt;Rima San Giuseppe;Rima
+fur;Rigulat;Rigolato
+de;Schenna;Scena
+en;Schenna;Scena
+lb;Schenna;Scena
+nl;Schenna;Scena
+fr;Riccò del Golfo di Spezia;Riccò del Golfo
+en;Riccò del Golfo di Spezia;Riccò del Golfo
+it;Riccò del Golfo di Spezia;Riccò del Golfo
+nl;Riccò del Golfo di Spezia;Riccò del Golfo
+pt;Riccò del Golfo di Spezia;Riccò del Golfo
+fur;Reseute;Resiutta
+de;Reschen am See;Resia
+fur;Ramanzas;Remanzacco
+it;Reggio;Reggio nell'Emilia
+fr;Reggio d'Émilie;Reggio nell'Emilia
+en;Reggio Emilia;Reggio nell'Emilia
+fur;Raviei;Raveo
+es;Rávena;Ravenna
+fr;Ravenne;Ravenna
+fur;Ravasclet;Ravascletto
+de;Oberrasen;Rasun di Sopra
+de;Ratschings;Racines
+en;Ratschings;Racines
+nl;Ratschings;Racines
+fur;Pulfar;Pulfero
+it;Prosecco;Prosecco-Contovello
+de;Procchio - Marciana;Procchio
+fr;Pré-Saint-Didier;Prè Saint Didier
+de;Pré-Saint-Didier;Prè Saint Didier
+en;Prè-Saint-Didier;Prè Saint Didier
+it;Prè-Saint-Didier;Prè Saint Didier
+nl;Prè-Saint-Didier;Prè Saint Didier
+pt;Prè-Saint-Didier;Prè Saint Didier
+fur;Prepot;Prepotto
+fur;Premaria;Premariacco
+de;Prettau;Predoi
+en;Prettau;Predoi
+nl;Prettau;Predoi
+pt;Prettau;Predoi
+fur;Precenins;Precenicco
+it;Resia;Prato
+fur;Resie;Prato
+fur;Prat;Prato Carnico
+de;Prad am Stilfserjoch;Prato Allo Stelvio
+en;Prad am Stilfser Joch;Prato Allo Stelvio
+nl;Prad am Stilfserjoch;Prato Allo Stelvio
+fr;Prata Sannita;Prata Sannita Centro
+en;Prata Sannita;Prata Sannita Centro
+it;Prata Sannita;Prata Sannita Centro
+nl;Prata Sannita;Prata Sannita Centro
+pt;Prata Sannita;Prata Sannita Centro
+fur;Prate;Prata di Pordenone
+fur;Puçui;Pozzuolo del Friuli
+fur;Pocui;Pozzuolo del Friuli
+fr;Pouzzoles;Pozzuoli
+fur;Paulet;Povoletto
+de;Burgstall;Postal
+en;Burgstall;Postal
+nl;Burgstall;Postal
+sc;Pasada;Posada
+fur;Puart;Portogruaro
+fur;Porpet;Porpetto
+fur;Pordenon;Pordenone
+fur;Purcie;Porcia
+de;Birchabruck;Ponte Nova
+de;Waidbruck;Ponte Gardena
+en;Waidbruck;Ponte Gardena
+nl;Waidbruck;Ponte Gardena
+en;Pontecentesimo;Ponte Centesimo
+fur;Pontebe;Pontebba
+fr;Pont-Canavese;Pont Canavese
+de;Pont-Canavese;Pont Canavese
+en;Pont-Canavese;Pont Canavese
+it;Pont-Canavese;Pont Canavese
+nl;Pont-Canavese;Pont Canavese
+pt;Pont-Canavese;Pont Canavese
+es;Pompeya;Pompei
+fur;Pulcini;Polcenigo
+fr;Poggiridenti;Poggiridenti Alto
+en;Poggiridenti;Poggiridenti Alto
+it;Poggiridenti;Poggiridenti Alto
+nl;Poggiridenti;Poggiridenti Alto
+pt;Poggiridenti;Poggiridenti Alto
+it;Villa Opicina;Opicina
+en;Caminino;Podere Caminino
+fur;Pucinie;Pocenia
+de;Platt;Plata
+de;Unterplanken;Planca di Sotto
+de;Oberplanken;Planca di Sopra
+fr;Pise;Pisa
+fr;Piove di Sacco;Piove di Sacco-Piovega
+en;Piove di Sacco;Piove di Sacco-Piovega
+it;Piove di Sacco;Piove di Sacco-Piovega
+nl;Piove di Sacco;Piove di Sacco-Piovega
+pt;Piove di Sacco;Piove di Sacco-Piovega
+it;Pinzano;Pinzano al Tagliamento
+fur;Pincan;Pinzano al Tagliamento
+fr;Pignerol;Pinerolo
+es;Peñarol;Pinerolo
+de;Pinarella di Cervia;Pinarella
+de;Enneberg Pfarre;Pieve di Marebbe
+fr;Marebbe;Pieve di Marebbe
+en;Mareo;Pieve di Marebbe
+it;Marebbe;Pieve di Marebbe
+nl;Mareo;Pieve di Marebbe
+pt;Marebbe;Pieve di Marebbe
+fr;Pietra de'Giorgi;Pietra de' Giorgi
+fr;Piazza al Serchio;Piazza al Serchio-San Michele
+de;Piazza al Serchio;Piazza al Serchio-San Michele
+en;Piazza al Serchio;Piazza al Serchio-San Michele
+it;Piazza al Serchio;Piazza al Serchio-San Michele
+nl;Piazza al Serchio;Piazza al Serchio-San Michele
+pt;Piazza al Serchio;Piazza al Serchio-San Michele
+fr;Piateda;Piateda Centro
+en;Piateda;Piateda Centro
+it;Piateda;Piateda Centro
+nl;Piateda;Piateda Centro
+pt;Piateda;Piateda Centro
+it;Isola di Pianosa;Pianosa
+es;Follo;Piano di Follo
+fr;Follo;Piano di Follo
+en;Follo;Piano di Follo
+it;Follo;Piano di Follo
+nl;Follo;Piano di Follo
+pt;Follo;Piano di Follo
+fr;Piancogno;Piamborno
+en;Piancogno;Piamborno
+it;Piancogno;Piamborno
+nl;Piancogno;Piamborno
+pt;Piancogno;Piamborno
+es;Plasencia;Piacenza
+fr;Plaisance;Piacenza
+pt;Placência;Piacenza
+fr;Pescosansonesco;Pescosansonesco Nuovo
+en;Pescosansonesco;Pescosansonesco Nuovo
+it;Pescosansonesco;Pescosansonesco Nuovo
+nl;Pescosansonesco;Pescosansonesco Nuovo
+pt;Pescosansonesco;Pescosansonesco Nuovo
+fr;Pescarolo ed Uniti;Pescarolo
+en;Pescarolo ed Uniti;Pescarolo
+it;Pescarolo ed Uniti;Pescarolo
+nl;Pescarolo ed Uniti;Pescarolo
+pt;Pescarolo ed Uniti;Pescarolo
+fr;Pérouse;Perugia
+de;Percha;Perca
+en;Percha;Perca
+nl;Percha;Perca
+de;Pens;Pennes
+fr;Pavie;Pavia
+fur;Paular;Paularo
+fur;Pasian di Prat;Pasian di Prato
+fr;Parme;Parma
+de;Partschins;Parcines
+en;Partschins;Parcines
+nl;Partschins;Parcines
+fur;Paluce;Paluzza
+fur;Palme;Palmanova
+fur;Palacul;Palazzolo dello Stella
+de;Palau, Sardegna;Palau
+de;Palaia (Pisa);Palaia
+it;Pesto;Paestum
+de;Padua;Padova
+fr;Padoue;Padova
+en;Padua;Padova
+es;Padua;Padova
+nl;Padua;Padova
+pt;Pádua;Padova
+it;Padoa;Padova
+fur;Davar;Ovaro
+fr;Otrante;Otranto
+fur;Osof;Osoppo
+sc;Oscheri;Oschiri
+de;St. Ulrich in Gröden;Ortisei
+en;Urtijëi;Ortisei
+nl;Urtijëi;Ortisei
+de;St. Ulrich im Grödnertal;Ortisei
+de;Auer;Ora
+en;Auer;Ora
+nl;Auer;Ora
+de;Auer bei Bozen;Ora
+it;Oniài;Onifai
+fr;Oliveto Lario;Vassena
+de;Oliveto Lario;Vassena
+en;Oliveto Lario;Vassena
+it;Oliveto Lario;Vassena
+nl;Oliveto Lario;Vassena
+pt;Oliveto Lario;Vassena
+sc;Ulìana;Oliena
+sc;Terranòa;Olbia
+sc;Nùgoro;Nuoro
+sc;Nujvi;Nulvi
+fr;Novare;Novara
+de;Deutschnofen;Nova Ponente
+en;Deutschnofen;Nova Ponente
+nl;Deutschnofen;Nova Ponente
+de;Welschnofen;Nova Levante
+en;Welschnofen;Nova Levante
+nl;Welschnofen;Nova Levante
+fr;Novalaise;Novalesa
+de;Neustift;Novacella
+fr;Neive;Bricco di Neive
+de;Neive;Bricco di Neive
+en;Neive;Bricco di Neive
+it;Neive;Bricco di Neive
+nl;Neive;Bricco di Neive
+pt;Neive;Bricco di Neive
+it;Negrar di Valpolicella;Negrar
+de;Naturns;Naturno
+en;Naturns;Naturno
+nl;Naturns;Naturno
+fr;Nasino;Nasino-Borgo
+en;Nasino;Nasino-Borgo
+it;Nasino;Nasino-Borgo
+nl;Nasino;Nasino-Borgo
+pt;Nasino;Nasino-Borgo
+de;Neapel;Napoli
+en;Naples;Napoli
+es;Nápoles;Napoli
+fr;Naples;Napoli
+nl;Napels;Napoli
+pt;Nápoles;Napoli
+frr;Neapel;Napoli
+de;Nals;Nalles
+en;Nals;Nalles
+nl;Nals;Nalles
+en;Nago–Torbole;Nago-Torbole
+fur;Mucane;Muzzana del Turgnano
+fr;Île de Murano;Murano
+fur;Mosse;Mossa
+de;Moos in Passeier;Moso in Passiria
+en;Moos in Passeier;Moso in Passiria
+nl;Moos in Passeier;Moso in Passiria
+fur;Moruc;Moruzzo
+fur;Mortean;Mortegliano
+it;Morsano al Tagliamento;Morsano
+fur;Morsan dal Tiliment;Morsano
+fr;Montopoli in Val d'Arno;Montopoli
+en;Montopoli in Val d'Arno;Montopoli
+it;Montopoli in Val d'Arno;Montopoli
+nl;Montopoli in Val d'Arno;Montopoli
+pt;Montopoli in Val d'Arno;Montopoli
+fr;Monteveglio;Monteveglio Alto
+de;Monteveglio;Monteveglio Alto
+en;Monteveglio;Monteveglio Alto
+it;Monteveglio;Monteveglio Alto
+nl;Monteveglio;Monteveglio Alto
+pt;Monteveglio;Monteveglio Alto
+de;Caudium;Montesarchio
+nl;Caudium;Montesarchio
+fur;Montreâl;Montereale Valcellina
+fr;Montegrosso d'Asti;Montegrosso
+de;Montegrosso d'Asti;Montegrosso
+en;Montegrosso d'Asti;Montegrosso
+it;Montegrosso d'Asti;Montegrosso
+nl;Montegrosso d'Asti;Montegrosso
+pt;Montegrosso d'Asti;Montegrosso
+fr;Montecchio Maggiore;Montecchio Maggiore-Alte Ceccato
+de;Montecchio Maggiore;Montecchio Maggiore-Alte Ceccato
+en;Montecchio Maggiore;Montecchio Maggiore-Alte Ceccato
+it;Montecchio Maggiore;Montecchio Maggiore-Alte Ceccato
+nl;Montecchio Maggiore;Montecchio Maggiore-Alte Ceccato
+pt;Montecchio Maggiore;Montecchio Maggiore-Alte Ceccato
+fr;Montecatini Terme;Montecatini-Terme
+de;Montecatini Terme;Montecatini-Terme
+en;Montecatini Terme;Montecatini-Terme
+it;Montecatini Terme;Montecatini-Terme
+nl;Montecatini Terme;Montecatini-Terme
+pt;Montecatini Terme;Montecatini-Terme
+en;Montecatini;Montecatini Val di Cecina
+it;Montecatini di Val di Cecina;Montecatini Val di Cecina
+nl;Montecatini;Montecatini Val di Cecina
+pt;Montecatini;Montecatini Val di Cecina
+fr;Montebello della Battaglia;Montebello
+de;Montebello della Battaglia;Montebello
+en;Montebello della Battaglia;Montebello
+it;Montebello della Battaglia;Montebello
+nl;Montebello della Battaglia;Montebello
+pt;Montebello della Battaglia;Montebello
+de;Montan;Montagna
+en;Montan;Montagna
+nl;Montan;Montagna
+de;Welsberg;Monguelfo
+fr;Monguelfo-Tesido;Monguelfo
+en;Welsberg-Taisten;Monguelfo
+it;Monguelfo-Tesido;Monguelfo
+nl;Welsberg-Taisten;Monguelfo
+fur;Monfalcon;Monfalcone
+fr;Monchiero;Monchiero Borgonuovo
+de;Monchiero;Monchiero Borgonuovo
+en;Monchiero;Monchiero Borgonuovo
+it;Monchiero;Monchiero Borgonuovo
+nl;Monchiero;Monchiero Borgonuovo
+pt;Monchiero;Monchiero Borgonuovo
+fr;Moio della Civitella;Moio della Civitella-Pellare
+en;Moio della Civitella;Moio della Civitella-Pellare
+it;Moio della Civitella;Moio della Civitella-Pellare
+nl;Moio della Civitella;Moio della Civitella-Pellare
+pt;Moio della Civitella;Moio della Civitella-Pellare
+fur;Muimans;Moimacco
+fur;Muec;Moggio Udinese
+fr;Modène;Modena
+fr;Misène;Miseno
+es;Mira;Mira Taglio
+fr;Mira;Mira Taglio
+en;Mira;Mira Taglio
+it;Mira;Mira Taglio
+nl;Mira;Mira Taglio
+pt;Mira;Mira Taglio
+de;Mailand;Milano
+en;Milan;Milano
+es;Milán;Milano
+fr;Milan;Milano
+nl;Milaan;Milano
+pt;Milão;Milano
+fur;Milan;Milano
+de;Meta di Sorrento;Meta
+de;Mestre bei Venedig;Mestre
+fur;Meret di Tombe;Mereto di Tomba
+de;Meran;Merano
+nl;Meran;Merano
+en;Meran;Merano
+de;Mölten;Meltina
+en;Mölten;Meltina
+nl;Mölten;Meltina
+de;Mölten bei Meran;Meltina
+fur;Midun;Meduno
+fr;Medicina;Medicina-Buda
+de;Medicina;Medicina-Buda
+en;Medicina;Medicina-Buda
+it;Medicina;Medicina-Buda
+nl;Medicina;Medicina-Buda
+pt;Medicina;Medicina-Buda
+de;Mazzin di Fassa;Mazzin
+fr;Massa d'Albe;Massa d'Albe-Corona
+en;Massa d'Albe;Massa d'Albe-Corona
+it;Massa d'Albe;Massa d'Albe-Corona
+nl;Massa d'Albe;Massa d'Albe-Corona
+pt;Massa d'Albe;Massa d'Albe-Corona
+fr;Massa e Cozzile;Massa
+en;Massa e Cozzile;Massa
+it;Massa e Cozzile;Massa
+nl;Massa e Cozzile;Massa
+pt;Massa e Cozzile;Massa
+de;Kurzras;Maso Corto
+fr;Masi Torello;Masi-Torello
+en;Masi Torello;Masi-Torello
+it;Masi Torello;Masi-Torello
+nl;Masi Torello;Masi-Torello
+pt;Masi Torello;Masi-Torello
+fur;Martigna;Martignacco
+de;Marling;Marlengo
+en;Marling;Marlengo
+nl;Marling;Marlengo
+it;Cecina Mare;Marina di Cecina
+de;Marina di Castagneto;Marina di Castagneto Carducci
+fur;Marian;Mariano del Friuli
+de;Mareit;Mareta
+fr;Marcon;Marcon-Gaggio-Colmello
+en;Marcon;Marcon-Gaggio-Colmello
+it;Marcon;Marcon-Gaggio-Colmello
+nl;Marcon;Marcon-Gaggio-Colmello
+pt;Marcon;Marcon-Gaggio-Colmello
+fr;Marcallo con Casone;Marcallo
+en;Marcallo con Casone;Marcallo
+it;Marcallo con Casone;Marcallo
+nl;Marcallo con Casone;Marcallo
+pt;Marcallo con Casone;Marcallo
+fur;Maran;Marano Lagunare
+fur;Manzan;Manzano
+it;Mantova;Mantua
+en;Mantova;Mantua
+fr;Mantoue;Mantua
+fur;Mania;Maniago
+de;Mals;Malles Venosta
+en;Mals;Malles Venosta
+nl;Mals;Malles Venosta
+de;Grassbergalm;Malga di Montegrande
+fr;Malborghetto Valbruna;Malborghetto
+de;Malborghetto Valbruna;Malborghetto
+en;Malborghetto Valbruna;Malborghetto
+fur;Malborghèt;Malborghetto
+it;Malborghetto Valbruna;Malborghetto
+nl;Malborghetto Valbruna;Malborghetto
+pt;Malborghetto Valbruna;Malborghetto
+fr;Maiolo;Serra di Maiolo
+en;Maiolo;Serra di Maiolo
+it;Maiolo;Serra di Maiolo
+nl;Maiolo;Serra di Maiolo
+pt;Maiolo;Serra di Maiolo
+fur;Magnan;Magnano in Riviera
+en;Magliano de' Marsi;Magliano De'Marsi
+it;Magliano de' Marsi;Magliano De'Marsi
+nl;Magliano de' Marsi;Magliano De'Marsi
+pt;Magliano de' Marsi;Magliano De'Marsi
+de;Provinz Macerata;Macerata
+en;Province of Macerata;Macerata
+fr;Province de Macerata;Macerata
+it;Provincia di Macerata;Macerata
+es;Provincia de Macerata;Macerata
+nl;Provincie Macerata;Macerata
+de;Luttach;Lutago
+de;Lüsen;Luson - Luesen
+fr;Luson;Luson - Luesen
+en;Lüsen;Luson - Luesen
+it;Luson;Luson - Luesen
+nl;Lüsen;Luson - Luesen
+pt;Luson;Luson - Luesen
+fur;Lusevare;Lusevera
+de;Luserna San Giovanni;Luserna
+fr;Luserna San Giovanni;Luserna
+it;Luserna San Giovanni;Luserna
+nl;Luserna San Giovanni;Luserna
+pt;Luserna San Giovanni;Luserna
+en;Luserna San Giovanni;Luserna
+de;Lusern;Luserna
+sc;Lurisi;Luras
+de;Luna;Luni
+sc;Lùvula;Lula
+de;Lugagnano di Sona;Lugagnano
+fr;Lucques;Lucca
+it;Lu Canniscioni;Cannigione
+de;Cannigione di Arzachena;Cannigione
+fr;Loria;Loria Bessica
+en;Loria;Loria Bessica
+it;Loria;Loria Bessica
+nl;Loria;Loria Bessica
+pt;Loria;Loria Bessica
+it;Lonato del Garda;Lonato
+en;Leghorn;Livorno
+fr;Livourne;Livorno
+de;Luwin;Livigno
+fur;Livussul;Ligosullo
+de;Lignano;Lignano Sabbiadoro
+fur;Lignan;Lignano Sabbiadoro
+en;Lido di Roma;Lido di Ostia
+it;Lido di Iesolo;Lido di Jesolo
+it;Lido di Venezia;Lido
+fur;Listize;Lestizza
+fur;Lestice;Lestizza
+en;Lesignano de' Bagni;Lesignano de'Bagni
+it;Lesignano de' Bagni;Lesignano de'Bagni
+nl;Lesignano de' Bagni;Lesignano de'Bagni
+pt;Lesignano de' Bagni;Lesignano de'Bagni
+it;Colle dell'Eremo;Eremo
+de;Laveno-Mombello;Laveno
+fr;Laveno-Mombello;Laveno
+en;Laveno-Mombello;Laveno
+it;Laveno-Mombello;Laveno
+nl;Laveno-Mombello;Laveno
+pt;Laveno-Mombello;Laveno
+pt;Lavelo;Lavello
+en;Laurein;Lauregno
+nl;Laurein;Lauregno
+fur;Lauc;Lauco
+fur;Tisane;Latisana
+fur;Latisane;Latisana
+de;Laas;Lasa
+en;Laas;Lasa
+nl;Laas;Lasa
+en;L’Aquila;L'Aquila
+pt;Áquila;L'Aquila
+fr;Lama Mocogno;Lama
+en;Lama Mocogno;Lama
+it;Lama Mocogno;Lama
+nl;Lama Mocogno;Lama
+pt;Lama Mocogno;Lama
+de;Leifers;Laives
+nl;Leifers;Laives
+de;Lajen;Laion
+en;Lajen;Laion
+nl;Lajen;Laion
+de;Algund;Lagundo
+en;Algund;Lagundo
+nl;Algund;Lagundo
+de;Latsch;Laces
+en;Latsch;Laces
+nl;Latsch;Laces
+fr;Ivrée;Ivrea
+en;Isola del Gran Sasso;Isola del Gran Sasso d'Italia
+it;Porto d’Ischia;Ischia Porto
+it;Il Poggione;Poggione
+de;Jesolo;Iesolo
+es;Jesolo;Iesolo
+en;Jesolo;Iesolo
+fr;Jesolo;Iesolo
+it;Jesolo;Iesolo
+nl;Jesolo;Iesolo
+pt;Jesolo;Iesolo
+en;Iesi;Jesi
+es;Iesi;Jesi
+fur;Gruar;Gruaro
+fr;Haut-Grimaldi;Grimaldi
+it;Greve;Greve in Chianti
+fr;Gravedona;Gravedona-San Gregorio
+en;Gravedona;Gravedona-San Gregorio
+it;Gravedona;Gravedona-San Gregorio
+nl;Gravedona;Gravedona-San Gregorio
+pt;Gravedona;Gravedona-San Gregorio
+fur;Grau;Grado
+fur;Gradiscje dal Lusinc;Gradisca d'Isonzo
+fur;Gurize;Gorizia
+de;Görz;Gorizia
+fur;Gurizze;Gorizia
+fr;Godiasco;Godiasco Salice Terme
+en;Godiasco;Godiasco Salice Terme
+it;Godiasco;Godiasco Salice Terme
+nl;Godiasco;Godiasco Salice Terme
+pt;Godiasco;Godiasco Salice Terme
+fr;Godega di Sant'Urbano;Godega
+en;Godega di Sant'Urbano;Godega
+it;Godega di Sant'Urbano;Godega
+nl;Godega di Sant'Urbano;Godega
+pt;Godega di Sant'Urbano;Godega
+de;Glurns;Glorenza
+en;Glurns;Glorenza
+it;Giugliano;Giugliano in Campania
+de;Genua;Genova
+en;Genoa;Genova
+fr;Gênes;Genova
+nl;Genua;Genova
+fur;Glemone;Gemona
+fr;Gavardo;Gavardo-Sopraponte
+en;Gavardo;Gavardo-Sopraponte
+it;Gavardo;Gavardo-Sopraponte
+nl;Gavardo;Gavardo-Sopraponte
+pt;Gavardo;Gavardo-Sopraponte
+de;Gargazon;Gargazzone
+en;Gargazon;Gargazzone
+nl;Gargazon;Gargazzone
+de;Martell;Ganda
+fr;Martello;Ganda
+en;Martell;Ganda
+it;Martello;Ganda
+pt;Martello;Ganda
+fr;Gaète;Gaeta
+fur;Frisanc;Frisanco
+fur;Fossalte;Fossalta di Portogruaro
+fr;Fornoue;Fornovo di Taro
+fur;Fors Disot;Forni di Sotto
+fur;For Disore;Forni di Sopra
+fur;Fors Disore;Forni di Sopra
+fur;Fors di Voltri;Forni Avoltri
+en;Forio d'Ischia;Forio
+de;Bognanco;Fonti
+fr;Bognanco;Fonti
+it;Bognanco;Fonti
+nl;Bognanco;Fonti
+pt;Bognanco;Fonti
+en;Bognanco;Fonti
+fr;Fontana Liri;Fontana Liri Superiore
+en;Fontana Liri;Fontana Liri Superiore
+it;Fontana Liri;Fontana Liri Superiore
+nl;Fontana Liri;Fontana Liri Superiore
+pt;Fontana Liri;Fontana Liri Superiore
+fur;Fontanefrede;Fontanafredda
+sc;Onne;Fonni
+fr;Fogliano Redipuglia;Fogliano
+de;Fogliano Redipuglia;Fogliano
+en;Fogliano Redipuglia;Fogliano
+fur;Foian;Fogliano
+it;Fogliano Redipuglia;Fogliano
+nl;Fogliano Redipuglia;Fogliano
+pt;Fogliano Redipuglia;Fogliano
+sc;Fiolinas;Florinas
+fur;Flaiban;Flaibano
+it;Fiumicino-Isola Sacra;Fiumicino
+fur;Vile di Flum;Fiume Veneto
+fr;Fiumalbo;Fiumalbo-Dogana
+en;Fiumalbo;Fiumalbo-Dogana
+it;Fiumalbo;Fiumalbo-Dogana
+nl;Fiumalbo;Fiumalbo-Dogana
+pt;Fiumalbo;Fiumalbo-Dogana
+de;Florenz;Firenze
+es;Florencia;Firenze
+en;Florence;Firenze
+fr;Florence;Firenze
+nl;Florence;Firenze
+pt;Florença;Firenze
+es;Fiorano Modenese;Fiorano
+fr;Fiorano Modenese;Fiorano
+en;Fiorano Modenese;Fiorano
+it;Fiorano Modenese;Fiorano
+nl;Fiorano Modenese;Fiorano
+pt;Fiorano Modenese;Fiorano
+de;Figline e Incisa Valdarno;Figline Valdarno
+de;Völs am Schlern;Fiè Allo Sciliar
+fr;Fiastra;Trebbio
+en;Fiastra;Trebbio
+it;Fiastra;Trebbio
+nl;Fiastra;Trebbio
+pt;Fiastra;Trebbio
+fr;Ferrare;Ferrara
+it;Farneta;La Villa-Farneta
+fur;Fane;Fanna
+de;Pfalzen;Falzes
+nl;Pfalzen;Falzes
+en;Pfalzen;Falzes
+fr;Falcade;Falcade Alto
+en;Falcade;Falcade Alto
+it;Falcade;Falcade Alto
+nl;Falcade;Falcade Alto
+pt;Falcade;Falcade Alto
+fr;Fagnano Olona;Fagnano Olona-Bergoro
+en;Fagnano Olona;Fagnano Olona-Bergoro
+it;Fagnano Olona;Fagnano Olona-Bergoro
+nl;Fagnano Olona;Fagnano Olona-Bergoro
+pt;Fagnano Olona;Fagnano Olona-Bergoro
+fur;Feagne;Fagagna
+it;Enemonzo;Enemonzo-Quinis
+fur;Denemonc;Enemonzo-Quinis
+fr;Endine Gaiano;Endine
+en;Endine Gaiano;Endine
+it;Endine Gaiano;Endine
+nl;Endine Gaiano;Endine
+pt;Endine Gaiano;Endine
+de;Elva;Serre
+fr;Elva;Serre
+en;Elva;Serre
+it;Elva;Serre
+nl;Elva;Serre
+pt;Elva;Serre
+de;Neumarkt;Egna
+en;Neumarkt;Egna
+nl;Neumarkt;Egna
+fur;Drencje;Drenchia
+de;Dossobuono di Villafranca;Dossobuono
+de;Dorio am See;Dorio
+fur;Dogne;Dogna
+fur;Dobardò;Doberdò del Lago
+de;Toblach;Dobbiaco
+en;Toblach;Dobbiaco
+nl;Toblach;Dobbiaco
+fr;Dizzasco;Dizzasco-Biazzeno
+en;Dizzasco;Dizzasco-Biazzeno
+it;Dizzasco;Dizzasco-Biazzeno
+nl;Dizzasco;Dizzasco-Biazzeno
+pt;Dizzasco;Dizzasco-Biazzeno
+de;Dimaro Folgarida;Dimaro
+fur;Dignan;Dignano
+de;Valdaone;Daone
+fr;Cusano Milanino;Cusano
+en;Cusano Milanino;Cusano
+it;Cusano Milanino;Cusano
+nl;Cusano Milanino;Cusano
+pt;Cusano Milanino;Cusano
+de;Graun;Curon Venosta
+en;Graun im Vinschgau;Curon Venosta
+nl;Graun im Vinschgau;Curon Venosta
+sc;Cullieri;Cuglieri
+fr;Crosa;Maglione-Crosa
+de;Crosa;Maglione-Crosa
+en;Crosa;Maglione-Crosa
+it;Crosa;Maglione-Crosa
+nl;Crosa;Maglione-Crosa
+pt;Crosa;Maglione-Crosa
+it;Crevola;Crevola d'Ossola
+it;Crevola d’Ossola;Crevola d'Ossola
+fr;Crémone;Cremona
+fr;Craco;Craco-Sant'Angelo
+en;Craco;Craco-Sant'Angelo
+it;Craco;Craco-Sant'Angelo
+nl;Craco;Craco-Sant'Angelo
+pt;Craco;Craco-Sant'Angelo
+fur;Cosean;Coseano
+de;Corvara;Corvara in Badia
+en;Corvara;Corvara in Badia
+nl;Corvara;Corvara in Badia
+fr;Cortone;Cortona
+de;Cortina d’Ampezzo;Cortina d'Ampezzo
+de;Kurtatsch;Cortaccia sulla Strada del Vino
+de;Kurtatsch an der Weinstrasse;Cortaccia sulla Strada del Vino
+fur;Cuar di Rosacis;Corno di Rosazzo
+de;Girlan;Cornaiano
+fur;Cordovat;Cordovado
+fr;Conza della Campania;Nuova Conza della Campania
+en;Conza della Campania;Nuova Conza della Campania
+it;Conza della Campania;Nuova Conza della Campania
+nl;Conza della Campania;Nuova Conza della Campania
+pt;Conza della Campania;Nuova Conza della Campania
+fur;Concuardie;Concordia Sagittaria
+fr;Côme;Como
+fur;Comelians;Comeglians
+de;Terme di Comano;Comano
+de;Steinegg;Collepietra
+de;Gossensass;Colle Isarco
+fr;Colico;Colico Piano
+en;Colico;Colico Piano
+it;Colico;Colico Piano
+nl;Colico;Colico Piano
+pt;Colico;Colico Piano
+de;Colá di Lazise;Colà
+fur;Codroip;Codroipo
+fr;Cocquio-Trevisago;Cocquio
+en;Cocquio-Trevisago;Cocquio
+it;Cocquio-Trevisago;Cocquio
+nl;Cocquio-Trevisago;Cocquio
+pt;Cocquio-Trevisago;Cocquio
+fur;Clausêt;Clauzetto
+de;Cividale;Cividale del Friuli
+fur;Cividât;Cividale del Friuli
+de;Cittá di Castello (Perugia);Città di Castello
+fr;Cisano sul Neva;Cisano
+en;Cisano sul Neva;Cisano
+it;Cisano sul Neva;Cisano
+nl;Cisano sul Neva;Cisano
+pt;Cisano sul Neva;Cisano
+fr;Cingia de'Botti;Cingia de' Botti
+fr;Cibiana di Cadore;Cibiana
+en;Cibiana di Cadore;Cibiana
+it;Cibiana di Cadore;Cibiana
+nl;Cibiana di Cadore;Cibiana
+pt;Cibiana di Cadore;Cibiana
+fur;Scluse;Chiusaforte
+de;Klausen;Chiusa
+en;Klausen;Chiusa
+nl;Klausen;Chiusa
+fur;Cjons;Chions
+fr;Chaumont;Chiomonte
+fr;Chies d'Alpago;Chies
+en;Chies d'Alpago;Chies
+it;Chies d'Alpago;Chies
+nl;Chies d'Alpago;Chies
+pt;Chies d'Alpago;Chies
+de;Kiens;Chienes
+en;Kiens;Chienes
+nl;Kiens;Chienes
+sc;Tzaramonte;Chiaramonti
+fr;Césène;Cesena
+fur;Çarvignan;Cervignano del Friuli
+fur;Cervignan Sarvignan;Cervignano del Friuli
+fr;Chisra;Cerveteri
+pt;Care;Cerveteri
+it;Borgata Ceronda;Ceronda
+de;Tscherms;Cermes
+en;Tscherms;Cermes
+nl;Tscherms;Cermes
+fr;Cerete;Cerete Alto
+en;Cerete;Cerete Alto
+it;Cerete;Cerete Alto
+nl;Cerete;Cerete Alto
+pt;Cerete;Cerete Alto
+fr;Virgilio;Cerese
+en;Virgilio;Cerese
+it;Virgilio;Cerese
+nl;Virgilio;Cerese
+pt;Virgilio;Cerese
+fr;Cengio;Cengio Alto
+en;Cengio;Cengio Alto
+it;Cengio;Cengio Alto
+nl;Cengio;Cengio Alto
+pt;Cengio;Cengio Alto
+fr;Cazzago San Martino;Cazzago San Martino-Calino
+en;Cazzago San Martino;Cazzago San Martino-Calino
+it;Cazzago San Martino;Cazzago San Martino-Calino
+nl;Cazzago San Martino;Cazzago San Martino-Calino
+pt;Cazzago San Martino;Cazzago San Martino-Calino
+fr;Cavriglia;Cavriglia-Monastero
+en;Cavriglia;Cavriglia-Monastero
+it;Cavriglia;Cavriglia-Monastero
+nl;Cavriglia;Cavriglia-Monastero
+pt;Cavriglia;Cavriglia-Monastero
+de;Cavriglia;Cavriglia-Monastero
+fur;Cjavac;Cavazzo Carnico
+fur;Cjavas;Cavasso Nuovo
+fr;Cavaion Veronese;Cavajon Veronese
+de;Cavaion Veronese;Cavajon Veronese
+en;Cavaion Veronese;Cavajon Veronese
+it;Cavaion Veronese;Cavajon Veronese
+nl;Cavaion Veronese;Cavajon Veronese
+pt;Cavaion Veronese;Cavajon Veronese
+de;Cava de' Tirreni;Cava Dè Tirreni
+en;Cava de' Tirreni;Cava Dè Tirreni
+fr;Cava de'Tirreni;Cava Dè Tirreni
+it;Cava de' Tirreni;Cava Dè Tirreni
+nl;Cava de' Tirreni;Cava Dè Tirreni
+pt;Cava de' Tirreni;Cava Dè Tirreni
+fr;Castrignano de'Greci;Castrignano De' Greci
+fur;Cjasteons di Stradalte;Castions di Strada
+fr;Castiglione Chiavarese;Castiglione
+en;Castiglione Chiavarese;Castiglione
+it;Castiglione Chiavarese;Castiglione
+nl;Castiglione Chiavarese;Castiglione
+pt;Castiglione Chiavarese;Castiglione
+fr;Castelvittorio;Castel Vittorio
+en;Castelvittorio;Castel Vittorio
+it;Castelvittorio;Castel Vittorio
+nl;Castelvittorio;Castel Vittorio
+pt;Castelvittorio;Castel Vittorio
+sc;Casteddu Sardu;Castelsardo
+de;Kastelruth;Castelrotto
+en;Kastelruth;Castelrotto
+nl;Kastelruth;Castelrotto
+de;Castelnovo ne' Monti;Castelnovo ne'Monti
+en;Castelnovo ne' Monti;Castelnovo ne'Monti
+it;Castelnovo ne' Monti;Castelnovo ne'Monti
+nl;Castelnovo ne' Monti;Castelnovo ne'Monti
+pt;Castelnovo ne' Monti;Castelnovo ne'Monti
+en;Castelmagno;Campomolino
+it;Castelmagno;Campomolino
+fr;Castelmagno;Campomolino
+de;Castelmagno;Campomolino
+nl;Castelmagno;Campomolino
+pt;Castelmagno;Campomolino
+fr;Castellavazzo;Castello Lavazzo
+en;Castellavazzo;Castello Lavazzo
+it;Castellavazzo;Castello Lavazzo
+nl;Castellavazzo;Castello Lavazzo
+pt;Castellavazzo;Castello Lavazzo
+de;Castello-Molina di Fiemme;Castello Molina di Fiemme
+de;Castello di Fiemme;Castello Molina di Fiemme
+fr;Castellana Grotte;Castellana
+en;Castellana Grotte;Castellana
+it;Castellana Grotte;Castellana
+nl;Castellana Grotte;Castellana
+pt;Castellana Grotte;Castellana
+nl;Stabiae;Castellammare di Stabia
+it;Castellammare;Castellammare di Stabia
+fr;Châteaudauphin;Casteldelfino
+fr;Cassina de'Pecchi;Cassina de' Pecchi
+fur;Cjassa;Cassacco
+de;Casole d' Elsa;Casole d'Elsa
+fr;Caserte;Caserta
+en;Malva Nuova Squarcia;Case Malva
+fr;Casei Gerola;Casei
+en;Casei Gerola;Casei
+it;Casei Gerola;Casei
+nl;Casei Gerola;Casei
+pt;Casei Gerola;Casei
+pt;Cássia;Cascia
+fur;Cjasarse;Casarsa della Delizia
+fr;Casalbuttano ed Uniti;Casalbuttano
+en;Casalbuttano ed Uniti;Casalbuttano
+it;Casalbuttano ed Uniti;Casalbuttano
+nl;Casalbuttano ed Uniti;Casalbuttano
+pt;Casalbuttano ed Uniti;Casalbuttano
+fr;Casalbordino;Casalbordino-Miracoli
+en;Casalbordino;Casalbordino-Miracoli
+it;Casalbordino;Casalbordino-Miracoli
+nl;Casalbordino;Casalbordino-Miracoli
+pt;Casalbordino;Casalbordino-Miracoli
+fr;Carrare;Carrara
+fr;Carmagnole;Carmagnola
+fur;Cjarlins;Carlino
+it;Caresana (San Dorligo della Valle);Caresana
+de;Kardaun;Cardano
+de;Schluderbach;Carbonin
+en;Schluderbach;Carbonin
+fr;Schluderbach;Carbonin
+nl;Schluderbach;Carbonin
+fr;Capoue;Capua
+fr;Caprino Bergamasco;Caprino
+en;Caprino Bergamasco;Caprino
+it;Caprino Bergamasco;Caprino
+nl;Caprino Bergamasco;Caprino
+pt;Caprino Bergamasco;Caprino
+es;Ciudad de Capri;Capri
+de;Stadt Capri;Capri
+en;Capri city;Capri
+fr;Ville de Capri;Capri
+nl;Capri stadt;Capri
+it;Caprarica;Caprarica di Lecce
+fr;Cappella de'Picenardi;Cappella de' Picenardi
+fr;Capaccio-Paestum;Capaccio
+fur;Cjaurlis;Caorle
+pt;Cantagalo;Cantagallo
+it;Cannero;Cannero Riviera
+fur;Cjanive;Caneva
+fr;Comelico Superiore;Candide
+en;Comelico Superiore;Candide
+it;Comelico Superiore;Candide
+nl;Comelico Superiore;Candide
+pt;Comelico Superiore;Candide
+de;Comelico Superiore;Candide
+de;Sand in Taufers;Campo Tures
+en;Sand in Taufers;Campo Tures
+nl;Sand in Taufers;Campo Tures
+fur;Cjamplunc de Tor;Campolongo al Torre
+nl;Campolongo Tapogliano;Campolongo al Torre
+fur;Cjamplunc;Campolongo al Torre
+de;Astfeld;Villa-Campolasta
+it;Campolasta;Villa-Campolasta
+fur;Cjampfuarmit;Campoformido
+de;Freienfeld;Campo di Trens
+en;Freienfeld;Campo di Trens
+nl;Freienfeld;Campo di Trens
+de;Campione d’Italia;Campione
+en;Campione d'Italia;Campione
+es;Campione d'Italia;Campione
+it;Campione d'Italia;Campione
+nl;Campione d'Italia;Campione
+pt;Campione d'Italia;Campione
+fr;Caldogno;Caldogno-Rettorgole-Cresole
+en;Caldogno;Caldogno-Rettorgole-Cresole
+it;Caldogno;Caldogno-Rettorgole-Cresole
+nl;Caldogno;Caldogno-Rettorgole-Cresole
+pt;Caldogno;Caldogno-Rettorgole-Cresole
+de;Kaltern an der Weinstrasse;Caldaro sulla Strada del Vino
+de;Kaltern;Caldaro sulla Strada del Vino
+fr;Calcata;Calcata Nuova
+en;Calcata;Calcata Nuova
+it;Calcata;Calcata Nuova
+nl;Calcata;Calcata Nuova
+pt;Calcata;Calcata Nuova
+en;Caiatia;Caiazzo
+fr;Caderzone;Caderzone Terme
+en;Caderzone;Caderzone Terme
+it;Caderzone;Caderzone Terme
+nl;Caderzone;Caderzone Terme
+pt;Caderzone;Caderzone Terme
+es;Caderzone;Caderzone Terme
+fur;Buri;Buttrio
+sc;Busache;Busachi
+fur;Buduee;Budoia
+de;Bruneck;Brunico
+nl;Bruneck;Brunico
+en;Bruneck;Brunico
+fur;Brugnere;Brugnera
+nl;Branzoll;Bronzolo
+fr;Brissogne;Grand Brissogne
+de;Brissogne;Grand Brissogne
+en;Brissogne;Grand Brissogne
+it;Brissogne;Grand Brissogne
+nl;Brissogne;Grand Brissogne
+pt;Brissogne;Grand Brissogne
+de;Brixen;Bressanone
+es;Bresanona;Bressanone
+en;Brixen;Bressanone
+nl;Brixen;Bressanone
+de;Brixen in Südtirol;Bressanone
+fr;Bressana Bottarone;Bressana
+en;Bressana Bottarone;Bressana
+it;Bressana Bottarone;Bressana
+nl;Bressana Bottarone;Bressana
+pt;Bressana Bottarone;Bressana
+de;Brenner;Brennero
+en;Brenner;Brennero
+nl;Brenner;Brennero
+fr;Breda di Piave;Breda
+en;Breda di Piave;Breda
+it;Breda di Piave;Breda
+nl;Breda di Piave;Breda
+pt;Breda di Piave;Breda
+de;Brazzano di Cormons;Brazzano
+fr;Brallo di Pregola;Pregola
+en;Brallo di Pregola;Pregola
+it;Brallo di Pregola;Pregola
+nl;Brallo di Pregola;Pregola
+pt;Brallo di Pregola;Pregola
+fr;Bosentino;Bosentino-Migazzone
+de;Bosentino;Bosentino-Migazzone
+en;Bosentino;Bosentino-Migazzone
+it;Bosentino;Bosentino-Migazzone
+nl;Bosentino;Bosentino-Migazzone
+pt;Bosentino;Bosentino-Migazzone
+de;Bosco - Perugia;Bosco
+fr;Borgoricco;Borgoricco-San Michele delle Badesse-Sant'Eufemia
+en;Borgoricco;Borgoricco-San Michele delle Badesse-Sant'Eufemia
+it;Borgoricco;Borgoricco-San Michele delle Badesse-Sant'Eufemia
+nl;Borgoricco;Borgoricco-San Michele delle Badesse-Sant'Eufemia
+pt;Borgoricco;Borgoricco-San Michele delle Badesse-Sant'Eufemia
+fr;Borgonovo Val Tidone;Borgonovo Valtidone
+en;Borgonovo Val Tidone;Borgonovo Valtidone
+it;Borgonovo Val Tidone;Borgonovo Valtidone
+nl;Borgonovo Val Tidone;Borgonovo Valtidone
+pt;Borgonovo Val Tidone;Borgonovo Valtidone
+fr;Buggiano;Borgo a Buggiano
+en;Buggiano;Borgo a Buggiano
+it;Buggiano;Borgo a Buggiano
+nl;Buggiano;Borgo a Buggiano
+pt;Buggiano;Borgo a Buggiano
+de;Buggiano;Borgo a Buggiano
+fr;Borca di Cadore;Borca
+en;Borca di Cadore;Borca
+it;Borca di Cadore;Borca
+nl;Borca di Cadore;Borca
+pt;Borca di Cadore;Borca
+de;Bozen;Bolzano
+fur;Bolzan;Bolzano
+lb;Bozen;Bolzano
+nds;Bozen;Bolzano
+nl;Bozen;Bolzano
+rm;Bulsaun;Bolzano
+sc;Bolzanu;Bolzano
+es;Bolonia;Bologna
+fr;Bologne;Bologna
+pt;Bolonha;Bologna
+it;Boiano;Bojano
+fr;Bioglio;Bioglio-Portula-Andrè
+de;Bioglio;Bioglio-Portula-Andrè
+en;Bioglio;Bioglio-Portula-Andrè
+it;Bioglio;Bioglio-Portula-Andrè
+nl;Bioglio;Bioglio-Portula-Andrè
+pt;Bioglio;Bioglio-Portula-Andrè
+fur;Bicinins;Bicinicco
+en;Beura-Cardezza;Beura
+it;Beura-Cardezza;Beura
+fr;Beura-Cardezza;Beura
+de;Beura-Cardezza;Beura
+nl;Beura-Cardezza;Beura
+pt;Beura-Cardezza;Beura
+fr;Berzo Demo;Berzo
+en;Berzo Demo;Berzo
+it;Berzo Demo;Berzo
+nl;Berzo Demo;Berzo
+pt;Berzo Demo;Berzo
+fur;Bertiul;Bertiolo
+fr;Bergame;Bergamo
+de;Benevent;Benevento
+fr;Bénévent;Benevento
+fr;Bellune;Belluno
+de;Bellamonte di Predazzo;Bellamonte
+fr;Belforte all'Isauro;Belforte
+en;Belforte all'Isauro;Belforte
+it;Belforte all'Isauro;Belforte
+nl;Belforte all'Isauro;Belforte
+pt;Belforte all'Isauro;Belforte
+fr;Bastida de'Dossi;Bastida de' Dossi
+fur;Basilian;Basiliano
+fr;Bardonèche;Bardonecchia
+de;Baiae;Baia
+en;Baiae;Baia
+es;Bayas;Baia
+fr;Baïes;Baia
+it;Roselle;Bagno Roselle
+de;Abtei;Badia
+en;Abtei-Badia;Badia
+fur;Azzan;Azzano Decimo
+de;Afing;Avigna
+it;Avigliano;Avigliano Umbro
+de;Hafling;Avelengo
+en;Hafling;Avelengo
+nl;Hafling;Avelengo
+fr;Auronzo di Cadore;Auronzo
+en;Auronzo di Cadore;Auronzo
+it;Auronzo di Cadore;Auronzo
+nl;Auronzo di Cadore;Auronzo
+pt;Auronzo di Cadore;Auronzo
+de;Duino-Aurisina;Aurisina
+fr;Duino-Aurisina;Aurisina
+en;Duino-Aurisina;Aurisina
+it;Duino-Aurisina;Aurisina
+nl;Duino-Aurisina;Aurisina
+pt;Duino-Aurisina;Aurisina
+fur;Atimis;Attimis
+fur;Datimis;Attimis
+es;Asís;Assisi
+fr;Assise;Assisi
+pt;Assis;Assisi
+fur;Darzin;Arzene
+fur;Dartigne;Artegna
+fur;Darte;Arta Terme
+de;Arqua;Arquà Petrarca
+fr;Ariano nel Polesine;Ariano
+en;Ariano nel Polesine;Ariano
+it;Ariano nel Polesine;Ariano
+nl;Ariano nel Polesine;Ariano
+pt;Ariano nel Polesine;Ariano
+es;Ariano Irpino;Ariano Irpino-Martiri
+fr;Ariano Irpino;Ariano Irpino-Martiri
+en;Ariano Irpino;Ariano Irpino-Martiri
+it;Ariano Irpino;Ariano Irpino-Martiri
+nl;Ariano Irpino;Ariano Irpino-Martiri
+pt;Ariano Irpino;Ariano Irpino-Martiri
+fr;Arcugnano;Arcugnano-Torri
+en;Arcugnano;Arcugnano-Torri
+it;Arcugnano;Arcugnano-Torri
+nl;Arcugnano;Arcugnano-Torri
+pt;Arcugnano;Arcugnano-Torri
+fur;Darbe;Arba
+fr;Aquilée;Aquileia
+fur;Aquilee;Aquileia
+de;Sankt Michael;San Michele
+fr;Apice;Apice Vecchio
+en;Apice;Apice Vecchio
+it;Apice;Apice Vecchio
+nl;Apice;Apice Vecchio
+pt;Apice;Apice Vecchio
+fr;Aoste;Aosta
+de;Antholz Mittertal;Anterselva di Mezzo
+de;Antholz Niedertal;Anterselva di Sotto
+de;Altrei;Anterivo
+en;Altrei;Anterivo
+nl;Altrei;Anterivo
+fur;Danon;Annone Veneto
+en;Anguillara;Anguillara Sabazia
+fr;Andretta;Andretta-Mattinella
+en;Andretta;Andretta-Mattinella
+it;Andretta;Andretta-Mattinella
+nl;Andretta;Andretta-Mattinella
+pt;Andretta;Andretta-Mattinella
+en;Andorno Micca;Andorno Cacciorna
+it;Andorno Micca;Andorno Cacciorna
+fr;Andorno Micca;Andorno Cacciorna
+de;Andorno Micca;Andorno Cacciorna
+nl;Andorno Micca;Andorno Cacciorna
+pt;Andorno Micca;Andorno Cacciorna
+fr;Ancône;Ancona
+fur;Dimpeç;Ampezzo
+fur;Damar;Amaro
+de;Almese;Almese-Rivera
+fr;Almese;Almese-Rivera
+it;Almese;Almese-Rivera
+nl;Almese;Almese-Rivera
+pt;Almese;Almese-Rivera
+en;Almese;Almese-Rivera
+es;Alguer;Alghero
+sc;Alighera;Alghero
+fr;Alexandrie;Alessandria
+pt;Alexandria;Alessandria
+fr;Albaredo per San Marco;Albaredo
+de;Albaredo per San Marco;Albaredo
+en;Albaredo per San Marco;Albaredo
+it;Albaredo per San Marco;Albaredo
+nl;Albaredo per San Marco;Albaredo
+pt;Albaredo per San Marco;Albaredo
+fur;Dael;Aiello del Friuli
+fr;Agnadel;Agnadello
+sc;Agghju;Aggius
+fur;Panzan;Panzano
+fr;Gatteo;Gatteo-Sant'Angelo
+en;Gatteo;Gatteo-Sant'Angelo
+it;Gatteo;Gatteo-Sant'Angelo
+nl;Gatteo;Gatteo-Sant'Angelo
+pt;Gatteo;Gatteo-Sant'Angelo
+de;Gatteo Mare;Gatteo a Mare
+de;Viserbella di Rimini;Viserbella
+fur;Caprive;Capriva del Friuli
+fur;San Laurinc di Mosse;San Lorenzo Isontino
+fur;Rude;Ruda
+fur;Visc;Visco
+fur;Sant Vît de Tor;San Vito al Torre
+fur;San Vit de Tor;San Vito al Torre
+fur;Migjee;Medea
+fur;Pavie;Pavia di Udine
+fur;Cjamin dal Tiliment;Camino al Tagliamento
+fur;Medune;Meduna di Livenza
+fur;Pramaior;Pramaggiore
+de;Niederrasen;Rasun di Sotto
+de;Innerpichl;Colle di Dentro
+de;Pichl;Colle di Fuori
+de;Außerpichl;Colle di Fuori
+fr;Ponzano Veneto;Ponzano
+en;Ponzano Veneto;Ponzano
+it;Ponzano Veneto;Ponzano
+nl;Ponzano Veneto;Ponzano
+pt;Ponzano Veneto;Ponzano
+fr;Spinea;Spinea-Orgnano
+en;Spinea;Spinea-Orgnano
+it;Spinea;Spinea-Orgnano
+nl;Spinea;Spinea-Orgnano
+pt;Spinea;Spinea-Orgnano
+fur;Çurçuvint;Cercivento
+fur;Sudri;Sutrio
+it;Bolzano;Bolzano Bellunese
+it;Grimacco;Grimacco Inferiore
+fur;Grimac;Grimacco Inferiore
+fur;Savogne;Savogna
+fur;Pradaman;Pradamano
+fur;Pagna;Pagnacco
+fur;Bordan;Bordano
+fur;Preon;Preone
+fur;Soclêf;Socchieve
+fur;Tramonç Disot;Tramonti di Sotto
+fur;San Martin dal Tiliment;San Martino al Tagliamento
+fur;Morâr;Moraro
+it;Fratterosa;Fratte Rosa
+it;Castelnuovo di Garda;Castelnuovo del Garda
+it;Boscone;Cesano Boscone
+it;Cadegliano Viconago;Cadegliano-Viconago
+it;Gironico;Gironico al Piano
+it;Costa Serina;Costa di Serina
+it;Vo';Vò
+it;Soraga Di Fassa;Soraga
+es;Isla del Giglio;Isola del Giglio
+de;Prags;Braies
+de;Karneid;Cornedo All'Isarco
+de;Kurtinig an der Weinstrasse;Cortina sulla Strada del Vino
+de;Villnöss;Funes - Villnoess
+de;Margreid an der Weinstrasse;Magrè sulla Strada del Vino
+de;Antholz;Rasun Anterselva - Rasen-Antholz
+it;Rasun Anterselva;Rasun Anterselva - Rasen-Antholz
+de;Rasen-Antholz;Rasun Anterselva - Rasen-Antholz
+de;Ritten;Renon
+de;St. Martin in Thurn;San Martino in Badia
+de;Schnals;Senales
+de;Dorf Tirol;Tirolo
+de;Dorf Tirol bei Meran;Tirolo
+it;Ultimo;Ultimo - Ulten
+de;Ulten;Ultimo - Ulten
+de;Pfitsch;Prati
+de;Gsieser Tal;Valle di Casies - Gsies
+it;Usseauso;Usseaux
+it;Cerretto Langhe;Cerreto Langhe
+it;Torre Cajetani;Torre Caietani
+fr;Méans;Meana di Susa
+fr;Bas-Grimaldi;Grimaldi Inferiore
+de;Dimaro Folgarida;Folgarida
+it;Chiesa;Parrocchia
+it;Pacengo;Pacengo di Lazise
+de;Klobenstein;Collalbo
+de;Trinità d'Agultu e Vignola;Trinità d'Agultu
+it;San Floriano d'Ega;Obereggen
+de;Ridnaun;Ridanna
+it;Aranova;Ara Nova
+it;Esperia Inferiore;San Pietro In Curolis
+de;Baia Sardinia;Baja Sardinia
+de;Isola dei Pescatori;Isola Superiore
+en;Isola dei Pescatori;Isola Superiore
+it;isola dei Pescatori;Isola Superiore
+fr;Isola dei Pescatori;Isola Superiore
+es;Isola dei Pescatori;Isola Superiore
+nl;Isola dei Pescatori;Isola Superiore
+es;Santa María de Leuca;Santa Maria di Leuca
+de;Santa Maria del Giudice-Lucca;Santa Maria del Giudice
+it;Oriago;Oriago Di Mira
+de;Marcelli di Numana;Marcelli
+it;Timmari;Villaggio Timmari
+es;Tíndaris;Tindari
+fr;Tyndaris;Tindari
+de;Fondachello di Mascali;Fondachelo
+en;Goldrain;Coldrano
+de;Goldrain;Coldrano
+de;Moggiona di Poppi;Moggiona
+en;Gargagnago di Valpolicella;Gargagnago
+en;Caucana;Caucana-Finaiti-Casuzze-Finaiti N.
+en;Trambacche Di Veggiano;Trambacche
+de;Savelletri;Savelletri Di Fasano
+de;Stern;La Villa
+de;Reischach;Riscone
+en;Civitella d'Arna;Civitella d'Arno
+de;Civitella d'Arna;Civitella d'Arno
+it;Vason del Monte Bondone;Vason
+it;Ostia Antica;Ostia
+en;Ostia Antica;Ostia
+it;Conio;Castra
+en;Tor San Lorenzo;Marina di Ardea-Tor San Lorenzo
+de;Rabland;Rablà
+it;Trigoria;Trigoria Alta
+it;San Nicolò;San Nicolò a Trebbia
+en;Bassone;Basson
+it;Catena di Quarrata;Catena
+it;Fabbrica di Peccioli;Fabbrica
+de;St. Konstantin;San Costantino
+de;Sankt Vigil;San Vigilio
+de;St. Vigil in Enneberg;San Vigilio
+it;Monte Migliore;Monte Migliore La Selvotta
+it;La Selvotta;Monte Migliore La Selvotta
+de;St. Pauls;San Paolo
+it;Bonagia;Tonnara di Bonagia
+it;Colle dei Monfortani;Colle Monfortani
+de;Ehrenburg;Casteldarne
+de;Villanders;Villandro
+en;Villanders;Villandro
+nl;Villanders;Villandro
+de;St. Johann;San Giovanni
+de;St. Johann im Ahrntal;San Giovanni
+de;Eggen;San Nicolò d'Ega
+de;Prissian;Prissiano
+de;Petersberg;Monte San Pietro
+it;Quartiere Cantalupa;Cantalupa
+de;Buchholz;Pochi
+it;Sorgente;Quellenhof
+de;Pfelders;Plan
+de;Oberaiche;Aica di Sopra
+de;Aufkirchen;Santa Maria
+de;Santa Maria di Ricadi;Santa Maria
+de;Walten;Valtina
+de;Vellau;Velloi
+de;Flaas;Valas
+de;Cisano;Gralaoni-Pralesi-Cisano
+de;Unterglaning;Cologna di Sotto
+it;Le Prade;La Vagina
+de;Schweinsteg;Sant'Orsola
+it;Salone;Stazione di Salone
+it;San Giorgio;Malga San Giorgio
+it;Selvanesco;Cascina Selvanesco-Gaggiolo
+fr;Bessé Haut;Bessè Alto
+it;Alpe di Mera;Mera
+de;Oberglaning;Cologna di Sopra
+fr;Bessé Bas;Bessè Basso
+de;Predaia;Predaia - Campodenno
+de;Elea;Velia
+fr;Élée;Velia
+it;Elea-Velia;Velia
+nl;Elea;Velia
+pt;Eleia;Velia
+de;Vöran;Verano
+en;Vöran;Verano
+nl;Vöran;Verano
+it;Cotici inferiore;Cotiči
+de;Nobls;Montoppio
+it;Montaccio;Matatz
+it;Mappano Torinese;Mappano
+de;Naag;Nago
+it;Quartiere Campo dei Fiori;Campo dei Fiori
+it;Quinzano;Quinzano San Pietro
+it;Case Fabbrizi;Case Fabbrizi-torre De' Belli
+it;Torre De' Belli;Case Fabbrizi-torre De' Belli
+it;Casotto Pescatori;Casotto dei Pescatori
+it;Piano Semente 87050 Marzi (CS);Contrada Piano Semente
+it;Contrada Piano Semente 87050 Marzi (CS);Contrada Piano Semente
+de;Bad Dreikirchen;Tre Chiese
+it;Centrale Idroelettrica Grottafumata;Grottafumata Hydroelectric Plant
+it;Su Furraghe;Furraghe
+it;Sant' Elena;Sant'Elena
