@@ -646,6 +646,14 @@ const PDF_BG_ALT = '#ECE4CC';   // --surface-2 : fond des jetons de statistiques
 const PDF_LINE = '#C9C2A0';
 const PDF_LINE_STRONG = '#8F8564'; // ligne de jonction entre les badges de jour ("timeline")
 
+// Boutiques OFFICIELLES de vignette autoroutière (pas de revendeur tiers) — même URLs que
+// COUNTRIES[cc].vignette côté client (public/js/app.js) ; dupliquées ici plutôt qu'importées, ce
+// fichier n'ayant pas accès au module client-side (voir buildTripPdf pour l'usage).
+const VIGNETTE_URLS = {
+  CH: 'https://via.admin.ch/shop/',
+  AT: 'https://shop.asfinag.at/en/'
+};
+
 // Fond crème (--bg du site) plutôt qu'une page blanche brute — posé sous tout le reste à chaque
 // nouvelle page (page 1 explicitement, pages suivantes via pdfRunningHeader/'pageAdded').
 function pdfPageBackground(doc){
@@ -750,6 +758,9 @@ function buildTripPdf(doc, trip){
   const contentX = marginLeft + 28;
   const contentWidth2 = contentWidth - 28;
   let prevBadgeCY = null;
+  // Un seul rappel de vignette par pays sur tout le PDF (voir plus bas) — même logique que
+  // shownVignetteCountries côté web (public/js/app.js, renderDays).
+  const shownVignetteCountries = {};
   const legs = Array.isArray(trip.legs) ? trip.legs : [];
   legs.forEach(function(leg, idx){
     if(!leg) return;
@@ -801,6 +812,14 @@ function buildTripPdf(doc, trip){
       const f = leg.ferryInfo;
       const amountTxt = (Math.round((f.amount || 0) * 10) / 10).toFixed(1).replace('.', ',');
       pdfBullet(doc, 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ~' + amountTxt + ' €.', contentX, contentWidth2);
+    }
+    // Rappel vignette : une seule fois par pays sur tout le PDF, comme côté web (voir
+    // shownVignetteCountries plus haut).
+    const vignetteUrl = leg.country && VIGNETTE_URLS[leg.country];
+    if(vignetteUrl && !shownVignetteCountries[leg.country]){
+      shownVignetteCountries[leg.country] = true;
+      pdfBullet(doc, 'Vignette autoroutière obligatoire dans ce pays — pensez à la commander avant de partir.',
+        contentX, contentWidth2, { link: vignetteUrl, color: PDF_ACCENT_3 });
     }
     const activities = Array.isArray(leg.activities) ? leg.activities : [];
     activities.slice(0, 6).forEach(function(act){

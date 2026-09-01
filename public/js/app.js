@@ -43,10 +43,12 @@
     BE: { code:'BE', name:'Belgique', file:'communes-be.txt', hasToll:false, aliasFile:'aliases-be.txt' },
     NL: { code:'NL', name:'Pays-Bas', file:'communes-nl.txt', hasToll:false, aliasFile:'aliases-nl.txt' },
     LU: { code:'LU', name:'Luxembourg', file:'communes-lu.txt', hasToll:false, aliasFile:'aliases-lu.txt' },
-    CH: { code:'CH', name:'Suisse', file:'communes-ch.txt', hasToll:false, aliasFile:'aliases-ch.txt', currency:'CHF' },
+    CH: { code:'CH', name:'Suisse', file:'communes-ch.txt', hasToll:false, aliasFile:'aliases-ch.txt', currency:'CHF',
+      vignette:{ url:'https://via.admin.ch/shop/' } },
     DE: { code:'DE', name:'Allemagne', file:'communes-de.txt', hasToll:false, aliasFile:'aliases-de.txt' },
     IT: { code:'IT', name:'Italie', file:'communes-it.txt', hasToll:true, aliasFile:'aliases-it.txt' },
-    AT: { code:'AT', name:'Autriche', file:'communes-at.txt', hasToll:false, aliasFile:'aliases-at.txt' }
+    AT: { code:'AT', name:'Autriche', file:'communes-at.txt', hasToll:false, aliasFile:'aliases-at.txt',
+      vignette:{ url:'https://shop.asfinag.at/en/' } }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -54,6 +56,11 @@
   // Suisse (COUNTRIES[cc].currency). Utilisé pour le plafond de prix budget/logement (voir
   // BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks) — jamais pour le péage/ferry, dont les
   // montants ne sont de toute façon calculés que pour des pays en euros (voir plus haut).
+  // vignette (CH/AT seulement) : URL de la BOUTIQUE OFFICIELLE de la vignette autoroutière du pays —
+  // via.admin.ch (portail officiel de l'Office fédéral de la douane et de la sécurité des frontières,
+  // pas un revendeur tiers) pour la Suisse, shop.asfinag.at (société publique gestionnaire des
+  // autoroutes autrichiennes) pour l'Autriche. Utilisé par renderDays pour afficher un petit rappel
+  // la première fois qu'un pays à vignette apparaît dans l'itinéraire — voir plus bas.
   function countryCurrency(cc){ return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR'; }
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
@@ -1841,6 +1848,11 @@
     els.days.innerHTML = '';
     var totalKm = 0;
     legs.forEach(function(leg){ totalKm += leg.distanceKm || 0; });
+    // Un seul rappel de vignette PAR PAYS pour tout l'itinéraire (pas à chaque jour/étape qui y
+    // reste ou y repasse) — voir son affichage plus bas, dans la boucle groups.forEach. Remis à
+    // zéro à chaque appel de renderDays, y compris depuis l'écouteur 'i18n:langchange' : le rappel
+    // réapparaît alors sur la même première étape concernée, dans la nouvelle langue.
+    var shownVignetteCountries = {};
 
     // Un séjour de plusieurs nuits au même endroit devient une seule "case" (un seul day-card) —
     // voir groupLegsByStay. Le badge/titre résument la plage de jours ; le trajet/péage/photo ne
@@ -1977,6 +1989,18 @@
         var chargeTxt = t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: c.stops, min: c.minutes});
         chargeRow.innerHTML = icon('plug') + '<span><span class="lbl">'+t('charge.label')+'</span>'+chargeTxt+'</span>';
         body.appendChild(chargeRow);
+      }
+      // Rappel vignette : uniquement la première fois que ce pays apparaît dans l'itinéraire (voir
+      // shownVignetteCountries plus haut) — un pays traversé plusieurs jours de suite, ou retraversé
+      // plus tard dans le séjour, n'a besoin d'acheter qu'UNE seule vignette pour tout le trajet.
+      var vignetteCountry = firstLeg.country && COUNTRIES[firstLeg.country];
+      if(vignetteCountry && vignetteCountry.vignette && !shownVignetteCountries[firstLeg.country]){
+        shownVignetteCountries[firstLeg.country] = true;
+        var vignetteRow = document.createElement('div');
+        vignetteRow.className = 'day-row';
+        vignetteRow.innerHTML = icon('toll') + '<span><span class="lbl">'+t('vignette.label')+'</span>'+t('vignette.notice')+
+          ' <a href="'+vignetteCountry.vignette.url+'" target="_blank" rel="noopener">'+t('vignette.link')+'</a></span>';
+        body.appendChild(vignetteRow);
       }
 
       // Une section "Activités possibles" PAR JOUR du séjour (pas une seule pour tout le groupe) :
@@ -2266,6 +2290,7 @@
           isReturn: !!leg.isReturn,
           distanceKm: leg.distanceKm,
           travelTime: leg.travelTime,
+          country: leg.country || null,
           tollInfo: leg.tollInfo || null,
           chargeInfo: leg.chargeInfo || null,
           ferryInfo: leg.ferryInfo ? { route: t(leg.ferryInfo.routeKey), amount: leg.ferryInfo.amount } : null,

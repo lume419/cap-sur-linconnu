@@ -94,7 +94,11 @@ ajoute deux à trois choses, indépendamment des autres :
    CHF/km ne peut en dériver, et l'app ne simule pas un abonnement (voir le commentaire de
    `COUNTRIES` dans `app.js` pour le détail). L'Italie, elle, a un vrai réseau à péage classique avec
    barrière comme la France — `hasToll:true`, tarif dérivé du barème officiel Autostrade per l'Italia
-   2026 (0,086 €/km retenu, entre les tarifs plaine/montagne).
+   2026 (0,086 €/km retenu, entre les tarifs plaine/montagne). Pour la Suisse et l'Autriche (champ
+   `vignette` dans `COUNTRIES`, un objet `{url}` pointant vers la boutique OFFICIELLE — via.admin.ch,
+   shop.asfinag.at — jamais un revendeur tiers), l'itinéraire affiche un petit rappel « pensez à la
+   commander avant de partir » avec un lien direct, une seule fois par pays même si le trajet y
+   repasse plusieurs fois (`shownVignetteCountries` dans `renderDays`, web et PDF).
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). Seule la
    Suisse en a besoin pour l'instant (`CHF`) : elle détermine le plafond de prix affiché pour le
    logement (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de

@@ -141,6 +141,9 @@
       'toll.barrierClassic': 'péage classique avec barrière',
       'toll.enabled': 'Péage estimé : ~{amount} € ({barrier}) — vous gagnez environ {min} min par rapport à un trajet sans péage.',
       'toll.disabled': 'Sans péage (option décochée) : vous auriez pu gagner environ {min} min en autoroute (~{amount} €, {barrier}).',
+      'vignette.label': 'Vignette autoroutière',
+      'vignette.notice': 'Obligatoire dans ce pays — pensez à la commander avant de partir.',
+      'vignette.link': 'Commander la vignette officielle ↗',
 
       'charge.label': 'Recharge électrique',
       'charge.text1': '1 pause recharge estimée (~{min} min au total) sur borne rapide.',
@@ -350,6 +353,9 @@
       'toll.barrierClassic': 'classic barrier toll',
       'toll.enabled': 'Estimated toll: ~€{amount} ({barrier}) — you save about {min} min compared to a toll-free route.',
       'toll.disabled': 'No toll (option unchecked): you could have saved about {min} min on the motorway (~€{amount}, {barrier}).',
+      'vignette.label': 'Motorway vignette',
+      'vignette.notice': 'Mandatory in this country — remember to order it before you leave.',
+      'vignette.link': 'Order the official vignette ↗',
 
       'charge.label': 'Electric charging',
       'charge.text1': '1 estimated charging stop (~{min} min total) at a fast charger.',
@@ -559,6 +565,9 @@
       'toll.barrierClassic': 'peaje clásico con barrera',
       'toll.enabled': 'Peaje estimado: ~{amount} € ({barrier}) — ahorras unos {min} min respecto a un trayecto sin peaje.',
       'toll.disabled': 'Sin peaje (opción desmarcada): podrías haber ahorrado unos {min} min por autopista (~{amount} €, {barrier}).',
+      'vignette.label': 'Viñeta de autopista',
+      'vignette.notice': 'Obligatoria en este país — recuerda pedirla antes de salir.',
+      'vignette.link': 'Pedir la viñeta oficial ↗',
 
       'charge.label': 'Recarga eléctrica',
       'charge.text1': '1 parada de recarga estimada (~{min} min en total) en un cargador rápido.',
@@ -768,6 +777,9 @@
       'toll.barrierClassic': 'portagem clássica com barreira',
       'toll.enabled': 'Portagem estimada: ~{amount} € ({barrier}) — poupa cerca de {min} min em relação a um trajeto sem portagem.',
       'toll.disabled': 'Sem portagem (opção desmarcada): poderia ter poupado cerca de {min} min na autoestrada (~{amount} €, {barrier}).',
+      'vignette.label': 'Vinheta de autoestrada',
+      'vignette.notice': 'Obrigatória neste país — não se esqueça de a encomendar antes de partir.',
+      'vignette.link': 'Encomendar a vinheta oficial ↗',
 
       'charge.label': 'Carregamento elétrico',
       'charge.text1': '1 paragem de carregamento estimada (~{min} min no total) num carregador rápido.',
@@ -977,6 +989,9 @@
       'toll.barrierClassic': 'klassieke tol met slagboom',
       'toll.enabled': 'Geschatte tol: ~{amount} € ({barrier}) — je bespaart ongeveer {min} min ten opzichte van een tolvrije route.',
       'toll.disabled': 'Zonder tol (optie uitgevinkt): je had ongeveer {min} min kunnen besparen op de snelweg (~{amount} €, {barrier}).',
+      'vignette.label': 'Snelwegvignet',
+      'vignette.notice': 'Verplicht in dit land — denk eraan het vooraf te bestellen.',
+      'vignette.link': 'Officieel vignet bestellen ↗',
 
       'charge.label': 'Elektrisch opladen',
       'charge.text1': '1 geschatte laadstop (~{min} min in totaal) bij een snellader.',
@@ -1186,6 +1201,9 @@
       'toll.barrierClassic': 'klassische Mautstelle mit Schranke',
       'toll.enabled': 'Geschätzte Maut: ~{amount} € ({barrier}) — du sparst etwa {min} Min. gegenüber einer mautfreien Strecke.',
       'toll.disabled': 'Ohne Maut (Option deaktiviert): du hättest auf der Autobahn etwa {min} Min. sparen können (~{amount} €, {barrier}).',
+      'vignette.label': 'Autobahnvignette',
+      'vignette.notice': 'Pflicht in diesem Land — denk daran, sie vor der Abfahrt zu bestellen.',
+      'vignette.link': 'Offizielle Vignette bestellen ↗',
 
       'charge.label': 'Elektrisches Laden',
       'charge.text1': '1 geschätzter Ladestopp (~{min} Min. insgesamt) an einer Schnellladestation.',
@@ -1397,6 +1415,9 @@
       'toll.barrierClassic': 'klassesche Peage mat Barrière',
       'toll.enabled': 'Geschate Peage: ~{amount} € ({barrier}) — s de spuerst ongeféier {min} Min. am Verglach zu enger Streck ouni Peage.',
       'toll.disabled': 'Ouni Peage (Optioun net ugekräizt): s de hätts ongeféier {min} Min. op der Autobunn spuere kënnen (~{amount} €, {barrier}).',
+      'vignette.label': 'Autobunn-Vignette',
+      'vignette.notice': 'Obligatoresch an dësem Land — denk drun se virum Depart ze bestellen.',
+      'vignette.link': 'Offiziell Vignette bestellen ↗',
 
       'charge.label': 'Elektresch Opluede',
       'charge.text1': '1 geschate Luedstopp (~{min} Min. am Ganzen) op enger Schnelllued-Statioun.',
@@ -1608,6 +1629,9 @@
       'toll.barrierClassic': 'pedaggio classico con barriera',
       'toll.enabled': 'Pedaggio stimato: ~{amount} € ({barrier}) — risparmi circa {min} min rispetto a un tragitto senza pedaggio.',
       'toll.disabled': 'Senza pedaggio (opzione deselezionata): avresti potuto risparmiare circa {min} min in autostrada (~{amount} €, {barrier}).',
+      'vignette.label': 'Bollino autostradale',
+      'vignette.notice': 'Obbligatorio in questo paese — ricordati di ordinarlo prima di partire.',
+      'vignette.link': 'Ordina il bollino ufficiale ↗',
 
       'charge.label': 'Ricarica elettrica',
       'charge.text1': '1 sosta di ricarica stimata (~{min} min in totale) su colonnina rapida.',
@@ -1823,6 +1847,9 @@
       'toll.barrierClassic': 'taxa da via classica cun barriera',
       'toll.enabled': 'Taxa da via stimada: ~{amount} € ({barrier}) — ti spargnas radund {min} min cumpareu cun in viadi senza taxa.',
       'toll.disabled': 'Senza taxa da via (opziun betg marcada): ti avessas pudì spargnar radund {min} min sin l\'autostrada (~{amount} €, {barrier}).',
+      'vignette.label': 'Vigneta d\'autostrada',
+      'vignette.notice': 'Obligatorica en quest pajais — pensa da la cumandar avant da partir.',
+      'vignette.link': 'Cumandar la vigneta uffiziala ↗',
 
       'charge.label': 'Chargiada electrica',
       'charge.text1': '1 pausa da chargiada stimada (~{min} min en total) sin ina staziun rapida.',
@@ -2036,6 +2063,9 @@
       'toll.barrierClassic': 'klassischen Toll mit Schranken',
       'toll.enabled': 'Schatten Toll: ~{amount} € ({barrier}) — du sparst üm un bi {min} Min. as bi en Reis ahn Toll.',
       'toll.disabled': 'Ahn Toll (Optschoon nich ankrüzt): du harrst üm un bi {min} Min. op de Autobahn sparen kunnt (~{amount} €, {barrier}).',
+      'vignette.label': 'Autobahn-Vignett',
+      'vignette.notice': 'Verplicht in dit Land — denk doran, se ehr dat Losfohren to bestellen.',
+      'vignette.link': 'Offizielle Vignett bestellen ↗',
 
       'charge.label': 'Elektrisch Laden',
       'charge.text1': '1 schatten Ladepaus (~{min} Min. tosamen) an’n Schnelllader.',
@@ -2251,6 +2281,9 @@
       'toll.barrierClassic': 'klasiske myto z barjeru',
       'toll.enabled': 'Trochowane myto: ~{amount} € ({barrier}) — zawinuješ wokoło {min} min hladajo na jězbu bjez myta.',
       'toll.disabled': 'Bjez myta (opcija nje wobznamjenjena): móhł sy wokoło {min} min na awtodróze zawinować (~{amount} €, {barrier}).',
+      'vignette.label': 'Dalnicowa nalěpka',
+      'vignette.notice': 'Winowatostna w tutym kraju — pomysli na nju, prjedy hač wotjědźeš.',
+      'vignette.link': 'Oficialnu nalěpku skazać ↗',
 
       'charge.label': 'Elektriske nabijenje',
       'charge.text1': '1 trochowana nabijenska přestawka (~{min} min dohromady) na spěšnym nabijaku.',
@@ -2467,6 +2500,9 @@
       'toll.barrierClassic': 'klassisk tol mä schranke',
       'toll.enabled': 'Schätjed tol: ~{amount} € ({barrier}) — dü spaarst üm {min} min., ferglicht mä en reise uunern tol.',
       'toll.disabled': 'Uunern tol (mööglikhaid nich uunkrüzet): dü heest üm {min} min. aw dai autobahn spaare kön (~{amount} €, {barrier}).',
+      'vignette.label': 'Autobahn-vignet',
+      'vignette.notice': 'Foorschreewen önj dis lönj — tink deram et tu bestele ear dü fuurfeerst.',
+      'vignette.link': 'Offiziel vignet bestele ↗',
 
       'charge.label': 'Elektrisk lade',
       'charge.text1': '1 schätjed lade-paus (~{min} min. tuhoop) bi en gau-lader.',
@@ -2680,6 +2716,9 @@
       'toll.barrierClassic': 'pedàgiu clàssicu cun barriera',
       'toll.enabled': 'Pedàgiu istimadu: ~{amount} € ({barrier}) — bincis a pitzu pagu {min} min. rispetu a unu biàgiu chene pedàgiu.',
       'toll.disabled': 'Chene pedàgiu (optzione no marcada): aias pòdidu bìnchere a pitzu pagu {min} min. in autostrada (~{amount} €, {barrier}).',
+      'vignette.label': 'Vignetta de autostrada',
+      'vignette.notice': 'Obligadòria in custu istadu — regòrdadi de la cumandare innantis de partire.',
+      'vignette.link': 'Cumandare sa vignetta ufitziale ↗',
 
       'charge.label': 'Recàrriga elètrica',
       'charge.text1': '1 pasada de recàrriga istimada (~{min} min. in totale) in una colonnina lestra.',
@@ -2892,6 +2931,9 @@
       'toll.barrierClassic': 'pedaç classic cun sbare',
       'toll.enabled': 'Pedaç stimât: ~{amount} € ({barrier}) — tu vencis cirche {min} min. rispiet a un viaç cence pedaç.',
       'toll.disabled': 'Cence pedaç (opzion no segnade): tu varessis podût vencî cirche {min} min. in autostrade (~{amount} €, {barrier}).',
+      'vignette.label': 'Vignete autostradâl',
+      'vignette.notice': 'Obligatorie in chest paîs — visiti di ordinâle prin di partî.',
+      'vignette.link': 'Ordinâ la vignete uficiâl ↗',
 
       'charge.label': 'Ricjariche eletriche',
       'charge.text1': '1 fermade di ricjariche stimade (~{min} min. in totâl) suntune colonete rapide.',
@@ -3108,6 +3150,9 @@
       'toll.barrierClassic': 'pedaje classich cun sbara',
       'toll.enabled': 'Pedaje stimà: ~{amount} € ({barrier}) — te vënces ntourn {min} min. respet a un viac zenza pedaje.',
       'toll.disabled': 'Zenza pedaje (opzion nia marcada): t\'ess podù vënce ntourn {min} min. sun autostrada (~{amount} €, {barrier}).',
+      'vignette.label': 'Vignetta de autostrada',
+      'vignette.notice': 'Oblianta en chësc paesc — pensa da la orenè inant de partì.',
+      'vignette.link': 'Orenè la vignetta ofiziela ↗',
 
       'charge.label': 'Recarghé eletrich',
       'charge.text1': '1 pousa de recarghé stimeda (~{min} min. en total) su na colonina svelta.',
