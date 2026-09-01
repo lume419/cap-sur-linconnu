@@ -23,8 +23,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['AT']; // AD/ES/PT/BE/NL/LU/CH/DE/IT déjà générés et commités
-// (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it.txt)
+const COUNTRIES = ['SM', 'LI']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT déjà générés et commités
+// (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis

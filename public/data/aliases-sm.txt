@@ -1,0 +1,25 @@
+fr;Saint-Marin;San Marino
+pt;São Marino;San Marino
+es;Ciudad de San Marino;San Marino
+it;Città di San Marino;San Marino
+de;Stadt San Marino;San Marino
+en;City of San Marino;San Marino
+fr;Ville de Saint-Marin;San Marino
+rm;Citad da San Marino;San Marino
+en;Poggio Chiesanuova;Poggio di Chiesanuova
+it;Poggio Chiesanuova;Poggio di Chiesanuova
+en;Chiesanuova;Poggio di Chiesanuova
+de;Chiesanuova;Poggio di Chiesanuova
+es;Chiesanuova;Poggio di Chiesanuova
+fr;Chiesanuova;Poggio di Chiesanuova
+it;Chiesanuova;Poggio di Chiesanuova
+lb;Chiesanuova;Poggio di Chiesanuova
+nl;Chiesanuova;Poggio di Chiesanuova
+pt;Chiesanuova;Poggio di Chiesanuova
+en;Montegiardino;Monte Giardino
+de;Montegiardino;Monte Giardino
+es;Montegiardino;Monte Giardino
+fr;Montegiardino;Monte Giardino
+it;Montegiardino;Monte Giardino
+nl;Montegiardino;Monte Giardino
+pt;Montegiardino;Monte Giardino

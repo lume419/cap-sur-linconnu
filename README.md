@@ -2,12 +2,12 @@
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
-Allemagne, Italie, Autriche — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
-d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
-Baléares/les Canaries/la Sardaigne/la Sicile (voir "Ferries" plus bas) et une carte interactive
-(Leaflet + tuiles OpenStreetMap). Interface disponible en français, anglais, espagnol, portugais,
-néerlandais, allemand, luxembourgeois, italien, romanche, bas-allemand, sorabe, frison du Nord, sarde,
-frioulan et ladin (voir "Langues" plus bas).
+Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein — voir "Pays couverts" plus bas pour l'ajout
+d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies
+traversées en ferry pour la Corse/les Baléares/les Canaries/la Sardaigne/la Sicile (voir "Ferries"
+plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en
+français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien, romanche,
+bas-allemand, sorabe, frison du Nord, sarde, frioulan et ladin (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -55,6 +55,10 @@ cap-sur-linconnu/
 │       ├── aliases-it.txt      # idem pour l'Italie (alias FR/EN/SC/FUR/... vers le nom canonique)
 │       ├── communes-at.txt     # ~20 000 lieux autrichiens, même format
 │       ├── aliases-at.txt      # idem pour l'Autriche (alias FR/EN/ES/IT/... vers le nom canonique)
+│       ├── communes-sm.txt     # 24 lieux saint-marinais, même format
+│       ├── aliases-sm.txt      # idem pour Saint-Marin (alias FR/EN/ES/IT/PT/DE/RM)
+│       ├── communes-li.txt     # 67 lieux liechtensteinois, même format
+│       ├── aliases-li.txt      # idem pour le Liechtenstein (1 alias : Gamprin-Bendern)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -73,8 +77,8 @@ les trois premières routes.
 ## Pays couverts
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
-Luxembourg, Suisse, Allemagne, Italie et Autriche pour l'instant, d'autres viendront. Chaque pays
-ajoute deux à trois choses, indépendamment des autres :
+Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin et Liechtenstein pour l'instant, d'autres
+viendront. Chaque pays ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
@@ -98,12 +102,18 @@ ajoute deux à trois choses, indépendamment des autres :
    `vignette` dans `COUNTRIES`, un objet `{url}` pointant vers la boutique OFFICIELLE — via.admin.ch,
    shop.asfinag.at — jamais un revendeur tiers), l'itinéraire affiche un petit rappel « pensez à la
    commander avant de partir » avec un lien direct, une seule fois par pays même si le trajet y
-   repasse plusieurs fois (`shownVignetteCountries` dans `renderDays`, web et PDF).
-3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). Seule la
-   Suisse en a besoin pour l'instant (`CHF`) : elle détermine le plafond de prix affiché pour le
-   logement (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de
-   change) et la devise des liens de recherche Airbnb/Booking générés — jamais le péage/ferry, qui
-   ne sont de toute façon jamais calculés pour un pays hors zone euro pour l'instant.
+   repasse plusieurs fois (`shownVignetteCountries` dans `renderDays`, web et PDF). Saint-Marin et
+   le Liechtenstein sont les cas les plus simples de tous : `hasToll:false` sans aucune des raisons
+   ci-dessus — ni l'un ni l'autre n'a la moindre autoroute (Saint-Marin : 292 km de routes, aucune
+   à péage ; le Liechtenstein n'a même pas de vignette propre — la vignette suisse, union douanière
+   oblige, y reste valable mais n'y est jamais obligatoire, donc aucun rappel n'est affiché pour ce
+   pays contrairement à la Suisse/l'Autriche).
+3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
+   Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
+   pas l'euro) : elle détermine le plafond de prix affiché pour le logement (`BUDGET_PRICE_MAX`, un
+   jeu de valeurs par devise, pas une simple conversion au taux de change) et la devise des liens de
+   recherche Airbnb/Booking générés — jamais le péage/ferry, qui ne sont de toute façon jamais
+   calculés pour un pays hors zone euro pour l'instant.
 
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
@@ -159,6 +169,13 @@ toutes déjà des langues nationales d'un pays voisin non encore couvert (croate
 slovaque, slovène), sauf le romani qui n'a pas de forme écrite standard unique — exactement les deux
 mêmes motifs d'exclusion déjà appliqués aux 9 langues minoritaires italiennes ci-dessus. L'allemand,
 déjà couvert (voir le Luxembourg et l'Allemagne plus haut), reste sa seule langue officielle.
+
+Saint-Marin et le Liechtenstein n'apportent, eux non plus, aucune nouvelle langue : ni l'un ni
+l'autre n'a de langue régionale ou minoritaire reconnue officiellement (le dialecte romagnol parlé
+informellement à Saint-Marin, ou l'alémanique parlé au Liechtenstein, n'ont ni statut officiel ni
+forme écrite standardisée distincte — même situation que l'allemand autrichien, jamais traité comme
+une langue à part). L'italien (déjà couvert) et l'allemand (déjà couvert) restent leurs seules
+langues officielles respectives.
 
 Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
@@ -382,7 +399,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.

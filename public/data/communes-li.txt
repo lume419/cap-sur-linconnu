@@ -1,0 +1,67 @@
+5197;9.5215,47.1415;9490;Vaduz;Vaduz
+2643;9.5420,47.1181;9490;Vaduz;Triesenberg
+5230;9.5282,47.1075;9495;Triesen;Triesen
+1091;9.5468,47.2312;9488;Schellenberg;Schellenberg
+0;9.5624,47.2119;9486;Mauren;Schaanwald
+5998;9.5087,47.1650;9494;Schaan;Schaan
+2295;9.5254,47.2380;9491;Ruggell;Ruggell
+478;9.5444,47.1852;9498;Planken;Planken
+1407;9.5430,47.1985;9485;Eschen;Nendeln
+4404;9.5442,47.2180;9493;Mauren;Mauren
+1663;9.5093,47.2204;9487;Gamprin;Gamprin
+4459;9.5222,47.2107;9492;Eschen;Eschen
+1664;9.5068,47.2120;9492;Eschen;Bendern
+4628;9.5036,47.0666;9496;Balzers;Balzers
+1350;9.4957,47.0611;9496;Balzers;Mäls
+0;9.5446,47.1059;9495;Triesen;Wangerberg
+0;9.5380,47.1297;9490;Vaduz;Rotenboden
+0;9.5538,47.1318;9490;Vaduz;Silum
+0;9.5445,47.1327;9490;Vaduz;Masescha
+0;9.5111,47.1557;9490;Vaduz;Möliholz
+50;9.6099,47.1014;9497;Triesenberg;Malbun
+50;9.5754,47.1127;9497;Triesenberg;Steg
+0;9.5555,47.1146;9497;Triesenberg;Lavadina
+0;9.5341,47.2285;9488;Schellenberg;Loch
+0;9.5481,47.2271;9488;Schellenberg;Betsche
+0;9.5261,47.2254;9487;Gamprin;Lums
+0;9.5167,47.2260;9487;Gamprin;Breita
+0;9.5191,47.2294;9487;Gamprin;Badäl
+0;9.5084,47.2218;9487;Gamprin;Studaberg
+0;9.5328,47.1325;9490;Vaduz;Fromahus
+0;9.5160,47.2232;9487;Gamprin;Höfe
+0;9.5458,47.1781;9498;Planken;Oberplanken
+0;9.5461,47.1770;9498;Planken;Ober Ställ
+0;9.5535,47.1229;9497;Triesenberg;Gnalp
+0;9.5554,47.1237;9497;Triesenberg;Bünda
+0;9.5533,47.1250;9497;Triesenberg;Mitätsch
+0;9.5540,47.1283;9497;Triesenberg;Vordersilum
+0;9.5560,47.1264;9497;Triesenberg;Silumerbord
+0;9.5481,47.1240;9490;Vaduz;Gädami
+0;9.5511,47.1246;9497;Triesenberg;Parsüla
+0;9.5466,47.1266;9490;Vaduz;Hof
+0;9.5460,47.1250;9490;Vaduz;Bim Brunna
+0;9.5435,47.1246;9490;Vaduz;Eggalti
+0;9.5359,47.1302;9490;Vaduz;Raibühel
+0;9.6006,47.1398;9497;Triesenberg;Bim Stall
+0;9.5989,47.1077;9497;Triesenberg;Bi den undera Hötta
+0;9.5235,47.1922;9492;Eschen;Riethof
+0;9.5551,47.1161;9497;Triesenberg;Ord
+0;9.5498,47.1220;9497;Triesenberg;Under Büal
+0;9.5524,47.1210;9497;Triesenberg;Zlinerbord
+0;9.5365,47.1201;9490;Vaduz;Räckholtera
+0;9.5369,47.1166;9490;Vaduz;Nasshagga
+0;9.5480,47.1143;9497;Triesenberg;Steinäscht
+0;9.5450,47.1080;9497;Triesenberg;Rüti
+0;9.5432,47.1062;9495;Triesen;Böda
+0;9.5455,47.1047;9495;Triesen;Fura
+0;9.5432,47.1029;9495;Triesen;Hinderegga
+0;9.5881,47.0849;9495;Triesen;Valüna
+0;9.5279,47.0863;9495;Triesen;Welda Bongert
+0;9.5234,47.0878;9495;Triesen;Neugrütt
+0;9.5432,47.1349;9490;Vaduz;Foppa
+0;9.5392,47.1377;9490;Vaduz;Vorder Prufatscheng
+0;9.5336,47.1389;9490;Vaduz;Erbi
+0;9.5456,47.1395;9490;Vaduz;Bärg
+0;9.5389,47.1300;9490;Vaduz;Allmeina
+0;9.5584,47.1280;9497;Triesenberg;Alpelti
+0;9.5387,47.2231;9493;Mauren;Berg

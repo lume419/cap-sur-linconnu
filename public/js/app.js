@@ -26,15 +26,21 @@
   // gratuites pour tous les modes de transport que couvre cette app (voiture, van, moto) — seuls les
   // poids lourds ≥3,5 t paient une redevance kilométrique (LKW-Maut, élargie aux véhicules de 3,5 t
   // depuis juillet 2024), un seuil qu'aucun véhicule modélisé ici n'atteint (un van aménagé reste un
-  // véhicule léger).
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT seulement) : noms alternatifs par langue (voir
+  // véhicule léger). Saint-Marin et le Liechtenstein sont, eux, les cas les plus simples de tous :
+  // ni péage, ni vignette, ni ouvrage isolé payant — Saint-Marin (292 km de routes, aucune autoroute)
+  // et le Liechtenstein (aucune autoroute non plus, quelques mètres de route classée "autoroute" à la
+  // frontière suisse mais sans aucun péage ni vignette propre — la vignette suisse, si elle est
+  // achetée, y est valable aussi, mais n'est jamais obligatoire pour le seul Liechtenstein) ont un
+  // réseau routier entièrement gratuit.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI seulement) : noms alternatifs par langue (voir
   // scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une ville dans
   // la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen", "La Haye"
   // pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
   // France : ses communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun geonameid n'est donc
   // disponible pour les relier à ces noms alternatifs (voir le script pour le détail de ce choix).
-  // currency (CH seulement pour l'instant) : la Suisse n'est pas dans la zone euro (CHF) — absent
-  // pour les autres pays, qui utilisent tous l'euro (voir countryCurrency plus bas).
+  // currency (CH et LI seulement) : la Suisse ET le Liechtenstein (qui utilise le franc suisse par
+  // union monétaire avec son voisin, pas l'euro) ne sont pas dans la zone euro — absent pour les
+  // autres pays, qui utilisent tous l'euro (voir countryCurrency plus bas).
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -48,14 +54,17 @@
     DE: { code:'DE', name:'Allemagne', file:'communes-de.txt', hasToll:false, aliasFile:'aliases-de.txt' },
     IT: { code:'IT', name:'Italie', file:'communes-it.txt', hasToll:true, aliasFile:'aliases-it.txt' },
     AT: { code:'AT', name:'Autriche', file:'communes-at.txt', hasToll:false, aliasFile:'aliases-at.txt',
-      vignette:{ url:'https://shop.asfinag.at/en/' } }
+      vignette:{ url:'https://shop.asfinag.at/en/' } },
+    SM: { code:'SM', name:'Saint-Marin', file:'communes-sm.txt', hasToll:false, aliasFile:'aliases-sm.txt' },
+    LI: { code:'LI', name:'Liechtenstein', file:'communes-li.txt', hasToll:false, aliasFile:'aliases-li.txt', currency:'CHF' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
-  // Devise d'un pays donné : EUR par défaut (tous les pays actuels sauf la Suisse), CHF pour la
-  // Suisse (COUNTRIES[cc].currency). Utilisé pour le plafond de prix budget/logement (voir
-  // BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks) — jamais pour le péage/ferry, dont les
-  // montants ne sont de toute façon calculés que pour des pays en euros (voir plus haut).
+  // Devise d'un pays donné : EUR par défaut (tous les pays actuels sauf la Suisse et le
+  // Liechtenstein), CHF pour ces deux-là (COUNTRIES[cc].currency). Utilisé pour le plafond de prix
+  // budget/logement (voir BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks) — jamais pour le
+  // péage/ferry, dont les montants ne sont de toute façon calculés que pour des pays en euros (voir
+  // plus haut).
   // vignette (CH/AT seulement) : URL de la BOUTIQUE OFFICIELLE de la vignette autoroutière du pays —
   // via.admin.ch (portail officiel de l'Office fédéral de la douane et de la sécurité des frontières,
   // pas un revendeur tiers) pour la Suisse, shop.asfinag.at (société publique gestionnaire des
@@ -273,6 +282,14 @@
   //   A13 (12,50 € l'aller), Tauern A10 (15 €), Karawanken A11, Arlberg S16... — mais suivent le même
   //   raisonnement que le Kiltunnel néerlandais/le Grand-Saint-Bernard suisse : des ouvrages isolés
   //   parmi d'autres itinéraires possibles, non modélisés.
+  // - Saint-Marin : aucune autoroute (292 km de routes au total, aucune à péage) — cas le plus
+  //   simple de tous, comme l'Andorre.
+  // - Liechtenstein : même chose — aucune autoroute propre, donc ni péage ni vignette propre. La
+  //   vignette suisse (voir plus haut), si elle est achetée pour la Suisse, reste valable sur les
+  //   quelques mètres de route classée "autoroute" à la frontière (union douanière avec la Suisse),
+  //   mais n'est jamais OBLIGATOIRE pour circuler dans le seul Liechtenstein — contrairement à la
+  //   Suisse/l'Autriche, aucun rappel de vignette n'est donc affiché pour ce pays (voir
+  //   COUNTRIES.LI, sans champ `vignette`).
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,

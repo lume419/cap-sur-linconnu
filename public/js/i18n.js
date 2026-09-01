@@ -211,7 +211,7 @@
 
       'again.button': 'Retirer une autre destination',
 
-      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique, les Pays-Bas, le Luxembourg, la Suisse, l'Allemagne, l'Italie et l'Autriche. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie) — autoroutes gratuites en Belgique, en Andorre, aux Pays-Bas, au Luxembourg et en Allemagne ; vignette annuelle en Suisse et en Autriche (pas de péage au trajet).",
+      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique, les Pays-Bas, le Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin et le Liechtenstein. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie) — autoroutes gratuites en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin et au Liechtenstein ; vignette annuelle en Suisse et en Autriche (pas de péage au trajet).",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': 'Politique de confidentialité',
 
@@ -423,7 +423,7 @@
 
       'again.button': 'Draw another destination',
 
-      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy and Austria. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy) — free motorways in Belgium, Andorra, the Netherlands, Luxembourg and Germany; an annual vignette in Switzerland and Austria (no per-trip toll).",
+      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino and Liechtenstein. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy) — free motorways in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino and Liechtenstein; an annual vignette in Switzerland and Austria (no per-trip toll).",
       'footer.legalMentions': 'Legal notice',
       'footer.privacyPolicy': 'Privacy policy',
 
@@ -635,7 +635,7 @@
 
       'again.button': 'Sortear otro destino',
 
-      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica, los Países Bajos, Luxemburgo, Suiza, Alemania, Italia y Austria. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia) — autopistas gratuitas en Bélgica, Andorra, los Países Bajos, Luxemburgo y Alemania; viñeta anual en Suiza y Austria (sin peaje por trayecto).",
+      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica, los Países Bajos, Luxemburgo, Suiza, Alemania, Italia, Austria, San Marino y Liechtenstein. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia) — autopistas gratuitas en Bélgica, Andorra, los Países Bajos, Luxemburgo, Alemania, San Marino y Liechtenstein; viñeta anual en Suiza y Austria (sin peaje por trayecto).",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidad',
 
@@ -847,7 +847,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica, os Países Baixos, o Luxemburgo, a Suíça, a Alemanha, a Itália e a Áustria. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itália) — autoestradas gratuitas na Bélgica, em Andorra, nos Países Baixos, no Luxemburgo e na Alemanha; vinheta anual na Suíça e na Áustria (sem portagem por trajeto).",
+      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica, os Países Baixos, o Luxemburgo, a Suíça, a Alemanha, a Itália, a Áustria, São Marinho e o Liechtenstein. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itália) — autoestradas gratuitas na Bélgica, em Andorra, nos Países Baixos, no Luxemburgo, na Alemanha, em São Marinho e no Liechtenstein; vinheta anual na Suíça e na Áustria (sem portagem por trajeto).",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidade',
 
@@ -1059,7 +1059,7 @@
 
       'again.button': 'Nog een bestemming loten',
 
-      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België, Nederland, Luxemburg, Zwitserland, Duitsland, Italië en Oostenrijk. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italië) — gratis snelwegen in België, Andorra, Nederland, Luxemburg en Duitsland; jaarlijkse vignet in Zwitserland en Oostenrijk (geen tol per rit).",
+      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België, Nederland, Luxemburg, Zwitserland, Duitsland, Italië, Oostenrijk, San Marino en Liechtenstein. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italië) — gratis snelwegen in België, Andorra, Nederland, Luxemburg, Duitsland, San Marino en Liechtenstein; jaarlijkse vignet in Zwitserland en Oostenrijk (geen tol per rit).",
       'footer.legalMentions': 'Wettelijke vermeldingen',
       'footer.privacyPolicy': 'Privacybeleid',
 
@@ -1271,7 +1271,7 @@
 
       'again.button': 'Neues Ziel auslosen',
 
-      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien, die Niederlande, Luxemburg, die Schweiz, Deutschland, Italien und Österreich. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien) — mautfreie Autobahnen in Belgien, Andorra, den Niederlanden, Luxemburg und Deutschland; jährliche Vignette in der Schweiz und in Österreich (keine Maut pro Fahrt).",
+      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien, die Niederlande, Luxemburg, die Schweiz, Deutschland, Italien, Österreich, San Marino und Liechtenstein. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien) — mautfreie Autobahnen in Belgien, Andorra, den Niederlanden, Luxemburg, Deutschland, San Marino und Liechtenstein; jährliche Vignette in der Schweiz und in Österreich (keine Maut pro Fahrt).",
       'footer.legalMentions': 'Impressum',
       'footer.privacyPolicy': 'Datenschutzerklärung',
 
@@ -1485,7 +1485,7 @@
 
       'again.button': 'Nach eng aner Destinatioun zéien',
 
-      'footer.text': "Kurs op d'Onbekannt — e spilleresche Generator, et gi ni Donnéeën iergendwouhinner geschéckt. Gemengen: IGN / geo.api.gouv.fr (Etalab) fir Frankräich, GeoNames (CC-BY-Lizenz) fir Andorra, Spuenien, Portugal, d'Belsch, d'Nidderlanden, Lëtzebuerg, d'Schwäiz, Däitschland, Italien an Éisträich. Sehenswiirdegkeeten a Kaart-Hannergrond: © d'OpenStreetMap-Mataarbechter (ODbL-Lizenz). Peage: VINCI Autoroutes (Frankräich), Autopistas (Spuenien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien) — gratis Autobunnen an der Belsch, an Andorra, an den Nidderlanden, zu Lëtzebuerg an an Däitschland; eng jäerlech Vignette an der Schwäiz an an Éisträich (kee Peage pro Streck).",
+      'footer.text': "Kurs op d'Onbekannt — e spilleresche Generator, et gi ni Donnéeën iergendwouhinner geschéckt. Gemengen: IGN / geo.api.gouv.fr (Etalab) fir Frankräich, GeoNames (CC-BY-Lizenz) fir Andorra, Spuenien, Portugal, d'Belsch, d'Nidderlanden, Lëtzebuerg, d'Schwäiz, Däitschland, Italien, Éisträich, San Marino a Liechtenstein. Sehenswiirdegkeeten a Kaart-Hannergrond: © d'OpenStreetMap-Mataarbechter (ODbL-Lizenz). Peage: VINCI Autoroutes (Frankräich), Autopistas (Spuenien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien) — gratis Autobunnen an der Belsch, an Andorra, an den Nidderlanden, zu Lëtzebuerg, an Däitschland, zu San Marino a Liechtenstein; eng jäerlech Vignette an der Schwäiz an an Éisträich (kee Peage pro Streck).",
       'footer.legalMentions': 'Legal Notiz',
       'footer.privacyPolicy': 'Dateschutzerklärung',
 
@@ -1699,7 +1699,7 @@
 
       'again.button': "Estrai un'altra destinazione",
 
-      'footer.text': "Rotta verso l'ignoto — un generatore ludico, nessun dato viene mai inviato da nessuna parte. Comuni: IGN / geo.api.gouv.fr (Etalab) per la Francia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogallo, Belgio, Paesi Bassi, Lussemburgo, Svizzera, Germania, Italia e Austria. Punti d'interesse e sfondo mappa: © i contributori di OpenStreetMap (licenza ODbL). Pedaggi: VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallo), Autostrade per l'Italia (Italia) — autostrade gratuite in Belgio, Andorra, Paesi Bassi, Lussemburgo e Germania; vignetta annuale in Svizzera e in Austria (nessun pedaggio per tragitto).",
+      'footer.text': "Rotta verso l'ignoto — un generatore ludico, nessun dato viene mai inviato da nessuna parte. Comuni: IGN / geo.api.gouv.fr (Etalab) per la Francia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogallo, Belgio, Paesi Bassi, Lussemburgo, Svizzera, Germania, Italia, Austria, San Marino e Liechtenstein. Punti d'interesse e sfondo mappa: © i contributori di OpenStreetMap (licenza ODbL). Pedaggi: VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallo), Autostrade per l'Italia (Italia) — autostrade gratuite in Belgio, Andorra, Paesi Bassi, Lussemburgo, Germania, San Marino e Liechtenstein; vignetta annuale in Svizzera e in Austria (nessun pedaggio per tragitto).",
       'footer.legalMentions': 'Note legali',
       'footer.privacyPolicy': 'Informativa sulla privacy',
 
@@ -1917,7 +1917,7 @@
 
       'again.button': 'Tirar ina autra destinaziun',
 
-      'footer.text': "Direcziun l'ignot — in generatur ludic, nagina data na vegn mai tramessa nunder che saja. Vischnancas: IGN / geo.api.gouv.fr (Etalab) per Frantscha, GeoNames (licenza CC-BY) per Andorra, Spagna, Portugal, Belgia, ils Pajais Bass, Luxemburg, la Svizra, la Germania, l'Italia e l'Austria. Puncts d'interess e fund da charta: © ils contribuents da OpenStreetMap (licenza ODbL). Taxas da via: VINCI Autoroutes (Frantscha), Autopistas (Spagna), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia) — autostradas gratuitas en Belgia, Andorra, ils Pajais Bass, Luxemburg e la Germania; vigneta annuala en Svizra ed en Austria (nagina taxa per viadi).",
+      'footer.text': "Direcziun l'ignot — in generatur ludic, nagina data na vegn mai tramessa nunder che saja. Vischnancas: IGN / geo.api.gouv.fr (Etalab) per Frantscha, GeoNames (licenza CC-BY) per Andorra, Spagna, Portugal, Belgia, ils Pajais Bass, Luxemburg, la Svizra, la Germania, l'Italia, l'Austria, San Marino e il Liechtenstein. Puncts d'interess e fund da charta: © ils contribuents da OpenStreetMap (licenza ODbL). Taxas da via: VINCI Autoroutes (Frantscha), Autopistas (Spagna), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia) — autostradas gratuitas en Belgia, Andorra, ils Pajais Bass, Luxemburg, la Germania, San Marino ed il Liechtenstein; vigneta annuala en Svizra ed en Austria (nagina taxa per viadi).",
       'footer.legalMentions': 'Indicaziuns legalas',
       'footer.privacyPolicy': 'Directiva da protecziun da datas',
 
@@ -2133,7 +2133,7 @@
 
       'again.button': 'En anner Reisdoel utloten',
 
-      'footer.text': 'Kurs op dat Unbekannte — en spöölschen Generator, dat warrt nienich Daten sennt. Gemeenden: IGN / geo.api.gouv.fr (Etalab) för Frankriek, GeoNames (CC-BY-Lizenz) för Andorra, Spanien, Portugal, Belgien, de Nedderlannen, Luxemburg, de Swiez, Düütschland, Italien un Oostriek. Sehenswöördigkeiten un Kaartgrund: © de OpenStreetMap-Mitmakers (ODbL-Lizenz). Toll: VINCI Autoroutes (Frankriek), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien) — tollfrie Autobahnen in Belgien, Andorra, de Nedderlannen, Luxemburg un Düütschland; jährliche Vignette in de Swiez un in Oostriek (keen Toll per Reis).',
+      'footer.text': 'Kurs op dat Unbekannte — en spöölschen Generator, dat warrt nienich Daten sennt. Gemeenden: IGN / geo.api.gouv.fr (Etalab) för Frankriek, GeoNames (CC-BY-Lizenz) för Andorra, Spanien, Portugal, Belgien, de Nedderlannen, Luxemburg, de Swiez, Düütschland, Italien, Oostriek, San Marino un Liechtenstein. Sehenswöördigkeiten un Kaartgrund: © de OpenStreetMap-Mitmakers (ODbL-Lizenz). Toll: VINCI Autoroutes (Frankriek), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien) — tollfrie Autobahnen in Belgien, Andorra, de Nedderlannen, Luxemburg, Düütschland, San Marino un Liechtenstein; jährliche Vignette in de Swiez un in Oostriek (keen Toll per Reis).',
       'footer.legalMentions': 'Rechtlich Angaven',
       'footer.privacyPolicy': 'Datenschutz',
 
@@ -2351,7 +2351,7 @@
 
       'again.button': 'Druhi cil wupytać',
 
-      'footer.text': 'Kurs do njeznateho — spěłna generator, žadyn dataj so ženje njesela. Gmejny: IGN / geo.api.gouv.fr (Etalab) za Francosku, GeoNames (licenca CC-BY) za Andorru, Španisku, Portugalsku, Belgisku, Nižozemsku, Luxemburgsku, Šwicarsku, Němsku, Italsku a Rakusku. Wobhladowanske dypki a kartowe pozadźe: © sobuskutkowarjo OpenStreetMap (licenca ODbL). Myto: VINCI Autoroutes (Francoska), Autopistas (Španiska), Via Verde/Ascendi (Portugalska), Autostrade per l’Italia (Italska) — myta-swobodne awtodróhi w Belgiskej, Andorrje, Nižozemskej, Luxemburgskej a Němskej; lětna vignetka w Šwicarskej a w Rakuskej (žane myto na jězbu).',
+      'footer.text': 'Kurs do njeznateho — spěłna generator, žadyn dataj so ženje njesela. Gmejny: IGN / geo.api.gouv.fr (Etalab) za Francosku, GeoNames (licenca CC-BY) za Andorru, Španisku, Portugalsku, Belgisku, Nižozemsku, Luxemburgsku, Šwicarsku, Němsku, Italsku, Rakusku, San Marino a Liechtenstein. Wobhladowanske dypki a kartowe pozadźe: © sobuskutkowarjo OpenStreetMap (licenca ODbL). Myto: VINCI Autoroutes (Francoska), Autopistas (Španiska), Via Verde/Ascendi (Portugalska), Autostrade per l’Italia (Italska) — myta-swobodne awtodróhi w Belgiskej, Andorrje, Nižozemskej, Luxemburgskej, Němskej, San Marinje a Liechtensteinje; lětna vignetka w Šwicarskej a w Rakuskej (žane myto na jězbu).',
       'footer.legalMentions': 'Prawniske pokazki',
       'footer.privacyPolicy': 'Škit datow',
 
@@ -2570,7 +2570,7 @@
 
       'again.button': 'En üder reisdoal lucht',
 
-      'footer.text': 'Kurs tu det unbekannte — en spöölsk generator, nian dooten wårde ai fuurtstüürd. Gemiine: IGN / geo.api.gouv.fr (Etalab) foor Frankrik, GeoNames (CC-BY-lizens) foor Andorra, Spaanien, Portugal, Belgien, Nedderlönje, Luxemburg, dai Swiits, Düütsklönj, Italien an Österiek. Sååchtjensweerdiheeden an kaart-uunergrünj: © dai OpenStreetMap-mäduurbeeders (ODbL-lizens). Tol: VINCI Autoroutes (Frankrik), Autopistas (Spaanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien) — tolfrii autobahne önj Belgien, Andorra, Nedderlönje, Luxemburg an Düütsklönj; iaarli vignet önj dai Swiits an önj Österiek (nian tol per reise).',
+      'footer.text': 'Kurs tu det unbekannte — en spöölsk generator, nian dooten wårde ai fuurtstüürd. Gemiine: IGN / geo.api.gouv.fr (Etalab) foor Frankrik, GeoNames (CC-BY-lizens) foor Andorra, Spaanien, Portugal, Belgien, Nedderlönje, Luxemburg, dai Swiits, Düütsklönj, Italien, Österiek, San Marino an Liechtenstein. Sååchtjensweerdiheeden an kaart-uunergrünj: © dai OpenStreetMap-mäduurbeeders (ODbL-lizens). Tol: VINCI Autoroutes (Frankrik), Autopistas (Spaanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien) — tolfrii autobahne önj Belgien, Andorra, Nedderlönje, Luxemburg, Düütsklönj, San Marino an Liechtenstein; iaarli vignet önj dai Swiits an önj Österiek (nian tol per reise).',
       'footer.legalMentions': 'Juristisk uunwiisinge',
       'footer.privacyPolicy': 'Dooten-schuts',
 
@@ -2786,7 +2786,7 @@
 
       'again.button': 'Tirare un\'àtera destinatzione',
 
-      'footer.text': 'Rutta a s\'ignotu — unu generadore ludicu, peruna dada benit imbiada in logu perunu. Biddas: IGN / geo.api.gouv.fr (Etalab) pro sa Frantza, GeoNames (litzèntzia CC-BY) pro Andorra, Ispagna, Portugallu, Belgiu, Bassos Paisos, Lussemburgu, Isvìtzera, Germània, Itàlia e Àustria. Puntos de interessu e fundale de mapa: © is contribuidores de OpenStreetMap (litzèntzia ODbL). Pedàgios: VINCI Autoroutes (Frantza), Autopistas (Ispagna), Via Verde/Ascendi (Portugallu), Autostrade per l\'Italia (Itàlia) — autostradas gratuitas in Belgiu, Andorra, in is Bassos Paisos, in Lussemburgu e in Germània; vignetta annuale in Isvìtzera e in Àustria (peruna pedàgiu a biàgiu).',
+      'footer.text': 'Rutta a s\'ignotu — unu generadore ludicu, peruna dada benit imbiada in logu perunu. Biddas: IGN / geo.api.gouv.fr (Etalab) pro sa Frantza, GeoNames (litzèntzia CC-BY) pro Andorra, Ispagna, Portugallu, Belgiu, Bassos Paisos, Lussemburgu, Isvìtzera, Germània, Itàlia, Àustria, Santu Marinu e Liechtenstein. Puntos de interessu e fundale de mapa: © is contribuidores de OpenStreetMap (litzèntzia ODbL). Pedàgios: VINCI Autoroutes (Frantza), Autopistas (Ispagna), Via Verde/Ascendi (Portugallu), Autostrade per l\'Italia (Itàlia) — autostradas gratuitas in Belgiu, Andorra, in is Bassos Paisos, in Lussemburgu, in Germània, in Santu Marinu e in Liechtenstein; vignetta annuale in Isvìtzera e in Àustria (peruna pedàgiu a biàgiu).',
       'footer.legalMentions': 'Notas legales',
       'footer.privacyPolicy': 'Polìtica de riservadesa',
 
@@ -3001,7 +3001,7 @@
 
       'again.button': 'Gjavâ une altre destinazion',
 
-      'footer.text': 'Rote viers l\'ignot — un gjeneradôr ludic, nissun dât al ven mai mandât in nissun puest. Comuns: IGN / geo.api.gouv.fr (Etalab) pe Francie, GeoNames (licence CC-BY) par Andore, Spagne, Portugal, Belgjiche, Paîs Bas, Lussemburc, Svuizare, Gjermanie, Italie e Austrie. Ponts di interès e fondâl di mape: © i contribuents di OpenStreetMap (licence ODbL). Pedaçs: VINCI Autoroutes (Francie), Autopistas (Spagne), Via Verde/Ascendi (Portugal), Autostrade per l\'Italia (Italie) — autostradis gratuitis in Belgjiche, Andore, tai Paîs Bas, in Lussemburc e in Gjermanie; vignete anuâl in Svuizare e in Austrie (nissun pedaç par viaç).',
+      'footer.text': 'Rote viers l\'ignot — un gjeneradôr ludic, nissun dât al ven mai mandât in nissun puest. Comuns: IGN / geo.api.gouv.fr (Etalab) pe Francie, GeoNames (licence CC-BY) par Andore, Spagne, Portugal, Belgjiche, Paîs Bas, Lussemburc, Svuizare, Gjermanie, Italie, Austrie, San Marin e Liechtenstein. Ponts di interès e fondâl di mape: © i contribuents di OpenStreetMap (licence ODbL). Pedaçs: VINCI Autoroutes (Francie), Autopistas (Spagne), Via Verde/Ascendi (Portugal), Autostrade per l\'Italia (Italie) — autostradis gratuitis in Belgjiche, Andore, tai Paîs Bas, in Lussemburc, in Gjermanie, in San Marin e in Liechtenstein; vignete anuâl in Svuizare e in Austrie (nissun pedaç par viaç).',
       'footer.legalMentions': 'Notis legâls',
       'footer.privacyPolicy': 'Politiche di riservatece',
 
@@ -3220,7 +3220,7 @@
 
       'again.button': 'Tré jö n\'atra destinazion',
 
-      'footer.text': 'Rota vers l\'ignot — n generadú lujec, degun dat vëgn mai menà en degun post. Comuns: IGN / geo.api.gouv.fr (Etalab) per la Franzia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogal, Belgio, Paejes Bas, Lussemburg, Svizera, Germania, Italia y Austria. Ponc de interess y sfont de ciarta: © i contribuënc de OpenStreetMap (licenza ODbL). Pedaje: VINCI Autoroutes (Franzia), Autopistas (Spagna), Via Verde/Ascendi (Portogal), Autostrade per l\'Italia (Italia) — autostrades debann te Belgio, Andorra, ti Paejes Bas, en Lussemburg y en Germania; vignetta anuala en Svizera y en Austria (degun pedaje per viac).',
+      'footer.text': 'Rota vers l\'ignot — n generadú lujec, degun dat vëgn mai menà en degun post. Comuns: IGN / geo.api.gouv.fr (Etalab) per la Franzia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogal, Belgio, Paejes Bas, Lussemburg, Svizera, Germania, Italia, Austria, San Marino y Liechtenstein. Ponc de interess y sfont de ciarta: © i contribuënc de OpenStreetMap (licenza ODbL). Pedaje: VINCI Autoroutes (Franzia), Autopistas (Spagna), Via Verde/Ascendi (Portogal), Autostrade per l\'Italia (Italia) — autostrades debann te Belgio, Andorra, ti Paejes Bas, en Lussemburg, en Germania, en San Marino y en Liechtenstein; vignetta anuala en Svizera y en Austria (degun pedaje per viac).',
       'footer.legalMentions': 'Aviejes legales',
       'footer.privacyPolicy': 'Politica de privatëza',
 
