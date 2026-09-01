@@ -5,9 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['CH']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
-// AD/ES/PT/BE/NL/LU sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu.txt), pas
-// la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
+const COUNTRIES = ['DE']; // dump/ et postal/ ne contiennent que les fichiers du pays en cours d'ajout —
+// AD/ES/PT/BE/NL/LU/CH sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch.txt),
+// pas la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -68,9 +68,12 @@ function nearest(gridObj, lat, lon, maxKm){
 // Sankt Gallen... déjà bons) : "Geneva" (exonyme anglais, remplacé par le français "Genève" — seule
 // langue officielle du canton), "Sitten" (exonyme allemand employé côté GeoNames pour cette commune
 // bilingue du Valais, remplacé par le français "Sion" — nom officiel utilisé pour la signalétique et
-// les codes postaux de cette ville, bien que "Sitten" reste un nom attesté côté germanophone). Cas
-// isolés, corrigés à la main plutôt que d'intégrer le fichier alternateNamesV2 (bien plus volumineux)
-// pour si peu d'exceptions connues.
+// les codes postaux de cette ville, bien que "Sitten" reste un nom attesté côté germanophone). Deux
+// cas allemands (échantillon des 30 plus grandes communes du pays, reste déjà correct en langue
+// locale — Köln, Frankfurt am Main, Düsseldorf, Hannover, Braunschweig... malgré leurs exonymes
+// français/anglais fréquents) : "Munich" (anglais, remplacé par l'allemand "München"), "Nuremberg"
+// (anglais, remplacé par l'allemand "Nürnberg"). Cas isolés, corrigés à la main plutôt que d'intégrer
+// le fichier alternateNamesV2 (bien plus volumineux) pour si peu d'exceptions connues.
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
@@ -79,7 +82,9 @@ const NAME_OVERRIDES = {
   'Saint-Vith': 'Sankt Vith',
   'The Hague': 'Den Haag',
   'Geneva': 'Genève',
-  'Sitten': 'Sion'
+  'Sitten': 'Sion',
+  'Munich': 'München',
+  'Nuremberg': 'Nürnberg'
 };
 
 for(const country of COUNTRIES){

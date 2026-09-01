@@ -1,0 +1,2925 @@
+hsb;Šwikawa;Zwickau
+fr;Deux-Ponts;Zweibrücken
+fr;Tolbiac;Zülpich
+nl;Tolbiac;Zülpich
+de;Vorwerk Zuchenberg;Zuchenberg
+hsb;Čornow;Zschornau
+hsb;Čornjow;Zschorna
+hsb;Čelchow;Zschillichau
+hsb;Čornecy;Zscharnitz
+hsb;Sosny;Zossen
+hsb;Cokow;Zockau
+hsb;Žitawa;Zittau
+hsb;Žytawa;Zittau
+hsb;Čěškecy;Zischkowitz
+hsb;Synjeńce;Zinnitz
+de;Ziessau;Zießau
+hsb;Cyžecy;Zieschütz
+hsb;Šešow;Zescha
+hsb;Drětwja;Zerre
+de;Zernickow;Zernikow
+hsb;Sernjany;Zerna
+hsb;Cerkwica;Zerkwitz
+de;Zerbst/Anhalt;Zerbst
+it;Zerbst/Anhalt;Zerbst
+hsb;Serbišćo;Zerbst
+es;Zell en el Valle del Wiese;Zell im Wiesental
+pt;Zell;Zell am Harmersbach
+nl;Zell;Zell im Fichtelgebirge
+hsb;Žitč;Zeitz
+hsb;Cytań;Zeithain
+hsb;Ćisk;Zeißig
+hsb;Ćisow;Zeißholz
+hsb;Sedlik;Zedlig
+de;Zarkenau;Zarnekau
+hsb;Cazow;Zahsow
+nds;Santen;Xanten
+de;Wyck;Wyk auf Föhr
+frr;Wik;Wyk auf Föhr
+frr;A Wik;Wyk auf Föhr
+nds;De Wyk;Wyk auf Föhr
+hsb;Huštań;Wüstenhain
+de;Wüsten Buchholz;Wüsten-Buchholz
+hsb;Worcyn;Wurzen
+es;Wurzburgo;Würzburg
+fr;Wurtzbourg;Würzburg
+pt;Wurtzburgo;Würzburg
+frr;Würzbörj;Würzburg
+hsb;Worcyn;Wurschen
+hsb;Wjerbjež;Wurbis
+nds;Wupperdaal;Wuppertal
+en;Wuelfrath;Wülfrath
+nds;Wülferoe;Wülferode
+hsb;Wuježk;Wuischke
+nds;Wröscheru’e;Wrescherode
+pt;Wörth;Wörth an der Isar
+de;Wörth am Rhein;Wörth
+de;Wörpedorf;Wörpendorf
+hsb;Wjelkowy;Wölkau
+es;Wolfsburgo;Wolfsburg
+fr;Wolfsbourg;Wolfsburg
+frr;Wolfsbörj;Wolfsburg
+nds;Wulfsborg;Wolfsburg
+nds;Wulfenbüttel;Wolfenbüttel
+pt;Volfembutel;Wolfenbüttel
+hsb;Walowy;Wohla
+frr;Witswort;Witzwort
+nds;Wittörp;Wittorf
+lb;Wittlech;Wittlich
+hsb;Kulow;Wittichenau
+de;Witsum auf Föhr;Witsum
+nds;Wismer;Wismar
+nds;Wischhoben;Wischhafen
+nds;Wipshusen;Wipshausen
+nds;Winnenmerg;Winterberg
+hsb;Wintorp;Wintdorf
+de;Winsen (Luhe);Winsen
+de;Winsen an der Luhe;Winsen
+de;Winsen (Aller);Winsen
+de;Winkelhausen (Dorfmark);Winkelhausen
+nds;Gemeen Wingst;Wingst
+lb;Wëncher;Wincheringen
+hsb;Wjelećin;Wilthen
+nds;Wils;Wilsede
+hsb;Rogozno;Willmersdorf
+de;Willingen (Upland);Willingen
+nds;Willemshaven;Wilhelmshaven
+hsb;Wylemocy;Wilhelmsfeld
+nds;Wilshusen;Wildeshausen
+de;Bad Wildbad im Schwarzwald;Bad Wildbad
+nds;Gemeen Witzendörp;Wietzendorf
+hsb;Naseńce;Wiesendorf
+hsb;Brěznja;Wiesa
+nds;Wienhusen;Wienhausen
+nds;Wiefelstäe;Wiefelstede
+hsb;Wětnica;Wiednitz
+nds;Wie’enro’e;Wiedenrode
+nds;Weppmer;Wettmar
+hsb;Wětrow;Wetro
+frr;Weestre;Westre
+nds;Westerstäe;Westerstede
+de;Westersandefeld;Westersanderfeld
+frr;Wäästerlön';Westerland
+frr;Weesterlön;Westerland
+frr;Waasterheewer;Westerhever
+de;Westerhart;Westerharl
+nds;Westcelle;Westercelle
+de;Westerburg (Dedeleben);Westerburg
+de;Westerberg Ort;Westerbergen
+de;Westendorf (Dorfmark);Westendorf
+hsb;Wjesel;Wessel
+hsb;Wjaska;Weskow
+en;Wertheim am Main;Wertheim
+nl;Wertheim am Main;Wertheim
+nds;Weerpel;Werpeloh
+nds;Wäen;Werne
+es;Werle;Werl
+nds;Wiärl;Werl
+nds;Weerm;Werdum
+hsb;Wjertko;Werdeck
+hsb;Wjerchownja;Werchow
+de;Hansestadt Werben;Werben
+de;Hansestadt Werben (Elbe);Werben
+de;Werben (Elbe);Werben
+hsb;Wjerbno;Werben
+fr;Wentorf près de Hambourg;Wentorf bei Hamburg
+de;Wentorf;Wentorf bei Hamburg
+frr;Woningstair;Wenningstedt
+it;Wennigsen am Deister;Wennigsen
+hsb;Serbske Pazlicy;Wendischbaselitz
+nds;Wennefehre;Wendefurth
+nds;Wenneborg;Wendeburg
+hsb;Wjelcej;Welzow
+hsb;Wjeljcej;Welzow
+de;Weißwasser/Oberlausitz;Weißwasser
+it;Weißwasser/O.L.;Weißwasser
+hsb;Běła Woda;Weißwasser
+hsb;Běła Woda/Hornja Łužica;Weißwasser
+hsb;Běłe Noslicy;Weißnaußlitz
+hsb;Běły Chołmc;Weißkollm
+hsb;Wuskidź;Weißkeißel
+hsb;Wysoka;Weißig
+de;Weißenstadt;Bad Weißenstadt
+es;Weissenburg;Weißenburg in Bayern
+fr;Weissenburg in Bayern;Weißenburg in Bayern
+de;Weissenburg in Bayern;Weißenburg
+hsb;Wóspork;Weißenberg
+it;Weilheim in Alta Baviera;Weilheim
+de;Weiler (Rohr);Weiler
+fr;Weilbourg;Weilburg
+fr;Weil-am-Rhein;Weil am Rhein
+hsb;Wuhančicy-Koblica;Weigsdorf-Köblitz
+hsb;Wukrančicy;Weigersdorf
+hsb;Motydło;Weifa
+hsb;Wutołčicy;Weidlitz
+en;Weidhausen;Weidhausen bei Coburg
+pt;Weidhausen;Weidhausen bei Coburg
+hsb;Wichowy;Weicha
+nds;Wähnßen;Wehnsen
+nds;Wewwerlingsen;Weferlingsen
+nds;Wedtlenstie;Wedtlenstedt
+hsb;Wawicy;Wawitz
+it;Bochum-Wattenscheid;Wattenscheid
+nds;Wattsche;Wattenscheid
+nds;Wateln;Wathlingen
+nds;Wodeln;Wathlingen
+de;Wasserburg (Bodensee);Wasserburg
+hsb;Stróža;Wartha
+de;Altensteig-Wart;Wart
+nds;Warnduorp;Warendorf
+de;Waren (Müritz);Waren
+nds;Waberich;Warburg
+nds;Wanzlee;Wanzleben
+de;Wansleben am See;Wansleben
+nds;Wangeroog;Nordseeheilbad Wangerooge
+de;Wangen im Allgäu;Wangen
+pt;Wangen bei Göppingen;Wangen
+nds;Gemeen Wasra;Walsrode
+de;Wallrode (Großbodungen);Wallrode
+de;Wallhausen (Helme);Wallhausen
+fr;Vaudrevange;Wallerfangen
+lb;Wallenduerf;Wallendorf
+de;Walldorf (Meiningen);Walldorf
+de;Walldorf (Werra);Walldorf
+de;Walldorf / Baden-Württemb.;Walldorf
+de;Waldkirchen/Erzgeb.;Waldkirchen
+it;Waldkirchen/Erzgeb.;Waldkirchen
+nl;Waldkirchen/Erzgeb.;Waldkirchen
+de;Walbeck (Mansfelder Land);Walbeck
+de;Walbeck (Hettstedt);Walbeck
+hsb;Wadecy;Waditz
+hsb;Zakrjejc;Wadelsdorf
+de;Wachenheim an der Weinstraße;Wachenheim
+nds;Vrene;Vreden
+de;Vossberg;Voßberg
+nds;Vührm;Vöhrum
+nds;Visselhöövd;Visselhövede
+frr;Fjåål;Viöl
+de;Vilshofen an der Donau;Vilshofen
+hsb;Štyri Duby;Viereichen
+hsb;Wětošow;Vetschau
+de;Vetschau/Spreewald;Vetschau
+hsb;Wětošow/Błota;Vetschau
+de;Vethen;Vethem
+en;Verden an der Aller;Verden
+nds;Veern;Verden
+de;Verden (Aller);Verden
+nds;Vechte;Vechta
+nds;Vechel;Vechelde
+nds;Vechelah;Vechelade
+de;Varlerwald;Varler Wald
+de;Valwig bei Cochem;Valwig
+nds;Vallste;Vallstedt
+nds;Vallstidde;Vallstedt
+fr;Vaihingen-sur-lEnz;Vaihingen an der Enz
+de;Utting;Utting am Ammersee
+frr;Ödersem;Utersum
+nds;Üsseler;Uslar
+de;Stadt Usedom;Usedom
+hsb;Wujer;Unwürde
+fr;Unterweissbach;Unterweißbach
+en;Unterschleisshem;Unterschleißheim
+en;Unterschleissheim;Unterschleißheim
+de;Ülsbyholz;Uelsbyholz
+it;Ulma;Ulm
+hsb;Horni Wujězd;Uhyst am Taucher
+hsb;Wujězd;Uhyst am Taucher
+hsb;Delni Wujězd;Uhyst
+de;Uhlemühlen;Uhlenmühlen
+nds;Ütze;Uetze
+de;Ümminghausen;Uemminghausen
+de;Übigau;Uebigau
+nds;Udenhusen;Udenhausen
+de;Udenhausen (Grebenstein);Udenhausen
+hsb;Wbohow;Übigau
+nds;Twustern;Twistringen
+hsb;Zakrjow;Türkendorf
+es;Tubinga;Tübingen
+it;Tubinga;Tübingen
+pt;Tubinga;Tübingen
+hsb;Časecy;Tschaschwitz
+hsb;Trupin;Truppen
+hsb;Trjebicy;Tröbitz
+hsb;Trjechow;Tröbigau
+nds;Trittow;Trittau
+es;Tréveris;Trier
+fr;Trèves;Trier
+it;Treviri;Trier
+lb;Tréier;Trier
+pt;Tréveris;Trier
+hsb;Rańchow;Treppendorf
+nds;Dringelborg;Trendelburg
+hsb;Trjebejce;Trebendorf
+hsb;Trjebin;Trebendorf
+hsb;Trušecy;Trauschwitz
+hsb;Dubrawa;Trattendorf
+hsb;Tradow;Trado
+nds;Töst;Tostedt
+hsb;Tornow;Torno
+hsb;Tarnojsk;Tornitz
+hsb;Torhow;Torgau
+hsb;Torgawa;Torgau
+nds;Tünn;Tönning
+frr;Taning;Tönning
+de;Tiergartensiedlung;Tiergarten
+hsb;Tyhelk;Tiegling
+de;Thundorf i. Unterfranken;Thundorf in Unterfranken
+de;Thundorf i. Ufr.;Thundorf in Unterfranken
+pt;Thundorf;Thundorf in Unterfranken
+nds;Töense;Thönse
+nds;Thensen;Thönse
+nds;Thänhusen;Thedinghausen
+nds;Gemeen Tesp;Tespe
+hsb;Terpje;Terpe
+hsb;Ćemjercy;Temritz
+hsb;Dolnjow;Teltow
+nds;Telligte;Telgte
+nds;Teistingen;Teistungen
+hsb;Ćichońca;Teichnitz
+hsb;Haty;Teichhäuser
+hsb;Hatk;Teicha
+hsb;Hat;Teicha
+fr;Tecklembourg;Tecklenburg
+hsb;Ćěchorjecy;Techritz
+hsb;Tućicy;Tautewalde
+hsb;Dubojce;Taubendorf
+hsb;Ptačecy;Tätzschwitz
+hsb;Ledźborecy;Taschendorf
+nds;Tarms;Tarmstedt
+nds;Tangermünn;Tangermünde
+de;Taching a. See;Taching am See
+de;Bad Tabarz;Tabarz
+nds;Süst;Süstedt
+hsb;Zušow;Suschow
+hsb;Supow;Suppo
+nds;Sonnern;Sundern
+pt;Sulzermoos;Sulzemoos
+de;Sulzbach/Saar;Sulzbach
+it;Sulzbach/ Saar;Sulzbach
+nds;Sülldarp;Sülldorf
+nds;Suwohle;Sudwalde
+frr;Läigem;Süderlügum
+nds;Sunsfelle;Sudenfeld
+de;Suckower Mooster;Mooster
+it;Stoccarda;Stuttgart
+pt;Estugarda;Stuttgart
+frr;Strükem;Struckum
+hsb;Strjažow;Striesow
+de;Strichstraße;Im Strich
+hsb;Strjela;Strehla
+hsb;Třělany;Strehla
+hsb;Tšupc;Straupitz
+hsb;Nadrózna Hrabowka;Straßgräbchen
+de;Straß b. Nersingen;Straß
+de;Strasburg (Uckermark);Strasburg
+hsb;Tšadow;Stradow
+hsb;Štotup;Stottoff
+hsb;Baćoń;Storcha
+hsb;Stołpin;Stolpen
+de;Stolpe-Dorf;Stolpe
+de;Stollberg/Erzgeb.;Stollberg
+it;Stollberg/Erzgeb.;Stollberg
+nl;Stollberg/Erzgeb.;Stollberg
+de;Stolberg, Rheinland;Stolberg
+de;Stocka;Stock
+nds;Gemeen Stinst;Stinstedt
+hsb;Drěnow;Thräna
+hsb;Sćijecy;Stiebitz
+nds;Staarbarg;Steyerberg
+de;Stefansberg;Stephansberg
+hsb;Sćenojce;Stennewitz
+nds;Schtemmern;Stemmern
+nds;Steljen;Stelingen
+nds;Stäljen;Stelingen
+nds;Steinwie;Steinwedel
+hsb;Kamjentna Wólšinka;Steinölsa
+hsb;Kamjena;Steinkirchen
+de;Steinkämper-Feld;Steinkämper Feld
+hsb;Šćeńc;Steinitz
+hsb;Šćeńca;Steinitz
+hsb;Wołbramecy;Steinigtwolmsdorf
+nds;Staime;Steinheim
+de;Hungen-Steinheim;Steinheim
+de;Vorwerk Steinfurth;Steinfurth
+nds;Stemmert;Steinfurt
+de;Steinfeld (Altmark);Steinfeld
+de;Steinfeld (Oldenburg);Steinfeld
+hsb;Trjebjeńca;Steindörfel
+de;Steindorf b. Höhenstadt;Steindorf
+de;Stein bei Nürnberg;Stein
+de;Steinbach;Steinbach am Taunus
+de;Steinbach (Eichsfeld);Steinbach
+de;Vorwerk Steinau;Steinau
+lb;Steeën;Stegen
+nds;Stieme;Stedum
+nds;Steven;Stedum
+frr;Stääsönj;Stedesand
+nds;Stie'erdorp;Stederdorf
+frr;Ståårem;Stadum
+de;Stade;Hansestadt Stade
+en;Stade;Hansestadt Stade
+es;Stade;Hansestadt Stade
+fr;Stade;Hansestadt Stade
+nds;Gemeen Stood;Hansestadt Stade
+nl;Stade;Hansestadt Stade
+hsb;Stachow;Stacha
+hsb;Sprjojcy;Sproitz
+hsb;Sprjowje;Sprey
+hsb;Šprjejcy;Spreewitz
+hsb;Lichań;Spreewiese
+hsb;Spale;Spohla
+hsb;Spytecy;Spittwitz
+hsb;Špikały;Spittel
+es;Espira;Speyer
+fr;Spire;Speyer
+it;Spira;Speyer
+en;Spires;Speyer
+nds;Söttmer;Sottrum
+hsb;Žornosyki;Sornßig
+hsb;Sowrjecy;Soritz
+nds;Sornsen;Sorgensen
+hsb;Groźišćo;Sonnewalde
+nds;Sunnbarre;Sonnenberg
+nds;Sumbarre;Sonnenberg
+hsb;Słónčna hora;Sonnenberg
+hsb;Łuh;Sommerluga
+nds;Gemeen Soltau;Soltau
+hsb;Sulšecy;Sollschwitz
+hsb;Delnje Sulšecy;Sollschwitz
+nds;Saust;Soest
+hsb;Smaržow;Smarso
+hsb;Skarbišecy;Skerbersdorf
+hsb;Skaskow;Skaska
+hsb;Škódow;Skadow
+nds;Zittens;Sittensen
+hsb;Dźěžnikecy;Singwitz
+hsb;Žymjerojce;Simmersdorf
+de;Simmern/Hunsrück;Simmern
+it;Simmern/ Hunsrück;Simmern
+nl;Simmern/Hunsrück;Simmern
+pt;Simmern/Hunsrück;Simmern
+pt;Markt Simbach;Simbach
+es;Sigmaringa;Sigmaringen
+hsb;Źiwize;Siewisch
+nds;Saiiwershiusen;Sievershausen
+nds;Siewershousen;Sievershausen
+nds;Siewershusen;Sievershausen
+hsb;Žylow;Sielow
+nds;Sie’enborg;Siedenburg
+hsb;Židow;Seidau
+hsb;Zejicy;Siebitz
+hsb;Dźiwoćicy;Siebitz
+hsb;Žytym;Settinchen
+hsb;Žargoń;Sergen
+hsb;Zły Komorow;Senftenberg
+hsb;Zemichow;Semmichau
+nds;Siälm;Selm
+hsb;Zelezna;Sellessen
+nds;Sellenstie;Sellenstedt
+nds;Sellstie;Sellenstedt
+hsb;Žičeń;Seitschen
+nds;Seinsti'e;Seinstedt
+nds;sainstiddə;Seinstedt
+nds;sainstiē;Seinstedt
+nds;sainstiēə;Seinstedt
+nds;Seinstidde;Seinstedt
+hsb;Zaruž;Seifhennersdorf
+hsb;Wodowe Hendrichecy;Seifhennersdorf
+hsb;Židźino;Seidewinkel
+nds;Seinje;Sehnde
+nds;Seevedaal;Seevetal
+frr;Seet;Seeth
+de;Seehausen a. Staffelsee;Seehausen am Staffelsee
+de;Hansestadt Seehausen;Seehausen
+de;Seehausen (Altmark);Seehausen
+de;Hansestadt Seehausen (Altmark);Seehausen
+nds;Seehusen;Seehausen
+de;Seehausen (Börde);Seehausen
+nds;Seedörp;Seedorf
+de;Karlshagen;Osteseebad Karlshagen
+hsb;Jězor;See
+hsb;Zebnica;Sebnitz
+hsb;Zdźěr;Sdier
+nds;Swübbelingsen;Schwüblingsen
+nds;Schweierte;Schwerte
+nds;Swering;Schweringen
+nds;Swerin;Schwerin
+hsb;Zwěrin;Schwerin
+hsb;Sepicy;Schwepnitz
+hsb;Swinjarnja;Schweinerden
+de;Schweewarden;Schneewarden
+de;Stadt Schwedt/Oder;Schwedt (Oder)
+en;Schwedt;Schwedt (Oder)
+de;Schwedt;Schwedt (Oder)
+hsb;Čorne Noslicy;Schwarznaußlitz
+hsb;Čorny Chołmc;Schwarzkollm
+hsb;Carny Gózd;Schwarzheide
+de;Schwarzenberg/Erzgeb.;Schwarzenberg
+it;Schwarzenberg/Erzgeb.;Schwarzenberg
+nl;Schwarzenberg/Erzgeb.;Schwarzenberg
+hsb;Čorny Hodler;Schwarzadler
+nds;Gemeen Swonewebel;Schwanewede
+nds;Schwanebarch;Schwaneberg
+de;Schwaig bei Nürnberg;Schwaig
+nds;Swabern;Schwaförden
+nds;Swachhusen;Schwachhausen
+nds;Schwerhusen;Schwachhausen
+frr;Swåbstää;Schwabstedt
+nds;Schüttrup;Schüttorf
+de;Schrakau;Schrackau
+hsb;Žrakow;Schrackau
+hsb;Skjarbošc;Schorbus
+nds;Schöppenstidde;Schöppenstedt
+de;Schönwalde;Schönwalde-Dorf
+de;Schönwald in Bayern;Schönwald
+de;Schönwald im Schwarzwald;Schönwald
+nds;Schönkarken;Schönkirchen
+nds;Schainich;Schöningen
+hsb;Šejnejda;Schönhöhe
+hsb;Prašyjca;Schönheide
+de;Schönhauser Damm;Schönhausen-Damm
+hsb;Tłukom;Schönfeld
+de;Schönebeck (Elbe);Schönebeck
+nds;Schönnebeck;Schönebeck
+de;Dreiwerden;Schönborn-Dreiwerden
+de;Dreiwerden über Mittweida;Schönborn-Dreiwerden
+de;Schönberg-Deich;Schönberg am Deich
+hsb;Šumbark;Schönberg
+de;Schönau-Berzdorf auf dem Eigen;Schönau-Berzdorf
+it;Schönau-Berzdorf auf dem Eigen;Schönau-Berzdorf
+nl;Schönau-Berzdorf auf dem Eigen;Schönau-Berzdorf
+hsb;Šunow;Schönau
+es;Schönau en la Selva Negra;Schönau im Schwarzwald
+de;Schönau;Schönau im Schwarzwald
+it;Schönau a.Königssee;Schönau am Königssee
+nds;Gemeen Snevern;Schneverdingen
+hsb;Smělna;Schmölln
+hsb;Smogorjow;Schmogrow
+hsb;Smochćicy;Schmochtitz
+hsb;Smjerdźaca;Schmerlitz
+hsb;Smječkecy;Schmeckwitz
+nds;Schmattfell;Schmatzfeld
+de;Schmantevitz;Schmantevitz-Kammin
+nds;Smalmereg;Schmallenberg
+es;Esmalcalda;Schmalkalden
+it;Smalcalda;Schmalkalden
+hsb;Słónkecy;Schlungwitz
+hsb;Sliwin;Schlieben
+hsb;Šlichow;Schlichow
+nds;Sleeswig;Schleswig
+hsb;Słopišća;Schlepzig
+hsb;Slopišća;Schlepzig
+hsb;Slepo;Schleife
+hsb;Šěrachow;Schirgiswalde
+hsb;Šejkow;Schipkau
+nds;Gemeen Schippdörp;Schiffdorf
+de;Schiedehohlweg;Schiedenhohlweg
+hsb;Křidoł;Schiedel
+nds;Scheipelse;Schepelse
+hsb;Derbno;Schenkendöbern
+nds;Scheeßl;Scheeßel
+de;Scheessel;Scheeßel
+hsb;Šekecy;Scheckwitz
+hsb;Pisany Doł;Scheckthal
+fr;Schaumbourg;Schaumburg
+hsb;Škódow;Schadewitz
+hsb;Šachlejce;Schacksdorf
+hsb;Žuricy;Säuritz
+nds;Sounsiek;Sauensiek
+hsb;Zasłomjeń;Saßleben
+hsb;Žarki;Särka
+hsb;Zarěc;Säritz
+hsb;Zarěč;Saritsch
+hsb;Zdźar;Särchen
+de;St. Tönis;Sankt Tönis
+en;Saint Michaelisdonn;Sankt Michaelisdonn
+en;St. Michaelisdonn;Sankt Michaelisdonn
+de;St. Michaelisdonn;Sankt Michaelisdonn
+de;St. Märgen;Sankt Märgen
+de;St. Johann / Rheinhessen;Sankt Johann
+en;Saint Goarshausen;Sankt Goarshausen
+en;St. Goarshausen;Sankt Goarshausen
+de;St. Goar;Sankt Goar
+en;Saint Egidien;Sankt Egidien
+en;St. Egidien;Sankt Egidien
+de;Sankt Dionys;Sankt-Dionys
+en;Saint Blasien;Sankt Blasien
+es;San Blasien;Sankt Blasien
+en;St. Blasien;Sankt Blasien
+de;St. Augustin;Sankt Augustin
+fr;Saint-Andreasberg;Sankt Andreasberg
+de;St. Andreasberg;Sankt Andreasberg
+nds;Gemeen Sands;Sandstedt
+nds;Santeln;Sandlingen
+hsb;Borštka;Sandförstgen
+nds;Sandbossel;Sandbostel
+de;Sandberg;Holler Sandberg
+de;Salzwedel;Hansestadt Salzwedel
+nds;Soltwedel;Hansestadt Salzwedel
+hsb;Słona Boršć;Salzenforst
+nds;Saoltbiärgen;Salzbergen
+hsb;Załhozdź;Sallgast
+de;Sallah;Sallahn
+hsb;Załhow;Salga
+de;Saig über Titisee;Saig
+hsb;Zagor;Sagar
+hsb;Zakrjow;Sacrow
+hsb;Zakrjow;Sacro
+hsb;Zakaznja;Saccasne
+hsb;Zabrod;Sabrodt
+fr;Sarrevailingue;Saarwellingen
+fr;Sarrelouis;Saarlouis
+fr;Sarrebourg;Saarburg
+es;Sarrebruck;Saarbrücken
+fr;Sarrebruck;Saarbrücken
+lb;Saarbrécken;Saarbrücken
+de;Saalfeld/Saale;Saalfeld
+nl;Saalfeld/Saale;Saalfeld
+it;Saalfeld/Saale;Saalfeld
+pt;Saalfeld/Saale;Saalfeld
+hsb;Salow;Saalau
+de;Saal a. d. Saale;Saal an der Saale
+nds;Ruihen;Rüthen
+de;Ruppertsstetten;Ruppertstetten
+nds;Rieper;Rüper
+de;Ruhstorf an der Rott;Ruhstorf
+hsb;Rolany;Ruhland
+hsb;Wotpočink;Ruhethal
+en;Rüdesheim an der Nahe;Rüdesheim
+pt;Rüdesheim an der Nahe;Rüdesheim
+de;Rabenau-Rüddingshausen;Rüddingshausen
+hsb;Rubyn;Ruben
+en;Rothenburg upon Tauber;Rothenburg ob der Tauber
+de;Röthenbach (Allgäu);Röthenbach
+pt;Rotemburgo do Fulda;Rotenburg an der Fulda
+de;Rotenburg an der Wümme;Rotenburg
+en;Rotenburg (Wümme);Rotenburg
+de;Rotenburg (Wümme);Rotenburg
+hsb;Roztok;Rostock
+hsb;Roswin;Roßwein
+de;Schaumburg-Rosenthal;Rosenthal
+de;Rosenthal (Rinteln);Rosenthal
+hsb;Róžant;Rosenthal
+de;Rameck;Romegg
+de;Auetal-Rolfshagen;Rolfshagen
+de;Rolfshagen (Auetal);Rolfshagen
+hsb;Rajc;Roitz
+nds;Reurße;Röhrse
+hsb;Rowno;Rohne
+hsb;Rogozno;Roggosen
+de;Rodheim vor der Höhe;Rodheim
+hsb;Rodecy;Rodewitz
+hsb;Rozwodecy;Rodewitz
+de;Rochusthal;Rochustal
+hsb;Rochusowy Doł;Rochustal
+hsb;Rochlica;Rochlitz
+nds;Gemeen Hu’e;Ritterhude
+de;Ritschermoor;Ritscherermoor
+hsb;Rěčicy;Rietschen
+hsb;Zrěšin;Rieschen
+hsb;Ryzawa;Riesa
+nds;Rier;Riede
+nds;Schlote Ricklinge;Schloß Ricklingen
+nds;Ricklingen;Schloß Ricklingen
+de;Rheinsberg Glienicke;Rheinsberg-Glienicke
+nds;Rene;Rheine
+de;Rhede (Ems);Rhede
+frr;Reußenkuuge;Reußenköge
+hsb;Rudna;Reuden
+de;Rethem (Aller);Rethem
+hsb;Rašyn;Ressen
+hsb;Herpna;Repten
+fr;Rendsbourg;Rendsburg
+nds;Rendsborg;Rendsburg
+frr;Rendsborag;Rendsburg
+nds;Reinsdörp;Reinstorf
+nds;Reinsählen;Reinsehlen
+nds;Raansdörpe;Reinsdorf
+nds;Reinsdorpe;Reinsdorf
+nds;Reinsdorp;Reinsdorf
+nds;Rengerode;Reinholterode
+pt;Schloss Reinhardsbrunn;Reinhardsbrunn
+nds;Reinbeek;Reinbek
+de;Reinbek bei Hamburg;Reinbek
+hsb;Rychwałd;Reichwalde
+pt;Reichenbach;Reichenbach an der Fils
+de;Reichenbach;Reichenbach/Vogtland
+de;Reichenbach im Vogtland;Reichenbach/Vogtland
+en;Reichenbach am Regen;Reichenbach
+nl;Reichenbach am Regen;Reichenbach
+hsb;Radušc;Rehnsdorf
+nds;Rehrn;Rehden
+de;Rehau (Raum Hof);Rehau
+es;Ratisbona;Regensburg
+fr;Ratisbonne;Regensburg
+it;Ratisbona;Regensburg
+pt;Regensburgo;Regensburg
+pt;Ratisbona;Regensburg
+frr;Regensbörj;Regensburg
+hsb;Rězno;Regensburg
+pt;Redwitz;Redwitz an der Rodach
+hsb;Rědłojce;Redlitz
+nds;Riäkelhusen;Recklinghausen
+fr;Ravensbourg;Ravensburg
+de;Rautenberg (Harsum);Rautenberg
+nds;Riutenbarg;Rautenberg
+de;Raunheim bei Frankfurt;Raunheim
+hsb;Rudej;Rauden
+hsb;Radska;Ratzen
+fr;Ratzebourg;Ratzeburg
+es;Ratzeburgo;Ratzeburg
+hsb;Ratarjecy;Rattwitz
+nds;Raastäe;Rastede
+hsb;Rašow;Rascha
+es;Ramstein;Ramstein-Miesenbach
+fr;Ramstein;Ramstein-Miesenbach
+hsb;Ramnow;Rammenau
+nds;Rammeln;Ramlingen
+nds;Rameln;Ramlingen
+hsb;Ralbicy;Ralbitz
+hsb;Rogow;Ragow
+de;Radolfzell am Bodensee;Radolfzell
+es;Radolfzell am Bodensee;Radolfzell
+nl;Radolfzell am Bodensee;Radolfzell
+hsb;Radwor;Radibor
+hsb;Radowiza;Radewiese
+hsb;Radom;Radensdorf
+hsb;Radowańk;Radensdorf
+hsb;Radowašojce;Radensdorf
+hsb;Radobyle;Radebeul
+de;Rade bei Rendsburg;Rade
+hsb;Raduš;Raddusch
+hsb;Worklecy;Räckelwitz
+hsb;Rakojdy;Rackel
+hsb;Rachlow;Rachlau
+hsb;Rachlow pod Čornobohom;Rachlau
+hsb;Rabocy;Rabitz
+hsb;Rakow;Raakow
+hsb;Chasow;Quoos
+nds;Queddelnborg;Quedlinburg
+fr;Quedlinbourg;Quedlinburg
+pt;Quedlimburgo;Quedlinburg
+hsb;Chwaćicy;Quatitz
+nds;Quokenbrügge;Quakenbrück
+hsb;Póckowy;Putzkau
+de;Puttensen;Putensen
+hsb;Bóšicy;Puschwitz
+hsb;Poršicy;Purschwitz
+hsb;Połčnica;Pulsnitz
+hsb;Lutoboŕ;Pulsberg
+hsb;Prožym;Proschim
+de;Seebad Prora;Prora
+hsb;Prěčecy;Prischwitz
+hsb;Protecy;Prietitz
+de;Prien;Prien am Chiemsee
+hsb;Přišecy;Preuschwitz
+hsb;Mrocna;Pretschen
+hsb;Praskow;Preske
+hsb;Přiwćicy;Preititz
+hsb;Pśiłuk;Preilack
+hsb;Prawoćicy;Prautitz
+hsb;Prochnow;Prachenau
+hsb;Počaplicy;Pottschapplitz
+hsb;Podstupim;Potsdam
+hsb;Pomorcy;Pommritz
+hsb;Palow;Pohla
+hsb;Podroždź;Podrosche
+hsb;Błócany;Plotzen
+nds;Plöön;Plön
+hsb;Plusnikecy;Pließkowitz
+hsb;Wjelchna;Plieskendorf
+nds;Plettmert;Plettenberg
+hsb;Plesow;Plessa
+hsb;Pławno;Plauen
+de;Plaicken;Plaiken
+hsb;Pěskecy;Piskowitz
+hsb;Pěrno;Pirna
+nds;Pinnbarg;Pinneberg
+hsb;Běčicy;Pietzschwitz
+hsb;Splósk;Pielitz
+it;Filisburgo;Philippsburg
+hsb;Hóznica;Petershain
+hsb;Stwěšin;Peschen
+fr;Perosa;Perouse
+nds;Perlberg;Perleberg
+de;Stadt Penkun;Penkun
+frr;Pälweerm;Pellworm
+frr;Pelwerem;Pellworm
+hsb;Picnjo;Peitz
+fr;Peissenberg;Peißenberg
+nds;Paane;Peine
+hsb;Tśikojce;Peickwitz
+hsb;Čikecy;Peickwitz
+hsb;Pěchč;Pechern
+nds;Pattjehiusen;Pattensen
+hsb;Pozdecy;Paßditz
+it;Passavia;Passau
+hsb;Paprotna;Papproth
+hsb;Popojce;Papitz
+nds;Papenhost;Papenhorst
+de;Papenburgerweg;Aschendorf-Papenburger Weg
+es;Papenburgo;Papenburg
+fr;Papenbourg;Papenburg
+hsb;Pančicy-Kukow;Panschwitz-Kuckau
+hsb;Panecy;Pannewitz am Taucher
+hsb;Banecy;Pannewitz
+nds;Padingbüddel;Padingbüttel
+nds;Patterbuorn;Paderborn
+hsb;Pódmokła;Pademack
+nds;Eiten;Oyten
+frr;Ööwenem;Oevenum
+nds;Ootlee;Ottleben
+nds;O'etlä;Ottleben
+nds;O'etlewwe;Ottleben
+nds;Gemeen Otterbarg;Ottersberg
+de;Ottersberg Flecken;Ottersberg
+nds;Oterndörp;Otterndorf
+pt;Ottenhöfen;Ottenhöfen im Schwarzwald
+de;Ottenhofen (Erding);Ottenhofen
+de;Ottenhöfen im Schwarzwald;Ottenhofen
+hsb;Otašojce;Ottendorf
+de;Nienhagen;Ostseebad Nienhagen
+de;Kühlungsborn;Ostseebad Kühlungsborn
+de;Göhren;Ostseebad Göhren
+de;Göhren (Rügen);Ostseebad Göhren
+de;Boltenhagen;Ostseebad Boltenhagen
+de;Östrum (Bad Salzdetfurth);Östrum
+hsb;Wotrow;Ostro
+hsb;Wostrowc;Ostritz
+de;Ostheim v.d. Rhön;Ostheim
+de;Oster Wittbekfeld;Osterwittbekfeld
+de;Osterwende;Osterwede
+nds;Osterweddich;Osterweddingen
+nds;Osterwoole Niernenne;Osterwald Unterende
+nds;Osterwoole Obernenne;Osterwald Oberende
+nds;Ostroe;Osterode am Harz
+de;Osterode am Harz;Osterode
+nds;Oosterholt-Scharmbeek;Osterholz-Scharmbeck
+frr;Uasterheewer;Osterhever
+nds;Oostereis;Ostereistedt
+de;Hansestadt Osterburg;Osterburg
+de;Osterburg (Altmark);Osterburg
+de;Hansestadt Osterburg (Altmark);Osterburg
+nds;Ostbiärm;Ostbevern
+hsb;Wóslink;Oßling
+nds;Ossenbrügge;Osnabrück
+nds;Oscherslewwe;Oschersleben
+hsb;Woseč;Oschatz
+hsb;Wótrań;Ortrand
+hsb;Psowje;Oppitz
+nds;Oppershusen;Oppershausen
+hsb;Wopaleń;Oppeln
+hsb;Wopaka;Oppach
+nds;Olmstä;Olvenstedt
+nds;Ulsebarg;Ölsburg
+nds;Ulseborg;Ölsburg
+nds;Öhlße;Oelerse
+de;Oldendorf (Luhe);Oldendorf
+fr;Oldenbourg en Holstein;Oldenburg in Holstein
+pt;Oldemburgo;Oldenburg in Holstein
+fr;Oldenbourg;Oldenburg
+nds;Ollnborg;Oldenburg
+es;Oldenburgo;Oldenburg
+frr;Oldenbörj;Oldenburg
+pt;Oldemburgo;Oldenburg
+de;Oldenburg (Oldenburg);Oldenburg
+de;Oehnböck;Öhnböck
+hsb;Hogrozna;Ogrosen
+nds;Offlee;Offleben
+fr;Offenbourg;Offenburg
+de;Offenbach am Main;Offenbach
+de;Frankfurt-Offenbach;Offenbach
+de;Oelsnitz im Vogtland;Oelsnitz
+de;Oelsnitz/Vogtl.;Oelsnitz
+hsb;Wólšynka;Oelsnig
+hsb;Wolešnica;Oelsa
+hsb;Wolešnica;Klein-Oelsa
+hsb;Wownjow;Oehna
+nds;Euesse;Oedesse
+nds;Eulzen;Oedelsheim
+nds;Oiltsen;Oedelsheim
+de;Odernheim am Glan;Odernheim
+de;Rabenau-Odenhausen;Odenhausen
+de;Öd;Oed
+frr;E Hoolme;Ockholm
+nds;OchtensIä;Ochtmersleben
+nds;Ochterßen;Ochtersum
+de;Hildesheim-Ochtersum;Ochtersum
+de;Ochtersum (Hildesheim);Ochtersum
+de;Oberweißbach/Thüringer Wald;Oberweißbach
+fr;Oberweissbach;Oberweißbach
+hsb;Horni Wunjow;Oberuhna
+nds;Uppershagen;Obershagen
+nds;Obershogen;Obershagen
+nds;Upperßogen;Obershagen
+hsb;Hornje Brusy;Ober Prauske
+hsb;Hornje Kotecy;Ober Kotitz
+hsb;Hornja Kina;Oberkaina
+nds;Overhus;Oberhausen
+de;Ober-Hainbrunn;Ober Hainbrunn
+de;Oberhaching bei München;Oberhaching
+hsb;Hornja Hórka;Obergurig
+hsb;Horni Droždźij;Oberdrehsa
+hsb;Horni Kumwałd;Obercunewalde
+fr;Nussloch;Nußloch
+de;Nußdorf a. Inn;Nußdorf am Inn
+pt;Nußdorf;Nußdorf am Inn
+de;Nußdorf (Chiemgau);Nußdorf
+en;Nußdorf (Chiemgau);Nußdorf
+es;Nuremberg;Nürnberg
+en;Nuremberg;Nürnberg
+fr;Nuremberg;Nürnberg
+it;Norimberga;Nürnberg
+nds;Nürnbarg;Nürnberg
+nl;Neurenberg;Nürnberg
+pt;Nuremberga;Nürnberg
+hsb;Nuknica;Nucknitz
+hsb;Nosaćicy;Nostitz
+hsb;Nosyn;Nossen
+nds;Nuurten;Northeim
+nds;Nörten-Harenbarg;Nörten-Hardenberg
+de;Nord Moslesfehn;Nordmoslesfehn
+nds;Lee;Nordleda
+nds;Nothoorn;Nordhorn
+nds;Noordholt;Nordholz
+lb;Wiesbaden-Nordenstadt;Nordenstadt
+nds;O’erborch;Nordburg
+hsb;Wochozy;Nochten
+lb;Nëttel;Nittel
+hsb;Něćin;Niethen
+hsb;Niska;Niesky
+hsb;Niža Wjes;Niesendorf
+nds;Nienhowwe;Nienhof
+nds;Nienhogen;Nienhagen
+it;Nienhagen (Bassa Sassonia);Nienhagen
+nl;Nienhagen (Nedersaksen);Nienhagen
+pt;Nienhagen (Baixa Saxônia);Nienhagen
+de;Nienburg/Weser;Nienburg
+fr;Nienburg/Weser;Nienburg
+nl;Nienburg/Weser;Nienburg
+nds;Nienborg;Nienburg
+pt;Nienburg/Weser;Nienburg
+de;Nienburg (Weser);Nienburg
+de;Nienburg (Saale);Nienburg/Saale
+hsb;Delni Wunjow;Niederuhna
+hsb;Delnje Brusy;Nieder Prauske
+nds;Nedderndo'lä;Niederndodeleben
+hsb;Delnje Kotecy;Nieder Kotitz
+hsb;Delnja Kina;Niederkaina
+hsb;Delnja Hórka;Niedergurig
+de;Niedergründau;Nieder-Gründau
+frr;Naibel;Niebüll
+frr;Njiblem;Nieblum
+hsb;Nowa Cala;Neuzelle
+hsb;Nowa Niwa;Neu Zauche
+nds;Vosshusen;Neu Wulmstorf
+de;Neu-Wulmstorf;Neu Wulmstorf
+hsb;Nowy Wuježk;Neuwuischke
+hsb;Nowa Łuka;Neuwiese
+de;Neuwarmbüchen;Neu Warmbüchen
+nds;Nienwarmböken [a. 1654];Neu Warmbüchen
+de;Neuwallmoden (Wallmoden);Neuwallmoden
+es;Nuevo Ulm;Neu-Ulm
+it;Nuova Ulma;Neu-Ulm
+hsb;Nowa Ćichońca;Neuteichnitz
+nds;Nieg Strelitz;Neustrelitz
+hsb;Nowa Šćeńca;Neu Steinitz
+fr;Neustadt en Holstein;Neustadt in Holstein
+nds;Niestadt in Holsteen;Neustadt in Holstein
+hsb;Nowe městačko;Neustädtel
+it;Neustadt b.Coburg;Neustadt bei Coburg
+de;Neustadt;Neustadt an der Weinstraße
+pt;Neustadt an der Weinstrasse;Neustadt an der Weinstraße
+it;Neustadt a.d.Waldnaab;Neustadt an der Waldnaab
+it;Neustadt a.d.Donau;Neustadt an der Donau
+nds;Niestadt;Neustadt am Rübenberge
+de;Neustadt am Rbge;Neustadt am Rübenberge
+de;Neustadt a. Main;Neustadt am Main
+de;Neustadt (Eichsfeld);Neustadt
+de;Neustadt (Am Ohmberg);Neustadt
+de;Neustadt i. Sa.;Neustadt in Sachsen
+de;Neustadt Vogtl.;Neustadt Vogtland
+de;Neustadt/Vogtl.;Neustadt Vogtland
+de;Neustadt/Vogtland;Neustadt Vogtland
+hsb;Nowe Spytecy;Neuspittwitz
+hsb;Nowy Skaskow;Neu Skaska
+hsb;Nowa Smělna;Neuschmölln
+hsb;Bušeńka;Neuschmerlitz
+hsb;Nowe Zdźarki;Neusärchen
+hsb;Nowosólc-Hródk;Neusalza-Spremberg
+nds;Reppin;Neuruppin
+hsb;Nowe Bóšicy;Neupuschwitz
+hsb;Nowe Poršicy;Neupurschwitz
+de;Neu Premslin;Neu-Premslin
+hsb;Wiki;Neupetershain Nord
+hsb;Nowe Wiki;Neupetershain
+hsb;Njeradk;Neuoppitz
+nds;Niemünster;Neumünster
+frr;Naimünster;Neumünster
+it;Neumarkt i.d.OPf.;Neumarkt in der Oberpfalz
+es;Brandeburgo Oriental;Neumark
+hsb;Nowe Małsecy;Neumalsitz
+hsb;Nowy Lubolń;Neuliebel
+hsb;Nowy Łusč;Neulauske
+hsb;Nowy Lubuš;Neu Laubusch
+hsb;Nowe Koporcy;Neu Kuppritz
+de;Neukuppritz;Neu Kuppritz
+hsb;Nowe Kubšicy;Neukubschütz
+de;Neukoppenbrück;Neu-Koppenbrück
+de;Neukönigsförde;Neu Königsförde
+hsb;Nowy Chołmc;Neukollm
+de;Neukirchen b.Hl.Blut;Neukirchen beim Heiligen Blut
+de;Neukirchen bei Heiligen Blut;Neukirchen beim Heiligen Blut
+de;Neukirchen;Neukirchen beim Heiligen Blut
+de;Neukirchen;Neukirchen am Teisenberg
+de;Neukirchen (Altmark);Neukirchen
+de;Neukirchen/Pleiße;Neukirchen
+de;Neukirchen-Haggn;Neukirchen
+fr;Neukirch;Neukirch/Lausitz
+hsb;Wjazońca;Neukirch/Lausitz
+pt;Neukirch;Neukirch/Lausitz
+hsb;Nowa Jaseńca;Neujeßnitz
+hsb;Nowy Hózk;Neu Hoske
+hsb;Nowy Dwór;Neuhof
+de;Neuhof (bei Fulda);Neuhof
+hsb;Kopańce;Neuhausen
+de;Neuhaus (Oste) Flecken;Neuhaus an der Oste
+de;Neuhaus (Oste);Neuhaus an der Oste
+nds;Nienhüsen;Neuhaus
+de;Neuhaus b. Seubersdorf;Neuhaus
+hsb;Nowy Hamor;Neuhammer
+de;Neugünterberg;Neu-Günterberg
+hsb;Nowe Jěžercy;Neugersdorf
+lb;Neierbuerg;Neuerburg
+nds;Niggenroe;Neuenrade
+de;Neuenmuhr (Muhr am See);Neuenmuhr
+de;Neuenlandersiel;Neuenlander Siel
+nds;Näinknick;Neuenknick
+nds;ˈneĭnknɪk [IPA];Neuenknick
+de;Vorwerk Neuenhoben;Neuenhoben
+de;Neuendorf Bei Wilster;Neuendorf
+hsb;Nowa Wjas;Neuendorf am See
+hsb;Nowa Wjas;Neuendorf
+nds;Nejendarp;Neuendorf
+es;Neuenburg del Rin;Neuenburg am Rhein
+de;Neuenbrunnen;Neuenbunnen
+hsb;Nowe Družkecy;Neudrauschkowitz
+hsb;Nowa Wjes;Neudorf Klösterlich
+hsb;Nowa Wjeska;Neudörfel
+hsb;Nowa Wjes;Neudorf
+hsb;Nowa Wjes/Sprjewja;Neudorf
+hsb;Nowe Demjany;Neudiehman
+hsb;Nowy Dubc;Neu-Daubitz
+hsb;Nowa Běła Góra;Neu-Byhleguhre
+pt;Neuburgo do Kammel;Neuburg an der Kammel
+fr;Neubourg-sur-le-Danube;Neuburg an der Donau
+it;Neuburg a.d.Donau;Neuburg an der Donau
+pt;Neuburgo do Danúbio;Neuburg an der Donau
+de;Neuburg am Inn;Neuburg
+en;Neuburg am Inn;Neuburg
+hsb;Nowa Bukojna;Neu Buchwalde
+nds;Nienbrigge;Neubrück
+nds;Nieenbrügge;Neubrück
+hsb;Nowe Bronjo;Neubrohna
+fr;Neubrandenbourg;Neubrandenburg
+es;Nuevo Brandeburgo;Neubrandenburg
+de;Neubörnsen;Neu-Börnsen
+hsb;Nowe Boranecy;Neubornitz
+hsb;Nowe Bobolcy;Neuboblitz
+hsb;Nowe Błohašecy;Neubloaschütz
+de;Dorf Nesow;Nesow Dorf
+hsb;Njeswačidło;Neschwitz
+hsb;Njeradecy;Neraditz
+hsb;Njezdašecy;Nedaschütz
+hsb;Njechorń;Nechern
+hsb;Njechań;Nechen
+de;Alt Necheln;Necheln
+fr;Nebra-sur-Unstrut;Nebra
+hsb;Njebjelčicy;Nebelschütz
+hsb;Nowoslicy;Naußlitz
+hsb;Njabožkojce;Naundorf
+hsb;Glinsk;Naundorf
+hsb;Nowa Wjes;Naundorf
+fr;Naumbourg;Naumburg
+nds;Naumborg;Naumburg
+es;Naumburgo;Naumburg
+de;Natrup-Hagen;Natrup Hagen
+de;Natrup (Hagen am Teutoburger Wald);Natrup Hagen
+hsb;Narć;Nardt
+hsb;Nadźanecy;Nadelwitz
+hsb;Myšyn;Müschen
+hsb;Myšecy;Muschelwitz
+nds;Munste;Munster
+nds;Mönster;Münster
+de;Münster / Nordrhein-Westf.;Münster
+de;Hann. Münden;Hannoversch Münden
+fr;Hann. Münden;Hannoversch Münden
+nl;Hann. Münden;Hannoversch Münden
+en;Münchhausen am Christenberg;Münchhausen
+pt;Münchhausen am Christenberg;Münchhausen
+de;Muenchen;München
+en;Munich;München
+es;Múnich;München
+fr;Munich;München
+it;Monaco di Baviera;München
+pt;Munique;München
+hsb;Mnichow;München
+rm;Minca;München
+hsb;Miłoraz;Müllrose
+hsb;Małksa;Mulknitz
+de;Mülheim an der Ruhr;Mülheim
+es;Mülheim an der Ruhr;Mülheim
+fr;Mülheim an der Ruhr;Mülheim
+nds;Mölm;Mülheim
+nl;Mülheim an der Ruhr;Mülheim
+de;Mülheim (Ruhr);Mülheim
+de;Muelheim an der Ruhr;Mülheim
+de;Mülheim an der Mosel;Mülheim
+de;Mühlheim;Mühlheim am Main
+hsb;Młynske chěže;Mühlhäuser
+de;Mühlhausen/Thüringen;Mühlhausen
+it;Mühlhausen/Thüringen;Mühlhausen
+de;Mühlberg/Elbe;Mühlberg
+it;Mühlberg/Elbe;Mühlberg
+nds;Mü'en;Müden
+de;Müden (Örtze);Müden
+nds;Mie'en;Müden
+de;Müden (Aller);Müden
+hsb;Mokra;Muckrow
+hsb;Mikow;Mücka
+hsb;Mortkow;Mortka
+de;Monheim;Monheim am Rhein
+hsb;Mnišonc;Mönchswalde
+de;Moncaprice;Ausbau Mon-Caprice
+hsb;Manjow;Mönau
+nds;Gemeen Mesborg;Moisburg
+de;Möhr;Hof Möhr
+hsb;Wuhelc;Moholz
+nds;Meurs;Moers
+nds;Möesse;Mödesse
+nds;Me'esse;Mödesse
+de;Möckowberg;Moeckow Berg
+hsb;Młoźe;Mlode
+hsb;Chudowina;Mittenwalde
+de;Mittelgründau;Mittel-Gründau
+de;Mittelbreese;Breese
+hsb;Pšyne;Missen
+nds;Minn;Minden
+hsb;Miłoćicy;Miltitz
+hsb;Jitro;Milstrich
+hsb;Miłkecy;Milkwitz
+hsb;Minakał;Milkel
+frr;Melst;Mildstedt
+hsb;Michałki;Michalken
+nds;Maenfelle;Meyenfeld
+nds;Meyenfelle;Meyenfeld
+fr;Messkirch;Meßkirch
+es;Messkirch;Meßkirch
+en;Messkirch;Meßkirch
+de;Messdorf;Meßdorf
+hsb;Mješicy;Meschwitz
+hsb;Žylowk;Merzdorf
+fr;Mersebourg;Merseburg
+hsb;Mjezybor;Merseburg
+hsb;Měrkow;Merka
+nds;Mennen;Menden
+nds;Meldörp;Meldorf
+hsb;Měrjow;Melaune
+de;Meißen;Meissen
+es;Meißen;Meissen
+fr;Meißen;Meissen
+it;Misnia;Meissen
+nl;Meißen;Meissen
+pt;Meißen;Meissen
+hsb;Mišno;Meissen
+nds;Maanßen;Meinersen
+nds;Maanße;Meinersen
+nds;Meinße;Meinersen
+nds;Mānße;Meinersen
+de;Meierbusch;Maierbusch
+de;Mehring (Oberbayern);Mehring
+hsb;Lubjenc;Mehltheuer
+nds;Märdörp;Meerdorf
+nds;Meerdorp;Meerdorf
+hsb;Mjedźojz;Medewitz
+nds;Mechtsen;Mechtersen
+hsb;Hus;Maust
+hsb;Mučnica;Mauschwitz
+hsb;Mučow;Maukendorf
+hsb;Matyjojce;Mattendorf
+hsb;Mašow;Massen
+nds;Mattfeld;Martfeld
+de;Marktl am Inn;Marktl
+hsb;Husoka;Märkischheide
+hsb;Serbski Bukojc;Märkisch Buchholz
+de;Marienstein (Nörten-Hardenberg);Marienstein
+nds;Marjenbórn;Marienborn
+hsb;Margarećina hěta;Margaretenhütte
+de;Marburg;Marburg an der Lahn
+en;Marburg;Marburg an der Lahn
+es;Marburgo;Marburg an der Lahn
+fr;Marbourg;Marburg an der Lahn
+nl;Marburg;Marburg an der Lahn
+pt;Marburgo;Marburg an der Lahn
+de;Marbostel bei Soltau;Marbostel
+de;Marbostel Wietzendorf;Marbostel
+de;Marbostel bei Wietzendorf;Marbostel
+es;Marbach de Neckar;Marbach am Neckar
+de;Mansfeld-Lutherstadt;Mansfeld
+hsb;Malećicy;Maltitz
+hsb;Malešecy;Malschwitz
+de;Bad Malente;Malente
+de;Malente / Schleswig-Holst.;Malente
+es;Maguncia;Mainz
+fr;Mayence;Mainz
+it;Magonza;Mainz
+pt;Mogúncia;Mainz
+hsb;Mohuč;Mainz
+rm;Magonza;Mainz
+hsb;Majberk;Maiberg
+es;Magdeburgo;Magdeburg
+fr;Magdebourg;Magdeburg
+it;Magdeburgo;Magdeburg
+nds;Meideborg;Magdeburg
+nl;Maagdenburg;Magdeburg
+pt;Magdeburgo;Magdeburg
+frr;Magdebörj;Magdeburg
+hsb;Dźěwin;Magdeburg
+nds;Madeborch;Magdeburg
+hsb;Módłej;Madlow
+nds;Maxen;Machtsum
+nds;Mackßen;Machtsum
+frr;Moosbel;Maasbüll
+lb;Lëtschkampen;Lützkampen
+de;Luttringhausen (Barsinghausen);Luttringhausen
+hsb;Lutobč;Luttowitz
+nds;Lutter am Barje;Lutter am Barenberge
+nds;Lutter an Barenbarge;Lutter am Barenberge
+nds;Lutter an’n Thune;Lutter
+hsb;Łupjanska Dubrawka;Luppedubrau
+hsb;Łupoj;Luppa
+nds;Luunst;Lunestedt
+es;Luneburgo;Lüneburg
+fr;Lunebourg;Lüneburg
+it;Luneburgo;Lüneburg
+nds;Lümborg;Lüneburg
+hsb;Glain;Lüneburg
+pt;Luneburgo;Lüneburg
+nds;Lüll;Lüllau
+hsb;Łuh;Luga
+es;Ludwigshafen;Ludwigshafen am Rhein
+fr;Ludwigshafen;Ludwigshafen am Rhein
+it;Ludwigshafen sul Reno;Ludwigshafen am Rhein
+pt;Ludwigsburgo;Ludwigsburg
+fr;Ludwigsbourg;Ludwigsburg
+es;Luisburgo;Ludwigsburg
+nds;Lünkhusen;Lüdinghausen
+nds;Lünsche;Lüdenscheid
+de;Luckau (Wendland);Luckau
+hsb;Łukow;Luckau
+de;Lüchow (Wendland);Lüchow
+es;Lubeca;Lübeck
+it;Lubecca;Lübeck
+nds;Gemeen Lübbs;Lübberstedt
+de;Lübbenau/Spreewald;Lubnjow
+it;Lübbenau/Spreewald;Lubnjow
+de;Lübbenau;Lubnjow
+hsb;Lubnjow/Błota;Lubnjow
+de;Lübben;Lubin
+hsb;Lubin (Błota);Lubin
+hsb;Lubochow;Lubachau
+nds;Gemeen Lox;Loxstedt
+frr;Jöömst;Löwenstedt
+de;Lossburg;Loßburg
+de;Losheim am See;Losheim
+hsb;Lešawa;Löschau
+nds;Loorpe;Lorup
+en;Loerrach;Lörrach
+de;Lorch am Rhein;Lorch
+de;Rabenau-Londorf;Londorf
+hsb;Łomsk;Lomske
+hsb;Hłomač;Lommatzsch
+hsb;Lemišow;Lömischau
+hsb;Łaz;Lohsa
+en;Lohr a. Main;Lohr am Main
+de;Lohne (Oldenburg);Lohne
+de;Lohma (Langenleuba-Niederhain);Lohma
+de;Lohma (Schmölln);Lohma
+de;Hamburg-Lohbrügge;Lohbrügge
+hsb;Łahow;Loga
+hsb;Lěźiny;Loeschen
+nds;Lockstee;Lockstedt
+hsb;Łoboźice;Lobendorf
+hsb;Lubij;Löbau
+de;Konstanz-Litzelstetten;Litzelstetten
+hsb;Lětoń;Litten
+hsb;Złyčin;Litschen
+de;List auf Sylt;List
+en;List auf Sylt;List
+hsb;Lipič;Lippitsch
+hsb;Lipiny;Lippen
+de;Lingen (Ems);Lingen
+de;Försterei Lindhorst;Lindhorst
+de;Lindern (Oldenburg);Lindern
+de;Erfurt-Linderbach;Linderbach
+de;Lindenberg im Allgäu;Lindenberg
+hsb;Lindow;Lindchen
+es;Limburgo del Lahn;Limburg an der Lahn
+it;Limburgo sulla Lahn;Limburg an der Lahn
+hsb;Limbark;Limberg
+nds;Leendaal;Lilienthal
+hsb;Lěska;Lieske
+hsb;Lěskej;Lieske
+hsb;Lěsk;Lieskau
+nds;Laie;Liedingen
+hsb;Liboń;Liebon
+hsb;Luboraz;Lieberose
+nds;Läiwenah;Liebenau
+nds;leĭvənɔː [IPA];Liebenau
+hsb;Lubnjow;Liebenau
+hsb;Lubhozdź;Liebegast
+hsb;Swětłe;Lichterfeld
+de;Lichtenstein-Callnberg;Lichtenstein
+de;Lichtenfels / Bayern;Lichtenfels
+hsb;Swětła;Lichtenberg
+hsb;Lichtnow;Lichtenau
+de;Lichtenau bei Chemnitz;Lichtenau
+hsb;Lutyjecy;Leutwitz
+de;Leutkirch im Allgäu;Leutkirch
+hsb;Lutol;Leuthen
+de;Vorwerk Leppin;Leppin
+de;Leonberg / Baden-Württemb.;Leonberg
+de;Lenz;Lenz-Nord
+de;Vorwerk Lentenau;Neu Lentenau
+nds;Lemge;Lemgo
+de;Lemförde Flecken;Lemförde
+hsb;Lěsnik;Leisnig
+it;Lipsia;Leipzig
+pt;Lípsia;Leipzig
+hsb;Lipsk;Leipzig
+hsb;Lipoj;Leippe
+hsb;Lipinki;Leipgen
+de;Linden;Leihgestern
+nds;Leiffer;Leiferde
+nds;Leifer;Leiferde
+de;Lehnin;Kloster Lehnin
+hsb;Lejno;Lehndorf
+hsb;Lejno;Lehn
+hsb;Lědy;Lehde
+hsb;Lask;Leeskow
+hsb;Lěwałd;Lawalde
+hsb;Łuwoćicy;Lautitz
+de;Lauterbach / Hessen;Lauterbach
+de;Lauter-Bernsbach;Lauter
+it;Lauter/Sa.;Lauter
+nl;Lauter/Sa.;Lauter
+hsb;Łuty;Lauta
+hsb;Łužnica;Laußnitz
+hsb;Łusč;Lauske
+hsb;Łusk;Lauske
+hsb;Łužyca;Lausitz
+de;Laufen (Salzach);Laufen
+nds;Lauenbrüch;Lauenbrück
+hsb;Łuchow;Lauchhammer
+de;Laucha an der Unstrut;Laucha
+hsb;Luchow;Laucha
+hsb;Lubuš;Laubusch
+hsb;Lubošc;Laubst
+hsb;Libanojce;Laubsdorf
+nds;Luffhütte;Laubhütte
+hsb;Łazk;Laske
+de;Langweid am Lech;Langweid
+de;Langwedel Flecken;Langwedel
+lb;Laser;Langsur
+nds;Langeln;Langlingen
+nds;Langenweddich;Langenweddingen
+nds;Langweddich;Langenweddingen
+frr;E Hoorne;Langenhorn
+nds;Langenhogen;Langenhagen
+en;Langeness;Langeneß
+frr;A Nääs;Langeneß
+fr;Langenbourg;Langenburg
+en;Landau;Landau in der Pfalz
+fr;Landau;Landau in der Pfalz
+nds;Gemeen Loomst;Lamstedt
+de;Jetzendorf-Lampertshausen;Lampertshausen
+de;Lahr/Schwarzwald;Lahr
+fr;Lahr/Schwarzwald;Lahr
+it;Lahr/Schwarzwald;Lahr
+nl;Lahr/Schwarzwald;Lahr
+frr;Låålönj;Ladelund
+de;Laberg;Ammersbek-Laberg
+hsb;Łaz;Laasow
+de;Laak;Laack
+hsb;Kinič;Kynitzsch
+nds;Kutenhult;Kutenholz
+de;Küsserow Hof;Küsserow-Hof
+de;Seiffen/Erzgeb.;Seiffen
+de;Kurort Seiffen/Erzgeb.;Seiffen
+de;Oybin;Kurort Oybin
+en;Oberwiesenthal;Kurort Oberwiesenthal
+de;Oberwiesenthal;Kurort Oberwiesenthal
+hsb;Koporcy;Kuppritz
+hsb;Kumšicy;Kumschütz
+hsb;Kinajcht;Kühnicht
+de;Marienberg-Kühnhaide;Kühnhaide
+hsb;Groźc;Kückebusch
+hsb;Kubšicy;Kubschütz
+de;Krughütte;Krughuette
+hsb;Dubrawa;Krugau
+hsb;Kropnja;Kroppen
+hsb;Křiwa Boršć;Kronförstchen
+de;Kronberg im Taunus;Kronberg
+hsb;Kromola;Kromlau
+hsb;Króńca;Krinitz
+hsb;Krynhelecy;Kringelsdorf
+hsb;Kśimnice;Krimnitz
+hsb;Kśišow;Krieschow
+hsb;Krěpjecy;Kriepitz
+hsb;Dołha Boršć-Wuchod;Förstgen-Ost
+nds;Kreinssen;Kreiensen
+nds;Kreepm;Kreepen
+hsb;Krakecy;Kreckwitz
+hsb;Chrjebja;Kreba
+hsb;Krušwica;Krauschwitz
+hsb;Chrapow;Krappe
+nds;Kraienwinkel;Krähenwinkel
+hsb;Koćina;Kotten
+hsb;Kotecy;Kotitz
+hsb;Kósojce;Koßwig
+de;Koserow/Insel Usedom;Koserow
+hsb;Kózło;Koselbruch
+hsb;Kózło;Kosel
+hsb;Kóšnojce;Koschendorf
+de;Korntal-Münchingen;Korntal
+hsb;Kopšin;Kopschin
+hsb;Kopac;Koppatz
+es;Constanza;Konstanz
+fr;Constance;Konstanz
+it;Costanza;Konstanz
+pt;Constança;Konstanz
+hsb;Parsk;Königs Wusterhausen
+hsb;Rakecy;Königswartha
+hsb;Kralowc;Königstein
+de;Königstein (Oberpfalz);Königstein
+de;Bad Königshofen;Bad Königshofen im Grabfeld
+hsb;Kralowski haj;Königshain
+de;Königsfeld;Königsfeld im Schwarzwald
+de;Kloster Königsbronn;Königsbronn
+fr;Abbaye de Königsbronn;Königsbronn
+nl;Abdij Königsbronn;Königsbronn
+de;Königsberg;Königsberg in Bayern
+hsb;Górjenow;Komptendorf
+hsb;Pipanojce;Kolonie Jänschwalde
+hsb;Prizaŕske Bórkowy;Kolonie
+de;Kolonie;Rathlau Kolonie
+en;Cologne;Köln
+es;Colonia;Köln
+fr;Cologne;Köln
+it;Colonia;Köln
+nl;Keulen;Köln
+pt;Colônia;Köln
+hsb;Chołm;Kollm
+hsb;Gołkojce;Kolkwitz
+frr;Koolnbütel;Koldenbüttel
+nds;Kombüddel;Koldenbüttel
+hsb;Kołpica;Kolbitz
+hsb;Kołwaz;Kohlwesa
+de;Kohler-Berg;Köhler
+hsb;Kodrecy;Kodersdorf
+hsb;Kochanojce;Kochsdorf
+nds;Köchich;Köchingen
+nds;Köchig;Köchingen
+hsb;Koblicy;Koblenz
+fr;Coblence;Koblenz
+it;Coblenza;Koblenz
+pt;Coblença;Koblenz
+es;Coblenza;Koblenz
+hsb;Kobjelin;Köbeln
+hsb;Hórnikecy;Knappenrode
+de;Klüß;Kluess
+lb;Wiesbaden-Kloppenheim;Kloppenheim
+frr;Klasbel;Klixbüll
+hsb;Klukš;Klix
+hsb;Klětno;Klitten
+de;Kleve;Kleve (Steinburg)
+es;Cléveris;Kleve
+fr;Clèves;Kleve
+nl;Kleef;Kleve
+pt;Cleves;Kleve
+hsb;Klěśišća;Klettwitz
+de;Vorwerk Klenz;Klenz
+hsb;Mały Ćisk;Klein Zeißig
+hsb;Mały Wjelkow;Kleinwelka
+nds;Littjen Wanzlä;Klein Wanzleben
+de;Zuckerdorf Klein Wanzleben;Klein Wanzleben
+nds;Lüttjen Sulschen;Klein Solschen
+nds;Lütschen Sulschen;Klein Solschen
+hsb;Žičenk;Kleinseitschen
+hsb;Zajdow;Kleinseidau
+hsb;Zubornička;Kleinsaubernitz
+hsb;Małe Radměrcy;Kleinradmeritz
+hsb;Radšowk;Klein Radisch
+hsb;Radyńc;Klein Radden
+de;Klein Quern;Kleinquern
+hsb;Přibuzk;Klein Priebus
+hsb;Mała Praha;Kleinpraga
+hsb;Bójswecy;Kleinpostwitz
+hsb;Bjezdowy;Klein Partwitz
+hsb;Wóseńck;Klein Oßnig
+hsb;Mała Nydej;Klein Neida
+hsb;Změšowk;Klein Mehßow
+hsb;Lutolk;Klein Leuthen
+hsb;Małe Linje;Klein Leine
+hsb;Chójnička;Klein Kunitz
+de;Kleinkunitz;Klein Kunitz
+hsb;Košynka;Kleinkoschen
+hsb;Małe Jenkecy;Kleinjenkwitz
+hsb;Małe Jamne;Klein Jamno
+de;Kleinholzhausen;Kleinholzen
+de;Klein Hasslow;Klein Haßlow
+hsb;Mały Wosyk;Kleinhänchen
+de;Grabow;Klein Grabow
+nds;Lütschen Glei;Klein Gleidingen
+de;Kleingischau;Klein Gischau
+nds;Littjen Garmslä;Klein Germersleben
+hsb;Mała Huska;Kleingaußig
+hsb;Mały Gósćeraz;Klein Gastrose
+de;Klein Garnholt;Klein Grauholt
+hsb;Gogolowk;Klein Gaglow
+de;Klein-Fulkum;Klein Fulkum
+nds;Lüttjenfüeste;Klein Förste
+nds;Lütschen  Füerste;Klein Förste
+hsb;Mała Boršć;Kleinförstchen
+nds;Lüttjen Eikeln;Klein Eicklingen
+nds;Lüttschen Ederße;Klein Eddesse
+hsb;Mała Dubrawa;Kleindubrau
+hsb;Małe Debsecy;Kleindöbschütz
+hsb;Małe Dobrynje;Klein Döbbern
+hsb;Dažink;Kleindehsa
+nds;Lüttje Boorwee;Kleinburgwedel
+hsb;Přezdrěńk;Kleinbrösern
+hsb;Mały Přezdrěń;Kleinbrösern
+de;Klein Brodersby;Klein-Brodersby
+hsb;Buchojc;Klein Beuchow
+hsb;Budyšink;Kleinbautzen
+hsb;Małe Bóžemysle;Klein Bademeusel
+lb;Wiesbaden-Klarenthal;Klarenthal
+frr;Klangsbel;Klanxbüll
+hsb;Dłopje;Kittlitz
+hsb;Ketlicy;Kittlitz
+fr;Kisslegg;Kißlegg
+hsb;Korzym;Kirschau
+nds;Karkwals;Kirchwalsede
+de;Schwarzholz-Kirche;Kirch-Polkritz
+nds;Karklinteln;Kirchlinteln
+nds;Kerkhost;Kirchhorst
+de;Kirchheim (Hessen);Kirchheim
+de;Kirchdorf an der Amper;Kirchdorf
+de;Erlbach-Kirchberg;Kirchberg
+pt;Erlbach-Kirchberg;Kirchberg
+fr;Erlbach-Kirchberg;Kirchberg
+en;Erlbach-Kirchberg;Kirchberg
+it;Erlbach-Kirchberg;Kirchberg
+es;Erlbach-Kirchberg;Kirchberg
+nl;Erlbach-Kirchberg;Kirchberg
+de;Kirchberg (Hunsrück);Kirchberg
+de;Kirchberg vorm Wald;Kirchberg
+frr;Kil;Kiel
+hsb;Kibuš;Kiekebusch
+nds;Kevern;Kevelaer
+hsb;Chójna;Keune
+hsb;Kij;Keula
+hsb;Kulowc;Keula
+de;Ketzin/Havel;Ketzin
+fr;Ketzin/Havel;Ketzin
+it;Ketzin/Havel;Ketzin
+nl;Ketzin/Havel;Ketzin
+fr;Essen-Kettwig;Kettwig
+de;Rabenau-Kesselbach;Kesselbach
+de;Kempten;Kempten (Allgäu)
+hsb;Kamjeny;Kemmen
+de;Kell am See;Kell
+frr;Kairem;Keitum
+hsb;Kupoj;Kauppa
+hsb;Kupy;Kaupen
+hsb;Kočica;Katschwitz
+hsb;Kótłow;Kathlow
+nl;Markt Kastl;Kastl
+fr;Cassel;Kassel
+hsb;Kašecy;Kaschwitz
+hsb;Košla;Kaschel
+en;Karlstadt am Main;Karlstadt
+fr;Karlstadt-sur-le-Main;Karlstadt
+nl;Karlstadt am Main;Karlstadt
+pt;Karlstadt am Main;Karlstadt
+de;Vorwerk Karlshöhe;Karlshöhe
+nds;Korlshoawen;Bad Karlshafen
+de;Kappeln / Schleswig-Holst.;Kappeln
+hsb;Konopotna;Cantdorf
+hsb;Kamjenc;Kamenz
+nds;Kool'nwei'e;Kaltenweide
+nds;Kolenwie;Kaltenweide
+nds;Kolenweie;Kaltenweide
+nds;Kolenkarken;Kaltenkirchen
+nds;Koldenkarken;Kaltenkirchen
+hsb;Kałkojce;Kalkwitz
+de;Kalbe (Milde);Kalbe
+en;K-Town;Kaiserslautern
+hsb;Kózle;Kahsel
+hsb;Kórjeń;Kahren
+hsb;Wóškalawa;Kahnsdorf
+hsb;Kokrjow;Kackrow
+nl;Ulm-Jungingen;Jungingen
+de;Seebad Juliusruh;Juliusruh
+fr;Juliers;Jülich
+nds;Gemeen Jörk;Jork
+hsb;Jeńšecy;Johnsdorf
+hsb;Jatřob;Jetscheba
+hsb;Jaty;Jethe
+nds;Gemeen Jesborg;Jesteburg
+hsb;Jaseńca;Jeßnitz
+hsb;Jaseń;Jessen
+hsb;Ješicy;Jeschütz
+hsb;Jěžow;Jesau
+hsb;Jěrchecy;Jerchwitz
+hsb;Jenkecy;Jenkwitz
+fr;Iéna;Jena
+hsb;Jazorki;Jehserig
+hsb;Jažyn;Jehschen
+hsb;Jawora;Jauer
+hsb;Janšojce;Jänschwalde
+hsb;Janecy;Jannowitz
+hsb;Němske Jenkecy;Jänkendorf
+hsb;Jemjelnica;Jamlitz
+hsb;Jamno;Jahmen
+de;Isny im Allgäu;Isny
+nds;Iserlaun;Iserlohn
+hsb;Wjerto;Werda
+hsb;Wostašecy;Irgersdorf
+en;Ingelheim;Ingelheim am Rhein
+hsb;Njamorojce;Illmersdorf
+nds;Gemeen Helmworth;Ihlienworth
+lb;Wiesbaden-Igstadt;Igstadt
+nds;Ickhost;Ickhorst
+de;Worms-Ibersheim;Ibersheim
+de;Ibbenbüren;Ibbenbueren
+nds;Hüttenroe;Hüttenrode
+frr;Hüsem;Husum
+nds;Huiptsche;Hüpede
+de;Hude (Oldenburg);Hude
+nds;Hüddessen;Hüddessum
+nds;Höäßen;Hüddessum
+hsb;Wojerecy;Hoyerswerda
+hsb;Wórjejce;Hoyerswerda
+nds;Hoitenslewwe;Hötensleben
+hsb;Hózk;Hoske
+hsb;Hóznja;Hosena
+nds;Host;Horst
+hsb;Hóršow;Horscha
+frr;Hörnem;Hörnum
+nds;Langenbrauk;Hörkamp-Langenbruch
+hsb;Hórki;Horka
+nds;Hürn;Hörden
+de;Hörden am Harz;Hörden
+de;Horb bei Fürth am Berg;Horb
+nds;Hönnerßen;Hönnersum
+de;Homberg (Efze);Homberg
+en;Homberg (Efze);Homberg
+de;Homberg an der Ohm;Homberg
+de;Homberg (Ohm);Homberg
+en;Homberg (Ohm);Homberg
+nds;Holtsminne;Holzminden
+de;Holssel;Holßel
+hsb;Holešowska Dubrawka;Holschdubrau
+hsb;Holešow;Holscha
+nds;Gemeen Hullnst;Hollenstedt
+de;Hohnstorf (Elbe);Hohnstorf
+nds;Hohnbossel;Hohnebostel
+de;Bergen-Hohne;Hohne
+nds;Hohnernde;Hohne
+de;Hohengöhrener Damm;Hohengöhren-Damm
+nds;Ho’endo’lä;Hohendodeleben
+nds;Dolä;Hohendodeleben
+de;Hohenböken;Hohenböcken
+hsb;Bukow;Hohenbocka
+hsb;Wudwor;Höflein
+hsb;Dwórc;Hof
+de;ˈhoːtmaʀ [IPA];Hoetmar
+de;Hochstraße;Hochstrasse
+de;Höchstadt;Höchstadt an der Aisch
+hsb;Bukecy;Hochkirch
+hsb;Želnjojce;Hindenberg
+nds;Himmelpoorten;Himmelpforten
+de;Hilter (Ems);Hilter
+nds;Hilmessen;Hildesheim
+de;Herzberg (Elster);Herzberg
+nds;Hiätten;Herten
+hsb;Ochranow;Herrnhut
+hsb;Hermanecy;Hermsdorf
+de;Diemelsee-Heringhausen;Heringhausen
+nds;Hiarwede;Herford
+nl;Witten-Herbede;Herbede
+de;Heppenheim (Bergstraße);Heppenheim an der Bergstrasse
+nds;Gemeen Hemmoor;Hemmoor
+nds;Helmstidde;Helmstedt
+nds;Helmestidde;Helmstedt
+nds;Helmestee;Helmstedt
+nds;Heetel;Heitlingen
+nds;Häiteln;Heitlingen
+hsb;Šenki;Heinrichsfeld
+hsb;Móst;Heinersbrück
+de;Hattorf-Heiligendorf;Heiligendorf
+de;Heidkamp-Land;Heidkamp
+de;Heidkamp-Lamp;Heidkamp
+de;Heidesheim am Rhein;Heidesheim
+fr;Heidenheim;Heidenheim an der Brenz
+en;Heidenheim;Heidenheim an der Brenz
+pt;Heidenheim;Heidenheim an der Brenz
+pt;Heidelberga;Heidelberg
+nds;Heidelbarg;Heidelberg
+pt;Edelberga;Heidelberg
+nds;Heid;Heide
+de;Buchholz Heide;Buchholz-Heide
+nds;Heeßel;Heeslingen
+de;Hedersleben (Eisleben);Hedersleben
+de;Hedersleben (Mansfelder Land);Hedersleben
+nds;Gemeen Heckthusen;Hechthausen
+nds;Hawelsche;Havelse
+nds;Havelje;Havelse
+hsb;Wukecy;Hausdorf
+de;Hauröden (Bischofferode);Hauröden
+frr;Haatstinger Määrsch;Hattstedtermarsch
+frr;Haatst;Hattstedt
+nds;Hattorp;Hattorf
+de;Hassel (Weser);Hassel
+nds;Hoase;Hasede
+nds;Haase;Hasede
+nds;Harße;Harvesse
+de;Hartmannsdorf;Hartmanojce
+de;Vorderhartenthal;Hartenthal
+nds;Hassen;Harsum
+nds;Harsfeld;Harsefeld
+de;Harpstedt Flecken;Harpstedt
+hsb;Harnišojce;Harnischdorf
+de;Haren (Ems);Haren
+pt;Harburgo;Harburg
+en;Hanover;Hannover
+es;Hanóver;Hannover
+fr;Hanovre;Hannover
+nds;Hannober;Hannover
+pt;Hanôver;Hannover
+nds;Hannauver;Hannover
+nds;Hannower;Hannover
+nds;Hähnsen;Hänigsen
+de;'Kasperland';Hänigsen
+de;Uetze-Hänigsen;Hänigsen
+nds;Handörp;Handeloh
+hsb;Hajnk;Hänchen
+de;Hanau;Hanau am Main
+en;Hanau;Hanau am Main
+fr;Hanau;Hanau am Main
+nl;Hanau;Hanau am Main
+es;Hanau;Hanau am Main
+hsb;Hamoršć;Hammerstadt
+nds;Hammoh;Hammah
+es;Hamelín;Hameln
+en;Hamelin;Hameln
+fr;Hamelin;Hameln
+it;Hamelin;Hameln
+nl;Hamelen;Hameln
+pt;Hamelin;Hameln
+nds;Hämlerweohle;Hämelerwald
+nds;Hammerwohle;Hämelerwald
+nds;up'n Wohle;Hämelerwald
+es;Hamburgo;Hamburg
+fr;Hambourg;Hamburg
+it;Amburgo;Hamburg
+nds;Hamborg;Hamburg
+pt;Hamburgo;Hamburg
+frr;Hambörj;Hamburg
+nds;Gemeen Hambargen;Hambergen
+de;Haltern in Westfalen;Haltern am See
+de;Halle (Westfalen);Halle
+de;Halle (Westf.);Halle
+de;Halle;Halle (Saale)
+en;Halle;Halle (Saale)
+es;Halle;Halle (Saale)
+fr;Halle;Halle (Saale)
+it;Halle sul Saale;Halle (Saale)
+nds;Halle;Halle (Saale)
+nl;Halle;Halle (Saale)
+pt;Halle an der Saale;Halle (Saale)
+de;Halle / Sachsen-Anhalt;Halle (Saale)
+nds;Halslä;Haldensleben I
+de;Haldensleben;Haldensleben I
+nds;Halverstidde;Halberstadt
+hsb;Brězowka;Halbendorf
+hsb;Połpica;Halbendorf
+de;Halbendorf/Spree;Halbendorf
+hsb;Wbohow;Halbendorf
+de;Halbendorf/Gebirge;Halbendorf
+hsb;Hajnicy;Hainitz
+nds;Heinhus;Hainhaus
+hsb;Wosečk;Hähnichen
+nds;Gemeen Hagen;Hagen im Bremischen
+de;Hagen-Beckerode;Hagen
+de;Hagen am Teutoburger Wald;Hagen
+nds;Biekero'e;Hagen
+de;Hagen a.T.W.;Hagen
+en;Hagen am Teutoburger Wald;Hagen
+nds;Hoimerslä;Hadmersleben
+de;Haar bei München;Haar
+nds;Jeem;Gyhum
+hsb;Hućina;Guttau
+es;Gunzburgo;Günzburg
+fr;Guntzbourg;Günzburg
+pt;Gunzburgo;Günzburg
+hsb;Hunćericy;Günthersdorf
+de;Stadt Güntersberge;Güntersberge
+hsb;Góry;Guhrow
+hsb;Hora;Guhra
+de;Gühlen Glienicke;Gühlen-Glienicke
+hsb;Haj;Grünbusch
+hsb;Radworski Haj;Grünbusch
+de;Greuwang;Gruiwang
+hsb;Hrubjelčicy;Grubschütz
+hsb;Jama;Grube
+hsb;Hruboćicy;Grubditz
+de;Grub b. Roding;Grub
+hsb;Groźišco;Grötsch
+de;Grosszerlang;Großzerlang
+de;Groß-Werdum;Groß Werdum
+hsb;Wulki Wjelkow;Großwelka
+de;Großweiglareuth;Grossweiglareuth
+de;Großviert;Groß Viert
+de;Gross Vielen;Groß Vielen
+de;Gross Toitin;Groß Toitin
+de;Gross Stresow;Groß-Stresow
+de;Gross-Stresow;Groß-Stresow
+nds;Groten Solschen;Groß Solschen
+nds;Gruten Sulschen;Groß Solschen
+nds;Grudensulschen;Groß Solschen
+de;Gross Siemen;Groß Siemen
+hsb;Swóńca;Großschweidnitz
+de;Gross Schwechten;Groß Schwechten
+de;Gross Schoritz;Groß Schoritz
+es;Grossschönau;Großschönau
+hsb;Tšěšojce;Groß Schacksdorf
+hsb;Zubornica;Groß Saubernitz
+hsb;Wulke Zdźary;Groß Särchen
+hsb;Wulke Rědorjecy;Großröhrsdorf
+hsb;Mukrań;Großräschen
+hsb;Rań;Großräschen
+hsb;Radšow;Groß Radisch
+de;Gross Raden;Groß Raden
+hsb;Radyń;Groß Radden
+it;Großpostwitz/Oberlausitz;Großpostwitz
+hsb;Budestecy;Großpostwitz
+hsb;Wjeliki Wóseńk;Groß Oßnig
+hsb;Nydej;Groß Neida
+de;Grossmenow;Großmenow
+hsb;Změšow;Groß Mehßow
+de;Groß Meckelsen;Gross Meckelsen
+de;Gross Lukow;Groß Lukow
+hsb;Łojow;Groß Luja
+hsb;Lubolce;Lubolz
+hsb;Lubń;Groß Lübbenau
+de;Gross Linde;Groß Linde
+hsb;Lutol;Groß Leuthen
+de;Lafferde;Groß Lafferde
+nds;Gruden Laffer;Groß Lafferde
+nds;Gruten Laffer;Groß Lafferde
+nds;Laffer;Groß Lafferde
+de;Gross Labenz;Groß Labenz
+hsb;Chójnica;Groß Kunitz
+fr;Gross Kreutz;Groß Kreutz
+hsb;Košyna;Großkoschen
+fr;Grosskorbetha;Großkorbetha
+hsb;Klěšow;Groß Klessow
+hsb;Jazory;Groß Jehser
+hsb;Jamne;Groß Jamno
+nds;Gruten Ilse;Groß Ilsede
+nds;Grud’n Ilse;Groß Ilsede
+nds;Groothansdörp;Großhansdorf
+hsb;Wulki Wosyk;Grosshänchen
+de;Gross Görnow;Groß Görnow
+nds;Groten-Goltern;Großgoltern
+nds;Groten Glei;Groß Gleidingen
+de;Gischau;Groß Gischau
+de;Großgischau;Groß Gischau
+nds;Groten Garmslä;Groß Germersleben
+fr;Gross-Gerau;Groß-Gerau
+hsb;Wjeliki Gósćeraz;Groß Gastrose
+hsb;Gogolow;Groß Gaglow
+de;Gross Fullen;Groß Fullen
+nds;Greoten Füerste;Groß Förste
+de;Gross Flotow;Groß Flotow
+de;Groß-Felda;Groß Felda
+de;Großfelda;Groß Felda
+de;Grossenwede;Großenwede
+hsb;Wulki Hojn;Großenhain
+de;Buseck;Großen Buseck
+de;Großenbrode;Grossenbrode
+de;Gross Eilstorf;Groß Eilstorf
+nds;Groten Eikeln;Groß Eicklingen
+hsb;Wulka Dubrawa;Großdubrau
+hsb;Dźěwin;Groß Düben
+hsb;Debsecy;Großdöbschütz
+hsb;Wjelike Dobrynje;Groß Döbbern
+hsb;Dažin;Großdehsa
+de;Gross Daberkow;Groß Daberkow
+nds;Groten Boorwee;Großburgwedel
+de;Gross Buchholz;Groß Buchholz
+hsb;Přezdrěń;Großbrösern
+de;Groß Brodersby;Groß-Brodersby
+hsb;Rjasnik;Briesnig
+de;Großbodungen (Am Ohmberg);Großbodungen
+hsb;Buchow;Groß Beuchow
+hsb;Wjelike Bóžemysle;Groß Bademeusel
+nds;Groinich;Gröningen
+hsb;Hrodźišćo;Gröditz
+frr;A Grööd;Gröde
+hsb;Grěšna;Grießen
+de;Bad Griesbach im Rottal;Bad Griesbach
+es;Greifswald;Universitäts- und Hansestadt Greifswald
+en;Greifswald;Universitäts- und Hansestadt Greifswald
+de;Greifswald;Universitäts- und Hansestadt Greifswald
+fr;Greifswald;Universitäts- und Hansestadt Greifswald
+nds;Griepswohld;Universitäts- und Hansestadt Greifswald
+nl;Greifswald;Universitäts- und Hansestadt Greifswald
+de;Greifswald / Vorpommern;Universitäts- und Hansestadt Greifswald
+hsb;Maliń;Greifenhain
+nds;Grebensteen;Grebenstein
+hsb;Syjk;Graustein
+nds;Gemeen Grasbarg;Grasberg
+hsb;Hrańca;Gränze
+hsb;Granow;Grano
+nl;Grafing bij München;Grafing bei München
+nds;Groafeln;Grafelde
+nds;Grafeln;Grafelde
+es;Gotinga;Göttingen
+it;Gottinga;Göttingen
+nds;Chöttingen;Göttingen
+pt;Gotinga;Göttingen
+pt;Gota;Gotha
+de;Gösslow;Gößlow
+hsb;Gózd;Gosda
+hsb;Gózdź;Gosda
+hsb;Zhorjelc;Görlitz
+hsb;Zgórjelc;Görlitz
+hsb;Chórice;Göritz
+hsb;Gólišyn;Golßen
+hsb;Gólašow;Golschow
+hsb;Chańc;Göllmitz
+hsb;Holca;Golenz
+hsb;Górki;Göhrick
+nds;Goodshu'ern;Godshorn
+nds;Gudszurn;Godshorn
+hsb;Hodźij;Göda
+hsb;Kobjelń;Göbeln
+hsb;Hnašecy;Gnaschwitz
+nds;Gemeen Gnarrenborg;Gnarrenburg
+de;Glücksburg (Ostsee);Glücksburg
+hsb;Hłušina;Glossen
+hsb;Glinsk;Glinzig
+nds;Glinn;Glinde
+de;Glinde;Kronsburg-Glinde
+hsb;Hlina;Gleina
+hsb;Hłuchow;Glauchau
+hsb;Hłupońca;Glaubnitz
+es;Giessen;Gießen
+en;Giessen;Gießen
+fr;Giessen;Gießen
+de;Giesenlage;Giesenslage
+de;Giesendorf;Giesensdorf
+nds;Chieselwerder;Gieselwerder
+nds;Gemeen Geversdörp;Geversdorf
+nds;Gievelsbiärg;Gevelsberg
+nds;Gaiseke;Geseke
+de;Gersbach;Gersbach (Satteldorf)
+de;Gersbach;Gersbach (Schopfheim)
+de;Gersbach im Schwarzwald;Gersbach (Schopfheim)
+nl;Gernrode am Harz;Gernrode
+hsb;Korecy;Georgewitz
+de;Georgenthal/Thüringer Wald;Georgenthal
+nds;Gelsenkiärken;Gelsenkirchen
+it;Gheldria;Geldern
+nl;Gelre;Geldern
+en;Guelders;Geldern
+es;Güeldres;Geldern
+fr;Gueldre;Geldern
+hsb;Chitań;Geithain
+hsb;Kislica;Geißlitz
+de;Rabenau-Geilshausen;Geilshausen
+hsb;Lejno;Geierswalde
+de;Gehrden bei Hannover;Gehrden
+hsb;Hbjelsk;Gebelzig
+de;Gaußig;Huska
+nds;Garlä;Gardelegen
+de;Garching bei München;Garching
+nds;Olengarbsen;Garbsen
+hsb;Gołynk;Gallinchen
+hsb;Garjej;Gahry
+hsb;Gółyn;Gahlen
+hsb;Jabłońc;Gablenz
+de;Furtwangen im Schwarzwald;Furtwangen
+en;Furtwangen im Schwarzwald;Furtwangen
+fr;Furtwangen im Schwarzwald;Furtwangen
+nl;Furtwangen im Schwarzwald;Furtwangen
+de;Fürstenwalde/Spree;Fürstenwalde
+it;Fürstenwalde/Spree;Fürstenwalde
+de;Fürstenberg/Havel;Fürstenberg
+nds;Försnau;Fürstenau
+nds;Fuhrbarg;Fuhrberg
+de;Fröndenberg/Ruhr;Fröndenberg
+it;Fröndenberg/Ruhr;Fröndenberg
+nds;Aithe;Friesoythe
+nds;Frielje;Frielingen
+frr;Friedrich-Wilhelm-Lübke-Kuuch;Friedrich-Wilhelm-Lübke-Koog
+frr;Fräärstää;Friedrichstadt
+de;Friedrichsfleiss;Friedrichsfleiß
+hsb;Bryland;Friedland
+hsb;Bjedrichecy;Friedersdorf
+nds;Freborg;Friedeburg
+de;Freyburg (Unstrut);Freyburg
+nds;Frellsdorpermöhlen;Frelsdorf
+de;Freissenbüttel;Freißenbüttel
+es;Frisinga;Freising
+it;Frisinga;Freising
+pt;Frisinga;Freising
+de;Vorwerk Freienstein;Freienstein
+de;Freiburg im Breisgau;Freiburg
+en;Freiburg im Breisgau;Freiburg
+es;Friburgo de Brisgovia;Freiburg
+fr;Fribourg-en-Brisgau;Freiburg
+it;Friburgo in Brisgovia;Freiburg
+nl;Freiburg im Breisgau;Freiburg
+pt;Freiburg im Breisgau;Freiburg
+de;Freiburg/Elbe;Freiburg (Elbe) Flecken
+fr;Freiburg/Elbe;Freiburg (Elbe) Flecken
+it;Freiburg/Elbe;Freiburg (Elbe) Flecken
+nds;Freiborg;Freiburg (Elbe) Flecken
+pt;Freiberga;Freiberg
+de;Fredeburg;Bad Fredeburg
+lb;Wiesbaden-Frauenstein;Frauenstein
+hsb;Dubrawka;Frauendorf
+de;Hof Frauenberg;Frauenberg
+it;Francoforte;Frankfurt am Main
+es;Francfort;Frankfurt am Main
+es;Fráncfort del Meno;Frankfurt am Main
+en;Frankfurt;Frankfurt am Main
+fr;Francfort-sur-le-Main;Frankfurt am Main
+nds;Frankfort an'n Main;Frankfurt am Main
+nds;Frankfort an’n Main;Frankfurt am Main
+rm;Frankfurt;Frankfurt am Main
+it;Francoforte sul Meno;Frankfurt am Main
+de;Frankfurt/Main;Frankfurt am Main
+es;Frankfurt;Frankfurt am Main
+de;Frankfurt;Frankfurt am Main
+de;Frankfurt an der Oder;Frankfurt (Oder)
+es;Fráncfort;Frankfurt (Oder)
+es;Fráncfort del Odra;Frankfurt (Oder)
+de;Frankfurt;Frankfurt (Oder)
+es;Fráncfort del Óder;Frankfurt (Oder)
+en;Frankfurt;Frankfurt (Oder)
+fr;Francfort-sur-l'Oder;Frankfurt (Oder)
+it;Francoforte sull'Oder;Frankfurt (Oder)
+nds;Frankfort an de Oder;Frankfurt (Oder)
+nl;Frankfurt an der Oder;Frankfurt (Oder)
+pt;Frankfurt an der Oder;Frankfurt (Oder)
+de;Frankfurt/Oder;Frankfurt (Oder)
+de;Frankenberg/Sa.;Frankenberg
+it;Frankenberg/Sa.;Frankenberg
+hsb;Dołha Boršć;Förstgen
+de;Forst (Lausitz);Forst
+hsb;Baršć (Łužyca);Forst
+de;Forst (Baden-Württemberg);Forst
+de;Forchheim / Bayern;Forchheim
+de;Forchheim b. Freystadt;Forchheim
+de;Gross Flöte;Groß Flöte
+de;Flörsheim am Main;Flörsheim
+nds;Flettmer;Flettmar
+it;Flensburgo;Flensburg
+nds;Flensborg;Flensburg
+fr;Flensbourg;Flensburg
+es;Flensburgo;Flensburg
+frr;Flensborag;Flensburg
+hsb;Długi;Fleißdorf
+de;Fischendorf (Dorfmark);Fischendorf
+de;Fischbach am Inn;Fischbach
+de;Fischbach (Friedrichshafen);Fischbach
+hsb;Grabin;Finsterwalde
+de;Beelitz Ortsteil Fichtenwalde;Fichtenwalde
+de;Beelitz (Mark) OT Fichtenwalde;Fichtenwalde
+de;Fiwa;Fichtenwalde
+de;Feldkirchen / Münch. Uml.;Feldkirchen
+frr;Feesholm;Fehsholm
+hsb;Prjawoz;Fehrow
+nds;Bad Fambossel;Bad Fallingbostel
+de;Falkenstein/Vogtland;Falkenstein
+nds;Eidelstee;Eydelstedt
+nds;Evershost;Evershorst
+nds;Miärsebiärg;Eversberg
+hsb;Jitk;Eutrich
+hsb;Jiłocy;Eulowitz
+hsb;Wiłow;Eulo
+de;Esslingen am Neckar;Esslingen
+en;Esslingen am Neckar;Esslingen
+nds;Esekhousen;Essinghausen
+de;Essen (Oldenburg);Essen
+nds;Espelkämpe;Espelkamp
+hsb;Wósliča hora;Eselsberg
+de;Raabestadt Eschershausen;Eschershausen
+de;Eschershausen (Uslar);Eschershausen
+nds;Erschüsen;Ershausen
+hsb;Śerpšow;Erpitz
+hsb;Wólšyna;Erlenau
+de;Erkershofen;Erggertshofen
+hsb;Jarobrod;Erfurt
+en;Erbach im Odenwald;Erbach
+hsb;Kača Korčma;Entenschänke
+nds;Iämpedal;Ennepetal
+de;Eningen;Eningen unter Achalm
+de;St. Englmar;Sankt Englmar
+nds;Engelbossel;Engelbostel
+nds;Emhusen;Emtinghausen
+en;Emmerich am Rhein;Emmerich
+de;Emmerich am Rhein;Emmerich
+nl;Emmerik;Emmerich
+fr;Emmerich am Rhein;Emmerich
+es;Emmerich am Rhein;Emmerich
+nl;Emmelkamp;Emlichheim
+nds;Emmelkamp;Emlichheim
+nds;Emm’n;Emden
+de;Emden (Altenhausen);Emden
+de;Wedemark-Elze;Elze
+de;Elze (Wedemark);Elze
+de;Eltville am Rhein;Eltville
+hsb;Wikow;Elsterwerda
+de;Stadtbezirk Elsen;Elsen
+de;Ellrich / Thüringen;Ellrich
+de;Ellersell (Colbitz);Ellersell
+de;Ellerbrook;Ellerbrock
+frr;Elisabeth-Sophien-Kuuch;Elisabeth-Sophien-Koog
+nds;Elljeroe;Elbingerode
+de;Eislingen/Fils;Eislingen
+it;Eislingen/Fils;Eislingen
+nl;Eislingen/Fils;Eislingen
+hsb;Njeznarowy;Eiserode
+nds;Iesenhüttenstadt;Eisenhüttenstadt
+nds;Iesenack;Eisenach
+de;Wartburgstadt;Eisenach
+nds;Eisdorp;Eisdorf am Harz
+hsb;Stańšojce;Eisdorf
+nds;Aimbeck;Einbeck
+de;Eilsdorf (Huy);Eilsdorf
+nds;Ailsdörp;Eilsdorf
+hsb;Jiłow;Eilenburg
+nds;Eikeln;Eicklingen
+de;Eickhorst (Vordorf);Eickhorst
+nds;Eikhost;Eickhorst
+de;Eickendorf (Oebisfelde-Weferlingen);Eickendorf
+nds;Eikendorp;Eickendorf
+nds;Endingendörp;Eickendorf
+de;Eickendorf (Bördeland);Eickendorf
+de;Eichstedt (Altmark);Eichstedt
+hsb;Dubje;Eichow
+de;Eichenried bei Erding;Eichenried
+hsb;Jiwow;Eibau
+nds;Ehlershusen;Ehlershausen
+de;Ehingen an der Donau;Ehingen
+de;Egge (Aerzen);Egge
+nds;Egestörp;Egestorf
+de;Egestorf (Deister);Egestorf
+nds;Estörp;Egestorf
+nds;Estörpe;Egestorf
+nds;Äjeln;Egeln
+nds;Erwech;Edewecht
+nds;Emisse;Edemissen
+nds;Ederße;Eddesse
+nds;Eckernföör;Eckernförde
+de;Mainz-Ebersheim;Ebersheim
+hsb;Bělšecy;Ebendörfel
+de;Dußlingen;Dusslingen
+nds;Düsseldörp;Düsseldorf
+en;Duesseldorf;Düsseldorf
+hsb;Wěteńca;Dürrwicknitz
+hsb;Suche Hendrichecy;Dürrhennersdorf
+de;Dürrenhofe;Dwóry
+hsb;Dyrbach;Dürrbach
+es;Duisburgo;Duisburg
+nds;Duisborg;Duisburg
+pt;Duisburgo;Duisburg
+fr;Duisbourg;Duisburg
+frr;Duisbörj;Duisburg
+nds;Dustadt;Duderstadt
+hsb;Dubrjenk;Dubring
+hsb;Dubrawka;Dubrauke
+hsb;Dubrawa;Dubrau
+de;Druchhorn;Durchhorn
+de;Drosendorf a. Eggerbach;Drosendorf am Eggerbach
+nds;Draulsen;Drolshagen
+nds;Drochters;Drochtersen
+hsb;Droby;Droben
+hsb;Drjejce;Drewitz
+hsb;Drječin;Dretschen
+es;Dresde;Dresden
+fr;Dresde;Dresden
+it;Dresda;Dresden
+hsb;Drježdźany;Dresden
+frr;Trölstrup;Drelsdorf
+hsb;Drěwcy;Driewitz
+hsb;Tři Žony;Dreiweibern
+hsb;Tři Hwězdy;Dreistern
+hsb;Haslow;Dreikretscham
+hsb;Horni Hajnk;Dreihäuser
+hsb;Droždźij;Drehsa
+hsb;Tranje;Drehna
+de;Dreessel;Dreeßel
+hsb;Drjowk;Drebkau
+hsb;Družkecy;Drauschkowitz
+nds;Drangst;Drangstedt
+hsb;Daški;Döschko
+nds;Dörbern;Dörverden
+nds;Düörpm;Dortmund
+nds;Dössen;Dorsten
+de;Dornach bei München;Dornach
+hsb;Němcy;Dörgenhausen
+nds;Deerpmark;Dorfmark
+de;Donauwoerth;Donauwörth
+hsb;Domašojce;Domsdorf
+nds;Dööms;Dömitz
+nds;Döms;Dömitz
+nds;Daumerschläh;Domersleben
+de;Vorwerk Dollgen;Dolgen
+hsb;Dołgi;Dollgen
+nds;Dollbarge;Dollbergen
+nds;Dollbargen;Dollbergen
+hsb;Dołhaćicy;Dolgowitz
+hsb;Donin;Dohna
+hsb;Delany;Döhlen
+nds;Döhl;Döhle
+hsb;Debiškow;Döbschke
+hsb;Dobranecy;Dobranitz
+hsb;Debricy;Döbra
+hsb;Dobrošicy;Doberschütz
+hsb;Dobrošecy;Doberschütz
+hsb;Dobruša;Doberschau
+de;Döbern;Derbno
+hsb;Dobrjoług-Góstkow;Doberlug-Kirchhain
+hsb;Debrikecy;Döberkitz
+hsb;Doblin;Döbeln
+hsb;Depsk;Döbbrick
+hsb;Dešank;Dissenchen
+hsb;Dešno;Dissen
+es;Dilinga;Dillingen an der Donau
+de;Flecken Diesdorf;Diesdorf
+nds;Deefholt;Diepholz
+hsb;Dźěže;Diehsa
+hsb;Demjany;Diehmen
+it;Diedorf/Rhön;Diedorf
+nds;Diekhost;Dieckhorst
+nds;De'esse;Didderse
+hsb;Němske Pazlicy;Deutschbaselitz
+frr;Tjootern;Detern
+de;Detern Flecken;Detern
+de;Dessau-Roßlau;Dessau
+en;Dessau-Roßlau;Dessau
+fr;Dessau-Roßlau;Dessau
+nds;Denstorp;Denstorf
+hsb;Dźenikecy;Denkwitz
+hsb;Zemicy-Tumicy;Demitz-Thumitz
+nds;Demost;Delmenhorst
+hsb;Delič;Delitzsch
+nds;Deins;Deinstedt
+nds;Deinst;Deinste
+de;Deggenhausertal;Deggenhausen
+frr;Deesbel;Deezbüll
+nds;Danhüsen;Dedenhausen
+nds;Deinhusen;Dedenhausen
+hsb;Dubc;Daubitz
+hsb;Dubo;Dauban
+lb;Doosber;Dasburg
+nds;Dalliero;Darlingerode
+hsb;Torońca;Daranitz
+nds;Dannenbarg;Dannenberg
+de;Dalldorf (Suhlendorf);Dalldorf
+de;Dalldorf (Leiferde);Dalldorf
+lb;Doleeden;Daleiden
+nds;Dahrenhost;Dahrenhorst
+de;Uetze-Dahrenhorst;Dahrenhorst
+hsb;Dalicy;Dahlowitz
+hsb;Dalic;Dahlitz
+de;Dahlenburg (Flecken);Dahlenburg
+de;Dahlenburg Flecken;Dahlenburg
+frr;Doogebel;Dagebüll
+nds;Dachmissen;Dachtmissen
+de;Daasdorf a. Berge;Daasdorf am Berge
+nds;Cuxhoben;Cuxhaven
+frr;Cuxhuuwen;Cuxhaven
+nl;Cux;Cuxhaven
+hsb;Konjecy;Cunnewitz
+hsb;Hlinka;Cunnersdorf
+hsb;Kumwałd;Cunewalde
+hsb;Chójany;Kunersdorf
+hsb;Chrósćicy;Crostwitz
+hsb;Chróstawa;Crostau
+hsb;Chróst;Crosta
+hsb;Krynica;Crinitz
+hsb;Kšupow;Craupe
+hsb;Chóśebuz;Cottbus
+hsb;Choćebuz;Cottbus
+hsb;Kosarnja;Cossern
+hsb;Chortnica;Cortnitz
+hsb;Komorow;Commerau
+hsb;Chelno;Cölln
+nds;Koosfeld;Coesfeld
+es;Coburgo;Coburg
+pt;Coburgo;Coburg
+fr;Cobourg;Coburg
+it;Coburgo;Coburg
+hsb;Koblicy;Coblenz
+nds;Cloppenborg;Cloppenburg
+de;Clenze Flecken;Clenze
+hsb;Kamjenica;Chemnitz
+hsb;Koslow;Caßlau
+hsb;Kozarcy;Caseritz
+hsb;Kózle;Casel
+hsb;Karlecy;Karlsdorf
+de;Cappeln (Oldenburg);Cappeln
+hsb;Skanecy;Cannewitz
+hsb;Chanecy;Cannewitz
+hsb;Konjecy;Canitz-Christina
+hsb;Kamjenej;Caminau
+hsb;Kamjenej;Camina
+hsb;Chemberk;Callenberg
+nds;Kalberloa;Calberlah
+de;Calbe an der Saale;Calbe
+de;Calau;Kalawa
+nds;Kumbarg;Cadenberge
+hsb;Kobłej;Cabel
+hsb;Bělin;Byhlen
+nds;Gemeen Buxthu;Buxtehude
+hsb;Bucyn;Butzen
+nds;Büsen;Büsum
+de;Bismark-Büste;Büste
+de;Büsingen am Hochrhein;Büsingen
+hsb;Bóšericy;Buscheritz
+nds;Gemeen Burweg;Burweg
+hsb;Porchow;Burkau
+hsb;Bórk;Burk
+hsb;Nowa Wjes;Burgneudorf
+hsb;Bórkhamor;Burghammer
+nds;Bortärpe;Burgdorf
+nds;Borchdörp;Burgdorf
+nds;Bortörp;Burgdorf
+de;Burgdorf (Region Hannover);Burgdorf
+en;Burgdorf, Hanover;Burgdorf
+de;Burgberg im Allgäu;Burgberg
+de;Burg (Celle);Burg
+nds;Borg;Burg
+hsb;Bórkowy;Burg
+de;Burg (Spreewald);Burg
+hsb;Bórkowy (Błota);Burg
+hsb;Wobsedne Bórkowy;Burg
+hsb;Bórk;Burg
+de;Bungbergshof;Bungsberghof
+nds;Gemeen Bülkau;Bülkau
+hsb;Bukonica;Bukonitza
+hsb;Běła;Bühlow
+en;Buedelsdorf;Büdelsdorf
+hsb;Bukow;Buckow
+de;Bücken Flecken;Bücken
+pt;Buckeburgo;Bückeburg
+nds;Bückeborch;Bückeburg
+hsb;Bukojna;Buchwalde
+nds;Gemeen Bookholt;Buchholz in der Nordheide
+de;Buchholz (Aller);Buchholz
+hsb;Křišow;Buchholz
+nds;Brünneln;Bründeln
+de;Bruck i.d. OPf.;Bruck
+nds;Brooksen-Vilsen;Bruchhausen-Vilsen
+de;Bruch (Aerzen);Bruch
+hsb;Brětnja;Bröthen
+hsb;Brězynka;Brösang
+hsb;Brězyna;Brösa
+de;Brome Flecken;Brome
+hsb;Bronjo;Brohna
+hsb;Brodkojce;Brodtkowitz
+de;Gut Bröddin;Bröddin
+nds;Brookel;Brockel
+nds;Bräukel;Bröckel
+nds;Breukel;Bröckel
+nds;Brobargen;Brobergen
+hsb;Brěžki;Brischko
+nds;Brailen;Brilon
+hsb;Brězecy;Brießnitz
+hsb;Brjazki;Brieske
+hsb;Brězk;Brieske
+hsb;Brězynka;Briesing
+hsb;Brjazyna;Briesensee
+hsb;Brjazyna nad jazorom;Briesensee
+hsb;Brjaze;Briesen
+nds;Brüne;Breuna
+hsb;Brězyna;Bresina
+nds;Gemeen Bremervöör;Bremervörde
+de;Bremer Reihe;Bremerreihe
+nds;Bremerhoben;Bremerhaven
+frr;Bremerhuuwen;Bremerhaven
+de;Kreisfreie Stadt Bremerhaven;Bremerhaven
+fr;Brême;Bremen
+it;Brema;Bremen
+es;Brema;Bremen
+hsb;Brema;Bremen
+frr;Brääklem;Breklum
+de;Breitungen/Werra;Breitungen
+it;Breitungen/Werra;Breitungen
+pt;Breitungen/Werra;Breitungen
+hsb;Wujezd;Breitendorf
+de;Breitbrunn a. Chiemsee;Breitbrunn am Chiemsee
+fr;Vieux-Brisach;Breisach am Rhein
+en;Breisach;Breisach am Rhein
+pt;Breisach;Breisach am Rhein
+de;Breunetsried;Breinetsried
+hsb;Brěmjo;Brehmen
+frr;Bräist;Bredstedt
+nds;Bräckfelle;Breckerfeld
+lb;Wiesbaden-Breckenheim;Breckenheim
+es;Brunswick;Braunschweig
+fr;Brunswick;Braunschweig
+nds;Bronswiek;Braunschweig
+hsb;Brunšwik;Braunschweig
+en;Brunswick;Braunschweig
+hsb;Brjazynka;Bräsinchen
+hsb;Rogeńc;Branitz
+fr;Brandebourg-sur-la-Havel;Brandenburg an der Havel
+it;Brandeburgo sulla Havel;Brandenburg an der Havel
+lb;Brandenburg un der Havel;Brandenburg an der Havel
+nds;Brannenborg an de Havel;Brandenburg an der Havel
+de;Brake;Brake (Unterweser)
+de;Brake;Brake (Bielefeld)
+hsb;Brama;Brahmow
+frr;Brääderep;Braderup
+frr;Brääđerep;Braderup
+de;Braak bei Hamburg;Braak
+de;Boxberg/O.L.;Boxberg
+it;Boxberg/O.L.;Boxberg
+nl;Boxberg/Oberlausitz;Boxberg
+hsb;Hamor;Boxberg
+nds;Bottendörp;Bottendorf
+nds;Bothfeele;Bothfeld
+nds;Bootfelle;Bothfeld
+nds;Buessen;Borsum
+nds;Buassen;Borsum
+de;Borstel (Neustadt am Rübenberge);Borstel
+de;Auetal-Borstel;Borstel
+de;Borstel (Auetal);Borstel
+nds;Bossel;Borstel
+nds;Bornstee;Bornstedt
+nds;Bǫrnstē;Bornstedt
+de;Bornstedt (Hohe Börde);Bornstedt
+hsb;Borno;Borna
+nds;Buorken;Borken
+nds;Bentreike;Borgentreich
+pt;Bona;Bonn
+nds;Bolzen;Bolzum
+hsb;Bólašojce;Bolschwitz
+en;Bollschweil Priory;Bollschweil
+lb;Bollenduerf;Bollendorf
+hsb;Bolborcy;Bolbritz
+de;Boizenburg/Elbe;Boizenburg
+it;Boizenburg/ Elbe;Boizenburg
+nl;Boizenburg/Elbe;Boizenburg
+frr;Bååmst;Bohmstedt
+de;Bad Bodenteich;Bodenteich
+de;Bodenteich [< a. 1998];Bodenteich
+nds;Bonndiek;Bodenteich
+de;Bodenstein (Wallmoden);Bodenstein
+nds;Bosteine;Bodenstein
+nds;Bossteine;Bodenstein
+nds;Bostáinə;Bodenstein
+nds;Buenste;Bodenstedt
+de;Bodenburg (Bad Salzdetfurth);Bodenburg
+nds;Boddenborch;Bodenburg
+nds;Boddənbórch;Bodenburg
+nds;Beifelle;Bödefeld
+nds;Böenstäe;Böddenstedt
+nds;Bȫənstǟə;Böddenstedt
+nds;bøːənstɛːə;Böddenstedt
+de;Böddenstedt (Suderburg);Böddenstedt
+de;Böddenstedt (Salzwedel);Böddenstedt
+de;Bockenheim an der Weinstraße;Bockenheim
+nds;Bokeln;Bockenem
+hsb;Bukowka;Bocka
+nds;Baukem;Bochum
+nds;Bokelt;Bocholt
+hsb;Bobolce;Boblitz
+hsb;Bobolcy;Boblitz
+hsb;Bluń;Bluno
+hsb;Brězow;Blösa
+hsb;Błobošojce;Bloischdorf
+hsb;Błohašecy;Bloaschütz
+nds;Bliersdörp;Bliedersdorf
+nds;Blenner;Blender
+de;Bleiche (Niedere Börde);Bleiche
+de;Bleiche (Samswegen) [< a. 2004];Bleiche
+en;Blaubeuren Abbey;Blaubeuren
+de;Blankenfelde-Mahlow;Blankenfelde
+lb;Béibreg;Bitburg
+es;Bitburgo;Bitburg
+nds;Gemeen Bissen;Bispingen
+de;Bismark (Altmark);Bismark
+hsb;Biskopicy;Bischofswerda
+de;Bischofferode (Am Ohmberg);Bischofferode
+hsb;Wótšowc;Bischdorf
+hsb;Brězyšćo;Birkenrode
+hsb;Brjazynka;Birkenhainchen
+hsb;Brěza;Birkau
+hsb;Bónjecy;Binnewitz
+fr;Bingen-Am-Rhein;Bingen am Rhein
+nds;Billerbiëk;Billerbeck
+de;Biesendahlsdorf;Biesendahlshof
+nds;Bier;Bierde
+nds;Gemeen Bienbüddel;Bienenbüttel
+de;Am;Bielenberg
+nds;Builefeld;Bielefeld
+hsb;Běła;Biehla
+hsb;Njacyna;Biebersdorf
+fr;Biberach;Biberach an der Riß
+en;Biberach an der Riss;Biberach an der Riß
+de;Biberach, Baden;Biberach
+nds;Gemeen Beverst;Beverstedt
+nds;Bemro'e;Bevenrode
+de;Bettmar (Vechelde);Bettmar
+de;Bettmar (Schellerten);Bettmar
+hsb;Batromjecy;Berthelsdorf
+hsb;Njedźichow;Bernsdorf
+de;Bernried / Bayer. Wald;Bernried
+de;Bernried am Starnberger See;Bernried
+de;Bad Berneck;Berneck
+fr;Bernbourg;Bernburg
+de;Bernau;Bernau bei Berlin
+it;Berlino;Berlin
+nl;Berlijn;Berlin
+pt;Berlim;Berlin
+nds;Biärgkoamen;Bergkamen
+de;Berggießhübel;Berggiesshübel
+fr;Bergen en Rügen;Bergen auf Rügen
+de;Bergen;Bergen auf Rügen
+de;Bergen bei Rügen;Bergen auf Rügen
+de;Bergen (Niedersachsen);Bergen
+hsb;Hory;Bergen
+hsb;Zahor;Berge
+de;Berg b. Thanstein;Berg
+de;Berg am Starnberger See;Berg
+nds;Bi'ernbossel;Berenbostel
+nds;Biernbossel;Berenbostel
+de;Bentstreek;Brentstreek
+de;Bensen (Hessisch Oldendorf);Bensen
+nds;Bennsen;Bensen
+nds;Gemeen Belen;Belum
+hsb;Běłośin;Belten
+nds;Belsdörp;Belsdorf
+hsb;Bělecy;Bellwitz
+hsb;Běła Hora;Belgern
+de;Beienrode (Königslutter);Beienrode
+de;Beienrode (Gleichen);Beienrode
+de;Coppenbrügge-Behrensen;Behrensen
+de;Behrensen (Coppenbrügge);Behrensen
+nds;Beiernsen;Behrensen
+nds;Birendzen;Behrensen
+nds;Birensen;Behrensen
+de;Behrensen (Moringen);Behrensen
+hsb;Bezkow;Beeskow
+de;Spargelstadt Beelitz;Beelitz
+nds;Beilen;Beelen
+hsb;Bjedrusk;Bederwitz
+nds;Biäkem;Beckum
+nds;Beekdörp;Beckdorf
+de;Bechhofen an der Heide;Bechhofen
+nds;bɔːbm̩;Baven
+nds;Bǻbm̥;Baven
+nds;Baben;Baven
+de;Baven (Landkreis Celle);Baven
+de;Hermannsburg-Baven;Baven
+hsb;Budyšin;Bautzen
+hsb;Budyšyn;Bautzen
+hsb;Batowk;Bathow
+nds;Bassen;Bassum
+nds;Basdaal;Basdahl
+hsb;Bošecy;Baschütz
+hsb;Bozankecy;Basankwitz
+hsb;Bjerwałd;Bärwalde
+hsb;Bart;Baruth
+nds;Baschehusen;Barsinghausen
+de;Basche;Barsinghausen
+nds;Baarnstrup;Barnstorf
+de;Barnstorf (Wolfsburg);Barnstorf
+de;Barnstorf (Uehrde);Barnstorf
+nds;Barlää;Barleben
+de;Bargfeld (Gerdau);Bargfeld
+de;Bargfeld (Eldingen);Bargfeld
+nds;Baarnborg;Barenburg
+de;Barenburg Flecken;Barenburg
+hsb;Barbuk;Bärenbrück
+nds;Bewick;Bardowick
+de;Bansin;Bansin-Dorf
+pt;Bansin;Bansin-Dorf
+en;Bansin;Bansin-Dorf
+it;Bansin;Bansin-Dorf
+es;Bansin;Bansin-Dorf
+rm;Bansin;Bansin-Dorf
+nl;Bansin;Bansin-Dorf
+fr;Bansin;Bansin-Dorf
+lb;Bansin;Bansin-Dorf
+nds;Bansin;Bansin-Dorf
+it;Bamberga;Bamberg
+nds;Bambarg;Bamberg
+nds;Bahrdorp;Bahrdorf
+nds;Bårdorp;Bahrdorf
+hsb;Bobošojce;Bahnsdorf
+hsb;Bageńc;Bagenz
+nds;Twüschenahn;Bad Zwischenahn
+de;Bahnhof Bad Wilsnack;Bad Wilsnack
+nds;Sebarg;Bad Segeberg
+hsb;Žandow;Bad Schandau
+hsb;Zarow;Bad Saarow
+it;Bad Neustadt a.d.Saale;Bad Neustadt an der Saale
+hsb;Mužakow;Bad Muskau
+de;Bad Münder;Bad Münder am Deister
+hsb;Rukow;Bad Liebenwerda
+de;Bad Lauterberg;Bad Lauterberg im Harz
+nds;Ibig;Bad Iburg
+en;Bad Homburg;Bad Homburg vor der Höhe
+it;Bad Homburg;Bad Homburg vor der Höhe
+nds;Bad Harzborch;Bad Harzburg
+nds;Ganderssen;Bad Gandersheim
+de;Bad Frankenhausen/Kyffhäuser;Bad Frankenhausen
+it;Bad Frankenhausen/Kyffhäuser;Bad Frankenhausen
+nl;Bad Frankenhausen/Kyffhäuser;Bad Frankenhausen
+pt;Boll;Bad Boll
+de;Bergzabern;Bad Bergzabern
+en;Bad Bergzaben;Bad Bergzabern
+de;Bächingen;Bächingen an der Brenz
+de;Bachhauserwies;Bachhauserfilz
+hsb;Bobow;Babow
+nds;Ax;Axstedt
+hsb;Wučkecy;Auschkowitz
+hsb;Dolań;Ausbau Dollan
+hsb;Wuricy;Auritz
+nds;Auerk;Aurich
+frr;Auerk;Aurich
+hsb;Huraz;Auras
+de;Aurach (Bayern);Aurach
+de;Augsdorf (Gerbstedt);Augsdorf
+es;Augsburgo;Augsburg
+fr;Augsbourg;Augsburg
+it;Augusta;Augsburg
+pt;Augsburgo;Augsburg
+frr;Augsbörj;Augsburg
+de;Augsburg-Innenstadt;Augsburg
+de;Au bei Freiburg;Au
+en;Au (Schwarzwald);Au
+de;Niederau;Au
+de;Atzendorf (Staßfurt);Atzendorf
+nds;Oasel;Asel
+nds;Ascherslebbe;Aschersleben
+fr;Aschaffenbourg;Aschaffenburg
+en;A-Burg;Aschaffenburg
+de;Aschaffenburg / Bayern;Aschaffenburg
+de;Artern/Unstrut;Artern
+it;Artern/Unstrut;Artern
+pt;Artern/Unstrut;Artern
+nds;Orpke;Arpke
+hsb;Warnoćicy;Arnsdorf
+nds;Arensperg;Arnsberg
+de;Kap Arkona;Arkona
+en;Cape Arkona;Arkona
+fr;Kap Arkona;Arkona
+nl;Kaap Arkona;Arkona
+es;Cabo Arkona;Arkona
+nds;Arbke;Arbketal
+nds;Obbens;Apensen
+de;Flecken Apenburg;Apenburg
+nds;Aap;Apen
+nds;Aop'larn;Apelern
+de;Anger (Berchtesgadener Land);Anger
+hsb;Hlinowc;Thonberg
+de;Seestraße;Am See
+de;Amedorf (Neustadt am Rübenberge);Amedorf
+de;Neustadt-Amedorf;Amedorf
+de;Alvesse (Edemissen);Alvesse
+de;Edemissen-Alvesse;Alvesse
+de;Alvesse (Vechelde);Alvesse
+nds;Alwesse;Alvesse
+hsb;Stara Niwa-Wózwjerch;Alt Zauche-Wußwerk
+nds;Warmbeuken;Altwarmbüchen
+de;Alt Wallmoden (Wallmoden);Alt Wallmoden
+nds;Altenbringensen;Altmerdingsen
+hsb;Stary Lubij;Altlöbau
+de;Hirschstein;Althirschstein
+nds;Ollenweddich;Altenweddingen
+nds;Ollweddich;Altenweddingen
+de;Altenstadt bei Vohenstrauß;Altenstadt
+de;Altenmuhr (Muhr am See);Altenmuhr
+nds;Ohmein;Altenmedingen
+nds;Olenhost;Altenhorst
+nds;Olenhusen;Altenhausen
+nds;Ollnhusen;Altenhausen
+de;Altenhagen II;Altenhagen Zwei
+de;Messenkamp-Altenhagen;Altenhagen Zwei
+de;Altenhagen (Messenkamp);Altenhagen Zwei
+de;Altenhagen (Celle);Altenhagen
+de;Celle-Altenhagen;Altenhagen
+nds;Olenhagen;Altenhagen
+nds;oːlənhɔːɣən;Altenhagen
+nds;ōlənhǻʒən;Altenhagen
+nds;Ōl’nhåğĕn;Altenhagen
+de;Altenhagen (Hagenburg);Altenhagen
+de;Hagenburg-Altenhagen;Altenhagen
+nds;Oolden´hågen;Altenhagen
+de;Auetal-Altenhagen;Altenhagen
+de;Altenhagen (Auetal);Altenhagen
+de;Altenhagen (Hagen am Teuteburger Wald);Altenhagen
+de;Altenhagen I;Altenhagen Eins
+nds;Eölenhaugen;Altenhagen Eins
+nds;Öelenhaugen;Altenhagen Eins
+de;Altenhagen (Springe);Altenhagen Eins
+de;Springe-Altenhagen;Altenhagen Eins
+nds;Olencelle;Altencelle
+nds;Olencell;Altencelle
+fr;Altenbourg;Altenburg
+pt;Altemburgo;Altenburg
+es;Altenburgo;Altenburg
+hsb;Starograd;Altenburg
+de;Altenbrunnen;Altenbunnen
+nds;Altenoa;Altena
+de;Altdorf;Altdorf bei Nürnberg
+hsb;Stara Darbnja;Altdöbern
+hsb;Stara Chójnica;Altcunnewitz
+nds;Olenbrandslee;Altbrandsleben
+nds;Ollenbrandslä;Altbrandsleben
+nds;Allro'e;Allrode
+de;Rabenau-Allertshausen;Allertshausen
+de;Allendorf am Hohenfels;Allendorf
+nds;Allefelle;Alfeld
+de;Alfeld (Leine);Alfeld
+de;Ahrensfluchter-Deich;Ahrensfluchter Deich
+nds;Oarbargen;Ahrbergen
+nds;Ahrbarge;Ahrbergen
+de;Ahnsen (Gemeinde Meinersen);Ahnsen
+nds;Aohnsen;Ahnsen
+nds;Aulen;Ahlen
+de;Ahlden (Aller);Ahlden
+de;Ahlden (Aller) Flecken;Ahlden
+de;Ahlden Flecken (Aller);Ahlden
+de;Ahlden Flecken;Ahlden
+de;Ahe (Rinteln);Ahe
+nds;Ahusen;Ahausen
+nds;Arzen;Aerzen
+nds;Atteln;Adlum
+nds;Addeln;Adlum
+nds;Ohnste;Adenstedt
+nds;Ahnste;Adenstedt
+de;Lahstedt-Adenstedt;Adenstedt
+de;Adenstedt (Lahstedt);Adenstedt
+nds;Ahnstie;Adenstedt
+nds;Oahnstie;Adenstedt
+nds;Aalheidsdörp;Adelheidsdorf
+nds;Alessen;Adelebsen
+nds;Aalessen;Adelebsen
+frr;Åktoorp;Achtrup
+nds;Achem;Achim
+nds;Achen;Achim
+en;Abtsgmuend;Abtsgmünd
+hsb;Roholń;Riegel
+de;Kirchdorf am Inn;Kirchdorf
+es;Unteruhldigen;Uhldingen-Mühlhofen
+pt;Böbingen;Böbingen an der Rems
+nds;Joisen;Giesen
+de;Isernhagen;Isernhagen-Süd
+de;Gartenstadt Lohne;Lohne
+nds;Katelnborg-Lindau;Katlenburg-Lindau
+de;Schulenberg;Schulenberg im Oberharz
+en;Schloss Holte;Schloß Holte
+de;Bahrdorf (Gemeinde Belum);Bahrdorf
+de;Siedlung Heimbuch;Siedlung Hainbuch
+de;Tannenkampstraße;Tannenkamp
+de;Deepenfurth;Deepenfuhrt
+frr;Boorlem;Bordelum
+en;Heligoland;Helgoland
+de;Oldsum auf Föhr;Oldsum
+frr;Olersem;Oldsum
+frr;Risem-Lonham;Risum-Lindholm
+nds;Böönstidde;Büddenstedt
+nds;Böenste'e;Büddenstedt
+nds;Böenstidde;Büddenstedt
+nds;bȫənstēə;Büddenstedt
+nds;bǫ̈̄ənstiddə;Büddenstedt
+nds;Grootmoor;Großmoor
+de;Dönstedt;Bebertal Zwei
+de;Bebertal II;Bebertal Zwei
+nds;Dönstee;Bebertal Zwei
+nds;Dönnstee;Bebertal Zwei
+nds;Dǫ̈nstē;Bebertal Zwei
+nds;Gemeen Meschacht;Marschacht
+hsb;Kózły;Cosul
+hsb;Hola;Haide
+hsb;Ćetow;Tetta
+hsb;Černsk;Zschernske
+de;Tschernske;Zschernske
+de;Vogtsburg im Kaiserstuhl;Vogtsburg
+es;Aquisgrán;Aachen
+fr;Aix-la-Chapelle;Aachen
+it;Aquisgrana;Aachen
+lb;Oochen;Aachen
+nl;Aken;Aachen
+pt;Aquisgrano;Aachen
+nds;Aken;Aachen
+de;Kreisfreie Stadt Aachen;Aachen
+pt;Aquisgrão;Aachen
+de;Münstertal;Münstertal/Schwarzwald
+en;Münstertal, Black Forest;Münstertal/Schwarzwald
+de;Gorgast Schäferei;Schäferei
+de;Eisleben;Eisleben Lutherstadt
+de;Lutherstadt Eisleben;Eisleben Lutherstadt
+de;Lutherstadt Wittenberg;Wittenberg
+de;Flugplatzsiedlung;Ettinghausen Flugplatzsiedlung
+de;Gutshof Hardesse;Hardesse
+nds;Hahrße;Hardesse
+de;Angerstein (Nörten-Hardenberg);Angerstein
+de;Bebertal I;Bebertal Eins
+de;Alvensleben;Bebertal Eins
+nds;Albenslä;Bebertal Eins
+nds;Almslä;Bebertal Eins
+de;Neubleicherode (Neustadt im Eichsfeld);Neubleicherode
+de;Luttringhausen (Bad Münder am Deister);Luttringhausen
+es;Isla de Fehmarn;Fehmarn
+frr;Saaterlönj;Saterland
+de;Berg b.Neumarkt i.d.OPf.;Berg bei Neumarkt in der Oberpfalz
+nds;Osterwoule;Osterwald (Garbsen)
+nds;Osterwole;Osterwald (Garbsen)
+nds;Wilperu’e;Wülperode
+nds;Su’möhlen;Sudermühlen
+de;Nato-Hauptquartier;Hauptquartier
+de;Wietze;Bissendorf-Wietze
+de;Walsumermark;Walsumer Mark
+hsb;Wysoka Dubrawa;Hohendubrau
+hsb;Jědlica;Jiedlitz
+hsb;Nowe Boranecy;Neu-Bornitz
+hsb;Liša Hora;Lissahora
+hsb;Mały Holešow;Kleinholscha
+hsb;Kanecy;Cannewitz
+hsb;Stara Cyhelnica;Alte Ziegelscheune
+hsb;Darin;Dahren
+hsb;Hornja Boršć;Oberförstchen
+hsb;Sokolca;Soculahora
+hsb;Serbske Kundraćicy;Wendisch-Cunnersdorf
+hsb;Serbske Pawlecy;Wendisch-Paulsdorf
+hsb;Čerwjene Noslicy;Rothnaußlitz
+hsb;Nowe Město;Neustadt/Spree
+hsb;Zdźar;Sora
+hsb;Rogow;Horno
+de;Neu-Horno;Horno
+hsb;Nowy Rogow;Horno
+de;Vossbäk;Voßbäk
+de;Hamburger Hallig;Hamburgerhallig
+de;Bollingstedtlund;Lund
+de;Siedlung Freienfelde;Freienfelde Siedlung
+de;Ramitz Siedlung;Ramitz-Siedlung
+de;Leesen;Zechau-Leesen
+de;Unterwiederstädt;Unterwiederstedt
+de;Unter Peissen;Unter-Peissen
+de;Naundorf bei Dessau;Naundorf
+de;Siedlung Weinberg;Weinberg Siedlung
+de;Hinterwangern;Hinter Wangern
+de;Kolonie Großzerlang;Kolonie
+de;Ausbau Bolland;Ausbau-Bolland
+de;Siedlung am See;Petersdorfer Siedlung
+de;Plachtweiler;Weiler
+de;Marlow Ausbau;Marlow-Ausbau
+de;Otterndorfer Schleuse;Schleuse
+de;Schodenbüttlerteil;Schodenbüttel
+de;Ostedeich;Ostedeich rechts der Oste
+de;Langelner-Heidkaten;Langelner Heidkaten
+de;Kolonie Glashütte;Glashütte
+de;Neudörfel;Neudörfel bei Neuschönburg
+de;Mitteldrebach;Mittel-Drebach
+hsb;Halštrowska Hola;Elsterheide
+de;Fährdorf Ausbau;Fährdorf-Ausbau
+de;Siedlung Letzin;Letzin-Siedlung
+de;Vorwerk;Steinmocker Vorwerk
+de;Sallenthin;Alt Sallenthin
+de;Werdumeraltengrodendeich;Werdumer Altengrodendeich
+de;Dorumer-Oberstrich;Dorumer Oberstrich
+de;Siedlung Kogel;Kogel
+de;Rittermannshagen Hof;Rittermannshagen-Hof
+de;Abbaue;Ausbau
+de;Kronehof;Klatzow-Ausbau
+de;Ausbau;Ducherow Ausbau
+de;Oster-Egels;Oster-Engels
+de;Heete;Hasennest
+de;Veterlandersiel;Ueterlandersiel
+de;Zur Siedewurt;Siedewurt
+de;Aulendorf-Beerlage;Beerlage
+de;Buterland-Gronau;Buterland
+de;Siedlung Beutz;Bötz
+de;Im Bötz;Bötz
+de;Löh;Deinstedt-Löh
+de;Stockum bei Coesfeld;Stockum
+de;Niederalbaum;Nieder-Albaum
+de;Dieckskamp;Diekskamp
+de;Böberstenweg;Böbersten Weg
+de;Tantow Vorwerk;Tantow Ausbau
+de;Radekow Vorwerk;Vorwerk Radekow
+de;Tiefental;Tiefenthal
+de;Bornkamp;Bornkampsweg
+de;Badener Holz;Badenerholz
+de;Achimer Bruch;Achimerbruch
+de;Achimerfuhrenkamp;Fuhrenkamp
+de;Embser Vie;Embservie
+de;Auf dem Steckelberge;Am Steckelberg
+de;Am Stackelberg;Am Steckelberg
+de;Siedlung Neu Borstel;Neu Borstel
+de;Kloster-Blankenburg;Blankenburg
+de;Oberhof Strehlow;Strehlow Vorwerk
+de;Neu-Wustrow;Neu Wustrow
+de;Siedlung Valzik;Siedlung Drestedt-Valzik
+de;Ausbau;Ausbau Wanzlitz
+de;Penzlin Süd;Penzlin-Süd
+de;Weitgendorf Ausbau;Weitgendorf-Ausbau
+de;Brügge Ausbau;Brügge-Ausbau
+de;Godendorfer Schneidemühle;Schneidemühle
+de;Voßwinkeler Schleuse;Voßwinkel Schleuse
+de;Bungalowsiedlung am Carwitzer See;Bungalowsiedlung Carwitzer See
+de;Bungalowsiedlung;Bungalowsiedlung Carwitzer See
+de;Waldsiedlung;Weggun-Waldsiedlung
+de;Siedlung Regente;Regente Siedlung
+de;Riehen;Halen-Riehen
+de;Siedlung;Siedlung Woltem
+de;Vor dem Holze;Wardböhmen vor dem Holze
+de;Queste;Quäste
+de;Kränzliner Siedlung;Siedlung
+de;Schleuen;Schleuensches Luch
+de;Ziegnerhof;Albrechtshof
+de;Neuhof Siedlung;Neuhof-Siedlung
+de;Neu Friedrichsthal;Neu-Friedrichsthal
+de;Vielitz Ausbau;Ausbau Vielitz
+de;Vahrendorf-Siedlung;Siedlung Vahrendorf
+de;Grenzhaus;Grenzhäuser
+de;Michen;Miechen
+de;Kolonie Wildbahn;Wildbahn
+de;Grossringer Wösten;Großringer Wösten
+de;Sisterstraße;Süsterstraße
+de;Borgerding;Am Borgerding
+de;Häge;Mainsche Häge
+de;Lemkerheide;Lemker Heide
+de;Rethem-Moor;Rethem Moor
+de;Siedlung Burghorn;Burghorn
+de;Neu Ristedt;Neu-Ristedt
+de;Chausseehaus Hassel;Chausseehaus
+de;Siedlung Am Luchweg;Luchsiedlung
+de;Gutssiedlung;Gut Blumberg
+de;Neuschwanebeck;Neu Schwanebeck
+de;Uchterhagen;Uchtenhagen

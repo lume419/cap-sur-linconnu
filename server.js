@@ -549,15 +549,18 @@ app.get('/api/pois', async (req, res) => {
   const dept = String(req.query.dept || '').trim();
   const country = String(req.query.country || '').trim().toUpperCase();
   // Englobe la France, l'Andorre, l'Espagne, le Portugal (mainland), la Belgique, les Pays-Bas, le
-  // Luxembourg et la Suisse — pas seulement la France : la borne d'origine (lat 40-52) rejetait à
-  // tort le sud de l'Espagne/Portugal (Andalousie, Algarve, jusqu'à ~36°N). La Belgique (lat
-  // ~49,5-51,5 / lon ~2,5-6,4) tenait déjà dans cette boîte, mais les Pays-Bas débordent au nord :
-  // Schiermonnikoog et les îles Wadden montent jusqu'à ~53,5°N, au-delà de l'ancienne borne à 52° —
-  // élargie à 54° pour les couvrir avec une marge. La Suisse déborde à l'est : la vallée de
+  // Luxembourg, la Suisse et l'Allemagne — pas seulement la France : la borne d'origine (lat 40-52)
+  // rejetait à tort le sud de l'Espagne/Portugal (Andalousie, Algarve, jusqu'à ~36°N). La Belgique
+  // (lat ~49,5-51,5 / lon ~2,5-6,4) tenait déjà dans cette boîte, mais les Pays-Bas débordent au
+  // nord : Schiermonnikoog et les îles Wadden montent jusqu'à ~53,5°N, au-delà de l'ancienne borne
+  // à 52° — élargie à 54° pour les couvrir avec une marge. La Suisse déborde à l'est : la vallée de
   // Müstair (Grisons) monte jusqu'à ~10,46°E, au-delà de l'ancienne borne à 10° — élargie à 11°
   // pour la couvrir avec une marge (avec le Luxembourg, entièrement dans la boîte d'origine, sans
-  // ajustement nécessaire).
-  if(!isFinite(lat) || !isFinite(lon) || lat < 36 || lat > 54 || lon < -10 || lon > 11){
+  // ajustement nécessaire). L'Allemagne déborde des deux côtés à la fois : Sylt (Schleswig-Holstein)
+  // monte jusqu'à ~55,05°N, au-delà de la borne à 54° héritée des Pays-Bas — élargie à 56° ; et
+  // Görlitz (frontière polonaise) va jusqu'à ~15,03°E, bien au-delà de la borne à 11° héritée de la
+  // Suisse — élargie à 16°, avec une marge dans les deux cas.
+  if(!isFinite(lat) || !isFinite(lon) || lat < 36 || lat > 56 || lon < -10 || lon > 16){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
   if(name.length > 120){

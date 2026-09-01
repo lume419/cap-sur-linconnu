@@ -1,6 +1,6 @@
 // Construit public/data/aliases-XX.txt : correspondances "nom dans une autre langue -> nom
-// canonique" pour les communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises,
-// à partir du fichier
+// canonique" pour les communes andorranes/espagnoles/portugaises/belges/néerlandaises/
+// luxembourgeoises/suisses/allemandes, à partir du fichier
 // GeoNames alternateNamesV2 (download.geonames.org/export/dump/alternatenames/XX.zip — mêmes
 // données que le dump utilisé par build-country-communes.js, mais avec les noms alternatifs
 // étiquetés par langue ISO, justement conçues pour ce genre de besoin). Permet de saisir une ville
@@ -23,13 +23,23 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['CH']; // AD/ES/PT/BE/NL/LU déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu.txt)
+const COUNTRIES = ['DE']; // AD/ES/PT/BE/NL/LU/CH déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
 // l'ajout du Luxembourg ; "it"/"rm" (italien/romanche) depuis l'ajout de la Suisse — GeoNames
-// utilise "rm" pour le romanche (isolanguage ISO 639-1), comme public/js/i18n.js.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm']);
+// utilise "rm" pour le romanche (isolanguage ISO 639-1), comme public/js/i18n.js. "nds"/"hsb"/"frr"
+// (bas-allemand/sorabe/frison du Nord, ISO 639-2/3 — pas de code 639-1 pour ces trois) depuis
+// l'ajout de l'Allemagne.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr']);
+// Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
+// GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
+// proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
+// locuteurs justifiant une entrée séparée dans le sélecteur de langue (haut-sorabe ~13 000, bas-sorabe
+// ~7 000). Les alias "dsb" de GeoNames sont donc repliés sur le tag de sortie "hsb" (le plus parlé des
+// deux) plutôt qu'ignorés — un alias bas-sorabe reste un alias sorabe valide pour la recherche de ville,
+// même s'il ne correspond pas exactement à l'écriture haut-sorabe utilisée dans public/js/i18n.js.
+const LANG_OUTPUT_REMAP = { dsb: 'hsb' };
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
@@ -38,7 +48,9 @@ const NAME_OVERRIDES = {
   'Saint-Vith': 'Sankt Vith',
   'The Hague': 'Den Haag',
   'Geneva': 'Genève',
-  'Sitten': 'Sion'
+  'Sitten': 'Sion',
+  'Munich': 'München',
+  'Nuremberg': 'Nürnberg'
 };
 
 function haversineKm(lat1, lon1, lat2, lon2){
@@ -130,7 +142,8 @@ for(const country of COUNTRIES){
   // donnent parfois exactement la même correspondance (variantes préférée/courte du même nom).
   const out = [];
   for(const c of aliasRows){
-    const geonameid = c[1], lang = c[2], alt = c[3], isHistoric = c[7];
+    const geonameid = c[1], rawLang = c[2], alt = c[3], isHistoric = c[7];
+    const lang = LANG_OUTPUT_REMAP[rawLang] || rawLang; // ex. "dsb" (bas-sorabe) -> "hsb" en sortie
     if(!SUPPORTED_LANGS.has(lang)) continue;
     if(isHistoric === '1') continue;
     const canonical = canonicalByGeonameId.get(geonameid);
