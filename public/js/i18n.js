@@ -13,8 +13,8 @@
 (function(){
   "use strict";
 
-  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr'];
-  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais', csb: 'Kaszëbsczi', rue: 'Лемківскый', ruo: 'Vlaški-Žejanski', ca: 'Català', eu: 'Euskara', gl: 'Galego', oc: 'Occitan', br: 'Brezhoneg', co: 'Corsu', mwl: 'Mirandés', ga: 'Gaeilge', gv: 'Gaelg', cy: 'Cymraeg', gd: 'Gàidhlig', kw: 'Kernewek', sco: 'Scots', cs: 'Čeština', pl: 'Polski', sk: 'Slovenčina', hu: 'Magyar', sl: 'Slovenščina', hr: 'Hrvatski', bs: 'Bosanski', sr: 'Српски', da: 'Dansk', no: 'Norsk', sv: 'Svenska', fi: 'Suomi', sq: 'Shqip', cnr: 'Crnogorski' };
+  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro'];
+  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais', csb: 'Kaszëbsczi', rue: 'Лемківскый', ruo: 'Vlaški-Žejanski', ca: 'Català', eu: 'Euskara', gl: 'Galego', oc: 'Occitan', br: 'Brezhoneg', co: 'Corsu', mwl: 'Mirandés', ga: 'Gaeilge', gv: 'Gaelg', cy: 'Cymraeg', gd: 'Gàidhlig', kw: 'Kernewek', sco: 'Scots', cs: 'Čeština', pl: 'Polski', sk: 'Slovenčina', hu: 'Magyar', sl: 'Slovenščina', hr: 'Hrvatski', bs: 'Bosanski', sr: 'Српски', da: 'Dansk', no: 'Norsk', sv: 'Svenska', fi: 'Suomi', sq: 'Shqip', cnr: 'Crnogorski', mk: 'Македонски', ro: 'Română' };
   var STORAGE_KEY = 'lang';
 
   var STRINGS = {
@@ -233,7 +233,7 @@
 
       'again.button': 'Retirer une autre destination',
 
-      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique, les Pays-Bas, le Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, le Liechtenstein, Monaco, Malte, Guernesey, Jersey, la République tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, le Royaume-Uni, l'Irlande, l'île de Man, le Danemark, la Norvège, la Suède, la Finlande, les îles Åland, le Monténégro, l'Albanie et le Kosovo. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine) — autoroutes gratuites en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (hors trois sections concédées), au Royaume-Uni, en Irlande, à l'île de Man, au Danemark, en Norvège, en Suède, en Finlande, aux îles Åland, au Monténégro, en Albanie et au Kosovo ; vignette annuelle en Suisse, en Autriche, en République tchèque, en Slovaquie, en Hongrie et en Slovénie (pas de péage au trajet) — ni péage ni vignette à Guernesey et Jersey.",
+      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique, les Pays-Bas, le Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, le Liechtenstein, Monaco, Malte, Guernesey, Jersey, la République tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, le Royaume-Uni, l'Irlande, l'île de Man, le Danemark, la Norvège, la Suède, la Finlande, les îles Åland, le Monténégro, l'Albanie, le Kosovo, la Serbie et la Macédoine du Nord. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine), Putevi Srbije (Serbie), JP za državni patišta (Macédoine du Nord) — autoroutes gratuites en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (hors trois sections concédées), au Royaume-Uni, en Irlande, à l'île de Man, au Danemark, en Norvège, en Suède, en Finlande, aux îles Åland, au Monténégro, en Albanie et au Kosovo ; vignette annuelle en Suisse, en Autriche, en République tchèque, en Slovaquie, en Hongrie et en Slovénie (pas de péage au trajet) — ni péage ni vignette à Guernesey et Jersey.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': 'Politique de confidentialité',
       'footer.translationDisclaimer': "L'interface a été traduite dans de nombreuses langues et peut contenir des erreurs — n'hésitez pas à les signaler à contact@lume419.fr.",
@@ -468,7 +468,7 @@
 
       'again.button': 'Draw another destination',
 
-      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, the Czech Republic, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia and Herzegovina, the United Kingdom, Ireland, the Isle of Man, Denmark, Norway, Sweden, Finland, the Åland Islands, Montenegro, Albania and Kosovo. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia and Herzegovina) — free motorways in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco, Malta, Poland (except three concession sections), the United Kingdom, Ireland, the Isle of Man, Denmark, Norway, Sweden, Finland, the Åland Islands, Montenegro, Albania and Kosovo; an annual vignette in Switzerland, Austria, the Czech Republic, Slovakia, Hungary and Slovenia (no per-trip toll) — no toll or vignette in Guernsey or Jersey.",
+      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, the Czech Republic, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia and Herzegovina, the United Kingdom, Ireland, the Isle of Man, Denmark, Norway, Sweden, Finland, the Åland Islands, Montenegro, Albania, Kosovo, Serbia and North Macedonia. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia and Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (North Macedonia) — free motorways in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco, Malta, Poland (except three concession sections), the United Kingdom, Ireland, the Isle of Man, Denmark, Norway, Sweden, Finland, the Åland Islands, Montenegro, Albania and Kosovo; an annual vignette in Switzerland, Austria, the Czech Republic, Slovakia, Hungary and Slovenia (no per-trip toll) — no toll or vignette in Guernsey or Jersey.",
       'footer.legalMentions': 'Legal notice',
       'footer.privacyPolicy': 'Privacy policy',
       'footer.translationDisclaimer': 'The interface has been translated into many languages and may contain mistakes — feel free to report them to contact@lume419.fr.',
@@ -703,7 +703,7 @@
 
       'again.button': 'Sortear otro destino',
 
-      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica, los Países Bajos, Luxemburgo, Suiza, Alemania, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, República Checa, Polonia, Eslovaquia, Hungría, Eslovenia, Croacia, Bosnia y Herzegovina, el Reino Unido, Irlanda, la Isla de Man, Dinamarca, Noruega, Suecia, Finlandia, las islas Åland, Montenegro, Albania y Kosovo. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croacia), Autoceste FBiH/Autoputevi RS (Bosnia y Herzegovina) — autopistas gratuitas en Bélgica, Andorra, los Países Bajos, Luxemburgo, Alemania, San Marino, Liechtenstein, Mónaco, Malta, Polonia (salvo tres tramos concesionados), el Reino Unido, Irlanda, la Isla de Man, Dinamarca, Noruega, Suecia, Finlandia, las islas Åland, Montenegro, Albania y Kosovo; viñeta anual en Suiza, Austria, República Checa, Eslovaquia, Hungría y Eslovenia (sin peaje por trayecto) — sin peaje ni viñeta en Guernsey y Jersey.",
+      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica, los Países Bajos, Luxemburgo, Suiza, Alemania, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, República Checa, Polonia, Eslovaquia, Hungría, Eslovenia, Croacia, Bosnia y Herzegovina, el Reino Unido, Irlanda, la Isla de Man, Dinamarca, Noruega, Suecia, Finlandia, las islas Åland, Montenegro, Albania, Kosovo, Serbia y Macedonia del Norte. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croacia), Autoceste FBiH/Autoputevi RS (Bosnia y Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia del Norte) — autopistas gratuitas en Bélgica, Andorra, los Países Bajos, Luxemburgo, Alemania, San Marino, Liechtenstein, Mónaco, Malta, Polonia (salvo tres tramos concesionados), el Reino Unido, Irlanda, la Isla de Man, Dinamarca, Noruega, Suecia, Finlandia, las islas Åland, Montenegro, Albania y Kosovo; viñeta anual en Suiza, Austria, República Checa, Eslovaquia, Hungría y Eslovenia (sin peaje por trayecto) — sin peaje ni viñeta en Guernsey y Jersey.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidad',
       'footer.translationDisclaimer': 'La interfaz se ha traducido a numerosos idiomas y puede contener errores — no dudes en comunicarlos a contact@lume419.fr.',
@@ -938,7 +938,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica, os Países Baixos, o Luxemburgo, a Suíça, a Alemanha, a Itália, a Áustria, São Marinho, o Liechtenstein, o Mónaco, Malta, Guernsey, Jersey, a República Checa, a Polónia, a Eslováquia, a Hungria, a Eslovénia, a Croácia, a Bósnia e Herzegovina, o Reino Unido, a Irlanda, a Ilha de Man, a Dinamarca, a Noruega, a Suécia, a Finlândia, as ilhas Åland, o Montenegro, a Albânia e o Kosovo. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itália), HAC (Croácia), Autoceste FBiH/Autoputevi RS (Bósnia e Herzegovina) — autoestradas gratuitas na Bélgica, em Andorra, nos Países Baixos, no Luxemburgo, na Alemanha, em São Marinho, no Liechtenstein, no Mónaco, em Malta, na Polónia (exceto três troços concessionados), no Reino Unido, na Irlanda, na Ilha de Man, na Dinamarca, na Noruega, na Suécia, na Finlândia, nas ilhas Åland, no Montenegro, na Albânia e no Kosovo; vinheta anual na Suíça, na Áustria, na República Checa, na Eslováquia, na Hungria e na Eslovénia (sem portagem por trajeto) — sem portagem nem vinheta em Guernsey e Jersey.",
+      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica, os Países Baixos, o Luxemburgo, a Suíça, a Alemanha, a Itália, a Áustria, São Marinho, o Liechtenstein, o Mónaco, Malta, Guernsey, Jersey, a República Checa, a Polónia, a Eslováquia, a Hungria, a Eslovénia, a Croácia, a Bósnia e Herzegovina, o Reino Unido, a Irlanda, a Ilha de Man, a Dinamarca, a Noruega, a Suécia, a Finlândia, as ilhas Åland, o Montenegro, a Albânia, o Kosovo, a Sérvia e a Macedónia do Norte. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itália), HAC (Croácia), Autoceste FBiH/Autoputevi RS (Bósnia e Herzegovina), Putevi Srbije (Sérvia), JP za državni patišta (Macedónia do Norte) — autoestradas gratuitas na Bélgica, em Andorra, nos Países Baixos, no Luxemburgo, na Alemanha, em São Marinho, no Liechtenstein, no Mónaco, em Malta, na Polónia (exceto três troços concessionados), no Reino Unido, na Irlanda, na Ilha de Man, na Dinamarca, na Noruega, na Suécia, na Finlândia, nas ilhas Åland, no Montenegro, na Albânia e no Kosovo; vinheta anual na Suíça, na Áustria, na República Checa, na Eslováquia, na Hungria e na Eslovénia (sem portagem por trajeto) — sem portagem nem vinheta em Guernsey e Jersey.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidade',
       'footer.translationDisclaimer': 'A interface foi traduzida para muitos idiomas e pode conter erros — não hesite em comunicá-los para contact@lume419.fr.',
@@ -1173,7 +1173,7 @@
 
       'again.button': 'Nog een bestemming loten',
 
-      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België, Nederland, Luxemburg, Zwitserland, Duitsland, Italië, Oostenrijk, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjechië, Polen, Slowakije, Hongarije, Slovenië, Kroatië, Bosnië en Herzegovina, het Verenigd Koninkrijk, Ierland, het eiland Man, Denemarken, Noorwegen, Zweden, Finland, de Ålandeilanden, Montenegro, Albanië en Kosovo. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italië), HAC (Kroatië), Autoceste FBiH/Autoputevi RS (Bosnië en Herzegovina) — gratis snelwegen in België, Andorra, Nederland, Luxemburg, Duitsland, San Marino, Liechtenstein, Monaco, Malta, Polen (behalve drie concessietrajecten), het Verenigd Koninkrijk, Ierland, het eiland Man, Denemarken, Noorwegen, Zweden, Finland, de Ålandeilanden, Montenegro, Albanië en Kosovo; jaarlijkse vignet in Zwitserland, Oostenrijk, Tsjechië, Slowakije, Hongarije en Slovenië (geen tol per rit) — geen tol of vignet op Guernsey en Jersey.",
+      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België, Nederland, Luxemburg, Zwitserland, Duitsland, Italië, Oostenrijk, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjechië, Polen, Slowakije, Hongarije, Slovenië, Kroatië, Bosnië en Herzegovina, het Verenigd Koninkrijk, Ierland, het eiland Man, Denemarken, Noorwegen, Zweden, Finland, de Ålandeilanden, Montenegro, Albanië, Kosovo, Servië en Noord-Macedonië. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italië), HAC (Kroatië), Autoceste FBiH/Autoputevi RS (Bosnië en Herzegovina), Putevi Srbije (Servië), JP za državni patišta (Noord-Macedonië) — gratis snelwegen in België, Andorra, Nederland, Luxemburg, Duitsland, San Marino, Liechtenstein, Monaco, Malta, Polen (behalve drie concessietrajecten), het Verenigd Koninkrijk, Ierland, het eiland Man, Denemarken, Noorwegen, Zweden, Finland, de Ålandeilanden, Montenegro, Albanië en Kosovo; jaarlijkse vignet in Zwitserland, Oostenrijk, Tsjechië, Slowakije, Hongarije en Slovenië (geen tol per rit) — geen tol of vignet op Guernsey en Jersey.",
       'footer.legalMentions': 'Wettelijke vermeldingen',
       'footer.privacyPolicy': 'Privacybeleid',
       'footer.translationDisclaimer': 'De interface is in veel talen vertaald en kan fouten bevatten — aarzel niet om ze te melden via contact@lume419.fr.',
@@ -1408,7 +1408,7 @@
 
       'again.button': 'Neues Ziel auslosen',
 
-      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien, die Niederlande, Luxemburg, die Schweiz, Deutschland, Italien, Österreich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, die Slowakei, Ungarn, Slowenien, Kroatien, Bosnien und Herzegowina, das Vereinigte Königreich, Irland, die Insel Man, Dänemark, Norwegen, Schweden, Finnland, die Åland-Inseln, Montenegro, Albanien und den Kosovo. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien und Herzegowina) — mautfreie Autobahnen in Belgien, Andorra, den Niederlanden, Luxemburg, Deutschland, San Marino, Liechtenstein, Monaco, Malta, Polen (außer drei Konzessionsabschnitten), dem Vereinigten Königreich, Irland, der Insel Man, Dänemark, Norwegen, Schweden, Finnland, den Åland-Inseln, Montenegro, Albanien und dem Kosovo; jährliche Vignette in der Schweiz, in Österreich, in Tschechien, in der Slowakei, in Ungarn und in Slowenien (keine Maut pro Fahrt) — keine Maut oder Vignette auf Guernsey und Jersey.",
+      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien, die Niederlande, Luxemburg, die Schweiz, Deutschland, Italien, Österreich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, die Slowakei, Ungarn, Slowenien, Kroatien, Bosnien und Herzegowina, das Vereinigte Königreich, Irland, die Insel Man, Dänemark, Norwegen, Schweden, Finnland, die Åland-Inseln, Montenegro, Albanien, den Kosovo, Serbien und Nordmazedonien. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien und Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Nordmazedonien) — mautfreie Autobahnen in Belgien, Andorra, den Niederlanden, Luxemburg, Deutschland, San Marino, Liechtenstein, Monaco, Malta, Polen (außer drei Konzessionsabschnitten), dem Vereinigten Königreich, Irland, der Insel Man, Dänemark, Norwegen, Schweden, Finnland, den Åland-Inseln, Montenegro, Albanien und dem Kosovo; jährliche Vignette in der Schweiz, in Österreich, in Tschechien, in der Slowakei, in Ungarn und in Slowenien (keine Maut pro Fahrt) — keine Maut oder Vignette auf Guernsey und Jersey.",
       'footer.legalMentions': 'Impressum',
       'footer.privacyPolicy': 'Datenschutzerklärung',
       'footer.translationDisclaimer': 'Die Oberfläche wurde in viele Sprachen übersetzt und kann Fehler enthalten — zögern Sie nicht, sie an contact@lume419.fr zu melden.',
@@ -1645,7 +1645,7 @@
 
       'again.button': 'Nach eng aner Destinatioun zéien',
 
-      'footer.text': "Kurs op d'Onbekannt — e spilleresche Generator, et gi ni Donnéeën iergendwouhinner geschéckt. Gemengen: IGN / geo.api.gouv.fr (Etalab) fir Frankräich, GeoNames (CC-BY-Lizenz) fir Andorra, Spuenien, Portugal, d'Belsch, d'Nidderlanden, Lëtzebuerg, d'Schwäiz, Däitschland, Italien, Éisträich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, d'Slowakei, Ungarn, Slowenien, Kroatien, Bosnien a Herzegowina, d'Vereenegt Kinnekräich, Irland, d'Insel Man, Dänemark, Norwegen, Schweden, Finnland, d'Åland-Inselen, Montenegro, Albanien a Kosovo. Sehenswiirdegkeeten a Kaart-Hannergrond: © d'OpenStreetMap-Mataarbechter (ODbL-Lizenz). Peage: VINCI Autoroutes (Frankräich), Autopistas (Spuenien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien a Herzegowina) — gratis Autobunnen an der Belsch, an Andorra, an den Nidderlanden, zu Lëtzebuerg, an Däitschland, zu San Marino, zu Liechtenstein, zu Monaco, zu Malta, zu Polen (ausser dräi Konzessiounsabschnëtter), am Vereenegte Kinnekräich, an Irland, op der Insel Man, zu Dänemark, zu Norwegen, zu Schweden, zu Finnland, op den Åland-Inselen, zu Montenegro, zu Albanien a Kosovo; eng jäerlech Vignette an der Schwäiz, an Éisträich, an Tschechien, an der Slowakei, an Ungarn an an Slowenien (kee Peage pro Streck) — weder Peage nach Vignette op Guernsey a Jersey.",
+      'footer.text': "Kurs op d'Onbekannt — e spilleresche Generator, et gi ni Donnéeën iergendwouhinner geschéckt. Gemengen: IGN / geo.api.gouv.fr (Etalab) fir Frankräich, GeoNames (CC-BY-Lizenz) fir Andorra, Spuenien, Portugal, d'Belsch, d'Nidderlanden, Lëtzebuerg, d'Schwäiz, Däitschland, Italien, Éisträich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, d'Slowakei, Ungarn, Slowenien, Kroatien, Bosnien a Herzegowina, d'Vereenegt Kinnekräich, Irland, d'Insel Man, Dänemark, Norwegen, Schweden, Finnland, d'Åland-Inselen, Montenegro, Albanien, Kosovo, Serbien a Nordmazedonien. Sehenswiirdegkeeten a Kaart-Hannergrond: © d'OpenStreetMap-Mataarbechter (ODbL-Lizenz). Peage: VINCI Autoroutes (Frankräich), Autopistas (Spuenien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien a Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Nordmazedonien) — gratis Autobunnen an der Belsch, an Andorra, an den Nidderlanden, zu Lëtzebuerg, an Däitschland, zu San Marino, zu Liechtenstein, zu Monaco, zu Malta, zu Polen (ausser dräi Konzessiounsabschnëtter), am Vereenegte Kinnekräich, an Irland, op der Insel Man, zu Dänemark, zu Norwegen, zu Schweden, zu Finnland, op den Åland-Inselen, zu Montenegro, zu Albanien a Kosovo; eng jäerlech Vignette an der Schwäiz, an Éisträich, an Tschechien, an der Slowakei, an Ungarn an an Slowenien (kee Peage pro Streck) — weder Peage nach Vignette op Guernsey a Jersey.",
       'footer.legalMentions': 'Legal Notiz',
       'footer.privacyPolicy': 'Dateschutzerklärung',
       'footer.translationDisclaimer': "D'Interface gouf a ville Sproochen iwwersat a kann Feeler enthalen — mell se gäre un contact@lume419.fr.",
@@ -1882,7 +1882,7 @@
 
       'again.button': "Estrai un'altra destinazione",
 
-      'footer.text': "Rotta verso l'ignoto — un generatore ludico, nessun dato viene mai inviato da nessuna parte. Comuni: IGN / geo.api.gouv.fr (Etalab) per la Francia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogallo, Belgio, Paesi Bassi, Lussemburgo, Svizzera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Repubblica Ceca, Polonia, Slovacchia, Ungheria, Slovenia, Croazia, Bosnia ed Erzegovina, il Regno Unito, l'Irlanda, l'Isola di Man, la Danimarca, la Norvegia, la Svezia, la Finlandia, le isole Åland, il Montenegro, l'Albania e il Kosovo. Punti d'interesse e sfondo mappa: © i contributori di OpenStreetMap (licenza ODbL). Pedaggi: VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallo), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia ed Erzegovina) — autostrade gratuite in Belgio, Andorra, Paesi Bassi, Lussemburgo, Germania, San Marino, Liechtenstein, Monaco, Malta, Polonia (tranne tre tratti in concessione), nel Regno Unito, in Irlanda, nell'Isola di Man, in Danimarca, in Norvegia, in Svezia, in Finlandia, nelle isole Åland, in Montenegro, in Albania e in Kosovo; vignetta annuale in Svizzera, Austria, Repubblica Ceca, Slovacchia, Ungheria e Slovenia (nessun pedaggio per tragitto) — nessun pedaggio né vignetta a Guernsey e Jersey.",
+      'footer.text': "Rotta verso l'ignoto — un generatore ludico, nessun dato viene mai inviato da nessuna parte. Comuni: IGN / geo.api.gouv.fr (Etalab) per la Francia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogallo, Belgio, Paesi Bassi, Lussemburgo, Svizzera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Repubblica Ceca, Polonia, Slovacchia, Ungheria, Slovenia, Croazia, Bosnia ed Erzegovina, il Regno Unito, l'Irlanda, l'Isola di Man, la Danimarca, la Norvegia, la Svezia, la Finlandia, le isole Åland, il Montenegro, l'Albania, il Kosovo, la Serbia e la Macedonia del Nord. Punti d'interesse e sfondo mappa: © i contributori di OpenStreetMap (licenza ODbL). Pedaggi: VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallo), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia ed Erzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia del Nord) — autostrade gratuite in Belgio, Andorra, Paesi Bassi, Lussemburgo, Germania, San Marino, Liechtenstein, Monaco, Malta, Polonia (tranne tre tratti in concessione), nel Regno Unito, in Irlanda, nell'Isola di Man, in Danimarca, in Norvegia, in Svezia, in Finlandia, nelle isole Åland, in Montenegro, in Albania e in Kosovo; vignetta annuale in Svizzera, Austria, Repubblica Ceca, Slovacchia, Ungheria e Slovenia (nessun pedaggio per tragitto) — nessun pedaggio né vignetta a Guernsey e Jersey.",
       'footer.legalMentions': 'Note legali',
       'footer.privacyPolicy': 'Informativa sulla privacy',
       'footer.translationDisclaimer': "L'interfaccia è stata tradotta in numerose lingue e può contenere errori — non esitate a segnalarli a contact@lume419.fr.",
@@ -2123,7 +2123,7 @@
 
       'again.button': 'Tirar ina autra destinaziun',
 
-      'footer.text': "Direcziun l'ignot — in generatur ludic, nagina data na vegn mai tramessa nunder che saja. Vischnancas: IGN / geo.api.gouv.fr (Etalab) per Frantscha, GeoNames (licenza CC-BY) per Andorra, Spagna, Portugal, Belgia, ils Pajais Bass, Luxemburg, la Svizra, la Germania, l'Italia, l'Austria, San Marino, il Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica tscheca, la Pòlonia, la Slovacia, l'Ungaria, la Slovenia, la Croazia, la Bosnia-Erzegovina, il Reginavel Unì, l'Irlanda, l'Isla da Man, la Danemarcha, la Norvegia, la Svezia, la Finlanda, las islas Åland, il Montenegro, l'Albania e il Kosovo. Puncts d'interess e fund da charta: © ils contribuents da OpenStreetMap (licenza ODbL). Taxas da via: VINCI Autoroutes (Frantscha), Autopistas (Spagna), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegovina) — autostradas gratuitas en Belgia, Andorra, ils Pajais Bass, Luxemburg, la Germania, San Marino, il Liechtenstein, Monaco, Malta, la Pòlonia (ordvart trais troncs concedids), il Reginavel Unì, l'Irlanda, sin l'Isla da Man, en Danemarcha, en Norvegia, en Svezia, en Finlanda, sin las islas Åland, en Montenegro, en Albania ed en Kosovo; vigneta annuala en Svizra, en Austria, en la Republica tscheca, en la Slovacia, en l'Ungaria ed en la Slovenia (nagina taxa per viadi) — nagina taxa da via ni vigneta a Guernsey e Jersey.",
+      'footer.text': "Direcziun l'ignot — in generatur ludic, nagina data na vegn mai tramessa nunder che saja. Vischnancas: IGN / geo.api.gouv.fr (Etalab) per Frantscha, GeoNames (licenza CC-BY) per Andorra, Spagna, Portugal, Belgia, ils Pajais Bass, Luxemburg, la Svizra, la Germania, l'Italia, l'Austria, San Marino, il Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica tscheca, la Pòlonia, la Slovacia, l'Ungaria, la Slovenia, la Croazia, la Bosnia-Erzegovina, il Reginavel Unì, l'Irlanda, l'Isla da Man, la Danemarcha, la Norvegia, la Svezia, la Finlanda, las islas Åland, il Montenegro, l'Albania, il Kosovo, la Serbia e la Macedonia dal Nord. Puncts d'interess e fund da charta: © ils contribuents da OpenStreetMap (licenza ODbL). Taxas da via: VINCI Autoroutes (Frantscha), Autopistas (Spagna), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia dal Nord) — autostradas gratuitas en Belgia, Andorra, ils Pajais Bass, Luxemburg, la Germania, San Marino, il Liechtenstein, Monaco, Malta, la Pòlonia (ordvart trais troncs concedids), il Reginavel Unì, l'Irlanda, sin l'Isla da Man, en Danemarcha, en Norvegia, en Svezia, en Finlanda, sin las islas Åland, en Montenegro, en Albania ed en Kosovo; vigneta annuala en Svizra, en Austria, en la Republica tscheca, en la Slovacia, en l'Ungaria ed en la Slovenia (nagina taxa per viadi) — nagina taxa da via ni vigneta a Guernsey e Jersey.",
       'footer.legalMentions': 'Indicaziuns legalas',
       'footer.privacyPolicy': 'Directiva da protecziun da datas',
       'footer.translationDisclaimer': "L'interfatscha è vegnida translatada en numerusas linguas e po cuntegnair errurs — n'exitai betg da las signalar a contact@lume419.fr.",
@@ -2362,7 +2362,7 @@
 
       'again.button': 'En anner Reisdoel utloten',
 
-      'footer.text': 'Kurs op dat Unbekannte — en spöölschen Generator, dat warrt nienich Daten sennt. Gemeenden: IGN / geo.api.gouv.fr (Etalab) för Frankriek, GeoNames (CC-BY-Lizenz) för Andorra, Spanien, Portugal, Belgien, de Nedderlannen, Luxemburg, de Swiez, Düütschland, Italien, Oostriek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, de Slowakei, Ungarn, Slowenien, Kroatien, Bosnien-Herzegowina, dat Vereente Königriek, Irland, de Insel Man, Denmark, Norwegen, Sweden, Finnland, de Åland-Eilannen, Montenegro, Albanien un Kosovo. Sehenswöördigkeiten un Kaartgrund: © de OpenStreetMap-Mitmakers (ODbL-Lizenz). Toll: VINCI Autoroutes (Frankriek), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Herzegowina) — tollfrie Autobahnen in Belgien, Andorra, de Nedderlannen, Luxemburg, Düütschland, San Marino, Liechtenstein, Monaco, Malta, Polen (buten dree Konzessschoonsafsnitten), dat Vereente Königriek, Irland, de Insel Man, Denmark, Norwegen, Sweden, Finnland, de Åland-Eilannen, Montenegro, Albanien un Kosovo; jährliche Vignette in de Swiez, in Oostriek, in Tschechien, in de Slowakei, in Ungarn un in Slowenien (keen Toll per Reis) — keen Toll un keen Vignette op Guernsey un Jersey.',
+      'footer.text': 'Kurs op dat Unbekannte — en spöölschen Generator, dat warrt nienich Daten sennt. Gemeenden: IGN / geo.api.gouv.fr (Etalab) för Frankriek, GeoNames (CC-BY-Lizenz) för Andorra, Spanien, Portugal, Belgien, de Nedderlannen, Luxemburg, de Swiez, Düütschland, Italien, Oostriek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, de Slowakei, Ungarn, Slowenien, Kroatien, Bosnien-Herzegowina, dat Vereente Königriek, Irland, de Insel Man, Denmark, Norwegen, Sweden, Finnland, de Åland-Eilannen, Montenegro, Albanien, Kosovo, Serbien un Noordmazedonien. Sehenswöördigkeiten un Kaartgrund: © de OpenStreetMap-Mitmakers (ODbL-Lizenz). Toll: VINCI Autoroutes (Frankriek), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Noordmazedonien) — tollfrie Autobahnen in Belgien, Andorra, de Nedderlannen, Luxemburg, Düütschland, San Marino, Liechtenstein, Monaco, Malta, Polen (buten dree Konzessschoonsafsnitten), dat Vereente Königriek, Irland, de Insel Man, Denmark, Norwegen, Sweden, Finnland, de Åland-Eilannen, Montenegro, Albanien un Kosovo; jährliche Vignette in de Swiez, in Oostriek, in Tschechien, in de Slowakei, in Ungarn un in Slowenien (keen Toll per Reis) — keen Toll un keen Vignette op Guernsey un Jersey.',
       'footer.legalMentions': 'Rechtlich Angaven',
       'footer.privacyPolicy': 'Datenschutz',
       'footer.translationDisclaimer': 'De Böversiet is in vele Spraken översett worrn un kann Fehler bargen — meld se gern bi contact@lume419.fr.',
@@ -2603,7 +2603,7 @@
 
       'again.button': 'Druhi cil wupytać',
 
-      'footer.text': 'Kurs do njeznateho — spěłna generator, žadyn dataj so ženje njesela. Gmejny: IGN / geo.api.gouv.fr (Etalab) za Francosku, GeoNames (licenca CC-BY) za Andorru, Španisku, Portugalsku, Belgisku, Nižozemsku, Luxemburgsku, Šwicarsku, Němsku, Italsku, Rakusku, San Marino, Liechtenstein, Monako, Maltu, Guernsey, Jersey, Čěsku republiku, Pólsku, Słowakisku, Madźarsku, Słowjensku, Chorwatsku, Bosnu a Hercegowinu, Zjednoćene kralestwo, Irsku, kupu Man, Daniju, Norwegsku, Šwedsku, Finsku, kupy Åland, Čornu Horu, Albansku a Kosowo. Wobhladowanske dypki a kartowe pozadźe: © sobuskutkowarjo OpenStreetMap (licenca ODbL). Myto: VINCI Autoroutes (Francoska), Autopistas (Španiska), Via Verde/Ascendi (Portugalska), Autostrade per l’Italia (Italska), HAC (Chorwatska), Autoceste FBiH/Autoputevi RS (Bosna a Hercegowina) — myta-swobodne awtodróhi w Belgiskej, Andorrje, Nižozemskej, Luxemburgskej, Němskej, San Marinje, Liechtensteinje, Monaku, Malće, Pólskej (znajmjeńša tři koncesionowane wotrězki wuwzate), w Zjednoćenym kralestwje, w Irskej, na kupje Man, w Daniskej, w Norwegskej, w Šwedskej, w Finskej, na kupach Åland, w Čornej Horje, w Albanskej a w Kosowje; lětna vignetka w Šwicarskej, w Rakuskej, w Čěskej republice, w Słowakiskej, w Madźarskej a w Słowjenskej (žane myto na jězbu) — žane myto a žana vignetka na Guernseyu a Jerseyu.',
+      'footer.text': 'Kurs do njeznateho — spěłna generator, žadyn dataj so ženje njesela. Gmejny: IGN / geo.api.gouv.fr (Etalab) za Francosku, GeoNames (licenca CC-BY) za Andorru, Španisku, Portugalsku, Belgisku, Nižozemsku, Luxemburgsku, Šwicarsku, Němsku, Italsku, Rakusku, San Marino, Liechtenstein, Monako, Maltu, Guernsey, Jersey, Čěsku republiku, Pólsku, Słowakisku, Madźarsku, Słowjensku, Chorwatsku, Bosnu a Hercegowinu, Zjednoćene kralestwo, Irsku, kupu Man, Daniju, Norwegsku, Šwedsku, Finsku, kupy Åland, Čornu Horu, Albansku, Kosowo, Serbisku a Sewjernu Makedonsku. Wobhladowanske dypki a kartowe pozadźe: © sobuskutkowarjo OpenStreetMap (licenca ODbL). Myto: VINCI Autoroutes (Francoska), Autopistas (Španiska), Via Verde/Ascendi (Portugalska), Autostrade per l’Italia (Italska), HAC (Chorwatska), Autoceste FBiH/Autoputevi RS (Bosna a Hercegowina), Putevi Srbije (Serbiska), JP za državni patišta (Sewjerna Makedonska) — myta-swobodne awtodróhi w Belgiskej, Andorrje, Nižozemskej, Luxemburgskej, Němskej, San Marinje, Liechtensteinje, Monaku, Malće, Pólskej (znajmjeńša tři koncesionowane wotrězki wuwzate), w Zjednoćenym kralestwje, w Irskej, na kupje Man, w Daniskej, w Norwegskej, w Šwedskej, w Finskej, na kupach Åland, w Čornej Horje, w Albanskej a w Kosowje; lětna vignetka w Šwicarskej, w Rakuskej, w Čěskej republice, w Słowakiskej, w Madźarskej a w Słowjenskej (žane myto na jězbu) — žane myto a žana vignetka na Guernseyu a Jerseyu.',
       'footer.legalMentions': 'Prawniske pokazki',
       'footer.privacyPolicy': 'Škit datow',
       'footer.translationDisclaimer': 'Powjercha je do wjele rěčow přełožena a móže zmylki wobsahować — njewahajće so je pola contact@lume419.fr zdźělić.',
@@ -2845,7 +2845,7 @@
 
       'again.button': 'En üder reisdoal lucht',
 
-      'footer.text': 'Kurs tu det unbekannte — en spöölsk generator, nian dooten wårde ai fuurtstüürd. Gemiine: IGN / geo.api.gouv.fr (Etalab) foor Frankrik, GeoNames (CC-BY-lizens) foor Andorra, Spaanien, Portugal, Belgien, Nedderlönje, Luxemburg, dai Swiits, Düütsklönj, Italien, Österiek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, di Slowakei, Ungarn, Slowenien, Kroatien, Bosnien-Herzegowina, det Feriind Köningriek, Irlönj, Man, Denemark, Norwegen, Sweden, Finlönj, di Ålandeeilönj, Montenegro, Albanien an Kosovo. Sååchtjensweerdiheeden an kaart-uunergrünj: © dai OpenStreetMap-mäduurbeeders (ODbL-lizens). Tol: VINCI Autoroutes (Frankrik), Autopistas (Spaanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Herzegowina) — tolfrii autobahne önj Belgien, Andorra, Nedderlönje, Luxemburg, Düütsklönj, San Marino, Liechtenstein, Monaco, Malta, Polen (bihaale trii konzessionsstriaken), Feriind Köningriek, Irlönj, Man, Denemark, Norwegen, Sweden, Finlönj, di Ålandeeilönj, Montenegro, Albanien an Kosovo; iaarli vignet önj dai Swiits, önj Österiek, önj Tschechien, önj di Slowakei, önj Ungarn an önj Slowenien (nian tol per reise) — nian tol jam nian vignet önj Guernsey an Jersey.',
+      'footer.text': 'Kurs tu det unbekannte — en spöölsk generator, nian dooten wårde ai fuurtstüürd. Gemiine: IGN / geo.api.gouv.fr (Etalab) foor Frankrik, GeoNames (CC-BY-lizens) foor Andorra, Spaanien, Portugal, Belgien, Nedderlönje, Luxemburg, dai Swiits, Düütsklönj, Italien, Österiek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, di Slowakei, Ungarn, Slowenien, Kroatien, Bosnien-Herzegowina, det Feriind Köningriek, Irlönj, Man, Denemark, Norwegen, Sweden, Finlönj, di Ålandeeilönj, Montenegro, Albanien, Kosovo, Serbien an Nordmazedonien. Sååchtjensweerdiheeden an kaart-uunergrünj: © dai OpenStreetMap-mäduurbeeders (ODbL-lizens). Tol: VINCI Autoroutes (Frankrik), Autopistas (Spaanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Nordmazedonien) — tolfrii autobahne önj Belgien, Andorra, Nedderlönje, Luxemburg, Düütsklönj, San Marino, Liechtenstein, Monaco, Malta, Polen (bihaale trii konzessionsstriaken), Feriind Köningriek, Irlönj, Man, Denemark, Norwegen, Sweden, Finlönj, di Ålandeeilönj, Montenegro, Albanien an Kosovo; iaarli vignet önj dai Swiits, önj Österiek, önj Tschechien, önj di Slowakei, önj Ungarn an önj Slowenien (nian tol per reise) — nian tol jam nian vignet önj Guernsey an Jersey.',
       'footer.legalMentions': 'Juristisk uunwiisinge',
       'footer.privacyPolicy': 'Dooten-schuts',
       'footer.translationDisclaimer': 'Di App as uun fael spriaken uursaat wurn en kon fehler haa — schriuw üs gjarne tu contact@lume419.fr.',
@@ -3084,7 +3084,7 @@
 
       'again.button': 'Tirare un\'àtera destinatzione',
 
-      'footer.text': 'Rutta a s\'ignotu — unu generadore ludicu, peruna dada benit imbiada in logu perunu. Biddas: IGN / geo.api.gouv.fr (Etalab) pro sa Frantza, GeoNames (litzèntzia CC-BY) pro Andorra, Ispagna, Portugallu, Belgiu, Bassos Paisos, Lussemburgu, Isvìtzera, Germània, Itàlia, Àustria, Santu Marinu, Liechtenstein, Mònaco, Malta, Guernsey, Jersey, sa Repùblica Tzeca, sa Polònia, sa Eslovachia, s\'Ungheria, s\'Eslovenia, sa Croàtzia, sa Bosnia-Erzegòvina, su Regnu Unidu, s\'Irlanda, s\'Ìsula de Man, sa Danimarca, sa Norvègia, sa Svètzia, sa Finlàndia, is ìsulas Åland, su Montenegro, s\'Albania e su Kosovo. Puntos de interessu e fundale de mapa: © is contribuidores de OpenStreetMap (litzèntzia ODbL). Pedàgios: VINCI Autoroutes (Frantza), Autopistas (Ispagna), Via Verde/Ascendi (Portugallu), Autostrade per l\'Italia (Itàlia), HAC (Croàtzia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina) — autostradas gratuitas in Belgiu, Andorra, in is Bassos Paisos, in Lussemburgu, in Germània, in Santu Marinu, in Liechtenstein, in Mònaco, in Malta, in sa Polònia (francu tres tratos in cuncessione), in su Regnu Unidu, in s\'Irlanda, in s\'Ìsula de Man, in sa Danimarca, in sa Norvègia, in sa Svètzia, in sa Finlàndia, in is ìsulas Åland, in su Montenegro, in s\'Albania e in su Kosovo; vignetta annuale in Isvìtzera, in Àustria, in sa Repùblica Tzeca, in sa Eslovachia, in s\'Ungheria e in s\'Eslovenia (peruna pedàgiu a biàgiu) — peruna pedàgiu ne vignetta in Guernsey e Jersey.',
+      'footer.text': 'Rutta a s\'ignotu — unu generadore ludicu, peruna dada benit imbiada in logu perunu. Biddas: IGN / geo.api.gouv.fr (Etalab) pro sa Frantza, GeoNames (litzèntzia CC-BY) pro Andorra, Ispagna, Portugallu, Belgiu, Bassos Paisos, Lussemburgu, Isvìtzera, Germània, Itàlia, Àustria, Santu Marinu, Liechtenstein, Mònaco, Malta, Guernsey, Jersey, sa Repùblica Tzeca, sa Polònia, sa Eslovachia, s\'Ungheria, s\'Eslovenia, sa Croàtzia, sa Bosnia-Erzegòvina, su Regnu Unidu, s\'Irlanda, s\'Ìsula de Man, sa Danimarca, sa Norvègia, sa Svètzia, sa Finlàndia, is ìsulas Åland, su Montenegro, s\'Albania, su Kosovo, sa Serbia e sa Macedònia de su Nord. Puntos de interessu e fundale de mapa: © is contribuidores de OpenStreetMap (litzèntzia ODbL). Pedàgios: VINCI Autoroutes (Frantza), Autopistas (Ispagna), Via Verde/Ascendi (Portugallu), Autostrade per l\'Italia (Itàlia), HAC (Croàtzia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina), Putevi Srbije (Serbia), JP za državni patišta (Macedònia de su Nord) — autostradas gratuitas in Belgiu, Andorra, in is Bassos Paisos, in Lussemburgu, in Germània, in Santu Marinu, in Liechtenstein, in Mònaco, in Malta, in sa Polònia (francu tres tratos in cuncessione), in su Regnu Unidu, in s\'Irlanda, in s\'Ìsula de Man, in sa Danimarca, in sa Norvègia, in sa Svètzia, in sa Finlàndia, in is ìsulas Åland, in su Montenegro, in s\'Albania e in su Kosovo; vignetta annuale in Isvìtzera, in Àustria, in sa Repùblica Tzeca, in sa Eslovachia, in s\'Ungheria e in s\'Eslovenia (peruna pedàgiu a biàgiu) — peruna pedàgiu ne vignetta in Guernsey e Jersey.',
       'footer.legalMentions': 'Notas legales',
       'footer.privacyPolicy': 'Polìtica de riservadesa',
       'footer.translationDisclaimer': "S'interfaccia est istada tradusida in medas limbas e podet cuntenner errores — no esitedas a lu sinnalare a contact@lume419.fr.",
@@ -3322,7 +3322,7 @@
 
       'again.button': 'Gjavâ une altre destinazion',
 
-      'footer.text': 'Rote viers l\'ignot — un gjeneradôr ludic, nissun dât al ven mai mandât in nissun puest. Comuns: IGN / geo.api.gouv.fr (Etalab) pe Francie, GeoNames (licence CC-BY) par Andore, Spagne, Portugal, Belgjiche, Paîs Bas, Lussemburc, Svuizare, Gjermanie, Italie, Austrie, San Marin, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republiche Ceche, la Polonie, la Slovachie, la Ongjarie, la Slovenie, la Croazie, la Bosnie-Erzegovine, il Ream Unît, la Irlande, la Isule di Man, la Danimarcje, la Norvegjie, la Svezie, la Finlandie, lis isulis Åland, il Montenegro, la Albanie e il Kosovo. Ponts di interès e fondâl di mape: © i contribuents di OpenStreetMap (licence ODbL). Pedaçs: VINCI Autoroutes (Francie), Autopistas (Spagne), Via Verde/Ascendi (Portugal), Autostrade per l\'Italia (Italie), HAC (Croazie), Autoceste FBiH/Autoputevi RS (Bosnie-Erzegovine) — autostradis gratuitis in Belgjiche, Andore, tai Paîs Bas, in Lussemburc, in Gjermanie, in San Marin, in Liechtenstein, in Monaco, in Malta, in Polonie (infûr di trê tratis in concession), tal Ream Unît, in Irlande, te Isule di Man, in Danimarcje, in Norvegjie, in Svezie, in Finlandie, tes isulis Åland, in Montenegro, in Albanie e in Kosovo; vignete anuâl in Svuizare, in Austrie, in Republiche Ceche, in Slovachie, in Ongjarie e in Slovenie (nissun pedaç par viaç) — nissun pedaç ni vignete a Guernsey e Jersey.',
+      'footer.text': 'Rote viers l\'ignot — un gjeneradôr ludic, nissun dât al ven mai mandât in nissun puest. Comuns: IGN / geo.api.gouv.fr (Etalab) pe Francie, GeoNames (licence CC-BY) par Andore, Spagne, Portugal, Belgjiche, Paîs Bas, Lussemburc, Svuizare, Gjermanie, Italie, Austrie, San Marin, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republiche Ceche, la Polonie, la Slovachie, la Ongjarie, la Slovenie, la Croazie, la Bosnie-Erzegovine, il Ream Unît, la Irlande, la Isule di Man, la Danimarcje, la Norvegjie, la Svezie, la Finlandie, lis isulis Åland, il Montenegro, la Albanie, il Kosovo, la Serbie e la Macedonie dal Nord. Ponts di interès e fondâl di mape: © i contribuents di OpenStreetMap (licence ODbL). Pedaçs: VINCI Autoroutes (Francie), Autopistas (Spagne), Via Verde/Ascendi (Portugal), Autostrade per l\'Italia (Italie), HAC (Croazie), Autoceste FBiH/Autoputevi RS (Bosnie-Erzegovine), Putevi Srbije (Serbie), JP za državni patišta (Macedonie dal Nord) — autostradis gratuitis in Belgjiche, Andore, tai Paîs Bas, in Lussemburc, in Gjermanie, in San Marin, in Liechtenstein, in Monaco, in Malta, in Polonie (infûr di trê tratis in concession), tal Ream Unît, in Irlande, te Isule di Man, in Danimarcje, in Norvegjie, in Svezie, in Finlandie, tes isulis Åland, in Montenegro, in Albanie e in Kosovo; vignete anuâl in Svuizare, in Austrie, in Republiche Ceche, in Slovachie, in Ongjarie e in Slovenie (nissun pedaç par viaç) — nissun pedaç ni vignete a Guernsey e Jersey.',
       'footer.legalMentions': 'Notis legâls',
       'footer.privacyPolicy': 'Politiche di riservatece',
       'footer.translationDisclaimer': 'La interface e je stade voltade in tantis lenghis e e pues contignî erôrs — no stait a esitâ a segnalâju a contact@lume419.fr.',
@@ -3564,7 +3564,7 @@
 
       'again.button': 'Tré jö n\'atra destinazion',
 
-      'footer.text': 'Rota vers l\'ignot — n generadú lujec, degun dat vëgn mai menà en degun post. Comuns: IGN / geo.api.gouv.fr (Etalab) per la Franzia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogal, Belgio, Paejes Bas, Lussemburg, Svizera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica Ceca, la Polonia, la Slovachia, l\'Ongaria, la Slovenia, la Croazia, la Bosnia-Erzegòvina, le Regn Unì, la Irlanda, la Ìsola de Man, la Danimarcia, la Norvegia, la Svezia, la Finlandia, les ìsoles Åland, le Montenegro, l\'Albania y le Kosovo. Ponc de interess y sfont de ciarta: © i contribuënc de OpenStreetMap (licenza ODbL). Pedaje: VINCI Autoroutes (Franzia), Autopistas (Spagna), Via Verde/Ascendi (Portogal), Autostrade per l\'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina) — autostrades debann te Belgio, Andorra, ti Paejes Bas, en Lussemburg, en Germania, en San Marino, en Liechtenstein, en Monaco, en Malta, en Polonia (fòra de trëi tòcs en concescion), en Regn Unì, en Irlanda, tla Ìsola de Man, en Danimarcia, en Norvegia, en Svezia, en Finlandia, tles ìsoles Åland, en Montenegro, en Albania y en Kosovo; vignetta anuala en Svizera, en Austria, en la Republica Ceca, en Slovachia, en Ongaria y en Slovenia (degun pedaje per viac) — degun pedaje ne vignetta a Guernsey y Jersey.',
+      'footer.text': 'Rota vers l\'ignot — n generadú lujec, degun dat vëgn mai menà en degun post. Comuns: IGN / geo.api.gouv.fr (Etalab) per la Franzia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogal, Belgio, Paejes Bas, Lussemburg, Svizera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica Ceca, la Polonia, la Slovachia, l\'Ongaria, la Slovenia, la Croazia, la Bosnia-Erzegòvina, le Regn Unì, la Irlanda, la Ìsola de Man, la Danimarcia, la Norvegia, la Svezia, la Finlandia, les ìsoles Åland, le Montenegro, l\'Albania, le Kosovo, la Serbia y la Macedonia dl Nord. Ponc de interess y sfont de ciarta: © i contribuënc de OpenStreetMap (licenza ODbL). Pedaje: VINCI Autoroutes (Franzia), Autopistas (Spagna), Via Verde/Ascendi (Portogal), Autostrade per l\'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia dl Nord) — autostrades debann te Belgio, Andorra, ti Paejes Bas, en Lussemburg, en Germania, en San Marino, en Liechtenstein, en Monaco, en Malta, en Polonia (fòra de trëi tòcs en concescion), en Regn Unì, en Irlanda, tla Ìsola de Man, en Danimarcia, en Norvegia, en Svezia, en Finlandia, tles ìsoles Åland, en Montenegro, en Albania y en Kosovo; vignetta anuala en Svizera, en Austria, en la Republica Ceca, en Slovachia, en Ongaria y en Slovenia (degun pedaje per viac) — degun pedaje ne vignetta a Guernsey y Jersey.',
       'footer.legalMentions': 'Aviejes legales',
       'footer.privacyPolicy': 'Politica de privatëza',
       'footer.translationDisclaimer': "L'interfaza é stata tradota en truep lingac y pó conté eror — no sté a fé debojego a i segnalé a contact@lume419.fr.",
@@ -3803,7 +3803,7 @@
 
       'again.button': 'Iġbed destinazzjoni oħra',
 
-      'footer.text': "Rotta lejn l-mhux magħruf — ġeneratur ludiku, l-ebda data ma tintbagħat imkien. Bliet: IGN / geo.api.gouv.fr (Etalab) għal Franza, GeoNames (liċenzja CC-BY) għal Andorra, Spanja, il-Portugall, il-Belġju, l-Olanda, il-Lussemburgu, l-Isvizzera, il-Ġermanja, l-Italja, l-Awstrija, San Marino, il-Liechtenstein, Monaco, Malta, Guernsey, Jersey, ir-Repubblika Ċeka, il-Polonja, is-Slovakkja, l-Ungerija, is-Slovenja, il-Kroazja, il-Bosnja-Ħerzegovina, ir-Renju Unit, l-Irlanda, il-Gżira ta' Man, id-Danimarka, in-Norveġja, l-Isvezja, il-Finlandja, il-Gżejjer Åland, il-Montenegro, l-Albanija u l-Kosovo. Postijiet ta' interess u sfond tal-mappa: © il-kontributuri ta' OpenStreetMap (liċenzja ODbL). Pedaġġi: VINCI Autoroutes (Franza), Autopistas (Spanja), Via Verde/Ascendi (il-Portugall), Autostrade per l'Italia (l-Italja), HAC (il-Kroazja), Autoceste FBiH/Autoputevi RS (il-Bosnja-Ħerzegovina) — awtostradi b'xejn fil-Belġju, f'Andorra, fl-Olanda, fil-Lussemburgu, fil-Ġermanja, f'San Marino, fil-Liechtenstein, f'Monaco, f'Malta, fil-Polonja (ħlief tliet sezzjonijiet ikkonċessjonati), fir-Renju Unit, fl-Irlanda, fil-Gżira ta' Man, fid-Danimarka, fin-Norveġja, fl-Isvezja, fil-Finlandja, fil-Gżejjer Åland, fil-Montenegro, fl-Albanija u fil-Kosovo; vinjetta annwali fl-Isvizzera, fl-Awstrija, fir-Repubblika Ċeka, fis-Slovakkja, fl-Ungerija u fis-Slovenja (l-ebda pedaġġ għal kull vjaġġ) — l-ebda pedaġġ jew vinjetta f'Guernsey u Jersey.",
+      'footer.text': "Rotta lejn l-mhux magħruf — ġeneratur ludiku, l-ebda data ma tintbagħat imkien. Bliet: IGN / geo.api.gouv.fr (Etalab) għal Franza, GeoNames (liċenzja CC-BY) għal Andorra, Spanja, il-Portugall, il-Belġju, l-Olanda, il-Lussemburgu, l-Isvizzera, il-Ġermanja, l-Italja, l-Awstrija, San Marino, il-Liechtenstein, Monaco, Malta, Guernsey, Jersey, ir-Repubblika Ċeka, il-Polonja, is-Slovakkja, l-Ungerija, is-Slovenja, il-Kroazja, il-Bosnja-Ħerzegovina, ir-Renju Unit, l-Irlanda, il-Gżira ta' Man, id-Danimarka, in-Norveġja, l-Isvezja, il-Finlandja, il-Gżejjer Åland, il-Montenegro, l-Albanija, il-Kosovo, is-Serbja u l-Maċedonja ta' Fuq. Postijiet ta' interess u sfond tal-mappa: © il-kontributuri ta' OpenStreetMap (liċenzja ODbL). Pedaġġi: VINCI Autoroutes (Franza), Autopistas (Spanja), Via Verde/Ascendi (il-Portugall), Autostrade per l'Italia (l-Italja), HAC (il-Kroazja), Autoceste FBiH/Autoputevi RS (il-Bosnja-Ħerzegovina), Putevi Srbije (is-Serbja), JP za državni patišta (il-Maċedonja ta' Fuq) — awtostradi b'xejn fil-Belġju, f'Andorra, fl-Olanda, fil-Lussemburgu, fil-Ġermanja, f'San Marino, fil-Liechtenstein, f'Monaco, f'Malta, fil-Polonja (ħlief tliet sezzjonijiet ikkonċessjonati), fir-Renju Unit, fl-Irlanda, fil-Gżira ta' Man, fid-Danimarka, fin-Norveġja, fl-Isvezja, fil-Finlandja, fil-Gżejjer Åland, fil-Montenegro, fl-Albanija u fil-Kosovo; vinjetta annwali fl-Isvizzera, fl-Awstrija, fir-Repubblika Ċeka, fis-Slovakkja, fl-Ungerija u fis-Slovenja (l-ebda pedaġġ għal kull vjaġġ) — l-ebda pedaġġ jew vinjetta f'Guernsey u Jersey.",
       'footer.legalMentions': 'Avviż legali',
       'footer.privacyPolicy': 'Politika tal-privatezza',
       'footer.translationDisclaimer': "L-interfaċċja ġiet tradotta f'ħafna lingwi u tista' fiha żbalji — tibżax tirrapportahom lil contact@lume419.fr.",
@@ -4053,7 +4053,7 @@
 
       'again.button': 'Tirâ un\'atra destinaçion',
 
-      'footer.text': "Rotta versu l'incoegnusciûu — generatû ludicu, nisciunn-a dæta a l'è mandâ da nisciunn-a parte. Çittæ: IGN / geo.api.gouv.fr (Etalab) pe-a Franza, GeoNames (liçensa CC-BY) pe l'Andorra, a Spagna, u Portugallo, u Belgio, i Paixi Basci, u Lussemburgo, a Sviçera, a Germania, l'Italia, l'Austria, San Marin, u Liechtenstein, Mùnegu, Malta, Guernesey, Jersey, a Repùbrica Céca, a Pòlonia, a Slovacchia, l'Ungaria, a Slovenia, a Croazia, a Bosnia-Erzegòvina, u Regnu Unïu, l'Irlanda, l'Isoa de Man, a Danimarca, a Norvegia, a Svezia, a Finlandia, e ìsoe Åland, u Montenegro, l'Albania e u Kosovo. Punti d'interesse e fondo de carta: © i contribuenti d'OpenStreetMap (liçensa ODbL). Pedaggi: VINCI Autoroutes (Franza), Autopistas (Spagna), Via Verde/Ascendi (Portugallo), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina) — autostrade grattis in Belgio, in Andorra, in di Paixi Basci, in Lussemburgo, in Germania, à San Marin, in Liechtenstein, à Mùnegu, à Malta, in-a Pòlonia (fêua trei tòcchi in concescion), in-u Regnu Unïu, in-a Irlanda, in l'Isoa de Man, in-a Danimarca, in-a Norvegia, in-a Svezia, in-a Finlandia, inte ìsoe Åland, in-u Montenegro, in-a Albania e in-u Kosovo; vignetta anuâ in Sviçera, in Austria, in-a Repùbrica Céca, in-a Slovacchia, in l'Ungaria e in-a Slovenia (nisciun pedaggiu pe percorsu) — nisciun pedaggiu nì vignetta in Guernesey e Jersey.",
+      'footer.text': "Rotta versu l'incoegnusciûu — generatû ludicu, nisciunn-a dæta a l'è mandâ da nisciunn-a parte. Çittæ: IGN / geo.api.gouv.fr (Etalab) pe-a Franza, GeoNames (liçensa CC-BY) pe l'Andorra, a Spagna, u Portugallo, u Belgio, i Paixi Basci, u Lussemburgo, a Sviçera, a Germania, l'Italia, l'Austria, San Marin, u Liechtenstein, Mùnegu, Malta, Guernesey, Jersey, a Repùbrica Céca, a Pòlonia, a Slovacchia, l'Ungaria, a Slovenia, a Croazia, a Bosnia-Erzegòvina, u Regnu Unïu, l'Irlanda, l'Isoa de Man, a Danimarca, a Norvegia, a Svezia, a Finlandia, e ìsoe Åland, u Montenegro, l'Albania, u Kosovo, a Serbia e a Macedònia du Nord. Punti d'interesse e fondo de carta: © i contribuenti d'OpenStreetMap (liçensa ODbL). Pedaggi: VINCI Autoroutes (Franza), Autopistas (Spagna), Via Verde/Ascendi (Portugallo), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina), Putevi Srbije (Serbia), JP za državni patišta (Macedònia du Nord) — autostrade grattis in Belgio, in Andorra, in di Paixi Basci, in Lussemburgo, in Germania, à San Marin, in Liechtenstein, à Mùnegu, à Malta, in-a Pòlonia (fêua trei tòcchi in concescion), in-u Regnu Unïu, in-a Irlanda, in l'Isoa de Man, in-a Danimarca, in-a Norvegia, in-a Svezia, in-a Finlandia, inte ìsoe Åland, in-u Montenegro, in-a Albania e in-u Kosovo; vignetta anuâ in Sviçera, in Austria, in-a Repùbrica Céca, in-a Slovacchia, in l'Ungaria e in-a Slovenia (nisciun pedaggiu pe percorsu) — nisciun pedaggiu nì vignetta in Guernesey e Jersey.",
       'footer.legalMentions': 'Mençioin legâ',
       'footer.privacyPolicy': 'Polìtica de privacy',
       'footer.translationDisclaimer': "L'interfacia a l'é stæta tradûta in ciù lengue e a peu contegnî erôri — no stæ à ëse tìmidi à segnalâli à contact@lume419.fr.",
@@ -4290,7 +4290,7 @@
 
       'again.button': "Tither eune aut' destinâtion",
 
-      'footer.text': "Route vers l'inconnu — générateux amusant, pon d'donnée n'est janmais envyée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pouor la France, GeoNames (licence CC-BY) pouor l'Andorre, l'Êspagne, l'Portûgal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesy, Jèrri, la Républyique tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, l'Rouoyaume Unni, l'Irlande, l'Île Man, l'Danmark, la Norvège, la Suède, la Finlande, les Îles Åland, l'Monténégro, l'Albanie et l'Kosovo. Liuchets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portûgal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (fauf trais bonds concédés), au Rouoyaume Unni, en Irlande, à l'Île Man, au Danmark, en Norvège, en Suède, en Finlande, ès Îles Åland, au Monténégro, en Albanie et au Kosovo ; vigniette annuelle en Suisse, en Autriche, en Républyique tchèque, en Slovaquie, en Hongrie et en Slovénie (pon d'péage au bond) — pon d'péage ni d'vigniette à Guernesy et Jèrri.",
+      'footer.text': "Route vers l'inconnu — générateux amusant, pon d'donnée n'est janmais envyée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pouor la France, GeoNames (licence CC-BY) pouor l'Andorre, l'Êspagne, l'Portûgal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesy, Jèrri, la Républyique tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, l'Rouoyaume Unni, l'Irlande, l'Île Man, l'Danmark, la Norvège, la Suède, la Finlande, les Îles Åland, l'Monténégro, l'Albanie, l'Kosovo, la Serbie et la Macédonie du Nord. Liuchets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portûgal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine), Putevi Srbije (Serbie), JP za državni patišta (Macédonie du Nord) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (fauf trais bonds concédés), au Rouoyaume Unni, en Irlande, à l'Île Man, au Danmark, en Norvège, en Suède, en Finlande, ès Îles Åland, au Monténégro, en Albanie et au Kosovo ; vigniette annuelle en Suisse, en Autriche, en Républyique tchèque, en Slovaquie, en Hongrie et en Slovénie (pon d'péage au bond) — pon d'péage ni d'vigniette à Guernesy et Jèrri.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': "Politique d'privachetè",
       'footer.translationDisclaimer': "L'sit a été traduit dans pliusieurs langues et peut contènîn des fautes — n'hésitez pon à nos les signaler à contact@lume419.fr.",
@@ -4531,7 +4531,7 @@
 
       'again.button': "Tithaïr eune aute destination",
 
-      'footer.text': "Routte vers l'inconnu — générateur amusant, nou n'envaie jamais d'donnée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Êspagne, l'Portugal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesi, Jèrri, la République tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, l'Rouoyaume Uni, l'Irlande, l'Île Man, l'Danmark, la Norvège, la Suède, la Finlande, les Îles Åland, l'Monténégro, l'Albanie et l'Kosovo. Liuets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (sauf trais bonds concédés), au Rouoyaume Uni, en Irlande, à l'Île Man, au Danmark, en Norvège, en Suède, en Finlande, ès Îles Åland, au Monténégro, en Albanie et au Kosovo ; vignette annuelle en Suisse, en Autriche, en République tchèque, en Slovaquie, en Hongrie et en Slovénie (pon d'péage au bond) — pon d'péage ni d'vignette à Guernesi et Jèrri.",
+      'footer.text': "Routte vers l'inconnu — générateur amusant, nou n'envaie jamais d'donnée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Êspagne, l'Portugal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesi, Jèrri, la République tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, l'Rouoyaume Uni, l'Irlande, l'Île Man, l'Danmark, la Norvège, la Suède, la Finlande, les Îles Åland, l'Monténégro, l'Albanie, l'Kosovo, la Serbie et la Macédonie du Nord. Liuets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine), Putevi Srbije (Serbie), JP za državni patišta (Macédonie du Nord) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (sauf trais bonds concédés), au Rouoyaume Uni, en Irlande, à l'Île Man, au Danmark, en Norvège, en Suède, en Finlande, ès Îles Åland, au Monténégro, en Albanie et au Kosovo ; vignette annuelle en Suisse, en Autriche, en République tchèque, en Slovaquie, en Hongrie et en Slovénie (pon d'péage au bond) — pon d'péage ni d'vignette à Guernesi et Jèrri.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': "Politique d'privachetè",
       'footer.translationDisclaimer': "L'sit a été traduit dans pliusieurs langues et peut contni des fautes — n'hésitez pon à nouos les signaler à contact@lume419.fr.",
@@ -4774,7 +4774,7 @@
 
       'again.button': 'Wëlosowac jinszi cél',
 
-      'footer.text': 'Kùrs na nieznóné — zabôwny generatór, żódné dôwné nie są nigdë nikąd wësłóné. Gardë: IGN / geo.api.gouv.fr (Etalab) dlô Francji, GeoNames (licencjô CC-BY) dlô Andorë, Szpaniji, Pòrtugaliji, Belgii, Niderlandów, Lëksemburga, Szwajcariji, Miemiec, Italiji, Aùstriji, San Marina, Liechtensteinu, Monaka, Malti, Guernsey, Jersey, Czeskijè Repùbliczi, Pòlsczi, Słowacëji, Wãgier, Słowieniji, Chòrwacëji, Bòsni ë Hercegòwiny, Zjednónégò Królestwa, Irlandëji, Wëspë Man, Danii, Norwegii, Szwecëji, Fińsczi, Wësp Åland, Czorny Górë, Albanii ë Kosowa. Môle interesu ë spódk mapë: © wespółrobôrze OpenStreetMap (licencjô ODbL). Ùpłatë: VINCI Autoroutes (Francjô), Autopistas (Szpanijô), Via Verde/Ascendi (Pòrtugaliô), Autostrade per l\'Italia (Italiô), HAC (Chòrwacjô), Autoceste FBiH/Autoputevi RS (Bòsniô ë Hercegòwina) — darmòwé autostradë w Belgii, w Andorze, w Niderlandach, w Lëksemburgù, w Miemcach, w San Marinie, w Liechtensteinie, w Monakù, na Malce, w Pòlsce, w Zjednónym Królestwie, w Irlandii, na Wëspie Man, w Danii, w Norwegii, w Szwecëji, w Finsce, na Wëspach Åland, w Czorny Górze, w Albanii ë na Kosowie; roczné winiete w Szwajcariji, w Aùstriji, w Czeskji Repùblice, w Słowacëji, w Wãgrach ë w Słowieniji (bez ùpłatë za drogã) — bez ùpłatë ani winietë na Guernsey ë Jersey.',
+      'footer.text': 'Kùrs na nieznóné — zabôwny generatór, żódné dôwné nie są nigdë nikąd wësłóné. Gardë: IGN / geo.api.gouv.fr (Etalab) dlô Francji, GeoNames (licencjô CC-BY) dlô Andorë, Szpaniji, Pòrtugaliji, Belgii, Niderlandów, Lëksemburga, Szwajcariji, Miemiec, Italiji, Aùstriji, San Marina, Liechtensteinu, Monaka, Malti, Guernsey, Jersey, Czeskijè Repùbliczi, Pòlsczi, Słowacëji, Wãgier, Słowieniji, Chòrwacëji, Bòsni ë Hercegòwiny, Zjednónégò Królestwa, Irlandëji, Wëspë Man, Danii, Norwegii, Szwecëji, Fińsczi, Wësp Åland, Czorny Górë, Albanii, Kosowa, Serbii ë Nordowi Macedoniji. Môle interesu ë spódk mapë: © wespółrobôrze OpenStreetMap (licencjô ODbL). Ùpłatë: VINCI Autoroutes (Francjô), Autopistas (Szpanijô), Via Verde/Ascendi (Pòrtugaliô), Autostrade per l\'Italia (Italiô), HAC (Chòrwacjô), Autoceste FBiH/Autoputevi RS (Bòsniô ë Hercegòwina), Putevi Srbije (Serbijô), JP za državni patišta (Nordowô Macedonijô) — darmòwé autostradë w Belgii, w Andorze, w Niderlandach, w Lëksemburgù, w Miemcach, w San Marinie, w Liechtensteinie, w Monakù, na Malce, w Pòlsce, w Zjednónym Królestwie, w Irlandii, na Wëspie Man, w Danii, w Norwegii, w Szwecëji, w Finsce, na Wëspach Åland, w Czorny Górze, w Albanii ë na Kosowie; roczné winiete w Szwajcariji, w Aùstriji, w Czeskji Repùblice, w Słowacëji, w Wãgrach ë w Słowieniji (bez ùpłatë za drogã) — bez ùpłatë ani winietë na Guernsey ë Jersey.',
       'footer.legalMentions': 'Prawné wëdowiedno',
       'footer.privacyPolicy': 'Pòliticzka priwatnoscë',
       'footer.translationDisclaimer': 'Interfejs òstôł przełożony na wiele jãzëków ë mòże zamëkac felë — proszã nie wachac sã zgłaszac je na contact@lume419.fr.',
@@ -5015,7 +5015,7 @@
 
       'again.button': 'Вылосовати иншу ціль',
 
-      'footer.text': 'Курс на незнаме — забавный ґенератор, жадны даны не суть николи никуды посылани. Міста: IGN / geo.api.gouv.fr (Etalab) про Францію, GeoNames (ліценция CC-BY) про Андору, Еспанію, Портуґалію, Бельґію, Нідерланды, Люксембурґ, Швайцарію, Німеччину, Італію, Австрію, Сан Марино, Ліхтенштайн, Монако, Мальту, Ґернзей, Джерзей, Чеську Республику, Польщу, Словакію, Мадярщину, Словенію, Хорватію, Боснію і Герцеговину, Сполучене Королівство, Ірландію, Острів Мен, Данію, Норвегію, Швецію, Фінляндію, Оландьскы Островы, Чорногорію, Албанію і Косово. Місця інтересу і тло мапы: © співробітникы OpenStreetMap (ліценция ODbL). Оплаты: VINCI Autoroutes (Франция), Autopistas (Еспанія), Via Verde/Ascendi (Портуґалія), Autostrade per l\'Italia (Італія), HAC (Хорватія), Autoceste FBiH/Autoputevi RS (Боснія і Герцеговина) — дармовы автострады в Бельґії, в Андорі, в Нідерландах, в Люксембурґу, в Німеччині, в Сан Марині, в Ліхтенштайні, в Монаку, на Мальті, в Польщі, в Сполученому Королівстві, в Ірландії, на Острові Мен, в Данії, в Норвегії, в Швеції, в Фінляндії, на Оландьскых Островах, в Чорногорії, в Албанії і на Косові; річна вінета в Швайцарії, в Австрії, в Чеській Республиці, в Словакії, в Мадярщині і в Словенії (без оплаты за дорогу) — без оплаты і без вінеты на Ґернзею і Джерзею.',
+      'footer.text': 'Курс на незнаме — забавный ґенератор, жадны даны не суть николи никуды посылани. Міста: IGN / geo.api.gouv.fr (Etalab) про Францію, GeoNames (ліценция CC-BY) про Андору, Еспанію, Портуґалію, Бельґію, Нідерланды, Люксембурґ, Швайцарію, Німеччину, Італію, Австрію, Сан Марино, Ліхтенштайн, Монако, Мальту, Ґернзей, Джерзей, Чеську Республику, Польщу, Словакію, Мадярщину, Словенію, Хорватію, Боснію і Герцеговину, Сполучене Королівство, Ірландію, Острів Мен, Данію, Норвегію, Швецію, Фінляндію, Оландьскы Островы, Чорногорію, Албанію, Косово, Сербію і Північну Македонію. Місця інтересу і тло мапы: © співробітникы OpenStreetMap (ліценция ODbL). Оплаты: VINCI Autoroutes (Франция), Autopistas (Еспанія), Via Verde/Ascendi (Портуґалія), Autostrade per l\'Italia (Італія), HAC (Хорватія), Autoceste FBiH/Autoputevi RS (Боснія і Герцеговина), Putevi Srbije (Сербія), JP za državni patišta (Північна Македонія) — дармовы автострады в Бельґії, в Андорі, в Нідерландах, в Люксембурґу, в Німеччині, в Сан Марині, в Ліхтенштайні, в Монаку, на Мальті, в Польщі, в Сполученому Королівстві, в Ірландії, на Острові Мен, в Данії, в Норвегії, в Швеції, в Фінляндії, на Оландьскых Островах, в Чорногорії, в Албанії і на Косові; річна вінета в Швайцарії, в Австрії, в Чеській Республиці, в Словакії, в Мадярщині і в Словенії (без оплаты за дорогу) — без оплаты і без вінеты на Ґернзею і Джерзею.',
       'footer.legalMentions': 'Правны звідомленя',
       'footer.privacyPolicy': 'Політика приватности',
       'footer.translationDisclaimer': 'Інтерфейс перекладеный на много языкы і може мати помылкы — не соромтеся повідомити о них на contact@lume419.fr.',
@@ -5261,7 +5261,7 @@
 
       'again.button': 'Trage la sorți altă țintă',
 
-      'footer.text': "Calea spre necunoscut — generator de joacă, nici o dată nu-i trimisă nicăiri. Sate: IGN / geo.api.gouv.fr (Etalab) pentru Franța, GeoNames (licență CC-BY) pentru Andorra, Spania, Portugalia, Belgia, Țările de Jos, Luxemburg, Elveția, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Republica Cehă, Polonia, Slovacia, Ungaria, Slovenia, Croația, Bosnia și Herțegovina, Regatul Unit, Irlanda, Insula Man, Danemarca, Norvegia, Suedia, Finlanda, Insulele Åland, Muntenegru, Albania și Kosovo. Locuri de interes și fond de hartă: © contribuitorii OpenStreetMap (licență ODbL). Taxe de drum: VINCI Autoroutes (Franța), Autopistas (Spania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Italia), HAC (Croația), Autoceste FBiH/Autoputevi RS (Bosnia și Herțegovina) — autostrăzi fără taxă în Belgia, în Andorra, în Țările de Jos, în Luxemburg, în Germania, în San Marino, în Liechtenstein, în Monaco, în Malta, în Polonia (afară de trei secții concesionate), în Regatul Unit, în Irlanda, în Insula Man, în Danemarca, în Norvegia, în Suedia, în Finlanda, în Insulele Åland, în Muntenegru, în Albania și în Kosovo ; vinietă anuală în Elveția, în Austria, în Republica Cehă, în Slovacia, în Ungaria și în Slovenia (fără taxă pe drum) — nici taxă nici vinietă în Guernsey și Jersey.",
+      'footer.text': "Calea spre necunoscut — generator de joacă, nici o dată nu-i trimisă nicăiri. Sate: IGN / geo.api.gouv.fr (Etalab) pentru Franța, GeoNames (licență CC-BY) pentru Andorra, Spania, Portugalia, Belgia, Țările de Jos, Luxemburg, Elveția, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Republica Cehă, Polonia, Slovacia, Ungaria, Slovenia, Croația, Bosnia și Herțegovina, Regatul Unit, Irlanda, Insula Man, Danemarca, Norvegia, Suedia, Finlanda, Insulele Åland, Muntenegru, Albania, Kosovo, Serbia și Macedonia de Nord. Locuri de interes și fond de hartă: © contribuitorii OpenStreetMap (licență ODbL). Taxe de drum: VINCI Autoroutes (Franța), Autopistas (Spania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Italia), HAC (Croația), Autoceste FBiH/Autoputevi RS (Bosnia și Herțegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia de Nord) — autostrăzi fără taxă în Belgia, în Andorra, în Țările de Jos, în Luxemburg, în Germania, în San Marino, în Liechtenstein, în Monaco, în Malta, în Polonia (afară de trei secții concesionate), în Regatul Unit, în Irlanda, în Insula Man, în Danemarca, în Norvegia, în Suedia, în Finlanda, în Insulele Åland, în Muntenegru, în Albania și în Kosovo ; vinietă anuală în Elveția, în Austria, în Republica Cehă, în Slovacia, în Ungaria și în Slovenia (fără taxă pe drum) — nici taxă nici vinietă în Guernsey și Jersey.",
       'footer.legalMentions': 'Mențiuni legale',
       'footer.privacyPolicy': 'Politica de confidențialitate',
       'footer.translationDisclaimer': 'Interfacea a fost tradusã ăn multe limbe şi poate avè greşeale — nu ştaţ min sã ni le zbăsteşt la contact@lume419.fr.',
@@ -5504,7 +5504,7 @@
 
       'again.button': 'Tornar a sortejar una altra destinació',
 
-      'footer.text': "Rumb a l'incògnita — generador lúdic, cap dada s'envia enlloc. Municipis: IGN / geo.api.gouv.fr (Etalab) per a França, GeoNames (llicència CC-BY) per a Andorra, Espanya, Portugal, Bèlgica, els Països Baixos, Luxemburg, Suïssa, Alemanya, Itàlia, Àustria, San Marino, Liechtenstein, Mònaco, Malta, Guernsey, Jersey, la República Txeca, Polònia, Eslovàquia, Hongria, Eslovènia, Croàcia, Bòsnia i Hercegovina, el Regne Unit, Irlanda, l'Illa de Man, Dinamarca, Noruega, Suècia, Finlàndia, les illes Åland, Montenegro, Albània i Kosovo. Punts d'interès i fons de mapa: © els col·laboradors d'OpenStreetMap (llicència ODbL). Peatges: VINCI Autoroutes (França), Autopistas (Espanya), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itàlia), HAC (Croàcia), Autoceste FBiH/Autoputevi RS (Bòsnia i Hercegovina) — autopistes gratuïtes a Bèlgica, a Andorra, als Països Baixos, a Luxemburg, a Alemanya, a San Marino, a Liechtenstein, a Mònaco, a Malta, a Polònia (excepte tres trams concessionats), al Regne Unit, a Irlanda, a l'Illa de Man, a Dinamarca, a Noruega, a Suècia, a Finlàndia, a les illes Åland, a Montenegro, a Albània i a Kosovo; vinyeta anual a Suïssa, a Àustria, a la República Txeca, a Eslovàquia, a Hongria i a Eslovènia (sense peatge per trajecte) — ni peatge ni vinyeta a Guernsey i Jersey.",
+      'footer.text': "Rumb a l'incògnita — generador lúdic, cap dada s'envia enlloc. Municipis: IGN / geo.api.gouv.fr (Etalab) per a França, GeoNames (llicència CC-BY) per a Andorra, Espanya, Portugal, Bèlgica, els Països Baixos, Luxemburg, Suïssa, Alemanya, Itàlia, Àustria, San Marino, Liechtenstein, Mònaco, Malta, Guernsey, Jersey, la República Txeca, Polònia, Eslovàquia, Hongria, Eslovènia, Croàcia, Bòsnia i Hercegovina, el Regne Unit, Irlanda, l'Illa de Man, Dinamarca, Noruega, Suècia, Finlàndia, les illes Åland, Montenegro, Albània, Kosovo, Sèrbia i Macedònia del Nord. Punts d'interès i fons de mapa: © els col·laboradors d'OpenStreetMap (llicència ODbL). Peatges: VINCI Autoroutes (França), Autopistas (Espanya), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itàlia), HAC (Croàcia), Autoceste FBiH/Autoputevi RS (Bòsnia i Hercegovina), Putevi Srbije (Sèrbia), JP za državni patišta (Macedònia del Nord) — autopistes gratuïtes a Bèlgica, a Andorra, als Països Baixos, a Luxemburg, a Alemanya, a San Marino, a Liechtenstein, a Mònaco, a Malta, a Polònia (excepte tres trams concessionats), al Regne Unit, a Irlanda, a l'Illa de Man, a Dinamarca, a Noruega, a Suècia, a Finlàndia, a les illes Åland, a Montenegro, a Albània i a Kosovo; vinyeta anual a Suïssa, a Àustria, a la República Txeca, a Eslovàquia, a Hongria i a Eslovènia (sense peatge per trajecte) — ni peatge ni vinyeta a Guernsey i Jersey.",
       'footer.legalMentions': 'Avís legal',
       'footer.privacyPolicy': 'Política de privacitat',
       'footer.translationDisclaimer': "La interfície s'ha traduït a nombrosos idiomes i pot contenir errors — no dubteu a informar-nos-en a contact@lume419.fr.",
@@ -5741,7 +5741,7 @@
 
       'again.button': 'Beste helmuga bat zozkatu',
 
-      'footer.text': "Ezezagunerantz — jolaserako sortzailea, daturik ez da inora bidaltzen. Udalerriak: IGN / geo.api.gouv.fr (Etalab) Frantziarako, GeoNames (CC-BY lizentzia) Andorrarako, Espainiarako, Portugalerako, Belgikarako, Herbehereetarako, Luxemburgorako, Suitzarako, Alemaniarako, Italiarako, Austriarako, San Marinorako, Liechtensteinerako, Monakorako, Maltarako, Guernseyrako, Jerseyrako, Txekiar Errepublikarako, Poloniarako, Eslovakiarako, Hungariarako, Esloveniarako, Kroaziarako, Bosnia-Herzegovinarako, Erresuma Batuarako, Irlandarako, Man uhartearako, Danimarkarako, Norvegiarako, Suediarako, Finlandiarako, Åland uharteetarako, Montenegrorako, Albaniarako eta Kosovorako. Interes-guneak eta mapa-oinarria: © OpenStreetMap-en kolaboratzaileak (ODbL lizentzia). Bidesariak: VINCI Autoroutes (Frantzia), Autopistas (Espainia), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroazia), Autoceste FBiH/Autoputevi RS (Bosnia-Herzegovina) — autobide doakoak Belgikan, Andorran, Herbehereetan, Luxemburgon, Alemanian, San Marinon, Liechtensteinen, Monakon, Maltan, Polonian (hiru kontzesio-atal izan ezik), Erresuma Batuan, Irlandan, Man uhartean, Danimarkan, Norvegian, Suedian, Finlandian, Åland uharteetan, Montenegron, Albanian eta Kosovon; urteko bineta Suitzan, Austrian, Txekiar Errepublikan, Eslovakian, Hungarian eta Eslovenian (bidaiako bidesaririk ez) — ez bidesaririk ez binetarik Guernseyn eta Jerseyn.",
+      'footer.text': "Ezezagunerantz — jolaserako sortzailea, daturik ez da inora bidaltzen. Udalerriak: IGN / geo.api.gouv.fr (Etalab) Frantziarako, GeoNames (CC-BY lizentzia) Andorrarako, Espainiarako, Portugalerako, Belgikarako, Herbehereetarako, Luxemburgorako, Suitzarako, Alemaniarako, Italiarako, Austriarako, San Marinorako, Liechtensteinerako, Monakorako, Maltarako, Guernseyrako, Jerseyrako, Txekiar Errepublikarako, Poloniarako, Eslovakiarako, Hungariarako, Esloveniarako, Kroaziarako, Bosnia-Herzegovinarako, Erresuma Batuarako, Irlandarako, Man uhartearako, Danimarkarako, Norvegiarako, Suediarako, Finlandiarako, Åland uharteetarako, Montenegrorako, Albaniarako, Kosovorako, Serbiarako eta Ipar Mazedoniarako. Interes-guneak eta mapa-oinarria: © OpenStreetMap-en kolaboratzaileak (ODbL lizentzia). Bidesariak: VINCI Autoroutes (Frantzia), Autopistas (Espainia), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroazia), Autoceste FBiH/Autoputevi RS (Bosnia-Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Ipar Mazedonia) — autobide doakoak Belgikan, Andorran, Herbehereetan, Luxemburgon, Alemanian, San Marinon, Liechtensteinen, Monakon, Maltan, Polonian (hiru kontzesio-atal izan ezik), Erresuma Batuan, Irlandan, Man uhartean, Danimarkan, Norvegian, Suedian, Finlandian, Åland uharteetan, Montenegron, Albanian eta Kosovon; urteko bineta Suitzan, Austrian, Txekiar Errepublikan, Eslovakian, Hungarian eta Eslovenian (bidaiako bidesaririk ez) — ez bidesaririk ez binetarik Guernseyn eta Jerseyn.",
       'footer.legalMentions': 'Lege-oharrak',
       'footer.privacyPolicy': 'Pribatutasun-politika',
       'footer.translationDisclaimer': 'Interfazea hizkuntza askotara itzuli da eta akatsak izan ditzake — ez izan zalantzarik horiek contact@lume419.fr helbidera jakinarazteko.',
@@ -5977,7 +5977,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumbo ao descoñecido — xerador lúdico, ningún dato se envía a ningures. Concellos: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licenza CC-BY) para Andorra, España, Portugal, Bélxica, os Países Baixos, Luxemburgo, Suíza, Alemaña, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, a República Checa, Polonia, Eslovaquia, Hungría, Eslovenia, Croacia, Bosnia e Hercegovina, o Reino Unido, Irlanda, a Illa de Man, Dinamarca, Noruega, Suecia, Finlandia, as illas Åland, Montenegro, Albania e Kosovo. Puntos de interese e fondo de mapa: © os colaboradores de OpenStreetMap (licenza ODbL). Peaxes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croacia), Autoceste FBiH/Autoputevi RS (Bosnia e Hercegovina) — autoestradas gratuítas en Bélxica, en Andorra, nos Países Baixos, en Luxemburgo, en Alemaña, en San Marino, en Liechtenstein, en Mónaco, en Malta, en Polonia (agás tres tramos concesionados), no Reino Unido, en Irlanda, na Illa de Man, en Dinamarca, en Noruega, en Suecia, en Finlandia, nas illas Åland, en Montenegro, en Albania e en Kosovo; viñeta anual en Suíza, en Austria, na República Checa, en Eslovaquia, en Hungría e en Eslovenia (sen peaxe por traxecto) — nin peaxe nin viñeta en Guernsey e Jersey.",
+      'footer.text': "Rumbo ao descoñecido — xerador lúdico, ningún dato se envía a ningures. Concellos: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licenza CC-BY) para Andorra, España, Portugal, Bélxica, os Países Baixos, Luxemburgo, Suíza, Alemaña, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, a República Checa, Polonia, Eslovaquia, Hungría, Eslovenia, Croacia, Bosnia e Hercegovina, o Reino Unido, Irlanda, a Illa de Man, Dinamarca, Noruega, Suecia, Finlandia, as illas Åland, Montenegro, Albania, Kosovo, Serbia e Macedonia do Norte. Puntos de interese e fondo de mapa: © os colaboradores de OpenStreetMap (licenza ODbL). Peaxes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croacia), Autoceste FBiH/Autoputevi RS (Bosnia e Hercegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia do Norte) — autoestradas gratuítas en Bélxica, en Andorra, nos Países Baixos, en Luxemburgo, en Alemaña, en San Marino, en Liechtenstein, en Mónaco, en Malta, en Polonia (agás tres tramos concesionados), no Reino Unido, en Irlanda, na Illa de Man, en Dinamarca, en Noruega, en Suecia, en Finlandia, nas illas Åland, en Montenegro, en Albania e en Kosovo; viñeta anual en Suíza, en Austria, na República Checa, en Eslovaquia, en Hungría e en Eslovenia (sen peaxe por traxecto) — nin peaxe nin viñeta en Guernsey e Jersey.",
       'footer.legalMentions': 'Avisos legais',
       'footer.privacyPolicy': 'Política de privacidade',
       'footer.translationDisclaimer': 'A interface foi traducida a numerosos idiomas e pode conter erros — non dubides en comunicalos a contact@lume419.fr.',
@@ -6217,7 +6217,7 @@
 
       'again.button': 'Tirar a sòrt una autra destinacion',
 
-      'footer.text': "Camin cap a l'incognit — generador ludic, cap de donada es pas mandada enlòc. Comunas : IGN / geo.api.gouv.fr (Etalab) per França, GeoNames (licéncia CC-BY) per Andòrra, Espanha, Portugal, Belgica, Païses Basses, Luxemborg, Soïssa, Alemanha, Itàlia, Àustria, Sant Marin, Liechtenstein, Mónegue, Malta, Guernesey, Jersey, Republica Chèca, Polonha, Eslovaquia, Ongria, Eslovenia, Croàcia, Bòsnia e Ercegovina, lo Reialme Unit, Irlanda, l'Illa de Man, Danemarc, Norvègia, Soècia, Finlàndia, las illas Åland, Montenegro, Albania e Kosovo. Luòcs d'interès e fons de mapa : © los contributors d'OpenStreetMap (licéncia ODbL). Pesatges : VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itàlia), HAC (Croàcia), Autoceste FBiH/Autoputevi RS (Bòsnia e Ercegovina) — autorotas gratuitas en Belgica, en Andòrra, en Païses Basses, en Luxemborg, en Alemanha, en Sant Marin, en Liechtenstein, en Mónegue, en Malta, en Polonha (levat tres tròces concedits), al Reialme Unit, en Irlanda, a l'Illa de Man, al Danemarc, en Norvègia, en Soècia, en Finlàndia, a las illas Åland, al Montenegro, en Albania e al Kosovo ; vinheta anuala en Soïssa, en Àustria, en Republica Chèca, en Eslovaquia, en Ongria e en Eslovenia (pas de pesatge pel trajècte) — ni pesatge ni vinheta a Guernesey e Jersey.",
+      'footer.text': "Camin cap a l'incognit — generador ludic, cap de donada es pas mandada enlòc. Comunas : IGN / geo.api.gouv.fr (Etalab) per França, GeoNames (licéncia CC-BY) per Andòrra, Espanha, Portugal, Belgica, Païses Basses, Luxemborg, Soïssa, Alemanha, Itàlia, Àustria, Sant Marin, Liechtenstein, Mónegue, Malta, Guernesey, Jersey, Republica Chèca, Polonha, Eslovaquia, Ongria, Eslovenia, Croàcia, Bòsnia e Ercegovina, lo Reialme Unit, Irlanda, l'Illa de Man, Danemarc, Norvègia, Soècia, Finlàndia, las illas Åland, Montenegro, Albania, Kosovo, Sèrbia e Macedònia del Nòrd. Luòcs d'interès e fons de mapa : © los contributors d'OpenStreetMap (licéncia ODbL). Pesatges : VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itàlia), HAC (Croàcia), Autoceste FBiH/Autoputevi RS (Bòsnia e Ercegovina), Putevi Srbije (Sèrbia), JP za državni patišta (Macedònia del Nòrd) — autorotas gratuitas en Belgica, en Andòrra, en Païses Basses, en Luxemborg, en Alemanha, en Sant Marin, en Liechtenstein, en Mónegue, en Malta, en Polonha (levat tres tròces concedits), al Reialme Unit, en Irlanda, a l'Illa de Man, al Danemarc, en Norvègia, en Soècia, en Finlàndia, a las illas Åland, al Montenegro, en Albania e al Kosovo ; vinheta anuala en Soïssa, en Àustria, en Republica Chèca, en Eslovaquia, en Ongria e en Eslovenia (pas de pesatge pel trajècte) — ni pesatge ni vinheta a Guernesey e Jersey.",
       'footer.legalMentions': 'Mencions legalas',
       'footer.privacyPolicy': 'Politica de confidencialitat',
       'footer.translationDisclaimer': "L'interfàcia es estada traducha en fòrça lengas e pòt conténer errors — esitetz pas a los senhalar a contact@lume419.fr.",
@@ -6456,7 +6456,7 @@
 
       'again.button': 'Tennañ d\'ar sord ur bal all',
 
-      'footer.text': "Kab war an dianav — ganerez c'hoariva, roadenn ebet kaset da netra. Kêrioù : IGN / geo.api.gouv.fr (Etalab) evit Frañs, GeoNames (aotre CC-BY) evit Andorra, Spagn, Portugal, Belgig, an Iseldiroù, Luksembourg, ar Suis, Alamagn, Italia, Aostria, San Marino, Liechtenstein, Monako, Malta, Guernraez, Jerzenez, ar Republik Tchek, Polonia, Slovakia, Hungaria, Slovenia, Kroatia, ar Bosnia-Herzegovina, ar Rouantelezh-Unanet, Iwerzhon, Enez Vanav, Danmark, Norvegia, Sveden, Finland, Inizi Åland, Montenegro, Albania ha Kosovo. Lec'hioù a-fed ha diazez kartenn : © kevelourien OpenStreetMap (aotre ODbL). Taolioù-hent : VINCI Autoroutes (Frañs), Autopistas (Spagn), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (ar Bosnia-Herzegovina) — treuzfentioù dieub e Belgig, en Andorra, en Iseldiroù, e Luksembourg, en Alamagn, e San Marino, e Liechtenstein, e Monako, e Malta, e Polonia (nemet teir zaol dalc'het), er Rouantelezh-Unanet, e Iwerzhon, en Enez Vanav, e Danmark, e Norvegia, e Sveden, e Finland, e Inizi Åland, e Montenegro, e Albania hag e Kosovo; skrid-hent bloavezhiek er Suis, en Aostria, er Republik Tchek, e Slovakia, e Hungaria hag e Slovenia (taol-hent ebet dre hent) — na taol-hent na skrid-hent e Guernraez ha Jerzenez.",
+      'footer.text': "Kab war an dianav — ganerez c'hoariva, roadenn ebet kaset da netra. Kêrioù : IGN / geo.api.gouv.fr (Etalab) evit Frañs, GeoNames (aotre CC-BY) evit Andorra, Spagn, Portugal, Belgig, an Iseldiroù, Luksembourg, ar Suis, Alamagn, Italia, Aostria, San Marino, Liechtenstein, Monako, Malta, Guernraez, Jerzenez, ar Republik Tchek, Polonia, Slovakia, Hungaria, Slovenia, Kroatia, ar Bosnia-Herzegovina, ar Rouantelezh-Unanet, Iwerzhon, Enez Vanav, Danmark, Norvegia, Sveden, Finland, Inizi Åland, Montenegro, Albania, Kosovo, Serbia ha Makedonia an Norzh. Lec'hioù a-fed ha diazez kartenn : © kevelourien OpenStreetMap (aotre ODbL). Taolioù-hent : VINCI Autoroutes (Frañs), Autopistas (Spagn), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (ar Bosnia-Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Makedonia an Norzh) — treuzfentioù dieub e Belgig, en Andorra, en Iseldiroù, e Luksembourg, en Alamagn, e San Marino, e Liechtenstein, e Monako, e Malta, e Polonia (nemet teir zaol dalc'het), er Rouantelezh-Unanet, e Iwerzhon, en Enez Vanav, e Danmark, e Norvegia, e Sveden, e Finland, e Inizi Åland, e Montenegro, e Albania hag e Kosovo; skrid-hent bloavezhiek er Suis, en Aostria, er Republik Tchek, e Slovakia, e Hungaria hag e Slovenia (taol-hent ebet dre hent) — na taol-hent na skrid-hent e Guernraez ha Jerzenez.",
       'footer.legalMentions': 'Menozioù lezennel',
       'footer.privacyPolicy': 'Politikerezh prevezded',
       'footer.translationDisclaimer': "Treuzskrivet eo bet an etrefas e meur a yezh ha gallout a ra bezañ fazioù enni — n'ho pet ket aon da ziskuliañ anezho da contact@lume419.fr.",
@@ -6693,7 +6693,7 @@
 
       'again.button': 'Tirà à sorte un\'altra destinazione',
 
-      'footer.text': "Rotta versu l'ignotu — generatore ludicu, nisun datu hè mandatu quì è culà. Cumuni : IGN / geo.api.gouv.fr (Etalab) per a Francia, GeoNames (licenza CC-BY) per l'Andorra, a Spagna, u Portogallu, u Belgiu, i Paesi Bassi, u Lussemburgu, a Svizzera, a Germania, l'Italia, l'Austria, San Marinu, u Liechtenstein, Munacu, Malta, Guernesey, Jersey, a Repubblica Ceca, a Polonia, a Slovacchia, l'Ungheria, a Slovenia, a Croazia, a Bosnia-Erzegovina, u Regnu Unitu, l'Irlanda, l'Isula di Man, a Danimarca, a Norvegia, a Svezia, a Finlandia, l'isule Åland, u Montenegro, l'Albania è u Kosovu. Lochi d'interessu è fondu di carta : © i cuntribuitori d'OpenStreetMap (licenza ODbL). Pedagi : VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallu), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegovina) — autostrade gratuite in Belgiu, in Andorra, in i Paesi Bassi, in Lussemburgu, in Germania, in San Marinu, in Liechtenstein, in Munacu, in Malta, in Polonia (francu trè tocchi cuncessati), in u Regnu Unitu, in Irlanda, in Isula di Man, in Danimarca, in Norvegia, in Svezia, in Finlandia, in l'isule Åland, in u Montenegro, in Albania è in u Kosovu ; vignetta annuale in Svizzera, in Austria, in Repubblica Ceca, in Slovacchia, in Ungheria è in Slovenia (nisun pedagiu per viaghju) — nè pedagiu nè vignetta in Guernesey è Jersey.",
+      'footer.text': "Rotta versu l'ignotu — generatore ludicu, nisun datu hè mandatu quì è culà. Cumuni : IGN / geo.api.gouv.fr (Etalab) per a Francia, GeoNames (licenza CC-BY) per l'Andorra, a Spagna, u Portogallu, u Belgiu, i Paesi Bassi, u Lussemburgu, a Svizzera, a Germania, l'Italia, l'Austria, San Marinu, u Liechtenstein, Munacu, Malta, Guernesey, Jersey, a Repubblica Ceca, a Polonia, a Slovacchia, l'Ungheria, a Slovenia, a Croazia, a Bosnia-Erzegovina, u Regnu Unitu, l'Irlanda, l'Isula di Man, a Danimarca, a Norvegia, a Svezia, a Finlandia, l'isule Åland, u Montenegro, l'Albania, u Kosovu, a Serbia è a Macedonia di u Nordu. Lochi d'interessu è fondu di carta : © i cuntribuitori d'OpenStreetMap (licenza ODbL). Pedagi : VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallu), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia di u Nordu) — autostrade gratuite in Belgiu, in Andorra, in i Paesi Bassi, in Lussemburgu, in Germania, in San Marinu, in Liechtenstein, in Munacu, in Malta, in Polonia (francu trè tocchi cuncessati), in u Regnu Unitu, in Irlanda, in Isula di Man, in Danimarca, in Norvegia, in Svezia, in Finlandia, in l'isule Åland, in u Montenegro, in Albania è in u Kosovu ; vignetta annuale in Svizzera, in Austria, in Repubblica Ceca, in Slovacchia, in Ungheria è in Slovenia (nisun pedagiu per viaghju) — nè pedagiu nè vignetta in Guernesey è Jersey.",
       'footer.legalMentions': 'Mizzioni legale',
       'footer.privacyPolicy': 'Pulitica di cunfidenzialità',
       'footer.translationDisclaimer': "L'interfaccia hè stata traduta in numerose lingue è pò cuntene sbagli — ùn esitate micca à signalalli à contact@lume419.fr.",
@@ -6930,7 +6930,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumo al'ancunhecido — generador lhúdico, nanhun dado ye ambiado pa nengun lhado. Cunceilhos: IGN / geo.api.gouv.fr (Etalab) pa la Fráncia, GeoNames (lecéncia CC-BY) pa Andorra, Spanha, Pertual, Béugica, ls Países Baixos, Luxemburgo, la Suíça, Alemanha, Eitália, Ustria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, la República Checa, Pulónia, Eslobáquia, Ungria, Eslobénia, Croácia, Bósnia-Herzegobina, l Reino Unido, la Irlanda, la Eilha de Man, la Dinamarca, la Noruega, la Suécia, la Finlándia, las eilhas Åland, l Montenegro, la Albánia i l Kosovo. Lugares de anteresse i fondo de mapa: © ls quelaboradores d'OpenStreetMap (lecéncia ODbL). Portaiges: VINCI Autoroutes (Fráncia), Autopistas (Spanha), Via Verde/Ascendi (Pertual), Autostrade per l'Italia (Eitália), HAC (Croácia), Autoceste FBiH/Autoputevi RS (Bósnia-Herzegobina) — outo-stradas de grácia an Béugica, an Andorra, ne ls Países Baixos, an Luxemburgo, an Alemanha, an San Marino, an Liechtenstein, an Mónaco, an Malta, an Pulónia (fura de trés trechos cuncedidos), ne l Reino Unido, na Irlanda, na Eilha de Man, na Dinamarca, na Noruega, na Suécia, na Finlándia, nas eilhas Åland, ne l Montenegro, na Albánia i ne l Kosovo; bineta anual na Suíça, na Ustria, na República Checa, na Eslobáquia, na Ungria i na Eslobénia (nanhun portaige por trajeto) — nin portaige nin bineta an Guernsey i Jersey.",
+      'footer.text': "Rumo al'ancunhecido — generador lhúdico, nanhun dado ye ambiado pa nengun lhado. Cunceilhos: IGN / geo.api.gouv.fr (Etalab) pa la Fráncia, GeoNames (lecéncia CC-BY) pa Andorra, Spanha, Pertual, Béugica, ls Países Baixos, Luxemburgo, la Suíça, Alemanha, Eitália, Ustria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, la República Checa, Pulónia, Eslobáquia, Ungria, Eslobénia, Croácia, Bósnia-Herzegobina, l Reino Unido, la Irlanda, la Eilha de Man, la Dinamarca, la Noruega, la Suécia, la Finlándia, las eilhas Åland, l Montenegro, la Albánia, l Kosovo, la Sérbia i la Macedónia de l Norte. Lugares de anteresse i fondo de mapa: © ls quelaboradores d'OpenStreetMap (lecéncia ODbL). Portaiges: VINCI Autoroutes (Fráncia), Autopistas (Spanha), Via Verde/Ascendi (Pertual), Autostrade per l'Italia (Eitália), HAC (Croácia), Autoceste FBiH/Autoputevi RS (Bósnia-Herzegobina), Putevi Srbije (Sérbia), JP za državni patišta (Macedónia de l Norte) — outo-stradas de grácia an Béugica, an Andorra, ne ls Países Baixos, an Luxemburgo, an Alemanha, an San Marino, an Liechtenstein, an Mónaco, an Malta, an Pulónia (fura de trés trechos cuncedidos), ne l Reino Unido, na Irlanda, na Eilha de Man, na Dinamarca, na Noruega, na Suécia, na Finlándia, nas eilhas Åland, ne l Montenegro, na Albánia i ne l Kosovo; bineta anual na Suíça, na Ustria, na República Checa, na Eslobáquia, na Ungria i na Eslobénia (nanhun portaige por trajeto) — nin portaige nin bineta an Guernsey i Jersey.",
       'footer.legalMentions': 'Abisos lhegales',
       'footer.privacyPolicy': 'Política de pribacidade',
       'footer.translationDisclaimer': 'La anterface fui traduzida pa muitas lhénguas i puode tener erros — nun tenga miedo de ls nunciar pa contact@lume419.fr.',
@@ -7171,7 +7171,7 @@
 
       'again.button': 'Crannchuir ceann scríbe eile',
 
-      'footer.text': "Cúrsa i dtreo an anaithnid — gineadóir spraíúil, ní sheoltar aon sonraí áit ar bith riamh. Bailte: IGN / geo.api.gouv.fr (Etalab) don Fhrainc, GeoNames (ceadúnas CC-BY) d'Andóra, don Spáinn, don Phortaingéil, don Bheilg, don Ísiltír, do Lucsamburg, don Eilvéis, don Ghearmáin, don Iodáil, don Ostair, San Mairíne, Lichtinstéin, Monacó, Málta, Geansaí, Geirsí, Poblacht na Seice, an Pholainn, an tSlóvaic, an Ungáir, an tSlóivéin, an Chróit, an Bhoisnia agus an Heirseagaivéin, an Bhreatain Mhór, Éire, Oileán Mhanann, an Danmhairg, an Iorua, an tSualainn, an Fhionlainn, Oileáin Åland, Montainéagró, an Albáin agus an Chosaiv. Áiteanna spéise agus cúlra léarscáile: © rannpháirtithe OpenStreetMap (ceadúnas ODbL). Dolaí: VINCI Autoroutes (an Fhrainc), Autopistas (an Spáinn), Via Verde/Ascendi (an Phortaingéil), Autostrade per l'Italia (an Iodáil), HAC (an Chróit), Autoceste FBiH/Autoputevi RS (an Bhoisnia agus an Heirseagaivéin) — mótarbhealaí saor in aisce sa Bheilg, in Andóra, san Ísiltír, i Lucsamburg, sa Ghearmáin, i San Mairíne, i Lichtinstéin, i Monacó, i Málta, sa Pholainn (seachas trí chuid faoi cheadúnas), sa Bhreatain Mhór, in Éirinn, in Oileán Mhanann, sa Danmhairg, san Iorua, sa tSualainn, san Fhionlainn, in Oileáin Åland, i Montainéagró, san Albáin agus sa Chosaiv; vignéad bliantúil san Eilvéis, san Ostair, i bPoblacht na Seice, sa tSlóvaic, san Ungáir agus sa tSlóivéin (gan dola ar aistear) — gan dola ná vignéad i nGeansaí ná i nGeirsí.",
+      'footer.text': "Cúrsa i dtreo an anaithnid — gineadóir spraíúil, ní sheoltar aon sonraí áit ar bith riamh. Bailte: IGN / geo.api.gouv.fr (Etalab) don Fhrainc, GeoNames (ceadúnas CC-BY) d'Andóra, don Spáinn, don Phortaingéil, don Bheilg, don Ísiltír, do Lucsamburg, don Eilvéis, don Ghearmáin, don Iodáil, don Ostair, San Mairíne, Lichtinstéin, Monacó, Málta, Geansaí, Geirsí, Poblacht na Seice, an Pholainn, an tSlóvaic, an Ungáir, an tSlóivéin, an Chróit, an Bhoisnia agus an Heirseagaivéin, an Bhreatain Mhór, Éire, Oileán Mhanann, an Danmhairg, an Iorua, an tSualainn, an Fhionlainn, Oileáin Åland, Montainéagró, an Albáin, an Chosaiv, an tSeirbia agus an Mhacadóin Thuaidh. Áiteanna spéise agus cúlra léarscáile: © rannpháirtithe OpenStreetMap (ceadúnas ODbL). Dolaí: VINCI Autoroutes (an Fhrainc), Autopistas (an Spáinn), Via Verde/Ascendi (an Phortaingéil), Autostrade per l'Italia (an Iodáil), HAC (an Chróit), Autoceste FBiH/Autoputevi RS (an Bhoisnia agus an Heirseagaivéin), Putevi Srbije (an tSeirbia), JP za državni patišta (an Mhacadóin Thuaidh) — mótarbhealaí saor in aisce sa Bheilg, in Andóra, san Ísiltír, i Lucsamburg, sa Ghearmáin, i San Mairíne, i Lichtinstéin, i Monacó, i Málta, sa Pholainn (seachas trí chuid faoi cheadúnas), sa Bhreatain Mhór, in Éirinn, in Oileán Mhanann, sa Danmhairg, san Iorua, sa tSualainn, san Fhionlainn, in Oileáin Åland, i Montainéagró, san Albáin agus sa Chosaiv; vignéad bliantúil san Eilvéis, san Ostair, i bPoblacht na Seice, sa tSlóvaic, san Ungáir agus sa tSlóivéin (gan dola ar aistear) — gan dola ná vignéad i nGeansaí ná i nGeirsí.",
       'footer.legalMentions': 'Fógra Dlíthiúil',
       'footer.privacyPolicy': 'Beartas Príobháideachais',
       'footer.translationDisclaimer': "Aistríodh an comhéadan go teangacha iomadúla agus d'fhéadfadh botúin a bheith ann — ná bíodh drogall ort iad a chur in iúl chuig contact@lume419.fr.",
@@ -7413,7 +7413,7 @@
 
       'again.button': "Reih kione-scrieuit elley",
 
-      'footer.text': "Raad gys yn Quaagh — gineyder cloie-yllagh, cha nel coadanyn erbee er nyn goyrt gys boayl erbee. Baljyn: IGN / geo.api.gouv.fr (Etalab) son yn Rank, GeoNames (kied CC-BY) son Andorra, Spainey, Portugal, Belg, ny h-Athdheeryn Injil, Luxembourg, yn Elvey, Germany, yn Idaal, yn Austir, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Poblaght ny Seicklee, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia as Herzegovina, Bretin Vooar, Nerin, Ellan Vannin, Denmark, Norlynn, Sweden, Finlynn, Ellanyn Åland, Montenegro, Albain as Kosovo. Ynnydyn taitnyssagh as cooylrey coontey-cheerey: © cummaltee OpenStreetMap (kied ODbL). Keeshyn: VINCI Autoroutes (Rank), Autopistas (Spainey), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Idaal), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia as Herzegovina) — mooar-raadyn gyn keesh ayns Belg, ayns Andorra, ayns ny h-Athdheeryn Injil, ayns Luxembourg, ayns Germany, ayns San Marino, ayns Liechtenstein, ayns Monaco, ayns Malta, ayns Poland (agh three rheynnyn kied), ayns Bretin Vooar, ayns Nerin, ayns Ellan Vannin, ayns Denmark, ayns Norlynn, ayns Sweden, ayns Finlynn, ayns Ellanyn Åland, ayns Montenegro, ayns Albain as ayns Kosovo; cowrey bleeaney ayns yn Elvey, ayns yn Austir, ayns Poblaght ny Seicklee, ayns Slovakia, ayns Hungary as ayns Slovenia (gyn keesh er turrys) — gyn keesh ny cowrey ayns Guernsey ny ayns Jersey.",
+      'footer.text': "Raad gys yn Quaagh — gineyder cloie-yllagh, cha nel coadanyn erbee er nyn goyrt gys boayl erbee. Baljyn: IGN / geo.api.gouv.fr (Etalab) son yn Rank, GeoNames (kied CC-BY) son Andorra, Spainey, Portugal, Belg, ny h-Athdheeryn Injil, Luxembourg, yn Elvey, Germany, yn Idaal, yn Austir, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Poblaght ny Seicklee, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia as Herzegovina, Bretin Vooar, Nerin, Ellan Vannin, Denmark, Norlynn, Sweden, Finlynn, Ellanyn Åland, Montenegro, Albain, Kosovo, Serbia as Macedon Twoaie. Ynnydyn taitnyssagh as cooylrey coontey-cheerey: © cummaltee OpenStreetMap (kied ODbL). Keeshyn: VINCI Autoroutes (Rank), Autopistas (Spainey), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Idaal), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia as Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedon Twoaie) — mooar-raadyn gyn keesh ayns Belg, ayns Andorra, ayns ny h-Athdheeryn Injil, ayns Luxembourg, ayns Germany, ayns San Marino, ayns Liechtenstein, ayns Monaco, ayns Malta, ayns Poland (agh three rheynnyn kied), ayns Bretin Vooar, ayns Nerin, ayns Ellan Vannin, ayns Denmark, ayns Norlynn, ayns Sweden, ayns Finlynn, ayns Ellanyn Åland, ayns Montenegro, ayns Albain as ayns Kosovo; cowrey bleeaney ayns yn Elvey, ayns yn Austir, ayns Poblaght ny Seicklee, ayns Slovakia, ayns Hungary as ayns Slovenia (gyn keesh er turrys) — gyn keesh ny cowrey ayns Guernsey ny ayns Jersey.",
       'footer.legalMentions': "Fys Leighoil",
       'footer.privacyPolicy': "Polasee Preevaadjys",
       'footer.translationDisclaimer': "Ta'n eddin-obbrey er ny hyndaa gys ymmodee çhengaghyn as foddee eh v'ayn marranyssyn — ny bee dooie dy insh dooin ec contact@lume419.fr.",
@@ -7650,7 +7650,7 @@
 
       'again.button': "Dewis cyrchfan arall",
 
-      'footer.text': "Cwrs am yr anhysbys — generadur chwareus, ni anfonir data byth i unman. Trefi: IGN / geo.api.gouv.fr (Etalab) ar gyfer Ffrainc, GeoNames (trwydded CC-BY) ar gyfer Andorra, Sbaen, Portiwgal, Gwlad Belg, yr Iseldiroedd, Lwcsembwrg, y Swistir, yr Almaen, yr Eidal, Awstria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Gweriniaeth Tsiec, Gwlad Pwyl, Slofacia, Hwngari, Slofenia, Croatia, Bosnia a Herzegovina, y Deyrnas Unedig, Iwerddon, Ynys Manaw, Denmarc, Norwy, Sweden, y Ffindir, Ynysoedd Åland, Montenegro, Albania a Kosovo. Mannau diddorol a chefndir map: © cyfranwyr OpenStreetMap (trwydded ODbL). Tollau: VINCI Autoroutes (Ffrainc), Autopistas (Sbaen), Via Verde/Ascendi (Portiwgal), Autostrade per l'Italia (Yr Eidal), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia a Herzegovina) — traffyrdd di-doll yng Ngwlad Belg, yn Andorra, yn yr Iseldiroedd, yn Lwcsembwrg, yn yr Almaen, yn San Marino, yn Liechtenstein, ym Monaco, ym Malta, yng Ngwlad Pwyl (heblaw tair rhan dan gonsesiwn), yn y Deyrnas Unedig, yn Iwerddon, yn Ynys Manaw, yn Denmarc, yn Norwy, yn Sweden, yn y Ffindir, yn Ynysoedd Åland, ym Montenegro, yn Albania ac yn Kosovo; fignét flynyddol yn y Swistir, yn Awstria, yng Ngweriniaeth Tsiec, yn Slofacia, yn Hwngari ac yn Slofenia (dim toll fesul taith) — dim toll na fignét yn Guernsey na Jersey.",
+      'footer.text': "Cwrs am yr anhysbys — generadur chwareus, ni anfonir data byth i unman. Trefi: IGN / geo.api.gouv.fr (Etalab) ar gyfer Ffrainc, GeoNames (trwydded CC-BY) ar gyfer Andorra, Sbaen, Portiwgal, Gwlad Belg, yr Iseldiroedd, Lwcsembwrg, y Swistir, yr Almaen, yr Eidal, Awstria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Gweriniaeth Tsiec, Gwlad Pwyl, Slofacia, Hwngari, Slofenia, Croatia, Bosnia a Herzegovina, y Deyrnas Unedig, Iwerddon, Ynys Manaw, Denmarc, Norwy, Sweden, y Ffindir, Ynysoedd Åland, Montenegro, Albania, Kosovo, Serbia a Gogledd Macedonia. Mannau diddorol a chefndir map: © cyfranwyr OpenStreetMap (trwydded ODbL). Tollau: VINCI Autoroutes (Ffrainc), Autopistas (Sbaen), Via Verde/Ascendi (Portiwgal), Autostrade per l'Italia (Yr Eidal), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia a Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Gogledd Macedonia) — traffyrdd di-doll yng Ngwlad Belg, yn Andorra, yn yr Iseldiroedd, yn Lwcsembwrg, yn yr Almaen, yn San Marino, yn Liechtenstein, ym Monaco, ym Malta, yng Ngwlad Pwyl (heblaw tair rhan dan gonsesiwn), yn y Deyrnas Unedig, yn Iwerddon, yn Ynys Manaw, yn Denmarc, yn Norwy, yn Sweden, yn y Ffindir, yn Ynysoedd Åland, ym Montenegro, yn Albania ac yn Kosovo; fignét flynyddol yn y Swistir, yn Awstria, yng Ngweriniaeth Tsiec, yn Slofacia, yn Hwngari ac yn Slofenia (dim toll fesul taith) — dim toll na fignét yn Guernsey na Jersey.",
       'footer.legalMentions': "Hysbysiad Cyfreithiol",
       'footer.privacyPolicy': "Polisi Preifatrwydd",
       'footer.translationDisclaimer': "Mae'r rhyngwyneb wedi'i gyfieithu i nifer o ieithoedd a gallai gynnwys camgymeriadau — peidiwch ag oedi cyn eu rhoi gwybod i ni yn contact@lume419.fr.",
@@ -7887,7 +7887,7 @@
 
       'again.button': "Tagh ceann-uidhe eile",
 
-      'footer.text': "Cùrsa dhan anaithnichte — gineadair spòrsail, cha tèid dàta a chur a dh'àite sam bith gu bràth. Bailtean: IGN / geo.api.gouv.fr (Etalab) airson an Fhraing, GeoNames (cead CC-BY) airson Andorra, an Spàinn, a' Phortagail, a' Bheilg, an Òlaind, Lugsamburg, an Eilbheis, a' Ghearmailt, an Eadailt, an Ostair, San Marino, Liechtenstein, Monaco, Malta, Geàrnsaidh, Deàrsaidh, Poblachd na Seice, a' Phòlainn, Slòcaia, an Ungair, an t-Slòbhain, a' Chròthaisia, Bosnia is Herzegovina, an Rìoghachd Aonaichte, Èirinn, Eilean Mhanainn, an Danmhairg, Nirribhidh, an t-Suain, an Fhionnlainn, Eileanan Åland, Montenegro, Albàinia agus Kosovo. Àiteachan inntinneach agus cùl-raon mapa: © com-pàirtichean OpenStreetMap (cead ODbL). Cìsean: VINCI Autoroutes (an Fhraing), Autopistas (an Spàinn), Via Verde/Ascendi (a' Phortagail), Autostrade per l'Italia (an Eadailt), HAC (a' Chròthaisia), Autoceste FBiH/Autoputevi RS (Bosnia is Herzegovina) — mòr-rathaidean gun chìs sa Bheilg, ann an Andorra, san Òlaind, ann an Lugsamburg, sa Ghearmailt, ann an San Marino, ann an Liechtenstein, ann am Monaco, ann am Malta, sa Phòlainn (ach trì earrannan fo chead), san Rìoghachd Aonaichte, ann an Èirinn, ann an Eilean Mhanainn, san Danmhairg, ann an Nirribhidh, san t-Suain, san Fhionnlainn, ann an Eileanan Åland, ann am Montenegro, ann an Albàinia agus ann an Kosovo; vignette bliadhnail san Eilbheis, san Ostair, ann am Poblachd na Seice, ann an Slòcaia, san Ungair agus san t-Slòbhain (gun chìs air turas) — gun chìs no vignette ann an Geàrnsaidh no Deàrsaidh.",
+      'footer.text': "Cùrsa dhan anaithnichte — gineadair spòrsail, cha tèid dàta a chur a dh'àite sam bith gu bràth. Bailtean: IGN / geo.api.gouv.fr (Etalab) airson an Fhraing, GeoNames (cead CC-BY) airson Andorra, an Spàinn, a' Phortagail, a' Bheilg, an Òlaind, Lugsamburg, an Eilbheis, a' Ghearmailt, an Eadailt, an Ostair, San Marino, Liechtenstein, Monaco, Malta, Geàrnsaidh, Deàrsaidh, Poblachd na Seice, a' Phòlainn, Slòcaia, an Ungair, an t-Slòbhain, a' Chròthaisia, Bosnia is Herzegovina, an Rìoghachd Aonaichte, Èirinn, Eilean Mhanainn, an Danmhairg, Nirribhidh, an t-Suain, an Fhionnlainn, Eileanan Åland, Montenegro, Albàinia, Kosovo, Sèirbia agus Ceann a Tuath Mhasedonia. Àiteachan inntinneach agus cùl-raon mapa: © com-pàirtichean OpenStreetMap (cead ODbL). Cìsean: VINCI Autoroutes (an Fhraing), Autopistas (an Spàinn), Via Verde/Ascendi (a' Phortagail), Autostrade per l'Italia (an Eadailt), HAC (a' Chròthaisia), Autoceste FBiH/Autoputevi RS (Bosnia is Herzegovina), Putevi Srbije (Sèirbia), JP za državni patišta (Ceann a Tuath Mhasedonia) — mòr-rathaidean gun chìs sa Bheilg, ann an Andorra, san Òlaind, ann an Lugsamburg, sa Ghearmailt, ann an San Marino, ann an Liechtenstein, ann am Monaco, ann am Malta, sa Phòlainn (ach trì earrannan fo chead), san Rìoghachd Aonaichte, ann an Èirinn, ann an Eilean Mhanainn, san Danmhairg, ann an Nirribhidh, san t-Suain, san Fhionnlainn, ann an Eileanan Åland, ann am Montenegro, ann an Albàinia agus ann an Kosovo; vignette bliadhnail san Eilbheis, san Ostair, ann am Poblachd na Seice, ann an Slòcaia, san Ungair agus san t-Slòbhain (gun chìs air turas) — gun chìs no vignette ann an Geàrnsaidh no Deàrsaidh.",
       'footer.legalMentions': "Fios Laghail",
       'footer.privacyPolicy': "Poileasaidh Prìobhaideachd",
       'footer.translationDisclaimer': "Chaidh an eadar-aghaidh eadar-theangachadh gu grunn chànanan agus dh'fhaodadh mearachdan a bhith ann — na bi leisg gan innse dhuinn aig contact@lume419.fr.",
@@ -8125,7 +8125,7 @@
 
       'again.button': "Dewis le gorfen aral",
 
-      'footer.text': "Kors dhe'n anaswonys — jynn-gwrians didhanus, ny yw danvenys nefra dhe le vytholl. Trevow: IGN / geo.api.gouv.fr (Etalab) rag Frynk, GeoNames (lysens CC-BY) rag Andorra, Spayn, Portyngal, Belja, an Iseldiryow, Luksembourg, an Swyssva, Alamayn, Itali, Ostrych, San Marino, Liechtenstein, Monako, Malta, Guernsey, Jersey, Repoblek Cheki, Poland, Slovakya, Hungari, Slovenia, Kroatia, Bosnia ha Herzegovina, an Ruwvaneth Unys, Iwerdhon, Enys Manow, Denmark, Norwegen, Swedia, Finland, Enesow Åland, Montenegro, Albania ha Kosovo. Leow a vern ha keffrys mappa: © kevrenoryon OpenStreetMap (lysens ODbL). Tolyow: VINCI Autoroutes (Frynk), Autopistas (Spayn), Via Verde/Ascendi (Portyngal), Autostrade per l'Italia (Itali), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia ha Herzegovina) — fordhow-meur heb toll yn Belja, yn Andorra, y'n Iseldiryow, yn Luksembourg, yn Alamayn, yn San Marino, yn Liechtenstein, yn Monako, yn Malta, yn Poland (marnas try rann fo lysens), y'n Ruwvaneth Unys, yn Iwerdhon, yn Enys Manow, yn Denmark, yn Norwegen, yn Swedia, yn Finland, yn Enesow Åland, yn Montenegro, yn Albania hag yn Kosovo; vignette bledhennyek y'n Swyssva, yn Ostrych, yn Repoblek Cheki, yn Slovakya, yn Hungari hag yn Slovenia (heb toll rag vyaj) — heb toll na vignette yn Guernsey na Jersey.",
+      'footer.text': "Kors dhe'n anaswonys — jynn-gwrians didhanus, ny yw danvenys nefra dhe le vytholl. Trevow: IGN / geo.api.gouv.fr (Etalab) rag Frynk, GeoNames (lysens CC-BY) rag Andorra, Spayn, Portyngal, Belja, an Iseldiryow, Luksembourg, an Swyssva, Alamayn, Itali, Ostrych, San Marino, Liechtenstein, Monako, Malta, Guernsey, Jersey, Repoblek Cheki, Poland, Slovakya, Hungari, Slovenia, Kroatia, Bosnia ha Herzegovina, an Ruwvaneth Unys, Iwerdhon, Enys Manow, Denmark, Norwegen, Swedia, Finland, Enesow Åland, Montenegro, Albania, Kosovo, Serbia ha Macedonia Gledh. Leow a vern ha keffrys mappa: © kevrenoryon OpenStreetMap (lysens ODbL). Tolyow: VINCI Autoroutes (Frynk), Autopistas (Spayn), Via Verde/Ascendi (Portyngal), Autostrade per l'Italia (Itali), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia ha Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia Gledh) — fordhow-meur heb toll yn Belja, yn Andorra, y'n Iseldiryow, yn Luksembourg, yn Alamayn, yn San Marino, yn Liechtenstein, yn Monako, yn Malta, yn Poland (marnas try rann fo lysens), y'n Ruwvaneth Unys, yn Iwerdhon, yn Enys Manow, yn Denmark, yn Norwegen, yn Swedia, yn Finland, yn Enesow Åland, yn Montenegro, yn Albania hag yn Kosovo; vignette bledhennyek y'n Swyssva, yn Ostrych, yn Repoblek Cheki, yn Slovakya, yn Hungari hag yn Slovenia (heb toll rag vyaj) — heb toll na vignette yn Guernsey na Jersey.",
       'footer.legalMentions': "Derivas Lagha",
       'footer.privacyPolicy': "Polici Priva",
       'footer.translationDisclaimer': 'Yth yw an enterface treylys yn lies yeth ha yll y hava gwallow — na wren perthi own dhe wodhevos ni orta orth contact@lume419.fr.',
@@ -8364,7 +8364,7 @@
 
       'again.button': "Draw anither destination",
 
-      'footer.text': "Cap oan the unkent — a playfu gineratour, nae data is ever sent onywhere. Touns: IGN / geo.api.gouv.fr (Etalab) for Fraunce, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, the Czech Republic, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia an Herzegovina, the Unitit Kinrick, Ireland, the Isle o Man, Denmark, Norawa, Swaden, Finland, the Åland Islands, Montenegro, Albania an Kosovo. Pynts o interest an map backgrund: © OpenStreetMap contreebutors (ODbL licence). Tolls: VINCI Autoroutes (Fraunce), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia an Herzegovina) — free motorweys in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco, Malta, Poland (except three concession sections), the Unitit Kinrick, Ireland, the Isle o Man, Denmark, Norawa, Swaden, Finland, the Åland Islands, Montenegro, Albania an Kosovo; an annual vignette in Switzerland, Austria, the Czech Republic, Slovakia, Hungary an Slovenia (nae per-trip toll) — nae toll or vignette in Guernsey or Jersey.",
+      'footer.text': "Cap oan the unkent — a playfu gineratour, nae data is ever sent onywhere. Touns: IGN / geo.api.gouv.fr (Etalab) for Fraunce, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, the Czech Republic, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia an Herzegovina, the Unitit Kinrick, Ireland, the Isle o Man, Denmark, Norawa, Swaden, Finland, the Åland Islands, Montenegro, Albania, Kosovo, Serbie an North Macedonie. Pynts o interest an map backgrund: © OpenStreetMap contreebutors (ODbL licence). Tolls: VINCI Autoroutes (Fraunce), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia an Herzegovina), Putevi Srbije (Serbie), JP za državni patišta (North Macedonie) — free motorweys in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco, Malta, Poland (except three concession sections), the Unitit Kinrick, Ireland, the Isle o Man, Denmark, Norawa, Swaden, Finland, the Åland Islands, Montenegro, Albania an Kosovo; an annual vignette in Switzerland, Austria, the Czech Republic, Slovakia, Hungary an Slovenia (nae per-trip toll) — nae toll or vignette in Guernsey or Jersey.",
       'footer.legalMentions': "Legal Notice",
       'footer.privacyPolicy': "Privacy Policy",
       'footer.translationDisclaimer': 'The interface haes been owerset intae mony leids an micht haud mistaks — dinna be blate tae report thaim tae contact@lume419.fr.',
@@ -8601,7 +8601,7 @@
 
       'again.button': "Vylosovat jiný cíl",
 
-      'footer.text': "Kurz na neznámo — hravý generátor, žádná data nejsou nikdy nikam odesílána. Obce: IGN / geo.api.gouv.fr (Etalab) pro Francii, GeoNames (licence CC-BY) pro Andorru, Španělsko, Portugalsko, Belgii, Nizozemsko, Lucembursko, Švýcarsko, Německo, Itálii, Rakousko, San Marino, Lichtenštejnsko, Monako, Maltu, Guernsey, Jersey, Českou republiku, Polsko, Slovensko, Maďarsko, Slovinsko, Chorvatsko, Bosnu a Hercegovinu, Spojené království, Irsko, ostrov Man, Dánsko, Norsko, Švédsko, Finsko, Ålandy, Černou Horu, Albánii a Kosovo. Zajímavá místa a podklad mapy: © přispěvatelé OpenStreetMap (licence ODbL). Mýtné: VINCI Autoroutes (Francie), Autopistas (Španělsko), Via Verde/Ascendi (Portugalsko), Autostrade per l'Italia (Itálie), HAC (Chorvatsko), Autoceste FBiH/Autoputevi RS (Bosna a Hercegovina) — dálnice bez mýtného v Belgii, v Andoře, v Nizozemsku, v Lucembursku, v Německu, v San Marinu, v Lichtenštejnsku, v Monaku, na Maltě, v Polsku (kromě tří zpoplatněných úseků), ve Spojeném království, v Irsku, na ostrově Man, v Dánsku, v Norsku, ve Švédsku, ve Finsku, na Ålandech, v Černé Hoře, v Albánii a v Kosovu; roční dálniční známka ve Švýcarsku, v Rakousku, v České republice, na Slovensku, v Maďarsku a ve Slovinsku (žádné mýtné za jízdu) — žádné mýtné ani známka na Guernsey nebo Jersey.",
+      'footer.text': "Kurz na neznámo — hravý generátor, žádná data nejsou nikdy nikam odesílána. Obce: IGN / geo.api.gouv.fr (Etalab) pro Francii, GeoNames (licence CC-BY) pro Andorru, Španělsko, Portugalsko, Belgii, Nizozemsko, Lucembursko, Švýcarsko, Německo, Itálii, Rakousko, San Marino, Lichtenštejnsko, Monako, Maltu, Guernsey, Jersey, Českou republiku, Polsko, Slovensko, Maďarsko, Slovinsko, Chorvatsko, Bosnu a Hercegovinu, Spojené království, Irsko, ostrov Man, Dánsko, Norsko, Švédsko, Finsko, Ålandy, Černou Horu, Albánii, Kosovo, Srbsko a Severní Makedonii. Zajímavá místa a podklad mapy: © přispěvatelé OpenStreetMap (licence ODbL). Mýtné: VINCI Autoroutes (Francie), Autopistas (Španělsko), Via Verde/Ascendi (Portugalsko), Autostrade per l'Italia (Itálie), HAC (Chorvatsko), Autoceste FBiH/Autoputevi RS (Bosna a Hercegovina), Putevi Srbije (Srbsko), JP za državni patišta (Severní Makedonie) — dálnice bez mýtného v Belgii, v Andoře, v Nizozemsku, v Lucembursku, v Německu, v San Marinu, v Lichtenštejnsku, v Monaku, na Maltě, v Polsku (kromě tří zpoplatněných úseků), ve Spojeném království, v Irsku, na ostrově Man, v Dánsku, v Norsku, ve Švédsku, ve Finsku, na Ålandech, v Černé Hoře, v Albánii a v Kosovu; roční dálniční známka ve Švýcarsku, v Rakousku, v České republice, na Slovensku, v Maďarsku a ve Slovinsku (žádné mýtné za jízdu) — žádné mýtné ani známka na Guernsey nebo Jersey.",
       'footer.legalMentions': "Právní upozornění",
       'footer.privacyPolicy': "Zásady ochrany soukromí",
       'footer.translationDisclaimer': 'Rozhraní bylo přeloženo do mnoha jazyků a může obsahovat chyby — neváhejte je nahlásit na contact@lume419.fr.',
@@ -8837,7 +8837,7 @@
 
       'again.button': "Wylosuj inny cel",
 
-      'footer.text': "Kurs na nieznane — zabawny generator, żadne dane nigdy nigdzie nie są wysyłane. Miejscowości: IGN / geo.api.gouv.fr (Etalab) dla Francji, GeoNames (licencja CC-BY) dla Andory, Hiszpanii, Portugalii, Belgii, Niderlandów, Luksemburga, Szwajcarii, Niemiec, Włoch, Austrii, San Marino, Liechtensteinu, Monako, Malty, Guernsey, Jersey, Czech, Polski, Słowacji, Węgier, Słowenii, Chorwacji, Bośni i Hercegowiny, Wielkiej Brytanii, Irlandii, Wyspy Man, Danii, Norwegii, Szwecji, Finlandii, Wysp Alandzkich, Czarnogóry, Albanii i Kosowa. Ciekawe miejsca i podkład mapy: © współtwórcy OpenStreetMap (licencja ODbL). Opłaty drogowe: VINCI Autoroutes (Francja), Autopistas (Hiszpania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Włochy), HAC (Chorwacja), Autoceste FBiH/Autoputevi RS (Bośnia i Hercegowina) — autostrady bezpłatne w Belgii, w Andorze, w Niderlandach, w Luksemburgu, w Niemczech, w San Marino, w Liechtensteinie, w Monako, na Malcie, w Polsce (poza trzema odcinkami koncesyjnymi), w Wielkiej Brytanii, w Irlandii, na Wyspie Man, w Danii, w Norwegii, w Szwecji, w Finlandii, na Wyspach Alandzkich, w Czarnogórze, w Albanii i w Kosowie; roczna winieta w Szwajcarii, w Austrii, w Czechach, na Słowacji, na Węgrzech i w Słowenii (bez opłaty za przejazd) — bez opłaty ani winiety na Guernsey lub Jersey.",
+      'footer.text': "Kurs na nieznane — zabawny generator, żadne dane nigdy nigdzie nie są wysyłane. Miejscowości: IGN / geo.api.gouv.fr (Etalab) dla Francji, GeoNames (licencja CC-BY) dla Andory, Hiszpanii, Portugalii, Belgii, Niderlandów, Luksemburga, Szwajcarii, Niemiec, Włoch, Austrii, San Marino, Liechtensteinu, Monako, Malty, Guernsey, Jersey, Czech, Polski, Słowacji, Węgier, Słowenii, Chorwacji, Bośni i Hercegowiny, Wielkiej Brytanii, Irlandii, Wyspy Man, Danii, Norwegii, Szwecji, Finlandii, Wysp Alandzkich, Czarnogóry, Albanii, Kosowa, Serbii i Macedonii Północnej. Ciekawe miejsca i podkład mapy: © współtwórcy OpenStreetMap (licencja ODbL). Opłaty drogowe: VINCI Autoroutes (Francja), Autopistas (Hiszpania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Włochy), HAC (Chorwacja), Autoceste FBiH/Autoputevi RS (Bośnia i Hercegowina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia Północna) — autostrady bezpłatne w Belgii, w Andorze, w Niderlandach, w Luksemburgu, w Niemczech, w San Marino, w Liechtensteinie, w Monako, na Malcie, w Polsce (poza trzema odcinkami koncesyjnymi), w Wielkiej Brytanii, w Irlandii, na Wyspie Man, w Danii, w Norwegii, w Szwecji, w Finlandii, na Wyspach Alandzkich, w Czarnogórze, w Albanii i w Kosowie; roczna winieta w Szwajcarii, w Austrii, w Czechach, na Słowacji, na Węgrzech i w Słowenii (bez opłaty za przejazd) — bez opłaty ani winiety na Guernsey lub Jersey.",
       'footer.legalMentions': "Nota prawna",
       'footer.privacyPolicy': "Polityka prywatności",
       'footer.translationDisclaimer': 'Interfejs został przetłumaczony na wiele języków i może zawierać błędy — nie wahaj się zgłosić ich na contact@lume419.fr.',
@@ -9073,7 +9073,7 @@
 
       'again.button': "Vylosovať iný cieľ",
 
-      'footer.text': "Kurz na neznáme — hravý generátor, žiadne údaje nie sú nikdy nikam odosielané. Obce: IGN / geo.api.gouv.fr (Etalab) pre Francúzsko, GeoNames (licencia CC-BY) pre Andorru, Španielsko, Portugalsko, Belgicko, Holandsko, Luxembursko, Švajčiarsko, Nemecko, Taliansko, Rakúsko, San Marino, Lichtenštajnsko, Monako, Maltu, Guernsey, Jersey, Českú republiku, Poľsko, Slovensko, Maďarsko, Slovinsko, Chorvátsko, Bosnu a Hercegovinu, Spojené kráľovstvo, Írsko, ostrov Man, Dánsko, Nórsko, Švédsko, Fínsko, Alandy, Čiernu Horu, Albánsko a Kosovo. Zaujímavé miesta a podklad mapy: © prispievatelia OpenStreetMap (licencia ODbL). Mýto: VINCI Autoroutes (Francúzsko), Autopistas (Španielsko), Via Verde/Ascendi (Portugalsko), Autostrade per l'Italia (Taliansko), HAC (Chorvátsko), Autoceste FBiH/Autoputevi RS (Bosna a Hercegovina) — diaľnice bez mýta v Belgicku, v Andorre, v Holandsku, v Luxembursku, v Nemecku, v San Marine, v Lichtenštajnsku, v Monaku, na Malte, v Poľsku (okrem troch spoplatnených úsekov), v Spojenom kráľovstve, v Írsku, na ostrove Man, v Dánsku, v Nórsku, vo Švédsku, vo Fínsku, na Alandoch, v Čiernej Hore, v Albánsku a v Kosove; ročná diaľničná známka vo Švajčiarsku, v Rakúsku, v Českej republike, na Slovensku, v Maďarsku a v Slovinsku (žiadne mýto za jazdu) — žiadne mýto ani známka na Guernsey alebo Jersey.",
+      'footer.text': "Kurz na neznáme — hravý generátor, žiadne údaje nie sú nikdy nikam odosielané. Obce: IGN / geo.api.gouv.fr (Etalab) pre Francúzsko, GeoNames (licencia CC-BY) pre Andorru, Španielsko, Portugalsko, Belgicko, Holandsko, Luxembursko, Švajčiarsko, Nemecko, Taliansko, Rakúsko, San Marino, Lichtenštajnsko, Monako, Maltu, Guernsey, Jersey, Českú republiku, Poľsko, Slovensko, Maďarsko, Slovinsko, Chorvátsko, Bosnu a Hercegovinu, Spojené kráľovstvo, Írsko, ostrov Man, Dánsko, Nórsko, Švédsko, Fínsko, Alandy, Čiernu Horu, Albánsko, Kosovo, Srbsko a Severné Macedónsko. Zaujímavé miesta a podklad mapy: © prispievatelia OpenStreetMap (licencia ODbL). Mýto: VINCI Autoroutes (Francúzsko), Autopistas (Španielsko), Via Verde/Ascendi (Portugalsko), Autostrade per l'Italia (Taliansko), HAC (Chorvátsko), Autoceste FBiH/Autoputevi RS (Bosna a Hercegovina), Putevi Srbije (Srbsko), JP za državni patišta (Severné Macedónsko) — diaľnice bez mýta v Belgicku, v Andorre, v Holandsku, v Luxembursku, v Nemecku, v San Marine, v Lichtenštajnsku, v Monaku, na Malte, v Poľsku (okrem troch spoplatnených úsekov), v Spojenom kráľovstve, v Írsku, na ostrove Man, v Dánsku, v Nórsku, vo Švédsku, vo Fínsku, na Alandoch, v Čiernej Hore, v Albánsku a v Kosove; ročná diaľničná známka vo Švajčiarsku, v Rakúsku, v Českej republike, na Slovensku, v Maďarsku a v Slovinsku (žiadne mýto za jazdu) — žiadne mýto ani známka na Guernsey alebo Jersey.",
       'footer.legalMentions': "Právne upozornenie",
       'footer.privacyPolicy': "Zásady ochrany súkromia",
       'footer.translationDisclaimer': 'Rozhranie bolo preložené do mnohých jazykov a môže obsahovať chyby — neváhajte ich nahlásiť na contact@lume419.fr.',
@@ -9310,7 +9310,7 @@
 
       'again.button': "Másik úti cél sorsolása",
 
-      'footer.text': "Irány az ismeretlen — játékos generátor, semmilyen adat nem kerül elküldésre sehova. Települések: IGN / geo.api.gouv.fr (Etalab) Franciaországhoz, GeoNames (CC-BY licenc) Andorrához, Spanyolországhoz, Portugáliához, Belgiumhoz, Hollandiához, Luxemburghoz, Svájchoz, Németországhoz, Olaszországhoz, Ausztriához, San Marinóhoz, Liechtensteinhez, Monacóhoz, Máltához, Guernseyhez, Jerseyhez, Csehországhoz, Lengyelországhoz, Szlovákiához, Magyarországhoz, Szlovéniához, Horvátországhoz, Bosznia-Hercegovinához, az Egyesült Királysághoz, Írországhoz, Man-szigethez, Dániához, Norvégiához, Svédországhoz, Finnországhoz, az Åland-szigetekhez, Montenegróhoz, Albániához és Koszovóhoz. Érdekes helyek és térképháttér: © OpenStreetMap közreműködők (ODbL licenc). Útdíjak: VINCI Autoroutes (Franciaország), Autopistas (Spanyolország), Via Verde/Ascendi (Portugália), Autostrade per l'Italia (Olaszország), HAC (Horvátország), Autoceste FBiH/Autoputevi RS (Bosznia-Hercegovina) — díjmentes autópályák Belgiumban, Andorrában, Hollandiában, Luxemburgban, Németországban, San Marinóban, Liechtensteinben, Monacóban, Máltán, Lengyelországban (kivéve három koncessziós szakaszt), az Egyesült Királyságban, Írországban, Man-szigeten, Dániában, Norvégiában, Svédországban, Finnországban, az Åland-szigeteken, Montenegróban, Albániában és Koszovóban; éves matrica Svájcban, Ausztriában, Csehországban, Szlovákiában, Magyarországon és Szlovéniában (nincs útdíj utanként) — nincs útdíj vagy matrica Guernseyn vagy Jerseyn.",
+      'footer.text': "Irány az ismeretlen — játékos generátor, semmilyen adat nem kerül elküldésre sehova. Települések: IGN / geo.api.gouv.fr (Etalab) Franciaországhoz, GeoNames (CC-BY licenc) Andorrához, Spanyolországhoz, Portugáliához, Belgiumhoz, Hollandiához, Luxemburghoz, Svájchoz, Németországhoz, Olaszországhoz, Ausztriához, San Marinóhoz, Liechtensteinhez, Monacóhoz, Máltához, Guernseyhez, Jerseyhez, Csehországhoz, Lengyelországhoz, Szlovákiához, Magyarországhoz, Szlovéniához, Horvátországhoz, Bosznia-Hercegovinához, az Egyesült Királysághoz, Írországhoz, Man-szigethez, Dániához, Norvégiához, Svédországhoz, Finnországhoz, az Åland-szigetekhez, Montenegróhoz, Albániához, Koszovóhoz, Szerbiához és Észak-Macedóniához. Érdekes helyek és térképháttér: © OpenStreetMap közreműködők (ODbL licenc). Útdíjak: VINCI Autoroutes (Franciaország), Autopistas (Spanyolország), Via Verde/Ascendi (Portugália), Autostrade per l'Italia (Olaszország), HAC (Horvátország), Autoceste FBiH/Autoputevi RS (Bosznia-Hercegovina), Putevi Srbije (Szerbia), JP za državni patišta (Észak-Macedónia) — díjmentes autópályák Belgiumban, Andorrában, Hollandiában, Luxemburgban, Németországban, San Marinóban, Liechtensteinben, Monacóban, Máltán, Lengyelországban (kivéve három koncessziós szakaszt), az Egyesült Királyságban, Írországban, Man-szigeten, Dániában, Norvégiában, Svédországban, Finnországban, az Åland-szigeteken, Montenegróban, Albániában és Koszovóban; éves matrica Svájcban, Ausztriában, Csehországban, Szlovákiában, Magyarországon és Szlovéniában (nincs útdíj utanként) — nincs útdíj vagy matrica Guernseyn vagy Jerseyn.",
       'footer.legalMentions': "Jogi nyilatkozat",
       'footer.privacyPolicy': "Adatvédelmi irányelvek",
       'footer.translationDisclaimer': 'A felületet számos nyelvre lefordítottuk, és hibákat tartalmazhat — bátran jelezze őket a contact@lume419.fr címen.',
@@ -9547,7 +9547,7 @@
 
       'again.button': 'Izžrebaj drug cilj',
 
-      'footer.text': "Kurz proti neznanemu — igriv generator, nobeni podatki nikoli niso poslani nikamor. Kraji: IGN / geo.api.gouv.fr (Etalab) za Francijo, GeoNames (licenca CC-BY) za Andoro, Španijo, Portugalsko, Belgijo, Nizozemsko, Luksemburg, Švico, Nemčijo, Italijo, Avstrijo, San Marino, Lihtenštajn, Monako, Malto, Guernsey, Jersey, Češko, Poljsko, Slovaško, Madžarsko, Slovenijo, Hrvaško, Bosno in Hercegovino, Združeno kraljestvo, Irsko, otok Man, Dansko, Norveško, Švedsko, Finsko, Alandske otoke, Črno goro, Albanijo in Kosovo. Zanimive točke in podlaga zemljevida: © sodelavci OpenStreetMap (licenca ODbL). Cestnine: VINCI Autoroutes (Francija), Autopistas (Španija), Via Verde/Ascendi (Portugalska), Autostrade per l'Italia (Italija), HAC (Hrvaška), Autoceste FBiH/Autoputevi RS (Bosna in Hercegovina) — brezplačne avtoceste v Belgiji, Andori, na Nizozemskem, v Luksemburgu, Nemčiji, San Marinu, Lihtenštajnu, Monaku, na Malti, na Poljskem (razen treh koncesijskih odsekov), v Združenem kraljestvu, na Irskem, na otoku Man, na Danskem, Norveškem, Švedskem, Finskem, na Alandskih otokih, v Črni gori, Albaniji in na Kosovu; letna vinjeta v Švici, Avstriji, na Češkem, Slovaškem, Madžarskem in v Sloveniji (brez cestnine na vožnjo) — brez cestnine ali vinjete na Guernseyju ali Jerseyju.",
+      'footer.text': "Kurz proti neznanemu — igriv generator, nobeni podatki nikoli niso poslani nikamor. Kraji: IGN / geo.api.gouv.fr (Etalab) za Francijo, GeoNames (licenca CC-BY) za Andoro, Španijo, Portugalsko, Belgijo, Nizozemsko, Luksemburg, Švico, Nemčijo, Italijo, Avstrijo, San Marino, Lihtenštajn, Monako, Malto, Guernsey, Jersey, Češko, Poljsko, Slovaško, Madžarsko, Slovenijo, Hrvaško, Bosno in Hercegovino, Združeno kraljestvo, Irsko, otok Man, Dansko, Norveško, Švedsko, Finsko, Alandske otoke, Črno goro, Albanijo, Kosovo, Srbijo in Severno Makedonijo. Zanimive točke in podlaga zemljevida: © sodelavci OpenStreetMap (licenca ODbL). Cestnine: VINCI Autoroutes (Francija), Autopistas (Španija), Via Verde/Ascendi (Portugalska), Autostrade per l'Italia (Italija), HAC (Hrvaška), Autoceste FBiH/Autoputevi RS (Bosna in Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Severna Makedonija) — brezplačne avtoceste v Belgiji, Andori, na Nizozemskem, v Luksemburgu, Nemčiji, San Marinu, Lihtenštajnu, Monaku, na Malti, na Poljskem (razen treh koncesijskih odsekov), v Združenem kraljestvu, na Irskem, na otoku Man, na Danskem, Norveškem, Švedskem, Finskem, na Alandskih otokih, v Črni gori, Albaniji in na Kosovu; letna vinjeta v Švici, Avstriji, na Češkem, Slovaškem, Madžarskem in v Sloveniji (brez cestnine na vožnjo) — brez cestnine ali vinjete na Guernseyju ali Jerseyju.",
       'footer.legalMentions': 'Pravno obvestilo',
       'footer.privacyPolicy': 'Politika zasebnosti',
       'footer.translationDisclaimer': 'Vmesnik je bil preveden v številne jezike in lahko vsebuje napake — sporočite nam jih na contact@lume419.fr.',
@@ -9785,7 +9785,7 @@
 
       'again.button': "Izvuci drugo odredište",
 
-      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španjolsku, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, otok Man, Dansku, Norvešku, Švedsku, Finsku, otoke Åland, Crnu Goru, Albaniju i Kosovo. Zanimljive točke i podloga karte: © suradnici OpenStreetMapa (licenca ODbL). Cestarine: VINCI Autoroutes (Francuska), Autopistas (Španjolska), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina) — besplatne autoceste u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesijske dionice), u Ujedinjenom Kraljevstvu, Irskoj, na otoku Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na otocima Åland, u Crnoj Gori, Albaniji i na Kosovu; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj i Sloveniji (bez cestarine za vožnju) — bez cestarine ili vinjete na Guernseyju ili Jerseyju.",
+      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španjolsku, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, otok Man, Dansku, Norvešku, Švedsku, Finsku, otoke Åland, Crnu Goru, Albaniju, Kosovo, Srbiju i Sjevernu Makedoniju. Zanimljive točke i podloga karte: © suradnici OpenStreetMapa (licenca ODbL). Cestarine: VINCI Autoroutes (Francuska), Autopistas (Španjolska), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Sjeverna Makedonija) — besplatne autoceste u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesijske dionice), u Ujedinjenom Kraljevstvu, Irskoj, na otoku Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na otocima Åland, u Crnoj Gori, Albaniji i na Kosovu; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj i Sloveniji (bez cestarine za vožnju) — bez cestarine ili vinjete na Guernseyju ili Jerseyju.",
       'footer.legalMentions': "Pravna obavijest",
       'footer.privacyPolicy': "Pravila privatnosti",
       'footer.translationDisclaimer': 'Sučelje je prevedeno na brojne jezike i može sadržavati pogreške — slobodno ih prijavite na contact@lume419.fr.',
@@ -10025,7 +10025,7 @@
 
       'again.button': "Izvuci drugu destinaciju",
 
-      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španiju, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, ostrvo Man, Dansku, Norvešku, Švedsku, Finsku, ostrva Åland, Crnu Goru, Albaniju i Kosovo. Zanimljive tačke i podloga karte: © saradnici OpenStreetMapa (licenca ODbL). Cestarine: VINCI Autoroutes (Francuska), Autopistas (Španija), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina) — besplatne autoceste u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesione dionice), u Ujedinjenom Kraljevstvu, Irskoj, na ostrvu Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na ostrvima Åland, u Crnoj Gori, Albaniji i na Kosovu; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj i Sloveniji (bez cestarine za vožnju) — bez cestarine ili vinjete na Guernseyju ili Jerseyju.",
+      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španiju, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, ostrvo Man, Dansku, Norvešku, Švedsku, Finsku, ostrva Åland, Crnu Goru, Albaniju, Kosovo, Srbiju i Sjevernu Makedoniju. Zanimljive tačke i podloga karte: © saradnici OpenStreetMapa (licenca ODbL). Cestarine: VINCI Autoroutes (Francuska), Autopistas (Španija), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Sjeverna Makedonija) — besplatne autoceste u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesione dionice), u Ujedinjenom Kraljevstvu, Irskoj, na ostrvu Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na ostrvima Åland, u Crnoj Gori, Albaniji i na Kosovu; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj i Sloveniji (bez cestarine za vožnju) — bez cestarine ili vinjete na Guernseyju ili Jerseyju.",
       'footer.legalMentions': "Pravna napomena",
       'footer.privacyPolicy': "Politika privatnosti",
       'footer.translationDisclaimer': 'Interfejs je preveden na brojne jezike i može sadržavati greške — slobodno ih prijavite na contact@lume419.fr.',
@@ -10266,7 +10266,7 @@
 
       'again.button': "Извуци другу дестинацију",
 
-      'footer.text': "Курс ка непознатом — разиграни генератор, никакви подаци се никада никуда не шаљу. Места: IGN / geo.api.gouv.fr (Etalab) за Француску, GeoNames (лиценца CC-BY) за Андору, Шпанију, Португал, Белгију, Холандију, Луксембург, Швајцарску, Немачку, Италију, Аустрију, Сан Марино, Лихтенштајн, Монако, Малту, Гернзи, Џерси, Чешку, Пољску, Словачку, Мађарску, Словенију, Хрватску, Босну и Херцеговину, Уједињено Краљевство, Ирску, острво Ман, Данску, Норвешку, Шведску, Финску, острва Оланд, Црну Гору, Албанију и Косово. Занимљиве тачке и подлога карте: © сарадници OpenStreetMap-а (лиценца ODbL). Путарине: VINCI Autoroutes (Француска), Autopistas (Шпанија), Via Verde/Ascendi (Португал), Autostrade per l'Italia (Италија), HAC (Хрватска), Autoceste FBiH/Autoputevi RS (Босна и Херцеговина) — бесплатни аутопутеви у Белгији, Андори, Холандији, Луксембургу, Немачкој, Сан Марину, Лихтенштајну, Монаку, на Малти, у Пољској (осим три концесионе деонице), у Уједињеном Краљевству, Ирској, на острву Ман, у Данској, Норвешкој, Шведској, Финској, на острвима Оланд, у Црној Гори, Албанији и на Косову; годишња вињета у Швајцарској, Аустрији, Чешкој, Словачкој, Мађарској и Словенији (без путарине за вожњу) — без путарине или вињете на Гернзију или Џерсију.",
+      'footer.text': "Курс ка непознатом — разиграни генератор, никакви подаци се никада никуда не шаљу. Места: IGN / geo.api.gouv.fr (Etalab) за Француску, GeoNames (лиценца CC-BY) за Андору, Шпанију, Португал, Белгију, Холандију, Луксембург, Швајцарску, Немачку, Италију, Аустрију, Сан Марино, Лихтенштајн, Монако, Малту, Гернзи, Џерси, Чешку, Пољску, Словачку, Мађарску, Словенију, Хрватску, Босну и Херцеговину, Уједињено Краљевство, Ирску, острво Ман, Данску, Норвешку, Шведску, Финску, острва Оланд, Црну Гору, Албанију, Косово, Србију и Северну Македонију. Занимљиве тачке и подлога карте: © сарадници OpenStreetMap-а (лиценца ODbL). Путарине: VINCI Autoroutes (Француска), Autopistas (Шпанија), Via Verde/Ascendi (Португал), Autostrade per l'Italia (Италија), HAC (Хрватска), Autoceste FBiH/Autoputevi RS (Босна и Херцеговина), Putevi Srbije (Србија), JP za državni patišta (Северна Македонија) — бесплатни аутопутеви у Белгији, Андори, Холандији, Луксембургу, Немачкој, Сан Марину, Лихтенштајну, Монаку, на Малти, у Пољској (осим три концесионе деонице), у Уједињеном Краљевству, Ирској, на острву Ман, у Данској, Норвешкој, Шведској, Финској, на острвима Оланд, у Црној Гори, Албанији и на Косову; годишња вињета у Швајцарској, Аустрији, Чешкој, Словачкој, Мађарској и Словенији (без путарине за вожњу) — без путарине или вињете на Гернзију или Џерсију.",
       'footer.legalMentions': "Правна напомена",
       'footer.privacyPolicy': "Политика приватности",
       'footer.translationDisclaimer': 'Интерфејс је преведен на бројне језике и може садржати грешке — слободно их пријавите на contact@lume419.fr.',
@@ -10503,7 +10503,7 @@
 
       'again.button': "Træk en ny destination",
 
-      'footer.text': "Kurs mod det ukendte — en legende generator, ingen data sendes nogensinde nogen steder hen. Byer: IGN / geo.api.gouv.fr (Etalab) for Frankrig, GeoNames (CC-BY-licens) for Andorra, Spanien, Portugal, Belgien, Holland, Luxembourg, Schweiz, Tyskland, Italien, Østrig, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tjekkiet, Polen, Slovakiet, Ungarn, Slovenien, Kroatien, Bosnien-Hercegovina, Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Ålandsøerne, Montenegro, Albanien og Kosovo. Seværdigheder og kortgrundlag: © OpenStreetMap-bidragydere (ODbL-licens). Vejafgifter: VINCI Autoroutes (Frankrig), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Hercegovina) — gratis motorveje i Belgien, Andorra, Holland, Luxembourg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (bortset fra tre koncessionsstrækninger), Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Ålandsøerne, Montenegro, Albanien og Kosovo; årlig vignet i Schweiz, Østrig, Tjekkiet, Slovakiet, Ungarn og Slovenien (ingen vejafgift pr. tur) — hverken vejafgift eller vignet på Guernsey eller Jersey.",
+      'footer.text': "Kurs mod det ukendte — en legende generator, ingen data sendes nogensinde nogen steder hen. Byer: IGN / geo.api.gouv.fr (Etalab) for Frankrig, GeoNames (CC-BY-licens) for Andorra, Spanien, Portugal, Belgien, Holland, Luxembourg, Schweiz, Tyskland, Italien, Østrig, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tjekkiet, Polen, Slovakiet, Ungarn, Slovenien, Kroatien, Bosnien-Hercegovina, Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Ålandsøerne, Montenegro, Albanien, Kosovo, Serbien og Nordmakedonien. Seværdigheder og kortgrundlag: © OpenStreetMap-bidragydere (ODbL-licens). Vejafgifter: VINCI Autoroutes (Frankrig), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Hercegovina), Putevi Srbije (Serbien), JP za državni patišta (Nordmakedonien) — gratis motorveje i Belgien, Andorra, Holland, Luxembourg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (bortset fra tre koncessionsstrækninger), Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Ålandsøerne, Montenegro, Albanien og Kosovo; årlig vignet i Schweiz, Østrig, Tjekkiet, Slovakiet, Ungarn og Slovenien (ingen vejafgift pr. tur) — hverken vejafgift eller vignet på Guernsey eller Jersey.",
       'footer.legalMentions': "Juridisk meddelelse",
       'footer.privacyPolicy': "Privatlivspolitik",
       'footer.translationDisclaimer': 'Grænsefladen er oversat til mange sprog og kan indeholde fejl — tøv ikke med at give os besked på contact@lume419.fr.',
@@ -10749,7 +10749,7 @@
 
       'again.button': "Trekk en ny destinasjon",
 
-      'footer.text': "Kurs mot det ukjente — en lekende generator, ingen data sendes noen gang noe sted. Byer: IGN / geo.api.gouv.fr (Etalab) for Frankrike, GeoNames (CC-BY-lisens) for Andorra, Spania, Portugal, Belgia, Nederland, Luxembourg, Sveits, Tyskland, Italia, Østerrike, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjekkia, Polen, Slovakia, Ungarn, Slovenia, Kroatia, Bosnia-Hercegovina, Storbritannia, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albania og Kosovo. Severdigheter og kartbakgrunn: © OpenStreetMap-bidragsytere (ODbL-lisens). Bomavgifter: VINCI Autoroutes (Frankrike), Autopistas (Spania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia-Hercegovina) — gratis motorveier i Belgia, Andorra, Nederland, Luxembourg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (unntatt tre konsesjonsstrekninger), Storbritannia, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albania og Kosovo; årlig vignett i Sveits, Østerrike, Tsjekkia, Slovakia, Ungarn og Slovenia (ingen avgift per tur) — verken bomavgift eller vignett på Guernsey eller Jersey.",
+      'footer.text': "Kurs mot det ukjente — en lekende generator, ingen data sendes noen gang noe sted. Byer: IGN / geo.api.gouv.fr (Etalab) for Frankrike, GeoNames (CC-BY-lisens) for Andorra, Spania, Portugal, Belgia, Nederland, Luxembourg, Sveits, Tyskland, Italia, Østerrike, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjekkia, Polen, Slovakia, Ungarn, Slovenia, Kroatia, Bosnia-Hercegovina, Storbritannia, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albania, Kosovo, Serbia og Nord-Makedonia. Severdigheter og kartbakgrunn: © OpenStreetMap-bidragsytere (ODbL-lisens). Bomavgifter: VINCI Autoroutes (Frankrike), Autopistas (Spania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia-Hercegovina), Putevi Srbije (Serbia), JP za državni patišta (Nord-Makedonia) — gratis motorveier i Belgia, Andorra, Nederland, Luxembourg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (unntatt tre konsesjonsstrekninger), Storbritannia, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albania og Kosovo; årlig vignett i Sveits, Østerrike, Tsjekkia, Slovakia, Ungarn og Slovenia (ingen avgift per tur) — verken bomavgift eller vignett på Guernsey eller Jersey.",
       'footer.legalMentions': "Juridisk merknad",
       'footer.privacyPolicy': "Personvernerklæring",
       'footer.translationDisclaimer': 'Grensesnittet er oversatt til mange språk og kan inneholde feil — ikke nøl med å melde fra til contact@lume419.fr.',
@@ -10990,7 +10990,7 @@
 
       'again.button': "Dra en ny destination",
 
-      'footer.text': "Kurs mot det okända — en lekfull generator, ingen data skickas någonsin någonstans. Städer: IGN / geo.api.gouv.fr (Etalab) för Frankrike, GeoNames (CC-BY-licens) för Andorra, Spanien, Portugal, Belgien, Nederländerna, Luxemburg, Schweiz, Tyskland, Italien, Österrike, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tjeckien, Polen, Slovakien, Ungern, Slovenien, Kroatien, Bosnien och Hercegovina, Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albanien och Kosovo. Sevärdheter och kartbakgrund: © OpenStreetMap-bidragsgivare (ODbL-licens). Vägavgifter: VINCI Autoroutes (Frankrike), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien och Hercegovina) — fria motorvägar i Belgien, Andorra, Nederländerna, Luxemburg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (utom tre koncessionssträckor), Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albanien och Kosovo; årlig vinjett i Schweiz, Österrike, Tjeckien, Slovakien, Ungern och Slovenien (ingen avgift per resa) — varken vägavgift eller vinjett på Guernsey eller Jersey.",
+      'footer.text': "Kurs mot det okända — en lekfull generator, ingen data skickas någonsin någonstans. Städer: IGN / geo.api.gouv.fr (Etalab) för Frankrike, GeoNames (CC-BY-licens) för Andorra, Spanien, Portugal, Belgien, Nederländerna, Luxemburg, Schweiz, Tyskland, Italien, Österrike, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tjeckien, Polen, Slovakien, Ungern, Slovenien, Kroatien, Bosnien och Hercegovina, Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albanien, Kosovo, Serbien och Nordmakedonien. Sevärdheter och kartbakgrund: © OpenStreetMap-bidragsgivare (ODbL-licens). Vägavgifter: VINCI Autoroutes (Frankrike), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien och Hercegovina), Putevi Srbije (Serbien), JP za državni patišta (Nordmakedonien) — fria motorvägar i Belgien, Andorra, Nederländerna, Luxemburg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (utom tre koncessionssträckor), Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albanien och Kosovo; årlig vinjett i Schweiz, Österrike, Tjeckien, Slovakien, Ungern och Slovenien (ingen avgift per resa) — varken vägavgift eller vinjett på Guernsey eller Jersey.",
       'footer.legalMentions': "Juridiskt meddelande",
       'footer.privacyPolicy': "Integritetspolicy",
       'footer.translationDisclaimer': 'Gränssnittet har översatts till många språk och kan innehålla fel — tveka inte att rapportera dem till contact@lume419.fr.',
@@ -11232,7 +11232,7 @@
 
       'again.button': "Arvo uusi määränpää",
 
-      'footer.text': "Kurssi kohti tuntematonta — leikkisä generaattori, mitään tietoja ei koskaan lähetetä minnekään. Kaupungit: IGN / geo.api.gouv.fr (Etalab) Ranskalle, GeoNames (CC-BY-lisenssi) Andorralle, Espanjalle, Portugalille, Belgialle, Alankomaille, Luxemburgille, Sveitsille, Saksalle, Italialle, Itävallalle, San Marinolle, Liechtensteinille, Monacolle, Maltalle, Guernseylle, Jerseylle, Tšekille, Puolalle, Slovakialle, Unkarille, Slovenialle, Kroatialle, Bosnia ja Hertsegovinalle, Isolle-Britannialle, Irlannille, Mansaarelle, Tanskalle, Norjalle, Ruotsille ja Suomelle sekä Ahvenanmaalle, Montenegrolle, Albanialle ja Kosovolle. Nähtävyydet ja karttapohja: © OpenStreetMap-yhteisön jäsenet (ODbL-lisenssi). Tiemaksut: VINCI Autoroutes (Ranska), Autopistas (Espanja), Via Verde/Ascendi (Portugali), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia ja Hertsegovina) — maksuttomat moottoritiet Belgiassa, Andorrassa, Alankomaissa, Luxemburgissa, Saksassa, San Marinossa, Liechtensteinissa, Monacossa, Maltalla, Puolassa (lukuun ottamatta kolmea konsessio-osuutta), Isossa-Britanniassa, Irlannissa, Mansaarella, Tanskassa, Norjassa, Ruotsissa sekä Suomessa ja Ahvenanmaalla, Montenegrossa, Albaniassa ja Kosovossa; vuosittainen tarra Sveitsissä, Itävallassa, Tšekissä, Slovakiassa, Unkarissa ja Sloveniassa (ei tiemaksua ajokerralta) — ei tiemaksua eikä tarraa Guernseyllä tai Jerseyllä.",
+      'footer.text': "Kurssi kohti tuntematonta — leikkisä generaattori, mitään tietoja ei koskaan lähetetä minnekään. Kaupungit: IGN / geo.api.gouv.fr (Etalab) Ranskalle, GeoNames (CC-BY-lisenssi) Andorralle, Espanjalle, Portugalille, Belgialle, Alankomaille, Luxemburgille, Sveitsille, Saksalle, Italialle, Itävallalle, San Marinolle, Liechtensteinille, Monacolle, Maltalle, Guernseylle, Jerseylle, Tšekille, Puolalle, Slovakialle, Unkarille, Slovenialle, Kroatialle, Bosnia ja Hertsegovinalle, Isolle-Britannialle, Irlannille, Mansaarelle, Tanskalle, Norjalle, Ruotsille ja Suomelle sekä Ahvenanmaalle, Montenegrolle, Albanialle, Kosovolle, Serbialle ja Pohjois-Makedonialle. Nähtävyydet ja karttapohja: © OpenStreetMap-yhteisön jäsenet (ODbL-lisenssi). Tiemaksut: VINCI Autoroutes (Ranska), Autopistas (Espanja), Via Verde/Ascendi (Portugali), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia ja Hertsegovina), Putevi Srbije (Serbia), JP za državni patišta (Pohjois-Makedonia) — maksuttomat moottoritiet Belgiassa, Andorrassa, Alankomaissa, Luxemburgissa, Saksassa, San Marinossa, Liechtensteinissa, Monacossa, Maltalla, Puolassa (lukuun ottamatta kolmea konsessio-osuutta), Isossa-Britanniassa, Irlannissa, Mansaarella, Tanskassa, Norjassa, Ruotsissa sekä Suomessa ja Ahvenanmaalla, Montenegrossa, Albaniassa ja Kosovossa; vuosittainen tarra Sveitsissä, Itävallassa, Tšekissä, Slovakiassa, Unkarissa ja Sloveniassa (ei tiemaksua ajokerralta) — ei tiemaksua eikä tarraa Guernseyllä tai Jerseyllä.",
       'footer.legalMentions': "Oikeudellinen huomautus",
       'footer.privacyPolicy': "Tietosuojakäytäntö",
       'footer.translationDisclaimer': 'Käyttöliittymä on käännetty monille kielille ja voi sisältää virheitä — ilmoita niistä rohkeasti osoitteeseen contact@lume419.fr.',
@@ -11480,7 +11480,7 @@
 
       'again.button': "Nxirr një destinacion tjetër",
 
-      'footer.text': "Kurs drejt të panjohurës — një gjenerator argëtues, asnjë e dhënë nuk dërgohet kurrë askund. Qytetet: IGN / geo.api.gouv.fr (Etalab) për Francën, GeoNames (licencë CC-BY) për Andorrën, Spanjën, Portugalinë, Belgjikën, Holandën, Luksemburgun, Zvicrën, Gjermaninë, Italinë, Austrinë, San Marinon, Lihtenshtajnin, Monakon, Maltën, Guernsey, Jersey, Republikën Çeke, Poloninë, Sllovakinë, Hungarinë, Sllovenine, Kroacinë, Bosnjë-Hercegovinën, Mbretërinë e Bashkuar, Irlandën, Ishullin e Manit, Danimarkën, Norvegjinë, Suedinë, Finlandën, Ishujt Åland, Malin e Zi, Shqipërinë dhe Kosovën. Pikat e interesit dhe sfondi i hartës: © kontribuesit e OpenStreetMap (licencë ODbL). Taksat rrugore: VINCI Autoroutes (Francë), Autopistas (Spanjë), Via Verde/Ascendi (Portugali), Autostrade per l'Italia (Itali), HAC (Kroaci), Autoceste FBiH/Autoputevi RS (Bosnjë-Hercegovinë) — autostrada falas në Belgjikë, Andorra, Holandë, Luksemburg, Gjermani, San Marino, Lihtenshtajn, Monako, Maltë, Poloni (përveç tre seksioneve me koncesion), Mbretërinë e Bashkuar, Irlandë, Ishullin e Manit, Danimarkë, Norvegji, Suedi, Finlandë, Ishujt Åland, Mal të Zi, Shqipëri dhe Kosovë; vinjetë vjetore në Zvicër, Austri, Republikën Çeke, Sllovaki, Hungari dhe Slloveni (pa taksë për udhëtim) — asnjë taksë apo vinjetë në Guernsey ose Jersey.",
+      'footer.text': "Kurs drejt të panjohurës — një gjenerator argëtues, asnjë e dhënë nuk dërgohet kurrë askund. Qytetet: IGN / geo.api.gouv.fr (Etalab) për Francën, GeoNames (licencë CC-BY) për Andorrën, Spanjën, Portugalinë, Belgjikën, Holandën, Luksemburgun, Zvicrën, Gjermaninë, Italinë, Austrinë, San Marinon, Lihtenshtajnin, Monakon, Maltën, Guernsey, Jersey, Republikën Çeke, Poloninë, Sllovakinë, Hungarinë, Sllovenine, Kroacinë, Bosnjë-Hercegovinën, Mbretërinë e Bashkuar, Irlandën, Ishullin e Manit, Danimarkën, Norvegjinë, Suedinë, Finlandën, Ishujt Åland, Malin e Zi, Shqipërinë, Kosovën, Serbinë dhe Maqedoninë e Veriut. Pikat e interesit dhe sfondi i hartës: © kontribuesit e OpenStreetMap (licencë ODbL). Taksat rrugore: VINCI Autoroutes (Francë), Autopistas (Spanjë), Via Verde/Ascendi (Portugali), Autostrade per l'Italia (Itali), HAC (Kroaci), Autoceste FBiH/Autoputevi RS (Bosnjë-Hercegovinë), Putevi Srbije (Serbia), JP za državni patišta (Maqedonia e Veriut) — autostrada falas në Belgjikë, Andorra, Holandë, Luksemburg, Gjermani, San Marino, Lihtenshtajn, Monako, Maltë, Poloni (përveç tre seksioneve me koncesion), Mbretërinë e Bashkuar, Irlandë, Ishullin e Manit, Danimarkë, Norvegji, Suedi, Finlandë, Ishujt Åland, Mal të Zi, Shqipëri dhe Kosovë; vinjetë vjetore në Zvicër, Austri, Republikën Çeke, Sllovaki, Hungari dhe Slloveni (pa taksë për udhëtim) — asnjë taksë apo vinjetë në Guernsey ose Jersey.",
       'footer.legalMentions': "Njoftim ligjor",
       'footer.privacyPolicy': "Politika e privatësisë",
       'footer.translationDisclaimer': "Ndërfaqja është përkthyer në shumë gjuhë dhe mund të përmbajë gabime — mos hezitoni t'i raportoni te contact@lume419.fr.",
@@ -11730,7 +11730,7 @@
 
       'again.button': "Izvuci drugu destinaciju",
 
-      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španiju, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, ostrvo Man, Dansku, Norvešku, Švedsku, Finsku, ostrva Åland, Crnu Goru, Albaniju i Kosovo. Zanimljive tačke i podloga karte: © saradnici OpenStreetMapa (licenca ODbL). Putarine: VINCI Autoroutes (Francuska), Autopistas (Španija), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina) — besplatni auto-putevi u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesione dionice), u Ujedinjenom Kraljevstvu, Irskoj, na ostrvu Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na ostrvima Åland, u Crnoj Gori, Albaniji i na Kosovu; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj i Sloveniji (bez putarine za vožnju) — bez putarine ili vinjete na Guernseyju ili Jerseyju.",
+      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španiju, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, ostrvo Man, Dansku, Norvešku, Švedsku, Finsku, ostrva Åland, Crnu Goru, Albaniju, Kosovo, Srbiju i Sjevernu Makedoniju. Zanimljive tačke i podloga karte: © saradnici OpenStreetMapa (licenca ODbL). Putarine: VINCI Autoroutes (Francuska), Autopistas (Španija), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Sjeverna Makedonija) — besplatni auto-putevi u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesione dionice), u Ujedinjenom Kraljevstvu, Irskoj, na ostrvu Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na ostrvima Åland, u Crnoj Gori, Albaniji i na Kosovu; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj i Sloveniji (bez putarine za vožnju) — bez putarine ili vinjete na Guernseyju ili Jerseyju.",
       'footer.legalMentions': "Pravna napomena",
       'footer.privacyPolicy': "Politika privatnosti",
       'footer.translationDisclaimer': "Interfejs je preveden na brojne jezike i može sadržavati greške — slobodno ih prijavite na contact@lume419.fr.",
@@ -11749,6 +11749,492 @@
       'transport.moto.label': "motocikl",
       'transport.velo.label': "bicikl"
 
+    },
+    // "mk" (macédonien, ISO 639-1) : langue nationale de la Macédoine du Nord, ajoutée avec le pays
+    // lui-même — dernier ajout en date de la série balkanique (Serbie/Macédoine du Nord). Langue
+    // slave méridionale écrite en cyrillique, proche du bulgare et, dans une moindre mesure, du
+    // serbe déjà couvert (même sous-groupe slave du sud, mais deux langues distinctes reconnues
+    // séparément, pas un dialecte l'une de l'autre). L'albanais (~25% de la population, langue
+    // co-officielle dans les communes où il dépasse 20% des habitants depuis la loi de 2019) est
+    // lui-même déjà couvert depuis l'ajout de l'Albanie ; aucune autre langue minoritaire du pays
+    // (turc, rom, serbe, aroumain — chacune co-officielle seulement dans une poignée de communes)
+    // n'a été ajoutée séparément, le seuil de reconnaissance restant très local contrairement à
+    // l'albanais.
+    mk: {
+      'lang.buttonLabel': "Јазик",
+      'lang.searchPlaceholder': "Пребарај јазик…",
+      'lang.searchNoResults': "Не е пронајден јазик.",
+
+      'hero.eyebrow': "Генератор на мистериозно патување",
+      'hero.title': "Курс кон непознатото",
+      'hero.subtitle': "вашето следно патување сè уште нема име",
+      'hero.lede': "Внесете ја вашата почетна точка и вашите ограничувања. Машината извлекува вистинска рута, ден по ден — до {maxDays} дена и {maxStops} града.",
+      'hero.disclaimer': "Населените места, растојанијата, патарините и знаменитостите се засноваат на официјални податоци (IGN/GeoNames, ценовници на автопатските друштва, OpenStreetMap). Времето на патување и цените остануваат проценки — секогаш проверете ја вистинската рута и достапноста на сместувањето пред поаѓање.",
+
+      'form.heading': "Патен лист",
+      'form.clockPlaceholder': "— за пополнување —",
+      'form.city.label': "Град на поаѓање",
+      'form.city.loadingPlaceholder': "Вчитување на населените места…",
+      'form.city.placeholder': "На пр. {name} или {cp}",
+      'form.city.error.required': "Ве молиме внесете град на поаѓање.",
+      'form.city.error.selectFromList': "Изберете населено место од паѓачката листа (пребарување по име или поштенски број).",
+      'form.dates.label': "Датуми на престојот",
+      'form.dates.arrivalAria': "Датум на пристигнување",
+      'form.dates.returnAria': "Датум на враќање",
+      'form.dates.error': "Датумот на враќање мора да биде истиот ден или по датумот на пристигнување.",
+      'form.dates.oneDay': "1 ден (само оди-врати, без ноќевање)",
+      'form.dates.duration1': "{days} дена (1 ноќ)",
+      'form.dates.durationN': "{days} дена ({nights} ноќи)",
+      'form.dates.maxSuffix': " — максимум {max} дена",
+      'form.dates.placeholder': "—",
+      'form.budget.label': "Вкупен буџет",
+      'form.budget.economique': "Економичен",
+      'form.budget.moyen': "Среден",
+      'form.budget.confortable': "Удобен",
+      'form.budget.hint': "До {max} {currency} / ноќ (индикативно, 2 возрасни) — се користи за да се предпополнат пребарувањата на Airbnb/Booking.",
+      'form.transport.label': "Начин на превоз",
+      'form.transport.voitureThermique': "Автомобил (со согорување)",
+      'form.transport.voitureHybride': "Хибриден автомобил",
+      'form.transport.voitureElectrique': "Електричен автомобил",
+      'form.transport.van': "Опремено комбе",
+      'form.transport.moto': "Мотор",
+      'form.transport.velo': "Велосипед / bikepacking",
+      'form.toll.label': "Дозволени автопатишта со патарина",
+      'form.ferry.label': "Дозволени премини со трајект (острови)",
+      'form.ferry.hint': "Штиклирано: извлекувањето може да вклучи Корзика, Балеарите, Канарските Острови или Ваденските Острови, поврзани со вистинска траектна линија (никогаш со авион).",
+      'form.tent.label': "Избегнувај биваку и спиење под шатор",
+      'form.tent.hint': "Штиклирано: ноќевањата под ѕвезди во економичен буџет се заменуваат со опција колиба/јурта/куќа за гости.",
+      'form.radius.label': "Ограничување на радиус",
+      'form.radius.modeKm': "Максимално растојание (км)",
+      'form.radius.modeH': "Максимално време на враќање (ч)",
+      'form.radius.groupAria': "Тип на ограничување",
+      'form.radius.decAria': "Намали",
+      'form.radius.incAria': "Зголеми",
+      'form.radius.unitKm': "км околу поаѓањето",
+      'form.radius.unitH': "од максималното враќање",
+      'form.radius.hint': "Се однесува само на {strong} (враќањето)",
+      'form.radius.hintStrong': "последното патување",
+      'form.minDistance.label': "Растојание на оддалеченост (опционално)",
+      'form.minDistance.minPlaceholder': "Без минимум",
+      'form.minDistance.maxPlaceholder': "Без максимум",
+      'form.minDistance.unitMin': "км најмалку",
+      'form.minDistance.unitMax': "км најмногу",
+      'form.minDistance.hintMin': "Минимум: првата етапа ќе биде на најмалку ова растојание.",
+      'form.minDistance.hintMax': "Максимум: патувањето никогаш нема да го надмине ова растојание од почетната точка, во ниту еден момент од престојот.",
+      'form.launch.button': "Активирај го генераторот за случајно патување",
+      'form.launch.hint': "Ве чека тајна дестинација.",
+
+      'reveal.drawing': "Извлекување во тек…",
+      'reveal.clueIdle': "Патот ќе проговори.",
+      'reveal.clueSpinning': "Непозната насока…",
+      'reveal.clueFinal': "Еве ја вашата мистериозна почетна точка.",
+      'reveal.clueReduced': "Ве чека вистинско место.",
+      'reveal.confirmed': "Извлечена дестинација",
+      'reveal.stamp': "Потврдена дестинација",
+      'reveal.inhabitants': "{n} жители",
+      'reveal.poi1': "1 вистинска знаменитост пронајдена",
+      'reveal.poiN': "{n} вистински знаменитости пронајдени",
+
+      'map.title': "Карта на патувањето",
+      'map.note': "Позадина на картата OpenStreetMap. Точките се поставени на вистинските координати на населените места — трасата ги поврзува етапите по права линија, вистинскиот пат вијуга повеќе.",
+      'map.ariaLabel': "Карта на патувањето, позадина OpenStreetMap",
+      'map.departFallback': "Поаѓање",
+      'map.returnLabel': "враќање",
+
+      'timeline.title': "Патен дневник",
+      'stats.days': "дена",
+      'stats.cities': "градови",
+      'stats.nights': "ноќевања",
+      'stats.totalKm': "вкупно",
+      'stats.tollEstimated': "проценета патарина",
+      'stats.tollAvoided': "избегната патарина",
+      'stats.ferryTotal': "трајект",
+
+      'day.single': "Единствен ден — мистериозно оди-врати",
+      'day.return': "Враќање",
+      'day.n': "Ден {n}",
+      'day.nReturn': "Ден {n} — враќање",
+      'day.rangeAnd': "Денови {a} и {b}",
+      'day.rangeTo': "Денови {a} до {b}",
+      'day.routeTime': "~ {time} возење · {km} км",
+      'day.crossingTime': "~ {time} премин · {km} км",
+      'day.stepMystery': "Мистериозна етапа: {stop}",
+      'day.returnTo': "Враќање кон {stop}",
+
+      'photo.view': "Погледни ја сликата на {name}",
+      'photo.searching': "Пребарување вистинска слика…",
+      'photo.real': "Вистинска слика · © Wikimedia Commons",
+      'photo.none': "Не е пронајдена слика на Википедија за ова место",
+      'photo.unavailable': "Сликата не е достапна — пребарување слики во живо",
+      'photo.enlargeAria': "Зголеми ја сликата на {name}",
+      'photo.closeAria': "Затвори ја сликата",
+      'wiki.link': "Википедија ↗",
+
+      'ferry.label': "Премин со трајект",
+      'ferry.text': "{route} — околу {amount} € · {duration} премин.",
+      'ferry.route.corsica': "Континент ↔ Корзика",
+      'ferry.route.balearic': "Континент ↔ Балеарски Острови",
+      'ferry.route.canary': "Континент ↔ Канарски Острови",
+      'ferry.route.wadden': "Континент ↔ Ваденски Острови",
+      'ferry.route.sardinia': "Континент ↔ Сардинија",
+      'ferry.route.sicily': "Континент ↔ Сицилија",
+      'ferry.route.malta': "Сицилија ↔ Малта",
+      'ferry.route.gozo': "Малта ↔ Гозо",
+      'ferry.route.jersey': "Континент ↔ Џерси",
+      'ferry.route.guernsey': "Континент ↔ Гернзи",
+      'ferry.route.channelIslands': "Џерси ↔ Гернзи",
+      'ferry.route.cres': "Континент ↔ Црес",
+      'ferry.route.rab': "Континент ↔ Раб",
+      'ferry.route.ugljan': "Континент ↔ Углјан",
+      'ferry.route.dugiOtok': "Континент ↔ Дуги Оток",
+      'ferry.route.brac': "Континент ↔ Брач",
+      'ferry.route.solta': "Континент ↔ Шолта",
+      'ferry.route.hvar': "Континент ↔ Хвар",
+      'ferry.route.vis': "Континент ↔ Вис",
+      'ferry.route.korcula': "Континент ↔ Корчула",
+      'ferry.route.mljet': "Континент ↔ Млет",
+      'ferry.route.lastovo': "Континент ↔ Ластово",
+      'ferry.route.doverCalais': "Континент ↔ Велика Британија",
+      'ferry.route.holyheadDublin': "Велика Британија ↔ Ирска",
+      'ferry.route.heyshamDouglas': "Велика Британија ↔ Островот Ман",
+      'ferry.route.bornholm': "Континент ↔ Борнхолм",
+      'ferry.route.gotland': "Континент ↔ Готланд",
+      'ferry.route.aland': "Континент ↔ Оланд",
+      'toll.label': "Патарина (ценовник ASF 2026)",
+      'toll.barrierFree': "патарина со слободен проток, без рампа (автоматска наплата преку камера)",
+      'toll.barrierClassic': "класична патарина со рампа",
+      'toll.enabled': "Проценета патарина: ~{amount} € ({barrier}) — заштедувате околу {min} мин во споредба со патување без патарина.",
+      'toll.disabled': "Без патарина (опцијата е отштиклирана): можевте да заштедите околу {min} мин на автопат (~{amount} €, {barrier}).",
+      'vignette.label': "Автопатска винтета",
+      'vignette.notice': "Задолжителна во оваа земја — не заборавајте да ја нарачате пред поаѓање.",
+      'vignette.link': "Нарачај ја официјалната винтета ↗",
+
+      'charge.label': "Електрично полнење",
+      'charge.text1': "1 проценета пауза за полнење (~{min} мин вкупно) на брза полначка станица.",
+      'charge.textN': "{n} проценети паузи за полнење (~{min} мин вкупно) на брза полначка станица.",
+
+      'activities.choice': "Можни активности — по избор",
+      'activities.day': "Можни активности — Ден {n}",
+      'activities.loadingReal': "— пребарување на вистински локални активности…",
+      'activities.loadingHike': "— пребарување на вистинска пешачка патека…",
+
+      'poiType.attraction': "локална знаменитост",
+      'poiType.museum': "музеј",
+      'poiType.viewpoint': "видиковец",
+      'poiType.castle': "замок",
+      'poiType.gallery': "галерија",
+      'poiType.zoo': "зоолошка градина",
+      'poiType.theme_park': "забавен парк",
+      'poiType.monument': "споменик",
+      'poiType.memorial': "спомен-обележје",
+      'poiType.archaeological_site': "археолошко наоѓалиште",
+      'poiType.cave_entrance': "пештера",
+      'poiType.ruins': "рушевини",
+      'poiType.fort': "тврдина",
+      'poiType.citadel': "цитадела",
+      'poiType.manor': "дворец",
+      'poiType.chapel': "капела",
+      'poiType.place_of_worship': "верски објект",
+      'poiType.nature_reserve': "природен резерват",
+      'poiType.peak': "врв",
+      'poiType.waterfall': "водопад",
+      'poiType.beach': "плажа",
+      'poiType.artwork': "уметничко дело",
+      'poiType.fallback': "локална знаменитост",
+      'poiType.walkFallback': "прошетка",
+      'poiType.generic': "за правење на лице место",
+
+      'generic.walk': "Пешачење или прошетка во околината",
+      'generic.market': "Локален пазар и локални производи (проверете ги деновите на лице место)",
+      'generic.church': "Посета на црквата или локалното градено наследство",
+      'generic.stroll': "Прошетка низ историскиот центар",
+      'generic.producer': "Откривање локален производител или занаетчија",
+
+      'hike.sourceLabel': "Извор: Visorando ↗",
+      'hike.defaultType': "обележана пешачка патека",
+
+      'lodging.find': "Најди сместување · {range}",
+      'lodging.airbnb': "Airbnb ↗",
+      'lodging.booking': "Booking.com ↗",
+      'lodging.economiqueTent': "Камп, биваку или природна површина (мал буџет)",
+      'lodging.economiqueNoTent': "Хостел, едноставна соба или мал хотел (без биваку)",
+      'lodging.moyen': "Куќа за одмор, соба со појадок или хотел 2-3★",
+      'lodging.confortable': "Шармантен хотел или сместување од висок ранг",
+
+      'end.label': "Крај на мисијата",
+      'end.text': "Враќање дома, мистериозното патување е завршено.",
+
+      'export.hint': "Ова патување ве привлекува? Преземете го, најверојатно нема повторно да биде понудено.",
+      'export.button': "Извези ја оваа рута во PDF",
+      'export.generating': "Генерирање на PDF…",
+      'export.error': "Неуспешно генерирање на PDF — обидете се повторно за момент.",
+
+      'pack.title': "Ранец за подготовка",
+      'pack.subDefault': "Најпотребното за оваа мистериозна мисија",
+      'pack.sub': "За {transport}, буџет {budget}.",
+
+      'again.button': "Извлечи друга дестинација",
+
+      'footer.text': "Курс кон непознатото — забавен генератор, никогаш не се испраќаат никакви податоци никаде. Населени места: IGN / geo.api.gouv.fr (Etalab) за Франција, GeoNames (лиценца CC-BY) за Андора, Шпанија, Португалија, Белгија, Холандија, Луксембург, Швајцарија, Германија, Италија, Австрија, Сан Марино, Лихтенштајн, Монако, Малта, Гернзи, Џерси, Чешка, Полска, Словачка, Унгарија, Словенија, Хрватска, Босна и Херцеговина, Обединетото Кралство, Ирска, Островот Ман, Данска, Норвешка, Шведска, Финска, Оландски Острови, Црна Гора, Албанија, Косово, Србија и Северна Македонија. Знаменитости и подлога на картата: © соработниците на OpenStreetMap (лиценца ODbL). Патарини: VINCI Autoroutes (Франција), Autopistas (Шпанија), Via Verde/Ascendi (Португалија), Autostrade per l'Italia (Италија), HAC (Хрватска), Autoceste FBiH/Autoputevi RS (Босна и Херцеговина), Putevi Srbije (Србија), JP za državni patišta (Северна Македонија) — бесплатни автопати во Белгија, во Андора, во Холандија, во Луксембург, во Германија, во Сан Марино, во Лихтенштајн, во Монако, во Малта, во Полска (освен три концесионирани делници), во Обединетото Кралство, во Ирска, на Островот Ман, во Данска, во Норвешка, во Шведска, во Финска, на Оландските Острови, во Црна Гора, во Албанија и во Косово; годишна винтета во Швајцарија, во Австрија, во Чешка, во Словачка, во Унгарија и во Словенија (без патарина по патување) — ни патарина ни винтета во Гернзи и во Џерси.",
+      'footer.legalMentions': "Правна белешка",
+      'footer.privacyPolicy': "Политика за приватност",
+      'footer.translationDisclaimer': "Интерфејсот е преведен на многу јазици и може да содржи грешки — слободно пријавете ги на contact@lume419.fr.",
+
+      'error.loadData': "Не можат да се вчитаат податоците ({msg}). Проверете дали серверот ја сервира папката public/data.",
+      'error.routeImpossible': "Во моментов не може да се состави рута од овој град — обидете се повторно, или проширете го радиусот.",
+      'error.minMaxDistance': "Минималното растојание ({min} км) не може да го надмине максималното растојание ({max} км).",
+      'error.minDistanceContextDay': "1 ден и без ноќевање",
+      'error.minDistanceContextNight': "1 ноќевање",
+      'error.minDistanceTooFar': "Невозможно: со само {context}, не може да се оддалечите барем {min} км и потоа да се вратите во избраниот радиус/време на враќање ({radius} км). Продолжете го престојот, намалете го минималното растојание, или проширете го максималниот радиус.",
+
+      'transport.voitureThermique.label': "автомобил",
+      'transport.voitureHybride.label': "хибриден автомобил",
+      'transport.voitureElectrique.label': "електричен автомобил",
+      'transport.van.label': "комбе",
+      'transport.moto.label': "мотор",
+      'transport.velo.label': "велосипед"
+    },
+    // "ro" (roumain standard, ISO 639-1) : ajouté avec la Serbie plutôt qu'avec un pays roumanophone
+    // (aucun n'est couvert par cette app) — langue co-officielle de la province autonome de
+    // Voïvodine (nord de la Serbie), aux côtés du serbe déjà couvert et du hongrois/slovaque/rusyn/
+    // croate ajoutés à différents moments de cette même série (statut confirmé dans les alias
+    // générés pour la Serbie : 27 correspondances "ro", vérifié). À distinguer du "ruo" déjà présent
+    // (Vlaški-Žejanski/istro-roumain, langue distincte parlée en Istrie croate, pas en Serbie) :
+    // les deux langues sont apparentées (branche romane orientale) mais n'ont pas la même aire
+    // linguistique ni le même statut officiel dans ce projet.
+    ro: {
+      'lang.buttonLabel': "Limbă",
+      'lang.searchPlaceholder': "Căutați o limbă…",
+      'lang.searchNoResults': "Nicio limbă găsită.",
+
+      'hero.eyebrow': "Generator de călătorie misterioasă",
+      'hero.title': "Cap spre necunoscut",
+      'hero.subtitle': "următoarea dvs. escapadă nu are încă un nume",
+      'hero.lede': "Indicați punctul de plecare și restricțiile dvs. Mașina extrage la întâmplare un traseu real, zi de zi — până la {maxDays} zile și {maxStops} orașe.",
+      'hero.disclaimer': "Localitățile, distanțele, taxele de drum și punctele de interes se bazează pe date oficiale (IGN/GeoNames, ghidurile tarifare ale societăților de autostrăzi, OpenStreetMap). Timpii de parcurs și prețurile rămân estimări — verificați întotdeauna traseul real și disponibilitatea cazării înainte de plecare.",
+
+      'form.heading': "Foaie de parcurs",
+      'form.clockPlaceholder': "— de completat —",
+      'form.city.label': "Oraș de plecare",
+      'form.city.loadingPlaceholder': "Se încarcă localitățile…",
+      'form.city.placeholder': "Ex. {name} sau {cp}",
+      'form.city.error.required': "Vă rugăm să indicați un oraș de plecare.",
+      'form.city.error.selectFromList': "Selectați o localitate din lista derulantă (căutare după nume sau cod poștal).",
+      'form.dates.label': "Datele sejurului",
+      'form.dates.arrivalAria': "Data sosirii",
+      'form.dates.returnAria': "Data întoarcerii",
+      'form.dates.error': "Data întoarcerii trebuie să fie aceeași zi sau după data sosirii.",
+      'form.dates.oneDay': "1 zi (dus-întors, fără cazare)",
+      'form.dates.duration1': "{days} zile (1 noapte)",
+      'form.dates.durationN': "{days} zile ({nights} nopți)",
+      'form.dates.maxSuffix': " — maximum {max} zile",
+      'form.dates.placeholder': "—",
+      'form.budget.label': "Buget global",
+      'form.budget.economique': "Econom",
+      'form.budget.moyen': "Mediu",
+      'form.budget.confortable': "Confortabil",
+      'form.budget.hint': "Până la {max} {currency} / noapte (orientativ, 2 adulți) — folosit pentru a precompleta căutările Airbnb/Booking.",
+      'form.transport.label': "Mod de transport",
+      'form.transport.voitureThermique': "Mașină (cu combustie)",
+      'form.transport.voitureHybride': "Mașină hibridă",
+      'form.transport.voitureElectrique': "Mașină electrică",
+      'form.transport.van': "Camionetă amenajată",
+      'form.transport.moto': "Motocicletă",
+      'form.transport.velo': "Bicicletă / bikepacking",
+      'form.toll.label': "Autostrăzi cu taxă permise",
+      'form.ferry.label': "Traversări cu feribotul permise (insule)",
+      'form.ferry.hint': "Bifat: tragerea la sorți poate include Corsica, Insulele Baleare, Insulele Canare sau Insulele Wadden, legate printr-o linie de feribot reală (niciodată cu avionul).",
+      'form.tent.label': "Evitați bivuacul și nopțile în cort",
+      'form.tent.hint': "Bifat: nopțile sub cerul liber la buget econom sunt înlocuite cu o cabană/iurtă/pensiune.",
+      'form.radius.label': "Limită de rază",
+      'form.radius.modeKm': "Distanță maximă (km)",
+      'form.radius.modeH': "Timp maxim de întoarcere (h)",
+      'form.radius.groupAria': "Tip de limită",
+      'form.radius.decAria': "Scade",
+      'form.radius.incAria': "Crește",
+      'form.radius.unitKm': "km în jurul plecării",
+      'form.radius.unitH': "de întoarcere maximă",
+      'form.radius.hint': "Se aplică doar la {strong} (întoarcerea)",
+      'form.radius.hintStrong': "ultimul traseu",
+      'form.minDistance.label': "Distanță de îndepărtare (opțional)",
+      'form.minDistance.minPlaceholder': "Niciun minim",
+      'form.minDistance.maxPlaceholder': "Niciun maxim",
+      'form.minDistance.unitMin': "km cel puțin",
+      'form.minDistance.unitMax': "km cel mult",
+      'form.minDistance.hintMin': "Minim: prima etapă va fi la cel puțin această distanță.",
+      'form.minDistance.hintMax': "Maxim: traseul nu va depăși niciodată această distanță față de punctul de plecare, în niciun moment al sejurului.",
+      'form.launch.button': "Porniți generatorul de călătorie aleatorie",
+      'form.launch.hint': "O destinație secretă vă așteaptă.",
+
+      'reveal.drawing': "Tragere la sorți în curs…",
+      'reveal.clueIdle': "Drumul va vorbi în curând.",
+      'reveal.clueSpinning': "Direcție necunoscută…",
+      'reveal.clueFinal': "Iată punctul dvs. de plecare misterios.",
+      'reveal.clueReduced': "Un loc real vă așteaptă.",
+      'reveal.confirmed': "Destinație trasă la sorți",
+      'reveal.stamp': "Destinație confirmată",
+      'reveal.inhabitants': "{n} locuitori",
+      'reveal.poi1': "1 punct de interes real reperat",
+      'reveal.poiN': "{n} puncte de interes reale reperate",
+
+      'map.title': "Harta traseului",
+      'map.note': "Fundal de hartă OpenStreetMap. Punctele sunt poziționate la coordonatele reale ale localităților — traseul unește etapele în linie dreaptă, drumul real șerpuiește mai mult.",
+      'map.ariaLabel': "Harta traseului, fundal OpenStreetMap",
+      'map.departFallback': "Plecare",
+      'map.returnLabel': "întoarcere",
+
+      'timeline.title': "Jurnal de bord",
+      'stats.days': "zile",
+      'stats.cities': "orașe",
+      'stats.nights': "nopți",
+      'stats.totalKm': "total",
+      'stats.tollEstimated': "taxă de drum estimată",
+      'stats.tollAvoided': "taxă de drum evitată",
+      'stats.ferryTotal': "feribot",
+
+      'day.single': "Zi unică — dus-întors misterios",
+      'day.return': "Întoarcere",
+      'day.n': "Ziua {n}",
+      'day.nReturn': "Ziua {n} — întoarcere",
+      'day.rangeAnd': "Zilele {a} și {b}",
+      'day.rangeTo': "Zilele {a} până la {b}",
+      'day.routeTime': "~ {time} de drum · {km} km",
+      'day.crossingTime': "~ {time} de traversare · {km} km",
+      'day.stepMystery': "Etapă misterioasă: {stop}",
+      'day.returnTo': "Întoarcere spre {stop}",
+
+      'photo.view': "Vezi {name} în fotografie",
+      'photo.searching': "Se caută o fotografie reală…",
+      'photo.real': "Fotografie reală · © Wikimedia Commons",
+      'photo.none': "Nicio fotografie găsită pe Wikipedia pentru acest loc",
+      'photo.unavailable': "Imagine indisponibilă — căutare de imagini în direct",
+      'photo.enlargeAria': "Mărește fotografia lui {name}",
+      'photo.closeAria': "Închide fotografia",
+      'wiki.link': "Wikipedia ↗",
+
+      'ferry.label': "Traversare cu feribotul",
+      'ferry.text': "{route} — aproximativ {amount} € · {duration} de traversare.",
+      'ferry.route.corsica': "Continent ↔ Corsica",
+      'ferry.route.balearic': "Continent ↔ Insulele Baleare",
+      'ferry.route.canary': "Continent ↔ Insulele Canare",
+      'ferry.route.wadden': "Continent ↔ Insulele Wadden",
+      'ferry.route.sardinia': "Continent ↔ Sardinia",
+      'ferry.route.sicily': "Continent ↔ Sicilia",
+      'ferry.route.malta': "Sicilia ↔ Malta",
+      'ferry.route.gozo': "Malta ↔ Gozo",
+      'ferry.route.jersey': "Continent ↔ Jersey",
+      'ferry.route.guernsey': "Continent ↔ Guernsey",
+      'ferry.route.channelIslands': "Jersey ↔ Guernsey",
+      'ferry.route.cres': "Continent ↔ Cres",
+      'ferry.route.rab': "Continent ↔ Rab",
+      'ferry.route.ugljan': "Continent ↔ Ugljan",
+      'ferry.route.dugiOtok': "Continent ↔ Dugi otok",
+      'ferry.route.brac': "Continent ↔ Brač",
+      'ferry.route.solta': "Continent ↔ Šolta",
+      'ferry.route.hvar': "Continent ↔ Hvar",
+      'ferry.route.vis': "Continent ↔ Vis",
+      'ferry.route.korcula': "Continent ↔ Korčula",
+      'ferry.route.mljet': "Continent ↔ Mljet",
+      'ferry.route.lastovo': "Continent ↔ Lastovo",
+      'ferry.route.doverCalais': "Continent ↔ Marea Britanie",
+      'ferry.route.holyheadDublin': "Marea Britanie ↔ Irlanda",
+      'ferry.route.heyshamDouglas': "Marea Britanie ↔ Insula Man",
+      'ferry.route.bornholm': "Continent ↔ Bornholm",
+      'ferry.route.gotland': "Continent ↔ Gotland",
+      'ferry.route.aland': "Continent ↔ Åland",
+      'toll.label': "Taxă de drum (tarif ASF 2026)",
+      'toll.barrierFree': "taxă de drum cu flux liber, fără barieră (facturare automată prin cameră)",
+      'toll.barrierClassic': "taxă de drum clasică cu barieră",
+      'toll.enabled': "Taxă de drum estimată: ~{amount} € ({barrier}) — economisiți circa {min} min față de un traseu fără taxă.",
+      'toll.disabled': "Fără taxă de drum (opțiune debifată): ați fi putut economisi circa {min} min pe autostradă (~{amount} €, {barrier}).",
+      'vignette.label': "Vinietă de autostradă",
+      'vignette.notice': "Obligatorie în această țară — nu uitați să o comandați înainte de plecare.",
+      'vignette.link': "Comandă vinieta oficială ↗",
+
+      'charge.label': "Reîncărcare electrică",
+      'charge.text1': "1 pauză de reîncărcare estimată (~{min} min în total) la o stație rapidă.",
+      'charge.textN': "{n} pauze de reîncărcare estimate (~{min} min în total) la o stație rapidă.",
+
+      'activities.choice': "Activități posibile — la alegere",
+      'activities.day': "Activități posibile — Ziua {n}",
+      'activities.loadingReal': "— căutare de activități locale reale…",
+      'activities.loadingHike': "— căutare de o drumeție reală…",
+
+      'poiType.attraction': "curiozitate locală",
+      'poiType.museum': "muzeu",
+      'poiType.viewpoint': "punct de belvedere",
+      'poiType.castle': "castel",
+      'poiType.gallery': "galerie",
+      'poiType.zoo': "parc zoologic",
+      'poiType.theme_park': "parc de distracții",
+      'poiType.monument': "monument",
+      'poiType.memorial': "memorial",
+      'poiType.archaeological_site': "sit arheologic",
+      'poiType.cave_entrance': "peșteră",
+      'poiType.ruins': "ruine",
+      'poiType.fort': "fort",
+      'poiType.citadel': "citadelă",
+      'poiType.manor': "conac",
+      'poiType.chapel': "capelă",
+      'poiType.place_of_worship': "lăcaș de cult",
+      'poiType.nature_reserve': "rezervație naturală",
+      'poiType.peak': "vârf",
+      'poiType.waterfall': "cascadă",
+      'poiType.beach': "plajă",
+      'poiType.artwork': "operă de artă",
+      'poiType.fallback': "curiozitate locală",
+      'poiType.walkFallback': "plimbare",
+      'poiType.generic': "de făcut la fața locului",
+
+      'generic.walk': "Drumeție sau plimbare în împrejurimi",
+      'generic.market': "Piață locală și produse din regiune (verificați zilele la fața locului)",
+      'generic.church': "Vizitarea bisericii sau a patrimoniului construit local",
+      'generic.stroll': "Plimbare prin centrul istoric",
+      'generic.producer': "Descoperirea unui producător sau meșteșugar local",
+
+      'hike.sourceLabel': "Sursă: Visorando ↗",
+      'hike.defaultType': "drumeție marcată",
+
+      'lodging.find': "Găsește o cazare · {range}",
+      'lodging.airbnb': "Airbnb ↗",
+      'lodging.booking': "Booking.com ↗",
+      'lodging.economiqueTent': "Camping, bivuac sau arie naturală (buget mic)",
+      'lodging.economiqueNoTent': "Hostel, cameră simplă sau hotel mic (bivuac evitat)",
+      'lodging.moyen': "Pensiune, cameră la gazdă sau hotel 2-3★",
+      'lodging.confortable': "Hotel de charme sau cazare de lux",
+
+      'end.label': "Sfârșitul misiunii",
+      'end.text': "Întoarcere acasă, călătoria misterioasă s-a încheiat.",
+
+      'export.hint': "Vă tentează această călătorie? Descărcați-o, probabil nu va mai fi propusă vreodată.",
+      'export.button': "Exportă acest traseu în PDF",
+      'export.generating': "Se generează PDF-ul…",
+      'export.error': "Generarea PDF-ului a eșuat — încercați din nou peste o clipă.",
+
+      'pack.title': "Rucsac de pregătit",
+      'pack.subDefault': "Esențialul pentru această misiune misterioasă",
+      'pack.sub': "Pentru {transport}, buget {budget}.",
+
+      'again.button': "Trage la sorți altă destinație",
+
+      'footer.text': "Cap spre necunoscut — un generator ludic, niciun fel de date nu sunt trimise niciodată nicăieri. Localități: IGN / geo.api.gouv.fr (Etalab) pentru Franța, GeoNames (licență CC-BY) pentru Andorra, Spania, Portugalia, Belgia, Țările de Jos, Luxemburg, Elveția, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Republica Cehă, Polonia, Slovacia, Ungaria, Slovenia, Croația, Bosnia și Herțegovina, Regatul Unit, Irlanda, Insula Man, Danemarca, Norvegia, Suedia, Finlanda, Insulele Åland, Muntenegru, Albania, Kosovo, Serbia și Macedonia de Nord. Puncte de interes și fundal hartă: © contribuitorii OpenStreetMap (licență ODbL). Taxe de drum: VINCI Autoroutes (Franța), Autopistas (Spania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Italia), HAC (Croația), Autoceste FBiH/Autoputevi RS (Bosnia și Herțegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia de Nord) — autostrăzi fără taxă în Belgia, în Andorra, în Țările de Jos, în Luxemburg, în Germania, în San Marino, în Liechtenstein, în Monaco, în Malta, în Polonia (cu excepția a trei secțiuni concesionate), în Regatul Unit, în Irlanda, în Insula Man, în Danemarca, în Norvegia, în Suedia, în Finlanda, în Insulele Åland, în Muntenegru, în Albania și în Kosovo; vinietă anuală în Elveția, în Austria, în Republica Cehă, în Slovacia, în Ungaria și în Slovenia (fără taxă pe traseu) — nici taxă nici vinietă în Guernsey și Jersey.",
+      'footer.legalMentions': "Mențiuni legale",
+      'footer.privacyPolicy': "Politica de confidențialitate",
+      'footer.translationDisclaimer': "Interfața a fost tradusă în numeroase limbi și poate conține erori — nu ezitați să le semnalați la contact@lume419.fr.",
+
+      'error.loadData': "Nu se pot încărca datele ({msg}). Verificați dacă serverul servește corect folderul public/data.",
+      'error.routeImpossible': "Imposibil de construit un traseu din acest oraș deocamdată — încercați din nou, sau extindeți raza.",
+      'error.minMaxDistance': "Distanța minimă ({min} km) nu poate depăși distanța maximă ({max} km).",
+      'error.minDistanceContextDay': "1 zi și nicio noapte de cazare",
+      'error.minDistanceContextNight': "1 noapte de cazare",
+      'error.minDistanceTooFar': "Imposibil: cu doar {context}, nu vă puteți îndepărta cu cel puțin {min} km și apoi să vă întoarceți în raza/timpul de întoarcere ales ({radius} km). Prelungiți durata sejurului, reduceți distanța minimă, sau extindeți raza maximă.",
+
+      'transport.voitureThermique.label': "mașină",
+      'transport.voitureHybride.label': "mașină hibridă",
+      'transport.voitureElectrique.label': "mașină electrică",
+      'transport.van.label': "camionetă",
+      'transport.moto.label': "motocicletă",
+      'transport.velo.label': "bicicletă"
     }
   };
 
@@ -12353,6 +12839,30 @@
       'pack.moto': ['Kaciga i rukavice', 'Kišna odjeća ili kišne pantalone', 'Elastične trake za prtljag'],
       'pack.velo': ['Kompletan komplet za popravku defekta', 'Nepromočive bisage', 'Vanjska baterija za GPS']
 
+    },
+    mk: {
+      'pack.base': ["Прибор за прва помош", "Шише за вода за повеќекратна употреба", "Полнач и надворешна батерија", "Резервна готовина", "Плејлиста за пат"],
+      'pack.economique': ["Вреќа за спиење за 3 сезони", "РеШо / прибор за камп готвење", "Ултралесен шатор (резерва за биваку)"],
+      'pack.moyen': ["Компактен прибор за хигиена", "Мало патничко перниче"],
+      'pack.confortable': ["Пристојна облека за вечера во ресторан", "Комплетен прибор за хигиена"],
+      'pack.voitureThermique': ["Сообраќајна дозвола и важечка возачка дозвола", "Прибор за прва помош"],
+      'pack.voitureHybride': ["Сообраќајна дозвола и важечка возачка дозвола", "Прибор за прва помош"],
+      'pack.voitureElectrique': ["Кабел за полнење тип 2", "Апликација за повеќе мрежи на полначки (на пр. Chargemap)", "Резерва од 20% на пријавениот домет"],
+      'pack.van': ["Канистер за питка вода", "Боца камп-гас", "Клинови за нивелирање"],
+      'pack.moto': ["Кацига и ракавици", "Комбинезон или панталони за дожд", "Еластични ремени за багаж"],
+      'pack.velo': ["Комплетен прибор за поправка на дупната гума", "Водоотпорни бисаги", "Надворешна батерија за GPS"]
+    },
+    ro: {
+      'pack.base': ["Trusă de prim ajutor", "Sticlă de apă reutilizabilă", "Încărcător și baterie externă", "Bani lichizi de rezervă", "Playlist de drum"],
+      'pack.economique': ["Sac de dormit 3 sezoane", "Aragaz / vase de camping", "Cort ultraușor (de rezervă pentru bivuac)"],
+      'pack.moyen': ["Trusă de toaletă compactă", "Pernă mică de călătorie"],
+      'pack.confortable': ["O ținută corectă pentru cina la restaurant", "Trusă de toaletă completă"],
+      'pack.voitureThermique': ["Talonul mașinii și permisul valabil", "Trusă de prim ajutor"],
+      'pack.voitureHybride': ["Talonul mașinii și permisul valabil", "Trusă de prim ajutor"],
+      'pack.voitureElectrique': ["Cablu de încărcare Tip 2", "Aplicație multi-rețea pentru stații de încărcare (ex. Chargemap)", "Marjă de 20% față de autonomia anunțată"],
+      'pack.van': ["Canistră de apă potabilă", "Butelie de gaz de camping", "Cale de nivelare"],
+      'pack.moto': ["Cască și mănuși", "Combinezon sau pantaloni de ploaie", "Chingi elastice pentru bagaje"],
+      'pack.velo': ["Trusă completă anti-pană", "Genți impermeabile", "Baterie externă pentru GPS"]
     }
   };
 

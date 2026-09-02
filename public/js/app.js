@@ -263,7 +263,24 @@
     // depuis 2002 (adoption unilatérale, jamais membre de la BCE ni de l'UE, comme le Monténégro) :
     // pas de champ `currency`. Code pays GeoNames "XK" (identifiant provisoire largement utilisé par
     // l'UE/SWIFT/etc. en l'absence de code ISO 3166-1 officiel, le Kosovo n'étant pas membre de l'ONU).
-    XK: { code:'XK', name:'Kosovo', file:'communes-xk.txt', hasToll:false, aliasFile:'aliases-xk.txt' }
+    XK: { code:'XK', name:'Kosovo', file:'communes-xk.txt', hasToll:false, aliasFile:'aliases-xk.txt' },
+    // Serbie : hasToll:true, contrairement aux trois pays précédents (Monténégro/Albanie/Kosovo,
+    // tous hasToll:false) — un vrai réseau autoroutier à péage FERMÉ (ticket à l'entrée, paiement à
+    // la sortie), géré par Putevi Srbije, 938 km au total, 77 gares de péage automatiques (voir
+    // TOLL_RATE_BY_COUNTRY.RS plus bas pour le détail du calcul). Devise : RSD (dinar serbe), hors
+    // zone euro — cours étroitement géré par la Banque nationale de Serbie autour de ~117,4 RSD
+    // pour 1 EUR depuis des années (tolls.eu 2026, xe.com), sans être un régime de caisse
+    // d'émission à parité FIXE légale comme le mark convertible bosnien.
+    RS: { code:'RS', name:'Serbie', file:'communes-rs.txt', hasToll:true, aliasFile:'aliases-rs.txt', currency:'RSD' },
+    // Macédoine du Nord : hasToll:true elle aussi — péage aux gares (paiement au passage plutôt
+    // qu'un ticket entrée/sortie comme la Serbie/la Croatie, mais bien proportionnel au trajet
+    // parcouru une fois les gares successives cumulées sur un même axe, voir TOLL_RATE_BY_COUNTRY.MK
+    // plus bas), géré par l'Entreprise publique des routes d'État (roads.org.mk). Devise : MKD
+    // (denar macédonien), hors zone euro mais ancré DE FACTO à l'euro par la Banque nationale
+    // depuis 1997 (~61,5 MKD pour 1 EUR, cible officielle de politique de change — mappr.co,
+    // fxrate.io 2026), un régime proche (sans en être formellement un) de la caisse d'émission
+    // bosnienne.
+    MK: { code:'MK', name:'Macédoine du Nord', file:'communes-mk.txt', hasToll:true, aliasFile:'aliases-mk.txt', currency:'MKD' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -292,7 +309,7 @@
   // "£" devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les
   // livres locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs
   // îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -539,6 +556,36 @@
   //   COUNTRIES.BA.currency) plutôt qu'à un taux de marché flottant : ~0,097 €/km. Classes 2/5
   //   extrapolées au ratio France/Espagne/Italie (×1,55/×0,58) faute de grille par catégorie ici,
   //   contrairement à la Croatie.
+  // - Serbie : péage fermé (comme la France/la Croatie/la Bosnie-Herzégovine), réseau bien plus
+  //   développé que celui de ses deux voisins déjà couverts (938 km, un seul gestionnaire national,
+  //   Putevi Srbije, putevi-srbije.rs/index.php/en/road-toll — 77 gares automatiques). Cinq
+  //   liaisons réelles retenues (tolls.eu 2026, tarifs catégorie Ia moto / I voiture) : Beograd
+  //   (Vrčin)-Presevo (A1, 350 km, 1 030/2 060 din), Beograd-Subotica (A1, 132 km, 420/850 din),
+  //   Beograd-Požega (A2, 123 km, 480/950 din), Beograd-Šid (A3, 76 km, 260/520 din), Pojate-Vrbа
+  //   (A5, 71 km, 200/410 din) — de 5,78 à 7,72 din/km pour la voiture selon le tronçon, MÉDIANE
+  //   ~6,44 din/km. Converti au taux de change de RÉFÉRENCE indiqué par tolls.eu (117 RSD = 1 EUR,
+  //   cohérent avec la gestion de change étroite de la Banque nationale de Serbie plutôt qu'un vrai
+  //   flottement libre) : ~0,055 €/km. Contrairement à l'Italie/l'Espagne/le Portugal mais COMME la
+  //   Croatie, la classe moto (5) n'est pas extrapolée : sur les cinq liaisons ci-dessus, le tarif
+  //   moto vaut systématiquement très exactement la MOITIÉ du tarif voiture (1030/2060, 420/850,
+  //   480/950, 260/520, 200/410 — ratio moyen 0,497, arrondi à ×0,5 comme pour la Croatie) — d'où
+  //   0,028 €/km. Aucune grille officielle trouvée en revanche pour la catégorie II (van/remorque,
+  //   malgré une recherche directe sur putevi-srbije.rs) : extrapolée au ratio croate ×1,5 (le seul
+  //   ratio RÉEL confirmé dans la région pour cette catégorie, plus proche géographiquement/
+  //   structurellement que le ×1,55 franco-ibérique) plutôt qu'inventée — d'où 0,083 €/km.
+  // - Macédoine du Nord : péage aux gares (paiement au fil des gares successives d'un même axe,
+  //   pas un ticket entrée/sortie unique comme la Serbie) mais bien proportionnel à la distance une
+  //   fois les gares d'un trajet cumulées — géré par l'Entreprise publique des routes d'État
+  //   (roads.org.mk/en/toll-system/toll-rates). Tarif retenu sur la liaison A1 Skopje-Gevgelija
+  //   (123 km, corridor principal nord-sud vers la Grèce) : 360 MKD catégorie 1B (voiture),
+  //   fuel-prices.eu/tolls.eu 2026 -> 2,93 MKD/km. Converti au cours cible OFFICIEL de la Banque
+  //   nationale de Macédoine du Nord, ancrage de facto depuis 1997 (~61,5 MKD = 1 EUR — mappr.co,
+  //   fxrate.io 2026) plutôt qu'à un taux de marché flottant (comme pour le mark convertible
+  //   bosnien) : ~0,048 €/km. Contrairement à la Serbie/la Croatie, un vrai barème officiel par
+  //   catégorie A ÉTÉ trouvé (roads.org.mk, quatre gares : Romanovci/Petrovec/Sopot/Gevgelia,
+  //   catégories 1A moto/1B voiture/2 van) : ratio moto moyen ×0,60 (40/60, 20/40, 50/80, 60/100),
+  //   ratio van moyen ×1,42 (80/60, 50/40, 120/80, 160/100) — retenus tels quels plutôt que le ratio
+  //   croate, structurellement différent (péage aux gares plutôt que fermé) — d'où 0,029/0,068 €/km.
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,
@@ -546,7 +593,9 @@
     PT: { 1: 0.036, 2: 0.056, 5: 0.021 },
     IT: { 1: 0.086, 2: 0.133, 5: 0.050 },
     HR: { 1: 0.060, 2: 0.090, 5: 0.030 },
-    BA: { 1: 0.097, 2: 0.150, 5: 0.056 }
+    BA: { 1: 0.097, 2: 0.150, 5: 0.056 },
+    RS: { 1: 0.055, 2: 0.083, 5: 0.028 },
+    MK: { 1: 0.048, 2: 0.068, 5: 0.029 }
   };
   var TOLL_MIN_DISTANCE_KM = 60; // en-deçà, le péage n'entre pas en ligne de compte
 
@@ -1026,7 +1075,24 @@
     // même profil que la République tchèque/la Pologne/la Hongrie/la Bosnie-Herzégovine. Tirana :
     // loyer Airbnb médian ~55-60 $/~52-56 € (airdna/airroi 2026). Lek albanais hors zone euro,
     // flottant — 1 EUR ≈ 93 ALL début septembre 2026 (bankofalbania.org/wise.com).
-    ALL: { economique: 3700, moyen: 7000, confortable: 14000 }
+    ALL: { economique: 3700, moyen: 7000, confortable: 14000 },
+    // Serbie : encore un pays moins cher que la zone euro, même profil que la Bosnie-Herzégovine
+    // voisine — Belgrade (la ville la plus chère du pays) : loyer Airbnb médian ~6 700 RSD/nuit
+    // (~57 €), fourchette couvrant ~80% des annonces ~4 600-12 300 RSD (~39-105 €), jusqu'à
+    // ~16 400 RSD (~140 €) dans les quartiers premium (Belgrade Waterfront/Savski Venac) —
+    // échantillon airdna.co/investropa.com 2026. Paliers calés à ~75% de la conversion EUR->RSD au
+    // taux de référence (117 RSD, voir COUNTRIES.RS.currency) — ratio proche de celui déjà retenu
+    // pour BAM (~70%), cohérent avec un niveau de vie comparable entre les deux pays voisins.
+    RSD: { economique: 6000, moyen: 11000, confortable: 23000 },
+    // Macédoine du Nord : pays encore moins cher que la Serbie/la Bosnie-Herzégovine — Skopje (la
+    // ville la plus chère du pays) : loyer Airbnb moyen ~42-55 $/nuit selon le mois (~39-51 €),
+    // appartements dès ~39-44 $/nuit (~36-41 €) — échantillon airdna.co/airbnb.com 2026, pas de
+    // prix publié directement en denars (obligeant à convertir depuis le dollar plutôt que lire un
+    // montant MKD natif comme pour les autres devises ci-dessus). Paliers calés à ~55-60% de la
+    // conversion EUR->MKD au cours cible officiel (61,5 MKD, voir COUNTRIES.MK.currency) — un cran
+    // sous la Serbie/la Bosnie-Herzégovine (~70-75%), cohérent avec le coût de la vie généralement
+    // plus bas en Macédoine du Nord au sein de la région.
+    MKD: { economique: 2500, moyen: 4500, confortable: 9000 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu

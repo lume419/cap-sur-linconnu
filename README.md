@@ -130,8 +130,8 @@ les trois premières routes.
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
-Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie
-et Kosovo pour l'instant, d'autres viendront. Chaque pays
+Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
+Kosovo, Serbie et Macédoine du Nord pour l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -238,6 +238,26 @@ ajoute deux à trois choses, indépendamment des autres :
      reste étant soit des zones postales numérotées internes à une ville ("Prishtina 3", "Peja 8"...),
      soit des centres de tri/transit ("Qendra tranzite postare", "Tuneli i parë"), soit de très petits
      hameaux absents du gazetteer GeoNames sous ce nom précis.
+   **La Serbie et la Macédoine du Nord**, dernier ajout en date, reviennent toutes les deux au
+   pipeline STANDARD (contrairement à leurs trois voisines balkaniques précédentes) : GeoNames publie
+   un vrai fichier de codes postaux pour chacune, vérifié avant de commencer. **Serbie** : 9 256
+   communes retenues sur 9 489 lieux bruts. Deux corrections `NAME_OVERRIDES` (échantillon des 400
+   plus grandes communes du pays, reste déjà bon y compris č/ć/š/ž/đ) : "Belgrade" (exonyme anglais,
+   remplacé par le serbe "Beograd" — déjà la forme utilisée par le reste du dump, ex. "Novi Beograd")
+   et "Knjazevac" (diacritique manquant dans le champ `name` lui-même, repéré par recoupement avec la
+   liste des noms alternatifs de cette même entrée — corrigé en "Knjaževac"). **Macédoine du Nord** :
+   2 508 communes retenues sur 2 529 lieux bruts, mais avec une particularité inédite parmi tous les
+   pays ci-dessus : 75 communes (sur 2 529) ont leur champ `name` GeoNames en CYRILLIQUE BRUT alors
+   que l'écrasante majorité du pays (2 454 communes) est déjà en latin dans ce même champ — une
+   incohérence de SAISIE côté GeoNames plutôt qu'un choix éditorial (rien ne distingue ces 75 communes
+   des autres pour justifier un script différent, et le reste de l'app suppose un script unique par
+   pays). Le champ `asciiname`, calculé par GeoNames pour chaque entrée et jamais vide ni lui-même
+   cyrillique ici, sert de source de repli pour ces 75 seules communes (ex. Арачиново -> Arachinovo,
+   déjà cohérent avec les digrammes sh/ch/zh utilisés ailleurs dans le pays — Shtip, Kochani,
+   Delcevo...) — un alias `mk` (cyrillique -> latin canonique) est synthétisé pour chacune quand le
+   fichier `alternateNamesV2` n'en fournit aucun pour son propre geonameid (30 des 75 cas), sans quoi
+   ces communes deviendraient introuvables en tapant leur vrai nom macédonien alors même que c'est ce
+   nom-là que GeoNames leur donnait à l'origine.
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -368,6 +388,25 @@ ajoute deux à trois choses, indépendamment des autres :
    groupe : les sources sur un éventuel péage aux autoroutes R6/R7 sont contradictoires, mais la
    majorité des sources récentes (fuel-prices.eu 2026, rks-gov.net) le décrivent comme gratuit —
    choix retenu par prudence plutôt que de modéliser un montant incertain.
+   **La Serbie et la Macédoine du Nord**, elles, cassent la série "hasToll:false" ouverte par le
+   Monténégro/l'Albanie/le Kosovo : les DEUX ont un vrai réseau autoroutier à péage PROPORTIONNEL à la
+   distance parcourue, `hasToll:true` comme la France/l'Espagne/l'Italie/la Croatie/la
+   Bosnie-Herzégovine. **Serbie** : péage FERMÉ (ticket à l'entrée, paiement à la sortie, comme la
+   France/la Croatie), un seul gestionnaire national (Putevi Srbije, 938 km, 77 gares automatiques).
+   Cinq liaisons réelles retenues (tolls.eu 2026) — Beograd-Preševo (350 km), Beograd-Subotica
+   (132 km), Beograd-Požega (123 km), Beograd-Šid (76 km), Pojate-Vrba (71 km) — médiane
+   ~6,44 din/km pour une voiture, convertie au taux de référence indiqué par tolls.eu (117 RSD =
+   1 EUR) : ~0,055 €/km. La classe moto n'est pas extrapolée mais dérivée du RATIO réel observé sur
+   les cinq liaisons (très exactement ×0,5 à chaque fois) ; la classe van/remorque, elle, faute de
+   grille officielle trouvée malgré une recherche directe sur putevi-srbije.rs, reprend le ratio ×1,5
+   croate (le seul ratio RÉEL confirmé dans la région pour cette catégorie). **Macédoine du Nord** :
+   péage aux gares plutôt qu'un ticket unique, mais bien proportionnel une fois les gares d'un trajet
+   cumulées (Entreprise publique des routes d'État, roads.org.mk). Tarif retenu sur l'A1
+   Skopje-Gevgelija (123 km, corridor principal vers la Grèce, 360 MKD catégorie 1B) -> 2,93 MKD/km,
+   converti au cours cible OFFICIEL de la Banque nationale (ancrage de facto depuis 1997, ~61,5 MKD =
+   1 EUR) : ~0,048 €/km. Contrairement à la Serbie, un vrai barème officiel par catégorie A été trouvé
+   (roads.org.mk, quatre gares) : ratios moto/van réels ×0,60/×1,42, retenus tels quels plutôt que le
+   ratio croate.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -423,14 +462,25 @@ ajoute deux à trois choses, indépendamment des autres :
    Kosovo. L'Albanie, elle, A besoin du champ (`ALL`, le lek albanais, hors zone euro, flottant) — pays
    MOINS cher que la zone euro, même profil que la République tchèque/la Pologne/la Hongrie/la
    Bosnie-Herzégovine : loyer Airbnb médian à Tirana ~55-60 $/~52-56 € (airdna/airroi 2026), 1 EUR ≈ 93
-   ALL début septembre 2026 (bankofalbania.org/wise.com).
+   ALL début septembre 2026 (bankofalbania.org/wise.com). La Serbie, elle, A besoin du champ (`RSD`,
+   le dinar serbe, hors zone euro) : cours étroitement géré par la Banque nationale de Serbie autour
+   de ~117,4 RSD pour 1 EUR depuis des années (tolls.eu 2026, xe.com), sans être un régime de caisse
+   d'émission à parité fixe légale comme le mark convertible bosnien — pays moins cher que la zone
+   euro, même profil que la Bosnie-Herzégovine voisine (loyer Airbnb médian à Belgrade ~6 700
+   RSD/nuit, ~57 €, airdna.co/investropa.com 2026), paliers `BUDGET_PRICE_MAX.RSD` calés à ~75% de la
+   conversion EUR->RSD. La Macédoine du Nord, elle aussi, A besoin du champ (`MKD`, le denar
+   macédonien, hors zone euro) : ancré DE FACTO à l'euro par la Banque nationale depuis 1997 (~61,5
+   MKD = 1 EUR, cible officielle de politique de change — mappr.co, fxrate.io 2026), un régime proche
+   sans en être formellement un de la caisse d'émission bosnienne — pays encore moins cher que la
+   Serbie/la Bosnie-Herzégovine (loyer Airbnb moyen à Skopje ~42-55 $/nuit, ~39-51 €, airdna.co 2026),
+   paliers `BUDGET_PRICE_MAX.MKD` calés à ~55-60% de la conversion EUR->MKD, un cran sous la Serbie.
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
    euros quelle que soit la devise du pays (voir `toll.enabled`/`toll.disabled` dans `i18n.js`, non
-   paramétrées par devise) ; la Bosnie-Herzégovine est le premier pays `hasToll:true` hors zone euro
-   ici couvert, son péage reste donc affiché en € comme celui de la France ou de la Croatie, jamais
-   en KM.
+   paramétrées par devise) ; la Bosnie-Herzégovine fut le premier pays `hasToll:true` hors zone euro
+   ici couvert, rejointe depuis par la Serbie et la Macédoine du Nord — leur péage reste affiché en €
+   comme celui de la France ou de la Croatie, jamais en RSD/MKD/KM.
 
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
@@ -973,6 +1023,39 @@ monuments" d'un article Wikipédia (voir "Activités réelles") reste, pour l'in
 français (conventions de titres de section propres à Wikipédia FR) ; les randonnées Visorando
 restent, elles, propres à la France (pas de couverture internationale chez eux).
 
+### Serbie et Macédoine du Nord (dernier ajout balkanique)
+
+Le macédonien (makedonski, ISO 639-1 "mk") est arrivé avec la Macédoine du Nord elle-même. Langue
+slave méridionale écrite en cyrillique, proche du bulgare et, dans une moindre mesure, du serbe déjà
+couvert (même sous-groupe slave du sud, mais deux langues distinctes reconnues séparément, pas un
+dialecte l'une de l'autre). L'albanais (~25% de la population, co-officiel dans les communes où il
+dépasse 20% des habitants depuis la loi de 2019) est lui-même déjà couvert depuis l'ajout de
+l'Albanie ; aucune autre langue minoritaire du pays (turc, rom, serbe, aroumain — chacune co-officielle
+seulement dans une poignée de communes) n'a été ajoutée séparément, le seuil de reconnaissance restant
+très local contrairement à l'albanais.
+
+Le roumain standard (ISO 639-1 "ro") est arrivé avec la Serbie plutôt qu'avec un pays roumanophone
+(aucun n'est couvert par cette app) : langue co-officielle de la province autonome de Voïvodine (nord
+de la Serbie), aux côtés du serbe déjà couvert et du hongrois/slovaque/rusyn/croate ajoutés à
+différents moments de cette même série — statut confirmé dans les alias générés pour la Serbie (27
+correspondances "ro"). À distinguer du "ruo" déjà présent (Vlaški-Žejanski/istro-roumain, langue
+distincte parlée en Istrie croate, pas en Serbie) : les deux langues sont apparentées (branche romane
+orientale) mais n'ont pas la même aire linguistique ni le même statut officiel dans ce projet. Le
+serbe lui-même (déjà couvert depuis le rattrapage tchèque/polonais/slovaque/hongrois/slovène/croate/
+bosniaque/serbe) n'a demandé aucun travail supplémentaire pour la Serbie — même logique que le
+Kosovo pour l'albanais/le serbe dans le passage précédent.
+
+51 langues au total désormais.
+
+**Alias cyrilliques macédoniens** : contrairement aux 49 autres alias de communes déjà générés
+(rapprochements purs entre langues), la Macédoine du Nord ajoute un cas inédit — 30 alias `mk`
+synthétisés directement par `scripts/build-aliases.js` plutôt qu'extraits du fichier `alternateNamesV2`
+(voir "Pays couverts" plus haut pour le détail des 75 communes concernées par la bascule
+cyrillique -> latin). Sans cette synthèse, ces communes resteraient trouvables par leur nom latin
+affiché mais PAS par leur vrai nom macédonien tapé au clavier — un angle mort découvert en testant ce
+rattrapage précis (recherche de "Арачиново" restant vide malgré la commune "Arachinovo" bien présente
+dans `communes-mk.txt`).
+
 ## Démarrer en local
 
 ```bash
@@ -1213,6 +1296,8 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   pays du continent. Ni le Monténégro ni l'Albanie n'ont d'île habitée significative sans pont/route
   (Sveti Stefan, au Monténégro, est un îlot-presqu'île relié par une digue, pas un vrai détachement
   insulaire). Le Kosovo, lui, est un pays entièrement sans littoral.
+- **Serbie, Macédoine du Nord** : AUCUNE nouvelle ligne non plus, pour la raison la plus simple qui
+  soit — les deux sont des pays entièrement sans littoral, comme le Kosovo.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -1295,7 +1380,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
@@ -1324,8 +1409,10 @@ au chargement.
   [Via Verde](https://www.vialivre.pt) (Portugal), [Autostrade per l'Italia](https://www.autostrade.it)
   (Italie), [HAC](https://www.hac.hr) (Croatie — via mojkalkulator.com.hr pour l'agrégation des
   tarifs 2026), JP Autoceste FBiH / AD Autoputevi RS (Bosnie-Herzégovine — via tolls.eu pour
-  l'agrégation des tarifs 2026) — voir "Pays couverts" pour la méthode de calcul hors de France
-  (échantillon plus restreint que pour la France).
+  l'agrégation des tarifs 2026), [Putevi Srbije](https://www.putevi-srbije.rs) (Serbie — via tolls.eu
+  pour l'agrégation des tarifs 2026), [Entreprise publique des routes d'État](https://roads.org.mk)
+  (Macédoine du Nord — via fuel-prices.eu/tolls.eu pour l'agrégation des tarifs 2026) — voir "Pays
+  couverts" pour la méthode de calcul hors de France (échantillon plus restreint que pour la France).
 - Tarifs de ferry croates : [Jadrolinija](https://www.jadrolinija.hr) pour dix des onze lignes,
   [Rapska Plovidba](https://www.rapska-plovidba.hr) pour Rab (Stinica-Mišnjak) — voir "Ferries"
   ci-dessus.

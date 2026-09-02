@@ -5,11 +5,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['AL']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
-// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/
-// FI/AX sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|
-// mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax.txt), pas la peine de retélécharger leurs
-// sources pour les régénérer à l'identique à chaque nouvel ajout. Monténégro (ME) et Kosovo (XK)
+const COUNTRIES = ['RS', 'MK']; // dump/ et postal/ ne contiennent que les fichiers des pays en
+// cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/
+// NO/SE/FI/AX/AL sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|
+// sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al.txt), pas la peine de
+// retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout. Monténégro (ME) et Kosovo (XK)
 // n'utilisent PAS ce script standard : aucun fichier de codes postaux GeoNames pour ces deux pays,
 // voir build-me-communes.js/build-xk-communes.js (reconstruction depuis une source tierce).
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
@@ -189,7 +189,15 @@ const NAME_OVERRIDES = {
   // Shkodër, Lushnjë, Berat, Korçë, Fier... déjà bons, y compris ë/ç) : "Tirana" (exonyme anglais,
   // remplacé par l'albanais "Tiranë" — déjà la forme utilisée par le reste du dump pour cette même
   // ville, ex. sa région "Bashkia Tiranë" sur la même ligne).
-  'Tirana': 'Tiranë'
+  'Tirana': 'Tiranë',
+  // Deux cas serbes (échantillon des 400 plus grandes communes du pays — Niš, Novi Sad, Kragujevac,
+  // Subotica, Čačak... déjà bons, y compris č/ć/š/ž/đ) : "Belgrade" (exonyme anglais, remplacé par
+  // le serbe "Beograd" — déjà la forme utilisée par le reste du dump pour cette même ville, ex. son
+  // district "Novi Beograd" resté correct) et "Knjazevac" (pas un exonyme cette fois mais un
+  // diacritique manquant dans le champ "name" lui-même, repéré par recoupement avec la liste des
+  // noms alternatifs de cette même entrée qui contient bien "Knjaževac" — remplacé en conséquence).
+  'Belgrade': 'Beograd',
+  'Knjazevac': 'Knjaževac'
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth
@@ -220,6 +228,17 @@ const SARK_EXCLUDE_NAMES = new Set(['Sark', 'La Seigneurie']);
 // suffi à la fusionner avec la vraie "Jomala" au dédoublonnage (coordonnées trop éloignées pour la
 // grille ~1 km utilisée), laissant deux communes "Jomala" fantômes à la place d'une.
 const AX_EXCLUDE_NAMES = new Set(['Yomala']);
+// Macédoine du Nord : le champ "name" du dump GeoNames est en LATIN pour l'immense majorité des
+// lieux (2 454 sur 2 529, y compris tous les grands centres — Skopje, Bitola, Ohrid...), mais 75
+// communes plus petites (Арачиново/Arachinovo, Петровец/Petrovec, Стајковци/Stajkovci...) restent
+// en cyrillique brut dans ce même champ — une incohérence de saisie côté GeoNames, pas un choix
+// éditorial : rien ne distingue ces 75 communes des autres pour justifier un script différent, et
+// le reste de l'app (recherche de ville, tri alphabétique) suppose un script unique par pays. Le
+// champ "asciiname" (calculé par GeoNames pour CHAQUE entrée, jamais vide ni lui-même cyrillique
+// ici — vérifié) fournit déjà la translittération latine cohérente avec le reste du jeu de données
+// (mêmes digrammes sh/ch/zh que "Shtip"/"Kochani"/"Delcevo" ailleurs) : utilisé comme source du nom
+// à la place du champ "name" pour ces seules 75 entrées, plutôt que 75 entrées NAME_OVERRIDES.
+const MK_CYRILLIC_RE = /[Ѐ-ӿ]/;
 
 for(const country of COUNTRIES){
   const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
@@ -256,7 +275,7 @@ for(const country of COUNTRIES){
   const places = rows
     .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
     .map(c => ({
-      name: cleanName(c[1]),
+      name: cleanName((country === 'MK' && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1]),
       lat: parseFloat(c[4]),
       lon: parseFloat(c[5]),
       admin1Code: c[10] || '',

@@ -1,0 +1,2584 @@
+mk;Ѕвегор;Dzvegor
+mk;Жван;Žvan
+mk;Жужње;Žužnje
+mk;Журче;Žurče
+mk;Зубово;Zubovo
+mk;Зубовце;Zubovce
+mk;Зрзе;Zrze
+mk;Зрновци;Zrnovci
+mk;Зркле;Zrkle
+mk;Зовиќ 1;Zoviḱ 1
+mk;Злетово;Zletovo
+mk;Злести;Zlesti
+mk;Злеово;Zleovo
+mk;Златари;Zlatari
+mk;Живење;Živinje
+mk;Живиње;Živinje
+mk;Живалево;Živalevo
+mk;Житоше;Žitoše
+mk;Житинени;Žitineni
+mk;Жиорвница;Žirovnica
+mk;Жилче;Žilče
+mk;Жиганци;Žiganci
+mk;Жидилово;Židilovo
+mk;Жеровјане;Žerovjane
+mk;Жељувино;Željuvino
+sq;Zhelinë;Zelino
+mk;Желино;Zelino
+mk;Железница;Železnica
+mk;Железнец;Železnec
+mk;Железна Река;Železna Reka
+sq;Zelenikovë;Zelenikovo
+mk;Зелениково;Zelenikovo
+mk;Жегљане;Žegljane
+mk;Здуње;Zdunje
+mk;Збажди;Zbaždi
+mk;Завој;Zavoj
+mk;Зашле;Zašle
+mk;Зарепинци;Zarepinci
+mk;Заполжани;Zapolžani
+mk;Зајас;Zajas
+hu;Zajasz;Zajas
+sq;Zajazi;Zajas
+sr;Зајас;Zajas
+mk;Заград;Zagrad
+mk;Заграчани;Zagračani
+mk;Загориче;Zagoriče
+mk;Загорци;Zagorci
+mk;Загорани;Zagorani
+mk;Забрчани;Zabrčani
+mk;Жабјани;Žabjani
+mk;Vuči Dol;Volkovo
+mk;Волково;Volkovo
+mk;Вруток;Vrutok
+mk;Вртешка;Vrteška
+mk;Вртекица;Vrtekica
+mk;Врсаково;Vrsakovo
+mk;Врбјани;Vrbjani
+mk;Врбица;Vrbica
+mk;Врбен;Vrben
+mk;Вражале;Vražale
+mk;Вратница;Vratnica
+mk;Врапчиште;Vrapčište
+mk;Врановце;Vranovce
+mk;Враништа;Vraništa
+mk;Вранинци;Vraninci
+mk;Вранештица;Vraneštica
+mk;Вранче;Vranče
+mk;Враготурце;Vragoturce
+mk;Врачевце;Vračevce
+mk;Возарци;Vozarci
+mk;Волковија;Volkovija
+mk;Волкодери;Volkoderi
+mk;Волино;Volino
+mk;Волче;Volče
+mk;Војшанци;Vojšanci
+mk;Војник;Vojnik
+mk;Војница;Vojnica
+mk;Воиславци;Voislavci
+mk;Водоврати;Vodovrati
+mk;Водоча;Vodoča
+mk;Воѓани;Voǵani
+mk;Владимирово;Vladimirovo
+mk;Владиловци;Vladilovci
+mk;Владиевци;Vladievci
+mk;Витолиште;Vitolište
+fr;Vitolichté;Vitolište
+sq;Vitolishti;Vitolište
+sr;Витолиште;Vitolište
+sv;Vitolisjte;Vitolište
+mk;Витанци;Vitanci
+mk;Висока Маала;Visoka Maala
+mk;Вишни;Višni
+mk;Вирово;Virovo
+mk;Вирче;Virče
+mk;Вир;Vir
+mk;Виничка Кршла;Vinička Kršla
+mk;Виничани;Viničani
+mk;Виница;Vinica
+mk;Винце;Vince
+mk;Видуше;Viduše
+mk;Видрани;Vidrani
+mk;Видовиште;Vidovište
+mk;Вевчани;Vevčani
+mk;Ветуница;Vetunica
+mk;Ветрен;Vetren
+mk;Ветерско;Vetersko
+mk;Вешје;Vešje
+mk;Веселчани;Veselčani
+mk;Вешала;Vešala
+mk;Вепрчани;Veprčani
+mk;Велушина;Velušina
+mk;Велмевци;Velmevci
+mk;Велмеј;Velmej
+mk;Вељуса;Veljusa
+mk;Велгошти;Velgošti
+mk;Велестово;Velestovo
+mk;Велешта;Velesta
+mk;Велесело;Veleselo
+mk;Велебрдо;Velebrdo
+mk;Vele Brdo;Velebrdo
+mk;Веле Брдо;Velebrdo
+mk;Вејце;Vejce
+mk;Ваташа;Vataša
+mk;Василево;Vasilevo
+mk;Вашарејца;Vašarejca
+mk;Варвара;Varvara
+mk;Вардино;Vardino
+mk;Вапила;Vapila
+mk;Валандово;Valandovo
+sq;Vallandova;Valandovo
+sr;Валандово;Valandovo
+pl;Wałandowo;Valandovo
+mk;Ваксинце;Vaksince
+mk;Вакаф;Vakaf
+mk;Вакуф;Vakaf
+de;Vakuf;Vakaf
+en;Vakuf;Vakaf
+fr;Vakouf;Vakaf
+hu;Vakuf;Vakaf
+pl;Wakuf;Vakaf
+sq;Vakufi;Vakaf
+nl;Vakouf;Vakaf
+sr;Вакуф;Vakaf
+mk;Вак’в;Vak’v
+mk;Вакав;Vak’v
+mk;Узем;Uzem
+fr;Ouzem;Uzem
+sq;Uzemi;Uzem
+nl;Ouzem;Uzem
+sr;Узем;Uzem
+mk;Утово;Utovo
+mk;Усје;Usje
+mk;Урвич;Urvič
+mk;Умово;Umovo
+mk;Умлена;Umlena
+mk;Уларци;Ularci
+mk;Уланци;Ulanci
+mk;Удово;Udovo
+mk;Турско Рудари;Tursko Rudari
+mk;Турново;Turnovo
+mk;Турје;Turje
+mk;Турија;Turija
+mk;Туралево;Turalevo
+mk;Тумчевиште;Tumčevište
+mk;Туин;Tuin
+mk;Туденце;Tudence
+mk;Трстеник;Trstenik
+mk;Трсино;Trsino
+mk;Трооло;Troolo
+mk;Тромеѓа;Tromega
+mk;Тројкрсти;Trojkrsti
+mk;Тројаци;Trojaci
+mk;Трново;Trnovo
+mk;Трновци;Trnovci
+mk;Трновац;Trnovac
+mk;Трн;Trn
+mk;Три Води;Tri Vodi
+mk;Трипатанци;Tripatanci
+mk;Тресонче;Tresonče
+mk;Тремник;Tremnik
+mk;Требовље;Trebovlje
+mk;Требош;Treboš
+mk;Требиште;Trebište
+mk;Требичино;Trebičino
+mk;Требеништа;Trebeništa
+mk;Трапчин Дол;Trapčin Dol
+mk;Трап;Trap
+mk;Тработивиште;Trabotivište
+mk;Тополовиќ;Topoloviḱ
+mk;Тополница;Topolnica
+mk;Тополчани;Topolčani
+mk;Томино Село;Tomino Selo
+mk;Тодоровци;Todorovci
+mk;Велес;Veles
+sr;Велес;Veles
+pl;Wełes;Veles
+sq;Velesi;Veles
+mk;Тисовица;Tisovica
+mk;Тимјаник;Timjanik
+pl;Tetowo;Tetovo
+mk;Тетово;Tetovo
+sq;Tetova;Tetovo
+sr;Тетово;Tetovo
+mk;Теранци;Teranci
+mk;Тепавци;Tepavci
+mk;Теово;Teovo
+mk;Теново;Tenovo
+mk;Текија;Tekija
+mk;Теарце;Tearce
+mk;Тажево;Taževo
+mk;Татомир;Tatomir
+mk;Татар Елевци;Tatar Elevci
+mk;Ташмаруништа;Tašmaruništa
+mk;Maruništa;Tašmaruništa
+mk;Маруништа;Tašmaruništa
+mk;Таринци;Tarinci
+mk;Таор;Taor
+mk;Танушевци;Tanuševci
+mk;Тануше;Tanuše
+mk;Танатарци;Tanatarci
+mk;Талашманце;Talašmance
+mk;Тајмиште;Tajmište
+mk;Свињишта;Svinjišta
+mk;Свиништа;Sviništa
+mk;Свидовица;Svidovica
+mk;Светораче;Svetorače
+mk;Свето Митрани;Sveto Mitrani
+mk;Свето Тодори;Sveto Todori
+mk;Света;Sveta
+mk;Суво Грло;Suvo Grlo
+mk;Суводол;Suvodol
+mk;Шутево;Šutovo
+sq;Shushica;Sušica
+mk;Сушица;Sušica
+mk;Маркова Сушица;Markova Sušica
+mk;Сушево;Suševo
+mk;Шурленци;Šurlenci
+mk;Супурге;Supurge
+mk;Шупли Камен;Šupli Kamen
+mk;Сулдурци;Suldurci
+mk;Судик;Sudik
+mk;Штурово;Šturovo
+mk;Студеничани;Studeničani
+mk;Студена Бара;Studena Bara
+mk;Струмица;Strumica
+mk;Стругово;Strugovo
+mk;Струга;Struga
+sr;Струга;Struga
+mk;Стровија;Strovija
+mk;Strojmance;Stroimanci
+mk;Строиманци;Stroimanci
+mk;Стројманце;Stroimanci
+mk;Стрновац;Strnovac
+mk;Стрмош;Strmoš
+mk;Стрисовци;Strisovci
+mk;Strezovce;Strisovci
+mk;Стрезовце;Strisovci
+mk;Стрима;Strima
+mk;Стрезовце;Strezovce
+mk;Strezovci;Strezovce
+mk;Стрезовци;Strezovce
+mk;Стрежево;Streževo
+mk;Стрелци;Strelci
+mk;Долно Штрбово;Dolno Štrbovo
+mk;Стража;Straža
+mk;Страјане;Strajane
+fr;Strayané;Strajane
+hu;Sztrajane;Strajane
+sq;Strajani;Strajane
+sr;Страјане;Strajane
+mk;Страхојадица;Strahojadica
+mk;Страгово;Stragovo
+mk;Страцин;Stracin
+mk;Стојаково;Stojakovo
+mk;Штип;Shtip
+de;Štip;Shtip
+da;Štip;Shtip
+fi;Štip;Shtip
+hsb;Štip;Shtip
+nl;Štip;Shtip
+sr;Штип;Shtip
+sv;Štip;Shtip
+mk;Стиник;Stinik
+mk;Степанци;Stepanci
+mk;Степанце;Stepance
+mk;Стење;Stenje
+mk;Стенче;Stenče
+mk;Штавица;Štavica
+mk;Старо Змирнево;Staro Zmirnevo
+mk;Старо Село;Staro Selo
+mk;Старо Лагово;Staro Lagovo
+mk;Староец;Staroec
+mk;Старо Балдовци;Staro Baldovci
+mk;Стари Град;Stari Grad
+mk;Стар Дојран;Star Dojran
+mk;Старавино;Staravina
+mk;Старавина;Staravina
+mk;Стануловци;Stanulovci
+mk;Стањевци;Stanjevci
+mk;Станци;Stanci
+mk;Станча;Stanča
+mk;Стамер;Stamer
+mk;Шталковица;Štalkovica
+mk;Стајковци;Stajkovci
+mk;Долно Српци;Dolno Srpci
+mk;Српци;Srpci
+mk;Сретково;Sretkovo
+mk;Средорек;Sredorek
+mk;Средно Коњари;Sredno Konjari
+mk;Средно Егри;Sredno Egri
+mk;Србјани;Srbjani
+mk;Србиново;Srbinovo
+mk;Србица;Srbica
+mk;Спас;Spas
+mk;Спанчево;Spančevo
+mk;Сошани;Sošani
+mk;Шопско Рударе;Šopsko Rudare
+mk;Сопотско;Sopotsko
+mk;Сопотница;Sopotnica
+mk;Сопот;Sopot
+sq;Sopishte;Sopište
+mk;Сопиште;Sopište
+mk;Соколарци;Sokolarci
+mk;Согле;Sogle
+mk;Софилари;Sofilari
+mk;Собри;Sobri
+mk;Смолари;Smolari
+hu;Szmolari;Smolari
+sq;Smollari;Smolari
+sr;Смолари;Smolari
+mk;Смоквица;Smokvica
+mk;Смојмирово;Smojmirovo
+mk;Смиловци;Smilovci
+mk;Смилево;Smilevo
+mk;Смиланци;Smilanci
+mk;Смесница;Smesnica
+sq;Sllupçanje;Slupchane
+mk;Слупчане;Slupchane
+mk;Слп;Slp
+mk;С’лп;Slp
+mk;Слоештица;Sloeštica
+mk;Сливово;Slivovo
+mk;Сливник;Slivnik
+mk;Сливница;Slivnica
+mk;Сливје;Slivje
+mk;Сливица;Slivica
+mk;Слепче;Slepče
+mk;Шлегово;Šlegovo
+mk;Славеј;Slavej
+mk;Слатино;Slatino
+mk;Сланско;Slansko
+mk;Сладуево;Sladuevo
+mk;Скудриње;Skudrinje
+mk;Скребатно;Skrebatno
+mk;Скоруша;Skoruša
+bs;Skoplje;Skopje
+hr;Skoplje;Skopje
+hu;Szkopje;Skopje
+mk;Скопје;Skopje
+pt;Escópia;Skopje
+sq;Shkupi;Skopje
+sr;Скопље;Skopje
+mk;Скочивир;Skočivir
+mk;Скачковце;Skačkovce
+mk;Шивец;Šivec
+sq;Shishevo;Šiševo
+mk;Шишево;Šiševo
+mk;Сирула;Sirula
+mk;Сирково;Sirkovo
+mk;Сиричино;Siričino
+mk;Шипковица;Šipkovica
+mk;Синичане;Siničane
+mk;Методиј Андонов - Ченто;Čento
+mk;Асанбегово;Čento
+mk;Ченто;Čento
+mk;Севендекли;Sevendekli
+mk;Сетоле;Setole
+mk;Шешково;Šeškovo
+mk;Серменин;Sermenin
+mk;Сенокос;Senakos
+mk;Сенокос;Senokos
+mk;Сенце;Sence
+mk;Шемшево;Šemševo
+mk;Šemšovo;Šemševo
+mk;Шемшово;Šemševo
+mk;Семениште;Semenište
+mk;Селокуќи;Selokuḱi
+mk;Селник;Selnik
+sq;Sepniku;Selnik
+sr;Селник;Selnik
+mk;Шелеверци;Šeleverci
+mk;Селемли;Selemli
+mk;Селце Кеч;Selce Keč
+mk;Селце;Selce
+mk;Секирник;Sekirnik
+mk;Секирци;Sekirci
+mk;Секирани;Sekirani
+mk;Седларево;Sedlarevo
+mk;Седларци;Sedlarci
+mk;Саждево;Saždevo
+mk;Шашаварлија;Šašavarlija
+mk;Саса;Sasa
+mk;Сарчиево;Sarčievo
+mk;Сарандиново;Sarandinovo
+mk;Сарамзалино;Saramzalino
+mk;Сарај;Saraj
+mk;Самоков;Samokov
+mk;Секулица;Sekulica
+mk;Сачево;Sačevo
+mk;Ржаново;Ržanovo
+mk;’Ржаничино;’Ržaničino
+mk;Русјаци;Rusjaci
+mk;Русиново;Rusinovo
+mk;Руљак;Ruljak
+mk;Ругинце;Rugince
+mk;Рудник;Rudnik
+mk;Рожден;Rožden
+mk;Ротино;Rotino
+mk;Ростуша;Rostusa
+fr;Rostoucha;Rostusa
+sq;Radostusha;Rostusa
+sv;Rostusja;Rostusa
+mk;Росоман;Rosoman
+sq;Rosomani;Rosoman
+sr;Росоман;Rosoman
+mk;Росоки;Rosoki
+mk;Ропотово;Ropotovo
+mk;Ropaljce;Ropalce
+sr;Romanovac;Romanovci
+mk;Романовце;Romanovci
+mk;Рогле;Rogle
+mk;Рогачево;Rogačevo
+mk;Робово;Robovo
+mk;Рлевци;Rlevci
+mk;Рилево;Rilevo
+mk;Рич;Rič
+mk;Рибница;Ribnica
+mk;Рибарци;Ribarci
+mk;Ресен;Resen
+mk;Ресава;Resava
+mk;Речица;Rečica
+mk;Речани - Зајаско;Rečani - Zajasko
+mk;Речани - Челопечко;Rečani-Čelopečko
+mk;Речани;Rečani
+mk;Речане;Rečane
+mk;Разловци;Razlovci
+mk;Равен;Raven
+mk;Ратево;Ratevo
+mk;Ратковица;Ratkovica
+mk;Ратавица;Ratavica
+mk;Ратае;Ratae
+mk;Растојца;Rastojca
+mk;Растеш;Rasteš
+mk;Раштани;Raštani
+mk;Расино;Rasino
+mk;Рашче;Rašče
+mk;Рапеш;Rapeš
+mk;Раовиќ;Raoviḱ
+mk;Раотинце;Raotince
+mk;Rotince;Raotince
+mk;Ротинце;Raotince
+mk;Ранковци;Rankovce
+mk;Ранковце;Rankovce
+mk;Rankovci;Rankovce
+mk;Ранчинци;Rančinci
+mk;Рамни Габер;Ramni Gaber
+mk;Рамне;Ramne
+mk;Рамна;Ramna
+mk;Раковец;Rakovec
+mk;Раклиш;Rakliš
+mk;Ракитница;Rakitnica
+mk;Ракитец;Rakitec
+mk;Рајчица;Rajčica
+mk;Рајчани;Rajčani
+mk;Рајца;Rajca
+mk;Раец;Raec
+mk;Радуша;Raduša
+mk;Расожда;Radožda
+mk;Радожда;Radožda
+mk;Радово;Radovo
+mk;Радовиш;Radovis
+mk;Радолишта;Radolista
+mk;Радобор;Radobor
+mk;Радња;Radnja
+mk;Радишани;Radishani
+mk;Радиовце;Radiovce
+mk;Радичево;Radičevo
+en;Radibus;Radibush
+mk;Радибуш;Radibush
+mk;Радање;Radanje
+mk;Раброво;Rabrovo
+mk;Раборци;Raborci
+mk;Рабетино;Rabetino
+mk;Пуздерци;Puzderci
+mk;Путурус;Puturus
+mk;Пуста Река;Pusta Reka
+mk;Пухче;Puhče
+en;Psaca;Psacha
+mk;Псача;Psacha
+mk;Прждево;Prždevo
+mk;Првце;Prvce
+mk;Прстен;Prsten
+mk;Пршовце;Pršovce
+mk;Прострање;Prostranje
+mk;Просениково;Prosenikovo
+mk;Пробиштип;Probishtip
+en;Probistip;Probishtip
+mk;Прналија;Prnalija
+mk;Присовјани;Prisovjani
+mk;Присојница;Prisojnica
+mk;Припор;Pripor
+mk;Припечани;Pripečani
+mk;Прилепец;Prilepec
+mk;Прилеп;Prilep
+sr;Прилеп;Prilep
+mk;Приковци;Prikovci
+mk;Прибилци;Pribilci
+mk;Прибачево;Pribačevo
+mk;Претор;Pretor
+mk;Пресил;Presil
+mk;Пресека;Preseka
+mk;Преод;Preod
+mk;Премка;Premka
+mk;Прељубиште;Preljubište
+mk;Преглово;Preglovo
+mk;Прдејци;Prdejci
+mk;Праведник;Pravednik
+mk;Пожаране;Požarane
+mk;Поум;Poum
+mk;Породин;Porodin
+mk;Поповјани;Popovjani
+mk;Попоец;Popoec
+mk;Пополжани;Popolžani
+mk;Попчево;Popčevo
+mk;Попадија;Popadija
+mk;Полчиште;Polčište
+mk;Покрајчево;Pokrajčevo
+mk;Погулево;Pogulevo
+mk;Поешево;Poeševo
+mk;Подвис;Podvis
+mk;Подржи Коњ;Podrži Konj
+mk;Подмолје;Podmolje
+mk;Podmole;Podmolje
+mk;Подмол;Podmol
+mk;Подмочани;Podmočani
+mk;Подлес;Podles
+mk;Подино;Podino
+mk;Подгорци;Podgorci
+mk;Подбреѓе;Podbreǵe
+mk;Podbregje;Podbreǵe
+sr;Podbređe;Podbreǵe
+mk;Подареш;Podareš
+mk;Почивало;Počivalo
+mk;Побожје;Pobozhje
+en;Pobožje;Pobozhje
+mk;Плетвар;Pletvar
+mk;Плешанци;Plešanci
+mk;Плавуш;Plavuš
+mk;Пласница;Plasnica
+mk;Плаќе;Plaḱe
+mk;Пискупштина;Piskupština
+mk;Пишица;Pišica
+mk;Пирава;Pirava
+mk;Пиперово;Piperovo
+mk;Пезово;Pezovo
+mk;Петришино;Petrišino
+mk;Петрово;Petrovo
+mk;Петралинци;Petralinci
+mk;Петралица;Petralica
+mk;Пештани;Peštani
+mk;Пешталево;Peštalevo
+mk;Песочани;Pesočani
+mk;Пеширово;Peširovo
+mk;Пепелиште;Pepelište
+mk;Пенуш;Penuš
+mk;Пендак;Pendak
+mk;Пелинце;Pelince
+mk;Пекљани;Pekljani
+mk;Пехчево;Pehčevo
+mk;Печково;Pečkovo
+mk;Пчиња;Pčinja
+mk;Павлешенци;Pavlešenci
+mk;Патетино;Patetino
+mk;Пашино Рувци;Pašino Ruvci
+mk;Пашаџиково;Pašadžikovo
+mk;Паралово;Paralovo
+en;Papradiste;Papradishte
+mk;Папрадиште;Papradishte
+mk;Папрадиште;Papradište
+mk;Пантелеј;Pantelej
+mk;Паничари;Paničari
+mk;Панчарево;Pančarevo
+mk;Паликура;Palikura
+mk;Палиград;Paligrad
+mk;Пакошево;Pakoševo
+sq;Pagarushë;Pagaruša
+mk;Пагаруша;Pagaruša
+mk;Падалиште;Padalište
+mk;Озормиште;Ozormište
+mk;Оздолени;Ozdoleni
+mk;Отуње;Otunje
+mk;Отовица;Otovica
+sq;Odë;Otlja
+mk;Отља;Otlja
+mk;Отиштино;Otištino
+mk;Отишани;Otišani
+mk;Отешево;Oteševo
+mk;Острилци;Ostrilci
+mk;Острец;Ostrec
+mk;Осој;Osoj
+mk;Осинчани;Osinčani
+mk;Осиче;Osiče
+mk;Оровник;Orovnik
+mk;Орманли;Ormanli
+mk;Огман;Orman
+mk;Орман;Orman
+mk;Орле;Orle
+mk;Орланци;Orlanci
+sq;Orizare;Orizari
+mk;Оризари;Orizari
+sr;Оризари;Orizari
+mk;Органџали;Organdžali
+mk;Ореше;Oreše
+mk;Орешани;Orešani
+mk;Ореовец;Oreovec
+mk;Орел;Orel
+mk;Долно Орехово;Dolno Orehovo
+mk;Орехово;Orehovo
+mk;Орќуше;Orḱuše
+mk;Орашје;Orašje
+mk;Орашац;Orashac
+mk;Ораовица;Oraovica
+mk;Ораовец;Oraovec
+mk;Орах;Orah
+mk;Сув Орах;Orah
+mk;Оптичари;Optičari
+mk;Опила;Opila
+mk;Опеница;Openica
+mk;Оморани;Omorani
+mk;Олевени;Oleveni
+mk;Октиси;Oktisi
+es;Ocrida;Ohrid
+mk;Охрид;Ohrid
+pl;Ochryda;Ohrid
+ro;Ohrida;Ohrid
+sq;Ohri;Ohrid
+sr;Охрид;Ohrid
+cs;Ochrid;Ohrid
+it;Ocrida;Ohrid
+sk;Ochrid;Ohrid
+mk;Огут;Ogut
+mk;Огњанци;Ognjaci
+mk;Оџалија;Odžalija
+mk;Одри;Odri
+mk;Одрено;Odreno
+mk;Обршани;Obršani
+mk;Облешево;Oblesevo
+mk;Облавце;Oblavce
+mk;Облаково;Oblakovo
+mk;Обедник;Obednik
+mk;Ново Змирнево;Novo Zmirnevo
+mk;Ново Село;Novo Selo
+mk;Новосељане;Novoseljane
+mk;Ново Селани;Novo Selani
+mk;Новоселани;Novoselani
+mk;Ново Лагово;Novo Lagovo
+mk;Ново Коњарево;Novo Konjarevo
+mk;Нов Дојран;Nov Dojran
+mk;Нова Маала;Nova Maala
+mk;Новаќе;Novaḱe
+mk;Новак;Novak
+mk;Новаци;Novaci
+en;Novaci Municipality;Novaci
+es;Municipio de Novaci;Novaci
+fr;Novatsi;Novaci
+hr;Općina Novaci;Novaci
+mk;Општина Новаци;Novaci
+sq;Komuna e Novacit;Novaci
+sr;Општина Новаци;Novaci
+mk;Новачани;Novačani
+mk;Нова Брезница;Nova Breznica
+mk;Ношпал;Nošpal
+mk;Норово;Norovo
+mk;Ногаевци;Nogaevci
+mk;Нижеполе;Nižepole
+mk;Džindžopole;Nižepole
+mk;Џинџополе;Nižepole
+mk;Нивиште;Nivište
+mk;Нивичани;Nivičani
+mk;Нистрово;Nistrovo
+mk;Никуштак;Nikushtak
+mk;Никуљане;Nikuljane
+mk;Никоман;Nikoman
+mk;Nikolić;Nikoliḱ
+mk;Николиќ;Nikoliḱ
+en;Nikistane;Nikishtane
+mk;Никиштане;Nikishtane
+mk;Никифорово;Nikiforovo
+mk;Ничпур;Ničpur
+mk;Нежилово;Nežilovo
+en;Nezilovo;Nezhilovo
+mk;Нежилово;Nezhilovo
+mk;Нерези;Nerezi
+mk;Нерав;Nerav
+mk;Нераште;Nerašte
+sq;Nerasht;Nerašte
+mk;Непроштено;Neprošteno
+mk;Неокази;Neokazi
+mk;Немањица;Nemanjica
+mk;Негрево;Negrevo
+mk;Неготино-Полошко;Negotino
+mk;Неготино;Negotino
+sq;Negotina;Negotino
+sr;Неготино;Negotino
+mk;Негорци;Negorci
+mk;Небрегово;Nebregovo
+mk;Небојани;Nebojani
+mk;Наколец;Nakolec
+mk;Мустафино;Mustafino
+mk;Мушково;Muškovo
+mk;Мусинци;Musinci
+mk;Муртино;Murtino
+mk;Демир Хисар;Demir Hisar
+mk;Мургашево;Demir Hisar
+sq;Demir Hisari;Demir Hisar
+sr;Демир Хисар;Demir Hisar
+sv;Murgasjevo;Demir Hisar
+mk;Мургаш;Murgaš
+mk;Мрзенци;Mrzenci
+mk;Мрзен Ораовец;Mrzen Oraovec
+mk;Мршевци;Mrševci
+mk;Мрежичко;Mrežičko
+mk;Мренога;Mrenoga
+mk;Мраморец;Mramorec
+mk;Мождивњак;Moždivnjak
+mk;Моштица;Moštica
+mk;Мороишта;Moroišta
+mk;Мородвис;Morodvis
+mk;Морани;Morani
+mk;Мокрино;Mokrino
+mk;Мокриево;Mokrievo
+mk;Мокрени;Mokreni
+mk;Мојно;Mojno
+mk;Мојанце;Mojance
+mk;Мојанци;Mojanci
+mk;Моин;Moin
+mk;Могилец;Mogilec
+mk;Могила;Mogila
+mk;Модриште;Modrište
+mk;Модрич;Modrič
+en;Mlado Nagoričane;Mlado Nagorichane
+mk;Митрој Крсти;Mitroj Krsti
+mk;Митрашинци;Mitrašinci
+mk;Мислодежда;Mislodežda
+mk;Мислешево;Mislesevo
+sq;Misleshovë;Mislesevo
+mk;Mirkovce;Mirkovci
+mk;Миравци;Miravci
+mk;Миокази;Miokazi
+en;Milutinci;Milutince
+mk;Милутинци;Milutince
+mk;Милошево;Miloševo
+mk;Милино;Milino
+mk;Милетково;Miletkovo
+mk;Милетино;Miletino
+mk;Миладиновци;Miladinovci
+mk;Hadžilari;Miladinovci
+mk;Хаџилари;Miladinovci
+mk;Мидинци;Midinci
+mk;Метимир;Metimir
+mk;Метежево;Meteževo
+mk;Мешеишта;Mešeišta
+mk;Мерово;Merovo
+mk;Мемешли;Memešli
+mk;Мелница;Melnica
+mk;Мегленци;Meglenci
+mk;Меџитлија;Medžitlija
+mk;Мечкуевци;Mečkuevci
+mk;Мажучиште;Mažučište
+mk;Маврово;Mavrovo
+mk;Маврови Анови;Mavrovi Anovi
+mk;Матка;Matka
+mk;Матејче;Matejce
+mk;Марвинци;Marvinci
+mk;Марул;Marul
+mk;Мартолци;Martolci
+mk;Мартиница;Martinica
+mk;Марино;Marino
+mk;Маргари;Margari
+mk;Марена;Marena
+mk;Марчино;Marčino
+mk;Маричино;Marčino
+mk;Манастирско Доленци;Manastirsko Dolenci
+mk;Манастирец;Manastirec
+mk;Манастир;Manastir
+mk;Мамутчево;Mamutčevo
+mk;Мал Радобил;Mal Radobil
+mk;Маловиште;Malovište
+mk;Мало Турчане;Malo Turčane
+sr;Male Turčane;Malo Turčane
+mk;Малотино;Malotino
+sq;Mallotina;Malotino
+sr;Малотино;Malotino
+mk;Мало Рувци;Malo Ruvci
+mk;Мало Мраморани;Malo Mramorani
+mk;Мало Коњари;Malo Konjari
+mk;Мало Илино;Malo Ilino
+mk;Мало Црско;Malo Crsko
+mk;Мали Влај;Mali Vlaj
+mk;Мал Папрадник;Mal Papradnik
+mk;Малино;Malino
+mk;Малчиште;Malčište
+mk;Макреш;Makreš
+mk;Маково;Makovo
+mk;Мајден;Majden
+mk;Мгленце;Mglence
+mk;Магарево;Magarevo
+mk;Мачево;Mačevo
+mk;Лупште;Lupšte
+mk;Луково;Lukovo
+mk;Луковица;Lukovica
+mk;Луке;Luke
+mk;Лугунци;Lugunci
+mk;Лубница;Lubnica
+mk;Лознани;Loznani
+mk;Ложани;Ložani
+mk;Лопатица;Lopatica
+mk;Ломница;Lomnica
+mk;Локвица;Lokvica
+mk;Локвени;Lokveni
+mk;Локов;Lokov
+mk;Лојане;Lojane
+mk;Логоварди;Logovardi
+mk;Luboten;Lyuboten
+mk;Ljuboten;Lyuboten
+mk;Љуботен;Ljuboten
+mk;Љубојно;Ljubojno
+mk;Љубодраг;Ljubodrag
+mk;Љубин;Ljubin
+mk;Ljubanište;Lubaništa
+mk;Луъаништа;Lubaništa
+mk;Љубанци;Ljubanci
+mk;Ливоишта;Livoišta
+mk;Ливада;Livada
+mk;Лисолај;Lisolaj
+mk;Лисиче;Lisiče
+mk;Лисичани;Lisičani
+mk;Лисец;Lisec
+mk;Липов Дол;Lipov Dol
+mk;Липково;Lipkovo
+mk;Липец;Lipec
+mk;Лезово;Lezovo
+mk;Лева Река;Leva Reka
+mk;Леуново;Leunovo
+mk;Летевци;Letevci
+mk;Лешок;Lešok
+mk;Лесново;Lesnovo
+mk;Лешница;Lešnica
+mk;Лесково;Leskovo
+mk;Лесковица;Leskovica
+mk;Лескоец;Leskoec
+mk;Лешки;Leški
+mk;Лески;Leški
+mk;Лески;Leski
+mk;Лешани;Lešani
+mk;Лера;Lera
+mk;Лепопелци;Lepopelci
+mk;Лениште;Lenište
+mk;Лажец;Lažec
+mk;Лазарополе;Lazaropole
+mk;Лажани;Lažani
+mk;Лавци;Lavci
+mk;Лавце;Lavce
+mk;Лавчани;Lavčani
+mk;Латово;Latovo
+mk;Ласкарци;Laskarci
+mk;Ларце;Larce
+mk;Лактиње;Laktinje
+mk;Лаки;Laki
+mk;Лакавица;Lakavica
+mk;Лакаица;Lakaica
+mk;Лакавица;Lakaica
+mk;Лабуништа;Labunista
+mk;Кутретино;Kutretino
+mk;Кутлибег;Kutlibeg
+mk;Кутлешево;Kutleševo
+mk;Куртамзали;Kurtamzali
+mk;Курија;Kurija
+mk;Курфалија;Kurfalija
+mk;Курбиново;Kurbinovo
+mk;Куратица;Kuratica
+mk;Куново;Kunovo
+mk;Кундино;Kundino
+mk;Кумарино;Kumarino
+mk;Куманово;Kumanovo
+pl;Kumanowo;Kumanovo
+sr;Куманово;Kumanovo
+fr;Koumanovo;Kumanovo
+sq;Kumanova;Kumanovo
+mk;Куманичево;Kumaničevo
+mk;Кукуречани;Kukurečani
+mk;Куково;Kukovo
+mk;Куклиш;Kuklis
+mk;Куклица;Kuklica
+fr;Kouklitsa;Kuklica
+sq;Kukllica;Kuklica
+sr;Куклица;Kuklica
+mk;Кучково;Kuchkovo
+en;Kučkovo;Kuchkovo
+mk;Кучкарево;Kučkarevo
+mk;Кучичино;Kučičino
+mk;Кучица;Kučica
+mk;Кучевиште;Kuchevishte
+en;Kučevište;Kuchevishte
+mk;К’шање;K’šanje
+mk;Крушопек;Krušopek
+sq;Krushapek;Krušopek
+mk;Крушје;Krušje
+mk;Круша;Krušje
+mk;Крушица;Krušica
+mk;Крушево;Krusevo
+de;Krushevo;Krusevo
+mk;Крушевица;Kruševica
+mk;Крушеани;Krušeani
+mk;Крупиште;Krupište
+mk;Крстов Дол;Krstov Dol
+mk;Крстец;Krstec
+mk;Крстоар;Krstoar
+mk;Крњево;Krnjevo
+mk;Крнино;Krnino
+en;Krklja;Krkla
+mk;Кркља;Krkla
+mk;Крклино;Krklino
+mk;Криволак;Krivolak
+mk;Кривогаштани;Krivogashtani
+en;Krivogastani;Krivogashtani
+mk;Криви Камен;Krivi Kamen
+mk;Криви Дол;Krivi Dol
+mk;Кривени;Kriveni
+mk;Кривци;Krivci
+mk;Крива Паланка;Kriva Palanka
+mk;Крива Круша;Kriva Kruša
+mk;Крилатица;Krilatica
+mk;Кременица;Kremenica
+mk;Кравари;Kravari
+mk;Кратово;Kratovo
+mk;Крапа;Krapa
+mk;Крани;Krani
+mk;Кракорница;Krakornica
+mk;Крајници;Krajnici
+mk;Кожле;Kožle
+mk;Козјак;Kozjak
+mk;Козичино;Kozičino
+mk;Козица;Kozica
+mk;Козбунар;Kozbunar
+mk;Ковче;Kovče
+mk;Kovanci;Kovanec
+mk;Кованци;Kovanec
+mk;Кованец;Kovanec
+mk;Ковач;Kovač
+mk;Костурино;Kosturino
+mk;Костур;Kostur
+mk;Костин Дол;Kostin Dol
+mk;Костинци;Kostinci
+mk;Косово;Kosovo
+mk;Косматац;Kosmatac
+mk;Кошино;Košino
+mk;Кошево;Koševo
+mk;Косел;Kosel
+mk;Кошарка;Košarka
+mk;Кошари;Košari
+mk;Кошани;Košani
+mk;Корошишта;Korošišta
+mk;Корито;Korito
+mk;Кореница;Korenica
+mk;Копришница;Koprišnica
+mk;Копаница;Kopanica
+mk;Копанце;Kopance
+mk;Копачин Дол;Kopačin Dol
+mk;Коњско;Konjsko
+mk;Конопница;Konopnica
+mk;Конопиште;Konopište
+mk;Коњух;Konjuh
+mk;Кондово;Kondovo
+sq;Kondovë;Kondovo
+mk;Конче;Konče
+fr;Kontché;Konče
+sr;Конче;Konče
+mk;Колицко;Kolicko
+mk;Колибари;Kolibari
+mk;Колешино;Kolešino
+mk;Колари;Kolari
+mk;Кокре;Kokre
+mk;Кокошиње;Kokošinje
+mk;Којково;Kojkovo
+mk;Коџалија;Kodžalija
+mk;Коџаџик;Kodžadžik
+mk;Svetigrad;Kodžadžik
+mk;Светиград;Kodžadžik
+mk;Кочули;Kočuli
+mk;Кочиште;Kočište
+mk;Кочилари;Kočilari
+en;Kočani;Kochani
+de;Kočani;Kochani
+bs;Kočani;Kochani
+hr;Kočani;Kochani
+mk;Кочани;Kochani
+nl;Kočani;Kochani
+sr;Кочани;Kochani
+sv;Kocani;Kochani
+mk;Кнежје;Knežje
+mk;Кнежино;Knežino
+mk;Кнежево;Kneževo
+mk;Клисура;Klisura
+mk;Климештани;Klimeštani
+mk;Клепач;Klepač
+mk;Кленоец;Klenoec
+mk;Клечевце;Klečevce
+mk;Клечовце;Klečevce
+mk;Klečovce;Klečevce
+mk;Кладник;Kladnik
+mk;Кишино;Kišino
+mk;Киселица;Kiselica
+mk;Кишава;Kišava
+mk;Кичево;Kičevo
+fr;Kitchevo;Kičevo
+sq;Kërçova;Kičevo
+sr;Кичево;Kičevo
+pl;Kiczewo;Kičevo
+hu;Kicsevo;Kičevo
+mk;Кетеново;Ketenovo
+mk;Кажани;Kažani
+mk;Казандол;Kazandol
+mk;Крвачко;Krvačko
+mk;Кавадарци;Kavadarci
+fr;Kavadartsi;Kavadarci
+sq;Kavadari;Kavadarci
+sr;Кавадарци;Kavadarci
+pl;Kawadarci;Kavadarci
+sq;Katlanovë;Katlanovo
+mk;Катланово;Katlanovo
+mk;Карловце;Karlovce
+mk;Карбуница;Karbunica
+mk;Карбинци;Karbinci
+mk;Каратманово;Karatmanovo
+mk;Карамани;Karamani
+mk;Карабуњиште;Karabunjište
+mk;Карабичане;Karabičane
+mk;Капиново;Kapinovo
+mk;Канино;Kanino
+mk;Канатларци;Kanatlarci
+mk;Канарево;Kanarevo
+mk;Камењане;Kamenjane
+mk;Македонска Каменица;Makedonska Kamenica
+mk;Камен Дол;Kamen Dol
+mk;Калуѓерица;Kaluǵerica
+mk;Калуѓерец;Kaluǵerec
+mk;Калишта;Kališta
+mk;Калиманци;Kalimanci
+mk;Кален;Kalen
+mk;Калдирец;Kaldirec
+mk;Калаузлија;Kalauzlija
+mk;Калапетровци;Kalapetrovci
+mk;Калањево;Kalanjevo
+mk;Кадрифаково;Kadrifakovo
+mk;Кадино Село;Kadino Selo
+mk;Кадино;Kadino
+mk;Јурумлери;Jurumleri
+mk;Јунузлија;Junuzlija
+mk;Јудово;Judovo
+mk;Јосифово;Josifovo
+mk;Јелошник;Jelošnik
+mk;Јегуновце;Jegunovce
+mk;Једоарце;Jedoarce
+mk;Јажинце;Jažince
+mk;Јаворец;Javorec
+mk;Јастребник;Jastrebnik
+mk;Јаргулица;Jargulica
+mk;Јанковец;Jankovec
+mk;Јанчиште;Jančište
+mk;Јанче;Janče
+mk;Јамиште;Jamište
+mk;Јакреново;Jakrenovo
+mk;Јакимово;Jakimovo
+mk;Јагол Доленци;Jagol Dolenci
+mk;Јагол;Jagol
+mk;Јачинце;Jačince
+mk;Јаболци;Jabolci
+mk;Јабланица;Jablanica
+mk;Извор;Izvor
+mk;Ижиште;Ižište
+mk;Издеглавје;Izdeglavje
+mk;Избишта;Izbišta
+mk;Ивени;Iveni
+mk;Иванковци;Ivankovci
+mk;Ивањевци;Ivanjevci
+mk;Иванчишта;Ivančišta
+mk;Истибања;Istibanja
+mk;Ињево;Injevo
+mk;Инче;Inče
+mk;Иловица;Ilovica
+mk;Илиово;Iliovo
+mk;Илино;Ilino
+mk;Хаме;Hame
+mk;Гургурница;Gurgurnica
+mk;Гумалево;Gumalevo
+mk;Гулинци;Gulinci
+mk;Гујновци;Gujnovci
+mk;Гуѓаково;Guǵakovo
+mk;Групчин;Grupčin
+mk;Груниште;Grunište
+mk;Грумази;Grumazi
+mk;Грнчиште;Grnčište
+mk;Грнчари;Grnčari
+mk;Грљани;Grljani
+mk;Грко Поле;Grko Pole
+mk;Гризилевци;Grizilevci
+mk;Грешница;Grešnica
+mk;Grekaj;Grekanje
+mk;Грекај;Grekanje
+mk;Грекање;Grekanje
+mk;Грдовци;Grdovci
+mk;Грчиште;Grčište
+mk;Грчец;Grčec
+sq;Грчец;Grčec
+mk;Долни Грчец;Grčec
+mk;Граиште;Graište
+mk;Граешница;Graešnica
+mk;Градски Балдовци;Gradski Baldovci
+mk;Градско;Gradsko
+mk;Градовци;Gradovci
+mk;Градошорци;Gradošorci
+mk;Градманци;Gradmanci
+mk;Градиште;Gradište
+mk;Градешница;Gradešnica
+fr;Gradechnitsa;Gradešnica
+sq;Gradeshnica;Gradešnica
+sr;Градешница;Gradešnica
+mk;Градец;Gradec
+mk;Град;Grad
+mk;Грачани;Gračani
+mk;Говрлево;Govrlevo
+pl;Gostiwar;Gostivar
+mk;Гостивар;Gostivar
+sq;Gostivari;Gostivar
+sr;Гостивар;Gostivar
+hu;Gosztivar;Gostivar
+mk;Гостиражни;Gostiražni
+mk;Гошинце;Gošince
+mk;Горобинци;Gorobinci
+mk;Горно Врановци;Gorno Vranovci
+mk;Горно Трогерци;Gorno Trogerci
+mk;Горно Татеши;Gorno Tateši
+mk;Горно Свиларе;Gorno Svilare
+mk;Горно Строгомиште;Gorno Strogomište
+mk;Горно Строгомишта;Gorno Strogomište
+mk;Горно Средоречје;Gorno Sredorečje
+mk;Горно Солње;Gorno Solnje
+mk;Горно Село;Gorno Selo
+mk;Горно Седларце;Gorno Sedlarce
+mk;Горно Палчиште;Gorno Palčište
+mk;Горно Оризари;Gorno Orizari
+sq;Nerezi i Epërm;Gorno Nerezi
+mk;Горно Нерези;Gorno Nerezi
+mk;Горно Мелничани;Gorno Melničani
+mk;Горни Липовиќ;Gorni Lipoviḱ
+mk;Горно Лакочереј;Gorno Lakočerej
+mk;Горно Крушје;Gorno Krušje
+mk;Горно Кратово;Gorno Kratovo
+mk;Горно Косоврасти;Gorno Kosovrasti
+mk;Горно Коњаре;Gorno Konjare
+mk;Горно Коњаре;Gorno Konjari
+mk;Горно Коњари;Gorno Konjari
+mk;Горно Количани;Gorno Količani
+mk;Горно Караслари;Gorno Karaslari
+mk;Горно Јеловце;Gorno Jelovce
+en;Gorno Jabolciste;Gorno Jabolchishte
+mk;Горно Јаболчиште;Gorno Jabolchishte
+mk;Горно Дупени;Gorno Dupeni
+mk;Горно Ѓуѓанце;Gorno Ǵuǵance
+mk;Горни Добреноец;Gorni Dobrenoec
+mk;Горно Дивјаци;Gorno Divjaci
+mk;Горно Црнилиште;Gorno Crnilište
+mk;Горно Чичево;Gorno Čičevo
+mk;Горна Чарлија;Gorna Čarlija
+mk;Горно Агларци;Gorno Aglarci
+mk;Горњане;Gornjane
+mk;Горни Стубол;Gorni Stubol
+mk;Горни Манастирец;Gorni Manastirec
+mk;Горни Дисан;Gorni Disan
+mk;Горни Балван;Gorni Balvan
+mk;Gorna Đonovica;Gorna Ǵonovica
+mk;Горна Ѓоновица;Gorna Ǵonovica
+mk;Горна Бошава;Gorna Bošava
+mk;Горна Белица;Gorna Belica
+mk;Горна Бела Црква;Gorna Bela Crkva
+mk;Горна Бањица;Gorna Banjica
+mk;Горјане;Gorjane
+mk;Горенци;Gorenci
+mk;Горачино;Goračino
+mk;Гопеш;Gopeš
+mk;Голозинци;Golozinci
+mk;Голем Радобил;Golem Radobil
+mk;Голем Папрадник;Golem Papradnik
+mk;Големо Коњари;Golemo Konjari
+mk;Големо Илино;Golemo Ilino
+mk;Големо Црско;Golemo Crsko
+mk;Голема Речица;Golema Rečica
+mk;Годивје;Godivje
+mk;Годивје;Godivle
+mk;Годивле;Godivle
+mk;Гнилеш;Gnileš
+mk;Гнеотино;Gneotino
+mk;Глумово;Glumovo
+mk;Глоѓи;Gloǵi
+mk;Глобочица;Globočica
+mk;Glišić;Glišiḱ
+mk;Глишиќ;Glišiḱ
+mk;Гиновце;Ginovci
+mk;Гевгелија;Gevgelija
+fr;Guevgueliya;Gevgelija
+sq;Gjevgjelia;Gevgelija
+sr;Ђевђелија;Gevgelija
+pl;Gewgelija;Gevgelija
+hu;Gyevgyelija;Gevgelija
+sq;Germë;Ǵermo
+mk;Ѓермо;Ǵermo
+mk;Гермијан;Germijan
+mk;Герман;German
+mk;Гечерлија;Gečerlija
+mk;Гарван;Garvan
+mk;Гари;Gari
+mk;Гарани;Garani
+mk;Галиште;Galište
+mk;Галичник;Galičnik
+mk;Галичани;Galičani
+mk;Гајранци;Gajranci
+mk;Габрово;Gabrovo
+mk;Габревци;Gabrevci
+mk;Габреш;Gabreš
+mk;Габалавци;Gabalavci
+mk;Фурка;Furka
+mk;Франгово;Frangovo
+mk;Форино;Forino
+mk;Филиповци;Filipovci
+fr;Filipovtsi;Filipovci
+pl;Filipowci;Filipovci
+sq;Filipoci;Filipovci
+nl;Filipovtsi;Filipovci
+sr;Филиповци;Filipovci
+mk;Фариш;Fariš
+mk;Езерани;Ezerani
+mk;Евла;Evla
+mk;Ерековци;Erekovci
+mk;Ерџелија;Erdželija
+mk;Емирица;Emirica
+mk;Еловец;Elovec
+mk;Елевци;Elevci
+mk;Ехловец;Ehlovec
+mk;Едрениково;Edrenikovo
+mk;Еднокуќево;Ednokuḱevo
+mk;Единаковци;Edinakovci
+mk;Лозово;Lozovo
+mk;Џидимирци;Džidimirci
+mk;Џепиште;Džepište
+mk;Џепин;Džepin
+mk;Џепчиште;Džepčište
+mk;Дворци;Dvorci
+mk;Дворце;Dvorce
+mk;Đuzemelci;Ǵuzemelci
+mk;Ѓуземелци;Ǵuzemelci
+mk;Долна Душегубица;Dolna Dušegubica
+mk;Дурутли;Durutli
+mk;Дурачка Река;Duračka Reka
+mk;Дупјани;Dupjani
+mk;Дупјачани;Dupjačani
+mk;Дуње;Dunje
+mk;Дулица;Dulica
+mk;Дукатино;Dukatino
+mk;Дуф;Duf
+mk;Дрвош;Drvoš
+mk;Другово;Drugovo
+mk;Дрмени;Drmeni
+mk;Древено;Dreveno
+mk;Древеник;Drevenik
+mk;Дреново;Drenovo
+mk;Дреновци;Drenovci
+mk;Дренок;Drenok
+mk;Дренак;Drenak
+mk;Дрен;Dren
+mk;Дражево;Draževo
+mk;Драслајца;Draslajca
+mk;Драмче;Dramče
+mk;Драгожел;Dragožel
+mk;Драгожани;Dragožani
+mk;Драгов Дол;Dragov Dol
+mk;Драгош;Dragoš
+mk;Драгоманце;Dragomance
+fr;Dragomantsé;Dragomance
+sq;Dragomanci;Dragomance
+sr;Драгоманце;Dragomance
+mk;Драгоево;Dragoevo
+mk;Драгобраште;Dragobrašte
+mk;Драгобрашта;Dragobrašte
+mk;Драгарино;Dragarino
+mk;Драдња;Dradnja
+mk;Драчево;Dračevo
+mk;Naselba Dračevo;Dračevo
+mk;Selo Dračevo;Dračevo
+mk;Драчевица;Dračevica
+mk;Dovezance;Dovezence
+mk;Довезенце;Dovezence
+mk;Довезанце;Dovezence
+en;Dovezance;Dovezence
+fr;Dovezantsé;Dovezence
+sq;Dovezanci;Dovezence
+sr;Довезенце;Dovezence
+mk;Дорломбос;Dorlombos
+mk;Дорфулија;Dorfulija
+mk;Đopčeli;Ǵopčeli
+mk;Ѓопчели;Ǵopčeli
+mk;Долно Врановци;Dolno Vranovci
+mk;Долно Трогерци;Dolno Trogerci
+mk;Долно Татеши;Dolno Tateši
+mk;Долно Свиларе;Dolno Svilare
+mk;Долно Строгомиште;Dolno Strogomište
+mk;Dolno Stragomište;Dolno Strogomište
+mk;Dolno Strogomišta;Dolno Strogomište
+mk;Долно Строгомишта;Dolno Strogomište
+mk;Долно Средоречје;Dolno Sredorečje
+mk;Долно Соње;Dolno Sonje
+mk;Долно Седларце;Dolno Sedlarce
+mk;Долно Палчиште;Dolno Palčište
+mk;Долно Оризари;Dolno Orizari
+mk;Долно Мелничани;Dolno Melničani
+mk;Долно Лисиче;Dolno Lisiče
+mk;Долни Липовиќ;Dolni Lipoviḱ
+mk;Долно Лакочереј;Dolno Lakočerej
+mk;Долно Крушје;Dolno Krušje
+mk;Долно Косоврасти;Dolno Kosovrasti
+mk;Долно Коњари;Dolno Konjari
+mk;Долно Количани;Dolno Količani
+mk;Долно Караслари;Dolno Karaslari
+mk;Долно Јеловце;Dolno Jelovce
+mk;Долно Дупени;Dolno Dupeni
+mk;Долно Ѓуѓанце;Dolno Ǵuǵance
+mk;Долни Добреноец;Dolni Dobrenoec
+mk;Долно Дивјаци;Dolno Divjaci
+mk;Долно Црнилиште;Dolno Crnilište
+mk;Долно Чичево;Dolno Čičevo
+mk;Долна Чарлија;Dolna Čarlija
+mk;Долно Барбарево;Dolno Barbarevo
+mk;Долно Агларци;Dolno Aglarci
+mk;Долни Стубол;Dolni Stubol
+mk;Долни Манастирец;Dolni Manastirec
+mk;Долни Дисан;Dolni Disan
+mk;Долни Балван;Dolni Balvan
+mk;Долнени;Dolneni
+mk;Долна Лешница;Dolna Lešnica
+mk;Dolna Đonovica;Dolna Ǵonovica
+mk;Долна Ѓоновица;Dolna Ǵonovica
+mk;Долна Бошава;Dolna Bošava
+mk;Долна Белица;Dolna Belica
+mk;Долна Бела Црква;Dolna Bela Crkva
+mk;Долна Бањица;Dolna Banjica
+mk;Долгаш;Dolgaš
+mk;Долгаец;Dolgaec
+mk;Доленци;Dolenci
+mk;Долани;Dolani
+mk;Добрушево;Dobruševo
+mk;Добровени;Dobroveni
+mk;Добротино;Dobrotino
+mk;Доброшани;Dobrošani
+sr;Dobrošane;Dobroshane
+mk;Доброшане;Dobroshane
+en;Dobrosane;Dobroshane
+mk;Добромири;Dobromiri
+mk;Добрино;Dobrino
+mk;Добри Дол;Dobri Dol
+mk;Добрево;Dobrevo
+mk;Доброшинци;Dobrošinci
+mk;Добрејци;Dobrejci
+mk;Д’лга;D'lga
+mk;Длабочица;Dlabočica
+mk;Длабочица;Dlabochica
+en;Dlabocica;Dlabochica
+mk;Дивље;Divlje
+mk;Дихово;Dihovo
+mk;Девич;Devič
+mk;Десово;Desovo
+mk;Демир Капија;Demir Kapija
+mk;Делогожди;Delogožda
+mk;Делогожда;Delogožda
+mk;Дељадровци;Deljadrovci
+mk;Делисинци;Delisinci
+mk;Делчево;Delcevo
+mk;Дејловце;Dejlovce
+mk;Дејковец;Dejkovec
+mk;Дедино;Dedino
+mk;Дедели;Dedeli
+mk;Дедебалци;Dedebalci
+mk;Дебриште;Debrište
+mk;Дебреште;Debrešte
+mk;Дебреше;Debreše
+mk;Дебар;Debar
+sr;Дебар;Debar
+sq;Dibra;Debar
+mk;Давидово;Davidovo
+mk;Đavato;Ǵavato
+mk;Ѓавато;Ǵavato
+mk;Дамјан;Damjan
+mk;Далбеговци;Dalbegovci
+mk;Дабниште;Dabnište
+mk;Дабница;Dabnica
+mk;Дабјани;Dabjani
+mk;Дабилја;Dabilja
+mk;Цвиланце;Cvilance
+mk;Цветово;Cvetovo
+mk;Чучер;Chucher-Sandevo
+mk;Чучер - Сандево;Chucher-Sandevo
+mk;Црвулево;Crvulevo
+mk;Црвена Вода;Crvena Voda
+mk;Црновец;Crnovec
+mk;Црнобуки;Crnobuki
+mk;Црн Камен;Crn Kamen
+mk;Црнилиште;Crnilište
+mk;Црник;Crnik
+mk;Црничани;Crničani
+mk;Црквино;Crkvino
+en;Cresnevo;Creshnevo
+mk;Црешнево;Creshnevo
+mk;Црешнево;Crešnevo
+mk;Црешка;Creška
+mk;Црешево;Cresevo
+fr;Tsréchévo;Cresevo
+mk;Ќоселари;Ḱoselari
+mk;Ќојлија;Ḱojlija
+mk;Чумово;Čumovo
+mk;Чифлик;Čiflik
+mk;Четирце;Četirce
+mk;Чешиново;Češinovo
+mk;Церово;Cerovo
+mk;Čerkesko Selo;Cherkezi
+mk;Čerkezi;Cherkezi
+mk;Цер;Cer
+mk;Чепигово;Čepigovo
+mk;Чемерско;Čemersko
+sq;Çallapek;Čelopek
+mk;Челопек;Čelopek
+mk;Челопеци;Čelopeci
+mk;Челевец;Čelevec
+mk;Чегране;Cegrane
+mk;Чашка;Čaška
+mk;Царевиќ;Careviḱ
+mk;Царев Двор;Carev Dvor
+mk;Чардаклија;Čardaklija
+mk;Цапари;Capari
+mk;Чаниште;Čanište
+mk;Чанаклија;Čanaklija
+mk;Чалошево;Čaloševo
+mk;Чалакли;Čalakli
+mk;Чајле;Čajle
+mk;Чајлане;Čajlane
+mk;Бузалково;Buzalkovo
+mk;Бусилци;Busilci
+mk;Буринец;Burinec
+mk;Буриловци;Burilovci
+mk;Бурилчево;Burilčevo
+mk;Бунеш;Buneš
+mk;Бунарџик;Bunardzik
+mk;Бунарче;Bunarče
+mk;Буково;Bukovo
+mk;Буковљане;Bukovljane
+mk;Буковиќ;Bukovik
+mk;Buković;Bukovik
+mk;Букојчани;Bukojčani
+mk;Бујковац;Bujkovci
+mk;Будинарци;Budinarci
+mk;Будимирци;Budimirci
+mk;Будаково;Budakovo
+mk;Бучиште;Bučište
+mk;Бучинце;Buchinci
+mk;Бучин;Bučin
+mk;Бучим;Bučim
+mk;Брждани;Brždani
+mk;Брзак;Brzak
+mk;Брвеница;Brvenica
+mk;Брвенце;Brvenica
+mk;Брусник;Brusnik
+mk;Брушани;Brušani
+mk;Броштица;Broštica
+mk;Бродец;Brodec
+mk;Брод;Makedonski Brod
+mk;Македонски Брод;Makedonski Brod
+sq;Brodi;Makedonski Brod
+sr;Македонски Брод;Makedonski Brod
+mk;Брод;Brod
+mk;Брњарци;Brnjarci
+mk;Брник;Brnik
+mk;Брезово;Brezovo
+mk;Брезно;Brezno
+mk;Брезница;Breznica
+mk;Катлановска Брезница;Katlanovska Breznica
+mk;Брежани;Brežani
+mk;Брест;Brest
+mk;Брчево;Brčevo
+mk;Вратиславци;Vratislavci
+mk;Братин Дол;Bratin Dol
+mk;Брајковци;Brajkovci
+mk;Брајчино;Brajčino
+mk;Браилово;Brailovo
+mk;Бозовце;Bozovce
+mk;Ботун;Botun
+mk;Босилово;Bosilovo
+mk;Бороец;Boroec
+mk;Боровец;Boroec
+mk;Боротино;Borotino
+mk;Борисово;Borisovo
+mk;Борино;Borino
+mk;Бориево;Borievo
+mk;Бонче;Bonče
+mk;Болно;Bolno
+mk;Болетин;Boletin
+mk;Бојане;Bojane
+mk;Бојанчиште;Bojančište
+mk;Бохула;Bohula
+mk;Боговиње;Bogovinje
+mk;Богословец;Bogoslovec
+mk;Богородица;Bogorodica
+mk;Богомила;Bogomila
+mk;Богдево;Bogdevo
+mk;Богданци;Bogdanci
+mk;Близанско;Blizansko
+mk;Близанци;Blizanci
+mk;Блатец;Blatec
+mk;Блаце;Blace
+mk;Битуше;Bituše
+mk;Битово;Bitovo
+mk;Битола;Bitola
+sq;Manastiri;Bitola
+sr;Битољ;Bitola
+mk;Бистрица;Bistrica
+mk;Бистренци;Bistrenci
+mk;Бирино;Birino
+mk;Биљановце;Biljanovce
+mk;Бигор Доленци;Bigor Dolenci
+mk;Бигла;Bigla
+mk;Биџово;Bidžovo
+mk;Bibaj;Bibanje
+mk;Бибај;Bibanje
+mk;Бибање;Bibanje
+mk;Безиково;Bezikovo
+mk;Бесвица;Besvica
+mk;Бешиште;Bešište
+mk;Берово;Berovo
+mk;Беровци;Berovci
+mk;Бериково;Berikovo
+mk;Беранци;Beranci
+mk;Бенче;Benče
+mk;Белушино;Belušino
+mk;Беловодица;Belovodica
+mk;Беловиште;Belovište
+mk;Belojšte;Belovište
+mk;Белојште;Belovište
+mk;Белотино;Belotino
+mk;Бело Поле;Belo Pole
+mk;Бељаковце;Beljakovce
+mk;Бељаковци;Beljakovce
+mk;Beljakovci;Beljakovce
+mk;Беличица;Beličica
+mk;Белица;Belica
+mk;Бели;Beli
+mk;Белештевица;Beleštevica
+mk;Белчишта;Belčišta
+mk;Белче;Belče
+mk;Белановце;Belanovce
+mk;Бела Црква;Bela Crkva
+mk;Бекирлија;Bekirlija
+mk;Бегниште;Begnište
+mk;Базерник;Bazernik
+sq;Batinc;Batinci
+mk;Батинци;Batinci
+mk;Батање;Batanje
+mk;Баштево;Baštevo
+mk;Башино Село;Bašino Selo
+mk;Башибос;Bašibos
+mk;Барово;Barovo
+mk;Барешани;Barešani
+mk;Брадовце;Bardovci
+mk;Бардовци;Bardovci
+mk;Барбарево;Barbarevo
+mk;Баратлија;Baratlija
+mk;Бараково;Barakovo
+mk;Банско;Bansko
+mk;бањиште;Banjishte
+mk;Бањица;Banjica
+mk;Бања;Banja
+mk;Баница;Banica
+mk;Балталија;Baltalija
+mk;Балин Дол;Balin Dol
+mk;Балинци;Balinci
+mk;Баланци;Balanci
+mk;Бајловце;Bajlovce
+mk;Бајково;Bajkovo
+mk;Бадар;Badar
+mk;Бачишта;Bačišta
+mk;Бач;Bač
+mk;Бабуна;Babuna
+mk;Бабино;Babino
+mk;Атишта;Atišta
+mk;Асамати;Asamati
+mk;Арвати;Arvati
+mk;Арнакија;Arnakija
+mk;Арматуш;Armatuš
+mk;Арилево;Arilevo
+mk;Аргулица;Argulica
+mk;Арбиново;Arbinovo
+mk;Арбасанци;Arbasanci
+mk;Арбанашко;Arbanaško
+mk;Арангел;Arangel
+mk;Ангелци;Angelci
+mk;Амзабегово;Amzabegovo
+mk;Алинци;Alinci
+mk;Аљинце;Aljince
+mk;Алгуња;Algunja
+mk;Алданци;Aldanci
+mk;Алашевце;Alaševce
+mk;Алакинце;Alakince
+mk;Ајватовац;Ajvatovci
+mk;Агино Село;Agino Selo
+mk;Аџиевци;Adžievci
+mk;Аџибегово;Adžibegovo
+mk;Аџиматово;Adžimatovo
+mk;Горно Барбарево;Gorno Barbarevo
+mk;Три Чешми;Tri Češmi
+mk;Порој;Poroj
+mk;Горно Ботуше;Gorno Botuše
+mk;Долно Ботуше;Dolno Botuše
+mk;Долно Ботушје;Dolno Botuše
+mk;Осломеј;Oslomej
+mk;Тркање;Trkanje
+mk;Горни Подлог;Gorni Podlog
+mk;Требино;Trebino
+mk;Слатина;Slatina
+mk;Стар Караорман;Star Karaorman
+mk;Ораов Дол;Oraov Dol
+mk;Крушево;Kruševo
+mk;Катлановска Бања;Katlanovska Banja
+mk;Сојаклари;Sojaklari
+mk;Фалише;Fališe
+mk;Стримница;Strimnica
+mk;Добарце;Dobarce
+mk;Горна Лешница;Gorna Lešnica
+mk;Долно Перово;Dolno Perovo
+mk;Безово;Bezovo
+mk;Врбоец;Vrboec
+mk;Боиште;Boište
+mk;Хамзали;Hamzali
+mk;Моноспитово;Monospitovo
+mk;Корешница;Korešnica
+mk;Могорче;Mogorče
+mk;Кесендре;Kesendre
+mk;Света Петка;Sveta Petka
+sq;Sarakinë;Saračino
+mk;Сарачино;Saračino
+mk;Долно Блаце;Dolno Blace
+mk;Станица Зелениково;Zelenikovo
+mk;Бели Влајковци;Beli Vlajkovci
+mk;Јеловјане;Jelovjane
+mk;Калиште;Kalište
+mk;Ѓурѓевиште;Ǵurǵevište
+sr;Đurđevište;Ǵurǵevište
+mk;Бузинци;Buzinci
+mk;Лукарци;Lukarci
+mk;Николајци;Nikolajci
+mk;Кокино;Kokino
+mk;Парапуци;Parapuci
+mk;Осанци;Osanci
+mk;Смилковци;Smiljkovci
+mk;Смиљковци;Smiljkovci
+mk;Шуто Оризари;Šuto Orizare
+mk;Бутел;Butel
+mk;Чаир;Čair
+mk;Железара;Zelezara
+mk;Виниче;Viniče
+mk;Долни Прошовец;Dolni Prošovec
+mk;Дравска Маала;Dravska Maala
+mk;Р’нковце;R’nkovce
+mk;Пилска Маала;Pilska Maala
+mk;Глажња;Glažnja
+mk;Саласка Маала;Salaska Maala
+mk;Лукаре;Lukare
+mk;Лукар Маало;Lukare
+mk;Реканска Маала;Rekanska Maala
+mk;Маљок Маало;Maljok Maalo
+mk;Каориветм Маала;Kaorivetm Maala
+mk;Мулијска Маала;Mulijska Maala
+mk;Тенџер Маало;Tendžer Maalo
+mk;Азирлар;Azirlar
+mk;Тољане;Toljane
+mk;Брезовец;Brezovec
+mk;Оџалар;Odžalar
+mk;Бушалар;Bušalar
+mk;Маслан;Maslan
+mk;Мирдита;Mirdita
+mk;Тенџаре;Tendžare
+mk;Илинден;Ilinden
+mk;Белимбегово;Ilinden
+mk;Мемишалар;Memišalar
+mk;Одалар;Odalar
+mk;Кључка Маала;Ključka Maala
+sr;Ključka Mala;Ključka Maala
+mk;Малина Маала;Malina Maala
+mk;Мулија;Mulija
+mk;Фера Маала;Fera Maala
+mk;Бардовска Маала;Bardovska Maala
+mk;Точовска Маала;Točovska Maala
+sr;Točovska Mala;Točovska Maala
+mk;Ључовска Маала;Ljučovska Maala
+mk;Глуво;Gluvo
+mk;Бошњани;Bošnjani
+mk;Рудник Радуша;Rudnik Raduša
+mk;Горна Радуша;Gorna Raduša
+mk;Палатица;Palatica
+mk;Симница;Simnica
+mk;Хан;Han
+mk;Васковци;Vaskovci
+mk;Čelikovci;Čelopeci
+mk;Мамудовци;Mamudovci
+mk;Ериновци;Mamudovci
+mk;Лазаровци;Lazarovci
+mk;Горни Длапкин Дол;Gorni Dlapkin Dol
+mk;Долни Длапкин Дол;Dolni Dlapkin Dol
+mk;Dolni Dlapin Dol;Dolni Dlapkin Dol
+mk;Долно Орашје;Dolno Orašje
+mk;Чајане;Čajane
+mk;Ерчевис;Erčevis
+mk;Балабан;Balaban
+mk;Кичиница;Kičinica
+mk;Трница;Trnica
+mk;Таранеш;Taraneš
+mk;Шулан;Šulan
+mk;Варовиште;Varovište
+mk;Скорово;Skorovo
+mk;Бабиште;Babište
+mk;Суво Брдо;Suvo Brdo
+mk;Кочаник;Kočanik
+mk;Лисје Брдо;Lisje Brdo
+mk;Главовица;Glavovica
+mk;Свињи Дол;Svinji Dol
+mk;Ваљановец;Valjanovec
+mk;Старо Мушково;Staro Muškovo
+mk;Кајганци;Kajganci
+mk;Кошарица;Košarica
+mk;Граљанци;Graljanci
+mk;Пијаничка Маала;Pijanička Maala
+mk;Тораница;Toranica
+mk;Метовска Маала;Metovska Maala
+mk;Рачишка Маала;Račiška Maala
+mk;Чанкина Маала;Čankina Maala
+mk;Дрвенџиска Маала;Drvendžiska Maala
+en;Tlminci;T`lminci
+mk;Т`лминци;T`lminci
+mk;Стамболица;Stambolica
+mk;Мечковска Маала;Mečkovska Maala
+mk;Б’с;B’s
+mk;Bas;B’s
+mk;Бас;B’s
+mk;Присојарци;Prisojarci
+mk;Мазничка Маала;Maznička Maala
+mk;Грујинска Маала;Grujinska Maala
+mk;Радуева Маала;Radueva Maala
+mk;Мајмаркова Маала;Majmarkova Maala
+mk;Брдаци;Brdaci
+mk;Клисурска Маала;Klisurska Maala
+mk;Крстовска Маала;Krstovska Maala
+mk;Пушкарска Маала;Puškarska Maala
+mk;Малополци;Malopolci
+mk;Дојакова Маала;Dojakova Maala
+mk;Косарци;Kosarci
+en;Milocovci;Milochovci
+mk;Милочовци;Milochovci
+mk;Милевци;Milevci
+mk;Петковска Маала;Petkovska Maala
+mk;Ширинци;Širinci
+mk;Пашинци;Pašinci
+mk;Дрење;Drenje
+mk;Цветановска Маала;Cvetanovska Maala
+mk;Митковска Маала;Mitkovska Maala
+mk;Страовица;Straovica
+mk;Јанчевци;Jančevci
+mk;Цибаци;Cibaci
+mk;Ридарци;Ridarci
+mk;Куларска Маала;Kularska Maala
+mk;Жежовска Маала;Žežovska Maala
+mk;Вучковци;Vučkovci
+mk;Калеинци;Kaleinci
+mk;Бајчовци;Bajčovci
+mk;Младеновска Маала;Mladenovska Maala
+mk;Рашки Рид;Raški Rid
+mk;Големи Врв;Golemi Vrv
+mk;Пешовска Маала;Pešovska Maala
+mk;Малечканци;Malečkanci
+mk;Малечка Маала;Malečka Maala
+mk;Мала Црцорија;Mala Crcorija
+mk;Србиновска Маала;Srbinovska Maala
+mk;Добровница;Dobrovnica
+fr;Dobrovnitsa;Dobrovnica
+pl;Doborownica;Dobrovnica
+es;Dobrovnitsa;Dobrovnica
+sr;Добровница;Dobrovnica
+mk;Белјаковци;Beljakovci
+mk;Стевановци;Stevanovci
+mk;Речање;Rečanje
+mk;Гараваница;Garavanica
+mk;Рупје;Rupje
+mk;Белавинци;Belavinci
+mk;Голема Црцорија;Golema Crcorija
+fr;Golema Tsrtsoriya;Golema Crcorija
+es;Golema Tsrtsoriya;Golema Crcorija
+pl;Gołema Crcorija;Golema Crcorija
+sq;Cërcorija e Madhe;Golema Crcorija
+sr;Голема Црцорија;Golema Crcorija
+mk;Масларци;Maslarci
+mk;Вргинска Маала;Vrginska Maala
+mk;Стојковци;Stojkovci
+mk;Павловци;Pavlovci
+mk;Спасинци;Spasinci
+mk;Говеѓак;Goveǵak
+mk;Андрејинци;Andrejinci
+mk;Големи Гар;Golemi Gar
+mk;Маринковци;Marinkovci
+mk;Бошковци;Boškovci
+mk;Боровци;Borovci
+mk;Крмалник;Krmalnik
+mk;Манилци;Manilci
+mk;Максимци;Maksimci
+mk;Трстија;Trstija
+mk;Валозарци;Valozarci
+mk;Џадовци;Džadovci
+mk;Суви Лак;Suvi Lak
+mk;Драч;Drač
+mk;Нов Караорман;Nov Karaorman
+mk;Голем Габер;Golem Gaber
+mk;Полјана;Poljana
+mk;Гарниково;Garnikovo
+mk;Моклиште;Moklište
+mk;Долна Мала;Dolna Mala
+mk;Калково;Kalkovo
+mk;Горна Мала;Gorna Mala
+mk;Чуловци;Čulovci
+mk;Горничет;Novo Konsko
+mk;Ново Коњско;Novo Konsko
+mk;Ново Конско;Novo Konsko
+mk;Горна Маала;Gorna Maala
+mk;Сретеново;Sretenovo
+mk;Зулица;Zulica
+mk;Присад;Prisad
+mk;Мучовска Маала;Mučovska Maala
+sr;Mučovska Mala;Mučovska Maala
+mk;Злокуќани;Zlokukjani
+mk;Zlokuḱani;Zlokukjani
+mk;Расадник;Rasadnik
+mk;Алимедска Маала;Alimedska Maala
+mk;Дурска Маала;Durska Maala
+mk;Дрвишка Маала;Drviška Maala
+mk;Јашарска Маала;Jašarska Maala
+mk;Муриз;Muriz
+mk;Колчаци;Kolčaci
+mk;Црни Влајковци;Crni Vlajkovci
+mk;Блачанци;Blačanci
+mk;Петковци;Petkovci
+mk;Трновска Маала;Trnovska Maala
+mk;Кметовска Маала;Kmetovska Maala
+mk;Калаверци;Kalaverci
+mk;Пинџурци;Pindžurci
+mk;Мишинци;Mišinci
+mk;Китанци;Kitanci
+mk;Татариновац;Tatarinovac
+mk;Сејдина Маала;Sejdina Maala
+mk;Лусњанска Маала;Lusnjanska Maala
+sr;Lusnjanska Mala;Lusnjanska Maala
+mk;Петровци;Petrovci
+mk;Муталово;Mutalovo
+mk;Николинци;Nikolinci
+mk;Бучковци;Bučkovci
+mk;Трле;Trle
+mk;Дешини;Dešini
+mk;Аџинци;Adžinci
+mk;Коинце;Koince
+mk;Балчинци;Balčinci
+mk;Кимчинци;Kimčinci
+mk;Кргујци;Krgujci
+mk;Биволарци;Bivolarci
+mk;Мартиновци;Martinovci
+mk;Рогожарци;Rogožarci
+mk;Рубејци;Rubejci
+mk;Тушева Маала;Tuševa Maala
+mk;Расавска Маала;Rasavska Maala
+mk;Долна Маала;Dolna Maala
+mk;Буколовска Маала;Bukolovska Maala
+mk;Брдарска Маала;Brdarska Maala
+mk;Пуринци;Purinci
+mk;Лаништарци;Laništarci
+mk;Мајсторовци;Majstorovci
+mk;Врбици;Vrbici
+mk;Стублица;Stublica
+mk;Мутавчици;Mutavčici
+mk;Скендер;Skender
+mk;Дерелска Маала;Derelska Maala
+mk;Глеченска Маала;Glečenska Maala
+mk;Доденска Маала;Dodenska Maala
+mk;Постолови;Postolovi
+mk;Дедавачка Маала;Dedavačka Maala
+mk;Ристаковци;Ristakovci
+mk;Делска Маала;Delska Maala
+mk;Иванковац;Ivankovac
+mk;Голи Рид;Goli Rid
+mk;Гувниште;Guvnište
+mk;Бујек;Bujek
+mk;Свиларце;Svilarce
+mk;Мартиновце;Martinovce
+mk;Цветишница;Cvetišnica
+mk;Крстинци;Krstinci
+mk;П’клиште;P’klište
+mk;Бузалак;Buzalak
+mk;Ивачковица;Ivačkovica
+mk;Орашец;Orašec
+mk;Средна Маала;Sredna Maala
+mk;Шипак Маала;Šipak Maala
+mk;Криви Врт;Krivi Vrt
+sr;Gornja Maala;Gorna Maala
+mk;Црквинска Маала;Crkvinska Maala
+mk;Вуќавице;Vuḱavice
+sr;Vućavice;Vuḱavice
+mk;Пижинска Маала;Pižinska Maala
+mk;Балабанска Маала;Balabanska Maala
+mk;Рамно;Ramno
+mk;Баратлиска Маала;Baratliska Maala
+mk;Голувска Маала;Goluvska Maala
+mk;Падиње;Padinje
+mk;Попадеска Маала;Popadeska Maala
+mk;Колипска Маала;Kolipska Maala
+mk;Караманчани;Karamančani
+mk;Долинарци;Dolinarci
+mk;Јанковци;Jankovci
+mk;Качарци;Kačarci
+mk;Петаковци;Petakovci
+mk;Пољанска Маала;Poljanska Maala
+mk;Николенци;Nikolenci
+mk;Јовановска Маала;Jovanovska Maala
+mk;Барска Маала;Barska Maala
+mk;Алишавци;Ališavci
+mk;Шиндарци;Šindarci
+mk;Баратлици;Baratlici
+mk;Ченгици;Čengici
+mk;Џадурци;Džadurci
+mk;Глинчарци;Glinčarci
+mk;Лисичка Маала;Lisička Maala
+mk;Речка Маала;Rečka Maala
+mk;Дојчиновци;Dojčinovci
+mk;Прикљанци;Prikljanci
+mk;Жирничка Маала;Žirnička Maala
+mk;Рулевци Маала;Rulevci Maala
+mk;Rulevci-Maala;Rulevci Maala
+mk;Лингоровци;Lingorovci
+mk;Главинци Маала;Glavinci Maala
+mk;Радулинци Маала;Radulinci Maala
+mk;Дурчица Маала;Durčica Maala
+mk;Поречанска Маала;Porečanska Maala
+mk;Парицанска Маала;Paricanska Maala
+mk;Тошинска Маала;Tošinska Maala
+mk;Богачиновци;Bogačinovci
+mk;Чукарци;Čukarci
+mk;Габар;Gabar
+mk;Малчовска Маала;Malčovska Maala
+mk;Двориште;Dvorište
+mk;Худаверлија;Hudaverlija
+mk;Бојчоска Маала;Bojčoska Maala
+mk;Капетанско Маало;Kapetansko Maalo
+mk;Стоевци;Stoevci
+mk;Топчиска Маала;Topčiska Maala
+mk;Гајре;Gajre
+mk;Турска Маала;Turska Malaa
+mk;Turska Mala;Turska Malaa
+mk;Долно Житоше;Dolno Žitoše
+mk;Горни Ореовец;Gorni Oreovec
+mk;Долни Ореовец;Dolni Oreovec
+mk;Dolno Oreovec;Dolni Oreovec
+mk;Veliovci;Velmevci
+mk;Патец;Patec
+mk;Патеец;Patec
+mk;Жубрино;Žubrino
+mk;Марквоци;Markovci
+mk;Велјановци;Veljanovci
+mk;Мало;Malo
+mk;Василковци;Vasilkovci
+mk;Старовци;Starovci
+mk;Лаг;Lag
+mk;Долно Зркле;Dolno Zrkle
+mk;Долно Лупште;Dolno Lupšte
+mk;Звечан;Zvečan
+mk;Ќафа;Ḱafa
+mk;Сталевци;Stalevci
+mk;Пештерци;Pešterci
+mk;Афмате;Afmate
+mk;Балија Махала;Balija Mahala
+mk;Коловерска Махала;Koloverska Mahala
+mk;Врток;Vrtok
+mk;Сапатоец;Sapatoec
+mk;Гороглед;Gorogled
+mk;Дрмос;Drmos
+mk;Круша;Kruša
+mk;Мала Река;Mala Reka
+mk;Пинтија;Pintija
+mk;Ракотинци;Rakotinci
+mk;Горни Грчец;Gorni Grčec
+mk;Долна Матка;Dolna Matka
+mk;Долни Челопек;Dolni Čelopek
+mk;Горни Челопек;Gorni Čelopek
+mk;Кисела Вода;Kisela Voda
+mk;Долни Дејковец;Dolni Dejkovec
+mk;Долно Добрино;Dolno Dobrino
+mk;Средно Добрино;Sredno Dobrino
+mk;Горно Добрино;Gorno Dobrino
+mk;Ценовска Маала;Cenovska Maala
+mk;Мала Џине;Mala Džine
+mk;Клуковец;Klukovec
+mk;Превалец;Prevalec
+mk;Плевење;Plevenje
+mk;Горно Штрбово;Gorno Štrbovo
+mk;Оџовци;Odžovci
+mk;Бајрамовци;Bajramovci
+mk;Вапа;Vapa
+mk;Праленик;Pralenik
+mk;Брештани;Breštani
+mk;Црнобоци;Crnoboci
+mk;Радомирово;Radomirovo
+mk;Костенар;Kostenar
+mk;Лагадин;Lagadin
+mk;Елшани;Elšani
+mk;Влае;Vlae
+mk;Центар Жупа;Centar Župa
+fr;Tsentar Joupa;Centar Župa
+hu;Centar Zsupa;Centar Župa
+sq;Qendra Zhupa;Centar Župa
+sr;Центар Жупа;Centar Župa
+mk;Шипокно;Šipokno
+mk;Рача;Rača
+mk;Раскрс;Raskrs
+mk;Сир Хан;Sir Han
+mk;Прељубје;Preljubje
+mk;Горно Перово;Gorno Perovo
+mk;Чичино Село;Čičino Selo
+mk;Фјориште;Fjorište
+mk;Шум;Šum
+mk;Teferić;Teferiḱ
+mk;Тефериќ;Teferiḱ
+mk;Сенокосе;Senokose
+mk;Самоилово;Samoilovo
+mk;Samuilovo;Samoilovo
+mk;Самуилово;Samoilovo
+mk;Крлевска Маала;Krlevska Maala
+mk;Трговска Маала;Trgovska Maala
+mk;Црвениковска Маала;Crvenikovska Maala
+mk;Средно Маало;Sredno Maalo
+mk;Чукарска Маала;Čukarska Maala
+mk;Милевска Маала;Milevska Maala
+mk;Цветанска Маала;Cvetanska Maala
+mk;Средочка Маала;Sredočka Maala
+mk;Ѓергинска Маала;Ǵerginska Maala
+mk;Шопска Маала;Šopska Maala
+mk;Стамболиска Маала;Stamboliska Maala
+mk;Бајрамска Маала;Bajramska Maala
+mk;Мутавџиска Маала;Mutavdžiska Maala
+mk;Доколенковци;Dokolenkovci
+mk;Рамни Дол;Ramni Dol
+mk;Портарци;Portarci
+mk;Аџиска Маала;Adžiska Maala
+mk;Трканица;Trkanica
+mk;Борчето;Borčeto
+mk;Сарафатска Маала;Sarafatska Maala
+mk;Деровци;Derovci
+mk;Мачкарска Маала;Mačkarska Maala
+mk;Литовци;Litovci
+mk;Градишка Маала;Gradiška Maala
+mk;Гребенска Маала;Grebenska Maala
+mk;Станкова Маала;Stankova Maala
+mk;Анѓелковска Маала;Anǵelkovska Maala
+mk;Колевска Маала;Kolevska Maala
+mk;Каралеоска Маала;Karaleoska Maala
+mk;Ајдарска Маала;Ajdarska Maala
+mk;Вучковска Маала;Vučkovska Maala
+mk;Курбашовска Маала;Kurbašovska Maala
+mk;Протоѓерци;Protoǵerci
+mk;Шебовска Маала;Šebovska Maala
+mk;Додевци;Dodevci
+mk;Требешка Маала;Trebeška Maala
+mk;Капетанска Маала;Kapetanska Maala
+mk;Букоравенци;Bukoravenci
+mk;Ризанци;Rizanci
+mk;Саратска Маала;Saratska Maala
+mk;Черговци;Čergovci
+mk;Огњанци;Ognjanci
+mk;Ковачка Маала;Kovačka Maala
+mk;Видишевци;Vidiševci
+mk;Селиште;Selište
+mk;Влајкевиска Маала;Vlajkeviska Maala
+mk;Далевска Маала;Dalevska Maala
+mk;Ваљавичарска Маала;Valjavičarska Maala
+mk;Грчка Маала;Grčka Maala
+mk;Павлиш Дол;Pavliš Dol
+mk;Перчачка Маала;Perčačka Maala
+mk;Караџовска Маала;Karadžovska Maala
+mk;Горанска Маала;Goranska Maala
+mk;Косевица;Kosevica
+mk;Грнчарска Маала;Grnčarska Maala
+mk;Паунковска Маала;Paunkovska Maala
+mk;Цера;Cera
+mk;Кежовица;Kežovica
+mk;Стакларница;Staklarnica
+mk;Сулејманов Мост;Sulejmanov Most
+mk;Трубарево;Trubarevo
+mk;Дрма;Drma
+mk;Езериште;Ezerište
+mk;Добовјани;Dobovjani
+mk;Богојци;Bogojci
+mk;Јаовце;Jaovce
+mk;Малкоец;Malkoec
+mk;Слатински Чифлик;Slatinski Čiflik
+mk;Црвени Брегови;Crveni Bregovi
+mk;Lepović Maala;Lepoviḱ Maala
+mk;Леповиќ Маала;Lepoviḱ Maala
+mk;Новоселци;Novoselci
+mk;Сотирова Маала;Sotirova Maala
+mk;Шутинци;Šutinci
+mk;Руинци;Ruinci
+mk;Борнатска Маала;Bornatska Maala
+mk;Китановска Маала;Kitanovska Maala
+mk;Левковци;Levkovci
+mk;Đačka Maala;Ǵačka Maala
+mk;Ѓачка Маала;Ǵačka Maala
+mk;Чезаци;Čezaci
+mk;Милкинци;Milkinci
+mk;Новаковци;Novakovci
+mk;Амбар Маала;Ambar Maala
+mk;Вукановци;Vukanovci
+mk;Шопавци;Šopavci
+mk;Стубљанци;Stubljanci
+mk;Николовска Маала;Nikolovska Maala
+mk;Спиридонова Маала;Spiridonova Maala
+mk;Јашковци Маала;Jaškovci Maala
+mk;Караманска Маала;Karamanska Maala
+mk;Смилковци Маала;Smilkovci Maala
+mk;Ковачевци;Kovačevci
+mk;Токмаци;Tokmaci
+mk;Грмадари;Grmadari
+mk;Đavci;Ǵavci
+mk;Ѓавци;Ǵavci
+mk;Шалевци;Šalevci
+mk;Додаци;Dodaci
+mk;Забел Маала;Zabel Maala
+mk;Вакуф Маала;Vakuf Maala
+mk;Килибарска Маала;Kilibarska Maala
+mk;Динговци;Dingovci
+mk;Арнаутовци;Arnautovci
+mk;Глашевци;Glaševci
+mk;Минци;Minci
+mk;Рекари Маала;Rekari Maala
+mk;Мишина Маала;Mišina Maala
+mk;Куковиште Маала;Kukovište Maala
+mk;Млакари Маала;Mlakari Maala
+mk;Кукаљска Маала;Kukaljska Maala
+mk;Дивјанци;Divjanci
+mk;Трнска Маала;Trnska Maala
+mk;Дијамаџаци;Dijamadžaci
+mk;Пртљанци;Prtljanci
+mk;Станоевци;Stanoevci
+mk;Јушмерци;Jušmerci
+mk;Којдунска Маала;Kojdunska Maala
+mk;Борово;Borovo
+mk;Булутска Маала;Bulutska Maala
+mk;Буинска Маала;Buinska Maala
+mk;Чуковци;Čukovci
+mk;Цупарице;Cuparice
+mk;Пашкулина Маала;Paškulina Maala
+mk;Лозаново;Lozanovo
+mk;Џијановци;Džijanovci
+mk;Чалинска Маала;Čalinska Maala
+mk;Гладинска Маала;Gladinska Maala
+mk;Ридарска Маала;Ridarska Maala
+mk;Џанговци;Džangovci
+mk;Шуманска Маала;Šumanska Maala
+mk;Врдовачка Маала;Vrdovačka Maala
+mk;Маала Буковица;Maala Bukovica
+mk;Пестршино;Pestršino
+mk;Големчешка Маала;Golemčeška Maala
+mk;Соколовци;Sokolovci
+mk;Клинчарите;Klinčarite
+mk;Шутово;Šutovo
+mk;Љубинце;Ljubince
+mk;Јовевци;Jovevci
+mk;Горно Градче;Gorno Gradče
+mk;Крушка;Kruška
+mk;Ебеплија;Ebeplija
+mk;Кепекчелија;Kepekčelija
+mk;Анџиска Маала;Andžiska Maala
+mk;Бабаринци;Babarinci
+mk;Гриоска Маала;Grioska Maala
+mk;Радиновец;Radinovec
+mk;Средно Брдо;Sredno Brdo
+mk;Пашковци;Paškovci
+mk;Невенска Маала;Nevenska Maala
+mk;Баческа Маала;Bačeska Maala
+mk;Ќосеска Маала;Ḱoseska Maala
+mk;Катанска Маала;Katanska Maala
+mk;Газијанска Маала;Gazijanska Maala
+mk;Пашалиска Маала;Pašaliska Maala
+mk;Тасковци;Taskovci
+mk;Срушена Маала;Srušena Maala
+mk;Игњатовска Маала;Ignjatovska Maala
+mk;Чортанци;Čortanci
+mk;Звездинска Маала;Zvezdinska Maala
+mk;Балинска Маала;Balinska Maala
+mk;Маринска Маала;Marinska Maala
+mk;Габрошица;Gabrošica
+mk;Газарска Маала;Gazarska Maala
+mk;Мечкарска Маала;Mečkarska Maala
+mk;Грланска Маала;Grlanska Maala
+mk;Божанска Маала;Božanska Maala
+mk;Ташовска Маала;Tašovska Maala
+mk;Јуручка Маала;Juručka Maala
+mk;Криворамска Маала;Krivoramska Maala
+mk;Чукарлиска Маала;Čukarliska Maala
+mk;Малческа Маала;Malčeska Maala
+mk;Болтачка Маала;Boltačka Maala
+mk;Брболковска Маала;Brbolkovska Maala
+mk;Домазетска Маала;Domazetska Maala
+mk;Бобиска Маала;Bobiska Maala
+mk;Софинска Маала;Sofinska Maala
+mk;Саиска Маала;Saiska Maala
+mk;Стајчоска Маала;Stajčoska Maala
+mk;Петроска Маала;Petroska Maala
+mk;Стаменкоска Маала;Stamenkoska Maala
+mk;Очипала;Očipala
+mk;Дуовска Маала;Duovska Maala
+mk;Димчоска Маала;Dimčoska Maala
+mk;Дамјаноска Маала;Damjanoska Maala
+mk;Караџаска Маала;Karadžaska Maala
+mk;Бумбарска Маала;Bumbarska Maala
+mk;Стефаноска Маала;Stefanoska Maala
+mk;Новачка Маала;Novačka Maala
+mk;Митревска Маала;Mitrevska Maala
+mk;Димоска Маала;Dimoska Maala
+mk;Белчиска Маала;Belčiska Maala
+mk;Маркоска Маала;Markoska Maala
+mk;Косово Дабје;Kosovo Dabje
+mk;Полето;Poleto
+mk;Голешево;Goleševo
+mk;Мановска Маала;Manovska Maala
+mk;Попова Шапка;Popova Šapka
+mk;Шајнова Маала;Šajnova Maala
+mk;Асовци;Asovci
+mk;Табак Маала;Tabak Maala
+mk;Шанци;Šanci
+mk;Руница;Runica
+sr;Rugince;Runica
+sr;Gornja Mahala;Gorna Maala
+mk;Османска Маала;Osmanska Maala
+sr;Osmanska Mahala;Osmanska Maala
+mk;Труќска Маала;Truḱska Maala
+sr;Трућска Маала;Truḱska Maala
+mk;Кукска Маала;Kukska Maala
+sr;Kukska Mahala;Kukska Maala
+mk;Бузина Махала;Buzina Mahala
+mk;Старчани;Starčani
+mk;Костурник;Kosturnik
+mk;Товилиште;Tovilište
+mk;Љубановци;Ljubanovci
+mk;Скачколинци;Skačkolinci
+mk;Тасинци;Tasinci
+mk;Стојчинци;Stojčinci
+mk;Амалинци;Amalinci
+mk;Матичанци;Matičanci
+mk;Пузајка;Puzajka
+sr;Puzaljka;Puzajka
+mk;Пржинци;Pržinci
+mk;Целопечанци;Čelopečanci
+mk;Шантерци;Šanterci
+mk;Клинчарци;Klinčarci
+mk;Јовановци;Jovanovci
+mk;Петраличани;Petraličani
+mk;Смиљчевци;Smiljčevci
+mk;Брадиновци;Bradinovci
+mk;Перинци;Perinci
+mk;Крстиќинска Маала;Krstiḱinska Maala
+sr;Krstićinska Maala;Krstiḱinska Maala
+mk;Аџина Маала;Adžina Maala
+mk;Ќурчинци;Ḱurčinci
+sr;Ćurčinci;Ḱurčinci
+mk;Поганци;Poganci
+mk;Домузинци;Domuzinci
+mk;Јаребичарци;Jarebičarci
+mk;Vujevci;Vuevci
+mk;Вујевци;Vuevci
+mk;Вуевци;Vuevci
+mk;Ќурчинска Маала;Ḱurčinska Maala
+sr;Ćurčinska Mala;Ḱurčinska Maala
+mk;Владинци;Vladinci
+mk;Ќукинска Маала;Ḱukinska Maala
+sr;Ćukinska Maala;Ḱukinska Maala
+mk;Пркина Маала;Prkina Maala
+mk;Дорговци;Dorgovci
+mk;Пиленска Маала;Pilenska Maala
+mk;Травуљаци;Travuljaci
+mk;Манојлинци;Manojlinci
+mk;Двизци;Dvizci
+mk;Черкезовци;Čerkezovci
+mk;Дртковци;Drtkovci
+mk;Трендафилци;Trendafilci
+mk;Богдановци;Bogdanovci
+mk;Стоилковци;Stoilkovci
+mk;Илијашевци;Ilijaševci
+mk;Попчевци;Popčevci
+mk;Тренчинска Мала;Trenčinska Mala
+mk;Кршутинци;Kršutinci
+mk;Шантеровци;Šanterovci
+mk;Бела Грамада;Bela Gramada
+mk;Вишинци;Višinci
+mk;Жабаровци;Žabarovci
+mk;Шантировци;Šantirovci
+mk;Брешко;Breško
+mk;Џембасци;Džembasci
+mk;Бузовиќи;Buzoviḱi
+sr;Buzovići;Buzoviḱi
+mk;Печењаци;Pečenjaci
+mk;Поповци;Popovci
+mk;Кршевци;Krševci
+mk;Киселарци;Kiselarci
+mk;Шукленци;Šuklenci
+mk;Велковци;Velkovci
+mk;Зајци;Zajci
+mk;Деловчани;Delovčani
+mk;Живуша;Živuša
+mk;Вишна;Višna
+mk;Добрача;Dobrača
+mk;Николовце;Nikolovci
+mk;Паланчани;Palančani
+mk;Милошевци;Miloševci
+mk;Газдевци;Gazdevci
+mk;Ивковци;Ivkovci
+mk;Нешевци;Neševci
+mk;Анѓеловци;Anǵelovci
+sr;Anđelovci;Anǵelovci
+mk;Каметница;Kametnica
+mk;Суводолска Маала;Suvodolska Maala
+mk;Каменитица;Kamenitica
+mk;Суљевац;Suljevac
+mk;Дошљаци;Došljaci
+mk;Шутарска Маала;Šutarska Maala
+mk;Тутушанска Маала;Tutušanska Maala
+mk;Чољаци;Čoljaci
+mk;Антини;Antini
+mk;Доданци;Dodanci
+mk;Бабадосинци;Babadosinci
+mk;Беловуци;Belovuci
+mk;Стојановци;Stojanovci
+mk;Џамбасци;Džambasci
+mk;Ѓуринци;Ǵurinci
+sr;Đurinci;Ǵurinci
+mk;Мацанци;Macanci
+mk;Деловчанци;Delovčanci
+mk;Дренчани;Drenčani
+mk;Добрилачка Маала;Dobrilačka Maala
+mk;Чурилска Маала;Čurilska Maala
+mk;Али Коч;Ali Koč
+mk;Аврамски Колиби;Avramski Kolibi
+sr;Kaluđerica;Kaluǵerica
+mk;Мамутлија;Mamutlija
+mk;Калинци;Kalinci
+mk;Умарци;Umarci
+mk;Дракарци;Drakarci
+mk;Баштевци;Baštevci
+mk;Курлевци;Kurlevci
+mk;Кулак;Kulak
+mk;Димонце;Dimonce
+mk;Цоцевци;Cocevci
+mk;Ѓаковци;Ǵakovci
+mk;Тасевци;Tasevci
+mk;Ѓорговци;Ǵorgovci
+mk;Бантевци;Bantevci
+sr;Donja Maala;Dolna Maala
+sr;Доња Маала;Dolna Maala
+mk;Црноруковци;Crnorukovci
+mk;Расовци;Rasovci
+mk;Јачинска Маала;Jačinska Maala
+mk;Мутавџии;Mutavdžii
+mk;Џанкова Маала;Džankova Maala
+mk;Качаровци;Kačarovci
+mk;Вардарци;Vardarci
+mk;Кајсевска Маала;Kajsevska Maala
+mk;Марчевци;Marčevci
+mk;Жабарска Маала;Žabarska Maala
+mk;Ипчовци;Ipčovci
+mk;Смокарци;Smokarci
+mk;Марковци;Markovci
+mk;Здравковци;Zdravkovci
+mk;Вилиповци;Vilipovci
+mk;Барбаровци;Barbarovci
+mk;Осичка Маала;Osička Maala
+mk;Лазинци;Lazinci
+mk;Гранџевци;Grandževci
+mk;Танасовци;Tanasovci
+mk;Тано Брце;Tano Brce
+mk;Крпузовци;Krpuzovci
+mk;Пинџур Маала;Pindžur Maala
+mk;Златковци;Zlatkovci
+mk;Карадак;Karadak
+mk;Тасино;Tasino
+mk;Бончевци;Bončevci
+mk;Чивлевци;Čivlevci
+mk;Ралевци;Ralevci
+mk;Барактарци;Baraktarci
+mk;Ватлино;Vatlino
+mk;Саривинци;Sarivinci
+mk;Лепановци;Lepanovci
+mk;Србинци;Srbinci
+mk;Богојска Маала;Bogojska Maala
+mk;Бончево;Bončevo
+mk;Ѓоринци;Ǵorinci
+mk;Златановци;Zlatanovci
+mk;Ратунда;Ratunda
+mk;Јабучка Маала;Jabučka Maala
+mk;Горејци;Gorejci
+mk;Ќупарци;Ḱuparci
+mk;Вржогрнци;Vržogrnci
+mk;Груинци;Gruinci
+mk;Митренци;Mitrenci
+mk;Цветковци;Cvetkovci
+mk;Мишинска Маала;Mišinska Maala
+mk;Вучина Маала;Vučina Maala
+mk;Пуцкина Маала;Puckina Maala
+mk;Димиќи;Dimiḱi
+mk;Маљочка Маала;Maljočka Maala
+mk;Дубин Гроб;Dubin Grob
+mk;Станковци;Stankovci
+mk;Давидовци;Davidovci
+mk;Шипковци;Šipkovci
+mk;Иванчевци;Ivančevci
+mk;Субашинци;Subašinci
+mk;Џелепска Маала;Dželepska Maala
+mk;Ќурќинци;Ḱurḱinci
+mk;Крањедолска Маала;Kranjedolska Maala
+mk;Ќосина Маала;Ḱosina Maala
+mk;Крајчина Маала;Krajčina Maala
+mk;Јанковци Маала;Jankovci Maala
+mk;Ѓоринска Маала;Ǵorinska Maala
+mk;Киселица Маала;Kiselica Maala
+mk;Митровска Маала;Mitrovska Maala
+mk;Лубарци;Lubarci
+mk;Грамачани;Gramačani
+mk;Доринци;Dorinci
+mk;Бакалци;Bakalci
+mk;Мулина Маала;Mulina Maala
+mk;Црнешка Маала;Crneška Maala
+mk;Колерска Маала;Kolerska Maala
+mk;Цинцарова Маала;Cincarova Maala
+mk;Пардинци;Pardinci
+mk;Карапанџова Маала;Karapandžova Maala
+mk;Бачовановска Маала;Bačovanovska Maala
+mk;Спеѓинци;Speǵinci
+mk;Рајчилова Маала;Rajčilova Maala
+mk;Летова Маала;Letova Maala
+mk;Караманова Маала;Karamanova Maala
+mk;Ковачева Маала;Kovačeva Maala
+mk;Герман Маала;German Maala
+mk;Дикина Маала;Dikina Maala
+mk;Богданова Маала;Bogdanova Maala
+mk;Балиница Маала;Balinica Maala
+mk;Трајанова Маала;Trajanova Maala
+mk;Чурина Маала;Čurina Maala
+mk;Маковиште Маала;Makovište Maala
+mk;Котарина Маала;Kotarina Maala
+mk;Каваклија;Kavaklija
+mk;Боровска Маала;Borovska Maala
+mk;Баба Анѓина Маала;Baba Anǵina Maala
+mk;Канџеревска Маала;Kandžerevska Maala
+mk;Вргинци;Vrginci
+mk;Љубинци;Ljubinci
+mk;Бошковска Маала;Boškovska Maala
+mk;Вучинска Маала;Vučinska Maala
+mk;Штичарци;Štičarci
+mk;Štiḱarci;Štičarci
+mk;Штиќарци;Štičarci
+mk;Борбошка Маала;Borboška Maala
+mk;Витановци;Vitanovci
+mk;Мангалска Маала;Mangalska Maala
+mk;Чакмаџиска Маала;Čakmadžiska Maala
+mk;Џиковска Маала;Džikovska Maala
+mk;Ѓурендапска Маала;Ǵurendapska Maala
+mk;Кајети;Kajeti
+mk;Мишино;Mišino
+mk;Касиро;Kasiro
+mk;Рамно Нивиште;Ramno Nivište
+mk;Паламарска Маала;Palamarska Maala
+mk;Чорбаџиска Маала;Čorbadžiska Maala
+mk;Паровска Маала;Parovska Maala
+mk;Чобанска Маала;Čobanska Maala
+mk;Штабска Маала;Štabska Maala
+mk;Лажовска Маала;Lažovska Maala
+mk;Умска Маала;Umska Maala
+mk;Папурица;Papurica
+mk;Гаовска Маала;Gaovska Maala
+mk;Илиовска Маала;Iliovska Maala
+mk;Терџиска Маала;Terdžiska Maala
+mk;Јагодинска Маала;Jagodinska Maala
+mk;Кајмаканска Маала;Kajmakanska Maala
+mk;Јановска Маала;Janovska Maala
+mk;Кундеска Маала;Kundeska Maala
+mk;Филиска Маала;Filiska Maala
+mk;Букарска Маала;Bukarska Maala
+mk;Парастјел;Parastjel
+mk;Никовска Маала;Nikovska Maala
+mk;Лапачка Маала;Lapačka Maala
+mk;Меанџиска Маала;Meandžiska Maala
+mk;Петровска Маала;Petrovska Maala
+mk;Турчинска Маала;Turčinska Maala
+mk;Влаовец Маала;Vlaovec Maala
+mk;Златановска Маала;Zlatanovska Maala
+mk;Крсто;Krsto
+mk;Сува Река;Suva Reka
+mk;Чурковци;Čurkovci
+mk;Бумбарци;Bumbarci
+mk;Курјачка Маала;Kurjačka Maala
+mk;Пулевци;Pulevci
+mk;Каракостовци;Karakostovci
+mk;Пасјак;Pasjak
+mk;Нов Истевник;Nov Istevnik
+mk;Тренчовци;Trenčovci
+mk;Манчовци;Mančovci
+mk;Чорбаџии;Čorbadžii
+mk;Ќурчии;Ḱurčii
+mk;Жабени;Žabeni
+mk;Пешовци;Pešovci
+mk;Шула;Šula
+mk;Кисела Јабука;Kisela Jabuka
+mk;Горна Арнакија;Gorna Arnakija
+mk;Чифлик;Chiflik
+mk;Калник;Kalnik
+mk;Елешец;Eleshec
+en;Elešec;Eleshec
+mk;Колонија;Kolonija
+mk;Колонија Идризово;Kolonija
+sr;Горња Маала;Gorna Maala
+mk;Визбегово;Vizbegovo
+mk;Виштица;Vishtica
+mk;Умин Дол;Umin Dol
+mk;Табановце;Tabanovce
+mk;Страчинци;Strachinci
+mk;Старо Нагоричане;Staro Nagorichane
+mk;Ропалце;Ropalce
+mk;Режановце;Rezhanovce
+mk;Раштак;Rashtak
+mk;Проевце;Proevce
+mk;Петровец;Petrovec
+mk;Отошница;Otoshnica
+mk;Опае;Opae
+mk;Мралино;Mralino
+mk;Младо Нагоричане;Mlado Nagorichane
+mk;Мирковци;Mirkovci
+mk;Милутинце;Milutince
+mk;Лопате;Lopate
+mk;Идризово;Idrizovo
+mk;Грушино;Grushino
+mk;Гиновци;Ginovci
+mk;Долно Нерези;Dolno Nerezi
+mk;Черкези;Cherkezi
+mk;Челопек;Chelopek
+mk;Бујковци;Bujkovci
+mk;Бучинци;Buchinci
+mk;Бразда;Brazda
+mk;Арачиново;Arachinovo
+mk;Ајватовци;Ajvatovci
+mk;Трнодол;Trnodol

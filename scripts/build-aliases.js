@@ -23,9 +23,11 @@
 const fs = require('fs');
 const path = require('path');
 
-// Albanie : deuxième pays de la série balkanique (Monténégro traité séparément, voir
-// build-me-aliases.js — pas de fichier de codes postaux GeoNames pour ce pays).
-const COUNTRIES = ['AL']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/FI/AX
+// Serbie et Macédoine du Nord : dernier ajout en date de la série balkanique (Monténégro/Kosovo
+// traités séparément, voir build-me-aliases.js/build-xk-aliases.js — pas de fichier de codes
+// postaux GeoNames pour ces deux-là).
+const COUNTRIES = ['RS', 'MK']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/
+// BA/GB/IE/IM/DK/NO/SE/FI/AX/AL
 // déjà générés et commités (les leurs restent inchangés)
 // déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
@@ -118,7 +120,7 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // (Robert Burns) ; l'ulster-scots (variante nord-irlandaise) est délibérément FONDU dans cet ajout
 // plutôt qu'ajouté à part — pas de norme écrite vraiment distincte, même logique que le rusyn/lemko
 // traité comme une seule langue malgré ses variantes régionales.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr']);
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -227,7 +229,12 @@ const NAME_OVERRIDES = {
   'Cill Fhíonáin': 'Kilfinane',
   'Cluain Meala': 'Clonmel',
   'Trá Mhór': 'Tramore',
-  'Leifear': 'Lifford'
+  'Leifear': 'Lifford',
+  // Voir build-country-communes.js pour le détail (Belgrade/Beograd, diacritique manquant de
+  // Knjazevac/Knjaževac) — même correction reproduite ici pour que les alias pointent vers le bon
+  // nom canonique.
+  'Belgrade': 'Beograd',
+  'Knjazevac': 'Knjaževac'
 };
 // Même correction que build-country-communes.js (voir son commentaire pour le détail) : le dump
 // GeoNames croate confond le Ð latin (Eth, U+00D0) avec le VRAI Đ croate (D barré, U+0110) dans 48
@@ -237,6 +244,12 @@ function cleanName(raw){ return (NAME_OVERRIDES[raw] || raw).replace(/Ð/g, 'Đ'
 // aucune liaison en ferry pour véhicules, un alias y menant ne servirait donc à rien côté recherche
 // (la commune elle-même est absente de communes-gg.txt).
 const SARK_EXCLUDE_NAMES = new Set(['Sark', 'La Seigneurie']);
+// Même incohérence que build-country-communes.js (voir son commentaire pour le détail) : 75
+// communes macédoniennes restent en cyrillique brut dans le champ "name" du dump alors que le
+// reste du pays est en latin — utilise le champ asciiname (c[2]) à la place pour ces seules
+// entrées, pour que le nom CANONIQUE servant de cible aux alias soit cohérent avec
+// communes-mk.txt (généré avec exactement la même règle).
+const MK_CYRILLIC_RE = /[Ѐ-ӿ]/;
 
 function haversineKm(lat1, lon1, lat2, lon2){
   const R = 6371;
@@ -297,7 +310,13 @@ for(const country of COUNTRIES){
     .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
     .map(c => ({
       geonameid: c[0],
-      name: cleanName(c[1]),
+      // Macédoine du Nord : le nom d'origine (souvent cyrillique brut, voir MK_CYRILLIC_RE plus
+      // haut) est conservé à part (rawName) même quand `name` bascule sur asciiname — sans ça, ces
+      // 75 communes deviendraient introuvables en tapant leur VRAI nom macédonien (voir plus bas,
+      // où rawName sert à synthétiser un alias "mk" quand aucun n'existe déjà dans le fichier
+      // alternateNames pour ce geonameid précis).
+      rawName: c[1],
+      name: cleanName((country === 'MK' && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1]),
       lat: parseFloat(c[4]),
       lon: parseFloat(c[5]),
       admin1Code: c[10] || '',
@@ -320,11 +339,20 @@ for(const country of COUNTRIES){
   // communes-gb.txt dans build-country-communes.js) — nécessaire pour GB_REGION_RESTRICTED_LANGS
   // plus bas.
   const regionByGeonameId = (country === 'GB') ? new Map() : null;
+  // Macédoine du Nord seulement : geonameid -> vrai nom cyrillique d'origine, pour les communes où
+  // `name` a basculé sur asciiname (voir MK_CYRILLIC_RE) — sert plus bas à synthétiser un alias
+  // "mk" quand le fichier alternateNames n'en fournit aucun pour ce geonameid précis (cas de figure
+  // vérifié : le nom cyrillique brut est parfois attaché à un AUTRE geonameid — ex. l'entrée
+  // administrative "Општина X" — jamais à celui du lieu habité lui-même).
+  const mkRawCyrillicByGeonameId = (country === 'MK') ? new Map() : null;
   for(const p of seen.values()){
     const near = (country === 'AD') ? (postalByAdmin1Code.get(p.admin1Code) || null) : nearest(postalGrid, p.lat, p.lon, 15);
     if(near){
       canonicalByGeonameId.set(p.geonameid, p.name);
       if(regionByGeonameId) regionByGeonameId.set(p.geonameid, near.admin2 || near.admin1 || '');
+      if(mkRawCyrillicByGeonameId && p.rawName !== p.name){
+        mkRawCyrillicByGeonameId.set(p.geonameid, p.rawName);
+      }
     }
   }
 
@@ -362,6 +390,25 @@ for(const country of COUNTRIES){
     if(seenAlias.has(dedupeKey)) continue;
     seenAlias.add(dedupeKey);
     out.push(`${lang};${alt};${canonical}`);
+  }
+
+  // Macédoine du Nord seulement : synthétise un alias "mk" (nom cyrillique -> nom latin canonique)
+  // pour chaque commune de mkRawCyrillicByGeonameId qui n'en a reçu AUCUN du fichier alternateNames
+  // ci-dessus — sans ça, une commune comme Арачиново/Arachinovo deviendrait introuvable en tapant
+  // son vrai nom macédonien, alors même que c'est ce nom-là que le dump GeoNames donnait à l'origine
+  // pour son propre geonameid (voir MK_CYRILLIC_RE/rawName plus haut).
+  if(mkRawCyrillicByGeonameId){
+    let synthesized = 0;
+    for(const [geonameid, rawName] of mkRawCyrillicByGeonameId){
+      const canonical = canonicalByGeonameId.get(geonameid);
+      if(!canonical || normalize(rawName) === normalize(canonical)) continue;
+      const dedupeKey = 'mk|' + normalize(rawName) + '|' + canonical;
+      if(seenAlias.has(dedupeKey)) continue;
+      seenAlias.add(dedupeKey);
+      out.push(`mk;${rawName};${canonical}`);
+      synthesized++;
+    }
+    if(synthesized) console.log(country, ': +', synthesized, 'alias "mk" synthétisés (nom cyrillique brut sans entrée alternateNames dédiée)');
   }
 
   const outPath = path.join(__dirname, '..', 'public', 'data', 'aliases-' + country.toLowerCase() + '.txt');

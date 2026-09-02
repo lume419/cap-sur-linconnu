@@ -1,0 +1,1363 @@
+nl;Zjuzjeljica;Žuželjica
+sq;Zhuzhelica;Žuželjica
+nl;Zjupanjevac;Županjevac
+nl;Zjukovac;Žukovac
+sq;Zhunicë;Žujince
+nl;Zjujince;Žujince
+mk;Жуинце;Žujince
+sq;Zuçi;Žuč
+hu;Nagybecskerek;Zrenjanin
+ro;Becicherecul Mare;Zrenjanin
+ro;Becicherecu Mare;Zrenjanin
+sr;Зрењанин;Zrenjanin
+mk;Зрењанин;Zrenjanin
+nl;Zjlne;Žlne
+sq;Zllatokopi;Zlatokop
+nl;Zjitoradje;Žitorađe
+sq;Zhitoragja;Žitorađe
+sr;Житорађа;Žitorađa
+sq;Zhitnipotoku;Žitni Potok
+nl;Zjitni Potok;Žitni Potok
+ro;Jâtcovița;Žitkovica
+nl;Zjitkovica;Žitkovica
+hu;Begaszentgyörgy;Žitište
+ro;Jitiște;Žitište
+sr;Житиште;Žitište
+pt;Žirče;Žirča
+en;Žirče;Žirča
+fr;Žirče;Žirča
+hu;Žirče;Žirča
+sl;Žirče;Žirča
+pl;Žirče;Žirča
+nl;Žirče;Žirča
+hu;Zimony;Zemun
+sr;Земун;Zemun
+mk;Земун;Zemun
+nl;Zjegrova;Žegrova
+sq;Zhegrova;Žegrova
+nl;Zjdrelo;Ždrelo
+mk;Ждрело;Ždrelo
+nl;Zjdeglovo;Ždeglovo
+sq;Zhdellova;Ždeglovo
+nl;Zjbevac;Žbevac
+sq;Zhbevca;Žbevac
+sq;Zarbinca;Zarbince
+sq;Mojstiri Perëndimor;Zapadni Mojstir
+pt;Zalužnje;Zalužje
+en;Zalužnje;Zalužje
+fr;Zalužnje;Zalužje
+sl;Zalužnje;Zalužje
+pl;Zalužnje;Zalužje
+nl;Zaluzjnje;Zalužje
+nl;Zjalica;Žalica
+ro;Zaiciar;Zaječar
+sr;Зајечар;Zaječar
+ro;Zaicear;Zaječar
+mk;Заечар;Zaječar
+nl;Zaguzjane;Zagužane
+sr;Општина Жагубица;Žagubica
+nl;Zabrezjje;Zabrežje
+nl;Zjabljane;Žabljane
+sr;Жабари;Žabari
+nl;Zjabare;Žabare
+sr;Жабаљ;Žabalj
+sr;Вујетинци;Vujetinci
+sq;Vujanova;Vujanovo
+hu;Versec;Vršac
+ro;Vârșeț;Vršac
+sr;Вршац;Vršac
+mk;Вршац;Vršac
+sr;Врњачка Бања;Vrnjačka Banja
+sq;Vërbani;Vrban
+sr;Врање;Vranje
+sq;Vranja;Vranje
+mk;Врање;Vranje
+mk;Вошановац;Vošanovac
+pt;Voljavče;Voljevče
+en;Voljavče;Voljevče
+fr;Voljavče;Voljevče
+es;Voljavče;Voljevče
+sl;Voljavče;Voljevče
+pl;Voljavče;Voljevče
+nl;Voljavče;Voljevče
+sr;Вољавче;Voljevče
+sq;Voganca;Vogance
+sq;Vodica;Vodice
+sr;Власотинце;Vlasotince
+sq;Vllahinja;Vlahinja
+sr;Владичин Хан;Vladičin Han
+mk;Владичин Хан;Vladičin Han
+mk;Витежево;Viteževo
+nl;Visočka Rzjana;Visočka Ržana
+sq;Vishesella;Više Selo
+mk;Вирово;Virovo
+sr;Винча;Vinča
+sq;Vinarca;Vinarce
+mk;Везичево;Vezičevo
+mk;Големо Лаоле;Veliko Laole
+sr;Велико Градиште;Veliko Gradište
+en;Gradiste;Veliko Gradište
+sr;Trnovac;Veliki Trnovac
+sq;Tërnovci i Madh;Veliki Trnovac
+mk;Голем Поповац;Veliki Popovac
+sr;Велика Плана;Velika Plana
+mk;Велика Каменица;Velika Kamenica
+sr;Варварин;Varvarin
+hu;Homokszil;Uljma
+sq;Ugla;Ugao
+sr;Тутин;Tutin
+sq;Tutini;Tutin
+sq;Turjana;Turjane
+sq;Turi;Turija
+mk;Турековац;Turekovac
+nl;Tulezj;Tulež
+pt;Tuleš;Tulez
+en;Tuleš;Tulez
+fr;Tuleš;Tulez
+es;Tuleš;Tulez
+sl;Tuleš;Tulez
+pl;Tuleš;Tulez
+nl;Tuleš;Tulez
+sq;Trupalla;Trupale
+sr;Трстеник;Trstenik
+sr;Трњане;Trnjane
+sq;Tërnavë;Trnava
+mk;Трнава;Trnava
+sq;Tërmkolli;Trmka
+sq;Treqaku;Trećak
+sq;Tërbuja;Trbunje
+sq;Togaçeci;Togočevce
+sr;Тител;Titel
+pt;Tiodže;Tioce
+en;Tiodže;Tioce
+fr;Tiodže;Tioce
+es;Tiodže;Tioce
+sl;Tiođe;Tioce
+pl;Tiodže;Tioce
+nl;Tiodže;Tioce
+sr;Општина Сврљиг;Svrljig
+sr;Свилајнац;Svilajnac
+sq;Suvamorava;Suva Morava
+sr;Сурдулица;Surdulica
+mk;Сурдулица;Surdulica
+sr;Градска општина Сурчин;Surčin
+hu;Szurcsin városi község;Surčin
+sq;Shumana;Šumane
+pt;Stublica;Suvlica
+sl;Stublica;Suvlica
+en;Stublica;Suvlica
+fr;Stublica;Suvlica
+pl;Stublica;Suvlica
+nl;Stublica;Suvlica
+sq;Stopska;Stropsko
+sq;Strezovc;Strezovce
+sr;Страгари;Stragari
+sq;Momçilli;Staro Momčilovo
+sr;Стари Сланкамен;Stari Slankamen
+sr;Stari Ðurevac;Stari Đurevac
+hu;Sztárcsova;Starčevo
+hu;Tárcsó;Starčevo
+sr;Стара Пазова;Stara Pazova
+hu;Ópazova;Stara Pazova
+sq;Baxhuri;Stara Božurna
+sr;Градска општина Станово;Stanovo
+mk;Стамница;Stamnica
+mk;Српце;Srpce
+sq;Statoci i Mesëm;Srednji Statovac
+sq;Byçmeti i Mesëm;Srednji Bučumet
+sq;Spanca;Spance
+sr;Сопот;Sopot
+sr;Sokobanja;Soko Banja
+sr;Сокобања;Soko Banja
+sq;Soderca;Soderce
+pt;Izvor;Smrdić
+fr;Izvor;Smrdić
+pl;Izvor;Smrdić
+nl;Izvor;Smrdić
+sr;Смедеревска Паланка;Smederevska Palanka
+hu;Szendrő;Smederevo
+ro;Semendria;Smederevo
+sr;Смедерево;Smederevo
+mk;Смедерево;Smederevo
+pl;Smederewo;Smederevo
+pt;Semêndria;Smederevo
+sq;Slishani;Slišane
+sq;Sllavujeci;Slavujevce
+hu;Székelykeve;Skorenovac
+hu;Gyurgyevó;Skorenovac
+mk;Скореновац;Skorenovac
+sr;Скореновац;Skorenovac
+sq;Shishmanoci;Šišmanovac
+sq;Shishinca;Šišince
+mk;Симиќево;Simićevo
+sq;Shillova;Šilovo
+sq;Shulemaja;Šiljomana
+sq;Banja e Sijarinës;Sijarinska Banja
+mk;Сиге;Sige
+hu;Zenta;Senta
+hu;Szénta;Senta
+sr;Сента;Senta
+mk;Сена;Sena
+sq;Sellova;Selova
+sr;Сечањ;Sečanj
+sq;Shatra;Šatra
+sq;Sharca;Šarce
+hu;Szanád;Sanad
+sq;Sumulicë;Samoljica
+en;Sumulice;Samoljica
+sq;Samakova;Samokovo
+mk;Салаковац;Salakovac
+hu;Sajkásszentiván;Šajkaš
+sq;Shahinoci;Šainovac
+sq;Sogojeva;Sagonjevo
+sq;Rujniku;Rujnik
+sq;Rukoci;Rujkovac
+mk;Ртково;Rtkovo
+sr;Рсовац;Rsovac
+sq;Rozhina;Rožina
+sq;Ribinca;Ribnice
+sq;Resinca;Resinac
+sq;Relinca;Reljinac
+sq;Reljak;Reljan
+de;Lerani;Reljan
+de;Opština Rekovac;Rekovac
+sr;Општина Рековац;Rekovac
+sr;Ражањ;Ražanj
+sq;Ravnishori;Ravni Šort
+sq;Rama Banja;Ravna Banja
+mk;Рашанац;Rašanac
+mk;Рановац;Ranovac
+sq;Ranatoci;Ranatovce
+sr;Градска општина Раковица;Rakovica
+ro;Comuna Rakovica;Rakovica
+mk;Ракова Бара;Rakova Bara
+sr;Velike Rajince;Rajince
+en;Rajnice;Rajince
+sq;Raincë;Rajince
+de;Rajinca;Rajince
+sq;Raduhovci;Raduhovce
+mk;Радиновац;Radinovac
+sq;Radinoci;Radinovac
+sr;Рача;Rača
+sq;Raçë;Rača
+sq;Përvoneku;Prvonek
+sr;Прокупље;Prokuplje
+sq;Priboci;Pribovce
+sq;Prestresha;Pretrešnja
+nl;Pretezjana;Pretežana
+sq;Potërzhani;Pretežana
+sq;Preshevë;Preševo
+sq;Presheva;Preševo
+mk;Прешево;Preševo
+sr;Прешево;Preševo
+nl;Preobrazjenje;Preobraženje
+sq;Preobrazhenja;Preobraženje
+nl;Prekoradja;Prekorađe
+sq;Prekorogja;Prekorađe
+sq;Prekopuca;Prekopuce
+sq;Prekoçellnica;Prekopčelica
+sq;Prekodellca;Prekodolce
+sq;Prekashtica;Prekašnica
+sq;Prekadini;Prekadin
+nl;Pozjezjeno;Požeženo
+sr;Пожега;Požega
+pl;Pożarewac;Požarevac
+sr;Пожаревац;Požarevac
+hu;Pozsarevác;Požarevac
+mk;Пожаревац;Požarevac
+sq;Popoci;Popovce
+nl;Poljska Rzjana;Poljska Ržana
+sq;Podrinca;Podrimce
+pt;Počekovina;Gornja Počekovina
+en;Počekovina;Gornja Počekovina
+fr;Počekovina;Gornja Počekovina
+sl;Počekovina;Gornja Počekovina
+pl;Počekovina;Gornja Počekovina
+nl;Počekovina;Gornja Počekovina
+sr;Почековина;Gornja Počekovina
+nl;Pluzjina;Plužina
+sq;Plakova;Pljakovo
+nl;Plazjane;Plažane
+sq;Pllaca;Plavce
+sr;Пландиште;Plandište
+sr;Пирот;Pirot
+nl;Peterlaš;Petrlaš
+pl;Pevaštica;Perunika
+sq;Pertati;Pertate
+sq;Pejkoci;Pejkovac
+sq;Pashinca;Pašinac
+mk;Параќин;Paraćin
+sr;Параћин;Paraćin
+mk;Панково;Pankovo
+pt;Panevlje;Panjevlje
+en;Panevlje;Panjevlje
+fr;Panevlje;Panjevlje
+sl;Panevlje;Panjevlje
+pl;Panevlje;Panjevlje
+nl;Panevlje;Panjevlje
+sq;Ponevla;Panjevlje
+sr;Паневље;Panjevlje
+hu;Pancsal;Pančevo
+hu;Pancsaly;Pančevo
+hu;Pancsova;Pančevo
+mk;Панчево;Pančevo
+ro;Panciova;Pančevo
+sr;Панчево;Pančevo
+hu;Padé;Padej
+hu;Szerb-Padé;Padej
+hu;Magyarpadé;Padej
+hu;Bárányos;Ovča
+sr;Овча;Ovča
+ro;Ofcea;Ovča
+mk;Остружница;Ostružnica
+de;Sankt Nikolaus an der Theiss;Ostojićevo
+hu;Tiszaszentmiklós;Ostojićevo
+pt;Osmakova;Osmakovo
+en;Osmakova;Osmakovo
+fr;Osmakova;Osmakovo
+sl;Osmakova;Osmakovo
+pl;Osmakova;Osmakovo
+nl;Osmakova;Osmakovo
+sq;Osllara;Oslare
+sq;Huruglica;Oruglica
+mk;Орљево;Orljevo
+sq;Orlana;Orljane
+mk;Орешковица;Oreškovica
+sq;Rahovicë;Oraovica
+sq;Orana;Orane
+sr;Опово;Opovo
+hu;Omlód;Omoljica
+ro;Omolița;Omoljica
+sr;Обреновац;Obrenovac
+sq;Obrazhda;Obražda
+sq;Obllaçina;Oblačina
+sr;Нови Пазар;Novi Pazar
+hu;Kanizsa;Novi Kneževac
+hu;Rév-Kanizsa;Novi Kneževac
+hu;Kis-Kanizsa;Novi Kneževac
+hu;Torontál-Józseffalva;Novi Kneževac
+hu;Törökkanizsa;Novi Kneževac
+mk;Нови Кнежевац;Novi Kneževac
+sr;Нови Кнежевац;Novi Kneževac
+sr;Novi Ðurevac;Novi Đurevac
+en;Novi Belgrade;Novi Beograd
+cs;Nový Bělehrad;Novi Beograd
+sr;Градска општина Нови Београд;Novi Beograd
+pl;Nowy Belgrad;Novi Beograd
+pt;Nova Belgrado;Novi Beograd
+en;New Belgrade;Novi Beograd
+sr;Нови Београд;Novi Beograd
+hu;Aracs;Novi Bečej
+hu;Törökbecse;Novi Bečej
+ro;Novi Beče;Novi Bečej
+sr;Нови Бечеј;Novi Bečej
+pl;Novi Beczej;Novi Bečej
+hu;Magyarcsernye;Nova Crnja
+sr;Нова Црња;Nova Crnja
+nl;Nova Bozjurna;Nova Božurna
+sq;Norçë;Norča
+pl;Nisz;Niš
+sr;Ниш;Niš
+sq;Nasalcë;Nesalce
+sq;Negovcë;Negovac
+sr;Неготин;Negotin
+sq;Navalini;Navalin
+sr;Адорјан;Adorjan
+nl;Nabrdje;Nabrđe
+hu;Muzslya;Mužlja
+sq;Muzaqi;Muzaće
+sq;Muhoci;Muhovac
+sq;Mërvoshi;Mrveš
+sq;Mërsheli;Mršelj
+nl;Mrča;Mrče
+sq;Mërça;Mrče
+hu;Mohol;Mol
+mk;Моклиште;Moklište
+sr;Градска општина Младеновац;Mladenovac
+mk;Младеновац;Mladenovac
+cs;Opština Mladenovac;Mladenovac
+pt;Mišević;Gornji Mišević
+en;Mišević;Gornji Mišević
+fr;Mišević;Gornji Mišević
+es;Mišević;Gornji Mišević
+sl;Mišević;Gornji Mišević
+pl;Mišević;Gornji Mišević
+nl;Mišević;Gornji Mišević
+sr;Мишевић;Gornji Mišević
+sq;Mirosheci;Miroševce
+sq;Miratoc;Miratovac
+mk;Миратовац;Miratovac
+sr;Мионица;Mionica
+sq;Milivojca;Milivojce
+sq;Mikulloci;Mikulovac
+sq;Mihalica;Mijajlica
+pt;Metikoš;Metikoši
+en;Metikoš;Metikoši
+fr;Metikoš;Metikoši
+hu;Metikoš;Metikoši
+sl;Metikoš;Metikoši
+pl;Metikoš;Metikoši
+nl;Metikoš;Metikoši
+hu;Meszesfalva;Mesić
+ro;Mesici;Mesić
+sq;Meroci;Merovac
+sr;Мерошина;Merošina
+sl;Merđelat;Merdželat
+sq;Merqezi;Merćez
+sq;Mellova;Melovo
+mk;Мелница;Melnica
+sq;Mekishi;Mekiš
+sq;Mehanja;Mehane
+sr;Медвеђа;Medveđa
+nl;Medjureč;Međureč
+nl;Medjuhana;Međuhana
+sq;Megjuana;Međuhana
+hu;Párdány;Međa
+de;Pardan;Međa
+ro;Meda;Međa
+sq;Maçkoci;Mečkovac
+pt;Mečji Do;Meči Do
+sl;Mečji Do;Meči Do
+en;Mečji Do;Meči Do
+fr;Mečji Do;Meči Do
+pl;Mečji Do;Meči Do
+nl;Mečji Do;Meči Do
+sr;Мечји До;Meči Do
+sq;Matarushka Banja;Mataruška Banja
+pl;Masurovac;Masurovci
+nl;Masurovac;Masurovci
+sq;Marinakutini;Marina Kutina
+sq;Vojlloci i Vogël;Malo Vojlovce
+mk;Мало Лаоле;Malo Laole
+sr;Мало Црниће;Malo Crniće
+ro;Malainița;Malajnica
+sq;Dragusha e Vogël;Mala Draguša
+sq;Braina e Vogël;Mala Braina
+mk;Макце;Makce
+sq;Mojkoci;Majkovac
+ro;Maidan;Majdanpek
+sr;Мајданпек;Majdanpek
+hu;Magyarmajdán;Majdan
+hu;Majdány;Majdan
+hu;Oroszlánosmonostora;Majdan
+sq;Magova;Magovo
+sq;Magashi;Magaš
+pt;Mačina;Donja Mačina
+en;Mačina;Donja Mačina
+fr;Mačina;Donja Mačina
+sl;Mačina;Donja Mačina
+pl;Mačina;Donja Mačina
+nl;Mačina;Donja Mačina
+sq;Maçina;Donja Mačina
+pt;Maćija;Maćja
+en;Maćija;Maćja
+fr;Maćija;Maćja
+sl;Maćija;Maćja
+pl;Maćija;Maćja
+nl;Maćija;Maćja
+sr;Маћија;Maćja
+nl;Luzjane;Lužane
+sq;Llukarca;Lukarce
+sr;Лучани;Lučani
+sq;Lluçanë;Lučane
+sq;Llozana;Lozane
+hu;Sajkáslak;Lok
+nl;Ljuberadja;Ljuberađa
+sr;Општина Љиг;Ljig
+mk;Љаник;Ljanik
+sq;Laniku;Ljanik
+sq;Levosoja;Levosoje
+sq;Lutuvicë;Letovica
+sr;Лесковац;Leskovac
+mk;Лесковац;Leskovac
+sq;Leshkuqi;Leskovac
+sq;Leskovabara;Leskova Bara
+sr;Лебане;Lebane
+sq;Lebana;Lebane
+sr;Лазаревац;Lazarevac
+sq;Llapatinca;Lapotince
+sq;Lalinoci;Lalinovac
+sq;Lalinca;Lalince
+sl;Jabučje;Lajkovac
+sr;Лајковац;Lajkovac
+sq;Kutlloci;Kutlovac
+sq;Kutleshi;Kutleš
+mk;Кусиче;Kusiće
+sr;Куршумлија;Kuršumlija
+sq;Kurshumlia;Kuršumlija
+sq;Kupini;Kupinince
+sr;Кучево;Kučevo
+sr;Крушевац;Kruševac
+mk;Крушевац;Kruševac
+sq;Kërshevica;Krševica
+pt;Krpejce;Krpejice
+sl;Krpejce;Krpejice
+en;Krpejce;Krpejice
+fr;Krpejce;Krpejice
+pl;Krpejce;Krpejice
+nl;Krpejce;Krpejice
+sr;Краљево;Kraljevo
+mk;Кралево;Kraljevo
+sq;Krajkova;Krajkovac
+mk;Крагујевац;Kragujevac
+sr;Крагујевац;Kragujevac
+mk;Крагуевац;Kragujevac
+sq;Kozhinca;Kožince
+pl;Kovizle;Kovizla
+hu;Temes-Kubin;Kovin
+hu;Kevevára;Kovin
+ro;Cuvin;Kovin
+sr;Ковин;Kovin
+hu;Kabol;Kovilj
+ro;Covăcița;Kovačica
+sr;Ковачица;Kovačica
+sr;Костолац;Kostolac
+mk;Корбово;Korbovo
+sq;Konjuhi;Konjuva
+mk;Кониче;Koniče
+sq;Konxheli;Kondželj
+sq;Kojçiqi;Končić
+sr;Komorane;Komarane
+pt;Komorane;Komarane
+fr;Komorane;Komarane
+es;Komorane;Komarane
+mk;Кличевац;Kličevac
+mk;Клење;Klenje
+sq;Kleniku;Klenike
+pt;Klašnjice;Klašnice
+en;Klašnjice;Klašnice
+fr;Klašnjice;Klašnice
+es;Klašnjice;Klašnice
+sl;Klašnjice;Klašnice
+pl;Klašnjice;Klašnice
+nl;Klašnjice;Klašnice
+sq;Kllashnica;Klašnice
+sq;Klaiqi;Klajić
+sr;Кладово;Kladovo
+ro;Cladova;Kladovo
+pt;Kisiljevo;Kiseljevo
+en;Kisiljevo;Kiseljevo
+hr;Kisiljevo;Kiseljevo
+fr;Kisiljevo;Kiseljevo
+es;Kisiljevo;Kiseljevo
+sl;Kisiljevo;Kiseljevo
+pl;Kisiljevo;Kiseljevo
+nl;Kisiljevo;Kiseljevo
+hu;Nagykikinda;Kikinda
+ro;Chichinda Mare;Kikinda
+sr;Кикинда;Kikinda
+sq;Karadniku;Karadnik
+sq;Karadaku;Karadak
+hu;Magyarkanizsa;Kanjiža
+de;Alt-Kanischa;Kanjiža
+de;Ungarisch-Kanischa;Kanjiža
+sr;Кањижа;Kanjiža
+hu;Kanizsa;Kanjiža
+mk;Каменово;Kamenovo
+sr;Камбелевац;Kambelevac
+pt;Kambelevci;Kambelevac
+en;Kambelevci;Kambelevac
+sl;Kambelevci;Kambelevac
+fr;Kambelevci;Kambelevac
+hu;Kambelevci;Kambelevac
+nl;Kambelevci;Kambelevac
+sq;Kallugjerica;Kaluđerce
+sq;Kalimanca;Kalimance
+sq;Kallaboci;Kalabovce
+hu;Hódegyház;Jazovo
+hu;Jázova;Jazovo
+hu;Hodics;Jazovo
+hu;Hódegyháza;Jazovo
+hu;Jászova;Jazovo
+sr;Јагодина;Jagodina
+mk;Јагодина;Jagodina
+mk;Јабука;Jabuka
+ro;Iabuca;Jabuka
+sr;Јабука;Jabuka
+sq;Jabuça;Jabučevo
+sq;Ivankulla;Ivan Kula
+sr;Ивањица;Ivanjica
+hu;Ingyia;Inđija
+sr;Инђија;Inđija
+mk;Инѓија;Inđija
+en;Indjija;Inđija
+hu;Istvánvölgy;Hajdučica
+hu;Temeskutas;Gudurica
+mk;Гудурица;Gudurica
+sq;Gubetini;Gubetin
+pt;Guberevac;Guberevce
+en;Guberevac;Guberevce
+fr;Guberevac;Guberevce
+sl;Guberevac;Guberevce
+pl;Guberevac;Guberevce
+nl;Guberevac;Guberevce
+sq;Gubaci;Gubavce
+sr;Градска општина Гроцка;Grocka
+sq;Gërguroci;Grgurovce
+mk;Грејач;Grejač
+sq;Gërdanica;Grdanica
+sq;Gospoincë;Gospođince
+mk;Госпоѓинце;Gospođince
+sq;Statovci;Gornji Statovac
+sr;Горњи Милановац;Gornji Milanovac
+sq;Matejeci i Epërm;Gornji Matejevac
+sq;Komrena e Epërme;Gornji Komren
+sl;Donji Dušnik;Gornji Dušnik
+sq;Drenoci i Epërm;Gornji Drenovac
+hu;Felsőhegy;Gornji Breg
+sq;Zhapska e Epërme;Gornje Žapsko
+sl;Donje Vranovce;Gornje Vranovce
+sq;Vranoci i Epërm;Gornje Vranovce
+sq;Toçani i Epërm;Gornje Točane
+sq;Sfarça e Epërme;Gornje Svarče
+sq;Stopanja e Epërme;Gornje Stopanje
+sq;Megjurova e Epërme;Gornje Međurovo
+sq;Kordinca e Epërme;Gornje Kordince
+sq;Cërnatova e Epërme;Gornje Crnatovo
+sq;Berjani i Epërm;Gornje Brijanje
+sq;Vrazhina e Epërme;Gornja Vrežina
+de;Gornji-Studen;Gornja Studena
+sq;Strazhova e Epërme;Gornja Stražava
+sl;Donja Sabanta;Gornja Sabanta
+sq;Reçica e Epërme;Gornja Rečica
+sq;Rasovaça e Epërme;Gornja Rasovača
+sq;Mikulani i Epërm;Gornja Mikuljana
+pt;Gornja Lokošnica;Gornja Lakošnica
+en;Gornja Lokošnica;Gornja Lakošnica
+fr;Gornja Lokošnica;Gornja Lakošnica
+sl;Gornja Lokošnica;Gornja Lakošnica
+pl;Gornja Lokošnica;Gornja Lakošnica
+nl;Gornja Lokošnica;Gornja Lakošnica
+sq;Konjusha e Epërme;Gornja Konjuša
+sq;Jashanica e Epërme;Gornja Jošanica
+sq;Breznica e Epërme;Gornja Bresnica
+pt;Gorčinci;Gorčince
+en;Gorčinci;Gorčince
+fr;Gorčinci;Gorčince
+hu;Gorčinci;Gorčince
+sl;Gorčinci;Gorčince
+ga;Gorčinci;Gorčince
+nl;Gorčinci;Gorčince
+ro;Golubăț;Golubac
+hu;Galambóc;Golubac
+sr;Голубац;Golubac
+sv;Golubački grad;Golubac
+sq;Golliridi;Goli Rid
+sv;Големи Дол;Golemi Dol
+mk;Големи Дол;Golemi Dol
+sq;Golemidolli;Golemi Dol
+hu;Dunagárdony;Gardinovci
+fr;Gamzigrad-Romuliana;Gamzigrad
+hu;Galerius palotája Gamzigrad-Romulianában;Gamzigrad
+sr;Ромулијана;Gamzigrad
+sr;Гаџин Хан;Gadžin Han
+sl;Đigolj;Džigolj
+sq;Gjikolli;Džigolj
+sq;Xhemnica;Džepnica
+sl;Đep;Džep
+sr;Ðušnica;Đušnica
+sr;Ðurinci;Đurinci
+sr;Ðurinac;Đurinac
+sr;Ðurevac;Đurevac
+sr;Ðurđevo;Đurđevo
+sr;Ðurakovo;Đurakovo
+sr;Ðunis;Đunis
+sr;Ðulekare;Đulekare
+mk;Дубочка;Dubočka
+pt;Drajinac;Drainac
+en;Drajinac;Drainac
+fr;Drajinac;Drainac
+sl;Drajinac;Drainac
+pl;Drajinac;Drainac
+nl;Drajinac;Drainac
+sq;Dragidelli;Dragi Deo
+ca;Dràcia;Drača
+sr;Ðorđevac;Đorđevac
+sq;Statoci i Poshtëm;Donji Statovac
+sr;Доњи Милановац;Donji Milanovac
+mk;Доњи Милановац;Donji Milanovac
+de;Matejevac;Donji Matejevac
+sq;Matejeci i Poshtëm;Donji Matejevac
+sq;Katuni i Poshtëm;Donji Katun
+sl;Gornji Dušnik;Donji Dušnik
+sq;Drenoci i Poshtëm;Donji Drenovac
+sl;Gornji Bučumet;Donji Bučumet
+sq;Byçmeti i Poshtëm;Donji Bučumet
+sq;Zhapska e Poshtme;Donje Žapsko
+sq;Vllasi i Poshtëm;Donje Vlase
+sq;Trepeshinja e Poshtme;Donje Trebešinje
+sq;Sfarça e Poshtme;Donje Svarče
+sq;Ramanoci i Poshtëm;Donje Romanovce
+sq;Megjurova e Poshtme;Donje Međurovo
+sq;Kordinca e Poshtme;Donje Kordince
+sq;Konjuca;Donje Konjuvce
+sl;Gornje Dragovlje;Donje Dragovlje
+sq;Cërnatova e Poshtme;Donje Crnatovo
+sq;Berjani i Poshtëm;Donje Brijanje
+sq;Vrazhina e Poshtme;Donja Vrežina
+sq;Strazhova e Poshtme;Donja Stražava
+sq;Reçica e Poshtme;Donja Rečica
+sq;Rasovaça e Poshtme;Donja Rasovača
+sq;Gjekella;Donja Rašica
+cs;Donja Lokošnica;Donja Lakošnica
+pt;Donja Lokošnica;Donja Lakošnica
+en;Donja Lokošnica;Donja Lakošnica
+sl;Donja Lokošnica;Donja Lakošnica
+fr;Donja Lokošnica;Donja Lakošnica
+pl;Donja Lokošnica;Donja Lakošnica
+nl;Donja Lokošnica;Donja Lakošnica
+sq;Jashanica e Poshtme;Donja Jošanica
+sq;Dragusha e Poshtme;Donja Draguša
+sq;Breznica e Poshtme;Donja Bresnica
+sq;Bajishtica e Poshtme;Donja Bejašnica
+sr;Дољевац;Doljevac
+mk;Добрње;Dobrnje
+hu;Udvarszállás;Dobričevo
+sq;Dobranjca;Dobrejance
+sr;Ðinđuša;Đinđuša
+mk;Димитровград;Dimitrovgrad
+sr;Димитровград;Dimitrovgrad
+sr;Деспотовац;Despotovac
+sq;Dushulloci;Dešilovo
+sr;Ðerekari;Đerekari
+sr;Ðerekare;Đerekare
+sq;Dekutinca;Dekutince
+sr;Дедиње;Dedinje
+sq;Danka;Dankoviće
+sr;Ðala;Đala
+sr;Ðakus;Đakus
+sr;Ðakovo;Đakovo
+sr;Ðake;Đake
+sq;Dabinoci;Dabinovac
+hu;Csurog;Čurug
+sr;Ћуприја;Ćuprija
+sr;Градска општина Чукарица;Čukarica
+pl;Czukarica;Čukarica
+sq;Çyçalla;Čučale
+sq;Corroticë;Crnotince
+sr;Црна Трава;Crna Trava
+sq;Çokoti;Čokot
+de;Tschoka;Čoka
+hu;Csóka;Čoka
+sr;Чока;Čoka
+sr;Ћићевац;Ćićevac
+nl;Četerezje;Četereže
+sq;Çarri;Čar
+sq;Cakanoci;Cakanovac
+sr;Чачак;Čačak
+mk;Чачак;Čačak
+sq;Buca;Buvce
+mk;Бусур;Busur
+mk;Буровац;Burovac
+sq;Bullatoci;Bulatovac
+sq;Bukovagllava;Bukova Glava
+sq;Bukovc;Bukovac
+en;Bukovce;Bukovac
+pt;Bukarevac;Bukurevac
+en;Bukarevac;Bukurevac
+fr;Bukarevac;Bukurevac
+sl;Bukarevac;Bukurevac
+pl;Bukarevac;Bukurevac
+sq;Bukuroci;Bukurevac
+nl;Bukarevac;Bukurevac
+mk;Букаревац;Bukurevac
+sq;Bujkoci;Bujkovac
+sq;Buhiçi;Bujić
+mk;Бујиќ;Bujić
+en;Bujanovc;Bujanovac
+sq;Bujanoci;Bujanovac
+sr;Бујановац;Bujanovac
+sq;Buçi;Bučić
+pt;Buceljevo;Gornje Buceljevo
+en;Buceljevo;Gornje Buceljevo
+fr;Buceljevo;Gornje Buceljevo
+hu;Buceljevo;Gornje Buceljevo
+sl;Buceljevo;Gornje Buceljevo
+pl;Buceljevo;Gornje Buceljevo
+nl;Buceljevo;Gornje Buceljevo
+sr;Буцељево;Gornje Buceljevo
+sq;Bubanji;Bubanj
+mk;Брза;Brza
+sr;Брус;Brus
+sq;Bërnjari;Brnjare
+sq;Brezniçiqi;Bresničić
+sq;Bozhinjevci;Božinjevac
+mk;Божевац;Boževac
+sq;Boshnjaca;Bošnjace
+sr;Босилеград;Bosilegrad
+mk;Босилеград;Bosilegrad
+sq;Borovshtica;Boroštica
+sq;Borinca;Borince
+ro;Borcea;Borča
+sr;Борча;Borča
+sr;Бор;Bor
+de;Opština Boljevac;Boljevac
+sr;Бољевац;Boljevac
+mk;Бољетин;Boljetin
+sr;Бојник;Bojnik
+sq;Bogojeci;Bogojevce
+sq;Bobishti;Bobište
+sr;Блаце;Blace
+sq;Binoci;Binovce
+sq;Belegu;Biljeg
+de;Biljače;Biljača
+sq;Bilaçë;Biljača
+en;Bilace;Biljača
+sq;Berila;Berilje
+de;Belgrad;Beograd
+en;Belgrade;Beograd
+es;Belgrado;Beograd
+ca;Belgrad;Beograd
+cs;Bělehrad;Beograd
+fi;Belgrad;Beograd
+fr;Belgrade;Beograd
+it;Belgrado;Beograd
+mk;Белград;Beograd
+mt;Belgrad;Beograd
+nl;Belgrado;Beograd
+pl;Belgrad;Beograd
+pt;Belgrado;Beograd
+ro;Belgrad;Beograd
+sk;Belehrad;Beograd
+sq;Beogradi;Beograd
+sr;Београд;Beograd
+sv;Belgrad;Beograd
+gl;Belgrado;Beograd
+hsb;Běłohród;Beograd
+hu;Belgrád;Beograd
+nds;Belgrad;Beograd
+hu;Nándorfehérvár;Beograd
+sq;Bellotinaca;Belotinac
+sq;Bellolin;Beloljin
+sq;Bollogoshi;Belogoš
+pt;Belja;Relja
+sl;Belja;Relja
+en;Belja;Relja
+fr;Belja;Relja
+pl;Belja;Relja
+nl;Belja;Relja
+mk;Бели Поток;Beli Potok
+sr;Бела Паланка;Bela Palanka
+de;Weißkirchen;Bela Crkva
+sr;Бела Црква;Bela Crkva
+pt;Bekova;Donja Bekova
+en;Bekova;Donja Bekova
+sl;Bekova;Donja Bekova
+fr;Bekova;Donja Bekova
+pl;Bekova;Donja Bekova
+hu;Bekova;Donja Bekova
+nl;Bekova;Donja Bekova
+hu;Óbecse;Bečej
+hu;Becsej;Bečej
+hu;Becse;Bečej
+sr;Бечеј;Bečej
+sq;Batushnica;Batušinac
+mk;Батовац;Batovac
+sr;Баточина;Batočina
+sr;Батајница;Batajnica
+sq;Barllova;Barlovo
+sq;Bërbatoci;Barbatovac
+hu;Oroszlámos;Banatsko Aranđelovo
+hu;Oroszlános;Banatsko Aranđelovo
+sq;Balinoci;Balinovce
+sq;Balinoci;Balinovac
+sq;Bajqinca;Bajčince
+hu;Petrovoszelló;Bačko Petrovo Selo
+hu;Péterréve;Bačko Petrovo Selo
+hu;Földvár;Bačko Gradište
+hu;Tisza-Földvár;Bačko Gradište
+hu;Bácsföldvár;Bačko Gradište
+pt;Baćica;Bačiće
+en;Baćica;Bačiće
+fr;Baćica;Bačiće
+hu;Baćica;Bačiće
+sl;Baćica;Bačiće
+pl;Baćica;Bačiće
+nl;Baćica;Bačiće
+sq;Baqica;Bačiće
+mk;Баќевац;Baćevac
+sq;Baca;Bace
+de;Opština Babušnica;Babušnica
+sr;Бабушница;Babušnica
+pl;Gmina Babušnica;Babušnica
+sq;Babatinca;Babotinac
+sq;Hasanoci;Asanovac
+mk;Арнајево;Arnajevo
+sr;Ариље;Arilje
+sq;Arbanashka;Arbanaška
+sr;Аранђеловац;Aranđelovac
+sq;Geraj;Aliđerce
+mk;Алиџерци;Aliđerce
+sr;Алибунар;Alibunar
+sr;Алексинац;Aleksinac
+mk;Алексинац;Aleksinac
+sr;Александровац;Aleksandrovac
+sq;Alikinca;Alakince
+sr;Ада;Ada
+sr;Јевик;Jevik
+sr;Рашка;Raška
+sr;Бумбарево Брдо;Bumbarevo Brdo
+sr;Gornje Zlokućane;Zlokuḱane
+mk;Злокуќане;Zlokuḱane
+sq;Bërçeci;Berčevac
+mk;Берчевац;Berčevac
+sr;Gornje Ðerekare;Gornje Đerekare
+sq;Vojlloci i Madh;Veliko Vojlovce
+sq;Çifllaku i Bunushit;Bunuški Čifluk
+sr;Ðokovići;Đokovići
+sq;Gojnoci;Gojinovac
+sr;Ðordinci;Đordinci
+sr;Ðorovići;Đorovići
+sq;Gërguri i Poshtëm;Donje Grgure
+sr;Нишка Бања;Niška Banja
+sq;Baqegllava;Baćoglava
+sr;Ðerovici;Đerovici
+sr;Drainoviće;Drainoviq
+nl;Zjivkovo;Živkovo
+nl;Vrazjogrnci;Vražogrnci
+sq;Kacabaqi;Kacabać
+sr;Ðonlije;Đonlije
+sr;Ðurice;Đurice
+sr;Ðorđevići;Đorđevići
+sr;Gornji Ðurkovići;Gornji Đurkovići
+sr;Donji Ðurkovići;Donji Đurkovići
+nl;Medjuvršje;Međuvršje
+sr;Ðuraši;Đuraši
+sr;Ðokići;Đokići
+sr;Ðurđevići;Đurđevići
+sr;Ðelkape;Đelkape
+sr;Ðurišići;Đurišići
+sr;Врбовски;Vrbovski
+sr;Лончаник;Lončanik
+sr;Бровић;Brović
+sr;Милорци;Milorci
+sr;Горња Краварица;Gornja Kravarica
+sr;Руцка;Rucka
+sr;Милавац;Milavac
+pt;Kostolac;Selo Kostolac
+en;Kostolac;Selo Kostolac
+sl;Kostolac;Selo Kostolac
+nl;Kostolac;Selo Kostolac
+mk;Село Костолац;Selo Kostolac
+sr;Село Костолац;Selo Kostolac
+sr;Доња Краварица;Donja Kravarica
+sr;Клашнић;Klašnić
+sr;Ковилово;Kovilovo
+sr;Глогоњски Рит;Glogonjski Rit
+sr;Мургаш;Murgaš
+sr;Табановићи;Tabanovići
+sr;Жича;Žiča
+sr;Грдовићи;Grdovići
+sr;Милиће;Miliće
+sr;Подвис;Podvis
+sr;Пајсак;Pajsak
+sr;Тоболац;Tobolac
+sr;Пакашница;Pakašnica
+sr;Букоровац;Bukorovac
+sr;Добра Вода;Dobra Voda
+sr;Кочино Село;Kočino Selo
+sr;Ледине;Ledine
+sr;Стари Брачин;Stari Bračin
+sr;Градска општина Вождовац;Voždovac
+sr;Беле Воде;Bele Vode
+sr;Филмски Град;Filmski Grad
+sr;Карабурма;Karaburma
+sr;Роспи Ћуприја;Rospi Ćuprija
+sr;Звездара;Zvezdara
+sr;Пећани;Pećani
+sr;Бргулице;Brgulice
+sq;Mal Tërnovci;Mali Trnovac
+sq;Sërpska Kuqa;Srpska Kuća
+sr;Српска Кућа;Srpska Kuća
+sq;Sejaca;Sejace
+sr;Сејаце;Sejace
+sq;Baraleci;Baraljevac
+sr;Бараљевац;Baraljevac
+sq;Mahalla Shimshirve;Maala Šimšir
+sq;Lagja Korbajve;Korbska Maala
+sq;Mahalla Ternovcalive;Trnovksa Maala
+sq;Lagja Poshtme;Donja Maala
+sq;Shoshajë e Poshtme;Donja Šušaja
+mk;Долна Шушаја;Donja Šušaja
+sr;Доња Шушаја;Donja Šušaja
+sq;Bratoselci;Bratoselce
+sr;Братоселце;Bratoselce
+sq;Mahalla e Hajdarve;Hajdarska Mahala
+sr;Претина;Pretina
+sq;Uzova;Uzovo
+sr;Узово;Uzovo
+sq;Sllavujevci;Slavujevac
+sr;Славујевац;Slavujevac
+sr;Ašane;Ašani
+sq;Çukarkë;Čukarka
+mk;Чукарка;Čukarka
+sq;Suvidolli;Suvi Dol
+sr;Суви Дол;Suvi Dol
+sr;Мездраја;Mezdraja
+sr;Грујинци;Grujinci
+sr;Општина Трговиште;Trgovište
+pt;Oplanići;Oplatnići
+en;Oplanići;Oplatnići
+sl;Oplanići;Oplatnići
+fr;Oplanići;Oplatnići
+pl;Oplanići;Oplatnići
+nl;Oplanići;Oplatnići
+sr;Опланићи;Oplatnići
+pt;Miločaj;Miločaji
+en;Miločaj;Miločaji
+fr;Miločaj;Miločaji
+sl;Miločaj;Miločaji
+pl;Miločaj;Miločaji
+nl;Miločaj;Miločaji
+sr;Милочај;Miločaji
+sr;Катрга;Katrga
+sr;Лађевци;Lađevci
+sr;Мрчајевци;Mrčajevci
+pt;Baluga;Baluga Trnavska
+en;Baluga;Baluga Trnavska
+fr;Baluga;Baluga Trnavska
+es;Baluga;Baluga Trnavska
+sl;Trnavska Baluga;Baluga Trnavska
+pl;Baluga;Baluga Trnavska
+nl;Baluga;Baluga Trnavska
+sr;Балуга;Baluga Trnavska
+sr;Прељина;Preljina
+sr;Прислоница;Prislonica
+sr;Кусовац;Kusovac
+sr;Топоница;Toponica
+sr;Драгушица;Dragušica
+sl;Ljuljaci;Oplanić
+sr;Опланић;Oplanić
+sr;Бечевица;Bečevica
+sr;Годачица;Godačica
+sr;Петропоље;Petropolje
+sr;Закута;Zakuta
+sr;Дулене;Dulene
+sr;Врбета;Vrbeta
+sr;Гружа;Gruža
+sr;Кнић;Knić
+sr;Ердеч;Erdeč
+sl;Gornja Sabanta;Donja Sabanta
+sr;Доња Сабанта;Donja Sabanta
+sr;Суморовац;Sumorovac
+sr;Грошница;Grošnica
+sr;Доња Горевница;Donja Gorevnica
+sq;Obërtinca;Obrtince
+sr;Обртинце;Obrtince
+hu;Verseci Rétek;Vršački Ritovi
+sr;Вршачки Ритови;Vršački Ritovi
+sr;Земун Поље;Zemun Polje
+sr;Зладовац;Zladovac
+mk;Белјина;Beljina
+sr;Бељина;Beljina
+sr;Градска општина Савски венац;Savski Venac
+sr;Градска општина Стари град;Stari Grad
+hu;Ókér;Zmajevo
+sr;Зимонић;Zimonjić
+hu;Ilonakertváros;Zimonjić
+en;Zasavica I;Zasavica Prva
+hr;Zasavica I;Zasavica Prva
+fr;Zasavica;Zasavica Prva
+hu;Zasavica I;Zasavica Prva
+sl;Zasavica I;Zasavica Prva
+pl;Zasavica I;Zasavica Prva
+nl;Zasavica I;Zasavica Prva
+sr;Засавица I;Zasavica Prva
+nl;Zjabar;Žabar
+hu;Rednek;Vrdnik
+hu;Óverbász;Vrbas
+hu;Verbász;Vrbas
+hu;Újverbász;Vrbas
+sr;Врбас;Vrbas
+sr;Владимирци;Vladimirci
+hu;Füzegy;Vizić
+mk;Вишњиќево;Višnjićevo
+sr;Велебит;Velebit
+sr;Ваљево;Valjevo
+mk;Валево;Valjevo
+hu;Vajszka;Vajska
+sr;Ужице;Užice
+mk;Ужице;Užice
+hu;Törökfalu;Utrine
+hu;Bácstóváros;Tovariševo
+sr;Темерин;Temerin
+hu;Bácsgyulafalva;Telečka
+hu;Szilágyi;Svilojevo
+sl;Subotica;Svileuva
+hu;Szilszeg;Susek
+hu;Sulyom;Šuljam
+de;Maria-Theresiopel;Subotica
+hu;Szabadka;Subotica
+sr;Суботица;Subotica
+de;Subotiza;Subotica
+hu;Máriamajor;Stepanovićevo
+es;Ser;Stepanovićevo
+hr;Pištinci;Stara Bingula
+hu;Sztapár;Stapar
+mk;Стапар;Stapar
+ro;Carloviț;Sremski Karlovci
+sr;Сремски Карловци;Sremski Karlovci
+hr;Srijemski Karlovci;Sremski Karlovci
+hr;Srijemska Rača;Sremska Rača
+hu;Racsa;Sremska Rača
+sr;Сирмијум;Sremska Mitrovica
+sr;Srem. Mitrovica;Sremska Mitrovica
+sr;Mitraja;Sremska Mitrovica
+en;Kamenitz;Sremska Kamenica
+hr;Srijemska Kamenica;Sremska Kamenica
+sr;Сремска Каменица;Sremska Kamenica
+hu;Kamanc;Sremska Kamenica
+hr;Sveti Tomo;Srbobran
+sr;Србобран;Srbobran
+sr;Сомбор;Sombor
+mk;Сомбор;Sombor
+sr;Сјеница;Sjenica
+sq;Senica;Sjenica
+hu;Szilbács;Silbaš
+sr;Шид;Šid
+hu;Oromhegyes;Trešnjevac
+sr;Трешњевац;Trešnjevac
+ro;Senćanski Trešnjevac;Trešnjevac
+hu;Bácsújfalu;Selenča
+hu;Torzsa;Savino Selo
+hu;Satrinca;Šatrinci
+hu;Szabács;Šabac
+mk;Шабац;Šabac
+sr;Шабац;Šabac
+rue;Руски Керестур;Ruski Krstur
+hu;Bácskeresztúr;Ruski Krstur
+hu;Piros;Rumenka
+sr;Рума;Ruma
+hu;Árpatarló;Ruma
+hu;Sóvé;Ravno Selo
+hu;Haraszti;Rastina
+hu;Bácsszentiván;Prigrevica
+hu;Palona;Plavna
+de;Peterwardein;Petrovaradin
+hu;Pétervárad;Petrovaradin
+sr;Петроварадин;Petrovaradin
+de;Opština Pećinci;Pećinci
+sr;Општина Пећинци;Pećinci
+hu;Pecsince;Pećinci
+hu;Parrag;Parage
+hu;Palics;Palić
+hu;Pacsér;Pačir
+sr;Осечина;Osečina
+en;Tomislavci;Orešković
+hr;Tomislavci;Orešković
+it;Tomislavci;Orešković
+fr;Tomislavci;Orešković
+hu;Andrásmező;Orešković
+sl;Tomislavci;Orešković
+pl;Tomislavci;Orešković
+nl;Tomislavci;Orešković
+sr;Оџаци;Odžaci
+hu;Újvidék;Novi Sad
+pl;Nowy Sad;Novi Sad
+sr;Нови Сад;Novi Sad
+mk;Нови Сад;Novi Sad
+sr;Нова Варош;Nova Varoš
+hu;Wekerlefalva;Nova Gajdobra
+hu;Újcservenka;Nova Crvenka
+nl;Mrdjenovac;Mrđenovac
+hr;Bukin;Mladenovo
+hu;Dunabökény;Mladenovo
+hu;Drea;Mileševo
+pt;Mijoska;Mioska
+en;Mijoska;Mioska
+sl;Mijoska;Mioska
+fr;Mijoska;Mioska
+pl;Mijoska;Mioska
+nl;Mijoska;Mioska
+sl;Mačvanski Metković;Metković
+hu;Maradék;Maradik
+hu;Nagyolaszi;Manđelos
+sr;Мали Зворник;Mali Zvornik
+cs;Opština Mali Zvornik;Mali Zvornik
+sr;Мали Песак;Mali Pesak
+hu;Kishomok;Mali Pesak
+hu;Kispiac;Male Pijace
+sr;Мале Пијаце;Male Pijace
+hu;Kisremete;Mala Remeta
+hu;Kisbosznia;Mala Bosna
+pt;Mačvanski Pričinović;Pričinović
+en;Mačvanski Pričinović;Pričinović
+fr;Mačvanski Pričinović;Pričinović
+sl;Mačvanski Pričinović;Pričinović
+pl;Mačvanski Pričinović;Pričinović
+nl;Mačvanski Pričinović;Pričinović
+sr;Лозница;Loznica
+mk;Лозница;Loznica
+hu;Szeghegy;Lovćenac
+sr;Општина Љубовија;Ljubovija
+de;Opština Ljubovija;Ljubovija
+hu;Bácsistensegíts;Lipar
+hu;Liliomos;Lalić
+sk;Laliť;Lalić
+hu;Kölpény;Kulpin
+sr;Кула;Kula
+rue;Коцур;Kucura
+hu;Kucora;Kucura
+hu;Bácskörtés;Kruševlje
+sr;Prnjavor;Krušedol Prnjavor
+en;Krušedol Selo;Krušedol
+fr;Krušedol Selo;Krušedol
+pl;Krušedol Selo;Krušedol
+hu;Krušedol Selo;Krušedol
+nl;Krušedol Selo;Krušedol
+hu;Veprőd;Kruščić
+mk;Крушчиќ;Kruščić
+sr;Крупањ;Krupanj
+sr;Косјерић;Kosjerić
+hu;Küllőd;Kolut
+sr;Општина Коцељева;Koceljeva
+hr;Krnjaja;Kljajićevo
+hu;Kerény;Kljajićevo
+hu;Kiszács;Kisač
+cs;Kysáč;Kisač
+sk;Kysáč;Kisač
+hu;Bácsordas;Karavukovo
+hu;Szávavásárhely;Jamena
+sr;Ириг;Irig
+sr;Хоргош;Horgoš
+sl;Grgetek;Grgeteg
+hu;Boldogasszonyfalva;Gospođinci
+sk;Hložany;Gložan
+hu;Dunagálos;Gložan
+de;Gloschein;Gložan
+hu;Glozsán;Gložan
+hu;Gádor;Gakovo
+hu;Szépliget;Gajdobra
+hu;Futak;Futog
+mk;Футог;Futog
+hu;Zentaörs;Bačko Dušanovo
+sr;Ðurašići;Đurašići
+hu;Doroszló;Doroslovo
+sr;Donja Grabovica;Gornja Grabovica
+mk;Дивчибаре;Divčibare
+hu;Úrszentiván;Despotovo
+hu;Dernye;Deronje
+sr;Ðedovac;Đedovac
+hu;Csonoplya;Čonoplja
+hu;Cserög;Čerević
+hu;Csenej;Čenej
+hu;Dunacséb;Čelarevo
+hu;Csantavér;Čantavir
+hu;Csála;Čalma
+sr;Чајетина;Čajetina
+hu;Bakolc;Bukovac
+hu;Tiszakálmánfalva;Budisava
+pt;Bratačić;Donji Bratačić
+en;Bratačić;Donji Bratačić
+fr;Bratačić;Donji Bratačić
+es;Bratačić;Donji Bratačić
+sl;Bratačić;Donji Bratačić
+pl;Bratačić;Donji Bratačić
+nl;Bratačić;Donji Bratačić
+sr;Братачић;Donji Bratačić
+hu;Boszút;Bosut
+en;Gombos;Bogojevo
+hu;Gombos;Bogojevo
+sr;Богатић;Bogatić
+hu;Bogyán;Bođani
+hu;Békova;Bikovo
+hu;Besenyő;Bešenovo
+rue;Беркасово;Berkasovo
+hu;Berekszó;Berkasovo
+hu;Belcsény;Beočin
+sr;Беочин;Beočin
+hu;Begecs;Begeč
+hu;Bánmonostor;Banoštor
+hr;Bajmak;Bajmok
+sr;Бајина Башта;Bajina Bašta
+hu;Bácsszőlős;Bački Vinogradi
+hu;Királyhalom;Bački Vinogradi
+sk;Petrovec;Bački Petrovac
+sr;Бачки Петровац;Bački Petrovac
+hr;Monoštor;Bački Monoštor
+hu;Monostorszeg;Bački Monoštor
+hr;Filipovo;Bački Gračac
+hu;Szentfülöp;Bački Gračac
+hu;Szilberek;Bački Brestovac
+sr;Бачка Паланка;Bačka Palanka
+sr;Бач;Bač
+sr;Апатин;Apatin
+hu;Babapuszta;Aleksa Šantić
+mk;Алекса Шантиќ;Aleksa Šantić
+hu;Nyest;Neštin
+sr;Ðipša;Đipša
+hu;Besenyőmonostor;Bešenovački Prnjavor
+sr;Бешеновачки Прњавор;Bešenovački Prnjavor
+sr;Mali Bač;Bač
+en;Mali Bač;Bač
+nl;Mali Bač;Bač
+en;Lugumerci;Lugomerci
+hr;Lugumerci;Lugomerci
+nl;Lugumerci;Lugomerci
+hu;Hadikörs;Mišićevo
+sr;Ðurđin;Đurđin
+hr;Žednik;Stari Žednik
+hu;Nagyfény;Stari Žednik
+sr;Ором;Orom
+pt;Lještansko;Leštansko
+en;Lještansko;Leštansko
+fr;Lještansko;Leštansko
+sl;Lještansko;Leštansko
+pl;Lještansko;Leštansko
+nl;Lještansko;Leštansko
+sr;Зарубе;Zarube
+sr;Ðorđići;Đorđići
+sr;Ðuričici;Đuričici
+sr;Доње Црниљево;Donje Crniljevo
+hu;Bogaras;Bogaroš
+en;Bogaraš;Bogaroš
+fr;Bogaraš;Bogaroš
+es;Bogaraš;Bogaroš
+sl;Bogaraš;Bogaroš
+pl;Bogaraš;Bogaroš
+nl;Bogaraš;Bogaroš
+sr;Ðurići;Đurići
+sr;Ðakovići;Đakovići
+sr;Ðukići;Đukići
+sr;Ðerići;Đerići
+sr;Ðukanovići;Đukanovići
+sr;Ðalamići;Đalamići
+sr;Ðinovića Sokak;Đinovića Sokak
+sr;Ðedića Sokak;Đedića Sokak
+sr;Ðuknići;Đuknići
+sr;Ðurđići;Đurđići
+bs;Kraljeve Vode;Zlatibor
+sr;Златибор;Zlatibor
+mk;Златибор;Zlatibor
+sr;Ðozići;Đozići
+sr;Кесеровина;Keserovina
+sr;Јелача;Jelača
+sr;Ðurovac;Đurovac
+sr;Ðokici;Đokici
+sr;Ðurovo Brdo;Đurovo Brdo
+sr;Ðenadići;Đenadići
+sr;Ивезићи;Ivezići
+sr;Ðurinovići;Đurinovići
+sr;Ðokića Mala;Đokića Mala
+hu;Csikériapuszta;Radičević
+sr;Радичевић;Radičević
+hu;Tótfalu;Totovo Selo
+sr;Тотово Село;Totovo Selo
+hu;Tóthfalu;Totovo Selo
+sr;Долине;Doline
+hu;Völgyes;Doline
+hu;Völgypart;Mol-Obornjača
+hu;Nagyvölgy;Mol-Obornjača
+sr;Матијевац;Matijevac
+sr;Јаловик;Jalovik
+sr;Кујавица;Kujavica
+hu;Marót;Morović
+sr;Моровић;Morović
+sq;Krivafeja;Kriva Feja
+sr;Крива Феја;Kriva Feja
+sr;Ново Село;Novo Selo
+hu;Újfalu;Novo Selo
+sr;Samojlica;Sumulicë
+de;Sumulic;Sumulicë
+sr;Долац насеље;Dolac naselje
+sr;Бангладеш;Bangladeš
