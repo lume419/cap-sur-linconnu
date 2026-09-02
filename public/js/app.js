@@ -290,6 +290,14 @@
   // mais rester en code ISO ici évite toute ambiguïté avec les livres locales de Guernesey/Jersey
   // (jamais interchangeables avec un simple "£" hors de leurs îles respectives).
   var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD' };
+  // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
+  // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
+  // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
+  // pour éviter l'ambiguïté GBP/Guernesey-Jersey déjà documentée). Trois devises partagent le même
+  // symbole "kr" (DKK/NOK/SEK, chacune sa propre couronne nationale) : jamais affiché seul dans le
+  // sélecteur, toujours accompagné du code (voir renderCurrencyList/renderCurrencyButton) pour
+  // rester non ambigu malgré le symbole commun.
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :
@@ -421,7 +429,11 @@
   function renderCurrencyButton(){
     if(!currencyButtonEl) return;
     var pref = getPreferredCurrency();
-    currencyButtonEl.querySelector('.currency-toggle-code').textContent = pref || 'AUTO';
+    // "AUTO" tant qu'aucune devise n'est figée (aucun symbole unique ne le représenterait — la
+    // devise varie d'une étape à l'autre) ; sinon CODE + symbole réel (voir CURRENCY_GLYPH), le code
+    // toujours présent pour lever l'ambiguïté des trois "kr" (DKK/NOK/SEK, voir son commentaire).
+    currencyButtonEl.querySelector('.currency-toggle-code').textContent =
+      pref ? pref + ' ' + (CURRENCY_GLYPH[pref] || '') : 'AUTO';
   }
   function closeCurrencyPanel(){
     if(currencyPanelEl) currencyPanelEl.classList.remove('show');
@@ -454,8 +466,8 @@
     }
     addOption(null, t('currency.auto'));
     CURRENCY_OPTIONS.forEach(function(code){
-      var symbol = CURRENCY_SYMBOL[code];
-      addOption(code, symbol && symbol !== code ? code + ' ' + symbol : code);
+      var glyph = CURRENCY_GLYPH[code];
+      addOption(code, glyph ? code + ' ' + glyph : code);
     });
   }
   function buildCurrencySwitcher(){

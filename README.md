@@ -513,15 +513,19 @@ Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couve
 (~40 000 locuteurs, Grisons) est traduit en rumantsch grischun (forme écrite standardisée).
 
 **Sélecteur de langue** : le bouton n'affiche plus un code à deux lettres (« FR », « MK »...) mais
-un drapeau (`LANG_FLAGS` dans `public/js/i18n.js`) — national la plupart du temps, mais RÉGIONAL
-pour les trois langues qui en ont un vrai en Unicode (Écosse pour le gaélique écossais/le scots,
-pays de Galles pour le gallois, via la séquence de balises ISO 3166-2 plutôt qu'un simple émoji
-composé). La plupart des 51 langues du site n'ont cela dit AUCUN drapeau Unicode qui leur soit
-propre (aucune norme n'encode par exemple un drapeau breton, basque, sarde ou sorabe) : chacune
-reprend alors le drapeau national ou régional le plus directement associé à son aire linguistique,
-au prix d'un même drapeau parfois partagé par plusieurs langues d'un même pays — un vrai drapeau
-distinct par langue impliquerait des illustrations SVG infra-nationales hors norme Unicode,
-hors du périmètre de ce passage.
+un drapeau — essayé d'abord en émoji Unicode, abandonné (aucune police d'émoji couleur fiable sur
+toutes les plateformes, Windows en particulier affiche souvent les deux lettres du code régional au
+lieu du drapeau fusionné) au profit de vraies images SVG hébergées localement
+(`public/img/flags/XX.svg`, une seule fois chacune même si plusieurs langues la réutilisent —
+33 fichiers au total pour 51 langues). Association LANGUE -> code de fichier dans `LANG_FLAGS`
+(`public/js/i18n.js`) : national la plupart du temps, mais RÉGIONAL pour les deux langues qui ont un
+vrai drapeau dédié dans le jeu d'icônes utilisé (Écosse pour le gaélique écossais/le scots, pays de
+Galles pour le gallois). La plupart des 51 langues du site n'ont cela dit AUCUN drapeau qui leur soit
+propre dans ce jeu d'icônes (aucune illustration pour le breton, le basque, le sarde ou le sorabe,
+par exemple) : chacune reprend alors le drapeau national ou régional le plus directement associé à
+son aire linguistique, au prix d'un même drapeau parfois partagé par plusieurs langues d'un même
+pays — un vrai drapeau distinct par langue impliquerait de commander des illustrations
+infra-nationales sur mesure, hors du périmètre de ce passage.
 
 Le bas-allemand, le sorabe et le frison du Nord sont arrivés avec l'Allemagne : trois de ses sept
 langues régionales/minoritaires reconnues par la charte européenne (les trois autres — danois,
@@ -1391,6 +1395,12 @@ Mémorisé dans le `localStorage` du navigateur (`js/app.js`, clé `currency`, m
 `lang`/`theme`), jamais envoyé au serveur. La liste proposée est RECONSTRUITE depuis `COUNTRIES`
 plutôt que codée à la main (`CURRENCY_OPTIONS`) : treize devises actuellement (EUR + les douze pays
 hors zone euro déjà couverts), un nouveau pays avec une nouvelle devise y apparaît automatiquement.
+Chaque entrée affiche son vrai symbole/abréviation d'usage courant (`CURRENCY_GLYPH`, ex. « CZK Kč »,
+« RSD дин. ») en plus du code ISO — un symbole SEUL resterait ambigu pour les trois couronnes
+nordiques qui partagent toutes « kr » (DKK/NOK/SEK) ou pour BAM/CHF, d'où le code toujours présent à
+côté ; ce glyphe reste propre à l'affichage du sélecteur, jamais utilisé pour le montant affiché
+dans le formulaire (`CURRENCY_SYMBOL`, resté au code ISO pour la même raison déjà documentée plus
+haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 
 ## Référencement (SEO)
 
@@ -1428,6 +1438,9 @@ hors zone euro déjà couverts), un nouveau pays avec une nouvelle devise y appa
 - Fond de carte : tuiles [OpenStreetMap](https://www.openstreetmap.org) standard, chargées via
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
+- Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 33 fichiers SVG) — voir
+  "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /

@@ -317,18 +317,20 @@
      langues (et pensé pour en accueillir d'autres, voir la recherche), un cycle à 3 états ne tient
      plus la route. */
   .lang-switcher{position:relative;}
+  /* Un vrai drapeau (image SVG circulaire, voir js/i18n.js LANG_FLAGS/langFlagSrc) plutôt qu'un
+     code à deux lettres ou un émoji — les émoji drapeau composés (régional indicator symbols)
+     s'affichaient de façon peu fiable sur certaines plateformes (Windows notamment, retombe souvent
+     sur les deux lettres du code au lieu du drapeau fusionné). Bouton devenu un simple cercle qui
+     encadre le drapeau (déjà circulaire dans le SVG source, voir public/img/flags/) plutôt que la
+     pilule texte+icône d'avant, plus rien à écrire dedans.  */
   .lang-toggle-btn{
-    display:inline-flex; align-items:center; gap:.4rem;
-    background:transparent; border:1.5px solid var(--line-strong); color:var(--ink-soft);
-    border-radius:999px; padding:.45rem .85rem .45rem .7rem; font:700 .68rem/1 var(--font-body);
-    text-transform:uppercase; letter-spacing:.06em; cursor:pointer;
+    display:inline-flex; align-items:center; justify-content:center;
+    width:2.15rem; height:2.15rem; padding:0; overflow:hidden;
+    background:transparent; border:1.5px solid var(--line-strong);
+    border-radius:999px; cursor:pointer;
   }
-  .lang-toggle-btn:hover{border-color:var(--accent-3); color:var(--accent-3);}
-  .lang-toggle-btn svg{width:15px; height:15px; flex:none;}
-  /* Un drapeau (voir js/i18n.js, LANG_FLAGS) plutôt que le code à deux lettres d'avant : taille de
-     police normale plutôt que le .68rem/majuscules/espacé pensé pour du texte, un émoji n'a besoin
-     d'aucun de ces réglages typographiques. */
-  .lang-toggle-flag{min-width:1.3em; text-align:left; font-size:1rem; line-height:1;}
+  .lang-toggle-btn:hover{border-color:var(--accent-3);}
+  .lang-toggle-flag{width:100%; height:100%; display:block; border-radius:999px; object-fit:cover;}
 
   .lang-panel{
     display:none;
@@ -350,13 +352,13 @@
     overflow-y:auto;
   }
   .lang-option{
-    display:flex; align-items:baseline; gap:.55rem;
+    display:flex; align-items:center; gap:.55rem;
     padding:.5rem .55rem; border-radius:8px; cursor:pointer;
     font:.82rem/1.2 var(--font-body); color:var(--ink);
   }
   .lang-option:hover{background:var(--surface-2);}
   .lang-option.active{background:var(--accent-3); color:var(--accent-ink);}
-  .lang-option-flag{font-size:1.05rem; line-height:1; min-width:1.4em;}
+  .lang-option-flag{width:1.3em; height:1.3em; flex:none; border-radius:999px; display:block; object-fit:cover;}
   .lang-option-empty{padding:.6rem .55rem; font:.8rem/1.3 var(--font-body); color:var(--ink-faint);}
 
   /* Sélecteur de devise : même famille visuelle et mêmes règles que le sélecteur de langue juste à

@@ -16,33 +16,42 @@
   var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro'];
   var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais', csb: 'Kaszëbsczi', rue: 'Лемківскый', ruo: 'Vlaški-Žejanski', ca: 'Català', eu: 'Euskara', gl: 'Galego', oc: 'Occitan', br: 'Brezhoneg', co: 'Corsu', mwl: 'Mirandés', ga: 'Gaeilge', gv: 'Gaelg', cy: 'Cymraeg', gd: 'Gàidhlig', kw: 'Kernewek', sco: 'Scots', cs: 'Čeština', pl: 'Polski', sk: 'Slovenčina', hu: 'Magyar', sl: 'Slovenščina', hr: 'Hrvatski', bs: 'Bosanski', sr: 'Српски', da: 'Dansk', no: 'Norsk', sv: 'Svenska', fi: 'Suomi', sq: 'Shqip', cnr: 'Crnogorski', mk: 'Македонски', ro: 'Română' };
   // Un drapeau plutôt qu'un code à deux lettres dans le bouton/la liste (voir renderSwitcherButton/
-  // renderLangList plus bas) — demandé explicitement pour remplacer l'acronyme. Choix par langue,
-  // pas par PAYS : la plupart des 51 langues d'ici n'ont pas de drapeau Unicode propre (aucune
-  // norme n'encode par exemple un drapeau breton/basque/sarde/frioulan/sorabe...), donc chacune
-  // reprend le drapeau NATIONAL ou RÉGIONAL le plus directement associé à son aire linguistique —
-  // au prix d'un même drapeau partagé par plusieurs langues d'un même pays (les quatre langues
-  // régionales allemandes nds/hsb/frr affichent 🇩🇪 comme l'allemand lui-même, par exemple) : un vrai
-  // drapeau distinct par langue impliquerait des drapeaux INFRA-nationaux hors norme Unicode
-  // (illustrations SVG hébergées), hors du périmètre de ce passage. Trois vrais drapeaux RÉGIONAUX
-  // existent bien en Unicode via la séquence de balises ISO 3166-2 (pas de simples émojis composés
-  // comme les drapeaux nationaux) : Écosse (gd/sco, les deux langues du pays), Pays de Galles (cy) —
-  // utilisées ici plutôt que le drapeau du Royaume-Uni, plus juste pour des langues chacune propres à
-  // une seule nation constitutive. Le cornique (kw), sans balise ISO 3166-2 dédiée dans ce mécanisme
-  // (les Cornouailles n'ont pas ce statut), retombe sur le Royaume-Uni. Quelques choix qui
-  // distinguent volontairement une langue de sa voisine évidente plutôt que de dupliquer un drapeau
-  // déjà pris : le catalan (ca) prend l'Andorre — seul pays où le catalan est OFFICIEL et unique
-  // langue nationale, plutôt que l'Espagne (déjà prise par eu/gl) ; le monégasque (lij, "Munegascu"
-  // dans LANG_NAMES) prend Monaco plutôt que l'Italie ; le mannois (gv) et le gallois (cy) restent
-  // sur leurs propres territoires déjà couverts comme pays (île de Man, imbriqué dans le Royaume-Uni
-  // pour le gallois faute de balise dédiée à retenir séparément ici).
+  // renderLangList plus bas) — demandé explicitement pour remplacer l'acronyme. Essayé d'abord en
+  // émoji Unicode (🇫🇷...) : abandonné, aucune police d'émoji couleur fiable sur toutes les
+  // plateformes (Windows notamment affiche souvent les deux lettres du code régional au lieu du
+  // drapeau fusionné — capture d'écran fournie par l'utilisateur à l'appui). Remplacé par de vraies
+  // images SVG hébergées localement (public/img/flags/XX.svg, voir "Sources des données" du
+  // README) : LANG_FLAGS ne contient plus l'émoji lui-même mais le CODE du fichier
+  // (correspondance ISO 3166-1 alpha-2 minuscule, plus "gb-sct"/"gb-wls" pour les deux drapeaux
+  // régionaux). Choix par LANGUE, pas par pays : la plupart des 51 langues d'ici n'ont pas de
+  // drapeau propre reconnu (aucune illustration officielle pour le breton/le basque/le sarde/le
+  // sorabe...), donc chacune reprend le drapeau national ou régional le plus directement associé à
+  // son aire linguistique — au prix d'un même drapeau partagé par plusieurs langues d'un même pays
+  // (les quatre langues régionales allemandes nds/hsb/frr affichent le drapeau allemand comme
+  // l'allemand lui-même, par exemple) : un vrai drapeau distinct par langue impliquerait de créer
+  // des illustrations INFRA-nationales sur mesure (aucune n'existe dans circle-flags), hors du
+  // périmètre de ce passage. Deux vrais drapeaux RÉGIONAUX existent bien dans circle-flags (pas de
+  // simple retombée sur le drapeau du pays) : Écosse (gd/sco, les deux langues du pays), Pays de
+  // Galles (cy) — plus justes pour des langues chacune propres à une seule nation constitutive que
+  // le drapeau du Royaume-Uni. Le cornique (kw), sans illustration dédiée aux Cornouailles dans
+  // circle-flags, retombe sur le Royaume-Uni. Quelques choix qui distinguent volontairement une
+  // langue de sa voisine évidente plutôt que de dupliquer un drapeau déjà pris : le catalan (ca)
+  // prend l'Andorre — seul pays où le catalan est OFFICIEL et unique langue nationale, plutôt que
+  // l'Espagne (déjà prise par eu/gl) ; le monégasque (lij, "Munegascu" dans LANG_NAMES) prend Monaco
+  // plutôt que l'Italie ; le mannois (gv) et le gallois (cy) restent sur leurs propres territoires
+  // déjà couverts comme pays/nations (île de Man, pays de Galles).
   var LANG_FLAGS = {
-    fr: '🇫🇷', en: '🇬🇧', es: '🇪🇸', pt: '🇵🇹', nl: '🇳🇱', de: '🇩🇪', lb: '🇱🇺', it: '🇮🇹', rm: '🇨🇭',
-    nds: '🇩🇪', hsb: '🇩🇪', frr: '🇩🇪', sc: '🇮🇹', fur: '🇮🇹', lld: '🇮🇹', mt: '🇲🇹', lij: '🇲🇨',
-    'nrf-je': '🇯🇪', 'nrf-gg': '🇬🇬', csb: '🇵🇱', rue: '🇵🇱', ruo: '🇭🇷', ca: '🇦🇩', eu: '🇪🇸', gl: '🇪🇸',
-    oc: '🇫🇷', br: '🇫🇷', co: '🇫🇷', mwl: '🇵🇹', ga: '🇮🇪', gv: '🇮🇲', cy: '🏴󠁧󠁢󠁷󠁬󠁳󠁿', gd: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
-    kw: '🇬🇧', sco: '🏴󠁧󠁢󠁳󠁣󠁴󠁿', cs: '🇨🇿', pl: '🇵🇱', sk: '🇸🇰', hu: '🇭🇺', sl: '🇸🇮', hr: '🇭🇷', bs: '🇧🇦',
-    sr: '🇷🇸', da: '🇩🇰', no: '🇳🇴', sv: '🇸🇪', fi: '🇫🇮', sq: '🇦🇱', cnr: '🇲🇪', mk: '🇲🇰', ro: '🇷🇴'
+    fr: 'fr', en: 'gb', es: 'es', pt: 'pt', nl: 'nl', de: 'de', lb: 'lu', it: 'it', rm: 'ch',
+    nds: 'de', hsb: 'de', frr: 'de', sc: 'it', fur: 'it', lld: 'it', mt: 'mt', lij: 'mc',
+    'nrf-je': 'je', 'nrf-gg': 'gg', csb: 'pl', rue: 'pl', ruo: 'hr', ca: 'ad', eu: 'es', gl: 'es',
+    oc: 'fr', br: 'fr', co: 'fr', mwl: 'pt', ga: 'ie', gv: 'im', cy: 'gb-wls', gd: 'gb-sct',
+    kw: 'gb', sco: 'gb-sct', cs: 'cz', pl: 'pl', sk: 'sk', hu: 'hu', sl: 'si', hr: 'hr', bs: 'ba',
+    sr: 'rs', da: 'dk', no: 'no', sv: 'se', fi: 'fi', sq: 'al', cnr: 'me', mk: 'mk', ro: 'ro'
   };
+  // Chemin des drapeaux SVG (voir LANG_FLAGS ci-dessus) — relatif à la racine du site, valable
+  // depuis n'importe quelle des trois pages HTML (index/mentions légales/politique de
+  // confidentialité), toutes servies directement à la racine.
+  function langFlagSrc(code){ return 'img/flags/' + (LANG_FLAGS[code] || 'fr') + '.svg'; }
   var STORAGE_KEY = 'lang';
 
   var STRINGS = {
@@ -13073,7 +13082,9 @@
 
   function renderSwitcherButton(){
     if(!buttonEl) return;
-    buttonEl.querySelector('.lang-toggle-flag').textContent = LANG_FLAGS[lang] || lang.toUpperCase();
+    var img = buttonEl.querySelector('.lang-toggle-flag');
+    img.src = langFlagSrc(lang);
+    img.alt = ''; // décoratif : le nom de la langue est déjà porté par aria-label sur le bouton (voir applyPanelTexts)
   }
 
   function closePanel(){
@@ -13106,10 +13117,10 @@
       li.className = 'lang-option' + (code === lang ? ' active' : '');
       li.setAttribute('role', 'option');
       li.setAttribute('aria-selected', code === lang ? 'true' : 'false');
-      var codeSpan = document.createElement('span');
+      var codeSpan = document.createElement('img');
       codeSpan.className = 'lang-option-flag';
-      codeSpan.textContent = LANG_FLAGS[code] || code.toUpperCase();
-      codeSpan.setAttribute('aria-hidden', 'true'); // décoratif : le nom est repris en texte juste à côté (nameSpan)
+      codeSpan.src = langFlagSrc(code);
+      codeSpan.alt = ''; // décoratif : le nom est repris en texte juste à côté (nameSpan)
       var nameSpan = document.createElement('span');
       nameSpan.className = 'lang-option-name';
       nameSpan.textContent = LANG_NAMES[code];
@@ -13129,11 +13140,7 @@
     buttonEl.className = 'lang-toggle-btn';
     buttonEl.setAttribute('aria-haspopup', 'listbox');
     buttonEl.setAttribute('aria-expanded', 'false');
-    buttonEl.innerHTML =
-      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-        '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.8 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.8-3.8-9S9.5 5.5 12 3Z"/>' +
-      '</svg>' +
-      '<span class="lang-toggle-flag"></span>';
+    buttonEl.innerHTML = '<img class="lang-toggle-flag" alt="">';
 
     panelEl = document.createElement('div');
     panelEl.className = 'lang-panel';
