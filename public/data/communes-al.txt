@@ -1,0 +1,4017 @@
+0;20.0731,39.8997;9716;Bashkia Sarandë;Çlirim
+0;20.2697,39.7833;9712;Bashkia Sarandë;Zminec
+0;20.2878,39.9167;6011;Bashkia Gjirokastër;Zervat
+4263;20.0544,39.7283;9707;Bashkia Sarandë;Xarrë
+0;20.3456,39.8958;6006;Bashkia Gjirokastër;Vrisera
+0;20.0481,39.8814;9716;Bashkia Sarandë;Vrion
+0;20.0197,39.7303;9707;Bashkia Sarandë;Vrinë
+0;20.3214,39.8917;6006;Bashkia Gjirokastër;Vodhinë
+0;20.2861,39.9889;6003;Bashkia Gjirokastër;Vllahogoranxi
+0;20.0814,39.9411;9718;Bashkia Sarandë;Vllahat
+0;20.2125,39.6792;9705;Bashkia Sarandë;Vërvë
+0;20.1514,39.9025;9711;Bashkia Sarandë;Velahovë
+0;20.0228,39.9325;9717;Bashkia Sarandë;Vanë
+0;20.1183,39.7428;9701;Bashkia Sarandë;Vagalat
+0;20.0869,39.8644;9710;Bashkia Sarandë;Tremul
+0;20.2172,39.9867;6005;Bashkia Gjirokastër;Terihat
+0;20.0578,39.9322;9719;Bashkia Sarandë;Stjar
+0;20.1294,39.8031;9721;Bashkia Sarandë;Stavronat
+0;20.3589,39.8197;6006;Bashkia Gjirokastër;Sotirë
+0;20.0867,39.9903;9718;Bashkia Sarandë;Sopot
+0;20.1064,39.7806;9721;Bashkia Sarandë;Sopik
+0;20.2133,39.9922;6005;Bashkia Gjirokastër;Sofratikë
+0;20.1450,39.9325;9704;Bashkia Sarandë;Sirakat
+0;20.1961,39.8219;9712;Bashkia Sarandë;Shëndre
+0;20.0933,39.9042;9716;Bashkia Sarandë;Shejf
+0;20.1578,39.7150;9709;Bashkia Sarandë;Shalës
+0;20.3442,39.8464;6006;Bashkia Gjirokastër;Selo
+22613;20.0048,39.8753;9716;Bashkia Sarandë;Sarandë
+0;20.0750,39.9539;9718;Bashkia Sarandë;Rusan
+0;20.1250,39.8567;9711;Bashkia Sarandë;Rumanxë
+0;20.0983,39.8547;9710;Bashkia Sarandë;Rahullë
+0;20.3322,39.9508;6011;Bashkia Gjirokastër;Radat
+0;20.1886,39.7811;9712;Bashkia Sarandë;Qesarat
+0;20.0714,39.8044;9721;Bashkia Sarandë;Vurgu i Ri
+0;20.0803,39.8469;9710;Bashkia Sarandë;Neohor
+0;20.0811,39.8092;9721;Bashkia Sarandë;Pllakë
+0;20.0389,39.9486;9717;Bashkia Sarandë;Bajkaj
+0;20.0872,39.9375;9704;Bashkia Sarandë;Piadhage
+0;20.3106,39.9667;6011;Bashkia Gjirokastër;Peshkëpia e Sipërme
+0;20.2986,39.9628;6011;Bashkia Gjirokastër;Peshkëpia e Poshtme
+0;20.2997,39.7358;9708;Bashkia Sarandë;Perdhikar
+0;20.3294,39.8714;6006;Bashkia Gjirokastër;Pepel
+0;20.1764,39.9333;9704;Bashkia Sarandë;Pecë
+0;20.2114,39.8094;9712;Bashkia Sarandë;Partizan
+0;20.1425,39.7817;9721;Bashkia Sarandë;Pandelejmon
+0;20.0311,39.9778;9720;Bashkia Sarandë;Palavli
+0;20.0511,39.8506;9710;Bashkia Sarandë;Pal
+0;20.2031,39.7283;9708;Bashkia Sarandë;Ninat
+0;20.1472,39.8744;9711;Bashkia Sarandë;Navaricë
+0;20.2056,39.9317;6011;Bashkia Gjirokastër;Muzinë
+0;20.0767,39.7047;9707;Bashkia Sarandë;Mursi
+0;20.1167,39.9000;9716;Bashkia Sarandë;Mikropoli
+0;20.0456,39.8833;9716;Bashkia Sarandë;Metoq
+2786;20.0922,39.9103;9716;Bashkia Sarandë;Mesopotam
+1859;20.1953,39.7328;9708;Bashkia Sarandë;Markat
+0;20.2297,39.8147;9712;Bashkia Sarandë;Maliçan
+0;20.2353,39.9619;6011;Bashkia Gjirokastër;Lugar
+0;20.2100,39.8392;9712;Bashkia Sarandë;Llupsat
+0;20.3650,39.8475;6006;Bashkia Gjirokastër;Llovinë
+0;20.3775,39.8347;6006;Bashkia Gjirokastër;Llongo
+0;20.1481,39.8019;9721;Bashkia Sarandë;Llazat
+0;20.1750,39.6683;9705;Bashkia Sarandë;Llanzat
+0;20.1350,39.8892;9711;Bashkia Sarandë;Livinë
+0;20.1219,39.7892;9721;Bashkia Sarandë;Livadhja
+0;20.3500,39.8592;6006;Bashkia Gjirokastër;Likomil
+0;20.2808,39.8506;9712;Bashkia Sarandë;Leshnica e Sipërme
+0;20.2586,39.8403;9712;Bashkia Sarandë;Leshnica e Poshtme
+0;20.1003,39.7900;9721;Bashkia Sarandë;Lefter Talo
+0;20.0939,39.9806;9704;Bashkia Sarandë;Lefterohor
+0;20.1039,39.8089;9721;Bashkia Sarandë;Kulluricë
+0;20.1733,39.9131;9711;Bashkia Sarandë;Krongj
+0;20.0897,39.8914;9716;Bashkia Sarandë;Krane
+0;20.1011,39.9308;9704;Bashkia Sarandë;Kostar
+0;20.4075,39.8181;6006;Bashkia Gjirokastër;Koshovicë
+0;20.0372,39.9889;9720;Bashkia Sarandë;Kopaçez
+1349;20.1814,39.6589;9705;Bashkia Sarandë;Konispol
+0;20.1619,39.7725;9721;Bashkia Sarandë;Komat
+0;20.3294,39.8569;6006;Bashkia Gjirokastër;Klishar
+0;20.2622,39.8758;6011;Bashkia Gjirokastër;Kërrë
+0;20.2603,39.7456;9708;Bashkia Sarandë;Karroq
+0;20.1650,39.9506;9704;Bashkia Sarandë;Kardhikaq
+0;20.1664,39.6522;9705;Bashkia Sarandë;Karaja
+0;20.0372,39.9097;9716;Bashkia Sarandë;Karahaxh
+0;20.1253,39.8094;9721;Bashkia Sarandë;Kodër
+0;20.0014,39.7953;9706;Bashkia Sarandë;Kalive Gjoka
+0;20.1442,39.8103;9721;Bashkia Sarandë;Kalcat
+0;20.3594,39.8350;6006;Bashkia Gjirokastër;Krioner
+0;20.1067,39.9731;9704;Bashkia Sarandë;Kakodhiq
+0;20.3583,39.9078;6006;Bashkia Gjirokastër;Kakavijë
+0;20.1056,39.8375;9710;Bashkia Sarandë;Jermë
+0;20.2636,39.9353;6011;Bashkia Gjirokastër;Jergucat
+595;20.2597,39.7025;9708;Bashkia Sarandë;Janjar
+0;20.2256,39.8364;9712;Bashkia Sarandë;Janicat
+0;20.0936,39.8242;9710;Bashkia Sarandë;Halo
+0;20.2483,39.7961;9712;Bashkia Sarandë;Grazhdan
+0;20.1697,39.7872;9721;Bashkia Sarandë;Gravë
+0;20.2481,39.9544;6011;Bashkia Gjirokastër;Grapsh
+0;20.2261,39.9767;6005;Bashkia Gjirokastër;Goricë
+0;20.2914,39.9708;6011;Bashkia Gjirokastër;Glinë
+0;20.0250,39.8747;9716;Bashkia Sarandë;Gjashtë
+0;20.2333,39.9667;6005;Bashkia Gjirokastër;Frashtan
+0;20.1100,39.8642;9710;Bashkia Sarandë;Fitore
+1333;20.0583,39.9064;9716;Bashkia Sarandë;Finiq
+0;20.3664,39.8958;6006;Bashkia Gjirokastër;Dritë
+0;20.0656,39.8214;9710;Bashkia Sarandë;Dritas
+0;20.1983,39.6897;9705;Bashkia Sarandë;Dishat
+0;20.1978,39.9972;6005;Bashkia Gjirokastër;Dhuvjan
+0;20.2175,39.8894;6011;Bashkia Gjirokastër;Dhrovian
+0;20.1686,39.8361;9711;Bashkia Sarandë;Dhivër
+0;20.1219,39.8419;9711;Bashkia Sarandë;Dërmish
+6166;20.0978,39.9511;9704;Bashkia Sarandë;Delvinë
+0;20.0344,39.8433;9710;Bashkia Sarandë;Çukë
+0;20.1506,39.9489;9704;Bashkia Sarandë;Clifik
+0;20.1128,39.6828;9709;Bashkia Sarandë;Çiflig
+0;20.2078,39.8269;9712;Bashkia Sarandë;Cerkovicë
+0;20.0708,39.8697;9710;Bashkia Sarandë;Çaush
+0;20.0492,39.9228;9719;Bashkia Sarandë;Buronjë
+0;20.2936,39.9072;6011;Bashkia Gjirokastër;Bularat
+0;20.0208,39.8997;9716;Bashkia Sarandë;Bregas
+0;20.1178,39.9208;9704;Bashkia Sarandë;Brailat
+0;20.3036,39.9019;6006;Bashkia Gjirokastër;Bodrishtë
+0;20.0408,39.9183;9717;Bashkia Sarandë;Blerimas
+0;20.1336,39.9178;9704;Bashkia Sarandë;Bistricë
+0;20.0639,39.9394;9719;Bashkia Sarandë;Bamatat
+0;20.1183,39.8792;9711;Bashkia Sarandë;Ardhasovë
+0;20.0792,39.8586;9710;Bashkia Sarandë;Aliko
+0;20.1206,39.6886;9709;Bashkia Sarandë;Shkallë
+0;20.1422,39.8483;9711;Bashkia Sarandë;Memoraq
+0;20.0317,39.9981;9720;Bashkia Sarandë;Badhër
+0;20.2694,39.8353;9712;Bashkia Sarandë;Alopul
+0;20.2750,39.8311;9712;Bashkia Sarandë;Leskovec
+0;20.6814,40.8914;7304;Bashkia Pogradec;Buçimas
+0;20.7350,40.7861;7016;Bashkia Korçë;Zvirinë
+0;20.8581,40.7311;7014;Bashkia Korçë;Zvezdë
+0;20.5650,40.7236;7027;Bashkia Korçë;Zvarisht
+53;20.2661,40.4675;5406;Bashkia Skrapar;Dhorës
+0;20.3775,41.5806;8404;Bashkia Bulqizë;Zogjaj
+111;20.2542,40.4872;5413;Bashkia Skrapar;Zogas
+0;20.2964,42.2950;8705;Bashkia Tropojë;Zogaj
+0;20.0333,41.6833;8010;Bashkia Mat;Zmaç
+0;20.3350,40.2808;6001;Bashkia Gjirokastër;Zleushë
+0;20.4481,41.7203;8309;Bashkia Dibër;Zimur
+0;20.5911,40.4083;7406;Bashkia Kolonjë;Zikollara
+0;20.9242,40.5575;7010;Bashkia Korçë;Ziçisht
+0;20.2011,40.3933;5406;Bashkia Skrapar;Zhepovë
+779;20.2869,40.6778;5410;Bashkia Skrapar;Zhepë
+0;20.5072,40.1203;6001;Bashkia Gjirokastër;Zhepë
+0;20.2089,40.2122;6008;Bashkia Gjirokastër;Zhej
+0;20.5517,40.3508;7405;Bashkia Kolonjë;Zharkanj
+0;20.3200,41.2522;3410;Bashkia Librazhd;Zgosht
+0;20.5364,40.2347;7404;Bashkia Kolonjë;Peshtan
+0;20.1286,40.8997;3019;Bashkia Elbasan;Zgjupë
+0;20.3381,42.2903;8603;Bashkia Has;Zgjeç
+669;20.0872,40.5864;5016;Bashkia Berat;Zgërbonjë
+4111;20.3606,41.5022;8406;Bashkia Bulqizë;Zerqan
+0;20.3472,40.7019;7018;Bashkia Korçë;Zerec
+0;20.0247,41.6292;8001;Bashkia Mat;Zenisht
+0;20.5206,40.9442;7307;Bashkia Pogradec;Zëmçë
+0;20.8767,40.6942;7015;Bashkia Korçë;Zëmblak
+37;20.0211,40.7942;5001;Bashkia Berat;Zelevizhdë
+0;20.2600,41.2764;3410;Bashkia Librazhd;Zdrajsh-Verri
+0;20.6517,40.7453;7016;Bashkia Korçë;Zboq
+0;20.2808,40.9808;3015;Bashkia Elbasan;Zavalinë
+0;20.4719,40.3544;7406;Bashkia Kolonjë;Zavalan
+0;20.9081,40.7642;7020;Bashkia Korçë;Zaroshkë
+0;20.5525,42.0506;8515;Bashkia Kukës;Zapod
+119;20.2733,40.6081;5411;Bashkia Skrapar;Zaloshnjë
+0;20.1636,41.9475;8509;Bashkia Kukës;Zall-Xhuxhë
+0;20.5028,41.0200;7308;Bashkia Pogradec;Zall-Torë
+0;20.0606,41.6117;8009;Bashkia Mat;Salaj
+681;20.3200,41.8761;8310;Bashkia Dibër;Zall-Reç
+0;20.3972,41.9075;8501;Bashkia Kukës;Zall
+0;20.0500,41.6667;8010;Bashkia Mat;Zall-Laç
+0;20.3761,41.8117;8307;Bashkia Dibër;Zall-Kalis
+1051;20.3361,41.8067;8508;Bashkia Kukës;Zall-Dardhë
+0;20.0864,41.7658;4605;Bashkia Mirditë;Zajs
+0;20.3431,42.2056;8604;Bashkia Has;Zahrisht
+0;20.6972,40.6047;7026;Bashkia Korçë;Zagradishtë
+0;20.5000,41.7000;8303;Bashkia Dibër;Zagrad
+0;20.7122,40.8847;7304;Bashkia Pogradec;Gurras
+0;20.4078,41.3378;3410;Bashkia Librazhd;Zabzun
+0;20.2692,40.4278;5406;Bashkia Skrapar;Zabërzan
+0;20.2081,40.9875;3014;Bashkia Elbasan;Xibresh
+0;20.1994,41.1669;3409;Bashkia Librazhd;Xibrakë
+0;20.0214,41.4736;8008;Bashkia Mat;Xibër-Hane
+0;20.0256,41.4547;8008;Bashkia Mat;Xibër-Murrizë
+0;20.4072,41.1153;3401;Bashkia Librazhd;Xhyrë
+0;20.2108,41.9622;8509;Bashkia Kukës;Xhuxhë
+0;20.0156,40.8944;3019;Bashkia Elbasan;Xhavur
+0;20.2317,40.3706;5406;Bashkia Skrapar;Xhanaj
+0;20.0742,40.8164;5001;Bashkia Berat;Kamerllas
+0;20.5061,42.1078;8502;Bashkia Kukës;Xhah
+0;20.5222,41.9703;8516;Bashkia Kukës;Xhaferraj
+0;20.5111,40.6167;7022;Bashkia Korçë;Xerje-Denas
+0;20.1550,42.1344;4404;Bashkia Pukë;Xath
+0;20.4075,41.1322;3408;Bashkia Librazhd;Vulçan
+0;20.3208,41.9236;8505;Bashkia Kukës;Vrrin
+0;20.1064,41.3272;1043;Bashkia Tiranë;Vërri
+0;20.7769,40.7969;7028;Bashkia Korçë;Vreshtas
+0;20.3656,40.8586;7310;Bashkia Pogradec;Vreshtas
+0;20.6056,40.1947;7404;Bashkia Kolonjë;Vrëpckë
+0;20.4269,41.7347;8309;Bashkia Dibër;Vrenjt
+0;20.3786,42.1769;8601;Bashkia Has;Vranisht
+0;20.9103,40.6656;7011;Bashkia Korçë;Vranisht
+0;20.5889,40.6331;7029;Bashkia Korçë;Voskopojë
+0;20.6903,40.6119;7026;Bashkia Korçë;Voskop
+170;20.0669,40.5131;5015;Bashkia Berat;Vokopolë
+0;20.4561,41.5806;8302;Bashkia Dibër;Vojnikë
+181;20.0306,40.7531;5001;Bashkia Berat;Vojnik
+570;20.0086,40.6767;5013;Bashkia Berat;Vodicë
+0;20.6519,40.3986;7403;Bashkia Kolonjë;Vodicë
+115;20.3128,40.5136;5413;Bashkia Skrapar;Vlushë
+0;20.7297,40.6947;7021;Bashkia Korçë;Vloçisht
+0;20.4278,41.8117;8307;Bashkia Dibër;Vleshë
+0;20.2047,41.8614;8509;Bashkia Kukës;Vlashaj
+0;20.4050,41.5314;8404;Bashkia Bulqizë;Vlashaj
+0;20.4564,42.2378;8603;Bashkia Has;Vlahën
+0;20.5103,40.3292;7405;Bashkia Kolonjë;Vitisht
+0;20.5825,40.5250;7025;Bashkia Korçë;Vithkuq
+0;20.2594,40.2047;6012;Bashkia Gjirokastër;Vithkuq
+65;20.2997,40.4728;5407;Bashkia Skrapar;Visockë
+0;20.2072,42.2119;8705;Bashkia Tropojë;Visoçë
+0;20.9967,40.5964;7012;Bashkia Korçë;Vishocicë
+28;20.3222,40.6247;5408;Bashkia Skrapar;Vishanj
+0;20.1375,40.4319;5401;Bashkia Skrapar;Vinokash
+0;20.1569,40.4375;5406;Bashkia Skrapar;Vinokash-Fushë
+0;20.1422,41.6261;8009;Bashkia Mat;Vinjoll
+0;20.4422,40.2597;6001;Bashkia Gjirokastër;Vinjah
+0;20.2367,40.8836;3015;Bashkia Elbasan;Vinë
+0;20.6933,40.6467;7019;Bashkia Korçë;Vinçan
+0;20.4747,40.4703;7406;Bashkia Kolonjë;Villë
+0;20.1008,41.8750;4605;Bashkia Mirditë;Vilë
+0;20.3742,41.8839;8505;Bashkia Kukës;Vilë
+0;20.2764,41.0839;3409;Bashkia Librazhd;Vilan
+0;20.1367,41.6389;8009;Bashkia Mat;Vig
+0;20.9381,40.4792;7007;Bashkia Korçë;Vidohovë
+0;20.2517,40.7308;5410;Bashkia Skrapar;Vidhan
+0;20.4594,41.4972;8407;Bashkia Bulqizë;Viçisht
+88;20.2664,40.5167;5413;Bashkia Skrapar;Veseshtë
+335;20.2067,40.5231;5401;Bashkia Skrapar;Vërzhezhë
+4919;20.0539,40.6289;5016;Bashkia Berat;Vërtop
+0;20.2144,41.2692;3410;Bashkia Librazhd;Vërri
+0;20.3667,42.0167;8510;Bashkia Kukës;Vërri
+0;20.0872,41.3256;1043;Bashkia Tiranë;Verri
+0;20.5067,41.0033;7308;Bashkia Pogradec;Vërri
+0;21.0239,40.6444;7008;Bashkia Korçë;Vërnik
+0;20.5272,41.4233;8405;Bashkia Bulqizë;Vernicë
+0;20.0089,40.0067;9720;Bashkia Sarandë;Vergo
+0;20.6561,40.8894;7304;Bashkia Pogradec;Vërdovë
+0;20.4314,40.4208;5407;Bashkia Skrapar;Vërçisht
+0;20.4131,41.7742;8307;Bashkia Dibër;Venisht
+118;20.1347,40.5072;5401;Bashkia Skrapar;Vendresha e Vogël
+72;20.1411,40.4772;5401;Bashkia Skrapar;Vendreshë e Malit
+232;20.1436,40.5028;5401;Bashkia Skrapar;Vendresha e Madhe
+0;20.7336,40.8042;7016;Bashkia Korçë;Veliternë
+0;20.0042,40.2967;6019;Bashkia Gjirokastër;Veliqot
+54;20.1853,40.4808;5401;Bashkia Skrapar;Veleshnjë
+0;20.4394,41.1222;3407;Bashkia Librazhd;Vehçan
+0;20.4622,40.9547;7310;Bashkia Pogradec;Velçan
+0;20.5472,40.7653;7027;Bashkia Korçë;Velçan
+0;20.0500,41.7000;8010;Bashkia Mat;Vat-Dodaj
+0;20.3475,41.9958;8510;Bashkia Kukës;Vataj
+0;20.2633,42.1794;4404;Bashkia Pukë;Vas-Spas
+0;20.1833,41.1000;3025;Bashkia Elbasan;Vasjan
+0;20.0772,42.0847;4406;Bashkia Pukë;Vasiaj
+0;20.4336,41.8561;8506;Bashkia Kukës;Vasije
+0;20.7383,40.6761;7019;Bashkia Korçë;Vashtëmi
+0;20.2436,40.3181;5406;Bashkia Skrapar;Varibob
+0;20.1883,40.0094;6005;Bashkia Gjirokastër;Vanistër
+0;20.3292,41.5025;8406;Bashkia Bulqizë;Valikardhë
+0;20.1833,41.0000;3014;Bashkia Elbasan;Valësh
+81;20.1067,40.5608;5405;Bashkia Skrapar;Valë
+0;20.1611,41.4028;8403;Bashkia Bulqizë;Val
+0;20.0600,41.2719;3013;Bashkia Elbasan;Vakumonë
+0;20.3250,41.7028;8312;Bashkia Dibër;Vajmëdhej
+0;20.2189,41.5044;8409;Bashkia Bulqizë;Vajkal-Bulqizë
+0;20.1039,40.5761;5405;Bashkia Skrapar;Usti
+0;20.3917,41.6800;8304;Bashkia Dibër;Ushtelencë
+0;20.0719,41.6894;8010;Bashkia Mat;Urxallë
+0;20.1081,41.3164;1043;Bashkia Tiranë;Urë
+0;20.5842,41.0658;3405;Bashkia Librazhd;Urakë
+0;20.0300,41.5097;8002;Bashkia Mat;Unjatë
+0;20.1575,40.7697;5410;Bashkia Skrapar;Ulovë
+1136;20.3469,41.9083;8505;Bashkia Kukës;Ujmisht
+0;20.4667,41.8167;8308;Bashkia Dibër;Ujëmirë
+0;20.6844,40.5258;7017;Bashkia Korçë;Ujëbardhë
+31;20.2067,40.6381;5408;Bashkia Skrapar;Ujanik
+0;20.6392,40.9633;7305;Bashkia Pogradec;Udënisht
+0;20.7192,40.9003;7304;Bashkia Pogradec;Tushemisht
+0;20.7500,40.6167;7019;Bashkia Korçë;Turan i Sipërme
+0;20.7400,40.6206;7019;Bashkia Korçë;Turan
+0;20.5539,41.9428;8518;Bashkia Kukës;Turaj
+0;20.1119,40.8342;5001;Bashkia Berat;Tunjë
+0;20.0925,41.5842;8007;Bashkia Mat;Tumë
+0;20.4972,40.6158;7022;Bashkia Korçë;Tudas
+0;20.0853,41.0603;3011;Bashkia Elbasan;Tudan
+0;20.4983,41.4453;8405;Bashkia Bulqizë;Tuçep
+0;20.0647,42.0356;4402;Bashkia Pukë;Tuç
+0;20.1714,42.1753;4404;Bashkia Pukë;Truen
+67;20.3508,40.5528;5407;Bashkia Skrapar;Turbohovë
+0;20.3936,41.7925;8307;Bashkia Dibër;Trojak
+0;21.0175,40.5725;7012;Bashkia Korçë;Trestenik
+0;20.5817,40.7253;7027;Bashkia Korçë;Tresovë
+0;20.4956,40.4500;7406;Bashkia Kolonjë;Gur
+0;20.1167,41.0483;3026;Bashkia Elbasan;Trepsenisht
+0;20.4686,41.6411;8303;Bashkia Dibër;Trepçë
+0;20.4344,41.6550;8303;Bashkia Dibër;Trenë
+0;20.9997,40.6656;7008;Bashkia Korçë;Tren
+0;20.3881,40.2719;6001;Bashkia Gjirokastër;Tremisht
+0;20.3458,42.1378;8604;Bashkia Has;Tregtan
+0;20.0783,41.0247;3026;Bashkia Elbasan;Tregan
+0;20.4556,40.2064;6001;Bashkia Gjirokastër;Trebozisht
+0;20.5356,41.4111;8405;Bashkia Bulqizë;Trebisht-Muçinë
+0;20.5436,41.4083;8405;Bashkia Bulqizë;Trebisht-Çelebi
+0;20.5283,41.4097;8405;Bashkia Bulqizë;Trebisht-Bala
+0;20.5531,40.9133;7307;Bashkia Pogradec;Trebinjë
+0;20.4781,40.4525;7406;Bashkia Kolonjë;Trebickë e Sipërme
+0;20.4717,40.4500;7406;Bashkia Kolonjë;Trebickë
+64;20.2117,40.6778;5410;Bashkia Skrapar;Trebël
+0;20.1717,40.8753;3015;Bashkia Elbasan;Trashovicë
+0;20.2117,40.1022;6014;Bashkia Gjirokastër;Tranoshishtë
+0;20.0875,42.2886;8701;Bashkia Tropojë;Tëplan
+180;20.0608,40.5522;5015;Bashkia Berat;Tozhar
+0;20.1550,40.4461;5406;Bashkia Skrapar;Toshkës
+0;20.3958,40.6781;7018;Bashkia Korçë;Torovec
+0;20.2583,40.1861;6012;Bashkia Gjirokastër;Topovë
+0;20.5222,41.9847;8516;Bashkia Kukës;Topojan
+0;20.4228,41.5894;8302;Bashkia Dibër;Topojan
+0;20.0333,40.8933;3019;Bashkia Elbasan;Topojan
+0;20.2133,40.3772;5406;Bashkia Skrapar;Topojan
+793;20.1019,40.6967;5001;Bashkia Berat;Tomor i Madh
+0;20.4217,41.6908;8304;Bashkia Dibër;Tomin
+0;20.1975,40.3444;5406;Bashkia Skrapar;Tolar
+0;20.3303,42.1208;8511;Bashkia Kukës;Tobël
+0;20.2328,42.0103;8510;Bashkia Kukës;Thirrë
+255;20.1292,40.5239;5405;Bashkia Skrapar;Therepel
+0;20.0500,41.7500;8012;Bashkia Mat;Tharr
+0;20.2319,40.9014;3015;Bashkia Elbasan;Tërvoll
+0;20.4647,41.9756;8520;Bashkia Kukës;Tërshenë
+52;20.1883,40.7181;5410;Bashkia Skrapar;Tërrovë
+0;20.0244,40.5522;5015;Bashkia Berat;Tërpan
+0;20.8114,40.6936;7015;Bashkia Korçë;Terovë
+0;20.3881,41.4336;8405;Bashkia Bulqizë;Tërnova e Vogël
+0;20.3578,41.4400;8401;Bashkia Bulqizë;Tërnova e Madhe
+0;20.1200,40.2119;6009;Bashkia Gjirokastër;Tërbuq
+0;20.4774,41.4867;8407;Bashkia Bulqizë;Tërbaç
+11955;20.0192,40.2958;6019;Bashkia Gjirokastër;Tepelenë
+151;20.0394,40.5811;5015;Bashkia Berat;Teman
+0;20.4667,41.8167;8308;Bashkia Dibër;Tejsë
+0;20.2833,41.9167;8509;Bashkia Kukës;Tejmollë
+0;20.3544,41.9458;8501;Bashkia Kukës;Tejdrine
+0;20.4728,41.8192;8308;Bashkia Dibër;Tejas
+0;20.3042,41.8050;8306;Bashkia Dibër;Tartaj
+0;20.1708,40.4069;5406;Bashkia Skrapar;Taroninë
+0;20.0094,40.1233;6019;Bashkia Gjirokastër;Taroninë
+0;20.3253,40.7861;7018;Bashkia Korçë;Taragjin
+0;20.6883,40.3228;7404;Bashkia Kolonjë;Taçi i Sipërm
+0;20.6486,40.3283;7405;Bashkia Kolonjë;Taçi i Poshtëm
+0;20.7003,40.7306;7021;Bashkia Korçë;Symiz
+0;20.5778,41.1025;3405;Bashkia Librazhd;Sutan
+0;20.3442,41.9922;8510;Bashkia Kukës;Surroj
+0;20.3786,40.3781;5406;Bashkia Skrapar;Soropull
+0;20.3167,41.9667;8510;Bashkia Kukës;Sumaj
+0;20.0994,40.8847;3019;Bashkia Elbasan;Sult
+0;20.9247,40.5428;7010;Bashkia Korçë;Sul
+0;20.1547,40.3753;5406;Bashkia Skrapar;Sukë
+0;20.3139,40.4708;5407;Bashkia Skrapar;Sukaj
+0;20.2558,40.0722;6016;Bashkia Gjirokastër;Suhë
+0;20.0594,40.5389;5015;Bashkia Berat;Sinec
+0;20.0514,41.5769;8007;Bashkia Mat;Suç
+0;20.3881,41.5897;8314;Bashkia Dibër;Stushaj
+113;20.1756,40.5381;5401;Bashkia Skrapar;Strorë
+0;20.1947,40.9217;3015;Bashkia Elbasan;Stror
+0;20.6831,40.8531;7309;Bashkia Pogradec;Stropckë
+0;20.9086,40.6417;7009;Bashkia Korçë;Stropan
+0;20.4072,41.4908;8401;Bashkia Bulqizë;Strikçan
+0;20.4628,40.1547;6001;Bashkia Gjirokastër;Stëmbec
+0;20.5017,40.7311;7027;Bashkia Korçë;Strelcë
+0;20.4833,41.8000;8308;Bashkia Dibër;Stredok
+2427;20.4231,41.0053;3406;Bashkia Librazhd;Stravaj
+0;20.4697,41.0128;3406;Bashkia Librazhd;Stranik
+72;20.3047,40.6417;5408;Bashkia Skrapar;Strafickë
+0;20.1533,41.0033;3014;Bashkia Elbasan;Stërstan
+0;20.3408,40.4147;5406;Bashkia Skrapar;Strenec
+0;20.5831,40.8019;7309;Bashkia Pogradec;Stërkanj
+0;20.2514,40.0944;6002;Bashkia Gjirokastër;Stegopul
+0;20.4700,41.3372;8405;Bashkia Bulqizë;Steblevë
+0;20.1667,41.4333;8403;Bashkia Bulqizë;Staveç
+0;20.7181,40.3581;7403;Bashkia Kolonjë;Starjë
+0;20.3964,40.4800;5407;Bashkia Skrapar;Helmës-Staraveckë
+0;20.4403,41.6964;8301;Bashkia Dibër;Staravec
+0;20.1667,41.2500;1043;Bashkia Tiranë;Stan i Shpanit
+0;20.5333,42.0833;8502;Bashkia Kukës;Stan i Gjegjenit
+0;20.3333,42.1500;8604;Bashkia Has;Stan i Fongjes
+0;20.0333,41.2000;3013;Bashkia Elbasan;Stafe
+0;20.1653,42.0286;4406;Bashkia Pukë;Srriqe
+0;20.0431,41.4822;8008;Bashkia Mat;Spleh
+0;20.1500,40.4833;5401;Bashkia Skrapar;Spather
+183;20.1575,40.5044;5401;Bashkia Skrapar;Spatharë
+0;20.3300,41.1594;3408;Bashkia Librazhd;Spathar
+0;20.2525,42.1581;4404;Bashkia Pukë;Spas
+0;20.0458,41.8983;4408;Bashkia Pukë;Spaç
+0;20.7222,40.7425;7021;Bashkia Korçë;Sovjan
+0;20.1969,40.7708;5410;Bashkia Skrapar;Sotirë
+0;20.3278,41.8306;8508;Bashkia Kukës;Soricë
+0;20.3878,41.4969;8401;Bashkia Bulqizë;Sopot
+0;20.3081,41.0428;3015;Bashkia Elbasan;Sopot
+0;20.4125,40.0886;6007;Bashkia Gjirokastër;Sopik
+0;20.5064,40.9722;7308;Bashkia Pogradec;Somotinë
+0;20.3553,40.8228;7018;Bashkia Korçë;Sojnik
+0;20.3933,41.7206;8305;Bashkia Dibër;Sohodoll
+0;20.4008,41.5203;8404;Bashkia Bulqizë;Sofraçan
+0;20.3336,40.8286;7018;Bashkia Korçë;Snosem
+0;20.4103,41.4433;8405;Bashkia Bulqizë;Smollik
+0;20.4083,41.8011;8307;Bashkia Dibër;Sllovë
+0;20.4139,41.7881;8307;Bashkia Dibër;Sllatinë
+49;20.2081,40.4839;5401;Bashkia Skrapar;Slatinjë
+0;20.4825,40.9961;7308;Bashkia Pogradec;Slatinë
+0;20.5028,40.9475;7310;Bashkia Pogradec;Slabinjë
+0;20.4978,41.1044;3407;Bashkia Librazhd;Skroskë
+0;20.7219,40.4008;7403;Bashkia Kolonjë;Skorovot
+0;20.3664,40.1072;6007;Bashkia Gjirokastër;Skore
+0;20.4167,40.3667;5407;Bashkia Skrapar;Skënderë
+0;20.2406,40.7761;5410;Bashkia Skrapar;Skënderbegas
+0;20.5636,41.1339;3405;Bashkia Librazhd;Skënderbe
+0;20.1158,41.5772;8013;Bashkia Mat;Skënderaj
+0;20.3669,41.9211;8505;Bashkia Kukës;Skavicë
+0;20.1597,40.5783;5405;Bashkia Skrapar;Sirakë
+0;20.8694,40.5150;7007;Bashkia Korçë;Sinicë
+0;20.2975,41.7306;8311;Bashkia Dibër;Sina e Poshtme
+0;20.2775,41.7303;8311;Bashkia Dibër;Sina e Epërme
+0;20.2633,40.7208;5410;Bashkia Skrapar;Siman
+0;20.2794,41.5481;8409;Bashkia Bulqizë;Shytaj
+0;20.0808,40.9614;3020;Bashkia Elbasan;Shushica e Vogël
+8731;20.1483,41.0975;3025;Bashkia Elbasan;Shushicë
+5503;20.4236,41.5300;8404;Bashkia Bulqizë;Shupenzë
+0;20.3817,41.7681;8306;Bashkia Dibër;Shumbat
+0;20.4261,41.8297;8308;Bashkia Dibër;Shullan
+0;20.3500,41.3833;8405;Bashkia Bulqizë;Shullan
+0;20.0500,41.5472;8003;Bashkia Mat;Shulbatër
+0;20.9994,40.7000;7011;Bashkia Korçë;Shuec
+0;20.5317,40.5356;7025;Bashkia Korçë;Shtyllë
+0;20.1000,41.8872;4605;Bashkia Mirditë;Shtrungaj
+0;20.5442,41.9822;8516;Bashkia Kukës;Shtrezë
+0;20.1228,40.9375;3020;Bashkia Elbasan;Shtrazë
+0;20.4342,42.0406;8513;Bashkia Kukës;Shtiqën
+0;20.7092,40.4322;7403;Bashkia Kolonjë;Shtikë
+0;20.0136,41.0086;3018;Bashkia Elbasan;Shtërmen
+0;20.0678,40.2111;6019;Bashkia Gjirokastër;Shtëpëz
+0;20.0539,40.9806;3018;Bashkia Elbasan;Shtëpajë
+0;20.0050,41.1406;3012;Bashkia Elbasan;Shtëmaj
+0;20.2681,42.0975;8512;Bashkia Kukës;Shtanë
+0;20.7014,40.8022;7016;Bashkia Korçë;Shqitas
+0;20.4067,41.0103;3406;Bashkia Librazhd;Shqiponjë
+0;20.5769,40.7100;7027;Bashkia Korçë;Dolan
+0;20.0847,41.6669;8010;Bashkia Mat;Shqefën
+0;20.2953,41.6742;8315;Bashkia Dibër;Shqath
+0;20.4394,40.9089;7310;Bashkia Pogradec;Shpellë
+0;20.4042,40.6844;7018;Bashkia Korçë;Shpatmal
+33;20.2150,40.6633;5410;Bashkia Skrapar;Shpatanj
+0;20.0356,41.6042;8001;Bashkia Mat;Shoshaj
+0;20.1667,41.2333;3013;Bashkia Elbasan;Shmil
+0;20.6844,40.7364;7021;Bashkia Korçë;Shkozë
+0;20.5231,40.5983;7022;Bashkia Korçë;Shkozanj
+0;20.4678,41.8917;8506;Bashkia Kukës;Shkinak
+0;20.0986,42.4119;8703;Bashkia Tropojë;Shkëlzen
+0;20.0606,41.4747;8008;Bashkia Mat;Shkallë
+0;20.6058,41.9800;8517;Bashkia Kukës;Shishtavec
+0;20.0533,41.0519;3011;Bashkia Elbasan;Shirgjan
+0;20.5953,40.6653;7029;Bashkia Korçë;Shipskë
+0;20.4372,41.7114;8309;Bashkia Dibër;Shimçan
+0;20.1131,41.0281;3026;Bashkia Elbasan;Shilbatër
+0;20.2731,42.1358;8512;Bashkia Kukës;Shikaj
+0;20.0167,41.1167;3009;Bashkia Elbasan;Shijon
+0;20.4892,40.3306;7405;Bashkia Kolonjë;Shijan
+0;20.7731,40.7442;7014;Bashkia Korçë;Sheqeras
+0;20.3058,40.1714;6012;Bashkia Gjirokastër;Sheper
+0;20.0658,41.3258;1043;Bashkia Tiranë;Shënmëri
+0;20.3442,41.8289;8508;Bashkia Kukës;Shënlleshën
+0;20.1000,41.5167;8002;Bashkia Mat;Shen Kolle
+0;20.4606,40.4842;5407;Bashkia Skrapar;Hadollar
+0;20.0697,41.3214;1043;Bashkia Tiranë;Shëngjini i Madh
+0;20.1883,41.9261;8509;Bashkia Kukës;Shëngjin
+0;20.0072,41.1722;3012;Bashkia Elbasan;Shëngjin
+0;20.1139,41.3361;1043;Bashkia Tiranë;Shëngjergj
+0;20.0936,40.9786;3026;Bashkia Elbasan;Shënavlash
+0;20.2383,42.1042;8512;Bashkia Kukës;Shënmëri
+0;20.2675,40.7686;5410;Bashkia Skrapar;Bletëz
+0;20.1917,40.4061;5406;Bashkia Skrapar;Shelq
+0;20.1058,41.6464;8009;Bashkia Mat;Shëlli
+0;20.1333,41.0614;3025;Bashkia Elbasan;Shelcan
+0;20.2314,41.1242;3409;Bashkia Librazhd;Sheh
+0;20.0156,41.7686;8012;Bashkia Mat;Shebë
+0;20.7808,40.6769;7013;Bashkia Korçë;Shamoll
+0;20.5322,42.1622;8502;Bashkia Kukës;Shalqin
+0;20.4878,40.7433;7027;Bashkia Korçë;Shalës
+0;20.0711,40.4614;5015;Bashkia Berat;Shalës
+0;20.6569,40.2436;7404;Bashkia Kolonjë;Shalës
+0;20.3106,40.2472;6012;Bashkia Gjirokastër;Golemas
+0;20.0036,40.6242;5016;Bashkia Berat;Cyle
+0;20.2792,40.3761;5406;Bashkia Skrapar;Sevrani i Vogël
+0;20.1819,41.1861;3409;Bashkia Librazhd;Sericë
+0;20.4267,40.9881;3406;Bashkia Librazhd;Senisht
+0;20.6086,40.7183;7027;Bashkia Korçë;Senishtë
+0;20.0019,40.0106;9720;Bashkia Sarandë;Senicë
+0;20.2678,40.3267;5406;Bashkia Skrapar;Seniçan
+466;20.0097,40.8175;5307;Bashkia Kuçovë;Pëllumbas
+0;20.0111,40.9544;3020;Bashkia Elbasan;Selvias
+0;20.2181,40.9617;3015;Bashkia Elbasan;Seltë
+0;20.2792,41.6275;8313;Bashkia Dibër;Selishtë
+0;20.0247,42.3100;8706;Bashkia Tropojë;Selimaj
+0;20.5603,40.4511;7406;Bashkia Kolonjë;Selenica e Pishës
+0;20.6917,40.3892;7403;Bashkia Kolonjë;Selenicë
+0;20.0214,40.4714;5015;Bashkia Berat;Selcka e Madhe
+0;20.2950,40.1075;6002;Bashkia Gjirokastër;Selckë
+0;20.5417,40.9533;7307;Bashkia Pogradec;Selca e Sipërme
+0;20.5244,40.9933;7308;Bashkia Pogradec;Selca e Poshtme
+0;20.5406,40.7531;7027;Bashkia Korçë;Selcë
+0;20.4139,41.6461;8314;Bashkia Dibër;Selane
+92;20.1631,40.5511;5405;Bashkia Skrapar;Selan
+0;20.4058,41.3847;8405;Bashkia Bulqizë;Sebisht
+0;20.0756,40.7300;5001;Bashkia Berat;Sasdan
+0;20.0347,40.8292;5307;Bashkia Kuçovë;Sarasel
+0;20.2294,40.1053;6014;Bashkia Gjirokastër;Saraqinishtë
+0;20.5906,40.5192;7025;Bashkia Korçë;Saragi
+0;20.4500,42.1167;8605;Bashkia Has;San Sula
+0;20.5969,40.2603;7404;Bashkia Kolonjë;Sanjollas
+0;20.7228,40.5906;7026;Bashkia Korçë;Sallxhias
+0;20.2394,42.1436;4404;Bashkia Pukë;Sakanjan
+0;20.3797,40.4922;5407;Bashkia Skrapar;Sailard
+0;20.2500,42.2167;8705;Bashkia Tropojë;Rushtë-Shëngjergj
+0;20.1642,42.2364;8705;Bashkia Tropojë;Rushtë
+0;20.0192,41.6836;8012;Bashkia Mat;Rukaj
+0;20.1086,42.0661;4406;Bashkia Pukë;Rosh
+47;20.1914,40.7061;5410;Bashkia Skrapar;Rromas
+100;20.0242,41.5531;8003;Bashkia Mat;Rripë
+0;20.0700,41.1625;3013;Bashkia Elbasan;Rrilë
+0;20.3461,41.6889;8315;Bashkia Dibër;Rreth Kale
+0;20.0000,41.7667;8012;Bashkia Mat;Rrethas
+0;20.0342,41.6778;8010;Bashkia Mat;Rremull
+0;20.2511,40.7431;5410;Bashkia Skrapar;Ermenj
+0;20.5133,41.0467;3413;Bashkia Librazhd;Rashtan
+8421;20.5764,41.0903;3405;Bashkia Librazhd;Rajcë
+0;20.0081,41.2372;1049;Bashkia Tiranë;Rozaverë
+0;20.7925,40.6944;7013;Bashkia Korçë;Rov
+2513;20.0394,40.7328;5001;Bashkia Berat;Roshnik Qender
+0;20.6394,40.4786;7403;Bashkia Kolonjë;Roshanj
+0;20.2744,40.4106;5406;Bashkia Skrapar;Rog
+0;20.1656,40.4028;5406;Bashkia Skrapar;Rodenj
+0;20.2000,41.2833;1043;Bashkia Tiranë;Rinas
+0;20.2311,40.3261;5406;Bashkia Skrapar;Riban
+0;20.3761,41.9286;8501;Bashkia Kukës;Resk
+900;20.0258,41.8661;4605;Bashkia Mirditë;Reps
+0;20.6622,40.8789;7304;Bashkia Pogradec;Rëmenj
+0;20.7908,40.7056;7014;Bashkia Korçë;Rëmbec
+0;20.2083,40.4517;5406;Bashkia Skrapar;Rovicë
+0;20.6083,40.4864;7025;Bashkia Korçë;Rehovë
+0;20.7058,40.3331;7401;Bashkia Kolonjë;Rehovë
+0;20.0192,41.1236;3009;Bashkia Elbasan;Reçan
+0;20.7447,40.6053;7026;Bashkia Korçë;Ravonik
+0;20.3956,41.8081;8307;Bashkia Dibër;Ratkë
+0;20.3219,40.8786;3015;Bashkia Elbasan;Rashtan
+0;20.4092,41.6878;8304;Bashkia Dibër;Rashnapojë
+0;20.2722,40.2625;6012;Bashkia Gjirokastër;Rapckë
+0;20.4167,42.0833;8605;Bashkia Has;Ramhas-Kukës
+0;20.1667,41.4000;8403;Bashkia Bulqizë;Rama
+0;20.9261,40.7603;7020;Bashkia Korçë;Ralnik
+0;20.9794,40.7133;7011;Bashkia Korçë;Rakickë
+0;20.5508,40.2794;7404;Bashkia Kolonjë;Rajan
+0;20.4711,40.4228;7406;Bashkia Kolonjë;Radovickë
+0;20.4728,41.4469;8405;Bashkia Bulqizë;Radovesh
+0;20.5461,40.1614;6001;Bashkia Gjirokastër;Radovë
+0;20.4833,41.8153;8308;Bashkia Dibër;Radomirë
+0;20.5511,41.0167;7308;Bashkia Pogradec;Rodokali i Poshtëm
+0;20.5564,41.0042;7308;Bashkia Pogradec;Rodokali i Sipërm
+0;20.1903,42.2322;8705;Bashkia Tropojë;Berishë
+0;20.5683,40.2619;7404;Bashkia Kolonjë;Radimisht
+252;20.2533,40.5364;5413;Bashkia Skrapar;Radësh
+0;20.6183,40.2119;7404;Bashkia Kolonjë;Radanj
+0;20.4964,41.6842;8303;Bashkia Dibër;Rabdisht
+0;20.3131,40.3400;5406;Bashkia Skrapar;Raban
+0;20.8947,40.4975;7007;Bashkia Korçë;Qytezë
+0;20.5508,40.4322;7406;Bashkia Kolonjë;Qytezë
+0;20.0097,40.9592;3020;Bashkia Elbasan;Qyrkan
+0;20.4381,41.0839;3407;Bashkia Librazhd;Qukës-Skënderbe
+650;20.4478,41.0933;3407;Bashkia Librazhd;Qukës-Shkumbin
+0;20.0147,40.6428;5016;Bashkia Berat;Qorraj
+0;20.4903,40.4089;7406;Bashkia Kolonjë;Qinam-Radovickë
+0;20.3694,42.0161;8510;Bashkia Kukës;Qinamakë
+0;20.6958,40.3975;7403;Bashkia Kolonjë;Qinam
+0;20.3914,40.2347;6001;Bashkia Gjirokastër;Qilarisht
+0;20.1739,42.1900;4404;Bashkia Pukë;Qibik
+0;20.3311,40.7344;7018;Bashkia Korçë;Qetë
+0;20.1997,40.1175;6018;Bashkia Gjirokastër;Qestorat
+0;20.3661,40.4058;5406;Bashkia Skrapar;Qeshibes
+0;20.5283,40.4117;7406;Bashkia Kolonjë;Qesarakë
+0;20.7167,40.8500;7306;Bashkia Pogradec;Qershizë
+0;20.6531,40.8014;7016;Bashkia Korçë;Qershizë
+0;20.1933,41.2225;3409;Bashkia Librazhd;Qerret
+1105;20.0097,40.7633;5001;Bashkia Berat;Qereshnik
+0;20.6008,40.7411;7027;Bashkia Korçë;Qenckë
+0;20.7444,40.5850;7017;Bashkia Korçë;Qatrom
+0;20.4392,41.2683;3411;Bashkia Librazhd;Qarrishtë
+0;20.3917,42.2617;8603;Bashkia Has;Qarr
+0;20.2872,41.8203;8310;Bashkia Dibër;Qanë
+0;20.2028,42.0850;8512;Bashkia Kukës;Cam
+0;20.6339,40.4339;7403;Bashkia Kolonjë;Qafëzez
+0;20.2031,41.6342;8313;Bashkia Dibër;Qafë-Murrë
+1548;20.0906,42.0933;4406;Bashkia Pukë;Qafëmal
+343;20.1542,40.7575;5410;Bashkia Skrapar;Qafë-Dardhë
+0;20.1661,41.2272;3013;Bashkia Elbasan;Qafë
+0;20.0372,40.9444;3020;Bashkia Elbasan;Qafë
+31;20.3017,40.4875;5407;Bashkia Skrapar;Qafë
+0;20.4053,42.1247;8605;Bashkia Has;Pusi i Thatë
+0;20.5183,40.6344;7022;Bashkia Korçë;Punëmirë
+0;20.6944,40.5344;7017;Bashkia Korçë;Pulahë
+0;20.5858,40.4386;7406;Bashkia Kolonjë;Psari i Zi
+0;20.6817,40.3503;7401;Bashkia Kolonjë;Psar
+4015;20.5353,41.0667;3413;Bashkia Librazhd;Përrenjas-Fshat
+5847;20.5489,41.0731;3413;Bashkia Librazhd;Përrenjas
+0;20.0625,40.8567;3019;Bashkia Elbasan;Përrenjas
+0;20.5025,40.9861;7308;Bashkia Pogradec;Proptisht
+0;20.0328,40.1164;6019;Bashkia Gjirokastër;Prongji
+0;20.9403,40.6942;7011;Bashkia Korçë;Progër
+0;20.3583,41.3633;3410;Bashkia Librazhd;Prodan
+0;20.6803,40.3078;7404;Bashkia Kolonjë;Prodan
+0;20.2272,40.4328;5406;Bashkia Skrapar;Prishtë
+0;20.0494,40.4836;5015;Bashkia Berat;Selcka e Vogël
+0;20.7264,40.8192;7306;Bashkia Pogradec;Pretushë
+0;20.2947,40.5706;5413;Bashkia Skrapar;Prrenjas
+0;20.6269,40.8253;7309;Bashkia Pogradec;Prenisht
+0;20.0317,41.6958;8012;Bashkia Mat;Prell
+0;20.2119,41.8397;8310;Bashkia Dibër;Pregj-Lurë
+0;20.0667,41.2000;3013;Bashkia Elbasan;Preça e Sipërme
+0;20.0833,41.1833;3013;Bashkia Elbasan;Preça e Poshtme
+0;20.1717,41.1764;3409;Bashkia Librazhd;Prapanikë
+0;20.3781,41.8500;8508;Bashkia Kukës;Prahlisht
+897;20.3733,40.4883;5407;Bashkia Skrapar;Potom
+0;20.5694,40.9033;7307;Bashkia Pogradec;Potkozhan
+46;20.3092,40.6606;5410;Bashkia Skrapar;Posten
+0;20.5497,40.1836;6001;Bashkia Gjirokastër;Postenan
+0;20.0519,40.9386;3020;Bashkia Elbasan;Porrepth
+0;20.7131,40.6442;7019;Bashkia Korçë;Porodinë
+0;20.3186,40.9122;3015;Bashkia Elbasan;Holtas
+0;20.2986,40.9419;3015;Bashkia Elbasan;Poroçan
+0;20.0925,40.7144;5001;Bashkia Berat;Danushi
+0;20.0586,42.2439;4030;Bashkia Shkodër;Poravë
+0;20.4764,40.6444;7022;Bashkia Korçë;Popovinë
+0;20.4889,41.6164;8302;Bashkia Dibër;Popinarë
+0;20.4992,40.7031;7027;Bashkia Korçë;Gurshqipe
+0;20.9708,40.5303;7010;Bashkia Korçë;Ponçarë
+0;20.4175,41.6828;8304;Bashkia Dibër;Pollozhan
+0;20.9672,40.5917;7001;Bashkia Korçë;Poloskë
+0;20.1333,41.1000;3025;Bashkia Elbasan;Polis Valë
+0;20.2583,41.1333;3409;Bashkia Librazhd;Polis-Gostimë
+0;20.1781,41.1381;3025;Bashkia Elbasan;Polisi i Vogël
+4318;20.0981,40.6122;5016;Bashkia Berat;Poliçan
+0;20.3503,40.1300;6007;Bashkia Gjirokastër;Poliçan
+0;20.6975,40.5908;7026;Bashkia Korçë;Polenë
+39;20.2797,40.4908;5413;Bashkia Skrapar;Polenë
+0;20.8375,40.7258;7014;Bashkia Korçë;Pojan
+46070;20.6525,40.9025;7301;Bashkia Pogradec;Pogradec
+0;20.5294,42.1711;8502;Bashkia Kukës;Pogaj
+0;20.7969,40.8150;7028;Bashkia Korçë;Podgorie
+0;20.4522,41.5669;8302;Bashkia Dibër;Podgorcë
+0;20.6139,40.2397;7404;Bashkia Kolonjë;Podë
+0;20.7156,40.6822;7021;Bashkia Korçë;Pocestë
+0;20.5017,41.5919;8302;Bashkia Dibër;Pocest
+0;20.4553,41.8447;8308;Bashkia Dibër;Ploshtan
+0;20.0831,40.6142;5016;Bashkia Berat;Plirëzë
+0;20.6386,40.7169;7021;Bashkia Korçë;Plovisht-Bos
+0;20.5469,40.9325;7307;Bashkia Pogradec;Pleshisht
+0;20.1011,41.5192;8002;Bashkia Mat;Pleshë
+0;20.0494,40.1297;6019;Bashkia Gjirokastër;Plesat
+0;20.8442,40.6856;7015;Bashkia Korçë;Plasë
+0;20.1625,41.4731;8014;Bashkia Mat;Plani i Bardhë
+0;20.1564,41.9706;8509;Bashkia Kukës;Plan
+0;20.1267,40.9781;3026;Bashkia Elbasan;Katund Plak
+0;20.4453,41.6461;8303;Bashkia Dibër;Pjeçë
+0;20.0225,42.2308;4030;Bashkia Shkodër;Pjavër
+0;20.2136,42.1356;4404;Bashkia Pukë;Pistë
+0;20.6331,41.0347;3405;Bashkia Librazhd;Piskupat
+0;20.5164,40.3144;7405;Bashkia Kolonjë;Piskal
+0;20.2658,40.2653;6012;Bashkia Gjirokastër;Vilë
+0;20.5122,41.0967;3413;Bashkia Librazhd;Pishkash
+0;20.1317,41.2597;1043;Bashkia Tiranë;Pishaj
+4906;20.1828,40.8811;3015;Bashkia Elbasan;Pishaj
+0;20.7061,40.7850;7016;Bashkia Korçë;Pirg
+0;20.1592,42.1808;4404;Bashkia Pukë;Pirac
+0;20.9167,40.6667;7011;Bashkia Korçë;Pilur
+0;20.4119,41.6939;8304;Bashkia Dibër;Pilafe
+0;20.5581,40.9106;7307;Bashkia Pogradec;Pevelan
+0;20.0044,41.1139;3009;Bashkia Elbasan;Petresh
+3243;20.4061,40.1994;6001;Bashkia Gjirokastër;Gjinkar
+0;20.4183,40.2094;6001;Bashkia Gjirokastër;Petran
+0;20.0561,41.4689;8008;Bashkia Mat;Petralbë
+0;20.2458,42.1122;8512;Bashkia Kukës;Petkaj
+0;20.4842,41.5950;8302;Bashkia Dibër;Pesjakë
+0;20.4333,40.6742;7018;Bashkia Korçë;Peshtan
+396;20.0633,40.6642;5016;Bashkia Berat;Peshtan
+0;20.1231,40.2900;6009;Bashkia Gjirokastër;Peshtan
+0;20.5353,40.2442;7404;Bashkia Kolonjë;Peshtan
+14710;20.4286,41.6850;8301;Bashkia Dibër;Peshkopi
+0;20.7769,40.8969;7306;Bashkia Pogradec;Peshkëpi
+0;20.3256,41.3086;3410;Bashkia Librazhd;Prevall
+0;20.3425,42.2444;8603;Bashkia Has;Perollaj
+0;20.0239,41.3147;1043;Bashkia Tiranë;Përpunje
+0;20.9131,40.5869;7009;Bashkia Korçë;Përparimaj
+7980;20.3517,40.2336;6001;Bashkia Gjirokastër;Përmet
+103;20.0983,40.7383;5001;Bashkia Berat;Perisnakë
+0;20.4478,42.0853;8605;Bashkia Has;Përbreg
+0;20.3531,42.2900;8603;Bashkia Has;Peraj
+0;20.6961,40.4753;7403;Bashkia Kolonjë;Pepellash
+0;20.8331,40.7044;7015;Bashkia Korçë;Pendavinj
+0;20.4725,40.1494;6001;Bashkia Gjirokastër;Pëllumbar
+0;20.3447,41.5197;8406;Bashkia Bulqizë;Peladhi
+0;20.4342,41.6389;8303;Bashkia Dibër;Pejkë
+0;20.1639,40.4208;5406;Bashkia Skrapar;Pavar
+0;20.1167,41.5497;8013;Bashkia Mat;Patin
+0;20.4853,41.4683;8405;Bashkia Bulqizë;Pasinkë
+0;20.2281,41.0031;3014;Bashkia Elbasan;Pashtresh
+0;20.4950,40.6650;7022;Bashkia Korçë;Osojë
+111;20.0342,40.5408;5015;Bashkia Berat;Paraspuar
+0;20.4733,40.4844;5407;Bashkia Skrapar;Panarit
+49;20.0267,40.4964;5015;Bashkia Berat;Panarit
+0;20.2122,40.3372;5406;Bashkia Skrapar;Panarit
+0;20.4172,41.8639;8506;Bashkia Kukës;Palush
+0;20.0878,42.0758;4406;Bashkia Pukë;Palucaj
+0;20.1014,40.1586;6009;Bashkia Gjirokastër;Palokastër
+0;20.3817,41.7933;8307;Bashkia Dibër;Palaman
+0;20.5692,42.0517;8515;Bashkia Kukës;Pakisht
+0;20.3383,40.3361;5406;Bashkia Skrapar;Pagri
+0;20.2742,40.3003;5406;Bashkia Skrapar;Pacomit
+0;20.4956,41.4294;8405;Bashkia Bulqizë;Ostreni i Vogël
+0;20.4556,41.4308;8405;Bashkia Bulqizë;Ostreni i Math
+0;20.5014,40.6681;7022;Bashkia Korçë;Osojë
+110;20.2839,40.5097;5413;Bashkia Skrapar;Osojë
+0;20.5900,40.8256;7309;Bashkia Pogradec;Osnat
+0;20.4000,41.9831;8504;Bashkia Kukës;Osmanaj
+0;20.4472,41.4189;8405;Bashkia Bulqizë;Orzhanovë
+0;20.1181,41.2119;3013;Bashkia Elbasan;Orpen
+0;20.0397,42.1158;4406;Bashkia Pukë;Orosh
+0;20.0833,41.8333;4605;Bashkia Mirditë;Orosh
+0;20.7675,40.6461;7013;Bashkia Korçë;Çiflig
+0;20.5028,40.3911;7406;Bashkia Kolonjë;Orgockë
+0;20.5769,42.0428;8515;Bashkia Kukës;Orgjost
+0;20.3781,41.4033;8405;Bashkia Bulqizë;Greshnjë
+0;20.5617,42.0128;8519;Bashkia Kukës;Oreshkë
+0;20.2119,41.2847;3410;Bashkia Librazhd;Orenjë
+0;20.5378,42.0425;8515;Bashkia Kukës;Orçikël
+0;20.4350,40.6208;7022;Bashkia Korçë;Opar
+0;20.3883,41.4053;8405;Bashkia Bulqizë;Okshtuni i Madh
+0;20.4264,41.5658;8404;Bashkia Bulqizë;Okshatinë
+0;20.9481,40.8442;7020;Bashkia Korçë;Ojmicë
+0;20.4494,40.3178;6001;Bashkia Gjirokastër;Ogren
+0;20.4444,40.2331;6001;Bashkia Gjirokastër;Ogdunan
+0;20.1667,40.1333;6018;Bashkia Gjirokastër;Odrie
+0;20.3264,40.3503;5406;Bashkia Skrapar;Odriçan
+0;20.4086,40.2547;6001;Bashkia Gjirokastër;Novoselë
+0;20.6983,40.7614;7016;Bashkia Korçë;Novoselë
+0;20.5908,40.3350;7405;Bashkia Kolonjë;Novoselë
+150;20.5881,41.9828;8518;Bashkia Kukës;Novosej
+0;20.0375,40.6997;5001;Bashkia Berat;Novë
+194;20.1450,40.5919;5405;Bashkia Skrapar;Novaj
+0;20.0483,40.1667;6019;Bashkia Gjirokastër;Picar
+0;20.2667,41.8833;8509;Bashkia Kukës;Nomë
+0;20.1694,40.1453;6008;Bashkia Gjirokastër;Nokovë
+0;20.3947,40.7075;7018;Bashkia Korçë;Një Maj
+0;20.2903,40.1797;6012;Bashkia Gjirokastër;Nivan
+89;20.1303,40.6008;5405;Bashkia Skrapar;Nishovë
+125;20.1833,40.4686;5401;Bashkia Skrapar;Nishicë
+0;20.5194,42.0156;8516;Bashkia Kukës;Nimçë
+0;20.4731,40.6906;7018;Bashkia Korçë;Nikollarë
+28;20.3978,40.4453;5407;Bashkia Skrapar;Nikollarë
+0;20.4081,42.2381;8603;Bashkia Has;Nikoliq
+0;20.8064,40.4750;7007;Bashkia Korçë;Nikolicë
+0;20.5681,40.8150;7309;Bashkia Pogradec;Niçë
+0;20.2292,40.9786;3015;Bashkia Elbasan;Nezhan
+0;20.3286,41.7900;8306;Bashkia Dibër;Nezhaj
+0;20.8258,40.6594;7024;Bashkia Korçë;Neviçisht
+0;20.2703,41.3039;3410;Bashkia Librazhd;Neshtë
+0;20.2731,40.0008;6003;Bashkia Gjirokastër;Nepravishtë
+0;20.1139,41.8686;4605;Bashkia Mirditë;Nënshenjt
+0;20.5336,40.4600;7406;Bashkia Kolonjë;Katund-Stratobërdë
+0;20.0869,41.8294;4605;Bashkia Mirditë;Ndërshenë
+0;20.0417,42.1619;4403;Bashkia Pukë;Ndërlymnat
+0;20.1667,41.4000;8403;Bashkia Bulqizë;Ndërfushas
+0;20.2778,40.1689;6012;Bashkia Gjirokastër;Nderan
+0;20.4164,42.0117;8504;Bashkia Kukës;Nangë
+0;20.1958,41.9811;8509;Bashkia Kukës;Sang
+0;20.3592,42.1058;8511;Bashkia Kukës;Myç-Has
+0;20.3875,42.0750;8511;Bashkia Kukës;Myç
+0;20.3153,40.4072;5406;Bashkia Skrapar;Muzhenckë
+0;20.2556,40.4089;5406;Bashkia Skrapar;Muzhakë
+0;20.4406,40.1889;6001;Bashkia Gjirokastër;Musukar
+0;20.4139,41.9831;8504;Bashkia Kukës;Mustafaj
+0;20.2667,41.7500;8311;Bashkia Dibër;Mustafaj
+0;20.0689,41.9556;4408;Bashkia Pukë;Mushtë
+0;20.2228,41.6367;8313;Bashkia Dibër;Murrë
+0;20.0047,40.9356;3019;Bashkia Elbasan;Murat Bejas
+0;20.4000,41.4333;8405;Bashkia Bulqizë;Murataj
+153;20.1914,40.5036;5401;Bashkia Skrapar;Munushtir
+0;20.4831,40.1833;6001;Bashkia Gjirokastër;Iljarë
+0;20.3514,42.1275;8604;Bashkia Has;Munekë
+0;20.3647,40.8164;7018;Bashkia Korçë;Mukaj
+0;20.4550,42.1908;8601;Bashkia Has;Mujaj
+0;20.3856,41.3906;8405;Bashkia Bulqizë;Moglicë
+0;20.0881,41.0100;3026;Bashkia Elbasan;Muçan
+0;20.0833,42.0833;4406;Bashkia Pukë;Mrijaj
+0;20.1964,41.0097;3014;Bashkia Elbasan;Maskarth
+0;20.5317,42.1414;8502;Bashkia Kukës;Morin
+0;20.8158,40.5889;7023;Bashkia Korçë;Moravë
+0;20.1389,42.0144;4406;Bashkia Pukë;Mollëkuqe
+0;20.3256,40.8211;7018;Bashkia Korçë;Mollë
+0;20.0036,40.9269;3019;Bashkia Elbasan;Mollas
+173;20.2267,40.5375;5413;Bashkia Skrapar;Mollas
+0;20.6744,40.4256;7403;Bashkia Kolonjë;Mollas
+0;20.7403,40.5603;7017;Bashkia Korçë;Mollaj
+0;20.0347,41.2219;3013;Bashkia Elbasan;Mollagjesh
+0;20.3272,40.2992;6001;Bashkia Gjirokastër;Mokricë
+0;20.5758,40.7508;7027;Bashkia Korçë;Moçan
+0;20.6128,40.8514;7309;Bashkia Pogradec;Malok
+0;20.1033,41.0800;3025;Bashkia Elbasan;Mlizë
+0;20.0656,41.0750;3011;Bashkia Elbasan;Mjekës
+0;20.6272,40.7742;7016;Bashkia Korçë;Mjaltas
+0;20.4217,40.6103;7022;Bashkia Korçë;Mazrekë-Opar
+0;20.0414,41.5200;8002;Bashkia Mat;Mishtër
+0;20.9283,40.5092;7007;Bashkia Korçë;Miras
+0;20.2244,41.1689;3409;Bashkia Librazhd;Mirakë
+0;20.1733,40.1411;6008;Bashkia Gjirokastër;Mingul
+172;20.0225,40.7147;5001;Bashkia Berat;Mimias
+77;20.2847,40.5853;5411;Bashkia Skrapar;Melovë
+0;20.0819,42.2133;4403;Bashkia Pukë;Miliska
+0;20.7275,40.4125;7403;Bashkia Kolonjë;Milec
+0;20.0125,42.0833;4407;Bashkia Pukë;Micoj
+0;20.3961,40.4214;5407;Bashkia Skrapar;Miçan
+0;20.1292,42.2161;4404;Bashkia Pukë;Mëzi
+0;20.2500,41.2833;3410;Bashkia Librazhd;Mëxixë
+0;20.3133,42.1294;8604;Bashkia Has;Metaliaj
+0;20.0539,41.9506;4408;Bashkia Pukë;Mesul
+0;20.5419,40.7853;7027;Bashkia Korçë;Mesmal
+0;20.5800,40.3528;7405;Bashkia Kolonjë;Mësiçkë
+0;20.2417,40.3636;5406;Bashkia Skrapar;Mërtinj
+0;20.1381,41.8181;4605;Bashkia Mirditë;Mërkurth
+0;20.1719,40.3203;5406;Bashkia Skrapar;Merkuraj
+0;20.3167,41.8000;8306;Bashkia Dibër;Merckë
+0;20.5044,40.1692;6001;Bashkia Gjirokastër;Mercëq
+0;20.9517,40.5286;7010;Bashkia Korçë;Menkulas
+0;20.4864,40.5433;7022;Bashkia Korçë;Menkshi
+0;20.1000,41.1500;3013;Bashkia Elbasan;Mengël
+0;20.2825,41.7897;8306;Bashkia Dibër;Mënësh
+179;20.0756,40.8028;5001;Bashkia Berat;Mëndrak
+0;20.6375,40.9350;7301;Bashkia Pogradec;Mëmëlisht
+0;20.6497,40.7592;7016;Bashkia Korçë;Mëmël-Manastirec
+0;20.1833,41.4167;8403;Bashkia Bulqizë;Melsu
+29;20.4272,40.4486;5407;Bashkia Skrapar;Melskë
+0;20.7231,40.6475;7019;Bashkia Korçë;Melçan
+0;20.4653,41.6542;8303;Bashkia Dibër;Melan
+0;20.4256,41.9725;8504;Bashkia Kukës;Mëhole
+0;20.0264,40.9344;3020;Bashkia Elbasan;Shkëmb
+0;20.2222,42.1008;8512;Bashkia Kukës;Mëgullë
+0;20.0397,40.7936;5001;Bashkia Berat;Meçkarë
+0;20.2089,40.2922;6012;Bashkia Gjirokastër;Mbrezhdan
+0;20.5119,40.2967;7405;Bashkia Kolonjë;Mbreshtan
+706;20.0667,40.6292;5016;Bashkia Berat;Mbrakull
+3850;20.8031,40.6033;7023;Bashkia Korçë;Mborje
+0;20.3681,42.1894;8601;Bashkia Has;Mazrek
+0;20.4025,41.6031;8314;Bashkia Dibër;Mazhicë
+0;20.4269,41.8675;8506;Bashkia Kukës;Matranxh
+0;20.0728,41.8742;4605;Bashkia Mirditë;Mashtërkor
+0;20.0867,40.1175;6013;Bashkia Gjirokastër;Mashkullorë
+0;20.2000,41.4000;8403;Bashkia Bulqizë;Martanesh
+0;20.0181,42.2786;4030;Bashkia Shkodër;Markokaj
+0;20.6267,40.7619;7027;Bashkia Korçë;Marjan
+0;20.4858,40.5706;7022;Bashkia Korçë;Marjan
+0;20.2667,40.0167;6003;Bashkia Gjirokastër;Marina
+0;20.4831,41.5889;8302;Bashkia Dibër;Maqellarë
+0;20.5014,40.4561;7406;Bashkia Kolonjë;Treskë
+0;20.1794,41.6208;8009;Bashkia Mat;Mazdre
+0;20.3714,42.0614;8511;Bashkia Kukës;Mamëz
+0;20.3872,41.9400;8501;Bashkia Kukës;Malqenë
+0;20.0572,41.5964;8007;Bashkia Mat;Mallunxë
+0;20.4314,41.4989;8404;Bashkia Bulqizë;Mallakastër
+0;20.0708,40.6456;5016;Bashkia Berat;Malishovë
+0;20.4436,40.7069;7018;Bashkia Korçë;Maliqi i Oparit
+3735;20.6997,40.7058;7021;Bashkia Korçë;Maliq
+0;20.5742,40.9122;7307;Bashkia Pogradec;Malinë
+0;20.3031,40.3961;5406;Bashkia Skrapar;Malind
+743;20.0328,40.6119;5016;Bashkia Berat;Malinat
+0;20.5322,40.6886;7027;Bashkia Korçë;Mali Boden
+0;20.2461,40.9311;3015;Bashkia Elbasan;Maliben
+0;20.1933,40.2619;6008;Bashkia Gjirokastër;Malëshovë
+0;20.7142,40.3442;7401;Bashkia Kolonjë;Hodallar
+0;20.7972,40.6600;7013;Bashkia Korçë;Malavec
+0;20.0069,41.0194;3018;Bashkia Elbasan;Malasejë
+0;20.0000,41.8000;4602;Bashkia Mirditë;Malaj i Epërm
+0;20.4708,41.5675;8302;Bashkia Dibër;Majtarë
+0;20.9294,40.7036;7011;Bashkia Korçë;Mançurisht
+0;20.1103,41.6886;8011;Bashkia Mat;Macukull
+0;20.6133,40.8744;7301;Bashkia Pogradec;Macikak
+0;20.0333,41.0833;3009;Bashkia Elbasan;Lykin
+409;20.1158,40.6636;5016;Bashkia Berat;Lybeshë
+0;20.1019,42.3250;8706;Bashkia Tropojë;Luzhë
+0;20.0381,40.2586;6019;Bashkia Gjirokastër;Luzat
+480;20.0050,40.8675;3019;Bashkia Elbasan;Luzaj
+0;20.4086,41.9131;8501;Bashkia Kukës;Lusën
+0;20.2144,41.8133;4605;Bashkia Mirditë;Lura e Vjetër
+0;20.4108,40.2853;6001;Bashkia Gjirokastër;Lupckë
+0;20.3236,41.2892;3410;Bashkia Librazhd;Lunik
+0;20.2167,41.6167;8313;Bashkia Dibër;Lunar
+0;20.0222,42.0211;4402;Bashkia Pukë;Lumz
+0;20.4544,42.0675;8513;Bashkia Kukës;Lumë
+0;20.0628,42.0536;4402;Bashkia Pukë;Lumëbardhë
+0;20.0167,42.1000;4407;Bashkia Pukë;Lumardhë
+0;20.7364,40.6586;7019;Bashkia Korçë;Lumalas
+0;20.4558,40.6639;7018;Bashkia Korçë;Lumaj
+0;20.2503,41.6392;8313;Bashkia Dibër;Lukan
+0;20.1581,41.0278;3014;Bashkia Elbasan;Lukan
+0;20.3478,41.7953;8306;Bashkia Dibër;Lugjaj
+0;20.1711,41.2569;1043;Bashkia Tiranë;Lukaxhi
+0;20.1086,42.3414;8706;Bashkia Tropojë;Llugaj
+0;20.0464,41.7194;8012;Bashkia Mat;Lujajt i Poshtëm
+0;20.6103,40.4686;7025;Bashkia Korçë;Lubonjë
+0;20.1383,40.8583;3019;Bashkia Elbasan;Lubinjë
+0;20.4258,41.4747;8405;Bashkia Bulqizë;Lubalesh
+0;20.0833,41.6500;8009;Bashkia Mat;Luars
+0;20.5808,40.4014;7406;Bashkia Kolonjë;Luaras
+0;20.1886,40.3614;5406;Bashkia Skrapar;Luarë
+0;20.0500,42.3333;8706;Bashkia Tropojë;Lozhnë
+0;20.5508,40.7158;7027;Bashkia Korçë;Lozhan
+0;20.4714,40.9389;7310;Bashkia Pogradec;Losnik
+0;20.5106,42.0328;8515;Bashkia Kukës;Lojme
+0;20.2186,40.2086;6012;Bashkia Gjirokastër;Lliar
+0;20.1669,41.0478;3014;Bashkia Elbasan;Lleshan
+0;20.3158,40.9314;3015;Bashkia Elbasan;Lleshaj
+0;20.5006,40.8850;7307;Bashkia Pogradec;Llëngë
+0;20.3672,41.2928;3410;Bashkia Librazhd;Llangë
+0;20.5008,41.4639;8405;Bashkia Bulqizë;Lladomericë
+0;20.3542,41.6381;8314;Bashkia Dibër;Lishani i Poshtëm
+0;20.3550,41.6275;8314;Bashkia Dibër;Lishani i Epërm
+0;20.0853,41.6275;8009;Bashkia Mat;Lis
+0;20.1844,40.9258;3015;Bashkia Elbasan;Liras
+0;20.9022,40.7867;7020;Bashkia Korçë;Liqenas
+0;20.2911,42.1831;8604;Bashkia Has;Liqeni i Kuq
+57;20.2181,40.4714;5406;Bashkia Skrapar;Liqeth
+0;20.4525,40.2175;6001;Bashkia Gjirokastër;Lipivan
+0;20.3325,40.2272;6012;Bashkia Gjirokastër;Lipë
+0;20.0000,40.9047;3019;Bashkia Elbasan;Linas
+0;20.6386,41.0661;3405;Bashkia Librazhd;Lin
+0;20.4100,41.7383;8309;Bashkia Dibër;Limjan
+0;20.1744,40.2608;6008;Bashkia Gjirokastër;Limar
+0;20.0000,40.8167;5307;Bashkia Kuçovë;Lilaj
+0;20.3606,41.2103;3408;Bashkia Librazhd;Librazhd-Katund
+23312;20.3150,41.1794;3409;Bashkia Librazhd;Librazhd
+0;20.7086,40.7044;7021;Bashkia Korçë;Libonik
+3651;20.2631,40.0311;6003;Bashkia Gjirokastër;Libohovë
+0;20.3558,40.2194;6001;Bashkia Gjirokastër;Leusë
+0;20.2242,40.0711;6002;Bashkia Gjirokastër;Letovisht
+0;20.3383,41.2486;3410;Bashkia Librazhd;Letëm
+0;20.0533,41.1508;3013;Bashkia Elbasan;Letan
+0;20.3847,42.2856;8603;Bashkia Has;Letaj
+0;20.0167,41.8500;4605;Bashkia Mirditë;Letaj
+0;20.2303,41.4222;8403;Bashkia Bulqizë;Letaj
+939;20.5972,40.1514;7404;Bashkia Kolonjë;Leskovik
+0;20.2083,40.3611;5406;Bashkia Skrapar;Leskovec
+89;20.2917,40.6694;5410;Bashkia Skrapar;Leskovë
+0;20.6400,40.9742;7305;Bashkia Pogradec;Polje
+0;20.1919,40.2461;6008;Bashkia Gjirokastër;Leskaj
+496;20.3133,40.5369;5413;Bashkia Skrapar;Leshnjë
+0;20.6133,40.5275;7025;Bashkia Korçë;Leshnjë
+0;20.6644,40.2675;7404;Bashkia Kolonjë;Leshnjë
+0;20.7028,40.8503;7306;Bashkia Pogradec;Leshnicë
+0;20.3694,40.2122;6001;Bashkia Gjirokastër;Leshicë
+0;20.4200,40.6994;7018;Bashkia Korçë;Leshec
+0;20.0875,40.8292;5001;Bashkia Berat;Leshtar
+0;20.2306,42.2408;8705;Bashkia Tropojë;Leniq
+0;20.3914,40.7667;7018;Bashkia Korçë;Lenias
+0;20.6467,40.3533;7401;Bashkia Kolonjë;Lëngëz
+0;20.1781,41.3986;8403;Bashkia Bulqizë;Lenaj
+0;20.5331,40.3883;7406;Bashkia Kolonjë;Lenckë
+0;20.2400,40.7208;5410;Bashkia Skrapar;Lemnushë
+0;20.6947,40.7939;7016;Bashkia Korçë;Leminot
+0;20.0322,42.3131;8706;Bashkia Tropojë;Lëkurtaj
+0;20.0547,41.7728;4605;Bashkia Mirditë;Lëkundë
+0;20.0794,40.2561;6019;Bashkia Gjirokastër;Lekël
+0;20.5994,40.8197;7309;Bashkia Pogradec;Lekas
+0;20.5125,40.6022;7022;Bashkia Korçë;Lekas
+0;20.1467,42.0936;4406;Bashkia Pukë;Lajthizë
+0;20.4100,41.4264;8405;Bashkia Bulqizë;Lejçan
+0;20.2667,41.7500;8311;Bashkia Dibër;Lazrej
+0;20.1475,40.0467;6004;Bashkia Gjirokastër;Lazarat
+0;20.6539,40.6011;7026;Bashkia Korçë;Lavdari i Korcës
+43;20.1153,40.4928;5401;Bashkia Skrapar;Lavdar
+0;20.0769,40.6844;5016;Bashkia Berat;Laudisht
+0;20.0819,41.4614;8008;Bashkia Mat;Laskaj
+0;20.2167,41.9711;8509;Bashkia Kukës;Lashtë
+0;20.5744,40.1975;7404;Bashkia Kolonjë;Lashovë
+0;20.2975,41.8156;8508;Bashkia Kukës;Lashkizë
+0;20.2536,41.9728;8509;Bashkia Kukës;Lar
+0;20.2869,40.4294;5406;Bashkia Skrapar;Lopan
+0;20.0892,41.7372;8011;Bashkia Mat;Lami i Madh
+0;20.4756,40.9736;7310;Bashkia Pogradec;Laktesh
+0;20.2056,41.8742;8509;Bashkia Kukës;Lajthizë
+0;20.8889,40.7778;7020;Bashkia Korçë;Lajthizë
+0;20.2572,41.4025;8403;Bashkia Bulqizë;Mullias
+0;20.3422,41.7436;8311;Bashkia Dibër;Laçes
+0;20.1378,40.1967;6008;Bashkia Gjirokastër;Labova e Vogël
+0;20.2992,40.0681;6016;Bashkia Gjirokastër;Labova e Sipërme
+0;20.2892,40.0739;6016;Bashkia Gjirokastër;Labova e Poshtme
+0;20.1361,40.2069;6008;Bashkia Gjirokastër;Labova e Madhe
+0;20.1522,41.2008;3013;Bashkia Elbasan;Labinot-Mal
+0;20.1461,41.1406;3025;Bashkia Elbasan;Labinot-Fushë
+0;20.0000,41.9333;4408;Bashkia Pukë;Kuzhen
+0;20.2544,41.2383;3410;Bashkia Librazhd;Kutërman
+0;20.0919,40.9161;3019;Bashkia Elbasan;Kutërqarë
+0;20.3417,40.2522;6001;Bashkia Gjirokastër;Kutal
+0;20.1889,40.7889;5410;Bashkia Skrapar;Kushovë
+0;20.5172,40.3758;7406;Bashkia Kolonjë;Kurtes
+0;20.0897,41.5947;8009;Bashkia Mat;Kurqelaj
+0;20.9972,40.5636;7012;Bashkia Korçë;Kurilë
+0;20.0978,41.5817;8007;Bashkia Mat;Kurdari
+1429;20.0836,41.7797;4605;Bashkia Mirditë;Kurbnesh
+0;20.3767,40.7875;7018;Bashkia Korçë;Kuratë
+0;20.2503,40.3044;5406;Bashkia Skrapar;Kuqar
+0;20.0564,41.0631;3011;Bashkia Elbasan;Kuqan
+0;20.1464,41.8069;4605;Bashkia Mirditë;Kumbull
+0;20.1731,42.1453;4404;Bashkia Pukë;Kulumri
+0;20.2897,40.7639;7018;Bashkia Korçë;Kullollas
+0;20.0117,41.8519;4605;Bashkia Mirditë;Kullaxhi
+0;20.4678,41.8178;8308;Bashkia Dibër;Kullas
+0;20.3447,40.8569;3015;Bashkia Elbasan;Lagjja i Vjetër
+0;20.3636,40.8678;7310;Bashkia Pogradec;Kukur
+0;20.0819,40.8775;3019;Bashkia Elbasan;Kukucovë
+36125;20.4219,42.0769;8513;Bashkia Kukës;Kukës
+0;20.1114,41.5214;8014;Bashkia Mat;Kukatin
+0;20.3694,41.7339;8305;Bashkia Dibër;Kukaj
+0;20.0500,41.5833;8007;Bashkia Mat;Kujtim
+0;20.8333,40.6714;7015;Bashkia Korçë;Kuçi i Zi
+0;20.9800,40.5958;7012;Bashkia Korçë;Kuç
+58;20.3297,40.5994;5411;Bashkia Skrapar;Kuç
+0;20.3600,41.6933;8315;Bashkia Dibër;Kuben
+0;20.0589,41.8119;4605;Bashkia Mirditë;Kthella e Epërme
+0;20.0828,41.0744;3011;Bashkia Elbasan;Kryezjarth
+4;20.0500,42.0939;4406;Bashkia Pukë;Kryezi
+0;20.2953,42.0908;8511;Bashkia Kukës;Kryemadh
+0;20.5667,40.6764;7029;Bashkia Korçë;Krushovë
+33;20.3703,40.5644;5407;Bashkia Skrapar;Krushovë
+4814;20.4133,42.1969;8601;Bashkia Has;Krumë
+0;20.0667,41.1833;3013;Bashkia Elbasan;Krrabë e Vogël
+0;20.5558,40.7397;7027;Bashkia Korçë;Krosnishtë
+0;20.2014,40.0997;6014;Bashkia Gjirokastër;Krinë
+0;20.5200,40.9831;7308;Bashkia Pogradec;Kriçkovë
+0;20.5333,40.9333;7307;Bashkia Pogradec;Kriçkovë
+0;20.8422,40.7139;7014;Bashkia Korçë;Kreshpanj
+0;20.7208,40.3914;7403;Bashkia Kolonjë;Kreshovë
+0;20.3506,40.3831;5406;Bashkia Skrapar;Kreshovë
+0;20.4269,42.0211;8513;Bashkia Kukës;Krenxë
+0;20.1803,41.8353;4605;Bashkia Mirditë;Krej-Lurë
+1540;20.2050,41.4228;8403;Bashkia Bulqizë;Krastë
+37;20.3778,40.5247;5407;Bashkia Skrapar;Krastë
+0;20.3308,41.8417;8508;Bashkia Kukës;Kraj-Reç
+0;20.3683,41.5175;8406;Bashkia Bulqizë;Krajkë
+0;20.7367,40.4642;7403;Bashkia Kolonjë;Kozel
+0;20.0167,41.1500;3012;Bashkia Elbasan;Kozan
+0;20.4481,41.5981;8302;Bashkia Dibër;Kovashicë
+0;20.3958,41.5675;8404;Bashkia Bulqizë;Kovashicë
+0;20.5081,40.2431;6001;Bashkia Gjirokastër;Kovaçisht
+45;20.3086,40.6542;5408;Bashkia Skrapar;Kovaçanj
+0;20.1694,40.9275;3014;Bashkia Elbasan;Kotorr
+0;20.5772,41.0522;3413;Bashkia Librazhd;Kotodesh
+0;20.2275,40.7303;5410;Bashkia Skrapar;Kotkë
+0;20.2447,42.2039;4404;Bashkia Pukë;Kostur
+225;20.0589,40.7539;5001;Bashkia Berat;Kostreni i Vogël
+0;20.2953,41.3394;3410;Bashkia Librazhd;Kostenjë
+0;20.3944,40.3039;6001;Bashkia Gjirokastër;Kosovë
+0;20.0000,42.4333;8703;Bashkia Tropojë;Koskorist
+0;20.3008,40.2717;6012;Bashkia Gjirokastër;Kosinë
+0;20.3881,41.2622;3410;Bashkia Librazhd;Kosharisht
+0;20.9172,40.5303;7007;Bashkia Korçë;Koshnicë
+0;20.5661,42.0481;8515;Bashkia Kukës;Kosharisht
+0;20.0425,41.2456;3013;Bashkia Elbasan;Korrë
+0;20.0500,40.1667;6019;Bashkia Gjirokastër;Koron-Picar
+27;20.2650,40.5478;5413;Bashkia Skrapar;Koritë
+0;20.1697,40.0603;6004;Bashkia Gjirokastër;Kordhocë
+58259;20.7808,40.6186;7023;Bashkia Korçë;Korçë
+130;20.3094,40.4500;5406;Bashkia Skrapar;Koprënckë
+0;20.7742,40.8097;7028;Bashkia Korçë;Kapotë
+0;20.2789,40.1942;6012;Bashkia Gjirokastër;Konckë
+0;20.1556,41.9133;4605;Bashkia Mirditë;Konaj
+0;20.1014,40.4289;5401;Bashkia Skrapar;Komarak
+0;20.3419,42.0781;8511;Bashkia Kukës;Kolsh
+0;20.0122,40.1614;6019;Bashkia Gjirokastër;Kolonjë
+0;20.5469,41.9972;8516;Bashkia Kukës;Kollovoz
+0;20.4000,41.9711;8504;Bashkia Kukës;Kolesjan
+0;20.6728,40.6917;7021;Bashkia Korçë;Kolanec
+0;20.4014,41.1425;3408;Bashkia Librazhd;Kokrevë
+0;20.2892,40.7875;7018;Bashkia Korçë;Kokël
+0;20.4217,41.4394;8405;Bashkia Bulqizë;Kojavec
+0;20.4544,40.6561;7018;Bashkia Korçë;Protopapë
+0;20.6408,40.3333;7405;Bashkia Kolonjë;Kodras
+0;20.0478,41.8761;4605;Bashkia Mirditë;Kodër-Spaç
+0;20.3031,41.7594;8306;Bashkia Dibër;Kodër Leshe
+0;20.0536,41.0125;3026;Bashkia Elbasan;Kodër-Bujaras
+0;20.0658,40.2742;6019;Bashkia Gjirokastër;Kodër
+0;20.2806,41.5417;8409;Bashkia Bulqizë;Koçaj
+0;20.4472,40.4244;5407;Bashkia Skrapar;Koblarë
+0;20.4000,42.0333;8513;Bashkia Kukës;Knetë
+0;20.1522,41.9269;8509;Bashkia Kukës;Klos
+7873;20.0867,41.5069;8002;Bashkia Mat;Klos
+3262;20.0097,40.9461;3020;Bashkia Elbasan;Klos
+0;20.7017,40.6728;7019;Bashkia Korçë;Klocë
+0;20.5106,41.5694;8302;Bashkia Dibër;Kllobçisht
+0;20.0197,41.2692;1049;Bashkia Tiranë;Kllojkë
+0;20.4697,41.3678;8405;Bashkia Bulqizë;Klenjë
+0;20.5500,40.9167;7307;Bashkia Pogradec;Kjosolavë
+0;20.2964,40.8553;3015;Bashkia Elbasan;Kishtë
+0;20.3503,41.7106;8312;Bashkia Dibër;Kishavec
+0;20.5022,42.1864;8502;Bashkia Kukës;Kishaj
+0;20.0569,41.9806;4408;Bashkia Pukë;Kimëz
+0;20.0092,41.4858;8008;Bashkia Mat;Ketë
+0;20.2044,40.7456;5410;Bashkia Skrapar;Kërpicë
+0;20.5061,41.5861;8302;Bashkia Dibër;Kërçishti i Poshtëm
+0;20.5172,41.5825;8302;Bashkia Dibër;Kërçishti i Epërm
+0;20.2731,42.2736;8705;Bashkia Tropojë;Kepenek
+0;20.6839,40.7542;7016;Bashkia Korçë;Këmbëthekër
+0;20.4733,40.4947;5407;Bashkia Skrapar;Ngjilisht
+0;20.1817,40.1294;6018;Bashkia Gjirokastër;Këllëz
+4900;20.1894,40.3131;5406;Bashkia Skrapar;Këlcyrë
+0;20.5031,41.6003;8302;Bashkia Dibër;Katundi i Vogël
+0;20.1536,40.3317;5406;Bashkia Skrapar;Katundishtë
+0;20.3722,41.6558;8314;Bashkia Dibër;Katundi i Ri
+0;20.0403,41.0975;3009;Bashkia Elbasan;Katundi i Ri
+62;20.0094,40.8531;5307;Bashkia Kuçovë;Katundas
+0;20.5575,41.0464;3413;Bashkia Librazhd;Katjel
+0;20.0761,40.8358;3019;Bashkia Elbasan;Katërlis
+0;20.3772,41.7294;8305;Bashkia Dibër;Kastriot
+0;20.1933,42.4081;8706;Bashkia Tropojë;Kasaj
+0;20.4800,41.0628;3407;Bashkia Librazhd;Karkavec
+467;20.0583,40.6886;5001;Bashkia Berat;Karkanjoz
+0;20.1447,40.1631;6008;Bashkia Gjirokastër;Karjan
+0;20.0275,40.1217;6019;Bashkia Gjirokastër;Kardhiq
+0;20.4900,40.6222;7022;Bashkia Korçë;Lavdar
+0;20.4764,40.6339;7022;Bashkia Korçë;Karbanjos
+0;21.0100,40.6025;7012;Bashkia Korçë;Kapshticë
+575;20.1206,40.6361;5016;Bashkia Berat;Kapinovë
+78;20.3636,40.5419;5407;Bashkia Skrapar;Kapinovë
+0;20.4703,40.1403;6001;Bashkia Gjirokastër;Kanikol
+0;20.3681,41.7106;8305;Bashkia Dibër;Kandër
+0;20.0000,40.9097;3019;Bashkia Elbasan;Kamunah
+0;20.5897,40.2722;7404;Bashkia Kolonjë;Kamnik
+0;20.2953,40.9731;3015;Bashkia Elbasan;Kamiçan
+0;20.7300,40.5292;7017;Bashkia Korçë;Kamenicë
+0;20.2492,42.2569;8705;Bashkia Tropojë;Kam
+0;20.4333,40.1739;6001;Bashkia Gjirokastër;Kaludh
+0;20.5156,40.4225;7406;Bashkia Kolonjë;Kaltanj
+0;20.4286,41.8192;8307;Bashkia Dibër;Kallë
+0;20.9392,40.8994;7020;Bashkia Korçë;Kallamas
+0;20.0294,42.4058;8703;Bashkia Tropojë;Këlcyrë
+0;20.0164,41.9689;4408;Bashkia Pukë;Kalivare
+0;20.0936,41.7111;8011;Bashkia Mat;Kalivaç
+0;20.5808,40.8958;7307;Bashkia Pogradec;Kalivaç
+0;20.3667,41.8389;8508;Bashkia Kukës;Kalis
+0;20.3083,42.0814;8511;Bashkia Kukës;Kalimash
+38;20.2619,40.4811;5413;Bashkia Skrapar;Kalanjas
+0;20.4603,41.8319;8308;Bashkia Dibër;Ceren
+0;20.1581,40.2517;6008;Bashkia Gjirokastër;Kalaja
+277;20.1339,40.5403;5405;Bashkia Skrapar;Kakrukë
+0;20.1531,40.1647;6008;Bashkia Gjirokastër;Kakoz
+0;20.3458,40.3972;5406;Bashkia Skrapar;Kakos
+0;20.6906,40.8119;7016;Bashkia Korçë;Kakaç
+0;20.1769,40.4303;5406;Bashkia Skrapar;Kajcë
+0;20.6139,40.3133;7405;Bashkia Kolonjë;Kagjinas
+0;20.5317,40.3317;7405;Bashkia Kolonjë;Kaduç
+0;20.2581,41.6122;8313;Bashkia Dibër;Kacni
+0;20.1328,40.9600;3014;Bashkia Elbasan;Kaçivel
+0;20.3658,41.2278;3410;Bashkia Librazhd;Kaçaj
+0;20.2611,40.9406;3015;Bashkia Elbasan;Kabash
+0;20.6189,40.3394;7405;Bashkia Kolonjë;Kabash
+0;20.2603,40.9586;3015;Bashkia Elbasan;Jaronisht
+66;20.1303,40.5764;5405;Bashkia Skrapar;Jaupas
+0;20.4594,40.4753;5407;Bashkia Skrapar;Janqishtë
+0;20.1078,40.7925;5001;Bashkia Berat;Jançë
+0;20.1058,42.3589;8706;Bashkia Tropojë;Jah Salih
+0;20.0267,41.0661;3027;Bashkia Elbasan;Jagodinë
+0;20.4831,40.2439;6001;Bashkia Gjirokastër;Izgar
+0;20.2717,42.2064;8604;Bashkia Has;Ishefaj
+0;20.3853,40.8192;7018;Bashkia Korçë;Rmath
+0;20.0822,40.8639;3019;Bashkia Elbasan;Irmanj
+0;20.4844,41.6561;8303;Bashkia Dibër;Ilnicë
+0;20.4989,40.1575;6001;Bashkia Gjirokastër;Iljarë
+0;20.6006,40.3247;7405;Bashkia Kolonjë;Ikinas
+1129;20.0025,42.1875;4403;Bashkia Pukë;Iballë
+0;20.0047,41.4761;8008;Bashkia Mat;Dishaj
+0;20.2967,41.8642;8310;Bashkia Dibër;Hurdhë-Reç
+0;20.2961,41.6828;8315;Bashkia Dibër;Hurdhë-Muhurr
+0;20.1028,40.1897;6009;Bashkia Gjirokastër;Hundëkuq
+0;20.0769,40.1625;6009;Bashkia Gjirokastër;Humelicë
+0;20.2669,40.0378;6003;Bashkia Gjirokastër;Hoxhallare
+0;20.3575,40.3028;6001;Bashkia Gjirokastër;Hotovë
+5706;20.3972,41.1567;3408;Bashkia Librazhd;Hotolisht
+0;20.4025,41.6311;8314;Bashkia Dibër;Hotesh
+0;20.2478,40.2183;6012;Bashkia Gjirokastër;Hoshevë
+0;20.5572,40.9461;7307;Bashkia Pogradec;Hoshtecë
+0;20.6150,40.2211;7404;Bashkia Kolonjë;Hoseckë
+0;20.1011,40.2389;6009;Bashkia Gjirokastër;Hormovë
+0;20.5003,40.9114;7307;Bashkia Pogradec;Hondisht
+0;20.5667,40.9808;7308;Bashkia Pogradec;Homezh
+0;20.4150,41.5517;8404;Bashkia Bulqizë;Homesh
+0;20.5436,40.9700;7308;Bashkia Pogradec;Homçan
+0;20.2058,40.9269;3015;Bashkia Elbasan;Holtë
+4461;20.9142,40.6083;7009;Bashkia Korçë;Hoçisht
+0;20.3450,40.0689;6007;Bashkia Gjirokastër;Hllomo
+0;20.0494,40.7658;5001;Bashkia Berat;Isakas
+0;20.4697,41.6197;8302;Bashkia Dibër;Herebel
+0;20.2808,42.2150;8604;Bashkia Has;Helshan
+131;20.4156,40.4811;5407;Bashkia Skrapar;Helmës
+0;20.6781,40.4519;7403;Bashkia Kolonjë;Helmës
+0;20.1806,41.9897;8509;Bashkia Kukës;Hebë
+0;20.1961,40.0053;6005;Bashkia Gjirokastër;Haskovë
+0;20.2206,40.7964;5410;Bashkia Skrapar;Harunas
+0;20.0981,41.0936;3025;Bashkia Elbasan;Hajdaran
+0;20.0692,41.9183;4408;Bashkia Pukë;Gurth-Spaç
+0;20.4850,40.7047;7027;Bashkia Korçë;Kucakë
+0;20.2750,41.1231;3409;Bashkia Librazhd;Gurrëspate
+0;20.0253,41.5328;8003;Bashkia Mat;Gurra e Madhe
+0;20.3544,41.8533;8508;Bashkia Kukës;Gurrë
+0;20.4497,41.0689;3407;Bashkia Librazhd;Gurrë
+0;20.5161,40.5742;7022;Bashkia Korçë;Gurmujas
+0;20.3719,40.6867;7018;Bashkia Korçë;Gurkuq
+0;20.7000,40.7833;7016;Bashkia Korçë;Gurishtë
+0;20.2667,41.7500;8311;Bashkia Dibër;Guri i Zi
+0;20.1044,41.2083;3013;Bashkia Elbasan;Guri i Zi
+0;20.0711,41.4517;8008;Bashkia Mat;Guri i Bardhë
+0;20.2725,41.8739;8310;Bashkia Dibër;Gurë-Reç
+0;20.2242,41.7581;8311;Bashkia Dibër;Gur-Lurë
+0;20.5569,40.8853;7307;Bashkia Pogradec;Guri i Bardhë
+0;20.8303,40.7519;7014;Bashkia Korçë;Gurbardhë
+49;20.2950,40.6908;5410;Bashkia Skrapar;Gurazez
+0;20.1869,41.2911;1043;Bashkia Tiranë;Gurakuq
+0;20.0575,41.1389;3009;Bashkia Elbasan;Gurabardh
+0;20.0042,40.6389;5016;Bashkia Berat;Gumen
+0;20.0411,40.5031;5015;Bashkia Berat;Gumë
+0;20.0839,41.8575;4605;Bashkia Mirditë;Grykë-Orosh
+0;20.2783,41.7625;8311;Bashkia Dibër;Grykë-Nokë
+0;20.6564,40.8194;7309;Bashkia Pogradec;Grunjas
+0;20.1311,41.1622;3013;Bashkia Elbasan;Griqan
+0;20.0592,42.3231;8706;Bashkia Tropojë;Gri
+0;20.3836,40.8397;7018;Bashkia Korçë;Gribë
+0;20.4589,41.6650;8303;Bashkia Dibër;Grevë
+60;20.3033,40.6567;5408;Bashkia Skrapar;Grevë
+138;20.2453,40.4706;5406;Bashkia Skrapar;Grepckë
+32;20.3250,40.5800;5411;Bashkia Skrapar;Grëmsh
+0;20.0422,40.8650;3019;Bashkia Elbasan;Grakan
+0;20.0667,41.4667;8008;Bashkia Mat;Grekaj
+0;20.4742,41.6117;8302;Bashkia Dibër;Grazhdan
+0;20.3253,40.8531;3015;Bashkia Elbasan;Grazhdan
+0;20.8814,40.5839;7009;Bashkia Korçë;Grapsh
+0;20.2183,40.8711;3015;Bashkia Elbasan;Gramsh-Fshat
+11556;20.1844,40.8697;3015;Bashkia Elbasan;Gramsh
+0;20.4458,41.6078;8302;Bashkia Dibër;Gradec
+25;20.2161,40.6478;5410;Bashkia Skrapar;Gradec
+94;20.2672,40.5286;5413;Bashkia Skrapar;Gradec
+0;20.9197,40.6181;7009;Bashkia Korçë;Gracë
+0;20.7261,40.8319;7306;Bashkia Pogradec;Grabovicë
+0;20.4086,40.7953;7018;Bashkia Korçë;Grabova e Sipërme
+0;20.3658,40.7728;7018;Bashkia Korçë;Grabova e Poshtme
+0;20.2367,40.2811;6012;Bashkia Gjirokastër;Grabovë
+0;20.4456,40.4611;5407;Bashkia Skrapar;Grabockë
+0;20.6189,40.2508;7404;Bashkia Kolonjë;Gozhdarazhdë
+0;20.4167,40.4333;5407;Bashkia Skrapar;Gostromickë
+0;20.6283,40.3639;7401;Bashkia Kolonjë;Gostivisht
+0;20.4719,40.2944;6001;Bashkia Gjirokastër;Gostivisht
+0;20.3775,40.2844;6001;Bashkia Gjirokastër;Gostnisht
+0;20.2400,41.1456;3409;Bashkia Librazhd;Gostimë
+0;20.0203,40.9947;3018;Bashkia Elbasan;Gostimë
+0;20.4203,42.0525;8513;Bashkia Kukës;Gostil
+78;20.3181,40.5497;5413;Bashkia Skrapar;Gostënckë
+0;20.6850,40.6269;7026;Bashkia Korçë;Goskova e Sipërme
+0;20.6986,40.6278;7026;Bashkia Korçë;Goskova e Poshtme
+0;20.9250,40.8772;7020;Bashkia Korçë;Gorica e Vogël
+0;20.9028,40.8942;7020;Bashkia Korçë;Goricë e Madhe
+0;20.1714,40.3544;5406;Bashkia Skrapar;Goricë
+0;20.1892,40.0169;6010;Bashkia Gjirokastër;Goranxi
+0;20.4656,41.4911;8407;Bashkia Bulqizë;Golovisht
+0;20.9453,40.8561;7020;Bashkia Korçë;Gollomboç
+0;20.5361,41.0144;7308;Bashkia Pogradec;Golik
+0;20.3803,42.2475;8603;Bashkia Has;Golaj
+0;20.0072,41.9586;4408;Bashkia Pukë;Gojani i Vogël
+0;20.0031,41.9792;4408;Bashkia Pukë;Gojani i Epërm
+0;20.3547,41.5203;8406;Bashkia Bulqizë;Godvi
+0;20.0950,41.1508;3013;Bashkia Elbasan;Godolesh
+0;20.6572,40.7075;7021;Bashkia Korçë;Goçë
+0;20.4017,40.7222;7018;Bashkia Korçë;Gopesh
+0;20.6286,40.6950;7027;Bashkia Korçë;Gjyras
+0;20.8839,40.5608;7001;Bashkia Korçë;Gjyrës
+0;20.3667,41.8833;8505;Bashkia Kukës;Gjushen
+0;20.4000,41.9667;8501;Bashkia Kukës;Gjurrë
+0;20.3636,41.6042;8314;Bashkia Dibër;Gjuras
+0;20.1531,40.3397;5406;Bashkia Skrapar;Xhuhanoj
+0;20.0167,41.1867;3013;Bashkia Elbasan;Gjormë
+0;20.4539,41.5483;8407;Bashkia Bulqizë;Gjorica e Poshtme
+0;20.4500,41.5344;8407;Bashkia Bulqizë;Gjorica e Sipërme
+0;20.6492,40.6264;7026;Bashkia Korçë;Gjonomadh
+0;20.0389,41.0442;3027;Bashkia Elbasan;Gjonëm
+0;20.6864,40.2944;7404;Bashkia Kolonjë;Rips, Gjonç
+0;20.5000,40.5667;7022;Bashkia Korçë;Gjonbabas
+0;20.3000,41.7833;8306;Bashkia Dibër;Gjonaj
+0;20.1942,41.4147;8403;Bashkia Bulqizë;Gjon
+0;20.5200,40.5869;7022;Bashkia Korçë;Gjokshtras
+42;20.3411,40.5800;5411;Bashkia Skrapar;Gjogovicë
+0;20.0633,41.7172;8010;Bashkia Mat;Gjoçaj
+23437;20.1389,40.0758;6004;Bashkia Gjirokastër;Gjirokastër
+0;20.5094,41.3869;8405;Bashkia Bulqizë;Gjinovec
+0;20.4922,40.6833;7027;Bashkia Korçë;Gjinikas
+0;20.1889,41.0225;3014;Bashkia Elbasan;Gjinar
+0;20.4358,42.1181;8605;Bashkia Has;Gjinaj
+0;20.1517,40.9264;3014;Bashkia Elbasan;Gjergjovinë
+85;20.3469,40.4669;5407;Bashkia Skrapar;Gjergjovë
+0;20.5539,40.5839;7022;Bashkia Korçë;Gjergjevicë
+0;20.0297,41.0431;3027;Bashkia Elbasan;Gjergjan
+0;20.2925,40.9108;3015;Bashkia Elbasan;Gjerë
+0;20.5242,40.2247;6001;Bashkia Gjirokastër;Gjirakarë
+0;20.4339,41.8747;8506;Bashkia Kukës;Gjegjet
+0;20.4842,42.0925;8502;Bashkia Kukës;Gjegjan
+0;20.0111,41.9378;4408;Bashkia Pukë;Gjegjan
+0;20.1558,40.1594;6008;Bashkia Gjirokastër;Gjatë
+0;20.6450,40.5400;7025;Bashkia Korçë;Gjanç
+0;20.1011,41.6133;8009;Bashkia Mat;Gjalish
+0;20.4167,42.0500;8513;Bashkia Kukës;Gjalicë
+0;20.7667,40.6667;7013;Bashkia Korçë;Gifliki i Shamollës
+0;20.3564,41.2333;3410;Bashkia Librazhd;Gizavesh
+0;20.3742,41.8264;8508;Bashkia Kukës;Gështenjë
+0;20.6706,40.8731;7304;Bashkia Pogradec;Gështenjas
+23;20.2964,40.4556;5406;Bashkia Skrapar;Gërmenj
+0;20.6731,40.2244;7404;Bashkia Kolonjë;Gërmenj
+0;20.2044,40.3392;5406;Bashkia Skrapar;Gërdas
+0;20.1964,42.4323;8706;Bashkia Tropojë;Gegaj
+0;20.1994,42.1117;8512;Bashkia Kukës;Gëdheshtë
+0;20.1586,40.9494;3014;Bashkia Elbasan;Galigat
+0;20.3503,41.0383;3406;Bashkia Librazhd;Gaferr
+0;20.3753,41.9836;8510;Bashkia Kukës;Gabricë
+457;20.0436,40.6472;5016;Bashkia Berat;Fushë Peshtan
+0;20.3314,41.6797;8315;Bashkia Dibër;Fushë-Muhurr
+0;20.2319,41.8061;8306;Bashkia Dibër;Fushë-Lurë
+0;20.4569,41.5950;8302;Bashkia Dibër;Fusha e Vogël
+0;20.3411,41.7606;8306;Bashkia Dibër;Fushë-Çidhnë
+0;20.2822,41.5219;8409;Bashkia Bulqizë;Fushë-Bulqizë
+0;20.1853,41.1097;3025;Bashkia Elbasan;Fushë-Buall
+2438;20.0167,42.0622;4402;Bashkia Pukë;Fushë-Arrëz
+0;20.1681,42.0497;4406;Bashkia Pukë;Fusha e Qarrit
+0;20.0700,41.5164;8002;Bashkia Mat;Fullqet
+0;20.0333,41.5167;8002;Bashkia Mat;Ftue
+0;20.4494,41.9050;8506;Bashkia Kukës;Fshat
+0;20.0875,41.4803;8002;Bashkia Mat;Fshat
+0;20.0064,41.2572;1049;Bashkia Tiranë;Fravesh
+0;20.2628,40.3478;5406;Bashkia Skrapar;Fratar
+0;20.4244,40.3689;5407;Bashkia Skrapar;Frashër
+0;20.4703,41.0428;3406;Bashkia Librazhd;Fanjë
+62;20.2975,40.6039;5411;Bashkia Skrapar;Floq
+0;20.2353,41.2703;3410;Bashkia Librazhd;Floq
+0;20.0389,40.9742;3018;Bashkia Elbasan;Floq
+0;20.7133,40.5047;7017;Bashkia Korçë;Floq
+0;20.1275,42.1206;4406;Bashkia Pukë;Flet
+0;20.9522,40.5533;7010;Bashkia Korçë;Fitore
+0;20.1142,41.1778;3013;Bashkia Elbasan;Firas
+0;20.0125,41.0986;3009;Bashkia Elbasan;Fikas
+0;20.0169,42.2606;4030;Bashkia Shkodër;Fierzë
+0;20.1036,40.7586;5001;Bashkia Berat;Fert
+0;20.2908,41.2669;3410;Bashkia Librazhd;Funarës
+0;20.4472,41.0117;3406;Bashkia Librazhd;Farret
+27;20.4028,40.5650;5407;Bashkia Skrapar;Faqekuq
+0;20.0833,42.3167;8701;Bashkia Tropojë;Fang
+0;20.3508,42.1669;8604;Bashkia Has;Fajzë
+0;20.0264,41.2972;1040;Bashkia Tiranë;Fag
+0;20.0483,41.3314;1043;Bashkia Tiranë;Façesh
+7890;20.6789,40.3378;7401;Bashkia Kolonjë;Ersekë
+0;20.1636,40.1569;6008;Bashkia Gjirokastër;Erind
+0;20.4711,41.6275;8303;Bashkia Dibër;Erebarë
+100903;20.0822,41.1114;3009;Bashkia Elbasan;Elbasan
+0;20.9139,40.6489;7009;Bashkia Korçë;Eçmenik
+0;20.1256,40.8425;3019;Bashkia Elbasan;Duzhë
+0;20.1094,40.9342;3020;Bashkia Elbasan;Dushk
+0;20.3792,40.6644;7018;Bashkia Korçë;Dushar
+0;20.0281,42.2803;4030;Bashkia Shkodër;Hatcher
+0;20.3039,41.5364;8409;Bashkia Bulqizë;Dushaj
+0;20.0000,41.5000;8008;Bashkia Mat;Duriç
+0;20.5519,40.8961;7307;Bashkia Pogradec;Dunicë
+19;20.1994,40.6883;5410;Bashkia Skrapar;Dunckë
+0;20.1642,40.7864;5410;Bashkia Skrapar;Dumberas
+0;20.2767,42.1136;8512;Bashkia Kukës;Dukagjin
+0;20.0619,41.6997;8010;Bashkia Mat;Dukagjin
+0;20.1211,40.8783;3019;Bashkia Elbasan;Dufshan
+0;20.1336,40.9219;3020;Bashkia Elbasan;Drizë
+0;20.2667,41.2167;3409;Bashkia Librazhd;Drizallaj
+0;20.7317,40.7036;7021;Bashkia Korçë;Drithas
+0;20.4936,41.0308;7308;Bashkia Pogradec;Dritaj
+145;20.0775,40.6631;5016;Bashkia Berat;Drenovë
+0;20.7922,40.5833;7023;Bashkia Korçë;Drenovë
+0;20.3167,41.2833;3410;Bashkia Librazhd;Dranovicë
+0;20.3306,41.8819;8310;Bashkia Dibër;Draj-Reç
+0;20.2603,41.5225;8409;Bashkia Bulqizë;Dragua-Bulqizë
+0;20.0475,40.9078;3019;Bashkia Elbasan;Dragot-Sulovë
+0;20.0697,40.2900;6019;Bashkia Gjirokastër;Dragot
+0;20.3633,41.1811;3408;Bashkia Librazhd;Dragostunjë
+0;20.4875,40.1292;6001;Bashkia Gjirokastër;Draçovë
+0;20.4483,41.6211;8303;Bashkia Dibër;Dovolan
+0;20.2147,40.2356;6012;Bashkia Gjirokastër;Doshnicë
+0;20.3272,41.2269;3410;Bashkia Librazhd;Dorëz
+0;20.0056,41.1789;3012;Bashkia Elbasan;Dopaj
+0;20.0189,41.3264;1040;Bashkia Tiranë;Domja e Malit
+0;20.1581,41.9628;8509;Bashkia Kukës;Domgjon
+0;20.4917,42.1378;8502;Bashkia Kukës;Domaj
+0;20.3850,41.9567;8501;Bashkia Kukës;Domaj
+0;20.0167,41.9333;4408;Bashkia Pukë;Dom
+0;20.0450,41.5658;8007;Bashkia Mat;Dom
+0;20.5967,40.7758;7027;Bashkia Korçë;Dolanec
+0;20.0783,42.3481;8702;Bashkia Tropojë;Dojan
+0;20.4192,41.6714;8301;Bashkia Dibër;Dohoshisht
+47;20.0678,40.4897;5015;Bashkia Berat;Dodovec
+139;20.1797,40.5544;5401;Bashkia Skrapar;Dobrushë
+0;20.4225,42.2714;8603;Bashkia Has;Dobrunë
+72;20.2489,40.7039;5410;Bashkia Skrapar;Dobrenj
+0;20.9675,40.5581;7010;Bashkia Korçë;Dobranj
+0;20.3825,40.7242;7018;Bashkia Korçë;Dobërçan
+0;20.9106,40.8022;7020;Bashkia Korçë;Diellas
+0;20.8136,40.6514;7024;Bashkia Korçë;Dishnicë
+0;20.4069,41.7611;8305;Bashkia Dibër;Dipjakë
+0;20.2381,40.4564;5406;Bashkia Skrapar;Dorëz
+0;20.1822,40.1217;6018;Bashkia Gjirokastër;Dhoksat
+0;20.5792,40.7597;7027;Bashkia Korçë;Desmirë
+0;20.4153,41.7119;8309;Bashkia Dibër;Deshat
+211;20.1733,40.0325;6010;Bashkia Gjirokastër;Derviçian
+0;20.1881,41.0397;3014;Bashkia Elbasan;Dërstilë
+0;20.6722,40.5653;7026;Bashkia Korçë;Dërsnik
+0;20.5211,40.2789;7404;Bashkia Kolonjë;Dërmar
+0;20.0036,41.3364;1040;Bashkia Tiranë;Derje
+0;20.0583,41.6736;8010;Bashkia Mat;Derjan
+0;20.6056,40.8006;7309;Bashkia Pogradec;Dërdushë
+0;20.5014,40.6400;7022;Bashkia Korçë;Denas
+0;20.4694,40.2325;6001;Bashkia Gjirokastër;Delvinë
+0;20.2031,40.3792;5406;Bashkia Skrapar;Delilaj
+0;20.1167,41.6833;8011;Bashkia Mat;Deje Macukull
+0;20.1300,42.2775;8705;Bashkia Tropojë;Degë
+0;20.1525,40.3339;5406;Bashkia Skrapar;Mullahaj
+813;20.2511,40.6292;5408;Bashkia Skrapar;Gjerbës
+0;20.0878,40.9506;3020;Bashkia Elbasan;Darzezë
+0;20.0672,41.4931;8002;Bashkia Mat;Dars
+0;20.1578,42.1950;4404;Bashkia Pukë;Dardhë
+0;20.2311,41.9764;8509;Bashkia Kukës;Dardhë
+0;20.3658,41.1372;3408;Bashkia Librazhd;Dardhë
+148;20.1236,40.7500;5001;Bashkia Berat;Dardhë
+0;20.8269,40.5186;7023;Bashkia Korçë;Dardhë
+0;20.6806,40.6617;7019;Bashkia Korçë;Damjanec
+44;20.2803,40.6897;5410;Bashkia Skrapar;Çorrotat
+3918;20.2272,40.5042;5401;Bashkia Skrapar;Çorovodë
+142;20.0050,40.5317;5015;Bashkia Berat;Çorogjaf
+0;20.5503,40.4175;7406;Bashkia Kolonjë;Çlirim
+0;20.9239,40.5731;7001;Bashkia Korçë;Çipan
+0;20.1097,40.9436;3020;Bashkia Elbasan;Cingar
+0;20.1019,41.0292;3026;Bashkia Elbasan;Çikallesh
+0;20.2681,41.7525;8311;Bashkia Dibër;Çidhnë
+0;20.5200,40.9164;7307;Bashkia Pogradec;Çezma e Vogël
+0;20.5222,40.9086;7307;Bashkia Pogradec;Çezma e Madhe
+0;20.3972,41.6706;8304;Bashkia Dibër;Çetush
+0;20.9203,40.5028;7007;Bashkia Korçë;Çetë
+0;20.6072,40.9450;7305;Bashkia Pogradec;Çervenakë
+0;20.1319,41.5328;8013;Bashkia Mat;Cërujë
+0;20.0783,41.2283;3013;Bashkia Elbasan;Cërujë
+0;20.1506,40.9150;3014;Bashkia Elbasan;Cërujë
+51;20.1789,40.4836;5401;Bashkia Skrapar;Cerovë
+0;20.4556,41.8244;8308;Bashkia Dibër;Çerniev
+0;20.4675,41.5856;8302;Bashkia Dibër;Çernenë
+0;20.5494,42.0267;8515;Bashkia Kukës;Cërnalevë
+0;20.9753,40.7503;7011;Bashkia Korçë;Cerjë
+0;20.4833,41.7133;8309;Bashkia Dibër;Cerjan
+69;20.2644,40.6733;5410;Bashkia Skrapar;Cericë
+113;20.2444,40.4917;5413;Bashkia Skrapar;Çerenisht
+0;20.4250,41.5169;8404;Bashkia Bulqizë;Çerenec i Poshtëm
+0;20.4378,41.5083;8404;Bashkia Bulqizë;Çerenec i Epërm
+0;20.7250,40.8514;7306;Bashkia Pogradec;Cerava
+0;20.0875,40.1425;6009;Bashkia Gjirokastër;Çepunë
+0;20.0711,40.1461;6009;Bashkia Gjirokastër;Kodër
+0;20.2606,40.4206;5406;Bashkia Skrapar;Çepan
+0;20.4747,40.5428;7022;Bashkia Korçë;Çemericë
+0;20.0833,41.5500;8007;Bashkia Mat;Çela
+0;20.1731,40.8897;3015;Bashkia Elbasan;Çekin
+0;20.3403,40.0292;6003;Bashkia Gjirokastër;Çatistë
+0;20.3403,40.0558;6003;Bashkia Gjirokastër;Mavrojer
+0;20.5408,40.1181;6001;Bashkia Gjirokastër;Çarshovë
+0;20.2897,40.9267;3015;Bashkia Elbasan;Çarçiaj
+0;20.9081,40.6936;7011;Bashkia Korçë;Cangonj
+0;20.5047,41.8783;8308;Bashkia Dibër;Kokaj
+0;20.4739,42.1981;8601;Bashkia Has;Cahan
+99;20.1642,40.5178;5401;Bashkia Skrapar;Buzuq
+0;21.0136,40.6747;7008;Bashkia Korçë;Buzëliqen
+0;20.4367,41.1372;3408;Bashkia Librazhd;Buzgarë
+0;20.4697,41.9328;8501;Bashkia Kukës;Buzëmadhe
+0;20.4481,40.9611;7310;Bashkia Pogradec;Buzahishtë
+0;20.0150,40.4567;5015;Bashkia Berat;Buz-Kalemaj
+0;20.7236,40.4319;7403;Bashkia Kolonjë;Butkë
+0;20.4219,41.8786;8506;Bashkia Kukës;Bushtricë
+0;20.3964,42.0100;8504;Bashkia Kukës;Bushat
+7928;20.0089,41.6103;8001;Bashkia Mat;Burrel
+25;20.2689,40.6958;5410;Bashkia Skrapar;Buranj
+0;20.0664,41.3397;1043;Bashkia Tiranë;Burimas
+0;20.8911,40.7183;7014;Bashkia Korçë;Burimas
+0;20.4628,41.5781;8302;Bashkia Dibër;Burim
+0;20.0572,41.6400;8009;Bashkia Mat;Burgajet
+0;20.0658,41.8458;4605;Bashkia Mirditë;Bulshar
+26826;20.2219,41.4917;8409;Bashkia Bulqizë;Bulqizë
+0;20.2714,40.8044;7018;Bashkia Korçë;Bulçar
+0;20.7572,40.6583;7019;Bashkia Korçë;Bulagarec
+0;20.2814,41.6981;8312;Bashkia Dibër;Bulaç
+0;20.1833,42.4333;8706;Bashkia Tropojë;Bukovë
+0;20.0475,41.0761;3011;Bashkia Elbasan;Bujqës
+0;20.0497,41.0256;3010;Bashkia Elbasan;Bujaras
+2550;20.0764,42.3264;8706;Bashkia Tropojë;Bujan
+0;20.6722,40.7731;7016;Bashkia Korçë;Bubuq
+0;20.0944,40.4892;5015;Bashkia Berat;Malas
+0;20.0975,40.4528;5401;Bashkia Skrapar;Bubës
+0;20.3036,40.2525;6012;Bashkia Gjirokastër;Bual
+0;20.3833,42.1000;8511;Bashkia Kukës;Brut
+0;20.0053,41.6922;8012;Bashkia Mat;Bruç
+0;20.4603,40.6178;7022;Bashkia Korçë;Brozdovec
+0;20.3822,41.6739;8314;Bashkia Dibër;Brezhdan
+0;20.1447,40.9675;3014;Bashkia Elbasan;Bizhdan
+0;20.3692,41.7194;8305;Bashkia Dibër;Bresti i Poshtëm
+0;20.3789,41.7211;8305;Bashkia Dibër;Bresti i Epërm
+0;20.3500,41.0333;3406;Bashkia Librazhd;Breshkë
+0;20.5103,41.9922;8516;Bashkia Kukës;Brekijë
+0;20.0186,42.2697;4030;Bashkia Shkodër;Breglum
+0;20.4667,42.0667;8513;Bashkia Kukës;Breglum
+0;20.1942,40.7994;5410;Bashkia Skrapar;Bregas
+0;20.7953,40.8469;7028;Bashkia Korçë;Bletas
+0;20.3228,40.7714;7018;Bashkia Korçë;Bratilë
+0;20.1303,40.7831;5001;Bashkia Berat;Brasnik
+0;20.2417,40.8592;3015;Bashkia Elbasan;Broshtan
+0;20.3142,42.1589;8604;Bashkia Has;Brenogë
+0;20.0669,41.1881;3013;Bashkia Elbasan;Branesh
+0;20.8700,40.5744;7009;Bashkia Korçë;Bradvicë
+0;20.0492,42.4326;8703;Bashkia Tropojë;Bradoshnicë
+0;20.0225,41.1050;3009;Bashkia Elbasan;Bradashesh
+0;20.9772,40.5500;7010;Bashkia Korçë;Braçanaj
+0;20.6050,40.4367;7406;Bashkia Kolonjë;Boshanj
+0;20.6317,40.7217;7027;Bashkia Korçë;Bos
+0;20.9503,40.5869;7001;Bashkia Korçë;Borsh
+0;20.4028,41.7097;8309;Bashkia Dibër;Borovjan
+0;20.4281,41.3511;8405;Bashkia Bulqizë;Borovë
+0;20.6525,40.3108;7404;Bashkia Kolonjë;Borovë
+0;20.3625,40.3497;5406;Bashkia Skrapar;Borockë
+0;20.5864,42.0153;8519;Bashkia Kukës;Borje
+0;20.2242,41.7917;8306;Bashkia Dibër;Borie-Lurë
+0;20.3000,41.2000;3409;Bashkia Librazhd;Bokaj
+0;20.0219,40.6906;5001;Bashkia Berat;Bojë
+164;20.0661,40.7222;5001;Bashkia Berat;Bogdani i Sipërm
+245;20.0433,40.7131;5001;Bashkia Berat;Bogdani i Poshtëm
+0;20.3661,40.2558;6001;Bashkia Gjirokastër;Bodar
+0;20.4228,41.5422;8404;Bashkia Bulqizë;Boçevë
+0;20.7644,40.5542;7017;Bashkia Korçë;Boboshticë
+0;20.6097,40.4008;7401;Bashkia Kolonjë;Blush
+0;20.3658,41.7447;8305;Bashkia Dibër;Blliçë
+0;20.4764,41.5619;8302;Bashkia Dibër;Bllata e Poshtëme
+0;20.4894,41.5628;8302;Bashkia Dibër;Bllata e Epërme
+0;20.3575,41.5719;8404;Bashkia Bulqizë;Bllacë
+0;20.7678,40.8408;7306;Bashkia Pogradec;Blacë
+0;20.0000,41.8614;4605;Bashkia Mirditë;Blinisht
+0;20.2608,40.4517;5406;Bashkia Skrapar;Blezënckë
+0;20.1919,42.1606;4404;Bashkia Pukë;Blerim
+0;20.0525,41.1761;3013;Bashkia Elbasan;Bixëlle
+0;20.9836,40.6478;7008;Bashkia Korçë;Bitinckë
+0;20.4167,41.8167;8307;Bashkia Dibër;Bithuq
+0;20.4319,40.9344;7310;Bashkia Pogradec;Bishnicë
+0;20.1228,41.9056;4605;Bashkia Mirditë;Bisak
+0;20.3536,40.5242;5407;Bashkia Skrapar;Bersakë
+0;20.7200,40.6611;7019;Bashkia Korçë;Biranj
+7287;20.9900,40.6275;7008;Bashkia Korçë;Bilisht
+0;20.6397,40.6931;7021;Bashkia Korçë;Bickë
+0;20.8956,40.6658;7015;Bashkia Korçë;Bickë
+0;20.4125,41.9947;8504;Bashkia Kukës;Bicaj
+0;20.3836,40.7650;7018;Bashkia Korçë;Bicaj
+0;20.7342,40.4208;7403;Bashkia Kolonjë;Bezhan
+0;20.4547,41.0528;3407;Bashkia Librazhd;Bërzeshtë
+0;20.0858,41.5389;8002;Bashkia Mat;Bershin
+0;20.2500,42.3000;8705;Bashkia Tropojë;Berishë
+0;20.0261,41.3028;1043;Bashkia Tiranë;Brahamaj
+0;20.6717,40.7556;7016;Bashkia Korçë;Beras
+0;20.3008,40.9542;3015;Bashkia Elbasan;Baramaj
+0;20.6572,40.8458;7309;Bashkia Pogradec;Dardhas
+0;20.1214,40.4675;5401;Bashkia Skrapar;Beqaraj
+0;20.5711,40.2953;7404;Bashkia Kolonjë;Bënjëz
+0;20.4167,40.2519;6001;Bashkia Gjirokastër;Benjë-Novoselë
+0;20.2425,40.3539;5406;Bashkia Skrapar;Bënjë
+0;20.1369,41.2500;3013;Bashkia Elbasan;Benë
+0;20.0039,40.2550;6019;Bashkia Gjirokastër;Bënçë
+0;20.8306,40.6675;7024;Bashkia Korçë;Belorta
+0;20.4764,41.6958;8301;Bashkia Dibër;Bellovë
+0;20.5303,42.0592;8515;Bashkia Kukës;Bele
+152;20.0572,40.8158;5001;Bashkia Berat;Belesovë
+0;20.0478,41.5061;8002;Bashkia Mat;Bel
+0;20.1169,41.5042;8014;Bashkia Mat;Bejnë
+0;20.6700,40.3606;7401;Bashkia Kolonjë;Bejkovë
+0;20.4492,41.6792;8301;Bashkia Dibër;Begjunec
+0;20.0700,41.0592;3011;Bashkia Elbasan;Bathës
+0;20.0017,40.0411;9720;Bashkia Sarandë;Bashaj
+0;20.3697,41.9025;8505;Bashkia Kukës;Barruç
+0;20.6183,40.2778;7404;Bashkia Kolonjë;Barmash
+0;20.4694,40.9950;7308;Bashkia Pogradec;Baribardhë
+165;20.1278,40.6089;5405;Bashkia Skrapar;Bargullas
+0;20.5053,42.1064;8502;Bashkia Kukës;Bardhoc
+0;20.3700,40.6961;7018;Bashkia Korçë;Bardhëz
+0;20.3133,41.8633;8310;Bashkia Dibër;Bardhaj-Reç
+0;20.0608,41.7572;8012;Bashkia Mat;Bardhaj
+0;20.8042,40.6283;7024;Bashkia Korçë;Barç
+48;20.3119,40.6183;5408;Bashkia Skrapar;Barç i Poshtëm
+0;20.0583,41.6644;8010;Bashkia Mat;Barbullej
+0;20.0586,40.9656;3018;Bashkia Elbasan;Banjë
+0;20.0356,41.1450;3009;Bashkia Elbasan;Balëz
+0;20.2167,41.3667;8403;Bashkia Bulqizë;Ball-i-Vogël
+0;20.1344,40.4167;5401;Bashkia Skrapar;Ballaban
+208;20.0489,40.7825;5001;Bashkia Berat;Balibardhë
+0;20.4378,41.7236;8309;Bashkia Dibër;Bahutë
+0;20.3853,40.2022;6001;Bashkia Gjirokastër;Badëlonjë
+195;20.4006,40.5078;5407;Bashkia Skrapar;Backë
+0;20.6308,40.7411;7027;Bashkia Korçë;Babjen
+0;20.2967,41.1592;3409;Bashkia Librazhd;Babje
+0;20.1272,42.3822;8706;Bashkia Tropojë;Babinë
+0;20.9197,40.6344;7009;Bashkia Korçë;Baban
+0;20.1961,40.0797;6014;Bashkia Gjirokastër;Asim Zeneli
+0;20.1061,42.2125;4403;Bashkia Pukë;Arst
+0;20.2792,41.1725;3409;Bashkia Librazhd;Arës
+600;20.8397,40.5011;7007;Bashkia Korçë;Arrëz
+0;20.2783,41.8850;8509;Bashkia Kukës;Arrëz
+0;20.6919,40.2481;7404;Bashkia Kolonjë;Arrëz
+0;20.2883,41.9131;8509;Bashkia Kukës;Arrën
+0;20.2347,41.8608;8310;Bashkia Dibër;Arrë-Mollë
+3055;20.3242,41.7358;8311;Bashkia Dibër;Arras
+0;20.2436,40.2708;6012;Bashkia Gjirokastër;Argovë
+0;20.0303,42.2850;4030;Bashkia Shkodër;Ara të Lumit
+0;20.3667,41.6414;8314;Bashkia Dibër;Arapaj i Poshtëm
+0;20.3389,41.6456;8314;Bashkia Dibër;Arapaj i Epërm
+0;20.3814,40.0386;6003;Bashkia Gjirokastër;Apsallë
+0;20.0969,42.2272;4030;Bashkia Shkodër;Apripa e Keke
+0;20.1036,40.1717;6009;Bashkia Gjirokastër;Andon Poçi
+0;20.3333,41.2167;3410;Bashkia Librazhd;Allakë
+0;20.3000,41.2333;3410;Bashkia Librazhd;Allaj
+0;20.2986,40.3228;5406;Bashkia Skrapar;Alipostivan
+0;20.0500,41.6167;8009;Bashkia Mat;Ali Hanit
+0;20.3233,41.9750;8510;Bashkia Kukës;Aliaj
+0;20.7956,40.8642;7306;Bashkia Pogradec;Alarup
+0;20.2922,42.2247;8603;Bashkia Has;Goxhaj
+0;20.0292,42.3317;8706;Bashkia Tropojë;Velishtë
+0;20.0708,42.3422;8702;Bashkia Tropojë;Bllatë
+0;20.2108,42.3706;8706;Bashkia Tropojë;Pitamina e Sipërme
+0;20.2144,42.3781;8706;Bashkia Tropojë;Pitamina e Poshtëme
+0;20.3244,42.0714;8511;Bashkia Kukës;Fusha e Dukagjinit
+0;20.2028,42.3100;8705;Bashkia Tropojë;Bytyç
+12691;20.3356,41.1969;3408;Bashkia Librazhd;Librazhd-Qendër
+0;20.2628,41.1411;3409;Bashkia Librazhd;Vilzë
+0;20.4592,42.2497;8603;Bashkia Has;Muhadër
+0;20.4297,42.2725;8603;Bashkia Has;Mulaj
+0;20.4219,42.2156;8603;Bashkia Has;Lagjja e Sipërme
+0;20.5228,41.8803;8308;Bashkia Dibër;Shehe
+0;20.3122,41.7761;8306;Bashkia Dibër;Mustafaj
+0;20.3878,41.7525;8305;Bashkia Dibër;Renz
+0;20.0069,42.1500;4403;Bashkia Pukë;Sapaç
+0;20.2336,41.8686;8509;Bashkia Kukës;Sumaj
+0;20.2350,41.8767;8509;Bashkia Kukës;Dodaj
+0;20.2456,41.8933;8509;Bashkia Kukës;Pep-Prenat
+0;20.2214,41.8864;8509;Bashkia Kukës;Drobaj
+0;20.1533,41.7417;8011;Bashkia Mat;Zall-Gjoçaj
+0;20.1806,42.0389;8512;Bashkia Kukës;Arat e Mira
+0;20.3839,41.6869;8304;Bashkia Dibër;Zdojan
+0;20.3517,41.2417;3410;Bashkia Librazhd;Uljat
+0;20.3253,41.2458;3410;Bashkia Librazhd;Leljet
+0;20.2425,41.1794;3409;Bashkia Librazhd;Katund
+0;20.1756,41.1881;3409;Bashkia Librazhd;Zhabinë
+0;20.1300,41.2444;3013;Bashkia Elbasan;Fezruç
+0;20.1561,41.2314;3013;Bashkia Elbasan;Sinanaj
+0;20.1078,41.2317;3013;Bashkia Elbasan;Anola
+0;20.1528,41.1761;3013;Bashkia Elbasan;Katund
+5;20.0064,41.2847;1040;Bashkia Tiranë;Panec
+0;20.2153,41.1558;3409;Bashkia Librazhd;Polis-Vale
+0;20.2167,41.0911;3025;Bashkia Elbasan;Sharë
+0;20.1383,41.0364;3014;Bashkia Elbasan;Pobrat
+5;20.0222,41.4381;8008;Bashkia Mat;Marice
+5;20.0283,41.2869;1043;Bashkia Tiranë;Xhyrë
+0;20.2872,41.0564;3015;Bashkia Elbasan;Rafija
+5;20.0697,41.2817;1043;Bashkia Tiranë;Vakumona i Sipërme
+0;20.2592,41.0572;3014;Bashkia Elbasan;Vozjan
+5;20.0933,41.3025;1043;Bashkia Tiranë;Varros
+5;20.0258,41.4783;8008;Bashkia Mat;Tejlumaj
+5;20.1458,41.2825;1043;Bashkia Tiranë;Biç
+5;20.1706,41.2781;1043;Bashkia Tiranë;Gjorkaj
+5;20.1661,41.2861;1043;Bashkia Tiranë;Rinas
+5;20.1106,41.3219;1043;Bashkia Tiranë;Ruç
+5;20.1561,41.3208;1043;Bashkia Tiranë;Panjet
+5;20.1397,41.4206;8403;Bashkia Bulqizë;Balajt e Poshtëm
+5;20.1467,41.4431;8403;Bashkia Bulqizë;Blishtë
+5;20.1375,41.4892;8014;Bashkia Mat;Shëngjun
+5;20.1556,41.4661;8014;Bashkia Mat;Ruçaj
+5;20.2008,41.4333;8403;Bashkia Bulqizë;Kotaj
+5;20.1981,41.4056;8403;Bashkia Bulqizë;Peshk
+5;20.1975,41.3894;8403;Bashkia Bulqizë;Bricaj
+5;20.1981,41.3408;1043;Bashkia Tiranë;Bizë
+5;20.2028,41.3144;1043;Bashkia Tiranë;Berberaj
+5;20.1933,41.3086;1043;Bashkia Tiranë;Ballgjin
+5;20.1972,41.2931;1043;Bashkia Tiranë;Cenë
+5;20.1906,41.2789;1043;Bashkia Tiranë;Vërri
+5;20.1956,41.2547;1043;Bashkia Tiranë;Budanë
+5;20.2303,41.3978;8403;Bashkia Bulqizë;Lenë
+5;20.2556,41.3928;8403;Bashkia Bulqizë;Lenë
+5;20.2506,41.4203;8403;Bashkia Bulqizë;Koxheraj
+5;20.2414,41.4967;8409;Bashkia Bulqizë;Duricaj
+5;20.2758,41.3292;3410;Bashkia Librazhd;Mëxixë
+5;20.2900,41.3250;3410;Bashkia Librazhd;Dranovicë
+5;20.3089,41.3006;3410;Bashkia Librazhd;Vërri
+5;20.2872,41.2819;3410;Bashkia Librazhd;Funar
+5;20.3522,41.2614;3410;Bashkia Librazhd;Llangë
+5;20.3817,41.3078;3410;Bashkia Librazhd;Lagjja e Tërmetit
+5;20.3475,41.3853;3410;Bashkia Librazhd;Okshtuni i Vogël
+5;20.3911,41.3936;8405;Bashkia Bulqizë;Ballaj
+0;20.3536,41.3969;8405;Bashkia Bulqizë;Plepa
+5;20.3936,41.4192;8405;Bashkia Bulqizë;Stojka
+5;20.3703,41.4264;8405;Bashkia Bulqizë;Kurtaj
+0;20.0597,41.1964;3013;Bashkia Elbasan;Funarë
+0;20.0439,41.1175;3009;Bashkia Elbasan;Karakullak
+0;20.0503,41.1114;3009;Bashkia Elbasan;Kusarth
+0;20.0125,41.0369;3027;Bashkia Elbasan;Thanë
+0;20.5325,42.0222;8515;Bashkia Kukës;Nimçë
+0;20.5167,42.1192;8502;Bashkia Kukës;Bardhoci i Ri
+0;20.5383,42.1489;8502;Bashkia Kukës;Rexhaj
+0;20.5258,42.1797;8502;Bashkia Kukës;Moriq
+0;20.4986,42.1800;8502;Bashkia Kukës;Çemët
+0;20.4453,42.1800;8601;Bashkia Has;Dajç
+0;20.4481,42.1203;8605;Bashkia Has;Fezuk
+0;20.4967,42.1025;8502;Bashkia Kukës;Norgut
+0;20.4825,42.0769;8502;Bashkia Kukës;Matmilj
+0;20.4536,42.0597;8513;Bashkia Kukës;Ferth
+0;20.3864,42.2906;8603;Bashkia Has;Çinaj
+0;20.3819,42.2936;8603;Bashkia Has;Kolaj
+0;20.3214,42.3056;8603;Bashkia Has;Xhuxhaj
+0;20.3369,42.3106;8603;Bashkia Has;Prush
+0;20.2975,42.2825;8603;Bashkia Has;Mjekër Bardhë
+0;20.2711,42.2961;8705;Bashkia Tropojë;Lajthizë
+0;20.2522,42.3147;8705;Bashkia Tropojë;Stobertë
+0;20.2028,42.2844;8705;Bashkia Tropojë;Tufaj
+0;20.1769,42.2583;8705;Bashkia Tropojë;Gjonpapaj
+0;20.1839,42.2697;8705;Bashkia Tropojë;Rexhaj
+0;20.1269,42.2875;8701;Bashkia Tropojë;Kryelug
+0;20.1300,42.2686;8705;Bashkia Tropojë;Majac
+0;20.2378,42.2619;8705;Bashkia Tropojë;Lagjja e Sipërme
+0;20.3964,42.2936;8603;Bashkia Has;Kurpal
+0;20.0167,42.3500;8706;Bashkia Tropojë;Rosuje
+0;20.4000,42.3333;8603;Bashkia Has;Fushë Lumë
+0;20.1003,42.3739;8702;Bashkia Tropojë;Paqe
+0;20.1261,42.3464;8706;Bashkia Tropojë;Rreze-Mali
+0;20.1333,42.3667;8706;Bashkia Tropojë;Sopot
+0;20.3906,41.1317;3408;Bashkia Librazhd;Çelçan
+0;20.2628,41.8572;8310;Bashkia Dibër;Ndërshenë
+0;20.0794,42.3981;8703;Bashkia Tropojë;Graç
+0;20.0944,42.4028;8703;Bashkia Tropojë;Dretovë
+0;20.0950,42.0086;4402;Bashkia Pukë;Kodra e Kuqe
+0;20.0083,42.1186;4407;Bashkia Pukë;Prrez
+0;20.0406,42.2486;4030;Bashkia Shkodër;Gropë
+0;20.1219,42.1947;4404;Bashkia Pukë;Gurrë
+0;20.2081,42.1797;4404;Bashkia Pukë;Rajzë
+0;20.3197,42.0083;8510;Bashkia Kukës;Andres
+0;20.3633,42.0331;8510;Bashkia Kukës;Sukë
+0;20.2669,42.0778;8512;Bashkia Kukës;Kumel
+0;20.1742,42.1122;8512;Bashkia Kukës;Skacaj
+0;20.3031,42.1364;8604;Bashkia Has;Begaj
+0;20.3764,42.1489;8604;Bashkia Has;Sefollj
+0;20.4839,42.2244;8603;Bashkia Has;Lushaj
+0;20.2625,42.2236;8705;Bashkia Tropojë;Çalaj
+0;20.3242,42.1878;8604;Bashkia Has;Kabashit
+0;20.3697,42.2439;8603;Bashkia Has;Dautaj
+0;20.3158,42.2417;8603;Bashkia Has;Muçaj
+0;20.1619,42.2469;8705;Bashkia Tropojë;Mashë
+0;20.1111,42.2369;8705;Bashkia Tropojë;Çukë
+0;20.0572,41.9264;4408;Bashkia Pukë;Katundi i Sipërm
+0;20.0578,41.8378;4605;Bashkia Mirditë;Planetë
+0;20.0294,41.8258;4605;Bashkia Mirditë;Trojë
+0;20.0008,41.7358;8012;Bashkia Mat;Ndreaj
+0;20.0306,41.7383;8012;Bashkia Mat;Perlikaj
+0;20.0869,41.7533;8011;Bashkia Mat;Zallhotaj
+0;20.1261,41.6731;8011;Bashkia Mat;Dazhjan
+0;20.2383,41.7208;8312;Bashkia Dibër;Gjilotë
+0;20.1200,41.7408;8011;Bashkia Mat;Melth
+0;20.1561,41.9381;8509;Bashkia Kukës;Shtalth
+0;20.1094,41.9428;4408;Bashkia Pukë;Solloman
+0;20.1814,41.9372;8509;Bashkia Kukës;Petoc
+0;20.1958,41.9742;8509;Bashkia Kukës;Sung
+0;20.2944,41.9897;8510;Bashkia Kukës;Kapit
+0;20.3319,41.8961;8505;Bashkia Kukës;Qafë-Draj
+0;20.3297,41.8689;8310;Bashkia Dibër;Halilaj
+0;20.4139,41.8931;8506;Bashkia Kukës;Lapoj
+0;20.3869,41.8950;8506;Bashkia Kukës;Shpat
+0;20.3161,41.7422;8311;Bashkia Dibër;Kodër Leshe
+0;20.3675,41.7244;8305;Bashkia Dibër;Fushë-Kastriot
+0;20.5889,41.9611;8518;Bashkia Kukës;Balë
+0;20.0128,41.6461;8001;Bashkia Mat;Kolaj
+0;20.0153,41.5781;8003;Bashkia Mat;Batra e Vogël
+0;20.1894,41.6436;8313;Bashkia Dibër;Selitë
+0;20.1422,41.5761;8013;Bashkia Mat;Qaf-Dardhë
+0;20.0747,41.5664;8007;Bashkia Mat;Kujtim
+0;20.3203,41.6117;8313;Bashkia Dibër;Prat
+0;20.4286,41.4831;8404;Bashkia Bulqizë;Kosovec
+0;20.4542,41.4764;8405;Bashkia Bulqizë;Izvir
+0;20.1081,41.4844;8014;Bashkia Mat;Klos-Katund
+0;20.1125,41.3422;1043;Bashkia Tiranë;Skrep
+0;20.5853,41.0783;3405;Bashkia Librazhd;Kostriçani
+0;20.6306,41.0500;3405;Bashkia Librazhd;Buqezë
+0;20.5692,41.0669;3413;Bashkia Librazhd;Ballollorve
+0;20.5503,41.0256;3413;Bashkia Librazhd;Kolnekas
+0;20.5203,41.0261;7308;Bashkia Pogradec;Ballkuq
+0;20.5158,41.0619;3413;Bashkia Librazhd;Plishtës
+0;20.5067,41.0797;3413;Bashkia Librazhd;Lipofnik
+0;20.8144,40.7819;7028;Bashkia Korçë;Bregas
+0;20.7531,40.8086;7028;Bashkia Korçë;Nizhavec
+0;20.7875,40.7333;7014;Bashkia Korçë;Orman-Pojan
+0;20.6325,40.7853;7016;Bashkia Korçë;Mjaltasi i Sipërm
+0;20.6822,40.7114;7021;Bashkia Korçë;Maliq-Fshat
+0;20.5422,40.6836;7027;Bashkia Korçë;Kasollet e Bodesë
+0;20.4697,40.9472;7310;Bashkia Pogradec;Cencë
+0;20.4258,40.9975;3406;Bashkia Librazhd;Qershizë
+0;20.4064,40.9964;3406;Bashkia Librazhd;Bratilës
+0;20.4047,40.9819;3406;Bashkia Librazhd;Zall-Liras
+0;20.4444,40.9242;7310;Bashkia Pogradec;Mes
+0;20.4506,40.9006;7310;Bashkia Pogradec;Jollë
+0;20.4681,40.8850;7310;Bashkia Pogradec;Zgallo
+0;20.2975,40.8894;3015;Bashkia Elbasan;Elezaj
+0;20.3311,40.9208;3015;Bashkia Elbasan;Çekrezë
+0;20.3272,40.9492;3015;Bashkia Elbasan;Drrasë
+0;20.2781,40.9931;3015;Bashkia Elbasan;Negrov
+0;20.2625,40.9858;3015;Bashkia Elbasan;Halilaj
+0;20.2694,40.9208;3015;Bashkia Elbasan;Pajollar
+0;20.2347,40.9408;3015;Bashkia Elbasan;Shesh
+0;20.2353,40.9603;3015;Bashkia Elbasan;Arçovë
+0;20.2239,40.9853;3015;Bashkia Elbasan;Manth
+0;20.2461,40.9908;3015;Bashkia Elbasan;Shemat
+0;20.2267,40.9192;3015;Bashkia Elbasan;Sinani
+0;20.2122,40.8994;3015;Bashkia Elbasan;Xhams
+0;20.1964,40.8942;3015;Bashkia Elbasan;Perike
+0;20.1481,40.9011;3019;Bashkia Elbasan;Zgjupë-Kodër
+0;20.1436,40.9525;3014;Bashkia Elbasan;Cingari i Sipërm
+0;20.1942,40.9756;3014;Bashkia Elbasan;Kaferr
+0;20.1925,40.9647;3014;Bashkia Elbasan;Paraspun
+0;20.1808,40.9464;3014;Bashkia Elbasan;Velak
+0;20.1722,40.9828;3014;Bashkia Elbasan;Shumeplaku
+0;20.1567,40.9828;3014;Bashkia Elbasan;Panç
+0;20.1461,40.9933;3014;Bashkia Elbasan;Zall
+0;20.1092,40.9978;3026;Bashkia Elbasan;Çekrez
+0;20.0669,40.9358;3020;Bashkia Elbasan;Mazrekë
+0;20.0197,40.9644;3020;Bashkia Elbasan;Qyrkani i Sipërm
+837;20.0097,40.9689;3024;Bashkia Elbasan;Lumas
+0;20.0400,40.9283;3019;Bashkia Elbasan;Goricë
+0;20.0483,40.8964;3019;Bashkia Elbasan;Mhallë
+0;20.0317,40.9100;3019;Bashkia Elbasan;Vilëz
+0;20.0044,40.8764;3019;Bashkia Elbasan;Bregu-Leckës
+0;20.0192,40.8822;3019;Bashkia Elbasan;Goricë
+0;20.0511,40.8444;3019;Bashkia Elbasan;Marez
+0;20.0372,40.8403;5307;Bashkia Kuçovë;Saraseli i Sipërm
+0;20.0619,40.8433;3019;Bashkia Elbasan;Llahaj
+0;20.0872,40.8458;3019;Bashkia Elbasan;Sheshi i Zi
+0;20.0972,40.6872;5016;Bashkia Berat;Tomori i Vogël
+0;20.1061,40.7783;5001;Bashkia Berat;Jançë-Mal
+0;20.2392,40.6697;5410;Bashkia Skrapar;Konak
+0;20.2417,40.7469;5410;Bashkia Skrapar;Zaim
+0;20.2439,40.7933;5410;Bashkia Skrapar;Zenelas
+0;20.2158,40.7794;5410;Bashkia Skrapar;Kapillanas
+0;20.1881,40.7606;5410;Bashkia Skrapar;Marish
+0;20.1250,40.7756;5001;Bashkia Berat;Sergjovë
+0;20.1247,40.8017;5001;Bashkia Berat;Vrri
+0;20.1125,40.8267;5001;Bashkia Berat;Tunja e Re
+0;20.1075,40.8219;5001;Bashkia Berat;Hoxhallar
+0;20.0858,40.7928;5001;Bashkia Berat;Tabak
+0;20.0778,40.7764;5001;Bashkia Berat;Turanët
+0;20.1044,40.7494;5001;Bashkia Berat;Vresht
+0;20.0861,40.7467;5001;Bashkia Berat;Dukovë
+0;20.0447,40.6769;5016;Bashkia Berat;Rabjakë
+0;20.0303,40.7256;5001;Bashkia Berat;Cacollare
+0;20.0147,40.7489;5001;Bashkia Berat;Mshalle
+0;20.0042,40.7417;5001;Bashkia Berat;Lagjas
+0;20.0408,40.7481;5001;Bashkia Berat;Korçë
+0;20.0383,40.7717;5001;Bashkia Berat;Vitë
+0;20.3864,40.8322;7018;Bashkia Korçë;Kalaj
+0;20.3775,40.7808;7018;Bashkia Korçë;Haxhillar
+0;20.4381,40.7181;7018;Bashkia Korçë;Moglicë
+24;20.1983,40.6542;5410;Bashkia Skrapar;Luadh
+0;20.2258,40.5694;5411;Bashkia Skrapar;Krorëz
+0;20.2108,40.5622;5401;Bashkia Skrapar;Storë
+0;20.2158,40.5603;5401;Bashkia Skrapar;Vërzhezaj
+0;20.1858,40.5594;5401;Bashkia Skrapar;Durmish
+0;20.1869,40.5531;5401;Bashkia Skrapar;Solias
+0;20.1694,40.5258;5401;Bashkia Skrapar;Fushë
+0;20.1872,40.5164;5401;Bashkia Skrapar;Arizaj
+0;20.1467,40.5528;5405;Bashkia Skrapar;Seleni i Poshtëm
+1098;20.1500,40.5711;5405;Bashkia Skrapar;Bogovë
+0;20.1067,40.5869;5405;Bashkia Skrapar;Pronovik
+0;20.1050,40.5914;5405;Bashkia Skrapar;Kaluç
+0;20.1133,40.6233;5016;Bashkia Berat;Ballë
+0;20.0900,40.6233;5016;Bashkia Berat;Perik
+0;20.1058,40.6539;5016;Bashkia Berat;Portoçan
+0;20.0844,40.6428;5016;Bashkia Berat;Dalan
+0;20.0583,40.6508;5016;Bashkia Berat;Belicë
+0;20.0744,40.6350;5016;Bashkia Berat;Ball
+740;20.0739,40.6233;5016;Bashkia Berat;Çepan
+0;20.0658,40.6006;5016;Bashkia Berat;Vojak
+0;20.0664,40.5747;5015;Bashkia Berat;Trove
+0;20.0819,40.5519;5015;Bashkia Berat;Sinaj
+0;20.0675,40.5428;5015;Bashkia Berat;Fushtan
+0;20.0797,40.5411;5015;Bashkia Berat;Palec
+0;20.0828,40.5331;5015;Bashkia Berat;Vizhar
+0;20.0800,40.5194;5015;Bashkia Berat;Sylet
+0;20.0806,40.5128;5015;Bashkia Berat;Gerdan
+0;20.0842,40.5086;5015;Bashkia Berat;Meçaj
+0;20.0897,40.4997;5015;Bashkia Berat;Goran
+0;20.0539,40.5144;5015;Bashkia Berat;Plënckë
+0;20.0328,40.5308;5015;Bashkia Berat;Dokaj
+0;20.0217,40.5097;5015;Bashkia Berat;Lekër
+0;20.0000,40.5056;5015;Bashkia Berat;Xhënovë
+0;20.0006,40.5117;5015;Bashkia Berat;Zhargut
+0;20.0100,40.5231;5015;Bashkia Berat;Agallinj
+0;20.0161,40.5494;5015;Bashkia Berat;Dyrmishaj
+0;20.0339,40.5456;5015;Bashkia Berat;Veliaj
+0;20.0511,40.5633;5015;Bashkia Berat;Dollan
+0;20.0383,40.5628;5015;Bashkia Berat;Luçk
+0;20.0086,40.5583;5015;Bashkia Berat;Demiraj
+0;20.0136,40.5631;5015;Bashkia Berat;Lilaj
+0;20.0081,40.5675;5015;Bashkia Berat;Turhan
+0;20.0003,40.5750;5015;Bashkia Berat;Agalli
+0;20.0317,40.5875;5015;Bashkia Berat;Niçaj
+0;20.0317,40.5933;5015;Bashkia Berat;Calaj
+0;20.0183,40.6047;5016;Bashkia Berat;Kuçovë
+0;20.0375,40.6117;5016;Bashkia Berat;Hadaj
+0;20.0289,40.6125;5016;Bashkia Berat;Muç
+0;20.0436,40.6364;5016;Bashkia Berat;Gradishtë
+0;20.0067,40.6525;5013;Bashkia Berat;Guman
+0;20.0319,40.6608;5016;Bashkia Berat;Hoxhaj
+0;20.4747,40.6619;7022;Bashkia Korçë;Pulahë
+0;20.3786,40.6539;7018;Bashkia Korçë;Brakollare
+30;20.3297,40.6111;5408;Bashkia Skrapar;Barçi i Sipërm
+0;20.2206,40.3350;5406;Bashkia Skrapar;Shtikë
+0;20.1972,40.4008;5406;Bashkia Skrapar;Harkaj
+0;20.2419,40.4397;5406;Bashkia Skrapar;Sitice
+0;20.2397,40.4783;5413;Bashkia Skrapar;Çuadar
+125;20.2200,40.4956;5401;Bashkia Skrapar;Sharovë
+0;20.2067,40.4942;5401;Bashkia Skrapar;Kalë
+0;20.1842,40.4969;5401;Bashkia Skrapar;Hamzallarë
+0;20.1700,40.4889;5401;Bashkia Skrapar;Cerova e Malit
+0;20.1800,40.4617;5401;Bashkia Skrapar;Xanollar
+0;20.1636,40.4494;5406;Bashkia Skrapar;Qypër
+0;20.1344,40.4394;5401;Bashkia Skrapar;Veleshnjaret
+0;20.1425,40.4108;5401;Bashkia Skrapar;Gjergas
+0;20.1500,40.3881;5406;Bashkia Skrapar;Lotonjaj
+0;20.1647,40.3392;5406;Bashkia Skrapar;Çorenisht
+0;20.1069,40.4378;5401;Bashkia Skrapar;Korat
+0;20.1189,40.4533;5401;Bashkia Skrapar;Kenaj
+0;20.1311,40.4608;5401;Bashkia Skrapar;Murisht
+0;20.1378,40.4872;5401;Bashkia Skrapar;Dushallar
+0;20.1511,40.4914;5401;Bashkia Skrapar;Bakias
+0;20.1442,40.4978;5401;Bashkia Skrapar;Brankollar
+0;20.1047,40.4975;5401;Bashkia Skrapar;Shkëmb
+0;20.0994,40.4692;5401;Bashkia Skrapar;Berzanaj
+0;20.0989,40.4625;5401;Bashkia Skrapar;Duraj
+0;20.0644,40.4569;5015;Bashkia Berat;Shanaj
+0;20.0428,40.4519;5015;Bashkia Berat;Hambar
+0;20.0686,40.4831;5015;Bashkia Berat;Liqeth
+0;20.0464,40.4936;5015;Bashkia Berat;Barmë
+0;20.0006,40.4969;5015;Bashkia Berat;Haxhiaj
+0;20.3975,40.4667;5407;Bashkia Skrapar;Sulejmanas
+0;20.3900,40.4636;5407;Bashkia Skrapar;Zhurë
+0;20.4067,40.4944;5407;Bashkia Skrapar;Vladas
+0;20.3650,40.4767;5407;Bashkia Skrapar;Gorçellar
+0;20.3436,40.4722;5407;Bashkia Skrapar;Çelë
+0;20.3311,40.4414;5407;Bashkia Skrapar;Dost
+0;20.3650,40.4033;5406;Bashkia Skrapar;Liçollar
+0;20.3019,40.3531;5406;Bashkia Skrapar;Bejkollarë
+0;20.2911,40.3686;5406;Bashkia Skrapar;Sevrani i Madh
+0;20.2808,40.4222;5406;Bashkia Skrapar;Shënkoll
+0;20.1778,40.3136;5406;Bashkia Skrapar;Këlcyrë Fshat
+0;20.2125,40.3200;5406;Bashkia Skrapar;Qafërrap
+0;20.1847,40.3297;5406;Bashkia Skrapar;Beduqas
+0;20.0594,40.1944;6019;Bashkia Gjirokastër;Gropa e Barcit
+0;20.0344,40.1722;6019;Bashkia Gjirokastër;Medar
+0;20.3842,40.2075;6001;Bashkia Gjirokastër;Lagjja e Re
+0;20.3861,40.2411;6001;Bashkia Gjirokastër;Qilarishti i Vogël
+0;20.2725,40.2792;6012;Bashkia Gjirokastër;Piskovë
+0;20.2828,40.2994;6012;Bashkia Gjirokastër;Kalenj
+0;20.1342,40.1256;6013;Bashkia Gjirokastër;Valare
+0;20.1631,40.0858;6014;Bashkia Gjirokastër;Arshi-Lëngo
+0;20.2178,40.0369;6010;Bashkia Gjirokastër;Bulo
+0;20.1283,40.0889;6013;Bashkia Gjirokastër;Gerhot
+0;20.0092,40.1519;6019;Bashkia Gjirokastër;Kiknesh
+0;20.0111,40.1472;6019;Bashkia Gjirokastër;Linat
+0;20.0206,40.0058;9720;Bashkia Sarandë;Babaj
+0;20.0250,40.0003;9720;Bashkia Sarandë;Zhupaj
+0;20.2550,40.0025;6003;Bashkia Gjirokastër;NB Muzafer Asqeri
+0;20.6864,40.2850;7404;Bashkia Kolonjë;Endrelikas
+0;20.6317,40.2756;7404;Bashkia Kolonjë;Mesare
+0;20.6372,40.2800;7404;Bashkia Kolonjë;Vilë
+0;20.6833,40.3283;7401;Bashkia Kolonjë;Agalli
+0;20.6311,40.3303;7405;Bashkia Kolonjë;Alemas
+0;20.5797,40.2744;7404;Bashkia Kolonjë;Bogdanas
+0;20.5381,40.3169;7405;Bashkia Kolonjë;Polenë
+0;19.9625,39.9592;9713;Bashkia Sarandë;Shënvasi
+0;19.9681,39.9475;9717;Bashkia Sarandë;Nivicë
+0;19.9139,39.9922;9713;Bashkia Sarandë;Lukovë
+0;19.9414,39.9275;9713;Bashkia Sarandë;Kakomë
+0;19.9989,39.9997;9720;Bashkia Sarandë;Fushë-Vërri
+2994;19.9997,39.7689;9706;Bashkia Sarandë;Ksamil
+0;19.9844,39.9289;9717;Bashkia Sarandë;Krekëz
+0;19.4179,40.5144;9414;Bashkia Vlorë;Zvemec
+0;19.5769,41.8889;4506;Bashkia Lezhë;Zojz, Dajc
+0;19.3992,42.0708;4017;Bashkia Shkodër;Zogaj
+0;19.7667,41.9167;4508;Bashkia Lezhë;Zimaj
+0;19.5703,41.2122;2504;Bashkia Kavajë;Zikxhafaj
+0;19.6044,41.2225;2504;Bashkia Kavajë;Zikularaj
+0;19.6964,40.8631;9001;Bashkia Lushnje;Zhym
+0;19.6206,41.2681;1036;Bashkia Tiranë;Zhurje
+0;19.6211,42.0853;4012;Bashkia Shkodër;Zhupë
+0;19.5372,40.7072;9318;Bashkia Fier;Zhupan
+0;19.9889,40.1197;6019;Bashkia Gjirokastër;Zhulat
+0;19.3765,40.6320;9411;Bashkia Vlorë;Zhukë-Grykëshqipe
+126;19.9906,40.6444;5013;Bashkia Berat;Zhitomi i Vogël
+205;19.9833,40.6258;5013;Bashkia Berat;Zhitomi i Madh
+0;19.7547,40.8280;9005;Bashkia Lushnje;Zhelizhan
+0;19.7197,41.5931;4704;Bashkia Kurbin;Zhejë
+5236;19.6497,40.7092;9313;Bashkia Fier;Zharrëz
+0;19.5387,40.9396;9020;Bashkia Lushnje;Zharnec
+0;19.9253,40.4167;9328;Bashkia Fier;Zhabokikë-Dy
+84;19.9703,40.5117;5403;Bashkia Skrapar;Zhapokikë
+0;19.6625,41.0375;9015;Bashkia Lushnje;Zhamë
+0;19.5578,41.0781;2510;Bashkia Kavajë;Zhabjak
+0;19.7831,40.9328;9008;Bashkia Lushnje;Zgjanë
+0;19.7653,41.4778;1504;Bashkia Krujë;Zgërdhesh
+0;19.7467,41.4514;1504;Bashkia Krujë;Zezë
+0;19.6256,41.1761;2506;Bashkia Kavajë;Zenel Hoxhë
+0;19.6892,41.7078;4510;Bashkia Lezhë;Zejmen
+0;19.6606,41.2397;1036;Bashkia Tiranë;Zbarqe
+0;19.5611,41.0897;2510;Bashkia Kavajë;Zashtik
+0;19.6553,41.1356;2507;Bashkia Kavajë;Zambishë
+0;19.8983,41.4533;1508;Bashkia Krujë;Zall-Mëner
+9389;19.8275,41.3894;1048;Bashkia Tiranë;Zall-Herr
+0;19.7234,41.4990;1502;Bashkia Krujë;Zallaj
+0;19.9253,41.4000;1042;Bashkia Tiranë;Zall-Dajt
+3380;19.9303,41.4297;1042;Bashkia Tiranë;Zall-Bastar
+0;19.5031,42.2875;4305;Bashkia Malësi e Madhe;Zagorë
+0;19.7703,41.3244;1052;Bashkia Tiranë;Yzberish
+0;19.7486,41.3461;1050;Bashkia Tiranë;Yrshek
+0;19.7839,41.0083;9017;Bashkia Lushnje;Xibrakë
+0;19.9219,41.0244;3001;Bashkia Elbasan;Xibrakë
+0;19.5507,40.4798;9401;Bashkia Vlorë;Xhyherinë
+0;19.9886,40.6697;5013;Bashkia Berat;Bejkollat
+0;19.8922,41.0331;3001;Bashkia Elbasan;Xherije
+0;19.9100,40.4542;9328;Bashkia Fier;Xhaxhaj
+12381;19.5475,41.3444;2019;Bashkia Durrës;Xhafzotaj
+0;19.5364,40.9752;9022;Bashkia Lushnje;Xeng
+0;19.6936,40.1397;9417;Bashkia Vlorë;Vuno
+0;19.8069,42.2831;8706;Bashkia Tropojë;Vuksanaj
+0;19.4522,42.3164;4306;Bashkia Malësi e Madhe;Vukpalaj-Bajzë
+0;19.6719,42.1392;4012;Bashkia Shkodër;Vukjakaj-Gegaj
+0;19.6477,42.4867;4304;Bashkia Malësi e Madhe;Vukël
+1113;19.5478,42.0281;4016;Bashkia Shkodër;Vukatanë
+0;19.5178,42.3225;4305;Bashkia Malësi e Madhe;Vuç-Kurtaj
+0;19.5414,42.3328;4305;Bashkia Malësi e Madhe;Vrith
+0;19.8361,41.9500;4607;Bashkia Mirditë;Vrrith
+0;19.4842,41.3592;2009;Bashkia Durrës;Vrinas
+0;19.6428,40.5944;9311;Bashkia Fier;Vreshtas
+3000;19.7875,41.1475;1035;Bashkia Tiranë;Vrap
+0;19.6908,40.2097;9424;Bashkia Vlorë;Vranisht
+0;19.8897,42.3389;8706;Bashkia Tropojë;Vrana
+0;19.9667,41.9167;4408;Bashkia Pukë;Voz
+0;19.5647,41.1453;2509;Bashkia Kavajë;Vorrozen
+0;19.5586,42.1556;4002;Bashkia Shkodër;Vorfë
+4973;19.6550,41.3908;1032;Bashkia Vorë;Vorë
+302;19.8263,40.7615;5008;Bashkia Berat;Vokopolë
+0;19.5765,40.4169;9402;Bashkia Vlorë;Vodicë
+0;19.9869,40.7650;5020;Bashkia Berat;Vodëza e Sipërme
+0;19.7675,40.6797;9321;Bashkia Fier;Vlosh
+115261;19.4838,40.4696;9423;Bashkia Vlorë;Vlorë
+552;19.9025,40.8544;5305;Bashkia Kuçovë;Vlashuk
+0;19.6167,41.3689;1033;Bashkia Vorë;Vlashaj
+0;19.6333,42.0667;4016;Bashkia Shkodër;Vjerdhë
+0;19.6911,40.6422;9312;Bashkia Fier;Visokë
+0;19.8133,41.2644;1034;Bashkia Tiranë;Vishaj
+0;19.8000,41.6042;4703;Bashkia Kurbin;Vinjoll
+0;19.6361,42.0936;4012;Bashkia Shkodër;Vilzë
+0;19.9517,41.4558;1042;Bashkia Tiranë;Vilëz
+0;19.8242,42.1447;4405;Bashkia Pukë;Vilë
+0;19.5117,41.0556;2510;Bashkia Kavajë;Vilë-Ballaj
+0;19.7356,41.9325;4508;Bashkia Lezhë;Vig
+0;19.6978,40.7186;9315;Bashkia Fier;Vidhishtë
+0;19.3817,42.0594;4017;Bashkia Shkodër;Vidhgar
+0;19.8833,41.1000;3007;Bashkia Elbasan;Vidhas-Hasgjel
+0;19.9889,41.0786;3016;Bashkia Elbasan;Vidhas
+0;19.6111,40.4872;9412;Bashkia Vlorë;Vezhdanisht
+822;19.9100,40.7358;5010;Bashkia Berat;Veterrik
+0;19.8250,41.1750;1035;Bashkia Tiranë;Vesqi
+0;19.6242,40.7881;9327;Bashkia Fier;Vërri
+0;19.7895,40.2968;9415;Bashkia Vlorë;Vërmik
+0;19.7861,41.4525;1504;Bashkia Krujë;Virjon
+0;19.6164,40.7019;9313;Bashkia Fier;Verbas
+0;19.7164,40.3053;9415;Bashkia Vlorë;Verbas
+0;19.7622,40.7478;9319;Bashkia Fier;Velmisht
+0;19.4056,41.8783;4020;Bashkia Shkodër;Velipojë
+0;19.4178,42.0225;4017;Bashkia Shkodër;Velinaj
+541;19.9381,40.6289;5013;Bashkia Berat;Veleshnjë
+0;19.7133,41.8147;4507;Bashkia Lezhë;Velë-Vend
+0;19.6822,40.3200;9415;Bashkia Vlorë;Velçë
+176;19.8928,40.5989;5011;Bashkia Berat;Velçan
+766;19.9675,40.8369;5307;Bashkia Kuçovë;Velagosht
+8453;19.9322,40.7017;5012;Bashkia Berat;Velabisht
+0;19.7875,41.0217;9017;Bashkia Lushnje;Vashaj
+0;19.4844,42.3528;4305;Bashkia Malësi e Madhe;Varr i Papes
+0;19.6614,41.7875;4504;Bashkia Lezhë;Varosh
+0;19.6664,41.2450;1036;Bashkia Tiranë;Varosh
+0;19.5827,40.6002;9324;Bashkia Fier;Varibop
+0;19.7442,41.2992;1041;Bashkia Tiranë;Vaqarr
+0;19.5586,40.8447;9310;Bashkia Fier;Vanaj
+0;19.4156,42.0503;4017;Bashkia Shkodër;Vallas
+0;19.7394,41.3931;1030;Bashkia Kamëz;Valias
+0;19.9483,41.0453;3001;Bashkia Elbasan;Valas
+0;19.6806,40.3578;9421;Bashkia Vlorë;Vajzë
+0;19.5175,42.2078;4302;Bashkia Malësi e Madhe;Vajush
+0;19.6008,40.7940;9327;Bashkia Fier;Vajkan
+0;19.7964,41.6886;4705;Bashkia Kurbin;Vau i Shkjezës
+0;19.5192,40.7181;9309;Bashkia Fier;Vadhizë
+0;19.5439,41.3969;2011;Bashkia Durrës;Vadardhë
+2569;19.9803,40.6972;5013;Bashkia Berat;Uznovë
+0;19.7489,40.5942;9308;Bashkia Fier;Usojë
+0;19.8094,41.0392;9017;Bashkia Lushnje;Uruçaj
+0;19.6478,42.1406;4012;Bashkia Shkodër;Ura e Shtrejtë
+7232;19.8778,40.7689;5007;Bashkia Berat;Ura Vajgurore
+0;19.9814,41.6864;8012;Bashkia Mat;Urakë
+0;19.7947,41.8753;4508;Bashkia Lezhë;Ungrej
+781;19.9719,40.7439;5020;Bashkia Berat;Ullinjas
+1229;19.8933,41.6828;8004;Bashkia Mat;Ulëz
+0;19.9833,41.1500;3012;Bashkia Elbasan;Ulëm
+0;19.8717,42.0892;4405;Bashkia Pukë;Ukth
+0;19.6681,42.1242;4012;Bashkia Shkodër;Ukbibaj
+0;19.9000,41.7833;4601;Bashkia Mirditë;Uj-Shtreza
+0;19.7956,41.9372;4508;Bashkia Lezhë;Turrec
+0;19.8908,40.8986;3022;Bashkia Elbasan;Turbull
+0;19.8811,41.3817;1048;Bashkia Tiranë;Tujan
+0;19.4842,41.9794;4018;Bashkia Shkodër;Trush
+0;19.6753,41.8778;4505;Bashkia Lezhë;Troshan
+0;19.9567,41.7686;4602;Bashkia Mirditë;Trojës
+0;19.9008,40.9972;3008;Bashkia Elbasan;Trojas
+0;19.5167,40.6167;9420;Bashkia Vlorë;Trocaj
+0;19.5095,40.5786;9420;Bashkia Vlorë;Trevëllazër
+0;19.6792,41.7467;4510;Bashkia Lezhë;Tresh
+0;19.6667,41.2500;1036;Bashkia Tiranë;Treg
+0;19.6403,40.4833;9412;Bashkia Vlorë;Treblovë
+0;19.5130,40.3267;9426;Bashkia Vlorë;Tragjas
+0;19.7542,40.8414;9005;Bashkia Lushnje;Toshkëz
+0;19.8111,40.4976;9328;Bashkia Fier;Tatoshaj
+0;19.4328,40.7631;9326;Bashkia Fier;Topojë
+0;19.8847,42.2153;8706;Bashkia Tropojë;Toplanë
+0;19.8723,40.4148;9328;Bashkia Fier;Toç
+418495;19.8187,41.3274;1700;Bashkia Tiranë;Tiranë
+0;19.5511,41.2536;2504;Bashkia Kavajë;Tilaj
+10719;19.6778,41.5475;1503;Bashkia Krujë;Thumanë
+0;19.7064,41.1297;2511;Bashkia Kavajë;Thartor
+0;19.9500,41.0167;3017;Bashkia Elbasan;Thanë
+0;19.8175,40.8664;5022;Bashkia Berat;Thanë
+0;19.6697,41.0594;2503;Bashkia Kavajë;Thanasaj
+0;19.9533,42.2797;8706;Bashkia Tropojë;Tetaj
+0;19.6142,41.0400;9015;Bashkia Lushnje;Tërbuf
+0;19.9444,41.1589;3012;Bashkia Elbasan;Tërbaç
+0;19.6456,40.2461;9413;Bashkia Vlorë;Tërbaç
+0;19.9622,41.7892;4602;Bashkia Mirditë;Tenë
+0;19.8192,42.1592;4405;Bashkia Pukë;Telume-Kllogjen
+0;19.9392,40.0331;9715;Bashkia Sarandë;Tatzat
+0;19.8917,41.7597;4601;Bashkia Mirditë;Tarazh
+0;19.8167,41.1167;1035;Bashkia Tiranë;Taraj
+0;19.7361,41.4175;1504;Bashkia Krujë;Tapizë
+1780;19.8803,40.7936;5308;Bashkia Kuçovë;Tapi
+0;19.5622,42.4631;4304;Bashkia Malësi e Madhe;Tamarë
+0;19.6136,41.6822;4511;Bashkia Lezhë;Tale
+0;19.9083,40.9608;3008;Bashkia Elbasan;Tafanaj
+681;19.8199,40.8233;5022;Bashkia Berat;Syzës
+0;19.5692,41.4075;2012;Bashkia Durrës;Synej
+0;19.5425,41.1800;2505;Bashkia Kavajë;Synej
+0;19.9053,41.3308;1040;Bashkia Tiranë;Surrel
+0;19.5789,41.9347;4022;Bashkia Shkodër;Sumë-Mabë
+0;19.5219,41.0397;9022;Bashkia Lushnje;Sulzotaj
+0;19.5063,40.7583;9309;Bashkia Fier;Sulaj
+0;19.6231,41.5264;1507;Bashkia Krujë;Sukth-Vendas
+13395;19.5378,41.3806;2010;Bashkia Durrës;Sukth
+0;19.5350,41.3694;2010;Bashkia Durrës;Sukthi i Ri
+0;19.7100,40.7858;9319;Bashkia Fier;Suku i Sipërm
+0;19.7247,40.7781;9319;Bashkia Fier;Suku i Poshtëm
+0;19.8350,41.8850;4508;Bashkia Lezhë;Sukaxhi
+0;19.4172,41.9717;4019;Bashkia Shkodër;Suk-Dajç
+0;19.7375,40.7511;9319;Bashkia Fier;Strum
+0;19.9061,41.6406;8004;Bashkia Mat;Stojan
+0;19.8314,41.2728;1034;Bashkia Tiranë;Stërmas
+0;19.5169,41.1114;2510;Bashkia Kavajë;Stërbeg
+1043;19.9178,40.7172;5012;Bashkia Berat;Starovë
+0;19.4803,42.3764;4305;Bashkia Malësi e Madhe;Starë
+0;19.7339,40.9106;9002;Bashkia Lushnje;Stan-Karbunarë
+0;19.5167,41.2167;2505;Bashkia Kavajë;Stan i Ri
+0;19.5872,41.9872;4024;Bashkia Shkodër;Stajkë
+585;19.8186,40.7839;5008;Bashkia Berat;Sqepur
+0;19.5831,40.9179;9020;Bashkia Lushnje;Spolatë
+0;19.6906,41.7392;4510;Bashkia Lezhë;Spiten
+0;19.4439,41.3411;2009;Bashkia Durrës;Spitallë
+0;19.4675,41.0955;2510;Bashkia Kavajë;Spille
+0;19.7333,40.1000;9425;Bashkia Vlorë;Spile
+0;19.6075,42.0106;4008;Bashkia Shkodër;Spatharë
+0;19.4945,41.1077;2510;Bashkia Kavajë;Spanesh
+0;19.6667,40.9000;9001;Bashkia Lushnje;Soravë
+0;19.6353,40.9092;9010;Bashkia Lushnje;Sopëz
+0;19.4575,40.7189;9323;Bashkia Fier;Sop
+0;19.9292,41.1144;3012;Bashkia Elbasan;Papër-Sallak
+299;19.8006,40.7403;5018;Bashkia Berat;Slanicë
+0;19.9833,41.2167;1049;Bashkia Tiranë;Skutërrë
+0;19.7964,41.6886;4705;Bashkia Kurbin;Skuraj
+0;19.4790,40.5762;9420;Bashkia Vlorë;Skrofotinë
+802;19.8247,40.7483;5018;Bashkia Berat;Skrevan
+0;19.7903,40.9172;9008;Bashkia Lushnje;Skilaj
+0;19.7106,40.6769;9312;Bashkia Fier;Siqecë
+3351;19.8692,40.6468;5011;Bashkia Berat;Sinjë
+0;19.4833,40.7333;9309;Bashkia Fier;Sinanbejlli
+0;19.8431,40.3667;9410;Bashkia Vlorë;Sinanaj
+0;19.7294,41.0875;2511;Bashkia Kavajë;Sinametaj
+0;19.6994,41.0689;2511;Bashkia Kavajë;Sinaballaj
+0;19.9247,41.8681;4607;Bashkia Mirditë;Simon
+0;19.9667,41.0167;3017;Bashkia Elbasan;Shushicë))
+0;19.9333,41.4142;1042;Bashkia Tiranë;Kodër-Shupal
+0;19.7078,41.6558;4701;Bashkia Kurbin;Shullaz
+0;19.4694,40.7044;9314;Bashkia Fier;Shtyllas
+0;19.3747,42.0269;4019;Bashkia Shkodër;Shtuf
+0;19.8894,41.9222;4607;Bashkia Mirditë;Shtuf
+0;19.6250,41.3386;1033;Bashkia Vorë;Shtrazë
+0;19.5333,42.0833;4015;Bashkia Shkodër;Shtoji i Vjetër
+0;19.5494,42.1003;4012;Bashkia Shkodër;Hot i Ri
+0;19.5806,41.1647;2506;Bashkia Kavajë;Shtodhër
+0;19.9231,40.9783;3017;Bashkia Elbasan;Shtith
+0;19.8719,41.3672;1047;Bashkia Kamëz;Shtish-Tufinë
+0;19.7333,41.5667;4704;Bashkia Kurbin;Shpijat Piroll
+0;19.6333,41.5000;1507;Bashkia Krujë;Shpijat Noue Cipi
+0;19.4908,41.3328;2021;Bashkia Durrës;Shpijat Kosovës
+0;19.5031,41.3706;2010;Bashkia Durrës;Shpijat Ali Roma
+0;19.6975,41.5583;1503;Bashkia Krujë;Shpërdhet
+0;19.8925,41.8492;4602;Bashkia Mirditë;Shpërdhezë
+0;19.8167,41.1667;1035;Bashkia Tiranë;Shpat-Vesqi
+0;19.7783,41.1622;1035;Bashkia Tiranë;Shpati i Sipërm
+0;19.7500,41.0500;2511;Bashkia Kavajë;Shpat
+0;19.7800,42.2375;8706;Bashkia Tropojë;Shoshit
+0;19.9328,42.1856;4403;Bashkia Pukë;Shopël
+0;19.6115,41.5896;2015;Bashkia Durrës;Shëllinzë
+0;19.7550,42.1011;4409;Bashkia Pukë;Vukjakaj-Gegaj
+0;19.8319,41.5494;1501;Bashkia Krujë;Shkretë
+0;19.5731,41.1006;2509;Bashkia Kavajë;Shkozet
+0;19.9944,42.0003;4408;Bashkia Pukë;Shkozë
+0;19.8564,40.9839;3008;Bashkia Elbasan;Shkozë
+0;19.7763,40.4056;9410;Bashkia Vlorë;Shkozë
+0;19.8250,41.7061;4601;Bashkia Mirditë;Shkopet
+95553;19.5126,42.0683;4015;Bashkia Shkodër;Shkodër
+0;19.5408,41.9550;4021;Bashkia Shkodër;Shkjezë
+0;19.8906,41.0036;3008;Bashkia Elbasan;Shaban
+0;19.5169,41.2903;2008;Bashkia Durrës;Shkallnur
+0;19.5736,41.4525;2012;Bashkia Durrës;Shkallë
+0;19.9667,41.3333;1040;Bashkia Tiranë;Shkallë
+0;19.4433,41.9842;4019;Bashkia Shkodër;Shirq
+0;19.4561,42.0578;4017;Bashkia Shkodër;Shirokë
+0;19.8275,41.1303;1035;Bashkia Tiranë;Shënkoll
+0;19.4914,41.3475;2021;Bashkia Durrës;Shinavlash
+14138;19.5672,41.3456;2013;Bashkia Durrës;Shijak
+0;19.8161,41.0242;9017;Bashkia Lushnje;Shezë
+0;19.6342,41.3186;2022;Bashkia Durrës;Shetel
+0;19.4908,41.5578;2015;Bashkia Durrës;Shetaj
+0;19.8794,41.7431;4601;Bashkia Mirditë;Sheshaj
+0;19.7039,41.1106;2511;Bashkia Kavajë;Koç-Sheshaj
+0;19.6664,41.2997;1036;Bashkia Tiranë;Shesh
+0;19.8981,41.3631;1040;Bashkia Tiranë;Shërminë
+0;19.5428,40.4610;9401;Bashkia Vlorë;Sherishtë
+0;19.4282,40.7750;9326;Bashkia Fier;Sheq-Marinas
+0;19.5714,40.7303;9301;Bashkia Fier;Sheqi i Vogël
+0;19.6189,40.7194;9313;Bashkia Fier;Sheqishtë
+0;19.5722,40.7364;9301;Bashkia Fier;Sheqi i Madh
+456;19.8283,40.8389;5022;Bashkia Berat;Sheq Gajdë
+382;19.9661,40.7925;5306;Bashkia Kuçovë;Sheqës
+0;19.7550,41.5672;4704;Bashkia Kurbin;Shënmëri
+0;19.8500,41.8833;4607;Bashkia Mirditë;Shën Lli
+0;19.8711,41.2392;1034;Bashkia Tiranë;Shënkoll
+0;19.6000,40.9667;9011;Bashkia Lushnje;Shënkollas
+0;19.6533,41.6908;4511;Bashkia Lezhë;Shënkoll
+0;19.9450,41.3722;1040;Bashkia Tiranë;Shëngjini i Vogël
+6963;19.5939,41.8136;4503;Bashkia Lezhë;Shëngjin
+0;19.9533,42.3014;8706;Bashkia Tropojë;Shëngjergj
+0;19.8558,41.8897;4607;Bashkia Mirditë;Shëngjergj
+0;19.5333,41.1833;2505;Bashkia Kavajë;Shëngjergj
+0;19.6092,40.9033;9010;Bashkia Lushnje;Shëneprëmte
+0;19.5467,41.0256;9022;Bashkia Lushnje;Shëneprëmte
+0;19.5944,41.6806;4511;Bashkia Lezhë;Shën Ded Gjoni
+0;19.9944,41.1100;3009;Bashkia Elbasan;Shëmhill
+0;19.6089,41.9908;4026;Bashkia Shkodër;Shelqet
+0;19.4867,41.0508;2510;Bashkia Kavajë;Shelk
+0;19.7378,40.4231;9410;Bashkia Vlorë;Shelivec
+0;19.6128,42.0333;4008;Bashkia Shkodër;Sheldi
+0;19.7008,40.9881;9012;Bashkia Lushnje;Shegas
+0;19.8000,40.5333;9331;Bashkia Fier;Sheaj
+0;19.7681,41.2997;1046;Bashkia Tiranë;Sharrë
+0;19.5028,41.0975;2510;Bashkia Kavajë;Sharrëdushk
+0;19.6689,41.4094;1039;Bashkia Vorë;Shargë
+0;19.7111,40.2561;9424;Bashkia Vlorë;Mesaplik
+0;19.9478,40.9986;3017;Bashkia Elbasan;Shalës
+0;19.7156,40.2619;9424;Bashkia Vlorë;Shalës
+0;19.8050,42.2994;8706;Bashkia Tropojë;Nicaj-Shalë
+0;19.6444,40.8722;9019;Bashkia Lushnje;Shakuj
+0;19.5931,42.1700;4012;Bashkia Shkodër;Shakotë
+0;19.6100,41.3383;2022;Bashkia Durrës;Shahinaj
+0;19.7297,40.3964;9410;Bashkia Vlorë;Sevaster
+0;19.8622,42.2258;8706;Bashkia Tropojë;Sermë
+0;19.4970,40.7876;9326;Bashkia Fier;Seman i Ri
+0;19.4551,40.7911;9326;Bashkia Fier;Seman
+0;19.7750,41.3108;1046;Bashkia Tiranë;Selitë
+0;19.9947,41.3967;1042;Bashkia Tiranë;Selita e Malit
+0;19.7550,41.6353;4703;Bashkia Kurbin;Selitë
+0;19.9781,40.8878;3019;Bashkia Elbasan;Selitë
+0;19.7447,41.0189;9017;Bashkia Lushnje;Selimaj
+0;19.9208,41.5464;8005;Bashkia Mat;Selitë
+0;19.9778,40.6514;5013;Bashkia Berat;Selenicë
+6912;19.6358,40.5306;9427;Bashkia Vlorë;Selenicë
+0;19.6065,42.5048;4304;Bashkia Malësi e Madhe;Selcë
+0;19.9631,41.2889;1040;Bashkia Tiranë;Selbë
+0;19.8025,40.8817;9005;Bashkia Lushnje;Sejmenas
+0;19.8836,40.9583;3008;Bashkia Elbasan;Seferan
+0;19.5725,41.2503;2504;Bashkia Kavajë;Seferaj
+0;19.6958,40.9064;9001;Bashkia Lushnje;Savër
+0;19.6494,41.2994;1036;Bashkia Tiranë;Sauqet
+0;19.8333,41.3000;1044;Bashkia Tiranë;Sauk
+0;19.9103,40.0114;9715;Bashkia Sarandë;Sasaj
+0;19.7122,41.0694;2511;Bashkia Kavajë;Saraç
+0;19.9878,42.1478;4403;Bashkia Pukë;Sapaç
+0;19.7161,41.6214;4703;Bashkia Kurbin;Sanxhak
+0;19.3978,42.0022;4019;Bashkia Shkodër;Samrisht
+0;19.3964,41.9850;4019;Bashkia Shkodër;Samrisht i Ri
+1249;19.7516,40.8059;5009;Bashkia Berat;Samaticë
+0;19.5456,41.3542;2019;Bashkia Durrës;Sallmonaj
+0;19.6894,41.0425;2511;Bashkia Kavajë;Sallbegaj
+301;19.8556,40.8378;5022;Bashkia Berat;Salcë-Kozarë
+0;19.8808,42.2675;8706;Bashkia Tropojë;Salcë
+99;19.8786,40.6961;5012;Bashkia Berat;Sadovicë
+0;19.6983,40.6708;9312;Bashkia Fier;Ruzhdie
+0;19.6758,40.6764;9312;Bashkia Fier;Rusinjë
+0;19.5994,41.3928;2020;Bashkia Durrës;Rubjekë
+2332;19.7861,41.7744;4603;Bashkia Mirditë;Rubik
+0;19.3981,41.9797;4019;Bashkia Shkodër;Rrushkull
+0;19.9086,41.7286;4601;Bashkia Mirditë;Rrushkull
+0;19.5125,41.4294;2017;Bashkia Durrës;Rrushkull
+0;19.5289,41.9867;4021;Bashkia Shkodër;Rruplaj
+0;19.7278,40.8531;9005;Bashkia Lushnje;Rrupaj
+0;19.7600,41.0231;9017;Bashkia Lushnje;Rrumbullak
+0;19.7150,41.0764;2511;Bashkia Kavajë;Rosten
+0;19.6333,41.2333;1036;Bashkia Tiranë;Rromanat
+7049;19.6653,41.0764;2503;Bashkia Kavajë;Rrogozhinë
+0;19.8622,42.4172;8706;Bashkia Tropojë;Rrogam
+0;19.6422,41.7156;4509;Bashkia Lezhë;Rilë
+0;19.5997,40.7100;9318;Bashkia Fier;Rreth-Numanbej
+0;19.5653,40.8066;9310;Bashkia Fier;Rreth-Libofshë
+0;19.8067,41.7897;4603;Bashkia Mirditë;Rrethi i Epërm
+0;19.8219,42.2511;8706;Bashkia Tropojë;Rreth i Brashtës
+0;19.4881,41.0703;2510;Bashkia Kavajë;Rreth-Greth
+0;19.9736,41.6639;8012;Bashkia Mat;Rreth-Baz
+0;19.5639,41.3225;2022;Bashkia Durrës;Rreth
+6773;19.8756,41.7675;4601;Bashkia Mirditë;Rrëshen
+907;19.7611,40.7771;5009;Bashkia Berat;Rërëz
+0;19.9692,40.9433;3021;Bashkia Elbasan;Rrenas
+0;19.7608,41.8953;4508;Bashkia Lezhë;Rrasi i Butë
+0;19.5528,42.1450;4002;Bashkia Shkodër;Rrash i Vorfës
+20099;19.5103,41.3228;2021;Bashkia Durrës;Rrashbull
+0;19.7622,41.7256;4603;Bashkia Mirditë;Rasfik
+0;19.8211,40.9678;9009;Bashkia Lushnje;Rrasa e Sipërme
+0;19.8122,40.9636;9009;Bashkia Lushnje;Rrasa e Poshtme
+0;19.4928,42.3856;4304;Bashkia Malësi e Madhe;Rrapshë-Starë
+0;19.4917,42.3989;4304;Bashkia Malësi e Madhe;Rapshë
+0;19.6303,40.8458;9019;Bashkia Lushnje;Rrapëz-Fshat
+0;19.9706,42.0444;4407;Bashkia Pukë;Rrapë
+0;19.8500,41.5000;1508;Bashkia Krujë;Rranxë
+0;19.5319,41.1925;2505;Bashkia Kavajë;Rrakull
+0;19.6003,42.0597;4016;Bashkia Shkodër;Rragam
+0;19.7281,41.1139;2511;Bashkia Kavajë;Rostej
+6657;19.7022,40.7375;9306;Bashkia Fier;Roskovec
+0;19.6814,40.5589;9332;Bashkia Fier;Romës
+0;19.6669,40.5197;9427;Bashkia Vlorë;Romës
+0;19.5953,41.2828;2504;Bashkia Kavajë;Rromanat
+0;19.5255,40.5019;9423;Bashkia Vlorë;Risili
+0;19.7089,41.4308;1039;Bashkia Vorë;Rinas
+0;19.5225,41.1597;2505;Bashkia Kavajë;Rrikaj
+0;19.4922,42.2692;4303;Bashkia Malësi e Madhe;Rihen
+0;19.7819,40.6538;9334;Bashkia Fier;Rriban
+0;19.8961,40.2367;9418;Bashkia Vlorë;Rexhin
+0;19.7131,40.4703;9329;Bashkia Fier;Rexhepaj
+0;19.6444,40.6644;9320;Bashkia Fier;Rrërës
+0;19.5761,42.2403;4305;Bashkia Malësi e Madhe;Repisht
+0;19.5558,42.0592;4016;Bashkia Shkodër;Renc
+0;19.5114,40.8864;9004;Bashkia Lushnje;Remas
+378;19.9217,40.7286;5010;Bashkia Berat;Remanicë
+0;19.7061,41.0311;2511;Bashkia Kavajë;Remanaj
+0;19.7847,41.8092;4603;Bashkia Mirditë;Rreja e Zezë
+0;19.7700,41.8178;4603;Bashkia Mirditë;Rreja e Velës
+145;19.9931,40.5228;5015;Bashkia Berat;Rehovicë
+0;19.3853,41.9103;4020;Bashkia Shkodër;Reçi i Ri
+0;19.5344,42.2350;4301;Bashkia Malësi e Madhe;Reç
+0;19.3660,41.9138;4020;Bashkia Shkodër;Reç
+0;19.9850,41.9125;4408;Bashkia Pukë;Rras
+0;19.5292,42.1511;4002;Bashkia Shkodër;Rrash-Kullaj
+0;19.7103,41.9558;4029;Bashkia Shkodër;Rasboks
+0;19.5164,41.9536;4021;Bashkia Shkodër;Ranxë
+0;19.8608,41.4669;1508;Bashkia Krujë;Rranxë
+0;19.6972,40.3069;9415;Bashkia Vlorë;Ramicë
+0;19.4599,40.7734;9326;Bashkia Fier;Ramaj
+0;19.5033,40.7300;9309;Bashkia Fier;Radostinë
+0;19.4953,40.3710;9426;Bashkia Vlorë;Radhimë
+0;19.8300,41.4342;1048;Bashkia Tiranë;Radhesh
+0;19.5956,41.4125;2012;Bashkia Durrës;Radë
+0;19.6617,41.8350;4501;Bashkia Lezhë;Rraboshtë
+0;19.9431,40.4839;5403;Bashkia Skrapar;Rabije
+0;19.8128,41.4336;1048;Bashkia Tiranë;Qinam
+0;19.8858,40.3903;9328;Bashkia Fier;Qesarat
+0;19.8497,42.0747;4405;Bashkia Pukë;Qerreti i Vogël
+0;19.8372,42.0531;4409;Bashkia Pukë;Qerret
+0;19.4914,41.3925;2017;Bashkia Durrës;Qerret
+0;19.5161,41.2136;2505;Bashkia Kavajë;Qerret
+0;19.7339,40.8933;9002;Bashkia Lushnje;Qerreti i Vjetër
+0;19.7450,40.8861;9005;Bashkia Lushnje;Qerreti i Ri
+0;19.7350,41.4100;1030;Bashkia Kamëz;Qerek
+0;19.9297,42.3592;8706;Bashkia Tropojë;Qereç-Mulaj
+0;19.8269,40.0560;9416;Bashkia Vlorë;Qeparo
+0;19.8950,42.0897;4405;Bashkia Pukë;Qelëz
+0;19.9067,41.2556;1037;Bashkia Tiranë;Qehë-Shytaj
+0;19.4468,40.6651;9314;Bashkia Fier;Qarr
+0;19.8694,40.9939;3008;Bashkia Elbasan;Qafëshkallë
+0;19.9769,41.3589;1040;Bashkia Tiranë;Qafëmollë
+0;19.4667,42.2667;4303;Bashkia Malësi e Madhe;Qafë Gradë
+0;19.3842,41.8772;4020;Bashkia Shkodër;Pulaj
+0;19.9097,42.0958;4405;Bashkia Pukë;Katund
+6495;19.8997,42.0444;4401;Bashkia Pukë;Pukë
+0;19.7394,41.3131;1031;Bashkia Kamëz;Prush
+0;19.7156,41.7311;4510;Bashkia Lezhë;Prull
+0;19.9731,42.0264;4402;Bashkia Pukë;Prozhm
+130;19.8026,40.7651;5009;Bashkia Berat;Protoduar
+0;19.9486,41.7456;4601;Bashkia Mirditë;Prosek
+0;19.9447,40.2133;9418;Bashkia Vlorë;Progonat
+0;19.7622,41.0606;2511;Bashkia Kavajë;Progem
+0;19.8583,41.4192;1048;Bashkia Tiranë;Priska e Vogël
+0;19.9292,41.3192;1040;Bashkia Tiranë;Priska e Madhe
+0;19.6728,41.4272;1039;Bashkia Vorë;Prezë
+0;19.7161,40.4400;9410;Bashkia Vlorë;Preven
+0;19.4167,42.2667;4306;Bashkia Malësi e Madhe;Premal
+0;19.7200,42.1814;4012;Bashkia Shkodër;Prekal
+7375;19.8442,40.7803;5008;Bashkia Berat;Poshnjë
+0;19.4289,41.3667;2009;Bashkia Durrës;Porto-Romano
+0;19.5744,40.6992;9318;Bashkia Fier;Portëz
+0;19.3972,40.6302;9411;Bashkia Vlorë;Poro
+0;19.4675,40.7306;9309;Bashkia Fier;Pojan
+0;19.4814,42.2128;4302;Bashkia Malësi e Madhe;Podgora
+1518;19.7861,40.7671;5009;Bashkia Berat;Pobrat
+0;19.5683,40.6806;9018;Bashkia Lushnje;Plyk
+0;19.6656,40.9469;9012;Bashkia Lushnje;Plug
+0;19.7064,40.3744;9410;Bashkia Vlorë;Ploçë
+0;19.6981,41.6972;4510;Bashkia Lezhë;Pllanë
+0;19.5539,41.9697;4021;Bashkia Shkodër;Plezhë
+0;19.4958,41.9728;4021;Bashkia Shkodër;Plepan
+0;19.5833,40.9333;9020;Bashkia Lushnje;Plemerë
+236;19.9258,40.5556;5403;Bashkia Skrapar;Plashniku-Dy
+83;19.9522,40.5594;5403;Bashkia Skrapar;Plashnik i Madh
+0;19.9014,41.1569;3012;Bashkia Elbasan;Plangaricë
+0;19.5711,41.3106;2022;Bashkia Durrës;Pjezgë
+0;19.4306,42.2461;4301;Bashkia Malësi e Madhe;Pjetroshan
+0;19.5864,41.9683;4024;Bashkia Shkodër;Pistull
+0;19.3907,40.6576;9411;Bashkia Vlorë;Pishë
+0;19.6461,40.8431;9019;Bashkia Lushnje;Pirrë
+0;19.6472,41.8628;4505;Bashkia Lezhë;Piraj
+0;19.8911,40.0144;9715;Bashkia Sarandë;Piqeras
+0;19.6428,41.2856;1036;Bashkia Tiranë;Pinet
+0;19.8244,41.4083;1048;Bashkia Tiranë;Pinar
+0;19.7748,40.1280;9425;Bashkia Vlorë;Pilur
+0;19.7556,41.5333;1501;Bashkia Krujë;Picrragë
+0;19.5795,40.5219;9409;Bashkia Vlorë;Picar
+0;19.8075,41.2781;1044;Bashkia Tiranë;Picallë
+0;19.7139,41.2711;1041;Bashkia Tiranë;Pezë Helmes
+0;19.6986,41.2603;1036;Bashkia Tiranë;Peza e Vogël
+0;19.6961,41.2175;1038;Bashkia Tiranë;Peza e Madhe
+5542;19.8531,41.2531;1034;Bashkia Tiranë;Petrelë
+0;19.5705,40.7739;9327;Bashkia Fier;Petovë
+0;19.5236,40.6825;9314;Bashkia Fier;Peshtani i Vogël
+0;19.5347,40.6733;9018;Bashkia Lushnje;Peshtani i Madh
+0;19.9825,41.8542;4602;Bashkia Mirditë;Peshqesh
+0;19.5877,40.4735;9412;Bashkia Vlorë;Peshkëpi
+0;19.7992,41.0500;9017;Bashkia Lushnje;Përparim
+0;19.8300,40.4000;9410;Bashkia Vlorë;Perpan
+9005;19.9231,40.7789;5306;Bashkia Kuçovë;Perondi
+0;19.9822,41.7564;8012;Bashkia Mat;Përlati i Epërm
+0;19.9692,41.7294;8012;Bashkia Mat;Perlat-Qendër
+0;19.6450,42.2228;4305;Bashkia Malësi e Madhe;Pergjen
+0;19.9422,41.2886;1040;Bashkia Tiranë;Përcëllesh
+0;19.9003,42.2925;8706;Bashkia Tropojë;Peraj
+0;19.4842,41.1446;2510;Bashkia Kavajë;Peqinaj
+16580;19.7511,41.0461;2511;Bashkia Kavajë;Peqin
+0;19.7972,42.2256;8706;Bashkia Tropojë;Pepsumaj
+0;19.8686,40.9828;3008;Bashkia Elbasan;Pepaj
+0;19.3797,41.9586;4019;Bashkia Shkodër;Pentar
+0;19.5912,40.4825;9412;Bashkia Vlorë;Penkovë
+0;19.7667,41.5000;1501;Bashkia Krujë;Pengile
+0;19.9564,41.2461;1049;Bashkia Tiranë;Pëllumbas
+0;19.8286,41.0011;9009;Bashkia Lushnje;Pekisht
+0;19.6600,40.4733;9412;Bashkia Vlorë;Piçkat
+0;19.7436,42.0708;4409;Bashkia Pukë;Pecaj
+0;19.8947,41.0756;3007;Bashkia Elbasan;Paulesh
+22679;19.6508,40.6428;9320;Bashkia Fier;Patos Fshat
+16000;19.6194,40.6833;9307;Bashkia Fier;Patos
+0;19.5925,41.6246;2015;Bashkia Durrës;Patok
+0;19.5069,41.0817;2510;Bashkia Kavajë;Patk
+0;19.6742,41.7925;4504;Bashkia Lezhë;Patalej
+0;19.8067,41.3539;1047;Bashkia Kamëz;Paskuqan
+168;19.9664,40.8139;5307;Bashkia Kuçovë;Pashtraj
+0;19.9867,41.2425;1049;Bashkia Tiranë;Pashkashesh
+742;19.8611,40.7703;5007;Bashkia Berat;Pashalli
+0;19.9333,40.7000;5012;Bashkia Berat;Partizani
+6348;19.9608,41.0517;3016;Bashkia Elbasan;Papër
+0;19.9267,42.1733;4403;Bashkia Pukë;Pap
+0;19.4704,40.5358;9419;Bashkia Vlorë;Panaja
+310;19.9153,40.6947;5012;Bashkia Berat;Palikësht
+0;19.7928,40.0631;9416;Bashkia Vlorë;Palermo
+0;19.9028,42.2628;8706;Bashkia Tropojë;Palç
+0;19.6241,40.1665;9422;Bashkia Vlorë;Palasë
+0;19.6589,41.4331;1039;Bashkia Vorë;Palaq
+0;19.8167,42.0833;4405;Bashkia Pukë;Palaj-Gushtë
+0;19.7892,42.0967;4405;Bashkia Pukë;Palaj-Gushtë
+0;19.7811,42.2294;8706;Bashkia Tropojë;Palaj
+0;19.9394,41.0903;3007;Bashkia Elbasan;Pajun
+0;19.8375,41.0547;9017;Bashkia Lushnje;Pajovë
+0;19.9539,41.1522;3012;Bashkia Elbasan;Pajengë
+226;19.8747,40.6886;5011;Bashkia Berat;Paftal
+0;19.5839,41.9578;4023;Bashkia Shkodër;Paçram
+9218;19.9353,40.7439;5010;Bashkia Berat;Otllak
+0;19.8958,40.5653;9335;Bashkia Fier;Osmënzezë
+490;19.9314,40.7406;5010;Bashkia Berat;Orizaj
+2604;19.4714,40.3253;9426;Bashkia Vlorë;Orikum
+0;19.4878,42.1461;4002;Bashkia Shkodër;Omarë
+0;19.6461,41.1181;2507;Bashkia Kavajë;Okshtun
+297;19.4500,42.0333;4017;Bashkia Shkodër;Oblika e Sipërme
+0;19.4417,42.0161;4017;Bashkia Shkodër;Oblika e Madhe
+0;19.4492,42.0289;4017;Bashkia Shkodër;Xhaferraj
+0;19.8214,41.5317;1501;Bashkia Krujë;Nojë
+0;19.6381,40.7075;9313;Bashkia Fier;Fshati i Ri
+8209;19.4669,40.6250;9411;Bashkia Vlorë;Novoselë
+0;19.8933,40.2411;9418;Bashkia Vlorë;Nivicë
+0;19.8370,40.5027;9328;Bashkia Fier;Ninësh
+9518;19.7483,41.4442;1504;Bashkia Krujë;Nikël
+0;19.6856,42.4780;4304;Bashkia Malësi e Madhe;Nikç
+0;19.5500,40.6667;9018;Bashkia Lushnje;Nikas
+0;19.7164,40.8261;9005;Bashkia Lushnje;Ngurrëza e Madhe
+0;19.6975,40.8200;9016;Bashkia Lushnje;Ngurrëza e Vogël
+0;19.7119,42.0703;4008;Bashkia Shkodër;Ngropuk
+588;19.7925,40.6444;9334;Bashkia Fier;Ngraçan
+0;19.7900,40.6733;9321;Bashkia Fier;Ngjeqar
+0;19.6500,41.9308;4029;Bashkia Shkodër;Nënshat
+0;19.7833,42.3053;8706;Bashkia Tropojë;Nënmavriq
+5035;19.6558,41.2639;1036;Bashkia Tiranë;Ndroq
+0;19.7928,42.2483;8706;Bashkia Tropojë;Ndrejaj
+0;19.7833,42.2319;8706;Bashkia Tropojë;Ndregjinaj
+0;19.7144,41.6686;4705;Bashkia Kurbin;Ndërshegas
+0;19.7053,42.1467;4012;Bashkia Shkodër;Ndërmollës
+0;19.4822,40.8411;9004;Bashkia Lushnje;Ndërnënas
+0;19.7731,42.3544;8706;Bashkia Tropojë;Ndërlysaj
+0;19.8000,42.3000;8706;Bashkia Tropojë;Ndërlisaj
+0;19.8800,41.7858;4601;Bashkia Mirditë;Ndërfushaz
+0;19.8919,41.8108;4602;Bashkia Mirditë;Ndërfanë
+250;19.4562,40.4979;9414;Bashkia Vlorë;Nartë
+0;19.9325,42.0881;4405;Bashkia Pukë;Narel
+0;19.6342,41.9825;4026;Bashkia Shkodër;Naraç
+0;19.7833,41.4928;1501;Bashkia Krujë;Mzillë
+0;19.8131,41.1953;1035;Bashkia Tiranë;Mustafa-Koçaj
+0;19.9447,41.2169;1049;Bashkia Tiranë;Mushqeta
+0;19.6653,41.1539;2501;Bashkia Kavajë;Mushnik
+0;19.4350,41.9789;4019;Bashkia Shkodër;Mushan
+0;19.9783,41.3156;1040;Bashkia Tiranë;Murth
+0;19.5333,40.7333;9309;Bashkia Fier;Murtajas
+0;19.8319,40.8511;5022;Bashkia Berat;Murriz-Kozarë
+0;19.9903,41.4244;8008;Bashkia Mat;Murriz
+0;19.8017,40.9414;9009;Bashkia Lushnje;Murriz
+0;19.4253,40.6386;9411;Bashkia Vlorë;Murris
+0;19.9336,41.0617;3007;Bashkia Elbasan;Murras
+0;19.6572,41.4981;1505;Bashkia Krujë;Murqinë
+0;19.4031,42.0150;4019;Bashkia Shkodër;Muriqan
+0;19.9986,41.0500;3027;Bashkia Elbasan;Muriqan
+0;19.8833,41.8333;4602;Bashkia Mirditë;Munegë
+0;19.7889,41.7881;4603;Bashkia Mirditë;Munaz
+0;19.8125,41.2372;1035;Bashkia Tiranë;Mumajes
+0;19.5333,41.5000;2015;Bashkia Durrës;Mullini i Danit
+0;19.8717,41.2672;1034;Bashkia Tiranë;Mullet
+0;19.9583,42.3392;8706;Bashkia Tropojë;Mulaj
+0;19.8275,41.4469;1048;Bashkia Tiranë;Mukje
+0;19.5537,40.7855;9310;Bashkia Fier;Mujalli
+0;19.9636,40.8686;5307;Bashkia Kuçovë;Kulleni
+0;19.5594,41.2872;2022;Bashkia Durrës;Muharremaj
+0;19.5136,40.8983;9004;Bashkia Lushnje;Muçias
+0;19.6708,41.3936;1032;Bashkia Vorë;Muçaj
+0;19.5389,40.7664;9309;Bashkia Fier;Muçaj
+1459;19.9042,40.7597;5002;Bashkia Berat;Moravë
+0;19.8053,42.2081;8706;Bashkia Tropojë;Moll’ e Shoshit
+0;19.7633,40.9194;9008;Bashkia Lushnje;Mollas
+0;19.6997,40.5517;9332;Bashkia Fier;Mollaj
+390;19.9344,40.5908;5403;Bashkia Skrapar;Molisht
+0;19.7078,41.9767;4029;Bashkia Shkodër;Mnela e Vogël
+0;19.6864,41.9739;4029;Bashkia Shkodër;Mnela e Madhe
+0;19.6800,42.0731;4008;Bashkia Shkodër;Mllojë
+0;19.6903,41.1522;1038;Bashkia Tiranë;Mlik
+0;19.8406,41.2875;1044;Bashkia Tiranë;Mjull-Bathore
+0;19.6125,41.9969;4026;Bashkia Shkodër;Mjedë
+0;19.5365,40.9620;9011;Bashkia Lushnje;Mizë
+0;19.7669,40.1458;9425;Bashkia Vlorë;Mirteo
+2157;19.7156,41.6839;4705;Bashkia Kurbin;Milot
+0;19.5631,40.3983;9407;Bashkia Vlorë;Millonë
+0;19.9175,42.1311;4405;Bashkia Pukë;Midhë
+0;19.9025,41.2175;1037;Bashkia Tiranë;Mihajas-Cirmë
+0;19.4886,40.6077;9411;Bashkia Vlorë;Mifol
+0;19.9800,41.5928;8005;Bashkia Mat;Midhë
+0;19.7636,41.3344;1050;Bashkia Tiranë;Mëzez
+0;19.5672,41.3006;2022;Bashkia Durrës;Mezaj
+0;19.8336,40.6353;5011;Bashkia Berat;Metoh
+0;19.5981,40.7453;9301;Bashkia Fier;Metalli
+0;19.6072,41.3492;2022;Bashkia Durrës;Metallaj
+0;19.5268,40.8291;9310;Bashkia Fier;Metaj
+0;19.9500,41.3667;1040;Bashkia Tiranë;Mish
+0;19.5708,42.1053;4012;Bashkia Shkodër;Mes
+0;19.9119,42.2339;8706;Bashkia Tropojë;Mërtur
+0;19.6194,40.8939;9021;Bashkia Lushnje;Mërtish
+0;19.6911,40.4697;9412;Bashkia Vlorë;Mërtiraj
+0;19.6572,41.8092;4504;Bashkia Lezhë;Merqi
+0;19.8333,40.4833;9328;Bashkia Fier;Mermuçaj
+0;19.8703,40.9675;3008;Bashkia Elbasan;Mërhojë
+0;19.6944,41.2986;1031;Bashkia Kamëz;Mënik
+0;19.9139,41.4817;1508;Bashkia Krujë;Mëneri i Sipërm
+0;19.6000,41.4000;2020;Bashkia Durrës;Memzotaj
+0;19.6811,41.1006;2503;Bashkia Kavajë;Memollaj
+0;19.4333,41.3167;2016;Bashkia Durrës;Memaj
+0;19.5201,41.9893;4021;Bashkia Shkodër;Melgushë
+0;19.5333,40.5500;9420;Bashkia Vlorë;Mëkat i Ri
+0;19.5303,40.5511;9420;Bashkia Vlorë;Mekat
+0;19.9314,42.0883;4405;Bashkia Pukë;Meçe
+0;19.5611,40.7081;9318;Bashkia Fier;Mbyet
+0;19.5533,40.7344;9301;Bashkia Fier;Mbrostar-Ferko
+0;19.5794,40.7536;9301;Bashkia Fier;Mbrostar-Urë
+280;19.8722,40.7158;5012;Bashkia Berat;Mbreshtan
+216;19.8903,40.6511;5011;Bashkia Berat;Mbolan
+472;19.8472,40.6736;5011;Bashkia Berat;Mbjeshovë
+0;19.7522,40.6922;9316;Bashkia Fier;Mbërs
+0;19.6622,42.0881;4012;Bashkia Shkodër;Mazrek
+0;19.6775,41.3564;1053;Bashkia Vorë;Mazrek
+0;19.6372,41.4872;1505;Bashkia Krujë;Mazha e Vogël
+0;19.6342,41.4753;1505;Bashkia Krujë;Mazha e Madhe
+0;19.7568,40.3916;9410;Bashkia Vlorë;Mazhar-Sevaster
+0;19.5667,40.3724;9407;Bashkia Vlorë;Mazhar-Lapardha
+0;19.7461,40.8306;9005;Bashkia Lushnje;Mazhaj
+0;19.6039,40.4102;9402;Bashkia Vlorë;Mavrovë
+0;19.8334,40.3545;9410;Bashkia Vlorë;Matohasanaj
+0;19.7289,40.3106;9415;Bashkia Vlorë;Matogjin
+0;19.5192,40.7800;9309;Bashkia Fier;Matkizë
+0;19.7222,40.7517;9319;Bashkia Fier;Malkë
+0;19.6083,41.2389;2504;Bashkia Kavajë;Materaj
+0;19.5500,41.1000;2510;Bashkia Kavajë;Maskaresh
+0;19.7667,40.2000;9418;Bashkia Vlorë;Martokë
+0;19.6433,41.4028;1032;Bashkia Vorë;Marqinet
+0;19.9519,42.2700;8706;Bashkia Tropojë;Markaj
+0;19.6733,40.7406;9315;Bashkia Fier;Marinëz
+0;19.8997,40.9833;3008;Bashkia Elbasan;Marinë
+0;19.6322,41.3722;1033;Bashkia Vorë;Marikaj
+0;19.6611,40.6719;9312;Bashkia Fier;Margëlliç
+0;19.5492,41.2875;2021;Bashkia Durrës;Manskur
+0;19.9128,41.2686;1037;Bashkia Tiranë;Mangull
+7185;19.5931,41.4286;2012;Bashkia Durrës;Manzë
+0;19.6733,41.7603;4509;Bashkia Lezhë;Manati
+0;19.7661,41.0117;9017;Bashkia Lushnje;Manasufaj
+8282;19.6922,41.5775;4704;Bashkia Kurbin;Mamurras
+0;19.6075,41.3792;2020;Bashkia Durrës;Maminas
+0;19.9758,41.1769;3012;Bashkia Elbasan;Mamël
+0;19.5828,41.1881;2506;Bashkia Kavajë;Momël
+0;19.7244,41.6803;4705;Bashkia Kurbin;Mal-Milot
+0;19.6317,41.4981;1505;Bashkia Krujë;Mallkuç
+0;19.6814,40.4222;9410;Bashkia Vlorë;Mallkeq
+0;19.5808,41.8217;4503;Bashkia Lezhë;Mali Shëngjinit
+0;19.5547,41.8517;4503;Bashkia Lezhë;Mali i Rencit
+0;19.5203,41.3344;2021;Bashkia Durrës;Maliq Muço
+0;19.4836,41.8892;4020;Bashkia Shkodër;Bajramaj
+0;19.4742,41.9331;4021;Bashkia Shkodër;Jugë
+0;19.4986,42.0083;4018;Bashkia Shkodër;Mali Hebaj
+0;19.3936,41.9558;4019;Bashkia Shkodër;Mali i Gjymtit
+0;19.9000,40.6333;5011;Bashkia Berat;Mali-Bardhë
+0;19.7589,41.6561;4705;Bashkia Kurbin;Mali i Bardhë
+273;19.8156,40.8116;5022;Bashkia Berat;Malas Gropë
+224;19.7997,40.8199;5022;Bashkia Berat;Malas Breg
+0;19.6992,42.0853;4008;Bashkia Shkodër;Malas
+0;19.9811,41.7936;4602;Bashkia Mirditë;Malaj
+0;19.8089,42.1794;4405;Bashkia Pukë;Malagji-Kajvall
+0;19.6994,41.2408;1038;Bashkia Tiranë;Maknor
+1637;19.9289,40.7917;5306;Bashkia Kuçovë;Magjatë
+0;19.8008,41.5578;1501;Bashkia Krujë;Mafsheq
+0;19.8589,41.6572;8004;Bashkia Mat;Madhesh
+0;19.5756,41.9358;4022;Bashkia Shkodër;Mabë
+0;19.5739,41.1275;2509;Bashkia Kavajë;Luzi i Vogël
+0;19.5808,41.1111;2509;Bashkia Kavajë;Luzi i Madh
+0;19.6997,41.4947;1502;Bashkia Krujë;Luz
+63135;19.7050,40.9419;9002;Bashkia Lushnje;Lushnjë
+0;19.8511,41.7142;4601;Bashkia Mirditë;Lurth
+0;19.8717,41.6342;8004;Bashkia Mat;Lunre
+0;19.9531,42.1944;4403;Bashkia Pukë;Ludricë
+0;19.8683,41.2897;1045;Bashkia Tiranë;Lundër
+0;19.6456,40.8594;9019;Bashkia Lushnje;Lumth
+0;19.8506,40.4319;9328;Bashkia Fier;Lulëzim
+0;19.6125,41.8456;4501;Bashkia Lezhë;Luk i Zi
+0;19.8889,41.1908;1037;Bashkia Tiranë;Lugë-Shalqizë
+0;19.8436,42.0236;4409;Bashkia Pukë;Luf
+0;19.5744,40.5088;9409;Bashkia Vlorë;Lubonjë
+0;19.5000,40.3167;9426;Bashkia Vlorë;Luath
+0;19.3850,41.9219;4020;Bashkia Shkodër;Luarzë
+0;19.7028,40.7006;9315;Bashkia Fier;Luar
+0;19.9406,40.4372;9328;Bashkia Fier;Luadh
+0;19.7881,42.2817;8706;Bashkia Tropojë;Lotaj
+0;19.8111,41.0539;9017;Bashkia Lushnje;Lolaj
+0;19.5350,42.2619;4305;Bashkia Malësi e Madhe;Lohja e Sipërme
+0;19.4889,42.2308;4301;Bashkia Malësi e Madhe;Lohja e Poshtëme
+0;19.7458,40.6411;9334;Bashkia Fier;Lofkënd
+0;19.8167,41.0500;9017;Bashkia Lushnje;Lodë
+0;19.5230,40.5368;9419;Bashkia Vlorë;Llakatund
+0;19.8144,41.8289;4508;Bashkia Lezhë;Livadhëz
+0;19.6519,41.2031;1038;Bashkia Tiranë;Lis-Patros
+0;19.6450,42.0397;4008;Bashkia Shkodër;Lisënë
+0;19.8831,41.3486;1047;Bashkia Kamëz;Linzë
+0;19.5308,42.1719;4302;Bashkia Malësi e Madhe;Linaj
+0;19.7644,40.6731;9321;Bashkia Fier;Hoxhë
+0;19.5906,41.5486;2015;Bashkia Durrës;Likmetaj
+0;19.5958,41.3197;2022;Bashkia Durrës;Likesh
+0;19.9333,41.3833;1042;Bashkia Tiranë;Ligai Muçej
+0;19.7233,40.8656;9005;Bashkia Lushnje;Lifaj i Vjetër
+0;19.7383,40.8697;9005;Bashkia Lushnje;Lifaj i Ri
+0;19.9303,40.9967;3017;Bashkia Elbasan;Liçaj
+0;19.5522,40.8344;9310;Bashkia Fier;Libofshë
+18695;19.6436,41.7836;4504;Bashkia Lezhë;Lezhë
+0;19.6989,40.4111;9410;Bashkia Vlorë;Lezhan
+0;19.8703,42.1122;4405;Bashkia Pukë;Lëvrushk
+0;19.9644,42.1975;4403;Bashkia Pukë;Lëvoshë
+0;19.6608,41.1114;2503;Bashkia Kavajë;Levanaj
+0;19.4897,40.6761;9314;Bashkia Fier;Levan
+280;19.8547,40.6205;5011;Bashkia Berat;Levan
+0;19.8992,40.4797;9328;Bashkia Fier;Levan
+0;19.8072,40.4397;9329;Bashkia Fier;Levan
+0;19.6636,42.1742;4012;Bashkia Shkodër;Lejthizëj
+0;19.6347,41.1603;2506;Bashkia Kavajë;Leshten-Çollak
+0;19.7708,40.0747;9425;Bashkia Vlorë;Lerë
+0;19.5489,42.1814;4302;Bashkia Malësi e Madhe;Linaj-Egç-Lepurosh
+0;19.6564,40.2981;9421;Bashkia Vlorë;Lepenicë
+0;19.9833,41.7167;8012;Bashkia Mat;Lek Gegaj
+0;19.9622,40.2231;6019;Bashkia Gjirokastër;Lekdush
+0;19.6528,40.2386;9413;Bashkia Vlorë;Lekaj
+0;19.9317,42.2947;8706;Bashkia Tropojë;Lekbibaj
+0;19.6097,41.1258;2507;Bashkia Kavajë;Lekaj i Sipërm
+0;19.7947,42.3219;8706;Bashkia Tropojë;Lekaj
+0;19.6097,41.1144;2507;Bashkia Kavajë;Lekaj
+0;19.7636,40.9556;9009;Bashkia Lushnje;Lekaj
+0;19.8267,41.0539;9017;Bashkia Lushnje;Lazarej
+0;19.7431,40.6092;9333;Bashkia Fier;Lavdan
+0;19.4233,42.2431;4001;Bashkia Shkodër;Lashaj
+0;19.7278,41.4508;1504;Bashkia Krujë;Larushk
+0;19.7367,40.6272;9333;Bashkia Fier;Lapulec
+1724;19.9481,40.7547;5020;Bashkia Berat;Lapardha Një
+0;19.5589,40.3884;9407;Bashkia Vlorë;Lapardha
+0;19.6833,40.4833;9412;Bashkia Vlorë;Lapaj
+0;19.8944,41.3431;1040;Bashkia Tiranë;Lanabregas
+0;19.7906,40.5492;9331;Bashkia Fier;Lamaj
+0;19.7089,41.7922;4504;Bashkia Lezhë;Lalm-Lukaj
+0;19.7325,41.2992;1031;Bashkia Kamëz;Lalm
+0;19.5681,41.5319;2015;Bashkia Durrës;Lalëz
+0;19.9167,41.3167;1040;Bashkia Tiranë;Lalej
+0;19.6123,40.6540;9320;Bashkia Fier;Lalar
+0;19.7372,41.3767;1030;Bashkia Kamëz;Laknas
+0;19.8953,42.0617;4401;Bashkia Pukë;Lajthizë
+0;19.6378,41.2631;1036;Bashkia Tiranë;Lagjja e Re
+0;19.4200,42.2606;4306;Bashkia Malësi e Madhe;Lagej
+0;19.6403,42.0106;4008;Bashkia Shkodër;Laç
+12854;19.7131,41.6356;4701;Bashkia Kurbin;Laç
+0;19.7664,40.4733;9329;Bashkia Fier;Kutë
+9643;19.7867,40.7839;5009;Bashkia Berat;Kutalli
+0;19.9400,41.9061;4607;Bashkia Mirditë;Kuzhnen
+0;19.6928,41.3306;1051;Bashkia Tiranë;Kus
+0;19.9317,41.1900;1049;Bashkia Tiranë;Kus
+0;19.5681,42.2050;4302;Bashkia Malësi e Madhe;Kurt-Kurtaj
+0;19.8022,40.9850;9009;Bashkia Lushnje;Kurtinë
+0;19.9722,40.9803;3024;Bashkia Elbasan;Kurtalli
+0;19.6886,41.0442;2511;Bashkia Kavajë;Kurtaj
+0;19.7456,40.7175;9316;Bashkia Fier;Kurjan
+0;19.8206,41.4619;1501;Bashkia Krujë;Kurcaj
+0;19.5675,41.4828;2012;Bashkia Durrës;Kuratën
+0;19.6644,40.6867;9312;Bashkia Fier;Kuqar
+0;19.7917,40.9581;9009;Bashkia Lushnje;Kupas
+0;19.8500,41.4500;1508;Bashkia Krujë;Kumbardhë
+0;19.6867,40.7267;9315;Bashkia Fier;Kuman
+0;19.5592,41.9769;4024;Bashkia Shkodër;Kullëzë
+0;19.5608,41.4289;2012;Bashkia Durrës;Kullë
+0;19.6000,41.5167;1507;Bashkia Krujë;Kullas
+0;19.5636,42.1000;4012;Bashkia Shkodër;Myselim
+0;19.4906,41.0314;9022;Bashkia Lushnje;Kular
+0;19.5611,41.9017;4022;Bashkia Shkodër;Kukël
+0;19.8182,40.1000;9416;Bashkia Vlorë;Kudhës
+31077;19.9167,40.8003;5301;Bashkia Kuçovë;Kuçovë
+0;19.5736,41.4525;2012;Bashkia Durrës;Kuçok
+0;19.5253,42.0397;4010;Bashkia Shkodër;Kuç
+0;19.6553,41.3428;1033;Bashkia Vorë;Kuç
+403;19.8006,40.8400;5022;Bashkia Berat;Kuç
+0;19.8394,40.1751;9418;Bashkia Vlorë;Kuç
+0;19.9469,41.2608;1037;Bashkia Tiranë;Kryezi
+0;19.6289,41.2217;2504;Bashkia Kavajë;Kryezi
+0;19.5275,41.1006;2510;Bashkia Kavajë;Kryevidh
+0;19.5372,41.2622;2504;Bashkia Kavajë;Kryemëdhej
+0;19.5428,40.9249;9020;Bashkia Lushnje;Kryekuq
+0;19.4794,40.7183;9309;Bashkia Fier;Kryegjatë
+0;19.7092,40.8683;9001;Bashkia Lushnje;Krutja e Sipërme
+0;19.6808,40.8719;9001;Bashkia Lushnje;Krutja e Poshtme
+51191;19.7928,41.5092;1501;Bashkia Krujë;Krujë
+0;19.9833,41.3833;1042;Bashkia Tiranë;Krroq
+1177;19.9714,41.2156;1049;Bashkia Tiranë;Krrabë
+0;19.6120,40.4517;9412;Bashkia Vlorë;Kropisht
+0;19.8000,41.5000;1501;Bashkia Krujë;Kroi i Fokës
+0;19.5843,40.6294;9324;Bashkia Fier;Kreshpan
+0;19.5550,42.3611;4305;Bashkia Malësi e Madhe;Kreneshdol
+0;19.7795,40.5203;9331;Bashkia Fier;Kremenar
+301;19.9953,40.7869;5020;Bashkia Berat;Krekëz
+0;19.5968,40.6604;9307;Bashkia Fier;Krapës
+0;19.6739,41.9114;4505;Bashkia Lezhë;Krajn
+0;19.8738,40.4478;9328;Bashkia Fier;Krahësi i Sipërm
+0;19.8444,40.4386;9328;Bashkia Fier;Krahës
+0;19.6073,42.4570;4304;Bashkia Malësi e Madhe;Kozhnje
+5622;19.9006,40.8308;5305;Bashkia Kuçovë;Kozarë
+0;19.5739,41.3600;2013;Bashkia Durrës;Koxhas
+0;19.6367,41.9592;4029;Bashkia Shkodër;Kovaç
+0;19.6225,41.9358;4029;Bashkia Shkodër;Kotërr
+0;19.6022,40.3894;9407;Bashkia Vlorë;Kotë
+0;19.7889,40.9017;9008;Bashkia Lushnje;Kosova e Vogël
+0;19.8161,40.8994;3023;Bashkia Elbasan;Kosovë
+0;19.5558,41.9939;4024;Bashkia Shkodër;Kosmaç
+0;19.9078,40.4083;9328;Bashkia Fier;Koshtan
+0;19.8103,41.9622;4409;Bashkia Pukë;Korthpulë
+0;19.5950,40.8764;9014;Bashkia Lushnje;Kori
+206;19.9933,40.7806;5020;Bashkia Berat;Koritëz
+0;19.6167,40.6000;9311;Bashkia Fier;Korçeraj
+1259;19.4667,42.2283;4301;Bashkia Malësi e Madhe;Kopliku i Siperm
+4078;19.4364,42.2136;4001;Bashkia Shkodër;Koplik
+0;19.6675,41.0050;9012;Bashkia Lushnje;Konjat
+596;19.8615,40.7513;5007;Bashkia Berat;Konizbaltë
+0;19.6317,40.1544;9422;Bashkia Vlorë;Kondaq
+0;19.7744,41.0769;2511;Bashkia Kavajë;Konaj
+0;19.9856,41.5817;8005;Bashkia Mat;Kombësi
+0;19.9897,40.4822;5015;Bashkia Berat;Komar
+0;19.8122,42.0903;4405;Bashkia Pukë;Koman
+0;19.6039,40.8242;9007;Bashkia Lushnje;Kolonjë
+0;19.5419,40.8071;9310;Bashkia Fier;Kolkondas
+0;19.6167,40.8167;9007;Bashkia Lushnje;Kolea
+0;19.6761,41.7867;4504;Bashkia Lezhë;Kolç
+0;19.4506,42.3581;4306;Bashkia Malësi e Madhe;Kolçekaj
+0;19.6667,41.2167;1038;Bashkia Tiranë;Kolaj
+0;19.5844,42.2311;4305;Bashkia Malësi e Madhe;Kakë-Papa
+0;19.9019,41.6733;8004;Bashkia Mat;Kokërdhok
+0;19.6000,41.3000;2022;Bashkia Durrës;Kokëlvorë
+0;19.9792,42.2472;4030;Bashkia Shkodër;Kokëdodë
+0;19.5308,42.2744;4305;Bashkia Malësi e Madhe;Kokaj
+0;19.6994,41.0919;2511;Bashkia Kavajë;Kodras
+0;19.7933,41.0561;9017;Bashkia Lushnje;Kodras
+0;19.6311,41.9033;4505;Bashkia Lezhë;Kodhel
+0;19.6833,41.5667;4704;Bashkia Kurbin;Kodër Thumanë
+0;19.8967,41.7761;4601;Bashkia Mirditë;Kodër-Rrëshen
+0;19.6164,41.7333;4509;Bashkia Lezhë;Kodër Mulliri
+0;19.6161,41.7667;4504;Bashkia Lezhë;Kodërmarlekaj
+0;19.9719,41.6178;8001;Bashkia Mat;Kodërçere
+0;19.6572,40.4778;9412;Bashkia Vlorë;Kocul
+0;19.8356,41.1858;1035;Bashkia Tiranë;Koçaj
+0;19.9667,41.4333;1042;Bashkia Tiranë;Kocaj
+0;19.7333,41.0664;2511;Bashkia Kavajë;Koçaj
+0;19.7861,40.8725;9005;Bashkia Lushnje;Koçaj
+0;19.7507,40.5294;9331;Bashkia Fier;Klos
+0;19.8492,42.1733;4405;Bashkia Pukë;Kllogjen
+0;19.7000,42.1167;4012;Bashkia Shkodër;Kishë-Arrë
+0;19.5908,41.5406;2015;Bashkia Durrës;Kërtushaj
+0;19.5029,40.5311;9419;Bashkia Vlorë;Kërkovë
+0;19.6317,41.2447;1036;Bashkia Tiranë;Kërçukje
+0;19.6183,41.0961;2508;Bashkia Kavajë;Kërçukaj
+0;19.6236,41.3253;2022;Bashkia Durrës;Kënetë
+0;19.6333,40.8925;9021;Bashkia Lushnje;Këmishtaj
+0;19.7958,41.5836;4703;Bashkia Kurbin;Livadhet
+0;19.8297,42.0181;4409;Bashkia Pukë;Kçirë
+0;19.7525,41.0814;2511;Bashkia Kavajë;Kazije
+0;19.6000,41.1833;2506;Bashkia Kavajë;Kazaz
+0;19.4823,40.7880;9326;Bashkia Fier;Kavaklli
+30012;19.5569,41.1856;2505;Bashkia Kavajë;Kavajë
+0;19.7378,40.2972;9415;Bashkia Vlorë;Kavaçovë
+0;19.8072,41.6725;4705;Bashkia Kurbin;Katundi i Vjetër
+0;19.7142,41.5994;4703;Bashkia Kurbin;Katundi i Ri
+0;19.5181,41.4031;2017;Bashkia Durrës;Katundi i Ri
+0;19.7975,41.0814;2511;Bashkia Kavajë;Katesh
+0;19.4892,42.3525;4305;Bashkia Malësi e Madhe;Kastrat
+0;19.6583,40.6289;9320;Bashkia Fier;Kasnicë
+0;19.7461,40.9006;9008;Bashkia Lushnje;Kashtëbardhe
+0;19.8139,41.9122;4508;Bashkia Lezhë;Kashnjet
+0;19.5404,40.5985;9420;Bashkia Vlorë;Kashisht
+0;19.7350,40.9486;9008;Bashkia Lushnje;Kasharaj
+0;19.7103,41.3497;1051;Bashkia Tiranë;Kashar
+0;19.7372,40.5758;9332;Bashkia Fier;Kash
+0;19.8381,41.0192;3008;Bashkia Elbasan;Karthneke
+0;19.6161,41.3886;2020;Bashkia Durrës;Karreç
+0;19.6100,41.3606;2020;Bashkia Durrës;Karpen
+0;19.4887,41.1743;2505;Bashkia Kavajë;Karpen
+0;19.7133,42.0667;4008;Bashkia Shkodër;Karmë
+0;19.7161,41.0631;2511;Bashkia Kavajë;Karinë
+0;19.9447,41.6156;8004;Bashkia Mat;Karicë
+0;19.7178,40.9219;9002;Bashkia Lushnje;Karbunara e Vogël
+0;19.7408,40.9275;9008;Bashkia Lushnje;Karbunara e Madhe
+0;19.7028,40.5181;9332;Bashkia Fier;Karbunarë
+0;19.4908,40.8775;9004;Bashkia Lushnje;Karavasta
+0;19.5989,41.5319;2015;Bashkia Durrës;Kapidanaj
+0;19.9456,40.1419;6019;Bashkia Gjirokastër;Kaparjel
+0;19.8288,40.5462;9335;Bashkia Fier;Kapaj
+0;19.5206,40.4406;9401;Bashkia Vlorë;Kaninë
+0;19.5683,41.2275;2504;Bashkia Kavajë;Kanaparaj
+11026;19.7603,41.3817;1030;Bashkia Kamëz;Kamëz
+0;19.3800,42.2303;4001;Bashkia Shkodër;Kamicë-Flakë
+0;19.6025,41.4183;2012;Bashkia Durrës;Kameras
+0;19.5353,40.9103;9004;Bashkia Lushnje;Kamenicë
+0;19.8667,41.5000;1508;Bashkia Krujë;Kroi i Madh
+0;19.6711,40.8336;9016;Bashkia Lushnje;Kamçisht
+169;19.8861,40.6786;5011;Bashkia Berat;Kamçisht
+0;19.9208,40.4475;9328;Bashkia Fier;Kamçisht
+0;19.6017,41.0733;2508;Bashkia Kavajë;Kalush
+0;19.8456,41.8644;4508;Bashkia Lezhë;Kalur
+0;19.5472,40.5908;9420;Bashkia Vlorë;Kallm Resulaj
+0;19.6500,40.7667;9327;Bashkia Fier;Kallm Maliqaj
+0;19.6492,40.7700;9327;Bashkia Fier;Kallmi i Vogël
+0;19.6176,40.7516;9301;Bashkia Fier;Kallmi i Madh
+0;19.6964,41.8592;4507;Bashkia Lezhë;Kallmeti i Vogël
+0;19.6869,41.8489;4507;Bashkia Lezhë;Kallmeti i Madh
+0;19.8214,41.4181;1048;Bashkia Tiranë;Kallmet
+0;19.4111,42.2050;4001;Bashkia Shkodër;Kalldrun
+0;19.7411,40.2067;9424;Bashkia Vlorë;Kallarat
+0;19.7608,41.9189;4508;Bashkia Lezhë;Kalivaç
+0;19.8101,40.4106;9410;Bashkia Vlorë;Kalivaç
+0;19.7783,40.5900;9330;Bashkia Fier;Kalenjë
+0;19.8667,40.4667;9328;Bashkia Fier;Kalemaj
+0;19.9606,40.0183;9720;Bashkia Sarandë;Kalasë
+0;19.8678,41.1661;1035;Bashkia Tiranë;Kakunjë
+0;19.6114,41.8569;4505;Bashkia Lezhë;Kakarriq
+0;19.7667,41.4667;1504;Bashkia Krujë;Kakarriq
+0;19.8314,42.1822;4405;Bashkia Pukë;Kajvall
+0;19.8894,40.9142;3022;Bashkia Elbasan;Kajan
+0;19.7719,41.9542;4508;Bashkia Lezhë;Kaftallë
+0;19.5105,40.6377;9411;Bashkia Vlorë;Kafarraj
+0;19.7133,40.8931;9001;Bashkia Lushnje;Kadiaj
+0;19.8986,41.8933;4607;Bashkia Mirditë;Kaçinar
+0;19.6964,41.7972;4504;Bashkia Lezhë;Kaçinar
+0;19.6175,41.9794;4026;Bashkia Shkodër;Kaçë
+0;19.7000,40.4667;9412;Bashkia Vlorë;Kaçarat
+0;19.9181,42.0697;4405;Bashkia Pukë;Kabash
+0;19.3894,42.2186;4001;Bashkia Shkodër;Jubicë
+0;19.5139,41.4231;2017;Bashkia Durrës;Jubë
+0;19.5761,42.0242;4016;Bashkia Shkodër;Juban
+0;19.8875,41.7528;4601;Bashkia Mirditë;Jezull
+0;19.7611,40.8956;9008;Bashkia Lushnje;Jeta e Re
+0;19.7597,41.0044;9017;Bashkia Lushnje;Jazxhias
+0;19.9811,41.1022;3009;Bashkia Elbasan;Jatesh
+0;19.4489,42.2681;4303;Bashkia Malësi e Madhe;Jaran
+0;19.6756,40.7653;9306;Bashkia Fier;Jagodinë
+0;19.9578,40.4508;5403;Bashkia Skrapar;Izvor
+0;19.8239,41.2100;1035;Bashkia Tiranë;Isuf-Muçaj
+0;19.6294,41.7686;4504;Bashkia Lezhë;Ishull-Shëngjin
+0;19.6436,41.7692;4504;Bashkia Lezhë;Ishull-Lezhë
+0;19.6506,41.7833;4504;Bashkia Lezhë;Ishull
+5001;19.6000,41.5453;2015;Bashkia Durrës;Ishëm
+0;19.6969,40.7894;9319;Bashkia Fier;Imsht
+0;19.6775,40.7956;9016;Bashkia Lushnje;Imshtë
+0;19.6711,40.1428;9417;Bashkia Vlorë;Ilias
+0;19.9000,40.3842;9328;Bashkia Fier;Iliras
+0;19.9403,41.2375;1037;Bashkia Tiranë;Iba e Poshtme
+0;19.6497,40.4039;9407;Bashkia Vlorë;Hysoverdhë
+0;19.7897,40.9717;9009;Bashkia Lushnje;Hysgjokaj
+0;19.4786,40.7500;9309;Bashkia Fier;Hoxhara
+0;19.9667,41.4333;1042;Bashkia Tiranë;Hoxhaj
+0;19.7667,41.3167;1052;Bashkia Tiranë;Hoxhaj
+1473;19.4442,42.3619;4306;Bashkia Malësi e Madhe;Hot
+0;19.4862,40.5418;9419;Bashkia Vlorë;Hoshtimë
+0;19.9833,41.5167;8003;Bashkia Mat;Hi Zegaj
+762;19.7817,40.8400;9005;Bashkia Lushnje;Hingë
+4596;19.7447,40.1017;9425;Bashkia Vlorë;Himarë
+0;19.8494,41.4300;1048;Bashkia Tiranë;Herraj
+0;19.6756,41.1067;2503;Bashkia Kavajë;Hemenraj
+0;19.6069,41.1803;2506;Bashkia Kavajë;Helmas
+0;19.7422,41.0878;2511;Bashkia Kavajë;Hyre
+0;19.9353,41.2517;1037;Bashkia Tiranë;Hekal
+0;19.7358,40.5619;9332;Bashkia Fier;Hekal
+0;19.8758,40.9133;3022;Bashkia Elbasan;Çestije
+1214;19.8969,40.8203;5305;Bashkia Kuçovë;Havaleas
+0;19.4778,40.7372;9309;Bashkia Fier;Havaleas
+0;19.4697,40.8467;9004;Bashkia Lushnje;Hasturkas
+0;19.8369,41.1022;2511;Bashkia Kavajë;Haspiraj
+0;19.8503,41.1067;3007;Bashkia Elbasan;Hasnjok
+0;19.7833,41.4833;1501;Bashkia Krujë;Hasmuçaj
+0;19.7114,41.0344;2511;Bashkia Kavajë;Hasmashaj
+0;19.7103,41.1275;2511;Bashkia Kavajë;Hasmallijë
+0;19.6872,41.0972;2503;Bashkia Kavajë;Hasdushk
+0;19.6997,41.4828;1502;Bashkia Krujë;Hasan
+0;19.6031,41.1372;2501;Bashkia Kavajë;Harizaj
+0;19.5761,41.3056;2022;Bashkia Durrës;Hardhishtë
+0;19.8444,40.9342;3023;Bashkia Elbasan;Hardhias
+0;19.4342,42.3367;4306;Bashkia Malësi e Madhe;Hani Hotit
+0;19.5301,40.7555;9309;Bashkia Fier;Hamil
+0;19.5794,40.5782;9325;Bashkia Fier;Hambar
+0;19.5492,41.4739;2012;Bashkia Durrës;Hamallaj
+0;19.4942,41.1522;2505;Bashkia Kavajë;Hallula
+0;19.6333,40.8022;9327;Bashkia Fier;Halilaj
+0;19.6378,41.9531;4029;Bashkia Shkodër;Hajmel
+0;19.7333,40.9667;9012;Bashkia Lushnje;Hajdaraj-Peqin
+0;19.5147,41.1425;2505;Bashkia Kavajë;Hajdaraj
+0;19.7286,40.9622;9012;Bashkia Lushnje;Hajdaraj
+0;19.7019,40.4469;9412;Bashkia Vlorë;Hadëraj
+0;19.6114,41.1686;2506;Bashkia Kavajë;Habilaj
+0;19.5631,41.2694;2504;Bashkia Kavajë;Gjuzë
+0;19.8900,40.2208;9418;Bashkia Vlorë;Gusmar
+0;19.9908,41.5361;8003;Bashkia Mat;Gurra e Vogël
+0;19.7156,41.6453;4701;Bashkia Kurbin;Gurrë
+0;19.9161,41.2881;1040;Bashkia Tiranë;Gurrë
+0;19.9517,40.9197;3021;Bashkia Elbasan;Gurras
+0;19.5747,42.0450;4016;Bashkia Shkodër;Guri i Zi
+538;19.8494,40.7652;5008;Bashkia Berat;Guri i Bardhë
+0;19.6364,41.6672;4511;Bashkia Lezhë;Gurëz
+0;19.5350,40.8981;9004;Bashkia Lushnje;Gur
+0;19.5633,40.8781;9014;Bashkia Lushnje;Gungas
+0;19.6073,40.3436;9421;Bashkia Vlorë;Gumenicë
+0;19.5136,42.1239;4002;Bashkia Shkodër;Gucia e Re
+0;19.8569,41.0425;3008;Bashkia Elbasan;Grykëshi i Vogël
+0;19.8681,41.0556;3007;Bashkia Elbasan;Grykësh
+0;19.6750,41.7786;4504;Bashkia Lezhë;Grykë-Manati
+0;19.6136,41.6883;4511;Bashkia Lezhë;Gryka e Lumit
+0;19.4187,40.7693;9326;Bashkia Fier;Grykë
+0;19.4792,42.2008;4302;Bashkia Malësi e Madhe;Gruemirë-Çesme
+0;19.5189,42.1592;4002;Bashkia Shkodër;Gruemirë
+0;19.5006,42.1619;4302;Bashkia Malësi e Madhe;Grudë-Fushë
+0;19.5353,42.1119;4002;Bashkia Shkodër;Gruda e Re
+0;19.7553,41.2097;1035;Bashkia Tiranë;Gror
+0;19.7297,41.3261;1031;Bashkia Kamëz;Gropaj
+0;19.4667,42.2667;4303;Bashkia Malësi e Madhe;Grizhë
+0;19.4856,42.1311;4002;Bashkia Shkodër;Grilë
+0;19.7783,40.5519;9331;Bashkia Fier;Greshicë
+0;19.8000,41.4333;1504;Bashkia Krujë;Grepësi
+0;19.9475,40.9294;3021;Bashkia Elbasan;Grekan
+0;19.7522,41.1903;1035;Bashkia Tiranë;Grecë
+0;19.5589,40.7631;9301;Bashkia Fier;Grecalli
+0;19.7231,40.6464;9312;Bashkia Fier;Ngrançije
+0;19.5717,41.9039;4506;Bashkia Lezhë;Gramsh
+0;19.6678,41.0219;9015;Bashkia Lushnje;Gramsh
+0;19.6489,41.5236;1507;Bashkia Krujë;Gramëz
+0;19.8978,40.9781;3008;Bashkia Elbasan;Gradishtë
+0;19.5858,40.8881;9014;Bashkia Lushnje;Gradishtë
+0;19.4772,42.2500;4303;Bashkia Malësi e Madhe;Gradec
+0;19.9636,41.1519;3012;Bashkia Elbasan;Gracen
+0;19.5312,40.5313;9419;Bashkia Vlorë;Grabian
+0;19.5808,40.9531;9011;Bashkia Lushnje;Grabjan
+0;19.6361,41.0889;2508;Bashkia Kavajë;Gosa e Vogël
+0;19.6247,41.0906;2508;Bashkia Kavajë;Gosë e Madhe
+0;19.6231,41.0900;2508;Bashkia Kavajë;Gosa e Madhe
+0;19.6458,41.6403;4701;Bashkia Kurbin;Gorre
+0;19.6347,40.8589;9019;Bashkia Lushnje;Gorre
+0;19.6550,40.5836;9311;Bashkia Fier;Gorishovë
+0;19.4667,40.5167;9419;Bashkia Vlorë;Goricë
+1097;19.7842,40.8095;5009;Bashkia Berat;Çlirim
+0;19.7811,40.8202;5022;Bashkia Berat;Goriçan
+0;19.6397,40.8819;9021;Bashkia Lushnje;Goriçaj
+0;19.4819,42.3117;4306;Bashkia Malësi e Madhe;Goraj-Budishë
+1714;19.9475,40.8119;5307;Bashkia Kuçovë;Goraj
+0;19.6808,42.0272;4008;Bashkia Shkodër;Gomsiqja e Re
+0;19.7978,41.9822;4409;Bashkia Pukë;Gomsiqe
+0;19.7375,40.3978;9410;Bashkia Vlorë;Golimbas
+6994;19.6853,40.9678;9012;Bashkia Lushnje;Golem
+0;19.5844,41.2417;2504;Bashkia Kavajë;Golemas
+0;19.5258,42.0972;4002;Bashkia Shkodër;Golem
+0;19.9350,40.1719;9418;Bashkia Vlorë;Golem
+0;19.6978,42.0203;4008;Bashkia Shkodër;Gojan
+0;19.9667,41.1667;3012;Bashkia Elbasan;Gogajt
+0;19.6686,40.8414;9019;Bashkia Lushnje;Gobolesh
+0;19.6372,41.8450;4501;Bashkia Lezhë;Gocaj
+0;19.9436,40.4694;5403;Bashkia Skrapar;Gllava e Vogël
+0;19.9642,40.4908;5403;Bashkia Skrapar;Gllava e Madhe
+0;19.7000,41.2167;1038;Bashkia Tiranë;Gjyzilkonjë
+0;19.7511,40.9981;9017;Bashkia Lushnje;Gjuzaj
+0;19.7594,40.9778;9017;Bashkia Lushnje;Gjyshaj
+0;19.9681,40.9625;3024;Bashkia Elbasan;Gjyralë
+0;19.6056,41.5264;1507;Bashkia Krujë;Gjuricaj
+0;19.7292,41.1456;1038;Bashkia Tiranë;Gjuzsulkone
+0;19.5106,42.1808;4302;Bashkia Malësi e Madhe;Gjorm
+0;19.6442,40.3164;9421;Bashkia Vlorë;Gjorm
+0;19.9106,42.2889;8706;Bashkia Tropojë;Gjonpepaj
+0;19.7253,41.6133;4703;Bashkia Kurbin;Gjonëm
+0;19.6411,40.5617;9325;Bashkia Fier;Gjonçë
+0;19.6558,40.8053;9016;Bashkia Lushnje;Gjonas
+0;19.9297,40.9003;3022;Bashkia Elbasan;Gjolenë
+0;19.4708,40.7793;9326;Bashkia Fier;Gjokalli
+0;19.6664,41.3631;1053;Bashkia Vorë;Gjokaj
+0;19.7239,41.0256;9017;Bashkia Lushnje;Gjoçaj
+0;19.7756,41.9278;4508;Bashkia Lezhë;Gjobardhaj
+0;19.6347,41.6181;4701;Bashkia Kurbin;Gjinazez
+0;19.7161,40.6642;9312;Bashkia Fier;Gjinoqarë
+0;19.7808,41.0656;2511;Bashkia Kavajë;Gjevor
+540;19.9270,40.6561;5013;Bashkia Berat;Gjoroven
+0;19.8346,40.5632;9335;Bashkia Fier;Gjerbës
+0;19.5781,41.3331;2022;Bashkia Durrës;Gjepalaj
+0;19.9167,41.9000;4607;Bashkia Mirditë;Gjeg Palaj
+0;19.6667,41.4333;1039;Bashkia Vorë;Gjeçaj-Kodër
+0;19.6953,41.4056;1053;Bashkia Vorë;Gjeçaj-Fushë
+0;19.7033,40.8411;9005;Bashkia Lushnje;Gjazë
+0;19.6878,41.8039;4504;Bashkia Lezhë;Gjash
+0;19.8000,42.3000;8706;Bashkia Tropojë;Gjan
+2000;19.5914,41.8800;4505;Bashkia Lezhë;Gjadër, Dajc
+0;19.7714,42.3142;8706;Bashkia Tropojë;Gimaj
+0;19.9128,41.8106;4602;Bashkia Mirditë;Gëziq
+0;19.6686,40.4439;9412;Bashkia Vlorë;Gërnec
+0;19.8200,41.5836;1501;Bashkia Krujë;Gërnac
+0;19.5769,41.0139;9015;Bashkia Lushnje;Gërmenji i Vogël
+884;19.5728,40.9911;9022;Bashkia Lushnje;Gërmenj i Madh
+0;19.6308,41.1389;2501;Bashkia Kavajë;Gërmej
+0;19.9625,41.5928;8005;Bashkia Mat;Gërman
+0;19.6311,41.4178;1032;Bashkia Vorë;Gërdec
+0;19.6786,41.2675;1036;Bashkia Tiranë;Gërbllesh
+1571;19.9261,40.8369;5307;Bashkia Kuçovë;Gegë
+0;19.7517,41.0983;2511;Bashkia Kavajë;Garunja e Vogël
+0;19.8667,41.1167;3012;Bashkia Elbasan;Garunjë
+0;19.7828,41.0806;2511;Bashkia Kavajë;Garunja e Madhe
+0;19.7339,40.9919;9017;Bashkia Lushnje;Garunjas
+0;19.5886,42.1608;4012;Bashkia Shkodër;Garuç
+0;19.5883,42.0125;4026;Bashkia Shkodër;Ganjollë
+0;19.8236,41.1117;2511;Bashkia Kavajë;Galush
+0;19.7817,41.6417;4703;Bashkia Kurbin;Gallatë
+211;19.8717,40.7028;5012;Bashkia Berat;Galinë
+0;19.6892,41.7189;4510;Bashkia Lezhë;Gajush
+596;19.8189,40.8469;5022;Bashkia Berat;Gajdë
+0;19.7708,42.3283;8706;Bashkia Tropojë;Gagu
+0;19.8505,40.5191;9335;Bashkia Fier;Gadurovë
+0;19.6842,41.4275;1039;Bashkia Vorë;Fushë-Prezë
+0;19.6794,41.5714;4704;Bashkia Kurbin;Fushë-Mamurras
+0;19.6200,41.6503;4511;Bashkia Lezhë;Fushëkuqe
+17877;19.7178,41.4783;1502;Bashkia Krujë;Fushë-Krujë
+0;19.8986,40.8400;5305;Bashkia Kuçovë;Fush' e Gjate
+0;19.9972,40.0989;6019;Bashkia Gjirokastër;Fushëbardhë
+0;19.4453,40.7486;9323;Bashkia Fier;Fushë
+0;19.7953,41.2383;1035;Bashkia Tiranë;Fushas
+0;19.8936,40.1144;9714;Bashkia Sarandë;Fterë
+0;19.7692,41.8617;4508;Bashkia Lezhë;Fregën
+0;19.8167,40.5000;9328;Bashkia Fier;Fratar
+254;19.9453,40.8653;5307;Bashkia Kuçovë;Frashër
+0;19.6150,40.7147;9313;Bashkia Fier;Frashër
+0;19.9806,41.5631;8005;Bashkia Mat;Frankth
+0;19.5025,40.6558;9314;Bashkia Fier;Frakulla e Madhe
+0;19.5097,41.3711;2010;Bashkia Durrës;Fllakë
+0;19.7336,41.1006;2511;Bashkia Kavajë;Fliballije
+0;19.6711,41.8950;4505;Bashkia Lezhë;Fishtë
+0;19.6917,41.7728;4504;Bashkia Lezhë;Fildanë
+0;19.8908,41.2653;1037;Bashkia Tiranë;Fikas-Mangull
+0;19.7781,41.7433;4603;Bashkia Mirditë;Fierzë
+0;19.7853,40.8672;9005;Bashkia Lushnje;Fier-Shegan
+0;19.5686,40.8833;9014;Bashkia Lushnje;Fier-Seman
+476;19.8700,40.8461;5305;Bashkia Kuçovë;Fier Mimar
+0;19.7064,40.8572;9005;Bashkia Lushnje;Fieri i Ri
+0;19.8947,40.8369;5305;Bashkia Kuçovë;Fier-Çifçi
+56297;19.5582,40.7251;9318;Bashkia Fier;Fier
+0;19.9256,41.4325;1042;Bashkia Tiranë;Fezaj
+0;19.7614,41.6931;4705;Bashkia Kurbin;Ferr -Skuraj
+0;19.7947,41.7011;4705;Bashkia Kurbin;Ferr-Shkopet
+0;19.6197,40.9375;9020;Bashkia Lushnje;Ferras
+168;19.8775,40.8236;5305;Bashkia Kuçovë;Feras Kozare
+0;19.4588,40.6446;9411;Bashkia Vlorë;Ferras
+0;19.8578,41.3839;1048;Bashkia Tiranë;Ferraj
+0;19.5500,41.4333;2012;Bashkia Durrës;Ferhade
+0;19.7739,41.0511;9017;Bashkia Lushnje;Fetishe
+0;19.8828,41.3118;1045;Bashkia Tiranë;Farka e Vogel
+0;19.8707,41.3119;1045;Bashkia Tiranë;Farka e Madhe
+0;19.7844,41.7283;4603;Bashkia Mirditë;Fangu
+0;19.6594,40.8197;9016;Bashkia Lushnje;Eskaj
+0;19.6233,41.2989;1036;Bashkia Tiranë;Eminasi i Vogël
+0;19.9833,41.9000;4408;Bashkia Pukë;Egër
+0;19.8667,41.1500;3012;Bashkia Elbasan;Dybel
+1282;19.9528,40.7319;5010;Bashkia Berat;Dushnik
+0;19.6378,40.4014;9407;Bashkia Vlorë;Shkallë Mavrovë
+0;19.8994,42.1100;4405;Bashkia Pukë;Dushnez
+0;19.5810,40.9663;9011;Bashkia Lushnje;Dushku i Madh
+0;19.6833,41.0028;9012;Bashkia Lushnje;Dushk Peqin
+0;19.6706,40.9964;9012;Bashkia Lushnje;Dushku i Madh
+0;19.7339,40.4347;9410;Bashkia Vlorë;Dushkarak
+0;19.5231,41.4206;2017;Bashkia Durrës;Dushk
+0;19.8000,41.2167;1035;Bashkia Tiranë;Dushk
+0;19.8033,42.0425;4409;Bashkia Pukë;Dush
+0;19.7308,42.0153;4008;Bashkia Shkodër;Dush
+195920;19.4547,41.3235;2016;Bashkia Durrës;Durrës
+0;19.8833,41.2333;1037;Bashkia Tiranë;Durisht
+0;19.5062,40.2719;9426;Bashkia Vlorë;Dukati i Ri
+0;19.5647,40.2505;9413;Bashkia Vlorë;Dukat
+0;19.6294,40.6844;9307;Bashkia Fier;Dukas
+0;19.7278,40.6075;9333;Bashkia Fier;Dukas
+0;19.6419,41.5611;1503;Bashkia Krujë;Dukagjini i Ri
+1274;19.9933,40.7211;5001;Bashkia Berat;Duhanas
+0;19.6372,42.3425;4305;Bashkia Malësi e Madhe;Ducaj
+549;19.9572,40.6786;5013;Bashkia Berat;Drobonik
+593;19.9478,40.8397;5307;Bashkia Kuçovë;Drizë
+0;19.7192,40.7197;9316;Bashkia Fier;Drizë
+0;19.5419,40.6983;9318;Bashkia Fier;Drizë
+0;19.7820,40.4941;9329;Bashkia Fier;Drizar
+0;19.9783,41.6433;8004;Bashkia Mat;Dritë
+0;19.6883,41.5850;4704;Bashkia Kurbin;Dritë
+0;19.7542,41.4153;1504;Bashkia Krujë;Dritas
+0;19.5914,42.1231;4012;Bashkia Shkodër;Drisht
+1907;19.7685,40.7918;5009;Bashkia Berat;Drenovicë
+0;19.7008,40.6006;9333;Bashkia Fier;Drenovë
+0;19.7425,40.6736;9312;Bashkia Fier;Drenie
+0;19.5811,40.4465;9402;Bashkia Vlorë;Drashovicë
+0;19.7289,41.0742;2511;Bashkia Kavajë;Drangaj
+0;19.4236,42.0467;4017;Bashkia Shkodër;Dramosh
+0;19.5942,41.9422;4506;Bashkia Lezhë;Dragushë
+0;19.8969,40.8769;3022;Bashkia Elbasan;Dragot-Dumre
+0;19.5611,42.1219;4012;Bashkia Shkodër;Dragoç
+0;19.9877,42.4341;8703;Bashkia Tropojë;Dragobi
+0;19.5122,41.5575;2015;Bashkia Durrës;Draç
+0;19.7533,40.9292;9008;Bashkia Lushnje;Dotaj
+0;19.8227,40.3871;9410;Bashkia Vlorë;Dorëz
+0;19.7575,41.2175;1035;Bashkia Tiranë;Dorëz
+0;19.7000,41.2333;1038;Bashkia Tiranë;Dorakaj
+729;19.7894,40.7431;5018;Bashkia Berat;Donofrosë
+0;19.7239,41.3678;1051;Bashkia Tiranë;Domje
+0;19.7425,41.2853;1041;Bashkia Tiranë;Domjan-Fortuzaj
+0;19.6028,42.1383;4012;Bashkia Shkodër;Domën
+0;19.4718,41.1273;2510;Bashkia Kavajë;Domën
+0;19.8758,41.2553;1034;Bashkia Tiranë;Dobresh
+0;19.5297,42.0822;4015;Bashkia Shkodër;Dobraç
+0;19.4483,42.1872;4302;Bashkia Malësi e Madhe;Dobër
+6713;19.5294,40.9967;9022;Bashkia Lushnje;Divjakë
+0;19.6081,41.9556;4029;Bashkia Shkodër;Dheu i Lehtë
+1800;19.6389,40.1514;9422;Bashkia Vlorë;Dhërmi
+0;19.9397,40.8861;3022;Bashkia Elbasan;Dëshiran
+0;19.7056,41.5128;1502;Bashkia Krujë;Derven
+0;19.4939,40.7456;9309;Bashkia Fier;Dërmënas
+0;19.8736,41.2233;1037;Bashkia Tiranë;Demirxhijas
+0;19.4750,42.1803;4302;Bashkia Malësi e Madhe;Demiraj
+0;19.3783,40.6521;9411;Bashkia Vlorë;Dëllinjë
+0;19.7661,40.8478;9005;Bashkia Lushnje;Delisufaj
+0;19.7353,41.6483;4701;Bashkia Kurbin;Delbnisht
+0;19.6247,42.0100;4008;Bashkia Shkodër;Vau i Dejës
+0;19.5411,42.2947;4305;Bashkia Malësi e Madhe;Dedaj
+0;19.8769,42.0669;4405;Bashkia Pukë;Dedaj
+0;19.7500,40.4000;9410;Bashkia Vlorë;Davidaj
+0;19.5500,41.1500;2509;Bashkia Kavajë;Dautaj
+0;19.7331,40.4461;9329;Bashkia Fier;Dautaj
+0;19.7747,41.6072;4703;Bashkia Kurbin;Daul
+0;19.5275,40.8489;9310;Bashkia Fier;Agim
+0;19.9825,41.2931;1040;Bashkia Tiranë;Darshen
+0;19.4500,42.0000;4018;Bashkia Shkodër;Darragjat
+0;19.8069,40.5233;9328;Bashkia Fier;Damës
+0;19.7358,41.1283;2511;Bashkia Kavajë;Damarkaj
+0;19.7761,42.2942;8706;Bashkia Tropojë;Dakaj
+0;19.9158,41.3936;1042;Bashkia Tiranë;Dajt
+0;19.4106,41.9917;4019;Bashkia Shkodër;Dajç
+0;19.6044,41.9156;4506;Bashkia Lezhë;Dajç
+0;19.8931,41.2819;1045;Bashkia Tiranë;Dais-Barbas
+0;19.9119,42.3481;8706;Bashkia Tropojë;Curraj i Epërm
+0;19.9364,42.3028;8706;Bashkia Tropojë;Curraj
+0;19.7628,40.8658;9005;Bashkia Lushnje;Çukasi i Ri
+0;19.7886,40.8508;9005;Bashkia Lushnje;Çukasi i Vjetër
+3045;19.7906,40.7303;5018;Bashkia Berat;Cukalat
+0;19.8458,41.5094;1501;Bashkia Krujë;Cudhi Zall
+0;19.8706,41.5158;1508;Bashkia Krujë;Cudhi-Kamt
+0;19.8015,40.4461;9329;Bashkia Fier;Çorrush
+0;19.8640,40.1148;9714;Bashkia Sarandë;Çorraj
+0;19.7864,41.0478;9017;Bashkia Lushnje;Çopanaj
+0;19.6717,41.2575;1036;Bashkia Tiranë;Çoçaj
+0;19.5181,40.7375;9309;Bashkia Fier;Çlirim
+0;19.6242,41.2894;1036;Bashkia Tiranë;Çizmeli
+0;19.7986,40.8625;9005;Bashkia Lushnje;Çinar
+0;19.5853,41.1986;2506;Bashkia Kavajë;Çikallesh
+0;19.6658,41.1747;2506;Bashkia Kavajë;Cikallesh
+0;19.8630,40.7974;5308;Bashkia Kuçovë;Çiflig
+0;19.6833,41.2167;1038;Bashkia Tiranë;Çiflik
+0;19.8672,41.1294;3012;Bashkia Elbasan;Çiflik
+0;19.8164,40.6356;9334;Bashkia Fier;Cfir
+0;19.5703,41.1942;2505;Bashkia Kavajë;Çetë
+0;19.6833,41.1500;2501;Bashkia Kavajë;Çetë
+0;19.4600,42.1814;4302;Bashkia Malësi e Madhe;Çesme e Koplikut
+0;19.7411,40.7019;9316;Bashkia Fier;Çerven
+14269;19.9758,41.0317;3001;Bashkia Elbasan;Cërrik
+0;19.8169,40.9172;3023;Bashkia Elbasan;Çërragë
+0;19.6142,41.0581;9015;Bashkia Lushnje;Çermë-Proshkë
+0;19.6000,41.0667;9015;Bashkia Lushnje;Çermë e Vogël
+0;19.6378,41.0519;9015;Bashkia Lushnje;Çerma e Sipërme
+0;19.5789,41.0503;9015;Bashkia Lushnje;Çermë Shkumbin
+0;19.4845,40.5667;9420;Bashkia Vlorë;Cerkovinë
+0;19.7783,41.3972;1030;Bashkia Kamëz;Çerkez-Morinë
+0;19.7886,40.6136;9330;Bashkia Fier;Selimaj
+0;19.5265,40.5089;9423;Bashkia Vlorë;Çeprat
+0;19.8500,41.0494;3007;Bashkia Elbasan;Çengelaj
+0;19.5667,40.7333;9301;Bashkia Fier;Çeligrad
+0;19.7361,41.0186;9017;Bashkia Lushnje;Çelhakaj
+0;19.7419,41.2447;1038;Bashkia Tiranë;Çaushi
+0;19.8053,41.0611;9017;Bashkia Lushnje;Çaushaj
+0;19.9667,40.9500;3021;Bashkia Elbasan;Çartallos
+0;19.7781,40.9786;9009;Bashkia Lushnje;Çanakaj
+0;19.6261,40.6033;9311;Bashkia Fier;Cakran
+0;19.8611,41.1486;3012;Bashkia Elbasan;Cacabezë
+0;19.4333,42.2000;4001;Bashkia Shkodër;Bzheta-Makaj
+0;19.5522,42.3125;4305;Bashkia Malësi e Madhe;Bzhetë
+0;19.6131,40.5814;9325;Bashkia Fier;Buzmadh
+0;19.4000,42.2167;4001;Bashkia Shkodër;Buzë e Ujit
+0;19.6675,41.5597;1503;Bashkia Krujë;Bushnesh
+0;19.9178,41.6658;8004;Bashkia Mat;Bushkash
+0;19.8997,42.1194;4405;Bashkia Pukë;Bushat
+0;19.5342,41.9597;4021;Bashkia Shkodër;Bushat
+0;19.8850,42.1019;4405;Bashkia Pukë;Buzhalë
+0;19.9928,41.6103;8001;Bashkia Mat;Ndreaj
+0;19.7192,41.5322;1502;Bashkia Krujë;Burizanë
+0;19.8258,41.4547;1508;Bashkia Krujë;Buran
+0;19.5208,40.5236;9419;Bashkia Vlorë;Bunavi
+0;19.7803,41.2756;1046;Bashkia Tiranë;Bulticë
+0;19.7833,41.7669;4603;Bashkia Mirditë;Bulshizë
+0;19.8908,41.4331;1042;Bashkia Tiranë;Bulçesh
+0;19.8672,41.8408;4602;Bashkia Mirditë;Bukëmirë
+0;19.9928,42.2350;4030;Bashkia Shkodër;Bugjon
+0;19.6700,41.4503;1039;Bashkia Vorë;Budulla
+0;19.6408,40.8181;9016;Bashkia Lushnje;Bubullimë
+4374;19.6517,41.4742;1505;Bashkia Krujë;Bubq
+0;19.8653,41.4817;1508;Bashkia Krujë;Bruz-Zall
+0;19.8922,41.4839;1508;Bashkia Krujë;Bruz
+0;19.7986,42.1647;4405;Bashkia Pukë;Brushtull
+0;19.6494,42.2178;4305;Bashkia Malësi e Madhe;Bruçaj
+0;19.9172,41.0633;3007;Bashkia Elbasan;Broshkë
+0;19.5553,42.4388;4304;Bashkia Malësi e Madhe;Brojë
+0;19.4483,42.3739;4306;Bashkia Malësi e Madhe;Brigjë
+0;19.8753,42.2517;8706;Bashkia Tropojë;Bricë
+0;19.7675,41.5475;1501;Bashkia Krujë;Bret
+0;19.6167,41.5000;1507;Bashkia Krujë;Breg i Kaçito
+0;19.5816,40.9724;9011;Bashkia Lushnje;Bregas
+0;19.6956,40.6942;9312;Bashkia Fier;Bregas
+0;19.5359,40.6558;9018;Bashkia Lushnje;Peshtan-Bregas
+0;19.9992,42.0383;4402;Bashkia Pukë;Breg
+0;19.4933,42.3372;4305;Bashkia Malësi e Madhe;Bratosh
+2849;19.6692,40.2678;9408;Bashkia Vlorë;Brataj
+0;19.8172,42.2378;8706;Bashkia Tropojë;Brashtë
+0;19.8689,41.3956;1048;Bashkia Tiranë;Brar
+0;19.6014,41.2694;2504;Bashkia Kavajë;Bozanxhije
+0;19.8575,40.0618;9714;Bashkia Sarandë;Borsh
+0;19.4964,42.1347;4002;Bashkia Shkodër;Boriçi i Madh
+0;19.5000,42.1311;4002;Bashkia Shkodër;Boriçi i Vogël
+0;19.5628,41.4194;2012;Bashkia Durrës;Borçë
+0;19.5597,41.3569;2013;Bashkia Durrës;Borakë
+0;19.7633,40.2428;9424;Bashkia Vlorë;Bolenë
+0;19.4781,41.8606;4020;Bashkia Shkodër;Baks-Rrjoll
+0;19.4186,41.9189;4020;Bashkia Shkodër;Baks i Ri
+0;19.5728,42.1206;4012;Bashkia Shkodër;Boks
+0;19.9392,42.0578;4401;Bashkia Pukë;Buhot
+0;19.4531,42.2033;4001;Bashkia Shkodër;Bogiç-Palvar
+0;19.6456,42.3981;4304;Bashkia Malësi e Madhe;Bogë
+0;19.6197,41.3478;1033;Bashkia Vorë;Bodinak
+0;19.8881,41.1628;3012;Bashkia Elbasan;Bodin
+0;19.4286,40.6833;9323;Bashkia Fier;Boçovë
+0;19.9578,42.0728;4407;Bashkia Pukë;Blinisht
+0;19.6369,41.8822;4505;Bashkia Lezhë;Blinisht
+0;19.5511,41.1561;2505;Bashkia Kavajë;Blerimaj
+0;19.9622,41.1178;3012;Bashkia Elbasan;Bizhutë
+0;19.5472,41.5558;2015;Bashkia Durrës;Bizë
+0;19.5906,40.8478;9007;Bashkia Lushnje;Bitaj
+733;19.8292,40.7189;5018;Bashkia Berat;Bistrovicë
+0;19.4333,41.4000;2009;Bashkia Durrës;Bishtkamzë
+0;19.6589,40.8672;9019;Bashkia Lushnje;Bishtqethëm
+0;19.8664,41.0703;3007;Bashkia Elbasan;Bishqem
+0;19.5731,41.0206;9015;Bashkia Lushnje;Bishçukas
+0;19.5500,40.7333;9301;Bashkia Fier;Bishanakë
+0;19.4204,40.6627;9411;Bashkia Vlorë;Bishan
+0;19.4408,40.6439;9411;Bashkia Vlorë;Bishan
+870;19.9758,40.6833;5013;Bashkia Berat;Bilçë
+0;19.6019,41.3878;2020;Bashkia Durrës;Bilalas
+0;19.6867,41.4931;1502;Bashkia Krujë;Bilaj
+0;19.7553,40.8681;9005;Bashkia Lushnje;Biçakaj i Vjetër
+0;19.7494,40.8808;9005;Bashkia Lushnje;Biçakaj i Ri
+0;19.7956,40.9261;3023;Bashkia Elbasan;Biçakaj
+0;19.9886,42.0639;4407;Bashkia Pukë;Bicaj
+0;19.8064,41.0717;2511;Bashkia Kavajë;Bicaj
+0;19.9661,42.3106;8706;Bashkia Tropojë;Bëtoshë
+0;19.4848,40.5177;9419;Bashkia Vlorë;Bestrovë
+0;19.5361,40.5645;9420;Bashkia Vlorë;Beshisht
+0;19.9097,41.4189;1042;Bashkia Tiranë;Besh
+0;19.9011,41.2453;1037;Bashkia Tiranë;Bërzhitë
+0;19.7339,41.7128;4705;Bashkia Kurbin;Bërzanë
+0;19.6875,41.3800;1053;Bashkia Vorë;Bërxull
+0;19.9147,42.1717;4403;Bashkia Pukë;Berisha e Vogël
+0;19.9467,42.2214;4403;Bashkia Pukë;Berisha e Epërme
+0;19.9272,42.1469;4405;Bashkia Pukë;Berisha e Vendit
+0;19.5056,42.0300;4010;Bashkia Shkodër;Bërdica e Sipërme
+0;19.4844,42.0194;4018;Bashkia Shkodër;Bërdicë e Poshtme
+0;19.4897,42.0239;4018;Bashkia Shkodër;Bërdica e Mesme
+0;19.4817,42.0153;4018;Bashkia Shkodër;Bërdica e Madhe
+62232;19.9522,40.7058;5012;Bashkia Berat;Berat
+0;19.7839,42.1086;4405;Bashkia Pukë;Benë
+0;19.7108,40.4175;9410;Bashkia Vlorë;Beluç
+0;19.5136,42.0139;4018;Bashkia Shkodër;Beltojë
+0;19.8819,40.9750;3008;Bashkia Elbasan;Belsh
+0;19.6875,40.6208;9333;Bashkia Fier;Belishovë
+0;19.6358,40.7456;9301;Bashkia Fier;Belinë
+0;19.4006,41.9764;4019;Bashkia Shkodër;Belaj
+0;19.8260,40.4896;9328;Bashkia Fier;Bejar
+0;19.5392,41.1203;2510;Bashkia Kavajë;Beden
+0;19.9292,41.6319;8004;Bashkia Mat;Baz
+0;19.7617,41.3778;1054;Bashkia Kamëz;Bathore
+0;19.9892,41.5747;8005;Bashkia Mat;Batra e Madhe
+0;19.9683,41.4392;1042;Bashkia Tiranë;Bastar
+0;19.5000,41.0500;2510;Bashkia Kavajë;Bashtovë
+0;19.6333,40.7167;9313;Bashkia Fier;Bashkim
+0;19.4139,40.6806;9323;Bashkia Fier;Bashkim
+0;19.7444,40.3128;9415;Bashkia Vlorë;Bashaj
+0;19.6614,41.3158;1051;Bashkia Tiranë;Barzez
+0;19.8100,41.4772;1501;Bashkia Krujë;Barkanesh
+0;19.5542,42.0881;4015;Bashkia Shkodër;Bardhaj
+221;19.9767,40.8050;5306;Bashkia Kuçovë;Bardhaj
+0;19.8764,40.5244;9335;Bashkia Fier;Cërrilë
+0;19.9833,40.4658;5015;Bashkia Berat;Bardhaj
+0;19.4662,41.1399;2510;Bashkia Kavajë;Bardhor
+0;19.6956,42.1039;4012;Bashkia Shkodër;Barcollë
+0;19.5833,41.4333;2012;Bashkia Durrës;Barç
+0;19.5500,41.9264;4022;Bashkia Shkodër;Barbullush
+0;19.7697,40.8797;9005;Bashkia Lushnje;Barbullinjë
+0;19.6481,41.8958;4505;Bashkia Lezhë;Baqël
+844;19.8407,40.8249;5022;Bashkia Berat;Banaj
+0;19.8850,40.5744;9335;Bashkia Fier;Banaj
+0;19.5371,40.7520;9309;Bashkia Fier;Baltëz
+0;19.5553,41.1531;2505;Bashkia Kavajë;Ballutaj
+0;19.7981,41.2208;1035;Bashkia Tiranë;Ballshaban
+4944;19.7347,40.5989;9308;Bashkia Fier;Ballsh
+0;19.7833,41.2333;1035;Bashkia Tiranë;Ballhaxhijas
+0;19.6347,41.8094;4504;Bashkia Lezhë;Balldren
+0;19.7211,41.1950;1038;Bashkia Tiranë;Ballashen-Pojanë
+0;19.5333,41.1000;2510;Bashkia Kavajë;Ballaj i Ri
+0;19.5539,41.0522;9015;Bashkia Lushnje;Ballaj
+0;19.7653,40.9953;9017;Bashkia Lushnje;Ballagat
+0;19.7969,41.2139;1035;Bashkia Tiranë;Baldushk
+0;19.7781,40.9472;9009;Bashkia Lushnje;Balaj
+0;19.7000,41.4833;1502;Bashkia Krujë;Bakushe Visha
+0;19.7486,41.3239;1050;Bashkia Tiranë;Bakall
+789;19.4378,42.2853;4306;Bashkia Malësi e Madhe;Ivanaj
+0;19.8000,41.1833;1035;Bashkia Tiranë;Bajzë
+0;19.4983,41.1612;2505;Bashkia Kavajë;Bago
+0;19.5475,40.8828;9004;Bashkia Lushnje;Babunjë
+0;19.8292,41.3542;1047;Bashkia Kamëz;Babru
+0;19.4011,42.0569;4017;Bashkia Shkodër;Babot
+0;19.5035,40.4995;9423;Bashkia Vlorë;Babica e Vogël
+0;19.5143,40.4841;9423;Bashkia Vlorë;Babica e Madhe
+0;19.5356,42.0108;4018;Bashkia Shkodër;Ashtë
+0;19.9092,41.9136;4607;Bashkia Mirditë;Arrëz
+0;19.7500,42.1000;4409;Bashkia Pukë;Arrëz
+0;19.6894,40.8303;9016;Bashkia Lushnje;Arrëz
+440;19.8575,40.8130;5308;Bashkia Kuçovë;Arrëz
+0;19.5961,40.5364;9409;Bashkia Vlorë;Armen
+0;19.5656,41.4667;2012;Bashkia Durrës;Armath
+0;19.7894,41.7503;4603;Bashkia Mirditë;Arishtë
+0;19.6089,40.8149;9007;Bashkia Lushnje;Ardenicë
+0;19.7936,41.2658;1044;Bashkia Tiranë;Arbanë
+0;19.5056,41.3031;2008;Bashkia Durrës;Arapaj
+0;19.7208,40.8050;5009;Bashkia Berat;Arapaj
+0;19.9822,42.2014;4403;Bashkia Pukë;Harap
+0;19.8067,40.5944;9330;Bashkia Fier;Aranitas
+0;19.7267,41.4647;1504;Bashkia Krujë;Arameras
+0;19.9444,42.2611;8706;Bashkia Tropojë;Aprip
+0;19.6794,40.3978;9410;Bashkia Vlorë;Amonicë
+0;19.7833,41.2500;1035;Bashkia Tiranë;Alltatë
+0;19.7167,40.9667;9012;Bashkia Lushnje;Allprendaj-Peqin
+0;19.7264,40.9700;9012;Bashkia Lushnje;Allprendaj
+0;19.9042,40.5094;9335;Bashkia Fier;Allkomenaj
+0;19.7553,40.8575;9005;Bashkia Lushnje;Allkaj
+0;19.7053,41.3200;1031;Bashkia Kamëz;Allgjatë
+0;19.6314,41.3825;1033;Bashkia Vorë;Allçaush
+1079;19.8025,40.7025;5018;Bashkia Berat;Allambres
+0;19.9056,41.0356;3001;Bashkia Elbasan;Kodras
+0;19.5989,41.6728;4511;Bashkia Lezhë;Alk
+0;19.4628,40.6072;9411;Bashkia Vlorë;Aliban
+0;19.8025,41.0092;9017;Bashkia Lushnje;Algjinaj
+0;19.5634,40.6129;9324;Bashkia Fier;Vjosë
+0;19.6797,41.4342;1039;Bashkia Vorë;Ahmetaq
+0;19.9833,40.7000;5013;Bashkia Berat;Agim
+0;19.5400,41.2156;2505;Bashkia Kavajë;Aganas
+0;19.5303,40.7336;9309;Bashkia Fier;Afrimi i Ri
+0;19.5372,40.7247;9318;Bashkia Fier;Afrim
+0;19.5005,40.8162;9326;Bashkia Fier;Adriatik
+0;19.5245,40.6156;9420;Bashkia Vlorë;Adë
+0;19.8078,42.3125;8706;Bashkia Tropojë;Abat
+0;19.7850,42.2478;8706;Bashkia Tropojë;Mekshaj
+0;19.7706,42.2475;8706;Bashkia Tropojë;Gurrë
+0;19.7822,42.2456;8706;Bashkia Tropojë;Celaj
+0;19.7819,42.0361;4409;Bashkia Pukë;Majnisht
+0;19.7622,42.0636;4409;Bashkia Pukë;Shllinë
+0;19.7828,42.0700;4409;Bashkia Pukë;Slym
+0;19.7931,42.0728;4409;Bashkia Pukë;Mjekut
+0;19.7106,42.1725;4012;Bashkia Shkodër;Dacaj
+0;19.6975,42.2011;4012;Bashkia Shkodër;Likaj
+0;19.6894,42.1717;4012;Bashkia Shkodër;Nemas
+0;19.6858,42.1789;4012;Bashkia Shkodër;Nelegam
+0;19.6892,42.1922;4012;Bashkia Shkodër;Asht’ e Likajt
+0;19.6753,42.2072;4012;Bashkia Shkodër;Cinlit
+0;19.6461,42.2428;4305;Bashkia Malësi e Madhe;Alavane
+0;19.6456,42.2122;4305;Bashkia Malësi e Madhe;Martindrejaj
+0;19.6361,42.2025;4012;Bashkia Shkodër;Bukmirë
+0;19.6536,42.1953;4012;Bashkia Shkodër;Dajç
+0;19.6292,42.1956;4012;Bashkia Shkodër;Portat
+0;19.5944,42.1853;4012;Bashkia Shkodër;Fush’ e Marlanajt
+0;19.6114,42.1831;4012;Bashkia Shkodër;Fush’ e Thatë
+0;19.6197,42.1808;4012;Bashkia Shkodër;Kujmjet
+0;19.6008,42.1800;4012;Bashkia Shkodër;Fush’ e Arrasit
+0;19.6086,42.1744;4012;Bashkia Shkodër;Kulmerijë
+0;19.5992,42.1672;4012;Bashkia Shkodër;Motaj
+0;19.5594,42.1897;4302;Bashkia Malësi e Madhe;Kurtaj
+0;19.5800,42.2100;4302;Bashkia Malësi e Madhe;Papaj
+0;19.5819,42.2178;4302;Bashkia Malësi e Madhe;Gjelaj
+0;19.5033,42.1761;4302;Bashkia Malësi e Madhe;Mëshqerrë
+0;19.5056,42.1906;4302;Bashkia Malësi e Madhe;Hysebaj
+0;19.5217,42.1919;4302;Bashkia Malësi e Madhe;Kcar
+0;19.5094,42.1986;4302;Bashkia Malësi e Madhe;Lopç
+0;19.5264,42.2386;4301;Bashkia Malësi e Madhe;Kuq
+0;19.5447,42.2256;4302;Bashkia Malësi e Madhe;Mucej
+0;19.5492,42.2211;4302;Bashkia Malësi e Madhe;Zenel Leci
+0;19.5444,42.2258;4302;Bashkia Malësi e Madhe;Masel
+0;19.5653,42.2261;4302;Bashkia Malësi e Madhe;Dolç
+0;19.5531,42.2439;4305;Bashkia Malësi e Madhe;Qafë-Gradë
+0;19.5264,42.1381;4002;Bashkia Shkodër;Kullaj
+0;19.5431,42.1467;4002;Bashkia Shkodër;Hysaj
+0;19.5658,42.1661;4002;Bashkia Shkodër;Vorfë e Sipërm
+0;19.5086,42.1047;4002;Bashkia Shkodër;Shtoji i Ri
+0;19.5875,42.1289;4012;Bashkia Shkodër;Milano
+0;19.5542,42.1297;4002;Bashkia Shkodër;Kullat e Boksit
+0;19.5994,42.1453;4012;Bashkia Shkodër;Plisht
+0;19.6092,42.1625;4012;Bashkia Shkodër;Derraj
+0;19.5792,42.1267;4012;Bashkia Shkodër;Maslac
+0;19.6308,42.1569;4012;Bashkia Shkodër;Rekal
+0;19.6433,42.1572;4012;Bashkia Shkodër;Rotacit
+0;19.5242,42.0928;4015;Bashkia Shkodër;Golemi i Poshtëm
+0;19.5158,42.0553;4010;Bashkia Shkodër;Dracin
+0;19.5067,42.0478;4010;Bashkia Shkodër;Tabak Ajasmë
+0;19.5481,42.0439;4016;Bashkia Shkodër;Ksollat e Fangut
+0;19.5617,42.0467;4016;Bashkia Shkodër;Kotaj
+0;19.5447,42.0842;4015;Bashkia Shkodër;Bleran
+0;19.6044,42.0758;4016;Bashkia Shkodër;Gjoc
+0;19.6256,42.1044;4012;Bashkia Shkodër;Thellojë
+0;19.6303,42.1333;4012;Bashkia Shkodër;Amarej
+0;19.6617,42.0886;4012;Bashkia Shkodër;Mahall’ e Dervishajt
+0;19.6631,42.1281;4012;Bashkia Shkodër;Thëpe
+0;19.6778,42.1225;4012;Bashkia Shkodër;Sbuc
+0;19.6944,42.1425;4012;Bashkia Shkodër;Gjols
+0;19.7114,42.0917;4008;Bashkia Shkodër;Mgajn
+0;19.7067,42.1228;4012;Bashkia Shkodër;Kunorë
+0;19.7381,42.0772;4409;Bashkia Pukë;Lum
+0;19.7378,42.0700;4409;Bashkia Pukë;Lekaj
+0;19.7236,42.0758;4008;Bashkia Shkodër;Mahall’ e Vnit
+0;19.7194,42.0669;4008;Bashkia Shkodër;Markolaj
+0;19.6283,42.0553;4016;Bashkia Shkodër;Mahall’ e Stenit
+0;19.6625,42.0378;4008;Bashkia Shkodër;Fundhaj
+0;19.6728,42.0319;4008;Bashkia Shkodër;Brungaj
+0;19.7017,42.0139;4008;Bashkia Shkodër;Jakaj
+0;19.6250,42.0319;4008;Bashkia Shkodër;Mahalla e Haxhareve
+0;19.6258,42.0394;4008;Bashkia Shkodër;Mahalla e Palë Lalejt
+0;19.6156,42.0428;4016;Bashkia Shkodër;Mahalla e Kolejt
+0;19.6083,42.0539;4016;Bashkia Shkodër;Mahalle e Muçajt
+0;19.6689,42.1381;4012;Bashkia Shkodër;Bjeshk’ e Bregut
+0;19.7619,42.0211;4409;Bashkia Pukë;Mraç
+0;19.6733,42.0814;4012;Bashkia Shkodër;Shpor
+0;19.7350,42.1022;4409;Bashkia Pukë;Krua i Madh
+0;19.7003,42.1694;4012;Bashkia Shkodër;Logjas
+0;19.5108,42.2453;4301;Bashkia Malësi e Madhe;Gradiskije
+0;19.7917,42.1928;4405;Bashkia Pukë;Guri i Lekës
+0;19.6406,42.0136;4008;Bashkia Shkodër;Zadenje
+0;19.7217,42.0100;4008;Bashkia Shkodër;Mirdicë
+0;19.5156,42.0942;4015;Bashkia Shkodër;Dergjinaj
+0;19.5444,42.0931;4015;Bashkia Shkodër;Shtoji i Vogël
+0;19.5722,42.0564;4016;Bashkia Shkodër;Gajtan
+0;19.6936,42.1650;4012;Bashkia Shkodër;Lumë
+0;19.5400,42.2161;4302;Bashkia Malësi e Madhe;Dukaj
+0;19.5931,42.0547;4016;Bashkia Shkodër;Mahall’ e Kryethuit
+0;19.6442,42.3817;4304;Bashkia Malësi e Madhe;Negovani
+0;19.7808,42.2461;8706;Bashkia Tropojë;Nareaj
+0;19.8683,42.1583;4405;Bashkia Pukë;Dushman
+0;19.9278,41.2181;1049;Bashkia Tiranë;Ibë e Sipërmë
+0;19.5347,41.2458;2504;Bashkia Kavajë;Golem
+0;19.5292,41.2556;2504;Bashkia Kavajë;Golemas
+0;19.6403,41.8192;4504;Bashkia Lezhë;Balldreni i Ri
+0;19.9333,41.2333;1037;Bashkia Tiranë;Ibë
+0;19.6497,42.2236;4305;Bashkia Malësi e Madhe;Delaj
+0;19.8694,42.1536;4405;Bashkia Pukë;Arrëz
+0;19.4333,42.0161;4017;Bashkia Shkodër;Obot
+0;19.4822,42.1700;4302;Bashkia Malësi e Madhe;Ktosh
+0;19.4758,42.0336;4018;Bashkia Shkodër;Zues
+0;19.5417,41.8872;4022;Bashkia Shkodër;Torovicë
+0;19.9619,41.6300;8004;Bashkia Mat;Rrenë
+0;19.9181,41.7064;8012;Bashkia Mat;Shtrez
+0;19.7847,42.2608;8706;Bashkia Tropojë;Pepaj
+1033;19.4275,42.2567;4306;Bashkia Malësi e Madhe;Aliaj
+4;19.8019,41.3042;1029;Bashkia Kamëz;Selita e Vogël
+5;19.8222,41.3953;1048;Bashkia Tiranë;Melçizë
+5;19.8511,41.4167;1048;Bashkia Tiranë;Kubës
+5;19.8803,41.3222;1045;Bashkia Tiranë;Ballaj
+5;19.8661,41.3153;1045;Bashkia Tiranë;Çollak
+5;19.8522,41.2761;1034;Bashkia Tiranë;Çeliku
+5;19.8883,41.2864;1045;Bashkia Tiranë;Gurra e Vogël
+5;19.8764,41.2831;1045;Bashkia Tiranë;Dallashi
+5;19.8858,41.3072;1045;Bashkia Tiranë;Shejleret
+5;19.9047,41.4081;1042;Bashkia Tiranë;Livadhet
+5;19.9053,41.4933;1508;Bashkia Krujë;Metaj
+5;19.9303,41.4400;1042;Bashkia Tiranë;Shugyrk
+5;19.9286,41.3092;1040;Bashkia Tiranë;Kokli
+5;19.9547,41.4786;1508;Bashkia Krujë;Mal Pjeç
+5;19.9708,41.4719;8008;Bashkia Mat;Kamerë
+5;19.9592,41.4217;1042;Bashkia Tiranë;Marice
+5;19.9617,41.3967;1042;Bashkia Tiranë;Kutreq
+5;19.9972,41.4931;8008;Bashkia Mat;Kurte
+0;19.8206,41.0261;9017;Bashkia Lushnje;Tabak
+0;19.8458,41.0314;3008;Bashkia Elbasan;Trash
+0;19.8775,41.0081;3008;Bashkia Elbasan;Uruçaj
+0;19.8664,41.1217;3012;Bashkia Elbasan;Garunja e Paprit
+0;19.8317,41.1633;1035;Bashkia Tiranë;Sulet
+0;19.5833,42.3500;4305;Bashkia Malësi e Madhe;Bzhet-Makaj
+0;19.4672,41.9542;4021;Bashkia Shkodër;Trushi i Poshtëm
+0;19.4011,41.9497;4019;Bashkia Shkodër;Markcokaj
+0;19.4947,41.9408;4021;Bashkia Shkodër;Sums
+0;19.4703,41.9283;4021;Bashkia Shkodër;Bend
+0;19.4792,41.9342;4021;Bashkia Shkodër;Fshati i Ri
+0;19.4033,41.9239;4020;Bashkia Shkodër;Ças
+0;19.4439,41.9183;4020;Bashkia Shkodër;Lagjja e Re
+0;19.4094,41.9103;4020;Bashkia Shkodër;Gomsiqja e Re
+0;19.4008,41.9033;4020;Bashkia Shkodër;Mblsukë
+0;19.4558,41.9050;4020;Bashkia Shkodër;Mali Kolaj
+0;19.5672,41.8267;4503;Bashkia Lezhë;Çelaj
+0;19.5714,41.8217;4503;Bashkia Lezhë;Marvukaj
+0;19.5786,41.8206;4503;Bashkia Lezhë;Palokaj
+0;19.5772,41.8178;4503;Bashkia Lezhë;Margjonaj
+0;19.5819,41.8297;4503;Bashkia Lezhë;Demaj
+0;19.6100,41.8239;4503;Bashkia Lezhë;Rrëza e Malit
+0;19.6172,41.7994;4504;Bashkia Lezhë;Sakës
+0;19.4817,42.3594;4305;Bashkia Malësi e Madhe;Brut
+0;19.4917,42.3644;4305;Bashkia Malësi e Madhe;Lukaj
+0;19.4658,42.3411;4306;Bashkia Malësi e Madhe;Naçaj
+0;19.4472,42.3483;4306;Bashkia Malësi e Madhe;Deçkaj
+0;19.4317,42.3456;4306;Bashkia Malësi e Madhe;Dajç
+0;19.4603,42.2986;4306;Bashkia Malësi e Madhe;Reza e Veshtit
+0;19.4136,42.2886;4306;Bashkia Malësi e Madhe;Mokset
+0;19.3964,42.2783;4306;Bashkia Malësi e Madhe;Goshaj
+0;19.4919,42.2936;4303;Bashkia Malësi e Madhe;Curaj
+0;19.3928,42.2572;4306;Bashkia Malësi e Madhe;Kasan
+0;19.4042,42.2539;4306;Bashkia Malësi e Madhe;Bruçaj
+0;19.4322,42.2764;4306;Bashkia Malësi e Madhe;Bajzë
+0;19.4914,42.2294;4301;Bashkia Malësi e Madhe;Dragovoi
+0;19.3972,42.2078;4001;Bashkia Shkodër;Stërbeq
+0;19.4269,42.2036;4001;Bashkia Shkodër;Culaj
+0;19.4925,42.1839;4302;Bashkia Malësi e Madhe;Demaj
+0;19.4842,42.1653;4302;Bashkia Malësi e Madhe;Gjormi i Poshtëm
+0;19.4792,42.0381;4010;Bashkia Shkodër;Canaj
+0;19.4256,42.0192;4017;Bashkia Shkodër;Shullan
+0;19.3861,42.0217;4019;Bashkia Shkodër;Dodaj
+0;19.3831,42.0056;4019;Bashkia Shkodër;Gorica
+0;19.4956,42.0394;4010;Bashkia Shkodër;Bahçallëk
+0;19.5506,42.3458;4305;Bashkia Malësi e Madhe;Trashan
+0;19.6178,42.3367;4305;Bashkia Malësi e Madhe;Makaj
+0;19.5131,42.3464;4305;Bashkia Malësi e Madhe;Kroi i Ri
+0;19.5067,42.3753;4305;Bashkia Malësi e Madhe;Jugomirë
+0;19.5014,42.3922;4304;Bashkia Malësi e Madhe;Kodra e Lajthis
+0;19.5044,42.4069;4304;Bashkia Malësi e Madhe;Lagjja e Re
+0;19.7894,42.3781;8706;Bashkia Tropojë;Grumas
+0;19.7722,42.3350;8706;Bashkia Tropojë;Batë
+0;19.9553,42.4436;8703;Bashkia Tropojë;Kikaj
+0;19.9383,42.3517;8706;Bashkia Tropojë;Kuq
+0;19.7461,42.0214;4409;Bashkia Pukë;Mashnë
+0;19.9956,42.2475;4030;Bashkia Shkodër;Gralishtë
+0;19.8058,42.0158;4409;Bashkia Pukë;Kçira e Epërme
+0;19.8117,42.0233;4409;Bashkia Pukë;Plet
+0;19.8133,42.1178;4405;Bashkia Pukë;Qerret
+0;19.7333,41.7844;4603;Bashkia Mirditë;Katundi i Vjetër
+0;19.7222,41.9461;4029;Bashkia Shkodër;Fushë Vigu
+0;19.7483,41.9275;4508;Bashkia Lezhë;Kastra e Poshtëme
+0;19.5336,41.8744;4022;Bashkia Shkodër;Malecaj
+0;19.5183,41.9178;4022;Bashkia Shkodër;Mali i Jushit
+0;19.8100,41.8553;4508;Bashkia Lezhë;Sherilaj
+0;19.9197,41.8389;4602;Bashkia Mirditë;Zall
+0;19.9597,41.8628;4607;Bashkia Mirditë;Vau i Madh
+0;19.9756,41.9019;4408;Bashkia Pukë;Kuzhnen
+0;19.9953,41.9464;4408;Bashkia Pukë;Kuk
+0;19.9967,41.9767;4408;Bashkia Pukë;Pepaj
+0;19.8436,41.9069;4607;Bashkia Mirditë;Gazu i Sipërm
+0;19.6825,41.6747;4705;Bashkia Kurbin;Fushë-Milot
+0;19.8822,41.7100;4601;Bashkia Mirditë;Ujë
+0;19.9911,41.6903;8012;Bashkia Mat;Laç
+0;19.9747,41.7383;8012;Bashkia Mat;Tharr
+0;19.8719,41.7381;4601;Bashkia Mirditë;Nogaj
+0;19.8156,41.7714;4603;Bashkia Mirditë;Kulme
+0;19.7911,41.4697;1501;Bashkia Krujë;Zhemalbaz
+0;19.7642,41.4214;1504;Bashkia Krujë;Tapizë
+0;19.7403,41.3514;1051;Bashkia Tiranë;Katundi i Ri
+0;19.7556,41.3347;1050;Bashkia Tiranë;Bërzetë
+1568;19.6603,41.3831;1032;Bashkia Vorë;Kodër-Vorë
+0;19.7125,41.3917;1053;Bashkia Vorë;Bruk
+0;19.7286,41.4292;1504;Bashkia Krujë;Bege
+0;19.7197,41.4644;1504;Bashkia Krujë;Shëmri
+0;19.6936,41.4661;1505;Bashkia Krujë;Breg Shkozë
+0;19.6569,41.4664;1505;Bashkia Krujë;Ajaz
+0;19.5367,41.4433;2012;Bashkia Durrës;Perlat
+0;19.5747,41.3719;2020;Bashkia Durrës;Guzaj
+0;19.6661,41.3739;1053;Bashkia Vorë;Picar
+0;19.5461,41.5069;2015;Bashkia Durrës;Rrotull
+0;19.5144,41.5378;2015;Bashkia Durrës;Fushë-Draç
+0;19.6083,41.5208;1507;Bashkia Krujë;Kullas
+0;19.6833,41.5186;1503;Bashkia Krujë;Bush
+0;19.6414,41.5792;4704;Bashkia Kurbin;Goleme
+0;19.7297,41.5197;1502;Bashkia Krujë;Ballaj
+0;19.5728,41.5181;2015;Bashkia Durrës;Damaj
+0;19.5414,41.5478;2015;Bashkia Durrës;Safetaj
+0;19.6136,41.6303;4511;Bashkia Lezhë;Patog
+0;19.7519,41.6225;4703;Bashkia Kurbin;Lesterë
+0;19.7667,41.5931;4703;Bashkia Kurbin;Shijezë
+0;19.8475,41.5342;1501;Bashkia Krujë;Cakarac
+0;19.9247,41.5019;1508;Bashkia Krujë;Mal-Gjepal
+0;19.9614,41.5264;8005;Bashkia Mat;Mali-Leze
+0;19.9364,41.5386;8005;Bashkia Mat;Përcall
+0;19.9128,41.5669;8005;Bashkia Mat;Fushetanë
+0;19.9300,41.6550;8004;Bashkia Mat;Blat
+0;19.8689,41.6072;8004;Bashkia Mat;Karma e Hotit
+0;19.8936,41.6042;8004;Bashkia Mat;Gjergas
+0;19.9100,41.6208;8004;Bashkia Mat;Kroi i Lajthis
+0;19.8344,41.6325;8004;Bashkia Mat;Sheshi i Gurrës
+0;19.8678,41.6281;8004;Bashkia Mat;Fushë-Pjeshkë
+0;19.8469,40.9206;3023;Bashkia Elbasan;Fierzë
+0;19.7814,40.8350;9005;Bashkia Lushnje;Toskaj
+258;19.8064,40.8417;5022;Bashkia Berat;Agim
+0;19.7681,40.8531;9005;Bashkia Lushnje;Piranjak
+0;19.7836,40.8592;9005;Bashkia Lushnje;Buzaj
+0;19.8081,40.8597;5022;Bashkia Berat;Ramaj
+0;19.8142,40.8539;5022;Bashkia Berat;Daullonjak
+0;19.7586,40.8811;9005;Bashkia Lushnje;Ballajt
+0;19.7778,40.8608;9005;Bashkia Lushnje;Krasniq
+0;19.7964,40.8914;9005;Bashkia Lushnje;Saliasi
+0;19.7522,40.9344;9008;Bashkia Lushnje;Koçaj
+0;19.7667,40.9886;9017;Bashkia Lushnje;Ballaj
+0;19.7725,40.9819;9017;Bashkia Lushnje;Tafani
+0;19.8117,40.9978;9009;Bashkia Lushnje;Cullhenj
+0;19.8350,40.9828;9009;Bashkia Lushnje;Ferhataj
+0;19.8047,40.9558;9009;Bashkia Lushnje;Pajallë
+0;19.8347,40.9592;9009;Bashkia Lushnje;Beqiraj
+0;19.8486,40.9817;3008;Bashkia Elbasan;Abazaj
+0;19.8617,40.9628;3008;Bashkia Elbasan;Hysaj
+0;19.8633,40.9453;3023;Bashkia Elbasan;Çepë
+0;19.8675,40.9711;3008;Bashkia Elbasan;Metollar
+0;19.8767,40.9914;3008;Bashkia Elbasan;Hamitaj
+0;19.8917,40.9836;3008;Bashkia Elbasan;Belsh-Qendra
+0;19.8828,40.9972;3008;Bashkia Elbasan;Uruçaj
+0;19.8892,40.9628;3008;Bashkia Elbasan;Gjashaj
+0;19.8775,40.9400;3022;Bashkia Elbasan;Idrizaj
+0;19.9047,40.9358;3022;Bashkia Elbasan;Drizaj
+0;19.8792,40.9219;3022;Bashkia Elbasan;Xhapaj
+0;19.8953,40.9244;3022;Bashkia Elbasan;Canaj
+0;19.9058,40.9492;3008;Bashkia Elbasan;Kuqollarët
+0;19.9089,40.9878;3008;Bashkia Elbasan;Zekth
+0;19.9325,40.9875;3017;Bashkia Elbasan;Rokat
+0;19.9633,40.9922;3017;Bashkia Elbasan;Blatë
+0;19.9531,40.9853;3017;Bashkia Elbasan;Trokaj
+0;19.9436,40.9700;3017;Bashkia Elbasan;Shark
+0;19.9439,40.9608;3021;Bashkia Elbasan;Sektori i Dushkut
+0;19.9281,40.9608;3021;Bashkia Elbasan;Hakaj
+0;19.9425,40.9414;3021;Bashkia Elbasan;Satlaket
+0;19.9933,40.9842;3024;Bashkia Elbasan;Pozhak
+0;19.9831,40.9558;3020;Bashkia Elbasan;Sopi i Lleshit
+0;19.9728,40.9856;3024;Bashkia Elbasan;Blatë
+0;19.9922,40.9092;3019;Bashkia Elbasan;Asllanaj
+0;19.9947,40.9014;3019;Bashkia Elbasan;Fag
+0;19.9822,40.8736;3019;Bashkia Elbasan;Çelaj
+0;19.9692,40.8733;5307;Bashkia Kuçovë;Sades
+0;19.9811,40.8614;5307;Bashkia Kuçovë;Novë
+0;19.9925,40.8483;5307;Bashkia Kuçovë;Leshaj
+0;19.9967,40.8425;5307;Bashkia Kuçovë;Shpataj
+0;19.9867,40.8469;5307;Bashkia Kuçovë;Bërzeshtë
+0;19.9611,40.8372;5307;Bashkia Kuçovë;Ripëzë
+0;19.9561,40.8456;5307;Bashkia Kuçovë;Dugallë
+0;19.9467,40.8456;5307;Bashkia Kuçovë;Lezollar
+0;19.9383,40.8564;5307;Bashkia Kuçovë;Blir
+0;19.9067,40.8650;5307;Bashkia Kuçovë;Elezi
+0;19.9225,40.8653;5307;Bashkia Kuçovë;Zarovë
+0;19.9325,40.8736;5307;Bashkia Kuçovë;Broshkollar
+0;19.9172,40.8856;3022;Bashkia Elbasan;Qosë
+0;19.9383,40.8936;3021;Bashkia Elbasan;Honallinj
+0;19.9047,40.8925;3022;Bashkia Elbasan;Gjinuk
+0;19.9100,40.9142;3022;Bashkia Elbasan;Gropa e Kuqe
+0;19.9225,40.9194;3021;Bashkia Elbasan;Hazizollë
+0;19.9364,40.9261;3021;Bashkia Elbasan;Toçilë
+0;19.8756,40.9072;3022;Bashkia Elbasan;Fejzullar
+0;19.8639,40.9083;3023;Bashkia Elbasan;Çestije
+0;19.8811,40.8925;3022;Bashkia Elbasan;Korb
+0;19.8886,40.8789;3022;Bashkia Elbasan;Dragot-Fermë
+0;19.8811,40.8600;5305;Bashkia Kuçovë;Demollar
+0;19.8650,40.8392;5305;Bashkia Kuçovë;Putkaj
+1628;19.9614,40.7625;5020;Bashkia Berat;Lapardha Dy
+771;19.8756,40.8000;5308;Bashkia Kuçovë;Rreth Tapi
+0;19.7572,40.7267;9316;Bashkia Fier;Dushk
+0;19.7833,40.7267;5018;Bashkia Berat;Toskë
+0;19.7969,40.7164;5018;Bashkia Berat;Krotinë
+0;19.7900,40.7047;5018;Bashkia Berat;Velaj
+0;19.7647,40.6903;9321;Bashkia Fier;Rustemaj
+0;19.7831,40.6922;9321;Bashkia Fier;Pocestë
+0;19.7517,40.6800;9321;Bashkia Fier;Lazaj
+0;19.7503,40.6747;9321;Bashkia Fier;Nuraj
+0;19.7797,40.6725;9321;Bashkia Fier;Gogaj
+0;19.8019,40.6775;9321;Bashkia Fier;Kurtan
+0;19.8050,40.6883;9321;Bashkia Fier;Shabanaj
+0;19.8083,40.6944;9321;Bashkia Fier;Azizaj
+0;19.8450,40.6900;9321;Bashkia Fier;Xhoxhaj
+0;19.8394,40.7036;5018;Bashkia Berat;Rakovë
+0;19.8264,40.7400;5018;Bashkia Berat;Guraj
+774;19.8636,40.7790;5008;Bashkia Berat;Çiflik
+0;19.8917,40.7700;5002;Bashkia Berat;Avdillarët
+0;19.8933,40.7639;5002;Bashkia Berat;Stan
+0;19.8983,40.7506;5002;Bashkia Berat;Lagjja e Re
+0;19.8997,40.7433;5002;Bashkia Berat;Lagjja e Shkallës
+0;19.8703,40.7319;5002;Bashkia Berat;Presekë
+0;19.9117,40.7306;5010;Bashkia Berat;Brakaj
+0;19.8828,40.7172;5012;Bashkia Berat;Korovesh
+0;19.9056,40.7131;5012;Bashkia Berat;Mulitaj
+0;19.9267,40.6900;5012;Bashkia Berat;Benollarët
+0;19.9225,40.6681;5013;Bashkia Berat;Gjeroven
+0;19.9019,40.6719;5011;Bashkia Berat;Ramanjat
+0;19.8800,40.6725;5011;Bashkia Berat;Prokop
+0;19.9186,40.6792;5013;Bashkia Berat;Gremshlinj
+0;19.9333,40.6711;5013;Bashkia Berat;Çiflik
+0;19.9264,40.7581;5010;Bashkia Berat;Milonjë
+0;19.9431,40.7622;5020;Bashkia Berat;Qoshk
+0;19.9317,40.7986;5306;Bashkia Kuçovë;Dumollë
+0;19.9308,40.8231;5307;Bashkia Kuçovë;Tabakaj
+0;19.9486,40.8306;5307;Bashkia Kuçovë;Rrepes
+0;19.9914,40.8239;5307;Bashkia Kuçovë;Langozaj
+766;19.9817,40.8172;5307;Bashkia Kuçovë;Goriçan
+0;19.9644,40.8031;5306;Bashkia Kuçovë;Toskollarë
+396;19.9783,40.7917;5020;Bashkia Berat;Vodëz
+0;19.9628,40.7825;5020;Bashkia Berat;Gozhollarët
+0;19.9764,40.7806;5020;Bashkia Berat;Çiflig
+0;19.9661,40.7731;5020;Bashkia Berat;Joullinj
+0;19.9814,40.7567;5020;Bashkia Berat;Bram
+240;19.9814,40.7275;5020;Bashkia Berat;Bregas
+0;19.9939,40.7353;5001;Bashkia Berat;Kokonoz
+0;19.9953,40.6908;5013;Bashkia Berat;Kullah
+0;19.9844,40.6767;5013;Bashkia Berat;Mesit
+0;19.4975,40.7467;9309;Bashkia Fier;Kraksniq
+0;19.5050,40.7472;9309;Bashkia Fier;Muçaj
+0;19.5156,40.7486;9309;Bashkia Fier;Stojk
+0;19.5283,40.7478;9309;Bashkia Fier;Toskallar
+0;19.5303,40.7131;9318;Bashkia Fier;Radostimë
+0;19.5181,40.7111;9309;Bashkia Fier;Llapaticë
+0;19.5253,40.6669;9314;Bashkia Fier;Çervenakët
+0;19.5386,40.6697;9018;Bashkia Lushnje;Shtanas
+0;19.5742,40.6689;9018;Bashkia Lushnje;Beharaj
+0;19.5644,40.6739;9018;Bashkia Lushnje;Majalli
+0;19.5783,40.6725;9018;Bashkia Lushnje;Stanë
+0;19.5856,40.6660;9018;Bashkia Lushnje;Lagjja e Re
+0;19.5981,40.6764;9307;Bashkia Fier;Griq
+0;19.5978,40.6875;9307;Bashkia Fier;Grizë
+0;19.6214,40.6708;9307;Bashkia Fier;Ullishte
+0;19.6300,40.6764;9307;Bashkia Fier;Breg
+0;19.6511,40.6847;9307;Bashkia Fier;Shpataj
+0;19.6303,40.7558;9327;Bashkia Fier;Lagjja e Re
+0;19.6450,40.7969;9327;Bashkia Fier;Kanajak
+0;19.6306,40.8206;9016;Bashkia Lushnje;Manaj
+0;19.6250,40.8100;9016;Bashkia Lushnje;Mertikaj
+0;19.6594,40.7794;9327;Bashkia Fier;Ecër
+0;19.6817,40.7094;9315;Bashkia Fier;Shushejt
+0;19.6925,40.6781;9312;Bashkia Fier;Shkëmber
+0;19.7103,40.6686;9312;Bashkia Fier;Ymeraj
+0;19.7200,40.6836;9312;Bashkia Fier;Xhepë
+0;19.7450,40.6714;9321;Bashkia Fier;Benkollarët
+0;19.7189,40.6975;9316;Bashkia Fier;Gerger
+0;19.7056,40.7058;9315;Bashkia Fier;Merikaj
+0;19.7217,40.7031;9316;Bashkia Fier;Thanë
+0;19.7417,40.7219;9316;Bashkia Fier;Gegollarët
+0;19.7425,40.7597;9319;Bashkia Fier;Begaj
+0;19.7247,40.7675;9319;Bashkia Fier;Toskaj
+0;19.6908,40.7722;9306;Bashkia Fier;Kapaj
+0;19.6981,40.7778;9319;Bashkia Fier;Agaçaj
+0;19.7147,40.7944;9319;Bashkia Fier;Sakaj
+0;19.7258,40.7969;9319;Bashkia Fier;Alillarët
+0;19.7444,40.8017;5009;Bashkia Berat;Begaj
+0;19.7319,40.8106;5009;Bashkia Berat;Çalamanaj
+0;19.7261,40.8203;9005;Bashkia Lushnje;Kasme
+0;19.7019,40.8281;9016;Bashkia Lushnje;Bufaj
+0;19.7389,40.8239;9005;Bashkia Lushnje;Bashaj
+0;19.5356,40.9180;9004;Bashkia Lushnje;Meç
+0;19.5864,40.8978;9014;Bashkia Lushnje;Mëhallëzë
+0;19.5614,40.9158;9020;Bashkia Lushnje;Kamenicë
+0;19.5700,40.8897;9014;Bashkia Lushnje;Rusea
+0;19.5061,40.8486;9310;Bashkia Fier;Havaleas
+0;19.5361,40.8400;9310;Bashkia Fier;Shulenj
+0;19.5367,40.8458;9310;Bashkia Fier;Semer
+0;19.5478,40.8592;9310;Bashkia Fier;Runga
+0;19.5975,40.8378;9007;Bashkia Lushnje;Drengoj
+0;19.6175,40.8747;9019;Bashkia Lushnje;Senesë
+0;19.7358,40.8511;9005;Bashkia Lushnje;Likaj
+0;19.7386,40.9353;9008;Bashkia Lushnje;Sinanaj
+0;19.7031,40.9631;9012;Bashkia Lushnje;Virovë
+0;19.6911,40.9800;9012;Bashkia Lushnje;Çepkë
+0;19.4208,40.7289;9323;Bashkia Fier;Povelçe
+0;19.3800,40.7169;9323;Bashkia Fier;Darëzeza e Re
+0;19.4267,40.9017;9303;Bashkia Fier;Remas
+0;19.4294,40.8583;9303;Bashkia Fier;Sheq
+0;19.4208,40.8803;9303;Bashkia Fier;Hadaj
+0;19.4575,40.6303;9411;Bashkia Vlorë;Fitore
+0;19.7000,40.6000;9333;Bashkia Fier;Drenovë-Fushë
+0;19.7297,40.5028;9329;Bashkia Fier;Poçem
+0;19.7181,40.5622;9332;Bashkia Fier;Ballan
+0;19.7300,40.5672;9332;Bashkia Fier;Sinanaj
+0;19.7319,40.5894;9308;Bashkia Fier;Fejzoltaraj
+0;19.7139,40.6133;9333;Bashkia Fier;Stan
+0;19.6444,40.6325;9320;Bashkia Fier;Diellas
+0;19.6550,40.5306;9427;Bashkia Vlorë;Resulaj
+0;19.6428,40.5064;9427;Bashkia Vlorë;Moçale
+0;19.6222,40.5108;9427;Bashkia Vlorë;Gran
+0;19.5420,40.6232;9324;Bashkia Fier;Frakulla e Vogël
+0;19.5259,40.5434;9420;Bashkia Vlorë;Drithas
+0;19.9878,40.5394;5015;Bashkia Berat;Martalloz
+0;19.9642,40.5789;5403;Bashkia Skrapar;Dolanak
+0;19.9967,40.5917;5015;Bashkia Berat;Rexhaj
+0;19.9703,40.5917;5403;Bashkia Skrapar;Gjonaj
+0;19.9964,40.6089;5016;Bashkia Berat;Kucaj
+314;19.9650,40.6478;5013;Bashkia Berat;Bardhaj i Ri
+0;19.9728,40.6372;5013;Bashkia Berat;Izvicë
+0;19.9164,40.6636;5013;Bashkia Berat;Tulaj
+0;19.9358,40.6156;5403;Bashkia Skrapar;Vrekaj
+0;19.9317,40.5289;5403;Bashkia Skrapar;Bendaj
+0;19.9422,40.5258;5403;Bashkia Skrapar;Karlmeraj
+0;19.8911,40.5275;9335;Bashkia Fier;Cërrila e Re
+0;19.9003,40.5525;9335;Bashkia Fier;Ermaraj
+0;19.8481,40.5475;9335;Bashkia Fier;Selitë
+0;19.8164,40.5775;9330;Bashkia Fier;Xhaferrapaj
+0;19.8664,40.5961;9330;Bashkia Fier;Agoll
+0;19.6436,40.4569;9412;Bashkia Vlorë;Vllahinë
+0;19.6233,40.4714;9412;Bashkia Vlorë;Lagjja e Re
+0;19.6600,40.4156;9412;Bashkia Vlorë;Sharaj
+0;19.6347,40.4256;9402;Bashkia Vlorë;Petë
+0;19.6043,40.3681;9407;Bashkia Vlorë;Fshati i Ri
+0;19.9900,40.4950;5015;Bashkia Berat;Çunaj
+0;19.9558,40.4736;5403;Bashkia Skrapar;Bashaj
+0;19.9625,40.4575;5403;Bashkia Skrapar;Malkaj
+0;19.8676,40.4933;9328;Bashkia Fier;Ramaj
+0;19.8147,40.4700;9328;Bashkia Fier;Manaj
+0;19.4859,40.3014;9426;Bashkia Vlorë;Pezull
+0;19.4633,40.2877;9426;Bashkia Vlorë;Rrëza e Kanalit
+0;19.6289,40.3261;9421;Bashkia Vlorë;Bllac
+0;19.6392,40.3189;9421;Bashkia Vlorë;Vrist
+0;19.6658,40.2764;9408;Bashkia Vlorë;Kangarem
+0;19.6775,40.2789;9408;Bashkia Vlorë;Fushë
+0;19.6264,40.2500;9413;Bashkia Vlorë;Pirg
+0;19.6664,40.2506;9413;Bashkia Vlorë;Likudhe
+0;19.6664,40.2444;9413;Bashkia Vlorë;Grykë
+0;19.6786,40.2444;9408;Bashkia Vlorë;Bramush
+0;19.6878,40.2575;9408;Bashkia Vlorë;Sinovak
+0;19.7106,40.2092;9424;Bashkia Vlorë;Vurgjith
+0;19.7078,40.2133;9424;Bashkia Vlorë;Lengë
+0;19.7050,40.2242;9424;Bashkia Vlorë;Sheshaj
+0;19.7208,40.2261;9424;Bashkia Vlorë;Hor
+0;19.7069,40.2397;9424;Bashkia Vlorë;Hor
+0;19.7303,40.2375;9424;Bashkia Vlorë;Hundëxhep
+0;19.7081,40.2731;9424;Bashkia Vlorë;Ballaban
+0;19.6778,40.3267;9415;Bashkia Vlorë;Lagjja e Re
+0;19.7014,40.1167;9417;Bashkia Vlorë;Jal
+0;19.9547,40.0092;9713;Bashkia Sarandë;Lagjja e Re
+0;19.8750,40.0792;9714;Bashkia Sarandë;Çirsë
+0;19.8262,40.0685;9416;Bashkia Vlorë;Qeparoi i Sipërm
+0;19.7469,40.1389;9425;Bashkia Vlorë;Kokor
+4113;20.0768,42.3573;8702;Bashkia Tropojë;Bajram Curri
+0;19.7669,41.3138;1046;Bashkia Tiranë;Kombinati
+100;20.0251,39.7442;9707;Bashkia Sarandë;Butrint
+50;20.6861,40.2848;7404;Bashkia Kolonjë;Xhafellare, Gjonç
+100;20.6881,40.2940;7404;Bashkia Kolonjë;Rips , Gjonç
+12;20.6812,40.2855;7404;Bashkia Kolonjë;Serani & Sadedini , Gjonç
+200;20.6703,40.3230;7404;Bashkia Kolonjë;Evrenezas
+0;20.6641,40.3275;7401;Bashkia Kolonjë;Dokollarre
+0;19.4988,41.1915;2505;Bashkia Kavajë;Lumi, Golem
+0;20.4163,41.6973;8304;Bashkia Dibër;Kabe
+0;19.5473,42.3442;4305;Bashkia Malësi e Madhe;Razëm
+0;20.2028,42.2643;8705;Bashkia Tropojë;Pac
+0;20.0698,42.3597;8703;Bashkia Tropojë;Tropoje
+20;20.7206,40.3655;7403;Bashkia Kolonjë;Glikolar,Starje
+0;19.4293,40.3203;9426;Bashkia Vlorë;Pasha-Limani
+0;19.5178,40.2718;9426;Bashkia Vlorë;Erihai
+0;19.5656,40.2559;9413;Bashkia Vlorë;Solirani
+0;19.5638,40.2457;9413;Bashkia Vlorë;Thilpati
+0;19.6189,40.3936;9407;Bashkia Vlorë;Kondaj
+0;19.6193,40.3860;9407;Bashkia Vlorë;Zekaj
+0;19.8611,40.3918;9329;Bashkia Fier;Zotaj
+0;19.7852,40.5070;9328;Bashkia Fier;Danaj
+0;19.8177,40.5782;9330;Bashkia Fier;Arannasi
+0;19.8434,40.4965;9328;Bashkia Fier;Shahaj
+0;19.5586,40.7681;9301;Bashkia Fier;Rrapi i Gresallisë
+0;19.4494,40.6030;9411;Bashkia Vlorë;Akërnia
+0;19.4592,40.9257;9303;Bashkia Fier;Dajlani
+0;19.4306,41.3211;2016;Bashkia Durrës;Currilat
+99;20.0297,40.7429;5001;Bashkia Berat;Roshnik i Vogël
+181;19.8887,40.6580;5011;Bashkia Berat;Osmenzezë 1
+166;19.8901,40.6565;5011;Bashkia Berat;Osmenzezë 2
+307;19.8211,40.6956;9321;Bashkia Fier;Çetë
+77;20.2010,40.5659;5401;Bashkia Skrapar;Përparim
+88;19.9637,40.5795;5403;Bashkia Skrapar;Lugas
+3981;19.9938,40.8182;5307;Bashkia Kuçovë;Lumas
+2545;20.2342,40.5082;5413;Bashkia Skrapar;Qendër Skrapar
+0;19.8484,40.8226;5022;Bashkia Berat;Ferras Kozarja
+0;19.8682,40.8299;5305;Bashkia Kuçovë;Kozarja
+0;19.8706,40.8199;5305;Bashkia Kuçovë;Kozarja
+0;20.0131,40.7370;5001;Bashkia Berat;Kodras
+0;19.7504,41.4935;1502;Bashkia Krujë;Fushë-Kruja

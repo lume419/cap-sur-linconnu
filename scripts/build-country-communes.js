@@ -5,14 +5,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['FI', 'AX']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
-// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE
-// sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|
-// je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se.txt), pas la peine de retélécharger leurs sources pour
-// les régénérer à l'identique à chaque nouvel ajout. AX (îles Åland) : code pays GeoNames DISTINCT de
-// FI (comme GG/JE/IM pour le Royaume-Uni) — le fichier de codes postaux officiel de la Finlande
-// (FI.zip) ne couvre PAS les Åland, vérifié (aucune entrée Mariehamn/Ahvenanmaa dedans) ; AX.zip,
-// dédié, comble ce vide.
+const COUNTRIES = ['AL']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/
+// FI/AX sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|
+// mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax.txt), pas la peine de retélécharger leurs
+// sources pour les régénérer à l'identique à chaque nouvel ajout. Monténégro (ME) et Kosovo (XK)
+// n'utilisent PAS ce script standard : aucun fichier de codes postaux GeoNames pour ces deux pays,
+// voir build-me-communes.js/build-xk-communes.js (reconstruction depuis une source tierce).
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -185,7 +184,12 @@ const NAME_OVERRIDES = {
   // 65,3% finnophone / 26,8% suédophone fin 2025 — le nom suédois n'est donc plus le nom de la
   // majorité locale actuelle, à la différence des quatre communes citées plus haut).
   'Hyvinge': 'Hyvinkää',
-  'Sibbo': 'Sipoo'
+  'Sibbo': 'Sipoo',
+  // Un cas albanais (échantillon des 30 plus grandes communes du pays — Durrës, Vlorë, Elbasan,
+  // Shkodër, Lushnjë, Berat, Korçë, Fier... déjà bons, y compris ë/ç) : "Tirana" (exonyme anglais,
+  // remplacé par l'albanais "Tiranë" — déjà la forme utilisée par le reste du dump pour cette même
+  // ville, ex. sa région "Bashkia Tiranë" sur la même ligne).
+  'Tirana': 'Tiranë'
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth

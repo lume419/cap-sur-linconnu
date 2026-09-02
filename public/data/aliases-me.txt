@@ -1,0 +1,70 @@
+sq;Rozhaja;Rožaje
+sr;Рожаје;Rožaje
+sq;Zhabjaku;Žabljak
+sr;Жабљак;Žabljak
+sr;Вруља;Vrulja
+it;Viro;Virpazar
+sq;Virpazari;Virpazar
+sr;Вирпазар;Virpazar
+it;Dulcigno;Ulcinj
+sq;Ulqini;Ulcinj
+sr;Улцињ;Ulcinj
+sr;Тузи;Tuzi
+sq;Tuz;Tuzi
+it;Teodo;Tivat
+sr;Тиват;Tivat
+sq;Shpuza;Spuž
+sr;Спуж;Spuž
+sr;Шавник;Šavnik
+sq;Risani;Risan
+sr;Рисан;Risan
+it;Risano;Risan
+it;Perzagno;Prčanj
+sr;Прчањ;Prčanj
+sr;Подгорица;Podgorica
+ga;Podgairítse;Podgorica
+sq;Pluzhina;Plužine
+sr;Пљевља;Pljevlja
+ca;Plav-Gusinje;Plav
+sq;Komuna e Plavës;Plav
+sr;Пераст;Perast
+it;Perasto;Perast
+sr;Његуши;Njeguši
+sr;Никшић;Nikšić
+sq;Nikshiqi;Nikšić
+sr;Мојковац;Mojkovac
+sr;Матешево;Mateševo
+it;Cattaro;Kotor
+sr;Котор;Kotor
+sr;Колашин;Kolašin
+sq;Koloshini;Kolašin
+sr;Беране;Berane
+de;Igalo, Herceg Novi;Igalo
+sr;Игало;Igalo
+it;Castelnuovo di Cattaro;Herceg Novi
+sr;Херцег Нови;Herceg Novi
+hr;Herceg-Novi;Herceg Novi
+pt;Herceg-Novi;Herceg Novi
+sq;Gucia;Gusinje
+sr;Гусиње;Gusinje
+sr;Голубовци;Golubovci
+sr;Даниловград;Danilovgrad
+sq;Danilovgradi;Danilovgrad
+es;Cetiña;Cetinje
+pl;Cetynia;Cetinje
+it;Cettigne;Cetinje
+sr;Цетиње;Cetinje
+sq;Cetina;Cetinje
+sr;Челуга;Čeluga
+it;Budua;Budva
+sr;Будва;Budva
+sr;Биоче;Bioče
+sr;Oпштина Бијело Поље;Bijelo Polje
+sr;Бијела;Bijela
+sr;Бечићи;Bečići
+it;Antivari;Bar
+sr;Бар;Bar
+sq;Tivari;Bar
+fi;Andrijevitsa;Andrijevica
+sr;Андријевица;Andrijevica
+sr;Петњица;Petnjica

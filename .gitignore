@@ -7,3 +7,12 @@ node_modules/
 scripts/dump/
 scripts/postal/
 scripts/altnames/
+# Idem pour les extractions ponctuelles de sources tierces (codes postaux Bosnie/Monténégro/Kosovo,
+# absents de GeoNames — voir build-ba/me/xk-communes.js) : intermédiaires régénérables en refaisant
+# la collecte documentée dans ces scripts, jamais commités, comme ba-postal-wiki.json avant eux.
+scripts/me-postal-raw.json
+scripts/me-canonical-by-geonameid.json
+scripts/xk-postal-raw.json
+scripts/xk-canonical-by-geonameid.json
+scripts/ba-postal-wiki.json
+scripts/ba-canonical-by-geonameid.json

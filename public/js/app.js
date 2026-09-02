@@ -239,7 +239,31 @@
     // unilingue suédois, vérifié (voir commentaire de build-country-communes.js). hasToll:false comme
     // le reste de la Finlande ; en zone euro malgré l'autonomie fiscale/douanière de l'archipel (hors
     // TVA de l'UE mais PAS hors zone euro) — pas de champ `currency` non plus.
-    AX: { code:'AX', name:'Îles Åland', file:'communes-ax.txt', hasToll:false, aliasFile:'aliases-ax.txt' }
+    AX: { code:'AX', name:'Îles Åland', file:'communes-ax.txt', hasToll:false, aliasFile:'aliases-ax.txt' },
+    // Monténégro : hasToll:false. Un vrai péage existe pourtant — l'autoroute A1 Bar-Boljare (tronçon
+    // achevé Smokovac-Mateševo, ~41 km, sur un projet bien plus long encore en construction) et le
+    // tunnel de Sozina, tarifs par catégorie de véhicule (tolls.eu 2026) — mais un seul tronçon isolé
+    // sur un réseau autoroutier encore embryonnaire, jamais garanti par un trajet aléatoire : même
+    // raisonnement que les trois sections polonaises concédées ou le M50 irlandais, à l'échelle d'un
+    // pays entier plutôt que de quelques kilomètres. En zone euro DE FAIT depuis 2002 (adoption
+    // unilatérale, jamais membre de la BCE ni de l'UE) : pas de champ `currency`. Aucune île réelle à
+    // gérer (Sveti Stefan est un îlot-presqu'île relié par une digue, pas un vrai détachement
+    // insulaire) : aucune ligne FERRY_ROUTES ni cas landmassOf nécessaire.
+    ME: { code:'ME', name:'Monténégro', file:'communes-me.txt', hasToll:false, aliasFile:'aliases-me.txt' },
+    // Albanie : hasToll:false — des infrastructures de péage existent bien sur l'autoroute A1 (Milot-
+    // Morinë et Thumanë-Kashar) mais la perception n'a, à ce jour (2026), jamais commencé (tolls.eu,
+    // onyxtms.com) : concrètement gratuit pour l'instant, à réévaluer si la perception démarre
+    // réellement. Devise : ALL (lek albanais, hors zone euro) — pays moins cher que la zone euro, même
+    // profil que la République tchèque/la Pologne/la Hongrie/la Bosnie-Herzégovine.
+    AL: { code:'AL', name:'Albanie', file:'communes-al.txt', hasToll:false, aliasFile:'aliases-al.txt', currency:'ALL' },
+    // Kosovo : hasToll:false — sources contradictoires sur un éventuel péage aux points de passage des
+    // autoroutes R6/R7, mais la majorité des sources récentes (fuel-prices.eu 2026, rks-gov.net) le
+    // décrivent comme gratuit ; choix retenu par prudence plutôt que de modéliser un montant incertain.
+    // Pays sans littoral : aucune ligne FERRY_ROUTES ni cas landmassOf nécessaire. En zone euro DE FAIT
+    // depuis 2002 (adoption unilatérale, jamais membre de la BCE ni de l'UE, comme le Monténégro) :
+    // pas de champ `currency`. Code pays GeoNames "XK" (identifiant provisoire largement utilisé par
+    // l'UE/SWIFT/etc. en l'absence de code ISO 3166-1 officiel, le Kosovo n'étant pas membre de l'ONU).
+    XK: { code:'XK', name:'Kosovo', file:'communes-xk.txt', hasToll:false, aliasFile:'aliases-xk.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -268,7 +292,7 @@
   // "£" devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les
   // livres locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs
   // îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -997,7 +1021,12 @@
     // Suède : même profil que le Danemark/la Norvège. Stockholm : loyer Airbnb médian ~159 $ (~142 €,
     // airroi 2026). Couronne suédoise FLOTTANTE (comme la norvégienne, contrairement à la danoise) —
     // 1 EUR ≈ 11,15 SEK début septembre 2026 (xe.com).
-    SEK: { economique: 1000, moyen: 1900, confortable: 3800 }
+    SEK: { economique: 1000, moyen: 1900, confortable: 3800 },
+    // Albanie : contrairement aux devises nordiques ci-dessus, un pays MOINS cher que la zone euro —
+    // même profil que la République tchèque/la Pologne/la Hongrie/la Bosnie-Herzégovine. Tirana :
+    // loyer Airbnb médian ~55-60 $/~52-56 € (airdna/airroi 2026). Lek albanais hors zone euro,
+    // flottant — 1 EUR ≈ 93 ALL début septembre 2026 (bankofalbania.org/wise.com).
+    ALL: { economique: 3700, moyen: 7000, confortable: 14000 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu

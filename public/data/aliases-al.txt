@@ -1,0 +1,375 @@
+de;Saranda;Sarandë
+fi;Saranda;Sarandë
+it;Santi Quaranta;Sarandë
+sq;Saranda;Sarandë
+sv;Saranda;Sarandë
+fr;Saranda;Sarandë
+es;Saranda;Sarandë
+en;Leshnicë e Sipërme;Leshnica e Sipërme
+sq;Leshnicë e Sipërme;Leshnica e Sipërme
+nl;Leshnicë e Sipërme;Leshnica e Sipërme
+sq;Konispoli;Konispol
+sq;Finiqi;Finiq
+en;Dhrovjan;Dhrovian
+es;Dhrovjan;Dhrovian
+nl;Dhrovjan;Dhrovian
+sq;Dhrovjani;Dhrovian
+sq;Delvina;Delvinë
+es;Delvina;Delvinë
+fr;Delvina;Delvinë
+de;Delvina;Delvinë
+pt;Delvina;Delvinë
+en;Vendreshë e Madhe;Vendresha e Madhe
+nl;Vendreshë e Madhe;Vendresha e Madhe
+de;Tepelena;Tepelenë
+sq;Tepelena;Tepelenë
+es;Tepelena;Tepelenë
+fr;Tepelena;Tepelenë
+pt;Tepelena;Tepelenë
+sq;Sheperi;Sheper
+sq;Repsi;Reps
+sq;Qyteza;Qytezë
+sq;Prrenjas;Përrenjas
+sq;Prrenjasi;Përrenjas
+sq;Poliçani;Poliçan
+sq;Pogradeci;Pogradec
+sr;Поградец;Pogradec
+sq;Peshkopia;Peshkopi
+sv;Peshkopia;Peshkopi
+sr;Пишкопеја;Peshkopi
+sq;Pishkupije;Peshkëpi
+sq;Përmeti;Përmet
+sq;Piskal-Novoselë;Novoselë
+en;Muzhak;Muzhakë
+nl;Muzhak;Muzhakë
+sq;Melçani;Melçan
+hu;Mborja;Mborje
+sq;Mborja;Mborje
+sq;Maliqi;Maliq
+sq;Malinati;Malinat
+sq;Luniku;Lunik
+sq;Lini;Lin
+sq;Librazhdi;Librazhd
+sq;Libohova;Libohovë
+sq;Leskoviku;Leskovik
+sq;Lekli;Lekël
+sq;Kurbneshi;Kurbnesh
+sq;Kukësi;Kukës
+sq;Kruma;Krumë
+sq;Krasta;Krastë
+de;Korça;Korçë
+pl;Korcza;Korçë
+sq;Korça;Korçë
+sr;Горица;Korçë
+no;Korca;Korçë
+sq;Klosi;Klos
+sq;Këlcyra;Këlcyrë
+sq;Tuminec;Kallamas
+it;Tuminec;Kallamas
+sq;Hormova;Hormovë
+sq;Gramshi;Gramsh
+de;Goranxia;Goranxi
+hu;Goranxia;Goranxi
+de;Gjirokastra;Gjirokastër
+da;Gjirokastra;Gjirokastër
+it;Argirocastro;Gjirokastër
+no;Gjirokastra;Gjirokastër
+pl;Gjirokastra;Gjirokastër
+sq;Gjirokastra;Gjirokastër
+sr;Ђирокастра;Gjirokastër
+es;Gjirokastra;Gjirokastër
+cs;Gjirokastra;Gjirokastër
+hr;Đirokastra;Gjirokastër
+sk;Gjirokastra;Gjirokastër
+sr;Ђирокастар;Gjirokastër
+sq;Fushë-Arrëzi;Fushë-Arrëz
+sq;Fierza;Fierzë
+sq;Erseka;Ersekë
+sr;Ерсека;Ersekë
+sq;Elbasani;Elbasan
+sq;Çorovoda;Çorovodë
+sr;Чоровода;Çorovodë
+en;Cerja;Cerjë
+nl;Cerja;Cerjë
+sq;Çëravë;Cerava
+sq;Butka;Butkë
+sq;Burreli;Burrel
+sr;Бурел;Burrel
+hr;Bulčica;Bulqizë
+sr;Bulćiza;Bulqizë
+sq;Bulqiza;Bulqizë
+es;Bulkiza;Bulqizë
+fr;Bulkiza;Bulqizë
+de;Bulkiza;Bulqizë
+pt;Bulkiza;Bulqizë
+en;Braçanj;Braçanaj
+sq;Braçanji;Braçanaj
+nl;Braçanj;Braçanaj
+hr;Bilišta;Bilisht
+sr;Билишта;Bilisht
+pl;Billisht;Bilisht
+sq;Bilishti;Bilisht
+de;Arrëza;Arrëz
+sq;Arrëza;Arrëz
+sq;Librazhd;Librazhd-Qendër
+en;Zojz;Zojz, Dajc
+nl;Zojz;Zojz, Dajc
+sq;Zhulati;Zhulat
+sq;Zhuk-Grykpisha;Zhukë-Grykëshqipe
+en;Zall-Mner;Zall-Mëner
+nl;Zall-Mner;Zall-Mëner
+fr;Vukatenë;Vukatanë
+sq;Vora;Vorë
+de;Vlora;Vlorë
+fr;Vlora;Vlorë
+it;Valona;Vlorë
+pl;Wlora;Vlorë
+sq;Vlora;Vlorë
+no;Vlora;Vlorë
+sr;Валона;Vlorë
+sq;Veteriku;Veterrik
+sq;Verrija;Vërri
+sq;Vërmiku;Vërmik
+sq;Veleshnja;Veleshnjë
+sq;Velabishti;Velabisht
+en;Urë e Shtrenjtë;Ura e Shtrejtë
+nl;Urë e Shtrenjtë;Ura e Shtrejtë
+sq;Urë Vajgurore;Ura Vajgurore
+sq;Ulza;Ulëz
+sq;Tiranë;Tirana
+sr;Тирана;Tirana
+ga;Tiorána;Tirana
+sq;Tamarja;Tamarë
+sq;Sukthi;Sukth
+sq;Starova;Starovë
+sq;Shtufi;Shtuf
+en;Shpatë;Shpati i Sipërm
+nl;Shpatë;Shpati i Sipërm
+de;Shkodra;Shkodër
+cs;Skadar;Shkodër
+pl;Szkodra;Shkodër
+sq;Shkodra;Shkodër
+sr;Скадар;Shkodër
+bs;Skadar;Shkodër
+it;Scutari;Shkodër
+sr;Шијак;Shijak
+sq;Shijaku;Shijak
+en;Shëngjin i Vogël;Shëngjini i Vogël
+sq;Shëngjin i Vogël;Shëngjini i Vogël
+nl;Shëngjin i Vogël;Shëngjini i Vogël
+sq;Shëngjini;Shëngjin
+sr;Свети Јован;Shëngjin
+sv;Komuna e Shëngjinit;Shëngjin
+sq;Sharra;Sharrë
+en;Selitë Mali;Selita e Malit
+nl;Selitë Mali;Selita e Malit
+sq;Selenica;Selenicë
+sq;Rubiku;Rubik
+sq;Rrogozhina;Rrogozhinë
+sq;Rreth Libofsha;Rreth-Libofshë
+sq;Rrësheni;Rrëshen
+sq;Rrërës-Kumaraku;Rërëz
+sq;Roskoveci;Roskovec
+sq;Remanica;Remanicë
+sq;Reçi;Reç
+sr;Раш и Куле;Rrash-Kullaj
+sq;Qeparoji;Qeparo
+en;Qeha;Qehë-Shytaj
+sq;Qeha;Qehë-Shytaj
+nl;Qeha;Qehë-Shytaj
+sq;Puka;Pukë
+es;Puka;Pukë
+fr;Puka;Pukë
+de;Puka;Pukë
+pt;Puka;Pukë
+sq;Pisha;Pishë
+en;Picall;Picallë
+nl;Picall;Picallë
+pt;Pequini;Peqin
+sq;Peqini;Peqin
+es;Pekin;Peqin
+fr;Pekin;Peqin
+de;Pekin;Peqin
+sq;Patosi;Patos
+sq;Plazhi i Patokut;Patok
+sq;Palikështi;Palikësht
+de;Palasa;Palasë
+sl;Palasa;Palasë
+hu;Palasa;Palasë
+sq;Palasa;Palasë
+sq;Orikumi;Orikum
+en;Omaraj;Omarë
+sq;Omaraj;Omarë
+nl;Omaraj;Omarë
+sq;Ninëshi;Ninësh
+sq;Nikçi;Nikç
+de;Narta;Nartë
+sv;Narta;Nartë
+it;Narta;Nartë
+hu;Narta;Nartë
+sq;Mushqetë;Mushqeta
+de;Bathore;Mjull-Bathore
+en;Bathorë;Mjull-Bathore
+it;Bathore;Mjull-Bathore
+fr;Bathorë;Mjull-Bathore
+nl;Bathorë;Mjull-Bathore
+sco;Bathorë;Mjull-Bathore
+sq;Bathore;Mjull-Bathore
+sq;Miloti;Milot
+en;Mner i Siperm;Mëneri i Sipërm
+sq;Mner i Sipërm;Mëneri i Sipërm
+nl;Mner i Siperm;Mëneri i Sipërm
+sq;Manza;Manzë
+sq;Manëz;Manzë
+sq;Mamurrasi;Mamurras
+en;Mal i Jushit;Jugë
+sq;Mal i Jushit;Jugë
+nl;Mal i Jushit;Jugë
+sq;Malas Gropa;Malas Gropë
+en;Luz i Madh;Luzi i Madh
+sq;Luz i Madh;Luzi i Madh
+nl;Luz i Madh;Luzi i Madh
+sr;Лушње;Lushnjë
+sq;Lushnja;Lushnjë
+es;Lushnja;Lushnjë
+fr;Lushnja;Lushnjë
+de;Lushnja;Lushnjë
+pt;Lushnja;Lushnjë
+sq;Lubenja;Lubonjë
+de;Lezha;Lezhë
+pl;Lezha;Lezhë
+sq;Lezha;Lezhë
+it;Alessio;Lezhë
+sr;Љеш;Lezhë
+sr;Лач;Laç
+sq;Laçi;Laç
+es;Lach;Laç
+fr;Lach;Laç
+de;Lach;Laç
+pt;Lach;Laç
+sq;Kuçova;Kuçovë
+es;Kuchova;Kuçovë
+fr;Kuchova;Kuçovë
+de;Kuchova;Kuçovë
+pt;Kuchova;Kuçovë
+de;Kruja;Krujë
+pl;Kruja;Krujë
+fi;Kruja;Krujë
+it;Croia;Krujë
+sq;Kruja;Krujë
+es;Kruya;Krujë
+pt;Kruya;Krujë
+sq;Krraba;Krrabë
+en;Koplik i Sipërm;Kopliku i Siperm
+sq;Koplik i Sipërm;Kopliku i Siperm
+nl;Koplik i Sipërm;Kopliku i Siperm
+sq;Kopliku;Koplik
+sr;Коплик;Koplik
+sq;Komani;Koman
+sr;Комане;Koman
+pl;Kawaja;Kavajë
+de;Kavaja;Kavajë
+sq;Kavaja;Kavajë
+sr;Каваја;Kavajë
+es;Kavaja;Kavajë
+fr;Kavaja;Kavajë
+pt;Kavaja;Kavajë
+sq;Kashari;Kashar
+sq;Kamza;Kamëz
+sr;Каменица;Kamicë-Flakë
+sq;Kafarj;Kafarraj
+en;Iljas;Ilias
+nl;Iljas;Ilias
+sq;Himara;Himarë
+sq;Hallaxhia;Guri i Bardhë
+sq;Grabianl;Grabian
+sq;Gjoroveni;Gjoroven
+en;Grebllesh;Gërbllesh
+nl;Grebllesh;Gërbllesh
+sq;Godurova;Gadurovë
+sq;Fushë-Kruja;Fushë-Krujë
+de;Fterra;Fterë
+en;Fterrë;Fterë
+hu;Fterra;Fterë
+sq;Fterra;Fterë
+nl;Fterrë;Fterë
+sq;Fieri;Fier
+sr;Фјер;Fier
+sq;Dushki i Madh;Dushku i Madh
+cs;Drač;Durrës
+it;Durazzo;Durrës
+sq;Durrësi;Durrës
+sr;Драч;Durrës
+bs;Drač;Durrës
+sk;Drač;Durrës
+sl;Drač;Durrës
+hr;Drač;Durrës
+sq;Duhanasi;Duhanas
+sq;Droboniku;Drobonik
+hr;Drivast;Drisht
+it;Drivasto;Drisht
+es;Drivasto;Drisht
+sq;Drishti;Drisht
+sr;Дриваст;Drisht
+en;Damjan-Fortuz;Domjan-Fortuzaj
+nl;Damjan-Fortuz;Domjan-Fortuzaj
+sq;Domni;Domën
+sq;Divjaka;Divjakë
+de;Vau-Deja;Vau i Dejës
+it;Vau-Dejës;Vau i Dejës
+hr;Vau-Dejs;Vau i Dejës
+sq;Vaui i Dejës;Vau i Dejës
+sq;Vau-Dejës;Vau i Dejës
+sq;Njësia administrative Dajt;Dajt
+en;Daias;Dais-Barbas
+sq;Daias;Dais-Barbas
+nl;Daias;Dais-Barbas
+sq;Cërriku;Cërrik
+sr;Cerik;Cërrik
+en;Bzhetë-Makaj;Bzheta-Makaj
+nl;Bzhetë-Makaj;Bzheta-Makaj
+sq;Bzhetë-Makaj;Bzheta-Makaj
+sq;Buzëmadhi;Buzmadh
+hr;Bušat;Bushat
+sq;Njësia administrative Bushat;Bushat
+pl;Gmina Bushat;Bushat
+sq;Borshi;Borsh
+en;Boriç i Madh;Boriçi i Madh
+sq;Boriç i Madh;Boriçi i Madh
+nl;Boriç i Madh;Boriçi i Madh
+sr;Велики Борич;Boriçi i Madh
+en;Boriç i Vogël;Boriçi i Vogël
+sq;Boriç i Vogël;Boriçi i Vogël
+nl;Boriç i Vogël;Boriçi i Vogël
+sr;Мали Борич;Boriçi i Vogël
+sq;Bilça;Bilçë
+en;Bërdicë e Sipërme;Bërdica e Sipërme
+nl;Bërdicë e Sipërme;Bërdica e Sipërme
+en;Bërdicë e Mesme;Bërdica e Mesme
+nl;Bërdicë e Mesme;Bërdica e Mesme
+sq;Berati;Berat
+sr;Берат;Berat
+en;Bastar i Mesëm;Bastar
+sq;Bastar i Mesëm;Bastar
+nl;Bastar i Mesëm;Bastar
+sq;Bardhori;Bardhor
+pt;Balshi;Ballsh
+sq;Ballshi;Ballsh
+sr;Балш;Ballsh
+en;Babrru;Babru
+sq;Babrru;Babru
+es;Babrru;Babru
+nl;Babrru;Babru
+sq;Ashta;Ashtë
+sq;Alibejani;Adriatik
+sv;Bajza;Bajzë
+hu;Bajza;Bajzë
+sq;Bajza;Bajzë
+sq;Çfliku;Çiflik
+sq;Sherifaj;Lagjja e Re
+sq;Qeparoji;Qeparoi i Sipërm
+de;Bajram Curr;Bajram Curri
+sr;Бајрам Цури;Bajram Curri
+sq;Bajram Curr;Bajram Curri
+sq;Kodrasi;Kodras
+sq;Fushë-Krujë;Fushë-Kruja

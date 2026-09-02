@@ -130,8 +130,8 @@ les trois premières routes.
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
-Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande et îles Åland pour l'instant,
-d'autres viendront. Chaque pays
+Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie
+et Kosovo pour l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -197,6 +197,47 @@ ajoute deux à trois choses, indépendamment des autres :
    identifiant administratif, coordonnées à ~2 km, très probable confusion Y/J côté GeoNames),
    écartée plutôt que renommée — un simple renommage ne l'aurait pas fusionnée avec la vraie entrée
    au dédoublonnage (coordonnées trop éloignées pour la grille ~1 km utilisée).
+   **Le Monténégro, l'Albanie et le Kosovo**, ajoutés ensemble dans un même passage, ont chacun demandé
+   un traitement très différent. **L'Albanie** : pipeline standard, 4 017 communes retenues sur 4 156
+   lieux bruts, une seule correction `NAME_OVERRIDES` ("Tirana" exonyme anglais -> "Tiranë", cohérente
+   avec le reste du dump — "Bashkia Tiranë"). **Le Monténégro et le Kosovo**, eux, rejoignent la
+   Bosnie-Herzégovine dans le petit groupe des pays SANS fichier de codes postaux GeoNames
+   (export/zip/ME.zip et XK.zip -> 404, vérifié) — mais ni l'un ni l'autre n'a pu réutiliser la
+   solution de la Bosnie (liste Wikipedia "Postal codes in Bosnia and Herzegovina") telle quelle :
+   - Pour le **Monténégro**, AUCUNE liste Wikipedia détaillée n'existe (vérifié : "Postal codes in
+     Montenegro" est un lien rouge sur la page générale "List of postal codes", DBpedia n'a qu'une
+     version archivée d'un article depuis supprimé). Reconstruit à la place depuis
+     [postanskibroj.cu.rs/crnagora/](https://postanskibroj.cu.rs/crnagora/), un annuaire tiers
+     indépendant de codes postaux serbo-monténégrins (136 entrées, système hérité de la Yougoslavie,
+     stable depuis 1971) — PAS une source officielle ni sous licence ouverte claire comme Wikipedia,
+     un choix de dernier recours par manque d'alternative, à documenter comme tel plutôt qu'à
+     présenter comme une source aussi solide que les autres pays. 94 des 136 codes postaux rapprochés
+     d'une commune GeoNames par nom (`scripts/build-me-communes.js`), 6 écartés pour ambiguïté (nom
+     partagé par plusieurs lieux distincts, même règle que la Bosnie), 42 sans commune correspondante.
+   - Pour le **Kosovo**, un article Wikipedia "Postal codes in Kosovo" existe bien, mais ne liste QUE
+     des plages par district (ex. "100xx" pour Prishtinë), jamais le détail par lieu. Source utilisée
+     à la place : [postakosoves.com](https://postakosoves.com), le site officiel de la poste kosovare
+     (Posta e Kosovës) elle-même — sa page de recherche de codes postaux embarque directement, dans le
+     HTML de la page, un tableau JavaScript complet de 133 entrées {région, sous-région, code}, extrait
+     via l'API REST publique de son WordPress (`wp-json/wp/v2/pages/962`) plutôt que scrapé au
+     navigateur — une bien meilleure source que celle utilisée pour le Monténégro (directement la
+     poste nationale, pas un annuaire tiers). Piège rencontré : la source postale utilise
+     systématiquement les formes albanaises DÉFINIES (Prishtina, Mitrovica, Peja, Gjakova — suffixe
+     "-a" — et Prizreni, Gjilani, Ferizaji — suffixe "-i"), alors que GeoNames utilise les formes
+     albanaises INDÉFINIES pour ces mêmes villes (Prishtinë, Mitrovicë, Pejë, Gjakovë, Prizren,
+     Gjilan, Ferizaj) — un écart purement grammatical réglé par une heuristique de "dédéfinition"
+     (suffixe "-a" -> "-ë", suffixe "-i" retiré) essayée en repli lors du rapprochement par nom,
+     jamais appliquée au nom canonique affiché. Plus significatif encore : au-delà de la capitale
+     (stockée "Pristina", orthographe serbe/yougoslave sans le "h" albanais, corrigée en "Prishtinë"),
+     GeoNames stocke plusieurs villes MOYENNES du Kosovo sous leur nom SERBE plutôt qu'albanais
+     (Glogovac/Drenas, Suva Reka/Suharekë, Orahovac/Rahovec, Kamenica/Kamenicë, Vitina/Viti,
+     Štrpce/Shtërpcë, Klina/Klinë, Mališevo/Malishevë, Srbica/Skenderaj, Zvečan/Zveçan, Klokot/Kllokot,
+     Mamuša/Mamushë) — corrigées vers la forme albanaise utilisée par la Poste du Kosovo elle-même,
+     l'albanais étant la langue très largement majoritaire du pays (~92%). 40 codes postaux au total
+     rapprochés d'une commune GeoNames sur 133 entrées sources (`scripts/build-xk-communes.js`) — le
+     reste étant soit des zones postales numérotées internes à une ville ("Prishtina 3", "Peja 8"...),
+     soit des centres de tri/transit ("Qendra tranzite postare", "Tuneli i parë"), soit de très petits
+     hameaux absents du gazetteer GeoNames sous ce nom précis.
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -314,6 +355,19 @@ ajoute deux à trois choses, indépendamment des autres :
    de congestion urbaine (contrairement à sa voisine suédoise) — "l'un des rares pays de l'UE
    entièrement libre de péages routiers pour les véhicules privés" (travelinformation.eu/
    suomiguide.fi). Les îles Åland suivent le même régime `hasToll:false`, sans exception propre.
+   Retour aux Balkans : le **Monténégro** a bien un VRAI péage — l'autoroute A1 Bar-Boljare (tronçon
+   achevé Smokovac-Mateševo, ~41 km) et le tunnel de Sozina, tarifs par catégorie de véhicule
+   (tolls.eu 2026) — mais `hasToll:false` malgré tout : un seul tronçon isolé sur un réseau
+   autoroutier encore embryonnaire (le reste du projet Bar-Boljare, bien plus long, reste en
+   construction), jamais garanti par un trajet aléatoire — même raisonnement que les trois sections
+   polonaises concédées ou le M50 irlandais, à l'échelle d'un pays entier plutôt que de quelques
+   kilomètres. **L'Albanie** aussi `hasToll:false`, mais pour une raison différente : des
+   infrastructures de péage existent bien sur l'autoroute A1 (Milot-Morinë et Thumanë-Kashar) mais la
+   perception n'a, à ce jour (2026), jamais commencé (tolls.eu, onyxtms.com) — concrètement gratuit
+   pour l'instant, à réévaluer si la perception démarre réellement. **Le Kosovo** rejoint le même
+   groupe : les sources sur un éventuel péage aux autoroutes R6/R7 sont contradictoires, mais la
+   majorité des sources récentes (fuel-prices.eu 2026, rks-gov.net) le décrivent comme gratuit —
+   choix retenu par prudence plutôt que de modéliser un montant incertain.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -362,7 +416,14 @@ ajoute deux à trois choses, indépendamment des autres :
    médian ~159 $/~142 €, airroi 2026), couronne elle aussi FLOTTANTE (comme la norvégienne,
    contrairement à la danoise) — 1 EUR ≈ 11,15 SEK début septembre 2026 (xe.com). La Finlande et les
    îles Åland, elles, N'ONT PAS besoin de ce champ : seul pays nordique de cette série EN zone euro
-   (depuis 1999, comme l'Irlande) — aucun champ `currency` sur `COUNTRIES.FI` ni `COUNTRIES.AX`.
+   (depuis 1999, comme l'Irlande) — aucun champ `currency` sur `COUNTRIES.FI` ni `COUNTRIES.AX`. Le
+   Monténégro et le Kosovo, eux non plus, n'ont besoin d'aucun champ `currency` : les DEUX ont adopté
+   l'euro UNILATÉRALEMENT en 2002 (jamais membres de la BCE ni de l'UE, contrairement à la Finlande) —
+   remplaçant le mark allemand pour le Monténégro, le mark allemand et le dinar yougoslave pour le
+   Kosovo. L'Albanie, elle, A besoin du champ (`ALL`, le lek albanais, hors zone euro, flottant) — pays
+   MOINS cher que la zone euro, même profil que la République tchèque/la Pologne/la Hongrie/la
+   Bosnie-Herzégovine : loyer Airbnb médian à Tirana ~55-60 $/~52-56 € (airdna/airroi 2026), 1 EUR ≈ 93
+   ALL début septembre 2026 (bankofalbania.org/wise.com).
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -392,7 +453,10 @@ gallois/le gaélique écossais/le cornique/le scots (Royaume-Uni, Irlande, île 
 langues nationales de pays déjà couverts par ailleurs — tchèque, polonais, slovaque, hongrois,
 slovène, croate, bosniaque et serbe — dans un rattrapage détaillé plus bas, et enfin le danois, le
 norvégien, le suédois et le finnois, arrivés respectivement avec le Danemark, la Norvège, la Suède et
-la Finlande (voir "Pays couverts" et plus bas, série des pays nordiques). Le
+la Finlande (voir "Pays couverts" et plus bas, série des pays nordiques), et enfin le monténégrin et
+l'albanais, arrivés avec le Monténégro et l'Albanie — le kosovar n'existe pas en tant que langue
+distincte, le Kosovo héritant automatiquement de l'albanais (langue nationale des deux pays) et du
+serbe (déjà couvert), voir plus bas. Le
 luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
 aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
@@ -845,10 +909,47 @@ alphabet latin, translittéré à la main dans les deux langues cyrilliques (rus
 toutes deux Оланд, aucune complication de "g" dur ou de "h" étranger cette fois contrairement à
 Bornholm/Gotland). 47 langues au total désormais.
 
+### Monténégro, Albanie et Kosovo (série balkanique)
+
+Le monténégrin (crnogorski, ISO 639-3 "cnr" — pas de code 639-1, même situation que le scots) est
+arrivé avec le Monténégro lui-même. Très proche du bosniaque/croate/serbe déjà couverts (même
+continuum linguistique serbo-croate) : écrit en alphabet latin ijékavien comme le bosniaque, avec deux
+choix lexicaux distinctement monténégrins par rapport au pack bosniaque ("putarina"/"auto-put" plutôt
+que "cestarina"/"autocesta"). Les deux lettres supplémentaires de la norme orthographique officielle
+de 2009 (ś/ź, pour des sons palatalisés non distingués dans les standards voisins) sont volontairement
+PAS utilisées : leur usage reste minoritaire y compris au Monténégro même dans l'écrit officiel,
+l'écrasante majorité des textes réels (presse, réseaux sociaux, administration courante) s'en passe —
+choix qui reflète l'usage réel plutôt que la norme la plus stricte, à reconsidérer si demandé. Le
+bosniaque et le serbe (déjà couverts) restent les deux autres langues significativement parlées au
+Monténégro (~8% et ~29% de la population, recensement) ; l'albanais (~5%, sud du pays) est lui aussi
+couvert automatiquement dès l'ajout de l'Albanie, dans ce même passage.
+
+L'albanais (shqip, ISO 639-1 "sq") est arrivé avec l'Albanie elle-même. Écrit en albanais standard
+(basé sur le tosque, norme unifiée depuis 1972, utilisée aussi bien en Albanie qu'au Kosovo — aucun
+pack séparé pour le guègue du nord, même logique d'unification que pour le rusyn/lemko ou le
+scots/ulster-scots). Cette même langue devient AUTOMATIQUEMENT disponible pour le Kosovo dès son
+propre ajout, dans ce même passage (langue nationale des deux pays, ~92% de la population kosovare) —
+aucun travail supplémentaire nécessaire, même logique que le suédois pour la Finlande. Langue isolée
+de la famille indo-européenne, sans parenté avec aucune des 47 langues déjà couvertes — confiance de
+traduction plus prudente que pour les langues romanes/germaniques/slaves déjà maîtrisées dans ce
+projet, une relecture native reste recommandée. La minorité grecque d'Albanie (~0,9%, sud du pays
+autour de Sarandë/Himarë), reconnue officiellement, est volontairement laissée de côté dans ce
+passage — nouvel alphabet, nouvelle famille de langue, effort disproportionné pour cette étape, à
+reconsidérer si demandé.
+
+**Le Kosovo, lui, n'apporte AUCUNE nouvelle langue** : ses deux langues officielles (albanais et
+serbe) sont toutes deux déjà couvertes — l'albanais par le passage Albanie de ce même commit, le serbe
+depuis le rattrapage tchèque/polonais/slovaque/hongrois/slovène/croate/bosniaque/serbe. Cas le plus
+simple de toute la série balkanique sur ce plan précis, symétrique à celui du Kosovo pour les données
+(le plus compliqué des trois, voir "Pays couverts").
+
+49 langues au total désormais.
+
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
 
-**Avertissement de traduction** : le pied de page affiche, dans les 47 langues, une courte phrase
+**Avertissement de traduction** : le pied de page affiche, dans les langues couvertes (47 au moment de
+son ajout, 49 depuis la série balkanique), une courte phrase
 prévenant que l'interface a été traduite et peut contenir des erreurs, avec une invitation à les
 signaler à `contact@lume419.fr` (clé `footer.translationDisclaimer`, `public/js/i18n.js`) — ajoutée
 à la demande explicite de l'utilisateur une fois la série des pays nordiques terminée. Contrairement
@@ -1103,6 +1204,15 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   affiner si un barème officiel devient disponible. La Finlande elle-même n'a aucune autre île sans
   pont significative, aucun autre cas `landmassOf` nécessaire. Testé en direct : un trajet
   Mariehamn → continent a bien déclenché la ligne avec le bon tarif/la bonne durée affichés.
+- **Monténégro, Albanie, Kosovo** : AUCUNE nouvelle ligne modélisée. Les deux premiers ont bien une
+  façade adriatique, avec de vraies liaisons ferry vers l'Italie (Bar-Bari/Ancône pour le Monténégro,
+  Durrës-Bari/Ancône pour l'Albanie) — mais ces liaisons relient deux points déjà `continental` (la
+  masse continentale européenne connectée par la route couvre déjà l'Italie ET les Balkans via la
+  Croatie/la Bosnie-Herzégovine/la Serbie/la Macédoine du Nord), pas une île détachée : hors du
+  périmètre de ce mécanisme, comme n'importe quel autre ferry international non modélisé entre deux
+  pays du continent. Ni le Monténégro ni l'Albanie n'ont d'île habitée significative sans pont/route
+  (Sveti Stefan, au Monténégro, est un îlot-presqu'île relié par une digue, pas un vrai détachement
+  insulaire). Le Kosovo, lui, est un pays entièrement sans littoral.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -1185,12 +1295,20 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
   (licence [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)), rapprochée par nom des
   communes GeoNames ci-dessus.
+- Codes postaux monténégrins (absents de GeoNames ET d'aucune liste Wikipedia détaillée, voir "Pays
+  couverts") : annuaire tiers [postanskibroj.cu.rs/crnagora/](https://postanskibroj.cu.rs/crnagora/)
+  (136 entrées) — PAS une source officielle ni sous licence ouverte explicite, choix de dernier
+  recours documenté comme tel, rapproché par nom des communes GeoNames ci-dessus.
+- Codes postaux kosovars (absents de GeoNames, l'article Wikipedia correspondant ne liste que des
+  plages par district) : [Posta e Kosovës](https://postakosoves.com) elle-même, la poste nationale
+  officielle du Kosovo (133 entrées extraites du tableau JavaScript embarqué dans sa page de
+  recherche de codes postaux), rapproché par nom des communes GeoNames ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.
 - Points d'intérêt : [OpenStreetMap](https://www.openstreetmap.org) via l'API Overpass — figés dans
