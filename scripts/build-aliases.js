@@ -23,7 +23,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['IE']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB
+const COUNTRIES = ['IM']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE
 // déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
@@ -96,8 +96,15 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // contrairement à ces langues slaves parlées dans plusieurs grands pays voisins, l'irlandais n'est
 // langue nationale QUE de l'Irlande (et co-officielle de l'UE), un petit pays — même logique que le
 // maltais/le luxembourgeois/le catalan (langue nationale d'un petit territoire non encore représentée
-// ailleurs au moment de son ajout).
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga']);
+// ailleurs au moment de son ajout). "gv" (mannois/Gaelg, ISO 639-1) : langue HISTORIQUE propre à
+// l'île de Man, relancée après la mort du dernier locuteur natif en 1974 — vrai soutien
+// institutionnel actuel (Bunscoill Ghaelgagh, école primaire en immersion mannoise), ~1 800
+// personnes déclarant une connaissance de la langue (recensement 2011). Même cas que le maltais/le
+// luxembourgeois : la langue propre d'un petit territoire, pas la langue nationale d'un grand pays
+// voisin — confiance plus faible que la moyenne du fait du nombre de locuteurs, comparable au
+// cornique/à l'istro-roumain (choix déjà tranché plusieurs fois par l'utilisateur : traduire quand
+// même, voir README "Langues").
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -139,7 +146,7 @@ const CELTIC_PROBE_LANGS = new Set(['cy', 'gd', 'kw', 'gv', 'ga']);
 // étiquette sans rapport — vérifié moins massif qu'au Royaume-Uni (la plupart des doublons irlandais
 // concernent le nom ANGLAIS déjà canonique, donc déjà filtré par ailleurs par le test "identique au
 // nom canonique"), gardé quand même par prudence.
-const CELTIC_CROSS_CONTAMINATION_CHECK_COUNTRIES = new Set(['GB', 'IE']);
+const CELTIC_CROSS_CONTAMINATION_CHECK_COUNTRIES = new Set(['GB', 'IE', 'IM']);
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',

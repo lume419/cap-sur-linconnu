@@ -1,0 +1,19 @@
+gv;Mwyllin Doo Aah;Union Mills
+gv;Balley Keeill Eoin;Saint Johns
+gv;Rhumsaa;Ramsey
+ga;Rhumsaa;Ramsey
+gv;Purt ny h-Inshey;Peel
+ga;Purt na hInse;Peel
+gv;Kione Droghad;Onchan
+gv;Glion Muigh;Glen Maye
+gv;Forsdal;Foxdale
+ga;Dubh Lios;Douglas
+gv;Doolish;Douglas
+en;Douglas, Isle of Man;Douglas
+gv;Camys y Ree;Derbyhaven
+gv;Delbee;Dalby
+en;Cregneash;Cregneish
+gv;Creneash;Cregneish
+gv;Balley Chashtal;Castletown
+ga;Baile Chaistil;Castletown
+gv;Bayr Garroo;Barregarrow

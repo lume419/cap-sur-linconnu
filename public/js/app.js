@@ -112,8 +112,11 @@
   // trajet aléatoire entre deux communes irlandaises quelconques (l'app ne calcule toujours pas de
   // vrai itinéraire routier). hasToll:false, même raisonnement que les ouvrages isolés britanniques/
   // néerlandais/suisses/autrichiens ci-dessus, à une échelle plus fine encore (barrière ponctuelle
-  // plutôt que tunnel/pont/corridor). Aucune vignette non plus.
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE seulement) : noms alternatifs par
+  // plutôt que tunnel/pont/corridor). Aucune vignette non plus. L'île de Man, elle, est le cas le
+  // plus simple de toute cette série : AUCUNE autoroute ni voie rapide sur toute l'île (réseau
+  // routier local, y compris le célèbre circuit du TT sur route ouverte) — hasToll:false sans la
+  // moindre exception à modéliser, comme Saint-Marin/le Liechtenstein.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -147,7 +150,10 @@
   // jamais l'euro malgré le Brexit n'ayant rien changé à cette évidence antérieure — même choix que
   // pour les deux baillages, "GBP" est aussi la devise réellement proposée par Airbnb/Booking (pas
   // de sélecteur séparé). L'Irlande, elle, contrairement à son voisin britannique, EST en zone euro
-  // (depuis 1999/2002 comme la France) : absente de COUNTRIES.IE.currency, EUR par défaut.
+  // (depuis 1999/2002 comme la France) : absente de COUNTRIES.IE.currency, EUR par défaut. L'île de
+  // Man, elle, rejoint le Royaume-Uni/Guernesey/Jersey (currency:'GBP') : la livre mannoise existe
+  // bien mais reste à parité fixe avec la livre sterling, jamais utilisée séparément par Airbnb/
+  // Booking — même raisonnement, "GBP" directement réutilisé sans nouvelle recherche.
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -180,7 +186,8 @@
     HR: { code:'HR', name:'Croatie', file:'communes-hr.txt', hasToll:true, aliasFile:'aliases-hr.txt' },
     BA: { code:'BA', name:'Bosnie-Herzégovine', file:'communes-ba.txt', hasToll:true, aliasFile:'aliases-ba.txt', currency:'BAM' },
     GB: { code:'GB', name:'Royaume-Uni', file:'communes-gb.txt', hasToll:false, aliasFile:'aliases-gb.txt', currency:'GBP' },
-    IE: { code:'IE', name:'Irlande', file:'communes-ie.txt', hasToll:false, aliasFile:'aliases-ie.txt' }
+    IE: { code:'IE', name:'Irlande', file:'communes-ie.txt', hasToll:false, aliasFile:'aliases-ie.txt' },
+    IM: { code:'IM', name:'Île de Man', file:'communes-im.txt', hasToll:false, aliasFile:'aliases-im.txt', currency:'GBP' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -675,7 +682,14 @@
     // Calais puis Holyhead-Dublin), cohérent avec le moteur d'étapes existant (chaque hop reste
     // indépendant). Classe 5/foot au même ratio que les traversées longues comparables ci-dessus
     // (Corse/Sardaigne).
-    'greatBritain|ireland': { routeKey:'ferry.route.holyheadDublin', durationH:3.25, distanceKm:110, priceByClass:{1:179.5, 2:265, 5:80, foot:45} }
+    'greatBritain|ireland': { routeKey:'ferry.route.holyheadDublin', durationH:3.25, distanceKm:110, priceByClass:{1:179.5, 2:265, 5:80, foot:45} },
+    // Heysham-Douglas (Isle of Man Steam Packet Company, seul opérateur — quasi-monopole historique
+    // depuis 1830), ~5h30 en ferry classique ou ~3h45 en fast-craft (MV Manxman) selon la ligne
+    // choisie — durée du fast-craft retenue, plus proche du profil des autres traversées longues déjà
+    // modélisées. Voiture dès ~98,50 £ (~117 €, taux indicatif). Relie l'île de Man à la Grande-
+    // Bretagne, comme l'Irlande — jamais directement au continent, même raisonnement que
+    // greatBritain|ireland ci-dessus.
+    'greatBritain|isleOfMan': { routeKey:'ferry.route.heyshamDouglas', durationH:3.75, distanceKm:130, priceByClass:{1:117, 2:175, 5:53, foot:35} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -787,6 +801,10 @@
     // du Nord ci-dessus (voir le commentaire GB) — île unique, aucune mer entre les deux, jamais
     // besoin de la moindre subdivision interne pour cette app (contrairement au Royaume-Uni voisin).
     if(c.country === 'IE') return 'ireland';
+    // Île de Man : là encore, tout le territoire tient sur une seule masse, aucune subdivision
+    // interne — la troisième île britannique de cette série (avec la Grande-Bretagne/l'Irlande du
+    // Nord et la République d'Irlande) à n'avoir besoin que d'un simple test de pays.
+    if(c.country === 'IM') return 'isleOfMan';
     return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
   }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans

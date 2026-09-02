@@ -1,0 +1,43 @@
+0;-4.5202,54.1696;IM1;Isle of Man;Union Mills
+0;-4.4797,54.3228;IM8;Isle of Man;Sulby
+0;-4.5833,54.1167;IM2;;Santon
+0;-4.6000,54.1333;IM9;Isle of Man;Saint Marks
+0;-4.6333,54.2000;IM5;Isle of Man;Saint Johns
+0;-4.6167,54.0833;IM9;Isle of Man;Ronaldsway
+7845;-4.3853,54.3227;IM8;Isle of Man;Ramsey
+0;-4.5411,54.1287;IM2;;Port Soderick
+0;-4.7386,54.0740;IM9;Isle of Man;Port Saint Mary
+3530;-4.7510,54.0849;IM9;Isle of Man;Port Erin
+5374;-4.6910,54.2221;IM5;Isle of Man;Peel
+0;-4.6942,54.2045;IM5;Isle of Man;Patrick
+0;-4.4532,54.1733;IM3;Isle of Man;Onchan
+0;-4.3184,54.2988;IM8;Isle of Man;Maughold
+0;-4.4167,54.3167;IM8;Isle of Man;Lezayre
+1768;-4.3998,54.2302;IM4;Isle of Man;Laxey
+0;-4.5875,54.2856;IM6;Isle of Man;Kirkmichael
+0;-4.5167,54.1667;IM1;Isle of Man;Kirk Braddan
+0;-4.5220,54.3594;IM7;Isle of Man;Jurby
+0;-4.7000,54.1833;IM5;Isle of Man;Glen Maye
+0;-4.6167,54.1667;IM5;Isle of Man;Foxdale
+26218;-4.4833,54.1500;IM2;;Douglas
+0;-4.3833,54.3500;IM7;Isle of Man;Dog Mills
+0;-4.6235,54.0765;IM9;Isle of Man;Derbyhaven
+0;-4.7292,54.1688;IM5;Isle of Man;Dalby
+0;-4.5667,54.1833;IM4;Isle of Man;Crosby
+0;-4.7684,54.0696;IM9;Isle of Man;Cregneish
+0;-4.3695,54.3956;IM7;Isle of Man;Cranstal
+289;-4.7059,54.0966;IM9;Isle of Man;Colby
+3100;-4.6536,54.0744;IM9;Isle of Man;Castletown
+0;-4.3892,54.3826;IM7;Isle of Man;Bride
+0;-4.6296,54.0959;IM9;Isle of Man;Ballasalla
+0;-4.5500,54.3333;IM6;Isle of Man;Ballakinnag
+0;-4.6833,54.1000;IM9;Isle of Man;Ballabeg
+0;-4.4333,54.3667;IM7;Isle of Man;Andreas
+0;-4.5446,54.3119;IM6;Isle of Man;Ballaugh
+0;-4.4050,54.2173;IM3;Isle of Man;Ballacannell
+0;-4.5827,54.2625;IM6;Isle of Man;Barregarrow
+0;-4.5798,54.2441;IM6;Isle of Man;Little London
+0;-4.5866,54.2531;IM6;Isle of Man;Shoughlaige-e-Caine
+0;-4.5752,54.3048;IM6;Isle of Man;Orrisdale
+0;-4.6151,54.2623;IM6;Isle of Man;Ballacarnane Beg
+0;-4.6089,54.2409;IM6;Isle of Man;Cronk-y-Voddy

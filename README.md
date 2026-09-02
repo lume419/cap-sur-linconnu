@@ -3,16 +3,16 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
 Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
-tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine, Royaume-Uni, Irlande —
-voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine, Royaume-Uni, Irlande,
+île de Man — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
 d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
 Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes/onze îles croates/la
-Manche (Douvres-Calais)/la mer d'Irlande (Holyhead-Dublin)
+Manche (Douvres-Calais)/la mer d'Irlande (Holyhead-Dublin)/la mer d'Irlande encore (Heysham-Douglas)
 (voir "Ferries" plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface
 disponible en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien,
 romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais,
 guernésiais, kachoube, rusyn/lemko, istro-roumain, catalan, basque, galicien, occitan, breton, corse,
-mirandais et irlandais (voir "Langues" plus bas).
+mirandais, irlandais et mannois (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -107,6 +107,9 @@ cap-sur-linconnu/
 │       │                        # seulement, contre 27 450 districts au Royaume-Uni ; huit exonymes
 │       │                        # anglais corrigés, voir NAME_OVERRIDES dans build-country-communes.js)
 │       ├── aliases-ie.txt      # idem pour l'Irlande (1 225 alias, dont 1 108 en irlandais/Gaeilge)
+│       ├── communes-im.txt     # 43 lieux mannois, même format (le plus petit pays couvert avec
+│       │                        # Monaco — aucune correction de nom nécessaire)
+│       ├── aliases-im.txt      # idem pour l'île de Man (19 alias, dont 13 en mannois/Gaelg)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -127,7 +130,7 @@ les trois premières routes.
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
-Royaume-Uni et Irlande pour l'instant, d'autres viendront (île de Man en préparation). Chaque pays
+Royaume-Uni, Irlande et île de Man pour l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -234,7 +237,17 @@ ajoute deux à trois choses, indépendamment des autres :
    (National Highways/Midland Expressway), le Dartford Crossing sur la Tamise à l'est de Londres, et
    le Mersey Gateway près de Liverpool — le même cas que le Kiltunnel néerlandais ou les tunnels
    alpins suisses/autrichiens : non modélisés, un trajet aléatoire ne les traverse pas nécessairement.
-   `hasToll:false`, aucune vignette non plus.
+   `hasToll:false`, aucune vignette non plus. L'Irlande, elle, POURRAIT sembler rejoindre le groupe
+   à péage fermé de sa voisine croato-bosnienne (M50 autour de Dublin, M1/M3/M4/M6/M7-M8/N25 vers les
+   autres grandes villes) — mais son système est en réalité un ensemble de BARRIÈRES PONCTUELLES à
+   tarif FIXE (ex. M50 : 3,10 € par passage, quel que soit le trajet parcouru sur cette autoroute),
+   pas un système fermé proportionnel à la distance comme HAC en Croatie — encore plus ponctuel qu'un
+   corridor polonais entier, jamais garanti par un trajet aléatoire. `hasToll:false`, même
+   raisonnement que les ouvrages isolés britanniques/néerlandais/suisses/autrichiens, à une échelle
+   plus fine encore. L'île de Man, elle, est le cas le plus simple de toute cette série : AUCUNE
+   autoroute ni voie rapide sur toute l'île (réseau routier local, y compris le célèbre circuit du TT
+   sur route ouverte) — `hasToll:false` sans la moindre exception à modéliser, comme Saint-Marin/le
+   Liechtenstein.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -262,7 +275,11 @@ ajoute deux à trois choses, indépendamment des autres :
    euro" que CZK/PLN/HUF — moyenne Airbnb à Sarajevo ~56-65 €/nuit, chambres privées hors centre
    ~20-36 €/nuit). Le Royaume-Uni, lui, rejoint Guernesey/Jersey (`GBP`) : la livre sterling, jamais
    l'euro — même choix que pour les deux baillages, "GBP" est aussi la devise réellement proposée par
-   Airbnb/Booking pour ce pays (pas de sélecteur séparé). La devise détermine le plafond de prix affiché pour le logement
+   Airbnb/Booking pour ce pays (pas de sélecteur séparé). L'Irlande, elle, contrairement à son voisin
+   britannique, EST en zone euro (depuis 1999/2002 comme la France) : aucun champ nécessaire. L'île de
+   Man rejoint à son tour le groupe `GBP` (Royaume-Uni/Guernesey/Jersey) : la livre mannoise existe
+   mais reste à parité fixe avec la livre sterling, jamais utilisée séparément par Airbnb/Booking.
+   La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
    euros quelle que soit la devise du pays (voir `toll.enabled`/`toll.disabled` dans `i18n.js`, non
@@ -600,6 +617,15 @@ précises (ex. "An Muileann gCearr" -> "Mullingar", "Cluain Meala" -> "Clonmel" 
 `NAME_OVERRIDES` dans `scripts/build-country-communes.js`) ; leur nom irlandais reste bien sûr
 disponible comme alias de recherche.
 
+Le mannois (Gaelg) est arrivé avec l'île de Man : contrairement à l'irlandais, ce n'est PAS une
+exception à la règle "pas de langue nationale d'un pays déjà couvert" — c'est la langue HISTORIQUE
+propre à l'île, relancée après la mort du dernier locuteur natif traditionnel en 1974 (vrai soutien
+institutionnel actuel, Bunscoill Ghaelgagh — école primaire en immersion mannoise), ~1 800 personnes
+déclarant une connaissance de la langue (recensement 2011). Même logique que le maltais/le
+luxembourgeois : la langue propre d'un petit territoire. Niveau de confiance plus faible que la
+moyenne du fait du nombre de locuteurs, comparable à l'istro-roumain — choix déjà tranché plusieurs
+fois par l'utilisateur (traduire quand même), appliqué ici sans nouvelle question.
+
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
 
@@ -803,6 +829,11 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   au détroit de Messine ou aux ponts-relais de Pelješac. Un trajet France → Irlande passe donc par
   DEUX traversées distinctes (Douvres-Calais puis Holyhead-Dublin), chacune un jour différent —
   cohérent avec le moteur d'étapes existant, chaque traversée reste indépendante.
+- **Île de Man** : troisième et dernière île britannique de cette série (avec la Grande-Bretagne/
+  l'Irlande du Nord et la République d'Irlande) à tenir sur une seule masse `isleOfMan`, sans
+  subdivision interne. Reliée elle aussi à la Grande-Bretagne (pas au continent) par
+  **Heysham-Douglas** (Isle of Man Steam Packet Company — seul opérateur, quasi-monopole depuis
+  1830 — MV Manxman, fast-craft, ~130 km, ~3h45, voiture dès ~98,50 £/~117 €).
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -830,7 +861,10 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   onze listes de codes postaux exacts (ex. `21400`-`21425` pour Brač, `20260`-`20274` pour Korčula).
   Le Royaume-Uni, lui, n'a besoin que d'un seul test — le préfixe de code postal `BT` (Irlande du
   Nord, voir plus haut) — le reste du pays (`c.country === 'GB'` sans ce préfixe) formant une seule
-  masse `greatBritain`, aucune île secondaire à distinguer en son sein pour cette app.
+  masse `greatBritain`, aucune île secondaire à distinguer en son sein pour cette app. La République
+  d'Irlande (`c.country === 'IE'`) et l'île de Man (`c.country === 'IM'`) sont, elles, les cas les
+  plus simples de toute cette série : un simple test de pays suffit, chaque territoire tenant sur une
+  seule masse (`ireland`/`isleOfMan`) sans la moindre subdivision interne à gérer.
 - Limite connue : les petites îles françaises sans pont ni département propre (Belle-Île, Ouessant,
   Groix...) ne sont pas détectées individuellement et restent traitées comme le continent le plus
   proche — un cas rare (quelques dizaines de communes sur ~35 000) laissé de côté pour l'instant.
@@ -882,7 +916,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
