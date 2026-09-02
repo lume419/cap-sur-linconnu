@@ -848,6 +848,15 @@ Bornholm/Gotland). 47 langues au total désormais.
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
 
+**Avertissement de traduction** : le pied de page affiche, dans les 47 langues, une courte phrase
+prévenant que l'interface a été traduite et peut contenir des erreurs, avec une invitation à les
+signaler à `contact@lume419.fr` (clé `footer.translationDisclaimer`, `public/js/i18n.js`) — ajoutée
+à la demande explicite de l'utilisateur une fois la série des pays nordiques terminée. Contrairement
+aux clés `ferry.route.*` (voir plus haut), chaque traduction ici est une vraie phrase écrite par
+langue plutôt qu'une réutilisation mécanique d'un mot déjà traduit ailleurs — y compris pour les
+langues à faible niveau de confiance (haut-sorabe/frison du Nord/rusyn-vlaški/mannois/cornique/
+mirandais...), au même niveau d'effort que le reste de leur pack respectif.
+
 **Saisir une ville dans une autre langue** (ex. "Anvers" plutôt que "Antwerpen", "Séville" plutôt
 que "Sevilla") : `scripts/build-aliases.js` télécharge le fichier GeoNames `alternateNamesV2` par
 pays (noms alternatifs déjà étiquetés par langue ISO — la source faite pour ce besoin, plutôt qu'une

@@ -829,6 +829,7 @@
   footer{
     text-align:center; font-size:.75rem; color:var(--ink-faint); padding-top:1rem; border-top:1px dashed var(--line);
   }
+  footer .footer-disclaimer{display:block; margin-top:.6rem; opacity:.8;}
   footer .footer-legal-links{display:block; margin-top:.4rem;}
   footer .footer-legal-links a{color:var(--ink-faint); text-decoration:underline; text-underline-offset:2px;}
   footer .footer-legal-links a:hover{color:var(--accent-3);}
