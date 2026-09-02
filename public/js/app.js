@@ -38,21 +38,38 @@
   // réseau routier entièrement gratuit. Monaco, Malte, Guernesey et Jersey rejoignent ce même groupe
   // "entièrement gratuit" : aucun des quatre n'a de réseau autoroutier à péage ni de vignette (Malte
   // a bien un péage urbain à Valette, mais UNIQUEMENT une redevance de congestion aux heures de
-  // bureau, pas un péage routier — non modélisé, comme les ouvrages isolés ci-dessus).
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ seulement) : noms alternatifs par
+  // bureau, pas un péage routier — non modélisé, comme les ouvrages isolés ci-dessus). La Pologne est
+  // un cas particulier, différent de tous les précédents : depuis 2021, la quasi-totalité du réseau
+  // autoroutier/express géré par l'Etat (GDDKiA) est gratuite pour les voitures/vans/motos — mais
+  // TROIS sections restent à péage réel pour ces mêmes véhicules, concédées à des opérateurs privés
+  // et non à l'Etat : A1 Gdańsk-Toruń (AmberOne, ~152 km), A2 Świecko-Konin (Autostrada
+  // Wielkopolska, ~255 km) et A4 Katowice-Kraków (Stalexport, ~60 km) — ~467 km à elles trois sur
+  // un réseau national de ~1 700 km. Contrairement au Kiltunnel néerlandais ou aux tunnels alpins
+  // suisses/autrichiens (de vrais ouvrages isolés de quelques km), ce sont ici de longs corridors
+  // autoroutiers à part entière — mais toujours seulement TROIS itinéraires précis parmi des
+  // centaines de trajets possibles à travers le pays : rien ne dit qu'un trajet tiré au hasard entre
+  // deux communes polonaises emprunterait justement l'un de ces trois corridors plutôt qu'un chemin
+  // alternatif gratuit (l'app ne calcule toujours pas de vrai itinéraire routier, voir
+  // roadDistanceKm) — les modéliser comme un péage général serait donc plus souvent faux que juste,
+  // exactement le même raisonnement que pour un ouvrage isolé, à une échelle géographique plus
+  // grande. hasToll:false, et aucune vignette non plus : le réseau gratuit l'est réellement, sans
+  // laissez-passer à acheter au préalable comme en Suisse/Autriche/République tchèque.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
   // France : ses communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun geonameid n'est donc
   // disponible pour les relier à ces noms alternatifs (voir le script pour le détail de ce choix).
-  // currency (CH/LI/GG/JE/CZ) : la Suisse et le Liechtenstein (franc suisse, union monétaire) ne sont
-  // pas dans la zone euro ; Guernesey et Jersey non plus (livre de Guernesey/livre de Jersey, deux
-  // monnaies locales À PARITÉ FIXE avec la livre sterling — jamais l'euro malgré la proximité avec la
-  // France) — modélisées ici sous 'GBP', la devise réellement utilisée pour les prix affichés
+  // currency (CH/LI/GG/JE/CZ/PL) : la Suisse et le Liechtenstein (franc suisse, union monétaire) ne
+  // sont pas dans la zone euro ; Guernesey et Jersey non plus (livre de Guernesey/livre de Jersey,
+  // deux monnaies locales À PARITÉ FIXE avec la livre sterling — jamais l'euro malgré la proximité
+  // avec la France) — modélisées ici sous 'GBP', la devise réellement utilisée pour les prix affichés
   // (Airbnb/Booking n'ont pas de sélecteur "livre de Jersey/Guernesey", seulement GBP). Monaco et
   // Malte, eux, sont bien en zone euro (absent -> EUR par défaut, voir countryCurrency plus bas). La
   // République tchèque n'a, elle non plus, jamais adopté l'euro (membre de l'UE mais hors zone euro,
-  // comme la Suisse) : sa monnaie propre, la couronne tchèque ('CZK'), reste utilisée ici.
+  // comme la Suisse) : sa monnaie propre, la couronne tchèque ('CZK'), reste utilisée ici. La Pologne
+  // non plus (membre de l'UE, hors zone euro comme la Suisse/la République tchèque) : le złoty
+  // polonais ('PLN').
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -74,7 +91,8 @@
     GG: { code:'GG', name:'Guernesey', file:'communes-gg.txt', hasToll:false, aliasFile:'aliases-gg.txt', currency:'GBP' },
     JE: { code:'JE', name:'Jersey', file:'communes-je.txt', hasToll:false, aliasFile:'aliases-je.txt', currency:'GBP' },
     CZ: { code:'CZ', name:'République tchèque', file:'communes-cz.txt', hasToll:false, aliasFile:'aliases-cz.txt', currency:'CZK',
-      vignette:{ url:'https://edalnice.gov.cz/en/simple-purchase' } }
+      vignette:{ url:'https://edalnice.gov.cz/en/simple-purchase' } },
+    PL: { code:'PL', name:'Pologne', file:'communes-pl.txt', hasToll:false, aliasFile:'aliases-pl.txt', currency:'PLN' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -92,11 +110,12 @@
   // vignette apparaît dans l'itinéraire — voir plus bas.
   function countryCurrency(cc){ return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR'; }
   // Symbole/code affiché à côté d'un montant (voir updateBudgetHint plus bas) : "€" pour l'euro (le
-  // seul des quatre à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/
-  // "GBP"/"CZK" tels quels pour les trois autres — la livre sterling se note généralement "£" devant
-  // le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les livres locales
-  // de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK' };
+  // seul des cinq à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/
+  // "GBP"/"CZK"/"PLN" tels quels pour les quatre autres — la livre sterling se note généralement "£"
+  // devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les livres
+  // locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs îles
+  // respectives).
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -537,12 +556,18 @@
   // communes que ce générateur tire au sort), le loyer Airbnb médian ~2 470 CZK/nuit et la fourchette
   // couvrant 80% des annonces ~1 650-3 900 CZK restent sous l'équivalent d'une simple conversion des
   // paliers EUR (échantillon airdna.co/airroi.com/bestpragueguide.com 2026) — paliers donc légèrement
-  // EN DESSOUS de l'équivalent EUR converti, pas au-dessus comme pour la Suisse.
+  // EN DESSOUS de l'équivalent EUR converti, pas au-dessus comme pour la Suisse. PLN (Pologne) : même
+  // profil que la République tchèque — pays moins cher que la zone euro. Moyenne nationale Airbnb
+  // ~320-480 PLN/nuit, 80% des annonces entre ~200-550 PLN (échantillon airroi.com/airbtics.com
+  // 2026, Varsovie/Cracovie/Wrocław inclus) — paliers calés sous cette moyenne nationale (comme pour
+  // la République tchèque, ce générateur tire surtout de petites communes, moins chères que les
+  // grandes villes de l'échantillon).
   var BUDGET_PRICE_MAX = {
     EUR: { economique: 70, moyen: 130, confortable: 260 },
     CHF: { economique: 130, moyen: 250, confortable: 480 },
     GBP: { economique: 60, moyen: 120, confortable: 220 },
-    CZK: { economique: 1000, moyen: 2000, confortable: 4000 }
+    CZK: { economique: 1000, moyen: 2000, confortable: 4000 },
+    PLN: { economique: 250, moyen: 450, confortable: 900 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu

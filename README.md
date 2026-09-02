@@ -3,12 +3,13 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
 Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
-tchèque — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap),
-de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les Baléares/les Canaries/la
-Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes (voir "Ferries" plus bas) et une carte
-interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français, anglais, espagnol,
-portugais, néerlandais, allemand, luxembourgeois, italien, romanche, bas-allemand, sorabe, frison du
-Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais et guernésiais (voir "Langues" plus bas).
+tchèque, Pologne — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
+Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes (voir "Ferries" plus
+bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français,
+anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien, romanche, bas-allemand,
+sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais, guernésiais, kachoube et
+rusyn/lemko (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -70,6 +71,8 @@ cap-sur-linconnu/
 │       ├── aliases-je.txt      # idem pour Jersey (alias FR/EN/DE/NRF-JE/...)
 │       ├── communes-cz.txt     # ~16 400 lieux tchèques, même format (Prague/Plzeň corrigés)
 │       ├── aliases-cz.txt      # idem pour la République tchèque (817 alias, dont 751 en allemand)
+│       ├── communes-pl.txt     # ~45 400 lieux polonais, même format (Warszawa/Łódź/Bielsko-Biała corrigés)
+│       ├── aliases-pl.txt      # idem pour la Pologne (alias FR/EN/DE/CSB/RUE/..., 1 360 au total)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -89,8 +92,8 @@ les trois premières routes.
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
-Jersey et République tchèque pour l'instant, d'autres viendront. Chaque pays ajoute deux à trois
-choses, indépendamment des autres :
+Jersey, République tchèque et Pologne pour l'instant, d'autres viendront. Chaque pays ajoute deux à
+trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
@@ -128,7 +131,16 @@ choses, indépendamment des autres :
    prix fixe en CZK, `hasToll:false`, même rappel « pensez à la commander » que pour la Suisse/
    l'Autriche (`vignette.url` pointant vers edalnice.gov.cz/en/simple-purchase, la boutique
    officielle du SFDI). Aucun ouvrage isolé à péage identifié en plus de la vignette tchèque,
-   contrairement à la Suisse/l'Autriche — cas plus simple sur ce point précis.
+   contrairement à la Suisse/l'Autriche — cas plus simple sur ce point précis. La Pologne, elle, est
+   un cas à part entre tous les précédents : depuis 2021 la quasi-totalité du réseau autoroutier
+   d'Etat est gratuite pour les voitures/vans/motos, MAIS trois sections concédées à des opérateurs
+   privés restent à péage réel pour ces mêmes véhicules — A1 Gdańsk-Toruń (AmberOne), A2
+   Świecko-Konin (Autostrada Wielkopolska) et A4 Katowice-Kraków (Stalexport), ~467 km à elles trois
+   sur ~1 700 km de réseau national. `hasToll:false` malgré tout, et sans vignette non plus : ce ne
+   sont, comme le Kiltunnel néerlandais ou les tunnels alpins suisses/autrichiens, que TROIS
+   itinéraires précis parmi des centaines de trajets possibles — rien ne dit qu'un trajet tiré au
+   hasard les emprunterait plutôt qu'un chemin gratuit, le même raisonnement que pour un ouvrage
+   isolé mais à l'échelle de trois corridors entiers plutôt que de quelques kilomètres.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -137,8 +149,9 @@ choses, indépendamment des autres :
    utilisée pour les prix affichés), et la République tchèque, elle aussi hors zone euro malgré son
    appartenance à l'UE (`CZK`, la couronne tchèque — contrairement à la Suisse, un pays moins cher
    que la zone euro : les paliers `BUDGET_PRICE_MAX.CZK` sont légèrement EN DESSOUS de l'équivalent
-   EUR converti, pas au-dessus). Monaco et Malte, eux, sont bien en zone euro (pas de champ
-   `currency`, EUR par défaut). La devise détermine le plafond de prix affiché pour le logement
+   EUR converti, pas au-dessus), et la Pologne encore (`PLN`, le złoty — même profil que la
+   République tchèque, un pays moins cher que la zone euro). Monaco et Malte, eux, sont bien en zone
+   euro (pas de champ `currency`, EUR par défaut). La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage/ferry, qui ne sont de
    toute façon jamais calculés pour un pays hors zone euro pour l'instant.
@@ -247,7 +260,44 @@ standard national lui-même — traitement cohérent avec le croate du Burgenlan
 qui n'a pas non plus été distingué du croate standard pour cette même raison) et le romani (comme
 pour l'Autriche/l'Italie, aucune forme écrite standard unique). Aucune de ces cinq ne rejoint donc
 l'interface pour l'instant — chacune pourrait, en théorie, redevenir éligible le jour où son pays
-d'origine (Pologne, Slovaquie, Croatie) serait lui-même ajouté.
+d'origine (Pologne, Slovaquie, Croatie) serait lui-même ajouté. Le polonais est d'ailleurs devenu
+langue officielle de l'interface entre-temps (voir juste en dessous) — mais comme langue NATIONALE
+de la Pologne elle-même, pas au titre de la minorité polonaise tchèque, qui reste hors périmètre
+pour les mêmes raisons que les quatre autres.
+
+La Pologne, elle, apporte DEUX nouvelles langues régionales — un cas contraire à celui de
+l'Autriche/la République tchèque ci-dessus. Sur les cinq langues protégées par la loi polonaise de
+2005 sur les minorités nationales et ethniques et la langue régionale, deux sont retenues : le
+kachoube (kaszëbsczi jãzëk, code ISO 639-2/3 `csb`) — seule langue à statut RÉGIONAL en Pologne
+(distinct des langues minoritaires, depuis 2005), ~87 600 locuteurs recensés (2021), Poméranie,
+dotée d'une édition Wikipédia (csb.wikipedia.org) ; et le lemko (nom utilisé en Pologne pour une
+variété du rusyn, code ISO 639-3 `rue`) — minorité ETHNIQUE reconnue distincte de la minorité
+ukrainienne par cette même loi de 2005 (contrairement au croate morave tchèque ci-dessus, resté
+classé comme une simple variété du croate), quelques milliers de locuteurs dans le sud-est du pays,
+descendants des populations déplacées par l'Opération Vistule (1947) — écrit en alphabet cyrillique,
+avec des lettres historiques ("ы"/"ъ") abandonnées par l'ukrainien moderne mais conservées par la
+norme lemko de Pologne (voir `aliases-pl.txt`). Niveau de confiance comparable au sorabe/frison du
+Nord ci-dessus pour les deux : des langues réellement officielles et documentées, mais nettement
+moins consultables que les grandes langues déjà couvertes — le rusyn/lemko, en plus, en alphabet
+cyrillique approximé à partir de l'ukrainien plutôt que d'une langue que je maîtrise directement,
+une réserve supplémentaire par rapport au kachoube (alphabet latin, dérivé du polonais). Une
+relecture par un locuteur natif reste recommandée pour ces deux blocs. Les trois autres langues
+protégées restent hors périmètre : l'allemand (déjà couvert), le biélorusse/lituanien/russe/
+ukrainien/slovaque/arménien (déjà langues nationales de pays voisins non encore couverts — même
+motif que pour l'Autriche/la République tchèque) et le rom (aucune forme écrite standard unique,
+même motif que partout ailleurs) ; le yiddish, lui aussi protégé par la loi, reste hors périmètre
+pour la même raison que le rom/l'arménien (langue diasporique sans ancrage territorial polonais
+propre, quasiment éteinte dans le pays aujourd'hui). Cas à part, volontairement écarté : le silésien
+(śląski, ~460 000 locuteurs recensés — bien plus que le kachoube), dont la reconnaissance comme
+deuxième langue régionale du pays a été votée par le Sejm et le Sénat début janvier 2026 puis
+VETÉE par le président Karol Nawrocki le 13 février 2026 (second veto après celui du président Duda
+en 2024) : à ce jour (voir la date de ce commit), il n'a donc PAS de statut de langue régionale ou
+minoritaire officiel — non retenu, cohérent avec la politique du projet de ne couvrir que les
+langues effectivement reconnues, jamais un statut en cours de débat politique. Le karaïm, enfin,
+protégé lui aussi par la loi de 2005, est écarté pour une raison différente : il ne reste plus
+qu'UNE seule locutrice native en Pologne (les autres communautés vivant en Lituanie/Crimée) —
+une langue déjà pratiquement éteinte sur le territoire polonais, un cas encore plus extrême que
+le romanche/le sorabe déjà signalés comme peu dotés en ressources.
 
 Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
@@ -488,7 +538,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.

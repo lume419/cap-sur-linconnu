@@ -5,9 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['CZ']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
-// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE sont déjà générés et commités
-// (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je.txt), pas la peine de
+const COUNTRIES = ['PL']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ sont déjà générés et commités
+// (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz.txt), pas la peine de
 // retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
@@ -108,7 +108,19 @@ const NAME_OVERRIDES = {
   // "Plzeň" — nom déjà utilisé par le reste du dump pour cette même ville, ex. son district
   // "Plzeň-město").
   'Prague': 'Praha',
-  'Pilsen': 'Plzeň'
+  'Pilsen': 'Plzeň',
+  // Deux cas polonais (échantillon des 160 plus grandes communes du pays — Kraków, Wrocław,
+  // Poznań, Gdańsk, Szczecin, Lublin, Białystok... déjà bons) : "Warsaw" (exonyme anglais,
+  // remplacé par le polonais "Warszawa") et "Lodz" (pas un exonyme cette fois, mais une entrée
+  // GeoNames avec diacritiques manquants pour la capitale de la voïvodie de Łódź elle-même —
+  // remplacée par "Łódź", déjà la forme utilisée par le reste du dump pour cette même ville, ex.
+  // son quartier "Łódź-Widzew"). Un troisième cas du même genre (diacritiques manquants, pas un
+  // exonyme) : "Bielsko-Biala" -> "Bielsko-Biała", déjà la forme utilisée par le champ région de
+  // cette même ligne et par tout le reste du dump pour cette commune (ex. son comté
+  // "Bielsko-Biała County").
+  'Warsaw': 'Warszawa',
+  'Lodz': 'Łódź',
+  'Bielsko-Biala': 'Bielsko-Biała'
 };
 // Sercq (Sark), dépendance du bailliage de Guernesey, remonte dans le dump GeoNames sous le code
 // pays GG (elle n'a pas son propre code ISO) au même titre que les paroisses de Guernesey — mais

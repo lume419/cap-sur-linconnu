@@ -23,8 +23,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['CZ']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE déjà générés et commités
-// (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je.txt)
+const COUNTRIES = ['PL']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ déjà générés et
+// commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
@@ -47,7 +47,13 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // ("nrf", Norman) pour les DEUX variantes, la RA ISO 639-3 les ayant fusionnées faute d'assez les
 // distinguer ; le sous-tag IETF régional (nrf-JE/nrf-GG, aussi utilisé par Wikipédia pour ce même
 // besoin) permet de les garder comme deux langues d'interface bien séparées malgré ce code commun.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg']);
+// "csb" (kachoube, ISO 639-2/3) depuis l'ajout de la Pologne — seule langue RÉGIONALE reconnue par
+// la loi polonaise (statut distinct des langues minoritaires, depuis 2005), bien dotée en ressources
+// (édition Wikipédia dédiée csb.wikipedia.org, ~87 600 locuteurs recensés 2021). "rue" (rusyn, ISO
+// 639-3 — le lemko, nom utilisé spécifiquement en Pologne, en est une variété reconnue comme
+// minorité ETHNIQUE distincte à part entière depuis la même loi de 2005, contrairement au croate
+// morave tchèque resté classé comme une simple variété du croate) depuis le même ajout.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -85,7 +91,10 @@ const NAME_OVERRIDES = {
   'Venice': 'Venezia',
   'Vienna': 'Wien',
   'Prague': 'Praha',
-  'Pilsen': 'Plzeň'
+  'Pilsen': 'Plzeň',
+  'Warsaw': 'Warszawa',
+  'Lodz': 'Łódź',
+  'Bielsko-Biala': 'Bielsko-Biała'
 };
 // Même exclusion que build-country-communes.js (voir son commentaire pour le détail) : Sercq n'a
 // aucune liaison en ferry pour véhicules, un alias y menant ne servirait donc à rien côté recherche

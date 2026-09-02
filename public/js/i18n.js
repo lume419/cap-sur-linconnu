@@ -13,8 +13,8 @@
 (function(){
   "use strict";
 
-  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg'];
-  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais' };
+  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue'];
+  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais', csb: 'Kaszëbsczi', rue: 'Лемківскый' };
   var STORAGE_KEY = 'lang';
 
   var STRINGS = {
@@ -216,7 +216,7 @@
 
       'again.button': 'Retirer une autre destination',
 
-      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique, les Pays-Bas, le Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, le Liechtenstein, Monaco, Malte, Guernesey, Jersey et la République tchèque. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie) — autoroutes gratuites en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco et à Malte ; vignette annuelle en Suisse, en Autriche et en République tchèque (pas de péage au trajet) — ni péage ni vignette à Guernesey et Jersey.",
+      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique, les Pays-Bas, le Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, le Liechtenstein, Monaco, Malte, Guernesey, Jersey, la République tchèque et la Pologne. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie) — autoroutes gratuites en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte et en Pologne (hors trois sections concédées) ; vignette annuelle en Suisse, en Autriche et en République tchèque (pas de péage au trajet) — ni péage ni vignette à Guernesey et Jersey.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': 'Politique de confidentialité',
 
@@ -433,7 +433,7 @@
 
       'again.button': 'Draw another destination',
 
-      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey and the Czech Republic. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy) — free motorways in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco and Malta; an annual vignette in Switzerland, Austria and the Czech Republic (no per-trip toll) — no toll or vignette in Guernsey or Jersey.",
+      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, the Czech Republic and Poland. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy) — free motorways in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco, Malta and Poland (except three concession sections); an annual vignette in Switzerland, Austria and the Czech Republic (no per-trip toll) — no toll or vignette in Guernsey or Jersey.",
       'footer.legalMentions': 'Legal notice',
       'footer.privacyPolicy': 'Privacy policy',
 
@@ -650,7 +650,7 @@
 
       'again.button': 'Sortear otro destino',
 
-      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica, los Países Bajos, Luxemburgo, Suiza, Alemania, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey y República Checa. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia) — autopistas gratuitas en Bélgica, Andorra, los Países Bajos, Luxemburgo, Alemania, San Marino, Liechtenstein, Mónaco y Malta; viñeta anual en Suiza, Austria y República Checa (sin peaje por trayecto) — sin peaje ni viñeta en Guernsey y Jersey.",
+      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica, los Países Bajos, Luxemburgo, Suiza, Alemania, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, República Checa y Polonia. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia) — autopistas gratuitas en Bélgica, Andorra, los Países Bajos, Luxemburgo, Alemania, San Marino, Liechtenstein, Mónaco, Malta y Polonia (salvo tres tramos concesionados); viñeta anual en Suiza, Austria y República Checa (sin peaje por trayecto) — sin peaje ni viñeta en Guernsey y Jersey.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidad',
 
@@ -867,7 +867,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica, os Países Baixos, o Luxemburgo, a Suíça, a Alemanha, a Itália, a Áustria, São Marinho, o Liechtenstein, o Mónaco, Malta, Guernsey, Jersey e a República Checa. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itália) — autoestradas gratuitas na Bélgica, em Andorra, nos Países Baixos, no Luxemburgo, na Alemanha, em São Marinho, no Liechtenstein, no Mónaco e em Malta; vinheta anual na Suíça, na Áustria e na República Checa (sem portagem por trajeto) — sem portagem nem vinheta em Guernsey e Jersey.",
+      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica, os Países Baixos, o Luxemburgo, a Suíça, a Alemanha, a Itália, a Áustria, São Marinho, o Liechtenstein, o Mónaco, Malta, Guernsey, Jersey, a República Checa e a Polónia. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itália) — autoestradas gratuitas na Bélgica, em Andorra, nos Países Baixos, no Luxemburgo, na Alemanha, em São Marinho, no Liechtenstein, no Mónaco, em Malta e na Polónia (exceto três troços concessionados); vinheta anual na Suíça, na Áustria e na República Checa (sem portagem por trajeto) — sem portagem nem vinheta em Guernsey e Jersey.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidade',
 
@@ -1084,7 +1084,7 @@
 
       'again.button': 'Nog een bestemming loten',
 
-      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België, Nederland, Luxemburg, Zwitserland, Duitsland, Italië, Oostenrijk, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey en Tsjechië. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italië) — gratis snelwegen in België, Andorra, Nederland, Luxemburg, Duitsland, San Marino, Liechtenstein, Monaco en Malta; jaarlijkse vignet in Zwitserland, Oostenrijk en Tsjechië (geen tol per rit) — geen tol of vignet op Guernsey en Jersey.",
+      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België, Nederland, Luxemburg, Zwitserland, Duitsland, Italië, Oostenrijk, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjechië en Polen. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italië) — gratis snelwegen in België, Andorra, Nederland, Luxemburg, Duitsland, San Marino, Liechtenstein, Monaco, Malta en Polen (behalve drie concessietrajecten); jaarlijkse vignet in Zwitserland, Oostenrijk en Tsjechië (geen tol per rit) — geen tol of vignet op Guernsey en Jersey.",
       'footer.legalMentions': 'Wettelijke vermeldingen',
       'footer.privacyPolicy': 'Privacybeleid',
 
@@ -1301,7 +1301,7 @@
 
       'again.button': 'Neues Ziel auslosen',
 
-      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien, die Niederlande, Luxemburg, die Schweiz, Deutschland, Italien, Österreich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey und Tschechien. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien) — mautfreie Autobahnen in Belgien, Andorra, den Niederlanden, Luxemburg, Deutschland, San Marino, Liechtenstein, Monaco und Malta; jährliche Vignette in der Schweiz, in Österreich und in Tschechien (keine Maut pro Fahrt) — keine Maut oder Vignette auf Guernsey und Jersey.",
+      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien, die Niederlande, Luxemburg, die Schweiz, Deutschland, Italien, Österreich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien und Polen. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien) — mautfreie Autobahnen in Belgien, Andorra, den Niederlanden, Luxemburg, Deutschland, San Marino, Liechtenstein, Monaco, Malta und Polen (außer drei Konzessionsabschnitten); jährliche Vignette in der Schweiz, in Österreich und in Tschechien (keine Maut pro Fahrt) — keine Maut oder Vignette auf Guernsey und Jersey.",
       'footer.legalMentions': 'Impressum',
       'footer.privacyPolicy': 'Datenschutzerklärung',
 
@@ -1520,7 +1520,7 @@
 
       'again.button': 'Nach eng aner Destinatioun zéien',
 
-      'footer.text': "Kurs op d'Onbekannt — e spilleresche Generator, et gi ni Donnéeën iergendwouhinner geschéckt. Gemengen: IGN / geo.api.gouv.fr (Etalab) fir Frankräich, GeoNames (CC-BY-Lizenz) fir Andorra, Spuenien, Portugal, d'Belsch, d'Nidderlanden, Lëtzebuerg, d'Schwäiz, Däitschland, Italien, Éisträich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey an Tschechien. Sehenswiirdegkeeten a Kaart-Hannergrond: © d'OpenStreetMap-Mataarbechter (ODbL-Lizenz). Peage: VINCI Autoroutes (Frankräich), Autopistas (Spuenien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien) — gratis Autobunnen an der Belsch, an Andorra, an den Nidderlanden, zu Lëtzebuerg, an Däitschland, zu San Marino, zu Liechtenstein, zu Monaco an zu Malta; eng jäerlech Vignette an der Schwäiz, an Éisträich an a Tschechien (kee Peage pro Streck) — weder Peage nach Vignette op Guernsey a Jersey.",
+      'footer.text': "Kurs op d'Onbekannt — e spilleresche Generator, et gi ni Donnéeën iergendwouhinner geschéckt. Gemengen: IGN / geo.api.gouv.fr (Etalab) fir Frankräich, GeoNames (CC-BY-Lizenz) fir Andorra, Spuenien, Portugal, d'Belsch, d'Nidderlanden, Lëtzebuerg, d'Schwäiz, Däitschland, Italien, Éisträich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien a Polen. Sehenswiirdegkeeten a Kaart-Hannergrond: © d'OpenStreetMap-Mataarbechter (ODbL-Lizenz). Peage: VINCI Autoroutes (Frankräich), Autopistas (Spuenien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien) — gratis Autobunnen an der Belsch, an Andorra, an den Nidderlanden, zu Lëtzebuerg, an Däitschland, zu San Marino, zu Liechtenstein, zu Monaco, zu Malta a zu Polen (ausser dräi Konzessiounsabschnëtter); eng jäerlech Vignette an der Schwäiz, an Éisträich an a Tschechien (kee Peage pro Streck) — weder Peage nach Vignette op Guernsey a Jersey.",
       'footer.legalMentions': 'Legal Notiz',
       'footer.privacyPolicy': 'Dateschutzerklärung',
 
@@ -1739,7 +1739,7 @@
 
       'again.button': "Estrai un'altra destinazione",
 
-      'footer.text': "Rotta verso l'ignoto — un generatore ludico, nessun dato viene mai inviato da nessuna parte. Comuni: IGN / geo.api.gouv.fr (Etalab) per la Francia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogallo, Belgio, Paesi Bassi, Lussemburgo, Svizzera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey e Repubblica Ceca. Punti d'interesse e sfondo mappa: © i contributori di OpenStreetMap (licenza ODbL). Pedaggi: VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallo), Autostrade per l'Italia (Italia) — autostrade gratuite in Belgio, Andorra, Paesi Bassi, Lussemburgo, Germania, San Marino, Liechtenstein, Monaco e Malta; vignetta annuale in Svizzera, Austria e Repubblica Ceca (nessun pedaggio per tragitto) — nessun pedaggio né vignetta a Guernsey e Jersey.",
+      'footer.text': "Rotta verso l'ignoto — un generatore ludico, nessun dato viene mai inviato da nessuna parte. Comuni: IGN / geo.api.gouv.fr (Etalab) per la Francia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogallo, Belgio, Paesi Bassi, Lussemburgo, Svizzera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Repubblica Ceca e Polonia. Punti d'interesse e sfondo mappa: © i contributori di OpenStreetMap (licenza ODbL). Pedaggi: VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallo), Autostrade per l'Italia (Italia) — autostrade gratuite in Belgio, Andorra, Paesi Bassi, Lussemburgo, Germania, San Marino, Liechtenstein, Monaco, Malta e Polonia (tranne tre tratti in concessione); vignetta annuale in Svizzera, Austria e Repubblica Ceca (nessun pedaggio per tragitto) — nessun pedaggio né vignetta a Guernsey e Jersey.",
       'footer.legalMentions': 'Note legali',
       'footer.privacyPolicy': 'Informativa sulla privacy',
 
@@ -1962,7 +1962,7 @@
 
       'again.button': 'Tirar ina autra destinaziun',
 
-      'footer.text': "Direcziun l'ignot — in generatur ludic, nagina data na vegn mai tramessa nunder che saja. Vischnancas: IGN / geo.api.gouv.fr (Etalab) per Frantscha, GeoNames (licenza CC-BY) per Andorra, Spagna, Portugal, Belgia, ils Pajais Bass, Luxemburg, la Svizra, la Germania, l'Italia, l'Austria, San Marino, il Liechtenstein, Monaco, Malta, Guernsey, Jersey e la Republica tscheca. Puncts d'interess e fund da charta: © ils contribuents da OpenStreetMap (licenza ODbL). Taxas da via: VINCI Autoroutes (Frantscha), Autopistas (Spagna), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia) — autostradas gratuitas en Belgia, Andorra, ils Pajais Bass, Luxemburg, la Germania, San Marino, il Liechtenstein, Monaco e Malta; vigneta annuala en Svizra, en Austria ed en la Republica tscheca (nagina taxa per viadi) — nagina taxa da via ni vigneta a Guernsey e Jersey.",
+      'footer.text': "Direcziun l'ignot — in generatur ludic, nagina data na vegn mai tramessa nunder che saja. Vischnancas: IGN / geo.api.gouv.fr (Etalab) per Frantscha, GeoNames (licenza CC-BY) per Andorra, Spagna, Portugal, Belgia, ils Pajais Bass, Luxemburg, la Svizra, la Germania, l'Italia, l'Austria, San Marino, il Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica tscheca e la Pòlonia. Puncts d'interess e fund da charta: © ils contribuents da OpenStreetMap (licenza ODbL). Taxas da via: VINCI Autoroutes (Frantscha), Autopistas (Spagna), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia) — autostradas gratuitas en Belgia, Andorra, ils Pajais Bass, Luxemburg, la Germania, San Marino, il Liechtenstein, Monaco, Malta e la Pòlonia (ordvart trais troncs concedids); vigneta annuala en Svizra, en Austria ed en la Republica tscheca (nagina taxa per viadi) — nagina taxa da via ni vigneta a Guernsey e Jersey.",
       'footer.legalMentions': 'Indicaziuns legalas',
       'footer.privacyPolicy': 'Directiva da protecziun da datas',
 
@@ -2183,7 +2183,7 @@
 
       'again.button': 'En anner Reisdoel utloten',
 
-      'footer.text': 'Kurs op dat Unbekannte — en spöölschen Generator, dat warrt nienich Daten sennt. Gemeenden: IGN / geo.api.gouv.fr (Etalab) för Frankriek, GeoNames (CC-BY-Lizenz) för Andorra, Spanien, Portugal, Belgien, de Nedderlannen, Luxemburg, de Swiez, Düütschland, Italien, Oostriek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey un Tschechien. Sehenswöördigkeiten un Kaartgrund: © de OpenStreetMap-Mitmakers (ODbL-Lizenz). Toll: VINCI Autoroutes (Frankriek), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien) — tollfrie Autobahnen in Belgien, Andorra, de Nedderlannen, Luxemburg, Düütschland, San Marino, Liechtenstein, Monaco un Malta; jährliche Vignette in de Swiez, in Oostriek un in Tschechien (keen Toll per Reis) — keen Toll un keen Vignette op Guernsey un Jersey.',
+      'footer.text': 'Kurs op dat Unbekannte — en spöölschen Generator, dat warrt nienich Daten sennt. Gemeenden: IGN / geo.api.gouv.fr (Etalab) för Frankriek, GeoNames (CC-BY-Lizenz) för Andorra, Spanien, Portugal, Belgien, de Nedderlannen, Luxemburg, de Swiez, Düütschland, Italien, Oostriek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien un Polen. Sehenswöördigkeiten un Kaartgrund: © de OpenStreetMap-Mitmakers (ODbL-Lizenz). Toll: VINCI Autoroutes (Frankriek), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien) — tollfrie Autobahnen in Belgien, Andorra, de Nedderlannen, Luxemburg, Düütschland, San Marino, Liechtenstein, Monaco, Malta un Polen (buten dree Konzessschoonsafsnitten); jährliche Vignette in de Swiez, in Oostriek un in Tschechien (keen Toll per Reis) — keen Toll un keen Vignette op Guernsey un Jersey.',
       'footer.legalMentions': 'Rechtlich Angaven',
       'footer.privacyPolicy': 'Datenschutz',
 
@@ -2406,7 +2406,7 @@
 
       'again.button': 'Druhi cil wupytać',
 
-      'footer.text': 'Kurs do njeznateho — spěłna generator, žadyn dataj so ženje njesela. Gmejny: IGN / geo.api.gouv.fr (Etalab) za Francosku, GeoNames (licenca CC-BY) za Andorru, Španisku, Portugalsku, Belgisku, Nižozemsku, Luxemburgsku, Šwicarsku, Němsku, Italsku, Rakusku, San Marino, Liechtenstein, Monako, Maltu, Guernsey, Jersey a Čěsku republiku. Wobhladowanske dypki a kartowe pozadźe: © sobuskutkowarjo OpenStreetMap (licenca ODbL). Myto: VINCI Autoroutes (Francoska), Autopistas (Španiska), Via Verde/Ascendi (Portugalska), Autostrade per l’Italia (Italska) — myta-swobodne awtodróhi w Belgiskej, Andorrje, Nižozemskej, Luxemburgskej, Němskej, San Marinje, Liechtensteinje, Monaku a Malće; lětna vignetka w Šwicarskej, w Rakuskej a w Čěskej republice (žane myto na jězbu) — žane myto a žana vignetka na Guernseyu a Jerseyu.',
+      'footer.text': 'Kurs do njeznateho — spěłna generator, žadyn dataj so ženje njesela. Gmejny: IGN / geo.api.gouv.fr (Etalab) za Francosku, GeoNames (licenca CC-BY) za Andorru, Španisku, Portugalsku, Belgisku, Nižozemsku, Luxemburgsku, Šwicarsku, Němsku, Italsku, Rakusku, San Marino, Liechtenstein, Monako, Maltu, Guernsey, Jersey, Čěsku republiku a Pólsku. Wobhladowanske dypki a kartowe pozadźe: © sobuskutkowarjo OpenStreetMap (licenca ODbL). Myto: VINCI Autoroutes (Francoska), Autopistas (Španiska), Via Verde/Ascendi (Portugalska), Autostrade per l’Italia (Italska) — myta-swobodne awtodróhi w Belgiskej, Andorrje, Nižozemskej, Luxemburgskej, Němskej, San Marinje, Liechtensteinje, Monaku, Malće a Pólskej (znajmjeńša tři koncesionowane wotrězki wuwzate); lětna vignetka w Šwicarskej, w Rakuskej a w Čěskej republice (žane myto na jězbu) — žane myto a žana vignetka na Guernseyu a Jerseyu.',
       'footer.legalMentions': 'Prawniske pokazki',
       'footer.privacyPolicy': 'Škit datow',
 
@@ -2630,7 +2630,7 @@
 
       'again.button': 'En üder reisdoal lucht',
 
-      'footer.text': 'Kurs tu det unbekannte — en spöölsk generator, nian dooten wårde ai fuurtstüürd. Gemiine: IGN / geo.api.gouv.fr (Etalab) foor Frankrik, GeoNames (CC-BY-lizens) foor Andorra, Spaanien, Portugal, Belgien, Nedderlönje, Luxemburg, dai Swiits, Düütsklönj, Italien, Österiek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey an Tschechien. Sååchtjensweerdiheeden an kaart-uunergrünj: © dai OpenStreetMap-mäduurbeeders (ODbL-lizens). Tol: VINCI Autoroutes (Frankrik), Autopistas (Spaanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien) — tolfrii autobahne önj Belgien, Andorra, Nedderlönje, Luxemburg, Düütsklönj, San Marino, Liechtenstein, Monaco an Malta; iaarli vignet önj dai Swiits, önj Österiek an önj Tschechien (nian tol per reise) — nian tol jam nian vignet önj Guernsey an Jersey.',
+      'footer.text': 'Kurs tu det unbekannte — en spöölsk generator, nian dooten wårde ai fuurtstüürd. Gemiine: IGN / geo.api.gouv.fr (Etalab) foor Frankrik, GeoNames (CC-BY-lizens) foor Andorra, Spaanien, Portugal, Belgien, Nedderlönje, Luxemburg, dai Swiits, Düütsklönj, Italien, Österiek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien an Polen. Sååchtjensweerdiheeden an kaart-uunergrünj: © dai OpenStreetMap-mäduurbeeders (ODbL-lizens). Tol: VINCI Autoroutes (Frankrik), Autopistas (Spaanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien) — tolfrii autobahne önj Belgien, Andorra, Nedderlönje, Luxemburg, Düütsklönj, San Marino, Liechtenstein, Monaco, Malta an Polen (bihaale trii konzessionsstriaken); iaarli vignet önj dai Swiits, önj Österiek an önj Tschechien (nian tol per reise) — nian tol jam nian vignet önj Guernsey an Jersey.',
       'footer.legalMentions': 'Juristisk uunwiisinge',
       'footer.privacyPolicy': 'Dooten-schuts',
 
@@ -2851,7 +2851,7 @@
 
       'again.button': 'Tirare un\'àtera destinatzione',
 
-      'footer.text': 'Rutta a s\'ignotu — unu generadore ludicu, peruna dada benit imbiada in logu perunu. Biddas: IGN / geo.api.gouv.fr (Etalab) pro sa Frantza, GeoNames (litzèntzia CC-BY) pro Andorra, Ispagna, Portugallu, Belgiu, Bassos Paisos, Lussemburgu, Isvìtzera, Germània, Itàlia, Àustria, Santu Marinu, Liechtenstein, Mònaco, Malta, Guernsey, Jersey e sa Repùblica Tzeca. Puntos de interessu e fundale de mapa: © is contribuidores de OpenStreetMap (litzèntzia ODbL). Pedàgios: VINCI Autoroutes (Frantza), Autopistas (Ispagna), Via Verde/Ascendi (Portugallu), Autostrade per l\'Italia (Itàlia) — autostradas gratuitas in Belgiu, Andorra, in is Bassos Paisos, in Lussemburgu, in Germània, in Santu Marinu, in Liechtenstein, in Mònaco e in Malta; vignetta annuale in Isvìtzera, in Àustria e in sa Repùblica Tzeca (peruna pedàgiu a biàgiu) — peruna pedàgiu ne vignetta in Guernsey e Jersey.',
+      'footer.text': 'Rutta a s\'ignotu — unu generadore ludicu, peruna dada benit imbiada in logu perunu. Biddas: IGN / geo.api.gouv.fr (Etalab) pro sa Frantza, GeoNames (litzèntzia CC-BY) pro Andorra, Ispagna, Portugallu, Belgiu, Bassos Paisos, Lussemburgu, Isvìtzera, Germània, Itàlia, Àustria, Santu Marinu, Liechtenstein, Mònaco, Malta, Guernsey, Jersey, sa Repùblica Tzeca e sa Polònia. Puntos de interessu e fundale de mapa: © is contribuidores de OpenStreetMap (litzèntzia ODbL). Pedàgios: VINCI Autoroutes (Frantza), Autopistas (Ispagna), Via Verde/Ascendi (Portugallu), Autostrade per l\'Italia (Itàlia) — autostradas gratuitas in Belgiu, Andorra, in is Bassos Paisos, in Lussemburgu, in Germània, in Santu Marinu, in Liechtenstein, in Mònaco, in Malta e in sa Polònia (francu tres tratos in cuncessione); vignetta annuale in Isvìtzera, in Àustria e in sa Repùblica Tzeca (peruna pedàgiu a biàgiu) — peruna pedàgiu ne vignetta in Guernsey e Jersey.',
       'footer.legalMentions': 'Notas legales',
       'footer.privacyPolicy': 'Polìtica de riservadesa',
 
@@ -3071,7 +3071,7 @@
 
       'again.button': 'Gjavâ une altre destinazion',
 
-      'footer.text': 'Rote viers l\'ignot — un gjeneradôr ludic, nissun dât al ven mai mandât in nissun puest. Comuns: IGN / geo.api.gouv.fr (Etalab) pe Francie, GeoNames (licence CC-BY) par Andore, Spagne, Portugal, Belgjiche, Paîs Bas, Lussemburc, Svuizare, Gjermanie, Italie, Austrie, San Marin, Liechtenstein, Monaco, Malta, Guernsey, Jersey e la Republiche Ceche. Ponts di interès e fondâl di mape: © i contribuents di OpenStreetMap (licence ODbL). Pedaçs: VINCI Autoroutes (Francie), Autopistas (Spagne), Via Verde/Ascendi (Portugal), Autostrade per l\'Italia (Italie) — autostradis gratuitis in Belgjiche, Andore, tai Paîs Bas, in Lussemburc, in Gjermanie, in San Marin, in Liechtenstein, in Monaco e in Malta; vignete anuâl in Svuizare, in Austrie e in Republiche Ceche (nissun pedaç par viaç) — nissun pedaç ni vignete a Guernsey e Jersey.',
+      'footer.text': 'Rote viers l\'ignot — un gjeneradôr ludic, nissun dât al ven mai mandât in nissun puest. Comuns: IGN / geo.api.gouv.fr (Etalab) pe Francie, GeoNames (licence CC-BY) par Andore, Spagne, Portugal, Belgjiche, Paîs Bas, Lussemburc, Svuizare, Gjermanie, Italie, Austrie, San Marin, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republiche Ceche e la Polonie. Ponts di interès e fondâl di mape: © i contribuents di OpenStreetMap (licence ODbL). Pedaçs: VINCI Autoroutes (Francie), Autopistas (Spagne), Via Verde/Ascendi (Portugal), Autostrade per l\'Italia (Italie) — autostradis gratuitis in Belgjiche, Andore, tai Paîs Bas, in Lussemburc, in Gjermanie, in San Marin, in Liechtenstein, in Monaco, in Malta e in Polonie (infûr di trê tratis in concession); vignete anuâl in Svuizare, in Austrie e in Republiche Ceche (nissun pedaç par viaç) — nissun pedaç ni vignete a Guernsey e Jersey.',
       'footer.legalMentions': 'Notis legâls',
       'footer.privacyPolicy': 'Politiche di riservatece',
 
@@ -3295,7 +3295,7 @@
 
       'again.button': 'Tré jö n\'atra destinazion',
 
-      'footer.text': 'Rota vers l\'ignot — n generadú lujec, degun dat vëgn mai menà en degun post. Comuns: IGN / geo.api.gouv.fr (Etalab) per la Franzia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogal, Belgio, Paejes Bas, Lussemburg, Svizera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey y la Republica Ceca. Ponc de interess y sfont de ciarta: © i contribuënc de OpenStreetMap (licenza ODbL). Pedaje: VINCI Autoroutes (Franzia), Autopistas (Spagna), Via Verde/Ascendi (Portogal), Autostrade per l\'Italia (Italia) — autostrades debann te Belgio, Andorra, ti Paejes Bas, en Lussemburg, en Germania, en San Marino, en Liechtenstein, en Monaco y en Malta; vignetta anuala en Svizera, en Austria y en la Republica Ceca (degun pedaje per viac) — degun pedaje ne vignetta a Guernsey y Jersey.',
+      'footer.text': 'Rota vers l\'ignot — n generadú lujec, degun dat vëgn mai menà en degun post. Comuns: IGN / geo.api.gouv.fr (Etalab) per la Franzia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogal, Belgio, Paejes Bas, Lussemburg, Svizera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica Ceca y la Polonia. Ponc de interess y sfont de ciarta: © i contribuënc de OpenStreetMap (licenza ODbL). Pedaje: VINCI Autoroutes (Franzia), Autopistas (Spagna), Via Verde/Ascendi (Portogal), Autostrade per l\'Italia (Italia) — autostrades debann te Belgio, Andorra, ti Paejes Bas, en Lussemburg, en Germania, en San Marino, en Liechtenstein, en Monaco, en Malta y en Polonia (fòra de trëi tòcs en concescion); vignetta anuala en Svizera, en Austria y en la Republica Ceca (degun pedaje per viac) — degun pedaje ne vignetta a Guernsey y Jersey.',
       'footer.legalMentions': 'Aviejes legales',
       'footer.privacyPolicy': 'Politica de privatëza',
 
@@ -3516,7 +3516,7 @@
 
       'again.button': 'Iġbed destinazzjoni oħra',
 
-      'footer.text': "Rotta lejn l-mhux magħruf — ġeneratur ludiku, l-ebda data ma tintbagħat imkien. Bliet: IGN / geo.api.gouv.fr (Etalab) għal Franza, GeoNames (liċenzja CC-BY) għal Andorra, Spanja, il-Portugall, il-Belġju, l-Olanda, il-Lussemburgu, l-Isvizzera, il-Ġermanja, l-Italja, l-Awstrija, San Marino, il-Liechtenstein, Monaco, Malta, Guernsey, Jersey u r-Repubblika Ċeka. Postijiet ta' interess u sfond tal-mappa: © il-kontributuri ta' OpenStreetMap (liċenzja ODbL). Pedaġġi: VINCI Autoroutes (Franza), Autopistas (Spanja), Via Verde/Ascendi (il-Portugall), Autostrade per l'Italia (l-Italja) — awtostradi b'xejn fil-Belġju, f'Andorra, fl-Olanda, fil-Lussemburgu, fil-Ġermanja, f'San Marino, fil-Liechtenstein, f'Monaco u f'Malta; vinjetta annwali fl-Isvizzera, fl-Awstrija u fir-Repubblika Ċeka (l-ebda pedaġġ għal kull vjaġġ) — l-ebda pedaġġ jew vinjetta f'Guernsey u Jersey.",
+      'footer.text': "Rotta lejn l-mhux magħruf — ġeneratur ludiku, l-ebda data ma tintbagħat imkien. Bliet: IGN / geo.api.gouv.fr (Etalab) għal Franza, GeoNames (liċenzja CC-BY) għal Andorra, Spanja, il-Portugall, il-Belġju, l-Olanda, il-Lussemburgu, l-Isvizzera, il-Ġermanja, l-Italja, l-Awstrija, San Marino, il-Liechtenstein, Monaco, Malta, Guernsey, Jersey, ir-Repubblika Ċeka u l-Polonja. Postijiet ta' interess u sfond tal-mappa: © il-kontributuri ta' OpenStreetMap (liċenzja ODbL). Pedaġġi: VINCI Autoroutes (Franza), Autopistas (Spanja), Via Verde/Ascendi (il-Portugall), Autostrade per l'Italia (l-Italja) — awtostradi b'xejn fil-Belġju, f'Andorra, fl-Olanda, fil-Lussemburgu, fil-Ġermanja, f'San Marino, fil-Liechtenstein, f'Monaco, f'Malta u fil-Polonja (ħlief tliet sezzjonijiet ikkonċessjonati); vinjetta annwali fl-Isvizzera, fl-Awstrija u fir-Repubblika Ċeka (l-ebda pedaġġ għal kull vjaġġ) — l-ebda pedaġġ jew vinjetta f'Guernsey u Jersey.",
       'footer.legalMentions': 'Avviż legali',
       'footer.privacyPolicy': 'Politika tal-privatezza',
 
@@ -3748,7 +3748,7 @@
 
       'again.button': 'Tirâ un\'atra destinaçion',
 
-      'footer.text': "Rotta versu l'incoegnusciûu — generatû ludicu, nisciunn-a dæta a l'è mandâ da nisciunn-a parte. Çittæ: IGN / geo.api.gouv.fr (Etalab) pe-a Franza, GeoNames (liçensa CC-BY) pe l'Andorra, a Spagna, u Portugallo, u Belgio, i Paixi Basci, u Lussemburgo, a Sviçera, a Germania, l'Italia, l'Austria, San Marin, u Liechtenstein, Mùnegu, Malta, Guernesey, Jersey e a Repùbrica Céca. Punti d'interesse e fondo de carta: © i contribuenti d'OpenStreetMap (liçensa ODbL). Pedaggi: VINCI Autoroutes (Franza), Autopistas (Spagna), Via Verde/Ascendi (Portugallo), Autostrade per l'Italia (Italia) — autostrade grattis in Belgio, in Andorra, in di Paixi Basci, in Lussemburgo, in Germania, à San Marin, in Liechtenstein, à Mùnegu e à Malta; vignetta anuâ in Sviçera, in Austria e in-a Repùbrica Céca (nisciun pedaggiu pe percorsu) — nisciun pedaggiu nì vignetta in Guernesey e Jersey.",
+      'footer.text': "Rotta versu l'incoegnusciûu — generatû ludicu, nisciunn-a dæta a l'è mandâ da nisciunn-a parte. Çittæ: IGN / geo.api.gouv.fr (Etalab) pe-a Franza, GeoNames (liçensa CC-BY) pe l'Andorra, a Spagna, u Portugallo, u Belgio, i Paixi Basci, u Lussemburgo, a Sviçera, a Germania, l'Italia, l'Austria, San Marin, u Liechtenstein, Mùnegu, Malta, Guernesey, Jersey, a Repùbrica Céca e a Pòlonia. Punti d'interesse e fondo de carta: © i contribuenti d'OpenStreetMap (liçensa ODbL). Pedaggi: VINCI Autoroutes (Franza), Autopistas (Spagna), Via Verde/Ascendi (Portugallo), Autostrade per l'Italia (Italia) — autostrade grattis in Belgio, in Andorra, in di Paixi Basci, in Lussemburgo, in Germania, à San Marin, in Liechtenstein, à Mùnegu, à Malta e in-a Pòlonia (fêua trei tòcchi in concescion); vignetta anuâ in Sviçera, in Austria e in-a Repùbrica Céca (nisciun pedaggiu pe percorsu) — nisciun pedaggiu nì vignetta in Guernesey e Jersey.",
       'footer.legalMentions': 'Mençioin legâ',
       'footer.privacyPolicy': 'Polìtica de privacy',
 
@@ -3967,7 +3967,7 @@
 
       'again.button': "Tither eune aut' destinâtion",
 
-      'footer.text': "Route vers l'inconnu — générateux amusant, pon d'donnée n'est janmais envyée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pouor la France, GeoNames (licence CC-BY) pouor l'Andorre, l'Êspagne, l'Portûgal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesy, Jèrri et la Républyique tchèque. Liuchets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portûgal), Autostrade per l'Italia (Italie) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco et à Malte ; vigniette annuelle en Suisse, en Autriche et en Républyique tchèque (pon d'péage au bond) — pon d'péage ni d'vigniette à Guernesy et Jèrri.",
+      'footer.text': "Route vers l'inconnu — générateux amusant, pon d'donnée n'est janmais envyée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pouor la France, GeoNames (licence CC-BY) pouor l'Andorre, l'Êspagne, l'Portûgal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesy, Jèrri, la Républyique tchèque et la Pologne. Liuchets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portûgal), Autostrade per l'Italia (Italie) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte et en Pologne (fauf trais bonds concédés) ; vigniette annuelle en Suisse, en Autriche et en Républyique tchèque (pon d'péage au bond) — pon d'péage ni d'vigniette à Guernesy et Jèrri.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': "Politique d'privachetè",
 
@@ -4190,7 +4190,7 @@
 
       'again.button': "Tithaïr eune aute destination",
 
-      'footer.text': "Routte vers l'inconnu — générateur amusant, nou n'envaie jamais d'donnée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Êspagne, l'Portugal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesi, Jèrri et la République tchèque. Liuets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco et à Malte ; vignette annuelle en Suisse, en Autriche et en République tchèque (pon d'péage au bond) — pon d'péage ni d'vignette à Guernesi et Jèrri.",
+      'footer.text': "Routte vers l'inconnu — générateur amusant, nou n'envaie jamais d'donnée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Êspagne, l'Portugal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesi, Jèrri, la République tchèque et la Pologne. Liuets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte et en Pologne (sauf trais bonds concédés) ; vignette annuelle en Suisse, en Autriche et en République tchèque (pon d'péage au bond) — pon d'péage ni d'vignette à Guernesi et Jèrri.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': "Politique d'privachetè",
 
@@ -4207,6 +4207,454 @@
       'transport.van.label': 'van',
       'transport.moto.label': 'motocyclette',
       'transport.velo.label': 'bicyclette'
+    },
+    // Kachoube (kaszëbsczi jãzëk, ISO 639-2/3 "csb") et rusyn/lemko (ISO 639-3 "rue") — ajoutés avec
+    // la Pologne (voir COUNTRIES.PL/README, section "Langues", pour le détail des motifs d'inclusion/
+    // exclusion parmi les 5 langues reconnues par la loi polonaise de 2005). Niveau de confiance
+    // comparable au sorabe/frison du Nord (allemand) ou au sarde/frioulan (Italie) : des langues
+    // RÉELLEMENT officielles, dotées d'une édition Wikipédia et de ressources documentées (contrairement
+    // au monégasque/jèrriais/guernésiais), mais nettement moins consultables que les grandes langues
+    // déjà couvertes — approximées ici à partir du polonais avec les dérivations orthographiques les
+    // plus documentées de chaque langue plutôt qu'un vocabulaire vérifié mot à mot ; une relecture par
+    // un locuteur natif reste recommandée avant de considérer ces deux blocs comme définitifs.
+    csb: {
+      'lang.buttonLabel': 'Jãzëk',
+      'lang.searchPlaceholder': 'Szëkac jãzëk…',
+      'lang.searchNoResults': 'Ni ma najdzonégò jãzëka.',
+
+      'hero.eyebrow': 'Generatór tajemnegò road tripù',
+      'hero.title': 'Kùrs na nieznóné',
+      'hero.subtitle': 'twòja przińdnô wanoga jesz ni mô miona',
+      'hero.lede': 'Wpiszë swój sztartowi pùnkt ë swòje ùsłowia. Machina losëje prôwdzëwą trasã dzéń pò dniu — jaż do {maxDays} dni ë {maxStops} gardów.',
+      'hero.disclaimer': 'Gardë, dalekòscë, drogòwé ùpłatë ë môle interesu sã òpiarte na ùrzãdowëch pòdôwkach (IGN/GeoNames, taryfowé wëkôzë spółków autostradów, OpenStreetMap). Czasë jachaniô ë cenë òstôwają szacënkã — wiedno sprôwdzëwôjta prôwdzëwą trasã ë przistãpnosc kwaterë przed wëjachanim.',
+
+      'form.heading': 'Karta drodżi',
+      'form.clockPlaceholder': '— do wëpełnieniô —',
+      'form.city.label': 'Gard sztartu',
+      'form.city.loadingPlaceholder': 'Grôdë sãładëją…',
+      'form.city.placeholder': 'Np. {name} abò {cp}',
+      'form.city.error.required': 'Proszã wpisac gard sztartu.',
+      'form.city.error.selectFromList': 'Wëbierzë gard z lëstë (szëkôj pò miono abò pòcztowim numrze).',
+      'form.dates.label': 'Datë wanogi',
+      'form.dates.arrivalAria': 'Datã sztartu',
+      'form.dates.returnAria': 'Datã pòwrotu',
+      'form.dates.error': 'Datã pòwrotu mùszi bëc tak samò abò pózni jak datã sztartu.',
+      'form.dates.oneDay': '1 dzéń (wanoga tam ë nazôd, bez nocë)',
+      'form.dates.duration1': '{days} dni (1 noc)',
+      'form.dates.durationN': '{days} dni ({nights} nocy)',
+      'form.dates.maxSuffix': ' — nôwiãcy {max} dni',
+      'form.dates.placeholder': '—',
+      'form.budget.label': 'Òglowi bùdżet',
+      'form.budget.economique': 'Ekònomiczny',
+      'form.budget.moyen': 'Strzédny',
+      'form.budget.confortable': 'Wëgòdny',
+      'form.budget.hint': 'Do {max} {currency} / noc (òrientacyjno, 2 dorosłëch) — brëkòwóné do wëpełnieniô szëkaniów na Airbnb/Booking.',
+      'form.transport.label': 'Ôrt transportu',
+      'form.transport.voitureThermique': 'Autół (benzyna/diesel)',
+      'form.transport.voitureHybride': 'Hibridowi autół',
+      'form.transport.voitureElectrique': 'Elektriczny autół',
+      'form.transport.van': 'Wëprôwiony van',
+      'form.transport.moto': 'Mòtoceklã',
+      'form.transport.velo': 'Kòło / bikepacking',
+      'form.toll.label': 'Płatné autostradë dozwòloné',
+      'form.ferry.label': 'Przewòzë promã dozwòloné (òstrowë)',
+      'form.ferry.hint': 'Wëbrané: los mòże wząc Kòrsykã, Balearë, Kanarë abò òstrowë Wadden, złączoné prôwdzëwą linią promù (nigdë samòlotã).',
+      'form.tent.label': 'Wëkrãcac dzëkegò biwakù / nocë w namiece',
+      'form.tent.hint': 'Wëbrané: noce dzëkegò biwakù w ekònomicznym bùdżece sã zastãpioné chëczą/jùrtą/gîte.',
+      'form.radius.label': 'Limit prómienia',
+      'form.radius.modeKm': 'Maks. dalekòsc (km)',
+      'form.radius.modeH': 'Maks. czas pòwrotny (gòdz.)',
+      'form.radius.groupAria': 'Ôrt limitu',
+      'form.radius.decAria': 'Zmiészëc',
+      'form.radius.incAria': 'Zwiãkszëc',
+      'form.radius.unitKm': 'km òd pùnktu sztartu',
+      'form.radius.unitH': 'jachaniô nazôd',
+      'form.radius.hint': 'Tikô sã blós {strong} (drogã nazôd)',
+      'form.radius.hintStrong': 'slédnegò kroku',
+      'form.minDistance.label': 'Dalekòsc òd doma (nieòbrzeszné)',
+      'form.minDistance.minPlaceholder': 'Bez minimum',
+      'form.minDistance.maxPlaceholder': 'Bez maksimum',
+      'form.minDistance.unitMin': 'km nômni',
+      'form.minDistance.unitMax': 'km nôwiãcy',
+      'form.minDistance.hintMin': 'Minimum: pierszi krok bãdze przënômni w tim dalekòscë.',
+      'form.minDistance.hintMax': 'Maksimum: wanoga nigdë nie przekrôczi ti dalekòscë òd pùnktu sztartu, w żódnym mòmence pòbëtu.',
+      'form.launch.button': 'Zrëszëc generatór losowegò road tripù',
+      'form.launch.hint': 'Sekretné môl na cebie żdże.',
+
+      'reveal.drawing': 'Losowanié w tokù…',
+      'reveal.clueIdle': 'Droga je gòtowô gadac.',
+      'reveal.clueSpinning': 'Nieznónô sztrona…',
+      'reveal.clueFinal': 'Òtò twój tajemny pùnkt sztartu.',
+      'reveal.clueReduced': 'Prôwdzëwi môl na cebie żdże.',
+      'reveal.confirmed': 'Cél wëlosowóny',
+      'reveal.stamp': 'Cél pòcwierdzony',
+      'reveal.inhabitants': '{n} mieszkańców',
+      'reveal.poi1': '1 prôwdzewi môl interesu nalazłi',
+      'reveal.poiN': '{n} prôwdzewëch môlów interesu nalazłëch',
+
+      'map.title': 'Karta trasë',
+      'map.note': 'Spódk OpenStreetMap. Pùnktë są zrëchtowóné na prôwdzewëch kòordinatach gardów — linijô łączi krokë jak lot ptôka, prôwdzewô droga wiãcy wije sã.',
+      'map.ariaLabel': 'Karta trasë, spódk OpenStreetMap',
+      'map.departFallback': 'Sztart',
+      'map.returnLabel': 'pòwrót',
+
+      'timeline.title': 'Dziennik pòdróżi',
+      'stats.days': 'dni',
+      'stats.cities': 'gardë',
+      'stats.nights': 'nocy',
+      'stats.totalKm': 'razã',
+      'stats.tollEstimated': 'szacowóné ùpłatë',
+      'stats.tollAvoided': 'wëkrãconé ùpłatë',
+      'stats.ferryTotal': 'prom',
+
+      'day.single': 'Jeden dzéń — tajemnô wanoga tam ë nazôd',
+      'day.return': 'Pòwrót',
+      'day.n': 'Dzéń {n}',
+      'day.nReturn': 'Dzéń {n} — pòwrót',
+      'day.rangeAnd': 'Dnie {a} ë {b}',
+      'day.rangeTo': 'Dnie {a} do {b}',
+      'day.routeTime': '~ {time} na drodze · {km} km',
+      'day.crossingTime': '~ {time} przewòzu · {km} km',
+      'day.stepMystery': 'Tajemny krok: {stop}',
+      'day.returnTo': 'Pòwrót do {stop}',
+
+      'photo.view': 'Òbôczëc òbrôzk {name}',
+      'photo.searching': 'Szëkanié prôwdzewegò òbrôzka…',
+      'photo.real': 'Prôwdzewi òbrôzk · © Wikimedia Commons',
+      'photo.none': 'Ni ma nalazłégò òbrôzka na Wikipedie dlô tegò môlu',
+      'photo.unavailable': 'Òbrôzk niedostãpny — szëkanié òbrôzków w internece',
+      'photo.enlargeAria': 'Zwiãkszëc òbrôzk {name}',
+      'photo.closeAria': 'Zamknąc òbrôzk',
+      'wiki.link': 'Wikipedia ↗',
+
+      'ferry.label': 'Przewòz promã',
+      'ferry.text': '{route} — kòl €{amount} · {duration} przewòzu.',
+      'ferry.route.corsica': 'Kòntinent ↔ Kòrsyka',
+      'ferry.route.balearic': 'Kòntinent ↔ Baleare',
+      'ferry.route.canary': 'Kòntinent ↔ Kanarë',
+      'ferry.route.wadden': 'Kòntinent ↔ Òstrowë Wadden',
+      'ferry.route.sardinia': 'Kòntinent ↔ Sardiniô',
+      'ferry.route.sicily': 'Kòntinent ↔ Sycylëjô',
+      'ferry.route.malta': 'Sycylëjô ↔ Malta',
+      'ferry.route.gozo': 'Malta ↔ Gòzo',
+      'ferry.route.jersey': 'Kòntinent ↔ Jersey',
+      'ferry.route.guernsey': 'Kòntinent ↔ Guernsey',
+      'ferry.route.channelIslands': 'Jersey ↔ Guernsey',
+      'toll.label': 'Ùpłata (taryfa ASF 2026)',
+      'toll.barrierFree': 'wòlny przepłiw, bez bramczi (aùtomatné fakturowanié kamerą)',
+      'toll.barrierClassic': 'klasycznô ùpłata z bramką',
+      'toll.enabled': 'Szacowónô ùpłata: ~€{amount} ({barrier}) — zwëskiwôsz kòl {min} min w przërównanim do drodżi bez ùpłatë.',
+      'toll.disabled': 'Bez ùpłatë (òptacëjô nie wëbranô): mòglë sma zwëskac kòl {min} min na autostradze (~€{amount}, {barrier}).',
+      'vignette.label': 'Winieta autostradowô',
+      'vignette.notice': 'Òbrzeszonô w tim krôju — pamiãtôj ją zamówic przed wëjachanim.',
+      'vignette.link': 'Zamówic ùrzãdowô winietã ↗',
+
+      'charge.label': 'Elektriczné szarżowanié',
+      'charge.text1': '1 szacowóny pòstoj szarżowaniô (~{min} min razã) na chùtczim ładowarce.',
+      'charge.textN': '{n} szacowónëch pòstojów szarżowaniô (~{min} min razã) na chùtczich ładowarkach.',
+
+      'activities.choice': 'Mòżlëwé aktiwnoscë — twój wëbiér',
+      'activities.day': 'Mòżlëwé aktiwnoscë — Dzéń {n}',
+      'activities.loadingReal': '— szëkanié prôwdzewëch môlowëch aktiwnoscy…',
+      'activities.loadingHike': '— szëkanié prôwdzewi znaczony drodżi…',
+
+      'poiType.attraction': 'môlowô atrakcjô',
+      'poiType.museum': 'mùzeùm',
+      'poiType.viewpoint': 'wëzdrzatkòwi pùnkt',
+      'poiType.castle': 'zómk',
+      'poiType.gallery': 'galeriô',
+      'poiType.zoo': 'park zwierzãtów',
+      'poiType.theme_park': 'tematiczny park',
+      'poiType.monument': 'pòmnik',
+      'poiType.memorial': 'pamiątkòwi pòmnik',
+      'poiType.archaeological_site': 'archeòlogiczné môl',
+      'poiType.cave_entrance': 'jama',
+      'poiType.ruins': 'rëjniny',
+      'poiType.fort': 'fort',
+      'poiType.citadel': 'cytadela',
+      'poiType.manor': 'dwór',
+      'poiType.chapel': 'kaplëca',
+      'poiType.place_of_worship': 'môl mòdlëtwë',
+      'poiType.nature_reserve': 'przërodny rezerwat',
+      'poiType.peak': 'szpëca',
+      'poiType.waterfall': 'wòdospôd',
+      'poiType.beach': 'brzég',
+      'poiType.artwork': 'ùmiejny dokôz',
+      'poiType.fallback': 'môlowô atrakcjô',
+      'poiType.walkFallback': 'przechôdzka',
+      'poiType.generic': 'do zrobieniô na môlu',
+
+      'generic.walk': 'Piesza wanoga abò przechôdzka w òkòlim',
+      'generic.market': 'Môlowi torg ë regionalné produktë (dnie do sprôwdzeniô na môlu)',
+      'generic.church': 'Òbôczëc kòscół abò môlowi bùdowny spôdk',
+      'generic.stroll': 'Przechôdzka pò starim centrum',
+      'generic.producer': 'Òdkrëc môlowégò producenta abò rzemiãsnika',
+
+      'hike.sourceLabel': 'Zdrój: Visorando ↗',
+      'hike.defaultType': 'znaczonô wanoga',
+
+      'lodging.find': 'Nalezc môl na spanié · {range}',
+      'lodging.airbnb': 'Airbnb ↗',
+      'lodging.booking': 'Booking.com ↗',
+      'lodging.economiqueTent': 'Kemping, dzëczi biwak abò przërodny môl (nisczi bùdżet)',
+      'lodging.economiqueNoTent': 'Hostel, prosti pòkój abò môłi hotel (dzëczi biwak wëkrãcony)',
+      'lodging.moyen': 'Gîte, gòscynny dom abò hotel 2-3★',
+      'lodging.confortable': 'Bùtikòwi hotel abò wësokòklasowé wënajãcé',
+
+      'end.label': 'Misëjô skùńcônô',
+      'end.text': 'Nazôd doma, tajemnô wanoga zakùńczonô.',
+
+      'export.hint': 'Ta wanoga cebie kùsi? Pamiãtôj ją zladowac, chùtkò gwës ju wicy sã nie zjawi.',
+      'export.button': 'Eksportowac tã trasã jakò PDF',
+      'export.generating': 'Generowanié PDF…',
+      'export.error': 'Generowanié PDF sã nie ùdało — sprobùjta znowa za chwilã.',
+
+      'pack.title': 'Torba do przërëchtowaniô',
+      'pack.subDefault': 'Òbrzeszné rzeczë na tã tajemną misëjã',
+      'pack.sub': 'Dlô {transport}, bùdżet {budget}.',
+
+      'again.button': 'Wëlosowac jinszi cél',
+
+      'footer.text': 'Kùrs na nieznóné — zabôwny generatór, żódné dôwné nie są nigdë nikąd wësłóné. Gardë: IGN / geo.api.gouv.fr (Etalab) dlô Francji, GeoNames (licencjô CC-BY) dlô Andorë, Szpaniji, Pòrtugaliji, Belgii, Niderlandów, Lëksemburga, Szwajcariji, Miemiec, Italiji, Aùstriji, San Marina, Liechtensteinu, Monaka, Malti, Guernsey, Jersey, Czeskijè Repùbliczi ë Pòlsczi. Môle interesu ë spódk mapë: © wespółrobôrze OpenStreetMap (licencjô ODbL). Ùpłatë: VINCI Autoroutes (Francjô), Autopistas (Szpanijô), Via Verde/Ascendi (Pòrtugaliô), Autostrade per l\'Italia (Italiô) — darmòwé autostradë w Belgii, w Andorze, w Niderlandach, w Lëksemburgù, w Miemcach, w San Marinie, w Liechtensteinie, w Monakù ë na Malce; roczné winiete w Szwajcariji, w Aùstriji ë w Czeskji Repùblice (bez ùpłatë za drogã) — bez ùpłatë ani winietë na Guernsey ë Jersey.',
+      'footer.legalMentions': 'Prawné wëdowiedno',
+      'footer.privacyPolicy': 'Pòliticzka priwatnoscë',
+
+      'error.loadData': 'Nie szło zaladowac dôwnëch ({msg}). Sprôwdzë, że serwer słëżi katalog public/data.',
+      'error.routeImpossible': 'Nie szło terô zbùdowac trasë z tegò gardu — sprobùjta znowa, abò zwiãkszëta prómień.',
+      'error.minMaxDistance': 'Minimalnô dalekòsc ({min} km) nie mòże przekrôczëc maksymalny dalekòscë ({max} km).',
+      'error.minDistanceContextDay': '1 dzéń ë bez nocë',
+      'error.minDistanceContextNight': '1 noc',
+      'error.minDistanceTooFar': 'Nie mòżlëwé: przë blós {context}, nie mòżeta bëc przënômni {min} km dalek ë wrócëc w wëbrónym prómieniu/czasu pòwrotu ({radius} km). Zwiãkszëta czas wanogi, zmiészëta minimalną dalekòsc, abò zwiãkszëta maksymalny prómień.',
+
+      'transport.voitureThermique.label': 'autół',
+      'transport.voitureHybride.label': 'hibridowi autół',
+      'transport.voitureElectrique.label': 'elektriczny autół',
+      'transport.van.label': 'van',
+      'transport.moto.label': 'mòtoceklã',
+      'transport.velo.label': 'kòło'
+    },
+    // Voir l'avertissement de fiabilité au-dessus du bloc "csb" — vaut aussi pour ce bloc (rusyn,
+    // reconnu en Pologne sous le nom "lemko" — voir README, section "Langues"), avec une réserve
+    // SUPPLÉMENTAIRE : contrairement au kachoube (alphabet latin, proche du polonais que je maîtrise
+    // bien), le rusyn s'écrit en alphabet cyrillique et est une langue est-slave proche de
+    // l'ukrainien — approximé ici à partir de l'ukrainien avec les conventions orthographiques
+    // cyrilliques historiques attestées pour la norme lemko de Pologne (ex. lettres "ы"/"ъ" conservées,
+    // abandonnées par l'ukrainien moderne — voir aliases-pl.txt, ex. "Новы Сонч" pour "Nowy Sącz").
+    rue: {
+      'lang.buttonLabel': 'Язык',
+      'lang.searchPlaceholder': 'Шукати язык…',
+      'lang.searchNoResults': 'Не найдено жадного язика.',
+
+      'hero.eyebrow': 'Ґенератор тайомної подорожі дорогом',
+      'hero.title': 'Курс на незнаме',
+      'hero.subtitle': 'твоя наступна подорож ищи не мать імени',
+      'hero.lede': 'Впиши свій пункт старту і твої умовы. Машина тягне на лос правдиву трасу день за днем — аж до {maxDays} днів і {maxStops} містъ.',
+      'hero.disclaimer': 'Міста, дистанції, дорожні оплаты і місця інтересу оперты на офіцияльных даных (IGN/GeoNames, тарифны вылазы автострадных компаній, OpenStreetMap). Час подорожі і ціны остают оцінками — все перевіряй правдиву трасу і достепность квартелі перед виїздом.',
+
+      'form.heading': 'Карта дорогы',
+      'form.clockPlaceholder': '— треба выповнити —',
+      'form.city.label': 'Місто старту',
+      'form.city.loadingPlaceholder': 'Міста ся ладуют…',
+      'form.city.placeholder': 'Напр. {name} або {cp}',
+      'form.city.error.required': 'Просимо вписати місто старту.',
+      'form.city.error.selectFromList': 'Вибери місто зо списку (шукай по імени або поштовім коді).',
+      'form.dates.label': 'Даты подорожі',
+      'form.dates.arrivalAria': 'Дата старту',
+      'form.dates.returnAria': 'Дата повороту',
+      'form.dates.error': 'Дата повороту мусить быти тим самым днем або пізнійше, як дата старту.',
+      'form.dates.oneDay': '1 день (подорож туды-назад, без ночі)',
+      'form.dates.duration1': '{days} днів (1 ніч)',
+      'form.dates.durationN': '{days} днів ({nights} ночей)',
+      'form.dates.maxSuffix': ' — максимально {max} днів',
+      'form.dates.placeholder': '—',
+      'form.budget.label': 'Загальний буджет',
+      'form.budget.economique': 'Економічний',
+      'form.budget.moyen': 'Середній',
+      'form.budget.confortable': 'Комфортний',
+      'form.budget.hint': 'До {max} {currency} / ніч (орьєнтацийно, 2 дорослых) — вжите на выповнення пошуків Airbnb/Booking.',
+      'form.transport.label': 'Спосіб транспорту',
+      'form.transport.voitureThermique': 'Авто (бензин/дизель)',
+      'form.transport.voitureHybride': 'Гібридне авто',
+      'form.transport.voitureElectrique': 'Електричне авто',
+      'form.transport.van': 'Обладнаний ван',
+      'form.transport.moto': 'Мотоцикль',
+      'form.transport.velo': 'Ровер / bikepacking',
+      'form.toll.label': 'Платны автострады дозволены',
+      'form.ferry.label': 'Переправы поромом дозволены (острови)',
+      'form.ferry.hint': 'Обране: лос може взяти Корсику, Балеары, Канары або острови Вадден, злучены правдивом лінійом порому (нияк літаком).',
+      'form.tent.label': 'Уникати дикого біваку / ночей в наметі',
+      'form.tent.hint': 'Обране: ночі дикого біваку економічного буджету заміняны на хижу/юрту/gîte.',
+      'form.radius.label': 'Ліміт радіуса',
+      'form.radius.modeKm': 'Максимальна дистанція (км)',
+      'form.radius.modeH': 'Максимальний час повороту (год.)',
+      'form.radius.groupAria': 'Тип ліміту',
+      'form.radius.decAria': 'Зменшити',
+      'form.radius.incAria': 'Збільшити',
+      'form.radius.unitKm': 'км од пункту старту',
+      'form.radius.unitH': 'подорожі повороту',
+      'form.radius.hint': 'Ся тыче лем {strong} (дорогы назад)',
+      'form.radius.hintStrong': 'остатнього кроку',
+      'form.minDistance.label': 'Дистанція од дому (необовязкова)',
+      'form.minDistance.minPlaceholder': 'Без мінімума',
+      'form.minDistance.maxPlaceholder': 'Без максимума',
+      'form.minDistance.unitMin': 'км мінімально',
+      'form.minDistance.unitMax': 'км максимально',
+      'form.minDistance.hintMin': 'Мінімум: перший крок буде принайменше на тій дистанції.',
+      'form.minDistance.hintMax': 'Максимум: подорож николи не перевышить тоту дистанцію од пункту старту, в жаднім моменті побыту.',
+      'form.launch.button': 'Пустити ґенератор лосової подорожі дорогом',
+      'form.launch.hint': 'Секретна ціль на тя чекать.',
+
+      'reveal.drawing': 'Лосованя в токох…',
+      'reveal.clueIdle': 'Дорога ся готова промовити.',
+      'reveal.clueSpinning': 'Незнаный напрям…',
+      'reveal.clueFinal': 'Ту твій тайомный пункт старту.',
+      'reveal.clueReduced': 'Правдиве місце на тя чекать.',
+      'reveal.confirmed': 'Ціль вылосована',
+      'reveal.stamp': 'Ціль потверджена',
+      'reveal.inhabitants': '{n} жытелів',
+      'reveal.poi1': '1 правдиве місце інтересу найдене',
+      'reveal.poiN': '{n} правдивых місць інтересу найденых',
+
+      'map.title': 'Мапа трасы',
+      'map.note': 'Тло OpenStreetMap. Пункты суть положены на правдивых координатах міст — лінія лучить крокы як лет птаха, правдива дорога сі більше вивать.',
+      'map.ariaLabel': 'Мапа трасы, тло OpenStreetMap',
+      'map.departFallback': 'Старт',
+      'map.returnLabel': 'поворот',
+
+      'timeline.title': 'Журнал подорожі',
+      'stats.days': 'днів',
+      'stats.cities': 'міст',
+      'stats.nights': 'ночей',
+      'stats.totalKm': 'разом',
+      'stats.tollEstimated': 'оцінены оплаты',
+      'stats.tollAvoided': 'унакнены оплаты',
+      'stats.ferryTotal': 'пором',
+
+      'day.single': 'Єден день — тайомна подорож туды-назад',
+      'day.return': 'Поворот',
+      'day.n': 'День {n}',
+      'day.nReturn': 'День {n} — поворот',
+      'day.rangeAnd': 'Дні {a} і {b}',
+      'day.rangeTo': 'Дні {a} до {b}',
+      'day.routeTime': '~ {time} на дорозі · {km} км',
+      'day.crossingTime': '~ {time} переправы · {km} км',
+      'day.stepMystery': 'Тайомный крок: {stop}',
+      'day.returnTo': 'Поворот до {stop}',
+
+      'photo.view': 'Видіти світлину {name}',
+      'photo.searching': 'Шуканя правдивой світлины…',
+      'photo.real': 'Правдива світлина · © Wikimedia Commons',
+      'photo.none': 'Не найдена світлина на Вікіпедії про тото місце',
+      'photo.unavailable': 'Світлина недоступна — шуканя світлин в інтернеті',
+      'photo.enlargeAria': 'Збільшити світлину {name}',
+      'photo.closeAria': 'Затворити світлину',
+      'wiki.link': 'Вікіпедія ↗',
+
+      'ferry.label': 'Переправа поромом',
+      'ferry.text': '{route} — коло €{amount} · {duration} переправы.',
+      'ferry.route.corsica': 'Континент ↔ Корсика',
+      'ferry.route.balearic': 'Континент ↔ Балеары',
+      'ferry.route.canary': 'Континент ↔ Канары',
+      'ferry.route.wadden': 'Континент ↔ Острови Вадден',
+      'ferry.route.sardinia': 'Континент ↔ Сардинія',
+      'ferry.route.sicily': 'Континент ↔ Сицилія',
+      'ferry.route.malta': 'Сицилія ↔ Мальта',
+      'ferry.route.gozo': 'Мальта ↔ Ґозо',
+      'ferry.route.jersey': 'Континент ↔ Джерзей',
+      'ferry.route.guernsey': 'Континент ↔ Ґернзей',
+      'ferry.route.channelIslands': 'Джерзей ↔ Ґернзей',
+      'toll.label': 'Оплата (тариф ASF 2026)',
+      'toll.barrierFree': "вольный протік, без бар'єры (автоматичне фактурованя камером)",
+      'toll.barrierClassic': "класична оплата з бар'єром",
+      'toll.enabled': 'Оцінена оплата: ~€{amount} ({barrier}) — зыскуєш коло {min} мін. в порівнаню зо дорогом без оплаты.',
+      'toll.disabled': 'Без оплаты (опція не обрана): могли бисте зыскати коло {min} мін. на автостраді (~€{amount}, {barrier}).',
+      'vignette.label': 'Автострадна вінета',
+      'vignette.notice': 'Обовязкова в тій країні — памятай ю замовити перед виїздом.',
+      'vignette.link': 'Замовити офіцияльну вінету ↗',
+
+      'charge.label': 'Електричне заряджаня',
+      'charge.text1': '1 оцінена зупинка заряджаня (~{min} мін. разом) на швидкій заряджарці.',
+      'charge.textN': '{n} оцінены зупинкы заряджаня (~{min} мін. разом) на швидких заряджарках.',
+
+      'activities.choice': 'Можливы активности — твій выбір',
+      'activities.day': 'Можливы активности — День {n}',
+      'activities.loadingReal': '— шуканя правдивых місцевых активностей…',
+      'activities.loadingHike': '— шуканя правдивой значеной дорогы…',
+
+      'poiType.attraction': 'місцева пам\'ятка',
+      'poiType.museum': 'музей',
+      'poiType.viewpoint': 'выглядова точка',
+      'poiType.castle': 'замок',
+      'poiType.gallery': 'ґалерія',
+      'poiType.zoo': 'звіринецькый парк',
+      'poiType.theme_park': 'тематичный парк',
+      'poiType.monument': 'помник',
+      'poiType.memorial': 'памятковый помник',
+      'poiType.archaeological_site': 'археологічне місце',
+      'poiType.cave_entrance': 'печера',
+      'poiType.ruins': 'руины',
+      'poiType.fort': 'форт',
+      'poiType.citadel': 'цитадель',
+      'poiType.manor': 'двір',
+      'poiType.chapel': 'каплиця',
+      'poiType.place_of_worship': 'місце молитвы',
+      'poiType.nature_reserve': 'природный резерват',
+      'poiType.peak': 'верьх',
+      'poiType.waterfall': 'водопад',
+      'poiType.beach': 'пляж',
+      'poiType.artwork': 'уміліцке діло',
+      'poiType.fallback': 'місцева пам\'ятка',
+      'poiType.walkFallback': 'прохід',
+      'poiType.generic': 'до зробленя на місци',
+
+      'generic.walk': 'Піша подорож або прохід в околиці',
+      'generic.market': 'Місцевый торг і регіональны продукты (дні до перевіркы на місци)',
+      'generic.church': 'Видіти церьков або місцеве будовляне надбаня',
+      'generic.stroll': 'Прохід по старім центрі',
+      'generic.producer': 'Одкрыти місцевого продуцента або ремісника',
+
+      'hike.sourceLabel': 'Жрідло: Visorando ↗',
+      'hike.defaultType': 'значена дорога',
+
+      'lodging.find': 'Найти місце на спаня · {range}',
+      'lodging.airbnb': 'Airbnb ↗',
+      'lodging.booking': 'Booking.com ↗',
+      'lodging.economiqueTent': 'Кемпінг, дикый бівак або природне місце (низкый буджет)',
+      'lodging.economiqueNoTent': 'Хостель, простый покій або малый готель (дикый бівак унакненый)',
+      'lodging.moyen': 'Gîte, гостиный дім або готель 2-3★',
+      'lodging.confortable': 'Бутіковый готель або высокоякостне вынайманя',
+
+      'end.label': 'Місия скінчена',
+      'end.text': 'Назад дома, тайомна подорож дорогом закінчена.',
+
+      'export.hint': 'Тота подорож тя спокушать? Памятай ю зладувати, скоро певно вже ся не появить.',
+      'export.button': 'Експортовати тоту трасу як PDF',
+      'export.generating': 'Ґенерованя PDF…',
+      'export.error': 'Ґенерованя PDF ся не удало — спробуй знову за хвилю.',
+
+      'pack.title': 'Торба до приготовленя',
+      'pack.subDefault': 'Потрібне на тоту тайомну місию',
+      'pack.sub': 'Про {transport}, буджет {budget}.',
+
+      'again.button': 'Вылосовати иншу ціль',
+
+      'footer.text': 'Курс на незнаме — забавный ґенератор, жадны даны не суть николи никуды посылани. Міста: IGN / geo.api.gouv.fr (Etalab) про Францію, GeoNames (ліценция CC-BY) про Андору, Еспанію, Портуґалію, Бельґію, Нідерланды, Люксембурґ, Швайцарію, Німеччину, Італію, Австрію, Сан Марино, Ліхтенштайн, Монако, Мальту, Ґернзей, Джерзей, Чеську Республику і Польщу. Місця інтересу і тло мапы: © співробітникы OpenStreetMap (ліценция ODbL). Оплаты: VINCI Autoroutes (Франция), Autopistas (Еспанія), Via Verde/Ascendi (Портуґалія), Autostrade per l\'Italia (Італія) — дармовы автострады в Бельґії, в Андорі, в Нідерландах, в Люксембурґу, в Німеччині, в Сан Марині, в Ліхтенштайні, в Монаку і на Мальті; річна вінета в Швайцарії, в Австрії і в Чеській Республиці (без оплаты за дорогу) — без оплаты і без вінеты на Ґернзею і Джерзею.',
+      'footer.legalMentions': 'Правны звідомленя',
+      'footer.privacyPolicy': 'Політика приватности',
+
+      'error.loadData': 'Не удало ся зладувати даны ({msg}). Перевір, же сервер служить каталог public/data.',
+      'error.routeImpossible': 'Не удало ся тепер збудовати трасу з того міста — спробуй знову, або збільш радіус.',
+      'error.minMaxDistance': 'Мінімальна дистанція ({min} км) не може перевышити максимальну дистанцію ({max} км).',
+      'error.minDistanceContextDay': '1 день і без ночі',
+      'error.minDistanceContextNight': '1 ніч',
+      'error.minDistanceTooFar': 'Неможливе: маючи лем {context}, не можете быти принайменше {min} км далеко і вернути ся в обранім радіусі/часі повороту ({radius} км). Продовжте подорож, зменшіть мінімальну дистанцію, або збільшіть максимальный радіус.',
+
+      'transport.voitureThermique.label': 'авто',
+      'transport.voitureHybride.label': 'гібридне авто',
+      'transport.voitureElectrique.label': 'електричне авто',
+      'transport.van.label': 'ван',
+      'transport.moto.label': 'мотоцикль',
+      'transport.velo.label': 'ровер'
     }
   };
 
@@ -4441,6 +4889,30 @@
       'pack.van': ["Bidon d'ieau à boire", "Bouonbonne à gaz d'camp", "Câles pour mettre à niveau"],
       'pack.moto': ["Casque et gants", "Costume ou pantalon d'plyie", "Sangues élastiques pour les baguages"],
       'pack.velo': ["Sà complet contre les crevaisons", "Sacoches êtanches", "Batterie externe pour l'GPS"]
+    },
+    csb: {
+      'pack.base': ['Ambulancownô torbeczka', 'Wielorazowô flaszka', 'Ładowarka ë externô batéria', 'Rezerwòwé dëtczi', 'Wanoznô playlista'],
+      'pack.economique': ['Spikwôrz na 3 sezonë', 'Kùchnia/palnik kempingòwi', 'Baro lekczi namiot (rezerwa dlô dzëczegò biwakù)'],
+      'pack.moyen': ['Kòmpaktnô toaletnô torbeczka', 'Môłô wanoznô pòdusza'],
+      'pack.confortable': ['Dobri strój na wieczerzã we bùtach', 'Kòmpletny toaletny sztél'],
+      'pack.voitureThermique': ['Dokùmentë autoła ë wôżny prawò jazdë', 'Ambulancownô torbeczka'],
+      'pack.voitureHybride': ['Dokùmentë autoła ë wôżny prawò jazdë', 'Ambulancownô torbeczka'],
+      'pack.voitureElectrique': ['Kabel ładowaniô Typ 2', 'Wieloseceòwô aplikacjô ładowaniô (np. Chargemap)', '20% marża na pòdóną zasëg'],
+      'pack.van': ['Kanister piôrny wòdë', 'Kempingòwi gazowi bùtel', 'Klôcczi do wërównaniô'],
+      'pack.moto': ['Kôsk ë rãkawice', 'Dżdżownica abò dżdżowé bùksë', 'Elastikòwé pasë na baggeż'],
+      'pack.velo': ['Kòmplet do pòprawiaeniô przëkłoceniô', 'Wòdòszczelné torbë', 'Externô batéria do GPS']
+    },
+    rue: {
+      'pack.base': ['Аптечка первой помочі', 'Флешка на воду', 'Заряджарка і зовнішня батерія', 'Резервны гроші', 'Подорожна playlist'],
+      'pack.economique': ['Спальный мішок 3 сезоны', 'Кухарка / кухенка кемпінґова', 'Ультралегкый намет (резерва про дикый бівак)'],
+      'pack.moyen': ['Компактна торбичка гігіены', 'Мала подорожна подушка'],
+      'pack.confortable': ["Гарный стрій на вечерю поза домом", 'Повный набор гігіены'],
+      'pack.voitureThermique': ['Документы авта і важне право їзды', 'Аптечка первой помочі'],
+      'pack.voitureHybride': ['Документы авта і важне право їзды', 'Аптечка первой помочі'],
+      'pack.voitureElectrique': ['Кабель заряджаня Тип 2', 'Мультисетьова аплікация заряджаня (напр. Chargemap)', '20% маржа на подану дальность'],
+      'pack.van': ['Каністер питной воды', 'Кемпінґова газова бутля', 'Клинкы на вырівнаня'],
+      'pack.moto': ['Каска і рукавіці', 'Дощовый стрій або дощовы холошні', 'Еластичны паскы на баґаж'],
+      'pack.velo': ['Повный набор проти проколів', 'Водонепроникны сумкы', 'Зовнішня батерія про GPS']
     }
   };
 

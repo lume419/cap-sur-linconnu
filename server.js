@@ -567,9 +567,13 @@ app.get('/api/pois', async (req, res) => {
   // cette boîte, sans ajustement. Malte, elle, déborde bel et bien au sud : son point le plus
   // méridional (Ħal Far, sud de l'île principale) descend jusqu'à ~35,82°N, sous la borne à 36°
   // héritée de l'Espagne/Portugal — élargie à 35,7° pour la couvrir avec une marge (Gozo, plus au
-  // nord, tenait déjà dans la boîte). Guernesey/Jersey (lat ~49,2-49,5°N, lon ~-2,7 à -1,9°E)
-  // tiennent déjà largement dans la boîte d'origine, sans ajustement.
-  if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 56 || lon < -10 || lon > 19){
+  // nord, tenait déjà dans la boîte). Guernesey/Jersey (lat ~49,2-49,5°N, lon ~-2,7 à -1,9°E) et la
+  // République tchèque (lat ~48,5-51,1°N, lon ~12,1-18,9°E) tenaient déjà largement dans la boîte
+  // d'origine, sans ajustement. La Pologne, elle, déborde nettement à l'est : son point le plus
+  // oriental (près de Zosin, Lubelskie, frontière ukraino-biélorusse) va jusqu'à ~24,15°E, bien
+  // au-delà de la borne à 19° héritée de l'Italie — élargie à 24,2° pour la couvrir avec une marge
+  // (le nord et le sud du pays, lat ~49-54,9°N, tenaient déjà dans la boîte).
+  if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 56 || lon < -10 || lon > 24.2){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
   if(name.length > 120){

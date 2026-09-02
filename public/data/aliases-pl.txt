@@ -1,0 +1,1360 @@
+en;Gmina Żmudź;Żmudź
+pt;Comuna de Żmudź;Żmudź
+en;Gmina Złota;Złota
+pt;Comuna de Złota;Złota
+en;Gmina Zawady;Zawady
+pt;Comuna de Zawady;Zawady
+en;Gmina Zakliczyn;Zakliczyn
+pt;Comuna de Zakliczyn;Zakliczyn
+en;Gmina Żabia Wola;Żabia Wola
+pt;Comuna de Żabia Wola;Żabia Wola
+en;Gmina Wyszki;Wyszki
+pt;Comuna de Wyszki;Wyszki
+rue;Высова;Wysowa-Zdrój
+en;Gmina Wojciechowice;Wojciechowice
+pt;Comuna de Wojciechowice;Wojciechowice
+en;Gmina Wodzisław;Wodzisław
+pt;Comuna de Wodzisław;Wodzisław
+pt;Comuna de Wiślica;Wiślica
+en;Gmina Wieliczki;Wieliczki
+fr;Varsovie;Warszawa
+de;Warschau;Warszawa
+es;Varsovia;Warszawa
+en;Warsaw;Warszawa
+it;Varsavia;Warszawa
+lb;Warschau;Warszawa
+mt;Varsavja;Warszawa
+nds;Warschau;Warszawa
+nl;Warschau;Warszawa
+pt;Varsóvia;Warszawa
+hsb;Waršawa;Warszawa
+en;Gmina Uchanie;Uchanie
+pt;Comuna de Uchanie;Uchanie
+en;Gmina Teresin;Teresin
+pt;Comuna de Teresin;Teresin
+en;Gmina Szypliszki;Szypliszki
+pt;Comuna de Szypliszki;Szypliszki
+de;Gross Schiemanen;Szymany
+en;Gmina Szydłów;Szydłów
+pt;Comuna de Szydłów;Szydłów
+de;Ortelsburg;Szczytno
+rue;Щавниця;Szczawnica
+de;Schwentainen;Świętajno
+en;Gmina Supraśl;Supraśl
+pt;Comuna de Supraśl;Supraśl
+en;Sulęcin;Sulęcin Szlachecki
+de;Tannenberg;Stębark
+de;Grünheide;Stare Uściany
+en;Gmina Stąporków;Stąporków
+pt;Comuna de Stąporków;Stąporków
+de;Staatshausen;Stańczyki
+de;Sosnowka (Woiwodschaft Lublin);Sosnówka
+en;Słochy-Annopolskie;Słochy Annopolskie
+pt;Comuna de Sławno;Sławno
+de;Neudorf;Sławatycze
+en;Gmina Sienno;Sienno
+pt;Comuna de Sienno;Sienno
+en;Gmina Siennica;Siennica
+pt;Comuna de Siennica;Siennica
+en;Gmina Siemiątkowo;Siemiątkowo
+pt;Comuna de Siemiątkowo;Siemiątkowo
+de;Schippenbeil;Sępopol
+en;Gmina Sawin;Sawin
+pt;Comuna de Sawin;Sawin
+en;Gmina Sarnaki;Sarnaki
+pt;Comuna de Sarnaki;Sarnaki
+en;Gmina Sadowne;Sadowne
+pt;Comuna de Sadowne;Sadowne
+en;Gmina Sadowie;Sadowie
+pt;Comuna de Sadowie;Sadowie
+en;Gmina Sadkowice;Sadkowice
+pt;Comuna de Sadkowice;Sadkowice
+pt;Comuna de Sabnie;Sabnie
+en;Gmina Rzeczyca;Rzeczyca
+pt;Comuna de Rzeczyca;Rzeczyca
+rue;Риманів;Rymanów
+rue;Рыболы;Ryboły
+en;Gmina Rudka;Rudka
+pt;Comuna de Rudka;Rudka
+en;Gmina Rachanie;Rachanie
+pt;Comuna de Rachanie;Rachanie
+en;Gmina Puszcza Mariańska;Puszcza Mariańska
+pt;Comuna de Puszcza Mariańska;Puszcza Mariańska
+en;Gmina Purda;Purda
+pt;Comuna de Purda;Purda
+en;Gmina Potworów;Potworów
+pt;Comuna de Potworów;Potworów
+pt;Comuna de Potok Wielki;Potok Wielki
+en;Gmina Policzna;Policzna
+pt;Comuna de Policzna;Policzna
+en;Gmina Połaniec;Połaniec
+pt;Comuna de Połaniec;Połaniec
+nl;Piwniczna Zdrój;Piwniczna-Zdrój
+en;Gmina Piecki;Piecki
+pt;Comuna de Piecki;Piecki
+en;Gmina Pawłów;Pawłów
+pt;Comuna de Pawłów;Pawłów
+de;Arys;Orzysz
+de;Nossberg;Orzechowo
+en;Gmina Orla;Orla
+pt;Comuna de Orla;Orla
+en;Gmina Opole Lubelskie;Opole Lubelskie
+pt;Comuna de Opole Lubelskie;Opole Lubelskie
+en;Gmina Opatowiec;Opatowiec
+pt;Comuna de Opatowiec;Opatowiec
+de;Hohenstein;Olsztynek
+de;Treuburg;Olecko
+en;Nurzec;Nurzec-Stacja
+de;Neusandez;Nowy Sącz
+rue;Новы Сонч;Nowy Sącz
+csb;Nowi Sóncz;Nowy Sącz
+en;New Town;Nowe Miasto
+en;Lake Niegocin;Niegocin
+it;Lago Niegocin;Niegocin
+de;Neidenburg;Nidzica
+nds;Neidenburch;Nidzica
+en;Gmina Nasielsk;Nasielsk
+pt;Comuna de Nasielsk;Nasielsk
+en;Gmina Narol;Narol
+pt;Comuna de Narol;Narol
+en;Gmina Narew;Narew
+pt;Comuna de Narew;Narew
+en;Gmina Mrozy;Mrozy
+pt;Comuna de Mrozy;Mrozy
+en;Gmina Morawica;Morawica
+pt;Comuna de Morawica;Morawica
+en;Gmina Modliborzyce;Modliborzyce
+pt;Comuna de Modliborzyce;Modliborzyce
+en;Gmina Mikołajki;Mikołajki
+pt;Comuna de Mikołajki;Mikołajki
+de;Mikolajki;Mikołajki
+en;Gmina Michałów;Michałów
+pt;Comuna de Michałów;Michałów
+en;Gmina Ludwin;Ludwin
+pt;Comuna de Ludwin;Ludwin
+it;Lublino;Lublin
+de;Lomnica;Łomnica
+de;Lochow;Łochów
+en;Gmina Liw;Liw
+pt;Comuna de Liw;Liw
+de;Heilsberg;Lidzbark Warmiński
+en;Gmina Leśna Podlaska;Leśna Podlaska
+pt;Comuna de Leśna Podlaska;Leśna Podlaska
+rue;Лісько;Lesko
+de;Landshut;Łańcut
+rue;Курув;Kurów
+en;Gmina Księżpol;Księżpol
+pt;Comuna de Księżpol;Księżpol
+de;Krynica Zdroj;Krynica-Zdrój
+de;Gmina Krasnopol;Krasnopol
+en;Gmina Krasnopol;Krasnopol
+pt;Comuna de Krasnopol;Krasnopol
+de;Koschnitz;Kozienice
+de;Korschen;Korsze
+en;Gmina Końskie;Końskie
+pt;Comuna de Końskie;Końskie
+rue;Конечна;Konieczna
+rue;Команьча;Komańcza
+en;Gmina Kolno;Kolno
+de;Knisin;Knyszyn
+en;Gmina Kije;Kije
+pt;Comuna de Kije;Kije
+de;Rastenburg;Kętrzyn
+de;Carlshof;Karolewo
+de;Karlshof;Karolewo
+en;Gmina Józefów nad Wisłą;Józefów nad Wisłą
+pt;Comuna de Józefów nad Wisłą;Józefów nad Wisłą
+de;Seeburg;Jeziorany
+en;Gmina Jędrzejów;Jędrzejów
+pt;Comuna de Jędrzejów;Jędrzejów
+en;Gmina Jedlińsk;Jedlińsk
+pt;Comuna de Jedlińsk;Jedlińsk
+rue;Явіркы;Jaworki
+rue;Ясло;Jasło
+rue;Яслиська;Jaśliska
+de;Jaroslau;Jarosław
+en;Jabłonka;Jabłonka Kościelna
+nl;Iwonicz Zdrój;Iwonicz-Zdrój
+en;Gmina Grodzisk;Grodzisk
+pt;Comuna de Grodzisk;Grodzisk
+en;Gmina Gnojno;Gnojno
+pt;Comuna de Gnojno;Gnojno
+de;Glottau;Głotowo
+de;Lötzen;Giżycko
+de;Lyck;Ełk
+it;Elk;Ełk
+en;Gmina Dzierzgowo;Dzierzgowo
+pt;Comuna de Dzierzgowo;Dzierzgowo
+rue;Динів;Dynów
+de;Guttstadt;Dobre Miasto
+en;Czyżew-Osada;Czyżew
+en;Gmina Czyżew;Czyżew
+it;Czyżew-Osada;Czyżew
+pt;Comuna de Czyżew-Osada;Czyżew
+en;Gmina Czarnocin;Czarnocin
+de;Hardenberg;Ciężkowice
+en;Gmina Ciechanowiec;Ciechanowiec
+pt;Comuna de Ciechanowiec;Ciechanowiec
+en;Gmina Chynów;Chynów
+pt;Comuna de Chynów;Chynów
+en;Gmina Chełmiec;Chełmiec
+pt;Comuna de Chełmiec;Chełmiec
+de;Münsterberg;Cerkiewnik
+en;Gmina Brwinów;Brwinów
+pt;Comuna de Brwinów;Brwinów
+en;Gmina Brochów;Brochów
+pt;Comuna de Brochów;Brochów
+en;Gmina Bogoria;Bogoria
+pt;Comuna de Bogoria;Bogoria
+en;Gmina Bodzanów;Bodzanów
+pt;Comuna de Bodzanów;Bodzanów
+en;Gmina Boćki;Boćki
+pt;Comuna de Boćki;Boćki
+de;Bischofstein;Bisztynek
+nds;Bischsteen;Bisztynek
+en;Bialystok;Białystok
+rue;Босько;Besko
+fr;Barvinek;Barwinek
+rue;Барвінок;Barwinek
+de;Bartenstein;Bartoszyce
+rue;Бортне;Bartne
+en;Gmina Bargłów Kościelny;Bargłów Kościelny
+pt;Comuna de Bargłów Kościelny;Bargłów Kościelny
+de;Wartenburg;Barczewo
+en;Gmina Bakałarzewo;Bakałarzewo
+pt;Comuna de Bakałarzewo;Bakałarzewo
+de;See Suckow;Żukowo
+de;Sohrau;Żory
+de;Dietfurt;Żnin
+de;Reichenstein;Złoty Stok
+csb;Złotowò;Złotów
+de;Flatow;Złotów
+nl;Flatow;Złotów
+csb;Walczembórg;Złocieniec
+en;Gmina Zławieś Wielka;Zławieś Wielka
+pt;Comuna de Zławieś Wielka;Zławieś Wielka
+de;Grünberg;Zielona Góra
+csb;Zelonô Góra;Zielona Góra
+de;Grünberg;Zielonczyn
+de;Broslawitz;Zbrosławice
+en;Gmina Zbójno;Zbójno
+pt;Comuna de Zbójno;Zbójno
+de;Neu Bentschen;Zbąszynek
+de;Schawoine;Zawonia
+de;Sowade;Zawada
+hsb;Žarow;Żary
+de;Sarosle;Zarośle
+de;Sagan;Żagań
+hsb;Zahań;Żagań
+es;Frankenstein;Ząbkowice Śląskie
+csb;Ząbkowice Szląsczé;Ząbkowice Śląskie
+en;Gmina Zabierzów;Zabierzów
+pt;Comuna de Zabierzów;Zabierzów
+csb;Wësokô;Wysoka
+csb;Wërzëskò;Wyrzysk
+de;Langenfuhr;Wygon
+en;Wroclaw;Wrocław
+es;Breslavia;Wrocław
+it;Breslavia;Wrocław
+nds;Breslau;Wrocław
+nl;Breslau;Wrocław
+pt;Breslávia;Wrocław
+de;Wroclaw;Wrocław
+csb;Wòlëń;Wolin
+nds;Wollin;Wolin
+de;Waldersee;Wójcin
+de;Walditz;Włodowice
+csb;Wiôlgô Wies;Władysławowo
+en;Gmina Władysławów;Władysławów
+pt;Comuna de Władysławów;Władysławów
+csb;Wicno;Witnica
+de;Wisla;Wisła
+de;Obersee;Wilczkowo
+de;Wilmesau;Wilamowice
+de;Oppersdorf;Wierzbięcice
+de;Wiegschütz;Większyce
+de;Vandsburg;Więcbork
+csb;Wiãcbórg;Więcbork
+en;Gmina Widawa;Widawa
+pt;Comuna de Widawa;Widawa
+en;Gmina Wicko;Wicko
+csb;Gmina Wickò;Wicko
+pt;Comuna de Wicko;Wicko
+de;Venetia;Wenecja
+csb;Wejrowò;Wejherowo
+csb;Wãgòrzëno;Węgorzyno
+csb;Wdzëdzé;Wdzydze Kiszewskie
+de;Lorenzhof;Wawrzynki
+de;Lawrenzhof;Wawrzynki
+de;Albendorf;Wambierzyce
+de;Deutsch Krone;Wałcz
+csb;Wôłcz;Wałcz
+de;Henkenhagen;Ustronie Morskie
+de;Stolpmünde;Ustka
+csb;Ùskô;Ustka
+de;Kornthal;Ustaszewo
+de;Korntal;Ustaszewo
+de;Aurith;Urad
+csb;Ùscé;Ujście
+de;Tichau;Tychy
+csb;Tëchòwò;Tychowo
+de;Floriansdorf;Tworzyjanów
+csb;Tëpadłë;Tupadły
+en;Gmina Tuliszków;Tuliszków
+pt;Comuna de Tuliszków;Tuliszków
+de;Tütz;Tuczno
+csb;Tëczno;Tuczno
+csb;Tëchòlô;Tuchola
+hsb;Trjebule;Trzebiel
+nds;Treptow an de Rega;Trzebiatów
+csb;Trzébiatowò;Trzebiatów
+csb;Trzcónka;Trzcianka
+de;Thorn;Toruń
+csb;Torń;Toruń
+de;Thomaswaldau;Tomkowice
+de;Tolkemit;Tolkmicko
+csb;Dërszewò;Tczew
+de;Tassau;Taszów
+de;Tarnowitz;Tarnowskie Góry
+de;Tornow;Tarnawa
+en;Gmina Szubin;Szubin
+pt;Comuna de Szubin;Szubin
+csb;Sztëm;Sztum
+hsb;Sprotawa;Szprotawa
+de;Gläsendorf;Szklarnia
+csb;Szëmôłd;Szemud
+de;Groß Schönbrück;Szembruk
+de;Klein Schönbrück;Szembruczek
+de;Neustettin;Szczecinek
+csb;Szczecënkò;Szczecinek
+de;Stettin;Szczecin
+csb;Szczëtno;Szczecin
+it;Stettino;Szczecin
+nds;Stettin;Szczecin
+pt;Estetino;Szczecin
+hsb;Šćećin;Szczecin
+nl;Szczawno Zdrój;Szczawno-Zdrój
+csb;Sëcewice;Sycewice
+de;Swinemünde;Świnoujście
+csb;Swina;Świnoujście
+nds;Swienemünn;Świnoujście
+de;Świnoujście confirm deletion;Świnoujście
+de;Schönau am Katzbach;Świerzawa
+de;Bad Flinsberg;Świeradów-Zdrój
+en;Gmina Świebodzin;Świebodzin
+pt;Comuna de Świebodzin;Świebodzin
+en;Gmina Świecie;Świecie
+pt;Comuna de Świecie;Świecie
+de;Schwerta;Świecie
+csb;Skwilbëno;Świdwin
+de;Schweidnitz;Świdnica
+de;Schwundnig b. Trebnitz;Świątniki
+csb;Sësz;Susz
+de;Summin;Sumin
+csb;Lëpa;Borne Sulinowo
+de;Teichhausen;Sulinowo
+csb;Sëlëczëno;Sulęczyno
+csb;Sëchąń;Suchań
+en;Gmina Studzienice;Studzienice
+csb;Gmina Stëdzéńce;Studzienice
+pt;Comuna de Studzienice;Studzienice
+en;Gmina Strzelin;Strzelin
+pt;Comuna de Strzelin;Strzelin
+de;Klein Strehlitz;Strzeleczki
+nds;Groß Strehlitz;Strzelce Opolskie
+csb;Strzelcé;Strzelce Krajeńskie
+de;Stolzenfelde;Stradzewo
+en;Gmina Stężyca;Stężyca
+csb;Gmina Stãżëca;Stężyca
+csb;Stobnica;Stepnica
+de;Alt Klücken;Stary Klukom
+de;Alt Järshagen;Stary Jarosław
+csb;Starogarda;Starogard Gdański
+csb;Stôrgard;Stargard
+de;Ritzig;Stare Resko
+de;Alt Karbe;Stare Kurowo
+de;Alt Beelitz;Stare Bielice
+csb;Starô Cziszewa;Stara Kiszewa
+en;Gmina Śrem;Śrem
+pt;Comuna de Śrem;Śrem
+de;Silberberg;Srebrna Góra
+de;Silbertal;Srebrna
+de;Brand;Spalona
+de;Eulenberg;Sowiagóra
+en;Gmina Sompolno;Sompolno
+pt;Comuna de Sompolno;Sompolno
+csb;Sominë;Sominy
+de;Falkenstein;Sokólsko
+en;Gmina Sokolniki;Sokolniki
+pt;Comuna de Sokolniki;Sokolniki
+de;Niedersachsen;Sobiejuchy
+de;Schmalzenthin;Smołdzięcino
+de;Stolp;Słupsk
+csb;Stolpsk;Słupsk
+csb;Stôłpsk;Słupsk
+nds;Stolp;Słupsk
+en;Gmina Słubice;Słubice
+en;Gmina Śliwice;Śliwice
+pt;Comuna de Sliwice;Śliwice
+de;Blüchersfelde;Słebowo
+de;Slembowo;Słebowo
+de;Schlawe;Sławno
+csb;Słôwno;Sławno
+de;Rosenfelde;Słabomierz
+de;Skurjew;Skurgwy
+csb;Skarszewë;Skarszewy
+de;Skarben;Skarbienice
+de;Skarbinitz;Skarbienice
+de;Zicker;Sikory
+en;Gmina Sierakowice;Sierakowice
+csb;Gmina Srôkòjce;Sierakowice
+de;Albendorf;Wambierzyce Górne
+de;Schielitz-Hufen;Sielec
+en;Gmina Sicienko;Sicienko
+pt;Comuna de Sicienko;Sicienko
+csb;Sjónowò;Sianowo
+csb;Sanowò;Sianów
+csb;Sãpólno;Sępólno Krajeńskie
+en;Gmina Sędziejowice;Sędziejowice
+pt;Comuna de Sędziejowice;Sędziejowice
+de;Mittelsteine;Ścinawka Średnia
+de;Niedersteine;Ścinawka Dolna
+de;Sarbenau;Sarbinowo
+de;Reppen;Rzepin
+de;Rentschkau;Rzeczkowo
+de;Klein Rehwalde;Rywałdzik
+de;Rennersdorf;Rynarcice
+de;Riedelshausen;Rydlewo
+en;Gmina Ryczywół;Ryczywół
+pt;Comuna de Ryczywół;Ryczywół
+en;Gmina Rybno;Rybno
+pt;Comuna de Rybno;Rybno
+en;Gmina Rusiec;Rusiec
+pt;Comuna de Rusiec;Rusiec
+csb;Rëmiô;Rumia
+de;Schönwald;Roztoki
+csb;Rozłazëno;Rozłazino
+de;Rosenthal;Różanka
+de;Rosenberg (Zülz);Rostkowice
+de;Pulverkrug;Rosiejewo
+de;Steinseifersdorf;Rościszów
+en;Gmina Rojewo;Rojewo
+pt;Comuna de Rojewo;Rojewo
+de;Roggenhausen Schloß;Rogoźno-Zamek
+de;Roggenhausen;Rogóźno
+csb;Réga;Resko
+de;Rettschütz;Redczyce
+csb;Rezecz;Recz
+csb;Rôdzëno;Radzyń Chełmiński
+en;Gmina Radzanowo;Radzanowo
+pt;Comuna de Radzanowo;Radzanowo
+de;Wünschelburg;Radków
+de;Ratibor;Racibórz
+nl;Rabka Zdrój;Rabka-Zdrój
+csb;Përzëca;Pyrzyce
+de;Betkenhammer;Ptusza
+de;Pschow;Pszów
+de;Pless;Pszczyna
+en;Gmina Przywidz;Przywidz
+csb;Gmina Przëwidz;Przywidz
+pt;Comuna de Przywid;Przywidz
+csb;Przedkòwò;Przodkowo
+de;Hermsdorf bei Priebus;Przewoźniki
+hsb;Přibuz;Przewóz
+en;Gmina Przedbórz;Przedbórz
+pt;Comuna de Przedbór;Przedbórz
+en;Pruszcz Pomorski;Pruszcz
+en;Gmina Pruszcz;Pruszcz
+pt;Comuna de Pruszc;Pruszcz
+csb;Prabùtë;Prabuty
+de;Posen;Poznań
+es;Posnania;Poznań
+csb;Pòznóń;Poznań
+nds;Posen;Poznań
+de;Alt Neißbach;Potoczek
+en;Gmina Potęgowo;Potęgowo
+csb;Gmina Pòtãgòwò;Potęgowo
+pt;Comuna de Potęgowo;Potęgowo
+de;Poblotz;Popłocie Wierzchuckie
+csb;Wiôldżi Pòmësk;Pomysk Wielki
+en;Gmina Polska Cerekiew;Polska Cerekiew
+pt;Comuna de Polska Cerekiew;Polska Cerekiew
+de;Polichno-Hauland;Polichno
+csb;Pòlëca;Police
+csb;Pôłczëno;Połczyn-Zdrój
+csb;Pòlanowò;Polanów
+nl;Polanica Zdrój;Polanica-Zdrój
+csb;Môłé Pòdolé;Podole Małe
+de;Podobowitz;Podobowice
+de;Podau;Podobowice
+de;Potthorst;Podobowice
+de;Groß Posemuckel;Podmokłe Wielkie
+de;Klein Posemuckel;Podmokłe Małe
+de;Piepstock;Podlipce
+de;Podgorschin;Podgórzyn
+de;Brandhöft;Podgórzyn
+en;Gmina Poddębice;Poddębice
+pt;Comuna de Poddębice;Poddębice
+de;Groß Plowenz;Płowęż
+csb;Płota;Płoty
+de;Nieder Linde;Platerówka
+de;Schreibendorf;Pisary
+de;Piltsch;Pilszcz
+de;Polchow;Pilchowo
+csb;Piéła;Piła
+de;Pischnitz;Piesienica
+hsb;Pjeńsk;Pieńsk
+de;Petersdorf;Piechowice
+en;Gmina Piątek;Piątek
+pt;Comuna de Piątek;Piątek
+en;Gmina Piaski;Piaski
+pt;Comuna de Piaski;Piaski
+csb;Bersztén;Pełczyce
+en;Gmina Pawłowiczki;Pawłowiczki
+pt;Comuna de Pawłowiczki;Pawłowiczki
+en;Gmina Parzęczew;Parzęczew
+pt;Comuna de Parzęczew;Parzęczew
+de;Otteraue;Otorowo
+de;Klein Ottlau;Otłówko
+de;Auschwitz;Oświęcim
+es;Auschwitz;Oświęcim
+fr;Auschwitz;Oświęcim
+it;Auschwitz;Oświęcim
+nl;Auschwitz;Oświęcim
+de;Osterode;Ostróda
+de;Espenkrug;Osowa
+csb;Òsowô;Osowa
+de;Drossen;Ośno Lubuskie
+en;Gmina Osiek Mały;Osiek Mały
+pt;Comuna de Osiek Mały;Osiek Mały
+en;Gmina Osiek;Osiek
+en;Gmina Osieczna;Osieczna
+pt;Comuna de Osieczna;Osieczna
+en;Gmina Osięciny;Osięciny
+pt;Comuna de Osięciny;Osięciny
+de;Schönau b. Landeck;Orłowiec
+de;Oppeln;Opole
+nds;Oppeln;Opole
+de;Ilkenau;Olkusz
+de;Oliva;Oliwa
+de;Ober-Lesnitz;Oleśnica
+en;Gmina Okonek;Okonek
+pt;Comuna de Okonek;Okonek
+csb;Nitëch;Nowy Staw
+csb;Nowi Dwór;Nowy Dwór Gdański
+de;Gmina Nowosolna;Nowosolna
+en;Gmina Nowosolna;Nowosolna
+pt;Comuna de Nowosolna;Nowosolna
+en;Gmina Nowogród Bobrzański;Nowogród Bobrzański
+pt;Comuna de Nowogród Bobrzański;Nowogród Bobrzański
+csb;Nowô Wôrpinô;Nowe Warpno
+de;Neudorf;Nowa Wieś Zbąska
+de;Hochneuendorf;Nowa Wieś Przywidzka
+csb;Nowô Wies;Nowa Wieś Lęborska
+de;Glatzer Neudorf;Nowa Wies Kłodzka
+de;Neundorf;Nowa Wieś
+de;Neurode;Nowa Ruda
+de;Neu Lomnitz;Nowa Łomnica
+de;Neu Lommnitz;Nowa Łomnica
+de;Marienthal;Niemojów
+de;Luisenau;Niemieńsko
+nds;Nimptsch;Niemcza
+de;Neuendorf;Nowa Wieś
+de;Nassiedel;Nasiedle
+de;Herzogswalde;Nagodzice
+de;Birkholz;Nadborowo
+csb;Żôłdzëno;Myślibórz
+en;Gmina Mycielin;Mycielin
+pt;Comuna de Mycielin;Mycielin
+de;Murtschin;Murczyn
+de;Spindlersfelde;Murczyn
+en;Gmina Moszczenica;Moszczenica
+csb;Mòrzëno;Moryń
+de;Mohrungen;Morąg
+de;Mockrau;Mokre
+de;Hammer;Młoty
+de;Märkisch Friedland;Mirosławiec
+csb;Frédlądk;Mirosławiec
+csb;Mirochòwò;Mirachowo
+csb;Mikrowò;Mikorowo
+de;Nicolai;Mikołów
+nl;Nicolaas;Mikołów
+nl;Nicolai;Mikołów
+de;Nikolai;Mikołów
+csb;Berwôłd;Mieszkowice
+de;Petersdorf;Mierzyn
+en;Gmina Miękinia;Miękinia
+pt;Comuna de Miękinia;Miękinia
+de;Misdroy;Międzyzdroje
+csb;Mizëzdroje;Międzyzdroje
+hsb;Mysdroje;Międzyzdroje
+de;Mittelwalde;Międzylesie
+de;Birnbaum;Międzychód
+de;Michaelsthal;Michałowice
+pt;Comuna de Masłowice;Masłowice
+en;Gmina Marcinowice;Marcinowice
+pt;Comuna de Marcinowice;Marcinowice
+de;Mannsdorf;Mańkowice
+en;Gmina Malechowo;Malechowo
+pt;Comuna de Malechowo;Malechowo
+de;Marienburg;Malbork
+de;Melchingen;Malachin
+en;Gmina Lwówek Śląski;Lwówek Śląski
+pt;Comuna de Lwówek Śląski;Lwówek Śląski
+en;Gmina Lwówek;Lwówek
+pt;Comuna de Lwówek;Lwówek
+csb;Lëzëno;Luzino
+en;Gmina Lututów;Lututów
+pt;Comuna de Lututów;Lututów
+en;Gmina Lutomiersk;Lutomiersk
+pt;Comuna de Lutomiersk;Lutomiersk
+de;Deutsch Leuthen;Lutynia
+csb;Łëpawa;Łupawa
+de;Ludwigsdorf;Ludwikowice Kłodzkie
+de;Leimerwitz;Ludmierzyce
+hsb;Žemŕ;Lubsko
+en;Gmina Łubniany;Łubniany
+pt;Comuna de Łubniany;Łubniany
+de;Lublinitz;Lubliniec
+en;Lublewo;Lublewo Gdańskie
+de;Wildenhagen;Lubin
+de;Lüben;Lubin
+de;Lubiath;Lubiatów
+de;Alt Lobitz;Łowicz Wałecki
+en;Lowicz;Łowicz
+nds;Lowitsch;Łowicz
+es;Lodz;Łódź
+en;Lodz;Łódź
+de;Litzmannstadt;Łódź
+de;Lodz;Łódź
+nds;Laabs;Łobez
+de;Labes;Łobez
+de;Groß Leistenau;Lisnowo
+en;Lisewo;Lisewo Malborskie
+csb;Lëpùsz;Lipusz
+en;Gmina Lipno;Lipno
+csb;Lëpińce;Lipnica
+csb;Lëpienié;Lipiany
+en;Gmina Łęczyce;Łęczyce
+csb;Gmina Łãczëce;Łęczyce
+pt;Comuna de Łęczyce;Łęczyce
+de;Hummelstadt;Lewin Kłodzki
+de;Lewin;Lewin Kłodzki
+de;Lemberg;Lembarg
+hsb;Wjeska;Łęknica
+de;Liegnitz;Legnica
+csb;Lãbórg;Lębork
+en;Leba;Łeba
+csb;Leba;Łeba
+de;Oberlazisk;Łaziska Górne
+de;Laskowitz;Laskowice
+de;Lassig;Laski Lubuskie
+de;Lask;Łask
+csb;Łôsëno;Łasin
+en;Gmina Łanięta;Łanięta
+pt;Comuna de Łanięta;Łanięta
+en;Lądek Zdrój;Lądek-Zdrój
+nl;Lądek Zdrój;Lądek-Zdrój
+de;Ladek Zdroj;Lądek-Zdrój
+de;Labischin;Łabiszyn
+de;Marienwerder;Kwidzyn
+csb;Kwidzëno;Kwidzyn
+de;Bad Kudowa;Kudowa-Zdrój
+en;Gmina Książ Wielkopolski;Książ Wielkopolski
+pt;Comuna de Książ Wielkopolski;Książ Wielkopolski
+csb;Krziż;Krzyż Wielkopolski
+csb;Łësô Góra - Lëpa;Krynica Morska
+de;Crossen an der Oder;Krosno Odrzańskie
+en;Gmina Krośnice;Krośnice
+es;Municipio de Krośnice;Krośnice
+pt;Comuna de Krośnice;Krośnice
+de;Ober Schönfeld;Kraśnik Górny
+de;Nieder Schönfeld;Kraśnik Dolny
+de;Krakau;Kraków
+es;Cracovia;Kraków
+fr;Cracovie;Kraków
+it;Cracovia;Kraków
+nds;Krakau;Kraków
+nl;Krakau;Kraków
+pt;Cracóvia;Kraków
+mt;Krakovja;Kraków
+csb;Krakòwò;Kraków
+sc;Cracòvia;Kraków
+de;Steinbockwerk;Koziczyn
+de;Kohlow;Kowalów
+csb;Kòwôlewò;Kowalewo Pomorskie
+nds;Köslin;Koszalin
+csb;Kòszalëno;Koszalin
+de;Cüstrin;Kostrzyn nad Odrą
+de;Küstrin an der Oder;Kostrzyn nad Odrą
+csb;Kòscérzëno;Kostrzyn nad Odrą
+hsb;Kostrin;Kostrzyn nad Odrą
+de;Häslicht;Kostrza
+en;Gmina Kostomłoty;Kostomłoty
+pt;Comuna de Kostomłoty;Kostomłoty
+en;Gmina Koszęcin;Koszęcin
+pt;Comuna de Koszęcin;Koszęcin
+csb;Kòscérzna;Kościerzyna
+en;Gmina Kościelec;Kościelec
+es;Municipio de Kościelec;Kościelec
+pt;Comuna de Kościelec;Kościelec
+csb;Kòscan;Kościan
+csb;Kòrzëbié;Korzybie
+en;Gmina Konarzyny;Konarzyny
+csb;Gmina Kònôrzënë;Konarzyny
+pt;Comuna de Konarzyny;Konarzyny
+de;Colonnowska;Kolonowskie
+de;Kolberg;Kołobrzeg
+nds;Kolbarg;Kołobrzeg
+csb;Kòlbrzég;Kołobrzeg
+de;Rohrbeck;Kołki
+csb;Kòłczëgłowë;Kołczygłowy
+de;Klotzen;Kłodzino Szczecineckie
+de;Adlig Klodtken;Kłódka Szlachecka
+de;Klosterfelde;Klasztorne
+en;Gmina Kiszkowo;Kiszkowo
+pt;Comuna de Kiszkowo;Kiszkowo
+csb;Cziselëce;Kisielice
+de;Katscher;Kietrz
+de;Schwerin;Kierzkowo
+de;Kierschkowo;Kierzkowo
+fr;Kenty;Kęty
+csb;Hąmer;Kępice
+en;Gmina Kawęczyn;Kawęczyn
+pt;Comuna de Kawęczyn;Kawęczyn
+de;Kattowitz;Katowice
+nds;Kattowitz;Katowice
+csb;Kartuzë;Kartuzy
+csb;Chòrzelëno;Karlino
+de;Neu Steinau;Kamionka
+csb;Kamiéń;Kamień Pomorski
+csb;Kamiéń;Kamień Krajeński
+csb;Kamińca Królewskô;Kamienica Królewska
+de;Steinbach;Kamieńczyk
+en;Gmina Kalisz Pomorski;Kalisz Pomorski
+pt;Comuna de Kalisz Pomorski;Kalisz Pomorski
+de;Kalisch;Kalisz
+de;Dunen;Kaczkowo
+de;Thanndorf;Jodłów
+de;Nauseney;Jeżowice
+de;Stüsseldorf;Jeziorki
+en;Gmina Jeżewo;Jeżewo
+pt;Comuna de Jeżewo;Jeżewo
+en;Gmina Jemielno;Jemielno
+pt;Comuna de Jemielno;Jemielno
+de;Gellenau;Jeleniów
+de;Grüneberg;Jelenie
+nl;Jedlina Zdrój;Jedlina-Zdrój
+de;Jauer;Jawor
+es;Jastrzębie-Zdrój;Jastrzębie Zdrój
+nds;Jastrzębie-Zdrój;Jastrzębie Zdrój
+de;Jastrow;Jastrowie
+csb;Jastarniô;Jastarnia
+nds;Gemeen Heisternest;Jastarnia
+csb;Jaséń;Jasień
+de;Jaroschewo;Jaroszewo
+de;Jarau;Jaroszewo
+de;Garau;Jaroszewo
+de;Jaroslawiec;Jarosławiec
+de;Bartelsheim;Januszkowo
+de;Januschkowo;Januszkowo
+de;Jaden;Jadowniki
+de;Bismarckswalde;Jadowniki
+de;Jadownik;Jadowniki
+csb;Jabłónowò;Jabłonowo Pomorskie
+de;Marienhof;Jabłonkowo
+de;Marienhof bei Appelwerder;Jabłonkowo
+csb;Nierbarg;Ińsko
+hsb;Jiłwa;Iłowa
+de;Deutsch Eylau;Iława
+de;Gubin;Gubiny
+de;Guben;Gubin
+nds;Gripenhagen;Gryfino
+csb;Gripiewò;Gryfino
+de;Greifenberg;Gryfice
+de;Greifenberg in Pommern;Gryfice
+csb;Gripiewô Góra;Gryfice
+de;Graudenz;Grudziądz
+csb;Grëdządz;Grudziądz
+en;Gmina Grabów nad Prosną;Grabów nad Prosną
+pt;Comuna de Grabów nad Prosną;Grabów nad Prosną
+en;Gmina Grabica;Grabica
+pt;Comuna de Grabica;Grabica
+csb;Gòwidlëno;Gowidlino
+de;Arnsfelde;Gostomia
+de;Gustkow;Gostkowo
+csb;Gòscëno;Gościno
+de;Alt Görtzig;Gorzycko
+de;Schöneck;Gorzyce
+csb;Lãdzbarg;Gorzów Wielkopolski
+de;Guhrau;Góra
+en;Gmina Gołuchów;Gołuchów
+pt;Comuna de Gołuchów;Gołuchów
+csb;Gòłonóg;Goleniów
+nds;Gollnow;Goleniów
+csb;Gòlëszewò;Golczewo
+de;Günthersdorf, Kr. Striegau;Godzieszówek
+de;Günthersdorf;Godzieszów
+csb;Gméw;Gniew
+de;Leobschütz;Głubczyce
+en;Gmina Główczyce;Główczyce
+csb;Gmina Główczëce;Główczyce
+pt;Comuna de Główczyce;Główczyce
+es;Glogovia;Głogów
+nds;Glogau;Głogów
+hsb;Hłohow;Głogów
+de;Gleiwitz;Gliwice
+nds;Gleiwitz;Gliwice
+de;Gdingen;Gdynia
+csb;Gdiniô;Gdynia
+nds;Gdingen;Gdynia
+es;Danzig;Gdańsk
+de;Danzig;Gdańsk
+csb;Gduńsk;Gdańsk
+it;Danzica;Gdańsk
+nds;Danzig;Gdańsk
+de;Garnsee;Gardeja
+nds;Frauenburg;Frombork
+de;Striesau;Fordon
+de;Elbing;Elbląg
+nds;Elwing;Elbląg
+de;Kolberger Deep;Dźwirzyno
+csb;Dzywnowò;Dziwnów
+de;Ebersdorf;Dzikowiec
+de;Reichenbach;Dzierżoniów
+de;Reichenbach in Schlesien;Dzierżoniów
+de;Reichenbach im Eulengebirge;Dzierżoniów
+csb;Dzërzgóń;Dzierzgoń
+csb;Dzemiónë;Dziemiany
+de;Reinerz;Duszniki-Zdrój
+de;Bad Reinerz;Duszniki-Zdrój
+nl;Duszniki Zdrój;Duszniki-Zdrój
+en;Gmina Duszniki;Duszniki
+pt;Comuna de Duszniki;Duszniki
+de;Leichholz;Drzewce
+de;Droschkau;Droszków
+csb;Dërżéń;Drezdenko
+csb;Drawno;Drawsko Pomorskie
+csb;Nowi Wedel;Drawno
+de;Ebersdorf;Domaszków
+de;Lindenhorst;Domasławice
+en;Gmina Domaniów;Domaniów
+pt;Comuna de Domaniów;Domaniów
+de;Schönthal;Dolnik
+de;Dollna;Dolna
+de;Niederkirch;Dolna
+de;Hermsdorf;Dolina
+de;Dolgen;Dochanowo
+de;Borkendorf;Dobrzyca
+csb;Jakùbòwò;Dobrzany
+en;Gmina Dobrcz;Dobrcz
+pt;Comuna de Dobrc;Dobrcz
+csb;Dobrô;Dobra
+de;Breitenstein;Dobino
+de;Malinowo;Dobiesławiec
+csb;Dobiegniewò;Dobiegniew
+de;Bad Langenau;Długopole-Zdrój
+de;Ober Langenau;Długopole Górne
+de;Nieder Langenau;Długopole Dolne
+csb;Frédląd;Debrzno
+de;Dammlang;Dębołęka
+csb;Nowé Dãbé;Dębno
+csb;Dãbnica Kaszëbskô;Dębnica Kaszubska
+de;Obersteine;Ścinawka Górna
+de;Rügenwalde;Darłowo
+nds;Rügenwoold;Darłowo
+csb;Dërłowò;Darłowo
+de;Darlowo;Darłowo
+en;Gmina Dąbie;Dąbie
+csb;Człuchòwò;Człuchów
+de;Schloppe;Człopa
+de;Czenstochau;Częstochowa
+de;Rothflössel;Czerwony Strumien
+de;Rothwaltersdorf;Czerwieczyce
+csb;Czérskò;Czersk
+de;Heiderode;Czersk
+en;Gmina Czermin;Czermin
+csb;Czôrnkòwò;Czarnków
+csb;Czôrné;Czarne
+csb;Czôplënkò;Czaplinek
+de;Kattun;Cyk
+en;Gmina Cisek;Cisek
+pt;Comuna de Cisek;Cisek
+de;Teschen;Cieszyn
+nl;Teschen;Cieszyn
+de;Bad Warmbrunn;Cieplice Śląskie Zdrój
+de;Kielau;Chylonia
+csb;Chiloniô;Chylonia
+de;Krastillau;Chróścielów
+csb;Chòsczno;Choszczno
+de;Chorulla;Chorula
+de;Eichgrund;Chomiąża Księża
+de;Konitz;Chojnice
+csb;Chònice;Chojnice
+de;Conitz;Chojnice
+csb;Czińsbarg;Chojna
+en;Gmina Chodów;Chodów
+pt;Comuna de Chodów;Chodów
+csb;Friwôłd;Chociwel
+en;Gmina Chmielno;Chmielno
+csb;Gmina Chmielno;Chmielno
+pt;Comuna de Chmielno;Chmielno
+csb;Chôłmżô;Chełmża
+es;Chelmno;Chełmno
+nl;Chełmno nad Wisłą;Chełmno
+nds;Kulm;Chełmno
+csb;Chôłmno;Chełmno
+de;Seydlitz;Cerekwica
+csb;Cedzëniô;Cedynia
+csb;Bëtowò;Bytów
+de;Habelschwerdt;Bystrzyca Kłodzka
+nds;Brombarg;Bydgoszcz
+csb;Bëdgòszcza;Bydgoszcz
+de;Bromberg;Bydgoszcz
+de;Buchholz;Bukowo
+de;Bukowitz;Bukowiec
+de;Buden;Budy
+de;Birkenfeld;Brzyskorzystew
+de;Briesenitz;Brzeźnica
+nds;Dyhernfurth;Brzeg Dolny
+de;Brinnitz;Brynica
+csb;Brusë;Brusy
+hsb;Brunojce;Bronowice
+de;Brunk;Bronikowo
+en;Gmina Brodnica;Brodnica
+pt;Comuna de Brodnica;Brodnica
+de;Brotzen;Broczyno
+de;Braunsberg/Ermland;Braniewo
+nds;Brunsbarg;Braniewo
+de;Eckersdorf;Bozkow
+csb;Bòrzëszczi;Borzyszkowy
+en;Gmina Borów;Borów
+pt;Comuna de Borów;Borów
+de;Borck;Borek Wielkopolski
+de;Bolkenhain;Bolków
+en;Gmina Bolków;Bolków
+pt;Comuna de Bolków;Bolków
+de;Bunzlau;Bolesławiec
+de;Bottschow;Boczów
+en;Gmina Bobrowo;Bobrowo
+pt;Comuna de Bobrowo;Bobrowo
+de;Biberteich;Bobrówko
+de;Bobischau;Boboszów
+csb;Bóbòlëce;Bobolice
+en;Gmina Błaszki;Błaszki
+pt;Comuna de Błaszki;Błaszki
+de;Bierkow;Bierkowo
+en;Bielsko-Biala;Bielsko-Biała
+de;Bielitz-Biala;Bielsko-Biała
+de;Gmina Bielice;Bielice
+en;Gmina Bielice;Bielice
+pt;Comuna de Bielice;Bielice
+de;Beelitz;Bielice
+de;Biehals;Bieganów
+csb;Biôłô;Biały Bór
+de;Heymannsdorf;Białozewin
+nds;Belgard;Białogard
+csb;Biôłogarda;Białogard
+de;Burg Belchau;Białochowo
+en;Biała Prudnicka;Biała
+pt;Biała Prudnicka;Biała
+csb;Bãdomino;Będomin
+csb;Bôrwica;Barwice
+csb;Berlënkò;Barlinek
+en;Gmina Banie;Banie
+pt;Comuna de Banie;Banie
+en;Gmina Bądkowo;Bądkowo
+pt;Comuna de Bądkowo;Bądkowo
+de;Bomst;Babimost
+en;Gmina Babiak;Babiak
+pt;Comuna de Babiak;Babiak
+pt;Comuna de Aleksandrów;Aleksandrów
+de;Conradshammer;Przymorze
+de;Appelwerder;Jabłonowo
+de;Bevilsthal;Pieczyska
+de;Birkholz;Brzeźniak
+de;Freiwalde;Lesica
+de;Ebersdorf;Domasków
+de;Ziegenberg;Sianożęty
+en;Gmina Mała Wieś;Mała Wieś
+pt;Comuna de Mała Wieś;Mała Wieś
+csb;Czôrnô Dąbrówka;Czarna Dąbrówka
+pt;Comuna de Kocierzew Południowy;Kocierzew Południowy
+de;Erlhof;Brzyskorzystewko
+fr;Vieille ville de Cracovie;Stare Miasto
+fr;Basilique Sainte Marie;Stare Miasto
+de;Neufahrwasser;Nowy Port
+en;7th Manor House;VII Dwór
+csb;Żôbiónka-Wejra-Jelëtkòwò-Tësąclatégò;Żabianka-Wejhera-Jelitkowo-Tysiąclecia
+de;Schöndorf;Glinki
+de;Langnau;Łęgnowo Wieś
+de;Nußdorf;Leszczynki
+de;Nussdorf;Leszczynki
+de;Schomberg (Beuthen);Bytom Szombierki
+de;Beschien;Baszyn
+de;Brambach;Bożejewiczki
+de;Mittel Gerlachsheim;Grabiszyce Średnie
+de;Ober Gerlachsheim;Grabiszyce Górne
+de;Sommerfeld;Kaczkówko
+de;Hohenkamp;Murczynek
+de;Frankenstein;Paryż
+de;Wieneck;Uścikowo
+de;Dietfurt Dorf;Żnin Wieś
+de;Oberbacken Kr. Herrnstadt;Zbaków Górny
+de;Polchlep;Półchleb
+de;Gumtow;Chomętowo
+de;Seeligsfelde;Szeligowo
+de;Zandersdorf;Jarcewo
+de;Bernsdorf;Krągłe
+de;Kappe;Kapice
+de;Rosenfelde;Brzeźniak
+de;Neu Ritzerow;Rycerzewko
+de;Alt Sanskow;Zajączkowo
+de;Neu Sanskow;Zajączkówko
+de;Georgenhütte;Przeręba
+de;Eisenhammer;Rudniki
+de;Brakau;Brokowo
+de;Muttrin;https://en.wikipedia.org/wiki/Motarzyn
+de;Groß Krössin;Krosino
+de;Schofhütten;Sławno
+de;Bramstädt;Toporzyk
+de;Wiesenbach;Sikorzyn
+de;Groß-Rosen;Rogożnica
+de;Alt Liepenfier;Czarnkowie
+de;Alt Koprieben/Coprieben;Luboradza
+de;Neu Grabunz;Grabiążek
+de;Elsenau;Olszanowo
+de;Neu Labuhn;Łabuń Mały
+de;Kartlow;Kartlewo
+de;Hohenwardin;Wardyń Górny
+de;Stremlau;Trzmielewo
+de;Schneidemühl;Kądzielnia
+de;Sichts;Żychce
+de;Königswiese;Leśna Huta
+de;Heidemühl;Borowy Młyn
+de;Garchen;Garnki
+de;Grüssow;Gruszewo
+de;Mandelatz;Modrolas
+de;Dubbertech;Dobrociechy
+de;Goldbeck;Głodowa
+de;Gut Dorfstaedt;Dorfstaedt
+de;Alt Braa;Stara Brda
+de;Grünfelde;Zielonki
+de;Litefken;Litewki
+de;Eickstedtswalde;Dargocice
+de;Klein Pobloth;Pobłocie Małe
+de;Groß Panknin;Pękaninko
+de;Gerfin;Górawino
+de;Lodder;Łodzierz
+de;Georgendorf;Lubkowo
+de;Reckow;Rekowo
+de;Tessensdorf;Nowa Wieś Malborska
+de;Wobrow;Obroty
+de;Zwilipp;Świelubie,
+de;Riwolsdorf;Ubysławice
+de;Viverow;Wiewiórowo
+de;Börnen;Darnowo
+de;Damerkow;Dąbrówka
+de;Lonken;Łąkie
+de;Czarndamerow;Czarna Dąbrowa
+de;Neu Lobitz;Nowy Łowicz
+de;Sadlinken;Sadlinki
+de;Sedlinen;Sadlinki
+de;Plietnitz;Płytnica
+de;Adlig Landeck;Downica
+de;Niederhof;Sobótka
+de;Hagelfelde;Przeczno
+de;Schönow;Dzwonowo
+de;Dolfusbruch;Przyłęg
+de;Emilienau;Emilianowo
+de;Hohenwalde;Wysokie
+de;Gulczewo;Galczewo
+de;Helpe;Chełpa
+de;Cratzinik;Kraśnik
+de;Knakendorff;Rzeczyca
+de;Dronzno;Drążno
+de;Gumnowitz;Gumnowice
+de;Nieder Gondes;Gądecz
+de;Trensatz;Trzęsacz
+de;Friedrichsbruch;Bruki Unislawskie
+de;Raczyniewo;Raciniewo
+de;Wissulke;Wiesiołka
+de;Wilhelmsbruch;Bruki Kokocka
+de;Carlsthal;Orle
+de;Klausdorf;Bucierz
+de;Carwitz;Karwice
+de;Strassforth;Grudna
+de;Carlsdorf;Ługi
+de;Hüttenbusch;Białobłocie
+de;Battrow;Batorówko
+de;Rossgarten;Rozgarty
+de;Schwerin;Zwierzynek
+de;Friedewald;Lasocin
+de;Dohnefelde;Donatowo
+de;Draheim;Drahimek
+de;Lanzen;Łączno
+de;Remmen;Rebno
+de;Schoenwerder;Skowarnki
+de;Jacobsdorf;Jakubowo
+de;Dombrowka;Dąbrówka
+de;Zabudownia;Zabudowania Gajewskie
+de;Weichselburg;Wiśliny
+de;Treugenkohl;Karpiny
+de;Groß Schellenberg;Ogarjowo
+de;Kuiken;Kujki Dolne
+de;Weskeim;Weskajmy
+de;Groß Poninken;Poniki
+de;Lingwarowen;Legwarowo
+de;Pangritz;Elbląg-Zawada
+de;Rückgarben;Rygarby
+de;Sporwienen;Sporwiny
+de;Glaubitten;Glowbity
+de;Wangnick;Wągniki
+de;Vorstadt;Drengfurth
+de;Dambitzen;Elbląg-Dębica
+de;Nicolaiken;Mikolajki
+de;Spitzen;Tatarki
+de;Kaschaunen;Kaszuny
+de;Stawisken;Stawiska
+de;Jacobau;Jakubowo Kisielickie
+de;Babenz;Babiety Wielkie
+de;Louisenhof;Szczepkowo
+de;Michelau;Michalowo
+de;Zollnick;Solniki
+de;Draulitten;Drulity
+de;Kleppe;Klepa
+de;Koppeln;Kopina
+de;Junkerken;Jutrkowo
+de;Saratoga;Zaszczytowo
+de;Maryland;Marianki
+de;Pyrehner Holländer;Boguszyniec
+de;Brenkenhofsfleiß;Dzierzążna
+de;Albrechtsbruch;Studzionka
+de;Stuttgardt;Piskorzno
+de;Beaulieu;Krasnołęg
+de;Scheiblersburg;Krzemów
+de;Massow;Maszewo
+de;Kattenhorst;Orzelec
+de;Scharnhorst;Grzybno
+de;Werblitz;Wierzbnica
+de;Hauswerder;Prądnik
+de;Kräsem;Krzesin
+de;Münchsdorf;Sarbia
+de;Kähmen;Kamień
+de;Crummendorf;Krężoły
+de;Ostritz;Ostrzyce
+de;Starkendorf;Neu Schillen
+de;Neu-Schilln;Neu Schillen
+de;Przybrorowo;Przyborowo
+de;Marienwalde;Gaj
+de;Friedebergschbruch;Żółwin
+de;Neugurkowschbruch;Górczyna
+de;Breitenwerder;Pławin
+de;Friedrichshorst;Pełcza
+de;Bergkolonie;Górki
+de;Christophswalde;Jastrzębnik
+de;Buchwerder;Bukowiec
+de;Kostbar;Kozibór
+de;Franzthal;Głęboczek
+de;Klein Lubs;Lubcz Mały
+de;Ehrbardorf;Herburtowo
+de;Ludwigsdorf;Kałądek
+de;Ostrichen;Ostrozno
+de;Niedergerlachsheim;Grabiszyce Dolne
+de;Beerberg;Baworowa
+de;Geppersdorf;Milęcice
+de;Märzdorf;Marczów
+de;Hohndorf;Górczyca
+de;Polnisch Hundorf;Biegoszów
+de;Willmannsdorf;Stanisławów
+de;Jägendorf;Myślinów
+de;Kolbnitz;Chełmiec
+de;Semmelwitz;Zębowice
+de;Kalthaus;Zimnik
+de;Niederhalbendorf;Mała Wieś Dolna
+de;Oberthiemendorf;Radostów Górny
+de;Riemberg;Rzymówka
+de;Wildschütz;Wilczyce
+de;Kaudewitz;Ogonowice
+de;Dürrkunzendorf;Suszki
+de;Baudmannsdorf;Budziwojów
+de;Pohlwitz;Pawłowice Małe
+de;Jakobsdorf;Jakuszów
+de;Altbeckern;Stare Piekary
+de;Alt-Beckern;Stare Piekary
+de;Klemmerwitz;Kłębanowice
+de;Kromnitz;Krępnica
+de;Kuchelberg;Kochlice
+de;Fauljoppe;Gorzelin
+de;Krummlinde;Lipiny
+de;Buchwäldchen;Buczynka
+de;Groß-Gollnisch;Golnice
+de;Pohlswinkel;Patoka
+de;Kniegnitz;Księginice
+de;Stenker;Kościelna Wieś
+de;Schnellförthel;Okrąglica
+de;Neuhaus;Nowoszów
+de;Hummel;Trzmielów
+de;Leuthen;Lutynka
+de;Boberwitz;Bobrowice
+de;Lauterbach;Młynik
+de;Langen;Lezyce
+de;Hainbach;Gaiki
+de;Oberzauche;Sucha Górna
+de;Kemnitz;Kamienica nad Nysą Łużycką
+de;Lohs;Łaz
+de;Kortnitz;Kartowice
+de;Rettkau;Retkow
+de;Gersdorf;Jaryszów
+de;Obersiegersdorf;Podbrzezie Górne
+de;Zäcklau;Sokołów
+de;Röhlau;Rejów
+de;Mosswitz;Moszowice
+de;Groß Vorwerk;Krzekotów
+de;Zeippern;Bartodzieje
+de;Altwasser;Stara Woda
+de;Neukleppen;Klępina Nowa
+de;Pürben;Pierzwin
+de;Langhermsdorf;Urzuty
+de;Birkenberge;Brzozów
+de;Tamnitz;Tymienice
+de;Friedersdorf;Ługi
+de;Laubegast;Lubogoszcz
+de;Chrumow;Chromów
+de;Seiffersholz;Radomia
+de;Schlabrendorf;Sławocin
+de;Friedendorf;Spokojna
+de;Ober Gutschdorf;Goczałków Górny
+de;Pleische;Bliż
+de;Jäschgüttel;Jaszkotle
+de;Malsen;Małuszów
+de;Carowahne;Karwiany
+de;Klein Sägewitz;Solniki
+de;Frobelwitz;Wróblowice
+de;Krampitz;Krępice
+de;Radaxdorf;Radakowice
+de;Kryptau;Krzeptów
+de;Petersdorf;Piotrówek
+de;Seedorf;Zakrzów
+de;Kobelnick;Kobylniki
+de;Belkau;Białków
+de;Wolfsdorf;Wilkostów
+de;Schreibersdorf;Pisarzowice
+de;Peiskerwitz;Piskorzowice
+de;Schweinern;Weidenhof
+de;Simsdorf;Szymanów
+de;Mahlen;Malin
+de;Perschütz;Bierzyce
+de;Ulbersdorf;Dziadów Most
+de;Jürtsch;Jurcz
+de;Gleinau;Gliniany
+de;Dombsen;Domaszków
+de;Gross-Pogul;Pogalewo Wielkie
+de;Wahren;Warzyna
+de;Groß Sürchen;Żerków
+de;Gross-Leipe;Wielka Lipa
+de;Cawallen;Kowale
+de;Zirkwitz;Cerekwica
+de;Gross Zauche;Sucha Wielka
+de;Mühnitz;Mienice
+de;Hochkirch;Wysoki Kościół
+de;Pollentschine;Boleścin
+de;Kapitz;Kopiec
+de;Görnsdorf;Gaszowice
+de;Mittel-Langendorf;Wielowies
+de;Tarxdorf;Tarchalice
+de;Polnischdorf;Polska Wieś
+de;Wersingawe;Warzęgowo
+de;Ellguth;Ligota Strupińska
+de;Pinxen;Pększyn
+de;Würzen;Świerzów
+de;Puditsch;Budzicz
+de;Schickwitz;Komorowo
+de;Massel;Masłów
+de;Domnowitz;Domanowice
+de;Kotzerke;Koczurki
+de;Gross Biadauschke;Biedaszków Wielki
+de;Masslisch Hammer;Masłowiec
+de;Klein-Lahse;Łazy Małe
+de;Linsen;Lędzina
+de;Polnisch Steine;Kamień
+de;Distelwitz;Dziesławice
+de;Kraschen;Kraszów
+de;Schlaupp;Słup
+de;Klein Schmograu;Smogorzow Maly
+de;Seifrodau;Rudawa
+de;Klein-Baulwie;Białawy
+de;Beichau;Bychowo
+de;Labschütz;Łapczyce
+de;Borzenzine;Borzęcin
+de;Canterwitz;Kanclerzowice
+de;Dobrtowitz;Dobrosławice
+de;Hammer;Ruda Żmigrodzka
+de;Gross Ossig;Osiek Maly
+de;Cainowe;Koniowo
+de;Schwiebedawe;Świebodów
+de;Dziewentline;Dziewiętlin
+de;Dammer;Dąbrowa
+de;Eisenhammer;Żeleźniki
+de;Liebenthal;Luboradów
+de;Gross-Perschnitz;Pierstnica
+de;Lahse;Łazy
+de;Klein-Tschuder;Drozdowice Małe
+de;Codlewe;Chodlewo
+de;Peterkaschütz;Piotrkosice
+de;Pinkolschine;Piękocin
+de;Goidinowe;Godnowa
+de;Mislawitz;Miłosławice
+de;Casawe;Kaszowo
+de;Duchawe;Duchowo
+de;Nesselwitz;Niesułowice
+de;Heinrichsdorf;Henrykowice
+de;Breslawitz;Wrocławice
+de;Bartnig;Bartniki
+de;Wehlige;Wielgie Milickie
+de;Jästersheim;Jastrzębia
+de;Kaltebortschen;Borszyn Mały
+de;Guhlau-Mechau;Gola Górowska
+de;Kainzen;Kajecin
+de;Schätz;Szedziec
+de;Sandeborske;Czarnoborsko
+de;Tscheschkowitz;Cieszkowice
+de;Neuvorwerk;Nowy Flowark
+de;Grebline;Grzebielin
+de;Schlabotschine;Słabocin
+de;Ujast;Ujazd
+de;Zirpe;Wulsch
+de;Neuhain;Wałbrzych
+de;Dittersbach;Wałbrzych-Podgórze
+de;Steingrund;Kamiensk
+de;Arnsberg;Podgorze
+de;Leppersdorf;Daleszów Dolny
+de;Conradsthal;Wałbrzych-Konradów
+de;Kaiserswaldau;Piastów
+de;Gotschdorf;Goduszyn
+de;Södrich;Krogulec
+de;Neudorf;Strużnica
+de;Ullersdorf;Wojciechów
+de;Olbersdorf;Olbrachcice Wielkie
+de;Ober-Tannhausen;Jedlinka Gorna
+de;Kaschbach;Gorzków Stary
+de;Danchwitz;Dankowice
+de;Dobrischau;Dobroszów
+de;Halbendorf;Półwiosek
+de;Tiefensee;Głębocko
+de;Niewe;Niwa
+de;Fröbeln;Wróblin
+de;Heinrichsfelde;Grabie
+de;Bunzelwitz;Bolesławice
+de;Großjeseritz;Jezierzyce Wielkie
+de;Rathau;Rataje
+de;Briegischdorf;Brzeska Wieś
+de;Podewils;Kały
+de;Tschaukelwitz;Szukalice
+de;Saabe;Żaba
+de;Bischdorf;Biskupskie Drogi
+de;Hain;Gajnik
+de;Wernersdorf;Bernacice Górne
+de;Krotfeld;Krotoszyn
+de;Wolmsdorf;Rogóżka
+de;Neudorf;Mościce Dolne
