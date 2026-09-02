@@ -1,0 +1,86 @@
+rue;Ждъяр;Ždiar
+de;Eisdorf;Žakovce
+de;Menhardsdorf;Vrbov
+rue;Воронів над Топлёв;Vranov nad Topľou
+de;Gross-Lomnica;Veľká Lomnica
+de;Großlomnitz;Veľká Lomnica
+rue;Стропков;Stropkov
+de;Tschirmer See;Štrbské Pleso
+de;Altschmecks;Starý Smokovec
+rue;Стара Любовня;Stará Ľubovňa
+de;Kuhbach;Spišské Bystré
+rue;Спіська Стара Вес;Spišská Stará Ves
+de;Neudorf;Spišská Nová Ves
+rue;Спіська Бела;Spišská Belá
+rue;Собранцї;Sobrance
+rue;Снина;Snina
+rue;Снаків;Snakov
+de;Rosenau;Rožňava
+de;Eperies;Prešov
+de;Preschau;Prešov
+de;Deutschendorf;Poprad
+rue;Подолинець;Podolínec
+de;Großmichel;Michalovce
+rue;Міджілабірцї;Medzilaborce
+de;Matzdorf;Matejovce
+de;Kleinschlagendorf;Malý Slavkov
+de;Leibitz;Ľubica
+rue;Кошіцї;Košice
+de;Käsmark;Kežmarok
+de;Kesmark;Kežmarok
+rue;Кежмарок;Kežmarok
+de;Homenau;Humenné
+de;Hönigsdorf;Hanigovce
+rue;Ганіґівцї;Hanigovce
+de;Hadersdorf;Hadušovce
+rue;Ґіралтівцї;Giraltovce
+de;Gollnitz;Gelnica
+de;Hopgarten;Chmeľnica
+rue;Брезіна;Brezina
+de;Borsi;Borša
+rue;Бардеёв;Bardejov
+de;Abrahamsdorf;Abrahamovce
+de;Abrahamsdorf in der Zips;Abrahamovce
+de;Großslatina;Zvolenská Slatina
+de;Altsohl;Zvolen
+de;Sillein;Žilina
+frr;Silina;Žilina
+de;Bisternitz;Záhorská Bystrica
+de;Schweinsbach;Viničné
+de;Trentschin;Trenčín
+de;Topoltschan;Topoľčany
+de;Sankt Georgen;Svätý Jur
+de;Suchan;Sučany
+de;Stampfen;Stupava
+de;Alt-Bistritz;Stará Bystrica
+de;Schintau;Šintava
+de;Rosenthal;Ružindol
+de;Bösing;Pezinok
+de;Arwaburg;Oravský Podzámok
+de;Neuhäusel;Nové Zámky
+de;Neustadt an der Waag;Nové Mesto nad Váhom
+de;Neutra;Nitra
+de;Mariatal;Marianka
+de;Liptau-Sankt-Nikolaus;Liptovský Mikuláš
+de;Komorn;Komárno
+de;Gutta;Kolárovo
+de;Kroatisch Jahrndorf;Jarovce
+de;Altdala;Hurbanovo
+de;Ober-Stuben;Horná Štubňa
+de;Unter-Stuben;Dolná Štubňa
+de;Gutwasser;Dobrá Voda
+de;Guttenstein;Dobrá Voda
+de;Sarndorf;Čunovo
+de;Bibersburg;Červený Kameň
+de;Schloss Csábrág;Čabradský Vrbovok
+nds;Preßburg;Bratislava
+hsb;Bratisława;Bratislava
+de;Preßburg;Bratislava
+rue;Братїслава;Bratislava
+csb;Bratisława;Bratislava
+fr;Presbourg;Bratislava
+de;Neusohl;Banská Bystrica
+de;Ungeraiden;Záhorská Ves
+de;Hochstädten;Vysoká pri Morave
+de;Theben-Neudorf;Devínska Nová Ves
+de;Theben;Devín

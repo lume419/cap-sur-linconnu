@@ -53,8 +53,15 @@
   // roadDistanceKm) — les modéliser comme un péage général serait donc plus souvent faux que juste,
   // exactement le même raisonnement que pour un ouvrage isolé, à une échelle géographique plus
   // grande. hasToll:false, et aucune vignette non plus : le réseau gratuit l'est réellement, sans
-  // laissez-passer à acheter au préalable comme en Suisse/Autriche/République tchèque.
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL seulement) : noms alternatifs par
+  // laissez-passer à acheter au préalable comme en Suisse/Autriche/République tchèque. La Slovaquie
+  // rejoint, elle, le groupe à vignette (Suisse/Autriche/République tchèque) : vignette électronique
+  // obligatoire (e-známka — Národná diaľničná spoločnosť/NDS, eznamka.sk) sur toutes les autoroutes
+  // (D) et voies express (R) du pays, à prix fixe selon la durée (1/10/30/365 jours, 8,10/10,80/
+  // 17,10/90 € 2026 pour un véhicule léger) — aucun barème €/km ne peut en dériver, et l'app ne
+  // simule pas un abonnement (hasToll:false). Aucun ouvrage isolé à péage identifié en plus de la
+  // vignette, comme la République tchèque — cas simple, sans les tunnels alpins de la Suisse/
+  // l'Autriche.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -69,7 +76,9 @@
   // République tchèque n'a, elle non plus, jamais adopté l'euro (membre de l'UE mais hors zone euro,
   // comme la Suisse) : sa monnaie propre, la couronne tchèque ('CZK'), reste utilisée ici. La Pologne
   // non plus (membre de l'UE, hors zone euro comme la Suisse/la République tchèque) : le złoty
-  // polonais ('PLN').
+  // polonais ('PLN'). La Slovaquie, elle, contrairement à ses trois voisins ci-dessus (Autriche,
+  // République tchèque, Pologne), A adopté l'euro (2009) — absent de COUNTRIES.SK.currency, EUR par
+  // défaut, comme la grande majorité des pays déjà couverts.
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -92,7 +101,9 @@
     JE: { code:'JE', name:'Jersey', file:'communes-je.txt', hasToll:false, aliasFile:'aliases-je.txt', currency:'GBP' },
     CZ: { code:'CZ', name:'République tchèque', file:'communes-cz.txt', hasToll:false, aliasFile:'aliases-cz.txt', currency:'CZK',
       vignette:{ url:'https://edalnice.gov.cz/en/simple-purchase' } },
-    PL: { code:'PL', name:'Pologne', file:'communes-pl.txt', hasToll:false, aliasFile:'aliases-pl.txt', currency:'PLN' }
+    PL: { code:'PL', name:'Pologne', file:'communes-pl.txt', hasToll:false, aliasFile:'aliases-pl.txt', currency:'PLN' },
+    SK: { code:'SK', name:'Slovaquie', file:'communes-sk.txt', hasToll:false, aliasFile:'aliases-sk.txt',
+      vignette:{ url:'https://eznamka.sk/selfcare/purchase' } }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -101,13 +112,14 @@
   // le plafond de prix budget/logement (voir BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks)
   // — jamais pour le péage/ferry, dont les montants ne sont de toute façon calculés que pour des pays
   // en euros (voir plus haut).
-  // vignette (CH/AT/CZ) : URL de la BOUTIQUE OFFICIELLE de la vignette autoroutière du pays —
+  // vignette (CH/AT/CZ/SK) : URL de la BOUTIQUE OFFICIELLE de la vignette autoroutière du pays —
   // via.admin.ch (portail officiel de l'Office fédéral de la douane et de la sécurité des frontières,
   // pas un revendeur tiers) pour la Suisse, shop.asfinag.at (société publique gestionnaire des
   // autoroutes autrichiennes) pour l'Autriche, edalnice.gov.cz (portail .gov.cz du SFDI — Fonds
   // d'Etat pour les infrastructures de transport, seul émetteur officiel) pour la République
-  // tchèque. Utilisé par renderDays pour afficher un petit rappel la première fois qu'un pays à
-  // vignette apparaît dans l'itinéraire — voir plus bas.
+  // tchèque, eznamka.sk (Národná diaľničná spoločnosť/NDS, seul canal de vente officiel affiché sur
+  // le site lui-même) pour la Slovaquie. Utilisé par renderDays pour afficher un petit rappel la
+  // première fois qu'un pays à vignette apparaît dans l'itinéraire — voir plus bas.
   function countryCurrency(cc){ return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR'; }
   // Symbole/code affiché à côté d'un montant (voir updateBudgetHint plus bas) : "€" pour l'euro (le
   // seul des cinq à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/

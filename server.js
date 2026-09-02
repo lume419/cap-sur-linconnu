@@ -572,7 +572,9 @@ app.get('/api/pois', async (req, res) => {
   // d'origine, sans ajustement. La Pologne, elle, déborde nettement à l'est : son point le plus
   // oriental (près de Zosin, Lubelskie, frontière ukraino-biélorusse) va jusqu'à ~24,15°E, bien
   // au-delà de la borne à 19° héritée de l'Italie — élargie à 24,2° pour la couvrir avec une marge
-  // (le nord et le sud du pays, lat ~49-54,9°N, tenaient déjà dans la boîte).
+  // (le nord et le sud du pays, lat ~49-54,9°N, tenaient déjà dans la boîte). La Slovaquie (lat
+  // ~47,7-49,6°N, lon ~16,8-22,6°E) tenait déjà largement dans la boîte élargie pour la Pologne,
+  // sans ajustement supplémentaire.
   if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 56 || lon < -10 || lon > 24.2){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
@@ -662,7 +664,8 @@ const PDF_LINE_STRONG = '#8F8564'; // ligne de jonction entre les badges de jour
 const VIGNETTE_URLS = {
   CH: 'https://via.admin.ch/shop/',
   AT: 'https://shop.asfinag.at/en/',
-  CZ: 'https://edalnice.gov.cz/en/simple-purchase'
+  CZ: 'https://edalnice.gov.cz/en/simple-purchase',
+  SK: 'https://eznamka.sk/selfcare/purchase'
 };
 
 // Fond crème (--bg du site) plutôt qu'une page blanche brute — posé sous tout le reste à chaque
