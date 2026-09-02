@@ -12,7 +12,7 @@ Manche (Douvres-Calais)/la mer d'Irlande (Holyhead-Dublin)/la mer d'Irlande enco
 disponible en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien,
 romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais,
 guernésiais, kachoube, rusyn/lemko, istro-roumain, catalan, basque, galicien, occitan, breton, corse,
-mirandais, irlandais et mannois (voir "Langues" plus bas).
+mirandais, irlandais, mannois, gallois, gaélique écossais, cornique et scots (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -625,6 +625,30 @@ déclarant une connaissance de la langue (recensement 2011). Même logique que l
 luxembourgeois : la langue propre d'un petit territoire. Niveau de confiance plus faible que la
 moyenne du fait du nombre de locuteurs, comparable à l'istro-roumain — choix déjà tranché plusieurs
 fois par l'utilisateur (traduire quand même), appliqué ici sans nouvelle question.
+
+Quatre dernières langues, toutes arrivées avec le Royaume-Uni mais ajoutées dans un commit séparé
+(voir plus haut le séquençage en quatre temps) : le gallois (Cymraeg, "cy") est officiel au pays de
+Galles (Welsh Language (Wales) Measure 2011), Charte Partie III, ~880 000 locuteurs — confiance
+haute, comparable au sarde/au frioulan. Le gaélique écossais (Gàidhlig, "gd") est officiel en Écosse
+(Gaelic Language (Scotland) Act 2005), Charte Partie III, ~57 000-87 000 locuteurs — confiance haute
+également. Le cornique (Kernewek, "kw") a un statut Charte Partie II depuis ~2010 et le Royaume-Uni a
+reconnu les Cornouaillais comme minorité nationale (Framework Convention, 2014), mais ne compte plus
+que ~500-3 000 locuteurs, surtout de seconde langue — confiance basse, même palier que
+l'istro-roumain/le mannois (forme écrite : Kernewek Standard, 2008). Le scots ("sco", ISO 639-2/3 —
+pas de code 639-1) a un statut Charte Partie II, ~1,5 million de locuteurs déclarés à des degrés
+divers et une vraie tradition littéraire (Robert Burns) — confiance moyenne ; l'ulster-scots (variante
+nord-irlandaise) est délibérément FONDU dans cet ajout plutôt qu'ajouté à part, faute de norme écrite
+vraiment distincte (même logique que le rusyn/lemko, traité comme une seule langue malgré ses
+variantes régionales). `scripts/build-aliases.js` a été relancé une seconde fois pour le Royaume-Uni
+avec ces quatre langues nouvellement débloquées dans `SUPPORTED_LANGS` — l'occasion de découvrir et
+corriger un bug de qualité de données GeoNames plus large que celui trouvé au premier passage (voir
+commit Royaume-Uni) : des centaines de noms gallois/gaéliques-écossais/corniques/irlandais dupliqués
+sous des étiquettes de langue CELTIQUES sans rapport entre elles (ex. le gaélique-écossais "Y
+Trallwng" pour Welshpool, une ville GALLOISE) — un angle mort du filtre `CELTIC_PROBE_LANGS` existant,
+qui ne détectait que les doublons vers une langue hors-probe, jamais entre deux probe langs. Corrigé
+par une restriction géographique par langue (`GB_REGION_RESTRICTED_LANGS` : gallois limité aux régions
+galloises, gaélique-écossais aux régions écossaises, cornique aux Cornouailles, irlandais à l'Irlande
+du Nord), vérifiée exhaustivement sur les 117 régions distinctes du fichier de communes.
 
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).

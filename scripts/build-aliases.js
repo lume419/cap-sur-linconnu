@@ -23,7 +23,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['IM']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE
+// RATTRAPAGE, pas un nouveau pays : GB a déjà son communes-gb.txt (inchangé), mais son aliases-gb.txt
+// date d'avant l'ajout du gallois/gaélique écossais/cornique/scots (voir plus bas) — des alias dans
+// ces langues existaient déjà dans alternateNamesV2 mais restaient filtrés par SUPPORTED_LANGS.
+// Réexécuté ici pour régénérer aliases-gb.txt avec le nouvel ensemble de langues, exactement le même
+// motif que le rattrapage AD/ES/PT après l'ajout du catalan/basque/galicien/occitan.
+const COUNTRIES = ['GB']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/IE/IM
+// déjà générés et commités (les leurs restent inchangés)
 // déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
@@ -103,8 +109,19 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // luxembourgeois : la langue propre d'un petit territoire, pas la langue nationale d'un grand pays
 // voisin — confiance plus faible que la moyenne du fait du nombre de locuteurs, comparable au
 // cornique/à l'istro-roumain (choix déjà tranché plusieurs fois par l'utilisateur : traduire quand
-// même, voir README "Langues").
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv']);
+// même, voir README "Langues"). Quatre dernières langues, toutes arrivées avec le Royaume-Uni mais
+// ajoutées dans un commit séparé (voir README "Langues" pour le détail du séquençage) : "cy"
+// (gallois, ISO 639-1) — officiel au pays de Galles (Welsh Language (Wales) Measure 2011), Charte
+// Partie III, ~880 000 locuteurs, confiance haute. "gd" (gaélique écossais, ISO 639-1) — officiel en
+// Écosse (Gaelic Language (Scotland) Act 2005), Charte Partie III, ~57 000-87 000 locuteurs,
+// confiance haute. "kw" (cornique, ISO 639-1) — Charte Partie II depuis ~2010, minorité nationale
+// reconnue (Framework Convention, 2014), mais seulement ~500-3 000 locuteurs surtout L2 — confiance
+// basse, même palier que l'istro-roumain/le mannois. "sco" (scots, ISO 639-2/3 — pas de code 639-1) —
+// Charte Partie II, ~1,5 million de locuteurs déclarés à des degrés divers, vraie tradition littéraire
+// (Robert Burns) ; l'ulster-scots (variante nord-irlandaise) est délibérément FONDU dans cet ajout
+// plutôt qu'ajouté à part — pas de norme écrite vraiment distincte, même logique que le rusyn/lemko
+// traité comme une seule langue malgré ses variantes régionales.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -147,6 +164,36 @@ const CELTIC_PROBE_LANGS = new Set(['cy', 'gd', 'kw', 'gv', 'ga']);
 // concernent le nom ANGLAIS déjà canonique, donc déjà filtré par ailleurs par le test "identique au
 // nom canonique"), gardé quand même par prudence.
 const CELTIC_CROSS_CONTAMINATION_CHECK_COUNTRIES = new Set(['GB', 'IE', 'IM']);
+// Royaume-Uni SEULEMENT, une fois "cy"/"gd"/"kw" eux-mêmes devenus des langues cibles réelles (voir
+// SUPPORTED_LANGS plus bas) : CELTIC_PROBE_LANGS ci-dessus a un angle mort — il ne détecte QUE les
+// doublons "probe lang -> langue hors-probe", jamais les doublons ENTRE deux probe langs (un même nom
+// gallois taggué à la fois "cy" pour un geonameid et "gd"/"ga"/"kw" pour un autre geonameid du même
+// lieu — aucun des deux ne déclenche sa propre exclusion). Découvert en testant ce rattrapage précis :
+// sur les 2 236 alias bruts pour le Royaume-Uni, une bonne part de "cy"/"gd"/"kw"/"ga" pointait vers
+// des communes hors du territoire linguistique correspondant (ex. "gd" gaélique-écossais "Y Trallwng"
+// -> Welshpool, une ville GALLOISE ; "kw" cornique "Trefynwy" -> Monmouth, dans le Monmouthshire
+// gallois ; "ga" irlandais "Inbhir Úige" -> Wick, en ÉCOSSE) — aucune raison qu'une ville hors de son
+// aire linguistique propre ait un nom distinct dans cette langue. Restriction GÉOGRAPHIQUE (région
+// GeoNames de la commune ciblée, même champ que la colonne région de communes-gb.txt) plutôt qu'un
+// filtre de contenu : bien plus fiable ici que d'essayer de deviner linguistiquement quel nom "a
+// l'air" gallois/gaélique/cornique/irlandais. Domaines vérifiés exhaustivement sur les 117 régions
+// distinctes de communes-gb.txt.
+const GB_REGION_RESTRICTED_LANGS = {
+  cy: new Set(['Blaenau Gwent', 'Bridgend', 'Caerphilly', 'Cardiff', 'Carmarthenshire', 'Ceredigion',
+    'Conwy', 'Denbighshire', 'Flintshire', 'Gwynedd', 'Isle of Anglesey', 'Merthyr Tydfil',
+    'Monmouthshire', 'Neath Port Talbot', 'Newport', 'Pembrokeshire', 'Powys', 'Rhondda Cynon Taff',
+    'Swansea', 'Torfaen', 'Vale of Glamorgan', 'Wales', 'Wrexham']), // pays de Galles
+  gd: new Set(['Aberdeen City', 'Aberdeenshire', 'Angus', 'Argyll and Bute', 'City of Edinburgh',
+    'Clackmannanshire', 'Dumfries and Galloway', 'Dunbartonshire', 'Dundee City', 'East Ayrshire',
+    'East Dunbartonshire', 'East Lothian', 'East Renfrewshire', 'Falkirk', 'Fife', 'Glasgow City',
+    'Highland', 'Inverclyde', 'Inverness', 'Isle of Barra', 'Midlothian', 'Moray', 'North Ayrshire',
+    'North Lanarkshire', 'Orkney Islands', 'Perth and Kinross', 'Renfrewshire', 'Scotland',
+    'Scottish Borders', 'Shetland Islands', 'South Ayrshire', 'South Lanarkshire', 'Stirling',
+    'West Dunbart', 'West Lothian', 'Western Isles']), // Écosse
+  kw: new Set(['Cornwall']), // Cornouailles
+  ga: new Set(['Belfast', 'Belfast Greater', 'County Antrim', 'County Armagh', 'County Down',
+    'County Fermanagh', 'County Londonderry', 'County Tyrone', 'Northern Ireland']) // Irlande du Nord
+};
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
@@ -240,7 +287,7 @@ for(const country of COUNTRIES){
 
   const postalPoints = postalRaw.split('\n').filter(Boolean).map(line => {
     const c = line.split('\t');
-    return { postcode: c[1], code1: c[4] || '', lat: parseFloat(c[9]), lon: parseFloat(c[10]) };
+    return { postcode: c[1], admin1: c[3] || '', code1: c[4] || '', admin2: c[5] || '', lat: parseFloat(c[9]), lon: parseFloat(c[10]) };
   }).filter(p => !isNaN(p.lat) && !isNaN(p.lon));
   const postalGrid = buildGrid(postalPoints);
   const postalByAdmin1Code = new Map();
@@ -272,9 +319,16 @@ for(const country of COUNTRIES){
   // jointure code postal (donc réellement présentes dans public/data/communes-XX.txt) — un alias
   // pointant vers une commune absente du fichier ne servirait à rien côté recherche.
   const canonicalByGeonameId = new Map();
+  // Royaume-Uni seulement : geonameid -> région (admin2 ou admin1, MÊME calcul que le champ région de
+  // communes-gb.txt dans build-country-communes.js) — nécessaire pour GB_REGION_RESTRICTED_LANGS
+  // plus bas.
+  const regionByGeonameId = (country === 'GB') ? new Map() : null;
   for(const p of seen.values()){
     const near = (country === 'AD') ? (postalByAdmin1Code.get(p.admin1Code) || null) : nearest(postalGrid, p.lat, p.lon, 15);
-    if(near) canonicalByGeonameId.set(p.geonameid, p.name);
+    if(near){
+      canonicalByGeonameId.set(p.geonameid, p.name);
+      if(regionByGeonameId) regionByGeonameId.set(p.geonameid, near.admin2 || near.admin1 || '');
+    }
   }
 
   // Fichier alternateNames : alternateNameId, geonameid, isolanguage, alternate name,
@@ -297,6 +351,8 @@ for(const country of COUNTRIES){
   for(const c of aliasRows){
     const geonameid = c[1], rawLang = c[2], alt = c[3], isHistoric = c[7];
     if(celticNames && !CELTIC_PROBE_LANGS.has(rawLang) && celticNames.has(normalize(alt))) continue;
+    // Voir GB_REGION_RESTRICTED_LANGS plus haut pour le détail de ce filtre géographique.
+    if(country === 'GB' && GB_REGION_RESTRICTED_LANGS[rawLang] && !GB_REGION_RESTRICTED_LANGS[rawLang].has(regionByGeonameId.get(geonameid) || '')) continue;
     // ex. "dsb" (bas-sorabe) -> "hsb" partout ; "nrf" -> "nrf-je"/"nrf-gg" seulement pour Jersey/
     // Guernesey (voir LANG_OUTPUT_REMAP_BY_COUNTRY plus haut) — le remap par pays a priorité.
     const lang = countryRemap[rawLang] || LANG_OUTPUT_REMAP[rawLang] || rawLang;

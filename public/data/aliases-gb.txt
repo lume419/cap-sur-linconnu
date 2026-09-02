@@ -1,29 +1,92 @@
 de;York (England);York
 en;Yervilton;Yelverton
+cy;Wrecsam;Wrexham
 en;City of Worcester;Worcester
 en;Wooton St Lawrence;Wooton Saint Lawrence
 en;Wombourn;Wombourne
+cy;Llanwynell;Wolvesnewton
+sco;Wishae;Wishaw
+gd;Baile na h-Ùige;Wigtown
+sco;Wigtoun;Wigtown
+gv;Yn Ooig;Wick
+gd;Inbhir Ùige;Wick
+sco;Week;Wick
+sco;Weik;Wick
+cy;Y Wig;Wick
+cy;Hendy Gwyn;Whitland
+gd;Taigh Mhàrtainn;Whithorn
+ga;An Cionn Bán;Whitehead
+gd;An Aoirinn;Whitefarland
+ga;An Mhainistir Fhionn;Whiteabbey
 nl;White Abbey;Whiteabbey
 fr;Heene;West Worthing
 nl;Heene;West Worthing
 en;Molesey;West Molesey
+gd;Cille Bhrìghde an Iar;West Kilbride
+gd;Bàgh Wemyss;Wemyss Bay
 en;Welwyn Garden;Welwyn Garden City
 en;Welton, East Yorkshire;Welton
+cy;Y Trallwng;Welshpool
 en;Wells-on-Sea;Wells-next-the-Sea
 en;Washington New Town;Washington
+ga;An Phointe;Warrenpoint
 fr;Borough londonien de Wandsworth;Wandsworth
 es;Municipio de Wandsworth;Wandsworth
 it;Borgo londinese di Wandsworth;Wandsworth
 en;Walton on Thames;Walton-on-Thames
 en;Fort Wallington;Wallington
 nl;Walker-on-Tyne;Walker
+kw;Ponsrys;Wadebridge
+cy;Brynbuga;Usk
+gd;Urrath;Urray
+gd;Ulapul;Ullapool
 br;Ullapul;Ullapool
+cy;Llandudwg;Tythegston
+gd;Taigh an Droma;Tyndrum
+ga;Tuíneán;Tynan
+gd;Torraibh;Turriff
+sco;Turra;Turriff
 de;Turnberry Golf Club;Turnberry
 nl;Turnberry Golf Club;Turnberry
+kw;Truru;Truro
+gv;Truru;Truro
+cy;Trostre;Trostrey
+sco;The Truin;Troon
+gd;An t-Sròn;Troon
+cy;Treorci;Treorchy
+kw;Tredhin;Treen
+cy;Tredynog;Tredunnock
+kw;Pluw Wydnek yn Pennwydh;Towednack
+gd;Na Torran;Torrin
+kw;Penntorr;Torpoint
+gd;An Todhar;Tore
+gd;Tomaich;Tomich
+gd;An Tom Donn;Tomdoun
+gd;Tom Aitinn;Tomatin
+gd;Tobar Mhoire;Tobermory
+gd;Taigh na Bruaich;Tighnabruaich
+sco;Thursa;Thurso
+gd;Inbhir Theòrsa;Thurso
+gd;Tòrr a' Ghaoithe;Thundergay
+gd;Bàrr na Driseig;Thornhill
 en;Thornaby;Thornaby-on-Tees
+gd;Teviotheid;Teviothead
+cy;Dinbych-y-pysgod;Tenby
+gd;An Teanga;Teangue
+gd;Tarsgabhaig;Tarskavaig
+gd;Bruach Tarbha;Tarfside
+gd;An Tòrr Breac;Tarbrax
+gd;Tarbowton;Tarbolton
+ga;Tóin re Gaoith;Tandragee
+ga;Tamhlacht;Tamlaght
 en;Tal-y-llyn;Talyllyn
+kw;Tallan;Talland
+gd;Baile Dhubhthaich;Tain
+cy;Tai-bach;Taibach
 en;Swinley Priory;Swine
 en;Swindon Village;Swindon
+cy;Abertawe;Swansea
+gv;Abertawe;Swansea
 de;Royal Sutton Coldfield;Sutton Coldfield
 pt;Royal Sutton Coldfield;Sutton Coldfield
 fr;Royal Sutton Coldfield;Sutton Coldfield
@@ -35,22 +98,68 @@ en;Sutton;Sutton-cum-Lound
 de;London Borough of Sutton;Sutton
 en;Sunbury;Sunbury-on-Thames
 en;Summerbridge;Summer Bridge
+gd;An t-Srùigh;Struy
+gd;Sròn an t-Sìthein;Strontian
 es;Estroncia;Strontian
+gv;Stroin y Çheean;Strontian
+gd;An t-Sròn;Strone
+gd;Sròn a' Chlachair;Stronachlachar
 en;Strome Ferry;Stromeferry
+kw;Stradneth;Stratton
+gd;Srath Carrann;Strathcarron
+gd;Strath Bhlàthain;Strathblane
+gd;Srath Abhainn;Strathaven
+cy;Ystrad-fflur;Strata Florida
+sco;Stranrawer;Stranraer
+gd;An t-Sròn Reamhar;Stranraer
+ga;Baile Loch Cuan;Strangford
+ga;An Srath Bán;Strabane
+gd;Steòrnabhagh;Stornoway
+gv;Steornavaie;Stornoway
+gd;Cala na Creige;Stonehaven
+sco;Stanehyve;Stonehaven
 en;Stockton;Stockton-on-Tees
+gd;Sruighlea;Stirling
+sco;Stirlin;Stirling
+gd;Baile nan Stiùbhartach;Stewarton
+gd;Baile Steafain;Stevenston
+cy;Penffordd-Las;Staylittle
 en;Headquarters;Stansted Mountfitchet
 en;Stanford;Stanford-le-Hope
+gd;Stafainn;Staffin
+gv;Stafainn;Staffin
+gd;Spainnigeadal;Spinningdale
+gd;Drochaid Aonachain;Spean Bridge
 en;South Tidworth;Tidworth
 en;North Tidworth;Tidworth
+gd;Ceasag a Deas;South Kessock
+sco;Sooth Kessock;South Kessock
+gd;Soothdean;Southdean
 en;Brightwell-cum-Sotwell;Sotwell
 fr;Somerby by Brigg;Somerby
+gd;Àth na Sglèata;Slateford
+cy;Ynysgynwraidd;Skenfrith
+gd;Sgiogarstaigh;Skigersta
+gd;Sgeitheabost;Skeabost
+ga;Na Coracha Móra;Sixmilecross
+gd;An Seasgainn;Shiskine
+gd;Sìldeag;Shieldaig
+gd;Seannduaig;Shandwick
 en;Selsted;Selstead
 fr;Selsted;Selstead
 nl;Selsted;Selstead
+gd;Salcraig;Selkirk
 de;Metropolitan Borough of Sefton;Sefton
 en;Metropolitan Borough of Sefton;Sefton
 pt;Borough Metropolitano de Sefton;Sefton
+gd;Sgrabastair;Scrabster
+sco;Scraibster;Scrabster
+gd;An t-Seann Chathair;Sanquhar
+gd;Baile an t-Salainn;Saltcoats
+kw;Essa;Saltash
+gd;Salachaidh;Sallachy
 en;New Sarum;Salisbury
+gd;An t-Sàilein;Salen
 en;St Neots;Saint Neots
 en;St. Neots;Saint Neots
 en;St Leonards-on-Sea;Saint Leonards-on-Sea
@@ -61,12 +170,15 @@ de;St. Leonards;St Leonards
 it;Saint Ives;St Ives
 eu;Saint Ives;St Ives
 ca;Saint Ives;St Ives
+kw;Porth Ia;St Ives
 de;St. Ives;St Ives
 es;St. Helens;St Helens
 nl;St. Helens;St Helens
 de;St. Helens;St Helens
 en;St Helens;St. Helens
+ga;Tamhnaigh Naomh;Saintfield
 en;Saint David’s;Saint Davids
+cy;Tyddewi;Saint Davids
 en;St David's;Saint Davids
 en;St. David’s;Saint Davids
 frr;St David's;Saint Davids
@@ -75,45 +187,166 @@ es;Saint David's;Saint Davids
 eu;St David's;Saint Davids
 nl;St David's;Saint Davids
 fr;Saint David's;Saint Davids
+kw;Sen Kolomm Vyghan;Saint Columb Minor
 en;St. Columb Minor;Saint Columb Minor
 en;St Columb Minor;Saint Columb Minor
 en;Saint Columb;Saint Columb Major
 en;St. Columb;Saint Columb Major
 en;St Columb;Saint Columb Major
+kw;Synt Colom Veur;Saint Columb Major
+kw;Synt Colom Gwartha;Saint Columb Major
 en;Saint Bega;Saint Bees
 en;St Bees;Saint Bees
 en;St. Bees;Saint Bees
+kw;Austol;St Austell
 de;St. Austell;St Austell
+cy;Llanelwy;Saint Asaph
 en;St Asaph;Saint Asaph
 de;St Andrews;Saint Andrews
 en;St Andrews;Saint Andrews
+gd;Cill Rìmhinn;Saint Andrews
 de;St. Andrews;Saint Andrews
 de;St. Albans;St Albans
 lb;St. Albans;St Albans
+gd;Ruadhail;Ruthwell
+sco;Rival;Ruthwell
+cy;Rhuthun;Ruthin
+sco;Ruglen;Rutherglen
+gd;An Ruadh-Ghleann;Rutherglen
+cy;Rhiwabon;Ruabon
 en;Bridge of Roy;Roybridge
+gd;Drochaid Ruaidh;Roybridge
 en;Roy Bridge;Roybridge
+sco;Rosbroch;Roxburgh
+gd;Rubha Àird Eònain;Rowardennan
+gd;Baile Bhòid;Rothesay
+ga;Ros Treabhair;Rostrevor
+gd;Ros Neimhidh;Rosneath
+gd;Ros Mhaircnidh;Rosemarkie
+sco;Rossmartnie;Rosemarkie
+gd;Innis nan Lìon;Rosehall
+gd;Ròdhag;Roag
+ga;Log an Choire;Richhill
+cy;Y Rhyl;Rhyl
+gd;An Rubha;Rhu
+cy;Rhosili;Rhossili
 eu;Rhosilli;Rhossili
+cy;Y Rhondda;Rhondda
+cy;Rhaeadr Gwy;Rhayader
+gd;Rinn Friù;Renfrew
+kw;Ryd Ruth;Redruth
+kw;Resrudh;Redruth
+gd;Meaghrath;Reay
+ga;Ráth Fraoileann;Rathfriland
+ga;Baile Raghnaill;Randalstown
 en;Ramsgill-in-Nidderdale;Ramsgill
+cy;Rhaglan;Raglan
+gd;Cas Chaolais;Queensferry
+gd;Preastabhaig;Prestwick
+sco;Preswick;Prestwick
+cy;Llanandras;Presteigne
 es;Puerto Talbot;Port Talbot
+ga;Port Stíobhaird;Portstewart
+gd;Port Saoidh;Portsoy
 es;Portslade-by-Sea;Portslade
+ga;Port Rois;Portrush
+gd;Port Rìgh;Portree
+kw;Porthtreth;Portreath
+gd;Port Phàdraig;Portpatrick
+gd;Port Neasaig;Port Logan
+gd;Port Leathain;Portlethen
 en;Portmadoc;Porthmadog
+kw;Porthalow;Porthallow
+ga;Port Chluain Eoghain;Portglenone
+gd;Port Ghlaschu;Port Glasgow
+sco;Port Glesga;Port Glasgow
+gd;Port Eilein;Port Ellen
+gd;Port Ìlein;Port Ellen
+gd;Port a' Mhadaidh;Portavadie
+gd;Port Asgaig;Port Askaig
+ga;Port an Pheire;Portaferry
+ga;Port an Dúnáin;Portadown
+sco;Portadoun;Portadown
+gd;Poll Iù;Poolewe
+cy;Pont-y-pŵl;Pontypool
+cy;Pontiets;Pontyates
+kw;Porthpyra;Polperro
+gd;Poll Mhonadh;Polmont
+sco;Powmont;Polmont
 en;Plympton Maurice;Plympton
 en;Plympton Saint Maurice;Plympton
 en;Plympton Saint Mary;Plympton
 en;Plympton Erle;Plympton
+gd;Am Ploc;Plockton
+gd;Baile na h-Uaimh;Pittenweem
+gd;Baile Chloichridh;Pitlochry
+gd;Muileann nam Piùirneachan;Pirnmill
+sco;Peterheid;Peterhead
+gd;Ceann Phàdraig;Peterhead
+gd;Cultair;Peterculter
+gd;Peairt;Perth
+sco;Pairth;Perth
+kw;Porthpyran;Perranporth
+kw;Pennsans;Penzance
+gv;Pen Sans;Penzance
+cy;Pentrefoelas;Pentre-Foelas
 br;Pennrynn;Penryn
+kw;Penrynn;Penryn
 en;Penrhyndeudreath;Penrhyndeudraeth
 nl;Penpoint;Penpont
+cy;Pen-ffordd;Penffordd
 en;Penclawdd;Pen-clawdd
+cy;Penfro;Pembroke
+cy;Pen-bre;Pembrey
+gd;Na Pùballan;Peebles
+sco;Pairtick;Partick
+gd;Poll an Iùbhair;Palnure
+gd;Pàislig;Paisley
+kw;Lannwedhenek;Padstow
+sco;Owsenam;Oxnam
 pt;Oxónia;Oxford
+gd;An Oitir;Otter Ferry
+ga;An Ómaigh;Omagh
+sco;Omey;Omagh
+gd;Àisir Mhòr;Oldshoremore
+gd;Mealdruim;Oldmeldrum
+sco;Auld Kilpatrick;Old Kilpatrick
 br;Yr Hencastell;Oldcastle
+cy;Hengastell;Oldcastle
+sco;Auld Aiberdeen;Old Aberdeen
+gd;Ocal;Ockle
+gd;An t-Òban;Oban
 en;Oatlands Village;Oatlands Park
 en;Norton under Cannock;Norton Canes
+gd;Port na Banrighinn;North Queensferry
+gd;Bearaig a Tuath;North Berwick
 en;Newtown Linford;Newtown Limford
+ga;An Baile Nua;Newtownbutler
+ga;Baile Nua na hArda;Newtownards
+ga;Baile na Mainistreach;Newtownabbey
+cy;Y Drenewydd;Newtown
+gd;Baile Ùr nan Stiùbhartach;Newton Stewart
+gd;Baile Ùr an t-Slèibh;Newtonmore
+gd;Baile Ùr na Maoirne;Newton Mearns
+gd;Sgàin;Scone
+ga;Iúir Cinn Trá;Newry
+ga;Iúr Cinn Trá;Newry
+gv;Yn Euar;Newry
+cy;Y Cei Newydd;New Quay
+kw;Tewyn Plustry;Newquay
+gv;Tewynblustri;Newquay
+cy;Trefdraeth;Newport
+cy;Casnewydd;Newport
+gv;Casnewydd;Newport
 de;Newport (Wales);Newport
 de;Newport (England);Newport
 en;Newnham on Severn;Newnham
+gd;Na Muilnean Ura;Newmilns
 en;Newmachar;Newmacher
+kw;Lulynn;Newlyn
+gd;Baile Ùr Ghlinn Lus;New Luce
+sco;New Luice;New Luce
+gd;Gall-Ghàidhealaibh Nuadh;New Galloway
 en;Newcastle-on-Tyne;Newcastle upon Tyne
 en;Newcastle;Newcastle upon Tyne
 es;Newcastle-upon-Tyne;Newcastle upon Tyne
@@ -124,27 +357,93 @@ en;Newcastle-under-Lyme;Newcastle under Lyme
 de;Newcastle-under-Lyme;Newcastle under Lyme
 nl;Newcastle-under-Lyme;Newcastle under Lyme
 en;Copshaw Holm;Newcastleton
+gd;Baile a' Chaisteil Nuadh;Newcastleton
+sco;Copshie;Newcastleton
+sco;Holm;Newcastleton
+cy;Castellnewydd Emlyn;Newcastle Emlyn
 br;Castell Newydd Emlyn;Newcastle Emlyn
 ca;Castell Newydd Emlyn;Newcastle Emlyn
 br;Castell-meirch;Newcastle
+cy;Castellnewydd;Newcastle
+ga;An Baile Nua;New Buildings
 en;Newark;Newark on Trent
 en;Newark upon Trent;Newark on Trent
 de;Netley Abbey;Netley
+cy;Nercwys;Nerquis
+sco;Neilstoun;Neilston
+gd;Baile Nèill;Neilston
+gd;An Nead;Nedd
+cy;Castell Nedd;Neath
+gd;Inbhir Narann;Nairn
+gd;Baile nam Feusgan;Musselburgh
+gd;Poll Lochaidh;Munlochy
+gd;Eaglais an t-Slèibh;Muirkirk
+gd;Mùigearraidh;Mugeary
 br;Porthenys;Mousehole
+kw;Porthynys;Mousehole
+cy;Aberpennar;Mountain Ash
+sco;Mitherwall;Motherwell
+gd;Tobar na Màthar;Motherwell
 en;Mosborough;Mosbrough
+cy;Treforys;Morriston
+gd;Monadh Rois;Montrose
+cy;Trefaldwyn;Montgomery
+cy;Trefynwy;Monmouth
 br;Menoe;Monmouth
+gd;Monadh Fèithe;Monifieth
+gd;Am Moine Naomh;Moniaive
+cy;Yr Wyddgrug;Mold
+gv;Yr Wyddgrug;Mold
+ga;Maigh Rath;Moira
+gd;Am Magh Fada;Moffat
+gd;Muileann Dhàibhidh;Milngavie
 en;Milltown of Auchindoun;Auchindoun
+cy;Aberdaugleddau;Milford Haven
+cy;Felinganol;Middle Mill
+kw;Medhros;Middlehill
+kw;Lannvorek;Mevagissey
+gd;Maothchoille;Methil
+cy;Merthyr Tudful;Merthyr Tydfil
+gv;Co-chorp Coontae Verthyr Tudful;Merthyr Tydfil
+cy;Porthaethwy;Menai Bridge
 pt;Melton Constable Hall;Melton Constable
+gd;Meall-Ros;Melrose
+gd;Meallan Theàrlaich;Mellon Charles
+gd;Baile Hamaltan;Meikle Earnock
+gd;Am Magh Baoghail;Maybole
+sco;Maxwelltoun;Maxwelltown
+gd;Machlainn;Mauchline
+gd;Cnoc Màiri;Maryhill
 en;Marton-in-Cleveland;Marton
 en;Marske;Marske-by-the-Sea
+kw;Marghas Yow;Marazion
+kw;Marghasyow;Marazion
+gv;Manchuin;Manchester
+gd;Malaig;Mallaig
+ga;Machaire Fíolta;Magherafelt
+ga;Machaire Rátha;Maghera
+gd;An Dùn;Macduff
+gd;Dùn MhicDhuibh;Macduff
+gd;Liabost;Lybster
 en;Luxulyan;Luxulian
+gd;Lus;Luss
+gd;Losgaintir;Luskentyre
+ga;An Lorgain;Lurgan
+gd;An Lùb Chruaidh;Lubcroy
+ga;Loch gCál;Loughgall
+gd;Loth Beag;Lothbeg
+kw;Lostwydhyel;Lostwithiel
+gd;Inbhir Losaidh;Lossiemouth
+ga;Doire;Derry
 it;Derry / Londonderry;Derry
 en;Londonderry;Derry
 en;Derry City;Derry
+sco;Lunnonderry;Derry
 br;Kêr Londrez;City of London
 es;Londres;City of London
 fr;Cité de Londres;City of London
 it;Londra;City of London
+sco;Ceety o Lunnon;City of London
 gl;Cidade de Londres;City of London
 pt;Cidade de Londres;City of London
 mwl;Cidade de Londres;City of London
@@ -159,116 +458,576 @@ fr;Londres;London
 gl;Londres;London
 nl;Londen;London
 pt;Londres;London
+sco;Lunnon;London
 oc;Londres;London
 rm;Londra;London
 co;Londra;London
 mwl;Londres;London
 mt;Londra;London
+gv;Lunnin;London
 sc;Londra;London
 rue;Лондон;London
 lij;Londra;London
 csb;Londin;London
+gd;Logarbaidh;Lockerbie
+gd;Loch Uinneach;Lochwinnoch
+gd;Loch Mhabain;Lochmaben
+gd;Ceann Loch Goibhle;Lochgoilhead
+gd;Ceann Loch Gilb;Lochgilphead
+gd;Loch Geàrr;Lochgair
+gd;Tòrr nan Clàr;Lochcarron
+gd;Loch Àlainn;Lochaline
+cy;Llanilltud Fawr;Llantwit Major
+cy;Llanilltud Faerdref;Llantwit Fardre
 en;Llansanffraid;Llansantffraid-ym-Mechain
+cy;Llanllywel;Llanllowell
+cy;Llangrannog;Llangranog
+cy;Llangatwg Lingoed;Llangattock Lingoed
 ca;Llanfihangel;Llanfihangel-yng-Ngwynfa
+cy;Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch;Llanfairpwllgwyngyll
 nl;Llanfairpwll­gwyngyllgogerychwyrndrobwllllantysiliogogogoch;Llanfairpwllgwyngyll
+cy;Llandrindod;Llandrindod Wells
+cy;Llanymddyfri;Llandovery
+cy;Llan-lwy;Llandeloy
+cy;Llanarthe;Llanarthne
+gd;Baile Lèibhinn;Livingston
+sco;Leivinstoun;Livingston
 br;Baile Dhùnlèibhe;Livingston
+gv;Lerphoyll;Liverpool
+sco;Liverpuil;Liverpool
+kw;Nansfenten;Little Petherick
 nl;Little Holland;Holland-on-Sea
+gd;Am Port Beag;Littleferry
+ga;Lios an tSúdaire;Listooder
+ga;Lios na Scéithe;Lisnaskea
+kw;Lyskerrys;Liskeard
+gd;Gleann Iucha;Linlithgow
+sco;Lithgae;Linlithgow
+ga;Léim an Mhadaidh;Limavady
+gd;Inbhir Lìobhann;Leven
+ga;Leitir Bhruín;Letterbreen
+gd;Lios MoChuda;Lesmahagow
+sco;Lismahagie;Lesmahagow
+gd;Liùrabhaig;Lerwick
+gd;Lìte;Leith
+gd;Leac Mailm;Leckmelm
 en;Leamington Spa;Royal Leamington Spa
 de;Leamington Spa;Royal Leamington Spa
+kw;Lannstefan;Launceston
+cy;Talacharn;Laugharne
+gd;Labhdair;Lauder
+gd;Latharn;Latheron
+ga;Latharna;Larne
 en;Larkhill;Lark Hill
+gd;Taigh na h-Uiseig;Larkhall
+sco;Larkhauch;Larkhall
+gd;An Leargaidh Ghallda;Largs
+gd;Lèirbert;Larbert
+sco;Lairbert;Larbert
+gd;Lèirbeart;Larbert
+gd;Langaim;Langholm
+sco;Lanrik;Lanark
+gd;Lannraig;Lanark
+cy;Llanbedr Pont Steffan;Lampeter
+gd;Loch an Eilein;Lamlash
+ga;Lann Bheag;Lambeg
+gd;An Luirg;Lairg
+gd;Caol Loch Aillse;Kyle of Lochalsh
+cy;Trefyclo;Knighton
+gd;Cearan Mhoire;Kirriemuir
+sco;Kirkwaa;Kirkwall
 br;Baile na h-Eaglaise;Kirkwall
+gd;Bàgh na h-Eaglaise;Kirkwall
+gd;Cill Phàdraig;Kirkpatrick Durham
+gd;Cathair Cheann Tulaich;Kirkintilloch
 br;Cair Cheann Tulaich;Kirkintilloch
+gd;Cill Fhionnain;Kirkgunzeon
+gd;Cille Chuithbeirt;Kirkcudbright
+gd;Cille Chomhainn;Kirkcowan
+gd;Cille Chonaill;Kirkconnel
+sco;Kirkcaudy;Kirkcaldy
+gd;Cair Chaladain;Kirkcaldy
+gd;Cille Bheathain;Kirkbean
 en;Kinver;Kinvere
+gd;Ceann-an-Tor;Kintore
+gd;Ceann Rois;Kinross
+gd;Ceann Loch Lìobhann;Kinlochleven
+gd;Ceann Loch Biorbhaidh;Kinlochbervie
+gd;Ceann a Ghiùthsaich;Kingussie
+sco;Kineussie;Kingussie
 fr;Kingston-upon-Hull;Kingston upon Hull
 lb;Kingston-upon-Hull;Kingston upon Hull
 en;Hull;Kingston upon Hull
 en;Kings Lynn;King's Lynn
 de;King’s Lynn;King's Lynn
 nds;King’s Lynn;King's Lynn
+gd;Ceann na Creige;Kincraig
 en;Kingclaven/Stanley;Kinclaven
+gd;Ceann Buic;Kinbuck
+ga;Cill Náile;Kinawley
+gd;Cill Fhinnean;Kilwinning
+gd;Cill Saidhe;Kilsyth
+ga;Cill Scíre;Kilskeery
+ga;Cill Ria;Kilrea
+gd;Cill Mhòraig;Kilmorack
 en;Kilmaluaig;Kilmoluag
+gd;Cille Mheallart;Kilmelford
+gd;Cille Mhàra;Kilmaurs
+gd;Cille Mhàrtainn;Kilmartin
+gd;Cill Mheàrnag;Kilmarnock
+gd;Cille Mheàrnaig;Kilmarnock
 de;Kilmarnock (Scotland);Kilmarnock
+ga;Cill Ó Laoch;Killyleagh
+ga;Coillidh Léith;Killylea
+gd;Cill Fhinn;Killin
+ga;Cill Chaoil;Kilkeel
+cy;Cilgeti;Kilgetty
+gd;Cill Fhionain;Kilfinan
+gd;Cille Chreagain;Kilcreggan
+gd;Cille Chòmhghain;Kilchoan
+gd;Cille Bhraonaidh;Kilbirnie
+gd;Cill Bhearchain;Kilbarchan
+cy;Cydweli;Kidwelly
+gd;Kershopefit;Kershopefoot
+gd;Ceann Tràgha;Kentra
+gd;Cealsach;Kelso
+sco;Kelsae;Kelso
+gd;Baile Chè;Keith
+gd;Cèis;Keiss
+ga;An Céide;Keady
+gd;Baile Eòin;Johnstone
+sco;Johnstoun;Johnstone
+gd;Deadard;Jedburgh
+sco;Jethart;Jedburgh
 pt;Jedburgo;Jedburgh
+gd;Baile Sheumais;Jamestown
 fr;District londonien d'Islington;Islington
+gd;Eilean Iarmain;Isleornsay
+ga;Baile an Irbhinigh;Irvinestown
+gd;Irbhinn;Irvine
+sco;Irvin;Irvine
+gd;Inbhir Uaraidh;Inverurie
+gd;Inbhir Snàthaid;Inversnaid
+gd;Inbhir Sin;Invershin
+gd;Inbhir Nis;Inverness
+sco;Innerness;Inverness
+gv;Inbhir Nis;Inverness
+gd;Inbhir Nabhair;Invernaver
+gd;Inbhir Mhoireastain;Invermoriston
+gd;Inbhir Chip;Inverkip
+gd;Inbhir Chèitinn;Inverkeithing
+gd;Inbhir Aoidhe;Inverie
+gd;Inbhir Ghòrdain;Invergordon
+gd;Inbhir Garadh;Invergarry
+gd;Inbhir Àsdail;Inverasdale
+gd;Inbhir Aora;Inveraray
+gd;Baile Ùr Sgìre Innis;Insh
+gd;Inbhir Lìteann;Innerleithen
+gd;Innis nan Damh;Inchnadamph
 en;Inchbae;Inchbae Lodge
+gd;An t-Iomachar;Imachar
+gd;Hunndaidh;Huntly
 en;Huthwaite;Hucknall under Huthwaite
+gd;Cille Pheadair;Houston
 en;London Borough of Hounslow;Hounslow
 de;London Borough of Hounslow;Hounslow
 en;Hope;Hope Cove
+ga;Ard Mhic Nasca;Holywood
+cy;Treffynnon;Holywell
+cy;Caergybi;Holyhead
+sco;Eaglais Ruail;Hobkirk
 en;Hinton;Hinton St George
 en;Hinton Saint George;Hinton St George
 en;Hinton St. George;Hinton St George
+ga;Cromghlinn;Hillsborough
 en;Highpeak Junction;High Peak Junction
 en;Henley on Thames;Henley-on-Thames
+kw;Hellys;Helston
+kw;Henlys;Helston
+gd;Bun Ilidh;Helmsdale
+gd;Baile Eilidh;Helensburgh
 fr;Heaton-Norris;Heaton Norris
 en;Hay-on-wye;Hay
+gd;Hamhaig;Hawick
+sco;Haaick;Hawick
+cy;Penarlâg;Hawarden
+cy;Hwlffordd;Haverfordwest
 en;Haven Street;Havenstreet
+gd;Coille an Daimh;Hartwood
+sco;Hertwid;Hartwood
 fr;Harrow;Harrow on the Hill
 nl;Harrow;Harrow on the Hill
+sco;Hamiltoun;Hamilton
+gd;Baile Hamaltan;Hamilton
 en;Hamble;Hamble-le-Rice
+gd;Hacraig;Halkirk
 it;Fairlight;Hailsham
+gd;Baile Adainn;Haddington
+gd;A Ghualainn;Gullane
+cy;Y Grysmwnt;Grosmont
+ga;Port an Ghiolla Ghruama;Groomsport
+gd;Greatna;Gretna
+gv;Grianaig;Greenock
+gd;Grianaig;Greenock
+ga;Inis Glas;Greenisland
+sco;Gouan;Govan
+gd;Baile a' Ghobhainn;Govan
+gd;Guireag;Gourock
 en;Goring;Goring-by-Sea
+gd;Goillspidh;Golspie
+gd;Gleann Rathais;Glenrothes
+gd;Clachan Ghlinn Lus;Glenluce
+gd;Gleann Gairneig;Glengarnock
+gd;Gleann Fhionnain;Glenfinnan
+gd;Gleann Buic;Glenbuck
+gd;Gleann Bhorghdail;Glenborrodale
+gd;Fadhail Glainne;Glassford
+sco;Glesart;Glassford
+gd;Glaschu;Glasgow
+sco;Glesga;Glasgow
+gv;Glaschu;Glasgow
 br;Glascho;Glasgow
+gd;Inbhir Gharbhain;Girvan
+gd;Baile GhilleMhoire;Gilmerton
+gd;Gearraidh na h-aibhne;Garynahine
+gd;Gairbh;Garve
+gd;An Gart Mòr;Gartmore
+gd;Garbh Mhon;Garmond
+gd;Geàrr Lagaidh;Garlogie
+gd;Gamraidh;Gardenstown
+sco;Gamrie;Gardenstown
 eu;Galltrigill;Galtrigill
+gd;Baile nan Gall;Galston
+gd;An Geal-àth;Galashiels
+sco;Gallae;Galashiels
+gd;Geàrr Lòchaidh;Gairlochy
+gd;Geàrrloch;Gairloch
+gd;Fia Chein;Fyvie
 en;Fylde Borough;Fylde
 en;Borough of Fylde;Fylde
 en;Fylde Coast;Fylde
+gd;Inbhir Leacainn;Furnace
+gd;An Fhùirneis;Furnace
+gd;Freasaig;Freswick
+gd;A' Bhruaich;Fraserburgh
+sco;The Broch;Fraserburgh
+sco;Faithlie;Fraserburgh
+gd;Foithir;Foyers
+kw;Fowy;Fowey
 br;Fowydh;Fowey
+gd;An Gearasdan;Fort William
+gv;An Gearasdan;Fort William
+gd;A' Chananaich;Fortrose
+sco;Chainry;Fortrose
+gd;Cille Chuimein;Fort Augustus
+gd;Fors An-Àird;Forsinard
+gd;Farrais;Forres
+ga;Foirceal;Forkill
+gd;Baile Fharfair;Forfar
+sco;Farfar;Forfar
+gd;Fodhraitidh;Fodderty
+gd;Fachabair;Fochabers
+gd;Flòdaigearraidh;Flodigarry
+cy;Y Fflint;Flint
+gd;Flaiseader;Flashader
+ga;Baile na Lorgan;Fivemiletown
+cy;Abergwaun;Fishguard
+gd;Fìnnean;Finzean
+gd;Fionn Treabh;Fintry
 it;Fintona Tramway;Fintona
+ga;Fionntamhnach;Fintona
+gd;Fothair Chàrdain;Fettercairn
+gd;Fothair Aonghais;Fetterangus
+sco;Fishie;Fetterangus
+gd;Feàrnais;Ferness
+gd;Baile an Droma;Hill of Fearn
 fr;Fearn;Hill of Fearn
+gd;An Fasadh Feàrna;Fassfern
+kw;Aberfala;Falmouth
+gd;An Eaglais Bhreac;Falkirk
+sco;Fawkirk;Falkirk
+gd;Inbhir Eighe;Eyemouth
+gd;Èibhleag;Evelix
+gd;Baile Eòghainn;Evanton
+gd;Eadrais;Etteridge
+ga;Eiscreach;Eskragh
+gd;Earagaidh;Errogie
+gd;Earabol;Eriboll
+sco;Enterkinfuit;Enterkinfoot
+ga;Inis Ceithleann;Enniskillen
 en;Enfield;Enfield Town
+gd;Eurabol;Embo
+gd;Ailbhinn;Elphin
+gd;Eilean;Ellon
 en;Ellesmere Port;Ellesmere Port Town
 de;Ellesmere Port;Ellesmere Port Town
+gd;Ealaghol;Elgol
+gd;Eilginn;Elgin
+gd;Ach na Feàrna;Elderslie
+ga;An Mhagh;Eglinton
 es;Edimburgo;Edinburgh
 br;Dinedin;Edinburgh
 ca;Edimburg;Edinburgh
 fr;Édimbourg;Edinburgh
+gd;Dùn Èideann;Edinburgh
 gl;Edimburgo;Edinburgh
 it;Edimburgo;Edinburgh
 pt;Edimburgo;Edinburgh
+sco;Edinburrie;Edinburgh
 oc;Edimborg;Edinburgh
+sco;Embra;Edinburgh
 fur;Edinburc;Edinburgh
+gv;Doon Edin;Edinburgh
+gd;Eadardan;Edderton
 nl;Ardvannie;Edderton
+gd;Eicht;Echt
+gd;Eaglais Fheichein Fechan;Ecclefechan
+cy;Glyn Ebwy;Ebbw Vale
 en;East Retford;Retford
+gd;Cille Bhrìghde an Ear;East Kilbride
+gv;Keeill Vreeshey Hiar;East Kilbride
 en;Dereham;East Dereham
 en;The Boldons;East Boldon
+gd;Dùn Airchill;Earlston
 en;London Borough of Ealing;Ealing
 de;London Borough of Ealing;Ealing
 es;Barrio de Ealing;Ealing
 it;Borgo londinese di Ealing;Ealing
+gd;Baile na h-Eaglais;Eaglesham
+gd;Eaglais;Eaglesfield
+gd;An Dìseart;Dysart
+gd;Diùranais;Durness
+cy;Dyfnant;Dunvant
+gd;Na Dùintean;Duns
+gd;Dùn Omhain;Dunoon
+gd;Dùnaid;Dunnet
+gd;Dùn Chailleann;Dunkeld
+ga;Dún Geimhin;Dungiven
+ga;Dún Geanainn;Dungannon
+sco;Dunfaurlin;Dunfermline
+gd;Dùn Phàrlain;Dunfermline
+ga;Dún Dónaill;Dundonald
+gd;Dùn Dèagh;Dundee
+gd;Dùn Dè;Dundee
+gd;Dùn-choll;Duncow
+sco;Duncol;Duncow
+gd;Dùn Bhlàthain;Dunblane
+gd;Dùn Beithe;Dunbeath
+gd;Dùn Barra;Dunbar
+gd;Dùn Phrìs;Dumfries
+sco;Dumbairton;Dumbarton
+gd;Dùn Breatann;Dumbarton
+gd;Baile Bhainidh;Dufftown
+gd;Druiminn;Drymen
+gd;An Druim Mòr;Drummore
+gd;An Druim Fheàrna;Drumfearn
+gd;An Druim Beag;Drumbeg
+ga;Droim Mór;Dromore
+ga;Dún Pádraig;Downpatrick
 fr;Douvres;Dover
 en;Dunreay;Dounreay
+gd;Dùn Rath;Dounreay
+gd;An Dùn;Doune
+gd;An Dubh-ghàrraidh;Dougarie
+gd;Dùbhghlas;Douglas
+gd;Dòrnach;Dornock
+gd;Dòrnach;Dornoch
+gd;An Dòrnaidh;Dornie
+ga;Domhnach Daoi;Donaghadee
 en;Dolgelly;Dolgellau
 eu;Dolmelinllyn;Dolbenmaen
 en;Pont Dolanog;Dolanog
+gd;An Dipinn;Dippin
+gd;Inbhir Pheofharain;Dingwall
+ga;Doire Loinn;Derrylin
+ga;Doire Ó gConaíle;Derrygonnelly
+cy;Dinbych;Denbigh
+gd;Darbhail;Darvel
+gd;Dail Chuinnidh;Dalwhinnie
+gd;Dail Ruigh;Dalry
+gd;Dail M'Fhaolain;Dalmellington
+sco;Dawmellinton;Dalmellington
+sco;Dulmally;Dalmally
+gd;Dalais;Dallas
+gd;Dail Chè;Dalkeith
+sco;Dawkeith;Dalkeith
+gd;Dàil Eileadh;Dalelia
+gd;Dul Chreachaird;Dalchreichart
+gd;Dail Bheithe;Dalbeattie
+cy;Cwm-iou;Cwmyoy
+cy;Cwmcarfan;Cwmcarvan
+gd;Cupar Fìobha;Cupar
+gd;Cumnag;Cumnock
+gd;Comar nan Allt;Cumbernauld
+sco;Cummernaud;Cumbernauld
+ga;Cúl Trá;Cultra
+gd;Cùil Rathain;Culrain
+ga;An Chúil Mhór;Culmore
+ga;Coill na Baice;Cullybackey
+gd;Inbhir Cuilinn;Cullen
+gd;Cùl-cinn;Culkein
+gd;An Cùil Bhàicidh;Culbokie
+ga;Cromghlinn;Crumlin
 en;Croydon Grants;Croydon
 de;Croydon, London;Croydon
+ga;Crois Mhic Lionnáin;Crossmaglen
+gd;Crò Mòr;Cromore
+gd;Cromdhail;Cromdale
+gd;Cromba;Cromarty
+gd;Craoibh;Crieff
+cy;Crucywel;Crickhowell
+cy;Cricieth;Criccieth
+gd;A Chrìon Làraich;Crianlarich
+sco;Creetoun;Creetown
+ga;Sruth Chráfard;Crawfordsburn
+gd;Creamhain Eòin;Crawfordjohn
+gd;Cathair Amain;Cramond
+gd;Cathair Aile;Crail
+cy;Llangrallo;Coychurch
+gd;Cùl Dùn Beithe;Cowdenbeath
+cy;Y Bont-faen;Cowbridge
+gd;An Cùrr;Cour
+gd;An Cùl Phort;Coulport
+gd;An Corran;Corran
 de;Corfe;Corfe Castle
+ga;An Chorr Chríochach;Cookstown
+gd;Comraigh;Comrie
+ga;An Comar;Comber
+cy;Bae Colwyn;Colwyn Bay
+gd;Caol an t-Snàimh;Colintraive
+ga;Cúil Raithin;Coleraine
+gd;An Sruthan Fuar;Coldstream
+sco;Cauldstream;Coldstream
+gd;Ceileabost;Colbost
+sco;Coatbrig;Coatbridge
+gd;Drochaid a Chòta;Coatbridge
+ga;Oileán an Ghuail;Coalisland
+ga;An Cuach;Coa
+gd;Bruach Chluaidh;Clydebank
+gd;Na Cluainean;Clunes
+ga;Clochar;Clogher
+sco;Derrygonlie;Clogher
 de;Clifton (England);Clifton
 en;Meggies;Cleethorpes
+gd;Clais an Easaidh;Clashnessie
+cy;Treglarbes;Clarbeston
+ga;Clabaigh;Clabby
+cy;Y Waun;Chirk
 en;Ongar;Chipping Ongar
+gv;Yn Çhaayr;Chester
+cy;Cas-gwent;Chepstow
 en;Chalfont St Peter;Chalfont Saint Peter
+cy;Cerrig-y-Druidion;Cerrigydrudion
+cy;Cathedin;Cathedine
+ga;Caisleán Uidhilín;Castlewellan
+gd;Baile Chaisteil;Castleton
+ga;An Caisleán Riabhach;Castlereagh
+gd;Caisteal Dhùghlais;Castle Douglas
+ga;Caisleán na Deirge;Castlederg
 ca;Castell Combe;Castle Combe
+gd;Bàgh a'Chaisteil;Castlebay
+gd;Caisteal Tarrais;Carstairs
+gd;An Còrsa Feàrna;Carsphairn
+ga;Ceathrú Aodha Dhuibh;Carryduff
+gd;Cair Ruairidh.;Carrutherstown
+ga;Carraig Fhearghais;Carrickfergus
+gd;Drochaid Chàrr;Carrbridge
+ga;Carn tSiadhail;Carnteel
+gd;Càrn Fheusda;Carnoustie
+ga;Carn Monaidh;Carnmoney
+gd;Càrn Àsaraidh;Carnassarie
+gd;Cathair Mhanach;Carmunnock
+cy;Caerfyrddin;Carmarthen
+gd;Cathair MoLuaig;Carluke
+cy;Aberteifi;Cardigan
+cy;Caerdydd;Cardiff
 br;Kerdiz;Cardiff
+gv;Cayr Deeth;Cardiff
+sco;Cairdiff;Cardiff
 ca;Capel-i-ffin;Capel-y-ffin
 fr;Cantorbéry;Canterbury
 pt;Cantuária;Canterbury
+gd;Canonbaidh;Canonbie
+gd;Canaich;Cannich
+gd;Canasbaidh;Canisbay
+sco;Cammeltoun;Campbeltown
+gd;Ceann Loch Chille Chiarain;Campbeltown
+gv;Balley Keeill Charane;Campbeltown
+kw;Ryskammel;Camelford
+gd;Camas Lang;Cambuslang
+kw;Kamm-Bron;Camborne
 br;Kammbronn;Camborne
+kw;Cambron;Camborne
+gd;Camas Tianabhaig;Camastianavaig
 br;Kalstok;Calstock
+gd;Calasraid;Callander
+ga;Cionn Aird;Caledon
+gd;Machair an Sgithich;Cairnryan
+cy;Caerffili;Caerphilly
+cy;Caerllion;Caerleon
+ga;Muileann na Buaise;Bushmills
 en;Bushey Heath;Bushey
 en;Bury St;Bury St Edmunds
 en;Bury Saint Edmunds;Bury St Edmunds
 nl;Bury St. Edmunds;Bury St Edmunds
 en;Burton-on-Trent;Burton upon Trent
 de;Burton-upon-Trent;Burton upon Trent
+cy;Porth Tywyn;Burry Port
+ga;an Bhoirinn;Burren
+gd;Am Broch;Burghead
+sco;Burgheid;Burghead
+sco;The Broch;Burghead
+gd;Bun Easain;Bunessan
+cy;Llanfair-ym-Muallt;Builth Wells
 en;Budleigh;Budleigh Salterton
+kw;Porthbud;Bude
 br;Porth Bud;Bude
+cy;Bwcle;Buckley
+gd;Bucaidh;Buckie
+gd;Buaile an Todhair;Bualintur
+cy;Bryn-mawr;Brynmawr
+gd;Bruaich a’ Chladaich;Bruichladdich
+gd;Srath Bhroc;Broxburn
+sco;Broaxburn;Broxburn
+ga;Bruach Sheáin;Broughshane
+gd;Brùra;Brora
+ga;Achadh Lon;Brookeborough
+gd;Breadhaig;Brodick
+ga;Brocagh;Brockagh
+ga;Brocach;Brockagh
+gd;An t-Àth Leathann;Broadford
+gd;Drochaid Urchaidh;Bridge of Orchy
+gd;Drochaid Bhalgaidh;Bridge of Balgie
+gd;Beul an Àtha;Bridgend
+cy;Pen-y-bont ar Ogwr;Bridgend
 es;Bridgend County Borough;Bridgend
 es;Brewood and Coven;Brewood
 en;Brecknock;Brecon
+cy;Brycheiniog;Brecon
+cy;Aberhonddu;Brecon
+gd;Breichinn;Brechin
+gd;Bràigh Mhàrr;Braemar
+gd;Bogha Mòr;Bowmore
+gd;Bogh Mòr;Bowmore
+gd;Bolan;Bowling
+sco;Bowlin;Bowling
+gd;Bàgair;Bowertower
+kw;Kastell Boterel;Boscastle
+gd;Bun a Mhuilinn;Bonnavoulin
+gd;Both an Uillt;Bonhill
 en;Bo'ness;Bo’ness
+gd;Drochaid a Bhanna;Bonar Bridge
 en;Boldon;The Boldons
+gd;Both Fhionndain;Bohuntine
+kw;Bosvenegh;Bodmin
+gd;Coit a' Ghartain;Boat of Garten
 en;Blaydon;Blaydon-on-Tyne
+gd;Blàr Athall;Blair Atholl
+cy;Blaenafon;Blaenavon
+gd;Blaidneach;Bladnoch
+gd;An Dubh-abhainn;Blackwaterfoot
+gd;Baile an Easbaig;Bishopton
+sco;Bishoptoun;Bishopton
 en;Bishop's Waltham;Bishops Waltham
 en;Bishop's Stortford;Bishops Stortford
 de;Bishop’s Stortford;Bishops Stortford
@@ -276,38 +1035,167 @@ es;Bishop’s Stortford;Bishops Stortford
 nl;Bishop's Stortford;Bishops Stortford
 en;Bishop's Cleeve;Bishops Cleeve
 en;Bishops Castle;Bishop's Castle
+gd;Coille Dobhair;Bishopbriggs
 en;Brum;Birmingham
+gv;Kione Beih;Birkenhead
 en;Birchington;Birchington-on-Sea
 en;Bilton in Ainsty;Bilton
+gd;Bigear;Biggar
 en;London Borough of Bexley;Bexley
 en;Bexhill;Bexhill-on-Sea
+gd;Am Blàran Odhar;Bettyhill
 en;Betws yn Rhos;Betws-yn-Rhôs
+ga;An Sruthán;Bessbrook
 en;Berwick on Tweed;Berwick-Upon-Tweed
 en;Berwick;Berwick-Upon-Tweed
 en;Berko;Berkhamsted
+ga;Bearach;Beragh
+ga;Beann Bhorb;Benburb
+ga;Bealach na Leice;Bellanaleck
+ga;Béal Feirste;Belfast
 en;Belfast City;Belfast
+gv;Beeal Feirshtey;Belfast
+ga;Béal Cú;Belcoo
+cy;Bedwellte;Bedwellty
+cy;Biwmares;Beaumaris
+gd;A Mhanachainn;Beauly
+gd;Cille Phàdraig Ùr;Bearsden
+gd;Both Cheit;Bathgate
+cy;Basaleg;Bassaleg
+cy;Y Barri;Barry
 en;Barrow;Barrow in Furness
+gd;Ceann a Bhàirr;Barrhead
 en;Chipping Barnet;Barnet
 en;High Barnet;Barnet
 de;London Borough of Barnet;Barnet
 es;Municipio de Barnet;Barnet
+cy;Abermaw;Barmouth
 en;Barking Town;Barking
 en;Barford St John;Barford Saint John
+gd;An Cladach;Barbaraville
+gd;Allt a' Bhonnaich;Bannockburn
+ga;Beannchar;Bangor
+gd;Banbh;Banff
+gd;Beannchar;Banchory
+sco;Banchry;Banchory
+ga;Droichead na Banna;Banbridge
 pt;Bamburgo;Bamburgh
+gd;Both Chuidir;Balquhidder
+gd;Baile Mòr;Balmore
+gd;Baile MoChatha;Balmaha
+gd;Baile MhicIllFhaolain;Balmaclellan
+ga;Baile na hInse;Ballynahinch
+ga;Baile Monaidh;Ballymoney
+ga;An Baile Meánach;Ballymena
+ga;Baile Mhic Gabhann;Ballygowan
+ga;Baile Uí Dhálaigh;Ballygawley
+ga;Bealach Cláir;Ballyclare
+ga;Baile an Chaistil;Ballycastle
+gd;Am Bealach;Balloch
+ga;Baile an Tuaighe;Ballintoy
+ga;Béal Átha na Mallacht;Ballinamallard
+gd;Bealadair;Ballater
+gd;Baile a Chaolais;Ballachulish
+gv;Balleyn Cheeylysh;Ballachulish
+gd;Baile Àirneach;Balerno
+gd;Baile a' Chladaich;Balchladich
+gd;Baile Ailein;Balallan
+gd;Bail' Ailein;Balallan
+cy;Y Bala;Bala
+gd;Inbhir Àir;Ayr
+gd;An Aghaidh Mhòr;Aviemore
+ga;Achadh na Cloiche;Aughnacloy
+ga;Eochair;Augher
 eu;Achterneed;Auchterneed
 en;Achterneed;Auchterneed
 nl;Achterneed;Auchterneed
+gd;Achadh an Cairn;Auchencairn
+ga;an Arna;Arney
+ga;Ard Mhacha;Armagh
+gv;Ard Maghey;Armagh
+gd;Àrasaig;Arisaig
+gd;Àird Tobha;Ardtoe
+gd;Àird Rosain;Ardrossan
+gv;Ard Rushen;Ardrossan
+gd;Àird Heisleag;Ardheslaig
+ga;Ard Ghlais;Ardglass
+gd;Aird Eòdhanaig;Ardeonaig
+gd;Àird Chlach;Ardclach
+gd;Àird a’ Bhàsair;Ardvasar
+sco;Aiberbrothock;Arbroath
+gd;Obar Bhrothaig;Arbroath
+gd;A Chomraich;Applecross
+sco;Aibercrossan;Applecross
+ga;Aontroim;Antrim
+gd;Ànsruthair;Anstruther
+gd;Inbhir Anainn;Annan
+ga;Eanach Mór;Annaghmore
+cy;Rhydaman;Ammanford
 it;Amble by the Sea;Amble
 de;Alton (England);Alton
+gd;Allt na h-Eirbhe;Altnaharra
+kw;Alternonn;Altarnun
+gd;Alanais;Alness
+gd;Allmhagh Mòr;Alloa
+sco;The Vale;Alexandria
+gd;An Àrd Ruigh;Airdrie
+gd;Àird Shlèite;Aird of Sleat
+ga;Achadh Eochaille;Ahoghill
+gd;Àbhaidh;Advie
+gd;Achadh Mhealbhaich;Achmelvich
 eu;Achylyness;Achlyness
 nl;Achylyness;Achlyness
+gd;Aichillidh Bhuidhe;Achiltibuie
+gd;Àird Tòirinis;Acharn
+gd;Àth Tharracail;Acharacle
+gd;Achadh a' Chanaich;Achany
+gd;Achadh a’ Chòis;Achahoish
+gd;Abèidh;Aboyne
+sco;Abyne;Aboyne
+cy;Abertyleri;Abertillery
+gd;Obar Lobhair;Charlestown of Aberlour
+cy;Y Fenni;Abergavenny
+gd;Obar Dhobhair;Aberdour
+sco;Aiberdeen;Aberdeen
+gd;Obar Dheathain;Aberdeen
+gv;Aberdon;Aberdeen
+cy;Aberdâr;Aberdare
+cy;Aber-carn;Abercarn
+ga;Béal Liche;Belleek
+kw;Logh;Looe
+kw;Kruglin;Flexbury
+cy;Crynwedd;Crinow
+cy;Maes-y-bont;Maesybont
+cy;y Tymbl;Tumble
+cy;Pont-ar-sais;Pontarsais
+cy;Blaen-waun;Blaenwaun
+cy;Cwmfelinmynach;Cwmfelin Mynach
+cy;Ffynnon-groes;Crosswell
+cy;Ogwr;Ogmore
+cy;Coed-duon;Blackwood
 br;Llangaeo;Llancayo
+cy;Llancaeo;Llancayo
 en;Camden;Camden Town
+ga;Creag Abhann;Craigavon
 en;Fulshaw Cross;Fullshaw Cross
 en;Hazelrigg;Hazlerigg
+gd;Cill Taraghlain;Kiltarlity
+gd;Cùil Braonaigh;Culburnie
+sco;Chainry;Culburnie
+gd;Obar Itheachan;Abriachan
+gd;Crasg Eagais;Crask Of Aigas
+gd;Tom na Croiche;Tomnacross
+gd;Caisteal Eirchlis;Erchless Castle
+gd;A' Bhogsolla;Foxhole
 es;Isla de Brownsea;Brownsea Island
 it;Isola di Brownsea;Brownsea Island
 pt;Ilha de Brownsea;Brownsea Island
+gd;An Apainn;Appin
+gd;Deimhidh;Daviot
+gd;Baile an Fhàin;Balnain
+gd;Ceann Loch na h-Airde;Kinlochard
+kw;Krows an Wragh;Crows-an-Wra
+gd;Arascain;Erskine
 en;Kingston;Kingston upon Thames
 fr;Kingston-upon-Thames;Kingston upon Thames
 en;Seavington st Michael;Seavington st. Michael
@@ -321,64 +1209,289 @@ en;St Annes;Lytham St Annes
 en;Lytham;Lytham St Annes
 en;Brockhall Village;Brockhall
 en;Byram cum Sutton;Byram
+ga;An Caisleán Nua;Newcastle
+gd;Gart a’ Chàirn;Gartocharn
+gd;Lannraig Ùr;New Lanark
 en;Bodle Street Green;Bodle Street
 en;Aston Blank;Cold Aston
+ga;Gleann Ghormlaithe;Glengormley
 en;Rosslyn;Roslin
 en;North Yorks;North Yorkshire
 en;Saint Agnes;St Agnes
 es;Saint Agnes;St Agnes
+kw;Aganas;St Agnes
 en;St. Agnes;St Agnes
 en;Saint Mary's;St Mary's
+kw;Ennor;St Mary's
 en;St. Mary's;St Mary's
 en;Saint Martin's;St Martin's
 en;St. Martin's;St Martin's
 de;St. Martin's;St Martin's
+cy;Felinheli;Y Felinheli
+kw;Pons Layn;Sladesbridge
+gd;Muile;Isle Of Mull
+gd;Macharaidh;Machrie
 en;Metropolitan Borough of Wirral;Wirral
+gd;Am Bàgh;Whiting Bay
 br;A’ Chàrnaich;Glencoe
+gd;Gleann Comhann;Glencoe
+gd;An Tòb;Leverburgh
+kw;Porthkragen;Crackington Haven
+gd;Na Seots;Shotts
 en;Leigh Woods National Nature Reserve;Leigh Woods
 it;マーシュ;Marsh
 en;Letchworth;Letchworth Garden City
 en;Pont-y-clun;Pontyclun
+gd;Àird Gaoith;Ardgay
+gd;Àird Ghaoithe;Ardgay
+sco;Argye;Ardgay
 en;Borough of Rossendale;Rossendale
 en;Rossendale District;Rossendale
+cy;Glannau Dyfrdwy;Deeside
 en;High Peak District;High Peak
 en;Lewis;Isle of Lewis
+gd;Leòdhas;Isle of Lewis
+gd;Eilean Leodhais;Isle of Lewis
 en;Bute;Isle of Bute
 en;Arran;Isle of Arran
+gd;Eilean Arainn;Isle of Arran
+kw;Dyntagell;Tintagel
 en;North Uist;Isle of North Uist
+gd;Uibhist a Tuath;Isle of North Uist
 en;South Uist;Isle of South Uist
+gd;Uibhist a Deas;Isle of South Uist
+gd;Meanstraidh;Menstrie
 en;Great Cumbrae;Isle of Cumbrae
 en;Cumbrae;Isle of Cumbrae
+gd;Cumaradh Mòr;Isle of Cumbrae
 en;Ty'n-y-gongl;Tyn-y-Gongl
+kw;Syllan;Isles of Scilly
+kw;Enesek Syllan;Isles of Scilly
 en;Islay;Isle of Islay
+gd;Ìle;Isle of Islay
 en;Queen of the Hebrides;Isle of Islay
 en;Isle of Barra;Barra
+gd;Barraigh;Barra
+gd;Eilean Bharraigh;Barra
 en;Garn;Garndolbenmaen
 en;Isle of Benbecula;Benbecula
 en;Pen-y-Sarn;Penysarn
 en;Dulas Island;Dulas
 en;Jura;Isle of Jura
+gd;Diùra;Isle of Jura
 en;Marian-glas;Marianglas
 en;Scalpay;Isle of Scalpay
 en;Colonsay;Isle of Colonsay
 en;Iona;Isle of Iona
 en;Gigha;Isle of Gigha
 en;Coll;Isle of Coll
+gd;Cola;Isle of Coll
+gd;Canaigh;Isle of Canna
+gd;Eilean Chanaigh;Isle of Canna
 en;Canna;Isle of Canna
 en;Eigg;Isle of Eigg
 en;Rum;Isle of Rum
+kw;Garros;Garras
 it;Stockbridge e Canonmills;Stockbridge
+ga;Cnoc an Mhargaidh;Markethill
+kw;Polkwilkyn;Frogpool
+kw;Kammrys;Cambrose
+kw;Trewydhyan;Trewithian
+cy;Bont Newydd;Bontnewydd
 en;Kilmoluaig;Kilmaluaig
+gd;Drochaid Dheathain;Bridge of Don
+kw;Lanndege;Old Kea
+kw;Stretughel;High Street
 en;Soughton;Sychdyn
+gd;Achadh Bhàrrasdail;Achvarasdal
+gd;Talla na Creige Nuadh;Newcraighall
+kw;Pennpellik;Penpillick
+kw;Trelosk;Trelash
+cy;Porth Dinllaen;Porthdinllaen
+kw;Tregorrek;Tregorrick
+gd;Achadh a' Bhàthaich;Achvaich
+gd;Corr Garaidh;Corgarff
+gd;Òs;Ose
+gd;Couth-Boan;Quothquan
+gd;Cille MoChùig;Kilmahog
 en;Brighton;Brighton and Hove
 nl;Brighton;Brighton and Hove
 de;Brighton;Brighton and Hove
 fr;Brighton;Brighton and Hove
 it;Brighton;Brighton and Hove
 es;Brighton;Brighton and Hove
+gd;Caisteal Mheilc;Castlemilk
+kw;Trewartha;Higher Town
+gd;Peighinn nan Gàidheal;Pennyghael
+gd;Baile Muilinn an Leigheis;Milton of Leys
+gd;Baile Màiri;Maryburgh
+gd;Am Fionn-Bhealach;Faifley
+gd;Cnoc Shuas;Westhill
 fr;Hapurhey;Harpurhey
+kw;Pennardh;Penare
+gd;Àird Chatain;Ardchattan
 en;Love Clough;Loveclough
+cy;Aberysgir;Aberyscir
+kw;Kornel Gwinji;Wainhouse Corner
+kw;Park Carey;Carey Park
+cy;Derwen Gam;Oakford
+gd;DuisdeiI Mòr;Duisdalemore
+cy;Y Gurnos;Gurnos
+kw;Treverek;Trevarrack
 it;Wyke;Wike
+cy;Blaenplwyf;Pont Lanio
+cy;Ffwrnais;Furnace
+kw;Trenans;Trenance
+kw;Ponsnowydh;Newbridge
+gd;Lionacleit;Liniclate
+gd;Nis;Ness
+gd;Cladach Chirceboist;Claddach Kirkibost
+gd;Brèibhig;Brevig
+cy;Llansan Sior;St George
+cy;Llanfihangel-y-pwll;Michaelston-le-Pit
+gd;Port nan Giùran;Portnaguran
+gd;Brù;Brue
+cy;Aberllynfi;Three Cocks
+gd;Achachork;Achadh a'Choirce
+cy;Cil-ffriw;Cilfrew
+cy;Aberchwiler;Aberwheeler
+gd;Port-nah-Abhainne;Gatehead
+gd;Mealabost;Melbost
+gd;Siabost;Shawbost
+gd;Ruisigearraidh;Ruisgarry
+cy;Castell-y-rhingyll;The Gate
+cy;Hawy;Howey
+gd;Tolastadh a' Chaolais;Tolsta Chaolais
+cy;Llanffwyst;Llanfoist
+cy;Licswm;Lixwm
+kw;Kommperan;Perrancoombe
 en;Ostend;Oostende
+gd;Harrapul;Harrapool
+cy;Corntwn;Corntown
+cy;Tresigin;Sigingstone
+kw;Kreunmelin;Millpool
+kw;Chidaw;Daw's House
+kw;Trewythelan;Trewidland
+kw;Trewyns;Trewint
+kw;Trewerman;Trewarmett
+kw;Melinyow Tregryghyon;Tregrehan Mills
+kw;Trevel;Tremail
+kw;Porth an Hal;Marshgate
+kw;Rospervedh;Tresparrett
+cy;Ffont-y-gari;Font-y-gary
+cy;Pendeulwyn;Pendoylan
+cy;Llanddunwyd;Welsh St Donats
+cy;Cilmeri;Cilmery
+gd;Ceallan;Kallin
+cy;Tŷ’n-y-Groes;Ty'n-y-groes
+gd;Borgh;Borve
+cy;Traeth Coch;Red Wharf Bay
+cy;Porthllechog;Bull Bay
+cy;Tre-saith;Tresaith
+gd;Thiarabhagh;Bayherivagh
+cy;Trebannws;Trebanos
+cy;Pentre Helygain;Pentre Halkyn
+cy;Brynffordd;Brynford
+gd;Harlois;Harlosh
+gd;Rèis;Reiss
+gd;Camus Croise;Camascross
+gd;Fearann Dhomhnaill;Ferindonald
 nl;Ferrindonald;Ferindonald
+cy;Pwllmeurig;Pwllmeyric
+gd;Bad a' Chrò;Badachro
+gd;Baile na Bruthaich;Balnabruich
+gd;Eòlaigearraidh;Eoligarry
+gd;Ceann Sail Eighre;Kensaleyre
+kw;Meynporth;Maenporth
+kw;Koger;Kuggar
+kw;Riwella;Reawla
+kw;Ros;Rose
+kw;Treleghtres;Trelights
+gd;Port Mholair;Portvoller
+gd;Seisiadar;Sheshader
+kw;Rama;Rame
+kw;Res an Grows;Rose-an-Grouse
+gd;Sulaisiadar;Shulishader
+gd;Fleisirin;Flesherin
+kw;Pollmargh;Penmarth
+gd;Marbhig;Marvig
+kw;Reskoos;Woodford
+kw;Boselowen;Burlawn
+kw;Kroft Rynnji;Rinsey Croft
+kw;Trevedmond;Edmonton
+gd;Na Gearrannan;Garenin
+kw;Hornek;Hornick
+kw;Tredhewi;Trethewey
+gd;Tàbost;Habost
+kw;Pennhalluwi;Penelewey
+kw;Trewordhavow;Tredavoe
+kw;Kruglogos;Carloggas
+gd;Circebost;Kirkibost
+kw;Treveryan;Trevarrian
+gd;Aiginis;Aignish
+kw;Treveren;Trevarren
+gd;Griais;Gress
+cy;Llanfable;Llanvapley
+cy;Llanhiledd;Llanhilleth
+cy;Llandeilo Gresynni;Llantilio Crossenny
+cy;Pentref Llanedeyrn;Llanedeyrn Village
+cy;Llanbydderi;Llanbethêry
+cy;Ynysowen;Merthyr Vale
+gd;Baile Mòr;Balliemore
+cy;Pentre-dŵr;Pentre Dwr
 en;Miavag;Miabhag
+cy;Llanelli;Llanelly
+cy;Llandeilo Bertholau;Llantilio Pertholey
+cy;Porth Mawr;Whitesands Bay
+cy;Tor-y-Mynydd;Llanfihangel
+gd;Ceòs;Keose
+gd;Plocrapol;Plocrapool
+gd;Beacrabhaic;Beacravik
+gd;Àird Shleibhe;Ardslave
+gd;Àird Mhìghe;Ardvey
+gd;Borghasdal;Borrisdale
+gd;Tòrabhaig;Toravaig
+gd;Struth Mòr;Strumore
+gd;Arinacrinachd;Arrina
+gd;Tholmair;Holmar
+gd;Ealaiseadar;Ellishadder
+gd;Bhatairsteinn;Waterstein
+gd;Feorlaig;Feorlig
+gd;Peighinn a' Chorrain;Peinachorrain
+gd;Gleann dail bho Tuath;North Glendale
+cy;Tredwstan;Tredustan
+gd;Athmòr;Ahmore
+cy;Troed Rhiw Gwair;Troedrhiwgwair
+gd;Gabhsann bho Dheas;South Galson
+gd;An Gearraidh Mòr;Gearymore
+gd;Cairminis;Carminish
+gd;Cladach a' Chaolais;Claddach Kyles
+gd;Baile na h-Iolaire;Eagleton
+gd;Ceann Tangabhal;Kentangaval
+gd;Griomsiadar;Grimshader
+cy;Rhes Newydd;New Row
+gd;Skulamus;Sgalamus
+gd;A' Mhointeach;Moss
+gd;An Àird Dhorcha;Ard Dorch
+gd;Gead an t-Sailleir;Gedintailor
+gd;Cùl na Ceapaich;Back of Keppoch
+gd;Peighinn nam Fìdhleir;Penifiler
+gd;An Torran Uaine;Heatherfield
+gd;Druim-aoidh;Drumuie
+gd;Haunn;Haun
+gd;Gleann Dail bho Dheas;South Glen Dale
+gd;Buaile nam Bodach;Balnabodach
+gd;Aisig;Ashaig
+gd;Smeircleit;Smerclate
+gd;Cill Eireabhagh;Kilerivagh
+gd;Na Faingean;Fanks
+gd;Malagar;Maligar
+gd;Bun na Caim;Bunacaimb
+gd;Fionnsabhagh;Finsbay
+cy;Eglwys Fair y Mynydd;St Mary Hill
+gd;Achadh a' Chùirn;Waterloo
+gd;Lionacro;Linicro
+cy;Llyn Penmaen;Penmaenpool
+gd;Sgarasta;Scarista
+gd;Am Baile;Balla
+gd;Leacanaisigh;Leacanashie
