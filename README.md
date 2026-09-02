@@ -3,13 +3,13 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
 Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
-tchèque, Pologne, Slovaquie, Hongrie, Slovénie — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
 d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
-Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes (voir "Ferries" plus
-bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français,
-anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien, romanche, bas-allemand,
-sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais, guernésiais, kachoube et
-rusyn/lemko (voir "Langues" plus bas).
+Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes/onze îles croates
+(voir "Ferries" plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface
+disponible en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien,
+romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais,
+guernésiais, kachoube, rusyn/lemko et istro-roumain (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -79,6 +79,9 @@ cap-sur-linconnu/
 │       ├── aliases-hu.txt      # idem pour la Hongrie (333 alias, dont 323 en allemand)
 │       ├── communes-si.txt     # ~6 559 lieux slovènes, même format (aucune correction nécessaire)
 │       ├── aliases-si.txt      # idem pour la Slovénie (461 alias, dont 289 en italien — côte istrienne)
+│       ├── communes-hr.txt     # ~11 323 lieux croates, même format (48 noms corrigés Ð->Đ, voir
+│       │                        # scripts/build-country-communes.js, confusion de caractère GeoNames)
+│       ├── aliases-hr.txt      # idem pour la Croatie (116 alias, dont 82 en italien — Istrie/Dalmatie)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -98,7 +101,7 @@ les trois premières routes.
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
-Jersey, République tchèque, Pologne, Slovaquie, Hongrie et Slovénie pour l'instant, d'autres viendront. Chaque pays ajoute deux à
+Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie et Croatie pour l'instant, d'autres viendront. Chaque pays ajoute deux à
 trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -162,7 +165,13 @@ trois choses, indépendamment des autres :
    obligatoire (DARS, société publique gestionnaire du réseau autoroutier slovène,
    evinjeta.dars.si) sur autoroutes et voies express — 100 % numérique depuis 2022 (fin de la
    vignette autocollante), 7 jours 16 €, 1 mois 32 €, 1 an 117,50 € (2026) pour un véhicule léger,
-   `hasToll:false`, aucun ouvrage isolé identifié en plus de la vignette.
+   `hasToll:false`, aucun ouvrage isolé identifié en plus de la vignette. La Croatie ROMPT ce groupe
+   à vignette et rejoint plutôt la France/l'Espagne/l'Italie : un vrai péage FERMÉ au trajet (ticket à
+   l'entrée, paiement à la sortie selon la distance), géré par HAC/Bina-Istra/AZM — PAS de vignette.
+   Barème calculé sur Zagreb-Split/Dugopolje (A1, ~410 km, mojkalkulator.com.hr agrégeant les tarifs
+   HAC 2026) : catégorie I (voiture) 24,50 €, IA (moto) 12,30 €, II (van/remorque) 36,70 € — soit
+   0,060/0,090/0,030 €/km, des ratios ×1,5/×0,5 exacts par rapport à la classe 1 (pas une
+   extrapolation comme pour l'Italie/l'Espagne/le Portugal, de VRAIS ratios officiels). `hasToll:true`.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -179,7 +188,9 @@ trois choses, indépendamment des autres :
    Pologne, Hongrie, tous hors zone euro) : seul pays de la région à avoir adopté l'euro (2009), pas
    de champ `currency` non plus. La Slovénie non plus : premier des pays entrés dans l'UE en 2004 à
    avoir adopté l'euro (dès 2007), et seule des quatre voisines directes de l'Italie/l'Autriche ici
-   couvertes (avec la Slovaquie) à être en zone euro — absente elle aussi de `COUNTRIES.SI.currency`. La devise détermine le plafond de prix affiché pour le logement
+   couvertes (avec la Slovaquie) à être en zone euro — absente elle aussi de `COUNTRIES.SI.currency`.
+   La Croatie non plus : adoption la plus RÉCENTE de tous les pays ici couverts (1er janvier 2023,
+   remplaçant la kuna croate/HRK) — absente elle aussi de `COUNTRIES.HR.currency`. La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage/ferry, qui ne sont de
    toute façon jamais calculés pour un pays hors zone euro pour l'instant.
@@ -197,8 +208,8 @@ noms alternatifs GeoNames).
 
 Interface traduite en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois,
 italien, romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque,
-jèrriais et guernésiais (`public/js/i18n.js` — dictionnaire à plat par langue + petit moteur
-`t(clé, variables)`/`tl(clé)` pour les listes). Le
+jèrriais, guernésiais, kachoube, rusyn/lemko et istro-roumain (`public/js/i18n.js` — dictionnaire à
+plat par langue + petit moteur `t(clé, variables)`/`tl(clé)` pour les listes). Le
 luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
 aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
@@ -368,6 +379,42 @@ registre du patrimoine culturel immatériel slovène, sans reconnaissance ni com
 ni comme langue minoritaire au sens de la Charte européenne des langues régionales ou minoritaires —
 même motif d'exclusion que le silésien en Pologne (statut culturel/dialectal reconnu, mais pas de
 statut légal de langue).
+
+La Croatie, elle, apporte UNE nouvelle langue d'interface — l'istro-roumain (voir plus loin) — mais
+ferme surtout une longue série de callbacks laissés en suspens par les tours précédents. La Charte
+européenne des langues régionales ou minoritaires s'applique en Croatie à sept langues en Partie III
+(protection pleine) : le serbe, l'italien, le hongrois, le tchèque, le slovaque, le ruthène (rusyn) et
+l'ukrainien. Italien/hongrois/tchèque/slovaque/ruthène sont déjà couverts (le ruthène profitant une
+fois de plus automatiquement de la Pologne/la Slovaquie/la Hongrie, sans changement de code) ; le
+serbe et l'ukrainien sont écartés pour le motif habituel — déjà langues nationales de pays voisins non
+couverts (Serbie, Ukraine), malgré le poids réel de la minorité serbe en Croatie (environ 4% de la
+population, la plus importante minorité nationale du pays). C'est là que se referment les callbacks :
+le croate du Burgenland autrichien (voir plus haut, "L'Autriche"), le croate morave tchèque (voir plus
+haut, "République tchèque"), et les communautés croates de Slovaquie/Hongrie mentionnées en passant
+dans leurs tours respectifs, étaient TOUS exclus pour la même raison — "déjà langue nationale d'un
+pays voisin non encore couvert" — devenue sans objet main­tenant que la Croatie rejoint l'application :
+le croate lui-même est désormais la langue nationale d'un pays couvert, exactement le même
+raisonnement de bouclage déjà vu pour le polonais (minorité polonaise de République tchèque) et le
+hongrois (minorité hongroise de Slovaquie). Aucun changement de code n'est nécessaire pour ces
+communautés croates hors de Croatie : le croate profite automatiquement d'être devenu une langue
+nationale pleinement traduite.
+
+Reste l'istro-roumain (vlaški/žejanski, ISO 639-3 `ruo`) : une langue romane à part, PAS une simple
+variété du roumain standard (contrairement au beás hongrois, dialecte archaïque du roumain écarté au
+tour de la Hongrie) — séparée du tronc commun il y a environ un millénaire, parlée aujourd'hui par
+moins de cent locuteurs natifs dans six villages de l'intérieur de l'Istrie (Žejane, Šušnjevica,
+Nova Vas, Jesenovik, Kostrčani, Brdo). Reconnaissance officielle réelle mais partielle : inscrite au
+patrimoine culturel immatériel protégé de Croatie depuis 2007, et couverte par la Charte européenne
+des langues régionales ou minoritaires en Partie II (protection allégée, simples principes généraux)
+depuis 2010 — mais les Istro-Roumains ne sont PAS reconnus comme minorité nationale à part entière.
+Un niveau de confiance plus bas que toute autre langue déjà ajoutée, y compris le monégasque/
+jèrriais/guernésiais (qui, eux, n'ont simplement aucune langue proche à grande échelle sur laquelle
+s'appuyer ; l'istro-roumain, lui, a le roumain standard comme parent vivant le plus proche, mais
+aucune ressource lexicale dédiée moderne, aucune édition Wikipédia, deux variétés orthographiées
+différemment selon les sources). Question posée explicitement à l'utilisateur (voir historique des
+commits) : ajouter quand même, avec une confiance plus faible documentée dans le code
+(`public/js/i18n.js`, commentaire au-dessus du bloc `ruo`), ou s'en tenir aux langues mieux établies.
+Réponse : ajouter quand même — même choix que pour Monaco/Jersey/Guernesey.
 
 Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
@@ -547,6 +594,18 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   un site sans voiture (aucune liaison en ferry pour véhicules n'existe, pour personne), une
   destination réellement impossible pour tous les modes de transport couverts ici — contrairement
   aux îles Wadden, dont l'accès en voiture reste restreint en pratique mais bien réel.
+- **Croatie** : le plus gros ajout en nombre de lignes jusqu'ici — **onze îles** habitées, chacune sa
+  propre masse continentale (Cres+Lošinj, Rab, Ugljan+Pašman, Dugi otok, Brač, Šolta, Hvar, Vis,
+  Korčula, Mljet, Lastovo), desservies par Jadrolinija (Rab par Rapska Plovidba), tarifs officiels
+  haute saison 2026. Quand une île est desservie par plusieurs lignes réelles, la plus COURTE est
+  retenue plutôt que la plus longue au départ direct de Split/Zadar (même logique que le détroit de
+  Messine pour la Sicile) — notamment pour Korčula/Hvar/Mljet, désormais accessibles par un court saut
+  depuis la presqu'île de Pelješac, elle-même reliée au continent par un vrai pont routier depuis 2022
+  (pont de Pelješac) et donc déjà "continent" dans ce modèle. Cres/Lošinj et Ugljan/Pašman sont, comme
+  Jersey/Guernesey, deux îles reliées entre elles par un pont mais formant chacune une seule masse
+  avec sa voisine (Cres↔Lošinj à Osor, Ugljan↔Pašman à Ždrelac) : une seule ligne de ferry à modéliser
+  par paire. Krk/Pag/Vir/Čiovo, elles, sont déjà reliées au continent par un vrai pont routier —
+  correctement traitées comme "continent", sans entrée dédiée.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -564,7 +623,14 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   latitude à 36,00° entre l'île principale et Gozo, vérifié exhaustivement sur `communes-mt.txt` —
   Comino, l'îlot minuscule entre les deux, rejoint la masse "gozo" par ce même seuil faute d'étiquette
   dédiée). Guernesey et Jersey n'ont, elles, besoin d'aucune subdivision : le pays lui-même EST la
-  masse continentale (`c.country === 'GG'`/`'JE'`), chacune une île à part entière.
+  masse continentale (`c.country === 'GG'`/`'JE'`), chacune une île à part entière. La Croatie, elle,
+  ne peut utiliser NI un simple rectangle lat/lon NI le nom de comté (`dept`) : le littoral dalmate
+  est bien trop découpé pour ça — vérifié qu'un comté croate (ex. Splitsko-Dalmatinska) couvre à la
+  fois des îles ET la côte continentale en face, et que Brač/Hvar/Vis partagent presque exactement la
+  même bande de latitude que la côte de Makarska (un rectangle y attraperait la mauvaise moitié).
+  Seul le CODE POSTAL, distinct par île dans les données GeoNames, sépare correctement les deux —
+  `HR_POSTCODE_TO_ISLAND` dans `app.js`, une table de correspondance construite une fois à partir de
+  onze listes de codes postaux exacts (ex. `21400`-`21425` pour Brač, `20260`-`20274` pour Korčula).
 - Limite connue : les petites îles françaises sans pont ni département propre (Belle-Île, Ouessant,
   Groix...) ne sont pas détectées individuellement et restent traitées comme le continent le plus
   proche — un cas rare (quelques dizaines de communes sur ~35 000) laissé de côté pour l'instant.
@@ -572,7 +638,15 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   qui resterait entièrement dans les Açores pourrait proposer un trajet routier entre deux îles
   différentes de l'archipel, alors qu'il faudrait en réalité un bateau/avion inter-îles — un cas
   qui ne peut survenir qu'en partant soi-même d'une commune des Açores (jamais depuis le continent,
-  voir plus haut), donc rare en pratique.
+  voir plus haut), donc rare en pratique. Limite similaire, plus étendue, pour la Croatie : une
+  bonne douzaine de très petites îles à liaison locale réduite et population quasi nulle dans les
+  données ne sont volontairement PAS modélisées (archipel de Zadar : Molat/Ist/Premuda/Silba/Olib/
+  Iž/Rava/Zverinac ; archipel de Šibenik : Kaprije/Zlarin/Žirje/Prvić/Krapanj ; îles Élaphites près
+  de Dubrovnik : Koločep/Lopud/Šipan ; Susak/Unije/Ilovik près de Lošinj ; Drvenik Veli/Mali près de
+  Trogir ; Biševo/Palagruža au large de Vis) — même logique que les Açores/Madère : ces communes
+  restent accessibles comme point de départ (recherche manuelle) mais jamais comme étape reliée au
+  reste d'un itinéraire, traitées par défaut comme le continent (limite assumée, pas un oubli — voir
+  le commentaire au-dessus de `HR_ISLAND_POSTCODES` dans `app.js`).
 
 ## Export PDF
 
@@ -608,7 +682,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.
@@ -623,8 +697,12 @@ au chargement.
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /
   [Via Verde](https://www.vialivre.pt) (Portugal), [Autostrade per l'Italia](https://www.autostrade.it)
-  (Italie) — voir "Pays couverts" pour la méthode de calcul hors de France (échantillon plus
+  (Italie), [HAC](https://www.hac.hr) (Croatie — via mojkalkulator.com.hr pour l'agrégation des
+  tarifs 2026) — voir "Pays couverts" pour la méthode de calcul hors de France (échantillon plus
   restreint que pour la France).
+- Tarifs de ferry croates : [Jadrolinija](https://www.jadrolinija.hr) pour dix des onze lignes,
+  [Rapska Plovidba](https://www.rapska-plovidba.hr) pour Rab (Stinica-Mišnjak) — voir "Ferries"
+  ci-dessus.
 - Photos et région de désambiguïsation : [Wikipédia](https://www.wikipedia.org) (API REST, dans la
   langue du visiteur — voir "Pays couverts" — images sous licence Wikimedia Commons, crédit affiché
   sous chaque photo) ; [geo.api.gouv.fr](https://geo.api.gouv.fr) pour les codes département français.

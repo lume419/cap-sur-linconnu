@@ -575,7 +575,8 @@ app.get('/api/pois', async (req, res) => {
   // (le nord et le sud du pays, lat ~49-54,9°N, tenaient déjà dans la boîte). La Slovaquie (lat
   // ~47,7-49,6°N, lon ~16,8-22,6°E), la Hongrie (lat ~45,7-48,6°N, lon ~16,1-22,9°E) et la Slovénie
   // (lat ~45,4-46,9°N, lon ~13,4-16,6°E) tenaient toutes les trois déjà largement dans la boîte
-  // élargie pour la Pologne, sans ajustement supplémentaire.
+  // élargie pour la Pologne, sans ajustement supplémentaire. La Croatie (lat ~42,4-46,5°N, lon
+  // ~13,5-19,4°E, îles couvertes incluses) tient elle aussi largement dans cette même boîte.
   if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 56 || lon < -10 || lon > 24.2){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }

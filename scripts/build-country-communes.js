@@ -5,9 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['SI']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
-// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU sont déjà générés et
-// commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu.txt),
+const COUNTRIES = ['HR']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI sont déjà générés et
+// commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si.txt),
 // pas la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
@@ -122,6 +122,15 @@ const NAME_OVERRIDES = {
   'Lodz': 'Łódź',
   'Bielsko-Biala': 'Bielsko-Biała'
 };
+// Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
+// noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth
+// islandais/féroïen, U+00D0) au lieu du VRAI Đ croate (D barré, U+0110) — les deux se ressemblent
+// à l'écran mais sont deux caractères Unicode distincts, et aucun pays déjà couvert par cette app
+// n'utilise légitimement le premier (l'islandais/féroïen ne sont pas des langues gérées ici).
+// Remplacement global plutôt que 48 entrées NAME_OVERRIDES : appliqué à chaque nom lu du dump,
+// avant même NAME_OVERRIDES (voir cleanName plus bas), aucun risque de faux positif pour les
+// autres pays déjà générés (jamais régénérés à l'identique, voir COUNTRIES en haut de ce fichier).
+function cleanName(raw){ return (NAME_OVERRIDES[raw] || raw).replace(/Ð/g, 'Đ'); }
 // Sercq (Sark), dépendance du bailliage de Guernesey, remonte dans le dump GeoNames sous le code
 // pays GG (elle n'a pas son propre code ISO) au même titre que les paroisses de Guernesey — mais
 // contrairement aux îles Wadden (voir FERRY_ROUTES/landmassOf dans app.js), qui ont toutes une VRAIE
@@ -171,7 +180,7 @@ for(const country of COUNTRIES){
   const places = rows
     .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
     .map(c => ({
-      name: NAME_OVERRIDES[c[1]] || c[1],
+      name: cleanName(c[1]),
       lat: parseFloat(c[4]),
       lon: parseFloat(c[5]),
       admin1Code: c[10] || '',

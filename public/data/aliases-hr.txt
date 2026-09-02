@@ -1,0 +1,116 @@
+it;Zagabria;Zagreb
+sc;Zagàbria;Zagreb
+lij;Zagabbria;Zagreb
+it;Zara;Zadar
+it;Orsera;Vrsar
+it;Dignano;Vodnjan
+en;Veli Drvenik;Veliki Drvenik
+it;Varasdino;Varaždin
+it;Umago;Umag
+it;Tersatto;Trsat
+it;Traù;Trogir
+de;Tar bei Porec;Tar
+de;Sankt Martin an der Mur;Sveti Martin na Muri
+en;Sveti Djurdj;Sveti Đurđ
+it;San Pietro di Brazza;Supetar
+de;Starigrad-Paklenica;Starigrad
+it;Cittavecchia;Starigrad
+de;Stari Grad (Insel Hvar);Stari Grad
+it;Spalato;Split
+it;Salona;Solin
+it;Bagno di Bua;Slatine
+it;Signo;Sinj
+it;Sebenico;Šibenik
+de;Sibenning;Šibenik
+en;Shestine;Šestine
+it;Segna;Senj
+it;Rovigno;Rovinj
+it;Fiume;Rijeka
+it;Arbe;Rab
+it;Pola;Pula
+it;Promontore;Premantura
+it;Parenzo;Poreč
+it;Porto Tolero;Ploče
+it;Pisino;Pazin
+it;Isola di Pago;Pag
+de;Wosail;Ozalj
+it;Sabbioncello;Orebić
+it;Abbazia;Opatija
+it;Obrovazzo;Obrovac
+it;Novacco di Pisino;Novaki Pazinski
+de;Njivice, Krk;Njivice
+it;Mussici;Mučići
+it;Montona;Motovun
+en;Mirca;Mirce
+it;San Marco;Markovac
+it;Madonna del Carso;Marija na Krasu
+it;Lussinpiccolo;Mali Lošinj
+it;Mune Piccolo;Male Mune
+it;Macarsca;Makarska
+it;Lupogliano;Lupoglav
+it;Albona;Labin
+it;Porto Re;Kraljevica
+it;Curzola;Korčula
+it;Isola di Curzola;Korčula
+rue;Копрівніця;Koprivnica
+it;Tenin;Knin
+it;Canfanaro;Kanfanar
+it;Gelsa;Jelsa
+it;Iagnina;Janjina
+it;Iachici;Jakići
+nl;Ivanić Grad;Ivanić-Grad
+it;Lesina;Hvar
+it;Colmo;Hum
+en;Karin;Gornji Karin
+en;Donji Karin;Gornji Karin
+it;Nugla Superiore;Gornja Nugla
+it;Gollogorizza;Gologorica
+it;Gallesano;Galižana
+en;Sv. Filipi i Jakov;Sveti Filip i Jakov
+it;Fasana;Fažana
+pt;Dubrovnique;Dubrovnik
+es;la perla del Adriático;Dubrovnik
+en;Pearl of the Adriatic;Dubrovnik
+en;Seget Donji;Donji Seget
+de;Seget Donji;Donji Seget
+en;Djeletovci;Đeletovci
+en;Dalya;Dalj
+en;Djakovo;Đakovo
+it;Cirquenizza;Crikvenica
+de;Cres (Stadt);Cres
+it;Cherso (città);Cres
+nl;Cres (stad);Cres
+fr;Cres (ville);Cres
+en;Cres (town);Cres
+es;Cres (ciudad);Cres
+it;Ragusa Vecchia;Cavtat
+it;Ragusavecchia;Cavtat
+it;Buie;Buje
+pt;Buíe;Buje
+de;Biograd;Biograd na Moru
+it;Bassania;Bašanija
+it;Barbana;Barban
+it;Buccari;Bakar
+it;Nona;Nin
+it;Carlovizza;Karlovac
+it;Declevi;Deklevi
+it;Gracchi;Bucalovići
+en;Grabovo-part;Grabovo-dio
+it;Giubba;Djuba
+it;Vardiza;Vardica
+it;Catoro;Katoro
+it;Stanzia Bevilacqua;Stancija Vodopija
+it;Ciussi;Čuši
+it;Susnici;Šušnjići
+it;Racovaz;Rakovci
+it;Banchi;Banki
+it;Seraie;Šeraje
+it;Montecroce di Gimino;Krajcar Breg
+it;Visintini;Vižintini
+it;Sorghi;Šorgi
+it;Santa Lucia;Sveta Lucija
+it;Visintini Monti;Vižintini Vrhi
+it;Golobici;Golubići
+it;Snidarici;Žnjidarići
+it;Craici;Krajići
+it;Perelici;Pirelići

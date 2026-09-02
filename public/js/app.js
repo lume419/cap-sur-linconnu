@@ -71,8 +71,16 @@
   // réseau, portail evinjeta.dars.si — 100% numérique depuis 2022, plus de vignette autocollante),
   // à prix fixe selon la durée pour une voiture (classe 2A) : 7 jours 16 €, 1 mois 32 €, 1 an
   // 117,50 € (2026) — aucun barème €/km ne peut en dériver (hasToll:false). Aucun ouvrage isolé à
-  // péage identifié en plus de la vignette, comme la République tchèque/la Slovaquie/la Hongrie.
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI seulement) : noms alternatifs par
+  // péage identifié en plus de la vignette, comme la République tchèque/la Slovaquie/la Hongrie. La
+  // Croatie, elle, ROMPT ce groupe et rejoint plutôt la France/l'Espagne/l'Italie : un vrai péage
+  // FERMÉ au trajet (ticket à l'entrée, paiement à la sortie selon la distance parcourue), géré par
+  // HAC/Bina-Istra/AZM sur ~1 330 km d'autoroutes — PAS de vignette. Barème officiel 2026 (calculé
+  // sur Zagreb-Split/Dugopolje, ~410 km, mojkalkulator.com.hr agrégeant les tarifs HAC) : catégorie I
+  // (voiture) 24,50 €, catégorie II (van/remorque) 36,70 €, catégorie IA (moto) 12,30 € — soit
+  // 0,060 €/km (classe 1), 0,090 €/km (classe 2, ratio ×1,5 EXACT par rapport à la classe 1, une
+  // vraie donnée plutôt qu'une extrapolation), 0,030 €/km (classe 5, ratio ×0,5 EXACT lui aussi) —
+  // voir TOLL_RATE_BY_COUNTRY.HR plus bas. hasToll:true, comme la France/l'Espagne/l'Italie.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -94,7 +102,9 @@
   // PAS comme sa voisine slovaque) : sa monnaie propre, le forint hongrois ('HUF'), reste utilisée
   // ici. La Slovénie, elle, a adopté l'euro dès 2007 — premier des pays entrés dans l'UE en 2004 à
   // le faire, et la SEULE des quatre voisines directes de l'Italie/l'Autriche ici couvertes (avec la
-  // Slovaquie) à être dans la zone euro : absente de COUNTRIES.SI.currency, EUR par défaut.
+  // Slovaquie) à être dans la zone euro : absente de COUNTRIES.SI.currency, EUR par défaut. La
+  // Croatie, elle, a adopté l'euro le 1er janvier 2023 — la plus récente adoption parmi tous les pays
+  // ici couverts, remplaçant la kuna croate (HRK) : absente elle aussi de COUNTRIES.HR.currency.
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -123,7 +133,8 @@
     HU: { code:'HU', name:'Hongrie', file:'communes-hu.txt', hasToll:false, aliasFile:'aliases-hu.txt', currency:'HUF',
       vignette:{ url:'https://ematrica.nemzetiutdij.hu/' } },
     SI: { code:'SI', name:'Slovénie', file:'communes-si.txt', hasToll:false, aliasFile:'aliases-si.txt',
-      vignette:{ url:'https://evinjeta.dars.si/' } }
+      vignette:{ url:'https://evinjeta.dars.si/' } },
+    HR: { code:'HR', name:'Croatie', file:'communes-hr.txt', hasToll:true, aliasFile:'aliases-hr.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -378,12 +389,23 @@
   //   mais n'est jamais OBLIGATOIRE pour circuler dans le seul Liechtenstein — contrairement à la
   //   Suisse/l'Autriche, aucun rappel de vignette n'est donc affiché pour ce pays (voir
   //   COUNTRIES.LI, sans champ `vignette`).
+  // - Croatie : réseau à péage FERMÉ (ticket à l'entrée, paiement à la sortie), comme la France —
+  //   PAS de vignette, contrairement à tous les pays d'Europe centrale ajoutés jusqu'ici (Suisse/
+  //   Autriche/République tchèque/Slovaquie/Hongrie/Slovénie). Barème calculé sur Zagreb-Split/
+  //   Dugopolje (A1, ~410 km) — mojkalkulator.com.hr, agrégeant les tarifs officiels HAC 2026 :
+  //   catégorie I (voiture) 24,50 €, IA (moto) 12,30 €, II (van/remorque) 36,70 €. Contrairement à
+  //   l'Italie/l'Espagne/le Portugal, les classes 2/5 ne sont PAS extrapolées ici : ce sont de VRAIS
+  //   ratios officiels par rapport à la classe 1 (36,70/24,50 = ×1,498 ≈ ×1,5 ; 12,30/24,50 = ×0,502
+  //   ≈ ×0,5), retenus tels quels plutôt qu'arrondis au ratio français/espagnol habituel — d'où
+  //   0,060/0,090/0,030 €/km, une progression exactement ×1,5/×0,5 qui n'est ici PAS une
+  //   coïncidence de calcul.
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,
     ES: { 1: 0.14, 2: 0.218, 5: 0.081 },
     PT: { 1: 0.036, 2: 0.056, 5: 0.021 },
-    IT: { 1: 0.086, 2: 0.133, 5: 0.050 }
+    IT: { 1: 0.086, 2: 0.133, 5: 0.050 },
+    HR: { 1: 0.060, 2: 0.090, 5: 0.030 }
   };
   var TOLL_MIN_DISTANCE_KM = 60; // en-deçà, le péage n'entre pas en ligne de compte
 
@@ -479,6 +501,75 @@
   //   est déjà proche de la moitié du tarif voiture. Sercq (voir SARK_EXCLUDE_NAMES,
   //   scripts/build-country-communes.js) n'a AUCUNE liaison en ferry pour véhicules — exclue en
   //   amont, jamais une destination possible ici.
+  // - Croatie : le plus gros ajout en nombre de lignes jusqu'ici — onze îles habitées, chacune sa
+  //   propre masse continentale (voir HR_ISLAND_POSTCODES/landmassOf plus bas), toutes desservies par
+  //   Jadrolinija sauf Rab (Rapska Plovidba). Système fermé (Zagreb-Split), voir TOLL_RATE_BY_COUNTRY
+  //   plus haut : PAS de vignette pour les traversées, un vrai tarif "voiture" par ligne (source :
+  //   putovnica.net/absolute-croatia.com/allferriescroatia.com, tarifs officiels haute saison 2026).
+  //   Quand une île est desservie par PLUSIEURS lignes réelles, la plus COURTE est retenue plutôt que
+  //   la plus longue au départ direct de Split/Zadar (même logique que Messine pour la Sicile) —
+  //   notamment pour la Corčula/Hvar/Mljet, désormais accessibles par un court saut depuis la
+  //   presqu'île de Pelješac, elle-même reliée au continent par un vrai pont routier depuis 2022 (pont
+  //   de Pelješac) et donc déjà "continent" dans ce modèle, sans anneau dédié. Classe 2/5 extrapolées
+  //   au ratio ×1,5/×0,5 — les MÊMES ratios que le péage croate ci-dessus (voir TOLL_RATE_BY_COUNTRY),
+  //   une cohérence qui n'est pas fortuite : HAC applique un ratio comparable à ses propres classes de
+  //   véhicules, retenu ici faute de grille détaillée par classe pour chaque ligne de ferry.
+  //   Classe foot = vrai tarif passager publié par ligne (pas une extrapolation), sauf Zadar-Brbinj
+  //   (Dugi Otok) où aucun tarif fiable n'a été trouvé : approximé sur le tarif d'une ligne de durée
+  //   comparable (Prapratno-Sobra).
+  //   - Cres (+Lošinj, reliée à Cres par un pont à Osor — même masse) : Brestova-Porozina, 20 min,
+  //     20,70 €/voiture, 4,40 €/passager (préférée à Valbiska-Merag, via Krk, déjà "continent" ici,
+  //     par simplicité : une seule ligne à modéliser).
+  //   - Rab : Stinica-Mišnjak (Rapska Plovidba), 20 min, 18,20 €/voiture, 4,20 €/passager.
+  //   - Ugljan (+Pašman, reliée à Ugljan par le pont de Ždrelac — même masse) : Zadar-Preko, 25 min,
+  //     17,30 €/voiture, 3,80 €/passager.
+  //   - Dugi Otok : Zadar-Brbinj, 1h45, 28,50 €/voiture, ~7,50 €/passager (approximé, voir plus haut).
+  //   - Brač : Split-Supetar, 50 min, 26,10 €/voiture, 6,50 €/passager.
+  //   - Šolta : Split-Rogač, 1h, 23,50 €/voiture, 5,70 €/passager.
+  //   - Hvar : Drvenik-Sućuraj, 30 min, 19,70 €/voiture, 4,10 €/passager (préférée à Split-Stari Grad,
+  //     bien plus longue — 1h50, 47,60 € — même logique de ligne courte que Corčula/Mljet).
+  //   - Vis : Split-Vis, 2h20, 52 €/voiture — SEULE ligne réelle, île la plus éloignée du continent
+  //     parmi celles couvertes ici, aucun raccourci n'existe. Passager estimé (non publié précisément
+  //     dans les sources consultées) au même ratio que les autres lignes Split (~1/4,5 du tarif
+  //     voiture) : 12 €.
+  //   - Korčula : Orebić-Dominče, 20 min, 16,20 €/voiture, 4,40 €/passager.
+  //   - Mljet : Prapratno-Sobra, 45 min, 25,50 €/voiture, 6,10 €/passager.
+  //   - Lastovo : Split-Vela Luka-Ubli, 4h30 (île la plus reculée), 73,70 €/voiture, 11,50 €/passager
+  //     — SEULE ligne réelle, aucun raccourci n'existe pour cette île au large.
+  //   Îlots volontairement LAISSÉS DE CÔTÉ (aucune ligne modélisée, traités comme "continent" par
+  //   défaut — limite assumée, pas un oubli) : Krk/Pag/Vir/Čiovo (déjà reliés au continent par un vrai
+  //   pont routier, correctement "continent"), et une bonne douzaine de très petites îles à liaison
+  //   locale réduite et population quasi nulle dans les données (archipel de Zadar : Molat/Ist/
+  //   Premuda/Silba/Olib/Iž/Rava/Zverinac ; archipel de Šibenik : Murter[pont]/Kaprije/Zlarin/Žirje/
+  //   Prvić/Krapanj ; îles Élaphites près de Dubrovnik : Koločep/Lopud/Šipan ; Susak/Unije/Ilovik près
+  //   de Lošinj ; Drvenik Veli/Mali près de Trogir ; Biševo/Palagruža au large de Vis) — même logique
+  //   que les Açores/Madère pour le Portugal : ces communes restent accessibles comme point de départ
+  //   (recherche manuelle) mais jamais comme étape reliée au reste d'un itinéraire.
+  var HR_ISLAND_POSTCODES = {
+    cres: ['51550', '51556', '51557'],
+    rab: ['51280'],
+    ugljan: ['23271', '23273', '23212'],
+    dugiOtok: ['23281', '23286', '23287'],
+    brac: ['21400', '21405', '21410', '21412', '21420', '21425'],
+    solta: ['21430'],
+    hvar: ['21450', '21460', '21465', '21469'],
+    vis: ['21480', '21485'],
+    korcula: ['20260', '20270', '20271', '20274'],
+    mljet: ['20225', '20226'],
+    lastovo: ['20290']
+  };
+  // Table inverse (code postal -> île), construite une seule fois plutôt qu'à chaque appel de
+  // landmassOf — identifiée par CODE POSTAL EXACT plutôt que par coordonnées : contrairement à la
+  // Corse/aux Baléares/à la Sardaigne/la Sicile, le littoral dalmate est bien trop découpé pour
+  // qu'un simple rectangle lat/lon sépare fiablement une île de son continent voisin (vérifié :
+  // Brač/Hvar/Vis partagent presque exactement la même bande de latitude que la côte de Makarska,
+  // Ugljan/Pašman celle de Zadar/Biograd) — le code postal, lui, est un identifiant GeoNames déjà
+  // séparé par île, aussi fiable que les codes 2A/2B pour la Corse ou les provinces pour la Sardaigne/
+  // la Sicile.
+  var HR_POSTCODE_TO_ISLAND = {};
+  Object.keys(HR_ISLAND_POSTCODES).forEach(function(island){
+    HR_ISLAND_POSTCODES[island].forEach(function(cp){ HR_POSTCODE_TO_ISLAND[cp] = island; });
+  });
   var WADDEN_ISLANDS = ['texel', 'vlieland', 'terschelling', 'ameland', 'schiermonnikoog'];
   // Provinces italiennes de Sardaigne (5) et de Sicile (9) — voir landmassOf plus bas. Liste
   // vérifiée exhaustivement sur les 107 provinces distinctes présentes dans communes-it.txt.
@@ -494,7 +585,18 @@
     'gozo|malta': { routeKey:'ferry.route.gozo', durationH:0.42, distanceKm:6, priceByClass:{1:8, 2:12, 5:4, foot:2} },
     'continental|jersey': { routeKey:'ferry.route.jersey', durationH:1.42, distanceKm:110, priceByClass:{1:115, 2:170, 5:50, foot:42} },
     'continental|guernsey': { routeKey:'ferry.route.guernsey', durationH:2, distanceKm:155, priceByClass:{1:115, 2:170, 5:50, foot:42} },
-    'guernsey|jersey': { routeKey:'ferry.route.channelIslands', durationH:1.17, distanceKm:65, priceByClass:{1:75, 2:110, 5:35, foot:25} }
+    'guernsey|jersey': { routeKey:'ferry.route.channelIslands', durationH:1.17, distanceKm:65, priceByClass:{1:75, 2:110, 5:35, foot:25} },
+    'continental|cres': { routeKey:'ferry.route.cres', durationH:0.33, distanceKm:5, priceByClass:{1:21, 2:31, 5:10, foot:4} },
+    'continental|rab': { routeKey:'ferry.route.rab', durationH:0.33, distanceKm:3, priceByClass:{1:18, 2:27, 5:9, foot:4} },
+    'continental|ugljan': { routeKey:'ferry.route.ugljan', durationH:0.42, distanceKm:5, priceByClass:{1:17, 2:26, 5:9, foot:4} },
+    'continental|dugiOtok': { routeKey:'ferry.route.dugiOtok', durationH:1.75, distanceKm:30, priceByClass:{1:29, 2:43, 5:14, foot:8} },
+    'brac|continental': { routeKey:'ferry.route.brac', durationH:0.83, distanceKm:18, priceByClass:{1:26, 2:39, 5:13, foot:7} },
+    'continental|solta': { routeKey:'ferry.route.solta', durationH:1, distanceKm:17, priceByClass:{1:24, 2:35, 5:12, foot:6} },
+    'continental|hvar': { routeKey:'ferry.route.hvar', durationH:0.5, distanceKm:5, priceByClass:{1:20, 2:30, 5:10, foot:4} },
+    'continental|vis': { routeKey:'ferry.route.vis', durationH:2.33, distanceKm:65, priceByClass:{1:52, 2:78, 5:26, foot:12} },
+    'continental|korcula': { routeKey:'ferry.route.korcula', durationH:0.33, distanceKm:3, priceByClass:{1:16, 2:24, 5:8, foot:4} },
+    'continental|mljet': { routeKey:'ferry.route.mljet', durationH:0.75, distanceKm:12, priceByClass:{1:26, 2:38, 5:13, foot:6} },
+    'continental|lastovo': { routeKey:'ferry.route.lastovo', durationH:4.5, distanceKm:110, priceByClass:{1:74, 2:111, 5:37, foot:12} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -542,6 +644,21 @@
       if(SARDINIA_PROVINCES.indexOf(c.dept) !== -1) return 'sardinia';
       if(SICILY_PROVINCES.indexOf(c.dept) !== -1) return 'sicily';
       return 'continental';
+    }
+    if(c.country === 'HR'){
+      // Ici, ni le pays (comme la France) ni un simple rectangle lat/lon (comme l'Espagne/le
+      // Portugal) ni le nom de comté (dept, comme la province italienne) ne suffisent : un comté
+      // croate (ex. Splitsko-Dalmatinska) couvre à la fois des îles ET la portion de côte continentale
+      // en face, ET plusieurs comtés/rectangles se chevauchent d'une île à l'autre (voir le
+      // commentaire au-dessus de HR_ISLAND_POSTCODES) — seul le code postal, distinct par île dans
+      // les données GeoNames, sépare correctement les deux. On regarde TOUS les codes postaux de la
+      // commune (allCps), pas seulement le premier, par prudence.
+      var hrCps = c.allCps || (c.cp ? [c.cp] : []);
+      for(var hci=0; hci<hrCps.length; hci++){
+        var hrIsland = HR_POSTCODE_TO_ISLAND[hrCps[hci]];
+        if(hrIsland) return hrIsland;
+      }
+      return 'continental'; // Krk/Pag/Vir/Čiovo (ponts routiers) + îlots non couverts, voir plus haut
     }
     // Malte : tout le pays est une île, mais DEUX masses distinctes reliées entre elles par leur
     // propre ferry (voir gozo|malta plus haut) — l'île principale (Malte) au sud, Gozo au nord,

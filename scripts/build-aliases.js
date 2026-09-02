@@ -23,8 +23,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['SI']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU déjà générés
-// et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu.txt)
+const COUNTRIES = ['HR']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI déjà générés
+// et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
@@ -52,8 +52,15 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // (édition Wikipédia dédiée csb.wikipedia.org, ~87 600 locuteurs recensés 2021). "rue" (rusyn, ISO
 // 639-3 — le lemko, nom utilisé spécifiquement en Pologne, en est une variété reconnue comme
 // minorité ETHNIQUE distincte à part entière depuis la même loi de 2005, contrairement au croate
-// morave tchèque resté classé comme une simple variété du croate) depuis le même ajout.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue']);
+// morave tchèque resté classé comme une simple variété du croate) depuis le même ajout. "ruo"
+// (istro-roumain, ISO 639-3) depuis l'ajout de la Croatie — langue romane à part (PAS une simple
+// variété du roumain standard, contrairement au beás hongrois écarté au tour de la Hongrie),
+// gravement menacée (moins de 100 locuteurs natifs, six villages d'Istrie), reconnaissance officielle
+// réelle mais partielle (patrimoine culturel protégé depuis 2007, Charte européenne des langues
+// régionales/minoritaires Partie II depuis 2010, mais aucun statut de minorité nationale) — ajoutée
+// malgré cette confiance plus faible, choix explicite de l'utilisateur (voir README "Langues"),
+// cohérent avec le monégasque/jèrriais/guernésiais.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -96,6 +103,10 @@ const NAME_OVERRIDES = {
   'Lodz': 'Łódź',
   'Bielsko-Biala': 'Bielsko-Biała'
 };
+// Même correction que build-country-communes.js (voir son commentaire pour le détail) : le dump
+// GeoNames croate confond le Ð latin (Eth, U+00D0) avec le VRAI Đ croate (D barré, U+0110) dans 48
+// noms de communes — remplacement global, sans risque pour les autres pays déjà générés.
+function cleanName(raw){ return (NAME_OVERRIDES[raw] || raw).replace(/Ð/g, 'Đ'); }
 // Même exclusion que build-country-communes.js (voir son commentaire pour le détail) : Sercq n'a
 // aucune liaison en ferry pour véhicules, un alias y menant ne servirait donc à rien côté recherche
 // (la commune elle-même est absente de communes-gg.txt).
@@ -160,7 +171,7 @@ for(const country of COUNTRIES){
     .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
     .map(c => ({
       geonameid: c[0],
-      name: NAME_OVERRIDES[c[1]] || c[1],
+      name: cleanName(c[1]),
       lat: parseFloat(c[4]),
       lon: parseFloat(c[5]),
       admin1Code: c[10] || '',
