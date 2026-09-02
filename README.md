@@ -3,7 +3,7 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
 Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
-tchèque, Pologne, Slovaquie — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+tchèque, Pologne, Slovaquie, Hongrie — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
 d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
 Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes (voir "Ferries" plus
 bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français,
@@ -75,6 +75,8 @@ cap-sur-linconnu/
 │       ├── aliases-pl.txt      # idem pour la Pologne (alias FR/EN/DE/CSB/RUE/..., 1 360 au total)
 │       ├── communes-sk.txt     # ~4 985 lieux slovaques, même format (aucune correction nécessaire)
 │       ├── aliases-sk.txt      # idem pour la Slovaquie (86 alias, dont 18 en rusyn — Prešov)
+│       ├── communes-hu.txt     # ~10 050 lieux hongrois, même format (aucune correction nécessaire)
+│       ├── aliases-hu.txt      # idem pour la Hongrie (333 alias, dont 323 en allemand)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -94,7 +96,7 @@ les trois premières routes.
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
-Jersey, République tchèque, Pologne et Slovaquie pour l'instant, d'autres viendront. Chaque pays ajoute deux à
+Jersey, République tchèque, Pologne, Slovaquie et Hongrie pour l'instant, d'autres viendront. Chaque pays ajoute deux à
 trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -147,7 +149,14 @@ trois choses, indépendamment des autres :
    électronique obligatoire (e-známka, Národná diaľničná spoločnosť/NDS, eznamka.sk) sur toutes les
    autoroutes (D) et voies express (R) du pays — 1/10/30/365 jours à prix fixe en euros (8,10/10,80/
    17,10/90 € 2026 pour un véhicule léger), `hasToll:false`, aucun ouvrage isolé à péage identifié en
-   plus de la vignette — cas simple, sans les tunnels alpins de la Suisse/l'Autriche.
+   plus de la vignette — cas simple, sans les tunnels alpins de la Suisse/l'Autriche. La Hongrie
+   rejoint elle aussi ce groupe : vignette électronique obligatoire (e-matrica, NÚSZ Zrt./Nemzeti
+   Útdíjfizetési Szolgáltató, ematrica.nemzetiutdij.hu) sur autoroutes et voies rapides — catégorie
+   D1 (voiture ≤3,5 t) : 1 jour 5 550 Ft, 10 jours 6 900 Ft, 1 mois 11 170 Ft, 1 an national
+   61 760 Ft (2026), `hasToll:false`, aucun ouvrage isolé identifié en plus. Piège évité en
+   recherchant l'URL officielle : e-autopalyamatrica.hu, à l'apparence tout aussi officielle,
+   s'est révélé être un revendeur privé tiers (Biorobotok Informatikai és Adatfeldolgozási Kft.) —
+   écarté au profit du vrai portail d'Etat.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -157,10 +166,12 @@ trois choses, indépendamment des autres :
    appartenance à l'UE (`CZK`, la couronne tchèque — contrairement à la Suisse, un pays moins cher
    que la zone euro : les paliers `BUDGET_PRICE_MAX.CZK` sont légèrement EN DESSOUS de l'équivalent
    EUR converti, pas au-dessus), et la Pologne encore (`PLN`, le złoty — même profil que la
-   République tchèque, un pays moins cher que la zone euro). Monaco et Malte, eux, sont bien en zone
-   euro (pas de champ `currency`, EUR par défaut) — la Slovaquie aussi, contrairement à ses trois
-   voisins juste au-dessus (Autriche, République tchèque, Pologne) : seul pays d'Europe centrale
-   couvert à avoir adopté l'euro (2009), pas de champ `currency` non plus. La devise détermine le plafond de prix affiché pour le logement
+   République tchèque, un pays moins cher que la zone euro), et la Hongrie enfin (`HUF`, le forint —
+   même profil, paliers `BUDGET_PRICE_MAX.HUF` calés sous la médiane Airbnb de Budapest). Monaco et
+   Malte, eux, sont bien en zone euro (pas de champ `currency`, EUR par défaut) — la Slovaquie aussi,
+   seule exception d'Europe centrale parmi ses voisins couverts (Autriche, République tchèque,
+   Pologne, Hongrie, tous hors zone euro) : seul pays de la région à avoir adopté l'euro (2009), pas
+   de champ `currency` non plus. La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage/ferry, qui ne sont de
    toute façon jamais calculés pour un pays hors zone euro pour l'instant.
@@ -320,6 +331,23 @@ dans la région de Prešov, où existe d'ailleurs la norme littéraire codifiée
 rusyn (1995) — profite donc automatiquement de la traduction déjà en place, sans aucune modification
 de code nécessaire. Les 18 alias `rue` réels que la Slovaquie apporte à `aliases-sk.txt` (contre 16
 pour la Pologne) en sont la meilleure preuve concrète.
+
+La Hongrie, comme l'Autriche/la République tchèque/la Slovaquie avant elle, n'apporte elle non plus
+aucune nouvelle langue. La loi hongroise de 2011 sur les droits des nationalités en reconnaît treize :
+l'allemand/le polonais/le slovaque sont déjà couverts ; le bulgare/le grec/le croate/l'arménien/le
+roumain/le serbe/le slovène/l'ukrainien sont déjà langues nationales de pays voisins non encore
+couverts (même motif qu'ailleurs — le hongrois lui-même, exclu pour cette raison au tour de la
+Slovaquie ci-dessus, est bien sûr devenu sans objet : il rejoint l'interface comme langue nationale
+de la Hongrie, exactement comme le polonais l'avait fait pour la minorité polonaise de République
+tchèque) ; le rom (romani ET beás) est écarté sans forme écrite standard unique pour le romani, et
+pour une raison différente pour le beás (langue des Roms Boyash de Hongrie) — ce n'est en réalité
+PAS une variété du romani du tout, mais un dialecte archaïque du ROUMAIN (aucun code ISO 639-3
+propre, seul un Glottocode existe), donc soumis au même motif que le roumain lui-même : déjà langue
+nationale d'un pays voisin non couvert, malgré des siècles d'isolement dialectal — le même
+raisonnement déjà appliqué au croate morave de République tchèque et au polonais de Cieszyn en
+Pologne. Le ruthène (rusyn), enfin, n'a une fois de plus pas besoin d'ajout : même langue que le
+lemko polonais et le rusyn slovaque déjà couverts (code `rue` commun), la petite communauté hongroise
+en profitant automatiquement sans le moindre changement de code.
 
 Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
@@ -560,7 +588,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.

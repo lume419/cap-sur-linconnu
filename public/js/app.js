@@ -60,8 +60,14 @@
   // 17,10/90 € 2026 pour un véhicule léger) — aucun barème €/km ne peut en dériver, et l'app ne
   // simule pas un abonnement (hasToll:false). Aucun ouvrage isolé à péage identifié en plus de la
   // vignette, comme la République tchèque — cas simple, sans les tunnels alpins de la Suisse/
-  // l'Autriche.
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK seulement) : noms alternatifs par
+  // l'Autriche. La Hongrie rejoint le même groupe à vignette : vignette électronique obligatoire
+  // (e-matrica — NÚSZ Zrt./Nemzeti Útdíjfizetési Szolgáltató, ematrica.nemzetiutdij.hu, portail
+  // d'Etat) sur les autoroutes et voies rapides, à prix fixe selon la durée et la catégorie de
+  // véhicule (catégorie D1, voiture ≤3,5 t : 1 jour 5 550 Ft, 10 jours 6 900 Ft, 1 mois 11 170 Ft,
+  // 1 an national 61 760 Ft, 2026) — aucun barème Ft/km ne peut en dériver, et l'app ne simule pas
+  // un abonnement (hasToll:false). Aucun ouvrage isolé à péage identifié en plus de la vignette,
+  // comme la République tchèque/la Slovaquie.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -78,7 +84,9 @@
   // non plus (membre de l'UE, hors zone euro comme la Suisse/la République tchèque) : le złoty
   // polonais ('PLN'). La Slovaquie, elle, contrairement à ses trois voisins ci-dessus (Autriche,
   // République tchèque, Pologne), A adopté l'euro (2009) — absent de COUNTRIES.SK.currency, EUR par
-  // défaut, comme la grande majorité des pays déjà couverts.
+  // défaut, comme la grande majorité des pays déjà couverts. La Hongrie, elle, rejoint le camp
+  // "hors zone euro" (membre de l'UE mais pas de l'euro, comme la République tchèque/la Pologne,
+  // PAS comme sa voisine slovaque) : sa monnaie propre, le forint hongrois ('HUF'), reste utilisée ici.
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -103,7 +111,9 @@
       vignette:{ url:'https://edalnice.gov.cz/en/simple-purchase' } },
     PL: { code:'PL', name:'Pologne', file:'communes-pl.txt', hasToll:false, aliasFile:'aliases-pl.txt', currency:'PLN' },
     SK: { code:'SK', name:'Slovaquie', file:'communes-sk.txt', hasToll:false, aliasFile:'aliases-sk.txt',
-      vignette:{ url:'https://eznamka.sk/selfcare/purchase' } }
+      vignette:{ url:'https://eznamka.sk/selfcare/purchase' } },
+    HU: { code:'HU', name:'Hongrie', file:'communes-hu.txt', hasToll:false, aliasFile:'aliases-hu.txt', currency:'HUF',
+      vignette:{ url:'https://ematrica.nemzetiutdij.hu/' } }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -118,16 +128,20 @@
   // autoroutes autrichiennes) pour l'Autriche, edalnice.gov.cz (portail .gov.cz du SFDI — Fonds
   // d'Etat pour les infrastructures de transport, seul émetteur officiel) pour la République
   // tchèque, eznamka.sk (Národná diaľničná spoločnosť/NDS, seul canal de vente officiel affiché sur
-  // le site lui-même) pour la Slovaquie. Utilisé par renderDays pour afficher un petit rappel la
-  // première fois qu'un pays à vignette apparaît dans l'itinéraire — voir plus bas.
+  // le site lui-même) pour la Slovaquie, ematrica.nemzetiutdij.hu (portail d'Etat de NÚSZ Zrt. —
+  // Nemzeti Útdíjfizetési Szolgáltató, "Service national de péage" — PAS e-autopalyamatrica.hu,
+  // domaine à l'apparence officielle mais en réalité exploité par une société privée tierce,
+  // Biorobotok Informatikai és Adatfeldolgozási Kft., un revendeur écarté ici) pour la Hongrie.
+  // Utilisé par renderDays pour afficher un petit rappel la première fois qu'un pays à vignette
+  // apparaît dans l'itinéraire — voir plus bas.
   function countryCurrency(cc){ return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR'; }
   // Symbole/code affiché à côté d'un montant (voir updateBudgetHint plus bas) : "€" pour l'euro (le
-  // seul des cinq à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/
-  // "GBP"/"CZK"/"PLN" tels quels pour les quatre autres — la livre sterling se note généralement "£"
-  // devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les livres
-  // locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs îles
-  // respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN' };
+  // seul des six à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/
+  // "GBP"/"CZK"/"PLN"/"HUF" tels quels pour les cinq autres — la livre sterling se note généralement
+  // "£" devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les
+  // livres locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs
+  // îles respectives).
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -573,13 +587,18 @@
   // ~320-480 PLN/nuit, 80% des annonces entre ~200-550 PLN (échantillon airroi.com/airbtics.com
   // 2026, Varsovie/Cracovie/Wrocław inclus) — paliers calés sous cette moyenne nationale (comme pour
   // la République tchèque, ce générateur tire surtout de petites communes, moins chères que les
-  // grandes villes de l'échantillon).
+  // grandes villes de l'échantillon). HUF (Hongrie) : même profil encore — Airbnb à Budapest (la
+  // ville la plus chère du pays) va de ~12 000-18 000 Ft pour les appartements d'entrée de gamme
+  // hors centre à ~23 000-25 000 Ft de médiane, jusqu'à 60 000+ Ft pour le haut de gamme (échantillon
+  // airroi.com/airbtics.com 2026) — paliers calés sous la médiane budapestoise, cohérent avec les
+  // petites communes tirées au sort par ce générateur.
   var BUDGET_PRICE_MAX = {
     EUR: { economique: 70, moyen: 130, confortable: 260 },
     CHF: { economique: 130, moyen: 250, confortable: 480 },
     GBP: { economique: 60, moyen: 120, confortable: 220 },
     CZK: { economique: 1000, moyen: 2000, confortable: 4000 },
-    PLN: { economique: 250, moyen: 450, confortable: 900 }
+    PLN: { economique: 250, moyen: 450, confortable: 900 },
+    HUF: { economique: 10000, moyen: 20000, confortable: 40000 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu
