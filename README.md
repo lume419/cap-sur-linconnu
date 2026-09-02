@@ -3,9 +3,11 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
 Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
-tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine, Royaume-Uni — voir "Pays
+couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
 d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
-Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes/onze îles croates
+Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes/onze îles croates/la
+Manche (Douvres-Calais)
 (voir "Ferries" plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface
 disponible en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien,
 romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais,
@@ -95,6 +97,11 @@ cap-sur-linconnu/
 │       ├── communes-ba.txt     # 374 lieux bosniens SEULEMENT (codes postaux Wikipedia, pas GeoNames
 │       │                        # — voir "Pays couverts" et scripts/build-ba-communes.js)
 │       ├── aliases-ba.txt      # idem pour la Bosnie-Herzégovine (12 alias)
+│       ├── communes-gb.txt     # 34 196 lieux britanniques, même format (codes postaux "outward"
+│       │                        # GeoNames — districts, pas des codes complets, voir "Pays couverts")
+│       ├── aliases-gb.txt      # idem pour le Royaume-Uni (384 alias — 156 doublons gallois/gaéliques/
+│       │                        # corniques mal étiquetés "br"/"ca"/"eu"/... écartés, voir le
+│       │                        # commentaire CELTIC_PROBE_LANGS dans scripts/build-aliases.js)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -114,8 +121,9 @@ les trois premières routes.
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
-Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie et Bosnie-Herzégovine pour l'instant, d'autres viendront. Chaque pays ajoute deux à
-trois choses, indépendamment des autres :
+Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine et
+Royaume-Uni pour l'instant, d'autres viendront (Irlande et île de Man en préparation). Chaque pays
+ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
@@ -213,7 +221,15 @@ trois choses, indépendamment des autres :
    tronçon (les plus courts coûtant proportionnellement plus cher), moyenne ~0,19 KM/km — converti
    au taux de caisse d'émission FIXE (1 EUR = 1,95583 KM depuis 1997, jamais dévalué en 28 ans, voir
    point 3 ci-dessous) plutôt qu'à un taux flottant : ~0,097 €/km, classes 2/5 extrapolées au ratio
-   France/Espagne/Italie (×1,55/×0,58) faute de grille par catégorie ici. `hasToll:true`.
+   France/Espagne/Italie (×1,55/×0,58) faute de grille par catégorie ici. `hasToll:true`. Le
+   Royaume-Uni, lui, REJOINT le groupe "entièrement gratuit" (Belgique/Pays-Bas/Luxembourg/Allemagne/
+   Saint-Marin/Liechtenstein/Monaco/Malte/Guernesey/Jersey) plutôt que le groupe à péage fermé de sa
+   voisine croato-bosnienne : son réseau autoroutier (motorways) est intégralement gratuit, comme
+   l'Autobahn allemande. Seuls trois ouvrages isolés restent payants — le M6 Toll près de Birmingham
+   (National Highways/Midland Expressway), le Dartford Crossing sur la Tamise à l'est de Londres, et
+   le Mersey Gateway près de Liverpool — le même cas que le Kiltunnel néerlandais ou les tunnels
+   alpins suisses/autrichiens : non modélisés, un trajet aléatoire ne les traverse pas nécessairement.
+   `hasToll:false`, aucune vignette non plus.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -239,7 +255,9 @@ trois choses, indépendamment des autres :
    jamais dévalué en 28 ans, le même taux que le deutsche mark avait avec l'euro. Paliers
    `BUDGET_PRICE_MAX.BAM` calés à ~70% de cette conversion fixe (même profil "moins cher que la zone
    euro" que CZK/PLN/HUF — moyenne Airbnb à Sarajevo ~56-65 €/nuit, chambres privées hors centre
-   ~20-36 €/nuit). La devise détermine le plafond de prix affiché pour le logement
+   ~20-36 €/nuit). Le Royaume-Uni, lui, rejoint Guernesey/Jersey (`GBP`) : la livre sterling, jamais
+   l'euro — même choix que pour les deux baillages, "GBP" est aussi la devise réellement proposée par
+   Airbnb/Booking pour ce pays (pas de sélecteur séparé). La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
    euros quelle que soit la devise du pays (voir `toll.enabled`/`toll.disabled` dans `i18n.js`, non
@@ -723,8 +741,10 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   Pozzallo (Sicile), seul opérateur (Virtu Ferries, quasi-monopole, tarifs plus élevés que les
   liaisons méditerranéennes concurrentielles malgré une traversée bien plus courte). Jersey et
   Guernesey sont, elles aussi, deux masses distinctes reliées chacune au continent (Saint-Malo,
-  Condor Ferries — aucune liaison avec le Royaume-Uni n'est modélisée, Poole/Portsmouth ne
-  desservant aucun pays couvert par cette app) ET reliées entre elles par une ligne inter-îles.
+  Condor Ferries) ET reliées entre elles par une ligne inter-îles. Condor Ferries dessert aussi
+  Jersey/Guernesey depuis Poole/Portsmouth, au Royaume-Uni (désormais couvert, voir "Pays couverts")
+  — liaison non modélisée pour l'instant, limitation assumée plutôt qu'un oubli : hors du périmètre
+  explicite de l'ajout du Royaume-Uni (Douvres-Calais, voir plus bas), à ajouter séparément si besoin.
   Sercq (Sark), dépendance du bailliage de Guernesey, est explicitement EXCLUE de
   `communes-gg.txt` (voir `SARK_EXCLUDE_NAMES` dans `scripts/build-country-communes.js`) : l'île est
   un site sans voiture (aucune liaison en ferry pour véhicules n'existe, pour personne), une
@@ -742,6 +762,18 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   avec sa voisine (Cres↔Lošinj à Osor, Ugljan↔Pašman à Ždrelac) : une seule ligne de ferry à modéliser
   par paire. Krk/Pag/Vir/Čiovo, elles, sont déjà reliées au continent par un vrai pont routier —
   correctement traitées comme "continent", sans entrée dédiée.
+- **Royaume-Uni** : contrairement à toutes les îles ci-dessus, ce n'est pas ici une île secondaire qui
+  se détache d'un pays par ailleurs "continent" — le pays TOUT ENTIER est la masse insulaire
+  (`greatBritain`), reliée au continent par la ligne réelle la plus courte et la plus empruntée
+  d'Europe : **Douvres-Calais** (DFDS/P&O Ferries/Irish Ferries, ~34 km, ~1h30, voiture dès ~94 €).
+  Seule exception géographique à l'intérieur même du Royaume-Uni : l'**Irlande du Nord**, dont les
+  six comtés sont sur l'île d'IRLANDE et non sur celle de Grande-Bretagne (aucune route ne relie les
+  deux à travers la mer d'Irlande) — identifiés par leur préfixe de code postal `BT` (zone de
+  Belfast, exclusif à l'Irlande du Nord, vérifié sur les 651 communes concernées) et étiquetés
+  `ireland` par anticipation de l'ajout de la République d'Irlande (même île, aucune mer entre les
+  deux). En attendant cet ajout, ces communes restent temporairement injoignables depuis le reste du
+  Royaume-Uni plutôt que faussement reliées par la route — même principe que les Açores/Madère ou
+  Sercq ci-dessus : rester silencieux plutôt qu'afficher un trajet inventé.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -767,6 +799,9 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   Seul le CODE POSTAL, distinct par île dans les données GeoNames, sépare correctement les deux —
   `HR_POSTCODE_TO_ISLAND` dans `app.js`, une table de correspondance construite une fois à partir de
   onze listes de codes postaux exacts (ex. `21400`-`21425` pour Brač, `20260`-`20274` pour Korčula).
+  Le Royaume-Uni, lui, n'a besoin que d'un seul test — le préfixe de code postal `BT` (Irlande du
+  Nord, voir plus haut) — le reste du pays (`c.country === 'GB'` sans ce préfixe) formant une seule
+  masse `greatBritain`, aucune île secondaire à distinguer en son sein pour cette app.
 - Limite connue : les petites îles françaises sans pont ni département propre (Belle-Île, Ouessant,
   Groix...) ne sont pas détectées individuellement et restent traitées comme le continent le plus
   proche — un cas rare (quelques dizaines de communes sur ~35 000) laissé de côté pour l'instant.
@@ -818,7 +853,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)

@@ -577,8 +577,14 @@ app.get('/api/pois', async (req, res) => {
   // (lat ~45,4-46,9°N, lon ~13,4-16,6°E) tenaient toutes les trois déjà largement dans la boîte
   // élargie pour la Pologne, sans ajustement supplémentaire. La Croatie (lat ~42,4-46,5°N, lon
   // ~13,5-19,4°E, îles couvertes incluses) tient elle aussi largement dans cette même boîte. La
-  // Bosnie-Herzégovine (lat ~42,6-45,3°N, lon ~15,7-19,6°E) y tient tout aussi largement.
-  if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 56 || lon < -10 || lon > 24.2){
+  // Bosnie-Herzégovine (lat ~42,6-45,3°N, lon ~15,7-19,6°E) y tient tout aussi largement. Le
+  // Royaume-Uni, lui, déborde nettement au nord : les Shetland montent jusqu'à ~60,82°N (vérifié sur
+  // communes-gb.txt), bien au-delà de la borne à 56° héritée de l'Allemagne — élargie à 61° pour les
+  // couvrir avec une marge (l'Écosse continentale seule culminerait à ~58,7°N, déjà au-delà de 56°
+  // aussi). Le reste du Royaume-Uni (lat min ~49,89°N aux Scilly, lon ~-8,09 à 1,75°E en Irlande du
+  // Nord/Est-Anglie) tient largement dans la boîte déjà élargie pour la Pologne, sans autre
+  // ajustement.
+  if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 61 || lon < -10 || lon > 24.2){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
   if(name.length > 120){

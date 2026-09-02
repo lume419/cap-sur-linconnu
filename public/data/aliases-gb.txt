@@ -1,0 +1,384 @@
+de;York (England);York
+en;Yervilton;Yelverton
+en;City of Worcester;Worcester
+en;Wooton St Lawrence;Wooton Saint Lawrence
+en;Wombourn;Wombourne
+nl;White Abbey;Whiteabbey
+fr;Heene;West Worthing
+nl;Heene;West Worthing
+en;Molesey;West Molesey
+en;Welwyn Garden;Welwyn Garden City
+en;Welton, East Yorkshire;Welton
+en;Wells-on-Sea;Wells-next-the-Sea
+en;Washington New Town;Washington
+fr;Borough londonien de Wandsworth;Wandsworth
+es;Municipio de Wandsworth;Wandsworth
+it;Borgo londinese di Wandsworth;Wandsworth
+en;Walton on Thames;Walton-on-Thames
+en;Fort Wallington;Wallington
+nl;Walker-on-Tyne;Walker
+br;Ullapul;Ullapool
+de;Turnberry Golf Club;Turnberry
+nl;Turnberry Golf Club;Turnberry
+en;Thornaby;Thornaby-on-Tees
+en;Tal-y-llyn;Talyllyn
+en;Swinley Priory;Swine
+en;Swindon Village;Swindon
+de;Royal Sutton Coldfield;Sutton Coldfield
+pt;Royal Sutton Coldfield;Sutton Coldfield
+fr;Royal Sutton Coldfield;Sutton Coldfield
+ca;Royal Sutton Coldfield;Sutton Coldfield
+it;Royal Sutton Coldfield;Sutton Coldfield
+es;Royal Sutton Coldfield;Sutton Coldfield
+nl;Royal Sutton Coldfield;Sutton Coldfield
+en;Sutton;Sutton-cum-Lound
+de;London Borough of Sutton;Sutton
+en;Sunbury;Sunbury-on-Thames
+en;Summerbridge;Summer Bridge
+es;Estroncia;Strontian
+en;Strome Ferry;Stromeferry
+en;Stockton;Stockton-on-Tees
+en;Headquarters;Stansted Mountfitchet
+en;Stanford;Stanford-le-Hope
+en;South Tidworth;Tidworth
+en;North Tidworth;Tidworth
+en;Brightwell-cum-Sotwell;Sotwell
+fr;Somerby by Brigg;Somerby
+en;Selsted;Selstead
+fr;Selsted;Selstead
+nl;Selsted;Selstead
+de;Metropolitan Borough of Sefton;Sefton
+en;Metropolitan Borough of Sefton;Sefton
+pt;Borough Metropolitano de Sefton;Sefton
+en;New Sarum;Salisbury
+en;St Neots;Saint Neots
+en;St. Neots;Saint Neots
+en;St Leonards-on-Sea;Saint Leonards-on-Sea
+en;St Leonards on Sea;Saint Leonards-on-Sea
+en;St Leonards;Saint Leonards-on-Sea
+en;St. Leonards-on-Sea;Saint Leonards-on-Sea
+de;St. Leonards;St Leonards
+it;Saint Ives;St Ives
+eu;Saint Ives;St Ives
+ca;Saint Ives;St Ives
+de;St. Ives;St Ives
+es;St. Helens;St Helens
+nl;St. Helens;St Helens
+de;St. Helens;St Helens
+en;St Helens;St. Helens
+en;Saint David’s;Saint Davids
+en;St David's;Saint Davids
+en;St. David’s;Saint Davids
+frr;St David's;Saint Davids
+it;St David's;Saint Davids
+es;Saint David's;Saint Davids
+eu;St David's;Saint Davids
+nl;St David's;Saint Davids
+fr;Saint David's;Saint Davids
+en;St. Columb Minor;Saint Columb Minor
+en;St Columb Minor;Saint Columb Minor
+en;Saint Columb;Saint Columb Major
+en;St. Columb;Saint Columb Major
+en;St Columb;Saint Columb Major
+en;Saint Bega;Saint Bees
+en;St Bees;Saint Bees
+en;St. Bees;Saint Bees
+de;St. Austell;St Austell
+en;St Asaph;Saint Asaph
+de;St Andrews;Saint Andrews
+en;St Andrews;Saint Andrews
+de;St. Andrews;Saint Andrews
+de;St. Albans;St Albans
+lb;St. Albans;St Albans
+en;Bridge of Roy;Roybridge
+en;Roy Bridge;Roybridge
+eu;Rhosilli;Rhossili
+en;Ramsgill-in-Nidderdale;Ramsgill
+es;Puerto Talbot;Port Talbot
+es;Portslade-by-Sea;Portslade
+en;Portmadoc;Porthmadog
+en;Plympton Maurice;Plympton
+en;Plympton Saint Maurice;Plympton
+en;Plympton Saint Mary;Plympton
+en;Plympton Erle;Plympton
+br;Pennrynn;Penryn
+en;Penrhyndeudreath;Penrhyndeudraeth
+nl;Penpoint;Penpont
+en;Penclawdd;Pen-clawdd
+pt;Oxónia;Oxford
+br;Yr Hencastell;Oldcastle
+en;Oatlands Village;Oatlands Park
+en;Norton under Cannock;Norton Canes
+en;Newtown Linford;Newtown Limford
+de;Newport (Wales);Newport
+de;Newport (England);Newport
+en;Newnham on Severn;Newnham
+en;Newmachar;Newmacher
+en;Newcastle-on-Tyne;Newcastle upon Tyne
+en;Newcastle;Newcastle upon Tyne
+es;Newcastle-upon-Tyne;Newcastle upon Tyne
+fr;Newcastle-upon-Tyne;Newcastle upon Tyne
+eu;Newcastle-upon-Tyne;Newcastle upon Tyne
+de;Newcastle;Newcastle upon Tyne
+en;Newcastle-under-Lyme;Newcastle under Lyme
+de;Newcastle-under-Lyme;Newcastle under Lyme
+nl;Newcastle-under-Lyme;Newcastle under Lyme
+en;Copshaw Holm;Newcastleton
+br;Castell Newydd Emlyn;Newcastle Emlyn
+ca;Castell Newydd Emlyn;Newcastle Emlyn
+br;Castell-meirch;Newcastle
+en;Newark;Newark on Trent
+en;Newark upon Trent;Newark on Trent
+de;Netley Abbey;Netley
+br;Porthenys;Mousehole
+en;Mosborough;Mosbrough
+br;Menoe;Monmouth
+en;Milltown of Auchindoun;Auchindoun
+pt;Melton Constable Hall;Melton Constable
+en;Marton-in-Cleveland;Marton
+en;Marske;Marske-by-the-Sea
+en;Luxulyan;Luxulian
+it;Derry / Londonderry;Derry
+en;Londonderry;Derry
+en;Derry City;Derry
+br;Kêr Londrez;City of London
+es;Londres;City of London
+fr;Cité de Londres;City of London
+it;Londra;City of London
+gl;Cidade de Londres;City of London
+pt;Cidade de Londres;City of London
+mwl;Cidade de Londres;City of London
+en;Square Mile;City of London
+de;London City;City of London
+es;Londres;London
+it;Londra;London
+eu;Londres;London
+br;Londrez;London
+ca;Londres;London
+fr;Londres;London
+gl;Londres;London
+nl;Londen;London
+pt;Londres;London
+oc;Londres;London
+rm;Londra;London
+co;Londra;London
+mwl;Londres;London
+mt;Londra;London
+sc;Londra;London
+rue;Лондон;London
+lij;Londra;London
+csb;Londin;London
+en;Llansanffraid;Llansantffraid-ym-Mechain
+ca;Llanfihangel;Llanfihangel-yng-Ngwynfa
+nl;Llanfairpwll­gwyngyllgogerychwyrndrobwllllantysiliogogogoch;Llanfairpwllgwyngyll
+br;Baile Dhùnlèibhe;Livingston
+nl;Little Holland;Holland-on-Sea
+en;Leamington Spa;Royal Leamington Spa
+de;Leamington Spa;Royal Leamington Spa
+en;Larkhill;Lark Hill
+br;Baile na h-Eaglaise;Kirkwall
+br;Cair Cheann Tulaich;Kirkintilloch
+en;Kinver;Kinvere
+fr;Kingston-upon-Hull;Kingston upon Hull
+lb;Kingston-upon-Hull;Kingston upon Hull
+en;Hull;Kingston upon Hull
+en;Kings Lynn;King's Lynn
+de;King’s Lynn;King's Lynn
+nds;King’s Lynn;King's Lynn
+en;Kingclaven/Stanley;Kinclaven
+en;Kilmaluaig;Kilmoluag
+de;Kilmarnock (Scotland);Kilmarnock
+pt;Jedburgo;Jedburgh
+fr;District londonien d'Islington;Islington
+en;Inchbae;Inchbae Lodge
+en;Huthwaite;Hucknall under Huthwaite
+en;London Borough of Hounslow;Hounslow
+de;London Borough of Hounslow;Hounslow
+en;Hope;Hope Cove
+en;Hinton;Hinton St George
+en;Hinton Saint George;Hinton St George
+en;Hinton St. George;Hinton St George
+en;Highpeak Junction;High Peak Junction
+en;Henley on Thames;Henley-on-Thames
+fr;Heaton-Norris;Heaton Norris
+en;Hay-on-wye;Hay
+en;Haven Street;Havenstreet
+fr;Harrow;Harrow on the Hill
+nl;Harrow;Harrow on the Hill
+en;Hamble;Hamble-le-Rice
+it;Fairlight;Hailsham
+en;Goring;Goring-by-Sea
+br;Glascho;Glasgow
+eu;Galltrigill;Galtrigill
+en;Fylde Borough;Fylde
+en;Borough of Fylde;Fylde
+en;Fylde Coast;Fylde
+br;Fowydh;Fowey
+it;Fintona Tramway;Fintona
+fr;Fearn;Hill of Fearn
+en;Enfield;Enfield Town
+en;Ellesmere Port;Ellesmere Port Town
+de;Ellesmere Port;Ellesmere Port Town
+es;Edimburgo;Edinburgh
+br;Dinedin;Edinburgh
+ca;Edimburg;Edinburgh
+fr;Édimbourg;Edinburgh
+gl;Edimburgo;Edinburgh
+it;Edimburgo;Edinburgh
+pt;Edimburgo;Edinburgh
+oc;Edimborg;Edinburgh
+fur;Edinburc;Edinburgh
+nl;Ardvannie;Edderton
+en;East Retford;Retford
+en;Dereham;East Dereham
+en;The Boldons;East Boldon
+en;London Borough of Ealing;Ealing
+de;London Borough of Ealing;Ealing
+es;Barrio de Ealing;Ealing
+it;Borgo londinese di Ealing;Ealing
+fr;Douvres;Dover
+en;Dunreay;Dounreay
+en;Dolgelly;Dolgellau
+eu;Dolmelinllyn;Dolbenmaen
+en;Pont Dolanog;Dolanog
+en;Croydon Grants;Croydon
+de;Croydon, London;Croydon
+de;Corfe;Corfe Castle
+de;Clifton (England);Clifton
+en;Meggies;Cleethorpes
+en;Ongar;Chipping Ongar
+en;Chalfont St Peter;Chalfont Saint Peter
+ca;Castell Combe;Castle Combe
+br;Kerdiz;Cardiff
+ca;Capel-i-ffin;Capel-y-ffin
+fr;Cantorbéry;Canterbury
+pt;Cantuária;Canterbury
+br;Kammbronn;Camborne
+br;Kalstok;Calstock
+en;Bushey Heath;Bushey
+en;Bury St;Bury St Edmunds
+en;Bury Saint Edmunds;Bury St Edmunds
+nl;Bury St. Edmunds;Bury St Edmunds
+en;Burton-on-Trent;Burton upon Trent
+de;Burton-upon-Trent;Burton upon Trent
+en;Budleigh;Budleigh Salterton
+br;Porth Bud;Bude
+es;Bridgend County Borough;Bridgend
+es;Brewood and Coven;Brewood
+en;Brecknock;Brecon
+en;Bo'ness;Bo’ness
+en;Boldon;The Boldons
+en;Blaydon;Blaydon-on-Tyne
+en;Bishop's Waltham;Bishops Waltham
+en;Bishop's Stortford;Bishops Stortford
+de;Bishop’s Stortford;Bishops Stortford
+es;Bishop’s Stortford;Bishops Stortford
+nl;Bishop's Stortford;Bishops Stortford
+en;Bishop's Cleeve;Bishops Cleeve
+en;Bishops Castle;Bishop's Castle
+en;Brum;Birmingham
+en;Birchington;Birchington-on-Sea
+en;Bilton in Ainsty;Bilton
+en;London Borough of Bexley;Bexley
+en;Bexhill;Bexhill-on-Sea
+en;Betws yn Rhos;Betws-yn-Rhôs
+en;Berwick on Tweed;Berwick-Upon-Tweed
+en;Berwick;Berwick-Upon-Tweed
+en;Berko;Berkhamsted
+en;Belfast City;Belfast
+en;Barrow;Barrow in Furness
+en;Chipping Barnet;Barnet
+en;High Barnet;Barnet
+de;London Borough of Barnet;Barnet
+es;Municipio de Barnet;Barnet
+en;Barking Town;Barking
+en;Barford St John;Barford Saint John
+pt;Bamburgo;Bamburgh
+eu;Achterneed;Auchterneed
+en;Achterneed;Auchterneed
+nl;Achterneed;Auchterneed
+it;Amble by the Sea;Amble
+de;Alton (England);Alton
+eu;Achylyness;Achlyness
+nl;Achylyness;Achlyness
+br;Llangaeo;Llancayo
+en;Camden;Camden Town
+en;Fulshaw Cross;Fullshaw Cross
+en;Hazelrigg;Hazlerigg
+es;Isla de Brownsea;Brownsea Island
+it;Isola di Brownsea;Brownsea Island
+pt;Ilha de Brownsea;Brownsea Island
+en;Kingston;Kingston upon Thames
+fr;Kingston-upon-Thames;Kingston upon Thames
+en;Seavington st Michael;Seavington st. Michael
+en;Seavington saint Michael;Seavington st. Michael
+en;Seavington st Mary;Seavington st. Mary
+en;Seavington saint Mary;Seavington st. Mary
+en;Elephant and Castle;Elephant & Castle
+en;Isle of Portland;Portland
+en;Calcot Row;Calcot
+en;St Annes;Lytham St Annes
+en;Lytham;Lytham St Annes
+en;Brockhall Village;Brockhall
+en;Byram cum Sutton;Byram
+en;Bodle Street Green;Bodle Street
+en;Aston Blank;Cold Aston
+en;Rosslyn;Roslin
+en;North Yorks;North Yorkshire
+en;Saint Agnes;St Agnes
+es;Saint Agnes;St Agnes
+en;St. Agnes;St Agnes
+en;Saint Mary's;St Mary's
+en;St. Mary's;St Mary's
+en;Saint Martin's;St Martin's
+en;St. Martin's;St Martin's
+de;St. Martin's;St Martin's
+en;Metropolitan Borough of Wirral;Wirral
+br;A’ Chàrnaich;Glencoe
+en;Leigh Woods National Nature Reserve;Leigh Woods
+it;マーシュ;Marsh
+en;Letchworth;Letchworth Garden City
+en;Pont-y-clun;Pontyclun
+en;Borough of Rossendale;Rossendale
+en;Rossendale District;Rossendale
+en;High Peak District;High Peak
+en;Lewis;Isle of Lewis
+en;Bute;Isle of Bute
+en;Arran;Isle of Arran
+en;North Uist;Isle of North Uist
+en;South Uist;Isle of South Uist
+en;Great Cumbrae;Isle of Cumbrae
+en;Cumbrae;Isle of Cumbrae
+en;Ty'n-y-gongl;Tyn-y-Gongl
+en;Islay;Isle of Islay
+en;Queen of the Hebrides;Isle of Islay
+en;Isle of Barra;Barra
+en;Garn;Garndolbenmaen
+en;Isle of Benbecula;Benbecula
+en;Pen-y-Sarn;Penysarn
+en;Dulas Island;Dulas
+en;Jura;Isle of Jura
+en;Marian-glas;Marianglas
+en;Scalpay;Isle of Scalpay
+en;Colonsay;Isle of Colonsay
+en;Iona;Isle of Iona
+en;Gigha;Isle of Gigha
+en;Coll;Isle of Coll
+en;Canna;Isle of Canna
+en;Eigg;Isle of Eigg
+en;Rum;Isle of Rum
+it;Stockbridge e Canonmills;Stockbridge
+en;Kilmoluaig;Kilmaluaig
+en;Soughton;Sychdyn
+en;Brighton;Brighton and Hove
+nl;Brighton;Brighton and Hove
+de;Brighton;Brighton and Hove
+fr;Brighton;Brighton and Hove
+it;Brighton;Brighton and Hove
+es;Brighton;Brighton and Hove
+fr;Hapurhey;Harpurhey
+en;Love Clough;Loveclough
+it;Wyke;Wike
+en;Ostend;Oostende
+nl;Ferrindonald;Ferindonald
+en;Miavag;Miabhag

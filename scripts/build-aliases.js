@@ -23,13 +23,8 @@
 const fs = require('fs');
 const path = require('path');
 
-// RATTRAPAGE, pas un nouveau pays : AD/ES/PT ont chacun déjà leur communes-XX.txt (inchangés), mais
-// leurs aliases-XX.txt datent d'avant l'ajout du catalan/basque/galicien/occitan (voir plus bas) —
-// des alias dans ces langues existaient déjà dans alternateNamesV2 mais restaient filtrés par
-// SUPPORTED_LANGS. Réexécuté ici pour les trois SEULEMENT (les autres pays n'ont aucune de ces
-// langues en jeu) afin de régénérer leurs fichiers d'alias avec le nouvel ensemble de langues.
-const COUNTRIES = ['AD', 'ES', 'PT']; // BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA
-// déjà générés et commités (public/data/aliases-be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba.txt)
+const COUNTRIES = ['GB']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA
+// déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
@@ -110,6 +105,27 @@ const LANG_OUTPUT_REMAP_BY_COUNTRY = {
   JE: { nrf: 'nrf-je' },
   GG: { nrf: 'nrf-gg' }
 };
+// Bug de qualité de données GeoNames propre au Royaume-Uni : pour un grand nombre de petites
+// communes galloises/cornouaillaises/écossaises, le nom local (gallois "cy", gaélique-écossais
+// "gd", cornique "kw", ou encore irlandais "ga") a été dupliqué tel quel sous des dizaines d'AUTRES
+// étiquettes de langue sans rapport (breton, catalan, basque, galicien, néerlandais, allemand,
+// français, espagnol, italien, luxembourgeois, portugais, occitan, finnois, same du Nord...) —
+// ex. "Aberhonddu" (nom gallois de Brecon) taggué "ca"/"fi"/"ga"/"kw"/"se" en plus de "cy" ; le nom
+// à rallonge "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch" est ainsi taggué sous une
+// vingtaine de langues, identique caractère pour caractère à chaque fois — aucune traduction
+// indépendante ne convergerait par hasard vers la même orthographe dans vingt langues sans rapport,
+// contrairement par exemple à "Londres" pour Londres (emprunt partagé authentique entre langues
+// romanes). Plutôt qu'une liste de langues à exclure au cas par cas (repérée d'abord pour "br" seul,
+// insuffisant : le même problème touche aussi "ca"/"eu"/"gl"/"nl"/"de"/"fr"/"es"/"it"/"lb"/"pt"/"oc"),
+// on détecte directement la source du problème : tout nom alternatif dont le texte correspond
+// EXACTEMENT à un nom déjà étiqueté "cy"/"gd"/"kw"/"gv"/"ga" dans le dump brut est écarté quelle que
+// soit l'étiquette de langue sous laquelle il apparaît par ailleurs (voir CELTIC_PROBE_LANGS et son
+// usage plus bas) — évite d'afficher un nom gallois/gaélique/cornique comme s'il s'agissait d'une
+// traduction dans une langue qui n'a rien à voir, d'autant plus visible une fois le gallois/gaélique/
+// cornique eux-mêmes ajoutés comme vraies langues de l'interface (voir la suite de cette série de
+// commits, Royaume-Uni).
+const CELTIC_PROBE_LANGS = new Set(['cy', 'gd', 'kw', 'gv', 'ga']);
+const CELTIC_CROSS_CONTAMINATION_CHECK_COUNTRIES = new Set(['GB']);
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
@@ -234,9 +250,20 @@ for(const country of COUNTRIES){
   const seenAlias = new Set(); // dédoublonnage (lang, alias, canonical) — plusieurs lignes GeoNames
   // donnent parfois exactement la même correspondance (variantes préférée/courte du même nom).
   const countryRemap = LANG_OUTPUT_REMAP_BY_COUNTRY[country] || {};
+  // Voir CELTIC_PROBE_LANGS plus haut : ensemble des noms déjà confirmés gallois/gaéliques/
+  // corniques/manxois/irlandais dans ce dump, pour repérer les duplications sous une langue sans
+  // rapport.
+  let celticNames = null;
+  if(CELTIC_CROSS_CONTAMINATION_CHECK_COUNTRIES.has(country)){
+    celticNames = new Set();
+    for(const c of aliasRows){
+      if(CELTIC_PROBE_LANGS.has(c[2]) && c[3]) celticNames.add(normalize(c[3]));
+    }
+  }
   const out = [];
   for(const c of aliasRows){
     const geonameid = c[1], rawLang = c[2], alt = c[3], isHistoric = c[7];
+    if(celticNames && !CELTIC_PROBE_LANGS.has(rawLang) && celticNames.has(normalize(alt))) continue;
     // ex. "dsb" (bas-sorabe) -> "hsb" partout ; "nrf" -> "nrf-je"/"nrf-gg" seulement pour Jersey/
     // Guernesey (voir LANG_OUTPUT_REMAP_BY_COUNTRY plus haut) — le remap par pays a priorité.
     const lang = countryRemap[rawLang] || LANG_OUTPUT_REMAP[rawLang] || rawLang;

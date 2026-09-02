@@ -88,8 +88,20 @@
   // 0,09 à 0,29 KM/km selon le tronçon, moyenne ~0,19 KM/km — converti au taux de caisse d'émission
   // fixe (1 EUR = 1,95583 KM depuis 1997, voir COUNTRIES.BA.currency plus bas) : ~0,097 €/km,
   // classes 2/5 extrapolées au ratio France/Espagne/Italie (×1,55/×0,58) faute de grille par
-  // catégorie ici. hasToll:true.
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA seulement) : noms alternatifs par
+  // catégorie ici. hasToll:true. Le Royaume-Uni, lui, REJOINT le groupe "entièrement gratuit"
+  // (Belgique/Pays-Bas/Luxembourg/Allemagne/Saint-Marin/Liechtenstein/Monaco/Malte/Guernesey/
+  // Jersey/Pologne) plutôt que celui à péage fermé de sa voisine irlandaise (voir plus bas) : son
+  // réseau autoroutier (motorways, "M") est intégralement gratuit, comme les autoroutes allemandes.
+  // Seuls trois ouvrages ISOLÉS restent payants — le M6 Toll près de Birmingham (~43 km, National
+  // Highways/Midland Expressway), le Dartford Crossing sur la Tamise à l'est de Londres (pont/
+  // tunnels de l'A282), et le Mersey Gateway près de Liverpool — exactement le même cas que le
+  // Kiltunnel néerlandais ou les tunnels alpins suisses/autrichiens : de vrais péages, mais des
+  // ouvrages ponctuels qu'un trajet aléatoire ne traverse pas nécessairement plutôt qu'un chemin
+  // alternatif gratuit (l'app ne calcule pas de vrai itinéraire routier, voir roadDistanceKm) — non
+  // modélisés, pour la même raison. hasToll:false, aucune vignette non plus (contrairement à la
+  // Suisse/l'Autriche/la République tchèque/la Slovaquie/la Hongrie/la Slovénie, le Royaume-Uni n'a
+  // aucun système de vignette).
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -119,7 +131,10 @@
   // mark convertible ('BAM', symbole KM) — mais à la différence du forint hongrois ou de la couronne
   // tchèque, à PARITÉ FIXE avec l'euro depuis 1997 via caisse d'émission (currency board), jamais
   // dévaluée depuis 28 ans : 1 EUR = 1,95583 BAM exactement, le même taux que le deutsche mark avait
-  // avec l'euro.
+  // avec l'euro. Le Royaume-Uni, lui, rejoint Guernesey/Jersey (currency:'GBP') : la livre sterling,
+  // jamais l'euro malgré le Brexit n'ayant rien changé à cette évidence antérieure — même choix que
+  // pour les deux baillages, "GBP" est aussi la devise réellement proposée par Airbnb/Booking (pas
+  // de sélecteur séparé).
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -150,7 +165,8 @@
     SI: { code:'SI', name:'Slovénie', file:'communes-si.txt', hasToll:false, aliasFile:'aliases-si.txt',
       vignette:{ url:'https://evinjeta.dars.si/' } },
     HR: { code:'HR', name:'Croatie', file:'communes-hr.txt', hasToll:true, aliasFile:'aliases-hr.txt' },
-    BA: { code:'BA', name:'Bosnie-Herzégovine', file:'communes-ba.txt', hasToll:true, aliasFile:'aliases-ba.txt', currency:'BAM' }
+    BA: { code:'BA', name:'Bosnie-Herzégovine', file:'communes-ba.txt', hasToll:true, aliasFile:'aliases-ba.txt', currency:'BAM' },
+    GB: { code:'GB', name:'Royaume-Uni', file:'communes-gb.txt', hasToll:false, aliasFile:'aliases-gb.txt', currency:'GBP' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -624,7 +640,18 @@
     'continental|vis': { routeKey:'ferry.route.vis', durationH:2.33, distanceKm:65, priceByClass:{1:52, 2:78, 5:26, foot:12} },
     'continental|korcula': { routeKey:'ferry.route.korcula', durationH:0.33, distanceKm:3, priceByClass:{1:16, 2:24, 5:8, foot:4} },
     'continental|mljet': { routeKey:'ferry.route.mljet', durationH:0.75, distanceKm:12, priceByClass:{1:26, 2:38, 5:13, foot:6} },
-    'continental|lastovo': { routeKey:'ferry.route.lastovo', durationH:4.5, distanceKm:110, priceByClass:{1:74, 2:111, 5:37, foot:12} }
+    'continental|lastovo': { routeKey:'ferry.route.lastovo', durationH:4.5, distanceKm:110, priceByClass:{1:74, 2:111, 5:37, foot:12} },
+    // Douvres-Calais (DFDS/P&O Ferries/Irish Ferries) : la traversée de la Manche la plus courte et
+    // la plus empruntée d'Europe, ~34 km, environ 1h30 — bien plus courte en distance que la plupart
+    // des lignes ci-dessus mais pas la plus rapide en durée (trafic dense, manœuvres portuaires).
+    // Tarif "voiture" de référence ~94 € l'aller (grilles publiques DFDS/P&O, tarif flexible standard
+    // hors promotion) ; classes 2/5/foot au même ratio que les traversées courtes comparables
+    // ci-dessus (Jersey/Guernesey). Landmasse "greatBritain" : l'Angleterre/l'Écosse/le pays de
+    // Galles (voir landmassOf plus bas) — PAS l'Irlande du Nord, géographiquement sur l'île
+    // d'Irlande et non sur celle de Grande-Bretagne (aucune ligne de ferry ne la relie encore ici :
+    // en attendant l'ajout de l'Irlande, voir landmassOf, ses communes restent temporairement
+    // injoignables depuis le reste du Royaume-Uni plutôt que faussement reliées par la route).
+    'continental|greatBritain': { routeKey:'ferry.route.doverCalais', durationH:1.5, distanceKm:34, priceByClass:{1:94, 2:140, 5:35, foot:25} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -680,8 +707,18 @@
       // en face, ET plusieurs comtés/rectangles se chevauchent d'une île à l'autre (voir le
       // commentaire au-dessus de HR_ISLAND_POSTCODES) — seul le code postal, distinct par île dans
       // les données GeoNames, sépare correctement les deux. On regarde TOUS les codes postaux de la
-      // commune (allCps), pas seulement le premier, par prudence.
-      var hrCps = c.allCps || (c.cp ? [c.cp] : []);
+      // commune (allCps), pas seulement le premier, par prudence. `c.cps` (au pluriel, sans le
+      // préfixe "all") est le nom du champ sur l'objet commune BRUT tel que sorti de
+      // parseCommunesFile/COMMUNE_GRID — c'est CE nom-là qu'utilisent les candidats vus par
+      // reachable() dans buildRealRoute (via findNearbyCommunes) ; `cp`/`allCps` ne sont ajoutés que
+      // plus tard, sur les objets enrichis (leg/stop/selectedCity). Bug réel trouvé lors de l'ajout
+      // du Royaume-Uni (voir plus bas, c.country === 'GB') : sans repli sur `c.cps`, un candidat brut
+      // ne matchait JAMAIS aucun code postal ici et retombait toujours sur 'continental' — resté
+      // invisible pour la Croatie jusqu'ici car CHAQUE île y a justement une ligne de ferry directe
+      // vers 'continental' (le mauvais repli tombait par pur hasard sur une masse malgré tout
+      // ferry-atteignable) ; devenu un vrai blocage pour l'Irlande du Nord, qui n'a (volontairement,
+      // voir plus bas) aucune ligne vers 'greatBritain' pour masquer le même bug.
+      var hrCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
       for(var hci=0; hci<hrCps.length; hci++){
         var hrIsland = HR_POSTCODE_TO_ISLAND[hrCps[hci]];
         if(hrIsland) return hrIsland;
@@ -699,6 +736,29 @@
     // guernsey|jersey plus haut) — deux îles distinctes, jamais reliées entre elles par la route.
     if(c.country === 'GG') return 'guernsey';
     if(c.country === 'JE') return 'jersey';
+    if(c.country === 'GB'){
+      // Contrairement à la France/l'Espagne/l'Italie/la Croatie, pas besoin ici de séparer une île
+      // annexe du continent : le Royaume-Uni EST l'île, dans son ensemble, hormis un seul cas — les
+      // six comtés d'Irlande du Nord, géographiquement sur l'île d'IRLANDE et non sur celle de
+      // Grande-Bretagne (aucune route ne relie les deux, uniquement des ferries, voir
+      // continental|greatBritain plus haut). Identifiés par leur préfixe de code postal "BT" (zone
+      // postale de Belfast, exclusive à l'Irlande du Nord — vérifié exhaustivement sur les 651
+      // communes de communes-gb.txt : aucun chevauchement avec un autre préfixe ni avec une commune
+      // hors Irlande du Nord). Étiquetées "ireland" par anticipation — la même masse que la
+      // République d'Irlande dès son ajout (île unique, aucune mer entre les deux, voir README) —
+      // plutôt qu'une étiquette "northernIreland" à part qui devrait de toute façon fusionner avec
+      // "ireland" ensuite.
+      // Voir le commentaire équivalent pour hrCps ci-dessus : repli sur `c.cps` (nom du champ sur
+      // l'objet commune BRUT) indispensable ici, sans quoi AUCUN candidat brut d'Irlande du Nord
+      // n'était jamais reconnu comme tel (retombait sur 'greatBritain'), rendant Belfast totalement
+      // injoignable même depuis lui-même (aucune ligne 'ireland'-'greatBritain' pour masquer le bug
+      // comme en Croatie) — trouvé en testant précisément ce cas en direct.
+      var gbCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
+      for(var gci=0; gci<gbCps.length; gci++){
+        if(/^BT/i.test(gbCps[gci])) return 'ireland';
+      }
+      return 'greatBritain';
+    }
     return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
   }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans
