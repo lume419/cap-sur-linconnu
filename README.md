@@ -130,7 +130,7 @@ les trois premières routes.
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
-Royaume-Uni, Irlande, île de Man, Danemark et Norvège pour l'instant (Suède/Finlande à venir dans la
+Royaume-Uni, Irlande, île de Man, Danemark, Norvège et Suède pour l'instant (Finlande à venir dans la
 même série). Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
@@ -173,6 +173,10 @@ ajoute deux à trois choses, indépendamment des autres :
    script jusqu'ici, 71 Mo, largement dû aux dizaines de milliers de lieux-dits norvégiens présents
    dans le gazetteer). AUCUNE correction `NAME_OVERRIDES` nécessaire (échantillon des 30 plus grandes
    communes du pays déjà bon, y compris les caractères æ/ø/å — Ålesund, Tønsberg, Tromsø...).
+   **La Suède**, elle, a demandé une seule correction — 24 310 communes retenues sur 27 976 lieux
+   bruts. Un cas `NAME_OVERRIDES` (échantillon des 30 plus grandes communes du pays déjà bon, y
+   compris å/ä/ö — Stockholm, Malmö, Uppsala, Linköping, Örebro, Umeå... déjà bons) : "Gothenburg"
+   (exonyme anglais, remplacé par le suédois "Göteborg" — deuxième ville du pays).
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -278,7 +282,14 @@ ajoute deux à trois choses, indépendamment des autres :
    anneaux ; Ferde à Bergen/côte ouest ; Vegamot à Trondheim...). Système strictement au passage
    (point-based), jamais un barème €/km unique ni une vignette à prix fixe national : aucun montant
    représentatif du pays entier n'en dérive, contrairement à la France/l'Espagne/la Croatie (barème)
-   ou la Suisse/l'Autriche/la République tchèque (vignette).
+   ou la Suisse/l'Autriche/la République tchèque (vignette). La Suède, elle, est le cas le plus simple
+   des trois pays nordiques ajoutés jusqu'ici : réseau autoroutier réellement gratuit dans son ensemble
+   (transportstyrelsen.se : "aucune vignette, aucune barrière de péage sur route ouverte", l'un des
+   réseaux les moins taxés d'Europe). Seules Stockholm et Göteborg appliquent une taxe d'encombrement
+   urbain (trängselskatt, 6h-18h29 en semaine, jusqu'à 135 SEK/jour) à l'entrée/sortie du centre-ville —
+   pas un péage routier au sens de cette app, même raisonnement que la redevance de congestion de
+   La Valette (Malte, déjà non modélisée) : ni l'une ni l'autre n'est un péage autoroutier
+   proportionnel à la distance parcourue.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -322,7 +333,10 @@ ajoute deux à trois choses, indépendamment des autres :
    qu'avec le Danemark/la Suisse (Oslo : loyer Airbnb médian ~140 $/~130 €, airroi/airbtics 2026), mais
    contrairement à la couronne danoise (parité FIXE avec l'euro), la couronne norvégienne est
    FLOTTANTE — 1 EUR ≈ 10,85 NOK début septembre 2026 (xe.com/ecb.europa.eu), à réévaluer
-   périodiquement si le taux dérive significativement.
+   périodiquement si le taux dérive significativement. La Suède a besoin du même genre de champ
+   (`SEK`, la couronne suédoise) — même profil "plus cher que la zone euro" (Stockholm : loyer Airbnb
+   médian ~159 $/~142 €, airroi 2026), couronne elle aussi FLOTTANTE (comme la norvégienne,
+   contrairement à la danoise) — 1 EUR ≈ 11,15 SEK début septembre 2026 (xe.com).
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -350,9 +364,9 @@ ajoutées, au fil des passages suivants, le catalan/le basque/le galicien/l'occi
 corse/le mirandais (rattrapage régional France/Espagne/Portugal/Andorre), l'irlandais/le mannois/le
 gallois/le gaélique écossais/le cornique/le scots (Royaume-Uni, Irlande, île de Man), puis huit
 langues nationales de pays déjà couverts par ailleurs — tchèque, polonais, slovaque, hongrois,
-slovène, croate, bosniaque et serbe — dans un rattrapage détaillé plus bas, et enfin le danois et le
-norvégien, arrivés respectivement avec le Danemark et la Norvège (voir "Pays couverts" et plus bas,
-série des pays nordiques). Le
+slovène, croate, bosniaque et serbe — dans un rattrapage détaillé plus bas, et enfin le danois, le
+norvégien et le suédois, arrivés respectivement avec le Danemark, la Norvège et la Suède (voir "Pays
+couverts" et plus bas, série des pays nordiques). Le
 luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
 aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
@@ -771,6 +785,21 @@ kven (finnois de Norvège, code "fkv", ~2 200 noms alternatifs), minorité lingu
 officiellement reconnue mais nettement plus modeste, est laissé de côté pour la même raison. Les deux
 restent à reconsidérer dans un passage dédié si demandé.
 
+### Suède (troisième pays nordique)
+
+Le suédois (svenska) est arrivé avec la Suède elle-même — troisième des quatre pays nordiques. Une
+nouvelle clé d'interface, `ferry.route.gotland` (voir "Ferries" ci-dessus), a été ajoutée aux 45
+langues déjà prises en charge, exactement selon la même méthode que `ferry.route.bornholm` lors de
+l'ajout du Danemark : réutilisation automatique du mot "continent" de chaque langue (via
+`ferry.route.rab`), "Gotland" laissé inchangé dans les langues à alphabet latin, translittéré à la
+main dans les deux langues cyrilliques (rusyn/lemko : Ґотланд — avec le Ґ ukrainien/rusyn dédié au "g"
+dur étranger, déjà utilisé ailleurs dans ce même bloc pour "Gozo" ; serbe : Готланд). Comme pour la
+Norvège, le same du Nord et le meänkieli (minorités linguistiques elles aussi officiellement reconnues
+en Suède) sont volontairement laissés de côté, même raisonnement de confiance de traduction. Un cas
+particulier positif : le finnois, minorité reconnue en Suède ET langue nationale à part entière de la
+Finlande, sera automatiquement disponible comme langue d'interface pour la Suède dès l'ajout de la
+Finlande elle-même (pack de langue partagé, sans travail supplémentaire).
+
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
 
@@ -997,6 +1026,15 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   rares îles véritablement significatives (Lofoten, Senja, Hitra/Frøya...) sont aujourd'hui reliées par
   pont ou tunnel plutôt que par ferry. Toute la Norvège reste donc `continental` dans ce modèle — à
   reconsidérer si une ligne précise s'avère pertinente dans un passage futur.
+- **Suède** : une seule île concernée, **Gotland** — Öland, elle, est reliée au continent par un vrai
+  pont routier depuis 1972 (Ölandsbron), déjà `continental` sans entrée dédiée. Gotland n'a AUCUN pont :
+  seule liaison réelle pour véhicules, **Nynäshamn ↔ Visby** (Destination Gotland, seul opérateur,
+  ~3h15, voiture jusqu'à 5 passagers dès 1250 SEK/~112 € au tarif standard "Alla+bilen" sur départs
+  sélectionnés, destinationgotland.se/priser-bokningsinfo ; passager seul dès 399 SEK/~36 €, repris ici
+  comme tarif "foot"). Identifiée par le préfixe de code postal suédois `62` (620-624), exclusif à la
+  région Gotland (les codes postaux suédois s'écrivent "XXX XX" avec un espace — le préfixe testé porte
+  sur les trois premiers chiffres). Testé en direct : un trajet Visby → continent a bien déclenché la
+  ligne de ferry avec le bon tarif/la bonne durée affichés.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -1079,7 +1117,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
@@ -1119,7 +1157,8 @@ au chargement.
   [Virtu Ferries](https://www.virtuferries.com) (Malte ↔ Sicile), [Gozo
   Channel](https://www.gozochannel.com) (Malte ↔ Gozo), [Condor
   Ferries](https://www.condorferries.co.uk) (Jersey/Guernesey ↔ Saint-Malo, et la ligne inter-îles),
-  [Bornholmslinjen](https://www.bornholmslinjen.com) (Ystad ↔ Rønne, Bornholm)
+  [Bornholmslinjen](https://www.bornholmslinjen.com) (Ystad ↔ Rønne, Bornholm), [Destination
+  Gotland](https://www.destinationgotland.se) (Nynäshamn ↔ Visby, Gotland)
   — voir "Ferries" ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour
   les péages, pas un tarif garanti).
 

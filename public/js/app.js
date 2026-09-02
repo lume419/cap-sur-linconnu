@@ -219,7 +219,15 @@
     // insulaires comparables à la Corse/aux Baléares/à Bornholm ; les rares vraies îles significatives
     // (Lofoten, Senja, Hitra/Frøya...) sont aujourd'hui reliées par pont ou tunnel. Limite assumée,
     // comme les Açores/Madère pour le Portugal ou les petites îles danoises non retenues.
-    NO: { code:'NO', name:'Norvège', file:'communes-no.txt', hasToll:false, aliasFile:'aliases-no.txt', currency:'NOK' }
+    NO: { code:'NO', name:'Norvège', file:'communes-no.txt', hasToll:false, aliasFile:'aliases-no.txt', currency:'NOK' },
+    // Suède : hasToll:false, cas le plus simple des trois pays nordiques ajoutés jusqu'ici — réseau
+    // autoroutier réellement gratuit dans son ensemble (transportstyrelsen.se : "aucune vignette,
+    // aucune barrière de péage sur route ouverte", l'un des réseaux les moins taxés d'Europe). Seuls
+    // Stockholm et Göteborg appliquent une taxe d'encombrement urbain (trängselskatt, 6h-18h29 en
+    // semaine, jusqu'à 135 SEK/jour) à l'entrée/sortie du centre-ville — pas un péage routier au sens
+    // de cette app, même raisonnement que la redevance de congestion de La Valette (Malte, déjà non
+    // modélisée) : ni l'un ni l'autre n'est un péage autoroutier proportionnel à la distance parcourue.
+    SE: { code:'SE', name:'Suède', file:'communes-se.txt', hasToll:false, aliasFile:'aliases-se.txt', currency:'SEK' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -248,7 +256,7 @@
   // "£" devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les
   // livres locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs
   // îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -733,7 +741,14 @@
     // continentale européenne connectée par la route (France, Allemagne, Pologne...), Suède comprise
     // dès son ajout, cohérent avec le fonctionnement déjà en place pour toutes les autres îles de cette
     // table.
-    'bornholm|continental': { routeKey:'ferry.route.bornholm', durationH:1.33, distanceKm:90, priceByClass:{1:80, 2:120, 5:32, foot:28} }
+    'bornholm|continental': { routeKey:'ferry.route.bornholm', durationH:1.33, distanceKm:90, priceByClass:{1:80, 2:120, 5:32, foot:28} },
+    // Nynäshamn-Visby (Destination Gotland, seul opérateur), ~3h15, plusieurs rotations/jour. Voiture
+    // (jusqu'à 5 passagers) dès 1250 SEK (~112 €, tarif standard "Alla+bilen" sur départs sélectionnés,
+    // destinationgotland.se/priser-bokningsinfo) ; passager seul dès 399 SEK (~36 €, repris ici comme
+    // tarif "foot"). Classes 2/5 au même ratio que les traversées comparables ci-dessus. Une seule
+    // vraie île suédoise modélisée : Öland est reliée au continent par un vrai pont routier depuis 1972
+    // (Ölandsbron) — déjà "continental" dans ce modèle, sans entrée dédiée.
+    'continental|gotland': { routeKey:'ferry.route.gotland', durationH:3.25, distanceKm:150, priceByClass:{1:112, 2:168, 5:45, foot:36} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -865,6 +880,19 @@
       }
       return 'continental';
     }
+    if(c.country === 'SE'){
+      // Öland est reliée au continent par un vrai pont routier (Ölandsbron, 1972) — déjà 'continental'
+      // sans code dédié. Seule vraie île sans pont modélisée : Gotland (voir FERRY_ROUTES,
+      // 'continental|gotland'). Identifiée par le préfixe de code postal suédois "62" (620-624),
+      // exclusif à la région Gotland — vérifié sur l'ensemble de communes-se.txt (les codes postaux
+      // suédois s'écrivent "XXX XX", avec un espace ; le préfixe testé porte sur les trois premiers
+      // chiffres, avant l'espace). Même repli sur `c.cps` que pour dkCps/hrCps/gbCps ci-dessus.
+      var seCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
+      for(var sci=0; sci<seCps.length; sci++){
+        if(/^62/.test(seCps[sci])) return 'gotland';
+      }
+      return 'continental';
+    }
     return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
   }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans
@@ -939,7 +967,11 @@
     // Airbnb médian ~140 $ (~130 €, airroi/airbtics 2026). Taux de conversion : couronne norvégienne
     // FLOTTANTE (contrairement à la couronne danoise, sans parité fixe avec l'euro) — 1 EUR ≈ 10,85
     // NOK début septembre 2026 (xe.com/ecb.europa.eu).
-    NOK: { economique: 1000, moyen: 1800, confortable: 3600 }
+    NOK: { economique: 1000, moyen: 1800, confortable: 3600 },
+    // Suède : même profil que le Danemark/la Norvège. Stockholm : loyer Airbnb médian ~159 $ (~142 €,
+    // airroi 2026). Couronne suédoise FLOTTANTE (comme la norvégienne, contrairement à la danoise) —
+    // 1 EUR ≈ 11,15 SEK début septembre 2026 (xe.com).
+    SEK: { economique: 1000, moyen: 1900, confortable: 3800 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu

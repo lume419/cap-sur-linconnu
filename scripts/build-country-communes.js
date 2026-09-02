@@ -5,11 +5,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['NO']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
-// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK sont
+const COUNTRIES = ['SE']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO sont
 // déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|
-// pl|sk|hu|si|hr|ba|gb|ie|im|dk.txt), pas la peine de retélécharger leurs sources pour les régénérer
-// à l'identique à chaque nouvel ajout.
+// pl|sk|hu|si|hr|ba|gb|ie|im|dk|no.txt), pas la peine de retélécharger leurs sources pour les
+// régénérer à l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -162,7 +162,12 @@ const NAME_OVERRIDES = {
   // remplacé par "Aarhus", déjà la forme utilisée par le reste du dump pour cette même ville, ex. sa
   // région "Aarhus Kommune" sur la même ligne).
   'Copenhagen': 'København',
-  'Århus': 'Aarhus'
+  'Århus': 'Aarhus',
+  // Un cas suédois (échantillon des 30 plus grandes communes du pays — Stockholm, Malmö, Uppsala,
+  // Linköping, Örebro, Umeå, Västerås, Jönköping, Helsingborg... déjà bons, y compris les caractères
+  // å/ä/ö) : "Gothenburg" (exonyme anglais, remplacé par le suédois "Göteborg" — deuxième ville du
+  // pays).
+  'Gothenburg': 'Göteborg'
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth
