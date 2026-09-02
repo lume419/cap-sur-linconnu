@@ -1,0 +1,137 @@
+en;Viby J;Viby
+pt;Viburgo;Viborg
+en;Vejgaard;Vejgård
+da;Vejgaard;Vejgård
+en;Vejen Municipality;Vejen
+de;Vejen Kommune;Vejen
+ca;Municipi de Vejen;Vejen
+frr;Vejen Komuun;Vejen
+nds;Kommun Vejen;Vejen
+de;Tondern;Tønder
+frr;Tuner;Tønder
+da;Tåstrup;Taastrup
+en;Struer Municipality;Struer
+ca;Municipi de Struer;Struer
+frr;Struer Komuun;Struer
+nds;Kommun Struer;Struer
+de;Sonderburg;Sønderborg
+en;Soenderborg;Sønderborg
+da;Smørum;Smørumnedre
+en;Smorumnedre;Smørumnedre
+en;Smorum;Smørumnedre
+de;Scherrebek;Skaerbaek
+da;Skærbæk;Skaerbaek
+en;Skærbæk;Skaerbaek
+de;Randershof;Rønshoved
+en;Rødovre Municipality;Rødovre
+de;Rødovre Kommune;Rødovre
+ca;Municipi de Rødovre;Rødovre
+frr;Rødovre Komuun;Rødovre
+nds;Kommun Rødovre;Rødovre
+de;Rinkenis;Rinkenæs
+de;Ottensee;Odense
+de;Nykobing Falster;Nykøbing Falster
+csb;Naestved;Næstved
+da;Nr. Herlev;Nørre Herlev
+en;Laesoe;Læsø
+da;Løgumkloster Sogn;Løgumkloster
+da;København;Copenhagen
+es;Copenhague;Copenhagen
+de;Kopenhagen;Copenhagen
+br;Kopenhagen;Copenhagen
+ca;Copenhaguen;Copenhagen
+csb;Kòpenhaga;Copenhagen
+eu;Kopenage;Copenhagen
+eu;Kopenhage;Copenhagen
+fr;Copenhague;Copenhagen
+ga;Cóbanhávan;Copenhagen
+gl;Copenhague;Copenhagen
+it;Copenaghen;Copenhagen
+lb;Kopenhagen;Copenhagen
+nds;Kopenhagen;Copenhagen
+nl;Kopenhagen;Copenhagen
+pt;Copenhaga;Copenhagen
+oc;Copenaga;Copenhagen
+oc;København;Copenhagen
+lij;Copenaghen;Copenhagen
+sc;Copenaghen;Copenhagen
+en;Tommerup;Knarreborg
+de;Kettingholz;Kettingskov
+en;Midtjylland;Karup
+en;Hvessinge;Hvissinge
+da;Højer Sogn;Højer
+en;Gammel Skagen;Højen
+en;Elsinore;Helsingør
+es;Elsinor;Helsingør
+fr;Elseneur;Helsingør
+it;Elsinore;Helsingør
+pt;Helsingor;Helsingør
+ca;Elsinor;Helsingør
+de;Hadersleben;Haderslev
+fr;Grenå;Grenaa
+en;Grenå;Grenaa
+de;Gravenstein;Gråsten
+de;Glostrup Kommune;Glostrup
+en;Glostrup Municipality;Glostrup
+ca;Municipi de Glostrup;Glostrup
+da;Glostrup Kommune;Glostrup
+frr;Glostrup Komuun;Glostrup
+nds;Kommun Glostrup;Glostrup
+de;Gellerup;Gjellerup
+en;Gellerup;Gjellerup
+da;Gellerup;Gjellerup
+nl;Gellerup;Gjellerup
+en;Gentofte Municipality;Gentofte
+de;Gentofte Kommune;Gentofte
+ca;Municipi de Gentofte;Gentofte
+frr;Gentofte Komuun;Gentofte
+nds;Kommun Gentofte;Gentofte
+de;Frederiksberg Kommune;Frederiksberg
+en;Fakse;Faxe
+da;Fakse;Faxe
+it;Fakse;Faxe
+nl;Fakse;Faxe
+pt;Fakse;Faxe
+fr;Fåborg;Faaborg
+ca;Christianfeld;Christiansfeld
+de;Buhrkall;Burkal
+en;Brøndby;Brøndbyvester
+da;Brøndby;Brøndbyvester
+de;Broacker;Broager
+da;Broager Sogn;Broager
+da;Sankt Bodil;Bodilsker
+en;Sct. Bothulf;Bodilsker
+en;Ballerup Municipality;Ballerup
+de;Ballerup Kommune;Ballerup
+ca;Municipi de Ballerup;Ballerup
+frr;Ballerup Komuun;Ballerup
+nds;Kommun Ballerup;Ballerup
+de;Atzerballigholz;Asserballeskov
+da;Adserballe;Asserballe
+de;Atzerballig;Asserballe
+it;Års;Aars
+en;Aarhus;Århus
+da;Aarhus;Århus
+de;Aarhus;Århus
+it;Aalsgaarde;Ålsgårde
+de;Allerød Kommune;Allerød
+en;Allerød Municipality;Allerød
+ca;Municipi dAllerød;Allerød
+da;Allerød Kommune;Allerød
+frr;Allerød Komuun;Allerød
+nds;Kommun Allerød;Allerød
+da;Ålborg;Aalborg
+ca;Municipi dAlbertslund;Albertslund
+frr;Albertslund Komuun;Albertslund
+nds;Kommun Albertslund;Albertslund
+en;Aabybro;Åbybro
+da;Aabybro;Åbybro
+nl;Aabybro;Åbybro
+pt;Aabybro;Åbybro
+de;Apenrade;Aabenraa
+de;Åbenrå;Aabenraa
+es;Abenrá;Aabenraa
+fr;Åbenrå;Aabenraa
+nl;Åbenrå;Aabenraa
+pt;Åbenrå;Aabenraa
+en;Old Virum;Gammel Virum

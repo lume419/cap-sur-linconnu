@@ -187,7 +187,22 @@
     BA: { code:'BA', name:'Bosnie-Herzégovine', file:'communes-ba.txt', hasToll:true, aliasFile:'aliases-ba.txt', currency:'BAM' },
     GB: { code:'GB', name:'Royaume-Uni', file:'communes-gb.txt', hasToll:false, aliasFile:'aliases-gb.txt', currency:'GBP' },
     IE: { code:'IE', name:'Irlande', file:'communes-ie.txt', hasToll:false, aliasFile:'aliases-ie.txt' },
-    IM: { code:'IM', name:'Île de Man', file:'communes-im.txt', hasToll:false, aliasFile:'aliases-im.txt', currency:'GBP' }
+    IM: { code:'IM', name:'Île de Man', file:'communes-im.txt', hasToll:false, aliasFile:'aliases-im.txt', currency:'GBP' },
+    // Danemark : hasToll:false — pas de vignette (contrairement à la Suisse/l'Autriche/la
+    // République tchèque/la Slovaquie/la Hongrie/la Slovénie), pas de barème €/km non plus (contrairement
+    // à la France/l'Espagne/l'Italie/la Croatie/la Bosnie-Herzégovine). Deux VRAIS ponts à péage relient
+    // les trois masses continentales du pays — le Storebæltsbroen/Great Belt (Fionie-Sjælland, ~205-235
+    // DKK selon le mode de paiement, storebaelt.dk) et l'Øresundsbron vers la Suède (~465-470 DKK,
+    // oresundsbron.com) — mais tous deux à tarif FIXE par passage, jamais proportionnel à la distance
+    // parcourue : même traitement que les ouvrages isolés déjà laissés hors modèle ailleurs (M50 irlandais,
+    // Kiltunnel néerlandais, M6 Toll/Dartford Crossing britanniques, tunnel du Grand-Saint-Bernard suisse)
+    // — non modélisés ici, malgré le fait que le Storebælt, contrairement à ces exemples, est une
+    // traversée bien plus difficile à éviter pour un trajet Jylland/Fionie <-> Sjælland/Copenhague (aucun
+    // pont/tunnel alternatif gratuit) : un choix plus discutable que pour les cas précédents, assumé pour
+    // rester cohérent avec la même règle "péage ponctuel à tarif fixe, jamais au kilomètre -> hors modèle"
+    // appliquée partout ailleurs plutôt que d'inventer un nouveau mécanisme de péage au franchissement
+    // juste pour ce pays (voir README, section "Pays couverts").
+    DK: { code:'DK', name:'Danemark', file:'communes-dk.txt', hasToll:false, aliasFile:'aliases-dk.txt', currency:'DKK' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -216,7 +231,7 @@
   // "£" devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les
   // livres locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs
   // îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -689,7 +704,19 @@
     // modélisées. Voiture dès ~98,50 £ (~117 €, taux indicatif). Relie l'île de Man à la Grande-
     // Bretagne, comme l'Irlande — jamais directement au continent, même raisonnement que
     // greatBritain|ireland ci-dessus.
-    'greatBritain|isleOfMan': { routeKey:'ferry.route.heyshamDouglas', durationH:3.75, distanceKm:130, priceByClass:{1:117, 2:175, 5:53, foot:35} }
+    'greatBritain|isleOfMan': { routeKey:'ferry.route.heyshamDouglas', durationH:3.75, distanceKm:130, priceByClass:{1:117, 2:175, 5:53, foot:35} },
+    // Ystad (Suède)-Rønne (Bornholmslinjen, seul opérateur), 1h20, 4 rotations/jour — SEULE vraie
+    // ligne de ferry pour véhicules vers Bornholm depuis l'ajout du Danemark (l'ancienne ligne directe
+    // Køge-Rønne a fermé au trafic véhicules il y a plusieurs années). Voiture (jusqu'à 5 passagers)
+    // dès 599 DKK (~80 €, tarif "Flex" standard modifiable — pas le tarif "Lowprice" promotionnel non
+    // remboursable à 99 DKK, même logique que le tarif flexible standard retenu pour Douvres-Calais),
+    // bornholmslinjen.com/prices. Classes 2/5/foot au même ratio que les traversées comparables
+    // ci-dessus. Landmasse "bornholm" (voir landmassOf plus bas, pays DK) reliée ici à "continental" —
+    // pas à un pays en particulier : Ystad est en Suède, mais "continental" désigne déjà toute la masse
+    // continentale européenne connectée par la route (France, Allemagne, Pologne...), Suède comprise
+    // dès son ajout, cohérent avec le fonctionnement déjà en place pour toutes les autres îles de cette
+    // table.
+    'bornholm|continental': { routeKey:'ferry.route.bornholm', durationH:1.33, distanceKm:90, priceByClass:{1:80, 2:120, 5:32, foot:28} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -805,6 +832,22 @@
     // interne — la troisième île britannique de cette série (avec la Grande-Bretagne/l'Irlande du
     // Nord et la République d'Irlande) à n'avoir besoin que d'un simple test de pays.
     if(c.country === 'IM') return 'isleOfMan';
+    if(c.country === 'DK'){
+      // Le Danemark continental (Jylland/Fionie/Sjælland, y compris Copenhague) rejoint 'continental'
+      // comme le reste de l'Europe connectée par la route : les trois masses sont reliées entre elles
+      // par de VRAIS ponts routiers (Lillebæltsbroen gratuit, Storebæltsbroen/Øresundsbron payants mais
+      // non modélisés, voir COUNTRIES.DK plus haut) — aucune ligne de ferry nécessaire pour aller de l'un
+      // à l'autre. Seule exception : Bornholm, île sans aucun pont, uniquement reliée par ferry (voir
+      // FERRY_ROUTES, 'bornholm|continental'). Identifiée par le préfixe de code postal danois "37"
+      // (3700-3790), exclusif à la commune de Bornholm — vérifié sur les 9 codes postaux distincts de
+      // communes-dk.txt commençant par "37", tous et uniquement rattachés à "Bornholm Kommune". Même
+      // repli sur `c.cps` que pour hrCps/gbCps ci-dessus (nom du champ sur l'objet commune BRUT).
+      var dkCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
+      for(var dci=0; dci<dkCps.length; dci++){
+        if(/^37/.test(dkCps[dci])) return 'bornholm';
+      }
+      return 'continental';
+    }
     return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
   }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans
@@ -867,7 +910,14 @@
     CZK: { economique: 1000, moyen: 2000, confortable: 4000 },
     BAM: { economique: 100, moyen: 180, confortable: 350 },
     PLN: { economique: 250, moyen: 450, confortable: 900 },
-    HUF: { economique: 10000, moyen: 20000, confortable: 40000 }
+    HUF: { economique: 10000, moyen: 20000, confortable: 40000 },
+    // Danemark : contrairement à CZK/PLN/HUF/BAM ci-dessus (tous MOINS chers que la zone euro), le
+    // Danemark est un pays PLUS cher — même profil que la Suisse (CHF ci-dessus). Copenhague : loyer
+    // Airbnb médian ~1150-1250 DKK/nuit (~155-170 €, airroi.com 2026), fourchette usuelle ~800-1800 DKK
+    // couvrant ~80% des annonces — paliers calés pour que le prix médian tombe dans la tranche "moyen"
+    // plutôt qu'en dessous, comme pour les autres devises. Taux de conversion : couronne danoise à
+    // parité FIXE avec l'euro depuis 1982 (ERM II, bande étroite ±2,25%) — 1 EUR ≈ 7,46 DKK.
+    DKK: { economique: 700, moyen: 1300, confortable: 2600 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu

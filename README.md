@@ -130,7 +130,8 @@ les trois premières routes.
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
-Royaume-Uni, Irlande et île de Man pour l'instant, d'autres viendront. Chaque pays
+Royaume-Uni, Irlande, île de Man et Danemark pour l'instant (Norvège/Suède/Finlande à venir dans la même
+série). Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -160,7 +161,13 @@ ajoute deux à trois choses, indépendamment des autres :
    nettement plus modeste que les autres pays, mais entièrement fondée sur de vraies données plutôt
    que sur une correspondance devinée. Choix explicite de l'utilisateur (voir historique des
    commits) : reconstruire malgré ce travail supplémentaire plutôt que d'ajouter les communes sans
-   code postal ou de reporter le pays.
+   code postal ou de reporter le pays. **Le Danemark**, lui, n'a demandé aucun traitement spécial —
+   pipeline standard, 7 080 communes retenues sur 7 109 lieux bruts. Deux corrections `NAME_OVERRIDES`
+   seulement (échantillon des 30 plus grandes communes du pays, reste déjà bon y compris les caractères
+   æ/ø/å) : "Copenhagen" (exonyme anglais, remplacé par le danois "København") et "Århus" (pas un
+   exonyme cette fois mais une orthographe danoise PÉRIMÉE — la ville a officiellement repris
+   l'orthographe historique "Aarhus" le 1er janvier 2011, abandonnant le "Å" adopté en 1948 —
+   remplacée par "Aarhus", déjà la forme utilisée par le reste du dump pour cette même ville).
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -247,7 +254,18 @@ ajoute deux à trois choses, indépendamment des autres :
    plus fine encore. L'île de Man, elle, est le cas le plus simple de toute cette série : AUCUNE
    autoroute ni voie rapide sur toute l'île (réseau routier local, y compris le célèbre circuit du TT
    sur route ouverte) — `hasToll:false` sans la moindre exception à modéliser, comme Saint-Marin/le
-   Liechtenstein.
+   Liechtenstein. Le Danemark, lui, est le cas le plus DISCUTABLE de toute la série : `hasToll:false`
+   comme le groupe des ouvrages isolés (Irlande/Pays-Bas/Royaume-Uni/Suisse ci-dessus), mais pour une
+   raison plus fragile ici. Le pays a deux VRAIS ponts à péage — le Storebæltsbroen/Great Belt entre la
+   Fionie et le Sjælland (205-235 DKK selon le mode de paiement, storebaelt.dk) et l'Øresundsbron vers
+   la Suède (465-470 DKK, oresundsbron.com) — mais tous deux à tarif FIXE par passage, jamais
+   proportionnel à la distance parcourue : la même règle "péage ponctuel à tarif fixe -> hors modèle"
+   qui a écarté le M50 irlandais/le Kiltunnel néerlandais/le M6 Toll et le Dartford Crossing
+   britanniques/le tunnel du Grand-Saint-Bernard suisse s'applique donc ici aussi, pour rester cohérent
+   plutôt que d'inventer un nouveau mécanisme de péage au franchissement rien que pour ce pays.
+   Contrairement à ces exemples, cependant, le Storebælt est une traversée bien plus difficile à éviter
+   pour un trajet Jylland/Fionie <-> Sjælland/Copenhague — aucun pont ni tunnel alternatif gratuit
+   n'existe entre les deux : un choix plus discutable, assumé comme tel plutôt que dissimulé.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -278,7 +296,15 @@ ajoute deux à trois choses, indépendamment des autres :
    Airbnb/Booking pour ce pays (pas de sélecteur séparé). L'Irlande, elle, contrairement à son voisin
    britannique, EST en zone euro (depuis 1999/2002 comme la France) : aucun champ nécessaire. L'île de
    Man rejoint à son tour le groupe `GBP` (Royaume-Uni/Guernesey/Jersey) : la livre mannoise existe
-   mais reste à parité fixe avec la livre sterling, jamais utilisée séparément par Airbnb/Booking.
+   mais reste à parité fixe avec la livre sterling, jamais utilisée séparément par Airbnb/Booking. Le
+   Danemark, lui, a besoin du champ (`DKK`, la couronne danoise) : hors zone euro malgré l'appartenance
+   à l'UE (opt-out danois depuis le traité de Maastricht, 1992) mais à parité quasi fixe avec l'euro
+   depuis 1982 (ERM II, bande étroite ±2,25% — 1 EUR ≈ 7,46 DKK, jamais réajustée depuis l'entrée dans
+   le mécanisme en 1999). Contrairement à CZK/PLN/HUF/BAM ci-dessus (tous des pays MOINS chers que la
+   zone euro), le Danemark est PLUS cher — même profil que la Suisse (`CHF`) : loyer Airbnb médian à
+   Copenhague ~1150-1250 DKK/nuit (~155-170 €, airroi.com 2026), fourchette usuelle ~800-1800 DKK
+   couvrant ~80% des annonces. Paliers `BUDGET_PRICE_MAX.DKK` calés pour que ce prix médian tombe dans
+   la tranche "moyen" plutôt qu'en dessous, comme pour les autres devises.
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -306,7 +332,8 @@ ajoutées, au fil des passages suivants, le catalan/le basque/le galicien/l'occi
 corse/le mirandais (rattrapage régional France/Espagne/Portugal/Andorre), l'irlandais/le mannois/le
 gallois/le gaélique écossais/le cornique/le scots (Royaume-Uni, Irlande, île de Man), puis huit
 langues nationales de pays déjà couverts par ailleurs — tchèque, polonais, slovaque, hongrois,
-slovène, croate, bosniaque et serbe — dans un rattrapage détaillé plus bas. Le
+slovène, croate, bosniaque et serbe — dans un rattrapage détaillé plus bas, et enfin le danois, arrivé
+avec le Danemark (voir "Pays couverts" et plus bas, série des pays nordiques). Le
 luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
 aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
@@ -691,6 +718,21 @@ bonne sous-liste péage gratuit / vignette — trouvé et corrigé pour le slova
 slovène avant leur insertion définitive (la Slovaquie, la Hongrie et la Slovénie manquaient chacune de
 leur propre nom dans leur propre pied de page).
 
+### Danemark (premier pays nordique)
+
+Le danois (dansk) est arrivé avec le Danemark lui-même — premier des quatre pays nordiques prévus
+dans cette série (Danemark, Norvège, Suède, Finlande), langue nationale unique du pays, confiance
+haute. Contrairement au tchèque/polonais/slovaque/hongrois/slovène/croate/bosniaque/serbe ci-dessus
+(rattrapage sur des pays DÉJÀ couverts), le danois arrive ici en même temps que son pays — le cas
+normal pour cette app, pas une exception à documenter. Une nouvelle clé d'interface,
+`ferry.route.bornholm` (voir "Ferries" ci-dessus), a dû être ajoutée non seulement en danois mais dans
+les 43 langues DÉJÀ prises en charge : réutilisation automatique, pour chacune, du mot "continent" déjà
+traduit dans une clé existante similaire (`ferry.route.rab`, une île mineure jamais renommée d'une
+langue à l'autre — vérifié) plutôt qu'une retraduction manuelle à 43 reprises ; "Bornholm" lui-même
+reste inchangé dans toutes les langues à alphabet latin (comme "Rab"/"Jersey" dans la quasi-totalité
+des langues déjà couvertes), les deux langues cyrilliques (rusyn/lemko, serbe) recevant une
+translittération phonétique dédiée écrite à la main (Борнгольм, Борнхолм).
+
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
 
@@ -899,6 +941,17 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   subdivision interne. Reliée elle aussi à la Grande-Bretagne (pas au continent) par
   **Heysham-Douglas** (Isle of Man Steam Packet Company — seul opérateur, quasi-monopole depuis
   1830 — MV Manxman, fast-craft, ~130 km, ~3h45, voiture dès ~98,50 £/~117 €).
+- **Danemark** : une seule île concernée, **Bornholm** — le Jylland/la Fionie/le Sjælland (avec
+  Copenhague) forment eux une seule masse `continental`, reliés entre eux par de VRAIS ponts routiers
+  (voir "Pays couverts" ci-dessus). Bornholm, elle, n'a AUCUN pont : seule liaison réelle pour
+  véhicules aujourd'hui, **Ystad (Suède) ↔ Rønne** (Bornholmslinjen, seul opérateur, ~1h20, 4
+  rotations/jour, voiture dès 599 DKK/~80 € au tarif "Flex" standard modifiable — pas le tarif
+  "Lowprice" promotionnel non remboursable à 99 DKK). L'ancienne ligne directe Køge-Rønne depuis le
+  Sjælland a fermé au trafic véhicules. Identifiée par le préfixe de code postal danois `37`
+  (3700-3790), exclusif aux 9 codes postaux de la commune de Bornholm (vérifié sur l'ensemble de
+  `communes-dk.txt`). Autres îles danoises sans pont (Ærø, Samsø, Fanø, Læsø…) volontairement laissées
+  de côté pour l'instant — même limite assumée que pour la douzaine de petits îlots croates non
+  modélisés, voir plus haut.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -981,7 +1034,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
@@ -1020,7 +1073,8 @@ au chargement.
   (Sardaigne), [Caronte & Tourist](https://www.carontetourist.it) (Sicile, détroit de Messine),
   [Virtu Ferries](https://www.virtuferries.com) (Malte ↔ Sicile), [Gozo
   Channel](https://www.gozochannel.com) (Malte ↔ Gozo), [Condor
-  Ferries](https://www.condorferries.co.uk) (Jersey/Guernesey ↔ Saint-Malo, et la ligne inter-îles)
+  Ferries](https://www.condorferries.co.uk) (Jersey/Guernesey ↔ Saint-Malo, et la ligne inter-îles),
+  [Bornholmslinjen](https://www.bornholmslinjen.com) (Ystad ↔ Rønne, Bornholm)
   — voir "Ferries" ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour
   les péages, pas un tarif garanti).
 

@@ -1,3 +1,9 @@
 node_modules/
 .env
 *.log
+# Dumps GeoNames bruts téléchargés par scripts/build-country-communes.js / build-aliases.js — gros
+# fichiers sources (jusqu'à ~70 Mo), jamais commités, seuls les fichiers publics/data/*.txt générés
+# le sont. Voir le commentaire en tête de ces deux scripts.
+scripts/dump/
+scripts/postal/
+scripts/altnames/

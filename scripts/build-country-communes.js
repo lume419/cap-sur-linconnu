@@ -5,11 +5,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['IM']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
-// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE sont déjà
+const COUNTRIES = ['DK']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM sont déjà
 // générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|
-// hu|si|hr|ba|gb|ie.txt), pas la peine de retélécharger leurs sources pour les régénérer à l'identique
-// à chaque nouvel ajout.
+// hu|si|hr|ba|gb|ie|im.txt), pas la peine de retélécharger leurs sources pour les régénérer à
+// l'identique à chaque nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -153,7 +153,16 @@ const NAME_OVERRIDES = {
   // d'une même langue (voir le choix GeoNames tel quel partout ailleurs), seulement à corriger un
   // exonyme manquant ou une vraie confusion de langue.
   'Trá Mhór': 'Tramore',
-  'Leifear': 'Lifford'
+  'Leifear': 'Lifford',
+  // Deux cas danois (échantillon des 30 plus grandes communes du pays — Odense, Aalborg,
+  // Frederiksberg, Esbjerg, Randers, Kolding, Horsens, Vejle... déjà bons, y compris les caractères
+  // æ/ø/å) : "Copenhagen" (exonyme anglais, remplacé par le danois "København" — capitale) et
+  // "Århus" (pas un exonyme cette fois mais une orthographe DANOISE périmée : la ville a officiellement
+  // repris l'orthographe historique "Aarhus" le 1er janvier 2011, abandonnant le "Å" adopté en 1948 —
+  // remplacé par "Aarhus", déjà la forme utilisée par le reste du dump pour cette même ville, ex. sa
+  // région "Aarhus Kommune" sur la même ligne).
+  'Copenhagen': 'København',
+  'Århus': 'Aarhus'
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth
