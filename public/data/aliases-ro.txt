@@ -1,0 +1,1199 @@
+bg;Зимница;Zimnicea
+bg;Зимнич;Zimnicea
+sr;Зимнича;Zimnicea
+hu;Zetelaka;Zetea
+hu;Mezőzáh;Zau de Câmpie
+hu;Mezőszakál;Bărboși
+hu;Zoványfürdő;Zăuan-Băi
+hu;Zovány;Zăuan
+hu;Szilágyzovány;Zăuan
+hu;Zapodia;Zăpodea
+hu;Zilah;Zalău
+bg;Залъу;Zalău
+el;Ζαλάου;Zalău
+sr;Залау;Zalău
+de;Guttenbrunn;Zăbrani
+hu;Zabola;Zăbala
+hu;Borsaújfalu;Vultureni
+ro;Vulcana-Băi;Vulcana Băi
+hu;Felsővarány;Vrăniuț
+hu;Vasláb;Voșlăbeni
+hu;Tövises;Fântânele
+hu;Szentegyháza;Vlăhiţa
+hu;Magyarfenes;Vlaha
+ro;Vladimirul;Vladimir
+ro;Vladimiru;Vladimir
+hu;Szászfehéregyháza;Viscri
+ro;Vârteju Măgurele;Vârteju
+ro;Vîrtej;Vârtej
+ro;Vîrtăneşti;Vârtăneşti
+hu;Vargyas;Vârghiş
+hu;Vércsorog;Vârciorog
+ro;Vîntuleşti;Vântuleşti
+hu;Börvény;Vânători
+ro;Vînătoreşti;Vânătoreşti
+ro;Vîlceşti;Vâlceşti
+ro;Vîlceluţa;Vâlceluţa
+hu;Bányabükk;Vâlcele
+de;Oberwikow;Vicovu de Sus
+hu;Vessződ;Veseud
+hu;Dornavátra;Vatra Dornei
+bg;Ватра Дорней;Vatra Dornei
+sr;Ватра Дорнеј;Vatra Dornei
+hu;Alváca;Vaţa de Jos
+hu;Vászló;Vaslui
+bg;Васлуй;Vaslui
+el;Βασλούι;Vaslui
+sr;Васлуј;Vaslui
+ro;Văsioaia;Văsoaia
+hu;Székelyvarság;Vărşag
+hu;Vargatag;Vargatac
+hu;Szamosőrmező;Var
+de;Wama;Vama
+hu;Ferenczfalva;Văliug
+hu;Járarákos;Vălișoara
+sr;Валенији де Мунте;Vălenii de Munte
+hu;Dombos;Văleni
+hu;Zalánpatak;Valea Zălanului
+ro;Valea Vînţului;Valea Vânţului
+hu;Nagybaromlak;Valea Viilor
+hu;Kápolnokdomb;Copalnic-Deal
+ro;Valea Tînoasă;Valea Tânoasă
+ro;Valea Sînmartinului;Valea Sânmartinului
+ro;Valea Sîngătinului;Valea Sângătinului
+hu;Mocsolya;Valea Pomilor
+hu;Máriavölgy;Valea Mare
+hu;Érmihályfalva;Valea lui Mihai
+hu;Nagyszebes;Valea Drăganului
+hu;Nagysebes;Valea Drăganului
+ro;Valea Cânepei;Valea Cânepii
+ro;Valea Bîrzavei;Valea Bârzavei
+ro;Valea Bîrnii Vale;Valea Bârnii Vale
+ro;Valea Bîrluţeşti;Valea Bârluţeşti
+hu;Farkasrév;Vadu Izei
+hu;Vadasd;Vădaș
+hu;Csanálos;Urziceni
+bg;Урзичени;Urziceni
+sr;Урзичени;Urziceni
+hu;Uricse;Uricea
+hu;Felvinc;Unirea
+hu;Alsófarkadin;General Berthelot
+hu;Magyarfalu;Arini
+hu;Újtusnád;Tușnadu Nou
+hu;Vöröstorony;Turnu Roşu
+bg;Турну Мъгуреле;Turnu Măgurele
+sr;Турну Магуреле;Turnu Măgurele
+hu;Tordatúr;Tureni
+hu;Tordátfalva;Turdeni
+de;Thorenburg;Turda
+hu;Torda;Turda
+bg;Турда;Turda
+mk;Турда;Turda
+sr;Турда;Turda
+hu;Tölgyes;Tulgheş
+bg;Тулча;Tulcea
+hu;Tulcsa;Tulcea
+pl;Tulcza;Tulcea
+el;Τούλτσεα;Tulcea
+mk;Тулча;Tulcea
+sr;Тулча;Tulcea
+hu;Szentháromság;Troița
+hu;Háromkút;Trei Fântâni
+hu;Terebes;Trebeș
+hu;Tarányos;Tranișu
+hu;Topolya;Topolia
+hu;Maroshéviz;Topliţa
+hu;Újtohán;Tohanu Nou
+ro;Tîrşoreni;Târşoreni
+ro;Tîrnoveni;Târnoveni
+hu;Tornova;Târnova
+ro;Tîrnicioara;Târnicioara
+hu;Dicsőszentmárton;Târnăveni
+ro;Tîrlele;Târlele
+hu;Asszonyvására;Târgușor
+hu;Kékesvásárhely;Târgușor
+ro;Tîrgul Săcuesc;Târgu Secuiesc
+ro;Tîrgu Secuiesc;Târgu Secuiesc
+hu;Kézdivásárhely;Târgu Secuiesc
+bg;Търгу Секуйеск;Târgu Secuiesc
+sr;Таргу Секујеск;Târgu Secuiesc
+hu;Aknavásár;Târgu Ocna
+sr;Таргу Окна;Târgu Ocna
+hu;Nemetvásár;Târgu Neamţ
+de;Neumarkt am Mieresch;Târgu Mureş
+hu;Marosvásárhely;Târgu Mureş
+nl;Tîrgu Mureş;Târgu Mureş
+de;Neumarkt;Târgu Mureş
+hu;Vásárhely;Târgu Mureş
+lb;Nai Muark;Târgu Mureş
+bg;Търгу Муреш;Târgu Mureş
+sr;Таргу Муреш;Târgu Mureş
+bg;Търгу Жиу;Târgu Jiu
+hu;Zsilvásárhely;Târgu Jiu
+el;Τίργκου Ζίου;Târgu Jiu
+sr;Таргу Жију;Târgu Jiu
+bg;Търговище;Târgovişte
+sk;Trhovište;Târgovişte
+sl;Trhovište;Târgovişte
+hu;Tirgovics;Târgovişte
+pl;Targowica;Târgovişte
+sr;Trgovišće;Târgovişte
+bs;Trgovišće;Târgovişte
+ca;Targòvixte;Târgovişte
+hr;Trgovišće;Târgovişte
+bg;Trgovište;Târgovişte
+cs;Trhoviště;Târgovişte
+de;Tergowisch;Târgovişte
+ro;Ţîrdenii Mici;Ţârdenii Mici
+hu;Tompa;Tâmpa
+de;Freidorf;Timişoara
+de;Temeschwar;Timişoara
+de;Josephs-Stadt;Timişoara
+de;Temeschburg;Timişoara
+bg;Тимишоара;Timişoara
+cs;Temešvár;Timişoara
+hr;Temišvar;Timişoara
+hu;Temesvár;Timişoara
+sr;Темишвар;Timişoara
+de;Temeswar;Timişoara
+bg;Timišvár;Timişoara
+de;Temesvar;Timişoara
+hu;Telegd;Tileagd
+hu;Kistikvány;Ticvaniu Mic
+de;Teregowa;Teregova
+hu;Alsótelek;Teliucu Inferior
+hu;Telcs;Telciu
+bg;Текуч;Tecuci
+hu;Tekucs;Tecuci
+sr;Текучи;Tecuci
+hu;Tázló;Tazlău
+hu;Miszmogyorós;Tăuții-Măgherăuș
+ro;Tăuţii Măgheruş;Tăuții-Măgherăuș
+hu;Vartótelek;Tău Bistra
+hu;Tartrang;Tărlungeni
+hu;Tarkő;Tarcău
+hu;Köröstárkány;Tărcaia
+hu;Cerecel;Țărățel
+hu;Paptamási;Tămășeu
+hu;Tamási;Tămășeu
+hu;Tamasesd;Tămășești
+hu;Nagy-Talmács;Tălmaciu
+hu;Nagy-Talmács;Tălmăcel
+hu;Tagadómedgyes;Tăgădău
+hu;Medgyes;Tăgădău
+hu;Gyergyóújfalu;Suseni
+hu;Demeterfalva;Dumitrești
+hu;Felsőszopor;Supuru de Sus
+bg;Сулина;Sulina
+el;Σουλινάς;Sulina
+sr;Сулина;Sulina
+hu;Bégaszederjes;Sudriaș
+hu;Vasasszentgotthárd;Sucutard
+bg;Сучава;Suceava
+pl;Suczawa;Suceava
+hu;Szucsáva;Suceava
+el;Σουτσεάβα;Suceava
+sr;Сучава;Suceava
+hu;Zetevàralja;Sub Cetate
+hu;Szurdok;Strâmtura
+ro;Strîmtura;Strâmtura
+ro;Strîmbulici;Strâmbulici
+ro;Strîmba;Strâmba
+hu;Sztolna;Stolna
+hu;Csóka;Stârcu
+ro;Stîrciu;Stârciu
+hu;Sztancsesd;Stâncești
+hu;Gödemesterháza;Stânceni
+hu;Biharfüred;Stâna de Vale
+hu;Cserefalva;Stejeriș
+hu;Stejvaspatak;Ștei
+hu;Felsőszombatfalvi üdülőtelep;Stațiunea Climaterică Sâmbăta
+hu;Ispánmező;Spermezeu
+hu;Szováta;Sovata
+bg;Совата;Sovata
+sr;Совата;Sovata
+hu;Hidegszamos;Someşu Rece
+pl;Solka;Solca
+hu;Marossolymos;Şoimuş
+de;Scholmosch;Şoimuş
+ro;Smîrdan;Smârdan
+bg;Слатина;Slatina
+el;Σλάτινα;Slatina
+sr;Слатина;Slatina
+hu;Szlanikfürdő;Slănic-Moldova
+ro;Sîrghieşti;Sârghieşti
+ro;Stanişte;Sârghieşti
+bg;Сирет;Siret
+hu;Szeretvásár;Siret
+sr;Сирет;Siret
+ro;Sîrbi;Sârbi
+hu;Sajószentiván;Sântioana
+ro;Sîntimbru-Băi;Sântimbru-Băi
+hu;Szentimre;Sântimbru
+hu;Marosszentimre;Sântimbru
+hu;Csíkszentimre;Sântimbru
+hu;Szentandrás;Sântandrei
+ro;Sântandreiu;Sântandrei
+hu;Füzesszentpéter;Sânpetru Almașului
+hu;Nagyszentmiklós;Sânnicolau Mare
+bg;Сънниколау Маре;Sânnicolau Mare
+sr;Велики Семиклуш;Sânnicolau Mare
+hu;Hegyközszentmiklós;Sânnicolau de Munte
+hu;Aranyosszentmiklós;Sânnicoară
+hu;Szentmihály;Sânmihai de Pădure
+hu;Szépkenyerűszentmárton;Sânmărtin
+hu;Váradszentmárton;Sânmartin
+hu;Szászszentgyörgy;Sângeorzu Nou
+hu;Marosszentgyörgy;Sângeorgiu de Mureş
+hu;Csíkszentdomokos;Sândominic
+hu;Maros Szent Király;Sâncraiu de Mureş
+hu;Kalotaszentkirály;Sâncraiu
+hu;Székelyszentkirály;Sâncrai
+hu;Sepsiszentkirály;Sâncraiu
+hu;Szentkirály;Sâncrai
+hu;Csikszentkiràly;Sâncrăieni
+hu;Szencsed;Sâncel
+hu;Újsinka;Șinca Nouă
+ro;Şincai-Fînaţe;Şincai-Fânaţe
+bg;Синая;Sinaia
+sr;Синаја;Sinaia
+hu;Szilágysomlyó;Şimleu Silvaniei
+hu;Piski;Simeria
+sr;Симерија;Simeria
+hu;Erdőszombattelke;Sâmboieni
+hu;Felsőszombatfalva;Sâmbăta de Sus
+hu;Alsószombatfalva;Sâmbăta de Jos
+hu;Szombatság;Sâmbăta
+hu;Mezőszilvás;Silivașu de Câmpie
+ro;Sighet;Sighetu Marmaţiei
+hu;Máramarossziget;Sighetu Marmaţiei
+hu;Sajószentandrás;Șieu-Sfântu
+hu;Siklód;Șiclod
+hu;Síkaszó;Sicasău
+hu;Szék;Sic
+de;Hermannstadt;Sibiu
+de;Härmeschtat;Sibiu
+bg;Сибиу;Sibiu
+hu;Nagyszeben;Sibiu
+pl;Sybin;Sibiu
+hu;Szeben;Sibiu
+el;Σιμπίου;Sibiu
+sr;Сибињ;Sibiu
+lb;Hermestatt;Sibiu
+hu;Ósebeshely;Sibișel
+hu;Szibiel;Sibiel
+hu;Sepsiszentgyörgy;Sfântu Gheorghe
+hu;Szedinkatanya;Sădinca
+hu;Oltfelsősebes;Sebeșu de Sus
+de;Mühlbach;Sebeş
+hu;Kőrizstető;Scrind-Frăsinet
+sr;Скорничешт;Scorniceşti
+ro;Scînteia;Scânteia
+hu;Tordaszentlászló;Săvădisla
+hu;Göröcsfalva;Gârciu
+hu;Szatmár;Satu Mare
+hu;Szatmár-Németi;Satu Mare
+bg;Сату Маре;Satu Mare
+hu;Szatmárnémeti;Satu Mare
+fi;Satu-Mare;Satu Mare
+de;Szathmar;Satu Mare
+de;Sathmar;Satu Mare
+sr;Сату Маре;Satu Mare
+el;Σάτου Μάρε;Satu Mare
+hu;Máréfalva;Satu Mare
+hu;Ófalu;Sat Bătrân
+hu;Újbártfalva;Satu Barbă
+hu;Szatmárzsadány;Sătmărel
+sr;Сатмарел;Sătmărel
+hu;Szászkézd;Saschiz
+de;Keisd;Saschiz
+hu;Szászsáros;Șaroș pe Târnave
+hu;Sarmisegethuza;Sarmizegetusa
+hu;Szaramás;Sărămaș
+hu;Seregélyes;Sărădiș
+hu;Újradna;Șanț
+hu;Szind;Sănduleşti
+hu;Nagyszalonta;Salonta
+bg;Салонта;Salonta
+sr;Салонта;Salonta
+de;Großsalontha;Salonta
+hu;Felsőszelistye;Săliştea de Sus
+hu;Alsócsóra;Săliștea
+hu;Szelistye;Sălişte
+hu;Alsószolcsva;Sălciua de Jos
+hu;Cód;Sadu
+hu;Újszagyva;Sadova Nouă
+hu;Székelyhíd;Săcueni
+hu;Törökszákos;Sacoşu Turcesc
+hu;Négyfalu;Săcele
+sr;Сечеле;Săcele
+hu;Szacsal;Săcel
+hu;Érszakácsi;Săcăşeni
+hu;Szakálháza;Săcălaz
+hu;Rózsapatak;Rușor
+hu;Oroszfalva;Rușeni
+hu;Kőhalom;Rupea
+hu;Rozália;Rozavlea
+hu;Verespatak;Roșia Montană
+mk;Рошја Монтана;Roșia Montană
+ro;Comuna Roșia Montană;Roșia Montană
+hu;Felsőróna;Rona de Sus
+hu;Alsóróna;Rona de Jos
+ro;Romîneştii Noi;Româneştii Noi
+hu;Szatmárgörbed;Românești
+hu;Szalmapatak;Românești
+hu;Kalibák;Romanești
+hu;Rumunyest;Românești
+sr;Роман;Roman
+hu;Románvásár;Roman
+bg;Роман;Roman
+el;Ρόμαν;Roman
+hu;Rakottyás;Răchitiș
+hu;Rádos;Roadeș
+de;Radenthal;Roadeș
+de;Radeln;Roadeș
+hu;Riuszád;Râu Sadului
+de;Rosenau;Râşnov
+bg;Ръшнов;Râşnov
+hu;Barcarozsnyó;Râşnov
+hu;Roska;Râșca
+ro;Rîpăneşti;Râpăneşti
+ro;Rîpa Cărămizi;Râpa Cărămizii
+ro;Râpa Cărămizi;Râpa Cărămizii
+bg;Ръмнику Вълча;Râmnicu Vâlcea
+el;Ρίμνικου Βίλτσεα;Râmnicu Vâlcea
+sr;Рамнику Валча;Râmnicu Vâlcea
+bg;Ръмнику Сърат;Râmnicu Sărat
+sr;Рамнику Сарат;Râmnicu Sărat
+pl;Rymnik;Râmnicu Sărat
+fr;Rimnik;Râmnicu Sărat
+ro;Rîmna;Râmna
+hu;Torockó;Rimetea
+hu;Rigmány;Rigmani
+hu;Resicabánya;Reşiţa
+de;Reschitz;Reşiţa
+hu;Gyökeres;Remeți pe Someș
+hu;Gyükeres;Remeți pe Someș
+hu;Jádremete;Remeţi
+hu;Régen;Reghin
+hu;Szászrégen;Reghin
+de;Sächsisch-Regen;Reghin
+sr;Регин;Reghin
+bg;Регин;Reghin
+hu;Rovás;Răvășel
+de;Rosch;Răvășel
+lb;Ruesch;Răvășel
+de;Rovasch;Răvășel
+de;Rowas;Răvășel
+de;Rawasd;Răvășel
+lb;Rueš;Răvășel
+lb;Rosch;Răvășel
+hu;Resinár;Răşinari
+hu;Válaszút;Răscruci
+hu;Tompaháza;Rădeşti
+de;Radautz;Rădăuți
+hu;Radóc;Rădăuți
+bg;Ръдъуц;Rădăuți
+el;Ρανταούτσι;Rădăuți
+sr;Радауци;Rădăuți
+pl;Radowce;Rădăuți
+hu;Ráksahegy;Racșa-Vii
+hu;Rakovica;Racoviţa
+de;Rakowitza;Racoviţa
+hu;Felsőrákos;Racoșul de Sus
+hu;Rácsila;Gârlenii de Sus
+ro;Bobul;Bobu
+hu;Borgóprund;Prundu Bârgăului
+de;Burgau;Prundu Bârgăului
+de;Borgo-Prund;Prundu Bârgăului
+de;Groß-Borgo;Prundu Bârgăului
+hu;Priszlop;Liviu Rebreanu
+hu;Prázsmár;Prejmer
+sr;Предеал;Predeal
+hu;Parajd;Praid
+hu;Paszmos;Posmuș
+hu;Kökényesd;Porumbești
+hu;Nagy Galambfalva;Porumbenii Mari
+ro;Ponoarele;Călugări
+hu;Bagolyfalu;Hurez
+hu;Szèkelylengyelfalva;Polonița
+hu;Posorta;Pojorta
+ro;Pojorâta;Pojorta
+hu;Sajómező;Poienile Izei
+hu;Küküllőmező;Poiana Târnavei
+hu;Szentjózsef;Poiana Ilvei
+hu;Bükkhavaspataka;Poiana Fagului
+ro;Poiana Cîrnului;Poiana Cârnului
+hu;Nyírmező;Poiana Aiudului
+hu;Kissebes;Poieni
+hu;Bucsum-Pojén;Poieni
+hu;Pojénytanya;Poieni
+hu;Palackos;Ploscoș
+hu;Ploszkos;Ploscoș
+bg;Плоещ;Ploieşti
+pl;Ploeszti;Ploieşti
+sr;Плојешт;Ploieşti
+bg;Питещ;Piteşti
+sr;Питешт;Piteşti
+pl;Piteszt;Piteşti
+cs;Pitešť;Piteşti
+sk;Pitešť;Piteşti
+ro;Pîrvuleşti;Pârvuleşti
+ro;Pîrlita;Pârlita
+ro;Pîrîu Tepeşani;Pârâu Tepeşani
+ro;Pîrîu Negrii;Pârâu Negrei
+ro;Pîrîu Floarei;Pârâu Floarei
+ro;Pîrîu Dobreni;Pârâu Dobreni
+ro;Pîrîu Caprei;Pârâu Caprei
+ro;Pîrîu Borviz;Pârâu Borviz
+ro;Pîrîu Bicaz;Pârâu Bicaz
+ro;Pîglişa;Pâglişa
+en;Schela Pietrosani;Pietroşani
+hu;Vasaskőfalva;Pietroasa
+hu;Poklos;Pâclișa
+pt;Piatra-Neamt;Piatra Neamţ
+hu;Báránykő;Piatra Fântânele
+ro;Piatra Cîrnului;Piatra Cârnului
+hu;Alsópián;Pianu de Jos
+hu;Petrozsény;Petroşani
+hu;Maroskövesd;Pietriș
+hu;Nagypetri;Petrindu
+hu;Magyarpeterd;Petreştii de Jos
+sr;Периправа;Periprava
+hu;Szilágyperecsen;Pericei
+hu;Csíkpálfalva;Păuleni-Ciuc
+hu;Petercse;Pătârș
+ro;Părîu Iovului;Părâu Iovului
+hu;Pelbárthida;Parhida
+hu;Mezőbodon;Papiu Ilarian
+hu;Papolc;Păpăuți
+hu;Pánkszelistye;Panc-Săliște
+hu;Szebenjuharos;Păltiniș
+sr;Палтиниш;Păltiniș
+bg;Отопени;Otopeni
+sr;Отопени;Otopeni
+hu;Fugyivásárhely;Oșorhei
+bg;Оршова;Orşova
+sr;Оршава;Orşova
+hu;Oravicabánya;Oraviţa
+hu;Avasújváros;Oraşu Nou
+hu;Alsóvárosvíz;Orăştioara de Jos
+bg;Орадя;Oradea
+hu;Nagyvárad;Oradea
+de;Großwardein;Oradea
+sr;Варадин;Oradea
+el;Οράντεα;Oradea
+es;Gran Varadino;Oradea
+sr;Велики Варадин;Oradea
+hu;Marosugra;Ogra
+hu;Székelyudvarhely;Odorheiu Secuiesc
+bg;Одорхею Секуйеск;Odorheiu Secuiesc
+sr;Одорхеју Секујеск;Odorheiu Secuiesc
+hu;Nagyoklos;Ocolișu Mare
+hu;Aknasugatag;Ocna Şugatag
+hu;Vízakna;Ocna Sibiului
+hu;Marosújvár;Ocna Mureş
+hu;Alsósófalva;Ocna de Jos
+hu;Obersia;Obârșa
+hu;Óborsa;Obârșia
+ro;Obîrşia;Obârşia
+hu;Alsóváradja;Oarda
+hu;Apanagyfalu;Nuşeni
+hu;Oláhújfalu;Nou Român
+hu;Szászújfalu;Nou
+hu;Nyüved;Niuved
+hu;Szásznyíres;Nireș
+hu;Nyíres;Nireș
+hu;Csikszentmiklós;Nicolești
+ro;NălaţVad Haţeg;Nălațvad
+hu;Nagylak;Nădlac
+hu;Ajnád;Nădejdea
+hu;Kisbányahavas;Muntele Băișorii
+hu;Bögöz;Mugeni
+hu;Temesmóra;Moraviţa
+de;Morawitz;Moraviţa
+pl;Mołdawica Ruska;Moldoviţa
+de;Russ Moldawitza;Moldoviţa
+hu;Várfalva;Moldoveneşti
+de;Alt-Moldova;Moldova Veche
+bg;Молдова Веке;Moldova Veche
+hu;Ómoldova;Moldova Veche
+sr;Стара Молдава;Moldova Veche
+cs;Nová Moldava;Moldova Nouă
+hu;Újmoldova;Moldova Nouă
+sr;Нова Молдава;Moldova Nouă
+hu;Mojszin;Moisei
+hu;Majszin;Moisei
+hu;Moiseu;Moisei
+sr;Мојнешт;Moineşti
+hu;Alsómoécs;Moeciu de Jos
+hu;Sepsibesenyő;Pădureni
+hu;Maksa;Moacşa
+sr;Мизил;Mizil
+ro;Mîrşa;Mârşa
+hu;Nagynyíres;Mireşu Mare
+hu;Nagy-Nyíres;Mireşu Mare
+hu;Harasztos;Călăraşi
+ro;Mînăşturu Romînesc;Mânăşturu Românesc
+ro;Mînăstirea Bujorăni;Mânăstirea Bujorăni
+ro;Mânăstire;Mănăstirea
+ro;Mîliciu;Mâliciu
+hu;Alsószentmihályfalva;Mihai Viteazu
+hu;Szentmihály;Mihai Viteazu
+ro;Mihai Viteazul;Mihai Viteazu
+cs;Miercurea Ciuc;Miercurea-Ciuc
+hu;Csíkszereda;Miercurea-Ciuc
+ro;Miercurea Ciuc;Miercurea-Ciuc
+es;Miercurea Ciuc;Miercurea-Ciuc
+hu;Miklósvár;Micloșoara
+hu;Kaszoly;Micești
+hu;Mikanesd;Micăneşti
+ro;Meenii;Meieni
+ro;Meeni;Meieni
+hu;Meggyesforduló;Medieș-Râturi
+de;Mediasch;Mediaş
+hu;Medgyes;Mediaş
+hu;Aranyosmeggyes;Mediaş
+bg;Меджидия;Medgidia
+sr;Меџидија;Medgidia
+hu;Érmindszent;Ady Endre
+hu;Pusztaszentmárton;Mărtinești
+hu;Margitta;Marghita
+sr;Маргита;Marghita
+hu;Bélnagymaros;Mărăuș
+hu;Marosesd;Mărășești
+sr;Марашешт;Mărășești
+bg;Мангалия;Mangalia
+sr;Мангалија;Mangalia
+sl;Mangalija;Mangalia
+hu;Andrásfalva;Măneuţi
+de;Andrasfalva;Măneuţi
+ro;Andrașfalva;Măneuţi
+hu;Farkaslaka;Lupeni
+hu;Viságmező;Lunca Vișagului
+hu;Székelykocsárd;Lunca Mureşului
+hu;Gyimesfelsőlok;Lunca de Sus
+hu;Gyimesközéplok;Lunca de Jos
+hu;Boncnyíresilonka;Lunca Bonțului
+ro;Lunca;Lunca Vesești
+hu;Magyarlóna;Luna de Sus
+hu;Lujzakalagor;Luizi-Călugăra
+hu;Lugos;Lugoj
+bg;Лугож;Lugoj
+sr;Лугош;Lugoj
+hu;Lövéte;Lueta
+hu;Lövér;Luieriu
+hu;Gósd;Păulian
+hu;Magyarléta;Liteni
+bg;Липова;Lipova
+sr;Липова;Lipova
+hu;Gyergyólibántelep;Liban
+ro;Comuna Lenauheim;Lenauheim
+sr;Ленаухејм;Lenauheim
+hu;Làzàrfalva;Lăzărești
+hu;Gyergyószárhegy;Lăzarea
+hu;Mezőőr;Iuriu de Câmpie
+sr;Жупитер;Jupiter
+hu;Zsupánfalva;Jupânești
+ro;Jimbor Fînaţe;Jimbor Fânaţe
+hu;Székelyzsombor;Jimbor
+hu;Székely-Sombor;Jimbor
+de;Hatzfeld;Jimbolia
+sr;Жомбољ;Jimbolia
+sr;Жибоу;Jibou
+hu;Zsibó;Jibou
+bg;Жибоу;Jibou
+hu;Marosfő;Izvoru Mureșului
+hu;Körösfő;Izvoru Crişului
+hu;Őszény;Izvin
+hu;Kolozsnagyida;Viile Tecii
+bg;Исакча;Isaccea
+hu;Jódtelep;Iod
+hu;Láposköz;Întrerâuri
+hu;Énlaka;Inlăceni
+hu;Borosjenő;Ineu
+sr;Janopol;Ineu
+sr;Јенопоље;Ineu
+hu;Kisigrice;Igriția
+hu;Magyarigen;Ighiu
+hu;Igen;Ighiu
+hu;Jód;Ieud
+hu;Iktár-Budinc;Ictar-Budinț
+de;Jassy;Iaşi
+bg;Яш;Iaşi
+cs;Jasy;Iaşi
+hu;Jászvásár;Iaşi
+pl;Jassy;Iaşi
+el;Ιάσιο;Iaşi
+sr;Јаш;Iaşi
+sk;Jasy;Iaşi
+de;Jakobeny;Iacobeni
+hu;Köröskisújfalu;Husasău de Criș
+hu;Vajdahunyad;Hunedoara
+hu;Bánffyhunyad;Huedin
+sr;Хуедин;Huedin
+hu;Érhatvan,Ér-hatvan,Hatvan;Hotoan
+bg;Хърсово;Hârşova
+hu;Hátszeg;Haţeg
+hu;Bélhagymás;Hășmaș
+hu;Szászhermány;Hărman
+hu;Hargitafürdő;Harghita-Băi
+hu;Görgényszentimre;Gurghiu
+hu;Guraró;Gura Râului
+sr;Гура Хуморулуји;Gura Humorului
+hu;Gerőc;Greoni
+hu;Ottlaka;Grăniceri
+de;Lichtenwald;Grăniceri
+hu;Csávos;Grăniceri
+de;Tschawosch;Grăniceri
+ro;Ciavoș;Grăniceri
+hu;Glimboka;Glâmboaca
+hu;Görgényüvegcsűr;Glăjărie
+bg;Гюргево;Giurgiu
+hu;Gyurgyevó;Giurgiu
+sr;Ђурђу;Giurgiu
+ro;Gîtu Pleştii;Gâtu Pleştii
+hu;Gyüreg;Giroc
+hu;Körösgyéres;Girișu de Criș
+hu;Felsőgirda;Gârda de Sus
+ro;Gîrda-Bărbuleşti;Gârda-Bărbuleşti
+ro;Gîrciniţa;Gârciniţa
+ro;Gîrcina de Sus;Gârcina de Sus
+ro;Gîngiova Nouă;Gângiova Nouă
+hu;Gyalu;Gilău
+hu;Győröd;Ghiroda
+hu;Mezőgyéres;Ghirișu Român
+hu;Makkafalva;Ghindari
+hu;Makfalva;Ghindari
+hu;Gyimesbükk;Ghimeş-Făget
+hu;Vidombák;Ghimbav
+hu;Güdüc;Ghiduț
+hu;Szamosújvár;Gherla
+sr;Герла;Gherla
+de;Neuschloss;Gherla
+hu;Gyergyószentmiklós;Gheorgheni
+sr;Георгени;Gheorgheni
+hu;Györgyfalva;Gheorghieni
+hu;Onyest;Onesti
+sr;Онешт;Onesti
+hu;Lukafalva;Gheorghe Doja
+hu;Gencs;Ghenci
+hu;Gelence;Ghelinţa
+hu;Gelencze;Ghelinţa
+hu;Gyalár;Ghelari
+hu;Gertia;Gersa II
+hu;Algyógy;Geoagiu
+hu;Gémestanya;Ghemeș
+bg;Гатая;Gătaia
+sr;Гатаја;Gătaia
+hu;Gánáspuszta;Ganaș
+hu;Alsógáld;Galda de Jos
+de;Galatz;Galaţi
+bg;Галац;Galaţi
+pl;Gałacz;Galaţi
+hu;Galac;Galaţi
+el;Γκαλάτσι;Galaţi
+sr;Галац;Galaţi
+hu;Galonya;Gălăoaia
+hu;Göcs;Găiești
+de;Deutsch Alftratautz;Frătăuţii Vechi
+ro;Frătăuții Vechi Germân;Frătăuţii Vechi
+de;Alftratautz;Frătăuţii Vechi
+de;Rumänisch Altfratautz;Frătăuţii Vechi
+ro;Frătăuții Vechi Român;Frătăuţii Vechi
+de;Neufratautz;Frătăuţii Noi
+hu;Farcád;Forțeni
+hu;Mezőfény;Foieni
+de;Fienen;Foieni
+ro;Foeni;Foieni
+bg;Фокшани;Focșani
+hu;Foksány;Focșani
+de;Fokschan;Focșani
+sr;Фокшани;Focșani
+hu;Szászfenes;Floreşti
+hu;Ördöngösfüzes;Fizeşu Gherlii
+ro;Fîscăraiu;Fâscăraiu
+hu;Várfancsika;Fâșca
+hu;Felsőfernezely;Firiza
+hu;Mezőköbölkút;Fântânița
+ro;Fîntînele;Fântânele-Rus
+hu;Lápospataka;Fântânele
+ro;Fântânelele;Fântânele
+hu;Fenyőkút;Fântâna Brazilor
+hu;Vádtelep;Fântâna
+hu;Várasfenes;Finiş
+hu;Bircágtanya;Fânațele Silivașului
+ro;Fînaţele Manicului;Fânaţele Manicului
+hu;Szénáságy;Fânațele Mădărașului
+ro;Fînaţele Căpuşului;Fânaţele Căpuşului
+hu;Kővárfonác;Fânațe
+ro;Fönàcè;Fânaţe
+ro;Fînaţe;Fânaţe
+hu;Szarvadi szénafűdűlő;Fânațe
+hu;Fönácé;Fânațe
+hu;Csániszénafű;Fânațe
+hu;Funaciledűlő;Fânațe
+hu;Fekete;Fânațe
+hu;Kincstáribirtok;Fânațe
+hu;Szénafű;Fânațe
+hu;Alsófüld;Fildu de Jos
+hu;Bánffytelep;Fiad
+sr;Фетешт;Feteşti
+hu;Felsoboldogfalva;Feliceni
+hu;Erdöfelek;Feleacu
+de;Marienburg;Feldioara
+hu;Földvár;Feldioara
+hu;Falka;Falca
+bg;Фълтичени;Fălticeni
+hu;Falticsén;Fălticeni
+sr;Фалтичени;Fălticeni
+bg;Фъджет;Făget
+sr;Фагет;Făget
+de;Fogarasch;Făgăraș
+hu;Fogaras;Făgăraș
+bg;Фъгъраш;Făgăraș
+sr;Фагараш;Făgăraș
+pl;Fogarasz;Făgăraș
+hu;Jeselnica;Eşelniţa
+hu;Érszentkirály;Eriu-Sâncrai
+en;Boascic;Dunărea
+hu;Szentdemeter;Dumitreni
+de;Mettersdorf;Dumitreni
+hu;Újszentes;Dumbrăviţa
+de;Neussentesch;Dumbrăviţa
+de;Elisabethstadt;Dumbrăveni
+hu;Erzsébetváros;Dumbrăveni
+hu;Ebesfalva;Dumbrăveni
+hu;Erdődubiste;Dubiștea de Pădure
+de;Drobeta Turnu Severin;Drobeta-Turnu Severin
+sr;Дробета-Турну Северин;Drobeta-Turnu Severin
+fr;Drobeta Turnu-Severin;Drobeta-Turnu Severin
+hu;Szörényvár;Drobeta-Turnu Severin
+bg;Дробета - Турну Северин;Drobeta-Turnu Severin
+el;Ντρομπέτα-Τούρνου Σεβερίν;Drobeta-Turnu Severin
+no;Drobeta Turnu Severin;Drobeta-Turnu Severin
+hu;Temesfalva;Dragșina
+de;Dragschina;Dragșina
+hu;Dragomerfalva;Dragomireşti
+hu;Dragomerfalu;Dragomireşti
+hu;Bricshát;Dosu Bricii
+hu;Dorohoj;Dorohoi
+sr;Дорохој;Dorohoi
+hu;Hadikfalva;Dorneşti
+hu;Doftána;Dofteana
+hu;Vaskohsziklás;Ștei
+bg;Щей;Ștei
+hu;Doboka;Dăbâca
+hu;Gyergyóditró;Ditrău
+hu;Ditró;Ditrău
+ro;Dîrleşti;Dârleşti
+hu;Székelyders;Dârjiu
+hu;Lyauc;Leauț
+hu;Bihardiószeg;Diosig
+hu;Diószeg;Diosig
+ro;Dîmbău Mic;Dâmbău Mic
+hu;Dezmér;Dezmir
+bg;Дева;Deva
+el;Ντέβα;Deva
+sr;Дева;Deva
+hu;Magyarsáros;Deleni
+hu;Deleni-patak;Deleni
+de;Kleinfarken;Deleni
+hu;Dés;Dej
+bg;Деж;Dej
+sr;Деж;Dej
+de;Dade;Deda
+hu;Désfalva;Deaj
+hu;Kozárvár;Cuzdrioara
+hu;Kürtös;Curtici
+sr;Куртичи;Curtici
+hu;Argyasudvarhely;Curtea de Argeş
+hu;Kudzsir;Cugir
+sr;Кугир;Cugir
+de;Warmwasser;Cuciulata
+hu;Hévíz;Cuciulata
+de;Olthévíz;Cuciulata
+hu;Székelykeresztúr;Cristuru Secuiesc
+sr;Кристуру Секујеск;Cristuru Secuiesc
+hu;Csernakeresztúr;Cristur
+hu;Királyrét;Crairât
+bg;Крайова;Craiova
+pl;Krajowa;Craiova
+sr;Крајова;Craiova
+el;Κραϊόβα;Craiova
+mk;Крајова;Craiova
+hu;Királynémeti;Crainimăt
+hu;Homoródkarácsonyfalva;Crăciunel
+hu;Csíkkozmás;Cozmeni
+hu;Kovászna;Covasna
+de;Kostischa;Costişa
+sr;Костинешт;Costineşti
+hu;Korond;Corund
+hu;Koronka;Corunca
+hu;Karulyfalva;Coroieni
+hu;Somosd;Cornești
+hu;Korojesd;Coroiești
+hu;Kardó;Cordău
+bg;Корабия;Corabia
+sr;Корабија;Corabia
+pl;Konstanca;Constanţa
+es;Constanza;Constanţa
+bg;Кюстенджа;Constanţa
+hu;Konstanca;Constanţa
+it;Costanza;Constanţa
+pt;Constança;Constanţa
+de;Konstanza;Constanţa
+el;Κωνστάντζα;Constanţa
+eu;Konstantza;Constanţa
+sr;Констанца;Constanţa
+sk;Konstanca;Constanţa
+hu;Komolló;Comolău
+hu;Ugocsakomlós;Comlăușa
+de;Komanesti;Comăneşti
+sr;Команешт;Comăneşti
+hu;Kommandó;Comandău
+hu;Koltó;Coltău
+hu;Nagyekemezőtelep;Colonia Târnava
+hu;Konkordia bányatelep;Colonia 1 Mai
+hu;Feketehalom;Codlea
+ro;Кодля;Codlea
+sr;Кодља;Codlea
+ro;Coada Stîncei;Coada Stâncii
+ro;Coada Stancei;Coada Stâncii
+de;Klausenburg;Cluj-Napoca
+bg;Клуж-Напока;Cluj-Napoca
+cs;Kluž;Cluj-Napoca
+hu;Kolozsvár;Cluj-Napoca
+pl;Kluż-Napoka;Cluj-Napoca
+sr;Kluž-Napoka;Cluj-Napoca
+de;Clausenburg;Cluj-Napoca
+el;Κλουζ-Ναπόκα;Cluj-Napoca
+sk;Kluž;Cluj-Napoca
+sr;Клуж-Напока;Cluj-Napoca
+ro;Cluj;Cluj-Napoca
+sq;Kluzh-Napoka;Cluj-Napoca
+hu;Klopotiva;Clopotiva
+de;Klimoutz;Climăuţi
+hu;Csürülye;Ciurila
+hu;Csorgó;Ciurgău
+hu;Gyergyócsomafalva;Ciumani
+hu;Berettyócsohaj;Ciuhoi
+ro;Cîrţuleşti;Cârţuleşti
+hu;Kercisóra;Cârţişoara
+hu;Bábod;Ciretea
+hu;Kerc;Cârţa
+ro;Cîrjoaia;Cârjoaia
+hu;Csopea;Ciopeia
+hu;Csömörlő;Ciumărna
+hu;Csík;Ciucani
+ro;Cîndeştii de Jos;Cândeştii de Jos
+ro;Cîndeşti;Cândeşti
+de;Großschenk;Cincu
+hu;Kissink;Cincșor
+hu;Moldvahosszúmező;Câmpulung Moldovenesc
+bg;Къмпулунг Молдовенеск;Câmpulung Moldovenesc
+sr;Кимпулунг Молдованеск;Câmpulung Moldovenesc
+pl;Kimpulung Mołdawski;Câmpulung Moldovenesc
+en;Campulung Muscel;Câmpulung
+bg;Къмпулунг;Câmpulung
+sr;Кампулунг;Câmpulung
+hu;Vármező;Câmpu Cetăţii
+bg;Къмпина;Câmpina
+sr;Кимпина;Câmpina
+hu;Aranyosgyéres;Câmpia Turzii
+sr;Кампија Турзији;Câmpia Turzii
+hu;Telekfarka;Câmpenești
+ro;Cîmpeneşti;Câmpeneşti
+hu;Vaskohmező;Câmp
+hu;Kálnok;Calnic
+hu;Csedreg;Cidreag
+hu;Kügypuszta;Satu Nou
+hu;Kügyipuszta;Satu Nou
+hu;Kiskoh;Chişcău
+hu;Bélditanya;Chiriș
+hu;Sepsikilyén;Chilieni
+hu;Körösszeg;Cheresig
+de;Kokelburg;Cetatea de Baltă
+hu;Küküllővár;Cetatea de Baltă
+en;Chatal De Saint George;Cetalu Sfântu Gheorghe
+hu;Felsőcsertés;Certeju de Sus
+hu;Csernisorafloresza;Cernișoara Florese
+bg;Черна вода;Cernavodă
+sr;Чернавода;Cernavodă
+hu;Csernáton;Cernat
+cs;Čanád;Cenad
+ro;Comuna Cenad;Cenad
+sr;Чанад;Cenad
+hu;Szilágycseh;Cehu Silvaniei
+hu;Mezőcsávás;Ceuașu de Câmpie
+hu;Csalhó;Ceahlău
+hu;Kapnikbánya;Cavnic
+hu;Érkávás;Căuaş
+hu;Kaszoly;Casele Micești
+hu;Nagykároly;Carei
+de;Groß-Karol;Carei
+de;Großkarol;Carei
+sr;Кареј;Carei
+hu;Karánsebes;Caransebeş
+de;Karansebesch;Caransebeş
+bg;Каракал;Caracal
+sr;Каракал;Caracal
+ro;Căpîlniţa;Căpâlniţa
+hu;Kápolnásfalú;Căpâlniţa
+hu;Kamenavölgy;Camena
+hu;Kál;Călușeri
+hu;Zöldlonka;Călcâi
+hu;Kiskalota;Călăţele
+bg;Калафат;Calafat
+sr;Калафат;Calafat
+hu;Felsőkajanel;Căinelu de Sus
+pl;Kaczyka;Cacica
+hu;Kisbodza;Buzăiel
+de;Busiasch;Buziaş
+hu;Buziásfürdő;Buziaş
+hu;Szászbuzd;Buzd
+de;Bußd;Buzd
+de;Bußd bei Mediasch;Buzd
+lb;Buss;Buzd
+bg;Бузъу;Buzău
+sr;Бузау;Buzău
+hu;Bodzavásár;Buzău
+el;Μπουζάου;Buzău
+hu;Felsőbulzesd;Bulzeștii de Sus
+bg;Буфтя;Buftea
+el;Μπούφτεα;Buftea
+sr;Буфтеа;Buftea
+ro;Budeşti-Fînaţe;Budeşti-Fânaţe
+hu;Budfalva;Budeşti
+es;Bucarest;Bucureşti
+de;Bukarest;Bucureşti
+en;Bucharest;Bucureşti
+bg;Букурещ;Bucureşti
+ca;Bucarest;Bucureşti
+cs;Bukurešť;Bucureşti
+da;Bukarest;Bucureşti
+fi;Bukarest;Bucureşti
+fr;Bucarest;Bucureşti
+hr;Bukurešt;Bucureşti
+hu;Bukarest;Bucureşti
+it;Bucarest;Bucureşti
+nl;Boekarest;Bucureşti
+pl;Bukareszt;Bucureşti
+pt;Bucareste;Bucureşti
+sk;Bukurešť;Bucureşti
+sr;Букурешт;Bucureşti
+sv;Bukarest;Bucureşti
+rm;Bucaresta;Bucureşti
+el;Βουκουρέστι;Bucureşti
+bs;Bukurešt;Bucureşti
+eu;Bukarest;Bucureşti
+gl;Bucarest;Bucureşti
+mk;Букурешт;Bucureşti
+oc;Bucarèst;Bucureşti
+sq;Bukureshti;Bucureşti
+sl;Bukarešta;Bucureşti
+hu;Bucsum;Bucium
+hu;Királyhágó;Bucea
+hu;Marosvécs;Brâncoveneşti
+hu;Tótszállás;Brâglez
+hu;Bereczk;Breţcu
+hu;Berzesd;Brăzești
+de;Kronstadt;Braşov
+bg;Брашов;Braşov
+hu;Brassó;Braşov
+pl;Braszów;Braşov
+sr;Брашов;Braşov
+lb;Kruhnen;Braşov
+hu;Törcsvár;Bran
+sv;Slottet Bran;Bran
+sr;Браила;Brăila
+bg;Браила;Brăila
+hu;Brajla;Brăila
+pl;Braiła;Brăila
+bg;Брад;Brad
+sr;Брад;Brad
+pl;Botoszany;Botoşani
+bg;Ботошани;Botoşani
+hu;Botosán;Botoşani
+sr;Ботошани;Botoşani
+hu;Borzont;Borzond
+hu;Borszék;Borsec
+sr;Борсек;Borsec
+hu;Boncnyíres;Bonț
+hu;Bálványospataka;Bolovăniș
+hu;Bojabirz;Boia Bârzii
+hu;Bogoltény;Bogâltin
+hu;Izakonyha;Bogdan Vodă
+hu;Boérfalva;Boiereni
+hu;Sepsibodok;Bodoc
+hu;Kisbocskó;Bocicoel
+bg;Zheligrad;Blândiana
+de;Stumpach;Blândiana
+hu;Maroskarna;Blândiana
+sr;Блаж;Blaj
+de;Bistritz;Bistriţa
+bg;Бистрица;Bistriţa
+hu;Beszterce;Bistriţa
+sl;Bistrica;Bistriţa
+hu;Petrovabisztra;Bistra
+rue;Bystryi;Bistra
+hu;Székelyszentlélek;Bisericani
+ro;Bîrzuica;Bârzuica
+hu;Barzafalva;Bârzești
+ro;Bîrza;Bârza
+hu;Barcánfalva;Bârsana
+ro;Bîrneşti;Bârneşti
+ro;Bîrnădel;Bârnădel
+ro;Bîrleşti;Bârleşti
+bg;Бърлад;Bârlad
+sr;Барлад;Bârlad
+ro;Comuna Biled;Biled
+sr;Билед;Biled
+hu;Bihar;Biharia
+hu;Berethalom;Biertan
+ro;Comuna Biertan;Biertan
+bg;Биертан;Biertan
+hu;Sepsibükszád;Bixad
+hu;Bükkös;Bichigiu
+hu;Bikfalva;Bicfalău
+hu;Almásmező;Bicaz-Chei
+hu;Bikás;Bicașu
+hu;Magyarbikal;Bicălatu
+hu;Berszászkó;Berzasca
+hu;Berivoj;Berivoi
+hu;Alsóbarakony;Berechiu
+hu;Berkány;Bercu
+hu;Jósikafalva;Beliş
+ro;Belciug-Rîmnic;Belciug-Râmnic
+sr;Бејуш;Beiuş
+bg;Беюш;Beiuş
+hu;Belényes;Beiuş
+hu;Recsa;Recea
+hu;Békástelep;Becaș
+de;Bazosch;Bazoș
+de;Basosch;Bazoș
+hu;Baca;Bața
+hu;Bargován;Bârgăuani
+hu;Barót;Baraolt
+de;Balkoutz;Bălcăuţi
+hu;Körösbánlakai erdő;Bălnaca-Groși
+hu;Erzsébetbánya;Băiuţ
+hu;Tusnádfürdő;Băile Tuşnad
+hu;Cserépfürdő;Băile Olăneşti
+hu;Homoródfürdő;Băile Homorod
+hu;Herkulesfürdő;Băile Herculane
+sr;Баиле Херкулане;Băile Herculane
+hu;Félixfürdő;Băile Felix
+hu;Felsőbánya;Baia Sprie
+de;Mittelstadt;Baia Sprie
+hu;Nagybánya;Baia Mare
+de;Frauenbach;Baia Mare
+de;Neustadt;Baia Mare
+hu;Bajesd;Băiești
+bg;Бакъу;Bacău
+hu;Bákó;Bacău
+hu;Asszonyfalva;Axente Sever
+de;Fryk;Avrig
+hu;Felek;Avrig
+hu;Felsővidra;Avram Iancu
+ro;Atîrnaţi;Atârnaţi
+hu;Atya;Atea
+hu;Ársica;Arșița
+hu;Mezőaranyos;Arieșu de Câmp
+de;Erdeed;Ardud-Vii
+ro;Ardud;Ardud-Vii
+hu;Erdőd;Ardud-Vii
+de;Erdeed;Ardud
+hu;Erdőd;Ardud
+hu;Árkos;Arcuș
+bg;Арад;Arad
+sr;Арад;Arad
+hu;Szászapátfalva;Apoș
+de;Steierdorf;Anina
+hu;Stájerlakanina;Anina
+sr;Анина;Anina
+de;Alzen;Alțâna
+hu;Alcina;Alțâna
+bg;Александрия;Alexandria
+sr;Александрија;Alexandria
+bg;Vojvodov Bjalgrad;Alba Iulia
+es;Ciudadela Blanca;Alba Iulia
+bg;Алба Юлия;Alba Iulia
+nds;Weyssenburg;Alba Iulia
+hu;Gyulafehérvár;Alba Iulia
+fr;Alba-Julia;Alba Iulia
+sr;Алба Јулија;Alba Iulia
+el;Άλμπα Ιούλια;Alba Iulia
+pt;Alba Júlia;Alba Iulia
+mk;Алба Јулија;Alba Iulia
+sr;Alba Julija;Alba Iulia
+hu;Fehérvölgy;Albac
+mk;Албак;Albac
+pl;Gmina Albac;Albac
+de;Strassburg;Aiud
+hu;Nagyenyed;Aiud
+bg;Аюд;Aiud
+sr;Ајуд;Aiud
+de;Straßburg am Mieresch;Aiud
+hu;Egri;Agriș
+hu;Szentágota;Agnita
+sr;Агнита;Agnita
+hu;Egeres-gyártelep;Aghireșu-Fabrici
+hu;Egeres-bányatelep;Aghireșu-Fabrici
+hu;Egrespatak;Aghireș
+hu;Ákosfalva;Acăţari
+hu;Abrudbánya;Abrud
+ro;Абруд;Abrud
+sr;Абруд;Abrud
+ro;Jardasiţa;Mehadia
+hu;Brassópojána;Poiana Brasov
+hu;Ivó;Izvoare
+hu;Bálványosfürdő;Baile Balvanyos
+sr;Сегешвар;Sighișoara
+hu;Segesvár;Sighișoara
+bg;Сигишоара;Sighișoara
+hr;Sigišoara;Sighișoara
+de;Schäßburg;Sighișoara
+de;Schässburg;Sighișoara
+de;Freistadt;Slobozia
+de;Winz;Vințu de Jos
+hu;Alvinc;Vințu de Jos
+hu;Cseralja;Aluniș
+hu;Kisles;Leștioara
+hu;Dezsőháza;Satu Mic
+hu;Ácsva;Avram Iancu
+hu;Érfancsika;Făncica
+hu;Szentjobb;Sâniob
+hu;Helmesaljavölgy;Hălmăsău
+hu;Alsórákos;Racoș
+hu;Agadics;Agadici
+hu;Marillavölgy;Marila
+hu;Pestes;Peștera
+hu;Tálosfalva;Blidărești
+hu;Bonchida;Bonțida
+hu;Bogátpuszta;Bogata
+hu;Kesiel;Valea Cășeielului
+hu;Aranyoslóna;Luna
+hu;Tormásdűlő;Turmași
+hu;Szentkirályi tanya;Clapa
+hu;Székelymagyaros;Aluniș
+hu;Krecsunesd;Crăciunești
+hu;Guraszáda;Gurasada
+hu;Dudesd;Dudești
+hu;Mélypatak;Valea Cufundoasă
+hu;Sárpataki út;Valea Albeștiului
+hu;Fehéregyházivölgy;Valea Albeștiului
+hu;Istentó;Iștan-Tău
+hu;Toka;Toaca
+hu;Cserhágó;Cirhagău
+hu;Nagyoldal;Coasta Mare
+hu;Rücsinéma;Nima Râciului
+hu;Pripora;Pripoare
+hu;Sárkihíd;Vălișoara
+hu;Nagytarna;Tarna Mare
+hu;Szilágyszigettelep;Colonia Sighetu Silvaniei
+hu;Bercse;Bercea
+hu;Erdeiházak;Pădureni
+hu;Zsábár;Jabăr
+hu;Szirbova;Sârbova
+hu;Érsemjén;Șimian

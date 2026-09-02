@@ -5,11 +5,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['RS', 'MK']; // dump/ et postal/ ne contiennent que les fichiers des pays en
+const COUNTRIES = ['RO', 'BG']; // dump/ et postal/ ne contiennent que les fichiers des pays en
 // cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/
-// NO/SE/FI/AX/AL sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|
-// sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al.txt), pas la peine de
-// retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout. Monténégro (ME) et Kosovo (XK)
+// NO/SE/FI/AX/AL/RS/MK sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|
+// it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk.txt), pas la peine
+// de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout. La Grèce
+// (GR) n'utilise PAS ce script standard : aucun fichier de codes postaux GeoNames pour ce pays,
+// voir build-gr-communes.js (reconstruction depuis une source tierce). Monténégro (ME) et Kosovo (XK)
 // n'utilisent PAS ce script standard : aucun fichier de codes postaux GeoNames pour ces deux pays,
 // voir build-me-communes.js/build-xk-communes.js (reconstruction depuis une source tierce).
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
@@ -197,7 +199,19 @@ const NAME_OVERRIDES = {
   // diacritique manquant dans le champ "name" lui-même, repéré par recoupement avec la liste des
   // noms alternatifs de cette même entrée qui contient bien "Knjaževac" — remplacé en conséquence).
   'Belgrade': 'Beograd',
-  'Knjazevac': 'Knjaževac'
+  'Knjazevac': 'Knjaževac',
+  // Un cas roumain (échantillon des 300 plus grandes communes du pays — Iaşi, Constanţa, Braşov,
+  // Timişoara, Craiova, Galaţi, Târgu Mureş... déjà bons, y compris ş/ţ) : "Bucharest" (exonyme
+  // anglais, remplacé par "Bucureşti" — déjà la forme utilisée par le reste du dump pour cette même
+  // ville dans sa liste de noms alternatifs, avec la même cédille ş/ţ que le reste du jeu de
+  // données plutôt que la variante à virgule souscrite ș/ț de la norme actuelle, pour rester
+  // cohérent avec l'orthographe déjà choisie par GeoNames pour toutes les autres communes
+  // roumaines). Aucune correction nécessaire côté bulgare (échantillon des 300 plus grandes communes
+  // du pays — Sofia, Plovdiv, Varna, Burgas... déjà bons) : le bulgare, langue cyrillique, n'a pas
+  // de forme latine "officielle" à diacritiques comme le roumain — la translittération BGN/PCGN sans
+  // diacritique déjà utilisée par GeoNames pour tout le pays (Kardzhali, Varshets...) est la même que
+  // celle employée par les autorités bulgares elles-mêmes sur la signalétique routière.
+  'Bucharest': 'Bucureşti'
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth

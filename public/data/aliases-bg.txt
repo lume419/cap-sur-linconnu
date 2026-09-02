@@ -1,0 +1,5784 @@
+bg;Загорци;Zagortsi
+bg;Белослав;Beloslav
+bg;Звъника;Zvanika
+bg;Звъничево;Zvanichevo
+bg;Звънец;Zvanets
+bg;Звънче;Zvanche
+bg;Звънарци;Zvŭnartsi
+bg;Звънарка;Zvanarka
+bg;Звъница;Zvinitsa
+bg;Звездица;Zvezditsa
+bg;Звездец;Zvezdets
+bg;Звезден;Zvezden
+bg;Звезделина;Zvezdelina
+bg;Звездел;Zvezdel
+bg;Звезда;Zvezda
+bg;Зверино;Zverino
+bg;Звенимир;Zvenimir
+bg;Звегор;Zvegor
+bg;Зурнево;Zarnevo
+bg;Зънзарите;Zanzarite
+bg;Зъб;Cheshme Mahala
+bg;Zab;Cheshme Mahala
+bg;Чешме Махала;Cheshme Mahala
+bg;Зоичене;Zoychene
+bg;Зорница;Zornitsa
+bg;Зоренски Дол;Zorenishki Dol
+bg;Зограф;Zograf
+bg;Знаменосец;Znamenosets
+bg;Змиево;Zmievo
+bg;Змейово;Zmeyovo
+bg;Змейно;Zmeyno
+bg;Змеица;Zmeitsa
+bg;Змеево;Zmeevo
+bg;Злокучене;Zlokuchene
+bg;Злогош;Zlogosh
+bg;Злитрап;Zlitrap
+bg;Злидол;Zlidol
+bg;Златуша;Zlatusha
+bg;Златовръх;Zlatovrah
+bg;Златоустово;Zlatoustovo
+bg;Златосел;Zlatosel
+bg;Златополе;Zlatopole
+bg;Златолист;Zlatolist
+bg;Златоклас;Zlatoklas
+bg;Златоград;Zlatograd
+el;Ζλάτογκραντ;Zlatograd
+pl;Złatograd;Zlatograd
+bg;Златна панега;Zlatna Panega
+bg;Златна Нива;Zlatna Niva
+bg;Златна Ливада;Zlatna Livada
+bg;Златия;Zlatia
+bg;Злтия;Zlatia
+bg;Злати Войвода;Zlati Voyvoda
+bg;Златица;Zlatitsa
+bg;Златитрап;Zlatitrap
+bg;Златитрап;Zlatirat
+bg;Златиница;Zlatinitsa
+bg;Златина;Zlatina
+bg;Златевци;Zlatevtsi
+bg;Златен рог;Antimovo
+bg;Антимово;Antimovo
+bg;Златарица;Zlataritsa
+bg;Златари;Zlatari
+bg;Златар;Zlatar
+bg;Зингиевци;Zingievtsi
+bg;Зинеплер;Zinepler
+bg;Зимзелен;Zimzelen
+bg;Зимовина;Zimovina
+bg;Зиморница;Zimornitsa
+bg;Зимница;Zimnitsa
+bg;Зимнище;Zimnishte
+bg;Зимевица;Zimevitsa
+bg;Зимен;Zimen
+bg;Зидарци;Zidartsi
+bg;Зидарово;Zidarovo
+bg;Жълтица;Zhaltusha
+bg;Жълтопоп;Zhaltopop
+bg;Жълт Камък;Zhalt Kamak
+bg;Жълти Рид;Zhalti Rid
+bg;Жълтика;Zhaltika
+bg;Жълти Бряг;Zhalti Bryag
+bg;Жълтеш;Zhaltesh
+bg;Жълт Бряг;Zhalt Bryag
+bg;Жребино;Zhrebino
+bg;Жребичко;Zhrebichko
+bg;Жребево;Zhrebevo
+bg;Жижево;Zhizhevo
+bg;Живково;Zhivkovo
+bg;Живко;Zhivko
+bg;Житосвят;Zhitosvyat
+bg;Житница;Zhitnitsa
+bg;Житковец;Zhitkovets
+bg;Житен;Zhiten
+bg;Ветрен;Vetren
+bg;Житарник;Zhitarnik
+bg;Жинзифово;Zhinzifovo
+bg;Жилино;Zhilino
+bg;Жиленци;Zhilentsi
+bg;Жидов Дол;Zhidov Dol
+bg;Жернов;Zhernov
+bg;Жерка;Zherka
+bg;Жерговец;Zhergovets
+bg;Жеравна;Zheravna
+bg;Жеравица;Zheravitsa
+bg;Жеравино;Zheravino
+bg;Женда;Zhenda
+bg;Желю Войвода;Zhelyu Voyvoda
+bg;Желязово;Zhelyazovo
+bg;Желязно;Zhelyazno
+bg;Желязна Врата;Zhelyazna Vrata
+bg;Желявковци;Zhelyazkovtsi
+bg;Желязково;Momina Tsarkva
+bg;Момина Църква;Momina Tsarkva
+bg;Желясковец;Zhelyazkovets
+bg;Желява;Zhelyava
+bg;Желъдово;Zheladovo
+bg;Желъд;Zhelad
+bg;Железница;Zheleznitsa
+bg;Железник;Zheleznik
+bg;Железна;Zhelezna
+bg;Железино;Zhelezino
+bg;Железарци;Zhelezartsi
+bg;Железари;Zhelezari
+bg;Желен;Zhelen
+bg;Жеглица;Zheglitsa
+bg;Жегларци;Zheglartsi
+bg;Жедна;Zhedna
+bg;Жеден;Zheden
+bg;Жабокрът;Zhabokrat
+bg;Жабляно;Zhablyano
+bg;Згурово;Zgurovo
+bg;Згориград;Zgorigrad
+bg;Згалево;Zgalevo
+bg;Зетьово;Zetyovo
+bg;Землен;Zemlen
+bg;Земенци;Zementsi
+bg;Земен;Zemen
+bg;Зелено Дърво;Zeleno Darvo
+bg;Зелениково;Zelenikovo
+bg;Зеленика;Zelenika
+bg;Зеленик;Zelenik
+bg;Зелениград;Zelenigrad
+bg;Зелендол;Zelendol
+bg;Зелена Морава;Zelena Morava
+bg;Зебил;Zebil
+bg;Здравковец;Zdravkovets
+bg;Здравец;Zdravets
+bg;Здравец;Adzharsko
+bg;Аджарско;Adzharsko
+bg;Здравчец;Zdravchets
+bg;Зайчино Ореше;Zaychino Oreshe
+bg;Зайчина;Zaychina
+bg;Зайчари;Zaychari
+bg;Зайчар;Zaychar
+bg;Зая;Zaya
+bg;Завоя;Zavoya
+bg;Завой;Zavoy
+bg;Завидовци;Zavidovtsi
+bg;Заветно;Zavetno
+bg;Завет;Zavet
+bg;Заверденци;Zaverdentsi
+bg;Завала;Zavala
+bg;Засмяно;Zasmyano
+bg;Заселе;Zasele
+bg;Заровец;Zarovets
+bg;Зарник;Zarnik
+bg;Зарица;Zaritsa
+bg;Зараево;Zaraevo
+bg;Заноге;Zanoge
+bg;Замухово;Zamukhovo
+bg;Замфирово;Zamfirovo
+bg;Замфир;Zamfir
+bg;Захари-Стояново;Zahari Stoyanovo
+bg;Захари Стояново;Zahari Stoyanovo
+bg;Захари-Стояново;Zahari-Stoyanovo
+bg;Зака;Zaka
+bg;Заимчево;Zaimchevo
+bg;Загражден;Zagrazhden
+en;Magura;Zagrazhden
+bg;Загорско;Zagorsko
+bg;Загорски;Zagorski
+bg;Загориче;Zagoriche
+bg;Загоричане;Zagorichane
+en;Akhŭrito;Zagore
+en;Oborito;Zagore
+bg;Загоре;Zagore
+bg;Зафирово;Zafirovo
+bg;Заевете;Zaevite
+bg;Заевите;Zaevite
+bg;Задруга;Zadruga
+bg;Забърдо;Zabardo
+bg;Заберново;Zabernovo
+bg;Забел;Zabel
+bg;Юруково;Yurukovo
+bg;Юпер;Yuper
+bg;Юнец;Yunets
+bg;Юндола;Yundola
+bg;Юнаците;Yunatsite
+bg;Юнаци;Yunatsi
+bg;Юнак;Yunak
+bg;Юлиево;Yulievo
+bg;Югово;Yugovo
+bg;Юделник;Yudelnik
+bg;Йоз Ятука;Yoz Yatuka
+bg;Йововци;Yovovtsi
+bg;Йовковци;Yovkovtsi
+bg;Йовково;Yovkovo
+bg;Йовчевци;Yovchevtsi
+bg;Йорен;Yoren
+bg;Йорданово;Yordanovo
+bg;Елешница;Eleshnitsa
+bg;Йонково;Yonkovo
+bg;Йончово;Yonchovo
+bg;Йоглав;Yoglav
+bg;Йоаким-Груево;Yoakim-Gruevo
+bg;Ерусалимово;Yerusalimovo
+bg;Йерусалимово;Yerusalimovo
+bg;Язовец;Yazovets
+bg;Яждрасовци;Yazdirastovtsi
+bg;Яждаш;Yazdach
+bg;Яврово;Yavrovo
+bg;Яворово;Yavorovo
+bg;Яворовец;Yavorovets
+bg;Яворница;Yavornitsa
+bg;Яворец;Yavorets
+bg;Явор;Yavor
+bg;Ястребово;Yastrebovo
+bg;Ястребна;Yastrebna
+bg;Ястребино;Yastrebino
+bg;Ястреб;Yastreb
+bg;Ясно Поле;Yasno Pole
+bg;Ясна Поляна;Yasna Polyana
+bg;Ясеново;Yasenovo
+bg;Ясеновец;Yasenovets
+bg;Ясенково;Yasenkovo
+bg;Ясените;Yasenite
+bg;Ясен;Yasen
+bg;Ярославци;Yaroslavtsi
+bg;Ярловци;Yarlovtsi
+bg;Ярлово;Yarlovo
+bg;Ярловица;Yarlovitsa
+bg;Яребковица;Yarebkovitsa
+bg;Яребица;Yarebitsa
+bg;Яребично;Yarebichno
+bg;Яребична;Yarebichna
+bg;Ярджиловци;Yardzhilovtsi
+bg;Янтра;Yantra
+bg;Яново;Yanovo
+bg;Яновец;Yanyovets
+bg;Яньовец;Yanyovets
+bg;Янковци;Yankovtsi
+bg;Янково;Yankovo
+bg;Янино;Yanino
+bg;Яна;Yana
+bg;Ямна;Yamna
+bg;Ямино;Yamino
+bg;Ямбол;Yambol
+de;Jambol;Yambol
+bg;Ялово;Yalovo
+bg;Яловица;Yalovitsa
+bg;Ялботина;Yalbotina
+bg;Яковци;Yakovtsi
+bg;Яково;Yakovo
+bg;Яковица;Yakovitsa
+bg;Якоруда;Yakoruda
+bg;Якимово;Yakimovo
+bg;Йоаким Груево;Yakim Gruevo
+bg;Якиново;Yahinovo
+bg;Яка-Баджа-Кьой;Yaka Badzha Kyoy
+bg;Ягодово;Yagodovo
+bg;Ягодина;Yagodina
+bg;Ягода;Yagoda
+bg;Ягнило;Yagnilo
+bg;Ягнево;Yagnevo
+bg;Ябълковци;Yabalkovtsi
+bg;Ябълково;Yabalkovo
+bg;Ябълковец;Yabalkovets
+bg;Ябълчево;Yabalchevo
+bg;Ябълчени;Yabalcheni
+bg;Ябланово;Yablanovo
+bg;Ябланица;Yablanitsa
+bg;Възел;Vazel
+bg;Вързулица;Varzulitsa
+bg;Вързулковци;Varzilkovtsi
+bg;Въртоп;Vartop
+bg;Вършило;Varshilo
+bg;Вършец;Varshets
+bg;Върлище;Varlishte
+bg;Върлино;Varlino
+bg;Върлинка;Varlinka
+bg;Върлина;Varlina
+bg;Върли Дол;Varli Dol
+bg;Върли Чучул;Varli Chuchul
+bg;Върхари;Varhari
+bg;Въргов Дол;Vargov Dol
+bg;Върбяне;Varbyane
+bg;Върбово;Varbovo
+bg;Върбовка;Varbovka
+bg;Върбовчец;Varbovchets
+bg;Връбовчец;Varbovchets
+bg;Върбница;Varbnitsa
+bg;Върбица;Varbitsa
+bg;Върбино;Varbino
+bg;Върбина;Varbina
+bg;Върбешница;Varbeshnitsa
+bg;Върбенци;Varbentsi
+bg;Върбен;Varben
+bg;Царева Ливада;Tsareva Livada
+bg;Върбак;Varbak
+bg;Върба;Varba
+bg;Вълнари;Valnari
+bg;Вълково;Valkovo
+bg;Вълкович;Valkovich
+bg;Вълков Дол;Valkov Dol
+bg;Вълкосел;Valkosel
+bg;Вълкан;Valkan
+bg;Вълчовци;Valchovtsi
+bg;Вълчитрън;Valchitran
+bg;Вълчи Трън;Valchitran
+bg;Вълчин;Valchin
+bg;Вълчи Извор;Valchi Izvor
+bg;Вълчидол;Valchidol
+bg;Вълче Поле;Valche Pole
+bg;Вълчек;Valchek
+bg;Вълчедръм;Valchedram
+bg;Вълча Поляна;Valcha Polyana
+bg;Вълчаново;Valchanovo
+bg;Вълчандол;Valchandol
+bg;Вълчан;Valchan
+bg;Вълково;Vukovo
+bg;Вуково;Vukovo
+bg;Вукан;Vukan
+bg;Въглевци;Vaglevtsi
+bg;Въглен;Vaglen
+bg;Въгларово;Vaglarovo
+bg;Въбел;Vabel
+bg;Всемирци;Vsemirtsi
+bg;Връв;Vrav
+bg;Връдловци;Vradlovtsi
+bg;Вресово;Vresovo
+bg;Врело;Vrelo
+bg;Враца;Vratsa
+mk;Враца;Vratsa
+sr;Враца;Vratsa
+ro;Vrața;Vratsa
+pl;Wraca;Vratsa
+el;Βράτσα;Vratsa
+de;Vratza;Vratsa
+bg;Вратица;Vratitsa
+bg;Вратарите;Vratarite
+bg;Врата;Vrata
+bg;Враня Стена;Vranya Stena
+bg;Вранянци;Vranyantsi
+bg;Враняк;Vranyak
+bg;Враня;Vranya
+bg;Вранско;Vransko
+bg;Вранинци;Vranintsi
+bg;Вранино;Vranino
+bg;Враниловци;Vranilovtsi
+bg;Врани Кон;Vrani Kon
+bg;Враненци;Vranentsi
+bg;Вракоповица;Vrakupovitsa
+bg;Вракуповица;Vrakupovitsa
+bg;Врачеш;Vrachesh
+bg;Врачанци;Vrachantsi
+bg;Врабците;Vrabtsite
+bg;Врабево;Vrabevo
+bg;Врабец;Vrabets
+bg;Врабчевци;Vrabchevtsi
+bg;Врабча;Vrabcha
+bg;Виждово;Vozhdovo
+bg;Войводово;Voyvodovo
+bg;Войводиново;Voyvodinovo
+bg;Войводино;Voyvodino
+bg;Войводенец;Voyvodenets
+bg;Войвода;Voyvoda
+bg;Войсил;Voysil
+bg;Войнягово;Voynyagovo
+bg;Войново;Voynovo
+bg;Войниците;Voynitsite
+bg;Войници;Voynitsi
+bg;Войница;Voynitsa
+bg;Войнишка;Voynishka
+bg;Войниково;Voynikovo
+bg;Войника;Voynika
+bg;Войнежа;Voynezha
+bg;Войнеговци;Voynegovtsi
+bg;Войкова Лъка;Voykova Laka
+bg;Вонеща Вода;Voneshta Voda
+bg;Волуяк;Voluyak
+bg;Волово;Volovo
+bg;Воловарци;Volovartsi
+bg;Воловарово;Volovarovo
+bg;Вологарска;Vologarska
+bg;Волно;Volno
+bg;Вола;Vokil
+bg;Водолей;Vodoley
+bg;Воднянци;Vodnyantsi
+bg;Водно;Vodno
+bg;Водни Пад;Vodni Pad
+bg;Водна;Vodna
+bg;Водица;Voditsa
+bg;Воденци;Vodentsi
+bg;Воденичарско;Vodenicharsko
+bg;Воденичарско;Vodenicharovo
+bg;Воденичане;Vodenichane
+bg;Воден;Voden
+bg;Malak Voden;Voden
+bg;Водата;Vodata
+bg;Водач;Vodach
+bg;Влайчовци;Vlaychovtsi
+bg;Власатица;Vlasatitsa
+bg;Власатили;Vlasatili
+bg;Влас;Sveti Vlas
+en;Saint Vlas;Sveti Vlas
+en;St. Vlas;Sveti Vlas
+bg;Влаховци;Vlahovtsi
+bg;Влахово;Vlahovo
+bg;Влахи;Vlahi
+bg;Владо Тричков;Vlado Trichkov
+bg;Владиславци;Vladislavtsi
+bg;Владислав;Vladislav
+bg;Владина;Vladinya
+bg;Владимировци;Vladimirovtsi
+bg;Владимирово;Vladimirovo
+bg;Владимир;Vladimir
+bg;Владиченци;Vladichentsi
+bg;Владая;Vladaya
+bg;Вижица;Vizitsa
+bg;Визица;Vizitsa
+bg;Витина;Vitina
+bg;Витевци;Vitevtsi
+bg;Витановци;Vitanovtsi
+bg;Високовци;Visokovtsi
+bg;Високите;Visokite
+bg;Висока Поляна;Visoka Polyana
+bg;Висока Могила;Visoka Mogila
+bg;Висока;Visoka
+bg;Висок;Visok
+bg;Вискяр;Viskyar
+bg;Вишовград;Vishovgrad
+bg;Вишево;Vishnevo
+bg;Вишна;Vishna
+bg;Вишлене;Vishlene
+bg;Вишерград;Vishegrad
+bg;Вишан;Vishan
+bg;Вис;Vis
+bg;Вировско;Virovsko
+bg;Вирове;Virove
+bg;Виногради;Vinogradi
+bg;Виноградец;Vinogradets
+bg;Виноград;Vinograd
+bg;Виница;Vinitsa
+bg;Винище;Vinishte
+bg;Винево;Vinevo
+bg;Винарско;Vinarsko
+bg;Винарово;Vinarovo
+bg;Виларе;Vilare
+bg;Вихрен;Vihren
+bg;Виево;Vievo
+bg;Видрица;Vidritsa
+bg;Видраре;Vidrare
+bg;Видрар;Vidrar
+bg;Видно;Vidno
+bg;Видица;Vidlitsa
+bg;Видлица;Vidlitsa
+bg;Видинци;Vidintsi
+de;Widin;Vidin
+bg;Видин;Vidin
+el;Βίντιν;Vidin
+mk;Видин;Vidin
+sr;Видин;Vidin
+pl;Widyń;Vidin
+bg;Виден;Viden
+bg;Виданово;Vidanovo
+bg;Вичово;Vichovo
+bg;Веженково;Vezenkovo
+bg;Ветрушка;Vetrushka
+bg;Ветрово;Vetrovo
+bg;Ветрище;Vetrishte
+bg;Ветринци;Vetrintsi
+bg;Балван махала;Vetrintsi
+bg;Ветрино;Vetrino
+bg;Ветрен Дол;Vetren Dol
+bg;Ветово;Vetovo
+bg;Веслец;Veslets
+bg;Вещица;Veshtitsa
+bg;Веселиново;Veselinovo
+bg;Веселина;Veselina
+bg;Веселие;Veselie
+bg;Веселец;Veselets
+bg;Верско;Versko
+bg;Веринско;Verinsko
+bg;Веренци;Verentsi
+bg;Верен;Veren
+bg;Вердикал;Verdikal
+bg;Венковец;Venkovets
+bg;Венец;Venets
+bg;Венелин;Venelin
+bg;Венчан;Venchan
+bg;Велювци;Velyuvtsi
+bg;Велющец;Velyushtets
+bg;Вельово;Velyovo
+bg;Велковци;Velkovtsi
+bg;Велково;Velkovo
+bg;Велислав;Velislav
+bg;Вели Пашалар;Veli Pashalar
+bg;Велиново;Velinovo
+bg;Велино;Velino
+bg;Велинград;Velingrad
+de;Welingrad;Velingrad
+el;Βέλιγκραντ;Velingrad
+mk;Велинград;Velingrad
+sr;Велинград;Velingrad
+pl;Welingrad;Velingrad
+bg;Великовци;Velikovtsi
+bg;Великово;Velikovo
+de;Weliko Tarnowo;Veliko Tŭrnovo
+en;Veliko Tarnovo;Veliko Tŭrnovo
+es;Veliko Tarnovo;Veliko Tŭrnovo
+bg;Велико Търново;Veliko Tŭrnovo
+fr;Veliko Tarnovo;Veliko Tŭrnovo
+it;Veliko Tărnovo;Veliko Tŭrnovo
+pl;Wielkie Tyrnowo;Veliko Tŭrnovo
+sv;Veliko Tărnovo;Veliko Tŭrnovo
+ro;Veliko Tărnovo;Veliko Tŭrnovo
+pt;Veliko Tarnovo;Veliko Tŭrnovo
+bg;Велиходжалар;Velihodzhalar
+bg;Великденче;Velikdenche
+bg;Великан;Velikan
+bg;Велика;Velika
+bg;Величково;Velichkovo
+bg;Величка;Velichka
+bg;Велешани;Veleshani
+bg;Веленци;Velentsi
+bg;Велчовци;Velchovtsi
+bg;Велчево;Velchevo
+bg;Векилски;Vekilski
+bg;Вехтово;Vehtovo
+bg;Вехтино;Vehtino
+bg;Ведрово;Vedrovo
+bg;Ведрина;Vedrina
+bg;Ведраре;Vedrare
+bg;Вазово;Vazovo
+bg;Весково;Vaskovo
+bg;Васково;Vaskovo
+bg;Василковци;Vasilovtsi
+bg;Василовци;Vasilovtsi
+bg;Васильово;Vasilyovo
+bg;Васил Левски;Vasil Levski
+bg;Василковска Махала;Vasilkovska Mahala
+bg;Василево;Vasilevo
+bg;Васил Друмев;Vasil Drumev
+bg;Варвара;Varvara
+bg;Варовник;Varovnik
+bg;Варник;Varnik
+bg;Варненци;Varnentsi
+de;Warna;Varna
+bg;Варна;Varna
+el;Βάρνα;Varna
+pl;Warna;Varna
+ca;Odessos;Varna
+mk;Варна;Varna
+sr;Варна;Varna
+bg;Вардън;Vardun
+bg;Вардим;Vardim
+bg;Варана;Varana
+bg;Валевци;Valevtsi
+bg;Валето;Valeto
+bg;Ваксево;Vaksevo
+bg;Ваклова;Vaklova
+bg;Ваклиново;Vaklinovo
+bg;Ваклино;Vaklino
+bg;Вакарелска;Vakarel
+bg;Узуново;Uzunovo
+bg;Узуните;Uzunite
+bg;Узунджово;Uzundzhovo
+bg;Узово;Uzovo
+bg;Увуролан;Uvurolan
+bg;Устрен;Ustren
+bg;Устрем;Ustrem
+bg;Устина;Ustina
+bg;Усойка;Usoyka
+bg;Ушевци;Ushovtsi
+bg;Ушинци;Ushintsi
+bg;Уши;Ushi
+bg;Урвата;Urvata
+bg;Уручевци;Uruchovtsi
+bg;Уровене;Urovene
+bg;Умаревци;Umarevtsi
+bg;Ухловица;Uhlovitsa
+bg;Укари Кьой;Ukari Kyoy
+bg;Угърчин;Ugarchin
+bg;Угорялковци;Ugoryalkovtsi
+bg;Угорелец;Ugorelets
+bg;Углярци;Uglyartsi
+bg;Юглен;Aglen
+bg;Угледно;Ugledno
+bg;Тютюнче;Tyutyunche
+bg;Тюркмен;Tyurkmen
+bg;Тюленово;Tyulenovo
+bg;Тяново;Tyanevo
+bg;Тянево;Tyanevo
+bg;Твърдица;Tvarditsa
+bg;Твърдинци;Tvardintsi
+bg;Тъжа;Tazha
+bg;Тутраканци;Tutrakantsi
+en;Turtucaia;Tutrakan
+bg;Тутракан;Tutrakan
+sr;Тутракан;Tutrakan
+bg;Тушовца;Tushovtsa
+bg;Турян;Turyan
+bg;Търън;Taran
+bg;Търсино;Tarsino
+bg;Туроковци;Turokovtsi
+bg;Търняне;Tarnyane
+bg;Търновци;Tarnovtsi
+bg;Търновца;Tarnovtsa
+bg;Търновлак;Tarnovlag
+bg;Tarnovlak;Tarnovlag
+bg;Търновлаг;Tarnovlag
+bg;Търносливка;Tarnoslivka
+bg;Търничени;Tarnicheni
+bg;Търнене;Tarnene
+bg;Търнава;Tarnava
+bg;Търнак;Tarnak
+bg;Туркинча;Turkincha
+bg;Търхово;Tarhovo
+bg;Търхашени;Tarkasheni
+bg;Турия;Turia
+bg;Търговище;Targovishte
+de;Targowischte;Targovishte
+es;Tărgovište;Targovishte
+fr;Targovichté;Targovishte
+it;Tărgovište;Targovishte
+nl;Targovisjte;Targovishte
+ca;Targòvixte;Targovishte
+cs;Tărgovište;Targovishte
+el;Ταργκόβιστε;Targovishte
+fi;Tărgovište;Targovishte
+hr;Trgovište;Targovishte
+hu;Targoviste;Targovishte
+mk;Трговиште;Targovishte
+ro;Tărgoviște;Targovishte
+sk;Tărgovište;Targovishte
+sl;Trgovište;Targovishte
+sq;Tërgovishçe;Targovishte
+sr;Трговиште;Targovishte
+pl;Tyrgowiszte;Targovishte
+bg;Тъпчилещово;Tapchileshtovo
+bg;Тънково;Tankovo
+bg;Тънкото;Tankoto
+bg;Тънки Рът;Tanki Rat
+bg;Тънка Бара;Tanka Bara
+bg;Тумбевци;Tumbevtsi
+bg;Тумбалово;Tumbalovo
+bg;Тулово;Tulovo
+bg;Туховища;Tuhovishta
+bg;Тъкач;Takach
+bg;Туден;Tuden
+bg;Тученица;Tuchenitsa
+bg;Цвятово;Tsvyatovo
+bg;Цвятковци;Tsvyatkovtsi
+bg;Цветница;Tsvetnitsa
+bg;Цветкова Бара;Tsvetkova Bara
+bg;цветино;Tsvetino
+bg;Цвеклювци;Tsveklyuvtsi
+bg;Цървище;Tsarvishte
+bg;Цървеняно;Tsarvenyano
+bg;Цървендол;Tsarvendol
+bg;Цървена Ябълка;Tsarvena Yabalka
+bg;Църварица;Tsarvaritsa
+bg;Църквица;Tsarkvitsa
+bg;Църква;Tsarkva
+bg;Црънча;Tsrancha
+bg;Цръклевци;Tsraklevtsi
+bg;Црешново;Tsreshnovo
+bg;Цонковци;Tsonkovtsi
+bg;Цонево;Tsonevo
+bg;Цирка;Tsirka
+bg;Циклово;Tsiklovo
+bg;Церово;Tserovo
+bg;Церовица;Tserovitsa
+bg;Церовище;Tserovishte
+bg;Церовец;Tserovets
+bg;Церова Курия;Tserova Koria
+bg;Церковски;Tserkovski
+bg;Церецел;Tseretsel
+bg;Церетелево;Tseretelevo
+bg;Цепенарите;Tseperanite
+bg;Ценово;Tsenovo
+bg;Ценович;Tsenovich
+bg;Ценино;Tsenino
+bg;Целина;Tselina
+bg;Цегриловци;Tsegrilovtsi
+bg;Цацаровци;Tsatsarovtsi
+bg;Цар Смуил;Tsar Samuil
+bg;Цар Самуил;Tsar Samuil
+bg;Цар Петрово;Tsar Petrovo
+bg;Цар Калочн;Tsar Kaloyan
+bg;Царица;Tsaritsa
+bg;Царимир;Tsarimir
+bg;Царичина;Tsarichina
+bg;Царевци;Tsarevtsi
+bg;Царевец;Tsarevets
+bg;Царев дол;Tsarev Dol
+bg;Царев брод;Tsarev Brod
+bg;Царева поляна;Tsareva Polyana
+bg;Царацово;Tsaratsovo
+bg;Цар Асен;Tsar Asen
+bg;Цапарево;Tsaparevo
+bg;Цани-Гинчево;Tsani-Ginchevo
+bg;Цалапица;Tsalapitsa
+bg;Цаконица;Tsakonitsa
+bg;Трявна;Tryavna
+de;Trjawna;Tryavna
+sr;Трјавна;Tryavna
+ro;Treavna;Tryavna
+pl;Trjawna;Tryavna
+pt;Triavna;Tryavna
+bg;Тръстиково;Trastikovo
+bg;Тръстика;Trastika
+bg;Тръстеник;Trastenik
+bg;Трънковци;Trankovtsi
+bg;Трънково;Trankovo
+bg;Тръница;Tranitsa
+bg;Трънито;Tranito
+bg;Трънчовица;Tranchovitsa
+bg;Трънарка;Tranarka
+bg;трънак;Tranak
+bg;Трън;Tran
+bg;Тръмбашиеви Колиби;Trambashievi Kolibi
+bg;Трудовец;Trudovets
+bg;Труд;Trud
+bg;Тръбач;Trabach
+bg;Трояново;Troyanovo
+bg;Троян;Troyan
+en;Troyan Municipality;Troyan
+bg;Община Троян;Troyan
+ro;Comuna Troian;Troyan
+pl;Gmina Trojan;Troyan
+bg;Тросково;Troskovo
+bg;Троица;Troitsa
+bg;Триводици;Trivoditsi
+bg;Трите къщи;Trite Kashti
+bg;Три могили;Tri Mogili
+bg;Трилистник;Trilistnik
+bg;Три кладенци;Tri Kladentsi
+bg;Триград;Trigrad
+bg;Тригорци;Trigortsi
+bg;Трифоново;Trifonovo
+bg;Трестле;Trestle
+bg;Трескавец;Treskavets
+bg;Трепетлика;Trepetlika
+bg;Трем;Trem
+bg;Тркляно;Treklyano
+bg;Трекляно;Treklyano
+mk;Трекљано;Treklyano
+sv;Trekljano;Treklyano
+ro;Trekleano;Treklyano
+bg;Требище;Trebishte
+bg;Трайково;Traykovo
+bg;Klyuchova Mahala;Traykovo
+bg;Травник;Travnik
+bg;Траве;Trave
+bg;Трапоклово;Trapoklovo
+bg;Трапище;Trapishte
+bg;Трапесковци;Trapeskovtsi
+bg;Тракийци;Trakiytsi
+it;Trakijtsi;Trakiytsi
+fr;Trakijtsi;Trakiytsi
+ro;Trakiiți;Trakiytsi
+bg;Тракия;Trakia
+bg;Тракиец;Trakiets
+bg;Тотювци;Totyuvtsi
+bg;Тотлебен;Totleben
+bg;Тошкова махала;Toskova Makhala
+bg;Тошевци;Toshevtsi
+bg;Торбалъжите;Torbalazhite
+bg;Топузи;Topuzi
+bg;Топузево;Topuzevo
+bg;Тополяне;Topolyane
+bg;Тополово;Topolovo
+bg;Тополовград;Topolovgrad
+sr;Тополовград;Topolovgrad
+pl;Topołowgrad;Topolovgrad
+bg;Тополовец;Topolovets
+bg;Тополница;Topolnitsa
+bg;Тополка;Topolka
+bg;Тополица;Topolitsa
+bg;Тополи Дол;Topoli Dol
+bg;Тополи;Topoli
+bg;Тополчане;Topolchane
+ro;Suiciucul Turcesc;Topola
+ro;Suiuciucul-Turesc;Topola
+bg;Топола;Topola
+ro;Turc Suiuciuc;Topola
+bg;Топлища;Topilishta
+bg;Топчийско;Topchiysko
+bg;Топчии;Topchii
+bg;Тонско дабе;Tonsko Dabe
+bg;Томсън;Tompsan
+bg;Томчевци;Tomchevtsi
+bg;Томбето;Tombeto
+bg;Толовица;Tolovitsa
+de;Dobritsch;Dobrich
+pl;Dobricz;Dobrich
+bg;Добрич;Dobrich
+fi;Dobritš;Dobrich
+fr;Dobritch;Dobrich
+nl;Dobritsj;Dobrich
+sv;Dobritj;Dobrich
+ca;Dòbritx;Dobrich
+da;Dobritj;Dobrich
+el;Ντόμπριτς;Dobrich
+eu;Dobritx;Dobrich
+mk;Добрич;Dobrich
+no;Dobritsj;Dobrich
+ro;Dobrici;Dobrich
+sq;Dobriç;Dobrich
+sr;Добрич;Dobrich
+bg;Токачка;Tokachka
+bg;Тодювци;Todyuvtsi
+bg;Тодоровци;Todorovtsi
+bg;Тодорово;Todorovo
+bg;Тодор-Икономово;Todor-Ikonomovo
+bg;Тодоричене;Todorichene
+bg;Тодореците;Todoretsite
+bg;Точиларци;Tochilartsi
+bg;Точилари;Tochilari
+bg;Тлачене;Tlachene
+bg;Тияновци;Tiyanovtsi
+bg;Титевци;Titevtsi
+bg;Тишевица;Tishevitsa
+bg;Тишаново;Tishanovo
+bg;Типченица;Tipchenitsa
+bg;Тинтява;Tintyava
+bg;Тимарево;Timarevo
+bg;Тиквеш;Tikvesh
+bg;Тиховец;Tihovets
+bg;Тихомирово;Tihomirovo
+bg;Тихомир;Tihomir
+bg;Тикале;Tikale
+bg;Тича;Ticha
+bg;Тетово;Tetovo
+bg;Тетевен;Teteven
+bg;Тешово;Teshovo
+bg;Тешел;Teshel
+bg;Терзийци;Terziyuvtsi
+bg;Терзийско;Terziysko
+bg;Терзиите;Terziite
+bg;Тервел;Tervel
+en;Tervel Municipality;Tervel
+bg;Община Тервел;Tervel
+ro;Comuna Tervel;Tervel
+pl;Gmina Terweł;Tervel
+pt;Município de Tervel;Tervel
+bg;Тертер;Terter
+bg;Теплен;Teplen
+bg;Тепава;Tepava
+bg;Тенево;Tenevo
+bg;Темска;Temska
+bg;Теменуга;Temenuga
+bg;Батановци;Batanovtsi
+bg;Телиш;Telish
+bg;Телериг;Telerig
+bg;Телчарка;Telcharka
+bg;Текето;Teketo
+bg;Таймище;Taymishte
+bg;Таваличево;Tavalichevo
+bg;Татул;Tatul
+bg;Татково;Tatkovo
+bg;Татари;Tatari
+bg;Татарево;Tatarevo
+bg;Таркан;Tarkan
+bg;Тамарино;Tamarino
+bg;Тахировци;Tahirovtsi
+bg;Табашка;Tabashka
+bg;Табан;Taban
+bg;Табашка;Tabachka
+bg;Табачка;Tabachka
+bg;Сярци;Syartsi
+bg;Сяровци;Syarovtsi
+bg;Сяново;Syanovo
+bg;Своге;Svoge
+bg;Своде;Svode
+bg;Свободица;Svoboditsa
+bg;Свободиново;Svobodinovo
+bg;Свободен;Svoboden
+bg;Свобода;Svoboda
+en;Sistov;Svishtov
+bg;Свищов;Svishtov
+bg;Свирците;Svirtsite
+bg;Свирци;Svirtsi
+bg;Свирково;Svirkovo
+bg;Свирец;Svirets
+bg;Свирчово;Svirchovo
+bg;Свирачи;Svirachi
+bg;Свиндол;Svindol
+bg;Свинарски Дол;Svinarski Dol
+bg;Свидня;Svidnya
+bg;Свежен;Svezhen
+bg;Светулка;Svetulka
+bg;Световрачане;Svetovrachane
+bg;Светославци;Svetoslavtsi
+bg;Светослав;Svetoslav
+bg;Светля;Svetlya
+bg;Светлина;Svetlina
+bg;Светлен;Svetlen
+bg;Свети Никола;Sveti Nikola
+bg;Света Петка;Sveta Petka
+bg;Свещари;Sveshtari
+bg;Свадбаре;Svatbare
+bg;Сваленик;Svalenik
+bg;Суворово;Suvorovo
+bg;Сушица;Sushitsa
+bg;Сушица;Shirinata
+bg;Ширината;Shirinata
+bg;Сушина;Sushina
+bg;Сушево;Sushevo
+bg;Сусам;Susam
+bg;Сурувчевци;Surovichovtsi
+bg;Суровичовци;Surovichovtsi
+bg;Сърцето;Sartsevo
+bg;Сърпово;Sarpovo
+bg;Сърница;Sarnitsa
+bg;Сърнино;Sarnino
+bg;Сърнево;Sarnevo
+bg;Сърневец;Sarnevets
+bg;Сърнец;Sarnets
+bg;Сърненци;Sarnentsi
+bg;Сърнегор;Sarnegor
+bg;Сърнак;Sarnak
+bg;Съри Махала;Sari Mahala
+bg;Сунгурларе;Sungurlare
+bg;Сумер;Sumer
+bg;Султани;Sultani
+bg;Сулица;Sulitsa
+bg;Сухозем;Suhozem
+bg;Сухово;Suhovo
+bg;Сухострел;Suhostrel
+pl;Suchostreł;Suhostrel
+mk;Сухострел;Suhostrel
+bg;Сухолоевци;Suholoevtsi
+bg;Суходол;Suhodol
+bg;Сухино;Suhino
+bg;Сухиндол;Suhindol
+bg;Суха Река;Suha Reka
+bg;Сухаче;Suhache
+bg;Сугарево;Sugarevo
+bg;Суевци;Suevtsi
+bg;Съево;Staro Selo
+bg;Saevo;Staro Selo
+bg;Съединение;Saedinenie
+bg;Съдийско Поле;Sadiysko Pole
+bg;Съдиево;Sadievo
+bg;Съчка;Suchka
+bg;Събрано;Sabrano
+bg;Съботковци;Sabotkovtsi
+bg;Събковци;Sabkovtsi
+bg;Стърница;Starnitsa
+bg;Стърмен;Starmen
+bg;Стъргел;Stargel
+bg;Студено Буче;Studeno Buche
+bg;Студен Кладенец;Studen Kladenets
+bg;Студен Извор;Studen Izvor
+bg;Студеница;Studenitsa
+bg;Студенец;Studenets
+bg;Студена;Studena
+bg;Стубел;Stubel
+bg;Стряма;Stryama
+bg;Стуя;Struya
+bg;Струпец;Strupets
+bg;Струмяни;Strumyani
+bg;Стръмци;Stramtsi
+bg;Струмешница;Strumeshnitsa
+bg;Струма;Struma
+bg;Струйно;Struino
+bg;Струиндол;Struindol
+bg;Стругът;Strugat
+bg;Стойновци;Stroynovtsi
+bg;Стойно;Stroyno
+bg;Строево;Stroevo
+bg;Стрижба;Strizhba
+bg;Стрецимировци;Strezimirovci
+bg;Стремци;Stremtsi
+bg;Стремово;Stremovo
+bg;Стрелци;Streltsi
+bg;Стрелково;Strelkovo
+bg;Стрелец;Strelets
+bg;Стрелча;Strelcha
+bg;Стражница;Strazhnitsa
+bg;Стражица;Strazhitsa
+bg;Стражевци;Strazhevtsi
+bg;Стражец;Strazhets
+bg;Стражата;Strazhata
+bg;Стража;Strazha
+bg;Страцин;Stratsin
+bg;Страшимирово;Strashimirovo
+bg;Страшимир;Strashimir
+bg;Странско;Stransko
+bg;Странджево;Strandzhevo
+bg;Странджа;Strandzha
+bg;Стралджа;Straldzha
+bg;Страхил Войвода;Strahil Voyvoda
+bg;Страхилово;Strahilovo
+bg;Страхилица;Strahilitsa
+bg;Страхил;Strahil
+bg;Страдалово;Stradalovo
+bg;Стожер;Stozher
+bg;Стожа;Stozha
+bg;Стойновското;Stoynovskoto
+bg;Стойново;Stoynovo
+bg;Стойково;Stoykovo
+bg;Стойките;Stoykite
+bg;Стойчовци;Stoychovtsi
+bg;Стойчевци;Stoychevtsi
+bg;Стоян Заимов;Stoyan Zaimovo
+bg;Стояновци;Stoyanovtsi
+bg;Стояново;Stoyanovo
+bg;Стояново;Radyuvene
+bg;Стоян Михайловски;Stoyan Mihaylovski
+bg;Стоманци;Stomantsi
+bg;Стоманево;Stomanevo
+bg;Стоманеците;Stomanetsite
+bg;Столът;Stolat
+bg;Столник;Stolnik
+bg;Столетово;Stoletovo
+bg;Стоките;Stokite
+bg;Стоил Войвода;Stoil Voyvoda
+bg;Стоилово;Stoilovo
+bg;Стоевци;Stoevtsi
+bg;Стоево;Stoevo
+bg;Стоб;Stob
+bg;Стикъл;Stikal
+bg;Стежерово;Stezherovo
+bg;Стеврек;Stevrek
+bg;Стенско;Stensko
+bg;Стефаново;Stefanovo
+bg;Стефан-Караджово;Stefan Karadzhovo
+bg;Стефан Караджово;Stefan Karadzhovo
+bg;Стефан Караджа;Stefan Karadzha
+bg;Стайновци;Staynovtsi
+bg;Стайчовци;Staychovtsi
+bg;Стайчин Дол;Staychin Dol
+bg;Ставерци;Stavertsi
+bg;Старцево;Startsevo
+bg;Старо Железаре;Staro Zhelezare
+bg;Старозагорски Бани;Starozagorski Bani
+bg;Старово;Starovo
+bg;Староселци;Staroseltsi
+bg;Старо Село;Staro Selo
+bg;Старо Селище;Staro Selishte
+bg;Староселец;Staroselets
+bg;Старосец;Starosel
+bg;Старопатица;Staropatitsa
+bg;Старо Оряхово;Staro Oryahovo
+bg;Старо Място;Staro Myasto
+bg;Стария Извор;Staria Izvor
+bg;Старинско;Starinsko
+bg;Старилковци;Starilkovtsi
+bg;Стари Цхал;Stari Chal
+bg;Старейшино;Stareyshino
+bg;Стар Читак;Star Chitak
+bg;Старчище;Starchishte
+bg;Старчево;Starchevo
+de;Stara Sagora;Stara Zagora
+bg;Стара Загора;Stara Zagora
+sr;Стара Загора;Stara Zagora
+el;Στάρα Ζαγόρα;Stara Zagora
+mk;Стара Загора;Stara Zagora
+bg;Стара Река;Stara Reka
+bg;Стара Речка;Stara Rechka
+bg;Стара Левка;Stara Levka
+bg;Стара Кресна;Stara Kresna
+bg;Станянци;Stanyantsi
+bg;Становци;Stanyovtsi
+bg;Станьовци;Stanyovtsi
+bg;Становец;Stanovets
+bg;Станково;Stankovo
+bg;Логодаш;Logodazh
+bg;Логодаж;Logodazh
+bg;Дупница;Dupnitsa
+fr;Doupnitsa;Dupnitsa
+nl;Doepnitsa;Dupnitsa
+el;Ντούπνιτσα;Dupnitsa
+mk;Дупница;Dupnitsa
+ro;Dupnița;Dupnitsa
+sr;Дупница;Dupnitsa
+bg;Станинци;Stanintsi
+bg;Станево;Stanevo
+bg;Станец;Stanets
+bg;Станчов Хан;Stanchov Khan
+bg;Стан;Stan
+bg;Стамово;Stamovo
+bg;Стамболийска Махала;Stamboliyska Mahala
+bg;Стамболово;Stambolovo
+en;Stambolovo Municipality;Stambolovo
+bg;Община Стамболово;Stambolovo
+ro;Comuna Stambolovo;Stambolovo
+pl;Gmina Stambołowo;Stambolovo
+bg;Стамболийски;Stamboliyski
+bg;Сталийска Махала;Staliyska Mahala
+bg;Сталево;Stalevo
+bg;Стакевци;Stakevtsi
+bg;Стаевци;Staevtsi
+bg;Срънско;Sransko
+bg;Срем;Srem
+bg;Средско;Sredsko
+bg;Средска;Sredska
+bg;Средоселци;Sredoseltsi
+bg;Средорек;Sredorek
+bg;Средок;Sredok
+bg;Средогрив;Sredogriv
+bg;Средня;Srednya
+bg;Средно Село;Sredno Selo
+bg;Средно Изворово;Sredno Izvorovo
+bg;Средно Градище;Sredno Gradishte
+bg;Средногорци;Srednogortsi
+bg;Средногорово;Srednogorovo
+bg;Средногорие;Srednogorie
+bg;Средни Рът;Sredni Rat
+bg;Средни Колиби;Sredni Kolibi
+bg;Среднево;Srednevo
+bg;Средна Мхала;Sredna Mahala
+bg;Средна;Sredna
+bg;Средковец;Sredkovets
+bg;Средица;Sreditsa
+bg;Средищна;Sredishtna
+bg;Средище;Sredishte
+bg;Срединка;Sredinka
+bg;Средина;Sredina
+bg;Средец;Sredets
+bg;Сребърна;Srebarna
+bg;Среброто;Srebroto
+bg;Сребриново;Srebrinovo
+bg;Страцимирово;Sratsimirovo
+bg;Срацимирово;Sratsimirovo
+bg;Страцимир;Sratsimir
+bg;Срацимир;Sratsimir
+bg;Сполука;Spoluka
+bg;Спатово;Spatovo
+bg;Спасовци;Spasovtsi
+bg;Спасово;Spasovo
+bg;Спанците;Spantsite
+bg;Спанчевци;Spanchevtsi
+bg;Спахиево;Spahievo
+de;Sosopol;Sozopol
+bg;Созопол;Sozopol
+el;Σωζόπολη;Sozopol
+sr;Созопол;Sozopol
+mk;Созопол;Sozopol
+bg;Сойка;Soyka
+bg;Соволяново;Sovolyano
+bg;Соволяно;Sovolyano
+bg;Совата;Sovata
+bg;Сотирия;Sotirya
+bg;Сотирово;Polkovnik Ivanovo
+bg;Полковник Иваново;Polkovnik Ivanovo
+bg;Сопово;Sopovo
+bg;Сопотот;Sopotot
+bg;Сопот;Sopot
+bg;Сопица;Sopitsa
+bg;Соневци;Sonevtsi
+en;Samovit;Somovit
+bg;Сомовит;Somovit
+bg;Солник;Solnik
+bg;Солище;Solishte
+bg;Солища;Solishta
+bg;Солари;Solari
+bg;Соколяне;Sokolyane
+bg;Соколско;Sokolsko
+bg;Соколовци;Sokolovtsi
+bg;Соколово;Sokolovo
+bg;Соколник;Sokolnik
+bg;Соколица;Sokolitsa
+bg;Соколите;Sokolite
+bg;Соколино;Sokolino
+bg;Соколец;Sokolets
+bg;Соколенци;Sokolentsi
+bg;Соколарци;Sokolartsi
+bg;Соколаре;Sokolare
+bg;Сокол;Sokol
+bg;Софрониево;Sofronievo
+bg;Софиътци;Sofiytsi
+bg;София;Sofia
+bs;Sofija;Sofia
+cs;Sofie;Sofia
+el;Σόφια;Sofia
+hr;Sofija;Sofia
+hu;Szófia;Sofia
+mk;Софија;Sofia
+ro;София;Sofia
+sq;Sofja;Sofia
+sr;Софија;Sofia
+ga;Sóifia;Sofia
+bg;Снягово;Snyagovo
+bg;Сноп;Snop
+bg;Снежинка;Snezhinka
+bg;Снежина;Snezhina
+bg;Снежна;Snezha
+bg;Снеготин;Snegotin
+bg;Смядово;Smyadovo
+bg;Столяновци;Smolyanovtsi
+bg;Смоляновци;Smolyanovtsi
+bg;Смолян;Smolyan
+de;Smoljan;Smolyan
+bg;Смолско;Smolsko
+bg;Смолница;Smolnitsa
+bg;Смолник;Smolnik
+bg;Смоличано;Smolichano
+bg;Смолево;Smolevo
+bg;Смолевица;Smolevitsa
+bg;Смолча;Smolcha
+bg;Смочево;Smochevo
+bg;Смочан;Smochan
+bg;Смиров Дол;Smirov Dol
+bg;Смирненци;Smirnentsi
+bg;Смирненски;Smirnenski
+bg;Смин;Smin
+bg;Смилян;Smilyan
+bg;Смиловци;Smilovtsi
+bg;Смилец;Smilets
+bg;Слънчовец;Slanchovets
+bg;Слънчоглед;Slanchogled
+bg;Слънчево;Slanchevo
+bg;Сломер;Slomer
+bg;Слокошица;Slokoshtitsa
+bg;Слокощица;Slokoshtitsa
+bg;Сливово;Slivovo
+bg;Сливовник;Slivovnik
+bg;Сливовица;Slivovitsa
+bg;Сливовик;Slivovik
+bg;Сливо Поле;Slivo Pole
+bg;Сливница;Slivnitsa
+bg;Сливка;Slivka
+bg;Сливито;Slivito
+bg;Сливен;Sliven
+sr;Сливен;Sliven
+mk;Сливен;Sliven
+de;Sliwen;Sliven
+el;Σλίβεν;Sliven
+bg;Сливек;Slivek
+bg;Сливата;Slivata
+bg;Сливарово;Slivarovo
+bg;Сливрка;Slivarka
+bg;Сливарка;Slivarka
+bg;Сливак;Slivak
+bg;Слишовци;Slishovtsi
+bg;Славянци;Slavyantsi
+bg;Славяново;Slavyanovo
+bg;Слявяново;Slavyanovo
+bg;Слвянин;Slavyanin
+bg;Славяни;Slavyani
+bg;Славщица;Slavshtitsa
+bg;Славовица;Slavovitsa
+bg;Славотин;Slavotin
+bg;Славейково;Slaveykovo
+bg;Славеино;Slaveino
+bg;Славеево;Slaveevo
+bg;Слатино;Slatino
+bg;Слатина;Slatina
+bg;Слащен;Slashten
+bg;Сланотрън;Slanotran
+bg;Слана Бара;Slana Bara
+bg;Сламино;Slamino
+bg;Слаковци;Slakovtsi
+bg;Сладун;Sladun
+bg;Сладък Кладенец;Sladak Kladenets
+bg;Сладкодум;Sladkodum
+bg;Сладка Вода;Sladka Voda
+bg;Скутаре;Skutare
+bg;Скърбино;Skarbino
+bg;Скрът;Skrat
+bg;Скриняно;Skrinyano
+bg;Скрино;Skrino
+bg;Скребатно;Skrebatno
+bg;Скравена;Skravena
+bg;Скорците;Skortsite
+bg;Скомля;Skomlya
+bg;Скобелево;Skobelevo
+bg;Склаве;Sklave
+bg;Скандалото;Skandaloto
+bg;Скалско;Skalsko
+bg;Скална Глава;Skalna Glava
+bg;Скалица;Skalitsa
+bg;Скалище;Skalishte
+bg;Скалина;Skalina
+bg;Скалак;Skalak
+bg;Скала;Skala
+bg;Сивогушка;Sivogushka
+bg;Сив Кладенец;Siv Kladenets
+bg;Сивино;Sivino
+bg;Сива Река;Siva Reka
+bg;Ситово;Sitovo
+bg;Сирощник;Sirishtnik
+bg;Сирищник;Sirishtnik
+bg;Сираково;Sirakovo
+bg;Сипей;Sipey
+bg;Сипец;Sipets
+bg;Синя Вода;Sinya Voda
+bg;Синьо Камене;Sinyo Kamene
+bg;Синьо Бърдо;Sinyo Bardo
+bg;Сини връх;Sini Vrah
+bg;Син Вир;Sini Vir
+bg;Синитово;Sinitovo
+bg;Сини Рид;Sini Rid
+bg;Синигер;Siniger
+bg;Синеморец;Sinemorets
+en;Sinemorec;Sinemorets
+bg;Синделци;Sindeltsi
+bg;Синдел;Sindel
+bg;Синчец;Sinchets
+bg;Синапово;Sinapovo
+bg;Синаговци;Sinagovtsi
+bg;Mihalaki-Georgievo;Sinagovtsi
+bg;Симитли;Simitli
+bg;Цар Симеоново;Tsar Simeonovo
+bg;Симеоново;Simeonovo
+bg;Симеоновград;Simeonovgrad
+bg;Симеоновец;Simeonovets
+bg;Силистра;Silistra
+hu;Szilisztra;Silistra
+mk;Силистра;Silistra
+sr;Силистра;Silistra
+el;Σιλίστρα;Silistra
+de;Silistria;Silistra
+bg;Силен;Silen
+bg;Сигмен;Sigmen
+bg;Шушня;Shushnya
+bg;Шумнатица;Shumnatitsa
+bg;Шуменци;Shumentsi
+de;Schumen;Shumen
+bg;Шумен;Shumen
+cs;Šumen;Shumen
+fr;Choumen;Shumen
+sv;Sjumen;Shumen
+no;Sjumen;Shumen
+bg;Шумата;Shumata
+bg;Шуманска;Shumanska
+bg;Шума;Shuma
+bg;Шубеци;Shubetsi
+bg;Щърково;Shtarkovo
+bg;Щръклево;Shtraklevo
+bg;Щтръклево;Shtraklevo
+bg;Щит;Shtit
+bg;Щипско;Shtipsko
+bg;Щерна;Shterna
+bg;Шопци;Shoptsi
+bg;Шопите;Shopite
+bg;Шондрови;Shondrovi
+bg;Шодековци;Shodekovtsi
+bg;Шкорпиловци;Shkorpilovtsi
+bg;Шияково;Shiyakovo
+bg;Шиварово;Shivarovo
+bg;Шишманци;Shishmantsi
+bg;Цар Шишманово;Tsar Shishmanovo
+bg;Шишманово;Shishmanovo
+bg;Шишковци;Shishkovtsi
+bg;Шишковица;Shishkovitsa
+bg;Шишенци;Shishentsi
+bg;Широково;Shirokovo
+bg;Широко Поле;Shiroko Pole
+bg;Широки Дол;Shiroki Dol
+bg;Широка Поляна;Shiroka Polyana
+bg;Široka Lăka;Shiroka Laka
+bg;Широка Лъка;Shiroka Laka
+bg;Шипот;Shipot
+bg;Шипок;Shipok
+bg;Шипочано;Shipochano
+bg;Шипочане;Shipochane
+bg;Шипково;Shipkovo
+bg;Шипковица;Shipkovitsa
+bg;Шипка;Shipka
+bg;Шипкова Махала;Shipikova Mahala
+bg;Шипикова Махала;Shipikova Mahala
+bg;Шипчените;Shipchenite
+bg;Шилковци;Shilkovtsi
+bg;Шиливери;Shiliveri
+bg;Шейново;Sheynovo
+bg;Шереметя;Sheremetya
+bg;Шехтова;Shehtova
+bg;Шатрово;Shatrovo
+bg;Шатарова;Shatarova
+bg;Шашинци;Shashintsi
+bg;Шаротинци;Sharotintsi
+bg;Шарково;Sharkovo
+bg;Шаренска;Sharenska
+bg;Шареннос;Sharennos
+bg;Шараните;Sharanite
+bg;Шаново;Shanovo
+bg;Шабла;Shabla
+bg;Сеймените;Seymenite
+bg;Сейковци;Seykovtsi
+bg;Сейдол;Seydol
+bg;Севлиево;Sevlievo
+bg;Северци;Severtsi
+bg;Северняк;Severnyak
+bg;Севдалина;Sevdalina
+bg;Севар;Sevar
+bg;Сестринско;Sestrinsko
+bg;Сестрино;Bogoroditsa
+bg;Богородица;Bogoroditsa
+bg;Сестримо;Sestrimo
+bg;Сеслав;Seslav
+bg;Септемврийци;Septemvriytsi
+bg;Септемврийци;Septemvri
+bg;Септември;Septemvri
+bg;Сенце;Sentse
+bg;Сеново;Senovo
+bg;Сенокос;Senokos
+bg;Сеноклас;Senoklas
+bg;Сенник;Sennik
+bg;Семковци;Semkovtsi
+bg;Семерци;Semertsi
+bg;Семерджиите;Semerdzhiite
+bg;Семерджиево;Semerdzhievo
+bg;Семчиново;Semchinovo
+bg;Селянк;Selyanka
+bg;Селянка;Selyanka
+bg;Селянин;Selyanin
+bg;Селци;Seltsi
+bg;Селце;Seltse
+bg;Селска Поляна;Selska Polyana
+bg;Селищен Дол;Selishten Dol
+bg;Селище;Selishte
+bg;Селиминово;Seliminovo
+bg;Селча;Selcha
+bg;Селановци;Selanovtsi
+bg;Секулово;Sekulovo
+bg;Секирка;Sekirka
+bg;Седянковци;Sedyankovtsi
+bg;Седловина;Sedlovina
+bg;Седларци;Sedlartsi
+bg;Седлари;Sedlari
+bg;Седларево;Sedlarevo
+bg;Седелец;Sedelets
+bg;Седефче;Sedefche
+bg;Сечище;Sechishte
+bg;Сечен Камък;Sechen Kamak
+bg;Сборище;Sborishte
+bg;Сборино;Sborino
+bg;Сбор;Sbor
+bg;Саждево;Sazhdevo
+bg;Сажденик;Sazhdenik
+bg;Савойски;Savoyski
+bg;Савино;Savino
+bg;Савин;Savin
+bg;Сава;Sava
+bg;Сатовча;Satovcha
+bg;Петко Каравелово;Petko Karavelovo
+bg;Саркова Махала;Sarkovo Mahala
+bg;Сарая;Saraya
+bg;Саранци;Sarantsi
+bg;Саранско;Saransko
+bg;Сарафово;Sarafovo
+de;Sarafowo;Sarafovo
+bg;Сараево;Saraevo
+bg;Сапунарите;Sapunare
+bg;Сапарево;Saparevo
+bg;Сапарева Баня;Sapareva Banya
+bg;Сан Стефано;San Stefano
+bg;Сандрово;Sandrovo
+bg;Сандански;Sandanski
+bg;Свети Врач;Sandanski
+mk;Свети Врач;Sandanski
+mk;Сандански;Sandanski
+bg;Санадиново;Sanadinovo
+bg;Osam;Sanadinovo
+bg;Самуилово;Samuilovo
+bg;Самуил;Samuil
+bg;Самците;Samsiite
+bg;Самоводене;Samovodene
+bg;Самовила;Samovila
+bg;Самовитино;Samotino
+bg;Самотино;Samotino
+bg;Самораново;Samoranovo
+de;Samokow;Samokov
+bg;Самоков;Samokov
+bg;Самокитка;Samokitka
+bg;Самодива;Samodiva
+bg;Салманово;Salmanovo
+bg;Саласука;Salasuka
+bg;Салаш;Salash
+bg;Сакарци;Sakartsi
+bg;Садъковци;Sadakovtsi
+bg;Садово;Sadovo
+bg;Садовица;Sadovitsa
+bg;Садовик;Sadovik
+bg;Садовец;Sadovets
+bg;Садина;Sadina
+bg;Ряховците;Ryahovtsite
+bg;Ряхово;Ryahovo
+en;Oreachova;Ryahovo
+bg;Ружица;Ruzhitsa
+bg;Ружица;Razhitsa
+bg;Ружинци;Ruzhintsi
+bg;Ръжево Конаре;Razhevo Konare
+bg;Ръжево;Razhevo
+bg;Ръженово;Razhenovo
+bg;Ръжена;Razhena
+bg;Ръждавица;Razhdavitsa
+bg;Ръждaвица;Razhdavitsa
+bg;Ръждак;Razhdak
+bg;Раждак;Razhdak
+bg;Ръжавец;Razhavets
+bg;Ръжана;Razhana
+bg;Руйно;Ruyno
+bg;Руйчовци;Ruychovtsi
+bg;Рътлина;Ratlina
+bg;Рът;Rat
+bg;Рустан;Rustan
+bg;Ръсово;Rasovo
+bg;Русокастро;Rusokastro
+bg;Русковци;Ruskovtsi
+bg;Руска Бела;Ruska Bela
+bg;Русиновци;Rusinovtsi
+de;Russe;Ruse
+en;Rousse;Ruse
+bg;Русе;Ruse
+fr;Roussé;Ruse
+nl;Roese;Ruse
+gd;Rousse;Ruse
+br;Rouse;Ruse
+sr;Русе;Ruse
+hu;Rusze;Ruse
+el;Ρούσε;Ruse
+mk;Русе;Ruse
+bg;Русаля;Rusalya
+bg;Русалско;Rusalsko
+bg;Русалина;Rusalina
+bg;Рупци;Ruptsi
+bg;Рупките;Rupkite
+bg;Рупча;Rupcha
+bg;Руня;Runya
+bg;Румянцево;Rumyantsevo
+bg;Румелия;Rumelia
+bg;Румъния;Rumanya
+bg;Руховци;Ruhovtsi
+bg;Руевци;Ruevtsi
+bg;Руец;Ruets
+bg;Руен;Ruen
+bg;Рудозем;Rudozem
+bg;Рудница;Rudnitsi
+bg;Рудници;Rudnitsi
+bg;Рудник;Rudnik
+bg;Рудней;Rudney
+bg;Рудина;Rudina
+bg;Рударци;Rudartsi
+bg;Лозен;Lozen
+bg;Ръчей;Ruchey
+bg;Ручей;Ruchey
+bg;Ръченица;Rachenitsa
+bg;Розово;Rozovo
+bg;Розовец;Rozovets
+bg;Розино;Rozino
+bg;Рожен;Rozhen
+bg;Рожден;Rozhden
+bg;Роза;Roza
+bg;Рояк;Royak
+bg;Ровина;Rovina
+bg;Розоман;Rosoman
+bg;Росоман;Rosoman
+bg;Росно;Rosno
+bg;Росица;Rositsa
+bg;Розина;Rosina
+bg;Росеново;Rosenovo
+bg;Росен;Rosen
+bg;Ропот;Ropot
+bg;Рополска;Ropolska
+bg;Роман;Roman
+bg;Рохлева;Rohleva
+bg;Рогулят;Rogulyat
+bg;Рогозиново;Rogozinovo
+bg;Рогозина;Rogozina
+bg;Рогозен;Rogozen
+bg;Рогозче;Rogozche
+bg;Рогозари;Rogozari
+bg;Рогош;Rogosh
+bg;Роглец;Roglets
+bg;Рогачево;Rogachevo
+bg;Рогач;Rogach
+bg;Родопско;Rodopsko
+bg;Родопи;Rodopi
+bg;Родина;Rodina
+bg;Робово;Robovo
+bg;Ритя;Ritya
+bg;Рисиманово;Risimanovo
+bg;Риш;Rish
+bg;Рилци;Riltsi
+bg;Manastir Sveti Ivan Rilski;Rilski Manastir
+ca;Monestir de Rila;Rilski Manastir
+pl;Rilski Monastyr;Rilski Manastir
+es;Monasterio de Rila;Rilski Manastir
+fr;Monastère de Rila;Rilski Manastir
+de;Kloster Rila;Rilski Manastir
+en;Rila Monastery;Rilski Manastir
+bg;Рилски манастир;Rilski Manastir
+da;Rila-klosteret;Rilski Manastir
+hu;Rilai kolostor;Rilski Manastir
+it;Monastero di Rila;Rilski Manastir
+nl;Rilaklooster;Rilski Manastir
+sr;Рилски манастир;Rilski Manastir
+sv;Rilaklostret;Rilski Manastir
+fi;Rilan luostari;Rilski Manastir
+bg;Рила;Rila
+bg;Ридово;Ridovo
+bg;Ридино;Ridino
+bg;Рибново;Ribnovo
+bg;Рибница;Ribnitsa
+bg;Рибник;Ribnik
+bg;Рибино;Ribino
+bg;Рибен Дол;Riben Dol
+bg;Рибен;Riben
+bg;Рибарци;Ribartsi
+bg;Рибарица;Ribaritsa
+bg;Резово;Rezovo
+bg;Режинци;Rezhintsi
+bg;Режанци;Rezhantsi
+bg;Резбарци;Rezbartsi
+bg;Резач;Rezach
+bg;Реяновци;Reyanovtsi
+bg;Ресилово;Resilovo
+bg;Ресен;Resen
+bg;Реселец;Reselets
+bg;Репляна;Replyana
+bg;Рельово;Relyovo
+bg;Рекичка;Rekichka
+bg;Река;Reka
+bg;Редова;Redova
+bg;Редина;Redina
+bg;Редешковци;Redeshkovtsi
+bg;Речница;Rechnitsa
+bg;Речица;Rechitsa
+bg;Речани;Rechani
+bg;Ребърково;Rebarkovo
+bg;Реброво;Rebrovo
+bg;Ребро;Rebro
+bg;Ребревци;Rebrevtsi
+bg;Развигорово;Razvigorovo
+bg;Резвалаци;Razvalatsi
+bg;Разсоха;Razsokha
+bg;Разлог;Razlog
+mk;Разлог;Razlog
+sr;Разлог;Razlog
+pl;Razłog;Razlog
+mk;Мехомија;Razlog
+de;Raslog;Razlog
+bg;Разлив;Razliv
+bg;Разград;Razgrad
+el;Ράζγκραντ;Razgrad
+mk;Разград;Razgrad
+sr;Разград;Razgrad
+de;Rasgrad;Razgrad
+bg;Раздолата;Razdolata
+bg;Раздол;Razdol
+bg;Разделци;Razdeltsi
+bg;Разделна;Razdelna
+bg;Раздел;Razdel
+bg;Разбойна;Razboyna
+bg;Разбоище;Razboishte
+bg;Раювци;Rayuvtsi
+bg;Райово;Rayovo
+bg;Райнушковци;Raynushkovtsi
+bg;Райновци;Raynovtsi
+bg;Райново;Raynovo
+bg;Райново;Raynino
+bg;Райковци;Raykovtsi
+bg;Райковска;Raykovska
+bg;Райкова Могила;Raykova Mogila
+bg;Раянци;Rayantsi
+bg;Раяновци;Rayanovtsi
+bg;Равново;Ravnovo
+bg;Равно Село;Ravno Selo
+bg;Равно Поле;Ravno Pole
+bg;Равно Нивище;Ravno Nivishte
+bg;Равногор;Ravnogor
+bg;Равно;Ravno
+bg;Равнище;Ravnishte
+bg;Равнища;Ravnishta
+bg;Равнината;Ravninata
+bg;Равнил;Ravnil
+bg;Равнец;Ravnets
+bg;Равна Гора;Ravna Gora
+bg;Равна;Ravna
+bg;Равен;Raven
+bg;Равда;Ravda
+bg;Равадиново;Ravadinovo
+bg;Ращник;Rastnik
+bg;Растник;Rastnik
+bg;Расово;Rasovo
+bg;Расник;Rasnik
+bg;Рашовица;Rashovitsa
+bg;Рашовите;Rashovite
+bg;Рашково;Rashkovo
+bg;Рашка Гращица;Rashka Grashtitsa
+bg;Рашевци;Rashevtsi
+bg;Раница;Ranitsa
+bg;Ранинци;Ranintsi
+bg;Рани Лъг;Rani Lug
+bg;Рани Луг;Rani Lug
+bg;Рани Лист;Rani List
+bg;Ралица;Ralitsa
+bg;Ралиновци;Ralinovtsi
+bg;Раличево;Ralichevo
+bg;Ралевци;Ralevtsi
+bg;Ралево;Ralevo
+bg;Раковсково;Rakovskovo
+bg;Раковски;Rakovski
+en;General Nikolaevo;Rakovski
+bg;Калъчлии;Rakovski
+bg;Генерал Николаево;Rakovski
+bg;Раково;Rakovo
+bg;Раковица;Rakovitsa
+bg;Раков Дол;Rakov Dol
+bg;Раклица;Raklitsa
+bg;Раклиново;Raklinovo
+bg;Ракитово;Rakitovo
+bg;Ракитница;Rakitnitsa
+ro;Rakintza;Rakitnitsa
+bg;Ракитина;Rakitna
+bg;Ракита;Rakita
+bg;Ракиловци;Rakilovtsi
+bg;Раховци;Rakhovtsi
+bg;Ракево;Rakevo
+bg;Раевци;Raevtsi
+bg;Радю;Raduy
+bg;Радуй;Raduy
+bg;Радунци;Raduntsi
+bg;Радуловци;Radulovtsi
+bg;Радуил;Raduil
+bg;Радойново;Radoynovo
+bg;Радойково;Butan
+bg;Бутан;Butan
+bg;Радовци;Radovtsi
+bg;Радово;Radovo
+bg;Радовец;Radovets
+bg;Радовене;Radovene
+bg;Радотина;Radotina
+bg;Радомирци;Radomirtsi
+bg;Радомир;Radomir
+sr;Радомир;Radomir
+bg;Радоевци;Radevtsi
+bg;Радоевското;Radoevskoto
+bg;Радневци;Radnevtsi
+bg;Раднево;Radnevo
+bg;Радловци;Radlovtsi
+bg;Радковци;Radkovtsi
+bg;Радко Димитриево;Radko Dimitrievo
+bg;Радишево;Radishevo
+bg;Радиново;Radinovo
+bg;Радино;Radino
+bg;Радинка;Radinka
+bg;Радин Град;Radin Grad
+bg;Радилово;Radilovo
+pl;Radiłowo;Radilovo
+bg;Радиево;Radievo
+bg;Радибош;Radibosh
+bg;Радевци;Radevtsi
+bg;Радево;Radevo
+bg;Радецки;Radetski
+bg;Радан Войвода;Radan Voyvoda
+bg;Раданово;Radanovo
+bg;Раданчето;Radancheto
+bg;Рада;Rada
+bg;Рашовци;Rachovtsi
+bg;Рашевци;Rachevtsi
+bg;Раброво;Rabrovo
+bg;Рабово;Rabovo
+bg;Рабиша;Rabisha
+bg;Пясъчник;Pyasachevo
+bg;Пътниково;Patnikovo
+bg;Пъстрово;Pastrovo
+bg;Пъстрок;Pastrook
+bg;Пъстроок;Pastrook
+bg;Пъстрогор;Pastrogor
+bg;Пъстрен;Pastren
+bg;Пушево;Pushevo
+bg;Пържикрак;Parzhigrah
+bg;Първомайци;Parvomaytsi
+bg;Сергювец;Parvomaytsi
+bg;Темниско;Parvomaytsi
+bg;Първомай;Parvomay
+bg;Първомайци;Parvomay
+bg;Първица;Parvitsa
+bg;Първенци;Parventsi
+bg;Първенец;Parvenets
+bg;Първан;Parvan
+bg;Пъртевци;Partevtsi
+bg;Пърша;Pŭrsha
+bg;Пъровци;Parovtsi
+bg;Пърличево;Parlichevo
+bg;Пънчево;Panchevo
+bg;Пудрия;Pudria
+bg;Пъдарци;Padartsi
+bg;Пъдарско;Padarsko
+bg;Пъдарино;Padarino
+bg;Пъдарево;Padarevo
+bg;Птичево;Ptichevo
+bg;Птичари;Ptichari
+bg;Птичар;Ptichar
+bg;Пшеничево;Pshenichevo
+bg;Пряпорец;Pryaporets
+bg;Провадия;Provadia
+bg;Протопопинци;Protopopintsi
+bg;Просторно;Prostorno
+bg;Просеник;Prosenik
+bg;Просена;Prosena
+bg;Просечен;Prosechen
+bg;Пропаст;Propast
+bg;Пролом;Prolom
+bg;Пролез;Prolez
+bg;Пролеша;Prolesha
+bg;Пролазница;Prolaznitsa
+bg;Пролаз;Prolaz
+bg;Прохорово;Prohorovo
+bg;Проход;Prohod
+bg;Прохлада;Prohlada
+bg;Проглед;Progled
+bg;Професор Златарски;Profesor Zlatarski
+bg;Професор-Иширково;Profesor Ishirkovo
+bg;Професор Иширково;Profesor Ishirkovo
+bg;Продановци;Prodanovtsi
+bg;Проданча;Prodancha
+bg;Пробуда;Probuda
+bg;Пристое;Pristoe
+bg;Пристан;Pristan
+bg;Присойна;Prisoyna
+bg;Присово;Prisovo
+bg;Присоето;Prisoeto
+bg;Приселци;Priseltsi
+bg;Присадец;Prisadets
+bg;Присад;Prisad
+bg;Припек;Pripek
+bg;Припечене;General Todorov
+bg;Генерал Тодоров;General Todorov
+bg;Приморци;Primortsi
+bg;Приморско;Primorsko
+bg;Прилепци;Prileptsi
+bg;Прилеп;Prilep
+bg;Придворица;Pridvoritsa
+bg;Прибой;Priboy
+bg;Превала;Prevala
+bg;Пресяка;Presyaka
+bg;Пресяк;Presyak
+bg;Престой;Prestoy
+bg;Преспа;Prespa
+bg;Пресока;Presoka
+bg;Преславци;Preslavtsi
+bg;Преславец;Preslavets
+bg;Преславен;Preslaven
+pl;Weliki Presław;Veliki Preslav
+es;Preslav;Veliki Preslav
+fr;Preslav;Veliki Preslav
+de;Weliki Preslaw;Veliki Preslav
+en;Preslav;Veliki Preslav
+bg;Велики Преслав;Veliki Preslav
+sv;Preslav;Veliki Preslav
+bg;Пресиян;Presiyan
+bg;Преселка;Preselka
+bg;Преселец;Preselets
+bg;Преселенци;Preselentsi
+bg;Преселка;Preseka
+bg;Пресека;Preseka
+bg;Преображенци;Preobrazhentsi
+bg;Прелом;Prelom
+bg;Прелез;Prelez
+bg;Прекръсте;Prekraste
+bg;Преколница;Prekolnitsa
+bg;Православен;Pravoslaven
+bg;Православ;Pravoslav
+bg;Право Бърдо;Pravo Bardo
+bg;Правенци;Praventsi
+bg;Правище;Pravishte
+bg;Правец;Pravets
+bg;Правешка Лакавица;Praveshka Lakavitsa
+bg;Правдолюб;Pravdolyub
+bg;Правдино;Pravdino
+bg;Правда;Pravda
+bg;Праужда;Prauzhda
+bg;Прахово;Prahovo
+bg;Прахавица;Prahavitsa
+bg;Прахалите;Prahalite
+bg;Позлата;Pozlata
+bg;Пожерник;Pozhernik
+bg;Пожарево;Pozharevo
+bg;Повиен;Povien
+bg;Повет;Povet
+bg;Повалиръж;Povalirazh
+bg;Почърненци;Potsarnentsi
+bg;Поцърненци;Potsarnentsi
+bg;Потор;Potop
+bg;Потока;Potoka
+bg;Поток;Potok
+bg;Поточница;Potochnitsa
+bg;Поточе;Potoche
+bg;Поточарка;Potocharka
+bg;Постник;Postnik
+bg;Пошево;Poshevo
+bg;Посев;Posev
+bg;Посабина;Posabina
+bg;Поручик-Кърджиево;Poruchik Kardzhievo
+bg;Поручик Кърджиево;Poruchik Kardzhievo
+bg;Поручик-Чунчево;Poruchik Chunchevo
+bg;Поручик Чунчево;Poruchik Chunchevo
+bg;Портитовци;Portitovtsi
+bg;Поройно;Poroyno
+bg;Поройна;Poroyna
+bg;Порой;Poroy
+bg;Поройно;Poroy
+bg;Пороминово;Porominovo
+bg;Пороище;Poroishte
+bg;Пордим;Pordim
+bg;Попско;Popsko
+bg;Попска;Popska
+bg;Поп Русевци;Pop Rusevtsi
+bg;Попрусаново;Poprusanovo
+bg;Попрелка;Poprelka
+bg;Попрайковци;Popraykovtsi
+bg;Поповяне;Popovyane
+bg;Поповци;Popovtsi
+bg;Попово;Popovo
+de;Popowo;Popovo
+sr;Попово;Popovo
+pl;Popowo;Popovo
+bg;Поповица;Popovitsa
+bg;Попович;Popovich
+bg;Поповец;Popovets
+bg;Попкралево;Popkralevo
+bg;Попица;Popitsa
+bg;Попинци;Popintsi
+bg;Попина;Popina
+bg;Попгруево;Popgruevo
+bg;Попгригорово;Popgrigorovo
+bg;Попгергевци;Popgergevtsi
+bg;Попари;Popari
+bg;Понор;Ponor
+bg;Помощник;Pomoshtnik
+bg;Помощница;Pomoshtitsa
+bg;Поморие;Pomorie
+el;Αγχίαλος;Pomorie
+mk;Поморие;Pomorie
+sr;Поморије;Pomorie
+bg;Помеждин;Pomezhdin
+bg;Помен;Pomen
+bg;Поляците;Polyatsite
+bg;Полянци;Polyantsi
+bg;Поляново;Polyanovo
+bg;Полянец;Polyanets
+bg;Поляна;Polyana
+bg;Полско Пъдарево;Polsko Padarevo
+bg;Полско Косово;Polsko Kosovo
+bg;Полски Тръмбеш;Polski Trambesh
+bg;Полски Сеновец;Polski Senovets
+bg;Полски Извор;Polski Izvor
+bg;Полски Градец;Polski Gradets
+bg;Полска Скакавица;Polska Skakavitsa
+bg;Полковник Желязово;Polkovnik Zhelyazovo
+bg;Полковник-Таслаково;Polkovnik-Taslakovo
+bg;Полковник Свещарово;Polkovnik Sveshtarovo
+bg;Полковник Серафимово;Polkovnik Serafimovo
+bg;Полковник-Савово;Polkovnik-Savovo
+bg;Полковник-Ламбриново;Polkovnik Lambrinovo
+bg;Полковник Ламбриново;Polkovnik Lambrinovo
+bg;Полковник-Дяково;Polkovnik Dyakovo
+bg;Полковник Дяково;Polkovnik Dyakovo
+bg;Полковник-Чолаково;Polkovnik Cholakovo
+bg;Полковник Чолаково;Polkovnik Cholakovo
+bg;Полиовци;Poliovtsi
+bg;Поликраище;Polikrayshte
+bg;Полето;Poleto
+bg;Полетковци;Poletkovtsi
+bg;Полетинци;Poletintsi
+bg;Поленица;Polenitsa
+bg;Полена;Polena
+bg;Покровник;Pokrovnik
+bg;Покрован;Pokrovan
+bg;Покрайна;Pokrayna
+bg;Поибрене;Poibrene
+bg;Подвръх;Podrvrah
+bg;Подвис;Podvis
+bg;Подслон;Podslon
+bg;Подрумче;Podrumche
+bg;Подлес;Podles
+bg;Подкрепа;Podkrepa
+bg;Подкова;Podkova
+bg;Подгумер;Podgumer
+bg;Подгорица;Podgoritsa
+bg;Подгорие;Podgorie
+bg;Подгорец;Podgorets
+bg;Подгоре;Podgore
+bg;Подем;Podem
+bg;Подайва;Podayva
+bg;Почивало;Pochivalo
+bg;Побит Камък;Pobit Kamak
+bg;Победа;Pobeda
+bg;Мансърлии;Pobeda
+bg;Плъжище;Plazishte
+bg;Плъщина;Plastina
+bg;Пловка;Plovka
+bg;Пловдивци;Plovdivtsi
+de;Plowdiw;Plovdiv
+bg;Пловдив;Plovdiv
+el;Φιλιππούπολη;Plovdiv
+pl;Płowdiw;Plovdiv
+it;Filippopoli;Plovdiv
+mk;Пловдив;Plovdiv
+sr;Пловдив;Plovdiv
+bg;Плоски;Ploski
+bg;Плоска Могила;Ploska Mogila
+bg;Плодовитово;Plodovitovo
+bg;Плиска;Pliska
+bg;Плевун;Plevun
+de;Plewen;Pleven
+bg;Плевен;Pleven
+pl;Plewen;Pleven
+ro;Plevna;Pleven
+mk;Плевен;Pleven
+sr;Плевен;Pleven
+el;Πλέβεν;Pleven
+bg;Плетена;Pletena
+bg;Плешивец;Pleshivets
+bg;Плешинци;Pleshintsi
+bg;Пленимир;Plenimir
+bg;Плажище;Plazishte
+bg;Платнарка;Platnarka
+bg;Планинци;Planintsi
+bg;Планиново;Planinovo
+bg;Планиница;Planinitsa
+bg;Планинец;Planinets
+bg;Планинско;Planinsko
+bg;Плана;Plana
+bg;Плакудер;Plakuder
+bg;Плаково;Plakovo
+bg;Плачковци;Plachkovtsi
+bg;Плачка;Plachka
+bg;Плачидол;Plachidol
+bg;Пиявец;Piyavets
+bg;Питово;Pitovo
+bg;Писменово;Pismenovo
+bg;Пишурка;Pishurka
+bg;Пищигово;Pishtigovo
+bg;Пищане;Pishtane
+bg;Писарово;Pisarovo
+bg;Писарево;Pisarevo
+bg;Писараци;Pisaratsi
+bg;Писаница;Pisanitsa
+bg;Писанец;Pisanets
+bg;Пирне;Pirne
+bg;Пиринец;Pirinets
+bg;Пирин;Pirin
+bg;Пиргово;Pirgovo
+bg;Пирдоп;Pirdop
+sr;Пирдоп;Pirdop
+bg;Пирамидата;Piramidata
+bg;Пиперково;Piperkovo
+bg;Пиперков Чифлик;Piperkov Chiflik
+bg;Пиперица;Piperitsa
+bg;Пиперево;Piperevo
+bg;Буково;Bukovo
+bg;Пичор;Pichor
+bg;Пейовци;Peyovtsi
+bg;Пейна;Peyna
+bg;Пейковци;Peykovtsi
+bg;Пейчиново;Peychinovo
+bg;Певците;Pevtsite
+bg;Певец;Pevets
+bg;Петвар;Petvar
+bg;Петърница;Petarnitsa
+bg;Петърч;Petarch
+bg;Пецовци;Petsovtsi
+bg;Петровци;Petrovtsi
+bg;Петрово;Petrovo
+bg;Петровдол;Petrovdol
+bg;Петров Дол;Petrov Dol
+bg;Петрино;Petrino
+bg;Петрич;Petrich
+fr;Pétritch;Petrich
+nl;Petritsj;Petrich
+el;Πετρίτσι;Petrich
+fi;Petritš;Petrich
+mk;Петрич;Petrich
+ro;Petrici;Petrich
+sr;Петрич;Petrich
+pl;Petricz;Petrich
+sv;Petritsj;Petrich
+bg;Петревене;Petrevene
+bg;Петрелик;Petrelik
+bg;Петокладенци;Petokladentsi
+bg;Пет Могили;Pet Mogili
+bg;Петлино;Petlino
+bg;Петлешково;Petleshkovo
+bg;Петковци;Petkovtsi
+bg;Петково;Petkovo
+bg;Петко Славейков;Petko Slaveykov
+bg;Пет Кладенци;Pet Kladentsi
+bg;Петелово;Petelovo
+bg;Песъчарка;Pesucharka
+bg;Песочница;Pesochnitsa
+bg;Песнопой;Pesnopoy
+bg;Пещерско;Peshtersko
+bg;Пещерна;Peshterna
+bg;Генчовци;Genchovtsi
+bg;Пещера;Peshtera
+bg;Пеша Лъка;Pesha Laka
+bg;Пешаково;Peshakovo
+bg;Перущица;Perushtitsa
+bg;Перуника;Perunika
+bg;Перперек;Perperek
+bg;Перник;Pernik
+mk;Перник;Pernik
+sr;Перник;Pernik
+el;Πέρνικ;Pernik
+bg;Периловец;Perilovets
+bg;Пердова Махала;Perdova Mahala
+bg;Пепелище;Pepelishte
+bg;Пепелина;Pepelina
+bg;Пеньово;Penyovo
+bg;Пенковци;Penkovtsi
+bg;Пенковци;Penkyovtsi
+bg;Пенкьовци;Penkyovtsi
+bg;Искър;Iskar
+bg;Пелишат;Pelishat
+bg;Пелин;Pelin
+bg;Пелатиково;Pelatikovo
+bg;Пехливанци;Pehlivantsi
+bg;Пеевско;Peevsko
+bg;Печинска;Pechinska
+bg;Печеница;Pechenitsa
+bg;Пчелно;Pchelno
+bg;Пчелник;Pchelnik
+bg;Пчелище;Pchelishte
+bg;Пчелиново;Pchelinovo
+bg;Пчелино;Pchelino
+bg;Пчелина;Pchelina
+bg;Пчелин;Pchelin
+bg;Пчеларци;Pchelartsi
+bg;Пчеларово;Pchelarovo
+bg;Пчелари;Pchelari
+bg;Пчела;Pchela
+bg;Пазарци;Pazartsi
+de;Pasardschik;Pazardzhik
+bg;Пазарджик;Pazardzhik
+cs;Pazardžik;Pazardzhik
+nl;Pazardzjik;Pazardzhik
+pl;Pazardżik;Pazardzhik
+ca;Pàzardjik;Pazardzhik
+da;Pazardsjik;Pazardzhik
+el;Πάζαρτζικ;Pazardzhik
+mk;Пазарџик;Pazardzhik
+sr;Пазарџик;Pazardzhik
+sv;Pazardzjik;Pazardzhik
+fr;Pazardjik;Pazardzhik
+bg;Пайдушко;Paydushko
+bg;Паволче;Pavolche
+bg;Павликени;Pavlikeni
+sr;Павликени;Pavlikeni
+bg;Павлевци;Pavlevtsi
+bg;Павелско;Pavelsko
+bg;Павел Баня;Pavel Banya
+bg;Павел;Pavel
+bg;Пауново;Paunovo
+bg;Патриарх-Евтимово;Patriarh-Evtimovo
+bg;Патршко;Patreshko
+bg;Патреш;Patresh
+bg;Патица;Patitsa
+bg;Паталеница;Patalenitsa
+bg;Пастух;Pastuh
+bg;Пастра;Pastra
+bg;Паспал;Paspal
+bg;Паскалево;Paskalevo
+bg;Паскалевец;Paskalevets
+bg;Пашово;Pashovo
+bg;Пашови;Pashovi
+bg;Пашкул;Pashkul
+bg;Пашинци;Pashintsi
+bg;Пасарел;Pasarel
+bg;Партизанин;Partizanin
+bg;Партизани;Partizani
+bg;Парил;Paril
+bg;Парчовци;Parchovtsi
+bg;Парамун;Paramun
+bg;Папратлива;Papratliva
+bg;Папрат;Paprat
+bg;Пановци;Panovtsi
+bg;Паницово;Panitsovo
+bg;Паничково;Panichkovo
+bg;Паничино;Panichino
+bg;Паничери;Panicheri
+bg;Pancharevo;Panicharevo
+bg;Паничарево;Panicharevo
+bg;Панчево;Panchevo
+bg;Панчарево;Pancharevo
+bg;Панайот-Волово;Panayot-Volovo
+bg;Панйот-Хитово;Panayot-Hitovo
+bg;Панаретовци;Panaretovtsi
+bg;Панагюрище;Panagyurishte
+bg;Памукчии;Pamukchii
+bg;Памидово;Pamidovo
+bg;Палици;Palitsi
+bg;Палилула;Palilula
+bg;Палаузово;Palauzovo
+bg;Палатово;Palatovo
+bg;Палатник;Palatnik
+bg;Палат;Palat
+bg;Паламарца;Palamartsa
+bg;Паисий;Paisiy
+bg;Паисиево;Paisievo
+bg;Падине;Padine
+bg;Падина;Padina
+bg;Падеш;Padesh
+bg;Падало;Padalo
+bg;Падала;Padala
+bg;Озърновци;Ozarnovtsi
+bg;Овощник;Ovoshtnik
+bg;Овощтна;Ovoshtna
+bg;Овощарци;Ovoshtartsi
+bg;Овнарци;Ovnarska Mahala
+bg;Овнарска Махала;Ovnarska Mahala
+bg;Овен;Oven
+bg;Овчи Кладенец;Ovchi Kladenets
+bg;Овчево;Ovchevo
+bg;Овчеполци;Ovchepoltsi
+bg;Овчарци;Ovchartsi
+bg;Овчарово;Ovcharovo
+bg;Овчари;Ovchari
+bg;Овча Могила;Ovcha Mogila
+bg;Овчага;Ovchaga
+bg;Отец-Паисиево;Otets-Paisievo
+bg;Отец Кирилово;Otets Kirilovo
+bg;Отешари;Oteshari
+bg;Остър Камък;Ostar Kamak
+bg;Острово;Ostrovo
+bg;Островица;Ostrovitsa
+bg;Островец;Ostrovets
+bg;Островче;Ostrovche
+bg;Остров;Ostrov
+bg;Острокарци;Ostrokaptsi
+bg;Острокапци;Ostrokaptsi
+bg;Острица;Ostritsa
+bg;Остри Пазлак;Ostri Pazlak
+bg;Острец;Ostrets
+bg;Остра Могила;Ostra Mogila
+bg;Осоица;Osoitsa
+bg;Осмар;Osmar
+bg;Ослен Криводол;Oslen Krivodol
+bg;Осларка;Oslarka
+bg;Осина;Osina
+bg;Осиковска Лакавица;Osikovska Lakavitsa
+bg;Осиково;Osikovo
+bg;Осиковица;Osikovitsa
+bg;Ощава;Oshtava
+bg;Ошаните;Oshanite
+bg;Ошане;Oshane
+bg;Осетеново;Osetenovo
+bg;Осеново;Osenovo
+bg;Осеновлаг;Osenovlag
+bg;Осеновец;Osenovets
+bg;Осенец;Osenets
+bg;Осенарите;Osenarite
+bg;Осен;Osen
+bg;Оселна;Oselna
+bg;Оряхово;Oryahovo
+bg;Оряховица;Oryahovitsa
+bg;Оряховец;Oryahovets
+bg;Орцево;Ortsevo
+bg;Орсоя;Orsoya
+bg;Орляне;Orlyane
+bg;Орляк;Orlyak
+bg;Орловци;Orlovtsi
+bg;Орлово;Orlovo
+bg;Орловец;Orlovets
+bg;Орлов Дол;Orlov Dol
+bg;Орлова Могила;Orlova Mogila
+bg;Орлица;Orlitsa
+bg;Орлинци;Orlintsi
+bg;Оризово;Orizovo
+bg;Оризари;Orizari
+bg;Оризаре;Orizare
+bg;Ново Ходжово;Novo Hodzhovo
+bg;Орешница;Oreshnitsa
+bg;Орешник;Oreshnik
+bg;Орещница;Oreshets
+bg;Орешино;Oreshino
+bg;Орешец;Oreshets
+bg;Орешене;Oreshene
+bg;Ореше;Oreshe
+bg;Орешари;Oreshari
+bg;Орешак;Oreshak
+bg;Ореша;Oresha
+bg;Ореш;Oresh
+bg;Орехово;Orehovo
+bg;Ореховица;Orehovitsa
+bg;Орач;Orach
+bg;Опълченско;Opalchensko
+bg;Опълченец;Opalchenets
+bg;Оплетня;Opletnya
+bg;Опицвет;Opitsvet
+bg;Опанец;Opanets
+bg;Опан;Opan
+bg;Опака;Opaka
+bg;Оногур;Onogur
+bg;Омуртаг;Omurtag
+bg;Омарчево;Omarchevo
+bg;Оман;Oman
+bg;Окорш;Okorsh
+bg;Окоп;Okop
+bg;Околиите;Okoliite
+bg;Охрид;Ohrid
+bg;Оходен;Ohoden
+bg;Охлювец;Ohlyuvets
+bg;Огражден;Ograzhden
+bg;Оградна;Ogradna
+bg;Огоя;Ogoya
+bg;Огняново;Ognyanovo
+bg;Огнен;Ognen
+bg;Оглед;Ogled
+bg;Одърци;Odartsi
+bg;Odarci;Odartsi
+bg;Одърне;Odarne
+bg;Одринци;Odrintsi
+bg;Одраница;Odranitsa
+bg;Одоровци;Odorovtsi
+bg;Odorovsi-;Odorovtsi
+bg;Одоровци-kashtata na baba Nadrjda;Odorovtsi
+bg;Османлар;Ocmanlar
+bg;Очуша;Ochusha
+bg;Очин дол;Ochindol
+de;Obsor;Obzor
+bg;Обзор;Obzor
+sr;Обзор;Obzor
+bg;Оброчище;Obruchishte
+bg;Оброчище;Obrochishte
+bg;Обретник;Obretenik
+bg;Обретеник;Obretenik
+bg;Оборище;Oborishte
+bg;Обнова;Obnova
+bg;Обител;Obitel
+bg;Обидим;Obidim
+bg;Обичник;Obichnik
+bg;Обел;Obel
+bg;Обединение;Obedinenie
+bg;Нушковци;Nyushkovtsi
+bg;Ножерите;Nozherite
+bg;Ножарово;Nozharovo
+bg;Ножарево;Nozharevo
+bg;Ново Железаре;Novo Zhelezare
+bg;Ново Янково;Novo Yankovo
+bg;Новоселяне;Novoselyane
+bg;Новоселци;Konstantinovo
+bg;Константиново;Konstantinovo
+bg;Ново Село;Novo Selo
+bg;Новоселище;Novoselishte
+bg;Новоселец;Novoselets
+bg;Новосел;Novosel
+bg;Ново Паничарево;Novo Panicharevo
+bg;Ново Оряхово;Novo Oryahovo
+bg;Ново Лески;Novo Leski
+bg;Ново Кономлади;Novo Konomladi
+bg;Ново Градище;Novo Gradishte
+bg;Новогорци;Novogortsi
+bg;Ново Делчево;Novo Delchevo
+bg;Ново Бърдо;Novo Bardo
+bg;Ново Ботево;Novo Botevo
+bg;Нови Пазар;Novi Pazar
+bg;Нови Хан;Novi Han
+bg;Нови Искър;Novi Iskar
+bg;Нови Чифлик;Novi Chiflik
+bg;Новград;Novgrad
+bg;Нова Загора;Nova Zagora
+el;Νόβα Ζαγόρα;Nova Zagora
+mk;Нова Загора;Nova Zagora
+sr;Нова Загора;Nova Zagora
+pl;Nowa Zagora;Nova Zagora
+bg;Нова Върбовка;Nova Varbovka
+bg;Новата Махала;Novata Mahala
+bg;Нова Спирка;Nova Shipka
+bg;Нова Попина;Nova Popina
+bg;Нова Надежда;Nova Nadezhda
+bg;Нова Махала;Nova Mahala
+bg;Нова Ловча;Nova Lovcha
+bg;Нова Ливада;Nova Livada
+bg;Новаковци;Novakovtsi
+bg;Новаково;Novakovo
+bg;Нова Камена;Nova Kamena
+bg;Новачево;Novachevo
+bg;Нова Черна;Nova Cherna
+bg;Новачене;Novachene
+bg;нова Бяла Река;Nova Byala Reka
+bg;Носеите;Noseite
+bg;Ноевци;Noevtsi
+bg;Ночево;Nochevo
+bg;Нивянин;Nivyanin
+bg;нивища;Nivishta
+bg;Нисово;Nisovo
+bg;Ниска Поляна;Niska Polyana
+bg;Никюп;Nikyup
+bg;Никудин;Nikudin
+bg;Никопол;Nikopol
+it;Nicopoli;Nikopol
+ca;Nicòpol;Nikopol
+hu;Nikápoly;Nikopol
+sr;Никопољ;Nikopol
+bg;Николовци;Nikolovtsi
+bg;Николово;Nikolovo
+bg;Николчовци;Nikolchovtsi
+bg;Никола-Козлево;Nikola-Kozlevo
+bg;Николаево;Nikolaevo
+bg;Николаевка;Nikolaevka
+bg;Никачковци;Nikachkovtsi
+bg;Нишовци;Nichovtsi
+bg;Нейково;Neykovo
+bg;Нейчовци;Neychovtsi
+bg;Невша;Nevsha
+bg;Невестино;Nevestino
+bg;Несла;Nesla
+bg;Нешевци;Neshevtsi
+pl;Nesebyr;Nesebar
+de;Nessebar;Nesebar
+bg;Несебър;Nesebar
+da;Nessebar;Nesebar
+fi;Nessebar;Nesebar
+fr;Nessebar;Nesebar
+nl;Nessebar;Nesebar
+sr;Несебар;Nesebar
+en;Nessebur;Nesebar
+el;Νέσεμπαρ;Nesebar
+hr;Nеsebăr;Nesebar
+hu;Neszebar;Nesebar
+mk;Несебар;Nesebar
+pt;Nessebar;Nesebar
+ca;Nessèbar;Nesebar
+bg;Непразненци;Nepraznentsi
+bg;Неофит Рилски;Neofit Rilski
+bg;Неофит Бозвелиево;Neofit Bozvelievo
+bg;Неновци;Nenovtsi
+bg;Неново;Nenovo
+bg;Ненково;Nenkovo
+bg;Негушево;Negushevo
+bg;Негованци;Negovantsi
+bg;Неговановци;Negovanovtsi
+bg;Негован;Negovan
+bg;Нефела;Nefela
+bg;Недялско;Nedyalsko
+bg;Недялковци;Nedyalkovtsi
+bg;Недоклан;Nedoklan
+bg;Неделково;Nedelkovo
+bg;Неделкова Гращица;Nedelkova Grashtitsa
+bg;Неделино;Nedelino
+bg;Неделево;Nedelevo
+bg;Недан;Nedan
+bg;Небеска;Nebeska
+bg;Найденово;Naydenovo
+bg;Найден-Герово;Nayden-Gerovo
+bg;Навъсен;Navasen
+bg;Наум;Naum
+bg;Научене;Nauchene
+bg;Нацовци;Natsovtsi
+bg;Насалевци;Nasalevtsi
+bg;Нареченски Бани;Narechenski Bani
+bg;Нановица;Nanovitsa
+bg;Нане;Nane
+bg;Надежден;Nadezhden
+bg;Надарци;Nadartsi
+bg;Надарево;Nadarevo
+bg;Начево;Nachevo
+bg;Мъженци;Mazhentsi
+bg;Мъзга;Muzga
+bg;Муця;Mutsya
+bg;Мътеница;Matenitsa
+bg;Мъсърлии;Masarlii
+bg;Мустрак;Mustrak
+bg;Мусомища;Musomishta
+en;Mosomishte;Musomishta
+bg;Мусина;Musina
+bg;Мусево;Musevo
+bg;Муселиево;Muselievo
+bg;Мусачево;Musachevo
+bg;Мързян;Marzyan
+bg;Мърводол;Marvodol
+bg;Мъртвината;Martvinata
+bg;Муртинци;Murtintsi
+bg;Мурсалево;Mursalevo
+bg;Мургово;Murgovo
+bg;Мургаш;Murgash
+bg;Мурга;Murga
+bg;Мурено;Mureno
+bg;Мърчево;Marchevo
+bg;Мърчаево;Marchaevo
+bg;Рупите;Rupite
+bg;Мулдава;Muldava
+bg;Мъхово;Muhovo
+bg;Мухово;Muhovo
+bg;Мъглиж;Maglizh
+bg;Мъглища;Maglishta
+bg;Мъглене;Maglene
+bg;Мъглен;Maglen
+bg;Мугла;Mugla
+bg;Мъдрино;Madrino
+bg;Мъдрево;Madrevo
+bg;Мъдрец;Madrets
+bg;Мръзеци;Mrazetsi
+bg;Мрежичко;Mrezhichko
+bg;Мразинца;Mrazintsa
+bg;Мараморен;Mramoren
+bg;Мрамор;Mramor
+bg;Марамор;Mramor
+bg;Мрахори;Mrahori
+bg;Мракетинци;Mraketintsi
+bg;Мраченик;Mrachenik
+bg;Мостово;Mostovo
+bg;Мостич;Mostich
+bg;Мост;Most
+bg;Московец;Moskovets
+bg;Мощанец;Moshtanets
+bg;Морянци;Moryantsi
+bg;Мортагоново;Mortagonovo
+bg;Морозово;Morozovo
+bg;Моровеците;Morovetsite
+bg;Моравка;Moravka
+bg;Моравица;Moravitsa
+bg;Морава;Morava
+bg;Мн. Свети Никола;Monastir Stânt Nicolae
+bg;Момково;Momkovo
+bg;Моминско;Mominsko
+bg;Момин Сбор;Momin Sbor
+bg;Момино Село;Momino Selo
+bg;Момино;Momino
+bg;Момина Сълза;Momina Salza
+bg;Момина Клисура;Momina Klisura
+bg;Момчиловци;Momchilovtsi
+bg;Момчилово;Momchilovo
+bg;Момчилград;Momchilgrad
+bg;Царичино;Tsarichino
+bg;Мокрище;Mokrishte
+bg;Мокреш;Mokresh
+bg;Душилница;Mokresh
+bg;Могиляне;Mogilyane
+bg;Могилово;Mogilovo
+bg;Могилица;Mogilitsa
+bg;Могилите;Mogilite
+bg;Могилище;Mogilishte
+bg;Могилино;Mogilino
+bg;Могилец;Mogilets
+bg;Могила;Mogila
+bg;Модрен;Modren
+bg;Мочуре;Mochure
+bg;Млекарево;Mlekarevo
+bg;Млечино;Mlechino
+bg;Млечево;Mlechevo
+bg;Млечановци;Mlechanovtsi
+bg;Мламолово;Mlamolovo
+bg;Младово;Mladovo
+bg;Младиново;Mladinovo
+bg;Младежко;Mladezhko
+bg;Младен;Mladen
+bg;Млада Гвардия;Mlada Gvardia
+bg;Мизия;Mizia
+de;Mizien;Mizia
+bg;Мийковци;Miykovtsi
+bg;Митровци;Mitrovtsi
+bg;Митовска;Mitovska
+bg;Митино;Mitino
+bg;Мишкарете;Mishkarete
+bg;Мишевско;Mishevsko
+bg;Мишеморков Хан;Mishemorkov Han
+bg;Мирянци;Miryantsi
+bg;Мировяне;Mirovyane
+bg;Мировци;Mirovtsi
+bg;Мирово;Mirovo
+bg;Враца;Vrattsa
+bg;Вратца;Vrattsa
+bg;Мировец;Mirovets
+bg;Миролюбови;Mirolyubovo
+bg;Миролюбово;Mirolyubovo
+bg;Мирково;Mirkovo
+bg;Мириовец;Miriovets
+bg;Мирчовци;Mirchovtsi
+bg;Минзухар;Minzuhar
+bg;Миневци;Minevtsi
+bg;Минерални Бани;Mineralni Bani
+bg;Миндя;Mindya
+bg;Милославци;Miloslavtsi
+bg;Милковци;Milkovtsi
+bg;Милковци;Milkyovtsi
+bg;Милкьовци;Milkyovtsi
+bg;Милково;Milkovo
+bg;Милковица;Milkovitsa
+bg;Милино;Milino
+bg;Милевци;Milevtsi
+bg;Милево;Milevo
+bg;Миленча;Milencha
+bg;Миле;Mile
+bg;Милчина Лъка;Milchina Laka
+bg;Миланово;Milanovo
+bg;Миладиновци;Miladinovtsi
+bg;Миладиново;Miladinovo
+bg;Микре;Mikre
+bg;Миховци;Mihotvsi
+bg;Михнево;Mihnevo
+bg;Михилист;Mihiltsi
+bg;Михайловци;Mihaylovtsi
+bg;Михайлово;Mihaylovo
+bg;Монтана;Montana
+el;Μοντάνα;Montana
+mk;Монтана;Montana
+sr;Монтана;Montana
+bg;Михалци;Mihaltsi
+bg;Михалково;Mihalkovo
+bg;Михалич;Mihalich
+de;Zarewo;Tsarevo
+bg;Царево;Tsarevo
+bg;Мишковци;Michkovtsi
+bg;Междени;Mezhdeni
+bg;Межден;Mezhden
+bg;Межда;Mezhda
+bg;Мезек;Mezek
+bg;Мездрея;Mezdreya
+bg;Мездра;Mezdra
+mk;Мездра;Mezdra
+sr;Мездра;Mezdra
+bg;Мазарлък дере;Mezarluk Dere
+bg;Метохия;Metohia
+bg;Metohiya;Metohia
+bg;Методиево;Metodievo
+bg;Метлика;Metlika
+bg;Метличка;Metlichka
+bg;Метличина;Metlichina
+bg;Места;Mesta
+bg;Мещица;Meshtitsa
+bg;Меричлери;Merichleri
+bg;Мерданя;Merdanya
+bg;Менгишево;Mengishevo
+bg;Мененково;Menenkyovo
+bg;Мененкьово;Menenkyovo
+bg;Мендово;Mendovo
+bg;Меляне;Melyane
+bg;Мелница;Melnitsa
+bg;Мелник;Melnik
+bg;Медвен;Medven
+bg;Медово;Medovo
+bg;Медовница;Medovnitsa
+bg;Медовина;Medovina
+bg;Медовец;Medovets
+bg;Медовене;Medovene
+bg;Медникарово;Mednikarovo
+bg;Медковец;Medkovets
+bg;Медевци;Medevtsi
+bg;Медешевци;Medeshevtsi
+bg;Меден Кладенец;Meden Kladenets
+bg;Медени Поляни;Medeni Polyani
+bg;Меден Бук;Meden Buk
+bg;Мечово;Mechovo
+bg;Мечкул;Mechkul
+bg;Мечковци;Mechkovtsi
+bg;Мечковица;Mechkovitsa
+bg;Мечкарево;Mechkarevo
+bg;Мечка;Mechka
+bg;Мече Ухо;Meche Uho
+bg;Мече Корито;Meche Korito
+bg;Мазарачево;Mazarachevo
+bg;Майсторово;Maystorovo
+bg;Майско;Maysko
+bg;Майор Узуново;Mayor Uzunovo
+bg;Маца;Matsa
+bg;Маточина;Matochina
+bg;Матешовци;Mateshovtsi
+bg;Маслиново;Maslinovo
+bg;Масларево;Maslarevo
+bg;Марян;Maryan
+bg;Маруцековци;Marutsekovtsi
+bg;Марулево;Marulevo
+bg;Мартинска;Martinska
+bg;Мартиново;Martinovo
+bg;Мартино;Martino
+bg;Мартен;Marten
+bg;Марково Равнище;Markovo Ravnishte
+bg;Марково;Markovo
+bg;Марица;Maritsa
+bg;Мариновци;Marinovtsi
+bg;Марино Поле;Marino Pole
+bg;Мариновци;Marino
+bg;Маринка;Marinka
+bg;Марикостиново;Marikostinovo
+bg;Марговци;Margovtsi
+bg;Марчинао;Marchino
+bg;Марчево;Marchevo
+bg;Мараш;Marash
+bg;Марафелци;Marafeltsi
+bg;Манушевци;Manushevtsi
+bg;Маноя;Manoya
+bg;Манолско Конаре;Manolsko Konare
+bg;Манолово;Manolovo
+bg;Манолич;Manolich
+bg;Маноле;Manole
+bg;Маневци;Manevtsi
+bg;Мандрица;Mandritsa
+bg;Мандра;Mandra
+bg;Манчево;Manchevo
+bg;Манастирци;Manastirtsi
+bg;Манастирско;Manastirsko
+bg;Манастирица;Manastiritsa
+bg;Манастирище;Manastirishte
+bg;Манастир;Manastir
+bg;Манаселска река;Manaselska Reka
+bg;Мамарчево;Mamarchevo
+bg;Малък Вършец;Malak Varshets
+bg;Малък Преславец;Malak Preslavets
+bg;Малък Поровец;Malak Porovets
+bg;Малък Манастир;Malak Manastir
+bg;Малък Извор;Malak Izvor
+bg;Малък Девесил;Malak Devesil
+bg;Малък Чардак;Malak Chardak
+bg;Мало Село;Malo Selo
+bg;Малорад;Malorad
+bg;Мало Пещене;Malo Peshtene
+bg;Маломирово;Malomirovo
+bg;Маломир;Malomir
+bg;Мало Малово;Malo Malovo
+bg;Мало Крушево;Malo Krushevo
+bg;Мало Конаре;Malo Konare
+bg;Малоградец;Malogradets
+bg;Мало Бучино;Malo Buchino
+bg;Мало Враново;Malko Vranovo
+bg;Малко Враново;Malko Vranovo
+bg;Малко Търново;Malko Tarnovo
+bg;Малко Църквище;Malko Tsarkvishte
+bg;Малко Тръново;Malko Tranovo
+bg;Малко Шарково;Malko Sharkovo
+bg;Малко Село;Malko Selo
+bg;Малко Попово;Malko Popovo
+bg;Малко Крушево;Malko Krushevo
+bg;Малко Кирилово;Malko Kirilovo
+bg;Малко Каменяне;Malko Kamenyane
+bg;Малко Кадиево;Malko Kadievo
+bg;Малко Градище;Malko Gradishte
+bg;Малко Дряново;Malko Dryanovo
+bg;Малко Чочовени;Malko Chochoveni
+bg;Малкоч;Malkoch
+bg;Малко Брягово;Malko Bryagovo
+bg;Малко Асеново;Malko Asenovo
+bg;Малки Вършец;Malki Vŭrshets
+bg;Малки Воден;Malki Voden
+bg;Малки Цалим;Malki Tsalim
+bg;Малки Станчовци;Malki Stanchovtsi
+bg;Малки Искър;Malki Iskar
+bg;Малки Чифлик;Malki Chiflik
+bg;Малки Българени;Malki Balgareni
+bg;Малка Желязна;Malka Zhelyazna
+bg;Малка Верея;Malka Vereya
+bg;Малка Смолница;Malka Smolnitsa
+bg;Малка Поляна;Malka Polyana
+bg;Малка Чинка;Malka Chinka
+bg;Малка Черковна;Malka Cherkovna
+bg;Малка Арда;Malka Arda
+bg;Мали Върбовник;Mali Varbovnik
+bg;Малиново;Malinovo
+bg;Малини;Malini
+bg;Малина;Malina
+ro;Acbunarul Mic;Mali Izvor
+bg;Мали Извор;Mali Izvor
+bg;Мали Дреновец;Mali Drenovets
+bg;Малево;Malevo
+bg;Маленово;Malenovo
+bg;Малчовци;Malchovtsi
+bg;Малчика;Malchika
+bg;Мала Зърква;Mala Zărkwa
+bg;Мала Църква;Mala Tsarkva
+bg;Мала Раковица;Mala Rakovitsa
+bg;Мала Фуча;Mala Fucha
+bg;Макреш;Makresh
+bg;Маково;Makovo
+bg;Макоцево;Makotsevo
+bg;Махмутовци;Mahmutovtsi
+bg;Махмутица;Mahmutitsa
+bg;Махалници;Mahalnitsi
+bg;Махалата;Mahalata
+bg;Мхала Спасова;Mahala Spasova
+bg;Махала Поляна;Mahala Polyana
+bg;Махала Надежден;Mahala Nadezhden
+bg;Махала Кърджа;Mahala Kardzha
+bg;Мхала Беланци;Mahala Belantsi
+bg;Македонци;Makedontsi
+bg;Македонка;Makedonka
+bg;Макариополско;Makariopolsko
+bg;Макак;Makak
+bg;Мак;Mak
+bg;Магерови;Magerovi
+bg;Магарджица;Magardzhitsa
+bg;Маджерито;Madzherito
+bg;Маджарово;Madzharovo
+sr;Маџарово;Madzharovo
+pl;Madżarowo;Madzharovo
+pt;Madžarovo;Madzharovo
+sv;Madzjarovo;Madzharovo
+bg;Маджари;Madzhari
+bg;Маджаре;Madzhare
+bg;Мадара;Madara
+bg;Мадан;Madan
+bg;Мачковци;Machkovtsi
+bg;Лютово;Lyutovo
+bg;Лютидол;Lyutidol
+bg;Лютиброд;Lyutibrod
+bg;Лютеглав;Lyuteglav
+bg;Лютаджик;Lyutadzhik
+bg;Люляково;Lyulyakovo
+bg;Люляк;Lyulyak
+bg;Люлка;Lyulka
+bg;Люлин;Lyulin
+bg;Tsarnel;Lyulin
+bg;Любовка;Lyubovka
+bg;Любовище;Lyubovishte
+bg;Любница;Lyubnitsa
+bg;Любен;Lyublen
+bg;Любино;Lyubino
+bg;Любимец;Lyubimets
+bg;Любичево;Lyubichevo
+bg;Любенци;Lyubentsi
+bg;Любеново;Lyubenovo
+bg;Любенова Махала;Lyubenova Mahala
+bg;Любен Каравелово;Lyuben Karavelovo
+bg;Любенец;Lyubenets
+bg;Любен;Lyuben
+bg;Любча;Lyubcha
+bg;Лява Река;Lyava Reka
+bg;Лятно;Lyatno
+bg;Лясково;Lyaskovo
+bg;Лясковец;Lyaskovets
+bg;Лялинци;Lyalintsi
+bg;Ляхово;Lyahovo
+bg;Лъжница;Lazhnitsa
+bg;Лъвска;Lavska
+bg;Лъвово;Lavovo
+bg;Лъвино;Lavino
+bg;Лъмава;Lamava
+bg;Луличка;Lulichka
+bg;Луково;Lukovo
+bg;Луковит;Lukovit
+bg;Лъки;Laki
+bg;Лъкавица;Lakavitsa
+bg;Лъка;Laka
+bg;Лъга;Lŭga
+bg;Лъджа;Ladzha
+bg;Ладжа;Ladzha
+bg;Лудогорци;Ludogortsi
+bg;Лозно;Lozno
+bg;Лозница;Loznitsa
+bg;Лозица;Lozitsa
+bg;Лозево;Lozevo
+bg;Лозето;Lozeto
+bg;Лозеница;Lozenitsa
+bg;Лозенградци;Lozengradtsi
+bg;Лозенец;Lozenets
+bg;Лозарево;Lozarevo
+bg;Лоза;Loza
+bg;Ловците;Lovtsite
+bg;Ловци;Lovtsi
+bg;Ловнидол;Lovnidol
+bg;Ловец;Lovets
+bg;Ловеч;Lovech
+nl;Lovetsj;Lovech
+da;Lovetj;Lovech
+el;Λόβετς;Lovech
+fi;Lovetš;Lovech
+mk;Ловеч;Lovech
+no;Lovetsj;Lovech
+ro;Loveci;Lovech
+sr;Ловеч;Lovech
+pl;Łowecz;Lovech
+sv;Lovetj;Lovech
+fr;Lovetch;Lovech
+de;Lowetsch;Lovech
+bg;Ловчанци;Lovchantsi
+bg;Лопян;Lopyan
+bg;Лопушня;Lopushnya
+bg;Лопушна;Lopushna
+bg;Ломци;Lomtsi
+bg;Ломница;Lomnitsa
+bg;Ломец;Lomets
+bg;Лом;Lom
+bg;Локвата;Lokvata
+bg;Локорско;Lokorsko
+bg;Лобош;Lobosh
+bg;Ливада;Livada
+bg;Литаково;Litakovo
+bg;Листец;Listets
+bg;Лисово;Lisovo
+bg;Лисия;Lisia
+bg;Лиси Връх;Lisi Vrah
+bg;Лисиците;Lisitsite
+bg;Лисец;Lisets
+bg;Липница;Lipnitsa
+bg;Липник;Lipnik
+bg;Липинци;Lipintsi
+bg;Липец;Lipets
+bg;Липен;Lipen
+bg;Лимец;Limets
+bg;Лиляново;Lilyanovo
+bg;Лиляк;Lilyak
+bg;Лиляче;Lilyache
+bg;Лиляч;Lilyach
+bg;Лилково;Lilkovo
+bg;Лилеково;Lilekovo
+bg;Лик;Lik
+bg;Леярово;Leyarovo
+bg;Левуново;Levunovo
+bg;Левски;Levski
+bg;Левочево;Levochevo
+bg;Левка;Levka
+bg;Лева Река;Leva Reka
+bg;Летовник;Letovnik
+bg;Летница;Letnitsa
+bg;Лесура;Lesura
+bg;Лесово;Lesovo
+bg;Лесново;Lesnovo
+bg;Лесково;Lyaskovo
+bg;Лесковица;Leskovitsa
+bg;Лескови Колиби;Leskovi Kolibi
+bg;Лесковец;Leskovets
+bg;Лесковдол;Leskovdol
+bg;Лесков дол;Leskovdol
+bg;Леска;Leska
+bg;Лесидрен;Lesidren
+bg;Лесичово;Lesichovo
+bg;Лесичери;Lesicheri
+bg;Лесиче;Lesiche
+bg;Лесичарка;Lesicharka
+bg;Лещен;Leshten
+bg;Лещарка;Leshtarka
+bg;Лещак;Leshtak
+bg;Лешница;Leshnitsa
+bg;Лешниковци;Leshnikovtsi
+bg;Лешниково;Leshnikovo
+bg;Лешко Пресои;Leshko Presoi
+bg;Лешко;Leshko
+bg;Лепица;Lepitsa
+bg;Ленско;Lensko
+bg;Леново;Lenovo
+bg;Ленково;Lenkovo
+bg;Ленище;Lenishte
+bg;Лелинци;Lelintsi
+bg;Лехово;Lehovo
+bg;Лехчево;Lehchevo
+bg;Леденик;Ledenik
+bg;Лебница;Lebnitsa
+bg;Лебед;Lebed
+bg;Лазарци;Lazartsi
+bg;Торос;Toros
+bg;Лазарово;Lazarovo
+bg;Латинка;Latinka
+bg;Ласкарево;Laskarevo
+bg;Ласкар;Laskar
+bg;Ламбух;Lambuh
+bg;Лалково;Lalkovo
+bg;Лале;Lale
+bg;Лакатник;Lakatnik
+bg;Лакарево;Lakarevo
+bg;Лагошевци;Lagoshevtsi
+bg;Лагерите;Lagerite
+bg;Ладарево;Ladarevo
+de;Kjustendil;Kyustendil
+bg;Кюстендил;Kyustendil
+el;Κιουστεντίλ;Kyustendil
+sv;Kjustendil;Kyustendil
+bg;Кюлевча;Kyulevcha
+bg;Кузово;Kuzyovo
+bg;Кутугерци;Kutugertsi
+bg;Кустово;Kutsovo
+bg;Куцино;Kutsino
+bg;Куцина;Kutsina
+bg;Куцаровци;Kutsarovtsi
+bg;Кутово;Kutovo
+bg;Кутловица;Kutlovitsa
+bg;Кътино;Katino
+bg;Кътина;Katina
+bg;Кутела;Kutela
+bg;Кушлите;Kushlite
+bg;Къшле;Kashle
+bg;Кушла;Kushla
+bg;Къшин;Kashin
+bg;Късак;Kasak
+bg;Къртожабене;Kartozhabene
+bg;Куртово Конаре;Kurtovo Konare
+bg;Куртово;Kurtovo
+bg;Кърти Пъня;Karti Panya
+bg;Кършалево;Karshalevo
+bg;Кърпелево;Karpelevo
+bg;Кърпачево;Karpachevo
+bg;Курново;Kurnovo
+bg;Кърнаре;Karnare
+bg;Кърналово;Karnalovo
+bg;Кърланово;Karlanovo
+de;Kardschali;Kardzhali
+bg;Кърджали;Kardzhali
+fr;Kardjali;Kardzhali
+nl;Kardzjali;Kardzhali
+cs;Kardžali;Kardzhali
+da;Kardzjali;Kardzhali
+el;Κάρτζαλι;Kardzhali
+fi;Kărdžali;Kardzhali
+hr;Krdžali;Kardzhali
+mk;Крџали;Kardzhali
+ro;Kărdjali;Kardzhali
+sk;Kărdžali;Kardzhali
+sr;Крџали;Kardzhali
+pl;Kyrdżali;Kardzhali
+sv;Kardzjali;Kardzhali
+bg;Кърчовско;Karchovsko
+bg;Купците;Kuptsite
+bg;Къпиновци;Kapinovtsi
+bg;Къпиново;Kapinovo
+bg;Къпинец;Kapinets
+bg;Купен;Kupen
+bg;Кунино;Kunino
+bg;Кънино;Kanino
+bg;Кунево;Kunevo
+bg;Кундево;Kundevo
+bg;Кънчево;Kanchevo
+bg;Кумановци;Kumanovtsi
+bg;Куманово;Kumanovo
+bg;куманите;Kumanite
+bg;Кълново;Kalnovo
+bg;Кулина Вода;Kulina Voda
+bg;Кулева;Kuleva
+bg;Кулата;Kulata
+bg;Кула;Kula
+bg;Кукувица;Kukuvitsa
+bg;Кукуряк;Kukuryak
+bg;Кукурахчето;Kukurahtsevo
+bg;Кукурахцево;Kukurahtsevo
+bg;Къкрина;Kakrina
+bg;Куковци;Kukovtsi
+bg;Кукорево;Kukorevo
+bg;Кукля;Kuklya
+bg;Къклица;Kaklitsa
+bg;Куклен;Kuklen
+bg;Куделин;Kudelin
+bg;Кубратово;Kubratovo
+bg;Кубрат;Kubrat
+bg;Кубадин;Kubadin
+bg;Кръвеник;Kravenik
+bg;Кръстина;Krastina
+bg;Кръстилци;Krastiltsi
+bg;Кръстевци;Krastevtsi
+bg;Кръстевич;Krastevich
+bg;Кръстец;Krastec
+bg;Кръстеняците;Krastenyatsite
+bg;Кръстава;Krastava
+bg;Кръстатица;Krastatitsa
+bg;Крушуна;Krushuna
+bg;Крушово;Krushovo
+bg;Крушовица;Krushovitsa
+bg;Крушовене;Krushovene
+bg;Крушов дол;Krushov Dol
+bg;Крушолак;Krusholak
+bg;Кръшно;Krashno
+bg;Крушка;Krushka
+bg;Крушевска;Krushevska
+bg;Крушево;Krushevo
+bg;Крушевец;Krushevets
+bg;Крушев Дол;Krushev Dol
+bg;Крушето;Krusheto
+bg;Крушата;Krushata
+bg;Крушари;Krushari
+bg;Крушаре;Krushare
+bg;Круша;Krusha
+bg;Крупник;Krupnik
+bg;Крупен;Krupen
+bg;Крънджилица;Krŭndzhilitsa
+bg;Крънча;Krancha
+bg;Крън;Kran
+bg;Крумово градище;Krumovo Gradishte
+bg;Крумово;Krumovo
+de;Krumowo;Krumovo
+bg;Крумовград;Krumovgrad
+bg;Крумчевци;Krumchevtsi
+bg;Крум;Krum
+bg;Кръкожабене;Krakozhabene
+bg;Кроячево;Kroyachevo
+bg;Крояч;Kroyach
+bg;Кромидово;Kromidovo
+bg;Криво поле;Krivo Pole
+bg;Кривонос;Krivonos
+bg;Криводол;Krivodol
+bg;Кривня;Krivnya
+bg;Кривица;Krivitsa
+bg;Кривини;Krivini
+bg;Кривина;Krivina
+bg;Крива река;Kriva Reka
+bg;крива круша;Kriva Krusha
+bg;Крива Бара;Kriva Bara
+bg;Крислово;Krislovo
+bg;Крин;Krin
+bg;Крилювци;Krilyuvtsi
+bg;Крилатица;Krilatitsa
+bg;Кричим;Krichim
+bg;Крибул;Kribul
+bg;Крета;Kreta
+bg;Кресна;Kresna
+mk;Кресна;Kresna
+sr;Кресна;Kresna
+bg;Креслювци;Kreslyuvtsi
+bg;Крепост;Krepost
+bg;Крепча;Krepcha
+bg;Кременица;Kremenitsa
+bg;Кременик;Kremenik
+bg;Кременец;Kremenets
+bg;Кремене;Kremene
+bg;Кремена;Kremena
+bg;Кремен;Kremen
+bg;Крайполе;Kraypole
+bg;Крайново;Kraynovo
+bg;Крайно село;Krayno Selo
+bg;Крайнинци;Kraynitsi
+bg;Крайни Дол;Krayni Dol
+bg;Крайна;Krayna
+bg;Крайморие;Kraymorie
+bg;Крайгорци;Kraygortsi
+bg;Краводер;Kravoder
+bg;Кравино;Kravino
+bg;Красново;Krasnovo
+bg;Красноселци;Krasnoseltsi
+bg;Красно градище;Krasno Gradishte
+bg;Красино;Krasino
+bg;Красимир;Krasimir
+bg;Красен дол;Krasen Dol
+bg;Красен;Krasen
+bg;Красава;Krasava
+bg;Крапец;Krapets
+bg;Крапчене;Krapchene
+bg;Краново;Kranovo
+bg;Кранево;Kranevo
+bg;Кран;Kran
+bg;Крамолин;Kramolin
+bg;Крали Марко;Krali Marko
+bg;Кралево;Kralevo
+bg;Кралевдол;Kralevdol
+bg;Кракра;Krakra
+bg;Краище;Kraishte
+bg;Крагуево;Kragulevo
+bg;Крагулево;Kragulevo
+bg;Краево;Kraevo
+bg;Краева бачия;Kraeva Bachia
+bg;Крачимир;Krachimir
+bg;Козята река;Kozya Reka
+bg;Козяк;Kozyak
+bg;Козница;Koznitsa
+bg;Козма Презвитер;Kozma Prezviter
+bg;Козловец;Kozlovets
+bg;Козлодуйци;Kozloduytsi
+de;Kosloduj;Kozloduy
+fr;Kozlodouy;Kozloduy
+bg;Козлодуй;Kozloduy
+sr;Козлодуј;Kozloduy
+pl;Kozłoduj;Kozloduy
+bg;Козлево;Kozlevo
+bg;Козлец;Kozlets
+bg;Козица;Kozitsa
+bg;Кози Рог;Kozi Rog
+bg;Козино;Lozino
+bg;Лозино;Lozino
+bg;Козин Дол;Kozin Dol
+bg;Козичино;Kozichino
+bg;Кожухарци;Kozhuhartsi
+bg;Кожлювци;Kozhlyuvtsi
+bg;Кожинци;Kozhintsi
+bg;Кожари;Kozhari
+bg;Козарско;Kozarsko
+bg;Козарка;Kozarka
+bg;Козарево;Kozarevo
+bg;Козаревец;Kozarevets
+bg;Козаре;Kozare
+bg;Козар Белене;Kozar Belene
+bg;Козаново;Kozanovo
+bg;Койнаре;Koynare
+bg;Койчовци;Koychovtsi
+bg;Ковил;Kovil
+bg;Ковачица;Kovachitsa
+bg;Ковачите;Kovachite
+bg;Ковачевци;Kovachevtsi
+bg;Ковачево;Kovachevo
+bg;Ковачевица;Kovachevitsa
+bg;Ковачевец;Kovachevets
+bg;Ковач;Kovach
+bg;Котуци;Kotutsi
+bg;Котленци;Kotlentsi
+bg;Котлари;Kotlari
+bg;Котеновци;Kotenovtsi
+bg;Котел;Kotel
+bg;Костуринци;Kosturintsi
+bg;Костурино;Kosturino
+bg;Костур;Kostur
+bg;Костино;Kostino
+bg;Костинброд;Kostinbrod
+bg;Костиково;Kostilkovo
+bg;Костилково;Kostilkovo
+bg;Костиево;Kostievo
+bg;Костичовци;Kostichovtsi
+bg;Кости;Kosti
+bg;Костенци;Kostentsi
+bg;Костенковци;Kostenkovtsi
+bg;Костенец;Kostenets
+bg;Костена река;Kostena Reka
+bg;Костен;Kosten
+bg;Костелево;Kostelevo
+bg;Костел;Kostel
+bg;Коста Перчево;Kosta Perchevo
+bg;Костандово;Kostandovo
+bg;Костанденец;Kostandenets
+bg;Костан чаир;Kostan Chair
+bg;Костадините;Kostadinite
+bg;Косово;Kosovo
+bg;Косовец;Kosovets
+bg;Косова махала;Kosova Mahala
+bg;Космата;Kosmata
+bg;Кошуте;Koshute
+bg;Кошов;Koshov
+bg;Кошница;Koshnitsa
+bg;Кошничари;Koshnichari
+bg;Кошава;Koshava
+bg;Кошарна;Kosharna
+bg;Кошарица;Kosharitsa
+bg;Кошарево;Kosharevo
+bg;Кьосевци;Kyosevtsi
+bg;Косевци;Kosevtsi
+bg;Кьосево;Kyosevo
+bg;Кьосева;Kyoseva
+bg;Косарка;Kosarka
+bg;Косара;Kosara
+bg;Косача;Kosacha
+bg;Кос;Kos
+bg;Кортен;Korten
+bg;Корова;Korova
+bg;Корница;Kornitsa
+bg;Кормянско;Kormyansko
+bg;Кормисош;Kormisosh
+bg;Коркина;Korkina
+bg;Корията;Koriyata
+bg;Коритен;Koriten
+bg;Коритата;Koritata
+bg;Кориите;Koriite
+bg;Корен;Koren
+bg;Копривщица;Koprivshtitsa
+fr;Koprivchtitsa;Koprivshtitsa
+mk;Копривштица;Koprivshtitsa
+ro;Koprivștița;Koprivshtitsa
+sr;Копривштица;Koprivshtitsa
+pl;Kopriwsztica;Koprivshtitsa
+sv;Koprivsjtitsa;Koprivshtitsa
+bg;Копривлен;Koprivlen
+bg;Копривец;Koprivets
+bg;Коприва;Kopriva
+bg;Копривка;Koprinka
+bg;Копрец;Koprets
+bg;Копитник;Kopitnik
+bg;Копиловци;Kopilovtsi
+bg;Копчелиите;Kopcheliite
+bg;Копаница;Kopanitsa
+bg;Копадан;Kopadan
+bg;Коняво;Konyavo
+bg;Конярци;Konyartsi
+bg;Конуш;Konush
+bg;Контил;Kontil
+bg;Константиновец;Konstantinovets
+bg;Константин;Konstantin
+bg;Конска;Konska
+bg;Коньово;Konyovo
+bg;Коньовица;Konyovitsa
+bg;Конор;Konop
+bg;Конници;Konnitsi
+bg;Конево;Konevo
+bg;Коневец;Konevets
+bg;Кондово;Kondovo
+bg;Кондолово;Kondolovo
+bg;Кондофрей;Kondofrey
+bg;Конче;Konche
+bg;Конарското;Konarskoto
+bg;Конарско;Konarsko
+bg;Конаре;Konare
+bg;Конак;Konak
+bg;Комунига;Komuniga
+bg;Комунари;Komunari
+bg;Комщица;Komshtitsa
+bg;Комощица;Komoshtitsa
+bg;Комарево;Komarevo
+bg;Колю Маринов;Kolyu Marinovo
+bg;Колю Ганев;Kolyu Ganev
+bg;Колош;Kolosh
+bg;Колобър;Kolobar
+bg;Кьолмен;Kyolmen
+bg;Колишовци;Kolishovtsi
+bg;Колич;Kolich
+bg;Колибите;Kolibite
+bg;Колиби Каурчан;Kolibi Kaurchan
+bg;Колец;Kolets
+bg;Колена;Kolena
+bg;Коларци;Kolartsi
+bg;Коларово;Kolarovo
+bg;Колари;Kolari
+bg;Колошане;Kokoshane
+bg;Колорци;Kokortsi
+bg;Кокорково;Kokorkovo
+bg;Кокора;Kokora
+bg;Кокиче;Kokiche
+bg;Кокаляне;Kokalyane
+bg;Коиловци;Koilovtsi
+bg;Коевци;Koevtsi
+bg;Кочово;Kochovo
+bg;Кочмар;Kochmar
+bg;Кочевци;Kyochevtsi
+bg;Кочево;Kochevo
+bg;Кочериново;Kocherinovo
+bg;Кочани;Kochani
+bg;Кочан;Kochan
+bg;Кобиляне;Kobilyane
+bg;Кобилян Дол;Kobilyan Dol
+bg;Кобиляк;Kobilyak
+bg;Кобилино;Kobilino
+bg;Княжевско;Knyazhevsko
+bg;Княжево;Knyazhevo
+bg;Княжева Махала;Knyazheva Mahala
+bg;Книжовник;Knizhovnik
+bg;Кнежа;Knezha
+bg;Кметовци;Kmetovtsi
+bg;Кметчета;Kmetcheta
+bg;Ключ;Klyuch
+bg;Клъшка река;Klashka Reka
+bg;Клокотница;Klokotnitsa
+bg;Ключ;KljuoCe Klyuch
+bg;Клисурски манастир;Klisurski Manastir
+bg;Клисурица;Klisuritsa
+bg;Клисура;Klisura
+bg;Климентово;Klimentovo
+bg;Климент;Kliment
+bg;Климаш;Klimash
+bg;Кликач;Klikach
+bg;Клетница;Kletnitsa
+bg;Клепало;Klepalo
+bg;Кладоръб;Kladorub
+bg;Кладоруб;Kladorub
+bg;Кладница;Kladnitsa
+bg;Кладни дял;Kladni Dyal
+bg;Кладенци;Kladentsi
+bg;Кладенец;Kladenets
+bg;Китница;Kitnitsa
+bg;Китна;Kitna
+bg;Китка;Kitka
+bg;Китино;Kitino
+bg;Китен;Kiten
+bg;Китанчево;Kitanchevo
+bg;Кисьовци;Kisyovtsi
+bg;Кисийците;Kisiytsite
+bg;Киселковци;Kiselkovtsi
+bg;Киселица;Kiselitsa
+bg;Киселичево;Kiselichevo
+bg;Киселево;Kiselevo
+bg;Кирово;Kirovo
+bg;Кирково;Kirkovo
+bg;Киркова махала;Kirkova Mahla
+bg;Кирилово;Kirilovo
+bg;Киревци;Kirevtsi
+bg;Киреево;Kireevo
+bg;Кирчево;Kirchevo
+bg;Кипра;Kipra
+bg;Кипилово;Kipilovo
+bg;Килюжевци;Killazhevtsi
+bg;Килифарево;Kilifarevo
+bg;Кичево;Kichevo
+bg;Киченица;Kichenitsa
+bg;Хвърчил;Hvarchil
+bg;Хвойна;Hvoyna
+bg;Хвостяне;Hvostyane
+bg;Хърсово;Harsovo
+bg;Хърлец;Harlets
+bg;Хъневци;Hanevtsi
+bg;Хума;Huma
+bg;Хухла;Huhla
+bg;Хубавене;Hubavene
+bg;Хромица;Hromitsa
+bg;Христовци;Hristovtsi
+bg;Христо-Даново;Hristo-Danovo
+bg;Християново;Hristiyanovo
+bg;Хрищени;Hrishteni
+bg;Храстово;Hrastovo
+bg;Храсна;Hrasna
+bg;Храбърско;Hrabarsko
+bg;Храброво;Hrabrovo
+bg;Храбрино;Hrabrino
+bg;Хотово;Hotovo
+bg;Хотница;Hotnitsa
+bg;Хотанца;Hotantsa
+bg;Ходжовци;Hodzhovtsi
+bg;Ходжалар;Hodzhalar
+bg;Хлябово;Hlyabovo
+bg;Хлевене;Hlevene
+bg;Цар Калоян;Tsar Kaloyan
+bg;Хитово;Hitovo
+bg;Хисаря;Hisarya
+bg;Хисар;Hisar
+bg;Хирево;Hirevo
+bg;Хераково;Herakovo
+bg;Хайредин;Hayredin
+bg;Хасовица;Hasovitsa
+bg;Хасково;Haskovo
+ca;Khàskovo;Haskovo
+el;Χάσκοβο;Haskovo
+mk;Хасково;Haskovo
+sr;Хасково;Haskovo
+bg;Харваловци;Harvalovtsi
+bg;Харманли;Harmanli
+bg;Харачерите;Haracherite
+bg;Ханово;Hanovo
+bg;Хан Крум;Han Krum
+bg;Хамбарджийска Махала;Hambardzhiiska Mahala
+bg;Хамбар;Hambar
+bg;Халваджийско;Halvadzhiysko
+bg;Халовски Колиби;Halovski Kolibi
+bg;Хаджиите;Hadzhiite
+bg;Хаджиевци;Hadzhievtsi
+bg;Хаджиево;Hadzhievo
+bg;Хаджидимово;Hadzhidimovo
+bg;Хаджи Димитър;Hadzhi Dimitar
+bg;Хаджидимитрово;Hadzhidimitrovo
+bg;Кестеново;Kestenevo
+bg;Кестен;Kesten
+bg;Кесарево;Kesarevo
+bg;Кермен;Kermen
+bg;Керените;Kerenite
+bg;Керека;Kereka
+bg;Казимир;Kazimir
+bg;Казичене;Kazichene
+bg;Казаците;Kazatsite
+bg;Казашко;Kazashko
+bg;Казашка Река;Kazashka Reka
+pl;Kazanłyk;Kazanlak
+de;Kasanlak;Kazanlak
+bg;Казанлък;Kazanlak
+pt;Kazanluk;Kazanlak
+bg;Казанка;Kazanka
+bg;Казак;Kazak
+bg;Казачево;Kazachevo
+bg;Кайряка;Kayryaka
+bg;Кайнарджа;Kaynardzha
+bg;Каялоба;Kayaloba
+bg;Кавракирово;Kavrakirovo
+bg;Кавлак;Kavlak
+de;Kawarna;Kavarna
+bg;Каварна;Kavarna
+bg;Катунци;Katuntsi
+bg;Катуница;Katunitsa
+bg;Катунище;Katunishte
+bg;Катунец;Katunets
+bg;Кацелово;Katselovo
+bg;Катрище;Katrishte
+bg;Катранци;Katrantsi
+bg;Катраница;Katranitsa
+bg;Катранджии;Katrandzhii
+bg;Катерица;Kateritsa
+bg;Кастел;Kastel
+bg;Каспичан;Kaspichan
+bg;Каснаково;Kasnakovo
+bg;Касилаг;Kasilag
+bg;Кашина;Kashina
+bg;Кашенци;Kashentsi
+bg;Касапско;Kasapsko
+bg;Карвуна;Karvuna
+bs;Kavarna;Karvuna
+sl;Kavarna;Karvuna
+hr;Kavarna;Karvuna
+de;Karwuna;Karvuna
+pl;Karwuna;Karvuna
+ro;Cărvuna;Karvuna
+sr;Kavarna;Karvuna
+ro;Cavarna;Karvuna
+bg;Картал Махала;Kartal Mahala
+bg;Карнобатски проход;Karnobat
+bg;Карнобат;Karnobat
+bg;Карлуково;Karlukovo
+bg;Карловско;Karlovsko
+pl;Karłowo;Karlovo
+de;Karlowo;Karlovo
+bg;Карлово;Karlovo
+el;Κάρλοβο;Karlovo
+mk;Карлово;Karlovo
+sr;Карлово;Karlovo
+bg;Карлиево;Karlievo
+bg;Карията;Kariyata
+bg;Кардам;Kardam
+bg;Карбинци;Karbintsi
+bg;Каравелово;Karavelovo
+bg;Каравельово;Karavelyovo
+bg;Караш;Karash
+bg;Караполци;Karapoltsi
+bg;Карапелит;Karapelit
+bg;Каран Върбовка;Karan Varbovka
+bg;Каранци;Karantsi
+bg;Караново;Karanovo
+bg;Карандил;Karandili
+bg;Кара Михал;Kara Mihal
+bg;Карамичевска;Karamichevska
+bg;Карамфил;Karamfil
+bg;Караманци;Karamantsi
+bg;Караманово;Karamanovo
+bg;Караманица;Karamanitsa
+bg;Караманите;Karamanite
+bg;Каралите;Karalite
+bg;Караиванци;Karaivantsi
+bg;Караиваница;Karaivantsa
+bg;Караесен;Karaisen
+bg;Карагеоргиево;Karageorgievo
+bg;Караджовци;Karadzhovtsi
+bg;Караджово;Karadzhovo
+bg;Караджалово;Karadzhalovo
+bg;Карабунар;Karabunar
+bg;Капитан Петко;Kapitan Petko
+bg;Капитановци;Kapitanovtsi
+bg;Капитан-Димитрово;Kapitan Dimitrovo
+bg;Капитан Димитрово;Kapitan Dimitrovo
+bg;Капитан-Димитриево;Kapitan-Dimitrievo
+bg;Капитан-Андреево;Kapitan-Andreevo
+bg;Капище;Kapishte
+bg;Капиновска стока;Kapinova Stoka
+bg;Капел;Kazel
+bg;Къзел;Kazel
+bg;Капатово;Kapatovo
+bg;Капак Махала;Kapak Mahala
+bg;Каолиново;Kaolinovo
+bg;Каняк;Kanyak
+bg;Кантари;Kantari
+bg;Кантис;Kanits
+bg;Каниц;Kanits
+bg;Кандови;Kandovi
+bg;Кандилка;Kandilka
+bg;Камилски Дол;Kamilski Dol
+bg;Каменица;Kameshtitsa
+bg;Каменяне;Kamenyane
+bg;Каменяк;Kamenyak
+bg;Камен връх;Kamen Vrah
+bg;Каменци;Kamentsi
+bg;Каменско;Kamensko
+bg;Каменово;Kamenovo
+bg;Каменно поле;Kameno Pole
+bg;Камено;Kameno
+bg;Каменна река;Kamenna Riksa
+bg;Каменна Рикса;Kamenna Riksa
+bg;Каменна река;Kamenna Reka
+bg;Каменна;Kamenna
+bg;Каменка;Kamenka
+bg;Каменица;Kamenitsa
+bg;Каменик;Kamenik
+bg;Каменишка Скакавица;Kamenichka Skakavitsa
+bg;Каменичка Скакавица;Kamenichka Skakavitsa
+bg;Каменец;Kamenets
+bg;Камен дял;Kamen Dyal
+bg;Каменчанска;Kamenchanska
+bg;Камен бряг;Roussalka
+bg;Каменарци;Kamenartsi
+bg;Каменари;Kamenari
+bg;Каменар;Kamenar
+bg;Камена;Kamena
+bg;Камен;Kamen
+bg;Камчия;Kamchia
+bg;Камбурово;Kamburovo
+bg;Камбелевци;Kambelevtsi
+bg;Калугерово;Kalugerovo
+bg;Калугерене;Kalugerene
+bg;Калъ кьой;Kalaeh Kyoy
+bg;Калоянци;Kaloyantsi
+bg;Калояново;Kaloyanovo
+bg;Калояновец;Kaloyanovets
+bg;Калоян;Kaloyan
+bg;Калово;Kalovo
+bg;Калотинци;Kalotintsi
+bg;Калотина;Kalotina
+bg;Калотина;Kolonina
+bg;Колонина;Kolonina
+bg;Каломен;Kalomen
+bg;Калофер;Kalofer
+bg;Калнище;Kalnishte
+bg;Калитиново;Kalitinovo
+bg;Калище;Kalishte
+bg;Калипетрово;Kalipetrovo
+bg;Калино;Kalino
+bg;Калинка;Kalinka
+bg;Калина;Kalina
+bg;Калиманци;Kalimantsi
+bg;Калейца;Kaleytsa
+bg;Калевище;Kalevishte
+bg;Каленовци;Kalenovtsi
+bg;Каленик;Kalenik
+bg;Кален;Kalen
+bg;Калековец;Kalekovets
+bg;Калчовци;Kalchovtsi
+bg;Калчовска;Kalchovska
+bg;Калчево;Kalchevo
+bg;Калайджии;Kalaydzhii
+bg;Калайджиево;Kalaydzhievo
+bg;Кадънка;Kadanka
+bg;Кадревица;Kadrovitsa
+bg;Кадровица;Kadrovitsa
+bg;Кадиево;Kadievo
+bg;Качулка;Kachulka
+bg;Качова махала;Kachova Mahala
+bg;Каблешково;Kableshkovo
+bg;Кабиюк;Kabiyuk
+bg;Кабиле;Kabile
+bg;Изворско;Izvorsko
+bg;Изворово;Izvorovo
+bg;Изворник;Izvornik
+bg;Извор Махала;Izvor Mahala
+bg;Изворище;Izvorishte
+bg;Изворче;Izvorche
+bg;Извор;Izvor
+bg;Tarnovets;Izvor
+bg;Источник;Iztochnik
+bg;Изгрев;Izgrev
+bg;Избул;Izbul
+bg;Избегли;Izbeglii
+bg;Ивайловград;Ivaylovgrad
+fr;Ivaïlovgrad;Ivaylovgrad
+mk;Ивајловград;Ivaylovgrad
+sr;Ивајловград;Ivaylovgrad
+pl;Iwajłowgrad;Ivaylovgrad
+bg;Ивайло;Ivaylo
+bg;Иваняне;Ivanyane
+bg;Иван_Вазово;Ivan-Vazovo
+bg;Иванци;Ivantsi
+bg;Ивански;Ivanski
+bg;Иваншница;Ivanshnitsa
+bg;Иван Шишманово;Ivan Shishmanovo
+bg;Ивановци;Ivanovtsi
+bg;Иваново;Ivanovo
+bg;Иванковци;Ivankovtsi
+bg;Иван Кедлик;Ivanovo
+bg;Иванивановци;Ivanivanovtsi
+bg;Иваниловци;Ivanilovtsi
+bg;Иван Димов;Ivan Dimov
+bg;Иванча;Ivancha
+bg;Исперихово;Isperihovo
+bg;Исперих;Isperih
+bg;Искрица;Iskritsa
+bg;Искри;Iskril
+bg;Искрил;Iskril
+bg;Искрец;Iskrets
+bg;Искра;Iskra
+bg;Chehlari;Iskra
+bg;Ирник;Irnik
+bg;Иринеци;Irinetsi
+bg;Иречеково;Irechekovo
+bg;Иречек;Irechek
+bg;Иново;Inovo
+bg;Индже Войвода;Indzhe Voyvoda
+bg;Имренчево;Imrenchevo
+bg;Илювци;Iliyuvtsi
+bg;Илийско;Iliysko
+bg;Илийно;Iliyno
+bg;Илия-Блъсково;Iliya-Blaskovo
+bg;Илия;Ilia
+bg;Илиница;Ilinitsa
+bg;Илинденци;Ilindentsi
+bg;Илинден;Ilinden
+bg;Илевци;Ilevtsi
+bg;Илаков Рът;Ilakov Rat
+bg;Ихтиман;Ihtiman
+bg;Игралище;Igralishte
+bg;Игнатовци;Ignatovtsi
+bg;Игнатово;Ignatovo
+bg;Игнатица;Ignatitsa
+bg;Игнатиево;Ignatievo
+bg;Иглика;Iglika
+bg;Иганово;Iganovo
+bg;Идилево;Idilevo
+bg;Ичера;Ichera
+bg;Гюргич;Gyurgich
+bg;Гюльовца;Gyulyovtsa
+bg;Гюлйовца;Gyulyovtsa
+bg;Гюшево;Gyueshevo
+bg;Гюешево;Gyueshevo
+bg;Гюдюрска;Fabrika
+bg;Фабрика;Fabrika
+bg;Гуцал;Gutsal
+bg;Гуслар;Guslar
+bg;Гусла;Gusla
+bg;Гъсково;Gaskovo
+bg;Гърня;Garnya
+bg;Гърневци;Garnevtsi
+bg;Гърнати;Garnati
+bg;Гърмен;Garmen
+bg;Гурмазово;Gurmazovo
+bg;Гърляно;Garlyano
+bg;Гърло;Garlo
+bg;Гурково;Gurkovo
+bg;Гургулят;Gurgulyat
+bg;Гугулят;Gurgulyat
+bg;Гургулица;Gurgulitsa
+bg;Гърдевци;Gardevtsi
+bg;Гърчиново;Garchinovo
+bg;Гърбище;Garbishte
+bg;Гърбино;Garbino
+bg;Гърбановци;Gurbanovtsi
+bg;Гурбановци;Gurbanovtsi
+bg;Гъмзово;Gamzovo
+bg;Гумощник;Gumoshtnik
+en;Golenci;Gulyantsi
+bg;Гулянци;Gulyantsi
+bg;Гълъбовци;Galabovtsi
+bg;Гълъбово;Gŭlŭbovo
+bg;Гълъбово;Galabovo
+bg;Гълъбова махала;Galabova Mahala
+bg;Гълъбник;Galabnik
+bg;Гълъбинци;Galabintsi
+bg;Гълъбинка;Galabinka
+bg;Гълъбец;Galabets
+bg;Гулийка;Guliyka
+bg;Гулия;Gulia
+bg;Гугутка;Gugutka
+bg;Гудевица;Gudevitsa
+bg;Губислав;Gubislav
+bg;Губеш;Gubesh
+bg;Гъбене;Gabene
+bg;Грънчер;Granchar
+bg;Грънчарово;Grancharovo
+bg;Грълска Падина;Gralska Padina
+bg;Груево;Gruevo
+bg;Боздуганово;Bozduganovo
+bg;Гръблевци;Grablevtsi
+bg;Грозьов дол;Grozyov Dol
+bg;Гроздьовци;Grozdyovtsi
+bg;Гроздьово;Grozdyovo
+bg;Грозден;Grozden
+bg;Громшин;Gromshin
+bg;Грохотно;Grohotno
+bg;Гривяк;Grivyak
+bg;Гривка;Grivka
+bg;Гривица;Grivitsa
+bg;Григорево;Grigorevo
+bg;Греевци;Greevtsi
+bg;Гращица;Grashtitsa
+bg;Грашево;Grashevo
+bg;Граница;Granitsa
+bg;Гранитово;Granitovo
+bg;Гранитец;Granitets
+bg;Гранит;Granit
+bg;Граничар;Granichar
+bg;Граничак;Granichak
+bg;Грамаждано;Gramazhdano
+bg;Граматици;Gramatitsi
+bg;Граматиково;Gramatikovo
+bg;Грамадливо;Gramadlivo
+bg;Грамаде;Gramade
+bg;Грамада;Gramada
+bg;Графитово;Grafitovo
+bg;Граг Игнатиево;Graf Ignatievo
+bg;Градът;Gradat
+bg;Градците;Gradtsite
+bg;Градсковски Колиби;Gradskovski Kolibi
+bg;Градско;Gradsko
+bg;Градница;Gradnitsa
+bg;Градище;Gradishte
+bg;Градище планина;Gradishte
+bg;Градинка;Gradinka
+bg;Градини;Gradini
+bg;Градинарово;Gradinarovo
+bg;Градина;Gradina
+bg;Стефан Стамболово;Stefan Stambolovo
+bg;Градешница;Gradezhnitsa
+bg;Градево;Gradevo
+bg;Градец;Gradets
+bg;Градешница;Gradeshnitsa
+bg;Гоздейка;Gozdeyka
+bg;Гоздевица;Gozdevitsa
+bg;Гоздейка;Goz
+bg;Гоз;Goz
+bg;Гьоврен;Gyovren
+bg;Говежда;Govezhda
+bg;Говедарци;Govedartsi
+bg;Говедаре;Govedare
+bg;Гоце Делчев;Gotse Delchev
+de;Goze Deltschew;Gotse Delchev
+fr;Gotsé Deltchev;Gotse Delchev
+nl;Gotse Deltsjev;Gotse Delchev
+hr;Goce Delčev;Gotse Delchev
+mk;Гоце Делчев;Gotse Delchev
+sr;Гоце Делчев;Gotse Delchev
+bs;Goce Delčev;Gotse Delchev
+ro;Goțe Delcev;Gotse Delchev
+el;Άνω Νευροκόπι;Gotse Delchev
+fi;Gotse Deltšev;Gotse Delchev
+pl;Goce Dełczew;Gotse Delchev
+mk;Неврокоп;Gotse Delchev
+bg;Гостун;Gostun
+bg;Гостина;Gostina
+bg;Гостиля;Gostilya
+bg;Гостилица;Gostilitsa
+bg;Господинци;Gospodintsi
+bg;Господиново;Gospodinovo
+bg;Горяни;Goryani
+bg;Горуньово;Gorunyovo
+bg;Горунака;Gorunaka
+bg;Горун;Gorun
+bg;Горталово;Gortalovo
+bg;Горско Сливово;Gorsko Slivovo
+bg;Горско Село;Gorsko Selo
+bg;Горско Писарево;Gorsko Pisarevo
+bg;Горско Ново Село;Gorsko Novo Selo
+bg;Горско Косово;Gorsko Kosovo
+bg;Ггорско Калугерово;Gorsko Kalugerovo
+bg;Горско Дюлево;Gorsko Dyulevo
+bg;Горно Дюлево;Gorsko Dyulevo
+bg;Горско Абланово;Gorsko Ablanovo
+bg;Горско;Gorsko
+bg;Горски Сеновец;Gorski Senovets
+bg;Горски Извор;Gorski Izvor
+bg;Горски Горен Тръмбеш;Gorski Goren Trambesh
+bg;Горски Долен Тръмбеш;Gorski Dolen Trambesh
+bg;Горски Дол;Gorski Dol
+bg;Горска Поляна;Gorska Polyana
+bg;Горска;Gorska
+bg;Горово;Gorovo
+bg;Горовец;Gorotsvet
+bg;Горочевци;Gorochevtsi
+bg;Горно Ябълково;Gorno Yabalkovo
+bg;Горно Вършило;Gorno Varshilo
+bg;Горно Войводино;Gorno Voyvodino
+bg;Горна Могила;Gornova Mogila
+bg;Горно Уйно;Gorno Uyno
+bg;Горно Церовене;Gorno Tserovene
+bg;Горно Трапе;Gorno Trape
+bg;Горно Село;Gornoto Selo
+bg;Горно Спанчево;Gorno Spanchevo
+bg;Горнослав;Gornoslav
+bg;Горно Шивачево;Gorno Shivachevo
+bg;Горноселци;Gornoseltsi
+bg;Горно Село;Gorno Selo
+bg;Горно Сахране;Gorno Sakhrane
+bg;Горно Прахово;Gorno Prahovo
+bg;Горно Поле;Gorno Pole
+bg;горно Пещене;Gorno Peshtene
+bg;Горно Павликене;Gorno Pavlikene
+bg;Горно Оризово;Gorno Ozirovo
+bg;Горно Озирово;Gorno Ozirovo
+bg;Горно Осеново;Gorno Osenovo
+bg;Горно Ново Село;Gorno Novo Selo
+bg;Горно Новково;Gorno Novkovo
+bg;Горно Луково;Gorno Lukovo
+bg;Горно Къпиново;Gorno Kapinovo
+bg;Горно Козарево;Gorno Kozarevo
+bg;Горно Кобиле;Gorno Kobile
+bg;Горно Камарци;Gorno Kamartsi
+bg;Горно Изворово;Gorno Izvorovo
+bg;Горно Дряново;Gorno Dryanovo
+bg;Горно Драглище;Gorno Draglishte
+bg;Горно Ботево;Gorno Botevo
+bg;Горно Белево;Gorno Belevo
+bg;горно Александрово;Gorno Aleksandrovo
+bg;Горно Абланово;Gorno Ablanovo
+bg;Горни Юруци;Gorni Yurutsi
+bg;Горни Въприща;Gorni Varpishta
+bg;Горни Воден;Gorni Voden
+bg;Горни Вадин;Gorni Vadin
+bg;Горни Цоневци;Gorni Tsonevtsi
+bg;Горни Цибър;Gorni Tsibar
+bg;Горни Танчевци;Gorni Tanchevtsi
+bg;Горни Романци;Gorni Romantsi
+bg;Горни Радковци;Gorni Radkovtsi
+bg;Горни Окол;Gorni Okol
+bg;Горни Маренци;Gorni Marentsi
+bg;Горни Лом;Gorni Lom
+bg;Горни Край;Gorni Kray
+bg;Горни Коритен;Gorni Koriten
+bg;Горник;Gornik
+bg;Горни Главанак;Gorni Glavanak
+bg;Горни Дъбник;Gorni Dabnik
+bg;Горни Драгойча;Gorni Dragoycha
+bg;Горни Домлян;Gorni Domlyan
+bg;Горни Дамяновци;Gorni Damyanovtsi
+bg;Горни Богров;Gorni Bogrov
+bg;Горна Златица;Gorna Zlatitsa
+bg;Горна Врабча;Gorna Vrabcha
+bg;Горна Вереница;Gorna Verenitsa
+bg;Горна Василица;Gorna Vasilitsa
+bg;Горна Сушица;Gorna Sushitsa
+bg;Горна Студена;Gorna Studena
+bg;Горна Секира;Gorna Sekirna
+bg;Горна Секирна;Gorna Sekirna
+bg;Горна Росица;Gorna Rositsa
+bg;Горна Рибница;Gorna Ribnitsa
+bg;Горна Оряховица;Gorna Oryahovitsa
+bg;Горна Митрополия;Gorna Mitropolia
+bg;Горна Мелна;Gorna Melna
+bg;Горна Малина;Gorna Malina
+bg;Горна Махала;Gorna Mahala
+bg;Горна Лука;Gorna Luka
+bg;Горна Липница;Gorna Lipnitsa
+bg;Горна Кула;Gorna Kula
+bg;Горна Крушица;Gorna Krushitsa
+bg;Горна Крепост;Gorna Krepost
+bg;Горна Кремена;Gorna Kremena
+bg;Горна Козница;Gorna Koznitsa
+bg;Горна Ковачица;Gorna Kovachitsa
+bg;Горна Хубавка;Gorna Hubavka
+bg;Горна Хаджийска;Gorna Hadzhiyska
+bg;Горна Кабда;Gorna Kabda
+bg;Горна Гращица;Gorna Grashtitsa
+bg;Горна Глоговица;Gorna Glogovitsa
+bg;Горна Дъбева;Gorna Dabeva
+bg;Горна Диканя;Gorna Dikanya
+bg;Горна Брезница;Gorna Breznitsa
+bg;Горна Брестница;Gorna Brestnitsa
+bg;Горна Бешовица;Gorna Beshovitsa
+bg;Горна Бела Речка;Gorna Bela Rechka
+bg;Горна Баня;Gorna Banya
+bg;Горица;Goritsa
+bg;Горичево;Gorichevo
+bg;Горичане;Gorichane
+bg;Горен Еневец;Goren Enevets
+bg;Горен Чифлик;Goren Chiflik
+bg;Гореме;Goreme
+bg;Горчево;Gorchevo
+bg;Горанска падина;Goranska Padina
+bg;Горановци;Goranovtsi
+bg;Горанска падина;Goran
+bg;Гомотарци;Gomotartsi
+bg;Голяновци;Golyanovtsi
+bg;Голям Поровец;Golyam Porovets
+bg;Голямо Враново;Golyamo Vranovo
+bg;Голямо Църквище;Golyamo Tsarkvishte
+bg;Голямо Соколо;Golyamo Sokolovo
+bg;Голямо Осое;Golyamo Osoe
+bg;Голямо Ново;Golyamo Novo
+bg;Голямо Крушево;Golyamo Krushevo
+bg;Голямо Каменяне;Golyamo Kamenyane
+bg;Голямо Градище;Golyamo Gradishte
+bg;Голямо Дряново;Golyamo Dryanovo
+bg;Голямо Доляне;Golyamo Dolyane
+bg;Голямо Делчево;Golyamo Delchevo
+bg;Голямо Чочовене;Golyamo Chochoveni
+bg;Голямо Буково;Golyamo Bukovo
+bg;Голямо Белово;Golyamo Belovo
+bg;Голямо Асеново;Golyamo Asenovo
+bg;Голям Манастир;Golyam Manastir
+bg;Голям Извор;Golyam Izvor
+bg;Голям Дол;Golyam Dol
+bg;Голям Девесил;Golyam Devesil
+bg;Голям Дервент;Golyam Dervent
+bg;Голям Чардак;Golyam Chardak
+bg;Голяма Желязна;Golyama Zhelyazna
+bg;Голяма вода;Golyama Voda
+bg;Голяма Долина;Golyama Dolina
+bg;Голяма детелина;Golyama Detelina
+bg;Голяма Чинка;Golyama Chinka
+bg;Голяма брестница;Golyama Brestnitsa
+bg;Голяма бара;Golyama Bara
+bg;Гольовица;Golyovitsa
+bg;Голобрадово;Golobradovo
+bg;Голобрад;Golobrad
+bg;Голица;Golitsa
+bg;Голинци;Golintsi
+bg;Голец;Golets
+bg;Голешово;Goleshovo
+bg;Голеш;Golesh
+bg;Голем Върбовник;Golem Varbovnik
+bg;Голем цалим;Golem Tsalim
+bg;Големо Село;Golemo Selo
+bg;Големо пещене;Golyamo Peshtene
+bg;Големо Малово;Golemo Malovo
+bg;Голямо Бучино;Golemo Buchino
+bg;Големо Бучино;Golemo Buchino
+bg;Големо бабино;Golemo Babino
+bg;Големи станчовци;Golemi Stanchovtsi
+bg;Големи рът;Golemi Rat
+bg;Големин;Golemin
+bg;Големи българени;Golemi Balgareni
+bg;Голема Раковица;Golema Rakovitsa
+bg;Големанци;Golemantsi
+bg;Големаново;Golemanovo
+bg;Големаните;Golemanite
+bg;Големани;Golemani
+bg;Голема Фуча;Golema Fucha
+bg;Голчинка;Golchinka
+bg;Гола Могила;Gola Mogila
+bg;Голак;Golak
+bg;Гьола;Gyola
+bg;Годлево;Godlevo
+bg;Годешево;Godeshevo
+bg;Годеч;Godech
+fr;Godetch;Godech
+de;Godetch;Godech
+bg;Гняздово;Gnyazdovo
+bg;Гнездаре;Gnezdare
+bg;Глутниците;Glutnitsite
+bg;Глушник;Glushnik
+bg;Глушка;Glushka
+bg;Глумово;Glumovo
+bg;Глумче;Glumche
+bg;Глухар;Gluhar
+bg;Глуфичево;Glufishevo
+bg;Гложене;Glozhene
+bg;Глогово;Glogovo
+bg;Глоговица;Glogovitsa
+bg;Глоговец;Glogovets
+bg;Глогино;Glogino
+bg;Глогинка;Gloginka
+bg;Глоджево;Glodzhevo
+bg;Гледжова махала;Gledzhova Mahala
+bg;Гледка;Gledka
+bg;Гледаци;Gledatsi
+bg;Гледачево;Gledachevo
+bg;Главиница;Glavinitsa
+bg;Главаци;Glavatsi
+bg;Главатарци;Glavatartsi
+bg;Главатар;Glavatar
+bg;Главанци;Glavantsi
+bg;Главановци;Glavanovtsi
+bg;Главан;Glavan
+bg;Глава;Glava
+bg;Глашатай;Glashatay
+bg;Гита;Gita
+bg;Гирчевци;Girchevtsi
+bg;Гинци;Gintsi
+bg;Гигинци;Gigintsi
+bg;Гиген;Gigen
+bg;Гешаново;Geshanovo
+bg;Геша;Gesha
+bg;Герман;German
+bg;Герисова;Gerisova
+bg;Гергини;Gergini
+bg;Гергичка;Gergichka
+bg;Гергевец;Gergevets
+bg;Долни Чифлик;Dolni Chiflik
+bg;Георги-Добрево;Georgi-Dobrevo
+bg;Георги-Дамяново;Georgi Damyanovo
+bg;Георги Дамяново;Georgi Damyanovo
+bg;Геня;Genya
+bg;Геново;Genovo
+bg;Генерал-Тошево;General Toshevo
+bg;Генерал Тошево;General Toshevo
+fr;Général Tochevo;General Toshevo
+bg;Генерал-Тошево;General-Toshevo
+bg;Генерал Прапорджеску;General Prapordzhesku
+bg;Генералово;Generalovo
+bg;Генерал-Мариново;General Marinovo
+bg;Генерал Мариново;General Marinovo
+bg;Генерал-Колево;General Kolevo
+bg;Генерал Колево;General Kolevo
+bg;Генерал-Колево;General-Kolevo
+bg;Генерал-Киселово;General Kiselovo
+bg;Генерал Киселово;General Kiselovo
+bg;Генерал-Кантарджиево;General Kantardzhievo
+bg;Генерал Кантарджиево;General Kantardzhievo
+bg;Генерал-Инзово;General-Inzovo
+bg;Генерал-Гешево;General Geshevo
+bg;Генерал Гешево;General Geshevo
+bg;Генерал-Фичево;General-Fichevo
+bg;Гелеманово;Gelemenovo
+bg;Гелеменово;Gelemenovo
+bg;Гелчина Махала;Gelchina Mahala
+bg;Гела;Gela
+bg;Гегови;Gegovi
+bg;Гега;Gega
+bg;Гайтанци;Gaytantsi
+bg;Гайтаните;Gaytanite
+bg;Гайтаниново;Gaytaninovo
+bg;Гайтанево;Gaytanevo
+bg;Гайкините;Gaykinite
+bg;Гайдари;Gaydari
+bg;Гаврил Геново;Gavril Genovo
+bg;Гавраилово;Gavrailovo
+bg;Гащевци;Gashtevtsi
+bg;Гарваново;Garvanovo
+bg;Гарван;Garvan
+bg;Гара Лакатник;Gara Lakatnik
+bg;Гара Хитрино;Gara Hitrino
+bg;Гара Елин Пелин;Gara Elin Pelin
+bg;Гара Бов;Gara Bov
+bg;Ганев Хан;Ganev Khan
+bg;Ганев дол;Ganev Dol
+bg;Ганчовец;Ganchovets
+bg;Галово;Galovo
+bg;Галище;Galishte
+bg;Галиче;Galiche
+bg;Галатин;Galatin
+bg;Галата;Galata
+bg;Гагово;Gagovo
+bg;Гаганица;Gaganitsa
+bg;Габърска;Gabarska
+bg;Габърница;Gabarnitsa
+bg;Габър;Gabar
+bg;Габровци;Gabrovtsi
+pl;Gabrowo;Gabrovo
+de;Gabrowo;Gabrovo
+bg;Габрово;Gabrovo
+el;Γκάμπροβο;Gabrovo
+mk;Габрово;Gabrovo
+sr;Габрово;Gabrovo
+bg;Габровница;Gabrovnitsa
+bg;Габровица;Gabrovitsa
+bg;Габровдол;Gabrovdol
+bg;Габрица;Gabritsa
+bg;Габрина;Gabrina
+bg;Габрешевци;Gabreshevtsi
+bg;Габрене;Gabrene
+bg;Габрака;Gabraka
+bg;Габра;Gabra
+bg;Габерево;Gaberevo
+bg;Габерево;Gaberovo
+bg;Габерово;Gaberovo
+bg;Габер;Gaber
+bg;Габарево;Gabarevo
+bg;Габаре;Gabare
+bg;Фъртуни;Fartuni
+bg;Фърговци;Fargovtsi
+bg;Фъргово;Fargovo
+bg;Фъревци;Farevtsi
+bg;Фурен;Furen
+bg;Фролош;Frolosh
+bg;Франтунските кошари;Frantunskite Koshari
+bg;Франдък махала;Frandak Mahala
+bg;Фотиново;Fotinovo
+bg;Флорентин;Florentin
+bg;Филип Тотево;Filip Totevo
+bg;Филиповци;Filipovtsi
+bg;Филипово;Filipovo
+bg;Филаретово;Filaretovo
+bg;Фелдфебел Денково;Feldfebel Denkovo
+bg;Фазаново;Fazanovo
+bg;Фатово;Fatovo
+bg;Факия;Fakia
+bg;Езерово;Ezerovo
+bg;Езеро;Ezero
+bg;Езерец;Ezerets
+bg;Езерче;Ezerche
+bg;Ездимирци;Ezdimirtsi
+bg;Евренозово;Evrenozovo
+bg;Евлогиево;Evlogievo
+bg;Етъра;Etara
+bg;Етрополе;Etropole
+sr;Јетропоље;Etropole
+bg;Есеница;Esenitsa
+bg;Есен;Esen
+bg;Ерул;Erul
+bg;Еровете;Erovete
+bg;Ерма Река;Erma Reka
+bg;Еревиш;Erevish
+bg;Еремия;Eremia
+bg;Ерден;Erden
+bg;Еньовче;Enyovche
+bg;Еница;Enitsa
+bg;Енина;Enina
+bg;Енев рът;Enev Rat
+bg;Енево;Enevo
+bg;Енчовци;Enchovtsi
+bg;Енчец;Enchets
+bg;Емона;Emona
+bg;Емирово;Emirovo
+bg;Емен;Emen
+bg;Елшица;Elshitsa
+bg;Ельово;Elyovo
+bg;Еловица;Elovitsa
+bg;Еловдол;Elovdol
+bg;Елхово;Elkhovo
+bg;Елхово;Elhovo
+bg;Елховец;Elhovets
+bg;Елисейна;Eliseyna
+bg;Елин Пелин;Elin Pelin
+bg;Еленците;Elentsite
+bg;Еленска;Elenska
+bg;Еленово;Elenovo
+bg;Петрич;Petritch
+en;Petrich;Petritch
+bg;Еленов дол;Elenov Dol
+bg;Еленино;Elenino
+bg;Елена;Elena
+sr;Елена;Elena
+bg;Ехзарх Йосиф;Ekzarh Yosif
+bg;Екзарх Йосиф;Ekzarh Yosif
+bg;Екзарх-Антимово;Ekzarh-Antimovo
+bg;Егълница;Egalnitsa
+bg;Егрек;Egrek
+bg;Ефрейтор-Бакалово;Efreytor Bakalovo
+bg;Ефрейтор Бакалово;Efreytor Bakalovo
+bg;Ефрем;Efrem
+bg;Едрево;Edrevo
+bg;Единаковци;Edinakovtsi
+bg;Едил;Goren Edil
+bg;Горен Едил;Goren Edil
+bg;Дзивгекия;Zornitsa
+bg;Dzivgelia;Zornitsa
+bg;Джуровци;Dzhurovtsi
+bg;Джурово;Dzhurovo
+bg;Джурково;Dzhurkovo
+bg;Джуркалица;Dzhurkalitsa
+bg;Джуновите кошари;Dzhunovite Koshari
+bg;Джумриите;Dzhumriite
+bg;Джулюница;Dzhulyunitsa
+bg;Джокари;Dzhokari
+bg;Джинот;Dzhinot
+bg;Джинчовци;Dzhinchovtsi
+bg;Джилясковица;Dzhilyaskovitsa
+bg;Джигурово;Dzhigurovo
+bg;Джерово;Dzherovo
+bg;Джерман;Dzherman
+bg;Джелепско;Dzhelepsko
+bg;Джебел;Dzhebel
+bg;Джанка;Dzhanka
+bg;Джамузовци;Dzhamuzovtsi
+bg;Дюля;Dyulya
+bg;Дюлица;Dyulitsa
+bg;Дюлино;Dyulino
+bg;Дюлево;Dyulevo
+bg;Дянково;Dyankovo
+bg;Дялък;Dyalak
+bg;Дяково;Dyakovo
+bg;Дяконово;Dyakonovo
+bg;Дядовци;Dyadovtsi
+bg;Дядовско;Dyadovsko
+bg;Дядово;Dyadovo
+bg;Дворище;Dvorishte
+bg;Две Тополи;Dve Topoli
+bg;Две Могили;Dve Mogili
+bg;Дъждовница;Dazhdovnitsa
+bg;Дъждовник;Dazhdovnik
+bg;Дъждино;Dazhdino
+bg;Дуванлии;Duvanlii
+bg;Дъскотна;Daskotna
+bg;Дъскот;Daskot
+bg;Дъскарите;Daskarite
+bg;Душка;Dushka
+bg;Душинци;Dushintsi
+bg;Душинково;Dushinkovo
+bg;Душевски колиби;Dushevski Kolibi
+bg;Душево;Dushevo
+bg;Душанци;Dushantsi
+bg;Държавен;Darzhaven
+bg;Държава;Darzhava
+bg;Държаница;Darzhanitsa
+bg;Дървари;Darvari
+bg;Дуровци;Durovtsi
+bg;Дърманци;Darmantsi
+bg;Дърлевци;Darlevtsi
+bg;Дурча;Durcha
+bg;Дърболан;Darbolar
+bg;Дурат Нова Махала;Durat Nova Mahla
+bg;Дуранкулак;Durankulak
+bg;Дънгово;Dangovo
+bg;Дунево;Dunevo
+bg;Дунавци;Dunavtsi
+en;Spanchova;Dunavets
+bg;Дунавец;Dunavets
+bg;Дулово;Dulovo
+bg;Дълго Поле;Dalgo Pole
+bg;Дългопол;Dalgopol
+bg;Дългоделци;Dalgodeltsi
+bg;Дълги припек;Dalgi Pripek
+bg;Дълги Дел;Dalgi Del
+bg;Дългата махала;Dalgata Mahala
+bg;Дълга лъка;Dalga Luka
+bg;Дълга Лука;Dalga Luka
+bg;Дълга ливада;Dalga Livada
+bg;Дългач;Dalgach
+bg;Дълбок извор;Dalbok Izvor
+bg;Дълбоки;Dalboki
+bg;Дълбок дол;Dalbok Dol
+bg;Дъковци;Dukovtsi
+bg;Дъхово;Dahovo
+bg;Духовец;Duhovets
+bg;Духлевци;Duhlevtsi
+bg;Капитан Петко войвода;Kapitan Petko voyvoda
+bg;Дъбравка;Dabravka
+bg;Дъбравица;Dabravitsa
+bg;Дъбравите;Dabravite
+bg;Дъбравино;Dabravino
+bg;Дъбровино;Dabravino
+bg;Дъбравата;Dabravata
+bg;Дъбрава;Dabrava
+bg;Дъбово;Dabovo
+bg;Дъбовица;Dabovitsa
+bg;Дъбовик;Dabovik
+bg;Дъбови;Dabovi
+bg;Дъбовец;Dabovets
+bg;Дъбован;Dabovan
+en;Cercelani;Dabovan
+bg;Дъбова Махала;Dabova Mahala
+bg;Дъбова;Dabova
+bg;Дъбница;Dabnitsa
+bg;Дъбник;Dabnik
+bg;Дъбене;Dabene
+bg;Дъбен;Daben
+bg;Дрянът;Dryanat
+bg;Дрянска;Dryanska
+bg;Дряново;Dryanovo
+bg;Дряновец;Dryanovets
+bg;Дрянова Глава;Dryanova Glava
+bg;Дрянковец;Dryankovets
+bg;Дрянка;Dryanka
+bg;Дружево;Druzhevo
+bg;Дружба;Druzhba
+bg;Дръндарска;Drandarska
+bg;Дръндар;Drandar
+bg;Дръмша;Dramsha
+bg;Друмохар;Drumohar
+bg;Друмево;Drumevo
+bg;Друмче;Drumche
+bg;Друган;Drugan
+bg;Дропла;Dropla
+bg;Tarnovka;Dropla
+bg;Дрипка;Dripka
+bg;Дрипчево;Dripchevo
+bg;Дриново;Drinovo
+bg;Дренци;Drentsi
+bg;Дрента;Drenta
+bg;Дреново;Drenovo
+bg;Дреновица;Drenovitsa
+bg;Дреновец;Drenovets
+bg;Дренов;Drenov
+bg;Дренково;Drenkovo
+bg;Дрен;Dren
+bg;Дреатин;Dreatin
+bg;Дражинци;Drazhintsi
+bg;Дражево;Drazhevo
+bg;Драшкова поляна;Drashkova Polyana
+bg;Драшан;Drashan
+bg;Дрангово;Drangovo
+bg;Драндерица;Dranderitsa
+bg;Драндарите;Drandarite
+bg;Драма;Drama
+bg;Дралфа;Dralfa
+bg;Драката;Drakata
+bg;Драка;Draka
+bg;Драгушиново;Dragushinovo
+bg;Драгуш;Dragush
+pl;Dragusz;Dragush
+ro;Draguș;Dragush
+mk;Драгуш;Dragush
+bg;Драгойново;Dragoynovo
+bg;Драгойчинци;Dragoychintsi
+bg;Драговци;Dragovtsi
+bg;Драгово;Dragovo
+bg;Драговищица;Dragovishtitsa
+bg;Ямборано;Dragovishtitsa
+bg;Драготинци;Dragotintsi
+bg;Драгостин;Dragostin
+bg;Меликадъново;Dragor
+bg;Драгор;Dragor
+bg;Драгомирово;Dragomirovo
+bg;Драгомир;Dragomir
+bg;Драгомани;Dragomani
+bg;Драгоман;Dragoman
+pt;Dragomã;Dragoman
+bg;Драгойца;Dragoitsa
+bg;Драгоил;Dragoil
+bg;Драгоево;Dragoevo
+bg;Драгоданово;Dragodanovo
+bg;Драгодан;Dragodan
+bg;Драгневци;Dragnevtsi
+bg;Драгижево;Dragizhevo
+bg;Драгийци;Dragiytsi
+bg;Драгиовци;Dragiovtsi
+bg;Драгиново;Draginovo
+bg;Драгиевци;Dragievtsi
+bg;Драгичево;Dragichevo
+bg;Драгаш Войвода;Dragash Voyvoda
+bg;Драганци;Dragantsi
+bg;Драгановица;Draganovtsi
+bg;Драгановци;Draganovtsi
+bg;Драганово;Draganovo
+bg;Драгановец;Draganovets
+bg;Драганосковци;Draganoskovtsi
+bg;Драганица;Draganitsa
+bg;Драганчетата;Draganchetata
+bg;Драгана;Dragana
+bg;Драчево;Drachevo
+bg;Драбишна;Drabishna
+bg;Дождевица;Dozhdevitsa
+bg;Дойренци;Doyrentsi
+bg;Дойранци;Doyrantsi
+bg;Дойновци;Doynovtsi
+bg;Дойкинци;Deykintsi
+bg;Дейкинци;Deykintsi
+bg;Доспей;Dospey
+bg;Доспат;Dospat
+bg;Доситеево;Dositeevo
+bg;Дорково;Dorkovo
+bg;Донковци;Donkovtsi
+bg;Донкино;Donkino
+bg;Донино;Donino
+bg;Дондуково;Dondukovo
+bg;Дончовци;Donchovtsi
+bg;Дончево;Donchevo
+bg;Домлян;Domlyan
+bg;Домище;Domishte
+bg;Долно Ябълково;Dolno Yabalkovo
+bg;Долно Вършило;Dolno Varshilo
+bg;Долно Войводино;Dolno Voyvodino
+bg;Долно Уйно;Dolno Uyno
+bg;Долно Церовене;Dolno Tserovene
+bg;Долно Съдиево;Dolno Sadievo
+bg;Долно Спанчево;Dolno Spanchevo
+bg;Дойнослав;Dolnoslav
+bg;Долно шивачево;Dolno Shivachevo
+bg;Долно Шипково;Dolno Shipkovo
+bg;Долноселци;Dolnoseltsi
+bg;Долно Село;Dolno Selo
+bg;Долно Сахране;Dolno Sahrane
+bg;Долно Ряхово;Dolno Ryahovo
+bg;Долно Прахово;Dolno Prahovo
+bg;Долно Поле;Dolno Pole
+bg;Долно Паничерево;Dolno Panicherevo
+bg;Долно Оризово;Dolno Ozirovo
+bg;Долно Озирово;Dolno Ozirovo
+bg;Долно Осеново;Dolno Osenovo
+bg;Долно Ново Село;Dolno Novo Selo
+bg;Долно Новково;Dolno Novkovo
+bg;Долно Луково;Dolno Lukovo
+bg;Долно Линево;Dolno Linevo
+en;Linova;Dolno Linevo
+bg;Долно Левски;Levski
+bg;Долно Къпиново;Dolno Kapinovo
+bg;Долно Козарево;Dolno Kozarevo
+bg;Долно Кобиле;Dolno Kobile
+bg;Долно Камарци;Dolno Kamartsi
+bg;Долно Изворово;Dolno Izvorovo
+bg;Долно Дряново;Dolno Dryanovo
+bg;Долно Драглище;Dolno Draglishte
+bg;Долно Черковище;Dolno Cherkovishte
+bg;Долно Ботево;Dolno Botevo
+bg;Долно Белотинци;Dolno Belotintsi
+bg;Долно Белево;Dolno Belevo
+bg;Долно Абланово;Dolno Ablanovo
+bg;Долни Юруци;Dolni Yurutsi
+bg;Долни Върпища;Dolni Varpishta
+bg;Долни Воден;Dolni Voden
+bg;Долни Вит;Dolni Vit
+bg;Долни Вадин;Dolni Vadin
+bg;Долни Цибър;Dolni Tsibar
+bg;Долни Томчевци;Dolni Tomchevtsi
+bg;Долни Танчевци;Dolni Tanchevtsi
+bg;Долни Романци;Dolni Romantsi
+bg;Долни Рибни Дол;Dolni Ribni Dol
+bg;Долни Раковец;Dolni Rakovets
+bg;Долни Радковци;Dolni Radkovtsi
+bg;Долни Окол;Dolni Okol
+bg;Долни Марян;Dolni Maryan
+bg;Долни Маренци;Dolni Marentsi
+bg;Долни Луковит;Dolni Lukovit
+bg;Долни Лом;Dolni Lom
+bg;Долни Коритен;Dolni Koriten
+bg;Долни Главанак;Dolni Glavanak
+bg;Долни Дъбник;Dolni Dabnik
+bg;Долни Драгойча;Dolni Dragoycha
+bg;Долни Дамяновци;Dolni Damyanovtsi
+bg;Долни Бошняк;Dolni Boshnyak
+bg;Долни Богров;Dolni Bogrov
+bg;Долна Златица;Dolna Zlatitsa
+bg;Долна Врабча;Dolna Vrabcha
+bg;Долна Вереница;Dolna Verenitsa
+bg;Долна Василица;Dolna Vasilitsa
+bg;Долна Студена;Dolna Studena
+bg;Долна Секирна;Dolna Sekirna
+bg;Долна Рикса;Dolna Riksa
+bg;Долна Рибница;Dolna Ribnitsa
+bg;Долна Оряховица;Dolna Oryahovitsa
+bg;Долна Невля;Dolna Nevlya
+bg;Долна Митрополия;Dolna Mitropolia
+sr;Доња Митрополија;Dolna Mitropolia
+bg;Долна Мелна;Dolna Melna
+bg;Долна Магдатина;Dolna Margatina
+bg;Долна Малина;Dolna Malina
+bg;Долна Махала;Dolna Mahala
+bg;Долна Липница;Dolna Lipnitsa
+bg;Долна Кула;Dolna Kula
+bg;Долна Крушица;Dolna Krushitsa
+bg;Долна Крепост;Dolna Krepost
+bg;Долна Кремена;Dolna Kremena
+bg;Долна Козница;Dolna Koznitsa
+bg;Долна Хубавка;Dolna Hubavka
+bg;Долна Кабда;Dolna Kabda
+bg;Долна Гращица;Dolna Grashtitsa
+bg;Долна Градешница;Dolna Gradeshnitsa
+bg;Долна Диканя;Dolna Dikanya
+bg;Долна Бешовица;Dolna Beshovitsa
+bg;Долна Бела Речка;Dolna Bela Rechka
+bg;Долна Баня;Dolna Banya
+bg;Долистово;Dolistovo
+bg;Долище;Dolishte
+bg;Долина;Dolina
+bg;Долие;Dolie
+bg;Долец;Dolets
+bg;Долени;Doleni
+bg;Долен Еневец;Dolen Enevets
+bg;Долене;Dolene
+bg;Долен;Dolen
+bg;Доктор Йосифово;Doktor Yosifovo
+bg;Докьовци;Dokyovtsi
+bg;Докатичево;Dokatichevo
+bg;Доганово;Doganovo
+bg;Доча;Docha
+bg;Добърско;Dobarsko
+bg;Добърчин;Dobarchin
+bg;Добруша;Dobrusha
+bg;Добруджанка;Dobrudzhanka
+bg;Добровец;Dobrovolets
+bg;Доброво;Dobrovo
+bg;Добровница;Dobrovnitsa
+bg;Добротица;Dobrotitsa
+bg;Добротино;Dobrotino
+bg;Добротич;Dobrotich
+bg;Добрина;Dobrina
+bg;Добростан;Dobrostan
+bg;Доброславци;Dobroslavtsi
+bg;Доброселец;Dobroselets
+bg;Доброплодно;Dobroplodno
+bg;Добромирци;Dobromirtsi
+bg;Добромирка;Dobromirka
+bg;Добромир;Dobromir
+bg;Добролево;Dobrolevo
+bg;Доброглед;Dobrogled
+bg;Добродан;Dobrodan
+bg;Добри Войниково;Dobri Voynikovo
+bg;Добринци;Dobrintsi
+bg;Добриново;Dobrinovo
+bg;Добринище;Dobrinishte
+bg;Добрин;Dobrin
+bg;Добри Лаки;Dobri Laki
+bg;Добри дял;Dobri Dyal
+bg;Добри Дол;Dobri Dol
+bg;Добревци;Dobrevtsi
+bg;Добрево;Dobrevo
+bg;Добрева Череша;Dobreva Cheresha
+bg;Добрените;Dobrenite
+bg;Добравица;Dobravitsa
+bg;Добра поляна;Dobra Polyana
+bg;Добралък;Dobralak
+bg;Доборско;Doborsko
+bg;Длъжко;Dlazhko
+bg;Длъжка поляна;Dlazhka Polyana
+bg;длъхчево Сабляри;Dlahchevo Sablyar
+bg;Длъхчево Сабляр;Dlahchevo Sablyar
+bg;Длъгня;Dlagnya
+bg;Длъгнево;Dlagnevo
+bg;Дивотино;Divotino
+bg;Дивля;Divlya
+bg;Дивеци;Divetsi
+bg;Дивдядово;Divdyadovo
+bg;Дивчовото;Divchovoto
+bg;Дива Слатина;Diva Slatina
+bg;Дисманица;Dismanitsa
+bg;Дирало;Diralo
+bg;Диня;Dinya
+bg;Динково;Dinkovo
+bg;Динковица;Dinkovitsa
+bg;Динката;Dinkata
+bg;Динк;Dink
+bg;Динево;Dinevo
+bg;Димовци;Dimovtsi
+bg;Гурково;Dimovtsi
+bg;Димово;Dimovo
+bg;Димитровци;Dimitrovtsi
+bg;Димитровград;Dimitrovgrad
+de;Dimitrowgrad;Dimitrovgrad
+el;Ντιμίτροβγκραντ;Dimitrovgrad
+mk;Димитровград;Dimitrovgrad
+pl;Dimitrowgrad;Dimitrovgrad
+bg;Димитровче;Dimitrovche
+bg;Димитрикьой;Dimitrovche
+bg;Димитриево;Dimitrievo
+bg;Димиевци;Dimievtsi
+bg;Димчево;Dimchevo
+bg;Димча;Dimcha
+bg;Димановци;Dimanovtsi
+bg;Диманово;Dimanovo
+bg;Дичин;Dichin
+bg;Дичево;Dichevo
+bg;Дибич;Dibich
+bg;Диамандово;Diamandovo
+bg;Девня;Devnya
+bg;Девино;Devino
+bg;Девин;Devin
+de;Dewin;Devin
+sr;Девин;Devin
+bg;Деветинци;Devetintsi
+bg;Деветаците;Devetatsite
+bg;Деветаки;Devetaki
+bg;Деветак;Devetak
+bg;Девесилово;Devesilovo
+bg;Девесилица;Devesilitsa
+bg;Девенци;Deventsi
+bg;Девене;Devene
+bg;Детелина;Detelina
+bg;Дервишка Могила;Dervishka Mogila
+bg;Дерманци;Dermantsi
+bg;Денница;Dennitsa
+bg;Денчевци;Denchevtsi
+bg;Демичина махала;Demichina Mahala
+bg;Деляновци;Delyanovtsi
+bg;Делян;Delyan
+bg;Делвино;Delvino
+bg;Делова махала;Delova Mahla
+bg;Делейна;Deleyna
+bg;Делчево;Delchevo
+bg;Деков;Dekov
+bg;Дедово;Dedovo
+bg;Дединци;Dedintsi
+bg;Дедина;Dedina
+bg;Дедец;Dedets
+bg;Дечковци;Dechkovtsi
+bg;Дебрене;Debrene
+bg;Дебрен;Debren
+bg;Дебращница;Debrashtitsa
+bg;Дебръщица;Debrashtitsa
+bg;Дебово;Debovo
+bg;Дебочица;Debochitsa
+bg;Дебнево;Debnevo
+bg;Дебеляново;Debelyanovo
+bg;Дебелцово;Debeltsovo
+bg;Дебелт;Debelt
+bg;Дебели рът;Debeli Rat
+bg;Дебели Лаг;Debeli Lag
+bg;Дебелец;Debelets
+bg;Дебел дял;Debel Dyal
+bg;Дейновци;Daynovtsi
+bg;Давидово;Davidovo
+bg;Давидково;Davidkovo
+bg;Давери;Daveri
+bg;Даскалово;Daskalovo
+bg;Даскал-Атанасово;Daskal-Atanasovo
+bg;Дамяново;Damyanovo
+bg;Дамяница;Damyanitsa
+bg;Далови;Dalovi
+bg;Дагоново;Dagonovo
+bg;Даевци;Daevtsi
+bg;Чуйпетльово;Chuypetlovo
+bg;Чуруково;Churukovo
+bg;Чурка;Churka
+bg;Чурилово;Churilovo
+bg;Чуричени;Churicheni
+bg;Чурен;Churen
+bg;Чурек;Churek
+bg;Чупрене;Chuprene
+de;Tschuprenä;Chuprene
+bg;Чуковци;Chukovtsi
+bg;Чуково;Chukovo
+bg;Чуковезер;Chukovezer
+bg;Чуковец;Chukovets
+bg;Чукленик;Chuklenik
+bg;Чукилите;Chukilite
+bg;Чуката;Chukata
+bg;Чукарово;Chukarovo
+bg;Чукарка;Chukarka
+bg;Тодорчета;Todorcheta
+bg;Чудомир;Chudomir
+bg;Чудинци;Chudintsi
+bg;Чучур;Chuchur
+bg;Чучулигово;Chuchuligovo
+bg;Чучулига;Chuchuliga
+bg;Чубрика;Chubrika
+bg;Чубра;Chubra
+bg;Чорул;Chorul
+bg;Чорбаджийско;Chorbadzhiysko
+bg;Чомаковци;Chomakovtsi
+bg;Чомаково;Chomakovo
+bg;Чолакови Колиби;Cholakovi Kolibi
+bg;Чолакова;Cholakova
+bg;Чокоба;Chokoba
+bg;Чокманово;Chokmanovo
+bg;Чобанка;Chobanka
+bg;Чоба;Choba
+bg;Читашко;Chitashko
+bg;Читаковци;Chitakovtsi
+bg;Читакови колиби;Chetakovi Kolibi
+bg;Четакови Колиби;Chetakovi Kolibi
+bg;Чистово;Chistovo
+bg;Чирпан;Chirpan
+bg;Чирен;Chiren
+bg;Чипровци;Chiprovtsi
+de;Tschiprowzi;Chiprovtsi
+fr;Tchiprovtsi;Chiprovtsi
+ro;Ciprovți;Chiprovtsi
+sr;Ћипровци;Chiprovtsi
+pt;Čiprovci;Chiprovtsi
+pl;Cziprowci;Chiprovtsi
+sv;Tjiprovtsi;Chiprovtsi
+bg;Чинтулово;Chintulovo
+bg;Чилинов;Chilnov
+bg;Чилнов;Chilnov
+bg;Чилик;Chilik
+bg;Чифлика;Chiflika
+bg;Чифлик;Chiflik
+bg;Чичил;Chichil
+bg;Чичево;Chichevo
+bg;Чибаовци;Chibaovtsi
+bg;Четрока;Chetroka
+bg;Четирци;Chetirtsi
+bg;Честово;Chestovo
+bg;Честименско;Chestimensko
+bg;Чешма;Cheshma
+bg;Чешлянци;Cheshlyantsi
+bg;Червенци;Cherventsi
+bg;Червенковци;Chervenkovtsi
+bg;Червен бряг;Cherven Bryag
+bg;Червен бряг;Cherven Breg
+bg;Червена Вода;Chervena Voda
+bg;Червена Могила;Chervena Mogila
+bg;Червена локва;Chervena Lokva
+bg;Червенаково;Chervenakovo
+bg;Червена;Chervena
+bg;Червен;Cherven
+bg;Чернушка;Chernushka
+bg;Чернозем;Chernozem
+bg;Черньовци;Chernyovtsi
+bg;Черновръх;Chernovrah
+bg;Черньово;Chernyovo
+bg;Черно Поле;Cherno Pole
+bg;Чернооково;Chernookovo
+bg;Чернооки;Chernooki
+bg;Черноок;Chernook
+bg;Черноочене;Chernoochene
+bg;Черноморци;Chernomortsi
+bg;Черноморец;Chernomorets
+bg;Чернолик;Chernolik
+bg;Чернокос;Chernokos
+bg;Чернокарци;Chernokaptsi
+bg;Черноград;Chernograd
+bg;Черногорово;Chernogorovo
+bg;Черногор;Chernogor
+bg;Черноглавци;Chernoglavtsi
+bg;Чернодъб;Chernodab
+bg;Черни Връх;Cherni Vrah
+bg;Черни вит;Cherni Vit
+bg;Черница;Chernitsa
+bg;Черни Рид;Cherni Rid
+bg;Черни Осъм;Cherni Osŭm
+bg;Чернигово;Chernigovo
+bg;Черни дял;Cherni Dyal
+bg;Черничино;Chernichino
+bg;Черничево;Chernichevo
+bg;Черниче;Cherniche
+bg;Черни бряг;Cherni Bryag
+bg;Черневци;Chernevtsi
+bg;Черневото;Chernevoto
+bg;Чернево;Chernevo
+bg;Черна вода;Cherna Voda
+bg;Черна скала;Cherna Skala
+bg;Черна нива;Cherna Niva
+bg;Черна Могила;Cherna Mogila
+bg;Черна места;Cherna Mesta
+bg;Черналево;Chernalevo
+bg;Черна гора;Cherna Gora
+bg;Черна;Cherna
+bg;Черково;Cherkovo
+bg;Черковна;Cherkovna
+bg;Черковица;Cherkovitsa
+bg;Черковище;Cherkovishte
+bg;Черкаски;Cherkaski
+bg;Черганово;Cherganovo
+bg;Черешовска река;Chereshovska Reka
+bg;Черешово;Chereshovo
+bg;Черешовица;Chereshovitsa
+bg;Черешница;Chereshnitsa
+bg;Черешките;Chereshkite
+bg;Черешица;Chereshitsa
+bg;Череша;Cheresha
+bg;Черепово;Cherepovo
+bg;Черенча;Cherencha
+bg;Чепърлинци;Cheparlintsi
+bg;Чеплетен;Chepleten
+bg;Чепинци;Chepintsi
+bg;Чепино;Chepino
+bg;Чепеларе;Chepelare
+fr;Tchepelare;Chepelare
+nl;Tsjepelare;Chepelare
+fi;Tšepelare;Chepelare
+mk;Чепеларе;Chepelare
+ro;Cepelare;Chepelare
+sr;Чепеларе;Chepelare
+pl;Czepełare;Chepelare
+sv;Tjepelare;Chepelare
+bg;Чемиш;Chemish
+bg;Чемерско;Chemersko
+bg;Челъстница;Chelyustnitsa
+bg;Челюстница;Chelyustnitsa
+bg;Челопек;Chelopek
+bg;Челопечене;Chelopechene
+bg;Челопеч;Chelopech
+bg;Челник;Chelnik
+bg;Чехларе;Chehlare
+bg;Чеканци;Chekantsi
+bg;Чеканец;Chekanets
+bg;Чеканчево;Chekanchevo
+bg;Чеганци;Chegantsi
+bg;Чайка;Chayka
+bg;Чавка;Chavka
+bg;Чавеи;Chavei
+bg;Чавдарци;Chavdartsi
+bg;Чавдар;Chavdar
+bg;Чауш Махала;Chaush Mahala
+bg;Чарково;Charkovo
+bg;Чарган;Chargan
+bg;Чарга;Charda
+bg;Царски извор;Tsarski Izvor
+bg;Чамла;Chamla
+bg;Чалъкови;Chalakovi
+bg;Чала;Chala
+bg;Чала;Chal
+bg;Чакалци;Chakaltsi
+bg;Чакалите;Chakalite
+bg;Чакали;Chakali
+bg;Чакалово;Chakalarovo
+bg;Чакаларово;Chakalarovo
+bg;Бяло поле;Byalo Pole
+bg;Бялковци;Byalkovtsi
+bg;Бялково;Byalkovo
+bg;Бял кладенец;Byal Kladenets
+bg;Бялка;Byalka
+bg;Бял извор;Byal Izvor
+bg;Бял градец;Byalgradets
+bg;Бялградец;Byalgradets
+bg;Бял бряг;Byal Bryag
+bg;Бяла Вода;Byala Voda
+bg;Бяла Слатина;Byala Slatina
+bg;Бяла река;Byala Reka
+bg;Бяла поляна;Byala Polyana
+bg;Бяла поляна;Byala Palanka
+bg;Бяла черква;Byala Cherkva
+bg;Бяла;Byala
+bg;Бяга;Byaga
+bg;Бузяковци;Buzyakovtsi
+bg;Бъзън;Bazan
+bg;Бъзовица;Bazovitsa
+bg;Бъзовград;Buzovgrad
+bg;Бъзовец;Bazovets
+bg;Буйновци;Buynovtsi
+bg;Буйново;Buynovo
+bg;Буйновица;Buynovitsa
+bg;Бутроинци;Butrointsi
+bg;Бутрева;Butreva
+bg;Бутово;Butovo
+bg;Бъта;Bata
+bg;Бусманци;Busmantsi
+bg;Бусинци;Busintsi
+bg;Бързия;Barzia
+bg;Бързица;Barzitsa
+bg;Бързина;Barzina
+bg;Бърза река;Barza Reka
+bg;Буря;Burya
+bg;Бурово;Burevo
+bg;Бурево;Burevo
+bg;Бърля;Barlya
+bg;Бърложница;Barlozhnitsa
+bg;Бъркачево;Barkachevo
+bg;Бъркач;Barkach
+bg;Бургас;Burgas
+el;Μπούργκας;Burgas
+fr;Bourgas;Burgas
+nl;Boergas;Burgas
+sr;Бургас;Burgas
+hu;Burgasz;Burgas
+mk;Бургас;Burgas
+bg;Бърдуче;Barduche
+bg;Бардуче;Barduche
+bg;Бърдоква;Bardovka
+bg;Бърдо;Bardo
+bg;Бърдени;Bardeni
+bg;Бърдарски Геран;Bardarski Geran
+bg;Бърдарите;Bardarite
+bg;Бърдарево;Bardarevo
+bg;Бърчево;Barchevo
+bg;Бураново;Buranovo
+bg;Бънзарето;Banzareto
+bg;Бунцево;Buntsevo
+bg;Буново;Bunovo
+bg;Българско Сливово;Balgarsko Slivovo
+bg;Български извор;Balgarski Izvor
+bg;Българска поляна;Balgarska Polyana
+bg;Българово;Balgarovo
+bg;Българка;Balgarka
+bg;Brachma;Balgarka
+bg;Българин;Balgarin
+bg;Българи;Balgari
+bg;Българене;Balgarene
+bg;Българчево;Balgarchevo
+bg;Българаново;Balgaranovo
+bg;Булаир;Bulair
+bg;Буквар;Bukvar
+bg;Буковлък;Bukovlak
+bg;Буковец;Bukovets
+bg;Букова поляна;Bukova Polyana
+bg;Букоровци;Bukorovtsi
+bg;Буховци;Buhovtsi
+bg;Бухово;Buhovo
+bg;Буката;Bukata
+bg;Букак;Bukak
+bg;Бук;Buk
+bg;Буджов дол;Budzhov Dol
+bg;Будилци;Budiltsi
+bg;Бъдеще;Badeshte
+bg;Бучуковци;Buchukovtsi
+bg;Бучин проход;Buchin Prohod
+bg;Бучино;Buchino
+bg;Бубино;Bubino
+bg;Брястово;Bryastovo
+bg;Брястовец;Bryastovets
+bg;Бряст;Bryast
+bg;Брягово;Bryagovo
+bg;Бряговица;Bryagovitsa
+bg;Бряговец;Bryagovets
+bg;Брусник;Brusnik
+bg;Брусино;Brusino
+bg;Бръщен;Brashten
+bg;Бръшляница;Brashlyanitsa
+bg;Бръшлян;Brashlyan
+bg;Бръшлен;Brashlen
+bg;Брусевци;Brusevtsi
+bg;Брусен;Brusen
+bg;Брусарци;Brusartsi
+bg;Брънковци;Brankovtsi
+bg;Брънеците;Branetsite
+bg;Бръчковци;Brachkovtsi
+bg;Брош;Brosh
+bg;Бродилово;Brodilovo
+bg;Брод;Brod
+bg;Брезово;Brezovo
+sr;Брезово;Brezovo
+pl;Brezowo;Brezovo
+sv;Obsjtina Brezovo;Brezovo
+bg;Брезовдол;Brezovdol
+bg;Брезница;Breznitsa
+bg;Брезнишки Извор;Breznishki Izvor
+bg;Брезник;Breznik
+mk;Брезник;Breznik
+sr;Брезник;Breznik
+sv;Obsjtina Breznik;Breznik
+bg;Брежниците;Brezhnitsite
+bg;Брежани;Brezhani
+bg;Брезен;Brezen
+bg;Брезе;Breze
+bg;Бреза;Breza
+bg;Брeстово;Brestovo
+bg;Брестово;Brestovo
+bg;Брестовица;Brestovitsa
+bg;Брестовец;Brestovets
+bg;Брестовене;Brestovene
+bg;Брестова;Brestova
+bg;Брестница;Brestnitsa
+bg;Брестник;Brestnik
+bg;Бресте;Breste
+bg;Брестака;Brestaka
+bg;Брестак;Brestak
+bg;Брест;Brest
+bg;Бреница;Brenitsa
+bg;Брегово;Bregovo
+bg;Брегаре;Bregare
+bg;Брайковица;Braykovitsa
+bg;Братя Кънчеви;Bratya Kunchevi
+bg;Братя Даскалови;Bratya Daskalovi
+bg;Братушкови;Bratushkovo
+bg;Братушково;Bratushkovo
+bg;Брацигово;Bratsigovo
+bg;Братово;Bratovo
+bg;Братаница;Bratanitsa
+bg;Братан;Bratan
+bg;Бранковци;Brankovtsi
+bg;Браница;Branitsa
+bg;Бранище;Branishte
+bg;Браниполе;Branipole
+bg;Браничево;Branichevo
+bg;Бракьовци;Brakyovtsi
+bg;Бракница;Braknitsa
+bg;Брадвари;Bradvari
+bg;Бозвелийско;Bozveliysko
+bg;Бозирог;Bozirog
+bg;Божурци;Bozhurtsi
+bg;Божурово;Bozhurovo
+bg;Божурлук;Bozhurluk
+bg;Божурка;Bozhurka
+bg;Божурица;Bozhuritsa
+bg;Божурище;Bozhurishte
+bg;Божурец;Bozhurets
+bg;Божица;Bozhitsa
+bg;Божичен;Bozhichen
+bg;Божевци;Bozhevtsi
+bg;Боженци;Bozhentsi
+en;Bozhentsite;Bozhentsi
+bg;Боженците;Bozhentsi
+bg;Боженица;Bozhenitsa
+bg;Бождово;Bozhdovo
+bg;Божаново;Bozhanovo
+bg;Божан;Bozhan
+bg;Божак;Bozhak
+bg;Бозаджии;Bozadzhii
+bg;Бойновци;Boynovtsi
+bg;Бойно;Boyno
+bg;Бойница;Boynitsa
+bg;Бойник;Boynik
+bg;Бойковци;Boykovtsi
+bg;Бойково;Boykovo
+bg;Бойковец;Boykovets
+bg;Лом Черковна;Lom Cherkovna
+bg;Горно Краище;Gorno Kraishte
+bg;Бойчовци;Boychovtsi
+bg;Бойчиновци;Boychinovtsi
+bg;Бойчеви колиби;Boychevi Kolibi
+bg;Бойчета;Boycheta
+bg;Боянци;Boyantsi
+bg;Бояновци;Boyanovtsi
+bg;Бояново;Boyanovo
+bg;Боян-Ботево;Boyan-Botevo
+bg;Бояна;Boyana
+bg;Боян;Boyan
+bg;Бояджик;Boyadzhik
+bg;Бояджиева;Boyadzhieva
+bg;Бов;Bov
+bg;Ботурче;Boturche
+bg;Ботуня;Botunya
+bg;Ботров;Botrov
+bg;Ботево;Botevo
+bg;Ботевград;Botevgrad
+bg;Бостина;Bostina
+bg;Бостанци;Bostantsi
+bg;Бостан;Bostan
+bg;Боснек;Bosnek
+bg;Босна;Bosna
+bg;Боликовци;Bosilkovtsi
+bg;Босилково;Bosilkovo
+bg;Босилица;Bosilitsa
+bg;Бошуля;Boshulya
+bg;Босевци;Bosevtsi
+bg;Боряна;Boryana
+bg;Борущица;Borushtitsa
+bg;Борци;Bortsi
+bg;Борското;Borskoto
+bg;Боровци;Borovtsi
+bg;Боровско;Borovsko
+bg;Борово;Borovo
+bg;Боровица;Borovitsa
+bg;Боровина;Borovina
+bg;Боровичене;Borovichene
+bg;Боровец;Borovets
+de;Borovec;Borovets
+ro;Boroveț;Borovets
+bg;Боров дол;Borov Dol
+bg;Борован;Borovan
+bg;Борнарево;Bornarevo
+bg;Борисова;Borisovo
+bg;Борисово;Borisovo
+bg;Бориславци;Borislavtsi
+bg;Борислав;Borislav
+bg;Боринци;Borintsi
+bg;Бориново;Borinovo
+bg;Борино;Borino
+bg;Боримечково;Borimechkovo
+bg;Борима;Borima
+bg;Борилово;Borilovo
+bg;Бориловец;Borilovets
+bg;Бориково;Borikovo
+bg;Борики;Boriki
+bg;Борика;Borika
+bg;Бориева;Borieva
+bg;Борие;Borie
+bg;Борец;Borets
+bg;Бор;Bor
+bg;Бонево;Bonevo
+bg;Болярци;Bolyartsi
+bg;Болярско;Bolyarsko
+bg;Болярски извор;Bolyarski Izvor
+bg;Болярово;Bolyarovo
+bg;Болярово;Bolyarino
+bg;Болтата;Boltata
+bg;Бокиловци;Bokilovtsi
+bg;Бохова;Bohova
+bg;Бохот;Bohot
+bg;Боил;Boil
+bg;Богутево;Bogutevo
+bg;Богьовци;Bogyovtsi
+bg;Богослов;Bogoslov
+bg;Богорово;Bogorovo
+bg;Богоров дол;Bogorov Dol
+bg;Богомолско;Bogomolsko
+bg;Богомилци;Bogomiltsi
+bg;Богомилово;Bogomilovo
+bg;Богомил;Bogomil
+bg;Боголин;Bogolin
+bg;Богойна;Bogoina
+bg;Богданци;Bogdantsi
+bg;Богданско;Bogdansko
+bg;Богдановци;Bogdanovtsi
+bg;Богданово;Bogdanovo
+bg;Богдановдол;Bogdanov Dol
+bg;Богданов Дол;Bogdanov Dol
+bg;Богданлия;Bogdanlia
+bg;Богданица;Bogdanitsa
+bg;Богданчовци;Bogdanchovtsi
+bg;Богдан;Bogdan
+bg;Богатово;Bogatovo
+bg;Боево;Boevo
+bg;Боерица;Boeritsa
+bg;Бодиат;Bodyat
+bg;Бодрово;Bodrovo
+bg;Боденец;Bodenets
+bg;Бошковци;Bochkovtsi
+bg;Бобовец;Bobovets
+bg;Бобовдол;Bobov Dol
+bg;Бобов Дол;Bobov Dol
+bg;Бобочево;Boboshevo
+bg;Бобошево;Boboshevo
+bg;Бобараци;Boboratsi
+bg;Бобораци;Boboratsi
+bg;Бобевци;Bobevtsi
+bg;Бобешино;Bobeshino
+bg;Боазъ;Boazat
+bg;Боазът;Boazat
+bg;Блъсковци;Blaskovtsi
+bg;Блъсково;Blaskovo
+bg;Близнец;Bliznets
+bg;Близнаци;Bliznatsi
+bg;Близнак;Bliznak
+bg;Бленика;Blenika
+bg;Блажиево;Blazhievo
+bg;Блацка;Blatska
+bg;Блато;Blato
+bg;Блатница;Blatnitsa
+bg;Блатино;Blatino
+bg;Блатец;Blatets
+bg;Блатешница;Blateshnitsa
+bg;Благунци;Blaguntsi
+bg;Благун;Blagun
+bg;Благово;Blagovo
+bg;Благоево;Blagoevo
+bg;Благоевград;Blagoevgrad
+bg;Горна Джумая;Blagoevgrad
+de;Blagoewgrad;Blagoevgrad
+cs;Blagojevgrad;Blagoevgrad
+el;Μπλαγκόεβγκραντ;Blagoevgrad
+mk;Благоевград;Blagoevgrad
+sr;Благоевград;Blagoevgrad
+pl;Błagojewgrad;Blagoevgrad
+bg;Бижовци;Bizhovtsi
+bg;Биволяне;Bivolyane
+bg;Биволаре;Bivolare
+bg;Бивол;Bivol
+bg;Бистроглед;Bistrogled
+bg;Бистрица;Bistritsa
+bg;Бистрилица;Bistrilitsa
+bg;Бистрец;Bistrets
+bg;Бистренци;Bistrentsi
+bg;Бистра;Bistra
+bg;Бисерци;Bisertsi
+bg;Бисер;Biser
+bg;Биркова;Birkova
+bg;Бинкос;Binkos
+bg;Билянска;Bilyanska
+bg;Било;Bilo
+bg;Билково;Bilkovo
+bg;Билкини;Bilkini
+bg;Билка;Bilka
+bg;Билинци;Bilintsi
+bg;Биково;Bikovo
+bg;Безводно;Bezvodno
+bg;Безводица;Bezvoditsa
+bg;Безмер;Bezmer
+bg;Бежаново;Bezhanovo
+bg;Безденица;Bezdenitsa
+bg;Безден;Bezden
+bg;Бейковци;Beykovtsi
+bg;Бешурка;Besnurka
+bg;Беслен;Beslen
+bg;Берсин;Bersin
+bg;Бероново;Beronovo
+bg;Берковци;Berkovtsi
+bg;Берковски;Berkovski
+bg;Берковица;Berkovitsa
+en;Berkovitsa Municipality;Berkovitsa
+bg;Община Берковица;Berkovitsa
+cs;Obština Berkovica;Berkovitsa
+ro;Comuna Berkovița;Berkovitsa
+pl;Gmina Berkowica;Berkovitsa
+bg;Бериево;Berievo
+bg;Беренде Извор;Berende Izvor
+bg;Беренде;Berende
+bg;Берайнци;Berayntsi
+bg;Бенковски;Benkovski
+bg;Беляново;Belyanovo
+bg;Беляковец;Belyakovets
+bg;Белцов;Beltsov
+bg;Белозем;Belozem
+bg;Белово;Belovo
+bg;Бельово;Belyovo
+bg;Беловица;Belovitsa
+bg;Беловец;Belovets
+bg;Белотинци;Belotintsi
+bg;Белопопци;Belopoptsi
+bg;Белополяне;Belopolyane
+bg;Белополци;Belopoltsi
+bg;Бело Поле;Belo Pole
+bg;Беломъжите;Belomazhite
+bg;Беломорци;Belomortsi
+bg;Белокопитово;Belokopitovo
+bg;Белоградец;Belogradets
+bg;Белоградчик;Belogradchik
+bg;Белодол;Belodol
+bg;Бел Камен;Bel Kamen
+bg;Бели Вир;Beli Vir
+bg;Белица;Belitsa
+ro;Belița;Belitsa
+sr;Белица;Belitsa
+pl;Belica;Belitsa
+mk;Белица;Belitsa
+bg;Белиш;Belish
+bg;Бели пласт;Beli Plast
+bg;Бели Осъм;Beli Osŭm
+en;Beli Osam;Beli Osŭm
+bg;Белинци;Belintsi
+bg;Белимел;Belimel
+bg;Бели Лом;Beli Lom
+bg;Белила;Belila
+bg;Бели Извор;Beli Izvor
+bg;Бели Искър;Beli Iskar
+bg;Бели Дол;Beli Dol
+bg;Бели бряг;Beli Bryag
+bg;Бели Брод;Beli Brod
+bg;Бели Брег;Beli Breg
+bg;Белгун;Belgun
+bg;Белеврен;Belevren
+bg;Белевехчево;Belevehchevo
+bg;Белев дол;Belev Dol
+bg;Беленци;Belentsi
+bg;Белене;Belene
+bg;Белега;Belega
+bg;Белчински бани;Belchinski Bani
+bg;Белчин;Belchin
+bg;Белчевци;Belchevtsi
+bg;Беласица;Belasitsa
+bg;Белащница;Belashtitsa
+bg;Бела Рада;Bela Rada
+bg;Бела;Bela
+bg;Бекриите;Bekriite
+bg;Бегунци;Beguntsi
+bg;Бегуновци;Begunovtsi
+bg;Бегово;Begovo
+bg;Беглеж;Beglezh
+bg;Беджене;Bedzhene
+bg;Бедрово;Bedrovo
+bg;Бедил;Bedil
+bg;Беден;Beden
+bg;Беброво;Bebrovo
+bg;Бдинци;Bdintsi
+bg;Баждари;Bazhdari
+bg;Байовци;Bayovtsi
+bg;Байлово;Baylovo
+bg;Байково;Baykovo
+bg;Байкалско;Baykalsko
+en;Besli;Baykal
+bg;Байкал;Baykal
+bg;Байчево;Bayachevo
+bg;Баурене;Baurene
+bg;Батулци;Batultsi
+bg;Батулия;Batulia
+bg;Бацова Махала;Batsova Mahala
+bg;Батово;Batovo
+bg;Батошево;Batoshevo
+bg;Батковци;Batkovtsi
+bg;Батишница;Batishnitsa
+bg;Батин;Batin
+bg;Батанци;Batantsi
+bg;Батак;Batak
+sr;Батак;Batak
+bg;Бата;Bata
+bg;Баскалци;Baskaltsi
+bg;Бащино;Bashtino
+bg;Башево;Bashevo
+bg;Баш Бук;Bukatsite
+bg;Букаците;Bukatsite
+bg;Басарбово;Basarbovo
+bg;Горна Арда;Gorna Arda
+bg;Барутин;Barutin
+bg;Бараци;Baratsi
+bg;Баня;Banya
+bg;Банско;Bansko
+el;Μπάνσκο;Bansko
+mk;Банско;Bansko
+sr;Банско;Bansko
+bg;Баново;Banovo
+bg;Банкя;Bankya
+bg;Банковци;Bankovtsi
+bg;Банковец;Bankovets
+bg;Баница;Banitsa
+bg;Баните;Banite
+bg;Баниска;Baniska
+bg;Банище;Banishte
+bg;Баничан;Banichan
+bg;Бангейци;Bangeytsi
+bg;Банево;Banevo
+bg;Банчовци;Banchovtsi
+bg;Банари;Banari
+bg;Балювица;Balyuvitsa
+bg;Балванците;Balvantsite
+bg;Балван;Balvan
+bg;Балъци;Balutsi
+bg;Балша;Balsha
+bg;Бальовци;Balyovtsi
+bg;Бальова махала;Balyova Mahala
+bg;Балканци;Balkantsi
+bg;Балканци;Balkanski
+bg;Балкан махала;Balkan Mahala
+bg;Балканец;Balkanets
+bg;Балкан;Balkan
+bg;Балиновци;Balinovtsi
+bg;Балик;Balik
+bg;Балей;Baley
+bg;Балдево;Baldevo
+de;Baltschik;Balchik
+bg;Балчик;Balchik
+en;Baltchik;Balchik
+bg;Баланово;Balanovo
+bg;Баланите;Balanite
+bg;Балалея;Balaleya
+bg;Балабанско;Balabansko
+bg;Балабанска;Balabanska
+bg;Балабаново;Balabanovo
+bg;Балабанчево;Balabanchevo
+bg;Бакьово;Bakyovo
+bg;Бакова могила;Bakova Mogila
+bg;Бахреци;Bahretsi
+bg;Баховица;Bahovitsa
+bg;Бакалите;Bakalite
+bg;Багрянка;Bagryanka
+bg;Багрилци;Bagriltsi
+bg;Багренци;Bagrentsi
+bg;Багра;Bagra
+bg;Багалевци;Bagalevtsi
+bg;Баевци;Baevtsi
+bg;Баева могила;Baeva Livada
+bg;Бадино;Badino
+bg;Бадевци;Badevtsi
+bg;Бачковски манастир;Bachkovski Manastir
+bg;Бачково;Bachkovo
+bg;Бачево;Bachevo
+bg;Бабяк;Babyak
+bg;Бабук;Babuk
+bg;Бабово;Babovo
+bg;Баблон;Bablon
+bg;Бабица;Babitsa
+bg;Бабинци;Babintsi
+bg;Бабинска Река;Babinska Reka
+bg;Бабино бърдже;Babino Bardtse
+bg;Бабино;Babino
+bg;Бабек;Babek
+bg;Баба Тонка;Baba Tonka
+bg;Баба Стана;Baba Stana
+bg;Азманите;Azmanite
+pl;Ajtos;Aytos
+bg;Айтос;Aytos
+it;Aitos;Aytos
+pt;Aitos;Aytos
+sv;Ajtos;Aytos
+de;Ajtos;Aytos
+fi;Aitos;Aytos
+bg;Айрово;Ayrovo
+bg;Айдемир;Aydemir
+bg;Айдарово;Aydarovo
+bg;Аврен;Avren
+bg;Аврамовска;Avramovski
+bg;Аврамовски;Avramovski
+bg;Аврамово;Avramovo
+bg;Мокрен;Mokren
+bg;Ауста;Austa
+bg;Атолово;Atolovo
+bg;Аспарухово;Asparuhovo
+bg;Асеновци;Asenovtsi
+bg;Асеново;Asenovo
+bg;Асеновград;Asenovgrad
+bg;Асеновец;Asenovets
+bg;Асен;Asen
+bg;Арзан;Arzan
+bg;Арсланлар;Arslanlar
+bg;Арпаджик;Arpadzhik
+bg;Арнаутино;Arnautito
+bg;Армянковци;Armyankovtsi
+bg;Армените;Armenite
+bg;Арковна;Arkovna
+bg;Ардино;Ardino
+sr;Ардино;Ardino
+bg;Арда;Arda
+bg;Арчар;Archar
+bg;Арбанаси;Arbanasi
+bg;Априлци;Apriltsi
+bg;Априлово;Aprilovo
+bg;Аплаци;Aplatsi
+bg;Антоново;Antonovo
+bg;Антон;Anton
+bg;Ангел войвода;Angel Voyvoda
+bg;Ангеловци;Angelovtsi
+bg;Ангелов дол;Angelov Dol
+bg;Ангелов;Angelov
+bg;Ангеларий;Angelariy
+bg;Алваново;Alvanovo
+bg;Алцек;Altsek
+bg;Алтимир;Altimir
+bg;Алино;Alino
+bg;Алиговска;Aligovska Mahala
+bg;Алиговска Махала;Aligovska Mahala
+bg;Алфатар;Alfatar
+bg;Алексеево;Samuilovo
+bg;Александър Стамболийски;Aleksandar Stamboliyski
+bg;Александрово;Aleksandrovo
+bg;Александрия;Aleksandria
+bg;Алеково;Alekovo
+bg;Алеко-Константинов;Aleko Konstantinovo
+bg;Алеко Константиново;Aleko Konstantinovo
+bg;Staria Izvor;Aleko Konstantinovo
+bg;Алдомирци;Aldomirovtsi
+bg;Алдомировци;Aldomirovtsi
+bg;Албена;Albena
+bg;Албанци;Albantsi
+bg;Алар;Alar
+bg;Аламовци;Alamovtsi
+bg;Аксаково;Aksakovo
+en;Aksakovo Municipality;Aksakovo
+bg;Община Аксаково;Aksakovo
+ro;Comuna Aksakovo;Aksakovo
+pl;Gmina Aksakowo;Aksakovo
+bg;Ахтопол;Ahtopol
+bg;Ахрянско;Ahryansko
+bg;Ахматово;Ahmatovo
+bg;Акациево;Akatsievo
+bg;Аканджиево;Akandzhievo
+bg;Агатово;Agatovo
+bg;Абрит;Abrit
+bg;Абланица;Ablanitsa
+bg;Горна Карадаци;Gorna Karadatsi Mahala
+bg;Горна Карадаци Махала;Gorna Karadatsi Mahala
+bg;Чергарска Махала;Chergarska Mahala
+bg;Звярска Махала;Zvyarska Mahala
+bg;Свърчурин дол;Shushurin Dol Mahala
+bg;Шушурин Дол Махала;Shushurin Dol Mahala
+bg;Средна Махала;Sredna Mahala
+bg;Присовска Махала;Prisovska Mahala
+bg;Турнярска махала;Tarnyarska Mahala
+bg;Turnyarska Mahala;Tarnyarska Mahala
+bg;Търнярска Махала;Tarnyarska Mahala
+bg;Падище;Padishte
+bg;Папрацка;Papratska
+bg;Папратска;Papratska
+bg;Радевска Махала;Radevska Mahala
+bg;Дюлгерска;Dyulgerska
+bg;Вечова махала;Veshova Mahala
+bg;Вешова Махала;Veshova Mahala
+bg;Велкова Махала;Velkova Mahala
+bg;Костева махала;Kotseva Mahala
+bg;Коцева Махала;Kotseva Mahala
+bg;Ягодинска махала;Yagodnichka Mahala
+bg;Ягодничка Махала;Yagodnichka Mahala
+bg;Лопушанска;Lopushanska
+bg;Ридарска Махала;Ridarska Mahala
+bg;Средна махала;Sredna Makhala
+bg;Широки дел;Shiroki Del Mahala
+bg;Широки Дел Махала;Shiroki Del Mahala
+bg;Церянска;Tseryanska Mahala
+bg;Церянска Махала;Tseryanska Mahala
+bg;Китовска;Kitovska Mahala
+bg;Китовска Махала;Kitovska Mahala
+bg;Ридаре;Ridare Mahala
+bg;Ридаре Махала;Ridare Mahala
+bg;Доларе;Dolare
+bg;Дрянов Долска Махала;Dryanov Dolska Mahala
+bg;Кошаринска;Kosharinska
+bg;Сливарска;Slivarska
+bg;Ризовска Махала;Rizovska Mahala
+bg;Малиновска;Malinovska
+bg;Пищилска;Pishtilska
+bg;Варошка Махала;Varoshka Mahala
+bg;Чергарска махала;Chergarska Makhala
+bg;Жедилово;Zhedilovo
+bg;Махала Поломска;Mahala Polomska
+bg;Mahala Sredni-Del;Sredni Del
+bg;Средни Дел;Sredni Del
+bg;Айманичане;Aymanichane
+bg;Mahala Aymanichane;Aymanichane
+bg;Mahala Srednyo Usoe;Sredno Usoe
+bg;Средно Усое;Sredno Usoe
+bg;Градска Ливаде;Gradsko Livade
+bg;Mahala Gradska Livade;Gradsko Livade
+bg;Градско Ливаде;Gradsko Livade
+bg;Църквичка;Mahala Tsarkvichka
+bg;Махала Църквичка;Mahala Tsarkvichka
+bg;Селище;Shirilova Mahala
+bg;Mahala Selishte;Shirilova Mahala
+bg;Ширилова Махала;Shirilova Mahala
+bg;Вачокорска;Mahala Vachokorska
+bg;Криволяк;Bazdrika
+bg;Mahala Krivolyak;Bazdrika
+bg;Баздрика;Bazdrika
+bg;Шатковица;Shatkovitsa
+bg;махала Село;Selo
+bg;Mahala Selo;Selo
+bg;Село;Selo
+bg;Николники;Nikolniki
+bg;Стублица;Stublitsa
+bg;Златни пясъци;Zlatni Pyasatsi
+en;Golden Sands;Zlatni Pyasatsi
+sv;Golden Sands;Zlatni Pyasatsi
+no;Golden Sands;Zlatni Pyasatsi
+de;Goldstrand;Zlatni Pyasatsi
+pl;Złote Piaski;Zlatni Pyasatsi
+bg;Слънчев бряг;Slanchev Bryag
+en;Sunny Beach;Slanchev Bryag
+sv;Sunny Beach;Slanchev Bryag
+no;Sunny Beach;Slanchev Bryag
+de;Sonnenstrand;Slanchev Bryag
+bg;Дюни;Duni
+bg;Елените;Elenite
+bg;Св. Константин и Елена;Sv. Konstantin i Elena
+bg;Свети Константин и Елена;Sv. Konstantin i Elena
+en;Saints Constantine and Helena;Sv. Konstantin i Elena
+de;Sweti sweti Konstantin i Elena;Sv. Konstantin i Elena
+de;Sweti Konstantin;Sv. Konstantin i Elena
+bg;Пампорово;Pamporovo
+de;Borowez;Borovets
+bg;Морхово;Morhovo
+bg;Велека;Veleka
+bg;Кобарелов Чифлик;Kobarelov Chiflik
+bg;Черноземци;Chernozemtsi
+bg;Буковци;Bukovtsi
+bg;Кършична Махала;Karshichna Mahala
+bg;Дековци;Dekovtsi
+bg;Врана Поляна;Vrana Polyana
+bg;Снегово;Snegovo
+bg;Месари;Mesari
+bg;Динка;Dinka
+bg;Датин;Datin
+bg;Залист;Zalist
+bg;Долняне;Dolnyane
+bg;Ямача;Yamacha
+bg;Чукур;Chukur
+bg;Дебелка;Debelka
+bg;Мрянка;Mryanka
+bg;Пчелояд;Pcheloyad
+bg;Самокойска;Samokoyska
+bg;Рударка;Rudarka
+bg;Луйбовка;Luybovka
+bg;Белогъска;Belogaska
+bg;Аджилар Махала;Adzhilar Mahala
+bg;Славейно;Slaveyno
+bg;Брачковци;Brachkovtsi
+bg;Радевица;Radevitsa
+bg;Саботино;Sabotino
+bg;Блатище;Blatishte
+bg;Балчовци;Balchovtsi
+bg;Църковци;Tsarkovtsi
+bg;Шопар;Shopar
+bg;Свилица;Svilitsa
+bg;Балинци;Balintsi
+bg;Юговец;Yugovets
+bg;Черешарка;Cheresharka
+bg;Бобарци;Bobartsi
+bg;Лъжичник;Lazhichnik
+bg;Хумино;Humino
+bg;Кадиларка;Kadilarka
+bg;Училищна;Uchilishtna
+bg;Гаговци;Gagovtsi
+bg;Глиган;Gligan
+bg;Паун;Paun
+bg;Душино;Dushino
+bg;Руй;Ruy
+bg;Белина;Belina
+bg;Зейка;Zeyka
+bg;Орех;Oreh
+bg;Дрозд;Drozd
+bg;Павлина;Pavlina
+bg;Мехурка;Mehurka
+bg;Трайковци;Traykovtsi
+bg;Папур;Papur
+bg;Тайник;Taynik
+bg;Битово;Bitovo
+bg;Вихрушка;Vihrushka
+bg;Чобанска;Chobanska
+bg;Копривник;Koprivnik
+bg;Синап;Sinap
+bg;Щърбина;Shtarbina
+bg;Кокешар;Kokeshar
+bg;Лопатар;Lopatar
+bg;Папина;Papina
+bg;Бучина;Buchina
+bg;Топлица Махала;Toplitsa Mahala
+bg;Тъжево;Tazhevo
+bg;Чобан Махала;Choban Mahala
+bg;Букова Махала;Bukova Mahala
+bg;Люлякова Махала;Lyulyakova Mahala
+bg;Требино;Trebino
+bg;Костина;Kostina
+bg;Ладово;Ladovo
+bg;Пиявица;Piyavitsa
+bg;Грапа;Grapa
+bg;Праз;Praz
+bg;Едрино;Edrino
+bg;Лисичарка;Lisicharka
+bg;Овчица;Ovchitsa
+bg;Орел;Orel
+bg;Стеблово;Steblovo
+bg;Спанчево;Spanchevo
+bg;Любинци;Lyubintsi
+bg;Дъскари;Daskari
+bg;Кощрява;Koshtryava
+bg;Чакалица;Chakalitsa
+bg;Учиполе;Uchipole
+bg;Арабаджи Махала;Arabadzhi Mahala
+bg;Дорковица;Dorkovitsa
+bg;Сладкар;Sladkar
+bg;Хубавелка;Hubavelka
+bg;Ветрец;Vetrets
+bg;Прогрес;Progres
+bg;Светла;Svetla
+bg;Писарци;Pisartsi
+bg;Крушница;Krushnitsa
+bg;Разделна Махала;Razdelna Mahala
+bg;Мразовец;Mrazovets
+bg;Пухиче;Puhiche
+bg;Леща;Leshta
+bg;Ботка;Botka
+bg;Хартица;Hartitsa
+bg;Пловдина;Plovdina
+bg;Подвръх;Podvrah
+bg;Мердженик;Merdzhenik
+bg;Чакърци;Chakartsi
+bg;Брежана;Brezhana
+bg;Лъвовска Махала;Lavovska Mahala
+bg;Сараянска Махала;Sarayanska Mahala
+bg;Джангаловска Махала;Dzhangalovska Mahala
+bg;Коларска Махала;Kolarska Mahala
+bg;Балабанска Махала;Balabanska Mahala
+bg;Годоманска Махала;Godomanska Mahala
+bg;Станчева Махала;Stancheva Mahala
+bg;Страхилова;Strahilova
+bg;Дебелица;Debelitsa
+bg;Бачковица;Bachkovitsa
+bg;Губерци;Gubertsi
+bg;Хаджийско;Hadzhiysko
+bg;Вранево;Vranevo
+bg;Биримирка;Birimirka
+bg;Храбрец;Hrabrets
+bg;Вълчанка;Valchanka
+bg;Перуска махала;Apriltsi
+en;Peruska mahala;Apriltsi
+bg;Сулука;Apriltsi
+en;Suluka;Apriltsi
+bg;Делизминови Колиби;Delizminovi Kolibi
+bg;Черешка;Chereshka
+bg;Залез;Zalez
+bg;Айваджик;Ayvadzhik
+bg;Пещерска Махала;Peshterska Mahala
+bg;Хаджийски Дол;Hadzhiyski Dol
+bg;Конски Дол;Konski Dol
+bg;Кукале;Kukale
+bg;Карамитева Махала;Karamiteva Mahala
+bg;Ангелови Колиби;Angelovi Kolibi
+bg;Еленка;Elenka
+bg;Горен Върли Дол;Goren Varli Dol
+bg;Долен Върли Дол;Dolen Varli Dol
+bg;Дуганица;Duganitsa
+bg;Хайдарови Колиби;Haydarovi Kolibi
+bg;Пехливанови Колиби;Pehlivanovi Kolibi
+bg;Белите Камъни;Belite Kamani
+bg;Юрукови Колиби;Yurukovi Kolibi
+bg;Селището;Selishteto
+bg;Карнурска Махала;Karnurska Mahala
+bg;Дуравци;Duravtsi
+bg;Колиби Стамово;Kolibi Stamovo
+bg;Колиби Върбовски Къщи;Kolibi Varbovski Kashti
+bg;Парнарево;Parnarevo
+bg;Селинска Река;Selinska Reka
+bg;Пеево;Peevo
+bg;Мешовци;Meshovtsi
+bg;Пърпори;Parpori
+bg;Дошинково;Doshinkovo
+bg;Люляците;Lyulyatsite
+bg;Учурума;Uchuruma
+bg;Карадачка;Karadachka
+bg;Маляци;Malyatsi
+bg;Стоилковци;Stoilkovtsi
+bg;Ченковци;Chenkovtsi
+bg;Дюлгерци;Dyulgertsi
+bg;Гоговци;Gogovtsi
+bg;Топузовска Махала;Topuzovska Mahala
+bg;Косовци;Kosovtsi
+bg;Памуклийска Махала;Pamukliyska Mahala
+bg;Балабанци;Balabantsi
+bg;Качулци;Kachultsi
+bg;Трендафилци;Trendafiltsi
+bg;Тупарци;Tupartsi
+bg;Бачевци;Bachevtsi
+bg;Мурджоцви;Murdzhovtsi
+bg;Хаджийска Махала;Hadzhiyska Mahala
+bg;Урулачка Махала;Urulachka Mahala
+bg;Пандурци;Pandurtsi
+bg;Наджаците;Nadzhatsite
+bg;Янчовци;Yanchovtsi
+bg;Марчовци;Marchovtsi
+bg;Веселинци;Veselintsi
+bg;Чукарска Махала;Chukarska Mahala
+bg;Байрактарци;Bayraktartsi
+bg;Белашовска Махала;Belashovska Mahala
+bg;Чаневци;Chanevtsi
+bg;Язвалийте;Yazvaliyte
+bg;Савевска Махала;Savevska Mahala
+bg;Мазневци;Maznevtsi
+bg;Гръцка Махала;Gratska Mahala
+bg;Долна Мездра;Dolna Mezdra
+bg;Горна Мездра;Gorna Mezdra
+bg;Деспотци;Despottsi
+bg;Багашовци;Bagashovtsi
+bg;Бойчевци;Boychevtsi
+bg;Бакалци;Bakaltsi
+bg;Малишевска Махала;Malishevska Mahala
+bg;Рекарска Махала;Rekarska Mahala
+bg;Миладинска Махала;Miladinska Mahala
+bg;Ковачка Махала;Kovachka Mahala
+bg;Лукарска Махала;Lukarska Mahala
+bg;Барковци;Barkovtsi
+bg;Юруците;Yurutsite
+bg;Механджийска;Mehandzhiyska
+bg;Златковци;Zlatkovtsi
+bg;Реджовци;Redzhovtsi
+bg;Заяците;Zayatsite
+bg;Стоймерци;Stoimertsi
+bg;Плянговци;Plyangovtsi
+bg;Крайковци;Kraykovtsi
+bg;Йовановци;Yovanovtsi
+bg;Тевнидолска Махала;Tevnidolska Mahala
+bg;Рояците;Royatsite
+bg;Прикрат;Prikrat
+bg;Малинковци;Malinkovtsi
+bg;Кокалковци;Kokalkovtsi
+bg;Кориянска;Korianska
+bg;Горно Лешко;Gorno Leshko
+bg;Урумци;Urumtsi
+bg;Гарбеланска Махала;Garbelanska Mahala
+bg;Ролевци;Rolevtsi
+bg;Хайдушка Махала;Haydushka Mahala
+bg;Мижевци;Mizhevtsi
+bg;Кавъркулаците;Kavarkulatsite
+bg;Бързашка Махала;Barzashka Mahala
+bg;Мерковци;Merkovtsi
+bg;Качулска Махала;Kachulska Mahala
+bg;Треновци;Trenovtsi
+bg;Барбаш;Barbash
+bg;Марияновска Махала;Mariyanovska Mahala
+bg;Туговци;Tugovtsi
+bg;Лишанци;Lishantsi
+bg;Котовци;Kotovtsi
+bg;Стопанска Махала;Stopanska Mahala
+bg;Хановете;Hanovete
+bg;Сукали;Sukali
+bg;Въчкова Махала;Vachkova Mahala
+bg;Малиновска Махала;Malinovska Mahala
+bg;Ковачка;Kovachka
+bg;Калайджийска;Kalaydzhiyska
+bg;Тасевци;Tasevtsi
+bg;Младенци;Mladentsi
+bg;Терзийска;Terziyska
+bg;Кьосовска;Kyosovska
+bg;Тодоровска;Todorovska
+bg;Китановци;Kitanovtsi
+bg;Домозетци;Domozettsi
+bg;Капетанци;Kapetantsi
+bg;Кипренци;Kiprentsi
+bg;Божиновци;Bozhinovtsi
+bg;Въчковци;Vachkovtsi
+bg;Кацарци;Katsartsi
+bg;Мурджовци;Murdzhovtsi
+bg;Крастава Махала;Krastava Mahala
+bg;Стоиловска Махала;Stoilovska Mahala
+bg;Мижовци;Mizhovtsi
+bg;Равнашка Махала;Ravnashka Mahala
+bg;Бачовци;Bachovtsi
+bg;Будишка Махала;Budishka Mahala
+bg;Реката;Rekata
+bg;Ушите;Ushite
+bg;Стоилова Махала;Stoilova Mahala
+bg;Торбанци;Torbantsi
+bg;Борнарци;Bornartsi
+bg;Цървенджийци;Tsarvendzhiytsi
+bg;Бандачка Махала;Bandachka Mahala
+bg;Коньовец;Konyovets
+bg;Горно Кирково;Gorno Kirkovo

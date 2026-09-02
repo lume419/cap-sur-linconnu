@@ -280,7 +280,27 @@
     // depuis 1997 (~61,5 MKD pour 1 EUR, cible officielle de politique de change — mappr.co,
     // fxrate.io 2026), un régime proche (sans en être formellement un) de la caisse d'émission
     // bosnienne.
-    MK: { code:'MK', name:'Macédoine du Nord', file:'communes-mk.txt', hasToll:true, aliasFile:'aliases-mk.txt', currency:'MKD' }
+    MK: { code:'MK', name:'Macédoine du Nord', file:'communes-mk.txt', hasToll:true, aliasFile:'aliases-mk.txt', currency:'MKD' },
+    // Grèce : hasToll:true — péage classique avec barrière comme la France/la Croatie/la Serbie,
+    // réseau bien plus étendu que tous les pays balkaniques précédents (voir TOLL_RATE_BY_COUNTRY.GR
+    // plus bas pour le détail du calcul, dérivé de trois vraies liaisons). En zone euro (depuis
+    // l'origine, 2001) : pas de champ `currency`.
+    GR: { code:'GR', name:'Grèce', file:'communes-gr.txt', hasToll:true, aliasFile:'aliases-gr.txt' },
+    // Bulgarie : hasToll:false — pas de péage au trajet mais une vignette électronique OBLIGATOIRE
+    // (e-vignette BGTOLL, bgtoll.bg, société publique gestionnaire du réseau) plutôt qu'un barème
+    // €/km, même famille que la Suisse/l'Autriche/la République tchèque/la Slovaquie/la Hongrie/la
+    // Slovénie déjà couvertes (voir champ `vignette` juste dessous). En zone euro depuis le 1er
+    // janvier 2026 (dernière entrée en date, remplaçant le lev bulgare/BGN à parité fixe historique
+    // 1,95583 — europarl.europa.eu, consilium.europa.eu 2026) : pas de champ `currency` non plus,
+    // contrairement à ce qu'aurait exigé ce même pays un an plus tôt.
+    BG: { code:'BG', name:'Bulgarie', file:'communes-bg.txt', hasToll:false, aliasFile:'aliases-bg.txt',
+      vignette:{ url:'https://www.bgtoll.bg' } },
+    // Roumanie : même famille que la Bulgarie — hasToll:false, vignette électronique OBLIGATOIRE
+    // (rovinieta, portail officiel CNAIR erovinieta.ro) plutôt qu'un péage au trajet. Devise : RON
+    // (leu roumain), hors zone euro et flottant (contrairement au lev bulgare, jamais arrimé à
+    // l'euro à taux fixe) — ~5,25 RON pour 1 EUR début septembre 2026 (xe.com/ecb.europa.eu).
+    RO: { code:'RO', name:'Roumanie', file:'communes-ro.txt', hasToll:false, aliasFile:'aliases-ro.txt', currency:'RON',
+      vignette:{ url:'https://www.erovinieta.ro' } }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -289,7 +309,7 @@
   // autres tels quels — la livre sterling se note généralement "£" devant le montant en anglais,
   // mais rester en code ISO ici évite toute ambiguïté avec les livres locales de Guernesey/Jersey
   // (jamais interchangeables avec un simple "£" hors de leurs îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON' };
   // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
   // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
   // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
@@ -297,7 +317,7 @@
   // symbole "kr" (DKK/NOK/SEK, chacune sa propre couronne nationale) : jamais affiché seul dans le
   // sélecteur, toujours accompagné du code (voir renderCurrencyList/renderCurrencyButton) pour
   // rester non ambigu malgré le symbole commun.
-  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден' };
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :
@@ -742,6 +762,22 @@
   //   catégories 1A moto/1B voiture/2 van) : ratio moto moyen ×0,60 (40/60, 20/40, 50/80, 60/100),
   //   ratio van moyen ×1,42 (80/60, 50/40, 120/80, 160/100) — retenus tels quels plutôt que le ratio
   //   croate, structurellement différent (péage aux gares plutôt que fermé) — d'où 0,029/0,068 €/km.
+  // - Grèce : péage aux gares comme la Macédoine du Nord (paiement fixe à chaque gare traversée,
+  //   pas un ticket entrée/sortie unique), mais un réseau bien plus dense — plusieurs concessionnaires
+  //   distincts par axe (Olympia Odos, PATHE/Attiki Odos, Egnatia Odos), interopérables depuis 2023
+  //   (badge unique e-Pass, mydiodia.gr). Trois liaisons réelles retenues (mydiodia.gr 2026,
+  //   catégorie 2/voiture) : Athènes-Patras (A8/Olympia Odos, 215 km, 13,80 €) -> 0,0642 €/km,
+  //   Athènes-Thessalonique (A1/PATHE, 503 km, 36,70 €) -> 0,0730 €/km, Thessalonique-Alexandroupoli
+  //   (A2/Egnatia Odos, 360 km, 14,25 €) -> 0,0396 €/km — nettement moins cher sur l'Egnatia, cohérent
+  //   avec le nouveau tarif national annoncé pour cet axe (0,04 €/km + TVA à partir de 2026,
+  //   tovima.com). Médiane retenue : 0,0642 €/km, arrondi 0,064 €/km. Classe moto (5) dérivée d'un
+  //   VRAI ratio officiel trouvé sur la grille tarifaire de l'Attiki Odos (périphérique d'Athènes,
+  //   pas une liaison intercité mais la seule grille par catégorie disponible) : catégorie 1 (moto)
+  //   1,25 €, catégorie 2 (voiture) 2,55 € -> ratio ×0,49, arrondi ×0,5 comme la Croatie/la Serbie —
+  //   d'où 0,032 €/km. Classe van (2), même grille Attiki Odos : catégorie 4 (van/caravane) au même
+  //   tarif que la catégorie 2 pour ce périphérique précis, pas représentatif d'un vrai surcoût
+  //   intercité — extrapolée à la place au ratio régional ×1,5 (Croatie/Macédoine du Nord) plutôt que
+  //   prise telle quelle, faute de grille intercité dédiée — d'où 0,096 €/km.
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,
@@ -751,7 +787,8 @@
     HR: { 1: 0.060, 2: 0.090, 5: 0.030 },
     BA: { 1: 0.097, 2: 0.150, 5: 0.056 },
     RS: { 1: 0.055, 2: 0.083, 5: 0.028 },
-    MK: { 1: 0.048, 2: 0.068, 5: 0.029 }
+    MK: { 1: 0.048, 2: 0.068, 5: 0.029 },
+    GR: { 1: 0.064, 2: 0.096, 5: 0.032 }
   };
   var TOLL_MIN_DISTANCE_KM = 60; // en-deçà, le péage n'entre pas en ligne de compte
 
@@ -1248,7 +1285,14 @@
     // conversion EUR->MKD au cours cible officiel (61,5 MKD, voir COUNTRIES.MK.currency) — un cran
     // sous la Serbie/la Bosnie-Herzégovine (~70-75%), cohérent avec le coût de la vie généralement
     // plus bas en Macédoine du Nord au sein de la région.
-    MKD: { economique: 2500, moyen: 4500, confortable: 9000 }
+    MKD: { economique: 2500, moyen: 4500, confortable: 9000 },
+    // Roumanie : profil "moins cher que la zone euro" comparable à la Serbie — Bucarest (la ville la
+    // plus chère du pays) : loyer Airbnb médian national ~305 RON/nuit (~58 €), quartiers premium de
+    // la capitale (Herăstrău-Floreasca) ~90-130 €/nuit, quartiers plus abordables (Drumul Taberei)
+    // ~35-50 €/nuit — échantillon airroi.com/airbtics.com 2026. Paliers calés à ~75% de la conversion
+    // EUR->RON au taux flottant (~5,25 RON, voir COUNTRIES.RO.currency) — même ratio que la Serbie,
+    // cohérent avec un niveau de vie comparable entre pays d'Europe du Sud-Est hors zone euro.
+    RON: { economique: 280, moyen: 500, confortable: 1000 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu

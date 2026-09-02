@@ -131,7 +131,7 @@ Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Port
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
 Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
-Kosovo, Serbie et Macédoine du Nord pour l'instant, d'autres viendront. Chaque pays
+Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie et Roumanie pour l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -258,6 +258,32 @@ ajoute deux à trois choses, indépendamment des autres :
    fichier `alternateNamesV2` n'en fournit aucun pour son propre geonameid (30 des 75 cas), sans quoi
    ces communes deviendraient introuvables en tapant leur vrai nom macédonien alors même que c'est ce
    nom-là que GeoNames leur donnait à l'origine.
+   **La Grèce, la Bulgarie et la Roumanie**, dernier ajout en date, se répartissent en deux cas très
+   différents. **La Bulgarie et la Roumanie** reviennent au pipeline STANDARD (comme la Serbie/la
+   Macédoine du Nord juste avant) : GeoNames publie un vrai fichier de codes postaux pour chacune.
+   **Bulgarie** : 6 047 communes retenues, AUCUNE correction `NAME_OVERRIDES` nécessaire (échantillon
+   des 30 plus grandes communes déjà bon) — contrairement à la Macédoine du Nord voisine, le dump
+   GeoNames bulgare est déjà entièrement en transcription latine BGN/PCGN sans diacritique dans son
+   champ `name` (Kardzhali, Varshets...), cohérente avec la signalisation routière officielle du pays,
+   sans la moindre incohérence cyrillique/latin à corriger. **Roumanie** : 15 418 communes retenues,
+   une seule correction `NAME_OVERRIDES` ("Bucharest", exonyme anglais, remplacé par le roumain
+   "Bucureşti" — cédille ş/ţ cohérente avec le reste du dump roumain). **La Grèce**, elle, casse ce
+   schéma : AUCUN fichier de codes postaux GeoNames n'existe pour ce pays (`export/zip/GR.zip` -> 404,
+   vérifié) — et, à la différence de la Bosnie-Herzégovine/du Monténégro/du Kosovo plus haut, aucune
+   liste Wikipedia détaillée par lieu n'existe non plus ("Postal codes in Greece" reste un simple
+   tableau de PLAGES par préfecture, jamais le détail par commune). Reconstruite à la place depuis
+   [MentatInnovations/grpostcodes](https://github.com/MentatInnovations/grpostcodes) (licence Apache
+   2.0), un jeu de données tiers d'environ 1 250 codes postaux grecs — mais, fait notable, AVEC
+   coordonnées GPS pour chaque entrée, contrairement à toutes les sources tierces utilisées pour la
+   série balkanique précédente (Monténégro, Kosovo — rapprochées par NOM faute de coordonnées). Ceci a
+   permis un rapprochement par COORDONNÉE LA PLUS PROCHE (`scripts/build-gr-communes.js`, rayon
+   30 km — plus large que le rayon standard de 15 km utilisé ailleurs dans le projet, la source tierce
+   étant plus clairsemée que les postaux officiels des autres pays), une méthode plus fiable que le
+   rapprochement par nom puisqu'elle ne dépend d'aucune orthographe partagée entre les deux sources.
+   14 220 communes grecques retenues au final. Huit corrections `NAME_OVERRIDES` (échantillon des plus
+   grandes villes/îles du pays) remplacent l'exonyme anglais ou la transcription GeoNames par la forme
+   grecque translittérée usuelle : Athens -> Athína, Piraeus -> Peiraiás, Volos -> Vólos, Sparta ->
+   Spárti, Mytilene -> Mytilíni, Zakynthos -> Zákynthos, Rhodes -> Ródos, Corfu -> Kérkyra.
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -407,6 +433,21 @@ ajoute deux à trois choses, indépendamment des autres :
    1 EUR) : ~0,048 €/km. Contrairement à la Serbie, un vrai barème officiel par catégorie A été trouvé
    (roads.org.mk, quatre gares) : ratios moto/van réels ×0,60/×1,42, retenus tels quels plutôt que le
    ratio croate.
+   **La Grèce** rejoint elle aussi le groupe `hasToll:true` proportionnel à la distance (péage FERMÉ,
+   comme la France/la Croatie/la Serbie) : trois liaisons réelles retenues (mydiodia.gr 2026) —
+   Athènes-Patras, Athènes-Thessalonique et Thessalonique-Alexandroúpoli (corridor Egnatia Odos) —
+   gérées par plusieurs concessionnaires distincts (Olympia Odos, Egnatia Odos, cités toutes les deux
+   dans le crédit péage plutôt qu'un seul nom nationalisé comme Putevi Srbije). La classe moto reprend
+   le ratio réel ×0,5 observé sur l'Attiki Odos (même ratio que la Serbie/la Croatie, cette fois
+   confirmé par un vrai barème par catégorie plutôt que par simple analogie régionale) ; la classe
+   van/remorque, faute de grille officielle distincte, extrapole le même ratio ×1,5 croate déjà
+   repris pour la Serbie. **La Bulgarie et la Roumanie**, elles, rejoignent le groupe à vignette
+   (Suisse/Autriche/République tchèque/Slovaquie/Hongrie/Slovénie) plutôt que le péage proportionnel :
+   **Bulgarie**, vignette électronique obligatoire depuis 2019 (BGTOLL, bgtoll.bg) sur tout le réseau
+   autoroutier et national — `hasToll:false`, `vignette.url` pointant vers la boutique officielle.
+   **Roumanie**, vignette autoroutière classique (rovinietă, e-rovinieta.ro) depuis 2002 — même
+   principe, `hasToll:false`, `vignette.url` pointant vers la boutique officielle e-rovinieta.ro.
+   Aucun ouvrage isolé à péage identifié pour l'une ou l'autre en plus de la vignette.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -474,6 +515,19 @@ ajoute deux à trois choses, indépendamment des autres :
    sans en être formellement un de la caisse d'émission bosnienne — pays encore moins cher que la
    Serbie/la Bosnie-Herzégovine (loyer Airbnb moyen à Skopje ~42-55 $/nuit, ~39-51 €, airdna.co 2026),
    paliers `BUDGET_PRICE_MAX.MKD` calés à ~55-60% de la conversion EUR->MKD, un cran sous la Serbie.
+   **La Grèce n'a besoin d'aucun champ `currency`** : en zone euro depuis 2001, comme la France. **La
+   Bulgarie non plus**, mais pour une raison inédite dans cette série — elle A adopté l'euro le 1er
+   janvier 2026 (le lev bulgare/BGN a cessé d'avoir cours légal le 1er février 2026, fin de la période
+   de double circulation), l'ajout de ce pays intervenant après cette bascule : `COUNTRIES.BG` reste
+   donc sans champ `currency`, une simplification qui n'aurait pas été possible un an plus tôt (le lev
+   était, jusque-là, ancré au deutsche mark puis à l'euro par caisse d'émission depuis 1997 — même
+   régime que le mark convertible bosnien — mais restait une devise distincte). **La Roumanie, elle, A
+   besoin du champ** (`RON`, le leu roumain — symbole décoratif "lei" au pluriel dans le sélecteur de
+   devise, `CURRENCY_GLYPH.RON`) : hors zone euro, sans date d'adoption fixée officiellement à ce jour
+   malgré l'appartenance à l'UE depuis 2007, cours flottant — 1 EUR ≈ 5,08 RON début septembre 2026
+   (bnr.ro/xe.com). Pays moins cher que la zone euro, même profil que la Bulgarie/la Serbie/la
+   Macédoine du Nord (loyer Airbnb médian à Bucarest ~35-45 €/nuit, airdna.co/investropa.com 2026),
+   paliers `BUDGET_PRICE_MAX.RON` calés à ~55-60% de la conversion EUR->RON.
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -1080,6 +1134,35 @@ affiché mais PAS par leur vrai nom macédonien tapé au clavier — un angle mo
 rattrapage précis (recherche de "Арачиново" restant vide malgré la commune "Arachinovo" bien présente
 dans `communes-mk.txt`).
 
+### Grèce et Bulgarie (dernier ajout)
+
+Le grec (ISO 639-1 "el") est arrivé avec la Grèce elle-même. Aucune langue régionale ou minoritaire
+n'a été ajoutée séparément : la Grèce ne reconnaît officiellement aucune langue régionale (contrairement
+à la Macédoine du Nord/l'albanais dans le passage précédent) — les langues minoritaires réellement
+parlées (arvanite, pontique, aroumain/vlach, macédonien slave localement) n'ont ni statut officiel ni
+forme écrite standardisée largement utilisée. Le bulgare (ISO 639-1 "bg") est arrivé avec la
+Bulgarie elle-même — langue slave méridionale écrite en cyrillique, proche du macédonien déjà couvert
+(même sous-groupe slave du sud) mais reconnue comme langue distincte, pas un dialecte l'une de
+l'autre. Là non plus, aucune langue régionale ajoutée séparément : le turc (~9% de la population,
+sud-est du pays) n'a aucun statut officiel en Bulgarie (contrairement à l'albanais en Macédoine du
+Nord). **La Roumanie, elle, n'apporte AUCUNE nouvelle langue** : le roumain (`ro`) et le hongrois
+(`hu`) sont déjà couverts depuis l'ajout de la Serbie/du rattrapage régional Europe centrale — les
+deux langues officielles/co-officielles du pays existaient donc déjà avant même que la Roumanie
+rejoigne `COUNTRIES`.
+
+53 langues au total désormais.
+
+**Alias cyrilliques et grecs synthétisés en nombre** : contrairement au cas isolé de la Macédoine du
+Nord ci-dessus (30 alias `mk` synthétisés pour 75 communes en rupture de script), la Grèce synthétise
+un alias `el` (grec, translittéré depuis `asciiname` vers le grec) pour la quasi-totalité de ses
+14 220 communes — le fichier `alternateNamesV2` de GeoNames, contrairement au cas macédonien, ne
+fournit quasiment aucun nom alternatif grec pour les communes de ce pays alors que `communes-gr.txt`
+lui-même stocke déjà les noms en grec translittéré (voir "Pays couverts") : sans cette synthèse,
+taper le nom grec réel d'une commune n'aurait presque jamais fonctionné. Résultat : 17 075 alias
+générés pour la Grèce, dont 13 750 rien que pour `el` — de très loin le plus gros contingent d'alias
+pour un seul pays de toute cette série, la Bulgarie (5 784 alias) et la Roumanie (1 199 alias) restant,
+elles, dans la fourchette habituelle des pays au pipeline standard.
+
 ## Démarrer en local
 
 ```bash
@@ -1322,6 +1405,20 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   insulaire). Le Kosovo, lui, est un pays entièrement sans littoral.
 - **Serbie, Macédoine du Nord** : AUCUNE nouvelle ligne non plus, pour la raison la plus simple qui
   soit — les deux sont des pays entièrement sans littoral, comme le Kosovo.
+- **Bulgarie, Roumanie** : AUCUNE nouvelle ligne — la Bulgarie a bien une façade sur la mer Noire mais
+  aucune île détachée à relier, la Roumanie de même (delta du Danube compris, accessible par route).
+- **Grèce : îles délibérément REPORTÉES, pas silencieusement omises.** Contrairement à tous les cas
+  ci-dessus, la Grèce a un vrai réseau d'îles habitées significatives sans pont (Crète, Rhodes,
+  Corfou, les Cyclades, le Dodécanèse...) qui appellerait normalement ce même mécanisme `landmassOf` —
+  mais à une échelle sans commune mesure avec les cas déjà traités ici (une poignée de lignes, chacune
+  vers UNE île ou UN archipel compact) : des dizaines de lignes réelles, opérées par plusieurs
+  compagnies (Blue Star Ferries, ANEK/Superfast, Hellenic Seaways...), avec des réseaux d'îles
+  imbriqués (une ligne dessert souvent plusieurs îles à la suite) plutôt qu'un aller-retour continent-
+  île simple. `communes-gr.txt` inclut malgré tout les communes insulaires telles quelles (voir "Pays
+  couverts") : à ce stade, un trajet tiré au sort PEUT atterrir sur une île grecque avec un calcul de
+  route continental irréaliste — même défaut assumé temporairement que documenté explicitement plutôt
+  que caché, en attendant un passage dédié à la modélisation des ferries grecs (hors du périmètre de
+  cette tâche précise).
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -1424,7 +1521,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
@@ -1438,6 +1535,10 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   plages par district) : [Posta e Kosovës](https://postakosoves.com) elle-même, la poste nationale
   officielle du Kosovo (133 entrées extraites du tableau JavaScript embarqué dans sa page de
   recherche de codes postaux), rapproché par nom des communes GeoNames ci-dessus.
+- Codes postaux grecs (absents de GeoNames ET d'aucune liste Wikipedia détaillée par lieu, voir "Pays
+  couverts") : jeu de données tiers [MentatInnovations/grpostcodes](https://github.com/MentatInnovations/grpostcodes)
+  (licence [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0), ~1 250 entrées AVEC coordonnées
+  GPS), rapproché par coordonnée la plus proche (et non par nom) des communes GeoNames ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.
 - Points d'intérêt : [OpenStreetMap](https://www.openstreetmap.org) via l'API Overpass — figés dans
@@ -1448,7 +1549,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 42 fichiers SVG, dont treize
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 44 fichiers SVG, dont treize
   drapeaux RÉGIONAUX) — voir "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
@@ -1458,8 +1559,16 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   tarifs 2026), JP Autoceste FBiH / AD Autoputevi RS (Bosnie-Herzégovine — via tolls.eu pour
   l'agrégation des tarifs 2026), [Putevi Srbije](https://www.putevi-srbije.rs) (Serbie — via tolls.eu
   pour l'agrégation des tarifs 2026), [Entreprise publique des routes d'État](https://roads.org.mk)
-  (Macédoine du Nord — via fuel-prices.eu/tolls.eu pour l'agrégation des tarifs 2026) — voir "Pays
-  couverts" pour la méthode de calcul hors de France (échantillon plus restreint que pour la France).
+  (Macédoine du Nord — via fuel-prices.eu/tolls.eu pour l'agrégation des tarifs 2026), [Olympia
+  Odos](https://www.olympiaodos.gr) / [Egnatia Odos](https://www.egnatia.eu) (Grèce — via mydiodia.gr
+  pour l'agrégation des tarifs 2026) — voir "Pays couverts" pour la méthode de calcul hors de France
+  (échantillon plus restreint que pour la France).
+- Vignettes annuelles : boutiques officielles [via.admin.ch](https://via.admin.ch) (Suisse),
+  [asfinag.at](https://www.asfinag.at) (Autriche), [edalnice.gov.cz](https://edalnice.gov.cz)
+  (République tchèque), [eznamka.sk](https://eznamka.sk) (Slovaquie), [e-matrica.hu](https://nemzetiutdij.hu)
+  (Hongrie), [evinjeta.dars.si](https://evinjeta.dars.si) (Slovénie),
+  [bgtoll.bg](https://www.bgtoll.bg) (Bulgarie), [e-rovinieta.ro](https://www.erovinieta.ro)
+  (Roumanie) — voir "Pays couverts" ci-dessus.
 - Tarifs de ferry croates : [Jadrolinija](https://www.jadrolinija.hr) pour dix des onze lignes,
   [Rapska Plovidba](https://www.rapska-plovidba.hr) pour Rab (Stinica-Mišnjak) — voir "Ferries"
   ci-dessus.

@@ -16,3 +16,5 @@ scripts/xk-postal-raw.json
 scripts/xk-canonical-by-geonameid.json
 scripts/ba-postal-wiki.json
 scripts/ba-canonical-by-geonameid.json
+scripts/gr-postal-raw.csv
+scripts/gr-canonical-by-geonameid.json
