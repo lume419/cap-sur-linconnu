@@ -301,7 +301,12 @@ noms alternatifs GeoNames).
 Interface traduite en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois,
 italien, romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque,
 jèrriais, guernésiais, kachoube, rusyn/lemko et istro-roumain (`public/js/i18n.js` — dictionnaire à
-plat par langue + petit moteur `t(clé, variables)`/`tl(clé)` pour les listes). Le
+plat par langue + petit moteur `t(clé, variables)`/`tl(clé)` pour les listes) — auxquelles se sont
+ajoutées, au fil des passages suivants, le catalan/le basque/le galicien/l'occitan/le breton/le
+corse/le mirandais (rattrapage régional France/Espagne/Portugal/Andorre), l'irlandais/le mannois/le
+gallois/le gaélique écossais/le cornique/le scots (Royaume-Uni, Irlande, île de Man), puis huit
+langues nationales de pays déjà couverts par ailleurs — tchèque, polonais, slovaque, hongrois,
+slovène, croate, bosniaque et serbe — dans un rattrapage détaillé plus bas. Le
 luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
 aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
@@ -649,6 +654,42 @@ qui ne détectait que les doublons vers une langue hors-probe, jamais entre deux
 par une restriction géographique par langue (`GB_REGION_RESTRICTED_LANGS` : gallois limité aux régions
 galloises, gaélique-écossais aux régions écossaises, cornique aux Cornouailles, irlandais à l'Irlande
 du Nord), vérifiée exhaustivement sur les 117 régions distinctes du fichier de communes.
+
+### Rattrapage des langues nationales (tchèque, polonais, slovaque, hongrois, slovène, croate,
+### bosniaque, serbe)
+
+Huit langues supplémentaires, ajoutées dans un unique commit à la demande explicite de l'utilisateur :
+*"pour les précédents pays, rajoute les langues nationales si elles ne sont pas déjà prises en
+charge"*. C'est une inversion DÉLIBÉRÉE de la règle "pas de langue nationale d'un grand pays voisin
+déjà couvert par ailleurs" appliquée jusque-là (voir plus haut, à propos du kachoube/du bas-sorabe/de
+l'irlandais) — règle qui avait explicitement écarté le tchèque, le polonais, le slovaque, le hongrois,
+le slovène, le croate et le bosniaque à chaque fois que l'un de ces pays avait été ajouté comme
+destination. Pur ajout de packs d'interface (`public/js/i18n.js`, 207 clés STRINGS + 10 clés LISTS
+chacun) : aucune nouvelle donnée de pays, de péage, de devise ou de ferry n'était nécessaire, ces sept
+pays étant déjà couverts depuis les commits précédents.
+
+Le tchèque (čeština), le polonais (polski), le slovaque (slovenčina), le hongrois (magyar) et le
+slovène (slovenščina) sont chacun la langue nationale unique de leur pays, confiance haute (ressources
+abondantes). Le croate (hrvatski) est arrivé de la même façon — la Croatie ayant un vrai péage fermé
+(HAC), son nom y figure dans la clause de citation des péages du texte de pied de page plutôt que
+dans les listes gratuit/vignette. Pour la Bosnie-Herzégovine, dont les trois langues constitutionnelles
+sont le bosniaque, le croate et le serbe à parts égales, l'utilisateur a choisi explicitement d'ajouter
+le bosniaque (bosanski) ET le serbe (српски) — le croate étant déjà couvert par le pack ajouté pour la
+Croatie elle-même, nul besoin d'un second pack croate distinct pour la Bosnie. Le bosniaque, très
+proche du croate, reprend le même vocabulaire de base avec quelques choix lexicaux distinctement
+bosniaques (« stanica » plutôt que « postaja », « historijski » plutôt que « povijesni », « server »
+plutôt que « poslužitelj »). Le serbe est écrit en alphabet cyrillique serbe (norme ékavienne de
+Belgrade, comme pour le rusyn/lemko plus haut qui utilise aussi le cyrillique) : rédigé d'abord en
+latin ékavien puis translittéré automatiquement par un script dédié qui protège de la translittération
+les toponymes et noms de marque sans forme cyrillique établie (Airbnb, Booking.com, Chargemap, GPS,
+PDF, GeoNames, geo.api.gouv.fr…) ainsi que les variables `{xxx}` du moteur de traduction.
+
+Un piège récurrent repéré en cours de rédaction, à surveiller pour toute langue future : en adaptant
+la longue phrase de crédits du pied de page depuis le français, il est facile d'oublier d'insérer le
+PROPRE pays de la langue qu'on est en train d'écrire dans la liste des pays crédités et/ou dans la
+bonne sous-liste péage gratuit / vignette — trouvé et corrigé pour le slovaque, le hongrois et le
+slovène avant leur insertion définitive (la Slovaquie, la Hongrie et la Slovénie manquaient chacune de
+leur propre nom dans leur propre pied de page).
 
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
