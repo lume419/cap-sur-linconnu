@@ -5,11 +5,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['SE']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
-// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO sont
-// déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|
-// pl|sk|hu|si|hr|ba|gb|ie|im|dk|no.txt), pas la peine de retélécharger leurs sources pour les
-// régénérer à l'identique à chaque nouvel ajout.
+const COUNTRIES = ['FI', 'AX']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE
+// sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|
+// je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se.txt), pas la peine de retélécharger leurs sources pour
+// les régénérer à l'identique à chaque nouvel ajout. AX (îles Åland) : code pays GeoNames DISTINCT de
+// FI (comme GG/JE/IM pour le Royaume-Uni) — le fichier de codes postaux officiel de la Finlande
+// (FI.zip) ne couvre PAS les Åland, vérifié (aucune entrée Mariehamn/Ahvenanmaa dedans) ; AX.zip,
+// dédié, comble ce vide.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -167,7 +170,22 @@ const NAME_OVERRIDES = {
   // Linköping, Örebro, Umeå, Västerås, Jönköping, Helsingborg... déjà bons, y compris les caractères
   // å/ä/ö) : "Gothenburg" (exonyme anglais, remplacé par le suédois "Göteborg" — deuxième ville du
   // pays).
-  'Gothenburg': 'Göteborg'
+  'Gothenburg': 'Göteborg',
+  // Deux cas finlandais (échantillon des 80 plus grandes communes du pays — Helsinki, Espoo, Tampere,
+  // Vantaa, Oulu, Turku, Jyväskylä... déjà bons). La Finlande est officiellement bilingue
+  // finnois/suédois, et GeoNames respecte ici correctement la langue LOCALEMENT dominante commune par
+  // commune plutôt que d'imposer systématiquement le finnois — vérifié pour plusieurs communes à
+  // majorité suédophone conservées à raison sous leur nom suédois (Raseborg/Raasepori ~64% suédophone,
+  // Jakobstad/Pietarsaari ~66%, Korsholm/Mustasaari ~68%, Väståboland/Länsi-Turunmaa très majoritaire
+  // suédophone) : aucune de ces quatre n'est corrigée ici, à raison. Seuls deux VRAIS cas isolés
+  // corrigés : "Hyvinge" -> "Hyvinkää" (commune historiquement et actuellement quasi exclusivement
+  // finnophone, jamais à majorité suédophone — le nom suédois ici n'a aucune légitimité locale,
+  // contrairement aux quatre communes ci-dessus) et "Sibbo" -> "Sipoo" (Uusimaa, longtemps à majorité
+  // suédophone mais officiellement repassée à majorité FINNOPHONE au 1er janvier 2023 — stat.fi,
+  // 65,3% finnophone / 26,8% suédophone fin 2025 — le nom suédois n'est donc plus le nom de la
+  // majorité locale actuelle, à la différence des quatre communes citées plus haut).
+  'Hyvinge': 'Hyvinkää',
+  'Sibbo': 'Sipoo'
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth
@@ -191,6 +209,13 @@ function cleanName(raw){ return (NAME_OVERRIDES[raw] || raw).replace(/Ð/g, 'Đ'
 // coordonnées : la plus petite île du lot n'a pas de zone dédiée simple à borner sans risquer
 // d'exclure par erreur un lieu de Guernesey proprement dit.
 const SARK_EXCLUDE_NAMES = new Set(['Sark', 'La Seigneurie']);
+// "Yomala" (geonameid 13527044, AX) est un doublon manifeste de la commune "Jomala" (geonameid
+// 3041760, même admin2 212/170, coordonnées à ~2 km, code de lieu PPLA2 identique) — une confusion
+// Y/J probable côté GeoNames plutôt qu'un vrai lieu distinct, ajoutée très récemment (2025-10-02).
+// Exclue par nom exact plutôt que corrigée via NAME_OVERRIDES : un simple renommage n'aurait pas
+// suffi à la fusionner avec la vraie "Jomala" au dédoublonnage (coordonnées trop éloignées pour la
+// grille ~1 km utilisée), laissant deux communes "Jomala" fantômes à la place d'une.
+const AX_EXCLUDE_NAMES = new Set(['Yomala']);
 
 for(const country of COUNTRIES){
   const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
@@ -234,7 +259,8 @@ for(const country of COUNTRIES){
       pop: parseInt(c[14], 10) || 0
     }))
     .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name)
-    .filter(p => !(country === 'GG' && SARK_EXCLUDE_NAMES.has(p.name)));
+    .filter(p => !(country === 'GG' && SARK_EXCLUDE_NAMES.has(p.name)))
+    .filter(p => !(country === 'AX' && AX_EXCLUDE_NAMES.has(p.name)));
 
   // Dédoublonnage : même nom normalisé + coordonnées quasi identiques (arrondi ~1km) -> un seul
   // gardé (le plus peuplé). Certaines localités apparaissent en double dans le dump GeoNames.

@@ -227,7 +227,19 @@
     // semaine, jusqu'à 135 SEK/jour) à l'entrée/sortie du centre-ville — pas un péage routier au sens
     // de cette app, même raisonnement que la redevance de congestion de La Valette (Malte, déjà non
     // modélisée) : ni l'un ni l'autre n'est un péage autoroutier proportionnel à la distance parcourue.
-    SE: { code:'SE', name:'Suède', file:'communes-se.txt', hasToll:false, aliasFile:'aliases-se.txt', currency:'SEK' }
+    SE: { code:'SE', name:'Suède', file:'communes-se.txt', hasToll:false, aliasFile:'aliases-se.txt', currency:'SEK' },
+    // Finlande : hasToll:false — cas le plus simple de toute la série nordique, réseau autoroutier
+    // entièrement gratuit, aucune vignette, aucun péage ponctuel, aucune taxe de congestion urbaine
+    // contrairement à la Suède (travelinformation.eu/suomiguide.fi : "l'un des rares pays de l'UE
+    // entièrement libre de péages routiers pour les véhicules privés"). En zone euro (comme
+    // l'Irlande) : pas de champ `currency`.
+    FI: { code:'FI', name:'Finlande', file:'communes-fi.txt', hasToll:false, aliasFile:'aliases-fi.txt' },
+    // Îles Åland : code pays GeoNames DISTINCT de la Finlande (comme GG/JE/IM pour le Royaume-Uni) —
+    // le fichier de codes postaux officiel finlandais ne couvre pas cet archipel autonome et
+    // unilingue suédois, vérifié (voir commentaire de build-country-communes.js). hasToll:false comme
+    // le reste de la Finlande ; en zone euro malgré l'autonomie fiscale/douanière de l'archipel (hors
+    // TVA de l'UE mais PAS hors zone euro) — pas de champ `currency` non plus.
+    AX: { code:'AX', name:'Îles Åland', file:'communes-ax.txt', hasToll:false, aliasFile:'aliases-ax.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -748,7 +760,17 @@
     // tarif "foot"). Classes 2/5 au même ratio que les traversées comparables ci-dessus. Une seule
     // vraie île suédoise modélisée : Öland est reliée au continent par un vrai pont routier depuis 1972
     // (Ölandsbron) — déjà "continental" dans ce modèle, sans entrée dédiée.
-    'continental|gotland': { routeKey:'ferry.route.gotland', durationH:3.25, distanceKm:150, priceByClass:{1:112, 2:168, 5:45, foot:36} }
+    'continental|gotland': { routeKey:'ferry.route.gotland', durationH:3.25, distanceKm:150, priceByClass:{1:112, 2:168, 5:45, foot:36} },
+    // Turku-Mariehamn (Viking Line, seul opérateur avec liaison directe et régulière — Tallink Silja
+    // dessert aussi Mariehamn mais uniquement en escale sur sa ligne Helsinki-Stockholm, pas de
+    // liaison directe Turku-Mariehamn), MS Viking Grace (motorisation GNL), ~5h, 2 rotations/jour
+    // toute l'année. Voiture ~150 € (estimation, Viking Line ne publie pas de grille tarifaire simple
+    // pour les véhicules — vikingline.fi renvoie vers un moteur de réservation ; passager seul ~19 €,
+    // agrégateurs 2026). Classes 2/5 au même ratio que les traversées comparables ci-dessus. Landmasse
+    // "aland" (voir landmassOf plus bas, pays AX) reliée à "continental" — la Finlande elle-même,
+    // n'ayant aucune île sans pont significative en dehors des Åland, n'a besoin d'aucune autre entrée
+    // FERRY_ROUTES ni d'aucun cas landmassOf dédié.
+    'aland|continental': { routeKey:'ferry.route.aland', durationH:5, distanceKm:150, priceByClass:{1:150, 2:225, 5:65, foot:19} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -893,6 +915,10 @@
       }
       return 'continental';
     }
+    // Îles Åland : contrairement à la France/l'Espagne/l'Italie/la Croatie/le Danemark/la Suède, pas
+    // besoin de distinguer une île d'un pays par ailleurs continental — comme pour Guernesey/Jersey/
+    // l'île de Man, le pays AX EST l'île dans son ensemble (voir FERRY_ROUTES, 'aland|continental').
+    if(c.country === 'AX') return 'aland';
     return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
   }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans

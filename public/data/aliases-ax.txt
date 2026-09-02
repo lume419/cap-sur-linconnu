@@ -1,0 +1,21 @@
+en;Vardoe;Vårdö
+es;Vardoe;Vårdö
+fr;Vardoe;Vårdö
+de;Vardoe;Vårdö
+pt;Vardoe;Vårdö
+fi;Seilonen;Seglinge
+fi;Lumparlanti;Lumparland
+fi;Koskenpää;Korsö
+es;Koekar;Kökar
+pt;Koekar;Kökar
+fi;Kastelholma;Kastelholm
+es;Foegloe;Föglö
+pt;Foegloe;Föglö
+fr;Braendoe;Brändö
+pt;Braendoe;Brändö
+fi;Maarianhamina;Mariehamn
+es;Finstroem;Finström
+pt;Finstroem;Finström
+es;Eckeroe;Eckerö
+pt;Eckeroe;Eckerö
+fi;Långnäsin satama;Långnäs hamn

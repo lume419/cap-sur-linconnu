@@ -130,8 +130,8 @@ les trois premières routes.
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
-Royaume-Uni, Irlande, île de Man, Danemark, Norvège et Suède pour l'instant (Finlande à venir dans la
-même série). Chaque pays
+Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande et îles Åland pour l'instant,
+d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -177,6 +177,26 @@ ajoute deux à trois choses, indépendamment des autres :
    bruts. Un cas `NAME_OVERRIDES` (échantillon des 30 plus grandes communes du pays déjà bon, y
    compris å/ä/ö — Stockholm, Malmö, Uppsala, Linköping, Örebro, Umeå... déjà bons) : "Gothenburg"
    (exonyme anglais, remplacé par le suédois "Göteborg" — deuxième ville du pays).
+   **La Finlande**, dernier pays de la série nordique, a demandé DEUX fichiers plutôt qu'un : 23 869
+   communes finlandaises (`communes-fi.txt`) et, séparément, 330 communes des **îles Åland**
+   (`communes-ax.txt`) — l'archipel a son propre code pays GeoNames "AX", distinct de "FI" (même
+   logique que Guernesey/Jersey/l'île de Man pour le Royaume-Uni), et le fichier de codes postaux
+   officiel finlandais ne le couvre PAS du tout (vérifié : aucune entrée Mariehamn/Ahvenanmaa dans
+   FI.zip) — `AX.zip`, dédié, comble ce vide. Deux corrections `NAME_OVERRIDES` côté Finlande
+   (échantillon des 80 plus grandes communes déjà bon — Helsinki, Espoo, Tampere, Vantaa, Oulu,
+   Turku... déjà bons) : "Hyvinge" -> "Hyvinkää" (nom suédois sans légitimité locale, commune jamais
+   à majorité suédophone) et "Sibbo" -> "Sipoo" (Uusimaa, repassée à majorité FINNOPHONE au 1er
+   janvier 2023 — stat.fi, 65,3% finnophone fin 2025 — le nom suédois n'est donc plus le nom de la
+   majorité actuelle). Ces deux corrections ont volontairement laissé INTACTES plusieurs communes à
+   majorité RÉELLEMENT suédophone conservées sous leur nom suédois par GeoNames (Raseborg/Raasepori
+   ~64%, Jakobstad/Pietarsaari ~66%, Korsholm/Mustasaari ~68%, Väståboland/Länsi-Turunmaa) — la
+   Finlande étant officiellement bilingue finnois/suédois, GeoNames respecte ici correctement la
+   langue localement dominante commune par commune, un cas de figure inédit parmi tous les pays
+   couverts jusqu'ici. Côté Åland, une exclusion par nom (`AX_EXCLUDE_NAMES`, même mécanisme que
+   `SARK_EXCLUDE_NAMES` pour Sercq) : "Yomala", doublon manifeste de la commune "Jomala" (même
+   identifiant administratif, coordonnées à ~2 km, très probable confusion Y/J côté GeoNames),
+   écartée plutôt que renommée — un simple renommage ne l'aurait pas fusionnée avec la vraie entrée
+   au dédoublonnage (coordonnées trop éloignées pour la grille ~1 km utilisée).
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -289,7 +309,11 @@ ajoute deux à trois choses, indépendamment des autres :
    urbain (trängselskatt, 6h-18h29 en semaine, jusqu'à 135 SEK/jour) à l'entrée/sortie du centre-ville —
    pas un péage routier au sens de cette app, même raisonnement que la redevance de congestion de
    La Valette (Malte, déjà non modélisée) : ni l'une ni l'autre n'est un péage autoroutier
-   proportionnel à la distance parcourue.
+   proportionnel à la distance parcourue. La Finlande, elle, rejoint le groupe le plus simple de
+   tous : réseau autoroutier entièrement gratuit, aucune vignette, aucun péage ponctuel, aucune taxe
+   de congestion urbaine (contrairement à sa voisine suédoise) — "l'un des rares pays de l'UE
+   entièrement libre de péages routiers pour les véhicules privés" (travelinformation.eu/
+   suomiguide.fi). Les îles Åland suivent le même régime `hasToll:false`, sans exception propre.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -336,7 +360,9 @@ ajoute deux à trois choses, indépendamment des autres :
    périodiquement si le taux dérive significativement. La Suède a besoin du même genre de champ
    (`SEK`, la couronne suédoise) — même profil "plus cher que la zone euro" (Stockholm : loyer Airbnb
    médian ~159 $/~142 €, airroi 2026), couronne elle aussi FLOTTANTE (comme la norvégienne,
-   contrairement à la danoise) — 1 EUR ≈ 11,15 SEK début septembre 2026 (xe.com).
+   contrairement à la danoise) — 1 EUR ≈ 11,15 SEK début septembre 2026 (xe.com). La Finlande et les
+   îles Åland, elles, N'ONT PAS besoin de ce champ : seul pays nordique de cette série EN zone euro
+   (depuis 1999, comme l'Irlande) — aucun champ `currency` sur `COUNTRIES.FI` ni `COUNTRIES.AX`.
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -365,8 +391,8 @@ corse/le mirandais (rattrapage régional France/Espagne/Portugal/Andorre), l'irl
 gallois/le gaélique écossais/le cornique/le scots (Royaume-Uni, Irlande, île de Man), puis huit
 langues nationales de pays déjà couverts par ailleurs — tchèque, polonais, slovaque, hongrois,
 slovène, croate, bosniaque et serbe — dans un rattrapage détaillé plus bas, et enfin le danois, le
-norvégien et le suédois, arrivés respectivement avec le Danemark, la Norvège et la Suède (voir "Pays
-couverts" et plus bas, série des pays nordiques). Le
+norvégien, le suédois et le finnois, arrivés respectivement avec le Danemark, la Norvège, la Suède et
+la Finlande (voir "Pays couverts" et plus bas, série des pays nordiques). Le
 luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
 aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
@@ -800,6 +826,25 @@ particulier positif : le finnois, minorité reconnue en Suède ET langue nationa
 Finlande, sera automatiquement disponible comme langue d'interface pour la Suède dès l'ajout de la
 Finlande elle-même (pack de langue partagé, sans travail supplémentaire).
 
+### Finlande et îles Åland (quatrième et dernier pays nordique)
+
+Le finnois (suomi) est arrivé avec la Finlande elle-même — dernier des quatre pays nordiques de cette
+série, langue ouralienne sans parenté avec aucune des 46 autres déjà couvertes (contrairement au
+danois/norvégien/suédois, tous trois germaniques) mais suffisamment documentée et répandue
+internationalement pour une confiance de traduction raisonnable, contrairement au same/au kven
+volontairement laissés de côté (voir plus haut, à propos de la Norvège/la Suède). Le suédois, déjà
+disponible depuis l'ajout de la Suède, est AUSSI langue officielle à part entière de la Finlande (à
+parts égales avec le finnois, constitution finlandaise) — automatiquement utilisable ici sans le
+moindre travail supplémentaire, exactement comme anticipé lors de l'ajout de la Suède. Same du Nord,
+same d'Inari et same skolt (trois langues sâmes reconnues en Finlande, les deux dernières UNIQUES au
+pays, sans équivalent ni en Norvège ni en Suède) restent volontairement laissées de côté, même
+raisonnement que pour les deux pays précédents. Une nouvelle clé d'interface, `ferry.route.aland`
+(voir "Ferries" ci-dessus), a été ajoutée aux 46 langues déjà prises en charge selon la même méthode
+automatisée que `ferry.route.bornholm`/`ferry.route.gotland` — "Åland" inchangé dans les langues à
+alphabet latin, translittéré à la main dans les deux langues cyrilliques (rusyn/lemko et serbe :
+toutes deux Оланд, aucune complication de "g" dur ou de "h" étranger cette fois contrairement à
+Bornholm/Gotland). 47 langues au total désormais.
+
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
 
@@ -1035,6 +1080,20 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   région Gotland (les codes postaux suédois s'écrivent "XXX XX" avec un espace — le préfixe testé porte
   sur les trois premiers chiffres). Testé en direct : un trajet Visby → continent a bien déclenché la
   ligne de ferry avec le bon tarif/la bonne durée affichés.
+- **Finlande** : contrairement au Danemark/à la Suède, ce n'est pas une île secondaire qui se
+  détache d'un pays par ailleurs continental — les **îles Åland**, tout comme Guernesey/Jersey/l'île
+  de Man pour le Royaume-Uni, sont un PAYS distinct dans ce modèle (`AX`, voir "Pays couverts"), donc
+  déjà une masse continentale à part entière (`aland`) sans le moindre calcul de préfixe ou de
+  coordonnées nécessaire — tout `AX` est `aland`, un cas encore plus simple que Guernesey/Jersey (un
+  seul opérateur, une seule ligne). Seule liaison réelle pour véhicules : **Turku ↔ Mariehamn**
+  (Viking Line, seul opérateur avec ligne directe régulière — Tallink Silja dessert Mariehamn mais
+  uniquement en escale sur sa ligne Helsinki-Stockholm), MS Viking Grace (motorisation GNL), ~5h,
+  2 rotations/jour toute l'année. Viking Line ne publie pas de grille tarifaire simple pour les
+  véhicules (renvoie vers son moteur de réservation) : voiture estimée ~150 €, passager seul ~19 €
+  (agrégateurs 2026) — échantillon moins précis que pour les autres lignes de cette section, à
+  affiner si un barème officiel devient disponible. La Finlande elle-même n'a aucune autre île sans
+  pont significative, aucun autre cas `landmassOf` nécessaire. Testé en direct : un trajet
+  Mariehamn → continent a bien déclenché la ligne avec le bon tarif/la bonne durée affichés.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -1117,7 +1176,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
@@ -1158,7 +1217,8 @@ au chargement.
   Channel](https://www.gozochannel.com) (Malte ↔ Gozo), [Condor
   Ferries](https://www.condorferries.co.uk) (Jersey/Guernesey ↔ Saint-Malo, et la ligne inter-îles),
   [Bornholmslinjen](https://www.bornholmslinjen.com) (Ystad ↔ Rønne, Bornholm), [Destination
-  Gotland](https://www.destinationgotland.se) (Nynäshamn ↔ Visby, Gotland)
+  Gotland](https://www.destinationgotland.se) (Nynäshamn ↔ Visby, Gotland), [Viking
+  Line](https://www.vikingline.fi) (Turku ↔ Mariehamn, Åland)
   — voir "Ferries" ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour
   les péages, pas un tarif garanti).
 
