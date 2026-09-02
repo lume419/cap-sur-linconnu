@@ -5,10 +5,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['GB']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
-// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA sont déjà générés et
-// commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba.txt),
-// pas la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout.
+const COUNTRIES = ['IE']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB sont déjà générés
+// et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|
+// ba|gb.txt), pas la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque
+// nouvel ajout.
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -120,7 +121,39 @@ const NAME_OVERRIDES = {
   // "Bielsko-Biała County").
   'Warsaw': 'Warszawa',
   'Lodz': 'Łódź',
-  'Bielsko-Biala': 'Bielsko-Biała'
+  'Bielsko-Biala': 'Bielsko-Biała',
+  // Six cas irlandais (échantillon des ~200 plus grandes communes du pays — Dublin, Cork, Limerick,
+  // Galway, Waterford, Drogheda, Dundalk... déjà en anglais, y compris "Dún Laoghaire" qui n'a lui
+  // AUCUN exonyme anglais distinct d'usage courant, correctement laissé tel quel) : contrairement à
+  // tous les cas ci-dessus (où le nom LOCAL remplace un exonyme anglais), ces six communes ont dans
+  // GeoNames un nom PRIMAIRE en irlandais alors que l'anglais — également langue officielle de
+  // l'Irlande (Bunreacht na hÉireann, art. 8) et de très loin la forme la plus utilisée à
+  // l'international (Airbnb/Booking, signalétique touristique, tourisme anglophone majoritaire) —
+  // reste le nom courant même localement pour CES villes précises : "An Ros" -> "Rush" (Co. Dublin),
+  // "Droichead Nua" -> "Newbridge" (Co. Kildare), "An Muileann gCearr" -> "Mullingar" (Co.
+  // Westmeath), "Baile an Mhuilinn" -> "Milltown" (Co. Kerry), "Cill Fhíonáin" -> "Kilfinane" (Co.
+  // Limerick), "Cluain Meala" -> "Clonmel" (Co. Tipperary) — chaque forme anglaise vérifiée présente
+  // comme nom alternatif GeoNames sur la même entrée.
+  'An Ros': 'Rush',
+  'Droichead Nua': 'Newbridge',
+  'An Muileann gCearr': 'Mullingar',
+  'Baile an Mhuilinn': 'Milltown',
+  'Cill Fhíonáin': 'Kilfinane',
+  'Cluain Meala': 'Clonmel',
+  // Deux cas supplémentaires, repérés non pas par relecture visuelle (comme les six ci-dessus, sur
+  // l'échantillon des plus grandes communes) mais via un signal plus systématique : dans
+  // aliases-ie.txt fraîchement généré, plusieurs langues INDÉPENDANTES proposaient exactement le
+  // même nom alternatif pour la même commune — un signe fiable qu'il s'agit du vrai nom "de
+  // référence" plutôt que d'une coïncidence. "Trá Mhór" -> "Tramore" (Co. Waterford, station
+  // balnéaire connue) et "Leifear" -> "Lifford" (Co. Donegal, chef-lieu du comté) : huit et trois
+  // langues respectivement s'accordaient toutes sur la forme anglaise. Les autres accords multi-
+  // langues observés (Lahinch/Lehinch, Ennistymon/Ennistimon, Cahersiveen/Cahirciveen...) ne sont
+  // PAS corrigés ici : ce ne sont que deux ORTHOGRAPHES anglaises concurrentes d'un même nom déjà
+  // anglais, pas un cas irlandais-vs-anglais — l'app n'a jamais cherché à trancher entre variantes
+  // d'une même langue (voir le choix GeoNames tel quel partout ailleurs), seulement à corriger un
+  // exonyme manquant ou une vraie confusion de langue.
+  'Trá Mhór': 'Tramore',
+  'Leifear': 'Lifford'
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth

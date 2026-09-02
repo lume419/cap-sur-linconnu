@@ -3,16 +3,16 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
 Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
-tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine, Royaume-Uni — voir "Pays
-couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine, Royaume-Uni, Irlande —
+voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
 d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
 Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes/onze îles croates/la
-Manche (Douvres-Calais)
+Manche (Douvres-Calais)/la mer d'Irlande (Holyhead-Dublin)
 (voir "Ferries" plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface
 disponible en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien,
 romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais,
-guernésiais, kachoube, rusyn/lemko, istro-roumain, catalan, basque, galicien, occitan, breton, corse
-et mirandais (voir "Langues" plus bas).
+guernésiais, kachoube, rusyn/lemko, istro-roumain, catalan, basque, galicien, occitan, breton, corse,
+mirandais et irlandais (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -102,6 +102,11 @@ cap-sur-linconnu/
 │       ├── aliases-gb.txt      # idem pour le Royaume-Uni (384 alias — 156 doublons gallois/gaéliques/
 │       │                        # corniques mal étiquetés "br"/"ca"/"eu"/... écartés, voir le
 │       │                        # commentaire CELTIC_PROBE_LANGS dans scripts/build-aliases.js)
+│       ├── communes-ie.txt     # 7 181 lieux irlandais, même format (codes postaux GeoNames très
+│       │                        # grossiers pour l'Irlande — 139 "routing keys" Eircode nationaux
+│       │                        # seulement, contre 27 450 districts au Royaume-Uni ; huit exonymes
+│       │                        # anglais corrigés, voir NAME_OVERRIDES dans build-country-communes.js)
+│       ├── aliases-ie.txt      # idem pour l'Irlande (1 225 alias, dont 1 108 en irlandais/Gaeilge)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -121,8 +126,8 @@ les trois premières routes.
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
-Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine et
-Royaume-Uni pour l'instant, d'autres viendront (Irlande et île de Man en préparation). Chaque pays
+Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
+Royaume-Uni et Irlande pour l'instant, d'autres viendront (île de Man en préparation). Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -579,6 +584,22 @@ viennent de geo.api.gouv.fr, pas de GeoNames, aucun geonameid disponible pour le
 alternatifs — le catalan/l'occitan/le breton/le corse y servent donc uniquement à traduire
 l'interface, pas à chercher une ville par son nom régional.
 
+L'irlandais (Gaeilge) est arrivé avec l'Irlande, mais PAS pour la même raison que toutes les langues
+ci-dessus : c'est la PREMIÈRE langue officielle de la République d'Irlande à parts égales avec
+l'anglais (Bunreacht na hÉireann, art. 8), donc en principe exclue par la règle "pas de langue
+nationale d'un pays déjà couvert par un autre biais" qui a écarté le tchèque/le polonais/le
+slovaque/le hongrois/le slovène/le croate/le bosniaque à chaque fois que l'un de ces pays a été
+ajouté. Exception délibérée, choix explicite de l'utilisateur : contrairement à ces langues slaves
+parlées dans plusieurs grands pays voisins, l'irlandais n'est langue nationale QUE de l'Irlande — même
+logique que le maltais/le luxembourgeois/le catalan (langue nationale d'un petit territoire non
+encore représentée ailleurs au moment de son ajout). 1 108 alias irlandais générés automatiquement
+depuis GeoNames (`aliases-ie.txt`) — dont certains sont en réalité devenus le nom CANONIQUE de leur
+commune plutôt qu'un simple alias : six villes irlandaises repérées avec un nom irlandais comme nom
+primaire GeoNames alors que l'anglais reste, même localement, la forme la plus utilisée pour CES villes
+précises (ex. "An Muileann gCearr" -> "Mullingar", "Cluain Meala" -> "Clonmel" — voir
+`NAME_OVERRIDES` dans `scripts/build-country-communes.js`) ; leur nom irlandais reste bien sûr
+disponible comme alias de recherche.
+
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
 
@@ -774,6 +795,14 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   deux). En attendant cet ajout, ces communes restent temporairement injoignables depuis le reste du
   Royaume-Uni plutôt que faussement reliées par la route — même principe que les Açores/Madère ou
   Sercq ci-dessus : rester silencieux plutôt qu'afficher un trajet inventé.
+- **Irlande** : rejoint elle aussi la masse `ireland` (voir ci-dessus) SANS aucune subdivision interne
+  — contrairement au Royaume-Uni voisin, tout le pays tient sur une seule île, aucun cas particulier à
+  gérer. Reliée à la Grande-Bretagne (pas directement au continent) par **Holyhead-Dublin**
+  (Stena Line/Irish Ferries, ~110 km, ~3h15, voiture dès ~179,50 €) — préférée à Fishguard-Rosslare
+  (plus longue et plus chère), même logique que "choisir la traversée la plus courte" déjà appliquée
+  au détroit de Messine ou aux ponts-relais de Pelješac. Un trajet France → Irlande passe donc par
+  DEUX traversées distinctes (Douvres-Calais puis Holyhead-Dublin), chacune un jour différent —
+  cohérent avec le moteur d'étapes existant, chaque traversée reste indépendante.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -853,7 +882,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)

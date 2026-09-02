@@ -583,8 +583,11 @@ app.get('/api/pois', async (req, res) => {
   // couvrir avec une marge (l'Écosse continentale seule culminerait à ~58,7°N, déjà au-delà de 56°
   // aussi). Le reste du Royaume-Uni (lat min ~49,89°N aux Scilly, lon ~-8,09 à 1,75°E en Irlande du
   // Nord/Est-Anglie) tient largement dans la boîte déjà élargie pour la Pologne, sans autre
-  // ajustement.
-  if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 61 || lon < -10 || lon > 24.2){
+  // ajustement. L'Irlande, elle, déborde à l'ouest : sa pointe la plus occidentale (péninsule de
+  // Dingle/Dunmore Head, Co. Kerry) descend jusqu'à ~-10,35°E, au-delà de la borne à -10° héritée du
+  // Royaume-Uni — élargie à -10,5° pour la couvrir avec une marge (lat ~51,47-55,07°N, déjà dans la
+  // boîte élargie pour le Royaume-Uni, sans ajustement supplémentaire).
+  if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 61 || lon < -10.5 || lon > 24.2){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
   if(name.length > 120){

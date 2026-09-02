@@ -90,8 +90,8 @@
   // classes 2/5 extrapolées au ratio France/Espagne/Italie (×1,55/×0,58) faute de grille par
   // catégorie ici. hasToll:true. Le Royaume-Uni, lui, REJOINT le groupe "entièrement gratuit"
   // (Belgique/Pays-Bas/Luxembourg/Allemagne/Saint-Marin/Liechtenstein/Monaco/Malte/Guernesey/
-  // Jersey/Pologne) plutôt que celui à péage fermé de sa voisine irlandaise (voir plus bas) : son
-  // réseau autoroutier (motorways, "M") est intégralement gratuit, comme les autoroutes allemandes.
+  // Jersey/Pologne) : son réseau autoroutier (motorways, "M") est intégralement gratuit, comme les
+  // autoroutes allemandes.
   // Seuls trois ouvrages ISOLÉS restent payants — le M6 Toll près de Birmingham (~43 km, National
   // Highways/Midland Expressway), le Dartford Crossing sur la Tamise à l'est de Londres (pont/
   // tunnels de l'A282), et le Mersey Gateway près de Liverpool — exactement le même cas que le
@@ -100,8 +100,20 @@
   // alternatif gratuit (l'app ne calcule pas de vrai itinéraire routier, voir roadDistanceKm) — non
   // modélisés, pour la même raison. hasToll:false, aucune vignette non plus (contrairement à la
   // Suisse/l'Autriche/la République tchèque/la Slovaquie/la Hongrie/la Slovénie, le Royaume-Uni n'a
-  // aucun système de vignette).
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB seulement) : noms alternatifs par
+  // aucun système de vignette). L'Irlande, elle, POURRAIT sembler rejoindre plutôt le groupe à péage
+  // fermé de la Croatie/la Bosnie-Herzégovine (M50 autour de Dublin, M1/M3/M4/M6/M7-M8/N25 vers les
+  // autres grandes villes) — mais son système est en réalité un ensemble de BARRIÈRES PONCTUELLES à
+  // tarif FIXE (ex. M50 : 3,10 € par passage au pont de Westlink, quel que soit le trajet parcouru
+  // sur cette autoroute ; M1 Drogheda/M4 Enfield/M6 Athlone/M7-M8 Portlaoise/N25 Waterford : chacune
+  // UN seul point de péage à tarif fixe, entre 1,90 € et 3,10 € selon le tronçon, 2026), pas un
+  // système fermé proportionnel à la distance (ticket entrée/sortie) comme HAC en Croatie. Chaque
+  // barrière est encore plus ponctuelle qu'un corridor polonais entier (voir plus haut) : un simple
+  // point fixe sur l'autoroute, traversé ou non selon l'itinéraire exact, jamais garanti par un
+  // trajet aléatoire entre deux communes irlandaises quelconques (l'app ne calcule toujours pas de
+  // vrai itinéraire routier). hasToll:false, même raisonnement que les ouvrages isolés britanniques/
+  // néerlandais/suisses/autrichiens ci-dessus, à une échelle plus fine encore (barrière ponctuelle
+  // plutôt que tunnel/pont/corridor). Aucune vignette non plus.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -134,7 +146,8 @@
   // avec l'euro. Le Royaume-Uni, lui, rejoint Guernesey/Jersey (currency:'GBP') : la livre sterling,
   // jamais l'euro malgré le Brexit n'ayant rien changé à cette évidence antérieure — même choix que
   // pour les deux baillages, "GBP" est aussi la devise réellement proposée par Airbnb/Booking (pas
-  // de sélecteur séparé).
+  // de sélecteur séparé). L'Irlande, elle, contrairement à son voisin britannique, EST en zone euro
+  // (depuis 1999/2002 comme la France) : absente de COUNTRIES.IE.currency, EUR par défaut.
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -166,7 +179,8 @@
       vignette:{ url:'https://evinjeta.dars.si/' } },
     HR: { code:'HR', name:'Croatie', file:'communes-hr.txt', hasToll:true, aliasFile:'aliases-hr.txt' },
     BA: { code:'BA', name:'Bosnie-Herzégovine', file:'communes-ba.txt', hasToll:true, aliasFile:'aliases-ba.txt', currency:'BAM' },
-    GB: { code:'GB', name:'Royaume-Uni', file:'communes-gb.txt', hasToll:false, aliasFile:'aliases-gb.txt', currency:'GBP' }
+    GB: { code:'GB', name:'Royaume-Uni', file:'communes-gb.txt', hasToll:false, aliasFile:'aliases-gb.txt', currency:'GBP' },
+    IE: { code:'IE', name:'Irlande', file:'communes-ie.txt', hasToll:false, aliasFile:'aliases-ie.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -651,7 +665,17 @@
     // d'Irlande et non sur celle de Grande-Bretagne (aucune ligne de ferry ne la relie encore ici :
     // en attendant l'ajout de l'Irlande, voir landmassOf, ses communes restent temporairement
     // injoignables depuis le reste du Royaume-Uni plutôt que faussement reliées par la route).
-    'continental|greatBritain': { routeKey:'ferry.route.doverCalais', durationH:1.5, distanceKm:34, priceByClass:{1:94, 2:140, 5:35, foot:25} }
+    'continental|greatBritain': { routeKey:'ferry.route.doverCalais', durationH:1.5, distanceKm:34, priceByClass:{1:94, 2:140, 5:35, foot:25} },
+    // Holyhead-Dublin (Stena Line/Irish Ferries), ~3h15, voiture dès ~179,50 € — préférée à
+    // Fishguard-Rosslare (plus longue, ~3h30, et plus chère) : une seule ligne à modéliser entre les
+    // deux masses "greatBritain"/"ireland", même logique que "préférer la traversée courte" déjà
+    // utilisée pour le détroit de Messine (Sicile) ou les ponts-relais de Pelješac (Croatie).
+    // L'Irlande (île) se relie ainsi à la Grande-Bretagne — PAS directement au continent : un trajet
+    // France -> Irlande passerait par deux traversées distinctes, un jour différent chacune (Douvres-
+    // Calais puis Holyhead-Dublin), cohérent avec le moteur d'étapes existant (chaque hop reste
+    // indépendant). Classe 5/foot au même ratio que les traversées longues comparables ci-dessus
+    // (Corse/Sardaigne).
+    'greatBritain|ireland': { routeKey:'ferry.route.holyheadDublin', durationH:3.25, distanceKm:110, priceByClass:{1:179.5, 2:265, 5:80, foot:45} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -759,6 +783,10 @@
       }
       return 'greatBritain';
     }
+    // République d'Irlande : le pays ENTIER rejoint la masse "ireland" déjà utilisée pour l'Irlande
+    // du Nord ci-dessus (voir le commentaire GB) — île unique, aucune mer entre les deux, jamais
+    // besoin de la moindre subdivision interne pour cette app (contrairement au Royaume-Uni voisin).
+    if(c.country === 'IE') return 'ireland';
     return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
   }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans

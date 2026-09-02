@@ -23,7 +23,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['GB']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA
+const COUNTRIES = ['IE']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB
 // déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
@@ -87,8 +87,17 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // aucune de ce groupe n'atteint le niveau de norme écrite ou de vitalité du breton/de l'occitan/du
 // corse). "mwl" (mirandais, ISO 639-3 — pas de code 639-1) : reconnu officiellement au Portugal pour
 // les affaires locales depuis la loi 7/99 (29 janvier 1999), Terra de Miranda (Miranda do
-// Douro/Mogadouro/Vimioso), ~10 000-15 000 locuteurs.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl']);
+// Douro/Mogadouro/Vimioso), ~10 000-15 000 locuteurs. "ga" (irlandais/Gaeilge, ISO 639-1) : ajouté
+// depuis l'Irlande, mais PAS pour la même raison que les langues régionales ci-dessus — c'est la
+// PREMIÈRE langue officielle de la République d'Irlande à parts égales avec l'anglais (Bunreacht na
+// hÉireann, art. 8), donc en principe exclue par la politique "pas de langue nationale d'un pays déjà
+// couvert par un autre biais" (voir README "Langues", même règle qui a exclu tchèque/polonais/
+// slovaque/hongrois/slovène/croate/bosniaque). Exception délibérée, choix explicite de l'utilisateur :
+// contrairement à ces langues slaves parlées dans plusieurs grands pays voisins, l'irlandais n'est
+// langue nationale QUE de l'Irlande (et co-officielle de l'UE), un petit pays — même logique que le
+// maltais/le luxembourgeois/le catalan (langue nationale d'un petit territoire non encore représentée
+// ailleurs au moment de son ajout).
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -125,7 +134,12 @@ const LANG_OUTPUT_REMAP_BY_COUNTRY = {
 // cornique eux-mêmes ajoutés comme vraies langues de l'interface (voir la suite de cette série de
 // commits, Royaume-Uni).
 const CELTIC_PROBE_LANGS = new Set(['cy', 'gd', 'kw', 'gv', 'ga']);
-const CELTIC_CROSS_CONTAMINATION_CHECK_COUNTRIES = new Set(['GB']);
+// Etendu à l'Irlande à son tour : même famille de bug GeoNames potentielle pour un nom irlandais
+// (langue désormais elle-même une cible réelle, voir "ga" dans SUPPORTED_LANGS) dupliqué sous une
+// étiquette sans rapport — vérifié moins massif qu'au Royaume-Uni (la plupart des doublons irlandais
+// concernent le nom ANGLAIS déjà canonique, donc déjà filtré par ailleurs par le test "identique au
+// nom canonique"), gardé quand même par prudence.
+const CELTIC_CROSS_CONTAMINATION_CHECK_COUNTRIES = new Set(['GB', 'IE']);
 const NAME_OVERRIDES = {
   'Lisbon': 'Lisboa',
   'Brussels': 'Bruxelles',
@@ -150,7 +164,19 @@ const NAME_OVERRIDES = {
   'Pilsen': 'Plzeň',
   'Warsaw': 'Warszawa',
   'Lodz': 'Łódź',
-  'Bielsko-Biala': 'Bielsko-Biała'
+  'Bielsko-Biala': 'Bielsko-Biała',
+  // Voir build-country-communes.js pour le détail de ces huit cas irlandais (six repérés par
+  // relecture visuelle, deux via l'accord multi-langues d'aliases-ie.txt) — même correction
+  // reproduite ici à l'identique, indispensable pour que les alias eux-mêmes pointent vers le bon
+  // nom canonique plutôt que vers la forme irlandaise du dump brut.
+  'An Ros': 'Rush',
+  'Droichead Nua': 'Newbridge',
+  'An Muileann gCearr': 'Mullingar',
+  'Baile an Mhuilinn': 'Milltown',
+  'Cill Fhíonáin': 'Kilfinane',
+  'Cluain Meala': 'Clonmel',
+  'Trá Mhór': 'Tramore',
+  'Leifear': 'Lifford'
 };
 // Même correction que build-country-communes.js (voir son commentaire pour le détail) : le dump
 // GeoNames croate confond le Ð latin (Eth, U+00D0) avec le VRAI Đ croate (D barré, U+0110) dans 48

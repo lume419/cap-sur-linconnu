@@ -1,0 +1,1225 @@
+ga;Eochaill;Youghal
+ga;an Droichead Adhmaid;Woodenbridge
+ga;Baile Liam;Williamstown
+ga;Baile Uilliam;Williamstown
+ga;Cill Mhantáin;Wicklow
+ga;Baile Phóil;Paulstown
+ga;An Geata Bán;Whitegate
+ga;An Teampall Geal;Whitechurch
+ga;Loch Garman;Wexford
+ga;Cathair na Mart;Westport
+ga;An Coireán;Waterville
+ga;Cnocán na Biolraí;Watergrasshill
+ga;Port Láirge;Waterford
+en;Waterford city;Waterford
+ga;Tobar an Iarla,;Waterfall
+ga;Baile an Bhiocáire;Vicarstown
+ga;Garraí Thancaird;Upton
+ga;Bealach an Tirialaigh;Tyrrellspass
+ga;Buiríos Léith;Twomileborris
+ga;Turlach;Turlough
+ga;Tulaigh Bhinn;Tullyvin
+ga;Tulaigh Álainn;Tullyallen
+ga;Tulach Ruáin;Tullaroan
+ga;Tulach Mhór;Tullamore
+ga;An Tulaigh Mhóir;Tullamore
+ga;Tulach Dhocht;Tullaghought
+ga;Tulach Chonóg;Tullaghanoge
+ga;An Tulachán;Tullaghan
+ga;Tuaim;Tuam
+ga;Baile Átha Troim;Trim
+ga;Trá Mhór;Tramore
+ga;Trá Lí;Tralee
+ga;Tuar an Fhíona;Tooraneena
+ga;An Tóchar;Togher
+ga;An Tóchar;Roundwood
+ga;Tuaim;Toem
+ga;Tiobraid Árann;Tipperary
+ga;Tigh Moling;Timolin
+ga;Tigh Mo Linne;Timolin
+ga;Tigh Molaige;Timoleague
+ga;Tigh Mochua;Timahoe
+eu;Timahoe dorrea;Timahoe
+ga;Durlas;Thurles
+ga;Dúrlas Éile;Thurles
+ga;Baile Thomáis;Thomastown
+ga;Tearmann Feichín;Termonfeckin
+ga;Tearmann Bearaigh;Termonbarry
+ga;Tír an Iúir;Terenure
+ga;Teampall Tuaithe;Templetuohy
+en;Templetouhy;Templetuohy
+ga;An Teampall Mór;Templemore
+ga;Tailtin;Teltown
+ga;Trian Iarthach;Teeranearagh
+ga;Tigh Damhnata;Tedavnet
+ga;An Tearmann;Tarmon
+ga;Tairbeart;Tarbert
+ga;Baile an Tallúnaigh;Tallanstown
+ga;Tamhlacht;Tallaght
+ga;Teach Munna;Taghmon
+ga;Sord;Swords
+ga;Cill Fhionntain;Sutton
+ga;Cnoc an Línsigh;Summerhill
+ga;Áth na Sráide;Stratford
+ga;An Trá;Strand
+ga;Teach Srafáin;Straffan
+ga;Sraith an Domhain;Stradone
+ga;An Sráidbhaile;Stradbally
+ga;An tSráidbhaile;Stradbally
+ga;Stigh Lorgan;Stillorgan
+ga;An Chéim;Stepaside
+ga;Steach Maoilín;Stamullin
+ga;An tSraith;Srah
+ga;An Spá;Spa
+ga;Na Mullaí;Smithborough
+ga;Sligeach;Sligo
+ga;An Sciobairin;Skibbereen
+ga;Na Sceirí;Skerries
+ga;Droíchead Abhann Ó gCearnaigh;Sixmilebridge
+ga;Droichead Abhann Uí gCearnaigh;Sixmilebridge
+ga;Béal Átha Gabhann;Silvermines
+ga;An tSrón;Shrone
+ga;Suí an Róin;Shinrone
+ga;Caladh na Sionainne;Shannon Harbour
+de;Shankill Castle;Shankill
+ga;Seanchill;Shankill
+ga;An Seanbhaile Mór;Shanballymore
+ga;An Seanbhaile;Shanbally
+ga;Baile an Scotaigh;Scotstown
+ga;Teach an Scotaigh;Scotshouse
+ga;Seantrabh;Santry
+ga;Dumhach Thrá;Sandymount
+ga;Gleann Sailí;Sallybrook
+ga;Na Solláin;Sallins
+ga;Sáilín;Saleen
+ga;Tobar Phádraig;Patrickswell
+en;Saint Johnstown;St Johnston
+ga;Baile Suingean;St Johnston
+en;St. Johnstown;St Johnston
+ga;Teach Sagard;Saggart
+ga;Reighleán an Rince;Rylane Cross
+eu;Rylane;Rylane Cross
+en;Rylane;Rylane Cross
+nl;Rylane;Rylane Cross
+ga;Ros Eó;Rush
+ga;Cloch na Rón;Roundstone
+ga;Lois na Maol;Roundfort
+ga;An Ros Thiar;Ross West
+ga;Ros Láir;Rosslare
+ga;An Ros;Rosses Point
+ga;Ros Cheide;Rosses Point
+ga;Ros Ó gCairbre;Ross Carbery
+ga;Ros Fhionnghlaise;Rosenallis
+ga;Ros Cré;Roscrea
+ga;Ros Comáin;Roscommon
+ga;Ros Bearrcon;Rosbercon
+en;Rooskey;Roosky
+ga;Rúscaigh;Roosky
+ga;Carraig an Mhuileann;Rockmills
+ga;Buíochar;Rockcorry
+ga;Droichead Chaisleán Loiste;Rochfortbridge
+ga;Baile Roibín;Robinstown
+ga;Baile Riobaird;Robertstown
+ga;Baile Idir dhá Abhainn;Riverstown
+ga;Baile Uí Lachnáin;Riverstown
+ga;Áth an Mhaide;Riverstick
+ga;Séipéal na hAbhann;Riverchapel
+ga;Rinn na gCanach;Rinnagonnaght
+ga;An Rinn;Ringville
+ga;Rinn an Scidígh;Ringaskiddy
+es;Ringaskiddy-Loughbeg;Ringaskiddy
+ga;An Rinn Rua;Reenroe
+ga;An Cnoc Rua;Redhills
+ga;An Chrois Dhearg;Redcross
+ga;Ráth Tó;Ratoath
+ga;Ráth Naoi;Rathnew
+ga;An Ráth Mhór;Rathmore
+ga;Ráth Moliain;Rathmolyon
+ga;Ráth Mealtain;Ramelton
+en;Rathmelton;Ramelton
+ga;Ráth Ó gCormaic;Rathgormuck
+ga;Ráth Faiche;Rathfeigh
+ga;Ráth Fearnáin;Rathfarnham
+ga;Ráth Chormaic;Rathcormac
+en;Rathcormack;Rathcormac
+ga;Ráth Cúil;Rathcoole
+ga;Ráth Cabáin;Rathcabban
+ga;Ráth Iomgháin;Rathangan
+ga;Ráth Bhoth;Raphoe
+ga;Ráth Eanaigh;Raheny
+ga;Cuinche;Quin
+ga;Coillte;Quilty
+ga;Pocán;Puckaun
+ga;An Chorrchoill;Prosperous
+ga;An Port Rua;Portroe
+ga;Port Mearnóg;Portmarnock
+ga;Port Lách;Portlaw
+en;Maryborough;Portlaoise
+en;Maryboro';Portlaoise
+en;Port Leix;Portlaoise
+ga;Port Laoighise;Portlaoise
+ga;Port Laoise;Portlaoise
+ga;Cúil an tSúdaire;Portarlington
+ga;Baile an Phoill;Piltown
+ga;Tobar Pheadair;Peterswell
+ga;An Pasáiste;Passage West
+ga;An Pasáiste;Passage East
+ga;Partraí;Partry
+ga;Pailís Chaonraí;Pallaskenry
+ga;Cnoc Arda;Palatine
+ga;Abhóca;Avoca
+ga;Na hUamhanna;Ovens
+ga;Baile Órthaí;Oristown
+ga;Baile Óraí;Oristown
+ga;Órán Mór;Oranmore
+ga;Úlla;Oola
+ga;Ó Méith;Omeath
+ga;An Seanbhaile;Oldtown
+ga;Seanleithghlinn;Oldleighlin
+ga;Maolán na nGabhar;Oilgate
+ga;Droichead Uí Bhriain;O’Briensbridge
+ga;An Urnaí;Nurney
+ga;Nuachabháil;Nohaval
+eu;Nohoval;Nohaval
+en;Nohoval;Nohaval
+nl;Nohoval;Nohaval
+ga;An Obair;Nobber
+ga;Tigh Nua an Dá Phota;New Twopothouse Village
+ga;Maigh Mheáin;Newtown Sandes
+ga;Baile an Chinnéidigh;Newtown Mount Kennedy
+ga;An Lios Breac;Newtown Forbes
+ga;An Baile Nua;Newtown
+ga;Baile Nua Sheandroma;Newtownshandrum
+ga;Ros Mhic Thriúin;New Ross
+ga;Baile Uí Fhiacháin;Newport
+ga;Cora Chaitlín;Newmarket on Fergus
+eu;Newmarket-on-Fergus;Newmarket on Fergus
+it;Newmarket-on-Fergus;Newmarket on Fergus
+fr;Newmarket-on-Fergus;Newmarket on Fergus
+nl;Newmarket-on-Fergus;Newmarket on Fergus
+es;Newmarket-on-Fergus;Newmarket on Fergus
+ga;Loch Ceann;Newinn
+ga;Baile Níos;Newcestown
+ga;An Caisleán Nua;Newcastle
+ga;An Caisleán Nua;Newcastle West
+ga;An Caisleán Nua Thiar;Newcastle West
+ga;Droichead Nua;Newbridge
+ga;Cúil Darach;Newbliss
+ga;Lios Darach;Newbliss
+ga;An Bábhún Nua;Newbawn
+ga;An tAonach;Nenagh
+ga;Aonach Urmhumhan;Nenagh
+ga;An Éill;Neale
+ga;An Uaimh;Navan
+ga;An Aill;Naul
+ga;An Nás;Naas
+ga;Baile Mhúráin;Murntown
+ga;Mungairit;Mungret
+ga;Muilte Farannáin;Multyfarnham
+ga;An Muileann gCearr;Mullingar
+ga;Muileann an Bhata;Mullinavat
+ga;An Mullach Mór;Mullaghmore
+ga;An Mullach;Mullagh
+ga;Mullach;Mullagh
+ga;An Mhaighean;Moyne
+ga;Maigh nEalta;Moynalty
+ga;Maigh Sheasta;Moyasta
+ga;Maigh Ard;Moyard
+ga;Cúil Ó gCorra;Mount Uniacke
+ga;Mun Talbóid;Mount Talbot
+ga;Móinteach Mílic;Mountmellick
+ga;Cnocán Bhólais;Mountbolus
+ga;Maothail;Mothel
+ga;Baile Uí Mhornáin;Mornington
+ga;Maoin;Moone
+ga;Móin Choinn;Mooncoin
+ga;Baile na Manach;Monkstown
+ga;Muine Mheá;Monivea
+ga;Mainistir Eimhín;Monasterevin
+ga;An Mhainistir;Monaster
+ga;Móin na Saighead;Monaseed
+ga;Muine Moling;Monamolin
+ga;Muineachán;Monaghan
+ga;Maigh Dhíle;Mogeely
+ga;Baile Mhistéil;Mitchelstown
+ga;Baile Mhistéala;Mitchelstown
+ga;Droichead an Mhionnáin;Minane Bridge
+ga;Bealach Bhaile an Mhuilinn;Milltownpass
+ga;Sráid na Cathrach;Miltown Malbay
+ga;Baile an Mhuilinn;Milltown
+ga;Mainister na Corann;Midleton
+ga;Mainistir na Corann;Midleton
+ga;An Trian Láir;Midfield
+ga;Mionlach;Menlough
+ga;Méanas;Meanus
+ga;Maigh Nuad;Maynooth
+ga;Máistir Gaoithe;Mastergeehy
+ga;Maigh Nulla;Manulla
+ga;Mainéar Uí Chuinneagáin;Manorcunningham
+ga;Mala;Mallow
+ga;Mullach Íde;Malahide
+ga;Caisleán Maí Tamhnach;Mahoonagh
+ga;Maigh Géine;Maganey
+ga;Baile Mhadóg;Maddockstown
+ga;Maigh Chromtha;Macroom
+ga;Lusca;Lusk
+ga;Log an Churraigh;Luggacurren
+ga;Leamhcán;Lucan
+ga;Lú;Louth
+ga;Baile Locha Riach;Loughrea
+ga;Luachma;Loughmoe
+ga;Baile Uí Lachnáin;Loughlinstown
+ga;Loch Glinne;Loughglinn
+ga;Loiscreán;Loskeran
+ga;Maigh Dearmhaí;Longwood
+ga;An Longfort;Longford
+ga;Leic Snámha;Lixnaw
+ga;An Baile Beag;Littleton
+ga;Lios Tuathail;Listowel
+ga;Lios Eiltín;Lisselton
+ga;Lios Ruanach;Lisronagh
+ga;Lisín an Bhealaigh;Lisheenavalla
+ga;An Lios Dubh;Lisduff
+ga;Lios Duibhinn;Lisdeen
+ga;Lios Cearúill;Liscarroll
+ga;Lios Ceannúir;Liscannor
+ga;Lios an Choill;Lisacul
+ga;Luimneach;Limerick
+en;Limerick city;Limerick
+ga;Leifear;Lifford
+ga;Leitir Ceanainn;Letterkenny
+ga;Leitir Fraic;Letterfrack
+ga;Léim an Bhradáin;Leixlip
+ga;Liatroim;Leitrim
+ga;Leithghlinn an Droichid;Leighlinbridge
+en;Lahinch;Lehinch
+ga;An Leacht;Lehinch
+de;Lahinch;Lehinch
+gl;Lahinch;Lehinch
+fr;Lahinch;Lehinch
+es;Lahinch;Lehinch
+eu;Lahinch;Lehinch
+nl;Lahinch;Lehinch
+ca;Lahinch;Lehinch
+ga;An Inse;Laytown
+ga;An Baile Mór;Laurencetown
+ga;Laitean;Lattin
+ga;Learga Uí Dhónaill;Largydonnell
+ga;An Leathros;Strandhill
+ga;Leacht Seoirse;Laghtgeorge
+ga;Droichead na Scuab;Ladysbridge
+ga;Cnoc an Bhiocáire;Knockvicar
+ga;Cnoc Rátha;Knockraha
+ga;Cnoc na gCaiseal;Knocknagashel
+ga;An Cnoc Mór;Knockmore
+ga;Cnoc an Chrochaire;Knockcroghery
+ga;Droichead an Chnoic;Knockbridge
+ga;Cnoc an Iúir;Knockanure
+ga;Cnoc an Fhómhair;Knockanore
+ga;Cnoc Áine;Knockainy
+ga;Cnoc an Doire;Knockaderry
+ga;An Cnoc;Knock
+ga;Cnoc Mhuire;Knock
+ga;Baile an Ridire;Knightstown
+ga;Cionn Sáile;Kinsaley
+ga;Cionn tSáile;Kinsale
+ga;Cionn Locha;Kinlough
+ga;Dún An Ri;Kingscourt
+ga;Cionn Con;Kincon
+ga;Cill Uird;Kilworth
+ga;Cill Tulach;Kiltullagh
+ga;Cill Tormóir;Kiltormer
+ga;Cill Chéile;Kilteel
+ga;Cill tSiáin;Kilteean
+ga;Cill Téile;Kiltealy
+ga;Coillte Mach;Kiltamagh
+ga;Cill Táile;Kiltale
+ga;Cill Scíre;Kilskeer
+ga;Cill Síoláin;Kilsheelan
+ga;Cill Seanchua;Kilshanchoe
+ga;Cill Rois;Kilrush
+ga;Cill Ruáin;Kilrane
+ga;Cill na Leice;Kilnaleck
+ga;Cill Mhuire;Kilmurry
+ga;Cill Mobhí;Kilmovee
+ga;Coill Mhaonaigh;Kilmorna
+ga;Cill Mheasáin;Kilmessan
+ga;Cill Mhiona;Kilmeena
+ga;Cill Maodhóg;Kilmeage
+ga;Cill Mocheallóg;Kilmallock
+ga;Cill Mhaighneann;Kilmainham
+ga;Cill Mheáin;Kilmaine
+ga;Coill Mhic Thomáisín;Kilmacthomas
+ga;Cill Mhic Réanáin;Kilmacrenan
+ga;Cill Mhic nÉanáin;Kilmacrenan
+es;Kilmacrennan;Kilmacrenan
+ga;Cill Mhic Bhúith;Kilmacow
+ga;Cill na hOmnaí;Killumney
+ga;Cill Ó Scolaí;Killoscully
+ga;Cill Iníon Léinín;Killiney
+ga;Cill Íomaí;Killimer
+ga;Cill Uisean;Killeshin
+ga;Cill Éanach;Killenagh
+ga;Cill Aichidh;Killeigh
+ga;Baile Fhobhair;Killeevan
+ga;Cill Íde;Killeedy
+ga;Cill Ia;Killeagh
+ga;Cill an Mhuilinn;Killavullen
+ga;Cill na Sí;Killashee
+en;Killashandra;Killeshandra
+ga;Cill na Seanrátha;Killeshandra
+ga;Cill Anna;Killann
+ga;Cill Ala;Killala
+ga;An Chill;Kill
+ga;Cill Chainnigh;Kilkenny
+ga;Cill Cheallaigh;Kilkelly
+ga;Cill Chaoi;Kilkee
+ga;Cill Flainn;Kilflynn
+ga;Cill Dairbhre;Kildorrery
+ga;Cill Dara;Kildare
+ga;Cill Dealga;Kildalkey
+ga;Cill Chuillinn;Kilcullen
+ga;Cill Cóirne;Kilcorney
+ga;Cill Churnáin;Kilcornan
+ga;Cill Chúile;Kilcooly
+ga;Cill Chomhghaill;Kilcoole
+ga;Cill Cholmáin;Kilcolman
+ga;Cill Cholgáin;Kilcolgan
+ga;Cill Choca;Kilcock
+ga;Cill Chríost;Kilchreest
+ga;Cill Briotáin;Kilbrittain
+ga;Cill Bhríde;Kilbride
+ga;Cill Bhearaigh;Kilberry
+ga;Coill Bheithne;Kilbeheny
+ga;Cill Bheagáin;Kilbeggan
+ga;An Chéis;Kesh
+ga;Neidin;Kenmare
+ga;An Neidín;Kenmare
+ga;Ceanannas;Kells
+ga;Caonach;Keenagh
+ga;An Chaolchoill;Kealkill
+ga;Céideadh;Keadew
+ga;Baile Iúiliáin;Julianstown
+ga;Tobar Eoin;Johnswell
+ga;Baile Eoin;Johnstown
+ga;Oileán Eadaí;Islandeady
+ga;Inis Caoin;Inniskeen
+ga;Inis Crabhann;Inishcrone
+en;Inishannon;Innishannon
+ga;Inis Eonáin;Innishannon
+fr;Inishannon;Innishannon
+ga;Inse Geimhleach;Inchigeelagh
+ga;An Inis;Inch
+ga;Inse Mocholmóg;Inch
+ga;Crois na hIomána;Hurlers Cross
+ga;Binn Éadair;Howth
+ga;An Marcach;Horse and Jockey
+ga;Mainistir na Croiche;Holycross
+ga;Baile na gCailleach;Holycross
+ga;Cillín Chaoimhín;Hollywood
+ga;Maolla;Hollymount
+ga;Ráth an Chuilinn;Hollyfort
+ga;Na Clocha Liatha;Greystones
+ga;Greanach;Grenagh
+ga;An Ghráinseach;Grange
+ga;Gabhrán;Gowran
+ga;An Gabhlán;Gowlaun
+ga;An Gabhlán;Gowlane
+ga;Goirtín;Gorteen
+ga;Gort an Rú;Gortaroo
+ga;Baile Mhic Gormáin;Gormanston
+ga;Guaire;Gorey
+ga;An Droichead Nua;Goresbridge
+ga;An Gabhailín;Golden
+ga;An Gleanntán;Glounthaune
+ga;Glinsce;Glinsk
+ga;Gleann an Phréacháin;Glenville
+ga;Gleann Aoláin;Glenisland
+ga;An Gleann Garbh;Glengarriff
+ga;Glasán;Glassan
+ga;Glas Naíon;Glasnevin
+ga;Glasloch;Glaslough
+es;Glasslough;Glaslough
+ga;Gleannúir;Glanworth
+ga;An Gleanntán;Glantane
+ga;Gleann Maghair;Glanmire
+ga;Garraí Phaghain;Garryfine
+ga;Baile Gháire;Garristown
+ga;An Garrán Leathan;Garranlahan
+ga;Na Garfráin;Garrafrauns
+ga;Gaillimh;Galway
+en;Galway city;Galway
+ga;An Gallbhaile;Galbally
+ga;Achadh Úr;Freshford
+ga;Dún Gar;Frenchpark
+ga;An Chúirt;Fivealley
+ga;Fionnúig;Finuge
+ga;Fionnghlas;Finglas
+ga;Cordal;Fieries
+ga;Na Foidhrí;Fieries
+ga;Fiodh Dúin;Fiddown
+ga;Fiodh Ard;Fethard
+ga;Port an Chalaidh;Ferrybank
+ga;Fearna;Ferns
+ga;Mainistir Fhear Maí;Fermoy
+br;Mainistir Fhear Maigh;Fermoy
+ga;An Fheothanach;Feohanagh
+ga;Fochla;Faughalstown
+ga;Eiréil;Errill
+ga;Inis Díomáin;Ennistimon
+de;Ennistymon;Ennistimon
+gl;Ennistymon;Ennistimon
+it;Ennistymon;Ennistimon
+fr;Ennistymon;Ennistimon
+es;Ennistymon;Ennistimon
+eu;Ennistymon;Ennistimon
+nl;Ennistymon;Ennistimon
+ca;Ennistymon;Ennistimon
+ga;Áth na Sceire;Enniskerry
+ga;Inis Céin;Enniskean
+ga;Inis Córthaidh;Enniscorthy
+ga;An Bóthar Buí;Enfield
+ga;Scairbh na gCaorach;Emyvale
+ga;Ioma;Emo
+ga;Imleach;Emly
+ga;Imleach Iubhair;Emly
+ga;Ail Finn;Elphin
+ga;Éaden Doire;Edenderry
+ga;Éadan Doire;Edenderry
+ga;Dúras;Durrus
+ga;Dún Sinche;Dunsink
+ga;Dún Seachlainn;Dunshaughlin
+ga;Dún Mór;Dunmore East
+ga;Dún Mór;Dunmore
+ga;Dún Mánmhaí;Dunmanway
+ga;Dúnmaonmhuí;Dunmanway
+ga;Dún Léire;Dunleer
+en;Dunleary;Dún Laoghaire
+ga;Dún Laoire;Dún Laoghaire
+ga;Dún Luáin;Dunlavin
+ga;Dún Cairin;Dunkerrin
+ga;Dún Aill;Dunhill
+ga;Dún Guairne;Dungourney
+ga;Dún Géagáin;Dungeagan
+ga;Dún Garbhán;Dungarvan
+ga;Dún Droma;Dundrum
+ga;Dún Darú;Dunderrow
+ga;Dún Dealgan;Dundalk
+ga;Dún Búinne;Dunboyne
+ga;Damhliag;Duleek
+ga;Baile Átha Cliath;Dublin
+it;Dublino;Dublin
+br;Dulenn;Dublin
+en;Dublin city;Dublin
+sc;Dublinu;Dublin
+ga;Dubháth;Duagh
+ga;Droim ar Snámh;Drumsna
+ga;Droim Lis;Drumlish
+ga;Droim Fionn;Drumfin
+ga;Droim Conrach;Drumcondra
+ga;Droim Chagaidh;Drumcoggy
+ga;Droim Chliabh;Drumcliff
+en;Drumcliffe;Drumcliff
+nl;Drumcliffe;Drumcliff
+ga;Droim Chearbán;Drumcarban
+ga;An Droim;Drum
+ga;Droim Ineasclainn;Dromiskin
+ga;Drom Inbhir;Dromineer
+ga;Drom Aidhne;Dromina
+ga;An Drom;Drom
+ga;Droichead Átha;Drogheda
+ga;An Druipseach;Dripsey
+ga;Draighneach;Drinagh
+ga;Drom dhá Liag;Drimoleague
+ga;Dromnín;Drimmeen
+ga;An Dubhfhéith;Dovea
+ga;Dúglas;Douglas
+ga;Dúbhglas;Douglas
+ga;An Dún Beag;Doonbeg
+ga;Dún Átha;Doonaha
+ga;Dúthamhlacht;Doohamlat
+en;Doohamlet;Doohamlat
+nl;Doohamlet;Doohamlat
+ga;Domhnach Mór;Donoughmore
+ga;Dún Uabhair;Donore
+ga;Dún Eochaille;Donohill
+ga;Domhnach Broc;Donnybrook
+ga;Dún ar Aill;Doneraile
+ga;Domhnach Cairnigh;Donacarney
+ga;Domhnach Bat;Donabate
+ga;Cnocán Doirinne;Dollymount
+ga;Deilgne;Delgany
+ga;Deilginis;Dalkey
+ga;Cois Eidhní;Cushina
+ga;Cromghlinn;Crumlin
+ga;Crois Mhaoilíona;Crossmolina
+ga;Carraig an Tobair;Cross Keys
+ga;Bun an Tábhairne;Crosshaven
+es;Crosshaven - Churchbay;Crosshaven
+ga;Cros Domhnaigh;Crossdoney
+ga;Crois an Bharraigh;Cross Barry
+eu;Crossbarry;Cross Barry
+en;Crossbarry;Cross Barry
+nl;Crossbarry;Cross Barry
+es;Crossbarry;Cross Barry
+ga;Crosa Caoil;Crossakeel
+ga;Na Crosa Beaga;Crossabeg
+ga;An Chrois;Cross
+ga;An Baile Gallda;Crookstown
+ga;Tigh Munna;Crookedwood
+ga;Críonchoill;Crinkill
+ga;Na Creaga;Creggs
+ga;An Chríoch;Creegh
+ga;Creachmhaoil;Craughwell
+ga;An Chreatalach;Cratloe
+ga;Áth an Chorrái;Craanford
+ga;Baile na Cúirte;Courtown
+ga;Cúirt Mhic Shéafraidh;Courtmacsherry
+ga;An Baile Corr;Cortown
+ga;Corr na Fola;Cornafulla
+ga;Corcaigh;Cork
+br;Korkig;Cork
+en;Cork city;Cork
+ga;Muinchille;Cootehill
+ga;Uachtar Thíre;Cootehall
+ga;Cuar an Chláir;Cooraclare
+ga;Cuanach;Coonagh
+ga;Cúil Ghréine;Coolgreany
+ga;An Chúil Bhán;Coolbaun
+ga;Cúil Áine;Coolaney
+ga;Conmhaigh;Convoy
+ga;Conga;Cong
+ga;Cúil Mhuine;Collooney
+ga;Cnoc an Línsigh;Collegeland
+ga;Calgach;Colgagh
+ga;An Cóbh;Cobh
+ga;Áth an Chóiste;Coachford
+ga;Cluain;Cloyne
+ga;Droim Caiside;Cloverhill
+ga;Cluain Lára;Cloonlara
+ga;Cluain Fada;Cloonfad
+ga;Cluain Dá Ráth;Cloondara
+ga;Cluain Cumhra;Clooncoorha
+ga;Cluain Bú;Cloonboo
+ga;Cluain Tiobrad;Clontibret
+ga;Cluain Tarbh;Clontarf
+ga;Cluain Saileach;Clonsilla
+ga;Cluain an Róistigh;Clonroche
+ga;Cluain Abhla;Clonoulty
+ga;Ráistín;Clonmellon
+ga;Cluain Meala;Clonmel
+ga;Cluain Fearta;Clonfert
+ga;Cluain Eois;Clones
+ga;Cluain Aodha;Clonee
+ga;Cluain Fhia;Clonea
+ga;Cluain Dalláin;Clondulane
+ga;Cluain Dolcáin;Clondalkin
+ga;Cluain Bolg;Clonbulloge
+ga;Cloich na Coillte;Clonakilty
+ga;Cluain Uí Chionaoith;Clonakenny
+ga;An Clochar;Clogher
+ga;Ceann Chlochair;Clogherhead
+ga;An Cloichín;Clogheen
+ga;An Clochán;Cloghan
+ga;An Chloch;Clogh
+ga;An Clochán;Clifden
+ga;An Cloigeann;Cleggan
+ga;Clais Mhór;Clashmore
+ga;Droichead an Chláirín;Clarinbridge
+ga;Clár Aidhne;Clarina
+ga;Clár Chlainne Mhuiris;Claremorris
+ga;Clár Clainne Mhuiris;Claremorris
+ga;Baile Chláir;Claregalway
+ca;Baile an Chláir;Claregalway
+ga;An Cláirín;Clareen
+ga;Droíchead an Chláir;Clarecastle
+ga;Clóirtheach;Clara
+ga;Claonadh;Clane
+ga;An Cladach;Claddagh
+ga;Baile an Teampail;Churchtown
+ga;Baile an Teampaill Theas;Churchtown
+ga;Pointe na Síge;Cheekpoint
+ga;Ráth Luirc;Charleville
+ga;An Ráth;Charleville
+ga;Seipeal losoid;Chapelizod
+ga;Cill Droichid;Celbridge
+ga;An Cabhán;Cavan
+ga;Caisleán an Bhairínigh;Castlewarren
+ga;Baile an Chaisleáin;Castletownshend
+ga;Baile Chaisleáin an Róistigh;Castletownroche
+ga;Baile an Chaisleáin;Castletown
+ga;An Caisleán Riabhach;Castlerea
+ga;Baile na Martra;Castlemartyr
+ga;Caisleán na Mainge;Castlemaine
+ga;Caisleán Ó Liatháin;Castlelyons
+ga;Caisleán Cnucha;Castleknock
+ga;Caisleán na Finne;Castlefinn
+ga;Díseart Diarmada;Castledermot
+ga;Droichead an Chaisleáin;Castlebridge
+ga;Baile na Lorgan;Castleblayney
+en;Castleblaney;Castleblayney
+ga;Baile an Ghearlánaigh;Castlebellingham
+de;Castle Bellingham;Castlebellingham
+ga;Caisleán an Bharraigh;Castlebar
+ga;Caiseal;Cashel
+ga;An Cheathrú Mhór;Carrowmore
+en;Carrigtohill;Carrigtwohill
+ga;Carraig Thuathail;Carrigtwohill
+ga;Carraig na bhFear;Carrignavar
+ga;Carraig Chiarraí;Carrigkerry
+ga;Carraig an Tóchair;Carrigatogher
+ga;Carraig an Ime;Carriganimmy
+ga;Carraig Uí Leighin;Carrigaline
+ga;Carraig an Droichid;Carrigadrohid
+ga;An Charraig;Carrig
+ga;Carraig na Siúire;Carrick-on-Suir
+en;Carrick on Shannon;Carrick-on-Shannon
+ga;Cora Droma Rúisc;Carrick-on-Shannon
+ga;Carraig Mhaighin;Carrickmines
+ga;Carraig Mhachaire Rois;Carrickmacross
+br;Carraig Mhacaire Rois;Carrickmacross
+ga;An Charraig Bhuí;Carrickboy
+ga;An Charraig Bheag;Carrickbeg
+ga;Ceárach;Carragh
+ga;Fearann Uí Chearnaigh;Carney
+ga;Carn na Ros;Carnaross
+ga;Ceatharlach;Carlow
+ga;Droichead Chearbhallain;Carlanstown
+ga;Cairbre;Carbury
+ga;An Cheapach;Cappagh White
+ga;An Cheapach;Cappagh
+ga;Baile Chainín;Canningstown
+ga;Ceann Poill;Campile
+ga;Cam Eolaing;Camolin
+ga;Baile an Chalbhaigh;Calverstown
+ga;Cathair Saidhbhín;Cahersiveen
+es;Cahirciveen;Cahersiveen
+nl;Cahirciveen;Cahersiveen
+ga;Cathair Chinn Lis;Caherconlish
+ga;Án Chathair;Cahir
+en;Caher;Cahir
+ga;Cábán tSíle;Cabinteely
+ga;Cill na Mallach;Buttevant
+en;Butlers Bridge;Butlersbridge
+ga;Droichead an Bhuitléaraigh;Butlersbridge
+ga;Ráth an Tóiteáin;Burnfort
+ga;Bun na Raite;Bunratty
+ga;Bun an Fheadáin;Bunnanaddan
+ga;Bun Machan;Bunmahon
+ga;Bun Dobhráin;Bundoran
+ga;Bun Brosnaí;Bunbrosna
+ga;Builgidín;Bulgaden
+ga;Brú Rí;Bruree
+ga;An Brú;Bruff
+ga;An Bhrosnach;Brosna
+ga;Achadh an Bhrúim;Broomfield
+ga;Béal an Átha;Broadford
+ga;Baile an Droichid;Bridgetown
+ga;Droichead na Bríde;Bridebridge
+ga;An Bhrídeog;Breedoge
+ga;Bréachmhaigh;Breaghwy
+ga;Bré;Bray
+pt;Bray, County Wicklow;Bray
+ga;Breacánach;Bracknagh
+ga;Mainistir na Búille;Boyle
+ga;An Bhuiríos;Borris
+ga;Buirgheas Ó nDróna;Borris
+ga;An Bóthar Mín;Bohermeen
+ga;An Phailís;Blue Ball
+ga;Cathair Uí Mhóráin;Blennerville
+ga;An Bhlarna;Blarney
+ga;Baile Bhlainséir;Blanchardstown
+ga;Coill Dubh;Blackwood
+ga;Carraig Dubh;Blackrock
+ga;An Charraig Dhubh;Blackrock
+ga;Biorra;Birr
+ga;Baile an Bhiataigh;Bettystown
+ga;Droichead Binéid;Bennettsbridge
+ga;Béal an Bhealaigh;Belvelly
+ga;Béal Tairbirt;Belturbet
+ga;Béal Trá;Beltra
+ga;Béal Átha Bhearaigh;Bellavary
+en;Ballinode;Bellanode
+ga;Béal Átha an Fhóid;Bellanode
+eu;Ballinode;Bellanode
+nl;Ballinode;Bellanode
+ga;Béal Átha na nEach;Ballinagh
+en;Bellananagh;Ballinagh
+ga;Béal Átha na Muille;Bellanamullia
+ga;Béal Átha na gCarr;Bellanagare
+ga;Béal Guala;Belgooly
+ga;Béal Chláir;Belclare
+ga;Beighthigh;Bective
+ga;Baile an Bhóthair;Batterstown
+ga;Tobar Pártnáin;Bartlemy
+ga;Droichead Barrington;Barringtonsbridge
+ga;Bearna Dhearg;Barnaderg
+ga;Bearna;Barna
+en;Barna;Bearna
+ga;Beanntraí;Bantry
+ga;An Bháinseach;Bansha
+ga;An Bhánóg;Banoge
+ga;Droichead na Bandon;Bandon
+ga;Droichead na Bandan;Bandon
+ga;Beannchar;Banagher
+ga;Baile Trá;Baltray
+ga;Bealach Conglais;Baltinglass
+ga;Dún na Séad;Baltimore
+ga;Baile an Ridire;Balrothery
+ga;Béal Átha Seanaidh;Ballyshannon
+ga;Baile Easa Dara;Ballysadare
+ga;Baile Átha an Róine;Ballyroan
+ga;Baile Phádraig;Ballypatrick
+ga;Baile Uí Argáin;Ballyorgan
+ga;Baile an Fhaoitigh;Ballyneety
+ga;Buaile na hAbhann;Ballynahown
+ga;Béal Átha na nGabhar;Ballynagore
+ga;Baile na Cúirte;Ballynacourty
+eu;Ballinacourty;Ballynacourty
+en;Ballinacourty;Ballynacourty
+nl;Ballinacourty;Ballynacourty
+ga;Baile na Cora;Ballinacurra
+ga;Baile na Cora;Ballynacarrow
+ga;Baile na Buaile;Ballynabola
+ga;Baile Uí Mhurúin;Ballymurn
+ga;Baile an Mhóta;Ballymote
+ga;An Baile Mór;Ballymore Eustace
+ga;Béal Átha Mó;Ballymoe
+ga;Baile Uí Mhacaí;Ballymackey
+ga;Baile Mhac Cairbre;Ballymacarbry
+ga;Baile Uí Laigheanáin;Ballylynan
+ga;Béal Átha Lúbaigh;Ballylooby
+ga;Béal Átha Longfoirt;Ballylongford
+ga;Baile an Longfoirt;Ballylongford
+ga;Baile Uí Fhlaithnín;Ballylaneen
+ga;Baile an Londraigh;Ballylanders
+ga;Bealach Caorthainn;Ballykeeran
+ga;Bealach Aodha;Ballyhugh
+ga;An Baile Átha hÚlla;Ballyhooly
+ga;Béal Átha hEin;Ballyhean
+ga;Béal Átha hAmhnais;Ballyhaunis
+ga;Béal Átha hÉis;Ballyhaise
+ga;Baile Hac;Ballyhack
+ga;An Baile Glas;Ballyglass
+ga;Baile Garbháin;Ballygarvan
+ga;Baile Ghearóid;Ballygarrett
+ga;Baile an Phoill;Ballyfoyle
+ga;Béal Átha Fearnáin;Ballyfarnan
+eu;Ballyfarnon;Ballyfarnan
+ga;An Baile Fada;Ballyfad
+ga;Béal an dá Chab;Ballydehob
+ga;Baile Uí Chomáin;Ballycommon
+ga;Baile Cloch;Ballyclogh
+ga;Baile Uí Chléireacháin;Ballyclerahan
+ga;Baile na Cora;Belcarra
+ga;Baile Uí Chearnaigh;Ballycarney
+ga;Baile Uí Chonnmhaí;Ballycanew
+ga;Bealach Achaille;Ballycahill
+ga;Baile Briotáis;Ballybrittas
+ga;Baile Bachaille;Ballyboughal
+ga;Béal Átha Grean;Ballyagran
+ga;Béal Atha an Tuair;Ballitore
+ga;Baile an Iúir;Ballinure
+ga;Baile an Fhantaigh;Ballinunty
+ga;Baile an Tóchair;Ballintogher
+ga;Baile an Tobair;Ballintubber
+ga;Baile an Tobair;Ballintober
+ga;Baile an Teampaill;Ballintemple
+ga;Béal Átha an Spidéil;Ballinspittle
+ga;Baile an Sceilg;Ballinskelligs
+ga;Baile an Róba;Ballinrobe
+ga;Baile an Locha;Ballinlough
+ga;Béal Átha an Cheasaigh;Ballinhassig
+ga;Béal Átha Fhínín;Ballineen
+ga;Baile an Droichid;Ballindrait
+ga;Baile an Dúlaigh;Ballindooly
+ga;Baile an Daighin;Ballindine
+ga;Baile an Doirín;Ballinderreen
+ga;Baile an Churraigh;Ballincurrig
+ga;Baile an Chollaigh;Ballincollig
+ga;Béal Átha na Sluaighe;Ballinasloe
+ga;Béal na Scairte;Ballinascarty
+ga;Béal an Átha Mín;Ballinameen
+ga;Béal Átha na Lao;Ballinalee
+ga;Béal an Átha Fada;Ballinafad
+ga;Baile na Daibhche;Ballinadee
+ga;Béal An Átha;Ballina
+ga;Baile Mhic Mhaoilir;Ballickmoyler
+ga;an Bealach Mór;Ballaghmore
+ga;Baile Dúill;Baldoyle
+ga;Baile Brigín;Balbriggan
+ga;Muine Bheag;Bagenalstown
+en;Moneybeg;Bagenalstown
+ga;Eachroim;Aughrim
+ga;Áth Tíomáin;Attymon
+ga;Baile Átha Í;Athy
+ga;Áth Liag;Athleague
+ga;An tÁth Leacach;Athlacca
+ga;Baile Átha an Rí;Athenry
+ga;Baile Átha Buí;Athboy
+ga;Eas Daoi;Astee
+ga;Eas Géitine;Askeaton
+ga;Cill Dhéagláin;Ashbourne
+ga;Colmán;Arthurstown
+ga;An tInbhear Mór;Arklow
+ga;Ard Pádraig;Ardpatrick
+ga;Ard na Croise;Ardnacrusha
+ga;Ard Fhíonáin;Ardfinnan
+ga;Ard Ó bhFicheallaigh;Ardfield
+ga;Ard Fhearta;Ardfert
+ga;Ard Cróine;Ardcrony
+en;Ardcroney;Ardcrony
+nl;Ardcroney;Ardcrony
+ga;Ard Cath;Ardcath
+ga;Ardach;Ardagh
+ga;Bun Abha;Annestown
+ga;Eanach Dhúin;Annaghdown
+ga;Áth na gCasán;Annagassan
+ga;Áth na Cairte;Annacarty
+ga;An Eatharla;Aherla
+ga;Áth Eascrach;Ahascragh
+ga;An Eaglais;Aglish
+ga;Achadh Mór;Aghamore
+ga;Áth Fhada Íochtarach;Aghada
+es;Aghada-Farsid-Rostellan;Aghada
+ga;Achadh Bolg;Aghabullogue
+ga;Dún na Mainistreach;Abbeyside
+ga;Mainistir Laoise;Abbeyleix
+ga;Mainistir Ó d’Torna;Abbeydorney
+br;Mainistir Ó dTorna;Abbeydorney
+ga;Baile Conaola;Ballyconneely
+ga;An Cladach Dubh;Claddaghduff
+ga;Baile Stiabhna;Ballysteen
+ga;An Teampall Nua;Templenoe
+ga;Baile an Chuainín;Myrtleville
+ga;Baile na nGall;Ballynagaul
+ga;Port Reachrann;Portraine
+ga;Loch Sionnaigh;Loughshinny
+ga;An Tulaigh;Tullig
+ga;An Cheapaigh;Cappagh
+ga;Cloichear;Clogher
+ga;An Bealach;Ballagh
+ga;An Fearann;Farran
+ga;Biorainn;Berrings
+ga;Cloch Reo;Cloghroe
+ga;An Seisear;Beenalaght
+ga;Na Boinn;Bweeng
+ga;An Ladhar;Lyre
+ga;Drom Átháin;Drommahane
+ga;An Ráth;Rath
+ga;Leath Slighe;Halfway
+ga;Leataoibh;Lateeve
+ga;An Garrán;Garrane
+ga;Na Cúlacha;Cools
+ga;An Caol;Chapeltown
+ga;An tImleach;Emlagh
+ga;An Doirín;Derreen
+ga;An Chathair Bhearnach;Caherbarnagh
+ga;Drom Oireach;Dromaragh
+ga;Málainn;Maulin
+ga;Ochtaibh;Oughtiv
+ga;Léim Lára;Leamlara
+ga;An Gleann;The Glen
+ga;Cnocán Aoibhinn;Knockanevin
+ga;Baile Uí Churraoin;Ballycurrane
+ga;Baile Mhac Airt;Ballymacart Bridge
+ga;An Fhaiche;Faha
+ga;An Goirtín;Gorteen
+ga;Baile Uí Churraoin Theas;Ballycurreen South
+ga;Ráth na mBiníneach;Rathnameneenagh
+ga;Na Geataí;Gates
+ga;An Cnoc Buí;Knockboy
+ga;Baile Mhic Giolla Mhuire;Ballykilmurry Bridge
+ga;Léim Uí Bhriain;Lemybrien
+ga;Droichead na Machan;Mahon Bridge
+ga;Baile an Aicéadaigh;Hacketstown
+ga;An Gleann Mor;Glenmore
+ga;An Robhar;The Rower
+ga;An Ráithín;Raheen
+ga;Baile na mBreatnach;Ballinabranagh
+fr;Ballinabranna;Ballinabranagh
+ga;Baile Uí Cheog;Ballyhoge
+ga;Cill Chathláin;Kilcullane
+ga;Áth an Choite;Annacotty
+ga;Caisleáñ Ui Chonaill;Castleconnell
+ga;An Cheapach Rua;Capparoe
+ga;An Bóthar Leathan;Boherlahan
+ga;Faiche Ró;Rosegreen
+ga;Muileann na gCloch;Mullennaglogh
+ga;Ónainn;Owning
+ga;Ráith;Ray
+ga;An Tearmann;Termon
+ga;Baile Uí Odhragáin Thoir;Ballyhorgan East
+ga;Baile Uí Aogáin;Ballyegan
+ga;An Tuairín;Tooreen
+ga;An Cuibhreann;Querrin
+en;Querrin House;Querrin
+ga;An Caiseal;Cashel
+ga;An Ghrafaidh;Graffy
+ga;An Coillín Darach;Killindarragh
+ga;Gleann Mhic Coinn;Glenmaquin
+ga;An Machaire Beag;Magherabeg
+ga;Baile Mhic Scanláin;Ballymascanlan
+ga;Corr na Féinne;Cornafean
+ga;An Chliaifearna;Clifferna
+ga;An Tonnaigh Dhubh;Tonyduff
+ga;Achadh na Muileann;Aghnamullen
+ga;Eanaigh Gheala;Annyalla
+ga;Dútháite;Doohat
+ga;An tSionna;Shannon
+it;Shannon Town;Shannon
+ga;Sionainn;Shannon
+ga;Leacht na mBard;Latnamard
+ga;Suí Lú;Selloo
+ga;An Seisceann;Sheskin
+ga;Tír Ní Néill;Tirnaneill Cross Roads
+ga;An Charraig Rua;Carrickroe
+ga;Cill Choirle;Kilcurly
+ga;Rinn na Spáinneach;Spanish Point
+es;Punta Española;Spanish Point
+ga;Na Cluainte;Cloontia
+ga;Cluain Lua;Cloonloogh
+ga;Coill Fhada;Culfadda
+ga;An tSonnach;Tunnagh
+ga;Cill Fhábhail;Killavil
+ga;Béal Átha na gCarraigní;Castlebaldwin
+ga;Grainne Mor;Graniamore
+ga;Cluain Ciabhaigh;Cloonkeevy
+ga;Cill Mhic Treana;Kilmactranny
+ga;Baile Uí Dhálaigh;Ballygawley
+ga;Cnoc na hIora;Knocknahur
+ga;An Machaire Buí;Magheraboy
+ga;Béal Átha an Trí Liag;Ballaghnatrillick
+ga;Clochbhuaile;Cloghboley
+ga;Caiseal an Ghearráin;Cashelgarran
+ga;Coill an Chláir;Kilclare
+ga;Droim Conga;Drumcong
+ga;Bocóid;Buckode
+ga;An Pháirc Mhór;Parkmore
+ga;An Pollach;Pollagh
+ga;An Caisleán Gearr;Castlegar
+ga;Tír Oileáin;Terryland
+ga;Tóin na Brocaí;Tonabrocky
+ga;Eadargúil;Addragool
+en;Clooniffe;Clooniff
+ga;Cluain Aoibh;Clooniff
+ga;Cluain Duibh;Clooniff
+ga;Tulaigh Mhic Aodháin;Tullokyne
+ga;An tSeanchill;Shankill
+ga;Mucrois;Muckrush
+ga;Tóin an Mhása;Tonamace
+ga;Cor an Dola;Corrandulla
+ga;Barr Eanaigh;Barranny
+ga;Eadargúil;Addergoole
+ga;Cluain Leannáin;Cloonleenaun
+ga;Baile na Coille;Woodpark
+ga;An Más;Mace
+ga;Lisín an Óráin;Lisheenanoran
+ga;Gort Chluain Mór;Gortcloonmore
+ga;An Móinteach;Montiagh
+ga;Gort an tSléibhe;Gortatleva
+ga;An Eaglais Nua;Newchapel
+ga;An Cheathrú Chaol;Carrowkeel
+ga;An Leithcheathrú;Lecarrow
+ga;An Cárán;Caraun
+ga;Eochaill;Oghil
+ga;Baile na Móna;Ballynamona
+ga;Cluain Mnic Nóis;Clonmacnoise
+ga;Baile Átha Luain;Athlone
+ga;Seanchua;Shanahoe
+ga;Foirtil;Fortel
+ga;Cill Chá;Kilkea
+ga;Coill an Aird;Killenard
+ga;Cill Daingin;Kildangan
+ga;Crochta na Gréine;Suncroft
+ga;Campa an Churraigh;Curragh Camp
+ga;Inis na mBreatnach;Walshisland
+ga;Alúine;Allen
+ga;Fiodh Alúine;Allenwood Cross Roads
+ga;Buaile na Breachmhai;Ballinabrackey
+ga;Baile Mhic Adaim;Cadamstown
+ga;Baile an Stáibléaraigh;Staplestown
+ga;Ráth Chofaigh;Rathcoffey
+ga;Ath na Fuinseoige;Ashford
+ga;Cill Pheadair;Kilpedder
+ga;Cill Mocheanóg;Kilmacanoge
+ga;Gleann Crí;Glencree
+ga;Baile Haim;Hempstown
+ga;Baile Éide;Eadestown
+ga;Gleann Cuilinn;Glencullen
+ga;An Briotás;Brittas
+ga;Briotáis;Brittas
+ga;Inis Leamhnachta;Marlfield
+ga;Baile an Mhóta;Ballymount
+ga;Teach na Giúise;Firhouse
+ga;Áth an Ghainimh;Sandyford
+ga;Baile na Lobhar;Leopardstown
+ga;Carraig an tSionnaigh;Foxrock
+ga;Gráinseach an Déin;Deansgrange
+ga;Ráth Garbh;Rathgar
+ga;Raghnallach;Ranelagh
+ga;Cill Bharróg;Kilbarrack
+ga;Baile Ghrifin;Balgriffin
+ga;Baile Munna;Ballymun
+ga;An Chabrach;Cabra
+ga;Baile Bhailcín;Walkinstown
+ga;Baile an Ásaigh;Ashtown
+ga;Baile Formaid;Ballyfermot
+ga;An Seanbhábhún;Oldbawn
+ga;Tuaim Beola;Toombeola
+ga;Liagán;Leagaun
+ga;Imleach Dhá Rú;Emlaghdauroe
+ga;Leitir Móir;Letter More
+en;Burrishoole;Burrishoole Abbey
+ga;Buiríos Umhaill;Burrishoole Abbey
+ga;An Choill Mhór;Cuilmore
+en;Cloondaff;Cluain Damh
+ga;An Tamhnaigh;Tawnagh
+ga;An Pháirc;Park
+ga;Seanachaidh;Shanaghy
+ga;Cnoc an Oileáin;Knockanillaun
+ga;Áth Tí an Mheasaigh;Attymass
+ga;Caorthannán;Castlehill
+ga;Leathardan;Lahardaun
+ga;An Ros;Ross
+ga;Baile Dama;Damastown
+ga;Baile an Bheileogaigh;Bellewstown
+ga;Cill Dheirge;Killerrig
+ga;Fionnbhrú;Whitehall
+ga;Cois Bá;Bayside
+ga;Baile an Tirialaigh);Tyrrelstown
+ga;Béal Átha Leice;Ballylickey
+ga;Ros Ó gCairbre;Rosscarbery
+de;Ross Carbery;Rosscarbery
+ga;Maigh Rois;Moyross
+ga;Baile Easa Dara;Ballisodare
+ga;Caladh an Treoigh;Castletroy
+ga;Fionnradharc;Fairview
+eu;Kilmeadan;Kilmeaden
+en;Kilmeadan;Kilmeaden
+ga;Cill Mhíodáin;Kilmeaden
+nl;Kilmeadan;Kilmeaden
+ga;Cill Tiarnáin;Kilternan
+ga;Cnoc Lín;Knocklyon
+ga;Lios na Graí;Lisnagry
+ga;Baile Phámar;Palmerstown
+ga;Ráth Mhichíl;Rathmichael
+ga;Tigh Damhnata;Tydavnet
+ga;Tigh an Raoilinn;Tinryland
+ga;Cluain Lára;Clonlara
+ga;Cill Fear Buí;Kilfarboy
+ga;Baile an Óraigh;Ballinora
+ga;Cluain Droichead;Clondrohid
+ga;Caisleán na Finne;Castlefin
+ga;Ráth Miontáin;Jobstown
+ga;Cill Easra;Killester
+ga;Cuan Aoibhinn;Portobello
+ga;Mainistir Chnoc Muaidhe;Abbeyknockmoy
+ga;Bóthar na Trá;Salthill
+ga;Maigh Mheáin;Moyvane
+es;Newtownsandes;Moyvane
+ga;Cill Fhíonáin;Kilfinnane
+ga;an Lios Breac;Newtownforbes
+ga;Ceathrú na Con;Carnacon
+ga;Droim Conrach;Drumconrath
+ga;Baile an Cheantaigh;Kentstown
+ga;Tearmann Bearaigh;Tarmonbarry
+nl;Termonbarry;Tarmonbarry
+es;Termonbarry;Tarmonbarry
+ga;Ráth Ó gCormaic;Rathgormack
+ga;An Grianán;Mount Temple
+ga;Cill Chomhaid;Kilquade
+ga;Baile an Chinnéidigh;Newtownmountkennedy
+en;Carrigbyrne;Carrickbyrne
+ga;Currach Cló;Curracloe
+en;Currikippane;Carrigrohane
+en;Kilgrohanmore;Carrigrohane
+ga;Carraig Ruacháin;Carrigrohane
+ga;Baile Amhlaoibh;Balally
+ga;An Bhearn Dearg;Barndarrig
+ga;Cill Chluain;Kilcloon
+ga;Sliabh Rua;Slieverue
+ga;Baile Mhóntáin;Fountainstown
+ga;Baile an Bharúnaigh;Barntown
+ga;Cloch Dhubh;Cloughduv
+ga;Droim Caoin;Drumkeen
+ga;Coill an Iarainn;Killinierin
+ga;Cill Míde;Kilmead
+ga;Baile na Mná Maithe;Ladytown
+ga;Baile Uí Mhadaín;Maddenstown
+ga;Tigh an úir;Tinure
+en;Ballycoolin;Ballycoolen
+ga;Sliabh an Rí;Kingsmountain
+ga;Driseog;Drissoge
+ga;Baile Forda;Fordstown
+ga;Cluain Ghil;Clongill
+ga;Cnoc Comair;Knockumber
+ga;Tlachta;Wardstown
+ga;Ráth Chairn;Rathcarran
+ga;Dun Samhnaí;Dunsany
+ga;Doire Longáin;Derlangan
+en;Carrowbeg;An Cheathru Bheag
+ga;Caisleán an Dúin;Dooncastle
+ga;An tOireamh;Errew
+ga;An Sián;Sheean
+ga;Cagála;Cogaula
+ga;An Baile Fionn;Ballyfin
+ga;An Muclach;Mucklagh
+ga;An Baile Gaelach;Irishtown
+ga;Baile an Rodaigh;Ballinroad
+ga;Eadan Mór;Edenmore
+ga;Urlár;Urlaur
+ga;Tigh Baoithín;Tibohine
+ga;Mullach na Sí;Fairymount
+ga;Ceathrú Bheithí;Carrowbehy
+ga;An Caladh;Callow
+ga;Cill Eiltín;Killelton
+ga;Carraig an Phoill;Carrigafoyle
+en;Carrigafoyle House;Carrigafoyle
+ga;Martra;Martara
+ga;An Gort Ard;Gortard
+ga;An Scairt Liath;Scartleigh
+ga;An Roisín;Rusheen
+ga;Achadh na gCrann Íochtarach;Aghanagran Lower
+ga;Baile Uí Fhloinn Thiar;Ballyline West
+ga;Cúil Chaorach;Coolkeragh
+ga;An Drom Beag;Drombeg
+ga;Áth an Trochais;Bedford
+ga;Srón Thoir;Shrone East
+ga;Cúil na Leacht;Coolnalaght
+ga;Doire Thoir;Derra East
+ga;Currach an tSuasáin;Curraghatoosane
+ga;Baile Uí Dhuthaigh;Ballyduhig
+ga;Tulaigh Shinill Thuaidh;Tullahennel North
+ga;An Leathráth;Larha
+ga;An Leaca;Lacka
+ga;Baile an Ghabhann;Ballingowan
+ga;Na Locháin;Loughanes
+ga;Maigh Bile Theas;Moybella South
+ga;Srón Thiar;Shrone West
+ga;Doire Thiar;Derra West
+ga;Gort an Chrosáin;Gortacrossane
+ga;An Garraí Ard;Garryard
+ga;An Chúil Ard;Coolard
+ga;Gluaire;Glouria
+ga;Urlaí;Urlee
+ga;Drom Luachra;Dromloughra
+ga;Cill Átha Chroime;Killacrim
+ga;Baile Uí Odhragáin Thiar;Ballyhorgan West
+ga;Poll na hÁithe;Poulnahaha
+ga;Cnocán an Churraichín;Knockaunacurraheen
+ga;Fearann Doinn;Farrandeen
+ga;Currach Chróinín;Curraghcroneen
+ga;An Cheathrú Mhór Thuaidh;Carrowmore North
+ga;An Carnán;Carnaun
+ga;Ceathrú an Chalaidh Thuaidh;Carrowncalla North
+ga;Ceathrú an Chalaidh Theas;Carrowncalla South
+en;Terman;Termon West
+ga;Glashluain;Glascloon
+en;Ramsfortpark;Ballowen
+en;Newtown House;Newtown
+ga;Calraí;Calry
+ga;Ráth an Mhuilinn;Rathmullen
+ga;Súmhai;Sooey
+ga;Baile an Dúin;Ballindoon
+ga;Craobh Mhártain;Cremartin
