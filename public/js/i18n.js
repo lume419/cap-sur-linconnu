@@ -21,30 +21,33 @@
   // plateformes (Windows notamment affiche souvent les deux lettres du code régional au lieu du
   // drapeau fusionné — capture d'écran fournie par l'utilisateur à l'appui). Remplacé par de vraies
   // images SVG hébergées localement (public/img/flags/XX.svg, voir "Sources des données" du
-  // README) : LANG_FLAGS ne contient plus l'émoji lui-même mais le CODE du fichier
-  // (correspondance ISO 3166-1 alpha-2 minuscule, plus "gb-sct"/"gb-wls" pour les deux drapeaux
-  // régionaux). Choix par LANGUE, pas par pays : la plupart des 51 langues d'ici n'ont pas de
-  // drapeau propre reconnu (aucune illustration officielle pour le breton/le basque/le sarde/le
-  // sorabe...), donc chacune reprend le drapeau national ou régional le plus directement associé à
-  // son aire linguistique — au prix d'un même drapeau partagé par plusieurs langues d'un même pays
-  // (les quatre langues régionales allemandes nds/hsb/frr affichent le drapeau allemand comme
-  // l'allemand lui-même, par exemple) : un vrai drapeau distinct par langue impliquerait de créer
-  // des illustrations INFRA-nationales sur mesure (aucune n'existe dans circle-flags), hors du
-  // périmètre de ce passage. Deux vrais drapeaux RÉGIONAUX existent bien dans circle-flags (pas de
-  // simple retombée sur le drapeau du pays) : Écosse (gd/sco, les deux langues du pays), Pays de
-  // Galles (cy) — plus justes pour des langues chacune propres à une seule nation constitutive que
-  // le drapeau du Royaume-Uni. Le cornique (kw), sans illustration dédiée aux Cornouailles dans
-  // circle-flags, retombe sur le Royaume-Uni. Quelques choix qui distinguent volontairement une
-  // langue de sa voisine évidente plutôt que de dupliquer un drapeau déjà pris : le catalan (ca)
-  // prend l'Andorre — seul pays où le catalan est OFFICIEL et unique langue nationale, plutôt que
-  // l'Espagne (déjà prise par eu/gl) ; le monégasque (lij, "Munegascu" dans LANG_NAMES) prend Monaco
-  // plutôt que l'Italie ; le mannois (gv) et le gallois (cy) restent sur leurs propres territoires
-  // déjà couverts comme pays/nations (île de Man, pays de Galles).
+  // README) : LANG_FLAGS ne contient plus l'émoji lui-même mais le CODE du fichier (code ISO
+  // 3166-1 alpha-2 minuscule pour un drapeau national, code de subdivision circle-flags — ex.
+  // "gb-sct", "es-ct", "it-88" — pour un drapeau régional). Choix par LANGUE, pas par pays :
+  // priorité à un vrai drapeau RÉGIONAL reconnaissable quand circle-flags en propose un dédié à
+  // l'aire linguistique exacte (demande explicite de l'utilisateur, "pour faciliter la lecture") —
+  // Écosse (gd/sco), pays de Galles (cy), Catalogne (ca, la Senyera — bien plus reconnaissable comme
+  // "drapeau catalan" que celui de l'Andorre, choisi au tour précédent avant cette demande), Pays
+  // basque/Ikurriña (eu), Galice (gl), Bretagne/Gwenn ha Du (br), Corse/tête de Maure (co),
+  // Occitanie/croix occitane (oc), Sardaigne/quatre Maures (sc), Frioul-Vénétie julienne (fur),
+  // Trentin-Haut-Adige (lld, la région du ladin/Dolomites), Grisons (rm, le SEUL canton alémanique
+  // à avoir un drapeau propre dans circle-flags — canton majoritairement romanche/italophone/
+  // germanophone, plus juste que le drapeau suisse générique). Pour toutes les AUTRES langues
+  // régionales, aucun drapeau dédié n'existe dans circle-flags (aucune illustration pour le
+  // bas-allemand/le sorabe/le frison du Nord/le kachoube/le rusyn/le mirandais...) : retombe alors
+  // sur le drapeau national le plus directement associé, au prix d'un même drapeau partagé par
+  // plusieurs langues d'un même pays (les trois langues régionales allemandes nds/hsb/frr affichent
+  // toutes le drapeau allemand, par exemple) — un vrai drapeau sur mesure pour chacune impliquerait
+  // de commander des illustrations inédites, hors du périmètre de ce passage. Le cornique (kw), sans
+  // illustration dédiée aux Cornouailles dans circle-flags non plus, retombe sur le Royaume-Uni. Le
+  // monégasque (lij, "Munegascu" dans LANG_NAMES) garde Monaco plutôt que la Ligurie voisine (plus
+  // juste pour une langue nommément monégasque) ; le mannois (gv) et le gallois (cy) restent sur
+  // leurs propres territoires déjà couverts comme pays/nations (île de Man, pays de Galles).
   var LANG_FLAGS = {
-    fr: 'fr', en: 'gb', es: 'es', pt: 'pt', nl: 'nl', de: 'de', lb: 'lu', it: 'it', rm: 'ch',
-    nds: 'de', hsb: 'de', frr: 'de', sc: 'it', fur: 'it', lld: 'it', mt: 'mt', lij: 'mc',
-    'nrf-je': 'je', 'nrf-gg': 'gg', csb: 'pl', rue: 'pl', ruo: 'hr', ca: 'ad', eu: 'es', gl: 'es',
-    oc: 'fr', br: 'fr', co: 'fr', mwl: 'pt', ga: 'ie', gv: 'im', cy: 'gb-wls', gd: 'gb-sct',
+    fr: 'fr', en: 'gb', es: 'es', pt: 'pt', nl: 'nl', de: 'de', lb: 'lu', it: 'it', rm: 'ch-gr',
+    nds: 'de', hsb: 'de', frr: 'de', sc: 'it-88', fur: 'it-36', lld: 'it-32', mt: 'mt', lij: 'mc',
+    'nrf-je': 'je', 'nrf-gg': 'gg', csb: 'pl', rue: 'pl', ruo: 'hr', ca: 'es-ct', eu: 'es-pv', gl: 'es-ga',
+    oc: 'occitania', br: 'fr-bre', co: 'fr-20r', mwl: 'pt', ga: 'ie', gv: 'im', cy: 'gb-wls', gd: 'gb-sct',
     kw: 'gb', sco: 'gb-sct', cs: 'cz', pl: 'pl', sk: 'sk', hu: 'hu', sl: 'si', hr: 'hr', bs: 'ba',
     sr: 'rs', da: 'dk', no: 'no', sv: 'se', fi: 'fi', sq: 'al', cnr: 'me', mk: 'mk', ro: 'ro'
   };

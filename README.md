@@ -517,15 +517,24 @@ un drapeau — essayé d'abord en émoji Unicode, abandonné (aucune police d'é
 toutes les plateformes, Windows en particulier affiche souvent les deux lettres du code régional au
 lieu du drapeau fusionné) au profit de vraies images SVG hébergées localement
 (`public/img/flags/XX.svg`, une seule fois chacune même si plusieurs langues la réutilisent —
-33 fichiers au total pour 51 langues). Association LANGUE -> code de fichier dans `LANG_FLAGS`
-(`public/js/i18n.js`) : national la plupart du temps, mais RÉGIONAL pour les deux langues qui ont un
-vrai drapeau dédié dans le jeu d'icônes utilisé (Écosse pour le gaélique écossais/le scots, pays de
-Galles pour le gallois). La plupart des 51 langues du site n'ont cela dit AUCUN drapeau qui leur soit
-propre dans ce jeu d'icônes (aucune illustration pour le breton, le basque, le sarde ou le sorabe,
-par exemple) : chacune reprend alors le drapeau national ou régional le plus directement associé à
-son aire linguistique, au prix d'un même drapeau parfois partagé par plusieurs langues d'un même
-pays — un vrai drapeau distinct par langue impliquerait de commander des illustrations
-infra-nationales sur mesure, hors du périmètre de ce passage.
+42 fichiers au total pour 51 langues). Association LANGUE -> code de fichier dans `LANG_FLAGS`
+(`public/js/i18n.js`). Priorité à un vrai drapeau RÉGIONAL reconnaissable quand le jeu d'icônes
+utilisé ([circle-flags](https://github.com/HatScripts/circle-flags)) en propose un dédié à l'aire
+linguistique exacte (demande explicite de l'utilisateur, "pour faciliter la lecture") — treize
+langues concernées : Écosse (gaélique écossais/scots), pays de Galles (gallois), Catalogne
+(catalan — la Senyera, bien plus reconnaissable comme « drapeau catalan » que celui de l'Andorre
+retenu avant cette demande), Pays basque/Ikurriña (basque), Galice (galicien), Bretagne/Gwenn ha Du
+(breton), Corse/tête de Maure (corse), Occitanie/croix occitane (occitan), Sardaigne/quatre Maures
+(sarde), Frioul-Vénétie julienne (frioulan), Trentin-Haut-Adige (ladin, la région des Dolomites),
+Grisons (romanche — le seul canton suisse à avoir un drapeau propre dans circle-flags, plus juste
+que le drapeau suisse générique pour une langue qui n'y est même pas majoritaire). Pour toutes les
+AUTRES langues régionales, aucun drapeau dédié n'existe dans ce jeu d'icônes (aucune illustration
+pour le bas-allemand, le sorabe, le frison du Nord, le kachoube, le rusyn, le mirandais, le
+cornique...) : chacune retombe alors sur le drapeau national le plus directement associé à son aire
+linguistique, au prix d'un même drapeau parfois partagé par plusieurs langues d'un même pays (les
+trois langues régionales allemandes nds/hsb/frr affichent toutes le drapeau allemand, par exemple)
+— un vrai drapeau distinct par langue impliquerait de commander des illustrations infra-nationales
+sur mesure, hors du périmètre de ce passage.
 
 Le bas-allemand, le sorabe et le frison du Nord sont arrivés avec l'Allemagne : trois de ses sept
 langues régionales/minoritaires reconnues par la charte européenne (les trois autres — danois,
@@ -1439,8 +1448,8 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 33 fichiers SVG) — voir
-  "Langues" ci-dessus.
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 42 fichiers SVG, dont treize
+  drapeaux RÉGIONAUX) — voir "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /

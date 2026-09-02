@@ -301,12 +301,16 @@
   /* flex-wrap : depuis l'ajout du sélecteur de devise (troisième bouton de la rangée, voir
      .currency-switcher plus bas), trois pastilles peuvent dépasser la largeur disponible sur les
      très petits écrans — repasse alors sur une deuxième ligne plutôt que de déborder/se faire
-     rogner. */
+     rogner. Les trois boutons (.theme-toggle-btn/.lang-toggle-btn/.currency-toggle-btn) partagent
+     tous la même `height:2.15rem` explicite plutôt que de la laisser se déduire du padding/contenu
+     de chacun (texte+icône pour thème/devise, juste une image pour langue) — sans ça, le bouton
+     drapeau (purement circulaire, sans texte) rendait une hauteur légèrement différente des deux
+     autres et cassait l'alignement de la rangée. */
   .theme-toggle-row{display:flex; flex-wrap:wrap; justify-content:flex-end; align-items:flex-start; gap:.5rem;}
   .theme-toggle-btn{
-    display:inline-flex; align-items:center; gap:.4rem;
+    display:inline-flex; align-items:center; gap:.4rem; height:2.15rem;
     background:transparent; border:1.5px solid var(--line-strong); color:var(--ink-soft);
-    border-radius:999px; padding:.45rem .85rem .45rem .7rem; font:700 .68rem/1 var(--font-body);
+    border-radius:999px; padding:0 .85rem 0 .7rem; font:700 .68rem/1 var(--font-body);
     text-transform:uppercase; letter-spacing:.06em; cursor:pointer;
   }
   .theme-toggle-btn:hover{border-color:var(--accent-3); color:var(--accent-3);}
@@ -367,9 +371,9 @@
      l'absence d'équivalent à .lang-search/.lang-option-empty ici. */
   .currency-switcher{position:relative;}
   .currency-toggle-btn{
-    display:inline-flex; align-items:center; gap:.4rem;
+    display:inline-flex; align-items:center; gap:.4rem; height:2.15rem;
     background:transparent; border:1.5px solid var(--line-strong); color:var(--ink-soft);
-    border-radius:999px; padding:.45rem .85rem .45rem .7rem; font:700 .68rem/1 var(--font-body);
+    border-radius:999px; padding:0 .85rem 0 .7rem; font:700 .68rem/1 var(--font-body);
     text-transform:uppercase; letter-spacing:.06em; cursor:pointer;
   }
   .currency-toggle-btn:hover{border-color:var(--accent-3); color:var(--accent-3);}
