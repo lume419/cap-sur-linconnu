@@ -3,7 +3,7 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
 Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
-tchèque, Pologne, Slovaquie, Hongrie — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+tchèque, Pologne, Slovaquie, Hongrie, Slovénie — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
 d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
 Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes (voir "Ferries" plus
 bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en français,
@@ -77,6 +77,8 @@ cap-sur-linconnu/
 │       ├── aliases-sk.txt      # idem pour la Slovaquie (86 alias, dont 18 en rusyn — Prešov)
 │       ├── communes-hu.txt     # ~10 050 lieux hongrois, même format (aucune correction nécessaire)
 │       ├── aliases-hu.txt      # idem pour la Hongrie (333 alias, dont 323 en allemand)
+│       ├── communes-si.txt     # ~6 559 lieux slovènes, même format (aucune correction nécessaire)
+│       ├── aliases-si.txt      # idem pour la Slovénie (461 alias, dont 289 en italien — côte istrienne)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -96,7 +98,7 @@ les trois premières routes.
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
-Jersey, République tchèque, Pologne, Slovaquie et Hongrie pour l'instant, d'autres viendront. Chaque pays ajoute deux à
+Jersey, République tchèque, Pologne, Slovaquie, Hongrie et Slovénie pour l'instant, d'autres viendront. Chaque pays ajoute deux à
 trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -156,7 +158,11 @@ trois choses, indépendamment des autres :
    61 760 Ft (2026), `hasToll:false`, aucun ouvrage isolé identifié en plus. Piège évité en
    recherchant l'URL officielle : e-autopalyamatrica.hu, à l'apparence tout aussi officielle,
    s'est révélé être un revendeur privé tiers (Biorobotok Informatikai és Adatfeldolgozási Kft.) —
-   écarté au profit du vrai portail d'Etat.
+   écarté au profit du vrai portail d'Etat. La Slovénie rejoint elle aussi le même groupe : e-vinjeta
+   obligatoire (DARS, société publique gestionnaire du réseau autoroutier slovène,
+   evinjeta.dars.si) sur autoroutes et voies express — 100 % numérique depuis 2022 (fin de la
+   vignette autocollante), 7 jours 16 €, 1 mois 32 €, 1 an 117,50 € (2026) pour un véhicule léger,
+   `hasToll:false`, aucun ouvrage isolé identifié en plus de la vignette.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -171,7 +177,9 @@ trois choses, indépendamment des autres :
    Malte, eux, sont bien en zone euro (pas de champ `currency`, EUR par défaut) — la Slovaquie aussi,
    seule exception d'Europe centrale parmi ses voisins couverts (Autriche, République tchèque,
    Pologne, Hongrie, tous hors zone euro) : seul pays de la région à avoir adopté l'euro (2009), pas
-   de champ `currency` non plus. La devise détermine le plafond de prix affiché pour le logement
+   de champ `currency` non plus. La Slovénie non plus : premier des pays entrés dans l'UE en 2004 à
+   avoir adopté l'euro (dès 2007), et seule des quatre voisines directes de l'Italie/l'Autriche ici
+   couvertes (avec la Slovaquie) à être en zone euro — absente elle aussi de `COUNTRIES.SI.currency`. La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage/ferry, qui ne sont de
    toute façon jamais calculés pour un pays hors zone euro pour l'instant.
@@ -348,6 +356,18 @@ raisonnement déjà appliqué au croate morave de République tchèque et au pol
 Pologne. Le ruthène (rusyn), enfin, n'a une fois de plus pas besoin d'ajout : même langue que le
 lemko polonais et le rusyn slovaque déjà couverts (code `rue` commun), la petite communauté hongroise
 en profitant automatiquement sans le moindre changement de code.
+
+La Slovénie, elle, est le cas le plus simple de tous : ses DEUX SEULES langues minoritaires reconnues
+par la loi (statut constitutionnel spécial pour les communautés autochtones, article 64 de la
+Constitution slovène) sont l'italien, bien établi le long de la côte istrienne (Koper/Izola/Piran/
+Ankaran — d'où les 289 alias `it` de `aliases-si.txt`, la majorité écrasante), et le hongrois, dans
+la région du Prekmurje (Lendava/Murska Sobota) — les deux déjà des langues nationales pleinement
+couvertes par l'application, donc aucune traduction supplémentaire à écrire. Le slovène de Prekmurje
+(prekmurščina), parfois cité comme variété distincte, n'a lui PAS de statut légal propre : simple
+registre du patrimoine culturel immatériel slovène, sans reconnaissance ni comme langue régionale
+ni comme langue minoritaire au sens de la Charte européenne des langues régionales ou minoritaires —
+même motif d'exclusion que le silésien en Pologne (statut culturel/dialectal reconnu, mais pas de
+statut légal de langue).
 
 Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
@@ -588,7 +608,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.

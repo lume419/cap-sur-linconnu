@@ -1,0 +1,461 @@
+de;Seisenberg;Žužemberk
+it;Serovenza;Žirovnica
+de;Oberpirnitsch;Zgornje Pirniče
+it;Sasseto;Zazid
+it;Sapuse;Žapuže
+de;Hasenfeld;Zajčje Polje
+it;Sagoria San Martino;Zagorje
+de;Saag am Weißenbach;Žaga
+de;Obersabukuje;Gorenje Zabukovje
+it;Zabavia;Zabavlje
+it;Verpogliano;Vrhpolje
+de;Oberfeld bei Wippach;Vrhpolje
+it;Vercogliano di Monrupino;Vrhovlje
+it;Cave Auremiane;Vremski Britof
+de;Urabtsche;Vrabče
+it;Monte Urabice;Vrabče
+it;Volci;Volčji Grad
+it;Valvolciana;Volčja Draga
+it;Vollaria;Volarje
+it;Voissizza;Vojščica
+it;Voghersca;Vogrsko
+it;Vogliano;Voglje
+it;Santa Croce di Aidussina;Vipavski Križ
+it;Vipacco;Vipava
+de;Widem;Videm
+de;Werd;Verd
+it;Ottocco Grande;Veliki Otok
+it;Centora;Čentur
+de;Sankt Marein an der Wippach;Velike Žablje
+it;Sable;Velike Žablje
+de;Großlaschitz;Velike Lašče
+it;Bloke;Velike Bloke
+it;Ustie;Ustje
+de;Turnischa;Turnišče
+de;Auersperg;Turjak
+it;Tuble;Tublje pri Komnu
+it;Truscolo;Truške
+de;Sankt Wolfgang in Windischbüheln;Trnovska Vas
+it;Ternova d'Isonzo;Trnovo ob Soči
+it;Trebesse;Trebeše
+it;Tomadio;Tomaj
+it;Tolmino;Tolmin
+it;Antignano;Tinjan
+it;Temenizza;Temnica
+it;Sutta;Sveto
+fr;Sv. Boštjan;Sveti Boštjan
+nl;Sv. Boštjan;Sveti Boštjan
+it;San Antonio di Capodistria;Sveti Anton
+en;Sveta Barbara;Sv. Barbara
+de;Sankt Barbara;Sv. Barbara
+en;Sveta Ana v Slovenskih Goricah;Sv. Ana v Slov. Goricah
+it;Succoria;Suhorje
+de;Sankt Johann am Zeichenberge;Šent Janž pri Radljah
+it;Strugnano;Strunjan
+it;Storie;Štorje
+it;San Giacomo in Colle;Štjak
+it;Borgovecchio di Olisa;Stari Trg pri Ložu
+en;Stara Vas;Stara Vas–Bizeljsko
+it;San Daniele del Carso;Štanjel
+it;Serpenizza;Srpenica
+de;Mitterlaknitz;Srednje Laknice
+de;Srednawas;Srednja Vas–Goriče
+it;Canonla Media;Srednja Kanomlja
+it;Versenico di Sotto;Spodnji Vrsnik
+fr;Spodnji Gabrnik;Spodnji Gabernik
+nl;Spodnji Gabrnik;Spodnji Gabernik
+de;Hoce-Slivnica;Spodnje Hoče
+it;Idria di Sotto;Spodnja Idrija
+de;Hajdina;Spodnja Hajdina
+de;Sulzbach;Solčava
+it;San Quirico;Sočerga
+it;San Michele di Senosecchia;Smihel pod Nanosom
+de;Sankt Martin;Šmartno pri Litiji
+it;Samaria;Šmarje
+it;Monte di Capodistria;Šmarje
+it;Scrilla;Skrilje
+it;Scoppo;Skopo
+it;Scoffe;Škoflje
+de;Bischofsdorf;Škofja Vas
+it;Scoffie di Sopra;Zgornje Škofije
+de;Skarutschna;Skaručna
+it;Sesana;Sežana
+it;Monte Sanvito;Šentviška Gora
+de;Sankt Ruprecht;Šentrupert na Dolenjskem
+en;Šentjur pri Celju;Šentjur
+nl;Šentjur pri Celju;Šentjur
+de;Sankt Bartlmä;Šentjernej
+de;Šentilj;Šentilj v Slov. Goricah
+en;Šentilj;Šentilj v Slov. Goricah
+it;Šentilj;Šentilj v Slov. Goricah
+nl;Šentilj;Šentilj v Slov. Goricah
+it;Senosecchia;Senožeče
+it;Sinadole;Senadole
+de;Schönpaß;Šempas
+it;Sambasso;Šempas
+de;Semitsch;Semič
+it;Sella di Bivio;Selo
+de;Szello;Sela
+it;Sedula;Sedlo
+it;Sanabor Val di Bella;Sanabor
+it;Rutte di Gracova;Rut
+de;Rosenbach;Rožnik
+de;Rohitsch;Rogatec
+it;Roditti;Rodik
+it;Ronzina;Ročinj
+it;Robedischis;Robidišče
+de;Reifnitz;Ribnica
+de;Reichenstein;Reštanj
+de;Neulimbach;Renkovci
+it;Ranziano;Renče
+de;Gutenstein in Kärnten;Ravne na Koroškem
+it;Retacevo in Monte;Ratečevo Brdo
+de;Rakitschan;Rakičan
+de;Rodockendorf;Radohova Vas
+it;Puzzole;Puče
+de;Pettau;Ptuj
+it;Prevacina;Prvačina
+it;Prestrane;Prestranek
+it;Bresenza;Prešnica
+it;Primano;Prem
+de;Prewald;Predole
+it;Castel Lueghi;Predjama
+de;Lueg;Predjama
+it;Pregrise in Montenero;Predgriže
+it;Postumia;Postojna
+it;Portorose;Portorož
+it;Popetra;Popetre
+it;Paniqua;Ponikve
+it;Paugnano;Pomjan
+de;Podturn pri Dolenjskih Toplicah;Podturn pri Dol. Toplicah
+en;Podturn pri Dolenjskih Toplicah;Podturn pri Dol. Toplicah
+fr;Podturn pri Dolenjskih Toplicah;Podturn pri Dol. Toplicah
+nl;Podturn pri Dolenjskih Toplicah;Podturn pri Dol. Toplicah
+it;Piedimelze;Podmelec
+it;Pogricci;Podgrič
+it;Nigrignano;Podgrad pri Vremah
+it;Piedicolle;Podbrdo
+it;Pliscovizza;Pliskovica
+it;Pirano;Piran
+it;Padena;Padna
+en;Sveti Ožbolt;Ožbolt nad Zmincem
+fr;Sv. Ožbolt;Ožbolt nad Zmincem
+nl;Sv. Ožbolt;Ožbolt nad Zmincem
+de;Sankt Oswald;Ožbolt nad Zmincem
+de;Wördl;Otočec
+it;Ospo;Osp
+it;Orle;Orlek
+it;Opacchiasella;Opatje Selo
+it;Obrovo;Obrov
+de;Rudolfswerth;Novo Mesto
+de;Rudolfswert;Novo Mesto
+it;Mondonovo;Novi Svet
+it;Villanova;Nova Vas nad Dragonjo
+it;Novavilla;Nova Vas
+it;Nuova Gorizia;Nova Gorica
+fur;Gnove Gurize;Nova Gorica
+de;Innergoritz;Notranje Gorice
+it;Neverche;Neverke
+de;Deutschendorf;Nemčavci
+it;Narini;Narin
+de;Naklas;Naklo
+de;Olsnitz;Murska Sobota
+de;Mauerbach;Morje
+de;Nassenfuß;Mokronog
+de;Meistern;Mojstrana
+de;Münkendorf;Mekinje
+de;Minkendorf;Mekinje
+it;Matteria;Materija
+it;Mattegna;Matenja Vas
+it;Massora;Masore
+de;Martinsdorf;Martinja Vas pri Mokronogu
+it;Marburgo;Maribor
+de;Marburg an der Drau;Maribor
+de;Marburg;Maribor
+it;Maresego;Marezige
+it;Manzano;Manžan
+it;Malio;Malija
+en;Lukovica;Lukovica pri Domžalah
+it;Lukovica;Lukovica pri Domžalah
+nl;Lukovica;Lukovica pri Domžalah
+de;Lukowitz;Lukovica pri Domžalah
+de;Leutsch;Luče
+it;Loquizza;Lokvica
+it;Corgnale;Lokev
+de;Loccaviz;Lokavec
+it;Locavizza di Aidussina;Lokavec
+it;Bretto;Log pod Mangartom
+it;Longo;Logje
+it;Loga d'Oltresonzia;Log Čezsoški
+es;Liubliana;Ljubljana
+it;Lubiana;Ljubljana
+pt;Liubliana;Ljubljana
+lij;Lubiann-a;Ljubljana
+fur;Lubiane;Ljubljana
+de;Lienfeld;Livold
+it;Luico;Livek
+it;Lipizza;Lipica
+de;Sankt Leonhard in Windischbüheln;Lenart v Slovenskih Goricah
+it;Lase;Laže
+de;Tüffer;Laško
+it;Laura;Labor
+de;Küpschintzen;Kupšinci
+en;Kungota;Kungota pri Ptuju
+it;Kungota;Kungota pri Ptuju
+nl;Kungota;Kungota pri Ptuju
+it;Covedo;Kubed
+it;Moncorona;Kromberk
+it;Carcase;Krkavče
+it;Croce;Križ
+it;Crepegliano;Kreplje
+de;Drachenburg;Kozje
+it;Cosiane;Kozjane
+it;Cosina;Kozina
+it;Cosbana nel Collio;Kožbana
+de;Landstraß;Kostanjevica na Krki
+de;Landstraß;Kostanjevica na Krasu
+it;Castagnevizza;Kostanjevica na Krasu
+it;Costabona;Koštabona
+it;Capriva del Carso;Kopriva
+it;Capodistria;Koper
+it;Monte Chilovi;Kilovče
+de;Kokritz;Kokrica
+it;Quisca;Kojsko
+de;Gottschee;Kočevje
+it;Cobbia;Kobjeglava
+it;Caporetto;Kobarid
+fur;Cjaurêt;Kobarid
+de;Karfreit;Kobarid
+it;Fontana del Conte;Knežak
+it;Castel;Kastelec
+it;Canidol;Kanji Dol
+it;Cal di Canale;Kal nad Kanalom
+de;Sveti Jošt;Sveti Jošt nad Kranjem
+de;Assling;Jesenice
+it;Elsane;Jelšane
+it;Berdo San Giovanni;Janeževo Brdo
+it;Isola d'Istria;Izola
+it;Isola;Izola
+it;Villa del Nevoso;Ilirska Bistrica
+it;Idresca d'Isonzo;Idrsko
+it;Boscomalo;Hudi Log
+it;Crevatini;Hrvatini
+it;Erpelle;Hrpelje
+en;Hrib–Loški Potok;Hrib-Loški Potok
+it;Cristoglie;Hrastovlje
+de;Hrastnigg;Hrastnik
+de;Hodosch;Hodoš
+de;Grische;Griže
+it;Gargaro;Grgar
+it;Gracova;Grahovo ob Bači
+it;Gradena;Gradin
+de;Gradac, Möttling;Gradac
+de;Oberburg in Steiermark;Gornji Grad
+it;Auremo di Sopra;Gornje Vreme
+it;Lesecce Auremiano;Gornje Ležeče
+it;Cerò di sopra;Gornje Cerovo
+it;Goriano;Gorjansko
+it;Goricce del Timavo;Goriče pri Famljah
+it;Versenico di Sopra;Gorenji Vrsnik
+it;Longatico di Sopra;Gorenji Logatec
+de;Goreinawas;Gorenja Vas
+de;Steinberg;Gomilica
+de;Gallenfels;Golnik
+it;Gozza;Goče
+it;Geme;Glem
+it;Gason;Gažon
+it;Gabrovizza;Gabrovica pri Komnu
+it;Gabrovizza;Gabrovica pri Črnem Kalu
+it;Gaberce Auremiano;Gabrče
+it;Famie;Famlje
+it;Corte;Dvori
+it;Duttogliano;Dutovlje
+it;Duple di San Tommaso;Duplje
+it;Drescozze;Drskovče
+it;Dresenza Picco;Drežnica
+it;Montespino;Dornberk
+de;Lusttal;Dol pri Ljubljani
+it;Villadolo;Dol pri Hrastovljah
+it;Auremo di Sotto;Dolnje Vreme
+it;Lesecce di San Canziano;Dolnje Ležeče
+it;Cerò di sotto;Dolnje Cerovo
+it;Cossana di Sotto;Dolnja Košana
+en;Dolga Njiva pri Šentlovrencu;Dolga Njiva pri Šentlovren.
+fr;Dolga Njiva pri Šentlovrencu;Dolga Njiva pri Šentlovren.
+nl;Dolga Njiva pri Šentlovren;Dolga Njiva pri Šentlovren.
+it;Longatico di Sotto;Dolenji Logatec
+it;Dobraule;Dobravlje
+it;Dobrava presso Slovenske Konjice;Dobrava pri Konjicah
+it;Divaccia;Divača
+it;Descla;Deskle
+it;Villa Decani;Dekani
+it;Danne di Divaccia;Dane pri Divači
+it;Cernotti;Črnotiče
+it;San Sergio;Črni Kal
+it;Cernizza;Črniče
+it;Zolla;Col
+it;Cesari;Čežarji
+de;Kerschdorf;Češnjice pri Trebelnem
+it;Circonio;Cerknica
+de;Zirklach;Cerklje na Gorenjskem
+it;Chiapovano;Čepovan
+de;Kaltenbrunn;Cankova
+it;Boccavizza;Bukovica
+de;Büdintz;Budinci
+it;Berie;Brje pri Koprivi
+it;Boriano;Brje pri Komnu
+de;Freithof;Britof
+it;Bergogna;Breginj
+it;Rifembergo;Branik
+it;Plezzo;Bovec
+de;Flitsch;Bovec
+it;Boreana;Borjana
+en;Bugdanja Vas;Budganja Vas
+de;Veldes;Bled
+de;Wisell;Bizeljsko
+it;Bertocchi;Bertoki
+it;Belvedere;Belvedur
+it;Begungne;Begunje pri Cerknici
+it;Barca;Barka
+it;Baccia;Bača pri Modreju
+it;Auzza;Avče
+de;Abstall;Apače
+it;Anicovo Corada;Anhovo
+it;Aidussina;Ajdovščina
+it;Aiba;Ajba
+it;Govecco;Govejk
+it;Bresovizza di Gradigne;Brezovica pri Gradinu
+it;Corte d'Isola;Korte
+it;Saredo;Šared
+it;Risano;Rižana
+it;Poggio San Valentino;Podsabotin
+de;Aisowitz im Rosenthal;Ajševica
+it;Aisovizza;Ajševica
+it;Svino;Zavino
+it;Branizza;Spodnja Branica
+it;Gradiscutta;Gradišče nad Prvačino
+fr;Gradiscutta;Gradišče nad Prvačino
+it;Crussevizza;Hruševica
+it;Prelose di Corgnale;Prelože pri Lokvi
+de;Kärntner Vellach;Koroška Bela
+it;Vitozza;Otošče
+it;Zaverco;Zavrhek
+it;Ancarano;Ankaran
+de;Sankt Veit über Pettau;Videm pri Ptuju
+de;Treun über Pettau;Videm pri Ptuju
+en;Vrhole pri Slovenskih Konjicah;Vrhole pri Slov. Konjicah
+it;Vrhole pri Slovenskih Konjicah;Vrhole pri Slov. Konjicah
+fr;Vrhole pri Slovenskih Konjicah;Vrhole pri Slov. Konjicah
+nl;Vrhole pri Slovenskih Konjicah;Vrhole pri Slov. Konjicah
+it;Gracischie;Gračišče
+it;Buttari;Butari
+it;Bucciai;Bočaji
+it;Dragogna;Dragonja
+it;Lucia;Lucija
+it;Valleggia;Jagodje
+it;Sergassi;Srgaši
+it;Vanganello;Vanganel
+it;Pobeghi;Pobegi
+it;Albaro Vescovà;Spodnje Škofije
+it;Mattauno;Matavun
+it;Casali di Dol;Dol pri Vogljah
+it;Cobidil;Kobdilj
+it;San Vito di Vipacco;Podnanos
+it;Goiaci;Gojače
+it;Raccogliano;Orehovlje
+de;Rosenthal;Rožna Dolina
+it;Valdirose;Rožna Dolina
+de;Kirche zum Heiligen Geist am Osterberg;Sveti Duh na Ostrem Vrhu
+fr;Sv. Duh na Ostrem Vrhu;Sveti Duh na Ostrem Vrhu
+nl;Sv. Duh na Ostrem Vrhu;Sveti Duh na Ostrem Vrhu
+de;Obergurk;Krka
+de;Hodosch;Nazarje
+en;Municipality of Kostel;Kostel
+it;Sanigrado;Zanigrad
+it;Sezza;Seča
+de;Asp;Zasip
+en;Mihovci pri Veliki Nedelji;Mihovci pri Vel. Nedelji
+it;Bossamarino;Bošamarin
+it;Colombano;Kolomban
+it;Vipulzano;Vipolže
+nl;Sv. Florijan;Sveti Florijan
+it;Sottolmino;Zatolmin
+it;Modrea;Modrej
+it;Drstela;Drstelja
+it;Montorso;Medvedje Brdo
+nl;Sv. Ema;Sveta Ema
+it;Smasti;Smast
+it;Premanzano;Premančan
+it;Gugnazze;Gonjače
+it;Barisoni;Barizoni
+it;Settore;Cetore
+it;Cursò;Hruševlje
+it;Cerei;Cerej
+it;Vertazzi;Vrtovče
+it;Nadagna;Nadanje Selo
+it;San Michele di Postumia;Šmihel
+de;Heiligenberg;Sv. Vrh
+en;Sveti Vrh;Sv. Vrh
+it;Nigrignano;Grinjan
+de;Moräutschberg;Moravška Gora
+fr;Zalog pod Sv. Trojico;Zalog pod Sveto Trojico
+nl;Zalog pod Sv. Trojico;Zalog pod Sveto Trojico
+it;Villa Manzini;Cepki
+it;Cosarsa;Kozaršče
+de;Ladendorf;Ledeča Vas
+it;Zemona;Zemono
+it;Besovizza;Bezovica
+it;Montignano;Montinjan
+it;Predlocca;Predloka
+it;Raspotie d'Idria;Razpotje
+en;Suhor pri Dolenjskih Toplicah;Suhor pri Dol. Toplicah
+de;Mitterdorf;Srednja Vas–Loški Potok
+en;Sveti Gregor;Sv. Gregor
+fr;Sveti Gregor;Sv. Gregor
+nl;Sveti Gregor;Sv. Gregor
+it;Luchini;Lukini
+it;Nosedo;Nožed
+it;Novello;Novelo
+it;Tersecco;Trsek
+it;Carnizza di Ledine;Ledinske Krnice
+de;Heiligenkreuz;Beli Grič
+de;Ornuschkawas;Ornuška Vas
+it;Ceppeno;Čepno
+it;Coslovici;Kozloviči
+it;Bresie;Brezje pod Nanosom
+it;Idresca di Dole;Idršek
+it;Pecenico;Pečnik
+it;San Tommaso;Stomaž
+it;Passo d'Idria;Ledinsko Razpotje
+de;Sankt Peter im Gebirge;Svetega Petra Hrib
+it;Breg di Collobrida;Breg pri Golem Brdu
+en;Črni Potok pri Velikih Laščah;Črni Potok pri Vel. Laščah
+it;San Servolo;Socerb
+it;Monte Santo di Gorizia;Sveta Gora
+it;Ostrovizza;Ostrovica
+it;Reis;Rejcov Grič
+it;Bettania;Betanja
+it;Tuliachi;Tuljaki
+it;Dilizze;Dilici
+de;Boden;Poden
+es;Policelo;Polzelo
+de;Hohenberg;Pugled pri Starem Logu
+nl;Pugled;Pugled pri Starem Logu
+it;Briz;Brič
+de;Nieder Lakos;Dolnji Lakoš
+de;Oberlaknitz;Gorenje Laknice
+de;Unterlaknitz;Dolenje Laknice
+de;Untersabukuje;Dolenje Zabukovje
+de;Klein Schablach;Male Žablje
+it;Canonla Bassa;Spodnja Kanomlja
+it;Baré;Baredi
+nl;Dražen Vrh;Zgornji Dražen Vrh
+it;Modreuzza;Modrejce
+fr;Paka;Paka - part
+nl;Paka;Paka - part
+it;Brese;Brežec pri Divači
+de;Kleinsela;Mala Sela
+it;Plessiva;Plešivo
+it;Castelletto Zeglo;Ceglo
+en;Brlog - part;Brlog
+de;Supaineniwe;Županje Njive

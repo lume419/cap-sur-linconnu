@@ -573,9 +573,9 @@ app.get('/api/pois', async (req, res) => {
   // oriental (près de Zosin, Lubelskie, frontière ukraino-biélorusse) va jusqu'à ~24,15°E, bien
   // au-delà de la borne à 19° héritée de l'Italie — élargie à 24,2° pour la couvrir avec une marge
   // (le nord et le sud du pays, lat ~49-54,9°N, tenaient déjà dans la boîte). La Slovaquie (lat
-  // ~47,7-49,6°N, lon ~16,8-22,6°E) et la Hongrie (lat ~45,7-48,6°N, lon ~16,1-22,9°E) tenaient
-  // toutes les deux déjà largement dans la boîte élargie pour la Pologne, sans ajustement
-  // supplémentaire.
+  // ~47,7-49,6°N, lon ~16,8-22,6°E), la Hongrie (lat ~45,7-48,6°N, lon ~16,1-22,9°E) et la Slovénie
+  // (lat ~45,4-46,9°N, lon ~13,4-16,6°E) tenaient toutes les trois déjà largement dans la boîte
+  // élargie pour la Pologne, sans ajustement supplémentaire.
   if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 56 || lon < -10 || lon > 24.2){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
   }
@@ -667,7 +667,8 @@ const VIGNETTE_URLS = {
   AT: 'https://shop.asfinag.at/en/',
   CZ: 'https://edalnice.gov.cz/en/simple-purchase',
   SK: 'https://eznamka.sk/selfcare/purchase',
-  HU: 'https://ematrica.nemzetiutdij.hu/'
+  HU: 'https://ematrica.nemzetiutdij.hu/',
+  SI: 'https://evinjeta.dars.si/'
 };
 
 // Fond crème (--bg du site) plutôt qu'une page blanche brute — posé sous tout le reste à chaque

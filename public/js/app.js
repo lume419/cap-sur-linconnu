@@ -66,8 +66,13 @@
   // véhicule (catégorie D1, voiture ≤3,5 t : 1 jour 5 550 Ft, 10 jours 6 900 Ft, 1 mois 11 170 Ft,
   // 1 an national 61 760 Ft, 2026) — aucun barème Ft/km ne peut en dériver, et l'app ne simule pas
   // un abonnement (hasToll:false). Aucun ouvrage isolé à péage identifié en plus de la vignette,
-  // comme la République tchèque/la Slovaquie.
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU seulement) : noms alternatifs par
+  // comme la République tchèque/la Slovaquie. La Slovénie rejoint elle aussi le même groupe :
+  // e-vinjeta obligatoire (DARS — Družba za avtoceste v Republiki Sloveniji, gestionnaire public du
+  // réseau, portail evinjeta.dars.si — 100% numérique depuis 2022, plus de vignette autocollante),
+  // à prix fixe selon la durée pour une voiture (classe 2A) : 7 jours 16 €, 1 mois 32 €, 1 an
+  // 117,50 € (2026) — aucun barème €/km ne peut en dériver (hasToll:false). Aucun ouvrage isolé à
+  // péage identifié en plus de la vignette, comme la République tchèque/la Slovaquie/la Hongrie.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -86,7 +91,10 @@
   // République tchèque, Pologne), A adopté l'euro (2009) — absent de COUNTRIES.SK.currency, EUR par
   // défaut, comme la grande majorité des pays déjà couverts. La Hongrie, elle, rejoint le camp
   // "hors zone euro" (membre de l'UE mais pas de l'euro, comme la République tchèque/la Pologne,
-  // PAS comme sa voisine slovaque) : sa monnaie propre, le forint hongrois ('HUF'), reste utilisée ici.
+  // PAS comme sa voisine slovaque) : sa monnaie propre, le forint hongrois ('HUF'), reste utilisée
+  // ici. La Slovénie, elle, a adopté l'euro dès 2007 — premier des pays entrés dans l'UE en 2004 à
+  // le faire, et la SEULE des quatre voisines directes de l'Italie/l'Autriche ici couvertes (avec la
+  // Slovaquie) à être dans la zone euro : absente de COUNTRIES.SI.currency, EUR par défaut.
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -113,7 +121,9 @@
     SK: { code:'SK', name:'Slovaquie', file:'communes-sk.txt', hasToll:false, aliasFile:'aliases-sk.txt',
       vignette:{ url:'https://eznamka.sk/selfcare/purchase' } },
     HU: { code:'HU', name:'Hongrie', file:'communes-hu.txt', hasToll:false, aliasFile:'aliases-hu.txt', currency:'HUF',
-      vignette:{ url:'https://ematrica.nemzetiutdij.hu/' } }
+      vignette:{ url:'https://ematrica.nemzetiutdij.hu/' } },
+    SI: { code:'SI', name:'Slovénie', file:'communes-si.txt', hasToll:false, aliasFile:'aliases-si.txt',
+      vignette:{ url:'https://evinjeta.dars.si/' } }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -131,9 +141,10 @@
   // le site lui-même) pour la Slovaquie, ematrica.nemzetiutdij.hu (portail d'Etat de NÚSZ Zrt. —
   // Nemzeti Útdíjfizetési Szolgáltató, "Service national de péage" — PAS e-autopalyamatrica.hu,
   // domaine à l'apparence officielle mais en réalité exploité par une société privée tierce,
-  // Biorobotok Informatikai és Adatfeldolgozási Kft., un revendeur écarté ici) pour la Hongrie.
-  // Utilisé par renderDays pour afficher un petit rappel la première fois qu'un pays à vignette
-  // apparaît dans l'itinéraire — voir plus bas.
+  // Biorobotok Informatikai és Adatfeldolgozási Kft., un revendeur écarté ici) pour la Hongrie,
+  // evinjeta.dars.si (portail officiel de DARS, société publique gestionnaire du réseau autoroutier
+  // slovène) pour la Slovénie. Utilisé par renderDays pour afficher un petit rappel la première fois
+  // qu'un pays à vignette apparaît dans l'itinéraire — voir plus bas.
   function countryCurrency(cc){ return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR'; }
   // Symbole/code affiché à côté d'un montant (voir updateBudgetHint plus bas) : "€" pour l'euro (le
   // seul des six à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/
