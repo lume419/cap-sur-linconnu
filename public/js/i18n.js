@@ -13,8 +13,8 @@
 (function(){
   "use strict";
 
-  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da'];
-  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais', csb: 'Kaszëbsczi', rue: 'Лемківскый', ruo: 'Vlaški-Žejanski', ca: 'Català', eu: 'Euskara', gl: 'Galego', oc: 'Occitan', br: 'Brezhoneg', co: 'Corsu', mwl: 'Mirandés', ga: 'Gaeilge', gv: 'Gaelg', cy: 'Cymraeg', gd: 'Gàidhlig', kw: 'Kernewek', sco: 'Scots', cs: 'Čeština', pl: 'Polski', sk: 'Slovenčina', hu: 'Magyar', sl: 'Slovenščina', hr: 'Hrvatski', bs: 'Bosanski', sr: 'Српски', da: 'Dansk' };
+  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no'];
+  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais', csb: 'Kaszëbsczi', rue: 'Лемківскый', ruo: 'Vlaški-Žejanski', ca: 'Català', eu: 'Euskara', gl: 'Galego', oc: 'Occitan', br: 'Brezhoneg', co: 'Corsu', mwl: 'Mirandés', ga: 'Gaeilge', gv: 'Gaelg', cy: 'Cymraeg', gd: 'Gàidhlig', kw: 'Kernewek', sco: 'Scots', cs: 'Čeština', pl: 'Polski', sk: 'Slovenčina', hu: 'Magyar', sl: 'Slovenščina', hr: 'Hrvatski', bs: 'Bosanski', sr: 'Српски', da: 'Dansk', no: 'Norsk' };
   var STORAGE_KEY = 'lang';
 
   var STRINGS = {
@@ -10390,6 +10390,249 @@
       'transport.moto.label': "motorcykel",
       'transport.velo.label': "cykel"
 
+    },
+    // "no" (norvégien, ISO 639-1, macro-code) : langue nationale de la Norvège, ajoutée avec le pays
+    // lui-même — deuxième des quatre pays nordiques de cette série. Rédigée en bokmål (norvégien
+    // standard écrit dominant, ~85-90% des Norvégiens), pas de pack séparé pour le nynorsk — même
+    // logique d'unification que pour le rusyn/lemko ou le scots/ulster-scots plus haut. GeoNames tague
+    // d'ailleurs la quasi-totalité de ses noms alternatifs norvégiens sous le macro-code générique
+    // "no" plutôt que "nb"/"nn" distinctement, cohérent avec ce choix. Le same du Nord (langue sâme la
+    // plus parlée, officielle dans plusieurs communes du nord du pays, très largement documentée dans
+    // GeoNames — plus de 30 000 noms alternatifs) n'est PAS ajouté dans ce passage malgré son statut
+    // réel : langue ouralienne sans parenté avec aucune des 44 déjà couvertes, confiance de traduction
+    // trop faible pour un premier jet fiable — laissé de côté explicitement plutôt que tenté à l'aveugle,
+    // à reconsidérer dans un passage dédié si demandé.
+    no: {
+      'lang.buttonLabel': "Språk",
+      'lang.searchPlaceholder': "Søk et språk…",
+      'lang.searchNoResults': "Ingen språk funnet.",
+
+      'hero.eyebrow': "Generator for mystisk road trip",
+      'hero.title': "Kurs mot det ukjente",
+      'hero.subtitle': "din neste utflukt har fortsatt ikke noe navn",
+      'hero.lede': "Skriv inn utgangspunktet ditt og dine begrensninger. Maskinen trekker tilfeldig en ekte rute dag for dag — opptil {maxDays} dager og {maxStops} byer.",
+      'hero.disclaimer': "Byer, avstander, bomavgifter og severdigheter er basert på offisielle data (IGN/GeoNames, motorveioperatørenes prislister, OpenStreetMap). Kjøretider og priser er fortsatt anslag — sjekk alltid den faktiske ruten og tilgjengelig overnatting før avreise.",
+
+      'form.heading': "Reiseplan",
+      'form.clockPlaceholder': "— fylles ut —",
+      'form.city.label': "Startby",
+      'form.city.loadingPlaceholder': "Laster byer…",
+      'form.city.placeholder': "F.eks. {name} eller {cp}",
+      'form.city.error.required': "Skriv inn en startby.",
+      'form.city.error.selectFromList': "Velg en by fra nedtrekkslisten (søk etter navn eller postnummer).",
+      'form.dates.label': "Reisedatoer",
+      'form.dates.arrivalAria': "Avreisedato",
+      'form.dates.returnAria': "Hjemkomstdato",
+      'form.dates.error': "Hjemkomstdatoen må være samme dag som eller senere enn avreisedatoen.",
+      'form.dates.oneDay': "1 dag (rundtur, ingen overnatting)",
+      'form.dates.duration1': "{days} dager (1 natt)",
+      'form.dates.durationN': "{days} dager ({nights} netter)",
+      'form.dates.maxSuffix': " — maks {max} dager",
+      'form.dates.placeholder': "—",
+      'form.budget.label': "Totalt budsjett",
+      'form.budget.economique': "Nøysomt",
+      'form.budget.moyen': "Middels",
+      'form.budget.confortable': "Komfortabelt",
+      'form.budget.hint': "Opptil {max} {currency} / natt (veiledende, 2 voksne) — brukes til å forhåndsutfylle Airbnb/Booking-søk.",
+      'form.transport.label': "Transportmåte",
+      'form.transport.voitureThermique': "Bil (bensin/diesel)",
+      'form.transport.voitureHybride': "Hybridbil",
+      'form.transport.voitureElectrique': "Elbil",
+      'form.transport.van': "Bobil",
+      'form.transport.moto': "Motorsykkel",
+      'form.transport.velo': "Sykkel / bikepacking",
+      'form.toll.label': "Bomveier tillatt",
+      'form.ferry.label': "Fergeoverfart tillatt (øyer)",
+      'form.ferry.hint': "Avkrysset: trekningen kan omfatte Korsika, Balearene, Kanariøyene eller Vadehavsøyene, forbundet med en ekte fergerute (aldri fly).",
+      'form.tent.label': "Unngå villcamping / teltovernatting",
+      'form.tent.hint': "Avkrysset: villcamping-overnattinger i det nøysomme budsjettet erstattes med en hytte/jurte/gîte.",
+      'form.radius.label': "Radiusbegrensning",
+      'form.radius.modeKm': "Maks. avstand (km)",
+      'form.radius.modeH': "Maks. kjøretid retur (t)",
+      'form.radius.groupAria': "Type begrensning",
+      'form.radius.decAria': "Reduser",
+      'form.radius.incAria': "Øk",
+      'form.radius.unitKm': "km fra utgangspunktet",
+      'form.radius.unitH': "returkjøring",
+      'form.radius.hint': "Gjelder kun for {strong} (hjemturen)",
+      'form.radius.hintStrong': "siste etappe",
+      'form.minDistance.label': "Avstand fra hjemmet (valgfritt)",
+      'form.minDistance.minPlaceholder': "Ingen minimum",
+      'form.minDistance.maxPlaceholder': "Ingen maksimum",
+      'form.minDistance.unitMin': "km minst",
+      'form.minDistance.unitMax': "km høyst",
+      'form.minDistance.hintMin': "Minimum: den første stoppebyen vil være minst så langt unna.",
+      'form.minDistance.hintMax': "Maksimum: ruten vil aldri overskride denne avstanden fra utgangspunktet, på noe tidspunkt under oppholdet.",
+      'form.launch.button': "Start den tilfeldige road trip-generatoren",
+      'form.launch.hint': "En hemmelig destinasjon venter på deg.",
+
+      'reveal.drawing': "Trekning pågår…",
+      'reveal.clueIdle': "Veien er i ferd med å tale.",
+      'reveal.clueSpinning': "Ukjent retning…",
+      'reveal.clueFinal': "Her er ditt mystiske utgangspunkt.",
+      'reveal.clueReduced': "Et ekte sted venter på deg.",
+      'reveal.confirmed': "Destinasjon trukket",
+      'reveal.stamp': "Destinasjon bekreftet",
+      'reveal.inhabitants': "{n} innbyggere",
+      'reveal.poi1': "1 ekte severdighet funnet",
+      'reveal.poiN': "{n} ekte severdigheter funnet",
+
+      'map.title': "Rutekart",
+      'map.note': "OpenStreetMap-bakgrunn. Punktene er plassert ved byenes faktiske koordinater — linjen forbinder stoppene i fugleflukt, den faktiske ruten svinger mer.",
+      'map.ariaLabel': "Rutekart, OpenStreetMap-bakgrunn",
+      'map.departFallback': "Start",
+      'map.returnLabel': "retur",
+
+      'timeline.title': "Reisedagbok",
+      'stats.days': "dager",
+      'stats.cities': "byer",
+      'stats.nights': "netter",
+      'stats.totalKm': "totalt",
+      'stats.tollEstimated': "anslått bomavgift",
+      'stats.tollAvoided': "spart bomavgift",
+      'stats.ferryTotal': "ferge",
+
+      'day.single': "Én dag — mystisk rundtur",
+      'day.return': "Retur",
+      'day.n': "Dag {n}",
+      'day.nReturn': "Dag {n} — retur",
+      'day.rangeAnd': "Dag {a} og {b}",
+      'day.rangeTo': "Dag {a} til {b}",
+      'day.routeTime': "~ {time} på veien · {km} km",
+      'day.crossingTime': "~ {time} overfart · {km} km",
+      'day.stepMystery': "Mystisk stopp: {stop}",
+      'day.returnTo': "Retur til {stop}",
+
+      'photo.view': "Se et bilde av {name}",
+      'photo.searching': "Ser etter et ekte bilde…",
+      'photo.real': "Ekte bilde · © Wikimedia Commons",
+      'photo.none': "Ingen bilde funnet på Wikipedia for dette stedet",
+      'photo.unavailable': "Bilde ikke tilgjengelig — søker etter bilder på nettet",
+      'photo.enlargeAria': "Forstørr bildet av {name}",
+      'photo.closeAria': "Lukk bildet",
+      'wiki.link': "Wikipedia ↗",
+
+      'ferry.label': "Fergeoverfart",
+      'ferry.text': "{route} — omtrent €{amount} · {duration} overfart.",
+      'ferry.route.corsica': "Fastland ↔ Korsika",
+      'ferry.route.balearic': "Fastland ↔ Balearene",
+      'ferry.route.canary': "Fastland ↔ Kanariøyene",
+      'ferry.route.wadden': "Fastland ↔ Vadehavsøyene",
+      'ferry.route.sardinia': "Fastland ↔ Sardinia",
+      'ferry.route.sicily': "Fastland ↔ Sicilia",
+      'ferry.route.malta': "Sicilia ↔ Malta",
+      'ferry.route.gozo': "Malta ↔ Gozo",
+      'ferry.route.jersey': "Fastland ↔ Jersey",
+      'ferry.route.guernsey': "Fastland ↔ Guernsey",
+      'ferry.route.channelIslands': "Jersey ↔ Guernsey",
+      'ferry.route.cres': "Fastland ↔ Cres",
+      'ferry.route.rab': "Fastland ↔ Rab",
+      'ferry.route.ugljan': "Fastland ↔ Ugljan",
+      'ferry.route.dugiOtok': "Fastland ↔ Dugi otok",
+      'ferry.route.brac': "Fastland ↔ Brač",
+      'ferry.route.solta': "Fastland ↔ Šolta",
+      'ferry.route.hvar': "Fastland ↔ Hvar",
+      'ferry.route.vis': "Fastland ↔ Vis",
+      'ferry.route.korcula': "Fastland ↔ Korčula",
+      'ferry.route.mljet': "Fastland ↔ Mljet",
+      'ferry.route.lastovo': "Fastland ↔ Lastovo",
+      'ferry.route.doverCalais': "Fastland ↔ Storbritannia",
+      'ferry.route.holyheadDublin': "Storbritannia ↔ Irland",
+      'ferry.route.heyshamDouglas': "Storbritannia ↔ Isle of Man",
+      'ferry.route.bornholm': "Fastland ↔ Bornholm",
+      'toll.label': "Bomavgift (ASF 2026-prisliste)",
+      'toll.barrierFree': "bomfri avgift (automatisk kamerabetaling)",
+      'toll.barrierClassic': "klassisk bomavgift med bom",
+      'toll.enabled': "Anslått bomavgift: ~€{amount} ({barrier}) — du sparer omtrent {min} min sammenlignet med en avgiftsfri rute.",
+      'toll.disabled': "Ingen bomavgift (alternativet ikke avkrysset): du kunne ha spart omtrent {min} min på motorveien (~€{amount}, {barrier}).",
+      'vignette.label': "Motorveivignett",
+      'vignette.notice': "Obligatorisk i dette landet — husk å bestille den før avreise.",
+      'vignette.link': "Bestill den offisielle vignetten ↗",
+
+      'charge.label': "Elektrisk lading",
+      'charge.text1': "1 anslått ladestopp (~{min} min totalt) ved en hurtiglader.",
+      'charge.textN': "{n} anslåtte ladestopp (~{min} min totalt) ved hurtigladere.",
+
+      'activities.choice': "Mulige aktiviteter — ditt valg",
+      'activities.day': "Mulige aktiviteter — Dag {n}",
+      'activities.loadingReal': "— ser etter ekte lokale aktiviteter…",
+      'activities.loadingHike': "— ser etter en ekte tursti…",
+
+      'poiType.attraction': "lokal severdighet",
+      'poiType.museum': "museum",
+      'poiType.viewpoint': "utsiktspunkt",
+      'poiType.castle': "slott",
+      'poiType.gallery': "galleri",
+      'poiType.zoo': "dyrepark",
+      'poiType.theme_park': "fornøyelsespark",
+      'poiType.monument': "monument",
+      'poiType.memorial': "minnesmerke",
+      'poiType.archaeological_site': "arkeologisk utgravning",
+      'poiType.cave_entrance': "grotte",
+      'poiType.ruins': "ruiner",
+      'poiType.fort': "fort",
+      'poiType.citadel': "citadell",
+      'poiType.manor': "herregård",
+      'poiType.chapel': "kapell",
+      'poiType.place_of_worship': "gudshus",
+      'poiType.nature_reserve': "naturreservat",
+      'poiType.peak': "fjelltopp",
+      'poiType.waterfall': "foss",
+      'poiType.beach': "strand",
+      'poiType.artwork': "kunstverk",
+      'poiType.fallback': "lokal severdighet",
+      'poiType.walkFallback': "spasertur",
+      'poiType.generic': "å oppdage på stedet",
+
+      'generic.walk': "Fottur eller spasertur i området",
+      'generic.market': "Lokalt marked og regionale produkter (sjekk dagene på stedet)",
+      'generic.church': "Besøk kirken eller den lokale kulturarven",
+      'generic.stroll': "Spasertur gjennom det historiske sentrum",
+      'generic.producer': "Oppdag en lokal produsent eller håndverker",
+
+      'hike.sourceLabel': "Kilde: Visorando ↗",
+      'hike.defaultType': "merket tursti",
+
+      'lodging.find': "Finn overnatting · {range}",
+      'lodging.airbnb': "Airbnb ↗",
+      'lodging.booking': "Booking.com ↗",
+      'lodging.economiqueTent': "Campingplass, villcamping eller naturområde (lavt budsjett)",
+      'lodging.economiqueNoTent': "Vandrerhjem, enkelt rom eller lite hotell (uten villcamping)",
+      'lodging.moyen': "Gîte, pensjonat eller 2-3★ hotell",
+      'lodging.confortable': "Boutiquehotell eller eksklusiv utleie",
+
+      'end.label': "Oppdrag fullført",
+      'end.text': "Hjemme igjen, den mystiske road trippen er over.",
+
+      'export.hint': "Ble du fristet av denne road trippen? Husk å laste den ned, den dukker nok aldri opp igjen.",
+      'export.button': "Eksporter denne ruten som PDF",
+      'export.generating': "Genererer PDF…",
+      'export.error': "PDF-generering mislyktes — prøv igjen om et øyeblikk.",
+
+      'pack.title': "Pakkeliste",
+      'pack.subDefault': "Det viktigste for dette mystiske oppdraget",
+      'pack.sub': "For {transport}, {budget} budsjett.",
+
+      'again.button': "Trekk en ny destinasjon",
+
+      'footer.text': "Kurs mot det ukjente — en lekende generator, ingen data sendes noen gang noe sted. Byer: IGN / geo.api.gouv.fr (Etalab) for Frankrike, GeoNames (CC-BY-lisens) for Andorra, Spania, Portugal, Belgia, Nederland, Luxembourg, Sveits, Tyskland, Italia, Østerrike, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjekkia, Polen, Slovakia, Ungarn, Slovenia, Kroatia, Bosnia-Hercegovina, Storbritannia, Irland, Isle of Man, Danmark og Norge. Severdigheter og kartbakgrunn: © OpenStreetMap-bidragsytere (ODbL-lisens). Bomavgifter: VINCI Autoroutes (Frankrike), Autopistas (Spania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia-Hercegovina) — gratis motorveier i Belgia, Andorra, Nederland, Luxembourg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (unntatt tre konsesjonsstrekninger), Storbritannia, Irland, Isle of Man, Danmark og Norge; årlig vignett i Sveits, Østerrike, Tsjekkia, Slovakia, Ungarn og Slovenia (ingen avgift per tur) — verken bomavgift eller vignett på Guernsey eller Jersey.",
+      'footer.legalMentions': "Juridisk merknad",
+      'footer.privacyPolicy': "Personvernerklæring",
+
+      'error.loadData': "Kunne ikke laste inn dataene ({msg}). Sjekk at serveren leverer mappen public/data.",
+      'error.routeImpossible': "Kunne ikke sette sammen en rute fra denne byen akkurat nå — prøv igjen, eller utvid radiusen.",
+      'error.minMaxDistance': "Minimumsavstanden ({min} km) kan ikke overskride maksimumsavstanden ({max} km).",
+      'error.minDistanceContextDay': "1 dag uten overnatting",
+      'error.minDistanceContextNight': "1 natt",
+      'error.minDistanceTooFar': "Ikke mulig: med bare {context} kan du ikke komme minst {min} km unna og likevel komme tilbake innenfor valgt radius/hjemkomsttid ({radius} km). Forleng reisens varighet, senk minimumsavstanden, eller utvid maksimumsradiusen.",
+
+      'transport.voitureThermique.label': "bil",
+      'transport.voitureHybride.label': "hybridbil",
+      'transport.voitureElectrique.label': "elbil",
+      'transport.van.label': "bobil",
+      'transport.moto.label': "motorsykkel",
+      'transport.velo.label': "sykkel"
+
     }
   };
 
@@ -10928,6 +11171,19 @@
       'pack.van': ['Dunk til drikkevand', 'Campinggasflaske', 'Nivelleringskiler'],
       'pack.moto': ['Styrthjelm og handsker', 'Regntøj eller regnbukser', 'Elastiske bagagestropper'],
       'pack.velo': ['Komplet punkteringssæt', 'Vandtætte cykeltasker', 'Ekstern batteri til GPS']
+
+    },
+    no: {
+      'pack.base': ['Førstehjelpsskrin', 'Gjenbrukbar drikkeflaske', 'Lader og powerbank', 'Kontanter i reserve', 'Spilleliste til road trippen'],
+      'pack.economique': ['3-årstiders sovepose', 'Campingbluss / kokegrunnutstyr', 'Ultralett telt (reserve for villcamping)'],
+      'pack.moyen': ['Liten toalettmappe', 'Lite reisepute'],
+      'pack.confortable': ['Pene klær til middag', 'Fullstendig toalettutstyr'],
+      'pack.voitureThermique': ['Vognkort og gyldig førerkort', 'Førstehjelpsskrin'],
+      'pack.voitureHybride': ['Vognkort og gyldig førerkort', 'Førstehjelpsskrin'],
+      'pack.voitureElectrique': ['Ladekabel type 2', 'App for flere ladenettverk (f.eks. Chargemap)', '20 % reserve på oppgitt rekkevidde'],
+      'pack.van': ['Kanne til drikkevann', 'Campinggassflaske', 'Nivelleringskiler'],
+      'pack.moto': ['Styrthjelm og hansker', 'Regntøy eller regnbukser', 'Elastiske bagasjestropper'],
+      'pack.velo': ['Komplett punkteringssett', 'Vanntette sykkelvesker', 'Ekstern batteri til GPS']
 
     }
   };

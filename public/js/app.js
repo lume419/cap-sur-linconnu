@@ -202,7 +202,24 @@
     // rester cohérent avec la même règle "péage ponctuel à tarif fixe, jamais au kilomètre -> hors modèle"
     // appliquée partout ailleurs plutôt que d'inventer un nouveau mécanisme de péage au franchissement
     // juste pour ce pays (voir README, section "Pays couverts").
-    DK: { code:'DK', name:'Danemark', file:'communes-dk.txt', hasToll:false, aliasFile:'aliases-dk.txt', currency:'DKK' }
+    DK: { code:'DK', name:'Danemark', file:'communes-dk.txt', hasToll:false, aliasFile:'aliases-dk.txt', currency:'DKK' },
+    // Norvège : hasToll:false, cas le plus fragmenté de toute cette série — PAS deux ouvrages isolés
+    // comme le Danemark, mais environ 190-200 postes de péage électronique (bomstasjoner, système
+    // AutoPASS, statens vegvesen) répartis sur tout le pays et gérés par des dizaines de sociétés
+    // régionales différentes (Fjellinjen à Oslo — 83 postes sur trois anneaux à eux seuls —, Ferde à
+    // Bergen/côte ouest, Vegamot à Trondheim...). Système au passage (point-based), jamais un
+    // barème €/km ni une vignette à prix fixe unique : aucun montant national représentatif n'en
+    // dérive, contrairement à la France/l'Espagne/la Croatie (barème) ou la Suisse/l'Autriche
+    // (vignette) — même conclusion que les ouvrages isolés (M50 irlandais, Kiltunnel néerlandais...)
+    // mais pour une raison inverse : pas trop peu de données pour établir un tarif, mais bien trop de
+    // systèmes disjoints pour qu'un seul soit représentatif. Ferries : contrairement au Danemark
+    // (Bornholm), aucune nouvelle ligne modélisée pour la Norvège dans ce passage — son littoral
+    // fjordé compte de très nombreuses traversées, mais ce sont pour la plupart des prolongements
+    // fonctionnels du réseau routier national (ex. ferries de l'E39) plutôt que de vraies escapades
+    // insulaires comparables à la Corse/aux Baléares/à Bornholm ; les rares vraies îles significatives
+    // (Lofoten, Senja, Hitra/Frøya...) sont aujourd'hui reliées par pont ou tunnel. Limite assumée,
+    // comme les Açores/Madère pour le Portugal ou les petites îles danoises non retenues.
+    NO: { code:'NO', name:'Norvège', file:'communes-no.txt', hasToll:false, aliasFile:'aliases-no.txt', currency:'NOK' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -231,7 +248,7 @@
   // "£" devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les
   // livres locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs
   // îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -917,7 +934,12 @@
     // couvrant ~80% des annonces — paliers calés pour que le prix médian tombe dans la tranche "moyen"
     // plutôt qu'en dessous, comme pour les autres devises. Taux de conversion : couronne danoise à
     // parité FIXE avec l'euro depuis 1982 (ERM II, bande étroite ±2,25%) — 1 EUR ≈ 7,46 DKK.
-    DKK: { economique: 700, moyen: 1300, confortable: 2600 }
+    DKK: { economique: 700, moyen: 1300, confortable: 2600 },
+    // Norvège : même profil "plus cher que la zone euro" que le Danemark/la Suisse. Oslo : loyer
+    // Airbnb médian ~140 $ (~130 €, airroi/airbtics 2026). Taux de conversion : couronne norvégienne
+    // FLOTTANTE (contrairement à la couronne danoise, sans parité fixe avec l'euro) — 1 EUR ≈ 10,85
+    // NOK début septembre 2026 (xe.com/ecb.europa.eu).
+    NOK: { economique: 1000, moyen: 1800, confortable: 3600 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu

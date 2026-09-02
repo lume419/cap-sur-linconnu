@@ -130,8 +130,8 @@ les trois premières routes.
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
-Royaume-Uni, Irlande, île de Man et Danemark pour l'instant (Norvège/Suède/Finlande à venir dans la même
-série). Chaque pays
+Royaume-Uni, Irlande, île de Man, Danemark et Norvège pour l'instant (Suède/Finlande à venir dans la
+même série). Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -168,6 +168,11 @@ ajoute deux à trois choses, indépendamment des autres :
    exonyme cette fois mais une orthographe danoise PÉRIMÉE — la ville a officiellement repris
    l'orthographe historique "Aarhus" le 1er janvier 2011, abandonnant le "Å" adopté en 1948 —
    remplacée par "Aarhus", déjà la forme utilisée par le reste du dump pour cette même ville).
+   **La Norvège**, elle aussi, n'a demandé aucun traitement spécial — pipeline standard, 12 080
+   communes retenues sur 13 192 lieux bruts (le dump brut GeoNames le plus volumineux traité par ce
+   script jusqu'ici, 71 Mo, largement dû aux dizaines de milliers de lieux-dits norvégiens présents
+   dans le gazetteer). AUCUNE correction `NAME_OVERRIDES` nécessaire (échantillon des 30 plus grandes
+   communes du pays déjà bon, y compris les caractères æ/ø/å — Ålesund, Tønsberg, Tromsø...).
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -265,7 +270,15 @@ ajoute deux à trois choses, indépendamment des autres :
    plutôt que d'inventer un nouveau mécanisme de péage au franchissement rien que pour ce pays.
    Contrairement à ces exemples, cependant, le Storebælt est une traversée bien plus difficile à éviter
    pour un trajet Jylland/Fionie <-> Sjælland/Copenhague — aucun pont ni tunnel alternatif gratuit
-   n'existe entre les deux : un choix plus discutable, assumé comme tel plutôt que dissimulé.
+   n'existe entre les deux : un choix plus discutable, assumé comme tel plutôt que dissimulé. La
+   Norvège, elle, `hasToll:false` aussi mais pour une raison inverse de celle du Danemark : pas trop
+   peu d'ouvrages à péage pour en tirer un tarif national, mais bien trop — environ 190-200 postes de
+   péage électronique (bomstasjoner, système AutoPASS) répartis sur tout le pays et gérés par des
+   dizaines de sociétés régionales distinctes (Fjellinjen à Oslo, à elle seule 83 postes sur trois
+   anneaux ; Ferde à Bergen/côte ouest ; Vegamot à Trondheim...). Système strictement au passage
+   (point-based), jamais un barème €/km unique ni une vignette à prix fixe national : aucun montant
+   représentatif du pays entier n'en dérive, contrairement à la France/l'Espagne/la Croatie (barème)
+   ou la Suisse/l'Autriche/la République tchèque (vignette).
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -304,7 +317,12 @@ ajoute deux à trois choses, indépendamment des autres :
    zone euro), le Danemark est PLUS cher — même profil que la Suisse (`CHF`) : loyer Airbnb médian à
    Copenhague ~1150-1250 DKK/nuit (~155-170 €, airroi.com 2026), fourchette usuelle ~800-1800 DKK
    couvrant ~80% des annonces. Paliers `BUDGET_PRICE_MAX.DKK` calés pour que ce prix médian tombe dans
-   la tranche "moyen" plutôt qu'en dessous, comme pour les autres devises.
+   la tranche "moyen" plutôt qu'en dessous, comme pour les autres devises. La Norvège a besoin du
+   même genre de champ (`NOK`, la couronne norvégienne) — même profil "plus cher que la zone euro"
+   qu'avec le Danemark/la Suisse (Oslo : loyer Airbnb médian ~140 $/~130 €, airroi/airbtics 2026), mais
+   contrairement à la couronne danoise (parité FIXE avec l'euro), la couronne norvégienne est
+   FLOTTANTE — 1 EUR ≈ 10,85 NOK début septembre 2026 (xe.com/ecb.europa.eu), à réévaluer
+   périodiquement si le taux dérive significativement.
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -332,8 +350,9 @@ ajoutées, au fil des passages suivants, le catalan/le basque/le galicien/l'occi
 corse/le mirandais (rattrapage régional France/Espagne/Portugal/Andorre), l'irlandais/le mannois/le
 gallois/le gaélique écossais/le cornique/le scots (Royaume-Uni, Irlande, île de Man), puis huit
 langues nationales de pays déjà couverts par ailleurs — tchèque, polonais, slovaque, hongrois,
-slovène, croate, bosniaque et serbe — dans un rattrapage détaillé plus bas, et enfin le danois, arrivé
-avec le Danemark (voir "Pays couverts" et plus bas, série des pays nordiques). Le
+slovène, croate, bosniaque et serbe — dans un rattrapage détaillé plus bas, et enfin le danois et le
+norvégien, arrivés respectivement avec le Danemark et la Norvège (voir "Pays couverts" et plus bas,
+série des pays nordiques). Le
 luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
 aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
@@ -733,6 +752,25 @@ reste inchangé dans toutes les langues à alphabet latin (comme "Rab"/"Jersey" 
 des langues déjà couvertes), les deux langues cyrilliques (rusyn/lemko, serbe) recevant une
 translittération phonétique dédiée écrite à la main (Борнгольм, Борнхолм).
 
+### Norvège (deuxième pays nordique)
+
+Le norvégien (norsk), macro-code ISO 639-1 "no", est arrivé avec la Norvège elle-même — rédigé en
+bokmål (norme écrite dominante, ~85-90% des Norvégiens), sans pack séparé pour le nynorsk, même
+logique d'unification que pour le rusyn/lemko ou le scots/ulster-scots. GeoNames tague d'ailleurs la
+quasi-totalité de ses noms alternatifs norvégiens sous ce même macro-code générique "no" plutôt que
+"nb"/"nn" distinctement (595 761 entrées "no" contre 1 108 "nb" et 1 275 "nn" dans le dump
+alternateNamesV2 norvégien), cohérent avec ce choix. Le same du Nord (davvisámegiella), langue sâme la
+plus parlée et officielle dans plusieurs communes du nord du pays, est très largement documenté dans
+ce même dump (plus de 30 000 noms alternatifs, code "se") — un signal fort de sa légitimité comme
+langue régionale au sens plein du terme, comparable au gallois/au gaélique écossais pour le
+Royaume-Uni. Il n'est PAS ajouté dans ce passage malgré ce statut réel : c'est une langue ouralienne
+sans parenté avec aucune des 45 déjà couvertes, contrairement au danois/norvégien/suédois (germaniques,
+proches de l'anglais/l'allemand déjà couverts) — confiance de traduction jugée trop faible pour un
+premier jet fiable sans relecture native, laissé de côté explicitement plutôt que tenté à l'aveugle. Le
+kven (finnois de Norvège, code "fkv", ~2 200 noms alternatifs), minorité linguistique elle aussi
+officiellement reconnue mais nettement plus modeste, est laissé de côté pour la même raison. Les deux
+restent à reconsidérer dans un passage dédié si demandé.
+
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
 
@@ -952,6 +990,13 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   `communes-dk.txt`). Autres îles danoises sans pont (Ærø, Samsø, Fanø, Læsø…) volontairement laissées
   de côté pour l'instant — même limite assumée que pour la douzaine de petits îlots croates non
   modélisés, voir plus haut.
+- **Norvège** : AUCUNE nouvelle ligne modélisée dans ce passage, un choix délibéré plutôt qu'un oubli.
+  Son littoral fjordé compte d'innombrables traversées réelles, mais la plupart sont des prolongements
+  fonctionnels du réseau routier national (ex. les ferries de la E39, la "route côtière sans ferry" en
+  projet) plutôt que de vraies escapades insulaires comparables à la Corse/aux Baléares/à Bornholm ; les
+  rares îles véritablement significatives (Lofoten, Senja, Hitra/Frøya...) sont aujourd'hui reliées par
+  pont ou tunnel plutôt que par ferry. Toute la Norvège reste donc `continental` dans ce modèle — à
+  reconsidérer si une ligne précise s'avère pertinente dans un passage futur.
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -1034,7 +1079,7 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)

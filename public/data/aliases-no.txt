@@ -1,0 +1,811 @@
+no;Ytre Kiberg;Kiberg
+no;Gåradak;Goarahat
+en;Ytre Billefjord;Gorbovuotna
+no;Ytre Billefjord;Gorbovuotna
+no;Vesterelv;Njiđgu
+no;Veines;Veidnes
+pt;Vardo;Vardø
+en;Varangerbotn;Vuonnabahta
+no;Varangerbotn;Vuonnabahta
+no;Undereidet;Muotkkevuolli
+no;Turelva, vestre;Turelv
+no;Dálmeluokta;Talvik
+no;Talmulahti;Talvik
+no;Stuoragieddi;Storeng
+no;Storekorsnes;Giranjárga
+no;Storekursnes;Giranjárga
+no;Sør-Rekvik;Sør-Rekvika
+en;Snefjord;Muorral
+no;Snefjord;Muorral
+no;Slåtten;Muotki
+no;Skoganvarri;Skoganvarre
+no;Skibotn;Ivgobahta
+no;Russeluft;Ruoššaluokta
+en;Repvåg;Reiffváhki
+no;Repvåg;Reiffváhki
+no;Rottenvika;Rottenvik
+no;Rasteby;Čuollonjárga
+no;Alta, øvre;Øvre Alta
+no;Talosvankka;Olderdalen
+no;Nyvoll;Gárgu
+no;Novsvåg;Nuvsvåg
+no;Seida;Nuorttit Sieiddá
+en;Nuortit Sieida;Nuorttit Sieiddá
+no;Nord-Rekvik;Nord-Rekvika
+en;Nesseby;Unjárga
+no;Nesseby;Unjárga
+eu;Njávdán;Neiden
+en;Meskelva;Meskelv
+no;Mefjorden;Mefjord
+no;Mafjordhamn;Mafjord
+en;Litlefjord;Lillefjord
+en;Langfjordnes;Goalsevuohppi
+no;Langfjordnes;Goalsevuohppi
+no;Langfjordbotn;Langfjordhamn
+no;Langfjord;Langfjorden
+no;Kvænvika;Kvenvik
+no;Koppangen;Gohppi
+en;Klubbo;Klubbukt
+no;Indre Klubben;Klubben
+en;Karasjok;Kárášjohka
+no;Karasjok;Kárášjohka
+da;Karasjok;Kárášjohka
+no;Jekthamn;Jekthamna
+ca;Vestre Jacobselv;Vestre Jakobselv
+en;Indre Sandvik;Njárga
+no;Sandvik;Njárga
+no;Leirpollen;Gieddi
+no;Indre Hop;Hop
+en;Indre Billefjord;Billávuotna
+no;Indre Billefjord;Billávuotna
+no;Billefjord;Billávuotna
+no;Hestnes;Heastanjárga
+en;Havøysund;Ávanuorri
+no;Havøysund;Ávanuorri
+no;Hamnnes;Gárgu
+nds;Kommun Hammerfest;Hammerfest
+da;Furuflata;Furuflaten
+no;Elvnes;Elvenes
+no;Ildskog;Dulerohtu
+no;Eldskog;Dulerohtu
+no;Brennelv, nedre;Brennelv
+no;Breidvik;Breivik
+en;Børselv;Etelänpuoli
+no;Børselv;Etelänpuoli
+no;Bogen;Boavva
+nds;Kommun Båtsfjord;Båtsfjord
+no;Bevkop;Baukop
+no;Årviksand;Årvik
+no;Årviksanden;Årvik
+no;Abelsborg;Áppošborri
+no;Nyelv;Ođđajohka
+no;Kargil;Kariel
+no;Kvalfjord, store;Store Kvalfjord
+nds;Kommun Alta;Alta
+fr;Å;Å, Moskenes
+es;Å;Å, Moskenes
+de;Å i Lofoten;Å, Moskenes
+en;Å;Å, Moskenes
+it;Å;Å, Moskenes
+nl;Å;Å, Moskenes
+no;Å i Lofoten;Å, Moskenes
+no;Ytterlendinga;Yttralenninga
+no;Vossavangen;Voss
+es;Reino de Voss;Voss
+nds;Kommun Voss;Voss
+da;Vollen i Asker;Vollen
+nds;Kommun Volda;Volda
+no;Vågehamn;Vestbygda
+no;Vognill;Vognillan
+no;Vinje-svingen;Vinjesvingen
+no;Vindnes;Vindenes
+no;Vikebukta;Vikebukt
+nds;Kommun Vestby;Vestby
+en;Vereide;Gloppen
+nl;Vereide;Gloppen
+nds;Kommun Gloppen;Gloppen
+fr;Vereide;Gloppen
+da;Vereide;Gloppen
+no;Venneshamna;Venneshamn
+da;Vassenden i Jølster;Vassenden
+no;Søre Vartdal;Vartdal
+no;Vardøy;Varøya
+de;Vangsvik;Vangsvika
+en;Vangsvik;Vangsvika
+it;Vangsvik;Vangsvika
+fr;Vangsvik;Vangsvika
+es;Vangsvik;Vangsvika
+da;Vangsvik;Vangsvika
+nl;Vangsvik;Vangsvika
+no;Vålbyen;Våler
+da;Valen i Sunnhordland;Valen
+no;Valderhaugstranda;Valderhaug
+no;Vagsvika;Vaksvika
+nds;Kommun Tysvær;Tysvær
+nds;Kommun Tynset;Tynset
+nds;Kommun Tvedestrand;Tvedestrand
+no;Trovågen;Trovåg
+nds;Kommun Trondheim;Trondheim
+nds;Kommun Tromsø;Tromsø
+de;Tromso;Tromsø
+da;Tranøy;Tranøya
+nl;Tranøy;Tranøya
+no;Tøtdal;Tøttdalen
+no;Torvika;Torvikbukt
+da;Torsken på Senja;Torsken
+nds;Kommun Tønsberg;Tønsberg
+fr;Tonsberg;Tønsberg
+no;Tokeim;Tokheim
+no;Todal;Todalen
+da;Tjongsfjord;Tjong
+no;Moldvika;Molvika
+no;Time kommune;Time
+da;Time kommune;Time
+nds;Kommun Time;Time
+da;Tangen i Stange;Tangen
+es;Fiordo de Tafjord;Tafjord
+no;Systad;Systogrenda
+no;Synnes;Synes
+da;Sylte i Fræna;Sylte
+no;Eidsvoll sentrum;Sundet
+nl;Eidsvoll;Sundet
+en;Sunnan;Sundan
+fr;Sunnan;Sundan
+da;Sunnan;Sundan
+nl;Sunnan;Sundan
+no;Sulitjelma;Sulisjielmmá
+nds;Kommun Stryn;Stryn
+no;Strand kommune;Strand
+da;Strand kommune;Strand
+nds;Kommun Strand;Strand
+no;Storå;Jågåsijdda
+no;Stodsbuøyi;Stodsbuøye
+no;Steinsland;Nordre Steinsland
+en;Stamneshella;Stamnes
+fr;Stamneshella;Stamnes
+nl;Stamneshella;Stamnes
+nds;Kommun Sortland;Sortland
+no;Vestre Sørli;Sørli
+da;Sommarøya;Sommarøy
+no;Solihøjden;Sollihøgda
+nds;Kommun Sola;Sola
+no;Snåsa;Snåase
+no;Smedvika, in;Smedvika
+no;Slottevik;Slåttevik
+en;Slangsvold;Slangsvoll
+fr;Slangsvold;Slangsvoll
+da;Slangsvold;Slangsvoll
+nl;Slangsvold;Slangsvoll
+no;Skjelsvik;Skjelsvika
+no;Skjærhallen;Skjærhalden
+nds;Kommun Skien;Skien
+nds;Kommun Ski;Ski
+nds;Kommun Skaun;Skaun
+es;Skarde;Skare
+nl;Skarde;Skare
+no;Skarbu;Skarbo
+es;Hunn;Skage
+no;Skålbu;Skåbu
+no;Settemsøra;Settemsøran
+fr;Seljeskogen;Seljeskog
+da;Seljeskogen;Seljeskog
+nds;Kommun Sarpsborg;Sarpsborg
+no;Sandvika;Sandviga
+nds;Kommun Sandefjord;Sandefjord
+nds;Kommun Sande;Sande
+no;Saltvikhamn;Saltvikhamna
+no;Saltbu;Salbu
+no;Sætervika;Seter
+no;Rutledalen;Rutledal
+en;Rudsgrendi;Rudsgrend
+fr;Rudsgrendi;Rudsgrend
+da;Rudsgrendi;Rudsgrend
+nl;Rudsgrendi;Rudsgrend
+no;Rubben;Rubbestadneset
+da;Røyknes Station;Røyknes
+no;Røvik;Røvika
+nds;Kommun Røros;Røros
+no;Roldnes;Nuorta-Rállegeahči
+no;Nordrollnes;Nuorta-Rállegeahči
+no;Rolloug;Rollag
+da;Roald i Giske;Roald
+nds;Kommun Risør;Risør
+no;Reppe;Repp
+en;Rennebu;Voll
+de;Rennebu;Voll
+nl;Rennebu;Voll
+no;Rennebu;Voll
+pt;Rennebu;Voll
+no;Redalsgrend;Redal
+es;Råkvågen;Råkvåg
+da;Råkvågen;Råkvåg
+nl;Råkvågen;Råkvåg
+no;Raagrend;Rågrendi
+nds;Kommun Porsgrunn;Porsgrunn
+no;Pettvik;Pettvika
+no;Piesala;Peistorpet
+de;Oystese;Øystese
+no;Øygardsgrend;Øygardsgrendi
+no;Øygardan;Øygardsgrendi
+no;Oteren;Čávkkus
+co;Oslu;Oslo
+en;Os i Østerdalen;Os
+de;Os i Østerdalen;Os
+no;Os i Hedmark;Os
+pt;Os i Østerdalen;Os
+no;Ortnevikane;Ortnevik
+nds;Kommun Oppdal;Oppdal
+no;Olbu;Ålbu
+no;Økland;Auklandshamn
+en;Nordvik;Nordvika
+fr;Nordvik;Nordvika
+da;Nordvik;Nordvika
+nl;Nordvik;Nordvika
+no;Nordkjosbotn;Gárgán
+nds;Kommun Nord-Fron;Nord-Fron
+no;Norddal;Dalsbygda
+no;Norddalen;Dalsbygda
+en;Norddalsfjord;Norddal
+fr;Norddalsfjord;Norddal
+da;Norddalsfjord;Norddal
+nl;Norddalsfjord;Norddal
+da;Nipe i Risør;Nipe
+no;Nevlunghavn;Nevlunghamn
+en;Nevlunghavn;Nevlunghamn
+fr;Nevlunghavn;Nevlunghamn
+nl;Nevlunghavn;Nevlunghamn
+no;Nesse;Nese
+nds;Kommun Narvik;Narvik
+nds;Kommun Namsos;Namsos
+no;Nersnes;Nærsnes
+no;Leinesfjorden;Leirangerfjord
+no;Myklebostad;Leirangerfjord
+no;Indre Musken;Måsske
+no;Musken;Måsske
+nds;Kommun Moss;Moss
+nds;Kommun Molde;Molde
+no;Kyrkjebygdi;Fyresdal
+no;Midtsand;Midtsandan
+nds;Kommun Meråker;Meråker
+no;Melfjorden;Melfjordbotn
+fr;Melfjorden;Melfjordbotn
+nl;Melfjorden;Melfjordbotn
+en;Melandsjøen;Melandsjø
+fr;Melandsjøen;Melandsjø
+da;Melandsjøen;Melandsjø
+nl;Melandsjøen;Melandsjø
+nds;Kommun Meland;Meland
+fr;Mortenshals;Mortenhals
+nds;Kommun Mandal;Mandal
+no;Lysøysund;Lysøysundet
+da;Lysøysund;Lysøysundet
+nl;Lysøysund;Lysøysundet
+es;Lysøysund;Lysøysundet
+no;Lyngsstranda;Lyngstranda
+no;Lyngsneset;Lyngsnes
+no;Lundermoen;Lunderåsen
+en;Lundermoen;Lunderåsen
+fr;Lundermoen;Lunderåsen
+da;Lundermoen;Lunderåsen
+nl;Lundermoen;Lunderåsen
+es;Lundermoen;Lunderåsen
+es;Bjervamoen;Lunde
+da;Lunde i Telemark;Lunde
+no;Lønning;Løning
+no;Bømmelhamn;Løning
+de;Lom;Fossbergom
+en;Lom;Fossbergom
+ca;Lom;Fossbergom
+no;Lom;Fossbergom
+pt;Lom;Fossbergom
+no;Løkken;Løkken Verk
+da;Løkken Værk;Løkken Verk
+no;Ljøsno;Ljøsne
+no;Limstrand;Limstranden
+no;Liland;Lidaláddi
+no;Liabø;Liabøen
+nds;Kommun Levanger;Levanger
+no;Leikang;Leikong
+no;Levang;Indre Låvong
+en;Laukvik;Laukvika
+da;Laukvik;Laukvika
+nl;Laukvik;Laukvika
+nds;Kommun Larvik;Larvik
+no;Nørdre Langsjøåsen;Nordre Landsjøåsen
+no;Laneshagen;Lanesbogen
+no;Søra Landsvik;Landsvik
+en;Lærdal;Lærdalsøyri
+de;Lærdal;Lærdalsøyri
+nl;Lærdal;Lærdalsøyri
+no;Lærdal;Lærdalsøyri
+pt;Lærdal;Lærdalsøyri
+no;Kyrkseterøra;Kyrksæterøra
+no;Kvithyll;Kvithylla
+no;Kvernvik;Kvernvika
+no;Kvenna;Kvanne
+no;Kulleseidkanalen;Kuleseid
+en;Krokeidet;Krokeide
+fr;Krokeidet;Krokeide
+es;Krokeidet;Krokeide
+nl;Krokeidet;Krokeide
+no;Kristiansand S;Kristiansand
+nds;Kommun Kragerø;Kragerø
+es;Helle;Konsmo
+nds;Kommun Kongsvinger;Kongsvinger
+no;Knarrevik;Knarvik
+en;Knarrlagsund;Knarrlaget
+fr;Knarrlagsund;Knarrlaget
+da;Knarrlagsund;Knarrlaget
+nl;Knarrlagsund;Knarrlaget
+en;Klepp stasjon;Klepp
+de;Klepp stasjon;Klepp
+nl;Klepp stasjon;Klepp
+da;Klepp stasjon;Klepp
+fr;Klepp stasjon;Klepp
+no;Klevbakken;Kleivfoss
+no;Kjerr;Slihppe
+no;Kjerring-vik;Kjerringvik
+no;Kjelkvika;Gielkká
+no;Kjeldebotn;Gálldo
+no;Kjelddal, in;Kildal
+no;Kjelddal;Kildal
+no;Kjeiprød;Keiprød
+no;Råde;Karlshus
+da;Skogbygda;Ingeborgrud
+nl;Skogrand;Ingeborgrud
+es;Skogrand;Ingeborgrud
+no;Ingdal;Ingdalen
+en;Store Standal;Indre Standal
+fr;Store Standal;Indre Standal
+da;Store-Standal;Indre Standal
+nl;Store Standal;Indre Standal
+nds;Kommun Ibestad;Ibestad
+no;Husbysjøen;Husby
+no;Hundholmen;Benasuoloj
+da;Hovin i Gauldal;Hovin
+nds;Kommun Horten;Horten
+nl;Hoppstad;Hoppestad
+no;Holmenkollbakken;Holmenkollen
+no;Hofles;Hoflesja
+fr;Hjukse;Hjuksevelta
+nl;Hjukse;Hjuksevelta
+es;Hjukse;Hjuksevelta
+no;Heradsbygda;Heradsbygd
+it;Henningsvaer;Henningsvær
+no;Hemnskjel;Hemnskjela
+no;Båstad;Heiås
+no;Heiåsbyen;Heiås
+da;Havråtunet;Havrå
+nds;Kommun Haugesund;Haugesund
+no;Hauge;Haug
+no;Haug;Haugsbygd
+no;Haugsbygda;Haugsbygd
+nds;Kommun Haram;Haram
+no;Havnås;Hamnås
+no;Havnaas;Hamnås
+nds;Kommun Hamar;Hamar
+de;Halhjem;Haljem
+en;Halhjem;Haljem
+fr;Halhjem;Haljem
+nl;Halhjem;Haljem
+no;Håkvika;Ginnasluokta
+no;Hage, nedre;Ner-Hag
+nds;Kommun Gulen;Gulen
+da;Gryting i Gjerstad;Gryting
+no;Grubben;Gråbpoe
+no;Grovfjord;Grov
+da;Grønning i Vesterålen;Grønning
+no;Grøndalgrenda;Grøndalen
+de;Grødem;Grødeim
+en;Grødem;Grødeim
+fr;Grødem;Grødeim
+da;Grødem;Grødeim
+nl;Grødem;Grødeim
+no;Grødes;Grodås
+nds;Kommun Grimstad;Grimstad
+de;Gravvik;Gravika
+en;Gravvik;Gravika
+fr;Gravvik;Gravika
+da;Gravvik;Gravika
+nl;Gravvik;Gravika
+no;Gjuvsgrende;Gjuvsgrendi
+nds;Kommun Gjøvik;Gjøvik
+no;Gjønnøyvåg;Gjønnevåg
+no;Råbygda;Gjølme
+en;Råbygda;Gjølme
+no;Geving;Gjeving
+no;Gjerdvika;Gjervika
+no;Gjørvika;Gjervika
+no;Gjerdviki;Gjervik
+no;Garlibygdi;Gardlibygdi
+no;Galåen;Galåa
+no;Førde;Fyrde
+no;Futrikelva;Futrikelv
+no;Forøya;Furøy
+da;Frogner i Lillestrøm;Frogner
+no;Føri;Førri
+da;Flora;Flornes
+nds;Kommun Flekkefjord;Flekkefjord
+no;Flakkstadvågen;Flakstadvåg
+no;Fjelldal, nedre;Fjelldal
+no;Finnvåg;Finnvågen
+no;Finnvågan;Finnvågen
+no;Finnfjorden;Finnfjord
+no;Fimlandsgrend;Fimland
+no;Store Fauskevåg;Fauskevåg
+no;Eydehamn;Eydehavn
+no;Espenes;Aspenes
+da;Espeland i Bergen;Espeland
+no;Ersfjordbotn;Ersfjord
+no;Engelsviken;Engalsvik
+fr;Engalsviken;Engalsvik
+da;Engelsviken;Engalsvik
+ca;Engelsviken;Engalsvik
+no;Engsaga;Engjan
+en;Engan;Engjan
+da;Engan;Engjan
+nds;Kommun Elverum;Elverum
+no;Eitrhem;Eitrheim
+no;Eidsvika;Eidsvik
+nds;Kommun Eidfjord;Eidfjord
+no;Eidal;Eiddal
+no;Preststranda;Drangedal
+no;Prestestranda;Drangedal
+nds;Kommun Drammen;Drammen
+nl;Gilja;Dirdal
+no;Dale;Dalsbygda
+nds;Kommun Bykle;Bykle
+no;Buavågen;Buavåg
+no;Bremnes;Bremneset
+no;Bremnes;Svortland
+no;Brekke;Brekka
+no;Branddal;Brandal
+en;Borgen;Børgen
+fr;Borgen;Børgen
+da;Borgen;Børgen
+nl;Borgen;Børgen
+no;Søra Bømlo;Bømlo
+no;Langevåg;Bømlo
+no;Bogen i Ofoten;Bogen
+nds;Kommun Bodø;Bodø
+es;Bodo;Bodø
+nds;Kommun Bø;Bø
+pt;Bø i Vesterålen;Bø
+no;Blindvåg;Blindvågen
+no;Bossvik;Bossvika
+da;Bleie i Hardanger;Bleie
+no;Blakkstad;Blakstad
+da;Bjørke på Sunnmøre;Bjørke
+nds;Bargen;Bergen
+de;Bergen (Hordaland);Bergen
+nds;Kommun Berg;Berg
+no;Beitestøl;Beitostølen
+no;Barstadvika;Barstadvik
+no;Bardbogen;Barbogen
+nds;Kommun Balsfjord;Balsfjord
+nds;Kommun Ballangen;Ballangen
+nds;Kommun Balestrand;Balestrand
+no;Bøverfjord;Bøverfjorden
+nds;Kommun Austevoll;Austevoll
+nds;Kommun Aure;Aure
+no;Øktner;Aukner
+no;Auktner;Aukner
+fr;Åsgård;Åsskard
+no;Asklund;Seter
+nds;Kommun Askim;Askim
+nds;Kommun Asker;Asker
+no;Åsbøgrende;Åsbøgrendi
+no;Sørarnøya;Sør-Arnøy
+no;Sørarnøy;Sør-Arnøy
+en;Sørarnøy;Sør-Arnøy
+fr;Sørarnøy;Sør-Arnøy
+da;Sørarnøy;Sør-Arnøy
+nl;Sørarnøy;Sør-Arnøy
+nds;Kommun Arendal;Arendal
+no;Ånnstad;Ytre Ånnstad
+fr;Angvik;Angvika
+da;Angvik;Angvika
+nl;Angvik;Angvika
+ca;Angvik;Angvika
+no;Åmnøyhamn;Åmnøyhamna
+ca;Geithus;Åmot
+nds;Kommun Åmli;Åmli
+no;Algrøyna;Algerøyna
+gl;Aalesund;Ålesund
+nds;Kommun Ålesund;Ålesund
+da;Ågskaret;Ågskardet
+no;Abelsnes;Abelnes
+en;Å;Aa
+fr;Å;Aa
+da;Å;Aa
+nl;Å;Aa
+es;Å;Aa
+ca;Å;Aa
+de;Å;Aa
+en;Å;Å i Åfjord
+de;Å;Å i Åfjord
+no;Åfjord;Å i Åfjord
+pt;Åfjord;Å i Åfjord
+fr;Å;Å i Åfjord
+da;Å;Å i Åfjord
+no;Eikstranden;Eiksstrand
+no;Kråkvåg;Krokvåg
+no;Brevikbukta;Bukta
+no;Ongeltveitsjøen;Angeltveitsjøen
+da;Abbedissen;Abbedisso
+no;Helvik;Hellvik
+nds;Kommun Ørsta;Ørsta
+no;Veavågen;Vedavågen
+da;Heggelia i Målselv;Heggelia
+no;Ramnås;Ravnås
+nds;Kommun Sogndal;Sogndal
+no;Strondo;Sogndalstrand
+da;Vang i Valdres;Vang
+nds;Kommun Vang;Vang
+nds;Kommun Hof;Hof
+no;Stordalen;Stordal
+nds;Kommun Surnadal;Surnadal
+nds;Kommun Roan;Roan
+nds;Kommun Klæbu;Klæbu
+nds;Kommun Hattfjelldal;Hattfjelldal
+nds;Kommun Bjarkøy;Bjarkøy
+no;Breidvikbotn;Breivikbotn
+nds;Kommun Aurland;Aurland
+no;Tingnes;Nes
+nds;Kommun Luster;Luster
+no;Mausundvær;Mausund
+no;Kjøpsvik;Gásluokta
+no;Tanabru;Tana Bru
+da;Langhus i Ski;Langhus
+no;Bjørkås;Bjerkås
+nl;Akkerhaug;Akkerhaugen
+no;Dalselva;Dalsgrenda
+no;Bjølstadmo;Heidal
+no;Valestrandsfossen;Valestrandfossen
+da;Valestrandsfossen;Valestrandfossen
+no;Liadal;Liadalen
+no;Straumgjerde;Straumegjerde
+no;Søvik;Søvika
+nds;Kommun Orkdal;Orkdal
+no;Vikhammer;Vikhamar
+en;Vikhammer;Vikhamar
+fr;Vikhammer;Vikhamar
+da;Vikhammer;Vikhamar
+nl;Vikhammer;Vikhamar
+no;Ridabu;Åker
+da;Mo i Odal;Mo
+nds;Kommun Fjell;Fjell
+no;Klakksjorda;Klakkjorda
+en;Klakksjorda;Klakkjorda
+fr;Klakksjorda;Klakkjorda
+da;Klakksjorda;Klakkjorda
+nl;Klakksjorda;Klakkjorda
+no;Finnfjordbotn;Vuodnabatta
+en;Finnfjordbotn;Vuodnabatta
+fr;Finnfjordbotn;Vuodnabatta
+da;Finnfjordbotn;Vuodnabatta
+nl;Finnfjordbotn;Vuodnabatta
+ca;Finnfjordbotn;Vuodnabatta
+no;Tinvik;Tenvik
+no;Skivika;Skiviken
+no;Skjærvika;Skiviken
+no;Førre;Førdesfjorden
+no;Brekken;Brekkebygd
+en;Brekken;Brekkebygd
+fr;Brekken;Brekkebygd
+da;Brekken;Brekkebygd
+nl;Brekken;Brekkebygd
+da;Husøy i Senja;Husøy
+no;Torget;Torvet
+de;Hausvik;Haus
+fr;Hausvik;Haus
+es;Hausvik;Haus
+nl;Hausvik;Haus
+no;Finnbråtengrenda;Finnbråten
+da;Sel kommune;Sel
+nds;Kommun Sel;Sel
+no;Furmyra;Furumyra
+no;Drogsetmoen;Dragsetmoen
+no;Risvollan;Risvollen
+no;Heggtoppen;Hegg
+no;Langenes;Langnesbygda
+no;Langenesbygda;Langnesbygda
+no;Rykkinn;Rykkin
+no;Vodlageilen;Vollageilen
+no;Snøda;Snøde
+no;Hammern;Hammaren
+nds;Kommun Ullensvang;Ullensvang
+no;Kjøpsnes;Oaffi
+no;Kirkesletta;Kirkesletten
+no;Gammelgården;Gammelgård
+no;Einaren;Eineren
+no;Hjemmeluft;Jemmeluft
+no;Porsangmoen;Porsangermoen
+no;Knarrdalstranda;Knarrdalstrand
+no;Indrefjord;i Fjorden
+no;Tverrlandet;Løding,vestre
+no;Tillerbyen;Heimdalsbyen
+no;Glombo;Glombu
+no;Navestad;Bede
+no;Fjellsæ;Fjellså
+no;Bomansvik;Bomannsvik
+no;Nedre Eggedal;Eggedal,nedre
+no;Kleppstad;Klepstad
+no;Borgen;Børgen
+no;Myra;Ulvinmyrane
+no;Ulvinmyra;Ulvinmyrane
+no;Korbølsætra;Kolbergsætra
+no;Rudssætra;Rudsætra
+no;Stensrud;Steinsrud
+no;Veslburåsen;Vestburåsen
+no;Hærvasstølen;Hervasstølen
+no;Smedlund;Langedrag
+no;Kolbulia;Kolbulien
+no;Prærien;Prerien
+no;Neset;Odden
+no;Øddin;Odden
+no;Nosastølen;Nørdre Nøsen
+no;Lome;Lomen
+no;Smørlii;Nørdre Smørlie
+no;Rugsvea;Rogsvea
+no;Holsætra;Hølsætra
+no;Nesesætra;Nessetsætra
+no;Vedemsætra;Vedemsætrene
+no;Bjørnbergssætra;Bjørnbergsætra
+no;Nessætra;Nesvollen
+no;Nysetra;Nysætrin
+no;Purkelykkja;Lauvåsfeltet
+no;Sulsæter;Sulsætra
+no;Brennsætrin;Midtstugu
+no;Midtstulen;Midtstugu
+no;Nysætra;Nysæter
+no;Baukålsstulen;Baukholsstulen
+no;Baukålstulen;Baukholsstulen
+no;Torvika;Turrvik
+no;Reiret;Reiregrende
+no;Kjøremsgrende;Kjøremsgrendi
+no;Høgsætri;Høgsætre
+no;Børsungsætri;Børsungsætrin
+no;Sørgardan;Søgardan
+no;Vestatil;Baugen
+no;Tronsvangan;Trondsjøvangan
+no;Tyssegardane;Tyssagardane
+no;Emlem;Emblem
+no;Leirvågen;Leirvåg
+no;Osåsene;Osvollane
+no;Anvisåsvollan;Anvissætrane
+no;Røesgardan;Røden
+no;Røsebygda;Røseplassen
+no;Storkvernan;Kvennan
+no;Åsen;Ytre Åsen
+no;Hugudalsvangen;Hugudalsvangan
+no;Graftåsen;Graftås
+no;Norddyrøya;Norddyrøy
+no;Dalbygda;Dalsbygda
+no;Strumpvika;Strummbo
+no;Kluksdalen;Kluksdal
+no;Sildhopen;Sildavuohppi
+no;Ytre Leirpollen;Biesaidgohppi
+no;Holmfjord;Čuolovuotna
+no;Stefjordneset;Áhkávuonnjárgga
+no;Haukøya;Avki
+no;Hennumskroken;Hennumtorget
+no;Tømmeråsfjorden;Dimbarásvuodna
+no;Tverrlandet;Doaresgáddi
+no;Vengsøy;Vengsøya
+no;Veltane;Veltan
+no;Vaalaugmoen;Vålaugmoen
+no;Vinterbro;Vinterbru
+en;Vinterbro;Vinterbru
+fr;Vinterbro;Vinterbru
+da;Vinterbro;Vinterbru
+nl;Vinterbro;Vinterbru
+no;Solvang kolonihager;Solvang hagekoloni
+no;Våge;Voje
+no;Rustahøgda;Rustadhøgda
+no;Storeng;Storengen
+no;Synslie;Synstlie
+no;Bjørkmyra;Bjørkmyr
+no;Holmbukt;Holmbukta
+no;Maribukt;Máregohppi
+no;Latteren;Gåppi
+no;Latter;Gåppi
+no;Bortgjømtgrenda;Smistadgrenda
+no;Berghaugen;Klefstadhaugen
+no;Haugan;Klefstadhaugen
+no;Åsbygda;Aasbygden
+no;Husjord;Husmmaroggi
+no;Gjevingåsen;Gevingås
+no;Gjeving;Geving
+no;Horsnes;Čohkkugieddi
+no;Torskefjord;Store Torskefjord
+no;Sætre;Sørskogbygda
+no;Dalbotnan;Dalbotnet
+no;Kappollen;Kobbepollen
+no;Kilvika;Kilvågjen
+no;Fjellsætra;Fjellsæter
+no;Inner-Låkthågen;Låkthaugen,in
+no;Kvantoland;Kvanntoland
+no;Storeide;Storeidet
+no;Boltås;Vaknjavárri
+no;Inner-Musken;Musken,indre
+no;Ytter-Musken;Musken,ytre
+no;Austrus;Østerhus
+no;Kjellbogen;Tjeldbugan
+no;Høybakkmoa;Høybakkmo
+no;Øver-Hag;Hage,øvre
+no;Rørvika;Ráluokta
+en;Rørvika;Ráluokta
+fr;Rørvika;Ráluokta
+da;Rørvika;Ráluokta
+nl;Rørvika;Ráluokta
+no;Nevervika;Biesseluokta
+no;Lysvoll;Láttaš
+no;Tømmeråsen;Dimbarásse
+no;Kikvika;Gahppanluokta
+no;Forrhaugan;Forhaugan
+no;Tjårrnes;Kjårrnes
+no;Øvre Birtedalen;Birtedalen,øvre
+no;Gåsøya;Gaasøien
+no;Kongsmark;Gonga
+no;Øvre Kjernli;Øvre Tjennli
+no;Hergot;Hergotta
+en;Hergot;Hergotta
+fr;Hergot;Hergotta
+da;Hergot;Hergotta
+nl;Hergot;Hergotta
+no;Spansdalen;Ruŋgo
+no;Bredbuktnes;Gåvdavuopppenjarga
+no;Veidmannsbotn;Botn
+no;Veidmannen;Veimannen
+no;Navaren;Navaren,ytre
+no;Njosken;Njoaski
+no;Slettmo;Indre Slettmo
+no;Stubbeng;Láđugieddi
+no;Veines;Øvre Neiden
+no;Goddevik;Gåddevaggi
+no;Hamnbukt;Hamina
+no;Skogende;Ruđonpää
+no;Øvre Brennelv;Brennelv,øvre
+no;Russelv;Ruoššajåkka
+no;Rågeluft;Råggeluokta
+no;Markopp;Markop
+no;Mårnes;Måvrunnjarga
+no;Boftsa;Båkca
+no;Strømsnes;Straumsnes
+no;Eidvågeidet;Eidvågeid
+no;Skarvfjordhamn;Skarvfjord
+no;Akkarfjord,yt;Akkarfjord
+no;Ytre Akkarfjord;Akkarfjord
+no;Yxney;Yxnøy
+no;Nordmannset;Struppo
+no;Nipen;Huonttaš
+no;Bakkejord;Vuollegeahči
+no;Sandemarka;Saddiidvuobmi
+no;Laberget;Laberg
+no;Vestre Vikene;Vikene,vestre
+no;Østre Vikene;Vikene,østre
+no;Øvre Utgård;Øvre Ultgård
+no;Lundegrend;Lunde
+no;Skar;Skard
+no;Grunnreis;Grunnreisa
+no;Draksten;Dragsten
+no;Sunnegrenda;Sundegrenda
+no;Seiersten;Seierstein
+no;Bergangrende;Bergangrendi
+no;Stuvstadgrenda;Stuvestadgrenda
+no;Ødegård;Øygarden
+no;Skogangrendi;Skogan
+no;Ødegarda;Øgard
+no;Esper;Esper,øvre
+no;Bjorøyhavn;Bjørøyhamn
+no;Breivika;Breidvik
+es;Ploganes;Bru
+da;Ploganes;Bru
+nl;Ploganes;Bru
+no;Vikugrendi;Vikgrend
+no;Hallandsgrendi;Hallandsgrende
+no;Tempelsetra;Tempelseter
+no;Ølensvåg;Olensvag
+no;Skitenelva;Skittenelv
+no;Skitnelv;Skittenelv
