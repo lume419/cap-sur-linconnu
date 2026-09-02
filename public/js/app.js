@@ -284,11 +284,39 @@
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
-  // Devise d'un pays donné : EUR par défaut (tous les pays actuels sauf ceux listés ci-dessous), CHF
-  // pour la Suisse/le Liechtenstein, GBP pour Guernesey/Jersey (COUNTRIES[cc].currency). Utilisé pour
-  // le plafond de prix budget/logement (voir BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks)
-  // — jamais pour le péage/ferry, dont les montants ne sont de toute façon calculés que pour des pays
-  // en euros (voir plus haut).
+  // Symbole/code affiché à côté d'un montant (voir updateBudgetHint plus bas) : "€" pour l'euro (le
+  // seul des treize à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), les douze
+  // autres tels quels — la livre sterling se note généralement "£" devant le montant en anglais,
+  // mais rester en code ISO ici évite toute ambiguïté avec les livres locales de Guernesey/Jersey
+  // (jamais interchangeables avec un simple "£" hors de leurs îles respectives).
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD' };
+  // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
+  // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
+  // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :
+  // "chaque étape du séjour utilisera ensuite sa propre devise"). Un choix explicite FIGE au
+  // contraire une seule devise pour tout le site, quelle que soit l'étape affichée — même logique
+  // "réglage global mémorisé" que la langue (STORAGE_KEY 'lang' dans i18n.js) ou le thème
+  // (STORAGE_KEY 'theme' dans theme.js), jamais lue/écrite ailleurs que via ces deux fonctions.
+  var CURRENCY_STORAGE_KEY = 'currency';
+  function getPreferredCurrency(){
+    try {
+      var v = localStorage.getItem(CURRENCY_STORAGE_KEY);
+      return v && CURRENCY_SYMBOL[v] ? v : null;
+    } catch(e){ return null; } // stockage indisponible (navigation privée stricte...) : reste en auto
+  }
+  function setPreferredCurrency(code){
+    try {
+      if(code) localStorage.setItem(CURRENCY_STORAGE_KEY, code);
+      else localStorage.removeItem(CURRENCY_STORAGE_KEY);
+    } catch(e){ /* pas grave : le choix s'appliquera pour cette page, juste pas mémorisé */ }
+  }
+  // Devise d'un pays donné : la préférence manuelle si le visiteur en a choisi une (voir plus haut),
+  // sinon EUR par défaut (tous les pays actuels sauf ceux listés dans CURRENCY_SYMBOL/COUNTRIES) —
+  // CHF pour la Suisse/le Liechtenstein, GBP pour Guernesey/Jersey/l'île de Man/le Royaume-Uni, etc.
+  // (COUNTRIES[cc].currency). Utilisé pour le plafond de prix budget/logement (voir
+  // BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks) — jamais pour le péage/ferry, dont les
+  // montants restent TOUJOURS affichés en euros, même préférence de devise choisie ou pas (voir
+  // toll.enabled/toll.disabled dans i18n.js, non paramétrées par devise).
   // vignette (CH/AT/CZ/SK) : URL de la BOUTIQUE OFFICIELLE de la vignette autoroutière du pays —
   // via.admin.ch (portail officiel de l'Office fédéral de la douane et de la sécurité des frontières,
   // pas un revendeur tiers) pour la Suisse, shop.asfinag.at (société publique gestionnaire des
@@ -302,14 +330,24 @@
   // evinjeta.dars.si (portail officiel de DARS, société publique gestionnaire du réseau autoroutier
   // slovène) pour la Slovénie. Utilisé par renderDays pour afficher un petit rappel la première fois
   // qu'un pays à vignette apparaît dans l'itinéraire — voir plus bas.
-  function countryCurrency(cc){ return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR'; }
-  // Symbole/code affiché à côté d'un montant (voir updateBudgetHint plus bas) : "€" pour l'euro (le
-  // seul des six à s'afficher en symbole plutôt qu'en code ISO, par habitude d'usage), "CHF"/
-  // "GBP"/"CZK"/"PLN"/"HUF" tels quels pour les cinq autres — la livre sterling se note généralement
-  // "£" devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les
-  // livres locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs
-  // îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD' };
+  function countryCurrency(cc){
+    var pref = getPreferredCurrency();
+    if(pref) return pref;
+    return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR';
+  }
+  // Liste des devises à proposer dans le sélecteur — RECONSTRUITE depuis COUNTRIES plutôt que
+  // recopiée à la main (voir la demande d'origine, "en prenant en compte celles des pays déjà
+  // renseignées") : ajouter un pays avec une nouvelle devise (COUNTRIES[cc].currency) suffit à le
+  // faire apparaître ici automatiquement, aucune liste séparée à tenir à jour en double. EUR forcé
+  // en tête (implicite pour la plupart des pays, jamais explicitement présent dans COUNTRIES sous
+  // forme de `currency:'EUR'`, sinon absent de cette liste faute d'apparaître littéralement dans un
+  // champ `currency`), le reste dans l'ordre alphabétique du code ISO.
+  var CURRENCY_OPTIONS = (function(){
+    var set = { EUR: true };
+    COUNTRY_LIST.forEach(function(cc){ set[COUNTRIES[cc].currency || 'EUR'] = true; });
+    var codes = Object.keys(set).filter(function(c){ return c !== 'EUR'; }).sort();
+    return ['EUR'].concat(codes);
+  })();
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -369,6 +407,106 @@
   // plus bas) : les prochaines recherches de photo utilisent alors tout de suite la nouvelle langue.
   var t = window.I18N.t, tl = window.I18N.tl;
   var VISITOR_LANG = window.I18N.current();
+
+  /* ---------- SÉLECTEUR DE DEVISE ---------- */
+  // Même construction que le sélecteur de langue juste à côté dans l'en-tête (voir js/i18n.js,
+  // "SÉLECTEUR DE LANGUE") : un bouton ouvre un petit panneau listant les options, ici sans champ de
+  // recherche (une douzaine d'entrées au lieu de 51 langues, une liste directe suffit). Vit dans
+  // app.js plutôt que i18n.js : la liste des devises et leur logique (COUNTRIES, CURRENCY_SYMBOL,
+  // countryCurrency, BUDGET_PRICE_MAX) sont toutes déjà ici, pas dans le module de traduction —
+  // seuls les DEUX libellés affichés (currency.buttonLabel, currency.auto) viennent de i18n.js,
+  // comme n'importe quel autre texte d'interface.
+  var currencySwitcherRoot = null, currencyPanelEl = null, currencyListEl = null, currencyButtonEl = null;
+
+  function renderCurrencyButton(){
+    if(!currencyButtonEl) return;
+    var pref = getPreferredCurrency();
+    currencyButtonEl.querySelector('.currency-toggle-code').textContent = pref || 'AUTO';
+  }
+  function closeCurrencyPanel(){
+    if(currencyPanelEl) currencyPanelEl.classList.remove('show');
+    if(currencyButtonEl) currencyButtonEl.setAttribute('aria-expanded', 'false');
+  }
+  function openCurrencyPanel(){
+    if(!currencyPanelEl) return;
+    currencyPanelEl.classList.add('show');
+    currencyButtonEl.setAttribute('aria-expanded', 'true');
+    renderCurrencyList();
+  }
+  function renderCurrencyList(){
+    var pref = getPreferredCurrency();
+    currencyListEl.innerHTML = '';
+    function addOption(value, label){
+      var li = document.createElement('li');
+      li.className = 'currency-option' + (value === pref ? ' active' : '');
+      li.setAttribute('role', 'option');
+      li.setAttribute('aria-selected', value === pref ? 'true' : 'false');
+      li.textContent = label;
+      li.addEventListener('mousedown', function(e){
+        e.preventDefault();
+        setPreferredCurrency(value);
+        renderCurrencyButton();
+        updateBudgetHint();
+        rerenderCurrentTrip();
+        closeCurrencyPanel();
+      });
+      currencyListEl.appendChild(li);
+    }
+    addOption(null, t('currency.auto'));
+    CURRENCY_OPTIONS.forEach(function(code){
+      var symbol = CURRENCY_SYMBOL[code];
+      addOption(code, symbol && symbol !== code ? code + ' ' + symbol : code);
+    });
+  }
+  function buildCurrencySwitcher(){
+    currencySwitcherRoot = document.getElementById('currency-switcher');
+    if(!currencySwitcherRoot) return; // page sans sélecteur (mentions légales/confidentialité)
+
+    currencyButtonEl = document.createElement('button');
+    currencyButtonEl.type = 'button';
+    currencyButtonEl.className = 'currency-toggle-btn';
+    currencyButtonEl.setAttribute('aria-haspopup', 'listbox');
+    currencyButtonEl.setAttribute('aria-expanded', 'false');
+    currencyButtonEl.innerHTML =
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+        '<circle cx="12" cy="12" r="9"/><path d="M9 15.5c0 1 1.2 1.8 3 1.8s3-.8 3-1.8-1.2-1.5-3-1.8-3-1-3-1.8 1.2-1.7 3-1.7 3 .7 3 1.7"/>' +
+        '<path d="M12 6.7V6M12 18v-.7"/>' +
+      '</svg>' +
+      '<span class="currency-toggle-code"></span>';
+
+    currencyPanelEl = document.createElement('div');
+    currencyPanelEl.className = 'currency-panel';
+    currencyPanelEl.setAttribute('role', 'dialog');
+
+    currencyListEl = document.createElement('ul');
+    currencyListEl.className = 'currency-option-list';
+    currencyListEl.setAttribute('role', 'listbox');
+
+    currencyPanelEl.appendChild(currencyListEl);
+    currencySwitcherRoot.appendChild(currencyButtonEl);
+    currencySwitcherRoot.appendChild(currencyPanelEl);
+
+    currencyButtonEl.addEventListener('click', function(){
+      if(currencyPanelEl.classList.contains('show')) closeCurrencyPanel(); else openCurrencyPanel();
+    });
+    document.addEventListener('click', function(e){
+      if(!currencySwitcherRoot.contains(e.target)) closeCurrencyPanel();
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && currencyPanelEl.classList.contains('show')){ closeCurrencyPanel(); currencyButtonEl.focus(); }
+    });
+
+    renderCurrencyButton();
+  }
+  function applyCurrencyPanelTexts(){
+    if(!currencyButtonEl) return;
+    var full = t('currency.buttonLabel') + ' — ' + (getPreferredCurrency() || t('currency.auto'));
+    currencyButtonEl.setAttribute('aria-label', full);
+    currencyButtonEl.title = full;
+  }
+  buildCurrencySwitcher();
+  applyCurrencyPanelTexts();
+  window.addEventListener('i18n:langchange', applyCurrencyPanelTexts);
   // Code court -> étiquette de locale complète, pour Intl/toLocaleDateString (horloge, dates
   // formatées, nombre d'habitants...) — une seule variante par langue suffit ici, pas besoin de
   // distinguer ex. pt-PT/pt-BR pour ce site.
@@ -3166,6 +3304,21 @@
   }
   applyHeroLede();
 
+  // Un itinéraire est déjà affiché : on le redessine à partir des MÊMES données (pas un nouveau
+  // tirage) — renderDays()/renderPacking() sont sûrs à rappeler (voir leurs commentaires :
+  // __poiUpgradeStarted/__hikePromise empêchent toute nouvelle requête réseau ou consommation d'une
+  // file partagée), renderMap() recrée juste les calques sur la même carte. Factorisé ici plutôt que
+  // dupliqué : rappelé à la fois par l'écouteur 'i18n:langchange' ci-dessous (nouvelle langue) et par
+  // le sélecteur de devise plus bas (nouvelle devise sur les liens Airbnb/Booking déjà affichés).
+  function rerenderCurrentTrip(){
+    if(currentTripData){
+      renderDays(currentTripData.legs, currentTripData.city);
+      renderMap(currentTripData.legs, currentTripData.city, currentTripData.cityCoord);
+      renderPacking(currentTripData.budgetKey, currentTripData.transportKey);
+      updateRevealTexts(currentTripData.firstStop);
+    }
+  }
+
   window.addEventListener('i18n:langchange', function(){
     VISITOR_LANG = window.I18N.current();
     applyHeroLede();
@@ -3173,16 +3326,7 @@
     updateDatesHint();
     updateBudgetHint();
     updateRadiusUnitLabel();
-    // Un itinéraire est déjà affiché : on le redessine dans la nouvelle langue à partir des MÊMES
-    // données (pas un nouveau tirage) — renderDays()/renderPacking() sont sûrs à rappeler (voir
-    // leurs commentaires : __poiUpgradeStarted/__hikePromise empêchent toute nouvelle requête réseau
-    // ou consommation d'une file partagée), renderMap() recrée juste les calques sur la même carte.
-    if(currentTripData){
-      renderDays(currentTripData.legs, currentTripData.city);
-      renderMap(currentTripData.legs, currentTripData.city, currentTripData.cityCoord);
-      renderPacking(currentTripData.budgetKey, currentTripData.transportKey);
-      updateRevealTexts(currentTripData.firstStop);
-    }
+    rerenderCurrentTrip();
   });
 
 })();

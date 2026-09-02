@@ -15,6 +15,34 @@
 
   var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro'];
   var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais', csb: 'Kaszëbsczi', rue: 'Лемківскый', ruo: 'Vlaški-Žejanski', ca: 'Català', eu: 'Euskara', gl: 'Galego', oc: 'Occitan', br: 'Brezhoneg', co: 'Corsu', mwl: 'Mirandés', ga: 'Gaeilge', gv: 'Gaelg', cy: 'Cymraeg', gd: 'Gàidhlig', kw: 'Kernewek', sco: 'Scots', cs: 'Čeština', pl: 'Polski', sk: 'Slovenčina', hu: 'Magyar', sl: 'Slovenščina', hr: 'Hrvatski', bs: 'Bosanski', sr: 'Српски', da: 'Dansk', no: 'Norsk', sv: 'Svenska', fi: 'Suomi', sq: 'Shqip', cnr: 'Crnogorski', mk: 'Македонски', ro: 'Română' };
+  // Un drapeau plutôt qu'un code à deux lettres dans le bouton/la liste (voir renderSwitcherButton/
+  // renderLangList plus bas) — demandé explicitement pour remplacer l'acronyme. Choix par langue,
+  // pas par PAYS : la plupart des 51 langues d'ici n'ont pas de drapeau Unicode propre (aucune
+  // norme n'encode par exemple un drapeau breton/basque/sarde/frioulan/sorabe...), donc chacune
+  // reprend le drapeau NATIONAL ou RÉGIONAL le plus directement associé à son aire linguistique —
+  // au prix d'un même drapeau partagé par plusieurs langues d'un même pays (les quatre langues
+  // régionales allemandes nds/hsb/frr affichent 🇩🇪 comme l'allemand lui-même, par exemple) : un vrai
+  // drapeau distinct par langue impliquerait des drapeaux INFRA-nationaux hors norme Unicode
+  // (illustrations SVG hébergées), hors du périmètre de ce passage. Trois vrais drapeaux RÉGIONAUX
+  // existent bien en Unicode via la séquence de balises ISO 3166-2 (pas de simples émojis composés
+  // comme les drapeaux nationaux) : Écosse (gd/sco, les deux langues du pays), Pays de Galles (cy) —
+  // utilisées ici plutôt que le drapeau du Royaume-Uni, plus juste pour des langues chacune propres à
+  // une seule nation constitutive. Le cornique (kw), sans balise ISO 3166-2 dédiée dans ce mécanisme
+  // (les Cornouailles n'ont pas ce statut), retombe sur le Royaume-Uni. Quelques choix qui
+  // distinguent volontairement une langue de sa voisine évidente plutôt que de dupliquer un drapeau
+  // déjà pris : le catalan (ca) prend l'Andorre — seul pays où le catalan est OFFICIEL et unique
+  // langue nationale, plutôt que l'Espagne (déjà prise par eu/gl) ; le monégasque (lij, "Munegascu"
+  // dans LANG_NAMES) prend Monaco plutôt que l'Italie ; le mannois (gv) et le gallois (cy) restent
+  // sur leurs propres territoires déjà couverts comme pays (île de Man, imbriqué dans le Royaume-Uni
+  // pour le gallois faute de balise dédiée à retenir séparément ici).
+  var LANG_FLAGS = {
+    fr: '🇫🇷', en: '🇬🇧', es: '🇪🇸', pt: '🇵🇹', nl: '🇳🇱', de: '🇩🇪', lb: '🇱🇺', it: '🇮🇹', rm: '🇨🇭',
+    nds: '🇩🇪', hsb: '🇩🇪', frr: '🇩🇪', sc: '🇮🇹', fur: '🇮🇹', lld: '🇮🇹', mt: '🇲🇹', lij: '🇲🇨',
+    'nrf-je': '🇯🇪', 'nrf-gg': '🇬🇬', csb: '🇵🇱', rue: '🇵🇱', ruo: '🇭🇷', ca: '🇦🇩', eu: '🇪🇸', gl: '🇪🇸',
+    oc: '🇫🇷', br: '🇫🇷', co: '🇫🇷', mwl: '🇵🇹', ga: '🇮🇪', gv: '🇮🇲', cy: '🏴󠁧󠁢󠁷󠁬󠁳󠁿', gd: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+    kw: '🇬🇧', sco: '🏴󠁧󠁢󠁳󠁣󠁴󠁿', cs: '🇨🇿', pl: '🇵🇱', sk: '🇸🇰', hu: '🇭🇺', sl: '🇸🇮', hr: '🇭🇷', bs: '🇧🇦',
+    sr: '🇷🇸', da: '🇩🇰', no: '🇳🇴', sv: '🇸🇪', fi: '🇫🇮', sq: '🇦🇱', cnr: '🇲🇪', mk: '🇲🇰', ro: '🇷🇴'
+  };
   var STORAGE_KEY = 'lang';
 
   var STRINGS = {
@@ -22,6 +50,8 @@
       'lang.buttonLabel': 'Langue',
       'lang.searchPlaceholder': 'Rechercher une langue…',
       'lang.searchNoResults': 'Aucune langue trouvée.',
+      'currency.buttonLabel': 'Devise',
+      'currency.auto': 'Automatique (selon le pays)',
 
       'hero.eyebrow': 'Générateur de road trip mystère',
       'hero.title': "Cap sur l'inconnu",
@@ -257,6 +287,8 @@
       'lang.buttonLabel': 'Language',
       'lang.searchPlaceholder': 'Search a language…',
       'lang.searchNoResults': 'No language found.',
+      'currency.buttonLabel': 'Currency',
+      'currency.auto': 'Automatic (by country)',
 
       'hero.eyebrow': 'Mystery road trip generator',
       'hero.title': 'Cap on the unknown',
@@ -492,6 +524,8 @@
       'lang.buttonLabel': 'Idioma',
       'lang.searchPlaceholder': 'Buscar un idioma…',
       'lang.searchNoResults': 'No se ha encontrado ningún idioma.',
+      'currency.buttonLabel': 'Divisa',
+      'currency.auto': 'Automático (según el país)',
 
       'hero.eyebrow': 'Generador de road trips misteriosos',
       'hero.title': 'Rumbo a lo desconocido',
@@ -727,6 +761,8 @@
       'lang.buttonLabel': 'Idioma',
       'lang.searchPlaceholder': 'Pesquisar um idioma…',
       'lang.searchNoResults': 'Nenhum idioma encontrado.',
+      'currency.buttonLabel': 'Moeda',
+      'currency.auto': 'Automático (consoante o país)',
 
       'hero.eyebrow': 'Gerador de road trips misteriosos',
       'hero.title': 'Rumo ao desconhecido',
@@ -962,6 +998,8 @@
       'lang.buttonLabel': 'Taal',
       'lang.searchPlaceholder': 'Een taal zoeken…',
       'lang.searchNoResults': 'Geen taal gevonden.',
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Automatisch (per land)',
 
       'hero.eyebrow': 'Mysterieuze roadtripgenerator',
       'hero.title': 'Koers naar het onbekende',
@@ -1197,6 +1235,8 @@
       'lang.buttonLabel': 'Sprache',
       'lang.searchPlaceholder': 'Sprache suchen…',
       'lang.searchNoResults': 'Keine Sprache gefunden.',
+      'currency.buttonLabel': 'Währung',
+      'currency.auto': 'Automatisch (nach Land)',
 
       'hero.eyebrow': 'Geheimnisvoller Roadtrip-Generator',
       'hero.title': 'Kurs auf das Unbekannte',
@@ -1434,6 +1474,8 @@
       'lang.buttonLabel': 'Sprooch',
       'lang.searchPlaceholder': 'Sprooch sichen…',
       'lang.searchNoResults': 'Keng Sprooch fonnt.',
+      'currency.buttonLabel': 'Währung',
+      'currency.auto': 'Automatesch (no Land)',
 
       'hero.eyebrow': 'Geheimnesvollen Roadtrip-Generator',
       'hero.title': "Kurs op d'Onbekannt",
@@ -1671,6 +1713,8 @@
       'lang.buttonLabel': 'Lingua',
       'lang.searchPlaceholder': 'Cerca una lingua…',
       'lang.searchNoResults': 'Nessuna lingua trovata.',
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Automatico (in base al paese)',
 
       'hero.eyebrow': 'Generatore di road trip misterioso',
       'hero.title': "Rotta verso l'ignoto",
@@ -1912,6 +1956,8 @@
       'lang.buttonLabel': 'Lingua',
       'lang.searchPlaceholder': 'Tschertgar ina lingua…',
       'lang.searchNoResults': 'Naginna lingua chattada.',
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Automatic (tenor il pajais)',
 
       'hero.eyebrow': 'Generatur da road trip misteriusa',
       'hero.title': "Direcziun l'ignot",
@@ -2151,6 +2197,8 @@
       'lang.buttonLabel': 'Spraak',
       'lang.searchPlaceholder': 'Spraak söken…',
       'lang.searchNoResults': 'Keen Spraak funnen.',
+      'currency.buttonLabel': 'Währung',
+      'currency.auto': 'Automaatsch (na Land)',
 
       'hero.eyebrow': 'Mysteriösen Road-Trip-Generator',
       'hero.title': 'Kurs op dat Unbekannte',
@@ -2392,6 +2440,8 @@
       'lang.buttonLabel': 'Rěč',
       'lang.searchPlaceholder': 'Rěč pytać…',
       'lang.searchNoResults': 'Žana rěč namakana.',
+      'currency.buttonLabel': 'Měna',
+      'currency.auto': 'Awtomatisce (po kraju)',
 
       'hero.eyebrow': 'Generator za mysterioznu ćěru',
       'hero.title': 'Kurs do njeznateho',
@@ -2634,6 +2684,8 @@
       'lang.buttonLabel': 'Spriak',
       'lang.searchPlaceholder': 'Spriak sååge…',
       'lang.searchNoResults': 'Nian spriak fuunen.',
+      'currency.buttonLabel': 'Wiaring',
+      'currency.auto': "Automaatsk (uun't lönj)",
 
       'hero.eyebrow': 'Mysteriöös road-trip-generator',
       'hero.title': 'Kurs tu det unbekannte',
@@ -2873,6 +2925,8 @@
       'lang.buttonLabel': 'Limba',
       'lang.searchPlaceholder': 'Chirca una limba…',
       'lang.searchNoResults': 'Nissuna limba agatada.',
+      'currency.buttonLabel': 'Moneda',
+      'currency.auto': 'Automàticu (sighende sa nazione)',
 
       'hero.eyebrow': 'Generadore de biàgios misteriosos',
       'hero.title': 'Rutta a s\'ignotu',
@@ -3111,6 +3165,8 @@
       'lang.buttonLabel': 'Lenghe',
       'lang.searchPlaceholder': 'Cîr une lenghe…',
       'lang.searchNoResults': 'Nissune lenghe cjatade.',
+      'currency.buttonLabel': 'Monede',
+      'currency.auto': 'Automatic (daûr il paîs)',
 
       'hero.eyebrow': 'Gjeneradôr di viaçs misteriôs',
       'hero.title': 'Rote viers l\'ignot',
@@ -3353,6 +3409,8 @@
       'lang.buttonLabel': 'Rujeneda',
       'lang.searchPlaceholder': 'Cir na rujeneda…',
       'lang.searchNoResults': 'Nia rujeneda cjatada.',
+      'currency.buttonLabel': 'Muneda',
+      'currency.auto': 'Automatich (dassëura dl paîsc)',
 
       'hero.eyebrow': 'Generadú de viac misterious',
       'hero.title': 'Rota vers l\'ignot',
@@ -3592,6 +3650,8 @@
       'lang.buttonLabel': 'Lingwa',
       'lang.searchPlaceholder': 'Fittex lingwa…',
       'lang.searchNoResults': 'L-ebda lingwa ma nstabet.',
+      'currency.buttonLabel': 'Munita',
+      'currency.auto': 'Awtomatiku (skont il-pajjiż)',
 
       'hero.eyebrow': "Ġeneratur ta' vjaġġ misterjuż bit-triq",
       'hero.title': "Rotta lejn l-mhux magħruf",
@@ -3842,6 +3902,8 @@
       'lang.buttonLabel': 'Lengua',
       'lang.searchPlaceholder': 'Çerca unn-a lengua…',
       'lang.searchNoResults': 'Nisciunn-a lengua trovâ.',
+      'currency.buttonLabel': 'Moneta',
+      'currency.auto': 'Automàtico (segondo u paise)',
 
       'hero.eyebrow': 'Generatû de viaggiu misteriuzu in sciâ strâ',
       'hero.title': "Rotta versu l'incoegnusciûu",
@@ -4079,6 +4141,8 @@
       'lang.buttonLabel': 'Langue',
       'lang.searchPlaceholder': 'Trachiz eune langue…',
       'lang.searchNoResults': "N'y'a pon d'langue trouvée.",
+      'currency.buttonLabel': 'Monnaie',
+      'currency.auto': "Automatique (s'lon l'pays)",
 
       'hero.eyebrow': 'Générateux d\'viage mystéthieux siez la route',
       'hero.title': "Route vers l'inconnu",
@@ -4320,6 +4384,8 @@
       'lang.buttonLabel': 'Langue',
       'lang.searchPlaceholder': 'Rechèrchier eune langue…',
       'lang.searchNoResults': "Nou n'a pon trouvé d'langue.",
+      'currency.buttonLabel': 'Monnaie',
+      'currency.auto': "Automatique (selon l'pays)",
 
       'hero.eyebrow': 'Générateur d\'viage mystéthieux siez la routte',
       'hero.title': "Routte vers l'inconnu",
@@ -4563,6 +4629,8 @@
       'lang.buttonLabel': 'Jãzëk',
       'lang.searchPlaceholder': 'Szëkac jãzëk…',
       'lang.searchNoResults': 'Ni ma najdzonégò jãzëka.',
+      'currency.buttonLabel': 'Piniãdz',
+      'currency.auto': 'Aùtomatno (wedle kraju)',
 
       'hero.eyebrow': 'Generatór tajemnegò road tripù',
       'hero.title': 'Kùrs na nieznóné',
@@ -4804,6 +4872,8 @@
       'lang.buttonLabel': 'Язык',
       'lang.searchPlaceholder': 'Шукати язык…',
       'lang.searchNoResults': 'Не найдено жадного язика.',
+      'currency.buttonLabel': 'Валута',
+      'currency.auto': 'Автоматично (за країну)',
 
       'hero.eyebrow': 'Ґенератор тайомної подорожі дорогом',
       'hero.title': 'Курс на незнаме',
@@ -5050,6 +5120,8 @@
       'lang.buttonLabel': 'Limba',
       'lang.searchPlaceholder': 'Caută o limbă…',
       'lang.searchNoResults': 'Nici o limbă găsită.',
+      'currency.buttonLabel': 'Monedă',
+      'currency.auto': 'Automat (dupa țară)',
 
       'hero.eyebrow': 'Generator de călătorie mister',
       'hero.title': 'Calea spre necunoscut',
@@ -5293,6 +5365,8 @@
       'lang.buttonLabel': 'Idioma',
       'lang.searchPlaceholder': 'Cerca un idioma…',
       'lang.searchNoResults': 'No s\'ha trobat cap idioma.',
+      'currency.buttonLabel': 'Divisa',
+      'currency.auto': 'Automàtic (segons el país)',
 
       'hero.eyebrow': 'Generador de road trip misteriós',
       'hero.title': 'Rumb a l\'incògnita',
@@ -5530,6 +5604,8 @@
       'lang.buttonLabel': 'Hizkuntza',
       'lang.searchPlaceholder': 'Bilatu hizkuntza bat…',
       'lang.searchNoResults': 'Ez da hizkuntzarik aurkitu.',
+      'currency.buttonLabel': 'Moneta',
+      'currency.auto': 'Automatikoa (herrialdearen arabera)',
 
       'hero.eyebrow': 'Bidaia misteriotsuen sortzailea',
       'hero.title': 'Ezezagunerantz',
@@ -5766,6 +5842,8 @@
       'lang.buttonLabel': 'Idioma',
       'lang.searchPlaceholder': 'Buscar un idioma…',
       'lang.searchNoResults': 'Non se atopou ningún idioma.',
+      'currency.buttonLabel': 'Moeda',
+      'currency.auto': 'Automático (segundo o país)',
 
       'hero.eyebrow': 'Xerador de viaxe misteriosa',
       'hero.title': 'Rumbo ao descoñecido',
@@ -6006,6 +6084,8 @@
       'lang.buttonLabel': 'Lenga',
       'lang.searchPlaceholder': 'Cercar una lenga…',
       'lang.searchNoResults': 'Cap de lenga trobada.',
+      'currency.buttonLabel': 'Moneda',
+      'currency.auto': 'Automatic (segon lo país)',
 
       'hero.eyebrow': 'Generador de viatge mistèri',
       'hero.title': 'Camin cap a l\'incognit',
@@ -6245,6 +6325,8 @@
       'lang.buttonLabel': 'Yezh',
       'lang.searchPlaceholder': 'Klask ur yezh…',
       'lang.searchNoResults': 'Yezh ebet kavet.',
+      'currency.buttonLabel': 'Moneiz',
+      'currency.auto': 'Emgefre (hervez ar vro)',
 
       'hero.eyebrow': 'Ganerez beajoù mac\'hus',
       'hero.title': 'Kab war an dianav',
@@ -6482,6 +6564,8 @@
       'lang.buttonLabel': 'Lingua',
       'lang.searchPlaceholder': 'Cerca una lingua…',
       'lang.searchNoResults': 'Nisuna lingua trovata.',
+      'currency.buttonLabel': 'Munita',
+      'currency.auto': 'Automaticu (secondu u paese)',
 
       'hero.eyebrow': 'Generatore di viaghju misteriosu',
       'hero.title': 'Rotta versu l\'ignotu',
@@ -6719,6 +6803,8 @@
       'lang.buttonLabel': 'Lhéngua',
       'lang.searchPlaceholder': 'Percurar ua lhéngua…',
       'lang.searchNoResults': 'Nun s\'ancontrou nanhũa lhéngua.',
+      'currency.buttonLabel': 'Moneda',
+      'currency.auto': 'Outomática (deacordo cul país)',
 
       'hero.eyebrow': 'Generador de biaige mistiriosa',
       'hero.title': 'Rumo al\'ancunhecido',
@@ -6960,6 +7046,8 @@
       'lang.buttonLabel': 'Teanga',
       'lang.searchPlaceholder': 'Cuardaigh teanga…',
       'lang.searchNoResults': 'Níor aimsíodh aon teanga.',
+      'currency.buttonLabel': 'Airgeadra',
+      'currency.auto': 'Uathoibríoch (de réir na tíre)',
 
       'hero.eyebrow': 'Gineadóir aicearra bóthair rúndiamhair',
       'hero.title': 'I dtreo an Anaithnid',
@@ -7202,6 +7290,8 @@
       'lang.buttonLabel': "Çhengey",
       'lang.searchPlaceholder': "Shir çhengey…",
       'lang.searchNoResults': "Cha row çhengey erbee er ny gheddyn.",
+      'currency.buttonLabel': 'Argid',
+      'currency.auto': 'Yn-tosheiaght (rere yn cheer)',
 
       'hero.eyebrow': "Gineyder turrys-raad folliaghtagh",
       'hero.title': "Raad gys yn Quaagh",
@@ -7439,6 +7529,8 @@
       'lang.buttonLabel': "Iaith",
       'lang.searchPlaceholder': "Chwilio am iaith…",
       'lang.searchNoResults': "Ni chanfuwyd unrhyw iaith.",
+      'currency.buttonLabel': 'Arian cyfred',
+      'currency.auto': 'Awtomatig (yn ôl y wlad)',
 
       'hero.eyebrow': "Generadur taith ffordd ddirgel",
       'hero.title': "Cwrs am yr Anhysbys",
@@ -7676,6 +7768,8 @@
       'lang.buttonLabel': "Cànan",
       'lang.searchPlaceholder': "Lorg cànan…",
       'lang.searchNoResults': "Cha deach cànan a lorg.",
+      'currency.buttonLabel': 'Airgeadra',
+      'currency.auto': 'Fèin-obrachail (a rèir na dùthcha)',
 
       'hero.eyebrow': "Gineadair turas-rathaid dìomhair",
       'hero.title': "Cùrsa dhan Anaithnichte",
@@ -7914,6 +8008,8 @@
       'lang.buttonLabel': "Yeth",
       'lang.searchPlaceholder': "Hwilas yeth…",
       'lang.searchNoResults': "Ny gafas yeth vytholl.",
+      'currency.buttonLabel': 'Mona',
+      'currency.auto': 'Awtomatek (herwydh an pow)',
 
       'hero.eyebrow': "Jynn-gwrians vyaj-fordh kevrinek",
       'hero.title': "Kors dhe'n Anaswonys",
@@ -8153,6 +8249,8 @@
       'lang.buttonLabel': "Leid",
       'lang.searchPlaceholder': "Sairch for a leid…",
       'lang.searchNoResults': "Nae leid faund.",
+      'currency.buttonLabel': 'Currency',
+      'currency.auto': 'Automatic (bi kintra)',
 
       'hero.eyebrow': "Mystery road trip gineratour",
       'hero.title': "Cap oan the Unkent",
@@ -8390,6 +8488,8 @@
       'lang.buttonLabel': "Jazyk",
       'lang.searchPlaceholder': "Hledat jazyk…",
       'lang.searchNoResults': "Nebyl nalezen žádný jazyk.",
+      'currency.buttonLabel': 'Měna',
+      'currency.auto': 'Automaticky (podle země)',
 
       'hero.eyebrow': "Generátor tajemného road tripu",
       'hero.title': "Kurz na neznámo",
@@ -8626,6 +8726,8 @@
       'lang.buttonLabel': "Język",
       'lang.searchPlaceholder': "Szukaj języka…",
       'lang.searchNoResults': "Nie znaleziono żadnego języka.",
+      'currency.buttonLabel': 'Waluta',
+      'currency.auto': 'Automatycznie (wg kraju)',
 
       'hero.eyebrow': "Generator tajemniczej podróży samochodowej",
       'hero.title': "Kurs na nieznane",
@@ -8862,6 +8964,8 @@
       'lang.buttonLabel': "Jazyk",
       'lang.searchPlaceholder': "Hľadať jazyk…",
       'lang.searchNoResults': "Nenašiel sa žiadny jazyk.",
+      'currency.buttonLabel': 'Mena',
+      'currency.auto': 'Automaticky (podľa krajiny)',
 
       'hero.eyebrow': "Generátor tajomného road tripu",
       'hero.title': "Kurz na neznáme",
@@ -9099,6 +9203,8 @@
       'lang.buttonLabel': "Nyelv",
       'lang.searchPlaceholder': "Nyelv keresése…",
       'lang.searchNoResults': "Nem található nyelv.",
+      'currency.buttonLabel': 'Pénznem',
+      'currency.auto': 'Automatikus (ország szerint)',
 
       'hero.eyebrow': "Titokzatos road trip generátor",
       'hero.title': "Irány az ismeretlen",
@@ -9336,6 +9442,8 @@
       'lang.buttonLabel': 'Jezik',
       'lang.searchPlaceholder': 'Iskanje jezika…',
       'lang.searchNoResults': 'Ni najdenega jezika.',
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Samodejno (glede na državo)',
 
       'hero.eyebrow': 'Generator skrivnostnega potovanja',
       'hero.title': 'Kurz proti neznanemu',
@@ -9574,6 +9682,8 @@
       'lang.buttonLabel': "Jezik",
       'lang.searchPlaceholder': "Pretraživanje jezika…",
       'lang.searchNoResults': "Jezik nije pronađen.",
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Automatski (prema državi)',
 
       'hero.eyebrow': "Generator tajanstvenog putovanja",
       'hero.title': "Kurs prema nepoznatom",
@@ -9814,6 +9924,8 @@
       'lang.buttonLabel': "Jezik",
       'lang.searchPlaceholder': "Pretraživanje jezika…",
       'lang.searchNoResults': "Jezik nije pronađen.",
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Automatski (prema državi)',
 
       'hero.eyebrow': "Generator tajanstvenog putovanja",
       'hero.title': "Kurs prema nepoznatom",
@@ -10055,6 +10167,8 @@
       'lang.buttonLabel': "Језик",
       'lang.searchPlaceholder': "Претрага језика…",
       'lang.searchNoResults': "Језик није пронађен.",
+      'currency.buttonLabel': 'Валута',
+      'currency.auto': 'Аутоматски (према држави)',
 
       'hero.eyebrow': "Генератор тајанственог путовања",
       'hero.title': "Курс ка непознатом",
@@ -10292,6 +10406,8 @@
       'lang.buttonLabel': "Sprog",
       'lang.searchPlaceholder': "Søg et sprog…",
       'lang.searchNoResults': "Intet sprog fundet.",
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Automatisk (efter land)',
 
       'hero.eyebrow': "Generator til mystisk roadtrip",
       'hero.title': "Kurs mod det ukendte",
@@ -10538,6 +10654,8 @@
       'lang.buttonLabel': "Språk",
       'lang.searchPlaceholder': "Søk et språk…",
       'lang.searchNoResults': "Ingen språk funnet.",
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Automatisk (etter land)',
 
       'hero.eyebrow': "Generator for mystisk road trip",
       'hero.title': "Kurs mot det ukjente",
@@ -10779,6 +10897,8 @@
       'lang.buttonLabel': "Språk",
       'lang.searchPlaceholder': "Sök ett språk…",
       'lang.searchNoResults': "Inget språk hittades.",
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Automatiskt (efter land)',
 
       'hero.eyebrow': "Generator för mystisk roadtrip",
       'hero.title': "Kurs mot det okända",
@@ -11021,6 +11141,8 @@
       'lang.buttonLabel': "Kieli",
       'lang.searchPlaceholder': "Hae kieltä…",
       'lang.searchNoResults': "Kieltä ei löytynyt.",
+      'currency.buttonLabel': 'Valuutta',
+      'currency.auto': 'Automaattinen (maan mukaan)',
 
       'hero.eyebrow': "Mystisen road tripin generaattori",
       'hero.title': "Kurssi kohti tuntematonta",
@@ -11269,6 +11391,8 @@
       'lang.buttonLabel': "Gjuha",
       'lang.searchPlaceholder': "Kërko një gjuhë…",
       'lang.searchNoResults': "Nuk u gjet asnjë gjuhë.",
+      'currency.buttonLabel': 'Monedha',
+      'currency.auto': 'Automatike (sipas vendit)',
 
       'hero.eyebrow': "Gjenerator udhëtimi misterioz",
       'hero.title': "Kurs drejt të panjohurës",
@@ -11519,6 +11643,8 @@
       'lang.buttonLabel': "Jezik",
       'lang.searchPlaceholder': "Pretraživanje jezika…",
       'lang.searchNoResults': "Jezik nije pronađen.",
+      'currency.buttonLabel': 'Valuta',
+      'currency.auto': 'Automatski (prema državi)',
 
       'hero.eyebrow': "Generator tajanstvenog putovanja",
       'hero.title': "Kurs prema nepoznatom",
@@ -11764,6 +11890,8 @@
       'lang.buttonLabel': "Јазик",
       'lang.searchPlaceholder': "Пребарај јазик…",
       'lang.searchNoResults': "Не е пронајден јазик.",
+      'currency.buttonLabel': 'Валута',
+      'currency.auto': 'Автоматски (според земјата)',
 
       'hero.eyebrow': "Генератор на мистериозно патување",
       'hero.title': "Курс кон непознатото",
@@ -12006,6 +12134,8 @@
       'lang.buttonLabel': "Limbă",
       'lang.searchPlaceholder': "Căutați o limbă…",
       'lang.searchNoResults': "Nicio limbă găsită.",
+      'currency.buttonLabel': 'Monedă',
+      'currency.auto': 'Automat (în funcție de țară)',
 
       'hero.eyebrow': "Generator de călătorie misterioasă",
       'hero.title': "Cap spre necunoscut",
@@ -12943,7 +13073,7 @@
 
   function renderSwitcherButton(){
     if(!buttonEl) return;
-    buttonEl.querySelector('.lang-toggle-code').textContent = lang.toUpperCase();
+    buttonEl.querySelector('.lang-toggle-flag').textContent = LANG_FLAGS[lang] || lang.toUpperCase();
   }
 
   function closePanel(){
@@ -12977,8 +13107,9 @@
       li.setAttribute('role', 'option');
       li.setAttribute('aria-selected', code === lang ? 'true' : 'false');
       var codeSpan = document.createElement('span');
-      codeSpan.className = 'lang-option-code';
-      codeSpan.textContent = code.toUpperCase();
+      codeSpan.className = 'lang-option-flag';
+      codeSpan.textContent = LANG_FLAGS[code] || code.toUpperCase();
+      codeSpan.setAttribute('aria-hidden', 'true'); // décoratif : le nom est repris en texte juste à côté (nameSpan)
       var nameSpan = document.createElement('span');
       nameSpan.className = 'lang-option-name';
       nameSpan.textContent = LANG_NAMES[code];
@@ -13002,7 +13133,7 @@
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
         '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.8 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.8-3.8-9S9.5 5.5 12 3Z"/>' +
       '</svg>' +
-      '<span class="lang-toggle-code"></span>';
+      '<span class="lang-toggle-flag"></span>';
 
     panelEl = document.createElement('div');
     panelEl.className = 'lang-panel';
@@ -13040,8 +13171,12 @@
   function applyPanelTexts(){
     if(!searchInput) return;
     searchInput.placeholder = t('lang.searchPlaceholder');
-    buttonEl.setAttribute('aria-label', t('lang.buttonLabel'));
-    buttonEl.title = t('lang.buttonLabel');
+    // Le bouton n'affiche plus qu'un drapeau (voir renderSwitcherButton) : le nom de la langue
+    // actuelle est ajouté au label accessible/à l'infobulle, sans quoi "🇷🇸" seul ne dit rien à un
+    // lecteur d'écran ni au survol (contrairement à l'ancien "RS" déjà auto-porteur).
+    var full = t('lang.buttonLabel') + ' — ' + (LANG_NAMES[lang] || lang);
+    buttonEl.setAttribute('aria-label', full);
+    buttonEl.title = full;
   }
 
   function init(){

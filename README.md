@@ -512,6 +512,17 @@ aux côtés du français et de l'allemand déjà couverts. L'italien et le roman
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
 (~40 000 locuteurs, Grisons) est traduit en rumantsch grischun (forme écrite standardisée).
 
+**Sélecteur de langue** : le bouton n'affiche plus un code à deux lettres (« FR », « MK »...) mais
+un drapeau (`LANG_FLAGS` dans `public/js/i18n.js`) — national la plupart du temps, mais RÉGIONAL
+pour les trois langues qui en ont un vrai en Unicode (Écosse pour le gaélique écossais/le scots,
+pays de Galles pour le gallois, via la séquence de balises ISO 3166-2 plutôt qu'un simple émoji
+composé). La plupart des 51 langues du site n'ont cela dit AUCUN drapeau Unicode qui leur soit
+propre (aucune norme n'encode par exemple un drapeau breton, basque, sarde ou sorabe) : chacune
+reprend alors le drapeau national ou régional le plus directement associé à son aire linguistique,
+au prix d'un même drapeau parfois partagé par plusieurs langues d'un même pays — un vrai drapeau
+distinct par langue impliquerait des illustrations SVG infra-nationales hors norme Unicode,
+hors du périmètre de ce passage.
+
 Le bas-allemand, le sorabe et le frison du Nord sont arrivés avec l'Allemagne : trois de ses sept
 langues régionales/minoritaires reconnues par la charte européenne (les trois autres — danois,
 frison saterlandais, romani — restent hors périmètre pour l'instant, soit parce qu'une langue
@@ -1366,6 +1377,20 @@ du visiteur (`prefers-color-scheme`, déjà géré par `style.css`). Le choix es
 serveur. Un petit script identique et synchrone, exécuté dans le `<head>` de chaque page avant le
 chargement de la feuille de style, applique le choix mémorisé pour éviter un flash du mauvais thème
 au chargement.
+
+## Devise
+
+Le sélecteur de devise (bouton juste à côté du sélecteur de langue, en haut de la page) laisse le
+visiteur figer une seule devise pour tout le site — par défaut ("Automatique"), chaque étape de
+l'itinéraire affiche sa PROPRE devise selon son pays (voir `countryCurrency` dans `app.js`, ex. un
+budget affiché en DKK pour une étape danoise puis en RSD pour une étape serbe le lendemain) ; un
+choix explicite remplace ce comportement par une seule devise fixe partout, sur le plafond de prix
+budget/logement affiché ET sur les liens Airbnb/Booking générés (jamais sur le péage, toujours
+affiché en euros quelle que soit la devise choisie ou le pays traversé — voir "Pays couverts").
+Mémorisé dans le `localStorage` du navigateur (`js/app.js`, clé `currency`, même mécanique que
+`lang`/`theme`), jamais envoyé au serveur. La liste proposée est RECONSTRUITE depuis `COUNTRIES`
+plutôt que codée à la main (`CURRENCY_OPTIONS`) : treize devises actuellement (EUR + les douze pays
+hors zone euro déjà couverts), un nouveau pays avec une nouvelle devise y apparaît automatiquement.
 
 ## Référencement (SEO)
 
