@@ -3,7 +3,7 @@
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
 avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
 Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
-tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
+tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
 d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
 Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes/onze îles croates
 (voir "Ferries" plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface
@@ -22,7 +22,12 @@ cap-sur-linconnu/
 ├── server.js              # Express : sert public/ tel quel + une route GET /api/photo
 ├── scripts/
 │   ├── build-country-communes.js  # génère public/data/communes-XX.txt pour un nouveau pays (GeoNames)
-│   └── build-aliases.js           # génère public/data/aliases-XX.txt (noms multilingues, GeoNames)
+│   ├── build-aliases.js           # génère public/data/aliases-XX.txt (noms multilingues, GeoNames)
+│   ├── parse-ba-wiki-postal.js    # BOSNIE-HERZÉGOVINE SEULEMENT : extrait la liste Wikipedia des
+│   │                                # codes postaux (GeoNames n'en a aucun pour ce pays, voir plus bas)
+│   ├── build-ba-communes.js       # BOSNIE-HERZÉGOVINE SEULEMENT : rapproche par NOM (pas par
+│   │                                # coordonnées) les communes GeoNames des codes Wikipedia
+│   └── build-ba-aliases.js        # BOSNIE-HERZÉGOVINE SEULEMENT : alias multilingues, même principe
 ├── public/
 │   ├── index.html
 │   ├── mentions-legales.html
@@ -82,6 +87,9 @@ cap-sur-linconnu/
 │       ├── communes-hr.txt     # ~11 323 lieux croates, même format (48 noms corrigés Ð->Đ, voir
 │       │                        # scripts/build-country-communes.js, confusion de caractère GeoNames)
 │       ├── aliases-hr.txt      # idem pour la Croatie (116 alias, dont 82 en italien — Istrie/Dalmatie)
+│       ├── communes-ba.txt     # 374 lieux bosniens SEULEMENT (codes postaux Wikipedia, pas GeoNames
+│       │                        # — voir "Pays couverts" et scripts/build-ba-communes.js)
+│       ├── aliases-ba.txt      # idem pour la Bosnie-Herzégovine (12 alias)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -101,7 +109,7 @@ les trois premières routes.
 
 Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
-Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie et Croatie pour l'instant, d'autres viendront. Chaque pays ajoute deux à
+Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie et Bosnie-Herzégovine pour l'instant, d'autres viendront. Chaque pays ajoute deux à
 trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -110,7 +118,28 @@ trois choses, indépendamment des autres :
    coordonnées, codes postaux, nom de région). Chargé au démarrage de l'app comme les autres
    (`COUNTRIES` dans `app.js`), fusionné dans le même tableau de communes que la France — une ville
    espagnole ou portugaise se cherche, se tire au sort et se compare aux autres exactement comme
-   une ville française.
+   une ville française. **Exception, la Bosnie-Herzégovine** : GeoNames n'a AUCUN fichier de codes
+   postaux pour ce pays (`export/zip/BA.zip` répond 404 — vérifié, un cas inédit parmi tous les pays
+   ci-dessus). `scripts/build-country-communes.js` n'a donc pas pu servir tel quel : trois scripts
+   dédiés (`parse-ba-wiki-postal.js`, `build-ba-communes.js`, `build-ba-aliases.js`) reconstruisent
+   à la place de VRAIS codes postaux depuis la liste [Wikipedia "Postal codes in Bosnia and
+   Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina) (sourcée BH
+   Pošta/HP Mostar/Pošte Srpske, les trois opérateurs postaux du pays — licence CC-BY-SA 4.0, voir
+   "Sources des données"), rapprochée des communes GeoNames par NOM plutôt que par coordonnées (le
+   fichier Wikipedia n'a pas de coordonnées). Rapprocher par nom seul est risqué dès qu'un même nom
+   de village existe à plusieurs endroits du pays — très fréquent en Bosnie-Herzégovine, vérifié
+   ("Zabrđe" désigne 8 lieux distincts, jusqu'à 157 km d'écart) : `build-ba-communes.js` n'assigne
+   donc un code postal que si UNE SEULE commune de ce nom a une population connue nettement
+   dominante (ex. Zenica, 164 423 hab. contre 0 pour ses deux homonymes) ou si tous les homonymes
+   sont à moins de 15 km les uns des autres (probablement le même lieu, plusieurs points GeoNames
+   décalés) — sinon le nom est écarté EN BLOC plutôt que deviné. Résultat : 374 communes retenues sur
+   582 entrées de codes postaux extraites de Wikipedia, avec 92 noms écartés pour ambiguïté et 71
+   entrées Wikipedia sans commune GeoNames correspondante (souvent des bureaux/guichets de poste
+   plutôt que de vrais lieux distincts, ex. "Mostar-Avenija", "Mostar-CIPS") — une couverture
+   nettement plus modeste que les autres pays, mais entièrement fondée sur de vraies données plutôt
+   que sur une correspondance devinée. Choix explicite de l'utilisateur (voir historique des
+   commits) : reconstruire malgré ce travail supplémentaire plutôt que d'ajouter les communes sans
+   code postal ou de reporter le pays.
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -172,6 +201,14 @@ trois choses, indépendamment des autres :
    HAC 2026) : catégorie I (voiture) 24,50 €, IA (moto) 12,30 €, II (van/remorque) 36,70 € — soit
    0,060/0,090/0,030 €/km, des ratios ×1,5/×0,5 exacts par rapport à la classe 1 (pas une
    extrapolation comme pour l'Italie/l'Espagne/le Portugal, de VRAIS ratios officiels). `hasToll:true`.
+   La Bosnie-Herzégovine rejoint elle aussi ce groupe à péage fermé, mais avec un réseau bien plus
+   jeune et court (~200 km, corridor Vc encore en construction par tronçons) et DEUX gestionnaires
+   sans grille tarifaire unique publiée (JP Autoceste FBiH côté Fédération, AD Autoputevi RS côté
+   Republika Srpska). Six tronçons réels retenus (tolls.eu 2026), de 0,09 à 0,29 KM/km selon le
+   tronçon (les plus courts coûtant proportionnellement plus cher), moyenne ~0,19 KM/km — converti
+   au taux de caisse d'émission FIXE (1 EUR = 1,95583 KM depuis 1997, jamais dévalué en 28 ans, voir
+   point 3 ci-dessous) plutôt qu'à un taux flottant : ~0,097 €/km, classes 2/5 extrapolées au ratio
+   France/Espagne/Italie (×1,55/×0,58) faute de grille par catégorie ici. `hasToll:true`.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -190,10 +227,20 @@ trois choses, indépendamment des autres :
    avoir adopté l'euro (dès 2007), et seule des quatre voisines directes de l'Italie/l'Autriche ici
    couvertes (avec la Slovaquie) à être en zone euro — absente elle aussi de `COUNTRIES.SI.currency`.
    La Croatie non plus : adoption la plus RÉCENTE de tous les pays ici couverts (1er janvier 2023,
-   remplaçant la kuna croate/HRK) — absente elle aussi de `COUNTRIES.HR.currency`. La devise détermine le plafond de prix affiché pour le logement
+   remplaçant la kuna croate/HRK) — absente elle aussi de `COUNTRIES.HR.currency`. La
+   Bosnie-Herzégovine, elle, A besoin du champ (`BAM`, le mark convertible, symbole KM) : hors zone
+   euro (candidate à l'UE depuis 2022 seulement, hors zone euro ET hors MCE II) mais à PARITÉ FIXE
+   avec l'euro depuis 1997 via caisse d'émission (currency board) — 1 EUR = 1,95583 KM exactement,
+   jamais dévalué en 28 ans, le même taux que le deutsche mark avait avec l'euro. Paliers
+   `BUDGET_PRICE_MAX.BAM` calés à ~70% de cette conversion fixe (même profil "moins cher que la zone
+   euro" que CZK/PLN/HUF — moyenne Airbnb à Sarajevo ~56-65 €/nuit, chambres privées hors centre
+   ~20-36 €/nuit). La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
-   la devise des liens de recherche Airbnb/Booking générés — jamais le péage/ferry, qui ne sont de
-   toute façon jamais calculés pour un pays hors zone euro pour l'instant.
+   la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
+   euros quelle que soit la devise du pays (voir `toll.enabled`/`toll.disabled` dans `i18n.js`, non
+   paramétrées par devise) ; la Bosnie-Herzégovine est le premier pays `hasToll:true` hors zone euro
+   ici couvert, son péage reste donc affiché en € comme celui de la France ou de la Croatie, jamais
+   en KM.
 
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
@@ -416,7 +463,34 @@ commits) : ajouter quand même, avec une confiance plus faible documentée dans 
 (`public/js/i18n.js`, commentaire au-dessus du bloc `ruo`), ou s'en tenir aux langues mieux établies.
 Réponse : ajouter quand même — même choix que pour Monaco/Jersey/Guernesey.
 
-Bouton de sélection à côté du bouton de thème, avec un champ de recherche (pensé pour accueillir
+La Bosnie-Herzégovine, elle, n'apporte AUCUNE nouvelle langue — mais pour une raison différente de
+tous les pays précédents, propre à ce pays. Elle a trois langues officielles constitutionnelles à
+l'échelle du pays (bosnien, croate, serbe — les langues des trois peuples constitutifs), aucune
+minoritaire ou régionale au sens habituel : exactement le même traitement que pour chaque pays
+depuis la République tchèque (jamais la langue nationale elle-même du pays ajouté, quel que soit son
+nombre — un seul comme le tchèque/le polonais/le slovaque/le hongrois/le slovène/le croate, ou trois
+comme ici) reste hors périmètre de ce sélecteur, qui ne couvre que des langues RÉGIONALES ou
+minoritaires. Traitement volontairement symétrique entre les trois — aucune des trois n'est ajoutée,
+aucune des trois n'est favorisée. La Charte européenne des langues régionales ou minoritaires
+s'applique en Bosnie-Herzégovine (depuis 2011) à quinze langues : l'allemand, l'italien et le ruthène
+(rusyn) sont déjà couverts et en profitent automatiquement, sans changement de code (même mécanisme
+que pour la Croatie) ; l'albanais, le tchèque, le hongrois, le polonais, le roumain, le slovaque, le
+slovène, le turc et l'ukrainien sont écartés pour le motif habituel — langues nationales d'Etats
+souverains, qu'ils soient déjà couverts comme pays (République tchèque, Pologne, Slovaquie, Slovénie)
+ou non (Albanie, Roumanie, Turquie, Ukraine) ; le romani, comme partout ailleurs dans ce projet, n'a
+pas de forme écrite standard unique. Restent le ladino (judéo-espagnol) et le yiddish, les deux
+seules langues de la liste sans Etat souverain propre — mais toutes deux pratiquement éteintes en
+Bosnie-Herzégovine spécifiquement : la communauté séfarade de Sarajevo, qui parlait le ladino depuis
+l'expulsion d'Espagne à la fin du XVe siècle (encore langue maternelle de 10 000 des 70 000 habitants
+de Sarajevo au recensement de 1921), a été décimée pendant la Shoah — il n'en reste aujourd'hui que
+2 locuteurs couramment (jta.org, voanews.com, échantillon 2022-2023), un ordre de grandeur comparable
+au karaïm de Pologne (1 locutrice, écarté au tour de la Pologne) plutôt qu'à l'istro-roumain
+ci-dessus (moins de cent). Le yiddish, langue de la minorité ashkénaze du pays, toujours restée bien
+plus petite que la majorité séfarade (2 000 contre 12 000 Juifs à Sarajevo avant-guerre, sur une
+communauté totale d'environ 500 personnes aujourd'hui — worldjewishcongress.org, balkandiskurs.com)
+n'a pas de décompte de locuteurs précis trouvé, mais un profil au moins aussi marginal que le ladino
+dans un pays où même celui-ci ne compte plus que deux locuteurs courants. Écartées toutes les deux
+pour ce motif, cohérent avec le précédent karaïm.
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
 et, à défaut, détecté depuis la langue du navigateur. Un changement de langue en cours de session
 retraduit aussi bien le formulaire qu'un itinéraire déjà affiché, sans le retirer au sort (voir
@@ -682,8 +756,12 @@ au chargement.
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
+- Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
+  [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
+  (licence [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)), rapprochée par nom des
+  communes GeoNames ci-dessus.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.
 - Points d'intérêt : [OpenStreetMap](https://www.openstreetmap.org) via l'API Overpass — figés dans
@@ -698,8 +776,9 @@ au chargement.
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /
   [Via Verde](https://www.vialivre.pt) (Portugal), [Autostrade per l'Italia](https://www.autostrade.it)
   (Italie), [HAC](https://www.hac.hr) (Croatie — via mojkalkulator.com.hr pour l'agrégation des
-  tarifs 2026) — voir "Pays couverts" pour la méthode de calcul hors de France (échantillon plus
-  restreint que pour la France).
+  tarifs 2026), JP Autoceste FBiH / AD Autoputevi RS (Bosnie-Herzégovine — via tolls.eu pour
+  l'agrégation des tarifs 2026) — voir "Pays couverts" pour la méthode de calcul hors de France
+  (échantillon plus restreint que pour la France).
 - Tarifs de ferry croates : [Jadrolinija](https://www.jadrolinija.hr) pour dix des onze lignes,
   [Rapska Plovidba](https://www.rapska-plovidba.hr) pour Rab (Stinica-Mišnjak) — voir "Ferries"
   ci-dessus.

@@ -79,8 +79,17 @@
   // (voiture) 24,50 €, catégorie II (van/remorque) 36,70 €, catégorie IA (moto) 12,30 € — soit
   // 0,060 €/km (classe 1), 0,090 €/km (classe 2, ratio ×1,5 EXACT par rapport à la classe 1, une
   // vraie donnée plutôt qu'une extrapolation), 0,030 €/km (classe 5, ratio ×0,5 EXACT lui aussi) —
-  // voir TOLL_RATE_BY_COUNTRY.HR plus bas. hasToll:true, comme la France/l'Espagne/l'Italie.
-  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR seulement) : noms alternatifs par
+  // voir TOLL_RATE_BY_COUNTRY.HR plus bas. hasToll:true, comme la France/l'Espagne/l'Italie. La
+  // Bosnie-Herzégovine rejoint elle aussi ce groupe à péage fermé : réseau encore limité (~200 km
+  // au total, deux gestionnaires — JP Autoceste FBiH pour le corridor Vc/A1 Sarajevo-Zenica et le
+  // tronçon sud vers la Croatie, AD Autoputevi RS pour le tronçon nord Gradiška-Doboj/E661
+  // Gradiška-Banja Luka), tickets payés à la sortie. Barème 2026 moins homogène que pour la Croatie
+  // (aucune source unique avec grille par catégorie) : six sections réelles retenues (tolls.eu),
+  // 0,09 à 0,29 KM/km selon le tronçon, moyenne ~0,19 KM/km — converti au taux de caisse d'émission
+  // fixe (1 EUR = 1,95583 KM depuis 1997, voir COUNTRIES.BA.currency plus bas) : ~0,097 €/km,
+  // classes 2/5 extrapolées au ratio France/Espagne/Italie (×1,55/×0,58) faute de grille par
+  // catégorie ici. hasToll:true.
+  // aliasFile (AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA seulement) : noms alternatifs par
   // langue (voir scripts/build-aliases.js, source GeoNames alternateNamesV2) — permet de saisir une
   // ville dans la langue choisie pour l'interface (ex. "Anvers" pour la commune belge "Antwerpen",
   // "La Haye" pour la commune néerlandaise "Den Haag" — voir searchCommunes plus bas). Absent pour la
@@ -104,7 +113,13 @@
   // le faire, et la SEULE des quatre voisines directes de l'Italie/l'Autriche ici couvertes (avec la
   // Slovaquie) à être dans la zone euro : absente de COUNTRIES.SI.currency, EUR par défaut. La
   // Croatie, elle, a adopté l'euro le 1er janvier 2023 — la plus récente adoption parmi tous les pays
-  // ici couverts, remplaçant la kuna croate (HRK) : absente elle aussi de COUNTRIES.HR.currency.
+  // ici couverts, remplaçant la kuna croate (HRK) : absente elle aussi de COUNTRIES.HR.currency. La
+  // Bosnie-Herzégovine, elle, n'a PAS l'euro et n'est même pas candidate à l'adoption à court terme
+  // (candidate à l'UE depuis 2022 seulement, hors zone euro ET hors MCE II) : sa monnaie propre, le
+  // mark convertible ('BAM', symbole KM) — mais à la différence du forint hongrois ou de la couronne
+  // tchèque, à PARITÉ FIXE avec l'euro depuis 1997 via caisse d'émission (currency board), jamais
+  // dévaluée depuis 28 ans : 1 EUR = 1,95583 BAM exactement, le même taux que le deutsche mark avait
+  // avec l'euro.
   var COUNTRIES = {
     FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
     AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
@@ -134,7 +149,8 @@
       vignette:{ url:'https://ematrica.nemzetiutdij.hu/' } },
     SI: { code:'SI', name:'Slovénie', file:'communes-si.txt', hasToll:false, aliasFile:'aliases-si.txt',
       vignette:{ url:'https://evinjeta.dars.si/' } },
-    HR: { code:'HR', name:'Croatie', file:'communes-hr.txt', hasToll:true, aliasFile:'aliases-hr.txt' }
+    HR: { code:'HR', name:'Croatie', file:'communes-hr.txt', hasToll:true, aliasFile:'aliases-hr.txt' },
+    BA: { code:'BA', name:'Bosnie-Herzégovine', file:'communes-ba.txt', hasToll:true, aliasFile:'aliases-ba.txt', currency:'BAM' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -163,7 +179,7 @@
   // "£" devant le montant en anglais, mais rester en code ISO ici évite toute ambiguïté avec les
   // livres locales de Guernesey/Jersey (jamais interchangeables avec un simple "£" hors de leurs
   // îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM' };
 
   // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
@@ -399,13 +415,25 @@
   //   ≈ ×0,5), retenus tels quels plutôt qu'arrondis au ratio français/espagnol habituel — d'où
   //   0,060/0,090/0,030 €/km, une progression exactement ×1,5/×0,5 qui n'est ici PAS une
   //   coïncidence de calcul.
+  // - Bosnie-Herzégovine : péage fermé elle aussi, mais réseau bien plus jeune/court (~200 km,
+  //   corridor Vc encore en construction par tronçons) et réparti entre DEUX gestionnaires (JP
+  //   Autoceste FBiH, AD Autoputevi RS) sans grille tarifaire unique publiée. Six tronçons réels
+  //   retenus (tolls.eu 2026) : Svilaj-Odžak (8 km, 1,20 KM), Laktaši-Doboj (79 km, 7 KM),
+  //   Gradiška-Banja Luka (27 km, 3,50 KM), Sarajevo Sjever-Zenica Sjever (60 km, 14 KM), Sarajevo
+  //   Zapad-Bradina (24 km, 7 KM), Čapljina-Ljubuški (18 km, 4,40 KM) — de 0,09 à 0,29 KM/km selon
+  //   le tronçon (les plus courts coûtent proportionnellement plus cher, comme souvent), moyenne
+  //   ~0,19 KM/km. Converti au taux de caisse d'émission FIXE (1 EUR = 1,95583 KM, voir
+  //   COUNTRIES.BA.currency) plutôt qu'à un taux de marché flottant : ~0,097 €/km. Classes 2/5
+  //   extrapolées au ratio France/Espagne/Italie (×1,55/×0,58) faute de grille par catégorie ici,
+  //   contrairement à la Croatie.
   var TOLL_RATE_BY_CLASS = { 1: 0.148, 2: 0.230, 5: 0.086 };
   var TOLL_RATE_BY_COUNTRY = {
     FR: TOLL_RATE_BY_CLASS,
     ES: { 1: 0.14, 2: 0.218, 5: 0.081 },
     PT: { 1: 0.036, 2: 0.056, 5: 0.021 },
     IT: { 1: 0.086, 2: 0.133, 5: 0.050 },
-    HR: { 1: 0.060, 2: 0.090, 5: 0.030 }
+    HR: { 1: 0.060, 2: 0.090, 5: 0.030 },
+    BA: { 1: 0.097, 2: 0.150, 5: 0.056 }
   };
   var TOLL_MIN_DISTANCE_KM = 60; // en-deçà, le péage n'entre pas en ligne de compte
 
@@ -719,12 +747,19 @@
   // ville la plus chère du pays) va de ~12 000-18 000 Ft pour les appartements d'entrée de gamme
   // hors centre à ~23 000-25 000 Ft de médiane, jusqu'à 60 000+ Ft pour le haut de gamme (échantillon
   // airroi.com/airbtics.com 2026) — paliers calés sous la médiane budapestoise, cohérent avec les
-  // petites communes tirées au sort par ce générateur.
+  // petites communes tirées au sort par ce générateur. BAM (Bosnie-Herzégovine) : même profil
+  // "moins cher que la zone euro" une fois encore — à Sarajevo (la ville la plus chère du pays),
+  // moyenne Airbnb ~61-71 $/nuit selon le mois (~56-65 €), chambres privées en dehors du centre
+  // (Grbavica/Kovačići) ~40-70 KM/nuit (~20-36 €, échantillon likibu.com/thehoteljournal.com 2026)
+  // — paliers calés à ~70% de la conversion EUR->BAM au taux fixe (1,95583), cohérent avec le ratio
+  // déjà observé pour PLN (~80%) et plus prudent que HUF (~38-40%) faute d'un échantillon aussi
+  // large que pour les autres devises.
   var BUDGET_PRICE_MAX = {
     EUR: { economique: 70, moyen: 130, confortable: 260 },
     CHF: { economique: 130, moyen: 250, confortable: 480 },
     GBP: { economique: 60, moyen: 120, confortable: 220 },
     CZK: { economique: 1000, moyen: 2000, confortable: 4000 },
+    BAM: { economique: 100, moyen: 180, confortable: 350 },
     PLN: { economique: 250, moyen: 450, confortable: 900 },
     HUF: { economique: 10000, moyen: 20000, confortable: 40000 }
   };

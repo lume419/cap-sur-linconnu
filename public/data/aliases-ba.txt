@@ -1,0 +1,12 @@
+en;Šuica;Šujica
+fr;Šuica;Šujica
+es;Šuica;Šujica
+nl;Šuica;Šujica
+hsb;Sarajewo;Sarajevo
+fr;Medjugorje;Međugorje
+it;Medjugorie;Međugorje
+nl;Medjugorje;Međugorje
+mt;Medjugori;Međugorje
+de;Medjugorje;Međugorje
+en;Dubica;Kozarska Dubica
+es;Bania Luka;Banja Luka
