@@ -1,10 +1,19 @@
+ca;San Julià;Sant Julià de Lòria
+ca;Santuari de Meritxell;Meritxell
 fr;Sanctuaire de Meritxeli;Meritxell
+ca;Escaldes;les Escaldes
 fr;Escaldes-Engordany;les Escaldes
 es;Escaldes-Engordany;les Escaldes
 en;Escaldes-Engordany;les Escaldes
 de;Escaldes-Engordany;les Escaldes
+ca;Escaldes-Engordany;les Escaldes
+eu;Escaldes-Engordany;les Escaldes
+it;Escaldes-Engordany;les Escaldes
 nl;Escaldes-Engordany;les Escaldes
 pt;Escaldes-Engordany;les Escaldes
+ca;Juverri;Juberri
 fr;Andorre-la-Vieille;Andorra la Vella
+gl;Andorra a Vella;Andorra la Vella
 pt;Andorra-a-Velha;Andorra la Vella
+oc;Andòrra la Vièlha;Andorra la Vella
 en;Bordes de Envalira;Bordes d'Envalira

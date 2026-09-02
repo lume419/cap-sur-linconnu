@@ -23,8 +23,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['BA']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR déjà générés
-// et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr.txt)
+// RATTRAPAGE, pas un nouveau pays : AD/ES/PT ont chacun déjà leur communes-XX.txt (inchangés), mais
+// leurs aliases-XX.txt datent d'avant l'ajout du catalan/basque/galicien/occitan (voir plus bas) —
+// des alias dans ces langues existaient déjà dans alternateNamesV2 mais restaient filtrés par
+// SUPPORTED_LANGS. Réexécuté ici pour les trois SEULEMENT (les autres pays n'ont aucune de ces
+// langues en jeu) afin de régénérer leurs fichiers d'alias avec le nouvel ensemble de langues.
+const COUNTRIES = ['AD', 'ES', 'PT']; // BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA
+// déjà générés et commités (public/data/aliases-be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
@@ -60,7 +65,35 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // régionales/minoritaires Partie II depuis 2010, mais aucun statut de minorité nationale) — ajoutée
 // malgré cette confiance plus faible, choix explicite de l'utilisateur (voir README "Langues"),
 // cohérent avec le monégasque/jèrriais/guernésiais.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo']);
+// RATTRAPAGE France/Espagne/Portugal/Andorre (voir README "Langues") : ces quatre pays, parmi les
+// tout premiers ajoutés au tout début du projet, n'avaient JAMAIS eu leurs propres langues
+// régionales évaluées — l'audit systématique "quelles langues régionales ce pays apporte-t-il ?"
+// n'existait pas encore à l'époque. "ca" (catalan, ISO 639-1) : langue OFFICIELLE UNIQUE d'Andorre
+// (jamais ajoutée non plus quand Andorre a été couverte — même traitement que le maltais/le
+// luxembourgeois, la langue nationale d'un petit pays non encore représentée ailleurs), co-officielle
+// en Catalogne/au Pays valencien/aux Baléares en Espagne (statut constitutionnel, ~9 millions de
+// locuteurs), langue régionale reconnue en Catalogne Nord (Pyrénées-Orientales) côté France. "eu"
+// (basque, ISO 639-1) : co-officiel au Pays basque/en Navarre espagnols (~1,2 million de locuteurs),
+// langue régionale côté français (Iparralde/Pays basque nord). "gl" (galicien, ISO 639-1) :
+// co-officiel en Galice (~2 millions de locuteurs). "oc" (occitan, ISO 639-1) : l'aranais (variété
+// occitane gasconne parlée dans le Val d'Aran) est CO-OFFICIEL en Catalogne aux côtés du catalan et
+// de l'espagnol — l'occitan lui-même est la langue régionale la plus répandue historiquement dans le
+// sud de la France (tradition littéraire des troubadours, mouvement félibrige), reconnue "langue de
+// France" par le ministère de la Culture (DGLFLF) sans statut co-officiel (la France n'a jamais
+// ratifié la Charte européenne des langues régionales ou minoritaires, contrairement à tous les
+// autres pays déjà couverts ici). Même statut DGLFLF pour "br" (breton, ISO 639-1 — Bretagne, écoles
+// immersives Diwan, ~200 000 locuteurs) et "co" (corse, ISO 639-1 — Corse, statut proche du sarde
+// italien). Écartés à ce stade (voir README "Langues" pour le détail) : l'alsacien (dialecte
+// alémanique sans orthographe standard unique, très proche de l'allemand suisse déjà couvert par
+// l'esprit du bas-allemand mais pas directement), le francoprovençal/arpitan (continuum dialectal
+// trop fragmenté, aucune norme unique), le flamand occidental de France (quelques milliers de
+// locuteurs, même aire dialectale que le flamand occidental belge, déjà couvert par l'esprit du
+// néerlandais), et les langues d'oïl (picard, normand continental, gallo, poitevin-saintongeais...  —
+// aucune de ce groupe n'atteint le niveau de norme écrite ou de vitalité du breton/de l'occitan/du
+// corse). "mwl" (mirandais, ISO 639-3 — pas de code 639-1) : reconnu officiellement au Portugal pour
+// les affaires locales depuis la loi 7/99 (29 janvier 1999), Terra de Miranda (Miranda do
+// Douro/Mogadouro/Vimioso), ~10 000-15 000 locuteurs.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de

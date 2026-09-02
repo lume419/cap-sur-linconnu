@@ -6,7 +6,9 @@ en;Sines Municipality;Sines
 de;Sao Martinho;São Martinho do Porto
 pt;Santo António da Serra;Santo da Serra
 de;Santo André (Setúbal);Santo André
+ca;Scalabis;Santarém
 de;Santa Cruz (Madeira);Santa Cruz
+mwl;Sacaben;Sacavém
 de;Ponta Delgada (Madeira);Ponta Delgada
 es;Santa Maria dos Olivais;Olivais
 fr;Santa Maria dos Olivais;Olivais
@@ -16,7 +18,14 @@ pt;Mira d’Aire;Mira
 de;Lissabon;Lisboa
 en;Lisbon;Lisboa
 fr;Lisbonne;Lisboa
+it;Lisbona;Lisboa
+lb;Lissabon;Lisboa
+nds;Lissabon;Lisboa
 nl;Lissabon;Lisboa
+sc;Lisbona;Lisboa
+oc;Lisbona;Lisboa
+br;Lisbon;Lisboa
+co;Lisbona;Lisboa
 en;Linda a Velha;Linda-a-Velha
 de;Lagos (Distrito de Faro);Lagos
 pt;Curvaceiras;Curvaceiras Pequenas
@@ -24,28 +33,44 @@ pt;Charneca;Charneca de Caparica
 en;Castro Verde Municipality;Castro Verde
 pt;Pateta;Carvalhal
 en;Cape Roca;Cabo da Roca
+br;Beg ar Roc'h;Cabo da Roca
+ca;Cap de la Roca;Cabo da Roca
 es;Cabo de la Roca;Cabo da Roca
+eu;Roca;Cabo da Roca
 fr;Cap de Roca;Cabo da Roca
+it;Capo della Roccia;Cabo da Roca
 nl;Rotskaap;Cabo da Roca
 fr;Tour de Belém;Belém
 es;Torre de Belém;Belém
 de;Torre de Belém;Belém
 en;Belém Tower;Belém
+ca;Torre de Belém;Belém
+lb;Tuerm vu Belém;Belém
 nl;Torre de Belém;Belém
 pt;Torre de Belém;Belém
 pt;Arneiro;Arneiro dos Marinheiros
 de;Arco da Calheta, Madeira;Arco da Calheta
 pt;Alfouvés;Alfouvez
+mwl;Bila Rial;Vila Real
 en;Soure Municipality;Soure
 pt;Soza;Sosa
+mwl;Sendin;Sendim
+mwl;San Martino d'Angueira;São Martinho de Angueira
+mwl;San Joanico;São Joanico
 pt;Póvoa do Rodrigo Alves;Póvoa de Tonda
 es;Oporto;Porto
+mwl;Puonte de la Barca;Ponte da Barca
 en;Peso da Régua Municipality;Peso da Régua
+mwl;Peso de la Régua;Peso da Régua
 pt;Paranhos da Beira;Paranhos
+mwl;Miranda del Douro;Miranda do Douro
 es;Miranda del Duero;Miranda do Douro
+mwl;Miranda de l Douro;Miranda do Douro
 en;Matosinhos Municipality;Matosinhos
 de;Marco de Canaveses;Marco de Canavezes
 en;Marco de Canaveses;Marco de Canavezes
+eu;Marco de Canaveses;Marco de Canavezes
+it;Marco de Canaveses;Marco de Canavezes
 nl;Marco de Canaveses;Marco de Canavezes
 pt;Marco de Canaveses;Marco de Canavezes
 es;Marco de Canaveses;Marco de Canavezes
@@ -58,10 +83,15 @@ fr;Gafanha da Nazaré;Gafanha
 en;Freixo de Espada à Cinta Municipality;Freixo de Espada à Cinta
 en;Figueira de Castelo Rodrigo Municipality;Figueira de Castelo Rodrigo
 en;Figueira da Foz Municipality;Figueira da Foz
+mwl;Figueira de la Foç;Figueira da Foz
 pt;Santa Maria da Feira;Feira
+mwl;Starreija;Estarreja
+mwl;Dues Eigreijas;Duas Igrejas
+mwl;Camina;Caminha
 fr;Bragance;Bragança
 es;Braganza;Bragança
 de;Braganza;Bragança
+mwl;Anadie;Anadia
 en;Aguiar da Beira Municipality;Aguiar da Beira
 en;Águeda Municipality;Águeda
 pt;São Pedro da Afurada;Afurada de Baixo

@@ -9,7 +9,8 @@ Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normand
 (voir "Ferries" plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface
 disponible en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien,
 romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais,
-guernésiais, kachoube, rusyn/lemko et istro-roumain (voir "Langues" plus bas).
+guernésiais, kachoube, rusyn/lemko, istro-roumain, catalan, basque, galicien, occitan, breton, corse
+et mirandais (voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
 restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
@@ -47,8 +48,12 @@ cap-sur-linconnu/
 │       ├── communes-pt.txt     # ~16 500 lieux portugais, même format
 │       ├── communes-be.txt     # ~12 500 lieux belges, même format
 │       ├── aliases-ad.txt      # noms alternatifs multilingues (voir "Langues") pour l'Andorre
-│       ├── aliases-es.txt      # idem pour l'Espagne (~1 700 alias)
-│       ├── aliases-pt.txt      # idem pour le Portugal
+│       │                        # (19 alias, dont 5 catalans — rattrapage catalan/basque/galicien/
+│       │                        # occitan, voir "Langues")
+│       ├── aliases-es.txt      # idem pour l'Espagne (2 815 alias, dont 465 basques et 422 catalans
+│       │                        # depuis le rattrapage — 1 700 avant)
+│       ├── aliases-pt.txt      # idem pour le Portugal (118 alias, dont 14 mirandais depuis le
+│       │                        # rattrapage)
 │       ├── aliases-be.txt      # idem pour la Belgique
 │       ├── communes-nl.txt     # ~7 000 lieux néerlandais, même format
 │       ├── aliases-nl.txt      # idem pour les Pays-Bas
@@ -498,6 +503,63 @@ l'écouteur `i18n:langchange` dans `app.js`) — un `leg.__poiUpgradeStarted` (m
 `leg.__hikePromise`, déjà utilisé pour les randonnées) garantit qu'aucun ré-affichage ne redemande
 Overpass/Visorando ni ne reconsomme la file de points d'intérêt partagée entre les jours d'un même
 séjour.
+
+### Rattrapage France/Espagne/Portugal/Andorre
+
+Quatre des tout premiers pays ajoutés au projet — avant que l'audit systématique "quelles langues
+régionales ce pays apporte-t-il ?" ne devienne la pratique standard à partir de la République
+tchèque — n'avaient JAMAIS eu leurs propres langues régionales évaluées. Demande explicite de
+l'utilisateur : vérifier et corriger. Sept langues ajoutées, toutes avec un statut officiel réel et
+une tradition écrite établie — le niveau de confiance le plus élevé de tout ce lot, comparable au
+luxembourgeois/au maltais plutôt qu'à l'istro-roumain :
+
+- **Catalan** (`ca`) : SEULE langue officielle d'Andorre — jamais ajoutée non plus à l'époque (même
+  traitement qu'aurait dû recevoir n'importe quelle langue nationale d'un petit pays non encore
+  représentée ailleurs, comme le maltais/le luxembourgeois). Co-officiel en Catalogne, au Pays
+  valencien (sous le nom de "valencien", la même langue) et aux Baléares côté espagnol — statut
+  constitutionnel, ~9 millions de locuteurs. Langue régionale en Catalogne Nord (Pyrénées-Orientales)
+  côté français.
+- **Basque** (`eu`) : co-officiel au Pays basque et en Navarre espagnols (statut constitutionnel,
+  ~1,2 million de locuteurs) ; langue régionale au Pays basque nord (Iparralde) côté français.
+  Isolat linguistique, sans parenté connue avec aucune autre langue.
+- **Galicien** (`gl`) : co-officiel en Galice (statut constitutionnel, ~2 millions de locuteurs) —
+  très proche du portugais (origine galaïco-portugaise médiévale commune).
+- **Occitan** (`oc`, norma classica) : l'aranais, variété gasconne parlée dans le Val d'Aran, est
+  CO-OFFICIEL en Catalogne aux côtés du catalan et du castillan — l'occitan est par ailleurs la
+  langue régionale historiquement la plus parlée du sud de la France (tradition littéraire des
+  troubadours, mouvement félibrige), reconnue "langue de France" par le ministère de la Culture
+  (DGLFLF) mais SANS statut co-officiel : la France n'a jamais ratifié la Charte européenne des
+  langues régionales ou minoritaires (le Conseil constitutionnel s'y est opposé en 1999), contrairement
+  à tous les autres pays déjà couverts ici qui l'ont ratifiée.
+- **Breton** (`br`) : reconnu "langue de France" (DGLFLF), écoles immersives Diwan, ~200 000
+  locuteurs, Bretagne. Langue celtique (mutations consonantiques) structurellement bien plus éloignée
+  du français que les cinq langues romanes de ce lot — niveau de confiance un cran en dessous,
+  comparable au sorabe/au frison du Nord : une relecture par un locuteur natif y serait plus utile
+  qu'ailleurs dans ce lot.
+- **Corse** (`co`) : reconnu "langue de France" (DGLFLF), ~100 000-200 000 locuteurs, statut proche
+  du sarde italien déjà couvert.
+- **Mirandais** (`mwl`) : SEULE langue du lot reconnue en dehors de la France/l'Espagne/l'Andorre —
+  reconnaissance officielle réelle au Portugal pour les affaires locales depuis la loi 7/99
+  (29 janvier 1999), Terra de Miranda (Miranda do Douro/Mogadouro/Vimioso), ~10 000-15 000 locuteurs.
+  Langue astur-léonaise, PAS une variété du portugais.
+
+Écartées à ce stade (voir aussi `scripts/build-aliases.js` pour le détail) : l'alsacien/le francique
+mosellan (dialectes alémaniques sans orthographe standard unique), le francoprovençal/arpitan
+(continuum dialectal trop fragmenté, aucune norme unique), le flamand occidental de France (quelques
+milliers de locuteurs, même aire dialectale que le flamand occidental belge), et les langues d'oïl
+(picard, normand continental, gallo, poitevin-saintongeais...) — aucune de ce dernier groupe
+n'atteint le niveau de norme écrite ou de vitalité du breton/de l'occitan/du corse.
+
+Alias multilingues (voir plus bas) régénérés pour l'Andorre/l'Espagne/le Portugal avec ce nouvel
+ensemble de langues (`scripts/build-aliases.js` relancé pour ces trois pays SEULEMENT — leurs
+`communes-XX.txt` restent inchangés, seuls leurs `aliases-XX.txt` ont été reconstruits) : 465 alias
+basques et 422 catalans apparaissent désormais pour l'Espagne (contre 1 700 alias au total avant ce
+rattrapage, tous langues déjà couvertes), 118 alias au Portugal (dont 14 mirandais), 19 alias en
+Andorre (dont 5 catalans — ex. "San Julià" pour "Sant Julià de Lòria"). La France, elle, n'a et
+n'aura jamais d'alias (voir plus bas "Saisir une ville dans une autre langue") : ses communes
+viennent de geo.api.gouv.fr, pas de GeoNames, aucun geonameid disponible pour les relier aux noms
+alternatifs — le catalan/l'occitan/le breton/le corse y servent donc uniquement à traduire
+l'interface, pas à chercher une ville par son nom régional.
 
 Les pages de mentions légales et de politique de confidentialité restent pour l'instant uniquement
 en français (texte juridique dense, hors du périmètre de ce premier passage).
