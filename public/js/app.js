@@ -357,56 +357,6 @@
     return ['EUR'].concat(codes);
   })();
 
-  // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
-  // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
-  // tant que ce chargement n'est pas terminé. La carte du parcours, elle, n'a plus besoin d'aucun
-  // fichier local : elle s'appuie sur de vraies tuiles OpenStreetMap via Leaflet (voir renderMap).
-  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW, ALIASES_RAW_BY_COUNTRY = {};
-  try {
-    var communesFetches = COUNTRY_LIST.map(function(cc){
-      var file = COUNTRIES[cc].file;
-      return fetch('data/' + file).then(function(r){ if(!r.ok) throw new Error(file + ' : HTTP ' + r.status); return r.text(); });
-    });
-    // Tolérant à l'échec individuel (contrairement aux fetches ci-dessus) : la saisie multilingue
-    // des villes est un bonus, pas une donnée essentielle — un fichier d'alias manquant/en erreur ne
-    // doit jamais empêcher le site de fonctionner (voir le .catch propre à chacun, pas le try/catch
-    // global qui, lui, affiche l'écran d'erreur bloquant pour les données réellement essentielles).
-    var aliasFetches = ALIAS_COUNTRY_LIST.map(function(cc){
-      return fetch('data/' + COUNTRIES[cc].aliasFile).then(function(r){ return r.ok ? r.text() : ''; }).catch(function(){ return ''; });
-    });
-    var results = await Promise.all(communesFetches.concat([
-      fetch('data/featured.txt').then(function(r){ if(!r.ok) throw new Error('featured.txt : HTTP '+r.status); return r.text(); })
-    ]));
-    var aliasResults = await Promise.all(aliasFetches);
-    COUNTRY_LIST.forEach(function(cc, i){ COMMUNES_RAW_BY_COUNTRY[cc] = results[i]; });
-    FEATURED_RAW = results[COUNTRY_LIST.length];
-    ALIAS_COUNTRY_LIST.forEach(function(cc, i){ ALIASES_RAW_BY_COUNTRY[cc] = aliasResults[i]; });
-  } catch(err){
-    var loadErr = document.getElementById('load-error');
-    if(loadErr){
-      loadErr.textContent = window.I18N.t('error.loadData', {msg: err.message});
-      loadErr.classList.add('show');
-    }
-    return;
-  }
-
-  /* ---------- ICONS ---------- */
-  var ICONS = {
-    bed:'<path d="M3 18v-7a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2v2M3 18v2M3 18h18M13 13h6a2 2 0 0 1 2 2v3M21 18v2M7 11a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2Z"/>',
-    spark:'<path d="M12 3l1.8 5.4L19 10l-5.2 1.6L12 17l-1.8-5.4L5 10l5.2-1.6L12 3Z"/>',
-    clock:'<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
-    plug:'<path d="M9 7V3M15 7V3M7 7h10v3a5 5 0 0 1-5 5 5 5 0 0 1-5-5V7Z"/><path d="M12 15v3M9 21h6"/>',
-    toll:'<path d="M4 21V6a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v15M20 21V6a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v15"/><path d="M7 12l10-5M4 21h16"/>',
-    ferry:'<path d="M4 18.5c1.4 1 2.9 1 4.3 0s2.9-1 4.3 0 2.9 1 4.3 0 2.9-1 4.3 0"/><path d="M5.2 18 6.5 11h9L19 18"/><path d="M12 11V4M12 4.5h3.5L13 7.5"/>',
-    search:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
-    check:'<path d="M5 12.5l4.5 4.5L19 7.5"/>',
-    camera:'<path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13.5" r="3.3"/>',
-    walk:'<path d="M3 19l6-11 4 6 2-3 6 8H3Z"/><circle cx="8" cy="6" r="1.6"/>',
-    zoom:'<circle cx="11" cy="11" r="7"/><path d="M11 8v6M8 11h6"/><path d="M21 21l-4.3-4.3"/>',
-    close:'<path d="M6 6l12 12M18 6L6 18"/>'
-  };
-  function icon(name){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';}
-
   // Langue Wikipédia utilisée pour les photos/articles d'un lieu (voir /api/photo côté serveur) :
   // celle choisie par le visiteur pour l'INTERFACE (voir js/i18n.js — détectée depuis son
   // navigateur au premier chargement, mémorisée ensuite) — une commune espagnole affiche donc son
@@ -423,7 +373,12 @@
   // app.js plutôt que i18n.js : la liste des devises et leur logique (COUNTRIES, CURRENCY_SYMBOL,
   // countryCurrency, BUDGET_PRICE_MAX) sont toutes déjà ici, pas dans le module de traduction —
   // seuls les DEUX libellés affichés (currency.buttonLabel, currency.auto) viennent de i18n.js,
-  // comme n'importe quel autre texte d'interface.
+  // comme n'importe quel autre texte d'interface. Construit ICI, AVANT le chargement des communes
+  // (voir le bloc `await Promise.all(...)` juste plus bas) plutôt qu'après : ce bouton ne dépend
+  // d'aucune donnée chargée en réseau (juste COUNTRIES/CURRENCY_SYMBOL/CURRENCY_GLYPH, déjà en
+  // mémoire) — le construire seulement après ce fetch le faisait apparaître avec un temps de retard
+  // visible à chaque chargement de page (signalé par l'utilisateur), alors que le sélecteur de
+  // langue juste à côté (indépendant, construit par i18n.js) apparaît lui immédiatement.
   var currencySwitcherRoot = null, currencyPanelEl = null, currencyListEl = null, currencyButtonEl = null;
 
   function renderCurrencyButton(){
@@ -519,6 +474,57 @@
   buildCurrencySwitcher();
   applyCurrencyPanelTexts();
   window.addEventListener('i18n:langchange', applyCurrencyPanelTexts);
+
+  // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
+  // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
+  // tant que ce chargement n'est pas terminé. La carte du parcours, elle, n'a plus besoin d'aucun
+  // fichier local : elle s'appuie sur de vraies tuiles OpenStreetMap via Leaflet (voir renderMap).
+  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW, ALIASES_RAW_BY_COUNTRY = {};
+  try {
+    var communesFetches = COUNTRY_LIST.map(function(cc){
+      var file = COUNTRIES[cc].file;
+      return fetch('data/' + file).then(function(r){ if(!r.ok) throw new Error(file + ' : HTTP ' + r.status); return r.text(); });
+    });
+    // Tolérant à l'échec individuel (contrairement aux fetches ci-dessus) : la saisie multilingue
+    // des villes est un bonus, pas une donnée essentielle — un fichier d'alias manquant/en erreur ne
+    // doit jamais empêcher le site de fonctionner (voir le .catch propre à chacun, pas le try/catch
+    // global qui, lui, affiche l'écran d'erreur bloquant pour les données réellement essentielles).
+    var aliasFetches = ALIAS_COUNTRY_LIST.map(function(cc){
+      return fetch('data/' + COUNTRIES[cc].aliasFile).then(function(r){ return r.ok ? r.text() : ''; }).catch(function(){ return ''; });
+    });
+    var results = await Promise.all(communesFetches.concat([
+      fetch('data/featured.txt').then(function(r){ if(!r.ok) throw new Error('featured.txt : HTTP '+r.status); return r.text(); })
+    ]));
+    var aliasResults = await Promise.all(aliasFetches);
+    COUNTRY_LIST.forEach(function(cc, i){ COMMUNES_RAW_BY_COUNTRY[cc] = results[i]; });
+    FEATURED_RAW = results[COUNTRY_LIST.length];
+    ALIAS_COUNTRY_LIST.forEach(function(cc, i){ ALIASES_RAW_BY_COUNTRY[cc] = aliasResults[i]; });
+  } catch(err){
+    var loadErr = document.getElementById('load-error');
+    if(loadErr){
+      loadErr.textContent = window.I18N.t('error.loadData', {msg: err.message});
+      loadErr.classList.add('show');
+    }
+    return;
+  }
+
+  /* ---------- ICONS ---------- */
+  var ICONS = {
+    bed:'<path d="M3 18v-7a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2v2M3 18v2M3 18h18M13 13h6a2 2 0 0 1 2 2v3M21 18v2M7 11a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2Z"/>',
+    spark:'<path d="M12 3l1.8 5.4L19 10l-5.2 1.6L12 17l-1.8-5.4L5 10l5.2-1.6L12 3Z"/>',
+    clock:'<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
+    plug:'<path d="M9 7V3M15 7V3M7 7h10v3a5 5 0 0 1-5 5 5 5 0 0 1-5-5V7Z"/><path d="M12 15v3M9 21h6"/>',
+    toll:'<path d="M4 21V6a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v15M20 21V6a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v15"/><path d="M7 12l10-5M4 21h16"/>',
+    ferry:'<path d="M4 18.5c1.4 1 2.9 1 4.3 0s2.9-1 4.3 0 2.9 1 4.3 0 2.9-1 4.3 0"/><path d="M5.2 18 6.5 11h9L19 18"/><path d="M12 11V4M12 4.5h3.5L13 7.5"/>',
+    search:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
+    check:'<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+    camera:'<path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13.5" r="3.3"/>',
+    walk:'<path d="M3 19l6-11 4 6 2-3 6 8H3Z"/><circle cx="8" cy="6" r="1.6"/>',
+    zoom:'<circle cx="11" cy="11" r="7"/><path d="M11 8v6M8 11h6"/><path d="M21 21l-4.3-4.3"/>',
+    close:'<path d="M6 6l12 12M18 6L6 18"/>'
+  };
+  function icon(name){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';}
+
   // Code court -> étiquette de locale complète, pour Intl/toLocaleDateString (horloge, dates
   // formatées, nombre d'habitants...) — une seule variante par langue suffit ici, pas besoin de
   // distinguer ex. pt-PT/pt-BR pour ce site.
@@ -1783,6 +1789,11 @@
   // tirage, puisque chaque étape du séjour utilisera ensuite sa propre devise (voir
   // buildLodgingLinks, appelé par commune) ; EUR par défaut tant qu'aucune ville n'est choisie.
   function updateBudgetHint(){
+    // Garde défensive : le sélecteur de devise (voir plus haut, "SÉLECTEUR DE DEVISE") est
+    // maintenant interactif dès le tout début du chargement, AVANT que `els` ci-dessous existe
+    // (assigné seulement une fois les communes reçues) — un clic assez rapide sur "Automatique"/une
+    // devise pendant cette fenêtre appellerait sinon cette fonction avant que le formulaire existe.
+    if(!els || !els.budget) return;
     var key = els.budget.value;
     var currency = countryCurrency(selectedCity && selectedCity.country);
     var max = BUDGET_PRICE_MAX[currency][key];
