@@ -272,6 +272,10 @@
 <script src="js/i18n.js" defer></script>
 <script src="js/theme.js" defer></script>
 <script src="vendor/leaflet/leaflet.js" defer></script>
+<!-- Données partagées client/serveur (pays, ferries, péages, budget...) — voir son commentaire
+     d'en-tête. Chargé AVANT app.js : les scripts `defer` s'exécutent dans l'ordre du document,
+     garanti par la spec, donc `window.TripData` est déjà prêt quand app.js le référence. -->
+<script src="js/trip-data.js" defer></script>
 <script src="js/app.js" defer></script>
 </body>
 </html>
