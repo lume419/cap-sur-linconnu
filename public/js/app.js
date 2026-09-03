@@ -1696,25 +1696,59 @@
   // des langues couvertes fonctionne, pas seulement celle actuellement choisie pour l'interface :
   // plus simple (pas besoin de reconstruire l'index à chaque changement de langue) et plus tolérant
   // pour l'utilisateur (fonctionne même juste après avoir changé de langue, ou par habitude).
+  //
+  // Construction VOLONTAIREMENT DIFFÉRÉE (par petits lots via setTimeout) plutôt que synchrone ici :
+  // avec 45 pays et plus de 527 000 communes au total (2026), construire cet index avant d'activer
+  // le champ "ville de départ" ajoutait un temps d'attente significatif et parfaitement inutile —
+  // la recherche par nom local/code postal (searchCommunes, COMMUNES seul) fonctionne très bien
+  // sans les alias, qui ne sont qu'un bonus (voir plus haut, "tolérant à l'échec individuel"). Le
+  // champ est donc activé dès que COMMUNES est prêt (juste plus bas), et ALIASES se remplit tout
+  // seul en tâche de fond juste après — searchCommunes lit la variable ALIASES en direct (fermeture,
+  // pas une copie), donc les résultats par alias apparaissent automatiquement dès que ce remplissage
+  // progressif les atteint, sans code supplémentaire. PAR LOTS de plusieurs pays (pas un seul gros
+  // bloc, pas non plus un tick par pays) : un seul setTimeout global se serait fait sentir comme un
+  // court gel de l'interface juste après l'activation du champ ; à l'inverse, un tick séparé par
+  // pays (45 timers en chaîne) s'est révélé PIRE en pratique, testé en direct — un onglet que le
+  // navigateur ne juge pas au premier plan peut brider chaque `setTimeout` à environ 1/seconde
+  // (limitation standard des navigateurs pour les onglets en arrière-plan), ce qui a fait grimper
+  // la construction complète à plus de 40 secondes au lieu d'une fraction de seconde. Des lots de
+  // quelques pays limitent donc le nombre de timers en jeu (moins exposé à ce bridage) tout en
+  // gardant chaque bloc synchrone court.
   var ALIASES = [];
-  ALIAS_COUNTRY_LIST.forEach(function(cc){
-    var raw = ALIASES_RAW_BY_COUNTRY[cc];
-    if(!raw) return;
-    var byName = {};
-    COMMUNES.forEach(function(c){
-      if(c.country !== cc) return;
-      (byName[c.name] = byName[c.name] || []).push(c);
-    });
-    raw.split('\n').filter(Boolean).forEach(function(line){
-      var parts = line.split(';');
-      var alias = parts[1], canonical = parts[2];
-      if(!alias || !canonical) return;
-      var targets = byName[canonical];
-      if(!targets) return;
-      var norm = normalizeCityName(alias);
-      targets.forEach(function(c){ ALIASES.push({ norm: norm, commune: c }); });
-    });
+  // Un seul passage pour regrouper COMMUNES par pays, réutilisé pour chacun des 45 pays à alias
+  // (au lieu de refiltrer les 527 000 communes à chaque pays, 45 fois de suite) : c'était, mesuré,
+  // la part la plus coûteuse de cette construction.
+  var COMMUNES_BY_COUNTRY_FOR_ALIASES = {};
+  COMMUNES.forEach(function(c){
+    (COMMUNES_BY_COUNTRY_FOR_ALIASES[c.country] = COMMUNES_BY_COUNTRY_FOR_ALIASES[c.country] || []).push(c);
   });
+  (function scheduleAliasBuild(){
+    var ALIAS_BATCH_SIZE = 10;
+    var queue = ALIAS_COUNTRY_LIST.slice();
+    function step(){
+      var batch = queue.splice(0, ALIAS_BATCH_SIZE);
+      if(!batch.length) return;
+      batch.forEach(function(cc){
+        var raw = ALIASES_RAW_BY_COUNTRY[cc];
+        if(!raw) return;
+        var byName = {};
+        (COMMUNES_BY_COUNTRY_FOR_ALIASES[cc] || []).forEach(function(c){
+          (byName[c.name] = byName[c.name] || []).push(c);
+        });
+        raw.split('\n').filter(Boolean).forEach(function(line){
+          var parts = line.split(';');
+          var alias = parts[1], canonical = parts[2];
+          if(!alias || !canonical) return;
+          var targets = byName[canonical];
+          if(!targets) return;
+          var norm = normalizeCityName(alias);
+          targets.forEach(function(c){ ALIASES.push({ norm: norm, commune: c }); });
+        });
+      });
+      setTimeout(step, 0);
+    }
+    setTimeout(step, 0);
+  })();
 
   // Recherche à partir de 3 caractères : préfixe de code postal OU préfixe du nom LOCAL/d'un alias
   // connu dans une autre langue (voir ALIASES ci-dessus), LES DEUX à chaque fois plutôt qu'un choix
