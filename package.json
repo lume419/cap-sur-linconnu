@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "build-bundles": "node scripts/build-data-bundles.js",
-    "postinstall": "node scripts/build-data-bundles.js"
+    "postinstall": "node scripts/build-data-bundles.js || echo [postinstall] build-data-bundles a echoue -- non bloquant, voir server.js pour le repli"
   },
   "engines": {
     "node": ">=18"
