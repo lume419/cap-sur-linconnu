@@ -116,17 +116,36 @@ async function fetchWikiWikitext(title){
 // Repère la section "Lieux et monuments" (ou proche : "Patrimoine", "Monuments") quel que soit son
 // niveau de titre (== ou ===, ça varie d'un article à l'autre), extrait sa liste à puces et sa
 // galerie d'images éventuelle.
-// Retire le "bruit" propre au wikitexte brut (modèles {{...}}, balises <ref>...) avant d'extraire
-// un nom de lieu — repéré sur un cas réel (Épagny, Côte-d'Or) : la puce "Le lavoir construit au
-// début du {{s-|XIX}} aux abords de la fontaine Sainte-Bénigne." n'a AUCUN wikilien ([[...]]), donc
-// tombe dans le repli `line.split(/[,.;(]/)[0]` (voir plus bas) — et comme cette phrase ne contient
-// aucune virgule/point-virgule/parenthèse avant son point final, elle est reprise QUASIMENT en
-// entier comme "nom", modèle wikitexte {{s-|XIX}} (siècle, non rendu) compris, brut, directement
-// affiché à l'utilisateur. Modèles retirés par comptage d'accolades équilibrées (au lieu d'une regex
-// non gourmande simple) : certains modèles wikitexte s'imbriquent (ex. une date dans un modèle de
-// référence), une regex plate laisserait des accolades orphelines dans ce cas.
+// Résout {{s-|XIX}} (modèle "siècle" le plus utilisé sur Wikipédia francophone, retrouvé tel quel
+// dans le wikitexte source de Modèle:s-) en texte lisible AVANT le retrait générique des modèles
+// juste en dessous — sans ça, "Le lavoir construit au début du {{s-|XIX}} aux abords de la
+// fontaine Sainte-Bénigne" perdait le siècle en même temps que la syntaxe brute, laissant une
+// phrase qui ne veut plus rien dire ("le lavoir construit au début du aux abords de..."), signalé
+// par l'utilisateur. Logique exactement recopiée du wikitexte du modèle lui-même : le chiffre
+// romain donné en paramètre est repris tel quel, suivi de "er siècle" si ce paramètre vaut
+// "I"/"i"/"1" (exception française "premier"), sinon de "e siècle" (le "e" en exposant du rendu
+// HTML — <sup>ᵉ</sup> — redevient un simple "e" en texte brut, pas de perte d'information ici).
+// Un éventuel second paramètre ({{s-|XIX|e}}, jamais vu en pratique mais présent dans la syntaxe du
+// modèle) n'affecte pas le texte affiché (il alimente seulement une catégorie de maintenance) :
+// ignoré sans risque.
+function resolveCenturyTemplate(s){
+  return s.replace(/\{\{s-\s*\|\s*([IVXLCDMivxlcdm]+|1)\s*(?:\|[^{}]*)?\}\}/g, function(_, num){
+    var suffix = (num === 'I' || num === 'i' || num === '1') ? 'er' : 'e';
+    return num + suffix + ' siècle';
+  });
+}
+
+// Retire le "bruit" restant propre au wikitexte brut (modèles {{...}} non résolus ci-dessus,
+// balises <ref>...) avant d'extraire un nom de lieu — repéré sur un cas réel (Épagny, Côte-d'Or) :
+// la puce "Le lavoir construit au début du {{s-|XIX}} aux abords de la fontaine Sainte-Bénigne."
+// n'a AUCUN wikilien ([[...]]), donc tombe dans le repli `line.split(/[,.;(]/)[0]` (voir plus bas)
+// — et comme cette phrase ne contient aucune virgule/point-virgule/parenthèse avant son point
+// final, elle est reprise QUASIMENT en entier comme "nom", tout modèle wikitexte non résolu compris,
+// brut, directement affiché à l'utilisateur. Modèles retirés par comptage d'accolades équilibrées
+// (au lieu d'une regex non gourmande simple) : certains modèles wikitexte s'imbriquent (ex. une
+// date dans un modèle de référence), une regex plate laisserait des accolades orphelines dans ce cas.
 function stripWikiNoise(line){
-  let s = line.replace(/<ref\b[^>]*\/>/gi, '').replace(/<ref\b[^>]*>[\s\S]*?<\/ref>/gi, '');
+  let s = resolveCenturyTemplate(line).replace(/<ref\b[^>]*\/>/gi, '').replace(/<ref\b[^>]*>[\s\S]*?<\/ref>/gi, '');
   let out = '', i = 0;
   while(i < s.length){
     if(s[i] === '{' && s[i+1] === '{'){
