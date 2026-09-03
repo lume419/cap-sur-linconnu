@@ -550,12 +550,13 @@
   // (navigation privée, quota dépassé, navigateur sans IndexedDB...) sans jamais bloquer le chargement
   // du site — même philosophie que le fetch des alias plus bas, un bonus jamais indispensable.
   //
-  // Invalidation AUTOMATIQUE : `buildDataVersion` dérive une clé de version directement de la
-  // longueur de chaque fichier texte déjà reçu (voir plus bas) — pas un numéro de version à penser à
+  // Invalidation AUTOMATIQUE : `DATA_VERSION` (voir plus bas) dérive une clé de version
+  // directement de la longueur des deux bundles déjà reçus — pas un numéro de version à penser à
   // incrémenter à la main à chaque ajout de pays (source d'oubli quasi garantie vu le rythme des
   // ajouts de ce projet). Tout changement de contenu qui modifie ne serait-ce qu'un seul caractère
-  // d'un fichier change presque toujours sa longueur (ajout de communes, correction de nom...) : le
-  // cache est alors ignoré et reconstruit une fois, comme au tout premier chargement.
+  // d'un fichier change presque toujours la longueur du bundle qui le contient (ajout de communes,
+  // correction de nom...) : le cache est alors ignoré et reconstruit une fois, comme au tout
+  // premier chargement.
   var DATA_CACHE_DB = 'csi-data-cache', DATA_CACHE_STORE = 'parsed', DATA_CACHE_KEY = 'v1';
   function openDataCacheDb(){
     return new Promise(function(resolve, reject){
@@ -600,32 +601,45 @@
         .put({ version: version, communesJson: JSON.stringify(communes), aliasesJson: JSON.stringify(aliasesCompact) }, DATA_CACHE_KEY);
     }).catch(function(){ /* silencieux, voir commentaire plus haut */ });
   }
-  function buildDataVersion(communesTexts, aliasesTexts){
-    return COUNTRY_LIST.join(',') + '|' + communesTexts.map(function(t){ return t.length; }).join(',')
-      + '||' + ALIAS_COUNTRY_LIST.join(',') + '|' + aliasesTexts.map(function(t){ return t.length; }).join(',');
-  }
-
   var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW, ALIASES_RAW_BY_COUNTRY = {}, DATA_VERSION;
+  // Découpe un bundle serveur (voir server.js, routes /data/communes-bundle.txt et
+  // /data/aliases-bundle.txt) en un objet {CODE_PAYS: texte brut}, à l'identique de ce que
+  // produisaient les ~91 fetches individuels d'avant — split() avec un groupe capturant conserve
+  // les marqueurs dans le résultat, en alternance avec le contenu qui les suit :
+  // ["", "FR", "<contenu>", "DE", "<contenu>", ...]. Une éventuelle ligne vide en trop en bordure
+  // de bloc (séparateur entre deux fichiers concaténés côté serveur) est sans conséquence :
+  // parseCommunesFile (plus bas) fait déjà `.filter(Boolean)` sur les lignes.
+  function splitBundle(bundleText){
+    var parts = bundleText.split(/###([A-Z]{2})###\n/);
+    var out = {};
+    for (var i = 1; i < parts.length; i += 2) out[parts[i]] = parts[i + 1];
+    return out;
+  }
   try {
-    var communesFetches = COUNTRY_LIST.map(function(cc){
-      var file = COUNTRIES[cc].file;
-      return fetch('data/' + file).then(function(r){ if(!r.ok) throw new Error(file + ' : HTTP ' + r.status); return r.text(); });
-    });
-    // Tolérant à l'échec individuel (contrairement aux fetches ci-dessus) : la saisie multilingue
-    // des villes est un bonus, pas une donnée essentielle — un fichier d'alias manquant/en erreur ne
-    // doit jamais empêcher le site de fonctionner (voir le .catch propre à chacun, pas le try/catch
-    // global qui, lui, affiche l'écran d'erreur bloquant pour les données réellement essentielles).
-    var aliasFetches = ALIAS_COUNTRY_LIST.map(function(cc){
-      return fetch('data/' + COUNTRIES[cc].aliasFile).then(function(r){ return r.ok ? r.text() : ''; }).catch(function(){ return ''; });
-    });
-    var results = await Promise.all(communesFetches.concat([
-      fetch('data/featured.txt').then(function(r){ if(!r.ok) throw new Error('featured.txt : HTTP '+r.status); return r.text(); })
-    ]));
-    var aliasResults = await Promise.all(aliasFetches);
-    COUNTRY_LIST.forEach(function(cc, i){ COMMUNES_RAW_BY_COUNTRY[cc] = results[i]; });
-    FEATURED_RAW = results[COUNTRY_LIST.length];
-    ALIAS_COUNTRY_LIST.forEach(function(cc, i){ ALIASES_RAW_BY_COUNTRY[cc] = aliasResults[i]; });
-    DATA_VERSION = buildDataVersion(results.slice(0, COUNTRY_LIST.length), aliasResults);
+    // Les ~91 requêtes individuelles d'avant (une par fichier communes-XX.txt/aliases-XX.txt) ont
+    // été mesurées en conditions réelles sur l'hébergement mutualisé (o2switch) : ~2,3 s
+    // incompressibles quelle que soit la taille des fichiers ou la compression demandée — un débit
+    // constant d'environ 40-45 requêtes/seconde, signature d'une protection anti-flood de
+    // l'hébergeur plutôt qu'un problème de bande passante (6, 40 ou 92 connexions simultanées
+    // donnaient quasiment le même temps total). Regroupées en 2 requêtes (voir server.js,
+    // buildBundle) : la limite ne s'applique plus.
+    var bundleResults = await Promise.all([
+      fetch('data/communes-bundle.txt').then(function(r){ if(!r.ok) throw new Error('communes-bundle.txt : HTTP ' + r.status); return r.text(); }),
+      fetch('data/featured.txt').then(function(r){ if(!r.ok) throw new Error('featured.txt : HTTP '+r.status); return r.text(); }),
+      // Tolérant à l'échec (contrairement aux deux fetches ci-dessus) : la saisie multilingue des
+      // villes est un bonus, pas une donnée essentielle — un bundle d'alias manquant/en erreur ne
+      // doit jamais empêcher le site de fonctionner (voir le .catch, pas le try/catch global qui,
+      // lui, affiche l'écran d'erreur bloquant pour les données réellement essentielles).
+      fetch('data/aliases-bundle.txt').then(function(r){ return r.ok ? r.text() : ''; }).catch(function(){ return ''; })
+    ]);
+    var communesBundleText = bundleResults[0];
+    FEATURED_RAW = bundleResults[1];
+    var aliasesBundleText = bundleResults[2];
+    COMMUNES_RAW_BY_COUNTRY = splitBundle(communesBundleText);
+    ALIASES_RAW_BY_COUNTRY = splitBundle(aliasesBundleText);
+    var missingCountries = COUNTRY_LIST.filter(function(cc){ return !COMMUNES_RAW_BY_COUNTRY[cc]; });
+    if(missingCountries.length) throw new Error('communes-bundle.txt : pays manquants — ' + missingCountries.join(','));
+    DATA_VERSION = communesBundleText.length + '|' + aliasesBundleText.length;
   } catch(err){
     var loadErr = document.getElementById('load-error');
     if(loadErr){

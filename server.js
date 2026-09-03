@@ -3,6 +3,7 @@
 // d'intérêt sur OpenStreetMap (voir plus bas). Aucune donnée du visiteur n'est reçue ni conservée ;
 // le seul état en mémoire est le cache de ces deux routes.
 const path = require('path');
+const fs = require('fs');
 const express = require('express');
 const compression = require('compression');
 const PDFDocument = require('pdfkit');
@@ -928,6 +929,54 @@ app.post('/api/export-pdf', express.json({ limit: '512kb' }), (req, res) => {
     console.warn('[export-pdf] erreur de mise en page:', err.message);
   }
   doc.end();
+});
+
+// Regroupe TOUS les fichiers communes-XX.txt (resp. aliases-XX.txt) en une SEULE réponse chacun,
+// plutôt que ~46 (resp. ~45) requêtes séparées comme avant (voir public/js/app.js pour le fetch
+// côté client). Mesuré en conditions réelles sur l'hébergement mutualisé (o2switch) : peu importe
+// la taille ou le contenu demandés, ~90 requêtes simultanées prennent systématiquement ~2,3 s au
+// total (débit constant d'environ 40-45 requêtes/seconde, quelle que soit la concurrence
+// utilisée — 6, 40 ou 92 connexions en parallèle donnent quasiment le MÊME temps total), signature
+// d'une protection anti-flood de l'hébergement plutôt qu'un problème de bande passante ou de CPU
+// (confirmé : demander CHAQUE fichier sans compression ne change rien non plus). Descendre à 2
+// requêtes contourne cette limite entièrement, quel que soit son mécanisme exact côté hébergeur.
+//
+// Format du regroupement : chaque fichier est précédé d'un marqueur `###XX###` sur sa propre
+// ligne (XX = code pays en MAJUSCULES, ex. `###DE###`) puis son contenu tel quel — un format
+// trivial à re-découper côté client (`split` sur le marqueur). Aucune commune/alias existant ne
+// contient déjà cette séquence (vérifié sur les ~650 000 lignes actuelles avant d'adopter ce
+// format). La France (`communes.txt`, sans suffixe de pays dans son nom de fichier) est
+// identifiée par son code `FR`, comme partout ailleurs dans `COUNTRIES` (voir app.js).
+//
+// Construit UNE SEULE FOIS en mémoire au premier accès (pas à chaque requête ni au démarrage —
+// évite de ralentir le démarrage du process si ce endpoint n'est jamais sollicité, ex. pendant un
+// simple `node --check`) : ces fichiers sont statiques et ne changent qu'avec un nouveau
+// déploiement, donc avec un redémarrage du process — mêmes garanties de fraîcheur que le cache
+// navigateur `maxAge` ci-dessous, qui repose sur la même hypothèse.
+let communesBundleCache = null, aliasesBundleCache = null;
+const DATA_DIR = path.join(__dirname, 'public', 'data');
+function buildBundle(re, franceCode){
+  return fs.readdirSync(DATA_DIR).filter(function(f){ return re.test(f); }).map(function(f){
+    var m = f.match(re);
+    var cc = (m[1] ? m[1].toUpperCase() : franceCode);
+    return '###' + cc + '###\n' + fs.readFileSync(path.join(DATA_DIR, f), 'utf8');
+  }).join('\n');
+}
+app.get('/data/communes-bundle.txt', function(req, res){
+  if(communesBundleCache === null){
+    communesBundleCache = buildBundle(/^communes(?:-([a-z]{2}))?\.txt$/, 'FR');
+  }
+  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+  res.setHeader('Cache-Control', 'public, max-age=3600');
+  res.send(communesBundleCache);
+});
+app.get('/data/aliases-bundle.txt', function(req, res){
+  if(aliasesBundleCache === null){
+    aliasesBundleCache = buildBundle(/^aliases-([a-z]{2})\.txt$/, '');
+  }
+  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+  res.setHeader('Cache-Control', 'public, max-age=3600');
+  res.send(aliasesBundleCache);
 });
 
 app.use(express.static(path.join(__dirname, 'public'), {
