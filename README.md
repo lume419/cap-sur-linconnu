@@ -131,8 +131,8 @@ Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Port
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
 Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
-Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie, Roumanie, Lettonie, Lituanie et Estonie pour
-l'instant, d'autres viendront. Chaque pays
+Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie, Roumanie, Lettonie, Lituanie, Estonie, le
+Vatican, l'Islande et les îles Féroé pour l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -300,6 +300,20 @@ ajoute deux à trois choses, indépendamment des autres :
    de sa liste de noms alternatifs). **Estonie** : 6 916 communes retenues, AUCUNE correction
    nécessaire (échantillon des 100 plus grandes communes du pays déjà bon, diacritiques compris —
    Tallinn, Tartu, Pärnu, Kohtla-Järve, Rakvere, Kuressaare, Sillamäe, Võru, Jõhvi...).
+   **Le Vatican, l'Islande et les îles Féroé**, dernier ajout en date, reviennent eux aussi tous les
+   trois au pipeline STANDARD : GeoNames publie un vrai fichier de codes postaux pour chacun, y compris
+   pour le Vatican malgré sa taille minuscule. **Vatican** : une seule commune retenue (le pays tout
+   entier n'en compte qu'une, code postal 00120) — une correction `NAME_OVERRIDES` malgré tout, la
+   plus insolite de toute cette série : le champ `name` de GeoNames utilise l'exonyme anglais "Vatican
+   City", tandis que son propre fichier de codes postaux (un produit GeoNames distinct) porte "Citta'
+   Del Vaticano" — la forme italienne, mais avec une apostrophe droite en lieu et place de l'accent
+   grave manquant. Corrigée en "Città del Vaticano", l'italien étant la langue de travail quotidienne
+   du Vatican (voir "Langues" ci-dessous) — même logique que Bucharest -> Bucureşti ou Riga -> Rīga
+   plus haut : préférer le vrai nom local à l'exonyme anglais. **Islande** : 96 communes retenues,
+   AUCUNE correction nécessaire (échantillon exhaustif des 96 communes déjà bon, diacritiques islandais
+   þ/ð/ö compris — Reykjavík, Kópavogur, Akureyri, Þingeyjarsveit...). **Îles Féroé** : 180 communes
+   retenues, AUCUNE correction nécessaire non plus (échantillon exhaustif des 180 communes déjà bon,
+   diacritiques féroïens ø/á/í/ú compris — Tórshavn, Klaksvík, Runavík, Tvøroyri...).
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -471,6 +485,23 @@ ajoute deux à trois choses, indépendamment des autres :
    vérifié pour les trois) — seuls les poids lourds (plus de 3 ou 3,5 t selon le pays) ont besoin
    d'une vignette électronique, hors du périmètre de cette app qui ne modélise que des véhicules
    légers.
+   **Le Vatican**, lui, est le cas le plus simple de toute la série : 121 hectares, aucune route
+   digne de ce nom en dehors de ses propres allées internes — `hasToll:false` sans la moindre
+   exception à modéliser, comme Saint-Marin/le Liechtenstein/l'île de Man. **L'Islande**, elle,
+   REJOINT malgré tout le groupe `hasToll:false` bien qu'ayant désormais deux vrais péages en 2026 :
+   le tunnel de Vaðlaheiðargöng (nord du pays, près d'Akureyri, en service depuis 2018) et une toute
+   nouvelle section du Ring Road près de Höfn (ouverte le 1er septembre 2026) — mais, comme le
+   Monténégro/les trois sections polonaises/le M50 irlandais plus haut, ce sont deux ouvrages ISOLÉS
+   sur un réseau routier par ailleurs entièrement gratuit, jamais garantis par un trajet aléatoire.
+   **Les îles Féroé**, elles, ont QUATRE vrais péages — les tunnels sous-marins à péage
+   (Vágatunnilin, Norðoyatunnilin, Eysturoyartunnilin, Sandoyartunnilin), une infrastructure
+   nettement plus centrale que les deux ouvrages isolés islandais puisqu'elle relie les principales
+   îles de l'archipel entre elles — mais chacun facture un tarif FIXE au franchissement, jamais
+   proportionnel à la distance parcourue : le même mécanisme "péage ponctuel à tarif fixe -> hors du
+   modèle €/km" qui a déjà écarté les ponts danois du Storebælt/de l'Øresund plus haut s'applique donc
+   ici aussi, à l'échelle de quatre ouvrages plutôt que deux. `hasToll:false`, ces quatre péages réels
+   restant documentés comme une limite assumée dans le commentaire de `COUNTRIES.FO` plutôt que
+   silencieusement omis.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -555,6 +586,24 @@ ajoute deux à trois choses, indépendamment des autres :
    depuis 2014, 2015 et 2011 respectivement — les trois adoptions les plus rapprochées dans le temps
    de tous les pays ici couverts (2011-2015), la dernière (Lituanie) restant tout de même antérieure
    à celle de la Croatie (2023), l'adoption la plus récente de la liste.
+   **Le Vatican n'a besoin d'aucun champ `currency`** : bien hors UE, mais en euro depuis son
+   origine (2002) via une convention monétaire directe avec l'Union européenne (comme Monaco/
+   Saint-Marin déjà couverts), avec même le droit d'émettre ses propres pièces à l'effigie du pape —
+   une monnaie réellement propre, mais dans la même devise que la zone euro, donc sans le moindre
+   impact sur ce champ. **L'Islande, elle, A besoin du champ** (`ISK`, la couronne islandaise) : hors
+   UE et hors zone euro (deux référendums d'adhésion abandonnés avant leur terme, en 2013 puis en
+   2015), cours flottant — 1 EUR ≈ 140,8 ISK début septembre 2026 (xe.com/sedlabanki.is, la banque
+   centrale islandaise). Pays PLUS cher que la zone euro, même profil que la Suisse/le Danemark/la
+   Norvège/la Suède (loyer Airbnb médian à Reykjavík ~198 €/nuit, airdna.co/airroi.com 2026), paliers
+   `BUDGET_PRICE_MAX.ISK` calés sur les mêmes ratios que ces quatre devises déjà couvertes.
+   `CURRENCY_GLYPH.ISK` réutilise le symbole "kr" — DÉJÀ partagé par le DKK/le NOK/le SEK depuis les
+   passages précédents, un quatrième pays nordique reprenant donc le même glyphe plutôt que d'en
+   introduire un nouveau (les quatre couronnes scandinaves/nordiques s'écrivent toutes "kr" dans leur
+   propre pays). **Les îles Féroé, elles, réutilisent explicitement `DKK`** (déjà couvert par le
+   Danemark) plutôt que d'introduire un nouveau code : la couronne féroïenne (føroyskar krónur)
+   n'a, à ce jour, aucun code ISO 4217 distinct — elle circule à parité stricte avec la couronne
+   danoise dont elle n'est, monétairement, qu'une émission billet locale (les pièces restent
+   exclusivement danoises), le territoire faisant partie du royaume du Danemark tout en étant hors UE.
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -1243,6 +1292,52 @@ isolé (nom d'une localité proche de la frontière estonienne). 304 alias au to
 664 pour la Lituanie, 431 pour l'Estonie — dans la fourchette habituelle des pays au pipeline
 standard, sans le pic observé pour la Grèce (voir ci-dessus).
 
+### Vatican, Islande et Îles Féroé (dernier ajout)
+
+**Le Vatican n'apporte AUCUNE nouvelle langue** — cas inédit dans cette série, plus radical encore
+que la Roumanie plus haut (qui, elle, n'ajoutait aucune langue mais restait un pays de taille
+normale) : l'italien, sa langue de travail quotidienne réelle (Curie romaine, Gouvernorat, Garde
+suisse, signalisation), est déjà couvert depuis l'ajout de l'Italie. Le latin, seule langue
+OFFICIELLE au sens strict de l'État de la Cité du Vatican, n'a volontairement pas été ajouté : une
+langue liturgique et juridique, jamais parlée au quotidien ni utilisée par aucune interface
+numérique moderne pour ce genre d'usage — même raisonnement que pour le kosovar plus haut (aucune
+langue distincte à créer là où aucun besoin réel n'existe), plutôt appliqué ici à une langue
+classique qu'à une langue nationale déjà couverte ailleurs.
+
+**L'Islande apporte l'islandais** (íslenska, ISO 639-1 "is") — langue nationale unique du pays,
+sans langue régionale ou minoritaire reconnue à ajouter séparément (contrairement à la Lettonie/la
+Lituanie/l'Estonie dans le passage précédent) : l'Islande est linguistiquement l'un des pays les
+plus homogènes d'Europe, sans minorité linguistique autochtone comparable au latgalien/au võro/au
+samogitien. Langue germanique du nord, restée exceptionnellement proche du vieux norrois écrit
+(un locuteur islandais moderne peut encore lire les sagas médiévales dans le texte, contrairement
+au danois/au norvégien/au suédois déjà couverts) — vocabulaire technique/d'interface entièrement
+disponible malgré cette conservation archaïque, grâce à une politique linguistique active de
+néologismes islandais plutôt que d'emprunts (Íslensk málnefnd, le comité de la langue islandaise) :
+niveau de confiance comparable au danois/au norvégien/au suédois, pas aux langues régionales à
+faibles ressources comme le bas-allemand/le sorabe.
+
+**Les îles Féroé apportent le féroïen** (føroyskt, ISO 639-1 "fo") — également langue germanique du
+nord, proche de l'islandais et du norvégien de l'ouest (vieux norrois), co-officielle avec le danois
+sur l'archipel (déjà couvert depuis l'ajout du Danemark) : le danois reste utilisé dans
+l'administration/l'enseignement supérieur, mais le féroïen est la langue de tous les jours et la
+seule vraiment "propre" à l'archipel, ce qui justifie son ajout séparé plutôt qu'une simple
+réutilisation du danois — même logique que le luxembourgeois pour le Luxembourg (langue nationale
+distincte d'un territoire déjà couvert par ses voisins). Aucune langue régionale supplémentaire à
+ajouter : l'archipel, 18 îles pour à peine 55 000 habitants, ne présente aucune fragmentation
+dialectale reconnue comparable au frison du Nord allemand.
+
+61 langues au total désormais.
+
+**Alias** : le Vatican, une seule commune, ne génère par nature aucun alias significatif (16 au
+total, tous des variantes orthographiques mineures du même nom). L'Islande synthétise 288 alias,
+dont 163 auto-référencés `is` (le nom islandais d'une commune listé comme son propre alias,
+utile pour la recherche insensible aux diacritiques þ/ð/ö). Les îles Féroé synthétisent 113 alias,
+dont 3 auto-référencés `fo` — et, fait notable, 46 alias étiquetés `lt` (lituanien) par
+`alternateNamesV2` : une coïncidence orthographique probable entre certains noms de lieux féroïens
+et des mots lituaniens plutôt qu'une vraie communauté lituanienne locale (aucune ressource ne
+corrobore un lien réel), non retirée pour rester fidèle à la donnée brute GeoNames comme pour
+toutes les autres tables d'alias de ce projet.
+
 ## Démarrer en local
 
 ```bash
@@ -1526,6 +1621,25 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   IDENTIQUE dans les 53 langues (Ródos, Kérkyra, Zákynthos, Mýkonos...), jamais traduit, sauf la Crète
   qui reçoit une vraie traduction par langue (même traitement que la Corse/la Sardaigne/la Sicile/
   Malte — un exonyme réel existe dans la plupart des langues pour cette île majeure).
+- **Vatican** : AUCUNE ligne modélisée, pour la raison la plus simple qui soit — 121 hectares en
+  plein cœur de Rome, aucune mer à traverser. **Îles Féroé** : UNE seule ligne, pour **Suðuroy**,
+  la plus méridionale des îles principales de l'archipel — les quatre autres (Streymoy avec
+  Tórshavn, Eysturoy, Vágar, Sandoy) sont, elles, déjà `continental` : reliées entre elles par de
+  VRAIS tunnels sous-marins routiers (voir "Pays couverts" ci-dessus, les quatre péages non
+  modélisés) plutôt que par ferry. Suðuroy, elle, n'a AUCUN tunnel à ce jour : le
+  Suðuroyartunnilin, un projet réel mais encore à l'étude, n'est pas attendu avant 2036 au plus tôt
+  — seule liaison actuelle pour véhicules, **Tórshavn ↔ Tvøroyri** (SSL/Strandfaraskip Landsins,
+  opérateur public unique — la même société qui gère aussi les tunnels à péage ci-dessus —, ligne 7,
+  ~2h05, tarifs officiels non promotionnels 2026 : voiture 229 DKK, camping-car/van 344 DKK, moto
+  92 DKK, piéton 109 DKK, ssl.fo/prices). Identifiée par le préfixe de code postal féroïen `8`/`9`
+  (800-970, exclusif à Suðuroy, vérifié exhaustivement sur les 180 communes de `communes-fo.txt`) —
+  avec un piège de nom évité : une autre localité s'appelle elle aussi "Vágur", mais au nord de
+  l'archipel (code 700, sur Eysturoy) ; la détection par PRÉFIXE de code postal, pas par nom, l'écarte
+  correctement de Suðuroy sans ambiguïté. **Islande** : AUCUNE ligne modélisée non plus — le pays
+  entier forme une seule masse continentale reliée par la route (Ring Road/Route 1), sans île
+  périphérique habitée nécessitant un vrai ferry-voiture pour ce genre de trajet (Vestmannaeyjar,
+  la plus notable, reste desservie mais hors du périmètre volontairement retenu ici, comme les
+  Açores/Madère ci-dessous).
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -1566,7 +1680,15 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   masse `greatBritain`, aucune île secondaire à distinguer en son sein pour cette app. La République
   d'Irlande (`c.country === 'IE'`) et l'île de Man (`c.country === 'IM'`) sont, elles, les cas les
   plus simples de toute cette série : un simple test de pays suffit, chaque territoire tenant sur une
-  seule masse (`ireland`/`isleOfMan`) sans la moindre subdivision interne à gérer.
+  seule masse (`ireland`/`isleOfMan`) sans la moindre subdivision interne à gérer. Les îles Féroé,
+  elles, rejoignent le groupe "détection par préfixe de code postal" (Danemark/Suède/Grèce ci-dessus)
+  plutôt que le groupe "un seul test de pays" : `/^[89]/` isole Suðuroy (codes 800-970) du reste de
+  l'archipel (`c.country === 'FO'`), avec le même type de piège nominal que Póros/Skýros pour la
+  Grèce — une localité appelée "Vágur" existe aussi au nord, sur Eysturoy (code 700), mais la
+  détection par préfixe plutôt que par nom l'écarte sans ambiguïté (voir "Ferries" ci-dessus). Le
+  Vatican et l'Islande, eux, n'ont besoin d'aucune subdivision : le Vatican tient sur sa seule commune
+  et l'Islande, sans île périphérique modélisée (voir "Ferries" ci-dessus), reste entièrement
+  `continental`.
 - Limite connue : les petites îles françaises sans pont ni département propre (Belle-Île, Ouessant,
   Groix...) ne sont pas détectées individuellement et restent traitées comme le continent le plus
   proche — un cas rare (quelques dizaines de communes sur ~35 000) laissé de côté pour l'instant.
@@ -1644,7 +1766,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
@@ -1672,7 +1794,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 47 fichiers SVG, dont treize
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 49 fichiers SVG, dont treize
   drapeaux RÉGIONAUX) — voir "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
@@ -1718,7 +1840,9 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   Seaways (Igoumenitsa ↔ Corfou), [Triton Ferries](https://www.tritonferries.gr) (Néapoli ↔ Cythère),
   Hellenic Seaways/Alonissos Skopelos Skiathos Shipping Company (Vólos/Kými ↔ Sporades) — agrégées via
   [ferryhopper.com](https://www.ferryhopper.com)/[ferryscanner.com](https://www.ferryscanner.com)/
-  [directferries.com](https://www.directferries.com), tarifs basse saison 2026
+  [directferries.com](https://www.directferries.com), tarifs basse saison 2026 —, [SSL/Strandfaraskip
+  Landsins](https://www.ssl.fo) (Tórshavn ↔ Tvøroyri, Suðuroy, îles Féroé — tarifs officiels non
+  promotionnels 2026, ssl.fo/prices)
   — voir "Ferries" ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour
   les péages, pas un tarif garanti).
 

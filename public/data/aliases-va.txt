@@ -1,0 +1,16 @@
+en;Vatican;Città del Vaticano
+sv;Vatikanstaden;Città del Vaticano
+es;Vaticano;Città del Vaticano
+es;Ciudad del Vaticano;Città del Vaticano
+en;Vatican City;Città del Vaticano
+en;Vatican City State;Città del Vaticano
+de;Vatikanstadt;Città del Vaticano
+de;Staat Vatikanstadt;Città del Vaticano
+de;Staat der Vatikanstadt;Città del Vaticano
+fr;Vatican;Città del Vaticano
+fr;État de la Cité du Vatican;Città del Vaticano
+lt;Vatikanas;Città del Vaticano
+it;Vaticano;Città del Vaticano
+hr;Grad Vatikan;Città del Vaticano
+nl;Vaticaan-Stad;Città del Vaticano
+cs;Vatikán;Città del Vaticano

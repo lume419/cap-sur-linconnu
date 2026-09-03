@@ -5,16 +5,16 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['LV', 'LT', 'EE']; // dump/ et postal/ ne contiennent que les fichiers des pays
+const COUNTRIES = ['VA', 'IS', 'FO']; // dump/ et postal/ ne contiennent que les fichiers des pays
 // en cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/
-// DK/NO/SE/FI/AX/AL/RS/MK/RO/BG sont déjà générés et commités (public/data/communes-ad|es|pt|be|
-// nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk|ro|
-// bg.txt), pas la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque
-// nouvel ajout. La Grèce (GR) n'utilise PAS ce script standard : aucun fichier de codes postaux
-// GeoNames pour ce pays, voir build-gr-communes.js (reconstruction depuis une source tierce).
-// Monténégro (ME) et Kosovo (XK) n'utilisent PAS ce script standard : aucun fichier de codes
-// postaux GeoNames pour ces deux pays, voir build-me-communes.js/build-xk-communes.js
-// (reconstruction depuis une source tierce).
+// DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE sont déjà générés et commités (public/data/communes-ad|
+// es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|
+// mk|ro|bg|lv|lt|ee.txt), pas la peine de retélécharger leurs sources pour les régénérer à
+// l'identique à chaque nouvel ajout. La Grèce (GR) n'utilise PAS ce script standard : aucun
+// fichier de codes postaux GeoNames pour ce pays, voir build-gr-communes.js (reconstruction
+// depuis une source tierce). Monténégro (ME) et Kosovo (XK) n'utilisent PAS ce script standard :
+// aucun fichier de codes postaux GeoNames pour ces deux pays, voir build-me-communes.js/
+// build-xk-communes.js (reconstruction depuis une source tierce).
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -239,10 +239,23 @@ const NAME_OVERRIDES = {
   'Mazeikiai': 'Mažeikiai',
   'Kupiskis': 'Kupiškis',
   'Birzai': 'Biržai',
-  'Vilkaviskis': 'Vilkaviškis'
+  'Vilkaviskis': 'Vilkaviškis',
   // L'Estonie, elle, n'a demandé AUCUNE correction : échantillon des 100 plus grandes communes du
   // pays déjà bon, diacritiques compris (Tallinn, Tartu, Pärnu, Kohtla-Järve, Rakvere, Kuressaare,
   // Sillamäe, Võru, Jõhvi...).
+  // Le Vatican, cas unique de toute cette série : UNE SEULE commune au monde (le pays tient
+  // entièrement dans son unique code postal, 00120), et cette commune-là porte l'exonyme anglais
+  // "Vatican City" dans le champ "name" GeoNames — alors même que son propre fichier de codes
+  // postaux, source distincte, utilise déjà la forme italienne "Citta' Del Vaticano" (apostrophe
+  // simple à la place de l'accent grave manquant). Corrigé en "Città del Vaticano", la forme
+  // italienne correcte — l'italien étant la langue de travail quotidienne du Vatican (le latin,
+  // langue officielle pour les actes juridiques/religieux, n'étant d'usage courant nulle part au
+  // sens où ce projet nomme ses communes).
+  'Vatican City': 'Città del Vaticano'
+  // L'Islande et les îles Féroé, elles, n'ont demandé AUCUNE correction : échantillon exhaustif des
+  // deux pays (96 communes islandaises, 180 féroïennes) déjà bon, diacritiques islandais/féroïens
+  // compris (þ/ð/ö islandais — Reykjavík, Hafnarfjörður, Þorlákshöfn... ; ø/á/í/ú féroïens —
+  // Tórshavn, Klaksvík, Fuglafjørður, Norðragøta...).
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth

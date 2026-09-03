@@ -13,8 +13,8 @@
 (function(){
   "use strict";
 
-  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs'];
-  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais', csb: 'Kaszëbsczi', rue: 'Лемківскый', ruo: 'Vlaški-Žejanski', ca: 'Català', eu: 'Euskara', gl: 'Galego', oc: 'Occitan', br: 'Brezhoneg', co: 'Corsu', mwl: 'Mirandés', ga: 'Gaeilge', gv: 'Gaelg', cy: 'Cymraeg', gd: 'Gàidhlig', kw: 'Kernewek', sco: 'Scots', cs: 'Čeština', pl: 'Polski', sk: 'Slovenčina', hu: 'Magyar', sl: 'Slovenščina', hr: 'Hrvatski', bs: 'Bosanski', sr: 'Српски', da: 'Dansk', no: 'Norsk', sv: 'Svenska', fi: 'Suomi', sq: 'Shqip', cnr: 'Crnogorski', mk: 'Македонски', ro: 'Română', el: 'Ελληνικά', bg: 'Български', lv: 'Latviešu', lt: 'Lietuvių', et: 'Eesti', ltg: 'Latgalīšu', vro: 'Võro', sgs: 'Žemaitėška' };
+  var SUPPORTED = ['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs', 'is', 'fo'];
+  var LANG_NAMES = { fr: 'Français', en: 'English', es: 'Español', pt: 'Português', nl: 'Nederlands', de: 'Deutsch', lb: 'Lëtzebuergesch', it: 'Italiano', rm: 'Rumantsch', nds: 'Plattdüütsch', hsb: 'Serbšćina', frr: 'Frasch', sc: 'Sardu', fur: 'Furlan', lld: 'Ladin', mt: 'Malti', lij: 'Munegascu', 'nrf-je': 'Jèrriais', 'nrf-gg': 'Guernésiais', csb: 'Kaszëbsczi', rue: 'Лемківскый', ruo: 'Vlaški-Žejanski', ca: 'Català', eu: 'Euskara', gl: 'Galego', oc: 'Occitan', br: 'Brezhoneg', co: 'Corsu', mwl: 'Mirandés', ga: 'Gaeilge', gv: 'Gaelg', cy: 'Cymraeg', gd: 'Gàidhlig', kw: 'Kernewek', sco: 'Scots', cs: 'Čeština', pl: 'Polski', sk: 'Slovenčina', hu: 'Magyar', sl: 'Slovenščina', hr: 'Hrvatski', bs: 'Bosanski', sr: 'Српски', da: 'Dansk', no: 'Norsk', sv: 'Svenska', fi: 'Suomi', sq: 'Shqip', cnr: 'Crnogorski', mk: 'Македонски', ro: 'Română', el: 'Ελληνικά', bg: 'Български', lv: 'Latviešu', lt: 'Lietuvių', et: 'Eesti', ltg: 'Latgalīšu', vro: 'Võro', sgs: 'Žemaitėška', is: 'Íslenska', fo: 'Føroyskt' };
   // Un drapeau plutôt qu'un code à deux lettres dans le bouton/la liste (voir renderSwitcherButton/
   // renderLangList plus bas) — demandé explicitement pour remplacer l'acronyme. Essayé d'abord en
   // émoji Unicode (🇫🇷...) : abandonné, aucune police d'émoji couleur fiable sur toutes les
@@ -50,7 +50,7 @@
     oc: 'occitania', br: 'fr-bre', co: 'fr-20r', mwl: 'pt', ga: 'ie', gv: 'im', cy: 'gb-wls', gd: 'gb-sct',
     kw: 'gb', sco: 'gb-sct', cs: 'cz', pl: 'pl', sk: 'sk', hu: 'hu', sl: 'si', hr: 'hr', bs: 'ba',
     sr: 'rs', da: 'dk', no: 'no', sv: 'se', fi: 'fi', sq: 'al', cnr: 'me', mk: 'mk', ro: 'ro',
-    el: 'gr', bg: 'bg', lv: 'lv', lt: 'lt', et: 'ee', ltg: 'lv', vro: 'ee', sgs: 'lt'
+    el: 'gr', bg: 'bg', lv: 'lv', lt: 'lt', et: 'ee', ltg: 'lv', vro: 'ee', sgs: 'lt', is: 'is', fo: 'fo'
     // Attention code Estonie : le fichier de drapeau est "ee.svg" (ISO 3166-1 "EE"), le code langue
     // estonien "et" étant lui déjà pris par l'Éthiopie côté ISO pays — d'où `et: 'ee'` ci-dessus,
     // jamais `et: 'et'` qui pointerait vers un fichier inexistant (ou pire, vers l'Éthiopie si
@@ -241,6 +241,7 @@
       'ferry.route.skopelos': 'Continent ↔ Skópelos',
       'ferry.route.alonissos': 'Continent ↔ Alónnisos',
       'ferry.route.skyros': 'Continent ↔ Skýros',
+      'ferry.route.suduroy': 'Continent ↔ Suðuroy',
       'toll.label': 'Péage (barème ASF 2026)',
       'toll.barrierFree': 'péage à flux libre, sans barrière (facturation automatique par caméra)',
       'toll.barrierClassic': 'péage classique avec barrière',
@@ -316,7 +317,7 @@
 
       'again.button': 'Retirer une autre destination',
 
-      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique, les Pays-Bas, le Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, le Liechtenstein, Monaco, Malte, Guernesey, Jersey, la République tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, le Royaume-Uni, l'Irlande, l'île de Man, le Danemark, la Norvège, la Suède, la Finlande, les îles Åland, le Monténégro, l'Albanie, le Kosovo, la Serbie, la Macédoine du Nord, la Grèce, la Bulgarie et la Roumanie, la Lettonie, la Lituanie et l'Estonie. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine), Putevi Srbije (Serbie), JP za državni patišta (Macédoine du Nord), Olympia Odos/Egnatia Odos (Grèce) — autoroutes gratuites en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (hors trois sections concédées), au Royaume-Uni, en Irlande, à l'île de Man, au Danemark, en Norvège, en Suède, en Finlande, aux îles Åland, au Monténégro, en Albanie et au Kosovo, ainsi qu'en Lettonie, en Lituanie et en Estonie ; vignette annuelle en Suisse, en Autriche, en République tchèque, en Slovaquie, en Hongrie, en Slovénie, en Bulgarie et en Roumanie (pas de péage au trajet) — ni péage ni vignette à Guernesey et Jersey.",
+      'footer.text': "Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Espagne, le Portugal, la Belgique, les Pays-Bas, le Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, le Liechtenstein, Monaco, Malte, Guernesey, Jersey, la République tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, le Royaume-Uni, l'Irlande, l'île de Man, le Danemark, la Norvège, la Suède, la Finlande, les îles Åland, le Monténégro, l'Albanie, le Kosovo, la Serbie, la Macédoine du Nord, la Grèce, la Bulgarie et la Roumanie, la Lettonie, la Lituanie et l'Estonie, le Vatican, l'Islande et les îles Féroé. Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Espagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine), Putevi Srbije (Serbie), JP za državni patišta (Macédoine du Nord), Olympia Odos/Egnatia Odos (Grèce) — autoroutes gratuites en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (hors trois sections concédées), au Royaume-Uni, en Irlande, à l'île de Man, au Danemark, en Norvège, en Suède, en Finlande, aux îles Åland, au Monténégro, en Albanie et au Kosovo, ainsi qu'en Lettonie, en Lituanie et en Estonie, au Vatican, en Islande et aux îles Féroé ; vignette annuelle en Suisse, en Autriche, en République tchèque, en Slovaquie, en Hongrie, en Slovénie, en Bulgarie et en Roumanie (pas de péage au trajet) — ni péage ni vignette à Guernesey et Jersey.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': 'Politique de confidentialité',
       'footer.translationDisclaimer': "L'interface a été traduite dans de nombreuses langues et peut contenir des erreurs — n'hésitez pas à les signaler à contact@lume419.fr.",
@@ -509,6 +510,7 @@
       'ferry.route.skopelos': 'Mainland ↔ Skópelos',
       'ferry.route.alonissos': 'Mainland ↔ Alónnisos',
       'ferry.route.skyros': 'Mainland ↔ Skýros',
+      'ferry.route.suduroy': 'Mainland ↔ Suðuroy',
       'toll.label': 'Toll (ASF 2026 rate guide)',
       'toll.barrierFree': 'free-flow toll, no barrier (automatic camera billing)',
       'toll.barrierClassic': 'classic barrier toll',
@@ -584,7 +586,7 @@
 
       'again.button': 'Draw another destination',
 
-      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, the Czech Republic, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia and Herzegovina, the United Kingdom, Ireland, the Isle of Man, Denmark, Norway, Sweden, Finland, the Åland Islands, Montenegro, Albania, Kosovo, Serbia, North Macedonia, Greece, Bulgaria, Romania, Latvia, Lithuania and Estonia. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia and Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (North Macedonia), Olympia Odos/Egnatia Odos (Greece) — free motorways in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco, Malta, Poland (except three concession sections), the United Kingdom, Ireland, the Isle of Man, Denmark, Norway, Sweden, Finland, the Åland Islands, Montenegro, Albania and Kosovo, as well as in Latvia, Lithuania and Estonia; an annual vignette in Switzerland, Austria, the Czech Republic, Slovakia, Hungary, Slovenia, Bulgaria and Romania (no per-trip toll) — no toll or vignette in Guernsey or Jersey.",
+      'footer.text': "Cap on the unknown — a playful generator, no data is ever sent anywhere. Towns: IGN / geo.api.gouv.fr (Etalab) for France, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, the Czech Republic, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia and Herzegovina, the United Kingdom, Ireland, the Isle of Man, Denmark, Norway, Sweden, Finland, the Åland Islands, Montenegro, Albania, Kosovo, Serbia, North Macedonia, Greece, Bulgaria, Romania, Latvia, Lithuania and Estonia, the Vatican, Iceland and the Faroe Islands. Points of interest and map background: © OpenStreetMap contributors (ODbL licence). Tolls: VINCI Autoroutes (France), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia and Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (North Macedonia), Olympia Odos/Egnatia Odos (Greece) — free motorways in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco, Malta, Poland (except three concession sections), the United Kingdom, Ireland, the Isle of Man, Denmark, Norway, Sweden, Finland, the Åland Islands, Montenegro, Albania and Kosovo, as well as in Latvia, Lithuania and Estonia, the Vatican, Iceland and the Faroe Islands; an annual vignette in Switzerland, Austria, the Czech Republic, Slovakia, Hungary, Slovenia, Bulgaria and Romania (no per-trip toll) — no toll or vignette in Guernsey or Jersey.",
       'footer.legalMentions': 'Legal notice',
       'footer.privacyPolicy': 'Privacy policy',
       'footer.translationDisclaimer': 'The interface has been translated into many languages and may contain mistakes — feel free to report them to contact@lume419.fr.',
@@ -777,6 +779,7 @@
       'ferry.route.skopelos': 'Continente ↔ Skópelos',
       'ferry.route.alonissos': 'Continente ↔ Alónnisos',
       'ferry.route.skyros': 'Continente ↔ Skýros',
+      'ferry.route.suduroy': 'Continente ↔ Suðuroy',
       'toll.label': 'Peaje (tarifa ASF 2026)',
       'toll.barrierFree': 'peaje de flujo libre, sin barrera (cobro automático por cámara)',
       'toll.barrierClassic': 'peaje clásico con barrera',
@@ -852,7 +855,7 @@
 
       'again.button': 'Sortear otro destino',
 
-      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica, los Países Bajos, Luxemburgo, Suiza, Alemania, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, República Checa, Polonia, Eslovaquia, Hungría, Eslovenia, Croacia, Bosnia y Herzegovina, el Reino Unido, Irlanda, la Isla de Man, Dinamarca, Noruega, Suecia, Finlandia, las islas Åland, Montenegro, Albania, Kosovo, Serbia, Macedonia del Norte, Grecia, Bulgaria, Rumanía, Letonia, Lituania y Estonia. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croacia), Autoceste FBiH/Autoputevi RS (Bosnia y Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia del Norte), Olympia Odos/Egnatia Odos (Grecia) — autopistas gratuitas en Bélgica, Andorra, los Países Bajos, Luxemburgo, Alemania, San Marino, Liechtenstein, Mónaco, Malta, Polonia (salvo tres tramos concesionados), el Reino Unido, Irlanda, la Isla de Man, Dinamarca, Noruega, Suecia, Finlandia, las islas Åland, Montenegro, Albania y Kosovo, así como en Letonia, Lituania y Estonia; viñeta anual en Suiza, Austria, República Checa, Eslovaquia, Hungría, Eslovenia, Bulgaria y Rumanía (sin peaje por trayecto) — sin peaje ni viñeta en Guernsey y Jersey.",
+      'footer.text': "Rumbo a lo desconocido — un generador lúdico, no se envía ningún dato a ningún sitio. Municipios: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licencia CC-BY) para Andorra, España, Portugal, Bélgica, los Países Bajos, Luxemburgo, Suiza, Alemania, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, República Checa, Polonia, Eslovaquia, Hungría, Eslovenia, Croacia, Bosnia y Herzegovina, el Reino Unido, Irlanda, la Isla de Man, Dinamarca, Noruega, Suecia, Finlandia, las islas Åland, Montenegro, Albania, Kosovo, Serbia, Macedonia del Norte, Grecia, Bulgaria, Rumanía, Letonia, Lituania y Estonia, el Vaticano, Islandia y las islas Feroe. Puntos de interés y fondo de mapa: © colaboradores de OpenStreetMap (licencia ODbL). Peajes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croacia), Autoceste FBiH/Autoputevi RS (Bosnia y Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia del Norte), Olympia Odos/Egnatia Odos (Grecia) — autopistas gratuitas en Bélgica, Andorra, los Países Bajos, Luxemburgo, Alemania, San Marino, Liechtenstein, Mónaco, Malta, Polonia (salvo tres tramos concesionados), el Reino Unido, Irlanda, la Isla de Man, Dinamarca, Noruega, Suecia, Finlandia, las islas Åland, Montenegro, Albania y Kosovo, así como en Letonia, Lituania y Estonia, el Vaticano, Islandia y las islas Feroe; viñeta anual en Suiza, Austria, República Checa, Eslovaquia, Hungría, Eslovenia, Bulgaria y Rumanía (sin peaje por trayecto) — sin peaje ni viñeta en Guernsey y Jersey.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidad',
       'footer.translationDisclaimer': 'La interfaz se ha traducido a numerosos idiomas y puede contener errores — no dudes en comunicarlos a contact@lume419.fr.',
@@ -1045,6 +1048,7 @@
       'ferry.route.skopelos': 'Continente ↔ Skópelos',
       'ferry.route.alonissos': 'Continente ↔ Alónnisos',
       'ferry.route.skyros': 'Continente ↔ Skýros',
+      'ferry.route.suduroy': 'Continente ↔ Suðuroy',
       'toll.label': 'Portagem (tabela ASF 2026)',
       'toll.barrierFree': 'portagem de fluxo livre, sem barreira (cobrança automática por câmara)',
       'toll.barrierClassic': 'portagem clássica com barreira',
@@ -1120,7 +1124,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica, os Países Baixos, o Luxemburgo, a Suíça, a Alemanha, a Itália, a Áustria, São Marinho, o Liechtenstein, o Mónaco, Malta, Guernsey, Jersey, a República Checa, a Polónia, a Eslováquia, a Hungria, a Eslovénia, a Croácia, a Bósnia e Herzegovina, o Reino Unido, a Irlanda, a Ilha de Man, a Dinamarca, a Noruega, a Suécia, a Finlândia, as ilhas Åland, o Montenegro, a Albânia, o Kosovo, a Sérvia, a Macedónia do Norte, a Grécia, a Bulgária, a Roménia, a Letónia, a Lituânia e a Estónia. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itália), HAC (Croácia), Autoceste FBiH/Autoputevi RS (Bósnia e Herzegovina), Putevi Srbije (Sérvia), JP za državni patišta (Macedónia do Norte), Olympia Odos/Egnatia Odos (Grécia) — autoestradas gratuitas na Bélgica, em Andorra, nos Países Baixos, no Luxemburgo, na Alemanha, em São Marinho, no Liechtenstein, no Mónaco, em Malta, na Polónia (exceto três troços concessionados), no Reino Unido, na Irlanda, na Ilha de Man, na Dinamarca, na Noruega, na Suécia, na Finlândia, nas ilhas Åland, no Montenegro, na Albânia e no Kosovo, assim como na Letónia, na Lituânia e na Estónia; vinheta anual na Suíça, na Áustria, na República Checa, na Eslováquia, na Hungria, na Eslovénia, na Bulgária e na Roménia (sem portagem por trajeto) — sem portagem nem vinheta em Guernsey e Jersey.",
+      'footer.text': "Rumo ao desconhecido — um gerador lúdico, nenhum dado é enviado para lado nenhum. Municípios: IGN / geo.api.gouv.fr (Etalab) para França, GeoNames (licença CC-BY) para Andorra, Espanha, Portugal, Bélgica, os Países Baixos, o Luxemburgo, a Suíça, a Alemanha, a Itália, a Áustria, São Marinho, o Liechtenstein, o Mónaco, Malta, Guernsey, Jersey, a República Checa, a Polónia, a Eslováquia, a Hungria, a Eslovénia, a Croácia, a Bósnia e Herzegovina, o Reino Unido, a Irlanda, a Ilha de Man, a Dinamarca, a Noruega, a Suécia, a Finlândia, as ilhas Åland, o Montenegro, a Albânia, o Kosovo, a Sérvia, a Macedónia do Norte, a Grécia, a Bulgária, a Roménia, a Letónia, a Lituânia e a Estónia, o Vaticano, a Islândia e as ilhas Faroé. Pontos de interesse e fundo de mapa: © colaboradores do OpenStreetMap (licença ODbL). Portagens: VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itália), HAC (Croácia), Autoceste FBiH/Autoputevi RS (Bósnia e Herzegovina), Putevi Srbije (Sérvia), JP za državni patišta (Macedónia do Norte), Olympia Odos/Egnatia Odos (Grécia) — autoestradas gratuitas na Bélgica, em Andorra, nos Países Baixos, no Luxemburgo, na Alemanha, em São Marinho, no Liechtenstein, no Mónaco, em Malta, na Polónia (exceto três troços concessionados), no Reino Unido, na Irlanda, na Ilha de Man, na Dinamarca, na Noruega, na Suécia, na Finlândia, nas ilhas Åland, no Montenegro, na Albânia e no Kosovo, assim como na Letónia, na Lituânia e na Estónia, no Vaticano, na Islândia e nas ilhas Faroé; vinheta anual na Suíça, na Áustria, na República Checa, na Eslováquia, na Hungria, na Eslovénia, na Bulgária e na Roménia (sem portagem por trajeto) — sem portagem nem vinheta em Guernsey e Jersey.",
       'footer.legalMentions': 'Aviso legal',
       'footer.privacyPolicy': 'Política de privacidade',
       'footer.translationDisclaimer': 'A interface foi traduzida para muitos idiomas e pode conter erros — não hesite em comunicá-los para contact@lume419.fr.',
@@ -1313,6 +1317,7 @@
       'ferry.route.skopelos': 'Vasteland ↔ Skópelos',
       'ferry.route.alonissos': 'Vasteland ↔ Alónnisos',
       'ferry.route.skyros': 'Vasteland ↔ Skýros',
+      'ferry.route.suduroy': 'Vasteland ↔ Suðuroy',
       'toll.label': 'Tol (ASF-tarief 2026)',
       'toll.barrierFree': 'vrije doorstroming, geen slagboom (automatische facturatie via camera)',
       'toll.barrierClassic': 'klassieke tol met slagboom',
@@ -1388,7 +1393,7 @@
 
       'again.button': 'Nog een bestemming loten',
 
-      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België, Nederland, Luxemburg, Zwitserland, Duitsland, Italië, Oostenrijk, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjechië, Polen, Slowakije, Hongarije, Slovenië, Kroatië, Bosnië en Herzegovina, het Verenigd Koninkrijk, Ierland, het eiland Man, Denemarken, Noorwegen, Zweden, Finland, de Ålandeilanden, Montenegro, Albanië, Kosovo, Servië, Noord-Macedonië, Griekenland, Bulgarije, Roemenië, Letland, Litouwen en Estland. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italië), HAC (Kroatië), Autoceste FBiH/Autoputevi RS (Bosnië en Herzegovina), Putevi Srbije (Servië), JP za državni patišta (Noord-Macedonië), Olympia Odos/Egnatia Odos (Griekenland) — gratis snelwegen in België, Andorra, Nederland, Luxemburg, Duitsland, San Marino, Liechtenstein, Monaco, Malta, Polen (behalve drie concessietrajecten), het Verenigd Koninkrijk, Ierland, het eiland Man, Denemarken, Noorwegen, Zweden, Finland, de Ålandeilanden, Montenegro, Albanië en Kosovo, evenals in Letland, Litouwen en Estland; jaarlijkse vignet in Zwitserland, Oostenrijk, Tsjechië, Slowakije, Hongarije, Slovenië, Bulgarije en Roemenië (geen tol per rit) — geen tol of vignet op Guernsey en Jersey.",
+      'footer.text': "Koers naar het onbekende — een speelse generator, er wordt nooit gegevens ergens naartoe verstuurd. Gemeenten: IGN / geo.api.gouv.fr (Etalab) voor Frankrijk, GeoNames (CC-BY-licentie) voor Andorra, Spanje, Portugal, België, Nederland, Luxemburg, Zwitserland, Duitsland, Italië, Oostenrijk, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjechië, Polen, Slowakije, Hongarije, Slovenië, Kroatië, Bosnië en Herzegovina, het Verenigd Koninkrijk, Ierland, het eiland Man, Denemarken, Noorwegen, Zweden, Finland, de Ålandeilanden, Montenegro, Albanië, Kosovo, Servië, Noord-Macedonië, Griekenland, Bulgarije, Roemenië, Letland, Litouwen en Estland, Vaticaanstad, IJsland en de Faeröer. Bezienswaardigheden en kaartachtergrond: © OpenStreetMap-bijdragers (ODbL-licentie). Tol: VINCI Autoroutes (Frankrijk), Autopistas (Spanje), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italië), HAC (Kroatië), Autoceste FBiH/Autoputevi RS (Bosnië en Herzegovina), Putevi Srbije (Servië), JP za državni patišta (Noord-Macedonië), Olympia Odos/Egnatia Odos (Griekenland) — gratis snelwegen in België, Andorra, Nederland, Luxemburg, Duitsland, San Marino, Liechtenstein, Monaco, Malta, Polen (behalve drie concessietrajecten), het Verenigd Koninkrijk, Ierland, het eiland Man, Denemarken, Noorwegen, Zweden, Finland, de Ålandeilanden, Montenegro, Albanië en Kosovo, evenals in Letland, Litouwen en Estland, Vaticaanstad, IJsland en de Faeröer; jaarlijkse vignet in Zwitserland, Oostenrijk, Tsjechië, Slowakije, Hongarije, Slovenië, Bulgarije en Roemenië (geen tol per rit) — geen tol of vignet op Guernsey en Jersey.",
       'footer.legalMentions': 'Wettelijke vermeldingen',
       'footer.privacyPolicy': 'Privacybeleid',
       'footer.translationDisclaimer': 'De interface is in veel talen vertaald en kan fouten bevatten — aarzel niet om ze te melden via contact@lume419.fr.',
@@ -1581,6 +1586,7 @@
       'ferry.route.skopelos': 'Festland ↔ Skópelos',
       'ferry.route.alonissos': 'Festland ↔ Alónnisos',
       'ferry.route.skyros': 'Festland ↔ Skýros',
+      'ferry.route.suduroy': 'Festland ↔ Suðuroy',
       'toll.label': 'Maut (ASF-Tarif 2026)',
       'toll.barrierFree': 'freie Durchfahrt ohne Schranke (automatische Erfassung per Kamera)',
       'toll.barrierClassic': 'klassische Mautstelle mit Schranke',
@@ -1656,7 +1662,7 @@
 
       'again.button': 'Neues Ziel auslosen',
 
-      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien, die Niederlande, Luxemburg, die Schweiz, Deutschland, Italien, Österreich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, die Slowakei, Ungarn, Slowenien, Kroatien, Bosnien und Herzegowina, das Vereinigte Königreich, Irland, die Insel Man, Dänemark, Norwegen, Schweden, Finnland, die Åland-Inseln, Montenegro, Albanien, den Kosovo, Serbien, Nordmazedonien, Griechenland, Bulgarien, Rumänien, Lettland, Litauen und Estland. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien und Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Nordmazedonien), Olympia Odos/Egnatia Odos (Griechenland) — mautfreie Autobahnen in Belgien, Andorra, den Niederlanden, Luxemburg, Deutschland, San Marino, Liechtenstein, Monaco, Malta, Polen (außer drei Konzessionsabschnitten), dem Vereinigten Königreich, Irland, der Insel Man, Dänemark, Norwegen, Schweden, Finnland, den Åland-Inseln, Montenegro, Albanien und dem Kosovo, sowie in Lettland, Litauen und Estland; jährliche Vignette in der Schweiz, in Österreich, in Tschechien, in der Slowakei, in Ungarn, in Slowenien, in Bulgarien und in Rumänien (keine Maut pro Fahrt) — keine Maut oder Vignette auf Guernsey und Jersey.",
+      'footer.text': "Kurs auf das Unbekannte — ein spielerischer Generator, es werden nie Daten irgendwohin gesendet. Gemeinden: IGN / geo.api.gouv.fr (Etalab) für Frankreich, GeoNames (CC-BY-Lizenz) für Andorra, Spanien, Portugal, Belgien, die Niederlande, Luxemburg, die Schweiz, Deutschland, Italien, Österreich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, die Slowakei, Ungarn, Slowenien, Kroatien, Bosnien und Herzegowina, das Vereinigte Königreich, Irland, die Insel Man, Dänemark, Norwegen, Schweden, Finnland, die Åland-Inseln, Montenegro, Albanien, den Kosovo, Serbien, Nordmazedonien, Griechenland, Bulgarien, Rumänien, Lettland, Litauen und Estland, den Vatikan, Island und die Färöer. Sehenswürdigkeiten und Kartenhintergrund: © OpenStreetMap-Mitwirkende (ODbL-Lizenz). Maut: VINCI Autoroutes (Frankreich), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien und Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Nordmazedonien), Olympia Odos/Egnatia Odos (Griechenland) — mautfreie Autobahnen in Belgien, Andorra, den Niederlanden, Luxemburg, Deutschland, San Marino, Liechtenstein, Monaco, Malta, Polen (außer drei Konzessionsabschnitten), dem Vereinigten Königreich, Irland, der Insel Man, Dänemark, Norwegen, Schweden, Finnland, den Åland-Inseln, Montenegro, Albanien und dem Kosovo, sowie in Lettland, Litauen und Estland, im Vatikan, in Island und auf den Färöern; jährliche Vignette in der Schweiz, in Österreich, in Tschechien, in der Slowakei, in Ungarn, in Slowenien, in Bulgarien und in Rumänien (keine Maut pro Fahrt) — keine Maut oder Vignette auf Guernsey und Jersey.",
       'footer.legalMentions': 'Impressum',
       'footer.privacyPolicy': 'Datenschutzerklärung',
       'footer.translationDisclaimer': 'Die Oberfläche wurde in viele Sprachen übersetzt und kann Fehler enthalten — zögern Sie nicht, sie an contact@lume419.fr zu melden.',
@@ -1851,6 +1857,7 @@
       'ferry.route.skopelos': 'Festland ↔ Skópelos',
       'ferry.route.alonissos': 'Festland ↔ Alónnisos',
       'ferry.route.skyros': 'Festland ↔ Skýros',
+      'ferry.route.suduroy': 'Festland ↔ Suðuroy',
       'toll.label': 'Peage (ASF-Tarif 2026)',
       'toll.barrierFree': 'fräi Duerchfaart ouni Barrière (automatesch Ofrechnung per Kamera)',
       'toll.barrierClassic': 'klassesche Peage mat Barrière',
@@ -1926,7 +1933,7 @@
 
       'again.button': 'Nach eng aner Destinatioun zéien',
 
-      'footer.text': "Kurs op d'Onbekannt — e spilleresche Generator, et gi ni Donnéeën iergendwouhinner geschéckt. Gemengen: IGN / geo.api.gouv.fr (Etalab) fir Frankräich, GeoNames (CC-BY-Lizenz) fir Andorra, Spuenien, Portugal, d'Belsch, d'Nidderlanden, Lëtzebuerg, d'Schwäiz, Däitschland, Italien, Éisträich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, d'Slowakei, Ungarn, Slowenien, Kroatien, Bosnien a Herzegowina, d'Vereenegt Kinnekräich, Irland, d'Insel Man, Dänemark, Norwegen, Schweden, Finnland, d'Åland-Inselen, Montenegro, Albanien, Kosovo, Serbien, Nordmazedonien, Griechenland, Bulgarien, Rumänien, Lettland, Litauen a Estland. Sehenswiirdegkeeten a Kaart-Hannergrond: © d'OpenStreetMap-Mataarbechter (ODbL-Lizenz). Peage: VINCI Autoroutes (Frankräich), Autopistas (Spuenien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien a Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Nordmazedonien), Olympia Odos/Egnatia Odos (Griechenland) — gratis Autobunnen an der Belsch, an Andorra, an den Nidderlanden, zu Lëtzebuerg, an Däitschland, zu San Marino, zu Liechtenstein, zu Monaco, zu Malta, zu Polen (ausser dräi Konzessiounsabschnëtter), am Vereenegte Kinnekräich, an Irland, op der Insel Man, zu Dänemark, zu Norwegen, zu Schweden, zu Finnland, op den Åland-Inselen, zu Montenegro, zu Albanien a Kosovo, esou wéi zu Lettland, Litauen a Estland; eng jäerlech Vignette an der Schwäiz, an Éisträich, an Tschechien, an der Slowakei, an Ungarn, an Slowenien, an Bulgarien a an Rumänien (kee Peage pro Streck) — weder Peage nach Vignette op Guernsey a Jersey.",
+      'footer.text': "Kurs op d'Onbekannt — e spilleresche Generator, et gi ni Donnéeën iergendwouhinner geschéckt. Gemengen: IGN / geo.api.gouv.fr (Etalab) fir Frankräich, GeoNames (CC-BY-Lizenz) fir Andorra, Spuenien, Portugal, d'Belsch, d'Nidderlanden, Lëtzebuerg, d'Schwäiz, Däitschland, Italien, Éisträich, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, d'Slowakei, Ungarn, Slowenien, Kroatien, Bosnien a Herzegowina, d'Vereenegt Kinnekräich, Irland, d'Insel Man, Dänemark, Norwegen, Schweden, Finnland, d'Åland-Inselen, Montenegro, Albanien, Kosovo, Serbien, Nordmazedonien, Griechenland, Bulgarien, Rumänien, Lettland, Litauen a Estland, de Vatikan, Island a d'Färöer. Sehenswiirdegkeeten a Kaart-Hannergrond: © d'OpenStreetMap-Mataarbechter (ODbL-Lizenz). Peage: VINCI Autoroutes (Frankräich), Autopistas (Spuenien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien a Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Nordmazedonien), Olympia Odos/Egnatia Odos (Griechenland) — gratis Autobunnen an der Belsch, an Andorra, an den Nidderlanden, zu Lëtzebuerg, an Däitschland, zu San Marino, zu Liechtenstein, zu Monaco, zu Malta, zu Polen (ausser dräi Konzessiounsabschnëtter), am Vereenegte Kinnekräich, an Irland, op der Insel Man, zu Dänemark, zu Norwegen, zu Schweden, zu Finnland, op den Åland-Inselen, zu Montenegro, zu Albanien a Kosovo, esou wéi zu Lettland, Litauen a Estland, am Vatikan, op Island a op de Färöer; eng jäerlech Vignette an der Schwäiz, an Éisträich, an Tschechien, an der Slowakei, an Ungarn, an Slowenien, an Bulgarien a an Rumänien (kee Peage pro Streck) — weder Peage nach Vignette op Guernsey a Jersey.",
       'footer.legalMentions': 'Legal Notiz',
       'footer.privacyPolicy': 'Dateschutzerklärung',
       'footer.translationDisclaimer': "D'Interface gouf a ville Sproochen iwwersat a kann Feeler enthalen — mell se gäre un contact@lume419.fr.",
@@ -2121,6 +2128,7 @@
       'ferry.route.skopelos': 'Continente ↔ Skópelos',
       'ferry.route.alonissos': 'Continente ↔ Alónnisos',
       'ferry.route.skyros': 'Continente ↔ Skýros',
+      'ferry.route.suduroy': 'Continente ↔ Suðuroy',
       'toll.label': 'Pedaggio (listino ASF 2026)',
       'toll.barrierFree': 'pedaggio a flusso libero, senza barriera (fatturazione automatica tramite telecamera)',
       'toll.barrierClassic': 'pedaggio classico con barriera',
@@ -2196,7 +2204,7 @@
 
       'again.button': "Estrai un'altra destinazione",
 
-      'footer.text': "Rotta verso l'ignoto — un generatore ludico, nessun dato viene mai inviato da nessuna parte. Comuni: IGN / geo.api.gouv.fr (Etalab) per la Francia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogallo, Belgio, Paesi Bassi, Lussemburgo, Svizzera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Repubblica Ceca, Polonia, Slovacchia, Ungheria, Slovenia, Croazia, Bosnia ed Erzegovina, il Regno Unito, l'Irlanda, l'Isola di Man, la Danimarca, la Norvegia, la Svezia, la Finlandia, le isole Åland, il Montenegro, l'Albania, il Kosovo, la Serbia, la Macedonia del Nord, la Grecia, la Bulgaria, la Romania, la Lettonia, la Lituania e l'Estonia. Punti d'interesse e sfondo mappa: © i contributori di OpenStreetMap (licenza ODbL). Pedaggi: VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallo), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia ed Erzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia del Nord), Olympia Odos/Egnatia Odos (Grecia) — autostrade gratuite in Belgio, Andorra, Paesi Bassi, Lussemburgo, Germania, San Marino, Liechtenstein, Monaco, Malta, Polonia (tranne tre tratti in concessione), nel Regno Unito, in Irlanda, nell'Isola di Man, in Danimarca, in Norvegia, in Svezia, in Finlandia, nelle isole Åland, in Montenegro, in Albania e in Kosovo, nonché in Lettonia, Lituania ed Estonia; vignetta annuale in Svizzera, Austria, Repubblica Ceca, Slovacchia, Ungheria, Slovenia, Bulgaria e Romania (nessun pedaggio per tragitto) — nessun pedaggio né vignetta a Guernsey e Jersey.",
+      'footer.text': "Rotta verso l'ignoto — un generatore ludico, nessun dato viene mai inviato da nessuna parte. Comuni: IGN / geo.api.gouv.fr (Etalab) per la Francia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogallo, Belgio, Paesi Bassi, Lussemburgo, Svizzera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Repubblica Ceca, Polonia, Slovacchia, Ungheria, Slovenia, Croazia, Bosnia ed Erzegovina, il Regno Unito, l'Irlanda, l'Isola di Man, la Danimarca, la Norvegia, la Svezia, la Finlandia, le isole Åland, il Montenegro, l'Albania, il Kosovo, la Serbia, la Macedonia del Nord, la Grecia, la Bulgaria, la Romania, la Lettonia, la Lituania e l'Estonia, la Città del Vaticano, l'Islanda e le isole Fær Øer. Punti d'interesse e sfondo mappa: © i contributori di OpenStreetMap (licenza ODbL). Pedaggi: VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallo), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia ed Erzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia del Nord), Olympia Odos/Egnatia Odos (Grecia) — autostrade gratuite in Belgio, Andorra, Paesi Bassi, Lussemburgo, Germania, San Marino, Liechtenstein, Monaco, Malta, Polonia (tranne tre tratti in concessione), nel Regno Unito, in Irlanda, nell'Isola di Man, in Danimarca, in Norvegia, in Svezia, in Finlandia, nelle isole Åland, in Montenegro, in Albania e in Kosovo, nonché in Lettonia, Lituania ed Estonia, Città del Vaticano, Islanda e isole Fær Øer; vignetta annuale in Svizzera, Austria, Repubblica Ceca, Slovacchia, Ungheria, Slovenia, Bulgaria e Romania (nessun pedaggio per tragitto) — nessun pedaggio né vignetta a Guernsey e Jersey.",
       'footer.legalMentions': 'Note legali',
       'footer.privacyPolicy': 'Informativa sulla privacy',
       'footer.translationDisclaimer': "L'interfaccia è stata tradotta in numerose lingue e può contenere errori — non esitate a segnalarli a contact@lume419.fr.",
@@ -2395,6 +2403,7 @@
       'ferry.route.skopelos': 'Cuntinent ↔ Skópelos',
       'ferry.route.alonissos': 'Cuntinent ↔ Alónnisos',
       'ferry.route.skyros': 'Cuntinent ↔ Skýros',
+      'ferry.route.suduroy': 'Cuntinent ↔ Suðuroy',
       'toll.label': 'Taxa da via (tariffa ASF 2026)',
       'toll.barrierFree': 'taxa da flus liber, senza barriera (fatturaziun automatica tras camera)',
       'toll.barrierClassic': 'taxa da via classica cun barriera',
@@ -2470,7 +2479,7 @@
 
       'again.button': 'Tirar ina autra destinaziun',
 
-      'footer.text': "Direcziun l'ignot — in generatur ludic, nagina data na vegn mai tramessa nunder che saja. Vischnancas: IGN / geo.api.gouv.fr (Etalab) per Frantscha, GeoNames (licenza CC-BY) per Andorra, Spagna, Portugal, Belgia, ils Pajais Bass, Luxemburg, la Svizra, la Germania, l'Italia, l'Austria, San Marino, il Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica tscheca, la Pòlonia, la Slovacia, l'Ungaria, la Slovenia, la Croazia, la Bosnia-Erzegovina, il Reginavel Unì, l'Irlanda, l'Isla da Man, la Danemarcha, la Norvegia, la Svezia, la Finlanda, las islas Åland, il Montenegro, l'Albania, il Kosovo, la Serbia, la Macedonia dal Nord, la Grezia, la Bulgaria, la Rumenia, la Lettonia, la Lituania e l'Estonia. Puncts d'interess e fund da charta: © ils contribuents da OpenStreetMap (licenza ODbL). Taxas da via: VINCI Autoroutes (Frantscha), Autopistas (Spagna), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia dal Nord), Olympia Odos/Egnatia Odos (Grezia) — autostradas gratuitas en Belgia, Andorra, ils Pajais Bass, Luxemburg, la Germania, San Marino, il Liechtenstein, Monaco, Malta, la Pòlonia (ordvart trais troncs concedids), il Reginavel Unì, l'Irlanda, sin l'Isla da Man, en Danemarcha, en Norvegia, en Svezia, en Finlanda, sin las islas Åland, en Montenegro, en Albania ed en Kosovo, sco er en Lettonia, en Lituania ed en Estonia; vigneta annuala en Svizra, en Austria, en la Republica tscheca, en la Slovacia, en l'Ungaria, en la Slovenia, en la Bulgaria ed en la Rumenia (nagina taxa per viadi) — nagina taxa da via ni vigneta a Guernsey e Jersey.",
+      'footer.text': "Direcziun l'ignot — in generatur ludic, nagina data na vegn mai tramessa nunder che saja. Vischnancas: IGN / geo.api.gouv.fr (Etalab) per Frantscha, GeoNames (licenza CC-BY) per Andorra, Spagna, Portugal, Belgia, ils Pajais Bass, Luxemburg, la Svizra, la Germania, l'Italia, l'Austria, San Marino, il Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica tscheca, la Pòlonia, la Slovacia, l'Ungaria, la Slovenia, la Croazia, la Bosnia-Erzegovina, il Reginavel Unì, l'Irlanda, l'Isla da Man, la Danemarcha, la Norvegia, la Svezia, la Finlanda, las islas Åland, il Montenegro, l'Albania, il Kosovo, la Serbia, la Macedonia dal Nord, la Grezia, la Bulgaria, la Rumenia, la Lettonia, la Lituania e l'Estonia, il Vatican, l'Islanda e las Isulas Feroe. Puncts d'interess e fund da charta: © ils contribuents da OpenStreetMap (licenza ODbL). Taxas da via: VINCI Autoroutes (Frantscha), Autopistas (Spagna), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia dal Nord), Olympia Odos/Egnatia Odos (Grezia) — autostradas gratuitas en Belgia, Andorra, ils Pajais Bass, Luxemburg, la Germania, San Marino, il Liechtenstein, Monaco, Malta, la Pòlonia (ordvart trais troncs concedids), il Reginavel Unì, l'Irlanda, sin l'Isla da Man, en Danemarcha, en Norvegia, en Svezia, en Finlanda, sin las islas Åland, en Montenegro, en Albania ed en Kosovo, sco er en Lettonia, en Lituania ed en Estonia, en il Vatican, en Islanda ed en las Isulas Feroe; vigneta annuala en Svizra, en Austria, en la Republica tscheca, en la Slovacia, en l'Ungaria, en la Slovenia, en la Bulgaria ed en la Rumenia (nagina taxa per viadi) — nagina taxa da via ni vigneta a Guernsey e Jersey.",
       'footer.legalMentions': 'Indicaziuns legalas',
       'footer.privacyPolicy': 'Directiva da protecziun da datas',
       'footer.translationDisclaimer': "L'interfatscha è vegnida translatada en numerusas linguas e po cuntegnair errurs — n'exitai betg da las signalar a contact@lume419.fr.",
@@ -2667,6 +2676,7 @@
       'ferry.route.skopelos': 'Fastland ↔ Skópelos',
       'ferry.route.alonissos': 'Fastland ↔ Alónnisos',
       'ferry.route.skyros': 'Fastland ↔ Skýros',
+      'ferry.route.suduroy': 'Fastland ↔ Suðuroy',
       'toll.label': 'Toll (ASF-Preisliest 2026)',
       'toll.barrierFree': 'Toll ahn Schranken (automaatsch Afreken mit Kamera)',
       'toll.barrierClassic': 'klassischen Toll mit Schranken',
@@ -2742,7 +2752,7 @@
 
       'again.button': 'En anner Reisdoel utloten',
 
-      'footer.text': 'Kurs op dat Unbekannte — en spöölschen Generator, dat warrt nienich Daten sennt. Gemeenden: IGN / geo.api.gouv.fr (Etalab) för Frankriek, GeoNames (CC-BY-Lizenz) för Andorra, Spanien, Portugal, Belgien, de Nedderlannen, Luxemburg, de Swiez, Düütschland, Italien, Oostriek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, de Slowakei, Ungarn, Slowenien, Kroatien, Bosnien-Herzegowina, dat Vereente Königriek, Irland, de Insel Man, Denmark, Norwegen, Sweden, Finnland, de Åland-Eilannen, Montenegro, Albanien, Kosovo, Serbien, Noordmazedonien, Griekenland, Bulgarien, Rumänien, Lettland, Litauen un Estland. Sehenswöördigkeiten un Kaartgrund: © de OpenStreetMap-Mitmakers (ODbL-Lizenz). Toll: VINCI Autoroutes (Frankriek), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Noordmazedonien), Olympia Odos/Egnatia Odos (Griekenland) — tollfrie Autobahnen in Belgien, Andorra, de Nedderlannen, Luxemburg, Düütschland, San Marino, Liechtenstein, Monaco, Malta, Polen (buten dree Konzessschoonsafsnitten), dat Vereente Königriek, Irland, de Insel Man, Denmark, Norwegen, Sweden, Finnland, de Åland-Eilannen, Montenegro, Albanien un Kosovo, so as ok in Lettland, Litauen un Estland; jährliche Vignette in de Swiez, in Oostriek, in Tschechien, in de Slowakei, in Ungarn, in Slowenien, in Bulgarien un in Rumänien (keen Toll per Reis) — keen Toll un keen Vignette op Guernsey un Jersey.',
+      'footer.text': 'Kurs op dat Unbekannte — en spöölschen Generator, dat warrt nienich Daten sennt. Gemeenden: IGN / geo.api.gouv.fr (Etalab) för Frankriek, GeoNames (CC-BY-Lizenz) för Andorra, Spanien, Portugal, Belgien, de Nedderlannen, Luxemburg, de Swiez, Düütschland, Italien, Oostriek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, de Slowakei, Ungarn, Slowenien, Kroatien, Bosnien-Herzegowina, dat Vereente Königriek, Irland, de Insel Man, Denmark, Norwegen, Sweden, Finnland, de Åland-Eilannen, Montenegro, Albanien, Kosovo, Serbien, Noordmazedonien, Griekenland, Bulgarien, Rumänien, Lettland, Litauen un Estland, den Vatikan, Island un de Färöer. Sehenswöördigkeiten un Kaartgrund: © de OpenStreetMap-Mitmakers (ODbL-Lizenz). Toll: VINCI Autoroutes (Frankriek), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Noordmazedonien), Olympia Odos/Egnatia Odos (Griekenland) — tollfrie Autobahnen in Belgien, Andorra, de Nedderlannen, Luxemburg, Düütschland, San Marino, Liechtenstein, Monaco, Malta, Polen (buten dree Konzessschoonsafsnitten), dat Vereente Königriek, Irland, de Insel Man, Denmark, Norwegen, Sweden, Finnland, de Åland-Eilannen, Montenegro, Albanien un Kosovo, so as ok in Lettland, Litauen un Estland, in Vatikan, up Island un up de Färöer; jährliche Vignette in de Swiez, in Oostriek, in Tschechien, in de Slowakei, in Ungarn, in Slowenien, in Bulgarien un in Rumänien (keen Toll per Reis) — keen Toll un keen Vignette op Guernsey un Jersey.',
       'footer.legalMentions': 'Rechtlich Angaven',
       'footer.privacyPolicy': 'Datenschutz',
       'footer.translationDisclaimer': 'De Böversiet is in vele Spraken översett worrn un kann Fehler bargen — meld se gern bi contact@lume419.fr.',
@@ -2941,6 +2951,7 @@
       'ferry.route.skopelos': 'Kontinent ↔ Skópelos',
       'ferry.route.alonissos': 'Kontinent ↔ Alónnisos',
       'ferry.route.skyros': 'Kontinent ↔ Skýros',
+      'ferry.route.suduroy': 'Kontinent ↔ Suðuroy',
       'toll.label': 'Myto (cenik ASF 2026)',
       'toll.barrierFree': 'myto bjez barjery (awtomatiske wotličenje přez kameru)',
       'toll.barrierClassic': 'klasiske myto z barjeru',
@@ -3016,7 +3027,7 @@
 
       'again.button': 'Druhi cil wupytać',
 
-      'footer.text': 'Kurs do njeznateho — spěłna generator, žadyn dataj so ženje njesela. Gmejny: IGN / geo.api.gouv.fr (Etalab) za Francosku, GeoNames (licenca CC-BY) za Andorru, Španisku, Portugalsku, Belgisku, Nižozemsku, Luxemburgsku, Šwicarsku, Němsku, Italsku, Rakusku, San Marino, Liechtenstein, Monako, Maltu, Guernsey, Jersey, Čěsku republiku, Pólsku, Słowakisku, Madźarsku, Słowjensku, Chorwatsku, Bosnu a Hercegowinu, Zjednoćene kralestwo, Irsku, kupu Man, Daniju, Norwegsku, Šwedsku, Finsku, kupy Åland, Čornu Horu, Albansku, Kosowo, Serbisku, Sewjernu Makedonsku, Grjeksku, Bulgarsku, Rumunsku, Letisku, Litawsku a Estisku. Wobhladowanske dypki a kartowe pozadźe: © sobuskutkowarjo OpenStreetMap (licenca ODbL). Myto: VINCI Autoroutes (Francoska), Autopistas (Španiska), Via Verde/Ascendi (Portugalska), Autostrade per l’Italia (Italska), HAC (Chorwatska), Autoceste FBiH/Autoputevi RS (Bosna a Hercegowina), Putevi Srbije (Serbiska), JP za državni patišta (Sewjerna Makedonska), Olympia Odos/Egnatia Odos (Grjekska) — myta-swobodne awtodróhi w Belgiskej, Andorrje, Nižozemskej, Luxemburgskej, Němskej, San Marinje, Liechtensteinje, Monaku, Malće, Pólskej (znajmjeńša tři koncesionowane wotrězki wuwzate), w Zjednoćenym kralestwje, w Irskej, na kupje Man, w Daniskej, w Norwegskej, w Šwedskej, w Finskej, na kupach Åland, w Čornej Horje, w Albanskej a w Kosowje, kaž tež w Letiskej, Litawskej a Estiskej; lětna vignetka w Šwicarskej, w Rakuskej, w Čěskej republice, w Słowakiskej, w Madźarskej, w Słowjenskej, w Bulgarskej a w Rumunskej (žane myto na jězbu) — žane myto a žana vignetka na Guernseyu a Jerseyu.',
+      'footer.text': 'Kurs do njeznateho — spěłna generator, žadyn dataj so ženje njesela. Gmejny: IGN / geo.api.gouv.fr (Etalab) za Francosku, GeoNames (licenca CC-BY) za Andorru, Španisku, Portugalsku, Belgisku, Nižozemsku, Luxemburgsku, Šwicarsku, Němsku, Italsku, Rakusku, San Marino, Liechtenstein, Monako, Maltu, Guernsey, Jersey, Čěsku republiku, Pólsku, Słowakisku, Madźarsku, Słowjensku, Chorwatsku, Bosnu a Hercegowinu, Zjednoćene kralestwo, Irsku, kupu Man, Daniju, Norwegsku, Šwedsku, Finsku, kupy Åland, Čornu Horu, Albansku, Kosowo, Serbisku, Sewjernu Makedonsku, Grjeksku, Bulgarsku, Rumunsku, Letisku, Litawsku a Estisku, Vatikan, Island a Färöer. Wobhladowanske dypki a kartowe pozadźe: © sobuskutkowarjo OpenStreetMap (licenca ODbL). Myto: VINCI Autoroutes (Francoska), Autopistas (Španiska), Via Verde/Ascendi (Portugalska), Autostrade per l’Italia (Italska), HAC (Chorwatska), Autoceste FBiH/Autoputevi RS (Bosna a Hercegowina), Putevi Srbije (Serbiska), JP za državni patišta (Sewjerna Makedonska), Olympia Odos/Egnatia Odos (Grjekska) — myta-swobodne awtodróhi w Belgiskej, Andorrje, Nižozemskej, Luxemburgskej, Němskej, San Marinje, Liechtensteinje, Monaku, Malće, Pólskej (znajmjeńša tři koncesionowane wotrězki wuwzate), w Zjednoćenym kralestwje, w Irskej, na kupje Man, w Daniskej, w Norwegskej, w Šwedskej, w Finskej, na kupach Åland, w Čornej Horje, w Albanskej a w Kosowje, kaž tež w Letiskej, Litawskej a Estiskej, we Vatikanje, na Islandskej a na Färöerach; lětna vignetka w Šwicarskej, w Rakuskej, w Čěskej republice, w Słowakiskej, w Madźarskej, w Słowjenskej, w Bulgarskej a w Rumunskej (žane myto na jězbu) — žane myto a žana vignetka na Guernseyu a Jerseyu.',
       'footer.legalMentions': 'Prawniske pokazki',
       'footer.privacyPolicy': 'Škit datow',
       'footer.translationDisclaimer': 'Powjercha je do wjele rěčow přełožena a móže zmylki wobsahować — njewahajće so je pola contact@lume419.fr zdźělić.',
@@ -3216,6 +3227,7 @@
       'ferry.route.skopelos': 'Fastlaanj ↔ Skópelos',
       'ferry.route.alonissos': 'Fastlaanj ↔ Alónnisos',
       'ferry.route.skyros': 'Fastlaanj ↔ Skýros',
+      'ferry.route.suduroy': 'Fastlaanj ↔ Suðuroy',
       'toll.label': 'Tol (ASF-priislist 2026)',
       'toll.barrierFree': 'tol uunern schranke (automaatsch aftjelnge mä kamera)',
       'toll.barrierClassic': 'klassisk tol mä schranke',
@@ -3291,7 +3303,7 @@
 
       'again.button': 'En üder reisdoal lucht',
 
-      'footer.text': 'Kurs tu det unbekannte — en spöölsk generator, nian dooten wårde ai fuurtstüürd. Gemiine: IGN / geo.api.gouv.fr (Etalab) foor Frankrik, GeoNames (CC-BY-lizens) foor Andorra, Spaanien, Portugal, Belgien, Nedderlönje, Luxemburg, dai Swiits, Düütsklönj, Italien, Österiek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, di Slowakei, Ungarn, Slowenien, Kroatien, Bosnien-Herzegowina, det Feriind Köningriek, Irlönj, Man, Denemark, Norwegen, Sweden, Finlönj, di Ålandeeilönj, Montenegro, Albanien, Kosovo, Serbien, Nordmazedonien, Griechenland, Bulgarien, Rumänien, Lettland, Litauen an Estland. Sååchtjensweerdiheeden an kaart-uunergrünj: © dai OpenStreetMap-mäduurbeeders (ODbL-lizens). Tol: VINCI Autoroutes (Frankrik), Autopistas (Spaanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Nordmazedonien), Olympia Odos/Egnatia Odos (Griechenland) — tolfrii autobahne önj Belgien, Andorra, Nedderlönje, Luxemburg, Düütsklönj, San Marino, Liechtenstein, Monaco, Malta, Polen (bihaale trii konzessionsstriaken), Feriind Köningriek, Irlönj, Man, Denemark, Norwegen, Sweden, Finlönj, di Ålandeeilönj, Montenegro, Albanien an Kosovo, sowäl uk önj Lettland, Litauen an Estland; iaarli vignet önj dai Swiits, önj Österiek, önj Tschechien, önj di Slowakei, önj Ungarn, önj Slowenien, önj Bulgarien an önj Rumänien (nian tol per reise) — nian tol jam nian vignet önj Guernsey an Jersey.',
+      'footer.text': 'Kurs tu det unbekannte — en spöölsk generator, nian dooten wårde ai fuurtstüürd. Gemiine: IGN / geo.api.gouv.fr (Etalab) foor Frankrik, GeoNames (CC-BY-lizens) foor Andorra, Spaanien, Portugal, Belgien, Nedderlönje, Luxemburg, dai Swiits, Düütsklönj, Italien, Österiek, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tschechien, Polen, di Slowakei, Ungarn, Slowenien, Kroatien, Bosnien-Herzegowina, det Feriind Köningriek, Irlönj, Man, Denemark, Norwegen, Sweden, Finlönj, di Ålandeeilönj, Montenegro, Albanien, Kosovo, Serbien, Nordmazedonien, Griechenland, Bulgarien, Rumänien, Lettland, Litauen an Estland, dän Vatikan, Island an di Färöer. Sååchtjensweerdiheeden an kaart-uunergrünj: © dai OpenStreetMap-mäduurbeeders (ODbL-lizens). Tol: VINCI Autoroutes (Frankrik), Autopistas (Spaanien), Via Verde/Ascendi (Portugal), Autostrade per l’Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Herzegowina), Putevi Srbije (Serbien), JP za državni patišta (Nordmazedonien), Olympia Odos/Egnatia Odos (Griechenland) — tolfrii autobahne önj Belgien, Andorra, Nedderlönje, Luxemburg, Düütsklönj, San Marino, Liechtenstein, Monaco, Malta, Polen (bihaale trii konzessionsstriaken), Feriind Köningriek, Irlönj, Man, Denemark, Norwegen, Sweden, Finlönj, di Ålandeeilönj, Montenegro, Albanien an Kosovo, sowäl uk önj Lettland, Litauen an Estland, önj Vatikan, önj Island an önj di Färöer; iaarli vignet önj dai Swiits, önj Österiek, önj Tschechien, önj di Slowakei, önj Ungarn, önj Slowenien, önj Bulgarien an önj Rumänien (nian tol per reise) — nian tol jam nian vignet önj Guernsey an Jersey.',
       'footer.legalMentions': 'Juristisk uunwiisinge',
       'footer.privacyPolicy': 'Dooten-schuts',
       'footer.translationDisclaimer': 'Di App as uun fael spriaken uursaat wurn en kon fehler haa — schriuw üs gjarne tu contact@lume419.fr.',
@@ -3488,6 +3500,7 @@
       'ferry.route.skopelos': 'Continente ↔ Skópelos',
       'ferry.route.alonissos': 'Continente ↔ Alónnisos',
       'ferry.route.skyros': 'Continente ↔ Skýros',
+      'ferry.route.suduroy': 'Continente ↔ Suðuroy',
       'toll.label': 'Pedàgiu (tarifàriu ASF 2026)',
       'toll.barrierFree': 'pedàgiu a flussu lìberu, chene barriera (fatturatzione automàtica cun càmera)',
       'toll.barrierClassic': 'pedàgiu clàssicu cun barriera',
@@ -3563,7 +3576,7 @@
 
       'again.button': 'Tirare un\'àtera destinatzione',
 
-      'footer.text': 'Rutta a s\'ignotu — unu generadore ludicu, peruna dada benit imbiada in logu perunu. Biddas: IGN / geo.api.gouv.fr (Etalab) pro sa Frantza, GeoNames (litzèntzia CC-BY) pro Andorra, Ispagna, Portugallu, Belgiu, Bassos Paisos, Lussemburgu, Isvìtzera, Germània, Itàlia, Àustria, Santu Marinu, Liechtenstein, Mònaco, Malta, Guernsey, Jersey, sa Repùblica Tzeca, sa Polònia, sa Eslovachia, s\'Ungheria, s\'Eslovenia, sa Croàtzia, sa Bosnia-Erzegòvina, su Regnu Unidu, s\'Irlanda, s\'Ìsula de Man, sa Danimarca, sa Norvègia, sa Svètzia, sa Finlàndia, is ìsulas Åland, su Montenegro, s\'Albania, su Kosovo, sa Serbia, sa Macedònia de su Nord, sa Grècia, sa Bulgaria, sa Romania, sa Lettonia, sa Lituania e s\'Estonia. Puntos de interessu e fundale de mapa: © is contribuidores de OpenStreetMap (litzèntzia ODbL). Pedàgios: VINCI Autoroutes (Frantza), Autopistas (Ispagna), Via Verde/Ascendi (Portugallu), Autostrade per l\'Italia (Itàlia), HAC (Croàtzia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina), Putevi Srbije (Serbia), JP za državni patišta (Macedònia de su Nord), Olympia Odos/Egnatia Odos (Grècia) — autostradas gratuitas in Belgiu, Andorra, in is Bassos Paisos, in Lussemburgu, in Germània, in Santu Marinu, in Liechtenstein, in Mònaco, in Malta, in sa Polònia (francu tres tratos in cuncessione), in su Regnu Unidu, in s\'Irlanda, in s\'Ìsula de Man, in sa Danimarca, in sa Norvègia, in sa Svètzia, in sa Finlàndia, in is ìsulas Åland, in su Montenegro, in s\'Albania e in su Kosovo, e fintzas in sa Lettonia, in sa Lituania e s\'Estonia; vignetta annuale in Isvìtzera, in Àustria, in sa Repùblica Tzeca, in sa Eslovachia, in s\'Ungheria, in s\'Eslovenia, in sa Bulgaria e in sa Romania (peruna pedàgiu a biàgiu) — peruna pedàgiu ne vignetta in Guernsey e Jersey.',
+      'footer.text': 'Rutta a s\'ignotu — unu generadore ludicu, peruna dada benit imbiada in logu perunu. Biddas: IGN / geo.api.gouv.fr (Etalab) pro sa Frantza, GeoNames (litzèntzia CC-BY) pro Andorra, Ispagna, Portugallu, Belgiu, Bassos Paisos, Lussemburgu, Isvìtzera, Germània, Itàlia, Àustria, Santu Marinu, Liechtenstein, Mònaco, Malta, Guernsey, Jersey, sa Repùblica Tzeca, sa Polònia, sa Eslovachia, s\'Ungheria, s\'Eslovenia, sa Croàtzia, sa Bosnia-Erzegòvina, su Regnu Unidu, s\'Irlanda, s\'Ìsula de Man, sa Danimarca, sa Norvègia, sa Svètzia, sa Finlàndia, is ìsulas Åland, su Montenegro, s\'Albania, su Kosovo, sa Serbia, sa Macedònia de su Nord, sa Grècia, sa Bulgaria, sa Romania, sa Lettonia, sa Lituania e s\'Estonia, su Vaticanu, s\'Islanda e is ìsulas Fær Øer. Puntos de interessu e fundale de mapa: © is contribuidores de OpenStreetMap (litzèntzia ODbL). Pedàgios: VINCI Autoroutes (Frantza), Autopistas (Ispagna), Via Verde/Ascendi (Portugallu), Autostrade per l\'Italia (Itàlia), HAC (Croàtzia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina), Putevi Srbije (Serbia), JP za državni patišta (Macedònia de su Nord), Olympia Odos/Egnatia Odos (Grècia) — autostradas gratuitas in Belgiu, Andorra, in is Bassos Paisos, in Lussemburgu, in Germània, in Santu Marinu, in Liechtenstein, in Mònaco, in Malta, in sa Polònia (francu tres tratos in cuncessione), in su Regnu Unidu, in s\'Irlanda, in s\'Ìsula de Man, in sa Danimarca, in sa Norvègia, in sa Svètzia, in sa Finlàndia, in is ìsulas Åland, in su Montenegro, in s\'Albania e in su Kosovo, e fintzas in sa Lettonia, in sa Lituania e s\'Estonia, in su Vaticanu, in s\'Islanda e in is ìsulas Fær Øer; vignetta annuale in Isvìtzera, in Àustria, in sa Repùblica Tzeca, in sa Eslovachia, in s\'Ungheria, in s\'Eslovenia, in sa Bulgaria e in sa Romania (peruna pedàgiu a biàgiu) — peruna pedàgiu ne vignetta in Guernsey e Jersey.',
       'footer.legalMentions': 'Notas legales',
       'footer.privacyPolicy': 'Polìtica de riservadesa',
       'footer.translationDisclaimer': "S'interfaccia est istada tradusida in medas limbas e podet cuntenner errores — no esitedas a lu sinnalare a contact@lume419.fr.",
@@ -3759,6 +3772,7 @@
       'ferry.route.skopelos': 'Continent ↔ Skópelos',
       'ferry.route.alonissos': 'Continent ↔ Alónnisos',
       'ferry.route.skyros': 'Continent ↔ Skýros',
+      'ferry.route.suduroy': 'Continent ↔ Suðuroy',
       'toll.label': 'Pedaç (tarifari ASF 2026)',
       'toll.barrierFree': 'pedaç a flus libar, cence sbare (fature automatiche cun cjamare)',
       'toll.barrierClassic': 'pedaç classic cun sbare',
@@ -3834,7 +3848,7 @@
 
       'again.button': 'Gjavâ une altre destinazion',
 
-      'footer.text': 'Rote viers l\'ignot — un gjeneradôr ludic, nissun dât al ven mai mandât in nissun puest. Comuns: IGN / geo.api.gouv.fr (Etalab) pe Francie, GeoNames (licence CC-BY) par Andore, Spagne, Portugal, Belgjiche, Paîs Bas, Lussemburc, Svuizare, Gjermanie, Italie, Austrie, San Marin, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republiche Ceche, la Polonie, la Slovachie, la Ongjarie, la Slovenie, la Croazie, la Bosnie-Erzegovine, il Ream Unît, la Irlande, la Isule di Man, la Danimarcje, la Norvegjie, la Svezie, la Finlandie, lis isulis Åland, il Montenegro, la Albanie, il Kosovo, la Serbie, la Macedonie dal Nord, la Grecie, la Bulgarie, la Romanie, la Letonie, la Lituanie e la Estonie. Ponts di interès e fondâl di mape: © i contribuents di OpenStreetMap (licence ODbL). Pedaçs: VINCI Autoroutes (Francie), Autopistas (Spagne), Via Verde/Ascendi (Portugal), Autostrade per l\'Italia (Italie), HAC (Croazie), Autoceste FBiH/Autoputevi RS (Bosnie-Erzegovine), Putevi Srbije (Serbie), JP za državni patišta (Macedonie dal Nord), Olympia Odos/Egnatia Odos (Grecie) — autostradis gratuitis in Belgjiche, Andore, tai Paîs Bas, in Lussemburc, in Gjermanie, in San Marin, in Liechtenstein, in Monaco, in Malta, in Polonie (infûr di trê tratis in concession), tal Ream Unît, in Irlande, te Isule di Man, in Danimarcje, in Norvegjie, in Svezie, in Finlandie, tes isulis Åland, in Montenegro, in Albanie e in Kosovo, cussì ancje in Letonie, Lituanie e Estonie; vignete anuâl in Svuizare, in Austrie, in Republiche Ceche, in Slovachie, in Ongjarie, in Slovenie, in Bulgarie e in Romanie (nissun pedaç par viaç) — nissun pedaç ni vignete a Guernsey e Jersey.',
+      'footer.text': 'Rote viers l\'ignot — un gjeneradôr ludic, nissun dât al ven mai mandât in nissun puest. Comuns: IGN / geo.api.gouv.fr (Etalab) pe Francie, GeoNames (licence CC-BY) par Andore, Spagne, Portugal, Belgjiche, Paîs Bas, Lussemburc, Svuizare, Gjermanie, Italie, Austrie, San Marin, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republiche Ceche, la Polonie, la Slovachie, la Ongjarie, la Slovenie, la Croazie, la Bosnie-Erzegovine, il Ream Unît, la Irlande, la Isule di Man, la Danimarcje, la Norvegjie, la Svezie, la Finlandie, lis isulis Åland, il Montenegro, la Albanie, il Kosovo, la Serbie, la Macedonie dal Nord, la Grecie, la Bulgarie, la Romanie, la Letonie, la Lituanie e la Estonie, il Vatican, la Islande e lis isulis Fær Øer. Ponts di interès e fondâl di mape: © i contribuents di OpenStreetMap (licence ODbL). Pedaçs: VINCI Autoroutes (Francie), Autopistas (Spagne), Via Verde/Ascendi (Portugal), Autostrade per l\'Italia (Italie), HAC (Croazie), Autoceste FBiH/Autoputevi RS (Bosnie-Erzegovine), Putevi Srbije (Serbie), JP za državni patišta (Macedonie dal Nord), Olympia Odos/Egnatia Odos (Grecie) — autostradis gratuitis in Belgjiche, Andore, tai Paîs Bas, in Lussemburc, in Gjermanie, in San Marin, in Liechtenstein, in Monaco, in Malta, in Polonie (infûr di trê tratis in concession), tal Ream Unît, in Irlande, te Isule di Man, in Danimarcje, in Norvegjie, in Svezie, in Finlandie, tes isulis Åland, in Montenegro, in Albanie e in Kosovo, cussì ancje in Letonie, Lituanie e Estonie, tal Vatican, in Islande e tes isulis Fær Øer; vignete anuâl in Svuizare, in Austrie, in Republiche Ceche, in Slovachie, in Ongjarie, in Slovenie, in Bulgarie e in Romanie (nissun pedaç par viaç) — nissun pedaç ni vignete a Guernsey e Jersey.',
       'footer.legalMentions': 'Notis legâls',
       'footer.privacyPolicy': 'Politiche di riservatece',
       'footer.translationDisclaimer': 'La interface e je stade voltade in tantis lenghis e e pues contignî erôrs — no stait a esitâ a segnalâju a contact@lume419.fr.',
@@ -4034,6 +4048,7 @@
       'ferry.route.skopelos': 'Continent ↔ Skópelos',
       'ferry.route.alonissos': 'Continent ↔ Alónnisos',
       'ferry.route.skyros': 'Continent ↔ Skýros',
+      'ferry.route.suduroy': 'Continent ↔ Suðuroy',
       'toll.label': 'Pedaje (tarifa ASF 2026)',
       'toll.barrierFree': 'pedaje a flus liber, zenza sbara (fatura automatica cun ciamera)',
       'toll.barrierClassic': 'pedaje classich cun sbara',
@@ -4109,7 +4124,7 @@
 
       'again.button': 'Tré jö n\'atra destinazion',
 
-      'footer.text': 'Rota vers l\'ignot — n generadú lujec, degun dat vëgn mai menà en degun post. Comuns: IGN / geo.api.gouv.fr (Etalab) per la Franzia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogal, Belgio, Paejes Bas, Lussemburg, Svizera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica Ceca, la Polonia, la Slovachia, l\'Ongaria, la Slovenia, la Croazia, la Bosnia-Erzegòvina, le Regn Unì, la Irlanda, la Ìsola de Man, la Danimarcia, la Norvegia, la Svezia, la Finlandia, les ìsoles Åland, le Montenegro, l\'Albania, le Kosovo, la Serbia, la Macedonia dl Nord, la Grezia, la Bulgaria, la Romania, la Lettonia, la Lituania y la Estonia. Ponc de interess y sfont de ciarta: © i contribuënc de OpenStreetMap (licenza ODbL). Pedaje: VINCI Autoroutes (Franzia), Autopistas (Spagna), Via Verde/Ascendi (Portogal), Autostrade per l\'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia dl Nord), Olympia Odos/Egnatia Odos (Grezia) — autostrades debann te Belgio, Andorra, ti Paejes Bas, en Lussemburg, en Germania, en San Marino, en Liechtenstein, en Monaco, en Malta, en Polonia (fòra de trëi tòcs en concescion), en Regn Unì, en Irlanda, tla Ìsola de Man, en Danimarcia, en Norvegia, en Svezia, en Finlandia, tles ìsoles Åland, en Montenegro, en Albania y en Kosovo, cocheënce en Lettonia, Lituania y Estonia; vignetta anuala en Svizera, en Austria, en la Republica Ceca, en Slovachia, en Ongaria, en Slovenia, en Bulgaria y en Romania (degun pedaje per viac) — degun pedaje ne vignetta a Guernsey y Jersey.',
+      'footer.text': 'Rota vers l\'ignot — n generadú lujec, degun dat vëgn mai menà en degun post. Comuns: IGN / geo.api.gouv.fr (Etalab) per la Franzia, GeoNames (licenza CC-BY) per Andorra, Spagna, Portogal, Belgio, Paejes Bas, Lussemburg, Svizera, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, la Republica Ceca, la Polonia, la Slovachia, l\'Ongaria, la Slovenia, la Croazia, la Bosnia-Erzegòvina, le Regn Unì, la Irlanda, la Ìsola de Man, la Danimarcia, la Norvegia, la Svezia, la Finlandia, les ìsoles Åland, le Montenegro, l\'Albania, le Kosovo, la Serbia, la Macedonia dl Nord, la Grezia, la Bulgaria, la Romania, la Lettonia, la Lituania y la Estonia, le Vatican, la Islanda y les ìsoles Fær Øer. Ponc de interess y sfont de ciarta: © i contribuënc de OpenStreetMap (licenza ODbL). Pedaje: VINCI Autoroutes (Franzia), Autopistas (Spagna), Via Verde/Ascendi (Portogal), Autostrade per l\'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia dl Nord), Olympia Odos/Egnatia Odos (Grezia) — autostrades debann te Belgio, Andorra, ti Paejes Bas, en Lussemburg, en Germania, en San Marino, en Liechtenstein, en Monaco, en Malta, en Polonia (fòra de trëi tòcs en concescion), en Regn Unì, en Irlanda, tla Ìsola de Man, en Danimarcia, en Norvegia, en Svezia, en Finlandia, tles ìsoles Åland, en Montenegro, en Albania y en Kosovo, cocheënce en Lettonia, Lituania y Estonia, en Vatican, en Islanda y tles ìsoles Fær Øer; vignetta anuala en Svizera, en Austria, en la Republica Ceca, en Slovachia, en Ongaria, en Slovenia, en Bulgaria y en Romania (degun pedaje per viac) — degun pedaje ne vignetta a Guernsey y Jersey.',
       'footer.legalMentions': 'Aviejes legales',
       'footer.privacyPolicy': 'Politica de privatëza',
       'footer.translationDisclaimer': "L'interfaza é stata tradota en truep lingac y pó conté eror — no sté a fé debojego a i segnalé a contact@lume419.fr.",
@@ -4306,6 +4321,7 @@
       'ferry.route.skopelos': 'Kontinent ↔ Skópelos',
       'ferry.route.alonissos': 'Kontinent ↔ Alónnisos',
       'ferry.route.skyros': 'Kontinent ↔ Skýros',
+      'ferry.route.suduroy': 'Kontinent ↔ Suðuroy',
       'toll.label': 'Pedaġġ (gwida tariffarja ASF 2026)',
       'toll.barrierFree': 'pedaġġ b\'fluss ħieles, mingħajr barriera (fatturazzjoni awtomatika bil-kamera)',
       'toll.barrierClassic': 'pedaġġ klassiku b\'barriera',
@@ -4381,7 +4397,7 @@
 
       'again.button': 'Iġbed destinazzjoni oħra',
 
-      'footer.text': "Rotta lejn l-mhux magħruf — ġeneratur ludiku, l-ebda data ma tintbagħat imkien. Bliet: IGN / geo.api.gouv.fr (Etalab) għal Franza, GeoNames (liċenzja CC-BY) għal Andorra, Spanja, il-Portugall, il-Belġju, l-Olanda, il-Lussemburgu, l-Isvizzera, il-Ġermanja, l-Italja, l-Awstrija, San Marino, il-Liechtenstein, Monaco, Malta, Guernsey, Jersey, ir-Repubblika Ċeka, il-Polonja, is-Slovakkja, l-Ungerija, is-Slovenja, il-Kroazja, il-Bosnja-Ħerzegovina, ir-Renju Unit, l-Irlanda, il-Gżira ta' Man, id-Danimarka, in-Norveġja, l-Isvezja, il-Finlandja, il-Gżejjer Åland, il-Montenegro, l-Albanija, il-Kosovo, is-Serbja, il-Maċedonja ta' Fuq, il-Greċja, il-Bulgarija, ir-Rumanija, il-Latvja, il-Litwanja u l-Estonja. Postijiet ta' interess u sfond tal-mappa: © il-kontributuri ta' OpenStreetMap (liċenzja ODbL). Pedaġġi: VINCI Autoroutes (Franza), Autopistas (Spanja), Via Verde/Ascendi (il-Portugall), Autostrade per l'Italia (l-Italja), HAC (il-Kroazja), Autoceste FBiH/Autoputevi RS (il-Bosnja-Ħerzegovina), Putevi Srbije (is-Serbja), JP za državni patišta (il-Maċedonja ta' Fuq), Olympia Odos/Egnatia Odos (il-Greċja) — awtostradi b'xejn fil-Belġju, f'Andorra, fl-Olanda, fil-Lussemburgu, fil-Ġermanja, f'San Marino, fil-Liechtenstein, f'Monaco, f'Malta, fil-Polonja (ħlief tliet sezzjonijiet ikkonċessjonati), fir-Renju Unit, fl-Irlanda, fil-Gżira ta' Man, fid-Danimarka, fin-Norveġja, fl-Isvezja, fil-Finlandja, fil-Gżejjer Åland, fil-Montenegro, fl-Albanija u fil-Kosovo, kif ukoll fil-Latvja, il-Litwanja u l-Estonja; vinjetta annwali fl-Isvizzera, fl-Awstrija, fir-Repubblika Ċeka, fis-Slovakkja, fl-Ungerija, fis-Slovenja, fil-Bulgarija u fir-Rumanija (l-ebda pedaġġ għal kull vjaġġ) — l-ebda pedaġġ jew vinjetta f'Guernsey u Jersey.",
+      'footer.text': "Rotta lejn l-mhux magħruf — ġeneratur ludiku, l-ebda data ma tintbagħat imkien. Bliet: IGN / geo.api.gouv.fr (Etalab) għal Franza, GeoNames (liċenzja CC-BY) għal Andorra, Spanja, il-Portugall, il-Belġju, l-Olanda, il-Lussemburgu, l-Isvizzera, il-Ġermanja, l-Italja, l-Awstrija, San Marino, il-Liechtenstein, Monaco, Malta, Guernsey, Jersey, ir-Repubblika Ċeka, il-Polonja, is-Slovakkja, l-Ungerija, is-Slovenja, il-Kroazja, il-Bosnja-Ħerzegovina, ir-Renju Unit, l-Irlanda, il-Gżira ta' Man, id-Danimarka, in-Norveġja, l-Isvezja, il-Finlandja, il-Gżejjer Åland, il-Montenegro, l-Albanija, il-Kosovo, is-Serbja, il-Maċedonja ta' Fuq, il-Greċja, il-Bulgarija, ir-Rumanija, il-Latvja, il-Litwanja u l-Estonja, il-Vatikan, l-Islanda u l-Gżejjer Faroe. Postijiet ta' interess u sfond tal-mappa: © il-kontributuri ta' OpenStreetMap (liċenzja ODbL). Pedaġġi: VINCI Autoroutes (Franza), Autopistas (Spanja), Via Verde/Ascendi (il-Portugall), Autostrade per l'Italia (l-Italja), HAC (il-Kroazja), Autoceste FBiH/Autoputevi RS (il-Bosnja-Ħerzegovina), Putevi Srbije (is-Serbja), JP za državni patišta (il-Maċedonja ta' Fuq), Olympia Odos/Egnatia Odos (il-Greċja) — awtostradi b'xejn fil-Belġju, f'Andorra, fl-Olanda, fil-Lussemburgu, fil-Ġermanja, f'San Marino, fil-Liechtenstein, f'Monaco, f'Malta, fil-Polonja (ħlief tliet sezzjonijiet ikkonċessjonati), fir-Renju Unit, fl-Irlanda, fil-Gżira ta' Man, fid-Danimarka, fin-Norveġja, fl-Isvezja, fil-Finlandja, fil-Gżejjer Åland, fil-Montenegro, fl-Albanija u fil-Kosovo, kif ukoll fil-Latvja, il-Litwanja u l-Estonja, fil-Vatikan, fl-Islanda u fil-Gżejjer Faroe; vinjetta annwali fl-Isvizzera, fl-Awstrija, fir-Repubblika Ċeka, fis-Slovakkja, fl-Ungerija, fis-Slovenja, fil-Bulgarija u fir-Rumanija (l-ebda pedaġġ għal kull vjaġġ) — l-ebda pedaġġ jew vinjetta f'Guernsey u Jersey.",
       'footer.legalMentions': 'Avviż legali',
       'footer.privacyPolicy': 'Politika tal-privatezza',
       'footer.translationDisclaimer': "L-interfaċċja ġiet tradotta f'ħafna lingwi u tista' fiha żbalji — tibżax tirrapportahom lil contact@lume419.fr.",
@@ -4589,6 +4605,7 @@
       'ferry.route.skopelos': 'Continente ↔ Skópelos',
       'ferry.route.alonissos': 'Continente ↔ Alónnisos',
       'ferry.route.skyros': 'Continente ↔ Skýros',
+      'ferry.route.suduroy': 'Continente ↔ Suðuroy',
       'toll.label': 'Pedaggiu (guida tarifaria ASF 2026)',
       'toll.barrierFree': 'pedaggiu à flusso libero, sensa barriera (fatturaçion automàtica da telecamera)',
       'toll.barrierClassic': 'pedaggiu clàsicu con barriera',
@@ -4664,7 +4681,7 @@
 
       'again.button': 'Tirâ un\'atra destinaçion',
 
-      'footer.text': "Rotta versu l'incoegnusciûu — generatû ludicu, nisciunn-a dæta a l'è mandâ da nisciunn-a parte. Çittæ: IGN / geo.api.gouv.fr (Etalab) pe-a Franza, GeoNames (liçensa CC-BY) pe l'Andorra, a Spagna, u Portugallo, u Belgio, i Paixi Basci, u Lussemburgo, a Sviçera, a Germania, l'Italia, l'Austria, San Marin, u Liechtenstein, Mùnegu, Malta, Guernesey, Jersey, a Repùbrica Céca, a Pòlonia, a Slovacchia, l'Ungaria, a Slovenia, a Croazia, a Bosnia-Erzegòvina, u Regnu Unïu, l'Irlanda, l'Isoa de Man, a Danimarca, a Norvegia, a Svezia, a Finlandia, e ìsoe Åland, u Montenegro, l'Albania, u Kosovo, a Serbia, a Macedònia du Nord, a Grécia, a Bulgaria, a Romania, a Letonia, a Lituania e a Estonia. Punti d'interesse e fondo de carta: © i contribuenti d'OpenStreetMap (liçensa ODbL). Pedaggi: VINCI Autoroutes (Franza), Autopistas (Spagna), Via Verde/Ascendi (Portugallo), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina), Putevi Srbije (Serbia), JP za državni patišta (Macedònia du Nord), Olympia Odos/Egnatia Odos (Grécia) — autostrade grattis in Belgio, in Andorra, in di Paixi Basci, in Lussemburgo, in Germania, à San Marin, in Liechtenstein, à Mùnegu, à Malta, in-a Pòlonia (fêua trei tòcchi in concescion), in-u Regnu Unïu, in-a Irlanda, in l'Isoa de Man, in-a Danimarca, in-a Norvegia, in-a Svezia, in-a Finlandia, inte ìsoe Åland, in-u Montenegro, in-a Albania e in-u Kosovo, comme ascì in-a Letonia, in-a Lituania e in-a Estonia; vignetta anuâ in Sviçera, in Austria, in-a Repùbrica Céca, in-a Slovacchia, in l'Ungaria, in-a Slovenia, in-a Bulgaria e in-a Romania (nisciun pedaggiu pe percorsu) — nisciun pedaggiu nì vignetta in Guernesey e Jersey.",
+      'footer.text': "Rotta versu l'incoegnusciûu — generatû ludicu, nisciunn-a dæta a l'è mandâ da nisciunn-a parte. Çittæ: IGN / geo.api.gouv.fr (Etalab) pe-a Franza, GeoNames (liçensa CC-BY) pe l'Andorra, a Spagna, u Portugallo, u Belgio, i Paixi Basci, u Lussemburgo, a Sviçera, a Germania, l'Italia, l'Austria, San Marin, u Liechtenstein, Mùnegu, Malta, Guernesey, Jersey, a Repùbrica Céca, a Pòlonia, a Slovacchia, l'Ungaria, a Slovenia, a Croazia, a Bosnia-Erzegòvina, u Regnu Unïu, l'Irlanda, l'Isoa de Man, a Danimarca, a Norvegia, a Svezia, a Finlandia, e ìsoe Åland, u Montenegro, l'Albania, u Kosovo, a Serbia, a Macedònia du Nord, a Grécia, a Bulgaria, a Romania, a Letonia, a Lituania e a Estonia, u Vaticann, l'Islanda e e ìsoe Fær Øer. Punti d'interesse e fondo de carta: © i contribuenti d'OpenStreetMap (liçensa ODbL). Pedaggi: VINCI Autoroutes (Franza), Autopistas (Spagna), Via Verde/Ascendi (Portugallo), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegòvina), Putevi Srbije (Serbia), JP za državni patišta (Macedònia du Nord), Olympia Odos/Egnatia Odos (Grécia) — autostrade grattis in Belgio, in Andorra, in di Paixi Basci, in Lussemburgo, in Germania, à San Marin, in Liechtenstein, à Mùnegu, à Malta, in-a Pòlonia (fêua trei tòcchi in concescion), in-u Regnu Unïu, in-a Irlanda, in l'Isoa de Man, in-a Danimarca, in-a Norvegia, in-a Svezia, in-a Finlandia, inte ìsoe Åland, in-u Montenegro, in-a Albania e in-u Kosovo, comme ascì in-a Letonia, in-a Lituania e in-a Estonia, in-u Vaticann, in Islanda e inte ìsoe Fær Øer; vignetta anuâ in Sviçera, in Austria, in-a Repùbrica Céca, in-a Slovacchia, in l'Ungaria, in-a Slovenia, in-a Bulgaria e in-a Romania (nisciun pedaggiu pe percorsu) — nisciun pedaggiu nì vignetta in Guernesey e Jersey.",
       'footer.legalMentions': 'Mençioin legâ',
       'footer.privacyPolicy': 'Polìtica de privacy',
       'footer.translationDisclaimer': "L'interfacia a l'é stæta tradûta in ciù lengue e a peu contegnî erôri — no stæ à ëse tìmidi à segnalâli à contact@lume419.fr.",
@@ -4859,6 +4876,7 @@
       'ferry.route.skopelos': 'Continent ↔ Skópelos',
       'ferry.route.alonissos': 'Continent ↔ Alónnisos',
       'ferry.route.skyros': 'Continent ↔ Skýros',
+      'ferry.route.suduroy': 'Continent ↔ Suðuroy',
       'toll.label': 'Péage (guide d\'tarifs ASF 2026)',
       'toll.barrierFree': "péage à flux libre, sans barriéthe (facturâtion automatique par câméra)",
       'toll.barrierClassic': 'péage clâssique atout barriéthe',
@@ -4934,7 +4952,7 @@
 
       'again.button': "Tither eune aut' destinâtion",
 
-      'footer.text': "Route vers l'inconnu — générateux amusant, pon d'donnée n'est janmais envyée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pouor la France, GeoNames (licence CC-BY) pouor l'Andorre, l'Êspagne, l'Portûgal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesy, Jèrri, la Républyique tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, l'Rouoyaume Unni, l'Irlande, l'Île Man, l'Danmark, la Norvège, la Suède, la Finlande, les Îles Åland, l'Monténégro, l'Albanie, l'Kosovo, la Serbie, la Macédonie du Nord, la Grèce, la Bulgarie, la Roumanie, la Lettonie, la Lituanie et l'Êstonie. Liuchets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portûgal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine), Putevi Srbije (Serbie), JP za državni patišta (Macédonie du Nord), Olympia Odos/Egnatia Odos (Grèce) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (fauf trais bonds concédés), au Rouoyaume Unni, en Irlande, à l'Île Man, au Danmark, en Norvège, en Suède, en Finlande, ès Îles Åland, au Monténégro, en Albanie et au Kosovo, coumme étout en Lettonie, en Lituanie et en Êstonie ; vigniette annuelle en Suisse, en Autriche, en Républyique tchèque, en Slovaquie, en Hongrie, en Slovénie, en Bulgarie et en Roumanie (pon d'péage au bond) — pon d'péage ni d'vigniette à Guernesy et Jèrri.",
+      'footer.text': "Route vers l'inconnu — générateux amusant, pon d'donnée n'est janmais envyée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pouor la France, GeoNames (licence CC-BY) pouor l'Andorre, l'Êspagne, l'Portûgal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesy, Jèrri, la Républyique tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, l'Rouoyaume Unni, l'Irlande, l'Île Man, l'Danmark, la Norvège, la Suède, la Finlande, les Îles Åland, l'Monténégro, l'Albanie, l'Kosovo, la Serbie, la Macédonie du Nord, la Grèce, la Bulgarie, la Roumanie, la Lettonie, la Lituanie et l'Êstonie, l'Vatican, l'Islande et les Îles Féroé. Liuchets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portûgal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine), Putevi Srbije (Serbie), JP za državni patišta (Macédonie du Nord), Olympia Odos/Egnatia Odos (Grèce) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (fauf trais bonds concédés), au Rouoyaume Unni, en Irlande, à l'Île Man, au Danmark, en Norvège, en Suède, en Finlande, ès Îles Åland, au Monténégro, en Albanie et au Kosovo, coumme étout en Lettonie, en Lituanie et en Êstonie, au Vatican, en Islande et ès Îles Féroé ; vigniette annuelle en Suisse, en Autriche, en Républyique tchèque, en Slovaquie, en Hongrie, en Slovénie, en Bulgarie et en Roumanie (pon d'péage au bond) — pon d'péage ni d'vigniette à Guernesy et Jèrri.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': "Politique d'privachetè",
       'footer.translationDisclaimer': "L'sit a été traduit dans pliusieurs langues et peut contènîn des fautes — n'hésitez pon à nos les signaler à contact@lume419.fr.",
@@ -5133,6 +5151,7 @@
       'ferry.route.skopelos': 'Continent ↔ Skópelos',
       'ferry.route.alonissos': 'Continent ↔ Alónnisos',
       'ferry.route.skyros': 'Continent ↔ Skýros',
+      'ferry.route.suduroy': 'Continent ↔ Suðuroy',
       'toll.label': 'Péage (guide d\'tarifs ASF 2026)',
       'toll.barrierFree': "péage à flux libre, sans barriéthe (facturâtion automatique par câméra)",
       'toll.barrierClassic': 'péage classique atou barriéthe',
@@ -5208,7 +5227,7 @@
 
       'again.button': "Tithaïr eune aute destination",
 
-      'footer.text': "Routte vers l'inconnu — générateur amusant, nou n'envaie jamais d'donnée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Êspagne, l'Portugal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesi, Jèrri, la République tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, l'Rouoyaume Uni, l'Irlande, l'Île Man, l'Danmark, la Norvège, la Suède, la Finlande, les Îles Åland, l'Monténégro, l'Albanie, l'Kosovo, la Serbie, la Macédonie du Nord, la Grèce, la Bulgarie, la Roumanie, la Lettonie, la Lituanie et l'Êstonie. Liuets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine), Putevi Srbije (Serbie), JP za državni patišta (Macédonie du Nord), Olympia Odos/Egnatia Odos (Grèce) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (sauf trais bonds concédés), au Rouoyaume Uni, en Irlande, à l'Île Man, au Danmark, en Norvège, en Suède, en Finlande, ès Îles Åland, au Monténégro, en Albanie et au Kosovo, coumme étout en Lettonie, en Lituanie et en Êstonie ; vignette annuelle en Suisse, en Autriche, en République tchèque, en Slovaquie, en Hongrie, en Slovénie, en Bulgarie et en Roumanie (pon d'péage au bond) — pon d'péage ni d'vignette à Guernesi et Jèrri.",
+      'footer.text': "Routte vers l'inconnu — générateur amusant, nou n'envaie jamais d'donnée nulle part. Villes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) pour l'Andorre, l'Êspagne, l'Portugal, la Belgique, les Pays-Bas, l'Luxembourg, la Suisse, l'Allemagne, l'Italie, l'Autriche, Saint-Marin, l'Liechtenstein, Monaco, Malte, Guernesi, Jèrri, la République tchèque, la Pologne, la Slovaquie, la Hongrie, la Slovénie, la Croatie, la Bosnie-Herzégovine, l'Rouoyaume Uni, l'Irlande, l'Île Man, l'Danmark, la Norvège, la Suède, la Finlande, les Îles Åland, l'Monténégro, l'Albanie, l'Kosovo, la Serbie, la Macédonie du Nord, la Grèce, la Bulgarie, la Roumanie, la Lettonie, la Lituanie et l'Êstonie, l'Vatican, l'Islande et les Îles Féroé. Liuets d'intérêt et fond d'carte : © les contributeurs d'OpenStreetMap (licence ODbL). Péages : VINCI Autoroutes (France), Autopistas (Êspagne), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italie), HAC (Croatie), Autoceste FBiH/Autoputevi RS (Bosnie-Herzégovine), Putevi Srbije (Serbie), JP za državni patišta (Macédonie du Nord), Olympia Odos/Egnatia Odos (Grèce) — autoroutes gratis en Belgique, en Andorre, aux Pays-Bas, au Luxembourg, en Allemagne, à Saint-Marin, au Liechtenstein, à Monaco, à Malte, en Pologne (sauf trais bonds concédés), au Rouoyaume Uni, en Irlande, à l'Île Man, au Danmark, en Norvège, en Suède, en Finlande, ès Îles Åland, au Monténégro, en Albanie et au Kosovo, coumme étout en Lettonie, en Lituanie et en Êstonie, au Vatican, en Islande et ès Îles Féroé ; vignette annuelle en Suisse, en Autriche, en République tchèque, en Slovaquie, en Hongrie, en Slovénie, en Bulgarie et en Roumanie (pon d'péage au bond) — pon d'péage ni d'vignette à Guernesi et Jèrri.",
       'footer.legalMentions': 'Mentions légales',
       'footer.privacyPolicy': "Politique d'privachetè",
       'footer.translationDisclaimer': "L'sit a été traduit dans pliusieurs langues et peut contni des fautes — n'hésitez pon à nouos les signaler à contact@lume419.fr.",
@@ -5409,6 +5428,7 @@
       'ferry.route.skopelos': 'Kòntinent ↔ Skópelos',
       'ferry.route.alonissos': 'Kòntinent ↔ Alónnisos',
       'ferry.route.skyros': 'Kòntinent ↔ Skýros',
+      'ferry.route.suduroy': 'Kòntinent ↔ Suðuroy',
       'toll.label': 'Ùpłata (taryfa ASF 2026)',
       'toll.barrierFree': 'wòlny przepłiw, bez bramczi (aùtomatné fakturowanié kamerą)',
       'toll.barrierClassic': 'klasycznô ùpłata z bramką',
@@ -5484,7 +5504,7 @@
 
       'again.button': 'Wëlosowac jinszi cél',
 
-      'footer.text': 'Kùrs na nieznóné — zabôwny generatór, żódné dôwné nie są nigdë nikąd wësłóné. Gardë: IGN / geo.api.gouv.fr (Etalab) dlô Francji, GeoNames (licencjô CC-BY) dlô Andorë, Szpaniji, Pòrtugaliji, Belgii, Niderlandów, Lëksemburga, Szwajcariji, Miemiec, Italiji, Aùstriji, San Marina, Liechtensteinu, Monaka, Malti, Guernsey, Jersey, Czeskijè Repùbliczi, Pòlsczi, Słowacëji, Wãgier, Słowieniji, Chòrwacëji, Bòsni ë Hercegòwiny, Zjednónégò Królestwa, Irlandëji, Wëspë Man, Danii, Norwegii, Szwecëji, Fińsczi, Wësp Åland, Czorny Górë, Albanii, Kosowa, Serbii, Nordowi Macedoniji, Grecji, Bùlgariji, Rumuniji, Łotwie, Lëtawie ë Estońsce. Môle interesu ë spódk mapë: © wespółrobôrze OpenStreetMap (licencjô ODbL). Ùpłatë: VINCI Autoroutes (Francjô), Autopistas (Szpanijô), Via Verde/Ascendi (Pòrtugaliô), Autostrade per l\'Italia (Italiô), HAC (Chòrwacjô), Autoceste FBiH/Autoputevi RS (Bòsniô ë Hercegòwina), Putevi Srbije (Serbijô), JP za državni patišta (Nordowô Macedonijô), Olympia Odos/Egnatia Odos (Grecjô) — darmòwé autostradë w Belgii, w Andorze, w Niderlandach, w Lëksemburgù, w Miemcach, w San Marinie, w Liechtensteinie, w Monakù, na Malce, w Pòlsce, w Zjednónym Królestwie, w Irlandii, na Wëspie Man, w Danii, w Norwegii, w Szwecëji, w Finsce, na Wëspach Åland, w Czorny Górze, w Albanii ë na Kosowie, jak téż w Łotwie, w Lëtawie ë w Estońsce; roczné winiete w Szwajcariji, w Aùstriji, w Czeskji Repùblice, w Słowacëji, w Wãgrach, w Słowieniji, w Bùlgariji ë w Rumuniji (bez ùpłatë za drogã) — bez ùpłatë ani winietë na Guernsey ë Jersey.',
+      'footer.text': 'Kùrs na nieznóné — zabôwny generatór, żódné dôwné nie są nigdë nikąd wësłóné. Gardë: IGN / geo.api.gouv.fr (Etalab) dlô Francji, GeoNames (licencjô CC-BY) dlô Andorë, Szpaniji, Pòrtugaliji, Belgii, Niderlandów, Lëksemburga, Szwajcariji, Miemiec, Italiji, Aùstriji, San Marina, Liechtensteinu, Monaka, Malti, Guernsey, Jersey, Czeskijè Repùbliczi, Pòlsczi, Słowacëji, Wãgier, Słowieniji, Chòrwacëji, Bòsni ë Hercegòwiny, Zjednónégò Królestwa, Irlandëji, Wëspë Man, Danii, Norwegii, Szwecëji, Fińsczi, Wësp Åland, Czorny Górë, Albanii, Kosowa, Serbii, Nordowi Macedoniji, Grecji, Bùlgariji, Rumuniji, Łotwie, Lëtawie ë Estońsce, Watikan, Islandiã ë Faroe. Môle interesu ë spódk mapë: © wespółrobôrze OpenStreetMap (licencjô ODbL). Ùpłatë: VINCI Autoroutes (Francjô), Autopistas (Szpanijô), Via Verde/Ascendi (Pòrtugaliô), Autostrade per l\'Italia (Italiô), HAC (Chòrwacjô), Autoceste FBiH/Autoputevi RS (Bòsniô ë Hercegòwina), Putevi Srbije (Serbijô), JP za državni patišta (Nordowô Macedonijô), Olympia Odos/Egnatia Odos (Grecjô) — darmòwé autostradë w Belgii, w Andorze, w Niderlandach, w Lëksemburgù, w Miemcach, w San Marinie, w Liechtensteinie, w Monakù, na Malce, w Pòlsce, w Zjednónym Królestwie, w Irlandii, na Wëspie Man, w Danii, w Norwegii, w Szwecëji, w Finsce, na Wëspach Åland, w Czorny Górze, w Albanii ë na Kosowie, jak téż w Łotwie, w Lëtawie ë w Estońsce, w Watikanie, na Islandie ë na Faroe; roczné winiete w Szwajcariji, w Aùstriji, w Czeskji Repùblice, w Słowacëji, w Wãgrach, w Słowieniji, w Bùlgariji ë w Rumuniji (bez ùpłatë za drogã) — bez ùpłatë ani winietë na Guernsey ë Jersey.',
       'footer.legalMentions': 'Prawné wëdowiedno',
       'footer.privacyPolicy': 'Pòliticzka priwatnoscë',
       'footer.translationDisclaimer': 'Interfejs òstôł przełożony na wiele jãzëków ë mòże zamëkac felë — proszã nie wachac sã zgłaszac je na contact@lume419.fr.',
@@ -5683,6 +5703,7 @@
       'ferry.route.skopelos': 'Континент ↔ Skópelos',
       'ferry.route.alonissos': 'Континент ↔ Alónnisos',
       'ferry.route.skyros': 'Континент ↔ Skýros',
+      'ferry.route.suduroy': 'Континент ↔ Suðuroy',
       'toll.label': 'Оплата (тариф ASF 2026)',
       'toll.barrierFree': "вольный протік, без бар'єры (автоматичне фактурованя камером)",
       'toll.barrierClassic': "класична оплата з бар'єром",
@@ -5758,7 +5779,7 @@
 
       'again.button': 'Вылосовати иншу ціль',
 
-      'footer.text': 'Курс на незнаме — забавный ґенератор, жадны даны не суть николи никуды посылани. Міста: IGN / geo.api.gouv.fr (Etalab) про Францію, GeoNames (ліценция CC-BY) про Андору, Еспанію, Портуґалію, Бельґію, Нідерланды, Люксембурґ, Швайцарію, Німеччину, Італію, Австрію, Сан Марино, Ліхтенштайн, Монако, Мальту, Ґернзей, Джерзей, Чеську Республику, Польщу, Словакію, Мадярщину, Словенію, Хорватію, Боснію і Герцеговину, Сполучене Королівство, Ірландію, Острів Мен, Данію, Норвегію, Швецію, Фінляндію, Оландьскы Островы, Чорногорію, Албанію, Косово, Сербію, Північну Македонію, Грецію, Болгарію, Румунію, Латвію, Литву і Естонію. Місця інтересу і тло мапы: © співробітникы OpenStreetMap (ліценция ODbL). Оплаты: VINCI Autoroutes (Франция), Autopistas (Еспанія), Via Verde/Ascendi (Портуґалія), Autostrade per l\'Italia (Італія), HAC (Хорватія), Autoceste FBiH/Autoputevi RS (Боснія і Герцеговина), Putevi Srbije (Сербія), JP za državni patišta (Північна Македонія), Olympia Odos/Egnatia Odos (Греция) — дармовы автострады в Бельґії, в Андорі, в Нідерландах, в Люксембурґу, в Німеччині, в Сан Марині, в Ліхтенштайні, в Монаку, на Мальті, в Польщі, в Сполученому Королівстві, в Ірландії, на Острові Мен, в Данії, в Норвегії, в Швеції, в Фінляндії, на Оландьскых Островах, в Чорногорії, в Албанії і на Косові, а тыж в Латвії, в Литві і в Естонії; річна вінета в Швайцарії, в Австрії, в Чеській Республиці, в Словакії, в Мадярщині, в Словенії, в Болгарії і в Румунії (без оплаты за дорогу) — без оплаты і без вінеты на Ґернзею і Джерзею.',
+      'footer.text': 'Курс на незнаме — забавный ґенератор, жадны даны не суть николи никуды посылани. Міста: IGN / geo.api.gouv.fr (Etalab) про Францію, GeoNames (ліценция CC-BY) про Андору, Еспанію, Портуґалію, Бельґію, Нідерланды, Люксембурґ, Швайцарію, Німеччину, Італію, Австрію, Сан Марино, Ліхтенштайн, Монако, Мальту, Ґернзей, Джерзей, Чеську Республику, Польщу, Словакію, Мадярщину, Словенію, Хорватію, Боснію і Герцеговину, Сполучене Королівство, Ірландію, Острів Мен, Данію, Норвегію, Швецію, Фінляндію, Оландьскы Островы, Чорногорію, Албанію, Косово, Сербію, Північну Македонію, Грецію, Болгарію, Румунію, Латвію, Литву і Естонію, Ватикан, Ісландію і Фарерські Островы. Місця інтересу і тло мапы: © співробітникы OpenStreetMap (ліценция ODbL). Оплаты: VINCI Autoroutes (Франция), Autopistas (Еспанія), Via Verde/Ascendi (Портуґалія), Autostrade per l\'Italia (Італія), HAC (Хорватія), Autoceste FBiH/Autoputevi RS (Боснія і Герцеговина), Putevi Srbije (Сербія), JP za državni patišta (Північна Македонія), Olympia Odos/Egnatia Odos (Греция) — дармовы автострады в Бельґії, в Андорі, в Нідерландах, в Люксембурґу, в Німеччині, в Сан Марині, в Ліхтенштайні, в Монаку, на Мальті, в Польщі, в Сполученому Королівстві, в Ірландії, на Острові Мен, в Данії, в Норвегії, в Швеції, в Фінляндії, на Оландьскых Островах, в Чорногорії, в Албанії і на Косові, а тыж в Латвії, в Литві і в Естонії, у Ватикані, в Ісландії і на Фарерськых Островах; річна вінета в Швайцарії, в Австрії, в Чеській Республиці, в Словакії, в Мадярщині, в Словенії, в Болгарії і в Румунії (без оплаты за дорогу) — без оплаты і без вінеты на Ґернзею і Джерзею.',
       'footer.legalMentions': 'Правны звідомленя',
       'footer.privacyPolicy': 'Політика приватности',
       'footer.translationDisclaimer': 'Інтерфейс перекладеный на много языкы і може мати помылкы — не соромтеся повідомити о них на contact@lume419.fr.',
@@ -5962,6 +5983,7 @@
       'ferry.route.skopelos': 'Continent ↔ Skópelos',
       'ferry.route.alonissos': 'Continent ↔ Alónnisos',
       'ferry.route.skyros': 'Continent ↔ Skýros',
+      'ferry.route.suduroy': 'Continent ↔ Suðuroy',
       'toll.label': 'Taxă de drum (tarif ASF 2026)',
       'toll.barrierFree': 'taxă cu flux liber, fără barieră (facturare automată cu camera)',
       'toll.barrierClassic': 'taxă clasică cu barieră',
@@ -6037,7 +6059,7 @@
 
       'again.button': 'Trage la sorți altă țintă',
 
-      'footer.text': "Calea spre necunoscut — generator de joacă, nici o dată nu-i trimisă nicăiri. Sate: IGN / geo.api.gouv.fr (Etalab) pentru Franța, GeoNames (licență CC-BY) pentru Andorra, Spania, Portugalia, Belgia, Țările de Jos, Luxemburg, Elveția, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Republica Cehă, Polonia, Slovacia, Ungaria, Slovenia, Croația, Bosnia și Herțegovina, Regatul Unit, Irlanda, Insula Man, Danemarca, Norvegia, Suedia, Finlanda, Insulele Åland, Muntenegru, Albania, Kosovo, Serbia, Macedonia de Nord, Grecia, Bulgaria, România, Letonia, Lituania și Estonia. Locuri de interes și fond de hartă: © contribuitorii OpenStreetMap (licență ODbL). Taxe de drum: VINCI Autoroutes (Franța), Autopistas (Spania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Italia), HAC (Croația), Autoceste FBiH/Autoputevi RS (Bosnia și Herțegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia de Nord), Olympia Odos/Egnatia Odos (Grecia) — autostrăzi fără taxă în Belgia, în Andorra, în Țările de Jos, în Luxemburg, în Germania, în San Marino, în Liechtenstein, în Monaco, în Malta, în Polonia (afară de trei secții concesionate), în Regatul Unit, în Irlanda, în Insula Man, în Danemarca, în Norvegia, în Suedia, în Finlanda, în Insulele Åland, în Muntenegru, în Albania și în Kosovo, precum și în Letonia, în Lituania și în Estonia ; vinietă anuală în Elveția, în Austria, în Republica Cehă, în Slovacia, în Ungaria, în Slovenia, în Bulgaria și în România (fără taxă pe drum) — nici taxă nici vinietă în Guernsey și Jersey.",
+      'footer.text': "Calea spre necunoscut — generator de joacă, nici o dată nu-i trimisă nicăiri. Sate: IGN / geo.api.gouv.fr (Etalab) pentru Franța, GeoNames (licență CC-BY) pentru Andorra, Spania, Portugalia, Belgia, Țările de Jos, Luxemburg, Elveția, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Republica Cehă, Polonia, Slovacia, Ungaria, Slovenia, Croația, Bosnia și Herțegovina, Regatul Unit, Irlanda, Insula Man, Danemarca, Norvegia, Suedia, Finlanda, Insulele Åland, Muntenegru, Albania, Kosovo, Serbia, Macedonia de Nord, Grecia, Bulgaria, România, Letonia, Lituania și Estonia, Vatican, Islanda și Insulele Feroe. Locuri de interes și fond de hartă: © contribuitorii OpenStreetMap (licență ODbL). Taxe de drum: VINCI Autoroutes (Franța), Autopistas (Spania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Italia), HAC (Croația), Autoceste FBiH/Autoputevi RS (Bosnia și Herțegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia de Nord), Olympia Odos/Egnatia Odos (Grecia) — autostrăzi fără taxă în Belgia, în Andorra, în Țările de Jos, în Luxemburg, în Germania, în San Marino, în Liechtenstein, în Monaco, în Malta, în Polonia (afară de trei secții concesionate), în Regatul Unit, în Irlanda, în Insula Man, în Danemarca, în Norvegia, în Suedia, în Finlanda, în Insulele Åland, în Muntenegru, în Albania și în Kosovo, precum și în Letonia, în Lituania și în Estonia, în Vatican, în Islanda și în Insulele Feroe ; vinietă anuală în Elveția, în Austria, în Republica Cehă, în Slovacia, în Ungaria, în Slovenia, în Bulgaria și în România (fără taxă pe drum) — nici taxă nici vinietă în Guernsey și Jersey.",
       'footer.legalMentions': 'Mențiuni legale',
       'footer.privacyPolicy': 'Politica de confidențialitate',
       'footer.translationDisclaimer': 'Interfacea a fost tradusã ăn multe limbe şi poate avè greşeale — nu ştaţ min sã ni le zbăsteşt la contact@lume419.fr.',
@@ -6238,6 +6260,7 @@
       'ferry.route.skopelos': 'Continent ↔ Skópelos',
       'ferry.route.alonissos': 'Continent ↔ Alónnisos',
       'ferry.route.skyros': 'Continent ↔ Skýros',
+      'ferry.route.suduroy': 'Continent ↔ Suðuroy',
       'toll.label': 'Peatge (tarifa ASF 2026)',
       'toll.barrierFree': 'peatge de flux lliure, sense barrera (facturació automàtica per càmera)',
       'toll.barrierClassic': 'peatge clàssic amb barrera',
@@ -6313,7 +6336,7 @@
 
       'again.button': 'Tornar a sortejar una altra destinació',
 
-      'footer.text': "Rumb a l'incògnita — generador lúdic, cap dada s'envia enlloc. Municipis: IGN / geo.api.gouv.fr (Etalab) per a França, GeoNames (llicència CC-BY) per a Andorra, Espanya, Portugal, Bèlgica, els Països Baixos, Luxemburg, Suïssa, Alemanya, Itàlia, Àustria, San Marino, Liechtenstein, Mònaco, Malta, Guernsey, Jersey, la República Txeca, Polònia, Eslovàquia, Hongria, Eslovènia, Croàcia, Bòsnia i Hercegovina, el Regne Unit, Irlanda, l'Illa de Man, Dinamarca, Noruega, Suècia, Finlàndia, les illes Åland, Montenegro, Albània, Kosovo, Sèrbia, Macedònia del Nord, Grècia, Bulgària, Romania, Letònia, Lituània i Estònia. Punts d'interès i fons de mapa: © els col·laboradors d'OpenStreetMap (llicència ODbL). Peatges: VINCI Autoroutes (França), Autopistas (Espanya), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itàlia), HAC (Croàcia), Autoceste FBiH/Autoputevi RS (Bòsnia i Hercegovina), Putevi Srbije (Sèrbia), JP za državni patišta (Macedònia del Nord), Olympia Odos/Egnatia Odos (Grècia) — autopistes gratuïtes a Bèlgica, a Andorra, als Països Baixos, a Luxemburg, a Alemanya, a San Marino, a Liechtenstein, a Mònaco, a Malta, a Polònia (excepte tres trams concessionats), al Regne Unit, a Irlanda, a l'Illa de Man, a Dinamarca, a Noruega, a Suècia, a Finlàndia, a les illes Åland, a Montenegro, a Albània i a Kosovo, així com a Letònia, Lituània i Estònia; vinyeta anual a Suïssa, a Àustria, a la República Txeca, a Eslovàquia, a Hongria, a Eslovènia, a Bulgària i a Romania (sense peatge per trajecte) — ni peatge ni vinyeta a Guernsey i Jersey.",
+      'footer.text': "Rumb a l'incògnita — generador lúdic, cap dada s'envia enlloc. Municipis: IGN / geo.api.gouv.fr (Etalab) per a França, GeoNames (llicència CC-BY) per a Andorra, Espanya, Portugal, Bèlgica, els Països Baixos, Luxemburg, Suïssa, Alemanya, Itàlia, Àustria, San Marino, Liechtenstein, Mònaco, Malta, Guernsey, Jersey, la República Txeca, Polònia, Eslovàquia, Hongria, Eslovènia, Croàcia, Bòsnia i Hercegovina, el Regne Unit, Irlanda, l'Illa de Man, Dinamarca, Noruega, Suècia, Finlàndia, les illes Åland, Montenegro, Albània, Kosovo, Sèrbia, Macedònia del Nord, Grècia, Bulgària, Romania, Letònia, Lituània i Estònia, el Vaticà, Islàndia i les illes Fèroe. Punts d'interès i fons de mapa: © els col·laboradors d'OpenStreetMap (llicència ODbL). Peatges: VINCI Autoroutes (França), Autopistas (Espanya), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itàlia), HAC (Croàcia), Autoceste FBiH/Autoputevi RS (Bòsnia i Hercegovina), Putevi Srbije (Sèrbia), JP za državni patišta (Macedònia del Nord), Olympia Odos/Egnatia Odos (Grècia) — autopistes gratuïtes a Bèlgica, a Andorra, als Països Baixos, a Luxemburg, a Alemanya, a San Marino, a Liechtenstein, a Mònaco, a Malta, a Polònia (excepte tres trams concessionats), al Regne Unit, a Irlanda, a l'Illa de Man, a Dinamarca, a Noruega, a Suècia, a Finlàndia, a les illes Åland, a Montenegro, a Albània i a Kosovo, així com a Letònia, Lituània i Estònia, al Vaticà, a Islàndia i a les illes Fèroe; vinyeta anual a Suïssa, a Àustria, a la República Txeca, a Eslovàquia, a Hongria, a Eslovènia, a Bulgària i a Romania (sense peatge per trajecte) — ni peatge ni vinyeta a Guernsey i Jersey.",
       'footer.legalMentions': 'Avís legal',
       'footer.privacyPolicy': 'Política de privacitat',
       'footer.translationDisclaimer': "La interfície s'ha traduït a nombrosos idiomes i pot contenir errors — no dubteu a informar-nos-en a contact@lume419.fr.",
@@ -6508,6 +6531,7 @@
       'ferry.route.skopelos': 'Kontinentea ↔ Skópelos',
       'ferry.route.alonissos': 'Kontinentea ↔ Alónnisos',
       'ferry.route.skyros': 'Kontinentea ↔ Skýros',
+      'ferry.route.suduroy': 'Kontinentea ↔ Suðuroy',
       'toll.label': 'Bidesaria (ASF 2026 tarifa)',
       'toll.barrierFree': 'fluxu askeko bidesaria, barrarik gabe (kamera bidezko fakturazio automatikoa)',
       'toll.barrierClassic': 'bidesari klasikoa barrarekin',
@@ -6583,7 +6607,7 @@
 
       'again.button': 'Beste helmuga bat zozkatu',
 
-      'footer.text': "Ezezagunerantz — jolaserako sortzailea, daturik ez da inora bidaltzen. Udalerriak: IGN / geo.api.gouv.fr (Etalab) Frantziarako, GeoNames (CC-BY lizentzia) Andorrarako, Espainiarako, Portugalerako, Belgikarako, Herbehereetarako, Luxemburgorako, Suitzarako, Alemaniarako, Italiarako, Austriarako, San Marinorako, Liechtensteinerako, Monakorako, Maltarako, Guernseyrako, Jerseyrako, Txekiar Errepublikarako, Poloniarako, Eslovakiarako, Hungariarako, Esloveniarako, Kroaziarako, Bosnia-Herzegovinarako, Erresuma Batuarako, Irlandarako, Man uhartearako, Danimarkarako, Norvegiarako, Suediarako, Finlandiarako, Åland uharteetarako, Montenegrorako, Albaniarako, Kosovorako, Serbiarako, Ipar Mazedoniarako, Greziarako, Bulgariarako, Errumaniarako, Letoniarako, Lituaniarako eta Estoniarako. Interes-guneak eta mapa-oinarria: © OpenStreetMap-en kolaboratzaileak (ODbL lizentzia). Bidesariak: VINCI Autoroutes (Frantzia), Autopistas (Espainia), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroazia), Autoceste FBiH/Autoputevi RS (Bosnia-Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Ipar Mazedonia), Olympia Odos/Egnatia Odos (Grezia) — autobide doakoak Belgikan, Andorran, Herbehereetan, Luxemburgon, Alemanian, San Marinon, Liechtensteinen, Monakon, Maltan, Polonian (hiru kontzesio-atal izan ezik), Erresuma Batuan, Irlandan, Man uhartean, Danimarkan, Norvegian, Suedian, Finlandian, Åland uharteetan, Montenegron, Albanian eta Kosovon, baita Letonian, Lituanian eta Estonian ere; urteko bineta Suitzan, Austrian, Txekiar Errepublikan, Eslovakian, Hungarian, Eslovenian, Bulgarian eta Errumanian (bidaiako bidesaririk ez) — ez bidesaririk ez binetarik Guernseyn eta Jerseyn.",
+      'footer.text': "Ezezagunerantz — jolaserako sortzailea, daturik ez da inora bidaltzen. Udalerriak: IGN / geo.api.gouv.fr (Etalab) Frantziarako, GeoNames (CC-BY lizentzia) Andorrarako, Espainiarako, Portugalerako, Belgikarako, Herbehereetarako, Luxemburgorako, Suitzarako, Alemaniarako, Italiarako, Austriarako, San Marinorako, Liechtensteinerako, Monakorako, Maltarako, Guernseyrako, Jerseyrako, Txekiar Errepublikarako, Poloniarako, Eslovakiarako, Hungariarako, Esloveniarako, Kroaziarako, Bosnia-Herzegovinarako, Erresuma Batuarako, Irlandarako, Man uhartearako, Danimarkarako, Norvegiarako, Suediarako, Finlandiarako, Åland uharteetarako, Montenegrorako, Albaniarako, Kosovorako, Serbiarako, Ipar Mazedoniarako, Greziarako, Bulgariarako, Errumaniarako, Letoniarako, Lituaniarako eta Estoniarako, Vatikanorako, Islandiarako eta Feroe uharteetarako. Interes-guneak eta mapa-oinarria: © OpenStreetMap-en kolaboratzaileak (ODbL lizentzia). Bidesariak: VINCI Autoroutes (Frantzia), Autopistas (Espainia), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroazia), Autoceste FBiH/Autoputevi RS (Bosnia-Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Ipar Mazedonia), Olympia Odos/Egnatia Odos (Grezia) — autobide doakoak Belgikan, Andorran, Herbehereetan, Luxemburgon, Alemanian, San Marinon, Liechtensteinen, Monakon, Maltan, Polonian (hiru kontzesio-atal izan ezik), Erresuma Batuan, Irlandan, Man uhartean, Danimarkan, Norvegian, Suedian, Finlandian, Åland uharteetan, Montenegron, Albanian eta Kosovon, baita Letonian, Lituanian, Estonian, Vatikanon, Islandian eta Feroe uharteetan ere; urteko bineta Suitzan, Austrian, Txekiar Errepublikan, Eslovakian, Hungarian, Eslovenian, Bulgarian eta Errumanian (bidaiako bidesaririk ez) — ez bidesaririk ez binetarik Guernseyn eta Jerseyn.",
       'footer.legalMentions': 'Lege-oharrak',
       'footer.privacyPolicy': 'Pribatutasun-politika',
       'footer.translationDisclaimer': 'Interfazea hizkuntza askotara itzuli da eta akatsak izan ditzake — ez izan zalantzarik horiek contact@lume419.fr helbidera jakinarazteko.',
@@ -6777,6 +6801,7 @@
       'ferry.route.skopelos': 'Continente ↔ Skópelos',
       'ferry.route.alonissos': 'Continente ↔ Alónnisos',
       'ferry.route.skyros': 'Continente ↔ Skýros',
+      'ferry.route.suduroy': 'Continente ↔ Suðuroy',
       'toll.label': 'Peaxe (tarifa ASF 2026)',
       'toll.barrierFree': 'peaxe de fluxo libre, sen barreira (facturación automática por cámara)',
       'toll.barrierClassic': 'peaxe clásico con barreira',
@@ -6852,7 +6877,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumbo ao descoñecido — xerador lúdico, ningún dato se envía a ningures. Concellos: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licenza CC-BY) para Andorra, España, Portugal, Bélxica, os Países Baixos, Luxemburgo, Suíza, Alemaña, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, a República Checa, Polonia, Eslovaquia, Hungría, Eslovenia, Croacia, Bosnia e Hercegovina, o Reino Unido, Irlanda, a Illa de Man, Dinamarca, Noruega, Suecia, Finlandia, as illas Åland, Montenegro, Albania, Kosovo, Serbia, Macedonia do Norte, Grecia, Bulgaria, Romanía, Letonia, Lituania e Estonia. Puntos de interese e fondo de mapa: © os colaboradores de OpenStreetMap (licenza ODbL). Peaxes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croacia), Autoceste FBiH/Autoputevi RS (Bosnia e Hercegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia do Norte), Olympia Odos/Egnatia Odos (Grecia) — autoestradas gratuítas en Bélxica, en Andorra, nos Países Baixos, en Luxemburgo, en Alemaña, en San Marino, en Liechtenstein, en Mónaco, en Malta, en Polonia (agás tres tramos concesionados), no Reino Unido, en Irlanda, na Illa de Man, en Dinamarca, en Noruega, en Suecia, en Finlandia, nas illas Åland, en Montenegro, en Albania e en Kosovo, así como en Letonia, Lituania e Estonia; viñeta anual en Suíza, en Austria, na República Checa, en Eslovaquia, en Hungría, en Eslovenia, en Bulgaria e en Romanía (sen peaxe por traxecto) — nin peaxe nin viñeta en Guernsey e Jersey.",
+      'footer.text': "Rumbo ao descoñecido — xerador lúdico, ningún dato se envía a ningures. Concellos: IGN / geo.api.gouv.fr (Etalab) para Francia, GeoNames (licenza CC-BY) para Andorra, España, Portugal, Bélxica, os Países Baixos, Luxemburgo, Suíza, Alemaña, Italia, Austria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, a República Checa, Polonia, Eslovaquia, Hungría, Eslovenia, Croacia, Bosnia e Hercegovina, o Reino Unido, Irlanda, a Illa de Man, Dinamarca, Noruega, Suecia, Finlandia, as illas Åland, Montenegro, Albania, Kosovo, Serbia, Macedonia do Norte, Grecia, Bulgaria, Romanía, Letonia, Lituania e Estonia, o Vaticano, Islandia e as illas Feroe. Puntos de interese e fondo de mapa: © os colaboradores de OpenStreetMap (licenza ODbL). Peaxes: VINCI Autoroutes (Francia), Autopistas (España), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Croacia), Autoceste FBiH/Autoputevi RS (Bosnia e Hercegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia do Norte), Olympia Odos/Egnatia Odos (Grecia) — autoestradas gratuítas en Bélxica, en Andorra, nos Países Baixos, en Luxemburgo, en Alemaña, en San Marino, en Liechtenstein, en Mónaco, en Malta, en Polonia (agás tres tramos concesionados), no Reino Unido, en Irlanda, na Illa de Man, en Dinamarca, en Noruega, en Suecia, en Finlandia, nas illas Åland, en Montenegro, en Albania e en Kosovo, así como en Letonia, Lituania e Estonia, no Vaticano, en Islandia e nas illas Feroe; viñeta anual en Suíza, en Austria, na República Checa, en Eslovaquia, en Hungría, en Eslovenia, en Bulgaria e en Romanía (sen peaxe por traxecto) — nin peaxe nin viñeta en Guernsey e Jersey.",
       'footer.legalMentions': 'Avisos legais',
       'footer.privacyPolicy': 'Política de privacidade',
       'footer.translationDisclaimer': 'A interface foi traducida a numerosos idiomas e pode conter erros — non dubides en comunicalos a contact@lume419.fr.',
@@ -7050,6 +7075,7 @@
       'ferry.route.skopelos': 'Continent ↔ Skópelos',
       'ferry.route.alonissos': 'Continent ↔ Alónnisos',
       'ferry.route.skyros': 'Continent ↔ Skýros',
+      'ferry.route.suduroy': 'Continent ↔ Suðuroy',
       'toll.label': 'Pesatge (barèm ASF 2026)',
       'toll.barrierFree': 'pesatge a flux liure, sens barrièra (facturacion automatica per camèra)',
       'toll.barrierClassic': 'pesatge classic amb barrièra',
@@ -7125,7 +7151,7 @@
 
       'again.button': 'Tirar a sòrt una autra destinacion',
 
-      'footer.text': "Camin cap a l'incognit — generador ludic, cap de donada es pas mandada enlòc. Comunas : IGN / geo.api.gouv.fr (Etalab) per França, GeoNames (licéncia CC-BY) per Andòrra, Espanha, Portugal, Belgica, Païses Basses, Luxemborg, Soïssa, Alemanha, Itàlia, Àustria, Sant Marin, Liechtenstein, Mónegue, Malta, Guernesey, Jersey, Republica Chèca, Polonha, Eslovaquia, Ongria, Eslovenia, Croàcia, Bòsnia e Ercegovina, lo Reialme Unit, Irlanda, l'Illa de Man, Danemarc, Norvègia, Soècia, Finlàndia, las illas Åland, Montenegro, Albania, Kosovo, Sèrbia, Macedònia del Nòrd, Grècia, Bulgaria, Romania, Letònia, Lituània e Estònia. Luòcs d'interès e fons de mapa : © los contributors d'OpenStreetMap (licéncia ODbL). Pesatges : VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itàlia), HAC (Croàcia), Autoceste FBiH/Autoputevi RS (Bòsnia e Ercegovina), Putevi Srbije (Sèrbia), JP za državni patišta (Macedònia del Nòrd), Olympia Odos/Egnatia Odos (Grècia) — autorotas gratuitas en Belgica, en Andòrra, en Païses Basses, en Luxemborg, en Alemanha, en Sant Marin, en Liechtenstein, en Mónegue, en Malta, en Polonha (levat tres tròces concedits), al Reialme Unit, en Irlanda, a l'Illa de Man, al Danemarc, en Norvègia, en Soècia, en Finlàndia, a las illas Åland, al Montenegro, en Albania e al Kosovo, ansin coma en Letònia, en Lituània e en Estònia ; vinheta anuala en Soïssa, en Àustria, en Republica Chèca, en Eslovaquia, en Ongria, en Eslovenia, en Bulgaria e en Romania (pas de pesatge pel trajècte) — ni pesatge ni vinheta a Guernesey e Jersey.",
+      'footer.text': "Camin cap a l'incognit — generador ludic, cap de donada es pas mandada enlòc. Comunas : IGN / geo.api.gouv.fr (Etalab) per França, GeoNames (licéncia CC-BY) per Andòrra, Espanha, Portugal, Belgica, Païses Basses, Luxemborg, Soïssa, Alemanha, Itàlia, Àustria, Sant Marin, Liechtenstein, Mónegue, Malta, Guernesey, Jersey, Republica Chèca, Polonha, Eslovaquia, Ongria, Eslovenia, Croàcia, Bòsnia e Ercegovina, lo Reialme Unit, Irlanda, l'Illa de Man, Danemarc, Norvègia, Soècia, Finlàndia, las illas Åland, Montenegro, Albania, Kosovo, Sèrbia, Macedònia del Nòrd, Grècia, Bulgaria, Romania, Letònia, Lituània e Estònia, lo Vatican, Islàndia e las illas Feroe. Luòcs d'interès e fons de mapa : © los contributors d'OpenStreetMap (licéncia ODbL). Pesatges : VINCI Autoroutes (França), Autopistas (Espanha), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itàlia), HAC (Croàcia), Autoceste FBiH/Autoputevi RS (Bòsnia e Ercegovina), Putevi Srbije (Sèrbia), JP za državni patišta (Macedònia del Nòrd), Olympia Odos/Egnatia Odos (Grècia) — autorotas gratuitas en Belgica, en Andòrra, en Païses Basses, en Luxemborg, en Alemanha, en Sant Marin, en Liechtenstein, en Mónegue, en Malta, en Polonha (levat tres tròces concedits), al Reialme Unit, en Irlanda, a l'Illa de Man, al Danemarc, en Norvègia, en Soècia, en Finlàndia, a las illas Åland, al Montenegro, en Albania e al Kosovo, ansin coma en Letònia, en Lituània e en Estònia, al Vatican, en Islàndia e a las illas Feroe ; vinheta anuala en Soïssa, en Àustria, en Republica Chèca, en Eslovaquia, en Ongria, en Eslovenia, en Bulgaria e en Romania (pas de pesatge pel trajècte) — ni pesatge ni vinheta a Guernesey e Jersey.",
       'footer.legalMentions': 'Mencions legalas',
       'footer.privacyPolicy': 'Politica de confidencialitat',
       'footer.translationDisclaimer': "L'interfàcia es estada traducha en fòrça lengas e pòt conténer errors — esitetz pas a los senhalar a contact@lume419.fr.",
@@ -7322,6 +7348,7 @@
       'ferry.route.skopelos': 'Kevandir ↔ Skópelos',
       'ferry.route.alonissos': 'Kevandir ↔ Alónnisos',
       'ferry.route.skyros': 'Kevandir ↔ Skýros',
+      'ferry.route.suduroy': 'Kevandir ↔ Suðuroy',
       'toll.label': 'Taol-hent (barem ASF 2026)',
       'toll.barrierFree': 'taol-hent red frank, hep harz (fakturiñ emgefre dre gamera)',
       'toll.barrierClassic': 'taol-hent boas gant harz',
@@ -7397,7 +7424,7 @@
 
       'again.button': 'Tennañ d\'ar sord ur bal all',
 
-      'footer.text': "Kab war an dianav — ganerez c'hoariva, roadenn ebet kaset da netra. Kêrioù : IGN / geo.api.gouv.fr (Etalab) evit Frañs, GeoNames (aotre CC-BY) evit Andorra, Spagn, Portugal, Belgig, an Iseldiroù, Luksembourg, ar Suis, Alamagn, Italia, Aostria, San Marino, Liechtenstein, Monako, Malta, Guernraez, Jerzenez, ar Republik Tchek, Polonia, Slovakia, Hungaria, Slovenia, Kroatia, ar Bosnia-Herzegovina, ar Rouantelezh-Unanet, Iwerzhon, Enez Vanav, Danmark, Norvegia, Sveden, Finland, Inizi Åland, Montenegro, Albania, Kosovo, Serbia, Makedonia an Norzh, Gres, Bulgaria, Roumania, Latvia, Lituania ha Estonia. Lec'hioù a-fed ha diazez kartenn : © kevelourien OpenStreetMap (aotre ODbL). Taolioù-hent : VINCI Autoroutes (Frañs), Autopistas (Spagn), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (ar Bosnia-Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Makedonia an Norzh), Olympia Odos/Egnatia Odos (Gres) — treuzfentioù dieub e Belgig, en Andorra, en Iseldiroù, e Luksembourg, en Alamagn, e San Marino, e Liechtenstein, e Monako, e Malta, e Polonia (nemet teir zaol dalc'het), er Rouantelezh-Unanet, e Iwerzhon, en Enez Vanav, e Danmark, e Norvegia, e Sveden, e Finland, e Inizi Åland, e Montenegro, e Albania hag e Kosovo, hag ivez e Latvia, e Lituania hag en Estonia; skrid-hent bloavezhiek er Suis, en Aostria, er Republik Tchek, e Slovakia, e Hungaria, e Slovenia, e Bulgaria ha e Roumania (taol-hent ebet dre hent) — na taol-hent na skrid-hent e Guernraez ha Jerzenez.",
+      'footer.text': "Kab war an dianav — ganerez c'hoariva, roadenn ebet kaset da netra. Kêrioù : IGN / geo.api.gouv.fr (Etalab) evit Frañs, GeoNames (aotre CC-BY) evit Andorra, Spagn, Portugal, Belgig, an Iseldiroù, Luksembourg, ar Suis, Alamagn, Italia, Aostria, San Marino, Liechtenstein, Monako, Malta, Guernraez, Jerzenez, ar Republik Tchek, Polonia, Slovakia, Hungaria, Slovenia, Kroatia, ar Bosnia-Herzegovina, ar Rouantelezh-Unanet, Iwerzhon, Enez Vanav, Danmark, Norvegia, Sveden, Finland, Inizi Åland, Montenegro, Albania, Kosovo, Serbia, Makedonia an Norzh, Gres, Bulgaria, Roumania, Latvia, Lituania ha Estonia, ar Vatikan, Island hag Inizi Faroe. Lec'hioù a-fed ha diazez kartenn : © kevelourien OpenStreetMap (aotre ODbL). Taolioù-hent : VINCI Autoroutes (Frañs), Autopistas (Spagn), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (ar Bosnia-Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Makedonia an Norzh), Olympia Odos/Egnatia Odos (Gres) — treuzfentioù dieub e Belgig, en Andorra, en Iseldiroù, e Luksembourg, en Alamagn, e San Marino, e Liechtenstein, e Monako, e Malta, e Polonia (nemet teir zaol dalc'het), er Rouantelezh-Unanet, e Iwerzhon, en Enez Vanav, e Danmark, e Norvegia, e Sveden, e Finland, e Inizi Åland, e Montenegro, e Albania hag e Kosovo, hag ivez e Latvia, e Lituania hag en Estonia, er Vatikan, en Island hag en Inizi Faroe; skrid-hent bloavezhiek er Suis, en Aostria, er Republik Tchek, e Slovakia, e Hungaria, e Slovenia, e Bulgaria ha e Roumania (taol-hent ebet dre hent) — na taol-hent na skrid-hent e Guernraez ha Jerzenez.",
       'footer.legalMentions': 'Menozioù lezennel',
       'footer.privacyPolicy': 'Politikerezh prevezded',
       'footer.translationDisclaimer': "Treuzskrivet eo bet an etrefas e meur a yezh ha gallout a ra bezañ fazioù enni — n'ho pet ket aon da ziskuliañ anezho da contact@lume419.fr.",
@@ -7592,6 +7619,7 @@
       'ferry.route.skopelos': 'Cuntinente ↔ Skópelos',
       'ferry.route.alonissos': 'Cuntinente ↔ Alónnisos',
       'ferry.route.skyros': 'Cuntinente ↔ Skýros',
+      'ferry.route.suduroy': 'Cuntinente ↔ Suðuroy',
       'toll.label': 'Pedagiu (barema ASF 2026)',
       'toll.barrierFree': 'pedagiu à flussu libaru, senza barriera (fatturazione automatica per camera)',
       'toll.barrierClassic': 'pedagiu classicu cù barriera',
@@ -7667,7 +7695,7 @@
 
       'again.button': 'Tirà à sorte un\'altra destinazione',
 
-      'footer.text': "Rotta versu l'ignotu — generatore ludicu, nisun datu hè mandatu quì è culà. Cumuni : IGN / geo.api.gouv.fr (Etalab) per a Francia, GeoNames (licenza CC-BY) per l'Andorra, a Spagna, u Portogallu, u Belgiu, i Paesi Bassi, u Lussemburgu, a Svizzera, a Germania, l'Italia, l'Austria, San Marinu, u Liechtenstein, Munacu, Malta, Guernesey, Jersey, a Repubblica Ceca, a Polonia, a Slovacchia, l'Ungheria, a Slovenia, a Croazia, a Bosnia-Erzegovina, u Regnu Unitu, l'Irlanda, l'Isula di Man, a Danimarca, a Norvegia, a Svezia, a Finlandia, l'isule Åland, u Montenegro, l'Albania, u Kosovu, a Serbia, a Macedonia di u Nordu, a Grecia, a Bulgaria, a Romania, a Lettonia, a Lituania è a Estonia. Lochi d'interessu è fondu di carta : © i cuntribuitori d'OpenStreetMap (licenza ODbL). Pedagi : VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallu), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia di u Nordu), Olympia Odos/Egnatia Odos (Grecia) — autostrade gratuite in Belgiu, in Andorra, in i Paesi Bassi, in Lussemburgu, in Germania, in San Marinu, in Liechtenstein, in Munacu, in Malta, in Polonia (francu trè tocchi cuncessati), in u Regnu Unitu, in Irlanda, in Isula di Man, in Danimarca, in Norvegia, in Svezia, in Finlandia, in l'isule Åland, in u Montenegro, in Albania è in u Kosovu, cusì cum'è in Lettonia, in Lituania è in Estonia ; vignetta annuale in Svizzera, in Austria, in Repubblica Ceca, in Slovacchia, in Ungheria, in Slovenia, in Bulgaria è in Romania (nisun pedagiu per viaghju) — nè pedagiu nè vignetta in Guernesey è Jersey.",
+      'footer.text': "Rotta versu l'ignotu — generatore ludicu, nisun datu hè mandatu quì è culà. Cumuni : IGN / geo.api.gouv.fr (Etalab) per a Francia, GeoNames (licenza CC-BY) per l'Andorra, a Spagna, u Portogallu, u Belgiu, i Paesi Bassi, u Lussemburgu, a Svizzera, a Germania, l'Italia, l'Austria, San Marinu, u Liechtenstein, Munacu, Malta, Guernesey, Jersey, a Repubblica Ceca, a Polonia, a Slovacchia, l'Ungheria, a Slovenia, a Croazia, a Bosnia-Erzegovina, u Regnu Unitu, l'Irlanda, l'Isula di Man, a Danimarca, a Norvegia, a Svezia, a Finlandia, l'isule Åland, u Montenegro, l'Albania, u Kosovu, a Serbia, a Macedonia di u Nordu, a Grecia, a Bulgaria, a Romania, a Lettonia, a Lituania è a Estonia, u Vaticanu, l'Islanda è l'isule Faroe. Lochi d'interessu è fondu di carta : © i cuntribuitori d'OpenStreetMap (licenza ODbL). Pedagi : VINCI Autoroutes (Francia), Autopistas (Spagna), Via Verde/Ascendi (Portogallu), Autostrade per l'Italia (Italia), HAC (Croazia), Autoceste FBiH/Autoputevi RS (Bosnia-Erzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia di u Nordu), Olympia Odos/Egnatia Odos (Grecia) — autostrade gratuite in Belgiu, in Andorra, in i Paesi Bassi, in Lussemburgu, in Germania, in San Marinu, in Liechtenstein, in Munacu, in Malta, in Polonia (francu trè tocchi cuncessati), in u Regnu Unitu, in Irlanda, in Isula di Man, in Danimarca, in Norvegia, in Svezia, in Finlandia, in l'isule Åland, in u Montenegro, in Albania è in u Kosovu, cusì cum'è in Lettonia, in Lituania è in Estonia, in u Vaticanu, in Islanda è in l'isule Faroe ; vignetta annuale in Svizzera, in Austria, in Repubblica Ceca, in Slovacchia, in Ungheria, in Slovenia, in Bulgaria è in Romania (nisun pedagiu per viaghju) — nè pedagiu nè vignetta in Guernesey è Jersey.",
       'footer.legalMentions': 'Mizzioni legale',
       'footer.privacyPolicy': 'Pulitica di cunfidenzialità',
       'footer.translationDisclaimer': "L'interfaccia hè stata traduta in numerose lingue è pò cuntene sbagli — ùn esitate micca à signalalli à contact@lume419.fr.",
@@ -7862,6 +7890,7 @@
       'ferry.route.skopelos': 'Cuntinente ↔ Skópelos',
       'ferry.route.alonissos': 'Cuntinente ↔ Alónnisos',
       'ferry.route.skyros': 'Cuntinente ↔ Skýros',
+      'ferry.route.suduroy': 'Cuntinente ↔ Suðuroy',
       'toll.label': 'Portaige (tarifa ASF 2026)',
       'toll.barrierFree': 'portaige de fluxo lhibre, sin barreira (facturaçon automática por câmara)',
       'toll.barrierClassic': 'portaige clássico cun barreira',
@@ -7937,7 +7966,7 @@
 
       'again.button': 'Sortear outro destino',
 
-      'footer.text': "Rumo al'ancunhecido — generador lhúdico, nanhun dado ye ambiado pa nengun lhado. Cunceilhos: IGN / geo.api.gouv.fr (Etalab) pa la Fráncia, GeoNames (lecéncia CC-BY) pa Andorra, Spanha, Pertual, Béugica, ls Países Baixos, Luxemburgo, la Suíça, Alemanha, Eitália, Ustria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, la República Checa, Pulónia, Eslobáquia, Ungria, Eslobénia, Croácia, Bósnia-Herzegobina, l Reino Unido, la Irlanda, la Eilha de Man, la Dinamarca, la Noruega, la Suécia, la Finlándia, las eilhas Åland, l Montenegro, la Albánia, l Kosovo, la Sérbia, la Macedónia de l Norte, la Grécia, la Bulgária, la Rumenia, la Letónia, la Lituánia i la Estónia. Lugares de anteresse i fondo de mapa: © ls quelaboradores d'OpenStreetMap (lecéncia ODbL). Portaiges: VINCI Autoroutes (Fráncia), Autopistas (Spanha), Via Verde/Ascendi (Pertual), Autostrade per l'Italia (Eitália), HAC (Croácia), Autoceste FBiH/Autoputevi RS (Bósnia-Herzegobina), Putevi Srbije (Sérbia), JP za državni patišta (Macedónia de l Norte), Olympia Odos/Egnatia Odos (Grécia) — outo-stradas de grácia an Béugica, an Andorra, ne ls Países Baixos, an Luxemburgo, an Alemanha, an San Marino, an Liechtenstein, an Mónaco, an Malta, an Pulónia (fura de trés trechos cuncedidos), ne l Reino Unido, na Irlanda, na Eilha de Man, na Dinamarca, na Noruega, na Suécia, na Finlándia, nas eilhas Åland, ne l Montenegro, na Albánia i ne l Kosovo, cumo tamien na Letónia, na Lituánia i na Estónia; bineta anual na Suíça, na Ustria, na República Checa, na Eslobáquia, na Ungria, na Eslobénia, na Bulgária i na Rumenia (nanhun portaige por trajeto) — nin portaige nin bineta an Guernsey i Jersey.",
+      'footer.text': "Rumo al'ancunhecido — generador lhúdico, nanhun dado ye ambiado pa nengun lhado. Cunceilhos: IGN / geo.api.gouv.fr (Etalab) pa la Fráncia, GeoNames (lecéncia CC-BY) pa Andorra, Spanha, Pertual, Béugica, ls Países Baixos, Luxemburgo, la Suíça, Alemanha, Eitália, Ustria, San Marino, Liechtenstein, Mónaco, Malta, Guernsey, Jersey, la República Checa, Pulónia, Eslobáquia, Ungria, Eslobénia, Croácia, Bósnia-Herzegobina, l Reino Unido, la Irlanda, la Eilha de Man, la Dinamarca, la Noruega, la Suécia, la Finlándia, las eilhas Åland, l Montenegro, la Albánia, l Kosovo, la Sérbia, la Macedónia de l Norte, la Grécia, la Bulgária, la Rumenia, la Letónia, la Lituánia i la Estónia, l Vaticano, la Islándia i las eilhas Feroe. Lugares de anteresse i fondo de mapa: © ls quelaboradores d'OpenStreetMap (lecéncia ODbL). Portaiges: VINCI Autoroutes (Fráncia), Autopistas (Spanha), Via Verde/Ascendi (Pertual), Autostrade per l'Italia (Eitália), HAC (Croácia), Autoceste FBiH/Autoputevi RS (Bósnia-Herzegobina), Putevi Srbije (Sérbia), JP za državni patišta (Macedónia de l Norte), Olympia Odos/Egnatia Odos (Grécia) — outo-stradas de grácia an Béugica, an Andorra, ne ls Países Baixos, an Luxemburgo, an Alemanha, an San Marino, an Liechtenstein, an Mónaco, an Malta, an Pulónia (fura de trés trechos cuncedidos), ne l Reino Unido, na Irlanda, na Eilha de Man, na Dinamarca, na Noruega, na Suécia, na Finlándia, nas eilhas Åland, ne l Montenegro, na Albánia i ne l Kosovo, cumo tamien na Letónia, na Lituánia i na Estónia, ne l Vaticano, na Islándia i nas eilhas Feroe; bineta anual na Suíça, na Ustria, na República Checa, na Eslobáquia, na Ungria, na Eslobénia, na Bulgária i na Rumenia (nanhun portaige por trajeto) — nin portaige nin bineta an Guernsey i Jersey.",
       'footer.legalMentions': 'Abisos lhegales',
       'footer.privacyPolicy': 'Política de pribacidade',
       'footer.translationDisclaimer': 'La anterface fui traduzida pa muitas lhénguas i puode tener erros — nun tenga miedo de ls nunciar pa contact@lume419.fr.',
@@ -8136,6 +8165,7 @@
       'ferry.route.skopelos': 'Mór-roinn ↔ Skópelos',
       'ferry.route.alonissos': 'Mór-roinn ↔ Alónnisos',
       'ferry.route.skyros': 'Mór-roinn ↔ Skýros',
+      'ferry.route.suduroy': 'Mór-roinn ↔ Suðuroy',
       'toll.label': 'Dola (treoir rátaí ASF 2026)',
       'toll.barrierFree': 'dola sreabhadh saor, gan bhacainn (billeáil uathoibríoch ceamara)',
       'toll.barrierClassic': 'dola bacainne clasaiceach',
@@ -8211,7 +8241,7 @@
 
       'again.button': 'Crannchuir ceann scríbe eile',
 
-      'footer.text': "Cúrsa i dtreo an anaithnid — gineadóir spraíúil, ní sheoltar aon sonraí áit ar bith riamh. Bailte: IGN / geo.api.gouv.fr (Etalab) don Fhrainc, GeoNames (ceadúnas CC-BY) d'Andóra, don Spáinn, don Phortaingéil, don Bheilg, don Ísiltír, do Lucsamburg, don Eilvéis, don Ghearmáin, don Iodáil, don Ostair, San Mairíne, Lichtinstéin, Monacó, Málta, Geansaí, Geirsí, Poblacht na Seice, an Pholainn, an tSlóvaic, an Ungáir, an tSlóivéin, an Chróit, an Bhoisnia agus an Heirseagaivéin, an Bhreatain Mhór, Éire, Oileán Mhanann, an Danmhairg, an Iorua, an tSualainn, an Fhionlainn, Oileáin Åland, Montainéagró, an Albáin, an Chosaiv, an tSeirbia, an Mhacadóin Thuaidh, an Ghréig, an Bhulgáir, an Rómáin, an Laitvia, an Liotuáin agus an Eastóin. Áiteanna spéise agus cúlra léarscáile: © rannpháirtithe OpenStreetMap (ceadúnas ODbL). Dolaí: VINCI Autoroutes (an Fhrainc), Autopistas (an Spáinn), Via Verde/Ascendi (an Phortaingéil), Autostrade per l'Italia (an Iodáil), HAC (an Chróit), Autoceste FBiH/Autoputevi RS (an Bhoisnia agus an Heirseagaivéin), Putevi Srbije (an tSeirbia), JP za državni patišta (an Mhacadóin Thuaidh), Olympia Odos/Egnatia Odos (sa Ghréig) — mótarbhealaí saor in aisce sa Bheilg, in Andóra, san Ísiltír, i Lucsamburg, sa Ghearmáin, i San Mairíne, i Lichtinstéin, i Monacó, i Málta, sa Pholainn (seachas trí chuid faoi cheadúnas), sa Bhreatain Mhór, in Éirinn, in Oileán Mhanann, sa Danmhairg, san Iorua, sa tSualainn, san Fhionlainn, in Oileáin Åland, i Montainéagró, san Albáin agus sa Chosaiv, chomh maith le sa Laitvia, sa Liotuáin agus san Eastóin; vignéad bliantúil san Eilvéis, san Ostair, i bPoblacht na Seice, sa tSlóvaic, san Ungáir, sa tSlóivéin, sa Bhulgáir agus sa Rómáin (gan dola ar aistear) — gan dola ná vignéad i nGeansaí ná i nGeirsí.",
+      'footer.text': "Cúrsa i dtreo an anaithnid — gineadóir spraíúil, ní sheoltar aon sonraí áit ar bith riamh. Bailte: IGN / geo.api.gouv.fr (Etalab) don Fhrainc, GeoNames (ceadúnas CC-BY) d'Andóra, don Spáinn, don Phortaingéil, don Bheilg, don Ísiltír, do Lucsamburg, don Eilvéis, don Ghearmáin, don Iodáil, don Ostair, San Mairíne, Lichtinstéin, Monacó, Málta, Geansaí, Geirsí, Poblacht na Seice, an Pholainn, an tSlóvaic, an Ungáir, an tSlóivéin, an Chróit, an Bhoisnia agus an Heirseagaivéin, an Bhreatain Mhór, Éire, Oileán Mhanann, an Danmhairg, an Iorua, an tSualainn, an Fhionlainn, Oileáin Åland, Montainéagró, an Albáin, an Chosaiv, an tSeirbia, an Mhacadóin Thuaidh, an Ghréig, an Bhulgáir, an Rómáin, an Laitvia, an Liotuáin agus an Eastóin, an Vatacáin, an Íoslainn agus Oileáin Fharó. Áiteanna spéise agus cúlra léarscáile: © rannpháirtithe OpenStreetMap (ceadúnas ODbL). Dolaí: VINCI Autoroutes (an Fhrainc), Autopistas (an Spáinn), Via Verde/Ascendi (an Phortaingéil), Autostrade per l'Italia (an Iodáil), HAC (an Chróit), Autoceste FBiH/Autoputevi RS (an Bhoisnia agus an Heirseagaivéin), Putevi Srbije (an tSeirbia), JP za državni patišta (an Mhacadóin Thuaidh), Olympia Odos/Egnatia Odos (sa Ghréig) — mótarbhealaí saor in aisce sa Bheilg, in Andóra, san Ísiltír, i Lucsamburg, sa Ghearmáin, i San Mairíne, i Lichtinstéin, i Monacó, i Málta, sa Pholainn (seachas trí chuid faoi cheadúnas), sa Bhreatain Mhór, in Éirinn, in Oileán Mhanann, sa Danmhairg, san Iorua, sa tSualainn, san Fhionlainn, in Oileáin Åland, i Montainéagró, san Albáin agus sa Chosaiv, chomh maith le sa Laitvia, sa Liotuáin, san Eastóin, sa Vatacáin, san Íoslainn agus in Oileáin Fharó; vignéad bliantúil san Eilvéis, san Ostair, i bPoblacht na Seice, sa tSlóvaic, san Ungáir, sa tSlóivéin, sa Bhulgáir agus sa Rómáin (gan dola ar aistear) — gan dola ná vignéad i nGeansaí ná i nGeirsí.",
       'footer.legalMentions': 'Fógra Dlíthiúil',
       'footer.privacyPolicy': 'Beartas Príobháideachais',
       'footer.translationDisclaimer': "Aistríodh an comhéadan go teangacha iomadúla agus d'fhéadfadh botúin a bheith ann — ná bíodh drogall ort iad a chur in iúl chuig contact@lume419.fr.",
@@ -8411,6 +8441,7 @@
       'ferry.route.skopelos': 'Broadyn Mooar ↔ Skópelos',
       'ferry.route.alonissos': 'Broadyn Mooar ↔ Alónnisos',
       'ferry.route.skyros': 'Broadyn Mooar ↔ Skýros',
+      'ferry.route.suduroy': 'Broadyn Mooar ↔ Suðuroy',
       'toll.label': "Keesh-raad (leabhar prios ASF 2026)",
       'toll.barrierFree': "keesh roie-hraie, gyn baare (billey er-obbal liorish camera)",
       'toll.barrierClassic': "keesh baare cadjin",
@@ -8486,7 +8517,7 @@
 
       'again.button': "Reih kione-scrieuit elley",
 
-      'footer.text': "Raad gys yn Quaagh — gineyder cloie-yllagh, cha nel coadanyn erbee er nyn goyrt gys boayl erbee. Baljyn: IGN / geo.api.gouv.fr (Etalab) son yn Rank, GeoNames (kied CC-BY) son Andorra, Spainey, Portugal, Belg, ny h-Athdheeryn Injil, Luxembourg, yn Elvey, Germany, yn Idaal, yn Austir, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Poblaght ny Seicklee, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia as Herzegovina, Bretin Vooar, Nerin, Ellan Vannin, Denmark, Norlynn, Sweden, Finlynn, Ellanyn Åland, Montenegro, Albain, Kosovo, Serbia, Macedon Twoaie, Yn Ghreíg, Bulgaria, Romania, Latvia, Lithuania as Estonia. Ynnydyn taitnyssagh as cooylrey coontey-cheerey: © cummaltee OpenStreetMap (kied ODbL). Keeshyn: VINCI Autoroutes (Rank), Autopistas (Spainey), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Idaal), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia as Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedon Twoaie), Olympia Odos/Egnatia Odos (Yn Ghreíg) — mooar-raadyn gyn keesh ayns Belg, ayns Andorra, ayns ny h-Athdheeryn Injil, ayns Luxembourg, ayns Germany, ayns San Marino, ayns Liechtenstein, ayns Monaco, ayns Malta, ayns Poland (agh three rheynnyn kied), ayns Bretin Vooar, ayns Nerin, ayns Ellan Vannin, ayns Denmark, ayns Norlynn, ayns Sweden, ayns Finlynn, ayns Ellanyn Åland, ayns Montenegro, ayns Albain as ayns Kosovo, chammah's ayns Latvia, Lithuania as Estonia; cowrey bleeaney ayns yn Elvey, ayns yn Austir, ayns Poblaght ny Seicklee, ayns Slovakia, ayns Hungary, ayns Slovenia, ayns Bulgaria as ayns Romania (gyn keesh er turrys) — gyn keesh ny cowrey ayns Guernsey ny ayns Jersey.",
+      'footer.text': "Raad gys yn Quaagh — gineyder cloie-yllagh, cha nel coadanyn erbee er nyn goyrt gys boayl erbee. Baljyn: IGN / geo.api.gouv.fr (Etalab) son yn Rank, GeoNames (kied CC-BY) son Andorra, Spainey, Portugal, Belg, ny h-Athdheeryn Injil, Luxembourg, yn Elvey, Germany, yn Idaal, yn Austir, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Poblaght ny Seicklee, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia as Herzegovina, Bretin Vooar, Nerin, Ellan Vannin, Denmark, Norlynn, Sweden, Finlynn, Ellanyn Åland, Montenegro, Albain, Kosovo, Serbia, Macedon Twoaie, Yn Ghreíg, Bulgaria, Romania, Latvia, Lithuania as Estonia, yn Vatican, Iceland as ny h-Ellanyn Faroe. Ynnydyn taitnyssagh as cooylrey coontey-cheerey: © cummaltee OpenStreetMap (kied ODbL). Keeshyn: VINCI Autoroutes (Rank), Autopistas (Spainey), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Idaal), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia as Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedon Twoaie), Olympia Odos/Egnatia Odos (Yn Ghreíg) — mooar-raadyn gyn keesh ayns Belg, ayns Andorra, ayns ny h-Athdheeryn Injil, ayns Luxembourg, ayns Germany, ayns San Marino, ayns Liechtenstein, ayns Monaco, ayns Malta, ayns Poland (agh three rheynnyn kied), ayns Bretin Vooar, ayns Nerin, ayns Ellan Vannin, ayns Denmark, ayns Norlynn, ayns Sweden, ayns Finlynn, ayns Ellanyn Åland, ayns Montenegro, ayns Albain as ayns Kosovo, chammah's ayns Latvia, Lithuania as Estonia, ayns yn Vatican, ayns Iceland as ayns ny h-Ellanyn Faroe; cowrey bleeaney ayns yn Elvey, ayns yn Austir, ayns Poblaght ny Seicklee, ayns Slovakia, ayns Hungary, ayns Slovenia, ayns Bulgaria as ayns Romania (gyn keesh er turrys) — gyn keesh ny cowrey ayns Guernsey ny ayns Jersey.",
       'footer.legalMentions': "Fys Leighoil",
       'footer.privacyPolicy': "Polasee Preevaadjys",
       'footer.translationDisclaimer': "Ta'n eddin-obbrey er ny hyndaa gys ymmodee çhengaghyn as foddee eh v'ayn marranyssyn — ny bee dooie dy insh dooin ec contact@lume419.fr.",
@@ -8681,6 +8712,7 @@
       'ferry.route.skopelos': 'Tir Mawr ↔ Skópelos',
       'ferry.route.alonissos': 'Tir Mawr ↔ Alónnisos',
       'ferry.route.skyros': 'Tir Mawr ↔ Skýros',
+      'ferry.route.suduroy': 'Tir Mawr ↔ Suðuroy',
       'toll.label': "Toll (arweinlyfr prisiau ASF 2026)",
       'toll.barrierFree': "toll llif rhydd, dim rhwystr (bilio camera awtomatig)",
       'toll.barrierClassic': "toll rhwystr clasurol",
@@ -8756,7 +8788,7 @@
 
       'again.button': "Dewis cyrchfan arall",
 
-      'footer.text': "Cwrs am yr anhysbys — generadur chwareus, ni anfonir data byth i unman. Trefi: IGN / geo.api.gouv.fr (Etalab) ar gyfer Ffrainc, GeoNames (trwydded CC-BY) ar gyfer Andorra, Sbaen, Portiwgal, Gwlad Belg, yr Iseldiroedd, Lwcsembwrg, y Swistir, yr Almaen, yr Eidal, Awstria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Gweriniaeth Tsiec, Gwlad Pwyl, Slofacia, Hwngari, Slofenia, Croatia, Bosnia a Herzegovina, y Deyrnas Unedig, Iwerddon, Ynys Manaw, Denmarc, Norwy, Sweden, y Ffindir, Ynysoedd Åland, Montenegro, Albania, Kosovo, Serbia, Gogledd Macedonia, Groeg, Bwlgaria, România, Latfia, Lithuania ac Estonia. Mannau diddorol a chefndir map: © cyfranwyr OpenStreetMap (trwydded ODbL). Tollau: VINCI Autoroutes (Ffrainc), Autopistas (Sbaen), Via Verde/Ascendi (Portiwgal), Autostrade per l'Italia (Yr Eidal), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia a Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Gogledd Macedonia), Olympia Odos/Egnatia Odos (Groeg) — traffyrdd di-doll yng Ngwlad Belg, yn Andorra, yn yr Iseldiroedd, yn Lwcsembwrg, yn yr Almaen, yn San Marino, yn Liechtenstein, ym Monaco, ym Malta, yng Ngwlad Pwyl (heblaw tair rhan dan gonsesiwn), yn y Deyrnas Unedig, yn Iwerddon, yn Ynys Manaw, yn Denmarc, yn Norwy, yn Sweden, yn y Ffindir, yn Ynysoedd Åland, ym Montenegro, yn Albania ac yn Kosovo, yn ogystal ag yn Latfia, Lithuania ac Estonia; fignét flynyddol yn y Swistir, yn Awstria, yng Ngweriniaeth Tsiec, yn Slofacia, yn Hwngari, yn Slofenia, yn Bwlgaria ac yn România (dim toll fesul taith) — dim toll na fignét yn Guernsey na Jersey.",
+      'footer.text': "Cwrs am yr anhysbys — generadur chwareus, ni anfonir data byth i unman. Trefi: IGN / geo.api.gouv.fr (Etalab) ar gyfer Ffrainc, GeoNames (trwydded CC-BY) ar gyfer Andorra, Sbaen, Portiwgal, Gwlad Belg, yr Iseldiroedd, Lwcsembwrg, y Swistir, yr Almaen, yr Eidal, Awstria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Gweriniaeth Tsiec, Gwlad Pwyl, Slofacia, Hwngari, Slofenia, Croatia, Bosnia a Herzegovina, y Deyrnas Unedig, Iwerddon, Ynys Manaw, Denmarc, Norwy, Sweden, y Ffindir, Ynysoedd Åland, Montenegro, Albania, Kosovo, Serbia, Gogledd Macedonia, Groeg, Bwlgaria, România, Latfia, Lithuania ac Estonia, y Fatican, Gwlad yr Iâ ac Ynysoedd Ffaröe. Mannau diddorol a chefndir map: © cyfranwyr OpenStreetMap (trwydded ODbL). Tollau: VINCI Autoroutes (Ffrainc), Autopistas (Sbaen), Via Verde/Ascendi (Portiwgal), Autostrade per l'Italia (Yr Eidal), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia a Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Gogledd Macedonia), Olympia Odos/Egnatia Odos (Groeg) — traffyrdd di-doll yng Ngwlad Belg, yn Andorra, yn yr Iseldiroedd, yn Lwcsembwrg, yn yr Almaen, yn San Marino, yn Liechtenstein, ym Monaco, ym Malta, yng Ngwlad Pwyl (heblaw tair rhan dan gonsesiwn), yn y Deyrnas Unedig, yn Iwerddon, yn Ynys Manaw, yn Denmarc, yn Norwy, yn Sweden, yn y Ffindir, yn Ynysoedd Åland, ym Montenegro, yn Albania ac yn Kosovo, yn ogystal ag yn Latfia, Lithuania, Estonia, y Fatican, Gwlad yr Iâ ac Ynysoedd Ffaröe; fignét flynyddol yn y Swistir, yn Awstria, yng Ngweriniaeth Tsiec, yn Slofacia, yn Hwngari, yn Slofenia, yn Bwlgaria ac yn România (dim toll fesul taith) — dim toll na fignét yn Guernsey na Jersey.",
       'footer.legalMentions': "Hysbysiad Cyfreithiol",
       'footer.privacyPolicy': "Polisi Preifatrwydd",
       'footer.translationDisclaimer': "Mae'r rhyngwyneb wedi'i gyfieithu i nifer o ieithoedd a gallai gynnwys camgymeriadau — peidiwch ag oedi cyn eu rhoi gwybod i ni yn contact@lume419.fr.",
@@ -8951,6 +8983,7 @@
       'ferry.route.skopelos': 'Tìr-mòr ↔ Skópelos',
       'ferry.route.alonissos': 'Tìr-mòr ↔ Alónnisos',
       'ferry.route.skyros': 'Tìr-mòr ↔ Skýros',
+      'ferry.route.suduroy': 'Tìr-mòr ↔ Suðuroy',
       'toll.label': "Cìs-rathaid (iùl phrìsean ASF 2026)",
       'toll.barrierFree': "cìs sruth-shaor, gun chnap-starra (cunntas fèin-obrachail le camara)",
       'toll.barrierClassic': "cìs le cnap-starra clasaigeach",
@@ -9026,7 +9059,7 @@
 
       'again.button': "Tagh ceann-uidhe eile",
 
-      'footer.text': "Cùrsa dhan anaithnichte — gineadair spòrsail, cha tèid dàta a chur a dh'àite sam bith gu bràth. Bailtean: IGN / geo.api.gouv.fr (Etalab) airson an Fhraing, GeoNames (cead CC-BY) airson Andorra, an Spàinn, a' Phortagail, a' Bheilg, an Òlaind, Lugsamburg, an Eilbheis, a' Ghearmailt, an Eadailt, an Ostair, San Marino, Liechtenstein, Monaco, Malta, Geàrnsaidh, Deàrsaidh, Poblachd na Seice, a' Phòlainn, Slòcaia, an Ungair, an t-Slòbhain, a' Chròthaisia, Bosnia is Herzegovina, an Rìoghachd Aonaichte, Èirinn, Eilean Mhanainn, an Danmhairg, Nirribhidh, an t-Suain, an Fhionnlainn, Eileanan Åland, Montenegro, Albàinia, Kosovo, Sèirbia, Ceann a Tuath Mhasedonia, a' Ghrèig, Bulgàiria, Romania, Laitbhia, Liotuàinia agus Eastòinia. Àiteachan inntinneach agus cùl-raon mapa: © com-pàirtichean OpenStreetMap (cead ODbL). Cìsean: VINCI Autoroutes (an Fhraing), Autopistas (an Spàinn), Via Verde/Ascendi (a' Phortagail), Autostrade per l'Italia (an Eadailt), HAC (a' Chròthaisia), Autoceste FBiH/Autoputevi RS (Bosnia is Herzegovina), Putevi Srbije (Sèirbia), JP za državni patišta (Ceann a Tuath Mhasedonia), Olympia Odos/Egnatia Odos (a' Ghrèig) — mòr-rathaidean gun chìs sa Bheilg, ann an Andorra, san Òlaind, ann an Lugsamburg, sa Ghearmailt, ann an San Marino, ann an Liechtenstein, ann am Monaco, ann am Malta, sa Phòlainn (ach trì earrannan fo chead), san Rìoghachd Aonaichte, ann an Èirinn, ann an Eilean Mhanainn, san Danmhairg, ann an Nirribhidh, san t-Suain, san Fhionnlainn, ann an Eileanan Åland, ann am Montenegro, ann an Albàinia agus ann an Kosovo, a bharrachd air Laitbhia, Liotuàinia agus Eastòinia; vignette bliadhnail san Eilbheis, san Ostair, ann am Poblachd na Seice, ann an Slòcaia, san Ungair, san t-Slòbhain, ann an Bulgàiria agus ann an Romania (gun chìs air turas) — gun chìs no vignette ann an Geàrnsaidh no Deàrsaidh.",
+      'footer.text': "Cùrsa dhan anaithnichte — gineadair spòrsail, cha tèid dàta a chur a dh'àite sam bith gu bràth. Bailtean: IGN / geo.api.gouv.fr (Etalab) airson an Fhraing, GeoNames (cead CC-BY) airson Andorra, an Spàinn, a' Phortagail, a' Bheilg, an Òlaind, Lugsamburg, an Eilbheis, a' Ghearmailt, an Eadailt, an Ostair, San Marino, Liechtenstein, Monaco, Malta, Geàrnsaidh, Deàrsaidh, Poblachd na Seice, a' Phòlainn, Slòcaia, an Ungair, an t-Slòbhain, a' Chròthaisia, Bosnia is Herzegovina, an Rìoghachd Aonaichte, Èirinn, Eilean Mhanainn, an Danmhairg, Nirribhidh, an t-Suain, an Fhionnlainn, Eileanan Åland, Montenegro, Albàinia, Kosovo, Sèirbia, Ceann a Tuath Mhasedonia, a' Ghrèig, Bulgàiria, Romania, Laitbhia, Liotuàinia agus Eastòinia, a' Bhatacan, Innis Tìle agus na h-Eileanan Fàro. Àiteachan inntinneach agus cùl-raon mapa: © com-pàirtichean OpenStreetMap (cead ODbL). Cìsean: VINCI Autoroutes (an Fhraing), Autopistas (an Spàinn), Via Verde/Ascendi (a' Phortagail), Autostrade per l'Italia (an Eadailt), HAC (a' Chròthaisia), Autoceste FBiH/Autoputevi RS (Bosnia is Herzegovina), Putevi Srbije (Sèirbia), JP za državni patišta (Ceann a Tuath Mhasedonia), Olympia Odos/Egnatia Odos (a' Ghrèig) — mòr-rathaidean gun chìs sa Bheilg, ann an Andorra, san Òlaind, ann an Lugsamburg, sa Ghearmailt, ann an San Marino, ann an Liechtenstein, ann am Monaco, ann am Malta, sa Phòlainn (ach trì earrannan fo chead), san Rìoghachd Aonaichte, ann an Èirinn, ann an Eilean Mhanainn, san Danmhairg, ann an Nirribhidh, san t-Suain, san Fhionnlainn, ann an Eileanan Åland, ann am Montenegro, ann an Albàinia agus ann an Kosovo, a bharrachd air Laitbhia, Liotuàinia, Eastòinia, a' Bhatacan, Innis Tìle agus na h-Eileanan Fàro; vignette bliadhnail san Eilbheis, san Ostair, ann am Poblachd na Seice, ann an Slòcaia, san Ungair, san t-Slòbhain, ann an Bulgàiria agus ann an Romania (gun chìs air turas) — gun chìs no vignette ann an Geàrnsaidh no Deàrsaidh.",
       'footer.legalMentions': "Fios Laghail",
       'footer.privacyPolicy': "Poileasaidh Prìobhaideachd",
       'footer.translationDisclaimer': "Chaidh an eadar-aghaidh eadar-theangachadh gu grunn chànanan agus dh'fhaodadh mearachdan a bhith ann — na bi leisg gan innse dhuinn aig contact@lume419.fr.",
@@ -9222,6 +9255,7 @@
       'ferry.route.skopelos': 'Tir-meur ↔ Skópelos',
       'ferry.route.alonissos': 'Tir-meur ↔ Alónnisos',
       'ferry.route.skyros': 'Tir-meur ↔ Skýros',
+      'ferry.route.suduroy': 'Tir-meur ↔ Suðuroy',
       'toll.label': "Toll (lyver-ombrys puvyans ASF 2026)",
       'toll.barrierFree': "toll fros rydh, heb fals (bilyow otomatek dre gamera)",
       'toll.barrierClassic': "toll fals class",
@@ -9297,7 +9331,7 @@
 
       'again.button': "Dewis le gorfen aral",
 
-      'footer.text': "Kors dhe'n anaswonys — jynn-gwrians didhanus, ny yw danvenys nefra dhe le vytholl. Trevow: IGN / geo.api.gouv.fr (Etalab) rag Frynk, GeoNames (lysens CC-BY) rag Andorra, Spayn, Portyngal, Belja, an Iseldiryow, Luksembourg, an Swyssva, Alamayn, Itali, Ostrych, San Marino, Liechtenstein, Monako, Malta, Guernsey, Jersey, Repoblek Cheki, Poland, Slovakya, Hungari, Slovenia, Kroatia, Bosnia ha Herzegovina, an Ruwvaneth Unys, Iwerdhon, Enys Manow, Denmark, Norwegen, Swedia, Finland, Enesow Åland, Montenegro, Albania, Kosovo, Serbia, Macedonia Gledh, Grecia, Bulgaria, Rumania, Latvia, Lithuania ha Estonia. Leow a vern ha keffrys mappa: © kevrenoryon OpenStreetMap (lysens ODbL). Tolyow: VINCI Autoroutes (Frynk), Autopistas (Spayn), Via Verde/Ascendi (Portyngal), Autostrade per l'Italia (Itali), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia ha Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia Gledh), Olympia Odos/Egnatia Odos (Grecia) — fordhow-meur heb toll yn Belja, yn Andorra, y'n Iseldiryow, yn Luksembourg, yn Alamayn, yn San Marino, yn Liechtenstein, yn Monako, yn Malta, yn Poland (marnas try rann fo lysens), y'n Ruwvaneth Unys, yn Iwerdhon, yn Enys Manow, yn Denmark, yn Norwegen, yn Swedia, yn Finland, yn Enesow Åland, yn Montenegro, yn Albania hag yn Kosovo, keffrys hag yn Latvia, Lithuania hag yn Estonia; vignette bledhennyek y'n Swyssva, yn Ostrych, yn Repoblek Cheki, yn Slovakya, yn Hungari, yn Slovenia, yn Bulgaria hag yn Rumania (heb toll rag vyaj) — heb toll na vignette yn Guernsey na Jersey.",
+      'footer.text': "Kors dhe'n anaswonys — jynn-gwrians didhanus, ny yw danvenys nefra dhe le vytholl. Trevow: IGN / geo.api.gouv.fr (Etalab) rag Frynk, GeoNames (lysens CC-BY) rag Andorra, Spayn, Portyngal, Belja, an Iseldiryow, Luksembourg, an Swyssva, Alamayn, Itali, Ostrych, San Marino, Liechtenstein, Monako, Malta, Guernsey, Jersey, Repoblek Cheki, Poland, Slovakya, Hungari, Slovenia, Kroatia, Bosnia ha Herzegovina, an Ruwvaneth Unys, Iwerdhon, Enys Manow, Denmark, Norwegen, Swedia, Finland, Enesow Åland, Montenegro, Albania, Kosovo, Serbia, Macedonia Gledh, Grecia, Bulgaria, Rumania, Latvia, Lithuania ha Estonia, an Vatikan, Island ha'n Ynysow Faroe. Leow a vern ha keffrys mappa: © kevrenoryon OpenStreetMap (lysens ODbL). Tolyow: VINCI Autoroutes (Frynk), Autopistas (Spayn), Via Verde/Ascendi (Portyngal), Autostrade per l'Italia (Itali), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia ha Herzegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia Gledh), Olympia Odos/Egnatia Odos (Grecia) — fordhow-meur heb toll yn Belja, yn Andorra, y'n Iseldiryow, yn Luksembourg, yn Alamayn, yn San Marino, yn Liechtenstein, yn Monako, yn Malta, yn Poland (marnas try rann fo lysens), y'n Ruwvaneth Unys, yn Iwerdhon, yn Enys Manow, yn Denmark, yn Norwegen, yn Swedia, yn Finland, yn Enesow Åland, yn Montenegro, yn Albania hag yn Kosovo, keffrys hag yn Latvia, Lithuania, Estonia, an Vatikan, Island ha'n Ynysow Faroe; vignette bledhennyek y'n Swyssva, yn Ostrych, yn Repoblek Cheki, yn Slovakya, yn Hungari, yn Slovenia, yn Bulgaria hag yn Rumania (heb toll rag vyaj) — heb toll na vignette yn Guernsey na Jersey.",
       'footer.legalMentions': "Derivas Lagha",
       'footer.privacyPolicy': "Polici Priva",
       'footer.translationDisclaimer': 'Yth yw an enterface treylys yn lies yeth ha yll y hava gwallow — na wren perthi own dhe wodhevos ni orta orth contact@lume419.fr.',
@@ -9494,6 +9528,7 @@
       'ferry.route.skopelos': 'Mainland ↔ Skópelos',
       'ferry.route.alonissos': 'Mainland ↔ Alónnisos',
       'ferry.route.skyros': 'Mainland ↔ Skýros',
+      'ferry.route.suduroy': 'Mainland ↔ Suðuroy',
       'toll.label': "Toll (ASF 2026 rate guide)",
       'toll.barrierFree': "free-flow toll, nae barrier (automatic camera billin)",
       'toll.barrierClassic': "classic barrier toll",
@@ -9569,7 +9604,7 @@
 
       'again.button': "Draw anither destination",
 
-      'footer.text': "Cap oan the unkent — a playfu gineratour, nae data is ever sent onywhere. Touns: IGN / geo.api.gouv.fr (Etalab) for Fraunce, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, the Czech Republic, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia an Herzegovina, the Unitit Kinrick, Ireland, the Isle o Man, Denmark, Norawa, Swaden, Finland, the Åland Islands, Montenegro, Albania, Kosovo, Serbie, North Macedonie, Greece, Bulgaria, Romania, Latvie, Lithuanie an Estonie. Pynts o interest an map backgrund: © OpenStreetMap contreebutors (ODbL licence). Tolls: VINCI Autoroutes (Fraunce), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia an Herzegovina), Putevi Srbije (Serbie), JP za državni patišta (North Macedonie), Olympia Odos/Egnatia Odos (Greece) — free motorweys in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco, Malta, Poland (except three concession sections), the Unitit Kinrick, Ireland, the Isle o Man, Denmark, Norawa, Swaden, Finland, the Åland Islands, Montenegro, Albania an Kosovo, as well as in Latvie, Lithuanie an Estonie; an annual vignette in Switzerland, Austria, the Czech Republic, Slovakia, Hungary, Slovenia, Bulgaria an Romania (nae per-trip toll) — nae toll or vignette in Guernsey or Jersey.",
+      'footer.text': "Cap oan the unkent — a playfu gineratour, nae data is ever sent onywhere. Touns: IGN / geo.api.gouv.fr (Etalab) for Fraunce, GeoNames (CC-BY licence) for Andorra, Spain, Portugal, Belgium, the Netherlands, Luxembourg, Switzerland, Germany, Italy, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, the Czech Republic, Poland, Slovakia, Hungary, Slovenia, Croatia, Bosnia an Herzegovina, the Unitit Kinrick, Ireland, the Isle o Man, Denmark, Norawa, Swaden, Finland, the Åland Islands, Montenegro, Albania, Kosovo, Serbie, North Macedonie, Greece, Bulgaria, Romania, Latvie, Lithuanie an Estonie, the Vatican, Iceland an the Faroe Islands. Pynts o interest an map backgrund: © OpenStreetMap contreebutors (ODbL licence). Tolls: VINCI Autoroutes (Fraunce), Autopistas (Spain), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italy), HAC (Croatia), Autoceste FBiH/Autoputevi RS (Bosnia an Herzegovina), Putevi Srbije (Serbie), JP za državni patišta (North Macedonie), Olympia Odos/Egnatia Odos (Greece) — free motorweys in Belgium, Andorra, the Netherlands, Luxembourg, Germany, San Marino, Liechtenstein, Monaco, Malta, Poland (except three concession sections), the Unitit Kinrick, Ireland, the Isle o Man, Denmark, Norawa, Swaden, Finland, the Åland Islands, Montenegro, Albania an Kosovo, as well as in Latvie, Lithuanie an Estonie, the Vatican, Iceland an the Faroe Islands; an annual vignette in Switzerland, Austria, the Czech Republic, Slovakia, Hungary, Slovenia, Bulgaria an Romania (nae per-trip toll) — nae toll or vignette in Guernsey or Jersey.",
       'footer.legalMentions': "Legal Notice",
       'footer.privacyPolicy': "Privacy Policy",
       'footer.translationDisclaimer': 'The interface haes been owerset intae mony leids an micht haud mistaks — dinna be blate tae report thaim tae contact@lume419.fr.',
@@ -9764,6 +9799,7 @@
       'ferry.route.skopelos': 'Pevnina ↔ Skópelos',
       'ferry.route.alonissos': 'Pevnina ↔ Alónnisos',
       'ferry.route.skyros': 'Pevnina ↔ Skýros',
+      'ferry.route.suduroy': 'Pevnina ↔ Suðuroy',
       'toll.label': "Mýtné (ceník ASF 2026)",
       'toll.barrierFree': "bezbariérové mýtné, bez závory (automatické účtování kamerou)",
       'toll.barrierClassic': "klasické mýtné se závorou",
@@ -9839,7 +9875,7 @@
 
       'again.button': "Vylosovat jiný cíl",
 
-      'footer.text': "Kurz na neznámo — hravý generátor, žádná data nejsou nikdy nikam odesílána. Obce: IGN / geo.api.gouv.fr (Etalab) pro Francii, GeoNames (licence CC-BY) pro Andorru, Španělsko, Portugalsko, Belgii, Nizozemsko, Lucembursko, Švýcarsko, Německo, Itálii, Rakousko, San Marino, Lichtenštejnsko, Monako, Maltu, Guernsey, Jersey, Českou republiku, Polsko, Slovensko, Maďarsko, Slovinsko, Chorvatsko, Bosnu a Hercegovinu, Spojené království, Irsko, ostrov Man, Dánsko, Norsko, Švédsko, Finsko, Ålandy, Černou Horu, Albánii, Kosovo, Srbsko, Severní Makedonii, Řecko, Bulharsko, Rumunsko, Lotyšsko, Litvu a Estonsko. Zajímavá místa a podklad mapy: © přispěvatelé OpenStreetMap (licence ODbL). Mýtné: VINCI Autoroutes (Francie), Autopistas (Španělsko), Via Verde/Ascendi (Portugalsko), Autostrade per l'Italia (Itálie), HAC (Chorvatsko), Autoceste FBiH/Autoputevi RS (Bosna a Hercegovina), Putevi Srbije (Srbsko), JP za državni patišta (Severní Makedonie), Olympia Odos/Egnatia Odos (Řecko) — dálnice bez mýtného v Belgii, v Andoře, v Nizozemsku, v Lucembursku, v Německu, v San Marinu, v Lichtenštejnsku, v Monaku, na Maltě, v Polsku (kromě tří zpoplatněných úseků), ve Spojeném království, v Irsku, na ostrově Man, v Dánsku, v Norsku, ve Švédsku, ve Finsku, na Ålandech, v Černé Hoře, v Albánii a v Kosovu, stejně jako v Lotyšsku, v Litvě a v Estonsku; roční dálniční známka ve Švýcarsku, v Rakousku, v České republice, na Slovensku, v Maďarsku, ve Slovinsku, v Bulharsku a v Rumunsku (žádné mýtné za jízdu) — žádné mýtné ani známka na Guernsey nebo Jersey.",
+      'footer.text': "Kurz na neznámo — hravý generátor, žádná data nejsou nikdy nikam odesílána. Obce: IGN / geo.api.gouv.fr (Etalab) pro Francii, GeoNames (licence CC-BY) pro Andorru, Španělsko, Portugalsko, Belgii, Nizozemsko, Lucembursko, Švýcarsko, Německo, Itálii, Rakousko, San Marino, Lichtenštejnsko, Monako, Maltu, Guernsey, Jersey, Českou republiku, Polsko, Slovensko, Maďarsko, Slovinsko, Chorvatsko, Bosnu a Hercegovinu, Spojené království, Irsko, ostrov Man, Dánsko, Norsko, Švédsko, Finsko, Ålandy, Černou Horu, Albánii, Kosovo, Srbsko, Severní Makedonii, Řecko, Bulharsko, Rumunsko, Lotyšsko, Litvu a Estonsko, Vatikán, Island a Faerské ostrovy. Zajímavá místa a podklad mapy: © přispěvatelé OpenStreetMap (licence ODbL). Mýtné: VINCI Autoroutes (Francie), Autopistas (Španělsko), Via Verde/Ascendi (Portugalsko), Autostrade per l'Italia (Itálie), HAC (Chorvatsko), Autoceste FBiH/Autoputevi RS (Bosna a Hercegovina), Putevi Srbije (Srbsko), JP za državni patišta (Severní Makedonie), Olympia Odos/Egnatia Odos (Řecko) — dálnice bez mýtného v Belgii, v Andoře, v Nizozemsku, v Lucembursku, v Německu, v San Marinu, v Lichtenštejnsku, v Monaku, na Maltě, v Polsku (kromě tří zpoplatněných úseků), ve Spojeném království, v Irsku, na ostrově Man, v Dánsku, v Norsku, ve Švédsku, ve Finsku, na Ålandech, v Černé Hoře, v Albánii a v Kosovu, stejně jako v Lotyšsku, v Litvě, v Estonsku, ve Vatikánu, na Islandu a na Faerských ostrovech; roční dálniční známka ve Švýcarsku, v Rakousku, v České republice, na Slovensku, v Maďarsku, ve Slovinsku, v Bulharsku a v Rumunsku (žádné mýtné za jízdu) — žádné mýtné ani známka na Guernsey nebo Jersey.",
       'footer.legalMentions': "Právní upozornění",
       'footer.privacyPolicy': "Zásady ochrany soukromí",
       'footer.translationDisclaimer': 'Rozhraní bylo přeloženo do mnoha jazyků a může obsahovat chyby — neváhejte je nahlásit na contact@lume419.fr.',
@@ -10033,6 +10069,7 @@
       'ferry.route.skopelos': 'Ląd stały ↔ Skópelos',
       'ferry.route.alonissos': 'Ląd stały ↔ Alónnisos',
       'ferry.route.skyros': 'Ląd stały ↔ Skýros',
+      'ferry.route.suduroy': 'Ląd stały ↔ Suðuroy',
       'toll.label': "Opłata drogowa (cennik ASF 2026)",
       'toll.barrierFree': "opłata bezobsługowa, bez bariery (automatyczne rozliczanie kamerą)",
       'toll.barrierClassic': "klasyczna opłata z barierą",
@@ -10108,7 +10145,7 @@
 
       'again.button': "Wylosuj inny cel",
 
-      'footer.text': "Kurs na nieznane — zabawny generator, żadne dane nigdy nigdzie nie są wysyłane. Miejscowości: IGN / geo.api.gouv.fr (Etalab) dla Francji, GeoNames (licencja CC-BY) dla Andory, Hiszpanii, Portugalii, Belgii, Niderlandów, Luksemburga, Szwajcarii, Niemiec, Włoch, Austrii, San Marino, Liechtensteinu, Monako, Malty, Guernsey, Jersey, Czech, Polski, Słowacji, Węgier, Słowenii, Chorwacji, Bośni i Hercegowiny, Wielkiej Brytanii, Irlandii, Wyspy Man, Danii, Norwegii, Szwecji, Finlandii, Wysp Alandzkich, Czarnogóry, Albanii, Kosowa, Serbii, Macedonii Północnej, Grecji, Bułgarii, Rumunii, Łotwy, Litwy i Estonii. Ciekawe miejsca i podkład mapy: © współtwórcy OpenStreetMap (licencja ODbL). Opłaty drogowe: VINCI Autoroutes (Francja), Autopistas (Hiszpania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Włochy), HAC (Chorwacja), Autoceste FBiH/Autoputevi RS (Bośnia i Hercegowina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia Północna), Olympia Odos/Egnatia Odos (Grecja) — autostrady bezpłatne w Belgii, w Andorze, w Niderlandach, w Luksemburgu, w Niemczech, w San Marino, w Liechtensteinie, w Monako, na Malcie, w Polsce (poza trzema odcinkami koncesyjnymi), w Wielkiej Brytanii, w Irlandii, na Wyspie Man, w Danii, w Norwegii, w Szwecji, w Finlandii, na Wyspach Alandzkich, w Czarnogórze, w Albanii i w Kosowie, a także na Łotwie, na Litwie i w Estonii; roczna winieta w Szwajcarii, w Austrii, w Czechach, na Słowacji, na Węgrzech, w Słowenii, w Bułgarii i w Rumunii (bez opłaty za przejazd) — bez opłaty ani winiety na Guernsey lub Jersey.",
+      'footer.text': "Kurs na nieznane — zabawny generator, żadne dane nigdy nigdzie nie są wysyłane. Miejscowości: IGN / geo.api.gouv.fr (Etalab) dla Francji, GeoNames (licencja CC-BY) dla Andory, Hiszpanii, Portugalii, Belgii, Niderlandów, Luksemburga, Szwajcarii, Niemiec, Włoch, Austrii, San Marino, Liechtensteinu, Monako, Malty, Guernsey, Jersey, Czech, Polski, Słowacji, Węgier, Słowenii, Chorwacji, Bośni i Hercegowiny, Wielkiej Brytanii, Irlandii, Wyspy Man, Danii, Norwegii, Szwecji, Finlandii, Wysp Alandzkich, Czarnogóry, Albanii, Kosowa, Serbii, Macedonii Północnej, Grecji, Bułgarii, Rumunii, Łotwy, Litwy i Estonii, Watykanu, Islandii i Wysp Owczych. Ciekawe miejsca i podkład mapy: © współtwórcy OpenStreetMap (licencja ODbL). Opłaty drogowe: VINCI Autoroutes (Francja), Autopistas (Hiszpania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Włochy), HAC (Chorwacja), Autoceste FBiH/Autoputevi RS (Bośnia i Hercegowina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia Północna), Olympia Odos/Egnatia Odos (Grecja) — autostrady bezpłatne w Belgii, w Andorze, w Niderlandach, w Luksemburgu, w Niemczech, w San Marino, w Liechtensteinie, w Monako, na Malcie, w Polsce (poza trzema odcinkami koncesyjnymi), w Wielkiej Brytanii, w Irlandii, na Wyspie Man, w Danii, w Norwegii, w Szwecji, w Finlandii, na Wyspach Alandzkich, w Czarnogórze, w Albanii i w Kosowie, a także na Łotwie, na Litwie, w Estonii, w Watykanie, na Islandii i na Wyspach Owczych; roczna winieta w Szwajcarii, w Austrii, w Czechach, na Słowacji, na Węgrzech, w Słowenii, w Bułgarii i w Rumunii (bez opłaty za przejazd) — bez opłaty ani winiety na Guernsey lub Jersey.",
       'footer.legalMentions': "Nota prawna",
       'footer.privacyPolicy': "Polityka prywatności",
       'footer.translationDisclaimer': 'Interfejs został przetłumaczony na wiele języków i może zawierać błędy — nie wahaj się zgłosić ich na contact@lume419.fr.',
@@ -10302,6 +10339,7 @@
       'ferry.route.skopelos': 'Pevnina ↔ Skópelos',
       'ferry.route.alonissos': 'Pevnina ↔ Alónnisos',
       'ferry.route.skyros': 'Pevnina ↔ Skýros',
+      'ferry.route.suduroy': 'Pevnina ↔ Suðuroy',
       'toll.label': "Mýto (cenník ASF 2026)",
       'toll.barrierFree': "bezbariérové mýto, bez závory (automatické účtovanie kamerou)",
       'toll.barrierClassic': "klasické mýto so závorou",
@@ -10377,7 +10415,7 @@
 
       'again.button': "Vylosovať iný cieľ",
 
-      'footer.text': "Kurz na neznáme — hravý generátor, žiadne údaje nie sú nikdy nikam odosielané. Obce: IGN / geo.api.gouv.fr (Etalab) pre Francúzsko, GeoNames (licencia CC-BY) pre Andorru, Španielsko, Portugalsko, Belgicko, Holandsko, Luxembursko, Švajčiarsko, Nemecko, Taliansko, Rakúsko, San Marino, Lichtenštajnsko, Monako, Maltu, Guernsey, Jersey, Českú republiku, Poľsko, Slovensko, Maďarsko, Slovinsko, Chorvátsko, Bosnu a Hercegovinu, Spojené kráľovstvo, Írsko, ostrov Man, Dánsko, Nórsko, Švédsko, Fínsko, Alandy, Čiernu Horu, Albánsko, Kosovo, Srbsko, Severné Macedónsko, Grécko, Bulharsko, Rumunsko, Lotyšsko, Litvu a Estónsko. Zaujímavé miesta a podklad mapy: © prispievatelia OpenStreetMap (licencia ODbL). Mýto: VINCI Autoroutes (Francúzsko), Autopistas (Španielsko), Via Verde/Ascendi (Portugalsko), Autostrade per l'Italia (Taliansko), HAC (Chorvátsko), Autoceste FBiH/Autoputevi RS (Bosna a Hercegovina), Putevi Srbije (Srbsko), JP za državni patišta (Severné Macedónsko), Olympia Odos/Egnatia Odos (Grécko) — diaľnice bez mýta v Belgicku, v Andorre, v Holandsku, v Luxembursku, v Nemecku, v San Marine, v Lichtenštajnsku, v Monaku, na Malte, v Poľsku (okrem troch spoplatnených úsekov), v Spojenom kráľovstve, v Írsku, na ostrove Man, v Dánsku, v Nórsku, vo Švédsku, vo Fínsku, na Alandoch, v Čiernej Hore, v Albánsku a v Kosove, ako aj v Lotyšsku, v Litve a v Estónsku; ročná diaľničná známka vo Švajčiarsku, v Rakúsku, v Českej republike, na Slovensku, v Maďarsku, v Slovinsku, v Bulharsku a v Rumunsku (žiadne mýto za jazdu) — žiadne mýto ani známka na Guernsey alebo Jersey.",
+      'footer.text': "Kurz na neznáme — hravý generátor, žiadne údaje nie sú nikdy nikam odosielané. Obce: IGN / geo.api.gouv.fr (Etalab) pre Francúzsko, GeoNames (licencia CC-BY) pre Andorru, Španielsko, Portugalsko, Belgicko, Holandsko, Luxembursko, Švajčiarsko, Nemecko, Taliansko, Rakúsko, San Marino, Lichtenštajnsko, Monako, Maltu, Guernsey, Jersey, Českú republiku, Poľsko, Slovensko, Maďarsko, Slovinsko, Chorvátsko, Bosnu a Hercegovinu, Spojené kráľovstvo, Írsko, ostrov Man, Dánsko, Nórsko, Švédsko, Fínsko, Alandy, Čiernu Horu, Albánsko, Kosovo, Srbsko, Severné Macedónsko, Grécko, Bulharsko, Rumunsko, Lotyšsko, Litvu a Estónsko, Vatikán, Island a Faerské ostrovy. Zaujímavé miesta a podklad mapy: © prispievatelia OpenStreetMap (licencia ODbL). Mýto: VINCI Autoroutes (Francúzsko), Autopistas (Španielsko), Via Verde/Ascendi (Portugalsko), Autostrade per l'Italia (Taliansko), HAC (Chorvátsko), Autoceste FBiH/Autoputevi RS (Bosna a Hercegovina), Putevi Srbije (Srbsko), JP za državni patišta (Severné Macedónsko), Olympia Odos/Egnatia Odos (Grécko) — diaľnice bez mýta v Belgicku, v Andorre, v Holandsku, v Luxembursku, v Nemecku, v San Marine, v Lichtenštajnsku, v Monaku, na Malte, v Poľsku (okrem troch spoplatnených úsekov), v Spojenom kráľovstve, v Írsku, na ostrove Man, v Dánsku, v Nórsku, vo Švédsku, vo Fínsku, na Alandoch, v Čiernej Hore, v Albánsku a v Kosove, ako aj v Lotyšsku, v Litve, v Estónsku, vo Vatikáne, na Islande a na Faerských ostrovoch; ročná diaľničná známka vo Švajčiarsku, v Rakúsku, v Českej republike, na Slovensku, v Maďarsku, v Slovinsku, v Bulharsku a v Rumunsku (žiadne mýto za jazdu) — žiadne mýto ani známka na Guernsey alebo Jersey.",
       'footer.legalMentions': "Právne upozornenie",
       'footer.privacyPolicy': "Zásady ochrany súkromia",
       'footer.translationDisclaimer': 'Rozhranie bolo preložené do mnohých jazykov a môže obsahovať chyby — neváhajte ich nahlásiť na contact@lume419.fr.',
@@ -10572,6 +10610,7 @@
       'ferry.route.skopelos': 'Szárazföld ↔ Skópelos',
       'ferry.route.alonissos': 'Szárazföld ↔ Alónnisos',
       'ferry.route.skyros': 'Szárazföld ↔ Skýros',
+      'ferry.route.suduroy': 'Szárazföld ↔ Suðuroy',
       'toll.label': "Útdíj (ASF 2026 árlista)",
       'toll.barrierFree': "sorompómentes útdíj (automatikus kamerás elszámolás)",
       'toll.barrierClassic': "klasszikus sorompós útdíj",
@@ -10647,7 +10686,7 @@
 
       'again.button': "Másik úti cél sorsolása",
 
-      'footer.text': "Irány az ismeretlen — játékos generátor, semmilyen adat nem kerül elküldésre sehova. Települések: IGN / geo.api.gouv.fr (Etalab) Franciaországhoz, GeoNames (CC-BY licenc) Andorrához, Spanyolországhoz, Portugáliához, Belgiumhoz, Hollandiához, Luxemburghoz, Svájchoz, Németországhoz, Olaszországhoz, Ausztriához, San Marinóhoz, Liechtensteinhez, Monacóhoz, Máltához, Guernseyhez, Jerseyhez, Csehországhoz, Lengyelországhoz, Szlovákiához, Magyarországhoz, Szlovéniához, Horvátországhoz, Bosznia-Hercegovinához, az Egyesült Királysághoz, Írországhoz, Man-szigethez, Dániához, Norvégiához, Svédországhoz, Finnországhoz, az Åland-szigetekhez, Montenegróhoz, Albániához, Koszovóhoz, Szerbiához, Észak-Macedóniához, Görögországhoz, Bulgáriához, Romániához, Lettországhoz, Litvániához és Észtországhoz. Érdekes helyek és térképháttér: © OpenStreetMap közreműködők (ODbL licenc). Útdíjak: VINCI Autoroutes (Franciaország), Autopistas (Spanyolország), Via Verde/Ascendi (Portugália), Autostrade per l'Italia (Olaszország), HAC (Horvátország), Autoceste FBiH/Autoputevi RS (Bosznia-Hercegovina), Putevi Srbije (Szerbia), JP za državni patišta (Észak-Macedónia), Olympia Odos/Egnatia Odos (Görögország) — díjmentes autópályák Belgiumban, Andorrában, Hollandiában, Luxemburgban, Németországban, San Marinóban, Liechtensteinben, Monacóban, Máltán, Lengyelországban (kivéve három koncessziós szakaszt), az Egyesült Királyságban, Írországban, Man-szigeten, Dániában, Norvégiában, Svédországban, Finnországban, az Åland-szigeteken, Montenegróban, Albániában és Koszovóban, valamint Lettországban, Litvániában és Észtországban; éves matrica Svájcban, Ausztriában, Csehországban, Szlovákiában, Magyarországon, Szlovéniában, Bulgáriában és Romániában (nincs útdíj utanként) — nincs útdíj vagy matrica Guernseyn vagy Jerseyn.",
+      'footer.text': "Irány az ismeretlen — játékos generátor, semmilyen adat nem kerül elküldésre sehova. Települések: IGN / geo.api.gouv.fr (Etalab) Franciaországhoz, GeoNames (CC-BY licenc) Andorrához, Spanyolországhoz, Portugáliához, Belgiumhoz, Hollandiához, Luxemburghoz, Svájchoz, Németországhoz, Olaszországhoz, Ausztriához, San Marinóhoz, Liechtensteinhez, Monacóhoz, Máltához, Guernseyhez, Jerseyhez, Csehországhoz, Lengyelországhoz, Szlovákiához, Magyarországhoz, Szlovéniához, Horvátországhoz, Bosznia-Hercegovinához, az Egyesült Királysághoz, Írországhoz, Man-szigethez, Dániához, Norvégiához, Svédországhoz, Finnországhoz, az Åland-szigetekhez, Montenegróhoz, Albániához, Koszovóhoz, Szerbiához, Észak-Macedóniához, Görögországhoz, Bulgáriához, Romániához, Lettországhoz, Litvániához, Észtországhoz, a Vatikánhoz, Izlandhoz és a Feröer-szigetekhez. Érdekes helyek és térképháttér: © OpenStreetMap közreműködők (ODbL licenc). Útdíjak: VINCI Autoroutes (Franciaország), Autopistas (Spanyolország), Via Verde/Ascendi (Portugália), Autostrade per l'Italia (Olaszország), HAC (Horvátország), Autoceste FBiH/Autoputevi RS (Bosznia-Hercegovina), Putevi Srbije (Szerbia), JP za državni patišta (Észak-Macedónia), Olympia Odos/Egnatia Odos (Görögország) — díjmentes autópályák Belgiumban, Andorrában, Hollandiában, Luxemburgban, Németországban, San Marinóban, Liechtensteinben, Monacóban, Máltán, Lengyelországban (kivéve három koncessziós szakaszt), az Egyesült Királyságban, Írországban, Man-szigeten, Dániában, Norvégiában, Svédországban, Finnországban, az Åland-szigeteken, Montenegróban, Albániában és Koszovóban, valamint Lettországban, Litvániában, Észtországban, a Vatikánban, Izlandon és a Feröer-szigeteken; éves matrica Svájcban, Ausztriában, Csehországban, Szlovákiában, Magyarországon, Szlovéniában, Bulgáriában és Romániában (nincs útdíj utanként) — nincs útdíj vagy matrica Guernseyn vagy Jerseyn.",
       'footer.legalMentions': "Jogi nyilatkozat",
       'footer.privacyPolicy': "Adatvédelmi irányelvek",
       'footer.translationDisclaimer': 'A felületet számos nyelvre lefordítottuk, és hibákat tartalmazhat — bátran jelezze őket a contact@lume419.fr címen.',
@@ -10842,6 +10881,7 @@
       'ferry.route.skopelos': 'Celina ↔ Skópelos',
       'ferry.route.alonissos': 'Celina ↔ Alónnisos',
       'ferry.route.skyros': 'Celina ↔ Skýros',
+      'ferry.route.suduroy': 'Celina ↔ Suðuroy',
       'toll.label': 'Cestnina (cenik ASF 2026)',
       'toll.barrierFree': 'brezzaporna cestnina (samodejno zaračunavanje s kamero)',
       'toll.barrierClassic': 'klasična cestnina z zaporo',
@@ -10917,7 +10957,7 @@
 
       'again.button': 'Izžrebaj drug cilj',
 
-      'footer.text': "Kurz proti neznanemu — igriv generator, nobeni podatki nikoli niso poslani nikamor. Kraji: IGN / geo.api.gouv.fr (Etalab) za Francijo, GeoNames (licenca CC-BY) za Andoro, Španijo, Portugalsko, Belgijo, Nizozemsko, Luksemburg, Švico, Nemčijo, Italijo, Avstrijo, San Marino, Lihtenštajn, Monako, Malto, Guernsey, Jersey, Češko, Poljsko, Slovaško, Madžarsko, Slovenijo, Hrvaško, Bosno in Hercegovino, Združeno kraljestvo, Irsko, otok Man, Dansko, Norveško, Švedsko, Finsko, Alandske otoke, Črno goro, Albanijo, Kosovo, Srbijo, Severno Makedonijo, Grčijo, Bolgarijo, Romunijo, Latvijo, Litvo in Estonijo. Zanimive točke in podlaga zemljevida: © sodelavci OpenStreetMap (licenca ODbL). Cestnine: VINCI Autoroutes (Francija), Autopistas (Španija), Via Verde/Ascendi (Portugalska), Autostrade per l'Italia (Italija), HAC (Hrvaška), Autoceste FBiH/Autoputevi RS (Bosna in Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Severna Makedonija), Olympia Odos/Egnatia Odos (Grčija) — brezplačne avtoceste v Belgiji, Andori, na Nizozemskem, v Luksemburgu, Nemčiji, San Marinu, Lihtenštajnu, Monaku, na Malti, na Poljskem (razen treh koncesijskih odsekov), v Združenem kraljestvu, na Irskem, na otoku Man, na Danskem, Norveškem, Švedskem, Finskem, na Alandskih otokih, v Črni gori, Albaniji in na Kosovu, pa tudi v Latviji, Litvi in Estoniji; letna vinjeta v Švici, Avstriji, na Češkem, Slovaškem, Madžarskem, v Sloveniji, v Bolgariji in v Romuniji (brez cestnine na vožnjo) — brez cestnine ali vinjete na Guernseyju ali Jerseyju.",
+      'footer.text': "Kurz proti neznanemu — igriv generator, nobeni podatki nikoli niso poslani nikamor. Kraji: IGN / geo.api.gouv.fr (Etalab) za Francijo, GeoNames (licenca CC-BY) za Andoro, Španijo, Portugalsko, Belgijo, Nizozemsko, Luksemburg, Švico, Nemčijo, Italijo, Avstrijo, San Marino, Lihtenštajn, Monako, Malto, Guernsey, Jersey, Češko, Poljsko, Slovaško, Madžarsko, Slovenijo, Hrvaško, Bosno in Hercegovino, Združeno kraljestvo, Irsko, otok Man, Dansko, Norveško, Švedsko, Finsko, Alandske otoke, Črno goro, Albanijo, Kosovo, Srbijo, Severno Makedonijo, Grčijo, Bolgarijo, Romunijo, Latvijo, Litvo in Estonijo, Vatikan, Islandijo in Ferske otoke. Zanimive točke in podlaga zemljevida: © sodelavci OpenStreetMap (licenca ODbL). Cestnine: VINCI Autoroutes (Francija), Autopistas (Španija), Via Verde/Ascendi (Portugalska), Autostrade per l'Italia (Italija), HAC (Hrvaška), Autoceste FBiH/Autoputevi RS (Bosna in Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Severna Makedonija), Olympia Odos/Egnatia Odos (Grčija) — brezplačne avtoceste v Belgiji, Andori, na Nizozemskem, v Luksemburgu, Nemčiji, San Marinu, Lihtenštajnu, Monaku, na Malti, na Poljskem (razen treh koncesijskih odsekov), v Združenem kraljestvu, na Irskem, na otoku Man, na Danskem, Norveškem, Švedskem, Finskem, na Alandskih otokih, v Črni gori, Albaniji in na Kosovu, pa tudi v Latviji, Litvi, Estoniji, v Vatikanu, na Islandiji in na Ferskih otokih; letna vinjeta v Švici, Avstriji, na Češkem, Slovaškem, Madžarskem, v Sloveniji, v Bolgariji in v Romuniji (brez cestnine na vožnjo) — brez cestnine ali vinjete na Guernseyju ali Jerseyju.",
       'footer.legalMentions': 'Pravno obvestilo',
       'footer.privacyPolicy': 'Politika zasebnosti',
       'footer.translationDisclaimer': 'Vmesnik je bil preveden v številne jezike in lahko vsebuje napake — sporočite nam jih na contact@lume419.fr.',
@@ -11113,6 +11153,7 @@
       'ferry.route.skopelos': 'Kopno ↔ Skópelos',
       'ferry.route.alonissos': 'Kopno ↔ Alónnisos',
       'ferry.route.skyros': 'Kopno ↔ Skýros',
+      'ferry.route.suduroy': 'Kopno ↔ Suðuroy',
       'toll.label': "Cestarina (cjenik ASF 2026)",
       'toll.barrierFree': "cestarina bez rampi (automatska naplata kamerom)",
       'toll.barrierClassic': "klasična cestarina s rampama",
@@ -11188,7 +11229,7 @@
 
       'again.button': "Izvuci drugo odredište",
 
-      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španjolsku, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, otok Man, Dansku, Norvešku, Švedsku, Finsku, otoke Åland, Crnu Goru, Albaniju, Kosovo, Srbiju, Sjevernu Makedoniju, Grčku, Bugarsku, Rumunjsku, Latviju, Litvu i Estoniju. Zanimljive točke i podloga karte: © suradnici OpenStreetMapa (licenca ODbL). Cestarine: VINCI Autoroutes (Francuska), Autopistas (Španjolska), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Sjeverna Makedonija), Olympia Odos/Egnatia Odos (Grčka) — besplatne autoceste u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesijske dionice), u Ujedinjenom Kraljevstvu, Irskoj, na otoku Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na otocima Åland, u Crnoj Gori, Albaniji i na Kosovu, kao i u Latviji, Litvi i Estoniji; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj, Sloveniji, Bugarskoj i Rumunjskoj (bez cestarine za vožnju) — bez cestarine ili vinjete na Guernseyju ili Jerseyju.",
+      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španjolsku, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, otok Man, Dansku, Norvešku, Švedsku, Finsku, otoke Åland, Crnu Goru, Albaniju, Kosovo, Srbiju, Sjevernu Makedoniju, Grčku, Bugarsku, Rumunjsku, Latviju, Litvu i Estoniju, Vatikan, Island i Farske otoke. Zanimljive točke i podloga karte: © suradnici OpenStreetMapa (licenca ODbL). Cestarine: VINCI Autoroutes (Francuska), Autopistas (Španjolska), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Sjeverna Makedonija), Olympia Odos/Egnatia Odos (Grčka) — besplatne autoceste u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesijske dionice), u Ujedinjenom Kraljevstvu, Irskoj, na otoku Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na otocima Åland, u Crnoj Gori, Albaniji i na Kosovu, kao i u Latviji, Litvi, Estoniji, u Vatikanu, na Islandu i na Farskim otocima; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj, Sloveniji, Bugarskoj i Rumunjskoj (bez cestarine za vožnju) — bez cestarine ili vinjete na Guernseyju ili Jerseyju.",
       'footer.legalMentions': "Pravna obavijest",
       'footer.privacyPolicy': "Pravila privatnosti",
       'footer.translationDisclaimer': 'Sučelje je prevedeno na brojne jezike i može sadržavati pogreške — slobodno ih prijavite na contact@lume419.fr.',
@@ -11386,6 +11427,7 @@
       'ferry.route.skopelos': 'Kopno ↔ Skópelos',
       'ferry.route.alonissos': 'Kopno ↔ Alónnisos',
       'ferry.route.skyros': 'Kopno ↔ Skýros',
+      'ferry.route.suduroy': 'Kopno ↔ Suðuroy',
       'toll.label': "Cestarina (cjenovnik ASF 2026)",
       'toll.barrierFree': "cestarina bez rampi (automatska naplata kamerom)",
       'toll.barrierClassic': "klasična cestarina s rampama",
@@ -11461,7 +11503,7 @@
 
       'again.button': "Izvuci drugu destinaciju",
 
-      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španiju, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, ostrvo Man, Dansku, Norvešku, Švedsku, Finsku, ostrva Åland, Crnu Goru, Albaniju, Kosovo, Srbiju, Sjevernu Makedoniju, Grčku, Bugarsku, Rumuniju, Latviju, Litvu i Estoniju. Zanimljive tačke i podloga karte: © saradnici OpenStreetMapa (licenca ODbL). Cestarine: VINCI Autoroutes (Francuska), Autopistas (Španija), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Sjeverna Makedonija), Olympia Odos/Egnatia Odos (Grčka) — besplatne autoceste u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesione dionice), u Ujedinjenom Kraljevstvu, Irskoj, na ostrvu Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na ostrvima Åland, u Crnoj Gori, Albaniji i na Kosovu, kao i u Latviji, Litvi i Estoniji; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj, Sloveniji, Bugarskoj i Rumuniji (bez cestarine za vožnju) — bez cestarine ili vinjete na Guernseyju ili Jerseyju.",
+      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španiju, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, ostrvo Man, Dansku, Norvešku, Švedsku, Finsku, ostrva Åland, Crnu Goru, Albaniju, Kosovo, Srbiju, Sjevernu Makedoniju, Grčku, Bugarsku, Rumuniju, Latviju, Litvu i Estoniju, Vatikan, Island i Farska ostrva. Zanimljive tačke i podloga karte: © saradnici OpenStreetMapa (licenca ODbL). Cestarine: VINCI Autoroutes (Francuska), Autopistas (Španija), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Sjeverna Makedonija), Olympia Odos/Egnatia Odos (Grčka) — besplatne autoceste u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesione dionice), u Ujedinjenom Kraljevstvu, Irskoj, na ostrvu Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na ostrvima Åland, u Crnoj Gori, Albaniji i na Kosovu, kao i u Latviji, Litvi, Estoniji, u Vatikanu, na Islandu i na Farskim ostrvima; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj, Sloveniji, Bugarskoj i Rumuniji (bez cestarine za vožnju) — bez cestarine ili vinjete na Guernseyju ili Jerseyju.",
       'footer.legalMentions': "Pravna napomena",
       'footer.privacyPolicy': "Politika privatnosti",
       'footer.translationDisclaimer': 'Interfejs je preveden na brojne jezike i može sadržavati greške — slobodno ih prijavite na contact@lume419.fr.',
@@ -11660,6 +11702,7 @@
       'ferry.route.skopelos': 'Копно ↔ Skópelos',
       'ferry.route.alonissos': 'Копно ↔ Alónnisos',
       'ferry.route.skyros': 'Копно ↔ Skýros',
+      'ferry.route.suduroy': 'Копно ↔ Suðuroy',
       'toll.label': "Путарина (ценовник ASF 2026)",
       'toll.barrierFree': "путарина без рампи (аутоматска наплата камером)",
       'toll.barrierClassic': "класична путарина са рампама",
@@ -11735,7 +11778,7 @@
 
       'again.button': "Извуци другу дестинацију",
 
-      'footer.text': "Курс ка непознатом — разиграни генератор, никакви подаци се никада никуда не шаљу. Места: IGN / geo.api.gouv.fr (Etalab) за Француску, GeoNames (лиценца CC-BY) за Андору, Шпанију, Португал, Белгију, Холандију, Луксембург, Швајцарску, Немачку, Италију, Аустрију, Сан Марино, Лихтенштајн, Монако, Малту, Гернзи, Џерси, Чешку, Пољску, Словачку, Мађарску, Словенију, Хрватску, Босну и Херцеговину, Уједињено Краљевство, Ирску, острво Ман, Данску, Норвешку, Шведску, Финску, острва Оланд, Црну Гору, Албанију, Косово, Србију, Северну Македонију, Грчку, Бугарску, Румунију, Летонију, Литванију и Естонију. Занимљиве тачке и подлога карте: © сарадници OpenStreetMap-а (лиценца ODbL). Путарине: VINCI Autoroutes (Француска), Autopistas (Шпанија), Via Verde/Ascendi (Португал), Autostrade per l'Italia (Италија), HAC (Хрватска), Autoceste FBiH/Autoputevi RS (Босна и Херцеговина), Putevi Srbije (Србија), JP za državni patišta (Северна Македонија), Olympia Odos/Egnatia Odos (Грчка) — бесплатни аутопутеви у Белгији, Андори, Холандији, Луксембургу, Немачкој, Сан Марину, Лихтенштајну, Монаку, на Малти, у Пољској (осим три концесионе деонице), у Уједињеном Краљевству, Ирској, на острву Ман, у Данској, Норвешкој, Шведској, Финској, на острвима Оланд, у Црној Гори, Албанији и на Косову, као и у Летонији, Литванији и Естонији; годишња вињета у Швајцарској, Аустрији, Чешкој, Словачкој, Мађарској, Словенији, Бугарској и Румунији (без путарине за вожњу) — без путарине или вињете на Гернзију или Џерсију.",
+      'footer.text': "Курс ка непознатом — разиграни генератор, никакви подаци се никада никуда не шаљу. Места: IGN / geo.api.gouv.fr (Etalab) за Француску, GeoNames (лиценца CC-BY) за Андору, Шпанију, Португал, Белгију, Холандију, Луксембург, Швајцарску, Немачку, Италију, Аустрију, Сан Марино, Лихтенштајн, Монако, Малту, Гернзи, Џерси, Чешку, Пољску, Словачку, Мађарску, Словенију, Хрватску, Босну и Херцеговину, Уједињено Краљевство, Ирску, острво Ман, Данску, Норвешку, Шведску, Финску, острва Оланд, Црну Гору, Албанију, Косово, Србију, Северну Македонију, Грчку, Бугарску, Румунију, Летонију, Литванију и Естонију, Ватикан, Исланд и Фарска Острва. Занимљиве тачке и подлога карте: © сарадници OpenStreetMap-а (лиценца ODbL). Путарине: VINCI Autoroutes (Француска), Autopistas (Шпанија), Via Verde/Ascendi (Португал), Autostrade per l'Italia (Италија), HAC (Хрватска), Autoceste FBiH/Autoputevi RS (Босна и Херцеговина), Putevi Srbije (Србија), JP za državni patišta (Северна Македонија), Olympia Odos/Egnatia Odos (Грчка) — бесплатни аутопутеви у Белгији, Андори, Холандији, Луксембургу, Немачкој, Сан Марину, Лихтенштајну, Монаку, на Малти, у Пољској (осим три концесионе деонице), у Уједињеном Краљевству, Ирској, на острву Ман, у Данској, Норвешкој, Шведској, Финској, на острвима Оланд, у Црној Гори, Албанији и на Косову, као и у Летонији, Литванији, Естонији, у Ватикану, на Исланду и на Фарским Острвима; годишња вињета у Швајцарској, Аустрији, Чешкој, Словачкој, Мађарској, Словенији, Бугарској и Румунији (без путарине за вожњу) — без путарине или вињете на Гернзију или Џерсију.",
       'footer.legalMentions': "Правна напомена",
       'footer.privacyPolicy': "Политика приватности",
       'footer.translationDisclaimer': 'Интерфејс је преведен на бројне језике и може садржати грешке — слободно их пријавите на contact@lume419.fr.',
@@ -11930,6 +11973,7 @@
       'ferry.route.skopelos': 'Fastland ↔ Skópelos',
       'ferry.route.alonissos': 'Fastland ↔ Alónnisos',
       'ferry.route.skyros': 'Fastland ↔ Skýros',
+      'ferry.route.suduroy': 'Fastland ↔ Suðuroy',
       'toll.label': "Vejafgift (ASF 2026-prisliste)",
       'toll.barrierFree': "bomfri vejafgift (automatisk kameraopkrævning)",
       'toll.barrierClassic': "klassisk vejafgift med bom",
@@ -12005,7 +12049,7 @@
 
       'again.button': "Træk en ny destination",
 
-      'footer.text': "Kurs mod det ukendte — en legende generator, ingen data sendes nogensinde nogen steder hen. Byer: IGN / geo.api.gouv.fr (Etalab) for Frankrig, GeoNames (CC-BY-licens) for Andorra, Spanien, Portugal, Belgien, Holland, Luxembourg, Schweiz, Tyskland, Italien, Østrig, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tjekkiet, Polen, Slovakiet, Ungarn, Slovenien, Kroatien, Bosnien-Hercegovina, Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Ålandsøerne, Montenegro, Albanien, Kosovo, Serbien, Nordmakedonien, Grækenland, Bulgarien, Rumænien, Letland, Litauen og Estland. Seværdigheder og kortgrundlag: © OpenStreetMap-bidragydere (ODbL-licens). Vejafgifter: VINCI Autoroutes (Frankrig), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Hercegovina), Putevi Srbije (Serbien), JP za državni patišta (Nordmakedonien), Olympia Odos/Egnatia Odos (Grækenland) — gratis motorveje i Belgien, Andorra, Holland, Luxembourg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (bortset fra tre koncessionsstrækninger), Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Ålandsøerne, Montenegro, Albanien og Kosovo, samt i Letland, Litauen og Estland; årlig vignet i Schweiz, Østrig, Tjekkiet, Slovakiet, Ungarn, Slovenien, Bulgarien og Rumænien (ingen vejafgift pr. tur) — hverken vejafgift eller vignet på Guernsey eller Jersey.",
+      'footer.text': "Kurs mod det ukendte — en legende generator, ingen data sendes nogensinde nogen steder hen. Byer: IGN / geo.api.gouv.fr (Etalab) for Frankrig, GeoNames (CC-BY-licens) for Andorra, Spanien, Portugal, Belgien, Holland, Luxembourg, Schweiz, Tyskland, Italien, Østrig, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tjekkiet, Polen, Slovakiet, Ungarn, Slovenien, Kroatien, Bosnien-Hercegovina, Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Ålandsøerne, Montenegro, Albanien, Kosovo, Serbien, Nordmakedonien, Grækenland, Bulgarien, Rumænien, Letland, Litauen og Estland, Vatikanstaten, Island og Færøerne. Seværdigheder og kortgrundlag: © OpenStreetMap-bidragydere (ODbL-licens). Vejafgifter: VINCI Autoroutes (Frankrig), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien-Hercegovina), Putevi Srbije (Serbien), JP za državni patišta (Nordmakedonien), Olympia Odos/Egnatia Odos (Grækenland) — gratis motorveje i Belgien, Andorra, Holland, Luxembourg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (bortset fra tre koncessionsstrækninger), Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Ålandsøerne, Montenegro, Albanien og Kosovo, samt i Letland, Litauen, Estland, Vatikanstaten, Island og Færøerne; årlig vignet i Schweiz, Østrig, Tjekkiet, Slovakiet, Ungarn, Slovenien, Bulgarien og Rumænien (ingen vejafgift pr. tur) — hverken vejafgift eller vignet på Guernsey eller Jersey.",
       'footer.legalMentions': "Juridisk meddelelse",
       'footer.privacyPolicy': "Privatlivspolitik",
       'footer.translationDisclaimer': 'Grænsefladen er oversat til mange sprog og kan indeholde fejl — tøv ikke med at give os besked på contact@lume419.fr.',
@@ -12209,6 +12253,7 @@
       'ferry.route.skopelos': 'Fastland ↔ Skópelos',
       'ferry.route.alonissos': 'Fastland ↔ Alónnisos',
       'ferry.route.skyros': 'Fastland ↔ Skýros',
+      'ferry.route.suduroy': 'Fastland ↔ Suðuroy',
       'toll.label': "Bomavgift (ASF 2026-prisliste)",
       'toll.barrierFree': "bomfri avgift (automatisk kamerabetaling)",
       'toll.barrierClassic': "klassisk bomavgift med bom",
@@ -12284,7 +12329,7 @@
 
       'again.button': "Trekk en ny destinasjon",
 
-      'footer.text': "Kurs mot det ukjente — en lekende generator, ingen data sendes noen gang noe sted. Byer: IGN / geo.api.gouv.fr (Etalab) for Frankrike, GeoNames (CC-BY-lisens) for Andorra, Spania, Portugal, Belgia, Nederland, Luxembourg, Sveits, Tyskland, Italia, Østerrike, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjekkia, Polen, Slovakia, Ungarn, Slovenia, Kroatia, Bosnia-Hercegovina, Storbritannia, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albania, Kosovo, Serbia, Nord-Makedonia, Grekenland, Bulgaria, Romania, Latvia, Litauen og Estland. Severdigheter og kartbakgrunn: © OpenStreetMap-bidragsytere (ODbL-lisens). Bomavgifter: VINCI Autoroutes (Frankrike), Autopistas (Spania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia-Hercegovina), Putevi Srbije (Serbia), JP za državni patišta (Nord-Makedonia), Olympia Odos/Egnatia Odos (Grekenland) — gratis motorveier i Belgia, Andorra, Nederland, Luxembourg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (unntatt tre konsesjonsstrekninger), Storbritannia, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albania og Kosovo, samt i Latvia, Litauen og Estland; årlig vignett i Sveits, Østerrike, Tsjekkia, Slovakia, Ungarn, Slovenia, Bulgaria og Romania (ingen avgift per tur) — verken bomavgift eller vignett på Guernsey eller Jersey.",
+      'footer.text': "Kurs mot det ukjente — en lekende generator, ingen data sendes noen gang noe sted. Byer: IGN / geo.api.gouv.fr (Etalab) for Frankrike, GeoNames (CC-BY-lisens) for Andorra, Spania, Portugal, Belgia, Nederland, Luxembourg, Sveits, Tyskland, Italia, Østerrike, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tsjekkia, Polen, Slovakia, Ungarn, Slovenia, Kroatia, Bosnia-Hercegovina, Storbritannia, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albania, Kosovo, Serbia, Nord-Makedonia, Grekenland, Bulgaria, Romania, Latvia, Litauen og Estland, Vatikanstaten, Island og Færøyene. Severdigheter og kartbakgrunn: © OpenStreetMap-bidragsytere (ODbL-lisens). Bomavgifter: VINCI Autoroutes (Frankrike), Autopistas (Spania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia-Hercegovina), Putevi Srbije (Serbia), JP za državni patišta (Nord-Makedonia), Olympia Odos/Egnatia Odos (Grekenland) — gratis motorveier i Belgia, Andorra, Nederland, Luxembourg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (unntatt tre konsesjonsstrekninger), Storbritannia, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albania og Kosovo, samt i Latvia, Litauen, Estland, Vatikanstaten, Island og på Færøyene; årlig vignett i Sveits, Østerrike, Tsjekkia, Slovakia, Ungarn, Slovenia, Bulgaria og Romania (ingen avgift per tur) — verken bomavgift eller vignett på Guernsey eller Jersey.",
       'footer.legalMentions': "Juridisk merknad",
       'footer.privacyPolicy': "Personvernerklæring",
       'footer.translationDisclaimer': 'Grensesnittet er oversatt til mange språk og kan inneholde feil — ikke nøl med å melde fra til contact@lume419.fr.',
@@ -12483,6 +12528,7 @@
       'ferry.route.skopelos': 'Fastland ↔ Skópelos',
       'ferry.route.alonissos': 'Fastland ↔ Alónnisos',
       'ferry.route.skyros': 'Fastland ↔ Skýros',
+      'ferry.route.suduroy': 'Fastland ↔ Suðuroy',
       'toll.label': "Vägavgift (ASF 2026-prislista)",
       'toll.barrierFree': "bomfri avgift (automatisk kamerabetalning)",
       'toll.barrierClassic': "klassisk vägavgift med bom",
@@ -12558,7 +12604,7 @@
 
       'again.button': "Dra en ny destination",
 
-      'footer.text': "Kurs mot det okända — en lekfull generator, ingen data skickas någonsin någonstans. Städer: IGN / geo.api.gouv.fr (Etalab) för Frankrike, GeoNames (CC-BY-licens) för Andorra, Spanien, Portugal, Belgien, Nederländerna, Luxemburg, Schweiz, Tyskland, Italien, Österrike, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tjeckien, Polen, Slovakien, Ungern, Slovenien, Kroatien, Bosnien och Hercegovina, Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albanien, Kosovo, Serbien, Nordmakedonien, Grekland, Bulgarien, Rumänien, Lettland, Litauen och Estland. Sevärdheter och kartbakgrund: © OpenStreetMap-bidragsgivare (ODbL-licens). Vägavgifter: VINCI Autoroutes (Frankrike), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien och Hercegovina), Putevi Srbije (Serbien), JP za državni patišta (Nordmakedonien), Olympia Odos/Egnatia Odos (Grekland) — fria motorvägar i Belgien, Andorra, Nederländerna, Luxemburg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (utom tre koncessionssträckor), Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albanien och Kosovo, samt i Lettland, Litauen och Estland; årlig vinjett i Schweiz, Österrike, Tjeckien, Slovakien, Ungern, Slovenien, Bulgarien och Rumänien (ingen avgift per resa) — varken vägavgift eller vinjett på Guernsey eller Jersey.",
+      'footer.text': "Kurs mot det okända — en lekfull generator, ingen data skickas någonsin någonstans. Städer: IGN / geo.api.gouv.fr (Etalab) för Frankrike, GeoNames (CC-BY-licens) för Andorra, Spanien, Portugal, Belgien, Nederländerna, Luxemburg, Schweiz, Tyskland, Italien, Österrike, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Tjeckien, Polen, Slovakien, Ungern, Slovenien, Kroatien, Bosnien och Hercegovina, Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albanien, Kosovo, Serbien, Nordmakedonien, Grekland, Bulgarien, Rumänien, Lettland, Litauen och Estland, Vatikanstaten, Island och Färöarna. Sevärdheter och kartbakgrund: © OpenStreetMap-bidragsgivare (ODbL-licens). Vägavgifter: VINCI Autoroutes (Frankrike), Autopistas (Spanien), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italien), HAC (Kroatien), Autoceste FBiH/Autoputevi RS (Bosnien och Hercegovina), Putevi Srbije (Serbien), JP za državni patišta (Nordmakedonien), Olympia Odos/Egnatia Odos (Grekland) — fria motorvägar i Belgien, Andorra, Nederländerna, Luxemburg, Tyskland, San Marino, Liechtenstein, Monaco, Malta, Polen (utom tre koncessionssträckor), Storbritannien, Irland, Isle of Man, Danmark, Norge, Sverige, Finland, Åland, Montenegro, Albanien och Kosovo, samt i Lettland, Litauen, Estland, Vatikanstaten, Island och på Färöarna; årlig vinjett i Schweiz, Österrike, Tjeckien, Slovakien, Ungern, Slovenien, Bulgarien och Rumänien (ingen avgift per resa) — varken vägavgift eller vinjett på Guernsey eller Jersey.",
       'footer.legalMentions': "Juridiskt meddelande",
       'footer.privacyPolicy': "Integritetspolicy",
       'footer.translationDisclaimer': 'Gränssnittet har översatts till många språk och kan innehålla fel — tveka inte att rapportera dem till contact@lume419.fr.',
@@ -12758,6 +12804,7 @@
       'ferry.route.skopelos': "Manner ↔ Skópelos",
       'ferry.route.alonissos': "Manner ↔ Alónnisos",
       'ferry.route.skyros': "Manner ↔ Skýros",
+      'ferry.route.suduroy': "Manner ↔ Suðuroy",
       'toll.label': "Tiemaksu (ASF 2026-hinnasto)",
       'toll.barrierFree': "esteetön tiemaksu (automaattinen kameralaskutus)",
       'toll.barrierClassic': "perinteinen tiemaksu puomilla",
@@ -12833,7 +12880,7 @@
 
       'again.button': "Arvo uusi määränpää",
 
-      'footer.text': "Kurssi kohti tuntematonta — leikkisä generaattori, mitään tietoja ei koskaan lähetetä minnekään. Kaupungit: IGN / geo.api.gouv.fr (Etalab) Ranskalle, GeoNames (CC-BY-lisenssi) Andorralle, Espanjalle, Portugalille, Belgialle, Alankomaille, Luxemburgille, Sveitsille, Saksalle, Italialle, Itävallalle, San Marinolle, Liechtensteinille, Monacolle, Maltalle, Guernseylle, Jerseylle, Tšekille, Puolalle, Slovakialle, Unkarille, Slovenialle, Kroatialle, Bosnia ja Hertsegovinalle, Isolle-Britannialle, Irlannille, Mansaarelle, Tanskalle, Norjalle, Ruotsille ja Suomelle sekä Ahvenanmaalle, Montenegrolle, Albanialle, Kosovolle, Serbialle, Pohjois-Makedonialle, Kreikalle, Bulgarialle, Romanialle, Latvialle, Liettualle ja Virolle. Nähtävyydet ja karttapohja: © OpenStreetMap-yhteisön jäsenet (ODbL-lisenssi). Tiemaksut: VINCI Autoroutes (Ranska), Autopistas (Espanja), Via Verde/Ascendi (Portugali), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia ja Hertsegovina), Putevi Srbije (Serbia), JP za državni patišta (Pohjois-Makedonia), Olympia Odos/Egnatia Odos (Kreikka) — maksuttomat moottoritiet Belgiassa, Andorrassa, Alankomaissa, Luxemburgissa, Saksassa, San Marinossa, Liechtensteinissa, Monacossa, Maltalla, Puolassa (lukuun ottamatta kolmea konsessio-osuutta), Isossa-Britanniassa, Irlannissa, Mansaarella, Tanskassa, Norjassa, Ruotsissa sekä Suomessa ja Ahvenanmaalla, Montenegrossa, Albaniassa ja Kosovossa, sekä Latviassa, Liettuassa ja Virossa; vuosittainen tarra Sveitsissä, Itävallassa, Tšekissä, Slovakiassa, Unkarissa, Sloveniassa, Bulgariassa ja Romaniassa (ei tiemaksua ajokerralta) — ei tiemaksua eikä tarraa Guernseyllä tai Jerseyllä.",
+      'footer.text': "Kurssi kohti tuntematonta — leikkisä generaattori, mitään tietoja ei koskaan lähetetä minnekään. Kaupungit: IGN / geo.api.gouv.fr (Etalab) Ranskalle, GeoNames (CC-BY-lisenssi) Andorralle, Espanjalle, Portugalille, Belgialle, Alankomaille, Luxemburgille, Sveitsille, Saksalle, Italialle, Itävallalle, San Marinolle, Liechtensteinille, Monacolle, Maltalle, Guernseylle, Jerseylle, Tšekille, Puolalle, Slovakialle, Unkarille, Slovenialle, Kroatialle, Bosnia ja Hertsegovinalle, Isolle-Britannialle, Irlannille, Mansaarelle, Tanskalle, Norjalle, Ruotsille ja Suomelle sekä Ahvenanmaalle, Montenegrolle, Albanialle, Kosovolle, Serbialle, Pohjois-Makedonialle, Kreikalle, Bulgarialle, Romanialle, Latvialle, Liettualle, Virolle, Vatikaanille, Islannille ja Färsaarille. Nähtävyydet ja karttapohja: © OpenStreetMap-yhteisön jäsenet (ODbL-lisenssi). Tiemaksut: VINCI Autoroutes (Ranska), Autopistas (Espanja), Via Verde/Ascendi (Portugali), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia ja Hertsegovina), Putevi Srbije (Serbia), JP za državni patišta (Pohjois-Makedonia), Olympia Odos/Egnatia Odos (Kreikka) — maksuttomat moottoritiet Belgiassa, Andorrassa, Alankomaissa, Luxemburgissa, Saksassa, San Marinossa, Liechtensteinissa, Monacossa, Maltalla, Puolassa (lukuun ottamatta kolmea konsessio-osuutta), Isossa-Britanniassa, Irlannissa, Mansaarella, Tanskassa, Norjassa, Ruotsissa sekä Suomessa ja Ahvenanmaalla, Montenegrossa, Albaniassa ja Kosovossa, sekä Latviassa, Liettuassa, Virossa, Vatikaanissa, Islannissa ja Färsaarilla; vuosittainen tarra Sveitsissä, Itävallassa, Tšekissä, Slovakiassa, Unkarissa, Sloveniassa, Bulgariassa ja Romaniassa (ei tiemaksua ajokerralta) — ei tiemaksua eikä tarraa Guernseyllä tai Jerseyllä.",
       'footer.legalMentions': "Oikeudellinen huomautus",
       'footer.privacyPolicy': "Tietosuojakäytäntö",
       'footer.translationDisclaimer': 'Käyttöliittymä on käännetty monille kielille ja voi sisältää virheitä — ilmoita niistä rohkeasti osoitteeseen contact@lume419.fr.',
@@ -13039,6 +13086,7 @@
       'ferry.route.skopelos': "Kontinenti ↔ Skópelos",
       'ferry.route.alonissos': "Kontinenti ↔ Alónnisos",
       'ferry.route.skyros': "Kontinenti ↔ Skýros",
+      'ferry.route.suduroy': "Kontinenti ↔ Suðuroy",
       'toll.label': "Taksë rrugore (çmimorja ASF 2026)",
       'toll.barrierFree': "taksë pa barrierë (faturim automatik me kamera)",
       'toll.barrierClassic': "taksë klasike me barrierë",
@@ -13114,7 +13162,7 @@
 
       'again.button': "Nxirr një destinacion tjetër",
 
-      'footer.text': "Kurs drejt të panjohurës — një gjenerator argëtues, asnjë e dhënë nuk dërgohet kurrë askund. Qytetet: IGN / geo.api.gouv.fr (Etalab) për Francën, GeoNames (licencë CC-BY) për Andorrën, Spanjën, Portugalinë, Belgjikën, Holandën, Luksemburgun, Zvicrën, Gjermaninë, Italinë, Austrinë, San Marinon, Lihtenshtajnin, Monakon, Maltën, Guernsey, Jersey, Republikën Çeke, Poloninë, Sllovakinë, Hungarinë, Sllovenine, Kroacinë, Bosnjë-Hercegovinën, Mbretërinë e Bashkuar, Irlandën, Ishullin e Manit, Danimarkën, Norvegjinë, Suedinë, Finlandën, Ishujt Åland, Malin e Zi, Shqipërinë, Kosovën, Serbinë, Maqedoninë e Veriut, Greqinë, Bullgarinë, Rumaninë, Letoninë, Lituaninë dhe Estoninë. Pikat e interesit dhe sfondi i hartës: © kontribuesit e OpenStreetMap (licencë ODbL). Taksat rrugore: VINCI Autoroutes (Francë), Autopistas (Spanjë), Via Verde/Ascendi (Portugali), Autostrade per l'Italia (Itali), HAC (Kroaci), Autoceste FBiH/Autoputevi RS (Bosnjë-Hercegovinë), Putevi Srbije (Serbia), JP za državni patišta (Maqedonia e Veriut), Olympia Odos/Egnatia Odos (Greqia) — autostrada falas në Belgjikë, Andorra, Holandë, Luksemburg, Gjermani, San Marino, Lihtenshtajn, Monako, Maltë, Poloni (përveç tre seksioneve me koncesion), Mbretërinë e Bashkuar, Irlandë, Ishullin e Manit, Danimarkë, Norvegji, Suedi, Finlandë, Ishujt Åland, Mal të Zi, Shqipëri dhe Kosovë, si dhe në Letoni, Lituani dhe Estoni; vinjetë vjetore në Zvicër, Austri, Republikën Çeke, Sllovaki, Hungari, Slloveni, Bullgari dhe Rumani (pa taksë për udhëtim) — asnjë taksë apo vinjetë në Guernsey ose Jersey.",
+      'footer.text': "Kurs drejt të panjohurës — një gjenerator argëtues, asnjë e dhënë nuk dërgohet kurrë askund. Qytetet: IGN / geo.api.gouv.fr (Etalab) për Francën, GeoNames (licencë CC-BY) për Andorrën, Spanjën, Portugalinë, Belgjikën, Holandën, Luksemburgun, Zvicrën, Gjermaninë, Italinë, Austrinë, San Marinon, Lihtenshtajnin, Monakon, Maltën, Guernsey, Jersey, Republikën Çeke, Poloninë, Sllovakinë, Hungarinë, Sllovenine, Kroacinë, Bosnjë-Hercegovinën, Mbretërinë e Bashkuar, Irlandën, Ishullin e Manit, Danimarkën, Norvegjinë, Suedinë, Finlandën, Ishujt Åland, Malin e Zi, Shqipërinë, Kosovën, Serbinë, Maqedoninë e Veriut, Greqinë, Bullgarinë, Rumaninë, Letoninë, Lituaninë, Estoninë, Vatikanin, Islandën dhe Ishujt Faroe. Pikat e interesit dhe sfondi i hartës: © kontribuesit e OpenStreetMap (licencë ODbL). Taksat rrugore: VINCI Autoroutes (Francë), Autopistas (Spanjë), Via Verde/Ascendi (Portugali), Autostrade per l'Italia (Itali), HAC (Kroaci), Autoceste FBiH/Autoputevi RS (Bosnjë-Hercegovinë), Putevi Srbije (Serbia), JP za državni patišta (Maqedonia e Veriut), Olympia Odos/Egnatia Odos (Greqia) — autostrada falas në Belgjikë, Andorra, Holandë, Luksemburg, Gjermani, San Marino, Lihtenshtajn, Monako, Maltë, Poloni (përveç tre seksioneve me koncesion), Mbretërinë e Bashkuar, Irlandë, Ishullin e Manit, Danimarkë, Norvegji, Suedi, Finlandë, Ishujt Åland, Mal të Zi, Shqipëri dhe Kosovë, si dhe në Letoni, Lituani, Estoni, Vatikan, Islandë dhe Ishujt Faroe; vinjetë vjetore në Zvicër, Austri, Republikën Çeke, Sllovaki, Hungari, Slloveni, Bullgari dhe Rumani (pa taksë për udhëtim) — asnjë taksë apo vinjetë në Guernsey ose Jersey.",
       'footer.legalMentions': "Njoftim ligjor",
       'footer.privacyPolicy': "Politika e privatësisë",
       'footer.translationDisclaimer': "Ndërfaqja është përkthyer në shumë gjuhë dhe mund të përmbajë gabime — mos hezitoni t'i raportoni te contact@lume419.fr.",
@@ -13322,6 +13370,7 @@
       'ferry.route.skopelos': "Kopno ↔ Skópelos",
       'ferry.route.alonissos': "Kopno ↔ Alónnisos",
       'ferry.route.skyros': "Kopno ↔ Skýros",
+      'ferry.route.suduroy': "Kopno ↔ Suðuroy",
       'toll.label': "Putarina (cjenovnik ASF 2026)",
       'toll.barrierFree': "putarina bez rampi (automatska naplata kamerom)",
       'toll.barrierClassic': "klasična putarina s rampama",
@@ -13397,7 +13446,7 @@
 
       'again.button': "Izvuci drugu destinaciju",
 
-      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španiju, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, ostrvo Man, Dansku, Norvešku, Švedsku, Finsku, ostrva Åland, Crnu Goru, Albaniju, Kosovo, Srbiju, Sjevernu Makedoniju, Grčku, Bugarsku, Rumuniju, Letoniju, Litvaniju i Estoniju. Zanimljive tačke i podloga karte: © saradnici OpenStreetMapa (licenca ODbL). Putarine: VINCI Autoroutes (Francuska), Autopistas (Španija), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Sjeverna Makedonija), Olympia Odos/Egnatia Odos (Grčka) — besplatni auto-putevi u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesione dionice), u Ujedinjenom Kraljevstvu, Irskoj, na ostrvu Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na ostrvima Åland, u Crnoj Gori, Albaniji i na Kosovu, kao i u Letoniji, Litvaniji i Estoniji; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj, Sloveniji, Bugarskoj i Rumuniji (bez putarine za vožnju) — bez putarine ili vinjete na Guernseyju ili Jerseyju.",
+      'footer.text': "Kurs prema nepoznatom — razigrani generator, nikakvi podaci nikada nikamo se ne šalju. Mjesta: IGN / geo.api.gouv.fr (Etalab) za Francusku, GeoNames (licenca CC-BY) za Andoru, Španiju, Portugal, Belgiju, Nizozemsku, Luksemburg, Švicarsku, Njemačku, Italiju, Austriju, San Marino, Lihtenštajn, Monako, Maltu, Guernsey, Jersey, Češku, Poljsku, Slovačku, Mađarsku, Sloveniju, Hrvatsku, Bosnu i Hercegovinu, Ujedinjeno Kraljevstvo, Irsku, ostrvo Man, Dansku, Norvešku, Švedsku, Finsku, ostrva Åland, Crnu Goru, Albaniju, Kosovo, Srbiju, Sjevernu Makedoniju, Grčku, Bugarsku, Rumuniju, Letoniju, Litvaniju i Estoniju, Vatikan, Island i Farska ostrva. Zanimljive tačke i podloga karte: © saradnici OpenStreetMapa (licenca ODbL). Putarine: VINCI Autoroutes (Francuska), Autopistas (Španija), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italija), HAC (Hrvatska), Autoceste FBiH/Autoputevi RS (Bosna i Hercegovina), Putevi Srbije (Srbija), JP za državni patišta (Sjeverna Makedonija), Olympia Odos/Egnatia Odos (Grčka) — besplatni auto-putevi u Belgiji, Andori, Nizozemskoj, Luksemburgu, Njemačkoj, San Marinu, Lihtenštajnu, Monaku, na Malti, u Poljskoj (osim tri koncesione dionice), u Ujedinjenom Kraljevstvu, Irskoj, na ostrvu Man, u Danskoj, Norveškoj, Švedskoj, Finskoj, na ostrvima Åland, u Crnoj Gori, Albaniji i na Kosovu, kao i u Letoniji, Litvaniji, Estoniji, u Vatikanu, na Islandu i na Farskim ostrvima; godišnja vinjeta u Švicarskoj, Austriji, Češkoj, Slovačkoj, Mađarskoj, Sloveniji, Bugarskoj i Rumuniji (bez putarine za vožnju) — bez putarine ili vinjete na Guernseyju ili Jerseyju.",
       'footer.legalMentions': "Pravna napomena",
       'footer.privacyPolicy': "Politika privatnosti",
       'footer.translationDisclaimer': "Interfejs je preveden na brojne jezike i može sadržavati greške — slobodno ih prijavite na contact@lume419.fr.",
@@ -13600,6 +13649,7 @@
       'ferry.route.skopelos': "Континент ↔ Skópelos",
       'ferry.route.alonissos': "Континент ↔ Alónnisos",
       'ferry.route.skyros': "Континент ↔ Skýros",
+      'ferry.route.suduroy': "Континент ↔ Suðuroy",
       'toll.label': "Патарина (ценовник ASF 2026)",
       'toll.barrierFree': "патарина со слободен проток, без рампа (автоматска наплата преку камера)",
       'toll.barrierClassic': "класична патарина со рампа",
@@ -13675,7 +13725,7 @@
 
       'again.button': "Извлечи друга дестинација",
 
-      'footer.text': "Курс кон непознатото — забавен генератор, никогаш не се испраќаат никакви податоци никаде. Населени места: IGN / geo.api.gouv.fr (Etalab) за Франција, GeoNames (лиценца CC-BY) за Андора, Шпанија, Португалија, Белгија, Холандија, Луксембург, Швајцарија, Германија, Италија, Австрија, Сан Марино, Лихтенштајн, Монако, Малта, Гернзи, Џерси, Чешка, Полска, Словачка, Унгарија, Словенија, Хрватска, Босна и Херцеговина, Обединетото Кралство, Ирска, Островот Ман, Данска, Норвешка, Шведска, Финска, Оландски Острови, Црна Гора, Албанија, Косово, Србија, Северна Македонија, Грција, Бугарија, Романија, Летонија, Литванија и Естонија. Знаменитости и подлога на картата: © соработниците на OpenStreetMap (лиценца ODbL). Патарини: VINCI Autoroutes (Франција), Autopistas (Шпанија), Via Verde/Ascendi (Португалија), Autostrade per l'Italia (Италија), HAC (Хрватска), Autoceste FBiH/Autoputevi RS (Босна и Херцеговина), Putevi Srbije (Србија), JP za državni patišta (Северна Македонија), Olympia Odos/Egnatia Odos (Грција) — бесплатни автопати во Белгија, во Андора, во Холандија, во Луксембург, во Германија, во Сан Марино, во Лихтенштајн, во Монако, во Малта, во Полска (освен три концесионирани делници), во Обединетото Кралство, во Ирска, на Островот Ман, во Данска, во Норвешка, во Шведска, во Финска, на Оландските Острови, во Црна Гора, во Албанија и во Косово, како и во Летонија, Литванија и Естонија; годишна винтета во Швајцарија, во Австрија, во Чешка, во Словачка, во Унгарија, во Словенија, во Бугарија и во Романија (без патарина по патување) — ни патарина ни винтета во Гернзи и во Џерси.",
+      'footer.text': "Курс кон непознатото — забавен генератор, никогаш не се испраќаат никакви податоци никаде. Населени места: IGN / geo.api.gouv.fr (Etalab) за Франција, GeoNames (лиценца CC-BY) за Андора, Шпанија, Португалија, Белгија, Холандија, Луксембург, Швајцарија, Германија, Италија, Австрија, Сан Марино, Лихтенштајн, Монако, Малта, Гернзи, Џерси, Чешка, Полска, Словачка, Унгарија, Словенија, Хрватска, Босна и Херцеговина, Обединетото Кралство, Ирска, Островот Ман, Данска, Норвешка, Шведска, Финска, Оландски Острови, Црна Гора, Албанија, Косово, Србија, Северна Македонија, Грција, Бугарија, Романија, Летонија, Литванија, Естонија, Ватикан, Исланд и Фарските Острови. Знаменитости и подлога на картата: © соработниците на OpenStreetMap (лиценца ODbL). Патарини: VINCI Autoroutes (Франција), Autopistas (Шпанија), Via Verde/Ascendi (Португалија), Autostrade per l'Italia (Италија), HAC (Хрватска), Autoceste FBiH/Autoputevi RS (Босна и Херцеговина), Putevi Srbije (Србија), JP za državni patišta (Северна Македонија), Olympia Odos/Egnatia Odos (Грција) — бесплатни автопати во Белгија, во Андора, во Холандија, во Луксембург, во Германија, во Сан Марино, во Лихтенштајн, во Монако, во Малта, во Полска (освен три концесионирани делници), во Обединетото Кралство, во Ирска, на Островот Ман, во Данска, во Норвешка, во Шведска, во Финска, на Оландските Острови, во Црна Гора, во Албанија и во Косово, како и во Летонија, Литванија, Естонија, во Ватикан, во Исланд и на Фарските Острови; годишна винтета во Швајцарија, во Австрија, во Чешка, во Словачка, во Унгарија, во Словенија, во Бугарија и во Романија (без патарина по патување) — ни патарина ни винтета во Гернзи и во Џерси.",
       'footer.legalMentions': "Правна белешка",
       'footer.privacyPolicy': "Политика за приватност",
       'footer.translationDisclaimer': "Интерфејсот е преведен на многу јазици и може да содржи грешки — слободно пријавете ги на contact@lume419.fr.",
@@ -13875,6 +13925,7 @@
       'ferry.route.skopelos': "Continent ↔ Skópelos",
       'ferry.route.alonissos': "Continent ↔ Alónnisos",
       'ferry.route.skyros': "Continent ↔ Skýros",
+      'ferry.route.suduroy': "Continent ↔ Suðuroy",
       'toll.label': "Taxă de drum (tarif ASF 2026)",
       'toll.barrierFree': "taxă de drum cu flux liber, fără barieră (facturare automată prin cameră)",
       'toll.barrierClassic': "taxă de drum clasică cu barieră",
@@ -13950,7 +14001,7 @@
 
       'again.button': "Trage la sorți altă destinație",
 
-      'footer.text': "Cap spre necunoscut — un generator ludic, niciun fel de date nu sunt trimise niciodată nicăieri. Localități: IGN / geo.api.gouv.fr (Etalab) pentru Franța, GeoNames (licență CC-BY) pentru Andorra, Spania, Portugalia, Belgia, Țările de Jos, Luxemburg, Elveția, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Republica Cehă, Polonia, Slovacia, Ungaria, Slovenia, Croația, Bosnia și Herțegovina, Regatul Unit, Irlanda, Insula Man, Danemarca, Norvegia, Suedia, Finlanda, Insulele Åland, Muntenegru, Albania, Kosovo, Serbia, Macedonia de Nord, Grecia, Bulgaria, România, Letonia, Lituania și Estonia. Puncte de interes și fundal hartă: © contribuitorii OpenStreetMap (licență ODbL). Taxe de drum: VINCI Autoroutes (Franța), Autopistas (Spania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Italia), HAC (Croația), Autoceste FBiH/Autoputevi RS (Bosnia și Herțegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia de Nord), Olympia Odos/Egnatia Odos (Grecia) — autostrăzi fără taxă în Belgia, în Andorra, în Țările de Jos, în Luxemburg, în Germania, în San Marino, în Liechtenstein, în Monaco, în Malta, în Polonia (cu excepția a trei secțiuni concesionate), în Regatul Unit, în Irlanda, în Insula Man, în Danemarca, în Norvegia, în Suedia, în Finlanda, în Insulele Åland, în Muntenegru, în Albania și în Kosovo, precum și în Letonia, în Lituania și în Estonia; vinietă anuală în Elveția, în Austria, în Republica Cehă, în Slovacia, în Ungaria, în Slovenia, în Bulgaria și în România (fără taxă pe traseu) — nici taxă nici vinietă în Guernsey și Jersey.",
+      'footer.text': "Cap spre necunoscut — un generator ludic, niciun fel de date nu sunt trimise niciodată nicăieri. Localități: IGN / geo.api.gouv.fr (Etalab) pentru Franța, GeoNames (licență CC-BY) pentru Andorra, Spania, Portugalia, Belgia, Țările de Jos, Luxemburg, Elveția, Germania, Italia, Austria, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Republica Cehă, Polonia, Slovacia, Ungaria, Slovenia, Croația, Bosnia și Herțegovina, Regatul Unit, Irlanda, Insula Man, Danemarca, Norvegia, Suedia, Finlanda, Insulele Åland, Muntenegru, Albania, Kosovo, Serbia, Macedonia de Nord, Grecia, Bulgaria, România, Letonia, Lituania și Estonia, Vatican, Islanda și Insulele Feroe. Puncte de interes și fundal hartă: © contribuitorii OpenStreetMap (licență ODbL). Taxe de drum: VINCI Autoroutes (Franța), Autopistas (Spania), Via Verde/Ascendi (Portugalia), Autostrade per l'Italia (Italia), HAC (Croația), Autoceste FBiH/Autoputevi RS (Bosnia și Herțegovina), Putevi Srbije (Serbia), JP za državni patišta (Macedonia de Nord), Olympia Odos/Egnatia Odos (Grecia) — autostrăzi fără taxă în Belgia, în Andorra, în Țările de Jos, în Luxemburg, în Germania, în San Marino, în Liechtenstein, în Monaco, în Malta, în Polonia (cu excepția a trei secțiuni concesionate), în Regatul Unit, în Irlanda, în Insula Man, în Danemarca, în Norvegia, în Suedia, în Finlanda, în Insulele Åland, în Muntenegru, în Albania și în Kosovo, precum și în Letonia, în Lituania, în Estonia, în Vatican, în Islanda și în Insulele Feroe; vinietă anuală în Elveția, în Austria, în Republica Cehă, în Slovacia, în Ungaria, în Slovenia, în Bulgaria și în România (fără taxă pe traseu) — nici taxă nici vinietă în Guernsey și Jersey.",
       'footer.legalMentions': "Mențiuni legale",
       'footer.privacyPolicy': "Politica de confidențialitate",
       'footer.translationDisclaimer': "Interfața a fost tradusă în numeroase limbi și poate conține erori — nu ezitați să le semnalați la contact@lume419.fr.",
@@ -14150,6 +14201,7 @@
       'ferry.route.skopelos': "Ήπειρος ↔ Skópelos",
       'ferry.route.alonissos': "Ήπειρος ↔ Alónnisos",
       'ferry.route.skyros': "Ήπειρος ↔ Skýros",
+      'ferry.route.suduroy': "Ήπειρος ↔ Suðuroy",
       'toll.label': "Διόδια (τιμοκατάλογος ASF 2026)",
       'toll.barrierFree': "διόδια ελεύθερης ροής, χωρίς μπάρα (αυτόματη χρέωση μέσω κάμερας)",
       'toll.barrierClassic': "κλασικά διόδια με μπάρα",
@@ -14225,7 +14277,7 @@
 
       'again.button': "Κλήρωση άλλου προορισμού",
 
-      'footer.text': "Πλεύση προς το άγνωστο — παιχνιδιάρικη γεννήτρια, κανένα δεδομένο δεν αποστέλλεται πουθενά. Δήμοι: IGN / geo.api.gouv.fr (Etalab) για τη Γαλλία, GeoNames (άδεια CC-BY) για την Ανδόρα, την Ισπανία, την Πορτογαλία, το Βέλγιο, τις Κάτω Χώρες, το Λουξεμβούργο, την Ελβετία, τη Γερμανία, την Ιταλία, την Αυστρία, το Άγιο Μαρίνο, το Λιχτενστάιν, το Μονακό, τη Μάλτα, το Γκέρνζι, το Τζέρζι, την Τσεχική Δημοκρατία, την Πολωνία, τη Σλοβακία, την Ουγγαρία, τη Σλοβενία, την Κροατία, τη Βοσνία-Ερζεγοβίνη, το Ηνωμένο Βασίλειο, την Ιρλανδία, τη Νήσο του Μαν, τη Δανία, τη Νορβηγία, τη Σουηδία, τη Φινλανδία, τα νησιά Åland, το Μαυροβούνιο, την Αλβανία, το Κόσοβο, τη Σερβία, τη Βόρεια Μακεδονία, την Ελλάδα, τη Βουλγαρία, τη Ρουμανία, τη Λετονία, τη Λιθουανία και την Εσθονία. Σημεία ενδιαφέροντος και υπόβαθρο χάρτη: © οι συνεργάτες του OpenStreetMap (άδεια ODbL). Διόδια: VINCI Autoroutes (Γαλλία), Autopistas (Ισπανία), Via Verde/Ascendi (Πορτογαλία), Autostrade per l'Italia (Ιταλία), HAC (Κροατία), Autoceste FBiH/Autoputevi RS (Βοσνία-Ερζεγοβίνη), Putevi Srbije (Σερβία), JP za državni patišta (Βόρεια Μακεδονία), Olympia Odos/Egnatia Odos (Ελλάδα) — αυτοκινητόδρομοι χωρίς διόδια στο Βέλγιο, στην Ανδόρα, στις Κάτω Χώρες, στο Λουξεμβούργο, στη Γερμανία, στο Άγιο Μαρίνο, στο Λιχτενστάιν, στο Μονακό, στη Μάλτα, στην Πολωνία (εκτός τριών παραχωρημένων τμημάτων), στο Ηνωμένο Βασίλειο, στην Ιρλανδία, στη Νήσο του Μαν, στη Δανία, στη Νορβηγία, στη Σουηδία, στη Φινλανδία, στα νησιά Åland, στο Μαυροβούνιο, στην Αλβανία και στο Κόσοβο, καθώς και στη Λετονία, στη Λιθουανία και στην Εσθονία· ετήσιο σήμα διοδίων στην Ελβετία, στην Αυστρία, στην Τσεχική Δημοκρατία, στη Σλοβακία, στην Ουγγαρία, στη Σλοβενία, στη Βουλγαρία και στη Ρουμανία (χωρίς διόδια ανά διαδρομή) — ούτε διόδια ούτε σήμα στο Γκέρνζι και στο Τζέρζι.",
+      'footer.text': "Πλεύση προς το άγνωστο — παιχνιδιάρικη γεννήτρια, κανένα δεδομένο δεν αποστέλλεται πουθενά. Δήμοι: IGN / geo.api.gouv.fr (Etalab) για τη Γαλλία, GeoNames (άδεια CC-BY) για την Ανδόρα, την Ισπανία, την Πορτογαλία, το Βέλγιο, τις Κάτω Χώρες, το Λουξεμβούργο, την Ελβετία, τη Γερμανία, την Ιταλία, την Αυστρία, το Άγιο Μαρίνο, το Λιχτενστάιν, το Μονακό, τη Μάλτα, το Γκέρνζι, το Τζέρζι, την Τσεχική Δημοκρατία, την Πολωνία, τη Σλοβακία, την Ουγγαρία, τη Σλοβενία, την Κροατία, τη Βοσνία-Ερζεγοβίνη, το Ηνωμένο Βασίλειο, την Ιρλανδία, τη Νήσο του Μαν, τη Δανία, τη Νορβηγία, τη Σουηδία, τη Φινλανδία, τα νησιά Åland, το Μαυροβούνιο, την Αλβανία, το Κόσοβο, τη Σερβία, τη Βόρεια Μακεδονία, την Ελλάδα, τη Βουλγαρία, τη Ρουμανία, τη Λετονία, τη Λιθουανία, την Εσθονία, το Βατικανό, την Ισλανδία και τα Νησιά Φερόε. Σημεία ενδιαφέροντος και υπόβαθρο χάρτη: © οι συνεργάτες του OpenStreetMap (άδεια ODbL). Διόδια: VINCI Autoroutes (Γαλλία), Autopistas (Ισπανία), Via Verde/Ascendi (Πορτογαλία), Autostrade per l'Italia (Ιταλία), HAC (Κροατία), Autoceste FBiH/Autoputevi RS (Βοσνία-Ερζεγοβίνη), Putevi Srbije (Σερβία), JP za državni patišta (Βόρεια Μακεδονία), Olympia Odos/Egnatia Odos (Ελλάδα) — αυτοκινητόδρομοι χωρίς διόδια στο Βέλγιο, στην Ανδόρα, στις Κάτω Χώρες, στο Λουξεμβούργο, στη Γερμανία, στο Άγιο Μαρίνο, στο Λιχτενστάιν, στο Μονακό, στη Μάλτα, στην Πολωνία (εκτός τριών παραχωρημένων τμημάτων), στο Ηνωμένο Βασίλειο, στην Ιρλανδία, στη Νήσο του Μαν, στη Δανία, στη Νορβηγία, στη Σουηδία, στη Φινλανδία, στα νησιά Åland, στο Μαυροβούνιο, στην Αλβανία και στο Κόσοβο, καθώς και στη Λετονία, στη Λιθουανία, στην Εσθονία, στο Βατικανό, στην Ισλανδία και στα Νησιά Φερόε· ετήσιο σήμα διοδίων στην Ελβετία, στην Αυστρία, στην Τσεχική Δημοκρατία, στη Σλοβακία, στην Ουγγαρία, στη Σλοβενία, στη Βουλγαρία και στη Ρουμανία (χωρίς διόδια ανά διαδρομή) — ούτε διόδια ούτε σήμα στο Γκέρνζι και στο Τζέρζι.",
       'footer.legalMentions': "Νομικές πληροφορίες",
       'footer.privacyPolicy': "Πολιτική απορρήτου",
       'footer.translationDisclaimer': "Η διεπαφή έχει μεταφραστεί σε πολλές γλώσσες και μπορεί να περιέχει λάθη — μη διστάσετε να τα αναφέρετε στο contact@lume419.fr.",
@@ -14427,6 +14479,7 @@
       'ferry.route.skopelos': "Континент ↔ Skópelos",
       'ferry.route.alonissos': "Континент ↔ Alónnisos",
       'ferry.route.skyros': "Континент ↔ Skýros",
+      'ferry.route.suduroy': "Континент ↔ Suðuroy",
       'toll.label': "Пътна такса (тарифа ASF 2026)",
       'toll.barrierFree': "пътна такса със свободен поток, без бариера (автоматично таксуване чрез камера)",
       'toll.barrierClassic': "класическа пътна такса с бариера",
@@ -14502,7 +14555,7 @@
 
       'again.button': "Изтегляне на друга дестинация",
 
-      'footer.text': "Курс към неизвестното — забавен генератор, никакви данни не се изпращат никъде. Населени места: IGN / geo.api.gouv.fr (Etalab) за Франция, GeoNames (лиценз CC-BY) за Андора, Испания, Португалия, Белгия, Нидерландия, Люксембург, Швейцария, Германия, Италия, Австрия, Сан Марино, Лихтенщайн, Монако, Малта, Гърнзи, Джърси, Чешката република, Полша, Словакия, Унгария, Словения, Хърватия, Босна и Херцеговина, Обединеното кралство, Ирландия, остров Ман, Дания, Норвегия, Швеция, Финландия, Оландски острови, Черна гора, Албания, Косово, Сърбия, Северна Македония, Гърция, България, Румъния, Латвия, Литва и Естония. Забележителности и фон на картата: © сътрудниците на OpenStreetMap (лиценз ODbL). Пътни такси: VINCI Autoroutes (Франция), Autopistas (Испания), Via Verde/Ascendi (Португалия), Autostrade per l'Italia (Италия), HAC (Хърватия), Autoceste FBiH/Autoputevi RS (Босна и Херцеговина), Putevi Srbije (Сърбия), JP za državni patišta (Северна Македония), Olympia Odos/Egnatia Odos (Гърция) — безплатни автомагистрали в Белгия, в Андора, в Нидерландия, в Люксембург, в Германия, в Сан Марино, в Лихтенщайн, в Монако, в Малта, в Полша (освен три концесионирани отсечки), в Обединеното кралство, в Ирландия, на остров Ман, в Дания, в Норвегия, в Швеция, във Финландия, на Оландските острови, в Черна гора, в Албания и в Косово, както и в Латвия, Литва и Естония; годишен винетен стикер в Швейцария, в Австрия, в Чешката република, в Словакия, в Унгария, в Словения, в България и в Румъния (без пътна такса за пътуване) — нито пътна такса, нито винетен стикер в Гърнзи и Джърси.",
+      'footer.text': "Курс към неизвестното — забавен генератор, никакви данни не се изпращат никъде. Населени места: IGN / geo.api.gouv.fr (Etalab) за Франция, GeoNames (лиценз CC-BY) за Андора, Испания, Португалия, Белгия, Нидерландия, Люксембург, Швейцария, Германия, Италия, Австрия, Сан Марино, Лихтенщайн, Монако, Малта, Гърнзи, Джърси, Чешката република, Полша, Словакия, Унгария, Словения, Хърватия, Босна и Херцеговина, Обединеното кралство, Ирландия, остров Ман, Дания, Норвегия, Швеция, Финландия, Оландски острови, Черна гора, Албания, Косово, Сърбия, Северна Македония, Гърция, България, Румъния, Латвия, Литва, Естония, Ватикана, Исландия и Фарьорските острови. Забележителности и фон на картата: © сътрудниците на OpenStreetMap (лиценз ODbL). Пътни такси: VINCI Autoroutes (Франция), Autopistas (Испания), Via Verde/Ascendi (Португалия), Autostrade per l'Italia (Италия), HAC (Хърватия), Autoceste FBiH/Autoputevi RS (Босна и Херцеговина), Putevi Srbije (Сърбия), JP za državni patišta (Северна Македония), Olympia Odos/Egnatia Odos (Гърция) — безплатни автомагистрали в Белгия, в Андора, в Нидерландия, в Люксембург, в Германия, в Сан Марино, в Лихтенщайн, в Монако, в Малта, в Полша (освен три концесионирани отсечки), в Обединеното кралство, в Ирландия, на остров Ман, в Дания, в Норвегия, в Швеция, във Финландия, на Оландските острови, в Черна гора, в Албания и в Косово, както и в Латвия, Литва, Естония, Ватикана, Исландия и Фарьорските острови; годишен винетен стикер в Швейцария, в Австрия, в Чешката република, в Словакия, в Унгария, в Словения, в България и в Румъния (без пътна такса за пътуване) — нито пътна такса, нито винетен стикер в Гърнзи и Джърси.",
       'footer.legalMentions': "Правна информация",
       'footer.privacyPolicy': "Политика за поверителност",
       'footer.translationDisclaimer': "Интерфейсът е преведен на много езици и може да съдържа грешки — не се колебайте да ги съобщите на contact@lume419.fr.",
@@ -14701,6 +14754,7 @@
       'ferry.route.skopelos': 'Kontinents ↔ Skópelos',
       'ferry.route.alonissos': 'Kontinents ↔ Alónnisos',
       'ferry.route.skyros': 'Kontinents ↔ Skýros',
+      'ferry.route.suduroy': 'Kontinents ↔ Suðuroy',
       'toll.label': 'Ceļa nodeva (ASF 2026 tarifi)',
       'toll.barrierFree': 'brīvās plūsmas nodeva bez barjerām (automātiska norēķināšanās ar kameru)',
       'toll.barrierClassic': 'klasiskā nodeva ar barjeru',
@@ -14776,7 +14830,7 @@
 
       'again.button': 'Izlozēt citu galamērķi',
 
-      'footer.text': "Kurss uz nezināmo — jautrs ģenerators, nekādi dati netiek nekur sūtīti. Pašvaldības: IGN / geo.api.gouv.fr (Etalab) Francijai, GeoNames (CC-BY licence) Andorai, Spānijai, Portugālei, Beļģijai, Nīderlandei, Luksemburgai, Šveicei, Vācijai, Itālijai, Austrijai, Sanmarīno, Lihtenšteinai, Monako, Maltai, Gērnsijai, Džērsijai, Čehijai, Polijai, Slovākijai, Ungārijai, Slovēnijai, Horvātijai, Bosnijai un Hercegovinai, Apvienotajai Karalistei, Īrijai, Menas salai, Dānijai, Norvēģijai, Zviedrijai, Somijai, Olandes salām, Melnkalnei, Albānijai, Kosovai, Serbijai, Ziemeļmaķedonijai, Grieķijai, Bulgārijai, Rumānijai, Latvijai, Lietuvai un Igaunijai. Apskates vietas un kartes pamatne: © OpenStreetMap dalībnieki (ODbL licence). Ceļa nodevas: VINCI Autoroutes (Francija), Autopistas (Spānija), Via Verde/Ascendi (Portugāle), Autostrade per l'Italia (Itālija), HAC (Horvātija), Autoceste FBiH/Autoputevi RS (Bosnija un Hercegovina), Putevi Srbije (Serbija), JP za državni patišta (Ziemeļmaķedonija), Olympia Odos/Egnatia Odos (Grieķija) — bezmaksas automaģistrāles Beļģijā, Andorā, Nīderlandē, Luksemburgā, Vācijā, Sanmarīno, Lihtenšteinā, Monako, Maltā, Polijā (izņemot trīs koncesijas posmus), Apvienotajā Karalistē, Īrijā, Menas salā, Dānijā, Norvēģijā, Zviedrijā, Somijā, Olandes salās, Melnkalnē, Albānijā un Kosovā, kā arī Latvijā, Lietuvā un Igaunijā; ikgadēja vinjete Šveicē, Austrijā, Čehijā, Slovākijā, Ungārijā, Slovēnijā, Bulgārijā un Rumānijā (bez ceļa nodevas par braucienu) — ne ceļa nodevas, ne vinjetes Gērnsijā un Džērsijā.",
+      'footer.text': "Kurss uz nezināmo — jautrs ģenerators, nekādi dati netiek nekur sūtīti. Pašvaldības: IGN / geo.api.gouv.fr (Etalab) Francijai, GeoNames (CC-BY licence) Andorai, Spānijai, Portugālei, Beļģijai, Nīderlandei, Luksemburgai, Šveicei, Vācijai, Itālijai, Austrijai, Sanmarīno, Lihtenšteinai, Monako, Maltai, Gērnsijai, Džērsijai, Čehijai, Polijai, Slovākijai, Ungārijai, Slovēnijai, Horvātijai, Bosnijai un Hercegovinai, Apvienotajai Karalistei, Īrijai, Menas salai, Dānijai, Norvēģijai, Zviedrijai, Somijai, Olandes salām, Melnkalnei, Albānijai, Kosovai, Serbijai, Ziemeļmaķedonijai, Grieķijai, Bulgārijai, Rumānijai, Latvijai, Lietuvai, Igaunijai, Vatikānam, Islandei un Fēru salām. Apskates vietas un kartes pamatne: © OpenStreetMap dalībnieki (ODbL licence). Ceļa nodevas: VINCI Autoroutes (Francija), Autopistas (Spānija), Via Verde/Ascendi (Portugāle), Autostrade per l'Italia (Itālija), HAC (Horvātija), Autoceste FBiH/Autoputevi RS (Bosnija un Hercegovina), Putevi Srbije (Serbija), JP za državni patišta (Ziemeļmaķedonija), Olympia Odos/Egnatia Odos (Grieķija) — bezmaksas automaģistrāles Beļģijā, Andorā, Nīderlandē, Luksemburgā, Vācijā, Sanmarīno, Lihtenšteinā, Monako, Maltā, Polijā (izņemot trīs koncesijas posmus), Apvienotajā Karalistē, Īrijā, Menas salā, Dānijā, Norvēģijā, Zviedrijā, Somijā, Olandes salās, Melnkalnē, Albānijā un Kosovā, kā arī Latvijā, Lietuvā, Igaunijā, Vatikānā, Islandē un Fēru salās; ikgadēja vinjete Šveicē, Austrijā, Čehijā, Slovākijā, Ungārijā, Slovēnijā, Bulgārijā un Rumānijā (bez ceļa nodevas par braucienu) — ne ceļa nodevas, ne vinjetes Gērnsijā un Džērsijā.",
       'footer.legalMentions': 'Juridiskā informācija',
       'footer.privacyPolicy': 'Konfidencialitātes politika',
       'footer.translationDisclaimer': "Saskarne ir tulkota daudzās valodās un var saturēt kļūdas — nevilcinieties tās ziņot uz contact@lume419.fr.",
@@ -14974,6 +15028,7 @@
       'ferry.route.skopelos': 'Žemynas ↔ Skópelos',
       'ferry.route.alonissos': 'Žemynas ↔ Alónnisos',
       'ferry.route.skyros': 'Žemynas ↔ Skýros',
+      'ferry.route.suduroy': 'Žemynas ↔ Suðuroy',
       'toll.label': 'Kelių mokestis (ASF 2026 tarifai)',
       'toll.barrierFree': 'laisvo srauto mokestis be užtvarų (automatinis apmokestinimas kamera)',
       'toll.barrierClassic': 'klasikinis mokestis su užtvaru',
@@ -15049,7 +15104,7 @@
 
       'again.button': 'Ištraukti kitą tikslą',
 
-      'footer.text': "Kursas į nežinią — žaismingas generatorius, jokie duomenys niekur nesiunčiami. Gyvenvietės: IGN / geo.api.gouv.fr (Etalab) Prancūzijai, GeoNames (CC-BY licencija) Andorai, Ispanijai, Portugalijai, Belgijai, Nyderlandams, Liuksemburgui, Šveicarijai, Vokietijai, Italijai, Austrijai, San Marinui, Lichtenšteinui, Monakui, Maltai, Gernsiui, Džersiui, Čekijai, Lenkijai, Slovakijai, Vengrijai, Slovėnijai, Kroatijai, Bosnijai ir Hercegovinai, Jungtinei Karalystei, Airijai, Meno salai, Danijai, Norvegijai, Švedijai, Suomijai, Alandų saloms, Juodkalnijai, Albanijai, Kosovui, Serbijai, Šiaurės Makedonijai, Graikijai, Bulgarijai, Rumunijai, Latvijai, Lietuvai ir Estijai. Lankytinos vietos ir žemėlapio pagrindas: © OpenStreetMap bendruomenė (ODbL licencija). Kelių mokesčiai: VINCI Autoroutes (Prancūzija), Autopistas (Ispanija), Via Verde/Ascendi (Portugalija), Autostrade per l'Italia (Italija), HAC (Kroatija), Autoceste FBiH/Autoputevi RS (Bosnija ir Hercegovina), Putevi Srbije (Serbija), JP za državni patišta (Šiaurės Makedonija), Olympia Odos/Egnatia Odos (Graikija) — nemokami greitkeliai Belgijoje, Andoroje, Nyderlanduose, Liuksemburge, Vokietijoje, San Marine, Lichtenšteine, Monake, Maltoje, Lenkijoje (išskyrus tris koncesines atkarpas), Jungtinėje Karalystėje, Airijoje, Meno saloje, Danijoje, Norvegijoje, Švedijoje, Suomijoje, Alandų salose, Juodkalnijoje, Albanijoje ir Kosove, taip pat Latvijoje, Lietuvoje ir Estijoje; metinė vinjetė Šveicarijoje, Austrijoje, Čekijoje, Slovakijoje, Vengrijoje, Slovėnijoje, Bulgarijoje ir Rumunijoje (be kelių mokesčio už kelionę) — nei kelių mokesčio, nei vinjetės Gernsyje ir Džersyje.",
+      'footer.text': "Kursas į nežinią — žaismingas generatorius, jokie duomenys niekur nesiunčiami. Gyvenvietės: IGN / geo.api.gouv.fr (Etalab) Prancūzijai, GeoNames (CC-BY licencija) Andorai, Ispanijai, Portugalijai, Belgijai, Nyderlandams, Liuksemburgui, Šveicarijai, Vokietijai, Italijai, Austrijai, San Marinui, Lichtenšteinui, Monakui, Maltai, Gernsiui, Džersiui, Čekijai, Lenkijai, Slovakijai, Vengrijai, Slovėnijai, Kroatijai, Bosnijai ir Hercegovinai, Jungtinei Karalystei, Airijai, Meno salai, Danijai, Norvegijai, Švedijai, Suomijai, Alandų saloms, Juodkalnijai, Albanijai, Kosovui, Serbijai, Šiaurės Makedonijai, Graikijai, Bulgarijai, Rumunijai, Latvijai, Lietuvai, Estijai, Vatikanui, Islandijai ir Farerų saloms. Lankytinos vietos ir žemėlapio pagrindas: © OpenStreetMap bendruomenė (ODbL licencija). Kelių mokesčiai: VINCI Autoroutes (Prancūzija), Autopistas (Ispanija), Via Verde/Ascendi (Portugalija), Autostrade per l'Italia (Italija), HAC (Kroatija), Autoceste FBiH/Autoputevi RS (Bosnija ir Hercegovina), Putevi Srbije (Serbija), JP za državni patišta (Šiaurės Makedonija), Olympia Odos/Egnatia Odos (Graikija) — nemokami greitkeliai Belgijoje, Andoroje, Nyderlanduose, Liuksemburge, Vokietijoje, San Marine, Lichtenšteine, Monake, Maltoje, Lenkijoje (išskyrus tris koncesines atkarpas), Jungtinėje Karalystėje, Airijoje, Meno saloje, Danijoje, Norvegijoje, Švedijoje, Suomijoje, Alandų salose, Juodkalnijoje, Albanijoje ir Kosove, taip pat Latvijoje, Lietuvoje, Estijoje, Vatikane, Islandijoje ir Farerų salose; metinė vinjetė Šveicarijoje, Austrijoje, Čekijoje, Slovakijoje, Vengrijoje, Slovėnijoje, Bulgarijoje ir Rumunijoje (be kelių mokesčio už kelionę) — nei kelių mokesčio, nei vinjetės Gernsyje ir Džersyje.",
       'footer.legalMentions': 'Teisinė informacija',
       'footer.privacyPolicy': 'Privatumo politika',
       'footer.translationDisclaimer': "Sąsaja išversta į daugybę kalbų ir gali turėti klaidų — nedvejodami praneškite apie jas adresu contact@lume419.fr.",
@@ -15248,6 +15303,7 @@
       'ferry.route.skopelos': 'Manner ↔ Skópelos',
       'ferry.route.alonissos': 'Manner ↔ Alónnisos',
       'ferry.route.skyros': 'Manner ↔ Skýros',
+      'ferry.route.suduroy': 'Manner ↔ Suðuroy',
       'toll.label': 'Teemaks (ASF 2026 hinnakiri)',
       'toll.barrierFree': 'vaba liiklusega teemaks ilma tõketeta (automaatne kaameramaks)',
       'toll.barrierClassic': 'klassikaline teemaks tõkkepuuga',
@@ -15323,7 +15379,7 @@
 
       'again.button': 'Loosi teine sihtkoht',
 
-      'footer.text': "Suund tundmatusse — mänguline generaator, mitte kunagi ei saadeta ühtki andmet kuhugi. Omavalitsused: IGN / geo.api.gouv.fr (Etalab) Prantsusmaa jaoks, GeoNames (CC-BY litsents) Andorra, Hispaania, Portugali, Belgia, Madalmaade, Luksemburgi, Šveitsi, Saksamaa, Itaalia, Austria, San Marino, Liechtensteini, Monaco, Malta, Guernsey, Jersey, Tšehhi, Poola, Slovakkia, Ungari, Sloveenia, Horvaatia, Bosnia ja Hertsegoviina, Ühendkuningriigi, Iirimaa, Mani saare, Taani, Norra, Rootsi, Soome, Ahvenamaa, Montenegro, Albaania, Kosovo, Serbia, Põhja-Makedoonia, Kreeka, Bulgaaria ja Rumeenia jaoks. Vaatamisväärsused ja kaardialus: © OpenStreetMapi kaasautorid (ODbL litsents). Teemaksud: VINCI Autoroutes (Prantsusmaa), Autopistas (Hispaania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itaalia), HAC (Horvaatia), Autoceste FBiH/Autoputevi RS (Bosnia ja Hertsegoviina), Putevi Srbije (Serbia), JP za državni patišta (Põhja-Makedoonia), Olympia Odos/Egnatia Odos (Kreeka) — tasuta kiirteed Belgias, Andorras, Madalmaades, Luksemburgis, Saksamaal, San Marinos, Liechtensteinis, Monacos, Maltal, Poolas (välja arvatud kolm kontsessioonilõiku), Ühendkuningriigis, Iirimaal, Mani saarel, Taanis, Norras, Rootsis, Soomes, Ahvenamaal, Montenegros, Albaanias ja Kosovos, samuti Lätis, Leedus ja Eestis; iga-aastane vinjett Šveitsis, Austrias, Tšehhis, Slovakkias, Ungaris, Sloveenias, Bulgaarias ja Rumeenias (teemaksuta sõit) — ei teemaksu ega vinjetti Guernseyl ega Jerseyl.",
+      'footer.text': "Suund tundmatusse — mänguline generaator, mitte kunagi ei saadeta ühtki andmet kuhugi. Omavalitsused: IGN / geo.api.gouv.fr (Etalab) Prantsusmaa jaoks, GeoNames (CC-BY litsents) Andorra, Hispaania, Portugali, Belgia, Madalmaade, Luksemburgi, Šveitsi, Saksamaa, Itaalia, Austria, San Marino, Liechtensteini, Monaco, Malta, Guernsey, Jersey, Tšehhi, Poola, Slovakkia, Ungari, Sloveenia, Horvaatia, Bosnia ja Hertsegoviina, Ühendkuningriigi, Iirimaa, Mani saare, Taani, Norra, Rootsi, Soome, Ahvenamaa, Montenegro, Albaania, Kosovo, Serbia, Põhja-Makedoonia, Kreeka, Bulgaaria, Rumeenia, Läti, Leedu, Eesti, Vatikani, Islandi ja Fääri saarte jaoks. Vaatamisväärsused ja kaardialus: © OpenStreetMapi kaasautorid (ODbL litsents). Teemaksud: VINCI Autoroutes (Prantsusmaa), Autopistas (Hispaania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itaalia), HAC (Horvaatia), Autoceste FBiH/Autoputevi RS (Bosnia ja Hertsegoviina), Putevi Srbije (Serbia), JP za državni patišta (Põhja-Makedoonia), Olympia Odos/Egnatia Odos (Kreeka) — tasuta kiirteed Belgias, Andorras, Madalmaades, Luksemburgis, Saksamaal, San Marinos, Liechtensteinis, Monacos, Maltal, Poolas (välja arvatud kolm kontsessioonilõiku), Ühendkuningriigis, Iirimaal, Mani saarel, Taanis, Norras, Rootsis, Soomes, Ahvenamaal, Montenegros, Albaanias ja Kosovos, samuti Lätis, Leedus, Eestis, Vatikanis, Islandil ja Fääri saartel; iga-aastane vinjett Šveitsis, Austrias, Tšehhis, Slovakkias, Ungaris, Sloveenias, Bulgaarias ja Rumeenias (teemaksuta sõit) — ei teemaksu ega vinjetti Guernseyl ega Jerseyl.",
       'footer.legalMentions': 'Juriidiline teave',
       'footer.privacyPolicy': 'Privaatsuspoliitika',
       'footer.translationDisclaimer': "Liides on tõlgitud paljudesse keeltesse ja võib sisaldada vigu — ärge kartke neist teatada aadressil contact@lume419.fr.",
@@ -15525,6 +15581,7 @@
       'ferry.route.skopelos': 'Kontinents ↔ Skópelos',
       'ferry.route.alonissos': 'Kontinents ↔ Alónnisos',
       'ferry.route.skyros': 'Kontinents ↔ Skýros',
+      'ferry.route.suduroy': 'Kontinents ↔ Suðuroy',
       'toll.label': 'Ceļa nodeva (ASF 2026 tarifi)',
       'toll.barrierFree': 'brīvās plūsmas nodeva bez barjerām (automātiska norēķināšanās ar kameru)',
       'toll.barrierClassic': 'klasiskā nodeva ar barjeru',
@@ -15600,7 +15657,7 @@
 
       'again.button': 'Izlozēt citu galamērķi',
 
-      'footer.text': "Kurss uz nezināmo — jautrs ģenerators, nekādi dati netiek nekur sūtīti. Pašvaldības: IGN / geo.api.gouv.fr (Etalab) Francijai, GeoNames (CC-BY licence) Andorai, Spānijai, Portugālei, Beļģijai, Nīderlandei, Luksemburgai, Šveicei, Vācijai, Itālijai, Austrijai, Sanmarīno, Lihtenšteinai, Monako, Maltai, Gērnsijai, Džērsijai, Čehijai, Polijai, Slovākijai, Ungārijai, Slovēnijai, Horvātijai, Bosnijai i Hercegovinai, Apvienotajai Karalistei, Īrijai, Menas salai, Dānijai, Norvēģijai, Zviedrijai, Somijai, Olandes salām, Melnkalnei, Albānijai, Kosovai, Serbijai, Ziemeļmaķedonijai, Grieķijai, Bulgārijai, Rumānijai, Latvijai, Lietuvai i Igaunijai. Apskates vietas i kartes pamatne: © OpenStreetMap dalībnieki (ODbL licence). Ceļa nodevas: VINCI Autoroutes (Francija), Autopistas (Spānija), Via Verde/Ascendi (Portugāle), Autostrade per l'Italia (Itālija), HAC (Horvātija), Autoceste FBiH/Autoputevi RS (Bosnija i Hercegovina), Putevi Srbije (Serbija), JP za državni patišta (Ziemeļmaķedonija), Olympia Odos/Egnatia Odos (Grieķija) — bezmaksas automaģistrāles Beļģijā, Andorā, Nīderlandē, Luksemburgā, Vācijā, Sanmarīno, Lihtenšteinā, Monako, Maltā, Polijā (izņemot trīs koncesijas posmus), Apvienotajā Karalistē, Īrijā, Menas salā, Dānijā, Norvēģijā, Zviedrijā, Somijā, Olandes salās, Melnkalnē, Albānijā i Kosovā, kā arī Latvijā, Lietuvā i Igaunijā; ikgadēja vinjete Šveicē, Austrijā, Čehijā, Slovākijā, Ungārijā, Slovēnijā, Bulgārijā i Rumānijā (bez ceļa nodevas par braucienu) — ne ceļa nodevas, ne vinjetes Gērnsijā i Džērsijā.",
+      'footer.text': "Kurss uz nezināmo — jautrs ģenerators, nekādi dati netiek nekur sūtīti. Pašvaldības: IGN / geo.api.gouv.fr (Etalab) Francijai, GeoNames (CC-BY licence) Andorai, Spānijai, Portugālei, Beļģijai, Nīderlandei, Luksemburgai, Šveicei, Vācijai, Itālijai, Austrijai, Sanmarīno, Lihtenšteinai, Monako, Maltai, Gērnsijai, Džērsijai, Čehijai, Polijai, Slovākijai, Ungārijai, Slovēnijai, Horvātijai, Bosnijai i Hercegovinai, Apvienotajai Karalistei, Īrijai, Menas salai, Dānijai, Norvēģijai, Zviedrijai, Somijai, Olandes salām, Melnkalnei, Albānijai, Kosovai, Serbijai, Ziemeļmaķedonijai, Grieķijai, Bulgārijai, Rumānijai, Latvijai, Lietuvai, Igaunijai, Vatikānam, Islandei i Fēru salām. Apskates vietas i kartes pamatne: © OpenStreetMap dalībnieki (ODbL licence). Ceļa nodevas: VINCI Autoroutes (Francija), Autopistas (Spānija), Via Verde/Ascendi (Portugāle), Autostrade per l'Italia (Itālija), HAC (Horvātija), Autoceste FBiH/Autoputevi RS (Bosnija i Hercegovina), Putevi Srbije (Serbija), JP za državni patišta (Ziemeļmaķedonija), Olympia Odos/Egnatia Odos (Grieķija) — bezmaksas automaģistrāles Beļģijā, Andorā, Nīderlandē, Luksemburgā, Vācijā, Sanmarīno, Lihtenšteinā, Monako, Maltā, Polijā (izņemot trīs koncesijas posmus), Apvienotajā Karalistē, Īrijā, Menas salā, Dānijā, Norvēģijā, Zviedrijā, Somijā, Olandes salās, Melnkalnē, Albānijā i Kosovā, kā arī Latvijā, Lietuvā, Igaunijā, Vatikānā, Islandē i Fēru salās; ikgadēja vinjete Šveicē, Austrijā, Čehijā, Slovākijā, Ungārijā, Slovēnijā, Bulgārijā i Rumānijā (bez ceļa nodevas par braucienu) — ne ceļa nodevas, ne vinjetes Gērnsijā i Džērsijā.",
       'footer.legalMentions': 'Juridiskā informācija',
       'footer.privacyPolicy': 'Konfidencialitātes politika',
       'footer.translationDisclaimer': "Saskarne ir tulkota daudzās valodās i var saturēt kļūdas — nevilcinieties tās ziņot uz contact@lume419.fr.",
@@ -15802,6 +15859,7 @@
       'ferry.route.skopelos': 'Manner ↔ Skópelos',
       'ferry.route.alonissos': 'Manner ↔ Alónnisos',
       'ferry.route.skyros': 'Manner ↔ Skýros',
+      'ferry.route.suduroy': 'Manner ↔ Suðuroy',
       'toll.label': 'Teemaks (ASF 2026 hinnakiri)',
       'toll.barrierFree': 'vaba liiklusega teemaks ilma tõketeta (automaatne kaameramaks)',
       'toll.barrierClassic': 'klassikaline teemaks tõkkepuuga',
@@ -15877,7 +15935,7 @@
 
       'again.button': 'Loosi teine sihtkoht',
 
-      'footer.text': "Suund tundmatusse — mänguline generaator, mitte kunagi ei saadeta ühtki andmet kuhugi. Omavalitsused: IGN / geo.api.gouv.fr (Etalab) Prantsusmaa jaoks, GeoNames (CC-BY litsents) Andorra, Hispaania, Portugali, Belgia, Madalmaade, Luksemburgi, Šveitsi, Saksamaa, Itaalia, Austria, San Marino, Liechtensteini, Monaco, Malta, Guernsey, Jersey, Tšehhi, Poola, Slovakkia, Ungari, Sloveenia, Horvaatia, Bosnia ja Hertsegoviina, Ühendkuningriigi, Iirimaa, Mani saare, Taani, Norra, Rootsi, Soome, Ahvenamaa, Montenegro, Albaania, Kosovo, Serbia, Põhja-Makedoonia, Kreeka, Bulgaaria ja Rumeenia jaoks. Vaatamisväärsused ja kaardialus: © OpenStreetMapi kaasautorid (ODbL litsents). Teemaksud: VINCI Autoroutes (Prantsusmaa), Autopistas (Hispaania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itaalia), HAC (Horvaatia), Autoceste FBiH/Autoputevi RS (Bosnia ja Hertsegoviina), Putevi Srbije (Serbia), JP za državni patišta (Põhja-Makedoonia), Olympia Odos/Egnatia Odos (Kreeka) — tasuta kiirteed Belgias, Andorras, Madalmaades, Luksemburgis, Saksamaal, San Marinos, Liechtensteinis, Monacos, Maltal, Poolas (välja arvatud kolm kontsessioonilõiku), Ühendkuningriigis, Iirimaal, Mani saarel, Taanis, Norras, Rootsis, Soomes, Ahvenamaal, Montenegros, Albaanias ja Kosovos, samuti Lätis, Leedus ja Eestis; iga-aastane vinjett Šveitsis, Austrias, Tšehhis, Slovakkias, Ungaris, Sloveenias, Bulgaarias ja Rumeenias (teemaksuta sõit) — ei teemaksu ega vinjetti Guernseyl ega Jerseyl.",
+      'footer.text': "Suund tundmatusse — mänguline generaator, mitte kunagi ei saadeta ühtki andmet kuhugi. Omavalitsused: IGN / geo.api.gouv.fr (Etalab) Prantsusmaa jaoks, GeoNames (CC-BY litsents) Andorra, Hispaania, Portugali, Belgia, Madalmaade, Luksemburgi, Šveitsi, Saksamaa, Itaalia, Austria, San Marino, Liechtensteini, Monaco, Malta, Guernsey, Jersey, Tšehhi, Poola, Slovakkia, Ungari, Sloveenia, Horvaatia, Bosnia ja Hertsegoviina, Ühendkuningriigi, Iirimaa, Mani saare, Taani, Norra, Rootsi, Soome, Ahvenamaa, Montenegro, Albaania, Kosovo, Serbia, Põhja-Makedoonia, Kreeka, Bulgaaria, Rumeenia, Läti, Leedu, Eesti, Vatikani, Islandi ja Fääri saarte jaoks. Vaatamisväärsused ja kaardialus: © OpenStreetMapi kaasautorid (ODbL litsents). Teemaksud: VINCI Autoroutes (Prantsusmaa), Autopistas (Hispaania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Itaalia), HAC (Horvaatia), Autoceste FBiH/Autoputevi RS (Bosnia ja Hertsegoviina), Putevi Srbije (Serbia), JP za državni patišta (Põhja-Makedoonia), Olympia Odos/Egnatia Odos (Kreeka) — tasuta kiirteed Belgias, Andorras, Madalmaades, Luksemburgis, Saksamaal, San Marinos, Liechtensteinis, Monacos, Maltal, Poolas (välja arvatud kolm kontsessioonilõiku), Ühendkuningriigis, Iirimaal, Mani saarel, Taanis, Norras, Rootsis, Soomes, Ahvenamaal, Montenegros, Albaanias ja Kosovos, samuti Lätis, Leedus, Eestis, Vatikanis, Islandil ja Fääri saartel; iga-aastane vinjett Šveitsis, Austrias, Tšehhis, Slovakkias, Ungaris, Sloveenias, Bulgaarias ja Rumeenias (teemaksuta sõit) — ei teemaksu ega vinjetti Guernseyl ega Jerseyl.",
       'footer.legalMentions': 'Juriidiline teave',
       'footer.privacyPolicy': 'Privaatsuspoliitika',
       'footer.translationDisclaimer': "Liides on tõlgitud paljudesse kiiltehe ja võib sisaldada vigu — ärge kartke neist teatada aadressil contact@lume419.fr.",
@@ -16080,6 +16138,7 @@
       'ferry.route.skopelos': 'Žemynas ↔ Skópelos',
       'ferry.route.alonissos': 'Žemynas ↔ Alónnisos',
       'ferry.route.skyros': 'Žemynas ↔ Skýros',
+      'ferry.route.suduroy': 'Žemynas ↔ Suðuroy',
       'toll.label': 'Kelių mokestis (ASF 2026 tarifai)',
       'toll.barrierFree': 'laisvo srauto mokestis be užtvarų (automatinis apmokestinimas kamera)',
       'toll.barrierClassic': 'klasikinis mokestis su užtvaru',
@@ -16155,7 +16214,7 @@
 
       'again.button': 'Ištraukti kitą tikslą',
 
-      'footer.text': "Kursas į nežinią — žaismingas generatorius, jokie duomenys niekur nesiunčiami. Gyvenvietės: IGN / geo.api.gouv.fr (Etalab) Prancūzijai, GeoNames (CC-BY licencija) Andorai, Ispanijai, Portugalijai, Belgijai, Nyderlandams, Liuksemburgui, Šveicarijai, Vokietijai, Italijai, Austrijai, San Marinui, Lichtenšteinui, Monakui, Maltai, Gernsiui, Džersiui, Čekijai, Lenkijai, Slovakijai, Vengrijai, Slovėnijai, Kroatijai, Bosnijai ir Hercegovinai, Jungtinei Karalystei, Airijai, Meno salai, Danijai, Norvegijai, Švedijai, Suomijai, Alandų saloms, Juodkalnijai, Albanijai, Kosovui, Serbijai, Šiaurės Makedonijai, Graikijai, Bulgarijai, Rumunijai, Latvijai, Lietuvai ir Estijai. Lankytinos vietos ir žemėlapio pagrindas: © OpenStreetMap bendruomenė (ODbL licencija). Kelių mokesčiai: VINCI Autoroutes (Prancūzija), Autopistas (Ispanija), Via Verde/Ascendi (Portugalija), Autostrade per l'Italia (Italija), HAC (Kroatija), Autoceste FBiH/Autoputevi RS (Bosnija ir Hercegovina), Putevi Srbije (Serbija), JP za državni patišta (Šiaurės Makedonija), Olympia Odos/Egnatia Odos (Graikija) — nemokami greitkeliai Belgijoje, Andoroje, Nyderlanduose, Liuksemburge, Vokietijoje, San Marine, Lichtenšteine, Monake, Maltoje, Lenkijoje (išskyrus tris koncesines atkarpas), Jungtinėje Karalystėje, Airijoje, Meno saloje, Danijoje, Norvegijoje, Švedijoje, Suomijoje, Alandų salose, Juodkalnijoje, Albanijoje ir Kosove, taip pat Latvijoje, Lietuvoje ir Estijoje; metinė vinjetė Šveicarijoje, Austrijoje, Čekijoje, Slovakijoje, Vengrijoje, Slovėnijoje, Bulgarijoje ir Rumunijoje (be kelių mokesčio už kelionę) — nei kelių mokesčio, nei vinjetės Gernsyje ir Džersyje.",
+      'footer.text': "Kursas į nežinią — žaismingas generatorius, jokie duomenys niekur nesiunčiami. Gyvenvietės: IGN / geo.api.gouv.fr (Etalab) Prancūzijai, GeoNames (CC-BY licencija) Andorai, Ispanijai, Portugalijai, Belgijai, Nyderlandams, Liuksemburgui, Šveicarijai, Vokietijai, Italijai, Austrijai, San Marinui, Lichtenšteinui, Monakui, Maltai, Gernsiui, Džersiui, Čekijai, Lenkijai, Slovakijai, Vengrijai, Slovėnijai, Kroatijai, Bosnijai ir Hercegovinai, Jungtinei Karalystei, Airijai, Meno salai, Danijai, Norvegijai, Švedijai, Suomijai, Alandų saloms, Juodkalnijai, Albanijai, Kosovui, Serbijai, Šiaurės Makedonijai, Graikijai, Bulgarijai, Rumunijai, Latvijai, Lietuvai, Estijai, Vatikanui, Islandijai ir Farerų saloms. Lankytinos vietos ir žemėlapio pagrindas: © OpenStreetMap bendruomenė (ODbL licencija). Kelių mokesčiai: VINCI Autoroutes (Prancūzija), Autopistas (Ispanija), Via Verde/Ascendi (Portugalija), Autostrade per l'Italia (Italija), HAC (Kroatija), Autoceste FBiH/Autoputevi RS (Bosnija ir Hercegovina), Putevi Srbije (Serbija), JP za državni patišta (Šiaurės Makedonija), Olympia Odos/Egnatia Odos (Graikija) — nemokami greitkeliai Belgijoje, Andoroje, Nyderlanduose, Liuksemburge, Vokietijoje, San Marine, Lichtenšteine, Monake, Maltoje, Lenkijoje (išskyrus tris koncesines atkarpas), Jungtinėje Karalystėje, Airijoje, Meno saloje, Danijoje, Norvegijoje, Švedijoje, Suomijoje, Alandų salose, Juodkalnijoje, Albanijoje ir Kosove, taip pat Latvijoje, Lietuvoje, Estijoje, Vatikane, Islandijoje ir Farerų salose; metinė vinjetė Šveicarijoje, Austrijoje, Čekijoje, Slovakijoje, Vengrijoje, Slovėnijoje, Bulgarijoje ir Rumunijoje (be kelių mokesčio už kelionę) — nei kelių mokesčio, nei vinjetės Gernsyje ir Džersyje.",
       'footer.legalMentions': 'Teisinė informacija',
       'footer.privacyPolicy': 'Privatumo politika',
       'footer.translationDisclaimer': "Sąsaja išversta į daugybę kalbų ir gali turėti klaidų — nedvejodami praneškite apie jas adresu contact@lume419.fr.",
@@ -16173,6 +16232,554 @@
       'transport.van.label': 'mikroautobusas',
       'transport.moto.label': 'motociklas',
       'transport.velo.label': 'dviratis'
+    },
+    // "is" (íslenska, ISO 639-1) : þjóðtunga Íslands, bætt við ásamt landinu sjálfu. Engin
+    // svæðisbundin/minnihlutatunga bætt við sérstaklega — Ísland er einsleitt hvað tungumál varðar,
+    // engin viðurkennd svæðistunga með lagalega vernd sambærilega við latgalísku í Lettlandi eða
+    // samógítísku í Litáen.
+    is: {
+      'lang.buttonLabel': 'Tungumál',
+      'lang.searchPlaceholder': 'Leita að tungumáli…',
+      'lang.searchNoResults': 'Ekkert tungumál fannst.',
+      'currency.buttonLabel': 'Gjaldmiðill',
+      'currency.auto': 'Sjálfvirkt (eftir landi)',
+
+      'hero.eyebrow': 'Gjörvi fyrir dularfulla vegaferð',
+      'hero.title': 'Á vit hins óþekkta',
+      'hero.subtitle': 'næsta ævintýrið þitt á sér ekki nafn enn',
+      'hero.lede': 'Gefðu upp brottfararstað og takmarkanir þínar. Vélin dregur út raunverulega leið dag fyrir dag — allt að {maxDays} dögum og {maxStops} borgum.',
+      'hero.disclaimer': 'Sveitarfélög, vegalengdir, vegatollar og áhugaverðir staðir byggja á opinberum gögnum (IGN/GeoNames, verðskrám hraðbrautafyrirtækja, OpenStreetMap). Ferðatími og verð eru áætluð — athugaðu alltaf raunverulega leið og framboð gistingar fyrir brottför.',
+
+      'form.heading': 'Ferðaáætlun',
+      'form.clockPlaceholder': '— á eftir að fylla út —',
+      'form.city.label': 'Brottfararborg',
+      'form.city.loadingPlaceholder': 'Hleð inn sveitarfélögum…',
+      'form.city.placeholder': 'T.d. {name} eða {cp}',
+      'form.city.error.required': 'Vinsamlegast tilgreindu brottfararborg.',
+      'form.city.error.selectFromList': 'Veldu sveitarfélag af fellilistanum (leit eftir nafni eða póstnúmeri).',
+      'form.dates.label': 'Dagsetningar dvalar',
+      'form.dates.arrivalAria': 'Komudagur',
+      'form.dates.returnAria': 'Heimferðardagur',
+      'form.dates.error': 'Heimferðardagur verður að vera sami dagur eða síðar en komudagur.',
+      'form.dates.oneDay': '1 dagur (fram og til baka, engin gisting)',
+      'form.dates.duration1': '{days} dagar (1 nótt)',
+      'form.dates.durationN': '{days} dagar ({nights} nætur)',
+      'form.dates.maxSuffix': ' — hámark {max} dagar',
+      'form.dates.placeholder': '—',
+      'form.budget.label': 'Heildarfjárhagsáætlun',
+      'form.budget.economique': 'Ódýrt',
+      'form.budget.moyen': 'Miðlungs',
+      'form.budget.confortable': 'Þægilegt',
+      'form.budget.hint': 'Allt að {max} {currency} / nótt (til viðmiðunar, 2 fullorðnir) — notað til að forfylla Airbnb/Booking leitir.',
+      'form.transport.label': 'Ferðamáti',
+      'form.transport.voitureThermique': 'Bíll (bensín/dísil)',
+      'form.transport.voitureHybride': 'Tvinnbíll',
+      'form.transport.voitureElectrique': 'Rafbíll',
+      'form.transport.van': 'Innréttaður sendibíll',
+      'form.transport.moto': 'Vélhjól',
+      'form.transport.velo': 'Reiðhjól / hjólaferðalag',
+      'form.toll.label': 'Leyfa gjaldskylda hraðbrautir',
+      'form.ferry.label': 'Leyfa ferjusiglingar (eyjar)',
+      'form.ferry.hint': 'Merkt: útdrátturinn getur innihaldið Korsíku, Baleareyjar, Kanaríeyjar eða Waddeneyjar, tengdar með raunverulegri ferjuleið (aldrei flugvél).',
+      'form.tent.label': 'Forðast útilegu og tjaldgistingu',
+      'form.tent.hint': 'Merkt: gisting undir berum himni í ódýrri fjárhagsáætlun er skipt út fyrir kofa/tjaldbúð/gistiheimili.',
+      'form.radius.label': 'Radíustakmörkun',
+      'form.radius.modeKm': 'Hámarksfjarlægð (km)',
+      'form.radius.modeH': 'Hámarks heimferðartími (klst)',
+      'form.radius.groupAria': 'Tegund takmörkunar',
+      'form.radius.decAria': 'Minnka',
+      'form.radius.incAria': 'Auka',
+      'form.radius.unitKm': 'km umhverfis brottfararstað',
+      'form.radius.unitH': 'hámarks heimferðartími',
+      'form.radius.hint': 'Á aðeins við um {strong} (heimferðina)',
+      'form.radius.hintStrong': 'síðasta áfangann',
+      'form.minDistance.label': 'Fjarlægðartakmörkun (valfrjálst)',
+      'form.minDistance.minPlaceholder': 'Ekkert lágmark',
+      'form.minDistance.maxPlaceholder': 'Ekkert hámark',
+      'form.minDistance.unitMin': 'km að lágmarki',
+      'form.minDistance.unitMax': 'km að hámarki',
+      'form.minDistance.hintMin': 'Lágmark: fyrsti áfanginn verður að minnsta kosti í þessari fjarlægð.',
+      'form.minDistance.hintMax': 'Hámark: leiðin mun aldrei fara yfir þessa fjarlægð frá brottfararstað, á neinum tímapunkti dvalarinnar.',
+      'form.launch.button': 'Ræsa slembna ferðagjörva',
+      'form.launch.hint': 'Dularfullur áfangastaður bíður þín.',
+
+      'reveal.drawing': 'Útdráttur í gangi…',
+      'reveal.clueIdle': 'Vegurinn mun bráðum tala.',
+      'reveal.clueSpinning': 'Óþekkt átt…',
+      'reveal.clueFinal': 'Hér er dularfulli brottfararstaðurinn þinn.',
+      'reveal.clueReduced': 'Raunverulegur staður bíður þín.',
+      'reveal.confirmed': 'Útdreginn áfangastaður',
+      'reveal.stamp': 'Staðfestur áfangastaður',
+      'reveal.inhabitants': '{n} íbúar',
+      'reveal.poi1': "1 raunverulegur áhugaverður staður fundinn",
+      'reveal.poiN': "{n} raunverulegir áhugaverðir staðir fundnir",
+
+      'map.title': 'Kort leiðarinnar',
+      'map.note': "OpenStreetMap kortgrunnur. Punktar staðsettir á raunverulegum hnitum sveitarfélaga — línan tengir áfangana í beinni línu, raunveruleg leið hlykkjast meira.",
+      'map.ariaLabel': 'Kort leiðarinnar, OpenStreetMap grunnur',
+      'map.departFallback': 'Brottför',
+      'map.returnLabel': 'heimferð',
+
+      'timeline.title': 'Ferðadagbók',
+      'stats.days': 'dagar',
+      'stats.cities': 'borgir',
+      'stats.nights': 'nætur',
+      'stats.totalKm': 'samtals',
+      'stats.tollEstimated': 'áætlaður vegtollur',
+      'stats.tollAvoided': 'sparaður vegtollur',
+      'stats.ferryTotal': 'ferja',
+
+      'day.single': 'Einn dagur — dularfull ferð fram og til baka',
+      'day.return': 'Heimferð',
+      'day.n': 'Dagur {n}',
+      'day.nReturn': 'Dagur {n} — heimferð',
+      'day.rangeAnd': 'Dagar {a} og {b}',
+      'day.rangeTo': 'Dagar {a} til {b}',
+      'day.routeTime': '~ {time} akstur · {km} km',
+      'day.crossingTime': '~ {time} sigling · {km} km',
+      'day.stepMystery': 'Dularfullur áfangi: {stop}',
+      'day.returnTo': 'Heimferð til {stop}',
+
+      'photo.view': 'Skoða mynd af {name}',
+      'photo.searching': "Leita að raunverulegri mynd…",
+      'photo.real': 'Raunveruleg mynd · © Wikimedia Commons',
+      'photo.none': 'Engin mynd fannst á Wikipedia fyrir þennan stað',
+      'photo.unavailable': "Mynd ekki tiltæk — leita að myndum á netinu",
+      'photo.enlargeAria': 'Stækka mynd af {name}',
+      'photo.closeAria': 'Loka mynd',
+      'wiki.link': 'Wikipedia ↗',
+
+      'ferry.label': 'Ferjusigling',
+      'ferry.text': '{route} — u.þ.b. {amount} € · {duration} sigling.',
+      'ferry.route.corsica': 'Meginland ↔ Korsíka',
+      'ferry.route.balearic': 'Meginland ↔ Baleareyjar',
+      'ferry.route.canary': 'Meginland ↔ Kanaríeyjar',
+      'ferry.route.wadden': 'Meginland ↔ Waddeneyjar',
+      'ferry.route.sardinia': 'Meginland ↔ Sardinía',
+      'ferry.route.sicily': 'Meginland ↔ Sikiley',
+      'ferry.route.malta': 'Sikiley ↔ Malta',
+      'ferry.route.gozo': 'Malta ↔ Gozo',
+      'ferry.route.jersey': 'Meginland ↔ Jersey',
+      'ferry.route.guernsey': 'Meginland ↔ Guernsey',
+      'ferry.route.channelIslands': 'Jersey ↔ Guernsey',
+      'ferry.route.cres': 'Meginland ↔ Cres',
+      'ferry.route.rab': 'Meginland ↔ Rab',
+      'ferry.route.ugljan': 'Meginland ↔ Ugljan',
+      'ferry.route.dugiOtok': 'Meginland ↔ Dugi otok',
+      'ferry.route.brac': 'Meginland ↔ Brač',
+      'ferry.route.solta': 'Meginland ↔ Šolta',
+      'ferry.route.hvar': 'Meginland ↔ Hvar',
+      'ferry.route.vis': 'Meginland ↔ Vis',
+      'ferry.route.korcula': 'Meginland ↔ Korčula',
+      'ferry.route.mljet': 'Meginland ↔ Mljet',
+      'ferry.route.lastovo': 'Meginland ↔ Lastovo',
+      'ferry.route.doverCalais': 'Meginland ↔ Bretland',
+      'ferry.route.holyheadDublin': 'Bretland ↔ Írland',
+      'ferry.route.heyshamDouglas': 'Bretland ↔ Mön',
+      'ferry.route.bornholm': 'Meginland ↔ Bornhólmur',
+      'ferry.route.gotland': 'Meginland ↔ Gotland',
+      'ferry.route.aland': 'Meginland ↔ Álandseyjar',
+      'ferry.route.crete': 'Meginland ↔ Krít',
+      'ferry.route.rhodes': 'Meginland ↔ Ródos',
+      'ferry.route.kos': 'Meginland ↔ Kos',
+      'ferry.route.kalymnos': 'Meginland ↔ Kálymnos',
+      'ferry.route.leros': 'Meginland ↔ Léros',
+      'ferry.route.patmos': 'Meginland ↔ Pátmos',
+      'ferry.route.karpathos': 'Meginland ↔ Kárpathos',
+      'ferry.route.corfu': 'Meginland ↔ Kérkyra',
+      'ferry.route.kefalonia': 'Meginland ↔ Kefalonía',
+      'ferry.route.ithaca': 'Meginland ↔ Itháki',
+      'ferry.route.zakynthos': 'Meginland ↔ Zákynthos',
+      'ferry.route.kythira': 'Meginland ↔ Kýthira',
+      'ferry.route.lesvos': 'Meginland ↔ Lésvos',
+      'ferry.route.chios': 'Meginland ↔ Chíos',
+      'ferry.route.samos': 'Meginland ↔ Sámos',
+      'ferry.route.syros': 'Meginland ↔ Sýros',
+      'ferry.route.tinos': 'Meginland ↔ Tínos',
+      'ferry.route.naxos': 'Meginland ↔ Náxos',
+      'ferry.route.paros': 'Meginland ↔ Páros',
+      'ferry.route.andros': 'Meginland ↔ Ándros',
+      'ferry.route.mykonos': 'Meginland ↔ Mýkonos',
+      'ferry.route.santorini': 'Meginland ↔ Santoríni',
+      'ferry.route.milos': 'Meginland ↔ Mílos',
+      'ferry.route.ios': 'Meginland ↔ Íos',
+      'ferry.route.amorgos': 'Meginland ↔ Amorgós',
+      'ferry.route.aegina': 'Meginland ↔ Aígina',
+      'ferry.route.poros': 'Meginland ↔ Póros',
+      'ferry.route.skiathos': 'Meginland ↔ Skíathos',
+      'ferry.route.skopelos': 'Meginland ↔ Skópelos',
+      'ferry.route.alonissos': 'Meginland ↔ Alónnisos',
+      'ferry.route.skyros': 'Meginland ↔ Skýros',
+      'ferry.route.suduroy': 'Meginland ↔ Suðuroy',
+      'toll.label': 'Vegtollur (ASF 2026 verðskrá)',
+      'toll.barrierFree': 'frjáls flæðistollur án hliðs (sjálfvirk gjaldtaka með myndavél)',
+      'toll.barrierClassic': 'hefðbundinn tollur með hliði',
+      'toll.enabled': 'Áætlaður vegtollur: ~{amount} € ({barrier}) — þú sparar u.þ.b. {min} mín. miðað við leið án tolls.',
+      'toll.disabled': 'Án vegtolls (valkostur ekki merktur): þú hefðir getað sparað u.þ.b. {min} mín. á hraðbraut (~{amount} €, {barrier}).',
+      'vignette.label': 'Hraðbrautarmiði',
+      'vignette.notice': 'Skylda í þessu landi — mundu að panta hann fyrir brottför.',
+      'vignette.link': 'Panta opinberan miða ↗',
+
+      'charge.label': 'Rafhleðsla',
+      'charge.text1': '1 áætluð hleðslupása (~{min} mín. samtals) á hraðhleðslustöð.',
+      'charge.textN': '{n} áætlaðar hleðslupásur (~{min} mín. samtals) á hraðhleðslustöðvum.',
+
+      'activities.choice': 'Mögulegar athafnir — að vali',
+      'activities.day': 'Mögulegar athafnir — dagur {n}',
+      'activities.loadingReal': '— leita að raunverulegum staðbundnum athöfnum…',
+      'activities.loadingHike': "— leita að raunverulegri gönguferð…",
+
+      'poiType.attraction': 'staðbundin forvitni',
+      'poiType.museum': 'safn',
+      'poiType.viewpoint': 'útsýnisstaður',
+      'poiType.castle': 'kastali',
+      'poiType.gallery': 'gallerí',
+      'poiType.zoo': 'dýragarður',
+      'poiType.theme_park': "skemmtigarður",
+      'poiType.monument': 'minnismerki',
+      'poiType.memorial': 'minnisvarði',
+      'poiType.archaeological_site': 'fornleifasvæði',
+      'poiType.cave_entrance': 'hellir',
+      'poiType.ruins': 'rústir',
+      'poiType.fort': 'virki',
+      'poiType.citadel': 'vígi',
+      'poiType.manor': 'herragarður',
+      'poiType.chapel': 'kapella',
+      'poiType.place_of_worship': 'guðshús',
+      'poiType.nature_reserve': 'náttúruvernd',
+      'poiType.peak': 'tindur',
+      'poiType.waterfall': 'foss',
+      'poiType.beach': 'strönd',
+      'poiType.artwork': "listaverk",
+      'poiType.fallback': 'staðbundin forvitni',
+      'poiType.walkFallback': 'gönguferð',
+      'poiType.generic': 'að gera á staðnum',
+
+      'generic.walk': 'Ganga eða gönguferð í nágrenninu',
+      'generic.market': 'Staðbundinn markaður og staðbundnar afurðir (athugaðu daga á staðnum)',
+      'generic.church': "Heimsókn í kirkju eða staðbundna byggingararfleifð",
+      'generic.stroll': 'Rölt um sögulega miðbæinn',
+      'generic.producer': "Uppgötvun staðbundins framleiðanda eða iðnaðarmanns",
+
+      'hike.sourceLabel': 'Heimild: Visorando ↗',
+      'hike.defaultType': 'merkt gönguleið',
+
+      'lodging.find': 'Finna gistingu · {range}',
+      'lodging.airbnb': 'Airbnb ↗',
+      'lodging.booking': 'Booking.com ↗',
+      'lodging.economiqueTent': 'Tjaldsvæði, útilega eða náttúrusvæði (lítil fjárhagsáætlun)',
+      'lodging.economiqueNoTent': 'Farfuglaheimili, einfalt herbergi eða lítið hótel (án útilegu)',
+      'lodging.moyen': "Sveitagisting, gistiheimili eða 2-3★ hótel",
+      'lodging.confortable': 'Sjarmerandi hótel eða hágæða leiga',
+
+      'end.label': 'Verkefni lokið',
+      'end.text': 'Heim komin/n, dularfullri ferð lokið.',
+
+      'export.hint': 'Höfðar þessi ferð til þín? Mundu að hlaða henni niður, hún verður líklega aldrei boðin aftur.',
+      'export.button': 'Flytja þessa leið út sem PDF',
+      'export.generating': 'Bý til PDF…',
+      'export.error': 'Ekki tókst að búa til PDF — reyndu aftur eftir smástund.',
+
+      'pack.title': 'Taska til að undirbúa',
+      'pack.subDefault': "Það nauðsynlegasta fyrir þetta dularfulla verkefni",
+      'pack.sub': 'Fyrir {transport}, fjárhagsáætlun {budget}.',
+
+      'again.button': 'Draga út annan áfangastað',
+
+      'footer.text': "Á vit hins óþekkta — leikandi gjörvi, engin gögn eru nokkurn tímann send neitt. Sveitarfélög: IGN / geo.api.gouv.fr (Etalab) fyrir Frakkland, GeoNames (CC-BY leyfi) fyrir Andorra, Spán, Portúgal, Belgíu, Holland, Lúxemborg, Sviss, Þýskaland, Ítalíu, Austurríki, San Marínó, Liechtenstein, Mónakó, Möltu, Guernsey, Jersey, Tékkland, Pólland, Slóvakíu, Ungverjaland, Slóveníu, Króatíu, Bosníu og Hersegóvínu, Bretland, Írland, Mön, Danmörku, Noreg, Svíþjóð, Finnland, Álandseyjar, Svartfjallaland, Albaníu, Kósóvó, Serbíu, Norður-Makedóníu, Grikkland, Búlgaríu, Rúmeníu, Lettland, Litáen, Eistland, Vatíkanið, Ísland og Færeyjar. Áhugaverðir staðir og kortgrunnur: © OpenStreetMap-þátttakendur (ODbL leyfi). Vegatollar: VINCI Autoroutes (Frakkland), Autopistas (Spánn), Via Verde/Ascendi (Portúgal), Autostrade per l'Italia (Ítalía), HAC (Króatía), Autoceste FBiH/Autoputevi RS (Bosnía og Hersegóvína), Putevi Srbije (Serbía), JP za državni patišta (Norður-Makedónía), Olympia Odos/Egnatia Odos (Grikkland) — gjaldfrjálsar hraðbrautir í Belgíu, Andorra, Hollandi, Lúxemborg, Þýskalandi, San Marínó, Liechtenstein, Mónakó, Möltu, Póllandi (fyrir utan þrjá sérleyfishluta), Bretlandi, Írlandi, Mön, Danmörku, Noregi, Svíþjóð, Finnlandi, Álandseyjum, Svartfjallalandi, Albaníu og Kósóvó, í Lettlandi, Litáen og Eistlandi, sem og á Vatíkaninu, Íslandi og í Færeyjum; árlegur hraðbrautarmiði í Sviss, Austurríki, Tékklandi, Slóvakíu, Ungverjalandi, Slóveníu, Búlgaríu og Rúmeníu (enginn vegtollur á ferð) — hvorki vegtollur né hraðbrautarmiði á Guernsey og Jersey.",
+      'footer.legalMentions': 'Lagalegar upplýsingar',
+      'footer.privacyPolicy': 'Persónuverndarstefna',
+      'footer.translationDisclaimer': "Viðmótið hefur verið þýtt á fjölda tungumála og getur innihaldið villur — hikaðu ekki við að tilkynna þær á contact@lume419.fr.",
+
+      'error.loadData': 'Ekki tókst að hlaða gögnum ({msg}). Athugaðu hvort netþjónninn þjóni möppunni public/data.',
+      'error.routeImpossible': "Ekki tekst að búa til leið frá þessari borg í augnablikinu — reyndu aftur eða stækkaðu radíusinn.",
+      'error.minMaxDistance': 'Lágmarksfjarlægð ({min} km) má ekki vera meiri en hámarksfjarlægð ({max} km).',
+      'error.minDistanceContextDay': '1 dagur og engin nótt',
+      'error.minDistanceContextNight': '1 nótt',
+      'error.minDistanceTooFar': "Ómögulegt: með aðeins {context} er ekki hægt að fjarlægjast um að minnsta kosti {min} km og snúa síðan aftur innan valins radíuss/heimferðartíma ({radius} km). Auktu lengd dvalarinnar, minnkaðu lágmarksfjarlægðina, eða stækkaðu hámarksradíusinn.",
+
+      'transport.voitureThermique.label': 'bíll',
+      'transport.voitureHybride.label': 'tvinnbíll',
+      'transport.voitureElectrique.label': 'rafbíll',
+      'transport.van.label': 'sendibíll',
+      'transport.moto.label': 'vélhjól',
+      'transport.velo.label': 'reiðhjól'
+    },
+    // "fo" (føroyskt/féroïen, ISO 639-1) : langue nationale/co-officielle des îles Féroé, ajoutée
+    // avec le territoire lui-même — co-officielle avec le danois (da, déjà couvert depuis l'ajout
+    // du Danemark) au sein des îles Féroé, en vertu de l'article 3 de la loi d'autonomie féroïenne
+    // de 1948. Aucune langue régionale supplémentaire ajoutée séparément : le féroïen EST déjà,
+    // en lui-même, la langue distincte de ce territoire (pas une variante régionale du danois) —
+    // situation plus proche du Kosovo héritant automatiquement du serbe/de l'albanais que de la
+    // Lettonie/la Lituanie/l'Estonie du passage précédent, chacune dotée en plus de sa propre
+    // langue régionale.
+    fo: {
+      'lang.buttonLabel': 'Mál',
+      'lang.searchPlaceholder': 'Leita eftir máli…',
+      'lang.searchNoResults': 'Ekkert mál funnið.',
+      'currency.buttonLabel': 'Gjaldoyra',
+      'currency.auto': 'Sjálvvirkt (eftir landi)',
+
+      'hero.eyebrow': 'Ferðavélur fyri dularfullar bilferðir',
+      'hero.title': 'Ferð móti tí ókenda',
+      'hero.subtitle': 'næsta ævintýr títt hevur enn ikki navn',
+      'hero.lede': 'Skriva inn avreiðslustað og avmarkingar tínar. Vélin dregur út eina veruliga leið dag fyri dag — upp til {maxDays} dagar og {maxStops} bygdir.',
+      'hero.disclaimer': 'Bygdir, fjarindir, vegatollar og áhugaverdir staðir eru grundaðir á almenn data (IGN/GeoNames, prísalistar hjá mótorvegafeløgum, OpenStreetMap). Ferðartíð og prísir eru metingar — kanna altíð veruligu leiðina og gistingarmøguleikar áðrenn tú fert avstað.',
+
+      'form.heading': 'Ferðaseðil',
+      'form.clockPlaceholder': '— skal útfyllast —',
+      'form.city.label': 'Avreiðslubygd',
+      'form.city.loadingPlaceholder': 'Heinti bygdir…',
+      'form.city.placeholder': 'T.d. {name} ella {cp}',
+      'form.city.error.required': 'Vinarliga skriva inn avreiðslubygd.',
+      'form.city.error.selectFromList': 'Vel eina bygd av niðurfallslistanum (leita eftir navni ella postnummari).',
+      'form.dates.label': 'Dagfestingar fyri uppihaldið',
+      'form.dates.arrivalAria': 'Komudagur',
+      'form.dates.returnAria': 'Heimferðardagur',
+      'form.dates.error': 'Heimferðardagur skal vera sami dagur ella seinni enn komudagur.',
+      'form.dates.oneDay': '1 dagur (fram og til baka, uttan gisting)',
+      'form.dates.duration1': '{days} dagar (1 nátt)',
+      'form.dates.durationN': '{days} dagar ({nights} nætur)',
+      'form.dates.maxSuffix': ' — í mesta lagi {max} dagar',
+      'form.dates.placeholder': '—',
+      'form.budget.label': 'Samlaður fíggjarætlan',
+      'form.budget.economique': 'Sparur',
+      'form.budget.moyen': 'Meðal',
+      'form.budget.confortable': 'Makligur',
+      'form.budget.hint': 'Upp til {max} {currency} / nátt (vegleiðandi, 2 vaksin) — nýtt til at forútfylla Airbnb/Booking leitingar.',
+      'form.transport.label': 'Ferðslumáti',
+      'form.transport.voitureThermique': 'Bilur (bensin/diesel)',
+      'form.transport.voitureHybride': 'Hybridbilur',
+      'form.transport.voitureElectrique': 'Elbilur',
+      'form.transport.van': 'Innrættaður sendibilur',
+      'form.transport.moto': 'Motorhjól',
+      'form.transport.velo': 'Súkkla / hjólaferð',
+      'form.toll.label': 'Loyv gjaldskyldugar mótorvegir',
+      'form.ferry.label': 'Loyv ferjusiglingar (oyggjar)',
+      'form.ferry.hint': 'Merkt: útdrátturin kann fevna um Korsika, Baleariskeyggjarnar, Kanariskeyggjarnar ella Waddeneyggjarnar, sambundnar við eini veruligari ferjuleið (ongantíð flogfar).',
+      'form.tent.label': 'Forðast at liggja úti ella í tjaldi',
+      'form.tent.hint': 'Merkt: gisting undir berum himni í sparari fíggjarætlan verður bytt út við hjalli/tjaldbúð/gistingarheim.',
+      'form.radius.label': 'Radiusavmarking',
+      'form.radius.modeKm': 'Longsta fjarlægd (km)',
+      'form.radius.modeH': 'Longsta heimferðartíð (t)',
+      'form.radius.groupAria': 'Slag av avmarking',
+      'form.radius.decAria': 'Minka',
+      'form.radius.incAria': 'Økja',
+      'form.radius.unitKm': 'km um avreiðslustaðin',
+      'form.radius.unitH': 'longsta heimferðartíð',
+      'form.radius.hint': 'Galdar bert fyri {strong} (heimferðina)',
+      'form.radius.hintStrong': 'seinasta bóli',
+      'form.minDistance.label': 'Burturferðarfjarlægd (valfrítt)',
+      'form.minDistance.minPlaceholder': 'Einki minsta',
+      'form.minDistance.maxPlaceholder': 'Einki mesta',
+      'form.minDistance.unitMin': 'km í minsta lagi',
+      'form.minDistance.unitMax': 'km í mesta lagi',
+      'form.minDistance.hintMin': 'Minst: fyrsta bólið verður í minsta lagi í hesi fjarlægd.',
+      'form.minDistance.hintMax': 'Mest: leiðin fer ongantíð longri enn hesa fjarlægd frá avreiðslustaðnum, á ongum tíðspunkti av uppihaldinum.',
+      'form.launch.button': 'Byrja tilvildarliga ferðavélina',
+      'form.launch.hint': 'Ein dularfullur ferðamál bíðar eftir tær.',
+
+      'reveal.drawing': 'Útdráttur í gongd…',
+      'reveal.clueIdle': 'Vegurin fer bráðum at tosa.',
+      'reveal.clueSpinning': 'Ókend ætt…',
+      'reveal.clueFinal': 'Her er tín dularfulli avreiðslustaður.',
+      'reveal.clueReduced': 'Ein veruligur staður bíðar eftir tær.',
+      'reveal.confirmed': 'Útdreginur ferðamál',
+      'reveal.stamp': 'Staðfestur ferðamál',
+      'reveal.inhabitants': '{n} íbúgvar',
+      'reveal.poi1': "1 verulig áhugavert støð funnið",
+      'reveal.poiN': "{n} verulig áhugaverd støð funnin",
+
+      'map.title': 'Kort yvir leiðina',
+      'map.note': "OpenStreetMap kortgrundarlag. Punktar eru settir á veruligu hnútarnir hjá bygdunum — línjan bindur bólini saman í beinari linju, veruliga leiðin svingar meira.",
+      'map.ariaLabel': 'Kort yvir leiðina, OpenStreetMap grundarlag',
+      'map.departFallback': 'Avreiðsla',
+      'map.returnLabel': 'heimferð',
+
+      'timeline.title': 'Ferðadagbók',
+      'stats.days': 'dagar',
+      'stats.cities': 'bygdir',
+      'stats.nights': 'nætur',
+      'stats.totalKm': 'í alt',
+      'stats.tollEstimated': 'mettur vegatollur',
+      'stats.tollAvoided': 'spardur vegatollur',
+      'stats.ferryTotal': 'ferja',
+
+      'day.single': 'Ein dagur — dularfull ferð fram og til baka',
+      'day.return': 'Heimferð',
+      'day.n': 'Dagur {n}',
+      'day.nReturn': 'Dagur {n} — heimferð',
+      'day.rangeAnd': 'Dagar {a} og {b}',
+      'day.rangeTo': 'Dagar {a} til {b}',
+      'day.routeTime': '~ {time} akstur · {km} km',
+      'day.crossingTime': '~ {time} sigling · {km} km',
+      'day.stepMystery': 'Dularfult bóli: {stop}',
+      'day.returnTo': 'Heimferð til {stop}',
+
+      'photo.view': 'Sí mynd av {name}',
+      'photo.searching': "Leitar eftir eini veruligari mynd…",
+      'photo.real': 'Verulig mynd · © Wikimedia Commons',
+      'photo.none': 'Onga mynd varð funnin á Wikipedia fyri henda staðin',
+      'photo.unavailable': "Mynd ikki tøk — leitar eftir myndum á netinum",
+      'photo.enlargeAria': 'Størri mynd av {name}',
+      'photo.closeAria': 'Lat mynd aftur',
+      'wiki.link': 'Wikipedia ↗',
+
+      'ferry.label': 'Ferjusigling',
+      'ferry.text': '{route} — umleið {amount} € · {duration} sigling.',
+      'ferry.route.corsica': 'Meginland ↔ Korsika',
+      'ferry.route.balearic': 'Meginland ↔ Baleareyggjar',
+      'ferry.route.canary': 'Meginland ↔ Kanarieyggjar',
+      'ferry.route.wadden': 'Meginland ↔ Waddeneyggjar',
+      'ferry.route.sardinia': 'Meginland ↔ Sardinia',
+      'ferry.route.sicily': 'Meginland ↔ Sisilia',
+      'ferry.route.malta': 'Sisilia ↔ Malta',
+      'ferry.route.gozo': 'Malta ↔ Gozo',
+      'ferry.route.jersey': 'Meginland ↔ Jersey',
+      'ferry.route.guernsey': 'Meginland ↔ Guernsey',
+      'ferry.route.channelIslands': 'Jersey ↔ Guernsey',
+      'ferry.route.cres': 'Meginland ↔ Cres',
+      'ferry.route.rab': 'Meginland ↔ Rab',
+      'ferry.route.ugljan': 'Meginland ↔ Ugljan',
+      'ferry.route.dugiOtok': 'Meginland ↔ Dugi otok',
+      'ferry.route.brac': 'Meginland ↔ Brač',
+      'ferry.route.solta': 'Meginland ↔ Šolta',
+      'ferry.route.hvar': 'Meginland ↔ Hvar',
+      'ferry.route.vis': 'Meginland ↔ Vis',
+      'ferry.route.korcula': 'Meginland ↔ Korčula',
+      'ferry.route.mljet': 'Meginland ↔ Mljet',
+      'ferry.route.lastovo': 'Meginland ↔ Lastovo',
+      'ferry.route.doverCalais': 'Meginland ↔ Stórabretland',
+      'ferry.route.holyheadDublin': 'Stórabretland ↔ Írland',
+      'ferry.route.heyshamDouglas': 'Stórabretland ↔ Manneyggj',
+      'ferry.route.bornholm': 'Meginland ↔ Bornholm',
+      'ferry.route.gotland': 'Meginland ↔ Gotland',
+      'ferry.route.aland': 'Meginland ↔ Álandseyggjar',
+      'ferry.route.crete': 'Meginland ↔ Kreta',
+      'ferry.route.rhodes': 'Meginland ↔ Ródos',
+      'ferry.route.kos': 'Meginland ↔ Kos',
+      'ferry.route.kalymnos': 'Meginland ↔ Kálymnos',
+      'ferry.route.leros': 'Meginland ↔ Léros',
+      'ferry.route.patmos': 'Meginland ↔ Pátmos',
+      'ferry.route.karpathos': 'Meginland ↔ Kárpathos',
+      'ferry.route.corfu': 'Meginland ↔ Kérkyra',
+      'ferry.route.kefalonia': 'Meginland ↔ Kefalonía',
+      'ferry.route.ithaca': 'Meginland ↔ Itháki',
+      'ferry.route.zakynthos': 'Meginland ↔ Zákynthos',
+      'ferry.route.kythira': 'Meginland ↔ Kýthira',
+      'ferry.route.lesvos': 'Meginland ↔ Lésvos',
+      'ferry.route.chios': 'Meginland ↔ Chíos',
+      'ferry.route.samos': 'Meginland ↔ Sámos',
+      'ferry.route.syros': 'Meginland ↔ Sýros',
+      'ferry.route.tinos': 'Meginland ↔ Tínos',
+      'ferry.route.naxos': 'Meginland ↔ Náxos',
+      'ferry.route.paros': 'Meginland ↔ Páros',
+      'ferry.route.andros': 'Meginland ↔ Ándros',
+      'ferry.route.mykonos': 'Meginland ↔ Mýkonos',
+      'ferry.route.santorini': 'Meginland ↔ Santoríni',
+      'ferry.route.milos': 'Meginland ↔ Mílos',
+      'ferry.route.ios': 'Meginland ↔ Íos',
+      'ferry.route.amorgos': 'Meginland ↔ Amorgós',
+      'ferry.route.aegina': 'Meginland ↔ Aígina',
+      'ferry.route.poros': 'Meginland ↔ Póros',
+      'ferry.route.skiathos': 'Meginland ↔ Skíathos',
+      'ferry.route.skopelos': 'Meginland ↔ Skópelos',
+      'ferry.route.alonissos': 'Meginland ↔ Alónnisos',
+      'ferry.route.skyros': 'Meginland ↔ Skýros',
+      'ferry.route.suduroy': 'Meginland ↔ Suðuroy',
+      'toll.label': 'Vegatollur (ASF 2026 prísalisti)',
+      'toll.barrierFree': 'fríur streymatollur uttan mastu (sjálvvirkin rokning við kamera)',
+      'toll.barrierClassic': 'vanligur tollur við mastu',
+      'toll.enabled': 'Mettur vegatollur: ~{amount} € ({barrier}) — tú sparir umleið {min} min í mun til eina leið uttan toll.',
+      'toll.disabled': 'Uttan vegatoll (valmøguleiki ikki merktur): tú hevði kunnað sparað umleið {min} min á mótorvegi (~{amount} €, {barrier}).',
+      'vignette.label': 'Mótorvegsmerki',
+      'vignette.notice': 'Skylda í hesum landinum — minst til at heinta tað áðrenn tú fert avstað.',
+      'vignette.link': 'Heinta tað eyðkenda merkið ↗',
+
+      'charge.label': 'Elrafhleðsla',
+      'charge.text1': '1 mett hleðslupausa (~{min} min í alt) við skjóta hleðslustøð.',
+      'charge.textN': '{n} mettar hleðslupausur (~{min} min í alt) við skjótar hleðslustøðir.',
+
+      'activities.choice': 'Møguligar virksemi — at velja millum',
+      'activities.day': 'Møguligar virksemi — dagur {n}',
+      'activities.loadingReal': '— leitar eftir veruligum staðbundnum virkni…',
+      'activities.loadingHike': "— leitar eftir eini veruligari gongutúr…",
+
+      'poiType.attraction': 'staðbundin sjónarverd',
+      'poiType.museum': 'savn',
+      'poiType.viewpoint': 'útsjónarstaður',
+      'poiType.castle': 'borg',
+      'poiType.gallery': 'listasavn',
+      'poiType.zoo': 'djóraheim',
+      'poiType.theme_park': "tívolí",
+      'poiType.monument': 'minnismerki',
+      'poiType.memorial': 'minnisstein',
+      'poiType.archaeological_site': 'fornminnisstøð',
+      'poiType.cave_entrance': 'helli',
+      'poiType.ruins': 'rústir',
+      'poiType.fort': 'virki',
+      'poiType.citadel': 'borgarvirki',
+      'poiType.manor': 'høvuðsgarður',
+      'poiType.chapel': 'kapell',
+      'poiType.place_of_worship': 'gudshús',
+      'poiType.nature_reserve': 'náttúrufriðing',
+      'poiType.peak': 'tindur',
+      'poiType.waterfall': 'foss',
+      'poiType.beach': 'strond',
+      'poiType.artwork': "listaverk",
+      'poiType.fallback': 'staðbundin sjónarverd',
+      'poiType.walkFallback': 'gongutúrur',
+      'poiType.generic': 'at gera á staðnum',
+
+      'generic.walk': 'Gongutúrur ella spásera í grannalagnum',
+      'generic.market': 'Staðbundin marknaður og staðbundnar vørur (kanna dagar á staðnum)',
+      'generic.church': "Vitjan í kirkju ella staðbundnum bygningarørvi",
+      'generic.stroll': 'Spásera í sögufrøðiliga miðbýnum',
+      'generic.producer': "Uppdaging av staðbundnum framleiðara ella handverkara",
+
+      'hike.sourceLabel': 'Heimild: Visorando ↗',
+      'hike.defaultType': 'merkt gongutúrleið',
+
+      'lodging.find': 'Finn gisting · {range}',
+      'lodging.airbnb': 'Airbnb ↗',
+      'lodging.booking': 'Booking.com ↗',
+      'lodging.economiqueTent': 'Tjaldingarpláss, útiliggjing ella náttúrusvæði (lítil fíggjarætlan)',
+      'lodging.economiqueNoTent': 'Vallarheim, einfalt kamar ella lítið hotell (uttan útiliggjing)',
+      'lodging.moyen': "Bóndagarður, gistingarheim ella 2-3★ hotell",
+      'lodging.confortable': 'Sjarmerandi hotell ella hægstflokkað leiga',
+
+      'end.label': 'Uppdrag liðugt',
+      'end.text': 'Heim aftur, dularfull ferð liðug.',
+
+      'export.hint': 'Freistar henda ferðin teg? Minst til at heinta hana niður, hon verður sannlíkt ongantíð aftur boðin.',
+      'export.button': 'Útflyt hesa leiðina sum PDF',
+      'export.generating': 'Skapar PDF…',
+      'export.error': 'Eydnaðist ikki at skapa PDF — royn aftur um eina stund.',
+
+      'pack.title': 'Taska sum skal viðgerast',
+      'pack.subDefault': "Tað neyðuga til hetta dularfulla uppdragið",
+      'pack.sub': 'Til {transport}, fíggjarætlan {budget}.',
+
+      'again.button': 'Drag út ein annan ferðamál',
+
+      'footer.text': "Ferð móti tí ókenda — leikandi vél, eingin data verður nakrantíð sent nakrastaðni. Bygdir: IGN / geo.api.gouv.fr (Etalab) fyri Frakland, GeoNames (CC-BY loyvi) fyri Andorra, Spania, Portugal, Belgia, Niðurlond, Luxemborg, Sveis, Týskland, Italia, Eysturriki, San Marino, Liechtenstein, Monaco, Malta, Guernsey, Jersey, Kekkia, Pólland, Slovakia, Ungarn, Slovenia, Kroatia, Bosnia-Hersegovina, Stórabretland, Írland, Manneyggj, Danmark, Noreg, Svøríki, Finnland, Álandseyggjar, Montenegro, Albania, Kosovo, Serbia, Norður-Makedónia, Grikkaland, Bulgaria, Rumenia, Lettland, Litava og Estland, harumframt Vatikanið, Ísland og Føroyar. Áhugaverd støð og kortgrundarlag: © OpenStreetMap-luttakarar (ODbL loyvi). Vegatollar: VINCI Autoroutes (Frakland), Autopistas (Spania), Via Verde/Ascendi (Portugal), Autostrade per l'Italia (Italia), HAC (Kroatia), Autoceste FBiH/Autoputevi RS (Bosnia-Hersegovina), Putevi Srbije (Serbia), JP za državni patišta (Norður-Makedónia), Olympia Odos/Egnatia Odos (Grikkaland) — fríir mótorvegir í Belgia, Andorra, Niðurlondum, Luxemborg, Týsklandi, San Marino, Liechtenstein, Monaco, Malta, Póllandi (uttan trý loyvisstrekkir), Stórabretlandi, Írlandi, Manneyggj, Danmark, Noregi, Svøríki, Finnlandi, Álandseyggjum, Montenegro, Albania og Kosovo, og somuleiðis í Lettlandi, Litava, Estlandi, á Vatikaninum, á Íslandi og í Føroyum; árligt mótorvegsmerki í Sveis, Eysturriki, Kekkia, Slovakia, Ungarn, Slovenia, Bulgaria og Rumenia (eingin vegatollur fyri ferð) — hvørki vegatollur ella mótorvegsmerki í Guernsey og Jersey.",
+      'footer.legalMentions': 'Løgfrøðilig kunning',
+      'footer.privacyPolicy': 'Privatlívspolitikkur',
+      'footer.translationDisclaimer': "Markamótið er umsett til nógv mál og kann hava villur — ikki ivast við at boða frá teimum til contact@lume419.fr.",
+
+      'error.loadData': 'Eydnaðist ikki at heinta data ({msg}). Kanna um ambætarin veitir mappuna public/data.',
+      'error.routeImpossible': "Eydnast ikki at gera eina leið frá hesi bygd í løtuni — royn aftur ella økja radiusin.",
+      'error.minMaxDistance': 'Minsta fjarlægd ({min} km) kann ikki vera meiri enn mesta fjarlægd ({max} km).',
+      'error.minDistanceContextDay': '1 dagur og onga nátt',
+      'error.minDistanceContextNight': '1 nátt',
+      'error.minDistanceTooFar': "Ómøguligt: við bert {context}, kann man ikki fjarlægjast minst {min} km og so venda aftur innan valdan radius/heimferðartíð ({radius} km). Økja longd uppihaldsins, minka minstu fjarlægdina, ella økja mesta radiusin.",
+
+      'transport.voitureThermique.label': 'bilur',
+      'transport.voitureHybride.label': 'hybridbilur',
+      'transport.voitureElectrique.label': 'elbilur',
+      'transport.van.label': 'sendibilur',
+      'transport.moto.label': 'motorhjól',
+      'transport.velo.label': 'súkkla'
     }
   };
 
@@ -16897,6 +17504,30 @@
       'pack.van': ["Geriamo vandens kanistras", 'Kempingo dujų balionėlis', 'Išlyginimo pleištai'],
       'pack.moto': ['Šalmas ir pirštinės', 'Lietaus kombinezonas ar kelnės', 'Elastinės bagažo juostos'],
       'pack.velo': ['Pilnas skylių taisymo rinkinys', 'Vandeniui atsparūs krepšiai', 'Išorinė baterija GPS']
+    },
+    is: {
+      'pack.base': ['Skyndihjálpartaska', 'Endurnýtanleg vatnsflaska', 'Hleðslutæki og aukarafhlaða', 'Aukalega reiðufé', 'Ferðaspilunarlisti'],
+      'pack.economique': ['Þriggja árstíða svefnpoki', 'Útilegueldunartæki / ílát', 'Ofurlétt tjald (til vara fyrir útilegu)'],
+      'pack.moyen': ['Þjappað snyrtisett', 'Lítill ferðapúði'],
+      'pack.confortable': ['Viðeigandi klæðnaður fyrir kvöldverð á veitingastað', 'Fullt snyrtisett'],
+      'pack.voitureThermique': ['Skráningarskírteini og gilt ökuskírteini', 'Skyndihjálpartaska'],
+      'pack.voitureHybride': ['Skráningarskírteini og gilt ökuskírteini', 'Skyndihjálpartaska'],
+      'pack.voitureElectrique': ['Tegund 2 hleðslusnúra', 'Fjölnets hleðslustöðvaforrit (t.d. Chargemap)', '20% varasjóður af uppgefinni drægni'],
+      'pack.van': ["Brúsi fyrir drykkjarvatn", 'Útilegugaskútur', 'Jöfnunarfleygar'],
+      'pack.moto': ['Hjálmur og hanskar', 'Regngalli eða regnbuxur', 'Teygjanlegar farangursólar'],
+      'pack.velo': ['Fullt sprungubótasett', 'Vatnsheldar töskur', 'Aukarafhlaða fyrir GPS']
+    },
+    fo: {
+      'pack.base': ['Fyrstuhjálparskrín', 'Endurnýtiligur vatnbrúsi', 'Ladari og eyka orkugoymsla', 'Eyka reiðupeningur', 'Ferðaspælilisti'],
+      'pack.economique': ['Trý-árstíðar svøvnpoki', 'Tjaldingareldstøð / ílát', 'Ovurlættur tjaldur (til vara fyri útiliggjing)'],
+      'pack.moyen': ['Sniðgott lítilhýsi-sett', 'Lítil ferðadyna'],
+      'pack.confortable': ['Hóskandi klæði til kvøldmat á matstovu', 'Fullkomið lítilhýsi-sett'],
+      'pack.voitureThermique': ['Skráseting og galdandi koyrikort', 'Fyrstuhjálparskrín'],
+      'pack.voitureHybride': ['Skráseting og galdandi koyrikort', 'Fyrstuhjálparskrín'],
+      'pack.voitureElectrique': ['Slag 2 hleðslusnodda', 'Fleiri-net hleðslustøð appur (t.d. Chargemap)', '20% marginur av upplýsta ferðaflenginum'],
+      'pack.van': ["Drekkivatnbrúsi", 'Tjaldingargasflaska', 'Javnandi flísar'],
+      'pack.moto': ['Hjálmur og hanskar', 'Regnbúnaður ella regnbrøkur', 'Sperrandi farangursbond'],
+      'pack.velo': ['Fult sett til at gera við sprongdum ringum', 'Vatnheldar tøskur', 'Eyka orkugoymsla til GPS']
     }
   };
 

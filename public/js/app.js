@@ -315,7 +315,30 @@
     // pays ici couverts.
     LV: { code:'LV', name:'Lettonie', file:'communes-lv.txt', hasToll:false, aliasFile:'aliases-lv.txt' },
     LT: { code:'LT', name:'Lituanie', file:'communes-lt.txt', hasToll:false, aliasFile:'aliases-lt.txt' },
-    EE: { code:'EE', name:'Estonie', file:'communes-ee.txt', hasToll:false, aliasFile:'aliases-ee.txt' }
+    EE: { code:'EE', name:'Estonie', file:'communes-ee.txt', hasToll:false, aliasFile:'aliases-ee.txt' },
+    // Vatican : cas le plus simple de toute cette table — UNE SEULE commune au monde (le pays tient
+    // entièrement dans son unique code postal, voir "Pays couverts"), `hasToll:false` sans la
+    // moindre exception à modéliser (pas de réseau routier au sens propre), pas de champ `currency`
+    // (accord monétaire avec l'UE, euro comme Saint-Marin/Monaco/le Liechtenstein déjà couverts).
+    VA: { code:'VA', name:'Vatican', file:'communes-va.txt', hasToll:false, aliasFile:'aliases-va.txt' },
+    // Islande : `hasToll:false` — PAS parce que le réseau est entièrement gratuit (deux vrais péages
+    // existent bel et bien, voir TOLL_RATE_BY_COUNTRY plus bas) mais parce que ce sont des ouvrages
+    // ISOLÉS (un tunnel, une section de route), jamais garantis par un trajet aléatoire — même
+    // raisonnement déjà appliqué au Monténégro/à l'Albanie/aux trois sections polonaises concédées/
+    // au M50 irlandais. Devise : ISK (couronne islandaise), hors zone euro ET hors UE (Islande membre
+    // de l'AELE/EEE, pas de l'UE) — cours flottant, ~140,8 ISK pour 1 EUR début septembre 2026
+    // (Banque centrale d'Islande, xe.com).
+    IS: { code:'IS', name:'Islande', file:'communes-is.txt', hasToll:false, aliasFile:'aliases-is.txt', currency:'ISK' },
+    // Îles Féroé : `hasToll:false` là aussi — mais pour une raison différente de l'Islande. Un vrai
+    // réseau de péages existe (quatre tunnels sous-marins à péage fixe par passage : Eysturoyar-,
+    // Sandoyar-, Norðoya- et Vágatunnilin — voir "Ferries" plus bas pour Sandoy, seule île encore
+    // reliée par un vrai ferry), mais ce sont des tarifs FIXES par ouvrage, pas un barème €/km sur
+    // une distance parcourue comme le reste de cette table — même limite déjà assumée pour les ponts
+    // danois (Storebælt/Øresund, jamais modélisés) plutôt que d'inventer un taux artificiel. Devise :
+    // DKK explicitement (la couronne féroïenne n'a pas de code ISO 4217 propre — parité fixe 1:1
+    // avec la couronne danoise, billets danois ayant cours légal), pas de nouveau symbole nécessaire
+    // (CURRENCY_SYMBOL.DKK déjà présent depuis le Danemark).
+    FO: { code:'FO', name:'Îles Féroé', file:'communes-fo.txt', hasToll:false, aliasFile:'aliases-fo.txt', currency:'DKK' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
@@ -324,15 +347,15 @@
   // autres tels quels — la livre sterling se note généralement "£" devant le montant en anglais,
   // mais rester en code ISO ici évite toute ambiguïté avec les livres locales de Guernesey/Jersey
   // (jamais interchangeables avec un simple "£" hors de leurs îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK' };
   // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
   // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
   // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
-  // pour éviter l'ambiguïté GBP/Guernesey-Jersey déjà documentée). Trois devises partagent le même
-  // symbole "kr" (DKK/NOK/SEK, chacune sa propre couronne nationale) : jamais affiché seul dans le
-  // sélecteur, toujours accompagné du code (voir renderCurrencyList/renderCurrencyButton) pour
-  // rester non ambigu malgré le symbole commun.
-  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei' };
+  // pour éviter l'ambiguïté GBP/Guernesey-Jersey déjà documentée). Quatre devises partagent le même
+  // symbole "kr" (DKK/NOK/SEK/ISK, chacune sa propre couronne nationale — l'islandaise rejoint le
+  // groupe avec ce passage) : jamais affiché seul dans le sélecteur, toujours accompagné du code
+  // (voir renderCurrencyList/renderCurrencyButton) pour rester non ambigu malgré le symbole commun.
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :
@@ -1250,13 +1273,27 @@
     // plus longue que Skiáthos/Skópelos, île la plus reculée des Sporades modélisées ici. Tarif
     // "2 adultes + 1 voiture" 173,70 € -> voiture seule ≈ 173,70 - 2×35 ≈ 104 € (passager estimé par
     // comparaison avec Skópelos).
-    'continental|skyros': { routeKey:'ferry.route.skyros', durationH:1.75, distanceKm:70, priceByClass:{1:35, 2:53, 5:12, foot:8.5} }
+    'continental|skyros': { routeKey:'ferry.route.skyros', durationH:1.75, distanceKm:70, priceByClass:{1:35, 2:53, 5:12, foot:8.5} },
     // Kými (Eubée)-Skýros (ASSS), la seule vraie ligne directe (pas de ligne directe régulière depuis
     // Le Pirée) — ~1h45, 2-3 rotations/jour. Voiture dès ~35 € (jusqu'à 3,70 m ; un peu plus pour les
     // véhicules plus longs, non modélisé ici faute de distinction de longueur ailleurs dans ce
     // projet), passager dès 8,50 €. Kými elle-même reste "continental" (Eubée, reliée au continent
     // par le pont de Chalcis) : seule Skýros bascule vers sa propre masse (voir GR_ISLAND_PATTERNS,
     // code postal 34007, isolé au sein du bloc Eubée sinon continental).
+    //
+    // Îles Féroé — Tórshavn-Suðuroy (Strandfaraskip Landsins/SSL, seul opérateur, route 7), ~2h05,
+    // 2-3 rotations/jour — SEULE vraie liaison ferry de tout l'archipel encore nécessaire pour cette
+    // app : les quatre autres îles reliées à un trajet routier réaliste (Streymoy, Eysturoy, Vágar,
+    // Sandoy) le sont désormais par tunnel sous-marin à péage (Sandoyartunnilin, ouvert le 21
+    // décembre 2023, a été le dernier en date) — ces péages restent néanmoins hors du périmètre de
+    // TOLL_RATE_BY_COUNTRY (voir COUNTRIES.FO plus haut, tarifs fixes par ouvrage plutôt qu'un
+    // barème €/km). Suðuroy, l'île la plus au sud, reste la seule sans tunnel — un pont sous-marin
+    // est bien approuvé (Suðuroyartunnilin) mais son ouverture n'est pas attendue avant 2036 au plus
+    // tôt : le ferry reste, à ce jour, l'unique traversée réelle. Tarif "voiture standard" (hors
+    // tarif en ligne promotionnel, même logique que le tarif Flex retenu pour Bornholm) 229 DKK,
+    // passager 109 DKK (ssl.fo/en/prices/prices-ferries, 2026). Classe 2/5 au même ratio ×1,5/×0,4
+    // déjà utilisé pour Bornholm/Gotland (autres lignes danoises de cette table).
+    'continental|suduroy': { routeKey:'ferry.route.suduroy', durationH:2.08, distanceKm:65, priceByClass:{1:229, 2:344, 5:92, foot:109} }
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -1441,6 +1478,23 @@
       // (Paxoí, Meganísi, Kálamos) — toutes restent accessibles comme point de départ (recherche
       // manuelle) mais jamais comme étape reliée au reste d'un itinéraire.
     }
+    if(c.country === 'FO'){
+      // Îles Féroé — voir le commentaire au-dessus de FERRY_ROUTES pour la méthode complète. Un
+      // simple test de PRÉFIXE de code postal suffit ici (comme la Grèce, pas besoin d'un code exact
+      // par un comme la Croatie) : Suðuroy occupe exclusivement le bloc 800-970, vérifié
+      // exhaustivement sur les 180 communes de communes-fo.txt (aucun autre bloc du pays n'empiète
+      // sur cette tranche — la confusion possible avec "Vágur", nom partagé par une commune du nord,
+      // code postal 700, et celle de Suðuroy, code 900, est déjà résolue par le simple test de
+      // préfixe plutôt que par le nom). Même repli sur `c.cps` que pour hrCps/gbCps/dkCps/seCps/grCps
+      // ci-dessus.
+      var foCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
+      for(var fpi=0; fpi<foCps.length; fpi++){
+        if(/^[89]/.test(foCps[fpi])) return 'suduroy';
+      }
+      return 'continental'; // Streymoy (dont Tórshavn), Eysturoy, Vágar, Sandoy — reliées entre elles
+      // et à Streymoy par pont ou tunnel sous-marin (le plus récent, Sandoyartunnilin, ouvert fin
+      // 2023) : de vrais péages y existent (voir COUNTRIES.FO plus haut) mais jamais un ferry.
+    }
     return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
   }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans
@@ -1548,7 +1602,16 @@
     // ~35-50 €/nuit — échantillon airroi.com/airbtics.com 2026. Paliers calés à ~75% de la conversion
     // EUR->RON au taux flottant (~5,25 RON, voir COUNTRIES.RO.currency) — même ratio que la Serbie,
     // cohérent avec un niveau de vie comparable entre pays d'Europe du Sud-Est hors zone euro.
-    RON: { economique: 280, moyen: 500, confortable: 1000 }
+    RON: { economique: 280, moyen: 500, confortable: 1000 },
+    // Islande : PLUS cher que la zone euro — même profil que la Suisse/le Danemark/la Norvège/la
+    // Suède ci-dessus, pas celui des pays d'Europe centrale/balkanique moins chers. Loyer Airbnb
+    // médian pour un appartement privé au centre de Reykjavík ~28 285 ISK/nuit (~198 €, adventures.is
+    // 2026), nettement au-dessus des trois couronnes nordiques voisines (~165-175 € pour leur propre
+    // palier "moyen" ci-dessus) — cohérent avec la réputation du pays. Paliers calés pour que ce prix
+    // médian tombe dans la tranche "moyen", au taux flottant ~140,8 ISK pour 1 EUR (voir
+    // COUNTRIES.IS.currency) ; ratios économique/confortable identiques à ceux des trois couronnes
+    // nordiques (~0,55× et 2× le palier moyen) faute de repère spécifique à l'Islande.
+    ISK: { economique: 15000, moyen: 28000, confortable: 56000 }
   };
   // Les listes elles-mêmes viennent maintenant de I18N.tl() (voir js/i18n.js, objet LISTS) — sac de
   // base et compléments par budget/transport, résolus à la langue courante à chaque rendu
