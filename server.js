@@ -4,6 +4,7 @@
 // le seul état en mémoire est le cache de ces deux routes.
 const path = require('path');
 const fs = require('fs');
+const zlib = require('zlib');
 const express = require('express');
 const compression = require('compression');
 const PDFDocument = require('pdfkit');
@@ -948,35 +949,101 @@ app.post('/api/export-pdf', express.json({ limit: '512kb' }), (req, res) => {
 // format). La France (`communes.txt`, sans suffixe de pays dans son nom de fichier) est
 // identifiée par son code `FR`, comme partout ailleurs dans `COUNTRIES` (voir app.js).
 //
+// Compression PRÉCALCULÉE (gzip niveau max, + brotli en tâche de fond) plutôt que confiée à
+// `compression()` ci-dessus à chaque requête — écart mesuré entre le bac à sable local et
+// testroad.lume419.fr en conditions réelles : le bundle communes (26,8 Mo bruts) compressait à
+// 8,9 Mo (-66,7 %) en local (compression() par défaut, niveau 6) mais seulement à 13,5 Mo (-49,5 %)
+// une fois déployé — l'hébergement mutualisé semble limiter l'effort de compression en temps réel
+// pour préserver son CPU partagé (cohérent avec le débit de requêtes plafonné trouvé plus haut).
+// Recompresser un bundle de plusieurs dizaines de Mo À CHAQUE requête est de toute façon un vrai
+// coût CPU récurrent, inutile pour un contenu qui ne change qu'au déploiement (TTFB mesuré :
+// 0,52 s sur le bundle communes contre 0,08-0,11 s sur les fichiers bien plus petits, un écart
+// largement dû à cette compression à la volée). Calculé UNE SEULE FOIS par bundle, comme le texte
+// brut lui-même — et via les variantes ASYNCHRONES de zlib (voir plus bas), jamais Sync : le
+// niveau gzip maximal (`Z_BEST_COMPRESSION`) coûte ~1,4 s sur ce volume (mesuré), largement assez
+// pour geler tout le process (Node est mono-thread pour le JS) si calculé de façon synchrone —
+// constaté en direct : les toutes petites requêtes featured.txt/aliases-bundle.txt, normalement
+// quasi instantanées, se retrouvaient bloquées derrière ce calcul si les trois partaient en même
+// temps juste après un redémarrage, exactement le cas d'un premier chargement de page. Le brotli,
+// lui, fait mieux (~8,07 Mo au lieu de 8,87 Mo en gzip max, mesuré, à qualité 9) mais coûte bien
+// plus cher à calculer sur ce volume (~9,5 s à qualité 9 ; la qualité 11, la meilleure possible,
+// dépasse la MINUTE — écarté pour un calcul à refaire à chaque redémarrage) : lancé en parallèle
+// du gzip, sans jamais retarder la première réponse (qui n'attend que le gzip, plus rapide), et
+// servi dès qu'il est prêt aux requêtes suivantes ; gzip reste la réponse pour les quelques
+// premières secondes suivant chaque redémarrage, le temps que le brotli finisse.
+//
 // Construit UNE SEULE FOIS en mémoire au premier accès (pas à chaque requête ni au démarrage —
 // évite de ralentir le démarrage du process si ce endpoint n'est jamais sollicité, ex. pendant un
 // simple `node --check`) : ces fichiers sont statiques et ne changent qu'avec un nouveau
 // déploiement, donc avec un redémarrage du process — mêmes garanties de fraîcheur que le cache
 // navigateur `maxAge` ci-dessous, qui repose sur la même hypothèse.
-let communesBundleCache = null, aliasesBundleCache = null;
+// Tout ce qui suit (lecture des fichiers, gzip, brotli) passe par des variantes ASYNCHRONES de
+// fs/zlib plutôt que leurs équivalents Sync — Node est mono-thread pour le JavaScript : une
+// version Sync BLOQUE tout le process pendant son exécution, y compris les requêtes des AUTRES
+// visiteurs et même les autres requêtes de la MÊME page (featured.txt/aliases-bundle.txt, tous
+// deux minuscules et donc normalement quasi instantanés, se retrouvaient mis en attente derrière
+// la construction du gros bundle communes — mesuré en lançant les trois requêtes en même temps
+// juste après un redémarrage : featured.txt mettait 1,6 s au lieu de ses ~0,01 s habituels). Les
+// variantes async, elles, déportent le travail sur le threadpool libuv : le process JS reste
+// libre de répondre à d'autres requêtes pendant ce temps, quel que soit le nombre de pays.
+let communesBundlePromise = null, aliasesBundlePromise = null;
 const DATA_DIR = path.join(__dirname, 'public', 'data');
-function buildBundle(re, franceCode){
-  return fs.readdirSync(DATA_DIR).filter(function(f){ return re.test(f); }).map(function(f){
-    var m = f.match(re);
-    var cc = (m[1] ? m[1].toUpperCase() : franceCode);
-    return '###' + cc + '###\n' + fs.readFileSync(path.join(DATA_DIR, f), 'utf8');
-  }).join('\n');
+function buildBundleTextAsync(re, franceCode){
+  var files = fs.readdirSync(DATA_DIR).filter(function(f){ return re.test(f); }); // liste de noms seule, quasi instantané
+  return Promise.all(files.map(function(f){
+    return fs.promises.readFile(path.join(DATA_DIR, f), 'utf8').then(function(content){
+      var m = f.match(re);
+      var cc = (m[1] ? m[1].toUpperCase() : franceCode);
+      return '###' + cc + '###\n' + content;
+    });
+  })).then(function(parts){ return parts.join('\n'); });
+}
+function buildBundleEntry(re, franceCode){
+  return buildBundleTextAsync(re, franceCode).then(function(raw){
+    var buf = Buffer.from(raw, 'utf8');
+    var entry = { raw: raw, gzip: null, br: null };
+    // brotli lancé en tâche de fond, INDÉPENDAMMENT de la promesse retournée ci-dessous (pas de
+    // `return`/`await` dessus) : sa fin ne doit jamais retarder la première réponse, seul le gzip
+    // (plus rapide, voir commentaire plus haut) conditionne quand répondre.
+    zlib.brotliCompress(buf, { params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 9 } }, function(err, result){
+      if(!err) entry.br = result; // sinon entry.br reste null, le gzip continue de servir seul
+    });
+    return new Promise(function(resolve){
+      zlib.gzip(buf, { level: zlib.constants.Z_BEST_COMPRESSION }, function(err, result){
+        if(!err) entry.gzip = result; // sinon entry.gzip reste null, repli sur le texte brut ci-dessous
+        resolve(entry);
+      });
+    });
+  });
+}
+function sendBundle(req, res, entry){
+  var acceptEncoding = req.headers['accept-encoding'] || '';
+  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+  res.setHeader('Cache-Control', 'public, max-age=3600');
+  res.setHeader('Vary', 'Accept-Encoding'); // la réponse diffère selon ce que le client accepte
+  if(entry.br && /\bbr\b/.test(acceptEncoding)){
+    res.setHeader('Content-Encoding', 'br');
+    res.end(entry.br);
+  } else if(entry.gzip && /\bgzip\b/.test(acceptEncoding)){
+    res.setHeader('Content-Encoding', 'gzip');
+    res.end(entry.gzip);
+  } else {
+    res.end(entry.raw); // navigateur sans compression (rarissime en 2026), ou échec zlib imprévu
+  }
 }
 app.get('/data/communes-bundle.txt', function(req, res){
-  if(communesBundleCache === null){
-    communesBundleCache = buildBundle(/^communes(?:-([a-z]{2}))?\.txt$/, 'FR');
+  if(communesBundlePromise === null){
+    communesBundlePromise = buildBundleEntry(/^communes(?:-([a-z]{2}))?\.txt$/, 'FR');
   }
-  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-  res.setHeader('Cache-Control', 'public, max-age=3600');
-  res.send(communesBundleCache);
+  communesBundlePromise.then(function(entry){ sendBundle(req, res, entry); })
+    .catch(function(err){ res.status(500).type('text/plain').send('Erreur bundle communes : ' + err.message); });
 });
 app.get('/data/aliases-bundle.txt', function(req, res){
-  if(aliasesBundleCache === null){
-    aliasesBundleCache = buildBundle(/^aliases-([a-z]{2})\.txt$/, '');
+  if(aliasesBundlePromise === null){
+    aliasesBundlePromise = buildBundleEntry(/^aliases-([a-z]{2})\.txt$/, '');
   }
-  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-  res.setHeader('Cache-Control', 'public, max-age=3600');
-  res.send(aliasesBundleCache);
+  aliasesBundlePromise.then(function(entry){ sendBundle(req, res, entry); })
+    .catch(function(err){ res.status(500).type('text/plain').send('Erreur bundle alias : ' + err.message); });
 });
 
 app.use(express.static(path.join(__dirname, 'public'), {
