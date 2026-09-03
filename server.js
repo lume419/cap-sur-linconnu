@@ -116,6 +116,35 @@ async function fetchWikiWikitext(title){
 // Repère la section "Lieux et monuments" (ou proche : "Patrimoine", "Monuments") quel que soit son
 // niveau de titre (== ou ===, ça varie d'un article à l'autre), extrait sa liste à puces et sa
 // galerie d'images éventuelle.
+// Retire le "bruit" propre au wikitexte brut (modèles {{...}}, balises <ref>...) avant d'extraire
+// un nom de lieu — repéré sur un cas réel (Épagny, Côte-d'Or) : la puce "Le lavoir construit au
+// début du {{s-|XIX}} aux abords de la fontaine Sainte-Bénigne." n'a AUCUN wikilien ([[...]]), donc
+// tombe dans le repli `line.split(/[,.;(]/)[0]` (voir plus bas) — et comme cette phrase ne contient
+// aucune virgule/point-virgule/parenthèse avant son point final, elle est reprise QUASIMENT en
+// entier comme "nom", modèle wikitexte {{s-|XIX}} (siècle, non rendu) compris, brut, directement
+// affiché à l'utilisateur. Modèles retirés par comptage d'accolades équilibrées (au lieu d'une regex
+// non gourmande simple) : certains modèles wikitexte s'imbriquent (ex. une date dans un modèle de
+// référence), une regex plate laisserait des accolades orphelines dans ce cas.
+function stripWikiNoise(line){
+  let s = line.replace(/<ref\b[^>]*\/>/gi, '').replace(/<ref\b[^>]*>[\s\S]*?<\/ref>/gi, '');
+  let out = '', i = 0;
+  while(i < s.length){
+    if(s[i] === '{' && s[i+1] === '{'){
+      let depth = 1, j = i + 2;
+      while(j < s.length && depth > 0){
+        if(s[j] === '{' && s[j+1] === '{'){ depth++; j += 2; }
+        else if(s[j] === '}' && s[j+1] === '}'){ depth--; j += 2; }
+        else j++;
+      }
+      i = j;
+    } else {
+      out += s[i];
+      i++;
+    }
+  }
+  return out.replace(/<[^>]+>/g, '').replace(/\s{2,}/g, ' ').trim();
+}
+
 function extractMonumentsSection(wikitext){
   const m = wikitext.match(/={2,4}\s*(?:Lieux et monuments|Patrimoine(?: architectural)?|Monuments(?: et lieux)?)\s*={2,4}\n([\s\S]*?)(?=\n={2,4}[^=]|$)/i);
   if(!m) return null;
@@ -137,8 +166,8 @@ function extractMonumentsSection(wikitext){
   const bulletRe = /^\*\s*(.+)$/gm;
   let bm;
   while((bm = bulletRe.exec(section))){
-    const line = bm[1];
-    if(/^<gallery/i.test(line)) continue;
+    if(/^<gallery/i.test(bm[1])) continue;
+    const line = stripWikiNoise(bm[1]);
     const linkMatch = line.match(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/);
     let name = linkMatch ? linkMatch[1].trim() : line.split(/[,.;(]/)[0].trim();
     name = name.replace(/^Vestiges (du|de la|des) /i, '').trim(); // "Vestiges du château de X" -> le lieu lui-même
