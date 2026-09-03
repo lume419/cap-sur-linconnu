@@ -1,0 +1,431 @@
+lv;Veri;Võru
+lv;Verava;Võru
+de;Werro;Võru
+et;Võru vald;Võru
+nl;Võru vald;Võru
+bg;Въру;Võru
+sr;Виру;Võru
+bg;Вормси;Vormsi
+el;Βόρμσι;Vormsi
+lt;Vormsis;Vormsi
+ro;Comuna Vormsi;Vormsi
+sv;Ormsö;Vormsi
+sv;Bysholm;Vööla
+bg;Въхма;Võhma
+lt;Vehma;Võhma
+lv;Vehma;Võhma
+sv;Näsby;Vintse
+de;Fellin;Viljandi
+da;Felin;Viljandi
+lt;Viljandis;Viljandi
+bg;Вилянди;Viljandi
+sr;Виљанди;Viljandi
+sv;Filsand;Vilsandi
+sv;Gambyn;Vanaküla
+de;Walk;Valga
+bg;Валга;Valga
+sr;Валга;Valga
+en;Vaivara Parish;Vaivara
+fr;Commune de Vaivara;Vaivara
+et;Vaivara vald;Vaivara
+no;Vaivara kommune;Vaivara
+ro;Comuna Vaivara;Vaivara
+sv;Persåker;Väike-Nõmmküla
+de;Turgel;Türi
+lt;Tiūris;Türi
+sr;Тјури;Türi
+no;Bergsby;Tuksi
+sv;Bergsby;Tuksi
+da;Bergsby;Tuksi
+en;Tudulinna Parish;Tudulinna
+fr;Commune de Tudulinna;Tudulinna
+et;Tudulinna vald;Tudulinna
+no;Tudulinna kommune;Tudulinna
+ro;Comuna Tudulinna;Tudulinna
+pl;Gmina Tudulinna;Tudulinna
+bg;Търва;Tõrva
+sr;Тирва;Tõrva
+en;Tori Parish;Tori
+fr;Commune de Tori;Tori
+et;Tori vald;Tori
+no;Tori kommune;Tori
+ro;Comuna Tori;Tori
+pl;Gmina Tori;Tori
+en;Torgu Parish;Torgu
+fr;Commune de Torgu;Torgu
+et;Torgu vald;Torgu
+no;Torgu kommune;Torgu
+pl;Gmina Torgu;Torgu
+sv;Torgu kommun;Torgu
+ro;Comuna Torgu;Torgu
+en;Toila Parish;Toila
+fr;Commune de Toila;Toila
+et;Toila vald;Toila
+no;Toila kommune;Toila
+ro;Comuna Toila;Toila
+pl;Gmina Toila;Toila
+de;Dorpat;Tartu
+bg;Тарту;Tartu
+fi;Tartto;Tartu
+et;Tartu linn;Tartu
+sr;Тапа;Tapa
+el;Ταλλίν;Tallinn
+es;Tallin;Tallinn
+bg;Талин;Tallinn
+fi;Tallinna;Tallinn
+ga;Taillinn;Tallinn
+gl;Talín;Tallinn
+lt;Talinas;Tallinn
+lv;Tallina;Tallinn
+ro;Талин;Tallinn
+nds;Revel;Tallinn
+ro;Talin;Tallinn
+sq;Talini;Tallinn
+sr;Талин;Tallinn
+bs;Talin;Tallinn
+el;Ταλίν;Tallinn
+sl;Talin;Tallinn
+mk;Талин;Tallinn
+ltg;Talins;Tallinn
+sgs;Talins;Tallinn
+et;Tallinna linn;Tallinn
+sv;Skåtanäs;Tahu
+de;Taiwola;Taheva
+sv;Klottorp;Suur-Nõmmküla
+sv;Storby;Suurküla
+sv;Storbyn;Suurküla
+sv;Storhovet;Suuremõisa
+lt;Sūre Janis;Suure-Jaani
+lv;Sūre-Jāni;Suure-Jaani
+sv;Sutlep;Sutlepa
+en;Sonda Parish;Sonda
+fr;Commune de Sonda;Sonda
+et;Sonda vald;Sonda
+no;Sonda kommune;Sonda
+ro;Comuna Sonda;Sonda
+pl;Gmina Sonda;Sonda
+lt;Sindis;Sindi
+sr;Синди;Sindi
+lt;Silamiajė;Sillamäe
+lv;Sillamē;Sillamäe
+ro;Силламяе;Sillamäe
+lt;Silamejė;Sillamäe
+fr;Commune de Sillamäe;Sillamäe
+sr;Сиљамае;Sillamäe
+sr;Сауе;Saue
+de;Serrefer;Särevere
+en;Saku Parish;Saku
+fr;Commune de Saku;Saku
+et;Saku vald;Saku
+no;Saku kommune;Saku
+ro;Comuna Saku;Saku
+sco;Saku Pairish;Saku
+pl;Gmina Saku;Saku
+sv;Lyckholm;Saare
+en;Saare Parish;Saare
+fr;Commune de Saare;Saare
+et;Saare vald;Saare
+no;Saare kommune;Saare
+ro;Comuna Saare;Saare
+pl;Gmina Saare;Saare
+mk;Саре;Saare
+de;Zerel;Sääre
+da;Runø;Ruhnu
+lv;Roņu sala;Ruhnu
+sv;Runö;Ruhnu
+sv;Rus;Rohuküla
+sv;Korsnäs;Ristna
+sv;Rickul;Riguldi
+sv;Rikul;Riguldi
+sv;Röicks;Reigi
+bg;Рапла;Rapla
+sr;Рапла;Rapla
+de;Randen;Rannu
+sv;Strandbyn;Ranna
+sv;Åsbyn;Ranna
+de;Wesenberg;Rakvere
+et;Rakvere_vald;Rakvere
+sr;Раквере;Rakvere
+bg;Раквере;Rakvere
+en;Raikküla Parish;Raikküla
+fr;Commune de Raikküla;Raikküla
+et;Raikküla vald;Raikküla
+no;Raikküla kommune;Raikküla
+sco;Raikküla Pairish;Raikküla
+pl;Gmina Raikküla;Raikküla
+ro;Comuna Raikküla;Raikküla
+en;Rae Parish;Rae
+fr;Commune de Rae;Rae
+et;Rae vald;Rae
+no;Rae kommune;Rae
+ro;Comuna Rae;Rae
+sco;Rae Pairish;Rae
+pl;Gmina Rae;Rae
+en;Raasiku Parish;Raasiku
+fr;Commune de Raasiku;Raasiku
+et;Raasiku vald;Raasiku
+no;Raasiku kommune;Raasiku
+ro;Comuna Raasiku;Raasiku
+sco;Raasiku Pairish;Raasiku
+pl;Gmina Raasiku;Raasiku
+sv;Raasiku kommun;Raasiku
+lt;Piusis;Püssi
+lv;Pisi;Püssi
+ro;Пюйсси;Püssi
+sv;Birkas;Pürksi
+de;Bockenhof;Puka
+bg;Пълва;Põlva
+sr;Пилва;Põlva
+de;Oberpahlen;Põltsamaa
+et;Põltsamaa_vald;Põltsamaa
+lt;Peltsama;Põltsamaa
+sr;Пилцама;Põltsamaa
+sv;Päts;Pedase
+sv;Pasklep;Paslepa
+de;Pernau;Pärnu
+lt;Piarnu;Pärnu
+lv;Pērnava;Pärnu
+pl;Parnawa;Pärnu
+et;Pärnu linn;Pärnu
+en;Palupera Parish;Palupera
+fr;Commune de Palupera;Palupera
+et;Palupera vald;Palupera
+no;Palupera kommune;Palupera
+ro;Comuna Palupera;Palupera
+pl;Gmina Palupera;Palupera
+de;Baltischport;Paldiski
+lt;Paldiskis;Paldiski
+bg;Палдиски;Paldiski
+sr;Палдиски;Paldiski
+sgs;Paldiskis;Paldiski
+de;Weissenstein;Paide
+et;Paide_vald;Paide
+bg;Пайде;Paide
+sr;Паиде;Paide
+sr;Отепја;Otepää
+lt;Otepė;Otepää
+lv;Otepē;Otepää
+de;Odenpäh;Otepää
+et;Otepää Alev;Otepää
+de;Orrisar;Orissaare
+sv;Ölbäck;Elbiku
+de;Nüggen;Nõo
+en;Nissi Parish;Nissi
+et;Nissi vald;Nissi
+no;Nissi kommune;Nissi
+ro;Comuna Nissi;Nissi
+sco;Nissi Pairish;Nissi
+pl;Gmina Nissi;Nissi
+lt;Narva Jeesū;Narva-Jõesuu
+lv;Narva-Jēsū;Narva-Jõesuu
+ro;Нарва-Йыесуу;Narva-Jõesuu
+sr;Нарва-Јоесу;Narva-Jõesuu
+de;Narwa;Narva
+ro;Нарва;Narva
+pl;Narwa;Narva
+sr;Нарва;Narva
+bg;Нарва;Narva
+el;Νάρβα;Narva
+mk;Нарва;Narva
+sv;Nargö;Naissaar
+de;Tschorna;Mustvee
+de;Moiseküll;Mõisaküla
+sv;Derskogen;Metsküla
+sv;Stora Derskogen;Metsküla
+en;Meeksi Parish;Meeksi
+fr;Commune de Meeksi;Meeksi
+et;Meeksi vald;Meeksi
+no;Meeksi kommune;Meeksi
+ro;Comuna Meeksi;Meeksi
+pl;Gmina Meeksi;Meeksi
+en;Maidla Parish;Maidla
+fr;Commune de Maidla;Maidla
+et;Maidla vald;Maidla
+no;Maidla kommune;Maidla
+ro;Comuna Maidla;Maidla
+pl;Gmina Maidla;Maidla
+et;Mäe-Hanikase;Hanikase
+lv;Mārdu;Maardu
+ro;Маарду;Maardu
+lt;Mardu;Maardu
+sr;Марду;Maardu
+sv;Lukslaggen;Luksi
+sv;Storbyn;Lõunaküla
+sv;Moon;Liiva
+pl;Gmina Lihula;Lihula
+et;Lihula vald;Lihula
+et;Letti küla;Läti
+et;Väikeheinamaa;Star Fort
+sv;Lillängin;Star Fort
+en;Kuusalu Parish;Kuusalu
+fr;Commune de Kuusalu;Kuusalu
+et;Kuusalu vald;Kuusalu
+no;Kuusalu kommune;Kuusalu
+ro;Comuna Kuusalu;Kuusalu
+sco;Kuusalu Pairish;Kuusalu
+pl;Gmina Kuusalu;Kuusalu
+sv;Kuusalu kommun;Kuusalu
+sv;Korkis;Kurkse
+de;Arensburg;Kuressaare
+lt;Kuresarė;Kuressaare
+lv;Kuresāre;Kuressaare
+sv;Arensburg;Kuressaare
+bg;Куресааре;Kuressaare
+sr;Куресаре;Kuressaare
+sr;Кунда;Kunda
+sv;Kolnäs;Kulani
+sv;Kuiwast;Kuivastu
+sv;Gutanäs;Kudani
+sv;Kobö;Koipsi
+en;Koigi Parish;Koigi
+fr;Commune de Koigi;Koigi
+et;Koigi vald;Koigi
+no;Koigi kommune;Koigi
+ro;Comuna Koigi;Koigi
+sco;Koigi Pairish;Koigi
+pl;Gmina Koigi;Koigi
+fi;Kohtla-Järvi;Kohtla-Järve
+lt;Kohtla Jervė;Kohtla-Järve
+lv;Kohtla-Jerve;Kohtla-Järve
+ro;Кохтла-Ярве;Kohtla-Järve
+sr;Кохтла-Јарве;Kohtla-Järve
+lt;Kivielis;Kiviõli
+lv;Kivieli;Kiviõli
+ro;Кивиыли;Kiviõli
+sr;Кивиоли;Kiviõli
+sv;Kilkond;Kihelkonna
+en;Kernu Parish;Kernu
+fr;Commune de Kernu;Kernu
+et;Kernu vald;Kernu
+no;Kernu kommune;Kernu
+ro;Comuna Kernu;Kernu
+sco;Kernu Pairish;Kernu
+pl;Gmina Kernu;Kernu
+de;Kegel;Keila
+sv;Kegel;Keila
+sr;Кеила;Keila
+sv;Keip;Keibu
+sr;Кехра;Kehra
+et;Kärsu mõis;Kärsu
+sv;Kärrslätt;Kersleti
+en;Kärla Parish;Kärla
+fr;Commune de Kärla;Kärla
+et;Kärla vald;Kärla
+no;Kärla kommune;Kärla
+pl;Gmina Kärla;Kärla
+sv;Kärla kommun;Kärla
+sv;Kärrdal;Kärdla
+bg;Кярдла;Kärdla
+sr;Кардла;Kärdla
+bg;Каласте;Kallaste
+lt;Kalastė;Kallaste
+lt;Jehvis;Jõhvi
+lv;Jehvi;Jõhvi
+ro;Йыхви;Jõhvi
+bg;Йъхви;Jõhvi
+sr;Јихви;Jõhvi
+lt;Jegeva;Jõgeva
+lv;Jegeva;Jõgeva
+bg;Йъгева;Jõgeva
+sr;Јигева;Jõgeva
+en;Jõelähtme Parish;Jõelähtme
+fr;Commune de Jõelähtme;Jõelähtme
+et;Jõelähtme vald;Jõelähtme
+no;Jõelähtme kommune;Jõelähtme
+ro;Comuna Jõelähtme;Jõelähtme
+sco;Jõelähtme Pairish;Jõelähtme
+pl;Gmina Jõelähtme;Jõelähtme
+en;Imavere Parish;Imavere
+fr;Commune de Imavere;Imavere
+et;Imavere vald;Imavere
+no;Imavere kommune;Imavere
+ro;Comuna Imavere;Imavere
+pl;Gmina Imavere;Imavere
+en;Illuka Parish;Illuka
+fr;Commune de Illuka;Illuka
+et;Illuka vald;Illuka
+no;Illuka kommune;Illuka
+ro;Comuna Illuka;Illuka
+pl;Gmina Illuka;Illuka
+en;Iisaku Parish;Iisaku
+fr;Commune de Iisaku;Iisaku
+et;Iisaku vald;Iisaku
+no;Iisaku kommune;Iisaku
+ro;Comuna Iisaku;Iisaku
+pl;Gmina Iisaku;Iisaku
+sv;Höbring;Höbringi
+sv;Harga;Hara
+de;Hapsal;Haapsalu
+lv;Hāpsalu;Haapsalu
+bg;Хаапсалу;Haapsalu
+sr;Хапсалу;Haapsalu
+en;Haap;Haapsalu
+de;Gudmannsbach;Häädemeeste
+de;Elwa;Elva
+sr;Елва;Elva
+sv;Österby;Österbi
+sv;Enby;Einbi
+en;Avinurme Parish;Avinurme
+fr;Commune dAvinurme;Avinurme
+et;Avinurme vald;Avinurme
+no;Avinurme kommune;Avinurme
+ro;Comuna Avinurme;Avinurme
+pl;Gmina Avinurme;Avinurme
+sv;Dirslätt;Aulepa
+lt;Arukiula;Aruküla
+lv;Arukila;Aruküla
+sr;Арукила;Aruküla
+en;Are Parish;Are
+fr;Commune dAre;Are
+et;Are vald;Are
+no;Are kommune;Are
+ro;Comuna Are;Are
+pl;Gmina Are;Are
+de;Annia;Anija
+sv;Aklop;Alliklepa
+sv;Apelka;Alliklepa
+lt;Abja Paluoja;Abja-Paluoja
+en;Kareda Parish;Kareda
+fr;Commune de Kareda;Kareda
+et;Kareda vald;Kareda
+no;Kareda kommune;Kareda
+ro;Comuna Kareda;Kareda
+pl;Gmina Kareda;Kareda
+fi;Kutterkylä;Kudruküla
+en;Tähtvere Parish;Tähtvere
+fr;Commune de Tähtvere;Tähtvere
+et;Tähtvere vald;Tähtvere
+no;Tähtvere kommune;Tähtvere
+ro;Comuna Tähtvere;Tähtvere
+pl;Gmina Tähtvere;Tähtvere
+en;Mäksa Parish;Mäksa
+fr;Commune de Mäksa;Mäksa
+et;Mäksa vald;Mäksa
+no;Mäksa kommune;Mäksa
+ro;Comuna Mäksa;Mäksa
+pl;Gmina Mäksa;Mäksa
+et;Küllatova;Küllätüvä
+et;Andrikova;Antkruva
+en;Tõlliste Parish;Tõlliste
+fr;Commune de Tõlliste;Tõlliste
+et;Tõlliste vald;Tõlliste
+no;Tõlliste kommune;Tõlliste
+ro;Comuna Tõlliste;Tõlliste
+pl;Gmina Tõlliste;Tõlliste
+de;Serrö;Sõru
+en;Ridala Parish;Ridala
+fr;Commune de Ridala;Ridala
+et;Ridala vald;Ridala
+no;Ridala kommune;Ridala
+pl;Gmina Ridala;Ridala
+ro;Comuna Ridala;Ridala
+sv;Ridala kommun;Ridala
+sv;Spithamn;Spithami
+sv;Haversnäs;Haversi
+sv;Derhamn;Dirhami
+sv;Roslep;Rooslepa
+sv;Rosta;Roosta
+sv;Hästholm;Hobulaiu
+sv;Nyby;Niibi
+sv;Tällnäs;Telise
+de;Die Unterstadt;Bekkeri

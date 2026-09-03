@@ -5,15 +5,16 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['RO', 'BG']; // dump/ et postal/ ne contiennent que les fichiers des pays en
-// cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/
-// NO/SE/FI/AX/AL/RS/MK sont déjà générés et commités (public/data/communes-ad|es|pt|be|nl|lu|ch|de|
-// it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk.txt), pas la peine
-// de retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout. La Grèce
-// (GR) n'utilise PAS ce script standard : aucun fichier de codes postaux GeoNames pour ce pays,
-// voir build-gr-communes.js (reconstruction depuis une source tierce). Monténégro (ME) et Kosovo (XK)
-// n'utilisent PAS ce script standard : aucun fichier de codes postaux GeoNames pour ces deux pays,
-// voir build-me-communes.js/build-xk-communes.js (reconstruction depuis une source tierce).
+const COUNTRIES = ['LV', 'LT', 'EE']; // dump/ et postal/ ne contiennent que les fichiers des pays
+// en cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/
+// DK/NO/SE/FI/AX/AL/RS/MK/RO/BG sont déjà générés et commités (public/data/communes-ad|es|pt|be|
+// nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk|ro|
+// bg.txt), pas la peine de retélécharger leurs sources pour les régénérer à l'identique à chaque
+// nouvel ajout. La Grèce (GR) n'utilise PAS ce script standard : aucun fichier de codes postaux
+// GeoNames pour ce pays, voir build-gr-communes.js (reconstruction depuis une source tierce).
+// Monténégro (ME) et Kosovo (XK) n'utilisent PAS ce script standard : aucun fichier de codes
+// postaux GeoNames pour ces deux pays, voir build-me-communes.js/build-xk-communes.js
+// (reconstruction depuis une source tierce).
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -211,7 +212,37 @@ const NAME_OVERRIDES = {
   // de forme latine "officielle" à diacritiques comme le roumain — la translittération BGN/PCGN sans
   // diacritique déjà utilisée par GeoNames pour tout le pays (Kardzhali, Varshets...) est la même que
   // celle employée par les autorités bulgares elles-mêmes sur la signalétique routière.
-  'Bucharest': 'Bucureşti'
+  'Bucharest': 'Bucureşti',
+  // La Lettonie a demandé un seul cas — mais la capitale elle-même : "Riga", champ "name" GeoNames
+  // SANS le macron sur le I long (échantillon des 140 plus grandes communes du pays — Daugavpils,
+  // Liepāja, Jelgava, Jūrmala, Ventspils, Rēzekne, Valmiera, Cēsis... déjà bons, macron compris) —
+  // contradiction interne au dump lui-même : l'entrée ADM1/ADM2 de Riga (la région administrative,
+  // pas la ville) porte elle bien le nom "Rīga" avec macron, et "Rīga" figure aussi dans la propre
+  // liste de noms alternatifs de l'entrée ville. Corrigé en "Rīga", cohérent avec le reste du dump.
+  'Riga': 'Rīga',
+  // La Lituanie, elle, a demandé BEAUCOUP plus de corrections que tout autre pays de cette série —
+  // onze cas parmi les ~200 plus grandes communes du pays (Vilnius, Kaunas, Klaipėda, Šiauliai,
+  // Panevėžys, Alytus, Marijampolė, Jonava, Utena, Kėdainiai... déjà bons) : le dump GeoNames
+  // lituanien omet le macron du ū/ė ou le caron du š/ž/č dans le champ "name" pour ces onze
+  // communes précises, alors que la quasi-totalité du reste du pays est correcte. Chaque cas
+  // vérifié par recoupement avec l'entrée ADM2 (municipalité de district) correspondante dans le
+  // même dump, qui porte elle la forme correcte avec diacritiques (ex. "Ukmergės rajono
+  // savivaldybė") — sauf Vilkaviškis, sans entrée ADM2 propre dans cet extrait GeoNames, retenue
+  // malgré tout sur la seule foi de sa liste de noms alternatifs (où "Vilkaviškis" figure).
+  'Ukmerge': 'Ukmergė',
+  'Telsiai': 'Telšiai',
+  'Taurage': 'Tauragė',
+  'Silute': 'Šilutė',
+  'Radviliskis': 'Radviliškis',
+  'Plunge': 'Plungė',
+  'Naujoji Akmene': 'Naujoji Akmenė',
+  'Mazeikiai': 'Mažeikiai',
+  'Kupiskis': 'Kupiškis',
+  'Birzai': 'Biržai',
+  'Vilkaviskis': 'Vilkaviškis'
+  // L'Estonie, elle, n'a demandé AUCUNE correction : échantillon des 100 plus grandes communes du
+  // pays déjà bon, diacritiques compris (Tallinn, Tartu, Pärnu, Kohtla-Järve, Rakvere, Kuressaare,
+  // Sillamäe, Võru, Jõhvi...).
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth

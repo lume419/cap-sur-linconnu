@@ -131,7 +131,8 @@ Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Port
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
 Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
-Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie et Roumanie pour l'instant, d'autres viendront. Chaque pays
+Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie, Roumanie, Lettonie, Lituanie et Estonie pour
+l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -284,6 +285,21 @@ ajoute deux à trois choses, indépendamment des autres :
    grandes villes/îles du pays) remplacent l'exonyme anglais ou la transcription GeoNames par la forme
    grecque translittérée usuelle : Athens -> Athína, Piraeus -> Peiraiás, Volos -> Vólos, Sparta ->
    Spárti, Mytilene -> Mytilíni, Zakynthos -> Zákynthos, Rhodes -> Ródos, Corfu -> Kérkyra.
+   **La Lettonie, la Lituanie et l'Estonie**, dernier ajout en date, reviennent toutes les trois au
+   pipeline STANDARD (comme la Bulgarie/la Roumanie juste avant) : GeoNames publie un vrai fichier
+   de codes postaux pour chacune. **Lettonie** : 7 585 communes retenues, une seule correction
+   `NAME_OVERRIDES` — mais la capitale elle-même : "Riga", champ `name` GeoNames SANS le macron sur
+   le I long (échantillon des 140 plus grandes communes du pays déjà bon par ailleurs, macron
+   compris — Liepāja, Jūrmala, Rēzekne, Cēsis...), une contradiction interne au dump lui-même
+   (l'entrée administrative de Riga, elle, porte bien le macron) corrigée en "Rīga". **Lituanie** :
+   19 948 communes retenues, ONZE corrections `NAME_OVERRIDES` — de loin le plus gros total de
+   corrections de toute cette série pour un seul pays, chacune vérifiée par recoupement avec
+   l'entrée de municipalité de district correspondante dans le même dump (Ukmergė, Telšiai,
+   Tauragė, Šilutė, Radviliškis, Plungė, Naujoji Akmenė, Mažeikiai, Kupiškis, Biržai, Vilkaviškis —
+   ce dernier sans entrée de district dans cet extrait précis, retenu malgré tout sur la seule foi
+   de sa liste de noms alternatifs). **Estonie** : 6 916 communes retenues, AUCUNE correction
+   nécessaire (échantillon des 100 plus grandes communes du pays déjà bon, diacritiques compris —
+   Tallinn, Tartu, Pärnu, Kohtla-Järve, Rakvere, Kuressaare, Sillamäe, Võru, Jõhvi...).
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -448,6 +464,13 @@ ajoute deux à trois choses, indépendamment des autres :
    **Roumanie**, vignette autoroutière classique (rovinietă, e-rovinieta.ro) depuis 2002 — même
    principe, `hasToll:false`, `vignette.url` pointant vers la boutique officielle e-rovinieta.ro.
    Aucun ouvrage isolé à péage identifié pour l'une ou l'autre en plus de la vignette.
+   **La Lettonie, la Lituanie et l'Estonie**, elles, rejoignent le groupe `hasToll:false` SANS
+   vignette pour véhicule léger (même groupe que l'Allemagne/l'Andorre/le Luxembourg, pas celui de
+   la Suisse/l'Autriche/la Bulgarie/la Roumanie) : les trois pays baltes ont un réseau autoroutier
+   entièrement gratuit pour les voitures/vans/motos (tolls.eu/fuel-prices.eu/vintrica.com 2026,
+   vérifié pour les trois) — seuls les poids lourds (plus de 3 ou 3,5 t selon le pays) ont besoin
+   d'une vignette électronique, hors du périmètre de cette app qui ne modélise que des véhicules
+   légers.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -528,6 +551,10 @@ ajoute deux à trois choses, indépendamment des autres :
    (bnr.ro/xe.com). Pays moins cher que la zone euro, même profil que la Bulgarie/la Serbie/la
    Macédoine du Nord (loyer Airbnb médian à Bucarest ~35-45 €/nuit, airdna.co/investropa.com 2026),
    paliers `BUDGET_PRICE_MAX.RON` calés à ~55-60% de la conversion EUR->RON.
+   **La Lettonie, la Lituanie et l'Estonie n'ont besoin d'aucun champ `currency`** : en zone euro
+   depuis 2014, 2015 et 2011 respectivement — les trois adoptions les plus rapprochées dans le temps
+   de tous les pays ici couverts (2011-2015), la dernière (Lituanie) restant tout de même antérieure
+   à celle de la Croatie (2023), l'adoption la plus récente de la liste.
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -1163,6 +1190,59 @@ générés pour la Grèce, dont 13 750 rien que pour `el` — de très loin le p
 pour un seul pays de toute cette série, la Bulgarie (5 784 alias) et la Roumanie (1 199 alias) restant,
 elles, dans la fourchette habituelle des pays au pipeline standard.
 
+### Lettonie, Lituanie et Estonie (dernier ajout)
+
+Trois langues nationales arrivées avec leurs pays respectifs : le letton (ISO 639-1 "lv"), le
+lituanien ("lt") et l'estonien ("et"). Chacune des trois a aussi apporté une langue RÉGIONALE
+distincte, contrairement à la Grèce/la Bulgarie du passage précédent (aucune ajoutée) — un cas de
+figure plus proche de la série Serbie/Macédoine du Nord ou du rattrapage régional
+France/Espagne/Portugal :
+
+- **Le latgalien** (letton : *latgaliešu*, ISO 639-3 "ltg") est explicitement nommé et protégé par
+  l'article 3 de la loi lettone sur la langue officielle, en tant que "variante historique de la
+  langue lettone" — un statut de protection réel mais distinct d'une reconnaissance comme langue
+  officielle à part entière (le débat sur son vrai statut linguistique reste ouvert en Lettonie
+  même). Langue bien vivante (~150 000 locuteurs, région de Latgale à l'est du pays), sa propre
+  édition Wikipédia (ltg.wikipedia.org).
+- **Le võro** (estonien : *võro kiil*, ISO 639-3 "vro") est une langue sud-estonienne parlée dans la
+  région de Võrumaa (~75 000 locuteurs), avec son propre standard écrit, sa propre édition
+  Wikipédia et un institut public dédié (Võru Instituut) — mais SANS statut de langue régionale
+  officielle à ce jour : une tentative de 2004 de modifier la loi sur la langue a échoué faute de
+  consensus, même si la législation récente autorise un usage public plus large des variantes
+  régionales.
+- **Le samogitien/žemaitien** (lituanien : *žemaitiu kalba*, ISO 639-3 "sgs") est classé comme une
+  langue distincte plutôt qu'un simple dialecte du lituanien standard par l'ISO 639-3, du fait d'un
+  écart phonétique/lexical suffisamment important pour rendre les deux difficilement
+  intercompréhensibles sans habitude. Sa présence dans les données GeoNames est d'ailleurs la plus
+  visible des trois langues régionales de ce passage : 101 alias `sgs` générés pour la Lituanie
+  (voir plus bas), le deuxième contingent le plus important après le lituanien lui-même.
+
+Le russe, bien que largement parlé dans les trois pays (environ 25% en Lettonie et en Estonie,
+moins en Lituanie), n'a de statut officiel dans aucun des trois — un référendum letton de 2012 a
+explicitement rejeté son statut de seconde langue officielle. Non ajouté, même logique que le turc
+en Bulgarie ou le polonais/le russe en Lituanie.
+
+**Qualité des trois traductions régionales** : contrairement au letton/lituanien/estonien
+eux-mêmes (langues nationales bien dotées en ressources), le vocabulaire technique/d'interface du
+latgalien, du võro et du samogitien n'est pas largement standardisé (aucun terme "officiel" pour
+"export PDF" ou "GPS" dans aucune des trois) — chaque traduction part donc du texte de la langue
+nationale apparentée, avec les différences les plus solidement attestées appliquées
+systématiquement (letton *valoda* -> latgalien *volūda*, *diena* -> *dīna* ; estonien *keel* ->
+võro *kiil*, *või* -> *vai* ; lituanien *kaip* -> samogitien *kap*), plutôt qu'une forme "complète"
+inventée mot à mot pour chaque terme technique — plus proche de la pratique réelle de ces langues à
+l'écrit dans un contexte technique, documenté comme tel dans le commentaire de chaque bloc de
+`i18n.js`.
+
+59 langues au total désormais.
+
+**Alias `sgs` et `ltg`** : la Lituanie synthétise 101 alias `sgs` (samogitien) directement depuis le
+champ de noms alternatifs de GeoNames — une vraie étiquette de langue déjà présente dans les
+données tierces, contrairement aux alias `mk`/`el` synthétisés à la main pour la Macédoine du Nord/
+la Grèce plus haut. La Lettonie fait de même avec 10 alias `ltg` (latgalien) et même 1 alias `vro`
+isolé (nom d'une localité proche de la frontière estonienne). 304 alias au total pour la Lettonie,
+664 pour la Lituanie, 431 pour l'Estonie — dans la fourchette habituelle des pays au pipeline
+standard, sans le pic observé pour la Grèce (voir ci-dessus).
+
 ## Démarrer en local
 
 ```bash
@@ -1564,7 +1644,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
@@ -1592,7 +1672,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 44 fichiers SVG, dont treize
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 47 fichiers SVG, dont treize
   drapeaux RÉGIONAUX) — voir "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),

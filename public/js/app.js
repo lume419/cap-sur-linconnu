@@ -300,7 +300,22 @@
     // (leu roumain), hors zone euro et flottant (contrairement au lev bulgare, jamais arrimé à
     // l'euro à taux fixe) — ~5,25 RON pour 1 EUR début septembre 2026 (xe.com/ecb.europa.eu).
     RO: { code:'RO', name:'Roumanie', file:'communes-ro.txt', hasToll:false, aliasFile:'aliases-ro.txt', currency:'RON',
-      vignette:{ url:'https://www.erovinieta.ro' } }
+      vignette:{ url:'https://www.erovinieta.ro' } },
+    // Lettonie, Lituanie, Estonie : les trois pays baltes, ajoutés ensemble. `hasToll:false` pour
+    // les trois, et surtout SANS la moindre vignette pour véhicule léger — contrairement à la
+    // Bulgarie/la Roumanie juste au-dessus, les trois pays baltes ont un réseau autoroutier
+    // ENTIÈREMENT gratuit pour les voitures/vans/motos (tolls.eu/fuel-prices.eu/vintrica.com 2026,
+    // vérifié pour les trois) : seuls les poids lourds (>3-3,5 t selon le pays) ont besoin d'une
+    // vignette électronique — hors du périmètre de cette app, qui ne modélise que des véhicules
+    // légers. Même groupe que l'Allemagne/l'Andorre/le Luxembourg plus haut, pas celui de la
+    // Suisse/l'Autriche/la Bulgarie/la Roumanie. Aucun champ `currency` non plus pour les trois :
+    // en zone euro depuis 2011 (Estonie), 2014 (Lettonie) et 2015 (Lituanie) — un groupe de trois
+    // adoptions consécutives et rapprochées dans le temps, la dernière (Lituanie, 2015) restant
+    // tout de même antérieure à celle de la Croatie (2023), l'adoption la plus récente de tous les
+    // pays ici couverts.
+    LV: { code:'LV', name:'Lettonie', file:'communes-lv.txt', hasToll:false, aliasFile:'aliases-lv.txt' },
+    LT: { code:'LT', name:'Lituanie', file:'communes-lt.txt', hasToll:false, aliasFile:'aliases-lt.txt' },
+    EE: { code:'EE', name:'Estonie', file:'communes-ee.txt', hasToll:false, aliasFile:'aliases-ee.txt' }
   };
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });

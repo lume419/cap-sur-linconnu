@@ -1,0 +1,664 @@
+pl;Żygajcie;Žygaičiai
+sgs;Žīgātē;Žygaičiai
+lt;Žvirbioniai;Žvirbloniai
+pl;Żwingi;Žvingiai
+sgs;Žvingē;Žvingiai
+el;Ζιντικάι;Židikai
+lv;Židiki;Židikai
+sgs;Žėdėkā;Židikai
+pl;Poniemuń;Žemoji Panemunė
+de;Szameitkehmen;Žemaitkiemis
+pl;Nowe Miasto;Žemaičių Naumiestis
+sr;Жемајтско Ново Место;Žemaičių Naumiestis
+sr;Жемајтска Калварија;Žemaičių Kalvarija
+pl;Pozelwa;Želva
+lt;Zavieniškis;Zaviesiškis
+pl;Żorany;Žarėnai
+sgs;Žarienā;Žarėnai
+pl;Sapieżyszki;Zapyškis
+sgs;Zapīškis;Zapyškis
+pl;Żołpie;Žalpiai
+sgs;Žalpē;Žalpiai
+pl;Żoginie;Žaiginys
+el;Ζαγκάρε;Žagarė
+pl;Żagory;Žagarė
+pl;Wisztyniec;Vištytis
+sgs;Vėštītis;Vištytis
+lv;Visagina;Visaginas
+pl;Wisaginia;Visaginas
+bg;Вирбалис;Virbalis
+lv;Virbale;Virbalis
+sgs;Vėrbalis;Virbalis
+pl;Wierzbołów;Virbalis
+es;Vilna;Vilnius
+pl;Wilno;Vilnius
+bg;Вилнюс;Vilnius
+el;Βίλνιους;Vilnius
+fi;Vilna;Vilnius
+lv;Viļņa;Vilnius
+mk;Вилнус;Vilnius
+ro;Вильнюс;Vilnius
+sr;Виљнус;Vilnius
+sr;Вилњус;Vilnius
+ga;Vilnias;Vilnius
+csb;Wilna;Vilnius
+lt;Vilniaus miestas;Vilnius
+el;Βίλνα;Vilnius
+de;Willkischken;Vilkyškiai
+pl;Wilkiszki;Vilkyškiai
+sgs;Vėlkīškē;Vilkyškiai
+de;Wilkieten;Vilkyčiai
+lt;Vilkeliai;Vilkakiai
+pl;Wyłkowyszki;Vilkaviškis
+el;Βιλκαβίσκις;Vilkaviškis
+lv;Vilkavišķi;Vilkaviškis
+de;Wischwill;Viešvilė
+en;Viešvėnai;Viešvėnai I
+lv;Viekšņi;Viekšniai
+sgs;Vėikšnē;Viekšniai
+pl;Wieksznie;Viekšniai
+pl;Widziszki;Vidiškiai
+sgs;Vėdėškē;Vidiškiai
+el;Βεπριάι;Vepriai
+lv;Vepri;Vepriai
+mk;Вента;Venta
+pl;Wenta;Venta
+pl;Wenciuny;Venciūnai
+sgs;Vėnciūnā;Venciūnai
+lt;Vėlaičiai;Vėlaičiai I
+pl;Wewirzany;Veiviržėnai
+sgs;Vėivėržienā;Veiviržėnai
+sgs;Varnē;Varniai
+el;Βαρνιάι;Varniai
+lv;Varņi;Varniai
+en;Varėna I;Senoji Varėna
+pl;Varėna;Senoji Varėna
+en;Varėna;Senoji Varėna
+de;Varėna;Senoji Varėna
+lt;Varėna;Senoji Varėna
+lv;Varēna;Senoji Varėna
+nl;Varėna;Senoji Varėna
+no;Varena;Senoji Varėna
+sgs;Variena;Varėna
+no;Varėna kommune;Varėna
+sr;Варена;Varėna
+bg;Валкининкаи;Valkininkai
+pl;Olkieniki;Valkininkai
+sgs;Valkėninkā;Valkininkai
+lt;Vaitėšiunai;Vaitiešiūnai
+lt;Vaidotoniai;Vaidatoniai
+bg;Вабалнинкас;Vabalninkas
+lv;Vabalninka;Vabalninkas
+sgs;Vabalninks;Vabalninkas
+el;Βαμπαλνίνκας;Vabalninkas
+pl;Wobolniki;Vabalninkas
+lt;Vabaliai;Vaboliai
+lv;Užvente;Užventis
+sgs;Ožvėntis;Užventis
+pl;Użwenty;Užventis
+de;Uszpirden;Užpirdžiai
+de;Uszlöknen;Užliekniai
+lt;Užlėkniai;Užliekniai
+de;Ußlöknen;Užliekniai
+pl;Uciana;Utena
+el;Ουτενά;Utena
+sgs;Otena;Utena
+bg;Утена;Utena
+sr;Утена;Utena
+de;Mädewald;Usėnai
+el;Ουπνινκάι;Upninkai
+pl;Upniki;Upninkai
+lt;Uosininkai;Uosininkai I
+de;Wilkomir;Ukmergė
+pl;Wiłkomierz;Ukmergė
+el;Ουκμεργκέ;Ukmergė
+sgs;Okmergie;Ukmergė
+no;Ukmergė kommune;Ukmergė
+sr;Укмерге;Ukmergė
+lv;Tītuvēni;Tytuvėnai
+sgs;Tītovienā;Tytuvėnai
+pl;Cytowiany;Tytuvėnai
+pl;Twerecz;Tverečius
+sgs;Tubē;Tubiai
+pl;Tryszki;Tryškiai
+sgs;Trīškē;Tryškiai
+pl;Traszkuny;Troškūnai
+lt;Trimputiškis;Trimputiškės
+pl;Troki;Trakai
+el;Τρακάι;Trakai
+no;Trakai kommune;Trakai
+pl;Tyrkszle;Tirkšliai
+sgs;Tėrkšlē;Tirkšliai
+lt;Terespolė;Terespolis
+lt;Telvekai;Telviakai
+pl;Telsze;Telšiai
+lv;Telši;Telšiai
+el;Τελσιάι;Telšiai
+de;Telschen;Telšiai
+sgs;Telšē;Telšiai
+bg;Телшяй;Telšiai
+sr;Телшјај;Telšiai
+de;Tauroggen;Tauragė
+pl;Taurogi;Tauragė
+el;Ταουραγκέ;Tauragė
+sgs;Tauragie;Tauragė
+bg;Таураге;Tauragė
+sr;Таураге;Tauragė
+lv;Švenčonēļi;Švenčionėliai
+sgs;Švėnčiuonielē;Švenčionėliai
+pl;Nowe Święciany;Švenčionėliai
+lv;Suvainišķi;Suvainiškis
+pl;Suwejniszki;Suvainiškis
+en;Sūsnikai;Sūsninkai
+pl;Szumsk;Šunskai
+pl;Szumsk;Šumskas
+sgs;Šomsks;Šumskas
+lv;Subačus;Subačius
+sgs;Sobačios;Subačius
+pl;Subocz;Subačius
+de;Stonischken;Stoniškiai
+lt;Solovartė;Salovartė
+lt;Šnioriškės;Šnieriškės
+lt;Smiltynai;Smiltynai I
+de;Schmalleningken;Smalininkai
+sgs;Smalėninkā;Smalininkai
+lv;Smalininki;Smalininkai
+pl;Szkudy;Skuodas
+el;Σκουόντας;Skuodas
+lv;Skoda;Skuodas
+pl;Skuduciszki;Skudutiškis
+lt;Skrivonys;Skvironys
+lt;Skliaučiai;Skliausčiai
+sgs;Skaudvėlė;Skaudvilė
+pl;Skaudwile;Skaudvilė
+lt;Skainčiūnai;Skaisčiūnai
+pl;Szymańce;Šimonys
+de;Simnen;Simnas
+bg;Симнас;Simnas
+lv;Simna;Simnas
+sgs;Sėmnos;Simnas
+pl;Simno;Simnas
+pl;Szymkajcie;Šimkaičiai
+sgs;Šėmkātē;Šimkaičiai
+de;Heydekrug;Šilutė
+pl;Szyłokarczma;Šilutė
+bg;Сидабравас;Sidabravas
+pl;Szczodrobów;Sidabravas
+bg;Шяуляй;Šiauliai
+lv;Šauļi;Šiauliai
+ro;Шяуляй;Šiauliai
+pl;Szawle;Šiauliai
+it;Comune urbano di Šiauliai;Šiauliai
+el;Σιαουλιάι;Šiauliai
+sr;Шјауљај;Šiauliai
+sgs;Šiaulē;Šiauliai
+pl;Szawlany;Šiaulėnai
+lt;Šešuolėliai;Šešuolėliai I
+de;Schreitlaugken;Šereiklaukis
+pl;Średniki;Seredžius
+sgs;Seredios;Seredžius
+lt;Serapinai;Pemperiai
+pl;Stare Troki;Senieji Trakai
+lt;Sausballai;Sausbaliai
+lt;Saulėtekai;Saulėtekiai
+pl;Szawkiany;Šaukėnai
+sgs;Šaukienā;Šaukėnai
+de;Saugen;Saugos
+bg;Саснава;Sasnava
+pl;Sosnowo;Sasnava
+pl;Syłgudyszki;Saldutiškis
+bg;Салантаи;Salantai
+lv;Salanti;Salantai
+sgs;Salontā;Salantai
+pl;Sałanty;Salantai
+lt;Salakiškiai;Šileikiškė
+pl;Szakinów;Šakyna
+de;Michelsakuten;Sakūčiai
+bg;Рйкантаи;Rykantai
+pl;Rykonty;Rykantai
+sgs;Rīkontā;Rykantai
+de;Ruß;Rusnė
+pl;Ruś;Rusnė
+sgs;Rosnė;Rusnė
+de;Robkojen;Ropkojai
+de;Rakischki;Rokiškis
+pl;Rakiszki;Rokiškis
+lv;Rokišķi;Rokiškis
+pl;Rymszany;Rimšė
+pl;Rosienie;Raseiniai
+lv;Raseiņi;Raseiniai
+de;Rossingen;Raseiniai
+de;Raseinen;Raseiniai
+bg;Рамйгала;Ramygala
+lv;Ramīgala;Ramygala
+sgs;Ramīgala;Ramygala
+pl;Remigoła;Ramygala
+de;Ramutten;Ramučiai
+lt;Rakons;Rakonys
+lt;Geležinkelio Stotis Raguvėlė;Raguvėlės Geležinkelio Stotis
+lt;Raguvėlė;Raguvėlės Geležinkelio Stotis
+pl;Radziwiliszki;Radviliškis
+el;Ραντβιλίσκις;Radviliškis
+lv;Radvilišķi;Radviliškis
+lt;Radiškė;Randiškė
+lt;Puorai;Puoriai
+lt;Punžonys;Punžionys
+pl;Preny;Prienai
+lv;Prieni;Prienai
+de;Prökuls;Priekulė
+sgs;Prīkolė;Priekulė
+lt;Podžialaukė;Puodžialaukė
+pl;Pacunele;Pociūnėliai
+de;Plicken;Plikiai
+de;Plaschken;Plaškiai
+en;Pinigėliai;Pinigėliai I
+de;Piktupönen;Piktupėnai
+de;Pöszeiten;Pėžaičiai
+en;Petrashyunyay;Petrašiūnai
+lt;Petrašiūnai (Jonava);Petrašiūnai
+lt;Pavašuokiai II;Pavašuokiai I
+lt;Pavašuokiai I;Pavašuokiai II
+pl;Powondeń;Pavandenė
+sgs;Paondenie;Pavandenė
+lt;Patumšaliai;Patumšliai
+de;Paszieszen;Pašyšiai
+lv;Pašvitine;Pašvitinys
+pl;Poszwityń;Pašvitinys
+pl;Poszuszwie;Pašušvys
+pl;Poszyle;Pašilė
+sgs;Pašėlė;Pašilė
+sgs;Papėlė;Papilė
+pl;Popielany;Papilė
+bg;Панотериаи;Panoteriai
+pl;Kaplice;Panoteriai
+bg;Паневежис;Panevėžys
+lv;Panevēža;Panevėžys
+mk;Паневежис;Panevėžys
+pl;Poniewież;Panevėžys
+de;Ponewesch;Panevėžys
+sgs;Panevėžīs;Panevėžys
+el;Πανεβέζυς;Panevėžys
+hr;Panevežis;Panevėžys
+sr;Паневежис;Panevėžys
+de;Ponewiesch;Panevėžys
+pl;Poniemuń;Panemunis
+lt;Geležinkelio Stotis Panemunėlis;Panemunėlio Geležinkelio Stotis
+lt;Panemunėlis;Panemunėlio Geležinkelio Stotis
+de;Übermemel;Panemunė
+de;Palleiten;Paleičiai
+pl;Połąga;Palanga
+mk;Паланга;Palanga
+sgs;Palonga;Palanga
+bg;Паланга;Palanga
+no;Palanga bykommune;Palanga
+sr;Паланга;Palanga
+de;Polangen;Palanga
+el;Παλάνγκα;Palanga
+sgs;Pakroujis;Pakruojis
+el;Πακρουόγις;Pakruojis
+lv;Pakroja;Pakruojis
+pl;Pokroje;Pakruojis
+lt;Paknauniai;Pakriauniai
+lt;Pakalupys;Pakalupis
+en;Pajūrė;Gražjūris
+de;Schustern;Pagenaičiai
+de;Pogegen;Pagėgiai
+sgs;Pagiegē;Pagėgiai
+lv;Paģēģi;Pagėgiai
+lt;Padubysys;Padaubysys
+pl;Podbrodzie;Pabradė
+pl;Pobojsk;Pabaiskas
+lt;Ožkabaliai I;Ožkabaliai II
+pl;Hanuszyszki;Onuškis
+sgs;Uonoškis;Onuškis
+bg;Обелиаи;Obeliai
+lv;Obeļi;Obeliai
+sgs;Vuobelē;Obeliai
+el;Ομπελιάι;Obeliai
+pl;Abele;Obeliai
+sgs;Nėda;Nida
+pl;Nieworany;Nevarėnai
+sgs;Nevarienā;Nevarėnai
+pl;Nierymdajcie;Nerimdaičiai
+sgs;Nerėmdātē;Nerimdaičiai
+de;Nimmersatt;Nemirseta
+lt;Nemerzatė;Nemirseta
+sgs;Nemenčėnė;Nemenčinė
+pl;Niemokszty;Nemakščiai
+en;Nedingė;Nedzingė
+lt;Naukaimas;Naukaimis
+pl;Nowe Okmiany;Naujoji Akmenė
+el;Ναουγιόγι Ακμένε;Naujoji Akmenė
+en;Naujasodžiai;Naujasodis
+de;Nattkischken;Natkiškiai
+pl;Muśniki;Musninkai
+lv;Mosēda;Mosėdis
+pl;Masiady;Mosėdis
+sgs;Muosiedis;Mosėdis
+lt;Montiejūnai;Motiejūnai
+pl;Malaty;Molėtai
+sgs;Muolietā;Molėtai
+el;Μολετάι;Molėtai
+lv;Molēti;Molėtai
+de;Motzischken;Mociškiai
+de;Gallus-Wilpien;Minjotai
+lt;Milioniškė;Milioniškės
+pl;Mieżyszki;Miežiškiai
+pl;Melegiany;Mielagėnai
+pl;Mickuny;Mickūnai
+sgs;Mėckūnā;Mickūnai
+pl;Merecz;Merkinė
+sgs;Merkėnė;Merkinė
+en;Meldžiūnai;Maldžiūnai
+en;Medikoniai;Šedeikoniai
+pl;Możejki;Mažeikiai
+lv;Mažeiķi;Mažeikiai
+el;Μαζεϊκιάι;Mažeikiai
+pl;Mariampol;Marijampolė
+el;Μαριγιαμπολέ;Marijampolė
+sgs;Marėjampuolė;Marijampolė
+bg;Мариямполе;Marijampolė
+sr;Маријамполе;Marijampolė
+sgs;Mantvilėškis;Mantviliškis
+el;Μαϊσιάγκαλα;Maišiagala
+pl;Mejszagoła;Maišiagala
+sgs;Māšēgala;Maišiagala
+pl;Ligumy;Lygumai
+pl;Łukniki;Luokė
+sgs;Loukė;Luokė
+de;Lompönen;Lumpėnai
+en;Lipniūnai;Lipliūnai
+pl;Linków;Linkuva
+sgs;Linkova;Linkuva
+el;Λέντβαρις;Lentvaris
+lv;Lentvare;Lentvaris
+sr;Лентварис;Lentvaris
+pl;Lokajcie;Lekėčiai
+lt;Lazdiniai;Lazdinėliai
+el;Λαζντιγιάι;Lazdijai
+lv;Lazdiji;Lazdijai
+pl;Łoździeje;Lazdijai
+sgs;Lavuorėškės;Lavoriškės
+pl;Ławaryszki;Lavoriškės
+de;Laugszargen;Lauksargiai
+de;Laugallen;Laugaliai
+pl;Łopie;Lapės
+lt;Lapauka;Lapanka
+de;Lankuppen;Lankupiai
+pl;Łajżew;Laižuva
+sgs;Laižova;Laižuva
+el;Λαμπανόρας;Labanoras
+pl;Łabonary;Labanoras
+bg;Кйбартаи;Kybartai
+lv;Ķībarti;Kybartai
+sgs;Kībartā;Kybartai
+el;Κιμπαρτάς;Kybartai
+pl;Kibarty;Kybartai
+pl;Konstantynowo;Kvėdarna
+sgs;Kviedarna;Kvėdarna
+el;Κουρσέναϊ;Kuršėnai
+lv;Kuršēni;Kuršėnai
+pl;Kurszany;Kuršėnai
+sgs;Koršienā;Kuršėnai
+sr;Куршенај;Kuršėnai
+lt;Kurmėgala;Kurmagala
+pl;Kupreliszki;Kupreliškis
+el;Κουπίσκις;Kupiškis
+lv;Kudirkas Naumieste;Kudirkos Naumiestis
+sgs;Kodirkas Naumiestis;Kudirkos Naumiestis
+el;Κουντίρκος Ναουμιέστις;Kudirkos Naumiestis
+pl;Władysławów;Kudirkos Naumiestis
+bg;Круонис;Kruonis
+pl;Kronie;Kruonis
+bg;Кросна;Krosna
+pl;Krasna;Krosna
+lt;Krivonis;Krivonys
+pl;Kruki;Kriūkai
+lt;Krikonys;Krikonys I
+de;Crottingen;Kretingalė
+pl;Krotynga;Kretingalė
+sgs;Kretėngalė;Kretingalė
+pl;Kretynga;Kretinga
+el;Κρετίνγκα;Kretinga
+lv;Kraži;Kražiai
+pl;Kroże;Kražiai
+sgs;Kražē;Kražiai
+bg;Клайпеда;Klaipėda
+cs;Klajpeda;Klaipėda
+mk;Клајпеда;Klaipėda
+ro;Клайпеда;Klaipėda
+pl;Kłajpeda;Klaipėda
+sr;Клаипеда;Klaipėda
+el;Κλαϊπέντα;Klaipėda
+sr;Клајпеда;Klaipėda
+de;Kinten;Kintai
+pl;Kiernów;Kernavė
+lt;Kermušėnai;Kermušynai
+pl;Kielmy;Kelmė
+pl;Kiejdany;Kėdainiai
+lv;Ķēdaiņi;Kėdainiai
+sr;Кедајњај;Kėdainiai
+el;Κενταϊνιάι;Kėdainiai
+sgs;Kiedainē;Kėdainiai
+bg;Кедайняй;Kėdainiai
+rue;Кедайняй;Kėdainiai
+el;Κάζλου Ρούντα;Kazlų Rūda
+pl;Kozłowa Ruda;Kazlų Rūda
+pl;Kowno;Kaunas
+lv;Kauņa;Kaunas
+el;Κάουνας;Kaunas
+bg;Каунас;Kaunas
+sr;Каунас;Kaunas
+mk;Каунас;Kaunas
+sgs;Kauns;Kaunas
+de;Coadjuthen;Katyčiai
+sgs;Katītē;Katyčiai
+en;Katauskai;Katauskiai
+pl;Kormiałów;Karmėlava
+sgs;Karmielava;Karmėlava
+pl;Korklany;Karklėnai
+sgs;Karklienā;Karklėnai
+de;Karkelbeck;Karklė
+el;Καπτσιαμιέστις;Kapčiamiestis
+lv;Kapčamiests;Kapčiamiestis
+pl;Kopciowo;Kapčiamiestis
+de;Kampspowilken;Kamščiai
+el;Καλβαρία;Kalvarija
+pl;Kalwaria;Kalvarija
+sgs;Kalvarėjė;Kalvarija
+pl;Kołtyniany;Kaltanėnai
+de;Kollaten;Kalotė
+lt;Kalnlaukis;Kalnalaukis
+lt;Kalgriaužiai;Kalgraužiai
+pl;Koszedary;Kaišiadorys
+pl;Jużynty;Jūžintai
+sgs;Jūžintā;Jūžintai
+pl;Jurbork;Jurbarkas
+lv;Jurbarka;Jurbarkas
+lv;Jodupe;Juodupė
+pl;Pojedupie;Juodupė
+sgs;Joudopė;Juodupė
+en;Juodeikiai;Šalteniai
+lt;Jundiliškės;Jundeliškės
+de;Jugnaten;Juknaičiai
+pl;Judrany;Judrėnai
+sgs;Jodrienā;Judrėnai
+pl;Janiszki;Joniškis
+el;Γιονίσκις;Joniškis
+lv;Jonišķi;Joniškis
+de;Jonikaten;Jonikaičiai
+sgs;Juonava;Jonava
+bg;Йонава;Jonava
+sr;Јонава;Jonava
+de;Jonaten;Jonaičiai
+lt;Jautakiai;Jautakia
+el;Ιγκναλίνα;Ignalina
+lt;Gūptelčiai;Guptilčiai
+lt;Geležinkelio Stotis Gudžiūnai;Gudžiūnų Geležinkelio Stotis
+lt;Gudžiūnai;Gudžiūnų Geležinkelio Stotis
+pl;Gruździe;Gruzdžiai
+pl;Gryszkabuda;Griškabūdis
+pl;Grynkiszki;Grinkiškis
+lt;Griežėnai;Greižėnai
+lv;Ģelgaudišķi;Gelgaudiškis
+sgs;Gelgaudėškis;Gelgaudiškis
+pl;Giełgudyszki;Gelgaudiškis
+bg;Гарлиава;Garliava
+lv;Garļava;Garliava
+sgs;Garleva;Garliava
+sr;Гарљава;Garliava
+pl;Godlewo;Garliava
+pl;Gorżdy;Gargždai
+lv;Gargždi;Gargždai
+de;Gaidellen;Gaideliai
+pl;Gadonów;Gadūnavas
+sgs;Gadūnavs;Gadūnavas
+bg;Эжерелис;Ežerėlis
+lv;Ežerēle;Ežerėlis
+sgs;Ežerielis;Ežerėlis
+pl;Ażarele;Ežerėlis
+de;Erswilken;Eržvilkas
+pl;Erzwiłki;Eržvilkas
+sgs;Eržvėlks;Eržvilkas
+pl;Andrzejewo;Endriejavas
+sgs;Endrė̄javs;Endriejavas
+lv;Elektrēni;Elektrėnai
+pl;Elektreny;Elektrėnai
+sgs;Elektrienā;Elektrėnai
+sr;Електренај;Elektrėnai
+sgs;Eišėškės;Eišiškės
+sgs;Eigėrdē;Eigirdžiai
+pl;Dokiszki;Duokiškis
+lv;Dūkšta;Dūkštas
+sgs;Dūkšts;Dūkštas
+pl;Dukszty;Dūkštas
+lt;Druzhili;Družiliai
+pl;Druskieniki;Druskininkai
+lv;Druskininki;Druskininkai
+sgs;Droskininkā;Druskininkai
+el;Ντρούσκινινκαϊ;Druskininkai
+sr;Друшкининкај;Druskininkai
+de;Drawöhnen;Dreverna
+de;Dawillen;Dovilai
+lt;Geležinkelo Stotis Dotnuva;Dotnuvos Geležinkelo Stotis
+pl;Datnów;Dotnuva
+sgs;Duotnova;Dotnuva
+lt;Dobrovolė;Dabravolė
+de;Dittauen;Dituva
+lt;Didžieji Baušiai;Didieji Baušiai
+lt;Didieji Lygainiai Juodbaliai;Didieji Lygainiai
+lt;Didieji Lyngainiai;Didieji Lygainiai
+lt;Diauderiai;Dauderiai
+lt;Develiai;Derveliai
+lt;Deituvėlė;Deltuvėlė
+lt;Dautari;Dautarai
+pl;Dowiany;Daujėnai
+pl;Dorbiany;Darbėnai
+sgs;Darbienā;Darbėnai
+pl;Butrymańce;Butrimonys
+lt;Bukiškės;Bukiškis
+lt;Būda;Būdos
+pl;Birże;Biržai
+el;Μπιρζάι;Biržai
+lv;Birži;Biržai
+sgs;Biržā;Biržai
+sr;Биржај;Biržai
+el;Μπιρστόνας;Birštonas
+pl;Barszczyce;Barstyčiai
+sgs;Barstītē;Barstyčiai
+lt;Barkellai;Barkeliai
+de;Baltupönen;Baltupėnai
+sgs;Baltuojė Vuokė;Baltoji Vokė
+pl;Biała Waka;Baltoji Vokė
+lt;Bajorai;Bajorai II
+pl;Bogusławiszki;Bagaslaviškis
+lt;Bačoniškis;Bacioniškis
+en;Babriškis;Babriškės
+lt;Babriškės;Barbriškės
+en;Aviliai;Aviliai II
+en;Aviliai;Avilčiai
+bg;Ариогала;Ariogala
+lv;Arjogala;Ariogala
+sgs;Ariuogala;Ariogala
+pl;Ejragoła;Ariogala
+pl;Onikszty;Anykščiai
+lv;Anīkšči;Anykščiai
+el;Ανυκστσιάι;Anykščiai
+lt;Antavilia;Antaviliai
+pl;Antolepty;Antalieptė
+sgs;Ontalėiptė;Antalieptė
+lt;Antakalnis;Antakalnis III
+lt;Antaiksnė;Antalksnė
+en;Andriuškoniai;Andruškoniai
+pl;Androniszki;Andrioniškis
+lv;Alīta;Alytus
+pl;Olita;Alytus
+sgs;Alītos;Alytus
+bg;Алитус;Alytus
+el;Αλίτους;Alytus
+sr;Алитус;Alytus
+pl;Olsiady;Alsėdžiai
+sgs;Alsiedē;Alsėdžiai
+lt;Aleksandrinė;Aleksandrava
+lt;Aikštieji Veršupiai;Aukštoji Veržuva
+lt;Aukštieji Veršupiai;Aukštoji Veržuva
+lt;Aglonėnai;Agluonėnai
+de;Aglohnen;Agluonėnai
+lt;Skardupyay;Skardupiai
+de;Jagstellen;Jakšteliai
+de;Neustubbern;Naustubriai
+de;Budelkehmen;Budelkiemis
+de;Sudmanten;Sudmantai
+lt;Uzkaniaviai;Užkanavė
+de;Schweppeln;Švepeliai
+de;Skerswethen;Skersviečiai
+lt;Uzpjaunaiai;Užpjauniai
+lt;Užvaris;Uždvaris
+lt;Vidutškė;Vidutiškė
+lt;Barborvas;Barboravas
+lt;Vaškieškė;Vaškiškė
+lt;Kazeriškės;Kaziūriškės
+lt;Padysnis;Padysnis I
+lt;Zalūbiškės;Zalūbiškis
+lt;Paalsuodė I;Paalsuodė II
+lt;Paalsuodė II;Paalsuodė I
+lt;Žigniai;Žingiai
+lt;Kaniciškės;Kanciškės
+lt;Vilkos;Vilkai
+lt;Vėbris!kiai;Vėbriškiai
+lt;Utnėlė;Utenėlė
+lt;Kidrė;Kudrė
+lt;Mareliškiai;Markeliškiai
+lt;Kalnoutė II;Kalnuotė I
+lt;Kalnoutė V;Kalnuotė V
+lt;Žemieji Veršupiai;Žemoji Veržuva
+lt;Veršupiai;Veržuva
+pl;Wierszuba;Veržuva
+lt;Geležinkelio Stotis Jašiūnai;Jašiūnų Geležinkelio Stotis
+lt;Geležinkelio Stotis Stasylos;Stasylų Geležinkelio Stotis
+lt;Lapedžiai;Lagedžiai
+lt;Riboskiškis;Ribokiškis
+lt;Miliaučzna;Miliaučizna
+lt;Daniliškė;Daniliškės
+lt;Medinėliai;Mediniai
+lt;Dvyliškė I;Dvyliškė
+lt;Užpeklis;Užpelkis
+lt;Volia;Volai
+lt;Gariškė;Goriškė
+lt;Būdvyžiai;Būdvydžiai
+lt;Pūtapolis;Pūstapolis
+lt;Vaigiliai;Vaigailiai
+lt;Užbeliai;Užubeliai
+lt;Kutiškės;Kutiškiai
+lt;Pavieškšniai;Paviekšniai
+lt;Dailydukas II;Dailydukas I
+lt;Savarin;Savarinė
+lt;Palokis II;Palokis I
+lt;Iigabradai;Ilgabradai
+lt;Markštava;Makštava
+lt;Paežerys II;Paežerys I
+lt;Paežerys I;Paežerys II
+lt;Žiliškiai;Žiliškiai I
+lt;Bražiškiai I;Bražiškiai II
+lt;Bražiškiai II;Bražiškiai I
+de;Neusass-Scheer;Neusass-Sköries
