@@ -5,16 +5,20 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['VA', 'IS', 'FO']; // dump/ et postal/ ne contiennent que les fichiers des pays
-// en cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/
-// DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE sont déjà générés et commités (public/data/communes-ad|
-// es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|
-// mk|ro|bg|lv|lt|ee.txt), pas la peine de retélécharger leurs sources pour les régénérer à
-// l'identique à chaque nouvel ajout. La Grèce (GR) n'utilise PAS ce script standard : aucun
-// fichier de codes postaux GeoNames pour ce pays, voir build-gr-communes.js (reconstruction
-// depuis une source tierce). Monténégro (ME) et Kosovo (XK) n'utilisent PAS ce script standard :
-// aucun fichier de codes postaux GeoNames pour ces deux pays, voir build-me-communes.js/
-// build-xk-communes.js (reconstruction depuis une source tierce).
+const COUNTRIES = ['GI', 'MD', 'BY', 'UA']; // dump/ et postal/ ne contiennent que les fichiers des
+// pays en cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/
+// IE/IM/DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO sont déjà générés et commités
+// (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|
+// im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo.txt), pas la peine de retélécharger leurs
+// sources pour les régénérer à l'identique à chaque nouvel ajout. La Grèce (GR) n'utilise PAS ce
+// script standard : aucun fichier de codes postaux GeoNames pour ce pays, voir
+// build-gr-communes.js (reconstruction depuis une source tierce). Monténégro (ME) et Kosovo (XK)
+// n'utilisent PAS ce script standard : aucun fichier de codes postaux GeoNames pour ces deux pays,
+// voir build-me-communes.js/build-xk-communes.js (reconstruction depuis une source tierce).
+// Gibraltar (GI), Moldavie (MD), Biélorussie (BY) et Ukraine (UA), dernier ajout en date :
+// reviennent tous les quatre au pipeline STANDARD, GeoNames publie un vrai fichier de codes
+// postaux pour chacun (vérifié avant de commencer, y compris pour Gibraltar malgré sa taille
+// minuscule — un seul code postal, GX11 1AA, couvre tout le territoire, comme le Vatican).
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -251,11 +255,57 @@ const NAME_OVERRIDES = {
   // italienne correcte — l'italien étant la langue de travail quotidienne du Vatican (le latin,
   // langue officielle pour les actes juridiques/religieux, n'étant d'usage courant nulle part au
   // sens où ce projet nomme ses communes).
-  'Vatican City': 'Città del Vaticano'
+  'Vatican City': 'Città del Vaticano',
   // L'Islande et les îles Féroé, elles, n'ont demandé AUCUNE correction : échantillon exhaustif des
   // deux pays (96 communes islandaises, 180 féroïennes) déjà bon, diacritiques islandais/féroïens
   // compris (þ/ð/ö islandais — Reykjavík, Hafnarfjörður, Þorlákshöfn... ; ø/á/í/ú féroïens —
   // Tórshavn, Klaksvík, Fuglafjørður, Norðragøta...).
+  // Gibraltar : AUCUNE correction nécessaire (2 communes seulement, Gibraltar et Catalan Bay, déjà
+  // bonnes telles quelles).
+  // Moldavie : 1 797 communes retenues, une seule correction — mais la capitale elle-même :
+  // "Chisinau", champ "name" GeoNames sans diacritique (échantillon des 100 plus grandes communes
+  // du pays par ailleurs déjà bon, diacritiques compris — Bălţi, Durleşti, Dubăsari, Căuşeni,
+  // Hînceşti, Floreşti... — y compris de nombreuses localités transnistriennes conservées telles
+  // quelles, GeoNames rattachant tout le territoire à la Moldavie internationalement reconnue,
+  // aucune exclusion ni renommage éditorial ici). Corrigée en "Chişinău", forme présente dans la
+  // propre liste de noms alternatifs de cette même entrée — cédille ş/ţ plutôt que la variante à
+  // virgule souscrite ş/ţ, pour la même raison que "Bucureşti" plus haut : cohérence avec l'écrasante
+  // majorité du reste du dump moldave lui-même (1 959 caractères ş/ţ contre seulement 237 ș/ț
+  // dénombrés dans le fichier brut).
+  'Chisinau': 'Chişinău',
+  // Biélorussie : 25 147 communes retenues. AUCUNE correction NAME_OVERRIDES classique (aucun
+  // exonyme anglais identifié parmi les plus grandes villes — Minsk, Homyel', Hrodna, Vitebsk,
+  // Mahilyow, Brest, Bobruysk... déjà telles quelles dans le dump) — seulement un cas de nom
+  // MALFORMÉ : l'entrée 814990 porte "Ryasno, Рясно, Расна" comme champ "name" (trois
+  // translittérations différentes du même nom concaténées par des virgules à l'intérieur du champ
+  // lui-même, plutôt que dans la liste de noms alternatifs prévue à cet effet — un bug de saisie
+  // inédit parmi tous les pays couverts jusqu'ici) ; cette commune est aussi l'une des 14 détectées
+  // "cyrillique" (voir ASCIINAME_FALLBACK_COUNTRIES plus haut), le nom réellement utilisé après repli
+  // sur asciiname est donc "Ryasno, Rjasno, Rasna" — corrigé ici en "Ryasno" (le premier segment,
+  // seule vraie forme latine usuelle). Note transparente sur le reste du dump biélorusse : contrairement
+  // au Kosovo (formes serbes corrigées en formes albanaises, la langue très majoritaire du pays), le
+  // dump biélorusse mélange sans cohérence apparente des translittérations à base RUSSE (ex.
+  // "Vitebsk", "Mogilev" jamais rencontré ici car déjà "Mahilyow" — translittération biélorusse) et à
+  // base BIÉLORUSSE ("Homyel'", "Hrodna", "Barysaw", "Zhodzina") pour différentes villes du même
+  // pays — mais AUCUNE de ces formes n'est un exonyme étranger comparable à "Vienna"/"Prague" (les
+  // deux translittérations restent des lectures phonétiques directes du nom local, russe ou
+  // biélorusse, jamais un nom complètement différent importé d'une tierce langue) : contrairement au
+  // Kosovo, où une source faisant autorité (la Poste du Kosovo elle-même) permettait de trancher
+  // clairement en faveur de l'albanais, aucune source équivalente ni aucune campagne de
+  // translittération officielle systématique n'a été identifiée pour la Biélorussie qui permettrait
+  // de corriger cette incohérence ville par ville sans se livrer à des suppositions non vérifiées —
+  // laissé tel quel, comme le reste du dump GeoNames utilisé sans retouche ailleurs dans ce projet.
+  'Ryasno, Rjasno, Rasna': 'Ryasno',
+  // Ukraine : 30 044 communes retenues. AUCUNE correction NAME_OVERRIDES nécessaire (échantillon des
+  // 150 plus grandes villes du pays déjà bon — Kyiv, Kharkiv, Odesa, Dnipro, Zaporizhzhya, Lviv...,
+  // déjà la translittération ukrainienne moderne post-2018/BGN-PCGN, PAS les anciens exonymes issus
+  // du russe "Kiev"/"Kharkov"/"Odessa"/"Dnepr" — la réforme officielle de romanisation ukrainienne de
+  // 2010, largement adoptée à l'international depuis l'initiative #KyivNotKiev de 2018, est déjà
+  // celle utilisée par ce dump GeoNames). Kherson, Saky, Alushta (villes de Crimée) restent
+  // rattachées au code pays "UA" par GeoNames, comme la quasi-totalité des bases de données et
+  // organisations internationales qui ne reconnaissent pas l'annexion russe de 2014 — utilisées
+  // telles quelles, sans exclusion ni retouche éditoriale, même logique que les localités
+  // transnistriennes conservées sous "MD" plus haut.
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth
@@ -296,7 +346,21 @@ const AX_EXCLUDE_NAMES = new Set(['Yomala']);
 // ici — vérifié) fournit déjà la translittération latine cohérente avec le reste du jeu de données
 // (mêmes digrammes sh/ch/zh que "Shtip"/"Kochani"/"Delcevo" ailleurs) : utilisé comme source du nom
 // à la place du champ "name" pour ces seules 75 entrées, plutôt que 75 entrées NAME_OVERRIDES.
+// Même mécanisme réutilisé, bien plus modestement, pour la Biélorussie (14 communes sur 25 226,
+// ex. Тельмы Вторые/Радость/Франополь — asciiname "Tel'my Vtorye"/"Radost'"/"Franopol'", cohérent
+// avec la translittération du reste du dump biélorusse) et l'Ukraine (3 communes sur 32 484) — mais
+// pour l'Ukraine, PAS le même genre d'erreur que Macédoine du Nord/Biélorussie (un nom ENTIÈREMENT
+// cyrillique resté tel quel) : deux des trois sont un caractère cyrillique confusable ISOLÉ, à
+// l'apparence quasi identique à son équivalent latin, glissé au milieu d'un nom sinon déjà latin —
+// "Antonіvka" (le troisième caractère est le caractère cyrillique ukrainien "і", U+0456, visuellement
+// indiscernable du "i" latin U+0069) et "Storozhevoнe" (l'avant-dernier caractère est le cyrillique
+// "н" au lieu du latin "n") — même famille de bug que la confusion Ð/Đ déjà rencontrée pour la
+// Croatie, mais lettre par lettre plutôt que systématique ; asciiname règle les trois d'un coup
+// ("Antonivka", "Demechi", "Storozhevone") sans qu'il soit utile de les distinguer du cas macédonien/
+// biélorusse dans le code, la même détection (présence d'au moins un caractère cyrillique dans
+// "name") suffit à capter les deux familles de bug.
 const MK_CYRILLIC_RE = /[Ѐ-ӿ]/;
+const ASCIINAME_FALLBACK_COUNTRIES = new Set(['MK', 'BY', 'UA']);
 
 for(const country of COUNTRIES){
   const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
@@ -333,7 +397,7 @@ for(const country of COUNTRIES){
   const places = rows
     .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
     .map(c => ({
-      name: cleanName((country === 'MK' && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1]),
+      name: cleanName((ASCIINAME_FALLBACK_COUNTRIES.has(country) && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1]),
       lat: parseFloat(c[4]),
       lon: parseFloat(c[5]),
       admin1Code: c[10] || '',

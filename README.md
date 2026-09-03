@@ -127,12 +127,14 @@ les trois premières routes.
 
 ## Pays couverts
 
-Un pays à la fois plutôt que tout d'un coup — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
+Un pays à la fois plutôt que tout d'un coup (à l'exception du dernier ajout en date, voir plus bas)
+— France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
 Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
 Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie, Roumanie, Lettonie, Lituanie, Estonie, le
-Vatican, l'Islande et les îles Féroé pour l'instant, d'autres viendront. Chaque pays
+Vatican, l'Islande, les îles Féroé, Gibraltar, la Moldavie, la Biélorussie et l'Ukraine pour
+l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -314,6 +316,57 @@ ajoute deux à trois choses, indépendamment des autres :
    þ/ð/ö compris — Reykjavík, Kópavogur, Akureyri, Þingeyjarsveit...). **Îles Féroé** : 180 communes
    retenues, AUCUNE correction nécessaire non plus (échantillon exhaustif des 180 communes déjà bon,
    diacritiques féroïens ø/á/í/ú compris — Tórshavn, Klaksvík, Runavík, Tvøroyri...).
+   **Gibraltar, la Moldavie, la Biélorussie et l'Ukraine**, dernier ajout en date (les quatre en une
+   seule fois plutôt qu'un à la fois, exception au principe énoncé en tête de cette section — choix
+   explicite de l'utilisateur), reviennent tous les quatre au pipeline STANDARD : GeoNames publie un
+   vrai fichier de codes postaux pour chacun, vérifié avant de commencer, y compris pour Gibraltar
+   malgré sa taille minuscule (49,9 km² — 6,7 km² pour le territoire lui-même). **Gibraltar** : cas le
+   plus simple de toute cette série avec le Vatican — UN SEUL code postal (GX11 1AA) couvre tout le
+   territoire, et seulement 2 communes retenues sur 10 lieux bruts du dump (les 8 autres, tous en
+   `PPLX`, sont des quartiers d'une même agglomération déjà comptée — Waterport, Rosia, Reclamation
+   Areas... — exclus par le filtre `KEEP_FEATURE_CODES` habituel, aucun traitement spécial requis) :
+   Gibraltar (la ville elle-même) et Catalan Bay (le seul village distinct du territoire). Aucune
+   correction `NAME_OVERRIDES` nécessaire. **La Moldavie** : 1 797 communes retenues, une seule
+   correction — mais la capitale elle-même : "Chisinau", champ `name` GeoNames sans diacritique
+   (échantillon des 100 plus grandes communes du pays par ailleurs déjà bon, diacritiques compris —
+   Bălţi, Durleşti, Dubăsari, Căuşeni, Hînceşti, Floreşti... — y compris de nombreuses localités
+   transnistriennes conservées telles quelles, GeoNames rattachant tout le territoire à la Moldavie
+   internationalement reconnue, aucune exclusion ni renommage éditorial ici). Corrigée en "Chişinău"
+   (cédille ş/ţ plutôt que la variante à virgule souscrite ș/ț, pour la même raison que
+   "Bucureşti"/la Roumanie plus haut : cohérence avec l'écrasante majorité du reste du dump moldave
+   lui-même — 1 959 caractères ş/ţ contre seulement 237 ș/ț dénombrés dans le fichier brut). **La
+   Biélorussie** : 25 147 communes retenues, aucun exonyme anglais identifié parmi les plus grandes
+   villes (Minsk, Homyel', Hrodna, Vitebsk, Mahilyow, Brest, Bobruysk... déjà telles quelles) — mais
+   un cas de nom MALFORMÉ inédit parmi tous les pays couverts jusqu'ici : l'entrée 814990 porte
+   "Ryasno, Рясно, Расна" comme champ `name` (trois translittérations différentes du même nom
+   concaténées par des virgules DANS le champ lui-même, plutôt que dans la liste de noms alternatifs
+   prévue à cet effet), corrigée en "Ryasno" (le premier segment, seule vraie forme latine usuelle).
+   Note transparente sur le reste du dump biélorusse : contrairement au Kosovo (formes serbes
+   corrigées en formes albanaises, la langue très majoritaire du pays), le dump biélorusse mélange
+   sans cohérence apparente des translittérations à base RUSSE et à base BIÉLORUSSE pour différentes
+   villes du même pays — mais aucune de ces deux formes n'est un exonyme étranger comparable à
+   "Vienna"/"Prague" (les deux restent des lectures phonétiques directes du nom local), et aucune
+   source faisant autorité comparable à la Poste du Kosovo n'a été identifiée pour trancher
+   systématiquement en faveur de l'une ou l'autre : laissé tel quel, comme le reste du dump GeoNames
+   utilisé sans retouche ailleurs dans ce projet. 14 communes biélorusses (dont Ryasno) restent aussi
+   en cyrillique brut dans le champ `name` — même mécanisme de repli sur `asciiname` que la Macédoine
+   du Nord (voir plus haut), étendu à ce pays. **L'Ukraine** : 30 044 communes retenues, AUCUNE
+   correction `NAME_OVERRIDES` nécessaire (échantillon des 150 plus grandes villes du pays déjà bon —
+   Kyiv, Kharkiv, Odesa, Dnipro, Zaporizhzhya, Lviv..., déjà la translittération ukrainienne moderne
+   post-2018/BGN-PCGN, PAS les anciens exonymes issus du russe "Kiev"/"Kharkov"/"Odessa"/"Dnepr" — la
+   réforme officielle de romanisation ukrainienne de 2010, largement adoptée à l'international depuis
+   l'initiative #KyivNotKiev de 2018, est déjà celle utilisée par ce dump GeoNames). Trois communes
+   ukrainiennes utilisent le même mécanisme de repli sur `asciiname`, mais pour une raison différente
+   de la Macédoine du Nord/la Biélorussie : pas un nom entièrement cyrillique laissé tel quel, mais un
+   caractère cyrillique CONFUSABLE isolé glissé au milieu d'un nom sinon déjà latin — "Antonіvka" (le
+   troisième caractère est le cyrillique ukrainien "і", U+0456, visuellement indiscernable du "i"
+   latin U+0069) et "Storozhevoнe" (l'avant-dernier caractère est le cyrillique "н" au lieu du latin
+   "n") — même famille de bug que la confusion Ð/Đ déjà rencontrée pour la Croatie, mais lettre par
+   lettre plutôt que systématique. Kherson, Saky, Alushta (villes de Crimée) restent rattachées au
+   code pays "UA" par GeoNames, comme la quasi-totalité des bases de données et organisations
+   internationales qui ne reconnaissent pas l'annexion russe de 2014 — utilisées telles quelles, sans
+   exclusion ni retouche éditoriale, même logique que les localités transnistriennes conservées sous
+   "MD" plus haut.
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -502,6 +555,26 @@ ajoute deux à trois choses, indépendamment des autres :
    ici aussi, à l'échelle de quatre ouvrages plutôt que deux. `hasToll:false`, ces quatre péages réels
    restant documentés comme une limite assumée dans le commentaire de `COUNTRIES.FO` plutôt que
    silencieusement omis.
+   **Gibraltar et l'Ukraine**, dernier ajout, rejoignent le groupe `hasToll:false` mais pour deux
+   raisons distinctes. **Gibraltar** : aucun réseau autoroutier à péage ni vignette — cas le plus
+   simple de toute cette table avec Monaco/Malte/Guernesey/Jersey (49,9 km de route au total,
+   vérifié). **L'Ukraine** : AUCUN péage routier n'existe à ce jour (2026) dans le pays — le projet
+   de système de péage national est à l'étude depuis plus de 20 ans (coût estimé ~7 milliards UAH
+   rien que pour l'infrastructure de perception), et la première concession envisagée
+   (Krakovets-Lviv, à la frontière polonaise) reste à l'état de projet depuis plus de 30 ans ;
+   contrairement à Gibraltar, aucune vignette non plus. **La Moldavie et la Biélorussie**, elles,
+   rejoignent plutôt le groupe à vignette (Suisse/Autriche/République tchèque/Slovaquie/Hongrie/
+   Slovénie/Bulgarie/Roumanie) : `hasToll:false` avec un champ `vignette`. Pour la **Moldavie**
+   (e-vinieta, portail officiel evinieta.gov.md), particularité par rapport aux vignettes déjà
+   couvertes : elle ne s'applique en pratique qu'aux véhicules immatriculés à l'ÉTRANGER — les
+   véhicules moldaves paient une taxe routière distincte, hors du périmètre de cette app qui modélise
+   un trajet depuis la France, donc un visiteur français en aurait bien besoin, exactement comme pour
+   les vignettes tchèque/slovaque/hongroise déjà modélisées. Pour la **Biélorussie** (système
+   BelToll, ev.beltoll.by) : un vrai tarif au kilomètre existe bien, mais UNIQUEMENT pour les poids
+   lourds ≥3,5 t (0,117-0,176 €/km selon le nombre d'essieux, hors du périmètre de cette app) — pour
+   les véhicules légers modélisés ici (voiture/van/moto), c'est une vignette électronique à prix fixe
+   par période (15 jours/30 jours/1 an) qui s'applique, rejoignant donc le même groupe que la
+   Moldavie plutôt que celui de la France/l'Italie/la Croatie (barème €/km réel pour les voitures).
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -604,6 +677,40 @@ ajoute deux à trois choses, indépendamment des autres :
    n'a, à ce jour, aucun code ISO 4217 distinct — elle circule à parité stricte avec la couronne
    danoise dont elle n'est, monétairement, qu'une émission billet locale (les pièces restent
    exclusivement danoises), le territoire faisant partie du royaume du Danemark tout en étant hors UE.
+   **Gibraltar, la Moldavie, la Biélorussie et l'Ukraine**, dernier ajout, ont chacun besoin du
+   champ. **Gibraltar** (`GIP`, la livre de Gibraltar) : parité FIXE 1:1 avec la livre sterling
+   (billets/pièces britanniques ayant cours légal sur le territoire, l'inverse n'étant PAS vrai) mais
+   un vrai code ISO 4217 propre malgré cette parité, contrairement à la couronne féroïenne — pays
+   plus cher que le Royaume-Uni lui-même plutôt qu'un simple alignement sur `GBP` : logement vacances
+   ~£103/nuit en moyenne (rentgibraltar.com/momondo.co.uk 2026), contre £120 pour le palier "moyen"
+   déjà retenu pour `GBP` — paliers `BUDGET_PRICE_MAX.GIP` propres (75/105/200) plutôt que réutilisés
+   tels quels. **La Moldavie** (`MDL`, le leu moldave, hors zone euro, flottant — 1 EUR ≈ 20,1 MDL
+   début septembre 2026, xe.com/wise.com) : pays moins cher que la zone euro, profil proche de la
+   Roumanie/la Serbie voisines (loyer vacances moyen à Chişinău ~47-51 €/nuit, airroi.com 2026),
+   paliers `BUDGET_PRICE_MAX.MDL` calés à ~0,55×/2× le palier moyen. **La Biélorussie** (`BYN`, le
+   rouble biélorusse, redénominé en 2016 après une forte inflation historique, hors zone euro,
+   flottant — 1 EUR ≈ 3,4 BYN début septembre 2026) : Minsk, loyer vacances très variable selon le
+   quartier (~$41-125/nuit, expedia.com/cozycozy.com 2026, pas de repère Airbnb natif publié
+   directement en BYN), paliers `BUDGET_PRICE_MAX.BYN` calés sur le milieu de fourchette centre-ville.
+   **L'Ukraine** (`UAH`, la hryvnia, hors zone euro, régime de change GÉRÉ plutôt que librement
+   flottant depuis le début de la guerre — 1 EUR ≈ 51,9 UAH début septembre 2026, xe.com/
+   investing.com) : Kyiv (ville la plus chère du pays, largement représentative), loyer vacances
+   moyen ~35-38 €/nuit (airroi.com 2026), paliers `BUDGET_PRICE_MAX.UAH` calés au même ratio que la
+   Moldavie/la Biélorussie. `CURRENCY_SYMBOL` reste au code ISO pour les quatre (même règle que
+   `GBP`/`CZK`/`PLN`... — aucun symbole assez universellement reconnaissable pour éviter toute
+   ambiguïté) ; `CURRENCY_GLYPH` (affichage du sélecteur de devise uniquement) réutilise "£" pour
+   `GIP` (même symbole que la livre sterling), "L" pour `MDL` (comme `ALL`, le lek albanais — une
+   simple lettre plutôt qu'un symbole dédié), "Br" pour `BYN` (abréviation latine officielle adoptée
+   par la Banque nationale de Biélorussie en 2005 — un nouveau symbole graphique, un "Б" cyrillique
+   stylisé façon signe rouble russe "₽", a bien été retenu par un nouveau concours officiel en
+   janvier 2026, mais un symbole de monnaie tout juste adopté met en pratique plusieurs années à
+   obtenir un point de code Unicode propre — le "₽" russe, adopté en 2013, n'a été normalisé qu'en
+   2014 — l'utiliser maintenant afficherait très probablement un caractère manquant, même risque de
+   rendu déjà rencontré et évité une fois dans ce projet pour les émojis drapeau du sélecteur de
+   langue, voir "Langues" plus bas ; "Br", encore officiellement en usage, reste le choix fiable) et
+   "₴" pour `UAH` (signe monétaire dédié de la hryvnia, U+20B4, normalisé de longue date et
+   largement pris en charge — un vrai symbole comme "€"/"£" plutôt qu'une abréviation, contrairement
+   aux trois précédents).
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -647,7 +754,7 @@ un drapeau — essayé d'abord en émoji Unicode, abandonné (aucune police d'é
 toutes les plateformes, Windows en particulier affiche souvent les deux lettres du code régional au
 lieu du drapeau fusionné) au profit de vraies images SVG hébergées localement
 (`public/img/flags/XX.svg`, une seule fois chacune même si plusieurs langues la réutilisent —
-42 fichiers au total pour 51 langues). Association LANGUE -> code de fichier dans `LANG_FLAGS`
+53 fichiers au total pour 66 langues, plusieurs langues partageant le même fichier). Association LANGUE -> code de fichier dans `LANG_FLAGS`
 (`public/js/i18n.js`). Priorité à un vrai drapeau RÉGIONAL reconnaissable quand le jeu d'icônes
 utilisé ([circle-flags](https://github.com/HatScripts/circle-flags)) en propose un dédié à l'aire
 linguistique exacte (demande explicite de l'utilisateur, "pour faciliter la lecture") — treize
@@ -1338,6 +1445,66 @@ et des mots lituaniens plutôt qu'une vraie communauté lituanienne locale (aucu
 corrobore un lien réel), non retirée pour rester fidèle à la donnée brute GeoNames comme pour
 toutes les autres tables d'alias de ce projet.
 
+**Gibraltar, la Moldavie, la Biélorussie et l'Ukraine**, dernier ajout en date, apportent CINQ
+nouvelles langues — plus que le nombre de pays lui-même, chacune décidée d'après le statut légal
+réel du pays concerné plutôt qu'un choix éditorial, même règle que pour la Finlande/l'Irlande/la
+Bosnie-Herzégovine plus haut. **Gibraltar n'apporte aucune langue** : l'anglais (déjà couvert) est
+la seule langue officielle du territoire, et le llanito vernaculaire local (mélange d'espagnol
+andalou et d'anglais, très largement parlé au quotidien) n'a ni statut officiel, ni code ISO 639,
+ni orthographe standardisée — une proposition de Wikipédia en llanito a d'ailleurs été rejetée
+précisément pour absence de code ISO 639-3 (meta.wikimedia.org). **La Moldavie** : le roumain,
+langue d'Etat, reste couvert via "ro"/la Roumanie (pas de doublon nécessaire) — apporte en revanche
+**le gagaouze** (Gagauzça, ISO 639-2/3 "gag", pas de code 639-1), seule langue à statut officiel
+PROPRE au pays : co-officielle avec le roumain et le russe dans l'autonomie territoriale de
+Gagaouzie (loi de 1994 sur son statut juridique spécial). Alphabet latin (réforme de 1996,
+influencée par le turc et le roumain) — confiance de traduction plus faible que la moyenne du fait
+du faible nombre de locuteurs (~150 000), même palier que l'istro-roumain/le cornique/le mannois
+déjà traduits malgré ce même genre de réserve, choix explicite de l'utilisateur reconduit ici.
+**La Biélorussie** apporte à la fois **le biélorusse** (Беларуская, ISO 639-1 "be") et **le russe**
+(Русский, ISO 639-1 "ru") : les deux sont langues d'Etat à parts STRICTEMENT égales (art. 17 de la
+Constitution biélorusse, révision de 1996) — même cas de figure que l'irlandais/l'anglais en
+République d'Irlande, aucune des deux n'étant à exclure au nom de la règle "pas de langue nationale
+d'un pays déjà couvert par un autre biais" puisque ni l'une ni l'autre n'est la langue nationale
+d'un AUTRE pays déjà couvert par cette app (la Russie elle-même n'est pas un pays couvert ici — son
+ajout éventuel resterait donc sans redondance avec ce choix). **L'Ukraine** apporte **l'ukrainien**
+(Українська, ISO 639-1 "uk"), seule langue d'Etat depuis la loi du 25 avril 2019 "Sur le
+fonctionnement de l'ukrainien en tant que langue d'Etat" (entrée en vigueur le 16 juillet 2019) —
+ainsi que **le tatar de Crimée** (Qırımtatarca, ISO 639-2/3 "crh", pas de code 639-1) : contrairement
+au russe, RETIRÉ par le Parlement ukrainien lui-même de la liste des langues minoritaires protégées
+par la Charte européenne en décembre 2025 (Kyiv Independent), le tatar de Crimée, lui, y reste bien
+présent (avec le hongrois/le roumain/le polonais/le biélorusse..., 18 langues au total sur la liste
+mise à jour) — ajouté sur ce fondement précis (statut légal ukrainien ACTUEL, jamais un jugement
+indépendant sur une langue autrement hors du périmètre déjà couvert par ce projet). Alphabet latin
+(réintroduit en 1997, toujours en usage concurrent avec le cyrillique hérité de la période
+soviétique) — même réserve de confiance que le gagaouze du fait du nombre de locuteurs plus modeste
+(~500 000) et de ressources d'apprentissage plus rares que pour l'ukrainien/le russe/le biélorusse,
+traduit malgré tout par cohérence avec l'istro-roumain/le cornique/le mannois/le gagaouze déjà
+couverts. Le hongrois et le roumain, déjà couverts (Hongrie/Roumanie), ne reçoivent volontairement
+AUCUNE mention séparée pour l'Ukraine bien qu'ils figurent eux aussi sur la liste des 18 langues
+protégées — leurs locuteurs disposent déjà d'une interface complète par un autre biais, seuls leurs
+alias de ville profitent automatiquement de cet ajout (voir juste en dessous).
+
+66 langues au total désormais.
+
+**Alias** : contrairement aux ajouts précédents, ce passage régénère aussi bien les fichiers de
+communes que d'alias des QUATRE nouveaux pays d'un coup — mais, comme pour chaque ajout antérieur,
+les fichiers alias des pays DÉJÀ couverts (Espagne, Allemagne...) ne sont PAS régénérés : un
+visiteur cherchant une ville allemande en russe ne trouvera donc de résultat que si "ru" figurait
+déjà dans l'ensemble de langues utilisé lors de la dernière génération d'`aliases-de.txt`, ce qui
+n'est pas le cas ici (limite assumée, cohérente avec le principe déjà en place — voir le commentaire
+`COUNTRIES` en tête de `scripts/build-aliases.js`, "pas la peine de retélécharger leurs sources pour
+les régénérer à l'identique à chaque nouvel ajout"). Pour les QUATRE nouveaux pays eux-mêmes, en
+revanche, la couverture est complète dès ce passage : `aliases-gi.txt` (9 alias, dont un anglais
+"East Side" pour Catalan Bay), `aliases-md.txt` (1 784 alias, dont 1 529 russes, 63 ukrainiens, 13
+biélorusses et 3 gagaouzes — la faible proportion gagaouze reflète la petite taille de l'autonomie
+de Gagaouzie face au reste du pays), `aliases-by.txt` (24 550 alias, dont 17 523 russes et 5 425
+biélorusses), `aliases-ua.txt` (50 964 alias, dont 22 139 ukrainiens et 20 661 russes — cette
+proportion russe élevée reflète des noms alternatifs historiques hérités de la période soviétique/
+prérévolutionnaire déjà présents dans `alternateNamesV2`, une simple possibilité de RECHERCHE
+supplémentaire qui ne change rien au nom CANONIQUE affiché, resté ukrainien pour les 30 044 communes
+du pays — même logique que les alias serbes conservés pour des communes kosovares au nom canonique
+albanais).
+
 ## Démarrer en local
 
 ```bash
@@ -1904,7 +2071,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
@@ -1932,7 +2099,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 49 fichiers SVG, dont treize
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 53 fichiers SVG, dont treize
   drapeaux RÉGIONAUX) — voir "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),

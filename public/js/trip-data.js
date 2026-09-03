@@ -205,7 +205,50 @@
       // DKK explicitement (la couronne féroïenne n'a pas de code ISO 4217 propre — parité fixe 1:1
       // avec la couronne danoise, billets danois ayant cours légal), pas de nouveau symbole nécessaire
       // (CURRENCY_SYMBOL.DKK déjà présent depuis le Danemark).
-      FO: { code:'FO', name:'Îles Féroé', file:'communes-fo.txt', hasToll:false, aliasFile:'aliases-fo.txt', currency:'DKK' }
+      FO: { code:'FO', name:'Îles Féroé', file:'communes-fo.txt', hasToll:false, aliasFile:'aliases-fo.txt', currency:'DKK' },
+      // Gibraltar : cas le plus simple de tout l'ajout — `hasToll:false` sans la moindre exception à
+      // modéliser, comme Monaco/Malte/Guernesey/Jersey (aucun réseau autoroutier à péage ni vignette,
+      // 49,9 km de route au total, vérifié). Devise propre, GIP (livre de Gibraltar), à parité FIXE
+      // 1:1 avec la livre sterling (billets/pièces britanniques ayant cours légal sur le territoire,
+      // comme l'inverse n'est PAS vrai — les billets gibraltariens ne sont pas toujours acceptés au
+      // Royaume-Uni) — un vrai code ISO 4217 propre malgré cette parité, contrairement à la couronne
+      // féroïenne (FO ci-dessus, sans code ISO propre) : `currency:'GIP'` plutôt que de réutiliser
+      // GBP tel quel.
+      GI: { code:'GI', name:'Gibraltar', file:'communes-gi.txt', hasToll:false, aliasFile:'aliases-gi.txt', currency:'GIP' },
+      // Moldavie : `hasToll:false` — pas de péage au trajet mais une vignette électronique
+      // OBLIGATOIRE (e-vinieta, portail officiel gov.md) pour tout véhicule immatriculé à
+      // l'étranger (les véhicules moldaves, eux, paient une taxe routière différente, hors du
+      // périmètre de cette app qui modélise un trajet DEPUIS la France) — même famille que la
+      // Bulgarie/la Roumanie/la République tchèque déjà couvertes, un visiteur français y aurait
+      // bien besoin d'acheter cette vignette avant de circuler. Devise : MDL (leu moldave), hors
+      // zone euro, flottant — 1 EUR ≈ 20,1 MDL début septembre 2026 (xe.com/wise.com).
+      MD: { code:'MD', name:'Moldavie', file:'communes-md.txt', hasToll:false, aliasFile:'aliases-md.txt', currency:'MDL',
+        vignette:{ url:'https://evinieta.gov.md' } },
+      // Biélorussie : `hasToll:false` elle aussi — le système BelToll applique un vrai tarif au
+      // kilomètre, mais UNIQUEMENT aux poids lourds ≥3,5 t (0,117-0,176 €/km selon le nombre
+      // d'essieux) ; pour les véhicules légers couverts par cette app (voiture/van/moto), c'est une
+      // vignette électronique à prix fixe par période (15 jours/30 jours/1 an, ev.beltoll.by) —
+      // même famille que la Suisse/l'Autriche/la République tchèque/la Slovaquie/la Hongrie/la
+      // Slovénie/la Bulgarie/la Roumanie/la Moldavie ci-dessus, pas celle de la France/l'Italie/la
+      // Croatie (barème €/km réel pour les voitures). Devise : BYN (rouble biélorusse, redénominé
+      // en 2016 après une forte inflation historique), hors zone euro, flottant — 1 EUR ≈ 3,4 BYN
+      // début septembre 2026 (wise.com/coinbase.com).
+      BY: { code:'BY', name:'Biélorussie', file:'communes-by.txt', hasToll:false, aliasFile:'aliases-by.txt', currency:'BYN',
+        vignette:{ url:'https://ev.beltoll.by' } },
+      // Ukraine : `hasToll:false` — AUCUN péage routier n'existe à ce jour (2026) dans le pays,
+      // contrairement à la Biélorussie/la Moldavie voisines : le projet de système de péage national
+      // est à l'étude depuis plus de 20 ans (coût estimé ~7 milliards UAH rien que pour
+      // l'infrastructure de perception), et la première concession envisagée (Krakovets-Lviv, à la
+      // frontière polonaise) reste à l'état de projet depuis plus de 30 ans — cas le plus simple de
+      // tout cet ajout avec Gibraltar, aucune vignette non plus. Devise : UAH (hryvnia ukrainienne),
+      // hors zone euro, régime de change géré (pas librement flottant, la Banque nationale
+      // d'Ukraine intervenant activement depuis le début de la guerre) — 1 EUR ≈ 51,9 UAH début
+      // septembre 2026 (xe.com/investing.com). Kherson/Saky/Alushta (Crimée) restent rattachées au
+      // territoire ukrainien par cette app, comme le fait GeoNames lui-même (voir
+      // build-country-communes.js) — aucune règle de péage ou de devise distincte n'est nécessaire
+      // pour ces communes, la Crimée n'ayant jamais eu son propre régime douanier ou monétaire au
+      // sein de l'Ukraine avant 2014.
+      UA: { code:'UA', name:'Ukraine', file:'communes-ua.txt', hasToll:false, aliasFile:'aliases-ua.txt', currency:'UAH' }
     };
 
     var TRANSPORT = {
@@ -617,7 +660,36 @@
       // médian tombe dans la tranche "moyen", au taux flottant ~140,8 ISK pour 1 EUR (voir
       // COUNTRIES.IS.currency) ; ratios économique/confortable identiques à ceux des trois couronnes
       // nordiques (~0,55× et 2× le palier moyen) faute de repère spécifique à l'Islande.
-      ISK: { economique: 15000, moyen: 28000, confortable: 56000 }
+      ISK: { economique: 15000, moyen: 28000, confortable: 56000 },
+      // Gibraltar : contrairement à la plupart des autres devises hors zone euro de cette table,
+      // PAS un pays moins cher — un territoire dense et cher, comparable ou supérieur au Royaume-Uni
+      // malgré sa taille : logement vacances ~£103/nuit en moyenne (rentgibraltar.com/momondo.co.uk
+      // 2026), chambres privées ~£70-80, hôtels/locations haut de gamme ~£150-200 — nettement
+      // au-dessus du palier "moyen" déjà retenu pour GBP (120) plus haut. Paliers propres plutôt que
+      // réutiliser tels quels ceux du Royaume-Uni, malgré la parité 1:1 GIP/GBP (voir COUNTRIES.GI) :
+      // économique calé sur la chambre privée (~75), moyen sur la moyenne vacation-rental (~105),
+      // confortable sur le haut de la fourchette hôtelière (~200).
+      GIP: { economique: 75, moyen: 105, confortable: 200 },
+      // Moldavie : pays moins cher que la zone euro, profil proche de la Roumanie/la Serbie
+      // voisines — Chişinău (la ville la plus chère du pays) : loyer vacances moyen ~51-55 $/nuit
+      // (~47-51 €, airroi.com/airbnb.com 2026). Paliers calés pour que ce prix moyen tombe dans la
+      // tranche "moyen" (~1000 MDL, soit ~50 € au taux ~20,1 MDL/EUR retenu pour COUNTRIES.MD.currency),
+      // ratios économique/confortable identiques à ceux déjà utilisés pour les devises est-européennes
+      // voisines (~0,55× et 2× le palier moyen, comme MKD/RSD plus haut).
+      MDL: { economique: 550, moyen: 1000, confortable: 2000 },
+      // Biélorussie : Minsk (ville la plus chère du pays) : locations vacances très variables selon
+      // le quartier, de ~$41-50/nuit pour les biens basiques jusqu'à ~$70-100 en centre-ville bien
+      // noté, ~$125 pour le haut de gamme (expedia.com/cozycozy.com 2026 — pas de repère Airbnb natif
+      // publié directement en BYN). Palier "moyen" calé sur le milieu de la fourchette centre-ville
+      // (~$65, ~60 € début septembre 2026) converti au taux ~3,4 BYN/EUR retenu pour
+      // COUNTRIES.BY.currency (~200 BYN), mêmes ratios 0,55×/2× que la Moldavie ci-dessus.
+      BYN: { economique: 110, moyen: 200, confortable: 400 },
+      // Ukraine : Kyiv (ville la plus chère du pays, largement représentative malgré la guerre en
+      // cours) : loyer vacances moyen ~38-41 $/nuit (~35-38 €, airroi.com 2026) — pays moins cher que
+      // la zone euro, profil proche de la Moldavie/la Biélorussie ci-dessus. Palier "moyen" calé sur
+      // ce prix moyen (~37 €) converti au taux ~51,9 UAH/EUR retenu pour COUNTRIES.UA.currency
+      // (~1900 UAH), mêmes ratios 0,55×/2× que la Moldavie/la Biélorussie.
+      UAH: { economique: 1050, moyen: 1900, confortable: 3800 }
     };
 
   var COUNTRY_LIST = Object.keys(COUNTRIES);

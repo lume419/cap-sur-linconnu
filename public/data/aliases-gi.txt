@@ -1,0 +1,9 @@
+bg;Гибралтар;Gibraltar
+el;Γιβραλτάρ;Gibraltar
+gl;Xibraltar;Gibraltar
+it;Gibilterra;Gibraltar
+lt;Gibraltaras;Gibraltar
+ru;Гибралтар;Gibraltar
+sr;Гибралтар;Gibraltar
+uk;Ґібралтар;Gibraltar
+en;East Side;Catalan Bay

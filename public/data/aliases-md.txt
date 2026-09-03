@@ -1,0 +1,1784 @@
+ru;Зырнешты;Zîrneşti
+ru;Зымбряны;Zîmbreni
+ru;Зубрешты;Zubreşti
+ru;Зозуляны;Zăzuleni
+ru;Зориле;Zorile
+ru;Золотиевка;Zolotievca
+ru;Жура;Jura
+ru;Жеврены;Jevreni
+ru;Желобок;Jeloboc
+ru;Жавгур;Javgur
+ru;Жабка;Japca
+ru;Згурица;Zguriţa
+ru;Згордешты;Zgărdeşti
+ru;Зерешты;Zereshty
+ru;Збероая;Zberoaia
+ru;Зайканы;Zăicani
+ru;Запорожоц;Zaporojeţ
+ru;Замчожи;Zamciogi
+ru;Залучены;Zăluceni
+ru;Новотираспольский;Tiraspolul Nou
+ru;Заим;Zaim
+uk;Zayim;Zaim
+ru;Загорна;Zahorna
+ru;Загорены;Zahoreni
+ru;Загоранча;Zagarancea
+ru;Загайканы;Zăicani
+ru;Загайканы;Zăicana
+ru;Забричаны;Zăbriceni
+ru;Юрьевка;Iurievca
+ru;Юрчены;Iurceni
+ru;Ержово;Hârjău
+ru;Ермоклия;Ermoclia
+ru;Епурены;Iepureni
+ru;Еникиой;Enichioi
+ru;Елизаветовка;Elizavetovca
+ru;Елизаветовка;Elizaveta
+ru;Еленовка;Ilenuța
+ru;Екимоуцы;Echimăuţi
+ru;Екатериновка;Ecaterinovca
+ru;Егоровка;Egorovca
+ro;Единец;Edineţ
+ru;Единцы;Edineţ
+ru;Ясная Поляна;Iasnaia Poleana
+ru;Ярово;Iarova
+ru;Яргара;Iargara
+bg;Яргара;Iargara
+lt;Jargara;Iargara
+uk;Яргара;Iargara
+sr;Јаргара;Iargara
+ru;Ялпуг;Ialpug
+ru;Первомайск;Ialpugeni
+ru;Ягорлык;Iagorlâc
+ru;Яблона;Iabloana
+ru;Вышкауцы;Vîşcăuţi
+ru;Выпрово;Vîprova
+ru;Вынаторы;Vînători
+ru;Вылчеле;Vîlcele
+ru;Выхватинцы;Ofatinţi
+ru;Вулканешты;Vulcăneşti
+sr;Вулканешт;Vulcăneşti
+ru;Вознесены;Vozneseni
+ro;Vosnişeni;Vozneseni
+ru;Войново;Voinova
+ru;Воротец;Voroteţ
+ru;Октябрьское;Octeabriscoe
+ru;Лазо;Lazo
+ru;Воронково;Vărăncău
+ru;Ворничены;Vorniceni
+ru;Волово;Voloave
+ru;Воловица;Voloviţa
+ru;Волонтировка;Volintiri
+ru;Волчинец;Vălcineţ
+ru;Вадяны;Vădeni
+ru;Владимировка;Vladimireuca
+ru;Владимировка;Vladimirovca
+ru;Висока;Visoca
+ru;Вишневка;Vişniovca
+ru;Виноградовка;Vinogradovca
+ru;Виноградное;Vinogradnoe
+ru;Виктория;Victoria
+ru;Вийшоара;Viişoara
+ru;Веселое;Vesioloe
+ru;Вертюжаны;Vertlujeni
+ru;Верхняя Жора;Jora de Sus
+ru;Верхняя Марьяновка;Marianca de Sus
+uk;Mar”yanka-de-Sus;Marianca de Sus
+ru;Верхняя Балцата;Bălţata de Sus
+ru;Верхняя Албота;Albota de Sus
+ru;Верхние Минчены;Mincenii de Sus
+ru;Верхние Кугурешты;Cuhureştii de Sus
+ru;Верхние Холохоры;Halahora de Sus
+ru;Верхние Буздуганы;Buzduganii de Sus
+ro;Andruşu de Sus;Andruşul de Sus
+ru;Верхний Андруш;Andruşul de Sus
+ru;Вережены;Verejeni
+ru;Ватич;Vatici
+ru;Васкауцы;Văscăuţi
+ru;Васиены;Văsieni
+ru;Васильевка;Vasilievca
+ru;Васильково;Vasilcau
+ru;Василеуцы;Vasileuţi
+ru;Варзарешты;Vărzăreşti
+ru;Priozërnoye;Prioziornoe
+ru;Приозерное;Prioziornoe
+ru;Варваровка;Vărvăreuca
+ru;Варница;Varniţa
+ru;Варатик;Văratic
+ru;Валя-Трайстены;Valea -Trestieni
+ru;Валя-Сутулуй;Valea Satului
+ru;Валя-Русулуй;Valea Rusului
+ru;Валя-Радоаей;Valea Rădoaiei
+ru;Валя-Пержей;Valea Perjei
+ru;Валя-Маре;Valea Mare
+ru;Валя-луй-Влад;Valea lui Vlad
+ru;Валя-Колоницей;Valea Coloniţei
+ru;Валя-Адынкэ;Valea Adâncă
+ru;Валены;Văleni
+ru;Вадул-Туркулуй;Vadul Turcului
+ru;Вадул-Рашков;Vadul-Raşcov
+ru;Вадул-Луй-Водэ;Vadul lui Vodă
+bg;Вадул луй Водъ;Vadul lui Vodă
+lt;Vadul lui Vodė;Vadul lui Vodă
+uk;Вадул-луй-Воде;Vadul lui Vodă
+crh;Vadul luy Vode;Vadul lui Vodă
+sr;Вадул луи Вода;Vadul lui Vodă
+ru;Вадул-луй-Исак;Vadul lui Isac
+ru;Вадул-Лека;Vadul-Leca
+ru;Уютное;Uiutnoe
+ru;Устье;Ustia
+ru;Устье;Inculeţ
+ru;Ушурей;Uşurei
+ru;Урсоая;Ursoaia
+ru;Урсары;Ursari
+ru;Елизаветовка;Unţeşti
+ru;Ункитешты;Unchiteşti
+ru;Унгры;Unguri
+ru;Унгень;Ungheni
+ru;Унгены;Ungheni
+bg;Унген;Ungheni
+lt;Ungenis;Ungheni
+mk;Унгени;Ungheni
+uk;Унгени;Ungheni
+ru;Улму;Ulmu
+ru;Украинка;Ucrainca
+uk;Ukrayinka;Ucrainca
+ru;Тырзиены;Tîrzieni
+ru;Тырново;Tîrnova
+ru;Твардица;Tvardița
+ru;Тузара;Tuzara
+ru;Тутовану;Tutovanu
+ru;Тудора;Tudora
+ru;Цыра;Ţîra
+ru;Цыплетешты;Ţipleteşti
+ru;Цыпала;Ţipala
+ru;Цынцарены;Ţînţăreni
+ru;Цыгира;Ţîghira
+ru;Цыганешты;Ţigăneşti
+ru;Цыбулевка;Ţâbuleuca
+ru;Ципова;Țipova
+ru;Ципордей;Tipordei
+ru;Цибирика;Ţibirica
+ru;Цепилово;Ţepilova
+ru;Цахноуцы;Ţahnăuţi
+ru;Цауль;Ţaul
+ru;Царевка;Ţareuca
+ru;Царанкуца;Ţărăncuţa
+ru;Цапок;Ţapoc
+ru;Цамбула;Ţambula
+ru;Трушены;Truşeni
+ru;Южное;Iujnoe
+ru;Троицкое;Troiţcoe
+ru;Тринка;Trinca
+ru;Трифешты;Trifeşti
+ru;Трифауцы;Trifăuţi
+ru;Трифанешты;Trifăneşti
+ru;Страйстены;Străisteni
+ru;Трестияны;Trestieni
+ru;Требужены;Trebujeni
+ru;Требисоуцы;Trebisăuţi
+ru;Топал;Topala
+ru;Старые Томешты;Tomeştii Vechi
+ru;Томай;Tomai
+ru;Токуз;Tocuz
+ru;Токмазея;Tocmagiu
+ru;Токиле-Радуканы;Tochile-Răducani
+ru;Тогатино;Tohatin
+ru;Тодирешты;Todirești
+ru;Тодирешты;Todireşti
+ru;Точены;Toceni
+bg;Тираспол;Tiraspol
+lt;Tiraspolis;Tiraspol
+pl;Tyraspol;Tiraspol
+ru;Тирасполь;Tiraspol
+uk;Тирасполь;Tiraspol
+lv;Tiraspole;Tiraspol
+be;Ціраспаль;Tiraspol
+it;Tiraspoli;Tiraspol
+sr;Тираспољ;Tiraspol
+mk;Тираспол;Tiraspol
+ru;Тигеч;Tigheci
+ru;Тея;Telu
+ru;Тецканы;Teţcani
+ru;Тешкурены;Teşcureni
+ru;Терновка;Târnauca
+ru;Теребно;Terebna
+ru;Темелеуцы;Temeleuţi
+ru;Телица;Teliţa
+ru;Телешово;Teleşeu
+ru;Телешовка;Teleşeuca
+ru;Теленешты;Teleneşti
+sr;Теленешт;Teleneşti
+ru;Новая Татаровка;Tătărăuca Nouă
+ru;Татарешты;Tătăreşti
+ru;Татарашены;Tătărăşeni
+ru;Ташлык;Taşlâc
+ru;Тартаул-де-Салчие;Tartaul de Salcie
+ru;Тартаул;Tartaul
+ru;Тарасово;Tarasova
+ru;Тараклия-де-Салчие;Taraclia de Salcie
+ru;Тараклия;Taraclia
+bg;Тараклия;Taraclia
+fr;Tarakliya;Taraclia
+de;Tarakliya;Taraclia
+ru;Танатары;Tănătari
+ru;Талмаз;Talmaza
+ru;Таксобены;Taxobeni
+ru;Табаны;Tabani
+ru;Сыручан;Syruchan
+ru;Сырма;Sîrma
+ru;Сырково;Sîrcova
+ru;Сынжера;Sîngera
+bg;Сънджера;Sîngera
+lt;Sindžera;Sîngera
+uk;Синджера;Sîngera
+sr;Синђера;Sîngera
+ru;Светлый;Svetlîi
+ru;Свердияк;Sverdiac
+ru;Штефан-Водэ;Ştefan Vodă
+ru;Суворово;Ştefan Vodă
+ru;Суворово;Alexandru Ioan Cuza
+ru;Суворовка;Suvorovca
+ru;Суслены;Susleni
+ru;Суручены;Suruceni
+ru;Суркичены;Surchiceni
+ru;Сурик;Suric
+ru;Суклея;Sucleia
+ru;Сухулучены;Suhuluceni
+ru;Сударка;Sudarca
+ru;Стырчены;Stîrceni
+ru;Стырча;Stîrcea
+ru;Петропавловка;Petropavlovca
+ro;Sturzeşti;Sturzovca
+ru;Стурзовка;Sturzovca
+ru;Стурзены;Sturzeni
+ru;Стрымбены;Strîmbeni
+ru;Строенцы;Stroieşti
+ru;Страшены;Strășeni
+ru;Стойканы;Stoicani
+ru;Стольничены;Stolniceni
+ru;Ситохния;Sitohnia
+ru;Стодолна;Stodolna
+ru;Стежарены;Stejăreni
+ru;Стецканы;Steţcani
+ru;Степь-Сочь;Step-Soci
+ru;Степановка;Ştefăneşti
+ro;Ștefănești;Shtefaneshty
+ru;Штефанешты;Shtefaneshty
+ru;Ставчены;Stăuceni
+ru;Старые Зозулены;Zăzulenii Vechi
+ru;Старые Езарены;Iezărenii Vechi
+ru;Тыршицей;Tîrşiţei
+ru;Старые Саратены;Sărătenii Vechi
+ru;Старые Русешты;Ruseştii Vechi
+ru;Старые Редены;Rădenii Vechi
+ru;Старые Радуляны;Rădulenii Vechi
+ru;Старые Проданешты;Prodăneştii Vechi
+ru;Старые Негурены;Negurenii Vechi
+ru;Старые Морены;Morenii Vechi
+ru;Старые Лимбены;Limbenii Vechi
+ru;Старые Кукуецы;Cucuieţii Vechi
+ru;Старые Куконешты;Cuconeştii Vechi
+ru;Старые Козьмены;Cuzmenii Vechi
+ru;Старые Клокочены;Clococenii Vechi
+ru;Старые Кицканы;Chiţcanii Vechi
+ru;Старые Криганы;Crihana Veche
+ru;Старые Каракушаны;Caracuşenii Vechi
+ru;Старые Гечи;Heciul Vechi
+ru;Старые Фундуры;Fundurii Vechi
+ru;Старые Дубоссары;Dubăsarii Vechi
+ru;Старые Брынзены;Brînzenii Vechi
+ru;Старые Богены;Boghenii Vechi
+ru;Старые Биличены;Bilicenii Vechi
+ru;Старые Бадражи;Bădragii Vechi
+ru;Старый Албинец;Albineţul Vechi
+ru;Старая Теура;Tăura Veche
+ru;Старая Татаровка;Tătărăuca Veche
+ru;Старая Сарата;Sărata Veche
+ru;Старая Обрежа;Obreja Veche
+ru;Старая Ларга;Larga Veche
+ru;Старая Кобуска;Cobusca Veche
+ru;Старая Флорицоая;Floriţoaia Veche
+ru;Старая Добруджа;Dobrogea Veche
+ru;Старая Челаковка;Ciolacu Vechi
+ru;Старая Богдановка;Bogdanovca Veche
+uk;Bogdanovka-Veke;Bogdanovca Veche
+ru;Старая-Андрияшевка;Andriasevca Veche
+ru;Средняя Жора;Jora de Mijloc
+ru;Спикоаса;Spicoasa
+ru;Спея;Speia
+ru;Спариец;Şipoteni
+ru;Сорока;Soroca
+ru;Сороки;Soroca
+ru;Солтанешты;Soltăneşti
+ru;Солонец;Soloneţ
+ru;Солончены;Solonceni
+ru;Шолданешты;Şoldăneşti
+sr;Шолданешт;Şoldăneşti
+fr;Soltănești;Şoldăneşti
+de;Soltănești;Şoldăneşti
+ru;Соколены;Socoleni
+ru;Сокол;Socola
+ru;Софиевка;Sofievca
+ru;София;Sofia
+ru;Сочитены;Sociteni
+ru;Слободзея;Slobozia
+be;Слабадзея;Slobozia
+lt;Slabodzėja;Slobozia
+uk;Слободзея;Slobozia
+ru;Слободзея-Воронково;Slobozia-Vânăncău
+ru;Слободзея-Маре;Slobozia Mare
+ru;Слободзея-Кремене;Slobozia-Cremene
+ru;Слободзея-Душка;Slobozia-Duşca
+ru;Слободка-Ширеуцы;Slobozia-Şirăuţi
+ru;Слобода-Рашково;Slobozia-Raşcov
+ru;Слобода-Мэгура;Slobozia-Măgura
+ru;Слобода-Кишкарены;Slobozia-Chişcăreni
+ru;Слобода-Городиште;Slobozia-Horodişţe
+ru;Славянка;Sloveanca
+ru;Скумпия;Scumpia
+ru;Скуляны;Sculeni
+ru;Скроафа;Scroafa
+ru;Скорцены;Scorţeni
+ru;Скорены;Scoreni
+ru;Скиняны;Schineni
+ru;Скаяны;Scăieni
+ru;Сирота;Sirota
+ru;Сирец;Sireţi
+ru;Сипотены;Sipoteni
+ru;Синешты;Sineşti
+ru;Шуры;Şuri
+ru;Шумна;Şumna
+ru;Штюбеяны;Ştiubeieni
+ru;Штефанешты;Ştefăneşti
+ru;Шолтоая;Şoltoaia
+ru;Шолканы;Şolcani
+ru;Шофрынканы;Şofrîncani
+ru;Шмалена;Smalena
+ru;Чалык;Cealîc
+ru;Шишканы;Şişcani
+ru;Ширеуцы;Şirăuţi
+ru;Шипка;Şipca
+ru;Шиковец;Şicovăţ
+ru;Шестачи;Şestaci
+ru;Шерпены;Şerpeni
+ru;Сербешты;Sîrbeşti
+ru;Шептеличи;Şeptelici
+ru;Шептебань;Şaptebani
+ru;Шендрены;Şendreni
+ru;Шарканы;Şercani
+ru;Шамалия;Şamalia
+ru;Старые Шальвиры;Şalvirii Vechi
+ru;Севирово;Sevirova
+ru;Севериновка;Severinovca
+ru;Сесены;Săseni
+ru;Сергиены;Serghieni
+ru;Сенатовка;Sănătăuca
+ru;Семеновка;Semionovca
+ru;Селиште;Selişte
+ru;Силиште;Seliște
+ru;Селемет;Selemet
+ru;Сакаровка;Sacarovca
+ru;Секарены;Secăreni
+ru;Савка;Sauca
+ru;Сарацика-Веке;Sărăţica Veche
+ru;Сарацей;Sărăţei
+ru;Саратены;Sărăteni
+ru;Сарата-Резешь;Sărata-Răzeşi
+ru;Сарата-Ноуэ;Sărata Nouă
+ru;Сарата-Мерешены;Sărata Mereşeni
+ru;Сарата-Галбенэ;Sărata-Galbenă
+ru;Самурза;Samurza
+ru;Самашканы;Sămăşcani
+ru;Самананка;Sămănanca
+ru;Салкуца;Sălcuţa
+ru;Салчия;Salcia
+ru;Сахарна;Saharna
+ru;Саицы;Săiţi
+ru;Сагайдак;Sagaidac
+ru;Садык;Sadîc
+ru;Садовое;Sadovoe
+ru;Садова;Sadova
+ru;Садаклия;Sadaclia
+ru;Рышково;Rîşcova
+ru;Рышканы;Rîşcani
+ro;Рыбница;Rîbniţa
+ro;Râbnița;Rîbniţa
+ru;Рыбница;Rîbniţa
+uk;Рибниця;Rîbniţa
+pl;Rybnica;Rîbniţa
+lv;Ribņica;Rîbniţa
+lt;Ribnica;Rîbniţa
+mk;Рибница;Rîbniţa
+el;Ρύμπνιτσα;Rîbniţa
+be;Рыбніца;Rîbniţa
+bg;Ръбница;Rîbniţa
+gag;Rıbniţa;Rîbniţa
+oc;Râbniţa;Rîbniţa
+crh;Rıbnitsa;Rîbniţa
+sr;Рибница;Rîbniţa
+cs;Rybnica;Rîbniţa
+ru;Ружница;Rujniţa
+ru;Русяны;Ruseni
+ru;Русская Киселия;Chioselia Rusă
+ru;Рудь;Rudi
+ru;Рубленица;Rubleniţa
+ru;Рисипены;Risipeni
+ru;Рошу;Roşu
+ru;Рошканы;Roşcani
+ru;Рошица;Roşiţa
+ru;Романовка;Romanovca
+ru;Роги;Roghi
+ru;Резина;Rezina
+ru;Резены;Răzeni
+uk;Razen’;Răzeni
+ru;Ревака;Revaca
+ru;Реуцел;Răuțel
+ru;Редю-Маре;Rediul Mare
+ru;Редены;Rădeni
+ru;Редь-Черешновец;Redi-Cereşnovăţ
+ru;Речула;Răciula
+ru;Речешты;Receşti
+ru;Реча;Recea
+ru;Разеля;Răzălăi
+ru;Ротунда;Rotunda
+ru;Распопены;Răspopeni
+ru;Раскаецы;Răscăieţi
+ru;Рашково;Raşcov
+ru;Рамазан;Rămăzan
+ru;Ракулешты;Răculeşti
+ru;Раковец;Racovăt
+ru;Ракария;Răcăria
+ru;Радоая;Rădoaia
+ru;Пыржота;Pîrjota
+ru;Пыржолтены;Pîrjolteni
+ru;Пырыта;Pîrîta
+ru;Пырлица;Pîrliţa
+ru;Пынзарены;Pînzăreni
+ru;Pynzaren’;Pînzăreni
+ru;Пуцинтей;Puţintei
+ru;Путинешты;Putineşti
+ru;Пушкино;Dolna
+ru;Пуркары;Purcari
+ru;Пугой;Puhoi
+ru;Пугачены;Puhăceni
+ru;Прутень;Pruteni
+ru;Проскуряны;Proscureni
+ru;Прогресс;Progress
+ru;Проданешты;Prodăneşti
+ru;Присака;Prisaca
+ru;Припичены-Резешь;Pripiceni-Răzeşi
+ru;Майское;Maiscoe
+ru;Приднестровское;Tirgul-Vertiujeni
+ru;Препелица;Prepeliţa
+ru;Пражила;Prajila
+ru;Пожарены;Pojăreni
+ru;Пояна;Poiana
+ru;Порумбрей;Porumbrei
+ru;Порумбешты;Porumbeşti
+ru;Онешть;Oneşti
+ru;Поповка;Popovca
+ru;Попяска;Popeasca
+ru;Попоуцы;Păpăuţi
+ru;Попенки;Popencu
+ru;Помпа;Pompa
+ru;Покшешты;Pocşeşti
+ru;Покровка;Pocrovca
+ru;Погребя;Pohrebea
+ru;Погребены;Pohrebeni
+ru;Погорна;Pohoarna
+ru;Погорничены;Păhărniceni
+ru;Поганешты;Pogăneşti
+ro;Podoima;Podoimiţa
+ru;Подойма;Podoimiţa
+ru;Почумбауцы;Pociumbăuţi
+ru;Победа;Voinescu
+ru;Плоть;Plopi
+ru;Плоп-Штюбей;Plop-Ştiubei
+ru;Плоп;Plop
+ru;Плопь;Plopi
+ru;Плешены;Pleşeni
+ru;Питушка;Pituşca
+ru;Пиструены;Pistruieni
+ru;Пискарешты;Piscăreşti
+ru;Пикус;Picus
+ru;Пыкалово;Pâcalova
+ru;Петрушаны;Petruşeni
+ru;Петруня;Petrunea
+ru;Петровка;Petrovca
+ru;Петрос;Pietrosu
+ru;Петрешты;Petreşti
+ru;Петрены;Petreni
+ru;Петичены;Peticeni
+ru;Первомайское;Pervomaiscoe
+ru;Первомайск;Pervomaisc
+ru;Первомайское;Pervomaisc
+ru;Пересечино;Peresecina
+ru;Перерыта;Pereriţa
+ru;Перены;Pereni
+ru;Пепены;Pepeni
+ru;Пелиния;Pelinia
+ru;Пелиней;Pelinei
+ru;Печиштя;Pecişte
+ru;Паулешты;Păuleşti
+ru;Паскауцы;Păscăuţi
+ru;Пашканы;Paşcani
+ru;Поручены;Păruceni
+ru;Парушовка;Parushovka
+ru;Парково;Parcova
+ru;Парканы;Parcani
+ru;Панашешты;Pănăşeşti
+ru;Палария;Pălăria
+ru;Паланка;Palanca
+ru;Паладя;Paladea
+ru;Паик;Paicu
+ru;Падурец;Pădureț
+ru;Отак;Otac
+ro;Орхей;Orhei
+ru;Оргеев;Orhei
+bg;Орхей;Orhei
+lt;Orhėjus;Orhei
+mk;Орхеј;Orhei
+uk;Оргіїв;Orhei
+pl;Orgiejów;Orhei
+ru;Ордашей;Ordăşei
+ru;Орак;Orac
+ru;Опач;Opaci
+ru;Оницканы;Oniţcani
+ru;Онишканы;Onişcani
+ru;Онешты;Oneşti
+ru;Олишканы;Olişcani
+ru;Оланешты;Olăneşti
+ru;Окюл-Рош;Ochiul Roşu
+ru;Окюл Алб;Ochiul Alb
+ru;Октябрьское;Octeabrscoe
+ru;Октябрьское;Duşmani
+ru;Оксентия;Oxentea
+ru;Околина;Ocolina
+ru;Окница-Цэрань;Ocniţa-Ţărani
+ru;Окница-Резешь;Ocniţa-Răzeşi
+ru;Окница;Ocniţa
+ru;Окланда;Oclanda
+ru;Охринча;Ohrincea
+ru;Обилены;Obileni
+ru;Новый Гоян;Goianul Nou
+ru;Новые Зозулены;Zăzulenii Noi
+ru;Новые Езарены;Iezărenii Noi
+ru;Новые Варзарешты;Vărzăreştii Noi
+ru;Новые Трифешты;Trifeştii Noi
+ru;Новые Танатары;Tănătarti Noi
+uk;Tanatariy-Noy;Tănătarti Noi
+ru;Новые Сочи;Socii Noi
+ru;Новые Селишты;Seliştea Nouă
+ru;Новые Русешты;Ruseştii Noi
+ru;Рошиетичь;Roşietici
+ru;Новые Радуляны;Rădulenii Noi
+ru;Новые Морены;Morenii Noi
+ru;Новые Лимбены;Limbenii Noi
+ru;Новые Кырнацены;Cîrnăţenii Noi
+uk;Kyrnatseniy-Noy;Cîrnăţenii Noi
+ru;Новые Кукуецы;Cucuieţii Noi
+ru;Новые Куконешты;Cuconeştii Noi
+ru;Лебеденко;Lebedenco
+ru;Новые Гояны;Goianul Nou
+ru;Новые Гечи;Heciul Nou
+ru;Новые Ганасены;Hanăsenii Noi
+ru;Новые Фундуры;Fundurii Noi
+ru;Новые Фалешты;Făleştii Noi
+ru;Фэлештий Ной;Făleştii Noi
+uk;Фелештій-Ной;Făleştii Noi
+ru;Новые Друиторы;Duruitoarea Nouă
+ru;Новые Драгушены;Drăguşenii Noi
+ru;Новые Брынзены;Brînzenii Noi
+ru;Новые Боросены;Borosenii Noi
+ru;Новые Богены;Boghenii Noi
+ru;Новые Биличены;Bilicenii Noi
+ru;Новые Банешты;Băneştii Noi
+ru;Новые Аснашены;Hăsnăşenii Noi
+ru;Новые Анены;Anenii Noi
+ru;Новый Албинец;Albineţul Nou
+ru;Нововладимировка;Novovladimirovca
+ru;Новотроицкое;Troiţa Nouă
+uk;Troyitsa-Nousa;Troiţa Nouă
+ru;Троица;Troiţa
+ru;Новый Томай;Tomaiul Nou
+ru;Котовское;Crihana
+ru;Новосавицкая;Novosaviţcaia
+ru;Ново-Котовск;Novocotovsc
+ru;Новокомиссаровка;Comisarovca Nouă
+ru;Новая Урсоая;Ursoaia Nouă
+uk;Ursoaya-Noua;Ursoaia Nouă
+ru;Новая Стояновка;Ţiganca Nouă
+ru;Новая Теура;Tăura Nouă
+ru;Новая Сынжерея;Sîngereii Noi
+ru;Стояновка;Ţiganca
+ru;Новая Сарацика;Sărăţica Nouă
+ru;Новая Сарата;Sărata Nouă
+ru;Новая Сахарна;Saharna Nouă
+ru;Новая Погребя;Pohrebea Nouă
+ru;Новоя Обрежа;Obreja Nouă
+ru;Новая Лунга;Lunga Nouă
+ru;Новая Ларга;Larga Nouă
+ru;Новая Кошница;Coșnița Nouă
+ru;Новая Кобуска;Cobusca Nouă
+ru;Новая Кетрошика;Chetroşica Nouă
+ru;Новая Грубна;Hrubna Nouă
+ru;Новая Фрумушика;Frumuşica Nouă
+ru;Новая Флорицоая;Floriţoaia Nouă
+ru;Новая Добруджа;Dobrogea Nouă
+ru;Новая Челаковка;Ciolacu Nou
+ru;Новая Богдановка;Bogdanovca Nouă
+uk;Bogdanovka-Noua;Bogdanovca Nouă
+ru;Новая Андрияшевка;Andriaşevca Nouă
+ru;Новая Александровка;Alexandrovca Nouă
+ru;Новачь;Novaci
+ru;Нижняя Жора;Jora de Jos
+ru;Нижняя Марьяновка;Marianca de Jos
+ru;Нижняя Албота;Albota de Jos
+ru;Нижние Минчены;Mincenii de Jos
+ru;Нижние Кугурешты;Cuhureştii de Jos
+ru;Нижние Климауцы;Climăuţii de Jos
+ru;Нижние Холохоры;Halahora de Jos
+ru;Нижние Буздуганы;Buzduganii de Jos
+ru;Нижний Андруш;Andruşul de Jos
+ru;Ниспорены;Nisporeni
+ru;Нишканы;Nişcani
+ru;Ниморены;Nimoreni
+ru;Никорены;Nicoreni
+ru;Никольское;Nicolscoe
+ru;Николаевка;Nicolaevca
+ru;Незавертайловка;Nezavertailovca
+uk;Незавертайлівка;Nezavertailovca
+uk;Nezavertailivka;Nezavertailovca
+uk;Nezavertaylivka;Nezavertailovca
+ru;Немцены;Nemţeni
+ru;Nemtsen’;Nemţeni
+ru;Немировка;Nimereuca
+ru;Негурены;Negureni
+ru;Негря;Negrea
+ru;Негрешты;Negreşti
+ru;Навырнец;Năvîrneţ
+ru;Натальевка;Natalievca
+ru;Наславча;Naslavcea
+ru;Нападово;Năpadova
+ru;Нападены;Năpădeni
+ru;Мырзоая;Mîrzoaia
+ru;Мырзешты;Mîrzeşti
+ru;Мырзач;Mîrzaci
+ru;Мынзатешты;Mînzateşti
+ru;Мындрешты;Mîndreşti
+ru;Мындра;Mîndra
+ru;Мустяца;Musteaţa
+ru;Мусаит;Musaitu
+ru;Мунтяны;Munteni
+ru;Московей;Moscovei
+ru;Московей-Константинеску;Moscovei-Constantinescu
+ru;Мошаны;Moşeni
+ru;Мошана;Moşana
+ru;Морозены;Morozeni
+ru;Моровая;Morovaia
+ru;Молдаванка;Moldoveanca
+ru;Мокряки;Mocreachi
+ru;Мокра;Mocra
+ru;Мочаровка;Mocearovca
+ru;Моара-Де-Пятрэ;Moara de Piatră
+ru;Миток;Mitoc
+ru;Мисовка;Misovca
+ru;Мешены;Meşeni
+ru;Мирное;Mirnoe
+ru;Мирешты;Mireşti
+ru;Мирчешты;Mirceşti
+ru;Минжир;Mingir
+ru;Милешты;Mileşti
+ru;Миклеушены;Micleuşeni
+ru;Миклешты;Micleşti
+ru;Михайляны;Mihăileni
+ru;Новая Михайловка;Mihailovca Nouă
+ru;Михайловка;Mihailovca
+ru;Михалашаны;Mihălăşeni
+ru;Михалаша;Mihălaşa
+ru;Микауцы;Micăuţi
+ru;Мигулены;Mihuleni
+ru;Мичурино;Miciurin
+ru;Мерешовка;Mereşeuca
+ru;Merishen’;Mereşeni
+ru;Мерешены;Mereşeni
+ru;Мережы;Mereni
+ru;Новые Мерены;Merenii Noi
+ru;Мерены;Mereni
+ru;Мелешены;Meleşeni
+ru;Мэгура;Măgura
+ru;Медвежа;Medveja
+ru;Новые Мындрешты;Mîndreştii Noi
+ru;Маяк;Maiac
+bg;Маяк;Maiac
+lt;Majakas;Maiac
+cs;Majak;Maiac
+eu;Maiak;Maiac
+uk;Маяк;Maiac
+sr;Мајак;Maiac
+ru;Матеуцы;Mateuţi
+ru;Машкауцы;Maşcăuţi
+ru;Маркулешты;Mărculeşti
+ru;Маркауцы;Mărcăuţi
+ru;Маркауцы;Marcăuţi
+ru;Маринич;Marinici
+ru;Марандены;Mărăndeni
+ru;Марамоновка;Maramonovca
+ru;Манта;Manta
+ru;Манойлешты;Mănoileşti
+ru;Малый Молокиш;Molochişul Mic
+ru;Малые Милешты;Mileştii Mici
+ru;Малые Котюжаны;Cotiujenii Mici
+ru;Моловата;Molovata
+ru;Новая Моловата;Molovata Nouă
+ru;Малкоч;Malcoci
+ru;Малкауцы;Mălcăuţi
+ru;Малиновское;Malinovscoe
+ru;Молешты;Moleşti
+ru;Малаешты;Mălăieşti
+ru;Малаешты;Mălăleşti
+ru;Малая Кожданглия;Malaya Kozhdangliya
+ru;Максимовка;Maximovca
+ru;Максимены;Maximeni
+ru;Макаровка;Măcăreuca
+ru;Макарешты;Măcăreşti
+ru;Мэгуреле;Măgurele
+ru;Лядовены;Corlăteni
+ru;Лупария;Lupăria
+ru;Лупа-Реча;Lupa-Recea
+ru;Лунга;Lunga
+ru;Лукашовка;Lucăşeuca
+ru;Лукачены;Lucăceni
+ru;Лучешты;Luceşti
+ru;Пеливан;Pelivan
+ru;Лозово;Lozova
+ru;Лопацика;Lopăţica
+ru;Лопатник;Lopatnic
+ru;Лопатна;Lopatna
+ru;Логофтены;Logofteni
+ru;Логанешты;Logăneşti
+ru;Ливезь;Livezi
+ru;Ливэдень;Mîndîc
+ru;Липовены;Lipoveni
+ru;Липованка;Lipovanca
+ru;Липник;Lipnic
+ru;Липканы;Lipcani
+lt;Lipcanis;Lipcani
+uk;Липкани;Lipcani
+ru;Липчены;Lipceni
+ru;Лингура;Lingura
+ru;Лидовка;Lidovca
+ru;Леушены;Leuşeni
+ru;Leushen’;Leuşeni
+ru;Леово;Leova
+ru;Леонтьево;Leuntea
+ru;Ленкауцы;Lencăuţi
+ru;Ленино;Lenin
+ru;Лека;Leca
+ru;Сынжерея;Sîngerei
+ru;Лазовск;Sîngerei
+ru;Лазо;Chişcăreni
+ru;Лазо;Piatra
+ru;Ларгуца;Lărguţa
+ru;Ларга;Larga
+ru;Лапушна;Lăpuşna
+ru;Лалово;Lalova
+ru;Кыет;Cîietu
+ru;Кюрт;Chiurt
+ru;Кышлица-Прут;Cîşliţa-Prut
+ru;Кышла;Cîşla
+ru;Кырпешты;Cîrpeşti
+ru;Кырнешти;Cîrneşti
+ru;Кырнацены;Cirnăţeni
+ru;Кымпул-Дрепт;Cîmpul Drept
+ru;Кымпень;Alexanderfeld
+ru;Кузьмин;Cuzmin
+ru;Куйзовка;Cuizăuca
+ru;Кушмирка;Cuşmirca
+ru;Куртоая;Curtoaia
+ru;Курлучены;Făgureni
+ru;Курешница;Cureşniţa
+ru;Куратура;Curătura
+ru;Купораны;Cuporani
+ru;Купкуй;Cupcui
+ru;Калининск;Cupcini
+be;Купчынь;Cupcini
+bg;Купчини;Cupcini
+lt;Kupčinas;Cupcini
+uk;Купчінь;Cupcini
+sr;Купкини;Cupcini
+ru;Кунича;Cunicea
+ru;Кукоара;Cucoara
+ru;Кухнешты;Cuhneşti
+ru;Кучоая;Cucioaia
+ru;Куболта;Cubolta
+ru;Круглик;Cruglic
+ru;Крива;Criva
+ru;Кристешты;Cristeşti
+ru;Кришкауцы;Crişcăuţi
+ru;Криково;Cricova
+be;Крыкава;Cricova
+bg;Криково;Cricova
+lt;Krikova;Cricova
+lv;Krikova;Cricova
+uk;Криково;Cricova
+sr;Крикова;Cricova
+ru;Гоян;Goian
+ru;Крецоая;Creţoaia
+ru;Кременчуг;Cremenciug
+uk;Кременчук;Cremenciug
+ru;Красный Виноградарь;Crasnâi Vinogradari
+ru;Krasnyy Oktyabr’;Crasnăi Octeabri
+ru;Красный Октябрь;Crasnăi Octeabri
+ru;Красное;Crasnoe
+ru;Красногорка;Crasnogorca
+ru;Красноармейское;Crasnoarmeiscoe
+ru;Красненькое;Crasnencoe
+ru;Красная Горка;Crasnaia Gorca
+ru;Красная Бессарабия;Crasnaia Besarabia
+ru;Краснашены;Crăsnăşeni
+ru;Крачун;Crăciun
+ru;Кожушна;Cojușna
+ru;Козешты;Cozeşti
+ru;Койково;Coicova
+ru;Ковырлуй;Covurlui
+ru;Котюжаны;Cotiujeni
+ru;Котюжаны;Cotiujenii Mari
+ru;Котяла;Coteala
+ru;Котул-Морий;Cotul Morii
+ru;Котовск;Regina Maria
+ru;Хынчешты;Hînceşti
+ru;Котовск;Hînceşti
+ro;Raionul Hîncești;Hînceşti
+ro;Hâncești;Hînceşti
+ru;Котово;Cotova
+ru;Котовка;Cotovca
+ru;Котиганы;Cotihana
+ru;Кот;Cot
+ru;Костулены;Costuleni
+ru;Костешты;Costeşti
+ru;Косоуцы;Cosăuţi
+ru;Коштангалия;Coştangalia
+ru;Кошница;Coșnița
+ru;Кошкодены;Coşcodeni
+ru;Кошкалия;Coşcalia
+ru;Кошерница;Coşerniţa
+ru;Кошены;Coşeni
+ru;Кушеловка;Cuşelăuca
+ru;Коржово;Corjova
+ru;Коржево;Corjova
+bg;Коржова;Corjova
+uk;Коржова;Corjova
+ru;Коржеуцы;Corjeuţi
+ru;Коротное;Corotna
+ru;Коробчены;Coropceni
+ru;Корново;Cornova
+ru;Корнешты;Corneşti
+ru;Коркмаз;Crocmaz
+ru;Корестоуцы;Corestăuţi
+ru;Корбу;Corbu
+ru;Копчак;Copceac
+ru;Копанка;Copanca
+ru;Копачены;Copăceni
+ru;Константиновка;Constantinovca
+ru;Константиновка;Constantineşti
+ru;Конгазчик Верхний;Congazcicul de Sus
+ru;Конгазчик-Нижний;Congazcicul de Jos
+ru;Кондрица;Condriţa
+ru;Кондратешты;Condrăteşti
+ru;Колосова;Colosova
+ru;Колосово;Colosova
+ru;Колоница;Coloniţa
+ru;Коликауцы;Colicăuţi
+ru;Колибаш;Colibaşi
+ru;Колибабовка;Colibabovca
+ru;Колбасна;Colbasna
+ru;Кукурузены;Cucuruzeni
+ru;Когыльничены;Cogîlniceni
+ru;Кодрянка;Codreanca
+ru;Кодру;Codru
+ru;Скиноса;Codru
+bg;Кодру;Codru
+lt;Kodru;Codru
+uk;Кодру;Codru
+crh;Kodru;Codru
+sr;Кодру;Codru
+ru;Кодряны;Codreni
+ru;Кочулия;Cociulia
+ru;Кочиеры;Cocieri
+ru;Кобыльня;Cobîlnea
+ru;Кобань;Cobani
+ru;Князевка Вторая;Cneazevca
+ru;Старая Князевка;Staraya Knyazevka
+ru;Клокушна;Clocuşna
+ru;Клишово;Clişova
+ru;Климауцы;Climăuţi
+ru;Кызлар;Cîzlar
+ru;Кицканы;Chiţcani
+ru;Киштельница;Chiştelniţa
+ru;Киселия;Chioselia
+ru;Кирютня;Corten
+ru;Кирсово;Chirsova
+ru;Киров;Chirov
+ru;Кирово;Chirov
+ru;Киркаешты;Chircăieşti
+ru;Новые Киркаешты;Chircăieştii Noi
+uk;Kirkayeshtiy-Noy;Chircăieştii Noi
+ru;Кирканы;Chircani
+ru;Кирка;Chirca
+ru;Кириет-Лунга;Chiriet-Lunga
+uk;Kir”yet-Lunga;Chiriet-Lunga
+ru;Кириянка;Chirianca
+ru;Кирилловка;Chirilovca
+ru;Кирилены;Chirileni
+ru;Кипешка;Chipeşca
+ru;Киперчены;Chiperceni
+ru;Хомутяновка;Homuteanovca
+ru;Хрустовая;Hrustoveni
+ru;Христофоровка;Hristoforovca
+ru;Христичи;Hristici
+ru;Хоржешты;Horjeşti
+ru;Слобода-Годорожа;Slobozia-Hodorogea
+ru;Ходороуцы;Hădărăuţi
+ru;Хитрешты;Hitrești
+ru;Хилиуци;Hiliuţi
+ru;Хилиуцы;Hiliuţi
+ru;Хелештены;Heleşteni
+ru;Хатмана;Hatmana
+ru;Хаджимус;Hagimus
+ru;Аджилер;Adjiler
+ru;Хаджикиой;Hagichioi
+ru;Кетросы;Chetrosu
+ru;Кетрошены;Chetroşeni
+ru;Кетрос;Chetrosu
+ru;Кетриш;Chetriş
+ru;Кажба;Cajba
+ru;Казанжик;Cazangic
+ru;Казанешты;Căzăneşti
+ru;Казаклия;Cazaclia
+ru;Кайраклия;Cairaclia
+ru;Кайнарий-Векь;Căinarii Vechi
+ru;Каушаны;Căuşeni
+lt;Keušenis;Căuşeni
+uk;Каушани;Căuşeni
+ru;Кацалены;Căţeleni
+ru;Катранык;Catranîc
+ru;Катериновка;Caterinovca
+ru;Кашунка;Caşunca
+ru;Каштангалия;Coştangalia
+uk;Koshtangaliya;Coştangalia
+ru;Карпинянка;Cărpineanca
+ru;Карпинены;Cărpineni
+ru;Karpinen’;Cărpineni
+ru;Карманово;Carmanova
+ru;Карбуна;Cărbuna
+ru;Карболия;Carbalia
+ru;Каракуй;Caracui
+ru;Карагаш;Caragaş
+ru;Карагасаны;Carahasani
+ru;Карабетовка;Carabetovca
+ru;Каприяна;Căpriana
+ru;Капланы;Căplani
+ru;Капаклия;Capaclia
+ru;Кания;Cania
+ru;Котовское;Cotovscoe
+ru;Каменкуца;Camencuţa
+ru;Каменка;Camenca
+ru;Каменча;Camencea
+ru;Комаровка;Comarovca
+ru;Калугэр;Călugăr
+ru;Калмацуй;Călmăţui
+ru;Калинешты;Călineşti
+ru;Калиманешты;Călimăneşti
+ru;Калфа;Calfa
+ru;Каларашовка;Calaraşovca
+ru;Кабаешты;Căbăieşti
+ru;Изворы;Izvoare
+ru;Изворы;Izvuare
+ro;Izbeşte;Izbişte
+ru;Избище;Izbişte
+ru;Ивановка;Ivanovca
+ru;Иванча;Ivancea
+ru;Ишновец;Işnovăţ
+ru;Ишкалев;Ișcălău
+ru;Исерлия;Iserlia
+ru;Исайканы;Isăicani
+ru;Исаково;Isacova
+ru;Иордановка;Iordanovca
+uk;Yordanovka;Iordanovca
+ru;Инешты;Ineşti
+ru;Нукэрень;Nucăreni
+ru;Ильянка;Il'yanka
+ru;Илашкова;Ilashkova
+ru;Игнацей;Ignăţei
+ru;Яловены;Ialoveni
+ru;Кутузов;Ialoveni
+ru;Глиное;Hlinaia
+ru;Гиска;Gîsca
+ru;Гыска;Gîsca
+ru;Predmest’ye Giska;Gîsca
+ru;Гыржавка;Hîrjauca
+ru;Гыртоул-Мик;Hîrtopul Mic
+ru;Гыртопул-Маре;Hîrtopul Mare
+ru;Гыртоп;Hârtop
+ru;Гыртоп;Hîrtop
+uk;Hyrtop;Hîrtop
+ru;Гырбово;Gîrbova
+ru;Гырбовец;Hîrbovăţ
+ru;Хэнкауцы;Hancăuţi
+ru;Гвоздово;Gvozdova
+ru;Гузун;Huzun
+ru;Гутул;Hutulu
+ru;Гура-Ойтуз;Gura-Oituz
+ru;Гура-Ларга;Gura-Larga
+ru;Гура-Каменчий;Gura Camencii
+ru;Гура-Кайнарулуй;Gura Căinarului
+ru;Гура-Галбеней;Gura Galbenei
+ru;Гура-Быкулуй;Gura Bîcului
+ru;Gul’boaka;Hulboaca
+ru;Гульбоака;Hulboaca
+ru;Грушка;Hruşca
+ru;Грушево;Hruşova
+ru;Грозешты;Grozeşti
+ru;Грозаска;Grozasca
+ru;Гринауцы-Рая;Grinăuţi-Raia
+ru;Гринауцы;Grinăuţi
+ru;Гремешты;Grimeşti
+ru;Гриманкауцы;Grimăncăuţi
+ru;Григорешты;Grigoreşti
+ru;Григорьевка;Grigorievca
+uk;Grigor”yevka;Grigorievca
+ru;Григоровка;Grigorăuca
+ru;Григориополь;Hryhoriopol
+be;Грыгарыёпаль;Hryhoriopol
+lt;Grigoriopolis;Hryhoriopol
+uk;Григоріополь;Hryhoriopol
+de;Grigoriopol;Hryhoriopol
+fi;Grigoriopol;Hryhoriopol
+bg;Григориопол;Hryhoriopol
+fr;Grigoriopol;Hryhoriopol
+sr;Григориопол;Hryhoriopol
+sv;Grigoriopol;Hryhoriopol
+en;Grigoriopol;Hryhoriopol
+it;Grigoriopol;Hryhoriopol
+es;Grigoriopol;Hryhoriopol
+cs;Grigoriopol;Hryhoriopol
+hsb;Grigoriopol;Hryhoriopol
+pl;Grigoriopol;Hryhoriopol
+ro;Grigoriopol;Hryhoriopol
+nl;Grigoriopol;Hryhoriopol
+ru;Грибово;Gribova
+ru;Грэдиница;Grădiniţa
+ru;Греблешты;Grebleşti
+ru;Гратиешты;Grătieşti
+ru;Градище;Gradişte
+ru;Готешты;Goteşti
+ru;Городка;Horodca
+ru;Городище;Horodişte
+ru;Городиште;Horodişte
+ru;Горешты;Horești
+ru;Горешты;Horeşti
+ru;Гординешты;Gordineşti
+ru;Голяны;Goleni
+ru;Голошница;Holoşniţa
+ru;Голерканы;Holercani
+ru;Оджинешты;Hogineşti
+ru;Глодяны;Glodeni
+ru;Глинжены;Hligeni
+ru;Глинжены;Glinjeni
+de;Glückstal;Hlinaia
+de;Glücktal;Hlinaia
+ru;Глинка;Hlina
+ru;Главан;Ţarigrad
+ru;Гиждияны;Hîjdieni
+ru;Гирово;Hirova
+ru;Гиришены;Hirişeni
+ru;Гирчешты;Hîrceşti
+ru;Гинкауцы;Hîncăuţi
+ru;Гиндешты;Ghindești
+ru;Гиличены;Ghiliceni
+ru;Гидулены;Ghiduleni
+ru;Гидирим;Ghidirim
+ru;Гидигич;Ghidighici
+ru;Гетлово;Ghetlova
+ru;Гершуновка;Gherşunovca
+ru;Германешты;Ghermăneşti
+ru;Герман;Gherman
+ru;Гередеевка;Heredeuca
+ru;Гырбовец;Hîrboveţ
+ru;Гелтос;Ghioltosu
+ru;Гелауза;Ghelăuza
+ru;Гайдар;Gaidar
+ru;Гавриловка;Gavrilovca
+ru;Гаваноаса;Găvănoasa
+ru;Гаузены;Găuzeni
+ru;Гаурены;Găureni
+ru;Гашпар;Gaşpar
+ru;Гармацкое;Harmaţca
+ru;Гарагыш;Haragîş
+ru;Гараба;Haraba
+ru;Ганск;Hansca
+ru;Гангура;Gangura
+ru;Ганчешты;Hînceşti
+ru;Ганасены-де-Падуре;Hănăseni
+ru;Галешты;Găleşti
+ru;Галашаны;Gălăşeni
+ru;Фырладены;Fîrlădeni
+ru;Фынтыница;Fîntîniţa
+ru;Фынтына-Албэ;Fîntîna Albă
+ru;Фузовка;Fuzăuca
+ru;Фурчены;Furceni
+ru;Фундул-Галбеней;Fundul Galbenei
+ru;Фунд Сарацика;Fund Saratsika
+ru;Фрунзе;Frunză
+bg;Фрунзе;Frunză
+lt;Fruncė;Frunză
+uk;Фрунзе;Frunză
+sr;Фрунза;Frunză
+ru;Фрумушика;Frumuşica
+ru;Фрумоаса;Frumoasa
+ru;Фрасинешты;Frăsineşti
+ru;Фрасин;Frasin
+ru;Флорешты;Floreşti
+sr;Флорешт;Floreşti
+ru;Флорены;Floreni
+ru;Флокоаса;Flocoasa
+ru;Филиппены;Filipeni
+ru;Фетица;Fetiţa
+ru;Фетешты;Feteşti
+ru;Фештелица;Feşteliţa
+ru;Ферапонтьевка;Ferapontievca
+ru;Фэгэдэу;Făgădău
+ru;Федосеевка;Fedoseevca
+ru;Фаурешты;Făureşti
+ru;Фалешты;Fălești
+uk;Фалешти;Fălești
+sr;Фалешт;Fălești
+ru;Етулия;Etulia
+ru;Джурджулешты;Giurgiuleşti
+ru;Джолтай;Joltai
+uk;Zholtay;Joltai
+ru;Джамана;Geamănă
+ru;Дзержинское;Dzerjinscoe
+ru;Дышково;Dişcova
+ru;Дируитор;Duruitoarea
+ru;Дурлешты;Durleşti
+ru;Думены;Dumeni
+ru;Думбравица;Dumbrăviţa
+ru;Думбравены;Dumbrăveni
+ru;Дудулешты;Duduleşti
+ru;Дубово;Dubău
+ru;Дубовка;Dubovca
+ru;Дубно;Dubna
+ro;Дубэсарь;Dubăsari
+ru;Дубоссары;Dubăsari
+be;Дубэсар;Dubăsari
+bg;Дубъсари;Dubăsari
+lt;Dubesaris;Dubăsari
+uk;Дубоссари;Dubăsari
+sl;Dubosari;Dubăsari
+mk;Дубасари;Dubăsari
+sr;Дубасар;Dubăsari
+el;Ντουμποσάρι;Dubăsari
+cs;Dubossary;Dubăsari
+pl;Dubosary;Dubăsari
+ru;Дружинены;Drujineni
+ru;Почумбены;Pociumbeni
+ru;Дрождиены;Drojdieni
+ru;Дрокия;Drochia
+ru;Дрепкауцы;Drepcăuţi
+ru;Драсличены;Drăsliceni
+ru;Драгушены;Drăguşeni
+ru;Драганешты;Drăgăneşti
+ru;Дойна;Doina
+ru;Дойбаны Вторые;Doibani Doi
+ru;Дойбаны Первые;Doibani Unul
+ru;Дороцкое;Doroţcaia
+ru;Донич;Donici
+ru;Дондушены;Donduşeni
+ru;Домулужаны;Domulgeni
+ru;Доминтены;Dominteni
+ru;Добруша;Dobruşa
+ru;Днестровск;Dnestrovsc
+be;Днястроўск;Dnestrovsc
+lt;Dnestrovskas;Dnestrovsc
+uk;Дністровськ;Dnestrovsc
+de;Dnestrowsk;Dnestrovsc
+bg;Днестровск;Dnestrovsc
+sr;Днестровск;Dnestrovsc
+cs;Dněstrovsk;Dnestrovsc
+ru;Димитрово;Dimitrova
+ru;Дмитриевка;Dumitreni
+ru;Дезгинже;Dezghingea
+ru;Дерменжи;Dermengi
+ru;Деркауцы;Dărcăuţi
+ru;Деренев;Dereneu
+ru;Дынжаны;Dîngeni
+ru;Делакеу;Delacău
+ru;Дану;Danu
+ru;Данку;Dancu
+ru;Данчены;Dănceni
+ru;Дахнович;Dahnovici
+ru;Криуляны;Criuleni
+ru;Конгаз;Congaz
+ro;Комрат;Comrat
+pl;Komrat;Comrat
+ru;Комрат;Comrat
+bg;Комрат;Comrat
+lt;Komratas;Comrat
+mk;Комрат;Comrat
+uk;Комрат;Comrat
+be;Камрат;Comrat
+el;Κομράτ;Comrat
+hr;Komrat;Comrat
+gag;Komrat;Comrat
+ru;Чимишлия;Cimişlia
+ru;Чутулешты;Ciutuleşti
+ru;Чутешты;Ciuteşti
+ru;Чумай;Ciumai
+ru;Чекур-Минжир;Ciucur-Mingir
+uk;Chukur-Mindzhir;Ciucur-Mingir
+ru;Чуфлешты;Ciufleşti
+ru;Чучуены;Ciuciuieni
+ru;Чучуля;Ciuciulea
+ru;Чучулены;Ciuciuleni
+ru;Чорна;Cioma
+ru;Чорешты;Cioreşti
+ru;Чоплены;Ciopleni
+ru;Чокылтяны;Ciocîlteni
+ru;Чок-Майдан;Cioc Maidan
+ru;Чобручи;Cioburciu
+hu;Csöbörcsök;Cioburciu
+lt;Čoburču;Cioburciu
+uk;Чобручі;Cioburciu
+ru;Чоара;Cioara
+pl;Kiszyniów;Chişinău
+be;Кішынёў;Chişinău
+bg;Кишинев;Chişinău
+bs;Kišinjev;Chişinău
+cs;Kišiněv;Chişinău
+el;Κισινάου;Chişinău
+hr;Kišinjev;Chişinău
+hu;Kisinyov;Chişinău
+lt;Kišiniovas;Chişinău
+lv;Kišiņeva;Chişinău
+ru;Кишинёв;Chişinău
+sk;Kišiňov;Chişinău
+sr;Кишињев;Chişinău
+ru;Кишинэу;Chişinău
+ru;Чишмя;Cişmea
+ru;Чишмикиой;Cişmichioi
+ru;Чинишеуцы;Cinişeuţi
+ru;Чимишены;Cimişeni
+ru;Чигырляны;Cigîrleni
+uk;Chigyrlen’;Cigîrleni
+ru;Чигоряны;Cihoreni
+ru;Четырены;Cetireni
+ru;Чернолевка;Cernoleuca
+ru;Черница;Cerniţa
+ru;Черлина;Cerlina
+ru;Черепково;Ciripcău
+ru;Чепелеуцы;Cepeleuţi
+ru;Чепария;Cepăria
+ru;Фрунзены;Cenuşa
+ru;Ченак;Cenac
+ru;Чебалакчия;Ciobalaccia
+ru;Чебановка;Ciobanovca
+ru;Чебанка;Ciobanovca
+ru;Чадыр-Лунга;Ceadîr-Lunga
+ru;Чадыр;Ceadîr
+ru;Кантемир;Cantemir
+de;Kantemir;Cantemir
+be;Каменка;Camenca
+uk;Кам'янка;Camenca
+pl;Kamionka;Camenca
+bg;Каменка;Camenca
+lt;Kamenka;Camenca
+crh;Kamenka;Camenca
+sr;Каменка;Camenca
+cs;Kamenka;Camenca
+ru;Калараш;Călăraşi
+uk;Калараш;Călăraşi
+ru;Думбравены;Căinari
+uk;Kaynar;Căinari
+uk;Kaynar’;Căinari
+bg;Кайнари;Căinari
+sr;Каинари;Căinari
+bg;Кахул;Cahul
+ro;Кахул;Cahul
+ru;Кахул;Cahul
+be;Кахул;Cahul
+gag;Kahul;Cahul
+lt;Kahulis;Cahul
+mk;Кахул;Cahul
+uk;Кагул;Cahul
+pl;Kaguł;Cahul
+ru;Кагул;Cahul
+ru;Бырново;Bîrnova
+ru;Бырладяны;Bîrlădeni
+ru;Быковец;Bucovăţ
+ru;Бычок;Bâcioc
+ru;Бужор;Bujor
+ru;Буздужаны;Buzdugeni
+ru;Бутучены;Butuceni
+ru;Бутучаны;Butuceni
+ru;Буцены;Buţeni
+ru;Бутор;Butor
+ru;Бутешты;Buteşti
+ru;Бушовка;Buşăuca
+ru;Бушила;Buşila
+ru;Бурсук;Bursuc
+ru;Бурланешты;Burlăneşti
+ru;Бурлаки;Burlacu
+ru;Бурлачены;Burlăceni
+ru;Бургеля;Burghelea
+ru;Бумбата;Bumbăta
+ru;Троян;Troian
+ru;Булгак;Bulhac
+ru;Булбоака;Bulboaca
+ru;Бульбоака;Bulboaca
+ru;Булаешты;Bulăieşti
+ru;Буларда;Bularda
+ru;Букурия;Bucuria
+ru;Бухна;Bukhna
+ru;Комрат;Bugeac
+ru;Будей;Budăi
+ru;Будешты;Budeşti
+ru;Буда;Buda
+ru;Бучушка;Buşâuca
+ru;Бучумены;Buciumeni
+ru;Бубуечь;Bubuieci
+ru;Брынзены;Brînzeni
+ru;Брынза;Brînza
+ru;Бряново;Breanova
+ru;Бруслаки;Bruslachi
+ru;Броштяны;Broşteni
+ru;Бричева;Briceva
+ru;Бричаны;Briceni
+pl;Bryczany;Briceni
+uk;Бричани;Briceni
+ru;Брезоая;Brezoaia
+ru;Брежены;Brejeni
+ru;Брайково;Braicău
+ru;Бравича;Bravicea
+ru;Бравичены;Brăviceni
+ru;Братушаны;Brătuşeni
+ru;Братулени;Brătuleni
+ru;Браништа;Branişte
+ru;Бранешты;Brăneşti
+ru;Браила;Brăila
+ru;Бозиены;Bozieni
+ru;Ботнарешты;Botnăreşti
+ru;Боска;Bosca
+ru;Бороганы;Borogani
+ru;Болцун;Bolţun
+ru;Большой Молокиш;Molochişul Mare
+ru;Большой Фонтан;Bol'shoy Fontan
+ru;Большие Аснашены;Hăsnăşenii Mari
+ru;Большая Киселия;Chioselia Mare
+ru;Болотино;Balatina
+ru;Бологаны;Bolohan
+ru;Болдурешты;Boldureşti
+ru;Болчаны;Bălceana
+ru;Булбочи;Bulboci
+ru;Боканы;Bocani
+ru;Богзешты;Bogzeşti
+ru;Богичены;Boghiceni
+ru;Богданешты;Bogdăneşti
+ru;Бобулешты;Bobuleşti
+ru;Боблетичи;Bobletici
+ru;Бобейка;Bobeica
+ru;Блюменталь;Blyumental'
+ru;Ближний Хутор;Blijnii Hutor
+ru;Блештены;Bleşteni
+ru;Биешты;Bieşti
+ru;Бишкотары;Codreni
+ru;Ореховка;Orehovca
+ru;Бисерикань;Bisericani
+ru;Бируинца;Borceag
+ru;Безены;Bezeni
+ru;Бессарабка;Basarabca
+ru;Бештемак;Beștemac
+ru;Бешгиоз;Beşghioz
+ru;Бешалма;Beșalma
+ru;Берлинцы;Berlinţi
+ru;Березложи;Berezlogi
+ro;Berești;Bereshty
+ru;Берешты;Bereshty
+de;Tighina;Bender
+en;Tighina;Bender
+bg;Тигина;Bender
+fr;Tighina;Bender
+lt;Benderai;Bender
+ru;Тигина;Bender
+nl;Tighina;Bender
+no;Tighina;Bender
+ro;Tighina;Bender
+ru;Бендеры;Bender
+sv;Tighina;Bender
+et;Tighina;Bender
+bg;Бендери;Bender
+lv;Bendera;Bender
+pt;Tighina;Bender
+sk;Bendery;Bender
+pl;Bendery;Bender
+be;Бендэр;Bender
+mk;Бендер;Bender
+uk;Бендери;Bender
+ru;Белявинцы;Ghilavăţ
+ru;Белочи;Beloci
+ru;Баюш;Băiuş
+ru;Баймаклия;Baimaclia
+ru;Баурчи-Молдовень;Baurci-Moldoveni
+ru;Баурчи;Baurci
+ru;Батыр;Batîr
+ru;Батык;Batîc
+ru;Бошкана;Boşcana
+ru;Башкалия;Başcalia
+ru;Бессарабка;Basarabeasca
+bg;Бесарабка;Basarabeasca
+lt;Basarabiaska;Basarabeasca
+uk;Бессарабка;Basarabeasca
+ru;Баронча;Baroncea
+ru;Бардар;Bardar
+ru;Барбоены;Bărboieni
+ru;Барабой;Baraboi
+ru;Банешты;Băneşti
+ru;Балцац;Bălţaţi
+ru;Балцата;Bălţata
+bg;Белци;Bălţi
+fr;Municipalité de Bălţi;Bălţi
+lt;Belcai;Bălţi
+pl;Bielce;Bălţi
+ru;Бельцы;Bălţi
+lv;Belci;Bălţi
+ru;Балмаз;Balmaz
+ru;Балкауцы;Bălcăuţi
+ru;Балаурешты;Bălăureşti
+ru;Баласинешты;Balasineşti
+ru;Балашешты;Bălăşeşti
+ru;Балашешты;Bălăşecţi
+ru;Баланешты;Bălăneşti
+ru;Балабан;Balabanu
+ru;Балабанешты;Bâlăbăneşti
+ru;Бакшены;Băcşeni
+ru;Баксаны;Băxani
+ru;Баху;Bahu
+ru;Бахмут;Bahmut
+ru;Бачкалия;Baccealia
+ru;Боканча-Скит;Bocancea-Schit
+ru;Багринешты;Băhrineşti
+ru;Румянцево;Rumeanţev
+ru;Бадику-Молдавское;Badicul Moldovenesc
+ru;Бадичаны;Bădiceni
+ru;Бачой;Băcioi
+ru;Аврамень;Avrămeni
+ru;Авдарма;Avdarma
+ru;Отоваска-Бык;Otovaska-Byk
+ru;Атаки;Otaci
+ru;Артемоновка;Artimonovca
+ru;Арионешты;Arioneşti
+ru;Антоновка;Antoneuca
+ru;Антоновка;Antonovca
+ru;Антоновка;Antoneşti
+ru;Андреевка;Andreevca
+ru;Алуниш;Aluniş
+ru;Алуат;Aluatu
+ru;Алексеевка;Alexeevca
+ru;Алексеевка;Alexeuca
+ru;Александровка;Alexandrovca
+ru;Александрены;Alexăndreni
+ru;Алчедар;Alcedar
+ru;Албина;Albina
+ru;Алава;Alava
+ru;Акуй;Acui
+ru;Агрономовка;Agronomovca
+ru;Абаклия;Abaclia
+ru;Шевченко;Şevcenco
+ru;Победа;Pobeda
+ru;Новые Каракушаны;Caracuşenii Noi
+ru;Застынка;Zastînca
+ru;Ротар;Rotari
+ru;Рогожаны;Rogojeni
+ru;Александрешты;Alexăndreşti
+ru;Озерное;Izvoare
+ru;Ратуш;Ratuş
+ru;Ульма;Ulmu
+ru;Подгорены;Podgoreni
+ru;Ватра;Vatra
+ru;Гидигич;Vatra
+bg;Ватра;Vatra
+uk;Ватра;Vatra
+sr;Ватра;Vatra
+ru;Русены;Ruseni
+ru;Флорика;Florica
+ru;Чореску;Ciorescu
+ru;Крикова-Ноуэ;Ciorescu
+ru;Новоселовка;Novosiolovca
+ru;Безеда;Bezeda
+ru;Зарожаны;Zarojeni
+ru;Гринауцы-Молдова;Grinăuţi-Moldova
+ru;Пивничаны;Pivniceni
+ru;Рошканий-де-Сус;Roşcanii de Sus
+ru;Друца;Druţa
+ru;Новая Баронча;Baroncea Nouă
+ru;Новые Шуры;Şurii Noi
+ru;Старая Кетрошика;Chetroşica Veche
+ru;Новые Братушаны;Brătuşenii Noi
+ru;Новые Михайлены;Mihăilenii Noi
+ru;Чубара;Ciubara
+ru;Карайман;Caraiman
+ru;Новые Бадражи;Bădragii Noi
+ru;Сергеевка;Sergheuca
+ru;Новая Голошница;Holoşniţa Nouă
+ru;Новые Шальвиры;Şalvirii Noi
+ru;Гиздита;Ghizdita
+ru;Еленовка;Elenovca
+ru;Новые Кодряны;Codrenii Noi
+ru;Карул Фрумос;Carul Frumos
+ru;Il’ichevka;Iliciovca
+ru;Ильичевка;Iliciovca
+ru;Чапаевка;Ceapaevca
+ru;Новая Слободзея;Slobozia Nouă
+ru;Малая Татаровка;Malaya Tatarovka
+ru;Поеница;Poieniţa
+ru;Толоканешты;Tolocăneşti
+ru;Маевка;Maiovca
+ru;Березовка;Berezovca
+ru;Бочкауцы;Bocicăuţi
+ru;Корпач;Corpaci
+ru;Новые Гординешты;Gordineştii Noi
+ru;Володяны;Volodeni
+ru;Слободка;Slobodca
+ru;Грозница;Grozniţa
+ru;Малое Глиное;Hlinaia Mică
+ru;Калишкауцы;Clişcăuţi
+ru;Новые Маркауцы;Mărcăuţii Noi
+ru;Сталинешты;Stălineşti
+ru;Рынгач;Rîngaci
+ru;Кокочены;Kokocheny
+ru;Скиношика;Schinoşica
+ru;Фетяска;Feteasca
+ru;Новые Милешты;Mileştii Noi
+uk;Mileshtiy-Noy;Mileştii Noi
+ru;Новый Сагайдак;Sagaidacul Nou
+uk;Sagaydakul-Nou;Sagaidacul Nou
+en;Market;Marchet
+ru;Маркет;Marchet
+ru;Валя-Флоаря;Valea Florii
+ru;Королевка;Coroliovca
+ru;Братьяновка;Brătianovca
+ru;Анены;Anini
+ru;Руска;Rusca
+ru;Злоти;Zloţi
+uk;Zlots’;Zloţi
+ru;Добружа;Dobrogea
+ru;Пятра-Албэ;Piatra Albă
+ru;Бык;Bîc
+ru;Буга;Dolinnoe
+ru;Павловка;Pavlovca
+ru;Слободка-Медвежа;Slobozia-Medveja
+ru;Флоричень;Floriceni
+ru;Новые Булбочи;Bulbocii Noi
+ru;Новые Скиняны;Schinenii Noi
+ru;Попешты;Popeştii de Jos
+ru;Новая Курешница;Cureşniţa Nouă
+ru;Новая Рубленица;Rubleniţa Nouă
+ru;Новые Деркауцы;Dărcăuţii Noi
+ru;Собар;Sobari
+ru;Валя;Valea
+ru;Балинцы;Balinţi
+ru;Иоржница;Iorjniţa
+ru;Инундены;Inundeni
+ru;Руслановка;Ruslanovca
+ru;Ванцина;Vanţina
+ru;Луговое;Lugovoe
+ru;Малая Ванцина;Vaniţa Mică
+ru;Александру-чел-Бун;Alexandru cel Bun
+ru;Войтовка;Voitovca
+ru;Фрунзовка;Frunzăuca
+ru;Соколовка;Socolovca
+ru;Боданы;Bodeni
+ru;Селиштены;Selişteni
+ru;Одобешты;Odobeşti
+ru;Луминица;Luminiţa
+ru;Килишоая;Chilişoaia
+ru;Токила;Tochile
+ru;Мужик;Muzhik
+ru;Ориково;Oricova
+ru;Поду-Лунг;Podul Lung
+ru;Табора;Tabăra
+ru;Сака;Saca
+ru;Кетросы;Chetroasa
+ru;Крузешты;Cruzeşti
+ru;Чероборта;Ceroborta
+ru;Бунец;Buneţi
+ru;Келтуитор;Cheltuitori
+ru;Магдачешты;Măgdăceşti
+ru;Романешты;Romăneşti
+ru;Новые Галешты;Găleştii Noi
+ru;Рассвет;Rassvet
+ru;Блиндешты;Blindeşti
+ru;Новая Николаевка;Novaia Nicolaevca
+ru;Сагияны;Săghieni
+ru;Элизаветовка;Elizavetovca
+ru;Домашканы;Dămăşcani
+ru;Ретяны;Reteni
+ru;Ретяны-Василеуцы;Reteni-Vasileuţi
+ru;Новый Балан;Bălanu Nou
+ru;Слободзея-Реча;Slobozia-Recea
+ru;Новые Попешты;Popeştii Noi
+ru;Валены;Valeny
+ru;Михайляны;Mikhaylyany
+ru;Пэмынтены;Pămînteni
+ro;Сорока;Soroca
+uk;Сороки;Soroca
+ru;Липовец;Lipovăţ
+ru;Моара-Домняскэ;Moara Domnească
+ru;Золончены;Zoloceni
+ru;Новый Реуцел;Răuţelul Nou
+ru;Чулук;Ciuluc
+ru;Коада-Язулуй;Coada Iazului
+ru;Новый Кетриш;Chetrişul Nou
+ru;Новые Пынзарены;Pînzărenii Noi
+ru;Редю Второй;Rediul de Jos
+ru;Редю Первый;Rediul de Sus
+ru;Флорень;Floreni
+ru;Врынешты;Vrăneşti
+ru;Унтень;Unteni
+ru;Горешты;Unteni
+ru;Новые Петросы;Pietrosul Nou
+ru;Новая Мэгура;Măgura Nouă
+ru;Долту;Doltu
+ru;Изворень;Izvoreni
+ru;Гресены;Grăseni
+ru;Мардарьевка;Mărdăreuca
+ru;Вэдулень;Văduleni
+ru;Верхний Сагайдак;Sagaidacul de Sus
+ru;Новые Ботнарешты;Botnăreştii Noi
+ru;Албиница;Albiniţa
+ru;Новая Варница;Varniţa Nouă
+ru;Новая Калфа;Calfa Nouă
+ru;Афанасьевка;Afanasievca
+ru;Калиновка;Calinovca
+ru;Валя-Верде;Valea Verde
+ru;Загорное;Zahorna
+ru;Триколич;Tricolici
+ru;Новые Фырладяны;Fîrladenii Noi
+uk;Fyrladeniy-Noy;Fîrladenii Noi
+ru;Новый Гырбовец;Hîrbovăţul Nou
+ru;Мариян;Marian
+ru;Новая Телица;Teliţa Nouă
+ru;Индия;India
+ru;Новая Жизнь;Novaia Jizni
+ru;Нистрень;Nistreni
+ru;Димитрова;Dimitrova
+ru;Малая Ульма;Ulmul Mic
+ru;Лысая Гора;Lâsaia Gora
+ru;Советское;Sovietscoe
+ru;Буськи;Buschi
+ru;Сухая Рыбница;Suhaia Râbniţa
+ru;Станиславка;Stanislavca
+ru;Бошерница;Boşerniţa
+ru;Бируинца;Biruinţa
+ru;Новый Миток;Pelivan
+ro;Mitocul Nou;Pelivan
+ru;Чофу;Ciofu
+ru;Бондаревка;Bondareuca
+ru;Курки;Curchi
+ru;Мана;Mana
+ru;Пожарна;Pojarna
+ru;Веверица;Veveriţa
+ru;Леордоая;Leordoaia
+ru;Сверидо;Sverida
+ru;Николаевка;Neculăieuca
+ru;Одая;Odaia
+ru;Янтарное;Iantarnoe
+ru;Садки;Sadchi
+ru;Лелина;Lelina
+ru;Припичены-Курки;Pripiceni-Curchi
+ru;Керсарка;Chersac
+ru;Добрушка;Dobruşa
+ru;Марашешты;Mărăşeşti
+ru;Цыплешты;Ţipleşti
+ru;Фрунзешты;Frunzeşti
+ru;Валя-Норокулуй;Valea Norocului
+ru;Маринешты;Mărineşti
+ru;Ион-Водэ;Ion Vodă
+ru;Новые Пиструены;Pistruienii Noi
+ru;Норочены;Noroceni
+ru;Новая Кучоая;Cucioaia Nouă
+ru;Евгеньевка;Evghenievca
+ru;Клишкауцы;Clişcăuţi
+ru;Шестаки;Şestaci
+ru;Новые Кицканы;Chiţcanii Noi
+ru;Новый Вадул-Лека;Vadul-Leca Nou
+ru;Новые Пепены;Pepenii Noi
+ru;Котовское;Cucuruzenii de Sus
+ru;Новые Саратены;Sărătenii Noi
+ru;Бурсучены;Bursuceni
+ru;Леордая;Leordoaia
+ru;Дружба;Drujba
+ru;Новая Михалаша;Mihălaşa Nouă
+ru;Федоровка;Fedoreuca
+ru;Захаровка;Zahareuca
+ru;Кодрул-Ноу;Codrul Nou
+ru;Флутура;Flutura
+ru;Вранешты;Vrăneşti
+ro;Steluţa;Zviozdocica
+ru;Звездочка;Zviozdocica
+uk;Zv’ozdochka;Zviozdocica
+ru;Новые Раскаецы;Răscăieţi Noi
+ru;Новая Салкуца;Sălcuţa Nouă
+uk;Salkutsa-Noua;Sălcuţa Nouă
+ru;Арманка;Armanca
+ru;Старые Сочи;Socii Vechi
+ru;Новые Негурены;Negurenii Noi
+ro;Cioropcanii;Cioropcani
+ru;Чоропканы;Cioropcani
+ru;Меренешты;Mereneşti
+ru;Журка;Żurka
+ru;Бухта;Bukhta
+ru;Шафрановка;Şofranovca
+ru;Сухат;Suhat
+ru;Новый Кортин;Cortenul Nou
+ru;Флоричика;Floricica
+ru;Булгари;Bulgari
+ru;Димитровка;Dimitrovca
+ru;Питешты;Pitești
+ru;Богдановка;Bogdanovca
+uk;Baruch;Baurci
+ru;Новая Ивановка;Ivanovca Nouă
+ru;Броскари;Broscari
+ru;Малохорузино;Humuleşti
+ru;Новая Етулия;Etulia Nouă
+ru;Видука;Viduca
+ru;Сатук;Sătuc
+ru;Валя Гаваноса;Valya Gavanosa
+ru;Новое Александрово;Novoye Aleksandrovo
+ru;Нетуш;Netush
+ru;Гречены;Greceni
+ru;Тудорешты;Tudoreşti
+ru;Шленгер;Shlenger
+ru;Немереука;Nemereuca
+ru;Карапетовка;Carapetovca
+ru;Озёрное;Ozërnoye
+ru;Дума;Duma
+ru;Поселок Рогожаны;Poselok Rogozhany
+ru;Одая;Odaya
+ru;Новый Селемет;Novyy Selemet
+ru;Цолика;Tsolika
+ru;Гыртоп;Gyrtop
+ru;Боросяны;Borosyany
+ru;Окница;Oknitsa
+ru;Ванчикауцы;Vanchikautsy
+ru;Бричаны;Brichany
+ru;Солнечное;Solnecinoo
+ru;Навирнец;Navirnets
+ru;Фалешты;Faleshty
+ru;Синешты;Sineshty
+ru;Братулены;Bratuleny
+ru;Ивановка;Ivanovka
+ru;Кайнары;Kaynary
+ru;Редю-маре;Redyu-Mare

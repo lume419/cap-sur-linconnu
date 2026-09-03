@@ -1,0 +1,1797 @@
+0;28.1629,46.0121;MD-3933;Cahul;Zîrneşti
+0;28.8459,46.8389;MD-6831;Ialoveni;Zîmbreni
+0;28.5241,47.2417;MD-3739;Straseni;Zubreşti
+0;28.9912,47.6137;MD-5530;Ribnita Tr.;Zăzuleni
+899;28.7405,47.4592;MD-3557;Orhei;Zorile
+0;29.1893,46.7383;MD-7723;Anenii Noi;Zolotievca
+0;29.0427,47.5177;MD-5521;Ribnita Tr.;Jura
+0;29.0630,47.2584;MD-4828;Criuleni;Jevreni
+0;28.9116,47.3562;MD-3542;Orhei;Jeloboc
+0;28.6151,46.5398;MD-4123;Cimislia;Javgur
+0;28.7041,47.9809;MD-6645;Floresti;Japca
+0;28.0145,48.1198;MD-5234;Drochia;Zguriţa
+0;28.1905,47.5306;MD-5837;Telenesti;Zgărdeşti
+0;28.1667,46.1833;MD-7325;Cantemir;Zereshty
+0;28.1051,46.9690;MD-6441;Nisporeni;Zberoaia
+0;27.3690,47.9760;MD-5644;Riscani;Zăicani
+0;29.1379,47.5889;MD-5525;Ribnita Tr.;Zaporojeţ
+0;28.7222,47.2050;MD-3738;Straseni;Zamciogi
+0;28.5547,48.0511;MD-6654;Floresti;Zăluceni
+2200;29.5640,46.8300;MD-3311;Tiraspol Tr.;Tiraspolul Nou
+0;29.3483,46.6194;MD-4329;Causeni;Zaim
+0;28.5543,47.7956;MD-7229;Soldanesti;Zahorna
+0;28.7278,47.5767;MD-5439;Orhei;Zahoreni
+0;27.7660,47.2450;MD-3652;Ungheni;Zagarancea
+0;28.5027,47.5222;MD-5829;Telenesti;Zăicani
+0;28.9528,47.1680;MD-4841;Criuleni;Zăicana
+0;27.2526,48.0736;MD-4646;Edinet;Zăbriceni
+0;28.7647,46.6686;MD-4121;Cimislia;Iurievca
+0;28.2599,47.0795;MD-6429;Nisporeni;Iurceni
+0;29.0077,47.8048;MD-5519;Ribnita Tr.;Hârjău
+0;29.5120,46.5804;MD-4219;Stefan-Voda;Ermoclia
+0;28.2194,46.2624;MD-7314;Cantemir;Iepureni
+0;28.4156,46.2190;MD-7324;Cantemir;Enichioi
+0;27.7166,48.2781;MD-5121;Donduseni;Elizavetovca
+0;28.0174,47.7818;MD-3151;Mun.Balti;Elizaveta
+0;27.7119,47.6350;MD-5929;Falesti;Ilenuța
+0;28.9014,47.6938;MD-5416;Rezina;Echimăuţi
+0;28.7473,46.5834;MD-4116;Cimislia;Ecaterinovca
+0;27.7584,47.6166;MD-5921;Falesti;Egorovca
+0;28.3595,48.2016;MD-3021;Soroca;Egoreni
+22872;27.3008,48.1732;MD-4601;Edinet;Edineţ
+0;28.3050,46.1412;MD-7323;Cahul;Iasnaia Poleana
+0;28.0450,48.3173;MD-3025;Soroca;Iarova
+5600;28.4268,46.4252;MD-6321;Leova;Iargara
+0;28.5874,46.6496;MD-4119;Cimislia;Ialpug
+0;28.6197,46.5855;MD-4120;Cimislia;Ialpugeni
+0;29.1606,47.3904;MD-4518;Dubasari Tr.;Iagorlâc
+0;27.6180,47.8087;MD-4925;Glodeni;Iabloana
+0;29.0755,47.4313;MD-3555;Orhei;Vîşcăuţi
+0;28.5707,47.3790;MD-3554;Orhei;Vîprova
+0;28.1025,47.1848;MD-6440;Nisporeni;Vînători
+0;28.2525,46.3815;MD-7343;Cantemir;Vîlcele
+0;28.9983,47.6659;MD-5528;Ribnita Tr.;Ofatinţi
+0;27.9081,47.2358;MD-3634;Ungheni;Vulpeşti
+0;28.1906,47.1540;MD-6421;Nisporeni;Vulcăneşti
+14352;28.4061,45.6849;MD-5301;Comrat;Vulcăneşti
+0;28.4686,46.5829;MD-6334;Leova;Vozneseni
+0;28.4875,47.2713;MD-3735;Straseni;Voinova
+0;28.8547,47.5592;MD-3556;Orhei;Voroteţ
+0;28.5359,47.9551;MD-6652;Floresti;Octeabriscoe
+0;27.9250,47.8892;MD-5219;Lazo;Lazo
+0;28.5126,48.0672;MD-3048;Soroca;Vărăncău
+0;29.1178,47.7050;MD-5535;Ribnita Tr.;Vărăncău
+0;28.4308,47.1527;MD-3736;Straseni;Vorniceni
+0;28.2873,48.0933;MD-3049;Soroca;Voloave
+0;28.3205,48.1031;MD-3050;Soroca;Voloviţa
+0;29.6063,46.4273;MD-4241;Stefan-Voda;Volintiri
+0;27.7323,48.4514;MD-7135;Ocnita;Vălcineţ
+0;28.1269,47.2681;MD-4441;Calarasi;Vălcineţ
+0;28.2248,48.0118;MD-3047;Soroca;Vădeni
+0;28.2329,47.6591;MD-6235;Singerei;Vladimireuca
+0;29.8290,46.8450;MD-5728;Slobozia Tr.;Vladimirovca
+0;28.3648,45.7876;MD-5323;Cahul;Vladimirovca
+0;27.9225,48.2455;MD-5142;Soroca;Visoca
+1800;28.4480,46.3326;MD-7342;Cantemir;Vişniovca
+0;28.5327,45.8026;MD-7426;Taraclia;Vinogradovca
+0;29.4910,47.0832;MD-4029;Grigoriopol Tr.;Vinogradnoe
+0;28.2917,46.1783;MD-7318;Cantemir;Victoria
+0;28.4148,46.6161;MD-6326;Leova;Victoria
+0;27.0450,48.0953;MD-4645;Edinet;Viişoara
+0;27.4480,47.6173;MD-4933;Glodeni;Viişoara
+0;29.5542,47.2024;MD-4028;Grigoriopol Tr.;Vesioloe
+0;28.5373,47.9950;MD-6653;Floresti;Vertlujeni
+0;29.0769,47.4857;MD-3535;Orhei;Jora de Sus
+0;29.3135,46.6467;MD-4329;Causeni;Marianca de Sus
+0;29.0350,47.0658;MD-4812;Criuleni;Bălţata de Sus
+0;28.4754,45.9700;MD-7412;Taraclia;Albota de Sus
+0;28.8918,47.6495;MD-5425;Rezina;Mincenii de Sus
+0;28.5583,47.9238;MD-6642;Floresti;Cuhureştii de Sus
+0;27.1826,48.2566;MD-4729;Briceni;Halahora de Sus
+0;27.8638,47.1583;MD-3651;Ungheni;Buzduganii de Sus
+0;28.2461,46.0088;MD-3912;Cahul;Andruşul de Sus
+0;27.6175,48.4394;MD-7136;Ocnita;Verejeni
+0;28.4699,47.5334;MD-5836;Telenesti;Verejeni
+0;28.6238,47.3397;MD-3553;Orhei;Vatici
+0;28.5107,47.9552;MD-6652;Floresti;Văscăuţi
+0;28.4435,47.4600;MD-5835;Telenesti;Văsieni
+0;28.5922,46.9667;MD-6830;Ialoveni;Văsieni
+0;29.1110,47.9396;MD-5531;Ribnita Tr.;Vasilievca
+0;28.4221,48.1392;MD-3046;Soroca;Vasilcau
+0;27.5117,48.0075;MD-5642;Riscani;Vasileuţi
+0;28.1930,47.1052;MD-6439;Nisporeni;Vărzăreşti
+0;29.9316,46.7954;MD-5718;Slobozia Tr.;Prioziornoe
+0;28.3144,47.8797;MD-5040;Floresti;Vărvăreuca
+4000;29.4664,46.8661;MD-3251;Bender Tr.;Varniţa
+0;27.2607,47.9172;MD-5643;Riscani;Văratic
+0;28.0686,47.0714;MD-6438;Nisporeni;Valea -Trestieni
+0;29.0022,47.0366;MD-4820;Criuleni;Valea Satului
+0;27.5857,47.4739;MD-5951;Falesti;Valea Rusului
+0;28.2627,47.7553;MD-5031;Floresti;Valea Rădoaiei
+0;28.7230,46.6219;MD-4132;Cimislia;Valea Perjei
+0;28.9277,46.0290;MD-7427;Taraclia;Valea Perjei
+0;27.8316,47.1418;MD-3651;Ungheni;Valea Mare
+0;28.1283,47.4820;MD-6224;Singerei;Valea lui Vlad
+0;28.9781,47.0234;MD-4820;Criuleni;Valea Coloniţei
+0;28.8383,48.0046;MD-6635;Camenca Tr.;Valea Adâncă
+0;28.1761,45.6320;MD-5322;Cahul;Văleni
+0;28.9868,47.9306;MD-5534;Ribnita Tr.;Vadul Turcului
+0;28.8233,47.9295;MD-7236;Soldanesti;Vadul-Raşcov
+5300;29.0757,47.0901;MD-2046;Mun.Chisinau;Vadul lui Vodă
+0;28.1712,45.7632;MD-5321;Cahul;Vadul lui Isac
+0;28.4636,47.6250;MD-5814;Telenesti;Vadul-Leca
+0;29.8673,46.8417;MD-5718;Slobozia Tr.;Uiutnoe
+0;27.5927,47.6624;MD-4932;Glodeni;Ustia
+0;28.7220,47.4494;MD-3557;Orhei;Inculeţ
+3295;29.1241,47.2552;MD-4580;Criulenii-Dub.;Ustia
+0;27.5944,47.8919;MD-5641;Riscani;Uşurei
+0;28.3150,45.8516;MD-3932;Cahul;Ursoaia
+0;29.4462,46.7051;MD-4328;Causeni;Ursoaia
+0;28.1878,47.2214;MD-4415;Calarasi;Ursari
+0;27.9100,47.2300;MD-3634;Ungheni;Unţeşti
+0;28.5279,47.9285;MD-6642;Floresti;Unchiteşti
+0;27.8702,48.3987;MD-7134;Ocnita;Unguri
+34422;27.8001,47.2102;MD-3601;Ungheni;Ungheni
+2693;28.5464,47.0184;MD-6829;Ialoveni;Ulmu
+1559;29.2755,46.4323;MD-4327;Causeni;Ucrainca
+0;28.6252,47.4435;MD-3536;Orhei;Tîrzieni
+0;27.1762,48.2042;MD-4643;Edinet;Tîrnova
+0;27.6615,48.1660;MD-5140;Donduseni;Tîrnova
+5800;28.9649,46.1483;MD-7422;Taraclia;Tvardița
+2456;28.3040,47.2424;MD-4401;Calarasi;Tuzara
+0;28.2944,46.1831;MD-7318;Cantemir;Tutovanu
+1767;30.0449,46.4366;MD-4239;Stefan-Voda;Tudora
+0;28.4036,47.8421;MD-5021;Floresti;Ţîra
+0;28.1230,47.8170;MD-6242;Singerei;Ţipleteşti
+0;28.9742,46.8303;MD-6828;Ialoveni;Ţipala
+0;28.5630,47.5720;MD-5834;Telenesti;Ţînţăreni
+0;29.1353,46.9029;MD-6538;Anenii Noi;Ţînţăreni
+0;27.8999,47.4464;MD-3624;Ungheni;Ţîghira
+0;28.5506,47.3009;MD-3734;Straseni;Ţigăneşti
+0;29.1061,47.4047;MD-4524;Dubasari Tr.;Ţâbuleuca
+0;28.9803,47.6032;MD-5421;Rezina;Țipova
+0;28.6152,47.9354;MD-6651;Floresti;Tipordei
+0;28.3668,47.3715;MD-4440;Calarasi;Ţibirica
+0;28.2279,48.1236;MD-3045;Soroca;Ţepilova
+0;28.8596,47.7424;MD-5437;Rezina;Ţahnăuţi
+0;27.6815,48.2126;MD-5141;Donduseni;Ţaul
+0;28.8823,47.7500;MD-5438;Rezina;Ţareuca
+0;28.4102,46.1076;MD-7322;Cantemir;Ţărăncuţa
+0;27.8964,47.7082;MD-5936;Falesti;Ţapoc
+0;27.9245,47.6969;MD-6241;Singerei;Ţambula
+0;28.6808,47.0716;MD-3733;Mun.Chisinau;Truşeni
+0;28.4779,45.7490;MD-5319;Cahul;Iujnoe
+0;29.0270,46.5136;MD-6717;Cimislia;Troiţcoe
+0;28.5478,46.6114;MD-6331;Leova;Troiţca
+0;27.1157,48.2094;MD-4644;Edinet;Trinca
+0;28.8048,47.6750;MD-5436;Rezina;Trifeşti
+0;28.3791,48.1613;MD-3044;Soroca;Trifăuţi
+0;28.1313,47.9440;MD-5039;Floresti;Trifăneşti
+0;28.0971,47.7429;MD-5039;Floresti;Trifăneşti
+0;28.8578,46.9063;MD-6812;Mun.Chisinau;Străisteni
+0;28.1667,46.0000;MD-3933;Cahul;Treteşti
+0;27.1311,48.2707;MD-4741;Briceni;Trestieni
+0;28.9742,47.3134;MD-3552;Orhei;Trebujeni
+0;27.1876,48.3545;MD-4740;Briceni;Trebisăuţi
+0;28.6744,46.4607;MD-4131;Cimislia;Topala
+0;27.3363,47.6553;MD-4912;Glodeni;Tomeştii Vechi
+0;27.3500,47.6667;MD-4934;Glodeni;Tomeştii Noi
+0;28.3218,46.5735;MD-6330;Leova;Tomai
+0;28.7663,46.1855;MD-6116;Comrat;Tomai
+0;29.2994,46.5263;MD-4326;Causeni;Tocuz
+0;29.3782,46.9446;MD-4027;Grigoriopol Tr.;Tocmagiu
+0;28.2443,46.5770;MD-6330;Leova;Tochile-Răducani
+0;28.9447,47.0620;MD-2092;Mun.Chisinau;Tohatin
+0;27.8224,47.3169;MD-3649;Ungheni;Todirești
+0;29.0831,46.9092;MD-6536;Anenii Noi;Todireşti
+0;28.2179,46.3668;MD-7340;Cantemir;Toceni
+157000;29.6284,46.8428;MD-3300;Tiraspol Tr.;Tiraspol
+0;28.2600,46.4658;MD-6301;Leova;Tigichanka
+0;28.3773,46.3877;MD-6329;Leova;Tigheci
+0;29.3964,46.9573;MD-4027;Grigoriopol Tr.;Telu
+0;26.9755,48.1809;MD-4739;Briceni;Teţcani
+0;27.9514,47.4113;MD-3648;Ungheni;Teşcureni
+0;29.5545,46.8124;MD-5727;Slobozia Tr.;Târnauca
+0;27.2502,48.0497;MD-4642;Edinet;Terebna
+0;28.4996,47.9795;MD-6649;Floresti;Temeleuţi
+0;28.0734,47.2538;MD-4439;Calarasi;Temeleuţi
+0;29.3068,46.9571;MD-6535;Anenii Noi;Teliţa
+0;28.7027,47.2669;MD-3550;Orhei;Teleşeu
+0;27.9021,48.2821;MD-5139;Donduseni;Teleşeuca
+6633;28.3648,47.5018;MD-5801;Telenesti;Teleneşti
+0;27.9730,48.3168;MD-5137;Soroca;Tătărăuca Nouă
+0;28.5376,47.2047;MD-3732;Straseni;Tătăreşti
+0;28.3469,46.0250;MD-3931;Cahul;Tătăreşti
+0;28.3025,46.3422;MD-7339;Cantemir;Tătărăşeni
+0;29.3942,47.0743;MD-4026;Grigoriopol Tr.;Taşlâc
+0;28.4106,45.9698;MD-3930;Cahul;Tartaul de Salcie
+952;28.3204,46.2067;MD-7338;Cantemir;Tartaul
+0;28.9601,47.8777;MD-5435;Rezina;Tarasova
+0;28.4196,46.0128;MD-3929;Cahul;Taraclia de Salcie
+0;28.5182,46.2154;MD-7344;Cantemir;Taraclia
+0;28.2261,46.2195;MD-7337;Cantemir;Taraclia
+0;29.1180,46.5678;MD-7730;Causeni;Taraclia
+13512;28.6663,45.9032;MD-7401;Taraclia;Taraclia
+0;29.4152,46.7257;MD-4324;Causeni;Tănătari
+0;29.6665,46.6368;MD-4237;Stefan-Voda;Talmaza
+0;28.2664,46.8003;MD-3423;Hincesti;Tălăieşti
+0;27.5905,47.3894;MD-5950;Falesti;Taxobeni
+0;27.1002,48.3113;MD-4738;Briceni;Tabani
+0;29.0544,47.1075;MD-4818;Criuleni;Syruchan
+0;28.2491,46.5267;MD-6328;Leova;Sîrma
+0;28.7876,47.7422;MD-5433;Rezina;Sîrcova
+7200;28.9667,46.9156;MD-2091;Mun.Chisinau;Sîngera
+0;27.8544,47.8242;MD-5616;Riscani;Singureni
+0;28.5682,46.0174;MD-3822;Comrat;Svetlîi
+0;27.7284,47.8957;MD-5637;Riscani;Sverdiac
+7700;29.6622,46.5129;MD-4201;Stefan-Voda;Ştefan Vodă
+0;28.4504,45.5969;MD-5311;Cahul;Alexandru Ioan Cuza
+0;27.8897,47.6407;MD-5942;Falesti;Suvorovca
+0;28.9903,47.4124;MD-3548;Orhei;Susleni
+0;28.6633,46.9791;MD-6827;Ialoveni;Suruceni
+0;29.0550,46.6215;MD-7729;Causeni;Surchiceni
+0;28.8749,46.6302;MD-4130;Cimislia;Suric
+0;29.6647,46.8238;MD-5725;Slobozia Tr.;Sucleia
+0;28.5197,47.4656;MD-5832;Telenesti;Suhuluceni
+0;27.7849,48.3054;MD-5136;Donduseni;Sudarca
+0;28.3651,47.8763;MD-5023;Floresti;Stîrceni
+0;27.5256,47.7931;MD-4901;Glodeni;Stîrcea
+0;28.2047,47.5969;MD-6225;Singerei;Petropavlovca
+0;27.7220,47.8039;MD-4931;Glodeni;Sturzovca
+0;27.4613,47.9171;MD-5639;Riscani;Sturzeni
+0;28.2617,46.8654;MD-3441;Hincesti;Strîmbeni
+0;28.9333,47.8894;MD-5532;Ribnita Tr.;Stroieşti
+19225;28.6077,47.1422;MD-3701;Straseni;Strășeni
+0;28.3617,48.0264;MD-3041;Soroca;Stoicani
+0;28.1644,46.2592;MD-7335;Cantemir;Stoianovca
+0;28.2044,46.0275;MD-3914;Cahul;Stoianovca
+0;27.3467,48.0400;MD-4640;Edinet;Stolniceni
+0;27.7139,47.4111;MD-3647;Ungheni;Stolniceni
+0;28.5000,46.9608;MD-3450;Hincesti;Stolniceni
+0;28.9608,47.7278;MD-5517;Ribnita Tr.;Sitohnia
+0;29.0167,47.5500;MD-5421;Rezina;Stodolna
+0;28.4170,47.1082;MD-3721;Straseni;Stejăreni
+0;28.8209,47.2359;MD-4840;Criuleni;Steţcani
+0;28.7910,47.4526;MD-3547;Orhei;Step-Soci
+0;29.3744,46.7047;MD-4325;Causeni;Ştefăneşti
+0;28.0156,47.8878;MD-5222;Drochia;Shtefaneshty
+0;29.6894,46.4456;MD-4236;Stefan-Voda;Ştefăneşti
+5700;28.8679,47.0964;MD-4839;Mun.Chisinau;Stăuceni
+0;28.3764,45.9117;MD-3926;Cahul;Moscovei Vechi
+0;27.8584,47.4087;MD-3639;Ungheni;Zăzulenii Vechi
+0;28.0878,47.5656;MD-6227;Singerei;Iezărenii Vechi
+0;28.5772,47.6908;MD-5833;Telenesti;Tîrşiţei
+0;28.5545,47.5265;MD-5830;Telenesti;Sărătenii Vechi
+0;28.6252,46.9194;MD-6825;Ialoveni;Ruseştii Vechi
+0;28.4000,47.8131;MD-5036;Floresti;Roşieticii Vechi
+0;28.0005,47.3007;MD-3642;Ungheni;Rădenii Vechi
+0;28.2641,47.9848;MD-5035;Floresti;Rădulenii Vechi
+0;28.4443,47.7146;MD-5038;Floresti;Prodăneştii Vechi
+0;27.8805,47.4126;MD-3639;Ungheni;Negurenii Vechi
+0;27.8697,47.1325;MD-3651;Ungheni;Morenii Vechi
+0;27.6082,47.6915;MD-4927;Glodeni;Limbenii Vechi
+0;27.4326,47.9078;MD-5611;Riscani;Cucuieţii Vechi
+0;27.1485,47.9668;MD-4625;Edinet;Cuconeştii Vechi
+0;27.5662,47.5264;MD-5944;Falesti;Cuzmenii Vechi
+0;27.4157,47.7185;MD-4911;Glodeni;Clococenii Vechi
+0;28.5008,47.5918;MD-5816;Telenesti;Chiţcanii Vechi
+0;28.1946,45.8466;MD-3918;Cahul;Crihana Veche
+0;29.4403,46.6472;MD-4301;Causeni;Căuşanii-Vechi
+0;27.0727,48.2714;MD-4718;Briceni;Caracuşenii Vechi
+0;28.1001,47.7974;MD-6211;Singerei;Heciul Vechi
+0;27.7169,47.7420;MD-4923;Glodeni;Fundurii Vechi
+0;29.1994,47.1349;MD-4822;Criuleni;Dubăsarii Vechi
+0;27.7114,47.3950;MD-3619;Ungheni;Cioropcanii Vechi
+0;28.4730,47.6577;MD-5813;Telenesti;Brînzenii Vechi
+0;28.0278,47.3968;MD-3614;Ungheni;Boghenii Vechi
+15479;28.0473,47.6558;MD-6214;Singerei;Bilicenii Vechi
+0;27.1090,48.0371;MD-4613;Edinet;Bădragii Vechi
+0;27.6354,47.5590;MD-5911;Falesti;Albineţul Vechi
+0;27.9510,47.5389;MD-6240;Singerei;Tăura Veche
+0;27.9823,48.2984;MD-5138;Soroca;Tătărăuca Veche
+0;27.7471,47.5026;MD-5947;Falesti;Sărata Veche
+0;27.6605,47.6799;MD-5938;Falesti;Obreja Veche
+0;28.2430,46.0687;MD-3921;Cahul;Larga Veche
+0;29.1814,46.9692;MD-6518;Anenii Noi;Cobusca Veche
+0;27.9045,47.2015;MD-3626;Ungheni;Floriţoaia Veche
+0;27.9328,47.8403;MD-6222;Singerei;Dobrogea Veche
+0;27.8610,47.4764;MD-5919;Falesti;Ciolacu Vechi
+0;28.8247,46.4744;MD-4112;Cimislia;Bogdanovca Veche
+0;29.9710,46.8208;MD-5711;Slobozia Tr.;Andriasevca Veche
+0;29.0940,47.4761;MD-3534;Orhei;Jora de Mijloc
+0;28.3761,46.0341;MD-3916;Cahul;Spicoasa
+0;29.2980,47.0100;MD-4024;Grigoriopol Tr.;Speia
+0;29.3256,46.9828;MD-6533;Anenii Noi;Speia
+0;28.4535,46.9419;MD-3451;Hincesti;Şipoteni
+27423;28.2849,48.1566;MD-3004;Soroca;Soroca
+0;28.1115,47.0579;MD-6435;Nisporeni;Soltăneşti
+0;28.4046,47.9989;MD-3040;Soroca;Soloneţ
+0;29.0046,47.8284;MD-5434;Rezina;Solonceni
+6160;28.7984,47.8162;MD-7201;Soldanesti;Şoldăneşti
+0;29.1891,46.9074;MD-6532;Anenii Noi;Socoleni
+0;28.8156,47.9070;MD-7232;Soldanesti;Socola
+0;28.4708,46.0092;MD-7412;Taraclia;Sofievca
+0;27.8648,47.9448;MD-5235;Drochia;Sofia
+0;28.3762,46.8440;MD-3449;Hincesti;Sofia
+0;28.7216,46.9419;MD-6826;Ialoveni;Sociteni
+15356;29.7045,46.7293;MD-5701;Slobozia Tr.;Slobozia
+0;28.4684,48.0685;MD-3038;Soroca;Slobozia-Vânăncău
+0;28.1740,45.5787;MD-5320;Canul;Slobozia Mare
+0;28.4206,48.0366;MD-3037;Soroca;Slobozia-Cremene
+0;29.1205,47.1665;MD-4838;Criuleni;Slobozia-Duşca
+0;29.7387,46.5082;MD-4233;Stefan-Voda;Slobozia
+0;26.8754,48.2444;MD-4737;Briceni;Slobozia-Şirăuţi
+0;28.9484,47.9509;MD-6631;Camenca Tr.;Slobozia-Raşcov
+0;27.9646,47.4861;MD-6215;Singerei;Slobozia-Măgura
+0;28.0107,47.5740;MD-6239;Singerei;Slobozia-Chişcăreni
+0;28.9378,47.5981;MD-5419;Rezina;Slobozia-Horodişţe
+0;28.3834,47.6585;MD-6212;Singerei;Sloveanca
+0;27.7374,47.4704;MD-5949;Falesti;Scumpia
+0;27.6251,47.3301;MD-3644;Ungheni;Sculeni
+0;29.2542,46.7789;MD-6537;Anenii Noi;Scroafa
+0;28.6456,47.6415;MD-5831;Telenesti;Scorţeni
+0;28.6079,47.0682;MD-3730;Straseni;Scoreni
+0;28.0950,48.0934;MD-3036;Soroca;Schineni
+0;28.9592,46.4767;MD-6715;Cimislia;Schinoasa-Sat
+0;28.1261,47.9694;MD-5027;Floresti;Scăieni
+0;27.5870,48.1779;MD-5134;Donduseni;Scăieni
+0;28.7769,47.5278;MD-3546;Orhei;Sirota
+0;28.7137,47.1341;MD-3731;Straseni;Sireţi
+0;28.1965,47.2799;MD-4438;Calarasi;Sipoteni
+0;28.0481,47.3965;MD-3646;Ungheni;Sineşti
+0;27.8570,48.0952;MD-5232;Drochia;Şuri
+0;27.7060,47.9213;MD-5640;Riscani;Şumna
+0;27.5145,48.0309;MD-5642;Riscani;Ştiubeieni
+0;28.4378,47.7319;MD-5038;Floresti;Ştefăneşti
+0;27.8145,47.4573;MD-5922;Falesti;Şoltoaia
+0;28.1103,48.1722;MD-3043;Soroca;Şolcani
+0;27.4132,48.0484;MD-4641;Edinet;Şofrîncani
+0;29.0747,47.7581;MD-5511;Ribnita Tr.;Smalena
+0;28.5528,45.9956;MD-7419;Taraclia;Cealîc
+0;28.2090,46.9823;MD-6437;Nisporeni;Şişcani
+0;26.8423,48.2398;MD-4736;Briceni;Şirăuţi
+0;28.8083,47.8484;MD-7235;Soldanesti;Şipca
+0;29.5094,47.1668;MD-4025;Grigoriopol Tr.;Şipca
+0;27.9060,47.1078;MD-3637;Ungheni;Şicovăţ
+0;28.7545,47.8601;MD-7234;Soldanesti;Şestaci
+0;29.3508,47.0220;MD-6534;Anenii Noi;Şerpeni
+0;28.3262,47.8010;MD-5031;Floresti;Sîrbeşti
+0;28.1556,48.2004;MD-3042;Soroca;Şeptelici
+0;27.3472,47.8994;MD-5638;Riscani;Şaptebani
+0;28.1839,47.1267;MD-6436;Nisporeni;Şendreni
+0;28.9314,47.5129;MD-3544;Orhei;Şercani
+0;28.4367,46.2715;MD-7336;Cantemir;Şamalia
+0;27.8448,48.1989;MD-5231;Drochia;Şalvirii Vechi
+0;28.1508,47.9265;MD-5037;Floresti;Sevirova
+0;28.7247,48.0640;MD-6630;Camenca Tr.;Severinovca
+0;28.5002,47.3681;MD-4437;Calarasi;Săseni
+0;27.3512,47.6485;MD-4912;Glodeni;Serghieni
+0;28.6751,48.0131;MD-6648;Floresti;Sănătăuca
+0;27.7519,47.2686;MD-3645;Ungheni;Semeni
+0;28.3039,46.6983;MD-3452;Hincesti;Semionovca
+0;29.5136,46.5168;MD-4232;Stefan-Voda;Semionovca
+0;28.1322,47.1677;MD-6434;Nisporeni;Selişte
+0;28.7848,47.3351;MD-3545;Orhei;Selişte
+0;28.4298,46.5275;MD-6313;Leova;Seliște
+3449;28.9264,46.5778;MD-4129;Cimislia;Selemet
+0;28.2105,47.7063;MD-6223;Singerei;Sacarovca
+0;28.3324,47.0264;MD-3448;Hincesti;Secăreni
+0;27.7304,48.3733;MD-7133;Ocnita;Sauca
+1910;28.9079,46.6153;MD-4128;Cimislia;Satul-Nou
+0;28.3158,45.8453;MD-3932;Cahul;Pelinei Noui
+0;28.5301,46.6024;MD-6332;Leova;Sărăţica Veche
+0;29.0216,47.8277;MD-5519;Ribnita Tr.;Sărăţei
+0;28.1673,46.8576;MD-3440;Hincesti;Sărăteni
+0;28.4662,46.6096;MD-6326;Leova;Sărăteni
+0;28.2651,46.6155;MD-6325;Leova;Sărata-Răzeşi
+0;28.3884,46.4931;MD-6324;Leova;Sărata Nouă
+0;28.5022,46.8005;MD-3447;Hincesti;Sărata Mereşeni
+0;28.5156,46.7347;MD-3446;Hincesti;Sărata-Galbenă
+0;28.5610,45.9760;MD-7419;Taraclia;Samurza
+0;28.6926,47.7548;MD-7233;Soldanesti;Sămăşcani
+0;28.7315,47.2669;MD-3550;Orhei;Sămănanca
+0;29.2488,46.5954;MD-4323;Causeni;Sălcuţa
+0;29.1698,46.9443;MD-6511;Anenii Noi;Salcia
+0;28.7340,47.9486;MD-7231;Soldanesti;Salcia
+2365;28.9746,47.6911;MD-5431;Rezina;Saharna
+0;29.4030,46.4975;MD-4322;Causeni;Săiţi
+0;29.0276,47.0261;MD-4812;Criuleni;Sagaidac
+0;28.8457,46.6622;MD-4127;Cimislia;Sagaidac
+0;29.8500,46.8333;MD-5728;Slobozia Tr.;Safronovka
+0;28.5186,46.2699;MD-7344;Cantemir;Sadîc
+0;27.7961,47.7783;MD-4930;Mun.Balti;Sadovoe
+0;28.3444,47.1923;MD-4436;Calarasi;Sadova
+0;28.8797,46.4485;MD-6716;Cimislia;Sadaclia
+0;28.8466,47.2523;MD-4837;Criuleni;Rîşcova
+12893;27.5667,47.9483;MD-5601;Riscani;Rîşcani
+55455;29.0100,47.7682;MD-5501;Ribnita Tr.;Rîbniţa
+0;27.4365,48.2566;MD-7132;Ocnita;Rujniţa
+0;27.4158,48.2018;MD-4639;Edinet;Ruseni
+0;28.5118,46.0849;MD-3814;Comrat;Chioselia Rusă
+0;27.8991,48.3308;MD-5133;Soroca;Rudi
+0;28.2113,48.1696;MD-3034;Soroca;Rubleniţa
+0;27.6658,47.4608;MD-5946;Falesti;Risipeni
+0;28.1964,45.9577;MD-3928;Cahul;Roşu
+0;28.6777,47.1481;MD-3729;Straseni;Roşcani
+0;29.3088,46.8953;MD-6530;Anenii Noi;Roşcani
+0;28.4755,46.0319;MD-7412;Taraclia;Roşiţa
+0;27.9708,47.3747;MD-3608;Ungheni;Romanovca
+0;28.3525,46.4594;MD-6319;Leova;Romanovca
+0;29.1399,47.3221;MD-4523;Dubasari Tr.;Roghi
+9806;28.9677,47.7486;MD-5401;Rezina;Rezina
+0;27.8765,47.2158;MD-3643;Ungheni;Rezina
+0;28.3892,45.8992;MD-7416;Taraclia;Moscovei-Răzeşi
+0;28.8998,46.7688;MD-7728;Ialoveni;Răzeni
+0;28.9421,46.9091;MD-2091;Mun.Chisinau;Revaca
+0;27.8258,47.7132;MD-5945;Falesti;Răuțel
+0;27.5209,48.2321;MD-5132;Donduseni;Rediul Mare
+0;28.2131,47.3958;MD-4435;Calarasi;Rădeni
+0;28.6986,47.2068;MD-3726;Straseni;Rădeni
+0;28.3127,48.0634;MD-3032;Soroca;Redi-Cereşnovăţ
+0;28.3471,47.3058;MD-4435;Calarasi;Răciula
+0;28.5631,47.7881;MD-7229;Soldanesti;Receşti
+0;27.6712,47.8943;MD-5636;Riscani;Recea
+0;28.5779,47.2244;MD-3727;Straseni;Recea
+0;28.3576,47.6416;MD-6234;Singerei;Răzălăi
+0;27.3073,48.2420;MD-4638;Edinet;Rotunda
+0;28.6202,47.7429;MD-7228;Soldanesti;Răspopeni
+0;29.7827,46.5735;MD-4230;Stefan-Voda;Răscăieţi
+0;28.8239,47.9567;MD-6627;Camenca Tr.;Raşcov
+0;27.6157,47.9861;MD-5635;Riscani;Rămăzan
+0;29.0680,47.2707;MD-4836;Criuleni;Răculeşti
+0;28.4026,48.0789;MD-3031;Soroca;Racovăt
+0;27.6134,47.9105;MD-5634;Riscani;Răcăria
+0;28.1618,47.7244;MD-6237;Singerei;Rădoaia
+0;27.4310,47.9567;MD-5631;Riscani;Pîrjota
+0;28.2402,47.1976;MD-4433;Calarasi;Pîrjolteni
+0;29.1211,47.1009;MD-4579;Criuleni-Dub.;Pîrîta
+0;28.2093,48.0752;MD-3030;Soroca;Pîrliţa
+0;27.8049,47.7408;MD-5941;Falesti;Pîrliţa
+0;27.8719,47.3178;MD-3641;Ungheni;Pîrliţa
+0;27.6779,47.6203;MD-5940;Falesti;Pînzăreni
+0;28.5810,47.3741;MD-3554;Orhei;Puţintei
+0;28.1185,47.8358;MD-5034;Floresti;Putineşti
+1155;28.2703,47.1219;MD-6425;Straseni;Dolna
+0;29.8619,46.5381;MD-4229;Stefan-Voda;Purcari
+0;29.0370,46.8233;MD-6824;Ialoveni;Puhoi
+0;29.3466,47.0895;MD-6529;Anenii Noi;Puhăceni
+0;27.5517,47.4984;MD-5944;Falesti;Pruteni
+0;27.2585,47.8624;MD-5617;Riscani;Proscureni
+0;28.8143,47.3549;MD-3502;Orhei;Progress
+0;28.4830,47.7406;MD-5033;Floresti;Prodăneşti
+0;28.6007,46.6552;MD-4119;Cimislia;Prisaca
+0;28.7614,47.6872;MD-5430;Rezina;Pripiceni-Răzeşi
+0;28.0483,47.9115;MD-5029;Floresti;Maiscoe
+0;28.5330,48.0301;MD-6650;Floresti;Tirgul-Vertiujeni
+0;28.3405,47.5882;MD-6236;Singerei;Prepeliţa
+0;28.2070,47.8407;MD-5032;Floresti;Prajila
+0;28.6913,46.8871;MD-6823;Ialoveni;Pojăreni
+0;28.6333,47.9119;MD-6644;Floresti;Poeana
+0;28.8564,47.8868;MD-7227;Soldanesti;Poiana
+0;29.2000,47.8503;MD-5520;Ribnita Tr.;Posëlok Starogo Nomer Vtoroy
+0;29.1333,47.8836;MD-5516;Ribnita Tr.;Posëlok Starogo Nomer Pervyy
+0;28.8131,46.6894;MD-4126;Cimislia;Porumbrei
+0;28.2777,46.3112;MD-7332;Cantemir;Porumbeşti
+0;27.2760,48.0668;MD-4646;Edinet;Oneşti
+0;27.8692,47.7091;MD-5943;Falesti;Popovca
+0;29.5343,46.5999;MD-4228;Stefan-Voda;Popeasca
+0;28.3097,46.2485;MD-7329;Cantemir;Popovca
+0;28.9238,47.7959;MD-5427;Rezina;Păpăuţi
+1463;28.0256,48.0881;MD-5230;Drochia;Popeştii de Sus
+0;29.0064,47.5999;MD-5530;Ribnita Tr.;Popencu
+0;27.9437,47.6550;MD-5942;Falesti;Pompa
+0;28.6850,47.2499;MD-3550;Orhei;Pocşeşti
+0;27.8611,48.3289;MD-5131;Donduseni;Pocrovca
+0;29.1671,47.1813;MD-4572;Criuleni-Dub.;Pohrebea
+0;28.9094,47.5563;MD-3544;Orhei;Pohrebeni
+0;28.4984,47.8312;MD-7226;Soldanesti;Pohoarna
+0;28.8829,47.3729;MD-3542;Orhei;Păhărniceni
+1462;28.2319,46.6925;MD-3445;Hincesti;Pogăneşti
+0;28.7561,48.0047;MD-6626;Camenca Tr.;Podoimiţa
+0;27.3219,47.9972;MD-5632;Riscani;Pociumbăuţi
+0;28.2998,46.6488;MD-3452;Hincesti;Voinescu
+1277;29.1607,47.9598;MD-5529;Ribnita Tr.;Plopi
+0;29.5229,46.6726;MD-4321;Causeni;Plop-Ştiubei
+0;27.7045,48.2542;MD-5130;Donduseni;Plop
+0;28.2133,46.2083;MD-7331;Cantemir;Plopi
+0;28.3425,46.3564;MD-7330;Cantemir;Pleşeni
+0;28.4225,47.2360;MD-4432;Calarasi;Pituşca
+0;28.4897,47.6923;MD-5828;Telenesti;Pistruieni
+0;28.8117,47.7601;MD-5433;Rezina;Piscăreşti
+0;29.0947,46.7509;MD-7722;Anenii Noi;Picus
+0;29.1090,47.7625;MD-5511;Ribnita Tr.;Pâcalova
+0;27.3122,47.8483;MD-5630;Riscani;Petruşeni
+0;27.5784,47.7502;MD-4929;Glodeni;Petrunea
+0;29.0857,46.9757;MD-6526;Anenii Noi;Petrovca
+0;27.9204,47.5024;MD-5939;Falesti;Pietrosu
+0;28.2204,47.6636;MD-6235;Singerei;Petrovca
+0;27.7464,47.3064;MD-3640;Ungheni;Petreşti
+0;27.9545,47.9451;MD-5228;Drochia;Petreni
+0;28.2058,47.2370;MD-4431;Calarasi;Peticeni
+0;27.7233,48.0874;MD-5227;Drochia;Pervomaiscoe
+0;28.3205,46.8824;MD-3444;Hincesti;Pervomaiscoe
+7300;29.9617,46.7325;MD-5723;Slobozia Tr.;Pervomaisc
+0;29.2154,47.6790;MD-5522;Ribnita Tr.;Pervomaisc
+0;27.9763,47.6330;MD-5942;Falesti;Pervomaisc
+1306;29.0909,46.6986;MD-7725;Causeni;Pervomaisc
+0;28.6186,46.5981;MD-4120;Cimislia;Marienfeld
+0;28.7689,47.2551;MD-3541;Orhei;Peresecina
+0;26.9180,48.2084;MD-4735;Briceni;Pereriţa
+0;28.7798,47.6558;MD-5429;Rezina;Pereni
+0;28.3751,47.0016;MD-3443;Hincesti;Pereni
+0;28.3414,47.6369;MD-6234;Singerei;Pepeni
+0;27.8316,47.8759;MD-5629;Drochia;Pelinia
+0;28.3208,45.8278;MD-3927;Cahul;Pelinei
+0;28.7073,47.7153;MD-5428;Rezina;Pecişte
+0;28.3719,47.2689;MD-4430;Calarasi;Păuleşti
+0;27.2787,47.8350;MD-5628;Riscani;Păscăuţi
+0;28.8325,47.1697;MD-4834;Criuleni;Paşcani
+0;28.3667,46.9773;MD-3442;Hincesti;Paşcani
+0;28.1828,45.8250;MD-3934;Cahul;Paşcani
+0;28.1014,47.1513;MD-6433;Nisporeni;Păruceni
+0;28.4364,45.8208;MD-7120;Ocnita;Parushovka
+0;27.4050,48.1523;MD-4636;Edinet;Parcova
+0;28.2866,48.0617;MD-3029;Soroca;Parcani
+0;29.5151,46.8509;MD-5722;Slobozia Tr.;Parcani
+0;28.5202,47.1556;MD-3725;Straseni;Pănăşeşti
+0;27.9385,47.6858;MD-6241;Singerei;Pălăria
+0;27.9122,48.1242;MD-5226;Drochia;Palanca
+0;28.2037,47.3347;MD-4421;Calarasi;Palanca
+2020;30.0961,46.4086;MD-4227;Stefan-Voda;Palanca
+0;27.4258,48.2480;MD-7112;Ocnita;Paladea
+0;28.1555,46.0377;MD-3933;Cahul;Paicu
+0;29.2005,46.7830;MD-7723;Anenii Noi;Pădureț
+0;28.8286,47.5886;MD-5426;Rezina;Otac
+24918;28.8254,47.3850;MD-3502;Orhei;Orhei
+0;28.4982,47.6851;MD-5828;Telenesti;Ordăşei
+0;28.4601,46.6669;MD-6322;Leova;Orac
+0;29.3483,46.5809;MD-4320;Causeni;Opaci
+0;29.0705,47.1465;MD-4833;Criuleni;Oniţcani
+0;28.2833,47.3669;MD-4429;Calarasi;Onişcani
+0;28.5473,47.2810;MD-3724;Straseni;Oneşti
+0;28.2513,46.8622;MD-3441;Hincesti;Oneşti
+0;28.7094,47.8000;MD-7224;Soldanesti;Olişcani
+0;29.9212,46.4966;MD-4225;Stefan-Voda;Olăneşti
+0;29.1098,46.7678;MD-7724;Anenii Noi;Ochiul Roşu
+0;27.6718,48.0185;MD-5225;Drochia;Ochiul Alb
+0;27.9497,47.7142;MD-6652;Floresti;Octeabrscoe
+0;27.4803,47.7195;MD-4921;Glodeni;Duşmani
+0;29.1197,47.3826;MD-4578;Criuleni-Dub.;Oxentea
+0;28.2572,48.1216;MD-3028;Soroca;Ocolina
+0;28.7247,47.4584;MD-3557;Orhei;Ocniţa-Ţărani
+0;28.7232,47.4754;MD-3522;Orhei;Ocniţa-Răzeşi
+9325;27.4386,48.3823;MD-7101;Ocnita;Ocniţa
+815;28.6356,48.1328;MD-6624;Camenca Tr.;Ocniţa
+0;28.0583,48.2893;MD-3027;Soroca;Oclanda
+0;29.0604,47.2208;MD-4832;Criuleni;Ohrincea
+0;28.1630,46.8783;MD-3440;Hincesti;Obileni
+0;29.3195,47.3861;MD-4516;Dubasari Tr.;Goianul Nou
+0;27.8742,47.3891;MD-3639;Ungheni;Zăzulenii Noi
+0;28.0979,47.6014;MD-6227;Singerei;Iezărenii Noi
+0;28.4443,47.2335;MD-4442;Calarasi;Vărzăreştii Noi
+0;28.5722,47.6822;MD-5833;Telenesti;Târşiţeii Noui
+0;28.3548,45.9482;MD-3926;Cahul;Trifeştii Noi
+0;29.3212,46.7399;MD-4325;Causeni;Tănătarti Noi
+0;27.6459,47.5374;MD-5914;Falesti;Socii Noi
+0;28.3135,47.2336;MD-4401;Calarasi;Seliştea Nouă
+0;28.6512,46.9275;MD-6825;Ialoveni;Ruseştii Noi
+0;28.4027,47.8305;MD-5036;Floresti;Roşietici
+0;28.2466,47.9571;MD-5011;Floresti;Rădulenii Noi
+0;27.9120,47.1176;MD-3637;Ungheni;Morenii Noi
+0;27.6251,47.7240;MD-4926;Glodeni;Limbenii Noi
+0;29.1390,46.6492;MD-7717;Causeni;Cîrnăţenii Noi
+0;27.4192,47.8930;MD-5611;Riscani;Cucuieţii Noi
+0;27.2061,47.9872;MD-4625;Edinet;Cuconeştii Noi
+0;27.5503,47.5103;MD-5944;Falesti;Cosmenii Noui
+0;28.2889,45.8626;MD-3922;Cahul;Lebedenco
+0;28.8998,47.1172;MD-4823;Mun.Chisinau;Goianul Nou
+0;28.1781,46.1314;MD-7326;Cantemir;Goteştii Noi
+0;28.0594,47.7752;MD-6226;Singerei;Heciul Nou
+0;28.2551,46.4183;MD-6320;Leova;Hanăsenii Noi
+0;27.6538,47.7555;MD-4922;Glodeni;Fundurii Noi
+0;27.7452,47.5742;MD-5923;Falesti;Făleştii Noi
+0;27.2456,47.8961;MD-5619;Riscani;Duruitoarea Nouă
+0;28.4243,47.0458;MD-6426;Hincesti;Drăguşenii Noi
+0;27.6964,47.3969;MD-3619;Ungheni;Cioropcanii Noui
+0;28.4858,47.6583;MD-5813;Telenesti;Brînzenii Noi
+0;27.4727,47.9886;MD-5121;Donduseni;Borosenii Noi
+0;28.0080,47.4278;MD-3613;Ungheni;Boghenii Noi
+0;28.0348,47.6950;MD-6213;Singerei;Bilicenii Noi
+0;28.4002,47.5824;MD-5811;Telenesti;Băneştii Noi
+0;27.9071,47.8551;MD-5218;Drochia;Hăsnăşenii Noi
+8250;29.2350,46.8779;MD-6501;Anenii Noi;Anenii Noi
+0;27.6194,47.5813;MD-5911;Falesti;Albineţul Nou
+0;29.5202,46.9399;MD-4023;Grigoriopol Tr.;Novovladimirovca
+0;29.2630,46.7909;MD-6537;Anenii Noi;Troiţa Nouă
+0;28.4651,46.5630;MD-6333;Leova;Troiţa
+0;28.5526,46.6290;MD-6331;Leova;Tomaiul Nou
+0;28.7202,47.5226;MD-3523;Orhei;Crihana
+0;29.8678,46.8035;MD-5718;Slobozia Tr.;Novosaviţcaia
+482;29.9576,46.7673;MD-5721;Slobozia Tr.;Novocotovsc
+0;28.1833,46.1169;MD-7333;Cantemir;Novo-Konstantinovka
+1059;29.3472,47.3306;MD-4512;Dubasari Tr.;Comisarovca Nouă
+0;27.6131,47.8156;MD-4925;Glodeni;Iablona Nouă
+0;29.3332,46.7295;MD-4325;Causeni;Ursoaia Nouă
+0;28.1759,46.2046;MD-7341;Cantemir;Ţiganca Nouă
+0;27.9040,47.5487;MD-6240;Singerei;Tăura Nouă
+0;27.8886,48.2814;MD-5139;Donduseni;Teleşeuca Nouă
+0;28.0860,47.7230;MD-6238;Singerei;Sîngereii Noi
+0;28.1555,46.2304;MD-7341;Cantemir;Ţiganca
+0;28.5460,46.5727;MD-6327;Leova;Sărăţica Nouă
+0;27.7914,47.4993;MD-5948;Falesti;Sărata Nouă
+0;28.9558,47.6768;MD-5432;Rezina;Saharna Nouă
+0;29.3792,47.3099;MD-4522;Dubasari Tr.;Pohrebea Nouă
+0;27.6943,47.6754;MD-5938;Falesti;Obreja Nouă
+0;29.2522,46.6436;MD-4329;Causeni;Marianca Nouă
+0;29.2744,47.2856;MD-4513;Dubasari Tr.;Lunga Nouă
+0;28.2236,46.0715;MD-3921;Cahul;Larga Nouă
+0;29.3313,47.3135;MD-4512;Dubasari Tr.;Coșnița Nouă
+0;29.2080,46.9330;MD-6517;Anenii Noi;Cobusca Nouă
+0;27.4769,48.1172;MD-4621;Edinet;Chetroşica Nouă
+0;28.4542,45.8569;MD-7416;Taraclia;Carbalia Nouă
+0;27.6152,47.4064;MD-5928;Falesti;Hrubna Nouă
+0;28.0595,47.8768;MD-5020;Floresti;Frumuşica Nouă
+0;27.9313,47.1656;MD-3626;Ungheni;Floriţoaia Nouă
+0;27.9441,47.8294;MD-6222;Singerei;Dobrogea Nouă
+0;27.8314,47.4849;MD-5918;Falesti;Ciolacu Nou
+0;28.8425,46.4937;MD-4112;Cimislia;Bogdanovca Nouă
+0;29.9543,46.8355;MD-5711;Slobozia Tr.;Andriaşevca Nouă
+0;29.3031,47.2996;MD-4513;Dubasari Tr.;Alexandrovca Nouă
+0;28.2629,47.2363;MD-4428;Calarasi;Novaci
+0;29.1070,47.4664;MD-3534;Orhei;Jora de Jos
+0;29.6044,46.5207;MD-4224;Stefan-Voda;Marianca de Jos
+0;28.4857,45.9423;MD-7411;Taraclia;Albota de Jos
+0;28.8743,47.6355;MD-5425;Rezina;Mincenii de Jos
+0;28.5929,47.9301;MD-6643;Floresti;Cuhureştii de Jos
+0;28.7966,47.9480;MD-7213;Soldanesti;Climăuţii de Jos
+0;27.1705,48.2289;MD-4728;Briceni;Halahora de Jos
+0;27.8220,47.1449;MD-3651;Ungheni;Buzduganii de Jos
+0;28.2204,45.9849;MD-3911;Cahul;Andruşul de Jos
+11718;28.1710,47.0802;MD-6401;Nisporeni;Nisporeni
+0;28.3451,47.2690;MD-4427;Calarasi;Nişcani
+0;28.6677,47.0073;MD-6821;Ialoveni;Nimoreni
+0;27.7076,47.9703;MD-5224;Drochia;Nicoreni
+0;29.8612,46.8788;MD-5728;Slobozia Tr.;Nicolscoe
+0;27.5542,47.8227;MD-4928;Glodeni;Nicolaevca
+0;28.2928,47.7613;MD-5031;Floresti;Nicolaevca
+0;28.0205,47.6118;MD-5942;Falesti;Nicolaevca
+0;29.1959,46.7689;MD-7723;Anenii Noi;Nicolaevca
+4742;29.9376,46.5969;MD-5720;Slobozia Tr.;Nezavertailovca
+0;28.1219,46.9055;MD-3439;Hincesti;Nemţeni
+0;28.5336,48.1130;MD-6647;Soroca;Nimereuca
+0;28.5086,47.6015;MD-5826;Telenesti;Negureni
+0;28.3940,46.8102;MD-3438;Hincesti;Negrea
+0;28.6237,47.1797;MD-3723;Straseni;Negreşti
+0;27.5613,47.5887;MD-5937;Falesti;Năvîrneţ
+0;27.8898,47.6976;MD-5936;Falesti;Natalievca
+0;27.5832,48.4712;MD-7129;Ocnita;Naslavcea
+0;28.5952,48.0197;MD-6646;Floresti;Năpadova
+0;28.1473,47.4014;MD-3638;Ungheni;Năpădeni
+0;28.2653,47.0332;MD-6416;Nisporeni;Mîrzoaia
+0;28.9996,47.5000;MD-3537;Orhei;Mîrzeşti
+0;28.9960,47.4899;MD-3537;Orhei;Mîrzaci
+0;28.0670,47.3969;MD-3636;Ungheni;Mînzateşti
+9280;28.2769,47.5052;MD-5825;Telenesti;Mîndreşti
+0;28.2635,47.3188;MD-4426;Calarasi;Mîndra
+0;27.6464,47.5114;MD-5935;Falesti;Musteaţa
+0;28.5020,45.8205;MD-7424;Taraclia;Musaitu
+0;28.7638,46.7050;MD-4124;Cimislia;Munteni
+0;28.3556,45.9342;MD-3926;Cahul;Moscovei
+0;28.3667,45.9167;MD-3926;Cahul;Moscovei-Constantinescu
+0;27.4550,48.0286;MD-5627;Riscani;Moşeni
+0;27.6900,48.3219;MD-5127;Donduseni;Moşana
+0;28.6358,47.3779;MD-3538;Orhei;Morozeni
+0;28.9970,47.2984;MD-3552;Orhei;Morovaia
+0;27.6140,47.6238;MD-5934;Falesti;Moldoveanca
+0;29.3812,47.2737;MD-4019;Grigoriopol Tr.;Mocreachi
+0;29.1521,47.6283;MD-5525;Ribnita Tr.;Mocra
+0;29.5505,47.2395;MD-4022;Grigoriopol Tr.;Mocearovca
+0;28.0016,47.8917;MD-5222;Drochia;Moara de Piatră
+0;28.3767,46.9633;MD-3442;Hincesti;Mlădineşti
+0;28.7844,47.3870;MD-3503;Orhei;Mitoc
+0;29.0052,46.7657;MD-7721;Ialoveni;Misovca
+0;28.4656,46.4190;MD-6321;Leova;Meşeni
+0;29.2269,46.8028;MD-6537;Anenii Noi;Mirnoe
+0;28.2541,46.9690;MD-3437;Hincesti;Mireşti
+0;27.9990,47.4036;MD-3613;Ungheni;Mirceşti
+0;28.3293,46.6693;MD-3436;Hincesti;Mingir
+0;28.0393,47.2227;MD-6432;Nisporeni;Mileşti
+0;28.3087,47.1279;MD-6431;Straseni;Micleuşeni
+0;28.8052,47.2398;MD-4831;Criuleni;Micleşti
+0;27.6168,48.0402;MD-5626;Riscani;Mihăileni
+0;29.1227,47.7949;MD-5523;Ribnita Tr.;Mihailovca Nouă
+0;28.2546,47.7988;MD-5032;Floresti;Mihailovca
+0;28.2624,47.5902;MD-6230;Singerei;Mihailovca
+0;29.1184,47.4847;MD-5524;Ribnita Tr.;Mihailovca
+0;28.9300,46.5524;MD-4125;Cimislia;Mihailovca
+0;27.4239,48.3236;MD-7128;Ocnita;Mihălăşeni
+0;28.3411,47.4955;MD-5802;Telenesti;Mihălaşa
+0;28.7480,47.1706;MD-3722;Straseni;Micăuţi
+0;28.8373,47.8306;MD-7223;Soldanesti;Mihuleni
+0;27.7920,47.9884;MD-5221;Drochia;Miciurin
+0;28.6376,47.6634;MD-5424;Rezina;Meşeni
+0;27.6842,48.4313;MD-7127;Ocnita;Mereşeuca
+0;28.5416,46.7951;MD-3435;Hincesti;Mereşeni
+0;29.0560,46.9628;MD-6526;Anenii Noi;Mereni
+1514;29.0624,46.9259;MD-6527;Anenii Noi;Merenii Noi
+0;28.6492,46.6737;MD-4111;Cimislia;Mereni
+0;28.3865,47.3747;MD-4425;Calarasi;Meleşeni
+0;27.9322,47.4885;MD-5939;Falesti;Măgura
+0;26.7876,48.3628;MD-4733;Briceni;Medveja
+0;28.0271,47.7190;MD-6231;Singerei;Mîndreştii Noi
+0;27.6918,47.2957;MD-3635;Ungheni;Medeleni
+1500;29.3850,47.2373;MD-4006;Grigoriopol Tr.;Maiac
+0;28.9278,47.8095;MD-5423;Rezina;Mateuţi
+0;28.2472,46.5594;MD-6330;Leova;Mătăsaru
+0;29.0012,47.2907;MD-4830;Criuleni;Maşcăuţi
+0;28.6069,47.2353;MD-3720;Straseni;Mărtineşti
+0;28.2461,47.8837;MD-5008;Floresti;Mărculeşti
+2400;28.2411,47.8690;MD-5008;Floresti;Mărculeşti
+0;27.2239,48.3138;MD-4732;Briceni;Mărcăuţi
+0;29.0591,47.3542;MD-4575;Criuleni- Dub.;Marcăuţi
+0;28.1635,46.9688;MD-6430;Nisporeni;Marinici
+0;27.8315,47.6650;MD-5933;Falesti;Mărăndeni
+0;27.7979,48.2024;MD-5125;Drochia;Maramonovca
+0;28.1809,45.8071;MD-3925;Cahul;Manta
+0;27.8792,47.2373;MD-3634;Ungheni;Mănoileşti
+0;28.6022,46.9592;MD-6830;Ialoveni;Manoileşti
+0;29.0337,47.9337;MD-5527;Ribnita Tr.;Molochişul Mic
+0;28.8023,46.9064;MD-6819;Ialoveni;Mileştii Mici
+0;28.3054,47.7030;MD-6220;Singerei;Cotiujenii Mici
+0;29.1145,47.3497;MD-4577;Criuleni- Dub.;Molovata
+0;29.0927,47.3455;MD-4576;Criuleni-Dub.;Molovata Nouă
+0;28.6315,47.0258;MD-6818;Ialoveni;Malcoci
+0;27.9434,48.2147;MD-3018;Soroca;Mălcăuţi
+0;27.5065,47.8845;MD-5625;Riscani;Malinovscoe
+0;27.3479,47.8023;MD-4913;Glodeni;Moleşti
+0;27.3472,47.8847;MD-5624;Riscani;Mălăieşti
+0;28.6658,47.4622;MD-3536;Orhei;Mălăieşti
+0;29.1329,47.0834;MD-4811;Criuleni;Mălăleşti
+0;29.5548,46.9837;MD-4021;Grigoriopol Tr.;Mălăieşti
+0;28.7769,46.7876;MD-6820;Ialoveni;Moleşti
+0;28.3461,46.1314;MD-7320;Cantemir;Malaya Kozhdangliya
+0;29.0166,47.0095;MD-6525;Anenii Noi;Maximovca
+0;28.5961,46.5714;MD-4123;Cimislia;Maximeni
+0;28.3444,46.2439;MD-7329;Cantemir;Măcreşti
+0;27.9780,48.1416;MD-5220;Drochia;Măcăreuca
+0;27.9725,47.0527;MD-3632;Ungheni;Măcăreşti
+0;27.9705,47.4603;MD-3633;Ungheni;Măgurele
+0;29.1497,47.2667;MD-4501;Dubasari Tr.;Mahala
+0;27.8447,47.8286;MD-5616;Riscani;Corlăteni
+0;27.5543,47.8779;MD-5625;Riscani;Lupăria
+0;28.5923,47.3144;MD-3714;Straseni;Lupa-Recea
+0;28.2197,47.8583;MD-5007;Floresti;Lunga
+3217;29.1872,47.2430;MD-4520;Dubasari Tr.;Lunga
+0;28.7597,47.3369;MD-3545;Orhei;Lucăşeuca
+0;27.5961,47.4571;MD-5927;Falesti;Lucăceni
+0;28.3300,45.9894;MD-3924;Cahul;Luceşti
+0;28.7786,47.4078;MD-3540;Orhei;Pelivan
+0;28.3837,47.1357;MD-3721;Straseni;Lozova
+0;28.4120,45.9306;MD-3923;Cahul;Lopăţica
+0;27.0560,48.1351;MD-4635;Edinet;Lopatnic
+0;29.0516,47.4948;MD-3535;Orhei;Lopatna
+0;27.5681,47.6239;MD-5932;Falesti;Logofteni
+0;28.7873,47.1735;MD-4835;Criuleni;Logăneşti
+0;28.5443,46.9053;MD-3434;Hincesti;Logăneşti
+0;28.0490,48.2355;MD-3039;Soroca;Livezi
+0;27.7963,48.1476;MD-5126;Drochia;Mîndîc
+0;28.7598,46.7335;MD-4124;Cimislia;Lipoveni
+0;27.9868,47.6775;MD-6213;Singerei;Lipovanca
+0;27.5144,48.3949;MD-7126;Ocnita;Lipnic
+0;26.8101,48.2622;MD-4706;Briceni;Lipcani
+0;28.8710,47.8085;MD-5422;Rezina;Lipceni
+0;28.3228,46.2314;MD-7329;Cantemir;Lingura
+0;27.8986,47.2774;MD-3612;Ungheni;Lidovca
+0;28.4356,47.4828;MD-5823;Telenesti;Leuşeni
+0;28.1970,46.8117;MD-3432;Hincesti;Leuşeni
+14301;28.2530,46.4819;MD-6301;Leova;Leova
+0;29.5891,46.6641;MD-4223;Causeni;Leuntea
+0;27.6511,48.4331;MD-7125;Ocnita;Lencăuţi
+0;29.1902,47.6691;MD-5522;Ribnita Tr.;Lenin
+0;28.2041,46.3082;MD-7312;Cantemir;Leca
+0;28.4525,46.4881;MD-6313;Leova;Lebedevka
+14600;28.1407,47.6369;MD-6201;Singerei;Sîngerei
+0;28.0161,47.5612;MD-6216;Singerei;Chişcăreni
+0;28.8962,47.3631;MD-3542;Orhei;Piatra
+0;29.5757,46.4872;MD-4222;Stefan-Voda;Lazo
+0;28.3198,46.3025;MD-7328;Cantemir;Lărguţa
+0;26.8422,48.3734;MD-4731;Briceni;Larga
+0;29.1608,46.7627;MD-7722;Anenii Noi;Larga
+0;28.4119,46.8867;MD-3431;Hincesti;Lăpuşna
+0;29.0192,47.5652;MD-5421;Rezina;Lalova
+0;28.4813,46.1372;MD-7317;Cantrmir;Cîietu
+0;27.3429,48.0613;MD-4622;Edinet;Chiurt
+1104;28.1709,45.5391;MD-5315;Cahul;Cîşliţa-Prut
+0;28.2261,47.4935;MD-5817;Telenesti;Cîşla
+0;28.3349,46.1410;MD-7320;Cantemir;Cîşla
+0;28.3393,46.2594;MD-7319;Cantemir;Cîrpeşti
+0;27.9972,47.1757;MD-6417;Nisporeni;Cîrneşti
+0;29.4931,46.6545;MD-4313;Causeni;Cirnăţeni
+0;28.5136,46.5654;MD-6327;Leova;Cîmpul Drept
+0;28.4281,45.8085;MD-5314;Cahul;Alexanderfeld
+0;28.6305,48.0958;MD-6617;Camenca Tr.;Cuzmin
+0;29.0333,46.6667;MD-7701;Causeni;Chircăieşti
+0;28.8164,47.6135;MD-5415;Rezina;Cuizăuca
+0;28.7054,47.9053;MD-7218;Soldanesti;Cuşmirca
+0;28.1019,47.3927;MD-3620;Ungheni;Curtoaia
+0;28.5632,47.1466;MD-3703;Straseni;Făgureni
+0;28.1750,48.2285;MD-3017;Soroca;Cureşniţa
+0;29.1078,46.7175;MD-7719;Causeni;Cureni
+0;28.9118,47.8761;MD-7217;Soldanesti;Curătura
+0;28.3578,46.3743;MD-6329;Leova;Cuporani
+0;28.3581,46.5170;MD-6318;Leova;Cupcui
+0;27.3839,48.1102;MD-4626;Edinet;Cupcini
+0;28.6465,47.9079;MD-6644;Floresti;Cunicea
+0;28.1718,46.0533;MD-3919;Cahul;Cucoara
+0;27.3745,47.6568;MD-4919;Glodeni;Cuhneşti
+0;28.1856,47.4602;MD-5841;Telenesti;Cucioaia
+0;28.0321,47.8726;MD-6221;Singerei;Cubolta
+0;29.0262,47.2179;MD-4819;Criuleni;Cruglic
+0;26.6712,48.2740;MD-4723;Briceni;Criva
+0;28.2838,47.0575;MD-6424;Nisporeni;Cristeşti
+0;27.8555,48.2664;MD-5120;Donduseni;Crişcăuţi
+7400;28.8616,47.1384;MD-2084;Mun.Chisinau;Cricova
+0;28.9094,47.1341;MD-2089;Mun.Chisinau;Goian
+0;29.1343,46.8663;MD-6519;Anenii Noi;Creţoaia
+390;28.0846,48.2757;MD-3052;Soroca;Cremenciug
+0;29.2793,47.2985;MD-4513;Dubasari Tr.;Crasnâi Vinogradari
+0;28.5488,48.0128;MD-6613;Camenca Tr.;Crasnăi Octeabri
+4200;29.8230,46.6430;MD-5719;Slobozia Tr.;Crasnoe
+0;29.4603,46.9640;MD-4017;Grigoriopol Tr.;Crasnogorca
+0;28.2746,46.8203;MD-3423;Hincesti;Crasnoarmeiscoe
+0;29.1403,47.8481;MD-5516;Ribnita Tr.;Crasnencoe
+0;29.3186,47.1319;MD-4016;Grigoriopol Tr.;Crasnaia Gorca
+0;29.5876,47.2844;MD-4015;Grigoriopol Tr.;Crasnaia Besarabia
+0;28.3983,47.4330;MD-5818;Telenesti;Crăsnăşeni
+0;28.3510,46.2331;MD-7329;Cantemir;Crăciun
+0;28.6619,47.0946;MD-3715;Straseni;Cojușna
+0;28.1824,47.5688;MD-5839;Telenesti;Cozeşti
+0;29.2439,47.4091;MD-4511;Dubasari Tr.;Coicova
+0;28.4014,46.5906;MD-6317;Leova;Covurlui
+0;26.9377,48.3472;MD-4722;Briceni;Cotiujeni
+0;28.5551,47.8450;MD-7216;Soldanesti;Cotiujenii Mari
+0;26.8630,48.3307;MD-4721;Briceni;Coteala
+0;28.1181,46.8699;MD-3422;Hincesti;Cotul Morii
+0;28.1418,48.0567;MD-3033;Soroca;Regina Maria
+16900;28.5900,46.8309;MD-3401;Hincesti;Hînceşti
+0;27.9511,48.1610;MD-5214;Drochia;Cotova
+0;29.4785,47.2843;MD-4013;Grigoriopol Tr.;Cotovca
+0;28.2434,45.9383;MD-3917;Cahul;Cotihana
+0;28.7784,47.9800;MD-7215;Soldanesti;Cot
+0;27.9116,47.0808;MD-3623;Ungheni;Costuleni
+0;27.2595,47.8579;MD-5617;Riscani;Costeşti
+0;28.7624,46.8655;MD-6813;Ialoveni;Costeşti
+0;28.2059,46.8737;MD-3430;Hincesti;Costeşti
+0;28.2804,48.2266;MD-3016;Soroca;Cosăuţi
+0;28.3866,46.1098;MD-7322;Cantemir;Coştangalia
+0;29.1345,47.1463;MD-4572;Dubasari Cr.;Coșnița
+0;28.0578,47.4894;MD-6219;Singerei;Coşcodeni
+0;29.1570,46.6855;MD-7720;Causeni;Coşcalia
+0;28.4656,47.9397;MD-5017;Floresti;Coşerniţa
+0;29.0467,47.1190;MD-4818;Criuleni;Coşerniţa
+0;27.9254,47.4419;MD-3624;Ungheni;Coşeni
+0;28.5564,47.8787;MD-7216;Soldanesti;Cuşelăuca
+0;29.1736,47.0972;MD-4817;Criuleni;Corjova
+0;29.1296,47.2877;MD-4501;Dubasari Cr.;Corjova
+0;27.0471,48.2155;MD-4720;Briceni;Corjeuţi
+0;29.8563,46.6333;MD-5717;Slobozia Tr.;Corotna
+0;28.5221,47.4750;MD-5838;Telenesti;Coropceni
+0;28.1731,47.3947;MD-3622;Ungheni;Cornova
+0;27.9978,47.3701;MD-3608;Ungheni;Corneşti
+0;28.0081,47.3586;MD-3608;Ungheni;Corneşti
+0;29.9853,46.4513;MD-4218;Stefan-Voda;Crocmaz
+0;27.2667,48.3515;MD-7118;Ocnita;Corestăuţi
+0;27.9743,47.8529;MD-6222;Singerei;Cotovca
+0;27.5775,48.2654;MD-5119;Donduseni;Corbu
+0;29.5228,46.4509;MD-4222;Stefan-Voda;Copceac
+0;28.6920,45.8492;MD-6118;Comrat;Copceac
+0;29.6197,46.7192;MD-5716;Causeni;Copanca
+0;28.2342,47.6158;MD-6218;Singerei;Copăceni
+0;27.5506,47.9669;MD-5601;Riscani;Copăceanca
+0;28.8586,47.9878;MD-6635;Camenca Tr.;Constantinovca
+0;29.8507,46.8520;MD-5728;Slobozia Tr.;Constantinovca
+0;29.1131,46.7225;MD-7719;Causeni;Constantinovca
+0;28.2131,46.1106;MD-7333;Cantemir;Constantineşti
+0;27.1094,48.2485;MD-4623;Edinet;Constantinovca
+0;28.5642,46.3316;MD-3816;Comrat;Congazcicul de Sus
+0;28.5717,46.3123;MD-3816;Comrat;Congazcicul de Jos
+0;28.5676,47.0561;MD-2083;Mun.Chisinau;Condriţa
+0;28.1050,47.4138;MD-3620;Ungheni;Condrăteşti
+0;29.5622,47.3367;MD-4015;Grigoriopol Tr.;Colosova
+0;29.5660,47.3289;MD-4015;Grigoriopol Tr.;Colosova
+0;28.9567,47.0424;MD-2082;Mun.Chisinau;Coloniţa
+0;27.1496,48.3104;MD-4719;Briceni;Colicăuţi
+0;28.1815,45.7178;MD-5316;Cahul;Colibaşi
+0;28.4258,46.6521;MD-6316;Leova;Colibabovca
+0;29.2054,47.7832;MD-5515;Ribnita Tr.;Colbasna
+0;28.7256,47.4884;MD-3522;Orhei;Cucuruzeni
+0;28.8208,47.6352;MD-5414;Rezina;Cogîlniceni
+0;28.5920,47.2866;MD-3714;Straseni;Codreanca
+15934;28.8190,46.9765;MD-4417;Calarasi;Codru
+0;27.7177,48.4314;MD-7117;Ocnita;Codreni
+0;28.4151,46.3568;MD-7321;Cantemir;Cociulia
+4151;29.1176,47.3017;MD-4571;Dubasari Cr.;Cocieri
+0;28.6702,47.8654;MD-7214;Soldanesti;Cobîlnea
+0;27.3220,47.7672;MD-4918;Glodeni;Cobani
+0;28.5036,46.6324;MD-6315;Leova;Cneazevca
+0;28.5031,46.6342;MD-6315;Leova;Staraya Knyazevka
+0;27.3497,48.4282;MD-7116;Ocnita;Clocuşna
+0;28.5784,47.4724;MD-3521;Orhei;Clişova
+0;27.6156,48.3126;MD-5117;Donduseni;Climăuţi
+0;28.5250,46.6508;MD-6315;Leova;Cîzlar
+9000;29.6168,46.7830;MD-5714;Slobozia Tr.;Chiţcani
+0;28.6611,47.5688;MD-5815;Telenesti;Chiştelniţa
+0;28.4056,46.1410;MD-7316;Cantemir;Chioselia
+0;28.7357,46.0150;MD-7421;Taraclia;Corten
+0;28.6475,46.2306;MD-3813;Comrat;Chirsova
+0;27.6183,47.8242;MD-4925;Glodeni;Chirpiţi
+0;29.0972,47.6505;MD-5536;Ribnita Tr.;Chirov
+0;29.5259,46.7191;MD-4312;Causeni;Chircăieşti
+0;28.9720,46.6639;MD-7714;Causeni;Chircăieştii Noi
+0;28.1739,46.0881;MD-3919;Cahul;Chircani
+0;29.1092,46.9215;MD-6515;Anenii Noi;Chirca
+0;28.9452,46.2092;MD-6117;Comrat;Chiriet-Lunga
+0;28.5302,47.2567;MD-3713;Straseni;Chirianca
+0;28.3286,47.9621;MD-5019;Floresti;Chirilovca
+0;28.5734,45.8156;MD-7418;Taraclia;Chirilovca
+0;28.1961,47.6911;MD-6228;Singerei;Chirileni
+0;27.7765,47.3800;MD-3618;Ungheni;Chirileni
+0;28.6079,47.7622;MD-7212;Soldanesti;Chipeşca
+0;28.8380,47.5220;MD-3518;Orhei;Chiperceni
+0;29.7947,46.8339;MD-5728;Slobozia Tr.;Khutor Vladimirovka
+0;29.0571,46.7250;MD-7721;Ialoveni;Homuteanovca
+0;28.7277,48.0974;MD-6618;Camenca Tr.;Hrustoveni
+0;27.9186,47.3573;MD-3641;Ungheni;Hristoforovca
+0;28.1781,48.1186;MD-3024;Soroca;Hristici
+0;28.3465,46.7132;MD-3429;Hincesti;Horjeşti
+0;28.8742,47.5098;MD-3512;Orhei;Slobozia-Hodorogea
+0;27.3393,48.3710;MD-7124;Ocnita;Hădărăuţi
+0;27.7760,47.5484;MD-5926;Falesti;Hitrești
+0;27.3893,47.9301;MD-5622;Riscani;Hiliuţi
+0;27.7628,47.6693;MD-5925;Falesti;Hiliuţi
+0;28.1839,46.9616;MD-6430;Nisporeni;Heleşteni
+0;28.9703,46.9708;MD-2081;Mun.Chisinau;Hatmana
+0;29.4850,46.7552;MD-4319;Causeni;Hagimus
+0;29.6208,46.4928;MD-4224;Stefan-Voda;Adjiler
+0;28.4633,45.9240;MD-7411;Taraclia;Hagichioi
+0;27.8977,48.0739;MD-5213;Drochia;Chetrosu
+0;28.2703,46.9625;MD-3437;Hincesti;Chetroşeni
+0;29.0382,46.9215;MD-6514;Anenii Noi;Chetrosu
+0;27.4476,47.5960;MD-5917;Falesti;Chetriş
+0;27.4391,47.7257;MD-4914;Glodeni;Cajba
+0;28.4350,46.5084;MD-6313;Leova;Cazangic
+0;28.4742,47.6135;MD-5814;Telenesti;Căzăneşti
+0;28.6627,46.0073;MD-6113;Comrat;Cazaclia
+0;28.6234,45.7781;MD-7417;Taraclia;Cairaclia
+0;28.1210,48.0057;MD-3015;Soroca;Căinarii Vechi
+21690;29.4109,46.6374;MD-4301;Causeni;Căuşeni
+0;28.1839,46.9222;MD-6420;Hincesti;Căţeleni
+0;27.8030,47.5962;MD-5915;Falesti;Catranîc
+0;28.8680,47.9341;MD-6611;Camenca Tr.;Caterinovca
+0;28.3942,47.7861;MD-5013;Floresti;Caşunca
+0;28.8017,46.6179;MD-4115;Cimislia;Coştangalia
+0;28.7411,47.0158;MD-2003;Mun.Chisinau;Cartuşe
+0;28.4710,46.6962;MD-3446;Hincesti;Cărpineanca
+0;28.3443,46.7647;MD-3420;Hincesti;Cărpineni
+0;29.5024,47.2602;MD-4013;Grigoriopol Tr.;Carmanova
+0;28.9540,46.7117;MD-7713;Ialoveni;Cărbuna
+0;28.4493,45.8723;MD-5355;Comrat;Carbalia
+0;28.5429,46.7000;MD-3419;Hincesti;Caracui
+0;29.6830,46.7809;MD-5713;Slobozia Tr.;Caragaş
+0;29.8117,46.4663;MD-4214;Stefan-Voda;Carahasani
+0;28.9151,46.4139;MD-6713;Cimislia;Carabetovca
+0;28.5025,47.1178;MD-3712;Straseni;Căpriana
+0;28.4633,47.7542;MD-5033;Floresti;Căpreşti
+0;29.8724,46.3852;MD-4215;Stefan-Voda;Căplani
+0;28.4011,46.3295;MD-7315;Cantemir;Capaclia
+0;28.2305,46.2763;MD-7314;Cantemir;Cania
+0;28.5142,46.1620;MD-3815;Comrat;Cotovscoe
+0;27.4495,47.8363;MD-4920;Glodeni;Camencuţa
+0;27.3626,47.8268;MD-4915;Glodeni;Camenca
+0;28.6875,47.2799;MD-3526;Orhei;Camencea
+0;27.9057,47.6904;MD-5936;Falesti;Comarovca
+0;28.1581,46.1653;MD-7326;Cantemir;Flămânda
+0;27.6873,47.5403;MD-5914;Falesti;Călugăr
+0;28.2114,46.7839;MD-3418;Hincesti;Călmăţui
+0;29.6706,46.8558;MD-3300;Tiraspol Tr.;Kalkatova Balka
+0;27.4859,47.5632;MD-5913;Falesti;Călineşti
+0;28.1891,46.9467;MD-6419;Nisporeni;Călimăneşti
+0;29.3805,46.9046;MD-6513;Anenii Noi;Calfa
+0;27.7930,48.4249;MD-7106;Ocnita;Calaraşovca
+0;28.1456,47.2169;MD-4416;Calarasi;Căbăieşti
+0;28.1311,47.9783;MD-5027;Floresti;Izvoare
+0;28.9557,47.5525;MD-3533;Orhei;Izvuare
+0;27.6684,47.4347;MD-5931;Falesti;Izvoare
+0;29.0019,47.2214;MD-4827;Criuleni;Izbişte
+0;28.1552,47.9076;MD-5037;Floresti;Ivanovca
+0;29.1741,47.8778;MD-5520;Ribnita Tr.;Ivanovca
+0;28.1856,46.8945;MD-3430;Hincesti;Ivanovca
+0;28.9482,46.5060;MD-6715;Cimislia;Ivanovca
+0;28.8570,47.2858;MD-3532;Orhei;Ivancea
+0;28.8644,47.2333;MD-4826;Criuleni;Işnovăţ
+0;27.8226,47.5715;MD-5930;Falesti;Ișcălău
+0;28.9546,46.4844;MD-6715;Cimislia;Iserlia
+0;28.0268,47.0665;MD-6428;Nisporeni;Isăicani
+0;28.7196,47.3686;MD-3531;Orhei;Isacova
+0;28.9077,46.3929;MD-6714;Cimislia;Iordanovca
+0;28.7500,46.7500;MD-4124;Cimislia;Ioneasca
+0;28.3970,47.5046;MD-5822;Telenesti;Ineşti
+0;28.5838,47.5976;MD-5827;Telenesti;Nucăreni
+0;28.5667,46.3333;MD-3816;Comrat;Imeni Kirsev
+0;29.2697,46.4828;MD-4327;Causeni;Il'yanka
+0;28.0659,47.9365;MD-5029;Floresti;Illiciovca
+0;28.3033,46.2178;MD-7338;Cantemir;Ilashkova
+0;28.6617,47.6816;MD-5420;Rezina;Ignăţei
+14915;28.7815,46.9436;MD-6801;Ialoveni;Ialoveni
+0;29.8153,46.6373;MD-5719;Slobozia Tr.;Hlinaia
+0;29.4283,46.7816;MD-4314;Causeni;Gîsca
+0;28.2213,47.3244;MD-4421;Calarasi;Hîrjauca
+0;28.9305,47.2485;MD-4825;Criuleni;Hîrtopul Mic
+0;28.9414,47.2272;MD-4824;Criuleni;Hîrtopul Mare
+0;29.3662,47.2536;MD-4019;Grigoriopol Tr.;Hârtop
+0;28.6806,46.6538;MD-4119;Cimislia;Hîrtop
+0;28.2505,46.2346;MD-7337;Cantemir;Hîrtop
+0;27.6198,48.3739;MD-7121;Ocnita;Gîrbova
+0;29.3600,46.8430;MD-6524;Anenii Noi;Hîrbovăţ
+0;27.1904,48.0486;MD-4632;Edinet;Hancăuţi
+0;28.3504,47.9045;MD-5023;Floresti;Gvozdova
+0;28.3232,47.1218;MD-6431;Straseni;Huzun
+0;28.2992,45.8625;MD-3922;Cahul;Hutulu
+0;28.3468,47.7032;MD-6220;Singerei;Gura-Oituz
+0;28.2253,46.0756;MD-3921;Cahul;Gura-Larga
+0;28.3547,47.8910;MD-5023;Floresti;Gura Camencii
+0;28.1831,47.8632;MD-5024;Floresti;Gura Căinarului
+0;28.7078,46.6942;MD-4118;Cimislia;Gura Galbenei
+3401;29.4598,46.9298;MD-6523;Anenii Noi;Gura Bîcului
+0;28.5551,47.3811;MD-3530;Orhei;Hulboaca
+0;28.7976,47.1191;MD-2093;Mun.Chisinau;Hulboaca
+0;28.5709,48.1118;MD-6619;Camenca Tr.;Hruşca
+0;28.9517,47.1364;MD-4816;Criuleni;Hruşova
+0;28.0777,47.0003;MD-6427;Nisporeni;Grozeşti
+0;27.8980,47.1779;MD-3626;Ungheni;Grozasca
+0;26.9500,48.3000;MD-4725;Briceni;Gromadzeni
+0;27.4290,48.2859;MD-7123;Ocnita;Grinăuţi-Raia
+0;27.7818,47.8818;MD-5621;Riscani;Grinăuţi
+0;26.9731,48.1329;MD-4715;Briceni;Grimeşti
+0;27.0890,48.3926;MD-4726;Briceni;Grimăncăuţi
+0;28.0591,47.7993;MD-6211;Singerei;Grigoreşti
+0;29.3301,46.6917;MD-4318;Causeni;Grigorievca
+0;28.1982,47.6204;MD-6225;Singerei;Grigorăuca
+9456;29.3001,47.1541;MD-4001;Grigoriopol Tr.;Hryhoriopol
+0;27.9316,48.0140;MD-5223;Drochia;Gribova
+0;29.5839,46.6523;MD-4221;Causeni;Grădiniţa
+0;28.3917,45.7217;MD-5313;Cahul;Greceni
+0;28.6101,47.2396;MD-3720;Straseni;Grebleşti
+0;28.8248,47.0986;MD-2093;Mun.Chisinau;Grătieşti
+0;28.7588,46.6081;MD-4117;Cimislia;Gradişte
+0;29.1623,47.3780;MD-4518;Dubasari Tr.;Goian
+0;28.1762,46.1359;MD-7326;Cantemir;Goteşti
+0;28.4896,47.0458;MD-6817;Ialoveni;Horodca
+0;27.7917,48.2653;MD-5124;Donduseni;Horodişte
+0;27.2630,47.9537;MD-5623;Riscani;Horodişte
+0;28.9450,47.6139;MD-5419;Rezina;Horodişte
+0;28.2527,47.2096;MD-4424;Calarasi;Horodişte
+0;27.5805,47.4318;MD-5927;Falesti;Horești
+0;28.8743,46.8254;MD-6816;Ialoveni;Horeşti
+0;27.1698,48.1593;MD-4631;Edinet;Gordineşti
+0;28.8033,47.6943;MD-5418;Rezina;Gordineşti
+0;27.4329,48.2095;MD-4630;Edinet;Goleni
+0;28.3333,46.0658;MD-3920;Cahul;Huluboaia
+0;28.1764,48.2477;MD-3023;Soroca;Holoşniţa
+0;29.0696,47.3124;MD-4574;Dubasari Cr.;Holercani
+0;28.3191,47.3702;MD-4423;Calarasi;Hogineşti
+10146;27.5175,47.7747;MD-4901;Glodeni;Glodeni
+0;28.8784,47.8206;MD-5422;Rezina;Hligeni
+0;27.8931,47.6004;MD-5924;Falesti;Glinjeni
+0;27.2533,48.2219;MD-4634;Edinet;Hlinaia
+0;29.4134,47.2281;MD-4020;Grigoriopol Tr.;Hlinaia
+0;26.8728,48.2932;MD-4730;Briceni;Hlina
+4655;27.7647,48.0465;MD-5233;Drochia;Ţarigrad
+0;28.9147,47.4591;MD-3529;Orhei;Hîjdieni
+0;27.4598,47.7696;MD-4924;Glodeni;Hîjdieni
+0;28.2820,47.4112;MD-4420;Calarasi;Hirova
+0;28.2828,47.4357;MD-5821;Telenesti;Hirişeni
+0;28.0866,47.3942;MD-3631;Ungheni;Hîrceşti
+0;27.3085,48.2746;MD-4633;Edinet;Hîncăuţi
+2100;28.3768,47.8548;MD-5036;Floresti;Ghindești
+0;28.2022,47.4814;MD-5820;Telenesti;Ghiliceni
+0;28.7433,47.6107;MD-5417;Rezina;Ghiduleni
+0;28.9792,47.7142;MD-5517;Ribnita Tr.;Ghidirim
+0;28.7730,47.0943;MD-2088;Mun.Chisinau;Ghidighici
+0;28.2083,46.0214;MD-3914;Cahul;Ghibanu
+0;28.5308,47.3754;MD-3528;Orhei;Ghetlova
+0;28.4584,47.8817;MD-5025;Floresti;Hîrtop
+0;28.4922,45.9187;MD-7411;Taraclia;Hîrtop
+0;29.1647,47.7190;MD-5535;Ribnita Tr.;Gherşunovca
+0;28.5169,47.4401;MD-5819;Telenesti;Ghermăneşti
+0;27.6054,47.3626;MD-3629;Ungheni;Gherman
+0;27.1360,48.0457;MD-4613;Edinet;Heredeuca
+0;28.3118,47.3402;MD-4422;Calarasi;Hîrboveţ
+0;28.1610,46.1933;MD-7325;Cantemir;Ghioltosu
+0;28.5961,47.1926;MD-3718;Straseni;Ghelăuza
+0;28.7662,46.1084;MD-6114;Comrat;Gaidar
+0;28.2560,47.6429;MD-6235;Singerei;Gavrilovca
+0;28.3846,45.7566;MD-5317;Cahul;Găvănoasa
+0;28.5646,47.7554;MD-7221;Soldanesti;Găuzeni
+0;28.0870,47.1995;MD-6418;Nisporeni;Găureni
+0;28.8411,46.8297;MD-6831;Ialoveni;Găureni
+0;27.4984,48.1568;MD-4629;Edinet;Gaşpar
+0;29.0881,47.4226;MD-4519;Dubasari Tr.;Harmaţca
+0;28.3780,46.2894;MD-7327;Cantemir;Haragîş
+0;29.0874,47.8946;MD-5518;Ribnita Tr.;Haraba
+0;28.7514,46.8332;MD-6815;Ialoveni;Hansca
+0;29.0076,46.7332;MD-7721;Ialoveni;Gangura
+0;27.5023,47.5490;MD-5913;Falesti;Hînceşti
+0;28.3325,46.3488;MD-7339;Cantemir;Hănăseni
+0;29.3450,46.9058;MD-6513;Anenii Noi;Gălileşti
+0;28.4914,47.2270;MD-3717;Straseni;Găleşti
+0;27.3405,47.8710;MD-5620;Riscani;Gălăşeni
+0;28.6903,46.7863;MD-3427;Hincesti;Fîrlădeni
+0;27.6934,48.1101;MD-5122;Drochia;Fîntîniţa
+0;27.4324,48.1603;MD-4628;Edinet;Fîntîna Albă
+0;28.7470,47.7424;MD-7220;Soldanesti;Fuzăuca
+0;28.9255,47.3369;MD-3527;Orhei;Furceni
+0;28.6276,46.8802;MD-3428;Hincesti;Fundul Galbenei
+0;28.5556,46.6383;MD-6331;Leova;Fund Saratsika
+0;27.5924,48.4136;MD-7108;Ocnita;Frunză
+0;29.8863,46.8289;MD-5718;Slobozia Tr.;Frunză
+0;28.1183,47.9599;MD-5020;Floresti;Frumuşica
+0;28.4280,46.5561;MD-6313;Leova;Frumuşica
+0;28.3996,47.3309;MD-4419;Calarasi;Frumoasa
+0;28.3411,47.6758;MD-6212;Singerei;Frăteşti
+0;28.0029,47.0361;MD-3628;Ungheni;Frăsineşti
+0;27.5517,48.1373;MD-5123;Donduseni;Frasin
+0;28.2006,45.9311;MD-3907;Cahul;Focşani
+16759;28.2934,47.8917;MD-5001;Floresti;Floreşti
+0;29.1809,46.9974;MD-6518;Anenii Noi;Floreşti
+0;28.9920,46.9371;MD-6521;Anenii Noi;Floreni
+0;28.2496,46.1526;MD-7318;Cantemir;Flocoasa
+0;28.0900,47.4989;MD-6219;Singerei;Flămînzeni
+0;28.3259,46.4415;MD-6319;Leova;Filipeni
+0;28.6732,46.6936;MD-4111;Cimislia;Fetiţa
+0;27.0990,48.1637;MD-4627;Edinet;Feteşti
+0;29.5666,46.5433;MD-4220;Stefan-Voda;Feşteliţa
+0;28.7744,46.2323;MD-3821;Comrat;Ferapontievca
+0;27.8029,47.4422;MD-5922;Falesti;Făgădău
+0;29.5373,47.2333;MD-4022;Grigoriopol Tr.;Fedoseevca
+0;28.8963,47.1457;MD-2089;Mun.Chisinau;Făureşti
+0;29.3652,46.7889;MD-4314;Causeni;Fîrlădeni
+14377;27.7126,47.5767;MD-5901;Falesti;Fălești
+0;28.2953,45.8536;MD-3922;Cahul;Făgădău
+0;28.4417,45.5387;MD-5352;Comrat;Etulia
+3074;28.1972,45.4817;MD-5318;Cahul;Giurgiuleşti
+0;28.8728,46.1790;MD-6115;Comrat;Joltai
+0;28.4119,45.9369;MD-3923;Cahul;Gigălboaia
+0;29.1395,46.8214;MD-6522;Anenii Noi;Geamănă
+0;29.1830,47.2244;MD-4517;Dubasari Tr.;Dzerjinscoe
+0;28.5983,47.3781;MD-3525;Orhei;Dişcova
+0;27.2607,47.8772;MD-5618;Riscani;Duruitoarea
+26308;28.7630,47.0216;MD-2003;Mun.Chisinau;Durleşti
+0;27.2027,47.9111;MD-5619;Riscani;Dumeni
+0;28.1076,47.4796;MD-6224;Singerei;Dumbrăviţa
+0;28.2252,48.0521;MD-3020;Soroca;Dumbrăveni
+0;28.5154,46.3272;MD-3816;Comrat;Duduleşti
+0;29.2804,47.4302;MD-4516;Dubasari Tr.;Dubău
+0;28.6074,46.7491;MD-3426;Hincesti;Dubovca
+0;28.3128,48.0140;MD-3019;Soroca;Dubna
+23254;29.1667,47.2656;MD-4501;Dubasari Tr.;Dubăsari
+0;27.5322,47.5253;MD-5944;Falesti;Drujineni
+0;27.3043,47.9780;MD-5633;Riscani;Pociumbeni
+0;28.2240,46.9376;MD-6437;Nisporeni;Drojdieni
+16080;27.8124,48.0369;MD-5216;Drochia;Drochia
+0;27.8100,48.1142;MD-5232;Drochia;Drochia
+0;26.7282,48.2732;MD-4724;Briceni;Drepcăuţi
+0;28.7815,47.1570;MD-4821;Criuleni;Drăsliceni
+0;28.4468,46.9828;MD-3425;Hincesti;Drăguşeni
+0;28.2522,47.7189;MD-6223;Singerei;Drăgăneşti
+0;28.3289,46.1119;MD-7323;Cahul;Doina
+0;29.2127,47.4042;MD-4515;Dubasari Tr.;Doibani Doi
+0;29.2051,47.3928;MD-4514;Dubasari Tr.;Doibani Unul
+0;29.2036,47.1723;MD-4573;Dubasari Cr.;Doroţcaia
+0;28.6690,47.2863;MD-3526;Orhei;Donici
+9435;27.6101,48.2427;MD-5101;Donduseni;Donduşeni
+0;28.4362,47.7919;MD-5018;Floresti;Domulgeni
+0;27.9535,47.9556;MD-5215;Drochia;Dominteni
+0;28.5934,47.7865;MD-7219;Soldanesti;Dobruşa
+10426;29.9060,46.6240;MD-3352;Tiraspol Tr.;Dnestrovsc
+0;28.4681,46.1593;MD-7316;Cantemir;Dimitrova
+0;28.3187,47.9709;MD-5019;Floresti;Dumitreni
+0;28.6179,46.4221;MD-3820;Comrat;Dezghingea
+0;28.4135,45.8796;MD-7416;Taraclia;Dermengi
+0;27.9834,48.2263;MD-3018;Soroca;Dărcăuţi
+0;28.2452,47.3816;MD-4418;Calarasi;Dereneu
+0;27.4837,48.3472;MD-7119;Ocnita;Dîngeni
+0;29.2991,47.1285;MD-4018;Grigoriopol Tr.;Delacău
+0;29.3049,47.0990;MD-6520;Anenii Noi;Delacău
+0;27.8072,47.1836;MD-3601;Ungheni;Dănuţeni
+0;27.4966,47.8308;MD-4920;Glodeni;Danu
+10000;28.2072,46.7582;MD-3424;Hincesti;Dancu
+0;28.7057,46.9637;MD-6814;Ialoveni;Dănceni
+0;28.4831,46.9742;MD-3413;Hincesti;Dahnovici
+6932;29.1585,47.2134;MD-4801;Criuleni;Criuleni
+13406;28.5930,46.1074;MD-3819;Comrat;Congaz
+22911;28.6571,46.2949;MD-3801;Comrat;Comrat
+12464;28.7649,46.5263;MD-4101;Cimislia;Cimişlia
+0;28.3938,47.7619;MD-5016;Floresti;Ciutuleşti
+0;28.1220,47.1774;MD-6423;Nisporeni;Ciuteşti
+0;28.5673,45.7812;MD-7420;Taraclia;Ciumai
+0;28.3431,47.5053;MD-5840;Telenesti;Ciulucani
+0;28.7552,46.4389;MD-4114;Cimislia;Ciucur-Mingir
+0;29.0008,46.6228;MD-7716;Causeni;Ciufleşti
+0;28.1281,47.5578;MD-6217;Singerei;Ciuciuieni
+0;27.4847,47.6590;MD-4916;Glodeni;Ciuciulea
+0;28.4090,47.0226;MD-6422;Hincesti;Ciuciuleni
+0;28.9754,47.7704;MD-5401;Rezina;Cioma
+0;28.2209,47.1656;MD-6421;Nisporeni;Cioreşti
+0;28.9509,47.1305;MD-4816;Criuleni;Ciopleni
+0;28.6100,47.4943;MD-3519;Orhei;Ciocîlteni
+0;28.8206,46.3659;MD-3818;Comrat;Cioc Maidan
+0;29.7538,46.6852;MD-5715;Slobozia Tr.;Cioburciu
+0;29.7068,46.6013;MD-4216;Stefan-Voda;Cioburciu
+0;28.2224,46.7349;MD-3421;Hincesti;Cioara
+635994;28.8594,47.0090;MD-2000;Mun.Chisinau;Chişinău
+0;28.7537,47.4151;MD-3520;Orhei;Cişmea
+0;28.3812,45.5469;MD-5351;Comrat;Cişmichioi
+0;28.8575,47.6974;MD-5412;Rezina;Cinişeuţi
+0;29.1292,47.0120;MD-4815;Criuleni;Cimişeni
+0;28.8280,46.7561;MD-7715;Ialoveni;Cigîrleni
+0;28.8617,47.5064;MD-3512;Orhei;Cihoreni
+0;27.9155,47.2200;MD-3617;Ungheni;Cetireni
+0;27.5639,48.3122;MD-5116;Donduseni;Cernoleuca
+0;29.5193,47.0301;MD-4014;Grigoriopol Tr.;Cerniţa
+0;28.4673,47.9641;MD-5014;Floresti;Cerniţa
+0;28.6079,48.0815;MD-6641;Soroca;Cerlina
+0;28.3830,47.9843;MD-5015;Floresti;Ciripcău
+0;27.3138,48.3026;MD-7115;Edinet;Cepeleuţi
+0;27.7151,47.9324;MD-5640;Riscani;Cepăria
+0;28.3869,47.8445;MD-5036;Floresti;Cenuşa
+0;28.6374,46.4747;MD-4113;Cimislia;Cenac
+0;28.2830,46.1724;MD-7318;Cantemir;Ciobalaccia
+0;29.1933,46.8148;MD-6516;Anenii Noi;Ciobanovca
+0;28.5029,47.1476;MD-3725;Straseni;Ciobanovca
+22700;28.8308,46.0617;MD-6101;Comrat;Ceadîr-Lunga
+0;28.4066,46.6717;MD-6314;Leova;Ceadîr
+3829;28.2005,46.2775;MD-7301;Cantemir;Cantemir
+11072;28.6990,48.0323;MD-6601;Camenca Tr.;Camenca
+14066;28.3095,47.2555;MD-4402;Calarasi;Călăraşi
+0;29.0483,46.6820;MD-7701;Causeni;Căinari
+34492;28.1952,45.9046;MD-3909;Cahul;Cahul
+0;27.5337,48.4233;MD-7113;Ocnita;Bîrnova
+0;27.4245,48.2650;MD-7112;Ocnita;Bîrlădeni
+1600;28.4580,47.1906;MD-3711;Straseni;Bucovăţ
+0;29.4815,46.9248;MD-4011;Grigoriopol Tr.;Bâcioc
+0;28.2629,46.9244;MD-3416;Hincesti;Bujor
+0;27.1570,48.1072;MD-4620;Edinet;Buzdugeni
+239;28.9673,47.3016;MD-3552;Orhei;Butuceni
+0;28.3389,46.2525;MD-7319;Cantemir;Butuceni
+0;29.0291,47.5292;MD-5514;Ribnita Tr.;Butuceni
+0;28.6734,46.8256;MD-3417;Hincesti;Buţeni
+3102;29.4053,47.0423;MD-4012;Grigoriopol Tr.;Butor
+0;27.3332,47.7968;MD-4913;Glodeni;Buteşti
+0;28.7906,47.5924;MD-5411;Rezina;Buşăuca
+0;27.8100,47.3893;MD-3616;Ungheni;Buşila
+0;28.2333,45.8500;MD-3918;Cahul;Burtovka
+0;28.7402,47.9724;MD-6645;Floresti;Bursuc
+0;28.2987,47.0966;MD-6442;Nisporeni;Bursuc
+0;27.1299,48.1267;MD-4620;Edinet;Burlăneşti
+0;28.4147,46.0473;MD-3916;Cahul;Burlacu
+0;28.5057,45.7596;MD-5313;Cahul;Burlăceni
+0;27.8642,47.5400;MD-5920;Falesti;Burghelea
+0;27.9741,47.3413;MD-3615;Ungheni;Bumbăta
+0;28.4636,46.5409;MD-6333;Leova;Troian
+0;27.6745,47.9228;MD-5640;Riscani;Bulhac
+0;27.7433,47.4284;MD-3647;Ungheni;Bulhac
+0;27.2039,48.3714;MD-4716;Briceni;Bulboaca
+0;29.3081,46.8838;MD-6512;Anenii Noi;Bulboaca
+0;28.9793,47.4769;MD-3517;Orhei;Bulăieşti
+0;28.2222,47.3561;MD-4418;Calarasi;Bularda
+0;28.3500,45.9658;MD-3915;Cahul;Bucuria
+0;28.8164,46.6506;MD-4127;Cimislia;Bukhna
+1800;28.6625,46.3655;MD-3812;Comrat;Bugeac
+0;28.8210,47.4322;MD-3547;Orhei;Budăi
+0;28.3483,47.4573;MD-5810;Telenesti;Budăi
+0;28.9743,46.8127;MD-6828;Ialoveni;Budăi
+0;28.4640,45.8473;MD-7416;Taraclia;Budăi
+0;29.0046,47.0660;MD-4814;Mun.Chisinau;Budeşti
+0;28.2169,47.2113;MD-4415;Calarasi;Buda
+0;28.9895,47.6402;MD-5432;Rezina;Buşâuca
+0;27.7131,47.3709;MD-3627;Ungheni;Buciumeni
+0;28.9399,46.9866;MD-2081;Mun.Chisinau;Bubuieci
+0;27.1751,48.0836;MD-4619;Edinet;Brînzeni
+0;27.3630,47.8141;MD-4915;Glodeni;Brînzeni
+0;28.1738,45.6754;MD-5312;Cahul;Brînza
+0;28.6502,47.4164;MD-3516;Orhei;Breanova
+0;29.3796,47.2799;MD-4019;Grigoriopol Tr.;Bruslachi
+0;29.2678,47.8813;MD-5513;Ribnita Tr.;Broşteni
+0;27.6494,48.1142;MD-5115;Donduseni;Briceva
+9900;27.0785,48.3630;MD-4701;Briceni;Briceni
+14132;27.7029,48.3563;MD-5114;Donduseni;Briceni
+0;29.4566,46.5222;MD-4213;Stefan-Voda;Brezoaia
+0;28.1415,47.5799;MD-6217;Singerei;Brejeni
+0;27.7338,48.3034;MD-5113;Donduseni;Braicău
+0;28.4365,47.3608;MD-4414;Calarasi;Bravicea
+0;28.6592,47.4325;MD-3514;Orhei;Brăviceni
+0;27.4012,48.0713;MD-4617;Edinet;Brătuşeni
+0;27.9625,47.1245;MD-6417;Nisporeni;Brătuleni
+0;27.2530,47.7983;MD-5614;Riscani;Branişte
+0;28.9286,47.3053;MD-3515;Orhei;Brăneşti
+0;28.8429,46.9123;MD-6812;Mun.Chisinau;Brăila
+0;28.6460,46.7500;MD-3415;Hincesti;Bozieni
+0;29.1599,46.9300;MD-6511;Anenii Noi;Botnăreşti
+0;29.3671,47.3056;MD-4522;Dubasari Tr.;Bosca
+0;28.5213,46.3707;MD-6335;Leova;Borogani
+0;28.2868,47.0247;MD-6416;Nisporeni;Bolţun
+0;29.0470,47.8574;MD-5526;Ribnita Tr.;Molochişul Mare
+0;29.1872,47.2611;MD-4520;Dubasari Tr.;Bol'shoy Fontan
+0;27.9880,47.9180;MD-5217;Drochia;Hăsnăşenii Mari
+0;28.4899,46.0998;MD-3934;Cahul;Chioselia Mare
+0;27.3435,47.6946;MD-4911;Glodeni;Balatina
+0;28.8748,47.4314;MD-3513;Orhei;Bolohan
+0;28.0541,47.1347;MD-6415;Nisporeni;Boldureşti
+0;28.4087,46.8447;MD-3412;Hincesti;Bălceana
+0;28.0825,48.0417;MD-3014;Soroca;Bulboci
+0;27.6497,47.4711;MD-5946;Falesti;Bocșa
+0;27.8924,47.5192;MD-5912;Falesti;Bocani
+0;28.4271,47.4218;MD-5812;Telenesti;Bogzeşti
+0;28.3080,46.9641;MD-3414;Hincesti;Boghiceni
+0;27.0010,48.1403;MD-4715;Briceni;Bogdăneşti
+0;28.3510,47.8808;MD-5023;Floresti;Bobuleşti
+0;28.0547,47.4666;MD-6219;Singerei;Bobletici
+0;28.4606,46.9844;MD-3413;Hincesti;Bobeica
+0;28.6994,46.6481;MD-4119;Cimislia;Blyumental'
+7292;29.6465,46.8875;MD-5712;Slobozia Tr.;Blijnii Hutor
+0;27.2196,48.1204;MD-4615;Edinet;Bleşteni
+0;28.8572,47.5170;MD-3512;Orhei;Bieşti
+0;28.8832,46.6757;MD-7718;Cimislia;Codreni
+0;28.5284,45.9075;MD-7426;Taraclia;Orehovca
+0;28.5275,45.8961;MD-7426;Taraclia;Bisericuţa-de Jos
+0;27.3295,47.6431;MD-4912;Glodeni;Bisericani
+0;28.5226,46.0525;MD-7415;Cahul;Borceag
+0;28.1181,47.9770;MD-5027;Floresti;Bezeni
+0;29.1606,47.5768;MD-5525;Ribnita Tr.;Basarabca
+0;28.5289,46.5260;MD-6312;Leova;Beștemac
+0;28.8744,46.1192;MD-6112;Comrat;Beşghioz
+0;28.6470,46.1691;MD-3811;Comrat;Beșalma
+0;26.9370,48.3105;MD-4713;Briceni;Berlinţi
+0;28.9339,47.4370;MD-3511;Orhei;Berezlogi
+0;29.2579,46.8720;MD-6501;Anenii Noi;Beriozchi
+0;27.7833,47.2333;MD-3652;Ungheni;Bereshty
+110175;29.4767,46.8316;MD-3200;Bender Tr.;Bender
+0;26.9461,48.2886;MD-4725;Briceni;Ghilavăţ
+0;28.9782,47.8870;MD-5512;Ribnita Tr.;Beloci
+0;28.6661,47.2146;MD-3716;Straseni;Drăguşeni
+0;28.4737,46.4474;MD-6311;Leova;Băiuş
+0;29.0965,46.5894;MD-7711;Causeni;Baimaclia
+0;28.3889,46.1875;MD-7313;Cantemir;Baimaclia
+0;28.2283,46.0305;MD-3914;Cahul;Baurci-Moldoveni
+0;28.6763,46.0962;MD-6111;Comrat;Baurci
+0;29.0026,46.5758;MD-7712;Cimislia;Batîr
+0;29.1905,46.7961;MD-6516;Anenii Noi;Batîc
+0;29.0010,47.1280;MD-4813;Criuleni;Boşcana
+0;28.7867,46.3086;MD-6712;Cimislia;Başcalia
+10809;28.9616,46.3335;MD-6711;Cimislia;Basarabeasca
+0;27.9146,48.0337;MD-5212;Drochia;Baroncea
+0;29.1772,46.7828;MD-6516;Anenii Noi;Barcareni
+0;28.6698,46.9027;MD-6811;Ialoveni;Bardar
+0;28.0600,47.0202;MD-6414;Nisporeni;Bărboieni
+0;28.3586,45.9275;MD-3926;Cahul;Bairamcea
+0;27.6201,48.0845;MD-5112;Donduseni;Baraboi
+0;28.3837,47.5703;MD-5811;Telenesti;Băneşti
+0;28.9532,46.8419;MD-6828;Ialoveni;Bălţaţi
+0;29.0483,47.0525;MD-4812;Criuleni;Bălţata
+125000;27.9285,47.7629;MD-3100;Balti;Bălţi
+0;29.2853,46.7977;MD-6537;Anenii Noi;Balmaz
+0;27.2018,48.2857;MD-4712;Briceni;Bălcăuţi
+0;28.1352,46.9375;MD-6413;Nisporeni;Bălăureşti
+0;26.9610,48.2450;MD-4711;Briceni;Balasineşti
+0;28.3518,47.6605;MD-6212;Singerei;Bălăşeşti
+0;29.0446,47.2659;MD-4836;Criuleni;Bălăşecţi
+0;28.0643,47.2080;MD-6412;Nisporeni;Bălăneşti
+0;28.5760,45.9339;MD-7414;Taraclia;Balabanu
+0;29.1358,47.0684;MD-4811;Criuleni;Bâlăbăneşti
+0;28.0173,47.0895;MD-6411;Nisporeni;Băcşeni
+0;28.0924,48.1260;MD-3012;Soroca;Băxani
+0;28.4663,47.4221;MD-4413;Calarasi;Bahu
+0;28.1145,47.3235;MD-4411;Calarasi;Bahmut
+0;29.2829,46.6931;MD-4311;Causeni;Baccealia
+0;28.1354,47.5119;MD-6224;Singerei;Bocancea-Schit
+0;28.2443,47.8566;MD-5012;Floresti;Băhrineşti
+0;28.2836,46.1125;MD-7333;Cahul;Rumeanţev
+0;28.2447,46.0947;MD-3913;Cahul;Badicu-Nou
+0;28.2649,46.0951;MD-3913;Cahul;Badicul Moldovenesc
+0;28.0526,48.2034;MD-3011;Soroca;Bădiceni
+0;28.8991,46.9140;MD-6812;Mun.Chisinau;Băcioi
+0;27.2659,47.7851;MD-5614;Riscani;Avrămeni
+0;28.8381,46.2516;MD-3817;Comrat;Avdarma
+0;28.8877,47.0112;MD-2000;Mun.Chisinau;Otovaska-Byk
+8400;27.7991,48.4329;MD-7106;Ocnita;Otaci
+0;29.2319,46.9947;MD-6535;Anenii Noi;Asnăşeni
+0;28.5898,46.5968;MD-4123;Cimislia;Artimonovca
+0;27.8503,48.3720;MD-5111;Donduseni;Arioneşti
+0;27.6947,48.0759;MD-5211;Drochia;Antoneuca
+0;28.2369,47.6745;MD-6235;Singerei;Antonovca
+0;29.8472,46.4939;MD-4212;Stefan-Voda;Antoneşti
+0;28.2160,46.3327;MD-7312;Cantemir;Antoneşti
+0;29.1691,47.7642;MD-5511;Ribnita Tr.;Andreevca
+0;27.6541,47.8470;MD-5612;Riscani;Aluniş
+0;28.5830,45.8656;MD-7413;Taraclia;Aluatu
+0;27.2619,48.0938;MD-4611;Edinet;Alexeevca
+0;28.2866,47.9427;MD-5011;Floresti;Alexeevca
+0;28.2878,47.6891;MD-6220;Singerei;Alexeuca
+0;27.9369,47.2690;MD-3612;Ungheni;Alexeevca
+0;28.5683,46.0254;MD-3822;Comrat;Alexeevca
+0;28.5539,48.0304;MD-6613;Camenca Tr.;Alexandrovca
+0;29.0206,46.7259;MD-7721;Ialoveni;Alexandrovca
+0;28.6606,46.5119;MD-4113;Cimislia;Aleksandrovka
+0;28.2679,46.2293;MD-7337;Cantemir;Alexandrovca
+0;28.4125,46.0503;MD-3916;Cahul;Alexandreşti
+0;27.2616,48.1484;MD-4612;Edinet;Alexăndreni
+0;28.1302,47.9540;MD-5039;Floresti;Alexandrovca
+0;28.0778,47.8072;MD-6211;Singerei;Alexăndreni
+0;28.8750,47.8683;MD-7211;Soldanesti;Alcedar
+0;28.6423,46.7059;MD-4111;Cimislia;Albina
+0;29.5682,46.5093;MD-4211;Stefan-Voda;Alava
+0;28.4254,46.1872;MD-7311;Cantemir;Acui
+0;28.4336,46.1781;MD-7311;Cantemir;Acui de Jos
+0;27.8924,47.3488;MD-3611;Ungheni;Agronomovca
+0;28.2106,46.9844;MD-6437;Nisporeni;Afumaţi
+0;28.9422,46.3602;MD-6711;Cimislia;Abaclia
+0;30.0500,46.4333;MD-4239;Stefan-Voda;Tudorovo
+0;26.7000,48.3167;MD-4724;Briceni;Zalucha
+0;29.1836,47.5879;MD-5525;Ribnita Tr.;Şevcenco
+0;29.4976,47.3515;MD-4015;Grigoriopol Tr.;Pobeda
+0;29.0167,46.4667;MD-6715;Cimislia;Gara Giber
+0;27.6500,48.1833;MD-5140;Donduseni;Berdichi
+0;27.0259,48.3247;MD-4717;Briceni;Caracuşenii Noi
+0;27.2514,48.2460;MD-4734;Briceni;Mihăileni
+0;28.2935,48.1312;MD-3051;Soroca;Zastînca
+0;28.8127,48.1043;MD-6628;Camenca Tr.;Rotari
+0;28.8369,47.8180;MD-7225;Soldanesti;Parcani
+0;28.4074,47.8258;MD-7230;Soldanesti;Rogojeni
+0;27.4320,47.8940;MD-5611;Riscani;Alexăndreşti
+0;28.1961,47.7170;MD-6228;Singerei;Izvoare
+0;28.5041,47.5392;MD-5829;Telenesti;Ratuş
+0;29.1057,47.7472;MD-5533;Ribnita Tr.;Ulmu
+0;28.7787,47.5611;MD-3543;Orhei;Podgoreni
+3800;28.7369,47.0746;MD-2055;Mun.Chisinau;Vatra
+0;28.3278,47.0000;MD-3448;Hincesti;Corneşti
+0;29.1959,46.8865;MD-6531;Anenii Noi;Ruseni
+1094;29.6741,46.7061;MD-3351;Tiraspol Tr.;Cremenciug
+0;29.0641,46.8106;MD-7731;Ialoveni;Văratic
+0;29.2224,46.6894;MD-7726;Causeni;Florica
+6870;28.8894,47.1300;MD-2089;Mun.Chisinau;Ciorescu
+0;28.4742,46.0834;MD-3934;Cahul;Frumuşica
+0;28.5986,45.9003;MD-7425;Taraclia;Novosiolovca
+0;28.5132,45.8738;MD-7426;Taraclia;Salcia
+0;27.0014,48.1591;MD-4714;Briceni;Bezeda
+0;28.1620,47.8657;MD-5024;Floresti;Zarojeni
+0;27.4507,48.2803;MD-7123;Ocnita;Grinăuţi-Moldova
+0;27.5275,48.2768;MD-5129;Donduseni;Pivniceni
+0;28.7684,47.6300;MD-5417;Rezina;Roşcanii de Sus
+0;27.2970,47.9654;MD-5633;Riscani;Druţa
+0;27.8513,47.9974;MD-5202;Drochia;Baroncea Nouă
+0;27.7993,48.0643;MD-5201;Drochia;Şurii Noi
+0;27.4042,48.1194;MD-4626;Edinet;Chetroşica Veche
+0;27.4831,48.0617;MD-4618;Edinet;Brătuşenii Noi
+0;27.5341,48.0334;MD-5642;Riscani;Mihăilenii Noi
+0;27.5392,48.0764;MD-5615;Riscani;Ciubara
+0;27.5638,48.1081;MD-5123;Donduseni;Caraiman
+0;27.0760,48.0620;MD-4614;Edinet;Bădragii Noi
+0;27.7285,48.0631;MD-5227;Drochia;Sergheuca
+0;27.9339,48.1161;MD-5226;Drochia;Holoşniţa Nouă
+0;27.9190,48.1438;MD-5226;Drochia;Şalvirii Noi
+0;27.7322,48.1038;MD-5227;Drochia;Ghizdita
+0;27.6273,48.1252;MD-5115;Donduseni;Elenovca
+0;27.5766,48.1438;MD-5118;Donduseni;Codrenii Noi
+0;27.5247,48.1764;MD-4629;Edinet;Carul Frumos
+0;27.8801,48.1569;MD-5231;Drochia;Iliciovca
+0;27.8726,48.2048;MD-5231;Drochia;Ceapaevca
+0;27.9844,48.2602;MD-5135;Soroca;Slobozia Nouă
+0;27.9938,48.2815;MD-5138;Soroca;Malaya Tatarovka
+0;27.9395,48.2989;MD-5128;Soroca;Poieniţa
+0;27.9106,48.3066;MD-5128;Soroca;Tolocăneşti
+0;27.3938,48.3705;MD-7130;Ocnita;Maiovca
+0;27.7794,48.3818;MD-7111;Ocnita;Berezovca
+0;27.6697,48.3389;MD-5127;Donduseni;Octeabrscoe
+0;27.1753,48.2927;MD-4712;Briceni;Bocicăuţi
+0;27.1394,48.0082;MD-4624;Edinet;Corpaci
+0;27.2252,48.1696;MD-4631;Edinet;Gordineştii Noi
+0;27.2049,48.1163;MD-4615;Edinet;Volodeni
+0;27.3705,48.2072;MD-4639;Edinet;Slobodca
+0;27.3544,48.2498;MD-4637;Edinet;Poiana
+0;27.2388,48.2589;MD-4727;Briceni;Grozniţa
+0;27.2694,48.2533;MD-4638;Edinet;Hlinaia Mică
+0;27.3208,48.2831;MD-4633;Edinet;Clişcăuţi
+0;27.2283,48.2970;MD-4732;Briceni;Mărcăuţii Noi
+0;27.4671,48.3133;MD-7122;Ocnita;Grinăuţi
+0;27.2654,48.3355;MD-7118;Ocnita;Stălineşti
+0;27.3424,48.3101;MD-7115;Edinet;Rîngaci
+0;28.3067,46.6697;MD-3452;Hincesti;Kokocheny
+0;28.7887,46.7286;MD-4124;Cimislia;Schinoşica
+0;28.1898,46.7881;MD-3432;Hincesti;Feteasca
+0;28.9631,46.7458;MD-7727;Ialoveni;Mileştii Noi
+0;28.8505,46.6927;MD-7718;Cimislia;Sagaidacul Nou
+0;28.2314,46.7015;MD-3445;Hincesti;Marchet
+0;28.4376,46.7135;MD-3446;Hincesti;Valea Florii
+0;28.4713,46.7109;MD-3446;Hincesti;Coroliovca
+0;28.4631,46.7398;MD-3446;Hincesti;Brătianovca
+0;28.1943,46.8892;MD-3430;Hincesti;Frasin
+0;28.4643,46.8899;MD-3411;Hincesti;Anini
+0;28.4764,46.8761;MD-3411;Hincesti;Rusca
+0;28.9024,46.8982;MD-6812;Mun.Chisinau;Frumuşica
+0;28.8953,46.6948;MD-7718;Cimislia;Zloţi
+0;28.9878,46.8843;MD-2086;Mun.Chisinau;Dobrogea
+0;28.8186,46.9332;MD-6822;Ialoveni;Piatra Albă
+0;28.9373,46.9650;MD-2081;Mun.Chisinau;Bîc
+0;28.9967,47.0241;MD-4820;Criuleni;Dolinnoe
+0;26.8730,48.3786;MD-4731;Briceni;Pavlovca
+0;26.7494,48.3819;MD-4733;Briceni;Slobozia-Medveja
+0;28.0150,48.0207;MD-3015;Soroca;Floriceni
+0;28.1164,48.0593;MD-3014;Soroca;Bulbocii Noi
+0;28.1028,48.0717;MD-3036;Soroca;Schinenii Noi
+0;28.0254,48.0808;MD-5230;Drochia;Popeştii de Jos
+0;28.1214,48.1803;MD-3043;Soroca;Cureşniţa Nouă
+0;28.1362,48.1528;MD-3034;Soroca;Rubleniţa Nouă
+0;27.9986,48.2102;MD-3018;Soroca;Dărcăuţii Noi
+0;28.0965,48.2090;MD-3022;Soroca;Grigorăuca
+0;28.0642,48.2330;MD-3039;Soroca;Sobari
+0;28.0616,48.2441;MD-3039;Soroca;Valea
+0;28.0215,48.3229;MD-3013;Soroca;Balinţi
+0;28.2139,48.1928;MD-3026;Soroca;Iorjniţa
+0;28.3549,48.1284;MD-3035;Soroca;Inundeni
+0;28.3718,48.1187;MD-3035;Soroca;Ruslanovca
+0;28.1891,48.0979;MD-3030;Soroca;Vanţina
+0;28.1806,48.0694;MD-3033;Soroca;Lugovoe
+0;28.1744,48.1009;MD-3030;Soroca;Vaniţa Mică
+0;28.3401,48.0967;MD-3050;Soroca;Alexandru cel Bun
+0;28.6049,48.1057;MD-6617;Camenca Tr.;Voitovca
+0;28.5869,48.1564;MD-6619;Camenca Tr.;Frunzăuca
+0;28.8366,48.0617;MD-6628;Camenca Tr.;Socolovca
+0;28.7811,48.0812;MD-6628;Camenca Tr.;Bodeni
+0;28.0687,47.0622;MD-6438;Nisporeni;Selişteni
+0;28.0706,47.0514;MD-6438;Nisporeni;Odobeşti
+0;28.0769,47.0835;MD-6438;Nisporeni;Luminiţa
+0;28.0281,47.1134;MD-6415;Nisporeni;Chilişoaia
+0;28.1721,47.3074;MD-4421;Calarasi;Tochile
+0;28.2076,47.3013;MD-4403;Calarasi;Muzhik
+0;28.2361,47.2995;MD-4403;Calarasi;Oricova
+0;28.2388,47.2605;MD-4438;Calarasi;Podul Lung
+0;28.3738,47.2964;MD-4434;Calarasi;Parcani
+0;28.5646,47.3314;MD-3549;Orhei;Tabăra
+0;28.6114,47.1942;MD-3718;Straseni;Saca
+0;28.9796,47.1221;MD-4816;Criuleni;Chetroasa
+0;28.9730,47.0797;MD-2085;Mun.Chisinau;Cruzeşti
+0;28.9524,47.0944;MD-2085;Mun.Chisinau;Ceroborta
+0;28.9094,47.0834;MD-2092;Mun.Chisinau;Buneţi
+0;28.9246,47.0651;MD-2092;Mun.Chisinau;Cheltuitori
+0;28.8243,47.1416;MD-4829;Criuleni;Măgdăceşti
+0;28.8075,47.1667;MD-4835;Criuleni;Ratuş
+0;28.7114,47.2255;MD-3728;Straseni;Romăneşti
+0;28.4962,47.2099;MD-3717;Straseni;Găleştii Noi
+0;28.4277,47.2056;MD-4435;Straseni;Rassvet
+0;28.5989,46.9908;MD-6830;Ialoveni;Karpino
+0;27.6800,47.3134;MD-3644;Ungheni;Blindeşti
+0;27.8444,47.2696;MD-3606;Ungheni;Novaia Nicolaevca
+0;27.9747,47.2465;MD-3612;Ungheni;Săghieni
+0;27.7611,47.2425;MD-3652;Ungheni;Elizavetovca
+0;27.3050,47.8677;MD-5618;Riscani;Dămăşcani
+0;27.2546,47.8114;MD-5614;Riscani;Reteni
+0;27.2604,47.8076;MD-5614;Riscani;Reteni-Vasileuţi
+0;27.5015,47.9612;MD-5603;Riscani;Bălanu Nou
+0;27.6993,47.8538;MD-5636;Riscani;Slobozia-Recea
+0;27.7578,47.8909;MD-5621;Riscani;Ciobanovca
+0;27.9874,47.9772;MD-5228;Drochia;Popeştii Noi
+0;27.9394,47.9608;MD-5215;Drochia;Valeny
+0;27.9453,47.9692;MD-5215;Drochia;Mikhaylyany
+0;27.8959,47.7602;MD-3100;Balti;Pămînteni
+0;27.5626,47.8045;MD-4901;Glodeni;Soroca
+0;27.3679,47.7264;MD-4911;Glodeni;Lipovăţ
+0;27.4167,47.6236;MD-4933;Glodeni;Moara Domnească
+0;29.1386,47.2462;MD-4801;Criuleni;Zoloceni
+0;27.7461,47.7010;MD-5925;Falesti;Răuţelul Nou
+0;27.7876,47.6359;MD-5916;Falesti;Ciuluc
+0;27.9934,47.6536;MD-6214;Singerei;Coada Iazului
+0;27.8800,47.6567;MD-5936;Falesti;Ivanovca
+0;27.9042,47.6647;MD-5936;Falesti;Beleuţi
+0;27.5084,47.6260;MD-5917;Falesti;Chetrişul Nou
+0;27.6437,47.6027;MD-5940;Falesti;Pînzărenii Noi
+0;27.6016,47.5101;MD-5911;Falesti;Rediul de Jos
+0;27.6071,47.5258;MD-5911;Falesti;Rediul de Sus
+0;27.7070,47.4797;MD-5949;Falesti;Hîrtop
+0;27.6863,47.5150;MD-5914;Falesti;Frumuşica
+0;27.7006,47.5006;MD-5949;Falesti;Nicolaevca
+0;27.6646,47.3468;MD-3644;Ungheni;Floreni
+0;27.6000,47.4087;MD-5928;Falesti;Vrăneşti
+0;27.5790,47.4161;MD-5927;Falesti;Unteni
+0;27.7687,47.5821;MD-5923;Falesti;Pietrosul Nou
+0;27.9519,47.5061;MD-5939;Falesti;Măgura Nouă
+0;27.8231,47.5372;MD-5920;Falesti;Doltu
+0;27.8745,47.4658;MD-5919;Falesti;Pocrovca
+0;27.9763,47.4308;MD-3613;Uhnheni;Izvoreni
+0;27.7163,47.3852;MD-3627;Ungheni;Floreşti
+0;27.8378,47.3566;MD-3630;Ungheni;Grăseni
+0;29.0033,47.1176;MD-4813;Criuleni;Mărdăreuca
+0;29.0782,47.0706;MD-4814;Mun.Chisinau;Văduleni
+0;29.0247,47.0480;MD-4812;Criuleni;Sagaidacul de Sus
+0;29.1660,46.9216;MD-6511;Anenii Noi;Botnăreştii Noi
+0;29.1842,46.8916;MD-6531;Anenii Noi;Albiniţa
+0;29.2682,46.9261;MD-6535;Anenii Noi;Varniţa Nouă
+0;29.3582,46.9142;MD-6513;Anenii Noi;Calfa Nouă
+0;29.2535,47.3227;MD-4513;Dubasari Tr.;Afanasievca
+0;29.2503,47.3119;MD-4513;Dubasari Tr.;Calinovca
+0;29.5972,46.6980;MD-4223;Causeni;Valea Verde
+0;29.5985,46.7401;MD-5714;Slobozia Tr.;Zahorna
+0;29.2198,46.7104;MD-7726;Causeni;Plop
+0;29.2397,46.7381;MD-4311;Causeni;Tricolici
+0;29.3026,46.7513;MD-4315;Causeni;Fîrladenii Noi
+0;29.2779,46.8327;MD-6501;Anenii Noi;Hîrbovăţul Nou
+0;29.3614,47.1815;MD-4001;Grigoriopol Tr.;Crasnoe
+0;29.3320,47.2348;MD-4019;Grigoriopol Tr.;Marian
+0;29.2860,46.9811;MD-6535;Anenii Noi;Teliţa Nouă
+0;29.3869,47.0462;MD-4012;Grigoriopol Tr.;India
+0;29.0782,47.6556;MD-5528;Ribnita Tr.;Novaia Jizni
+0;29.0087,47.5401;MD-5421;Rezina;Nistreni
+0;29.0931,47.6214;MD-5536;Ribnita Tr.;Vladimirovca
+0;29.1960,47.6209;MD-5522;Ribnita Tr.;Pobeda
+0;29.1435,47.8777;MD-5516;Ribnita Tr.;Dimitrova
+0;29.1216,47.7533;MD-5533;Ribnita Tr.;Ulmul Mic
+0;29.0763,47.7425;MD-5533;Ribnita Tr.;Lâsaia Gora
+0;29.1447,47.9543;MD-5531;Ribnita Tr.;Sovietscoe
+0;29.0730,47.7158;MD-5503;Ribnita Tr.;Buschi
+0;29.3052,47.3690;MD-4512;Dubasari Tr.;Vasilievca
+0;29.1814,47.8008;MD-5515;Ribnita Tr.;Suhaia Râbniţa
+0;29.2055,47.6941;MD-5522;Ribnita Tr.;Stanislavca
+0;28.9813,47.7865;MD-5401;Rezina;Boşerniţa
+4700;28.0700,47.8135;MD-6202;Singerei;Biruinţa
+0;28.7757,47.4039;MD-3540;Orhei;Pelivan
+0;28.2191,47.5628;MD-5839;Telenesti;Ciofu
+0;28.1673,47.5704;MD-5839;Telenesti;Bondareuca
+0;28.6571,47.3366;MD-3524;Orhei;Curchi
+0;28.6844,47.3389;MD-3524;Orhei;Mana
+0;28.0017,47.3904;MD-3608;Ungheni;Poiana
+0;28.0911,47.3324;MD-4412;Calarasi;Pojarna
+0;28.1030,47.3453;MD-3631;Calarasi;Veveriţa
+0;28.1531,47.3442;MD-4421;Calarasi;Leordoaia
+0;28.2946,47.3531;MD-4422;Calarasi;Sverida
+0;28.6927,47.3599;MD-3539;Orhei;Neculăieuca
+0;28.8749,47.5384;MD-3556;Orhei;Andreevca
+0;28.8471,47.8563;MD-7211;Soldanesti;Odaia
+0;28.8402,47.9026;MD-6620;Camenca Tr.;Iantarnoe
+0;28.8607,47.8993;MD-6620;Camenca Tr.;Sadchi
+0;28.7472,47.9250;MD-7231;Soldanesti;Lelina
+0;28.7799,47.6852;MD-5430;Rezina;Pripiceni-Curchi
+0;28.5827,47.6370;MD-5827;Telenesti;Chersac
+0;28.5565,47.6140;MD-5827;Telenesti;Dobruşa
+0;28.0692,47.8632;MD-5020;Singerei;Mărăşeşti
+0;28.1462,47.8248;MD-6242;Singerei;Ţipleşti
+0;28.1851,47.7843;MD-5032;Floresti;Frunzeşti
+0;28.2139,47.7868;MD-5032;Floresti;Antonovca
+0;28.2024,47.7652;MD-6243;Singerei;Valea Norocului
+0;28.0606,47.7255;MD-6229;Singerei;Mărineşti
+0;28.3831,47.7318;MD-5016;Floresti;Mărineşti
+0;28.3280,47.7254;MD-5031;Floresti;Ion Vodă
+0;28.5285,47.9186;MD-6642;Floresti;Nicolaevca
+0;28.5261,47.9355;MD-6652;Floresti;Făgădău
+0;28.4176,47.6986;MD-5828;Telenesti;Pistruienii Noi
+0;28.4842,47.7061;MD-5828;Telenesti;Hîrtop
+0;28.5171,47.3779;MD-3528;Orhei;Noroceni
+0;28.1661,47.4846;MD-5841;Telenesti;Cucioaia Nouă
+0;28.2210,47.6701;MD-6235;Singerei;Evghenievca
+0;28.2954,47.6575;MD-6234;Singerei;Romanovca
+0;28.2917,47.6088;MD-6230;Singerei;Clişcăuţi
+0;28.2898,47.6225;MD-6230;Singerei;Şestaci
+0;28.4853,47.5647;MD-5816;Telenesti;Chiţcanii Noi
+0;28.4349,47.6161;MD-5814;Telenesti;Vadul-Leca Nou
+0;28.3380,47.6528;MD-6234;Singerei;Pepenii Noi
+0;28.7398,47.6471;MD-5417;Rezina;Roşcani
+0;28.7028,47.5444;MD-3523;Orhei;Cucuruzenii de Sus
+0;28.5253,47.5362;MD-5829;Telenesti;Mîndra
+0;28.4997,47.5085;MD-5832;Telenesti;Sărătenii Noi
+0;28.0164,47.4882;MD-6215;Singerei;Bursuceni
+0;28.1377,47.3377;MD-3631;Ungheni;Leordoaia
+0;28.0734,47.4324;MD-3625;Ungheni;Drujba
+0;28.2682,47.4646;MD-5824;Telenesti;Codru
+0;28.2982,47.5033;MD-5825;Telenesti;Mihălaşa Nouă
+0;28.6396,47.4896;MD-3519;Orhei;Fedoreuca
+0;28.5998,47.5314;MD-5830;Telenesti;Zahareuca
+0;28.5757,47.5467;MD-5834;Telenesti;Codrul Nou
+0;28.5475,47.6883;MD-5833;Telenesti;Flutura
+0;28.0988,47.6241;MD-6203;Singerei;Vrăneşti
+0;29.3243,46.4789;MD-4327;Causeni;Zviozdocica
+0;29.8254,46.5464;MD-4240;Stefan-Voda;Viişoara
+0;29.7754,46.5330;MD-4231;Stefan-Voda;Răscăieţi Noi
+0;29.1909,46.6324;MD-7717;Causeni;Sălcuţa Nouă
+0;27.4172,47.8878;MD-5614;Riscani;Ivăneşti
+0;27.5251,47.9860;MD-5642;Riscani;Armanca
+0;27.5619,47.9356;MD-5626;Riscani;Nihoreni
+0;27.6256,47.7986;MD-4925;Glodeni;Iablona Veche
+0;27.3370,47.6535;MD-4912;Glodeni;Cot
+0;27.6770,47.5255;MD-5914;Falesti;Socii Vechi
+0;27.7761,47.6234;MD-5921;Falesti;Catranîc
+0;27.8899,47.3968;MD-3639;Ungheni;Negurenii Noi
+0;27.6942,47.3962;MD-3619;Ungheni;Cioropcani
+0;29.5338,46.7755;MD-5714;Slobozia Tr.;Mereneşti
+0;29.1426,47.0789;MD-4811;Criuleni;Mălăleştii Noi
+0;29.1127,47.4923;MD-5524;Ribnita Tr.;Żurka
+0;29.1736,47.7725;MD-5511;Ribnita Tr.;Bukhta
+0;29.1667,47.7608;MD-5511;Ribnita Tr.;Samsonovka
+0;28.3294,47.0181;MD-3448;Hincesti;Secăreni Noi
+0;28.4546,47.0592;MD-6426;Hincesti;Horodca
+0;28.7375,47.6467;MD-5417;Rezina;Roşcanii de Jos
+0;28.9667,47.7389;MD-5517;Ribnita Tr.;Rezina Sat
+0;28.3603,46.1242;MD-7320;Cantemir;Şofranovca
+0;28.3445,46.1621;MD-7320;Cantemir;Suhat
+0;28.5704,46.0072;MD-7419;Taraclia;Cortenul Nou
+0;28.4175,46.1964;MD-7311;Cantemir;Acui de Sus
+0;28.4110,46.2350;MD-7324;Cantemir;Floricica
+0;28.2527,46.3908;MD-6320;Leova;Nicolaevca
+0;28.4733,46.4419;MD-6311;Leova;Cociulia Nouă
+0;28.4058,46.4911;MD-6324;Leova;Bulgari
+0;28.7169,46.4854;MD-4131;Cimislia;Dimitrovca
+0;28.4781,46.5389;MD-6333;Leova;Troian 2
+0;28.5452,46.5025;MD-6312;Leova;Pitești
+0;28.5533,46.6317;MD-6331;Leova;Usăteni
+0;28.9342,46.5112;MD-6715;Cimislia;Bogdanovca
+0;28.9502,46.6577;MD-7714;Causeni;Baurci
+0;28.2689,46.7953;MD-3423;Hincesti;Tălăieştii-Noi
+0;28.2814,46.8142;MD-3423;Hincesti;Tălăieştii-Vechi
+0;28.6974,46.7456;MD-4122;Cimislia;Ivanovca Nouă
+0;28.7467,46.6767;MD-4121;Cimislia;Broscari
+0;28.2450,46.8539;MD-3441;Hincesti;Oneştii Noi
+0;28.2717,46.9764;MD-3437;Hincesti;Chetroşenii Noi
+0;28.9764,46.9965;MD-2081;Mun.Chisinau;Humuleşti
+0;28.4380,45.5162;MD-5353;Comrat;Etulia Nouă
+0;28.1733,45.7847;MD-3925;Cahul;Viduca
+0;28.3762,45.7567;MD-5317;Cahul;Nicolaevca
+0;28.3536,45.8024;MD-3927;Cahul;Sătuc
+0;28.3856,45.8286;MD-3927;Cahul;Valya Gavanosa
+0;28.4333,45.8144;MD-7120;Ocnita;Novoye Aleksandrovo
+0;28.4733,45.7692;MD-5319;Cahul;Netush
+0;28.4792,45.6825;MD-5301;Comrat;Cătun Vulcăneşti
+0;28.5318,45.7617;MD-5313;Cahul;Greceni
+0;28.5781,45.7354;MD-7423;Taraclia;Mirnoe
+0;28.3392,45.9714;MD-3915;Cahul;Cazaclia
+0;28.3031,45.9664;MD-3915;Cahul;Ciorâta
+0;28.4018,45.9647;MD-3930;Cahul;Tudoreşti
+0;28.5719,45.9981;MD-7419;Taraclia;Shlenger
+0;28.8294,46.9550;MD-4417;Calarasi;Costiujeni
+0;28.4599,46.2247;MD-7324;Cantemir;Bobocica
+0;28.4811,46.1950;MD-7316;Cantemir;Țolica
+0;28.2741,46.3959;MD-6320;Leova;Hănăşenii de Prut
+0;28.9401,47.1025;MD-2085;Mun.Chisinau;Hruşeva
+0;28.7881,46.7715;MD-6820;Ialoveni;Cigârleni
+0;28.7899,46.4288;MD-4114;Cimislia;Cicur-Minjir
+0;27.5847,48.4326;MD-7136;Ocnita;Naslaucea
+0;28.5224,46.3462;MD-3816;Comrat;Congazcic
+0;27.5717,47.5825;MD-5937;Falesti;Navîrneţi
+0;28.5034,48.0972;MD-6647;Soroca;Nemereuca
+0;29.0372,46.6226;MD-7729;Causeni;Chircăeştii Noi
+0;29.0227,47.3906;MD-3548;Orhei;Oxintea
+0;28.4041,47.7015;MD-5828;Telenesti;Pistrueni
+0;28.5597,47.4328;MD-5819;Telenesti;Puţuntei
+0;28.6700,46.5770;MD-4120;Cimislia;Ialpujeni
+0;27.4100,47.8600;MD-5614;Riscani;Goloşeni
+0;28.6500,46.4400;MD-4131;Cimislia;Dezghinja
+0;28.9100,46.4100;MD-6713;Cimislia;Carapetovca
+0;28.2000,47.1500;MD-6421;Nisporeni;Ciorăşti
+0;27.9688,47.8307;MD-6222;Singerei;Ozërnoye
+0;28.2638,47.3747;MD-4418;Calarasi;Duma
+0;28.4434,47.8311;MD-7230;Soldanesti;Poselok Rogozhany
+0;28.2007,47.0087;MD-6437;Nisporeni;Odaya
+0;28.8161,46.5947;MD-4115;Cimislia;Novyy Selemet
+0;28.4787,46.1942;MD-7316;Cantemir;Tsolika
+0;28.5057,46.4926;MD-6312;Leova;Gyrtop
+0;27.7356,48.2844;MD-5121;Donduseni;Borosyany
+0;27.4787,48.4108;MD-7126;Ocnita;Oknitsa
+0;27.2826,48.3113;MD-7115;Edinet;Vanchikautsy
+0;27.0706,48.3377;MD-4701;Briceni;Brichany
+0;28.6363,48.0395;MD-6601;Camenca Tr.;Solnecinoo
+0;27.5667,47.5833;MD-5937;Falesti;Navirnets
+0;27.7419,47.5326;MD-5947;Falesti;Fabrica de Zahăr
+0;27.7404,47.5494;MD-5923;Falesti;Faleshty
+0;28.0400,47.4274;MD-3613;Ungheni;Sineshty
+0;28.7315,47.4289;MD-3520;Orhei;Zorile
+0;27.9651,47.1553;MD-6417;Nisporeni;Bratuleny
+0;28.1999,46.8572;MD-3430;Hincesti;Ivanovka
+0;29.0998,46.6731;MD-7725;Causeni;Kaynary
+0;27.4829,48.2714;MD-7123;Ocnita;Redyu-Mare

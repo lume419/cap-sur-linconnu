@@ -26,10 +26,10 @@ const path = require('path');
 // Serbie et Macédoine du Nord : dernier ajout en date de la série balkanique (Monténégro/Kosovo
 // traités séparément, voir build-me-aliases.js/build-xk-aliases.js — pas de fichier de codes
 // postaux GeoNames pour ces deux-là). La Grèce (GR) non plus : voir build-gr-aliases.js.
-const COUNTRIES = ['VA', 'IS', 'FO']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/
-// SI/HR/BA/GB/IE/IM/DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE
+const COUNTRIES = ['GI', 'MD', 'BY', 'UA']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/
+// SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO
 // déjà générés et commités (les leurs restent inchangés)
-// déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee.txt)
+// déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
@@ -120,7 +120,27 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // (Robert Burns) ; l'ulster-scots (variante nord-irlandaise) est délibérément FONDU dans cet ajout
 // plutôt qu'ajouté à part — pas de norme écrite vraiment distincte, même logique que le rusyn/lemko
 // traité comme une seule langue malgré ses variantes régionales.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs', 'is', 'fo']);
+// Gibraltar/Moldavie/Biélorussie/Ukraine, dernier ajout en date (voir README "Langues") : "gag"
+// (gagaouze, ISO 639-2/3 — pas de code 639-1) depuis l'ajout de la Moldavie, seule langue à statut
+// officiel PROPRE au pays (le roumain, langue d'Etat, est déjà couvert via "ro"/la Roumanie) —
+// co-officielle dans l'autonomie de Gagaouzie aux côtés du roumain et du russe (loi de 1994 sur le
+// statut juridique spécial de la Gagaouzie). "be" (biélorusse) ET "ru" (russe), ISO 639-1 tous les
+// deux, depuis l'ajout de la Biélorussie : les DEUX sont langues d'Etat à parts égales (art. 17 de
+// la Constitution biélorusse, révision de 1996) — même cas que l'irlandais/l'anglais en République
+// d'Irlande, aucune des deux n'est à exclure au nom de la règle "pas de langue nationale d'un pays
+// déjà couvert par un autre biais" puisque ni le biélorusse ni le russe ne sont la langue nationale
+// d'un AUTRE pays déjà couvert par cette app (la Russie elle-même n'est pas un pays couvert ici).
+// "uk" (ukrainien, ISO 639-1) depuis l'ajout de l'Ukraine — seule langue d'Etat depuis la loi du 25
+// avril 2019 "Sur le fonctionnement de l'ukrainien en tant que langue d'Etat" (entrée en vigueur le
+// 16 juillet 2019). "crh" (tatar de Crimée, ISO 639-2/3 — pas de code 639-1) : contrairement au
+// russe, RETIRÉ par le Parlement ukrainien lui-même de la liste des langues minoritaires protégées
+// en décembre 2025 (Kyiv Independent, déc. 2025) — le tatar de Crimée, lui, y reste bien présent
+// (avec le hongrois/le roumain/le polonais/le biélorusse..., 18 langues au total) : ajouté sur ce
+// fondement précis (statut légal ukrainien ACTUEL, jamais un jugement indépendant sur une langue
+// hors du périmètre déjà couvert par ce projet), avec la même réserve de confiance que
+// l'istro-roumain/le cornique/le mannois déjà traduits malgré un nombre de locuteurs plus modeste
+// (~500 000, alphabet latin réintroduit en 1997, toujours en usage concurrent avec le cyrillique).
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs', 'is', 'fo', 'gag', 'be', 'ru', 'uk', 'crh']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -256,7 +276,13 @@ const NAME_OVERRIDES = {
   'Vilkaviskis': 'Vilkaviškis',
   // Voir build-country-communes.js pour le détail (Vatican City -> Città del Vaticano) — même
   // correction reproduite ici. Aucune côté islandais ni féroïen.
-  'Vatican City': 'Città del Vaticano'
+  'Vatican City': 'Città del Vaticano',
+  // Gibraltar/Moldavie/Biélorussie/Ukraine, dernier ajout en date — voir build-country-communes.js
+  // pour le détail complet de chaque correction, reproduites ici à l'identique (même canonique
+  // cible que communes-XX.txt, nécessaire pour que les alias pointent vers un nom qui existe
+  // réellement dans ce fichier).
+  'Chisinau': 'Chişinău',
+  'Ryasno, Rjasno, Rasna': 'Ryasno'
 };
 // Même correction que build-country-communes.js (voir son commentaire pour le détail) : le dump
 // GeoNames croate confond le Ð latin (Eth, U+00D0) avec le VRAI Đ croate (D barré, U+0110) dans 48
@@ -272,6 +298,10 @@ const SARK_EXCLUDE_NAMES = new Set(['Sark', 'La Seigneurie']);
 // entrées, pour que le nom CANONIQUE servant de cible aux alias soit cohérent avec
 // communes-mk.txt (généré avec exactement la même règle).
 const MK_CYRILLIC_RE = /[Ѐ-ӿ]/;
+// Même repli réutilisé pour la Biélorussie (14 communes) et l'Ukraine (3, dont deux caractères
+// cyrilliques confusables isolés plutôt qu'un nom entièrement cyrillique — voir
+// build-country-communes.js pour le détail complet).
+const ASCIINAME_FALLBACK_COUNTRIES = new Set(['MK', 'BY', 'UA']);
 
 function haversineKm(lat1, lon1, lat2, lon2){
   const R = 6371;
@@ -338,7 +368,7 @@ for(const country of COUNTRIES){
       // où rawName sert à synthétiser un alias "mk" quand aucun n'existe déjà dans le fichier
       // alternateNames pour ce geonameid précis).
       rawName: c[1],
-      name: cleanName((country === 'MK' && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1]),
+      name: cleanName((ASCIINAME_FALLBACK_COUNTRIES.has(country) && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1]),
       lat: parseFloat(c[4]),
       lon: parseFloat(c[5]),
       admin1Code: c[10] || '',

@@ -162,7 +162,14 @@
   // autres tels quels — la livre sterling se note généralement "£" devant le montant en anglais,
   // mais rester en code ISO ici évite toute ambiguïté avec les livres locales de Guernesey/Jersey
   // (jamais interchangeables avec un simple "£" hors de leurs îles respectives).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK' };
+  // Gibraltar/Moldavie/Biélorussie/Ukraine, dernier ajout en date : GIP rejoint CHF/GBP/CZK/PLN/HUF/
+  // BAM/DKK/NOK/SEK/ALL/RSD/MKD/RON/ISK (code ISO tel quel, jamais un symbole ambigu) pour la même
+  // raison que GBP — la livre de Gibraltar est à parité fixe avec la livre sterling mais n'est PAS
+  // interchangeable avec elle en dehors du territoire, un simple "£" créerait la même ambiguïté déjà
+  // évitée pour GBP/Guernesey/Jersey. MDL/BYN/UAH suivent la même règle par cohérence avec le reste
+  // de la table (aucune de ces trois devises n'a un symbole international aussi immédiatement
+  // reconnaissable que "€", même règle qui a laissé CZK/PLN/HUF... en code ISO plutôt qu'en symbole).
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH' };
   // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
   // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
   // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
@@ -170,7 +177,21 @@
   // symbole "kr" (DKK/NOK/SEK/ISK, chacune sa propre couronne nationale — l'islandaise rejoint le
   // groupe avec ce passage) : jamais affiché seul dans le sélecteur, toujours accompagné du code
   // (voir renderCurrencyList/renderCurrencyButton) pour rester non ambigu malgré le symbole commun.
-  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr' };
+  // GIP : même glyphe que GBP ("£", livre de Gibraltar imprimée avec le même symbole). MDL : "L"
+  // comme ALL (le leu moldave, comme le lek albanais, s'abrège en une simple lettre plutôt qu'un
+  // symbole dédié — jamais affiché seul dans le sélecteur, voir le commentaire au-dessus de
+  // CURRENCY_GLYPH). BYN : "Br", le symbole latin adopté par la Banque nationale de Biélorussie en
+  // 2005 (concours officiel). Un symbole graphique de remplacement (un "Б" cyrillique stylisé, à la
+  // manière du signe rouble russe "₽") a bien été retenu par un nouveau concours officiel en janvier
+  // 2026, mais un symbole de monnaie tout juste adopté met en pratique plusieurs années à obtenir un
+  // point de code Unicode propre (le "₽" russe, adopté en 2013, n'a été normalisé qu'en 2014) :
+  // l'utiliser maintenant afficherait très probablement un caractère manquant plutôt que le symbole
+  // voulu — même risque de rendu déjà rencontré et évité une fois dans ce projet (voir LANG_FLAGS
+  // dans i18n.js, l'abandon des émojis drapeau pour cette même raison). "Br", encore officiellement
+  // en usage, reste le choix fiable. UAH : "₴" (signe monétaire dédié de la hryvnia, U+20B4, normalisé
+  // de longue date et largement pris en charge) — contrairement à "kr"/"L"/"Br" ci-dessus, un vrai
+  // symbole comme "€"/"£" plutôt qu'une abréviation.
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :
