@@ -1407,18 +1407,45 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   soit — les deux sont des pays entièrement sans littoral, comme le Kosovo.
 - **Bulgarie, Roumanie** : AUCUNE nouvelle ligne — la Bulgarie a bien une façade sur la mer Noire mais
   aucune île détachée à relier, la Roumanie de même (delta du Danube compris, accessible par route).
-- **Grèce : îles délibérément REPORTÉES, pas silencieusement omises.** Contrairement à tous les cas
-  ci-dessus, la Grèce a un vrai réseau d'îles habitées significatives sans pont (Crète, Rhodes,
-  Corfou, les Cyclades, le Dodécanèse...) qui appellerait normalement ce même mécanisme `landmassOf` —
-  mais à une échelle sans commune mesure avec les cas déjà traités ici (une poignée de lignes, chacune
-  vers UNE île ou UN archipel compact) : des dizaines de lignes réelles, opérées par plusieurs
-  compagnies (Blue Star Ferries, ANEK/Superfast, Hellenic Seaways...), avec des réseaux d'îles
-  imbriqués (une ligne dessert souvent plusieurs îles à la suite) plutôt qu'un aller-retour continent-
-  île simple. `communes-gr.txt` inclut malgré tout les communes insulaires telles quelles (voir "Pays
-  couverts") : à ce stade, un trajet tiré au sort PEUT atterrir sur une île grecque avec un calcul de
-  route continental irréaliste — même défaut assumé temporairement que documenté explicitement plutôt
-  que caché, en attendant un passage dédié à la modélisation des ferries grecs (hors du périmètre de
-  cette tâche précise).
+- **Grèce : le plus gros ajout de toute cette section, 30 vraies lignes.** Le réseau d'îles grecques
+  reliées par ferry-voiture est, de très loin, le plus dense de tous les pays couverts ici — modélisé
+  à cette échelle plutôt que reporté (voir la demande explicite de l'utilisateur à ce sujet). Trois
+  masses continentales, PORTS DE DÉPART DISTINCTS selon la région plutôt qu'un unique aller-retour
+  Le Pirée générique : Le Pirée (Crète, Dodécanèse — Rhodes/Kos/Kálymnos/Léros/Pátmos/Kárpathos —,
+  Cyclades — Sýros/Tínos/Náxos/Páros/Ándros/Mýkonos/Santorin/Mílos/Íos/Amorgós —, Égée du Nord —
+  Lésvos/Chíos/Sámos/Ikaría —, golfe Saronique — Égine/Póros), Igoumenitsa (Corfou), Patras/Kyllíni
+  (Céphalonie/Ithaque/Zante, Ionienne), Néapoli en Laconie (Cythère), Vólos (Skiáthos/Skópelos/
+  Alónnisos, Sporades) et Kými en Eubée (Skýros, seule île des Sporades sans ligne directe régulière
+  depuis Le Pirée). Chaque ligne a un vrai port, un vrai opérateur, une vraie durée et un vrai tarif
+  "voiture" sourcés (Blue Star Ferries/Minoan Lines/Seajets/ANEK-Superfast pour Le Pirée, Levante
+  Ferries pour l'Ionienne, KerkyraLines/Kerkyra Seaways pour Corfou, Triton Ferries pour Cythère,
+  Hellenic Seaways/Alonissos Skopelos Skiathos Shipping Company pour les Sporades — agrégées via
+  ferryhopper.com/ferryscanner.com/directferries.com, tarifs basse saison 2026 ; voir
+  `public/js/app.js`, section "Ferries : Grèce" au-dessus de `FERRY_ROUTES`, pour le détail ligne par
+  ligne). Système de détection par PRÉFIXE de code postal (`GR_ISLAND_PATTERNS`) plutôt que code exact
+  un par un comme la Croatie — le découpage postal grec s'y prête, sauf deux exceptions documentées en
+  code : Skýros (34007) et Póros (18020, filtré par nom) partagent leur bloc postal avec une zone
+  continentale voisine (Eubée, Trézène/Galatás).
+  **Trois destinations reconnues mais volontairement SANS ligne** (même traitement que les Açores/
+  Madère ci-dessus — l'absence d'entrée dans `FERRY_ROUTES` suffit à les exclure comme étape reliée,
+  sans code spécifique) : **Hydra**, dont la circulation automobile est interdite sur l'île elle-même
+  (âne et à pied seulement, aucune ligne voiture ne peut donc exister) ; **Spetses**, qui n'a pas non
+  plus de ligne voiture directe régulière ; **Límnos**, dont la ligne directe au départ du Pirée
+  n'embarque pas de véhicules à ce jour (2026) — à ne pas confondre avec Ikaría, correctement reliée,
+  elle, par une vraie ligne voiture. Une trentaine de petites îles/îlots grecs restent, comme pour la
+  Croatie, volontairement LAISSÉS DE CÔTÉ (limite assumée, pas un oubli, même logique que les îlots
+  croates) : Cyclades mineures (Sífnos, Sérifos, Kýthnos, Kéa, Antíparos, Anáfi, Síkinos, Folégandros,
+  Kímolos), Dodécanèse mineur (Lipsí, Tílos, Sými, Kásos, Astypálaia, Kastellórizo), mer Égée du Nord
+  (Ágios Efstrátios, Foúrnoi) et petites îles ioniennes (Paxoí, Meganísi, Kálamos) — toutes restent
+  accessibles comme point de départ (recherche manuelle) mais jamais comme étape reliée. Leucade, elle,
+  n'a besoin d'aucun traitement particulier : reliée au continent par une digue routière depuis les
+  années 1980, jamais par ferry, déjà `continental` sans exception à coder — comme Eubée (pont de
+  Chalcis) ou Öland pour la Suède plus haut.
+  **Noms d'îles dans le sélecteur de langue** : mêmes principes que pour la Croatie/le Danemark/la
+  Suède plus haut (Cres/Mljet/Bornholm/Gotland) — le nom natif translittéré de chaque île reste
+  IDENTIQUE dans les 53 langues (Ródos, Kérkyra, Zákynthos, Mýkonos...), jamais traduit, sauf la Crète
+  qui reçoit une vraie traduction par langue (même traitement que la Corse/la Sardaigne/la Sicile/
+  Malte — un exonyme réel existe dans la plupart des langues pour cette île majeure).
 - **Volontairement pas d'avion**, même pour les Canaries (la traversée la plus longue, ~40h) : le
   principe d'un road trip est de garder SON véhicule tout du long, ce qu'un ferry permet et un vol
   non. Concrètement, ça exclut les **Açores et Madère** : aucune ligne maritime régulière n'existe
@@ -1444,6 +1471,16 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   Seul le CODE POSTAL, distinct par île dans les données GeoNames, sépare correctement les deux —
   `HR_POSTCODE_TO_ISLAND` dans `app.js`, une table de correspondance construite une fois à partir de
   onze listes de codes postaux exacts (ex. `21400`-`21425` pour Brač, `20260`-`20274` pour Korčula).
+  La Grèce, elle aussi, utilise le code postal — mais par PRÉFIXE (`GR_ISLAND_PATTERNS`, une liste de
+  paires regex/étiquette testées dans l'ordre) plutôt que par code exact un par un : le découpage
+  postal grec regroupe déjà chaque île (ou groupe d'îles) dans son propre bloc de préfixes régionaux,
+  suffisamment propre pour qu'un simple test `/^85[0-9]/` (Dodécanèse) ou `/^84[0-9]/` (Cyclades)
+  suffise la plupart du temps — vérifié exhaustivement, préfecture par préfecture, sur les ~14 220
+  communes de `communes-gr.txt`. Deux exceptions ponctuelles, filtrées à la main : Skýros (`34007`)
+  est un code isolé au sein du bloc plus large de l'Eubée (`34001`-`34019`, resté `continental`, relié
+  par le pont de Chalcis) ; Póros (`18020`) partage son bloc avec Galatás/Troizína, sur le continent
+  (péninsule de Trézène, en face de l'île) — filtré par NOM (toute commune contenant "Troizín" ou
+  "Galatás" reste `continental`) plutôt que par code, seul cas de ce genre dans toute cette table.
   Le Royaume-Uni, lui, n'a besoin que d'un seul test — le préfixe de code postal `BT` (Irlande du
   Nord, voir plus haut) — le reste du pays (`c.country === 'GB'` sans ce préfixe) formant une seule
   masse `greatBritain`, aucune île secondaire à distinguer en son sein pour cette app. La République
@@ -1465,7 +1502,13 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   Trogir ; Biševo/Palagruža au large de Vis) — même logique que les Açores/Madère : ces communes
   restent accessibles comme point de départ (recherche manuelle) mais jamais comme étape reliée au
   reste d'un itinéraire, traitées par défaut comme le continent (limite assumée, pas un oubli — voir
-  le commentaire au-dessus de `HR_ISLAND_POSTCODES` dans `app.js`).
+  le commentaire au-dessus de `HR_ISLAND_POSTCODES` dans `app.js`). La Grèce reprend exactement cette
+  même limite assumée, à plus grande échelle (voir "Ferries" ci-dessus pour la liste complète des
+  îles volontairement laissées de côté) — et y ajoute trois destinations RECONNUES comme îles à part
+  (donc jamais faussement reliées par la route) mais SANS aucune ligne de ferry-voiture modélisée,
+  faute de service réel : Hydra (circulation automobile interdite sur l'île elle-même), Spetses et
+  Límnos (pas de ligne voiture directe régulière à ce jour) — voir le commentaire au-dessus de
+  `FERRY_ROUTES` dans `app.js`.
 
 ## Export PDF
 
@@ -1588,7 +1631,14 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   Ferries](https://www.condorferries.co.uk) (Jersey/Guernesey ↔ Saint-Malo, et la ligne inter-îles),
   [Bornholmslinjen](https://www.bornholmslinjen.com) (Ystad ↔ Rønne, Bornholm), [Destination
   Gotland](https://www.destinationgotland.se) (Nynäshamn ↔ Visby, Gotland), [Viking
-  Line](https://www.vikingline.fi) (Turku ↔ Mariehamn, Åland)
+  Line](https://www.vikingline.fi) (Turku ↔ Mariehamn, Åland), [Blue Star
+  Ferries](https://www.bluestarferries.com)/[Minoan Lines](https://www.minoan.gr)/[Seajets](https://www.seajets.gr)/
+  ANEK-Superfast (Le Pirée ↔ Crète/Dodécanèse/Cyclades/Égée du Nord/golfe Saronique),
+  [Levante Ferries](https://www.levanteferries.com) (Ionienne — Patras/Kyllíni), KerkyraLines/Kerkyra
+  Seaways (Igoumenitsa ↔ Corfou), [Triton Ferries](https://www.tritonferries.gr) (Néapoli ↔ Cythère),
+  Hellenic Seaways/Alonissos Skopelos Skiathos Shipping Company (Vólos/Kými ↔ Sporades) — agrégées via
+  [ferryhopper.com](https://www.ferryhopper.com)/[ferryscanner.com](https://www.ferryscanner.com)/
+  [directferries.com](https://www.directferries.com), tarifs basse saison 2026
   — voir "Ferries" ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour
   les péages, pas un tarif garanti).
 

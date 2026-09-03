@@ -792,7 +792,7 @@
   };
   var TOLL_MIN_DISTANCE_KM = 60; // en-deçà, le péage n'entre pas en ligne de compte
 
-  // ---- Ferries : traversées maritimes réelles (Corse, Baléares, Canaries) ----
+  // ---- Ferries : traversées maritimes réelles (Corse, Baléares, Canaries, îles grecques...) ----
   // Contrairement au réseau routier, une île n'est jamais reliée au continent par la route : le
   // moteur de distance (roadDistanceKm, vol d'oiseau × 1,17) n'avait, avant ceci, aucune idée de la
   // mer — un trajet pouvait "traverser" la Méditerranée ou l'Atlantique comme une route normale,
@@ -958,6 +958,56 @@
   // vérifiée exhaustivement sur les 107 provinces distinctes présentes dans communes-it.txt.
   var SARDINIA_PROVINCES = ['Cagliari', 'Sassari', 'Nuoro', 'Oristano', 'Sud Sardegna'];
   var SICILY_PROVINCES = ['Agrigento', 'Caltanissetta', 'Catania', 'Enna', 'Messina', 'Palermo', 'Ragusa', 'Siracusa', 'Trapani'];
+  // Îles grecques — voir le grand commentaire "Ferries : Grèce" au-dessus de FERRY_ROUTES pour la
+  // méthode, les sources et la liste des exclusions volontaires. Contrairement à la Croatie
+  // (HR_ISLAND_POSTCODES, codes postaux EXACTS un par un — littoral trop découpé pour un simple
+  // préfixe), le système postal grec est découpé en blocs RÉGIONAUX suffisamment propres pour qu'un
+  // préfixe (RegExp testée sur le code postal complet) sépare fiablement une île de ses voisines —
+  // vérifié exhaustivement sur les ~14 220 communes de communes-gr.txt, préfecture par préfecture.
+  // Quelques exceptions ponctuelles bien identifiées, en commentaire à côté de l'entrée concernée :
+  // Skýros (34007) et Póros (18020, avec un filtrage par nom) partagent leur bloc de codes postaux
+  // avec une zone continentale voisine (Eubée pour Skýros, Trézène/Galatás pour Póros) ; Íos (84001)
+  // et Amorgós (84008) sont, eux, des codes ISOLÉS au sein du bloc plus large des Cyclades restées
+  // volontairement non modélisées (voir plus bas). L'ordre des entrées ci-dessous n'a aucune
+  // importance (chaque test est indépendant), sauf le cas Póros qui doit être vérifié par nom AVANT
+  // le repli sur le préfixe générique.
+  var GR_POROS_MAINLAND_NAMES = /Troizín|Galatás|Vídhion/i;
+  var GR_ISLAND_PATTERNS = [
+    [/^7[0-4]/, 'crete'],
+    [/^851/, 'rhodes'],
+    [/^853/, 'kos'],
+    [/^852/, 'kalymnos'],
+    [/^854/, 'leros'],
+    [/^855/, 'patmos'],
+    [/^857/, 'karpathos'],
+    [/^49/, 'corfu'],
+    [/^283/, 'ithaca'],   // testé AVANT '28[0-2]' (kefalonia) : préfixe plus spécifique en premier
+    [/^28[0-2]/, 'kefalonia'],
+    [/^29/, 'zakynthos'],
+    [/^80/, 'kythira'],
+    [/^814/, 'limnos'],   // testé AVANT '81[0-3]' (lesvos)
+    [/^81[0-3]/, 'lesvos'],
+    [/^82[0-3]/, 'chios'],
+    [/^833/, 'ikaria'],   // testé AVANT '83[0-2]' (samos)
+    [/^83[0-2]/, 'samos'],
+    [/^841/, 'syros'],
+    [/^842/, 'tinos'],
+    [/^843/, 'naxos'],
+    [/^845/, 'andros'],
+    [/^846/, 'mykonos'],
+    [/^847/, 'santorini'],
+    [/^848/, 'milos'],
+    [/^84001$/, 'ios'],   // code isolé au sein du bloc Cyclades non modélisé (voir plus bas)
+    [/^84008$/, 'amorgos'], // idem
+    [/^844/, 'paros'],
+    [/^1801/, 'aegina'],
+    [/^1804/, 'hydra'],
+    [/^1805/, 'spetses'],
+    [/^37002/, 'skiathos'],
+    [/^37003/, 'skopelos'],
+    [/^37005/, 'alonissos'],
+    [/^34007$/, 'skyros'] // code isolé au sein du bloc Eubée (34001-34019), resté continental sinon
+  ];
   var FERRY_ROUTES = {
     'continental|corsica': { routeKey:'ferry.route.corsica', durationH:8.5, distanceKm:250, priceByClass:{1:90, 2:140, 5:40, foot:40} },
     'balearic|continental': { routeKey:'ferry.route.balearic', durationH:7.5, distanceKm:230, priceByClass:{1:135, 2:200, 5:55, foot:50} },
@@ -1036,7 +1086,162 @@
     // "aland" (voir landmassOf plus bas, pays AX) reliée à "continental" — la Finlande elle-même,
     // n'ayant aucune île sans pont significative en dehors des Åland, n'a besoin d'aucune autre entrée
     // FERRY_ROUTES ni d'aucun cas landmassOf dédié.
-    'aland|continental': { routeKey:'ferry.route.aland', durationH:5, distanceKm:150, priceByClass:{1:150, 2:225, 5:65, foot:19} }
+    'aland|continental': { routeKey:'ferry.route.aland', durationH:5, distanceKm:150, priceByClass:{1:150, 2:225, 5:65, foot:19} },
+    // Grèce — de très loin le plus gros ajout en nombre de lignes de toute cette section (30 îles),
+    // à la mesure du réseau réel : la Grèce a plus d'îles habitées reliées par ferry-voiture que
+    // tous les autres pays couverts ici réunis. Rien n'est inventé : chaque ligne ci-dessous est une
+    // VRAIE liaison régulière, avec un VRAI port de départ, retenue à chaque fois qu'un port
+    // continental (ou une île déjà reliée au continent par la route, comme la Grande-Bretagne pour
+    // l'Irlande) dessert l'île — jamais un simple "aller-retour Le Pirée" générique. Sources : Blue
+    // Star Ferries/Minoan Lines/Seajets/ANEK-Superfast (Le Pirée, Égée), Levante Ferries (Ionienne),
+    // KerkyraLines/Kerkyra Seaways (Corfou), Triton Ferries (Cythère), Hellenic Seaways/Alonissos
+    // Skopelos Skiathos Shipping Company (Sporades) — agrégées via ferryhopper.com/ferryscanner.com/
+    // directferries.com, tarifs "voiture" basse saison 2026. Classe 2 (van) extrapolée au ratio ×1,5
+    // déjà utilisé pour la Corse/la Sardaigne/la Croatie faute de grille par catégorie officielle
+    // trouvée pour la quasi-totalité des lignes grecques ; classe 5 (moto) extrapolée à ×0,35 du
+    // tarif voiture (repli légèrement plus bas que le ×0,45 Corse/Sardaigne/Malte ou le ×0,5 croate/
+    // serbe, cohérent avec les rares tarifs "moto" affichés par les agrégateurs sur ces lignes
+    // longues, régulièrement sous 40% du tarif voiture) — présomption plutôt que grille vérifiée,
+    // même limite déjà assumée pour d'autres pays de cette table. Classe foot = vrai tarif passager
+    // publié quand trouvé (la majorité des lignes ci-dessous), estimé par comparaison avec une ligne
+    // de profil proche sinon (signalé au cas par cas).
+    //
+    // ATTENTION - trois destinations RECONNUES par landmassOf/GR_ISLAND_PATTERNS mais SANS entrée
+    // FERRY_ROUTES ci-dessous, volontairement : aucune vraie ligne de ferry pour VÉHICULES n'existe
+    // à ce jour (2026) vers Hydra ni Spetses (l'île de Hydra interdit même la circulation
+    // automobile en dehors de quelques véhicules de service — âne et à pied seulement — et Spetses
+    // n'a pas de ligne voiture directe non plus, seulement passager), ni vers Límnos sur sa ligne
+    // directe au départ du Pirée (Blue Star/Seajets n'y embarquent pas de véhicules sur cette
+    // liaison précise à ce jour). Même traitement que les Açores/Madère plus haut : l'absence
+    // d'entrée pour ces trois masses suffit à les rendre injoignables comme étape reliée, sans code
+    // spécifique — elles restent accessibles comme point de départ (recherche manuelle) uniquement.
+    // Ikaria, elle, EST correctement reliée (voir plus bas) : sa ligne directe accepte bien les
+    // véhicules, contrairement à Límnos.
+    'continental|crete': { routeKey:'ferry.route.crete', durationH:9.5, distanceKm:330, priceByClass:{1:100, 2:150, 5:35, foot:44} },
+    // Le Pirée-Héraklion (Minoan Lines/Blue Star Ferries/Seajets), ~9h30, plusieurs rotations/jour
+    // toute l'année — la plus fréquentée de toutes les lignes grecques de cette table, cohérent avec
+    // la Crète, plus grande île du pays. Voiture ~79-122,50 €, retenu ~100 € (médiane) ; passager
+    // dès ~44 € (tarif Minoan conventionnel). Chania/Réthymnon, les deux autres grands ports crétois,
+    // desservis par d'autres lignes comparables — celle d'Héraklion retenue comme représentative.
+    'continental|rhodes': { routeKey:'ferry.route.rhodes', durationH:14, distanceKm:460, priceByClass:{1:125, 2:188, 5:44, foot:46.5} },
+    // Le Pirée-Rhodes (Blue Star Ferries), la plus longue traversée directe régulière du Dodécanèse
+    // depuis Le Pirée (12h50 au plus court, jusqu'à 22h avec escales intermédiaires — 14h retenu comme
+    // représentatif). Voiture dès ~125 €, passager dès ~46,50 €.
+    'continental|kos': { routeKey:'ferry.route.kos', durationH:11, distanceKm:330, priceByClass:{1:115, 2:173, 5:40, foot:63} },
+    // Le Pirée-Kos (ANEK-Superfast/Blue Star Ferries/Seajets), 9h30-14h selon la ligne (11h retenu).
+    // Passager 63-84 € (fourchette basse retenue) ; voiture non publiée précisément par les
+    // agrégateurs consultés, estimée par comparaison avec les lignes Dodécanèse de profil proche
+    // (Kalymnos/Léros, juste après sur le même corridor).
+    'continental|kalymnos': { routeKey:'ferry.route.kalymnos', durationH:10, distanceKm:300, priceByClass:{1:120, 2:180, 5:42, foot:45} },
+    // Le Pirée-Kálymnos, 9h30-11h, passager dès ~76,50 €... valeur la plus basse trouvée mêlant
+    // vraisemblablement un tarif "voiture + passager" combiné plutôt qu'un tarif passager pur — écarté
+    // au profit d'une estimation par comparaison avec Léros/Patmos (juste après), même corridor.
+    'continental|leros': { routeKey:'ferry.route.leros', durationH:11, distanceKm:280, priceByClass:{1:115, 2:173, 5:40, foot:43} },
+    // Le Pirée-Léros, 9h-13h (11h retenu), passager dès ~43 €. Voiture estimée par comparaison avec
+    // Kálymnos/Patmos, même corridor Dodécanèse nord.
+    'continental|patmos': { routeKey:'ferry.route.patmos', durationH:8, distanceKm:250, priceByClass:{1:110, 2:165, 5:39, foot:43} },
+    // Le Pirée-Pátmos, 7h20-12h15 (8h retenu, plutôt vers la borne rapide), passager dès ~43 €.
+    // Voiture estimée par comparaison avec Kálymnos/Léros.
+    'continental|karpathos': { routeKey:'ferry.route.karpathos', durationH:17, distanceKm:400, priceByClass:{1:140, 2:210, 5:49, foot:50} },
+    // Le Pirée-Kárpathos (Blue Star Ferries, 3-4 rotations/semaine), la ligne directe la plus longue
+    // en durée de toute cette table (13h30 au plus court, ~17h en moyenne avec escales — île la plus
+    // reculée du Dodécanèse desservie ici). Passager 46,50-59 € (borne haute retenue, ~50 €) ; voiture
+    // estimée au-dessus de Rhodes (trajet plus long) par extrapolation du même profil tarifaire.
+    'continental|corfu': { routeKey:'ferry.route.corfu', durationH:1.33, distanceKm:10, priceByClass:{1:33, 2:50, 5:12, foot:8} },
+    // Igoumenitsa-Corfou (KerkyraLines/Kerkyra Seaways), la traversée la plus courte de toute cette
+    // table avec les îles Wadden et le détroit de Messine — ~1h20, jusqu'à 25 rotations/jour en haute
+    // saison. Voiture 24-40,60 € (33 € retenu, médiane) ; passager ~6-10 € (8 € retenu).
+    'continental|kefalonia': { routeKey:'ferry.route.kefalonia', durationH:3.25, distanceKm:220, priceByClass:{1:53, 2:80, 5:19, foot:15.4} },
+    // Patras-Sami (Levante Ferries), ~3h-3h30. Tarif "2 adultes + 1 voiture" 83,69 € toutes directions
+    // confondues ; passager seul 15,40 € -> voiture seule ≈ 83,69 - 2×15,40 ≈ 53 €.
+    'continental|ithaca': { routeKey:'ferry.route.ithaca', durationH:4, distanceKm:250, priceByClass:{1:56, 2:84, 5:20, foot:17} },
+    // Patras-Itháki (souvent via Sami/Kefalonia sur la même rotation), un peu plus longue que la
+    // ligne directe vers Kefalonia — tarifs estimés par extrapolation proportionnelle à la distance
+    // supplémentaire, faute de grille publiée séparément pour Itháki seule.
+    'continental|zakynthos': { routeKey:'ferry.route.zakynthos', durationH:1.25, distanceKm:30, priceByClass:{1:39, 2:59, 5:14, foot:12.5} },
+    // Kyllini-Zakynthos (Levante Ferries), ~1h15, jusqu'à 7 rotations/jour en haute saison. Tarif
+    // "2 adultes + 1 voiture" 64,30 € -> voiture seule ≈ 64,30 - 2×12,50 ≈ 39 € ; passager dès 12,50 €.
+    'continental|kythira': { routeKey:'ferry.route.kythira', durationH:1.25, distanceKm:40, priceByClass:{1:45, 2:68, 5:16, foot:12.5} },
+    // Néapoli (Laconie, Péloponnèse)-Cythère (Triton Ferries), ~1h15, toute l'année. Tarif "2 adultes
+    // + 1 voiture" 69,50 € (sens Néapoli->Cythère) -> voiture seule ≈ 69,50 - 2×12,50 ≈ 45 € ;
+    // passager 10,50-12,50 €. Antikythira (code postal 80100, même préfixe "80" dans
+    // GR_ISLAND_PATTERNS — voir plus haut) rejoint la même masse "kythira" : îlot minuscule (~20
+    // habitants) desservi par la même rotation, sans ligne propre à modéliser.
+    'continental|lesvos': { routeKey:'ferry.route.lesvos', durationH:10.5, distanceKm:340, priceByClass:{1:123, 2:185, 5:43, foot:43} },
+    // Le Pirée-Mytilène (Blue Star Ferries), 8h46-12h15 (10h30 retenu). Voiture dès ~123 €, passager
+    // dès ~43 €.
+    'chios|continental': { routeKey:'ferry.route.chios', durationH:7, distanceKm:280, priceByClass:{1:108, 2:162, 5:38, foot:40} },
+    // Le Pirée-Chios (Blue Star Ferries), 6h06-8h15 (7h retenu). Voiture dès ~108 €, passager dès ~40 €.
+    'continental|samos': { routeKey:'ferry.route.samos', durationH:8.5, distanceKm:310, priceByClass:{1:125, 2:188, 5:44, foot:55} },
+    // Le Pirée-Samos (Vathý ou Karlovássi selon la rotation, Blue Star Ferries), 7h30-10h25 (8h30
+    // retenu). Voiture dès ~125 €, passager 49,70-60,50 € (55 € retenu, médiane).
+    'continental|ikaria': { routeKey:'ferry.route.ikaria', durationH:7, distanceKm:270, priceByClass:{1:115, 2:173, 5:40, foot:50} },
+    // Le Pirée-Ikaría (Ágios Kírykos), desservie sur le même corridor que Samos, juste avant sur la
+    // rotation — durée et tarifs estimés légèrement EN DESSOUS de Samos par comparaison directe,
+    // faute de grille publiée séparément pour Ikaría seule.
+    'continental|syros': { routeKey:'ferry.route.syros', durationH:3.5, distanceKm:145, priceByClass:{1:74, 2:111, 5:26, foot:36.5} },
+    // Le Pirée-Syros (Blue Star Ferries/Seajets), dès 2h en catamaran rapide (3h30 retenu, plus
+    // proche du profil conventionnel dominant dans cette table). Passager dès 36,50 € ; tarif
+    // "2 adultes + 1 voiture" 147 € -> voiture seule ≈ 147 - 2×36,50 ≈ 74 €.
+    'continental|tinos': { routeKey:'ferry.route.tinos', durationH:4, distanceKm:165, priceByClass:{1:70, 2:105, 5:25, foot:50} },
+    // Le Pirée-Tínos (Blue Star Ferries/Seajets), 2h25-5h30 (4h retenu). Passager dès 50 € ; voiture
+    // 59-89 € (70 € retenu, médiane).
+    'continental|naxos': { routeKey:'ferry.route.naxos', durationH:5, distanceKm:190, priceByClass:{1:65, 2:98, 5:23, foot:42} },
+    // Le Pirée-Naxos (Blue Star Ferries), ~5h en ferry conventionnel. Passager 38-52,50 € (42 €
+    // retenu) ; voiture estimée par comparaison avec Páros, ligne sœur du même corridor Cyclades
+    // centrales.
+    'continental|paros': { routeKey:'ferry.route.paros', durationH:4.5, distanceKm:166, priceByClass:{1:75, 2:113, 5:26, foot:51} },
+    // Le Pirée-Páros (Blue Star Ferries), 4h-5h35 (4h30 retenu). Passager dès 51 € ; voiture estimée
+    // par comparaison avec Naxos/Syros, même corridor.
+    'andros|continental': { routeKey:'ferry.route.andros', durationH:2, distanceKm:120, priceByClass:{1:55, 2:83, 5:19, foot:30} },
+    // Rafina-Ándros (souvent regroupée avec Le Pirée dans ce modèle par simplicité, comme les autres
+    // lignes Cyclades ci-dessus), la plus courte des Cyclades modélisées ici — proximité directe avec
+    // l'Attique. Durée et tarifs estimés par comparaison avec Tínos, île voisine de profil proche.
+    'continental|mykonos': { routeKey:'ferry.route.mykonos', durationH:3.5, distanceKm:174, priceByClass:{1:128, 2:192, 5:45, foot:53} },
+    // Le Pirée-Mýkonos (Blue Star Ferries/Seajets), 2h40-5h50 (3h30 retenu, Blue Star conventionnel
+    // 4h40 à 53 €). Voiture dès ~128 €, nettement plus cher que Naxos/Páros à distance comparable —
+    // île la plus demandée des Cyclades, prime de fréquentation plutôt qu'une erreur de saisie.
+    'continental|santorini': { routeKey:'ferry.route.santorini', durationH:8, distanceKm:240, priceByClass:{1:120, 2:180, 5:42, foot:60} },
+    // Le Pirée-Santorin (Blue Star Ferries/Seajets/Fast Ferries/Golden Star Ferries), 6h10-9h10 en
+    // conventionnel (8h retenu). Voiture 108-131 € (120 € retenu) ; passager dès ~60 €.
+    'continental|milos': { routeKey:'ferry.route.milos', durationH:3.75, distanceKm:160, priceByClass:{1:83, 2:125, 5:29, foot:45} },
+    // Le Pirée-Mílos (Seajets/Aegean Sea Lines/Minoan Lines/ANEK Lines/Fast Ferries), 2h30-7h30 selon
+    // la ligne (3h45 retenu, proche de la moyenne constatée). Voiture dès ~82,70 € ; passager 33-78,70 €
+    // (45 € retenu, plutôt vers la borne basse).
+    'continental|ios': { routeKey:'ferry.route.ios', durationH:6, distanceKm:205, priceByClass:{1:95, 2:143, 5:33, foot:39} },
+    // Le Pirée-Íos, dès 4h35 pour la ligne la plus rapide (6h retenu, plus proche du profil
+    // conventionnel dominant dans cette table). Voiture dès ~95 €, passager dès ~39 €.
+    'amorgos|continental': { routeKey:'ferry.route.amorgos', durationH:7, distanceKm:230, priceByClass:{1:118, 2:177, 5:41, foot:43} },
+    // Le Pirée-Amorgós (Blue Star Ferries/Seajets), 4h35-9h30 (7h retenu). Voiture dès ~118 €,
+    // passager dès ~43 €.
+    'aegina|continental': { routeKey:'ferry.route.aegina', durationH:0.67, distanceKm:31, priceByClass:{1:15, 2:23, 5:6, foot:9.5} },
+    // Le Pirée-Égine, la plus courte et la plus fréquente des liaisons du golfe Saronique (dès 40 min,
+    // très nombreuses rotations/jour). Passager dès 9,50 € ; tarif "2 adultes + 1 voiture" 34 € ->
+    // voiture seule ≈ 34 - 2×9,50 ≈ 15 €, cohérent avec une ligne aussi courte et concurrentielle.
+    'continental|poros': { routeKey:'ferry.route.poros', durationH:2.5, distanceKm:105, priceByClass:{1:32, 2:48, 5:13, foot:17} },
+    // Le Pirée-Poros (golfe Saronique), 1h-2h30 selon la ligne (2h30 retenu). Passager dès 17 € ;
+    // voiture estimée par comparaison avec Égine, à distance/tarif proportionnellement plus élevés.
+    'continental|skiathos': { routeKey:'ferry.route.skiathos', durationH:1.75, distanceKm:60, priceByClass:{1:91, 2:137, 5:32, foot:30} },
+    // Volos-Skiáthos (Hellenic Seaways/ASSS), 1h15-2h25 (1h45 retenu). Tarif "2 adultes + 1 voiture"
+    // 150,60 € (sens Volos->Skiáthos) -> voiture seule ≈ 150,60 - 2×30 ≈ 91 € (passager estimé, non
+    // publié séparément pour cette ligne précise) ; ligne alternative plus longue au départ d'Agios
+    // Konstantinos (~3h, passager dès 37,50 €) écartée au profit de la plus courte, même logique que
+    // pour les autres choix de port "le plus court" de cette table.
+    'continental|skopelos': { routeKey:'ferry.route.skopelos', durationH:2.5, distanceKm:75, priceByClass:{1:105, 2:158, 5:37, foot:35} },
+    // Volos-Skópelos, un peu plus loin que Skiáthos sur la même rotation Sporades — durée et tarifs
+    // estimés par extrapolation proportionnelle à la distance supplémentaire.
+    'alonissos|continental': { routeKey:'ferry.route.alonissos', durationH:4.75, distanceKm:100, priceByClass:{1:104, 2:156, 5:36, foot:35} },
+    // Volos-Alónnisos (liaison directe, Hellenic Seaways/ASSS), 4h25-5h05 (4h45 retenu) — nettement
+    // plus longue que Skiáthos/Skópelos, île la plus reculée des Sporades modélisées ici. Tarif
+    // "2 adultes + 1 voiture" 173,70 € -> voiture seule ≈ 173,70 - 2×35 ≈ 104 € (passager estimé par
+    // comparaison avec Skópelos).
+    'continental|skyros': { routeKey:'ferry.route.skyros', durationH:1.75, distanceKm:70, priceByClass:{1:35, 2:53, 5:12, foot:8.5} }
+    // Kými (Eubée)-Skýros (ASSS), la seule vraie ligne directe (pas de ligne directe régulière depuis
+    // Le Pirée) — ~1h45, 2-3 rotations/jour. Voiture dès ~35 € (jusqu'à 3,70 m ; un peu plus pour les
+    // véhicules plus longs, non modélisé ici faute de distinction de longueur ailleurs dans ce
+    // projet), passager dès 8,50 €. Kými elle-même reste "continental" (Eubée, reliée au continent
+    // par le pont de Chalcis) : seule Skýros bascule vers sa propre masse (voir GR_ISLAND_PATTERNS,
+    // code postal 34007, isolé au sein du bloc Eubée sinon continental).
   };
   WADDEN_ISLANDS.forEach(function(island){
     FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
@@ -1185,6 +1390,42 @@
     // besoin de distinguer une île d'un pays par ailleurs continental — comme pour Guernesey/Jersey/
     // l'île de Man, le pays AX EST l'île dans son ensemble (voir FERRY_ROUTES, 'aland|continental').
     if(c.country === 'AX') return 'aland';
+    if(c.country === 'GR'){
+      // Grèce — voir le grand commentaire au-dessus de FERRY_ROUTES pour la méthode complète et la
+      // liste des sources. Contrairement à la Croatie (code postal EXACT, un par un — HR_POSTCODE_TO_
+      // ISLAND), le système postal grec se prête à un simple test de PRÉFIXE (GR_ISLAND_PATTERNS,
+      // testés dans l'ordre, le premier qui matche gagne) — vérifié exhaustivement, préfecture par
+      // préfecture, sur les ~14 220 communes de communes-gr.txt. Même repli sur `c.cps` (nom du champ
+      // sur l'objet commune BRUT) que pour hrCps/gbCps/dkCps/seCps ci-dessus, pour la même raison
+      // (un candidat brut vu par reachable()/findNearbyCommunes n'a pas encore `allCps`).
+      var grCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
+      for(var gpi=0; gpi<grCps.length; gpi++){
+        var grCp = grCps[gpi];
+        // Cas Póros à part : son bloc de codes postaux (18020) est PARTAGÉ avec Galatás/Troizína,
+        // sur le continent (péninsule de Trézène, en face de l'île) — un simple préfixe suffirait à
+        // tort à faire passer ces communes continentales pour l'île. Filtrées par nom AVANT le test
+        // générique (voir GR_POROS_MAINLAND_NAMES plus haut) ; en cas de faux négatif ponctuel sur un
+        // hameau non listé, la commune retombe simplement sur 'continental' — jamais l'inverse
+        // (aucun risque de faire croire une commune continentale reliée par un ferry qui n'existe pas
+        // pour elle), cohérent avec le principe "jamais de trajet fabriqué" déjà appliqué ailleurs.
+        if(/^1802/.test(grCp)){
+          if(!GR_POROS_MAINLAND_NAMES.test(c.name || '')) return 'poros';
+          continue;
+        }
+        for(var gpp=0; gpp<GR_ISLAND_PATTERNS.length; gpp++){
+          if(GR_ISLAND_PATTERNS[gpp][0].test(grCp)) return GR_ISLAND_PATTERNS[gpp][1];
+        }
+      }
+      return 'continental'; // Eubée (pont de Chalcis), Péloponnèse, Attique, Thessalie, Macédoine,
+      // Thrace, Épire, Grèce centrale — ainsi que Leucade (reliée au continent par une digue routière
+      // depuis les années 1980, jamais par ferry) et une trentaine de petites îles/îlots
+      // volontairement LAISSÉS DE CÔTÉ (même logique que les îlots croates plus haut — limite
+      // assumée, pas un oubli) : Cyclades mineures (Sífnos, Sérifos, Kýthnos, Kéa, Antíparos, Anáfi,
+      // Síkinos, Folégandros, Kímolos), Dodécanèse mineur (Lipsí, Tílos, Sými, Kásos, Astypálaia,
+      // Kastellórizo), mer Égée du Nord (Ágios Efstrátios, Foúrnoi), et petites îles ioniennes
+      // (Paxoí, Meganísi, Kálamos) — toutes restent accessibles comme point de départ (recherche
+      // manuelle) mais jamais comme étape reliée au reste d'un itinéraire.
+    }
     return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
   }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans
