@@ -8,6 +8,7 @@ const zlib = require('zlib');
 const express = require('express');
 const compression = require('compression');
 const PDFDocument = require('pdfkit');
+const tripEngine = require('./lib/trip-engine.js');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -1052,6 +1053,66 @@ app.get('/data/aliases-bundle.txt', function(req, res){
   }
   aliasesBundlePromise.then(function(entry){ sendBundle(req, res, entry); })
     .catch(function(err){ res.status(500).type('text/plain').send('Erreur bundle alias : ' + err.message); });
+});
+
+// Depuis le passage "recherche et tirage aléatoire côté serveur" (voir README), ces deux routes
+// /data/*-bundle.txt ne sont plus consommées QUE par ce process lui-même (voir juste en dessous) —
+// le navigateur ne les demande plus jamais directement. Gardées telles quelles : lib/trip-engine.js
+// réutilise le même texte brut déjà lu ici (`entry.raw`) plutôt que de relire les fichiers sources
+// une seconde fois, et la route reste utile pour inspecter le bundle brut à la main si besoin.
+//
+// lib/trip-engine.js — voir son commentaire d'en-tête pour le détail complet. Initialisé UNE
+// SEULE FOIS ici, juste après le démarrage du process (donc avant qu'aucun trafic réel ne puisse
+// arriver dans la même tâche) plutôt qu'au premier /api/search-city ou /api/generate-trip reçu :
+// le tout premier visiteur après un redémarrage n'a ainsi jamais à attendre ce calcul.
+if(communesBundlePromise === null){
+  communesBundlePromise = getBundlePromise('communes-bundle', /^communes(?:-([a-z]{2}))?\.txt$/, 'FR');
+}
+if(aliasesBundlePromise === null){
+  aliasesBundlePromise = getBundlePromise('aliases-bundle', /^aliases-([a-z]{2})\.txt$/, '');
+}
+const featuredTextPromise = fs.promises.readFile(path.join(DATA_DIR, 'featured.txt'), 'utf8');
+Promise.all([communesBundlePromise, aliasesBundlePromise, featuredTextPromise])
+  .then(function(results){
+    var t0 = Date.now();
+    tripEngine.init(results[0].raw, results[1].raw, results[2]);
+    console.log('[trip-engine] prêt en ' + (Date.now() - t0) + ' ms.');
+  })
+  .catch(function(err){
+    console.error('[trip-engine] échec d\'initialisation, /api/search-city et /api/generate-trip resteront indisponibles :', err.message);
+  });
+
+app.get('/api/search-city', function(req, res){
+  var q = String(req.query.q || '');
+  if(!q || q.length > 120){
+    return res.status(400).json({ error: 'invalid query', results: [] });
+  }
+  if(!tripEngine.isReady()){
+    return res.status(503).json({ error: 'not ready', results: [] });
+  }
+  try {
+    var limitRaw = parseInt(req.query.limit, 10);
+    var limit = (isFinite(limitRaw) && limitRaw > 0 && limitRaw <= 20) ? limitRaw : 8;
+    res.json({ results: tripEngine.searchCity(q, limit) });
+  } catch(err){
+    console.warn('[search-city] erreur:', err.message);
+    res.status(500).json({ error: 'internal error', results: [] });
+  }
+});
+
+app.post('/api/generate-trip', express.json({ limit: '16kb' }), function(req, res){
+  if(!tripEngine.isReady()){
+    return res.status(503).json({ error: 'not ready' });
+  }
+  try {
+    res.json(tripEngine.generateTrip(req.body));
+  } catch(err){
+    // Toute erreur ici vient soit d'une entrée invalide (voir la validation en tête de
+    // generateTrip), soit d'un cas limite du moteur (ex. aucune commune atteignable) — jamais
+    // d'une panne interne à cacher : 400 dans les deux cas, avec le message tel quel (déjà en
+    // français, déjà écrit pour être compréhensible, voir lib/trip-engine.js).
+    res.status(400).json({ error: err.message });
+  }
 });
 
 app.use(express.static(path.join(__dirname, 'public'), {
