@@ -4,10 +4,19 @@
 // le seul état en mémoire est le cache de ces deux routes.
 const path = require('path');
 const express = require('express');
+const compression = require('compression');
 const PDFDocument = require('pdfkit');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Compression gzip/brotli sur toutes les réponses (texte : HTML/CSS/JS/JSON, et surtout les
+// fichiers communes-XX.txt/aliases-XX.txt sous /data — ~25 Mo au total à ce jour, voir "Sources
+// des données" du README) : du texte brut compresse typiquement à 70-85%, un gain net sur le
+// premier chargement du formulaire (le champ "ville de départ" reste désactivé tant que ces
+// fichiers ne sont pas tous arrivés, voir buildCommunesFetches côté client). Placé tout en haut,
+// avant la moindre route/middleware, pour s'appliquer à toutes les réponses sans exception.
+app.use(compression());
 
 // Code département (INSEE) -> nom, utilisé pour désambiguïser les communes homonymes sur
 // Wikipédia (ex. il existe trois communes "Thoiry" : Ain, Savoie, Yvelines — l'article vaut
