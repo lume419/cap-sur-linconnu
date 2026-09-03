@@ -2402,13 +2402,17 @@
     // dans quelques secondes, une fois la roulette terminée.
     prefetchLegAssets(legs);
 
-    // Vivier de noms pour faire défiler la roulette avant la révélation — plus de recherche de
-    // communes proches côté client (voir plus haut) : réutilise simplement les AUTRES étapes du
-    // trajet déjà tiré (de vrais noms, juste pas des voisines de la destination), sans requête
-    // supplémentaire. runReveal sait déjà se passer d'un vivier vide (voir son commentaire) : un
-    // trajet très court (1 jour, aucune autre étape) affiche alors juste la destination elle-même.
-    var spinPool = legs.filter(function(l){ return !l.isReturn && l.norm && l.norm !== firstLeg.norm; })
-      .map(function(l){ return { name: l.stop, norm: l.norm }; });
+    // Vivier de VRAIS noms de communes proches du point de départ pour faire défiler la roulette
+    // avant la révélation — désormais renvoyé directement par /api/generate-trip (voir
+    // buildSpinPool dans lib/trip-engine.js), calculé côté serveur autour de cityCoord avec le même
+    // rayon 15-400 km qu'avant le passage recherche/tirage côté serveur. Un temps remplacé par un
+    // recyclage des AUTRES étapes du trajet déjà tiré (aucune requête supplémentaire) : trop pauvre
+    // pour un trajet court ou qui repasse plusieurs nuits par la même commune — la roulette
+    // n'affichait alors presque plus jamais d'autre nom que celui du tirage, signalé par
+    // l'utilisateur. `data.spinPool` reste vide seulement si aucune commune d'au moins 500 habitants
+    // n'existe dans ce rayon (zone très peu peuplée) : runReveal sait déjà s'en passer (voir son
+    // commentaire), la roulette affiche alors juste la destination elle-même.
+    var spinPool = data.spinPool || [];
 
     els.reveal.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto':'smooth', block:'start'});
     els.mapCard.classList.remove('show');
