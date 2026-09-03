@@ -51,7 +51,7 @@
   </header>
 
   <div class="legal-card">
-    <p class="legal-updated">Dernière mise à jour : 31 août 2026.</p>
+    <p class="legal-updated">Dernière mise à jour : 3 septembre 2026.</p>
 
     <h2>En résumé</h2>
     <p>Ce site ne demande aucun compte, aucun formulaire, aucun cookie, et n'installe aucun traceur ni
@@ -63,11 +63,20 @@
     <h2>Cookies et traceurs</h2>
     <p>Ce site ne dépose aucun cookie et n'utilise aucun service d'analytics, de publicité ou de réseau
     social. Aucun bandeau de consentement n'est donc nécessaire.</p>
-    <p>Une seule information technique est mémorisée localement dans votre navigateur (via
-    <code>localStorage</code>, pas un cookie) : votre choix de thème clair/sombre si vous en changez
-    manuellement. Cette préférence reste sur votre appareil, n'est jamais envoyée au serveur, ne permet
-    pas de vous identifier, et relève de la personnalisation d'interface — une catégorie explicitement
-    dispensée de consentement par la CNIL.</p>
+    <p>Plusieurs informations techniques sont mémorisées localement dans votre navigateur (via
+    <code>localStorage</code>, pas un cookie) : votre choix de langue, de thème clair/sombre et de
+    devise, si vous les personnalisez manuellement. Ces préférences restent sur votre appareil, ne
+    sont jamais envoyées au serveur, ne permettent pas de vous identifier, et relèvent de la
+    personnalisation d'interface — une catégorie explicitement dispensée de consentement par la
+    CNIL.</p>
+    <p>Une copie locale des données géographiques publiques du site (noms de communes, codes postaux,
+    coordonnées — les mêmes que celles diffusées sur <code>/data</code>, voir « Génération de
+    l'itinéraire » ci-dessous) est également conservée dans le stockage local de votre navigateur
+    (<code>IndexedDB</code>), pour éviter de retraiter ces données à chaque visite. Cette copie ne
+    contient rien qui concerne le visiteur lui-même, n'est jamais transmise nulle part, et se
+    renouvelle automatiquement dès que ces données évoluent (nouveau pays ajouté, correction...) —
+    un stockage strictement technique lié au fonctionnement du service que vous utilisez, comme les
+    préférences ci-dessus, et dispensé de consentement pour la même raison.</p>
 
     <h2>Génération de l'itinéraire</h2>
     <p>Le tirage au sort de l'itinéraire (communes, distances, péages) se fait entièrement dans votre

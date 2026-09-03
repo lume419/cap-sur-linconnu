@@ -537,7 +537,75 @@
   // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
   // tant que ce chargement n'est pas terminé. La carte du parcours, elle, n'a plus besoin d'aucun
   // fichier local : elle s'appuie sur de vraies tuiles OpenStreetMap via Leaflet (voir renderMap).
-  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW, ALIASES_RAW_BY_COUNTRY = {};
+  //
+  // Cache local (IndexedDB) du résultat DÉJÀ PARSÉ (COMMUNES/ALIASES, voir plus bas) — le fichier
+  // texte brut, lui, était déjà mis en cache réseau une heure (voir server.js), mais le PARSING
+  // JavaScript de ~562 000 communes + ~87 000 alias (2026), lui, se refaisait entièrement à CHAQUE
+  // chargement de page, cache réseau ou pas : ~2 s mesurées dans le navigateur, le vrai goulot une
+  // fois la compression gzip en place. Ce cache ne contient QUE des données géographiques publiques
+  // déjà présentes sur /data (noms de communes, codes postaux, coordonnées) — rien qui concerne le
+  // visiteur lui-même, donc rien qui relève du RGPD (qui ne s'applique qu'à des données personnelles,
+  // article 4 du règlement) ; jamais transmis au serveur ni ailleurs, voir
+  // politique-confidentialite.html. `readDataCache`/`writeDataCache` échouent silencieusement
+  // (navigation privée, quota dépassé, navigateur sans IndexedDB...) sans jamais bloquer le chargement
+  // du site — même philosophie que le fetch des alias plus bas, un bonus jamais indispensable.
+  //
+  // Invalidation AUTOMATIQUE : `buildDataVersion` dérive une clé de version directement de la
+  // longueur de chaque fichier texte déjà reçu (voir plus bas) — pas un numéro de version à penser à
+  // incrémenter à la main à chaque ajout de pays (source d'oubli quasi garantie vu le rythme des
+  // ajouts de ce projet). Tout changement de contenu qui modifie ne serait-ce qu'un seul caractère
+  // d'un fichier change presque toujours sa longueur (ajout de communes, correction de nom...) : le
+  // cache est alors ignoré et reconstruit une fois, comme au tout premier chargement.
+  var DATA_CACHE_DB = 'csi-data-cache', DATA_CACHE_STORE = 'parsed', DATA_CACHE_KEY = 'v1';
+  function openDataCacheDb(){
+    return new Promise(function(resolve, reject){
+      if(!window.indexedDB){ reject(new Error('indexedDB indisponible')); return; }
+      var req = indexedDB.open(DATA_CACHE_DB, 1);
+      req.onupgradeneeded = function(){ req.result.createObjectStore(DATA_CACHE_STORE); };
+      req.onsuccess = function(){ resolve(req.result); };
+      req.onerror = function(){ reject(req.error); };
+    });
+  }
+  function readDataCache(version){
+    return openDataCacheDb().then(function(db){
+      return new Promise(function(resolve){
+        var req = db.transaction(DATA_CACHE_STORE, 'readonly').objectStore(DATA_CACHE_STORE).get(DATA_CACHE_KEY);
+        req.onsuccess = function(){
+          var rec = req.result;
+          if(!rec || rec.version !== version || !rec.communesJson){ resolve(null); return; }
+          try {
+            var communes = JSON.parse(rec.communesJson);
+            var aliasesRaw = JSON.parse(rec.aliasesJson);
+            // ALIASES référence les objets COMMUNES par identité (c.commune === l'entrée COMMUNES
+            // correspondante, voir plus bas) : JSON ne sait pas exprimer cette référence, donc les
+            // alias sont sérialisés comme un simple index numérique vers COMMUNES (voir writeDataCache)
+            // et reconstitués ici.
+            var aliases = aliasesRaw.map(function(a){ return { norm: a.norm, commune: communes[a.i] }; });
+            resolve(communes.length ? { communes: communes, aliases: aliases } : null);
+          } catch(e){ resolve(null); }
+        };
+        req.onerror = function(){ resolve(null); };
+      });
+    }).catch(function(){ return null; });
+  }
+  function writeDataCache(version, communes, aliases){
+    openDataCacheDb().then(function(db){
+      // Index communes -> position (Map par référence) plutôt qu'un indexOf par alias : sur
+      // ~87 000 alias contre ~562 000 communes, indexOf (balayage linéaire) aurait fait des
+      // dizaines de milliards de comparaisons — un Map ramène ça à un aller simple par alias.
+      var indexByCommune = new Map();
+      communes.forEach(function(c, i){ indexByCommune.set(c, i); });
+      var aliasesCompact = aliases.map(function(a){ return { norm: a.norm, i: indexByCommune.get(a.commune) }; });
+      db.transaction(DATA_CACHE_STORE, 'readwrite').objectStore(DATA_CACHE_STORE)
+        .put({ version: version, communesJson: JSON.stringify(communes), aliasesJson: JSON.stringify(aliasesCompact) }, DATA_CACHE_KEY);
+    }).catch(function(){ /* silencieux, voir commentaire plus haut */ });
+  }
+  function buildDataVersion(communesTexts, aliasesTexts){
+    return COUNTRY_LIST.join(',') + '|' + communesTexts.map(function(t){ return t.length; }).join(',')
+      + '||' + ALIAS_COUNTRY_LIST.join(',') + '|' + aliasesTexts.map(function(t){ return t.length; }).join(',');
+  }
+
+  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW, ALIASES_RAW_BY_COUNTRY = {}, DATA_VERSION;
   try {
     var communesFetches = COUNTRY_LIST.map(function(cc){
       var file = COUNTRIES[cc].file;
@@ -557,6 +625,7 @@
     COUNTRY_LIST.forEach(function(cc, i){ COMMUNES_RAW_BY_COUNTRY[cc] = results[i]; });
     FEATURED_RAW = results[COUNTRY_LIST.length];
     ALIAS_COUNTRY_LIST.forEach(function(cc, i){ ALIASES_RAW_BY_COUNTRY[cc] = aliasResults[i]; });
+    DATA_VERSION = buildDataVersion(results.slice(0, COUNTRY_LIST.length), aliasResults);
   } catch(err){
     var loadErr = document.getElementById('load-error');
     if(loadErr){
@@ -1683,10 +1752,6 @@
       return { name:name, norm:normalizeCityName(name), cps:cps, pop:pop, lat:lat, lon:lon, dept:dept, country:country };
     });
   }
-  var COMMUNES = COUNTRY_LIST.reduce(function(all, cc){
-    return all.concat(parseCommunesFile(COMMUNES_RAW_BY_COUNTRY[cc], cc));
-  }, []);
-
   // Saisie d'une ville dans une AUTRE langue que son nom local (ex. "Anvers" en français pour la
   // commune belge "Antwerpen", "Séville" pour "Sevilla" — voir scripts/build-aliases.js, source
   // GeoNames alternateNamesV2). ALIASES[i].commune référence directement l'entrée COMMUNES
@@ -1696,59 +1761,74 @@
   // des langues couvertes fonctionne, pas seulement celle actuellement choisie pour l'interface :
   // plus simple (pas besoin de reconstruire l'index à chaque changement de langue) et plus tolérant
   // pour l'utilisateur (fonctionne même juste après avoir changé de langue, ou par habitude).
-  //
-  // Construction VOLONTAIREMENT DIFFÉRÉE (par petits lots via setTimeout) plutôt que synchrone ici :
-  // avec 45 pays et plus de 527 000 communes au total (2026), construire cet index avant d'activer
-  // le champ "ville de départ" ajoutait un temps d'attente significatif et parfaitement inutile —
-  // la recherche par nom local/code postal (searchCommunes, COMMUNES seul) fonctionne très bien
-  // sans les alias, qui ne sont qu'un bonus (voir plus haut, "tolérant à l'échec individuel"). Le
-  // champ est donc activé dès que COMMUNES est prêt (juste plus bas), et ALIASES se remplit tout
-  // seul en tâche de fond juste après — searchCommunes lit la variable ALIASES en direct (fermeture,
-  // pas une copie), donc les résultats par alias apparaissent automatiquement dès que ce remplissage
-  // progressif les atteint, sans code supplémentaire. PAR LOTS de plusieurs pays (pas un seul gros
-  // bloc, pas non plus un tick par pays) : un seul setTimeout global se serait fait sentir comme un
-  // court gel de l'interface juste après l'activation du champ ; à l'inverse, un tick séparé par
-  // pays (45 timers en chaîne) s'est révélé PIRE en pratique, testé en direct — un onglet que le
-  // navigateur ne juge pas au premier plan peut brider chaque `setTimeout` à environ 1/seconde
-  // (limitation standard des navigateurs pour les onglets en arrière-plan), ce qui a fait grimper
-  // la construction complète à plus de 40 secondes au lieu d'une fraction de seconde. Des lots de
-  // quelques pays limitent donc le nombre de timers en jeu (moins exposé à ce bridage) tout en
-  // gardant chaque bloc synchrone court.
-  var ALIASES = [];
-  // Un seul passage pour regrouper COMMUNES par pays, réutilisé pour chacun des 45 pays à alias
-  // (au lieu de refiltrer les 527 000 communes à chaque pays, 45 fois de suite) : c'était, mesuré,
-  // la part la plus coûteuse de cette construction.
-  var COMMUNES_BY_COUNTRY_FOR_ALIASES = {};
-  COMMUNES.forEach(function(c){
-    (COMMUNES_BY_COUNTRY_FOR_ALIASES[c.country] = COMMUNES_BY_COUNTRY_FOR_ALIASES[c.country] || []).push(c);
-  });
-  (function scheduleAliasBuild(){
-    var ALIAS_BATCH_SIZE = 10;
-    var queue = ALIAS_COUNTRY_LIST.slice();
-    function step(){
-      var batch = queue.splice(0, ALIAS_BATCH_SIZE);
-      if(!batch.length) return;
-      batch.forEach(function(cc){
-        var raw = ALIASES_RAW_BY_COUNTRY[cc];
-        if(!raw) return;
-        var byName = {};
-        (COMMUNES_BY_COUNTRY_FOR_ALIASES[cc] || []).forEach(function(c){
-          (byName[c.name] = byName[c.name] || []).push(c);
+  var COMMUNES, ALIASES = [];
+  // Cache local déjà PARSÉ (voir tout en haut, "Cache local (IndexedDB)") : si un chargement
+  // précédent a laissé une copie valide pour cette même version de données, on l'utilise
+  // directement — ni parsing, ni construction d'index, un simple objet déjà prêt.
+  var cachedData = await readDataCache(DATA_VERSION);
+  if(cachedData){
+    COMMUNES = cachedData.communes;
+    ALIASES = cachedData.aliases || [];
+  } else {
+    COMMUNES = COUNTRY_LIST.reduce(function(all, cc){
+      return all.concat(parseCommunesFile(COMMUNES_RAW_BY_COUNTRY[cc], cc));
+    }, []);
+
+    // Construction d'ALIASES VOLONTAIREMENT DIFFÉRÉE (par petits lots via setTimeout) plutôt que
+    // synchrone ici : avec 45 pays et plus de 562 000 communes au total (2026), construire cet
+    // index avant d'activer le champ "ville de départ" ajoutait un temps d'attente significatif et
+    // parfaitement inutile — la recherche par nom local/code postal (searchCommunes, COMMUNES seul)
+    // fonctionne très bien sans les alias, qui ne sont qu'un bonus (voir plus haut, "tolérant à
+    // l'échec individuel"). Le champ est donc activé dès que COMMUNES est prêt (juste plus bas), et
+    // ALIASES se remplit tout seul en tâche de fond juste après — searchCommunes lit la variable
+    // ALIASES en direct (fermeture, pas une copie), donc les résultats par alias apparaissent
+    // automatiquement dès que ce remplissage progressif les atteint, sans code supplémentaire. PAR
+    // LOTS de plusieurs pays (pas un seul gros bloc, pas non plus un tick par pays) : un seul
+    // setTimeout global se serait fait sentir comme un court gel de l'interface juste après
+    // l'activation du champ ; à l'inverse, un tick séparé par pays (45 timers en chaîne) s'est
+    // révélé PIRE en pratique, testé en direct — un onglet que le navigateur ne juge pas au premier
+    // plan peut brider chaque `setTimeout` à environ 1/seconde (limitation standard des navigateurs
+    // pour les onglets en arrière-plan), ce qui a fait grimper la construction complète à plus de
+    // 40 secondes au lieu d'une fraction de seconde. Des lots de quelques pays limitent donc le
+    // nombre de timers en jeu (moins exposé à ce bridage) tout en gardant chaque bloc synchrone
+    // court.
+    var COMMUNES_BY_COUNTRY_FOR_ALIASES = {};
+    COMMUNES.forEach(function(c){
+      (COMMUNES_BY_COUNTRY_FOR_ALIASES[c.country] = COMMUNES_BY_COUNTRY_FOR_ALIASES[c.country] || []).push(c);
+    });
+    (function scheduleAliasBuild(){
+      var ALIAS_BATCH_SIZE = 10;
+      var queue = ALIAS_COUNTRY_LIST.slice();
+      function step(){
+        var batch = queue.splice(0, ALIAS_BATCH_SIZE);
+        if(!batch.length){
+          // Construction terminée : mémorisée pour le prochain chargement (voir tout en haut,
+          // readDataCache/writeDataCache) — fire-and-forget, sans jamais bloquer l'interface.
+          writeDataCache(DATA_VERSION, COMMUNES, ALIASES);
+          return;
+        }
+        batch.forEach(function(cc){
+          var raw = ALIASES_RAW_BY_COUNTRY[cc];
+          if(!raw) return;
+          var byName = {};
+          (COMMUNES_BY_COUNTRY_FOR_ALIASES[cc] || []).forEach(function(c){
+            (byName[c.name] = byName[c.name] || []).push(c);
+          });
+          raw.split('\n').filter(Boolean).forEach(function(line){
+            var parts = line.split(';');
+            var alias = parts[1], canonical = parts[2];
+            if(!alias || !canonical) return;
+            var targets = byName[canonical];
+            if(!targets) return;
+            var norm = normalizeCityName(alias);
+            targets.forEach(function(c){ ALIASES.push({ norm: norm, commune: c }); });
+          });
         });
-        raw.split('\n').filter(Boolean).forEach(function(line){
-          var parts = line.split(';');
-          var alias = parts[1], canonical = parts[2];
-          if(!alias || !canonical) return;
-          var targets = byName[canonical];
-          if(!targets) return;
-          var norm = normalizeCityName(alias);
-          targets.forEach(function(c){ ALIASES.push({ norm: norm, commune: c }); });
-        });
-      });
+        setTimeout(step, 0);
+      }
       setTimeout(step, 0);
-    }
-    setTimeout(step, 0);
-  })();
+    })();
+  }
 
   // Recherche à partir de 3 caractères : préfixe de code postal OU préfixe du nom LOCAL/d'un alias
   // connu dans une autre langue (voir ALIASES ci-dessus), LES DEUX à chaque fois plutôt qu'un choix
