@@ -1387,6 +1387,13 @@ de pays, le simple fait de redéployer suffit.
 
 ## Performance : bundles `/data/` précompilés
 
+**Mise à jour** : depuis le passage "Recherche et tirage aléatoire côté serveur" (section
+suivante), les bundles décrits ici ne sont plus jamais téléchargés par le NAVIGATEUR — ils
+alimentent uniquement `lib/trip-engine.js`, en interne au process serveur. Tout ce qui suit (les
+trois problèmes de performance identifiés, et la solution retenue) reste vrai et continue de
+s'appliquer telle quelle, simplement pour un consommateur différent : le texte n'a pas été
+retouché pour éviter de perdre le fil du diagnostic original.
+
 Avec la croissance du nombre de pays couverts (45 fin 2026, encore appelé à grandir), le
 chargement initial des données (`public/data/`) est devenu, dans l'ordre, trois problèmes
 distincts — chacun diagnostiqué en conditions réelles sur `testroad.lume419.fr` (l'hébergement
@@ -1438,6 +1445,74 @@ Sync et une variante async — la version Sync bloque tout le process Node le te
 pas seulement la requête qui l'a déclenchée. Avec des volumes de données appelés à grandir encore
 (nouveaux pays), toute future opération lourde sur `/data/` devra continuer à privilégier soit un
 calcul déporté au déploiement (comme ici), soit au minimum une variante asynchrone plutôt que Sync.
+
+## Recherche et tirage aléatoire côté serveur
+
+Malgré les trois correctifs ci-dessus (moins de requêtes, meilleure compression, plus aucun calcul
+au moment de répondre), le plancher réel sur `testroad.lume419.fr` restait ~7 s au premier
+chargement / ~2 s ensuite — désormais dominé par le volume de données lui-même (~27 Mo bruts,
+~12 Mo compressés sur cet hébergement précisément, voir la section précédente) et la bande passante
+réelle de l'hébergement mutualisé (~3,7 Mo/s mesurés). Avec l'intention de continuer à ajouter des
+pays, ce volume ne pouvait que grandir : plutôt que de continuer à optimiser le TRANSPORT d'une
+base de communes toujours plus grosse, ce passage retire cette base du navigateur — la recherche de
+ville et le tirage aléatoire de destination tournent désormais entièrement côté serveur, qui ne
+renvoie plus que le strict résultat (quelques suggestions de recherche, ou l'itinéraire déjà tiré).
+
+**Ce qui a rendu ça possible sans devoir porter les 61 langues côté serveur** : le moteur de tirage
+(`buildItinerary` et tout ce qu'il appelle — ferries, péages, masses continentales, nuits,
+activités) était déjà presque entièrement indépendant de la traduction. Seuls le libellé du jour
+("Jour 3", "Retour"...) et la catégorie de logement affichée étaient résolus en texte AU MOMENT du
+tirage ; tout le reste (nom des lignes de ferry, types d'activité) stockait déjà une simple CLÉ,
+résolue seulement au rendu — un mécanisme qui existait déjà pour permettre à un changement de
+langue en cours de session de retraduire un itinéraire déjà affiché sans le retirer au sort. Il a
+suffi de généraliser ce même mécanisme à 100 % des cas (le serveur ne renvoie plus que `labelKind`/
+`dayNum` par étape, jamais de texte déjà traduit ; la catégorie de logement n'est plus renvoyée du
+tout, le client la recalcule lui-même à partir de `budgetKey`/`avoidTent`, qu'il connaît déjà) pour
+que le moteur de tirage devienne totalement agnostique à la langue — `lib/trip-engine.js` n'a
+besoin de charger ni `i18n.js` (1,14 Mo, 61 langues) ni quoi que ce soit qui en dépende.
+
+**`public/js/trip-data.js`** (nouveau) porte les tables dont le moteur a besoin — pays, ferries,
+péages, budget, détection de masse continentale par pays — dans un fichier UMD minimal chargé à la
+fois par le navigateur (`<script>`) et par le serveur (`require()`). Ces tables étaient auparavant
+déclarées uniquement dans `app.js` ; les dupliquer côté serveur aurait créé un risque de
+désynchronisation à chaque futur ajout de pays (le genre de duplication déjà surveillée "à la main"
+entre `build-country-communes.js`/`build-aliases.js`, ici évité pour ces tables précises).
+
+**`lib/trip-engine.js`** (nouveau) est un port direct des fonctions de tirage/recherche de
+`app.js` (mêmes commentaires de sourcing conservés) — construit UNE SEULE FOIS en mémoire au tout
+premier démarrage du process (communes/alias parsés, index spatial construit), à partir du même
+texte brut déjà lu pour les bundles `/data/` ci-dessus (aucune double lecture de fichier). Exposé
+via deux routes dans `server.js` :
+
+- `GET /api/search-city?q=...&limit=...` — remplace l'ancienne recherche locale `searchCommunes`
+  (même comportement : préfixe de nom local, de code postal, ou d'alias multilingue).
+- `POST /api/generate-trip` — remplace l'appel local à `buildItinerary`. Revalide intégralement
+  les paramètres reçus (coordonnées, nombre de jours, clés de budget/transport...) : cette route
+  devient la vraie frontière de confiance, ce que le formulaire validait déjà côté client mais
+  qu'une requête directe pourrait contourner. La devise préférée du visiteur (mémorisée en
+  `localStorage`, inaccessible côté serveur) est transmise en paramètre explicite plutôt que
+  supposée.
+
+**Côté client**, `app.js` perd environ 100 Ko (le tiers du fichier) : tout le pipeline de
+chargement des bundles (fetch, cache IndexedDB, découpage, construction des alias, grille spatiale)
+et le moteur de tirage lui-même disparaissent, remplacés par deux appels `fetch()`. Le champ
+"ville de départ" s'active immédiatement au chargement de la page — plus aucune donnée à attendre.
+`buildActivityOptions`/`diversityGroup` restent côté client (dépendance à double usage : aussi
+utilisées pour rafraîchir les suggestions d'activité une fois de vrais points d'intérêt reçus via
+`/api/pois`, après le tirage) ; `countryCurrency`/`lodgingCategoryLabel` aussi (rendu de l'indice de
+budget et du texte de logement, respectivement, tous deux calculés côté client à partir de données
+qu'il connaît déjà). L'exemple de ville du placeholder (auparavant tiré au hasard dans toute la
+base) vient désormais d'une petite liste fixe (`PLACEHOLDER_EXAMPLES`) — un simple exemple de
+saisie, pas besoin de charger quoi que ce soit pour ça.
+
+Testé en direct dans le navigateur après ce passage : plus aucune requête `/data/communes-bundle.txt`
+ni `/data/aliases-bundle.txt` ni `featured.txt` au chargement (vérifié dans l'onglet réseau),
+recherche par nom local et par alias fonctionnelles, génération complète d'un itinéraire (Croatie,
+péage correctement affiché), changement de langue APRÈS le tirage suivi d'un export PDF réussi
+(vérifié que les libellés de jour restent corrects dans la nouvelle langue — l'effet de bord attendu
+du passage à `labelKind`/`dayNum`, qui corrige au passage un détail resté figé dans l'ancienne
+langue jusqu'ici), et un second tirage consécutif confirmant qu'une destination déjà proposée n'est
+pas immédiatement retirée.
 
 ## Photos réelles
 

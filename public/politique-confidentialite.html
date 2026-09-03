@@ -79,8 +79,15 @@
     préférences ci-dessus, et dispensé de consentement pour la même raison.</p>
 
     <h2>Génération de l'itinéraire</h2>
-    <p>Le tirage au sort de l'itinéraire (communes, distances, péages) se fait entièrement dans votre
-    navigateur, à partir de fichiers de données publics. Rien n'est transmis au serveur à cette étape.</p>
+    <p>La recherche de ville et le tirage au sort de l'itinéraire (communes, distances, péages)
+    passent par le serveur — <code>GET /api/search-city</code> pour la recherche,
+    <code>POST /api/generate-trip</code> pour le tirage — plutôt que d'être calculés entièrement
+    dans votre navigateur. Ce que ces deux requêtes transmettent : le texte que vous tapez dans le
+    champ ville, puis, une fois une ville choisie, vos réglages de formulaire (dates, budget, mode
+    de transport, péages/ferries/tente autorisés, distances) — jamais votre nom, votre adresse IP
+    au-delà des journaux techniques d'hébergement déjà mentionnés plus bas, ni aucune donnée qui
+    vous identifierait. Le serveur calcule et répond, sans rien enregistrer ni journaliser au-delà
+    de la réponse — même principe que l'export PDF ci-dessous.</p>
 
     <h2>Activités, randonnées et photos réelles</h2>
     <p>Pour proposer de vraies activités, randonnées et photos, le site interroge en tâche de fond
@@ -135,7 +142,7 @@
     <p>Voir aussi les <a href="mentions-legales">mentions légales</a> de ce site.</p>
   </div>
 
-  <footer>Cap sur l'inconnu — générateur ludique, aucune donnée n'est envoyée où que ce soit.</footer>
+  <footer>Cap sur l'inconnu — générateur ludique, aucune donnée personnelle n'est collectée.</footer>
 </div>
 <script src="js/theme.js" defer></script>
 </body>

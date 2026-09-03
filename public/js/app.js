@@ -348,121 +348,10 @@
   applyCurrencyPanelTexts();
   window.addEventListener('i18n:langchange', applyCurrencyPanelTexts);
 
-  // Les données (communes par pays, points d'intérêt réels) ne sont plus embarquées dans le script :
-  // elles sont chargées depuis /data au démarrage. Le formulaire reste désactivé (voir index.html)
-  // tant que ce chargement n'est pas terminé. La carte du parcours, elle, n'a plus besoin d'aucun
-  // fichier local : elle s'appuie sur de vraies tuiles OpenStreetMap via Leaflet (voir renderMap).
-  //
-  // Cache local (IndexedDB) du résultat DÉJÀ PARSÉ (COMMUNES/ALIASES, voir plus bas) — le fichier
-  // texte brut, lui, était déjà mis en cache réseau une heure (voir server.js), mais le PARSING
-  // JavaScript de ~562 000 communes + ~87 000 alias (2026), lui, se refaisait entièrement à CHAQUE
-  // chargement de page, cache réseau ou pas : ~2 s mesurées dans le navigateur, le vrai goulot une
-  // fois la compression gzip en place. Ce cache ne contient QUE des données géographiques publiques
-  // déjà présentes sur /data (noms de communes, codes postaux, coordonnées) — rien qui concerne le
-  // visiteur lui-même, donc rien qui relève du RGPD (qui ne s'applique qu'à des données personnelles,
-  // article 4 du règlement) ; jamais transmis au serveur ni ailleurs, voir
-  // politique-confidentialite.html. `readDataCache`/`writeDataCache` échouent silencieusement
-  // (navigation privée, quota dépassé, navigateur sans IndexedDB...) sans jamais bloquer le chargement
-  // du site — même philosophie que le fetch des alias plus bas, un bonus jamais indispensable.
-  //
-  // Invalidation AUTOMATIQUE : `DATA_VERSION` (voir plus bas) dérive une clé de version
-  // directement de la longueur des deux bundles déjà reçus — pas un numéro de version à penser à
-  // incrémenter à la main à chaque ajout de pays (source d'oubli quasi garantie vu le rythme des
-  // ajouts de ce projet). Tout changement de contenu qui modifie ne serait-ce qu'un seul caractère
-  // d'un fichier change presque toujours la longueur du bundle qui le contient (ajout de communes,
-  // correction de nom...) : le cache est alors ignoré et reconstruit une fois, comme au tout
-  // premier chargement.
-  var DATA_CACHE_DB = 'csi-data-cache', DATA_CACHE_STORE = 'parsed', DATA_CACHE_KEY = 'v1';
-  function openDataCacheDb(){
-    return new Promise(function(resolve, reject){
-      if(!window.indexedDB){ reject(new Error('indexedDB indisponible')); return; }
-      var req = indexedDB.open(DATA_CACHE_DB, 1);
-      req.onupgradeneeded = function(){ req.result.createObjectStore(DATA_CACHE_STORE); };
-      req.onsuccess = function(){ resolve(req.result); };
-      req.onerror = function(){ reject(req.error); };
-    });
-  }
-  function readDataCache(version){
-    return openDataCacheDb().then(function(db){
-      return new Promise(function(resolve){
-        var req = db.transaction(DATA_CACHE_STORE, 'readonly').objectStore(DATA_CACHE_STORE).get(DATA_CACHE_KEY);
-        req.onsuccess = function(){
-          var rec = req.result;
-          if(!rec || rec.version !== version || !rec.communesJson){ resolve(null); return; }
-          try {
-            var communes = JSON.parse(rec.communesJson);
-            var aliasesRaw = JSON.parse(rec.aliasesJson);
-            // ALIASES référence les objets COMMUNES par identité (c.commune === l'entrée COMMUNES
-            // correspondante, voir plus bas) : JSON ne sait pas exprimer cette référence, donc les
-            // alias sont sérialisés comme un simple index numérique vers COMMUNES (voir writeDataCache)
-            // et reconstitués ici.
-            var aliases = aliasesRaw.map(function(a){ return { norm: a.norm, commune: communes[a.i] }; });
-            resolve(communes.length ? { communes: communes, aliases: aliases } : null);
-          } catch(e){ resolve(null); }
-        };
-        req.onerror = function(){ resolve(null); };
-      });
-    }).catch(function(){ return null; });
-  }
-  function writeDataCache(version, communes, aliases){
-    openDataCacheDb().then(function(db){
-      // Index communes -> position (Map par référence) plutôt qu'un indexOf par alias : sur
-      // ~87 000 alias contre ~562 000 communes, indexOf (balayage linéaire) aurait fait des
-      // dizaines de milliards de comparaisons — un Map ramène ça à un aller simple par alias.
-      var indexByCommune = new Map();
-      communes.forEach(function(c, i){ indexByCommune.set(c, i); });
-      var aliasesCompact = aliases.map(function(a){ return { norm: a.norm, i: indexByCommune.get(a.commune) }; });
-      db.transaction(DATA_CACHE_STORE, 'readwrite').objectStore(DATA_CACHE_STORE)
-        .put({ version: version, communesJson: JSON.stringify(communes), aliasesJson: JSON.stringify(aliasesCompact) }, DATA_CACHE_KEY);
-    }).catch(function(){ /* silencieux, voir commentaire plus haut */ });
-  }
-  var COMMUNES_RAW_BY_COUNTRY = {}, FEATURED_RAW, ALIASES_RAW_BY_COUNTRY = {}, DATA_VERSION;
-  // Découpe un bundle serveur (voir server.js, routes /data/communes-bundle.txt et
-  // /data/aliases-bundle.txt) en un objet {CODE_PAYS: texte brut}, à l'identique de ce que
-  // produisaient les ~91 fetches individuels d'avant — split() avec un groupe capturant conserve
-  // les marqueurs dans le résultat, en alternance avec le contenu qui les suit :
-  // ["", "FR", "<contenu>", "DE", "<contenu>", ...]. Une éventuelle ligne vide en trop en bordure
-  // de bloc (séparateur entre deux fichiers concaténés côté serveur) est sans conséquence :
-  // parseCommunesFile (plus bas) fait déjà `.filter(Boolean)` sur les lignes.
-  function splitBundle(bundleText){
-    var parts = bundleText.split(/###([A-Z]{2})###\n/);
-    var out = {};
-    for (var i = 1; i < parts.length; i += 2) out[parts[i]] = parts[i + 1];
-    return out;
-  }
-  try {
-    // Les ~91 requêtes individuelles d'avant (une par fichier communes-XX.txt/aliases-XX.txt) ont
-    // été mesurées en conditions réelles sur l'hébergement mutualisé (o2switch) : ~2,3 s
-    // incompressibles quelle que soit la taille des fichiers ou la compression demandée — un débit
-    // constant d'environ 40-45 requêtes/seconde, signature d'une protection anti-flood de
-    // l'hébergeur plutôt qu'un problème de bande passante (6, 40 ou 92 connexions simultanées
-    // donnaient quasiment le même temps total). Regroupées en 2 requêtes (voir server.js,
-    // buildBundle) : la limite ne s'applique plus.
-    var bundleResults = await Promise.all([
-      fetch('data/communes-bundle.txt').then(function(r){ if(!r.ok) throw new Error('communes-bundle.txt : HTTP ' + r.status); return r.text(); }),
-      fetch('data/featured.txt').then(function(r){ if(!r.ok) throw new Error('featured.txt : HTTP '+r.status); return r.text(); }),
-      // Tolérant à l'échec (contrairement aux deux fetches ci-dessus) : la saisie multilingue des
-      // villes est un bonus, pas une donnée essentielle — un bundle d'alias manquant/en erreur ne
-      // doit jamais empêcher le site de fonctionner (voir le .catch, pas le try/catch global qui,
-      // lui, affiche l'écran d'erreur bloquant pour les données réellement essentielles).
-      fetch('data/aliases-bundle.txt').then(function(r){ return r.ok ? r.text() : ''; }).catch(function(){ return ''; })
-    ]);
-    var communesBundleText = bundleResults[0];
-    FEATURED_RAW = bundleResults[1];
-    var aliasesBundleText = bundleResults[2];
-    COMMUNES_RAW_BY_COUNTRY = splitBundle(communesBundleText);
-    ALIASES_RAW_BY_COUNTRY = splitBundle(aliasesBundleText);
-    var missingCountries = COUNTRY_LIST.filter(function(cc){ return !COMMUNES_RAW_BY_COUNTRY[cc]; });
-    if(missingCountries.length) throw new Error('communes-bundle.txt : pays manquants — ' + missingCountries.join(','));
-    DATA_VERSION = communesBundleText.length + '|' + aliasesBundleText.length;
-  } catch(err){
-    var loadErr = document.getElementById('load-error');
-    if(loadErr){
-      loadErr.textContent = window.I18N.t('error.loadData', {msg: err.message});
-      loadErr.classList.add('show');
-    }
-    return;
-  }
+  // Plus aucune donnée volumineuse n'est chargée ici au démarrage — voir README, section
+  // "Recherche et tirage aléatoire côté serveur" : le champ "ville de départ" s'active
+  // immédiatement (voir plus bas), la recherche interroge /api/search-city et le tirage
+  // /api/generate-trip (voir lib/trip-engine.js côté serveur).
 
   /* ---------- ICONS ---------- */
   var ICONS = {
@@ -879,219 +768,16 @@
   var GR_ISLAND_PATTERNS = TripData.GR_ISLAND_PATTERNS;
   var FERRY_ROUTES = TripData.FERRY_ROUTES;
   
-  function landmassKey(a, b){ return [a, b].sort().join('|'); }
-  function ferryRouteFor(a, b){ return (a === b) ? null : (FERRY_ROUTES[landmassKey(a, b)] || null); }
   // Détecte la masse continentale d'une commune : son pays pour la France (le champ dept y est un
   // vrai code de département, 2A/2B identifient la Corse sans ambiguïté) ; ses coordonnées pour
   // l'Espagne/le Portugal (dept y est déjà un nom de région en clair, pas exploitable ici — voir
   // parseCommunesFile). Bornes larges mais qui ne mordent jamais sur le continent correspondant :
   // vérifié que la France métropolitaine ne dépasse pas ~7,7°E (hors de la plage Corse) et que la
   // façade est de l'Espagne autour de Barcelone est à plus de 41°N (hors de la plage Baléares).
-  function landmassOf(c){
-    if(c.country === 'FR') return (c.dept === '2A' || c.dept === '2B') ? 'corsica' : 'continental';
-    if(c.country === 'ES'){
-      if(c.lon >= -18.5 && c.lon <= -13.0 && c.lat >= 27.5 && c.lat <= 29.6) return 'canary';
-      if(c.lon >= 1.0 && c.lon <= 4.6 && c.lat >= 38.5 && c.lat <= 40.3) return 'balearic';
-      return 'continental';
-    }
-    if(c.country === 'PT'){
-      // Aucune ligne dans FERRY_ROUTES pour ces deux valeurs : voir le commentaire au-dessus de
-      // FERRY_ROUTES — pas une omission, l'absence de vraie liaison maritime régulière.
-      if(c.lon <= -20) return 'azores';
-      if(c.lon <= -14) return 'madeira';
-      return 'continental';
-    }
-    if(c.country === 'NL'){
-      // Cinq îles Wadden, chacune sa propre commune aux Pays-Bas (contrairement à la Corse/aux
-      // Baléares, le champ dept y est directement exploitable — un nom de commune, pas un simple
-      // nom de région comme pour le reste de l'Espagne/Portugal). Une étiquette PAR île (voir
-      // WADDEN_ISLANDS/FERRY_ROUTES plus haut) — jamais "wadden" tout court, sans quoi le moteur
-      // les aurait crues reliées entre elles par la route. Repli sur une simple recherche de
-      // sous-chaîne (pas d'égalité stricte) : une coquille du dump GeoNames orthographie l'une
-      // d'elles "Ameland Municipalitye".
-      for(var wi=0; wi<WADDEN_ISLANDS.length; wi++){
-        if(new RegExp(WADDEN_ISLANDS[wi], 'i').test(c.dept || '')) return 'wadden-' + WADDEN_ISLANDS[wi];
-      }
-      return 'continental';
-    }
-    if(c.country === 'IT'){
-      // Comme pour l'Espagne/le Portugal, dept est ici un nom de PROVINCE en clair (pas un code),
-      // issu du fichier des codes postaux — comparaison stricte à la liste exacte des provinces de
-      // chaque île plutôt qu'une sous-chaîne, pour éviter tout faux positif avec une province du
-      // continent qui contiendrait par hasard le même mot.
-      if(SARDINIA_PROVINCES.indexOf(c.dept) !== -1) return 'sardinia';
-      if(SICILY_PROVINCES.indexOf(c.dept) !== -1) return 'sicily';
-      return 'continental';
-    }
-    if(c.country === 'HR'){
-      // Ici, ni le pays (comme la France) ni un simple rectangle lat/lon (comme l'Espagne/le
-      // Portugal) ni le nom de comté (dept, comme la province italienne) ne suffisent : un comté
-      // croate (ex. Splitsko-Dalmatinska) couvre à la fois des îles ET la portion de côte continentale
-      // en face, ET plusieurs comtés/rectangles se chevauchent d'une île à l'autre (voir le
-      // commentaire au-dessus de HR_ISLAND_POSTCODES) — seul le code postal, distinct par île dans
-      // les données GeoNames, sépare correctement les deux. On regarde TOUS les codes postaux de la
-      // commune (allCps), pas seulement le premier, par prudence. `c.cps` (au pluriel, sans le
-      // préfixe "all") est le nom du champ sur l'objet commune BRUT tel que sorti de
-      // parseCommunesFile/COMMUNE_GRID — c'est CE nom-là qu'utilisent les candidats vus par
-      // reachable() dans buildRealRoute (via findNearbyCommunes) ; `cp`/`allCps` ne sont ajoutés que
-      // plus tard, sur les objets enrichis (leg/stop/selectedCity). Bug réel trouvé lors de l'ajout
-      // du Royaume-Uni (voir plus bas, c.country === 'GB') : sans repli sur `c.cps`, un candidat brut
-      // ne matchait JAMAIS aucun code postal ici et retombait toujours sur 'continental' — resté
-      // invisible pour la Croatie jusqu'ici car CHAQUE île y a justement une ligne de ferry directe
-      // vers 'continental' (le mauvais repli tombait par pur hasard sur une masse malgré tout
-      // ferry-atteignable) ; devenu un vrai blocage pour l'Irlande du Nord, qui n'a (volontairement,
-      // voir plus bas) aucune ligne vers 'greatBritain' pour masquer le même bug.
-      var hrCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
-      for(var hci=0; hci<hrCps.length; hci++){
-        var hrIsland = HR_POSTCODE_TO_ISLAND[hrCps[hci]];
-        if(hrIsland) return hrIsland;
-      }
-      return 'continental'; // Krk/Pag/Vir/Čiovo (ponts routiers) + îlots non couverts, voir plus haut
-    }
-    // Malte : tout le pays est une île, mais DEUX masses distinctes reliées entre elles par leur
-    // propre ferry (voir gozo|malta plus haut) — l'île principale (Malte) au sud, Gozo au nord,
-    // séparées par le canal de Gozo (Comino, l'îlot entre les deux, rejoint la masse "gozo" par ce
-    // même seuil faute d'étiquette dédiée, voir le commentaire au-dessus de FERRY_ROUTES). Seuil
-    // vérifié sur l'ensemble de communes-mt.txt : le point le plus au nord de Malte (Marfa, 35,986°)
-    // et le plus au sud de Gozo (Sannat, 36,025°) encadrent une marge nette de la latitude retenue.
-    if(c.country === 'MT') return (c.lat >= 36.0) ? 'gozo' : 'malta';
-    // Guernesey/Jersey : chacune sa propre masse (voir continental|jersey/continental|guernsey/
-    // guernsey|jersey plus haut) — deux îles distinctes, jamais reliées entre elles par la route.
-    if(c.country === 'GG') return 'guernsey';
-    if(c.country === 'JE') return 'jersey';
-    if(c.country === 'GB'){
-      // Contrairement à la France/l'Espagne/l'Italie/la Croatie, pas besoin ici de séparer une île
-      // annexe du continent : le Royaume-Uni EST l'île, dans son ensemble, hormis un seul cas — les
-      // six comtés d'Irlande du Nord, géographiquement sur l'île d'IRLANDE et non sur celle de
-      // Grande-Bretagne (aucune route ne relie les deux, uniquement des ferries, voir
-      // continental|greatBritain plus haut). Identifiés par leur préfixe de code postal "BT" (zone
-      // postale de Belfast, exclusive à l'Irlande du Nord — vérifié exhaustivement sur les 651
-      // communes de communes-gb.txt : aucun chevauchement avec un autre préfixe ni avec une commune
-      // hors Irlande du Nord). Étiquetées "ireland" par anticipation — la même masse que la
-      // République d'Irlande dès son ajout (île unique, aucune mer entre les deux, voir README) —
-      // plutôt qu'une étiquette "northernIreland" à part qui devrait de toute façon fusionner avec
-      // "ireland" ensuite.
-      // Voir le commentaire équivalent pour hrCps ci-dessus : repli sur `c.cps` (nom du champ sur
-      // l'objet commune BRUT) indispensable ici, sans quoi AUCUN candidat brut d'Irlande du Nord
-      // n'était jamais reconnu comme tel (retombait sur 'greatBritain'), rendant Belfast totalement
-      // injoignable même depuis lui-même (aucune ligne 'ireland'-'greatBritain' pour masquer le bug
-      // comme en Croatie) — trouvé en testant précisément ce cas en direct.
-      var gbCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
-      for(var gci=0; gci<gbCps.length; gci++){
-        if(/^BT/i.test(gbCps[gci])) return 'ireland';
-      }
-      return 'greatBritain';
-    }
-    // République d'Irlande : le pays ENTIER rejoint la masse "ireland" déjà utilisée pour l'Irlande
-    // du Nord ci-dessus (voir le commentaire GB) — île unique, aucune mer entre les deux, jamais
-    // besoin de la moindre subdivision interne pour cette app (contrairement au Royaume-Uni voisin).
-    if(c.country === 'IE') return 'ireland';
-    // Île de Man : là encore, tout le territoire tient sur une seule masse, aucune subdivision
-    // interne — la troisième île britannique de cette série (avec la Grande-Bretagne/l'Irlande du
-    // Nord et la République d'Irlande) à n'avoir besoin que d'un simple test de pays.
-    if(c.country === 'IM') return 'isleOfMan';
-    if(c.country === 'DK'){
-      // Le Danemark continental (Jylland/Fionie/Sjælland, y compris Copenhague) rejoint 'continental'
-      // comme le reste de l'Europe connectée par la route : les trois masses sont reliées entre elles
-      // par de VRAIS ponts routiers (Lillebæltsbroen gratuit, Storebæltsbroen/Øresundsbron payants mais
-      // non modélisés, voir COUNTRIES.DK plus haut) — aucune ligne de ferry nécessaire pour aller de l'un
-      // à l'autre. Seule exception : Bornholm, île sans aucun pont, uniquement reliée par ferry (voir
-      // FERRY_ROUTES, 'bornholm|continental'). Identifiée par le préfixe de code postal danois "37"
-      // (3700-3790), exclusif à la commune de Bornholm — vérifié sur les 9 codes postaux distincts de
-      // communes-dk.txt commençant par "37", tous et uniquement rattachés à "Bornholm Kommune". Même
-      // repli sur `c.cps` que pour hrCps/gbCps ci-dessus (nom du champ sur l'objet commune BRUT).
-      var dkCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
-      for(var dci=0; dci<dkCps.length; dci++){
-        if(/^37/.test(dkCps[dci])) return 'bornholm';
-      }
-      return 'continental';
-    }
-    if(c.country === 'SE'){
-      // Öland est reliée au continent par un vrai pont routier (Ölandsbron, 1972) — déjà 'continental'
-      // sans code dédié. Seule vraie île sans pont modélisée : Gotland (voir FERRY_ROUTES,
-      // 'continental|gotland'). Identifiée par le préfixe de code postal suédois "62" (620-624),
-      // exclusif à la région Gotland — vérifié sur l'ensemble de communes-se.txt (les codes postaux
-      // suédois s'écrivent "XXX XX", avec un espace ; le préfixe testé porte sur les trois premiers
-      // chiffres, avant l'espace). Même repli sur `c.cps` que pour dkCps/hrCps/gbCps ci-dessus.
-      var seCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
-      for(var sci=0; sci<seCps.length; sci++){
-        if(/^62/.test(seCps[sci])) return 'gotland';
-      }
-      return 'continental';
-    }
-    // Îles Åland : contrairement à la France/l'Espagne/l'Italie/la Croatie/le Danemark/la Suède, pas
-    // besoin de distinguer une île d'un pays par ailleurs continental — comme pour Guernesey/Jersey/
-    // l'île de Man, le pays AX EST l'île dans son ensemble (voir FERRY_ROUTES, 'aland|continental').
-    if(c.country === 'AX') return 'aland';
-    if(c.country === 'GR'){
-      // Grèce — voir le grand commentaire au-dessus de FERRY_ROUTES pour la méthode complète et la
-      // liste des sources. Contrairement à la Croatie (code postal EXACT, un par un — HR_POSTCODE_TO_
-      // ISLAND), le système postal grec se prête à un simple test de PRÉFIXE (GR_ISLAND_PATTERNS,
-      // testés dans l'ordre, le premier qui matche gagne) — vérifié exhaustivement, préfecture par
-      // préfecture, sur les ~14 220 communes de communes-gr.txt. Même repli sur `c.cps` (nom du champ
-      // sur l'objet commune BRUT) que pour hrCps/gbCps/dkCps/seCps ci-dessus, pour la même raison
-      // (un candidat brut vu par reachable()/findNearbyCommunes n'a pas encore `allCps`).
-      var grCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
-      for(var gpi=0; gpi<grCps.length; gpi++){
-        var grCp = grCps[gpi];
-        // Cas Póros à part : son bloc de codes postaux (18020) est PARTAGÉ avec Galatás/Troizína,
-        // sur le continent (péninsule de Trézène, en face de l'île) — un simple préfixe suffirait à
-        // tort à faire passer ces communes continentales pour l'île. Filtrées par nom AVANT le test
-        // générique (voir GR_POROS_MAINLAND_NAMES plus haut) ; en cas de faux négatif ponctuel sur un
-        // hameau non listé, la commune retombe simplement sur 'continental' — jamais l'inverse
-        // (aucun risque de faire croire une commune continentale reliée par un ferry qui n'existe pas
-        // pour elle), cohérent avec le principe "jamais de trajet fabriqué" déjà appliqué ailleurs.
-        if(/^1802/.test(grCp)){
-          if(!GR_POROS_MAINLAND_NAMES.test(c.name || '')) return 'poros';
-          continue;
-        }
-        for(var gpp=0; gpp<GR_ISLAND_PATTERNS.length; gpp++){
-          if(GR_ISLAND_PATTERNS[gpp][0].test(grCp)) return GR_ISLAND_PATTERNS[gpp][1];
-        }
-      }
-      return 'continental'; // Eubée (pont de Chalcis), Péloponnèse, Attique, Thessalie, Macédoine,
-      // Thrace, Épire, Grèce centrale — ainsi que Leucade (reliée au continent par une digue routière
-      // depuis les années 1980, jamais par ferry) et une trentaine de petites îles/îlots
-      // volontairement LAISSÉS DE CÔTÉ (même logique que les îlots croates plus haut — limite
-      // assumée, pas un oubli) : Cyclades mineures (Sífnos, Sérifos, Kýthnos, Kéa, Antíparos, Anáfi,
-      // Síkinos, Folégandros, Kímolos), Dodécanèse mineur (Lipsí, Tílos, Sými, Kásos, Astypálaia,
-      // Kastellórizo), mer Égée du Nord (Ágios Efstrátios, Foúrnoi), et petites îles ioniennes
-      // (Paxoí, Meganísi, Kálamos) — toutes restent accessibles comme point de départ (recherche
-      // manuelle) mais jamais comme étape reliée au reste d'un itinéraire.
-    }
-    if(c.country === 'FO'){
-      // Îles Féroé — voir le commentaire au-dessus de FERRY_ROUTES pour la méthode complète. Un
-      // simple test de PRÉFIXE de code postal suffit ici (comme la Grèce, pas besoin d'un code exact
-      // par un comme la Croatie) : Suðuroy occupe exclusivement le bloc 800-970, vérifié
-      // exhaustivement sur les 180 communes de communes-fo.txt (aucun autre bloc du pays n'empiète
-      // sur cette tranche — la confusion possible avec "Vágur", nom partagé par une commune du nord,
-      // code postal 700, et celle de Suðuroy, code 900, est déjà résolue par le simple test de
-      // préfixe plutôt que par le nom). Même repli sur `c.cps` que pour hrCps/gbCps/dkCps/seCps/grCps
-      // ci-dessus.
-      var foCps = c.allCps || c.cps || (c.cp ? [c.cp] : []);
-      for(var fpi=0; fpi<foCps.length; fpi++){
-        if(/^[89]/.test(foCps[fpi])) return 'suduroy';
-      }
-      return 'continental'; // Streymoy (dont Tórshavn), Eysturoy, Vágar, Sandoy — reliées entre elles
-      // et à Streymoy par pont ou tunnel sous-marin (le plus récent, Sandoyartunnilin, ouvert fin
-      // 2023) : de vrais péages y existent (voir COUNTRIES.FO plus haut) mais jamais un ferry.
-    }
-    return 'continental'; // Andorre, Belgique, Monaco — déjà reliées au continent par la route
-  }
   // Traversée en ferry : durée et tarif FIXES pour la ligne concernée (voir FERRY_ROUTES), sans
   // rapport avec la vitesse du véhicule choisi — contrairement à finalizeLeg. Ni péage ni recharge
   // électrique en mer (une voiture électrique peut recharger sur certaines lignes, mais aucune
   // donnée fiable là-dessus : pas modélisé, plutôt que d'inventer un chiffre).
-  function finalizeFerryLeg(transportKey, route){
-    var ferryClass = TRANSPORT[transportKey].ferryClass;
-    return {
-      travelTime: fmtHours(route.durationH),
-      distanceKm: route.distanceKm,
-      tollInfo: null,
-      chargeInfo: null,
-      ferryInfo: { routeKey: route.routeKey, amount: route.priceByClass[ferryClass], durationH: route.durationH }
-    };
-  }
   // label n'est plus stocké ici (voir budgetLabel() plus haut) — seul l'ordre reste une donnée
   // stable, indépendante de la langue.
   var BUDGET = {
@@ -1162,161 +848,10 @@
   // n'apporterait pas de vraie diversité.
   var POI_DIVERSITY_GROUP = { monument:'memorial', memorial:'memorial' };
   function diversityGroup(type){ return POI_DIVERSITY_GROUP[type] || type; }
-  var FEATURED = {};
-  FEATURED_RAW.split('\n').forEach(function(line){
-    var parts = line.split(';');
-    var nom = parts[0], lat = parseFloat(parts[1]), lon = parseFloat(parts[2]);
-    var poisStr = parts[3] || '';
-    var pois = poisStr ? poisStr.split('|').map(function(s){
-      var m = s.match(/^(.*)\(([a-z_]+)\)$/);
-      return m ? {name:m[1], type:m[2]} : {name:s, type:''};
-    }) : [];
-    FEATURED[normalizeCityName(nom)] = {name:nom, lat:lat, lon:lon, pois:pois};
-  });
-  /* ---------- BASE DES COMMUNES FRANÇAISES ---------- */
-  // Couverture complète : ~35 000 communes (nom officiel + population + coordonnées + code(s) postal/postaux),
-  // dérivées du Découpage administratif officiel (IGN / geo.api.gouv.fr, licence ouverte Etalab).
-  // Format compact d'une ligne par commune : "population;lon,lat;cp1,cp2,...;Nom officiel"
-  
-  var DIACRITICS_RE = new RegExp("[̀-ͯ]", "g");
-  var SEP_RE = /[-'’]/g;
-  function normalizeCityName(s){
-    return String(s||'').trim().toLowerCase()
-      .normalize('NFD').replace(DIACRITICS_RE,'')
-      .replace(SEP_RE,' ').replace(/\s+/g,' ').trim();
-  }
-  // Un fichier par pays, même format compact (voir plus haut), fusionnés en un seul tableau tagué
-  // `country` — c'est ce tag qui distingue ensuite un code de département français (à résoudre via
-  // DEPARTMENTS côté serveur) d'un nom de région déjà en clair pour les autres pays (ex. "Almería",
-  // "Aveiro" — voir scripts/build-country-communes.js, qui produit directement ce nom).
-  function parseCommunesFile(raw, country){
-    return raw.split('\n').filter(Boolean).map(function(line){
-      var parts = line.split(';');
-      var pop = parseInt(parts[0], 10) || 0;
-      var latlon = parts[1].split(',');
-      var lon = parseFloat(latlon[0]);
-      var lat = parseFloat(latlon[1]);
-      var cps = parts[2].split(',');
-      var dept = parts[3];
-      var name = parts[4];
-      return { name:name, norm:normalizeCityName(name), cps:cps, pop:pop, lat:lat, lon:lon, dept:dept, country:country };
-    });
-  }
-  // Saisie d'une ville dans une AUTRE langue que son nom local (ex. "Anvers" en français pour la
-  // commune belge "Antwerpen", "Séville" pour "Sevilla" — voir scripts/build-aliases.js, source
-  // GeoNames alternateNamesV2). ALIASES[i].commune référence directement l'entrée COMMUNES
-  // correspondante : sélectionner un résultat trouvé par alias résout donc bien vers le VRAI nom
-  // local (celui utilisé partout ailleurs dans l'app — carte, activités, péage...), pas vers
-  // l'alias saisi, qui n'était qu'un moyen de le trouver. Un alias reconnu dans N'IMPORTE LAQUELLE
-  // des langues couvertes fonctionne, pas seulement celle actuellement choisie pour l'interface :
-  // plus simple (pas besoin de reconstruire l'index à chaque changement de langue) et plus tolérant
-  // pour l'utilisateur (fonctionne même juste après avoir changé de langue, ou par habitude).
-  var COMMUNES, ALIASES = [];
-  // Cache local déjà PARSÉ (voir tout en haut, "Cache local (IndexedDB)") : si un chargement
-  // précédent a laissé une copie valide pour cette même version de données, on l'utilise
-  // directement — ni parsing, ni construction d'index, un simple objet déjà prêt.
-  var cachedData = await readDataCache(DATA_VERSION);
-  if(cachedData){
-    COMMUNES = cachedData.communes;
-    ALIASES = cachedData.aliases || [];
-  } else {
-    COMMUNES = COUNTRY_LIST.reduce(function(all, cc){
-      return all.concat(parseCommunesFile(COMMUNES_RAW_BY_COUNTRY[cc], cc));
-    }, []);
-
-    // Construction d'ALIASES VOLONTAIREMENT DIFFÉRÉE (par petits lots via setTimeout) plutôt que
-    // synchrone ici : avec 45 pays et plus de 562 000 communes au total (2026), construire cet
-    // index avant d'activer le champ "ville de départ" ajoutait un temps d'attente significatif et
-    // parfaitement inutile — la recherche par nom local/code postal (searchCommunes, COMMUNES seul)
-    // fonctionne très bien sans les alias, qui ne sont qu'un bonus (voir plus haut, "tolérant à
-    // l'échec individuel"). Le champ est donc activé dès que COMMUNES est prêt (juste plus bas), et
-    // ALIASES se remplit tout seul en tâche de fond juste après — searchCommunes lit la variable
-    // ALIASES en direct (fermeture, pas une copie), donc les résultats par alias apparaissent
-    // automatiquement dès que ce remplissage progressif les atteint, sans code supplémentaire. PAR
-    // LOTS de plusieurs pays (pas un seul gros bloc, pas non plus un tick par pays) : un seul
-    // setTimeout global se serait fait sentir comme un court gel de l'interface juste après
-    // l'activation du champ ; à l'inverse, un tick séparé par pays (45 timers en chaîne) s'est
-    // révélé PIRE en pratique, testé en direct — un onglet que le navigateur ne juge pas au premier
-    // plan peut brider chaque `setTimeout` à environ 1/seconde (limitation standard des navigateurs
-    // pour les onglets en arrière-plan), ce qui a fait grimper la construction complète à plus de
-    // 40 secondes au lieu d'une fraction de seconde. Des lots de quelques pays limitent donc le
-    // nombre de timers en jeu (moins exposé à ce bridage) tout en gardant chaque bloc synchrone
-    // court.
-    var COMMUNES_BY_COUNTRY_FOR_ALIASES = {};
-    COMMUNES.forEach(function(c){
-      (COMMUNES_BY_COUNTRY_FOR_ALIASES[c.country] = COMMUNES_BY_COUNTRY_FOR_ALIASES[c.country] || []).push(c);
-    });
-    (function scheduleAliasBuild(){
-      var ALIAS_BATCH_SIZE = 10;
-      var queue = ALIAS_COUNTRY_LIST.slice();
-      function step(){
-        var batch = queue.splice(0, ALIAS_BATCH_SIZE);
-        if(!batch.length){
-          // Construction terminée : mémorisée pour le prochain chargement (voir tout en haut,
-          // readDataCache/writeDataCache) — fire-and-forget, sans jamais bloquer l'interface.
-          writeDataCache(DATA_VERSION, COMMUNES, ALIASES);
-          return;
-        }
-        batch.forEach(function(cc){
-          var raw = ALIASES_RAW_BY_COUNTRY[cc];
-          if(!raw) return;
-          var byName = {};
-          (COMMUNES_BY_COUNTRY_FOR_ALIASES[cc] || []).forEach(function(c){
-            (byName[c.name] = byName[c.name] || []).push(c);
-          });
-          raw.split('\n').filter(Boolean).forEach(function(line){
-            var parts = line.split(';');
-            var alias = parts[1], canonical = parts[2];
-            if(!alias || !canonical) return;
-            var targets = byName[canonical];
-            if(!targets) return;
-            var norm = normalizeCityName(alias);
-            targets.forEach(function(c){ ALIASES.push({ norm: norm, commune: c }); });
-          });
-        });
-        setTimeout(step, 0);
-      }
-      setTimeout(step, 0);
-    })();
-  }
-
-  // Recherche à partir de 3 caractères : préfixe de code postal OU préfixe du nom LOCAL/d'un alias
-  // connu dans une autre langue (voir ALIASES ci-dessus), LES DEUX à chaque fois plutôt qu'un choix
-  // exclusif selon le premier caractère saisi (chiffre -> code postal, lettre -> nom) comme avant
-  // l'ajout de Malte/Guernesey/Jersey : leurs codes postaux commencent par des LETTRES ("VLT", "JE2",
-  // "GY6"...), contrairement aux codes purement numériques de tous les pays précédents — un simple
-  // `/^[0-9]/` sur la saisie aurait fait passer "VLT" pour un début de nom de commune (et donc
-  // manquer la recherche par code postal) plutôt que le préfixe de code postal qu'il est réellement.
-  // Essayer les deux systématiquement coûte à peine plus cher (même parcours de COMMUNES) et reste
-  // sans risque de faux positif : aucun nom de commune ne commence par un chiffre, et un code postal
-  // ne matche jamais par hasard un nom. Comparaison de code postal insensible à la casse (cps.txt
-  // garde la casse d'origine GeoNames, ex. "VLT" — la saisie normalisée par normalizeCityName est,
-  // elle, toujours en minuscules). Résultats triés par population décroissante pour faire remonter
-  // les villes connues.
-  function searchCommunes(query, limit){
-    var q = normalizeCityName(query);
-    if(q.length < 3) return [];
-    var matches = [];
-    var seenKeys = {}; // évite qu'une même commune apparaisse deux fois (nom local + alias, tous deux correspondant à la saisie)
-    function pushMatch(c, cp){
-      var key = c.country + '|' + c.norm + '|' + cp;
-      if(seenKeys[key]) return;
-      seenKeys[key] = true;
-      matches.push({name:c.name, cp:cp, allCps:c.cps, pop:c.pop, lat:c.lat, lon:c.lon, dept:c.dept, country:c.country});
-    }
-    for(var i=0; i<COMMUNES.length; i++){
-      var c = COMMUNES[i];
-      var matchCp = null;
-      for(var j=0;j<c.cps.length;j++){ if(c.cps[j].toLowerCase().indexOf(q)===0){ matchCp = c.cps[j]; break; } }
-      if(matchCp) pushMatch(c, matchCp);
-      if(c.norm.indexOf(q)===0) pushMatch(c, c.cps[0]);
-    }
-    for(var k=0; k<ALIASES.length; k++){
-      if(ALIASES[k].norm.indexOf(q) === 0) pushMatch(ALIASES[k].commune, ALIASES[k].commune.cps[0]);
-    }
-    matches.sort(function(a,b){ return b.pop - a.pop; });
-    return matches.slice(0, limit);
-  }
+  // FEATURED (points d'intérêt réels pré-recensés pour ~300 communes françaises) et le parsing des
+  // communes elles-mêmes ne sont plus chargés côté client — voir README, "Recherche et tirage
+  // aléatoire côté serveur" : lib/trip-engine.js s'en sert désormais côté serveur uniquement
+  // (voir featuredCount sur chaque leg, consommé par updateRevealTexts plus bas).
 
   /* ---------- STATE ---------- */
   var radiusMode = 'km';
@@ -1394,11 +929,18 @@
   // de langue) — seul le gabarit "Ex. X ou CP" autour d'elle est retraduit (voir placeholderText(),
   // rappelée par l'écouteur 'i18n:langchange' plus bas).
   var placeholderCommune = null;
+  // Sans COMMUNES chargé côté client (voir README, "Recherche et tirage aléatoire côté
+  // serveur"), la commune d'exemple du placeholder est tirée d'une petite liste fixe plutôt
+  // que de la base complète — un échantillon volontairement varié (plusieurs pays), pas
+  // besoin de plus pour ce simple exemple de saisie.
+  var PLACEHOLDER_EXAMPLES = [
+    {name:'Sainte-Foy', cps:['85150']}, {name:'Chenonceaux', cps:['37150']},
+    {name:'Sevilla', cps:['41001']}, {name:'Brugge', cps:['8000']},
+    {name:'Locarno', cps:['6600']}, {name:'Kraków', cps:['31-000']},
+    {name:'Split', cps:['21000']}, {name:'Tórshavn', cps:['100']}
+  ];
   function pickPlaceholderCommune(){
-    var pool = COMMUNES.filter(function(c){ return c.pop >= 2000 && c.name.length <= 16; });
-    if(!pool.length) pool = COMMUNES.filter(function(c){ return c.name.length <= 16; });
-    if(!pool.length) pool = COMMUNES;
-    return pool[Math.floor(Math.random() * pool.length)];
+    return PLACEHOLDER_EXAMPLES[Math.floor(Math.random() * PLACEHOLDER_EXAMPLES.length)];
   }
   function placeholderText(){
     if(!placeholderCommune) placeholderCommune = pickPlaceholderCommune();
@@ -1618,11 +1160,30 @@
     });
   }
 
+  // Recherche via /api/search-city (voir README, "Recherche et tirage aléatoire côté serveur") —
+  // plus de COMMUNES/ALIASES en mémoire côté client. Débattue (150 ms) pour ne pas envoyer une
+  // requête à chaque frappe, avec un numéro de séquence pour ignorer une réponse en retard qui
+  // arriverait APRÈS une saisie plus récente (une requête réseau peut répondre dans le désordre,
+  // contrairement à l'ancienne recherche locale synchrone qui n'avait pas ce risque).
+  var searchDebounceTimer = null;
+  var searchRequestSeq = 0;
   els.city.addEventListener('input', function(){
     selectedCity = null;
     if(els.city.value.trim()) clearCityError();
-    renderSuggestions(searchCommunes(els.city.value, 8));
     updateBudgetHint(); // ville désélectionnée : retombe sur la devise par défaut (EUR)
+    var query = els.city.value;
+    var mySeq = ++searchRequestSeq;
+    clearTimeout(searchDebounceTimer);
+    if(query.trim().length < 3){ renderSuggestions([]); return; }
+    searchDebounceTimer = setTimeout(function(){
+      fetch('/api/search-city?q=' + encodeURIComponent(query) + '&limit=8')
+        .then(function(r){ return r.ok ? r.json() : { results: [] }; })
+        .then(function(data){
+          if(mySeq !== searchRequestSeq) return; // une saisie plus récente a déjà pris le relais
+          renderSuggestions(data.results || []);
+        })
+        .catch(function(){ if(mySeq === searchRequestSeq) renderSuggestions([]); });
+    }, 150);
   });
   els.city.addEventListener('keydown', function(e){
     if(!els.citySuggest.classList.contains('show')) return;
@@ -1759,61 +1320,11 @@
   // Distance réelle (vol d'oiseau, corrigé d'un facteur route de 1,17 — même méthode que pour les péages)
   // entre deux points géolocalisés, utilisée pour choisir une destination plausible et calculer des
   // temps de trajet cohérents avec la carte, plutôt qu'une distance tirée au hasard dans le rayon choisi.
-  var ROAD_FACTOR = 1.17;
-  function haversineKm(lat1, lon1, lat2, lon2){
-    var R = 6371;
-    var toRad = function(d){ return d * Math.PI / 180; };
-    var dLat = toRad(lat2 - lat1), dLon = toRad(lon2 - lon1);
-    var s = Math.sin(dLat/2)*Math.sin(dLat/2) + Math.cos(toRad(lat1))*Math.cos(toRad(lat2))*Math.sin(dLon/2)*Math.sin(dLon/2);
-    return R * 2 * Math.atan2(Math.sqrt(s), Math.sqrt(1-s));
-  }
-  function roadDistanceKm(lat1, lon1, lat2, lon2){
-    return haversineKm(lat1, lon1, lat2, lon2) * ROAD_FACTOR;
-  }
 
   /* ---------- GRILLE SPATIALE & CONSTRUCTION D'ITINÉRAIRE RÉEL ---------- */
   // Index léger (cellules ~0.2°, soit ~20 km) sur les ~35 000 communes pour trouver rapidement
   // les communes réelles proches d'un point donné, sans comparer une à une (35 000 communes x
   // jusqu'à 15 étapes serait trop lent en recherche naïve).
-  var COMMUNE_GRID = null;
-  var GRID_CELL_DEG = 0.2;
-  function gridKey(lat, lon){
-    return Math.floor(lat/GRID_CELL_DEG) + '_' + Math.floor(lon/GRID_CELL_DEG);
-  }
-  function buildCommuneGrid(){
-    COMMUNE_GRID = {};
-    COMMUNES.forEach(function(c){
-      var k = gridKey(c.lat, c.lon);
-      (COMMUNE_GRID[k] = COMMUNE_GRID[k] || []).push(c);
-    });
-  }
-  function findNearbyCommunes(lat, lon, minKm, maxKm, minPop){
-    // 1° de latitude vaut ~111 km partout, mais 1° de longitude se rétrécit avec cos(latitude) —
-    // à la latitude de la France (~42-51°N), c'est ~25-35% de moins qu'à l'équateur. Utiliser le
-    // même "span" en cellules pour dx (nord-sud) et dy (est-ouest) sous-couvrait donc largement la
-    // direction est-ouest : une recherche censée porter à 600 km ne portait réellement qu'à
-    // ~430 km plein ouest (vérifié) — assez pour manquer la Bretagne depuis la majorité du pays.
-    // Calcul séparé du span est-ouest, élargi du facteur de compression, pour couvrir le même
-    // rayon réel dans toutes les directions.
-    var latSpan = Math.ceil(maxKm / (GRID_CELL_DEG*111)) + 1;
-    var kmPerLonDeg = Math.max(111 * Math.cos(lat * Math.PI/180), 20); // garde-fou, sans objet en France
-    var lonSpan = Math.ceil(maxKm / (GRID_CELL_DEG*kmPerLonDeg)) + 1;
-    var cx = Math.floor(lat/GRID_CELL_DEG), cy = Math.floor(lon/GRID_CELL_DEG);
-    var out = [];
-    for(var dx=-latSpan; dx<=latSpan; dx++){
-      for(var dy=-lonSpan; dy<=lonSpan; dy++){
-        var list = COMMUNE_GRID[(cx+dx)+'_'+(cy+dy)];
-        if(!list) continue;
-        for(var i=0;i<list.length;i++){
-          var c = list[i];
-          if(c.pop < minPop) continue;
-          var d = roadDistanceKm(lat, lon, c.lat, c.lon);
-          if(d>=minKm && d<=maxKm) out.push({commune:c, distKm:d});
-        }
-      }
-    }
-    return out;
-  }
   // Construit un itinéraire réel par proche-en-proche : à chaque étape, on part de la position
   // courante et on choisit — avec un peu de hasard pondéré — une commune réelle non encore
   // visitée, en favorisant celles qui ont un point d'intérêt réel (FEATURED) et les plus peuplées
@@ -1829,126 +1340,14 @@
   // `minDistanceKm` (optionnelle) impose que la première étape soit à au moins cette distance.
   // `maxDistanceKm` (optionnelle) plafonne la distance au point de départ pour TOUTE étape, à
   // n'importe quel moment du séjour — un vrai plafond, contrairement à la limite de rayon.
-  function buildRealRoute(startLat, startLon, startLandmass, maxRadiusKm, numStops, avoidNorm, minDistanceKm, maxDistanceKm, ferryEnabled){
-    var route = [];
-    var used = {};
-    if(avoidNorm) used[avoidNorm] = true;
-    var curLat = startLat, curLon = startLon;
-    var curLandmass = startLandmass;
-    var minDist = minDistanceKm || 0;
-    var maxDist = maxDistanceKm || 0; // 0 = pas de plafond
-    var hopCeiling = maxDist > 0 ? maxDist : 600;
-    // Même masse continentale que la position courante -> toujours autorisé (route normale, comme
-    // avant). Masse différente -> seulement si les ferries sont activés ET qu'une vraie ligne
-    // relie les deux (voir ferryRouteFor) ; sinon la commune est écartée du bassin de candidats,
-    // quelle que soit sa distance à vol d'oiseau (qui ne veut rien dire pour une île sans liaison —
-    // voir landmassOf/FERRY_ROUTES plus haut).
-    function reachable(x){
-      var toLandmass = landmassOf(x.commune);
-      return toLandmass === curLandmass || (ferryEnabled && !!ferryRouteFor(curLandmass, toLandmass));
-    }
-    for(var i=0; i<numStops; i++){
-      var isFirst = i===0;
-      var isLast = !isFirst && i===numStops-1;
-      var isOnlyStop = numStops === 1;
-      var minHop = isFirst ? Math.max(15, minDist) : 8;
-      var maxHop;
-      if(isFirst && isOnlyStop){
-        // Étape unique : elle sert aussi de retour, donc la limite de rayon s'y applique.
-        maxHop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, hopCeiling));
-      } else if(isFirst){
-        maxHop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, hopCeiling) : hopCeiling);
-      } else {
-        maxHop = Math.max(35, Math.min(hopCeiling*0.5, 220));
-      }
-      // La taille de la commune n'est plus un critère d'éligibilité : un hameau de 50 habitants
-      // est un candidat aussi valable qu'une grande ville, du moment qu'il reste dans le rayon de
-      // recherche. Seuil très bas gardé uniquement pour écarter les artefacts de données
-      // (communes à population nulle/inconnue dans la base).
-      var minPop = 15;
-
-      var candidates;
-      if(isLast){
-        // La limite de rayon/temps de retour ne s'applique qu'ici : quel que soit l'éloignement
-        // atteint entre-temps, la dernière étape doit être choisie pour que le trajet final
-        // rentre dans le rayon demandé (et dans le plafond maxDistanceKm, s'il y en a un).
-        var lastCap = maxDist > 0 ? Math.min(maxRadiusKm, maxDist) : maxRadiusKm;
-        candidates = findNearbyCommunes(curLat, curLon, 0, Math.max(maxHop, lastCap), minPop)
-          .filter(function(x){ return !used[x.commune.norm]; })
-          .filter(reachable)
-          .filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= lastCap; });
-        if(candidates.length===0){
-          candidates = findNearbyCommunes(startLat, startLon, 0, lastCap, 0)
-            .filter(function(x){ return !used[x.commune.norm]; })
-            .filter(reachable);
-        }
-      } else {
-        candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop, minPop)
-          .filter(function(x){ return !used[x.commune.norm]; })
-          .filter(reachable);
-        if(maxDist > 0){
-          candidates = candidates.filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxDist; });
-        }
-        if(candidates.length===0){
-          candidates = findNearbyCommunes(curLat, curLon, minHop, maxHop*2, 0)
-            .filter(function(x){ return !used[x.commune.norm]; })
-            .filter(reachable);
-          if(maxDist > 0){
-            candidates = candidates.filter(function(x){ return roadDistanceKm(x.commune.lat, x.commune.lon, startLat, startLon) <= maxDist; });
-          }
-        }
-      }
-      if(candidates.length===0) break;
-      // Tirage réellement uniforme dans tout le bassin de candidats éligibles — pas de score de
-      // population ni de bonus "commune avec un vrai POI" (FEATURED) ici. Testé : même un bonus
-      // modeste sur ~23 000 candidats suffit à écraser le hasard dès qu'il existe ne serait-ce que
-      // quelques dizaines de communes qui en bénéficient (ce qui est le cas : FEATURED ne couvre
-      // que 19 départements sur 108, concentrés à 92% dans un coin de l'Est) — la Bretagne, par
-      // exemple, n'était alors *jamais* tirée malgré ~5% de part légitime du bassin de candidats.
-      // La découverte de vrais points d'intérêt reste au rendez-vous quand la commune tirée en a
-      // (voir buildActivityOptions, qui consulte FEATURED pour la commune once choisie) — mais ça
-      // n'influence plus QUI est choisi, seulement CE QUI EST PROPOSÉ une fois le lieu tiré.
-      var chosen = candidates[randInt(0, candidates.length-1)];
-      used[chosen.commune.norm] = true;
-      route.push(chosen.commune);
-      curLat = chosen.commune.lat; curLon = chosen.commune.lon;
-      curLandmass = landmassOf(chosen.commune);
-    }
-    return route;
-  }
   // Répartit les nuits disponibles sur les étapes choisies : chacune a au moins 1 nuit, le reste
   // est distribué au hasard en favorisant les étapes avec de vrais points d'intérêt (pour permettre
   // plusieurs activités réelles distinctes sur place), avec un maximum de 4 nuits par étape.
-  function distributeNights(route, totalNights){
-    var nights = route.map(function(){ return 1; });
-    var remaining = totalNights - route.length;
-    var guard = 0;
-    while(remaining > 0 && guard < 300){
-      guard++;
-      var idx = randInt(0, route.length-1);
-      if(nights[idx] >= 4) continue;
-      var feat = FEATURED[route[idx].norm];
-      var weight = feat ? feat.pois.length + 1 : 1;
-      if(Math.random() > weight/5) continue; // les étapes bien pourvues gagnent plus souvent une nuit de plus
-      nights[idx]++;
-      remaining--;
-    }
-    // Filet de sécurité : si le tirage pondéré n'a pas suffi à écouler toutes les nuits
-    // (beaucoup de nuits pour peu d'étapes), on distribue le reste sans condition.
-    var idx2 = 0;
-    while(remaining > 0){
-      nights[idx2 % nights.length]++;
-      remaining--;
-      idx2++;
-    }
-    return nights;
-  }
   function lodgingCategoryLabel(budgetKey, avoidTent){
     if(budgetKey==='economique') return avoidTent ? t('lodging.economiqueNoTent') : t('lodging.economiqueTent');
     if(budgetKey==='moyen') return t('lodging.moyen');
     return t('lodging.confortable');
   }
-  buildCommuneGrid(); // appelé ici (après la déclaration de COMMUNE_GRID ci-dessus), pas plus haut
 
   /* ---------- ROULETTE / REVEAL ---------- */
   function runReveal(firstStop, spinPool, onDone){
@@ -2001,9 +1400,8 @@
     // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France).
     var bits = [firstStop.name + (firstStop.cp ? ' (' + formatCpBadge(firstStop) + ')' : '')];
     if(firstStop.pop) bits.push(t('reveal.inhabitants', {n: firstStop.pop.toLocaleString(localeTag())}));
-    if(FEATURED[firstStop.norm]){
-      var n = FEATURED[firstStop.norm].pois.length;
-      bits.push(t(n > 1 ? 'reveal.poiN' : 'reveal.poi1', {n: n}));
+    if(firstStop.featuredCount){
+      bits.push(t(firstStop.featuredCount > 1 ? 'reveal.poiN' : 'reveal.poi1', {n: firstStop.featuredCount}));
     }
     els.revealRegion.textContent = bits.join(' · ');
   }
@@ -2021,35 +1419,6 @@
   // Au-delà de TOLL_MIN_DISTANCE_KM, une portion du trajet emprunterait plausiblement une autoroute
   // à péage. Le péage coché rend l'étape plus rapide (temps réduit) ; décoché, le temps annoncé
   // correspond à l'itinéraire sans péage et on indique ce qui aurait pu être gagné.
-  function finalizeLeg(distanceKm, speed, transportKey, tollEnabled, country){
-    var hours = distanceKm / speed;
-    var tollInfo = null;
-    var tollClass = TRANSPORT[transportKey].tollClass; // null pour le vélo, interdit sur autoroute
-    var countryToll = COUNTRIES[country] && COUNTRIES[country].hasToll ? TOLL_RATE_BY_COUNTRY[country] : null;
-    if(tollClass && countryToll && distanceKm >= TOLL_MIN_DISTANCE_KM){
-      var rate = countryToll[tollClass];
-      var amount = Math.round(distanceKm * rate * 10) / 10;
-      var savedRatio = rand(0.15, 0.30);
-      var savedMin = Math.round(hours * 60 * savedRatio);
-      var fluxLibre = Math.random() < 0.25;
-      tollInfo = { enabled: !!tollEnabled, amount: amount, fluxLibre: fluxLibre, savedMin: savedMin, tollClass: tollClass, rate: rate };
-      if(tollEnabled) hours = hours * (1 - savedRatio);
-    }
-    var chargeInfo = null;
-    var tr = TRANSPORT[transportKey];
-    if(tr.electric){
-      var effectiveRange = EV_RANGE_KM * EV_CHARGE_MARGIN;
-      if(distanceKm > effectiveRange){
-        var stops = Math.ceil(distanceKm / effectiveRange) - 1;
-        if(stops > 0){
-          var totalMin = stops * randInt(25, 40);
-          chargeInfo = { stops: stops, minutes: totalMin };
-          hours += totalMin / 60;
-        }
-      }
-    }
-    return { travelTime: fmtHours(hours), distanceKm: distanceKm, tollInfo: tollInfo, chargeInfo: chargeInfo };
-  }
 
   /* ---------- ITINERARY BUILD ---------- */
   // Liens de recherche réels (pas une réservation ni des résultats fabriqués) : cet artefact autonome
@@ -2060,16 +1429,6 @@
   // choses : préciser la ville dans la requête (au lieu de toujours accoler ", France" — un nom de
   // commune n'est pas forcément unique hors de France) et choisir la devise/le plafond de prix
   // adaptés (voir BUDGET_PRICE_MAX/countryCurrency) plutôt que systématiquement l'euro.
-  function buildLodgingLinks(town, checkIn, checkOut, budgetKey, country){
-    var countryName = (COUNTRIES[country] && COUNTRIES[country].name) || 'France';
-    var q = encodeURIComponent(town + ', ' + countryName);
-    var currency = countryCurrency(country);
-    var priceMax = BUDGET_PRICE_MAX[currency][budgetKey];
-    return {
-      airbnb: 'https://www.airbnb.fr/s/' + encodeURIComponent(town) + '/homes?checkin=' + checkIn + '&checkout=' + checkOut + '&adults=2&price_max=' + priceMax + '&currency=' + currency,
-      booking: 'https://www.booking.com/searchresults.fr.html?ss=' + q + '&checkin=' + checkIn + '&checkout=' + checkOut + '&group_adults=2&no_rooms=1&nflt=price%3D' + currency + '-0-' + priceMax + '-1'
-    };
-  }
   // Liens de secours (toujours utiles pendant le chargement, ou si aucune photo n'est trouvée) :
   // une recherche Wikipédia et une recherche d'images, en un clic, sans rien stocker.
   function buildPhotoLinks(placeName){
@@ -2273,164 +1632,6 @@
       options.push({ labelKey: gKey, typeI18nKey: 'poiType.generic', isReal: false, isWalk: false });
     }
     return options;
-  }
-  function buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, avoidNorm, minDistanceKm, maxDistanceKm, ferryEnabled){
-    var speed = TRANSPORT[transportKey].speed;
-    var cLat = cityCoord.lat, cLon = cityCoord.lon;
-    var startLandmass = landmassOf(cityCoord);
-    var legs = [];
-    var minDist = minDistanceKm || 0;
-    var maxDist = maxDistanceKm || 0;
-
-    // Choisit finalizeLeg (route) ou finalizeFerryLeg (traversée) selon que les deux extrémités du
-    // saut sont sur la même masse continentale — voir landmassOf/ferryRouteFor plus haut. Un
-    // changement de masse ne peut se produire que si les ferries étaient activés au moment du
-    // tirage (seule condition sous laquelle buildRealRoute/les candidats ci-dessous les proposent) :
-    // pas besoin de revérifier ferryEnabled ici, juste de reconnaître la traversée déjà décidée.
-    function finalizeHop(fromPoint, toPoint, distanceKm, country){
-      var fromLandmass = landmassOf(fromPoint), toLandmass = landmassOf(toPoint);
-      if(fromLandmass !== toLandmass){
-        var route = ferryRouteFor(fromLandmass, toLandmass);
-        if(route) return finalizeFerryLeg(transportKey, route);
-      }
-      return finalizeLeg(distanceKm, speed, transportKey, tollEnabled, country);
-    }
-
-    if(days <= 1){
-      // Jour unique : l'étape sert aussi de retour, donc la limite de rayon s'y applique
-      // directement (comme pour un trajet à une seule étape dans buildRealRoute).
-      var hopCeiling0 = maxDist > 0 ? maxDist : 600;
-      var minHop0 = Math.max(15, minDist);
-      var hop = Math.max(40, minDist > 0 ? Math.max(minDist*1.4, maxRadiusKm) : Math.min(maxRadiusKm, hopCeiling0));
-      function reachable0(x){
-        var toLandmass = landmassOf(x.commune);
-        return toLandmass === startLandmass || (ferryEnabled && !!ferryRouteFor(startLandmass, toLandmass));
-      }
-      // La taille n'est plus un critère d'éligibilité (voir buildRealRoute) : seuil très bas gardé
-      // uniquement pour écarter les artefacts de données.
-      var candidates = findNearbyCommunes(cLat, cLon, minHop0, hop, 15)
-        .filter(function(x){ return x.commune.norm !== avoidNorm; })
-        .filter(reachable0);
-      if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
-      if(candidates.length===0){
-        candidates = findNearbyCommunes(cLat, cLon, minHop0, hop*1.6, 0).filter(reachable0);
-        if(maxDist > 0) candidates = candidates.filter(function(x){ return x.distKm <= maxDist; });
-      }
-      // Toujours rien même avec ce repli élargi (arrive surtout depuis une toute petite île sans
-      // ferry activé, ou avec des contraintes de distance trop serrées) : itinéraire vide plutôt
-      // qu'un plantage juste en dessous — generate() sait déjà afficher un message clair pour ça.
-      if(candidates.length===0) return [];
-      // Tirage uniforme, voir buildRealRoute pour le détail de pourquoi (tout score, même modeste,
-      // écrase le hasard sur un aussi grand bassin de candidats).
-      var stop = candidates[randInt(0, candidates.length-1)].commune;
-      var featured0 = FEATURED[stop.norm];
-      var poisQueue0 = featured0 ? featured0.pois.slice() : [];
-      var genericQueue0 = shuffle(GENERIC_KEYS_NO_WALK);
-      var activities0 = buildActivityOptions(poisQueue0, genericQueue0);
-      var distOut = Math.round(roadDistanceKm(cLat, cLon, stop.lat, stop.lon));
-      var distBack = Math.round(roadDistanceKm(stop.lat, stop.lon, cLat, cLon));
-      // label : texte dans la langue au moment du tirage, utilisé tel quel par l'export PDF (rendu
-      // côté serveur, non traduit — voir buildTripExportPayload). labelKind/dayNum : la même info
-      // sous forme de données, résolue en texte à la volée par l'affichage web (voir
-      // singleLegLabel) pour rester correcte après un changement de langue en cours de session.
-      legs.push(Object.assign({
-        label: t('day.single'), labelKind: 'single',
-        stop: stop.name,
-        activities: activities0,
-        needsRealPOIs: !featured0,
-        lodging: null,
-        isReturn:false,
-        lat: stop.lat, lon: stop.lon, norm: stop.norm, pop: stop.pop, dept: stop.dept, country: stop.country, cp: stop.cps[0], allCps: stop.cps
-      }, finalizeHop(cityCoord, stop, distOut, stop.country)));
-      legs.push(Object.assign({
-        label: t('day.return'), labelKind: 'returnBare',
-        stop: city,
-        activities: null,
-        lodging: null,
-        isReturn:true,
-        lat: cLat, lon: cLon, dept: cityCoord.dept, country: cityCoord.country, cp: cityCoord.cp, allCps: cityCoord.allCps
-      }, finalizeHop(stop, cityCoord, distBack, cityCoord.country)));
-      return legs;
-    }
-
-    var totalNights = days - 1;
-    var maxPossibleStops = Math.max(1, Math.min(MAX_STOPS, totalNights));
-    // Si la distance minimale demandée dépasse le rayon/temps de retour max, il faut au moins
-    // 2 étapes pour pouvoir s'éloigner suffisamment PUIS revenir dans les temps sur le dernier
-    // trajet (voir buildRealRoute) — sinon la contrainte serait mathématiquement impossible à
-    // tenir avec une seule étape (generate() bloque déjà ce cas quand il ne reste qu'1 nuit).
-    var forceMultiStop = minDist > maxRadiusKm && maxPossibleStops >= 2;
-    var minStops = forceMultiStop ? 2 : (totalNights >= 3 ? Math.min(3, maxPossibleStops) : 1);
-    minStops = Math.min(minStops, maxPossibleStops);
-    var numStops = randInt(minStops, maxPossibleStops);
-    var route = buildRealRoute(cLat, cLon, startLandmass, maxRadiusKm, numStops, avoidNorm, minDist, maxDist, ferryEnabled);
-    if(route.length === 0) route = buildRealRoute(cLat, cLon, startLandmass, Math.max(maxRadiusKm, 300), 1, null, 0, maxDist, ferryEnabled);
-    // Aucune commune trouvable même avec ce repli élargi (arrive surtout depuis une toute petite
-    // île — Corse mise à part, quelques dizaines de communes seulement — sans ferry activé, ou
-    // avec des contraintes de distance trop serrées pour son bassin de candidats) : mieux vaut
-    // remonter un itinéraire vide, que generate() sait déjà signaler proprement (voir
-    // "error.routeImpossible"), que de laisser distributeNights planter sur un tableau vide juste
-    // après.
-    if(route.length === 0) return [];
-    var nights = distributeNights(route, totalNights);
-
-    var dayCounter = 0;
-    var prevLat = cLat, prevLon = cLon;
-    var prevPoint = cityCoord; // landmassOf a besoin de dept/country, pas seulement lat/lon
-    route.forEach(function(commune, stopIdx){
-      var nightsHere = nights[stopIdx];
-      var featured = FEATURED[commune.norm];
-      var poisQueue = featured ? featured.pois.slice() : [];
-      var genericQueue = shuffle(GENERIC_KEYS_NO_WALK);
-      // Un séjour de plusieurs nuits au même endroit ne doit donner lieu qu'à UNE seule réservation
-      // (les dates couvrent tout le séjour), pas une recherche Airbnb/Booking distincte — et donc
-      // un lien différent — pour chaque nuit individuelle. Calculées une fois avant la boucle sur
-      // les nuits, attachées uniquement à la première (voir plus bas) : c'est là, à l'arrivée, que
-      // la recherche de logement est utile — pas répétée chaque jour du même séjour.
-      var stayCheckIn = isoDate(addDays(tripStart, dayCounter));
-      var stayCheckOut = isoDate(addDays(tripStart, dayCounter + nightsHere));
-      var stayLodgingLinks = buildLodgingLinks(commune.name, stayCheckIn, stayCheckOut, budgetKey, commune.country);
-      for(var n=0; n<nightsHere; n++){
-        dayCounter++;
-        var distanceKm = n===0 ? Math.round(roadDistanceKm(prevLat, prevLon, commune.lat, commune.lon)) : Math.round(rand(3,14));
-        // n===0 : arrivée depuis l'étape précédente (peut-être une traversée, voir finalizeHop) ;
-        // n>0 : nuit supplémentaire au même endroit (petit trajet local, jamais un ferry vers
-        // soi-même — finalizeLeg direct, pas la peine de passer par finalizeHop pour ça).
-        var legInfo = n===0 ? finalizeHop(prevPoint, commune, distanceKm, commune.country) : finalizeLeg(distanceKm, speed, transportKey, tollEnabled, commune.country);
-        var activities = buildActivityOptions(poisQueue, genericQueue);
-        var checkIn = isoDate(addDays(tripStart, dayCounter-1));
-        var checkOut = isoDate(addDays(tripStart, dayCounter));
-        var isFirstNightHere = (n === 0);
-        legs.push(Object.assign({
-          label: t('day.n', {n: dayCounter}), labelKind: 'day', dayNum: dayCounter,
-          stop: commune.name,
-          activities: activities,
-          needsRealPOIs: !featured,
-          lodging: lodgingCategoryLabel(budgetKey, avoidTent),
-          checkIn: checkIn, checkOut: checkOut,
-          lodgingLinks: isFirstNightHere ? stayLodgingLinks : null,
-          lodgingCheckIn: isFirstNightHere ? stayCheckIn : null,
-          lodgingCheckOut: isFirstNightHere ? stayCheckOut : null,
-          isReturn:false,
-          lat: commune.lat, lon: commune.lon, norm: commune.norm, pop: commune.pop, dept: commune.dept, country: commune.country, cp: commune.cps[0], allCps: commune.cps
-        }, legInfo));
-      }
-      prevLat = commune.lat; prevLon = commune.lon;
-      prevPoint = commune;
-    });
-
-    dayCounter++;
-    var distBackKm = Math.round(roadDistanceKm(prevLat, prevLon, cLat, cLon));
-    legs.push(Object.assign({
-      label: t('day.nReturn', {n: dayCounter}), labelKind: 'dayReturn', dayNum: dayCounter,
-      stop: city,
-      activities: null,
-      lodging: null,
-      isReturn:true,
-      lat: cLat, lon: cLon, dept: cityCoord.dept, country: cityCoord.country, cp: cityCoord.cp, allCps: cityCoord.allCps
-    }, finalizeHop(prevPoint, cityCoord, distBackKm, cityCoord.country)));
-
-    return legs;
   }
 
   // Remplit (ou remplace intégralement le contenu de) `actList` avec des cartes d'activité pour
@@ -2838,10 +2039,11 @@
         }
       });
 
-      if(firstLeg.lodging){
-        // Pas de ligne "Type de logement" séparée : la catégorie choisie est déjà reflétée dans
-        // les recherches Airbnb/Booking ci-dessous (budget, dates), qui l'affichent en pratique
-        // plutôt qu'en théorie — une ligne à part ne faisait que répéter la même information.
+      {
+        // Pas de ligne "Type de logement" séparée : la catégorie choisie (voir lodgingCategoryLabel,
+        // toujours disponible côté client à partir de budgetKey/avoidTent si jamais besoin) est déjà
+        // reflétée dans les recherches Airbnb/Booking ci-dessous (budget, dates), qui l'affichent en
+        // pratique plutôt qu'en théorie — une ligne à part ne faisait que répéter la même information.
         if(firstLeg.lodgingLinks){
           var linksRow = document.createElement('div');
           linksRow.className = 'day-row';
@@ -2865,7 +2067,7 @@
       els.days.appendChild(card);
     });
 
-    var nights = legs.filter(function(l){return l.lodging;}).length;
+    var nights = legs.filter(function(l){return l.labelKind === 'day';}).length;
     var villes = {};
     legs.forEach(function(l){ if(!l.isReturn) villes[l.stop]=true; });
     var statsHtml =
@@ -3046,7 +2248,7 @@
     var legs = currentTripData.legs, city = currentTripData.city;
     var budgetKey = currentTripData.budgetKey, transportKey = currentTripData.transportKey;
     var totalKm = legs.reduce(function(s,l){ return s + (l.distanceKm||0); }, 0);
-    var nights = legs.filter(function(l){ return l.lodging; }).length;
+    var nights = legs.filter(function(l){ return l.labelKind === 'day'; }).length;
     var villes = {};
     legs.forEach(function(l){ if(!l.isReturn) villes[l.stop] = true; });
     var tollLegs = legs.filter(function(l){ return l.tollInfo; });
@@ -3062,7 +2264,7 @@
       stats: { days: legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, toll: tollSummary },
       legs: legs.map(function(leg){
         return {
-          label: leg.label,
+          label: singleLegLabel(leg),
           stop: leg.stop,
           cpBadge: leg.cp ? formatCpBadge(leg) : null,
           isReturn: !!leg.isReturn,
@@ -3088,7 +2290,7 @@
   }
 
   /* ---------- MAIN FLOW ---------- */
-  function generate(){
+  async function generate(){
     var typed = els.city.value.trim();
     if(!typed){
       showCityError(t('form.city.error.required'));
@@ -3135,7 +2337,38 @@
       return;
     }
 
-    var legs = buildItinerary(city, days, budgetKey, transportKey, tollEnabled, cityCoord, avoidTent, tripStart, maxRadiusKm, lastNorm, minDistanceKm, maxDistanceKm, ferryEnabled);
+    // Le tirage lui-même se fait désormais côté serveur (voir README, "Recherche et tirage
+    // aléatoire côté serveur", et lib/trip-engine.js) — le client n'a plus jamais besoin de
+    // télécharger la base de communes complète pour ça. `lastNorm` (évite de retomber sur la même
+    // première étape deux fois de suite) est un simple identifiant opaque déjà renvoyé par le
+    // serveur sur chaque leg (voir plus bas) : jamais recalculé côté client.
+    var legs;
+    els.launchBtn.disabled = true;
+    try {
+      var resp = await fetch('/api/generate-trip', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          departureCity: { name: selectedCity.name, cp: selectedCity.cp, allCps: selectedCity.allCps, lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept, country: selectedCity.country },
+          days: days, budgetKey: budgetKey, transportKey: transportKey,
+          tollEnabled: tollEnabled, ferryEnabled: ferryEnabled, avoidTent: avoidTent,
+          tripStart: els.dateStart.value, maxRadiusKm: maxRadiusKm, avoidNorm: lastNorm,
+          minDistanceKm: minDistanceKm, maxDistanceKm: maxDistanceKm,
+          preferredCurrency: getPreferredCurrency()
+        })
+      });
+      if(!resp.ok){
+        showCityError(t('error.routeImpossible'));
+        return;
+      }
+      var data = await resp.json();
+      legs = data.legs || [];
+    } catch(err){
+      showCityError(t('error.routeImpossible'));
+      return;
+    } finally {
+      els.launchBtn.disabled = false;
+    }
     if(legs.length === 0){
       showCityError(t('error.routeImpossible'));
       return;
@@ -3148,9 +2381,13 @@
     // dans quelques secondes, une fois la roulette terminée.
     prefetchLegAssets(legs);
 
-    // Vivier de vrais noms de communes proches, pour faire défiler la roulette avant la révélation.
-    var spinRadius = Math.max(60, Math.min(maxRadiusKm, 400));
-    var spinPool = findNearbyCommunes(cityCoord.lat, cityCoord.lon, 15, spinRadius, 500).map(function(x){ return x.commune; });
+    // Vivier de noms pour faire défiler la roulette avant la révélation — plus de recherche de
+    // communes proches côté client (voir plus haut) : réutilise simplement les AUTRES étapes du
+    // trajet déjà tiré (de vrais noms, juste pas des voisines de la destination), sans requête
+    // supplémentaire. runReveal sait déjà se passer d'un vivier vide (voir son commentaire) : un
+    // trajet très court (1 jour, aucune autre étape) affiche alors juste la destination elle-même.
+    var spinPool = legs.filter(function(l){ return !l.isReturn && l.norm && l.norm !== firstLeg.norm; })
+      .map(function(l){ return { name: l.stop, norm: l.norm }; });
 
     els.reveal.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto':'smooth', block:'start'});
     els.mapCard.classList.remove('show');
@@ -3161,7 +2398,7 @@
 
     if(rouletteTimer) clearTimeout(rouletteTimer);
 
-    var firstStopInfo = { name: firstLeg.stop, norm: firstLeg.norm, pop: firstLeg.pop, cp: firstLeg.cp, allCps: firstLeg.allCps };
+    var firstStopInfo = { name: firstLeg.stop, norm: firstLeg.norm, pop: firstLeg.pop, cp: firstLeg.cp, allCps: firstLeg.allCps, featuredCount: firstLeg.featuredCount || 0 };
     runReveal(firstStopInfo, spinPool, function(){
       renderDays(legs, city);
       renderMap(legs, city, cityCoord);
