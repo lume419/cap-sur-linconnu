@@ -1376,6 +1376,69 @@ directives Passenger nécessaires au fonctionnement de l'app). Ce même fichier 
 pourquoi `public/data/*.txt`/`*.json` ne sont volontairement pas bloqués : ce sont les données que
 le navigateur charge lui-même au démarrage de l'app.
 
+Après un `git pull` sur ce type d'hébergement, cliquer sur **"Run NPM Install"** dans l'interface
+cPanel (pas un simple `npm install` en SSH — l'environnement Node de Passenger est isolé de celui
+du système), puis **"Restart"** — un `git pull` seul ou un redémarrage seul ne suffisent pas,
+Passenger continue de servir l'ancien code tant que ce bouton n'a pas été cliqué. "Run NPM Install"
+reconstruit aussi automatiquement les bundles `/data/` précompilés (voir `scripts/build-data-bundles.js`
+et la section "Performance : bundles /data/ précompilés" plus bas — un `postinstall` dans
+`package.json` s'en charge) : aucune étape manuelle supplémentaire n'est nécessaire après un ajout
+de pays, le simple fait de redéployer suffit.
+
+## Performance : bundles `/data/` précompilés
+
+Avec la croissance du nombre de pays couverts (45 fin 2026, encore appelé à grandir), le
+chargement initial des données (`public/data/`) est devenu, dans l'ordre, trois problèmes
+distincts — chacun diagnostiqué en conditions réelles sur `testroad.lume419.fr` (l'hébergement
+mutualisé o2switch de ce projet, PAS reproductible en local où le réseau sans latence masque
+entièrement ces effets) plutôt que supposé depuis un bac à sable local :
+
+1. **~91 requêtes séparées** (un fichier `communes-XX.txt` + un `aliases-XX.txt` par pays) : mesuré
+   en conditions réelles, ce nombre de requêtes prenait ~2,3 s de façon quasi incompressible, quelle
+   que soit la concurrence demandée au navigateur (2, 6, 40 ou 92 connexions simultanées donnaient
+   quasiment le MÊME temps total) ou la taille/compression des fichiers demandés — signature d'un
+   débit plafonné à ~40-45 requêtes/seconde côté hébergeur (protection anti-flood typique d'un
+   hébergement mutualisé), pas un problème de bande passante. **Corrigé** en regroupant tous les
+   fichiers communes (resp. tous les alias) en une seule réponse chacun côté serveur — deux routes,
+   `/data/communes-bundle.txt` et `/data/aliases-bundle.txt` (voir `server.js`), chaque fichier
+   d'origine précédé d'un marqueur `###XX###` (code pays en majuscules) trivial à re-découper côté
+   client (`splitBundle` dans `app.js`). ~91 requêtes redescendent à 2 (+ `featured.txt`, inchangé).
+2. **Compression à la volée plus faible qu'attendu** : le bundle communes (26,8 Mo bruts) compressait
+   à 8,9 Mo (-66,7 %) en local via `compression()` (niveau par défaut) mais seulement à 13,5 Mo
+   (-49,5 %) une fois déployé — l'hébergement mutualisé semble limiter l'effort de compression en
+   temps réel pour préserver son CPU partagé, cohérent avec le point précédent. Une première
+   tentative de correction (compresser une seule fois par bundle, en tâche de fond ASYNCHRONE au
+   premier accès plutôt qu'à chaque requête) a paradoxalement RALENTI le premier chargement en
+   conditions réelles (~8 s au lieu de ~4-5 s) : sur un CPU partagé déjà limité, lancer gzip et
+   brotli en parallèle pour les deux bundles (4 tâches à la fois, pile la taille par défaut du
+   threadpool libuv de Node) s'est mis à concurrencer le même CPU limité, ralentissant même le gzip
+   dont dépendait la réponse — l'asynchrone évite bien de BLOQUER le process (voir point 3), mais ne
+   change rien à la contention CPU réelle.
+3. **Solution retenue : compression précalculée au DÉPLOIEMENT, jamais au moment d'une requête.**
+   `scripts/build-data-bundles.js` écrit `communes-bundle.txt`/`.txt.gz`/`.txt.br` (et l'équivalent
+   pour `aliases-bundle`) directement dans `public/data/`, avec le meilleur niveau de compression
+   possible pour chacun — brotli à qualité MAXIMALE y compris (~67 s mesurés sur le bundle communes,
+   sans le moindre problème puisque ce script tourne sur la machine de déploiement, jamais sur le
+   chemin critique d'une requête visiteur). Résultat mesuré : 26,8 Mo -> 8,87 Mo en gzip (-67 %),
+   6,80 Mo en brotli (-75 %, mieux que n'importe quelle tentative précédente). `server.js` se
+   contente de LIRE ces fichiers déjà prêts (négociation `Accept-Encoding` classique : brotli si le
+   navigateur l'accepte, sinon gzip, sinon texte brut), sans plus jamais calculer la moindre
+   compression pendant qu'un visiteur attend. Lancé automatiquement à chaque déploiement réel via
+   `postinstall` dans `package.json` (déclenché par "Run NPM Install" sous cPanel, voir
+   "Déployer sur un serveur privé" ci-dessus) — jamais à un simple redémarrage de process, qui
+   réutilise les fichiers déjà présents sur disque. Un repli existe si ces fichiers précompilés sont
+   absents (ex. un environnement de développement où `npm install` n'a jamais tourné) :
+   `server.js` reconstruit alors le bundle à la volée, de façon asynchrone (jamais Sync — un calcul
+   de cette taille en bloquant gèlerait tout le process Node, mono-thread pour le JavaScript, pour
+   TOUTES les requêtes en cours, pas seulement la sienne, un piège rencontré et corrigé pendant ce
+   même travail).
+
+**Une donnée technique à retenir pour la suite du projet** : `zlib`/`fs` ont chacun une variante
+Sync et une variante async — la version Sync bloque tout le process Node le temps de son exécution,
+pas seulement la requête qui l'a déclenchée. Avec des volumes de données appelés à grandir encore
+(nouveaux pays), toute future opération lourde sur `/data/` devra continuer à privilégier soit un
+calcul déporté au déploiement (comme ici), soit au minimum une variante asynchrone plutôt que Sync.
+
 ## Photos réelles
 
 Un artefact Claude ne peut charger aucune image externe (CSP) ; sur ce serveur, cette limite n'existe

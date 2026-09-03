@@ -949,45 +949,53 @@ app.post('/api/export-pdf', express.json({ limit: '512kb' }), (req, res) => {
 // format). La France (`communes.txt`, sans suffixe de pays dans son nom de fichier) est
 // identifiée par son code `FR`, comme partout ailleurs dans `COUNTRIES` (voir app.js).
 //
-// Compression PRÉCALCULÉE (gzip niveau max, + brotli en tâche de fond) plutôt que confiée à
-// `compression()` ci-dessus à chaque requête — écart mesuré entre le bac à sable local et
-// testroad.lume419.fr en conditions réelles : le bundle communes (26,8 Mo bruts) compressait à
-// 8,9 Mo (-66,7 %) en local (compression() par défaut, niveau 6) mais seulement à 13,5 Mo (-49,5 %)
-// une fois déployé — l'hébergement mutualisé semble limiter l'effort de compression en temps réel
-// pour préserver son CPU partagé (cohérent avec le débit de requêtes plafonné trouvé plus haut).
-// Recompresser un bundle de plusieurs dizaines de Mo À CHAQUE requête est de toute façon un vrai
-// coût CPU récurrent, inutile pour un contenu qui ne change qu'au déploiement (TTFB mesuré :
-// 0,52 s sur le bundle communes contre 0,08-0,11 s sur les fichiers bien plus petits, un écart
-// largement dû à cette compression à la volée). Calculé UNE SEULE FOIS par bundle, comme le texte
-// brut lui-même — et via les variantes ASYNCHRONES de zlib (voir plus bas), jamais Sync : le
-// niveau gzip maximal (`Z_BEST_COMPRESSION`) coûte ~1,4 s sur ce volume (mesuré), largement assez
-// pour geler tout le process (Node est mono-thread pour le JS) si calculé de façon synchrone —
-// constaté en direct : les toutes petites requêtes featured.txt/aliases-bundle.txt, normalement
-// quasi instantanées, se retrouvaient bloquées derrière ce calcul si les trois partaient en même
-// temps juste après un redémarrage, exactement le cas d'un premier chargement de page. Le brotli,
-// lui, fait mieux (~8,07 Mo au lieu de 8,87 Mo en gzip max, mesuré, à qualité 9) mais coûte bien
-// plus cher à calculer sur ce volume (~9,5 s à qualité 9 ; la qualité 11, la meilleure possible,
-// dépasse la MINUTE — écarté pour un calcul à refaire à chaque redémarrage) : lancé en parallèle
-// du gzip, sans jamais retarder la première réponse (qui n'attend que le gzip, plus rapide), et
-// servi dès qu'il est prêt aux requêtes suivantes ; gzip reste la réponse pour les quelques
-// premières secondes suivant chaque redémarrage, le temps que le brotli finisse.
-//
-// Construit UNE SEULE FOIS en mémoire au premier accès (pas à chaque requête ni au démarrage —
-// évite de ralentir le démarrage du process si ce endpoint n'est jamais sollicité, ex. pendant un
-// simple `node --check`) : ces fichiers sont statiques et ne changent qu'avec un nouveau
-// déploiement, donc avec un redémarrage du process — mêmes garanties de fraîcheur que le cache
-// navigateur `maxAge` ci-dessous, qui repose sur la même hypothèse.
-// Tout ce qui suit (lecture des fichiers, gzip, brotli) passe par des variantes ASYNCHRONES de
-// fs/zlib plutôt que leurs équivalents Sync — Node est mono-thread pour le JavaScript : une
-// version Sync BLOQUE tout le process pendant son exécution, y compris les requêtes des AUTRES
-// visiteurs et même les autres requêtes de la MÊME page (featured.txt/aliases-bundle.txt, tous
-// deux minuscules et donc normalement quasi instantanés, se retrouvaient mis en attente derrière
-// la construction du gros bundle communes — mesuré en lançant les trois requêtes en même temps
-// juste après un redémarrage : featured.txt mettait 1,6 s au lieu de ses ~0,01 s habituels). Les
-// variantes async, elles, déportent le travail sur le threadpool libuv : le process JS reste
-// libre de répondre à d'autres requêtes pendant ce temps, quel que soit le nombre de pays.
-let communesBundlePromise = null, aliasesBundlePromise = null;
+// Compression : PLUS AUCUNE compression n'a lieu dans ce process au moment de répondre à une
+// requête — voir scripts/build-data-bundles.js, lancé une fois à chaque déploiement (via
+// "postinstall" dans package.json, déclenché par "Run NPM Install" sous cPanel), jamais à chaque
+// redémarrage ni à chaque requête. Deux essais précédents ont mené à cette conclusion, chacun
+// mesuré en conditions réelles sur testroad.lume419.fr :
+// 1. Compression à la volée à chaque requête (compression() seul) : l'hébergement mutualisé
+//    compresse nettement moins bien qu'en local (-49,5 % mesuré contre -66,7 % en local, même
+//    donnée) et recalcule ce travail à CHAQUE requête pour un contenu qui ne change pourtant
+//    qu'au déploiement.
+// 2. Compression unique au démarrage mais en tâche de fond ASYNCHRONE (tentative intermédiaire) :
+//    évite bien de BLOQUER le process (voir plus bas, reste vrai pour le repli), mais sur un CPU
+//    partagé déjà limité, lancer gzip+brotli en parallèle pour les deux bundles (4 tâches, pile la
+//    taille par défaut du threadpool libuv) s'est mis à concurrencer le même CPU limité — mesuré
+//    PLUS LENT en conditions réelles (~8 s à froid) qu'avant ce changement (~4-5 s) : l'asynchrone
+//    évite de geler le process, mais ne change rien à la contention CPU réelle sur un hébergement
+//    déjà à la limite.
+// Seule vraie solution : ne plus compresser au moment de servir une requête, un point c'est tout.
+// scripts/build-data-bundles.js écrit `communes-bundle.txt`/`.txt.gz`/`.txt.br` (et l'équivalent
+// pour aliases-bundle) directement dans public/data, avec le MEILLEUR niveau de compression
+// possible pour chacun — brotli à qualité MAXIMALE y compris (~67 s mesurés sur le bundle
+// communes, sans problème puisque hors du chemin critique d'une requête). Ce process se contente
+// de LIRE ces fichiers déjà prêts (voir loadPrecompiledBundle), un simple accès disque sans le
+// moindre calcul de compression — le goulot d'origine (recompression répétée d'un contenu
+// statique) disparaît entièrement plutôt que d'être seulement déplacé ou masqué.
 const DATA_DIR = path.join(__dirname, 'public', 'data');
+let communesBundlePromise = null, aliasesBundlePromise = null;
+
+// Lit les trois fichiers déjà précompilés (texte, gzip, brotli) — résout `null` si le `.txt` de
+// base est absent (site jamais buildé avec scripts/build-data-bundles.js, ex. juste après un
+// `git clone` sans `npm install`) plutôt que d'échouer, pour laisser `getBundlePromise` basculer
+// sur le repli à la volée ci-dessous ; `.gz`/`.br` individuellement absents dégradent, eux, en
+// douceur vers `null` (sendBundle sait déjà s'en passer, voir plus bas).
+function loadPrecompiledBundle(name){
+  var txtPath = path.join(DATA_DIR, name + '.txt');
+  return fs.promises.readFile(txtPath, 'utf8').then(function(raw){
+    return Promise.all([
+      fs.promises.readFile(txtPath + '.gz').catch(function(){ return null; }),
+      fs.promises.readFile(txtPath + '.br').catch(function(){ return null; })
+    ]).then(function(pair){ return { raw: raw, gzip: pair[0], br: pair[1] }; });
+  }).catch(function(){ return null; });
+}
+
+// Repli à la volée si le build précompilé est absent (voir ci-dessus) — mêmes garanties qu'avant :
+// jamais de variante Sync de fs/zlib ici, Node étant mono-thread pour le JS, un calcul synchrone
+// de cette taille gèlerait tout le process pour toutes les requêtes en cours, pas seulement la
+// sienne (constaté en direct lors d'un essai précédent). Le format ###XX###/franceCode doit rester
+// synchronisé avec scripts/build-data-bundles.js, aucun des deux n'étant la référence de l'autre.
 function buildBundleTextAsync(re, franceCode){
   var files = fs.readdirSync(DATA_DIR).filter(function(f){ return re.test(f); }); // liste de noms seule, quasi instantané
   return Promise.all(files.map(function(f){
@@ -998,22 +1006,22 @@ function buildBundleTextAsync(re, franceCode){
     });
   })).then(function(parts){ return parts.join('\n'); });
 }
-function buildBundleEntry(re, franceCode){
+function buildBundleEntryFallback(re, franceCode){
   return buildBundleTextAsync(re, franceCode).then(function(raw){
     var buf = Buffer.from(raw, 'utf8');
-    var entry = { raw: raw, gzip: null, br: null };
-    // brotli lancé en tâche de fond, INDÉPENDAMMENT de la promesse retournée ci-dessous (pas de
-    // `return`/`await` dessus) : sa fin ne doit jamais retarder la première réponse, seul le gzip
-    // (plus rapide, voir commentaire plus haut) conditionne quand répondre.
-    zlib.brotliCompress(buf, { params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 9 } }, function(err, result){
-      if(!err) entry.br = result; // sinon entry.br reste null, le gzip continue de servir seul
-    });
     return new Promise(function(resolve){
+      // Un seul niveau de compression ici (gzip, pas de brotli) : ce repli n'est censé servir
+      // qu'exceptionnellement (build précompilé manquant), pas de raison d'y reproduire la
+      // contention CPU qui a justifié tout ce refactor.
       zlib.gzip(buf, { level: zlib.constants.Z_BEST_COMPRESSION }, function(err, result){
-        if(!err) entry.gzip = result; // sinon entry.gzip reste null, repli sur le texte brut ci-dessous
-        resolve(entry);
+        resolve({ raw: raw, gzip: err ? null : result, br: null });
       });
     });
+  });
+}
+function getBundlePromise(name, re, franceCode){
+  return loadPrecompiledBundle(name).then(function(entry){
+    return entry !== null ? entry : buildBundleEntryFallback(re, franceCode);
   });
 }
 function sendBundle(req, res, entry){
@@ -1033,14 +1041,14 @@ function sendBundle(req, res, entry){
 }
 app.get('/data/communes-bundle.txt', function(req, res){
   if(communesBundlePromise === null){
-    communesBundlePromise = buildBundleEntry(/^communes(?:-([a-z]{2}))?\.txt$/, 'FR');
+    communesBundlePromise = getBundlePromise('communes-bundle', /^communes(?:-([a-z]{2}))?\.txt$/, 'FR');
   }
   communesBundlePromise.then(function(entry){ sendBundle(req, res, entry); })
     .catch(function(err){ res.status(500).type('text/plain').send('Erreur bundle communes : ' + err.message); });
 });
 app.get('/data/aliases-bundle.txt', function(req, res){
   if(aliasesBundlePromise === null){
-    aliasesBundlePromise = buildBundleEntry(/^aliases-([a-z]{2})\.txt$/, '');
+    aliasesBundlePromise = getBundlePromise('aliases-bundle', /^aliases-([a-z]{2})\.txt$/, '');
   }
   aliasesBundlePromise.then(function(entry){ sendBundle(req, res, entry); })
     .catch(function(err){ res.status(500).type('text/plain').send('Erreur bundle alias : ' + err.message); });

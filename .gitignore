@@ -18,3 +18,12 @@ scripts/ba-postal-wiki.json
 scripts/ba-canonical-by-geonameid.json
 scripts/gr-postal-raw.csv
 scripts/gr-canonical-by-geonameid.json
+# Bundles précompilés (texte + gzip + brotli) produits par scripts/build-data-bundles.js — voir
+# son commentaire d'en-tête et server.js ("Bundles /data/") : régénérés automatiquement à chaque
+# déploiement (postinstall dans package.json), jamais commités, comme les dumps GeoNames ci-dessus.
+public/data/communes-bundle.txt
+public/data/communes-bundle.txt.gz
+public/data/communes-bundle.txt.br
+public/data/aliases-bundle.txt
+public/data/aliases-bundle.txt.gz
+public/data/aliases-bundle.txt.br

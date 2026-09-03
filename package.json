@@ -5,7 +5,9 @@
   "private": true,
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build-bundles": "node scripts/build-data-bundles.js",
+    "postinstall": "node scripts/build-data-bundles.js"
   },
   "engines": {
     "node": ">=18"
