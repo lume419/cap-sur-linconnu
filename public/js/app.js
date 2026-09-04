@@ -169,7 +169,13 @@
   // évitée pour GBP/Guernesey/Jersey. MDL/BYN/UAH suivent la même règle par cohérence avec le reste
   // de la table (aucune de ces trois devises n'a un symbole international aussi immédiatement
   // reconnaissable que "€", même règle qui a laissé CZK/PLN/HUF... en code ISO plutôt qu'en symbole).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH' };
+  // Turquie, dernier ajout en date : TRY suit la même règle que le reste de la table (code ISO
+  // plutôt qu'un symbole, même si — contrairement à GIP/MDL/BYN/UAH — la livre turque a un vrai
+  // symbole ("₺") suffisamment reconnaissable pour ne pas nécessiter cette prudence ; gardé en code
+  // ISO malgré tout pour rester cohérent avec le reste de cette table, jamais mélangée entre symbole
+  // et code ISO selon la devise (voir CURRENCY_GLYPH juste en dessous pour le vrai symbole, réservé
+  // au sélecteur de devise).
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY' };
   // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
   // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
   // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
@@ -191,7 +197,11 @@
   // en usage, reste le choix fiable. UAH : "₴" (signe monétaire dédié de la hryvnia, U+20B4, normalisé
   // de longue date et largement pris en charge) — contrairement à "kr"/"L"/"Br" ci-dessus, un vrai
   // symbole comme "€"/"£" plutôt qu'une abréviation.
-  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴' };
+  // TRY : "₺" (signe de la livre turque, U+20BA) — contrairement au "Б" biélorusse tout juste
+  // choisi en 2026 (voir plus haut), un symbole ADOPTÉ EN 2012 et normalisé Unicode depuis (v6.2,
+  // la même année) : plus de dix ans de recul, largement pris en charge par toutes les polices
+  // système courantes, aucun risque de caractère manquant comparable.
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :

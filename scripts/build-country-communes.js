@@ -5,20 +5,20 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['GI', 'MD', 'BY', 'UA']; // dump/ et postal/ ne contiennent que les fichiers des
-// pays en cours d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/
-// IE/IM/DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO sont déjà générés et commités
+const COUNTRIES = ['TR']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/
+// FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO/GI/MD/BY/UA sont déjà générés et commités
 // (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|
-// im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo.txt), pas la peine de retélécharger leurs
-// sources pour les régénérer à l'identique à chaque nouvel ajout. La Grèce (GR) n'utilise PAS ce
-// script standard : aucun fichier de codes postaux GeoNames pour ce pays, voir
+// im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo|gi|md|by|ua.txt), pas la peine de
+// retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout. La Grèce (GR)
+// n'utilise PAS ce script standard : aucun fichier de codes postaux GeoNames pour ce pays, voir
 // build-gr-communes.js (reconstruction depuis une source tierce). Monténégro (ME) et Kosovo (XK)
 // n'utilisent PAS ce script standard : aucun fichier de codes postaux GeoNames pour ces deux pays,
 // voir build-me-communes.js/build-xk-communes.js (reconstruction depuis une source tierce).
-// Gibraltar (GI), Moldavie (MD), Biélorussie (BY) et Ukraine (UA), dernier ajout en date :
-// reviennent tous les quatre au pipeline STANDARD, GeoNames publie un vrai fichier de codes
-// postaux pour chacun (vérifié avant de commencer, y compris pour Gibraltar malgré sa taille
-// minuscule — un seul code postal, GX11 1AA, couvre tout le territoire, comme le Vatican).
+// La Turquie (TR), dernier ajout en date, revient au pipeline STANDARD : GeoNames publie un vrai
+// fichier de codes postaux pour ce pays (vérifié avant de commencer) — le plus gros pays traité par
+// ce script à ce jour (~52 800 lieux bruts avant jointure/dédoublonnage, contre ~45 400 pour
+// l'Ukraine, le précédent record).
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.
@@ -306,6 +306,53 @@ const NAME_OVERRIDES = {
   // organisations internationales qui ne reconnaissent pas l'annexion russe de 2014 — utilisées
   // telles quelles, sans exclusion ni retouche éditoriale, même logique que les localités
   // transnistriennes conservées sous "MD" plus haut.
+  // Turquie, dernier ajout en date, le plus gros pays traité par ce script à ce jour (~52 800 lieux
+  // bruts) : contrairement à la Macédoine du Nord/la Biélorussie/l'Ukraine plus haut, aucun problème
+  // de script à gérer (le turc s'écrit nativement en alphabet latin depuis la réforme de 1928) —
+  // seulement des diacritiques turcs (ç/ğ/ı/İ/ö/ş/ü) manquants sur cinq entrées précises, détectées
+  // systématiquement plutôt qu'à l'oeil (vérification manuelle irréaliste sur un pays de cette
+  // taille) : un script dédié compare, pour chaque commune retenue avec au moins 1 000 habitants, le
+  // nom SANS diacritique à celui de toute autre entrée du même département administratif (même code
+  // "admin1" GeoNames) partageant le même nom une fois les diacritiques turcs neutralisés — ne
+  // retient que les cas où une autre entrée existe avec STRICTEMENT PLUS de diacritiques turcs,
+  // écartant ainsi les doublons dans l'autre sens (une grande ville déjà correcte, comme İzmir,
+  // n'est jamais signalée simplement parce qu'un doublon mineur existe quelque part sous une forme
+  // sans diacritique). "Istanbul" (la plus grande ville du pays, 15,7 millions d'habitants) manque
+  // le İ majuscule pointé initial — présent dans sa propre liste de noms alternatifs GeoNames (qui
+  // liste aussi bien "Istanbul" qu'"İstanbul" pour cette même entrée, incohérence interne au dump).
+  // "Umraniye" (district d'Istanbul, 573 265 habitants) manque le Ü — confirmé par DEUX autres
+  // entrées GeoNames du même lieu exact (l'entité administrative ADM2 7732588 et son doublon PPLA2
+  // 10400338), toutes deux correctement "Ümraniye". "İnegol" (district de Bursa, 133 959 habitants)
+  // manque le ö final — confirmé par sa propre liste de noms alternatifs ("İnegöl") ET par l'entité
+  // administrative correspondante (ADM2 7732332, déjà "İnegöl"). "Sarigerme" (station balnéaire de
+  // Muğla, 16 000 habitants) manque le ı — une entrée jumelle à coordonnées quasi identiques (313258)
+  // porte déjà "Sarıgerme" ; cette correction unifie aussi les deux entrées au dédoublonnage (sans
+  // elle, "Sarigerme" et "Sarıgerme" survivraient comme deux communes distinctes au même endroit,
+  // la casse dépareillée empêchant la clé de dédoublonnage habituelle de les fusionner). "Incekum"
+  // (lieu-dit côtier d'Antalya, 3 345 habitants — sous le seuil des 1 000 habitants utilisé pour le
+  // dépistage automatique ci-dessus, ajouté après une vérification manuelle du même genre) manque le
+  // İ initial — confirmé par sa propre liste de noms alternatifs ET par une plage (BCH) exactement
+  // aux mêmes coordonnées, déjà "İncekum". Trois derniers cas sous le seuil des 1 000 habitants,
+  // trouvés par le même script abaissé à 200 habitants puis vérifiés un par un (au lieu d'être
+  // ajoutés automatiquement, un seuil plus bas rendant plus probable une coïncidence entre deux
+  // villages homonymes SANS RAPPORT plutôt qu'un vrai diacritique manquant) : "Kütüklü" (nom de
+  // village très courant en Turquie, au moins huit entrées GeoNames distinctes) — l'entrée retenue
+  // ici (Düzce, 324 habitants) partage exactement le même code de province qu'une autre entrée
+  // "Kütüklü" déjà correcte, cohérent avec une simple incohérence de saisie plutôt qu'un homonyme
+  // fortuit. "Karaburcak"/"Alacami" : chacun désigne deux villages RÉELLEMENT distincts (coordonnées
+  // à plus de 100 km d'écart) dans la même province partageant le même nom — hypothèse retenue
+  // malgré tout : les deux villages portent la MÊME orthographe correcte en turc réel ("Karaburçak",
+  // "buisson noir épineux" ; "Alaçami", "mosquée bigarrée"), une coïncidence entre deux noms
+  // RÉELLEMENT différents étant nettement moins probable qu'une simple omission de diacritique
+  // répétée sur un nom composé courant.
+  'Istanbul': 'İstanbul',
+  'Umraniye': 'Ümraniye',
+  'İnegol': 'İnegöl',
+  'Sarigerme': 'Sarıgerme',
+  'Incekum': 'İncekum',
+  'Kutuklu': 'Kütüklü',
+  'Karaburcak': 'Karaburçak',
+  'Alacami': 'Alaçami'
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth

@@ -248,7 +248,14 @@
       // build-country-communes.js) — aucune règle de péage ou de devise distincte n'est nécessaire
       // pour ces communes, la Crimée n'ayant jamais eu son propre régime douanier ou monétaire au
       // sein de l'Ukraine avant 2014.
-      UA: { code:'UA', name:'Ukraine', file:'communes-ua.txt', hasToll:false, aliasFile:'aliases-ua.txt', currency:'UAH' }
+      UA: { code:'UA', name:'Ukraine', file:'communes-ua.txt', hasToll:false, aliasFile:'aliases-ua.txt', currency:'UAH' },
+      // Turquie, dernier ajout en date : `hasToll:true` — contrairement à Gibraltar/l'Ukraine
+      // (aucun péage réel), un vrai réseau d'autoroutes (otoyol) à péage électronique proportionnel
+      // à la distance (HGS, paiement automatique par plaque), rejoignant le groupe France/Espagne/
+      // Italie/Croatie/Bosnie-Herzégovine/Serbie/Macédoine du Nord/Grèce plutôt que celui des pays à
+      // vignette (voir TOLL_RATE_BY_COUNTRY.TR plus bas pour le détail du calcul). Devise : TRY (livre
+      // turque), hors zone euro, flottante — 1 EUR ≈ 56,3 TRY début septembre 2026 (xe.com/ecb.europa.eu).
+      TR: { code:'TR', name:'Turquie', file:'communes-tr.txt', hasToll:true, aliasFile:'aliases-tr.txt', currency:'TRY' }
     };
 
     var TRANSPORT = {
@@ -275,7 +282,19 @@
       BA: { 1: 0.097, 2: 0.150, 5: 0.056 },
       RS: { 1: 0.055, 2: 0.083, 5: 0.028 },
       MK: { 1: 0.048, 2: 0.068, 5: 0.029 },
-      GR: { 1: 0.064, 2: 0.096, 5: 0.032 }
+      GR: { 1: 0.064, 2: 0.096, 5: 0.032 },
+      // Turquie : dérivé de l'autoroute Gebze-Orhangazi-İzmir (O-5, 384 km de section réellement
+      // autoroutière hors bretelles de raccordement — ozaltin.com), en retirant le tarif du pont
+      // d'Osmangazi (structure isolée à péage FIXE au franchissement, jamais proportionnel à la
+      // distance — même limite déjà acceptée pour le Storebælt danois/le tunnel sous la Manche/le
+      // tunnel du Mont-Blanc : non modélisée en tant que telle, simplement exclue du calcul ci-dessous
+      // plutôt que traitée comme un ouvrage séparé). Tarifs au 1er juillet 2026 (plusieurs sources
+      // convergentes) : trajet complet catégorie 1 (voiture) 2 525 TL dont pont 1 170 TL -> partie
+      // autoroutière seule 1 355 TL / 384 km ≈ 3,53 TL/km ; catégorie 2 (minibus/véhicule léger
+      // utilitaire) 4 040 TL dont pont 1 870 TL -> 2 170 TL / 384 km ≈ 5,65 TL/km ; catégorie 6
+      // (motocyclette) 1 795 TL dont pont 820 TL -> 975 TL / 384 km ≈ 2,54 TL/km. Convertis au taux
+      // ~56,3 TRY/EUR retenu pour COUNTRIES.TR.currency.
+      TR: { 1: 0.063, 2: 0.101, 5: 0.045 }
     };
 
     var TOLL_MIN_DISTANCE_KM = 60;
@@ -591,7 +610,22 @@
       // tarif en ligne promotionnel, même logique que le tarif Flex retenu pour Bornholm) 229 DKK,
       // passager 109 DKK (ssl.fo/en/prices/prices-ferries, 2026). Classe 2/5 au même ratio ×1,5/×0,4
       // déjà utilisé pour Bornholm/Gotland (autres lignes danoises de cette table).
-      'continental|suduroy': { routeKey:'ferry.route.suduroy', durationH:2.08, distanceKm:65, priceByClass:{1:229, 2:344, 5:92, foot:109} }
+      'continental|suduroy': { routeKey:'ferry.route.suduroy', durationH:2.08, distanceKm:65, priceByClass:{1:229, 2:344, 5:92, foot:109} },
+      // Turquie, dernier ajout en date : deux vraies traversées pour véhicules dans le détroit des
+      // Dardanelles, toutes deux opérées par GESTAŞ (seul opérateur, quasi-monopole historique comme
+      // Île de Man Steam Packet/Bornholmslinjen/Destination Gotland déjà rencontrés ci-dessus) — voir
+      // landmassOf plus bas pour le détail de la détection par île. Geyikli-Bozcaada : 12 km, ~35 min,
+      // voiture 2 365 TL aller-retour soit ~1 183 TL/~21 € l'aller (taux ~56,3 TRY/EUR début septembre
+      // 2026, xe.com) — feribotseferleri.com.tr/canakkaleyiseviyoruz.com 2026. Classe 2 (véhicule
+      // "moyen") directement tarifée séparément par l'opérateur (2 665 TL AR, ~24 €/aller) plutôt
+      // qu'un ratio appliqué, contrairement à la plupart des lignes de cette table où seul le tarif
+      // "voiture" est publié.
+      'bozcaada|continental': { routeKey:'ferry.route.bozcaada', durationH:0.58, distanceKm:12, priceByClass:{1:21, 2:24, 5:9, foot:2} },
+      // Kabatepe-Gökçeada : 30 km, 1h15, voiture 1 400 TL aller-retour soit ~700 TL/~12 € l'aller —
+      // même source/même taux que Bozcaada ci-dessus. Classe 2/5 estimées au même ratio que Bozcaada
+      // (même opérateur, même type de navire), faute de tarif "véhicule moyen" publié séparément pour
+      // cette ligne précise.
+      'continental|gokceada': { routeKey:'ferry.route.gokceada', durationH:1.25, distanceKm:30, priceByClass:{1:12, 2:14, 5:5, foot:2} }
     };
     // Les cinq îles Wadden partagent toutes le même tarif (celui de TESO/Texel, voir "Ferries" du
     // README) : ajoutées par boucle plutôt que répétées cinq fois à la main dans la table ci-dessus.
@@ -689,7 +723,13 @@
       // la zone euro, profil proche de la Moldavie/la Biélorussie ci-dessus. Palier "moyen" calé sur
       // ce prix moyen (~37 €) converti au taux ~51,9 UAH/EUR retenu pour COUNTRIES.UA.currency
       // (~1900 UAH), mêmes ratios 0,55×/2× que la Moldavie/la Biélorussie.
-      UAH: { economique: 1050, moyen: 1900, confortable: 3800 }
+      UAH: { economique: 1050, moyen: 1900, confortable: 3800 },
+      // Turquie : Istanbul (ville la plus chère du pays) — loyer vacances médian ~74-75 $/nuit
+      // (~70 €, airroi.com/investropa.com 2026, premier semestre), quartiers premium (Galata/Cihangir
+      // à Beyoğlu) ~95-160 $/nuit, quartiers plus abordables ~50-70 $/nuit. Palier "moyen" calé sur ce
+      // loyer médian (~70 €) converti au taux ~56,3 TRY/EUR retenu pour COUNTRIES.TR.currency
+      // (~4000 TRY), mêmes ratios 0,55×/2× que la Moldavie/la Biélorussie/l'Ukraine ci-dessus.
+      TRY: { economique: 2200, moyen: 4000, confortable: 8000 }
     };
 
   var COUNTRY_LIST = Object.keys(COUNTRIES);

@@ -1,0 +1,5202 @@
+ru;Кале;Demre
+tr;Zübeyir;Yeniçay
+tr;Zoğlasır;Görlek
+tr;Ziyaretçi;Ziyaretli
+tr;Karadağ;Kayadağ
+ru;Ziyaretkëy;Ziyaret
+tr;Tepe;Tepeköy
+ru;Zirav’ya;Ballı
+tr;Zikirciler;Küçük Mehmet
+tr;Ziftlik;Yeniköy
+tr;Zeyve;Deviciler
+tr;Gölcük;Zeytinlik
+tr;Zeytin;Zeytinköy
+tr;Zemme;Çayırbaşı
+ru;Зара;Zara
+tr;Zağra;Öteyüz
+ru;Beytil’;Yuvalı
+tr;Yuva;Yuvaköy
+tr;Nagra;Yusufçamı
+tr;Yusufça;Gürçamlar
+tr;Yürükköy;Kılavuzlar
+tr;Yürük;Yörükler
+tr;Yurtören;Yurtöven
+tr;Yuderi;Yurderi
+tr;Yunushan;Yunushanı
+en;Ayas;Yumurtalık
+el;Αέγαἰ;Yumurtalık
+tr;Bayiryüzügüney;Bayıryüzügüney
+tr;Güne Köy;Bayıryüzügüney
+tr;Gune;Bayıryüzügüney
+ru;Юксекова;Yüksekova
+tr;Yüksekköy;Yüksek
+tr;Yukarı Yoldüzü;Yukarıyoldüzü
+tr;Yukarıyenice;Yukarı Yenice
+tr;Yukarıyaylacık;Yaylacık
+ru;Dergëze;Dergöze
+tr;Yukarı Tolgalı;Yukarı Tulgalı
+tr;Yukarı Topraklı;Yukarıtopraklı
+ru;Yukary-Tel’fidan;Yukarı Beğdeş
+tr;Yukarı Taşlıca;Yukarı Taşlıçay
+tr;Yukarısalat;Salat
+ru;Салат;Salat
+tr;Yukarınarlıca;Yukarı Narlıca
+tr;Yukarımirahmet;Yukarı Mirahmet
+tr;Kozluca;Yukarıkozluca
+tr;Yukarıköy;Yukarı Yayla
+tr;Yukarı Kösebalcı;Büyük Kösebalcı
+tr;Yukarıkonak;Yukarı Konak
+tr;Yukarıkirmanlı;İpekyolu
+tr;Kirmanlı;İpekyolu
+tr;Girmana;İpekyolu
+tr;Batıkarakoç;Batı Karakoç
+tr;Kepez;Yukarıkaraman
+tr;Yukarı Kurufakılı;Yukarı Karafakılı
+tr;Yukarıkaraçay;Kocapınar
+tr;Yukarıizvit;Yukarı Çağlar
+tr;Yukarıışıklı;Yukarı Işıklı
+tr;Çatalbadem;Yukarıirnabol
+tr;Yukarı Haylamaz;Haylamaz
+tr;Yukarıharım;Yukarı Harım
+tr;Yukarı Görle;Gürle
+tr;Yukarıgölalan;Yukarı Gölalan
+tr;Yukarı Dürmeli;Yukarıdürmeli
+tr;Yukarı Duraklı;Yukarıdoruklu
+tr;Yukarıdolay;Yukarı Dolay
+tr;Yukarı Davala;Harmandalı
+tr;Yukarı Çamurlu;Yukarıçamurlu
+tr;Yukarı Burhan;Burhan
+tr;Yukarıbeyerli;Beğerli
+tr;Beyerli;Beğerli
+ru;Козак;Kozak
+tr;Yukarı Azıklı;Yukarıazıklı
+tr;Yukarıavra;Yukarı Yakacık
+tr;Yukarı Ağadeve;Yukarıağadeve
+tr;Habane;Ulaklı
+tr;Yozotağı;Yozyatağı
+bg;Йозгат;Yozgat
+el;Γιοζγκάτ;Yozgat
+lt;Jozgatas;Yozgat
+uk;Йозгат;Yozgat
+ru;Йозгат;Yozgat
+tr;Ağcakale Köyü;Yolkaya
+tr;Ağcakale;Yolkaya
+ru;Dzhebel’tin;Yolindi
+ru;Kharabyul’na;Yoldere
+tr;Yolçıtası;Yolçatı
+tr;Yolboy;Yolboyu
+tr;Yolbilır;Yolbilir
+ru;Бингель;Bingöl
+tr;Karbeyaz Bucağı;Yiğityolu
+tr;Yiğitli;Yiğitler
+tr;Yiğitçavuş;Yiğit Çavuş
+tr;Yeşilova;Üçdut Yeşilova
+tr;Yeşiloba;Yeşilova
+ru;Kad’yan;Yeşilkonak
+ru;Эрзин;Erzin
+tr;Yeniyuva;Nurgöz
+tr;Nürgüz;Nurgöz
+tr;Yeniköy;Yeniyurt
+ru;El’giran;Yenisu
+tr;Pazar;Yenipazar
+it;Distretto di Yenipazar;Yenipazar
+tr;Yılankaya;Yılanlıkaya
+tr;Yeniköy;Yenikent
+tr;Yeniköy;Yeni Harmandalı
+tr;Harmandalı;Yeni Harmandalı
+tr;Ataköy;Yeni
+tr;Yeniköy;Gümüş Yeniköy
+tr;Gümüşyeni;Gümüş Yeniköy
+bg;Йеникьой;Yeniköy
+sq;Jenikoj;Yeniköy
+tr;Yeniköy;Akyeniköy
+tr;Yeniköy;Dere
+tr;Yeniköy;Kale
+tr;Yeniköy;Yeni
+tr;Yeniköy;Eskişehir
+tr;Yenikköprü;Yeniköprü
+tr;Amarat;Yenikent
+tr;İğneciler;Gökmusa
+tr;Yenihisar;Didim
+ru;Дидимы;Didim
+tr;Araplı;Yenidoğanlı
+ru;Енидоган;Yenidoğan
+tr;Yenice;Çalyenice
+tr;Yenice;Yaban
+ru;Enkhil’;Yemişli
+tr;Sahrikköprü;Yerlikuyu
+tr;Körkuyu;Yerlikuyu
+ru;Resmel’khamar;Yediyol
+tr;Resmelhamur;Yediyol
+tr;Resmenhamar;Yediyol
+ru;Khergyul’;Yediyaprak
+tr;Beyti;Yazla
+tr;Yazlı;Yazla
+tr;Yazir;Yazır
+tr;Yazılı;Beyti
+tr;Yazgirler;Begirler
+tr;Yayla;Yaylalıözü
+ru;Яйла Куздре;Yaylakuzdere
+tr;Yayla;Yaylaköy
+ru;Gëndyuk;Yayladüzü
+tr;Yayladağ;Yayladağı
+tr;Yaylaçukuru;Gülek
+ru;Keferdel’;Yaylacık
+tr;Yaylaçayır;Yaylaçayırı
+tr;Yayla;Yaykın
+tr;Yayıklı;Durumlu
+tr;Yerdımlar;Yayıkdamlar
+tr;Yaylaköy;Yayakent
+tr;Yayakebir;Yayakent
+tr;Çakraz;Yassıkara
+tr;Yassıhüyük;Yasıhüyük
+ru;Kharbetyul’yakh’ya;Yaşar
+tr;Yarell;Yarseli
+ru;Yarymtepekëy;Yarımtepe
+tr;Yarımtaş;Halkapınar
+tr;Yarımadaköyü;Yarımada
+tr;Yaramiş;Yaramış
+tr;Çalıkebir;Yanyurt
+tr;Çalıbekir;Yanyurt
+ru;Torikkëy;Yanılmaz
+tr;Yanıgöde;Gökçeyurt
+ru;Ялвач;Yalvaç
+tr;Yalmanlı Köyü;Yalmanlı
+tr;Yalınayak;Yeşiltepe
+tr;Yalınıyak;Yeşiltepe
+tr;Ortakent;Yalıkavak
+ru;Ялыкавак;Yalıkavak
+tr;Yalburt Yaylası;Yalbur Yaylası
+tr;Yalankoz;Yalangöz
+ru;Ummyul’khadzher;Yukarıyakınyol
+tr;Misis;Yakapınar
+tr;Yaka;Yakaköy
+tr;Yakacıkçavuşlu;Yakacık
+tr;Karşı;Payas
+tr;Akınlar;Yakaköy
+ru;Яхьялы;Yahyalı
+tr;Yahşılar;Yahşiler
+tr;Yağcılar;Yahşiler
+tr;Yağmurcu;Altayköy
+tr;Yağmalı Yayla;Yağmapınar
+tr;Yağlılar;Yahşiler
+tr;Yağır;Oğuzlar
+tr;Yağınluk;Yoğunoluk
+tr;Yağdıburun;Yeşilyurt
+tr;Yağcıdereköy;Yağcıdere
+tr;Yakupköy;Yağcı
+tr;Bagcili;Yağcılı
+tr;Yağbasan;Yağıbasan
+tr;Yabancık;Çalardı
+ru;Вираншехире;Viranşehir
+tr;Örenköy;Ören
+tr;Virancık;Örencik
+tr;Viran;Tarla
+tr;Yakaköy;Yaka
+tr;Veliköy;Gökçdal
+ru;Варто;Varto
+ru;Варсак;Varsak
+tr;Vanlı;Selvili
+tr;Servili;Selvili
+tr;Halaçlı;Selvili
+ru;Ван;Van
+bg;Ван;Van
+lv;Vana;Van
+uk;Ван;Van
+lt;Vanas;Van
+be;Ван;Van
+sr;Ван;Van
+el;Βαν;Van
+tr;Vakıflı;Vakıfköy
+ru;Këran;Uzunyol
+tr;Uzun Hasanlar;Uzunhasanlar
+tr;Uzunaliler Yaylası;Uzunnallar Yaylası
+de;Üzümlü;Margaz
+en;Üzümlü;Margaz
+tr;Üzümlü;Margaz
+nl;Üzümlü;Margaz
+tr;Uzgur;Çamdibi
+ru;Uzgëren;Uzgören
+tr;Uluscu;Uslu
+ru;Ушак;Uşak
+be;Ушак;Uşak
+bg;Ушак;Uşak
+el;Ουσάκ;Uşak
+lt;Ušakas;Uşak
+sr;Ушак;Uşak
+uk;Ушак;Uşak
+ru;Урла;Urla
+bg;Урла;Urla
+el;Βουρλά;Urla
+el;Αντιόχεια;Şanlıurfa
+ru;Эдесса;Şanlıurfa
+en;Sanliurfa;Şanlıurfa
+bs;Edesa;Şanlıurfa
+sq;Shanllëurfa;Şanlıurfa
+et;Edesija;Şanlıurfa
+eu;Edesa;Şanlıurfa
+fr;Édesse;Şanlıurfa
+hu;Edessza;Şanlıurfa
+lv;Šanliurfa;Şanlıurfa
+en;Urfa;Şanlıurfa
+tr;Uncubozköy;Uncuboz
+tr;Gönik;Umutlu
+ru;Умурлу;Umurlu
+tr;Umurköy;Umur
+tr;Umur;Umurköy
+tr;Şücaeddin;Ulukışla
+ru;Улудере;Uludere
+ru;Арсуз;Arsuz
+tr;Ulucak;Ulukent
+de;Sımandır;Ulucak
+en;Sımandır;Ulucak
+tr;Sımandır;Ulucak
+ru;Улуборлу;Uluborlu
+ru;Улубеи;Ulubey
+tr;Ulualan;Çatak
+ru;Ummyul’sedzhere;Uluağaç
+tr;Uladı;Karaveliler
+ru;Ула;Ula
+tr;Uğurlu;Erikyazı
+ru;Kharbetel’khadle;Uğraklı
+ru;Kanigëzyuk;Üçpınar
+tr;Kor;Üçpınar
+tr;Kalooba;Üçpınar
+ru;Gëze;Üçağıl
+tr;Tuzova;Tuzabat
+tr;Çorak;Tuzluçayır
+ru;Тузбургазы;Tuzburgazı
+ru;Тутак;Tutak
+ru;Тут;Tut
+tr;Turunçlar;Güllübahçe Turun
+ru;Tyurk’yurdu;Türkyurdu
+tr;Türkpiyale;Türkpiyade
+tr;Türkhüyüğü;Türkhüyük
+tr;Türkhöyük;Türkhüyük
+tr;Höyük;Türkhüyük
+tr;Serkisçayırı;Türkçayırı
+tr;Turgut;Turgutköy
+tr;Turgutköy;Turgut
+tr;Türbeköy;Anacak
+tr;Turaplı;Turobalı
+ru;Тунджели;Tunceli
+bg;Тунджели;Tunceli
+uk;Тунджелі;Tunceli
+sr;Тунџели;Tunceli
+de;Tumlu;Dumlu
+en;Tumlu;Dumlu
+tr;Tumlu;Dumlu
+ru;Туфанбейли;Tufanbeyli
+tr;Tozkovan;Işıklı
+tr;Tosgavan;Işıklı
+de;Tozkovan;Işıklı
+en;Tozkovan;Işıklı
+nl;Tozkovan;Işıklı
+tr;Tosyanlı;Savaşan
+ru;Тосмурлу;Tosmurlu
+ru;Тослак;Toslak
+tr;Tepeköy;Torbalı
+ru;Торбалы;Torbalı
+tr;Topuzlar;Doğuca
+fi;Topuk Köyü;Topuk
+pt;Topuk Köyü;Topuk
+oc;Topuk Köyü;Topuk
+sk;Topuk Köyü;Topuk
+sl;Topuk Köyü;Topuk
+sco;Topuk Köyü;Topuk
+ca;Topuk Köyü;Topuk
+sv;Topuk Köyü;Topuk
+gl;Topuk Köyü;Topuk
+it;Topuk Köyü;Topuk
+es;Topuk Köyü;Topuk
+eu;Topuk Köyü;Topuk
+cs;Topuk Köyü;Topuk
+pl;Topuk Köyü;Topuk
+ro;Topuk Köyü;Topuk
+da;Topuk Köyü;Topuk
+ru;Топтепе;Toptepe
+ru;Топраккале;Toprakkale
+de;Topkaralı;Topraklı
+en;Topkaralı;Topraklı
+tr;Topkaralı;Topraklı
+de;Toyçayırı;Topçayırı
+en;Toyçayırı;Topçayırı
+tr;Toyçayırı;Topçayırı
+nl;Toyçayırı;Topçayırı
+tr;Topaklar;Kızıldam
+tr;Tomurcuk;Karakuzu
+tr;Tomaşa;Uğurlu
+ru;Томарза;Tomarza
+tr;Tokmaklı;Yeşilova
+ru;Токлар;Toklar
+tr;Vereguz;Tokağaç
+tr;Tivnik;Akyurt
+tr;Aziziye;Ilıca
+tr;Tifnik;Argaç
+tr;Üveylik;Tirkak
+tr;Üveylik;Üvecik
+ru;Til’syumen;Subağı
+tr;Suboğazı;Subağı
+tr;Tilsevet;Ekinveren
+ru;Til’mishar;Çimencik
+tr;Tilkili;Tilkiliköy
+tr;Tilkili;Altınova
+tr;Teynar;Çamlarça
+tr;Teyenli;Tiğinli
+tr;Teğrelti;Teğelti
+tr;Terziler;Gedik
+tr;Terziler;Karataş Terziler
+tr;Terzialanı;Terzialan
+ru;Tepelitil’-Kharman;Tepeliharman
+tr;Tepeköy;Yeşilyurt
+tr;Tepeköy;Tepe
+tr;Tepeköy;Işıklartepe Mahallesi
+tr;Tepeköy;Yenice
+tr;Lapaköyü;Tepeköy
+ru;Sertil’;Tepecik
+ru;Tepekëy;Tepe
+ru;Tel’shinan;Küplüce
+ru;Tel’seyf;Kılıçlı
+ru;Tel’khasan;Telhasan
+ru;Tel’khalef;Telhalef
+tr;Bitiyas;Teknepınar
+ru;Текман;Tekman
+tr;Tekkeköy;Gündoğan
+hu;Tekke;Tekkeköy
+tr;Tekke;Tekkeköy
+tr;Tekke;Tekkeışıklar
+tr;Tekkaynak;Körpınar
+ru;Текирова;Tekirova
+tr;Tekirkozu;Sandal
+tr;Tekfurdere;Ekindere
+tr;Tekeli Işıklar;Tekellişıklar
+tr;Tekeliviran;Tekeliören
+ru;Текелер;Tekeler
+tr;Çilli;Tekebaşı
+tr;Teke;Kayas
+tr;Tekbacaklar;Tekbıçaklar
+tr;Tayyibe;Sevimli
+tr;Taysever;Yakıtköy
+tr;Bediğin;Beydiğin
+tr;Çaldağ;Beydiğin
+tr;Beydiğim;Beydiğin
+tr;Beydiğen;Beydiğin
+tr;Tavukçu;Sarıkaya
+tr;Tovşanören;Tavşanören
+tr;Tavla;Tavlaköy
+ru;Тавас;Tavas
+tr;Tava;Çamdibi
+ru;Татван;Tatvan
+de;Tatlıkuyu;Talıkuyu
+en;Tatlıkuyu;Talıkuyu
+tr;Tatlıkuyu;Talıkuyu
+nl;Tatlıkuyu;Talıkuyu
+tr;Tatarmuhat;Erenköy
+tr;Tatar;Tatarköy
+tr;Taşlıyaka;Taşlıyaka Komu
+tr;Taşlık;Taşlıkköy
+tr;Taşlıhöyük;Mesudiye
+tr;Taşkesik;Taşkesiği
+bg;Ташкеси;Taşkesiği
+ru;Ташбурун;Taşburun
+es;Tarso;Tarsus
+bg;Тарс;Tarsus
+ca;Tars;Tarsus
+el;Ταρσός;Tarsus
+fr;Tarse;Tarsus
+it;Tarso;Tarsus
+pl;Tars;Tarsus
+pt;Tarso;Tarsus
+eu;Tarso;Tarsus
+be;Тарсус;Tarsus
+uk;Тарс;Tarsus
+br;Tars;Tarsus
+lt;Tarsas;Tarsus
+sr;Тарс;Tarsus
+oc;Tars;Tarsus
+ru;Тарсус;Tarsus
+tr;Berçenek;Tarlacık
+ru;Тараксу;Taraksu
+tr;Tapdık;Tabtık
+tr;Diresuk;Çemen
+tr;Tangurlu;Tongurlu
+ru;Talykëyu;Çakıltaşı
+tr;Çakıltaş;Çakıltaşı
+ru;Талас;Talas
+tr;Tahtalıköprü;Tahtaköprü
+tr;Tagtaköprü;Tahtaköprü
+tr;Tahatlı;Pınarbaşı
+tr;Tahtalı;Güzelyurt
+tr;Tahtacı;Kozluören
+tr;Tahtacı;Çampınar
+tr;Tahtacı;Eymir
+tr;Tahtacı;Demirli
+tr;Taburili;Tabureli
+tr;Harşidiş;Tabanlı
+tr;Hardışı;Tabanlı
+tr;Dökütaş;Döküktaş
+ru;Суверен;Suveren
+tr;Süveler;Akpınar
+tr;Söğeler;Akpınar
+ru;Сусурлук;Susurluk
+ru;Суруч;Suruç
+tr;Sürgücü;Avine
+tr;Sünnet;Sünnetköy
+tr;Beşkuyu;Sülümenli
+tr;Sülücek;Sülücik
+tr;Sultan Çayırı;Sultançayır
+tr;Çatalcam;Eseler
+tr;Sülyeeseler;Eseler
+ru;Сюлейманлы;Süleymanlı
+tr;Süleymanlar;Süleymanlı
+tr;Süleymaniye;Hamazlısüleymaniye
+tr;Süleymaniye;Süleymanlı
+tr;Süleymanefendiçiftliği;Narıncalı Süleyman
+tr;Süleköy;Kazabat
+ru;Сулак;Sulak
+ru;Kyuchyuk-Medintel’far;Sugeldi
+tr;Suçeğin;Suçeyin
+de;Soysalı;Soysallı
+en;Soysalı;Soysallı
+tr;Soysalı;Soysallı
+nl;Soysalı;Soysallı
+ru;Соргуне;Sorgun
+ru;Сомы;Soma
+it;Distretto di Soma;Soma
+el;Σόμα;Soma
+ru;Сома;Soma
+tr;Büyük Akmazot;Yukarı Şölenli
+tr;Ağmazut;Yukarı Şölenli
+de;Solak;Solakköy
+en;Solak;Solakköy
+ru;Сок;Söke
+ru;Сёке;Söke
+tr;Söğütözü;Kataro
+ru;Катаро;Kataro
+tr;Söğütlü;Benek
+tr;Söğütlü;Kindirip
+tr;Söğütçayır;Söğütçayırı
+tr;Söğüt;Söğütköy
+tr;Söğütköy;Söğüt
+tr;Güzelyayla;Soğukoluk
+tr;Soğukçermik;Soğucak
+tr;Sofuhalil;Yazlık
+tr;Sofuköy;Sofu
+tr;Işıklı;Saklı
+tr;Sivriyayla;Alaca
+tr;Sivriler;Sivrice
+ru;Сивереке;Siverek
+ru;Сивас;Sivas
+uk;Сівас;Sivas
+sr;Сивас;Sivas
+el;Σεβάστεια;Sivas
+be;Сівас;Sivas
+bg;Сивас;Sivas
+lt;Sivasas;Sivas
+tr;Siroz;Kızılca
+ru;Ширнак;Şırnak
+tr;Sirketaş;Taşkonak
+tr;Sirke;Tepe
+tr;Sırçalı;Yeşilyurt
+tr;Sıradan;Oğuzlar
+tr;Özen;Özenli
+tr;Gümüşkanal;Gümüşkanat
+tr;Siner;Erenler
+tr;Sinekli;Düzova
+tr;Sinekler;Beşeylül
+tr;Sinekçiler;Şenişler
+tr;Sındıköy;Sındı
+tr;Sindel;Sindal
+tr;Sincanlı;Sinanpaşa
+ru;Сильван;Silvan
+bg;Силван;Silvan
+uk;Сильван;Silvan
+en;Miepherkeim;Silvan
+ru;Силопи;Silopi
+ru;Sil’opi;Silopi
+ru;Силифке;Silifke
+ru;Sil’këy;Sil
+tr;Sil Köyü;Sil
+ru;Сиирт;Siirt
+be;Сіірт;Siirt
+bg;Сиирт;Siirt
+lt;Sirtas;Siirt
+sr;Сиирт;Siirt
+uk;Сіїрт;Siirt
+tr;Şıhlar;Kayaarası
+tr;Şıhlar;Şeyhler
+tr;Sıçanlı;Konuk
+tr;Serekli;Seyrekli
+tr;Seyrek;Seyrekköy
+tr;Seyne;Bekirler
+tr;Seyirören;Seyitören
+tr;Seyitali;Seyitaliköyü
+tr;Tozluca;Tuzluca
+tr;Gümüş;Gümüşdere
+de;Şıhlar;Şeyhler
+en;Şıhlar;Şeyhler
+nl;Şıhlar;Şeyhler
+tr;Şeyhköy;Emek Mahallesi
+tr;Şıhbarak;Şeyhbarak
+ru;Sheykhosel’;Şeyhosel
+ru;Сейхан;Seyhan
+tr;Sevışler;Sevinçler
+tr;Yenidoğan;Yeni Doğan
+ru;Серик;Serik
+tr;Şerifeli;Yardere
+tr;Koçhisar;Şereflikoçhisar
+tr;Şerefli;Şereflikoçhisar
+tr;Şerefikan;Uğurlu
+tr;Şeref;Şerefköy
+tr;Serdi;Aka
+ru;Serdakhil’;Bağlarbaşı
+ru;Sheddatkëy;Serçeler
+tr;Serbanşah;Savran
+tr;Sepetciler;İçme
+ru;Shen”yurt;Şenyurt
+ru;Kharbezil’zil’;Şenlik
+tr;Şenköy;Kaşıklı
+tr;Küpcü;Senir
+tr;Semitler;Karadağ
+tr;Semerköy;Yeşilova
+tr;Semer;Yeşilova
+tr;Semerci;Karayağcı
+tr;Çam;Karayağcı
+tr;Selmanhacılar;Selman Hacılar
+tr;Selleri;Pınaryazı
+ru;Сиде;Side
+uk;Сіде;Side
+pt;Sida;Side
+bg;Сиде;Side
+tr;Kutulmuşoğlu;Selekutlu
+ru;Сельчук;Selçuk
+tr;Sekçe;Selce
+tr;Kayaşık;Kayaışık
+ru;Seferkëyu;Seferköy
+tr;Sebebliköy;Sebepli
+ru;Lyaskëy;Sazlı
+tr;Sazılı;Sazlı
+tr;Sazlıköy;Sazlı
+de;Sazlar;Sazılar
+en;Sazlar;Sazılar
+tr;Sazlar;Sazılar
+nl;Sazlar;Sazılar
+tr;Sazdere;Horzum Sazdere
+tr;Cibin;Saylakkaya
+tr;Sayıler;Sailer
+tr;Sayca;Sarıahmetli
+ru;Савур;Savur
+tr;Savcılıkurtlu;Savcılıkurutlu
+tr;Sayacık;Savacak
+tr;Satı;Satıköy
+sr;Сасон;Sason
+ru;Сасон;Sason
+tr;Karahöyük;Karahüyük
+tr;Şaryeri;Yeşilköy
+tr;Sart;Sartmahmut
+eu;Sardes;Sartmahmut
+ca;Sardes;Sartmahmut
+hr;Sard;Sartmahmut
+cs;Sardy;Sartmahmut
+fi;Sardes;Sartmahmut
+fr;Sardes;Sartmahmut
+gl;Sardes;Sartmahmut
+de;Sardes;Sartmahmut
+el;Sardeis;Sartmahmut
+hu;Szardeisz;Sartmahmut
+it;Sardi;Sartmahmut
+tr;Sarnıç;Sarnıçköy
+tr;Sarnıçköy;Sarnıç
+tr;Şarklı;Zeytinoba
+tr;Sarka;Sakaköy
+tr;Saka;Sakaköy
+tr;Yeniköy;Sarı Topallı
+tr;Sarıtaşdamı;Ovacık
+tr;Sarısığırlı;Gülpınar
+tr;Sarıköy;Sarıl
+tr;Şarikân;Sergenli
+tr;Sarıcalar;Sarıcaoğlu
+tr;Sarıcabük;Sarıçubuk
+tr;Günluk;Sarıbük
+tr;Sarıağaç;Aydınlık
+tr;Sardeğirmen;Sarıdeğirmen
+tr;Saray;Sarayköy
+tr;Saraçlar;Saraçlar Yaylası
+el;Σαρατσλάρ;Saraçlar
+tr;Saraçlar;Saraçköy
+tr;Sağırkavak;Saraç
+ru;Сандикли;Sandıklı
+tr;Sandal;Sandalköy
+tr;Sancaklıiğdecik;Sancaklı İğdecik
+ru;Самсат;Samsat
+tr;Samanlıköy;Samanlık
+tr;Samandağı;Samandağ
+tr;Salmanuşağı;Akbez
+tr;Akbezsalman Uşağı;Akbez
+tr;Akbaz;Akbez
+ru;Акбез;Akbez
+tr;Çakmak;Çakmaklı
+fr;Salihî;Salihli
+ru;Сакарья;Sakarya
+crh;Tırnaqsız;Sakarya
+tr;Sakalsızlar;Çamlıbel
+tr;Sahti;Bahçe
+tr;Şahinali;Şahnalı
+tr;Sağırlar;Altıntaş
+tr;Tellidis;Saçaklı
+tr;Ağalar;Sabak
+ru;Рейханлы;Reyhanlı
+tr;Resul;Resulköy
+ru;Resmel’dzhibin;Resmelcibin
+tr;Coşanlar;Resmelcibin
+tr;Karabağ;Xirvata Doskiyan
+tr;Reşan;Şahgeldi
+tr;Engin;Enginköy
+tr;Reşadiye;Yaykın
+tr;Recepli;Uzuncaburç
+tr;Rahmeler;Rahmalar
+tr;Rahmanlar;Işıklar
+tr;Alicık;Alıcık
+tr;Sırmacek;Gayda
+ru;Пулумер;Pulumer
+ru;Позанты;Pozantı
+sr;Полатли;Polatlı
+ru;Полатли;Polatlı
+tr;Polat;Hacimehmet
+tr;Pöhrenk;Gümüşkavak
+tr;Pirice;Huzurkent
+ru;Piribabil’;Yazlık
+tr;Pirasanlı Yaylası;Şemsettin Yaylası
+tr;Pirali;Pınarlık
+tr;Piral;Pınarayağı
+ru;Aymmyul’k;Pınarova
+ru;El’fan;Pınardere
+tr;Peşemit;Aksu
+ru;Пертек;Pertek
+tr;Persenti;Kapızlı
+tr;Sazbaşı;Kapızlı
+ru;Акпазар;Akpazar
+tr;Pengürt;Karakuzulu
+tr;Penbeli;Pembeli
+ru;Пазарлар;Pazarlar
+ru;Пазарджик;Pazarcık
+ru;Baggëze;Payamlı
+sr;Патнос;Patnos
+ru;Патнос;Patnos
+tr;Paylapartangıç;Yaylapatlangiç
+sr;Пасинлер;Pasinler
+ru;Пасинлер;Pasinler
+tr;Paşa;Paşaköy
+tr;Başköy;Paşaköy
+tr;Parsa;Sarılar
+ru;Пармаккурду;Parmakkurdu
+tr;Seyderi;Parmakkapı
+tr;Yukarı Pamuktaş;Yukarıpamuktaş
+tr;Pamuktaş;Yukarıpamuktaş
+tr;Geneviş;Pamukören
+es;Hierápolis;Pamukkale
+pl;Hierapolis;Pamukkale
+de;Hierapolis;Pamukkale
+ca;Hieràpolis de Frígia;Pamukkale
+nl;Hieropolis;Pamukkale
+no;Hierapolis;Pamukkale
+ru;Памуккале;Pamukkale
+be;Памукале;Pamukkale
+bg;Памуккале;Pamukkale
+lt;Pamukalė;Pamukkale
+mk;Памуккале;Pamukkale
+sr;Памукале;Pamukkale
+uk;Памуккале;Pamukkale
+pt;Hierápolis-Pamukkale;Pamukkale
+el;Παμούκαλε;Pamukkale
+el;Παλού;Palu
+ru;Палу;Palu
+tr;Palı;Fevzipaşa
+ru;Паламутлу;Palamutlu
+de;Özlü;Dorla
+en;Özlü;Dorla
+tr;Özlü;Dorla
+nl;Özlü;Dorla
+ru;Ilëz;Özler
+tr;Özdere Cumhuriyet;Özdere
+tr;Özbey;Bademli
+tr;Özbey;Özbeyyeni
+ru;Tel’sikan;Özbek
+ru;Озбаши;Özbaşı
+tr;Oyulukavak;Ağalar
+tr;Oynak;Ova Mahallesi
+tr;Övüncük;Öğüncük
+tr;Avşala;Avlaşa
+tr;Ovalı;Kardeşler
+ru;Медар;Medar
+ru;Овакент;Ovakent
+ru;Оваджык;Ovacık
+tr;Otança;Ortanca
+de;Osmankalfalar;Osmankallar
+en;Osmankalfalar;Osmankallar
+tr;Osmankalfalar;Osmankallar
+nl;Osmankalfalar;Osmankallar
+ru;Османие;Bedirören
+ru;Османие;Osmaniye
+tr;Kavakalan;Çınardibi
+ru;Османие;Çınardibi
+tr;Osmaniye;Çınardibi
+be;Асманіе;Osmaniye
+bg;Османие;Osmaniye
+el;Οσμανίγιε;Osmaniye
+lt;Osmanijė;Osmaniye
+sr;Османије;Osmaniye
+uk;Османіє;Osmaniye
+tr;Örtlek;Cesurlar
+ru;Ортакей;Ortaköy
+ru;Gyul’kharin;Ortaköy
+en;Hirrin;Ortaköy
+ru;Ортаклар;Ortaklar
+tr;Yahşikent;Ortyakent Yahşi
+en;Ortakent-Yahşi;Ortyakent Yahşi
+tr;Dagistan;Ortaca
+tr;Orta;Cevizli
+tr;Ormandışı;Karaali
+tr;Orhaniye;Musluklar
+tr;Örenbağ;Akbulma
+tr;Ören;Örenköy
+tr;Bahçebaşı;Orduzu
+tr;Kısayır;Örenlı
+tr;Oradüzü;Ortadüzü
+tr;Öncülü;Kytmiran
+tr;Ömürlü;Piran
+tr;Ömürler;Omurlar
+tr;Ömerlerbölcüğü;Ömerler
+tr;Ömerbeyli;Dağbağ Mahallesi
+tr;Okçular;Torunlu
+tr;Oğuz;Oğuzköy
+tr;Öğütlü;Mebye
+tr;Dörtpınar;Oğulpınar
+tr;Çakal;Oğulbey
+tr;Olakcı;Oğlakçı
+ru;Ofkëyu;Ofköy
+tr;Ocaklı;Doğan
+ru;Обрук;Obruk
+de;Nisibis;Nusaybin
+en;Nisibis;Nusaybin
+el;Αντιόχεια;Nusaybin
+nl;Nisibis;Nusaybin
+pl;Nisibis;Nusaybin
+ru;Нузайбин;Nusaybin
+tr;Konakkuran;Nurettin
+tr;Nuhaten;Nuhören
+ru;Низипе;Nizip
+tr;Nitaşir;Gökçeharman
+ru;Nimetkëy;Nimet
+ru;Нигде;Niğde
+be;Нійдэ;Niğde
+bg;Нигде;Niğde
+el;Νίγδη;Niğde
+gag;Niide;Niğde
+sr;Нигде;Niğde
+ru;Невшехир;Nevşehir
+bg;Невшехир;Nevşehir
+el;Νεβσεχίρ;Nevşehir
+sr;Невшехир;Nevşehir
+tr;Yukarıayvacık;Yukarı Ayvacık
+tr;Nebiler;Çarıklar
+be;Назілі;Nazilli
+lt;Nazilis;Nazilli
+sr;Назили;Nazilli
+ru;Назилли;Nazilli
+ru;Nav’yan;Güneyçam
+tr;Nasrullah;Nusrullahköy
+tr;Narlıhöbür;Narlıhopur
+ru;Битлис;Narlıdere
+tr;Narlıdere;Narlıdere Mevki
+tr;Direbol;Narlıdere Mevki
+tr;Narincelipıtrak;Narıncalı Pıtrak
+tr;Narinceli;İsmailbey
+tr;Namazgâhköy;Namazgâh
+tr;Namaz;Namazgâh
+tr;Nahırkıracı;Havacılar
+tr;Nadir;Nadirköy
+tr;Agören;Akören
+ru;Мут;Mut
+tr;Göçük;Musul
+de;Göçük;Musul
+en;Göçük;Musul
+nl;Göçük;Musul
+tr;Mühlis;Müslih
+ru;Myushabil’;Mağaracık
+tr;Musa;Gezerli
+ru;Муш;Muş
+bg;Муш;Muş
+uk;Муш;Muş
+tr;Mürsel;Mürselköy
+ru;Мурсал;Mursal
+tr;Muratlar;Karapınar
+ru;Мурат;Murat
+tr;Müminuşağı;Ayşepınarı
+tr;Muhipler;Gürlek
+tr;Muhacirköy;Yenidoğan
+ru;Мугла;Muğla
+el;Μούγλα;Muğla
+gag;Muula;Muğla
+uk;Мугла;Muğla
+tr;Moran;Yenibağlar
+tr;Mollamehmet;Mollaahmet
+tr;Mollaahmet;Mollaahmetler
+tr;Mısırören;Onaran
+tr;Değirmen;Değirmenköy
+ru;Балверен;Balveren
+ru;Mel’kho;Çalıdüzü
+ru;Милас;Milas
+ru;Mil‘;Mil
+ru;Mil’këy;Milköy
+tr;Mihricanyaylası;Mihrican
+ru;Кесметепе;Kesmetepe
+ru;Мидьят;Midyat
+uk;Мідьят;Midyat
+tr;Mıdıklı;Alibadurlar
+tr;Mezreaişir;Güneşli
+tr;Mezra;Mezraa Köy
+tr;Mezraköy;Mezraa Köy
+sr;Мезитли;Mezitli
+ru;Мезитли;Mezitli
+tr;Mezir;Karaduman
+tr;Mezgit;Kayaönü
+tr;Mezit;Mesudiye
+en;Eski Bahçekaya;Mesruriye
+tr;Mesevle;Yeni
+el;Μερσίνη;Mersin
+fr;Myrte;Mersin
+tr;İçel;Mersin
+ru;Мерсин;Mersin
+ru;Мермер;Mermer
+tr;Merkepkıran;Akyar
+tr;Merhemli;Derince
+tr;Mergemist;Gelintaşı
+tr;Gelintaş;Gelintaşı
+ru;Мерам;Meram
+tr;Menteş;Menteşe
+ru;Менемен;Menemen
+it;Distretto di Menemen;Menemen
+sq;Menemeni;Menemen
+tr;Mende;Kuşoğlan
+tr;Dilekli;Dilekli Kampı
+tr;Dilekli Kampi Şükeyi;Dilekli Kampı
+tr;Doskiler;Dilekli Kampı
+tr;Memiler;Işıkköy
+tr;Meliki;Konaklar
+tr;Melike;Eceler
+tr;Melekli Belediyesi;Melekli
+en;Melekli Municipality;Melekli
+tr;Memetalan;Mehmetalan
+tr;Mehdili;Bulgarpınarı
+ru;Letnik Byuyuk Medintel’far;Bulgurlu
+tr;Mecidiye;Osmaniye
+tr;Mathasandere;Mersindere
+tr;Yukarı Ekinci;Ekinci
+tr;Marmarlı;Örencik
+bg;Мармарис;Marmaris
+ru;Мармарис;Marmaris
+sr;Мармарис;Marmaris
+uk;Мармарис;Marmaris
+ru;Мардин;Mardin
+bg;Мардин;Mardin
+uk;Мардін;Mardin
+el;Μαρντίν;Mardin
+tr;Maraşbağı;Maraşboğazı
+ru;Мансурлу;Mansurlu
+ru;Маниса;Manisa
+de;Mandıra;Karaömerli
+en;Mandıra;Karaömerli
+tr;Mandıra;Karaömerli
+tr;Mandama;Gaziemir
+tr;Manavuç;Saraypınar
+ru;Манавгат;Manavgat
+tr;Manastır;Sarıkaya
+tr;Manamak;Karagedik Mahallesi
+tr;Mamuriye;Demircil
+ru;Мамак;Mamak
+tr;Malıkesper;Takağıl
+tr;Yıldızlı;Takağıl
+tr;Malhoca;Işıklar
+sr;Малазгирт;Malazgirt
+tr;Dağönü;Malaz
+ru;Малатья;Demirözü
+ru;Малатья;Malatya
+lt;Malatija;Malatya
+lv;Malatja;Malatya
+bg;Малатия;Malatya
+uk;Малатья;Malatya
+el;Μαλάτεια;Malatya
+sr;Малатија;Malatya
+be;Малатя;Malatya
+tr;Mahmutlar;Gacar
+tr;Mahfeller;Çaltepe
+ru;Magaradzhikkëy;Mağaracık
+tr;Madenmezarı Köyü;Madenmezarı
+tr;Madenboy;Madenboyu
+tr;Maden;Madenköy
+ru;Маден;Maden
+tr;Macarlar;Akkeçili
+ru;Левент;Levent
+tr;Langer;Lenger
+tr;Cebike;Düğünyurdu
+tr;Cebekli;Düğünyurdu
+tr;Cebekeli;Düğünyurdu
+tr;Kuyuluhüyük;Kuyuluhöyük
+tr;Sergir;Kuyulu
+tr;Kuyucakkarapınar;Kuyucak Karapınar
+tr;Kuyucak;Çalkuyucak
+tr;Batırhan;Kuyubaşı
+tr;Kuytu;Yayalar
+tr;Kütüklü;Gyrychello
+de;Kütüklü;Gyrychello
+en;Kütüklü;Gyrychello
+nl;Kütüklü;Gyrychello
+tr;Kütüklü;Kuruma
+tr;Oyuklu;Kutlu
+ru;Кютахья;Kütahya
+be;Кютахя;Kütahya
+bg;Кютахия;Kütahya
+el;Κιουτάχεια;Kütahya
+gag;Kütahiya;Kütahya
+lt;Kiutahija;Kütahya
+sr;Кутахја;Kütahya
+uk;Кютахя;Kütahya
+tr;Küstüllü;Küllü
+tr;Kuslukköy;Kuşluk
+tr;Yusuflar;Araplar
+ru;Kel’khok;Kuşçukuru
+tr;Kuşçu;Kuşcuköy
+bg;Кушадасъ;Kuşadası
+nl;Kusadasi;Kuşadası
+sr;Кушадаси;Kuşadası
+ru;Кушадасы;Kuşadası
+en;Kusadasi;Kuşadası
+es;Kusadasi;Kuşadası
+lb;Kusadasi;Kuşadası
+uk;Кушадаси;Kuşadası
+de;Kurutlutepe;Kurutlutepeköy
+en;Kurutlutepe;Kurutlutepeköy
+tr;Kurtlutepe;Kurutlutepeköy
+nl;Kurutlutepe;Kurutlutepeköy
+tr;Kurucular;Korucular
+tr;Kuruanşa;Kuruayşe
+tr;Kurttutan;Kayranokçular
+ru;Курттепе;Kurttepe
+tr;Kürtmusa;Özbek
+ru;Курталан;Kurtalan
+tr;Esetmüminli;Esatmüminli
+tr;Kürkçü;Bahçeli
+tr;Kureyş;Kureyşler
+tr;Kuran;Kuranköy
+tr;Küpüler;Köpüler
+tr;Küner;Künerlik
+tr;Kunduzlar;Kundurlar Mahallesi
+ru;Кумлу;Kumlu
+ru;Кумкале;Kumkale
+ru;Dergyul’;Kumçatı
+ru;Кулу;Kulu
+ru;Кулп;Kulp
+tr;Küllük;Güllük
+tr;Kuleli;Kulalı
+tr;Külâhalan;Gülalan
+ru;Кул;Kula
+tr;Kükür Köyü;Kükür
+tr;Kuduzlar;Güzeloba
+tr;Gedikoba;Güzeloba
+tr;Kavakbaşı;Kayabaşı
+tr;Kudurkül;Yeşildere
+tr;Şapçı;Küçükşapçı
+tr;Küçük Pörnek;Küçük Pörnekler
+tr;Küçük Alonlı;Küçük Alanlı
+tr;Küçük Alifahrettinköy;Küçükköy
+tr;Küçük Alifahrettin;Küçükköy
+tr;Küçükkızılcık;Esenköy
+tr;Anıt;Kermi
+tr;Küçük Ilıca;Küçükılıca
+tr;Küçük Geçit;Küçükgeçit
+tr;Küçükçaltı;Küçük Çaltı
+tr;Küçük Bahçe;Küçükbahçe
+tr;Denizgiren;Küçükbahçe
+tr;Küçükayrık;Küçük Ayrık
+tr;Küçük Armutlu;Küçükarmutlu
+tr;Küçük Alemşah;Alemşah
+tr;Kebiralemşah;Alemşah
+tr;Büyük Alemşah;Alemşah
+tr;Kubbin;Bağlıca
+ru;Nukretel’rumi;Gümüşören
+tr;Kozpınarı;Kozpınar
+ru;Козлук;Kozluk
+tr;Kozluca;Domaniç Kozluca
+tr;Kozluca;Kuşluca
+tr;Türközü;Kozluca
+ru;Козлу;Kozlu
+tr;Kozlak;Soğukpınar
+tr;Kozcakoz;Soğukpınar
+tr;Kozcağız;Soğukpınar
+tr;Koççoğaz;Soğukpınar
+tr;Koçcağız;Soğukpınar
+tr;Kozderegüvem;Kozdere Güvem
+ru;Козан;Kozan
+sr;Козан;Kozan
+tr;Kozağacı;Kozağaç
+tr;Kozağıl;Kozağaç
+tr;Cerepderesi;Koyunoğlu
+ru;Zerbil’;Koyunoba
+ru;Koyunkëy;Koyunlu
+tr;Yaşar;Yaşarköy
+tr;Koymat;Çiftlik
+tr;Yamaç;Yamaçköy
+tr;Köte;Yenice
+ru;Erbil’;Koşuyolu
+tr;Kösten;Aydınlar
+ru;Kësker;Köşker
+ru;Këseveli;Köseveli
+ru;Këseli;Köseli
+tr;Köseler;Mutaflar Mahallesi
+ru;Kësedzhik;Kösecik
+ru;Këse;Köseköy
+tr;Kosan;Karşı Mahallesi
+tr;Koruklu;Dağören
+de;Gezlevi;Korualan
+en;Gezlevi;Korualan
+tr;Gezlevi;Korualan
+tr;Kortulu;Kortolu
+tr;Körtahta;Soğucak
+tr;Körosman;Kurudere
+tr;Körlü;Gürlü
+ru;Kërkuyu;Körkuyu
+ru;Коркутели;Korkuteli
+ru;Коркут;Korkut
+tr;Köprülük;Kurleker
+tr;Köprüağzı;Köprüağzı Demirciler
+tr;Köprü;Keçeli
+ru;Këpryukëyu;Köprüköy
+tr;Köprü;Köprüköy
+ru;Këpekli;Kurudeğirmen
+en;Konyaalti;Konyaaltı
+bg;Кония;Konya
+ca;Iconium;Konya
+el;Ικόνιο;Konya
+it;Iconio;Konya
+ru;Конья;Konya
+be;Конья;Konya
+lt;Konija;Konya
+lv;Konja;Konya
+mk;Конија;Konya
+sr;Конија;Konya
+uk;Конья;Konya
+tr;Doğuş;Koruköy
+en;Konakli;Konaklı
+tr;Kanakbey;Konakbeyi
+ru;Конак;Konak
+tr;Karaçay;Konacık
+tr;Kömürcü;Silibin
+tr;Komlar;Toprakkale
+ru;Kol’ya;Kolya
+ru;Këlyuk;Çıralı
+tr;Kölemusalı;Bağcılar
+tr;Köleköy;Çamlıca
+tr;Kolca Yaylası;Hacımahmutkolca Yaylası
+tr;Yeni Mahalle;Köfündere
+tr;Kodurcak;Konak
+tr;Koçören;Şahinler
+tr;Koçömerli;Koçmarlı
+tr;Koçlar Yaylası;Karakol Yaylası
+ru;Këdzhik;Konaklı
+ru;Гочек;Göcek
+tr;Koçan;Kocalar
+tr;Koçaklar;Yukarı Koçaklar
+ru;Kushkëy;Kocahüyük
+tr;Kocaçukur;Altınyayla
+tr;Bölüklü;Kızlar
+tr;Kızkadın;Şanlıyurt
+tr;Kızılkaya;Kızılyaka
+ru;Кызылтепе;Kızıltepe
+tr;Kızılpınar;Makasalanı
+tr;Makasalan;Makasalanı
+tr;İrfaniye;Kızılöz
+de;Kizilot;Kızılot
+tr;Keçedere;Keçidere
+tr;Kızıllar;Kızlarağını
+tr;Kızıllar;Çağlayan
+tr;Kızılköy;Mollahasanlar
+tr;Kızılköy;Güzelköy
+tr;Kızılköy;Yeşilyayla
+tr;Kızılkaya;Yalçınkaya
+tr;Kızılcın;Özyayla
+tr;Kızılcaöğütmen;Kayalıözü
+tr;Kızılcaköy;Kızılca
+tr;Kızılcakaya;Hisar
+tr;Kızılcaçukur;Alhisar
+tr;Kızılcaavlu;Yeşilköy
+tr;Kızılca;Kışlapınar
+tr;Kızılca;Kızılan
+tr;Kızılca;Çamlıca
+tr;Kızılbağ;Kızılkaya
+tr;Çamköy;Kızılağaç
+ru;Kiyrikkëy;Kiyrik Köyü
+tr;Kıyıköy;Kaplınç
+ru;Basykylkevil’;Kısmetli
+tr;Kışlaköy;Kışla
+ru;Lifkëy;Kışlacık
+tr;Kışlaçay;Kışlaçayı
+tr;Kışla;Kışlaçayı
+de;Kışla;Kışlaköy
+en;Kışla;Kışlaköy
+tr;Kışla;Kışlaköy
+tr;Kısos;Kısas
+tr;Kiryas;Kırkat
+tr;Kasrik;Kırkat
+ru;Кыршехир;Kırşehir
+be;Кыршэхір;Kırşehir
+bg;Кършехир;Kırşehir
+el;Κιρσεχίρ;Kırşehir
+sr;Куршехир;Kırşehir
+uk;Киршехір;Kırşehir
+tr;Kırkyeren;Kırkyaren
+ru;Kyrkmagarakëy;Kırkmağara
+tr;Kırkkuyu;Kırkuyu
+tr;Kırgılı;Kırkıllı
+tr;Kırkbayır;Güzelköy
+tr;Kırıkyayla;Şirinköy
+tr;Kırıklı;Tatlıpınar
+tr;Kırıklar;Aşağı Kırıklar
+tr;Kırıkkaşık;Kırkkaşık
+ru;Кырыккале;Kırıkkale
+be;Кырыкале;Kırıkkale
+bg;Къръккале;Kırıkkale
+el;Κιρίκαλε;Kırıkkale
+lt;Kirikalė;Kırıkkale
+sr;Кирикале;Kırıkkale
+uk;Кириккале;Kırıkkale
+ro;Kirikkale;Kırıkkale
+en;Kirikkale;Kırıkkale
+de;Kiremitli;Kiremit
+en;Kiremitli;Kiremit
+tr;Kiremitli;Kiremit
+nl;Kiremitli;Kiremit
+tr;Kırpalı;Kırbalı
+tr;Kırbaçlı;Yeşilköy
+tr;Pıyancık;Yeşilköy
+tr;Kirazlı;Kirazlıyaylası
+tr;Kiraz;Kirazköy
+tr;Kıran;Kıranköy
+ru;Кыркларели;Kırkıran
+ru;Килис;Kilis
+bg;Килис;Kilis
+el;Κιλίς;Kilis
+lt;Kilisas;Kilis
+uk;Кіліс;Kilis
+tr;Kilik;Killik
+tr;Karacaören;Kılıçören
+tr;Gılcanlar;Kılıcanlar
+tr;Kıhra;Çiçekli
+tr;Ağılı;Ağıllı
+tr;Kevirağıl;Kevenağıl
+tr;Keçikıran;Kevçıkan
+tr;Ketrik;Hocuk
+tr;Kelekci;Kelekli
+ru;Кескин;Keskin
+tr;Kesire;Esençay
+tr;Keşbükü;Çavdarlı
+tr;Kerves;Çavundur
+ru;Kersentashkëy;Kersentaş
+tr;Kerpiç;Kerpiçköy
+tr;Lâleköy;Germiyan
+tr;Yazcık;Yazıcık
+tr;Keran;Yamaç
+ru;Кепсут;Kepsut
+tr;Keprin;Çayinli
+tr;Kepre;Bahçeköy
+tr;Keperler;Horzum Keserler
+tr;Keperhisar;Kepirhisar
+tr;Kıpırhısar;Kepirhisar
+de;Öğütlü;Kemolar
+en;Öğütlü;Kemolar
+tr;Öğütlü;Kemolar
+nl;Öğütlü;Kemolar
+tr;Kemikdere;Kemiklidere
+tr;Kemer;Kemerköy
+ru;Кемер;Kemer
+ru;Кемальпаша;Kemalpaşa
+tr;Karabel;Kemalpaşa
+el;Κάμαχα;Kemah
+tr;Kell;Kelli
+tr;Kelikli;Keklikli
+ru;Келес;Keles
+tr;Günpınar;Kehmallı
+tr;Kedikuyruğu;Akçeşme
+tr;Kedikuyusu;Akçeşme
+ru;Кебан;Keban
+tr;Kazıklı İskelesi;Taşlı
+tr;Kazankuşak;Hisarkuşak
+tr;Kazancı;Kuruköy
+it;Cesarea in Cappadocia;Kayseri
+ru;Кайсери;Kayseri
+lv;Kajseri;Kayseri
+el;Καισάρεια;Kayseri
+bg;Кайсери;Kayseri
+sc;Cesarea;Kayseri
+be;Кайсеры;Kayseri
+sr;Кајсери;Kayseri
+mk;Кајсери;Kayseri
+lt;Kaiseris;Kayseri
+uk;Кайсері;Kayseri
+tr;Kayraklı;Karacalar
+en;Kaymaklı Underground City;Kaymaklı
+sr;Кајмакли;Kaymaklı
+uk;Каймакли;Kaymaklı
+pt;Kaymakli;Kaymaklı
+ru;Каймаклы;Kaymaklı
+ru;Sel’mik;Kayıköy
+tr;Kayı;Kayıköy
+tr;Kaleimindos;Kayasaray
+de;Kayarlı;Kayırlı
+en;Kayarlı;Kayırlı
+tr;Kayarlı;Kayırlı
+nl;Kayarlı;Kayırlı
+ru;Ushikëy;Kayalısu
+tr;Kayalı;Kayalıköy
+tr;Kayalaksolaklısı;Kayalıksolaklısı
+tr;Kayaköy;Kayaköyü
+tr;Kayadibi;Sanjaklı Kayadibi
+tr;Kayacıkoba;Kayacık
+tr;Kayabaşı Yaylası;Kayabaşı
+tr;Kayas;Kaya
+tr;Kavutçu;Karlısu
+tr;Karaksi;Karlısu
+tr;Kavukçu;Karlısu
+ru;Zivikëy;Kavuşak
+tr;Kavaslı;Odabaşı
+tr;Aşağı Aydı;Odabaşı
+tr;Kovalık;Kavalık
+tr;Kayalık;Kavalık
+tr;Kavaklık;Kavacık Mezarlığı
+tr;Kavak;Kavakköy
+de;Kavak;Kavakköy
+en;Kavak;Kavakköy
+ru;Кавак;Kavak
+tr;Katran Dağı;Katrandağı
+tr;Katrancı;Katrancılar
+tr;Katrancı;Katrancı Mahallesi
+tr;Katırcılı;Ulupınar
+de;Katıralanı;Katıralan
+en;Katıralanı;Katıralan
+nl;Katıralanı;Katıralan
+tr;Katıralanı;Katıralan
+tr;Aynalıhoca;Aynılıhoca
+tr;Kaşıklı;Kaşıkçı
+tr;Cerik;Göncük
+ru;Касаба;Kasaba
+ru;Каш;Kaş
+tr;Göçmen;Doğu Çanakçı
+ru;Картал;Kartal
+tr;Karsu;Kansu
+en;Cordaleo;Karşıyaka
+el;Κορδελιό;Karşıyaka
+ru;Аладаг;Aladağ
+ru;Карпузлу;Karpuzlu
+tr;Karpuzcu;Karpuzlu
+tr;Karpuzdere;Karpuztepe
+ru;Кызылагач;Kızılağaç
+tr;Kancalı;Karıncalı
+tr;Karınca;Karıncaköy
+tr;Kargınışıklar;Kargın Işıklar
+tr;Kargın;Karkın
+tr;Garkılı;Kargılı
+tr;Karga;Yeşilova
+tr;Kardere;Karadere
+tr;Karayusuf Yaylası;Kötüköy Yaylası
+tr;Karayılanlı;Karayılan
+tr;Çerkezmahmudiye;Karayenice
+tr;Çerkez;Karayenice
+tr;Çerkes Mahmudiye;Karayenice
+tr;Çerkes;Karayenice
+tr;Karayayla;Karlıyayla
+tr;Karayanalak;Boğaziçi
+tr;Burnukara;Boğaziçi
+tr;Kışla;Karayakup
+ru;Каратопрак;Karatoprak
+ru;Каратеке;Karateke
+ru;Караташ;Karataş
+tr;Küçükkarataş;Karataş
+tr;Karatahta;Hamanköy
+tr;Karasonya;Küçük Hasköy
+tr;Karasilli;Kaleköy
+tr;Kale;Kaleköy
+tr;Yukarıaydınlı;Yukarı Aydınlı
+tr;Gümüşlü;Karasar
+tr;Karaova;Karakova
+tr;Karaosmanoğlu;Karaca Osmanoğlu
+tr;Karanlık Yayla;Karanlık
+ru;Karanfil’;Karanfılköy
+tr;Karanabalı;Karahabalı
+ru;Караман;Karaman
+be;Караман;Karaman
+bg;Караман;Karaman
+el;Καραμάν;Karaman
+lt;Karamanas;Karaman
+lv;Karamana;Karaman
+sr;Караман;Karaman
+uk;Караман;Karaman
+tr;Karamağara Köyü;Karamağara
+ru;Kara-Magarakëy;Karamağara
+tr;Kışla;Karalı
+tr;Karalarbaşı;Gültepe
+tr;Gültepe;Karalar
+ru;Каралар;Karalar
+ru;Каракоюнлу;Karakoyunlu
+ru;Каракей;Karaköy
+bg;Агръ;Ağrı
+eu;Agri;Ağrı
+gag;Aarı;Ağrı
+lt;Ahras;Ağrı
+mk;Агри;Ağrı
+sr;Агри;Ağrı
+uk;Агри;Ağrı
+ru;Агры;Ağrı
+ru;Karakëpryukëy;Karaköprü
+ru;Караколлар;Karakollar
+ru;Каракоджана;Karakoçan
+ru;Каракесек;Karakesek
+tr;Karakaya;İbrahimkahya
+tr;Karahüseyin;Karahüseyinli
+tr;Karahan;Karahanköy
+tr;Karahacılar;Karahacılı
+ru;Karagëz;Karagöz
+tr;Karadedeli;Türkmenuşağı
+tr;Karadam;Bağdamları
+tr;Karacaviran;Karacaören
+tr;Karacaveran;Karacaören
+tr;Karacaören Yaylası;Çeşnir Yaylası
+tr;Karaçam;Yukarı Karaçam
+tr;Karacalar Köyü;Karacalar
+tr;Yeni Karacakaya;Yeniköy
+tr;Karlıkköy;Karacahisar
+tr;Karlık;Karacahisar
+tr;Alaybeyağlu;Alibeyçağılı
+tr;Karacaağaç;Karaağaç
+tr;Karabüvet;Karayer
+ru;Карабурун;Karaburun
+ru;Karaburunkëy;Karaburun
+tr;Karabulu;Çanakçı
+tr;Karabörk;Karabörek
+tr;Karaboğürtlü;Karabörklü
+tr;Karabıyık;Karabıyıklı
+tr;Karabağ;Kemer
+tr;Karaağıl;Baştepe
+tr;Karaağaç;Kale
+el;Καραγάτς;Karaağaç
+ru;Karakëy;Karaköy
+tr;Çelik;Kaplanköy
+tr;Kapıköy;Kapı
+tr;Kanyaşı;Ovaköy
+tr;Kansız;Yeşildağ
+tr;Kandil;Kandilköy
+tr;Kanberli;Kamberli
+tr;Kân;Gaffaruşağı
+tr;Kamışlıöz;Kamışlıözü
+tr;Incirli;İncili
+ru;Каман;Kaman
+tr;Kalkanlı;Meydan
+ru;Калкан;Kalkan
+tr;Kalınağılköyü;Kalınağıl
+tr;Kalın;Kalınköy
+tr;Kaletepe;Kalatepe
+tr;Kalendik Yaylası;Hatıpların Yaylası
+tr;Kalemköy;Kalem
+tr;Kalem;Kalemköy
+tr;Kalecik;Kalencik
+ru;Кале;Kale
+ru;Kalekëy;Kaleköy
+tr;Kalburcu;Kaleburcu
+ru;Калафат;Kalafat
+tr;Kâhya;Kahyaköy
+tr;Kâhya;Yedi Burunlar
+ru;Кахта;Kâhta
+tr;Kahrat;Çiçekli
+ru;Кахраманмараш;Kahramanmaraş
+be;Кахраманмараш;Kahramanmaraş
+bg;Кахраманмараш;Kahramanmaraş
+ca;Maraix;Kahramanmaraş
+el;Καχραμανμαράς;Kahramanmaraş
+lt;Kachramanmarašas;Kahramanmaraş
+sr;Кахраманмараш;Kahramanmaraş
+uk;Кахраманмараш;Kahramanmaraş
+tr;Kadriye;Bayramlar
+tr;Bayramlı;Bayramlar
+tr;Kadıköy;Kızılalan
+tr;Kadıdağı Köyü;Kadıdağı
+tr;Mollagaco;Kaçar
+ru;Кабасакал;Kabasakal
+ru;Кабала;Kabala
+ru;Кабакум;Kabakum
+tr;Kabakali;Hacıbaştanlar
+tr;Yukarı Çakıllıkoz;Seldiren
+tr;Yukarı Seldiren;Seldiren
+tr;İzzettin;İzzettinköy
+tr;İznebul;Elmayurdu
+es;Esmirna;İzmir
+bg;Измир;İzmir
+el;Σμύρνη;İzmir
+it;Smirne;İzmir
+pt;Esmirna;İzmir
+ru;Измир;İzmir
+sr;Измир;İzmir
+lt;Izmiras;İzmir
+lv;Izmira;İzmir
+tr;İterim;Etrim
+ru;Испарта;Isparta
+be;Ыспарта;Isparta
+bg;Ъспарта;Isparta
+el;Ισπάρτα;Isparta
+sr;Испарта;Isparta
+uk;Испарта;Isparta
+ru;Ыспарта;Isparta
+tr;İsmail;İsmailköy
+tr;İslâmkerim;Akıncı
+es;Alejandreta;İskenderun
+pl;Aleksandretta;İskenderun
+ru;Искендерун;İskenderun
+be;Іскендэрун;İskenderun
+bg;Искендерун;İskenderun
+el;Αλεξανδρέττα;İskenderun
+lt;Iskenderunas;İskenderun
+sr;Искендерун;İskenderun
+uk;Іскендерун;İskenderun
+tr;iskeleköy;İskele
+ru;Khil’ë;Işıkören
+tr;Işıkoluk;Işıkoluğu
+tr;Işıklar;IşıkIı
+tr;Işıkyaka;Bilge
+tr;Bilgeköy;Bilge
+tr;İsik;Çadırlı
+tr;İseler;Eseler
+ru;Isapynarkëy;İsapınar
+tr;İsalar;Işıklı
+tr;İsa;İsaköy
+tr;İsaalan;İsaalanı
+tr;İrmehmetağa;Piremehmetağa
+tr;Irmak;Irmakköy
+tr;İrişler;Erişler
+tr;İnaplı;İnnaplı
+tr;İnli;İnciler
+tr;İnkonak;Gürpınar
+tr;Sekeliyazı;Sekiliyazı
+tr;İnişli;Sekiliyazı
+tr;Küçükincirli;İncirli
+tr;İnceiz;İnceğiz
+tr;İmamkulu;İmamkullu
+tr;Ilıcaku;Ilıcasku
+tr;Ilıcaksu;Ilıcasu
+tr;Ilıca;Ilıcaköy
+tr;İlhan;İlhanköy
+de;Ildir;Ildır
+en;Ildir;Ildır
+tr;Ilicikviran;İlçikören
+tr;İkiztaş;Kolludere
+tr;İkizler;Ekizler
+tr;İkizler;Aşağı Durmuş
+ru;Икиздере;İkizdere
+tr;Ikizce;İkizler
+ru;Tomkëy;İkizbağlar
+tr;Ikıağız;İkiağız
+tr;İkiağız;Ikyagyz
+tr;İğnez;Bozarmut
+tr;Yeşilköy;Yeşilova
+ru;Игдир;Iğdır
+bg;Ъгдър;Iğdır
+eu;Igdir;Iğdır
+gag;Iıdır;Iğdır
+lt;Igdyras;Iğdır
+lv;Īgdira;Iğdır
+sr;Игдир;Iğdır
+uk;Игдир;Iğdır
+ru;Ыгдыр;Iğdır
+tr;Samuklu;Sumaklı
+ru;Идиль;İdil
+it;Distretto di İdil;İdil
+tr;İdem;İdemköy
+ru;Ичмелер;İçmeler
+tr;İbrahimoğlu;İbrahimağa
+tr;İbrahimler;Yeniköy
+tr;Hüyüklü;Girmasek
+tr;Hüyük;Hüyükköy
+tr;Hüyücek;Topraklı
+ru;Razvaliny Khuris’yan;Hurusya
+tr;Hürdüslü;Hamur
+tr;Hubabi;Özveren
+tr;Ağviran;Özveren
+tr;Ağveran;Özveren
+tr;Hotallı;Işıklar
+tr;Embelli;Horzum Embelli
+tr;Horoz;Soğuksu
+en;Chonai;Honaz
+tr;Hocalar;Gedikpınar
+tr;Gedikpınarı;Gedikpınar
+tr;Hisarcık;Asarcık
+tr;Hisar;Hisarköy
+tr;Hisarköy;Hisar
+tr;Hırka;Hırkaköy
+tr;Hırıkırı;Pınarbaşı
+tr;Hirfanlar;Hirfanlı
+sr;Хнус;Hınıs
+ru;Хнус;Hınıs
+tr;Ocektepe;Ölçektepe
+tr;Çekmece;Hıdırbey
+tr;Herak;Sikaka
+de;Henüzçakırı;Enizçakırı
+en;Henüzçakırı;Enizçakırı
+tr;Henüzçakırı;Enizçakırı
+nl;Henüzçakırı;Enizçakırı
+tr;Hendek;Capu
+ru;Khyuyuk’yany;Hüyükyanı
+tr;Höyükyanı;Hüyükyanı
+tr;Haznalik;Yüklüce
+tr;Hayrettin;Hayrettinköy
+tr;Haymaseki;Haymeseki
+tr;Haydar;Haydarköy
+tr;Haydancedit;Yeşilyaka
+ru;Khat’yan;Hatyan
+tr;Hatunyaylası;Karaçakal
+ru;Ashagy-Makbel’;Hatunlu
+tr;Hatipkişla;Hatipkışlası
+tr;Hatıören;Halıören
+ru;Хаскей;Hasköy
+ru;Tel’khasan;Hasantepe
+tr;Hasanölüsü;Hasanavlusu
+tr;Hasanlar;Hasancılar
+uk;Хасанкейф;Hasankeyf
+ru;Хасанкейф;Hasankeyf
+tr;Harzika;Tuzlaköy
+de;Tuzla;Tuzlaköy
+tr;Harun;Harunköy
+sr;Харпут;Harput
+tr;Birhi;Yazgüneşi
+ru;Yukary-Kharbetil’salim;Yukarı Harbetil Salim
+ru;Kharbetel’khadle;Harbetelhadle
+tr;Harbaknı;Kalbağı
+tr;Harabekeşiş;Tüten
+tr;Aşağı Karabal;Aşağıkarabal
+tr;Hangediği;Hangedik
+tr;Han;Hanköy
+tr;Hamzalı;Hamzallı
+tr;Hamitli;Hocalar
+tr;Hacı Mehmet Çiftliği;Hamitbeybucağı
+tr;Hacımehmet;Hamitbeybucağı
+tr;Hamit;Hamitköy
+tr;Hamadiye;Hamidiye
+tr;Hameli;Kocabey
+tr;Hamamkurbu;Kamberhüyüğü
+en;Halaçlı;Hallaçlı
+ru;Kel’bin;Halkalı
+tr;Yorganladik;Halıcı
+tr;Şehitnusret;Haktanır
+ru;Тузла;Tuzla
+ru;Хадим;Hadim
+tr;Dere;Ağaçdere
+tr;Hacıveliler;Delibeyler
+tr;Hacıömersolaklı;Hacıömersolaklısı
+tr;Hacıömer;Yukarı
+tr;Hacıömerler;Hacıömerderesi
+tr;Hacımüftülerdamı;Cıcıklı
+tr;Cıcıkçı;Cıcıklı
+tr;Hacımehmet;Mehmetler
+tr;Hacımahmutlar;Hacıahmetler
+tr;Hacılebbeleni;Esentepe
+tr;Hacılebeler;Esentepe
+tr;Hacılar;Yeşiltepe
+tr;Kirazderesi;Hacıkabasakallar
+tr;Hacıhasan Banisi;Hacıhasanbanısı
+tr;Hacıçobanlar;Siyamlar
+tr;Hacıbozan;Hacıbozlar
+tr;Hacıbekir;Hacıbekirli
+tr;Hacıaliler;Dereköy
+tr;Dere;Dereköy
+tr;Hacıahmetler;Hacıahmet Pınarı
+tr;Hacımehmetler;Hacıahmetler
+tr;Haçan;Balgöze
+tr;Gözlek;Güzlek
+tr;Güzerli Yaylası;Küçüksekeller Yaylası
+ru;Gyuzel’kuyu;Güzelkuyu
+tr;Güzel;Güzelköy
+tr;Güzelkanak;Güzelkonak
+ru;Gyuzel’derekëy;Güzeldere
+tr;Güvere;Ağlıca
+tr;Aylak;Avlak
+de;Güveloğlu;Güvenoğlu
+en;Güveloğlu;Güvenoğlu
+tr;Güveloğlu;Güvenoğlu
+nl;Güveloğlu;Güvenoğlu
+tr;Güvenli;Gönendi
+el;Κουρούμζα;Gürümze
+de;Güreş;Güreşköy
+en;Güreş;Güreşköy
+nl;Güreş;Güreşköy
+tr;Çatak;Çıtak
+tr;Gurbetler;Çınarlıdere
+tr;Köleler;Çınarlıdere
+tr;Gürbelenk;Boğaz
+tr;Gündoğmuş;Günedoğmuş
+ru;Banibot’yan;Güneyce
+ru;Ban’yutna;Güneyce
+tr;Güneyce;Arıcılar
+tr;Güneybüyük;Büyük Güney
+tr;Güneybağ (old);Güneysınır
+tr;Güney;Eskigüney
+tr;Güney;Güneyköy
+tr;Güney;Bağarası
+tr;Güneyköy;Güney
+tr;Gündeş;Gündaş
+tr;Günçali;Günçalı
+tr;Ernez;Günçalı
+de;Ernez;Günçalı
+en;Ernez;Günçalı
+tr;Akı;Günbahçe
+tr;Ahı Köyü;Günbahçe
+tr;Ahı;Günbahçe
+tr;Gümüşyeni;Gümüşyeniköy
+tr;Gümüşsu;Gümüldür
+tr;Gümüşörgü;Tomuk
+tr;Gümüşlü;Teyrek
+tr;Gümüşköy;Gümüşlu
+tr;Gümüşgölcük;Gümüş Gölcük
+tr;Gümüşdöven;Gümüşdüven
+tr;Gömeçbağlar;Gümeçbağlar
+tr;Gümüş;Gümüşköy
+tr;Gümüş;Gumuskoy
+tr;Gümelez;Güllübahçe Kapak
+tr;Günyazı;Gülyazı
+tr;Gülyayla;Günyayla
+tr;Çorum;Gültepe
+ru;Гюльнар;Gülnar
+tr;Guli;Kayacık
+tr;Gülgöze;Güzelgöze
+de;Gülgöze;Güzelgöze
+en;Gülgöze;Güzelgöze
+fr;Gülgöze;Güzelgöze
+nl;Gülgöze;Güzelgöze
+ru;Shishil’;Gülburnu
+tr;Güdül;Canabdal
+tr;Canaptal;Canabdal
+tr;Gücük;Cücük
+tr;Güçbilir;Yusufağa
+tr;Gözüren;Gözören
+tr;Gözkayası;Gözkaya
+tr;Gözyaka;Gözkaya
+tr;Gözgü;Sütlü
+tr;Gözerli;Yeniözerli
+tr;Gözelen;Gözeler
+ru;Aynykhalil’;Gözeler
+ru;Гёйнюк;Göynük
+tr;Dolunay;Payamlı
+tr;Görnevit;Çeliler
+ru;Гореме;Göreme
+be;Гёрэмэ;Göreme
+el;Γκιόρεμε;Göreme
+lt;Gioremės;Göreme
+mk;Ѓореме;Göreme
+uk;Гьореме;Göreme
+ru;Гёреме;Göreme
+ru;Derdil’;Derdil
+tr;Gönüllü;Derdil
+ru;Гонен;Gönen
+tr;Kazlıkümedi;Gömedi
+tr;Kazlıgömedi;Gömedi
+tr;Gazlı Gömedi;Gömedi
+ru;Gëlpynar;Gölpınar
+tr;Gölönükışlası;Serçin
+tr;Göllühüyükköyü;Göllühüyük
+tr;Göllü;Teknecik
+ru;Gëlikëy;Göllü
+ru;Gëllyu;Göllü
+tr;Gölköy;Göltürkbükü
+tr;Gölcük;Aliağa
+tr;Kanatlar;Gölcük
+tr;Gölcük;Kavacık
+tr;Çölçayır;Gölçayır
+ru;Гёльбаши;Gölbaşı
+ru;Gëktepe;Göktepe
+tr;Gökmeydanı;Gökmeydan
+tr;Gökköy;Barış
+tr;Gökçe;Gökçimen
+tr;Gökçekavak;Gökçeovacık
+tr;Gökçeköy;Bektaşlar
+en;Gökçeköy;Gökçe
+tr;Gökçedamları;Gökçeaları
+tr;Gökçebel;Fadılobası
+tr;Bedre;Beydere
+tr;Gökçehöyük;Beydere
+ru;Салда;Salda
+tr;Gökbel;Topluca
+tr;Gökbel;Samık
+tr;Gökay;Çevrecik
+tr;Göbeli;Çiçeklidere
+ru;Yukhary-Gëbekli;Göbekli
+tr;Giriş;Geriş
+tr;Girdev;Akkapı
+ru;Гейре;Geyre
+en;Geyikbayiri;Geyikbayırı
+ru;Гейикбайыры;Geyikbayırı
+uk;Геїкбаїри;Geyikbayırı
+tr;Seydiköy;Gevrekseydi
+tr;Güvandere;Gevendere
+tr;Gerni;Ihlamur
+tr;Geriz;Tepeköy
+tr;Gerenköy;Geren
+tr;Gereli;Gerali
+tr;Genzin;Ardıçlı
+tr;Genzile;Dokuzçam
+ru;Генк;Genç
+tr;Gemrik;Güveçli
+ru;Gelizov’yan;Gelizevyan
+tr;Gelinclik;Gelincik
+tr;Hosik;Geliyememba
+ru;Гедиз;Gediz
+tr;Gedikler;Gedikli
+ru;Bir’yan;Geçitboyu
+tr;Geçit;Geçitköy
+tr;Gebeler;Güneşli
+tr;Gebedere;Altındere
+tr;Kızılcin;Gaziler
+ca;Aintab;Gaziantep
+ru;Газиантеп;Gaziantep
+lv;Gaziantepa;Gaziantep
+mk;Газиантеп;Gaziantep
+uk;Ґазіантеп;Gaziantep
+be;Газіянтэп;Gaziantep
+el;Γκαζιαντέπ;Gaziantep
+sr;Газијантеп;Gaziantep
+lt;Gaziantepas;Gaziantep
+bg;Газиантеп;Gaziantep
+tr;Ayvazlar;Gazeller
+tr;Gaman;Kaman
+tr;Gafarlar;Gaffarlar
+tr;Furhanlar;Fıranlar
+ru;Финике;Finike
+ru;Фетхие;Fethiye
+uk;Фетхіє;Fethiye
+el;Μάκρη;Fethiye
+bg;Фетхие;Fethiye
+tr;Çeşme Başı;Feşmeköy
+tr;Aydınyurt;Fertek
+el;Φερτέκι;Fertek
+uk;Феке;Feke
+ru;Феке;Feke
+tr;Farilya;Dağbelen
+tr;Falaka;Zeytinova
+tr;Fakra;Yeşildere
+tr;Faik;Faikköy
+tr;Fadılı;Fadıllı
+tr;Fadılca;Derinkuyu
+tr;Fadıl;Fadılköy
+ru;Tib’yat;Eymirli
+tr;Eymir;Ataeymir
+tr;Eylenhoca;Eğlenhoca
+tr;Evkafçiftliğiköy;Evkafçiftliği
+tr;Çiftlikköy;Evkafçiftliği
+tr;Evcili;Güzelyayla
+tr;Evcilerağılları;Yaylaköy
+tr;Evbakan;Evbark
+tr;Etyemez;Yeşilbayır
+tr;Eşraf;Horozlu
+tr;Eşmişek;Aşağı Eşmişik
+tr;Eskitol Yaylası;Ortakuyu Yaylası
+ru;Эскишехир;Eskişehir
+be;Эскішэхір;Eskişehir
+bg;Ескишехир;Eskişehir
+el;Εσκισεχίρ;Eskişehir
+lt;Eskišechiras;Eskişehir
+lv;Eskišehira;Eskişehir
+sr;Ескишехир;Eskişehir
+uk;Ескішехір;Eskişehir
+tr;Eskimağara;Eski Mağara
+de;Eskikarsak;Eski Karşak
+en;Eskikarsak;Eski Karşak
+nl;Eskikarsak;Eski Karşak
+ru;Kaletyul’mara;Eskikale
+ru;Эски-Кале;Eskikale
+tr;Eskieğmir;Eski Eymir
+tr;Aşağı Çamurlu;Aşağıçamurlu
+tr;Bogazkesen;Eskiboğazkesen
+tr;Eskere;Dere
+tr;Yukarı Esentepe;Esentepe
+tr;Eseli;Kızelen
+ru;Эрзурум;Erzurum
+el;Ερζερούμ;Erzurum
+be;Эрзурум;Erzurum
+uk;Ерзурум;Erzurum
+bg;Ерзурум;Erzurum
+sr;Ерзурум;Erzurum
+lt;Erzurumas;Erzurum
+lv;Erzuruma;Erzurum
+el;Θεοδοσιούπολη;Erzurum
+ca;Erzindjan;Erzincan
+it;Erzincam;Erzincan
+ru;Эрзинджан;Erzincan
+bg;Ерзинджан;Erzincan
+lt;Erzindžanas;Erzincan
+sr;Ерзинџан;Erzincan
+uk;Ерзінджан;Erzincan
+pt;Erzincã;Erzincan
+tr;Ertuğrul;Ertuğrulköy
+tr;Eröldüren;Erler
+tr;Hacıhapli;Eriklikuyu
+tr;Erikliköy;Eriklikuyu
+tr;Kömürcü;Erikli Kömürcü
+ru;Эграни;Ergani
+ru;Til’khabesh;Erenyolu
+tr;Eren;Erenköy
+en;Heraclea;Ereğli
+el;Ηράκλεια;Ereğli
+nl;Heraclea Minoa;Ereğli
+ca;Heracleia Minoa;Ereğli
+ru;Эрегли;Ereğli
+sr;Ерегли;Ereğli
+uk;Ереглі;Ereğli
+sv;Herakleia;Ereğli
+tr;Erecak;Ericek
+ru;Эрдемли;Erdemli
+ru;Dyumbil’yan;Erdem
+sr;Ерџиш;Erciş
+tr;Erçelgözlesi;Demirışık
+ru;Gundënyu;Akıncı
+tr;Erbaş;Erbaşı
+it;Distretto di Emirdağ;Emirdağ
+tr;Emircik;Emirhisar
+tr;Eminlik;Bayağıl
+ru;Эмет;Emet
+tr;Eski Emek;Emek
+tr;Emede;Devielhan
+ru;El’syz;Elsız
+ru;Элмалы;Elmalı
+tr;Elmadere;Akbulgur
+ru;Tiz’yan;Elmabahçe
+ru;El’kif;Elkif
+sr;Елешкирт;Eleşkirt
+tr;Elekçi;Doğan
+tr;Eldeleklidemirci;Eldelekli Demirel
+ru;Эльбистан;Elbistan
+ru;Tel’shiriras;Elbeyli
+tr;Elbeğendi;Elbeyendi
+de;Elbeğendi;Elbeyendi
+ru;Кафро;Elbeyendi
+en;Elbeğendi;Elbeyendi
+nl;Elbeğendi;Elbeyendi
+bg;Елязъг;Elazığ
+nl;Elaziğ;Elazığ
+be;Элязыг;Elazığ
+gag;Elazıı;Elazığ
+lt;Eliazihas;Elazığ
+sr;Елазуг;Elazığ
+uk;Елязиг;Elazığ
+ru;Элязыг;Elazığ
+tr;Ekşilik;Ekşiliyurt
+tr;Ekse;Poyrazlı
+tr;Köksal;Köksalköy
+tr;Ekinli;Ekinlik
+tr;Ekinlik;Ekinli
+tr;Kürkçüler;Ekincik
+tr;Evci;Ekinci
+tr;Ekecek;Ekece
+tr;Eğrit;Korubaşı
+tr;Eğriköy;Yeşikova
+el;Έγνερ;Eğner
+tr;Eğmir;Eymir
+tr;Eğerci;Şehitler
+tr;Eğdemir;Yeşildere
+ru;Эдремит;Edremit
+it;Distretto di Edremit;Edremit
+el;Αδραμύττιο;Edremit
+tr;Ece;Eceköy
+tr;Ebülhadi;İncirlikuyu
+tr;Helete;Düzbağ
+tr;Düver;Düğer
+tr;Dutalan;Dutalanı
+ru;Kyunnyufër;Durusu
+tr;Durasıl;Durasıllı
+de;Durasılar;Durasalar
+fi;Durasılar;Durasalar
+pt;Durasılar;Durasalar
+oc;Durasılar;Durasalar
+sk;Durasılar;Durasalar
+sl;Durasılar;Durasalar
+sco;Durasılar;Durasalar
+ca;Durasılar;Durasalar
+sv;Durasılar;Durasalar
+gl;Durasılar;Durasalar
+en;Durasılar;Durasalar
+it;Durasılar;Durasalar
+es;Durasılar;Durasalar
+eu;Durasılar;Durasalar
+cs;Durasılar;Durasalar
+pl;Durasılar;Durasalar
+ro;Durasılar;Durasalar
+da;Durasılar;Durasalar
+tr;Durasılar;Durasalar
+nl;Durasılar;Durasalar
+ru;Дурак;Durak
+tr;Duman;Dumanköy
+el;Τελούχ;Dülük
+en;Doliche;Dülük
+tr;Kalaba;Kafaba
+ru;Сумбас;Sumbas
+tr;Düden;Düdenköy
+tr;Orta;Dualar
+ru;Arpatepekëy;Doruk
+tr;Dontköy;Cukuceylan
+ru;Дондуран;Donduran
+tr;Donbayçayır;Dombayçayırı
+de;Keşefli;Keşaflı
+en;Keşefli;Keşaflı
+nl;Keşefli;Keşaflı
+tr;Dokun;Dolun
+tr;Topaç;Toyga
+tr;Dolan;Yeşilyurt
+tr;Dokuzlu;Kırıt
+pl;Doğubeyazıt;Doğubayazıt
+fr;Doğubeyazıt;Doğubayazıt
+de;Doğubeyazıt;Doğubayazıt
+en;Doğubeyazıt;Doğubayazıt
+it;Dogubayazit;Doğubayazıt
+tr;Doğubeyazıt;Doğubayazıt
+ru;Догубаязит;Doğubayazıt
+sr;Догубајазит;Doğubayazıt
+tr;Doğancılar;Yeşilyurt
+tr;Doğancılar;Doğanevler
+tr;Doğancık;Muharremşah
+tr;Doğanbey Paymalı;Doğanbey
+ru;Доганбей;Doğanbey
+tr;Doğanköy;Eber
+ru;Baz’yan;Doğan
+pl;Amida;Diyarbakır
+pt;Diyarbakir;Diyarbakır
+bg;Диарбекир;Diyarbakır
+ru;Диярбакыр;Diyarbakır
+mk;Дијарбекир;Diyarbakır
+lt;Dijarbakyras;Diyarbakır
+sr;Дијарбакир;Diyarbakır
+el;Ντιγιαρμπακίρ;Diyarbakır
+be;Дыярбакыр;Diyarbakır
+uk;Діярбакир;Diyarbakır
+lv;Dijarbakira;Diyarbakır
+be;Дыўрыйі;Divriği
+bg;Дивриги;Divriği
+sr;Дивриги;Divriği
+tr;Dirlivan;Karaaliler
+tr;Özbenç;Özenç
+tr;Dirgen;Bakımlı
+tr;Gedenosa;Dinçkök
+ru;Динар;Dinar
+it;Distretto di Dinar;Dinar
+tr;Haca;Dilimli
+tr;Dikmetoş;Dikmetaş
+el;Δεκελί;Dikili
+uk;Дікілі;Dikili
+ru;Дикили;Dikili
+tr;Dibekli;Ovacık
+tr;Dibekalan;Sarıalan
+tr;Dibabak;Abak
+tr;Dipabak;Abak
+tr;Devli;Elmadağı
+tr;Devederes;Devederesi
+tr;Deveciler;Şenyayla
+tr;Taşdığın;Deştiğin
+tr;Deştemir;Deşdemir
+tr;Dervişli;Cayır
+tr;Dervişler;Meyvalı
+de;Dervişler;Dervişli
+en;Dervişler;Dervişli
+tr;Dervişler;Dervişli
+nl;Dervişler;Dervişli
+tr;Dervişağa;Demirhisar
+tr;Demir;Demirhisar
+tr;Dersil;Kemaliye
+tr;Dernekler;Dernekli
+tr;Derince;İnişdibi
+ru;Esil’net;Dereyamaç
+tr;Deresevindik;Aşıkpaşa
+tr;Yazıbaşı;Derenti
+tr;Deremahalle;Dere
+tr;Dereli Köy;Dereli
+tr;Dereköy;Kavaklıdere
+tr;Dereköy;Dereuzunyer
+tr;Dereköy;Yeşildere
+tr;Dereköy;Ataköy
+tr;Karaca;Ataköy
+tr;Dereiçi;Dereköy
+tr;Derekaya;Devekayası
+tr;Deregüme;Deregümü
+tr;Deredoğan;Dereboğan
+tr;Deredamı;Deredamları
+ru;Girichyul’yan;Derebaşı
+ru;Дере;Dere
+tr;Örgülü;Derdis
+ru;Дербент;Derbent
+ru;Денизли;Denizli
+lt;Denizlis;Denizli
+sr;Денизли;Denizli
+uk;Денізлі;Denizli
+el;Ντενιζλί;Denizli
+bg;Денизли;Denizli
+be;Дэнізлі;Denizli
+tr;Denevre;Altıntepe
+ru;Til’merch;Demiryol
+tr;Demitepe;Demirtepe
+tr;Annabe;Büyüktaş
+tr;Karataş;Adala
+ru;Адала;Adala
+tr;Makdoğan;Demirköprü
+tr;Demirciveran;Demirciören
+tr;Demirciler;Karaoba
+tr;Demircik;Demircilik
+tr;Demirci;Demirciköy
+tr;Delkan;Temren
+tr;Deliyusuflar;Tatlıpınar
+tr;Deliminnet;Atalar
+ru;Аталар;Atalar
+tr;Dikilitaş;Deliklitaş
+tr;Deliimamlar;Sarıkaya
+tr;Delialmacik;Delielmacık
+tr;Delidemirciler;Demirci
+ru;Derëmer;Şanlı
+tr;Degirmenbogazköy;Değirmenboğazı
+tr;Değirmenalanı;Gökçeören
+tr;Davutlu;Akdam
+ru;Давутлар;Davutlar
+tr;Davut;Davutköy
+tr;Davilya;Aşağıova
+de;Davdanlı;Küçük Davdanlı
+en;Davdanlı;Küçük Davdanlı
+tr;Davdanlı;Küçük Davdanlı
+nl;Davdanlı;Küçük Davdanlı
+tr;Davutabal;Davdana
+tr;Datbay;Datbey
+tr;Günlüce;Datbey
+tr;Aşağıkazanlı;Aşağı Kazanlı
+tr;Darıcık;Günlük
+ru;Даргечит;Dargeçit
+ru;Даренде;Darende
+tr;Dandın;Gökçeli
+ru;Zerdzhil’;Danalı
+tr;Damlık;Sırımlı
+tr;Damarası;Çamlıca
+ru;Дальян;Dalyan
+bg;Далян;Dalyan
+uk;Дальян;Dalyan
+tr;Dallimandira Köyü;Dallımandıra
+ru;Далама;Dalama
+tr;Dailli;Köprübaşı
+tr;Dağyeniköy;Dağyeni
+tr;Dağobası;Dağoba
+tr;Dereköy;Dağdere
+tr;Dağdağan;Dağdan
+tr;Dağçiftliği;Dağçiftliğiköyü
+tr;Dadaşkent;Dadaşköy
+tr;Dadaköy;Dada
+tr;Kapıkaya;Ballıkaya
+tr;Cungurlu;Zeytinçukuru
+tr;Küçük Avare;Cumhuriyet
+ru;Мендерес;Menderes
+tr;Cumali;Cumalı
+tr;Cumaköy;Kızılçukur
+tr;Çukuroba;Çukurova
+tr;Çukurköy;Çankurtaran
+tr;Çukur;Çankurtaran
+tr;Karacalar;Çukurincir
+tr;Çukurgöl Yaylası;Çukurgöl
+tr;Çukurçayır;Yekmalziro
+tr;Çöteli;Çötelli
+ru;Чорум;Çorum
+tr;Çartak;Çardaklı
+tr;Çoruk;Çardaklı
+tr;Anittepe;Anıttepe
+tr;Çöplü;Şenköy
+tr;Çöpköy;Çimentepe
+ru;Këtip;Çömlekli
+tr;Çömlekciköyü;Çömlekçi
+tr;Çömlekçi;Ahirköy
+tr;Çomar;Yeşilköy
+ru;Yeni-Chël’tepekëy;Gültepe
+tr;Çöltepe;Gültepe
+ru;Хаккари;Hakkâri
+sr;Хаћари;Hakkâri
+ru;Chëlkey;Çölköy
+tr;Çöküler;Öreyler
+tr;Büyükatlı;Çoğluhan
+tr;Çobanpınar;Çobanpınarı
+tr;Çobanisa;Çobanlar
+ru;Джизре;Cizre
+tr;Çıtak;Çatak
+tr;Hocasekisi;Hocaseki
+ru;Чиралы;Çıralı
+tr;Çinoglanlar;Cinoğlu
+tr;Pınarcık;Çınarcık
+tr;Çınar;Çınarköy
+tr;Yeni Çimşit;Yeniçimşit
+ru;Chil’giri;Çilgiri
+tr;Çilçile;Çiçekli
+tr;Çiftlikköy;Çiftlik
+tr;Çiftlik;Çiftlikköy
+de;Çiftlik;Çiftlikköy
+en;Çiftlik;Çiftlikköy
+nl;Çiftlik;Çiftlikköy
+ru;Chiftlikkëy;Çiflikköy
+tr;Alaçalı;Çiflikköy
+tr;Çiftkuyu Yaylası;Toscu Yayla
+tr;Yukarışeyh;Çiftevi
+tr;Çiftçiler;Irmaklı
+tr;Çiçekli;Burcukaya
+ru;Джейхан;Ceyhan
+be;Джэйхан;Ceyhan
+sr;Џејхан;Ceyhan
+tr;Cevizli;Cevizlibelen
+tr;Çevirme;Kelek
+tr;Çötenli;Çetenli
+ru;Чешме;Çeşme
+el;Τσεσμέ;Çeşme
+sr;Чешме;Çeşme
+tr;Cersak;Yukarı Polat
+tr;Çercikli;Kakkalan
+tr;Çengeloğlu Çiftliği;Kavukoğlu Çiftliği
+tr;Ormanköy;Orman
+de;Eğerli;Eyerli
+en;Eğerli;Eyerli
+nl;Eğerli;Eyerli
+tr;Cemal;Cemalköy
+tr;Çelik;Çelikköy
+tr;Çelebiler;Çayağzı
+tr;Çekirge;Serinyayla
+tr;Çayırtarla;Kardeşler
+tr;Çayırova;Çayıroba
+tr;Çayırcık;Hacıoğullar
+tr;Çayılı;Gölbaşı
+tr;Çayçinge;Yeşilçay
+ru;Yonakëy;Çaybeyi
+tr;Çay;Çayköy
+ru;Кей;Çay
+tr;Çavuşbucağı;Çavuşir
+tr;Çavuş;Çavuşköy
+ru;Til’këy;Çattepe
+tr;Karşanbey;Çatbaşı
+ru;Chëke;Çatbahçe
+tr;Çataltepeköy;Çataltepe
+tr;Ahırmat;Armağantaşı
+de;Çatalhöyük;Çatalhüyük
+nl;Çatalhöyük;Çatalhüyük
+tr;Çataldere;Çamlıdere
+bg;Читак;Çatak
+sr;Чатак;Çatak
+tr;Kötekler Yaylası;Kötekler
+tr;Çarıkbozdağ;Çarık Tekke
+tr;Çarıkköy;Çarık
+de;Çardak;Çardakköy
+en;Çardak;Çardakköy
+nl;Çardak;Çardakköy
+tr;Çaputlar;Tepeköy
+tr;Çaparlıpatlak;Yeşilköy
+tr;Cumhuriyet;Canlı
+tr;Çandık;Bağlıca
+ru;Чандарлы;Çandarlı
+tr;Çanakçılar;Çanakçı
+ru;Meskenkëy;Çamyurt
+tr;Çamyolu;Kestel
+ru;Кестел;Kestel
+tr;Camızkışlası;Camuzkışlası
+tr;Şekerpınar;Çamurlu
+tr;Comurlu;Çamurlu
+tr;Çamsarı;Yalangöz
+tr;Çammahalle;Çamköy
+tr;Çamlık;Kocaseyit
+tr;Çamoba;Çamköy
+tr;Çam;Çamköy
+tr;Çamköy;Kale
+ru;Анамас;Anamas
+tr;Çamhavlu;Çamavlu
+tr;Çamarası;Pınarlı
+tr;Çallıköy;Çallı
+tr;Çalıkhasanlı;Çalıkhasan
+tr;Dereçerkez;Çaldere
+tr;Çalca;Yeşilköy
+tr;Gökdere;Çakmak
+ru;Shil’yan;Çakırsöğüt
+tr;Çakırlar;Elemanlı
+tr;Elmanlar;Elemanlı
+tr;Çakırbağı;Çakırbağ
+tr;Çağırkan;Çakır
+tr;Çakır;Çakırköy
+tr;Çakıllı;Çakınlı
+tr;Çakıllar;Çakaldoğan
+tr;Çakallı;Çınarlı
+tr;Çakallar;Çamlıca
+tr;Çakallar;Çamköy
+tr;Çakallar;Menteşe
+tr;Çakaldamlari;Yaylaköy
+tr;Çakal;Güllübağ
+tr;Mehmetobası;Gaziler
+de;Çakşırlı;Çağşırlı
+en;Çakşırlı;Çağşırlı
+nl;Çakşırlı;Çağşırlı
+tr;Cabertarar;Özpınar
+tr;Caberkamara;Caber Konaklı
+tr;Kamera;Caber Konaklı
+tr;Burhan;Caber Burhan
+tr;Çabal;Çabala
+tr;Buzaglik;Buzağılık
+tr;Büyükzok;Türkeli
+ru;Byuyuk-Tyul’men;Tülmen
+tr;Küçükgümüşlü;Tapurikebir
+tr;Tapurusağir;Tapurikebir
+tr;Tapurisağir;Tapurikebir
+tr;Küçüktapur;Tapurikebir
+tr;Büyük Sünbüller;Büyük Sümbüller
+tr;Büyükkonak;Büyükkonakgörmez
+tr;Büyükkestanelik;Kestanelik
+tr;Pınarbaşı;Yeniköy
+tr;Pınarbaşı Yaylası;Yeniköy
+tr;Büyükkardeş;Büyük Kardeş
+tr;Büyükilet;Demirbilek
+tr;Büyükgürleğen;Büyükgürleyen
+tr;Büyük Geçit;Büyükgeçit
+ru;Белкис;Aspendos
+tr;Büyükayrık;Büyük Ayrık
+tr;Armutlu;Büyükarmutlu
+tr;Büyük Armutlu;Büyükarmutlu
+tr;Büyük Alonlı;Büyük Alanlı
+tr;Büyükakören;Büyük Akören
+tr;Türkşerefli;Şerefli
+tr;Bumsuz;Burunsuz
+de;Bumsuz;Burunsuz
+en;Bumsuz;Burunsuz
+fr;Bumsuz;Burunsuz
+nl;Bumsuz;Burunsuz
+ru;Бурук;Buruk
+tr;Çubukdağı;Buharkent
+tr;Burhan;Burhanköy
+tr;Burgaz;Bağlıca
+tr;Burgaz;Bayırlı
+tr;Bargaç;Burgaç
+ru;Бурдур;Burdur
+el;Μπουρντούρ;Burdur
+uk;Бурдур;Burdur
+tr;Buluklu;Dorukent
+tr;Bulmaç;Bükçeğiz
+ru;Булдан;Buldan
+tr;Gündüz;Gündüzköy
+ru;Benabil’;Bülbül
+de;Hisar;Hisarköy
+en;Hisar;Hisarköy
+ru;Tak’yan;Buğdaylı
+tr;Bucak;Bucakköy
+tr;Bucak;Gölyaka
+ru;Буджак;Bucak
+tr;İkiçınar;İkizçınar
+ru;Mel’kha;Bozyazı
+ru;Бозязы;Bozyazı
+tr;Bozyaka;Kirazlıyayla
+ru;Бозтепе;Boztepe
+tr;Bozpınar;Dallı
+ru;Бозова;Bozova
+tr;Bozoba;Bozaba
+tr;Köylüler;Bozlar
+tr;Bozyaka;Bozlar
+it;Distretto di Bozkurt;Bozkurt
+ru;Бозкурт;Bozkurt
+tr;Bakır;Bozkır
+en;Tenedos;Bozcaada
+fr;Ténédos;Bozcaada
+it;Distretto di Tenedo;Bozcaada
+el;Τένεδος;Bozcaada
+bg;Тенедос;Bozcaada
+uk;Бозджаада;Bozcaada
+lt;Bozkada;Bozcaada
+pl;Bozca;Bozcaada
+ru;Бозджаада;Bozcaada
+en;Castro;Bozcaada
+ru;Бозбурун;Bozburun
+tr;Bozarmut Mezraasi;Sarıtaş
+tr;Aşağı Bozarmut;Bozarmut
+ru;Бозармут;Bozarmut
+ru;Бозан;Bozan
+ru;Бозалан;Bozalan
+tr;Boyunkaya;Boyunyaka
+tr;Boydereköy;Boydere
+ru;Gel’dikyan;Boybeyi
+tr;Boyasın;Esençay
+tr;Boyalı;Karapınar
+tr;Yukarı Bostan;Yukarı Bostancı
+tr;Boşnaktepe;Çepni Bektaş
+el;Μπουρνόβας;Bornova
+ru;Борнова;Bornova
+ru;Борлу;Borlu
+tr;Bören;Koçarboğazı
+tr;Bördelik;Yalnızçam
+ru;Бор;Bor
+bg;Бор;Bor
+it;Distretto di Bor;Bor
+tr;Bölükviran;Bölükören
+ru;Shikh”yakul;Bolatlar
+tr;Bögdelik;Böğrügedik
+ru;Kel’ketir;Boğazören
+tr;Boğazköy;Boğaz
+ru;Богазкей;Boğazköy
+tr;Boğazgören;Boğazören
+tr;Boğazçiftliği;Boğazçiftlik
+bg;Бодрум;Bodrum
+ru;Бодрум;Bodrum
+sr;Бодрум;Bodrum
+el;Αλικαρνασσός;Bodrum
+uk;Бодрум;Bodrum
+mk;Бодрум;Bodrum
+de;Bodrum-Torba;Bodrum
+tr;Becen;Böçen
+tr;Bıyıklar;Çoruk
+ru;Битлис;Bitlis
+bg;Битлис;Bitlis
+uk;Бітліс;Bitlis
+sr;Битлис;Bitlis
+tr;Gömbe;Bitişik
+ru;Birkhalil’;Birhalil
+ru;Биреджик;Birecik
+ru;Бингол;Bingöl
+sr;Бинђол;Bingöl
+en;Bingoel;Bingöl
+tr;Bilezikli Yaylası;Bozcamahmut Yaylası
+ru;Биледжик;Bilecik
+ru;Bil’bis;Tepebaşı
+tr;Biçerli;Tesecik
+ru;El’ki;Beytüşşebap
+ru;Бейшехир;Beyşehir
+el;Κλαυδιοκαισάρεια;Beyşehir
+el;Μίσθεια;Beyşehir
+tr;Beylice;Fenek
+ru;Beykëy;Beyköy
+tr;Beyköyü;Ecebeli
+tr;Beyköy;Esenköy
+tr;Esen;Esenköy
+tr;Beye Köyü;Beke
+tr;Beydiyin;Serinyayla
+tr;Bespinar Köyü;Beşpınar
+ru;Юкары-Лори;Beşpınar
+ru;Бесни;Besni
+tr;Beşikdüzü;Beşıkduzu
+tr;Beşik;Beshik
+es;Pérgamo;Bergama
+fr;Pergame;Bergama
+pl;Pergamon;Bergama
+bg;Пергам;Bergama
+fi;Pergamon;Bergama
+gl;Pérgamo;Bergama
+hu;Pergamon;Bergama
+it;Pergamo;Bergama
+nl;Pergamon;Bergama
+no;Pergamon;Bergama
+pt;Pérgamo;Bergama
+ru;Пергам;Bergama
+sv;Pergamon;Bergama
+sv;Pergamos;Bergama
+tr;Bereketli;Gümüşdere
+tr;Berbuş;Beterh
+tr;Berakmusluk;Berakmuslu
+tr;Benliali;Benlieli
+ru;Pirkhalil’;Pirhalil
+tr;Belli;Sırma
+tr;Belhan;Görendadaş
+tr;Belezlerköyü;Yeniköy
+tr;Belenköy;Küçük Belen
+tr;Belenköy;Belen
+tr;Belenkeşlik;Dalakdere
+ru;Белен;Belen
+ru;Белек;Belek
+bg;Белек;Belek
+lt;Belekas;Belek
+uk;Белек;Belek
+mk;Белек;Belek
+ru;Белдиби;Beldibi
+tr;Bektaşderesi;Macarlı
+tr;Bektaş;Bektaşköy
+tr;Bekmış;Aksaz
+tr;Bekköy;Bekiköy
+tr;Bekirler;Bekirli
+tr;Bekirler;Kobaklar
+tr;Bekirde;Civanyaylağı
+tr;Civanyayl;Civanyaylağı
+ru;Бехрамкале;Behram
+en;Assos;Behram
+tr;Bebek;Bebekköy
+tr;Bayramlı;Kurbanlı
+de;Bayralar;Bayraklar
+en;Bayralar;Bayraklar
+tr;Bayralar;Bayraklar
+nl;Bayralar;Bayraklar
+tr;Baykuşlar;Yeni Bağyaka
+tr;Bayır Kozağacı;Bayırkozaağacı
+tr;Armutağaç;Bayırköy
+tr;Bayırköy;Bayır
+tr;Bayındır Yaylası;Kutludüğün Yaylası
+ru;Байиндыр;Bayındır
+de;Bayatbademleri;Bayatbademlesi
+en;Bayatbademleri;Bayatbademlesi
+tr;Bayatbademleri;Bayatbademlesi
+nl;Bayatbademleri;Bayatbademlesi
+tr;Batmaz;Batıköy
+tr;Batı;Batıköy
+ru;Батман;Batman
+be;Батман;Batman
+bg;Батман;Batman
+el;Μπατμάν;Batman
+lt;Batmanas;Batman
+sr;Батман;Batman
+uk;Батман;Batman
+tr;Batıçanakçı;Batı Çanakçı
+ru;Bos’yat;Taşçı
+ru;Gëlyukyan;Başova
+tr;Başören;Başveran
+ru;Башвиран;Başören
+tr;Başlıca;Başlıoğlu
+tr;Boşlamış;Başlamış
+ru;Bashkëy;Başköy
+tr;Başköy;Yeşil Başköy
+ru;Tel’kabin;Başköy
+tr;Başkif;Başkıf
+sr;Башкале;Başkale
+tr;Başaran;Yukarı Durmuş
+ru;Razvaliny Tel’dib;Başaklı
+ru;Барла;Barla
+ru;Batykëy;Bardakçı
+ru;Баназ;Banaz
+tr;Telhadar;Balkat
+ru;Tel’khadar;Balkat
+es;Balikesir;Balıkesir
+ru;Балыкесир;Balıkesir
+be;Балыкесір;Balıkesir
+bg;Балъкесир;Balıkesir
+el;Μπαλικεσίρ;Balıkesir
+lt;Balikesyras;Balıkesir
+sr;Балукесир;Balıkesir
+uk;Баликесір;Balıkesir
+lv;Balikesira;Balıkesir
+tr;Baldıran İskanı;Kavalık
+tr;Balcıdere;Pınarbağa
+es;Mileto;Balat
+da;Milet;Balat
+el;Μίλητος;Balat
+eu;Mileto;Balat
+fi;Miletos;Balat
+it;Mileto;Balat
+no;Milet;Balat
+pt;Mileto;Balat
+ru;Балат;Balat
+sk;Milét;Balat
+sr;Милет;Balat
+sv;Miletos;Balat
+is;Míletos;Balat
+mk;Милет;Balat
+br;Miletos;Balat
+hu;Milétosz;Balat
+ru;Балабан;Balaban
+ru;Бала;Bala
+tr;Bakraç;Bakraçlı
+ru;Баклан;Baklan
+tr;Büyükzengi;Bakırpınarı
+tr;Bakır;Çakıralan
+tr;Bakacakköy;Bakacak
+tr;Yağmuralan;Bahtiyar
+tr;Kömürlü;Kömürler
+tr;Bahçeköy;Bahçe
+tr;Behariye;Bahariye
+tr;Bahaettinler;Bahadırlar
+tr;Bağobası;Bağovası
+ru;Sikh’yan;Bağlıca
+tr;Bağaziçi;Bağiçi
+tr;Bağgöze;Balgöze
+de;Eğiste;Bağbaşı
+en;Eğiste;Bağbaşı
+tr;Eğiste;Bağbaşı
+ru;Бадемлер;Bademler
+ru;Бабаторун;Babatorun
+en;Aivali;Ayvalık
+ru;Айвалык;Ayvalık
+sr;Ајвалук;Ayvalık
+tr;Aykut;Aykutköy
+tr;Orhan;Orhanköy
+tr;Aydoğan;Aydoğdu
+ru;Këryuk;Aydınkonak
+tr;Aydınkent;İbradı
+ru;Айдынджык;Aydıncık
+ru;Айдин;Aydın
+de;Tralleis;Aydın
+it;Tralli;Aydın
+ru;Айдын;Aydın
+en;Aydin;Aydın
+es;Aydin;Aydın
+be;Айдын;Aydın
+da;Aydin;Aydın
+sr;Ајдун;Aydın
+uk;Айдин;Aydın
+lt;Aidinas;Aydın
+el;Αϊδίνιο;Aydın
+bg;Айдън;Aydın
+pt;Aydín;Aydın
+tr;Aşyurdu;Avsuyu
+ru;Авсаллар;Avsallar
+tr;Akaçatepe;Akçatepe
+ru;Akvamas’ya;Toptepe
+tr;Recepköy;Recep
+tr;Avdil;Çınarbaşı
+de;Avadan;Avdan
+en;Avadan;Avdan
+nl;Avadan;Avdan
+tr;Avadan;Avdan
+tr;Avcılar;Avcılarsuyu
+ru;Аванос;Avanos
+tr;Alyaran;Atyutan
+tr;Ataköy;Atalar
+tr;Asmalidere Köyü;Asmalıdere
+ru;Til’khalit;Asmacık
+ru;Асланапа;Aslanapa
+tr;Asaroba;Erenler
+tr;Asardamı;Yeşilköy
+tr;Aşağı Yazur;Yeşilköy
+tr;Yığınçal;Aşağıyığınçal
+tr;Aşağı Yerikler;Aşağı Yirikler
+tr;Aşağıyabanlı;Aşağı Yabanlı
+tr;Aşağıtefen;Aşağı Güllüce
+tr;Aşağıtarlacık;Aşağı Tarlacık
+tr;Yukarıtaf;Özler
+tr;Büyük Taf;Özler
+tr;Büyüköz;Özler
+tr;Aşağı Sutaşlı;Aşağısutaşlı
+tr;Aşağısutaşı;Aşağısutaşlı
+tr;Aşağısusuz;Akpınar
+ru;Ashagy-Sil’sile;Aşağı Silsile
+tr;Aşağışakran;Aşağı Şakran
+tr;Aşağı Saklıca;Aşağısaklıca
+tr;Aşağıocak;Aşağı Ocak
+tr;Aşağımollaali;Aşağı Mollaali
+de;Aşağıköselerli;Aşağıköseler
+en;Aşağıköselerli;Aşağıköseler
+tr;Aşağıköselerli;Aşağıköseler
+nl;Aşağıköselerli;Aşağıköseler
+tr;Aşağıkonak;Aşağı Konak
+tr;Aşağı Katırlı;Aşağıkatırlı
+tr;Aşağı Karahayıt;Karahayıt
+tr;Aşağıkaraçay;Karaçay
+tr;Aşağıkabakulak;Beyazsaray
+tr;Aşağı Işıklı;Aşağıışıklı
+tr;Ikizçınar;Aşağıirnabol
+ru;Ashagy-Kharbetil’salim;Gülveren
+tr;Aşağıhacibey;Aşağı Hacıbey
+tr;Aşağıgünlüce;Günlüce
+tr;Aşağı Erhacı;Aşağıerhacı
+tr;Aşağıekinciler;Ekinciler
+tr;Aşağıdolay;Aşağı Dolay
+de;Aşağıdolay;Aşağı Dolay
+fi;Aşağıdolay;Aşağı Dolay
+pt;Aşağıdolay;Aşağı Dolay
+oc;Aşağıdolay;Aşağı Dolay
+sk;Aşağıdolay;Aşağı Dolay
+sl;Aşağıdolay;Aşağı Dolay
+ca;Aşağıdolay;Aşağı Dolay
+sco;Aşağıdolay;Aşağı Dolay
+sv;Aşağıdolay;Aşağı Dolay
+gl;Aşağıdolay;Aşağı Dolay
+en;Aşağıdolay;Aşağı Dolay
+it;Aşağıdolay;Aşağı Dolay
+es;Aşağıdolay;Aşağı Dolay
+eu;Aşağıdolay;Aşağı Dolay
+cs;Aşağıdolay;Aşağı Dolay
+pl;Aşağıdolay;Aşağı Dolay
+ro;Aşağıdolay;Aşağı Dolay
+da;Aşağıdolay;Aşağı Dolay
+nl;Aşağıdolay;Aşağı Dolay
+tr;Aşağıderince;Eskiyol
+tr;Aşağı Çiftlikköy;Aşağıçiftlikköy
+tr;Aşağıcayan;Olgun
+tr;Aşağı Çandır;Çandır
+tr;Aşagı Dikme;Aşagı Dikmen
+ru;Ashagy-Tel’fidan;Aşağı Beğdeş
+tr;Aşağıballık;Aşağı Ballık
+tr;Aşağı Aratan;Aşağıaratan
+tr;Aşağı Ağadeve;Aşağıağadeve
+tr;Artacak;Artıcak
+tr;Arslanyaylası;Arslanyazı
+tr;Arslanyakası;Arslanyaka
+tr;Arslanlı;Soylu
+ru;Yukary-Tel’shair;Arpatepe
+tr;Arpadereköy;Arpadere
+tr;Arpaçukuru;Armutalanı
+tr;Armutalan Köyü;Armutalanı
+tr;Armutalan;Armutalanı
+tr;Arpaç;Arpaçsakarlar
+ru;Армутлу;Armutlu
+tr;Armutlu;Beyağacı
+tr;Armut;Armutköy
+tr;Ortaarıca;Arıca
+tr;Akgıl;Argıl
+de;Terman;Ardıçoluk
+en;Terman;Ardıçoluk
+tr;Terman;Ardıçoluk
+tr;Ardıçalanı;Ardıçalan
+tr;Ardıç;Ardıçköy
+ru;Ардаган;Beykent
+ru;Арас;Aras
+tr;Arapşah;Yeni Pınar
+tr;Arapşah;Tepepınar
+tr;Arappinar Köyü;Arappınar
+tr;Araplı;Arnavut Kahveleri Mahallesi
+ru;Юрегир;Yüreğir
+tr;Araplar;Işıktepe
+tr;Araplar;Akarsu
+tr;Arapçı;Pamukyazı
+ru;Аран;Aran
+ru;Аралык;Aralık
+ru;Tel’nashir;Araköy
+ru;Арабан;Araban
+tr;Arabacibozköy;Arabacıbozköy
+tr;Aptal;Çayköy
+tr;Apsun;Uzunkaş
+el;Αττάλεια;Antalya
+bg;Анталия;Antalya
+pt;Antália;Antalya
+ru;Анталья;Antalya
+ru;Анталия;Antalya
+mk;Анталија;Antalya
+uk;Анталья;Antalya
+sr;Анталија;Antalya
+bs;Antalija;Antalya
+lt;Antalija;Antalya
+be;Анталья;Antalya
+lv;Antalja;Antalya
+es;Antioquía;Antakya
+el;Αντιόχεια;Antakya
+de;Antiochia am Orontes;Antakya
+bg;Антакия;Antakya
+bs;Antiohija;Antakya
+ca;Antioquia;Antakya
+cs;Antiochie;Antakya
+da;Antiokia;Antakya
+fi;Antiokia;Antakya
+hu;Antiochia;Antakya
+it;Antiochia di Siria;Antakya
+nl;Antiochië;Antakya
+pt;Antioquia;Antakya
+ru;Антиохия;Antakya
+sr;Антиохија;Antakya
+sv;Antiochia vid Orontes;Antakya
+ru;Антакья;Antakya
+fr;Antioche;Antakya
+es;Angora;Ankara
+bg;Анкара;Ankara
+ca;Ancyra;Ankara
+el;Άγκυρα (Ankyra);Ankara
+gl;Ancara;Ankara
+pt;Ancara;Ankara
+ru;Анкара;Ankara
+sr;Анкара;Ankara
+uk;Анкара;Ankara
+be;Анкара;Ankara
+mk;Анкара;Ankara
+tr;Anapınarı;Anapınar
+ru;Анамур;Anamur
+tr;Anbartepe;Ambartepe
+tr;Ambar;Anbar
+ru;Амбар;Ambar
+tr;Boğaziçi;Amasya
+tr;Değirmenbükü;Amasya
+tr;Altınoluk;Altıoluk
+tr;Atınhüseyin;Altınhüseyin
+tr;İşğen;Altınbaşak
+ru;Алпу;Alpu
+tr;Alpanos;Uzunçam
+tr;Alkan;Alhan
+tr;Alibeyköyü;Alibey
+ru;Алиага;Aliağa
+tr;Alayurt;Alayunt
+tr;Alayenli;Alaybeyli
+tr;Alaylı;Alaybeyli
+tr;Alayinli;Alaybeyli
+tr;Alata;Kargıcak
+ru;Алашехир;Alaşehir
+el;Φιλαδέλφεια;Alaşehir
+lt;Alašechiras;Alaşehir
+uk;Алашехір;Alaşehir
+ru;Алания;Alanya
+ru;Аланья;Alanya
+lv;Alanja;Alanya
+lt;Alanija;Alanya
+uk;Аланія;Alanya
+sr;Аланија;Alanya
+tr;Alan;Alanköy
+tr;Alangöllü;Alangüllü
+tr;Alangülü;Alangüllü
+ru;Аламут;Alamut
+tr;Alakilise;Şenköy
+tr;Alakaynak;Alkaynak
+tr;Alaiye;Alanyalı
+tr;Alagöz;Alagez
+ru;Bakys”yan;Alagöz
+ru;Alagëz;Alagöz
+tr;Alacık;Aktepe
+en;Alacati;Alaçatı
+en;Alachati;Alaçatı
+ru;Алачати;Alaçatı
+tr;Alacaçesme;Samralar
+ru;Турлук;Turluk
+tr;Balcılar;Alacak
+tr;Alacabayir Köy;Alacabayır
+tr;Yayla;Akyayla
+ru;Актузла;Aktuzla
+ru;Актопрак;Aktoprak
+ru;Aktepekëy;Aktepe
+ru;Актепе;Aktepe
+tr;Akbaş;Aktaş
+tr;Aktam;Akdam
+ru;Аксу;Aksu
+el;Φιλομήλιον;Akşehir
+tr;Çevre;Çevreköy
+ru;Аксарай;Aksaray
+uk;Аксарай;Aksaray
+el;Ακσαράι;Aksaray
+be;Аксарай;Aksaray
+bg;Аксарай;Aksaray
+sr;Аксарај;Aksaray
+lt;Aksarajus;Aksaray
+tr;etrafşehir;Akoluk
+tr;Gökçekent;Özlüce
+tr;Sarıvadi;Özlüce
+ru;Akkuyukëy;Akkuyu
+ru;Аккей;Akköy
+tr;Akkilise;Akyazı
+tr;Dereiçi;Akyazı
+tr;Kırmıtlık;Akkerpiç
+ru;Аккент;Akkent
+tr;Akin;Akın
+tr;Akın;Akin
+de;Thyatira;Akhisar
+sv;Thyatira;Akhisar
+ru;Акхисар;Akhisar
+be;Акхісар;Akhisar
+bg;Акхисар;Akhisar
+ca;Ak Hisar;Akhisar
+lt;Akchisaras;Akhisar
+sr;Акхисар;Akhisar
+ru;Акконак;Akkonak
+ru;Акдере;Akdere
+ru;Акдам;Akdam
+tr;Akçenga;Akçenger
+de;Akçalı;Akçal
+tr;Akçaköy;Akça
+ru;Akchakëy;Akçaköy
+tr;Akça;Akçaköy
+tr;Akçakilise;Üstübeç
+tr;Akçakese;Yukarışehitkemal
+tr;Yeni Şehitkemal;Yukarışehitkemal
+tr;Akçakepir;Akçakebir
+ru;Акчакале;Akçakale
+ru;Gil’mis;Akça
+tr;Aburman;Akbulut
+ru;Акарсу;Akarsu
+ru;Акалан;Akalan
+ru;Ахлат;Ahlat
+sr;Ахлат;Ahlat
+tr;Yukarıçalı;Yukarı Çalı
+tr;Ahirköy;Kardeşköy
+en;Ağzıbüyük;Ağızbüyük
+tr;Ağzıbüyük;Ağızbüyük
+tr;Ağviran;Duruca
+tr;Akören;Ağören
+tr;Ağla;Yayla
+tr;Kozören;Ağızören
+tr;Ağzıören;Ağızören
+tr;Ağırtoş;Ağırtaş
+tr;Ağılköy;Ağıllar
+tr;Alıcaören;Akçaören
+tr;Ağaç;Ağaçköy
+de;Afyon;Afyonkarahisar
+gl;Afion;Afyonkarahisar
+tr;Afyon;Afyonkarahisar
+ru;Афьонкарахисар;Afyonkarahisar
+be;Афён;Afyonkarahisar
+bg;Афионкарахисар;Afyonkarahisar
+ca;Afyonkara Hisar;Afyonkarahisar
+el;Αφιόν Καραχισάρ;Afyonkarahisar
+lt;Afjonkarahisaras;Afyonkarahisar
+sr;Афионкарахисар;Afyonkarahisar
+uk;Афьон-Карахісар;Afyonkarahisar
+ru;Афьон-Карахисар;Afyonkarahisar
+lv;Afjonkarahisara;Afyonkarahisar
+es;Afyonkarahissar;Afyonkarahisar
+es;Adiyaman;Adıyaman
+cs;Adıyamanská;Adıyaman
+ru;Адыяман;Adıyaman
+be;Адыяман;Adıyaman
+bg;Адъяман;Adıyaman
+el;Αντιγιαμάν;Adıyaman
+lt;Adijamanas;Adıyaman
+sr;Адијаман;Adıyaman
+uk;Адияман;Adıyaman
+fr;Adiyaman;Adıyaman
+ru;Адилджеваз;Adilcevaz
+tr;Adilköy;Adil
+el;Αντιόχεια;Adana
+sq;Adanë;Adana
+ru;Адана;Adana
+el;Άδανα;Adana
+sr;Адана;Adana
+bg;Адана;Adana
+be;Адана;Adana
+mk;Адана;Adana
+uk;Адана;Adana
+tr;Adamfaki;Adamfakı
+tr;Ada;Adaköy
+tr;Ada;İkizler
+tr;Abya;Pınarcık
+tr;Abdurrahman;Yeniköy
+tr;Yesikuyu;Yeşiltepe
+tr;Abdalköy;Uyanık
+tr;Devletçiftliği;Karadedeli
+tr;Avşar;Atakent
+ru;Атакент;Atakent
+tr;Ayaştürkmenli;Susananoğlu
+tr;Kızılbağ;Merkez
+tr;Değirmendere;Değiremendere
+tr;Kuzuculu;Turunchgiller
+ru;Mergamir”yan;Alancık
+tr;Aşağıçeşme;Aşağı Çeşme
+nl;Altinkum;Altınkum
+tr;Kurucahöyük;Kurucahüyük
+tr;Savaş;Savaşköy
+ru;Yukary-Sil’sile;Yukarı Silsile
+tr;Kefersarı;Kuruçay
+tr;Barna;Demirkonak
+tr;Kandevir;Üçdamlar
+tr;Kerzin;Nahırtepe
+ru;Adzherkëy;Acar
+ru;Til’bashar;Tilbaşar
+ru;Til’kharkhub;Karadibek
+tr;Harnoba;Karadibek
+ru;Khëtolgu;Hotoğlu
+tr;Mukbili;Taşlı
+tr;Dazhöyük;Dazhüyük
+tr;Seydümen;Balaban
+tr;Seğdümen;Balaban
+tr;Keçikuyu;Keçikuyusu
+ru;Yenikëy;Yeniköy
+tr;Biris;Aşağı Kuyucak
+tr;Aşağı Kuyucan;Aşağı Kuyucak
+tr;Şopik;İzci
+ru;Chukurtel’kharman;Çukurtelharman
+ru;Yukary-Chemgëk;Yukarıçemgök
+ru;Makhmutkëy;Mahmutköy
+ru;Gëmmekuyu;Gömmekuyu
+tr;Alibey;Ziyaret
+ru;Gibeykëy;Gibeyköy
+ru;Ashagy-Chemgëk;Aşağıçemgök
+tr;Boydi;Yumurtalık
+tr;Tilkarit;Kurutepe
+ru;Këseler;Köseler
+ru;Til’khutik;Tilhutik
+ru;Gëlech;Göleç
+ru;Shar’yani;Şaryanı
+tr;Şazyanı;Şaryanı
+ru;Këroglu;Köroğlu
+tr;Kaplan;Kaplanköy
+ru;Birëmer;Birömer
+ru;Karakuyukëy;Karakuyu Köyü
+ru;Gël’dzhyuk;Gölcük
+ru;Denizkëy;Deniz Köy
+ru;Kharapkhalil’;Haraphalil
+tr;Bahşiş;Atlıkonak
+ru;Gëllyudzhe;Göllüce
+ru;Ashagy-Gëbekli;Aşağı Göbekli
+tr;Telesvet;Karatepe
+tr;Kamereddin;Buket
+ru;Këseviran;Köseviran
+tr;İğde;Erdemler
+ru;Khalave-Ummyul’kubur;Sınırgören
+ru;Kharbetel’maaz;Akkeçi
+ru;Kharbetel’sherif;Kurudere
+ru;Kharbetel’salikh;Harbetelsalih
+tr;Harbetülhasani;Karaman
+ru;Kharbetyul’-Khasani;Karaman
+tr;Kahraman;Karaman
+ru;Kharbetyul’-Khasani;Harbetülhasani
+tr;Telbağdat;Yamaçaltı
+ru;Tel’bagdat;Yamaçaltı
+ru;Kharbetel’redzhep;Akkuş
+tr;Doruçköyu;Doruç
+tr;Akçere;Kökenli
+tr;Keberli;Buldum
+ru;Tel’khadar;Telhadar
+ru;Gëzele;Gözele
+tr;Gayda;Öncüler
+ru;Tel’khalip;Sütlüce
+tr;Garbi Mugayre;Akbilek
+ru;Kherbetel’shiddo;Zorlu
+tr;İlle;Öncül
+ru;Kërkan;Körhan
+tr;Gülük;Yoncadüzü
+ru;Uchgëz;Üçgöz Yaylası
+ru;Mel’khemli-Tarla;Melhemlitarla
+ru;Burun-Dzhuk’yazysy;Buruncukyazısı
+ru;El’malydyuz;Elmalıdüz
+ru;Duranyn’yurdi;Duranınyurdu
+tr;Yukarı Bucak;Yukarıbucak
+ru;Kyran’yurdu;Kıranyurdu
+ru;Temrekgëlyu;Demrek
+ru;Khalil’yailasy;Halilyaylası
+tr;Kurna;Boğaziçi
+ru;Këklyu;Köklü
+ru;Kërakhmet-Khyuyugyukey;Körahmethüyüğü
+tr;Kale;Kaleobası
+ru;Gëkëmerëreni;Gökömeröreni
+ru;Kumpan’ya-Saylagly;Kumpanyasaylağı
+tr;Karahöyüğü;Koruhüyüğü
+ru;Delichaykëy;Deliçay
+de;Haydarlar;Haydarbanısı
+en;Haydarlar;Haydarbanısı
+ru;Chatal’yurt;Çatalyurt
+ru;Khadzhikëpryu;Hacıköprü
+ru;Khadzhikëy;Hacıköy
+ru;Chukurobakëy;Çukuroba
+ru;Kyuchyukkëy;Topadağ
+ru;Yenikëy;Yeni
+ru;Gëkcheler;Gökçeoğlu
+tr;Uzunkeli;Muharrem
+ru;Karacalık;Karacanlık
+ru;Pashakëy;Paşaköy
+ru;Zyulyuflyukhankëy;Zülüflühan
+tr;Güventaş;Güventaşı
+ru;Këkcheli;Kökçeli
+ru;Yukary-Chëngen;Yukarı Kepirce
+tr;Keprige;Yukarı Kepirce
+tr;Kandil;Kandıl
+ru;Mukhadzhirkëy;Muhacirköy
+tr;Sarımazı;Kurtlusarımazı
+ru;Chirkingilë;Çirkingil
+ru;Tëkdere;Gökdere
+tr;Kuzuluçukur;Kozuluçukur
+ru;Кызкалеси;Kızkalesi
+ru;Sëgyutlyualan;Kömurçukuru
+tr;Söğütlüöz;Acaroba
+ru;Kërpynar;Körpınar
+tr;Aygır Göl;Aygırgölü
+ru;Adzhazkëy;Acarköy
+tr;Kızılkaya;Muratpaşa Kızılkaya
+ru;Këtyuoba;Abalaklı
+ru;Gël’Bashkarshi;Gölbaşı
+tr;Güntepe;Tilyat
+ru;Arapkëy;Şarkihamen
+tr;Hamam;Şarkihamen
+tr;Veliş;Yesilyaka
+tr;Yeriş;Yesilyaka
+ru;Gëkcheoglu;Gökçeoğlu
+ru;Kastal’-Kabeliya;Kabeliya
+ru;Dal’yankëy;Dalyan Köy
+tr;Terzihöyük;Terzihüyük
+tr;Canbulat;Canbulak
+ru;Arpatepekëy;Arpatepe
+tr;Güzeltepe;Kuzeytepe
+ru;Gyuzel’burun;Güzelburç
+ru;Кастал;Kastal
+ru;Këtyubyuyuk;Kötübüyük
+tr;Habestüylü;Açıkdere
+tr;Akçurum;Akcurun
+tr;Bostan;Bostancık
+ru;Дурсунлу;Dursunlu
+tr;Kurtmezrası;Kurtmezraası
+tr;Uyandı;Mayadalı
+tr;Asakirli;Akınyolu
+tr;Mermeris;Tokaçlı
+tr;Akantaş;Akamber
+tr;Akambar;Akamber
+tr;Dur;Oymaklı
+tr;Çaksunlu;Dağdüzü
+tr;Bağdüzü;Dağdüzü
+tr;Güzene;Gözene
+ru;Учаыз;Uchagyz
+ru;Учагыз;Uchagyz
+tr;Besibaba;Günvuran
+tr;Ölencik;Gözecik
+tr;Büyükdalyan;Büyük Dalyan
+tr;Mustaba;Mustafa
+tr;Hisarcı;Hisarcık
+ru;Dëgentash;Döğentaş
+tr;Kabacinar;Kabaçınar
+tr;Çatalhöyük;Çatalhüyük
+tr;Marata;Murallı
+ru;Gazi’yursel’-Tepekëy;Gazigürsel Tepesi
+tr;Gozimürseltepesi;Gazigürsel Tepesi
+ru;Узункавак;Uzunkavak
+tr;Karaelmaslı;Karaelma
+tr;Kömürçukuru;Karaelma
+tr;Arapıl;Arpalı
+ru;İrs;Gedikaşar
+ru;Keshkyul’;Keşkül
+ru;Mil’yanis;Milyanis
+ru;Kim’yanis;Kimyanis
+ru;Bil’mat;Bilmar
+ru;Isakëy;İsaköy
+tr;Ziyaret Köyü;Ziyaret
+ru;Avachal’yan;Avaçalyan
+ru;Басаран;Basaran
+tr;Ayvalı;Ayvalık
+ru;Zivingëk;Çevizlik
+ru;Sel’man;Selman
+ru;Tel’makhris;Akdilek
+tr;Suyacık;Suvacık
+ru;Tel’sheb;Özlü
+ru;Gërta;Küpeli
+ru;Gërta;Görta
+ru;Tel’cheme;Bellitaş
+ru;Tel’khunta;Buğdaytepe
+ru;Tel’nasyr;Telnasır
+ru;Tel’khalip;Telhalip
+tr;Darıca;Huveytle
+tr;Bir Alessebi;Arslankuyusu
+ru;Til’mukhimit;Til Muhimit
+ru;Kharabetyul’-Khasan;Harabetül Hasan
+ru;Kharidzhtel’dzhakhsh;Altılı
+ru;Tayyip-Ummyul’divere;Tayyip ümmül Divere
+ru;Khashimtel’kharman;Haşim tel Harman
+ru;Resmel’khaber;Toytepe
+ru;Булутлу;Bulutlu
+tr;Pekmezci;Pekmezli
+tr;Akmeşet;Akmeşat
+ru;Resmel’khalule;Dolutepe
+ru;Ummyul’sedzhere;Yaygılı
+tr;Aşağı Doruklı;Aşağıdoruklu
+tr;Şıhrıcum;Avcılı
+tr;Yusufharabası;Işıklar
+tr;Dikici;Dikili
+ru;Derekolkëshk;Derekolköşk
+ru;Këpekli;Eliaçık
+ru;Gëksukey;Göksu
+tr;Bölümlü;Kasymi
+ru;Mirkul’yan;Çeltikli
+ru;Eski-Chël’tepekëy;Gültepe
+ru;Gil’gilo;Gilgilo
+tr;Aşağımerbant;Aşağıoba
+ru;Kel’picho;Kelpiço
+ru;Kubil’dor;Kubildor
+ru;Seyitmer’yem;Seyitmeryem
+ru;Sheykh”yunus;Şeyhyunus
+de;Ilıca;Ilıcaköy
+en;Ilıca;Ilıcaköy
+nl;Ilıca;Ilıcaköy
+ru;Kel’khok;Arpalı
+ru;Gundënyu;Gundönü
+ru;Demir’yako;Demiryako
+ru;Batgel’;Kutluca
+ru;Kel’kelan;Kelkelan
+ru;Kanigërk;Kanigörk
+ru;Birekyured’ya;Şenköy
+ru;Zuvan’ya;Kaşıkyayla
+ru;Daryusel’;Güvercinlik
+tr;Karaalanı;Karaalan
+ru;Rishmil’-Bakhcheleri;Rişmibahçeler
+tr;Köprülü;Bakisi
+tr;Bağözü;Khirre
+de;Bağözü;Khirre
+en;Bağözü;Khirre
+nl;Bağözü;Khirre
+tr;Gırbi;Kırbalı
+ru;Kuzudagykëy;Kuzudağıköy
+ru;Gërik;Mutluca
+ru;Kharab’ya;Harabya
+ru;Chelikkëy;Çelikköy
+ru;Germerukëy;Germeru Köyü
+ru;Merdzhikëy;Serinköy
+ru;Këprez;Kuşluca
+tr;Hırabakı;Hırbeke
+ru;Khedil’;Kayı
+tr;Sivrice;Sevrice
+ru;Gyul’khoshki;Göktuna
+ru;Gerikëy;Çevrimli
+ru;Til’kitepe;Tilkitepe
+tr;Yukarıyeniköy;Yukarı Yeniköy
+tr;Küçükköy;Gyundyuk
+ru;Rishën;Kömürlü
+ru;Ashagy-Tel’shair;Sakalar
+ru;Yukary-Makbel’;Yukarı Hatunlu
+ru;Abdyul’imam;Abdülimam
+ru;Resmil’khamam;Ilıcak
+ru;Germel’khip;Esenli
+tr;Yüksektepe;Yüsektepe
+ru;Mel’khogors;Melhogors
+ru;Tel’kharzem;Telharzem
+ru;Ziyaretpynar-Këy;Ziyaretpınar Köyü
+ru;Khyrbedzhelyal’;Dursunköy
+ru;Kyuryukistilil’;Yavruköy
+ru;Dzhibil’girav;Kuyular
+ru;Khop”yayla;Hopyayla
+ru;Kharapnir’yan;Tekeköy
+tr;Yurtpinar;Yurtpınar
+tr;Kibrit;Kiprit
+nl;Ulugüney;Alara
+tr;Bağkusan;Balkusan
+tr;Bağbelen;Balkusan
+tr;Gözlükuyu;Dodurga
+tr;Karagöz;Kurtlar
+tr;Karaağaç;Sultaniye
+tr;Küçükkaraağaç;Sultaniye
+ru;Даламан;Dalaman
+en;Zümrüt;Zümrütköy
+ru;Зюмрют;Zümrütköy
+tr;Zümrüt;Zümrütköy
+ru;Зонгулдак;Zonguldak
+be;Зангулдак;Zonguldak
+bg;Зонгулдак;Zonguldak
+el;Ζονγκουλντάκ;Zonguldak
+lt;Zonguldakas;Zonguldak
+sr;Зонгулдак;Zonguldak
+uk;Зонгулдак;Zonguldak
+tr;Ziyamet;Ziahmet
+ru;Зил;Zile
+ru;Зейтинлик;Zeytinlik
+ru;Зейрек;Zeyrek
+en;Zekeriya;Zekeriyaköy
+ru;Зекерия;Zekeriyaköy
+ru;Закоз;Zakos
+ru;Юсуфоглан;Yusufoğlan
+tr;Yürükler;Yörükler
+tr;Yüksekova;Yüksekoba
+tr;Kobak;Yüksekoba
+tr;Yukarızuğu;Ihlamurlu
+tr;Yanivat;Bayırcık
+tr;Yukarıtokaç;Tokaş
+tr;Yukarıtokaş;Tokaş
+tr;Napşit;Yukarı Şahinler
+tr;Yukarı Pınarlı;Yukarıpınarlı
+ru;Норгях;Yukarı Norgâh
+tr;Yukarı Mecidiye;Kadriye
+tr;Yukarımahalle;Yeşilköy
+tr;Yukarı Kışlak;Yukarıkışlak
+tr;Yukarı Kırzı;Yukarıkırzı
+tr;Rifatlı;Ulaş
+tr;Yukarı Güvenç;Güvençler
+tr;Yukarıfındıklı;Levent
+tr;Dolay;Derdin
+tr;Aşağı Derdin;Derdin
+tr;Yukarı Civanlı;Yukarıcivanlı
+tr;Yukarıçiftlik;Yukarıçiftlikköy
+tr;Yukarı Alican;Yukarıalican
+ru;Араклы;Yorakar
+ru;Йолкорур;Yolkorur
+tr;Lome;Yolgeçen
+tr;Yaldere;Yoldere
+ru;Йолбою;Yolboyu
+ru;Джумхуриет;Cumhuriyet
+tr;Yılanlı;Esentepe
+ru;Йигитконагы;Yiğitkonağı
+ru;Чакманос;Yeşilyurt
+ru;Ясдыра;Yeşilçit
+ru;Евады;Yeşilce
+ru;Курзат;Yeşilbük
+ru;Серпин;Yenisu
+tr;Abuülya;Çağlayan
+tr;Abıülya;Çağlayan
+tr;Yeniköy;Yeniceçiftlik
+ru;Еникей;Yeniköy
+bg;Пишман;Yenidibek
+en;Yenidemirkapı;Yeni Demirkapı
+ru;Ени-Демиркапы;Yeni Demirkapı
+tr;Lofcaicedit;Yeniçiftlik
+tr;Yeni Lofça;Yeniçiftlik
+tr;Lofça-i Cedid;Yeniçiftlik
+tr;Yenice;Yeniköy
+tr;Bucurayenice;Yenice
+tr;Kordelit;Konaklı
+ru;Чакманс;Yazyurdu
+el;Λιβερά;Yazlık
+ru;Тасна;Yaylasaray
+ru;Липана;Yaylalar
+tr;Yaylaköy;Yayla
+bg;Яйлагьоне;Yaylagöne
+tr;Yaylacık;Çepni Yaylası
+el;Τιβίκ;Yayıklı
+en;Yayikli;Yayıklı
+ru;Явузкемаль;Yavuzkemal
+tr;Yaşarköy;Yaşar
+ru;Кёрфез;Körfez
+tr;Yaraşlı;Yaraşlıyürük
+tr;Sinan;Sinanköy
+tr;Yanivat;Sinanköy
+ru;Мюшехрен;Yanıkçam
+tr;Yancıklar;Ataköy
+ru;Ялова;Yalova
+bg;Ялова;Yalova
+el;Γιάλοβα;Yalova
+sr;Јалова;Yalova
+uk;Ялова;Yalova
+tr;Yalnızca;Bolkuş
+tr;Yalım;Yalımköy
+tr;Yalı;Güzelyalı
+tr;Yalak;Yaylak
+ru;Якупоглан;Yakupoğlan
+ru;Якынсу;Yakınsu
+en;Yağşıyan;Yağsiyan
+ru;Ягсыян;Yağsiyan
+ru;Охтапкею;Yağmurlu
+ru;Яглыдере;Yağlıdere
+ru;Яглыалан;Yağlıalan
+ru;Везиркепрю;Vezirköprü
+en;Veyserni;Yayladere
+ru;Вейсерни;Yayladere
+ru;Великей;Veliköy
+ru;Вашкан;Vaşkân
+ru;Вартиник;Vartinik
+ru;Варлы;Varlı
+ru;Узункепрю;Uzunköprü
+bg;Узункьопрю;Uzunköprü
+el;Ουζούν Κιοπρού;Uzunköprü
+ru;Узунгезе;Uzungöze
+tr;Azortuzundere;Uzundere
+ru;Азорт;Uzundere
+tr;Uzunbey;Uzunçiftlik
+tr;Hacıibrahim Çiftliği;Uzunçiftlik
+tr;Çiftlikköy;Uzunçiftlik
+ru;Исасор;Üzümbağı
+tr;Üvezpınar;Üvezli
+ru;Утюк;Ütük
+it;Scutari;Üsküdar
+en;Skutari;Üsküdar
+ru;Ускюдар;Üsküdar
+en;Scutari;Üsküdar
+ru;Унье;Ünye
+ru;Нарман;Ünlükaya
+ru;Кисха;Şenyurt
+ru;Омудум;Umudum
+it;Distretto di Ulus;Ulus
+ru;Улус;Ulus
+ru;Улукей;Uluköy
+tr;Pilarget;Ulukent
+ru;Улучукуркей;Uluçukur
+ru;Угурташи;Uğurtaşı
+ru;Парчи;Üçyol
+ru;Бичин;Üçyol
+en;Üçköşe;Ovacık
+ru;Учкосе;Ovacık
+ru;Uch’ Kardesh;Üçkardeş
+ru;Тузлуджа;Tuzluca
+en;Turnasuyu;Gülyalı
+ru;Мустафалы;Gülyalı
+tr;Türkköyü;Başaran
+tr;Kavaklıgöl;Başaran
+ru;Турхал;Turhal
+tr;Turanköy;Turan
+tr;Bacasız Köy;Turan
+ru;Тунчолук;Tunçoluk
+es;Trebisonda;Trabzon
+ca;Trebisonda;Trabzon
+el;Τραπεζούντα;Trabzon
+it;Trebisonda;Trabzon
+es;Trapisonda;Trabzon
+pt;Trebizonda;Trabzon
+ru;Трабзон;Trabzon
+lv;Trabzona;Trabzon
+be;Трабзон;Trabzon
+mk;Трабзон;Trabzon
+lt;Trabzonas;Trabzon
+gl;Trebizonda;Trabzon
+sr;Трапезунт;Trabzon
+bg;Трабзон;Trabzon
+uk;Трабзон;Trabzon
+ru;Тозкей;Tozköy
+ru;Тося;Tosya
+tr;Tasik;Kavaklıdere
+ru;Торул;Torul
+ru;Тортум;Tortum
+ru;Топташ;Toptaş
+tr;İnkaya;Topkaya
+ru;Топчан;Topçam
+tr;Topalı;Topallı
+tr;Örencik;Çavuşlu
+tr;Tomruk;Tomrukköy
+tr;Tolahmet;Tolamehmet
+ru;Токат;Tokat
+es;Provincia de Tokat;Tokat
+en;Tokat Province;Tokat
+cs;Tokatská provincie;Tokat
+be;Такат;Tokat
+bg;Токат;Tokat
+el;Τοκάτ;Tokat
+lt;Tokatas;Tokat
+sr;Токат;Tokat
+uk;Токат;Tokat
+ru;Тохумлук;Tohumluk
+ru;Тивник;Tivnik
+ru;Тиреболу;Tirebolu
+tr;Timisvat;Köprüköy
+tr;Temisvat;Köprüköy
+tr;Tilkipınar;Yeşilpınar
+en;Tilki;Tilkiköy
+ru;Тезекчи;Tezekçi
+tr;Terzi;Terziköy
+ru;Терме;Terme
+tr;Tereli;Yeniköy
+tr;Yukarıkutinit;Tepeyurt
+ru;Тепекей;Tepeköy
+tr;Telek;Tepecik
+en;Teneke;Pınarbaşı
+ru;Текке;Pınarbaşı
+ru;Теллиоглы;Tellioğlu
+en;Teknecik;Aydınköy
+ru;Текнеджик;Aydınköy
+ru;Теккираз;Tekkiraz
+tr;Tekkeköy;Tekke
+ru;Теккекей;Tekkeköy
+ru;Текке;Tekke
+en;Tekke;Tekkeköy
+ru;Текке;Tekkeköy
+tr;Tekfur Dağı;Tekirdağ
+bg;Rodosto;Tekirdağ
+tr;Tekfur Dagh;Tekirdağ
+bg;Текирдаг;Tekirdağ
+hu;Rodostó;Tekirdağ
+bg;Родосто;Tekirdağ
+tr;Rodosçuk;Tekirdağ
+tr;Tekfurdağ;Tekirdağ
+lt;Tekirdahas;Tekirdağ
+sr;Текирдаг;Tekirdağ
+gag;Tekirdaa;Tekirdağ
+uk;Текірдаг;Tekirdağ
+be;Тэкірдаг;Tekirdağ
+el;Ραιδεστός;Tekirdağ
+ru;Текирдаг;Tekirdağ
+ru;Теке;Teke
+ru;Тазакенд;Tazekent
+tr;Tavuklar;Bekirpaşa
+en;Tatarlı;Sıtmasuyu
+ru;Татарлы;Sıtmasuyu
+tr;Büyüktatarköy;Ūyüklü Tatar
+tr;Büyük Tatar;Ūyüklü Tatar
+tr;Höyüklütartar;Ūyüklü Tatar
+ru;Ташова;Taşova
+ru;Ташолуккею;Taşoluk
+ru;Запор;Sarıgöl
+ru;Ташдегирмен;Taşdeğirmen
+ru;Ташбашы;Taşbaşı
+en;Tamrut;Şendurak
+ru;Тамрот;Şendurak
+ru;Тамдерекей;Tamdere
+tr;Tahtalı;Kurtdere
+ru;Тафлан;Taflan
+ru;Перник;Sütveren
+ru;Сусуз;Susuz
+ru;Сушехри;Suşehri
+ru;Сюрмене;Sürmene
+ru;Сюнюри;Sünür
+ru;Сунгурлу;Sungurlu
+tr;Kise;Sugören
+en;Sumle;Sümer
+ru;Сюмле;Sümer
+tr;Özçimen;Sümer
+tr;Sülüklü;İrfaniye
+ru;Султан;Sultan
+tr;Sultan;Sultanköy
+tr;Süleymanbey;Köprübaşı
+ru;Сулакъюрт;Sulakyurt
+tr;Şükürler;Sütalan
+ru;Субатан;Subatan
+en;Şova;Sağrı
+ru;Шова;Sağrı
+ru;Торонсоз;Sorkunlu
+tr;Sorgun;Sorkun
+tr;Şam Oğlu;Şamalı
+tr;Şamaoğlu;Şamalı
+tr;Şamalıköy;Şamalı
+ru;Сокуташ;Sokutaş
+ru;Илач;Söğütlü
+de;Eskimanyas;Soğuksu
+fi;Soğuksu Köyü;Soğuksu
+pt;Soğuksu Köyü;Soğuksu
+oc;Soğuksu Köyü;Soğuksu
+sk;Soğuksu Köyü;Soğuksu
+sl;Soğuksu Köyü;Soğuksu
+sco;Soğuksu Köyü;Soğuksu
+ca;Soğuksu Köyü;Soğuksu
+sv;Soğuksu Köyü;Soğuksu
+gl;Soğuksu Köyü;Soğuksu
+en;Eskimanyas;Soğuksu
+it;Soğuksu Köyü;Soğuksu
+es;Soğuksu Köyü;Soğuksu
+eu;Soğuksu Köyü;Soğuksu
+cs;Soğuksu Köyü;Soğuksu
+pl;Soğuksu Köyü;Soğuksu
+ro;Soğuksu Köyü;Soğuksu
+da;Soğuksu Köyü;Soğuksu
+tr;Eskimanyas;Soğuksu
+de;Soğulcak;Soğucak
+en;Soğulcak;Soğucak
+tr;Soğulcak;Soğucak
+nl;Soğulcak;Soğucak
+ru;Софулу;Sofulu
+ru;Софуаланкей;Sofualan
+ru;Ширан;Şiran
+tr;Sıraböcekhane;İpekköy
+en;Şipek;Taşbaşı
+ru;Шипек;Taşbaşı
+pl;Synopa;Sinop
+ca;Sinope;Sinop
+el;Σινώπη;Sinop
+sv;Sinope;Sinop
+ru;Синоп;Sinop
+bg;Синоп;Sinop
+uk;Синоп;Sinop
+en;Simserkis;Şehitler
+ru;Вимсиркиз;Şehitler
+el;Selymbria;Silivri
+en;Siliviri;Silivri
+el;Selibria;Silivri
+ru;Шиле;Şile
+en;Sıhsor;Sadzor
+ru;Садзор;Sadzor
+tr;Sığırcılı;Siğilli
+ru;Сейдиякуп;Seydiyakup
+tr;Şavkılar;Şevkiler
+bg;Хаджи Паункьой;Şevketiye
+bg;Хаджи Паун;Şevketiye
+en;Serpuşke;Güzeloluk
+ru;Серпушке;Güzeloluk
+ru;Шерефие;Şerefiye
+en;Serçeme;Eskipolat
+ru;Серджеме;Eskipolat
+ru;Шенкая;Şenkaya
+tr;Sirkeoğluköy;Senemoğlu
+tr;Sirkoğlu;Senemoğlu
+tr;Sirkeoğlu;Senemoğlu
+ru;Селим;Selim
+tr;Selçik;Selcuk
+tr;Selâhattin;Selahattinköy
+ru;Шехитемин;Şehitemin
+en;Sedd el Bahr;Seddülbahir
+en;Seddel-Bahr;Seddülbahir
+en;Şebinkarahisar;Şebin Karahisar
+ru;Шебинкарахисар;Şebin Karahisar
+en;Koloneia;Şebin Karahisar
+ru;Себен;Seben
+ru;Шавшат;Şavşat
+tr;Savaşköy;Savaş
+tr;Satılar;Satılarköy
+tr;Şaşon Yaylası;Çaşur Yaylası
+ru;Сарыякуп;Sarıyakup
+bg;Теслимкьой;Sarıpolat
+tr;Sarinbey;Sarımbey
+ru;Сарыкамыш;Sarıkamış
+ru;Хахо;Sarıhan
+ru;Сарыбулаг;Sarıbulak
+ru;Мело;Sarıbudak
+tr;Yaban;Yabanlı
+de;Saray;Sarayköy
+en;Saray;Sarayköy
+nl;Saray;Sarayköy
+ru;Гелевере;Sapmaz
+tr;Çayır;Çayırköy
+el;Σαμψούντα;Samsun
+ru;Самсун;Samsun
+sr;Самсун;Samsun
+lt;Samsunas;Samsun
+be;Самсун;Samsun
+uk;Самсун;Samsun
+gl;Amisos;Samsun
+bg;Самсун;Samsun
+lv;Samsuna;Samsun
+ru;Посус;Salyazı
+tr;Ulu;Uluköy
+ru;Херме;Salkımsu
+ru;Шахналар;Şahnalar
+ru;Шахинли;Şahinli
+ru;Сафранболу;Safranbolu
+be;Сафранбалу;Safranbolu
+bg;Сафранболу;Safranbolu
+el;Σαφράμπολη;Safranbolu
+tr;Şabanmere;Şabanmera
+en;Şaban;Şabanköy
+ru;Шабан;Şabanköy
+ru;Ризе;Rize
+cs;Rizenská provincie;Rize
+bg;Ризе;Rize
+el;Ριζούντα;Rize
+sr;Ризе;Rize
+uk;Різе;Rize
+ru;Решадие;Reşadiye
+ru;Пурсаклар;Pursaklar
+ru;Пософ;Posof
+ru;Порсуклу;Porsuklu
+tr;Sifatköy;Pirinçlik
+ru;Пиразиз;Piraziz
+ru;Пынарлы;Pınarlı
+ru;Першембе;Perşembe
+en;Pehlivan;Fındıklı
+ru;Пехливан;Fındıklı
+ru;Пазарйолу;Pazaryolu
+ru;Пазар;Pazar
+el;Παζάρ;Pazar
+el;Αθήνα;Pazar
+ru;Паслы;Paslı
+en;Paşaki;Güllüce
+ru;Пашаки;Güllüce
+ru;Кесмесор;Parmakdere
+ru;Памукова;Pamukova
+tr;Gudashev;Özgüven
+ru;Чамичи;Özdemir
+tr;Huzbirik;Özbeyli
+ru;Озанлы;Ozanlı
+en;Ozan;Ozanköy
+ru;Озан;Ozanköy
+en;Otha;Kirazlı
+ru;Отха;Kirazlı
+ru;Османие;Osmanpınarı
+ru;Османие;Osmaniyeçatak
+ru;Ортасеки;Ortaseki
+tr;Ortasarıbey;Orta Sarıbey
+tr;Koptone;Gürgencik
+tr;Koptona;Gürgencik
+ru;Ортакент;Ortakent
+ru;Орта-Кей;Ortaköy
+ru;Орта-Кент;Ortakent
+tr;Orta Çimağıl;Ortaçimağıl
+tr;Ortacı;Ahaplı Ortacı
+tr;Ortaköy-Bucak;Ortacalar
+ru;Орта;Orta
+ru;Кючюк-Алмус;Ormanbeyli
+ru;Орманагзы;Ormanağzı
+ru;Гечдин;Örencik
+el;Ορεντσίκ;Örencik
+tr;Ören;Hisarköy
+ru;Орду;Orduköy
+ru;Орду;Ordu
+el;Ορντού;Ordu
+tr;Ömer;Ömerköy
+ru;Олур;Olur
+ru;Олуклу;Oluklu
+ru;Олту;Oltu
+sr;Олту;Oltu
+en;Olasa;Temelli
+ru;Оласа;Temelli
+en;Okşoho;Küçükdoğanlı
+ru;Окшохо;Küçükdoğanlı
+ru;Огузлы;Oğuzlu
+ru;Вавру;Oğulcuk
+ru;Зугру;Oğulbey
+ru;Окдем;Öğdem
+ru;Оф;Of
+pl;Ani;Ocaklı
+de;Ani;Ocaklı
+fr;Ani;Ocaklı
+en;Ani;Ocaklı
+ca;Ani;Ocaklı
+hu;Ani;Ocaklı
+lv;Ani;Ocaklı
+nl;Ani;Ocaklı
+ru;Ани;Ocaklı
+sv;Ani;Ocaklı
+uk;Ані;Ocaklı
+ru;Сапо;Ocak
+fi;Obayyayla;Obayayla
+pt;Obayyayla;Obayayla
+oc;Obayyayla;Obayayla
+sk;Obayyayla;Obayayla
+sl;Obayyayla;Obayayla
+sco;Obayyayla;Obayayla
+ca;Obayyayla;Obayayla
+sv;Obayyayla;Obayayla
+gl;Obayyayla;Obayayla
+it;Obayyayla;Obayayla
+es;Obayyayla;Obayayla
+eu;Obayyayla;Obayayla
+cs;Obayyayla;Obayayla
+pl;Obayyayla;Obayayla
+ro;Obayyayla;Obayayla
+da;Obayyayla;Obayayla
+nl;Obayyayla;Obayayla
+ru;Остук;Nişantaşı
+ru;Никсар;Niksar
+ru;Нарман;Narman
+ru;Накерав;Nakerav
+tr;Naip;Naipköy
+ru;Нахизер;Nahizer
+ru;Муратлы-Ке;Muratlı
+ru;Муратбагы;Muratbağı
+tr;Mandır;Muradiye
+bg;Мандър;Muradiye
+tr;Mülk;Mülkköy
+en;Mukuzi;Yolaç
+ru;Мукузи;Yolaç
+tr;Muharremler;Şirinköy
+ru;Мудурну;Mudurnu
+ru;Муданьи;Mudanya
+tr;Mudafi;Gündoğan
+tr;Mutafi;Gündoğan
+ru;Моллавейси;Mollaveysi
+ru;Моллагасан;Mollahasan
+en;Mesene;Misinli
+ru;Мимарсинан;Mimarsinan
+en;Miliç;Dumantepe
+ru;Милич;Dumantepe
+ru;Микелес;Mikelis
+ru;Миди;Midi
+ru;Мезраа;Mezraa
+tr;Simansor;Başçakmak
+ru;Мейданджик;Meydancık
+ru;Месудие;Mesudiye
+ru;Мешели;Meşeli
+ru;Месекей;Meşeköy
+ru;Мерзифон;Merzifon
+en;Meryemana;Erköy
+ru;Медъемана;Erköy
+en;Meryem;Meryemköy
+ru;Мерьем;Meryemköy
+tr;Mersin;Mersinköy
+tr;Mercimek;Erdemli
+tr;Mercimek;Mercimeköy
+tr;Kapaklı;Memlik
+en;Melyat;Merdivenli
+ru;Мельят;Merdivenli
+ru;Меликкею;Melikköyü
+tr;Mazılık;Maraşal Fevzi Çakmak
+en;Erekli;Marmara Ereğlisi
+ru;Мармара;Marmara
+tr;Mandıra;Tayakadın
+tr;Çıphınıs;Manas
+tr;Güneydoğru;Manas
+tr;Menasi;Manas
+ru;Малтепе;Maltepe
+ru;Малкара;Malkara
+ru;Махмутлу;Mahmutlu
+tr;Memduhiye;Mahmudiye
+en;Madur;Moryayla
+ru;Мадур;Moryayla
+tr;Sepetçi;Madenler
+tr;Madenköy;Maden
+tr;Madara;Sütlüce
+ru;Мачка;Maçka
+el;Ματσούκα;Maçka
+en;Tzevislik;Maçka
+el;Τζεβισλίκ;Maçka
+bg;Люлебургаз;Lüleburgaz
+bg;Berkulen;Lüleburgaz
+bg;Люлебургас;Lüleburgaz
+el;Arkadioupolis;Lüleburgaz
+en;Leylek;Leylekköy
+ru;Лейлек;Leylekköy
+en;Larhan;Köprüyanı
+ru;Лархан;Köprüyanı
+tr;Lâdik İstasyonu;Doruk
+tr;orta mah.;Kuzuluk
+en;Kuzköy;Haliluşağı
+ru;Кузкей;Haliluşağı
+tr;Dere;Kuzdere
+tr;Kuz;Kuzköy
+tr;Kuyumcu;Kuyumcuköy
+ru;Куйту;Kuytul
+tr;Kütükçüler;Yeşiller
+tr;Kütük;Kütükköy
+ru;Кушотурагы;Kuşoturağı
+tr;Hikoba;Başoba
+tr;Higoba;Başoba
+tr;Çiğdem;Çiğdemköy
+tr;Kuşbükü;Kovanlık
+tr;Kurtlupınar;Yazılgürgen
+tr;Kurtlu;Kartaloğlu
+ru;Куртляпа;Kurtlapa
+ru;Курткале;Kurtkale
+ru;Курныч;Kurnuç
+ru;Курна;Kurna
+ru;Кюрекдере;Kürekdere
+ru;Абулварт;Kurbançayırı
+tr;Kurbağalı;Kurbağlı
+tr;Küplüağzı;Küplüağız
+ru;Кумру;Kumru
+ru;Кюмбетли;Kümbetli
+el;Βλάντη-Καρς;Kümbetli
+el;Βλάντικαρς;Kümbetli
+ru;Кюмбет;Kümbet
+de;Altıntaş;Kumartaş
+en;Altıntaş;Kumartaş
+tr;Altıntaş;Kumartaş
+nl;Altıntaş;Kumartaş
+ru;Куллар;Kullar
+tr;Dereköy;Uzunkıraç
+tr;Çukurköy;Çukur
+en;Küçükboğatepe;Küçük Boğatepe
+ru;Кючюк-Богатепе;Küçük Boğatepe
+en;Anafarta Sagir;Küçükanafarta
+en;Little Hanafart;Küçükanafarta
+tr;Kubaşlar;Kubaş
+bg;Кубаш;Kubaş
+en;Koyunpınar;Koyunpınarı
+ru;Коюнпынар;Koyunpınarı
+ru;Коюльхисар;Koyulhisar
+ru;Кованлык;Kovanlık
+ru;Кетек;Kötek
+tr;Kızık;Kösrelikkızığı
+tr;Kösrecik;Köserecik
+ru;Кесели;Köseli
+ru;Коша;Koşa
+tr;Korucuk;Korucak
+tr;Koru;Koruköy
+ru;Корган;Korgan
+ru;Копуз;Kopuz
+tr;Küprücü;Koprucu
+ru;Копханлары;Kophanları
+tr;Köpekçayırı;Sarıalan
+ru;Конуралп;Konuralp
+ru;Конк;Konk
+en;Kondu;Gülen
+ru;Конду;Gülen
+ru;Кешимбюр;Konaklı
+ru;Колкей;Kolköy
+en;Kolaşa;Sularbaşı
+ru;Колаша;Sularbaşı
+tr;Himmetli;Köklü
+ru;Салтукова;Saltukova
+ru;Зевгар;Koçyurdu
+ru;Коч;Koçköy
+ru;Порге;Koçbayır
+tr;Çubuklı;Çubuklu
+ru;Эксель;Koçak
+en;Kızılviran;Kızılören
+ru;Кызылвиран;Kızılören
+ru;Геменек;Kızılköy
+tr;Değirmenbaşı;Kızılcaelma
+tr;Dadı;Dadıköy
+tr;Konacık;Bükse
+tr;Kızıkköy;Kızık
+tr;Kızıl;Kızık
+tr;Kızıksa;Kızık
+tr;Kızağıl;Kızağılı
+tr;Kıymetoğlu;Yeniköy
+ru;Китре;Kitre
+de;Kışla;Kişlaköy
+en;Kışla;Kişlaköy
+tr;Kışla;Kişlaköy
+nl;Kışla;Kişlaköy
+tr;Kirlik;Yeşilkaya
+bg;Лозенград;Kırklareli
+el;Κιρκλαρελί;Kırklareli
+fi;Kirklareli;Kırklareli
+lt;Kirklarelis;Kırklareli
+uk;Киркларелі;Kırklareli
+ru;Кыркларели;Kırklareli
+tr;Bahta;Kireçlik
+en;Kırdamı;Türkmeşen
+ru;Кырдамы;Türkmeşen
+tr;Kırbaş;Kazım Karabekirpaşa
+ru;Корьяна;Kirazlık
+ru;Кинали;Kınalı
+ru;Килитташ_ке;Kilittaşı
+ru;Тирегис;Kılıçtaşı
+ru;Кетениги;Keteniği
+tr;Kestanesayvanı;Fındıklı
+ru;Кешап;Keşap
+ru;Кешан;Keşan
+el;Κεσσάνη;Keşan
+el;Ρουσιον;Keşan
+en;Zorlanae;Keşan
+ru;Кенарбель;Kenarbel
+el;Πάριον;Kemer
+en;Kemaliye;Mısırlı
+ru;Вакфикебир;Mısırlı
+tr;Kemal;Kemalköy
+tr;Keltepe;Şirinköy
+tr;Katırtepe;Şirinköy
+ru;Келькит;Kelkit
+ru;Кефкен;Kefken
+ru;Казыколаран;Kazkoparan
+ru;Казанджили;Kazancılı
+ru;Казан;Kazan
+ru;Кайтармыш;Kaytarmış
+en;Withboiling;Kaynaşlı
+tr;Şeyhler;Kaynarca
+tr;Şeyhlü;Kaynarca
+ru;Кайнак;Kaynak
+tr;Kültucak;Koltucak
+tr;Kaya;Kayaköy
+tr;Kayabüget;Kayabüvet
+tr;Nefsigökçeağaç Köyü;Gökçeağaç
+tr;Nefsigökçeağaç Köy;Gökçeağaç
+tr;Nefsigökçeağaç;Gökçeağaç
+tr;Kayabaşı;Balıklı
+tr;Kayabaşı;Çeltik
+ru;Кавлатан;Kavlatan
+ru;Мишанкас;Kavakyanı
+en;Kavaktepe;Kabaktepe
+ru;Кабактепе;Kabaktepe
+ru;Каваклы;Kavaklı
+tr;Kayacık;Kavacık
+tr;Çilekli;Katırözü
+ru;Кастамону;Kastamonu
+fr;Castamena;Kastamonu
+bg;Кастамону;Kastamonu
+el;Κασταμονή;Kastamonu
+sr;Кастамону;Kastamonu
+uk;Кастамону;Kastamonu
+pt;Castamonu;Kastamonu
+ru;Каршин;Karşim
+ru;Милехи;Karşıgeçit
+ru;Карс;Kars
+sr;Карс;Kars
+bg;Карс;Kars
+uk;Карс;Kars
+el;Καρς;Kars
+lt;Karsas;Kars
+lv;Karsa;Kars
+be;Карс;Kars
+tr;Karpuzlu;Yenikarpuzlu
+en;Karpu;Yenidoğan
+ru;Карпукале;Yenidoğan
+ru;Кярор;Kâror
+ru;Тавара;Karlıyayla
+tr;Kırazlıtepe;Kiraztepe
+tr;Karlık;Karlı
+tr;Karışlar;Karacalar
+ru;Караякуп;Karayakup
+ru;Караяка;Karayaka
+ru;Караурган;Karaurgan
+tr;Karatavuk;Esenyayla
+ru;Карасу;Karasu
+ru;Карасу;Karasu Mahallesi
+tr;Karasinit;Kırkgöz
+tr;Çalköy;Karaosmanlı
+tr;Çal;Karaosmanlı
+ru;Кораманлар;Koramanlar
+ru;Каракурт;Karakurt
+en;Karaköy;Taşköprü
+ru;Каракей;Taşköprü
+ru;Каракесе;Karakilise
+ru;Каракеш;Karakeş
+ru;Карагале;Karakale
+tr;Merkezkarakale;Karakale
+tr;Karahacı;Asayiş Karahacı
+tr;Asayiş;Asayiş Karahacı
+ru;Карагебек;Karagöbek
+ru;Карадере;Karadere
+tr;Karaçökek;Yeşilvadi
+ru;Карачобан;Karaçoban
+tr;Karacaoluk;Karaçalılık
+ru;Караджалар;Karacalar
+tr;Karacageyik;Aydınpınar
+ru;Караджабей;Karacabey
+tr;Karacaköy;Karaca
+tr;Karaca;Eşelek
+tr;Karabörçek;Karabürçek
+ru;Карабулдук;Karabulduk
+be;Карабюк;Karabük
+bg;Карабюк;Karabük
+el;Καραμπούκ;Karabük
+lt;Karabiukas;Karabük
+sr;Карабук;Karabük
+uk;Карабюк;Karabük
+ru;Карабюк;Karabük
+tr;Karabürcek;Karapürcek
+ru;Карабалчик;Karabalçık
+ru;Карабаг;Karabağ
+tr;Abdibey;Karaaptiler
+tr;Karaahmet;Akgüney
+ru;Карааптал;Karaabdal
+tr;Kapusuzdağı;Yeşilalan
+ru;Каптанпаша;Kaptanpaşa
+ru;Капанлы;Kapanlı
+tr;Hapanli;Kapanlı
+tr;Kamış;Kamışköy
+en;Kamalı;Ahulu
+ru;Камалы;Ahulu
+ru;Зигана;Kalkanlı
+ru;Тихнис;Kalkankale
+ru;Медресе;Kalkandere
+ru;Калеяка;Kaleyaka
+tr;Kömürcü;Kalafkahatipli
+ru;Кахмут;Kahmut
+ru;Кагызман;Kağızman
+tr;Kadınköy;Eskikadın
+de;Chalkedon;Kadıköy
+en;Chalcedon;Kadıköy
+bg;Халкедон;Kadıköy
+cs;Chalkedon;Kadıköy
+fr;Chalcédoine;Kadıköy
+no;Khalkedon;Kadıköy
+sv;Chalkedon;Kadıköy
+tr;Kalkedon;Kadıköy
+el;Χαλκηδόνα;Kadıköy
+ru;Халкидон;Kadıköy
+tr;Kadıköy;Muhacirkadı
+tr;Kacar Doğanşalı;Kaçardoğanşalı
+ru;Кабаклык;Kabaklık
+tr;Kabafındık;Pelitbükü Sekicek
+tr;Dereli;Pelitbükü Sekicek
+tr;Pelitbüküsekicek;Pelitbükü Sekicek
+ru;Кабадюз;Kabadüz
+tr;Kabaceviz;Seymenler
+fr;Nicée;İznik
+es;Nicea;İznik
+ca;Nicea;İznik
+cs;Nikaia;İznik
+fi;Nikaia;İznik
+hu;Nicea;İznik
+it;Nicea;İznik
+nl;Nicaea;İznik
+en;Nicaea;İznik
+ru;Изник;İznik
+de;Nicäa;İznik
+de;Nikäa;İznik
+de;Nizäa;İznik
+fr;Nicomédie;İzmit
+pl;Nikomedia;İzmit
+it;Nicomedia;İzmit
+tr;Nikomedia;İzmit
+ru;Измит;İzmit
+es;Estambul;İstanbul
+pl;Stambuł;İstanbul
+pl;Istambuł;İstanbul
+pt;Istambul;İstanbul
+el;Ισταμπούλ;İstanbul
+ru;Стамбул;İstanbul
+hu;Isztambul;İstanbul
+bg;Истанбул;İstanbul
+lv;Stambula;İstanbul
+sr;Истанбул;İstanbul
+uk;Стамбул;İstanbul
+sl;Carigrad;İstanbul
+sr;Стамбол;İstanbul
+ru;Испир;İspir
+sr;Испир;İspir
+tr;Yukarıislahiye;Yukarı İslahiye
+tr;Gare;Işıklı
+tr;Gere;Işıklı
+ru;Баяна;Işık
+ru;Ишхан;İşhan
+tr;İshaklı;İshklı
+ru;Инкая;İnkaya
+tr;İncipınar;İncirlipınar
+tr;İnci;İğdir
+ru;Илит;İlit
+tr;İliği;İleği
+tr;İbrahim;İbrahimköy
+ru;Ибиш Ке;İbişköy
+ru;Хозабир;Hozabir
+ru;Хотар;Hotar
+en;Hora;Hore
+ru;Хорасан;Horasan
+ru;Хопа;Hopa
+ru;Хамурлу;Homurlu
+tr;Hocaaydın;Aydınköy
+ru;Хинс;Hins
+tr;Terziler;Hıdırlar
+tr;Haydutoğlu;Yaylacık
+de;Haydar;Haydarköy
+en;Haydar;Haydarköy
+nl;Haydar;Haydarköy
+ru;Хавза;Havza
+tr;Hatip;Hatipköy
+tr;Asarağaç;Hasköy
+ru;Хасанджик;Hasancıkpınarı
+tr;Ortaköy;Harmancık
+tr;Harmancı;Harmancık
+en;Hara;Yeniköy
+ru;Хара;Yeniköy
+ru;Хандере;Handere
+ru;Ханак;Hanak
+ru;Халкалы;Halkalı
+ru;Халефоглу;Halefoğlu
+ru;Хадживелиоба;Hacıvelioba
+ru;Хадживиран;Hacıören
+tr;Hacıköy;Gürpınar
+tr;Hocaköy;Hacıköy
+tr;Hacıbey;Hacıbeyköyü
+en;Güzova;Gözova
+ru;Омала;Gözova
+tr;Yaylacık;Güzelcehisar
+ru;Гювенлик;Güvenlik
+tr;Pishalatilya;Gürsu
+ru;Гюрпынар;Gürpınar
+ru;Эскидир;Gürçeşme
+tr;Yukarıkapisre;Güngören
+en;Güneyköy;Kırık
+ru;Хока;Kırık
+tr;Kılavuzlar;Güney
+ru;Диве;Günevi
+ru;Гюндогду;Gündoğdu
+tr;Gümüşparmak;Dedeşen
+ru;Гюмюшане;Gümüşhane
+el;Γκιουμούσχανε;Gümüşhane
+ru;Адис;Gümüşdere
+ru;Гюллюали;Güllüali
+tr;Güleç;Güleş
+ru;Гюдели;Güdeli
+ru;Гереле;Görele
+en;Gölyanı;Üzümören
+ru;Диморта;Üzümören
+tr;Göltepe;Gil Tepesi
+ru;Агванис;Gölova
+ru;Левеке;Gölgeli
+tr;Göldere;Saraykışla
+en;Gölbeyli;Boraboy
+ru;Борабай;Boraboy
+ru;Гельбелен;Gölbelen
+ru;Мургул;Murgul
+ru;Гекташ;Murgul
+ru;Гекдере;Gökdere
+tr;Alanköy;Darıçayalanı
+en;Gökçeyazı;Gökçeli
+ru;Гекчели;Gökçeli
+tr;Gökçepınar;Kestanepınar
+tr;Çubuklu;Çubukluosmaniye
+de;Gökçeören;Gökyenice
+en;Gökçeören;Gökyenice
+nl;Gökçeören;Gökyenice
+ru;Ашагы-Терсюн;Gökçeler
+ru;Юкары-Гереде;Gökçekent
+ru;Пулур;Gökçedere
+en;Gökbel;Gökal
+ru;Чермик;Gökal
+en;Gökbakan;Gölebakar
+ru;Гекбакан;Gölebakar
+ru;Гиресун;Giresun
+el;Κερασούντα;Giresun
+bg;Гиресун;Giresun
+sr;Гиресун;Giresun
+lt;Giresunas;Giresun
+uk;Ґіресун;Giresun
+ru;Гереде;Gerede
+en;Gere;Şenyurt
+ru;Гере;Şenyurt
+ru;Гемлик;Gemlik
+ru;Зуванч;Gelinkaya
+ru;Каракилиса;Gelinalan
+en;Gallipoli;Gelibolu
+ru;Гелиболу;Gelibolu
+es;Galípoli;Gelibolu
+it;Gallipoli;Gelibolu
+nl;Gallipoli;Gelibolu
+bg;Галиполи;Gelibolu
+ca;Gal·lípoli;Gelibolu
+da;Gallipoli;Gelibolu
+el;Γκελίμπολου;Gelibolu
+uk;Геліболу;Gelibolu
+pl;Gallipoli;Gelibolu
+sv;Gallipoli;Gelibolu
+de;Gallipoli;Gelibolu
+tr;Geldibuldu;Güzelyurt
+ru;Гечитли;Geçitli
+ru;Гечик;Geçik
+ru;Гебзе;Gebze
+be;Гебзе;Gebze
+bg;Гебзе;Gebze
+sr;Гебзе;Gebze
+ru;Газилер;Gaziler
+tr;Türkfındıcak;Fındıcak
+de;Feyziye;Fevziye
+fi;Feyziye;Fevziye
+pt;Feyziye;Fevziye
+oc;Feyziye;Fevziye
+sk;Feyziye;Fevziye
+sl;Feyziye;Fevziye
+sco;Feyziye;Fevziye
+ca;Feyziye;Fevziye
+sv;Feyziye;Fevziye
+gl;Feyziye;Fevziye
+en;Feyziye;Fevziye
+it;Feyziye;Fevziye
+es;Feyziye;Fevziye
+eu;Feyziye;Fevziye
+cs;Feyziye;Fevziye
+pl;Feyziye;Fevziye
+ro;Feyziye;Fevziye
+da;Feyziye;Fevziye
+tr;Feyziye;Fevziye
+ru;Фатса;Fatsa
+tr;Faraşköy;Ataköy
+en;Ezinepazar;Ezinepazarı
+ru;Эзине;Ezinepazarı
+ru;Эйнесиль;Eynesil
+ru;Эверек;Everek
+ru;Ардала;Eşmekaya
+ru;Эскикей;Eskiköy
+el;Εσκή-Γαζή;Eskigazi
+tr;Eskibeycik;Kurtlar
+tr;Bedir Köy;Eskibedir
+tr;Eskiarmutluk;Eski Armutluk
+ru;Эсироглу;Esiroğlu
+ru;Эсенкент;Esenkent
+ru;Булдур;Erence
+ru;Эрба;Erbaa
+tr;Mürgüp;Epçeler
+el;Αἶνος;Enez
+de;Emremsultan;Emresultan
+en;Emremsultan;Emresultan
+tr;Emremsultan;Emresultan
+nl;Emremsultan;Emresultan
+ru;Эмирлер;Emirler
+tr;Eğerlikuzören;Eğerlikozören
+tr;Çelebiler;Eflani
+bg;Одрин;Edirne
+ca;Adrianòpolis;Edirne
+hu;Drinápoly;Edirne
+it;Adrianopoli;Edirne
+ro;Adrianopol;Edirne
+ru;Эдирне;Edirne
+uk;Едірне;Edirne
+el;Αδριανούπολη;Edirne
+mk;Едрене;Edirne
+be;Эдырнэ;Edirne
+sr;Једрене;Edirne
+gag;Edirnä;Edirne
+hr;Drinopolje;Edirne
+oc;Andrinòple;Edirne
+sl;Odrín;Edirne
+sq;Adrianopoja;Edirne
+tr;Aydıncık;Edincik
+ru;Дюзджe;Düzce
+tr;Teikçet;Duygulu
+ru;Малюмсейит;Dutluca
+en;Dutha;Tunca
+ru;Дутха;Tunca
+el;Δέρκος;Durusu
+ru;Дурусу;Durusu
+bg;Деркос;Durusu
+en;Terkos;Durusu
+ru;Хинс;Dumlu
+tr;Dumanköy;Dumanalanı
+tr;Doğan;Dudaş
+tr;Döşemedibi;Düzsaylan
+tr;Donköy;Doğanköy
+tr;Döngel;Karşıyaka
+tr;Domalı;Sahilköy
+tr;Doluköy;Dolu
+tr;Döllük;Yeşilyurt
+ru;Долбантла;Dölbentli
+tr;Binat;Dokuzoğul
+tr;Dokuzhöyük;Dokuzhüyük
+ru;Декметепе;Dökmetepe
+ru;Догруйол;Doğruyol
+tr;Eski Yanalağı;Yeşilköy
+ru;Доганъюрт;Doğanyurt
+ru;Ипсиле;Doğanşar
+ru;Доганшар;Doğanşar
+de;Teberik;Doğanoluk
+en;Teberik;Doğanoluk
+tr;Teberik;Doğanoluk
+tr;Doğanlar;Doğanköy
+ru;Доганкент;Doğankent
+tr;Doğancılarılıcası;Doğancılar
+en;Dırahdar;Hamzalı
+ru;Дырахта;Hamzalı
+ru;Джифенис;Dilekli
+ru;Хайик;Dikmetaş
+ru;Дикмен;Dikmen
+ru;Дикме;Dikme
+tr;Mekaliskirit;Dikkaya
+ru;Дикбийик;Dikbıyık
+ru;Дигор;Digor
+ru;Деврек;Devrek
+tr;Devletoğlan;Devletoğlanı
+ru;Дестек;Destek
+ru;Дериндерекей;Derindere
+ru;Дериндже;Derince
+ru;Котани;Derinçay
+el;Σαλούτ;Dereyolu
+tr;Seymenler;Deretepe
+tr;Deresakarya;Deresakarı
+ru;Дерели;Dereli
+ru;Дерекей;Dereköy
+tr;Dereköy;Seyfetler
+tr;Derecik;Yeşilkent
+ru;Дереджик;Derecik
+ru;Шамилер;Denizgölü
+ru;Денчик;Dencik
+ru;Искили;Demirtaş
+ru;Демирезю;Demirözü
+tr;Demiroğlu;Epçeler
+tr;Reşadiye;Irsadiye
+ru;Демиркент;Demirkent
+tr;Müşküle;Demirışık
+tr;Müşküre;Demirışık
+ru;Замван;Demirdöven
+tr;Demirci;Demirköy
+ru;Делилер;Deliler
+tr;Deresemail;Dere Semali
+tr;Dedeli;Akbel
+tr;Sarıköy;Sazkışla
+tr;Yukarı Darlık;Darlık
+tr;Yukarıköy;Darıçay
+ru;Дарбогаз;Darboğaz
+ru;Дамбаслар;Dambaslar
+ru;Дамал;Damal
+ru;Дагкей;Dağköy
+de;Dağkalfat;Dağkalafat
+en;Dağkalfat;Dağkalafat
+tr;Dağkalfat;Dağkalafat
+nl;Dağkalfat;Dağkalafat
+ru;Дачбаши;Dağbaşı
+ru;Чуллу;Çullu
+tr;Çukurhan Köyü;Çukurhan
+tr;Çukurözü;Çukuröz
+en;Çukur;Çukurköy
+ru;Чукур;Çukurköy
+it;Distretto di Çubuk;Çubuk
+be;Чарум;Çorum
+bg;Чорум;Çorum
+el;Τσορούμ;Çorum
+lt;Čorumas;Çorum
+sr;Чорум;Çorum
+uk;Чорум;Çorum
+tr;Çoroğlu;Aloğlu
+tr;Çorman;Çiğirler
+be;Чарлу;Çorlu
+bg;Чорлу;Çorlu
+gag;Çorum;Çorlu
+sr;Чорлу;Çorlu
+ru;Чорлу;Çorlu
+tr;Yukarıpınar;Yukarı Akpınar
+tr;Cırıklar;Gerzeliler
+tr;Cırfınlı;Şahinkaya
+ru;Чирчир;Çırçır
+ru;Джинди;Cindi
+tr;Çürçeve;Çınarlı
+tr;Çıkıntımahalle;Karaali
+tr;Çiftlik;Elmalıçiftliği
+ru;Джиде;Cide
+ru;Чичекли;Çiçekli
+tr;Çiçek;Çiçekköy
+ru;Джибали;Cibali
+ru;Петерек;Çevreli
+ru;Мухат;Çevreli
+tr;Cevizlik;Yeniköy
+tr;Cevizli;Cevizlik
+bg;Чонгара;Cevizköy
+ru;Четинсу;Çetinsu
+ru;Чермели;Çerme
+ru;Ченгилли;Çengilli
+ru;Ченгелли;Çengelli
+tr;Çene;Çeneköy
+ru;Джендере;Cendere
+tr;Çeltikköy;Çeltik
+ru;Ходай;Çelikli
+de;Çeştepe;Çeçtepe
+en;Çeştepe;Çeçtepe
+tr;Çeştepe;Çeçtepe
+tr;Cebeli;Cebeci
+de;Cebeli;Cebeci
+en;Cebeli;Cebeci
+nl;Cebeli;Cebeci
+el;Τσεμπελί;Cebeli
+ru;Кюртюн;Kürtün
+tr;Çayla;Çaylaköy
+tr;Çayköy;Acıöz
+ru;Чайирлар;Çayırlar
+ru;Бастам;Çaybük
+en;Riva;Çayağzı
+tr;Çavuşluköyü;Çavuşlu
+tr;Alonos;Atakent
+tr;Alanos;Atakent
+tr;Alanlı;Atakent
+en;Çavdargil;Tütünlü
+ru;Чавдаргиль;Tütünlü
+ru;Чатвиран;Çatören
+ru;Чаталкепрю;Çatalköprü
+ru;Чаталанкей;Çatalan
+de;Salın;Salin
+en;Salın;Salin
+nl;Salın;Salin
+ru;Киндик;Çataklı
+ru;Чатак;Tsatak
+tr;Çatak;Tsatak
+el;Τσατάχ;Tsatak
+el;Τσατάκ;Tsatak
+ru;Чатак;Çatak
+ru;Чаршибаши;Çarşıbaşı
+ru;Чаршамба;Çarşamba
+tr;Aşağıkutunet;Şenköy
+tr;Afan;Çardaklı
+ru;Афан;Çardaklı
+en;Çapans;Başçeşme
+ru;Чапанс;Başçeşme
+tr;Çanpet;Meyveli
+tr;Meyvali;Meyveli
+ru;Чанкыры;Çankırı
+sr;Чанкури;Çankırı
+ru;Джанболат;Canbolat
+el;Τσανάκκαλε;Çanakkale
+ru;Чанаккале;Çanakkale
+bg;Чанаккале;Çanakkale
+sr;Чанакале;Çanakkale
+lt;Čanakalė;Çanakkale
+uk;Чанаккале;Çanakkale
+tr;Bahşi;Bigalı
+ru;Чамолук;Çamoluk
+tr;Camköy;Çamoba
+ru;Чамлыкале;Çamlıkale
+tr;Çamlıköy;Çamlıkköy
+ru;Чамлычатак;Çamlıçatak
+ru;Менджилис;Çamlıca
+ru;Чамлыбель;Çamlıbel
+tr;Çamkoru;Çamköy
+tr;Fettahkısla;Çamkonak
+ru;Чамбель;Çambeli
+tr;Çaltu;Çaltı
+tr;Çaltepeleri;Çakırlı
+tr;Çal;Çalköy
+ru;Мишеверек;Çalıdere
+ru;Чалган;Çalgan
+ru;Чакрак;Çakrak
+ru;Чакмак;Çakmak
+ru;Чакырузюм;Çakırüzüm
+tr;Yayla;Çakırlaryaylası
+ru;Абуста;Çakırbağ
+bg;Чакъллъ;Çakıllı
+ru;Зодама;Çakılkaya
+tr;Çakılı;Çakıllı
+tr;Çakıl;Çakılköy
+en;Çağman;Zile Yaylası
+ru;Чагман;Zile Yaylası
+ru;Тев;Çağlayan
+el;Χιντσιρίκ;Çağlayan
+el;Χιντζιρίκ;Çağlayan
+el;Χιντσιρούκ;Çağlayan
+el;Τσαλαγιάν;Çağlayan
+en;Calayan;Çağlayan
+ru;Бузлупынар;Buzlupınar
+ru;Бузкей;Buzköy
+en;Büyükduran;Büyük Durduran
+ru;Бююк-Дуран;Büyük Durduran
+ru;Читикебир;Büyükçit
+en;Big Hanafart;Büyükanafarta
+ru;Буюкада;Adalar
+el;Προύσα;Bursa
+ru;Бурса;Bursa
+uk;Бурса;Bursa
+be;Бурса;Bursa
+bg;Бурса;Bursa
+sr;Бурса;Bursa
+mk;Бурса;Bursa
+ru;Бурмадере;Burmadere
+tr;Burhan;Doğancılı
+tr;Burgu;Bahçesaray
+ru;Буланджак;Bulancak
+tr;Bulamaç;Kehler
+ru;Бюгет;Büğet
+tr;Büçe;Güvercinli
+bg;Керациново;Boztaş
+de;Samut;Bozca
+en;Samut;Bozca
+tr;Samut;Bozca
+ru;Бозат;Bozat
+tr;Bozacı;Baltacı Kuyucağı
+tr;Çukur;Çukurköy
+ru;Борчка;Borçka
+tr;Boncuklu;Bezirgan
+ru;Белюкбаш;Bölükbaş
+ru;Болу;Bolu
+el;Μπολού;Bolu
+bg;Болу;Bolu
+be;Балу;Bolu
+sr;Болу;Bolu
+uk;Болу;Bolu
+ru;Пагник;Bolluk
+en;Bulair;Bolayır
+ru;Боламан;Bolaman
+fr;Hattousa;Boğazkale
+de;Hattuša;Boğazkale
+pl;Hattusa;Boğazkale
+es;Hattusas;Boğazkale
+en;Hattusa;Boğazkale
+ca;Hattusa;Boğazkale
+da;Hattusas;Boğazkale
+gl;Hattusa;Boğazkale
+it;Hattusa;Boğazkale
+nl;Hattusa;Boğazkale
+pt;Hattusa;Boğazkale
+ru;Хаттуса;Boğazkale
+sv;Hattusa;Boğazkale
+tr;Hattuşaş;Boğazkale
+tr;Boğazköy;Mamak
+tr;Beyenler;Boğazkale
+ru;Богач;Boğaç
+tr;Boduroğlu;Karapınar
+ru;Эминбей;Eminbey
+el;Μπιλετσίκ;Bilecik
+uk;Біледжик;Bilecik
+ru;Биг;Biga
+bg;Бига;Biga
+ru;Бига;Biga
+tr;Hevegilivane;Bıçakcılar
+ru;Бейтарлакей;Beytarla
+it;Distretto di Beypazarı;Beypazarı
+ca;Pera;Beyoğlu
+el;Μπέγιογλου;Beyoğlu
+lv;Bejolu rajons;Beyoğlu
+mk;Бејоглу;Beyoğlu
+ru;Бейоглу;Beyoğlu
+tr;Beykaya;Beykayası
+ru;Киртанус;Beydeğirmeni
+tr;Beyceler;Dedeler
+tr;Anıttepe;Beyazköy
+ru;Бешйол;Beşyol
+ru;Ардаган;Beşiktaş
+ru;Румджук;Beşağaç
+ru;Берекетли;Bereketli
+ru;Бенлиахмет;Benliahmet
+ru;Беленджик;Belencik
+ru;Бекташ-Яйла;Bektaşyayla
+ru;Бахрам;Behram
+ru;Бегендик;Beğendik
+ru;Базламач;Bazlamaç
+ru;Байбурт;Bayburt
+es;Provincia de Bayburt;Bayburt
+en;Bayburt Province;Bayburt
+cs;Bayburtská provincie;Bayburt
+el;Μπαϊμπούρτ;Bayburt
+uk;Байбурт;Bayburt
+sr;Бајбурт;Bayburt
+tr;Bayatsekisi;Bayat
+tr;Bayan;Bayanköy
+ru;Батманташкей;Batmantaş
+tr;Baş;Başköy
+ru;Башгедиклер;Başgedikler
+ru;Бартин;Bartın
+el;Μπαρτίν;Bartın
+ru;Бартын;Bartın
+uk;Бартин;Bartın
+en;Barhal;Altıparmak
+ru;Бархал;Altıparmak
+en;Bar;Aktaş
+ru;Бар;Aktaş
+ru;Бандырма;Bandırma
+sr;Бандурма;Bandırma
+ru;Мелинос;Ballıca
+ru;Холай;Ballıbağ
+ru;Балкая;Balkaya
+tr;Balıbağan;Balıbağı
+de;Bakla;Baklaköy
+en;Bakla;Baklaköy
+tr;Bakla;Baklaköy
+nl;Bakla;Baklaköy
+tr;Bakırlı Köy;Bakırlı
+tr;Bahşili;Bahşılı
+tr;Bahçeköy;Batça
+de;Bağözü;Zaviye
+en;Bağözü;Zaviye
+tr;Bağözü;Zaviye
+nl;Bağözü;Zaviye
+en;Bağlı;Bahçecik
+ru;Баглы;Bahçecik
+lv;Bādžilaras rajons;Bağcılar
+ru;Багджылар;Bağcılar
+ru;Ибипсе;Bağbaşı
+ru;Бафра;Bafra
+tr;Badırlı;Ataköy
+ru;Бадидживан;Badicvan
+ru;Азат;Azat
+ru;Азап;Azap
+tr;Ayva;Ayvaköy
+ru;Айдогмуш;Aydoğmuş
+ru;Айдынтепе;Aydıntepe
+ru;Эзйнепазары;Aydınca
+en;Aybasti;Aybastı
+ru;Айбасты;Aybastı
+el;Αϊμπαστί;Aybastı
+tr;Avcıova;Avcıoba
+de;Avcıova;Avcıoba
+en;Avcıova;Avcıoba
+nl;Avcıova;Avcıoba
+tr;Atıcıoba;Ilıcaoba
+tr;Ereğilsofular;Sofular
+en;Aso;Aksu
+ru;Асо;Aksu
+ru;Ашикзюлали;Aşıkzülali
+tr;Sangül;Doğanay
+tr;Aşağınarlı;Narlısaray
+tr;Saraylı;Narlısaray
+tr;Safisaray;Narlısaray
+tr;Narlısaraylı;Narlısaray
+en;Aşağıkumlu;Aşağı Kumlu
+ru;Ашагы-Кумлу;Aşağı Kumlu
+tr;Aşağı Kışlak;Aşağıkışlak
+tr;Aşağı Kırzı;Aşağıkırzı
+tr;Kılıçlı;Aşağıkılıçlı
+tr;Aşağınapşit;Aşağışahinler
+ru;Ашагы-Ирмаклар;Aşağı Irmaklar
+tr;Aşağı Çimağıl;Aşağıçimağıl
+tr;Aşağıboğaz;Boğaz
+tr;Aşağıarslan;Aşağıarslanlı
+tr;Aşağı Alican;Aşağıalican
+tr;Aşağı Aktaş;Aşağıaktaş
+en;Arzupınar;Arzupınarı
+ru;Арзупынаркей;Arzupınarı
+ru;Артвин;Artvin
+el;Αρτβίν;Artvin
+uk;Артвін;Artvin
+ru;Артова;Artova
+tr;Arslanoğlu;Dağcılar
+tr;Arslan;Arslanköy
+ru;Салманкас;Arslanca
+tr;Aslanbey;Arslanbey
+ru;Арпалы;Arpalı
+ru;Арпачай;Arpaçay
+ru;Армутколу;Armutkolu
+ru;Армешин;Armeşen
+ru;Пискаласюфля;Arılı
+ru;Мусазаде;Arhavi
+ru;Ардешен;Ardeşen
+ru;Ардануч;Ardanuç
+ru;Ардаган;Ardahan
+uk;Ардахан;Ardahan
+el;Αρνταχάν;Ardahan
+ru;Ардахан;Ardahan
+pt;Ardaã;Ardahan
+tr;Araplar;Kuloğlu
+ru;Араклы;Araklı
+en;Anifa;Kutlugün
+ru;Анифа;Kutlugün
+ca;Amàsia;Amasya
+el;Αμάσεια;Amasya
+gl;Amasia;Amasya
+ru;Амасья;Amasya
+et;Amasya ringkond;Amasya
+lt;Amasija;Amasya
+bg;Амасия;Amasya
+uk;Амасья;Amasya
+pt;Amásia;Amasya
+ru;Амасра;Amasra
+ru;Алуджра;Alucra
+ru;Алташ;Altaş
+en;Alpaslan;Alparslan
+ru;Зудай;Alparslan
+tr;Alpaslan;Alparslan
+tr;Alpacut;Arpaöz
+ru;Алмус;Almus
+tr;Aliköy;Sırma
+ru;Алиджекрек;Aliçeyrek
+ru;Килифтин;Alıç
+tr;Alibeyli;Sarıyer
+ru;Алибейли;Alibeyli
+ru;Алям;Alem
+ru;Алчилы;Alçılı
+tr;Örencik;Alancık
+tr;Alan;Kuz
+en;Alan;Alanköy
+ru;Аланкей;Alanköy
+tr;Alaattin;Alâettinköy
+en;Zaliche;Alaçam
+en;Leontopolis;Alaçam
+en;Akkaya;Akyaka
+ru;Аккая;Akyaka
+ru;Акъяка;Akyaka
+ru;Хаексе;Aktutan
+ru;Аксукей;Aksu
+ru;Акшар;Akşar
+en;Akhisar;Akşar
+ru;Балахор;Akşar
+ru;Аксакал;Aksakal
+tr;Akpınar;Baltıca
+ru;Аколук;Akoluk
+ru;Балахор;Akocak
+ru;Аккузулу;Akkuzulu
+ru;Аккуш;Akkuş
+ru;Кертенекей;Akkiraz
+ru;Ахкеран;Akkıran
+ru;Акынджилар;Akıncılar
+ru;Агдам;Akdam
+ru;Акчай;Akçay
+ru;Акиома;Akçalı
+tr;Akçakale;Akçalar
+tr;Akçakise;Akçakese
+tr;Karandi;Akçakese
+en;Akçakale;Akçakale / Πλατάνα
+ru;Акчакале;Akçakale / Πλατάνα
+ru;Акчаабад;Akçaabat
+ru;Абранс;Akbulut
+ru;Бизерикей;Akbelen
+ru;Акбайир;Akbayır
+ru;Акбаба;Akbaba
+tr;Ahlat;Ahlatköy
+de;Ahi;Ahiköy
+en;Ahi;Ahiköy
+tr;Ahi;Ahiköy
+nl;Ahi;Ahiköy
+ru;Ахбурик;Ahburik
+ru;Ахпусор;Ahbisor
+en;Ağveran;Akören
+ru;Аквиран;Akören
+ru;Агва;Ağva
+tr;Kuruoğlu;Ağlı
+tr;Ağılpazarı;Ağlı
+ru;Агызлар;Ağızlar
+en;Ağasar;Kireçli
+ru;Агасар;Kireçli
+ru;Агадеве;Ağadeve
+tr;Adilli;Güvenli
+ru;Адатепе;Adatepe
+pl;Adapazari;Adapazarı
+ru;Сакарья;Adapazarı
+be;Адапазары;Adapazarı
+bg;Адапазаръ;Adapazarı
+el;Ανταπαζαρί;Adapazarı
+gag;Sakarya;Adapazarı
+lt;Adapazaris;Adapazarı
+mk;Адапазар;Adapazarı
+sr;Адапазари;Adapazarı
+uk;Адапазари;Adapazarı
+ru;Адапазары;Adapazarı
+ru;Адамлы;Adamlı
+ru;Абана;Abana
+tr;Gümüşköy;Gümüşdere
+ru;Кумчаз;Kumcaz
+tr;Kırtepe;İstasyon
+tr;Eyercili;Eğercili
+tr;Köyyeri;Kertme
+en;Ichlemer;İçmeler
+de;Lara / Antalya;Lara
+tr;Dedeikebir;Büyükdede
+tr;Baver;Bozek
+tr;Yolçatı;Yolaçtı
+tr;Ergin;Erginköy
+tr;Daralan;Kıralan
+tr;Çiğdemli;Onbaşılar
+tr;Yukarıkarataş;Yukarı Karataş
+tr;Yalçinkaya;Yalçınkaya
+tr;Yukarı Yalanıkaya;Yalçınkaya
+tr;Aşağı Ağırtaş;Yalçınkaya
+tr;Çiftlibağ;Çitlibağ
+tr;Yaşilköy;Gürbekli
+tr;Çanklı;Çarıklı
+tr;Türkelli;Türkeli
+tr;Belan;Belen
+tr;Doğaköy;Doğa
+tr;Beyköy;Bey
+tr;Hacıhasar;Hacıhasan
+tr;Saracalar;Saracalarçiftliği
+tr;Uçan;Uçarı
+en;Kargicak;Kargıcak
+de;Colakli;Çolaklı
+ru;Саригерме;Sarıgerme
+en;Sarigerme;Sarıgerme
+ru;Олюдениз;Ölüdeniz
+tr;Iskender;Iskenderköy
+ru;Хейбелиада;Heybeliada
+tr;Aşağıkalamuş;Aşağıkalamış
+tr;Kalamış;Aşağıkalamış
+tr;Tımar;Timar
+tr;Dere Başı;Derebaşı
+tr;Yatağan;Yatağ
+tr;Uğuryeren;Uğurveren
+tr;Kösk;Köşkköy
+tr;Cimenli;Çimen
+tr;Nışanlı;Nişancı
+tr;Abdalmezreası;Apdalmezrası
+tr;Abdal;Apdalmezrası
+tr;Mağara;Mağaraköy
+tr;Kordoğan;Karadoğan
+tr;Gergeli;Gergili
+tr;Mazban;Mazman Yaylası
+tr;Küçük Kıran;Keçikıran
+tr;Topraksever;Toprakseven
+tr;Kurtoğlu;Kurtoğlan
+tr;Değerimenarkı;Değirmenarkı
+tr;Irgatlı;Irgat
+tr;Çakmak;Çakmakköy
+tr;Yarımış;Yaramış
+tr;Mutlusar;Günışık
+tr;Erkanağı;Erkonağı
+tr;Arkoç;Arkaç
+tr;Hörköy;Horis
+tr;Dikmetaş;Dimkar
+tr;Süs;Susuz
+tr;Kazan;Kazanbey
+tr;Uçaymak;Üçoymak
+tr;Aşağıgömez;Aşağı Göçmez
+tr;Yenihisar;Yeşilhisar
+tr;Eyrilmaz;Eryılmaz
+tr;Yukarıdamla;Yukarı Damla
+tr;Günüz;Gündüz
+tr;Dikbiyik;Dikbıyık
+tr;Palakçayır;Palakçayırı
+tr;Değermendere;Değirmengeçidi
+tr;Hasanpınar;Hasanpınarı
+tr;Hacisefer;Hacısefer
+tr;Değirmenoluğu;Değermenoğlu
+tr;Soğan Eleşkirt;Soğanköy
+tr;Arıbey;Arifbey
+tr;Aşağı Yoldüzü;Aşağıyoldüzü
+tr;Yukarı Saklıca;Yukarısaklıca
+tr;Aşağı Pamuktaş;Aşağıpamuktaş
+tr;Baztoprak;Boztoprak
+tr;Yasıkaya;Yassıkaya
+tr;Balkaynak;Balkaymak
+tr;Buyurali;Buyuretti
+tr;Aşağıakpınar;Aşağı Akpınar
+tr;Yıldız;Yıldızköy
+tr;Danıcı;Sefasahil
+tr;Güzeleli;Güzelli
+tr;Aşağıkaraboy;Aşağı Karaboy
+tr;Yalnızçam;Yalnızçamlar
+tr;Değermenaltı;Değirmenaltı
+tr;Hüsrev Paşa Han;Hüsrevpaşa
+tr;Köprücük;Köprücek
+tr;Güreşli;Güreşçi
+tr;Kayapınar;Koyunpınarı
+tr;Yoğurtçu;Yoğurtlu
+tr;Çalışkaniar;Çalışkanlar
+tr;Elmalı;Elmacık
+tr;Kağınlı;Kağanlı
+tr;Üçadim;Üçadım
+tr;Doğarcık;Dağarcık
+tr;Çayır;Çayırlı
+tr;Mueatkolu;Muratkolu
+tr;Bağdam;Beşdam
+tr;Yukarıhacibey;Yukarı Hacıbey
+tr;Gürdere;Gürdere Doski Vadisi
+tr;Doski Vadisi;Gürdere Doski Vadisi
+tr;Pınarbaşı;Bilbis
+tr;Aslanköy;Aslanlı
+fr;Reqaqî;Ortaca
+es;Marmara;İhlas Marmara Evleri - I. Kısım
+tr;Yanıklar;Yaniklar
+ru;Яныклар;Yaniklar
+tr;Kemel;Kemalköy
+tr;Bezierganlar;Bezirganlar
+de;Eskihamur;Eski Hamur
+en;Eskihamur;Eski Hamur
+nl;Eskihamur;Eski Hamur
+ru;Гора Чёрная;Yapaklı
+tr;Koçaklar;Koçaklı
+nl;Koçaklar;Koçaklı
+de;Karşıyaka;Karşıkaya
+en;Karşıyaka;Karşıkaya
+nl;Karşıyaka;Karşıkaya
+tr;Erikler;Erikli
+tr;Haciyusuf;Hacıyusuflar
+tr;Kocaharmanı;Koçharman
+de;Saltuk;Saltukköy
+en;Saltuk;Saltukköy
+tr;Çatpaoba;Çamkalabak
+tr;Kırcalar;Kırca
+tr;Kısacıkaltı;Güzelköy
+tr;Küçükhüsün;Küçük Hüsün
+tr;Kasiburnu;Koşuburnu Türkmenleri
+tr;Marmat;Gülüce
+tr;Karakoca;Kazabat
+tr;Daralanoba;Daralan
+tr;Yeniköy;Serçiler
+tr;Malidere;Mallıdere
+tr;Taşoluk;Tasaluk
+tr;Aşağı Civanlı;Aşağıcivanlı
+tr;Uğurca;Uğruca
+tr;Aşağı Topraklı;Aşağıtopraklı
+tr;Yukarı Aratan;Yukarıaratan
+tr;Yukarı Çiftlikköy;Yukarıçiftlikköy
+tr;Harmandöğen;Harmandöven
+tr;Boncuk;Boncuklu
+en;Börkenek;Börgenek
+tr;Börkenek;Börgenek
+nl;Börkenek;Börgenek
+tr;Ekin;Eskin
+tr;Çiftlik;Aşağı Çiftlik
+tr;Poro;Yakınyurt
+tr;Aranak;Argıncık
+tr;Kacarsuluca;Kaçarsallıcası
+tr;Tisha;Fıstıközü
+tr;Tatayani;Bulaklı
+tr;Aşağı Habip;Aşağı Habib
+tr;Tilyaz;Meteler
+tr;Hacınebi;Uğurcuk
+tr;İncirli;Yukarı İncirli
+tr;Ortabilge;Bilge
+tr;Yalnı;Yalpı
+tr;Öğütçü;Vaiz-Kantarasy
+ru;Конуклу;Konuklu
+tr;Kayaca;Karaca
+tr;Güçlü;Chekmorich
+tr;Göçlü;Chekmorich
+tr;Serantepe;Seyrantepe
+tr;Aşağıkören;Aşağı Akören
+tr;Kanatlı;Türkmen
+tr;Malvıran;Malören
+tr;Mektelan;Bürüncek
+tr;Dik;Dikili
+tr;Zakzuk;Kargalı
+tr;Boşık;Boncuk
+tr;Kerrik;İncirağacı
+tr;Mutlu;Büyük Mutlu
+tr;Sünbüllü;Sümbüllü
+tr;Çaylı;Çaylıköy
+tr;Çaylıköyü;Çaylıköy
+tr;Şerifeyeköyü;Şerefiye
+tr;Çivteköpru;Çifteköprü
+tr;Sidere;Derecik
+tr;Otalaha;Sırtoba
+tr;Kamparna;Dikyamaç
+tr;Papilat;Arılı
+tr;Aşağıpotucur;Dülgerli
+tr;Parih;Boyuncak
+tr;Murat;Muratköy
+tr;Kömilo;Muratköy
+tr;Guvant;Çayırdüzü
+tr;Muhatoba;Yeniköy
+tr;Mahatoba;Yeniköy
+tr;Ağvan;Seslikaya
+tr;Bakoz;Yamaçdere
+tr;Aşağızuğu;Sulak
+tr;Arslandere;Aslandere
+tr;Çukulit;Aslandere
+tr;Saat;Saatköy
+tr;Süpe;Beydere
+tr;Aşağı Pınarlı;Aşağıpınarlı
+tr;Ege;Taşdikmen
+el;Αρμούτ ντιζι;Armutdüzü
+tr;Küçükahmetli;Küçük Ahmet
+el;Διβάν;Yağmurca
+el;Τιβάν;Yağmurca
+tr;Orhaniye;Burhaniye
+tr;Yeşilbahçe;Yaslıbahçe
+tr;Kirazgağı;Kırazdağı
+tr;Tuzak;Tuzakköy
+tr;İçeribüklü;İçeribükü
+tr;Nurettin;Nurettinköy
+tr;Düzçiftlik;Düzçiftliği
+tr;Aşağşı Damlalı;Avdullu
+tr;Hisarbaşıgünlük;Hızarbaşıgünlük
+tr;Cevizdere;Cevizlidere
+tr;Dağguvezi;Yenidoğan
+tr;Çömlek;Çömlekli
+tr;Balıklar;Ballıklar
+tr;Celadamı;Celaldamı
+tr;Kavabaşı;Kavasbaşı
+tr;Uzunbelen;Hubyar
+tr;Güneyce;Günece
+tr;Şaban;Şabanköy
+tr;İsmailbey;İsmailbeyçiftliği
+tr;Tuzla;Körtuzla
+tr;Çiftlik;Çitlik
+tr;Yarıtepe;Yusufefendi
+tr;Küçüksu;Gücüksu
+ru;Гюджюксу;Gücüksu
+tr;Kızılköy;Kızılöz
+tr;Karlıtepe;Çatak
+de;Nurettin;Nurettinköy
+en;Nurettin;Nurettinköy
+fr;Lordîn;Nurettinköy
+tr;Yeniköy;Yukarı Yeniköy
+tr;Habip;Ballı
+tr;Küçük Alahacı;Küçükobası
+tr;Ahmetobası;Mehmetobası
+ru;Сахинбей;Şahinbey
+tr;Aşagı Çakıllıkoz;Yeniköy
+tr;Aşagı Seldiren;Yeniköy
+tr;Bey;Beyköyü
+tr;Beyköy;Beyköyü
+tr;Sazyurdu;Gölova
+tr;Gazi Osman Paşa;Gaziosmanpaşa
+tr;Ahmetağa;Yeniköy
+tr;Evciler;Höyükköy
+tr;Hüyük;Höyükköy
+de;Tabur;Konanklı
+en;Tabur;Konanklı
+tr;Tabur;Konanklı
+nl;Tabur;Konanklı
+tr;Karslılar;Karslı
+ru;Мустафалар;Mustafalar
+tr;Cerenli;Gerenli
+de;Camuzağılı;Camızağılı
+tr;Camuzağılı;Camızağılı
+tr;Çinliyurt;Cinliören
+tr;Turan;Turanköy
+tr;Serinköy;Senirköy
+tr;Yukarıeğerci;Yukarı Eyerci
+tr;Arifoğlu;Arifeoğlu
+tr;Mezra;Mezraa
+tr;Kuyu;Kuyuköy
+tr;Ayvalık;Ayvalıkarlık
+tr;Mescit;Mescitköy
+tr;Umurca;Omarca
+tr;Karlıköy;Karlı
+tr;Yeşilada;Yeşiltepe
+tr;Selemelik;Tepebaşı
+tr;Büyükoyumca;Kurupelit
+tr;Büyükkoyumca;Kurupelit
+tr;Soğpınar;Soğpınarı
+tr;Altı;Allı
+tr;Uzumlu;Uzunlu
+tr;Kumcuğaz;Kumcığaz
+tr;Elma;Elmaköy
+tr;İslambey;Aşağı Köybucağı
+tr;Mesçitli;Mesçitköy
+tr;Dirgenli;Esentepe
+tr;Kalehisar;Karahisar
+tr;Penbecik;Pembecik
+tr;Tarhankozlusu;Tabankozlusu
+tr;Divan;Güzelyurt
+tr;Körec;Küpeç
+tr;Derekaya;Derekışla
+tr;Avutmuş;Çöplüavutmuş
+tr;Kuz;Kuz Alibey
+tr;Çiğdemlik;Cevizli
+tr;Asarçay;Asarçayı
+tr;Kavakçiftliği;Kavaklıçiftlik
+tr;Doğan;Doğanköy
+tr;Arbişli;Arbışlı
+tr;Kocak;Kocakköy
+tr;Yeniyapan;Göktaş
+tr;Yağmursayobası;Yağmurlu Sayobası
+tr;Güllühöyük;Güllühüyük
+tr;Tatarılyaskışla;Tatarıilyaskışla
+tr;Mahmaibsir;Aliosmandamı
+tr;Han;Uçarı
+tr;Güneyli;Güneyli Yaylası
+ru;Малаклар;Malaklar
+tr;Elmakuzu Yaylası;Elmakuzu
+tr;Dursun;Karaharnup
+tr;Dursun;Tursun
+tr;Yarmusu Yaylası;Yarmasu
+tr;Akova Yaylası;Akova
+tr;Anaypazarı;Anay
+tr;Gölkaya;Gülkaya
+tr;Gökçehöyük;Gökçehüyük
+tr;Sülemiş Mahallesi;Kervan
+tr;Afṣar;Küçük Afşar
+tr;Çat;Çatköy
+de;Avşarlar;Kanatlı
+en;Avşarlar;Kanatlı
+tr;Avşarlar;Kanatlı
+nl;Avşarlar;Kanatlı
+tr;Doğancı;Doğanlar
+tr;Muzrupağalın;Muzrupağacın
+de;Güzel;Güzelçiftlik
+en;Güzel;Güzelçiftlik
+tr;Güzel;Güzelçiftlik
+nl;Güzel;Güzelçiftlik
+tr;Harmankaya;Harmancık
+tr;Köst;Köstköy
+tr;Geyikpınar;Geyikpınarı
+tr;Karakoç;Karakoç Yaylası
+tr;Kırovacık;Aşağıovacık
+tr;Domuzçökeci;Domuzçökeci Yaylası
+tr;Pırınçlı;Çakırdağ
+tr;Karaçökek;Kiremitçi
+tr;Musa;Musaköy
+tr;Demirciler;Demirci
+tr;Doruçaşahinci;Doruca Şahinci
+tr;Hacıeyupoğlu;Eyupoğlu
+tr;İmciler;Topçalı
+tr;Eyüboğlu;Kale
+tr;Belen;Cihanbey
+tr;Kohyalar;Kahyalar
+tr;Cobular;Coburlar
+tr;Aydınlar;Ayvazlar
+tr;Taşağılı;Taşçılar
+tr;Eski Ömerli;Ömerli
+tr;Çörüş;Yeşilyurt
+ru;Тосмур;Tosmur
+tr;Obaköy;Oba
+ru;Оба;Oba
+tr;Karaboynuzlar;Esentepe
+tr;Töngüşlü;Töngüçlü
+de;Töngüşlü;Töngüçlü
+en;Töngüşlü;Töngüçlü
+nl;Töngüşlü;Töngüçlü
+tr;Eski Yürük;Eskiyürük
+de;Aşağıçatma;Aşağı Çatma
+en;Aşağıçatma;Aşağı Çatma
+tr;Aşağıçatma;Aşağı Çatma
+nl;Aşağıçatma;Aşağı Çatma
+tr;Eminceler;Eminciler
+tr;Belkis;Belkıs
+tr;Küçük Belkis;Belkıs
+tr;Gürpınar;Denizkent
+tr;Yucacık;Yuvacık
+tr;Kıyı;Kıyıköy
+tr;Yanık;Özyanık
+tr;Yılgın;Yılgı
+tr;Redefler;Redifler
+tr;Deveciler;Deveci
+tr;Şeyit;Seyitköy
+tr;Kol;Kolköy
+tr;Sarıca;Sarıcalar
+tr;Sapanlar;Sapanlıurgancılar
+tr;Urgancılar;Sapanlıurgancılar
+ru;Меджидийекёй;Mecidiyeköy
+bg;Меджидийекьой;Mecidiyeköy
+tr;Sarıkabalı;Sarıkaya
+tr;Kavak;Kadılar
+tr;Ekinlik Mahallesi;Ekinlik
+tr;Çamlı;Çamlıköy
+tr;Asmacık Mahallesi;Asmacık
+tr;Derbent Mahallesi;Yukarı Çapak
+tr;Gömme Yaylası;Göme Yaylası
+tr;Nusratlı Mahallesi;Nusratlı
+tr;Abdullahar Yaylası;Balaban Yaylası
+tr;Özkan;Özhan
+de;Özkan;Özhan
+en;Özkan;Özhan
+hu;Özkan;Özhan
+ro;Özkan;Özhan
+nl;Özkan;Özhan
+tr;Yenicesu Mahallesi;Yeni İncesu
+tr;Hark;Harkköy
+tr;Bayırakçaşehir;Bayır Akçaşehir
+tr;İlimiye;Nailiye
+tr;Batak;Batakköy
+tr;Sefeler;Seyfeler
+tr;Tekerleksüleymaniye;Süleymaniye
+tr;İbaliye;İkbaliye
+tr;Yeşilköy;Cıpcıp
+tr;Beylikkışla;Türk Beylikkışla
+tr;Hallaçköy;Hallaç
+tr;Büyüksayvant;Büyükyanık
+tr;Anfağa;Arifağa
+tr;Yenidoğan;Osmanlı
+tr;Dudu;Duduköy
+tr;Dağdüren;Salmanlı
+tr;Eğerci;Eyerci
+tr;Şerbetpınarı;Şerbetpınar
+ru;Кадрие;Kadriye
+tr;Öteköy;Özbey
+tr;Akçağıl;Akçaağıl
+tr;Hatipler;Nahsuhlar
+tr;Yeni Eşme;Eşme
+tr;Servetiyekarşı;Servetiye Karşı
+tr;Servetiyecami;Servetiye Cami
+ru;Термал;Termal
+el;Κιρκιντζές;Şirince
+tr;İnikli;İnik
+en;Yildirim;Yıldırım
+tr;Işık;Turgutalp
+tr;Alutka;Alutça
+tr;Bıyıkalanı;Bıyıklıalanı
+tr;Orta;Ortaköy
+tr;Eski Balçık;Eskibalçık
+tr;Kapaklıoğlu;Kapaklıoluk
+tr;Göynem;Aşağı Kayalar
+tr;Kayalar;Aşağı Kayalar
+tr;Hafızhüseyinbey;Hafız Hüseyinbey
+tr;Yeniakçapınar;Yeni Akçapınar
+tr;Karalarçiftlik;Karalarçiftliği
+tr;Kaplanoba;Kaplanobası
+tr;Çiftlikalan;Çiftlikalanı
+tr;Gökçesuosmanpazar;Osmanpazar
+tr;Ayvalı;Ayvalıpınar
+tr;Kırcılar;Kırcalar
+tr;Haydat;Haydarköy
+tr;Sıvatpınar;Sarıpınar
+tr;Kozören;Kocaören
+tr;Çınardere;Çınarlıdere
+tr;Bağtepe;Boğatepe
+tr;Örentepe;Örenharman
+tr;Tozalan;Tozağan
+tr;Kardeşköy;Kardeşler
+tr;Kızılöz;İrfaniye
+tr;Sinekler;Şenköy
+tr;Akçasır;Akçesir
+tr;Çelebiköy;Çelebi
+ru;Тепетарла;Tepetarla
+tr;Eski Çanta;Yukarı Çanta
+tr;Güllü;Güllüköy
+tr;Köprübaşı;Hoşdere
+tr;Nobağleni;Yıldızı
+tr;Ciğeryazan;Kemerköprü
+tr;Gidreve;Dereüstü
+ru;Гедельме;Gedelme
+tr;Hatunhamamı;Hatayhamamı
+tr;Halilağa;Halilağalar
+tr;Ilgıncaber;Ilgındere
+tr;Hacı Veliler;Durmuşlar
+tr;Çaltıdere;Çaltı
+tr;Cumhuriyet;Gençerli
+tr;Luka;Laka
+tr;Çınarköy;Çınar
+tr;Örnekköy;Savandağ
+tr;Aşağı Kızılca;Aşağıkızılca
+tr;Kaleköy;Kale
+tr;Yukarı Tepe;Yukarı Aktepe
+tr;Palamut;Palamutçuk
+tr;Küçük Avulcuk;Küçükavulcuk
+tr;Şirinköy;Keciler
+tr;Küçük Ören;Küçükören
+de;Arpa dere;Arpadere
+nl;Arpa dere;Arpadere
+tr;Eğricil Mevki;Eğriazmak
+tr;Kızılcaağaç;Kızılağaç
+tr;Karahalil;Karahalili
+tr;Yeşilova;Çıplaköy
+tr;Yeni Çiftlik;Yeniçiftlik
+tr;Pananos;Yoncaköy
+tr;Aldum;Liman
+tr;Kalecik;Kalaycık
+tr;Yukarı Tosunlar;Yukarıtosunlar
+tr;Örcünlü;Yukary-Kubik
+ru;Këtyuviran;Başgöze
+tr;Altınlı;Darkale
+tr;Küçük Yayaköy;Küçük Yaya
+tr;Hacı Osmanlar;Harmandalı
+tr;Çerkez Harmandalı;Dilek
+tr;Göçmen;Örnekköy
+tr;Kabaağaçkıran;Kobaşkıran
+tr;Kirankışla;Şahinkaya
+tr;Kavaklık;Pınarbaşı
+tr;Hacıibrahim;Azimli
+tr;Karaveli Kaytazlar;Gülpınar
+tr;Musaağa;Baklacı
+tr;Battalbey;Battalmustafa
+tr;Balkası;Serinköy
+tr;Narıneli;Narıncalı
+tr;Gödeler;Gürçeşme
+tr;Kalburcu;Çamyayla
+tr;Karaağaç;Yeşilyurt
+tr;Aşağı Çıyrıklı;Aşağıçıyrıklı
+tr;Bölücek;Üçler
+tr;Karaduman;Kurduman
+tr;Dağyenice;Yeşilyayla
+tr;Arıca;Derearıca
+ru;Сур;Sur
+tr;Topraklı;Topaklı
+tr;Yeğenağa;Güzelköy
+tr;Esenyurt;Sobuca
+tr;Devran;Devrant
+ru;Мутафлар;Mutaflar
+tr;Çakırkavağı;Sabunlu
+tr;Mersinpınarı;Yeşilova
+tr;Yukarı İslam;İslamhanleri
+tr;Kocakışla;Karakışla
+tr;Gevenes;Çaybükü
+tr;Geven;Çaybükü
+tr;Mutluca;Becin
+tr;Erdelek;Eldirek
+bg;Лизгар;Izgar
+bg;Хедили;Hedeyli
+en;Tepebasi;Tepebaşı
+en;Odunpazari;Odunpazarı
+ru;Меркез;Merkez
+en;Ilkadim;İlkadım
+ru;Кепез;Kepez
+en;Altinordu;Altınordu
+tr;Güvere;Esenpınar
+ru;Аркум;Arkum
+tr;Uşakpınarı Yaylası;Uşakpınarı
+tr;Ardıçlı Yaylası;Ardıçılıtaş
+tr;Kızıliniş;Kızıleniş
+tr;Ağaçlı;Boyno
+tr;Boynoobası;Boyno
+tr;Üçgül;Menminek
+tr;Üçgöl;Menminek
+tr;Minminik;Menminek
+tr;Alibeyhöyüğü;Alibeyhöyüğü İskan
+tr;Ulaklı;Ulaklık
+tr;Güzelçay;Güzel
+ru;Картепе;Kartepe
+tr;Kubacık;Kabacık
+tr;Simena;Kaleköy
+tr;Seferlik;Seferli
+tr;Karakise;Karakese
+tr;Toruköy;Karadere
+tr;İritsank;İrsank
+ru;Аликочак;Aliköçek
+tr;Karabaş;Karabaşlar
+tr;Ağılköy;Ağıl
+tr;Yukarı Sutaşı;Yukarısutaşlı
+tr;Sarnıç Yaylası;Sarnıç
+tr;Ortaalican;Orta Alican
+ru;Буруксу;Buruksu

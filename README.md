@@ -127,14 +127,14 @@ les trois premières routes.
 
 ## Pays couverts
 
-Un pays à la fois plutôt que tout d'un coup (à l'exception du dernier ajout en date, voir plus bas)
+Un pays à la fois plutôt que tout d'un coup (à l'exception de deux ajouts en date, voir plus bas)
 — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
 Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
 Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie, Roumanie, Lettonie, Lituanie, Estonie, le
-Vatican, l'Islande, les îles Féroé, Gibraltar, la Moldavie, la Biélorussie et l'Ukraine pour
-l'instant, d'autres viendront. Chaque pays
+Vatican, l'Islande, les îles Féroé, Gibraltar, la Moldavie, la Biélorussie, l'Ukraine et la Turquie
+pour l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -367,6 +367,34 @@ ajoute deux à trois choses, indépendamment des autres :
    internationales qui ne reconnaissent pas l'annexion russe de 2014 — utilisées telles quelles, sans
    exclusion ni retouche éditoriale, même logique que les localités transnistriennes conservées sous
    "MD" plus haut.
+   **La Turquie**, dernier ajout en date — exceptionnellement seule plutôt qu'en groupe de plusieurs
+   pays comme les ajouts précédents, mais le plus gros pays traité par ce script à ce jour (~52 800
+   lieux bruts, contre ~45 400 pour l'Ukraine, le précédent record) — revient elle aussi au pipeline
+   STANDARD, GeoNames publiant un vrai fichier de codes postaux pour ce pays. 52 620 communes
+   retenues sur 52 793 lieux bruts (99,8 % de jointure avec un code postal, un taux exceptionnellement
+   élevé pour un pays de cette taille). Contrairement à la Macédoine du Nord/la Biélorussie/l'Ukraine,
+   aucun problème de SCRIPT à gérer (le turc s'écrit nativement en alphabet latin depuis la réforme de
+   1928) — seulement des diacritiques turcs (ç/ğ/ı/İ/ö/ş/ü) manquants sur huit entrées, détectées
+   systématiquement plutôt qu'à l'œil (vérification manuelle irréaliste à cette échelle) par un script
+   dédié comparant, pour chaque commune d'au moins 1 000 habitants, son nom sans diacritique à celui de
+   toute autre entrée du même département administratif partageant le même nom une fois les
+   diacritiques neutralisés — ne retient que les cas où une autre entrée existe avec STRICTEMENT PLUS
+   de diacritiques, écartant les doublons dans l'autre sens (une grande ville déjà correcte, comme
+   İzmir, n'est jamais signalée simplement parce qu'un homonyme mineur existe ailleurs sans
+   diacritique). "Istanbul" (la plus grande ville du pays, 15,7 millions d'habitants) manque le İ
+   majuscule pointé initial — présent dans sa propre liste de noms alternatifs GeoNames (qui liste
+   aussi bien "Istanbul" qu'"İstanbul" pour cette même entrée, incohérence interne au dump).
+   "Umraniye" (district d'Istanbul, 573 265 habitants) manque le Ü — confirmé par deux autres entrées
+   GeoNames du même lieu exact, toutes deux déjà "Ümraniye". "İnegol" (district de Bursa, 133 959
+   habitants) manque le ö final — confirmé par sa propre liste de noms alternatifs ET par l'entité
+   administrative correspondante. Trois derniers cas sous le seuil des 1 000 habitants (Kütüklü,
+   Karaburçak, Alaçami), trouvés par le même script abaissé à 200 habitants puis vérifiés un par un
+   plutôt qu'ajoutés automatiquement — un seuil plus bas rend plus probable une coïncidence entre deux
+   villages homonymes sans rapport plutôt qu'un vrai diacritique manquant, mais chacun de ces trois cas
+   a bien été confirmé par une entrée jumelle exacte ou un homonyme dans la même province partageant la
+   même orthographe correcte en turc réel. Deux vraies îles reliées par ferry pour véhicules détectées
+   via le champ "dept" (littéralement le nom de l'île pour ces deux-là dans GeoNames — voir "Ferries"
+   plus bas) : Bozcaada et Gökçeada, dans le détroit des Dardanelles.
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -575,6 +603,24 @@ ajoute deux à trois choses, indépendamment des autres :
    les véhicules légers modélisés ici (voiture/van/moto), c'est une vignette électronique à prix fixe
    par période (15 jours/30 jours/1 an) qui s'applique, rejoignant donc le même groupe que la
    Moldavie plutôt que celui de la France/l'Italie/la Croatie (barème €/km réel pour les voitures).
+   **La Turquie**, dernier ajout, rejoint plutôt le groupe France/Espagne/Italie/Croatie/Bosnie-
+   Herzégovine/Serbie/Macédoine du Nord/Grèce : un vrai réseau d'autoroutes (otoyol) à péage
+   électronique proportionnel à la distance (HGS, paiement automatique par plaque), `hasToll:true`.
+   Barème dérivé de l'autoroute Gebze-Orhangazi-İzmir (O-5, 384 km de section réellement autoroutière
+   hors bretelles de raccordement, ozaltin.com), en retirant le tarif du pont d'Osmangazi qui la
+   traverse — une structure isolée à péage FIXE au franchissement, jamais proportionnel à la distance,
+   même limite déjà acceptée pour le Storebælt danois/le tunnel sous la Manche/le tunnel du
+   Mont-Blanc : non modélisée en tant que telle, simplement exclue du calcul plutôt que traitée comme
+   un ouvrage séparé. Tarifs au 1er juillet 2026 (plusieurs sources convergentes) : trajet complet
+   catégorie 1 (voiture) 2 525 TL dont pont 1 170 TL → partie autoroutière seule 1 355 TL / 384 km ≈
+   3,53 TL/km ; catégorie 2 (véhicule léger utilitaire) 4 040 TL dont pont 1 870 TL → 2 170 TL /
+   384 km ≈ 5,65 TL/km ; catégorie 6 (motocyclette) 1 795 TL dont pont 820 TL → 975 TL / 384 km ≈
+   2,54 TL/km — convertis au taux ~56,3 TRY/EUR retenu pour `COUNTRIES.TR.currency`. Opérateur crédité
+   dans le pied de page : Otoyol A.Ş., le concessionnaire BOT (Build-Operate-Transfer) de cette
+   autoroute précise pour le compte de la Karayolları Genel Müdürlüğü (KGM, direction générale des
+   routes turque) — même logique que HAC/Putevi Srbije/JP za državni patišta ailleurs dans cette
+   table, l'opérateur réellement responsable du barème utilisé pour le calcul plutôt que l'autorité
+   nationale générale.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -711,6 +757,19 @@ ajoute deux à trois choses, indépendamment des autres :
    "₴" pour `UAH` (signe monétaire dédié de la hryvnia, U+20B4, normalisé de longue date et
    largement pris en charge — un vrai symbole comme "€"/"£" plutôt qu'une abréviation, contrairement
    aux trois précédents).
+   **La Turquie**, dernier ajout, a besoin du champ (`TRY`, la livre turque, hors zone euro, flottante
+   — 1 EUR ≈ 56,3 TRY début septembre 2026, xe.com/ecb.europa.eu). Istanbul (ville la plus chère du
+   pays) : loyer vacances médian ~74-75 $/nuit (~70 €, airroi.com/investropa.com 2026, premier
+   semestre), quartiers premium (Galata/Cihangir à Beyoğlu) ~95-160 $/nuit, quartiers plus abordables
+   ~50-70 $/nuit. Palier "moyen" calé sur ce loyer médian (~70 €) converti au taux ci-dessus (~4000
+   TRY), mêmes ratios 0,55×/2× que la Moldavie/la Biélorussie/l'Ukraine ci-dessus.
+   `CURRENCY_SYMBOL.TRY` reste au code ISO comme le reste de la table, malgré un vrai symbole reconnu
+   ("₺") suffisamment établi pour ne poser aucun risque — cohérence avec le reste de la table plutôt
+   qu'une exception. `CURRENCY_GLYPH.TRY` (sélecteur de devise uniquement) utilise justement ce "₺" :
+   contrairement au "Б" biélorusse tout juste choisi par un concours officiel en 2026 (voir plus haut),
+   un symbole ADOPTÉ EN 2012 et normalisé Unicode depuis la même année (v6.2) — plus de dix ans de
+   recul, largement pris en charge par toutes les polices système courantes, aucun risque de caractère
+   manquant comparable.
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -754,7 +813,7 @@ un drapeau — essayé d'abord en émoji Unicode, abandonné (aucune police d'é
 toutes les plateformes, Windows en particulier affiche souvent les deux lettres du code régional au
 lieu du drapeau fusionné) au profit de vraies images SVG hébergées localement
 (`public/img/flags/XX.svg`, une seule fois chacune même si plusieurs langues la réutilisent —
-53 fichiers au total pour 66 langues, plusieurs langues partageant le même fichier). Association LANGUE -> code de fichier dans `LANG_FLAGS`
+54 fichiers au total pour 67 langues, plusieurs langues partageant le même fichier). Association LANGUE -> code de fichier dans `LANG_FLAGS`
 (`public/js/i18n.js`). Priorité à un vrai drapeau RÉGIONAL reconnaissable quand le jeu d'icônes
 utilisé ([circle-flags](https://github.com/HatScripts/circle-flags)) en propose un dédié à l'aire
 linguistique exacte (demande explicite de l'utilisateur, "pour faciliter la lecture") — treize
@@ -1505,6 +1564,36 @@ supplémentaire qui ne change rien au nom CANONIQUE affiché, resté ukrainien p
 du pays — même logique que les alias serbes conservés pour des communes kosovares au nom canonique
 albanais).
 
+**La Turquie**, dernier ajout en date — exceptionnellement seule plutôt qu'en groupe, mais le pays le
+plus peuplé jamais ajouté à ce projet (~85 millions d'habitants) — apporte **UNE SEULE** nouvelle
+langue : **le turc** (Türkçe, ISO 639-1 "tr"), SEULE langue d'Etat au titre de l'article 3 de la
+Constitution turque. Contrairement à tous les pays couverts jusqu'ici, la Turquie n'a ni signé ni
+ratifié la Charte européenne des langues régionales ou minoritaires (vérifié, coe.int) et n'accorde
+de statut CO-officiel à aucune langue régionale nulle part sur son territoire, y compris au kurde
+(kurmandji/zazaki, malgré une population de locuteurs importante — dizaines de millions) : l'article
+42 de la Constitution interdit explicitement tout enseignement d'une langue maternelle autre que le
+turc, un assouplissement partiel depuis 2012 (kurde en option à partir de la 5ᵉ année) restant loin
+d'un statut officiel ou co-officiel. Les quatre seules minorités protégées par un texte légal (traité
+de Lausanne, 1923 — arménien, bulgare, grec, hébreu) le sont au titre de droits COMMUNAUTAIRES
+(écoles, culte) et non d'un statut de langue officielle ou régionale comparable à celui qui a
+justifié chaque ajout précédent de ce projet (le finnois-suédois, le trilinguisme bosnien,
+l'autonomie gagaouze...) — aucune de ces quatre langues n'est donc ajoutée ici, cohérent avec la même
+règle "statut légal réel du pays, jamais un jugement indépendant" déjà appliquée pour le
+Kosovo/l'Ukraine plus haut.
+
+67 langues au total désormais.
+
+**Alias** : `aliases-tr.txt`, 5 202 alias, dont 2 571 turcs (variantes orthographiques/noms anciens
+du même lieu), 1 318 russes (importants malgré l'absence du russe comme langue d'interface pour ce
+pays précis — simple sous-produit technique du fait que "ru" est déjà une langue prise en charge
+depuis l'ajout de la Biélorussie, aucune décision éditoriale propre à la Turquie), et une longue
+traîne d'autres langues déjà couvertes (anglais, grec, bulgare...).
+
+**Ferries** : deux vraies traversées pour véhicules dans le détroit des Dardanelles, toutes deux
+opérées par GESTAŞ (seul opérateur, quasi-monopole historique comme Île de Man Steam Packet/
+Bornholmslinjen/Destination Gotland déjà rencontrés plus haut) — voir "Ferries" plus bas pour le
+détail complet des tarifs.
+
 ## Démarrer en local
 
 ```bash
@@ -2017,6 +2106,26 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   Límnos (pas de ligne voiture directe régulière à ce jour) — voir le commentaire au-dessus de
   `FERRY_ROUTES` dans `app.js`.
 
+**La Turquie**, dernier ajout en date, apporte deux vraies traversées pour véhicules dans le détroit
+des Dardanelles, toutes deux opérées par GESTAŞ (seul opérateur, quasi-monopole historique comme Île
+de Man Steam Packet/Bornholmslinjen/Destination Gotland déjà rencontrés plus haut) — détectées via le
+champ "dept" de `communes-tr.txt` (littéralement le nom de l'île pour ces deux-là, voir `landmassOf`
+dans `lib/trip-engine.js`) plutôt qu'un préfixe de code postal comme pour la Croatie/le Danemark/la
+Suède. **Geyikli-Bozcaada** : 12 km, ~35 min, voiture 2 365 TL aller-retour soit ~21 € l'aller (taux
+~56,3 TRY/EUR début septembre 2026) — feribotseferleri.com.tr/canakkaleyiseviyoruz.com 2026 ; classe
+2 (véhicule "moyen") directement tarifée séparément par l'opérateur (2 665 TL AR, ~24 €/aller) plutôt
+qu'un ratio appliqué, contrairement à la plupart des lignes de cette table où seul le tarif "voiture"
+est publié. **Kabatepe-Gökçeada** : 30 km, 1h15, voiture 1 400 TL aller-retour soit ~12 € l'aller —
+même source/même taux ; classe 2/5 estimées au même ratio que Bozcaada (même opérateur, même type de
+navire), faute de tarif "véhicule moyen" publié séparément pour cette ligne précise. Les îles du sud
+de la mer de Marmara (Avşa, Marmara, Paşalimanı, Ekinlik — réseau GESTAŞ depuis Erdek) ne sont PAS
+modélisées ici — même limite assumée que pour les Açores/Madère portugaises ou les petites îles
+croates/grecques ci-dessus : un archipel secondaire moins fréquenté par un vrai road trip que
+Bozcaada/Ténédos et Gökçeada/Imbros, bien plus connues. Anomalie GeoNames connue et non corrigée
+(hors périmètre de cet ajout) : une poignée de hameaux quasi inhabités de Gökçeada (Paşaçayırı,
+Gürçeşme...) portent des coordonnées manifestement erronées, placées sur le continent proche plutôt
+que sur l'île elle-même — sans effet pratique réel, aucun n'ayant de population significative.
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois
@@ -2071,7 +2180,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
@@ -2099,7 +2208,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 53 fichiers SVG, dont treize
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 54 fichiers SVG, dont treize
   drapeaux RÉGIONAUX) — voir "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
@@ -2111,8 +2220,10 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   pour l'agrégation des tarifs 2026), [Entreprise publique des routes d'État](https://roads.org.mk)
   (Macédoine du Nord — via fuel-prices.eu/tolls.eu pour l'agrégation des tarifs 2026), [Olympia
   Odos](https://www.olympiaodos.gr) / [Egnatia Odos](https://www.egnatia.eu) (Grèce — via mydiodia.gr
-  pour l'agrégation des tarifs 2026) — voir "Pays couverts" pour la méthode de calcul hors de France
-  (échantillon plus restreint que pour la France).
+  pour l'agrégation des tarifs 2026), [Otoyol A.Ş.](https://www.otoyol.com.tr) (Turquie — via
+  plusieurs sources convergentes début septembre 2026 pour les tarifs 1er juillet 2026 de
+  l'autoroute Gebze-Orhangazi-İzmir/O-5) — voir "Pays couverts" pour la méthode de calcul hors de
+  France (échantillon plus restreint que pour la France).
 - Vignettes annuelles : boutiques officielles [via.admin.ch](https://via.admin.ch) (Suisse),
   [asfinag.at](https://www.asfinag.at) (Autriche), [edalnice.gov.cz](https://edalnice.gov.cz)
   (République tchèque), [eznamka.sk](https://eznamka.sk) (Slovaquie), [e-matrica.hu](https://nemzetiutdij.hu)

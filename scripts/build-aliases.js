@@ -26,10 +26,10 @@ const path = require('path');
 // Serbie et Macédoine du Nord : dernier ajout en date de la série balkanique (Monténégro/Kosovo
 // traités séparément, voir build-me-aliases.js/build-xk-aliases.js — pas de fichier de codes
 // postaux GeoNames pour ces deux-là). La Grèce (GR) non plus : voir build-gr-aliases.js.
-const COUNTRIES = ['GI', 'MD', 'BY', 'UA']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/
-// SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO
+const COUNTRIES = ['TR']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/
+// SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO/GI/MD/BY/UA
 // déjà générés et commités (les leurs restent inchangés)
-// déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo.txt)
+// déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo|gi|md|by|ua.txt)
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
@@ -140,7 +140,21 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // hors du périmètre déjà couvert par ce projet), avec la même réserve de confiance que
 // l'istro-roumain/le cornique/le mannois déjà traduits malgré un nombre de locuteurs plus modeste
 // (~500 000, alphabet latin réintroduit en 1997, toujours en usage concurrent avec le cyrillique).
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs', 'is', 'fo', 'gag', 'be', 'ru', 'uk', 'crh']);
+// Turquie, dernier ajout en date : "tr" (turc, ISO 639-1) seulement — SEULE langue d'Etat au titre
+// de l'article 3 de la Constitution turque. Contrairement à tous les pays couverts jusqu'ici, la
+// Turquie n'a ni signé ni ratifié la Charte européenne des langues régionales ou minoritaires
+// (vérifié, coe.int) et n'accorde de statut CO-officiel à aucune langue régionale nulle part sur
+// son territoire, y compris au kurde (kurmandji/zazaki, malgré une population de locuteurs
+// importante — dizaines de millions) : l'article 42 de la Constitution interdit explicitement tout
+// enseignement d'une langue maternelle autre que le turc, un assouplissement partiel depuis 2012
+// (kurde en option à partir de la 5ᵉ année) restant loin d'un statut officiel ou co-officiel. Les
+// quatre seules minorités protégées par un texte légal (traité de Lausanne, 1923 — arménien,
+// bulgare, grec, hébreu) le sont au titre de droits COMMUNAUTAIRES (écoles, culte) et non d'un
+// statut de langue officielle ou régionale comparable à celui qui a justifié chaque ajout précédent
+// de ce projet (le finnois-suédois, le trilinguisme bosnien, l'autonomie gagaouze...) — aucune de
+// ces quatre langues n'est donc ajoutée ici, cohérent avec la même règle "statut légal réel du pays,
+// jamais un jugement indépendant" déjà appliquée pour le Kosovo/l'Ukraine plus haut.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs', 'is', 'fo', 'gag', 'be', 'ru', 'uk', 'crh', 'tr']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -282,7 +296,17 @@ const NAME_OVERRIDES = {
   // cible que communes-XX.txt, nécessaire pour que les alias pointent vers un nom qui existe
   // réellement dans ce fichier).
   'Chisinau': 'Chişinău',
-  'Ryasno, Rjasno, Rasna': 'Ryasno'
+  'Ryasno, Rjasno, Rasna': 'Ryasno',
+  // Turquie, dernier ajout en date — voir build-country-communes.js pour le détail complet de
+  // chaque correction, reproduites ici à l'identique.
+  'Istanbul': 'İstanbul',
+  'Umraniye': 'Ümraniye',
+  'İnegol': 'İnegöl',
+  'Sarigerme': 'Sarıgerme',
+  'Incekum': 'İncekum',
+  'Kutuklu': 'Kütüklü',
+  'Karaburcak': 'Karaburçak',
+  'Alacami': 'Alaçami'
 };
 // Même correction que build-country-communes.js (voir son commentaire pour le détail) : le dump
 // GeoNames croate confond le Ð latin (Eth, U+00D0) avec le VRAI Đ croate (D barré, U+0110) dans 48
