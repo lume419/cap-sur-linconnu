@@ -1,0 +1,5579 @@
+ka;აბასთუმანი;Abastumani
+ru;Абастумани;Abastumani
+ka;აბაშისპირი;Abashisp’iri
+ru;Абашиспири;Abashisp’iri
+ka;სევა;Seva
+ru;Сева;Seva
+ka;აჭარისწყალი;Ach’arists’q’ali
+ru;Ачарисцхали;Ach’arists’q’ali
+ka;ზუნდაგა;Zundaga
+ru;Зундага;Zundaga
+de;Sugdidi;Zugdidi
+da;Sugdidi;Zugdidi
+lt;Zugdidis;Zugdidi
+ru;Зугдиди;Zugdidi
+ka;ზუგდიდი;Zugdidi
+ka;ზუდალი;Zudali
+ru;Зудали;Zudali
+ka;ზუმი;Zumi
+ru;Зуми;Zumi
+ka;Zovret’i;Zovreti
+ka;ზოვრეთი;Zovreti
+ru;Зоврети;Zovreti
+ka;ზოტიკიანთკარი;Zot’ik’iantk’ari
+ru;Зотикианткари;Zot’ik’iantk’ari
+en;Zoti;Zot’i
+ru;Зоти;Zot’i
+ka;ზოტი;Zot’i
+ka;ზომლეთი;Zomleti
+ru;Зомлети;Zomleti
+ru;Зогисги;Zogishi
+ka;ზოგიში;Zogishi
+ru;Зоди;Zodi
+ka;ზოდი;Zodi
+ka;ზნაკვა;Znak’va
+ru;Знаква;Znak’va
+ka;ზირბითი;Zirbiti
+ru;Зирбити;Zirbiti
+ka;ზიკილია;Zik’ilia
+ru;Зикилиа;Zik’ilia
+ka;ზიარი;Ziari
+ru;Зиари;Ziari
+ka;Zhonet’i;Zhoneti
+ka;ჟონეთი;Zhoneti
+ru;Жонети;Zhoneti
+ru;Жинвали;Zhinvali
+ka;ჟინვალი;Zhinvali
+en;Zhinot'a;Zhinota
+ru;Жинота;Zhinota
+ka;ჟინოთა;Zhinota
+ka;ჟებოტა;Zhebot’a
+ru;Жебота;Zhebot’a
+ru;Жданови;Zhdanovi
+ka;ჟდანოვი;Zhdanovi
+ka;ჟაშქვა;Zhashkva
+ru;Жашква;Zhashkva
+ka;ჟანივრი;Zhanivri
+ru;Жаниври;Zhanivri
+ka;ჟამუში;Zhamushi
+ka;Zhaamushi;Zhamushi
+ka;ჟაამუში;Zhamushi
+ru;Жаамуши;Zhamushi
+ka;ჟიბიანი;Zhibiani
+ru;Жибиани;Zhibiani
+ka;ჟაბეში;Zhabeshi
+ru;Жабеши;Zhabeshi
+en;Zestap'oni;Zestaponi
+ru;Зестафони;Zestaponi
+en;Zetaponi;Zestaponi
+ka;Zest’aponi;Zestaponi
+ka;ზესტაფონი;Zestaponi
+ka;ზესთაფონი;Zestaponi
+ka;ზესოფელი;Zesopeli
+ru;Зесопели;Zesopeli
+ka;ზესხო;Zeskho
+ru;Зесхо;Zeskho
+ka;ზენუბანი;Zenubani
+ru;Зенубани;Zenubani
+ka;ზენითი;Zeniti
+ru;Зенити;Zeniti
+ka;ზენდიდი;Zendidi
+ru;Зендиди;Zendidi
+ka;ზემო ჟოშხა;Zemo Zhoshkha
+ru;Земо Жошха;Zemo Zhoshkha
+ka;ზემო უბანი;Zemo Ubani
+ru;Земо Убани;Zemo Ubani
+ka;Zemo T’elet’i;Zemo Teleti
+ka;ზემო თელეთი;Zemo Teleti
+ru;Земо Телети;Zemo Teleti
+ka;ზემო სობისი;Zemo Sobisi
+ru;Земо Собиси;Zemo Sobisi
+ka;ზემო შუხუთი;Zemo Shukhuti
+ru;Земо Шухути;Zemo Shukhuti
+ka;ზემო შუახევი;Zemo Shuakhevi
+ru;Земо Шуахеви;Zemo Shuakhevi
+ka;ზემო სარალი;Zemo Sarali
+ru;Земо Сарали;Zemo Sarali
+ka;ზემო რენე;Zemo Rene
+ru;Земо Рене;Zemo Rene
+ka;ზემო ფარცხმა;Zemo Partskhma
+ru;Земо Парцхма;Zemo Partskhma
+ka;ზემო ოსიაური;Zemo Osiauri
+ru;Земо Осиаури;Zemo Osiauri
+ka;ზემო ნიჩბისი;Zemo Nichbisi
+ru;Земо Ничбиси;Zemo Nichbisi
+ru;Квемо-Натанеби;Zemo Natanebi
+ru;Земо-Натанеби;Zemo Natanebi
+ka;ზემო ნატანები;Zemo Natanebi
+ka;ზემო ნაშოვარი;Zemo Nashovari
+ru;Земо Нашовари;Zemo Nashovari
+ka;ზემო მსხალგორი;Zemo Mskhalgori
+ru;Земо Мсхалгори;Zemo Mskhalgori
+ka;მნა;Mna
+ru;Мна;Mna
+ka;Zemo Mlet’a;Zemo Mleta
+ka;ზემო მლეთა;Zemo Mleta
+ru;Земо Млета;Zemo Mleta
+ka;ზემო მაღარო;Zemo Magharo
+ru;Земо Магаро;Zemo Magharo
+ka;Zemo Mach’khaani;Zemo Machkhaani
+ka;ზემო მაჩხაანი;Zemo Machkhaani
+ru;Земо Мачхаани;Zemo Machkhaani
+ka;ზემო ყულარი;Zemo Q’ulari
+ru;Земо Кулари;Zemo Q’ulari
+ka;ზემო არქევანი;Zemo Arkevani
+ru;Земо Аркевани;Zemo Arkevani
+ka;Zemo Kodistsqaro;Zemo K’odists’q’aro
+ka;ზემო კოდისწყარო;Zemo K’odists’q’aro
+ru;Земо Кодисцхаро;Zemo K’odists’q’aro
+ka;ზემო ხვითი;Zemo Khviti
+ru;Земо Хвити;Zemo Khviti
+ka;ზემო ხვედურეთი;Zemo Khvedureti
+ru;Земо Хведурети;Zemo Khvedureti
+ka;ზემო ხორხი;Zemo Khorkhi
+ru;Земо Хорхи;Zemo Khorkhi
+ka;Zemo Khiza;Khiza
+ka;ზემო ხიზა;Khiza
+ka;ხიზა;Khiza
+ru;Земо Хиза;Khiza
+ka;ზემო ხეჩილი;Zemo Khechili
+ru;Земо Хечили;Zemo Khechili
+ka;ზემო ხანდაკი;Zemo Khandak’i
+ru;Земо Хандаки;Zemo Khandak’i
+ka;ზემო ხალაწანი;Zemo Khalats’ani
+ru;Земо Халацани;Zemo Khalats’ani
+en;Zemo K'edi;Zemo Kedi
+ru;Земо-Кеди;Zemo Kedi
+ka;ზემო ქედი;Zemo Kedi
+ka;ზემო ენთელი;Zemo Enteli
+ru;Земо Ентели;Zemo Enteli
+ka;ზემო ჩოჩეთი;Zemo Chocheti
+ru;Земо Чочети;Zemo Chocheti
+en;Zemo Ch'ibat'i;Zemo Chibati
+ru;Земо-Чибати;Zemo Chibati
+ka;Zemo Ch’ibat’i;Zemo Chibati
+ka;ზემო ჩიბათი;Zemo Chibati
+ka;ზემო ბროლოსანი;Zemo Brolosani
+ru;Земо Бролосани;Zemo Brolosani
+en;Zemo-Boshuri;Zemo Boshuri
+ru;Квемо-Бошури;Zemo Boshuri
+ka;ზემო ბოშური;Zemo Boshuri
+en;Zemo-Bodbe;Zemo Bodbe
+ru;Квемо-Бодбе;Zemo Bodbe
+ka;ზემო ბოდბე;Zemo Bodbe
+ru;Земо Бодбе;Zemo Bodbe
+ru;Земо-Алвани;Zemo Alvani
+ka;ზემო ალვანი;Zemo Alvani
+en;Zemo Akhalsop'eli;Zemo Akhalsopeli
+ru;Земо-Ахалсопели;Zemo Akhalsopeli
+ka;ზემო ახალსოფელი;Zemo Akhalsopeli
+ka;ზემო აკეთი;Zemo Ak’eti
+ru;Земо Акети;Zemo Ak’eti
+ka;Kvemo-Agara;Kveda Agara
+ka;ქვედა აგარა;Kveda Agara
+ru;Кведа Агара;Kveda Agara
+ka;ზემო აძვისი;Zemo Adzvisi
+ru;Земо Адзвиси;Zemo Adzvisi
+ka;Mts’vane Kontskhi;Mts’vane K’ontskhi
+ka;მწვანე კონცხი;Mts’vane K’ontskhi
+ru;Мцване Концхи;Mts’vane K’ontskhi
+ka;ზეკოტა;Zek’ot’a
+ru;Зекота;Zek’ot’a
+ka;ზეკარი;Zek’ari
+ru;Зекари;Zek’ari
+ka;ზეისტეჩო;Zeist’echo
+ru;Зеистечо;Zeist’echo
+ru;Зеиндари;Zeindari
+ka;ზეინდარი;Zeindari
+en;Zeghdulet'i;Zeghduleti
+ru;Зегдулети;Zeghduleti
+ka;Zeghdulet’i;Zeghduleti
+ka;ზეღდულეთი;Zeghduleti
+ka;ზეგაანი;Zegaani
+ru;Зегаани;Zegaani
+ka;ზედა ვედი;Zeda Vedi
+ru;Зеда Веди;Zeda Vedi
+ka;ზედა ვანი;Zeda Vani
+ru;Зеда Вани;Zeda Vani
+ka;ზედა უჩხუბი;Zeda Uchkhubi
+ru;Зеда Учхуби;Zeda Uchkhubi
+ka;ზედა წვირმინდი;Zeda Ts’virmindi
+ka;Zeda Ts’irmindi;Zeda Ts’virmindi
+ka;ზედა წირმინდი;Zeda Ts’virmindi
+ru;Зеда Цвирминди;Zeda Ts’virmindi
+ka;ზედა შავრა;Zeda Shavra
+ru;Зеда Шавра;Zeda Shavra
+ka;ზედა სამება;Zeda Sameba
+ru;Зеда Самеба;Zeda Sameba
+ka;ზედა საქარა;Zeda Sakara
+uk;Зеда Сакара;Zeda Sakara
+ru;Зеда Сакара;Zeda Sakara
+ka;ზედა ორღული;Zeda Orghuli
+ru;Зеда Оргули;Zeda Orghuli
+ka;ზედა მუქედი;Zeda Mukedi
+ru;Зеда Мукеди;Zeda Mukedi
+ka;ზედა მახუნცეთი;Zeda Makhuntseti
+ru;Зеда Махунцети;Zeda Makhuntseti
+ka;ზედა ლუხვანო;Zeda Lukhvano
+ru;Зеда Лухвано;Zeda Lukhvano
+ka;ზედა კვირიკე;Zeda K’virik’e
+ru;Зеда Квирике;Zeda K’virik’e
+ka;ზედა კვალითი;Zeda K’valiti
+ru;Зеда Квалити;Zeda K’valiti
+ka;ზედა კლდეეთი;Zeda K’ldeeti
+ru;Зеда Клдеети;Zeda K’ldeeti
+ka;ზედა კინჩხა;Zeda K’inchkha
+ru;Зеда Кинчха;Zeda K’inchkha
+ka;ზედა ღვირიში;Zeda Ghvirishi
+ru;Зеда Гвириши;Zeda Ghvirishi
+ka;ზედა ღვარდია;Zeda Ghvardia
+ru;Зеда Гвардиа;Zeda Ghvardia
+ka;ზედა გორა;Zeda Gora
+ru;Зеда Гора;Zeda Gora
+ka;ზედა ძიმითი;Zeda Dzimiti
+ru;Зеда Дзимити;Zeda Dzimiti
+ka;Zeda Dagva;Dagva
+ka;ზედა დაგვა;Dagva
+ka;დაგვა;Dagva
+ru;Зеда Дагва;Dagva
+ka;ზედა ჭყვიში;Zeda Ch’q’vishi
+ru;Зеда Чквиши;Zeda Ch’q’vishi
+ka;Zeda Chalovani;Zeda Ch’alovani
+ka;ზედა ჭალოვანი;Zeda Ch’alovani
+ru;Зеда Чаловани;Zeda Ch’alovani
+ka;ზედა ბზვანი;Zeda Bzvani
+ru;Зеда Бзвани;Zeda Bzvani
+ka;ზედა ბერეთისა;Zeda Beretisa
+ru;Зеда Беретиса;Zeda Beretisa
+ka;ზედა ბახვი;Zeda Bakhvi
+ru;Зеда Бахви;Zeda Bakhvi
+ka;ზედა აჭყვა;Zeda Ach’q’va
+ru;Зеда Ачква;Zeda Ach’q’va
+ka;ზარზმა;Zarzma
+ru;Зарзма;Zarzma
+ka;ზარიძეები;Zaridzeebi
+ru;Заридзееби;Zaridzeebi
+ka;ზარდლაში;Zardlashi
+ru;Зардлаши;Zardlashi
+ka;ზარათი;Zarati
+ru;Зарати;Zarati
+ka;ზარანი;Zarani
+ru;Зарани;Zarani
+ka;ზარაგულა;Zaragula
+ru;Зарагула;Zaragula
+ka;ზანდუკი;Zanduk’i
+ru;Зандуки;Zanduk’i
+ka;ზანა;Zana
+ru;Зана;Zana
+ka;ზამლეთი;Zamleti
+ru;Замлети;Zamleti
+ka;ზაკვი;Zak’vi
+ru;Закви;Zak’vi
+ka;ზაქარო;Zakaro
+ru;Закаро;Zakaro
+ka;ერინჯა;Erinja
+ru;Еринджа;Erinja
+ka;ეფრემოვკა;Epremovk’a
+ru;Епремовка;Epremovk’a
+ka;ედიქილისა;Saq’drioni
+ka;საყდრიონი;Saq’drioni
+ka;Edikilisa;Saq’drioni
+ru;Едикилиса;Saq’drioni
+ru;Владимировка;Vladimirovka
+ka;ვლადიმიროვკა;Vladimirovka
+ab;Кациқыҭ;Vladimirovka
+ka;ვიჩნაში;Vichnashi
+ru;Вичнаши;Vichnashi
+ka;ვეშაგურნი;Veshagurni
+ru;Вешагурни;Veshagurni
+ka;ვერტყვილა;Vert’q’vila
+ru;Вертквила;Vert’q’vila
+ka;ვერტყვიჭალა;Vert’q’vich’ala
+ru;Вертквичала;Vert’q’vich’ala
+ka;ვერონა;Verona
+ru;Верона;Verona
+ka;ვერნები;Vernebi
+ru;Вернеби;Vernebi
+ka;ვერხვის მინდორი;Verkhvis Mindori
+ru;Верхвис Миндори;Verkhvis Mindori
+ka;ვერხველი;Verkhveli
+ru;Верхвели;Verkhveli
+ka;ველთაურთკარი;Veltaurtk’ari
+ru;Велтаурткари;Veltaurtk’ari
+ka;ველისპირი;Velisp’iri
+ru;Велиспири;Velisp’iri
+ka;ველევი;Velevi
+ru;Велеви;Velevi
+ru;Ведзеби;Vedzebi
+ka;ვეძები;Vedzebi
+ka;ვეძათხევა;Vedzatkheva
+ru;Ведзатхева;Vedzatkheva
+ka;ვედრება;Vedreba
+ru;Ведреба;Vedreba
+ka;ვედიდკარი;Vedidk’ari
+ru;Ведидкари;Vedidk’ari
+ka;ვაშლობი;Vashlobi
+ru;Вашлоби;Vashlobi
+ka;ვაშლევი;Vashlevi
+ru;Вашлеви;Vashlevi
+ka;ვარცლა;Vartsla
+ru;Варцла;Vartsla
+ka;ვარციხე;Vartsikhe
+ru;Варцихе;Vartsikhe
+ru;Вархани;Varkhani
+ka;ვარხანი;Varkhani
+ru;Вариани;Variani
+ka;ვარიანი;Variani
+bg;Вариани;Variani
+uk;Варіані;Variani
+pl;Wariani;Variani
+ka;ვარგავი;Vargavi
+ru;Варгави;Vargavi
+ka;ვარევანი;Varevani
+ru;Варевани;Varevani
+ka;ვარდიგორა;Vardigora
+ru;Вардигора;Vardigora
+ka;ვარდგინეთი;Vardgineti
+ru;Вардгинети;Vardgineti
+ka;ვანთა;Vanta
+ru;Ванта;Vanta
+ka;ვანისქედი;Vaniskedi
+ru;Ванискеди;Vaniskedi
+ka;ვანისჭალა;Vanisch’ala
+ru;Ванисчала;Vanisch’ala
+ru;Вани;Vani
+ka;ვანი;Vani
+ru;Вале;Vale
+ka;ვალე;Vale
+ka;ვაკისა;Vak’isa
+ru;Вакиса;Vak’isa
+ka;Vak’iri;Vakiri
+ka;ვაქირი;Vakiri
+ru;Вакири;Vakiri
+ka;ვაკიჯვარი;Vak’ijvari
+ru;Вакиджвари;Vak’ijvari
+ru;Вахани;Vakhani
+ka;ვახანი;Vakhani
+ka;ვახა;Vakha
+ru;Ваха;Vakha
+ka;ვაკევისა;Vak’evisa
+ru;Вакевиса;Vak’evisa
+ka;ვაკე;Vak’e
+ab;Арасадаха;Vak’e
+ru;Ваке;Vak’e
+en;Vaqa;Vaq’a
+ru;Вака;Vaq’a
+ka;ვაყა;Vaq’a
+ka;ვაიო;Vaio
+ru;Ваио;Vaio
+ka;ვარჯანისი;Varjanisi
+ru;Варджаниси;Varjanisi
+en;Vach'iani;Vachiani
+ru;Вачиани;Vachiani
+ka;ვაჩიანი;Vachiani
+ka;ვაჭევი;Vach’evi
+ru;Вачеви;Vach’evi
+ka;უზუნთალა;Uzuntala
+ru;Узунтала;Uzuntala
+ka;უწლევი;Uts’levi
+ru;Уцлеви;Uts’levi
+ka;უცხერი;Utskheri
+ru;Уцхери;Utskheri
+en;Utsera;Uts’era
+ru;Уцера;Uts’era
+ka;უწერა;Uts’era
+ka;უშხვანარი;Ushkhvanari
+ru;Ушхванари;Ushkhvanari
+ka;უშარნი;Usharni
+ru;Ушарни;Usharni
+ka;უშაფათი;Ushapati
+ru;Ушапати;Ushapati
+ka;უსგვირი;Usgviri
+ru;Усгвири;Usgviri
+ka;ურთხვა;Urtkhva
+ru;Уртхва;Urtkhva
+ka;ურთა;Urta
+ru;Урта;Urta
+ru;Уреки;Ureki
+ka;ურეკი;Ureki
+ka;Urek’i;Ureki
+sv;Urek'i;Ureki
+uk;Урекі;Ureki
+nl;Oereki;Ureki
+ru;Урехи;Urekhi
+ka;ურეხი;Urekhi
+ka;Ureki;Urekhi
+ka;ურბნისი;Urbnisi
+ru;Урбниси;Urbnisi
+uk;Урбнісі;Urbnisi
+fr;Ourbnissi;Urbnisi
+ru;Урави;Uravi
+ka;ურავი;Uravi
+pl;Urawi;Uravi
+ru;Уравели;Uraveli
+ka;ურაველი;Uraveli
+ka;უფურეთი;Upureti
+ru;Упурети;Upureti
+de;Uplisziche;Uplistsikhe
+fr;Ouplistsikhé;Uplistsikhe
+cs;Uplisciche;Uplistsikhe
+ka;უფლისციხე;Uplistsikhe
+sr;Уплисцихе;Uplistsikhe
+uk;Уплісцихе;Uplistsikhe
+pl;Uplisciche;Uplistsikhe
+ru;Уплисцихе;Uplistsikhe
+ka;უნწა;Unts’a
+ru;Унца;Unts’a
+ka;ვახტანგისი;Vakht’angisi
+ru;Вахтангиси;Vakht’angisi
+ka;ულიანოვკა;Ulianovk’a
+ru;Улиановка;Ulianovk’a
+ka;ულაშლო;Ulashlo
+ru;Улашло;Ulashlo
+en;Ukhut'i;Ukhuti
+ru;Ухути;Ukhuti
+ka;უხუთი;Ukhuti
+ka;Ukhat’i;Ukhati
+ka;უხათი;Ukhati
+ru;Ухати;Ukhati
+ka;უყეში;Uq’eshi
+ru;Укеши;Uq’eshi
+ka;უკანგორა;Uk’angora
+ru;Укангора;Uk’angora
+ka;უკანეთი;Uk’aneti
+ru;Уканети;Uk’aneti
+ka;უკანავა;Uk’anava
+ru;Уканава;Uk’anava
+en;Ukanap'shavi;Uk’anapshavi
+ru;Уканапшави;Uk’anapshavi
+ka;უკანაფშავი;Uk’anapshavi
+ka;Ukanamkhari;Uk’anamkhari
+ka;უკანამხარი;Uk’anamkhari
+ru;Уканамхари;Uk’anamkhari
+ka;უძილაურთა;Udzilaurta
+ru;Удзилаурта;Udzilaurta
+ka;უჯმანა;Ujmana
+ka;Nagvazao;Ujmana
+ka;ნაგვაზაო;Ujmana
+ru;Нагвазао;Ujmana
+ru;Уджарма;Ujarma
+ka;უჯარმა;Ujarma
+ru;Уде;Ude
+ka;უდე;Ude
+ka;უდაბნო;Udabno
+ru;Удабно;Udabno
+ka;უჩხითი;Uchkhiti
+ru;Учхити;Uchkhiti
+ka;უჩამეთი;Uchameti
+ru;Учамети;Uchameti
+ka;უბისა;Ubisi
+ru;Убиса;Ubisi
+ka;უბისი;Ubisi
+en;Tvishi;T’vishi
+ru;Твиши;T’vishi
+ka;ტვიში;T’vishi
+ka;ტვიბი;T’vibi
+ru;Твиби;T’vibi
+ka;ტვებიში;T’vebishi
+ru;Твебиши;T’vebishi
+ka;თვაურები;Tvaurebi
+ru;Твауреби;Tvaurebi
+ka;თვალუეთი;Tvalueti
+ru;Твалуети;Tvalueti
+ka;თვალივი;Tvalivi
+ru;Тваливи;Tvalivi
+ka;თვალადი;Tvaladi
+ru;Твалади;Tvaladi
+ka;თუზი;Tuzi
+ru;Тузи;Tuzi
+en;Tushurebi;T’ushurebi
+ru;Тушуреби;T’ushurebi
+ka;ტუშურები;T’ushurebi
+ka;ტურცხი;T’urtskhi
+ru;Турцхи;T’urtskhi
+ka;ტუნაძეები;T’unadzeebi
+ru;Тунадзееби;T’unadzeebi
+ka;თულარი;Tulari
+ru;Тулари;Tulari
+en;Tsvirmi;Ts’virmi
+ru;Цвирми;Ts’virmi
+ka;წვირმი;Ts’virmi
+ka;ცუცხვათი;Tsutskhvati
+ru;Цуцхвати;Tsutskhvati
+ka;წრე;Ts’re
+ru;Цре;Ts’re
+ka;ცოცოლთა;Tsotsolta
+ru;Цоцолта;Tsotsolta
+ka;ცოცხნარა;Tsotskhnara
+ru;Цоцхнара;Tsotskhnara
+ka;წონიარისი;Ts’oniarisi
+ru;Цониариси;Ts’oniarisi
+ka;წოლა;Ts’ola
+ru;Цола;Ts’ola
+ka;წოდორეთი;Ts’odoreti
+ru;Цодорети;Ts’odoreti
+en;Matsimi;Mats’imi
+ru;Цодна;Mats’imi
+ka;Matsimi;Mats’imi
+ka;მაწიმი;Mats’imi
+ru;Цнори;Tsnori
+ka;Ts’nori;Tsnori
+ka;წნორი;Tsnori
+ka;Tsnisi;Ts’nisi
+ka;წნისი;Ts’nisi
+ru;Цниси;Ts’nisi
+ka;წმენდაური;Ts’mendauri
+ru;Цмендаури;Ts’mendauri
+en;Tsqrut'i;Ts’q’ruti
+ru;Цкрути;Ts’q’ruti
+ka;წყრუთი;Ts’q’ruti
+ka;წყორძა;Ts’q’ordza
+ru;Цхордза;Ts’q’ordza
+ka;წყნორი;Ts’q’nori
+ru;Цхнори;Ts’q’nori
+ka;ცხვედიეთი;Tskhvedieti
+ru;Цхведиети;Tskhvedieti
+en;Tskhvarichamia;Tskhvarich’amia
+ru;Цхваричамиа;Tskhvarich’amia
+ka;Ts’khvarichamia;Tskhvarich’amia
+ka;ცხვარიჭამია;Tskhvarich’amia
+en;Ts'khunkuri;Tskhunk’uri
+ru;Цхункури;Tskhunk’uri
+ka;ცხუნკური;Tskhunk’uri
+ka;ცხუმალდი;Tskhumaldi
+ru;Цхумалди;Tskhumaldi
+ka;ცხუკუშერი;Tskhuk’usheri
+ru;Цхукушери;Tskhuk’usheri
+ka;ცხრუკვეთი;Tskhruk’veti
+ru;Цхруквети;Tskhruk’veti
+ka;ცხრაწყარო;Tskhrats’q’aro
+ru;Цхрацхаро;Tskhrats’q’aro
+ka;ცხრამუხა;Tskhramukha
+ru;Цхрамуха;Tskhramukha
+ka;ცხრაფონა;Tskhrapona
+ru;Цхрапона;Tskhrapona
+ka;ცხომარეთი;Tskhomareti
+ru;Цхомарети;Tskhomareti
+en;Ts'khmorisi;Tskhmorisi
+ru;Цхмориси;Tskhmorisi
+ka;ცხმორისი;Tskhmorisi
+ka;ცხმორი;Tskhmori
+ru;Цхмори;Tskhmori
+ka;ცხენთარო;Tskhentaro
+ru;Цхентаро;Tskhentaro
+ka;ცხემნა;Tskhemna
+ru;Цхемна;Tskhemna
+ka;ცხემლისხიდი;Tskhemliskhidi
+ru;Цхемлисхиди;Tskhemliskhidi
+en;Ts'khemlisi;Tskhemlisi
+ru;Цхемлиси;Tskhemlisi
+ka;ცხემლისი;Tskhemlisi
+ka;ცხამი;Tskhami
+ru;Цхами;Tskhami
+ka;Tskere;Ts’k’ere
+ka;წკერე;Ts’k’ere
+ru;Цкере;Ts’k’ere
+ka;წყემი;Ts’q’emi
+ru;Цхеми;Ts’q’emi
+ka;წყავროკა;Ts’q’avrok’a
+ru;Цхаврока;Ts’q’avrok’a
+en;Tsqalt'bila;Ts’q’altbila
+ru;Цкалтбила;Ts’q’altbila
+ka;წყალთბილა;Ts’q’altbila
+ka;წყალშავი;Ts’q’alshavi
+ru;Цхалшави;Ts’q’alshavi
+ka;წყალაფორეთი;Ts’q’alaporeti
+ru;Цхалапорети;Ts’q’alaporeti
+ka;წკადისი;Ts’k’adisi
+ru;Цкадиси;Ts’k’adisi
+ka;ციცქიური;Tsitskiuri
+ru;Цицкиури;Tsitskiuri
+ka;წიწკანაანთსერი;Ts’its’k’anaantseri
+ru;Цицканаантсери;Ts’its’k’anaantseri
+ka;Tsitsamura;Ts’its’amura
+ka;წიწამურა;Ts’its’amura
+ru;Цицамура;Ts’its’amura
+ka;წიწამური;Ts’its’amuri
+ru;Цицамури;Ts’its’amuri
+ka;ციცაგიანთკარი;Tsitsagiantk’ari
+ru;Цицагиант Кари;Tsitsagiantk’ari
+ka;წითელსოფელი;Ts’itelsopeli
+ru;Цителсопели;Ts’itelsopeli
+ka;Tsit’eli Tsqaro;Khornabuji
+ka;ხორნაბუჯი;Khornabuji
+ka;Ts’iteli Ts’q’aro;Khornabuji
+ka;Ts’ideli Ts’qaro;Khornabuji
+ka;წითელი წყარო;Khornabuji
+ru;Цители Цхаро;Khornabuji
+ka;საბათლო;Sabatlo
+ru;Сабатло;Sabatlo
+ka;წირქვალი;Ts’irkvali
+ru;Цирквали;Ts’irkvali
+ka;წირა;Ts’ira
+ru;Цира;Ts’ira
+ka;წიფნაგვარა;Ts’ipnagvara
+ru;Ципнагвара;Ts’ipnagvara
+en;Tsip'lakakia;Ts’iplak’ak’ia
+ru;Циплакакиа;Ts’iplak’ak’ia
+ka;წიფლაკაკია;Ts’iplak’ak’ia
+ka;წიფი;Ts’ipi
+ru;Ципи;Ts’ipi
+ka;წიფერჩი;Ts’iperchi
+ru;Циперчи;Ts’iperchi
+en;Tsintsqaro;Ts’ints’q’aro
+ru;Цинцкаро;Ts’ints’q’aro
+ka;წინწყარო;Ts’ints’q’aro
+ka;Tsintskalashvilebi;Ts’ints’k’alashvilebi
+ka;წინწკალაშვილები;Ts’ints’k’alashvilebi
+ru;Цинцкалашвилеби;Ts’ints’k’alashvilebi
+ka;წინსვლა;Ts’insvla
+ru;Цинсвла;Ts’insvla
+ka;Tsinkobani;Ts’ink’obani
+ka;წინკობანი;Ts’ink’obani
+ru;Цинкобани;Ts’ink’obani
+ka;წინხადუ;Ts’inkhadu
+ru;Цинхаду;Ts’inkhadu
+ka;ცინარეთი;Tsinareti
+ru;Цинарети;Tsinareti
+ka;წინარეხი;Ts’inarekhi
+ru;Цинарехи;Ts’inarekhi
+en;Tsinandali;Ts’inandali
+ru;Цинандали;Ts’inandali
+ka;წინანდალი;Ts’inandali
+ka;წინამხარი;Ts’inamkhari
+ru;Цинамхари;Ts’inamkhari
+ka;Tsinamdzghvriant’kari;Ts’inamdzghvriantk’ari
+ka;წინამძღვრიანთკარი;Ts’inamdzghvriantk’ari
+ru;Цинамдзгхврианткари;Ts’inamdzghvriantk’ari
+ka;წინაკვერკვე;Ts’inak’verk’ve
+ru;Цинакверкве;Ts’inak’verk’ve
+ka;ცილორი;Tsilori
+ru;Цилори;Tsilori
+en;Tsilkani;Ts’ilk’ani
+ru;Цилкани;Ts’ilk’ani
+ka;წილკანი;Ts’ilk’ani
+ka;ციხისფერდი;Tsikhisperdi
+ru;Цихисперди;Tsikhisperdi
+ka;ციხისძირი;Tsikhisdziri
+de;Zichisdsiri;Tsikhisdziri
+ru;Цихисдзири;Tsikhisdziri
+el;Τσιχισντζίρι;Tsikhisdziri
+uk;Ціхісдзірі;Tsikhisdziri
+pl;Cichisdziri;Tsikhisdziri
+tr;Tsihisdziri;Tsikhisdziri
+en;Ts'ikhisjvari;Tsikhisjvari
+ru;Цихисджвари;Tsikhisjvari
+ka;ციხისჯვარი;Tsikhisjvari
+ka;ციხია;Tsikhia
+ru;Цихиа;Tsikhia
+ka;ციხევდავი;Tsikhevdavi
+ru;Цихевдави;Tsikhevdavi
+ka;ციგრიანთკარი;Tsigriantk’ari
+ru;Цигрианткари;Tsigriantk’ari
+ka;წიფრანი;Ts’iprani
+ru;Ципрани;Ts’iprani
+ka;წიაღუბანი;Ts’iaghubani
+ru;Циагубани;Ts’iaghubani
+ka;წეროვანი;Ts’erovani
+ru;Церовани;Ts’erovani
+ka;წერაქვი;Ts’erakvi
+ru;Церакви;Ts’erakvi
+ka;ცემი;Tsemi
+ru;Цеми;Tsemi
+ka;წელათი;Ts’elati
+ru;Целати;Ts’elati
+ka;ცეკვა;Tsek’va
+ru;Цеква;Tsek’va
+ka;ცედანი;Tsedani
+ru;Цедани;Tsedani
+ka;ცდო;Tsdo
+ru;Цдо;Tsdo
+ka;წასრი;Ts’asri
+ru;Цасри;Ts’asri
+ka;წარბასთუმანი;Ts’arbastumani
+ru;Царбастумани;Ts’arbastumani
+ka;წანაში;Ts’anashi
+ru;Цанаши;Ts’anashi
+ka;ცანა;Tsana
+ru;Цана;Tsana
+ka;ცალუღელაანთკარი;Tsalughelaantk’ari
+ru;Цалугелаанткари;Tsalughelaantk’ari
+ru;Цалка;Tsalka
+de;Zalka;Tsalka
+cs;Calka;Tsalka
+el;Τσάλκα;Tsalka
+hu;Calka;Tsalka
+ka;წალკა;Tsalka
+lt;Calka;Tsalka
+ro;Țalka;Tsalka
+sr;Цалка;Tsalka
+uk;Цалка;Tsalka
+pl;Calka;Tsalka
+ka;Ts’alk’a;Tsalka
+ka;წალენჯიხა;Tsalenjikha
+ru;Цаленджиха;Tsalenjikha
+ka;Ts’alenjikha;Tsalenjikha
+ka;ცალდაში;Tsaldashi
+ru;Цалдаши;Tsaldashi
+ka;Tsalasquri;Ts’alasq’uri
+ka;წალასყური;Ts’alasq’uri
+ru;Цаласкури;Ts’alasq’uri
+ka;ცალანარი;Tsalanari
+ru;Цаланари;Tsalanari
+ka;წაქვა;Ts’akva
+ru;Цаква;Ts’akva
+ka;წახანწყარო;Ts’akhants’q’aro
+ru;Цаханцхаро;Ts’akhants’q’aro
+ka;ცახი;Tsakhi
+ru;Цахи;Tsakhi
+ka;წახანი;Ts’akhani
+ru;Цахани;Ts’akhani
+ka;ცაიში;Tsaishi
+ru;Цаиши;Tsaishi
+ru;Цагвери;Tsaghveri
+ka;წაღვერი;Tsaghveri
+ka;Ts’aghveri;Tsaghveri
+es;Tsagveri;Tsaghveri
+uk;Цаґвері;Tsaghveri
+pl;Caghweri;Tsaghveri
+nl;Tsagveri;Tsaghveri
+en;Ts'ageri;Tsageri
+ka;ცაგერი;Tsageri
+ru;Цагери;Tsageri
+ka;ცაბაურთა;Tsabaurta
+ru;Цабаурта;Tsabaurta
+ka;თრიალეთი;Trialeti
+ru;Триалети;Trialeti
+el;Τριαλέτι;Trialeti
+uk;Тріалеті;Trialeti
+ka;თრანი;Trani
+ru;Трани;Trani
+en;Tkibuli;Tqibuli
+ru;Ткибули;Tqibuli
+ka;T’q’ibuli;Tqibuli
+ka;ტყიბული;Tqibuli
+ka;თოთი;Toti
+ru;Тоти;Toti
+ka;თოთანი;Totani
+ru;Тотани;Totani
+ka;თორსა;Torsa
+ru;Торса;Torsa
+ka;თორია;Toria
+ru;Ториа;Toria
+ka;თორელაანი;Torelaani
+ru;Торелаани;Torelaani
+en;Toloshi;T’oloshi
+ru;Толоши;T’oloshi
+ka;ტოლოში;T’oloshi
+en;T'olenji;Tolenji
+ru;Толенджи;Tolenji
+ka;თოლენჯი;Tolenji
+ka;ტოლები;T’olebi
+ru;Толеби;T’olebi
+ka;თოკი;Tok’i
+ru;Токи;Tok’i
+ka;T’okhliauri;Tokhliauri
+ka;თოხლიაური;Tokhliauri
+ru;Тохлиаури;Tokhliauri
+en;Tobri;T’obari
+ru;Тобари;T’obari
+ka;ტობარი;T’obari
+ka;ტობანიერი;T’obanieri
+ru;Тобаниери;T’obanieri
+ka;თმოგვი;Tmogvi
+ru;Тмогви;Tmogvi
+en;Tqviavi;T’q’viavi
+ru;Тквиави;T’q’viavi
+ka;ტყვიავი;T’q’viavi
+ka;ტკოცა;T’k’otsa
+ru;Ткоца;T’k’otsa
+ka;ტყისპირი;T’q’isp’iri
+ru;Ткиспири;T’q’isp’iri
+ka;თხინვალი;Tkhinvali
+ru;Тхинвали;Tkhinvali
+ka;თხინვალა;Tkhinvala
+ru;Тхинвала;Tkhinvala
+ka;ქვედა თხილვანა;Kveda Tkhilvana
+ka;Tkhilvana;Kveda Tkhilvana
+ru;Кведа Тхилвана;Kveda Tkhilvana
+ka;თხილთაწყარო;Tkhiltats’q’aro
+ru;Тхилтацхаро;Tkhiltats’q’aro
+ka;თხილოვანი;Tkhilovani
+ru;Тхиловани;Tkhilovani
+ka;თხილნარი;Tkhilnari
+ru;Тхилнари;Tkhilnari
+ka;ტყემლანა;T’q’emlana
+ru;Ткемлана;T’q’emlana
+ka;ტყელვანი;T’q’elvani
+ru;Ткелвани;T’q’elvani
+ka;ტყაია;T’q’aia
+ru;Ткаиа;T’q’aia
+ka;ტყარშეტი;T’q’arshet’i
+ru;Ткаршети;T’q’arshet’i
+ka;ტყაჩირი;T’q’achiri
+ru;Ткачири;T’q’achiri
+ka;თივი;Tivi
+ru;Тиви;Tivi
+en;Tita;T’it’a
+ru;Тита;T’it’a
+ka;ტიტა;T’it’a
+ka;თისელი;Tiseli
+ru;Тисели;Tiseli
+ka;ტირძნისი;T’irdznisi
+ru;Тирдзниси;T’irdznisi
+ka;Tikilisa;Gantiadi
+ka;თიქილისა;Gantiadi
+ka;განთიადი;Gantiadi
+ru;Тикилиса;Gantiadi
+en;Tibaani;T’ibaani
+ru;Мирзаани;T’ibaani
+ka;Tibaani;T’ibaani
+ka;ტიბაანი;T’ibaani
+en;T'ianet'i;Tianeti
+ru;Тианети;Tianeti
+ka;თიანეთი;Tianeti
+ka;თეზი;Tezi
+ru;Тези;Tezi
+ka;თეზამი;Tezami
+ru;Тезами;Tezami
+en;T'et'ri Tsqaro;Tetritsqaro
+ru;Тетри-Цкаро;Tetritsqaro
+ka;Tetri Ts’q’aro;Tetritsqaro
+ka;თეთრი წყარო;Tetritsqaro
+ka;Kvishiani;Tetritsqaro
+ka;ქვიშიანი;Tetritsqaro
+en;T'et'ri Tsqlebi;Tetrits’q’lebi
+ru;Тетри-Цклеби;Tetrits’q’lebi
+ka;თეთრიწყლები;Tetrits’q’lebi
+ka;თეთრახევა;Tetrakheva
+ru;Тетрахева;Tetrakheva
+en;T'erjola;Terjola
+ru;Тержола;Terjola
+ka;თერჯოლა;Terjola
+ka;ტეფი;T’epi
+ru;Тепи;T’epi
+ka;თელოვანი;Telovani
+ru;Теловани;Telovani
+ka;ტელეფა;T’elepa
+ru;Телепа;T’elepa
+en;T'elavi;Telavi
+de;Telawi;Telavi
+et;Thelavi;Telavi
+ka;თელავი;Telavi
+lt;Telavis;Telavi
+ru;Телави;Telavi
+ka;თელა;Tela
+ru;Тела;Tela
+ka;თეკლათი;Tek’lati
+ru;Теклати;Tek’lati
+ka;თეკალი;Tek’ali
+ru;Текали;Tek’ali
+ka;თეგერაანები;Tegeraanebi
+ru;Тегераанеби;Tegeraanebi
+ka;თეძმისხევი;Tedzmiskhevi
+ru;Тедзмисхеви;Tedzmiskhevi
+ka;თეჯისი;Tejisi
+ru;Теджиси;Tejisi
+ka;ტბისი;T’bisi
+ru;Тбиси;T’bisi
+el;Τιφλίδα;Tbilisi
+de;Tiflis;Tbilisi
+fr;Tbilissi;Tbilisi
+es;Tiflis;Tbilisi
+be;Тбілісі;Tbilisi
+bg;Тбилиси;Tbilisi
+et;Thbilisi;Tbilisi
+ka;თბილისი;Tbilisi
+lt;Tbilisis;Tbilisi
+ro;Тбилиси;Tbilisi
+pt;Tiblíssi;Tbilisi
+ru;Тбилиси;Tbilisi
+sr;Тбилиси;Tbilisi
+tr;Tiflis;Tbilisi
+uk;Тбілісі;Tbilisi
+is;Tíflis;Tbilisi
+ab;Қарҭ;Tbilisi
+oc;Tbilissi;Tbilisi
+hu;Tbiliszi;Tbilisi
+lij;Tiblisi;Tbilisi
+is;Tíblisi;Tbilisi
+mk;Тбилиси;Tbilisi
+ka;ტბა;T’ba
+ru;Тба;T’ba
+ka;თაზაქენდი;Tazakendi
+ru;Тазакенди;Tazakendi
+ka;თავრალი;Tavrali
+ru;Таврали;Tavrali
+ka;თავპანტა;Tavp’ant’a
+ru;Тавпанта;Tavp’ant’a
+ka;თავასა;Tavasa
+ru;Таваса;Tavasa
+ka;ტატანისი;T’at’anisi
+ru;Татаниси;T’at’anisi
+ka;თათანაანთუბანი;Tatanaantubani
+ru;Татанаантубани;Tatanaantubani
+ka;მუხრანა;Mukhrana
+ru;Мухрана;Mukhrana
+ka;ტაშისკარი;T’ashisk’ari
+ru;Ташискари;T’ashisk’ari
+ka;თარგამეული;Targameuli
+ru;Таргамеули;Targameuli
+ka;თანიანთკარი;Taniantk’ari
+ru;Танианткари;Taniantk’ari
+ka;ტანძია;T’andzia
+ru;Тандзиа;T’andzia
+en;Tambovka;T’ambovk’a
+ru;Тамбовка;T’ambovk’a
+ka;ტამბოვკა;T’ambovk’a
+en;T'amarisi;Tamarisi
+ru;Тамариси;Tamarisi
+ka;თამარისი;Tamarisi
+ka;T’amariani;Tamariani
+ka;თამარიანი;Tamariani
+ru;Тамариани;Tamariani
+ka;თამარაშენი;Tamarasheni
+ru;Тамарашени;Tamarasheni
+ka;თამაკონი;Tamak’oni
+ru;Тамакони;Tamak’oni
+en;Taleri;T’aleri
+ru;Талери;T’aleri
+ka;ტალერი;T’aleri
+ka;თექალი;Takalo
+ka;თაქალო;Takalo
+ru;Текали;Takalo
+en;Tekali;Takalo
+ka;ტაკიძეები;T’ak’idzeebi
+ru;Такидзееби;T’ak’idzeebi
+ka;თახჩა;Takhcha
+ru;Тахча;Takhcha
+ka;თაია;Taia
+ru;Таиа;Taia
+ka;თაგვეთი;Tagveti
+ru;Тагвети;Tagveti
+ka;თაგო;Tago
+ru;Таго;Tago
+ka;ტაძრისი;T’adzrisi
+ru;Тадзриси;T’adzrisi
+ka;თაბორი;Tabori
+ru;Табори;Tabori
+en;Tabatsquri;T’abats’q’uri
+ru;Табацкури;T’abats’q’uri
+ka;ტაბაწყური;T’abats’q’uri
+ka;ტაბარუკი;T’abaruk’i
+ru;Табаруки;T’abaruk’i
+ka;ტაბანათი;T’abanati
+ru;Табанати;T’abanati
+ka;ტაბაკინი;T’abak’ini
+ru;Табакини;T’abak’ini
+en;Tabakhmela;T’abakhmela
+ru;Табахмела;T’abakhmela
+ka;Tabakhmela;T’abakhmela
+ka;ტაბახმელა;T’abakhmela
+ka;თაბაგრები;Tabagrebi
+ru;Табагреби;Tabagrebi
+ka;სვობოდნოე;Davitiani
+ka;Svobodnoe;Davitiani
+ka;დავითიანი;Davitiani
+ru;Свободное;Davitiani
+ka;სვირი;Sviri
+ru;Свири;Sviri
+ka;სვიფი;Svipi
+ru;Свипи;Svipi
+ka;სვიდება;Svideba
+ru;Свидеба;Svideba
+ka;სვიანა-როსტიანი;Sviana-Rost’iani
+ru;Свиана-Ростиани;Sviana-Rost’iani
+ru;Свери;Sveri
+ka;სვერი;Sveri
+ka;Svenet’i;Sveneti
+ka;სვენეთი;Sveneti
+ru;Свенети;Sveneti
+ka;სურმუში;Surmushi
+ru;Сурмуши;Surmushi
+ru;Сурами;Surami
+ka;სურამი;Surami
+be;Сурамі;Surami
+bg;Сурами;Surami
+hu;Szurámi;Surami
+uk;Сурамі;Surami
+ka;Sup’sa;Supsa
+ka;სუფსა;Supsa
+ru;Супса;Supsa
+fr;Soupsa;Supsa
+hu;Szupsza;Supsa
+uk;Супса;Supsa
+nl;Soepsa;Supsa
+ru;Сулори;Sulori
+ka;სულორი;Sulori
+ru;Сулда;Sulda
+ka;სულდა;Sulda
+ka;სუხჩა;Sukhcha
+ru;Сухча;Sukhcha
+ka;სუჯუნა;Sujuna
+ru;Суджуна;Sujuna
+ka;სწროფავი;Sts’ropavi
+ru;Сцропави;Sts’ropavi
+en;Spet'i;Sp’eti
+ru;Спети;Sp’eti
+ka;სპეთი;Sp’eti
+ka;სპათაგორი;Sp’atagori
+ru;Спатагори;Sp’atagori
+ka;სპასოვკა;Sp’asovk’a
+ru;Спасовка;Sp’asovk’a
+ka;სორმონი;Sormoni
+ru;Сормони;Sormoni
+ru;Сори;Sori
+ka;სორი;Sori
+ka;სონდისველა;Sondisvela
+ru;Сондисвела;Sondisvela
+ka;სონდა;Sonda
+ru;Сонда;Sonda
+ka;სონჩო;Soncho
+ru;Сончо;Soncho
+ka;სომიწო;Somits’o
+ru;Сомицо;Somits’o
+ka;სოლი;Soli
+ru;Соли;Soli
+ka;სოდევე;Sodeve
+ru;Содеве;Sodeve
+en;Soch'khet'i;Sochkheti
+ru;Сочхети;Sochkheti
+ka;სოჩხეთი;Sochkheti
+ru;Сно;Sno
+ka;სნო;Sno
+ka;სკვანა;Sk’vana
+ru;Сквана;Sk’vana
+ka;Skurdi;Sk’urdi
+ka;სკურდი;Sk’urdi
+ru;Скурди;Sk’urdi
+ka;სკურა;Sk’ura
+ru;Скура;Sk’ura
+en;Skra;Sk’ra
+ru;Скра;Sk’ra
+ka;სკრა;Sk’ra
+ka;სკინდორი;Sk’indori
+ru;Скиндори;Sk’indori
+ka;სხვიტორი;Skhvit’ori
+ru;Схвитори;Skhvit’ori
+ka;სხლითი;Skhliti
+ru;Схлити;Skhliti
+ka;სხეფი;Skhepi
+ru;Схепи;Skhepi
+ka;სხარტალი;Skhart’ali
+ru;Схартали;Skhart’ali
+ka;სხალტბა;Skhalt’ba
+ru;Схалтба;Skhalt’ba
+ka;ყინჩაური;Q’inchauri
+ru;Кинчаури;Q’inchauri
+ka;სკანდე;Sk’ande
+ru;Сканде;Sk’ande
+ka;სიონთგორი;Siontgori
+ru;Сионтгори;Siontgori
+ka;სინაგური;Sinaguri
+ru;Синагури;Sinaguri
+ka;სიმონიანთხევი;Simoniantkhevi
+ru;Симониантхеви;Simoniantkhevi
+ka;სიმონეთი;Simoneti
+ru;Симонети;Simoneti
+ka;სილიბაური;Silibauri
+ru;Силибаури;Silibauri
+ka;სილაური;Silauri
+ru;Силаури;Silauri
+ka;სიქთარვა;Siktarva
+ru;Сиктарва;Siktarva
+ru;Сигнахи;Sighnaghi
+ab;Сиҕнаҕь;Sighnaghi
+ka;სიღნაღი;Sighnaghi
+lt;Signachis;Sighnaghi
+sr;Сигнахи;Sighnaghi
+tr;Siğnaği;Sighnaghi
+uk;Сігнагі;Sighnaghi
+lv;Signagi;Sighnaghi
+el;Σιγκνάγκι;Sighnaghi
+es;Signagi;Sighnaghi
+et;Signagi;Sighnaghi
+hsb;Signachi;Sighnaghi
+ro;Signahi;Sighnaghi
+nl;Signagi;Sighnaghi
+bg;Сигнахи;Sighnaghi
+sl;Signagi;Sighnaghi
+cs;Signagi;Sighnaghi
+ka;სიჯანანი;Sijanani
+ru;Сиджанани;Sijanani
+ka;სიდიანარი;Sidianari
+ru;Сидианари;Sidianari
+en;Shulaveri;Shaumiani
+ru;Шулавери;Shaumiani
+ka;შულავერი;Shaumiani
+ka;შუქრუთი;Shukruti
+ru;Шукрути;Shukruti
+ka;შუყერი;Shuq’eri
+ru;Шукери;Shuq’eri
+ru;Шуа-Суреби;Shua Surebi
+ka;შუა სურები;Shua Surebi
+ka;შუასოფელი;Shuasopeli
+ru;Шуасопели;Shuasopeli
+ka;შუაფხო;Shuapkho
+ru;Шуапхо;Shuapkho
+ka;შუა ფარცხმა;Shua Partskhma
+ru;Шуа Парцхма;Shua Partskhma
+ka;შუა ნოსირი;Shua Nosiri
+ru;Шуа Носири;Shua Nosiri
+ka;შუამთა;Shuamta
+ru;Шуамта;Shuamta
+ka;შუა კვალითი;Shua K’valiti
+ru;Шуа Квалити;Shua K’valiti
+ru;Шуахеви;Shuakhevi
+ka;შუახევი;Shuakhevi
+ka;შუა ხალაწანი;Shua Khalats’ani
+ru;Шуа Халацани;Shua Khalats’ani
+ka;შუა გუბი;Shua Gubi
+ru;Шуа Губи;Shua Gubi
+en;Shua-Gora;Gora
+ru;Кведа-Гора;Gora
+ka;Shua Gora;Gora
+ka;შუა გორა;Gora
+ka;გორა;Gora
+ka;შუაღელე;Shuaghele
+ru;Шуагеле;Shuaghele
+en;Shua Ganakhleba;Shua Amaghleba
+ru;Шуа-Ганахлеба;Shua Amaghleba
+ka;შუა განახლება;Shua Amaghleba
+ka;შუა ამაღლება;Shua Amaghleba
+ka;შუა აღვი;Shua Aghvi
+ru;Шуа Агви;Shua Aghvi
+ka;შტვილი;Sht’vili
+ru;Штвили;Sht’vili
+ka;შტროლთა;Sht’rolta
+ru;Штролта;Sht’rolta
+ru;Шрома;Shroma
+ka;შრომა;Shroma
+ka;Shorap’ani;Shorapani
+ka;შორაპანი;Shorapani
+ru;Шорапани;Shorapani
+bg;Шорапани;Shorapani
+uk;Шорапані;Shorapani
+pl;Szorapani;Shorapani
+nl;Sjorapani;Shorapani
+ca;Xoropan;Shorapani
+tr;Şorapani;Shorapani
+ka;შომახეთი;Shomakheti
+ru;Шомахети;Shomakheti
+ka;შოყა;Shoq’a
+ru;Шока;Shoq’a
+en;Shk'meri;Shkmeri
+ru;Шкмери;Shkmeri
+ka;შქმერი;Shkmeri
+ka;შხივანა;Shkhivana
+ru;Шхивана;Shkhivana
+ka;შკედი;Shk’edi
+ru;Шкеди;Shk’edi
+ka;შყალერი;Shq’aleri
+ru;Шкалери;Shq’aleri
+ka;Shipiak’i;Chrdilisubani
+ka;შიპიაკი;Chrdilisubani
+ka;ჩრდილისუბანი;Chrdilisubani
+ka;Ship’iak’i;Chrdilisubani
+ru;Чрдилисубани;Chrdilisubani
+ka;შინდლარი;Shindlari
+ru;Шиндлари;Shindlari
+ka;შინდისი;Shindisi
+ru;Шиндиси;Shindisi
+ru;Шилда;Shilda
+ka;შილდა;Shilda
+ka;შიხილო;Shikhilo
+ru;Шихило;Shikhilo
+ka;შიბლიანი;Shibliani
+ru;Шиблиани;Shibliani
+ka;შევარდენი;Shevardeni
+ru;Шевардени;Shevardeni
+ka;შეუბანი;Sheubani
+ru;Шеубани;Sheubani
+ka;შერთული;Shertuli
+ru;Шертули;Shertuli
+ka;შენაქო;Shenako
+ru;Шенако;Shenako
+en;Shemok'medi;Shemokmedi
+ru;Шемокмеди;Shemokmedi
+ka;შემოქმედი;Shemokmedi
+ka;Shekhvetili;Shek’vetili
+ka;შეკვეთილი;Shek’vetili
+ru;Шекветили;Shek’vetili
+ka;შეხვეტილა;Shekhvet’ila
+ru;Шехветила;Shekhvet’ila
+ka;შდიხირი;Shdikhiri
+ka;Shdighiri;Shdikhiri
+ka;შდიღირი;Shdikhiri
+ru;Шдихири;Shdikhiri
+ka;შავშვები;Shavshvebi
+ru;Шавшвеби;Shavshvebi
+ka;შავსაყდარი;Shavsaq’dari
+ru;Шавсакдари;Shavsaq’dari
+en;Naghvarevi;Shaumiani
+ru;Шаумяни;Shaumiani
+ka;შაუმიანი;Shaumiani
+sv;Sjaumiani;Shaumiani
+be;Шаўмяні;Shaumiani
+bg;Нагхвареви;Shaumiani
+uk;Шаумяні;Shaumiani
+pl;Szaumiani;Shaumiani
+en;Shatili;Shat’ili
+ru;Шатили;Shat’ili
+ka;შატილი;Shat’ili
+ka;შაშიანი;Shashiani
+ru;Шашиани;Shashiani
+ka;შარმიანი;Sharmiani
+ru;Шармиани;Sharmiani
+ka;შარდომეთი;Shardometi
+ru;Шардомети;Shardometi
+ka;შანკევანი;Shank’evani
+ru;Шанкевани;Shank’evani
+ka;შამთა;Shamta
+ru;Шамта;Shamta
+ka;შამგონა;Shamgona
+ru;Шамгона;Shamgona
+ka;შალიკიანთკარი;Shalik’iantk’ari
+ru;Шаликианткари;Shalik’iantk’ari
+ka;Shak’riani;Shakriani
+ka;შაქრიანი;Shakriani
+ru;Шакриани;Shakriani
+ka;შახვეტილა;Shakhvet’ila
+ru;Шахветила;Shakhvet’ila
+ka;შახმარლო;Shakhmarlo
+ru;Шахмарло;Shakhmarlo
+ka;სგურიში;Sgurishi
+ru;Сгуриши;Sgurishi
+ka;Set’urni;Seturni
+ka;სეთურნი;Seturni
+ru;Сетурни;Seturni
+ka;სეროდანი;Serodani
+ru;Серодани;Serodani
+ka;სერგიეთი;Sergieti
+ka;Segieti;Sergieti
+ka;სეგიეთი;Sergieti
+ru;Сергиети;Sergieti
+ka;სერბაისი;Serbaisi
+ru;Сербаиси;Serbaisi
+en;Sep'iet'i;Sepieti
+ru;Сепиети;Sepieti
+ka;სეფიეთი;Sepieti
+ka;Sep’e;Sepe
+ka;სეფე;Sepe
+ru;Сепе;Sepe
+ka;სენები;Senebi
+ru;Сенеби;Senebi
+ru;Сенаки;Senaki
+ka;Senak’i;Senaki
+ka;სენაკი;Senaki
+en;Sazano;Zeda Sazano
+ru;Сазано;Zeda Sazano
+ka;ზედა საზანო;Zeda Sazano
+ka;სავანე;Savane
+ru;Саване;Savane
+ka;საცხენისი;Satskhenisi
+ru;Сацхениси;Satskhenisi
+ka;საცხავატლო;Satskhavat’lo
+ru;Сацхаватло;Satskhavat’lo
+ka;საწისქვილო;Sats’iskvilo
+ru;Сацисквило;Sats’iskvilo
+ka;საწაბლე;Sats’able
+ru;Сацабле;Sats’able
+en;Sat'khe;Satkhe
+ru;Сатхе;Satkhe
+ka;სათხე;Satkhe
+ka;სასხორი;Saskhori
+ru;Сасхори;Saskhori
+ka;სასირეთი;Sasireti
+ru;Сасирети;Sasireti
+ka;საშურღაიო;Sashurghaio
+ru;Сашургаио;Sashurghaio
+ka;საშევარდნო;Sashevardno
+ru;Сашевардно;Sashevardno
+ka;საშაბურო;Sashaburo
+ru;Сашабуро;Sashaburo
+ru;Сасаши;Sasashi
+ka;სასაში;Sasashi
+ka;სარტყელა;Sart’q’ela
+ru;Сарткела;Sart’q’ela
+en;Sart'ichala;Sartich’ala
+ru;Сартичала;Sartich’ala
+ka;სართიჭალა;Sartich’ala
+en;Sarp'i;Sarpi
+ru;Сарп-Ке;Sarpi
+ru;Сарпи;Sarpi
+ka;სარფი;Sarpi
+tr;Sarp’i;Sarpi
+ka;სარო;Saro
+ru;Саро;Saro
+ka;სარმანიშვილისკარი;Sarmanishvilisk’ari
+ka;სანიბელი;Sarmanishvilisk’ari
+ru;Сарманишвилискари;Sarmanishvilisk’ari
+en;Sarkinet'i;Sark’ineti
+ru;Саркинети;Sark’ineti
+ka;სარკინეთი;Sark’ineti
+ka;სარგვეში;Sargveshi
+ru;Саргвеши;Sargveshi
+en;Sareki;Sarek’i
+ru;Сареки;Sarek’i
+ka;სარეკი;Sarek’i
+ka;სარბევი;Sarbevi
+ru;Сарбеви;Sarbevi
+ka;სარაქონი;Sarakoni
+ru;Саракони;Sarakoni
+en;Sarach'lo;Mamkhut’i
+ru;Сарачло;Mamkhut’i
+ka;მამხუტი;Mamkhut’i
+ka;საპრასია;Sap’rasia
+ru;Сапрасиа;Sap’rasia
+ka;საბესელიო;Sabeselio
+ru;Сабеселио;Sabeselio
+ka;სანორჩი;Sanorchi
+ru;Санорчи;Sanorchi
+ka;სანიორე;Saniore
+ru;Саниоре;Saniore
+ka;სანებელი;Sanebeli
+ru;Санебели;Sanebeli
+ru;Санавардо;Sanavardo
+ka;სანავარდო;Sanavardo
+ka;სანახშირე;Sanakhshire
+ru;Санахшире;Sanakhshire
+ka;სანაჭყებიო;Sanach’q’ebio
+ru;Саначкебио;Sanach’q’ebio
+ka;სამწევრისი;Samts’evrisi
+ru;Самцевриси;Samts’evrisi
+ru;Самтредиа;Samtredia
+ka;Samt’avisi;Samtavisi
+ru;Самтависи;Samtavisi
+ka;სამთავისი;Samtavisi
+ka;სამთაწყარო;Samtats’q’aro
+ru;Самтацхаро;Samtats’q’aro
+ru;Самшвилде;Samshvilde
+ka;სამშვილდე;Samshvilde
+ka;სამოლეთი;Samoleti
+ru;Самолети;Samoleti
+ka;სამიქაო;Samikao
+ru;Самикао;Samikao
+ka;სამღერეთი;Samghereti
+ru;Самгерети;Samghereti
+ru;Салхино;Salkhino
+ka;სალხინო;Salkhino
+ab;Лакырха;Salkhino
+ka;სალიეთი;Salieti
+ru;Салиети;Salieti
+ka;სალიბაური;Salibauri
+ru;Салибаури;Salibauri
+ka;სალებელი;Salebeli
+ru;Салебели;Salebeli
+ka;სალამალეიქი;Salamaleiki
+ru;Саламалеики;Salamaleiki
+ka;სალაჯური;Salajuri
+ru;Саладжури;Salajuri
+ka;საყუნეთი;Saq’uneti
+ru;Сакунети;Saq’uneti
+ka;საყულია;Saq’ulia
+ru;Сакулиа;Saq’ulia
+ka;საყუდაბელი;Saq’udabeli
+ka;სახუდაბელი;Saq’udabeli
+ru;Сахудабели;Saq’udabeli
+ka;საკრეჭიო;Sak’rech’io
+ru;Сакречио;Sak’rech’io
+en;Sakraula;Sak’raula
+ru;Сакраула;Sak’raula
+ka;საკრაულა;Sak’raula
+ka;საკრამულო;Sak’ramulo
+ru;Сакрамуло;Sak’ramulo
+ka;საკორინთლო;Sak’orintlo
+ru;Сакоринтло;Sak’orintlo
+ka;საკოხია;Sak’okhia
+ru;Сакохиа;Sak’okhia
+en;Sakobiano;Sak’obiano
+ru;Сакобиано;Sak’obiano
+ka;საკობიანო;Sak’obiano
+ka;საკეცია;Sak’etsia
+ru;Сакециа;Sak’etsia
+ka;საკერპო;Sak’erp’o
+ru;Сакерпо;Sak’erp’o
+en;Saqdrioni;Saq’drioni
+ru;Сакдриони;Saq’drioni
+ka;Saqdrioni;Saq’drioni
+ka;საყდარი;Saq’dari
+ru;Сакдари;Saq’dari
+ka;საქასრია;Sakasria
+ru;Сакасриа;Sakasria
+ka;საქაშეთი;Sakasheti
+ru;Сакашети;Sakasheti
+ka;საქარიქედი;Sakarikedi
+ru;Сакарикеди;Sakarikedi
+en;Sakao;Sak’ao
+ru;Сакао;Sak’ao
+ka;საკაო;Sak’ao
+ka;საქადაგიანო;Sakadagiano
+ru;Сакадагиано;Sakadagiano
+ru;Саирме;Sairme
+ka;საირმე;Sairme
+ka;Sagvichio;Sagvich’io
+ka;საგვიჩიო;Sagvich’io
+ru;Сагвичио;Sagvich’io
+ru;Сагурамо;Saguramo
+ka;საგურამო;Saguramo
+ka;საღრძე;Saghrdze
+ru;Сагрдзе;Saghrdze
+ka;საღოლაშენი;Sagholasheni
+ru;Саголашени;Sagholasheni
+ka;საგარეჯო;Sagarejo
+ru;Сагареджо;Sagarejo
+ka;საღრაშენი;Saghrasheni
+ru;Саграшени;Saghrasheni
+ka;საღანძილე;Saghandzile
+ru;Сагандзиле;Saghandzile
+ka;საღამო;Saghamo
+ru;Сагамо;Saghamo
+en;Sap'arlo;Saparlo
+ru;Сафарло;Saparlo
+ka;საფარლო;Saparlo
+ka;საჯავახო;Sajavakho
+ru;Саджавахо;Sajavakho
+ka;საჯა;Saja
+ru;Саджа;Saja
+ka;საძელი;Sadzeli
+ru;Садзели;Sadzeli
+ru;Садмели;Sadmeli
+ka;სადმელი;Sadmeli
+ka;სადგერი;Sadgeri
+ru;Садгери;Sadgeri
+ru;Садахло;Sadakhlo
+ka;სადახლო;Sadakhlo
+sv;Sadachlo;Sadakhlo
+bg;Садакхло;Sadakhlo
+es;Sadajlo;Sadakhlo
+pl;Sadachlo;Sadakhlo
+nl;Sadachlo;Sadakhlo
+en;Sach'khere;Sachkhere
+ru;Сачхере;Sachkhere
+ka;საჩხერე;Sachkhere
+ka;საჩალისჭალა;Sachalisch’ala
+ru;Сачалисчала;Sachalisch’ala
+ka;საჩალე;Sachale
+ru;Сачале;Sachale
+ka;საბე;Sabe
+ru;Сабе;Sabe
+ru;Сабажо;Sabazho
+ka;რველი;Rveli
+ru;Рвели;Rveli
+en;Rust'avi;Rustavi
+pl;Rustawi;Rustavi
+de;Rustawi;Rustavi
+bg;Рустави;Rustavi
+et;Rusthavi;Rustavi
+ka;რუსთავი;Rustavi
+lt;Rustavis;Rustavi
+ru;Рустави;Rustavi
+fr;Roustavi;Rustavi
+ka;რუსიანი;Rusiani
+ru;Русиани;Rusiani
+ka;რუსაანთუბანი;Rusaantubani
+ru;Русаантубани;Rusaantubani
+en;Rup'ot'i;Rupoti
+ru;Рупоти;Rupoti
+en;Rufoti;Rupoti
+ka;რუფოთი;Rupoti
+ru;Рухи;Rukhi
+ka;რუხი;Rukhi
+ka;რუისპირი;Ruisp’iri
+ru;Руиспири;Ruisp’iri
+ru;Руиси;Ruisi
+ka;რუისი;Ruisi
+ka;რცხმელური;Rtskhmeluri
+ru;Рцхмелури;Rtskhmeluri
+ka;რცხილათი;Rtskhilati
+ru;Рцхилати;Rtskhilati
+ka;რომანეთი;Romaneti
+ru;Романети;Romaneti
+ka;როკითი;Rok’iti
+ru;Рокити;Rok’iti
+ru;Рохи;Rokhi
+ka;როხი;Rokhi
+en;Rodionovka;Rodionovk’a
+ru;Родионовка;Rodionovk’a
+ka;როდიონოვკა;Rodionovk’a
+ka;ფარავანი;Rodionovk’a
+ru;Риони;Rioni
+ka;რიონი;Rioni
+ka;რიყეთი;Riq’eti
+ru;Рикети;Riq’eti
+en;Riqe;Riq’e
+ru;Рике;Riq’e
+ka;რიყე;Riq’e
+ka;რგანი;Rgani
+ru;Ргани;Rgani
+ru;Реси;Resi
+ka;რესი;Resi
+ka;რბონა;Rbona
+ru;Рбона;Rbona
+ka;რატევანი;Rat’evani
+ru;Ратевани;Rat’evani
+ka;რაქვთა;Rakvta
+ru;Раквта;Rakvta
+en;Qvareli;Kvareli
+ru;Кварели;Kvareli
+ka;Q’vareli;Kvareli
+ka;ყვარელი;Kvareli
+ka;Putieti;Put’ieti
+ka;ფუტიეთი;Put’ieti
+ru;Путиети;Put’ieti
+ka;ფუთი;Puti
+ru;Пути;Puti
+ka;ფუძნარი;Pudznari
+ru;Пудзнари;Pudznari
+ka;ფცა;Ptsa
+ru;Пца;Ptsa
+ka;პტენა;P’t’ena
+ru;Птена;P’t’ena
+ka;ფსორი;Psori
+ru;Псори;Psori
+en;P'shaveli;Pshaveli
+ru;Пшавели;Pshaveli
+ka;ფშაველი;Pshaveli
+ka;ფრიდონაანთკარი;Pridonaantk’ari
+ru;Придонаанткари;Pridonaantk’ari
+ka;ფოცხო;Potskho
+ru;Поцхо;Potskho
+ru;Поти;Poti
+ka;P’ot’i;Poti
+ka;ფოთი;Poti
+ka;P’ona;Zemo Pona
+ka;ფონა;Zemo Pona
+ka;ზემო ფონა;Zemo Pona
+ru;Земо Пона;Zemo Pona
+en;P'oka;Pok’a
+ru;Пока;Pok’a
+ka;ფოკა;Pok’a
+ka;ფოდაანი;Podaani
+ru;Подаани;Podaani
+ka;P’lavi;Plavi
+ka;ფლავი;Plavi
+ru;Плави;Plavi
+ka;ფლატე;Plat’e
+ru;Плате;Plat’e
+ka;ფხვენისი;Pkhvenisi
+ru;Пхвениси;Pkhvenisi
+ka;ფხუტრერი;Pkhut’reri
+ru;Пхутрери;Pkhut’reri
+ka;ფხუნდავი;Pkhundavi
+ru;Пхундави;Pkhundavi
+ka;P’khelshe;Pkhelshe
+ka;ფხელშე;Pkhelshe
+ru;Пхелше;Pkhelshe
+ka;ფიცესი;Pitsesi
+ru;Пицеси;Pitsesi
+ka;პირველი წყალტუბო;P’irveli Ts’q’alt’ubo
+ru;Пирвели Цхалтубо;P’irveli Ts’q’alt’ubo
+ka;პირველი ტოლა;P’irveli T’ola
+ru;Пирвели Тола;P’irveli T’ola
+ka;პირველი ქესალო;P’irveli Kesalo
+ru;Пирвели Кесало;P’irveli Kesalo
+ka;პირველი გურძემი;P’irveli Gurdzemi
+ka;გურძემი;P’irveli Gurdzemi
+ru;Пирвели Гурдземи;P’irveli Gurdzemi
+ka;პირველი ჭოღა;P’irveli Ch’ogha
+ru;Пирвели Чога;P’irveli Ch’ogha
+ka;Pirveli Balda;P’irveli Balda
+ka;პირველი ბალდა;P’irveli Balda
+ru;Пирвели Балда;P’irveli Balda
+ka;პიპილეთი;P’ip’ileti
+ru;Пипилети;P’ip’ileti
+ka;P’ich’khovani;Pichkhovani
+ka;ფიჩხოვანი;Pichkhovani
+ru;Пичховани;Pichkhovani
+ka;პეტრიანი;P’et’riani
+ru;Петриани;P’et’riani
+ka;ფერსათი;Persati
+ru;Персати;Persati
+ka;ფერსა;Persa
+ru;Перса;Persa
+ka;პერევისა;P’erevisa
+ru;Перевиса;P’erevisa
+en;Perevi;P’erevi
+ru;Переви;P’erevi
+ka;პერევი;P’erevi
+ka;ფერეთა;Pereta
+ru;Перета;Pereta
+en;Pavleuri;P’avleuri
+ru;Павлеури;P’avleuri
+ka;პავლეური;P’avleuri
+ka;პატარძეული;P’at’ardzeuli
+ru;Патардзеули;P’at’ardzeuli
+ka;პატარა ჟინოთა;P’at’ara Zhinota
+ru;Патара Жинота;P’at’ara Zhinota
+en;Patara T'onet'i;P’at’ara Toneti
+ru;Патара-Тонети;P’at’ara Toneti
+ka;პატარა თონეთი;P’at’ara Toneti
+ka;პატარა თხინალა;P’at’ara Tkhinala
+ru;Патара Тхинала;P’at’ara Tkhinala
+ka;Patara-Tamakoni;P’at’ara Tamak’oni
+ka;პატარა თამაკონი;P’at’ara Tamak’oni
+ru;Патара Тамакони;P’at’ara Tamak’oni
+ka;პატარა სმადა;P’at’ara Smada
+ru;Патара Смада;P’at’ara Smada
+ka;პატარა სატივე;P’at’ara Sat’ive
+ru;Патара Сативе;P’at’ara Sat’ive
+ka;პატარა სამსარი;P’at’ara Samsari
+ru;Патара Самсари;P’at’ara Samsari
+en;Patara P'ot'i;P’at’ara Poti
+ru;Патара-Поти;P’at’ara Poti
+ka;Patara P’ot’i;P’at’ara Poti
+ka;პატარა ფოთი;P’at’ara Poti
+ka;პატარა ფლევი;P’at’ara Plevi
+ru;Патара Плеви;P’at’ara Plevi
+ka;პატარა პამაჯი;P’at’ara P’amaji
+ru;Патара Памаджи;P’at’ara P’amaji
+ka;პატარა ონი;P’at’ara Oni
+ru;Патара Они;P’at’ara Oni
+ka;Patara Och’e;P’at’ara Oche
+ka;პატარა ოჩე;P’at’ara Oche
+ru;Патара Оче;P’at’ara Oche
+ka;ფარიზი;Parizi
+ru;Паризи;Parizi
+en;Patara Mitarbi;P’at’ara Mit’arbi
+ru;Патара-Митарби;P’at’ara Mit’arbi
+ka;პატარა მიტარბი;P’at’ara Mit’arbi
+ka;პატარა კუხი;P’at’ara K’ukhi
+ru;Патара Кухи;P’at’ara K’ukhi
+en;Patara Khanch'ali;P’at’ara Khanchali
+ru;Патара-Ханчали;P’at’ara Khanchali
+ka;პატარა ხანჩალი;P’at’ara Khanchali
+ka;პატარა ხალები;P’at’ara Khalebi
+ru;Патара Халеби;P’at’ara Khalebi
+ka;პატარა ყელეთი;P’at’ara Q’eleti
+ru;Патара Келети;P’at’ara Q’eleti
+ka;პატარა ქანდა;P’at’ara Kanda
+ru;Патара Канда;P’at’ara Kanda
+ka;პატარა ინჩხური;P’at’ara Inchkhuri
+ru;Патара Инчхури;P’at’ara Inchkhuri
+ka;პატარა გუბი;P’at’ara Gubi
+ru;Патара Губи;P’at’ara Gubi
+ka;პატარა გორი;P’at’ara Gori
+ru;Патара Гори;P’at’ara Gori
+ka;პატარა ჯიხაიში;P’at’ara Jikhaishi
+ru;Патара Джихаиши;P’at’ara Jikhaishi
+ka;პატარა დურნუკი;P’at’ara Durnuk’i
+ru;Патара Дурнуки;P’at’ara Durnuk’i
+ka;პატარა დმანისი;P’at’ara Dmanisi
+ru;Патара Дманиси;P’at’ara Dmanisi
+ka;Patara Ch’ailuri;P’at’ara Chailuri
+ka;პატარა ჩაილური;P’at’ara Chailuri
+ru;Патара Чаилури;P’at’ara Chailuri
+ka;პატარა ბეკამი;P’at’ara Bek’ami
+ru;Патара Беками;P’at’ara Bek’ami
+ka;პატარა არაქალი;P’at’ara Arakali
+ru;Патара Аракали;P’at’ara Arakali
+ru;ПАСАНАУРИ;Pasanauri
+ka;ფასანაური;Pasanauri
+ka;P’asanauri;Pasanauri
+de;Passanauri;Pasanauri
+fr;Passanaouri;Pasanauri
+uk;Пасанаурі;Pasanauri
+nl;Pasanaoeri;Pasanauri
+ca;Passanauri;Pasanauri
+ka;ფარცხნალი;Partskhnali
+ru;Парцхнали;Partskhnali
+ka;ფარცხისი;Partskhisi
+ru;Парцхиси;Partskhisi
+ka;ფარი;Pari
+ru;Пари;Pari
+ka;ფარახეთი;Parakheti
+ru;Парахети;Parakheti
+ka;Paposhvilebi;P’ap’oshvilebi
+ka;პაპოშვილები;P’ap’oshvilebi
+ru;Папошвилеби;P’ap’oshvilebi
+ka;P’anshet’i;Panshet’i
+ka;ფანშეტი;Panshet’i
+ru;Паншети;Panshet’i
+ru;Панага;Panaga
+ka;ფანაგა;Panaga
+ka;ფამფალეთი;Pampaleti
+ru;Пампалети;Pampaleti
+ka;პაქსაძეები;P’aksadzeebi
+ru;Паксадзееби;P’aksadzeebi
+ka;ფაყი;Paq’i
+ru;Паки;Paq’i
+ka;ფახვიჯი;Pakhviji
+ru;Пахвиджи;Pakhviji
+ka;ფახულანი;Pakhulani
+ru;Пахулани;Pakhulani
+en;Ozurget'i;Ozurgeti
+ru;Озургети;Ozurgeti
+ka;ოზურგეთი;Ozurgeti
+de;Osurgeti;Ozurgeti
+es;Ozurgueti;Ozurgeti
+fr;Ozourguéti;Ozurgeti
+nl;Ozoergeti;Ozurgeti
+be;Азургеці;Ozurgeti
+bg;Озургети;Ozurgeti
+el;Οζουργκέτι;Ozurgeti
+et;Ozurgethi;Ozurgeti
+lt;Ozurgetis;Ozurgeti
+sr;Озургети;Ozurgeti
+uk;Озургеті;Ozurgeti
+ka;მახარაძე;Ozurgeti
+ka;ოზნი;Ozni
+ru;Озни;Ozni
+ka;ოჟიო;Ozhio
+ru;Ожио;Ozhio
+ka;ოზაანი;Ozaani
+ru;Озаани;Ozaani
+ru;Отараани;Otaraani
+ka;ოთარაანი;Otaraani
+ka;ოთა;Ota
+ru;Ота;Ota
+ka;ოსიაური;Osiauri
+ru;Осиаури;Osiauri
+ka;ოშორა;Oshora
+ru;Ошора;Oshora
+en;Orsantia;Orsant’ia
+ru;Орсантиа;Orsant’ia
+ka;ორსანტია;Orsant’ia
+ka;ორმოცი;Ormotsi
+ru;Ормоци;Ormotsi
+ka;ორმეთი;Ormeti
+ru;Ормети;Ormeti
+ka;ორმაშენი;Ormasheni
+ru;Ормашени;Ormasheni
+en;Orlovka;Orlovk’a
+ka;ორლოვკა;Orlovk’a
+ru;Орловка;Orlovk’a
+ka;ორხვი;Orkhvi
+ru;Орхви;Orkhvi
+ka;ორხევი;Orkhevi
+ru;Орхеви;Orkhevi
+ka;ორქა;Orka
+ru;Орка;Orka
+ka;ორგორა;Orgora
+ru;Оргора;Orgora
+ka;ყულიშკარი;Q’ulishk’ari
+ru;Кулишкари;Q’ulishk’ari
+ka;ოროჯოლარი;Orojalari
+ka;ოროჯალარი;Orojalari
+ru;Ороджолари;Orojalari
+ka;ორჯა;Orja
+ru;Орджа;Orja
+en;Orbet'i;Orbeti
+ru;Орбети;Orbeti
+ka;ორბეთი;Orbeti
+ru;Орбели;Orbeli
+ka;ორბელი;Orbeli
+ka;ორალი;Orali
+ru;Орали;Orali
+ka;ორაგვე;Oragve
+ru;Орагве;Oragve
+en;Op'urch'khet'i;Opurchkheti
+ru;Опурчхети;Opurchkheti
+ka;ოფურჩხეთი;Opurchkheti
+en;Op'shkvit'i;Opshk’viti
+ru;Опшквити;Opshk’viti
+ka;ოფშკვითი;Opshk’viti
+en;Op'ret'i;Opreti
+ru;Опрети;Opreti
+ka;ოფრეთი;Opreti
+ka;დიდი ოფეთი;Didi Opeti
+ru;Диди Опети;Didi Opeti
+ka;ონოღია;Onoghia
+ru;Оногиа;Onoghia
+ru;Они;Oni
+ka;ონი;Oni
+sr;Они;Oni
+uk;Оні;Oni
+ka;ონჯოხეთი;Onjokheti
+ru;Онджохети;Onjokheti
+ka;ონჭევი;Onch’evi
+ru;Ончеви;Onch’evi
+ka;ონანაური;Onanauri
+ru;Онанаури;Onanauri
+ka;ომფარეთი;Ompareti
+ru;Омпарети;Ompareti
+ka;ომარაანი;Omaraani
+ru;Омараани;Omaraani
+ka;ომალო;Omalo
+ru;Омало;Omalo
+ka;ოლოზი;Olozi
+ru;Олози;Olozi
+en;Oliangi;Berta
+ru;Олианги;Berta
+ka;ოლიანგი;Berta
+ka;ბერთა;Berta
+ka;ოლავერდი;Olaverdi
+ru;Олаверди;Olaverdi
+ka;ოლადაური;Oladauri
+ru;Оладаури;Oladauri
+en;Oqureshi;Oq’ureshi
+ru;Окуреши;Oq’ureshi
+ka;ოყურეში;Oq’ureshi
+ka;ოქრუაშვილები;Okruashvilebi
+ru;Окруашвилеби;Okruashvilebi
+ka;ოქროსქედი;Okroskedi
+ru;Окроскеди;Okroskedi
+ka;ოქროპილაური;Okrop’ilauri
+ru;Окропилаури;Okrop’ilauri
+ka;ოქონა;Okona
+ru;Окона;Okona
+ka;ოხომირა;Okhomira
+ru;Охомира;Okhomira
+ka;ოხერხევი;Okherkhevi
+ru;Охерхеви;Okherkhevi
+ka;ოჯოლა;Ojola
+ru;Оджола;Ojola
+ka;ოდილაური;Odilauri
+ru;Одилаури;Odilauri
+ka;ოჭოფა;Och’opa
+ru;Очопа;Och’opa
+ka;ოჩხომური;Ochkhamuri
+ru;Очхомури;Ochkhamuri
+ka;ოჩე;Oche
+ru;Оче;Oche
+ka;ობუჯი;Obuji
+ru;Обуджи;Obuji
+ka;ნუნისი;Nunisi
+ru;Нуниси;Nunisi
+ka;Nukriani;Nuk’riani
+ka;ნუკრიანი;Nuk’riani
+ru;Нукриани;Nuk’riani
+ka;ნოსტე;Nost’e
+ru;Носте;Nost’e
+ka;ნოსირი;Nosiri
+ru;Носири;Nosiri
+ka;ნოგყაუ;Nogq’au
+ru;Ногкау;Nogq’au
+ka;ნოჯა;Noja
+ru;Ноджа;Noja
+ka;ნოდაში;Nodashi
+ru;Нодаши;Nodashi
+ka;ნობულევი;Nobulevi
+ru;Нобулеви;Nobulevi
+ka;ქვემო ოქროყანა;Kvemo Okroq’ana
+ru;Квемо Окрокана;Kvemo Okroq’ana
+ka;ნინუაკუთხე;Ninuak’utkhe
+ru;Нинуакутхе;Ninuak’utkhe
+ru;Ниноцминда;Ninotsminda
+ka;ეიეოწმინდა;Ninotsminda
+ka;ნინოწმინდა;Ninotsminda
+ka;ნინოშვილი;Ninoshvili
+ru;Ниношвили;Ninoshvili
+ka;ნინიგორი;Ninigori
+ru;Нинигори;Ninigori
+en;Nikortsminda;Nik’orts’minda
+ru;Никорцминда;Nik’orts’minda
+ka;ნიკორწმინდა;Nik’orts’minda
+ka;ნიგვზარა;Nigvzara
+ru;Нигвзара;Nigvzara
+ka;ნიგოზეთი;Nigozeti
+ru;Нигозети;Nigozeti
+ka;ნიგოზა;Nigoza
+ru;Нигоза;Nigoza
+ka;ნიგორზღვა;Nigorzghva
+ru;Нигорзгва;Nigorzghva
+ka;ნიგაზეული;Nigazeuli
+ru;Нигазеули;Nigazeuli
+ka;ნიგავზები;Nigavzebi
+ru;Нигавзеби;Nigavzebi
+ka;ნიაბი;Niabi
+ru;Ниаби;Niabi
+ka;ნიაბაური;Niabauri
+ru;Ниабаури;Niabauri
+ka;ნესგუნი;Nesguni
+ru;Несгуни;Nesguni
+ka;ნერგეეთი;Nergeeti
+ru;Нергеети;Nergeeti
+ka;ნენია;Nenia
+ru;Нениа;Nenia
+ka;ნეძიხი;Nedzikhi
+ru;Недзихи;Nedzikhi
+ru;Кебодзири;Nebodziri
+ka;ნებოძირი;Nebodziri
+ru;Назарло;Nazarlo
+ka;ნაზარლო;Nazarlo
+ka;ნავთიანი;Navtiani
+ru;Навтиани;Navtiani
+ka;ნავდარაანთკარი;Navdaraantk’ari
+ru;Навдараанткари;Navdaraantk’ari
+ka;ნავარძეთი;Navardzeti
+ru;Навардзети;Navardzeti
+ka;ნაწულუკუ;Nats’uluk’u
+ru;Нацулуку;Nats’uluk’u
+ka;ნაცული;Natsuli
+ru;Нацули;Natsuli
+ka;ნაწისქვილარი;Nats’iskvilari
+ru;Нацисквилари;Nats’iskvilari
+ka;ნაცარგორა;Natsargora
+ru;Нацаргора;Natsargora
+ka;ნაშთქოლი;Nashtkoli
+ru;Наштколи;Nashtkoli
+ka;ნასამხრალი;Nasamkhrali
+ru;Насамхрали;Nasamkhrali
+ru;Нардевани;Nardevani
+ka;ნარდევანი;Nardevani
+ka;ნაპილნარი;Nap’ilnari
+ru;Напилнари;Nap’ilnari
+ka;ნაფიჩხოვო;Napichkhovo
+ru;Напичхово;Napichkhovo
+en;Nap'areuli;Napareuli
+ru;Напареули;Napareuli
+ka;Nap’areuli;Napareuli
+ka;ნაფარეული;Napareuli
+ka;ნაოხრები;Naokhrebi
+ru;Наохреби;Naokhrebi
+ka;ნამინაური;Naminauri
+ru;Наминаури;Naminauri
+ka;ნამლისევი;Namlisevi
+ru;Намлисеви;Namlisevi
+ka;ნამანევი;Namanevi
+ru;Наманеви;Namanevi
+ka;ნამოხვანი;Namokhvani
+ru;Намохвани;Namokhvani
+ka;ნალეფსაო;Nalepsao
+ru;Налепсао;Nalepsao
+ka;ნაქურდევი;Nakurdevi
+ru;Накурдеви;Nakurdevi
+en;Nakuraleshi;Nak’uraleshi
+ru;Накуралеши;Nak’uraleshi
+ka;ნაკურალეში;Nak’uraleshi
+ka;ნაკიეთი;Nak’ieti
+ru;Накиети;Nak’ieti
+en;Nakip'u;Nak’ipu
+ru;Накипу;Nak’ipu
+ka;ნაკიფუ;Nak’ipu
+ka;ნაკიფარი;Nak’ipari
+ru;Накипари;Nak’ipari
+ka;Nakiani;Nak’iani
+ka;ნაკიანი;Nak’iani
+ru;Накиани;Nak’iani
+ka;ნახშირღელე;Nakhshirghele
+ru;Нахширгеле;Nakhshirghele
+ka;ნახახულევი;Nakhakhulevi
+ru;Нахахулеви;Nakhakhulevi
+ka;ნაქალაქევი;Nakalakevi
+ru;Накалакеви;Nakalakevi
+ka;ნაკადული;Nak’aduli
+ru;Накадули;Nak’aduli
+ka;ნაგვაზუ;Nagvazu
+ka;Nagvazao;Nagvazu
+ka;ნაგვაზაო;Nagvazu
+ru;Нагвазао;Nagvazu
+ru;Нагомари;Nagomari
+ka;ნაგომარი;Nagomari
+ka;ნაღობილევი;Naghobilevi
+ru;Нагобилеви;Naghobilevi
+ka;ნაგლიანთკარი;Nagliantk’ari
+ru;Наглианткари;Nagliantk’ari
+ka;ნაგარევი;Nagarevi
+ru;Нагареви;Nagarevi
+ka;ნაძვა;Nadzva
+ru;Надзва;Nadzva
+ka;ნადუქნარი;Naduknari
+ru;Надукнари;Naduknari
+ka;ნადოკრა;Nadok’ra
+ru;Надокра;Nadok’ra
+ka;ნადიკვარი;Nadik’vari
+ru;Надиквари;Nadik’vari
+ka;ნადიბანი;Nadibaani
+ka;ნადიბაანი;Nadibaani
+ru;Надибаани;Nadibaani
+ka;ნადარბაზევი;Nadarbazevi
+ru;Надарбазеви;Nadarbazevi
+ka;ნაბოსლევი;Naboslevi
+ru;Набослеви;Naboslevi
+ru;Набеглави;Nabeghlavi
+ka;ნაბეღლავი;Nabeghlavi
+ka;ნაბახტევი;Nabakht’evi
+ru;Набахтеви;Nabakht’evi
+ka;მზიანი;Mziani
+ru;Мзиани;Mziani
+ka;მზეთამზე;Mzetamze
+ru;Мзетамзе;Mzetamze
+ka;მიასნიკიანი;Miasnik’iani
+ru;Мясникиани;Miasnik’iani
+ka;მუჟავა;Muzhava
+ru;Мужава;Muzhava
+ka;მუცო;Mutso
+ru;Муцо;Mutso
+ka;ფოცხვერიანი;Potskhveriani
+ru;Поцхвериани;Potskhveriani
+ka;მუსხი;Muskhi
+ru;Мусхи;Muskhi
+ka;მუშევანი;Mushevani
+ru;Мушевани;Mushevani
+ka;მურშკელი;Murshk’eli
+ru;Муршкели;Murshk’eli
+ka;მურყმელი;Murq’meli
+ru;Муркмели;Murq’meli
+ka;მურჯახეთი;Murjakheti
+ru;Мурджахети;Murjakheti
+en;Muk'o;Muko
+ru;Муко;Muko
+ka;მუქო;Muko
+ka;მუხურჩა;Mukhurcha
+ru;Мухурча;Mukhurcha
+ka;მუხურა;Mukhura
+ru;Мухура;Mukhura
+ka;მუხროვანი;Mukhrovani
+ru;Мухровани;Mukhrovani
+sv;Muchrovani;Mukhrovani
+uk;Мухровані;Mukhrovani
+pl;Muchrowani;Mukhrovani
+fr;Moukhrovani;Mukhrovani
+nl;Moechrovani;Mukhrovani
+ka;მუხრან-თელეთი;Mukhranteleti
+ka;მუხრანთელეთი;Mukhranteleti
+ru;Мухран-Телети;Mukhranteleti
+ru;Мухрани;Mukhrani
+ka;მუხრანი;Mukhrani
+ka;მუხლი;Mukhli
+ru;Мухли;Mukhli
+ka;Mukhat’i;Mukhati
+ka;მუხათი;Mukhati
+ru;Мухати;Mukhati
+ka;მუხათგვერდი;Mukhatgverdi
+ru;Мухатгверди;Mukhatgverdi
+en;Mukhaestate;Mukhaest’at’e
+ru;Мухаэстате;Mukhaest’at’e
+ka;მუხაესტატე;Mukhaest’at’e
+ka;მუგუდა;Muguda
+ru;Мугуда;Muguda
+ka;მუგარეთი;Mugareti
+ru;Мугарети;Mugareti
+ka;მუღანლო;Mughanlo
+ru;Муганло;Mughanlo
+en;Gugut'a;Guguti
+ru;Муганло;Guguti
+ka;გუგუთი;Guguti
+ka;მუჯირეთი;Mujireti
+ru;Муджирети;Mujireti
+ru;Мцхета;Mtskheta
+es;Miskheta;Mtskheta
+nl;Mtscheta;Mtskheta
+be;Мцхета;Mtskheta
+ca;Mtskhetha;Mtskheta
+cs;Mccheta;Mtskheta
+et;Mtshetha;Mtskheta
+hr;Mcheta;Mtskheta
+hu;Mcheta;Mtskheta
+ka;მცხეთა;Mtskheta
+lt;Mccheta;Mtskheta
+ro;Mțheta;Mtskheta
+sk;Mccheta;Mtskheta
+sl;Mcheta;Mtskheta
+sr;Мцхета;Mtskheta
+tr;Mtsheta;Mtskheta
+uk;Мцхета;Mtskheta
+pl;Mccheta;Mtskheta
+pt;Mtscheta;Mtskheta
+sv;Mtscheta;Mtskheta
+bg;Мцхета;Mtskheta
+el;Μτσκέτα;Mtskheta
+lv;Mcheta;Mtskheta
+ka;მწითურები;Mts’iturebi
+ru;Мцитуреби;Mts’iturebi
+ka;მთისპირი;Mtisp’iri
+ru;Мтиспири;Mtisp’iri
+ka;მტერჩვეული;Mt’erchveuli
+ru;Мтерчвеули;Mt’erchveuli
+ka;მსხალდიდი;Mskhaldidi
+ru;Мсхалдиди;Mskhaldidi
+ka;მშვიდობიანი;Mshvidobiani
+ru;Мшвидобиани;Mshvidobiani
+ka;მოწმაო;Mots’mao
+ru;Моцмао;Mots’mao
+ka;მოწამეთა;Mots’ameta
+ru;Моцамета;Mots’ameta
+ka;მოტყიარი;Mot’q’iari
+ru;Моткиари;Mot’q’iari
+ka;მორძგვეთი;Mordzgveti
+ru;Мордзгвети;Mordzgveti
+ka;მოფრინეთი;Moprineti
+ru;Мопринети;Moprineti
+ka;მოლაოღლი;Molaoghli
+ru;Молаогли;Molaoghli
+ru;Мохва;Mokhva
+ka;მოხვა;Mokhva
+ka;მოხოროთუბანი;Mokhorotubani
+ru;Мохоротубани;Mokhorotubani
+ru;Мохе;Mokhe
+ka;მოხე;Mokhe
+ka;მოძვი;Modzvi
+ru;Модзви;Modzvi
+ka;მიწობი;Mits’obi
+ru;Мицоби;Mits’obi
+ka;მიწაწითელი;Mits’ats’iteli
+ru;Мицацители;Mits’ats’iteli
+ka;მიწაბოგირა;Mits’abogira
+ru;Мицабогира;Mits’abogira
+ka;მირზაანი;Mirzaani
+ru;Мирзаани;Mirzaani
+ka;მირსკისეული;Mirsk’iseuli
+ru;Мирскисеули;Mirsk’iseuli
+ru;Минадзе;Minadze
+ka;მინაძე;Minadze
+ka;მილისწყარო;Milists’q’aro
+ru;Милисцхаро;Milists’q’aro
+ka;მილისი;Milisi
+ru;Милиси;Milisi
+ka;მიქელწმინდა;Mikelts’minda
+ru;Микелцминда;Mikelts’minda
+ka;მიქელიანი;Mikeliani
+ru;Микелиани;Mikeliani
+ka;მიქელეფონი;Mikeleponi
+ru;Микелепони;Mikeleponi
+ka;მიქავა;Mikava
+ru;Микава;Mikava
+ka;მიგრიაულთა;Migriaulta
+ru;Мигриаулта;Migriaulta
+ka;მღვიმევი;Mghvimevi
+ru;Мгвимеви;Mghvimevi
+en;Mhgebriani;Mghebriani
+ru;Мгебриани;Mghebriani
+ka;მღებრიანი;Mghebriani
+ka;მეწიეთი;Mets’ieti
+ru;Мециети;Mets’ieti
+ru;Местиа;Mestia
+ka;მესტია;Mestia
+ka;Mest’ia;Mestia
+ka;მესამე ბალდა;Mesame Balda
+ru;Месаме Балда;Mesame Balda
+ru;Мериси;Merisi
+ka;მერისი;Merisi
+ru;Мериа;Meria
+ka;მერია;Meria
+ka;მერევი;Merevi
+ru;Мереви;Merevi
+en;Meret'i;Mereti
+ru;Мерети;Mereti
+ka;მერეთი;Mereti
+ka;მერენია;Merenia
+ru;Мерениа;Merenia
+ka;მერჯევი;Merjevi
+ru;Мерджеви;Merjevi
+ka;მეორე ტოლა;Meore T’ola
+ru;Меоре Тола;Meore T’ola
+ka;მეორე ლესიჭინე;Meore Lesich’ine
+ru;Меоре Лесичине;Meore Lesich’ine
+ka;Meore Kitsia;Meore K’its’ia
+ka;მეორე კიწია;Meore K’its’ia
+ru;Меоре Кициа;Meore K’its’ia
+en;Meore-Kesalo;Meore Kesalo
+ru;Меоре-Кесало;Meore Kesalo
+ka;მეორე ქესალო;Meore Kesalo
+ka;მეორე ჭოღა;Meore Ch’ogha
+ru;Меоре Чога;Meore Ch’ogha
+ka;მეორე ბალდა;Meore Balda
+ru;Меоре Балда;Meore Balda
+ka;მენესო;Meneso
+ru;Менесо;Meneso
+ka;მელურა;Melura
+ru;Мелура;Melura
+ka;მელექედური;Melekeduri
+ru;Мелекедури;Melekeduri
+ru;Меле;Mele
+ka;მელე;Mele
+ka;მელაური;Melauri
+ru;Мелаури;Melauri
+ka;მექვენა;Mekvena
+ru;Меквена;Mekvena
+ka;მეკეიძეები;Mek’eidzeebi
+ru;Мекеидзееби;Mek’eidzeebi
+ka;მეჩხეთური;Mechkheturi
+ru;Мечхетури;Mechkheturi
+ka;მეჩხერი;Mechkheri
+ru;Мечхери;Mechkheri
+ka;მებეცი;Mebetsi
+ru;Мебеци;Mebetsi
+en;Mchadijvari;Mch’adijvari
+ru;Мчадиджвари;Mch’adijvari
+ka;Mchadijvari;Mch’adijvari
+ka;მჭადიჯვარი;Mch’adijvari
+ka;მაჟიეთი;Mazhieti
+ru;Мажиети;Mazhieti
+ru;Мазери;Mazeri
+ka;მაზერი;Mazeri
+ka;მაზაში;Mazashi
+ru;Мазаши;Mazashi
+ka;მათურა;Matura
+ru;Матура;Matura
+ka;მაწყვალთა;Mats’q’valta
+ru;Мацхвалта;Mats’q’valta
+ka;მაწევანი;Mats’evani
+ru;Мацевани;Mats’evani
+en;Mat'khoji;Matkhoji
+ru;Матходжи;Matkhoji
+ka;მათხოჯი;Matkhoji
+en;Matani;Mat’ani
+ru;Матани;Mat’ani
+ka;მატანი;Mat’ani
+ka;მაშნაარი;Mashnaari
+ru;Машнаари;Mashnaari
+ru;Машавера;Mashavera
+ka;მაშავერა;Mashavera
+ru;Мартвили;Martvili
+ka;Mart’vili;Martvili
+ka;მარტვილი;Martvili
+ka;მარცხენა რკვია;Martskhena Rk’via
+ru;Марцхена Рквиа;Martskhena Rk’via
+ka;მარტოთუბანი;Mart’otubani
+ru;Мартотубани;Mart’otubani
+en;Martqop'i;Mart’q’opi
+ru;Марткопи;Mart’q’opi
+ka;მარტყოფი;Mart’q’opi
+ru;Марнеули;Marneuli
+ka;მარნეული;Marneuli
+ka;მარიამჯვარი;Mariamjvari
+ru;Мариамджвари;Mariamjvari
+ka;მარგვიში;Margvishi
+ru;Маргвиши;Margvishi
+ka;მარელისი;Marelisi
+ru;Марелиси;Marelisi
+ka;მარჯვენა რკვია;Marjvena Rk’via
+ru;Марджвена Рквиа;Marjvena Rk’via
+ka;მარანჭალა;Maranch’ala
+ka;Marantchala;Maranch’ala
+ru;Маранчала;Maranch’ala
+ka;მარანა;Marana
+ru;Марана;Marana
+ka;მარადიდი;Maradidi
+ru;Марадиди;Maradidi
+ka;მანიაკეთი;Maniak’eti
+ru;Маниакети;Maniak’eti
+ru;Манглиси;Manglisi
+ka;მანგლისი;Manglisi
+ka;მანდიკორი;Mandik’ori
+ru;Мандикори;Mandik’ori
+en;Mandaet'i;Mandaeti
+ru;Мандаети;Mandaeti
+ka;მანდაეთი;Mandaeti
+ru;Манави;Manavi
+ka;მანავი;Manavi
+pl;Manawi;Manavi
+ka;Mamzvara;Mamts’vara
+ka;მამზვარა;Mamts’vara
+ka;Mamtsvara;Mamts’vara
+ka;მამწვარა;Mamts’vara
+ru;Мамзвара;Mamts’vara
+ka;მამულო;Mamulo
+ru;Мамуло;Mamulo
+ka;მამკოდა;Mamk’oda
+ru;Мамкода;Mamk’oda
+ka;მამიშლო;Mamishlo
+ru;Мамишло;Mamishlo
+ka;მამი;Mami
+ru;Мами;Mami
+ka;მამათი;Mamati
+ru;Мамати;Mamati
+ka;მამადაანები;Mamadaanebi
+ru;Мамадаанеби;Mamadaanebi
+ka;მახვილაური;Makhvilauri
+ru;Махвилаури;Makhvilauri
+ka;მახო;Makho
+ru;Махо;Makho
+ru;Махинджаури;Makhinjauri
+ka;მახინჯაური;Makhinjauri
+sv;Machindzjauri;Makhinjauri
+es;Majinyauri;Makhinjauri
+uk;Махінджаурі;Makhinjauri
+pl;Machindżauri;Makhinjauri
+ka;მახათი;Makhati
+ru;Махати;Makhati
+ka;მახათაური;Makhatauri
+ru;Махатаури;Makhatauri
+ka;მახალაკიძეები;Makhalak’idzeebi
+ru;Махалакидзееби;Makhalak’idzeebi
+ka;მაქათუბანი;Makatubani
+ru;Макатубани;Makatubani
+ru;Маидани;Maidani
+ka;მაიდანი;Maidani
+en;Magranet'i;Magraneti
+ru;Магранети;Magraneti
+ka;Magranet’i;Magraneti
+ka;მაგრანეთი;Magraneti
+en;Maghlaki;Maghlak’i
+ru;Маглаки;Maghlak’i
+ka;მაღლაკი;Maghlak’i
+en;Magharoskari;Magharosk’ari
+ru;Магароскари;Magharosk’ari
+ka;მაღაროსკარი;Magharosk’ari
+ka;მაგარდელი;Magardeli
+ru;Магардели;Magardeli
+ka;მაჩხვარეთი;Machkhvareti
+ru;Мачхварети;Machkhvareti
+ka;შროშა;Shrosha
+ru;Шроша;Shrosha
+ka;მაჭახლისპირი;Mach’akhlisp’iri
+ru;Мачахлиспири;Mach’akhlisp’iri
+ka;ლუთხუბი;Lutkhubi
+ru;Лутхуби;Lutkhubi
+ka;ლომატურცხი;Lomat’urtskhi
+ru;Ломатурцхи;Lomat’urtskhi
+ka;ლომანაური;Lomanauri
+ru;Ломанаури;Lomanauri
+ka;ლოქჭანდარი;Lokch’andari
+ru;Локчандари;Lokch’andari
+ka;ლივადი;Livadi
+ru;Ливади;Livadi
+ka;ლისი;Lisi
+ru;Лиси;Lisi
+ru;Лишо;Lisho
+ka;ლიშო;Lisho
+en;Likhet'i;Likheti
+ru;Лихети;Likheti
+ka;ლიხეთი;Likheti
+ka;ლიხაური;Likhauri
+ru;Лихаури;Likhauri
+ka;ლიბანი;Libani
+ru;Либани;Libani
+ru;Лиа;Lia
+ka;ლია;Lia
+ka;ლეჟბადინი;Lezhbadini
+ru;Лежбадини;Lezhbadini
+ka;ლეზგარა;Lezgara
+ru;Лезгара;Lezgara
+en;Levitana;Levit’ana
+ru;Левитана;Levit’ana
+ka;ლევიტანა;Levit’ana
+ka;ლევახანე;Levakhane
+ru;Левахане;Levakhane
+ka;ლეუშერი;Leusheri
+ru;Леушери;Leusheri
+ka;ლეწფერი;Lets’peri
+ru;Лецпери;Lets’peri
+ka;ლეციცხვაიე;Letsitskhvaie
+ru;Лецицхваие;Letsitskhvaie
+ka;ლეცავე;Letsave
+ru;Лецаве;Letsave
+ka;ლესხულუხე;Leskhulukhe
+ru;Лесхулухе;Leskhulukhe
+ka;ლესინდი;Lesindi
+ru;Лесинди;Lesindi
+ka;ლეშუკვი;Leshuk’vi
+ru;Лешукви;Leshuk’vi
+ka;ლესა;Lesa
+ru;Леса;Lesa
+ru;Лентехи;Lentekhi
+ka;Lent’ekhi;Lentekhi
+ka;ლენტეხი;Lentekhi
+ka;ლემზაგორი;Lemzagori
+ru;Лемзагори;Lemzagori
+ka;ლემსია;Lemsia
+ru;Лемсиа;Lemsia
+ka;ლელუბანი;Lelubani
+ru;Лелубани;Lelubani
+ka;ლელობი;Lelobi
+ru;Лелоби;Lelobi
+ru;Лелиани;Leliani
+ka;ლელიანი;Leliani
+ka;ლეხიდრისთავი;Lekhidristavi
+ru;Лехидристави;Lekhidristavi
+ru;Легвани;Leghvani
+ka;ლეღვანი;Leghvani
+ka;ლეგოგიე;Legogie
+ka;Legogiye;Legogie
+ru;Легогие;Legogie
+ka;ლეგახარე;Legakhare
+ru;Легахаре;Legakhare
+ka;ლეძაძამე;Ledzadzame
+ru;Ледзадзаме;Ledzadzame
+ka;ლედგებე;Ledgebe
+ru;Ледгебе;Ledgebe
+en;Lech'uri;Lechuri
+ru;Лечури;Lechuri
+ka;Lech’uri;Lechuri
+ka;ლეჩური;Lechuri
+ka;ლეახალე;Leakhale
+ru;Леахале;Leakhale
+en;Lait'uri;Laituri
+ru;Лайтури;Laituri
+ka;ლაითური;Laituri
+ka;ლაუშა;Lausha
+ru;Лауша;Lausha
+ka;ლაცორია;Latsoria
+ru;Лацориа;Latsoria
+ka;ლასურიაში;Lasuriashi
+ru;Ласуриаши;Lasuriashi
+ka;ლასხანა;Laskhana
+ru;Ласхана;Laskhana
+ka;ლაშთხვერი;Lashtkhveri
+ru;Лаштхвери;Lashtkhveri
+ka;ლაშის იგორეთი;Lashis Igoreti
+ru;Лашис Игорети;Lashis Igoreti
+ka;ლაშე;Lashe
+ru;Лаше;Lashe
+ka;ლარილარი;Larilari
+ru;Ларилари;Larilari
+ka;ლარჩვალი;Larchvali
+ru;Ларчвали;Larchvali
+ka;ლაფნიანი;Lapniani
+ru;Лапниани;Lapniani
+ka;ლაფეთი;Lapeti
+ru;Лапети;Lapeti
+en;Lap'anquri;Lapanq’uri
+ru;Лапанкури;Lapanq’uri
+ka;Lap’anquri;Lapanq’uri
+ka;ლაფანყური;Lapanq’uri
+ka;ლაფანაანთკარი;Lapanaantk’ari
+ru;Лапанаанткари;Lapanaantk’ari
+ka;ლანტელი;Lant’eli
+ru;Лантели;Lant’eli
+ru;Ланчхути;Lanchkhuti
+ka;ლანჩხუთი;Lanchkhuti
+ka;ლამოვანი;Lamovani
+ru;Ламовани;Lamovani
+en;Lamisqana;Lamisq’ana
+ru;Ламискана;Lamisq’ana
+ka;Lamisqana;Lamisq’ana
+ka;ლამისყანა;Lamisq’ana
+ka;ლამი;Lami
+ru;Лами;Lami
+ka;Lalkhori;Lalkhorali
+ka;ლალხორი;Lalkhorali
+ka;ლალხორალი;Lalkhorali
+ru;Лалхорали;Lalkhorali
+ka;Lalisquri;Lalisq’uri
+ka;ლალისყური;Lalisq’uri
+ru;Лалискури;Lalisq’uri
+ka;Lak’laketi;Lak’lak’eti
+ka;ლაკლაკეთი;Lak’lak’eti
+ru;Лаклакети;Lak’lak’eti
+ka;ლახუშდი;Lakhushdi
+ru;Лахушди;Lakhushdi
+ka;ლახირი;Lakhiri
+ru;Лахири;Lakhiri
+ka;ლახეფა;Lakhepa
+ru;Лахепа;Lakhepa
+ru;Лахамула;Lakhamula
+ka;ლახამულა;Lakhamula
+ka;Lakat’khevi;Lak’atkhevi
+ka;ლაკათხევი;Lak’atkhevi
+ru;Лакатхеви;Lak’atkhevi
+ka;ლაილაში;Lailashi
+ru;Лаилаши;Lailashi
+ka;ლაგვანთა;Lagvanta
+ru;Лагванта;Lagvanta
+ru;Лагодехи;Lagodekhi
+ka;ლაგოდეხი;Lagodekhi
+lt;Lagodechis;Lagodekhi
+ka;ლაჯანა;Lajana
+ru;Ладжана;Lajana
+ka;ლაჩთა;Lachta
+ru;Лачта;Lachta
+ka;ლაბსყალდი;Labsq’aldi
+ru;Лабскалди;Labsq’aldi
+ka;ქვითკირისწყარო;Kvitk’irists’q’aro
+ru;Квиткирисцхаро;Kvitk’irists’q’aro
+ka;ქვიტირი;Kvit’iri
+ru;Квитири;Kvit’iri
+en;K'vishkhet'i;Kvishkheti
+ru;Квишхети;Kvishkheti
+ka;ქვიშხეთი;Kvishkheti
+ka;ქვიშარი;Kvishari
+ru;Квишари;Kvishari
+ka;ქვიშანჭალა;Kvishanch’ala
+ru;Квишанчала;Kvishanch’ala
+ka;კვირიკეთი;K’virik’eti
+ru;Квирикети;K’virik’eti
+en;K'vilishori;Kvilishori
+ru;Квилишори;Kvilishori
+ka;ქვილიშორი;Kvilishori
+en;Qvibisi;Q’vibisi
+ru;Квибиси;Q’vibisi
+ka;ყვიბისი;Q’vibisi
+ka;ქვიანი;Kviani
+ru;Квиани;Kviani
+ka;კვიახიძეები;K’viakhidzeebi
+ru;Квиахидзееби;K’viakhidzeebi
+en;K'veshet'i;Kvesheti
+ru;Квешети;Kvesheti
+ka;K’veshet’i;Kvesheti
+ka;ქვეშეთი;Kvesheti
+en;K'venobani;Kvenobani
+ru;Квенобани;Kvenobani
+ka;ქვენობანი;Kvenobani
+ru;Квенаткоца;Kvenat’k’otsa
+ka;ქვენაფლავი;Kvenaplavi
+ru;Квенаплави;Kvenaplavi
+en;Tsesi;Ts’esi
+ru;Цеси;Ts’esi
+ka;წესი;Ts’esi
+ka;Tzesi;Ts’esi
+ka;ქვემო თელეთი;Kvemo Teleti
+ru;Квемо Телети;Kvemo Teleti
+ka;ქვემო სობისი;Kvemo Sobisi
+ru;Квемо Собиси;Kvemo Sobisi
+ka;ქვემო შუხუთი;Kvemo Shukhuti
+ru;Квемо Шухути;Kvemo Shukhuti
+ka;K’vemo Shuakhevi;Kvemo Shuakhevi
+ka;ქვემო შუახევი;Kvemo Shuakhevi
+ru;Квемо Шуахеви;Kvemo Shuakhevi
+ka;ქვემო სარალი;Kvemo Sarali
+ru;Квемо Сарали;Kvemo Sarali
+ka;ქვემო რენე;Kvemo Rene
+ru;Квемо Рене;Kvemo Rene
+ka;ქვემო ოსიაური;Kvemo Osiauri
+ru;Квемо Осиаури;Kvemo Osiauri
+ka;ქვემო ოროზმანი;Kvemo Orozmani
+ru;Квемо Орозмани;Kvemo Orozmani
+en;K'vemo Nich'bisi;Kvemo Nichbisi
+ru;Квемо-Ничбиси;Kvemo Nichbisi
+ka;ქვემო ნიჩბისი;Kvemo Nichbisi
+ka;ქვემო ნაშოვარი;Kvemo Nashovari
+ru;Квемо Нашовари;Kvemo Nashovari
+ka;ქვემო მსხალგორი;Kvemo Mskhalgori
+ru;Квемо Мсхалгори;Kvemo Mskhalgori
+en;K'vemo Mlet'a;Kvemo Mleta
+ru;Земо-Млета;Kvemo Mleta
+ka;K’vemo Mlet’a;Kvemo Mleta
+ka;ქვემო მლეთა;Kvemo Mleta
+en;K'vemo Magharo;Kvemo Magharo
+ru;Квемо-Магаро;Kvemo Magharo
+ka;K’vemo Magharo;Kvemo Magharo
+ka;ქვემო მაღარო;Kvemo Magharo
+ka;K’vemo Mach’khaani;Kvemo Machkhaani
+ka;ქვემო მაჩხაანი;Kvemo Machkhaani
+ru;Квемо Мачхаани;Kvemo Machkhaani
+ka;ლეთეთი;Leteti
+ru;Летети;Leteti
+ka;ქვემო ყულარი;Kvemo Q’ulari
+ru;Квемо Кулари;Kvemo Q’ulari
+ka;ქვემო არქევანი;Kvemo Arkevani
+ru;Квемо Аркевани;Kvemo Arkevani
+ka;K’vemo Kodistsqaro;Kvemo K’odists’q’aro
+ka;ქვემო კოდისწყარო;Kvemo K’odists’q’aro
+ru;Квемо Кодисцхаро;Kvemo K’odists’q’aro
+ka;ქვემო ხორხი;Kvemo Khorkhi
+ru;Квемо Хорхи;Kvemo Khorkhi
+ka;ქვემო ხოდაშენი;Kvemo Khodasheni
+ru;Квемо Ходашени;Kvemo Khodasheni
+ka;ქვემო ხევი;Kvemo Khevi
+ru;Квемо Хеви;Kvemo Khevi
+ka;ქვემო ხეთი;Kvemo Kheti
+ru;Квемо Хети;Kvemo Kheti
+ka;ქვემო ხეჩილი;Kvemo Khechili
+ru;Квемо Хечили;Kvemo Khechili
+ka;K’vemo Khalatsani;Kvemo Khalats’ani
+ka;ქვემო ხალაწანი;Kvemo Khalats’ani
+ru;Квемо Халацани;Kvemo Khalats’ani
+en;K'vemo K'edi;Kvemo Kedi
+ru;Квемо-Кеди;Kvemo Kedi
+ka;ქვემო ქედი;Kvemo Kedi
+ka;ქვემო ენთელი;Kvemo Enteli
+ru;Квемо Ентели;Kvemo Enteli
+ka;ქვემო ჩოჩეთი;Kvemo Chocheti
+ru;Квемо Чочети;Kvemo Chocheti
+ka;K’vemo Ch’ibat’i;Kvemo Chibati
+ka;ქვემო ჩიბათი;Kvemo Chibati
+ru;Квемо Чибати;Kvemo Chibati
+en;K'vemo Chala;Kvemo Ch’ala
+ru;Квемо-Чала;Kvemo Ch’ala
+ka;K’vemo Chala;Kvemo Ch’ala
+ka;ქვემო ჭალა;Kvemo Ch’ala
+ka;ქვემო ბროლოსანი;Kvemo Brolosani
+ru;Квемо Бролосани;Kvemo Brolosani
+en;K'vemo Bolnisi;Kvemo Bolnisi
+ru;Квемо-Болниси;Kvemo Bolnisi
+ka;ქვემო ბოლნისი;Kvemo Bolnisi
+ka;ქვემო ბოლქვი;Kvemo Bolkvi
+ru;Квемо Болкви;Kvemo Bolkvi
+ka;K’vemo Bodbe;Kvemo Bodbe
+ka;ქვემო ბოდბე;Kvemo Bodbe
+ru;Квемо Бодбе;Kvemo Bodbe
+ka;ქვემო ბარი;Kvemo Bari
+ru;Квемо Бари;Kvemo Bari
+en;K'vemo Alvani;Kvemo Alvani
+ru;Квемо-Алвани;Kvemo Alvani
+ka;K’vemo Alvani;Kvemo Alvani
+ka;ქვემო ალვანი;Kvemo Alvani
+ka;ქვემო ახალსოფელი;Kvemo Akhalsopeli
+ru;Квемо Ахалсопели;Kvemo Akhalsopeli
+ka;ქვემო აკეთი;Kvemo Ak’eti
+ru;Квемо Акети;Kvemo Ak’eti
+ka;ზედა აგარა;Zeda Agara
+ru;Зеда Агара;Zeda Agara
+ka;ქვემო აძვისი;Kvemo Adzvisi
+ru;Квемо Адзвиси;Kvemo Adzvisi
+ka;ქველეთუბანი;Kveletubani
+ru;Квелетубани;Kveletubani
+ka;Qvelani;Q’velani
+ka;ყველანი;Q’velani
+ru;Квелани;Q’velani
+en;K'vedi;Kvedi
+ru;Кведи;Kvedi
+ka;ქვედი;Kvedi
+ka;ქვედა ვედი;Kveda Vedi
+ru;Кведа Веди;Kveda Vedi
+ka;ქვედა წვირმინდი;Kveda Ts’virmindi
+ka;Kveda Ts’irmindi;Kveda Ts’virmindi
+ka;ქვედა წირმინდი;Kveda Ts’virmindi
+ru;Кведа Цвирминди;Kveda Ts’virmindi
+ka;ქვედა სიმონეთი;Kveda Simoneti
+ru;Кведа Симонети;Kveda Simoneti
+ka;ქვედა შავრა;Kveda Shavra
+ru;Кведа Шавра;Kveda Shavra
+ka;ქვედა საზანო;Kveda Sazano
+ru;Кведа Сазано;Kveda Sazano
+ka;ქვედა საქარა;Kveda Sakara
+ru;Кведа Сакара;Kveda Sakara
+ka;ქვედა ორღული;Kveda Orghuli
+ru;Кведа Оргули;Kveda Orghuli
+ka;ქვედა ონჭეიში;Kveda Onch’eishi
+ru;Кведа Ончеиши;Kveda Onch’eishi
+ka;ქვედა მუქედი;Kveda Mukedi
+ru;Кведа Мукеди;Kveda Mukedi
+ka;ქვედა მახუნცეთი;Kveda Makhuntseti
+ru;Кведа Махунцети;Kveda Makhuntseti
+ka;ქვედა ლუხვანო;Kveda Lukhvano
+ru;Кведа Лухвано;Kveda Lukhvano
+en;Lich'i;Lichi
+ru;Личи;Lichi
+ka;ლიჩი;Lichi
+ka;ქვედა კვირიკე;Kveda K’virik’e
+ru;Кведа Квирике;Kveda K’virik’e
+ka;ქვედა კვალითი;Kveda K’valiti
+ru;Кведа Квалити;Kveda K’valiti
+ka;ქვედა კონდიდი;Kveda K’ondidi
+ru;Кведа Кондиди;Kveda K’ondidi
+en;K'veda Kinch'kha;Kveda K’inchkha
+ru;Кведа-Кинчха;Kveda K’inchkha
+ka;ქვედა კინჩხა;Kveda K’inchkha
+ka;ქვედა ღვირიში;Kveda Ghvirishi
+ru;Кведа Гвириши;Kveda Ghvirishi
+en;K'veda Ghvardia;Kveda Ghvardia
+ru;Зеда-Гвардиа;Kveda Ghvardia
+ka;ქვედა ღვარდია;Kveda Ghvardia
+ka;ქვედა გორა;Kveda Gora
+ru;Кведа Гора;Kveda Gora
+ka;ქვედა ძიმითი;Kveda Dzimiti
+ru;Кведа Дзимити;Kveda Dzimiti
+en;K'veda Dagva;Kveda Dagva
+ru;Зеда-Дагва;Kveda Dagva
+ka;ქვედა დაგვა;Kveda Dagva
+ka;ქვედა ჩხოროწყუ;Kveda Chkhorots’q’u
+ru;Кведа Чхороцху;Kveda Chkhorots’q’u
+ka;ქვედა ჭალოვანი;Kveda Ch’alovani
+ru;Кведа Чаловани;Kveda Ch’alovani
+ka;ქვედა ბზვანი;Kveda Bzvani
+ru;Кведа Бзвани;Kveda Bzvani
+ka;ქვედა ბზუბზუ;Kveda Bzubzu
+ru;Кведа Бзубзу;Kveda Bzubzu
+ka;ქვედა ბახვი;Kveda Bakhvi
+ru;Кведа Бахви;Kveda Bakhvi
+ka;ქვედა ალისუბანი;Kveda Alisubani
+ru;Кведа Алисубани;Kveda Alisubani
+ka;K’veda Achk’va;Kveda Ach’q’va
+ka;ქვედა აჭყვა;Kveda Ach’q’va
+ru;Кведа Ачква;Kveda Ach’q’va
+ka;ქვები;Kvebi
+ru;Квеби;Kvebi
+ka;ყვავილი;Q’vavili
+ru;Квавили;Q’vavili
+ka;კვაუთი;K’vauti
+ru;Кваути;K’vauti
+ka;კვაცხუთი;K’vatskhuti
+ru;Квацхути;K’vatskhuti
+ka;ქვაციხე;Kvatsikhe
+ru;Квацихе;Kvatsikhe
+ka;კვატია;K’vat’ia
+ru;Кватиа;K’vat’ia
+ka;კვაშტა;K’vasht’a
+ru;Квашта;K’vasht’a
+ka;კვაშხიეთი;K’vashkhieti
+ru;Квашхиети;K’vashkhieti
+ka;ყვარელწყალი;Q’varelts’q’ali
+ru;Кварелцхали;Q’varelts’q’ali
+ka;კვანჭიანარი;K’vanch’ianari
+ka;Kvantchianari;K’vanch’ianari
+ru;Кванчианари;K’vanch’ianari
+ka;ყვანა;Q’vana
+ru;Квана;Q’vana
+ka;ქვაყუდე;Kvaq’ude
+ru;Квакуде;Kvaq’ude
+ka;კვახჭირი;K’vakhch’iri
+ka;Kvakhtchiri;K’vakhch’iri
+ru;Квахчири;K’vakhch’iri
+ka;კვახაჯელეთი;K’vakhajeleti
+ru;Квахаджелети;K’vakhajeleti
+ka;ქვაითი;Kvaiti
+ru;Кваити;Kvaiti
+ka;კვაჭალათი;K’vach’alati
+ka;Kvatchalati;K’vach’alati
+ru;Квачалати;K’vach’alati
+en;K'vabiskhevi;Kvabiskhevi
+ru;Квабисхеви;Kvabiskhevi
+ka;ქვაბისხევი;Kvabiskhevi
+en;K'vabgha;Kvabgha
+ru;Квабга;Kvabgha
+ka;ქვაბღა;Kvabgha
+ka;კუწახტა;K’uts’akht’a
+ru;Куцахта;K’uts’akht’a
+ka;ქუტირი;Kut’iri
+ru;Кутири;Kut’iri
+ka;ქუთაური;Kutauri
+ru;Кутаури;Kutauri
+de;Kutaissi;Kutaisi
+fr;Koutaïssi;Kutaisi
+bg;Кутаиси;Kutaisi
+et;Khuthaisi;Kutaisi
+ka;ქუთაისი;Kutaisi
+nl;Koetaisi;Kutaisi
+ru;Кутаиси;Kutaisi
+tr;Kutayıs;Kutaisi
+uk;Кутаїсі;Kutaisi
+ka;ქუშხევი;Kushkhevi
+ru;Кушхеви;Kushkhevi
+ka;კუშჩი;K’ushchi
+ru;Кушчи;K’ushchi
+ka;Kurzu;K’urzu
+ka;კურზუ;K’urzu
+ru;Курзу;K’urzu
+ka;K’urt’a;Kurta
+ka;ქურთა;Kurta
+ru;Курта;Kurta
+ka;კურსები;K’ursebi
+ru;Курсеби;K’ursebi
+ka;ქურდული;Kurduli
+ru;Курдули;Kurduli
+en;Kurdghelauri;K’urdghelauri
+ru;Курдгелаури;K’urdghelauri
+ka;კურდღელაური;K’urdghelauri
+ka;ქურაში;Kurashi
+ru;Кураши;Kurashi
+ka;ყუმური;Q’umuri
+ru;Кумури;Q’umuri
+en;Kumurdo;K’umurdo
+ru;Кумурдо;K’umurdo
+ka;კუმურდო;K’umurdo
+ka;K’umlists’ikhe;Kumlistsikhe
+ka;ქუმლისციხე;Kumlistsikhe
+ru;Кумлисцихе;Kumlistsikhe
+ka;ყუმისთავი;Q’umistavi
+ru;Кумистави;Q’umistavi
+en;Kumisi;K’umisi
+ru;Кумиси;K’umisi
+ka;Kumisi;K’umisi
+ka;კუმისი;K’umisi
+ka;ქუმელაურთა;Kumelaurta
+ru;Кумелаурта;Kumelaurta
+ru;Кулаши;Kulashi
+ka;K’ulashi;Kulashi
+ka;კულაში;Kulashi
+sv;Kulasji;Kulashi
+fr;Koulachi;Kulashi
+uk;Кулаші;Kulashi
+pl;Kulaszi;Kulashi
+nl;Koelasji;Kulashi
+ka;კუჭეჭა;K’uch’ech’a
+ru;Кучеча;K’uch’ech’a
+ka;კუჭატანი;K’uch’at’ani
+ru;Кучатани;K’uch’at’ani
+ka;ქსოვრისი;Ksovrisi
+ru;Ксовриси;Ksovrisi
+ka;ქსოვრეთი;Ksovreti
+ru;Ксоврети;Ksovreti
+ka;ქსანი;Ksani
+ru;Ксани;Ksani
+ka;ქროლი;Kroli
+ru;Кроли;Kroli
+ka;კრისხევი;K’riskhevi
+ru;Крисхеви;K’riskhevi
+ka;კოტორაანთკარი;K’ot’oraantk’ari
+ru;Котораанткари;K’ot’oraantk’ari
+ka;ქოთიში;Kotishi
+ru;Котиши;Kotishi
+ru;Котианети;K’ot’ianeti
+ka;კოშკები;K’oshk’ebi
+ru;Кошкеби;K’oshk’ebi
+ka;კოშკასყელი;K’oshk’asq’eli
+ru;Кошкаскели;K’oshk’asq’eli
+ka;ქოსალარი;Kosalari
+ru;Косалари;Kosalari
+ka;ყორულდაში;Q’oruldashi
+ru;Корулдаши;Q’oruldashi
+ka;კორტოხი;K’ort’okhi
+ru;Кортохи;K’ort’okhi
+ka;კორომხეთი;K’oromkheti
+ru;Коромхети;K’oromkheti
+ka;ყოროლისთავი;Q’orolistavi
+ru;Королистави;Q’orolistavi
+ka;ქოროღო;Korogho
+ru;Корого;Korogho
+en;Korkhi;K’orkhi
+ru;Корхи;K’orkhi
+ka;კორხი;K’orkhi
+ka;კორეეთი;K’oreeti
+ru;Кореети;K’oreeti
+ka;ქორენიში;Korenishi
+ru;Корениши;Korenishi
+en;Korbouli;K’orbouli
+ru;Карбоули;K’orbouli
+ka;კორბოული;K’orbouli
+ka;კონტუათი;K’ont’uati
+ru;Контуати;K’ont’uati
+en;Kondoli;K’ondoli
+ru;Кондоли;K’ondoli
+ka;კონდოლი;K’ondoli
+ka;კონჭკათი;Konchkati
+ru;Кончкати;Konchkati
+ka;კომანდელი;K’omandeli
+ru;Командели;K’omandeli
+ka;ქოლობანი;Kolobani
+ru;Колобани;Kolobani
+ka;კოკოტაური;K’ok’ot’auri
+ru;Кокотаури;K’ok’ot’auri
+ka;ქოყო;Koq’o
+ru;Коко;Koq’o
+ka;კოკი;K’ok’i
+ru;Коки;K’ok’i
+ka;კოხნარი;K’okhnari
+ru;Кохнари;K’okhnari
+ka;კოხი;K’okhi
+ka;კოკა;K’ok’a
+ru;Кока;K’ok’a
+ka;კოღოთო;K’oghoto
+ru;Когото;K’oghoto
+ru;Коджори;Kojori
+sv;Kodzjori;Kojori
+be;Каджоры;Kojori
+es;Koyori;Kojori
+cs;Kodžori;Kojori
+ka;კოჯორი;Kojori
+uk;Коджорі;Kojori
+pl;Kodżori;Kojori
+nl;Kodzjori;Kojori
+ka;ქოდალო;Kodalo
+ru;Кодало;Kodalo
+ka;ჭაპალა;Ch’ap’ala
+ru;Чапала;Ch’ap’ala
+ka;კოჭბაანი;K’och’baani
+ru;Кочбаани;K’och’baani
+en;K'obulet'i;Kobuleti
+ru;Кобулети;Kobuleti
+nl;Koboeleti;Kobuleti
+ab;Қобулеҭ;Kobuleti
+bg;Кобулети;Kobuleti
+et;Khobulethi;Kobuleti
+ka;ქობულეთი;Kobuleti
+lt;Kobuletis;Kobuleti
+sr;Кобулети;Kobuleti
+uk;Кобулеті;Kobuleti
+ka;K’obulet’i;Kobuleti
+ka;Kobi;K’obi
+ka;კობი;K’obi
+ru;Коби;K’obi
+ka;ყობი;Q’obi
+ru;Коби;Q’obi
+ka;ქობესაანთუბანი;Kobesaantubani
+ru;Кобесаантубани;Kobesaantubani
+ka;კობალთა;K’obalta
+ru;Кобалта;K’obalta
+ka;კობაძე;K’obadze
+ru;Кобадзе;K’obadze
+ka;კნოლევი;K’nolevi
+ru;Кнолеви;K’nolevi
+ka;ქმოსტი;Kmost’i
+ru;Кмости;Kmost’i
+ka;კლდუ;K’ldu
+ru;Клду;K’ldu
+ka;კლდისწყარო;K’ldists’q’aro
+ru;Клдисцхаро;K’ldists’q’aro
+en;Klde;K’lde
+ru;Клде;K’lde
+ka;კლდე;K’lde
+ka;Q’izilkilisi;K’izilkilisa
+ka;ყიზილქილისა;K’izilkilisa
+ka;კიზილქილისა;K’izilkilisa
+ru;Кизилкилиса;K’izilkilisa
+ka;ყიზილ-აჯლო;Q’izil-Ajlo
+ru;Кизил-Аджло;Q’izil-Ajlo
+en;K'itsnisi;Kits’nisi
+ru;Кицниси;Kits’nisi
+ka;ქიწნისი;Kits’nisi
+ka;Kitskhis Igoreti;K’itskhis Igoreti
+ka;კიცხის იგორეთი;K’itskhis Igoreti
+ru;Кицхис Игорети;K’itskhis Igoreti
+en;Kitskhi;K’itskhi
+ka;კიცხი;K’itskhi
+ru;Кицхи;K’itskhi
+ka;კიტოხი;K’it’okhi
+ru;Китохи;K’it’okhi
+ka;კითხიჯი;K’itkhiji
+ru;Китхиджи;K’itkhiji
+ka;ყიტაანი;Q’it’aani
+ru;Китаани;Q’it’aani
+en;K'istauri;Kist’auri
+ru;Кистаури;Kist’auri
+ka;ქისტაური;Kist’auri
+ka;კისტანი;K’ist’ani
+ru;Кистани;K’ist’ani
+en;Kirtskhi;K’irtskhi
+ru;Кирцхи;K’irtskhi
+ka;კირცხი;K’irtskhi
+ka;კიროვაკანი;K’irovak’ani
+ru;Кировакани;K’irovak’ani
+en;Kirnat'i;K’irnati
+ru;Кирнати;K’irnati
+tr;Kirnat’i;K’irnati
+ka;კირნათი;K’irnati
+ka;კირიხლო;K’irikhlo
+ru;Кирихло;K’irikhlo
+ka;კირბალი;K’irbali
+ru;Кирбали;K’irbali
+tr;Kibircik;Ch’reshi
+ka;ჭრეში;Ch’reshi
+ru;Чреши;Ch’reshi
+ka;ყიფიანთუბანი;Q’ipiantubani
+ru;Кипиантубани;Q’ipiantubani
+ka;კინოთი;K’inoti
+ru;Киноти;K’inoti
+ka;ქინძათი;Kindzati
+ru;Киндзати;Kindzati
+ka;კინჩხაფერდი;K’inchkhaperdi
+ru;Кинчхаперди;K’inchkhaperdi
+ka;კიმოთესუბანი;K’imotesubani
+ru;Кимотесубани;K’imotesubani
+ka;ქიქინეთი;Kikineti
+ru;Кикинети;Kikineti
+ka;კიკიბო;K’ik’ibo
+ru;Кикибо;K’ik’ibo
+ka;ქიძინიძეები;Kidzinidzeebi
+ru;Кидзинидзееби;Kidzinidzeebi
+ka;კიჩხულდაში;K’ichkhuldashi
+ru;Кичхулдаши;K’ichkhuldashi
+ka;კიბე;K’ibe
+ka;გომი;K’ibe
+ru;Кибе;K’ibe
+ka;კიანეთი;K’ianeti
+ru;Кианети;K’ianeti
+ka;Khvit’i;Khviti
+ka;ხვითი;Khviti
+ru;Хвити;Khviti
+ka;ხვაშითი;Khvashiti
+ru;Хвашити;Khvashiti
+ru;Хвани;Khvani
+ka;ხვანი;Khvani
+en;Khvanchkara;Khvanch’k’ara
+ru;Хванчкара;Khvanch’k’ara
+ka;ხვანჭკარა;Khvanch’k’ara
+ka;ხუცუბანი;Khutsubani
+ru;Хуцубани;Khutsubani
+ka;ხურუთი;Khuruti
+ru;Хурути;Khuruti
+ka;Khurt’isi;Khurtisi
+ka;ხურთისი;Khurtisi
+ru;Хуртиси;Khurtisi
+ka;ხუნევი;Khunevi
+ru;Хуневи;Khunevi
+ka;ხუნჯულაური;Khunjulauri
+ru;Хунджулаури;Khunjulauri
+ru;Хуло;Khulo
+ka;ხულო;Khulo
+ka;ხულგუმო;Khulgumo
+ru;Хулгумо;Khulgumo
+ka;ხცისი;Khtsisi
+ru;Хциси;Khtsisi
+ka;ხრესილი;Khresili
+ru;Хресили;Khresili
+en;Khreit'i;Khreiti
+ru;Хреити;Khreiti
+ka;ხრეითი;Khreiti
+ru;Ховле;Khovle
+ka;ხოვლე;Khovle
+en;Khotevi;Khot’evi
+ru;Хотеви;Khot’evi
+ka;ხოტევი;Khot’evi
+ka;ხოსპიო;Khosp’io
+ru;Хоспио;Khosp’io
+ka;ხოშატიანი;Khoshat’iani
+ru;Хошатиани;Khoshat’iani
+ka;ხოშარა;Khoshara
+ru;Хошара;Khoshara
+ka;ხორხელი;Khorkheli
+ru;Хорхели;Khorkheli
+ka;ხორითი;Khoriti
+ru;Хорити;Khoriti
+ka;ხორეთი;Khoreti
+ru;Хорети;Khoreti
+ka;ხორბალო;Khorbalo
+ru;Хорбало;Khorbalo
+ka;ხოფური;Khopuri
+ru;Хопури;Khopuri
+ka;ხოპისი;Khop’isi
+ru;Хописи;Khop’isi
+ka;ხონისჭალა;Khonisch’ala
+ru;Хонисчала;Khonisch’ala
+ka;ხონი;Khoni
+ru;Хони;Khoni
+de;Choni;Khoni
+be;Хоні;Khoni
+bg;Хони;Khoni
+lt;Chonis;Khoni
+lv;Honi;Khoni
+uk;Хоні;Khoni
+sr;Хони;Khoni
+sv;Choni;Khoni
+el;Χόνι;Khoni
+es;Joni;Khoni
+et;Honi;Khoni
+cs;Choni;Khoni
+hsb;Choni;Khoni
+pl;Choni;Khoni
+nl;Choni;Khoni
+tr;Honi;Khoni
+ka;ხონჭიორი;Khonch’iori
+ka;Khontchiori;Khonch’iori
+ru;Хончиори;Khonch’iori
+ka;ხომული;Khomuli
+ru;Хомули;Khomuli
+ru;Хоми;Khomi
+ka;ხომი;Khomi
+ka;ხოხმელი;Khokhmeli
+ru;Хохмели;Khokhmeli
+ka;ხოჯორნი;Khojorni
+ru;Ходжорни;Khojorni
+ka;ხოჯი;Khoji
+ru;Ходжи;Khoji
+ru;Хоби;Khobi
+ka;ხობი;Khobi
+ka;ხიზნები;Khiznebi
+ru;Хизнеби;Khiznebi
+ka;ხისო;Khiso
+ru;Хисо;Khiso
+ka;ხირხონისი;Khirkhonisi
+ru;Хирхониси;Khirkhonisi
+ka;ხირაუშა;Khirausha
+ru;Хирауша;Khirausha
+ka;ხიმში;Khimshi
+ru;Химши;Khimshi
+ka;ხიდისთავი;Khidistavi
+ru;Хидистави;Khidistavi
+ka;ხიდი;Khidi
+ru;Хиди;Khidi
+ka;ხიდეშლები;Khideshlebi
+ru;Хидешлеби;Khideshlebi
+ka;ხიდარი;Khidari
+ru;Хидари;Khidari
+ka;Khevsurt’sop’eli;Khevsurtsopeli
+ka;ხევსურთსოფელი;Khevsurtsopeli
+ru;Хевсуртсопели;Khevsurtsopeli
+ka;ხევისჭალა;Khevisch’ala
+ru;Хевисчала;Khevisch’ala
+ka;ხევი;Khevi
+ru;Хеви;Khevi
+ka;ხევაშენი;Khevasheni
+ru;Хевашени;Khevasheni
+ka;ხეცერა;Khetsera
+ru;Хецера;Khetsera
+ka;ხეთა;Kheta
+ru;Хета;Kheta
+ka;ხერთვისი;Khertvisi
+ru;Хертвиси;Khertvisi
+ka;ხერხვაში;Kherkhvashi
+ru;Херхваши;Kherkhvashi
+ka;ხეოთი;Kheoti
+ru;Хеоти;Kheoti
+ka;ხემაღალი;Khemaghali
+ru;Хемагали;Khemaghali
+en;Khelvach'auri;Khelvachauri
+ru;Хелвачаури;Khelvachauri
+ka;ხელვაჩაური;Khelvachauri
+en;Khelt'ubani;Kheltubani
+ru;Хелтубани;Kheltubani
+ka;Khelt’ubani;Kheltubani
+ka;ხელთუბანი;Kheltubani
+ru;Хеледи;Kheledi
+ka;ხელედი;Kheledi
+ka;ხეკორძი;Khek’ordzi
+ru;Хекордзи;Khek’ordzi
+ka;ხეითი;Kheiti
+ru;Хеити;Kheiti
+ka;ხე;Khe
+ru;Хе;Khe
+en;Khavet'i;Khaveti
+ru;Хавети;Khaveti
+ka;ხავეთი;Khaveti
+ru;Хашури;Khashuri
+ka;ხაშური;Khashuri
+en;Khachuri;Khashuri
+es;Jashuri;Khashuri
+fr;Khachouri;Khashuri
+nl;Chasjoeri;Khashuri
+cs;Chašuri;Khashuri
+et;Hašuri;Khashuri
+fi;Khašuri;Khashuri
+lt;Chašuris;Khashuri
+lv;Hašuri;Khashuri
+ro;Hașuri;Khashuri
+sr;Хашури;Khashuri
+uk;Хашурі;Khashuri
+pl;Chaszuri;Khashuri
+sv;Chasjuri;Khashuri
+ru;Хашми;Khashmi
+ka;ხაშმი;Khashmi
+ka;ხარტიშო;Khart’isho
+ru;Хартишо;Khart’isho
+ka;Kharkhet’i;Kharkheti
+ka;ხარხეთი;Kharkheti
+ru;Хархети;Kharkheti
+ka;ხარისთვალი;Kharistvali
+ru;Хариствали;Kharistvali
+ka;ხარჯამი;Kharjami
+ru;Харджами;Kharjami
+ka;ხარაულა;Kharaula
+ru;Хараула;Kharaula
+ka;Khantski;Khants’k’i
+ka;ხანწკი;Khants’k’i
+ru;Ханцки;Khants’k’i
+ru;Хани;Khani
+ka;ხანი;Khani
+ka;ხანჯიგაზლო;Khanjigazlo
+ru;Ханджигазло;Khanjigazlo
+ka;ხალიფაური;Khalipauri
+ru;Халипаури;Khalipauri
+ka;ხალა;Khala
+ru;Хала;Khala
+ka;ხაკი;Khak’i
+ru;Хаки;Khak’i
+ka;ხახმატი;Khakhmat’i
+ru;Хахмати;Khakhmat’i
+ka;ხაიშო;Khaisho
+ru;Хаишо;Khaisho
+ka;ხაჯალია;Khajalia
+ru;Хаджалиа;Khajalia
+ka;ხადიკი;T’beti
+ka;ტბეთი;T’beti
+ru;Хадики;T’beti
+en;Khach'k'oi;Khachk’ovi
+ru;Хачкой;Khachk’ovi
+ka;ხაჩკოი;Khachk’ovi
+ka;ხაჩკოვი;Khachk’ovi
+ka;ხაჩეში;Khacheshi
+ru;Хачеши;Khacheshi
+ru;Хабуме;Khabume
+ka;ხაბუმე;Khabume
+ka;ხაბელაშვილები;Khabelashvilebi
+ru;Хабелашвилеби;Khabelashvilebi
+ka;კევლიანი;K’evliani
+ru;Кевлиани;K’evliani
+ka;ქევხიანი;Kevkhiani
+ru;Кевхиани;Kevkhiani
+en;Ketrisi;K’et’risi
+ru;Кетриси;K’et’risi
+ka;კეტრისი;K’et’risi
+ka;ქესალო;Kesalo
+ru;Кесало;Kesalo
+ka;ქერე;Kere
+ru;Кере;Kere
+ka;კენჭაკლდე;K’ench’ak’lde
+ru;Кенчаклде;K’ench’ak’lde
+ka;კენაში;K’enashi
+ru;Кенаши;K’enashi
+ka;ყელა;Q’ela
+ru;Кела;Q’ela
+ka;კეხიჯვარი;K’ekhijvari
+ru;Кехиджвари;K’ekhijvari
+ka;ქედლები;Kedlebi
+ru;Кедлеби;Kedlebi
+ka;ქედისუბანი;Kedisubani
+ru;Кедисубани;Kedisubani
+en;K'eda;Keda
+ru;Кеда;Keda
+ka;ქედა;Keda
+ka;ქებაანი;Kebaani
+ru;Кебаани;Kebaani
+ka;ქბილარი;Kbilari
+ru;Кбилари;Kbilari
+en;Kazret'i;Kazreti
+ru;Казрети;Kazreti
+ka;K’azreti;Kazreti
+ka;კაზრეთი;Kazreti
+ka;კაზლარი;K’azlari
+ru;Казлари;K’azlari
+ka;Step’antsminda;Stepantsminda
+ru;Степанцминда;Stepantsminda
+ka;სტეფანწმინდა;Stepantsminda
+ka;St’epants’minda;Stepantsminda
+ka;Qazbegi;Stepantsminda
+en;Kavt'iskhevi;K’avtiskhevi
+ru;Кавтисхеви;K’avtiskhevi
+ka;კავთისხევი;K’avtiskhevi
+ka;კავშირი;K’avshiri
+ru;Кавшири;K’avshiri
+ka;ყაურმა;Q’aurma
+en;Ghaurma;Q’aurma
+ru;Каурма;Q’aurma
+ka;კაცხი;K’atskhi
+ru;Кацхи;K’atskhi
+ka;კაწალხევი;K’ats’alkhevi
+ru;Кацалхеви;K’ats’alkhevi
+ka;კათნატუ;K’atnat’u
+ka;K’at’nat’u;K’atnat’u
+ka;კატნატუ;K’atnat’u
+ru;Катнату;K’atnat’u
+en;Kasumlo;K’asumlo
+ru;Касумло;K’asumlo
+ka;კასუმლო;K’asumlo
+ru;Каспи;Kaspi
+ab;Касп;Kaspi
+ka;კასპი;Kaspi
+lt;Kaspis;Kaspi
+sr;Каспи;Kaspi
+ka;K’asp’i;Kaspi
+ka;ქართვანი;Kartvani
+ru;Картвани;Kartvani
+ka;კარწაულთა;K’arts’aulta
+ru;Карцаулта;K’arts’aulta
+en;Kartsakhi;K’arts’akhi
+ru;Карцахи;K’arts’akhi
+ka;კარწახი;K’arts’akhi
+en;Kartikami;K’art’ik’ami
+ru;Картиками;K’art’ik’ami
+ka;კარტიკამი;K’art’ik’ami
+ka;ყარსიმაანთკარი;Q’arsimaantk’ari
+ru;Карсимаанткари;Q’arsimaantk’ari
+ka;კარსანი;K’arsani
+ru;Карсани;K’arsani
+ka;ქარქუშაანი;Karkushaani
+ru;Каркушаани;Karkushaani
+ka;Karkuch’a;K’ark’ucha
+ka;კარკუჩა;K’ark’ucha
+ru;Каркуча;K’ark’ucha
+ka;ქარიანი;Kariani
+ru;Кариани;Kariani
+en;Kari;Q’ari
+ru;Кари;Q’ari
+ka;ყარი;Q’ari
+ka;Kari;Q’ari
+ka;კარბი;K’arbi
+ru;Карби;K’arbi
+en;Qarat'aghla;Q’aratak’lia
+ru;Агтакла;Q’aratak’lia
+ka;Qarat’aghla;Q’aratak’lia
+ka;ყარათაკლია;Q’aratak’lia
+ka;Qarap’ila;Q’arapila
+ka;ყარაფილა;Q’arapila
+ru;Карапила;Q’arapila
+ka;K’arapet’i;K’arap’et’i
+ka;კარაპეტი;K’arap’et’i
+ru;Карапети;K’arap’et’i
+en;Karalet'i;K’araleti
+ru;Каралети;K’araleti
+ka;კარალეთი;K’araleti
+ka;Qarajalari;Q’arajalari
+ka;ყარაჯალარი;Q’arajalari
+ru;Караджалари;Q’arajalari
+ka;იწრია;Its’ria
+ru;Ицриа;Its’ria
+ka;კაპრეშუმი;K’ap’reshumi
+ru;Капрешуми;K’ap’reshumi
+ka;კაპნისთავი;K’ap’nistavi
+ru;Капнистави;K’ap’nistavi
+ka;კანტაური;K’ant’auri
+ru;Кантаури;K’ant’auri
+ka;ყანობი;Q’anobi
+ru;Каноби;Q’anobi
+ka;კანატია;K’anat’ia
+ru;Канатиа;K’anat’ia
+ka;კამიშლო;K’amishlo
+ru;Камишло;K’amishlo
+ka;კამარლო;K’amarlo
+ru;Камарло;K’amarlo
+ka;კალვათა;K’alvata
+ru;Калвата;K’alvata
+ka;კალოთა;K’alota
+ru;Калота;K’alota
+ka;ქალქვა-ნამესრალი;Kalkva-Namesrali
+ru;Калква-Намесрали;Kalkva-Namesrali
+ka;კალინინო;K’alinino
+ru;Калинино;K’alinino
+ka;ქალილო;Kalilo
+ru;Калило;Kalilo
+ka;კალაში;K’alashi
+ru;Калаши;K’alashi
+ka;კალაგონი;K’alagoni
+ru;Калагони;K’alagoni
+ka;ქაქუთი;Kakuti
+ru;Какути;Kakuti
+ka;კახურა;K’akhura
+ru;Кахура;K’akhura
+ka;კახოიანები;K’akhoianebi
+ru;Кахоианеби;K’akhoianebi
+ka;კახათი;K’akhati
+ru;Кахати;K’akhati
+ka;კახაბერი;K’akhaberi
+ru;Кахабери;K’akhaberi
+en;Kakabet'i;K’ak’abeti
+ru;Какабети;K’ak’abeti
+ka;Kakabet’i;K’ak’abeti
+ka;კაკაბეთი;K’ak’abeti
+ka;Kaishaurni;K’aishaurni
+ka;კაიშაურნი;K’aishaurni
+ru;Каишаурни;K’aishaurni
+ka;კადოეთი;K’adoeti
+ru;Кадоети;K’adoeti
+ka;კაჩაეთი;K’achaeti
+ru;Качаети;K’achaeti
+ka;კაბური;K’aburi
+ru;Кабури;K’aburi
+ka;Kabali;K’abali
+ka;კაბალი;K’abali
+ru;Кабали;K’abali
+en;Ienishi;Ienashi
+ru;Иенаши;Ienashi
+ka;Ienishi;Ienashi
+ka;იენაში;Ienashi
+ka;ივლიტა;Ivlit’a
+ru;Ивлита;Ivlit’a
+en;Ivanovka;Ivanovk’a
+ru;Ивановка;Ivanovk’a
+ka;ივანოვკა;Ivanovk’a
+ka;ივანეული;Ivaneuli
+ru;Иванеули;Ivaneuli
+ka;ივანდიდი;Ivandidi
+ru;Ивандиди;Ivandidi
+ka;იცქისი;Itskisi
+ru;Ицкиси;Itskisi
+ka;იწა;Its’a
+ru;Ица;Its’a
+ka;ითხვისი;Itkhvisi
+ru;Итхвиси;Itkhvisi
+ka;ისუნდერი;Isunderi
+ru;Исундери;Isunderi
+ka;ისულა;Isula
+ru;Исула;Isula
+ka;ისრითი;Isriti
+ru;Исрити;Isriti
+ka;ისკარი;Isk’ari
+ru;Искари;Isk’ari
+ka;ირი;Iri
+ru;Ири;Iri
+en;Irgani;Irganchai
+ru;Ирганчай;Irganchai
+ka;ირგანჩაი;Irganchai
+ka;ირემაძეები;Iremadzeebi
+ru;Иремадзееби;Iremadzeebi
+ka;იფხი;Ipkhi
+ru;Ипхи;Ipkhi
+ka;ქვედა იფარი;Kveda Ipari
+ru;Кведа Ипари;Kveda Ipari
+ka;იორმუღანლო;Iormughanlo
+ka;Mughanlo;Iormughanlo
+ka;მუღანლო;Iormughanlo
+ru;Иормуганло;Iormughanlo
+ka;იორი;Iori
+ru;Иори;Iori
+ka;ინტაბუეთი;Int’abueti
+ru;Интабуети;Int’abueti
+ka;ინო;Ino
+ru;Ино;Ino
+ka;ინგეთი;Ingeti
+ru;Ингети;Ingeti
+ka;ინაშაური;Inashauri
+ru;Инашаури;Inashauri
+ka;იმირი;Imiri
+ru;Имири;Imiri
+ka;იმერლიანთკარი;Imerliantk’ari
+ru;Имерлианткари;Imerliantk’ari
+ru;Имера;Imera
+ka;იმერა;Imera
+ka;Iltoza;Ilt’oza
+ka;ილტოზა;Ilt’oza
+ru;Илтоза;Ilt’oza
+ka;ილმაზლო;Ilmazlo
+ru;Илмазло;Ilmazlo
+ka;იკვლივგორანა;Ik’vlivgorana
+ru;Иквливгорана;Ik’vlivgorana
+ka;იხტილა;Ikht’ila
+ru;Ихтила;Ikht’ila
+ka;იყალთო;Iq’alto
+ru;Икалто;Iq’alto
+ka;იჯარეთი;Ijareti
+ru;Иджарети;Ijareti
+ka;იდუმალა;Idumala
+ru;Идумала;Idumala
+ka;იდლიანი;Idliani
+ru;Идлиани;Idliani
+ka;იდლეთი;Idleti
+ru;Идлети;Idleti
+ka;იარაჯულები;Iarajulebi
+ru;Иараджулеби;Iarajulebi
+ka;Iaguplo;Iaghuplo
+ka;იაგუფლო;Iaghuplo
+ka;იაღუფლო;Iaghuplo
+ru;Иагупло;Iaghuplo
+ka;იაკობაური;Iak’obauri
+ru;Иакобаури;Iak’obauri
+ka;ღვრიაწყალი;Ghvriats’q’ali
+ru;Гвриацхали;Ghvriats’q’ali
+ka;ღვლევი;Ghvlevi
+ru;Гвлеви;Ghvlevi
+ka;გვაშტიბი;Gvasht’ibi
+ru;Гваштиби;Gvasht’ibi
+ka;გვიშტიბი;Gvisht’ibi
+ru;Гвиштиби;Gvisht’ibi
+ka;გვიმრიანი;Gvimriani
+ru;Гвимриани;Gvimriani
+ka;Gvidak’e;Gvidake
+ka;გვიდაქე;Gvidake
+ru;Гвидаке;Gvidake
+ka;ღვიარა;Ghviara
+ru;Гвиара;Ghviara
+ka;ღვევი;Ghvevi
+ru;Гвеви;Ghvevi
+ka;გვესო;Gveso
+ru;Гвесо;Gveso
+ka;ღვერკი;Ghverk’i
+ru;Гверки;Ghverk’i
+ru;Гвердзинети;Gverdzineti
+ka;გვერძინეთი;Gverdzineti
+ka;გვერდისუბანი;Gverdisubani
+ru;Гвердисубани;Gverdisubani
+ru;Гвелети;Gveleti
+ka;გველეთი;Gveleti
+ka;ღვედი;Ghvedi
+ru;Гведи;Ghvedi
+ka;ღვებრა;Ghvebra
+ru;Гвебра;Ghvebra
+ka;ღვარები;Ghvarebi
+ru;Гвареби;Ghvarebi
+ka;გვარა;Gvara
+ru;Гвара;Gvara
+ka;ღვანკითი;Ghvank’iti
+ru;Гванкити;Ghvank’iti
+ka;ღურტა;Ghurt’a
+ru;Гурта;Ghurt’a
+ru;Гурна;Gurna
+ka;გურნა;Gurna
+ka;გურკელი;Gurk’eli
+ru;Гуркели;Gurk’eli
+ka;გურჯაანი;Gurjaani
+ru;Гурджаани;Gurjaani
+ka;Gurdjaani;Gurjaani
+ka;გუნდაეთი;Gundaeti
+ru;Гундаети;Gundaeti
+ru;Гумбра;Gumbra
+ka;გუმბრა;Gumbra
+ka;გუმბათი;Gumbati
+ru;Гумбати;Gumbati
+ka;გუმათი;Gumati
+ru;Гумати;Gumati
+ka;გულუხეთი;Gulukheti
+ru;Гулухети;Gulukheti
+ka;ღული;Ghuli
+ru;Гули;Ghuli
+ka;გულეიკარი;Guleik’ari
+ru;Гулеикари;Guleik’ari
+ka;ღულელები;Ghulelebi
+ru;Гулелеби;Ghulelebi
+ka;გულები;Gulebi
+ru;Гулеби;Gulebi
+ka;გეტა;Get’a
+ru;Гета;Get’a
+ka;გუდრუხი;Gudrukhi
+ru;Гудрухи;Gudrukhi
+ru;Гудаури;Gudauri
+ka;გუდაური;Gudauri
+bg;Гудаури;Gudauri
+fr;Goudaouri;Gudauri
+uk;Гудаурі;Gudauri
+el;Γκουνταούρι;Gudauri
+ka;გუდარეხი;Gudarekhi
+ru;Гударехи;Gudarekhi
+ka;გუდარახი;Gudarakhi
+ru;Гударахи;Gudarakhi
+ka;გუდანი;Gudani
+ru;Гудани;Gudani
+ka;გუდალეთი;Gudaleti
+ru;Гудалети;Gudaleti
+ka;გუბისწყალი;Gubists’q’ali
+ru;Губисцхали;Gubists’q’ali
+ka;ღუ;Ghu
+ru;Гу;Ghu
+ka;გრიგოლიში;Grigolishi
+ru;Григолиши;Grigolishi
+ka;გრიგოლეთი;Grigoleti
+ru;Григолети;Grigoleti
+ka;გრიგოლაანთკარი;Grigolaantk’ari
+ru;Григолаанткари;Grigolaantk’ari
+ka;გრემი;Gremi
+ru;Греми;Gremi
+ka;ღრელი;Ghreli
+ru;Грели;Ghreli
+ka;გრძელველები;Grdzelvelebi
+ru;Грдзелвелеби;Grdzelvelebi
+ka;გრძელი ჭალა;Grdzeli Ch’ala
+ru;Грдзели Чала;Grdzeli Ch’ala
+ka;გრაკალი;Grak’ali
+ru;Гракали;Grak’ali
+ka;ღოუბანი;Ghoubani
+ru;Гоубани;Ghoubani
+ka;ღორთუბანი;Ghortubani
+ru;Гортубани;Ghortubani
+ka;გოროვანი;Gorovani
+ru;Горовани;Gorovani
+ka;გორმაღალი;Gormaghali
+ru;Гормагали;Gormaghali
+ka;გორისუბანი;Gorisubani
+ru;Горисубани;Gorisubani
+ka;Gorists’ikhe;Goristsikhe
+ka;გორისციხე;Goristsikhe
+ru;Горисцихе;Goristsikhe
+ka;გორისა;Gorisa
+ru;Гориса;Gorisa
+ka;გორი;Gori
+lt;Goris;Gori
+ru;Гори;Gori
+ka;გორგული;Gorguli
+ru;Горгули;Gorguli
+ru;Гореша;Ghoresha
+ka;ღორეშა;Ghoresha
+ka;ღორძე;Ghordze
+ru;Гордзе;Ghordze
+ka;გობრონეთი;Gobroneti
+ru;Гобронети;Gobroneti
+ka;გორაკა;Gorak’a
+ru;Горака;Gorak’a
+ru;Гора;Gora
+ru;Гонио;Gonio
+ka;გონიო;Gonio
+ka;გონებისკარი;Gonebisk’ari
+ru;Гонебискари;Gonebisk’ari
+ka;ღონა;Ghona
+ru;Гона;Ghona
+ka;გომეწარი;Gomets’ari
+ru;Гомецари;Gomets’ari
+ka;გომარო;Gomaro
+ru;Гомаро;Gomaro
+ka;გომარდული;Gomarduli
+ru;Гомардули;Gomarduli
+ka;გომანი;Gomani
+ru;Гомани;Gomani
+ka;გოლთეთი;Golteti
+ru;Голтети;Golteti
+ka;ღოლოვანი;Gholovani
+ru;Головани;Gholovani
+ka;გოლათუბანი;Golatubani
+ru;Голатубани;Golatubani
+ka;გოლასკური;Golask’uri
+ka;გოკიო;Gok’io
+ru;Гокио;Gok’io
+ka;გოხნარი;Gokhnari
+ru;Гохнари;Gokhnari
+ka;გოგოლეთი;Gogoleti
+ru;Гоголети;Gogoleti
+ka;გოგოლაურთა;Gogolaurta
+ru;Гоголаурта;Gogolaurta
+ka;გოგნი;Gogni
+ru;Гогни;Gogni
+ka;გოგნაური;Gognauri
+ru;Гогнаури;Gognauri
+ka;გოგიეთი;Gogieti
+ru;Гогиети;Gogieti
+ka;გოგინაური;Goginauri
+ru;Гогинаури;Goginauri
+ka;გოგაშენი;Gogasheni
+ru;Гогашени;Gogasheni
+en;Godgadzeebi;Gogadzeebi
+ru;Гогадзееби;Gogadzeebi
+ka;გოგაძეები;Gogadzeebi
+ka;გოჯიაანები;Gojiaanebi
+ru;Годжиаанеби;Gojiaanebi
+ka;ღოდორა;Ghodora
+ru;Годора;Ghodora
+ka;Gochajikhaishi;Gocha Jikhaishi
+ka;გოჩაჯიხაიში;Gocha Jikhaishi
+ka;გოჩა ჯიხაიში;Gocha Jikhaishi
+ru;Гочаджихаиши;Gocha Jikhaishi
+ru;Глола;Glola
+ka;გლოლა;Glola
+ka;გლდანი;Gldani
+ru;Глдани;Gldani
+ru;Геби;Ghebi
+ka;ღები;Ghebi
+ka;ღეშდერი;Gheshderi
+ru;Гешдери;Gheshderi
+ka;გენდუში;Gendushi
+ru;Гендуши;Gendushi
+ka;გელავერი;Gelaveri
+ru;Гелавери;Gelaveri
+ka;გელაძეები;Geladzeebi
+ru;Геладзееби;Geladzeebi
+en;Gegut'i;Geguti
+ru;Гегути;Geguti
+ka;გეგუთი;Geguti
+ka;გეჯეთი;Gejeti
+ru;Геджети;Gejeti
+ka;გედსამანია;Gedsamania
+ru;Гедсаманиа;Gedsamania
+ka;გაიბოტენი;Gaibot’eni
+ru;Гаиботени;Gaibot’eni
+ka;გაუწყინარი;Gauts’q’inari
+ru;Гауцхинари;Gauts’q’inari
+ka;ღართა;Gharta
+ru;Гарта;Gharta
+ka;ღარი;Ghari
+ru;Гари;Ghari
+ru;Гардабани;Gardabani
+ka;გარდაბანი;Gardabani
+sr;Гардабани;Gardabani
+uk;Ґардабані;Gardabani
+ka;გარბანი;Garbani
+ru;Гарбани;Garbani
+ka;გარახა;Garakha
+ru;Гараха;Garakha
+en;Gant'iadi;Gantiadi
+ru;Гантианди;Gantiadi
+ru;Цандрыпш;Gantiadi
+ab;Цандрыԥшь;Gantiadi
+de;Zandrypsch;Gantiadi
+be;Цандрыпш;Gantiadi
+bg;Гантиади;Gantiadi
+cs;Candrypš;Gantiadi
+uk;Ґантіаді;Gantiadi
+sco;Tsandryphsh;Gantiadi
+ru;Ганири;Ghaniri
+ka;ღანირი;Ghaniri
+ka;განჯალა;Ganjala
+ru;Ганджала;Ganjala
+en;Gandzani;Gandza
+ru;Гандзани;Gandza
+ka;განძანი;Gandza
+ka;განძა;Gandza
+ka;განათლება;Ganatleba
+ru;Ганатлеба;Ganatleba
+ka;განარჯიის მუხური;Ganarjiis Mukhuri
+ru;Ганарджиис-Мухури;Ganarjiis Mukhuri
+es;Ganaryis Mujuri;Ganarjiis Mukhuri
+et;Ganardžis Muhhuri;Ganarjiis Mukhuri
+pl;Ganardżiis Muchuri;Ganarjiis Mukhuri
+nl;Ganmoekhoeri;Ganarjiis Mukhuri
+tr;Ganarciis Muhuri;Ganarjiis Mukhuri
+ru;Гамси;Gamsi
+ka;გამსი;Gamsi
+ka;გამოღმა ზანათი;Gamoghma Zanati
+ru;Гамогма Занати;Gamoghma Zanati
+ka;გამოღმა კოდორი;Gamoghma K’odori
+ru;Гамогма Кодори;Gamoghma K’odori
+ka;გამოღმა ბოსლევი;Gamoghma Boslevi
+ru;Гамогма Бослеви;Gamoghma Boslevi
+ka;Gamlistsqaro;Gamdlists’q’aro
+ka;გამდლისწყარო;Gamdlists’q’aro
+ru;Гамдлисцхаро;Gamdlists’q’aro
+ka;გალავანი;Galavani
+ru;Галавани;Galavani
+ka;გაგური;Gaguri
+ru;Гагури;Gaguri
+ka;გაგულეჩი;Gagulechi
+ru;Гагулечи;Gagulechi
+ka;გაღმა ზანათი;Gaghma Zanati
+ru;Гагма Занати;Gaghma Zanati
+ka;გაღმა საჯიჯაო;Gaghma Sajijao
+ru;Гагма Саджиджао;Gaghma Sajijao
+ka;გაღმა კოდორი;Gaghma K’odori
+ru;Гагма Кодори;Gaghma K’odori
+ka;გაღმა დვაბზუ;Gaghma Dvabzu
+ru;Гагма Двабзу;Gaghma Dvabzu
+ka;ყველაანთუბანი;Q’velaantubani
+ru;Квелаантубани;Q’velaantubani
+ka;ღადიში;Ghadishi
+ru;Гадиши;Ghadishi
+ka;გადიდი;Gadidi
+ru;Гадиди;Gadidi
+ka;გადამში;Gadamshi
+ru;Гадамши;Gadamshi
+ka;გაჭედილი;Gach’edili
+ru;Гачедили;Gach’edili
+ka;ფუშრუკაული;Pushruk’auli
+ru;Пушрукаули;Pushruk’auli
+ka;ფურტიო;Purt’io
+ru;Пуртио;Purt’io
+ka;ფილიპოვკა;Pilip’ovk’a
+ru;Пилиповка;Pilip’ovk’a
+ka;ფერია;Peria
+ru;Фериа;Peria
+en;P'akhralo;T’alaveri
+ru;Фахрало;T’alaveri
+ka;ტალავერი;T’alaveri
+ka;ფაჩხა;Pachkha
+ru;Пачха;Pachkha
+ka;ევჟენტი;Evzhent’i
+ru;Евженти;Evzhent’i
+ka;ეთვალისი;Etvalisi
+ru;Етвалиси;Etvalisi
+ka;Potskhoets’eri;Potskho-Ets’eri
+ka;ფოცხოეწერი;Potskho-Ets’eri
+ka;ფოცხო-ეწერი;Potskho-Ets’eri
+ru;Поцхоецери;Potskho-Ets’eri
+ka;პატარა ეწერი;P’at’ara Ets’eri
+ru;Патара Ецери;P’at’ara Ets’eri
+en;Eshtia;Esht’ia
+ru;Эштиа;Esht’ia
+ka;ეშტია;Esht’ia
+ka;ერტისი;Ert’isi
+ru;Ертиси;Ert’isi
+ka;ერგე;Erge
+ru;Ерге;Erge
+ka;Eret’iskari;Heretisk’ari
+ka;ჰერეთისკარი;Heretisk’ari
+ru;Херетискари;Heretisk’ari
+ka;ერეთა;Ereta
+ru;Ерета;Ereta
+ru;Энисели;Eniseli
+ka;ენისელი;Eniseli
+ru;Енисели;Eniseli
+ka;ენაგეთი;Enageti
+ru;Енагети;Enageti
+ka;ელიაწმინდა;Eliats’minda
+ru;Елиацминда;Eliats’minda
+ka;ეკი;Ek’i
+ru;Еки;Ek’i
+ka;ებნისი;Ebnisi
+ru;Ебниси;Ebnisi
+ka;ვეძისი;Vedzisi
+ka;Dzveli Vedzisi;Vedzisi
+ka;ძველი ვეძისი;Vedzisi
+ru;Дзвели Ведзиси;Vedzisi
+ka;ძველი სენაკი;Dzveli Senak’i
+ru;Дзвели Сенаки;Dzveli Senak’i
+en;Dzveli K'veshi;Dzveli Kveshi
+ru;Дзвели-Квеши;Dzveli Kveshi
+ka;ძველი ქვეში;Dzveli Kveshi
+ka;ძველი ქანდა;Dzveli Kanda
+ru;Дзвели Канда;Dzveli Kanda
+ka;ძველი ბურღული;Dzveli Burghuli
+ru;Дзвели Бургули;Dzveli Burghuli
+en;Dzvelanaga;Dzveli Anaga
+ru;Дзвели-Анага;Dzveli Anaga
+ka;Dzvelanaga;Dzveli Anaga
+ka;ძველი ანაგა;Dzveli Anaga
+ka;ძველი აბაშა;Dzveli Abasha
+ru;Дзвели Абаша;Dzveli Abasha
+ru;Дзвели;Dzveli
+ka;ძველი;Dzveli
+ka;ძულუხი;Dzulukhi
+ru;Дзулухи;Dzulukhi
+ka;ძუყნური;Dzuq’nuri
+ru;Дзукнури;Dzuq’nuri
+ru;Дзмуиси;Dzmuisi
+ka;ძმუისი;Dzmuisi
+ka;ძმაგულა;Dzmagula
+ru;Дзмагула;Dzmagula
+ka;ძლევიჯვარი;Dzlevijvari
+ru;Дзлевиджвари;Dzlevijvari
+ka;ძირულა;Dzirula
+ru;Дзирула;Dzirula
+ka;ძიროვანი;Dzirovani
+ru;Дзировани;Dzirovani
+ka;ძირკვაძეები;Dzirk’vadzeebi
+ru;Дзирквадзееби;Dzirk’vadzeebi
+ka;Dzirijumati;Dzirjumati
+ka;ძირიჯუმათი;Dzirjumati
+ka;ძირჯუმათი;Dzirjumati
+ru;Дзириджумати;Dzirjumati
+ka;ძირაგეული;Dzirageuli
+ru;Дзирагеули;Dzirageuli
+ka;ძიგური;Dziguri
+ru;Дзигури;Dziguri
+ru;Джвари;Jvari
+ka;ჯვარი;Jvari
+de;Dschwari;Jvari
+be;Джвары;Jvari
+pt;Djvari;Jvari
+lt;Džvaris;Jvari
+lv;Džvari;Jvari
+hu;Dzsvari;Jvari
+uk;Джварі;Jvari
+mk;Џвари;Jvari
+sr;Жвари;Jvari
+sv;Dzjvari;Jvari
+et;Džvari;Jvari
+cs;Džvari;Jvari
+hsb;Dźwari;Jvari
+pl;Dżwari;Jvari
+nl;Dzjvari;Jvari
+en;Jut'a;Juta
+ru;Джута;Juta
+ka;ჯუთა;Juta
+ka;Juruqvet’i;Juruq’veti
+ka;ჯურუყვეთი;Juruq’veti
+ru;Джуруквети;Juruq’veti
+ka;ჯუმუშაური;Jumushauri
+ru;Джумушаури;Jumushauri
+ka;ჯუმითი;Jumiti
+ru;Джумити;Jumiti
+ka;ჯუმი;Jumi
+ru;Джуми;Jumi
+ka;Jumat’i;Jumati
+ka;ჯუმათი;Jumati
+ru;Джумати;Jumati
+ka;ჯულღა;Julgha
+ru;Джулга;Julgha
+ka;ჯუღისი;Jughisi
+ru;Джугиси;Jughisi
+ka;Jugaani;Jughaani
+ka;ჯუღაანი;Jughaani
+ru;Джугаани;Jughaani
+ka;ჯუგაანი;Jugaani
+ru;Джугаани;Jugaani
+ka;ჯრია;Jria
+ru;Джриа;Jria
+ka;ჯორკვალი;Jork’vali
+ru;Джорквали;Jork’vali
+ka;ჯორჯიაშვილი;Jorjiashvili
+ru;Джорджиашвили;Jorjiashvili
+ka;ჯონია;Jonia
+ru;Джониа;Jonia
+ka;ჯოლევი;Jolevi
+ru;Джолеви;Jolevi
+ka;Joqolo;Joq’olo
+ka;ჯოყოლო;Joq’olo
+ru;Джоколо;Joq’olo
+ka;Jinisi;Arts’ivani
+ka;ჯინისი;Arts’ivani
+ka;არწივანი;Arts’ivani
+ru;Арцивани;Arts’ivani
+ka;ჯინჭვისი;Jinch’visi
+ru;Джинчвиси;Jinch’visi
+ka;Jimit’i;Jimiti
+ka;ჯიმითი;Jimiti
+ru;Джимити;Jimiti
+ka;ჯიმასტარო;Jimast’aro
+ru;Джимастаро;Jimast’aro
+ka;არაგვისპირი;Aragvisp’iri
+ru;Арагвиспири;Aragvisp’iri
+ka;ჯიხასკარი;Jikhask’ari
+ru;Джихаскари;Jikhask’ari
+ka;Jikhashk’ari;Jikhask’ari
+ka;ჯიხაშკარი;Jikhask’ari
+en;Dzhigrasheni;Jigrasheni
+ru;Джиграшени;Jigrasheni
+ka;ჯიგრაშენი;Jigrasheni
+ka;ჯიღაურა;Jighaura
+ru;Джигаура;Jighaura
+ka;ჯიჯეთი;Jijeti
+ru;Джиджети;Jijeti
+ka;ჯგილათი;Jgilati
+ru;Джгилати;Jgilati
+ka;ჯგალი;Jgali
+ru;Джгали;Jgali
+ka;ჯერვალიძეები;Jervalidzeebi
+ru;Джервалидзееби;Jervalidzeebi
+ka;ჯავახიანთკარი;Javakhiantk’ari
+ru;Джавахианткари;Javakhiantk’ari
+ka;ჯავახი;Javakhi
+ru;Джавахи;Javakhi
+ka;სამტრედო;Samt’redo
+ru;Самтредо;Samt’redo
+ka;Japaridze;Samrek’lo
+ka;ჯაფარიძე;Samrek’lo
+ru;Джапаридзе;Samrek’lo
+ka;სამრეკლო;Samrek’lo
+ka;Jap’aridze;Samrek’lo
+ka;ჯაპანა;Jap’ana
+ru;Джапана;Jap’ana
+ka;ჯანხოში;Jankhoshi
+ru;Джанхоши;Jankhoshi
+ka;ჯანდარა;Jandara
+ru;Джандара;Jandara
+ka;ჯალაურთა;Jalaurta
+ru;Джалаурта;Jalaurta
+ka;ჯაღმიანი;Jaghmiani
+ru;Джагмиани;Jaghmiani
+ka;ჯაღირა;Jaghira
+ru;Джагира;Jaghira
+ka;ჯაბნიძეები;Jabnidzeebi
+ru;Джабнидзееби;Jabnidzeebi
+ka;ძევრი;Dzevri
+ru;Дзеври;Dzevri
+ka;ძევერა;Dzevera
+ru;Дзевера;Dzevera
+ru;Дзегви;Dzegvi
+ka;ძეგვი;Dzegvi
+ka;ძეძილეთი;Dzedzileti
+ru;Дзедзилети;Dzedzileti
+ka;ძეძეურთა;Dzedzeurta
+ru;Дзедзеурта;Dzedzeurta
+ka;ძებნიაურები;Dzebniaurebi
+ru;Дзебниауреби;Dzebniaurebi
+ru;Дзалиси;Dzalisi
+ka;ძალისი;Dzalisi
+ru;Двири;Dviri
+ka;დვირი;Dviri
+ka;დვანი;Dvani
+ru;Двани;Dvani
+ka;დვაბზუ;Dvabzu
+ru;Двабзу;Dvabzu
+ka;დუზაგრამა;Duzagrama
+ru;Дузаграма;Duzagrama
+ka;დუცხუნი;Dutskhuni
+ru;Дуцхуни;Dutskhuni
+en;Dushet'i;Dusheti
+ru;Душети;Dusheti
+ka;Dushet’i;Dusheti
+ka;დუშეთი;Dusheti
+ka;დურევი;Durevi
+ru;Дуреви;Durevi
+ka;დუნთა;Dunta
+ru;Дунта;Dunta
+ka;დუმაცხოვი;Dumatskhovi
+ru;Думацхови;Dumatskhovi
+ka;დუმაცხო;Dumatskho
+ru;Думацхо;Dumatskho
+ru;Дуиси;Duisi
+ka;დუისი;Duisi
+ka;დულუზაურები;Duluzaurebi
+ru;Дулузауреби;Duluzaurebi
+ka;დუდაურები;Dudaurebi
+ru;Дудауреби;Dudaurebi
+ka;დრბო;Drbo
+ru;Дрбо;Drbo
+ru;Доеси;Doesi
+ka;დოესი;Doesi
+ka;დოშაყე;Doshaq’e
+ru;Дошаке;Doshaq’e
+ka;დორეულები;Doreulebi
+ru;Дореулеби;Doreulebi
+ka;დოლოშა;Dolosha
+ru;Долоша;Dolosha
+ka;დოლოგანი;Dologani
+ru;Дологани;Dologani
+en;Dolasvip'i;Dolasvipi
+ru;Доли;Dolasvipi
+ka;დოლასვიფი;Dolasvipi
+ka;Dolask’edi;Dolaskedi
+ka;დოლასქედი;Dolaskedi
+ru;Доласкеди;Dolaskedi
+ka;Dochu;Doch’u
+ka;დოჭუ;Doch’u
+ru;Дочу;Doch’u
+ka;დობირო;Dobiro
+ru;Добиро;Dobiro
+ru;Дманиси;Dmanisi
+ka;დმანისი;Dmanisi
+ka;დიზი;Dizi
+ru;Дизи;Dizi
+ka;დიცი;Ditsi
+ru;Дици;Ditsi
+ru;Дирби;Dirbi
+ka;დირბი;Dirbi
+ka;დიოკნისი;Diok’nisi
+ru;Диокниси;Diok’nisi
+ka;დიმი;Dimi
+ru;Дими;Dimi
+en;Diliska;Dilisk’a
+ru;Дилиска;Dilisk’a
+ka;დილისკა;Dilisk’a
+ka;დილიკაური;Dilik’auri
+ru;Диликаури;Dilik’auri
+ka;დიკლო;Dik’lo
+ru;Дикло;Dik’lo
+ka;დიხჩო;Dikhcho
+ru;Дихчо;Dikhcho
+ka;დიხაშხო;Dikhashkho
+ru;Дихашхо;Dikhashkho
+ru;Дигоми;Dighomi
+ka;დიღომი;Dighomi
+ka;დიდველა;Didvela
+ru;Дидвела;Didvela
+ka;დიდი თხინალა;Didi-Tkhinala
+ru;Диди Тхинала;Didi-Tkhinala
+ka;დიდი სმადა;Didi Smada
+ru;Диди Смада;Didi Smada
+ka;დიდი სატივე;Didi Sat’ive
+ru;Диди Сативе;Didi Sat’ive
+ka;დიდი სამსარი;Didi Samsari
+ru;Диди Самсари;Didi Samsari
+ka;დიდი ფლევი;Didi Plevi
+ru;Диди Плеви;Didi Plevi
+ka;დიდი პამაჯი;Didi P’amaji
+ru;Диди Памаджи;Didi P’amaji
+ka;დიდი ნეძი;Didi Nedzi
+ru;Диди Недзи;Didi Nedzi
+ru;Диди-Муганло;Didi Mughanlo
+ka;დიდი მუღანლო;Didi Mughanlo
+ka;დიდი მიტარბი;Didi Mit’arbi
+ru;Диди Митарби;Didi Mit’arbi
+ka;დიდი კუხი;Didi K’ukhi
+ru;Диди Кухи;Didi K’ukhi
+ka;დიდი ხავლეთი;Didi Khavleti
+ru;Диди Хавлети;Didi Khavleti
+ka;დიდი ხანჩალი;Didi Khanchali
+ru;Диди-Ханчали;Didi Khanchali
+ka;დიდი ხალები;Didi Khalebi
+ru;Диди Халеби;Didi Khalebi
+ka;დიდი ყელეთი;Didi Q’eleti
+ru;Диди Келети;Didi Q’eleti
+en;Didi Inch'khuri;Didi Inchkhuri
+ru;Диди-Инчхури;Didi Inchkhuri
+ka;დიდი ინჩხური;Didi Inchkhuri
+ka;Dumasturi;Dumast’uri
+ka;დუმასტური;Dumast’uri
+ru;Думастури;Dumast’uri
+ru;Диди-Дманиси;Didi Dmanisi
+ka;დიდი დმანისი;Didi Dmanisi
+ka;დიდი ჭყონი;Didi Ch’q’oni
+ru;Диди Чкони;Didi Ch’q’oni
+ka;ატენი;At’eni
+ru;Атени;At’eni
+ka;დიდი არაქალი;Didi Arakali
+ru;Диди Аракали;Didi Arakali
+ka;დიდგორი;Didgori
+ru;Дидгори;Didgori
+ka;დიდებაანი;Didebaani
+ru;Дидебаани;Didebaani
+ka;დიდაჭარა;Didach’ara
+ru;Дидачара;Didach’ara
+ka;დიაკონიძეები;Diak’onidzeebi
+ru;Диаконидзееби;Diak’onidzeebi
+ka;დგვარი;Dgvari
+ru;Дгвари;Dgvari
+ka;დღვანი;Dghvani
+ru;Згвани;Dghvani
+ka;დღვანა;Dghvana
+ru;Згвана;Dghvana
+ru;Дгнориса;Dghnorisa
+ka;დღნორისა;Dghnorisa
+ka;დგნალი;Dgnali
+ru;Дгнали;Dgnali
+ka;დევენაანთხევი;Devenaantkhevi
+ru;Девенаантхеви;Devenaantkhevi
+ka;დესი;Desi
+ru;Деси;Desi
+en;Derts'eli;Dertseli
+ru;Дерцели;Dertseli
+ka;დერცელი;Dertseli
+ka;დერჩი;Derchi
+ru;Дерчи;Derchi
+ka;ხახალაჯვარი;Khakhalajvari
+ru;Хахаладжвари;Khakhalajvari
+ka;დელტასუბანი;Delt’asubani
+ru;Делтасубани;Delt’asubani
+ka;დეხვირი;Dekhviri
+ru;Дехвири;Dekhviri
+ka;დეკანაშვილები;Dek’anashvilebi
+ru;Деканашвилеби;Dek’anashvilebi
+ka;დეისი;Deisi
+ru;Деиси;Deisi
+en;Dedop'listsqaro;Dedoplistsqaro
+ru;Дедоплис-Цкаро;Dedoplistsqaro
+ka;Dedop’listsqaro;Dedoplistsqaro
+en;Dedophlistkaro;Dedoplistsqaro
+ka;დედოფლისწყარო;Dedoplistsqaro
+ka;Dedoplists’q’aro;Dedoplistsqaro
+ka;დედისფერული;Dedisperuli
+ru;Дедисперули;Dedisperuli
+ka;დედალაური;Dedalauri
+ru;Дедалаури;Dedalauri
+ka;Davit’urni;Daviturni
+ka;დავითურნი;Daviturni
+ru;Давитурни;Daviturni
+ka;დავბერი;Davberi
+ru;Давбери;Davberi
+ka;Davat’i;Davati
+ka;დავათი;Davati
+ru;Давати;Davati
+ka;დათვისი;Datvisi
+ru;Датвиси;Datvisi
+ka;დაშბაში;Dashbashi
+ru;Дашбаши;Dashbashi
+en;Dart'lo;Dartlo
+ru;Дартло;Dartlo
+ka;Dart’lo;Dartlo
+ka;დართლო;Dartlo
+ka;დარკვეთი;Dark’veti
+ru;Дарквети;Dark’veti
+ka;დარყა;Darq’a
+ru;Дарка;Darq’a
+en;Darch'idzeebi;Darchidzeebi
+ru;Дарчидзееби;Darchidzeebi
+ka;დარჩიძეები;Darchidzeebi
+en;Darch'eli;Darcheli
+ru;Дарчели;Darcheli
+ka;დარჩელი;Darcheli
+ru;Дарбази;Darbazi
+ka;დარბაზი;Darbazi
+ka;პატარა დარბაზი;P’at’ara Darbazi
+ru;Патара Дарбази;P’at’ara Darbazi
+ka;დარაქოი;Darak’ovi
+ka;დარაკოვი;Darak’ovi
+ru;Даракови;Darak’ovi
+ka;დაფნარი;Dapnari
+ru;Дапнари;Dapnari
+ka;დანისპარაული;Danisp’arauli
+ru;Даниспараули;Danisp’arauli
+ka;დანდალო;Dandalo
+ru;Дандало;Dandalo
+ka;დამია;Damia
+ru;Дамиа;Damia
+ka;Damchkhreula;Damchkheula
+ka;დამჩხრეულა;Damchkheula
+ka;დამჩხეულა;Damchkheula
+ru;Дамчхреула;Damchkheula
+ka;დამალა;Damala
+ru;Дамала;Damala
+ka;დაღეთი;Dagheti
+ru;Дагети;Dagheti
+ka;დაგარახლო;Dagarakhlo
+ru;Дагарахло;Dagarakhlo
+ka;დადეში;Dadeshi
+ru;Дадеши;Dadeshi
+ru;Даблагоми;Dablagomi
+ka;დაბლაგომი;Dablagomi
+ka;Dabla Gomi;Dablagomi
+ka;დაბლა გომი;Dablagomi
+ka;დაბალი ეწერი;Dabali Ets’eri
+ru;Дабали Ецери;Dabali Ets’eri
+ka;დაბა;Daba
+ru;Даба;Daba
+ka;ჭვრინისი;Ch’vrinisi
+ru;Чвриниси;Ch’vrinisi
+ka;ჭვინთა;Ch’vinta
+ru;Чвинта;Ch’vinta
+ru;Жибиани;Chvibiani
+ka;ჩვიბიანი;Chvibiani
+ka;ჭველფი;Ch’velpi
+ru;Чвелпи;Ch’velpi
+ka;ჭველიერი;Ch’velieri
+ru;Чвелиери;Ch’velieri
+ka;ჭვებარი;Ch’vebari
+ru;Чвебари;Ch’vebari
+ka;ჭვანა;Ch’vana
+ru;Чвана;Ch’vana
+ka;ჩვაბიანი;Chvabiani
+ru;Чвабиани;Chvabiani
+ka;ჭურნალი;Ch’urnali
+ru;Чурнали;Ch’urnali
+ka;ჭურჭელაურები;Ch’urch’elaurebi
+ru;Чурчелауреби;Ch’urch’elaurebi
+ka;ჩუნეში;Chuneshi
+ru;Чунеши;Chuneshi
+ka;ჩუნჩხა;Chunchkha
+ru;Чунчха;Chunchkha
+en;Ch'umlaqi;Chumlaki
+ru;Чумлаки;Chumlaki
+ka;Chumlaq’i;Chumlaki
+ka;ჩუმლაყი;Chumlaki
+ka;ჩუკული;Chuk’uli
+ru;Чукули;Chuk’uli
+ka;ჩუბინიანთკარი;Chubiniantk’ari
+ru;Чубинианткари;Chubiniantk’ari
+en;Chrebalo;Ch’rebalo
+ru;Чребало;Ch’rebalo
+ka;ჭრებალო;Ch’rebalo
+ka;ჩრდილი;Chrdili
+ru;Чрдили;Chrdili
+ka;ჭორვილა;Ch’orvila
+ru;Чорвила;Ch’orvila
+ka;ჩორჩანა;Chorchana
+ru;Чорчана;Chorchana
+en;Choporti;Ch’op’ort’i
+ru;Чопорти;Ch’op’ort’i
+ka;Choporti;Ch’op’ort’i
+ka;ჭოპორტი;Ch’op’ort’i
+ka;ჭონტილი;Ch’ont’ili
+ru;Чонтили;Ch’ont’ili
+ka;ჩომეთი;Chometi
+ru;Чомети;Chometi
+ka;ჭოლევი;Ch’olevi
+ru;Чолеви;Ch’olevi
+ka;ჭოლაში;Ch’olashi
+ru;Чолаши;Ch’olashi
+ka;Ch’okhelni;Chokhelni
+ka;ჩოხელნი;Chokhelni
+ru;Чохелни;Chokhelni
+en;Ch'okhatauri;Chokhatauri
+ru;Чохатаури;Chokhatauri
+ka;Chokhat’auri;Chokhatauri
+ka;ჩოხატაური;Chokhatauri
+ka;Ch’och’khat’i;Chochkhati
+ka;ჩოჩხათი;Chochkhati
+ru;Чочхати;Chochkhati
+en;Chobiskhevi;Ch’obiskhevi
+ru;Чобисхеви;Ch’obiskhevi
+ka;ჭობისხევი;Ch’obiskhevi
+ka;ჭობარეთი;Ch’obareti
+ru;Чобарети;Ch’obareti
+ka;ჩობალაურნი;Chobalaurni
+ru;Чобалаурни;Chobalaurni
+ka;ჭყვიში;Ch’q’vishi
+ru;Чквиши;Ch’q’vishi
+ka;ჩქვალერი;Chkvaleri
+ru;Чквалери;Chkvaleri
+ka;ჩქუმი;Chkumi
+ru;Чкуми;Chkumi
+ka;ჭყოპიანი;Ch’q’op’iani
+ru;Чкопиани;Ch’q’op’iani
+ka;ჭყონაგორა;Ch’q’onagora
+ru;Чконагора;Ch’q’onagora
+ka;Ch’k’idianari;Ch’k’idanari
+ka;ჭკიდანარი;Ch’k’idanari
+ru;Чкиданари;Ch’k’idanari
+ka;ჩხუტელი;Chkhut’eli
+ru;Чхутели;Chkhut’eli
+ka;ჩხუბა;Chkhuba
+ru;Чхуба;Chkhuba
+en;Ch'khorotsqu;Chkhorotsqu
+ru;Чхороцку;Chkhorotsqu
+ka;Chkhorotsq’u;Chkhorotsqu
+ka;ჩხოროწყუ;Chkhorotsqu
+ka;Chkhorots’q’u;Chkhorotsqu
+ka;ჩხორია;Chkhoria
+ru;Чхориа;Chkhoria
+ka;ჩხერი;Chkheri
+ru;Чхери;Chkheri
+ka;ჩხენიში;Chkhenishi
+ru;Чхениши;Chkhenishi
+en;Ch'khari;Chkhari
+ru;Чхари;Chkhari
+ka;ჩხარი;Chkhari
+ka;Qvaduashi;Ch’k’aduashi
+ka;ჭკადუაში;Ch’k’aduashi
+ru;Чкадуаши;Ch’k’aduashi
+ka;ჩიტაურები;Chit’aurebi
+ru;Читауреби;Chit’aurebi
+ka;ჭითაწყარი;Ch’itats’q’ari
+ru;Читацхари;Ch’itats’q’ari
+ka;ჩითახევი;Chitakhevi
+ru;Читахеви;Chitakhevi
+ka;Ch’iriki;Chirik’i
+ka;ჩირიკი;Chirik’i
+ru;Чирики;Chirik’i
+ka;ჩირდილი;Chirdili
+ru;Чирдили;Chirdili
+en;Chiora;Ch’iora
+ru;Чиора;Ch’iora
+ka;ჭიორა;Ch’iora
+en;Ch'int'i;Chinti
+ru;Чинти;Chinti
+ka;ჩინთი;Chinti
+ka;ჭინკაძეები;Ch’ink’adzeebi
+ru;Чинкадзееби;Ch’ink’adzeebi
+ka;ჭინათი;Ch’inati
+ru;Чинати;Ch’inati
+ka;ჭიმღა;Ch’imgha
+ru;Чимга;Ch’imgha
+ka;ჭილურტი;Ch’ilurt’i
+ru;Чилурти;Ch’ilurt’i
+ka;ჭილოვანი;Ch’ilovani
+ru;Чиловани;Ch’ilovani
+ka;ჭილაანთკარი;Ch’ilaantk’ari
+ru;Чилаанткари;Ch’ilaantk’ari
+ka;ჩიქუნეთი;Chikuneti
+ru;Чикунети;Chikuneti
+ka;ჩიხორი;Chikhori
+ru;Чихори;Chikhori
+ka;ჭიხარულა;Ch’ikharula
+ru;Чихарула;Ch’ikharula
+ka;ჩიხარეში;Chikhareshi
+ru;Чихареши;Chikhareshi
+ka;ჩიხა;Chikha
+ru;Чиха;Chikha
+en;Ch'ivt'k'ilisa;Chivtkilisa
+ru;Чивткилиса;Chivtkilisa
+ka;ჩივთქილისა;Chivtkilisa
+ka;ჭიჩო;Ch’icho
+ru;Чичо;Ch’icho
+ka;ჭიბრევი;Ch’ibrevi
+ru;Чибреви;Ch’ibrevi
+ka;ჭიაურა;Ch’iaura
+ru;Чиаура;Ch’iaura
+en;Chiat'ura;Chiatura
+ru;Чиатура;Chiatura
+ka;ჭიათურა;Chiatura
+ka;ჭერი;Ch’eri
+ru;Чери;Ch’eri
+ka;ჭერემი;Cheremi
+ru;Череми;Cheremi
+ka;ჭელირი;Ch’eliri
+ru;Челири;Ch’eliri
+ka;ჭელიაღელე;Ch’eliaghele
+ru;Челиагеле;Ch’eliaghele
+ka;ჩეკურაანთგორი;Chek’uraantgori
+ru;Чекураантгори;Chek’uraantgori
+ka;ჭეჭლა;Ch’ech’la
+ru;Чечла;Ch’ech’la
+ka;ჭაშლეთი;Ch’ashleti
+ru;Чашлети;Ch’ashleti
+ka;ჭაშა;Ch’asha
+ru;Чаша;Ch’asha
+ka;ჭართალა;Ch’artala
+ru;Чартала;Ch’artala
+ka;ჭარნალი;Ch’arnali
+ru;Чарнали;Ch’arnali
+ka;ჩარექაული;Charekauli
+ru;Чарекаули;Charekauli
+en;Ch'argali;Chargali
+ru;Чаргали;Chargali
+ka;ჩარგალი;Chargali
+ka;ჩარდახი;Chardakhi
+ru;Чардахи;Chardakhi
+ka;ჩაპაევკა;K’avta
+ka;კავთა;K’avta
+ka;Chap’aevk’a;K’avta
+ru;Чапаевка;K’avta
+ka;ჩაო;Chao
+ru;Чао;Chao
+ka;Chaniet’i;Ch’anieti
+ka;ჭანიეთი;Ch’anieti
+ru;Чаниети;Ch’anieti
+ka;ჭანდრები;Ch’andrebi
+ru;Чандреби;Ch’andrebi
+ka;ჩანჩხალო;Chanchkhalo
+ru;Чанчхало;Chanchkhalo
+ka;ჩანჩეთი;Chancheti
+ru;Чанчети;Chancheti
+ka;ჭანჭათი;Ch’anch’ati
+ru;Чанчати;Ch’anch’ati
+ka;ჩანახჩი;Chanakhchi
+ru;Чанахчи;Chanakhchi
+ka;ჩანადირთკარი;Chanadirtk’ari
+ru;Чанадирткари;Chanadirtk’ari
+ka;ჭალოვანი;Ch’alovani
+ru;Чаловани;Ch’alovani
+ka;ჭალისთავი;Ch’alistavi
+ru;Чалистави;Ch’alistavi
+en;Chale;Ch’ale
+ru;Чале;Ch’ale
+ka;ჭალე;Ch’ale
+ka;Ch’alaubani;Chalaubani
+ka;ჩალაუბანი;Chalaubani
+ru;Чалаубани;Chalaubani
+ka;ჭალატყე;Ch’alat’q’e
+ru;Чалатке;Ch’alat’q’e
+ka;ჭალასთავი;Ch’alastavi
+ru;Чаластави;Ch’alastavi
+ka;ჩაქვისთავი;Chakvistavi
+ru;Чаквистави;Chakvistavi
+ka;ჭაქვინჯი;Ch’akvinji
+ru;Чаквинджи;Ch’akvinji
+en;Chakhat'i;Ch’akhati
+ru;Чахати;Ch’akhati
+ka;ჭახათი;Ch’akhati
+ka;ჭაგანი;Ch’agani
+ru;Чагани;Ch’agani
+ka;ჩადუნიანი;Chaduniani
+ru;Чадуниани;Chaduniani
+ka;Ch’adists’ikhe;Chadistsikhe
+ka;ჩადისციხე;Chadistsikhe
+ru;Чадисцихе;Chadistsikhe
+ka;ჩაჩხრიალა;Chachkhriala
+ru;Чачхриала;Chachkhriala
+ka;ჭაჭიეთი;Ch’ach’ieti
+ru;Чачиети;Ch’ach’ieti
+ka;ჭაჭარაქი;Ch’ach’araki
+ru;Чачараки;Ch’ach’araki
+ka;ჭაბურთა;Ch’aburta
+ru;Чабурта;Ch’aburta
+ka;Chabukiani;Ch’abuk’iani
+ka;ჭაბუკიანი;Ch’abuk’iani
+ru;Чабукиани;Ch’abuk’iani
+ka;ჩაბინაანი;Chabinaani
+ru;Чабинаани;Chabinaani
+en;Ch'abano;Chabano
+ru;Чабано;Chabano
+ka;ჩაბანო;Chabano
+ka;ბჟოლიეთი;Bzholieti
+ru;Бжолиети;Bzholieti
+ka;ბუზავეთი;Buzaveti
+ru;Бузавети;Buzaveti
+ka;ბუეთი;Bueti
+ru;Буети;Bueti
+ka;ბუთურაული;Buturauli
+ru;Бутураули;Buturauli
+ka;ბუშეტი;Bushet’i
+ru;Бушети;Bushet’i
+en;Bursachiri;Bursach’iri
+ru;Бурсачили;Bursach’iri
+ka;ბურსაჭირი;Bursach’iri
+ka;ბურნათი;Burnati
+ru;Бурнати;Burnati
+ka;ბურნაშეთი;Burnasheti
+ru;Бурнашети;Burnasheti
+ka;ბურიანი;Buriani
+ru;Буриани;Buriani
+ka;ბუნიკაური;Bunik’auri
+ru;Буникаури;Bunik’auri
+ka;ბულბულისციხე;Bulbulistsikhe
+ru;Булбулисцихе;Bulbulistsikhe
+en;Bulach'auri;Bulachauri
+ru;Булачаури;Bulachauri
+ka;ბულაჩაური;Bulachauri
+ka;ბუკნარი;Buk’nari
+ru;Букнари;Buk’nari
+ka;ბუღნარა;Bughnara
+ru;Бугнара;Bughnara
+ka;ბუგეული;Bugeuli
+ru;Бугеули;Bugeuli
+ka;ბუღაშენი;Bughasheni
+ru;Бугашени;Bughasheni
+ka;ბუღაანი;Bughaani
+ru;Бугаани;Bughaani
+ka;ბუჩუკურთა;Buchuk’urta
+ru;Бучукурта;Buchuk’urta
+ka;Buch’aani;Buchaani
+ka;ბუჩაანი;Buchaani
+ru;Бучаани;Buchaani
+en;Bret'i;Breti
+ru;Брети;Breti
+ka;ბრეთი;Breti
+ka;ბრეძა;Bredza
+ru;Бредза;Bredza
+ka;ბოჟამი;Bozhami
+ru;Божами;Bozhami
+ka;ბოსტანა;Bost’ana
+ru;Бостана;Bost’ana
+ka;ბოსლები;Boslebi
+ru;Бослеби;Boslebi
+ka;ბოსელი;Boseli
+ru;Босели;Boseli
+ka;ბორცო;Bortso
+ru;Борцо;Bortso
+es;Bordshomi;Borjomi
+pl;Bordżomi;Borjomi
+de;Bordschomi;Borjomi
+bg;Боржоми;Borjomi
+et;Bordžomi;Borjomi
+fi;Bordžomi;Borjomi
+fr;Bordjomi;Borjomi
+ka;ბორჯომი;Borjomi
+ru;Боржоми;Borjomi
+sv;Bordzjomi;Borjomi
+tr;Borcomi;Borjomi
+nl;Bordzjomi;Borjomi
+cs;Bordžomi;Borjomi
+da;Bordzjomi;Borjomi
+lt;Boržomis;Borjomi
+no;Bordzjomi;Borjomi
+sr;Боржоми;Borjomi
+uk;Боржомі;Borjomi
+en;Borit'i;Boriti
+ru;Борити;Boriti
+ka;ბორითი;Boriti
+ka;ბორი;Bori
+ru;Бори;Bori
+ka;ბორბალო;Borbalo
+ru;Борбало;Borbalo
+ka;ბოლოკიანი;Bolok’iani
+ru;Болокиани;Bolok’iani
+ru;Болниси;Bolnisi
+de;Bolnissi;Bolnisi
+ka;ბოლნისი;Bolnisi
+fr;Bolnissi;Bolnisi
+lt;Bolnisis;Bolnisi
+sr;Болниси;Bolnisi
+uk;Болнісі;Bolnisi
+ka;ბოყვა;Boq’va
+ru;Боква;Boq’va
+ka;ბოკონი;Bok’oni
+ru;Бокони;Bok’oni
+ka;ბოგვი;Bogvi
+ru;Богви;Bogvi
+ka;Bogremi;Bogreshi
+ka;ბოგრეში;Bogreshi
+ru;Богреши;Bogreshi
+ka;ბოგილი;Bogili
+ru;Богили;Bogili
+ka;ბოგა;Boga
+ru;Бога;Boga
+ka;ბოდორნა;Bodorna
+ru;Бодорна;Bodorna
+ka;ბოდბისხევი;Bodbiskhevi
+ru;Бодбисхеви;Bodbiskhevi
+ka;ბოდავი;Bodavi
+ru;Бодави;Bodavi
+ka;ბოდახევა;Bodakheva
+ru;Бодахева;Bodakheva
+en;Bochorma;Boch’orma
+ru;Бочорма;Boch’orma
+ka;ბოჭორმა;Boch’orma
+ka;ბობოყვათი;Boboq’vati
+ru;Бобоквати;Boboq’vati
+ka;ბობნევი;Bobnevi
+ru;Бобневи;Bobnevi
+ka;ბნავისი;Bnavisi
+ru;Бнависи;Bnavisi
+ka;ბლო;Blo
+ru;Бло;Blo
+en;Bitsmendi;Bits’mendi
+ru;Бицменди;Bits’mendi
+ka;Bitsmendi;Bits’mendi
+ka;ბიწმენდი;Bits’mendi
+ka;ბისო;Biso
+ru;Бисо;Biso
+ka;ბირლიკი;Birlik’i
+ru;Бирлики;Birlik’i
+en;Birkiani;Birk’iani
+ru;Биркиани;Birk’iani
+ka;Birkiani;Birk’iani
+ka;ბირკიანი;Birk’iani
+ka;ბიისი;Biisi
+ru;Бииси;Biisi
+ka;ბიღა;Bigha
+ru;Бига;Bigha
+ka;ბიჯნისი;Bijnisi
+ru;Биджниси;Bijnisi
+ka;ბიჩნიგაური;Bichnigauri
+ru;Бичнигаури;Bichnigauri
+ka;ბია;Bia
+ru;Биа;Bia
+ka;ბეჟათუბანი;Bezhatubani
+ru;Бежатубани;Bezhatubani
+ru;Бежано;Bezhano
+ka;ბეჟანო;Bezhano
+ka;ბევრეთი;Bevreti
+ru;Беврети;Bevreti
+ka;ბეწენწურები;Bets’ents’urebi
+ru;Беценцуреби;Bets’ents’urebi
+ka;ბეთლევი;Betlevi
+ru;Бетлеви;Betlevi
+ka;ბეთლემი;Betlemi
+ru;Бетлеми;Betlemi
+ka;ბეტისჩრდილი;Bet’ischrdili
+ru;Бетисчрдили;Bet’ischrdili
+ka;ბესიაური;Besiauri
+ru;Бесиаури;Besiauri
+en;Besht'asheni;Beshtasheni
+ru;Бешташени;Beshtasheni
+ka;ბეშთაშენი;Beshtasheni
+el;Μπεστασένι;Beshtasheni
+pl;Besztaszeni;Beshtasheni
+nl;Besjtasjeni;Beshtasheni
+ka;ბესელაშვილები;Beselashvilebi
+ru;Беселашвилеби;Beselashvilebi
+ka;Berbuki;Berbuk’i
+ka;ბერბუკი;Berbuk’i
+ru;Бербуки;Berbuk’i
+ka;ბენთქოულა;Bentkoula
+ru;Бенткоула;Bentkoula
+ka;Beniat’begoni;Benian-Begoni
+ka;ბენიან-ბეგონი;Benian-Begoni
+ru;Бениан-Бегони;Benian-Begoni
+ka;ბენარა;Benara
+ru;Бенара;Benara
+ka;ბებურიანი;Beburiani
+ru;Бебуриани;Beburiani
+ka;ბერთაკარი;Bertak’ari
+ru;Бертакари;Bertak’ari
+ka;დიდი ბეკამი;Didi Bek’ami
+ru;Диди Беками;Didi Bek’ami
+ka;ბეითარაფჩი;Beitarabchi
+ka;ბეითარაბჩი;Beitarabchi
+ru;Беитарапчи;Beitarabchi
+ka;ბეღლევი;Beghlevi
+ru;Беглеви;Beghlevi
+ka;ბედონი;Bedoni
+ru;Бедони;Bedoni
+ka;ბებნისი;Bebnisi
+ru;Бебниси;Bebnisi
+ka;ბაითალო;Baitalo
+ru;Баитало;Baitalo
+ka;ბავრა;Bavra
+ru;Бавра;Bavra
+ru;Бавари;Bavari
+ka;ბავარი;Bavari
+es;Batum;Batumi
+bg;Батуми;Batumi
+ca;Batum;Batumi
+et;Bathumi;Batumi
+fr;Batoumi;Batumi
+ka;ბათუმი;Batumi
+nl;Batoemi;Batumi
+ru;Батуми;Batumi
+tr;Batum;Batumi
+lt;Batumis;Batumi
+en;Bat'umi;Batumi
+mk;Батуми;Batumi
+ab;Баҭым;Batumi
+sr;Батуми;Batumi
+el;Μπατούμι;Batumi
+be;Батумі;Batumi
+uk;Батумі;Batumi
+sgs;Batomis;Batumi
+en;Bats'aligo;Batsaligo
+ru;Бацалиго;Batsaligo
+ka;ბაცალიგო;Batsaligo
+ka;ბასილეთი;Basileti
+ru;Басилети;Basileti
+ka;ბარში;Barshi
+ru;Барши;Barshi
+ka;ბარნაბიანთკარი;Barnabiantk’ari
+ru;Барнабианткари;Barnabiantk’ari
+ru;Барисахо;Barisakho
+ka;ბარისახო;Barisakho
+ka;ბარეული;Bareuli
+ru;Бареули;Bareuli
+ka;ბარდუბანი;Bardubani
+ru;Бардубани;Bardubani
+ka;ბარდნალა;Bardnala
+ru;Барднала;Bardnala
+ka;ბარათაული;Baratauli
+ru;Баратаули;Baratauli
+en;Baralet'i;Baraleti
+ru;Баралети;Baraleti
+ka;ბარალეთი;Baraleti
+ka;ბანცურთკარი;Bantsurtk’ari
+ru;Банцурткари;Bantsurtk’ari
+ka;Bants’uri;Bantsuri
+ka;ბანცური;Bantsuri
+ru;Банцури;Bantsuri
+ka;ბანოჯა;Banoja
+ru;Баноджа;Banoja
+ru;Бандза;Bandza
+ka;ბანძა;Bandza
+ka;ბალთა;Balta
+ru;Балта;Balta
+ka;ბალხო;Balkho
+ru;Балхо;Balkho
+ka;ბალიჭი;Balich’i
+ru;Баличи;Balich’i
+ka;ბალღოჯიანი;Balghojiani
+ru;Балгоджиани;Balghojiani
+ka;ბალებისხევი;Balebiskhevi
+ru;Балебисхеви;Balebiskhevi
+ka;ბალანთა;Balanta
+ru;Баланта;Balanta
+ka;ბოლაჯური;Bolajuri
+ru;Боладжури;Bolajuri
+ka;ბალაძეები;Baladzeebi
+ru;Баладзееби;Baladzeebi
+en;Bakurts'ikhe;Bak’urtsikhe
+ru;Бакурцихе;Bak’urtsikhe
+ka;Bakurts’ikhe;Bak’urtsikhe
+ka;ბაკურციხე;Bak’urtsikhe
+ka;ბაკურხევი;Bak’urkhevi
+ru;Бакурхеви;Bak’urkhevi
+ru;Бакуриани;Bakuriani
+ka;ბაკურიანი;Bakuriani
+ka;Bak’uriani;Bakuriani
+ka;ბაკო;Bak’o
+ru;Бако;Bak’o
+ka;ბაყილოვანი;Baq’ilovani
+ru;Бакиловани;Baq’ilovani
+ka;ბოხვაური;Bokhvauri
+ru;Бохваури;Bokhvauri
+ka;ბახიოთი;Bakhioti
+ru;Бахиоти;Bakhioti
+ka;ბახჩალარი;Bakhchalari
+ru;Бахчалари;Bakhchalari
+ka;ბახანი;Bakhani
+ru;Бахани;Bakhani
+ka;ბაისუბანი;Baisubani
+ru;Баисубани;Baisubani
+ka;Bailet’i;Baileti
+ka;ბაილეთი;Baileti
+ru;Баилети;Baileti
+ka;ბაიდარი;Baidari
+ru;Баидари;Baidari
+ka;ბაგინეთი;Bagineti
+ru;Багинети;Bagineti
+en;Bagdat'i;Baghdati
+ru;Багдати;Baghdati
+ka;ბაღდადი;Baghdadi
+ru;Багдади;Baghdadi
+ka;ბაგა;Baga
+ru;Бага;Baga
+ka;ბაჯითი;Bajiti
+ru;Баджити;Bajiti
+ka;ბაჯიხევი;Bajikhevi
+ru;Баджихеви;Bajikhevi
+ka;ბაჯი;Baji
+ru;Баджи;Baji
+ka;ბაბოთი;Baboti
+ru;Баботи;Baboti
+ka;ბაბი;Babi
+ru;Баби;Babi
+ka;ბაბანეური;Babaneuri
+ru;Бабанеури;Babaneuri
+ka;აზმანა;Azmana
+ru;Азмана;Azmana
+ka;აზავრეთი;Azavreti
+ru;Азаврети;Azavreti
+ka;აიაზმი;Aiazmi
+ka;Ayazmi;Aiazmi
+ru;Аиазми;Aiazmi
+ru;Авранло;Avranlo
+ka;ავრანლო;Avranlo
+ru;Авневи;Avnevi
+ka;ავნევი;Avnevi
+pl;Awnewi;Avnevi
+ka;ავლევი;Avlevi
+ru;Авлеви;Avlevi
+ka;ავენისი;Avenisi
+ru;Авениси;Avenisi
+ka;აწყვიტა;Ats’q’vit’a
+ru;Ацквита;Ats’q’vit’a
+ka;აცანა;Atsana
+ru;Ацана;Atsana
+ka;ატოცი;At’otsi
+ru;Атоци;At’otsi
+ka;ათნოხი;Atnokhi
+ru;Атнохи;Atnokhi
+en;Asuret'i;Asureti
+ru;Асурети;Asureti
+ka;ასურეთი;Asureti
+ru;Аспиндза;Aspindza
+ka;ასპინძა;Aspindza
+ka;Asp’indza;Aspindza
+ka;მწყნეთი;Mts’q’neti
+ru;Мцхнети;Mts’q’neti
+ka;ასკილაური;Ask’ilauri
+ru;Аскилаури;Ask’ilauri
+ka;ასკანა;Ask’ana
+ru;Аскана;Ask’ana
+en;Ashkala;Ashk’ala
+ru;Ашкала;Ashk’ala
+ka;აშკალა;Ashk’ala
+ka;არზნე;Arzne
+ru;Арзне;Arzne
+en;Arakhlo;Nakhiduri
+ru;Арухло;Nakhiduri
+ka;ნახიდური;Nakhiduri
+ka;არცხელი;Artskheli
+ru;Арцхели;Artskheli
+ka;Art’khmo;Artkhmo
+ka;ართხმო;Artkhmo
+ru;Артхмо;Artkhmo
+en;Art'ana;Artana
+ru;Артана;Artana
+ka;Art’ana;Artana
+ka;ართანა;Artana
+ka;არშა;Arsha
+ru;Арша;Arsha
+ka;არაფლო;Araplo
+ru;Арапло;Araplo
+ka;არხოტი;Arkhot’i
+ru;Архоти;Arkhot’i
+en;Arkhiloskalo;Arkhilosk’alo
+ru;Архилоскало;Arkhilosk’alo
+ka;არხილოსკალო;Arkhilosk’alo
+ka;არგვეთი;Argveti
+ru;Аргвети;Argveti
+ka;არგვეთა;Argveta
+ru;Аргвета;Argveta
+ka;არღუნი;Arghuni
+ru;Аргуни;Arghuni
+ka;არგოხი;Argokhi
+ru;Аргохи;Argokhi
+ka;არჯევან-სარვანი;Arjevan-Sarvani
+ru;Арджеван-Сарвани;Arjevan-Sarvani
+ka;არდოტი;Ardot’i
+ru;Ардоти;Ardot’i
+ka;არდისუბანი;Ardisubani
+ru;Ардисубани;Ardisubani
+ka;არჩეული;Archeuli
+ru;Арчеули;Archeuli
+ka;არბოეთი;Arboeti
+ru;Арбоети;Arboeti
+en;Arboshiki;Arboshik’i
+ru;Арбошики;Arboshik’i
+ka;Arboshiki;Arboshik’i
+ka;არბოშიკი;Arboshik’i
+ka;არბაჩხანი;Arbachkhani
+ru;Арбачхани;Arbachkhani
+ka;არანისი;Aranisi
+ru;Араниси;Aranisi
+ka;არალი;Arali
+ru;Арали;Arali
+ka;Arakhvet’i;Arakhveti
+ka;არახვეთი;Arakhveti
+ru;Арахвети;Arakhveti
+ka;ძეძვნარიანი;Dzedzvnariani
+ru;Дзедзвнариани;Dzedzvnariani
+ru;Арагва;Aragva
+ka;არაგვა;Aragva
+ka;არადეთი;Aradeti
+ru;Арадети;Aradeti
+ka;აფშო;Apsho
+ru;Апшо;Apsho
+ka;აფნია;Apnia
+ru;Апниа;Apnia
+ka;აფიეთი;Apieti
+ru;Апиети;Apieti
+en;Ap'eni;Apeni
+ru;Апени;Apeni
+ka;Ap’eni;Apeni
+ka;აფენი;Apeni
+ka;ანტორია;Ant’oria
+ru;Анториа;Ant’oria
+ka;ანთოკი;Antok’i
+ru;Антоки;Antok’i
+ka;ქრისტესი;Krist’esi
+ru;Кристеси;Krist’esi
+ka;ანი;Ani
+ru;Ани;Ani
+ka;ანდრიაწმინდა;Andriats’minda
+ru;Андриацминда;Andriats’minda
+ka;ანდეზიტი;Andezit’i
+ru;Андезити;Andezit’i
+en;Andak'i;Andaki
+ru;Андаки;Andaki
+ka;ანდაქი;Andaki
+ka;ანდა;Anda
+ru;Анда;Anda
+ka;ანასეული;Anaseuli
+ru;Анасеули;Anaseuli
+ru;Ананури;Ananuri
+ka;ანანური;Ananuri
+ru;Анаклиа;Anaklia
+ka;Anak’lia;Anaklia
+ka;ანაკლია;Anaklia
+ru;Анага;Anaga
+ka;ანაგა;Anaga
+ka;ამსაისი;Amsaisi
+ru;Амсаиси;Amsaisi
+ka;ამლევი;Amlevi
+ru;Амлеви;Amlevi
+ka;ამხერი;Amkheri
+ru;Амхери;Amkheri
+ka;ზემო ამირნი;Zemo Amirni
+ru;Земо Амирни;Zemo Amirni
+ka;ამღა;Amgha
+ru;Амга;Amgha
+ru;Амбролаури;Ambrolauri
+nl;Ambrolaoeri;Ambrolauri
+ab;Амбролаур;Ambrolauri
+be;Амбралауры;Ambrolauri
+bg;Амбролаури;Ambrolauri
+ka;ამბროლაური;Ambrolauri
+lt;Ambrolauris;Ambrolauri
+sr;Амбролаури;Ambrolauri
+uk;Амбролаурі;Ambrolauri
+ka;ამბაროვკა;Ambarovk’a
+ru;Амбаровка;Ambarovk’a
+ru;Амамло;Amamlo
+ka;ამამლო;Amamlo
+ka;ამაღლება;Amaghleba
+ru;Амаглеба;Amaghleba
+ka;ალპანა;Alp’ana
+ru;Алпана;Alp’ana
+ka;ალოტი;Alot’i
+ru;Алоти;Alot’i
+ka;ალმატი;Almat’i
+ru;Алмати;Almat’i
+ka;ალმასიანი;Almasiani
+ru;Алмасиани;Almasiani
+ka;ალიონი;Alioni
+ru;Алиони;Alioni
+ru;Али;Ali
+ka;ალი;Ali
+ru;Алексеевка;Alekseevk’a
+ka;ალექსეევკა;Alekseevk’a
+ka;ალექსანდრესწყარო;Aleksandrests’q’aro
+ru;Александресцхаро;Aleksandrests’q’aro
+ka;ალავარი;Alavari
+ru;Алавари;Alavari
+en;Alastani;Alast’ani
+ru;Аластани;Alast’ani
+ka;ალასტანი;Alast’ani
+ka;ალამბარი;Alambari
+ru;Аламбари;Alambari
+ka;ალაჭანი;Alach’ani
+ru;Алачани;Alach’ani
+ka;აქუცა;Akutsa
+ru;Акуца;Akutsa
+ka;აკუშო;Ak’usho
+ru;Акушо;Ak’usho
+en;Akura;Ak’ura
+ru;Акура;Ak’ura
+ka;აკურა;Ak’ura
+ka;აყნელი;Aq’neli
+ru;Акнели;Aq’neli
+en;Akhut'i;Akhuti
+ru;Ахути;Akhuti
+ka;ახუთი;Akhuti
+ka;ახშნისველები;Akhshnis Velebi
+ka;ახშნის ველები;Akhshnis Velebi
+ru;Ахшнисвелеби;Akhshnis Velebi
+ru;Ахо;Akho
+ka;ახო;Akho
+ru;Ахмета;Akhmeta
+ka;Akhmet’a;Akhmeta
+ka;ახმეტა;Akhmeta
+ka;ახიელი;Akhieli
+ru;Ахиели;Akhieli
+ka;ახატანი;Akhat’ani
+ru;Ахатани;Akhat’ani
+ka;ახაშენი;Akhasheni
+ru;Ахашени;Akhasheni
+en;Akhalts'ikhe;Akhaltsikhe
+ru;Ахалцихе;Akhaltsikhe
+ka;ახალციხე;Akhaltsikhe
+es;Ajaltsije;Akhaltsikhe
+nl;Achaltsiche;Akhaltsikhe
+be;Ахалцыхэ;Akhaltsikhe
+bg;Ахалцихе;Akhaltsikhe
+cs;Achalciche;Akhaltsikhe
+et;Ahhaltsihhe;Akhaltsikhe
+lt;Achalcichė;Akhaltsikhe
+ro;Ahalțihe;Akhaltsikhe
+sr;Ахалцихе;Akhaltsikhe
+tr;Ahıska;Akhaltsikhe
+uk;Ахалціхе;Akhaltsikhe
+pl;Achalciche;Akhaltsikhe
+sv;Achaltsiche;Akhaltsikhe
+hr;Ahalcihe;Akhaltsikhe
+ka;ახალი ხიბულა;Akhali Khibula
+ka;ახალხიბულა;Akhali Khibula
+ru;Ахали Хибула;Akhali Khibula
+en;Akhalk'alak'i;Akhalkalaki
+ru;Ахалкалаки;Akhalkalaki
+ka;ახალკახათი;Akhalk’akhati
+ru;Ахалкахати;Akhalk’akhati
+ka;ახალი თერჯოლა;Akhali Terjola
+ru;Ахали Терджола;Akhali Terjola
+ru;Ахали-Самгори;Akhali Samgori
+ka;ახალი სამგორი;Akhali Samgori
+ka;ახალი ოსები;Akhali Osebi
+ru;Ахали Осеби;Akhali Osebi
+ka;ახალი ნიჩბისი;Akhali Nichbisi
+ru;Ахали Ничбиси;Akhali Nichbisi
+ka;ახალი ბურღული;Akhali Burghuli
+ru;Ахали Бургули;Akhali Burghuli
+ka;ახალბედისეული;Akhalbediseuli
+ru;Ахалбедисеули;Akhalbediseuli
+ka;ახა;Akha
+ru;Аха;Akha
+ka;აკაურთა;Ak’aurta
+ru;Акаурта;Ak’aurta
+ru;Агаиани;Aghaiani
+ka;აღაიანი;Aghaiani
+uk;Агаіані;Aghaiani
+ka;აგარები;Agarebi
+ru;Агареби;Agarebi
+ru;Агара;Agara
+ka;აგარა;Agara
+ka;აგანა;Agana
+ru;Агана;Agana
+ka;Ach’arisaghmarti;Ach’aris Aghmarti
+ka;აჭარისაღმართი;Ach’aris Aghmarti
+ka;აჭარის აღმართი;Ach’aris Aghmarti
+ru;Ачарисагмарти;Ach’aris Aghmarti
+ka;ადლია;Adlia
+ru;Адлиа;Adlia
+ka;ადიში;Adishi
+ru;Адиши;Adishi
+ru;Адигени;Adigeni
+ka;ადიგენი;Adigeni
+ru;Горгадзееби;Adadzeebi
+ka;ადაძეები;Adadzeebi
+ka;Ach’khoti;Achkhot’i
+ka;აჩხოტი;Achkhot’i
+ru;Ачхоти;Achkhot’i
+ka;აჭი;Ach’i
+ru;Ачи;Ach’i
+ka;აბული;Abuli
+ru;Абули;Abuli
+ru;Абиси;Abisi
+ka;აბისი;Abisi
+ka;აბელიანი;Abeliani
+ru;Абелиани;Abeliani
+ka;აბედათი;Abedati
+ru;Абедати;Abedati
+ka;ჯავშანიანი;Javshaniani
+ru;Джавшаниани;Javshaniani
+ru;Абаша;Abasha
+ka;აბაშა;Abasha
+en;Abacha;Abasha
+ka;აბარი;Abari
+bg;Абари;Abari
+ru;Абари;Abari
+ka;აბანოეთი;Abanoeti
+bg;Абаноети;Abanoeti
+nl;Abanoyeti;Abanoeti
+ru;Абаноети;Abanoeti
+en;Tsqaltsminda;Ts’q’alts’minda
+ru;Цкалцминда;Ts’q’alts’minda
+ka;Tsqaltsminda;Ts’q’alts’minda
+ka;წყალწმინდა;Ts’q’alts’minda
+ka;ინგირი;Ingiri
+ru;Ингири;Ingiri
+ka;კორცხელი;K’ortskheli
+ru;Корцхели;K’ortskheli
+ka;აღმამედლო;Aghmamedlo
+ru;Агмамедло;Aghmamedlo
+en;K'vakhvreli;Kvakhvreli
+ru;Квахврели;Kvakhvreli
+ka;ქვახვრელი;Kvakhvreli
+ka;ხრამჰესი;Khramhesi
+ru;Храмхеси;Khramhesi
+ru;Бедиани;Bediani
+ka;ბედიანი;Bediani
+bg;Бедиани;Bediani
+el;Μπεντιάνι;Bediani
+uk;Бедіані;Bediani
+nl;Bedjani;Bediani
+ka;აბრამეთი;Abrameti
+ru;Абрамети;Abrameti
+ka;ჩხიკვთა;Chkhik’vta
+ru;Чхиквта;Chkhik’vta
+ka;ჭივჭავი;Ch’ivch’avi
+ru;Чивчави;Ch’ivch’avi
+ka;ბაზაქლო;Bazaklo
+ru;Базакло;Bazaklo
+ka;ტნუსი;T’nusi
+ru;Тнуси;T’nusi
+ka;ნოჯიკეთი;Nojik’eti
+ru;Ноджикети;Nojik’eti
+ka;ხოფცა;Khoptsa
+ru;Хопца;Khoptsa
+ru;Саирхе;Sairkhe
+ka;საირხე;Sairkhe
+ka;სარქველეთუბანი;Sarkveletubani
+ru;Сарквелетубани;Sarkveletubani
+ka;ჩაჟაში;Chazhashi
+ru;Чажаши;Chazhashi
+ka;ლამფალაში;Lampalashi
+ru;Лампалаши;Lampalashi
+ka;ბზიკურთკარი;Bzik’urtk’ari
+ru;Бзикурткари;Bzik’urtk’ari
+ka;წყალთაშუა;Ts’q’altashua
+ru;Цхалташуа;Ts’q’altashua
+ka;წაბლარასხევი;Ts’ablaraskhevi
+ru;Цабларасхеви;Ts’ablaraskhevi
+ka;კეთილაური;K’etilauri
+ru;Кетилаури;K’etilauri
+ka;ცივწყალა;Tsivts’q’ala
+ru;Цивцхала;Tsivts’q’ala
+ka;ტონჩა;T’oncha
+ru;Тонча;T’oncha
+ka;ბინდაურთა;Bindaurta
+ru;Биндаурта;Bindaurta
+ka;ქობულო;Kobulo
+ru;Кобуло;Kobulo
+ka;ხევშა;Khevsha
+ru;Хевша;Khevsha
+ka;ჟოჟონი;Zhozhoni
+ru;Жожони;Zhozhoni
+ka;ხიბლარი;Khiblari
+ru;Хиблари;Khiblari
+ka;ლექსურა;Leksura
+ru;Лексура;Leksura
+ka;ქულბაქი;Kulbaki
+ru;Кулбаки;Kulbaki
+ka;ოფიტარა;Opit’ara
+ru;Опитара;Opit’ara
+ka;მუხიანი;Mukhiani
+ru;Мухиани;Mukhiani
+ka;საიმედო;Saimedo
+ru;Саимедо;Saimedo
+ka;ხალდე;Khalde
+ru;Халде;Khalde
+ka;ორპირი;Orp’iri
+ru;Орпири;Orp’iri
+en;Satsire;Sats’ire
+ru;Сацире;Sats’ire
+ka;საწირე;Sats’ire
+ka;უკანხადუ;Uk’ankhadu
+ru;Уканхаду;Uk’ankhadu
+ka;ატაბე;At’abe
+ru;Атабе;At’abe
+ka;ღელისვაკე;Ghelisvak’e
+ru;Гелисваке;Ghelisvak’e
+ka;როშკა;Roshk’a
+ru;Рошка;Roshk’a
+ka;იფნარი;Ipnari
+ab;Аџьрҩара;Ipnari
+ru;Ипнари;Ipnari
+ka;ნიგვზიანი;Nigvziani
+ru;Нигвзиани;Nigvziani
+en;Barkashi;Barjashi
+ru;Барджаши;Barjashi
+ka;ბარჯაში;Barjashi
+ka;ლესემა;Lesema
+ru;Лесема;Lesema
+ka;მანანაური;Mananauri
+ru;Мананаури;Mananauri
+ka;ნანარი;Nanari
+ru;Нанари;Nanari
+ka;გვიმბრალა;Gvimbrala
+ru;Гвимбрала;Gvimbrala
+ka;იმერხევი;Imerkhevi
+ru;Имерхеви;Imerkhevi
+ka;ულურია;Uluria
+ru;Улуриа;Uluria
+ka;ქვედა ცაგერი;Kveda Tsageri
+ru;Кведа Цагери;Kveda Tsageri
+ka;მრავალძალი;Mravaldzali
+ru;Мравалдзали;Mravaldzali
+ru;Цхалтубо;Tsqaltubo
+ka;Ts’q’alt’ubo;Tsqaltubo
+ka;წყალტუბო;Tsqaltubo
+ka;ტყლაპივაკე;T’q’lap’i-Vak’e
+ka;ტყლაპი-ვაკე;T’q’lap’i-Vak’e
+ru;Тклапиваке;T’q’lap’i-Vak’e
+ka;ჭაგან-ჭყვიში;Ch’agan-Ch’q’vishi
+ru;Чаган-Чквиши;Ch’agan-Ch’q’vishi
+ka;სალომინაო;Salominao
+ru;Саломинао;Salominao
+ka;ტელმანი;T’elmani
+ru;Телмани;T’elmani
+ka;ნარუჯა;Naruja
+sv;Narudzja;Naruja
+ru;Наруджа;Naruja
+es;Naruya;Naruja
+uk;Наруджа;Naruja
+pl;Narudża;Naruja
+nl;Naroedzja;Naruja
+ka;სახალვაშო;Sakhalvasho
+ru;Сахалвашо;Sakhalvasho
+ka;ინაშარიძეები;Inasharidzeebi
+ru;Инашаридзееби;Inasharidzeebi
+ka;K’olit’auri;K’olot’auri
+ka;კოლოტაური;K’olot’auri
+ru;Колотаури;K’olot’auri
+ka;გოდგაძეები;Godgadzeebi
+ru;Годгадзееби;Godgadzeebi
+ka;ჭელა;Ch’ela
+ru;Чела;Ch’ela
+ka;კორტანეთი;K’ort’aneti
+ru;Кортанети;K’ort’aneti
+ru;Ангиса;Angisa
+ka;ანგისა;Angisa
+ka;მეჯინისწყალი;Mejinists’q’ali
+ru;Меджинисцкали;Mejinists’q’ali
+ka;შარაბიძეები;Sharabidzeebi
+ru;Шарабидзееби;Sharabidzeebi
+ka;თელიანი;Teliani
+ru;Телиани;Teliani
+ka;ვაჩნაძიანი;Vachnadziani
+ru;Вачнадзиани;Vachnadziani
+en;Kart'ubani;K’artubani
+ru;Карсубани;K’artubani
+ka;Kart’ubani;K’artubani
+ka;კართუბანი;K’artubani
+ka;Krtsanisi;K’rts’anisi
+ka;კრწანისი;K’rts’anisi
+ru;Крцаниси;K’rts’anisi
+ka;ვერხვიანი;Verkhviani
+ru;Верхвиани;Verkhviani
+ka;ბადიაური;Badiauri
+ru;Бадиаури;Badiauri
+ka;Qaraghaji;Q’araghaji
+ka;ყარაღაჯი;Q’araghaji
+ru;Карагаджи;Q’araghaji
+ru;Вардзиа;Vardzia
+ka;ვარძია;Vardzia
+ka;მაღრანი;Maghrani
+ru;Маграни;Maghrani
+ka;Ts’ikhiani;Tsikhiani
+ka;ციხიანი;Tsikhiani
+ru;Цихиани;Tsikhiani
+ka;იუხო;Iukho
+ru;Иухо;Iukho
+ka;ჩოხი;Chokhi
+ru;Чохи;Chokhi
+ka;მეჯილაურნი;Mejilaurni
+ru;Меджилаурни;Mejilaurni
+ka;საქერე;Sakere
+ru;Сакере;Sakere
+ka;ხილიანა;Khiliana
+ru;Хилиана;Khiliana
+ka;აღდგომლიანთკარი;Aghdgomliantk’ari
+ru;Агдгомлианткари;Aghdgomliantk’ari
+ka;მელიასხევი;Meliaskhevi
+ru;Мелиасхеви;Meliaskhevi
+ka;სააკაძე;Saak’adze
+ru;Саакадзе;Saak’adze
+ka;მთისკალთა;Mtisk’alta
+ru;Мтискалта;Mtisk’alta
+ka;თოთიაურნი;Totiaurni
+ru;Тотиаурни;Totiaurni
+ka;კორშა;K’orsha
+ru;Корша;K’orsha
+ka;შეერთება;Sheerteba
+ru;Шеертеба;Sheerteba
+ka;თხილისწყარო;Tkhilists’q’aro
+ru;Тхилисцхаро;Tkhilists’q’aro
+ka;ახალი კადოეთი;Akhali K’adoeti
+ru;Ахали Кадоети;Akhali K’adoeti
+ka;უნდილაანთკარი;Undilaantk’ari
+ru;Ундилаанткари;Undilaantk’ari
+ka;ქედელობა;Kedeloba
+ru;Кеделоба;Kedeloba
+ka;ოქრუაანი;Okruaani
+ru;Окруаани;Okruaani
+ka;ძირკოკი;Dzirk’ok’i
+ru;Дзиркоки;Dzirk’ok’i
+ka;ბულიწყუ;Bulits’q’u
+ru;Булицху;Bulits’q’u
+ka;ნარაზენი;Narazeni
+ru;Наразени;Narazeni
+ka;ძველი ხიბულა;Dzveli Khibula
+ru;Дзвели Хибула;Dzveli Khibula
+ka;კოკათი;K’ok’ati
+ru;Кокати;K’ok’ati
+ka;მოედანი;Moedani
+ru;Моедани;Moedani
+ka;ჯიხანჯირი;Jikhanjiri
+ru;Джиханджири;Jikhanjiri
+ka;ზემო ხევი;Zemo Khevi
+ru;Земо Хеви;Zemo Khevi
+ka;ვაშლოვანი;Vashlovani
+ab;Мԥаадрыԥсҭа;Vashlovani
+ru;Вашловани;Vashlovani
+ka;ცოდნისკარი;Tsodnisk’ari
+ru;Цоднискари;Tsodnisk’ari
+ka;თოდოგაური;Todogauri
+ru;Тодогаури;Todogauri
+ka;ქვედა სამება;Kveda Sameba
+ru;Кведа Самеба;Kveda Sameba
+ka;გოგმაჩაური;Gogmachauri
+ru;Гогмачаури;Gogmachauri
+ka;მოცვნარი;Motsvnari
+ru;Моцвнари;Motsvnari
+ka;ორცვა;Ortsva
+ru;Орцва;Ortsva
+ka;ხუნკუდა;Khunk’uda
+ru;Хункуда;Khunk’uda
+ka;შევაბური;Shevaburi
+ru;Шевабури;Shevaburi
+ka;კუჭულა;K’uch’ula
+ru;Кучула;K’uch’ula
+ka;მეძიბნა;Medzibna
+ru;Медзибна;Medzibna
+ka;სიხალიძეები;Sikhalidzeebi
+ru;Сихалидзееби;Sikhalidzeebi
+ka;საესებუო;Saesebuo
+ru;Саесебуо;Saesebuo
+ka;ჭალადიდი;Ch’aladidi
+ru;Чаладиди;Ch’aladidi
+ka;დურაში;Durashi
+ru;Дураши;Durashi
+ka;ლექობალე;Lekobale
+ru;Лекобале;Lekobale
+ka;ციცხვარი;Tsitskhvari
+ru;Цицхвари;Tsitskhvari
+ka;საკილასონიო;Sak’ilasonio
+ru;Сакиласонио;Sak’ilasonio
+ka;სამესხიო;Sameskhio
+ru;Самесхио;Sameskhio
+ka;მამულარი;Mamulari
+ru;Мамулари;Mamulari
+ka;წითელმთა;Ts’itelmta
+ru;Цителмта;Ts’itelmta
+ka;წითელგორა;Ts’itelgora
+ru;Цителгора;Ts’itelgora
+ka;აგოთა;Agota
+ru;Агота;Agota
+ka;არსენაული;Arsenauli
+ru;Арсенаули;Arsenauli
+ka;Masauri;Masaura
+ka;მასაური;Masaura
+ka;მასაურა;Masaura
+ru;Масаури;Masaura
+ka;სირაბიძეები;Sirabidzeebi
+ru;Сирабидзееби;Sirabidzeebi
+ka;ნატანები;Nat’anebi
+ru;Натанеби;Nat’anebi
+ka;მოსიაშვილები;Mosiashvilebi
+ru;Мосиашвилеби;Mosiashvilebi
+ka;მომწვარი;Momts’vari
+ru;Момцвари;Momts’vari
+ka;მჭედლური;Mch’edluri
+ru;Мчедлури;Mch’edluri
+ka;ტომაშეთი;T’omasheti
+ru;Томашети;T’omasheti
+ka;მინთაძეები;Mintadzeebi
+ru;Минтадзееби;Mintadzeebi
+ka;კურცხალი;K’urtskhali
+ru;Курцхали;K’urtskhali
+ka;ფოთარო;Potaro
+ru;Потаро;Potaro
+ka;ვაშტიალი;Vasht’iali
+ru;Ваштиали;Vasht’iali
+ka;მთისუბანი;Mtisubani
+ru;Мтисубани;Mtisubani
+ru;Зеда Тхилвана;Zeda Tkhilvana
+ru;Чахаури;Ch’akhauri
+ru;Мерчхети;Merchkheti
+ru;Юнмере;Junmere
+ka;საწულუკიძეო;Sats’uluk’idzeo
+ru;Сацулукидзео;Sats’uluk’idzeo
+ka;გომნატეხები;Gomnat’ekhebi
+ru;Гомнатехеби;Gomnat’ekhebi
+ka;მაღალი ეწერი;Maghali Ets’eri
+ru;Магали Ецери;Maghali Ets’eri
+ka;Nasak’irali;Nasakirali
+ka;მშვიდობაური;Mshvidobauri
+ru;Мшвидобаури;Mshvidobauri
+ru;Жанаура;Zhanaura
+ka;ბულვანი;Bulvani
+ru;Булвани;Bulvani
+ru;Тхмелари;Tkhmelari
+ru;Лемикаве;Lemikave
+ka;ლასკრალი;Lask’rali
+ru;Ласкрали;Lask’rali
+ka;აგრაი;Agrai
+ru;Аграи;Agrai
+ka;კაერი;K’aeri
+ru;Каери;K’aeri
+ka;მაჯვდიერი;Majvdieri
+ru;Маджвдиери;Majvdieri
+ka;გვალდერი;Gvalderi
+ru;Гвалдери;Gvalderi
+ka;წილამიერი;Ts’ilamieri
+ru;Циламиери;Ts’ilamieri
+ka;ლასკადურა;Lask’adura
+ru;Ласкадура;Lask’adura
+ka;ყარიში;Q’arishi
+ru;Кариши;Q’arishi
+ka;ბაბილი;Babili
+ru;Бабили;Babili
+ka;გოგიაშვილები;Gogiashvilebi
+ru;Гогиашвилеби;Gogiashvilebi
+ka;სტალინისუბანი;St’alinisubani
+ru;Сталинисубани;St’alinisubani
+ka;შავლიძეები;Shavlidzeebi
+ru;Шавлидзееби;Shavlidzeebi
+ka;ჭალახმელა;Ch’alakhmela
+ru;Чалахмела;Ch’alakhmela
+ka;გარეტყე;Garet’q’e
+ru;Гаретке;Garet’q’e
+ka;გოგინიძეები;Goginidzeebi
+ru;Гогинидзееби;Goginidzeebi
+ka;ჩეტკიძეები;Chet’k’idzeebi
+ru;Четкидзееби;Chet’k’idzeebi
+ka;ცეცხლაური;Tsetskhlauri
+ru;Цецхлаури;Tsetskhlauri
+ka;ჯიხანჯური;Jikhanjuri
+ru;Джиханджури;Jikhanjuri
+ka;ნაკაიძეები;Nak’aidzeebi
+ru;Накаидзееби;Nak’aidzeebi
+ka;წანკალაური;Ts’ank’alauri
+ru;Цанкалаури;Ts’ank’alauri
+ka;ცივაძეები;Tsivadzeebi
+ru;Цивадзееби;Tsivadzeebi
+ka;წყაროთა;Ts’q’arota
+ru;Цхарота;Ts’q’arota
+ka;ხიჭაური;Khich’auri
+ru;Хичаури;Khich’auri
+ka;ზანაქიძეები;Zanakidzeebi
+ru;Занакидзееби;Zanakidzeebi
+ka;ზედა დეკანაშვილები;Zeda Dek’anashvilebi
+ru;Зеда Деканашвилеби;Zeda Dek’anashvilebi
+ka;ბოღაური;Boghauri
+ru;Богаури;Boghauri
+ka;ოშანახევი;Oshanakhevi
+ru;Ошанахеви;Oshanakhevi
+ka;წინუბანი;Ts’inubani
+ru;Цинубани;Ts’inubani
+ka;ოქროყანა;Okroq’ana
+ru;Окрокана;Okroq’ana
+ka;ჯუნეწერი;Junets’eri
+ru;Джунецери;Junets’eri
+ka;წვერმაღალა;Ts’vermaghala
+ru;Цвермагала;Ts’vermaghala
+ka;შუა ისნარი;Shua Isnari
+ru;Шуа Иснари;Shua Isnari
+ka;წიფნარი;Ts’ipnari
+ru;Ципнари;Ts’ipnari
+ka;ალისმერეთი;Alismereti
+ru;Алисмерети;Alismereti
+ka;კაკასხიდი;K’ak’askhidi
+ru;Какасхиди;K’ak’askhidi
+ka;თვრინი;Tvrini
+ru;Тврини;Tvrini
+ka;მწყერიციხე;Mts’q’eritsikhe
+ru;Мцхерицихе;Mts’q’eritsikhe
+ka;აჯამეთი;Ajameti
+ru;Аджамети;Ajameti
+ka;საღვინე;Saghvine
+ru;Сагвине;Saghvine
+ka;სასახლე;Sasakhle
+ru;Сасахле;Sasakhle
+ka;შიმშილაქედი;Shimshilakedi
+ru;Шимшилакеди;Shimshilakedi
+ka;ძლოურდანეთი;Dzlourdaneti
+ru;Дзлоурданети;Dzlourdaneti
+ka;სეფარეთი;Separeti
+ru;Сепарети;Separeti
+ka;გამოჩინებული;Gamochinebuli
+ru;Гамочинебули;Gamochinebuli
+ka;გომმუხაყრუა;Gommukhaq’rua
+ru;Гоммухакруа;Gommukhaq’rua
+ka;კეჭინარი;K’ech’inari
+ru;Кечинари;K’ech’inari
+ka;ივანწმინდა;Ivants’minda
+ru;Иванцминда;Ivants’minda
+ka;ღვითორი;Ghvitori
+ru;Гвитори;Ghvitori
+ka;ბეგიაური;Begiauri
+ru;Бегиаури;Begiauri
+ka;დიდი კაცხი;Didi K’atskhi
+ru;Диди Кацхи;Didi K’atskhi
+ka;ჯოყოეთი;Joq’oeti
+ru;Джокоети;Joq’oeti
+ka;ღარიხევი;Gharikhevi
+ru;Гарихеви;Gharikhevi
+ka;ამაშუკეთი;Amashuk’eti
+ru;Амашукети;Amashuk’eti
+ka;კვესრევი;K’vesrevi
+ru;Квесреви;K’vesrevi
+ka;პატარა სახვლარი;P’at’ara Sakhvlari
+ru;Патара Сахвлари;P’at’ara Sakhvlari
+ka;ისლარი;Islari
+ru;Ислари;Islari
+ka;ლეფილიე;Lepilie
+ru;Лепилие;Lepilie
+ka;ფიროსმანი;Pirosmani
+ru;Пиросмани;Pirosmani
+ka;დონა;Dona
+ru;Дона;Dona
+ka;წყაროსთავი;Ts’q’arostavi
+ru;Цхаростави;Ts’q’arostavi
+ka;ცურტავი;Tsurt’avi
+ru;Цуртави;Tsurt’avi
+ka;დისველი;Disveli
+ru;Дисвели;Disveli
+ka;ხატავეთი;Khat’aveti
+ru;Хатавети;Khat’aveti
+ka;ბალახაური;Balakhauri
+ru;Балахаури;Balakhauri
+ka;ხატისოფელი;Khat’isopeli
+ru;Хатисопели;Khat’isopeli
+ka;თბილწყაროს დასახლება;Tbilts’q’aros Dasakhleba
+ru;Тбилцхарос Дасахлеба;Tbilts’q’aros Dasakhleba
+ka;ახალი კუმისი;Akhali K’umisi
+ru;Ахали Кумиси;Akhali K’umisi
+ka;მზიანეთი;Mzianeti
+ru;Мзианети;Mzianeti
+ka;ნაგები;Nagebi
+ru;Нагеби;Nagebi
+ka;ანგრევანი;Angrevani
+ru;Ангревани;Angrevani
+ka;მამიშლარი;Mamishlari
+ru;Мамишлари;Mamishlari
+ka;უგუდეთი;Ugudeti
+ru;Угудети;Ugudeti
+ka;კიროვკა;K’irovk’a
+ru;Кировка;K’irovk’a
+ka;ბურმა;Burma
+ru;Бурма;Burma
+ka;ხულდარა;Khuldara
+ru;Хулдара;Khuldara
+ka;ბუდიონოვკა;Budionovk’a
+ru;Будионовка;Budionovk’a
+ka;ხიხანი;Khikhani
+ru;Хихани;Khikhani
+ka;თანდილაანთკარი;Tandilaantk’ari
+ru;Тандилаанткари;Tandilaantk’ari
+ka;აბანოსხევი;Abanoskhevi
+ru;Абаносхеви;Abanoskhevi
+ka;ბაქაქურები;Bakakurebi
+ru;Бакакуреби;Bakakurebi
+ka;ახალაანი;Akhalaani
+ru;Ахалаани;Akhalaani
+ka;ახალი ტონჩა;Akhali T’oncha
+ru;Ахали Тонча;Akhali T’oncha
+ka;მეზვრიანთკარი;Mezvriantk’ari
+ru;Мезврианткари;Mezvriantk’ari
+ka;მჭედლიანთკარი;Mch’edliantk’ari
+ru;Мчедлианткари;Mch’edliantk’ari
+ka;ქარაულები;Karaulebi
+ru;Караулеби;Karaulebi
+ka;მიგრიაულები;Migriaulebi
+ru;Мигриаулеби;Migriaulebi
+ka;წითელი კლდე;Ts’iteli K’lde
+ru;Цители Клде;Ts’iteli K’lde
+ka;ბადაანი;Badaani
+ru;Бадаани;Badaani
+ka;საჯინიბო;Sajinibo
+ru;Саджинибо;Sajinibo
+ka;თეთრაულები;Tetraulebi
+ru;Тетраулеби;Tetraulebi
+ka;სახევი;Sakhevi
+ru;Сахеви;Sakhevi
+ka;ზურაბები;Zurabebi
+ru;Зурабеби;Zurabebi
+ka;ველები;Velebi
+ru;Велеби;Velebi
+ka;ხერია;Kheria
+ru;Хериа;Kheria
+ka;ნაღომარი;Naghomari
+ru;Нагомари;Naghomari
+ka;ლაშხარაში;Lashkharashi
+ru;Лашхараши;Lashkharashi
+ka;გუგუნაყათი;Gugunaq’ati
+ru;Гугунакати;Gugunaq’ati
+ka;ლექაჯაიე;Lekajaie
+ru;Лекаджаие;Lekajaie
+ka;საბერულავო;Saberulavo
+ru;Саберулаво;Saberulavo
+ka;ლეკვანტალიე;Lek’vant’alie
+ru;Лекванталие;Lek’vant’alie
+ka;ლუხი;Lukhi
+ru;Лухи;Lukhi
+ka;ნაკი;Nak’i
+ru;Наки;Nak’i
+ka;პატარა ზანავი;P’at’ara Zanavi
+ru;Патара Занави;P’at’ara Zanavi
+ka;კახარეთი;K’akhareti
+ru;Кахарети;K’akhareti
+ka;ზაზალო;Zazalo
+ru;Зазало;Zazalo
+ka;მირაშხანი;Mirashkhani
+ru;Мирашхани;Mirashkhani
+ka;ფია;Pia
+ru;Пиа;Pia
+ka;გელსუნდა;Gelsunda
+ru;Гелсунда;Gelsunda
+ka;ნიჯგორი;Nijgori
+ru;Ниджгори;Nijgori
+ka;აბათხევი;Abatkhevi
+en;Khashut;Abatkhevi
+ru;Абатхеви;Abatkhevi
+ka;ახალხიზა;Akhalkhiza
+ru;Ахалхиза;Akhalkhiza
+ka;ბროწლეთი;Brots’leti
+ru;Броцлети;Brots’leti
+ka;მეღვრეკისი;Meghvrek’isi
+ru;Мегврекиси;Meghvrek’isi
+ka;გოსტიბე;Gost’ibe
+ru;Гостибе;Gost’ibe
+ka;რკონი;Rk’oni
+ru;Ркони;Rk’oni
+ka;ჩობალაური;Chobalauri
+ru;Чобалаури;Chobalauri
+ka;ფერმა;Perma
+ru;Перма;Perma
+ka;თოგოიანი;Togoiani
+ru;Тогоиани;Togoiani
+ka;გომისჯვარი;Gomisjvari
+ka;Gomijvari;Gomisjvari
+ka;გომიჯვარი;Gomisjvari
+ru;Гомисджвари;Gomisjvari
+ka;ლავრისხევი;Lavriskhevi
+ru;Лаврисхеви;Lavriskhevi
+ka;აფნისი;Apnisi
+ru;Апниси;Apnisi
+ka;სავანისუბანი;Savanisubani
+ru;Саванисубани;Savanisubani
+ka;ტიტვინისწყარო;T’it’vinists’q’aro
+ru;Титвинисцхаро;T’it’vinists’q’aro
+ka;წეღვერი;Ts’eghveri
+ru;Цегвери;Ts’eghveri
+ka;გოლისი;Golisi
+ru;Голиси;Golisi
+ka;ონტოფო;Ont’opo
+ru;Онтопо;Ont’opo
+ka;ზედა მაზანდარა;Zeda Mazandara
+ru;Зеда Мазандара;Zeda Mazandara
+ka;ზემო ვარძია;Zemo Vardzia
+ru;Земо Вардзиа;Zemo Vardzia
+ka;ლახამი;Lakhami
+ru;Лахами;Lakhami
+ka;გურძაული;Gurdzauli
+ru;Гурдзаули;Gurdzauli
+ka;გვიმრალა;Gvimrala
+ru;Гвимрала;Gvimrala
+ka;გეზრული;Gezruli
+ru;Гезрули;Gezruli
+ka;ციხისსოფელი;Tsikhissopeli
+ru;Цихиссопели;Tsikhissopeli
+ka;ლექარჩე;Lekarche
+ru;Лекарче;Lekarche
+ka;რეხა;Rekha
+ru;Реха;Rekha
+ka;რიეთი;Rieti
+ru;Риети;Rieti

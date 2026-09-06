@@ -25,7 +25,8 @@ const path = require('path');
 
 // Serbie et Macédoine du Nord : dernier ajout en date de la série balkanique (Monténégro/Kosovo
 // traités séparément, voir build-me-aliases.js/build-xk-aliases.js — pas de fichier de codes
-// postaux GeoNames pour ces deux-là). La Grèce (GR) non plus : voir build-gr-aliases.js.
+// postaux GeoNames pour ces deux-là). La Grèce (GR) non plus : voir build-gr-aliases.js. La Géorgie
+// (GE) non plus, dernier ajout en date : voir build-ge-aliases.js.
 const COUNTRIES = ['TR']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/
 // SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO/GI/MD/BY/UA
 // déjà générés et commités (les leurs restent inchangés)
@@ -154,7 +155,26 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // de ce projet (le finnois-suédois, le trilinguisme bosnien, l'autonomie gagaouze...) — aucune de
 // ces quatre langues n'est donc ajoutée ici, cohérent avec la même règle "statut légal réel du pays,
 // jamais un jugement indépendant" déjà appliquée pour le Kosovo/l'Ukraine plus haut.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs', 'is', 'fo', 'gag', 'be', 'ru', 'uk', 'crh', 'tr']);
+// Géorgie, dernier ajout en date : "ka" (géorgien, ISO 639-1) — seule langue d'Etat sur l'ensemble du
+// territoire (art. 8 de la Constitution géorgienne). "ab" (abkhaze, ISO 639-1) : le MÊME article 8
+// de la Constitution géorgienne dispose que "la langue officielle de la République autonome
+// d'Abkhazie est également l'abkhaze" — un statut co-officiel accordé par la Géorgie ELLE-MÊME, texte
+// constitutionnel toujours en vigueur, même s'il ne peut plus s'appliquer dans les faits depuis que
+// l'Abkhazie est de facto hors du contrôle du gouvernement géorgien (voir build-ge-communes.js) —
+// exactement le même raisonnement que le tatar de Crimée pour l'Ukraine plus haut : le statut légal
+// que le pays lui-même revendique, jamais une réalité territoriale de facto. L'ossète, à l'inverse,
+// N'EST PAS ajouté : contrairement à l'abkhaze, aucun texte géorgien ne lui accorde de statut
+// officiel ou co-officiel nulle part — son statut de langue officielle en Ossétie du Sud ne vient QUE
+// de la propre constitution de ce territoire séparatiste (non reconnu par la Géorgie ni par la
+// majorité de la communauté internationale), jamais de la Géorgie elle-même, à la différence de
+// l'abkhaze. Aucune autre langue régionale : la Géorgie n'a ni signé ni ratifié la Charte européenne
+// des langues régionales ou minoritaires (engagement pris dès son adhésion au Conseil de l'Europe en
+// 1999, toujours non tenu en mars 2025 d'après coe.int — une déclaration de ratification reste à
+// l'état de projet) — ni le mingrélien/svane (dialectes/langues kartvéliennes proches du géorgien,
+// aucun statut légal propre), ni l'arménien/l'azéri (minorités numériquement importantes à
+// Samtskhé-Djavakhétie/Kvemo Kartli mais sans statut officiel ou régional), ne remplissent le critère
+// "statut légal réel du pays" déjà appliqué à chaque ajout précédent.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs', 'is', 'fo', 'gag', 'be', 'ru', 'uk', 'crh', 'tr', 'ka', 'ab']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de

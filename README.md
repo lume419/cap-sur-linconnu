@@ -133,8 +133,8 @@ Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Mon
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
 Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
 Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie, Roumanie, Lettonie, Lituanie, Estonie, le
-Vatican, l'Islande, les îles Féroé, Gibraltar, la Moldavie, la Biélorussie, l'Ukraine et la Turquie
-pour l'instant, d'autres viendront. Chaque pays
+Vatican, l'Islande, les îles Féroé, Gibraltar, la Moldavie, la Biélorussie, l'Ukraine, la Turquie et
+la Géorgie pour l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -395,6 +395,26 @@ ajoute deux à trois choses, indépendamment des autres :
    même orthographe correcte en turc réel. Deux vraies îles reliées par ferry pour véhicules détectées
    via le champ "dept" (littéralement le nom de l'île pour ces deux-là dans GeoNames — voir "Ferries"
    plus bas) : Bozcaada et Gökçeada, dans le détroit des Dardanelles.
+   **La Géorgie**, dernier ajout en date — comme la Grèce/le Monténégro/le Kosovo/la Bosnie-
+   Herzégovine, GeoNames ne publie AUCUN fichier de codes postaux pour ce pays (téléchargement
+   export/zip/GE.zip -> 404, vérifié), et contrairement à la Grèce (jeu de données tiers déjà
+   géolocalisé) aucune source de ce genre n'a été trouvée : reconstruit à la place par rapprochement
+   de NOM depuis yell.ge, un annuaire géorgien qui publie les codes postaux de chaque commune par
+   municipalité (`scripts/build-ge-communes.js`, dernier recours documenté comme tel). Particularité
+   propre à ce pays : l'annuaire liste les noms en écriture géorgienne (მხედრული) alors que GeoNames
+   stocke le nom canonique en translittération latine — rapprochement via le nom géorgien
+   ALTERNATIF de chaque lieu GeoNames plutôt que son nom principal, complété par le fichier
+   `alternateNames` dédié (nettement plus riche que les seuls noms alternatifs du dump principal :
+   4 926 lieux avec un nom géorgien identifié contre 4 143). 2 366 communes retenues, dont Tbilissi en
+   cas particulier (seule ville dont l'annuaire détaille des RUES individuelles plutôt qu'une liste de
+   localités — un unique code réel est utilisé à la place, "0100", l'adresse officielle du siège de la
+   Poste géorgienne). Cinq écarts confirmés entre le nom géorgien réellement utilisé par l'annuaire et
+   celui du fichier `alternateNames` (absent ou trompeur pour ces entrées précises) : Samtredia,
+   Baghdati, Akhalkalaki, Kareli, Kharagauli — chacun confirmé par le nom propre de sa municipalité.
+   Conséquence attendue de ce rapprochement par nom géorgien : l'Abkhazie et l'Ossétie du Sud
+   (territoires séparatistes non contrôlés par le gouvernement géorgien, où la Poste géorgienne
+   n'opère pas) n'ont aucun code postal dans la source et sont de fait automatiquement exclues, comme
+   n'importe quel lieu sans correspondance dans ce pipeline.
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
@@ -621,6 +641,11 @@ ajoute deux à trois choses, indépendamment des autres :
    routes turque) — même logique que HAC/Putevi Srbije/JP za državni patišta ailleurs dans cette
    table, l'opérateur réellement responsable du barème utilisé pour le calcul plutôt que l'autorité
    nationale générale.
+   **La Géorgie**, dernier ajout en date, a `hasToll:false` — comme l'Ukraine/Gibraltar, aucun péage
+   routier n'existe à ce jour pour les véhicules particuliers ; la seule route à péage du pays (rocade
+   de contournement de Tbilissi, TBTR) est encore en construction et vise le fret de transit, et la
+   Direction des routes a explicitement écarté toute extension aux grands axes nationaux
+   (georgiatoday.ge, juin 2026) — aucune vignette non plus.
 3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
@@ -770,6 +795,13 @@ ajoute deux à trois choses, indépendamment des autres :
    un symbole ADOPTÉ EN 2012 et normalisé Unicode depuis la même année (v6.2) — plus de dix ans de
    recul, largement pris en charge par toutes les polices système courantes, aucun risque de caractère
    manquant comparable.
+   **La Géorgie**, dernier ajout en date, a besoin du champ (`GEL`, le lari géorgien, hors zone euro,
+   flottante — 1 EUR ≈ 3,04 GEL début septembre 2026, xe.com/valutafx.com). Tbilissi (ville la plus
+   chère du pays) : loyer vacances médian ~$49-58/nuit (airdna.co/airroi.com 2026), soit ~45 € aux
+   taux courants. Palier "moyen" calé sur ce loyer médian converti au taux ci-dessus (~130 GEL), mêmes
+   ratios 0,55×/2× que la Moldavie/la Biélorussie/l'Ukraine/la Turquie ci-dessus. `CURRENCY_GLYPH.GEL`
+   utilise le vrai symbole "₾" : adopté par la Banque nationale de Géorgie en 2014, normalisé Unicode
+   dès 2015 (v8.0) — plus de dix ans de recul, même niveau de sécurité que le "₺" turc ci-dessus.
    La devise détermine le plafond de prix affiché pour le logement
    (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
    la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
@@ -813,7 +845,7 @@ un drapeau — essayé d'abord en émoji Unicode, abandonné (aucune police d'é
 toutes les plateformes, Windows en particulier affiche souvent les deux lettres du code régional au
 lieu du drapeau fusionné) au profit de vraies images SVG hébergées localement
 (`public/img/flags/XX.svg`, une seule fois chacune même si plusieurs langues la réutilisent —
-54 fichiers au total pour 67 langues, plusieurs langues partageant le même fichier). Association LANGUE -> code de fichier dans `LANG_FLAGS`
+55 fichiers au total pour 69 langues, plusieurs langues partageant le même fichier). Association LANGUE -> code de fichier dans `LANG_FLAGS`
 (`public/js/i18n.js`). Priorité à un vrai drapeau RÉGIONAL reconnaissable quand le jeu d'icônes
 utilisé ([circle-flags](https://github.com/HatScripts/circle-flags)) en propose un dédié à l'aire
 linguistique exacte (demande explicite de l'utilisateur, "pour faciliter la lecture") — treize
@@ -1594,6 +1626,40 @@ opérées par GESTAŞ (seul opérateur, quasi-monopole historique comme Île de 
 Bornholmslinjen/Destination Gotland déjà rencontrés plus haut) — voir "Ferries" plus bas pour le
 détail complet des tarifs.
 
+**La Géorgie**, dernier ajout en date, apporte **DEUX** nouvelles langues : **le géorgien** (ქართული,
+ISO 639-1 "ka"), seule langue d'Etat sur l'ensemble du territoire (article 8 de la Constitution
+géorgienne), et **l'abkhaze** (Аҧсшәа, ISO 639-1 "ab") — le MÊME article 8 dispose que "la langue
+officielle de la République autonome d'Abkhazie est également l'abkhaze", un statut co-officiel
+accordé par la Géorgie ELLE-MÊME dans un texte constitutionnel toujours en vigueur, même s'il ne
+s'applique plus dans les faits depuis que l'Abkhazie est de facto hors du contrôle du gouvernement
+géorgien — exactement le même raisonnement que le tatar de Crimée pour l'Ukraine (le statut légal que
+le pays revendique lui-même, jamais une réalité territoriale de facto). L'ossète n'est PAS ajouté :
+contrairement à l'abkhaze, aucun texte géorgien ne lui accorde de statut officiel ou co-officiel — son
+statut de langue officielle en Ossétie du Sud ne vient QUE de la propre constitution de ce territoire
+séparatiste (non reconnu par la Géorgie ni par la majorité de la communauté internationale), jamais de
+la Géorgie elle-même. Aucune autre langue régionale : la Géorgie n'a ni signé ni ratifié la Charte
+européenne des langues régionales ou minoritaires (engagement pris dès son adhésion au Conseil de
+l'Europe en 1999, toujours non tenu en mars 2025 d'après coe.int) — ni le mingrélien/svane (langues
+kartvéliennes proches du géorgien, aucun statut légal propre), ni l'arménien/l'azéri (minorités
+numériquement importantes mais sans statut officiel ou régional), ne remplissent le critère "statut
+légal réel du pays" déjà appliqué à chaque ajout précédent.
+
+L'abkhaze est traduit avec une réserve de confiance plus forte que toute autre langue de ce projet :
+contrairement au gagaouze/au tatar de Crimée (langues turques, traduisibles en s'appuyant sur le turc
+déjà présent dans l'app), l'abkhaze est une langue isolée (caucasienne du nord-ouest, système verbal
+polysynthétique parmi les plus complexes au monde) sans aucune langue apparentée déjà couverte pour
+servir de base — traduit malgré tout à la demande explicite de l'utilisateur, avec cette réserve
+clairement signalée plutôt que tue.
+
+69 langues au total désormais.
+
+**Alias** : `aliases-ge.txt`, 5 579 alias, dont 2 638 géorgiens (le nom local en écriture მხედრული,
+utile puisque le nom canonique affiché par l'app reste la translittération latine GeoNames), 2 366
+russes (héritage soviétique, quasi une entrée par commune) et une longue traîne d'autres langues déjà
+couvertes (anglais, ukrainien, turc...).
+
+Aucun ferry supplémentaire : la Géorgie n'a pas d'île habitée nécessitant une traversée en propre.
+
 ## Démarrer en local
 
 ```bash
@@ -2182,6 +2248,10 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
 - Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
+- Codes postaux géorgiens (absents de GeoNames pour ce pays, voir "Pays couverts") : annuaire tiers
+  [yell.ge](https://www.yell.ge) — PAS une source officielle ni sous licence ouverte explicite, choix
+  de dernier recours documenté comme tel, rapproché par nom (écriture géorgienne) des communes
+  GeoNames ci-dessus.
 - Codes postaux bosniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste
   [Wikipedia "Postal codes in Bosnia and Herzegovina"](https://en.wikipedia.org/wiki/Postal_codes_in_Bosnia_and_Herzegovina)
   (licence [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)), rapprochée par nom des
@@ -2208,7 +2278,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 54 fichiers SVG, dont treize
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 55 fichiers SVG, dont treize
   drapeaux RÉGIONAUX) — voir "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),

@@ -15,10 +15,13 @@ const COUNTRIES = ['TR']; // dump/ et postal/ ne contiennent que les fichiers de
 // build-gr-communes.js (reconstruction depuis une source tierce). Monténégro (ME) et Kosovo (XK)
 // n'utilisent PAS ce script standard : aucun fichier de codes postaux GeoNames pour ces deux pays,
 // voir build-me-communes.js/build-xk-communes.js (reconstruction depuis une source tierce).
-// La Turquie (TR), dernier ajout en date, revient au pipeline STANDARD : GeoNames publie un vrai
-// fichier de codes postaux pour ce pays (vérifié avant de commencer) — le plus gros pays traité par
-// ce script à ce jour (~52 800 lieux bruts avant jointure/dédoublonnage, contre ~45 400 pour
-// l'Ukraine, le précédent record).
+// La Turquie (TR) revient au pipeline STANDARD : GeoNames publie un vrai fichier de codes postaux
+// pour ce pays (vérifié avant de commencer) — le plus gros pays traité par ce script à ce jour
+// (~52 800 lieux bruts avant jointure/dédoublonnage, contre ~45 400 pour l'Ukraine, le précédent
+// record). La Géorgie (GE), dernier ajout en date, n'utilise PAS ce script standard : aucun fichier
+// de codes postaux GeoNames pour ce pays non plus (même vérification, export/zip/GE.zip -> 404),
+// voir build-ge-communes.js (reconstruction par rapprochement de nom depuis un annuaire tiers,
+// yell.ge — aucune source déjà géolocalisée trouvée pour ce pays, contrairement à la Grèce).
 // Codes de "lieu habité nommé" à conserver (villes, villages, hameaux...) — PPLX (simple quartier
 // d'une autre localité déjà comptée) et PPLW/PPLQ (détruit/abandonné) sont exclus pour éviter les
 // doublons et les lieux qui n'existent plus.

@@ -255,7 +255,15 @@
       // Italie/Croatie/Bosnie-Herzégovine/Serbie/Macédoine du Nord/Grèce plutôt que celui des pays à
       // vignette (voir TOLL_RATE_BY_COUNTRY.TR plus bas pour le détail du calcul). Devise : TRY (livre
       // turque), hors zone euro, flottante — 1 EUR ≈ 56,3 TRY début septembre 2026 (xe.com/ecb.europa.eu).
-      TR: { code:'TR', name:'Turquie', file:'communes-tr.txt', hasToll:true, aliasFile:'aliases-tr.txt', currency:'TRY' }
+      TR: { code:'TR', name:'Turquie', file:'communes-tr.txt', hasToll:true, aliasFile:'aliases-tr.txt', currency:'TRY' },
+      // Géorgie, dernier ajout en date : `hasToll:false` — comme l'Ukraine/Gibraltar, aucun péage
+      // routier n'existe à ce jour (2026) pour les véhicules particuliers ; la seule route à péage du
+      // pays (rocade de contournement de Tbilissi, TBTR) est encore en construction et vise le fret de
+      // transit, pas les particuliers, et la Direction des routes a explicitement écarté toute
+      // extension aux grands axes nationaux (georgiatoday.ge, juin 2026) — aucune vignette non plus.
+      // Devise : GEL (lari géorgien), hors zone euro, flottante — 1 EUR ≈ 3,04 GEL début septembre
+      // 2026 (xe.com/valutafx.com).
+      GE: { code:'GE', name:'Géorgie', file:'communes-ge.txt', hasToll:false, aliasFile:'aliases-ge.txt', currency:'GEL' }
     };
 
     var TRANSPORT = {
@@ -729,7 +737,13 @@
       // à Beyoğlu) ~95-160 $/nuit, quartiers plus abordables ~50-70 $/nuit. Palier "moyen" calé sur ce
       // loyer médian (~70 €) converti au taux ~56,3 TRY/EUR retenu pour COUNTRIES.TR.currency
       // (~4000 TRY), mêmes ratios 0,55×/2× que la Moldavie/la Biélorussie/l'Ukraine ci-dessus.
-      TRY: { economique: 2200, moyen: 4000, confortable: 8000 }
+      TRY: { economique: 2200, moyen: 4000, confortable: 8000 },
+      // Géorgie : Tbilissi (ville la plus chère du pays) — loyer vacances médian ~$49-58/nuit
+      // (airdna.co/airroi.com 2026), ~€43-50 aux taux courants — pays moins cher que la zone euro,
+      // profil proche de l'Ukraine/la Moldavie ci-dessus. Palier "moyen" calé sur ce loyer médian
+      // (~€45) converti au taux ~3,04 GEL/EUR retenu pour COUNTRIES.GE.currency (~130 GEL), mêmes
+      // ratios 0,55×/2× que la Moldavie/la Biélorussie/l'Ukraine/la Turquie ci-dessus.
+      GEL: { economique: 70, moyen: 130, confortable: 260 }
     };
 
   var COUNTRY_LIST = Object.keys(COUNTRIES);
