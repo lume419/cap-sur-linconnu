@@ -1,0 +1,973 @@
+el;Σούνι;Soúni
+el;Ζανακιά;Zanakiá
+el;Κιόνια;Kiónia
+el;Ποταμός του Κάμπου;Potamós tou Kámpou
+el;Ágios Ioánnis;Ayios Ioannis
+el;Άγιος Ιωάννης;Ayios Ioannis
+el;Χολέτρια;Cholétria
+el;Στατός-Άγιος Φώτιος;Statós-Ágios Fótios
+en;Statos–Agios Fotios;Statós-Ágios Fótios
+el;Πάνω Πύργος;Páno Pýrgos
+el;Νέα Δήμματα;Néa Dímmata
+ru;Протарас;Protaras
+el;Πρωταράς;Protaras
+bg;Протарас;Protaras
+uk;Протарас;Protaras
+sk;Fig Tree Bay;Protaras
+tr;Yalı;Kalami
+tr;Karaoğlanoğlu;Cheromylos
+tr;Küçükerenköy;Ágios Nikólaos
+tr;Aynikola;Ágios Nikólaos
+tr;Küçük Erenköy;Ágios Nikólaos
+el;Άγιος Νικόλαος;Ágios Nikólaos
+el;Κάψαλος;Kápsalos
+tr;Küçük Erenköy;Kápsalos
+el;Άγιος Γεώργιος;Ágios Geórgios
+tr;Karaoğlanoğlu;Ágios Geórgios
+tr;Güzelyalı;Giannitsaros
+el;Ζύγι;Zýgi
+el;Ζωοπηγή;Zoopigí
+el;Ζακάκι;Zakaki
+tr;İpsona;Ýpsonas
+el;Ύψωνας;Ýpsonas
+el;Γιόλου;Giólou
+el;Αιγιαλούσα;Aigialoúsa
+tr;Yeni Erenköy;Aigialoúsa
+el;Γιαλούσα;Aigialoúsa
+el;Γιαλιά;Gialiá
+en;Yialia;Gialiá
+el;Γεροβάσα;Gerovása
+el;Γεροσκήπου (συνοικία);Geroskípou (quarter)
+el;Γεροσκήπου;Geroskípou (quarter)
+en;Geroskipou;Geroskípou (quarter)
+el;Γερόλακκος;Gerólakkos
+en;Yermasoyia;Germasógeia
+el;Γερμασόγεια;Germasógeia
+tr;Yermasoya;Germasógeia
+ru;Гери;Géri
+el;Γέρι;Géri
+el;Γεράσα;Gerása
+el;Γεράνι;Geráni
+el;Γερακιές;Gerakiés
+el;Γέναγρα;Génagra
+tr;Nergizli;Génagra
+el;Ξυλοτύμβου;Xylotymbou
+en;Xylotymvou;Xylotymbou
+el;Ξυλοφάγου;Xylofágou
+el;Ξυλιάτος;Xyliátos
+el;Ξερός;Xerós
+el;Τσέρι;Tséri
+el;Φροδίσια;Frodísia
+el;Βρέτσια;Vrétsia
+el;Βουνό;Vounó
+tr;Yukarıtaşkent;Vounó
+el;Βουνί;Vouní
+el;Βορόκληνη;Voróklini
+el;Ορόκλινη;Voróklini
+en;Oroklini;Voróklini
+el;Βώνη;Vóni
+el;Βοκολίδα;Vokolída
+el;Βυζακιά;Vyzakiá
+tr;Vyzakıa;Vyzakiá
+el;Βιτσάδα;Vitsáda
+el;Βίκλα;Víkla
+el;Βάβλα;Vávla
+el;Βαβατσινιά;Vavatsiniá
+el;Βατιλή;Vatilí
+el;Βοθύλακας;Vothýlakas
+el;Βασίλεια;Vasíleia
+el;Βασίλι;Vasíli
+el;Βάσα;Vása
+el;Βαρίσεια;Varíseia
+el;Τύμβου;Týmvou
+el;Τσάδα;Tsáda
+el;Τρυπημένη;Trypiméni
+el;Τρούλλοι;Troúlloi
+el;Τρόοδος;Tróodos
+el;Τρείς Ελιές;Treís Eliés
+el;Τριμιθούσα;Trimithoúsa
+el;Τρεμιθούσα;Tremithoúsa
+en;Edremit;Trimíthi
+el;Τριμίθι;Trimíthi
+tr;Edrimit;Trimíthi
+fr;Edremit;Trimíthi
+de;Edremit;Trimíthi
+it;Edremit;Trimíthi
+es;Edremit;Trimíthi
+el;Edremit;Trimíthi
+nl;Edremit;Trimíthi
+el;Τριμήκληνη;Trimíklini
+el;Τρικουκκιά;Trikoukkiá
+el;Τρίκωμο;Tríkomo
+el;Τρεμετουσιά;Tremetousiá
+el;Τράπεζα;Trápeza
+el;Τραχυπέδουλα;Trachypédoula
+el;Τραχώνι;Trachóni
+tr;Taşkent;Tochni
+nl;Tokhni;Tochni
+el;Τόχνη;Tochni
+el;Τίμη;Tími
+el;Θέρμεια;Thérmeia
+el;Θελέτρα;Theletra
+el;Τερσεφάνου;Tersefánou
+el;Τέρα;Téra
+en;Terra;Téra
+el;Τεμβριά;Temvriá
+el;Τέμπλος;Témplos
+el;Ταύρου;Távrou
+el;Τάλα;Tála
+en;Tala, Cyprus;Tála
+el;Συριανοχώρι;Syrianochóri
+el;Σύγκραση;Sýgkrasi
+el;Sygkrasis;Sýgkrasi
+el;Συκόπετρα;Sykópetra
+el;Σιχαρί;Sicharí
+el;Sygcharí;Sicharí
+el;Συγχαρί;Sicharí
+tr;Aşağıtaşkent;Sicharí
+el;Στύλλοι;Stýlloi
+el;Στρόβολος;Stróvolos
+ru;Строволос;Stróvolos
+el;Στρουμπί;Stroumpí
+el;Στρογγυλός;Strongylós
+el;Στενή;Stení
+el;Σταυροκόννου;Stavrokónnou
+el;Στατός;Statós
+el;Σπιτάλι;Spitáli
+el;Σπήλια;Spília
+el;Σπαθαρικό;Spatharikó
+el;Σωτήρα;Sotíra
+tr;Sotıra;Sotíra
+el;Σοφτάδες;Softádes
+el;Σκουριώτισσα;Skouriótissa
+el;Σκούλλη;Skoúlli
+el;Σκυλλούρα;Skylloúra
+tr;Yılmazköy;Skylloúra
+el;Σκαρίνου;Skarínou
+el;Σύσκληπος;Sýsklipos
+el;Σίντα;Sínta
+el;Σινάορος;Sináoros
+el;Sina Oros;Sináoros
+el;Σίμου;Símou
+el;Σιλίκου;Silíkou
+el;Σιά;Siá
+el;Σελλάδι του Άππη;Selládi tou Áppi
+el;Άγιος Ιωάννης Σελέμανη;Ágios Ioánnis Selémani
+el;Σαράντι;Saránti
+el;Σαραμά;Saramá
+en;Sarama, Cyprus;Saramá
+el;Σανίδα;Sanída
+el;Σανταλάρης;Santaláris
+el;Σαλαμιού;Salamioú
+el;Σαϊττάς;Saïttás
+el;Ριζοκάρπασο;Rizokárpaso
+el;Πυρόγι;Pyrógi
+el;Πυργά;Pyrgá
+el;Πύλα;Pýla
+el;Ψιμολόφου;Psimolofou
+el;Ψυλλάτος;Psyllátos
+el;Ψευδάς;Psevdás
+el;Ψεματισμένος;Psematisménos
+el;Ψάθι;Psathi
+el;Πρόδρομος;Pródromos
+el;Πραιτώρι;Praitóri
+el;Πραστιό;Prastió
+el;Ποταμίτισσα;Potamítissa
+el;Ποταμιού;Potamioú
+el;Ποταμιά;Potamiá
+el;Ποτάμι;Potámi
+tr;Potamı;Potámi
+el;Πομός;Pomós
+el;Πωμός;Pomós
+el;Πολύστυπος;Polýstypos
+el;Πολιτικό;Politikó
+el;Politikón;Politikó
+el;Πολιτικόν;Politikó
+tr;Polıtıko;Politikó
+en;Polis Chrysochous;Pólis
+el;Πόλις;Pólis
+el;Πολέμι;Polémi
+el;Πλατυμάτης;Platymátis
+el;Πλατανιστάσα;Platanistása
+el;Πλατανισσός;Platanissós
+el;Πλατανίστεια;Platanísteia
+el;Πλατάνια;Platánia
+el;Πλατάνι;Platáni
+tr;Çınarlı;Platáni
+el;Πηγή;Pigí
+el;Πηγένια;Pigénia
+el;Πισσούρι;Pissoúri
+el;Πιλέρι;Piléri
+el;Φτερικούδι;Fterikoúdi
+el;Φτέριχα;Ftéricha
+el;Φρέναρος;Frénaros
+el;Φότα;Fóta
+el;Φλαμούδι;Flamoúdi
+el;Φύτη;Fýti
+el;Φοίνικας;Foínikas
+el;Φοινικάρια;Foinikária
+el;Φοινί;Foiní
+el;Φιλούσα;Philousa Khrysokhous
+el;Φιλούσα Χρυσοχούς;Philousa Khrysokhous
+el;Φιλούσα;Philousa Kelokedharon
+el;Φιλούσα Κελοκεδάρων;Philousa Kelokedharon
+el;Φυλλιά;Fylliá
+el;Φικάρδου;Fikárdou
+el;Φασούλα;Fasoúla
+en;Fasoula, Paphos;Fasoúla
+el;Φασούλα Πάφου;Fasoúla
+el;Φαρμακάς;Farmakás
+el;Φάλεια;Fáleia
+el;Φάλια;Fáleia
+el;Πέγεια;Pégeia
+en;Peyia;Pégeia
+el;Δήμος Πέγειας;Pégeia
+el;Πετροφάνι;Petrofáni
+el;Πέτρα του Διγενή;Pétra tou Digení
+el;Πέτρα;Pétra
+el;Περιβόλια;Perivólia
+el;Περιστερωνάρι;Peristeronári
+el;Περιστερώνα;Peristeróna
+tr;Perısterona;Peristeróna
+el;Περιστερώνα Χρυσοχούς;Peristeróna
+ru;Пергамос;Pérgamos
+el;Πέργαμος;Pérgamos
+el;Πέρα Πεδί;Péra Pedí
+el;Πέρα Χωριό;Péra Chorió
+tr;Pera Horıo;Péra Chorió
+el;Πέρα;Péra
+el;Πεντάγεια;Pentágeia
+el;Πενταλιά;Pentaliá
+el;Πεντάκωμο;Pentákomo
+el;Πελένδρι;Peléndri
+el;Πελαθούσα;Pelathoúsa
+el;Πεδουλάς;Pedoulás
+el;Πατρίκι;Patríki
+el;Παρσάτα;Parsáta
+el;Παραμύθα;Paramýtha
+el;Παραλίμνι;Paralímni
+tr;Paralımnı;Paralímni
+de;Paphos;Pafos
+fr;Paphos;Pafos
+en;Paphos;Pafos
+el;Πάφος;Pafos
+it;Pafo;Pafos
+nl;Paphos;Pafos
+tr;Baf;Pafos
+ru;Пафос;Pafos
+el;Πάνω Ζώδεια;Páno Zódeia
+tr;Yukarı Polemitya;Páno Polemídia
+en;Pano Polemidya;Páno Polemídia
+tr;Yukarı Binatlı;Páno Polemídia
+en;Pano Polemidhia;Páno Polemídia
+el;Πάνω Πολεμίδια;Páno Polemídia
+el;Πάνω Πλάτρες;Páno Plátres
+el;Πάνω Φλάσου;Páno Flásou
+en;Flasou;Páno Flásou
+el;Φλάσου;Páno Flásou
+el;Πάνω Παναγία;Pano Panagia
+ru;Пано-Лефкара;Páno Léfkara
+el;Πάνω Λεύκαρα;Páno Léfkara
+el;Πάνω Κουτραφάς;Páno Koutrafás
+el;Πάνω Κιβίδες;Páno Kivídes
+tr;Alsandık;Páno Kivídes
+el;Πάνω Δίκωμο;Páno Díkomo
+el;Πάνω Δευτερά;Páno Defterá
+el;Πάνω Αρόδες;Páno Aródes
+el;Πάνω Αρχιμανδρίτα;Páno Archimandríta
+el;Πάνω Αμίαντος;Páno Amíantos
+el;Πάνω Ακουρδάλεια;Páno Akourdáleia
+el;Πάνω Ακουρδάλια;Páno Akourdáleia
+el;Πάναγρα;Pánagra
+el;Παλόδεια;Palodeia
+el;Παλαιόσοφος;Palaiósofos
+el;Παλαιόμυλος;Palaiómylos
+el;Παλαιομέτοχο;Palaiométocho
+tr;Palaıometokho;Palaiométocho
+el;Παλαίκυθρο;Palaíkythro
+el;Παλαιχώρι;Palaichóri
+el;Παχύαμμος;Pachýammos
+el;Πάχνα;Páchna
+el;Όβγορος;Óvgoros
+el;Ορούντα;Oroúnta
+tr;Kato Mom;Oroúnta
+el;Ορνίθι;Orníthi
+tr;Ekmekçiler Damlari;Orníthi
+en;Ormideia;Ormidhia
+el;Ορμήδεια;Ormidhia
+el;Όργα;Órga
+el;Ορά;Orá
+en;Ora, Cyprus;Orá
+el;Όμοδος;Ómodos
+el;Οδοú;Odoú
+el;Νήσου;Nísou
+el;Οίκος;Oíkos
+el;Νικόκλεια;Nikókleia
+el;Νικήτας;Nikítas
+el;Νικητάρι;Nikitári
+tr;Nıkıtarı;Nikitári
+el;Lefkosía;Nicosia
+de;Nikosia;Nicosia
+be;Нікасія;Nicosia
+bg;Никозия;Nicosia
+el;Λευκωσία;Nicosia
+et;Nikosia;Nicosia
+fi;Nikosia;Nicosia
+fr;Nicosie;Nicosia
+hr;Nikozija;Nicosia
+nds;Nikosia;Nicosia
+no;Nikosia;Nicosia
+pl;Nikozja;Nicosia
+ru;Никосия;Nicosia
+sk;Nikózia;Nicosia
+sr;Никозија;Nicosia
+tr;Lefkoşa;Nicosia
+lt;Nikosija;Nicosia
+bs;Nikozija;Nicosia
+cs;Nikósie;Nicosia
+ga;An Leafcóis;Nicosia
+en;Nicosia (Lefkosia);Nicosia
+gv;Lefkosia;Nicosia
+lv;Nikosija;Nicosia
+ka;ნიქოზია;Nicosia
+frr;Nikosia;Nicosia
+br;Nikozia;Nicosia
+uk;Нікосія;Nicosia
+hsb;Nikosia;Nicosia
+sl;Nikozija;Nicosia
+az;Nikosiya;Nicosia
+mk;Никозија;Nicosia
+eu;Nikosia;Nicosia
+lb;Nikosia;Nicosia
+is;Nikósía;Nicosia
+sgs;Nėkosėjė;Nicosia
+fo;Nikosia;Nicosia
+mt;Nikosija;Nicosia
+sq;Nikosia;Nicosia
+el;Νέτα;Néta
+el;Νέο Χωριό;Néo Chorió
+en;Neo Chorio, Paphos;Neo Chorio
+el;Νέο Χωριό;Neo Chorio
+el;Νέο Χωριό Πάφου;Neo Chorio
+el;Νατά;Natá
+el;Μύρτου;Mýrtou
+tr;Çamlıbel;Mýrtou
+el;Μουτουλλάς;Moutoullás
+el;Μουτταγιάκα;Mouttagiáka
+el;Μουσουλίτα;Mousoulíta
+el;Μούσερε;Moúsere
+el;Μότηδες;Mótides
+el;Μοσφιλωτή;Mosfilotí
+el;Μοσφιλερή;Mosfilerí
+el;Μόρφου;Mórfou
+el;Μωρό Νερό;Moró Neró
+el;Μόρα;Móra
+el;Μονιάτης;Moniátis
+el;Μοναργά;Monargá
+el;Μοναγρούλλι;Monagroúlli
+el;Μονάγρι;Monágri
+el;Μιτσερό;Mitseró
+tr;Mıtsero;Mitseró
+el;Μηλιού;Milioú
+el;Μυλικούρι;Mylikoúri
+el;Μηλιά;Miliá
+en;Milia, Paphos;Miliá
+el;Μιά Μηλιά;Miá Miliá
+el;Μεσόγη;Mesógi
+el;Μέσα Γειτονιά;Mésa Geitoniá
+el;Μέσανα;Mésana
+el;Μέσα Χωριό;Mesa Chorio
+el;Μερσιννίκι;Mersinníki
+el;Μενόγεια;Menógeia
+el;Μενεού;Meneou
+el;Μελούσεια;Meloúseia
+el;Μελίνη;Melíni
+el;Μελάνδρα;Melándra
+el;Μελάναργα;Melánarga
+el;Μελάδεια;Meládeia
+el;Μαζωτός;Mazotós
+el;Μαυρολή;Mavrolí
+el;Μαθικολώνη;Mathikolóni
+el;Μαθιάτης;Mathiátis
+el;Μάσαρη;Másari
+el;Μαρώνι;Maróni
+el;Μάρωνας;Máronas
+en;Maronas, Cyprus;Máronas
+el;Μαρί;Marí
+el;Μαργό;Margó
+el;Μαργί;Margí
+el;Μαραθόβουνος;Marathóvounos
+el;Μαραθούντα;Marathoúnta
+el;Μαράθα;Marátha
+tr;Şehitler;Marátha
+el;Μανδριά;Mandriá
+en;Mandria, Paphos;Mandriá
+el;Μάνδρες;Mándres
+el;Μαμούνταλη;Mamoúntali
+el;Μαμώνια;Mamónia
+el;Μάμμαρι;Mámmari
+el;Μάμμαρη;Mámmari
+el;Μελούντα;Meloúnta
+el;Μαλούντα;Maloúnta
+el;Μαλιά;Maliá
+el;Μακράσυκα;Makrásyka
+el;Μακούντα;Makoúnta
+el;Λυθροδόντας;Lythrodóntas
+el;Λυθράγκωμη;Lythrágkomi
+el;Λυσός;Lysos
+el;Λύση;Lýsi
+el;Λύμπια;Lýmpia
+el;Λουβαράς;Louvarás
+el;Λουτρός;Loutrós
+tr;Bağdemliköy;Loutrós
+el;Λουρουκίνα;Louroukína
+el;Λουκρούνου;Loukrounou
+el;Λόφου;Lófou
+el;Λιβερά;Liverá
+el;Λιβάδια;Livádia
+el;Λιβάδι;Livadi
+el;Λιοπέτρι;Liopétri
+tr;Lıopetrı;Liopétri
+el;Ληνού;Linoú
+tr;Lınou;Linoú
+el;Λιμνίτης;Limnítis
+el;Λιμνιά;Limniá
+el;Λιμνάτης;Limnátis
+de;Limassol;Lemesos
+en;Limassol;Lemesos
+es;Limassol;Lemesos
+bg;Лимасол;Lemesos
+el;Λεμεσός;Lemesos
+fr;Limassol;Lemesos
+nl;Limasol;Lemesos
+pl;Limassol;Lemesos
+pt;Limassol;Lemesos
+ru;Лимасол;Lemesos
+sv;Limassol;Lemesos
+fi;Limassol;Lemesos
+ro;Limassol;Lemesos
+tr;Limasol;Lemesos
+it;Limisso;Lemesos
+uk;Лімасол;Lemesos
+sr;Лимасол;Lemesos
+be;Лімасол;Lemesos
+lt;Limasolis;Lemesos
+ka;ლიმასოლი;Lemesos
+az;Limasol;Lemesos
+el;Λετύμπου;Letymvou
+en;Leonariso;Leonárisso
+el;Λεονάρισσο;Leonárisso
+el;Λεμώνα;Lemóna
+el;Λεμίθου;Lemíthou
+el;Λέμπα;Lempa
+el;Λευκόνοικο;Lefkónoiko
+tr;Lefke;Léfka
+el;Λεύκα;Léfka
+el;Λαζανιάς;Lazaniás
+el;Λάγεια;Lágeia
+el;Λάγια;Lágeia
+el;Λατσιά;Latsia
+el;Λάσα;Lasa
+es;Lárnaca;Larnaka
+en;Larnaca;Larnaka
+bg;Ларнака;Larnaka
+el;Λάρνακα;Larnaka
+fr;Larnaca;Larnaka
+nl;Larnaca;Larnaka
+pt;Lárnaca;Larnaka
+sv;Larnaca;Larnaka
+ru;Ларнака;Larnaka
+sr;Ларнака;Larnaka
+ca;Làrnaca;Larnaka
+uk;Ларнака;Larnaka
+ka;ლარნაკა;Larnaka
+en;Lapta;Lápithos
+el;Λάπηθος;Lápithos
+el;Λαπηθιού;Lapithiou
+el;Λάπαθος;Lápathos
+el;Λάνεια;Láneia
+el;Λαγουδερά;Lagouderá
+en;Latchi;Lakkí
+el;Λακκί;Lakkí
+de;Latsi;Lakkí
+cs;Latchi;Lakkí
+ru;Латхи;Lakkí
+nl;Latchi;Lakkí
+el;Κυθρέα;Kythréa
+el;Kerýneia;Kyrenia
+el;Κερύνεια;Kyrenia
+tr;Girne;Kyrenia
+ru;Кирения;Kyrenia
+en;Keryneia;Kyrenia
+hu;Kerínia;Kyrenia
+uk;Кіренія;Kyrenia
+sr;Керинеја;Kyrenia
+bg;Кирения;Kyrenia
+lt;Kirenija;Kyrenia
+pl;Kirenia;Kyrenia
+eu;Kirenia;Kyrenia
+ka;კირენია;Kyrenia
+pt;Cirénia;Kyrenia
+ru;Кириния;Kyrenia
+az;Kirenia;Kyrenia
+el;Κυρά;Kyrá
+el;Κυπερούντα;Kyperoúnta
+el;Κρήτου Τέρρα;Kritou Terra
+el;Κρήτου Μαρόττου;Kritou Marottou
+el;Κρηνί;Kriní
+el;Κρίδεια;Krídeia
+el;Κουτσοβέντης;Koutsovéntis
+el;Κούρτακα;Kourtaka
+el;Κουρού Μοναστήρι;Kouroú Monastíri
+el;Κούκλια;Koúklia
+el;Κούκλια;Kouklia
+el;Κουκά;Kouká
+el;Κορφή;Korfí
+el;Κορόβεια;Koróveia
+el;Kόρνος;Kórnos
+el;Κόρνος;Kórnos
+el;Κορνόκηπος;Kornókipos
+el;Κορμακίτης;Kormakítis
+el;Κοράκου;Korákou
+el;Κοφίνου;Kofínou
+el;Κονιά;Konia
+el;Κοντέμενος;Kontémenos
+el;Κοντέα;Kontéa
+el;Κώμη;Kómi
+el;Κώμα του Γιαλού;Kóma tou Gialoú
+el;Κολώνη;Koloni
+el;Κοκκινοτριμιθιά;Kokkinotrimithiá
+tr;Kokıno Trımıthıa;Kokkinotrimithiá
+el;Κόκκινα;Kókkina
+tr;Koçyatağı;Kotsiatis
+el;Κνώδαρα;Knódara
+el;Κλωνάρι;Klonári
+el;Κλήρου;Klírou
+tr;Klırou;Klírou
+el;Κλεπίνη;Klepíni
+el;Κλαυδιά;Klavdiá
+el;Κιβισίλι;Kivisíli
+el;Κίτι;Kíti
+en;Kiti, Cyprus;Kíti
+el;Κιδάσι;Kidasi
+el;Κισσούσα;Kissoúsa
+el;Κισσόνεργα;Kissonerga
+el;Κινούσα;Kinousa
+el;Κοιλίνια;Kilinia
+el;Κοίλη;Koíli
+el;Κοιλάνι;Koilani
+el;Κοιλάνεμος;Koilánemos
+el;Χρυσοχού;Chrysochou
+el;Χρυσηλιού;Chrysilioú
+tr;Yuvacık;Chrysilioú
+el;Χρυσίδα;Chrysída
+tr;Bahçelivler;Chrysída
+el;Χούλου;Choúlou
+el;Χόλη;Chóli
+el;Χολέτρια;Choletria
+el;Χλώρακας;Chlórakas
+en;Chloraka;Chlórakas
+el;Χοιροκοιτία;Choirokoitía
+el;Χάρκεια;Chárkeia
+de;Karaagac;Chárkeia
+el;Χανδριά;Chandriá
+el;Χαλλέρι;Challéri
+el;Άλασσα;Álassa
+el;Κιόμουρτζου;Kiómourtzou
+el;Κελοκέδαρα;Kelokedara
+el;Κελλιά;Kelliá
+el;Κελλάκι;Kelláki
+el;Κέδαρες;Kedares
+bg;Казафани;Ozanköy
+el;Οζανκόι;Ozanköy
+it;Kazafani;Ozanköy
+pl;Kazafani;Ozanköy
+es;Kazafani;Ozanköy
+nl;Kazafani;Ozanköy
+el;Κατύδατα;Katýdata
+el;Κάτω Ζώδεια;Káto Zódeia
+el;Κάτω Γιαλιά;Káto Gialiá
+el;Κάτω Πύργος;Káto Pýrgos
+en;Kato Polemidya;Káto Polemídia
+tr;Aşağı Binatlı;Káto Polemídia
+tr;Aşağı Polemitya;Káto Polemídia
+en;Kato Polemidhia;Káto Polemídia
+el;Κάτω Πολεμίδια;Káto Polemídia
+el;Κάτω Πλάτρες;Káto Plátres
+el;Κάτω Φλάσου;Káto Flásou
+en;Flasou;Káto Flásou
+el;Κάτω Μύλος;Káto Mýlos
+el;Κάτω Μονή;Káto Moní
+ru;Като-Лефкара;Kato Léfkara
+el;Κάτω Λεύκαρα;Kato Léfkara
+el;Κάτω Λακατάμεια;Káto Lakatámeia
+el;Κάτω Κουτραφάς;Káto Koutrafás
+el;Κατωκοπιά;Katokopiá
+el;Κάτω Κιβίδες;Káto Kivídes
+el;Κάτω Δρυς;Kato Drys
+el;Κάτω Δίκωμο;Káto Díkomo
+el;Κάτω Δευτερά;Káto Defterá
+el;Κάτω Αρόδες;Kato Arodes
+el;Κάτω Αρχιμανδρίτα;Káto Archimandríta
+el;Κάτω Αμίαντος;Káto Amíantos
+en;Kato Akourdalia;Kato Akourdhalia
+el;Κάτω Ακουρδάλια;Kato Akourdhalia
+el;Κάθηκας;Kathikas
+el;Καταλιόντας;Katalióntas
+el;Καρπάσεια;Karpáseia
+el;Κάρμι;Kármi
+el;Καραβοστάσι;Karavostási
+el;Καραβάς;Karavás
+el;Καραμούλληδες;Karamoullides
+el;Καράκουμι;Karákoumi
+el;Καπηλειό;Kapileió
+el;Καπέδες;Kapédes
+el;Καντάρα;Kantára
+ru;Кантара;Kantára
+el;Κανναβιού;Kannavioú
+el;Καννάβια;Kannávia
+el;Κανλί;Kanlí
+el;Καντού;Kantoú
+el;Καμινάρια;Kaminária
+el;Καμπυλή;Kampylí
+el;Καμπιά;Kampiá
+tr;Kampıa;Kampiá
+el;Καμπί;Kampí
+el;Καλυβάκια;Kalyvákia
+el;Καλοψίδα;Kalopsída
+el;Καλοπαναγιώτης;Kalopanagiótis
+el;Kapoúti;Kaló Chorío
+el;Καλό Χωρίο;Kaló Chorío
+el;Καπούτη;Kaló Chorío
+el;Καλό Χωριό;Kaló Chorió
+el;Kalón Chorión;Kaló Chorió
+el;Καλόν Χωριόν;Kaló Chorió
+el;Kálon Chorión;Kálo Chorió
+el;Κάλο Χωριό;Kálo Chorió
+el;Κάλον Χωριόν;Kálo Chorió
+en;Kalo Chorio, Larnaca;Kálo Chorió
+el;Καλογραία;Kalograía
+el;Καλλέπεια;Kallepia
+el;Καλιάνα;Kaliána
+el;Καλαβασός;Kalavasos
+el;Κακοπετριά;Kakopetriá
+el;Κιος;Kios
+en;Istinjon;Kios
+el;Ιστιντζιόν;Kios
+el;Ίνεια;Inia
+el;Χαλεύγα;Chalévga
+el;Γύψου;Gýpsou
+el;Γούρρη;Goúrri
+el;Γούφες;Goúfes
+el;Γουδί;Goudi
+el;Καζιβερά;Kaziverá
+el;Κιόνελι;Kióneli
+el;Γαστριά;Gastriá
+el;Γαληνόπορνη;Galinóporni
+el;Γαληνή;Galiní
+tr;Mehmetçik;Galáteia
+el;Γαλάτεια;Galáteia
+el;Γαλαταριά;Galatariá
+el;Γαλάτα;Galáta
+el;Γαϊδουράς;Gaïdourás
+el;Ammóchostos;Famagusta
+fr;Famagouste;Famagusta
+el;Αμμόχωστος;Famagusta
+it;Famagosta;Famagusta
+tr;Gazimağusa;Famagusta
+ru;Фамагуста;Famagusta
+tr;Mağusa;Famagusta
+bg;Фамагуста;Famagusta
+sr;Амохостос;Famagusta
+uk;Фамагуста;Famagusta
+oc;Famagosta;Famagusta
+ka;ფამაგუსტა;Famagusta
+el;Αγλαντζιά;Aglantziá
+el;Έξω Μετόχι;Éxo Metóchi
+el;Ευρύχου;Evrýchou
+el;Ευρέτου;Evrétou
+el;Αυδήμου;Avdímou
+el;Ερήμη;Erími
+el;Επισκοπειό;Episkopeió
+el;Επισκοπή;Episkopí
+el;Επιχό;Epichó
+el;Επτακώμη;Eptakómi
+el;Επταγώνεια;Eptagóneia
+el;Έγκωμη;Égkomi
+el;Έμπα;Emba
+en;Empa;Emba
+el;Άγιοι Ηλιόφωτοι;Ágioi Iliófotoi
+el;Ελεδιώ;Eledio
+el;Ελιά;Eliá
+el;Δράπεια;Drápeia
+el;Δύο Ποταμοί;Dýo Potamoí
+el;Δύμες;Dýmes
+el;Δρύμου;Dhrymou
+el;Δρούσια;Dhrousha
+en;Dromolaxia;Dhromolaxia
+el;Δρομολαξιά;Dhromolaxia
+el;Δρυνιά;Drinia
+el;Δωρός;Dorós
+el;Δωρά;Dorá
+el;Διόριος;Diórios
+el;Διερώνα;Dieróna
+el;Δερύνεια;Derýneia
+tr;Yukarı Derinya;Derýneia
+el;Δένεια;Déneia
+el;Δαυλός;Davlós
+el;Δάλι;Dáli
+tr;Dalı;Dáli
+el;Δελίκηπος;Delíkipos
+el;Τσερκέζοι;Tserkézoi
+el;Κιάδος;Kiádos
+el;Τσακίστρα;Tsakístra
+tr;Tsakıstra;Tsakístra
+el;Μπογάζι;Bogázi
+el;Μπέϊκιοϊ;Béïkioï
+el;Μπέλαπαϊς;Bélapaïs
+el;Άγιος Γεώργιος Καυκάλλου;Ágios Geórgios Kafkállou
+en;Ayios Yeoryios;Ágios Geórgios
+el;Άγιος Γεώργιος Αγκαθιώτης;Ágios Geórgios
+el;Άγιος Γεώργιος (Συλίκου);Ágios Geórgios
+tr;Ayvasıl;Ayios Vasilios
+el;Άγιος Τύχων;Ágios Týchon
+el;Άγιος Θωμάς;Ágios Thomás
+el;Άγιος Θεράπων;Ágios Therápon
+el;Άγιος Θεόδωρος;Ágios Theódoros
+en;Ayios Theodhoros;Ágios Theódoros
+en;Agios Theodoros, Larnaca;Ágios Theódoros
+el;Άγιος Συμεών;Ágios Symeón
+el;Άγιος Σωζόμενος;Ágios Sozómenos
+el;Άγιος Σέργιος;Ágios Sérgios
+el;Άγιος Φώτιος;Ágios Fótios
+el;Άγιος Παύλος;Ágios Pávlos
+tr;Yamac;Ágios Nikólaos
+tr;Madenköy;Ágios Nikólaos
+tr;Esentepe;Ágios Nikólaos
+el;Άγιος Μέμνων;Agios Memnon
+el;Άγιος Μάμας;Ágios Mámas
+el;Άγιος Κωνσταντίνος;Ágios Konstantínos
+el;Άγιος Χαρίτων;Ágios Charíton
+el;Άγιος Ισίδωρος;Ágios Isídoros
+el;Άγιος Ιωάννης;Ágios Ioánnis
+el;Άγιος Ιάκωβος;Ágios Iákovos
+el;Άγιος Ευστάθιος;Ágios Efstáthios
+el;Άγιος Ερμόλαος;Ágios Ermólaos
+el;Άγιος Επιφάνιος;Ágios Epifánios
+el;Άγιος Επίκτητος;Ágios Epíktitos
+el;Άγιος Ηλίας;Ágios IIías
+el;Άγιος Δομέτιος;Ágios Dométios
+el;Δήμος Αγίου Δομετίου;Ágios Dométios
+en;Ayios Dhometios;Ágios Dométios
+el;Άγιος Δημήτριος;Ágios Dimítrios
+en;Ayios Dhimitrios;Ágios Dimítrios
+el;Άγιος Δημητριανός;Ágios Dimitrianós
+en;Saint Athanasios;Ágios Athanásios
+tr;Ayatanas;Ágios Athanásios
+en;Ayios Atanasios;Ágios Athanásios
+tr;Ayatanasiyo;Ágios Athanásios
+en;Ayios Athanasios;Ágios Athanásios
+el;Άγιος Αθανάσιος;Ágios Athanásios
+en;St. Athanasios;Ágios Athanásios
+el;Άγιος Ανδρόνικος;Ágios Andrónikos
+el;Άγιος Αμβρόσιος;Ágios Amvrósios
+en;Ayios Amvrosios;Ágios Amvrósios
+el;Άγιοι Βαβατσινιάς;Ágioi Vavatsiniás
+el;Άγιοι Τριμιθιάς;Ágioi Trimithiás
+el;Αγία Βαρβάρα;Agía Varvára
+el;Αγία Βαρβάρα;Agia Varvara
+tr;Engindere or Ayvarvara;Agia Varvara
+el;Αγία Τριάς;Agía Triás
+el;Αγία Φύλα;Agia Fylaxis
+el;Αγία Φύλαξης;Agia Fylaxis
+de;Agia Napa;Ayia Napa
+bg;Агия Напа;Ayia Napa
+nl;Agia Napa;Ayia Napa
+ru;Айя-Напа;Ayia Napa
+el;Αγία Νάπα;Ayia Napa
+ka;აია-ნაპა;Ayia Napa
+uk;Ая-Напа;Ayia Napa
+pl;Ajia Napa;Ayia Napa
+el;Αγία Μαρινούδα;Agía Marinoúda
+el;Αγία Μαρίνα;Agía Marína
+en;Ayia Marina Chrysochous;Agía Marína
+en;Ayia Marina;Agía Marína
+el;Αγία Μαρίνα Χρυσοχούς;Agía Marína
+el;Αγία Ειρήνη;Agía Eiríni
+el;Αγία Άννα;Agía Ánna
+en;Agia Anna, Cyprus;Agía Ánna
+el;Αγιά;Agiá
+el;Αξύλου;Axýlou
+el;Αυλώνα;Avlóna
+el;Αυγόρου;Avgórou
+tr;Avghorou;Avgórou
+el;Αυγολίδα;Avgolída
+el;Αβδελλερό;Avdelleró
+el;Αθρακός;Athrakós
+el;Άχνα;Áchna
+el;Αθίενου;Athíenou
+el;Αθηένου;Athíenou
+el;Αστρομερίτης;Astromerítis
+el;Ασπρογιά;Asprogiá
+el;Ασώματος;Asómatos
+el;Ασκάς;Askás
+el;Ασίνου;Asínou
+el;Άσκεια;Áskeia
+el;Ασγάτα;Asgáta
+el;Αρτέμι;Artémi
+el;Άρσος;Ársos
+el;Αρναδί;Arnadí
+el;Άρμου;Ármou
+el;Αρμίνου;Armínou
+el;Εργάτες;Ergátes
+el;Αργάκι;Argáki
+el;Αργάκα;Argáka
+el;Άρδανα;Árdana
+el;Αρακαπάς;Arakapás
+el;Αραδίππου;Aradíppou
+en;Aradhippou;Aradíppou
+el;Αρεδιού;Aredioú
+el;Αψιού;Apsioú
+el;Απλίκι;Aplíki
+tr;Aplıç;Aplíki
+el;Απλάντα;Aplánta
+el;Αφάντεια;Afánteia
+el;Απεσιά;Apesiá
+el;Ανώγυρα;Anógyra
+el;Αγγολέμι;Angolémi
+el;Αγγλισίδες;Anglisídes
+el;Αγγαστίνα;Angastína
+el;Ανδρολίκου;Androlíkou
+en;Androlykou;Androlíkou
+el;Ανάγεια;Anágeia
+el;Αναβαργός;Anavargos
+el;Αναρίτα;Anaríta
+el;Αναφωτίδα;Anafotída
+el;Αναλιόντας;Analióntas
+el;Αναδιού;Anadioú
+en;Anadhiou;Anadioú
+el;Αμπελικού;Ampelikoú
+el;Αμαργέτη;Amargéti
+en;Amargheti;Amargéti
+el;Αμμαδιές;Ammadiés
+el;Άλωνα;Álona
+el;Αλόδα;Alóda
+el;Αληθινού;Alithinoú
+el;Αλεθρικό;Alethrikó
+el;Αλέκτορα;Aléktora
+el;Αλαμινός;Alaminós
+el;Αλάμπρα;Alámpra
+el;Ακρούντα;Akroúnta
+el;Ακουρσός;Akoursós
+tr;Akarsu;Akoursós
+el;Αχερίτου;Acherítou
+el;Αχέλεια;Achéleia
+el;Ακαπνού;Akapnoú
+el;Ακανθού;Akanthoú
+el;Ακάκι;Akáki
+el;Αγρός;Agrós
+el;Αγρολάδου;Agroládou
+el;Αγροκηπιά;Agrokipiá
+el;Αγρίδια;Agrídia
+el;Αγριδάκι;Agridáki
+el;Αγίρδα;Agírda
+el;Μένικο;Méniko
+tr;Menıko;Méniko
+en;Ayios Andreas;Agios Andreas
+el;Άγιος Ανδρέας;Agios Andreas
+el;Ομόνοια;Omonoia
+el;Τσιφλικούδια;Tsiflikoudia
+el;Άγιος Ιωάννης;Agios Ioannis
+el;Απόστολος Ανδρέας;Apostolos Andreas
+el;Άγιος Γεώργιος;Agios Georgios
+el;Παναγία Ευαγγελίστρια;Panagia Evangelistria
+el;Απόστολοι Πέτρος και Παύλος;Apostoloi Petros kai Pavlos
+el;Κάψαλος;Kapsalos
+el;Άγιος Νεκτάριος;Agios Nektarios
+el;Άγιος Νικόλαος;Agios Nikolaos
+el;Νεάπολη;Neapoli
+el;Αγία Ζώνη;Agia Zoni
+el;Αγία Τριάς;Agia Trias
+el;Αγία Νάπα;Agia Napa
+el;Άγιος Αντώνιος;Agios Antonios
+el;Τζαμί Τζεντίτ;Tziami Tzentit
+el;Αρναουτογειτονιά;Arnaoutogeitonia
+el;Καθολική;Katholiki
+el;Αγία Παρασκευή;Saint Paraskevi
+en;St. Paraskevi;Saint Paraskevi
+en;Ayios Athanasios;Ayios Athanasios (quarter)
+el;Άγιος Αθανάσιος;Ayios Athanasios (quarter)
+el;Άγιος Γεώργιος Φραγκούδη;Ayios Georgios Fragkoudi
+el;Άγιος Στυλιανός;Ayios Stylianos
+el;Απόστολος Λουκάς;Αpostle Lyke
+el;Ποταμός Γερμασόγειας;Germasogeia River
+el;Πάνθεα;Panthea
+el;Τίμιος Πρόδρομος;Timios Prodromos
+el;Χαλκούτσα;Chalkoutsa
+el;Κοντοβάθκια;Kontovathkia
+el;Άγιος Νικόλαος;Saint Nicholas
+en;St. Nicholas;Saint Nicholas
+el;Ανθούπολις;Anthoupolis
+el;Απόστολος Βαρνάβας;Apostle Barnabas
+el;Αρχάγγελος Μιχαήλ;Archangel Michael
+el;Μακάριος Γ΄;Makarios C
+en;Panagia Evangelístria;Panagia Evangelístria (Polemidhia)
+el;Παναγία Ευαγγελίστρια;Panagia Evangelístria (Polemidhia)
+en;Geroskipou Municipality;Geroskipou
+el;Δήμος Γεροσκήπου;Geroskipou
+el;Δήμος Λάρνακας;Larnaca Municipality
+el;Δήμος Δρομολαξιάς-Μενεού;Dromolaxia-Meneou Municipality
+en;Dromolaxia–Meneou Municipality;Dromolaxia-Meneou Municipality
+el;Σταυρός;Stavros
+el;Χρυσή Ακτή;Chrysi Akti
+el;Ακρόπολις;Akropolis
+el;Χρυσοσπηλιώτισσα;Chrysospiliotissa
+el;Άγιος Λουκάς;Agios Loukas
+el;Σαλαμίς;Salamis
+el;Παλαιά Αμμόχωστος;Palaia Ammochostos
+el;Πάνω Κερύνεια;Pano Kyrenia
+el;Κάτω Κερύνεια;Kato Keryneia
+el;Πάνω Γειτονιά;Pano Geitonia
+el;Πετρογειτονιά;Petrogeitonia
+el;Έξω Γειτονιά;Exo Geitonia
+el;Αγία Παρασκευή;Agia Paraskevi
+el;Άγιος Θεόδωρος;Agios Theodoros
+el;Άγιος Μηνάς;Agios Minas
+el;Αγία Αναστασία;Agia Anastasia
+el;Πρόδρομος;Prodromos
+el;Τουρκική Συνοικία;Tourkiki Sιnikia
+el;Άγιος Παύλος;Agios Pavlos
+el;Άγιοι Κωνσταντίνος και Ελένη;Agioi Konstantinos kai Eleni
+el;Άγιος Μάμας;Agios Mamas
+el;Αρχάγγελος-Ανθούπολη;Archangelos - Anthoupoli
+el;Άγιος Ελευθέριος;Agios Eleftherios
+el;Άγιος Βασίλειος;Agios Vasileios
+el;Άγιος Δημήτριος;Agios Dimitrios
+el;Απόστολος Βαρνάβας και Άγιος Μακάριος;Apostolos Varnavas kai Agios Makarios
+el;Εθνομάρτυρας Κυπριανός;Ethnomartyras Kyprianos
+el;Χρυσελεούσα;Chryseleousa
+el;Άγιοι Ομολογητές;Ayioi Omoloyites
+en;Agioi Omologites;Ayioi Omoloyites
+el;Άγιος Αντώνιος;Ayios Antonios
+en;Agios Antonios;Ayios Antonios
+el;Άγιος Κασσιανός;Agios Kassianos
+el;Άγιος Σάββας;Agios Savvas
+el;Αγία Μαρίνα Κελοκεδάρων;Ayia Marina Kelokedharon
+el;Δήμος Πάφου;Paphos Municipality
+el;Άγιος Θεόδωρος;Ayios Theodoros
+en;Polis, Cyprus;Polis
+el;Πόλη Χρυσοχούς;Polis
+el;Δήμος Πόλεως Χρυσοχούς;Polis
+el;Άγιος Παύλος;Ayios Pavlos
+el;Άρσος;Arsos
+el;Άγιοι Ανάργυροι Ι;Agioi Anargyroi I
+el;Άγιοι Ανάργυροι ΙΙ;Agioi Anargyroi II
+el;Άγιος Φανούριος;Agios Fanourios
+el;Απόστολος Λουκάς;Apostolos Loukas
+el;Αρχιεπίσκοπος Μακάριος ΙΙΙ;Archiepiskopos Makarios III
+el;Βλάχος;Vlachos
+el;Καμάρες;Kamares
+el;Κόκκινες;Kokkines
+el;Σωτήρος;Sotiros
+el;Τσακιλερό;Tsakilero
+el;Χρυσοπολίτισσα;Chrysopolitissa

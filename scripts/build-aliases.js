@@ -27,10 +27,13 @@ const path = require('path');
 // traités séparément, voir build-me-aliases.js/build-xk-aliases.js — pas de fichier de codes
 // postaux GeoNames pour ces deux-là). La Grèce (GR) non plus : voir build-gr-aliases.js. La Géorgie
 // (GE) non plus, dernier ajout en date : voir build-ge-aliases.js.
-const COUNTRIES = ['TR']; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/
-// SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO/GI/MD/BY/UA
+const COUNTRIES = []; // AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/
+// SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO/GI/MD/BY/UA/TR/GE/AZ/CY
 // déjà générés et commités (les leurs restent inchangés)
-// déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo|gi|md|by|ua.txt)
+// déjà générés et commités (public/data/aliases-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo|gi|md|by|ua|tr|ge|az|cy.txt)
+// — l'Arménie et la Syrie, ajoutées dans le même passage qu'AZ/CY, n'ont pas de fichier alias
+// (voir build-am-communes.js/build-sy-communes.js : reconstruction par nom/code de gouvernorat,
+// aucun geonameid fiable à relier à alternateNamesV2 dans ce même passage).
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 // Les langues couvertes par l'interface (voir public/js/i18n.js, SUPPORTED) — un alias dans une
 // langue non encore proposée ne servirait à rien pour l'instant. "lb" (luxembourgeois) depuis
@@ -174,7 +177,11 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // aucun statut légal propre), ni l'arménien/l'azéri (minorités numériquement importantes à
 // Samtskhé-Djavakhétie/Kvemo Kartli mais sans statut officiel ou régional), ne remplissent le critère
 // "statut légal réel du pays" déjà appliqué à chaque ajout précédent.
-const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs', 'is', 'fo', 'gag', 'be', 'ru', 'uk', 'crh', 'tr', 'ka', 'ab']);
+// Azerbaïdjan/Chypre, dernier ajout en date : "az" (azerbaïdjanais, ISO 639-1) depuis l'ajout de
+// l'Azerbaïdjan — seule langue d'Etat (art. 21 de la Constitution). Chypre n'ajoute aucune langue :
+// le grec ("el") et le turc ("tr"), ses deux langues officielles, sont déjà couverts depuis
+// respectivement la Grèce et la Turquie.
+const SUPPORTED_LANGS = new Set(['fr', 'en', 'es', 'pt', 'nl', 'de', 'lb', 'it', 'rm', 'nds', 'hsb', 'frr', 'sc', 'fur', 'lld', 'mt', 'lij', 'nrf-je', 'nrf-gg', 'csb', 'rue', 'ruo', 'ca', 'eu', 'gl', 'oc', 'br', 'co', 'mwl', 'ga', 'gv', 'cy', 'gd', 'kw', 'sco', 'cs', 'pl', 'sk', 'hu', 'sl', 'hr', 'bs', 'sr', 'da', 'no', 'sv', 'fi', 'sq', 'cnr', 'mk', 'ro', 'el', 'bg', 'lv', 'lt', 'et', 'ltg', 'vro', 'sgs', 'is', 'fo', 'gag', 'be', 'ru', 'uk', 'crh', 'tr', 'ka', 'ab', 'az']);
 // Le sorabe (voir "Langues" du README) est traité comme une SEULE langue dans l'interface bien que
 // GeoNames distingue haut-sorabe ("hsb", Saxe) et bas-sorabe ("dsb", Brandebourg) — deux langues très
 // proches et mutuellement peu intelligibles à l'écrit, mais dont ni l'une ni l'autre n'a un nombre de
@@ -326,7 +333,25 @@ const NAME_OVERRIDES = {
   'Incekum': 'İncekum',
   'Kutuklu': 'Kütüklü',
   'Karaburcak': 'Karaburçak',
-  'Alacami': 'Alaçami'
+  'Alacami': 'Alaçami',
+  // Azerbaïdjan/Chypre, dernier ajout en date — voir build-country-communes.js pour le détail complet
+  // de chaque correction, reproduites ici à l'identique.
+  'Baku': 'Bakı',
+  'Ganja': 'Gəncə',
+  'Sumgayit': 'Sumqayıt',
+  'Khirdalan': 'Xırdalan',
+  'Sheki': 'Şəki',
+  'Bilajari': 'Biləcəri',
+  'Barda': 'Bərdə',
+  'Shamkhir': 'Şəmkir',
+  'Aghjabadi': 'Ağcabədi',
+  'Shamakhi': 'Şamaxı',
+  'Aghdam': 'Ağdam',
+  'Jalilabad': 'Cəlilabad',
+  'Imishli': 'İmişli',
+  'Limassol': 'Lemesos',
+  'Larnaca': 'Larnaka',
+  'Paphos': 'Pafos'
 };
 // Même correction que build-country-communes.js (voir son commentaire pour le détail) : le dump
 // GeoNames croate confond le Ð latin (Eth, U+00D0) avec le VRAI Đ croate (D barré, U+0110) dans 48

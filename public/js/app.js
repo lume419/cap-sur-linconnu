@@ -175,7 +175,9 @@
   // ISO malgré tout pour rester cohérent avec le reste de cette table, jamais mélangée entre symbole
   // et code ISO selon la devise (voir CURRENCY_GLYPH juste en dessous pour le vrai symbole, réservé
   // au sélecteur de devise).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL' };
+  // Arménie/Azerbaïdjan/Syrie, dernier ajout en date : AMD/AZN/SYP suivent la même règle (code ISO
+  // plutôt qu'un symbole ici, quel que soit le vrai symbole disponible — voir CURRENCY_GLYPH plus bas).
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL', AMD: 'AMD', AZN: 'AZN', SYP: 'SYP' };
   // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
   // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
   // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
@@ -203,7 +205,17 @@
   // système courantes, aucun risque de caractère manquant comparable.
   // GEL (lari géorgien) : vrai symbole "₾" utilisable sans risque — adopté par la Banque nationale de
   // Géorgie en 2014, normalisé Unicode dès 2015 (Unicode 8.0), plus de dix ans d'ancienneté.
-  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾' };
+  // AMD (dram arménien) : vrai symbole "֏" (U+058F ARMENIAN DRAM SIGN), normalisé Unicode 6.1 (2012)
+  // — plus de dix ans d'ancienneté, même palier de confiance que "₾"/"₺" ci-dessus.
+  // AZN (manat azerbaïdjanais) : vrai symbole "₼" (U+20BC MANAT SIGN), adopté par la Banque centrale
+  // d'Azerbaïdjan en 2006, normalisé Unicode 7.0 (2014) — aucune ambiguïté avec le manat turkmène
+  // (celui-ci n'a pas de code Unicode dédié, généralement abrégé "m"/"T").
+  // SYP (livre syrienne) : AUCUN symbole Unicode dédié n'existe pour cette devise — abrégée "LS"/"SP"
+  // en lettres latines ou "ل.س" en arabe selon les sources, sans forme unique qui domine. Le glyphe
+  // arabe "ل.س" est retenu ici (même logique que "дин."/"ден" pour le dinar serbe/le denar
+  // macédonien plus haut : l'abréviation réellement utilisée dans le script national du pays plutôt
+  // qu'une romanisation).
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾', AMD: '֏', AZN: '₼', SYP: 'ل.س' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :

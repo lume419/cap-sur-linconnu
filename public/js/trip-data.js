@@ -263,7 +263,79 @@
       // extension aux grands axes nationaux (georgiatoday.ge, juin 2026) — aucune vignette non plus.
       // Devise : GEL (lari géorgien), hors zone euro, flottante — 1 EUR ≈ 3,04 GEL début septembre
       // 2026 (xe.com/valutafx.com).
-      GE: { code:'GE', name:'Géorgie', file:'communes-ge.txt', hasToll:false, aliasFile:'aliases-ge.txt', currency:'GEL' }
+      GE: { code:'GE', name:'Géorgie', file:'communes-ge.txt', hasToll:false, aliasFile:'aliases-ge.txt', currency:'GEL' },
+      // Arménie, dernier ajout en date : `hasToll:false` — aucun péage routier réel aujourd'hui (le
+      // seul dispositif ayant existé, un droit d'usage pour les véhicules immatriculés à l'étranger,
+      // a été aboli en 2018 ; le corridor Nord-Sud en construction n'a, à ce jour, aucun péage confirmé
+      // par son propre maître d'ouvrage — armroad.am — malgré des annonces non officielles), aucune
+      // vignette non plus. Devise : AMD (dram arménien), hors zone euro, flottante — 1 EUR ≈ 420 AMD
+      // début septembre 2026 (xe.com). Pas de fichier alias : aucun rapprochement altnames/AM.txt
+      // fiable construit pour cet ajout (voir build-am-communes.js, reconstruction par nom depuis la
+      // poste arménienne plutôt que par geonameid), comme pour la France ou le ladin ailleurs dans ce
+      // projet. GEONAMES N'A AUCUN CODE POSTAL POUR CE PAYS (export/zip/AM.zip -> 404, vérifié, comme
+      // la Géorgie/le Monténégro/le Kosovo) : reconstruit à la place depuis la liste officielle des
+      // 775 bureaux de poste d'Haypost (la poste nationale arménienne elle-même — une source PLUS
+      // directe que yell.ge pour la Géorgie), rapproché par nom (voir build-am-communes.js) — 458
+      // communes retenues.
+      AM: { code:'AM', name:'Arménie', file:'communes-am.txt', hasToll:false, currency:'AMD' },
+      // Azerbaïdjan, dernier ajout en date : `hasToll:true` — un vrai péage proportionnel à la
+      // distance existe (route M-1 Bakou-Quba, 129 km, ouverte le 20/10/2023, gérée par l'AAYDA/
+      // Agence d'Etat des routes, barème officiel aayda.gov.az/uploads/1698392863.pdf), rejoignant le
+      // groupe France/Espagne/Italie/Turquie plutôt que celui des pays à vignette — voir
+      // TOLL_RATE_BY_COUNTRY.AZ plus bas pour le détail du calcul. Devise : AZN (manat azerbaïdjanais),
+      // hors zone euro, quasi-arrimée au dollar — 1 EUR ≈ 1,85 AZN début septembre 2026 (xe.com).
+      // LIMITE IMPORTANTE À CONNAÎTRE, documentée ici par transparence plutôt que dissimulée : les
+      // frontières terrestres de l'Azerbaïdjan sont fermées à l'entrée des voyageurs depuis mars 2020
+      // (régime de quarantaine spéciale instauré pour le covid, prolongé sans interruption depuis —
+      // dernière prolongation connue jusqu'au 1er octobre 2026, motif désormais sécuritaire selon le
+      // président Aliyev lui-même, septembre 2024 ; sources concordantes : oc-media.org, gov.uk/
+      // foreign-travel-advice/azerbaijan, thegeorgianguide.com). Un road trip en voiture ENTRANT en
+      // Azerbaïdjan depuis la Géorgie n'est donc pas physiquement réalisable pour un touriste à ce
+      // jour — seule la sortie du pays par voie terrestre est tolérée. Pays ajouté malgré cette
+      // limite (choix explicite de l'utilisateur, comme la Bosnie-Herzégovine a été ajoutée malgré des
+      // codes postaux incomplets) : la situation est documentée comme actuelle et susceptible
+      // d'évoluer, pas comme une garantie de faisabilité du trajet généré.
+      AZ: { code:'AZ', name:'Azerbaïdjan', file:'communes-az.txt', hasToll:true, aliasFile:'aliases-az.txt', currency:'AZN' },
+      // Syrie, dernier ajout en date : `hasToll:false` — aucun péage routier en vigueur à ce jour
+      // (2026) ; le gouvernement post-2024 étudie deux corridors à péage sous concession privée (BOT),
+      // mais rien n'est construit ni opérationnel (Enab Baladi, 3 juillet 2026, citant le directeur
+      // général de l'Établissement général des routes). Devise : SYP (nouvelle livre syrienne,
+      // introduite le 1er/3 janvier 2026, 100 anciennes livres = 1 nouvelle — décret n°293, remplacement
+      // quasi achevé mi-2026). GEONAMES N'A AUCUN CODE POSTAL POUR CE PAYS, et — À LA DIFFÉRENCE de
+      // l'Arménie/la Géorgie/le Monténégro/le Kosovo ci-dessus — la Syrie n'a tout simplement AUCUN
+      // système de codes postaux en usage réel (courrier distribué par gouvernorat/district/
+      // sous-district/localité, sans code numérique standard ; aucune source tierce fiable identifiée,
+      // les agrégateurs commerciaux consultés n'étant pas garantis non inventés). PREMIER CAS DE CE
+      // GENRE DANS CE PROJET : le champ "cp" utilise ici le code de GOUVERNORAT ISO 3166-2:SY (14
+      // gouvernorats, ex. "SY-DI" Damas) plutôt qu'un vrai code postal — désambiguïsation nettement
+      // plus grossière, choix explicite de l'utilisateur (voir build-sy-communes.js et README, "Pays
+      // couverts"). Couverture volontairement limitée aux localités d'au moins 1 000 habitants (126
+      // communes) : le champ population du dump GeoNames syrien est très lacunaire (guerre civile),
+      // une couverture exhaustive aurait noyé les vraies villes sous des milliers de hameaux à
+      // population inconnue de toute façon peu discernables sous un même code de gouvernorat. Pas de
+      // fichier alias (comme l'Arménie ci-dessus). Aucun ferry pour véhicule de tourisme identifié
+      // (voir FERRY_ROUTES plus bas) : la ligne Mersin-Lattaquié est un cargo Ro-Ro pour remorques
+      // (65 places, 12 passagers seulement), pas un ferry touristique.
+      SY: { code:'SY', name:'Syrie', file:'communes-sy.txt', hasToll:false, currency:'SYP' },
+      // Chypre, dernier ajout en date : `hasToll:false` — aucun péage routier ni vignette (réseau
+      // autoroutier A1/A2/A3/A5/A6/A7/A9 entièrement gratuit). Devise : euro (zone euro depuis 2008),
+      // aucun champ `currency` nécessaire. Le grec et le turc, ses deux langues officielles, sont déjà
+      // couverts par ce projet depuis respectivement la Grèce et la Turquie — aucune langue nouvelle
+      // ajoutée pour ce pays (le grec/turc chypriotes restent des variétés essentiellement ORALES,
+      // sans norme écrite distincte utilisée à l'officiel/au numérique — voir README, "Langues").
+      // GeoNames traite l'île entière (nord compris) sous un même code pays CY, y compris pour les
+      // codes postaux (mêmes coordonnées exactes entre le dump et le fichier de codes postaux pour
+      // Kyrénia/Famagouste/Morphou) — repris tel quel, sans exclusion ni retouche éditoriale politique
+      // (même principe déjà appliqué au Kosovo/à la Crimée/à la Transnistrie/à l'Abkhazie ailleurs
+      // dans ce projet). Deux corrections `NAME_OVERRIDES` seulement, limitées aux villes SANS
+      // ambiguïté de contrôle territorial (zone sous administration de la République de Chypre) :
+      // Limassol -> Lemesos, Larnaca -> Larnaka, Paphos -> Pafos (déjà la forme utilisée par le champ
+      // région GeoNames de chaque ligne) — Nicosie/Kyrénia/Famagouste ne sont PAS corrigées (Nicosie
+      // reste le nom utilisé jusque dans les communications officielles anglophones de la République
+      // de Chypre elle-même ; Kyrénia/Famagouste sont administrées de facto par la partie chypriote
+      // turque, non reconnue internationalement — y substituer la forme grecque trancherait
+      // éditorialement une question politique disputée).
+      CY: { code:'CY', name:'Chypre', file:'communes-cy.txt', hasToll:false, aliasFile:'aliases-cy.txt' }
     };
 
     var TRANSPORT = {
@@ -302,7 +374,13 @@
       // utilitaire) 4 040 TL dont pont 1 870 TL -> 2 170 TL / 384 km ≈ 5,65 TL/km ; catégorie 6
       // (motocyclette) 1 795 TL dont pont 820 TL -> 975 TL / 384 km ≈ 2,54 TL/km. Convertis au taux
       // ~56,3 TRY/EUR retenu pour COUNTRIES.TR.currency.
-      TR: { 1: 0.063, 2: 0.101, 5: 0.045 }
+      TR: { 1: 0.063, 2: 0.101, 5: 0.045 },
+      // Azerbaïdjan : dérivé du barème officiel AAYDA pour la route M-1 Bakou-Quba (129 km, unique
+      // tronçon à péage réel du pays) — 0,093 AZN/km catégorie 1 (voiture), 0,05 AZN/km catégorie 6
+      // (moto), converti au taux ~1,85 AZN/EUR retenu pour COUNTRIES.AZ.currency. Catégorie 2 (van)
+      // extrapolée au même ratio classe2/classe1 que la grille France (0,230/0,148 ≈ ×1,554), faute de
+      // tarif AAYDA dédié aux véhicules utilitaires légers dans les sources consultées.
+      AZ: { 1: 0.050, 2: 0.078, 5: 0.027 }
     };
 
     var TOLL_MIN_DISTANCE_KM = 60;
@@ -743,7 +821,31 @@
       // profil proche de l'Ukraine/la Moldavie ci-dessus. Palier "moyen" calé sur ce loyer médian
       // (~€45) converti au taux ~3,04 GEL/EUR retenu pour COUNTRIES.GE.currency (~130 GEL), mêmes
       // ratios 0,55×/2× que la Moldavie/la Biélorussie/l'Ukraine/la Turquie ci-dessus.
-      GEL: { economique: 70, moyen: 130, confortable: 260 }
+      GEL: { economique: 70, moyen: 130, confortable: 260 },
+      // Arménie : Erevan (ville la plus chère du pays) — profil proche de la Géorgie/l'Ukraine
+      // voisines (pays moins cher que la zone euro), aucune source de loyer vacances aussi directe
+      // que pour les autres devises de cette table n'a été vérifiée pour cet ajout précis ; palier
+      // "moyen" calé sur une estimation prudente cohérente avec le reste de la région (~€40)
+      // convertie au taux ~420 AMD/EUR retenu pour COUNTRIES.AM.currency (~17 000 AMD), mêmes ratios
+      // 0,55×/2× que la Géorgie/l'Ukraine/la Moldavie ci-dessus — à affiner si une source de loyer
+      // vacances dédiée à Erevan est identifiée plus tard.
+      AMD: { economique: 9500, moyen: 17000, confortable: 34000 },
+      // Azerbaïdjan : Bakou (ville la plus chère du pays, capitale pétrolière) — nettement plus chère
+      // que ses voisines caucasiennes Erevan/Tbilissi, profil plus proche d'Istanbul ; même réserve
+      // que pour l'Arménie ci-dessus (aucune source de loyer vacances dédiée vérifiée pour cet ajout
+      // précis). Palier "moyen" calé sur une estimation prudente (~€60) convertie au taux ~1,85
+      // AZN/EUR retenu pour COUNTRIES.AZ.currency (~110 AZN), mêmes ratios 0,55×/2×.
+      AZN: { economique: 60, moyen: 110, confortable: 220 },
+      // Syrie : la nouvelle livre syrienne n'a été mise en circulation que le 1er/3 janvier 2026 (voir
+      // COUNTRIES.SY.currency) — AUCUN taux de change EUR/nouvelle-SYP stable ni AUCUNE donnée de
+      // loyer vacances fiable n'a pu être vérifié pour cet ajout (marché du logement touristique
+      // quasi inexistant après la guerre civile). Palier "moyen" calé sur une estimation TRÈS prudente
+      // (~€25, profil "après-guerre, coût de la vie bas") convertie à un taux approximatif de
+      // ~160 SYP/EUR (ordre de grandeur déduit du ratio de redénomination 100:1 et des derniers cours
+      // informels connus de l'ancienne livre, PAS une source de change vérifiée) — à corriger dès
+      // qu'un taux fiable existe plutôt que de laisser un placeholder non documenté ; ratios 0,55×/2×
+      // identiques au reste de la table par défaut.
+      SYP: { economique: 2200, moyen: 4000, confortable: 8000 }
     };
 
   var COUNTRY_LIST = Object.keys(COUNTRIES);

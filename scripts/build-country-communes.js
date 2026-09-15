@@ -5,12 +5,17 @@
 const fs = require('fs');
 const path = require('path');
 
-const COUNTRIES = ['TR']; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+const COUNTRIES = []; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
 // d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/
-// FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO/GI/MD/BY/UA sont déjà générés et commités
+// FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO/GI/MD/BY/UA/TR/GE/AZ/CY sont déjà générés et commités
 // (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|
-// im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo|gi|md|by|ua.txt), pas la peine de
-// retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout. La Grèce (GR)
+// im|dk|no|se|fi|ax|al|rs|mk|ro|bg|lv|lt|ee|va|is|fo|gi|md|by|ua|tr|ge|az|cy.txt), pas la peine de
+// retélécharger leurs sources pour les régénérer à l'identique à chaque nouvel ajout. L'Arménie (AM)
+// et la Syrie (SY), ajoutées dans le même passage qu'AZ/CY, N'UTILISENT PAS ce script standard :
+// aucun fichier de codes postaux GeoNames pour ces deux pays non plus, voir build-am-communes.js
+// (reconstruction par nom depuis la poste arménienne, Haypost) et build-sy-communes.js (aucun
+// système de codes postaux réel en Syrie — code de gouvernorat ISO 3166-2:SY utilisé à la place).
+// La Grèce (GR)
 // n'utilise PAS ce script standard : aucun fichier de codes postaux GeoNames pour ce pays, voir
 // build-gr-communes.js (reconstruction depuis une source tierce). Monténégro (ME) et Kosovo (XK)
 // n'utilisent PAS ce script standard : aucun fichier de codes postaux GeoNames pour ces deux pays,
@@ -355,7 +360,45 @@ const NAME_OVERRIDES = {
   'Incekum': 'İncekum',
   'Kutuklu': 'Kütüklü',
   'Karaburcak': 'Karaburçak',
-  'Alacami': 'Alaçami'
+  'Alacami': 'Alaçami',
+  // Azerbaïdjan : treize corrections parmi les plus grandes communes du pays (échantillon des ~30
+  // plus grandes, reste déjà bon), toutes confirmées par la liste de noms alternatifs GeoNames de
+  // la même entrée (alphabet latin azerbaïdjanais officiel depuis 1991, ə/ç/ğ/ı/ö/ş/ü/İ) — même
+  // méthode que pour la Turquie voisine (diacritiques manquants dans le champ "name", présents dans
+  // "alternatenames"). "Baku" (exonyme international très répandu) -> "Bakı" ; "Ganja" -> "Gəncə" ;
+  // "Sumgayit" -> "Sumqayıt" ; "Khirdalan" -> "Xırdalan" ; "Sheki" -> "Şəki" ; "Bilajari" ->
+  // "Biləcəri" ; "Barda" -> "Bərdə" ; "Shamkhir" -> "Şəmkir" ; "Aghjabadi" -> "Ağcabədi" ;
+  // "Shamakhi" -> "Şamaxı" ; "Aghdam" -> "Ağdam" ; "Jalilabad" -> "Cəlilabad" ; "Imishli" ->
+  // "İmişli". "Yevlakh"/"Yevlax", elle, n'est PAS corrigée : aucune forme à diacritiques dans sa
+  // propre liste de noms alternatifs (contrairement aux treize cas ci-dessus), la variante kh/x
+  // n'étant qu'une question de translittération plutôt qu'un vrai diacritique manquant.
+  'Baku': 'Bakı',
+  'Ganja': 'Gəncə',
+  'Sumgayit': 'Sumqayıt',
+  'Khirdalan': 'Xırdalan',
+  'Sheki': 'Şəki',
+  'Bilajari': 'Biləcəri',
+  'Barda': 'Bərdə',
+  'Shamkhir': 'Şəmkir',
+  'Aghjabadi': 'Ağcabədi',
+  'Shamakhi': 'Şamaxı',
+  'Aghdam': 'Ağdam',
+  'Jalilabad': 'Cəlilabad',
+  'Imishli': 'İmişli',
+  // Chypre : trois corrections, seulement dans les villes SANS ambiguïté de contrôle territorial
+  // (zone sous contrôle de la République de Chypre, à majorité grecque incontestée) — "Limassol"
+  // (exonyme anglais) -> "Lemesos", "Larnaca" -> "Larnaka", "Paphos" -> "Pafos" (chacune déjà la
+  // forme utilisée par le champ région GeoNames de la même ligne). Nicosia/Kyrenia/Famagusta ne
+  // sont PAS corrigées ici : Nicosie est une capitale divisée (zone tampon ONU) où "Nicosia" reste
+  // le nom utilisé jusque dans les communications officielles anglophones de la République de
+  // Chypre elle-même, et Kyrenia/Famagusta se trouvent dans la partie nord sous administration
+  // chypriote-turque de facto (non reconnue internationalement) — y substituer la forme grecque
+  // "Keryneia"/"Ammochostos" reviendrait à trancher éditorialement une question politique disputée,
+  // à l'inverse de la règle "GeoNames tel quel, sans retouche éditoriale" déjà suivie pour le
+  // Kosovo/la Crimée/la Transnistrie/l'Abkhazie ailleurs dans ce projet.
+  'Limassol': 'Lemesos',
+  'Larnaca': 'Larnaka',
+  'Paphos': 'Pafos'
 };
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth

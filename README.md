@@ -127,14 +127,14 @@ les trois premières routes.
 
 ## Pays couverts
 
-Un pays à la fois plutôt que tout d'un coup (à l'exception de deux ajouts en date, voir plus bas)
+Un pays à la fois plutôt que tout d'un coup (à l'exception de trois ajouts en date, voir plus bas)
 — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
 Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
 Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie, Roumanie, Lettonie, Lituanie, Estonie, le
-Vatican, l'Islande, les îles Féroé, Gibraltar, la Moldavie, la Biélorussie, l'Ukraine, la Turquie et
-la Géorgie pour l'instant, d'autres viendront. Chaque pays
+Vatican, l'Islande, les îles Féroé, Gibraltar, la Moldavie, la Biélorussie, l'Ukraine, la Turquie,
+la Géorgie, l'Arménie, l'Azerbaïdjan, la Syrie et Chypre pour l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -809,6 +809,63 @@ ajoute deux à trois choses, indépendamment des autres :
    paramétrées par devise) ; la Bosnie-Herzégovine fut le premier pays `hasToll:true` hors zone euro
    ici couvert, rejointe depuis par la Serbie et la Macédoine du Nord — leur péage reste affiché en €
    comme celui de la France ou de la Croatie, jamais en RSD/MKD/KM.
+
+**L'Arménie, l'Azerbaïdjan, la Syrie et Chypre**, dernier ajout en date (les quatre en une seule fois,
+choix explicite de l'utilisateur comme pour Gibraltar/la Moldavie/la Biélorussie/l'Ukraine plus haut).
+**L'Arménie** : GeoNames n'a AUCUN fichier de codes postaux pour ce pays (export/zip/AM.zip -> 404,
+comme la Géorgie/le Monténégro/le Kosovo) — reconstruit depuis la liste officielle des 775 bureaux de
+poste d'Haypost (la poste nationale arménienne elle-même, une source plus directe encore que yell.ge
+pour la Géorgie), rapprochée par nom (`scripts/build-am-communes.js`, 458 communes retenues sur 775
+bureaux, dont Erevan renommée depuis "Etchmiadzin"/"Echmiadzin" vers son nom officiel actuel
+"Vagharshapat"). `hasToll:false` (aucun péage réel — le seul dispositif ayant existé, un droit d'usage
+pour véhicules étrangers, a été aboli en 2018). Devise `AMD` (dram arménien), `CURRENCY_GLYPH` utilise
+le vrai symbole "֏" (U+058F, normalisé Unicode 6.1/2012). Pas de fichier alias pour cet ajout (comme
+la France). **L'Azerbaïdjan** : pipeline standard, GeoNames publie un vrai fichier de codes postaux —
+4 277 communes retenues sur 5 018 dédoublonnées, treize corrections `NAME_OVERRIDES` parmi les plus
+grandes villes du pays (alphabet latin azerbaïdjanais officiel depuis 1991 — "Baku"->"Bakı",
+"Ganja"->"Gəncə"... voir `scripts/build-country-communes.js`). `hasToll:true` : un vrai péage
+proportionnel à la distance existe (route M-1 Bakou-Quba, 129 km, barème officiel AAYDA). Devise
+`AZN` (manat azerbaïdjanais), symbole "₼" (U+20BC, normalisé Unicode 7.0/2014, aucune ambiguïté avec
+le manat turkmène). **Limite importante documentée par transparence** : les frontières terrestres de
+l'Azerbaïdjan sont fermées à l'entrée des voyageurs depuis mars 2020 (prolongé sans interruption
+depuis, dernière échéance connue le 1er octobre 2026, motif désormais sécuritaire selon le président
+Aliyev) — un road trip y entrant en voiture n'est donc pas physiquement réalisable aujourd'hui ; pays
+ajouté malgré cette limite (choix explicite de l'utilisateur), à surveiller plutôt qu'à considérer
+comme définitif. **La Syrie** : ni fichier GeoNames ni source tierce fiable identifiée pour les codes
+postaux — et, à la différence des trois cas ci-dessus, la Syrie n'a tout simplement AUCUN système de
+codes postaux en usage réel (courrier distribué par gouvernorat/district/sous-district, sans code
+numérique). PREMIER CAS DE CE GENRE dans ce projet : le champ "cp" utilise le code de gouvernorat ISO
+3166-2:SY (14 gouvernorats, ex. "SY-DI" Damas) plutôt qu'un vrai code postal (`scripts/
+build-sy-communes.js`), couverture volontairement limitée aux localités d'au moins 1 000 habitants
+(126 communes, champ population très lacunaire dans le dump syrien) — quatre corrections
+`NAME_OVERRIDES` parmi les plus grandes villes ("Aleppo"->"Halab", "Damascus"->"Damashq",
+"Homs"->"Hims", "Latakia"->"Al Ladhiqiyah", translittérations arabes déjà présentes dans les noms
+alternatifs GeoNames). `hasToll:false` (aucun péage en vigueur ; des corridors à péage sous concession
+privée sont à l'étude mi-2026, rien de construit). Devise `SYP` (nouvelle livre syrienne, introduite
+le 1er/3 janvier 2026, 100 anciennes livres = 1 nouvelle) — `CURRENCY_GLYPH` utilise l'abréviation
+arabe "ل.س" (aucun symbole Unicode dédié n'existe pour cette devise) ; palier `BUDGET_PRICE_MAX.SYP`
+documenté comme une estimation TRÈS prudente faute de taux de change ou de marché du logement
+touristique vérifiable après la guerre civile. Aucun ferry pour véhicule de tourisme identifié (la
+ligne Mersin-Lattaquié est un cargo Ro-Ro pour remorques, pas un ferry touristique). **Chypre** :
+pipeline standard, GeoNames publie un vrai fichier de codes postaux couvrant l'île entière (nord
+compris, mêmes coordonnées exactes entre le dump et le fichier de codes postaux pour Kyrénia/
+Famagouste/Morphou — repris tel quel, sans exclusion ni retouche éditoriale politique, même principe
+déjà appliqué au Kosovo/à la Crimée/à la Transnistrie/à l'Abkhazie). Trois corrections
+`NAME_OVERRIDES` limitées aux villes SANS ambiguïté de contrôle territorial (Limassol->Lemesos,
+Larnaca->Larnaka, Paphos->Pafos) ; Nicosie/Kyrénia/Famagouste ne sont PAS corrigées (Nicosie reste le
+nom utilisé jusque dans les communications officielles anglophones de la République de Chypre
+elle-même ; Kyrénia/Famagouste sont administrées de facto par la partie chypriote turque, non reconnue
+internationalement — y substituer la forme grecque trancherait éditorialement une question politique
+disputée). `hasToll:false`, aucune vignette. Chypre n'a PAS besoin de son propre `landmassOf` par
+accident : sans lui, l'île retombait sur "continental" comme tout pays non listé et un trajet aurait
+pu "rouler" jusqu'en Turquie/en Grèce à travers la mer — bug détecté et corrigé pendant les tests de
+cet ajout (voir `landmassOf` dans `lib/trip-engine.js`). Une vraie ligne de ferry pour véhicules
+Limassol-Le Pirée existe et opère à nouveau depuis 2022 (soutien du conseil des ministres chypriote
+prolongé jusqu'en 2027), mais saisonnière (fin mai-début septembre) et portée par un unique opérateur
+privé ayant déjà changé de nom plusieurs fois depuis la reprise — faute de durée/tarif par véhicule
+vérifiés avec la même rigueur que le reste de `FERRY_ROUTES`, elle n'a pas été ajoutée à cette table
+plutôt que d'inventer un chiffre : Chypre reste pour l'instant un îlot autonome, comme l'Islande ou
+les îles Féroé. Devise : euro (zone euro depuis 2008), aucun champ `currency` nécessaire.
 
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
@@ -1659,6 +1716,67 @@ russes (héritage soviétique, quasi une entrée par commune) et une longue tra�
 couvertes (anglais, ukrainien, turc...).
 
 Aucun ferry supplémentaire : la Géorgie n'a pas d'île habitée nécessitant une traversée en propre.
+
+**L'Arménie, l'Azerbaïdjan, la Syrie et Chypre**, dernier ajout en date, apportent **SIX** nouvelles
+langues au total (Chypre elle-même n'en ajoute aucune : le grec et le turc, ses deux langues
+officielles, sont déjà couverts depuis respectivement la Grèce et la Turquie — voir "Pays couverts"
+ci-dessus). **L'arménien** (Հայերեն, ISO 639-1 "hy") depuis l'ajout de l'Arménie, seule langue d'Etat.
+**L'azerbaïdjanais** (Azərbaycanca, ISO 639-1 "az") depuis l'ajout de l'Azerbaïdjan, seule langue
+d'Etat (article 21 de la Constitution) — le talysh et le lezguien, les deux principales minorités du
+pays, ne sont PAS ajoutés : ni l'un ni l'autre n'a de statut légal accordé par l'Azerbaïdjan lui-même
+(qui n'a signé la Charte européenne des langues régionales ou minoritaires qu'à son adhésion au
+Conseil de l'Europe, jamais ratifiée depuis) — même critère "statut légal réel du pays" déjà appliqué
+au kurde de Turquie/au mingrélien-svane de Géorgie plus haut, malgré une forme écrite bien identifiée
+pour les deux (latin pour le talysh, cyrillique pour le lezguien).
+
+**La Syrie**, avec la couverture la plus large de ce passage (choix explicite de l'utilisateur),
+apporte quatre langues. **L'arabe** (العربية, ISO 639-1 "ar") — seule langue nationale historique, et
+PREMIÈRE langue à écriture arabe/RTL de ce projet (`dir="rtl"` appliqué dynamiquement sur `<html>`
+via `applyDirection()` dans `i18n.js`, voir plus bas). **Le kurde/kurmandji** (Kurdî, ISO 639-1 "ku")
+— reconnu "langue nationale" de Syrie par le décret présidentiel n°13 du 16 janvier 2026 (Ahmed
+al-Sharaa), première reconnaissance officielle depuis l'indépendance de 1946 (institutkurde.org, Al
+Jazeera) : même critère "statut légal réel du pays" déjà appliqué au tatar de Crimée/à l'abkhaze,
+alphabet latin (Bedirxan) standardisé de longue date, 1,6 à 2,5 millions de locuteurs en Syrie. **Le
+touroyo/araméen central** (Ṣuryoyo, ISO 639-3 "tru" — pas de code 639-1) — langue des communautés
+syriaques/assyriennes du nord-est (Hassaké/Qamichli), orthographe standardisée en 2015-2017 (projet
+Erasmus+ "Aramaic Online", conférence de Cambridge, scripts syriaque et latin). Préférée à l'araméen
+occidental de Maaloula (la forme la plus emblématique, "dernière langue araméenne parlée nativement"),
+délibérément ÉCARTÉE : aucune forme écrite consensuelle à ce jour (trois systèmes concurrents — un
+alphabet "Maalouli" créé en 2006, le script syriaque Serto, un alphabet latin modifié depuis 2016 —
+la langue elle-même le confirme, "no agreed-upon writing system exists to date") — même règle
+d'exclusion "pas de norme écrite" déjà appliquée à l'alsacien/au francoprovençal en France. **Le
+circassien/adyguéen** (Адыгэбзэ, ISO 639-1 "ady") — communauté circassienne de Syrie (Damas, région
+du Golan/Qunaitra, environs d'Alep, ~30 000-35 000 personnes aujourd'hui contre 100 000-130 000 avant
+2011), alphabet cyrillique standardisé depuis 1938.
+
+75 langues au total désormais.
+
+**Confiance** : "hy"/"az"/"ar"/"ku" sont traduites avec le même niveau de confiance que la majorité
+des langues de ce projet. "tru"/"ady", en revanche, sont documentées avec une réserve plus forte —
+langues nettement plus rarement disponibles dans les ressources habituelles de traduction, à
+considérer comme une approximation de bonne foi plutôt qu'une traduction certifiée par un locuteur
+natif, même réserve déjà appliquée au rusyn/au kachoube/au monégasque ailleurs dans ce fichier.
+
+**RTL (lecture droite-à-gauche)** : l'arabe est la première langue RTL jamais ajoutée à ce projet —
+jusqu'ici jamais nécessaire, même pour les langues à écriture non latine déjà couvertes (géorgien,
+abkhaze, russe, grec...), toutes des écritures gauche-à-droite. `dir="rtl"` sur l'élément `<html>`
+suffit à inverser la mise en page entière (marges, alignement du texte, ordre visuel des contrôles)
+sans toucher au balisage lui-même — comportement natif du navigateur, appliqué au chargement et à
+chaque changement de langue (`applyDirection()`, appelée aux côtés d'`applyStaticTranslations()`).
+
+**Alias** : pas de fichier alias pour l'Arménie ni pour la Syrie (comme la France). `aliases-az.txt`,
+10 623 alias (dont un correctif notable détecté en testant cet ajout : le nom "Baku" n'était d'abord
+rattaché qu'au nom canonique NON corrigé, laissant la recherche "Baku" introuvable après le
+renommage en "Bakı" — corrigé en répercutant les mêmes `NAME_OVERRIDES` dans `build-aliases.js`,
+qui maintient sa propre copie de cette table indépendamment de `build-country-communes.js`).
+`aliases-cy.txt`, 973 alias.
+
+**Drapeaux** : "hy"->"am" et "az"->"az" (drapeau national du pays qui a introduit la langue, même
+logique que "ka"/"ab"->"ge" plus haut). "ar"/"ku"/"tru"/"ady" retombent tous les quatre sur le
+drapeau syrien ("sy") : aucun des trois derniers n'a de drapeau propre dans circle-flags (le kurde
+n'a pas d'Etat, le touroyo/le circassien encore moins), et l'arabe lui-même retombe sur la Syrie
+plutôt qu'un autre pays arabophone puisque c'est l'ajout de la Syrie qui a introduit cette langue
+dans l'interface — même mécanisme de repli que nds/hsb/frr vers l'Allemagne plus haut.
 
 ## Démarrer en local
 
