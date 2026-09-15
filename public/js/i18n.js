@@ -132,6 +132,10 @@
       'form.minDistance.unitMax': 'km au maximum',
       'form.minDistance.hintMin': 'Minimum : la première étape sera à au moins cette distance.',
       'form.minDistance.hintMax': 'Maximum : le trajet ne dépassera jamais cette distance du point de départ, à aucun moment du séjour.',
+      'form.daysPerCity.label': 'Nombre de jours par ville',
+      'form.daysPerCity.unitMin': 'jour(s) au moins',
+      'form.daysPerCity.unitMax': 'jour(s) au maximum',
+      'form.daysPerCity.hint': 'Nombre de nuitées consécutives passées dans une même ville, tiré aléatoirement entre ces deux bornes.',
       'form.launch.button': 'Lancer le générateur de road trip aléatoire',
       'form.launch.hint': 'Une destination secrète vous attend.',
 
@@ -331,6 +335,7 @@
       'error.minDistanceContextDay': '1 jour et aucune nuitée',
       'error.minDistanceContextNight': '1 nuitée',
       'error.minDistanceTooFar': "Impossible : avec seulement {context}, on ne peut pas s'éloigner d'au moins {min} km puis revenir dans le rayon/temps de retour choisi ({radius} km). Augmentez la durée du séjour, réduisez la distance minimale, ou élargissez le rayon max.",
+      'error.minMaxDaysPerCity': 'Le minimum de jours par ville ({min}) ne peut pas dépasser le maximum ({max}).',
 
       'transport.voitureThermique.label': 'voiture',
       'transport.voitureHybride.label': 'voiture hybride',
@@ -403,6 +408,10 @@
       'form.minDistance.unitMax': 'km at most',
       'form.minDistance.hintMin': 'Minimum: the first stop will be at least this far away.',
       'form.minDistance.hintMax': 'Maximum: the trip will never exceed this distance from the starting point, at any point during the stay.',
+      'form.daysPerCity.label': 'Number of days per city',
+      'form.daysPerCity.unitMin': 'day(s) at least',
+      'form.daysPerCity.unitMax': 'day(s) at most',
+      'form.daysPerCity.hint': 'Number of consecutive nights spent in the same city, picked at random between these two bounds.',
       'form.launch.button': 'Launch the random road trip generator',
       'form.launch.hint': 'A secret destination awaits you.',
 
@@ -602,6 +611,7 @@
       'error.minDistanceContextDay': '1 day and no overnight stay',
       'error.minDistanceContextNight': '1 night',
       'error.minDistanceTooFar': "Not possible: with only {context}, you can't get at least {min} km away and still come back within the chosen return radius/time ({radius} km). Increase the trip length, lower the minimum distance, or widen the max radius.",
+      'error.minMaxDaysPerCity': 'The minimum days per city ({min}) cannot exceed the maximum ({max}).',
 
       'transport.voitureThermique.label': 'car',
       'transport.voitureHybride.label': 'hybrid car',
@@ -674,6 +684,10 @@
       'form.minDistance.unitMax': 'km como máximo',
       'form.minDistance.hintMin': 'Mínimo: la primera etapa estará al menos a esta distancia.',
       'form.minDistance.hintMax': 'Máximo: el trayecto nunca superará esta distancia respecto al punto de salida, en ningún momento de la estancia.',
+      'form.daysPerCity.label': 'Número de días por ciudad',
+      'form.daysPerCity.unitMin': 'día(s) como mínimo',
+      'form.daysPerCity.unitMax': 'día(s) como máximo',
+      'form.daysPerCity.hint': 'Número de noches consecutivas pasadas en la misma ciudad, elegido al azar entre estos dos límites.',
       'form.launch.button': 'Lanzar el generador de road trip aleatorio',
       'form.launch.hint': 'Un destino secreto te espera.',
 
@@ -873,6 +887,7 @@
       'error.minDistanceContextDay': '1 día y ninguna pernoctación',
       'error.minDistanceContextNight': '1 pernoctación',
       'error.minDistanceTooFar': 'Imposible: con solo {context}, no es posible alejarse al menos {min} km y volver dentro del radio/tiempo de vuelta elegido ({radius} km). Aumenta la duración de la estancia, reduce la distancia mínima, o amplía el radio máximo.',
+      'error.minMaxDaysPerCity': 'El mínimo de días por ciudad ({min}) no puede superar el máximo ({max}).',
 
       'transport.voitureThermique.label': 'coche',
       'transport.voitureHybride.label': 'coche híbrido',
@@ -945,6 +960,10 @@
       'form.minDistance.unitMax': 'km no máximo',
       'form.minDistance.hintMin': 'Mínimo: a primeira etapa estará pelo menos a esta distância.',
       'form.minDistance.hintMax': 'Máximo: o trajeto nunca ultrapassará esta distância do ponto de partida, em nenhum momento da estadia.',
+      'form.daysPerCity.label': 'Número de dias por cidade',
+      'form.daysPerCity.unitMin': 'dia(s) no mínimo',
+      'form.daysPerCity.unitMax': 'dia(s) no máximo',
+      'form.daysPerCity.hint': 'Número de noites consecutivas passadas na mesma cidade, escolhido aleatoriamente entre estes dois limites.',
       'form.launch.button': 'Lançar o gerador de road trip aleatório',
       'form.launch.hint': 'Um destino secreto espera por si.',
 
@@ -1144,6 +1163,7 @@
       'error.minDistanceContextDay': '1 dia e nenhuma pernoita',
       'error.minDistanceContextNight': '1 pernoita',
       'error.minDistanceTooFar': 'Impossível: com apenas {context}, não é possível afastar-se pelo menos {min} km e regressar dentro do raio/tempo de regresso escolhido ({radius} km). Aumente a duração da estadia, reduza a distância mínima, ou alargue o raio máximo.',
+      'error.minMaxDaysPerCity': 'O mínimo de dias por cidade ({min}) não pode ultrapassar o máximo ({max}).',
 
       'transport.voitureThermique.label': 'carro',
       'transport.voitureHybride.label': 'carro híbrido',
@@ -1216,6 +1236,10 @@
       'form.minDistance.unitMax': 'km maximaal',
       'form.minDistance.hintMin': 'Minimum: de eerste etappe ligt op minstens deze afstand.',
       'form.minDistance.hintMax': 'Maximum: de reis overschrijdt nooit deze afstand tot het vertrekpunt, op geen enkel moment tijdens het verblijf.',
+      'form.daysPerCity.label': 'Aantal dagen per stad',
+      'form.daysPerCity.unitMin': 'dag(en) minstens',
+      'form.daysPerCity.unitMax': 'dag(en) maximaal',
+      'form.daysPerCity.hint': 'Aantal opeenvolgende nachten in dezelfde stad, willekeurig gekozen tussen deze twee grenzen.',
       'form.launch.button': 'Start de willekeurige roadtripgenerator',
       'form.launch.hint': 'Een geheime bestemming wacht op je.',
 
@@ -1415,6 +1439,7 @@
       'error.minDistanceContextDay': '1 dag en geen overnachting',
       'error.minDistanceContextNight': '1 overnachting',
       'error.minDistanceTooFar': 'Niet mogelijk: met slechts {context} kun je je niet minstens {min} km verwijderen en binnen de gekozen terugkeerstraal/-tijd terugkeren ({radius} km). Verleng het verblijf, verlaag de minimumafstand, of vergroot de maximumstraal.',
+      'error.minMaxDaysPerCity': 'Het minimum aantal dagen per stad ({min}) mag niet groter zijn dan het maximum ({max}).',
 
       'transport.voitureThermique.label': 'auto',
       'transport.voitureHybride.label': 'hybride auto',
@@ -1487,6 +1512,10 @@
       'form.minDistance.unitMax': 'km höchstens',
       'form.minDistance.hintMin': 'Minimum: Die erste Etappe liegt mindestens so weit entfernt.',
       'form.minDistance.hintMax': 'Maximum: Die Reise überschreitet diese Entfernung vom Startort zu keinem Zeitpunkt der Reise.',
+      'form.daysPerCity.label': 'Anzahl Tage pro Stadt',
+      'form.daysPerCity.unitMin': 'Tag(e) mindestens',
+      'form.daysPerCity.unitMax': 'Tag(e) höchstens',
+      'form.daysPerCity.hint': 'Anzahl aufeinanderfolgender Nächte in derselben Stadt, zufällig zwischen diesen beiden Grenzen gewählt.',
       'form.launch.button': 'Zufälligen Roadtrip-Generator starten',
       'form.launch.hint': 'Ein geheimes Ziel erwartet dich.',
 
@@ -1686,6 +1715,7 @@
       'error.minDistanceContextDay': '1 Tag und keine Übernachtung',
       'error.minDistanceContextNight': '1 Übernachtung',
       'error.minDistanceTooFar': 'Nicht möglich: Mit nur {context} kann man sich nicht mindestens {min} km entfernen und innerhalb des gewählten Rückfahrradius/-zeit ({radius} km) zurückkehren. Verlängere die Reisedauer, verringere die Mindestentfernung oder vergrößere den Maximalradius.',
+      'error.minMaxDaysPerCity': 'Das Minimum an Tagen pro Stadt ({min}) darf das Maximum ({max}) nicht überschreiten.',
 
       'transport.voitureThermique.label': 'Auto',
       'transport.voitureHybride.label': 'Hybridauto',
@@ -1760,6 +1790,10 @@
       'form.minDistance.unitMax': 'km héchstens',
       'form.minDistance.hintMin': 'Minimum: Déi éischt Etapp läit op d\'mannst esou wäit ewech.',
       'form.minDistance.hintMax': 'Maximum: D\'Streck iwwerschreift ni dës Distanz zum Startpunkt, zu kengem Moment vum Openthalt.',
+      'form.daysPerCity.label': 'Unzuel Deeg pro Stad',
+      'form.daysPerCity.unitMin': 'Dag(en) mindestens',
+      'form.daysPerCity.unitMax': 'Dag(en) héchstens',
+      'form.daysPerCity.hint': 'Unzuel vun openanerfollegende Nächt an der selwechter Stad, zoufälleg tëscht dëse zwou Grenze gewielt.',
       'form.launch.button': 'Zoufällegen Trip-Generator starten',
       'form.launch.hint': 'Eng geheim Destinatioun waart op dech.',
 
@@ -1959,6 +1993,7 @@
       'error.minDistanceContextDay': '1 Dag an keng Iwwernuechtung',
       'error.minDistanceContextNight': '1 Iwwernuechtung',
       'error.minDistanceTooFar': 'Onméiglech: Mat just {context} kann een sech net op d\'mannst {min} km ewechbewegen an nach bannent dem gewielte Réckradius/-zäit ({radius} km) zréckkommen. Verlängert d\'Dauer vum Openthalt, reduzéiert d\'Mindestdistanz, oder vergréissert de Maximalradius.',
+      'error.minMaxDaysPerCity': 'D\'Minimum un Deeg pro Stad ({min}) dierf d\'Maximum ({max}) net iwwerschreiden.',
 
       'transport.voitureThermique.label': 'Auto',
       'transport.voitureHybride.label': 'Hybridauto',
@@ -2033,6 +2068,10 @@
       'form.minDistance.unitMax': 'km al massimo',
       'form.minDistance.hintMin': 'Minimo: la prima tappa sarà ad almeno questa distanza.',
       'form.minDistance.hintMax': 'Massimo: il tragitto non supererà mai questa distanza dal punto di partenza, in nessun momento del soggiorno.',
+      'form.daysPerCity.label': 'Numero di giorni per città',
+      'form.daysPerCity.unitMin': 'giorno/i almeno',
+      'form.daysPerCity.unitMax': 'giorno/i al massimo',
+      'form.daysPerCity.hint': 'Numero di notti consecutive trascorse nella stessa città, scelto casualmente tra questi due limiti.',
       'form.launch.button': 'Avvia il generatore di road trip casuale',
       'form.launch.hint': 'Una destinazione segreta ti aspetta.',
 
@@ -2232,6 +2271,7 @@
       'error.minDistanceContextDay': '1 giorno e nessun pernottamento',
       'error.minDistanceContextNight': '1 pernottamento',
       'error.minDistanceTooFar': "Impossibile: con solo {context}, non è possibile allontanarsi di almeno {min} km e poi rientrare nel raggio/tempo di ritorno scelto ({radius} km). Aumenta la durata del soggiorno, riduci la distanza minima, oppure amplia il raggio massimo.",
+      'error.minMaxDaysPerCity': 'Il minimo di giorni per città ({min}) non può superare il massimo ({max}).',
 
       'transport.voitureThermique.label': 'auto',
       'transport.voitureHybride.label': 'auto ibrida',
@@ -2310,6 +2350,10 @@
       'form.minDistance.unitMax': 'km maximalmain',
       'form.minDistance.hintMin': 'Minimum: la emprima etappa vegn a esser almain a questa distanza.',
       'form.minDistance.hintMax': 'Maximum: il viadi na surpassa mai questa distanza dal punct da partenza, en nagin mument dal sesligiar.',
+      'form.daysPerCity.label': 'Dumber da dis per citad',
+      'form.daysPerCity.unitMin': 'di/dis almain',
+      'form.daysPerCity.unitMax': 'di/dis maximalmain',
+      'form.daysPerCity.hint': 'Dumber da notgs consecutivas passadas en la medema citad, tschernì a casuel tranter quests dus limits.',
       'form.launch.button': 'Lantschar il generatur da road trip casual',
       'form.launch.hint': 'Ina destinaziun secreta t\'aspetta.',
 
@@ -2509,6 +2553,7 @@
       'error.minDistanceContextDay': '1 di e nagina notg',
       'error.minDistanceContextNight': '1 notg',
       'error.minDistanceTooFar': "Impussibel: cun mo {context}, na po ins betg s'allontanar almain {min} km e lura returnar en il radius/temp da retur tschernì ({radius} km). Augmentescha la durada dal sesligiar, reducescha la distanza minimala, u engrondescha il radius maximal.",
+      'error.minMaxDaysPerCity': 'Il minimum da dis per citad ({min}) na po betg surpassar il maximum ({max}).',
 
       'transport.voitureThermique.label': 'auto',
       'transport.voitureHybride.label': 'auto hibrid',
@@ -2585,6 +2630,10 @@
       'form.minDistance.unitMax': 'km hööchstens',
       'form.minDistance.hintMin': 'Minimum: De eerste Etappe liggt tominnst so wiet weg.',
       'form.minDistance.hintMax': 'Maximum: De Reis kummt nienich wieder weg vun den Startpunkt as disse Afstand, to keen Tiet vun den Openthalt.',
+      'form.daysPerCity.label': 'Tall vun Dagen pro Stadt',
+      'form.daysPerCity.unitMin': 'Dag(en) tominnst',
+      'form.daysPerCity.unitMax': 'Dag(en) hööchstens',
+      'form.daysPerCity.hint': 'Tall vun Nächt na\'nanner in de sülve Stadt, tofällig utsöcht twischen düsse beiden Grenzen.',
       'form.launch.button': 'Toofällig-Road-Trip-Generator starten',
       'form.launch.hint': 'En geheime Reisdoel töövt op di.',
 
@@ -2784,6 +2833,7 @@
       'error.minDistanceContextDay': '1 Dag un keen Övernachten',
       'error.minDistanceContextNight': '1 Övernachten',
       'error.minDistanceTooFar': 'Nich mööglich: mit bloots {context} kann een sik nich tominnst {min} km wegmaken un denn binnen den utsöchten Torüchreis-Radius/-Tiet ({radius} km) torüchkamen. Maak den Openthalt länger, maak de Minimum-Afstand lütter, oder maak den Maximum-Radius grötter.',
+      'error.minMaxDaysPerCity': 'Dat Minimum vun Dagen pro Stadt ({min}) dörv dat Maximum ({max}) nich överschrieden.',
 
       'transport.voitureThermique.label': 'Auto',
       'transport.voitureHybride.label': 'Hybrid-Auto',
@@ -2862,6 +2912,10 @@
       'form.minDistance.unitMax': 'km maksimalnje',
       'form.minDistance.hintMin': 'Minimum: prěnja etapa budźe znajmjeńša tak daloko wotedalena.',
       'form.minDistance.hintMax': 'Maksimum: jězba nihdy njepřesahnje tutu distancu wot startoweho dypka, w žanym momenće pobyta.',
+      'form.daysPerCity.label': 'Ličba dnjow na město',
+      'form.daysPerCity.unitMin': 'dźeń/dny znajmjeńša',
+      'form.daysPerCity.unitMax': 'dźeń/dny maksimalnje',
+      'form.daysPerCity.hint': 'Ličba za sobu sćěhowacych nocow w samsnym měsće, připadnje wubrana mjez tutymaj mjezomaj.',
       'form.launch.button': 'Startować connom generator ćěrow',
       'form.launch.hint': 'Sekretny cil čaka na tebje.',
 
@@ -3061,6 +3115,7 @@
       'error.minDistanceContextDay': '1 dźeń a žane přenocowanje',
       'error.minDistanceContextNight': '1 přenocowanje',
       'error.minDistanceTooFar': 'Njemóžno: ze zjenym {context} njemóže so znajmjeńša {min} km wotedalić a potom w wupytanym wróćnym radiusu/času ({radius} km) wróćić. Podlěš čas pobyta, pomjeńš minimalnu distancu, abo powjetši maksimalny radius.',
+      'error.minMaxDaysPerCity': 'Minimum dnjow na město ({min}) njesmě maksimum ({max}) přesahnyć.',
 
       'transport.voitureThermique.label': 'awto',
       'transport.voitureHybride.label': 'hybridne awto',
@@ -3140,6 +3195,10 @@
       'form.minDistance.unitMax': 'km heegst',
       'form.minDistance.hintMin': 'Minimum: dai iarst etappe woort tuminst so wiit fuurt wees.',
       'form.minDistance.hintMax': 'Maksimum: dai reise kumt naan wiider fuurt üs dis distans foon dan startplaats, tu naan tidjpunkt foon dan openthold.',
+      'form.daysPerCity.label': 'Tal fun dai foon stää',
+      'form.daysPerCity.unitMin': 'dai tuminst',
+      'form.daysPerCity.unitMax': 'dai heegst',
+      'form.daysPerCity.hint': 'Tal fun neetjer noor-neetjer önj a sallew stää, tofäälig utwählet tesken disse tou grenzen.',
       'form.launch.button': 'Tufälli road-trip-generator starte',
       'form.launch.hint': 'En haimli reisdoal töövt aw di.',
 
@@ -3339,6 +3398,7 @@
       'error.minDistanceContextDay': '1 dai an nian övernachting',
       'error.minDistanceContextNight': '1 övernachting',
       'error.minDistanceTooFar': 'Ai mööglik: mä bloot {context} kön een sik ai tuminst {min} km fuurtfeere an denen bineen dan uutkesen trochkamst-radius/-tidj ({radius} km) trochkeen. Feerlengere dan opentholdstidj, lütje dan minimum-distans, of grötje dan maksimum-radius.',
+      'error.minMaxDaysPerCity': 'Dat minimum fun dai foon stää ({min}) mei dat maksimum ({max}) ai aewerschrid.',
 
       'transport.voitureThermique.label': 'auto',
       'transport.voitureHybride.label': 'hybrid-auto',
@@ -3415,6 +3475,10 @@
       'form.minDistance.unitMax': 'km a su prus',
       'form.minDistance.hintMin': 'Mìnimu: sa prima etapa at a èssere a su mancu a custa distàntzia.',
       'form.minDistance.hintMax': 'Màssimu: su biàgiu no at a superare mai custa distàntzia dae su puntu de partèntzia, in nissunu momentu de sa permanèntzia.',
+      'form.daysPerCity.label': 'Nùmeru de dies pro tzitade',
+      'form.daysPerCity.unitMin': 'die/dies a su mancu',
+      'form.daysPerCity.unitMax': 'die/dies a su prus',
+      'form.daysPerCity.hint': 'Nùmeru de notes de fila colatas in sa matessi tzitade, seletzionadu a sorte intre custos duos lìmites.',
       'form.launch.button': 'Ativare su generadore de biàgiu casuale',
       'form.launch.hint': 'Una destinatzione segreta t\'isetat.',
 
@@ -3614,6 +3678,7 @@
       'error.minDistanceContextDay': '1 die e peruna note de allogiu',
       'error.minDistanceContextNight': '1 note de allogiu',
       'error.minDistanceTooFar': 'Impossìbile: cun isceti {context}, no si podet allontanare de a su mancu {min} km e a pustis torrare intro de su ràdiu/tempus de torrada sèberadu ({radius} km). Aumenta sa durada de sa permanèntzia, diminui sa distàntzia mìnima, o ismannia su ràdiu màssimu.',
+      'error.minMaxDaysPerCity': 'Su minimu de dies pro tzitade ({min}) no podet superare su màssimu ({max}).',
 
       'transport.voitureThermique.label': 'màchina',
       'transport.voitureHybride.label': 'màchina ìbrida',
@@ -3689,6 +3754,10 @@
       'form.minDistance.unitMax': 'km al massim',
       'form.minDistance.hintMin': 'Minim: la prime tape e sarà almancul a cheste distance.',
       'form.minDistance.hintMax': 'Massim: il viaç nol supererà mai cheste distance dal pont di partence, in nissun moment dal sogjorn.',
+      'form.daysPerCity.label': 'Numar di dîs par citât',
+      'form.daysPerCity.unitMin': 'dì/dîs al mancul',
+      'form.daysPerCity.unitMax': 'dì/dîs al massim',
+      'form.daysPerCity.hint': 'Numar di gnots di dret passadis inte stesse citât, sielt a câs tra chescj doi limits.',
       'form.launch.button': 'Inviâ il gjeneradôr di viaç casuâl',
       'form.launch.hint': 'Une destinazion segrete ti spiete.',
 
@@ -3888,6 +3957,7 @@
       'error.minDistanceContextDay': '1 dì e nissune gnot passade fûr',
       'error.minDistanceContextNight': '1 gnot passade fûr',
       'error.minDistanceTooFar': 'Impussibil: cun dome {context}, no si pues slontanâsi almancul {min} km e po tornâ dentri dal rai/timp di tornade sielt ({radius} km). Slungje la durade dal sogjorn, deduç la distance minime, o slargje il rai massim.',
+      'error.minMaxDaysPerCity': 'Il minim di dîs par citât ({min}) nol pues superâ il massim ({max}).',
 
       'transport.voitureThermique.label': 'machine',
       'transport.voitureHybride.label': 'machine ibride',
@@ -3967,6 +4037,10 @@
       'form.minDistance.unitMax': 'km al massimo',
       'form.minDistance.hintMin': 'Minim: la prima tapa sarà almanco a cotanta distanza.',
       'form.minDistance.hintMax': 'Massimo: l viac ne passa mai fora da cotanta distanza dal pont de partenza, en degun momënt dl sogiorn.',
+      'form.daysPerCity.label': 'Nr. de dis per zità',
+      'form.daysPerCity.unitMin': 'di/dis almanco',
+      'form.daysPerCity.unitMax': 'di/dis al massimo',
+      'form.daysPerCity.hint': 'Nr. de nutes consecutives passà tla medema zità, tolt a caso danter chisc doi limits.',
       'form.launch.button': 'Fá jì l generadú de viac a caso',
       'form.launch.hint': 'Na destinazion secreta t\'aspeta.',
 
@@ -4166,6 +4240,7 @@
       'error.minDistanceContextDay': '1 dì y degüna nuet',
       'error.minDistanceContextNight': '1 nuet',
       'error.minDistanceTooFar': 'Nia poscibl: cun demò {context}, ne se possa nia se slontané almanco {min} km y pona unì zoruch tl rajo/ora de retorn tolt ({radius} km). Slonghea la dorada dl sogiorn, manuësc la distanza minima, o slarjea l rajo massimo.',
+      'error.minMaxDaysPerCity': 'L minim de dis per zità ({min}) ne pò nia superé l massimo ({max}).',
 
       'transport.voitureThermique.label': 'auto',
       'transport.voitureHybride.label': 'auto ibrida',
@@ -4242,6 +4317,10 @@
       'form.minDistance.unitMax': 'km mill-aktar',
       'form.minDistance.hintMin': "Minimu: l-ewwel tappa tkun mill-inqas din id-distanza 'l bogħod.",
       'form.minDistance.hintMax': "Massimu: il-vjaġġ qatt ma jaqbeż din id-distanza mill-punt tat-tluq, fi kwalunkwe mument tas-soġġorn.",
+      'form.daysPerCity.label': 'Numru ta\' jiem għal kull belt',
+      'form.daysPerCity.unitMin': 'jum/ijiem minimu',
+      'form.daysPerCity.unitMax': 'jum/ijiem massimu',
+      'form.daysPerCity.hint': 'Numru ta\' ljieli konsekuttivi mqattgħa fl-istess belt, magħżul b\'mod każwali bejn dawn iż-żewġ limiti.',
       'form.launch.button': "Niedi l-ġeneratur ta' vjaġġ każwali bit-triq",
       'form.launch.hint': "Destinazzjoni sigrieta qed tistenniek.",
 
@@ -4441,6 +4520,7 @@
       'error.minDistanceContextDay': "jum 1 u l-ebda lejl",
       'error.minDistanceContextNight': 'lejl 1',
       'error.minDistanceTooFar': "Mhux possibbli: b'{context} biss, ma tistax tinsab mill-inqas {min} km 'il bogħod u tirritorna fir-raġġ/ħin tar-ritorn magħżul ({radius} km). Kabbar it-tul tal-vjaġġ, naqqas id-distanza minima, jew kabbar ir-raġġ massimu.",
+      'error.minMaxDaysPerCity': 'Il-minimu ta\' jiem għal kull belt ({min}) ma jistax jaqbeż il-massimu ({max}).',
 
       'transport.voitureThermique.label': 'karozza',
       'transport.voitureHybride.label': 'karozza ibrida',
@@ -4528,6 +4608,10 @@
       'form.minDistance.unitMax': 'km au màsimo',
       'form.minDistance.hintMin': "Mìnimo: a prima tappa a saià a-a mancu à sta distansa.",
       'form.minDistance.hintMax': "Màsimo: u viagiu u no supparà mai sta distansa da-o puntu de partensa, in nisciun momentu du sogiornu.",
+      'form.daysPerCity.label': 'Numero de giorni pe çittæ',
+      'form.daysPerCity.unitMin': 'giorno/i açi a-o mìnimo',
+      'form.daysPerCity.unitMax': 'giorno/i a-o màsimo',
+      'form.daysPerCity.hint': 'Numero de neutte de fila passæ inta memma çittæ, sciolto a caxo tra sti doî limiti.',
       'form.launch.button': "Fâ partî u generatû de viagiu casuale in sciâ strâ",
       'form.launch.hint': "Unn-a destinaçion segretta a t'aspeta.",
 
@@ -4727,6 +4811,7 @@
       'error.minDistanceContextDay': '1 giurnu e nisciunn-a neutte',
       'error.minDistanceContextNight': '1 neutte',
       'error.minDistanceTooFar': "No pusìbile: con solo {context}, ti no peu arrivâ à-a mancu {min} km lontan e poi tornâ inte u raggiu/tempu de ritorno sciortu ({radius} km). Alonga a durâ du sogiornu, diminuisci a distansa mìnima, ò allarga u raggiu màsimo.",
+      'error.minMaxDaysPerCity': 'O minimo de giorni pe çittæ ({min}) o no peu superâ o màsimo ({max}).',
 
       'transport.voitureThermique.label': 'machinn-a',
       'transport.voitureHybride.label': 'machinn-a ibrida',
@@ -4801,6 +4886,10 @@
       'form.minDistance.unitMax': 'km au pus',
       'form.minDistance.hintMin': "Minimonm : l'preunmié bond sétha à ch't te distance là au moîns.",
       'form.minDistance.hintMax': "Maximonm : l'viage n'passétha janmais ch't te distance là du point d'partie, à n'importe quait moment du séjour.",
+      'form.daysPerCity.label': 'Nombre de jours par ville',
+      'form.daysPerCity.unitMin': 'jour(s) au myins',
+      'form.daysPerCity.unitMax': 'jour(s) au pus',
+      'form.daysPerCity.hint': 'Nombre de niets d\'suite passées dans la même ville, tithé au sort entre chinnes deux bornes.',
       'form.launch.button': "Faithe partî l'générateux d'viage à l'aveugl\'ye siez la route",
       'form.launch.hint': "Eune destinâtion secrette vos attend.",
 
@@ -5000,6 +5089,7 @@
       'error.minDistanceContextDay': "1 jour et pon d'niet",
       'error.minDistanceContextNight': '1 niet',
       'error.minDistanceTooFar': "Pon possibl'ye : atout ryin qu'{context}, ous n'pouvez pon être à {min} km au moîns et pis r'venî dans l'rayon/temps d'r'tou choisi ({radius} km). Allonguissez l'viage, diminuez la distance minimonm, ou êlarguissez l'rayon maximonm.",
+      'error.minMaxDaysPerCity': 'Le minimonm de jours par ville ({min}) ne peut pon dépassétha le maximonm ({max}).',
 
       'transport.voitureThermique.label': 'vaituthe',
       'transport.voitureHybride.label': 'vaituthe hybride',
@@ -5078,6 +5168,10 @@
       'form.minDistance.unitMax': 'km au pus',
       'form.minDistance.hintMin': "Minimum : l'preunmié bond sétha à chette distance-là au mens.",
       'form.minDistance.hintMax': "Maximum : l'viage n'passéra janmais chette distance-là du point de partie, à nou n'importe quel moment du séjour.",
+      'form.daysPerCity.label': 'Nombre de jours par ville',
+      'form.daysPerCity.unitMin': 'jour(s) au mens',
+      'form.daysPerCity.unitMax': 'jour(s) au pus',
+      'form.daysPerCity.hint': 'Nombre de niets de suite passées dans la même ville, tirai au sort entre ches deux bornes.',
       'form.launch.button': "Faire partaïr l'générateur d'viage au hasard siez la routte",
       'form.launch.hint': "Eune destination secrète vos êcoute.",
 
@@ -5277,6 +5371,7 @@
       'error.minDistanceContextDay': "1 jour et pon d'niet",
       'error.minDistanceContextNight': '1 niet',
       'error.minDistanceTooFar': "Pon possibl'ye : atou tant seul'ment {context}, vos n'pouviez pon iêtre à {min} km au mens et pis r'venaïr dans l'rayon/temps d'r'vénue choisi ({radius} km). Allonguissiez l'viage, amoindraissiez la distance minimum, ou êlarguissiez l'rayon maximum.",
+      'error.minMaxDaysPerCity': 'Le minimum de jours par ville ({min}) ne peut pon dépassaïr le maximum ({max}).',
 
       'transport.voitureThermique.label': 'vaiture',
       'transport.voitureHybride.label': 'vaiture hybride',
@@ -5357,6 +5452,10 @@
       'form.minDistance.unitMax': 'km nôwiãcy',
       'form.minDistance.hintMin': 'Minimum: pierszi krok bãdze przënômni w tim dalekòscë.',
       'form.minDistance.hintMax': 'Maksimum: wanoga nigdë nie przekrôczi ti dalekòscë òd pùnktu sztartu, w żódnym mòmence pòbëtu.',
+      'form.daysPerCity.label': 'Lëczba dni na gard',
+      'form.daysPerCity.unitMin': 'dzéń/dni corznômni',
+      'form.daysPerCity.unitMax': 'dzéń/dni corwiãcy',
+      'form.daysPerCity.hint': 'Lëczba pòrëmnëch nocy w tim samim gardze, wëbrónô losowò midzë tima dwùma grańcama.',
       'form.launch.button': 'Zrëszëc generatór losowegò road tripù',
       'form.launch.hint': 'Sekretné môl na cebie żdże.',
 
@@ -5556,6 +5655,7 @@
       'error.minDistanceContextDay': '1 dzéń ë bez nocë',
       'error.minDistanceContextNight': '1 noc',
       'error.minDistanceTooFar': 'Nie mòżlëwé: przë blós {context}, nie mòżeta bëc przënômni {min} km dalek ë wrócëc w wëbrónym prómieniu/czasu pòwrotu ({radius} km). Zwiãkszëta czas wanogi, zmiészëta minimalną dalekòsc, abò zwiãkszëta maksymalny prómień.',
+      'error.minMaxDaysPerCity': 'Minimum dni na gard ({min}) nie mòże przekrôczëc maksimum ({max}).',
 
       'transport.voitureThermique.label': 'autół',
       'transport.voitureHybride.label': 'hibridowi autół',
@@ -5634,6 +5734,10 @@
       'form.minDistance.unitMax': 'км максимально',
       'form.minDistance.hintMin': 'Мінімум: перший крок буде принайменше на тій дистанції.',
       'form.minDistance.hintMax': 'Максимум: подорож николи не перевышить тоту дистанцію од пункту старту, в жаднім моменті побыту.',
+      'form.daysPerCity.label': 'Чісло днів на місто',
+      'form.daysPerCity.unitMin': 'дны найменше',
+      'form.daysPerCity.unitMax': 'дны найбівше',
+      'form.daysPerCity.hint': 'Чісло послідовных ночей проведженых в тім самім місті, выбраный наглучайно медже тыма двома границями.',
       'form.launch.button': 'Пустити ґенератор лосової подорожі дорогом',
       'form.launch.hint': 'Секретна ціль на тя чекать.',
 
@@ -5833,6 +5937,7 @@
       'error.minDistanceContextDay': '1 день і без ночі',
       'error.minDistanceContextNight': '1 ніч',
       'error.minDistanceTooFar': 'Неможливе: маючи лем {context}, не можете быти принайменше {min} км далеко і вернути ся в обранім радіусі/часі повороту ({radius} км). Продовжте подорож, зменшіть мінімальну дистанцію, або збільшіть максимальный радіус.',
+      'error.minMaxDaysPerCity': 'Мінімум днів на місто ({min}) не мож перевышити максимум ({max}).',
 
       'transport.voitureThermique.label': 'авто',
       'transport.voitureHybride.label': 'гібридне авто',
@@ -5916,6 +6021,10 @@
       'form.minDistance.unitMax': 'km cel mult',
       'form.minDistance.hintMin': 'Minim: prima etapă va fi la cel puțin această distanță.',
       'form.minDistance.hintMax': 'Maxim: drumu nu va trece nici odată această distanță de la locu de pornire, în nici un moment al șederii.',
+      'form.daysPerCity.label': 'Numer de zile pe oraș',
+      'form.daysPerCity.unitMin': 'zi/zile cel puțin',
+      'form.daysPerCity.unitMax': 'zi/zile cel mult',
+      'form.daysPerCity.hint': 'Numeru de nopți la rând petrecute în același oraș, ales la-ntâmplare între aceste douo limite.',
       'form.launch.button': 'Pornește generatoru de călătorie la sorți',
       'form.launch.hint': 'O țintă secretă te așteaptă.',
 
@@ -6115,6 +6224,7 @@
       'error.minDistanceContextDay': '1 zi și fără noapte',
       'error.minDistanceContextNight': '1 noapte',
       'error.minDistanceTooFar': 'Imposibil: cu numai {context}, nu se poate merge la cel puțin {min} km și-ntoarce în raza/timpu de întoarcere ales ({radius} km). Mărește durata șederii, micșorează distanța minimă, sau mărește raza max.',
+      'error.minMaxDaysPerCity': 'Minimu de zile pe oraș ({min}) nu poate depăși maximu ({max}).',
 
       'transport.voitureThermique.label': 'mașină',
       'transport.voitureHybride.label': 'mașină hibridă',
@@ -6195,6 +6305,10 @@
       'form.minDistance.unitMax': 'km com a màxim',
       'form.minDistance.hintMin': 'Mínim: la primera etapa serà com a mínim a aquesta distància.',
       'form.minDistance.hintMax': 'Màxim: el trajecte mai superarà aquesta distància del punt de partida, en cap moment de l\'estada.',
+      'form.daysPerCity.label': 'Nombre de dies per ciutat',
+      'form.daysPerCity.unitMin': 'dia/es com a mínim',
+      'form.daysPerCity.unitMax': 'dia/es com a màxim',
+      'form.daysPerCity.hint': 'Nombre de nits consecutives passades a la mateixa ciutat, triat a l\'atzar entre aquests dos límits.',
       'form.launch.button': 'Llançar el generador de road trip aleatori',
       'form.launch.hint': 'Una destinació secreta t\'espera.',
 
@@ -6394,6 +6508,7 @@
       'error.minDistanceContextDay': '1 dia i cap nit',
       'error.minDistanceContextNight': '1 nit',
       'error.minDistanceTooFar': 'Impossible: amb només {context}, no es pot allunyar com a mínim {min} km i tornar dins el radi/temps de tornada triat ({radius} km). Allarga la durada de l\'estada, redueix la distància mínima, o amplia el radi màxim.',
+      'error.minMaxDaysPerCity': 'El mínim de dies per ciutat ({min}) no pot superar el màxim ({max}).',
 
       'transport.voitureThermique.label': 'cotxe',
       'transport.voitureHybride.label': 'cotxe híbrid',
@@ -6468,6 +6583,10 @@
       'form.minDistance.unitMax': 'km gehienez',
       'form.minDistance.hintMin': 'Gutxienekoa: lehen etapa distantzia horretara egongo da gutxienez.',
       'form.minDistance.hintMax': 'Gehienekoa: bidaiak ez du inoiz distantzia hori gaindituko abiapuntutik, egonaldiko unerik ere.',
+      'form.daysPerCity.label': 'Hiriko egun kopurua',
+      'form.daysPerCity.unitMin': 'egun gutxienez',
+      'form.daysPerCity.unitMax': 'egun gehienez',
+      'form.daysPerCity.hint': 'Hiri berean jarraian igarotako gauen kopurua, ausaz aukeratua bi muga hauen artean.',
       'form.launch.button': 'Ausazko bidaiaren sortzailea abiarazi',
       'form.launch.hint': 'Helmuga sekretu bat zure zain dago.',
 
@@ -6667,6 +6786,7 @@
       'error.minDistanceContextDay': '1 egun eta gaurik ez',
       'error.minDistanceContextNight': '1 gau',
       'error.minDistanceTooFar': 'Ezinezkoa: {context} bakarrik izanik, ezin da gutxienez {min} km urrundu eta aukeratutako erradio/itzulera-denboran ({radius} km) itzuli. Luzatu egonaldiaren iraupena, murriztu gutxieneko distantzia, edo handitu gehieneko erradioa.',
+      'error.minMaxDaysPerCity': 'Hiriko gutxieneko egun kopuruak ({min}) ezin du gehienekoa ({max}) gainditu.',
 
       'transport.voitureThermique.label': 'autoa',
       'transport.voitureHybride.label': 'auto hibridoa',
@@ -6740,6 +6860,10 @@
       'form.minDistance.unitMax': 'km como máximo',
       'form.minDistance.hintMin': 'Mínimo: a primeira etapa estará a polo menos esa distancia.',
       'form.minDistance.hintMax': 'Máximo: o traxecto nunca superará esa distancia do punto de partida, en ningún momento da estadía.',
+      'form.daysPerCity.label': 'Número de días por cidade',
+      'form.daysPerCity.unitMin': 'día(s) como mínimo',
+      'form.daysPerCity.unitMax': 'día(s) como máximo',
+      'form.daysPerCity.hint': 'Número de noites consecutivas pasadas na mesma cidade, escollido ao chou entre estes dous límites.',
       'form.launch.button': 'Iniciar o xerador de viaxe ao chou',
       'form.launch.hint': 'Un destino secreto espérate.',
 
@@ -6939,6 +7063,7 @@
       'error.minDistanceContextDay': '1 día e ningunha noite',
       'error.minDistanceContextNight': '1 noite',
       'error.minDistanceTooFar': 'Imposíbel: con só {context}, non se pode afastar polo menos {min} km e volver dentro do raio/tempo de volta escollido ({radius} km). Alarga a duración da estadía, reduce a distancia mínima, ou amplía o raio máximo.',
+      'error.minMaxDaysPerCity': 'O mínimo de días por cidade ({min}) non pode superar o máximo ({max}).',
 
       'transport.voitureThermique.label': 'coche',
       'transport.voitureHybride.label': 'coche híbrido',
@@ -7016,6 +7141,10 @@
       'form.minDistance.unitMax': 'km al maximum',
       'form.minDistance.hintMin': 'Minim : la primièra etapa serà a almens aquesta distància.',
       'form.minDistance.hintMax': 'Maximum : lo trajècte depassarà pas jamai aquesta distància del punt de partença, a cap de moment del sejorn.',
+      'form.daysPerCity.label': 'Nombre de jorns per vila',
+      'form.daysPerCity.unitMin': 'jorn(s) al minimum',
+      'form.daysPerCity.unitMax': 'jorn(s) al maximum',
+      'form.daysPerCity.hint': 'Nombre de nuèits consecutivas passadas dins la meteissa vila, causit a l\'azard entre aquestes dos limits.',
       'form.launch.button': 'Aviar lo generador de viatge a l\'azard',
       'form.launch.hint': 'Una destinacion secreta t\'espèra.',
 
@@ -7215,6 +7344,7 @@
       'error.minDistanceContextDay': '1 jorn e cap de nuèch',
       'error.minDistanceContextNight': '1 nuèch',
       'error.minDistanceTooFar': 'Impossible : amb solament {context}, se pòt pas alunhar d\'almens {min} km puèi tornar dins lo rai/temps de retorn causit ({radius} km). Aumenta la durada del sejorn, demesís la distància minimala, o aumenta lo rai maximum.',
+      'error.minMaxDaysPerCity': 'Lo minimum de jorns per vila ({min}) pòt pas passar lo maximum ({max}).',
 
       'transport.voitureThermique.label': 'veitura',
       'transport.voitureHybride.label': 'veitura ibrida',
@@ -7291,6 +7421,10 @@
       'form.minDistance.unitMax': 'km d\'ar muiañ',
       'form.minDistance.hintMin': 'Izelañ : ar poent kentañ a vo d\'an nebeutañ d\'an hed-mañ.',
       'form.minDistance.hintMax': 'Uhelañ : ne dremeno biken an hent an hed-mañ diouzh al lec\'hiañ, e pep prantad eus ar chom.',
+      'form.daysPerCity.label': 'Niver a zeizioù dre gêr',
+      'form.daysPerCity.unitMin': 'devezh(ioù) d\'an nebeutañ',
+      'form.daysPerCity.unitMax': 'devezh(ioù) d\'ar muiañ',
+      'form.daysPerCity.hint': 'Niver a nozvezhioù heuliet tremenet en ur gêr hepken, dibabet dre zegouezh etre an daou vevenn-mañ.',
       'form.launch.button': 'Loc\'hañ ar ganerez beaj dre zegouezh',
       'form.launch.hint': 'Ur bal kuzh a c\'hortoz ac\'hanoc\'h.',
 
@@ -7490,6 +7624,7 @@
       'error.minDistanceContextDay': '1 devezh ha noz ebet',
       'error.minDistanceContextNight': '1 noz',
       'error.minDistanceTooFar': 'Dibosupl : gant nemet {context}, n\'haller ket pellaat d\'an nebeutañ {min} km ha distreiñ er skin/amzer distro dibabet ({radius} km). Astennit padelezh ar chom, digreskit an hed izelañ, pe ledanait ar skin uhelañ.',
+      'error.minMaxDaysPerCity': 'Ar niver izelañ a zeizioù dre gêr ({min}) ne c\'hall ket mont dreist an niver uhelañ ({max}).',
 
       'transport.voitureThermique.label': 'karr',
       'transport.voitureHybride.label': 'karr kemmesk',
@@ -7564,6 +7699,10 @@
       'form.minDistance.unitMax': 'km à u massimu',
       'form.minDistance.hintMin': 'Minimu : a prima tappa serà à almenu sta distanza.',
       'form.minDistance.hintMax': 'Massimu : u viaghju ùn superà mai sta distanza da u puntu di partenza, in nisun mumentu di u sughjornu.',
+      'form.daysPerCity.label': 'Numeru di ghjorni per cità',
+      'form.daysPerCity.unitMin': 'ghjornu/i almenu',
+      'form.daysPerCity.unitMax': 'ghjornu/i à u massimu',
+      'form.daysPerCity.hint': 'Numeru di notte di fila passate in a listessa cità, sceltu à u sorte trà sti dui limiti.',
       'form.launch.button': 'Lancià u generatore di viaghju aleatoriu',
       'form.launch.hint': 'Una destinazione secreta vi aspetta.',
 
@@ -7763,6 +7902,7 @@
       'error.minDistanceContextDay': '1 ghjornu è nisuna notte',
       'error.minDistanceContextNight': '1 notte',
       'error.minDistanceTooFar': 'Impussibule : cù solu {context}, ùn si pò micca alluntanassi d\'almenu {min} km è pò micca vultà in u raghju/tempu di ritornu sceltu ({radius} km). Allargate a durata di u sughjornu, diminuite a distanza minima, o allargate u raghju massimu.',
+      'error.minMaxDaysPerCity': 'U minimu di ghjorni per cità ({min}) ùn pò micca superà u massimu ({max}).',
 
       'transport.voitureThermique.label': 'vittura',
       'transport.voitureHybride.label': 'vittura ibrida',
@@ -7837,6 +7977,10 @@
       'form.minDistance.unitMax': 'km cumo máisemo',
       'form.minDistance.hintMin': 'Mínimo: la purmeira etapa stará a essa distança cumo mínimo.',
       'form.minDistance.hintMax': 'Máisemo: l trajeto nunca passará essa distança dal ponto de partida, an nanhun momento de la stada.',
+      'form.daysPerCity.label': 'Númaro de dies por cidade',
+      'form.daysPerCity.unitMin': 'die(s) al menos',
+      'form.daysPerCity.unitMax': 'die(s) al máisemo',
+      'form.daysPerCity.hint': 'Númaro de nuites seguidas passadas na mesma cidade, scolhido al asu antre estes dous limites.',
       'form.launch.button': 'Ampeçar l generador de biaige al acaso',
       'form.launch.hint': 'Un destino secreto stá-te a asperar.',
 
@@ -8036,6 +8180,7 @@
       'error.minDistanceContextDay': '1 die i nanhũa nuite',
       'error.minDistanceContextNight': '1 nuite',
       'error.minDistanceTooFar': 'Ampossible: cun solo {context}, nun se puode afastar al menos {min} km i tornar ne l raio/tiempo de buolta scolhido ({radius} km). Alarga la durada de la stada, deminui la distança mínima, ó alarga l raio máisemo.',
+      'error.minMaxDaysPerCity': 'L mínimo de dies por cidade ({min}) nun puode passar l máisemo ({max}).',
 
       'transport.voitureThermique.label': 'carro',
       'transport.voitureHybride.label': 'carro híbrido',
@@ -8114,6 +8259,10 @@
       'form.minDistance.unitMax': 'km ar a mhéad',
       'form.minDistance.hintMin': 'Íosmhéid: beidh an chéad chéim ar a laghad chomh fada seo ar shiúl.',
       'form.minDistance.hintMax': 'Uasmhéid: ní shárófar an t-achar seo ón bpointe tosaigh choíche i rith na cuairte.',
+      'form.daysPerCity.label': 'Líon laethanta in aghaidh na cathrach',
+      'form.daysPerCity.unitMin': 'lá/laethanta ar a laghad',
+      'form.daysPerCity.unitMax': 'lá/laethanta ar a mhéad',
+      'form.daysPerCity.hint': 'Líon na n-oícheanta as a chéile a chaitear sa chathair chéanna, roghnaithe go randamach idir an dá theorainn seo.',
       'form.launch.button': 'Seol an gineadóir aicearra bóthair randamach',
       'form.launch.hint': 'Tá ceann scríbe rúnda ag fanacht leat.',
 
@@ -8313,6 +8462,7 @@
       'error.minDistanceContextDay': '1 lá agus gan oíche a chaitheamh',
       'error.minDistanceContextNight': '1 oíche',
       'error.minDistanceTooFar': "Ní féidir: le {context} amháin, ní féidir leat dul {min} km ar a laghad ar shiúl agus filleadh fós laistigh den ga/am fillte roghnaithe ({radius} km). Cuir le fad an turais, laghdaigh an íosachar, nó leathnaigh an t-uasga.",
+      'error.minMaxDaysPerCity': 'Ní féidir leis an íosmhéid laethanta in aghaidh na cathrach ({min}) an t-uasmhéid ({max}) a shárú.',
 
       'transport.voitureThermique.label': 'carr',
       'transport.voitureHybride.label': 'carr hibrideach',
@@ -8392,6 +8542,10 @@
       'form.minDistance.unitMax': "km ec y chooid smoo",
       'form.minDistance.hintMin': "Sloo: bee'n chied chess ec y chooid sloo foddey shen roish.",
       'form.minDistance.hintMax': "Smoo: cha jean yn turrys goll harrish yn foddaghys shoh veih'n voayl toshee, dagh ooryn jeh'n coadey.",
+      'form.daysPerCity.label': 'Earroo laghyn ry-hoi dagh ard-valley',
+      'form.daysPerCity.unitMin': 'laa/laghyn ec y chooid sloo',
+      'form.daysPerCity.unitMax': 'laa/laghyn ec y chooid smoo',
+      'form.daysPerCity.hint': 'Earroo dy\'oieghyn ry-cheilley currit ayns yn un ard-valley, reiht dy taghyrtagh eddyr yn daa chagliagh shoh.',
       'form.launch.button': "Cur er bun yn gineyder turrys-raad tessyragh",
       'form.launch.hint': "Ta kione-scrieuit follit farkiaght ort.",
 
@@ -8591,6 +8745,7 @@
       'error.minDistanceContextDay': "1 laa as gyn oie er choodaghey",
       'error.minDistanceContextNight': "1 oie",
       'error.minDistanceTooFar': "Cha nel eh feeu: lesh {context} ynrican, cha noddym dhyt goll ec y chooid sloo {min} km ersooyl as chyndaa foast laseh yn kerrin/traa chyndaa reiht ({radius} km). Cur ny smoo rish liurid y turrys, sloo yn foddaghys sloo, ny lheiny yn kerrin smoo.",
+      'error.minMaxDaysPerCity': 'Cha nod y sloo laghyn ry-hoi dagh ard-valley ({min}) goll harrish y smoo ({max}).',
 
       'transport.voitureThermique.label': "carr",
       'transport.voitureHybride.label': "carr mheshtit",
@@ -8665,6 +8820,10 @@
       'form.minDistance.unitMax': "km ar y mwyaf",
       'form.minDistance.hintMin': "Isafswm: bydd y cam cyntaf o leiaf y pellter hwn i ffwrdd.",
       'form.minDistance.hintMax': "Uchafswm: ni fydd y daith byth yn mynd y tu hwnt i'r pellter hwn o'r man cychwyn, ar unrhyw adeg yn ystod yr arhosiad.",
+      'form.daysPerCity.label': 'Nifer y dyddiau fesul dinas',
+      'form.daysPerCity.unitMin': 'diwrnod/au o leiaf',
+      'form.daysPerCity.unitMax': 'diwrnod/au ar y mwyaf',
+      'form.daysPerCity.hint': 'Nifer y nosweithiau olynol a dreulir yn yr un ddinas, a ddewisir ar hap rhwng y ddau derfyn hyn.',
       'form.launch.button': "Lansio'r generadur taith ffordd hap",
       'form.launch.hint': "Mae cyrchfan gyfrinachol yn aros amdanoch.",
 
@@ -8864,6 +9023,7 @@
       'error.minDistanceContextDay': "1 diwrnod a dim aros dros nos",
       'error.minDistanceContextNight': "1 noson",
       'error.minDistanceTooFar': "Amhosibl: gyda dim ond {context}, ni allwch fynd o leiaf {min} km i ffwrdd a dal i ddychwelyd o fewn y radiws/amser dychwelyd a ddewiswyd ({radius} km). Cynyddwch hyd y daith, lleihau'r pellter lleiaf, neu ehangu'r radiws mwyaf.",
+      'error.minMaxDaysPerCity': 'Ni all yr isafswm dyddiau fesul dinas ({min}) fod yn fwy na\'r uchafswm ({max}).',
 
       'transport.voitureThermique.label': "car",
       'transport.voitureHybride.label': "car hybrid",
@@ -8938,6 +9098,10 @@
       'form.minDistance.unitMax': "km aig a char as motha",
       'form.minDistance.hintMin': "As lugha: bidh a' chiad cheum aig a char as lugha cho fada seo air falbh.",
       'form.minDistance.hintMax': "As motha: cha tèid an turas a-riamh nas fhaide na an t-astar seo bhon phàirc-tòiseachaidh, aig àm sam bith den fhuireach.",
+      'form.daysPerCity.label': 'Àireamh làithean gach baile',
+      'form.daysPerCity.unitMin': 'latha/làithean air a\' char as lugha',
+      'form.daysPerCity.unitMax': 'latha/làithean air a\' char as motha',
+      'form.daysPerCity.hint': 'Àireamh oidhcheannan an-fhaide anns an aon bhaile, air a thaghadh air thuaiream eadar an dà chrìoch seo.',
       'form.launch.button': "Cuir gu dol an gineadair turas-rathaid tuaireamach",
       'form.launch.hint': "Tha ceann-uidhe dìomhair a' feitheamh ort.",
 
@@ -9137,6 +9301,7 @@
       'error.minDistanceContextDay': "1 latha agus gun oidhche air a chur seachad",
       'error.minDistanceContextNight': "1 oidhche",
       'error.minDistanceTooFar': "Chan eil e comasach: le dìreach {context}, chan urrainn dhut a dhol co-dhiù {min} km air falbh agus tilleadh fhathast am broinn an rèidhis/ùine tilleadh a thagh thu ({radius} km). Cuir ris fad an turais, lùghdaich an t-astar as lugha, no leudaich an rèidhis as motha.",
+      'error.minMaxDaysPerCity': 'Chan urrainn don ìre as lugha de làithean gach baile ({min}) a dhol thairis air an ìre as motha ({max}).',
 
       'transport.voitureThermique.label': "càr",
       'transport.voitureHybride.label': "càr tar-mheasgte",
@@ -9212,6 +9377,10 @@
       'form.minDistance.unitMax': "km dhe'n moyha",
       'form.minDistance.hintMin': "Lyha: an kamm kynsa a vydh dhe'n lyha mar bell dhevnydh.",
       'form.minDistance.hintMax': "Moyha: an vyaj ny wra nefra mos dres an hyrnedh ma dhort an le dallethva, dre'n gwra oll a'n bos.",
+      'form.daysPerCity.label': 'Niver a dhydhyow der sita',
+      'form.daysPerCity.unitMin': 'dydh/dydhyow dhe\'n lyha',
+      'form.daysPerCity.unitMax': 'dydh/dydhyow dhe\'n moyha',
+      'form.daysPerCity.hint': 'Niver a nosow a-rêsek treusys y\'n keth sita, dewisys dre jons yntra\'n dhew gevin ma.',
       'form.launch.button': "Kynnyk an jynn-gwrians vyaj-fordh ambodek",
       'form.launch.hint': "Le gorfen kevrinek a wayt orthowgh.",
 
@@ -9411,6 +9580,7 @@
       'error.minDistanceContextDay': "1 dydh heb nos",
       'error.minDistanceContextNight': "1 nos",
       'error.minDistanceTooFar': "Nyns yw possybyl: gans {context} unnsel, ny yllowgh mos dhe'n lyha {min} km dhe-ves ha dehweles hwath a-berth y'n radius/termyn dehweles dewisys ({radius} km). Kressewgh hys an vyaj, leheugh an hyrnedh lyha, po ledanhewgh an radius moyha.",
+      'error.minMaxDaysPerCity': 'Ny yll an lyha dydhyow der sita ({min}) mos dres an moyha ({max}).',
 
       'transport.voitureThermique.label': "karr",
       'transport.voitureHybride.label': "karr kemyskys",
@@ -9487,6 +9657,10 @@
       'form.minDistance.unitMax': "km at maist",
       'form.minDistance.hintMin': "Minimum: the first stap will be at least this faur awa.",
       'form.minDistance.hintMax': "Maximum: the trip will never gang past this distance frae the stairtin pynt, at ony pynt in the stey.",
+      'form.daysPerCity.label': 'Nummer o days per ceety',
+      'form.daysPerCity.unitMin': 'day(s) at least',
+      'form.daysPerCity.unitMax': 'day(s) at maist',
+      'form.daysPerCity.hint': 'Nummer o days in a raw spent in the same ceety, pickit at random atween thir twa bunds.',
       'form.launch.button': "Lainch the random road trip gineratour",
       'form.launch.hint': "A secret destination is waitin oan ye.",
 
@@ -9686,6 +9860,7 @@
       'error.minDistanceContextDay': "1 day an nae ower-nicht stey",
       'error.minDistanceContextNight': "1 nicht",
       'error.minDistanceTooFar': "No possible: wi ainly {context}, ye cannae get at least {min} km awa an still come back within the chosen return radius/time ({radius} km). Mak the trip langer, lower the minimum distance, or widen the max radius.",
+      'error.minMaxDaysPerCity': 'The least nummer o days per ceety ({min}) cannae gang ower the maist ({max}).',
 
       'transport.voitureThermique.label': "caur",
       'transport.voitureHybride.label': "hybrid caur",
@@ -9760,6 +9935,10 @@
       'form.minDistance.unitMax': "km maximálně",
       'form.minDistance.hintMin': "Minimum: první zastávka bude alespoň takto daleko.",
       'form.minDistance.hintMax': "Maximum: trasa nikdy nepřekročí tuto vzdálenost od výchozího bodu, po celou dobu pobytu.",
+      'form.daysPerCity.label': 'Počet dní na město',
+      'form.daysPerCity.unitMin': 'den/dny minimálně',
+      'form.daysPerCity.unitMax': 'den/dny maximálně',
+      'form.daysPerCity.hint': 'Počet po sobě jdoucích nocí strávených ve stejném městě, náhodně zvolený mezi těmito dvěma hranicemi.',
       'form.launch.button': "Spustit generátor náhodného road tripu",
       'form.launch.hint': "Čeká na vás tajný cíl.",
 
@@ -9959,6 +10138,7 @@
       'error.minDistanceContextDay': "1 den bez přenocování",
       'error.minDistanceContextNight': "1 noc",
       'error.minDistanceTooFar': "Není možné: pouze s {context} se nelze vzdálit alespoň o {min} km a přesto se vrátit v rámci zvoleného okruhu/doby návratu ({radius} km). Prodlužte délku cesty, snižte minimální vzdálenost, nebo rozšiřte maximální okruh.",
+      'error.minMaxDaysPerCity': 'Minimální počet dní na město ({min}) nesmí přesáhnout maximum ({max}).',
 
       'transport.voitureThermique.label': "auto",
       'transport.voitureHybride.label': "hybridní auto",
@@ -10032,6 +10212,10 @@
       'form.minDistance.unitMax': "km co najwyżej",
       'form.minDistance.hintMin': "Minimum: pierwszy przystanek będzie co najmniej tak daleko.",
       'form.minDistance.hintMax': "Maksimum: trasa nigdy nie przekroczy tej odległości od miejsca startu, w żadnym momencie pobytu.",
+      'form.daysPerCity.label': 'Liczba dni na miasto',
+      'form.daysPerCity.unitMin': 'dzień/dni co najmniej',
+      'form.daysPerCity.unitMax': 'dzień/dni maksymalnie',
+      'form.daysPerCity.hint': 'Liczba kolejnych nocy spędzonych w tym samym mieście, wybrana losowo pomiędzy tymi dwiema granicami.',
       'form.launch.button': "Uruchom generator losowej podróży samochodowej",
       'form.launch.hint': "Czeka na ciebie tajemniczy cel.",
 
@@ -10231,6 +10415,7 @@
       'error.minDistanceContextDay': "1 dzień bez noclegu",
       'error.minDistanceContextNight': "1 noc",
       'error.minDistanceTooFar': "Niemożliwe: mając tylko {context}, nie da się oddalić o co najmniej {min} km i wrócić w ramach wybranego promienia/czasu powrotu ({radius} km). Wydłuż czas trwania podróży, zmniejsz minimalną odległość lub zwiększ maksymalny promień.",
+      'error.minMaxDaysPerCity': 'Minimalna liczba dni na miasto ({min}) nie może przekroczyć maksimum ({max}).',
 
       'transport.voitureThermique.label': "samochód",
       'transport.voitureHybride.label': "samochód hybrydowy",
@@ -10304,6 +10489,10 @@
       'form.minDistance.unitMax': "km maximálne",
       'form.minDistance.hintMin': "Minimum: prvá zastávka bude aspoň takto ďaleko.",
       'form.minDistance.hintMax': "Maximum: trasa nikdy neprekročí túto vzdialenosť od východiskového bodu, počas celého pobytu.",
+      'form.daysPerCity.label': 'Počet dní na mesto',
+      'form.daysPerCity.unitMin': 'deň/dni minimálne',
+      'form.daysPerCity.unitMax': 'deň/dni maximálne',
+      'form.daysPerCity.hint': 'Počet po sebe idúcich nocí strávených v tom istom meste, náhodne zvolený medzi týmito dvoma hranicami.',
       'form.launch.button': "Spustiť generátor náhodného road tripu",
       'form.launch.hint': "Čaká na vás tajný cieľ.",
 
@@ -10503,6 +10692,7 @@
       'error.minDistanceContextDay': "1 deň bez prenocovania",
       'error.minDistanceContextNight': "1 noc",
       'error.minDistanceTooFar': "Nie je to možné: iba s {context} sa nedá vzdialiť aspoň o {min} km a napriek tomu sa vrátiť v rámci zvoleného okruhu/času návratu ({radius} km). Predĺžte dĺžku cesty, znížte minimálnu vzdialenosť, alebo rozšírte maximálny okruh.",
+      'error.minMaxDaysPerCity': 'Minimálny počet dní na mesto ({min}) nesmie presiahnuť maximum ({max}).',
 
       'transport.voitureThermique.label': "auto",
       'transport.voitureHybride.label': "hybridné auto",
@@ -10577,6 +10767,10 @@
       'form.minDistance.unitMax': "km legfeljebb",
       'form.minDistance.hintMin': "Minimum: az első megálló legalább ilyen távol lesz.",
       'form.minDistance.hintMax': "Maximum: az útvonal soha nem haladja meg ezt a távolságot a kiindulási ponttól, az utazás egyetlen pillanatában sem.",
+      'form.daysPerCity.label': 'Napok száma városonként',
+      'form.daysPerCity.unitMin': 'nap legalább',
+      'form.daysPerCity.unitMax': 'nap legfeljebb',
+      'form.daysPerCity.hint': 'Ugyanabban a városban töltött egymást követő éjszakák száma, véletlenszerűen kiválasztva e két határ között.',
       'form.launch.button': "Véletlenszerű road trip generátor indítása",
       'form.launch.hint': "Egy titkos úti cél vár rád.",
 
@@ -10776,6 +10970,7 @@
       'error.minDistanceContextDay': "1 nap éjszakázás nélkül",
       'error.minDistanceContextNight': "1 éjszaka",
       'error.minDistanceTooFar': "Nem lehetséges: csak {context} mellett nem tudsz legalább {min} km-re eltávolodni, és mégis visszatérni a kiválasztott sugáron/visszatérési időn belül ({radius} km). Növeld az utazás hosszát, csökkentsd a minimális távolságot, vagy szélesítsd a maximális sugarat.",
+      'error.minMaxDaysPerCity': 'A városonkénti minimum napszám ({min}) nem haladhatja meg a maximumot ({max}).',
 
       'transport.voitureThermique.label': "autó",
       'transport.voitureHybride.label': "hibrid autó",
@@ -10850,6 +11045,10 @@
       'form.minDistance.unitMax': 'km največ',
       'form.minDistance.hintMin': 'Minimum: prva postaja bo oddaljena vsaj toliko.',
       'form.minDistance.hintMax': 'Maksimum: pot nikoli ne bo presegla te razdalje od izhodiščne točke, v nobenem trenutku bivanja.',
+      'form.daysPerCity.label': 'Število dni na mesto',
+      'form.daysPerCity.unitMin': 'dan/dni najmanj',
+      'form.daysPerCity.unitMax': 'dan/dni največ',
+      'form.daysPerCity.hint': 'Število zaporednih noči, preživetih v istem mestu, naključno izbrano med tema dvema mejama.',
       'form.launch.button': 'Zaženi generator naključnega potovanja',
       'form.launch.hint': 'Skrivnostni cilj vas čaka.',
 
@@ -11049,6 +11248,7 @@
       'error.minDistanceContextDay': '1 dan brez nočitve',
       'error.minDistanceContextNight': '1 noč',
       'error.minDistanceTooFar': "Ni mogoče: samo z {context} se ne morete oddaljiti vsaj {min} km in se vseeno vrniti znotraj izbranega radija/časa vrnitve ({radius} km). Podaljšajte trajanje potovanja, zmanjšajte najmanjšo razdaljo ali razširite največji radij.",
+      'error.minMaxDaysPerCity': 'Najmanjše število dni na mesto ({min}) ne sme preseči največjega ({max}).',
 
       'transport.voitureThermique.label': 'avto',
       'transport.voitureHybride.label': 'hibridni avto',
@@ -11124,6 +11324,10 @@
       'form.minDistance.unitMax': "km maksimalno",
       'form.minDistance.hintMin': "Minimum: prva postaja bit će udaljena barem toliko.",
       'form.minDistance.hintMax': "Maksimum: put nikada neće prijeći tu udaljenost od polazne točke, ni u jednom trenutku boravka.",
+      'form.daysPerCity.label': 'Broj dana po gradu',
+      'form.daysPerCity.unitMin': 'dan/dana najmanje',
+      'form.daysPerCity.unitMax': 'dan/dana najviše',
+      'form.daysPerCity.hint': 'Broj uzastopnih noćenja provedenih u istom gradu, nasumično odabran između ove dvije granice.',
       'form.launch.button': "Pokreni generator nasumičnog putovanja",
       'form.launch.hint': "Tajanstveno odredište vas čeka.",
 
@@ -11323,6 +11527,7 @@
       'error.minDistanceContextDay': "1 dan bez noćenja",
       'error.minDistanceContextNight': "1 noć",
       'error.minDistanceTooFar': "Nemoguće: samo s {context} ne možete se udaljiti barem {min} km i ipak se vratiti unutar odabranog radijusa/vremena povratka ({radius} km). Produljite trajanje putovanja, smanjite minimalnu udaljenost ili proširite maksimalni radijus.",
+      'error.minMaxDaysPerCity': 'Najmanji broj dana po gradu ({min}) ne smije premašiti najveći ({max}).',
 
       'transport.voitureThermique.label': "automobil",
       'transport.voitureHybride.label': "hibridni automobil",
@@ -11400,6 +11605,10 @@
       'form.minDistance.unitMax': "km maksimalno",
       'form.minDistance.hintMin': "Minimum: prva stanica će biti udaljena barem toliko.",
       'form.minDistance.hintMax': "Maksimum: put nikada neće preći tu udaljenost od polazne tačke, ni u jednom trenutku boravka.",
+      'form.daysPerCity.label': 'Broj dana po gradu',
+      'form.daysPerCity.unitMin': 'dan/dana najmanje',
+      'form.daysPerCity.unitMax': 'dan/dana najviše',
+      'form.daysPerCity.hint': 'Broj uzastopnih noćenja provedenih u istom gradu, nasumično odabran između ove dvije granice.',
       'form.launch.button': "Pokreni generator nasumičnog putovanja",
       'form.launch.hint': "Tajanstvena destinacija vas čeka.",
 
@@ -11599,6 +11808,7 @@
       'error.minDistanceContextDay': "1 dan bez noćenja",
       'error.minDistanceContextNight': "1 noć",
       'error.minDistanceTooFar': "Nemoguće: samo sa {context} ne možete se udaljiti barem {min} km i ipak se vratiti unutar odabranog radijusa/vremena povratka ({radius} km). Produžite trajanje putovanja, smanjite minimalnu udaljenost ili proširite maksimalni radijus.",
+      'error.minMaxDaysPerCity': 'Najmanji broj dana po gradu ({min}) ne može premašiti najveći ({max}).',
 
       'transport.voitureThermique.label': "automobil",
       'transport.voitureHybride.label': "hibridni automobil",
@@ -11677,6 +11887,10 @@
       'form.minDistance.unitMax': "км максимално",
       'form.minDistance.hintMin': "Минимум: прва станица биће удаљена бар толико.",
       'form.minDistance.hintMax': "Максимум: пут никада неће прећи ту удаљеност од полазне тачке, ни у једном тренутку боравка.",
+      'form.daysPerCity.label': 'Број дана по граду',
+      'form.daysPerCity.unitMin': 'дан/дана најмање',
+      'form.daysPerCity.unitMax': 'дан/дана највише',
+      'form.daysPerCity.hint': 'Број узастопних ноћења проведених у истом граду, насумично одабран између ове две границе.',
       'form.launch.button': "Покрени генератор насумичног путовања",
       'form.launch.hint': "Тајанствена дестинација вас чека.",
 
@@ -11876,6 +12090,7 @@
       'error.minDistanceContextDay': "1 дан без ноћења",
       'error.minDistanceContextNight': "1 ноћ",
       'error.minDistanceTooFar': "Немогуће: само са {context} не можете се удаљити бар {min} км и ипак се вратити унутар одабраног радијуса/времена повратка ({radius} км). Продужите трајање путовања, смањите минималну удаљеност или проширите максимални радијус.",
+      'error.minMaxDaysPerCity': 'Најмањи број дана по граду ({min}) не може премашити највећи ({max}).',
 
       'transport.voitureThermique.label': "аутомобил",
       'transport.voitureHybride.label': "хибридни аутомобил",
@@ -11950,6 +12165,10 @@
       'form.minDistance.unitMax': "km højst",
       'form.minDistance.hintMin': "Minimum: den første stopby vil være mindst så langt væk.",
       'form.minDistance.hintMax': "Maksimum: ruten overskrider aldrig denne afstand fra udgangspunktet, på noget tidspunkt under opholdet.",
+      'form.daysPerCity.label': 'Antal dage pr. by',
+      'form.daysPerCity.unitMin': 'dag(e) mindst',
+      'form.daysPerCity.unitMax': 'dag(e) højst',
+      'form.daysPerCity.hint': 'Antal på hinanden følgende nætter tilbragt i samme by, tilfældigt valgt mellem disse to grænser.',
       'form.launch.button': "Start den tilfældige roadtrip-generator",
       'form.launch.hint': "En hemmelig destination venter på dig.",
 
@@ -12149,6 +12368,7 @@
       'error.minDistanceContextDay': "1 dag uden overnatning",
       'error.minDistanceContextNight': "1 nat",
       'error.minDistanceTooFar': "Ikke muligt: med kun {context} kan du ikke komme mindst {min} km væk og stadig vende tilbage inden for den valgte radius/hjemkomsttid ({radius} km). Forlæng rejsens varighed, sænk minimumsafstanden, eller udvid maksimumsradius.",
+      'error.minMaxDaysPerCity': 'Minimumantallet af dage pr. by ({min}) må ikke overstige maksimum ({max}).',
 
       'transport.voitureThermique.label': "bil",
       'transport.voitureHybride.label': "hybridbil",
@@ -12232,6 +12452,10 @@
       'form.minDistance.unitMax': "km høyst",
       'form.minDistance.hintMin': "Minimum: den første stoppebyen vil være minst så langt unna.",
       'form.minDistance.hintMax': "Maksimum: ruten vil aldri overskride denne avstanden fra utgangspunktet, på noe tidspunkt under oppholdet.",
+      'form.daysPerCity.label': 'Antall dager per by',
+      'form.daysPerCity.unitMin': 'dag(er) minst',
+      'form.daysPerCity.unitMax': 'dag(er) høyst',
+      'form.daysPerCity.hint': 'Antall påfølgende netter tilbrakt i samme by, tilfeldig valgt mellom disse to grensene.',
       'form.launch.button': "Start den tilfeldige road trip-generatoren",
       'form.launch.hint': "En hemmelig destinasjon venter på deg.",
 
@@ -12431,6 +12655,7 @@
       'error.minDistanceContextDay': "1 dag uten overnatting",
       'error.minDistanceContextNight': "1 natt",
       'error.minDistanceTooFar': "Ikke mulig: med bare {context} kan du ikke komme minst {min} km unna og likevel komme tilbake innenfor valgt radius/hjemkomsttid ({radius} km). Forleng reisens varighet, senk minimumsavstanden, eller utvid maksimumsradiusen.",
+      'error.minMaxDaysPerCity': 'Minimumsantallet dager per by ({min}) kan ikke overstige maksimum ({max}).',
 
       'transport.voitureThermique.label': "bil",
       'transport.voitureHybride.label': "hybridbil",
@@ -12509,6 +12734,10 @@
       'form.minDistance.unitMax': "km högst",
       'form.minDistance.hintMin': "Minimum: det första stoppet kommer att vara minst så långt bort.",
       'form.minDistance.hintMax': "Maximum: rutten kommer aldrig att överskrida detta avstånd från utgångspunkten, vid något tillfälle under vistelsen.",
+      'form.daysPerCity.label': 'Antal dagar per stad',
+      'form.daysPerCity.unitMin': 'dag(ar) minst',
+      'form.daysPerCity.unitMax': 'dag(ar) högst',
+      'form.daysPerCity.hint': 'Antal på varandra följande nätter i samma stad, slumpmässigt valt mellan dessa två gränser.',
       'form.launch.button': "Starta den slumpmässiga roadtrip-generatorn",
       'form.launch.hint': "En hemlig destination väntar på dig.",
 
@@ -12708,6 +12937,7 @@
       'error.minDistanceContextDay': "1 dag utan övernattning",
       'error.minDistanceContextNight': "1 natt",
       'error.minDistanceTooFar': "Inte möjligt: med endast {context} kan du inte komma minst {min} km bort och ändå ta dig tillbaka inom vald radie/hemkomsttid ({radius} km). Förläng resans längd, sänk minimiavståndet, eller utöka maxradien.",
+      'error.minMaxDaysPerCity': 'Minsta antalet dagar per stad ({min}) får inte överstiga max ({max}).',
 
       'transport.voitureThermique.label': "bil",
       'transport.voitureHybride.label': "hybridbil",
@@ -12787,6 +13017,10 @@
       'form.minDistance.unitMax': "km enintään",
       'form.minDistance.hintMin': "Minimi: ensimmäinen pysähdys on vähintään näin kaukana.",
       'form.minDistance.hintMax': "Maksimi: reitti ei koskaan ylitä tätä etäisyyttä lähtöpisteestä, missään vaiheessa matkaa.",
+      'form.daysPerCity.label': 'Päivien määrä kaupunkia kohden',
+      'form.daysPerCity.unitMin': 'päivä(ä) vähintään',
+      'form.daysPerCity.unitMax': 'päivä(ä) enintään',
+      'form.daysPerCity.hint': 'Peräkkäisten öiden määrä samassa kaupungissa, valittu satunnaisesti näiden kahden rajan väliltä.',
       'form.launch.button': "Käynnistä satunnainen road trip -generaattori",
       'form.launch.hint': "Salainen määränpää odottaa sinua.",
 
@@ -12986,6 +13220,7 @@
       'error.minDistanceContextDay': "1 päivä ilman yöpymistä",
       'error.minDistanceContextNight': "1 yö",
       'error.minDistanceTooFar': "Ei mahdollista: pelkällä {context} et pääse vähintään {min} km päähän ja pysty silti palaamaan valitun säteen/paluuajan sisällä ({radius} km). Pidennä matkan kestoa, pienennä vähimmäisetäisyyttä tai laajenna enimmäissädettä.",
+      'error.minMaxDaysPerCity': 'Vähimmäispäivämäärä kaupunkia kohden ({min}) ei voi ylittää enimmäismäärää ({max}).',
 
       'transport.voitureThermique.label': "auto",
       'transport.voitureHybride.label': "hybridiauto",
@@ -13071,6 +13306,10 @@
       'form.minDistance.unitMax': "km maksimum",
       'form.minDistance.hintMin': "Minimumi: ndalesa e parë do të jetë të paktën kaq larg.",
       'form.minDistance.hintMax': "Maksimumi: itinerari nuk do ta kalojë kurrë këtë distancë nga pika e nisjes, në asnjë moment të qëndrimit.",
+      'form.daysPerCity.label': 'Numri i ditëve për qytet',
+      'form.daysPerCity.unitMin': 'ditë të paktën',
+      'form.daysPerCity.unitMax': 'ditë maksimumi',
+      'form.daysPerCity.hint': 'Numri i netëve rresht të kaluara në të njëjtin qytet, i zgjedhur rastësisht midis këtyre dy kufijve.',
       'form.launch.button': "Nis gjeneratorin e udhëtimit të rastësishëm",
       'form.launch.hint': "Një destinacion sekret ju pret.",
 
@@ -13270,6 +13509,7 @@
       'error.minDistanceContextDay': "1 ditë pa fjetje",
       'error.minDistanceContextNight': "1 natë",
       'error.minDistanceTooFar': "E pamundur: vetëm me {context} nuk mund të largoheni të paktën {min} km dhe të ktheheni brenda rrezes/kohës së kthimit të zgjedhur ({radius} km). Zgjatni kohëzgjatjen e udhëtimit, uleni distancën minimale, ose zgjeroni rrezen maksimale.",
+      'error.minMaxDaysPerCity': 'Minimumi i ditëve për qytet ({min}) nuk mund ta kalojë maksimumin ({max}).',
 
       'transport.voitureThermique.label': "makinë",
       'transport.voitureHybride.label': "makinë hibride",
@@ -13357,6 +13597,10 @@
       'form.minDistance.unitMax': "km maksimalno",
       'form.minDistance.hintMin': "Minimum: prva stanica će biti udaljena barem toliko.",
       'form.minDistance.hintMax': "Maksimum: put nikada neće preći tu udaljenost od polazne tačke, ni u jednom trenutku boravka.",
+      'form.daysPerCity.label': 'Broj dana po gradu',
+      'form.daysPerCity.unitMin': 'dan/dana najmanje',
+      'form.daysPerCity.unitMax': 'dan/dana najviše',
+      'form.daysPerCity.hint': 'Broj uzastopnih noćenja provedenih u istom gradu, nasumično odabran između ove dvije granice.',
       'form.launch.button': "Pokreni generator nasumičnog putovanja",
       'form.launch.hint': "Tajanstvena destinacija vas čeka.",
 
@@ -13556,6 +13800,7 @@
       'error.minDistanceContextDay': "1 dan bez noćenja",
       'error.minDistanceContextNight': "1 noć",
       'error.minDistanceTooFar': "Nemoguće: samo sa {context} ne možete se udaljiti barem {min} km i ipak se vratiti unutar odabranog radijusa/vremena povratka ({radius} km). Produžite trajanje putovanja, smanjite minimalnu udaljenost ili proširite maksimalni radijus.",
+      'error.minMaxDaysPerCity': 'Najmanji broj dana po gradu ({min}) ne može premašiti najveći ({max}).',
 
       'transport.voitureThermique.label': "automobil",
       'transport.voitureHybride.label': "hibridni automobil",
@@ -13638,6 +13883,10 @@
       'form.minDistance.unitMax': "км најмногу",
       'form.minDistance.hintMin': "Минимум: првата етапа ќе биде на најмалку ова растојание.",
       'form.minDistance.hintMax': "Максимум: патувањето никогаш нема да го надмине ова растојание од почетната точка, во ниту еден момент од престојот.",
+      'form.daysPerCity.label': 'Број денови по град',
+      'form.daysPerCity.unitMin': 'ден/дена најмалку',
+      'form.daysPerCity.unitMax': 'ден/дена најмногу',
+      'form.daysPerCity.hint': 'Број последователни ноќевања поминати во истиот град, случајно избран помеѓу овие две граници.',
       'form.launch.button': "Активирај го генераторот за случајно патување",
       'form.launch.hint': "Ве чека тајна дестинација.",
 
@@ -13837,6 +14086,7 @@
       'error.minDistanceContextDay': "1 ден и без ноќевање",
       'error.minDistanceContextNight': "1 ноќевање",
       'error.minDistanceTooFar': "Невозможно: со само {context}, не може да се оддалечите барем {min} км и потоа да се вратите во избраниот радиус/време на враќање ({radius} км). Продолжете го престојот, намалете го минималното растојание, или проширете го максималниот радиус.",
+      'error.minMaxDaysPerCity': 'Минималниот број денови по град ({min}) не може да го надмине максимумот ({max}).',
 
       'transport.voitureThermique.label': "автомобил",
       'transport.voitureHybride.label': "хибриден автомобил",
@@ -13916,6 +14166,10 @@
       'form.minDistance.unitMax': "km cel mult",
       'form.minDistance.hintMin': "Minim: prima etapă va fi la cel puțin această distanță.",
       'form.minDistance.hintMax': "Maxim: traseul nu va depăși niciodată această distanță față de punctul de plecare, în niciun moment al sejurului.",
+      'form.daysPerCity.label': 'Număr de zile pe oraș',
+      'form.daysPerCity.unitMin': 'zi/zile cel puțin',
+      'form.daysPerCity.unitMax': 'zi/zile cel mult',
+      'form.daysPerCity.hint': 'Numărul de nopți consecutive petrecute în același oraș, ales aleatoriu între aceste două limite.',
       'form.launch.button': "Porniți generatorul de călătorie aleatorie",
       'form.launch.hint': "O destinație secretă vă așteaptă.",
 
@@ -14115,6 +14369,7 @@
       'error.minDistanceContextDay': "1 zi și nicio noapte de cazare",
       'error.minDistanceContextNight': "1 noapte de cazare",
       'error.minDistanceTooFar': "Imposibil: cu doar {context}, nu vă puteți îndepărta cu cel puțin {min} km și apoi să vă întoarceți în raza/timpul de întoarcere ales ({radius} km). Prelungiți durata sejurului, reduceți distanța minimă, sau extindeți raza maximă.",
+      'error.minMaxDaysPerCity': 'Minimul de zile pe oraș ({min}) nu poate depăși maximul ({max}).',
 
       'transport.voitureThermique.label': "mașină",
       'transport.voitureHybride.label': "mașină hibridă",
@@ -14194,6 +14449,10 @@
       'form.minDistance.unitMax': "χλμ κατά μέγιστο",
       'form.minDistance.hintMin': "Ελάχιστο: η πρώτη στάση θα βρίσκεται σε αυτή την απόσταση τουλάχιστον.",
       'form.minDistance.hintMax': "Μέγιστο: η διαδρομή δεν θα υπερβεί ποτέ αυτή την απόσταση από το σημείο αναχώρησης, σε καμία στιγμή της διαμονής.",
+      'form.daysPerCity.label': 'Αριθμός ημερών ανά πόλη',
+      'form.daysPerCity.unitMin': 'ημέρα(ες) τουλάχιστον',
+      'form.daysPerCity.unitMax': 'ημέρα(ες) το πολύ',
+      'form.daysPerCity.hint': 'Αριθμός διαδοχικών διανυκτερεύσεων στην ίδια πόλη, επιλεγμένος τυχαία μεταξύ αυτών των δύο ορίων.',
       'form.launch.button': "Ενεργοποίηση της γεννήτριας τυχαίου ταξιδιού",
       'form.launch.hint': "Ένας μυστικός προορισμός σας περιμένει.",
 
@@ -14393,6 +14652,7 @@
       'error.minDistanceContextDay': "1 ημέρα και καμία διανυκτέρευση",
       'error.minDistanceContextNight': "1 διανυκτέρευση",
       'error.minDistanceTooFar': "Αδύνατο: με μόλις {context}, δεν είναι δυνατό να απομακρυνθείτε τουλάχιστον {min} χλμ και μετά να επιστρέψετε εντός της επιλεγμένης ακτίνας/χρόνου επιστροφής ({radius} χλμ). Παρατείνετε τη διάρκεια της διαμονής, μειώστε την ελάχιστη απόσταση, ή διευρύνετε τη μέγιστη ακτίνα.",
+      'error.minMaxDaysPerCity': 'Ο ελάχιστος αριθμός ημερών ανά πόλη ({min}) δεν μπορεί να υπερβεί το μέγιστο ({max}).',
 
       'transport.voitureThermique.label': "αυτοκίνητο",
       'transport.voitureHybride.label': "υβριδικό αυτοκίνητο",
@@ -14474,6 +14734,10 @@
       'form.minDistance.unitMax': "км най-много",
       'form.minDistance.hintMin': "Минимум: първата спирка ще бъде на най-малко това разстояние.",
       'form.minDistance.hintMax': "Максимум: маршрутът никога няма да надхвърли това разстояние от началната точка, в никакъв момент от престоя.",
+      'form.daysPerCity.label': 'Брой дни на град',
+      'form.daysPerCity.unitMin': 'ден/дни най-малко',
+      'form.daysPerCity.unitMax': 'ден/дни най-много',
+      'form.daysPerCity.hint': 'Брой последователни нощувки, прекарани в един и същ град, избран на случаен принцип между тези две граници.',
       'form.launch.button': "Стартиране на генератора за случайно пътуване",
       'form.launch.hint': "Тайна дестинация ви очаква.",
 
@@ -14673,6 +14937,7 @@
       'error.minDistanceContextDay': "1 ден и никаква нощувка",
       'error.minDistanceContextNight': "1 нощувка",
       'error.minDistanceTooFar': "Невъзможно: само с {context} не може да се отдалечите на най-малко {min} км и след това да се върнете в избрания радиус/време за връщане ({radius} км). Удължете продължителността на престоя, намалете минималното разстояние, или разширете максималния радиус.",
+      'error.minMaxDaysPerCity': 'Минималният брой дни на град ({min}) не може да надвиши максималния ({max}).',
 
       'transport.voitureThermique.label': "автомобил",
       'transport.voitureHybride.label': "хибриден автомобил",
@@ -14751,6 +15016,10 @@
       'form.minDistance.unitMax': 'km maksimums',
       'form.minDistance.hintMin': 'Minimums: pirmais pieturas punkts būs vismaz šajā attālumā.',
       'form.minDistance.hintMax': 'Maksimums: maršruts nekad nepārsniegs šo attālumu no izbraukšanas vietas nevienā uzturēšanās brīdī.',
+      'form.daysPerCity.label': 'Dienu skaits vienā pilsētā',
+      'form.daysPerCity.unitMin': 'diena(s) vismaz',
+      'form.daysPerCity.unitMax': 'diena(s) ne vairāk kā',
+      'form.daysPerCity.hint': 'Secīgu nakšu skaits, kas pavadītas vienā un tajā pašā pilsētā, izvēlēts nejauši starp šīm divām robežām.',
       'form.launch.button': 'Palaist nejaušā ceļojuma ģeneratoru',
       'form.launch.hint': 'Jūs gaida noslēpumains galamērķis.',
 
@@ -14950,6 +15219,7 @@
       'error.minDistanceContextDay': '1 diena un neviena nakts',
       'error.minDistanceContextNight': '1 nakts',
       'error.minDistanceTooFar': "Neiespējami: ar tikai {context}, nevar attālināties vismaz {min} km un tad atgriezties izvēlētajā rādiusā/atgriešanās laikā ({radius} km). Palieliniet uzturēšanās ilgumu, samaziniet minimālo attālumu vai palieliniet maksimālo rādiusu.",
+      'error.minMaxDaysPerCity': 'Minimālais dienu skaits pilsētā ({min}) nedrīkst pārsniegt maksimālo ({max}).',
 
       'transport.voitureThermique.label': 'automašīna',
       'transport.voitureHybride.label': 'hibrīdauto',
@@ -15027,6 +15297,10 @@
       'form.minDistance.unitMax': 'km ne daugiau kaip',
       'form.minDistance.hintMin': 'Minimumas: pirmoji stotelė bus bent šiuo atstumu.',
       'form.minDistance.hintMax': 'Maksimumas: maršrutas niekada neviršys šio atstumo nuo išvykimo vietos jokiu buvimo metu.',
+      'form.daysPerCity.label': 'Dienų skaičius mieste',
+      'form.daysPerCity.unitMin': 'diena(-os) mažiausiai',
+      'form.daysPerCity.unitMax': 'diena(-os) daugiausiai',
+      'form.daysPerCity.hint': 'Iš eilės tame pačiame mieste praleistų naktų skaičius, atsitiktinai parinktas tarp šių dviejų ribų.',
       'form.launch.button': 'Paleisti atsitiktinės kelionės generatorių',
       'form.launch.hint': 'Jūsų laukia paslaptingas tikslas.',
 
@@ -15226,6 +15500,7 @@
       'error.minDistanceContextDay': '1 diena ir jokios nakties',
       'error.minDistanceContextNight': '1 naktis',
       'error.minDistanceTooFar': "Neįmanoma: turint tik {context}, negalima nutolti bent {min} km ir tada grįžti į pasirinktą spindulį/grįžimo laiką ({radius} km). Padidinkite kelionės trukmę, sumažinkite minimalų atstumą arba padidinkite maksimalų spindulį.",
+      'error.minMaxDaysPerCity': 'Mažiausias dienų skaičius mieste ({min}) negali viršyti didžiausio ({max}).',
 
       'transport.voitureThermique.label': 'automobilis',
       'transport.voitureHybride.label': 'hibridinis automobilis',
@@ -15304,6 +15579,10 @@
       'form.minDistance.unitMax': 'km maksimaalselt',
       'form.minDistance.hintMin': 'Miinimum: esimene peatus on vähemalt selle vahemaa kaugusel.',
       'form.minDistance.hintMax': 'Maksimum: marsruut ei ületa kunagi seda vahemaad lähtekohast, mitte üheski reisi hetkes.',
+      'form.daysPerCity.label': 'Päevade arv linna kohta',
+      'form.daysPerCity.unitMin': 'päev(a) vähemalt',
+      'form.daysPerCity.unitMax': 'päev(a) kõige rohkem',
+      'form.daysPerCity.hint': 'Samas linnas järjest veedetud ööde arv, valitud juhuslikult nende kahe piiri vahel.',
       'form.launch.button': 'Käivita juhusliku teekonna generaator',
       'form.launch.hint': 'Teid ootab salapärane sihtkoht.',
 
@@ -15503,6 +15782,7 @@
       'error.minDistanceContextDay': '1 päev ja ühtki ööd',
       'error.minDistanceContextNight': '1 öö',
       'error.minDistanceTooFar': "Võimatu: ainult {context} korral ei saa kaugeneda vähemalt {min} km ja seejärel valitud raadiusesse/tagasisõiduaega ({radius} km) tagasi tulla. Suurendage reisi kestust, vähendage minimaalset vahemaad või suurendage maksimaalset raadiust.",
+      'error.minMaxDaysPerCity': 'Minimaalne päevade arv linna kohta ({min}) ei tohi ületada maksimumi ({max}).',
 
       'transport.voitureThermique.label': 'auto',
       'transport.voitureHybride.label': 'hübriidauto',
@@ -15584,6 +15864,10 @@
       'form.minDistance.unitMax': 'km maksimums',
       'form.minDistance.hintMin': 'Minimums: pirmais pieturas punkts būs vismaz šajā attālumā.',
       'form.minDistance.hintMax': 'Maksimums: maršruts nekad nepārsniegs šo attālumu no izbraukšanas vietas nevienā uzturēšanās brīdī.',
+      'form.daysPerCity.label': 'Dienu skaits vienā pilsētā',
+      'form.daysPerCity.unitMin': 'diena(s) vismaz',
+      'form.daysPerCity.unitMax': 'diena(s) ne vairāk kā',
+      'form.daysPerCity.hint': 'Secīgu nakšu skaits, kas pavadītas vienā un tajā pašā pilsētā, izvēlēts nejauši starp šīm divām robežām.',
       'form.launch.button': 'Palaist nejaušā ceļojuma ģeneratoru',
       'form.launch.hint': 'Jūs gaida noslēpumains galamērķis.',
 
@@ -15783,6 +16067,7 @@
       'error.minDistanceContextDay': '1 dīna i neviena nakts',
       'error.minDistanceContextNight': '1 nakts',
       'error.minDistanceTooFar': "Neiespējami: ar tikai {context}, nevar attālināties vismaz {min} km i tad atgriezties izvēlētajā rādiusā/atgriešanās laikā ({radius} km). Palieliniet uzturēšanās ilgumu, samaziniet minimālo attālumu voi palieliniet maksimālo rādiusu.",
+      'error.minMaxDaysPerCity': 'Minimālais dienu skaits pilsētā ({min}) nedrīkst pārsniegt maksimālo ({max}).',
 
       'transport.voitureThermique.label': 'automašīna',
       'transport.voitureHybride.label': 'hibrīdauto',
@@ -15864,6 +16149,10 @@
       'form.minDistance.unitMax': 'km maksimaalselt',
       'form.minDistance.hintMin': 'Miinimum: esimene peatus on vähemalt selle vahemaa kaugusel.',
       'form.minDistance.hintMax': 'Maksimum: marsruut ei ületa kunagi seda vahemaad lähtekohast, mitte üheski reisi hetkes.',
+      'form.daysPerCity.label': 'Päevade arv linna kohta',
+      'form.daysPerCity.unitMin': 'päev(a) vähemalt',
+      'form.daysPerCity.unitMax': 'päev(a) kõige rohkem',
+      'form.daysPerCity.hint': 'Samas linnas järjest veedetud ööde arv, valitud juhuslikult nende kahe piiri vahel.',
       'form.launch.button': 'Käivita juhusliku teekonna generaator',
       'form.launch.hint': 'Teid ootab salapärane sihtkoht.',
 
@@ -16063,6 +16352,7 @@
       'error.minDistanceContextDay': '1 päev ja ühtki ööd',
       'error.minDistanceContextNight': '1 öö',
       'error.minDistanceTooFar': "Võimatu: ainult {context} korral ei saa kaugeneda vähemalt {min} km ja seejärel valitud raadiusesse/tagasisõiduaega ({radius} km) tagasi tulla. Suurendage reisi kestust, vähendage minimaalset vahemaad vai suurendage maksimaalset raadiust.",
+      'error.minMaxDaysPerCity': 'Minimaalne päevade arv linna kohta ({min}) ei tohi ületada maksimumi ({max}).',
 
       'transport.voitureThermique.label': 'auto',
       'transport.voitureHybride.label': 'hübriidauto',
@@ -16145,6 +16435,10 @@
       'form.minDistance.unitMax': 'km ne daugiau kap',
       'form.minDistance.hintMin': 'Minimumas: pirmoji stotelė bus bent šiuo atstumu.',
       'form.minDistance.hintMax': 'Maksimumas: maršrutas niekada neviršys šio atstumo nuo išvykimo vietos jokiu buvimo metu.',
+      'form.daysPerCity.label': 'Dienų skaičius mieste',
+      'form.daysPerCity.unitMin': 'diena(-os) mažiausiai',
+      'form.daysPerCity.unitMax': 'diena(-os) daugiausiai',
+      'form.daysPerCity.hint': 'Iš eilės tame pačiame mieste praleistų naktų skaičius, atsitiktinai parinktas tarp šių dviejų ribų.',
       'form.launch.button': 'Paleisti atsitiktinės kelionės generatorių',
       'form.launch.hint': 'Jūsų laukia paslaptingas tikslas.',
 
@@ -16344,6 +16638,7 @@
       'error.minDistanceContextDay': '1 diena ir jokios nakties',
       'error.minDistanceContextNight': '1 naktis',
       'error.minDistanceTooFar': "Neįmanoma: turint tik {context}, negalima nutolti bent {min} km ir tada grįžti į pasirinktą spindulį/grįžimo laiką ({radius} km). Padidinkite kelionės trukmę, sumažinkite minimalų atstumą arba padidinkite maksimalų spindulį.",
+      'error.minMaxDaysPerCity': 'Mažiausias dienų skaičius mieste ({min}) negali viršyti didžiausio ({max}).',
 
       'transport.voitureThermique.label': 'automobilis',
       'transport.voitureHybride.label': 'hibridinis automobilis',
@@ -16419,6 +16714,10 @@
       'form.minDistance.unitMax': 'km að hámarki',
       'form.minDistance.hintMin': 'Lágmark: fyrsti áfanginn verður að minnsta kosti í þessari fjarlægð.',
       'form.minDistance.hintMax': 'Hámark: leiðin mun aldrei fara yfir þessa fjarlægð frá brottfararstað, á neinum tímapunkti dvalarinnar.',
+      'form.daysPerCity.label': 'Fjöldi daga á hverjum stað',
+      'form.daysPerCity.unitMin': 'dag(ar) að lágmarki',
+      'form.daysPerCity.unitMax': 'dag(ar) að hámarki',
+      'form.daysPerCity.hint': 'Fjöldi samfelldra nátta sem dvalið er á sama stað, valið af handahófi milli þessara tveggja marka.',
       'form.launch.button': 'Ræsa slembna ferðagjörva',
       'form.launch.hint': 'Dularfullur áfangastaður bíður þín.',
 
@@ -16618,6 +16917,7 @@
       'error.minDistanceContextDay': '1 dagur og engin nótt',
       'error.minDistanceContextNight': '1 nótt',
       'error.minDistanceTooFar': "Ómögulegt: með aðeins {context} er ekki hægt að fjarlægjast um að minnsta kosti {min} km og snúa síðan aftur innan valins radíuss/heimferðartíma ({radius} km). Auktu lengd dvalarinnar, minnkaðu lágmarksfjarlægðina, eða stækkaðu hámarksradíusinn.",
+      'error.minMaxDaysPerCity': 'Lágmarksfjöldi daga á stað ({min}) má ekki fara yfir hámarkið ({max}).',
 
       'transport.voitureThermique.label': 'bíll',
       'transport.voitureHybride.label': 'tvinnbíll',
@@ -16697,6 +16997,10 @@
       'form.minDistance.unitMax': 'km í mesta lagi',
       'form.minDistance.hintMin': 'Minst: fyrsta bólið verður í minsta lagi í hesi fjarlægd.',
       'form.minDistance.hintMax': 'Mest: leiðin fer ongantíð longri enn hesa fjarlægd frá avreiðslustaðnum, á ongum tíðspunkti av uppihaldinum.',
+      'form.daysPerCity.label': 'Tal av døgum í hvørjum staði',
+      'form.daysPerCity.unitMin': 'dagur/dagar í minsta lagi',
+      'form.daysPerCity.unitMax': 'dagur/dagar í mesta lagi',
+      'form.daysPerCity.hint': 'Tal av samfeldum nátta verandi á sama staði, valt av tilvild millum hesar báðar markir.',
       'form.launch.button': 'Byrja tilvildarliga ferðavélina',
       'form.launch.hint': 'Ein dularfullur ferðamál bíðar eftir tær.',
 
@@ -16896,6 +17200,7 @@
       'error.minDistanceContextDay': '1 dagur og onga nátt',
       'error.minDistanceContextNight': '1 nátt',
       'error.minDistanceTooFar': "Ómøguligt: við bert {context}, kann man ikki fjarlægjast minst {min} km og so venda aftur innan valdan radius/heimferðartíð ({radius} km). Økja longd uppihaldsins, minka minstu fjarlægdina, ella økja mesta radiusin.",
+      'error.minMaxDaysPerCity': 'Minsta tal av døgum í staði ({min}) má ikki fara yvir tað mesta ({max}).',
 
       'transport.voitureThermique.label': 'bilur',
       'transport.voitureHybride.label': 'hybridbilur',
@@ -16968,6 +17273,10 @@
       'form.minDistance.unitMax': "km maksimum",
       'form.minDistance.hintMin': "Minimum: ilk durak en az bu uzaklıkta olacek.",
       'form.minDistance.hintMax': "Maksimum: rota hiç zaman bu uzaklıı gitmäk noktasından geçmeyecek, geziyin hiçbir anında.",
+      'form.daysPerCity.label': 'Kasabada gün sayısı',
+      'form.daysPerCity.unitMin': 'gün en az',
+      'form.daysPerCity.unitMax': 'gün en çok',
+      'form.daysPerCity.hint': 'Aynı kasabada geçirilän ardarda gecelerin sayısı, bu iki sınır arasında rastgele seçilir.',
       'form.launch.button': "Rasgele geziyin generatorunu başlatmaa",
       'form.launch.hint': "Gizli bir yön sizi bekleyer.",
 
@@ -17167,6 +17476,7 @@
       'error.minDistanceContextDay': "1 gün geceleмä olmadan",
       'error.minDistanceContextNight': "1 gecä",
       'error.minDistanceTooFar': "Mümkün diil: sade {context} ile en az {min} km uzaklaşамazsınız hem seçilmiş radiusun/dönmäk zamanının için ({radius} km) dönämezsiniz. Geziyin uzunluunu büyütün, minimum uzaklıı azaltın ya da maksimum radiusu büyütün.",
+      'error.minMaxDaysPerCity': 'Kasabada minimum gün sayısı ({min}) maksimumu ({max}) geçämäz.',
 
       'transport.voitureThermique.label': "avtomobil",
       'transport.voitureHybride.label': "hibrid avtomobil",
@@ -17240,6 +17550,10 @@
       'form.minDistance.unitMax': "км максімум",
       'form.minDistance.hintMin': "Мінімум: першая прыпынак будзе прынамсі на такой адлегласці.",
       'form.minDistance.hintMax': "Максімум: маршрут ніколі не перавысіць гэтую адлегласць ад пункту адпраўлення, ні ў адзін момант падарожжа.",
+      'form.daysPerCity.label': 'Колькасць дзён на горад',
+      'form.daysPerCity.unitMin': 'дзень/дні прынамсі',
+      'form.daysPerCity.unitMax': 'дзень/дні максімум',
+      'form.daysPerCity.hint': 'Колькасць паслядоўных начэй, праведзеных у адным і тым жа горадзе, выбраная выпадкова паміж гэтымі дзвюма межамі.',
       'form.launch.button': "Запусціць генератар выпадковага падарожжа",
       'form.launch.hint': "Таямнічы напрамак ужо чакае вас.",
 
@@ -17439,6 +17753,7 @@
       'error.minDistanceContextDay': "1 дзень без начлегу",
       'error.minDistanceContextNight': "1 ноч",
       'error.minDistanceTooFar': "Немагчыма: маючы толькі {context}, вы не зможаце аддаліцца прынамсі на {min} км і ўсё ж вярнуцца ў межах абранага радыуса/часу зваротнай дарогі ({radius} км). Павялічце працягласць падарожжа, паменшыце мінімальную адлегласць або павялічце максімальны радыус.",
+      'error.minMaxDaysPerCity': 'Мінімальная колькасць дзён на горад ({min}) не можа перавышаць максімальную ({max}).',
 
       'transport.voitureThermique.label': "аўтамабіль",
       'transport.voitureHybride.label': "гібрыдны аўтамабіль",
@@ -17512,6 +17827,10 @@
       'form.minDistance.unitMax': "км максимум",
       'form.minDistance.hintMin': "Минимум: первая остановка будет минимум на таком расстоянии.",
       'form.minDistance.hintMax': "Максимум: маршрут никогда не превысит это расстояние от точки отправления, ни в один момент поездки.",
+      'form.daysPerCity.label': 'Количество дней в одном городе',
+      'form.daysPerCity.unitMin': 'день/дней минимум',
+      'form.daysPerCity.unitMax': 'день/дней максимум',
+      'form.daysPerCity.hint': 'Количество последовательных ночей, проведённых в одном и том же городе, выбирается случайно между этими двумя границами.',
       'form.launch.button': "Запустить генератор случайного путешествия",
       'form.launch.hint': "Таинственное направление уже ждёт вас.",
 
@@ -17711,6 +18030,7 @@
       'error.minDistanceContextDay': "1 день без ночёвки",
       'error.minDistanceContextNight': "1 ночь",
       'error.minDistanceTooFar': "Невозможно: имея только {context}, вы не сможете удалиться минимум на {min} км и всё же вернуться в пределах выбранного радиуса/времени обратной дороги ({radius} км). Увеличьте продолжительность поездки, уменьшите минимальное расстояние или увеличьте максимальный радиус.",
+      'error.minMaxDaysPerCity': 'Минимальное количество дней в городе ({min}) не может превышать максимальное ({max}).',
 
       'transport.voitureThermique.label': "автомобиль",
       'transport.voitureHybride.label': "гибридный автомобиль",
@@ -17784,6 +18104,10 @@
       'form.minDistance.unitMax': "км максимум",
       'form.minDistance.hintMin': "Мінімум: перша зупинка буде щонайменше на такій відстані.",
       'form.minDistance.hintMax': "Максимум: маршрут ніколи не перевищить цю відстань від точки відправлення, у жодний момент подорожі.",
+      'form.daysPerCity.label': 'Кількість днів в одному місті',
+      'form.daysPerCity.unitMin': 'день/днів мінімум',
+      'form.daysPerCity.unitMax': 'день/днів максимум',
+      'form.daysPerCity.hint': 'Кількість послідовних ночей, проведених в одному й тому ж місті, обирається випадково між цими двома межами.',
       'form.launch.button': "Запустити генератор випадкової подорожі",
       'form.launch.hint': "Таємнича мандрівка вже чекає на вас.",
 
@@ -17983,6 +18307,7 @@
       'error.minDistanceContextDay': "1 день без ночівлі",
       'error.minDistanceContextNight': "1 ніч",
       'error.minDistanceTooFar': "Неможливо: маючи лише {context}, ви не зможете віддалитися щонайменше на {min} км і все ж повернутися в межах обраного радіуса/часу зворотної дороги ({radius} км). Подовжте тривалість подорожі, зменшіть мінімальну відстань або збільште максимальний радіус.",
+      'error.minMaxDaysPerCity': 'Мінімальна кількість днів у місті ({min}) не може перевищувати максимальну ({max}).',
 
       'transport.voitureThermique.label': "автомобіль",
       'transport.voitureHybride.label': "гібридний автомобіль",
@@ -18056,6 +18381,10 @@
       'form.minDistance.unitMax': "km maksimum",
       'form.minDistance.hintMin': "Minimum: ilk toqtav en az bu mesafede olacaq.",
       'form.minDistance.hintMax': "Maksimum: yol hiç bir zaman chıqış noqtasından bu mesafeni aşmayacaq, seyahatniñ hiç bir anında.",
+      'form.daysPerCity.label': 'Şeherde kün sayısı',
+      'form.daysPerCity.unitMin': 'kün eñ az',
+      'form.daysPerCity.unitMax': 'kün eñ çoq',
+      'form.daysPerCity.hint': 'Aynı şeherde keçirilgen ardı-sıra keçelerniñ sayısı, bu eki sınır arasında tesadüfiy seçile.',
       'form.launch.button': "Tesadüfiy seyahat generatorunı başlatmaq",
       'form.launch.hint': "Sırlı bir yön sizni bekley.",
 
@@ -18255,6 +18584,7 @@
       'error.minDistanceContextDay': "1 kün keceleme olmadan",
       'error.minDistanceContextNight': "1 kece",
       'error.minDistanceTooFar': "Mümkün degil: ancaq {context} ile en az {min} km uzaqlaşalmazsıñız ve saylangan radius/qaytış vaqtı içinde ({radius} km) qaytalmazsıñız. Seyahatniñ uzunlığını büyütiñiz, minimum mesafeni azaltıñız ya da maksimum radiusnı büyütiñiz.",
+      'error.minMaxDaysPerCity': 'Şeherde minimum kün sayısı ({min}) maksimumnı ({max}) aşalmay.',
 
       'transport.voitureThermique.label': "avtomobil",
       'transport.voitureHybride.label': "gibrid avtomobil",
@@ -18328,6 +18658,10 @@
       'form.minDistance.unitMax': "km maksimum",
       'form.minDistance.hintMin': "Minimum: ilk durak en az bu kadar uzak olacak.",
       'form.minDistance.hintMax': "Maksimum: güzergah, yolculuğun hiçbir anında çıkış noktasından bu mesafeyi asla aşmayacak.",
+      'form.daysPerCity.label': 'Şehir başına gün sayısı',
+      'form.daysPerCity.unitMin': 'gün en az',
+      'form.daysPerCity.unitMax': 'gün en fazla',
+      'form.daysPerCity.hint': 'Aynı şehirde geçirilen art arda gecelerin sayısı, bu iki sınır arasında rastgele seçilir.',
       'form.launch.button': "Rastgele yolculuk üreticisini başlat",
       'form.launch.hint': "Gizemli bir varış noktası sizi bekliyor.",
 
@@ -18527,6 +18861,7 @@
       'error.minDistanceContextDay': "geceleme olmadan 1 gün",
       'error.minDistanceContextNight': "1 gece",
       'error.minDistanceTooFar': "İmkansız: yalnızca {context} ile en az {min} km uzaklaşıp yine de seçilen yarıçap/dönüş süresi ({radius} km) içinde dönemezsiniz. Yolculuk süresini uzatın, minimum mesafeyi azaltın ya da maksimum yarıçapı genişletin.",
+      'error.minMaxDaysPerCity': 'Şehir başına minimum gün sayısı ({min}) maksimumu ({max}) geçemez.',
 
       'transport.voitureThermique.label': "otomobil",
       'transport.voitureHybride.label': "hibrit otomobil",
@@ -18600,6 +18935,10 @@
       'form.minDistance.unitMax': "კმ მაქსიმუმ",
       'form.minDistance.hintMin': "მინიმუმი: პირველი გაჩერება მაინც ამდენად შორს იქნება.",
       'form.minDistance.hintMax': "მაქსიმუმი: მარშრუტი მოგზაურობის არც ერთ მომენტში არასდროს გადააჭარბებს ამ მანძილს გასვლის წერტილიდან.",
+      'form.daysPerCity.label': 'დღეების რაოდენობა თითო ქალაქში',
+      'form.daysPerCity.unitMin': 'დღე მინიმუმ',
+      'form.daysPerCity.unitMax': 'დღე მაქსიმუმ',
+      'form.daysPerCity.hint': 'ერთსა და იმავე ქალაქში გატარებული თანმიმდევრული ღამეების რაოდენობა, არჩეული შემთხვევით ამ ორ ზღვარს შორის.',
       'form.launch.button': "შემთხვევითი მოგზაურობის გენერატორის გაშვება",
       'form.launch.hint': "იდუმალი დანიშნულების ადგილი გელოდებათ.",
 
@@ -18799,6 +19138,7 @@
       'error.minDistanceContextDay': "1 დღე ღამის გარეშე",
       'error.minDistanceContextNight': "1 ღამე",
       'error.minDistanceTooFar': "შეუძლებელია: {context}-ით ვერ დაშორდებით მინიმუმ {min} კმ-ით და ამავე დროს ვერ დაბრუნდებით არჩეული რადიუსის/დაბრუნების ხანგრძლივობის ({radius} კმ) ფარგლებში. გაახანგრძლივეთ მოგზაურობა, შეამცირეთ მინიმალური მანძილი ან გაზარდეთ მაქსიმალური რადიუსი.",
+      'error.minMaxDaysPerCity': 'ქალაქში დღეების მინიმალური რაოდენობა ({min}) არ შეიძლება აღემატებოდეს მაქსიმუმს ({max}).',
 
       'transport.voitureThermique.label': "ავტომობილი",
       'transport.voitureHybride.label': "ჰიბრიდული ავტომობილი",

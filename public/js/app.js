@@ -922,6 +922,14 @@
     maxDistanceDec: document.getElementById('max-distance-dec'),
     maxDistanceInc: document.getElementById('max-distance-inc'),
     minDistanceError: document.getElementById('min-distance-error'),
+    daysPerCityField: document.getElementById('days-per-city-field'),
+    minDaysPerCity: document.getElementById('min-days-per-city'),
+    minDaysPerCityDec: document.getElementById('min-days-per-city-dec'),
+    minDaysPerCityInc: document.getElementById('min-days-per-city-inc'),
+    maxDaysPerCity: document.getElementById('max-days-per-city'),
+    maxDaysPerCityDec: document.getElementById('max-days-per-city-dec'),
+    maxDaysPerCityInc: document.getElementById('max-days-per-city-inc'),
+    daysPerCityError: document.getElementById('days-per-city-error'),
     modeKm: document.getElementById('mode-km'),
     modeH: document.getElementById('mode-h'),
     clock: document.getElementById('clock'),
@@ -1103,6 +1111,21 @@
     void els.minDistanceField.offsetWidth;
     els.minDistanceField.classList.add('shake');
     els.minDistance.focus();
+  }
+
+  /* ---------- MIN/MAX JOURS PAR VILLE VALIDATION ---------- */
+  function clearDaysPerCityError(){
+    els.daysPerCityField.classList.remove('invalid');
+    els.daysPerCityError.classList.remove('show');
+  }
+  function showDaysPerCityError(message){
+    els.daysPerCityError.textContent = message;
+    els.daysPerCityField.classList.add('invalid');
+    els.daysPerCityError.classList.add('show');
+    els.daysPerCityField.classList.remove('shake');
+    void els.daysPerCityField.offsetWidth;
+    els.daysPerCityField.classList.add('shake');
+    els.minDaysPerCity.focus();
   }
 
   /* ---------- CITY AUTOCOMPLETE (nom ou code postal) ---------- */
@@ -1301,6 +1324,10 @@
   els.minDistanceInc.addEventListener('click', function(){ stepNumberField(els.minDistance, 1); });
   els.maxDistanceDec.addEventListener('click', function(){ stepNumberField(els.maxDistance, -1); });
   els.maxDistanceInc.addEventListener('click', function(){ stepNumberField(els.maxDistance, 1); });
+  els.minDaysPerCityDec.addEventListener('click', function(){ stepNumberField(els.minDaysPerCity, -1); });
+  els.minDaysPerCityInc.addEventListener('click', function(){ stepNumberField(els.minDaysPerCity, 1); });
+  els.maxDaysPerCityDec.addEventListener('click', function(){ stepNumberField(els.maxDaysPerCity, -1); });
+  els.maxDaysPerCityInc.addEventListener('click', function(){ stepNumberField(els.maxDaysPerCity, 1); });
 
   /* ---------- FOURCHETTE DE PRIX DU BUDGET SÉLECTIONNÉ ---------- */
   // Affiche le plafond réellement utilisé pour préremplir les liens Airbnb/Booking (voir
@@ -2370,6 +2397,14 @@
       return;
     }
 
+    var minDaysPerCity = parseInt(els.minDaysPerCity.value, 10) || 1;
+    var maxDaysPerCity = parseInt(els.maxDaysPerCity.value, 10) || 3;
+    clearDaysPerCityError();
+    if(minDaysPerCity > maxDaysPerCity){
+      showDaysPerCityError(t('error.minMaxDaysPerCity', {min: minDaysPerCity, max: maxDaysPerCity}));
+      return;
+    }
+
     // Le tirage lui-même se fait désormais côté serveur (voir README, "Recherche et tirage
     // aléatoire côté serveur", et lib/trip-engine.js) — le client n'a plus jamais besoin de
     // télécharger la base de communes complète pour ça. `lastNorm` (évite de retomber sur la même
@@ -2387,6 +2422,7 @@
           tollEnabled: tollEnabled, ferryEnabled: ferryEnabled, avoidTent: avoidTent,
           tripStart: els.dateStart.value, maxRadiusKm: maxRadiusKm, avoidNorm: lastNorm,
           minDistanceKm: minDistanceKm, maxDistanceKm: maxDistanceKm,
+          minDaysPerCity: minDaysPerCity, maxDaysPerCity: maxDaysPerCity,
           preferredCurrency: getPreferredCurrency()
         })
       });
