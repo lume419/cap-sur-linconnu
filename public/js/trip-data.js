@@ -335,7 +335,107 @@
       // de Chypre elle-même ; Kyrénia/Famagouste sont administrées de facto par la partie chypriote
       // turque, non reconnue internationalement — y substituer la forme grecque trancherait
       // éditorialement une question politique disputée).
-      CY: { code:'CY', name:'Chypre', file:'communes-cy.txt', hasToll:false, aliasFile:'aliases-cy.txt' }
+      CY: { code:'CY', name:'Chypre', file:'communes-cy.txt', hasToll:false, aliasFile:'aliases-cy.txt' },
+      // Liban, Israël, Palestine, Jordanie, Égypte et Libye, dernier ajout en date (les six en une
+      // seule fois, choix explicite de l'utilisateur). AUCUN des six n'a de fichier de codes postaux
+      // GeoNames (export/zip/{LB,IL,PS,JO,EG,LY}.zip -> 404, vérifié pour chacun) — contrairement à la
+      // Syrie cependant, la plupart ont un VRAI système de codes postaux, simplement sans source
+      // ouverte exploitable commune par commune (voir build-govfallback-communes.js pour le détail
+      // complet par pays). Le champ "cp" utilise donc, comme pour la Syrie, un code de
+      // gouvernorat/district ISO 3166-2 (ou une étiquette informelle documentée comme telle quand
+      // aucun code ISO officiel ne correspond au découpage que distingue GeoNames — Cisjordanie/Gaza
+      // côté Palestine, "Judea and Samaria Area" côté Israël).
+      // **Liban** : `hasToll:false` — aucun péage n'a jamais existé, aucun projet identifié non plus
+      // (contrairement à la Syrie, où des corridors à péage sont au moins à l'étude). Devise `LBP`
+      // (livre libanaise) — dollarisation de facto de l'économie largement documentée depuis la crise
+      // de 2019-2020, mais LBP reste la devise légale ; taux stabilisé ~89 500 LBP/USD début 2026
+      // (Sayrafa/officiel unifiés fin 2023), soit ~96 500 LBP/EUR — `CURRENCY_GLYPH` utilise
+      // l'abréviation locale "LL" plutôt qu'un symbole dédié (aucun n'existe). 41 communes retenues
+      // (population ≥500, champ population très lacunaire dans le dump libanais).
+      LB: { code:'LB', name:'Liban', file:'communes-lb.txt', hasToll:false, aliasFile:'aliases-lb.txt', currency:'LBP' },
+      // **Israël** : `hasToll:true` — deux vrais ouvrages à péage réels (route 6/Kvish Sderot Yisrael,
+      // système "free-flow" sans barrière géré par Derech Eretz Highways ; tunnels du Carmel à Haïfa,
+      // gérés par Carmelton), mais tarifés AU TRONÇON plutôt qu'au kilomètre — voir
+      // TOLL_RATE_BY_COUNTRY.IL plus bas pour la conversion approximative retenue. Devise `ILS`
+      // (nouveau shekel israélien) — symbole "₪" (U+20AA, normalisé Unicode dès 1993, aussi ancien que
+      // le symbole dollar, mais peu gravé sur les claviers vendus localement où l'abréviation "ש״ח"
+      // reste courante à l'écrit manuscrit — le glyphe Unicode lui-même s'affiche sans risque partout
+      // ailleurs). Codes postaux réels à 7 chiffres mais calés au niveau de la RUE, pas de la commune
+      // (structure inédite parmi tous les pays de ce projet) — la seule source tierce exploitable
+      // identifiée (odata.org.il, extraction ~09/2020) est protégée par un CAPTCHA Cloudflare, jamais
+      // contourné par principe : repli sur le district (6 districts + "Judea and Samaria Area", 4
+      // lieux seulement dans le dump israélien lui-même sous ce dernier libellé, repris tel quel sans
+      // retouche éditoriale — même principe que pour le nord de Chypre/le Kosovo/la Crimée ailleurs
+      // dans ce projet). 407 communes retenues (population ≥1000).
+      IL: { code:'IL', name:'Israël', file:'communes-il.txt', hasToll:true, aliasFile:'aliases-il.txt', currency:'ILS' },
+      // **Palestine** (code GeoNames "PS", Cisjordanie + bande de Gaza) : `hasToll:false`, aucun péage
+      // identifié. Aucun champ `currency` propre : le Protocole de Paris de 1994 n'a désigné aucune
+      // monnaie unique, mais le nouveau shekel israélien (ILS, déjà couvert par l'ajout d'Israël
+      // ci-dessus) domine largement les transactions quotidiennes — même logique que Chypre/l'euro
+      // plus haut, pas de nouveau champ pour un usage minoritaire (JOD/USD, réservés à des usages
+      // bancaires/municipaux spécifiques plutôt qu'au tourisme courant). Codes lancés par l'Autorité
+      // palestinienne en 2021, qualifiés "plus symboliques que pratiques" par un employé postal cité
+      // dans la presse — aucune liste exploitable, repli sur "PS-WBK"/"PS-GZA" (étiquettes informelles,
+      // GeoNames ne distinguant que ces deux zones dans son propre champ admin1 — le vrai découpage
+      // ISO 3166-2:PS, 16 gouvernorats, est plus fin que ce que GeoNames permet de reconstruire ici).
+      // SITUATION ACTUELLE DOCUMENTÉE PAR TRANSPARENCE (choix explicite de l'utilisateur d'inclure les
+      // deux zones malgré cela) : Gaza traverse une catastrophe humanitaire active malgré le
+      // cessez-le-feu du 10 octobre 2025 (plus de 1300 morts rapportés depuis cette date jusqu'à
+      // début septembre 2026, infrastructures d'eau/d'assainissement très largement hors service,
+      // Etats-Unis niveau 4 "Do Not Travel") ; la Cisjordanie connaît elle aussi une situation
+      // sécuritaire grave et distincte (82 Palestiniens tués janvier-août 2026, zones d'interdiction
+      // de déplacement ponctuelles selon le FCDO britannique, niveau 3 "Reconsider Travel" côté
+      // américain) — sources : OCHA oPt, France Diplomatie, gov.uk, travel.state.gov, toutes datées de
+      // 2026. 337 communes retenues (population ≥1000).
+      PS: { code:'PS', name:'Palestine', file:'communes-ps.txt', hasToll:false, aliasFile:'aliases-ps.txt', currency:'ILS' },
+      // **Jordanie** : `hasToll:false` — un projet de péage (0,011 JD/km voiture) est à l'étude dans le
+      // cadre de la "Economic Modernization Vision", mais au stade consultance, rien de construit.
+      // Devise `JOD` (dinar jordanien) — arrimé au dollar depuis 1995 (peg fixe ≈0,709 JOD/USD),
+      // devise "forte" contrairement à la plupart des autres devises de cette table (1 JOD ≈ 1,22 EUR
+      // mi-septembre 2026) ; `CURRENCY_GLYPH` utilise l'abréviation locale "JD" (aucun symbole dédié).
+      // 90 communes retenues (population ≥1000). Aucun ferry ajouté malgré une vraie ligne Aqaba-Nuweiba
+      // vers l'Égypte (voir COUNTRIES.EG ci-dessous pour le détail de ce choix).
+      JO: { code:'JO', name:'Jordanie', file:'communes-jo.txt', hasToll:false, aliasFile:'aliases-jo.txt', currency:'JOD' },
+      // **Égypte** : `hasToll:false` — un vrai réseau de péages existe (Le Caire-Alexandrie désert,
+      // route de la mer Rouge, tunnels d'Ismaïlia/Port-Saïd...) mais à tarif FIXE par poste
+      // ("بوابة رسوم"), sans barème origine-destination cohérent — même traitement que le pont du
+      // Storebælt danois/le M50 irlandais déjà écartés du modèle ailleurs dans ce projet. Devise `EGP`
+      // (livre égyptienne), plusieurs dévaluations majeures depuis 2016 puis 2022-2024 — 1 EUR ≈ 59,5
+      // EGP mi-septembre 2026 ; `CURRENCY_GLYPH` utilise l'abréviation locale "LE" (aucun symbole
+      // dédié, comme la livre syrienne/libanaise). 251 communes retenues (population ≥1000, champ
+      // population très lacunaire dans le dump égyptien malgré ~100 millions d'habitants — seules 251
+      // entrées sur 11 646 lieux retenus par ailleurs ont une population enregistrée).
+      // **Ferry Aqaba (Jordanie) – Nuweiba (Égypte)** : une vraie ligne pour véhicules existe (Arab
+      // Bridge Maritime, ~2-3h, tarifs officiels ~250 $ voiture/100 $ moto) — DÉLIBÉRÉMENT PAS ajoutée
+      // à FERRY_ROUTES malgré cette réalité : la Jordanie et l'Égypte partagent déjà, via Israël (les
+      // trois pays "continental" au sens de `landmassOf`), un vrai itinéraire terrestre alternatif
+      // (postes-frontières Eilat-Aqaba et Taba), contrairement à Malte ou aux îles grecques qui, elles,
+      // N'ONT AUCUNE alternative terrestre et ont donc besoin d'un vrai ferry pour être atteignables.
+      // Donner à la Jordanie et à l'Égypte leur propre "landmass" rien que pour activer cette ligne
+      // casserait la connectivité terrestre réelle déjà correcte entre les trois pays (exactement le
+      // genre de bug déjà rencontré et corrigé pour Chypre lors de l'ajout précédent) — un vrai ferry
+      // documenté ici plutôt que silencieusement omis, mais non modélisé pour cette raison
+      // architecturale précise.
+      EG: { code:'EG', name:'Égypte', file:'communes-eg.txt', hasToll:false, aliasFile:'aliases-eg.txt', currency:'EGP' },
+      // **Libye** : `hasToll:false` — aucun péage identifié (absence de preuve plutôt que preuve
+      // d'absence explicite, à la différence de la Syrie où une source affirme noir sur blanc
+      // l'absence de péage — nuance documentée ici par honnêteté). Devise `LYD` (dinar libyen), double
+      // taux marqué : officiel ≈6,30 LYD/USD (dévaluation du 18 janvier 2026), marché parallèle
+      // ≈10 LYD/USD (écart &gt;50%, cbl.gov.ly/WFP VAM) — soit très approximativement 6,8-10,8 LYD/EUR
+      // selon le taux retenu ; `CURRENCY_GLYPH` utilise l'abréviation locale "ل.د" (aucun symbole
+      // dédié). Aucun ferry pour véhicule de tourisme identifié (dernière ligne Malte-Tripoli connue :
+      // années 1990, jamais rétablie). 119 communes retenues (population ≥1000).
+      // LIMITE IMPORTANTE DOCUMENTÉE PAR TRANSPARENCE (choix explicite de l'utilisateur d'ajouter le
+      // pays malgré cela, comme pour l'Azerbaïdjan plus haut) : la quasi-totalité du territoire est
+      // sous le niveau de déconseil le plus élevé des autorités occidentales au moment de cet ajout —
+      // Etats-Unis niveau 4 "Do Not Travel" (mise à jour du 31 août 2026 ; mines et engins non
+      // explosés non signalés de façon fiable sur l'ensemble du territoire, risque de combats entre
+      // groupes armés "à tout moment", recommandation officielle de laisser un testament et un
+      // échantillon ADN avant le voyage), France Diplomatie déconseille formellement tout le pays sauf
+      // Misrata/Benghazi (déconseillées "sauf raison impérative"). Pays toujours divisé de facto entre
+      // deux autorités rivales (Government of National Unity à Tripoli, autorité de l'Est sous
+      // contrôle Haftar/LNA à l'Est) sans réunification effective à ce jour.
+      LY: { code:'LY', name:'Libye', file:'communes-ly.txt', hasToll:false, aliasFile:'aliases-ly.txt', currency:'LYD' }
     };
 
     var TRANSPORT = {
@@ -380,7 +480,18 @@
       // (moto), converti au taux ~1,85 AZN/EUR retenu pour COUNTRIES.AZ.currency. Catégorie 2 (van)
       // extrapolée au même ratio classe2/classe1 que la grille France (0,230/0,148 ≈ ×1,554), faute de
       // tarif AAYDA dédié aux véhicules utilitaires légers dans les sources consultées.
-      AZ: { 1: 0.050, 2: 0.078, 5: 0.027 }
+      AZ: { 1: 0.050, 2: 0.078, 5: 0.027 },
+      // Israël : la route 6 (Kvish Sderot Yisrael/Trans-Israel Highway, Derech Eretz Highways Ltd.)
+      // est tarifée AU TRONÇON (système "free-flow" sans barrière), pas au kilomètre — aucun barème
+      // officiel €/km n'existe. Approximation dérivée du tarif occasionnel "tous tronçons" (~34 ₪
+      // voiture, ~21,7 ₪ moto au 1er avril 2026, kvish6.co.il) rapporté à la longueur totale usuelle
+      // de la route 6 (~150 km, seule route de ce nom en Israël) : ~0,227 ₪/km voiture, ~0,145 ₪/km
+      // moto, convertis au taux ~3,5 ILS/EUR retenu pour COUNTRIES.IL.currency. Catégorie 2 (van)
+      // extrapolée au même ratio classe2/classe1 que la grille France (×1,554), aucun tarif "véhicule
+      // utilitaire" distinct publié pour la route 6. Précision plus faible que pour la Turquie/la
+      // Bosnie-Herzégovine (dont les corridors de référence ont une longueur officiellement publiée) :
+      // à corriger si une longueur exacte de route 6 ou un barème €/km officiel est identifié plus tard.
+      IL: { 1: 0.065, 2: 0.101, 5: 0.041 }
     };
 
     var TOLL_MIN_DISTANCE_KM = 60;
@@ -845,7 +956,32 @@
       // informels connus de l'ancienne livre, PAS une source de change vérifiée) — à corriger dès
       // qu'un taux fiable existe plutôt que de laisser un placeholder non documenté ; ratios 0,55×/2×
       // identiques au reste de la table par défaut.
-      SYP: { economique: 2200, moyen: 4000, confortable: 8000 }
+      SYP: { economique: 2200, moyen: 4000, confortable: 8000 },
+      // Liban/Israël/Jordanie/Égypte/Libye, dernier ajout en date : aucune recherche dédiée de loyer
+      // vacances (type airroi.com/airdna.co déjà utilisé ailleurs dans cette table) n'a été effectuée
+      // pour ces cinq devises lors de cet ajout — paliers dérivés du taux de change retenu pour chaque
+      // COUNTRIES.XX.currency et d'une estimation prudente cohérente avec le profil économique déjà
+      // documenté de chaque pays (même réserve déjà appliquée à AMD/AZN/SYP lors de l'ajout précédent),
+      // À AFFINER si une source de loyer vacances dédiée est identifiée plus tard.
+      // Liban : économie de facto dollarisée (voir COUNTRIES.LB.currency) — estimation ~55 €/nuit
+      // convertie au taux ~96 500 LBP/EUR retenu (~5 300 000 LBP), magnitude en cohérence avec
+      // l'hyperinflation du pays plutôt qu'une erreur d'unité.
+      LBP: { economique: 3000000, moyen: 5300000, confortable: 10600000 },
+      // Israël : destination réputée chère, profil proche de l'Europe de l'Ouest plutôt que de ses
+      // voisins régionaux — estimation ~130 €/nuit convertie au taux ~3,5 ILS/EUR retenu (~455 ILS).
+      ILS: { economique: 250, moyen: 450, confortable: 900 },
+      // Jordanie : dinar arrimé au dollar, devise "forte" (voir COUNTRIES.JO.currency) — estimation
+      // ~55 €/nuit convertie au taux ~0,82 JOD/EUR retenu (~45 JOD).
+      JOD: { economique: 25, moyen: 45, confortable: 90 },
+      // Égypte : destination touristique établie de longue date, tarifs généralement abordables pour
+      // des visiteurs européens — estimation ~38 €/nuit convertie au taux ~59,5 EGP/EUR retenu
+      // (~2260 EGP).
+      EGP: { economique: 1250, moyen: 2250, confortable: 4500 },
+      // Libye : quasi aucun marché du logement touristique international actif (voir la limite de
+      // sécurité documentée dans COUNTRIES.LY) — estimation TRÈS prudente ~30 €/nuit convertie au
+      // taux officiel ~6,8 LYD/EUR retenu (~200 LYD, à distinguer du taux de marché parallèle
+      // nettement plus faible, voir COUNTRIES.LY.currency).
+      LYD: { economique: 110, moyen: 200, confortable: 400 }
     };
 
   var COUNTRY_LIST = Object.keys(COUNTRIES);

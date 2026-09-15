@@ -1,0 +1,297 @@
+en;Bardia;Al Bardīyah
+ar;البردية;Al Bardīyah
+ar;مخيلى;Mukhaylá
+ru;Эль-Макили;Mukhaylá
+en;Mechili;Mukhaylá
+it;El Mechili;Mukhaylá
+fr;Mechili;Mukhaylá
+nl;Mechili;Mukhaylá
+ar;المخيلي;Mukhaylá
+en;Al Mukhayli;Mukhaylá
+ar;أم الرزم;Umm ar Rizam
+de;Tobruk;Tubruq
+en;Tobruk;Tubruq
+ar;طبرق;Tubruq
+fr;Tobrouk;Tubruq
+he;טוברוק;Tubruq
+it;Tobruch;Tubruq
+nl;Tobroek;Tubruq
+pt;Tobruk;Tubruq
+es;Tobruk;Tubruq
+ru;Тобрук;Tubruq
+el;Τομπρούκ;Tubruq
+tr;Tobruk;Tubruq
+ar;سوسة;Sūsah
+ar;أبولونيا;Sūsah
+ar;قرية سلوق;Qaryat Sulūq
+ar;سلوق;Qaryat Sulūq
+ar;قرية عمر المختار;Qaryat ‘Umar al Mukhtār
+ar;عمر المختار;Qaryat ‘Umar al Mukhtār
+ar;قندولة;Qandūlah
+ar;قمينس;Qamīnis
+ar;مسة;Massah
+ar;مرتوبة;Martūbah
+ar;كمبوت;Kambūt
+en;Kambot;Kambūt
+ar;جردس العبيد;Jardas al ‘Abīd
+ar;دريانة;Daryānah
+fr;Derna;Darnah
+ar;درنة;Darnah
+he;דרנה;Darnah
+ru;Дарна;Darnah
+tr;Derne;Darnah
+es;Derna;Darnah
+de;Darna;Darnah
+pt;Derna;Darnah
+en;Benghazi;Banghazi
+es;Bengasi;Banghazi
+ar;بنغازي;Banghazi
+fr;Benghazi;Banghazi
+he;בנגאזי;Banghazi
+it;Bengasi;Banghazi
+nl;Benghazi;Banghazi
+pt;Bengasi;Banghazi
+el;Βεγγάζη;Banghazi
+ru;Бенгази;Banghazi
+tr;Bingazi;Banghazi
+ar;الزويتينة;Az Zuwaytīnah
+ar;أوجلة;Awjilah
+ar;توكرة;Tūkrah
+ar;القبة;Al Qubbah
+ar;شعبية المرج;Al Marj
+ru;Аль-Мардж;Al Marj
+ar;المرج;Al Marj
+tr;El Marj;Al Marj
+fr;El Giof;Al Jawf
+ar;الجوف;Al Jawf
+ru;Эль-Джауф;Al Jawf
+ar;قرية البياضة;Qaryat al Bayyāḑah
+ar;البياضة;Qaryat al Bayyāḑah
+ar;البيضاء;Al Bayḑā’
+en;Al Bayda';Al Bayḑā’
+ru;Эль-Байда;Al Bayḑā’
+tr;El Beyda;Al Bayḑā’
+es;Al Bayda;Al Bayḑā’
+fr;Al Bayda;Al Bayḑā’
+de;Al Bayda;Al Bayḑā’
+pt;Al Bayda;Al Bayḑā’
+ar;قرية البيضاء;Al Bayḑā’
+ar;الأبيار‎;Al Abyār
+ar;الأبرق;Al Abraq
+de;Adschdabiya;Ajdabiya
+ar;شعبية إجدابيا;Ajdabiya
+ar;أجدابيا;Ajdabiya
+he;אגדאביא;Ajdabiya
+tr;Ecdebiye;Ajdabiya
+pt;Ajdabiyah;Ajdabiya
+ru;Адждабия;Ajdabiya
+es;Adjdabía;Ajdabiya
+ar;إجدابيا;Ajdabiya
+ru;Зуара;Zuwarah
+ar;زُوارة;Zuwarah
+fr;Zouara;Zuwarah
+ru;Зувара;Zuwarah
+ar;زوارة;Zuwarah
+tr;Zuara;Zuwarah
+es;Zuara;Zuwarah
+pt;Zuara;Zuwarah
+en;Zuwara;Zuwarah
+ar;زليتن;Zliten
+ru;Злитен;Zliten
+nl;Zlitan;Zliten
+ar;زلة;Zillah
+ru;Зилла;Zillah
+en;Zella;Zillah
+nl;Zella;Zillah
+ar;زويلة;Zawīlah
+ar;زلطن;Zalţan
+ar;شعبية يفرن;Yafran
+ru;Яфран;Yafran
+ar;يفرن;Yafran
+en;Yefren;Yafran
+ar;وازن;Wāzin
+en;Wazin;Wāzin
+ar;ام الارانب;Umm al Arānib
+ar;تيجي;Tījī
+en;Tiji;Tījī
+ru;Тархуны;Tarhuna
+ar;تراغن;Tarāghin
+es;Trípoli;Tarabulus
+de;Tripolis;Tarabulus
+en;Tripoli;Tarabulus
+fr;Tripoli;Tarabulus
+it;Tripoli;Tarabulus
+el;Τρίπολη;Tarabulus
+pt;Trípoli;Tarabulus
+ar;طَرَابُلُس;Tarabulus
+ru;Триполи;Tarabulus
+ar;طرابلس;Tarabulus
+tr;Trablus;Tarabulus
+he;טריפולי;Tarabulus
+ar;تمزاوة;Tamzāwah
+ru;Таджура;Tājūrā’
+fr;Syrte;Sirte
+ar;شعبية سرت;Sirte
+ru;Сурт;Sirte
+ar;سرت;Sirte
+he;סירת;Sirte
+ru;Сирт;Sirte
+el;Σύρτη;Sirte
+ar;صرمان;Şurmān
+ar;سوكنة;Sūknah
+ar;سيناون;Sīnāwin
+en;Sinawin;Sīnāwin
+ar;سمنو;Samnū
+ar;صبراتة;Şabrātah
+ar;سبها;Sabha
+ar;شعبية سبها;Sabha
+tr;Sebha;Sabha
+ar;سَبها;Sabha
+fr;Sebha;Sabha
+ru;Сабха;Sabha
+ar;سيدي بن زينة;Sīdī Bin Zīnah
+ar;قيرة;Qīrah
+ar;قصر خيار;Qaşr Khiyār
+ru;Каср-Бен-Гашир;Qaşr Bin Ghashīr
+ar;قصر القربولي;Qaşr al Qarabūllī
+ar;نالوت;Nālūt
+en;Nalut;Nālūt
+ru;Налут;Nālūt
+tr;Nalut;Nālūt
+es;Nalut;Nālūt
+fr;Nalut;Nālūt
+de;Nalut;Nālūt
+pt;Nalut;Nālūt
+en;Murzuq;Murzuk
+ar;مرزق;Murzuk
+ru;Мурзук;Murzuk
+fr;Murzuq;Murzuk
+ar;مزدة;Mizdah
+ar;مصراتة;Misratah
+he;מיסורטה;Misratah
+tr;Misrata;Misratah
+ru;Мисурата;Misratah
+es;Misrata;Misratah
+fr;Misrata;Misratah
+de;Misrata;Misratah
+pt;Misrata;Misratah
+ar;البريقة;Al Burayqah
+ar;مرسى البريقة;Al Burayqah
+ar;كاباو;Kābāw
+en;Kabaw;Kābāw
+ar;جنزور;Janzūr
+ru;Джанзур;Janzūr
+ar;جادو;Jādū
+en;Jadu;Jādū
+ar;هون;Hūn
+ar;مدينة هون;Hūn
+en;Hun;Hūn
+ru;Хун;Hūn
+tr;Hun;Hūn
+es;Hun;Hūn
+fr;Hun;Hūn
+de;Hun;Hūn
+pt;Hun;Hūn
+ar;الزاوية;Zawiya
+ru;Эз-Завия;Zawiya
+ru;Гат;Ghat
+ar;غات;Ghat
+ar;غريان;Gharyan
+ru;Гарян;Gharyan
+tr;Garyan;Gharyan
+es;Garián;Gharyan
+fr;Garyan;Gharyan
+pt;Garião;Gharyan
+es;Gadamés;Ghadames
+ar;غدامس;Ghadames
+pt;Gadamés;Ghadames
+ru;Гадамес;Ghadames
+ar;درج;Daraj
+en;Derj;Daraj
+ar;بئر الغنم;Bi’r al Ghanam
+en;Anu n Lghenm;Bi’r al Ghanam
+en;Brach;Brak
+ar;براك;Brak
+fr;Birak;Brak
+de;Brach;Brak
+pt;Birak;Brak
+el;Μπράκ;Brak
+it;Brach;Brak
+ru;Бирак;Brak
+he;ברק;Brak
+ar;براك الشاطئ;Brak
+ar;بن جواد;Bin Jawwād
+ar;برقن;Barqin
+ar;قصر بني وليد;Bani Walid
+ru;Бени-Валид;Bani Walid
+fr;Beni Ulid;Bani Walid
+ar;بني وليد;Bani Walid
+ar;قصر ليبيا;Bani Walid
+ar;قرية القيعان;Qaryat al Qī‘ān
+ar;الزنتان‎;Zintan
+ru;Эз-Зинтан;Zintan
+de;As-Sintan;Zintan
+fr;Zentan;Zintan
+ar;الزنتان;Zintan
+ar;الزاوية;Az Zāwīyah
+en;Az Zawiyah;Az Zāwīyah
+ru;Эз-Завия;Az Zāwīyah
+tr;Ez Zaviye;Az Zāwīyah
+es;Zawiyah;Az Zāwīyah
+fr;Az Zawiyah;Az Zāwīyah
+de;Az Zawiyah;Az Zāwīyah
+pt;Az Zawiyah;Az Zāwīyah
+ar;أوباري;Ubari
+ru;Убари;Ubari
+fr;Oubari;Ubari
+ar;الرجبان;Ar Rujbān
+en;Irejban;Ar Rujbān
+ar;آقار;Āqār
+ar;العجيلات;Al Ajaylat
+ar;النقاط الخمس;Al Ajaylat
+ru;Ал Аяйлат;Al Ajaylat
+ar;القطرون;Al Qaţrūn
+ar;الماية;Al Māyah
+ar;الخُمس;Al Khums
+de;Al-Chums;Al Khums
+ar;الخمس;Al Khums
+he;אל-חומס;Al Khums
+ru;Хомс;Al Khums
+tr;El Hums;Al Khums
+es;Al Jums;Al Khums
+ar;المرقب;Al Khums
+en;Qabilat al Khums;Al Khums
+ar;الخضراء;Al Khaḑrā’
+ar;الجميل;Al Jumayl
+ru;Ал Джумайл;Al Jumayl
+ru;Аль-Джадид;Al Jadīd
+ar;الجديد;Al Jadīd
+ar;الحرشة;Al Ḩurshah
+ar;الغريفة;Al Ghurayfah
+ar;البركات;Al Barakāt
+ar;العَزيزية;Al ‘Azīzīyah
+en;Al 'Aziziyah;Al ‘Azīzīyah
+ru;Эль-Азизия;Al ‘Azīzīyah
+tr;El Aziziye;Al ‘Azīzīyah
+es;Al Aziziyah;Al ‘Azīzīyah
+fr;Al Aziziyah;Al ‘Azīzīyah
+de;Al Aziziyah;Al ‘Azīzīyah
+pt;Al Aziziyah;Al ‘Azīzīyah
+ar;إدري;Idrī
+en;Idri;Idrī
+ru;Идри;Idrī
+tr;İdri;Idrī
+es;Idri;Idrī
+fr;Idri;Idrī
+de;Idri;Idrī
+pt;Idri;Idrī
+pt;Shahat;Shahhat
+ru;Шаххат;Shahhat
+ar;قصر ابو هادي;Qasr Abu Hadi
+ru;Каср Абу-Хади;Qasr Abu Hadi
+pt;Abu Hadi;Qasr Abu Hadi
+fr;Qasr Abou Hadi;Qasr Abu Hadi
+he;קסר אבו האדי;Qasr Abu Hadi
+ar;تازربو;Tāzirbū
+ar;الرحيبات;Ar-Raḥaībāt
+ar;مسلاتة;Msalātah

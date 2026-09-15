@@ -1,0 +1,178 @@
+en;Zahle;Zahlé
+he;זחלה;Zahlé
+nl;Zahleh;Zahlé
+tr;Zahle;Zahlé
+ar;زحلة;Zahlé
+it;Zahle;Zahlé
+el;Ζάχλε;Zahlé
+ru;Захла;Zahlé
+es;Zahle;Zahlé
+pt;Zahle;Zahlé
+de;Tripoli;Trâblous
+en;Tripoli;Trâblous
+es;Trípoli;Trâblous
+ar;طرابلس;Trâblous
+fr;Tripoli;Trâblous
+he;טריפולי;Trâblous
+nl;Tripoli;Trâblous
+it;Tripoli;Trâblous
+ru;Триполи;Trâblous
+tr;Trablusşam;Trâblous
+el;Τρίπολη;Trâblous
+pt;Trípoli;Trâblous
+ar;Şūr;Soûr
+es;Tiro;Soûr
+ar;الصور;Soûr
+he;צר;Soûr
+he;Ṣōr;Soûr
+ar;صور;Soûr
+en;Tyre;Soûr
+fr;Tyr;Soûr
+de;Tyros;Soûr
+el;Τύρος;Soûr
+he;צור;Soûr
+it;Tiro;Soûr
+nl;Tyrus;Soûr
+pt;Tiro;Soûr
+ru;Тир;Soûr
+tr;Sur;Soûr
+ar;صريفا;Srîfa
+de;Ṣurayfā;Srîfa
+en;Ṣurayfā;Srîfa
+ar;شمسطار;Chmistâr
+ar;شعث;Chaat
+ar;شعت;Chaat
+es;Sidón;Saïda
+en;Sidon;Saïda
+de;Sidon;Saïda
+fr;Sidon;Saïda
+he;צידון;Saïda
+it;Sidone;Saïda
+nl;Sidon;Saïda
+pt;Sídon;Saïda
+tr;Sayda;Saïda
+ar;صيدا;Saïda
+el;Σιδώνα;Saïda
+ru;Сайда;Saïda
+fr;Cana;Qâna
+es;Qana;Qâna
+de;Kana;Qâna
+en;Qana;Qâna
+ar;قانا;Qâna
+he;קאנא;Qâna
+nl;Qana;Qâna
+ar;Qānā;Qâna
+ru;Кана;Qâna
+ar;كفر شوبا;Kfar Shouba
+ar;كفر كلا;Kfar Kila
+ar;جونيه;Jounieh
+he;ג'וניה;Jounieh
+tr;Cünye;Jounieh
+ru;Джуния;Jounieh
+el;Τζουνίγια;Jounieh
+es;Biblos;Byblos
+ar;جبيل;Byblos
+he;גבל;Byblos
+it;Biblo;Byblos
+pt;Biblos;Byblos
+ru;Библ;Byblos
+tr;Biblos;Byblos
+ar;بيبلوس;Byblos
+ar;جبيل بيبلوس;Byblos
+de;Dschubail;Byblos
+en;Jebeil;Byblos
+en;Jbeil;Byblos
+fr;Jbeil;Byblos
+el;Βύβλος;Byblos
+tr;Cübeyl;Byblos
+ar;عرسال;Aarsâl
+ar;حراجل;Hrajel
+ar;حلبا;Halba
+ar;عكار;Halba
+ru;Халба;Halba
+ru;Хаббуше;Habboûch
+ar;حبّوش;Habboûch
+ar;بشري;Bsharri
+de;Bischarri;Bsharri
+el;Μπσαρί;Bsharri
+fr;Bcharré;Bsharri
+he;בשרי;Bsharri
+ru;Башарри;Bsharri
+tr;Bişerri;Bsharri
+en;Bhamdoun;Bhamdoûn el Mhatta
+de;Bhamdoun;Bhamdoûn el Mhatta
+fr;Bhamdoun;Bhamdoûn el Mhatta
+ar;بحمدون;Bhamdoûn el Mhatta
+he;בחמדון;Bhamdoûn el Mhatta
+nl;Bhamdoun;Bhamdoûn el Mhatta
+de;Beirut;Beyrouth
+en;Beirut;Beyrouth
+es;Beirut;Beyrouth
+ar;بيروت;Beyrouth
+he;ביירות;Beyrouth
+it;Beirut;Beyrouth
+nl;Beiroet;Beyrouth
+pt;Beirute;Beyrouth
+ru;Бейрут;Beyrouth
+tr;Beyrut;Beyrouth
+el;Βηρυτός;Beyrouth
+ar;بَيْرُوت;Beyrouth
+ar;بعلبك;Baalbek
+ru;Баальбек;Baalbek
+pt;Baalbeck;Baalbek
+he;בעלבכ;Baalbek
+el;Μπάαλμπεκ;Baalbek
+ar;بعبدا;Baabda
+he;בעבדא;Baabda
+ru;Баабда;Baabda
+ar;عيتنيت;Aaïtanît
+ru;Айн-Эбель;Ain Ebel
+ar;عين إبل;Ain Ebel
+he;עין אבל;Ain Ebel
+ar;الصرفند;Sarafand
+ar;صرفند;Sarafand
+ar;الناقورة;En Nâqoûra
+de;Naqura;En Nâqoûra
+ru;Накура;En Nâqoûra
+en;Naqoura;En Nâqoûra
+it;Naqura;En Nâqoûra
+fr;Naqoura;En Nâqoûra
+es;Naqoura;En Nâqoûra
+he;א-נאקורה;En Nâqoûra
+nl;Naqoura;En Nâqoûra
+tr;Nakura;En Nâqoûra
+en;Nabatiye et Tahta;Nabatîyé et Tahta
+ru;Набатия и Тахта;Nabatîyé et Tahta
+ar;النبطية والطهطا;Nabatîyé et Tahta
+tr;Nabatiye ve Tahta;Nabatîyé et Tahta
+es;Nabatiye et Tahta;Nabatîyé et Tahta
+fr;Nabatiye et Tahta;Nabatîyé et Tahta
+de;Nabatiye et Tahta;Nabatîyé et Tahta
+pt;Nabatiye et Tahta;Nabatîyé et Tahta
+ru;Анджар;Aanjar
+ar;عنجر;Aanjar
+ar;علما الشعب;Aalma ech Chaab
+de;ʿAlmā asch-Schaʿb;Aalma ech Chaab
+en;ʿAlmā ash-Shaʿb;Aalma ech Chaab
+ar;الهرمل;El Hermel
+ar;الغازية;Ghazieh
+de;Ghaziyeh;Ghazieh
+fr;Ghaziyeh;Ghazieh
+ar;البترون;Batroûn
+ar;عاليه;Aley
+ar;عالية;Aley
+de;Alayh;Aley
+he;עאליי;Aley
+el;Αλέι;Aley
+ru;Алайх;Aley
+ar;عجلتون;Aajaltoûn
+en;Ajaltoun;Aajaltoûn
+it;Ajaltoun;Aajaltoûn
+fr;Ajaltoun;Aajaltoûn
+nl;Ajaltoun;Aajaltoûn
+es;Ajaltoun;Aajaltoûn
+ru;Тибнин;Tebnine
+it;Tibnin;Tebnine
+fr;Tibnine;Tebnine
+ar;تبنين;Tebnine
+he;תבנין;Tebnine

@@ -177,7 +177,9 @@
   // au sélecteur de devise).
   // Arménie/Azerbaïdjan/Syrie, dernier ajout en date : AMD/AZN/SYP suivent la même règle (code ISO
   // plutôt qu'un symbole ici, quel que soit le vrai symbole disponible — voir CURRENCY_GLYPH plus bas).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL', AMD: 'AMD', AZN: 'AZN', SYP: 'SYP' };
+  // Liban/Israël/Jordanie/Égypte/Libye, dernier ajout en date : LBP/ILS/JOD/EGP/LYD suivent la même
+  // règle (code ISO ici, quel que soit le vrai symbole — voir CURRENCY_GLYPH plus bas).
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL', AMD: 'AMD', AZN: 'AZN', SYP: 'SYP', LBP: 'LBP', ILS: 'ILS', JOD: 'JOD', EGP: 'EGP', LYD: 'LYD' };
   // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
   // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
   // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
@@ -215,7 +217,20 @@
   // arabe "ل.س" est retenu ici (même logique que "дин."/"ден" pour le dinar serbe/le denar
   // macédonien plus haut : l'abréviation réellement utilisée dans le script national du pays plutôt
   // qu'une romanisation).
-  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾', AMD: '֏', AZN: '₼', SYP: 'ل.س' };
+  // LBP (livre libanaise) : aucun symbole Unicode dédié — abrégée "LL" en lettres latines (même
+  // logique que "дин."/"ден"/"ل.س" plus haut : l'abréviation réellement utilisée localement, ici la
+  // forme latine plutôt qu'arabe, "LL" étant la plus répandue dans l'usage commercial courant d'après
+  // la presse libanaise elle-même).
+  // ILS (nouveau shekel israélien) : vrai symbole dédié "₪" (U+20AA NEW SHEQEL SIGN), normalisé
+  // Unicode dès la version 1.1 (juin 1993) — aussi ancien que le symbole dollar, aucun risque de
+  // rendu manquant comparable au "Б" biélorusse tout juste choisi en 2026 plus haut.
+  // JOD (dinar jordanien) : aucun symbole Unicode dédié — abrégée "JD" en lettres latines, de très
+  // loin la forme la plus utilisée dans l'usage commercial courant (non officielle mais dominante).
+  // EGP (livre égyptienne) : aucun symbole Unicode dédié — abrégée "LE" en lettres latines (de
+  // "livre égyptienne", héritage du français comme "LL" pour le Liban), également courante avec "E£".
+  // LYD (dinar libyen) : aucun symbole Unicode dédié — abrégée "ل.د" en arabe (pas de forme latine
+  // qui domine clairement d'après les sources consultées, contrairement à JOD/EGP/LBP ci-dessus).
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾', AMD: '֏', AZN: '₼', SYP: 'ل.س', LBP: 'LL', ILS: '₪', JOD: 'JD', EGP: 'LE', LYD: 'ل.د' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :

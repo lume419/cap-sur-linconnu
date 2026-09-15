@@ -1,0 +1,488 @@
+ar;شوكة الصوفي;Shūkat aş Şūfī
+fr;Rafah;Rafaḩ
+de;Rafah;Rafaḩ
+en;Rafah;Rafaḩ
+he;רפיח;Rafaḩ
+nl;Rafah;Rafaḩ
+ru;Рафах;Rafaḩ
+ar;رفح;Rafaḩ
+ar;النصيرات;An Nuşayrāt
+ar;خزاعة;Khuzā‘ah
+es;Jan Yunís;Khān Yūnis
+es;Jan Yunis;Khān Yūnis
+en;Khan Yunis;Khān Yūnis
+ru;Хан-Юнис;Khān Yūnis
+ar;خان يونس;Khān Yūnis
+en;Jabalia;Jabālyā
+ru;Джабалия;Jabālyā
+ar;جباليا;Jabālyā
+ar;غزة;Gaza
+he;עזה;Gaza
+ru;Газа;Gaza
+en;Gaza City;Gaza
+tr;Gazze;Gaza
+el;Γάζα;Gaza
+en;Deir el-Balah;Dayr al Balaḩ
+ar;دير البلح;Dayr al Balaḩ
+en;Beit Lahia;Bayt Lāhyā
+ar;بيت لاهيا;Bayt Lāhyā
+ar;بيت حنون;Bayt Ḩānūn
+ar;بيت حانون;Bayt Ḩānūn
+de;Beit Hanun;Bayt Ḩānūn
+ru;Бейт-Ханун;Bayt Ḩānūn
+pt;Beit Hanoun;Bayt Ḩānūn
+fr;Beit Hanoun;Bayt Ḩānūn
+el;Μπέιτ Χανούν;Bayt Ḩānūn
+en;Beit Hanoun;Bayt Ḩānūn
+it;Beit Hanun;Bayt Ḩānūn
+es;Bait Hanun;Bayt Ḩānūn
+he;בית חאנון;Bayt Ḩānūn
+tr;Beyt Hanun;Bayt Ḩānūn
+nl;Beit Hanoun;Bayt Ḩānūn
+ar;بني سهيلا;Banī Suhaylā
+de;Bani Suheila;Banī Suhaylā
+ru;Бани-Сухайла;Banī Suhaylā
+en;Bani Suheila;Banī Suhaylā
+it;Bani Suheila;Banī Suhaylā
+fr;Bani Suheila;Banī Suhaylā
+es;Bani Suheila;Banī Suhaylā
+he;בני סוהילה;Banī Suhaylā
+nl;Bani Suheila;Banī Suhaylā
+tr;Bani Süheyla;Banī Suhaylā
+ar;الفخاري;Al Fukhkhārī
+ar;البريج;Al Burayj
+ar;عبسان الكبيرة;‘Abasān al Kabīrah
+ar;زبوبه;Zubūbah
+ar;زيتا;Zaytā
+ar;زيتا جماعين;Zaytā Jammā‘īn
+ar;زواتا;Zawātā
+ar;زعترة;Za‘tarah
+de;Jatta;Yaţţā
+ar;يطا;Yaţţā
+ar;يتما;Yatmā
+ar;ياسوف;Yāsūf
+ar;ياصيد;Yāşīd
+ar;يعبد;Ya‘bad
+ar;وادي فوكين;Wādī Fūkīn
+ar;عوريف;‘Ūrīf
+ar;أودلا;Ūdalah
+ar;ترمسعيا;Turmus‘ayyā
+nl;Toelkarem;Ţūlkarm
+fr;Tulkarem;Ţūlkarm
+de;Tulkarem;Ţūlkarm
+he;טול כרם;Ţūlkarm
+ar;طولكرم;Ţūlkarm
+en;Tulkarm;Ţūlkarm
+ru;Тулькарм;Ţūlkarm
+pt;Tulkarm;Ţūlkarm
+el;Τουλκάρμ;Ţūlkarm
+it;Tulkarm;Ţūlkarm
+es;Tulkarem;Ţūlkarm
+tr;Tulkarim;Ţūlkarm
+ar;طوباس;Ţūbās
+ar;تياسير;Tayāsīr
+ar;ترقوميا;Tarqūmyā
+ar;طمون;Ţammūn
+ar;طلوزة;Ţallūzah
+ar;تل;Till
+ar;تلفيت;Talfīt
+ar;تفوح;Taffūḩ
+ar;Şūrīf;Surif City
+ar;صوريف;Surif City
+en;Surif;Surif City
+he;צוריף;Surif City
+nl;Surif;Surif City
+ar;صردا;Surdā
+ar;صور باهر;Şūr Bāhir
+ar;سيريس;Sīrīs
+ar;سنجل;Sinjil
+ar;سلواد;Silwād
+ar;سيلة الظهر;Sīlat az̧ Z̧ahr
+ar;سيلة الحارثية;Sīlat al Ḩārithīyah
+ar;سعير;Sa‘īr
+ar;شقبا;Shuqbā
+ar;شوفة;Shūfah
+ar;صيدا;Şaydā
+ar;صرطة;Şarţah
+ar;صرة;Şarrah
+ar;صانور;Şānūr
+ar;سنيريا;Sannīryā
+ar;سالم;Sālim
+ar;سلفيت;Salfīt
+ar;صفا;Şaffā
+ar;سبسطية;Sabasţīyah
+ar;رمنة;Rummanah
+ar;روجيب;Rūjayb
+ar;راس كركر;Rās Karkar
+ar;رنتيس;Rantīs
+ar;رمون;Rammūn
+ar;رامين;Rāmīn
+es;Ramala;Ramallah
+ar;رام الله;Ramallah
+he;רמאללה;Ramallah
+ru;Рамаллах;Ramallah
+ru;Рамалла;Ramallah
+el;Ραμάλα;Ramallah
+ar;رافات;Rāfāt
+ar;رابا;Rābā
+ar;قصرة;Quşrah
+ar;قوصين;Qūşīn
+ar;قيرة;Qīrah
+ar;قبيه;Qibyah
+ar;قطنه;Qaţanah
+ar;قريوت;Qaryūt
+ar;قراوة بني زيد;Qarāwat Banī Zayd
+ar;قراوة بني حسان;Qarāwat Banī Ḩasan
+ru;Калькилия;Qalqīlyah
+en;Qalqilyah;Qalqīlyah
+he;קלקיליה;Qalqīlyah
+ar;قلقيلية;Qalqīlyah
+ar;قلنديا;Qalandiyā
+ar;فقين;Qaffīn
+ar;قفين;Qaffīn
+ar;قباطية;Qabāţīyah
+ar;قبلان;Qabalān
+ar;نوبا;Nūbā
+ar;نعلين;Ni‘līn
+ar;نزلة عيسى;Nazlat ‘Īsá
+ar;نحالين;Naḩḩālīn
+es;Siquem;Nablus
+en;Shechem;Nablus
+de;Sichem;Nablus
+he;שכם;Nablus
+it;Sichem;Nablus
+nl;Sichem;Nablus
+ar;نابلس;Nablus
+fr;Naplouse;Nablus
+ru;Наблус;Nablus
+el;Ναμπλούς;Nablus
+ar;مخماس;Mikhmās
+ar;مسلية;Mislīyah
+ar;مركة;Mirkah
+ar;بني زيد الشرقية;Banī Zayd ash Shārqīyah
+ar;مزارع النوباني;Banī Zayd ash Shārqīyah
+ar;ميثلون;Maythalūn
+ar;مسحة;Masḩah
+ar;مردا;Mardā
+ar;مجدل بني فاضل;Majdal Banī Fāḑil
+ar;مادما;Mādamā
+ar;اللبن الشرقية;Al Lubban ash Sharqīyah
+ar;كفيرت;Kufayrit
+ar;كفل حارس;Kifil Ḩāris
+ar;الرماضين;Ar Ramāḑīn
+ar;راس عطية;Rās ‘Aţīyah
+ar;قلقس;Qalqas
+ar;إمريش;Imrīsh
+ar;مراح رباح;Marāḩ Rabbāḩ
+ar;دير العسل الفوقا;Dayr al ‘Asal al Fawqā
+ar;بيت تعمر;Bayt Ta‘mar
+ar;بيت حسن;Bayt Ḩasan
+ar;بيت عوا;Bayt ‘Awwā
+ar;جناتة;Jannātah
+ar;بيت فلوح;Jannātah
+ar;الشيخ سعد;Ash Shaykh Sa‘d
+ar;النصارية;An Naşşārīyah
+ar;خربثا المصباح;Kharbathā al Mişbāḩ
+ar;المجد;Al Majd
+ar;كرمة;Karmah
+ar;البرج;Al Burj
+ar;شيوخ العروب;Shuyūkh al ‘Arrūb
+ar;خربة أبو فلاح;Khirbat Abū Falāḩ
+ar;خربثا بني حارث;Kharbathā Banī Ḩārith
+ar;خاراس;Khārās
+ar;خلة المية;Khallat al Mayyah
+ar;كوبر;Kūbar
+ar;كفر زيباد;Kafr Zībād
+ar;كفر ثلث;Kafr Thulth
+ar;كفر صور;Kafr Şūr
+ar;كفر راعي;Kafr Rā‘ī
+ar;كفر قود;Kafr Qūd
+ar;كفر قليل;Kafr Qallīl
+ar;كفر قدوم;Kafr Qaddūm
+ar;كفر مالك;Kafr Mālik
+ar;كفر جمال;Kafr Jammāl
+ar;كفر دان;Kafr Dān
+ar;كفر عين;Kafr ‘Ayn
+ar;كفر اللبد;Kafr al Labad
+ar;كفر الديك;Kafr ad Dīk
+ar;كفر عبوش;Kafr ‘Abbūsh
+ar;جوريش;Jūrīsh
+ar;جورة الشمعة;Jūrat ash Sham‘ah
+ar;الجديدة;Al Judayyidah
+ar;جيت;Jīt
+ar;جفنا;Jifnā
+ar;جيوس;Jayyūs
+en;Jenin;Janīn
+de;Dschenin;Janīn
+fr;Jénine;Janīn
+ar;جنين;Janīn
+he;גנין;Janīn
+it;Jenin;Janīn
+nl;Jenin;Janīn
+ru;Дженин;Janīn
+ar;جمالة;Jammālah
+ar;جماعين;Jammā‘īn
+ar;جلقموس;Jalqamūs
+ar;جلبون;Jalbūn
+ar;الجلمة;Al Jalamah
+ar;جبع;Jaba‘
+ar;إماتين;Immātīn
+ar;علار;‘Illār
+ar;إكتابة;Iktābah
+en;Iktaba;Iktābah
+fr;Iktaba;Iktābah
+he;איכתאבא;Iktābah
+nl;Iktaba;Iktābah
+ar;إذنا;Idhnā
+ar;حوارة;Ḩuwwārah
+ar;حوسان;Ḩūsān
+ar;حزما;Ḩizmā
+ar;حارس;Ḩāris
+ar;حلحول;Ḩalḩūl
+ar;حجة;Ḩajjah
+ar;حبلة;Ḩablah
+ar;فرعون;Far‘ūn
+ar;فرخة;Farkhah
+ar;فقوعة;Faqqū‘ah
+ar;فحمة;Faḩmah
+ar;دورا قرع;Dūrā al Qar‘
+ru;Дуры;Dūrā
+ar;دورا;Dūrā
+ar;دوما;Dūmā
+ar;دير شرف;Dayr Sharaf
+en;Deir Sharaf;Dayr Sharaf
+fr;Deir Sharaf;Dayr Sharaf
+he;דיר שרף;Dayr Sharaf
+nl;Deir Sharaf;Dayr Sharaf
+ar;دير قديس;Dayr Qiddīs
+ar;دير جرير;Dayr Jarīr
+ar;دير إستيا;Dayr Istiyā
+ar;دير إبزيع;Dayr Ibzī‘
+ar;دير دبوان;Dayr Dibwān
+ar;دير بلوط;Dayr Ballūţ
+ar;دير السودان;Dayr as Sūdān
+ar;دير الحطب;Dayr al Ḩaţab
+ar;دير الغصون;Dayr al Ghuşūn
+ar;دير أبو مشعل;Dayr Abū Mash‘al
+ar;دير أبو ضعيف;Dayr Abū Ḑa‘īf
+ar;بروقين;Brūqīn
+ar;برقين;Birqīn
+ar;برقة;Burqah
+ar;بورين;Būrīn
+ar;بدرس;Budrus
+ar;بير زيت;Bīr Zayt
+de;Bir Zait;Bīr Zayt
+fr;Bir Zeit;Bīr Zayt
+en;Birzeit;Bīr Zayt
+it;Bir Zeit;Bīr Zayt
+es;Birzeit;Bīr Zayt
+he;ביר זית;Bīr Zayt
+nl;Bir Zeit;Bīr Zayt
+ar;بير نبالا;Bīr Nabālā
+ar;بلعين;Bil‘īn
+ar;بدو;Biddū
+ar;بديا;Bidyā
+ar;بزاريه;Bazzāryah
+ar;بيت وزن;Bayt Wazan
+ar;بيت عور التحتا;Bayt ‘Ūr at Taḩtā
+ar;بيتونيا;Baytūnyā
+de;Baituniya;Baytūnyā
+en;Beitunia;Baytūnyā
+fr;Beitunia;Baytūnyā
+es;Beitunia;Baytūnyā
+he;ביתוניא;Baytūnyā
+nl;Beitunia;Baytūnyā
+tr;Beytunya;Baytūnyā
+ar;بيت إمرين;Bayt Imrīn
+ar;بيت سوريك;Bayt Sūrīk
+ar;بيت سيرا;Bayt Sīrā
+ar;بيت ساحور;Bayt Sāḩūr
+ar;حقل الرعاة;Bayt Sāḩūr
+ar;بيت قاد;Bayt Qād
+ar;بيت لقيا;Bayt Liqyā
+ar;بيت ليد;Bayt Līd
+es;Belén;Bethlehem
+pt;Belem;Bethlehem
+es;Belén de Judá;Bethlehem
+de;Betlehem;Bethlehem
+ar;بيت لحم;Bethlehem
+el;Βηθλεέμ;Bethlehem
+fr;Bethléem;Bethlehem
+he;בית לחם;Bethlehem
+it;Betlemme;Bethlehem
+pt;Belém;Bethlehem
+ru;Вифлеем;Bethlehem
+tr;Betlehem;Bethlehem
+de;Bait Lahm;Bethlehem
+ar;بَيْت لَحْم;Bethlehem
+ar;بيت كاحل;Bayt Kāḩil
+ar;بيت جالا;Bayt Jālā
+ar;بيت عنان;Bayt ‘Anān
+ar;بيتين;Baytīn
+ar;بيت أومر;Bayt Ūmmar
+ar;الاتحاد;Al Ittiḩād
+ar;بيتللو;Al Ittiḩād
+ar;بيت إكسا;Bayt Iksā
+ar;بيت إيبا;Bayt Ībā
+ar;بيت حنينا;Bayt Ḩanīnā
+en;Beit Hanina;Bayt Ḩanīnā
+ar;بيت فوريك;Bayt Fūrīk
+ar;بيت فجار;Bayt Fajjār
+ar;بيت دقو;Bayt Duqqū
+ar;بيت دجن;Bayt Dajan
+ar;بيت أولا;Bayt Ūlā
+ar;بتير;Battīr
+ar;برطعة الشرقية;Barţa‘ah ash Sharqīyah
+ar;بردلة;Bardalah
+ar;باقة الشرقية;Bāqah ash Sharqīyah
+ar;باقة الحطب;Bāqat al Ḩaţab
+ar;بني نعيم;Banī Na‘īm
+ar;بلعا;Bal‘ā
+ar;عزون;‘Azzūn
+ar;الزاوية;Az Zāwiyah
+ar;الظاهرية;Az̧ Z̧āhirīyah
+ar;الزبابدة;Az Zabābidah
+ar;عزموط;‘Azmūţ
+ar;عين يبرود;‘Ayn Yabrūd
+ar;عين عريك;‘Ayn ‘Arīk
+ar;عينبوس;‘Aynabūs
+ar;أوصرين;Ūşarīn
+ar;عورتا;‘Awartā
+ar;الطيرة;Aţ Ţīrah
+ar;عتيل;‘Attīl
+ar;الطيبة;Aţ Ţaybah
+ar;عطارة;‘Aţārah
+ar;الساوية;As Sāwiyah
+ar;السموع;As Samū‘
+de;As-Samu;As Samū‘
+en;as-Samu;As Samū‘
+fr;As-Samu;As Samū‘
+he;א-סמוע;As Samū‘
+nl;As-samu;As Samū‘
+ar;عصيرة الشمالية;‘Aşīrah ash Shamālīyah
+ar;عصيرة القبلية;‘Aşīrah al Qiblīyah
+ar;الشيوخ;Ash Shuyūkh
+ar;الشهداء;Ash Shuhadā’
+ar;أرطاس;Arţās
+ar;الريحية;Ar Rīḩīyah
+ar;عرانة;‘Arrānah
+ar;الرام وضاحية البريد;Ar Rām wa Ḑāḩiyat al Barīd
+ar;عرابة;‘Arrābah
+ar;Arīḩā;Jericho
+es;Jericó;Jericho
+ar;أريحا;Jericho
+fr;Jéricho;Jericho
+he;יריחו;Jericho
+it;Gerico;Jericho
+pt;Jericó;Jericho
+ru;Иерихон;Jericho
+el;Ιεριχώ;Jericho
+tr;Eriha;Jericho
+ar;مدينة القمر;Jericho
+ar;العرقة;Al ‘Araqa
+ar;عقربا;‘Aqrabā
+ar;عنزة;‘Anzah
+ar;النويعمة;An Nuway‘imah
+ar;النزلة الشرقية;An Nazlah ash Sharqīyah
+ar;الناقورة;An Nāqūrah
+ar;النبي إلياس;An Nabī Ilyās
+ar;عنين;‘Anīn
+ar;عناتا;‘Anātā
+ar;عنبتا;‘Anabtā
+ar;اليامون;Al Yāmūn
+ar;القبيبة;Al Qubaybah
+ar;المغير;Al Mughayyir
+ar;المدية;Al Midyah
+ar;المزرعة الشرقية;Al Mazra‘ah ash Sharqīyah
+ar;الزيتونية;Az Zaytūnīyah
+ar;المزرعة القبلية;Az Zaytūnīyah
+ar;اللبن الغربي;Al Lubban al Gharbī
+ar;الخضر;Al Khaḑir
+de;Hebron;Al Khalil
+en;Hebron;Al Khalil
+ar;الخليل;Al Khalil
+fr;Hébron;Al Khalil
+he;חברון;Al Khalil
+it;Hebron;Al Khalil
+nl;Hebron;Al Khalil
+pt;Hebrom;Al Khalil
+ru;Хеврон;Al Khalil
+es;Hebrón;Al Khalil
+tr;El Halil;Al Khalil
+el;Χεβρώνα;Al Khalil
+ar;الجديرة;Al Judayrah
+ar;الجيب;Al Jīb
+ar;الجانية;Al Jāniyah
+ar;الهاشمية;Al Hāshimīyah
+ar;الفصايل;Al Faşāyil
+ar;الفتدقومية;Al Fandaqūmīyah
+ru;Аль-Бира;Al Bīrah
+ar;البيرة;Al Bīrah
+ar;العيزرية;Al ‘Ayzarīyah
+de;Bethanien (Lazarus);Al ‘Ayzarīyah
+el;Βηθανία (Λάζαρος);Al ‘Ayzarīyah
+es;Betania (Lázaro);Al ‘Ayzarīyah
+nl;Bethanië (Lazarus);Al ‘Ayzarīyah
+fr;Béthanie (Lazare);Al ‘Ayzarīyah
+it;Betania (Lazzaro);Al ‘Ayzarīyah
+ru;Вифания (Лазаря);Al ‘Ayzarīyah
+pt;Betânia (Lázaro);Al ‘Ayzarīyah
+ar;العوجا;Al ‘Awjā
+ar;العطارة;Al ‘Aţţārah
+ar;عجول;‘Ajjūl
+ar;عجة;‘Ajjah
+ar;عبوين;‘Ibwayn
+ar;أبو قش;Abū Qashsh
+ar;أبو ديس;Abū Dīs
+ar;عابود;‘Ābūd
+ar;البيوك;An Naşr
+ar;النصر;An Naşr
+ar;عبسان الجديدة;‘Abasān al Jadīdah
+ar;عبسان الصغيرة;‘Abasān al Jadīdah
+ar;القرارة;Al Qarārah
+en;Al-Qarara;Al Qarārah
+he;אל-קרארה;Al Qarārah
+de;al-Qarara;Al Qarārah
+ru;Аль-Карара;Al Qarārah
+fr;Al-Qarara;Al Qarārah
+ar;القرية البدوية المسلخ;Umm an Naşr
+ar;أم النصر;Umm an Naşr
+ar;جحر الديك;Juḩr ad Dīk
+ar;الزوايدة;Az Zuwāydah
+ar;المصدر;Al Muşaddar
+ar;وادي السلقا;Wādī as Salqā
+ar;المغراقه;Al Mughrāqah
+ar;ابو مدين;Al Mughrāqah
+ru;Хувара;Huwara
+ar;حوارة;Huwara
+he;חווארה;Huwara
+nl;Ḩuwwārah;Huwara
+ar;جنصافوط;Jinşāfūţ
+ar;بني زيد;Banī Zayd
+ar;الزعيم;Az Za‘ayyim
+ar;وادي الجوز;Wadi al-Joz
+ar;العبيدية;Al ‘Ubaydīyah
+ar;خلة النعمان;Khallat an Nu‘mān
+ar;خلة حمامة;Khallat Ḩamāmah
+ar;الدوحة;Ad Dawḩah
+ar;وادي رحال;Wādī Raḩḩāl
+ar;عرب الرشايدة;‘Arab ar Rashāydah
+ar;بيت عينون;Bayt ‘Īnūn
+ar;بيت مقدوم;Bayt Maqdum
+ar;البقعة;Al Buq‘ah
+ar;خلة الدار;Khallat ad Dār
+ar;دير سامت;Dayr Sāmit
+ar;الحيلة;Al Ḩīlah
+ar;الصورة;Aş Şūrrah
+ar;بيت عمرة;Bayt ‘Amrah
+ar;رابود;Rābūd
+ar;الكرمل;Al Karmil
+ar;خلة صالح;Khallat Şāliḩ
+ar;بير الباشا;Bīr al Bāshā
+ar;الباذان;Al Bādhān
+ar;عين البيضا;‘Ayn al Bayḑā
+ar;الزبيدات;Az Zubaydāt
+ar;الجفتلك;Al Jiftlik
+ar;خرسا;Khursā
+he;איתמר;Itamar
+he;גני מודיעין;Ganei Modi'in

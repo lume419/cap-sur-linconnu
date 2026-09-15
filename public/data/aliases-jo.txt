@@ -1,0 +1,175 @@
+ar;زحر;Zaḩar
+ar;يرقا;Yarqā
+en;Petra;Wādī Mūsá
+ru;Петра;Wādī Mūsá
+ar;وادي موسى;Wādī Mūsá
+ar;بترا;Wādī Mūsá
+en;Wadi Al Seer;Wādī as Sīr
+ar;وادي السير;Wādī as Sīr
+ru;Вади-эс-Сир;Wādī as Sīr
+ru;Умм Кайс;Umm Qays
+ar;أم قيس;Umm Qays
+ar;ام السمّاق;Umm as Summāq
+ar;أم القطّين;Umm al Qiţţayn
+ar;أم القطين;Umm al Qiţţayn
+ar;تبنة;Tibnah
+ru;Пелла;Ţabaqat Faḩl
+ar;طبقة فحل;Ţabaqat Faḩl
+ar;سوف;Sūf
+ar;صرفة;Şarfā
+ar;صرفا;Şarfā
+ar;صما;Şammā
+ar;سال;Sāl
+ar;ساكب;Sakib
+ru;Сакиб;Sakib
+he;סאקיב;Sakib
+ar;صخرة;Şakhrah
+ar;سحم الكفارات;Saḩam al Kaffārāt
+ar;سحم;Saḩam al Kaffārāt
+ru;Сахаб;Saḩāb
+ar;سحاب;Saḩāb
+ar;صبحا;Şabḩā
+ar;راسون;Rāsūn
+ar;قميم;Qumaym
+ru;Халлабат;Qaşr al Ḩallābāt
+ar;قفقفا;Qafqafā
+ar;ملكة;Malkā
+ar;ملكا;Malkā
+ar;ماحص;Māḩiş
+de;Madaba;Mādabā
+en;Madaba;Mādabā
+ar;محافظة مادبا;Mādabā
+he;מידבא;Mādabā
+ru;Мадаба;Mādabā
+ar;مادبا;Mādabā
+ar;مأدبا;Mādabā
+ar;معان;Ma'an
+ar;كريمة;Kurayyimah
+ar;كتم;Kitim
+ar;خريبة السوق;Khuraybat as Sūq
+ru;Хурайбат Ас Сук;Khuraybat as Sūq
+ar;خرجا;Kharjā
+ar;كفر سوم;Kafr Sawm
+ar;كفرأسد;Kafr Asad
+ar;كفر أسد;Kafr Asad
+ar;كفر آبيل;Kafr Abīl
+ar;كفر أبيل;Kafr Abīl
+ar;جاوا;Jāwā
+en;Jerash;Jarash
+es;Jerash;Jarash
+de;Gerasa;Jarash
+ar;جرش;Jarash
+he;גרש;Jarash
+nl;Jerash;Jarash
+ru;Джераш;Jarash
+ar;إربد;Irbid
+he;אירביד;Irbid
+ru;Ирбид;Irbid
+tr;İrbid;Irbid
+ar;حاتم;Ḩātim
+ar;حلاوة;Ḩalāwah
+ar;حكما;Ḩakamā
+ar;دير يوسف;Dayr Yūsuf
+ar;بصيرا;Buşayrā
+ar;برما;Burmā
+ar;بيت يافا;Bayt Yāfā
+ar;بيت إيدس;Bayt Īdis
+ar;بيت ايدس;Bayt Īdis
+ar;بليلا;Balīlā
+fr;Zarka;Zarqa
+ar;زرقاء;Zarqa
+ar;الزرقاء;Zarqa
+ru;Эз-Зарка;Zarqa
+ru;Азрак;Al Azraq ash Shamālī
+ar;الأزرق الشمالي;Al Azraq ash Shamālī
+ar;عي;‘Ayy
+ar;عين جنة;‘Ayn Jannā
+ar;عين جنا;‘Ayn Jannā
+en;Ain Janna;‘Ayn Jannā
+ar;الطرة;Aţ Ţurrah
+ar;الطيبة;Aţ Ţayyibah
+ar;الطيبة- خنزيرة;Al Khinzīrah
+ar;الخنزيرة;Al Khinzīrah
+ar;الطيبة;At-Taybeh
+ar;الطفيلة;Aţ Ţafīlah
+ru;Тафила;Aţ Ţafīlah
+en;Salt;As Salţ
+ru;Ас-Сальт;As Salţ
+ar;السلط;As Salţ
+ar;Aş Şāfī;Safi
+ar;الصافي;Safi
+ar;غورالصافي;Safi
+en;As Safi;Safi
+ru;Сафи;Safi
+ar;الشجرة;Ash Shajarah
+en;Ar Ramtha;Ar Ramthā
+ar;الرمثا;Ar Ramthā
+ru;Эр-Рамта;Ar Ramthā
+ar;الربة;Ar Rabbah
+de;Rabbat-Moab;Ar Rabbah
+ru;Эр-Рабба;Ar Rabbah
+en;Rabba;Ar Rabbah
+fr;Rabba;Ar Rabbah
+he;ראבה;Ar Rabbah
+nl;Rabba;Ar Rabbah
+ar;عنجرة;‘Anjarah
+es;Ammán;'Amman
+de;Amman;'Amman
+en;Amman;'Amman
+ar;عمّان;'Amman
+fr;Amman;'Amman
+he;עמאן;'Amman
+it;Amman;'Amman
+nl;Amman;'Amman
+pt;Amã;'Amman
+ru;Амман;'Amman
+tr;Amman;'Amman
+el;Αμμάν;'Amman
+es;Amán;'Amman
+ar;القويرة;Al Quwayrah
+ar;القطرانة;Al Qaţrānah
+ar;القصر;Al Qaşr
+ar;المزار الجنوبي;Al Mazār al Janūbī
+ar;المزار;Al Mazār al Janūbī
+en;Al Mafraq;Mafraq
+nl;Mafrak;Mafraq
+ar;المفرق;Mafraq
+he;מפרק;Mafraq
+ru;Эль-Мафрак;Mafraq
+ar;الكتة;Al Kittah
+ar;الكرامة;Al Karāmah
+ru;Эль-Карак;Qīr Moāv
+ar;الكرك;Qīr Moāv
+ar;الجبيهة;Al Jubayhah
+ar;الجيزة;Al Jīzah
+ar;جيزة;Al Jīzah
+ar;الجفر;Al Jafr
+ar;الحمراء;Al Ḩamrā’
+ar;الفحيص;Al Fuḩayş
+ar;العقبة;Aqaba
+he;עקבה;Aqaba
+nl;Akaba;Aqaba
+ru;Акаба;Aqaba
+tr;Akabe;Aqaba
+en;Adjlun;‘Ajlūn
+en;Ajloun;‘Ajlūn
+ru;Аджлун;‘Ajlūn
+ar;عجلون;‘Ajlūn
+ar;أدر;Adir
+en;Karak;Karak City
+en;Kerak;Karak City
+en;Al-Karak;Karak City
+ru;Карак;Karak City
+ru;Ар-Русайфа;Russeifa
+el;Ρουσέιφα;Russeifa
+ar;الرصيفة;Russeifa
+he;רוסייפה;Russeifa
+tr;Ruseyfa;Russeifa
+ar;الظليل;Az̧ Z̧ulayl
+ar;الضليل;Az̧ Z̧ulayl
+ar;الرويشد;Ruwaished
+ar;الرُّكبان;Rukban
+ar;الرُّقبان;Rukban
+ar;صويلح;Ṣuwayliḥ
+ru;Сувайлих;Ṣuwayliḥ
+ar;مرج الحمام;Marj Al Hamam

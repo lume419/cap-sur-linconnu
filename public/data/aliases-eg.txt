@@ -1,0 +1,554 @@
+ru;Зифта;Zefta
+ar;زفتى;Zefta
+ar;زاوية أم الرخم;Zāwyat Umm ar Rakham
+ru;Тух;Ţūkh
+ar;طوخ;Ţūkh
+en;Toukh;Ţūkh
+ar;تمي الإمديد;Timayy al Imdīd
+ar;طما;Ţimā
+ru;Тима;Ţimā
+ar;طود;Ţūd
+ar;طنطا;Tanta
+he;טנטה;Tanta
+he;טנטא;Tanta
+ru;Танта;Tanta
+ar;طلخا;Ţalkhā
+ru;Тальха;Ţalkhā
+ru;Тале;Talā
+ar;تلا;Talā
+en;Tala;Talā
+it;Tala;Talā
+nl;Tala;Talā
+ru;Тахта;Ţahţā
+ar;طهطا;Ţahţā
+ar;سمسطا الوقف;Sumusţā al Waqf
+ar;سوهاج;Sohag
+tr;Sevhac;Sohag
+ru;Сохаг;Sohag
+ru;Сива;Sīwah
+en;Siwa Oasis;Sīwah
+ar;واحة سيوة;Sīwah
+de;Oase Siwa;Sīwah
+fr;Siwa;Sīwah
+ar;سرس الليانة;Sirs al Layyānah
+ru;Синнурис;Sinnūris
+ar;سيدي سالم;Sīdī Sālim
+ar;سيدي غازي;Sīdī Ghāzī
+ar;سيدى برانى;Sīdī Barānī
+ar;سيدي براني;Sīdī Barānī
+ar;صدفا;Şidfā
+ar;شبراخيت;Shubrākhīt
+ar;شبرا الخيمة;Shubrā al Khaymah
+ru;Шубра-Эль-Хейма;Shubrā al Khaymah
+ar;شربين;Shirbīn
+de;Scharbin;Shirbīn
+ru;Ширбин;Shirbīn
+en;Sherbin;Shirbīn
+nl;Sherbin;Shirbīn
+en;Shibîn el-Qanâṭir;Shibīn al Qanāţir
+ar;شبين القناطر;Shibīn al Qanāţir
+ar;شبين الكوم;Shibīn al Kawm
+ru;Шибин-эль-Ком;Shibīn al Kawm
+en;Sharm el Sheikh;Sharm el-Sheikh
+ru;Шарм-эль-Шейх;Sharm el-Sheikh
+es;Sharm el-Sheij;Sharm el-Sheikh
+de;Sharm el Sheikh;Sharm el-Sheikh
+ar;شرم الشيخ;Sharm el-Sheikh
+he;שארם א-שייח';Sharm el-Sheikh
+fr;Charm el-Cheikh;Sharm el-Sheikh
+de;Scharm asch-Schaich;Sharm el-Sheikh
+tr;Şarm eş-Şeyh;Sharm el-Sheikh
+ar;ساقلتة;Sāqultah
+fr;Tanis;Şān al Ḩajar al Qiblīyah
+en;Tanis;Şān al Ḩajar al Qiblīyah
+es;Tanis;Şān al Ḩajar al Qiblīyah
+de;Tanis;Şān al Ḩajar al Qiblīyah
+ar;صان الحجر القبلية;Şān al Ḩajar al Qiblīyah
+it;Tanis;Şān al Ḩajar al Qiblīyah
+pt;Tânis;Şān al Ḩajar al Qiblīyah
+ru;Танис;Şān al Ḩajar al Qiblīyah
+ar;سمنود;Samannūd
+ar;سمالوط;Samālūţ
+ru;Самалут;Samālūţ
+fr;Rosette;Rosetta
+de;Rosette;Rosetta
+ar;رشيد;Rosetta
+pt;Roseta;Rosetta
+he;רשיד;Rosetta
+tr;Reşid;Rosetta
+ru;Рашид;Rosetta
+el;Ροζέτα;Rosetta
+ar;رفح;Rafaḩ
+ar;قويسنا;Quwaysinā
+ru;Кувейсина;Quwaysinā
+en;Quweisna;Quwaysinā
+he;קויסנה;Quwaysinā
+nl;Quweisna;Quwaysinā
+ar;قطور;Quţūr
+ar;قوص;Qūş
+ar;قنا;Qina
+ru;Кена;Qina
+ar;قفط;Qifţ
+ru;Фарафра;Qaşr al Farāfirah
+ru;Кальюб;Qalyub
+ar;قليوب;Qalyub
+ar;قلين;Qillīn
+ar;قها;Qahā
+en;Nueiba;Nuwaybi‘a
+ru;Нувейба;Nuwaybi‘a
+en;Nuweiba;Nuwaybi‘a
+de;Nuwaiba;Nuwaybi‘a
+ar;نويبع;Nuwaybi‘a
+ar;نقادة;Naqādah
+es;Nag Hammadi;Nag Hammâdi
+de;Nag Hammadi;Nag Hammâdi
+fr;Nag Hammadi;Nag Hammâdi
+nl;Nag Hammadi-geschriften;Nag Hammâdi
+pt;Nag Hammadi;Nag Hammâdi
+ar;نجع حمادى;Nag Hammâdi
+ar;نبروه;Nabarūh
+ar;مطوبس;Muţūbas
+ar;ميت سلسيل;Mīt Salsīl
+ar;ميت غمر;Mīt Ghamr
+ru;Мит-Гамр;Mīt Ghamr
+ar;ميت أبو غالب;Mīt Abū Ghālib
+ar;منية النصر;Minyat an Naşr
+ar;منيا القمح;Minyā al Qamḩ
+ar;منوف;Munūf
+de;Minuf;Munūf
+ru;Минуф;Munūf
+el;Μενούφ;Munūf
+en;Menouf;Munūf
+fr;Ménouf;Munūf
+es;Menouf;Munūf
+nl;Menouf;Munūf
+ar;منشأة أبو عمر;Munsha‘at Abū ‘Umar
+ar;مطاي;Maţāy
+en;Mersa Matruh;Marsá Maţrūḩ
+de;Marsa Matruh;Marsá Maţrūḩ
+ru;Марса-Матрух;Marsá Maţrūḩ
+ar;مرسى مطروح;Marsá Maţrūḩ
+it;Marsa Matruh;Marsá Maţrūḩ
+ru;Марса Алам;Marsa Alam
+ar;مرسى علم;Marsa Alam
+en;Marsa Allam;Marsa Alam
+ar;منشية القناطر;Manshīyat al Qanāţir
+ar;منفلوط;Manfalūţ
+ru;Манфалут;Manfalūţ
+ru;Маллави;Mallawī
+ar;ملوي;Mallawī
+ar;محلة دمنة;Maḩallat Damanah
+ar;مغاغة;Maghāghah
+ru;Магага;Maghāghah
+ru;Город им. 6 Октября;6th of October City
+ar;العاشر من رمضان;Al ‘Āshir min Ramaḑān
+de;Stadt des 10. Ramadan;Al ‘Āshir min Ramaḑān
+pt;Cidade do Ramadão;Al ‘Āshir min Ramaḑān
+el;Πόλη 10ης Ραμαντάν;Al ‘Āshir min Ramaḑān
+en;10th of Ramadan City;Al ‘Āshir min Ramaḑān
+it;Città del decimo Ramadan;Al ‘Āshir min Ramaḑān
+es;Ciudad del Ramadon 10;Al ‘Āshir min Ramaḑān
+nl;10e Ramadan stad;Al ‘Āshir min Ramaḑān
+ru;Эль-Ашир-мин-Рамадан;Al ‘Āshir min Ramaḑān
+fr;Ville de 10 Ramadan;Al ‘Āshir min Ramaḑān
+he;עשרה ברמדאן;Al ‘Āshir min Ramaḑān
+tr;10 Ramazan Şehri;Al ‘Āshir min Ramaḑān
+ar;الشيخ زويد;Ash Shaykh Zuwayd
+ar;كرداسة;Kirdāsah
+en;Kerdasa;Kirdāsah
+ru;Кирдаса;Kirdāsah
+fr;Kôm Ombo;Kom Ombo
+ru;Ком-Омбо;Kom Ombo
+ar;كوم حماده;Kawm Ḩamādah
+ar;كفر صقر;Kafr Şaqr
+ar;كفر سعد;Kafr Sa‘d
+ar;كفر الزيات;Kafr az Zayyāt
+de;Kafr az-Zayyat;Kafr az Zayyāt
+ru;Кафр-аз-Зият;Kafr az Zayyāt
+el;Καφρ ελ Ζαγιάτ;Kafr az Zayyāt
+it;Kafr El-Zayat;Kafr az Zayyāt
+he;כפר אל זיאת;Kafr az Zayyāt
+nl;Kafr az-Zayyat;Kafr az Zayyāt
+ar;كفر الصلاحات;Aş Şalāḩāt
+ar;الصلاحات;Aş Şalāḩāt
+ar;كفر الشيخ;Kafr ash Shaykh
+ru;Кафр-эш-Шейх;Kafr ash Shaykh
+ar;كفر الكردي;Kafr al Kurdī
+ar;الكردي;Kafr al Kurdī
+ar;كفر البطيخ;Kafr al Baţţīkh
+ar;كفر الدوار;Kafr ad Dawwār
+ru;Кафр-эд-Даввар;Kafr ad Dawwār
+ar;جهينة;Juhaynah
+en;Jirja;Girga
+ar;جرجا;Girga
+ru;Гирга;Girga
+ar;جراجوس‎;Jarājūs
+ar;جراجوس;Jarājūs
+en;Ezbet el-Burg;‘Izbat al Burj
+ar;عزبة البرج;‘Izbat al Burj
+ar;إيتاي البارود;Ītāy al Bārūd
+ar;أطسا;Iţsā
+ar;إسنا;Esna
+he;אסנא;Esna
+ru;Эсна;Esna
+he;איסנא;Esna
+ru;Идку;Idkū
+ar;إدفو;Edfu
+fr;Edfou;Edfu
+ru;Идфу;Edfu
+el;Εντφού;Edfu
+he;אדפו;Edfu
+ar;إبشواي;Ibshawāy
+ru;Хелуан;Ḩalwān
+en;Helwan;Ḩalwān
+ar;حلوان;Ḩalwān
+ar;ههيا;Hihyā
+ar;فوة;Fuwwah
+ru;Фува;Fuwwah
+fr;Fouah;Fuwwah
+ar;فرشوط;Farshūţ
+ar;فارسكور;Fāraskūr
+ar;فاقوس;Fāqūs
+ru;Факус;Fāqūs
+ar;Fā’id;Fāyīd
+de;Damiette;Damietta
+ar;دمياط;Damietta
+fr;Damiette;Damietta
+pt;Damieta;Damietta
+tr;Dimyat;Damietta
+ru;Думъят;Damietta
+es;Damieta;Damietta
+el;Δαμιέτη;Damietta
+he;דמיאט;Damietta
+ar;ديرب نجم;Diyarb Najm
+ru;Дисук;Disūq
+ar;دسوق;Disūq
+ar;دشنا;Dishnā
+ru;Дикирнис;Dikirnis
+ar;دكرنس;Dikirnis
+el;Δικίρνη;Dikirnis
+ar;دهب;Dahab
+he;דהב;Dahab
+ru;Дахаб;Dahab
+ar;ديروط;Dayrūţ
+ru;Дейрут;Dayrūţ
+ar;دير مواس;Dayr Mawās
+ar;دمنهور;Damanhur
+ru;Даманхур;Damanhur
+ar;ناصر-بوش سابقا;Būsh
+ru;Насер;Būsh
+de;Port Said;Bur Sa'id
+en;Port Said;Bur Sa'id
+es;Puerto Saíd;Bur Sa'id
+ar;بورسعيد;Bur Sa'id
+fr;Port-Saïd;Bur Sa'id
+he;פורט סעיד;Bur Sa'id
+nl;Port Said;Bur Sa'id
+pt;Porto Said;Bur Sa'id
+ru;Порт-Саид;Bur Sa'id
+ar;بور سعيد;Bur Sa'id
+ar;سفاجا;Safaga
+ru;Сафага;Safaga
+fr;Port Safaga;Safaga
+el;Σαφάγκα;Safaga
+nl;Port Safaga;Safaga
+he;ספאג'א;Safaga
+ar;برج العرب;Burj al ‘Arab
+ar;بيلا;Biyalā
+ru;Бияла;Biyalā
+en;Biyala;Biyalā
+nl;Biyala;Biyalā
+ar;بركة السبح;Birkat as Sab‘
+ar;بلقاس;Bilqās
+ru;Билкас;Bilqās
+ar;بلبيس;Bilbeis
+el;Μπιμπάις;Bilbeis
+ru;Бильбейс;Bilbeis
+fr;Bilbéïs;Bilbeis
+he;בילביס;Bilbeis
+tr;Bilbeys;Bilbeis
+ar;ببا;Bibā
+ar;بني عبيد;Banī ‘Ubayd
+ar;بني سويف;Banī Suwayf
+ru;Бени-Суэйф;Banī Suwayf
+ar;بني مزار;Banī Mazār
+ru;Бени-Мазар;Banī Mazār
+ru;Бенха;Banhā
+ar;بنها;Banhā
+ar;بلطيم;Balţīm
+ar;الزينية قبلي;Az Zaynīyah Qiblī
+ar;الزقازيق;Zagazig
+ru;Эз-Заказик;Zagazig
+ar;أوسيم;Awsīm
+ar;Aţ Ţūr;El-Tor
+ar;الطور;El-Tor
+ar;التل الكبير;At Tall al Kabīr
+ru;Асьют;Assiut
+ar;أسيوط;Assiut
+en;Asyut;Assiut
+de;Assuan;Aswān
+en;Aswan;Aswān
+es;Asuán;Aswān
+ar;أسوان;Aswān
+fr;Assouan;Aswān
+it;Assuan;Aswān
+nl;Aswan;Aswān
+pt;Assuão;Aswān
+ru;Асуан;Aswān
+he;אסואן;Aswān
+el;Ασσουάν;Aswān
+tr;Asvan;Aswān
+fr;Suez;As Suways
+es;Suez;As Suways
+en;Suez;As Suways
+de;Sues;As Suways
+ar;سويس;As Suways
+el;Σουέζ;As Suways
+it;Suez;As Suways
+nl;Suez;As Suways
+pt;Suez;As Suways
+ru;Суэц;As Suways
+ru;Суэцкий;As Suways
+tr;Süveyş;As Suways
+ar;السويس;As Suways
+he;סואץ;As Suways
+ar;السنبلاوين;As Sinbillāwayn
+ru;Эс-Синбиллавейн;As Sinbillāwayn
+ar;السباعية;As Sibā‘īyah
+ar;السرو;As Sarw
+ar;السنطه;As Sanţah
+ar;السلوم;As Sallūm
+ar;الساحل;As Sāḩil
+ar;ساحل سليم;As Sāḩil
+ar;الصف;Aş Şaff
+ar;الشهداء;Ash Shuhadā’
+ar;أشمون;Ashmūn
+ru;Ашмун;Ashmūn
+ar;الرحمانية;Ar Raḩmānīyah
+ar;أرمنت;Armant
+ar;الوقف;Al Waqf
+de;al-Waqf;Al Waqf
+ru;Эль-Вакф;Al Waqf
+de;Luxor;Al Uqsur
+en;Luxor;Al Uqsur
+es;Lúxor;Al Uqsur
+fr;Louxor;Al Uqsur
+it;Luxor;Al Uqsur
+nl;Luxor;Al Uqsur
+pt;Luxor;Al Uqsur
+ru;Луксор;Al Uqsur
+ar;الأقصر;Al Uqsur
+tr;El-Uksur;Al Uqsur
+ar;الاقصر;Al Uqsur
+he;לוקסור;Al Uqsur
+el;Λούξορ;Al Uqsur
+ar;القوصية;Al Qūşīyah
+ru;Аль-Кусайра;Al Quşayr
+it;El Quseir;Al Quşayr
+ar;القصير;Al Quşayr
+en;El Qoseir;Al Quşayr
+ru;Аль-Эль-Курайн;Al Qurayn
+ar;القرين;Al Qurayn
+ar;القصاصين;Al Qaşşāşīn
+en;Kassassin;Al Qaşşāşīn
+fr;Kassassin;Al Qaşşāşīn
+nl;Kassassin;Al Qaşşāşīn
+ar;القنطرة;Al Qanţarah
+ar;القنايات;Al Qanāyāt
+ar;القناطر الخيرية;Al Qanāţir al Khayrīyah
+es;El Cairo;Al Qahirah
+de;Kairo;Al Qahirah
+en;Cairo;Al Qahirah
+ar;القاهرة;Al Qahirah
+el;Κάιρο;Al Qahirah
+fr;Le Caire;Al Qahirah
+he;קהיר;Al Qahirah
+it;Il Cairo;Al Qahirah
+nl;Caïro;Al Qahirah
+pt;Cairo;Al Qahirah
+ru;Каир;Al Qahirah
+tr;Kahire;Al Qahirah
+es;Cairo;Al Qahirah
+ru;Эль-Минья;Minya
+ar;المنيا;Minya
+ar;المطرية;Al Maţarīyah
+ru;Матарийя;Al Maţarīyah
+ar;المراغة;Al Marāghah
+ar;المنزلة;Al Manzalah
+ru;Эль-Манзала;Al Manzalah
+es;El Mansura;Al Mansurah
+ar;منصورة;Al Mansurah
+fr;Mansourah;Al Mansurah
+pt;Al-Mansurah;Al Mansurah
+de;Al-Mansura;Al Mansurah
+tr;Mansura;Al Mansurah
+ar;المنصورة;Al Mansurah
+ru;Эль-Мансура;Al Mansurah
+ar;المنشاة;Al Minshāh
+ar;المحمودية;Al Maḩmūdīyah
+ar;المحلة الكبرى;Al Maḩallah al Kubrá
+ru;Эль-Махалла-эль-Кубра;Al Maḩallah al Kubrá
+ru;Ал Хусус;Al Khuşūş
+ar;الخارجة;Al Khārjah
+de;Gizeh;Giza
+es;Guiza;Giza
+ar;الجيزة;Giza
+fr;Gizeh;Giza
+nl;Gizeh;Giza
+ru;Гиза;Giza
+pt;Gizé;Giza
+ar;الجمالية;Al Jammālīyah
+ru;Эль-Гамалия;Al Jammālīyah
+en;Al Jamālīyah;Al Jammālīyah
+fr;Ismaïlia;Ismailia
+ar;مدينة الإسماعيلية;Ismailia
+ru;Исмаилия;Ismailia
+nl;Ismaïlia;Ismailia
+ar;الإسماعيلية;Ismailia
+es;Ismailía;Ismailia
+he;איסמעיליה;Ismailia
+tr;İsmailiye;Ismailia
+pt;Ismaília;Ismailia
+en;Ismaïlia;Ismailia
+el;Ισμαηλία;Ismailia
+en;Ismalia;Ismailia
+en;El Ismalia;Ismailia
+de;Alexandria;Al Iskandariyah
+en;Alexandria;Al Iskandariyah
+es;Alejandría;Al Iskandariyah
+ar;الإسكندرية;Al Iskandariyah
+fr;Alexandrie;Al Iskandariyah
+he;אלכסנדריה;Al Iskandariyah
+it;Alessandria d'Egitto;Al Iskandariyah
+nl;Alexandrië;Al Iskandariyah
+pt;Alexandria;Al Iskandariyah
+ru;Александрия;Al Iskandariyah
+tr;İskenderiye;Al Iskandariyah
+el;Αλεξάνδρεια;Al Iskandariyah
+ar;العدوة;Al ‘Idwah
+ar;الإبراهيمية;Al Ibrāhīmīyah
+ar;عزبة علي السيد;‘Izbat ‘Alī as Sayyid
+ar;الحسينية;Al Ḩusaynīyah
+ru;Ал Хавамидиях;Al Ḩawāmidīyah
+ar;الحامول;Al Ḩāmūl
+ar;الحمام;Al Ḩammām
+ar;الغردقة;Hurghada
+ru;Хургада;Hurghada
+tr;Hurgada;Hurghada
+es;Hurgada;Hurghada
+he;ערדקה;Hurghada
+el;Χουργκάντα;Hurghada
+ar;الغنايم;Al Ghanāyim
+ar;الغنايم الشرقية;Al Ghanāyim
+fr;Fayoum;Al Fayyum
+es;El-Fayum;Al Fayyum
+de;Al-Fayyum;Al Fayyum
+ar;الفيوم;Al Fayyum
+ar;محافظة الفيوم;Al Fayyum
+it;Fayyum;Al Fayyum
+ru;Аль-Фаюм;Al Fayyum
+es;Fayún;Al Fayyum
+ar;الفشن;Al Fashn
+de;al-Faschn;Al Fashn
+ru;Эль-Фашн;Al Fashn
+ar;البرج;Al Burj
+ar;البياضية;Al Bayāḑīyah
+ru;Бавити;Al Bawīţī
+ar;الباويطى;Al Bawīţī
+ar;البويطي;Al Bawīţī
+ar;البلينا;Al Balyanā
+ar;الباجور;Al Bājūr
+ar;البداري;Al Badārī
+ar;العريش;Arīsh
+en;Arish;Arīsh
+en;Al ‘Arīsh;Arīsh
+de;Al-Arisch;Arīsh
+es;El Arish;Arīsh
+fr;El-Arich;Arīsh
+it;Al-Arish;Arīsh
+nl;El Arish;Arīsh
+he;אל עריש;Arīsh
+tr;El Ariş;Arīsh
+pt;Alarixe;Arīsh
+ru;Эль-Ариш;Arīsh
+en;El Alamein;Al ‘Alamayn
+de;El-Alamein;Al ‘Alamayn
+es;El Alamein;Al ‘Alamayn
+fr;El-Alamein;Al ‘Alamayn
+it;El Alamein;Al ‘Alamayn
+nl;El Alamein;Al ‘Alamayn
+ru;Эль-Аламейн;Al ‘Alamayn
+ar;العلمين;Al ‘Alamayn
+ru;Аламейн;Al ‘Alamayn
+ru;Ахмим;Akhmīm
+ar;أخميم;Akhmīm
+ru;Айа;Aga
+ar;أجا;Aga
+ar;الدلنجات;Ad Dilinjāt
+ar;الضبعة;El Dabaa
+ru;Эд-Дабъа;El Dabaa
+ru;Эль-Дабаа;El Dabaa
+ar;أبو طشت;Abū Ţisht
+ar;أبو تيج;Abū Tīj
+ru;Абу-Тиг;Abū Tīj
+fr;Abou Simbel;Abu Simbel
+ru;Абу-Симбел;Abu Simbel
+ar;أبو سمبل;Abu Simbel
+ar;أبو قرقاص;Abū Qurqāş
+en;Abu Qir;Abū Qīr
+es;Abukir;Abū Qīr
+fr;Aboukir;Abū Qīr
+ar;أبو قير;Abū Qīr
+ru;Абукир;Abū Qīr
+pt;Abukir;Abū Qīr
+it;Abukir;Abū Qīr
+he;אבו קיר;Abū Qīr
+nl;Abu Qir;Abū Qīr
+ar;أبو كبير;Abū Kabīr
+ru;Абу-Кебир;Abū Kabīr
+ar;أبو حمص;Abū Ḩummuş
+ar;أبو حماد;Abū Ḩammād
+ar;أبنوب;Abnūb
+ru;Абнуб;Abnūb
+ar;النوبارية;An Nūbārīyah
+ar;أولاد صقر;Awlād Şaqr
+ar;بئر العبد;Bi’r al ‘Abd
+ar;بير العبد;Bi’r al ‘Abd
+ar;الرياض;Ar Riyāḑ
+ar;الزرقا;Az Zarqā
+ar;دمياط الجديدة;Dumyāţ al Jadīdah
+ar;الصالحية الجديدة;Aş Şāliḩīyah al Jadīdah
+ar;برج العرب الجديدة;Burj al ‘Arab al Jadīdah
+ar;مدينة وادي النطرون;Madīnat Wādī an Naţrūn
+ar;دار السلام;Dār as Salām
+ru;Эль-Гуна;El Gouna
+ar;الجونة;El Gouna
+ru;Макади;Makadi Bay
+en;Makady;Makadi Bay
+ar;خليج مكادي;Makadi Bay
+el;Κόλπος της Μακαντί;Makadi Bay
+ru;Айн-Сухна;Ain Sukhna
+ar;العين السخنة;Ain Sukhna
+ar;القاهرة الجديدة;New Cairo
+ru;Новый Каир;New Cairo
+ar;الشروق;El Shorouk
+en;St. Catherine;Saint Catherine
+de;Asch-Schalatin;Shalateen
+ru;Шалатин;Shalateen
+el;Σαλατίν;Shalateen
+it;Shalatin;Shalateen
+ar;الشلاتين;Shalateen
+ar;الطارف;Aţ Ţārif
+ar;بور فؤاد;Būr Fu’ād
+ar;منشأة علي آغا;Munshāt ‘Alī Āghā
+ar;شلاتين;Shalātīn
+ar;العبور;Al-'Ubūr
+ru;Ал-Убур;Al-'Ubūr
+ar;النجيلة;An-Najaylah
+ar;الشيخ زايد;Ash-Shaykh Zāyid
+ar;الضواحي;Aḍ-Ḍawāḥy
+en;Al Dawahi;Aḍ-Ḍawāḥy
+ru;Ад-Давахий;Aḍ-Ḍawāḥy
+ar;الزهور;Az-Zuhūr
+en;Al Zohur;Az-Zuhūr
+ru;Аз-Зухур;Az-Zuhūr

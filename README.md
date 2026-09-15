@@ -127,14 +127,15 @@ les trois premières routes.
 
 ## Pays couverts
 
-Un pays à la fois plutôt que tout d'un coup (à l'exception de trois ajouts en date, voir plus bas)
+Un pays à la fois plutôt que tout d'un coup (à l'exception de quatre ajouts en date, voir plus bas)
 — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
 Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
 Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie, Roumanie, Lettonie, Lituanie, Estonie, le
 Vatican, l'Islande, les îles Féroé, Gibraltar, la Moldavie, la Biélorussie, l'Ukraine, la Turquie,
-la Géorgie, l'Arménie, l'Azerbaïdjan, la Syrie et Chypre pour l'instant, d'autres viendront. Chaque pays
+la Géorgie, l'Arménie, l'Azerbaïdjan, la Syrie, Chypre, le Liban, Israël, la Palestine, la Jordanie,
+l'Égypte et la Libye pour l'instant, d'autres viendront. Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -866,6 +867,121 @@ privé ayant déjà changé de nom plusieurs fois depuis la reprise — faute de
 vérifiés avec la même rigueur que le reste de `FERRY_ROUTES`, elle n'a pas été ajoutée à cette table
 plutôt que d'inventer un chiffre : Chypre reste pour l'instant un îlot autonome, comme l'Islande ou
 les îles Féroé. Devise : euro (zone euro depuis 2008), aucun champ `currency` nécessaire.
+
+**Le Liban, Israël, la Palestine, la Jordanie, l'Égypte et la Libye**, dernier ajout en date (les six
+en une seule fois, choix explicite de l'utilisateur). AUCUN des six n'a de fichier de codes postaux
+GeoNames (`export/zip/{LB,IL,PS,JO,EG,LY}.zip` -> 404, vérifié pour chacun) — mais contrairement à la
+Syrie, la plupart ont un VRAI système de codes postaux, simplement sans source ouverte exploitable
+commune par commune (voir `scripts/build-govfallback-communes.js`, qui traite les six ensemble). Le
+champ "cp" retombe donc sur un code de gouvernorat/district ISO 3166-2 (ou une étiquette informelle
+documentée comme telle quand aucun code ISO officiel ne correspond au découpage que GeoNames
+distingue réellement) :
+- **Liban** : système LibanPost à 4(+4) chiffres réel mais sans liste exhaustive par localité
+  trouvée (site officiel non accessible en automatisé). 41 communes retenues (population ≥500, champ
+  très lacunaire dans le dump libanais — seulement 41 lieux sur 3 309 candidats ont une population
+  enregistrée, pour un pays de ~5,5 millions d'habitants). Quatre corrections `NAME_OVERRIDES`
+  confirmées par la liste de noms alternatifs GeoNames de chaque entrée : Beirut->Beyrouth,
+  Tripoli->Trâblous, Sidon->Saïda, Tyre->Soûr (formes francophones, cohérentes avec le statut réel du
+  français au Liban — voir "Langues" plus bas). `hasToll:false` (aucun péage n'a jamais existé, aucun
+  projet identifié). Devise `LBP` — dollarisation de facto de l'économie depuis la crise de 2019-2020
+  largement documentée, mais LBP reste la devise légale ; taux stabilisé ~89 500 LBP/USD début 2026
+  (Sayrafa/officiel unifiés fin 2023).
+- **Israël** : système à 7 chiffres réel, mais calé au niveau de la RUE plutôt que de la commune —
+  cas inédit parmi tous les pays de ce projet. La seule source tierce exploitable identifiée
+  (odata.org.il, extraction ~09/2020) est protégée par un CAPTCHA Cloudflare, jamais contourné par
+  principe : repli sur le district (6 districts + "Judea and Samaria Area", 4 lieux seulement dans le
+  dump israélien lui-même sous ce dernier libellé, repris tel quel sans retouche éditoriale — même
+  principe que pour le nord de Chypre/le Kosovo/la Crimée ailleurs dans ce projet). 407 communes
+  retenues (population ≥1000). Quatre corrections confirmées : Jerusalem->Yerushalayim,
+  Tel Aviv->Tel Aviv-Yafo, Jaffa->Yafo, Beersheba->Be'er Sheva. `hasToll:true` — deux vrais ouvrages
+  réels (route 6/Derech Eretz, tunnels du Carmel/Carmelton) mais tarifés AU TRONÇON plutôt qu'au
+  kilomètre : barème approximatif dérivé du tarif occasionnel "tous tronçons" rapporté à la longueur
+  usuelle de la route 6 (~150 km) — précision plus faible que pour la Turquie/la Bosnie-Herzégovine
+  (voir `TOLL_RATE_BY_COUNTRY.IL` dans `trip-data.js` pour le détail complet du calcul). Devise `ILS`
+  — symbole dédié "₪" (U+20AA, normalisé Unicode dès 1993).
+- **Palestine** (code GeoNames "PS", Cisjordanie + bande de Gaza) : codes lancés par l'Autorité
+  palestinienne en 2021, qualifiés "plus symboliques que pratiques" par un employé postal cité dans
+  la presse — aucune liste exploitable, repli sur "PS-WBK"/"PS-GZA" (étiquettes informelles, GeoNames
+  ne distinguant que ces deux zones dans son propre champ admin1, plus grossier que le vrai découpage
+  ISO 3166-2:PS à 16 gouvernorats). 337 communes retenues (population ≥1000), dont Hebron->Al Khalil
+  (seule correction de nom nécessaire). `hasToll:false`. Aucun champ `currency` propre (le Protocole
+  de Paris de 1994 n'a désigné aucune monnaie unique, mais le shekel — déjà couvert par Israël
+  ci-dessus — domine largement les transactions quotidiennes, même logique que Chypre/l'euro plus
+  haut). **Situation actuelle documentée par transparence** (choix explicite de l'utilisateur
+  d'inclure les deux zones malgré cela) : Gaza traverse une catastrophe humanitaire active malgré le
+  cessez-le-feu du 10 octobre 2025 (plus de 1300 morts rapportés depuis cette date jusqu'à début
+  septembre 2026, infrastructures d'eau très largement hors service, Etats-Unis niveau 4
+  "Do Not Travel") ; la Cisjordanie connaît une situation sécuritaire grave et distincte (82
+  Palestiniens tués janvier-août 2026, zones d'interdiction ponctuelles selon le FCDO britannique,
+  niveau 3 "Reconsider Travel" côté américain) — sources : OCHA oPt, France Diplomatie, gov.uk,
+  travel.state.gov, toutes datées de 2026.
+- **Jordanie** : système à 5 chiffres réel, mais sans liste exhaustive par localité en source
+  ouverte (site officiel protégé Cloudflare, bases tierces commerciales incomplètes/payantes). 90
+  communes retenues (population ≥1000), une seule correction (Amman->'Amman, apostrophe confirmée
+  dans les noms alternatifs GeoNames). `hasToll:false` (projet à l'étude, "Economic Modernization
+  Vision", rien de construit). Devise `JOD` — arrimée au dollar depuis 1995, devise "forte"
+  contrairement à la plupart des autres devises de cette table (1 JOD ≈ 1,22 EUR mi-septembre 2026).
+  Une vraie ligne de ferry pour véhicules Aqaba-Nuweiba existe vers l'Égypte (Arab Bridge Maritime,
+  ~2-3h, tarifs officiels ~250 $ voiture) — voir le paragraphe Égypte ci-dessous pour l'explication
+  détaillée de son absence délibérée de `FERRY_ROUTES`.
+- **Égypte** : système à 5 chiffres réel, annuaires tiers gratuits (Egyxa) montrant des exemples
+  authentiques mais sans garantie de couverture pour un pays de ~100 millions d'habitants — repli sur
+  le gouvernorat par prudence plutôt qu'un rapprochement par nom non vérifiable à cette échelle
+  (contrairement à la Géorgie/au Monténégro, où la taille bien plus modeste du pays limitait le risque
+  d'une erreur silencieuse). 251 communes retenues (population ≥1000, sur 11 646 lieux candidats —
+  champ population très lacunaire malgré la taille du pays). Cinq corrections confirmées :
+  Cairo->Al Qahirah, Alexandria->Al Iskandariyah, Port Said->Bur Sa'id, Suez->As Suways,
+  Luxor->Al Uqsur. `hasToll:false` — un vrai réseau de péages existe mais à tarif FIXE par poste
+  ("بوابة رسوم"), sans barème origine-destination cohérent, même traitement que le pont du Storebælt
+  danois/le M50 irlandais déjà écartés du modèle ailleurs dans ce projet. Devise `EGP` — plusieurs
+  dévaluations majeures depuis 2016 puis 2022-2024, ~59,5 EGP/EUR mi-septembre 2026.
+  **Ferry Aqaba (Jordanie) – Nuweiba (Égypte) : réel, mais DÉLIBÉRÉMENT PAS ajouté à `FERRY_ROUTES`.**
+  La Jordanie et l'Égypte partagent déjà, via Israël (les trois pays "continental" au sens de
+  `landmassOf`), un vrai itinéraire terrestre alternatif — contrairement à Malte ou aux îles
+  grecques, qui elles n'ont AUCUNE alternative terrestre et ont donc besoin d'un vrai ferry pour être
+  atteignables. Donner à la Jordanie et à l'Égypte leur propre "landmass" rien que pour activer cette
+  ligne casserait la connectivité terrestre réelle déjà correcte entre les trois pays.
+- **Libye** : aucun système exploitable identifié, cas le plus proche de la Syrie stricto sensu (pas
+  de page Wikipedia "Postal codes in Libya", aucune liste officielle Libya Post Company trouvée,
+  plusieurs agrégateurs tiers repérés comme peu fiables — même piège déjà écarté pour la Syrie). 119
+  communes retenues (population ≥1000). Trois corrections confirmées : Tripoli->Tarabulus,
+  Benghazi->Banghazi, Tobruk->Tubruq — piège détecté en cours de route : "Tripoli" est le nom brut à
+  la fois d'une ville libanaise ET de la capitale libyenne dans leurs dumps GeoNames respectifs ; une
+  première version de la table de correction, globale plutôt que par pays, avait appliqué par erreur
+  la forme libanaise "Trâblous" à la Tripoli libyenne aussi — détecté en relisant le résultat avant de
+  committer, corrigé en séparant la table par pays (voir `NAME_OVERRIDES_BY_COUNTRY` dans
+  `build-govfallback-communes.js`). `hasToll:false` (absence de preuve plutôt que preuve d'absence
+  explicite, nuance documentée par honnêteté). Devise `LYD` — double taux marqué : officiel ≈6,30
+  LYD/USD (dévaluation du 18 janvier 2026), marché parallèle ≈10 LYD/USD (écart &gt;50%). **Limite
+  importante documentée par transparence** (choix explicite de l'utilisateur d'ajouter le pays malgré
+  cela, comme pour l'Azerbaïdjan plus haut) : la quasi-totalité du territoire est sous le niveau de
+  déconseil le plus élevé des autorités occidentales au moment de cet ajout — Etats-Unis niveau 4
+  "Do Not Travel" (mise à jour du 31 août 2026 ; mines et engins non explosés non signalés de façon
+  fiable sur l'ensemble du territoire, recommandation officielle de laisser un testament et un
+  échantillon ADN avant le voyage), France Diplomatie déconseille formellement tout le pays sauf
+  Misrata/Benghazi. Pays toujours divisé de facto entre deux autorités rivales sans réunification
+  effective à ce jour.
+
+**Adjacence réelle entre pays, nouveau mécanisme introduit par cet ajout** (`reallyAdjacent()` dans
+`lib/trip-engine.js`) : le modèle "même masse continentale = joignable" (voir `landmassOf` plus haut)
+ne vérifiait jusqu'ici jamais l'adjacence RÉELLE entre deux pays — sans conséquence pratique tant que
+l'Europe/le Caucase déjà couverts formaient une chaîne de vraies frontières communes. Découvert en
+testant cet ajout : un trajet généré depuis Beyrouth proposait une étape en Israël (frontière fermée
+depuis des décennies, état de guerre non résolu, "ligne bleue" ONU sans aucun point de passage civil),
+PUIS un autre trajet une étape directement en Cisjordanie (le Liban et la Palestine ne partagent
+tout simplement AUCUNE frontière) — même famille de bug que Chypre lors de l'ajout précédent, mais une
+question d'adjacence terrestre plutôt qu'une mer à traverser. Corrigé par une liste BLANCHE de paires
+réellement adjacentes (poste-frontière ouvert identifié : Masnaa Liban-Syrie, Nasib/Jaber
+Syrie-Jordanie, Sheikh Hussein/Allenby/Wadi Araba Israël-Jordanie, Taba Israël-Égypte, checkpoints
+Israël-Palestine, Allenby Jordanie-Palestine, Amsaad/Ras Jdir Égypte-Libye, Rafah Égypte-Palestine),
+appliquée UNIQUEMENT quand au moins un des deux pays fait partie de ce dernier ajout — jamais aux
+paires ne concernant que des pays déjà couverts avant lui (l'Arménie et la Syrie, par exemple, ne sont
+pas non plus adjacentes, mais ce cas reste hors du périmètre de ce correctif). Un second bug, plus
+subtil, a été détecté par un test automatisé de 180 trajets générés plutôt qu'en relisant le code :
+la variable suivant le pays de l'étape COURANTE n'était en fait mise à jour qu'une seule fois, au
+départ, jamais après chaque nouvelle étape choisie (contrairement à la masse continentale, elle bien
+mise à jour) — un trajet Amman -> Syrie -> Israël passait ainsi le second saut avec succès, comparé
+à tort à "Jordanie" (adjacente à Israël) plutôt qu'à "Syrie" (qui, elle, ne l'est pas).
 
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
@@ -1777,6 +1893,48 @@ drapeau syrien ("sy") : aucun des trois derniers n'a de drapeau propre dans circ
 n'a pas d'Etat, le touroyo/le circassien encore moins), et l'arabe lui-même retombe sur la Syrie
 plutôt qu'un autre pays arabophone puisque c'est l'ajout de la Syrie qui a introduit cette langue
 dans l'interface — même mécanisme de repli que nds/hsb/frr vers l'Allemagne plus haut.
+
+**Le Liban, Israël, la Palestine, la Jordanie, l'Égypte et la Libye**, dernier ajout en date,
+N'APPORTENT AUCUNE NOUVELLE LANGUE à l'interface — l'arabe, déjà couvert depuis la Syrie, reste la
+seule langue de ces six pays à remplir le critère "statut légal réel accordé par le pays lui-même"
+déjà appliqué à chaque ajout précédent. Revue systématique effectuée pour chacun, même méthode que
+pour le talysh/le lezguien d'Azerbaïdjan ou le mingrélien/le svane de Géorgie plus haut :
+- **Liban** : le français a un statut plus faible qu'il n'y paraît — l'article 11 de la Constitution
+  de 1926 (amendée 1943) délègue seulement à une loi ordinaire "les cas dans lesquels [il] peut être
+  utilisé", sans le désigner officiel ou co-officiel au sens strict (contrairement au luxembourgeois
+  au Luxembourg ou au romanche en Suisse). L'arménien (communauté ~4% de la population) n'a aucun
+  statut légal ou constitutionnel trouvé.
+- **Israël** : l'hébreu est bien "langue de l'Etat" (article 4a de la Loi fondamentale "Israël,
+  Etat-nation du peuple juif", 2018) ; l'arabe s'est vu retirer son statut de langue officielle par ce
+  même texte au profit d'un "statut spécial" (article 4b) — mais aucun impact pratique ici, l'arabe
+  étant déjà langue d'interface depuis la Syrie et l'hébreu n'apportant, lui, aucune minorité propre
+  remplissant le critère du projet.
+- **Palestine** : l'arabe est la seule langue officielle de la Loi fondamentale palestinienne
+  (article 4, amendée 2003/2005).
+- **Jordanie** : les Circassiens/Tchétchènes disposent de 3 sièges réservés au Parlement (loi
+  électorale), mais c'est une reconnaissance ethnique/de représentation, pas un statut accordé à leur
+  LANGUE — ne remplit pas le critère du projet, même distinction déjà appliquée ailleurs.
+- **Égypte** : ni le nubien (Nobiin/Kenzi — Constitution de 2014, reconnaissance ethnique avec "droit
+  au retour" jamais mis en œuvre, mais rien pour la langue elle-même ; aucune écriture standardisée
+  en usage réel non plus, même défaut disqualifiant que l'araméen occidental de Maaloula en Syrie) ni
+  le siwi berbère (aucun statut, "definitely endangered" UNESCO) ne remplissent le critère.
+- **Libye** : la loi n°18 de 2013 reconnaît le tamazight/le tergui/le tebou comme "composantes
+  culturelles et linguistiques", un statut culturel/éducatif optionnel, PAS un statut de langue
+  officielle ou co-officielle ; une déclaration unilatérale de 2017 du Conseil suprême amazigh
+  libyen proclamant le tamazight officiel dans les municipalités à majorité amazighe n'est,
+  elle, pas un texte adopté par l'Etat libyen lui-même.
+
+**Alias** : construits par un script dédié (`scripts/build-govfallback-aliases.js`, les six pays
+n'ayant pas de fichier de codes postaux standard pour rejoindre un geonameid à la méthode habituelle
+de `build-aliases.js`) — SURTOUT utile ici puisque plusieurs grandes villes ont été renommées vers
+leur nom local (Cairo->Al Qahirah, Beirut->Beyrouth, Jerusalem->Yerushalayim...) : sans alias, taper
+le nom anglais usuel de ces villes ne les aurait plus fait apparaître du tout dans la recherche.
+178 alias pour le Liban, 1 876 pour Israël, 488 pour la Palestine, 175 pour la Jordanie, 554 pour
+l'Égypte, 297 pour la Libye — langues de recherche : les dix déjà utilisées ailleurs dans ce fichier
+(fr/en/es/pt/nl/de/it/ar/ru/el/tr) plus l'hébreu ("he", langue de RECHERCHE seulement ici, jamais
+langue d'INTERFACE puisqu'aucune minorité israélienne ne remplit par ailleurs le critère du projet —
+même distinction "recherche vs interface" déjà appliquée au russe pour la Turquie/l'Ukraine avant que
+la Biélorussie n'en fasse aussi une langue d'interface).
 
 ## Démarrer en local
 
