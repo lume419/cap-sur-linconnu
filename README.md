@@ -637,7 +637,7 @@ ajoute deux à trois choses, indépendamment des autres :
    3,53 TL/km ; catégorie 2 (véhicule léger utilitaire) 4 040 TL dont pont 1 870 TL → 2 170 TL /
    384 km ≈ 5,65 TL/km ; catégorie 6 (motocyclette) 1 795 TL dont pont 820 TL → 975 TL / 384 km ≈
    2,54 TL/km — convertis au taux ~56,3 TRY/EUR retenu pour `COUNTRIES.TR.currency`. Opérateur crédité
-   dans le pied de page : Otoyol A.Ş., le concessionnaire BOT (Build-Operate-Transfer) de cette
+   dans les mentions légales : Otoyol A.Ş., le concessionnaire BOT (Build-Operate-Transfer) de cette
    autoroute précise pour le compte de la Karayolları Genel Müdürlüğü (KGM, direction générale des
    routes turque) — même logique que HAC/Putevi Srbije/JP za državni patišta ailleurs dans cette
    table, l'opérateur réellement responsable du barème utilisé pour le calcul plutôt que l'autorité
@@ -1396,8 +1396,8 @@ pays étant déjà couverts depuis les commits précédents.
 Le tchèque (čeština), le polonais (polski), le slovaque (slovenčina), le hongrois (magyar) et le
 slovène (slovenščina) sont chacun la langue nationale unique de leur pays, confiance haute (ressources
 abondantes). Le croate (hrvatski) est arrivé de la même façon — la Croatie ayant un vrai péage fermé
-(HAC), son nom y figure dans la clause de citation des péages du texte de pied de page plutôt que
-dans les listes gratuit/vignette. Pour la Bosnie-Herzégovine, dont les trois langues constitutionnelles
+(HAC), son nom figurait dans la clause de citation des péages du texte de pied de page plutôt que
+dans les listes gratuit/vignette (clause depuis retirée, voir "Pied de page sans énumération"). Pour la Bosnie-Herzégovine, dont les trois langues constitutionnelles
 sont le bosniaque, le croate et le serbe à parts égales, l'utilisateur a choisi explicitement d'ajouter
 le bosniaque (bosanski) ET le serbe (српски) — le croate étant déjà couvert par le pack ajouté pour la
 Croatie elle-même, nul besoin d'un second pack croate distinct pour la Bosnie. Le bosniaque, très
@@ -1409,12 +1409,37 @@ latin ékavien puis translittéré automatiquement par un script dédié qui pro
 les toponymes et noms de marque sans forme cyrillique établie (Airbnb, Booking.com, Chargemap, GPS,
 PDF, GeoNames, geo.api.gouv.fr…) ainsi que les variables `{xxx}` du moteur de traduction.
 
-Un piège récurrent repéré en cours de rédaction, à surveiller pour toute langue future : en adaptant
-la longue phrase de crédits du pied de page depuis le français, il est facile d'oublier d'insérer le
-PROPRE pays de la langue qu'on est en train d'écrire dans la liste des pays crédités et/ou dans la
-bonne sous-liste péage gratuit / vignette — trouvé et corrigé pour le slovaque, le hongrois et le
-slovène avant leur insertion définitive (la Slovaquie, la Hongrie et la Slovénie manquaient chacune de
-leur propre nom dans leur propre pied de page).
+Un piège récurrent repéré en cours de rédaction : en adaptant la longue phrase de crédits du pied de
+page depuis le français, il est facile d'oublier d'insérer le PROPRE pays de la langue qu'on est en
+train d'écrire dans la liste des pays crédités et/ou dans la bonne sous-liste péage gratuit /
+vignette — trouvé et corrigé pour le slovaque, le hongrois et le slovène avant leur insertion
+définitive (la Slovaquie, la Hongrie et la Slovénie manquaient chacune de leur propre nom dans leur
+propre pied de page). **Ce piège n'existe plus** : voir "Pied de page sans énumération" ci-dessous.
+
+### Pied de page sans énumération (septembre 2026)
+
+`footer.text` réénumérait à la main, dans CHAQUE bloc de langue, les 62 pays crédités, les exploitants
+de péage, les pays à autoroutes gratuites et ceux à vignette — environ 1 850 caractères dupliqués 75
+fois. Conséquence mécanique : à chaque nouveau pays il aurait fallu insérer son nom à trois endroits
+dans 75 langues, ce qui n'a jamais été fait intégralement. Mesure avant correction : **73 des 75 blocs
+étaient périmés** — 21 langues ne mentionnaient toujours pas la Turquie (ajoutée plusieurs lots plus
+tôt), 68 ignoraient l'Arménie, 73 le Liban et la Libye. Seuls le français et l'anglais étaient à jour.
+
+Les énumérations ont donc été RETIRÉES de `footer.text` dans les 75 langues. Le texte conserve
+l'accroche, le crédit « IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY) » et
+le crédit OpenStreetMap/ODbL — soit exactement ce qu'exigent les licences — et passe de ~1 850 à ~250
+caractères. Le détail exhaustif (62 pays, sources postales tierces, douze exploitants de péage,
+vignettes, ferries, circle-flags) vit désormais en un seul endroit, `public/mentions-legales.html`,
+dont le lien est déjà affiché juste sous le pied de page.
+
+Point de méthode : la réécriture n'a introduit AUCUNE prose nouvelle dans les 74 langues où la
+structure le permettait. Un script (`scratchpad`, non versionné) a découpé chaque texte existant en
+trois phrases, gardé la première et la troisième telles quelles, et tronqué la deuxième juste après la
+parenthèse de licence GeoNames — en réutilisant le terminateur propre à chaque écriture (le point
+arménien « ։ » pour `hy`) et en préservant les apostrophes échappées (`sc`, `fur`, `lld`). Seuls le
+turc et l'azerbaïdjanais, qui placent l'énumération AVANT « GeoNames » par postposition (« … için
+GeoNames »), ont demandé une phrase reconstruite à la main, avec la seule locution « pour les autres
+pays » ajoutée dans chacune des deux langues.
 
 ### Danemark (premier pays nordique)
 
@@ -2522,7 +2547,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux géorgiens (absents de GeoNames pour ce pays, voir "Pays couverts") : annuaire tiers
   [yell.ge](https://www.yell.ge) — PAS une source officielle ni sous licence ouverte explicite, choix
@@ -2544,6 +2569,16 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   couverts") : jeu de données tiers [MentatInnovations/grpostcodes](https://github.com/MentatInnovations/grpostcodes)
   (licence [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0), ~1 250 entrées AVEC coordonnées
   GPS), rapproché par coordonnée la plus proche (et non par nom) des communes GeoNames ci-dessus.
+- Codes postaux arméniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste officielle
+  des 775 bureaux de poste d'[Haypost](https://www.haypost.am), la poste nationale arménienne
+  elle-même — source plus directe que yell.ge/postanskibroj ci-dessus, rapprochée par nom des communes
+  GeoNames (`scripts/build-am-communes.js`, 458 communes retenues).
+- Syrie, Liban, Israël, Palestine, Jordanie, Égypte, Libye : AUCUNE source de codes postaux, ni
+  GeoNames ni tierce, n'a été trouvée pour ces sept pays — et la Syrie n'a tout simplement pas de
+  système de codes postaux en usage. Le champ `cp` n'y contient donc PAS un code postal mais le code
+  de gouvernorat/district/province [ISO 3166-2](https://www.iso.org/iso-3166-country-codes.html)
+  (norme publique), voire une étiquette régionale informelle là où la norme ne descend pas assez
+  finement — voir "Pays couverts" pour le détail pays par pays.
 - Alias multilingues de ces mêmes communes : GeoNames `alternateNamesV2` (même licence CC-BY 4.0) —
   voir "Langues" ci-dessus.
 - Points d'intérêt : [OpenStreetMap](https://www.openstreetmap.org) via l'API Overpass — figés dans
@@ -2554,7 +2589,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 55 fichiers SVG, dont treize
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 58 fichiers SVG, dont douze
   drapeaux RÉGIONAUX) — voir "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
@@ -2568,14 +2603,20 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   Odos](https://www.olympiaodos.gr) / [Egnatia Odos](https://www.egnatia.eu) (Grèce — via mydiodia.gr
   pour l'agrégation des tarifs 2026), [Otoyol A.Ş.](https://www.otoyol.com.tr) (Turquie — via
   plusieurs sources convergentes début septembre 2026 pour les tarifs 1er juillet 2026 de
-  l'autoroute Gebze-Orhangazi-İzmir/O-5) — voir "Pays couverts" pour la méthode de calcul hors de
-  France (échantillon plus restreint que pour la France).
+  l'autoroute Gebze-Orhangazi-İzmir/O-5), [AAYDA / Agence d'État des routes](https://www.aayda.gov.az)
+  (Azerbaïdjan — barème officiel de l'unique route à péage du pays, la M-1 Bakou-Quba),
+  Derech Eretz Highways (Israël — route 6/Kvish Sderot Yisrael, via kvish6.co.il) et Carmelton
+  (tunnels du Carmel à Haïfa), ces deux derniers tarifés AU TRONÇON et non au kilomètre, donc
+  convertis en €/km avec une précision plus faible que les autres pays (voir `trip-data.js`) —
+  voir "Pays couverts" pour la méthode de calcul hors de France (échantillon plus restreint que
+  pour la France).
 - Vignettes annuelles : boutiques officielles [via.admin.ch](https://via.admin.ch) (Suisse),
   [asfinag.at](https://www.asfinag.at) (Autriche), [edalnice.gov.cz](https://edalnice.gov.cz)
   (République tchèque), [eznamka.sk](https://eznamka.sk) (Slovaquie), [e-matrica.hu](https://nemzetiutdij.hu)
   (Hongrie), [evinjeta.dars.si](https://evinjeta.dars.si) (Slovénie),
   [bgtoll.bg](https://www.bgtoll.bg) (Bulgarie), [e-rovinieta.ro](https://www.erovinieta.ro)
-  (Roumanie) — voir "Pays couverts" ci-dessus.
+  (Roumanie), [evinieta.gov.md](https://evinieta.gov.md) (Moldavie),
+  [ev.beltoll.by](https://ev.beltoll.by) (Biélorussie) — voir "Pays couverts" ci-dessus.
 - Tarifs de ferry croates : [Jadrolinija](https://www.jadrolinija.hr) pour dix des onze lignes,
   [Rapska Plovidba](https://www.rapska-plovidba.hr) pour Rab (Stinica-Mišnjak) — voir "Ferries"
   ci-dessus.
