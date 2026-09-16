@@ -1010,6 +1010,9 @@ html[lang="dv"] body, html[lang="dv"] input, html[lang="dv"] button, html[lang="
   font-family: "Noto Sans Thaana", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
+/* Message dans la liste de suggestions (chargement en cours) : non cliquable, discret. */
+.suggest-item.suggest-message{cursor:default; font-style:italic; opacity:.75; justify-content:flex-start;}
+
 /* Zones à tension (France Diplomatie) : avertissement sur une étape ou sur le point de départ. */
 .tension-row{border-left:3px solid currentColor; padding:.35rem .6rem; border-radius:6px; background:color-mix(in srgb, currentColor 8%, transparent);}
 .tension-row.tension-red{color:var(--tension-red);}

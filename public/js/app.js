@@ -1246,6 +1246,22 @@
     clearCityError();
     updateBudgetHint(); // la devise du plafond affiché dépend du pays de la ville choisie (voir plus bas)
   }
+  // Message non sélectionnable dans la liste (ex. moteur encore en chargement côté serveur) : sans lui, la
+  // liste restait simplement vide et l'autocomplétion semblait cassée pendant le démarrage du serveur.
+  function renderSuggestMessage(text){
+    els.citySuggest.innerHTML = '';
+    currentSuggestions = [];
+    activeSuggestIndex = -1;
+    var li = document.createElement('li');
+    li.className = 'suggest-item suggest-message';
+    li.setAttribute('role', 'option');
+    li.setAttribute('aria-disabled', 'true');
+    li.textContent = text;
+    els.citySuggest.appendChild(li);
+    els.citySuggest.classList.add('show');
+    els.city.setAttribute('aria-expanded', 'true');
+  }
+
   function hideSuggestions(){
     els.citySuggest.classList.remove('show');
     els.citySuggest.innerHTML = '';
@@ -1277,16 +1293,29 @@
     var query = els.city.value;
     var mySeq = ++searchRequestSeq;
     clearTimeout(searchDebounceTimer);
-    if(query.trim().length < 3){ renderSuggestions([]); return; }
-    searchDebounceTimer = setTimeout(function(){
+    // 3 caractères minimum, ou 2 caractères idéographiques (北京, 東京 : voir SHORT_IDEOGRAPHIC_INDEX côté serveur).
+    var trimmedQuery = query.trim();
+    if(trimmedQuery.length < 3 && !(trimmedQuery.length === 2 && /^[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af\uf900-\ufaff]{2}$/.test(trimmedQuery))){ renderSuggestions([]); return; }
+    function runSearch(){
       fetch('/api/search-city?q=' + encodeURIComponent(query) + '&limit=8')
-        .then(function(r){ return r.ok ? r.json() : { results: [] }; })
+        .then(function(r){
+          // 503 : le serveur vient de démarrer et charge encore ses ~4 millions de lieux (jusqu'à une minute
+          // ou plus). On le dit, et on relance la même recherche toutes les 2 s tant que la saisie n'a pas changé.
+          if(r.status === 503) return { loading: true };
+          return r.ok ? r.json() : { results: [] };
+        })
         .then(function(data){
           if(mySeq !== searchRequestSeq) return; // une saisie plus récente a déjà pris le relais
+          if(data.loading){
+            renderSuggestMessage(t('form.city.loadingPlaceholder'));
+            searchDebounceTimer = setTimeout(runSearch, 2000);
+            return;
+          }
           renderSuggestions(data.results || []);
         })
         .catch(function(){ if(mySeq === searchRequestSeq) renderSuggestions([]); });
-    }, 150);
+    }
+    searchDebounceTimer = setTimeout(runSearch, 150);
   });
   els.city.addEventListener('keydown', function(e){
     if(!els.citySuggest.classList.contains('show')) return;

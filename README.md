@@ -3075,6 +3075,27 @@ du passage à `labelKind`/`dayNum`, qui corrige au passage un détail resté fig
 langue jusqu'ici), et un second tirage consécutif confirmant qu'une destination déjà proposée n'est
 pas immédiatement retirée.
 
+### Démarrage du moteur avec ~4 millions de lieux (septembre 2026)
+
+**Symptôme signalé** : « l'autocomplétion semble ne plus fonctionner ». Cause : après le lot Asie et l'Océanie, `init()`
+(lib/trip-engine.js) mettait **~113 s** au repos (235 s mesurées sur la machine de développement chargée) avant que
+`/api/search-city` ne réponde ; pendant ce temps le serveur renvoyait 503 et la liste de suggestions restait vide, sans
+aucun message. Corrections :
+- **Bandes frontalières des zones à tension** (88 s → ~7 s) : chaque lieu d'un pays à règle `borderKm` parcourait tous
+  les lieux des cases voisines. La grille retient maintenant les pays présents dans chaque case (clé numérique) et, pour
+  chaque couple (pays voisin, distance), la zone de cases atteignable, calculée une seule fois : un lieu hors de cette
+  zone est écarté sans calcul de distance.
+- **Lecture des lieux** : `concat` recopiait tout le tableau déjà construit à chaque pays (remplacé par `push`), et la
+  normalisation Unicode (`normalize('NFD')`) est sautée pour les noms en ASCII — résultat identique. Mémoire du tas
+  ramenée de ~4,0 à ~3,0 Go.
+- **Durée de chaque étape dans les journaux** : `[trip-engine] lieux et alias … · grille … · zones à tension … · index de
+  recherche …`. Mesure au repos après correction : ~28 s au total.
+- **Côté navigateur** : pendant le chargement, la liste affiche « Chargement des communes… » (chaîne déjà traduite dans
+  les 143 langues) et relance la même recherche toutes les 2 s tant que la saisie ne change pas.
+- **Noms idéographiques de deux caractères** (北京, 東京, 서울) : jamais trouvés jusqu'ici, la recherche exigeant 3
+  caractères. Les noms et alias en hanzi/kanji, kana et hangeul sont aussi indexés sous leurs 2 premiers caractères, et
+  une saisie de 2 caractères idéographiques est acceptée.
+
 ## Photos réelles
 
 Un artefact Claude ne peut charger aucune image externe (CSP) ; sur ce serveur, cette limite n'existe
