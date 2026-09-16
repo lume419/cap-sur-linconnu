@@ -7,6 +7,13 @@ fil;Sapat;Zapat
 fil;Zanja;Sanja
 fil;Zaniga;Old Zaniga
 ceb;Lungsod sa Zamboanguita;Zamboanguita
+ru;Замбоанга;Zamboanga
+ja;サンボアンガ;Zamboanga
+ko;삼보앙가;Zamboanga
+ceb;Dakbayan sa Zamboanga;Zamboanga
+tl;Lungsod ng Zamboanga;Zamboanga
+zh;三宝颜;Zamboanga
+en;Zamboanga City;Zamboanga
 fil;Zabali;Zaball
 fil;Zabala;Bias-Zabala
 fil;Yuco;Yucos
@@ -16,6 +23,7 @@ fil;Yeban;Yeban Norte
 fil;Yate;Yati
 fil;Yayagan;Yagyagan
 fil;Mawa;Wawa
+fil;Wacat;Nacat
 fil;Visal;Vizal San Pablo
 fil;Bisal;Vizal San Pablo
 fil;Virgonezan;Virgoneza
@@ -25,6 +33,7 @@ ru;Вирак;Virac
 fil;Vira;Bira
 fil;Villavieja;Villavejo
 fil;Villavicja;Villavejo
+fil;Villa Vincenta;Villa Vicenta
 fil;Villvert-Jimenez;Villavert-Jimenez
 fil;Villanueva;Villa Ruz
 fil;Villa Nacaub;Villa Nacaob
@@ -92,7 +101,9 @@ fil;Upie;Upi
 en;Uñgale;Ungale
 fil;Umpucan;Umpukan
 fil;Tumpacan;Umpukan
+fil;Umirey;Umiray
 fil;Umu;Uma
+fil;Ulona Tran;Kidayan
 fil;Ulilang Cauayan;Ulilang
 fil;Ulayos;Uyalas
 fil;Uia;Uja
@@ -177,6 +188,7 @@ fil;Totopiak;Totopiat
 fil;Totay;Taytay
 fil;Torres;Torres Lambayan
 fil;Torres;Torre First
+fil;Toy;Tor
 fil;Topdak;Topdac
 fil;Tong-go;Tungod
 fil;Tongcor;Tungkod
@@ -241,6 +253,7 @@ ru;Таябас;Tayabas
 fil;Tawl;Tawi
 fil;Tawin Tawin;Tawintawin
 fil;Tauinin;Tawini
+fil;Tawan;Tawang
 fil;Tavora;Tavora East
 fil;Tauit;Tawit
 fil;Taltaro;Tartaro
@@ -255,6 +268,7 @@ fil;Tapal;Tapel
 fil;Tapae;Tapa
 ja;タンザ;Tanza
 ru;Танза;Tanza
+fil;Nusa;Tanusa
 de;Tanjay City;Tanjay
 ceb;Dakbayan sa Tanjay;Tanjay
 tl;Lungsod ng Tanjay;Tanjay
@@ -286,6 +300,7 @@ fil;Tampak I;Tampac Primero
 fil;Tampac;Tampac Primero
 fil;Tamoroog;Tamorong
 fil;Tamogong;Tamogon
+fil;Tamnaw;Tamanaw
 fil;Tamisu Real;Tamiso Real
 fil;Tamisu;Tamiso
 fil;Dimamaga and Tamdagan;Tamdagan
@@ -522,6 +537,7 @@ fil;Suwa;Sua
 fil;Soyon;Soyung
 fil;Soucud;Sucot
 ru;Сорсогон;Sorsogon
+fil;Sorongan;Sarongan
 fil;Soocan;Sogoan
 fil;Sonson;Sonson Ongkit
 fil;Sonok;Son-ok Uno
@@ -627,6 +643,7 @@ fil;San Vicente;San Vincente
 fil;San Vicente;San Vicente Sur
 fil;San Vicente;San Vicente Este
 fil;San Vicente;San Vicente Kanluran
+fa;سن ویسنته;San Vicente
 fil;San Vicente (Barrio 6);San Vicente
 fil;Santo Toribio;Santo Torribio
 fil;South Santo Tomas;Santo Tomas
@@ -858,6 +875,7 @@ ur;سان ہوزے دے بیوناویستا، اینٹیک;San Jose
 fil;San Jose (Barrio 7);San Jose
 fil;San Joaquin;San Joquin Norte
 fil;San Joaquin;San Juaquin
+fil;San Juaquin;San Joaquin
 fil;Sanjase;San Jose
 fil;San Isidro Malapit;San Isidro
 fil;San Isidro Laug;Laug
@@ -876,6 +894,7 @@ fil;San Ignacio;San Ignacio Ibaba
 fil;Sangulong;Timbo (Sanggulong)
 fil;Sangoing;Timbo (Sanggulong)
 fil;San Gregorio;San Gregorja
+fil;Sañgay;Sangay
 fil;San Gabriel;San Gabriel First
 fil;San Francisco;San Francisco Second
 fil;San Francisco del Monte;Del Monte
@@ -986,6 +1005,7 @@ fil;Sablogon;Sablagon
 fil;Sabblan;Cabeseria Veintidós
 fil;Sabahganr;Sabangan
 fil;Rupagan;Ropagan
+fil;Rubatub;Rubatup
 ru;Рохас;Roxas City
 fa;روکساس;Roxas
 fil;Rotunda;Rotonda
@@ -1022,6 +1042,7 @@ fil;Bani;Ramos
 ceb;Lungsod sa Ramon Magsaysay;Ramon Magsaysay
 ru;Рамон;Ramon
 fil;Quioeng;Gueweng
+fil;Quinilatan;Quinilata
 fil;Quinauigan;Quinawegan
 fil;Quinaoigan;Quinawegan
 fil;Guinawegan;Quinawegan
@@ -1048,6 +1069,7 @@ es;Ciudad Quezon;Quezon City
 zh;奎松市;Quezon City
 es;Quezón;Quezon
 ru;Кесон-Сити;Quezon
+fa;کزون، پالاوان;Quezon
 ru;Кесон;Quezon
 fil;Quermay;Kirmay
 fil;Quensoriano;Quinsoriano
@@ -1146,6 +1168,7 @@ fil;Pitnor;Pintor
 fil;Pitawan;Pitwan
 fil;Pitao;Pit-ao
 fil;Pintog;Bintog
+fil;Pinotpandian;Pinagpandayan
 fil;Pinopoe;Pinopoc
 fil;Pimmilapil;Pinmilapil
 fil;Pingan;Pinggan
@@ -1187,6 +1210,7 @@ fil;Pero;Peru
 en;Pangal North;Pangal Norte
 fil;Pengan;Pangal Norte
 ru;Пеньяранда;Peñaranda
+fil;PeNa;Piña
 fil;Pamienta;Pemienta
 fil;Pelio Abajo;Pilig Abajo
 fil;Paz;Hacienda Paz
@@ -1372,6 +1396,7 @@ fil;Pagsanahgn;Pagsanahan Norte
 fil;Pagsana-an;Pagsanahan Norte
 fil;PagoliNgin;Pagulingin
 fil;Pagago;Pagogo
+fil;Pagguilitan;Pagkilatan
 fil;Paquetpet;Pagipit
 fil;Paguetpet;Pagipit
 fil;Pagga;Dagga
@@ -1554,6 +1579,8 @@ fil;Nalasin;Nalasin Sur
 en;Nailon;Nahilun
 fil;Naiba;Namita
 fil;Nagyebngan;Nagyebngar
+fil;Naguilian;Nagulian
+fil;Musa;Nagulian
 fil;Naguilian;Naguillian
 fil;Naguilian;Naguilian Sur
 fil;Naguillian;Naguilian
@@ -1782,6 +1809,7 @@ fil;Maragayap;Maragayap West
 fil;Marado;Morado
 fil;Mara Cury;Maracuru
 fil;Marracuru;Maracuru
+en;Maracañao;Maracanao
 fil;Marabulig;Marabulig Primero
 fil;Mapurok;Mapuroc
 fil;Mapolo Polo;Mapolopolo
@@ -1890,6 +1918,7 @@ fil;Manool;Manaol
 fil;Manaog;Manaoag
 fil;Manangol;Marangol
 fil;Nanambong;Manambong Parte
+ru;Манагок;Managok
 fil;Manabuc;Manaboc
 fil;Manabac;Manaboc
 fil;Mamunit;Mamonit
@@ -1955,6 +1984,7 @@ ur;مالایبالائی;Malaybalay
 fil;Malayatoc;Malayantoc
 fil;Malayantok;Malayantoc
 fil;Malaya (Borrio 9);Malaya
+fil;Barrio Nueve;Malay
 fil;Malaoa;Malawa
 fil;Malatique;Malitigui
 fil;Malatag;Maiatoy
@@ -2027,6 +2057,8 @@ fil;Maddarulog;Maddarulug Norte
 fil;Maddarulug;Maddarulug Norte
 fil;Maddamim;Maddamin
 fil;Madalipay;Madaliday
+fil;Madadnaaw;Madadnaan
+fil;Madadnaac;Madadnaan
 ur;میکروہون، سدرن لییٹی;Macrohon
 fil;Macical;Masical
 fil;Macdu;Macdo
@@ -2092,6 +2124,7 @@ fil;Lungsoddaan;Lungsodaan
 fil;Puna;Luna
 fil;Antatet;Luna
 fil;Luna;Luna Weste
+fil;Lumuasan;Lumusuan
 fil;Lumban;Lumbang
 fil;Lumbak;Lumbac
 fil;Lumbas;Lumbad
@@ -2219,6 +2252,7 @@ zh;拉普拉普市;Lapu-Lapu City
 ru;Лапу-Лапу;Lapu-Lapu City
 fil;Lappuacan;Littuacan
 fil;Barangay Lapogan;Lapogan
+fil;Lappi;Lapi
 fil;La Paz Este;La Paz
 ru;Ла-Пас;La Paz
 ceb;Lungsod sa La Paz;La Paz
@@ -2251,6 +2285,7 @@ fil;Langas;Langgas
 fil;Lancuay;Lancuas
 fil;Lanag;Lanang
 en;Lamesang Bato;Lamesa
+tl;Bayan ng Lambayong;Lambayong
 fil;Lalog;Lalog Uno
 fil;Lal-loc;Lal-lo
 ceb;Lungsod sa Lakewood;Rancheria Payau
@@ -2289,6 +2324,7 @@ ceb;Lungsod sa Labanga;Labangan
 fil;Lagangilang;Laang
 fil;Kupang;Cupang
 fil;Kumalodkod;Kumaludkod
+fil;Kumaliskis;Kumalisquis
 fil;Kulawit;Kalawit
 fil;Kolasi;Kulasi
 fil;Kudog;Cudog
@@ -2311,6 +2347,7 @@ ps;کورونادال;Koronadal
 tg;Коронадаль;Koronadal
 fil;Coloong;Koloong
 fil;Cal-ong;Koloong
+fil;Kolongkooan;Kalongkooan
 fil;Kolalo;Kolato
 fil;Lumit;Kling
 fil;Kitakita;Kita Kita
@@ -2346,6 +2383,7 @@ fil;Kato;Cato
 fil;Katangtang;Catangtang
 fil;Katambongan;Catambungan
 fil;Catambugan;Catambungan
+fil;Katablangan;Kaltoblangan
 fil;Casibu;Kasibu
 fil;Karusiquis;Karusikis
 en;Caromatan;Sultan Naga Dimaporo
@@ -2366,6 +2404,7 @@ fil;Kambalohan;Kambatohan
 fil;Kamandiison;Camandiison
 fil;Calumsing;Kalumsing
 fil;Kalinga;Union Kalinga
+fil;Caliling;Kaliling
 en;Kalibo Town;Kalibo
 es;Pueblo de Calivo;Kalibo
 ru;Калибо;Kalibo
@@ -2447,6 +2486,7 @@ fil;Inabaan;Inabaan Sur
 tl;Lungsod ng Imus;Imus
 ru;Имус;Imus
 ur;اموس;Imus
+fil;Imurung;Imurong
 fil;Imok;Imoc
 fil;Imbia;Imbiao
 fil;Iluyang Laquin;Iluyang Luguin
@@ -2455,6 +2495,7 @@ en;Iloilo City;Iloilo
 de;Iloilo City;Iloilo
 fil;Ilog;Ilog Baliwag
 fil;Illuru;Illuro
+fil;Ilijan;Ilihan
 ceb;Dakbayan sa Iligan;Iligan
 ja;イリガン;Iligan
 ko;일리간;Iligan
@@ -2491,6 +2532,7 @@ fil;Himay-añgan;Himay-angan
 fil;Himayangan;Himay-angan
 fil;Himaotan;Himaatan
 ru;Химамейлен;Himamaylan
+fil;Himalandrog;Himalarog
 fil;Himacay;Hinukay
 en;Hiju;Hiju, Maco
 en;Hermosa;Hermoza
@@ -2727,6 +2769,7 @@ fil;Old Dagupan;Dagapan
 fil;Divilican;Divilaca
 fil;Ditali;Ditale
 fil;Ilongot;Ditale
+fil;Dita;Ditas
 fil;Disimpi;Disimpit
 fil;Dirique;Diriqui
 fil;Dipusu;Dipuso
@@ -2751,6 +2794,7 @@ fil;Dinapigui;Dinapigue
 fil;Dilalongan;Dinalongan
 fil;Dinalaoan;Dinaloan
 ru;Динаиг;Dinaig
+fil;Dinadiwan;Dinajawan
 fil;Dinabongan;Dinabongan South
 fil;Demasere;Dimasari
 fil;Dimamaga and Tamdagan;Dimamaga
@@ -2769,6 +2813,7 @@ fil;Joson;Digdig
 fil;Difun;Diffun
 fil;Bayan ng Diffun;Diffun
 fil;Calalabangan;Diduyon
+fil;Dicamy;Dicamay
 fil;Dicaoisagan;Dicabisagan
 fil;Dicabacan;Decabacan
 fil;Diamantino;Diamantina
@@ -2809,6 +2854,7 @@ ur;داواؤ;Davao
 pa;ਦਾਵਾਓ;Davao
 ps;داواو;Davao
 tg;Давао;Davao
+fil;Daw;Dawol
 fil;Dao;Dau
 fil;Datag;Datag Norte
 fil;Data;Mount Data
@@ -2843,6 +2889,7 @@ gu;દેપિટન;Dapitan
 te;డపిటన్;Dapitan
 th;ดาปิตัน;Dapitan
 fil;Dapdap;Dadap
+en;Linay;Dapatan
 es;Dapa de Siargao;Dapa
 fil;Daongan;Daoangan
 fil;Dao-angan;Daoangan
@@ -2907,6 +2954,7 @@ fil;Daan Lungsod;Daanglung
 fil;Daangbaua;Daanbanua
 fil;Daan Banua;Viejo Daan Banua
 fil;Da-an Banua;Daan-Suba
+fa;کویو، پالاوان;Cuyo
 fil;Cutcut;Cut-cut Primero
 fil;Cutcut;Cut-cut Segundo
 fil;Curipang;Curifang
@@ -2919,6 +2967,9 @@ fil;Collalabo;Cullalabo del Sur
 fil;Cullalabo;Cullalabo del Sur
 fil;Cullabat;Culalabat
 fil;Cullalabat;Culalabat
+es;Culión;Culion
+fa;کولیون;Culion
+ja;クリオン;Culion
 fil;Culiong;Cwiong
 fil;Culing;Culing Centro
 fil;Culing;Culing West
@@ -2956,6 +3007,8 @@ fil;Kosili;Cosili East
 fil;Coral;Coral-Iloco
 fil;Corral Iloco;Coral-Iloco
 fil;Corralan;Coralan
+es;Corón;Coron
+fa;کورون، پالاوان;Coron
 ru;Кордоба;Cordova
 fil;Cordoba;Cordova
 fil;Cordician;Cordinian
@@ -3094,6 +3147,7 @@ tl;Bayan ng Carmen;Cogan
 ru;Кармен;Carmen Grande
 fil;Carmay;Carmay West
 fil;Carmay;Carmay East
+fil;Carlagan;Karligan
 fil;Carit-an;Caritan
 ru;Кардона;Cardona
 fil;Cardenal;Cardinal
@@ -3119,6 +3173,7 @@ fil;Capasam;Capason
 ru;Капас;Capas
 fil;Capaz;Capas
 fil;Coparangasan;Caparangasan
+fil;Capaluhan;Kapaluhan
 fil;Capogotan;Cabeseria Nueve y Once
 fil;Capaetan;Cabeseria Nueve y Once
 fil;Capagtan;Cabeseria Nueve y Once
@@ -3173,6 +3228,7 @@ fil;Cammunatan;Camunatan
 fil;Cammonatan;Camunatan
 fil;Camiing;Camiling
 fil;Kamias;Camias
+fil;Camflora;Camp Flora
 fil;Camcamalog;Camalog
 fil;Kambulo;Cambuio
 fil;Cambulo;Cambuio
@@ -3201,6 +3257,7 @@ ru;Калумпит;Calumpit
 fil;Calumpana Cerca;Calumpang Cerca
 fil;Kalumpang;Calumpang
 tl;Kalumpang;Calumpang
+fil;Calumbuyan;Calumboyan
 fil;Calumanguin;Calumaguim
 fil;Calulad;Calulud
 fil;Cululuan;San Isidro
@@ -3238,6 +3295,7 @@ fil;Calbayog;Calbayog City
 ru;Калбейог Сити;Calbayog City
 fil;Cayluya;Calayo
 fil;Cayiuya;Calayo
+es;Calayán;Calayan
 fil;Calawitan-pulunggubat;Calawitan
 fil;Calawitan Pulungqubat;Calawitan
 fil;Calauitan;Calawitan
@@ -3303,6 +3361,7 @@ fil;Calamagui One;Calamagui First
 fil;Calamagui;Calamagui East
 fil;Calamagin;Calamagui East
 fil;Calafug;Kalafug
+fil;Calacaad;Calaccad
 fil;Calacaab;Calaccab
 fil;Kalakab;Calaccab
 fil;Callobaoan;Calobaoan
@@ -3324,6 +3383,7 @@ ru;Кагаян-де-Оро;Cagayan de Oro
 zh;卡加延德奥罗;Cagayan de Oro
 fil;Cagaya;Cagayan
 fil;Cagu-ut;Cagaut
+fil;Caganibang;Caganibong
 fil;Cafihan;Capihan
 fil;Caellayan;Caei-Layan
 fil;Gadoñgan;Gadungan
@@ -3352,6 +3412,7 @@ zh;卡布堯;Cabuyao
 ru;Кабуяо;Cabuyao
 fil;Cabuyao;Cabuyao Sur
 fil;Cabusligan;Cabusiigan
+fil;Cabungalunan;Kabalanaunan
 fil;Cabongan;Cabunga-an
 fil;Cabuluan;Cabuluan East
 fil;Cabaluan;Cabuluan East
@@ -3359,6 +3420,7 @@ fil;Cabuloan;Cabuluan
 fil;Kabugao;Cabugao
 ja;カブラ;Cabra
 zh;卡布拉，盧邦;Cabra
+fil;Cabong Sur;Cabang Sur
 fil;Cabong Norte;Cabang Norte
 fil;Cabonga-an;Cabongaan
 fil;Caboluan;Cabuloan
@@ -3380,6 +3442,7 @@ fil;Cupayo;Cabayo
 fil;Cabaugtalan;Cabangtalan
 fil;Cabatuan Centro;Cabatuan
 es;Cabatuán;Cabatuan
+fil;Cabato-an;Cabatuan
 fil;Cabaroan;Cabaruan
 fil;Cabaruan;Cabaroan
 fil;Cabaruan;Cabaruan Hills
@@ -3454,6 +3517,8 @@ fil;Butangsapa;Butan Sapa
 fil;Busuhan;Basuhan
 ru;Бустос;Bustos
 fil;Busilac;Busilak
+ja;ブスディ;Busdi
+ru;Бусди;Busdi
 tl;Bayan ng Burdeos;Burdeos
 fil;Burayoco;Burayoc
 fil;Burac;Burak
@@ -3505,6 +3570,7 @@ fil;Buquig;Bukig
 fil;Bukal;Bucal
 fil;Buka;Bucal
 fil;Bujaoen;Buhawen
+fil;Buhicud;Bunicua
 fil;Buhaynasapa;Buhay Na Sapa
 fil;Bugujas;Buguias
 fil;Bugney;Buguey
@@ -3660,6 +3726,7 @@ fil;Bilan;Bilaran
 fil;Bilnan;Bilaran
 fil;Bilo;Bila
 fil;Biquigan;Bikigan
+fil;Bikal;Bical
 fil;Biguian;Bigian
 fil;Bigoho;Bigajo
 fil;Bignay;Bignay Uno
@@ -3670,7 +3737,6 @@ fil;Bicus;Bicos
 fil;Biclot;Bibiclat
 fil;Bibiclot;Bibiclat
 fil;Bical;Bical Norte
-fil;Bikal;Bical
 fil;Biac na Bato;Biak-na-Bato
 fil;Betaña;Betania
 fil;BengNgang;Bangngang
@@ -3714,6 +3780,7 @@ gu;બેયવન;Bayawan
 te;బయవాన్;Bayawan
 th;บายาวัน;Bayawan
 fil;Bayet;Bayate
+fil;Bayasan;Bayusan
 ja;バヤス;Bayas
 fil;Bayaquitos;Bayakitos
 fil;Bayañga;Bayanga
@@ -3742,6 +3809,7 @@ fil;Boteng;Bateng
 fil;Batasan-A;Batasan Bata
 fil;Batasan;Batasan Bata
 fil;Batasan-B;Batasan Bata
+en;Bates;Batas
 fil;Batang Segundo;Batang Second
 fil;Batong Macaba;Batang Second
 fil;Batang 2nd;Batang Second
@@ -3769,6 +3837,7 @@ fil;Barumbung;Barumbong
 fil;Barucbuc;Barucboc Norte
 fil;Barucboo Norte;Barucboc Norte
 fil;Barrio Obrero;Obrero
+fil;Barongan;Barogan
 fil;Gawana;Barlig
 fil;Barrit;Barit
 fil;Barisibis;Barisbis
@@ -4241,6 +4310,7 @@ fil;Alah;Ala
 en;Alabug East;Alabug
 fil;Alabog;Alabug
 fil;Acle;Akle
+tl;Bayan ng Agutaya;Agutaya
 en;Agupalo West;Agupalo Oeste
 fil;Agtangao;Actangao
 fil;Agosagos;Agos-agos
@@ -4295,6 +4365,7 @@ fil;Abbangueran;Abanqueruan
 fil;Abar Segundo;Abar 2
 fil;Ablos;Abalos
 fil;Abbagao;Abagao
+fil;Kawala;Abaca
 fil;Ambeyet;Ambayat First
 fil;Aman;Alman
 fil;Lambaken;Lambakin
@@ -4316,10 +4387,13 @@ fil;Mapiga;Mabiga
 fil;Mamanpen;Mampan
 fil;Canachile;Camachiles
 fil;Cuayan;Couayan
+fil;Gayamcam;Cayamcam
+fil;Tigiplay;Tigpalay
 fil;Lobok;Loboc
 fil;Dacong Cog;Dacong Cogon
 fil;Kagawasan;Kauswagan
 fil;Luyos;Luyus
+fil;Kapitan Ramon;Capitan Ramon
 fil;Polacion Centro;Poblacion Central
 fil;Old Escalante;Escalante
 fil;Kabalugaan;Cabalugaan
@@ -4341,6 +4415,7 @@ fil;Calocan;Wawaylan Calocan
 fil;Kalookan;Wawaylan Calocan
 fil;Campo IV;Campo Cuatro
 fil;Campo Kwatro;Campo Cuatro
+tl;Bayan ng Rizal;Jose Rizal
 ru;Коммонвеалт;Commonwealth
 en;Fairview;Golden Cronica Publishing
 ru;Багонг Силанган;Bagong Silangan
@@ -4381,6 +4456,7 @@ fil;Baritagan;Baratagan
 fil;Batangan;Baratagan
 fil;Tagong;Tagum
 fil;Rang-Ayan;Rangayan
+fil;Devera;De Vera
 fil;Maganiao;Macaniao
 fil;Ling Lingay;Linglingay
 fil;Mangandingan;Mangandingay
@@ -4591,4 +4667,5 @@ fil;Dao;Santa Maria
 fil;Suha;San Pablo
 fil;Canclaran;Cangclaran
 fil;Bagasbas;Dapdap
+fil;Tamdagar;Tamdagan
 fil;San Julian;San Juan

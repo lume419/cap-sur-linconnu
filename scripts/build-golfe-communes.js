@@ -19,6 +19,13 @@ const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5'
 // générale — même méthode que pour la Turquie, la Syrie et le Maghreb.
 const NAME_OVERRIDES_BY_COUNTRY = {};
 
+// Île de Dalma (Abou Dhabi) : GeoNames n'y recense aucun lieu habité de type PPL — la ville y est décrite par
+// trois quartiers (PPLX 12749362 « Shabiat Dalma », 12748416 « Shabiat Dalma Al Jadeedah », 12749423 « Shabiat
+// Dalma Al Jabel ») et par la division administrative de l'île (ADM3 12748078 « Dalma Island »). Ces quatre
+// entrées sont reprises telles quelles (septembre 2026) : sans elles, l'île n'avait aucun lieu, et « Dalma
+// Island » rend l'île trouvable en tapant « Dalma ». Même démarche que pour les îles Éparses et Heard.
+const EXTRA_GEONAME_IDS = { AE: new Set(['12749362', '12748416', '12749423', '12748078']) };
+
 // Noms des divisions, repris d'admin1CodesASCII.txt (GeoNames) sans réécriture.
 function readAdmin1Names(){
   const map = new Map();
@@ -36,7 +43,7 @@ for(const country of COUNTRIES){
   const overrides = NAME_OVERRIDES_BY_COUNTRY[country] || {};
   const raw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
   const places = raw.split('\n').filter(Boolean).map(l => l.split('\t'))
-    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
+    .filter(c => (c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7])) || (EXTRA_GEONAME_IDS[country] && EXTRA_GEONAME_IDS[country].has(c[0])))
     .map(c => ({
       name: overrides[c[1]] || c[1],
       lat: parseFloat(c[4]), lon: parseFloat(c[5]),

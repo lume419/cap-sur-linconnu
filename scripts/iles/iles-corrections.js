@@ -4,8 +4,30 @@
 // Djerba (TN) : chaussée d'El Kantara → continental (aucune règle). Ilha de Moçambique (MZ) : pont routier → continental (aucune règle).
 // Corrections faites directement dans le dépôt : scripts/iles/iles-insulinde.js (Bolok/Semau, Sadai, Liang), iles-sud.js (Ko Phaluai + liaison),
 // ferries-asie.js (notes). iles-philippines.js inchangé : aucun lieu de Coron/Busuanga/Culion dans communes-ph.txt.
+// Complément du 16 septembre 2026 (soir) : lieux ajoutés aux données — Kerkennah (TN, 16 lieux, exclusion du lot
+// Maghreb levée), Dalma (AE, 4 entrées GeoNames : 3 quartiers PPLX et l'île ADM3), Coron/Busuanga/Culion (PH,
+// 135 lieux jusqu'ici écartés par des points postaux mal placés) — et masses correspondantes ci-dessous
+// (TN, AE, et landmassRules pour PH, placées en tête des règles de iles-philippines.js).
 module.exports = {
+  "landmassRules": {
+    "PH": [
+      { "key": "cuyo", "match": { "cpPrefix": ["5318", "5319"] }, "note": "Île de Cuyo : municipalités de Cuyo et de Magsaysay, reliées par la route, sans pont vers Palawan. Lieux jusqu'ici écartés (points postaux mal placés), ajoutés en septembre 2026." },
+      { "key": "*", "match": { "cpPrefix": ["5307", "5320", "5321", "5322"] }, "note": "Municipalités insulaires de Palawan sans route vers l'île principale : Balabac (Balabac, Bugsuk), Agutaya, Cagayancillo, Kalayaan — chaque lieu isolé." },
+      { "key": "*", "match": { "near": [{ "name": "Cabugao (île de Coron)", "lat": 11.926, "lon": 120.254, "km": 2 }, { "name": "Bangwang Daan (île de Coron)", "lat": 11.954, "lon": 120.266, "km": 2 }] },
+        "note": "Île de Coron (Tagbanua) : sans route ni véhicule, chaque village isolé." },
+      { "key": "*", "match": { "box": [[11.68, 11.80, 120.13, 120.20]] }, "note": "Îlots du sud de la municipalité de Coron (Bulalacao, Calumbagan, Siniguelas…) : chaque lieu isolé." },
+      { "key": "*", "match": { "box": [[12.27, 12.34, 119.85, 119.96]] }, "note": "Île de Calauit et îlots voisins (Kawiren, Cadyes, Minit…) : chaque lieu isolé." },
+      { "key": "culion", "match": { "box": [[11.70, 11.985, 119.83, 120.135]] }, "note": "Île de Culion (code 5315) — limite nord approchée par la baie de Gutob ; aucun pont vers Busuanga." },
+      { "key": "busuanga", "match": { "box": [[11.985, 12.27, 119.80, 120.36]] }, "note": "Île de Busuanga : municipalités de Busuanga (5317) et de Coron (5316, dont la ville de Coron), reliées par la route." }
+    ]
+  },
   "landmass": {
+    "TN": { "default": "continental", "rules": [
+      { "key": "kerkennah", "match": { "box": [[34.55, 34.82, 10.95, 11.35]] }, "note": "Archipel des Kerkennah (Chergui et Gharbi reliées par la chaussée d'El Kantra) ; Djerba, reliée par la chaussée d'El Kantara, reste continentale." }
+    ] },
+    "AE": { "fallthrough": true, "rules": [
+      { "key": "dalma", "match": { "box": [[24.40, 24.56, 52.25, 52.37]] }, "note": "Île de Dalma (Abou Dhabi), sans pont." }
+    ] },
     "RU": {
       "fallthrough": true,
       "rules": [
@@ -990,6 +1012,32 @@ module.exports = {
     }
   },
   "ferries": [
+    {
+      "a": "continental", "b": "kerkennah", "routeKey": "sfaxSidiYoussef", "name": "Sfax ↔ Sidi Youssef (Kerkennah)",
+      "operator": "SONOTRAK (Société Nouvelle de Transport de Kerkennah)", "durationH": 1.2, "distanceKm": 21,
+      "priceByClass": { "1": 1.78, "2": 2.22, "5": 0.44, "foot": 0.3 },
+      "currency": "TND", "original": { "car": 6, "van": 7.5, "moto": 1.5, "foot": 1 },
+      "source": "https://www.sonotrak.com.tn (communiqué tarifaire du 4 juillet 2022, en vigueur le 6 juillet 2022, décision des ministres du Commerce et du Transport ; horaire du 1er septembre 2026)",
+      "date": "2026-09-16",
+      "note": "Aller simple TTC, conducteur non compris (billet passager 1 TND). Classe 2 = camionnette ou véhicule mixte 1-9 places (camping-car non listé). Moto = ligne « 125 cm³ » (1,5 TND ; moins de 125 cm³ : 1 TND). Grille scannée en arabe, lecture à confirmer. 10 départs par jour dans chaque sens ; 1 h à 1 h 20. Taux InforEuro septembre 2026 : 3,38015 TND/€."
+    },
+    {
+      "a": "continental", "b": "dalma", "routeKey": "alDhannaDalma", "name": "Jebel Al Dhanna ↔ Dalma",
+      "operator": "Abu Dhabi Maritime (AD Ports)", "durationH": 1, "distanceKm": 43,
+      "priceByClass": { "1": 23.36, "2": 23.36, "5": null, "foot": 4.67 },
+      "currency": "AED", "original": { "car": 100, "van": 100, "moto": null, "foot": 20 },
+      "source": "https://www.admaritime.ae (page Tariffs et FAQ du portail de réservation tickets.admaritime.ae)",
+      "date": "2026-09-16",
+      "note": "Aller simple : voiture ou 4x4 100 AED, camping-car 100 AED, adulte 20 AED (moins de 12 ans gratuit). Moto absente de la grille (tarif non communiqué). Conducteur vraisemblablement facturé à part (billets véhicule et passager distincts). 2 à 3 allers-retours par jour, réservation recommandée. Taux InforEuro septembre 2026 : 4,27995 AED/€."
+    },
+    {
+      "a": "luzon", "b": "busuanga", "routeKey": "manilaCoron", "name": "Manille ↔ Coron",
+      "operator": "2GO Travel (MV 2GO St. Francis Xavier)", "durationH": 13, "distanceKm": 300,
+      "priceStatus": "variable", "priceByClass": { "1": null, "2": null, "5": null, "foot": null },
+      "source": "https://travel.2go.com.ph (horaires) ; matrice MARINA des lignes desservies (mars 2026)",
+      "date": "2026-09-16",
+      "note": "Une rotation par semaine (départ de Manille le vendredi 17:30, arrivée le samedi 06:30 ; retour le dimanche 20:30). Véhicules transportés en fret roulant (capacité 40), dépôt environ 48 h avant le départ, prix sur devis ; billet passager à prix dynamique. Distance à vol d'oiseau."
+    },
     {
       "a": "continental",
       "b": "olkhon",

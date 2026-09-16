@@ -1268,6 +1268,18 @@
   "name": "Kasnäs ↔ Rosala/Hitis"
  },
  {
+  "routeKey": "sfaxSidiYoussef",
+  "name": "Sfax ↔ Sidi Youssef (Kerkennah)"
+ },
+ {
+  "routeKey": "alDhannaDalma",
+  "name": "Jebel Al Dhanna ↔ Dalma"
+ },
+ {
+  "routeKey": "manilaCoron",
+  "name": "Manille ↔ Coron"
+ },
+ {
   "routeKey": "sakhyurtaOlkhon",
   "name": "Sakhiurta (MRS) ↔ Olkhon"
  },

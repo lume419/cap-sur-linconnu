@@ -3155,6 +3155,39 @@ avec ~1,8 Go de mémoire au lieu de ~3 Go (le moteur ne charge plus les alias). 
 disponible en ~2 s, tirages en ~12 s. Le premier démarrage après chaque déploiement de nouvelles données reconstruit
 l'index (plusieurs minutes sur l'hébergement mutualisé).
 
+### Kerkennah, Dalma, Coron et Busuanga : lieux ajoutés (septembre 2026)
+
+Trois îles sans aucun lieu dans les données, pour trois raisons différentes :
+- **Kerkennah (Tunisie)** : exclues volontairement lors du lot Maghreb (le moteur ne savait pas encore séparer une île
+  du continent). Exclusion levée dans `scripts/build-maghreb-communes.js` : **16 lieux**. Au passage, la source tunisienne
+  donnant les mêmes coordonnées à tous les codes d'une délégation, chaque lieu recevait le premier code de la liste
+  (3045 pour tout l'archipel) : quand un code porte le nom de la localité du lieu, il est désormais choisi
+  (**91 codes corrigés** dans toute la Tunisie ; Mellita 3015, Ouled Kacem 3025, Kellabine 3070…). Les variantes
+  d'orthographe (« El Ataya » / « El Attaya ») gardent le code par défaut.
+- **Dalma (Abou Dhabi)** : GeoNames n'y décrit aucun lieu habité ordinaire, seulement trois quartiers (type PPLX, non
+  importé) et la division administrative de l'île. Ces **4 entrées** sont reprises telles quelles
+  (`scripts/build-golfe-communes.js`) ; « Dalma Island » rend l'île trouvable en tapant « Dalma ».
+- **Coron, Busuanga, Culion (Philippines)** : le fichier postal GeoNames place les trois codes (5315, 5316, 5317) à
+  ~150 km de leurs îles, si bien que tous leurs lieux étaient écartés par la règle « point postal à moins de 15 km ».
+  Quand aucun point n'est assez proche, le code est désormais pris par **municipalité** (nom de la division ADM3
+  GeoNames du lieu identique à une localité du fichier postal, même province) : **1 873 lieux philippins
+  récupérés**, dont 135 à Coron, Busuanga et Culion (`scripts/build-asie-communes.js`).
+
+**Îles** (`scripts/iles/iles-corrections.js`) : `kerkennah` (16 lieux), `dalma` (4), `busuanga` (79 : municipalités
+de Busuanga et de Coron, dont la ville de Coron), `culion` (42), `cuyo` (34, Cuyo et Magsaysay) ; île de Coron, Calauit,
+îlots du sud de Coron, Balabac, Agutaya, Cagayancillo et Kalayaan isolés lieu par lieu. Limites de Culion et
+Busuanga approchées par boîtes (baie de Gutob).
+
+**Liaisons** :
+- **Sfax ↔ Sidi Youssef** (SONOTRAK) — grille officielle (communiqué du 4 juillet 2022, décision des ministres du
+  Commerce et du Transport, toujours en vigueur) : voiture 6 TND (1,78 €), camionnette 7,5 TND, moto 1,5 TND, passager
+  1 TND ; 10 départs par jour, 1 h à 1 h 20.
+- **Jebel Al Dhanna ↔ Dalma** (Abu Dhabi Maritime) — grille officielle : voiture ou 4x4 100 AED (23,36 €), camping-car
+  100 AED, adulte 20 AED ; moto absente de la grille (tarif non communiqué) ; 2 à 3 allers-retours par jour.
+- **Manille ↔ Coron** (2GO) — une rotation par semaine, véhicules en fret roulant sur devis : tarif variable.
+- **Non modélisées** : Coron ↔ Culion (vedettes pour passagers seulement), Coron ↔ San Jose de Mindoro (transport de
+  voitures non prouvé), Atienza Interisland (tarif et transport de véhicules non établis).
+
 ## Photos réelles
 
 Un artefact Claude ne peut charger aucune image externe (CSP) ; sur ce serveur, cette limite n'existe

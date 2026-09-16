@@ -356,6 +356,10 @@
 0;56.1179,25.8177;AE-05;Ras Al Khaimah;Atmar
 0;56.1299,25.7413;AE-05;Ras Al Khaimah;Silay Al Khatami
 0;56.1171,25.7605;AE-05;Ras Al Khaimah;Mak Sikek
+0;52.3120,24.4900;AE-01;Abu Dhabi;Dalma Island
+0;52.3136,24.4561;AE-01;Abu Dhabi;Shabiat Dalma Al Jadeedah
+0;52.3138,24.4718;AE-01;Abu Dhabi;Shabiat Dalma
+0;52.3090,24.5057;AE-01;Abu Dhabi;Shabiat Dalma Al Jabel
 0;56.1011,25.6755;AE-05;Ras Al Khaimah;Tala
 0;56.0761,25.7590;AE-05;Ras Al Khaimah;Dirat Sabah
 0;56.1805,25.6252;AE-04;Fujairah;Sidfah

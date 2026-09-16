@@ -221,6 +221,11 @@ de;Ariana;Aryanah
 pt;Ariana;Aryanah
 ar;الرّدَيِّف;Ar Rudayyif
 en;Redeyef;Ar Rudayyif
+de;Remla;Er-Remla
+en;Remla;Er-Remla
+fr;Remla;Er-Remla
+nl;Remla;Er-Remla
+es;Remla;Er-Remla
 fr;Enfida;Enfidha
 ar;النفيضة;Enfidha
 ar;دار البي;Enfidha
@@ -249,6 +254,7 @@ ar;المهدية;Mahdia
 tr;Mehdiye;Mahdia
 ru;Махдия;Mahdia
 ar;اللوزة;Louza
+ar;الكلابين;Kellabine
 ru;Эль-Кеф;El Kef
 ar;الكاف;El Kef
 fr;Le Kef;El Kef
@@ -276,6 +282,7 @@ ar;كركوان;Kerkouane
 pt;Cidade Púnica de Kerkuane e sua Necrópole;Kerkouane
 ru;Керкуан;Kerkouane
 en;Kerkuane;Kerkouane
+en;Kerkennah;Qarqannah
 ru;Ел Моуроуй;El Mourouj
 ar;حمام بورقيبة;Hammam Bourguiba
 ar;الزراوة;At Wizru

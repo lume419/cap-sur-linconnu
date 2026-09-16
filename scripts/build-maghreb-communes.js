@@ -86,14 +86,19 @@ const MA_REGIONS = {
   '10': 'Guelmim-Oued Noun', '11': 'Laayoune-Sakia El Hamra', '12': 'Dakhla-Oued Ed-Dahab'
 };
 
-// Îles Kerkennah : archipel tunisien SANS aucune liaison routière avec le continent (contrairement à
-// Djerba, reliée par la chaussée romaine d'El Kantara, qui reste donc légitimement "continentale").
-// Aucune liaison ferry Sfax-Kerkennah n'est modélisée dans FERRY_ROUTES faute de tarif par véhicule
-// vérifié, et le moteur considère tout le pays comme une seule masse continentale : laisser ces
-// lieux dans le fichier aurait recréé le bug de la traversée maritime "par la route" corrigé pour
-// Ceuta/Melilla dans ce même lot. Exclus par boîte de coordonnées, comme Sercq l'est par nom pour
-// Guernesey. Aucun n'a de population renseignée dans le dump.
+// Îles Kerkennah : archipel tunisien SANS liaison routière avec le continent (contrairement à Djerba, reliée
+// par la chaussée romaine d'El Kantara). Exclues lors du lot Maghreb, le moteur ne sachant pas encore séparer
+// une île du continent ; RÉINTÉGRÉES en septembre 2026 depuis que les règles d'îles existent
+// (scripts/iles/iles-corrections.js, masse « kerkennah » et liaison Sfax ↔ Sidi Youssef). Même boîte de
+// coordonnées, désormais utilisée seulement pour compter ces lieux.
 function isKerkennah(lat, lon){ return lat >= 34.55 && lat <= 34.82 && lon >= 10.95 && lon <= 11.35; }
+
+// Clé de comparaison de noms de localités tunisiennes : minuscules, sans accents ni ponctuation, sans article
+// « el »/« ech »/« er » détaché, sans espaces (« Djouaber » et « Jouaber » restent distincts, faute de règle sûre).
+function locKey(s){
+  return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/\b(el|ech|er|es|ed|et)[- ]/g, '').replace(/[^a-z]/g, '');
+}
 
 // Normalisation de nom de division administrative, pour comparer les deux référentiels algériens.
 function normAdmin(s){
@@ -232,19 +237,28 @@ function write(country, lines, note){
   raw.forEach(g => (g.Delegations || []).forEach(d => {
     const lat = Number(d.Latitude), lon = Number(d.Longitude);
     if(isFinite(lat) && isFinite(lon) && /^\d{4}$/.test(String(d.PostalCode))){
-      pts.push({ cp: String(d.PostalCode), region: g.Name, lat: lat, lon: lon });
+      // Localité entre parenthèses dans le nom (« KERKENAH (Mellita) ») : sert à départager les codes d'une même
+      // délégation, qui partagent tous les coordonnées du chef-lieu dans cette source.
+      const loc = (String(d.Name).match(/\(([^)]*)\)/) || [])[1] || '';
+      pts.push({ cp: String(d.PostalCode), region: g.Name, lat: lat, lon: lon, loc: locKey(loc) });
     }
   }));
   const grid = buildGrid(pts);
-  let kerkennah = 0, sansCode = 0;
+  let kerkennah = 0, sansCode = 0, parLocalite = 0;
   const lines = list.map(p => {
-    if(isKerkennah(p.lat, p.lon)){ kerkennah++; return null; }
-    const near = nearest(grid, p.lat, p.lon, 15, null);
+    if(isKerkennah(p.lat, p.lon)) kerkennah++;
+    let near = nearest(grid, p.lat, p.lon, 15, null);
     if(!near){ sansCode++; return null; }
+    // Plusieurs codes au même point (même délégation) : si l'un porte le nom de la localité du lieu, on le prend
+    // plutôt que le premier de la liste (avant septembre 2026, tous les lieux d'une délégation recevaient le même
+    // code, ex. 3045 pour tout l'archipel des Kerkennah).
+    const sameSpot = pts.filter(q => q.lat === near.lat && q.lon === near.lon && q.region === near.region);
+    const byName = sameSpot.filter(q => q.loc && q.loc === locKey(p.name));
+    if(byName.length && byName[0].cp !== near.cp){ near = byName[0]; parLocalite++; }
     return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${near.cp};${near.region};${p.name}`;
   }).filter(Boolean);
   write('TN', lines, brut + ' bruts, ' + list.length + ' dédoublonnés, ' + kerkennah +
-    ' aux Kerkennah exclus, ' + sansCode + ' sans code à moins de 15 km');
+    ' aux Kerkennah (gardés), ' + parLocalite + ' codes choisis par nom de localité, ' + sansCode + ' sans code à moins de 15 km');
 }
 
 // ── SAHARA OCCIDENTAL ──────────────────────────────────────────────────────────────────────────

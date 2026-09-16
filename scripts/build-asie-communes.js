@@ -56,13 +56,14 @@ fs.readFileSync(path.join(__dirname, 'admin1CodesASCII.txt'), 'utf8').split('\n'
 let total = 0;
 for(const country of COUNTRIES){
   const seen = new Map(); let brut = 0;
-  fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8').split('\n').forEach(line => {
+  const raw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
+  raw.split('\n').forEach(line => {
     const c = line.split('\t');
     if(c[6] !== 'P' || !KEEP_FEATURE_CODES.has(c[7]) || !c[1]) return;
     const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
     if(isNaN(lat) || isNaN(lon)) return;
     brut++;
-    const p = { name: c[1], lat, lon, admin1: c[10] || '', pop: parseInt(c[14], 10) || 0 };
+    const p = { name: c[1], lat, lon, admin1: c[10] || '', admin2: c[11] || '', admin3: c[12] || '', pop: parseInt(c[14], 10) || 0 };
     // Dédoublonnage identique au pipeline standard : même nom + coordonnées à ~1 km près.
     const k = p.name.toLowerCase() + '|' + lat.toFixed(2) + '|' + lon.toFixed(2);
     const prev = seen.get(k);
@@ -70,16 +71,37 @@ for(const country of COUNTRIES){
   });
 
   let grid = null;
+  // Philippines (septembre 2026) : certains points du fichier postal GeoNames sont mal placés — Culion (5315),
+  // Coron (5316) et Busuanga (5317) sont tous trois à 10,847 N ; 119,7818 E, à ~150 km de leurs îles, si bien
+  // qu'aucun lieu de ces municipalités n'avait de point postal à moins de 15 km et tous étaient écartés. Quand
+  // aucun point n'est assez proche, le code est pris par MUNICIPALITÉ : nom de la division ADM3 GeoNames du lieu
+  // (même province) identique au nom de localité d'une et une seule ligne du fichier postal.
+  let postalByMunicipality = null, admin3Names = null;
+  function normMuni(s){ return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/^(city|municipality) of /, '').replace(/ city$/, '').replace(/[^a-z0-9]/g, ''); }
   if(POSTAL.has(country)){
     grid = new Map();
+    if(country === 'PH') postalByMunicipality = new Map();
     fs.readFileSync(path.join(__dirname, 'postal', country + '_postal.txt'), 'utf8').split('\n').filter(Boolean).forEach(l => {
       const c = l.split('\t'); const lat = parseFloat(c[9]), lon = parseFloat(c[10]);
+      if(postalByMunicipality){
+        const key = c[4] + '|' + c[6] + '|' + normMuni(c[2]);
+        const prev = postalByMunicipality.get(key);
+        postalByMunicipality.set(key, prev === undefined ? c[1] : (prev === c[1] ? prev : null)); // null = ambigu
+      }
       if(isNaN(lat) || isNaN(lon)) return;
       const k = Math.round(lat*10) + '_' + Math.round(lon*10);
       if(!grid.has(k)) grid.set(k, []);
       grid.get(k).push({ postcode: c[1], lat, lon });
     });
+    if(postalByMunicipality){
+      admin3Names = new Map();
+      raw.split('\n').forEach(line => {
+        const c = line.split('\t');
+        if(c[7] === 'ADM3') admin3Names.set(c[10] + '|' + c[11] + '|' + c[12], c[1]);
+      });
+    }
   }
+  let parMunicipalite = 0;
 
   let sansCode = 0, sansRegion = 0;
   const lines = [];
@@ -88,8 +110,12 @@ for(const country of COUNTRIES){
     let cp;
     if(grid){
       const near = nearest(grid, p.lat, p.lon, 15);
-      if(!near){ sansCode++; continue; }
-      cp = near.postcode;
+      if(near) cp = near.postcode;
+      else if(admin3Names && p.admin3 && admin3Names.has(p.admin1 + '|' + p.admin2 + '|' + p.admin3)
+        && postalByMunicipality.get(p.admin1 + '|' + p.admin2 + '|' + normMuni(admin3Names.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3)))){
+        cp = postalByMunicipality.get(p.admin1 + '|' + p.admin2 + '|' + normMuni(admin3Names.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3)));
+        parMunicipalite++;
+      } else { sansCode++; continue; }
     } else if(SINGLE_CODE[country]){
       cp = SINGLE_CODE[country];
     } else {
@@ -101,6 +127,6 @@ for(const country of COUNTRIES){
   fs.writeFileSync(path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt'), lines.join('\n') + '\n', 'utf8');
   total += lines.length;
   console.log(country + ' : ' + brut + ' bruts -> ' + seen.size + ' dédoublonnés -> ' + lines.length + ' retenus' +
-    (grid ? ' (' + sansCode + ' écartés sans point postal à moins de 15 km)' : sansRegion ? ' (dont ' + sansRegion + ' sans région)' : ''));
+    (grid ? ' (' + sansCode + ' écartés sans point postal à moins de 15 km' + (parMunicipalite ? ', ' + parMunicipalite + ' rattachés par municipalité' : '') + ')' : sansRegion ? ' (dont ' + sansRegion + ' sans région)' : ''));
 }
 console.log('TOTAL : ' + total);
