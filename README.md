@@ -3051,6 +3051,21 @@ yi (la préfecture de Liangshan n'a pas de drapeau). **Police** : le syllabaire 
 Restent sans tentative : les autres langues du Mexique dotées d'une norme INALI, les autres langues mayas du Guatemala, les
 langues du Venezuela et les langues amazoniennes du Pérou (ressources trop rares pour une interface même approximative).
 
+### Dates dans la langue choisie et liste des langues triée (septembre 2026)
+
+**Dates** : l'horloge et les dates des étapes passaient par une table de 15 langues ; les 146 autres affichaient leurs dates
+en français. `I18N.localeTag()` (i18n.js) construit désormais l'étiquette depuis le code de langue et la région de son drapeau
+(`kl` + Groenland → `kl-GL`) et vérifie que le navigateur possède ces données (`Intl.DateTimeFormat.supportedLocalesOf`).
+Sinon, repli sur la **langue de contact officielle du territoire** (`LOCALE_FALLBACK` : espagnol du Guatemala pour le k'iche',
+danois du Groenland pour le groenlandais, russe pour les langues des républiques de Russie, allemand pour le bas-allemand…) ;
+le français n'est plus qu'un dernier recours. Les navigateurs n'embarquent pas tous les mêmes données (une vue web intégrée n'a
+ni le basque ni l'islandais, que Chrome et Firefox ont) : les langues nationales ont donc aussi une langue de repli. L'horloge
+est aussi recalculée à chaque changement de langue (elle revenait à « — à remplir — » jusqu'au rechargement).
+
+**Liste des langues** : triée par ordre alphabétique des noms affichés (collation Unicode multilingue, sans tenir compte de la
+casse, des accents ni de la ponctuation ; ʻokina et apostrophes ignorés, « ʻŌlelo Hawaiʻi » se range à O), les écritures non
+latines après l'alphabet latin, et **la langue active toujours en tête**, y compris dans une recherche.
+
 ## Démarrer en local
 
 ```bash

@@ -149195,11 +149195,24 @@
     renderLangList('');
     setTimeout(function(){ searchInput.focus(); }, 0);
   }
+  var langCollator;
+  try { langCollator = new Intl.Collator('und', { sensitivity: 'base', ignorePunctuation: true }); }
+  catch(e){ langCollator = { compare: function(a, b){ return a < b ? -1 : a > b ? 1 : 0; } }; }
+  // ʻokina et apostrophes retirés avant comparaison : ce sont des LETTRES pour Unicode (U+02BB, U+02BC), que la
+  // collation range hors de l'alphabet (« ʻŌlelo Hawaiʻi » tombait entre H et I).
+  function sortName(code){ return LANG_NAMES[code].replace(/[ʻʼ‘’']/g, ''); }
   function renderLangList(query){
     var q = query.trim().toLowerCase();
     listEl.innerHTML = '';
     var matches = SUPPORTED.filter(function(code){
       return !q || code.indexOf(q) === 0 || LANG_NAMES[code].toLowerCase().indexOf(q) !== -1;
+    });
+    // Ordre alphabétique des noms affichés (collation Unicode multilingue, sans tenir compte de la casse, des
+    // accents ni de la ponctuation : « ʻŌlelo Hawaiʻi » se range à O, « K'iche' » à K), la langue active en tête.
+    matches.sort(function(a, b){
+      if(a === lang) return -1;
+      if(b === lang) return 1;
+      return langCollator.compare(sortName(a), sortName(b));
     });
     if(matches.length === 0){
       var empty = document.createElement('li');
@@ -149291,9 +149304,57 @@
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
 
+  // ── Locale des dates et nombres (Intl) ──────────────────────────────────────────────────────
+  // Étiquette = code de langue + région du drapeau (LANG_FLAGS : 'gl' -> kl-GL, 'es-ct' -> ca-ES,
+  // 'tw' -> zh-Hant-TW). Le navigateur n'a pas de données de dates pour toutes les langues (Chrome et
+  // Safari embarquent un sous-ensemble de CLDR) : si la langue n'est pas prise en charge, on prend la
+  // LANGUE DE CONTACT officielle du territoire (LOCALE_FALLBACK : espagnol du Guatemala pour le k'iche',
+  // danois du Groenland pour le groenlandais, russe pour les langues des républiques de Russie…),
+  // jamais le français par défaut ; le français ne reste qu'en tout dernier recours.
+  var LOCALE_FLAG_REGION = { occitania: 'FR', amazigh: 'MA' };
+  // Langues nationales aussi : les navigateurs à données réduites (vues web intégrées, certains Android) n'ont
+  // parfois ni le basque, ni l'islandais, ni le géorgien… — repli sur la langue de contact la plus répandue du pays
+  // (russe dans l'ex-URSS, anglais ailleurs à défaut de seconde langue officielle).
+  var LOCALE_FALLBACK = {
+    lb: 'de-LU', rm: 'de-CH', mt: 'en-MT', eu: 'es-ES', gl: 'es-ES', ga: 'en-IE', gv: 'en-IM', cy: 'en-GB', gd: 'en-GB',
+    sq: 'en-AL', mk: 'en-MK', is: 'en-IS', fo: 'da-FO', be: 'ru-BY', ka: 'en-GE', hy: 'ru-AM', so: 'ar-SO', ky: 'ru-KG',
+    mn: 'ru-MN', ne: 'en-NP', si: 'en-LK', my: 'en-MM', lo: 'en-LA', km: 'en-KH',
+    nds: 'de-DE', hsb: 'de-DE', frr: 'de-DE', sc: 'it-IT', fur: 'it-IT', lld: 'it-IT', lij: 'fr-MC',
+    'nrf-je': 'en-JE', 'nrf-gg': 'en-GG', csb: 'pl-PL', rue: 'pl-PL', ruo: 'hr-HR', oc: 'fr-FR', br: 'fr-FR', co: 'fr-FR',
+    mwl: 'pt-PT', kw: 'en-GB', sco: 'en-GB', ltg: 'lv-LV', vro: 'et-EE', sgs: 'lt-LT', gag: 'ro-MD', crh: 'uk-UA',
+    ab: 'ru-RU', cnr: 'sr-Latn-ME', ku: 'ar-SY', tru: 'ar-SY', ady: 'ar-SY', zgh: 'ar-MA', kab: 'fr-DZ',
+    ha: 'fr-NE', om: 'am-ET', ti: 'am-ET', sg: 'fr-CF', crs: 'fr-SC', rw: 'fr-RW', mg: 'fr-MG',
+    nso: 'en-ZA', st: 'en-ZA', tn: 'en-ZA', ss: 'en-SZ', nr: 'en-ZA', ve: 'en-ZA', ts: 'en-ZA', sn: 'en-ZW', xh: 'en-ZA', zu: 'en-ZA', af: 'en-ZA',
+    tt: 'ru-RU', ba: 'ru-RU', sah: 'ru-RU', ce: 'ru-RU', myv: 'ru-RU', mdf: 'ru-RU', udm: 'ru-RU',
+    ckb: 'ar-IQ', kaa: 'uz-UZ', tg: 'ru-TJ', tk: 'ru-TM', hak: 'zh-Hant-TW', za: 'zh-CN', ii: 'zh-CN',
+    dz: 'en-BT', dv: 'en-MV', tet: 'pt-TL', jv: 'id-ID', mi: 'en-NZ', sm: 'en-WS', ty: 'fr-PF', mrq: 'fr-PF',
+    haw: 'en-US', ht: 'fr-HT', 'pap-AW': 'nl-AW', 'pap-CW': 'nl-CW', qu: 'es-PE', 'qu-EC': 'es-EC', gn: 'es-PY',
+    ch: 'en-GU', pau: 'en-PW', mh: 'en-MH', kl: 'da-GL', ay: 'es-BO', yua: 'es-MX', quc: 'es-GT', cak: 'es-GT', kek: 'es-GT'
+  };
+  var localeCache = {};
+  function localeSupported(tag){
+    try { return Intl.DateTimeFormat.supportedLocalesOf([tag], { localeMatcher: 'lookup' }).length > 0; }
+    catch(e){ return false; }
+  }
+  function localeTag(code){
+    code = code || lang;
+    if(localeCache[code]) return localeCache[code];
+    var flag = LANG_FLAGS[code] || '';
+    var region = LOCALE_FLAG_REGION[flag] || (/^[a-z]{2}(-|$)/.test(flag) ? flag.slice(0, 2).toUpperCase() : '');
+    var parts = code.split('-');
+    var own = parts[0] + (parts[1] && parts[1].length === 4 ? '-' + parts[1] : '') +
+      (parts[1] && parts[1].length === 2 ? '-' + parts[1].toUpperCase() : (region ? '-' + region : ''));
+    var candidates = [own, LOCALE_FALLBACK[code], 'fr-FR'];
+    for(var i = 0; i < candidates.length; i++){
+      if(candidates[i] && localeSupported(candidates[i])) return (localeCache[code] = candidates[i]);
+    }
+    return (localeCache[code] = 'fr-FR');
+  }
+
   window.I18N = {
     SUPPORTED: SUPPORTED,
     LANG_NAMES: LANG_NAMES,
+    localeTag: localeTag,
     current: function(){ return lang; },
     set: setLang,
     t: t,

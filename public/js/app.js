@@ -449,13 +449,10 @@
   };
   function icon(name){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';}
 
-  // Code court -> étiquette de locale complète, pour Intl/toLocaleDateString (horloge, dates
-  // formatées, nombre d'habitants...) — une seule variante par langue suffit ici, pas besoin de
-  // distinguer ex. pt-PT/pt-BR pour ce site.
-  // it : it-IT depuis l'ajout de l'Italie elle-même (plutôt que it-CH, utilisé quand l'italien
-  // n'était encore que la 3e langue de la Suisse) — l'Italie est sa patrie la plus naturelle.
-  var LOCALE_TAG = { fr:'fr-FR', en:'en-GB', es:'es-ES', pt:'pt-PT', nl:'nl-NL', de:'de-DE', lb:'lb-LU', it:'it-IT', rm:'rm-CH', nds:'nds-DE', hsb:'hsb-DE', frr:'frr-DE', sc:'sc-IT', fur:'fur-IT', lld:'lld-IT' };
-  function localeTag(){ return LOCALE_TAG[VISITOR_LANG] || 'fr-FR'; }
+  // Étiquette de locale pour Intl/toLocaleDateString (horloge, dates formatées, nombre d'habitants...) :
+  // calculée par i18n.js pour la langue d'interface (voir I18N.localeTag). Avant septembre 2026, une table
+  // de 15 langues seulement ici — les 146 autres affichaient leurs dates en français.
+  function localeTag(){ return window.I18N.localeTag(VISITOR_LANG); }
   // Suffixe de clé i18n depuis une clé TRANSPORT à tirets ("voiture-thermique" -> "voitureThermique") —
   // évite de dupliquer les six libellés dans une structure séparée juste pour la casse.
   function camelFromDash(key){
@@ -2700,6 +2697,9 @@
 
   window.addEventListener('i18n:langchange', function(){
     VISITOR_LANG = window.I18N.current();
+    // L'horloge porte data-i18n (texte d'attente) : la retraduction statique la remettait à « — à remplir — »
+    // jusqu'au rechargement ; on la recalcule dans la nouvelle langue.
+    tickClock();
     applyHeroLede();
     els.city.placeholder = placeholderText();
     updateDatesHint();
