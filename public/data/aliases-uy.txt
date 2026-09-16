@@ -1,0 +1,365 @@
+ru;Сапикан;Zapicán
+ru;Янг;Young
+zh;楊格;Young
+hi;यंग;Young
+ko;영;Young
+ar;يونغ;Young
+ja;ヨウング;Young
+ru;Вичадеро;Vichadero
+zh;維查德羅;Vichadero
+ja;ビチャデロ;Vichadero
+ru;Веласкес;Velázquez
+ru;25 мая;25 de Mayo
+en;Veinticinco de Mayo;25 de Mayo
+it;Isla Mala;25 de Mayo
+fr;Veinticinco de Mayo;25 de Mayo
+nl;Veinticinco de Mayo;25 de Mayo
+ru;25 августа;25 de Agosto
+en;Veinticinco de Agosto;25 de Agosto
+fr;Veinticinco de Agosto;25 de Agosto
+es;Veinticinco de Agosto;25 de Agosto
+ja;ヴェインティシンコ・デ・アゴスト（8月25日）;25 de Agosto
+nl;Veinticinco de Agosto;25 de Agosto
+ru;Колония-Вальденсе;Colonia Valdense
+zh;巴爾登塞移民鎮;Colonia Valdense
+ru;Тупамбе;Tupambaé
+zh;圖潘巴埃;Tupambaé
+ja;トリニダ;Trinidad
+ru;Тринидад;Trinidad
+zh;特立尼達;Trinidad
+ko;트리니다드;Trinidad
+ar;ترينيداد;Trinidad
+fr;Trinité;Trinidad
+hi;ट्रिनिडाड;Trinidad
+pt;Trindade;Trinidad
+ja;トレインタ・イ・トレス;Treinta y Tres
+ko;트레인타이트레스;Treinta y Tres
+ru;Трейнта-и-Трес;Treinta y Tres
+zh;三十三人城;Treinta y Tres
+ar;ترينتا إي تريس;Treinta y Tres
+hi;ट्रेंटा वाई ट्रेस;Treinta y Tres
+ru;Томас-Гоменсоро;Tomás Gomensoro
+zh;托馬斯戈門索羅;Tomás Gomensoro
+ru;Толедо;Toledo
+ru;Тарарирас;Tarariras
+ko;타라리라스;Tarariras
+zh;塔拉里拉斯;Tarariras
+ja;タラリラス;Tarariras
+ru;Тамборес;Tambores
+ru;Тала;Tala
+zh;塔拉;Tala
+ar;تالا;Tala
+ru;Такуарембо;Tacuarembó
+gn;Tacuarembo;Tacuarembó
+ja;タクアレンボー;Tacuarembó
+ko;타콰렘보;Tacuarembó
+zh;塔夸伦博;Tacuarembó
+ar;تاكواريمبو;Tacuarembó
+hi;तकुआरेम्बो;Tacuarembó
+ru;Сорьяно;Villa Soriano
+ja;ヴィジャ・ソリアーノ;Villa Soriano
+ru;Саусе;Sauce
+zh;紹塞;Sauce
+ja;サウセ;Sauce
+ru;Саранди-Гранде;Sarandí Grande
+zh;大薩蘭迪;Sarandí Grande
+zh-Hans;大萨兰迪;Sarandí Grande
+ru;Санта-Роса;Santa Rosa
+zh;聖羅薩;Santa Rosa
+hi;सैंटा लुसीया;Santa Lucía
+ru;Санта-Лусия;Santa Lucía
+pt;Santa Lucia;Santa Lucía
+zh-Hans;圣卢西亚;Santa Lucía
+ko;산타루시아;Santa Lucía
+zh;聖盧西亞;Santa Lucía
+ar;سانت لوسيا;Santa Lucía
+ja;サンタ・ルシア;Santa Lucía
+ru;Санта-Каталина;Santa Catalina
+ja;サンタ・カタリーナ;Santa Catalina
+ru;Санта-Бернардина;Santa Bernardina
+ru;Сан-Луис-аль-Медио;San Luis al Medio
+ru;Сан-Хосе-де-Майо;San José de Mayo
+zh;聖何塞德馬約;San José de Mayo
+ko;산호세데마요;San José de Mayo
+en;San Jose de Mayo;San José de Mayo
+ar;سان خوسيه دي مايو;San José de Mayo
+hi;सैन जोस डी मायो;San José de Mayo
+ja;サン・ホセ・デ・マヨ;San José de Mayo
+ru;Сан Хавьер;San Javier
+ru;Сан-Феликс;San Félix
+ko;산카를로스;San Carlos
+ru;Сан-Карлос;San Carlos
+zh;聖卡洛斯;San Carlos
+hi;सैन कार्लोस;San Carlos
+ar;سان كارلوس، أوروغواي;San Carlos
+ja;サン・カルロス;San Carlos
+zh;聖包蒂斯塔;San Bautista
+zh;聖安東尼奧;San Antonio
+ru;Сальто;Salto
+ja;サルト;Salto
+ko;살토;Salto
+ar;سالتو، أوروغواي;Salto
+zh;萨尔托;Salto
+hi;साल्टो;Salto
+ru;Салинас;Salinas
+ru;Росарио;Rosario
+zh;羅薩里奧;Rosario
+hi;रोजारियो;Rosario
+zh-Hans;罗萨里奥;Rosario
+ko;로사리오;Rosario
+ar;روساريو;Rosario
+ja;ロサリオ;Rosario
+ru;Роча;Rocha
+ja;ロチャ;Rocha
+zh;羅恰;Rocha
+ko;로차;Rocha
+ar;روتشا;Rocha
+hi;रोचा;Rocha
+ru;Ривера;Rivera
+ar;ريفيرا;Rivera
+ja;リベラ;Rivera
+zh;里韦拉;Rivera
+ko;리베라;Rivera
+hi;रिवेरा;Rivera
+ja;リッソ;Risso
+ko;리오브랑코;Río Branco
+ru;Рио-Бранко;Río Branco
+zh;里奧布蘭科;Río Branco
+ru;Райгон;Raigón
+ru;Рафаэль-Перасса;Rafael Perazza
+ru;Кебрачо;Quebracho
+zh;克布拉喬;Quebracho
+ru;Пунта дель Эсте;Punta del Este
+ja;プンタ・デル・エステ;Punta del Este
+ru;Пунта-дель-Эсте;Punta del Este
+zh;埃斯特角城;Punta del Este
+ko;푼타델에스테;Punta del Este
+ar;بونتا دل إيستي;Punta del Este
+zh;蓬塔卡雷塔斯;Punta Carretas
+hi;प्रोग्रेसो;Progreso
+ru;Прогресо;Progreso
+ko;프로그레소;Progreso
+zh;普羅格雷索;Progreso
+ar;بروغريسو;Progreso
+ja;プログレッソ;Progreso
+ru;Порвенир;Porvenir
+zh;波韋尼爾;Porvenir
+ru;Пириаполис;Piriápolis
+zh;皮里亞波利斯;Piriápolis
+zh-Hans;皮里亚波利斯;Piriápolis
+ja;ピリアポリス;Piriápolis
+ru;Пирараха;Pirarajá
+ru;Пайсанду;Paysandú
+ja;パイサンドゥー;Paysandú
+ko;파이산두;Paysandú
+zh;派桑杜;Paysandú
+ar;بايساندو;Paysandú
+hi;पायसांडु;Paysandú
+ru;Пасо-де-лос-Торос;Paso de los Toros
+zh;帕索德洛斯托羅斯;Paso de los Toros
+hi;पासो दे लॉस टोरोस;Paso de los Toros
+ko;파소데로스토로스;Paso de los Toros
+ar;باسو دي لوس توروس;Paso de los Toros
+ja;パソ・デ・ロス・トロス;Paso de los Toros
+ru;Пасо-дель-Серро;Paso del Cerro
+ru;Пандо;Pando
+hi;पांडो;Pando
+zh;潘多;Pando
+ar;باندو، أوروغواي;Pando
+ja;パンド;Pando
+ko;판도;Pando
+ru;Пальмитас;Palmitas
+ru;Оргоросо;Orgoroso
+ru;Омбес-де-Лавалье;Ombúes de Lavalle
+zh;翁布埃斯-德拉瓦耶;Ombúes de Lavalle
+ru;Нуэво-Берлин;Nuevo Berlín
+fr;Novo Berlim;Nuevo Berlín
+zh;新柏林;Nuevo Berlín
+ja;ヌエボ・ベルリン;Nuevo Berlín
+ru;Нуэва-Пальмира;Nueva Palmira
+zh;新帕爾米拉;Nueva Palmira
+ru;Нуэва-Эльвесия;Nueva Helvecia
+zh;新埃爾韋西亞;Nueva Helvecia
+ru;Нико-Перес;Nico Pérez
+ar;مونتفيدو;Montevideo
+ja;モンテビデオ;Montevideo
+ko;몬테비데오;Montevideo
+pt;Montevidéu;Montevideo
+ru;Монтевидео;Montevideo
+zh;蒙特維多;Montevideo
+zh;蒙得维的亚;Montevideo
+ay;Muntividëw;Montevideo
+hi;मोण्टेवीडियो;Montevideo
+pap;Montevidéu;Montevideo
+zh;蒙特斯;Montes
+ja;モンテス;Montes
+ru;Монтес;Montes
+ru;Минас-де-Корралес;Minas de Corrales
+zh;米納斯德科拉萊斯;Minas de Corrales
+ru;Минас;Minas
+ja;ミナス;Minas
+ko;미나스;Minas
+zh;米納斯;Minas
+ar;مينا;Minas
+hi;मिनास;Minas
+ru;Мигес;Migues
+zh;米格斯;Migues
+ru;Мигелете;Miguelete
+ru;Меринос;Merinos
+ja;メルセデス;Mercedes
+ru;Мерседес;Mercedes
+zh;梅塞德斯;Mercedes
+ko;메르세데스;Mercedes
+ar;مرسيدس;Mercedes
+hi;मर्सिडीज;Mercedes
+zh;梅洛;Melo
+ru;Мел;Melo
+ko;멜로;Melo
+ru;Мело;Melo
+ja;メロ;Melo
+ar;ميلو;Melo
+hi;मेलो;Melo
+ru;Мальдонадо;Maldonado
+ko;말도나도;Maldonado
+ja;マルドナド;Maldonado
+zh;馬爾多納多;Maldonado
+ar;مالدونادو;Maldonado
+hi;मालडोनाडो;Maldonado
+de;Cerros de San Juan;Los Cerros de San Juan
+fr;Cerros de San Juan;Los Cerros de San Juan
+ru;Лоренсо-Гейрес;Lorenzo Geyres
+pt;Constancia;Lorenzo Geyres
+hi;लिबर्टाड;Libertad
+ru;Либертад;Libertad
+ko;리베르타드;Libertad
+zh;利伯塔德;Libertad
+ar;ليبرتاد;Libertad
+ja;リベルタ;Libertad
+ru;Лас-Пьедрас;Las Piedras
+ja;ラス・ピエドラス;Las Piedras
+ko;라스피에드라스;Las Piedras
+zh;拉斯彼德拉斯;Las Piedras
+es;La Puente;Lapuente
+hi;ला पाज़;La Paz
+zh;拉巴斯;La Paz
+ar;لا باز;La Paz
+ja;ラ・パス;La Paz
+ru;Ла-Пас;La Paz
+ko;라파스;La Paz
+ru;Ла-Палома;La Paloma
+zh;拉帕洛馬;La Paloma
+ja;ラ・パロマ;La Paloma
+ru;Ла-Флореста;La Floresta
+zh;拉弗洛雷斯塔;La Floresta
+ja;ラ・フロレスタ;La Floresta
+ru;Ла-Коронилья;La Coronilla
+ru;Хосе-Энрике-Родо;José Enrique Rodó
+ru;Хенераль-Энрике-Мартинес;General Enrique Martínez
+ru;Фрай-Маркос;Fray Marcos
+es;Villa de Fray Bentos;Fray Bentos
+es;Villa Fray Bentos;Fray Bentos
+ru;Фрай-Бентос;Fray Bentos
+ko;프라이벤토스;Fray Bentos
+zh;弗賴本托斯;Fray Bentos
+ar;فراي بنتوس;Fray Bentos
+hi;फ्रे बेंटोस;Fray Bentos
+ja;フレイ・ベントス;Fray Bentos
+ru;Флорида;Florida
+ar;فلوريدا;Florida
+fr;Floride;Florida
+hi;फ्लोरिडा;Florida
+ja;フロリダ;Florida
+pt;Flórida;Florida
+ru;Эль-Семильеро;El Semillero
+de;El Eucaliptus;El Eucalipto
+ru;Эль-Эукалипто;El Eucalipto
+en;El Eucaliptus;El Eucalipto
+fr;El Eucaliptus;El Eucalipto
+nl;El Eucaliptus;El Eucalipto
+ru;Эсильда-Паульер;Ecilda Paullier
+ja;ドゥラスノ;Durazno
+ko;두라스노;Durazno
+ru;Дурасно;Durazno
+zh;杜拉斯諾;Durazno
+ar;دورازنو;Durazno
+hi;दुराज्नो;Durazno
+ru;Долорес;Dolores
+zh;多洛雷斯;Dolores
+hi;डोलोरस;Dolores
+ko;도로레스;Dolores
+ar;دولوريس، أوروغواي;Dolores
+ja;ドローレス;Dolores
+de;18 de Julio;Dieciocho de Julio
+ru;18 июля;Dieciocho de Julio
+es;18 de Julio;Dieciocho de Julio
+zh;库奇亚阿尔塔;Cuchilla Alta
+ru;Кончильяс;Conchillas
+ja;コンチリャス;Conchillas
+zh;孔奇亚斯;Conchillas
+pt;Colônia do Sacramento;Colonia del Sacramento
+ru;Колония дель Сакраменто;Colonia del Sacramento
+ko;콜로니아델사크라멘토;Colonia del Sacramento
+ja;コロニア・デル・サクラメント;Colonia del Sacramento
+ru;Колония-дель-Сакраменто;Colonia del Sacramento
+zh;科洛尼亞·德爾·沙加緬度;Colonia del Sacramento
+ar;كولونيا ديل ساكرامنتو;Colonia del Sacramento
+hi;कोलोनिया डेल सैक्रामेंटो;Colonia del Sacramento
+ru;Чуй;Chui
+ru;Чапикуй;Chapicuy
+en;Cerro Colorado;Alejandro Gallinal
+ru;Себольяти;Cebollatí
+ru;Касупа;Casupá
+zh;卡蘇帕;Casupá
+ru;Кармело;Carmelo
+zh;卡梅洛;Carmelo
+hi;कार्मेलो;Carmelo
+ko;카멜로;Carmelo
+ar;كارميلو، أوروغواي;Carmelo
+ja;カルメロ;Carmelo
+ru;Канелонес;Canelones
+ar;كانيلونس;Canelones
+hi;कैनेलोनेस;Canelones
+ja;カネロネス;Canelones
+ru;Белья-Уньон;Bella Unión
+zh;貝亞烏尼翁;Bella Unión
+ru;Бальтасар-Брум;Baltasar Brum
+zh;巴爾塔薩爾布魯姆;Baltasar Brum
+ar;بالتاسار بروم، أرتيجاس;Baltasar Brum
+ru;Атлантида;Atlántida
+zh;阿特蘭蒂達;Atlántida
+ru;Артигас;Artigas
+ja;アルティガス;Artigas
+ko;아르티가스;Artigas
+zh;阿蒂加斯;Artigas
+ar;أرتيجاس;Artigas
+hi;आर्टिगास;Artigas
+ru;Ансина;Ansina
+es;Villa Ansina;Ansina
+ru;Альгорта;Algorta
+ru;Агуас-Корриентес;Aguas Corrientes
+zh;阿瓜斯科連特斯;Aguas Corrientes
+ru;Ачар;Achar
+pt;Cidade Velha;Ciudad Vieja
+es;Abayubá;Abayuba
+ru;Пунта-дель-Дьябло;Punta del Diablo
+ja;シウダ・デ・ラ・コスタ;Ciudad de la Costa
+ko;시우다드데라코스타;Ciudad de la Costa
+ru;Сьюдад-де-ла-Коста;Ciudad de la Costa
+zh;海岸城;Ciudad de la Costa
+hi;स्यूदाद डे ला कोस्टा;Ciudad de la Costa
+ar;سيوداد دي لا كوستا;Ciudad de la Costa
+ru;Серро-Эхидо;Cerro Ejido
+ru;Солимар;Solymar
+de;Parque Carrasco;City Park
+en;Parque Carrasco;City Park
+fr;Parque Carrasco;City Park
+es;Parque Carrasco;City Park
+nl;Parque Carrasco;City Park
+es;Campodónico;Portones de Hierro y Campodónico
+es;Calpica Itacumbú;Ingeniero Agrónomo Alfredo Mones Quintela
+es;Cainsa Itacumbú;Cainsa
+ru;Кайнса;Cainsa
+ru;Куарейм;Cuareim
+ru;Колония-Пальма;Colonia Palma
+es;Portezuelo;Sauce de Portezuelo
+ru;Пунта Бальена;Punta Ballena

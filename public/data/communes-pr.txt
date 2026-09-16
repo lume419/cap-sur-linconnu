@@ -1,0 +1,2457 @@
+0;-66.1793,18.4097;00952;Bayamón;Teresita
+0;-66.0032,18.3533;00976;Trujillo Alto;Rio Cristal
+0;-66.5938,18.0461;00716;Ponce;Glenview
+0;-66.1841,18.3561;00956;Bayamón;Pamorama
+0;-66.7202,18.4705;00612;Arecibo;Nola
+0;-66.5607,18.2075;00664;Jayuya;Coabey
+0;-66.7879,18.0189;00656;Yauco;Residencial Padre Nazario
+1688;-67.0649,18.4433;00690;Moca;Aceitunas
+0;-66.9835,18.2619;00670;Las Marías;Acevedo
+5080;-66.7221,18.1627;00601;Adjuntas;Adjuntas
+0;-67.1057,18.5022;00690;Aguadilla;Aguacate
+4040;-67.1882,18.3794;00602;Aguada;Aguada
+16073;-67.1541,18.4275;00603;Aguadilla;Aguadilla
+4576;-66.1029,18.2569;00703;Aguas Buenas;Aguas Buenas
+3499;-65.6535,18.2527;00735;Ceiba;Aguas Claras
+4922;-66.5346,18.0233;00715;Juana Díaz;Aguilita
+8947;-66.2660,18.1400;00705;Aibonito;Aibonito
+0;-65.7210,18.3652;00773;Aibonito;Alamar
+0;-66.0577,18.2025;00725;Caguas;Alatos de Fuente
+0;-66.8532,18.4772;00627;Camuy;Alcantavilla
+0;-65.6446,18.2975;00738;Fajardo;Aldea Cintrón
+0;-66.1974,18.3747;00956;Bayamón;Alegría
+0;-66.0843,17.9805;00714;Guayama;Algarrobo
+0;-66.0913,17.9739;00784;Guayama;Algarrobo
+0;-65.6516,18.3252;00738;Fajardo;Alhambra Jerusalem
+0;-66.8535,18.4516;00627;Camuy;Alianza
+0;-66.6032,18.4019;00688;Arecibo;Allende
+0;-66.8663,18.0547;00698;Yauco;Almácigo Bajo
+0;-66.1707,18.4369;00952;Barranquitas;Almira
+0;-66.8449,18.4822;00627;Camuy;Alta Monte
+0;-66.4774,18.4380;00674;Manatí;Altagracia
+0;-66.0938,18.3805;00965;San Juan;Altamesa
+0;-66.1041,18.3977;00934;San Juan;Altamira
+0;-65.9988,18.3511;00976;Trujillo Alto;Altavilla
+0;-66.5863,18.0122;00715;Ponce;Altavista
+0;-65.7196,18.1563;00741;Adjuntas;Alturas de Adjuntas
+0;-67.1988,18.3805;00602;Aguadilla;Alturas de Aguada
+0;-66.0165,18.3877;00978;San Juan;Alturas de Berwind
+0;-66.0685,18.3569;00978;Aguas Buenas;Alturas de Boriquen
+0;-66.1868,18.3569;00956;Naranjito;Alturas de Cana
+0;-66.4741,18.3502;00638;Ciales;Alturas de Ciales
+0;-66.3316,18.3433;00783;Corozal;Alturas de Cibuco
+0;-66.0446,18.3644;00978;Aguas Buenas;Alturas de Cupey
+0;-66.0235,18.3538;00976;Trujillo Alto;Alturas de Fairview
+0;-66.1532,18.3886;00956;Bayamón;Alturas de Flamboyan
+0;-66.5760,18.3566;00650;Florida;Alturas de Florida
+0;-66.0254,18.3655;00976;Aguas Buenas;Alturas de Inter-Americana
+0;-67.0557,18.0466;00667;San Germán;Alturas de Lajas Number 1
+0;-67.0560,18.0452;00667;San Germán;Alturas de Lajas Number 2
+0;-65.7304,18.0614;00741;Peñuelas;Alturas de Peneulas
+0;-66.7224,18.0636;00624;Peñuelas;Alturas de Penuelas
+0;-65.8496,18.1594;00791;Humacao;Alturas de San Benito
+0;-66.9707,18.0886;00637;Sabana Grande;Alturas de San Jose
+0;-65.9574,18.1800;00754;San Lorenzo;Alturas de San Lorenzo
+0;-66.1857,18.3616;00956;Bayamón;Alturas de San Sauci
+0;-66.1785,18.3647;00956;Naranjito;Alturas de San Sauci
+0;-66.0891,18.3708;00965;Aguas Buenas;Alturas de Santa Maria
+0;-66.0604,18.2152;00725;Caguas;Alturas de Villas del Rey
+0;-66.5574,18.3611;00650;Florida;Alturas de Yanes Primera Seccion
+0;-66.5535,18.3622;00650;Florida;Alturas de Yanes Segunda Seccion
+0;-66.9405,18.4766;00678;Quebradillas;Amador
+0;-66.1088,17.9766;00784;Guayama;Amalia Marin
+0;-66.6338,17.9839;00716;Ponce;Amalia Marin
+0;-66.1168,18.4350;00962;Guaynabo;Amelia
+0;-66.5054,18.0322;00795;Juana Díaz;Amuelas
+6136;-67.1396,18.2827;00610;Añasco;Añasco
+0;-66.7993,18.2849;00611;Utuado;Ángeles
+1450;-66.6349,18.4455;00688;Arecibo;Animas
+0;-65.9863,18.3458;00976;Gurabo;Antillana
+1764;-65.8085,18.1852;00744;Humacao;Antón Ruiz
+0;-65.9677,18.1930;00754;San Lorenzo;Aponte
+0;-65.8727,18.1686;00771;Las Piedras;April Garden
+0;-67.1188,18.2558;00610;Añasco;Aquilino
+0;-66.0435,18.2541;00725;Aguas Buenas;Arboteda
+0;-67.1485,18.1944;00680;Mayagüez;Archilla Cabrena
+87754;-66.7157,18.4724;00612;Arecibo;Arecibo
+0;-66.3154,17.9761;00751;Salinas;Arenal
+0;-67.1180,18.4783;00690;Aguadilla;Arenales
+0;-66.9082,18.0230;00653;Guánica;Arenas
+0;-65.8974,18.4483;00772;Loíza;Arenas
+7520;-66.0613,17.9658;00714;Arroyo;Arroyo
+0;-66.8632,18.0461;00698;Yauco;Arturo Lluberas
+0;-66.5282,18.0002;00715;Juana Díaz;Arús
+0;-66.2782,18.1300;00705;Aibonito;Asomante
+0;-66.5963,18.3794;00650;Arecibo;Asomante
+0;-66.4805,18.4344;00674;Manatí;Atenas
+0;-66.0379,18.4477;00901;Carolina;Atlantic View
+0;-66.9366,18.4733;00678;Quebradillas;Avila
+0;-66.9093,17.9675;00653;Guánica;Bahia
+0;-66.7657,18.0236;00656;Guayanilla;Bahia Guayanilla 2
+2365;-66.0404,18.2591;00725;Caguas;Bairoa
+0;-66.0485,18.2602;00725;Aguas Buenas;Bairoa Golden Gate
+3877;-66.6832,18.4266;00616;Arecibo;Bajadero
+1418;-65.7815,18.1577;00741;Humacao;Bajandas
+0;-67.1335,18.2027;00680;Mayagüez;Balboa
+0;-66.6274,18.0105;00716;Ponce;Baldorioty de Castro
+0;-66.0624,18.4113;00978;San Juan;Baldrich
+0;-66.6268,18.4258;00688;Arecibo;Ballajá
+0;-67.1380,18.0788;00623;Cabo Rojo;Ballajá
+0;-66.8827,17.9528;00653;Guánica;Balneario de Caña Gorda
+0;-66.3741,18.0377;00769;Coamo;Baños de Coamo
+2632;-66.4454,18.3513;00638;Morovis;Barahona
+0;-65.6621,18.3358;00738;Fajardo;Baralt
+0;-67.1396,18.2038;00680;Mayagüez;Barcelona
+22322;-66.5385,18.4505;00617;Barceloneta;Barceloneta
+0;-66.8432,18.0136;00698;Yauco;Barinas
+0;-66.7535,18.4636;00612;Arecibo;Barranca
+0;-66.3135,18.2236;00794;Barranquitas;Barrancas
+0;-66.1296,17.9480;00784;Guayama;Barrancas
+3021;-66.3063,18.1866;00794;Barranquitas;Barranquitas
+0;-66.8235,18.4863;00659;Hatillo;Barriada Aguilar
+0;-65.7382,18.2033;00718;Naguabo;Barriada Buenos Aires
+0;-66.9910,18.3402;00685;San Sebastián;Barriada Chinto Rodon
+0;-66.8227,18.4841;00659;Hatillo;Barriada Clan
+0;-65.3046,18.3088;00775;Culebra;Barriada Clark
+0;-66.6216,17.9830;00716;Ponce;Barriada El Caribe
+0;-66.6188,18.0327;00716;Ponce;Barriada Jaime L Drew
+0;-65.8632,18.1836;00771;Las Piedras;Barriada La Rivera
+0;-66.1068,17.9733;00784;Guayama;Barriada Marin
+0;-66.4063,17.9658;00757;Santa Isabel;Barriada Monserrate
+0;-66.1604,18.1130;00736;Cayey;Barriada Polvorin
+0;-66.7196,18.1591;00601;Adjuntas;Barriada Rodriguez
+0;-66.3568,18.0766;00769;Coamo;Barriada Sambrana
+0;-66.4877,18.4363;00674;Manatí;Barriada San Jose
+0;-66.3518,18.0847;00769;Coamo;Barriada San Luis
+0;-66.0032,18.3522;00976;Aguas Buenas;Barriada San Nicholas
+0;-66.3702,18.0758;00769;Coamo;Barriada Texas
+0;-67.0596,18.0433;00667;Lajas;Barriada Tomei
+0;-66.7180,18.1602;00601;Adjuntas;Barriada Vega
+0;-65.6540,18.3349;00738;Fajardo;Barriada Viera
+0;-65.9929,18.3958;00983;Carolina;Barrio Colo
+0;-67.2002,18.3744;00602;Aguada;Barrio Guayabo
+0;-66.9324,17.9616;00647;Guánica;Barrio Guaypao
+0;-66.8127,17.9930;00656;Guayanilla;Barrio Indios
+0;-65.6643,18.2655;00735;Ceiba;Barrio Limones
+0;-66.1932,18.2777;00719;Bayamón;Barrio Nuevo
+0;-66.5399,18.4500;00617;Barceloneta;Barrrio Catalana
+1260;-65.8385,18.3613;00745;Río Grande;Bartolo
+0;-66.0479,18.3902;00978;San Juan;Basilo Davila
+0;-66.1349,18.4469;00962;Cataño;Bay View
+203499;-66.1557,18.3986;00956;Bayamón;Bayamón
+1699;-66.1132,18.1777;00739;Cidra;Bayamon
+0;-66.1702,18.2366;00782;Comerío;Bayamoncito
+0;-66.7932,18.3691;00611;Hatillo;Bayaney
+0;-66.0960,18.1577;00739;Cayey;Beatriz
+0;-66.6093,18.0066;00716;Ponce;Bélgica
+0;-66.0668,18.3863;00978;San Juan;Belisa
+0;-66.7280,18.4625;00612;Arecibo;Bella Vista
+0;-66.1921,18.3538;00956;Bayamón;Bella Vista
+0;-66.1888,18.3491;00956;Bayamón;Bella Vista Height
+0;-66.0907,17.9800;00784;Guayama;Bello Horizonte
+0;-66.0043,18.3922;00976;San Juan;Bello Horizonte
+0;-67.1416,18.1872;00680;San Juan;Belmonte
+0;-65.6332,18.3408;00738;Fajardo;Beltrán
+0;-67.1855,18.0913;00623;Cabo Rojo;Belvedere
+1334;-65.8791,18.2736;00777;Canóvanas;Benitez
+0;-66.3441,18.2705;00720;Corozal;Berio
+0;-66.0140,18.3838;00976;San Juan;Berwind Estates
+0;-66.2024,17.9730;00704;Guayama;Besosa
+835;-67.1349,18.0286;00622;Cabo Rojo;Betances
+0;-66.0952,18.3330;00965;Guaynabo;Beverly Hills
+0;-66.6618,18.4086;00616;Arecibo;Biáfara
+0;-66.0152,18.4436;00978;San Juan;Biascoechea
+0;-66.4571,17.9955;00757;Juana Díaz;Bizarreta
+0;-65.8174,18.3752;00745;Río Grande;Blasina
+0;-66.5285,17.9844;00715;Juana Díaz;Boca Chica
+0;-66.4963,18.0311;00795;Juana Díaz;Aguas Saladas Blancas
+0;-66.0568,18.2230;00725;Caguas;Bonneville
+0;-66.0493,18.2247;00725;Caguas;Bonneville Heights
+2017;-67.1691,18.0269;00622;Cabo Rojo;Boquerón
+0;-66.5041,18.0638;00795;Juana Díaz;Boquerón
+1218;-65.8485,18.2075;00771;Las Piedras;Boqueron
+0;-65.6874,18.3511;00773;Luquillo;Boquerón
+0;-66.4882,18.4625;00674;Manatí;Boquillas
+0;-66.6129,18.0247;00716;Ponce;Borinquen
+0;-66.0729,18.3572;00978;Aguas Buenas;Boriquen Gardens
+0;-65.6924,18.3544;00773;Luquillo;Borrás
+0;-66.0046,18.3611;00976;Aguas Buenas;Bosque de Rio
+0;-65.9977,18.3561;00976;Gurabo;Bosque del Lago
+0;-66.3671,18.2413;00720;Orocovis;Botijas
+0;-66.3643,18.0752;00769;Coamo;Boulevarda Cambalache
+0;-66.4657,18.3469;00638;Ciales;Boulevarda Jaguas
+0;-66.3313,18.4088;00692;Vega Alta;Boulevarda Korea
+0;-66.9541,18.0719;00637;Sabana Grande;Boulevarda Machuchal
+0;-65.6535,18.3261;00738;Fajardo;Boulevarda Montanez
+0;-65.6607,18.3194;00738;Fajardo;Boulevarda Roosevelt
+0;-66.3299,18.4049;00692;Vega Alta;Boulevarda Vientan
+0;-66.7185,18.4705;00612;Arecibo;Boulevardo Buenos Aires
+0;-66.8782,18.2966;00669;Lares;Boulevardo Majadero
+0;-66.0115,18.2086;00725;Caguas;Boulevardo Tomas de Castro II
+0;-66.8524,18.4836;00627;Camuy;Boulvearda Pena
+0;-66.0888,17.9672;00714;Guayama;Branderi
+0;-66.3813,18.4449;00693;Vega Baja;Brasilia
+2104;-66.3410,18.4672;00693;Vega Alta;Brenas
+0;-66.2574,18.4569;00646;Dorado;Brisa del Plata
+0;-66.2532,18.1336;00705;Barranquitas;Brisas de Aibonito
+0;-65.6377,18.2675;00735;Ceiba;Brisas de Ceiba I
+0;-65.6385,18.2711;00735;Ceiba;Brisas de Cieba
+0;-67.1657,18.1844;00680;Mayagüez;Brisas de Mal
+0;-65.7229,18.3763;00773;Fajardo;Brisas del Mar
+0;-66.0427,18.2297;00725;Caguas;Brooklyn
+0;-66.5913,18.0052;00716;Ponce;Bucaná
+0;-66.2185,18.3961;00953;Toa Alta;Bucarabones
+0;-66.0871,18.3644;00965;San Juan;Bucaré
+0;-66.0452,18.3947;00978;San Juan;Buen Consejo
+0;-66.6863,18.4286;00616;Arecibo;Buena Vista
+2026;-66.0518,17.9963;00714;Arroyo;Buena Vista
+0;-65.9549,18.3933;00983;Carolina;Buena Vista
+0;-66.1788,18.1191;00736;Cayey;Buena Vista
+0;-65.7982,18.1155;00791;Humacao;Buena Vista
+0;-67.1388,18.1966;00680;Mayagüez;Buena Vista
+0;-66.5977,18.0061;00716;Ponce;Buena Vista
+0;-66.8860,18.2919;00669;Lares;Buena Vista
+0;-66.0627,18.4386;00901;San Juan;Buenos Aires
+0;-66.4010,17.9680;00757;Santa Isabel;Buenos Aires
+1108;-66.5732,18.4183;00688;Barceloneta;Bufalo
+0;-65.8118,18.1486;00791;Humacao;Buso
+0;-66.5507,17.9916;00715;Ponce;Buyones
+3959;-67.1360,18.4433;00603;Aguadilla;Caban
+10839;-67.1457,18.0866;00623;Cabo Rojo;Cabo Rojo
+0;-66.3446,18.1150;00769;Coamo;Cacao
+2068;-66.9371,18.4366;00678;Quebradillas;Cacao
+86804;-66.0485,18.2341;00725;Caguas;Caguas
+0;-66.0454,18.2305;00725;Caguas;Caguas Gardens
+0;-66.0254,18.2444;00725;Caguas;Caguas Norte
+0;-66.0310,18.2372;00725;Caguas;Caguax
+0;-66.1174,17.9825;00784;Guayama;Calimano
+0;-66.5668,18.0083;00715;Ponce;Calzada
+0;-67.1452,18.4660;00603;Aguadilla;Camaceyes
+0;-66.5079,18.3391;00638;Ciales;Camarones
+0;-66.8296,18.0241;00698;Yauco;Cambalache
+0;-66.0490,18.3852;00978;San Juan;Cambridge Park
+0;-65.9210,18.3616;00729;Carolina;Cambute
+0;-66.1960,18.4622;00952;Toa Baja;Camino Delmar
+0;-66.5924,17.9941;00716;Ponce;Camino del Sur
+0;-65.9793,18.2533;00778;Gurabo;Campamento
+0;-66.8688,17.9719;00653;Guánica;Campamento Borinquén
+0;-66.9938,18.1502;00606;San Germán;Campamento Buena Vista
+0;-66.6855,18.3222;00641;Arecibo;Campamento Crozier
+0;-65.8282,18.3391;00745;Río Grande;Campamento Eliza Colberg
+0;-66.0643,18.1141;00736;Cayey;Campamento Guavate
+0;-65.9574,18.4419;00983;Loíza;Campamento Piñones
+0;-65.6932,18.1819;00718;Naguabo;Campamento Punta Lima
+0;-66.7171,18.3336;00641;Arecibo;Campamento Radley
+0;-66.0552,18.0750;00723;Patillas;Campamento Real
+0;-66.9682,18.1389;00606;Sabana Grande;Campamento Santana
+0;-66.9068,18.0702;00637;Yauco;Campamento Susúa
+0;-65.7860,18.3461;00721;Río Grande;Campamento Zarzal
+0;-65.7552,18.3411;00721;Río Grande;Campamento de Niños
+7757;-66.2368,18.4213;00949;Toa Baja;Campanilla
+0;-66.4635,18.4361;00674;Manatí;Campo Alegre
+0;-66.2599,18.1394;00705;Aibonito;Campo Rey
+3218;-65.8979,18.3372;00729;Canóvanas;Campo Rico
+0;-66.0024,18.4061;00983;San Juan;Campo Rico
+0;-66.1577,18.4094;00956;Bayamón;Campo Verde
+4240;-66.8449,18.4838;00627;Camuy;Camuy
+0;-66.1882,18.3511;00956;Bayamón;Cana
+0;-66.0727,18.2116;00725;Caguas;Cañaboncito
+0;-66.8899,18.0025;00653;Guánica;Cañas
+0;-67.1521,18.1963;00680;Mayagüez;Candelaria
+17631;-66.2088,18.4041;00952;Toa Baja;Candelaria
+5854;-66.2174,18.4172;00952;Toa Baja;Candelaria Arenas
+1346;-65.8368,18.1019;00791;Humacao;Candelero Arriba
+8437;-65.8993,18.3751;00729;Canóvanas;Canovanas
+0;-66.1210,18.3536;00965;Guaynabo;Canta Gallo
+0;-65.9349,18.2425;00777;Juncos;Cantagallo
+0;-66.0429,18.4247;00978;San Juan;Cantera
+0;-66.2402,18.4563;00949;Dorado;Cantero
+0;-67.1327,18.1975;00680;Mayagüez;Canterra
+0;-66.6116,18.0250;00716;Ponce;Canterra
+0;-65.9674,18.3477;00983;Carolina;Canto de Sapo
+0;-66.2554,18.1527;00705;Aibonito;Caonillas
+0;-67.0574,18.3769;00676;Moca;Capá
+0;-66.1024,18.4041;00934;Guaynabo;Caparra Hills
+0;-66.0882,18.3994;00934;San Juan;Caparra Terrace
+3209;-66.5337,18.0145;00715;Juana Díaz;Capitanejo
+0;-67.1377,18.1958;00680;Mayagüez;Carcel
+0;-66.1090,17.9850;00784;Guayama;Carioca
+0;-65.7604,18.3822;00721;Río Grande;Carmelita
+0;-66.1693,18.0316;00784;Guayama;Carmen
+0;-65.7935,18.3763;00721;Río Grande;Carola
+170404;-65.9574,18.3808;00983;Carolina;Carolina
+0;-66.0329,18.3424;00976;Trujillo Alto;Carraizo Alto
+2556;-66.7899,18.4819;00659;Hatillo;Carrizales
+0;-66.3380,18.1897;00794;Barranquitas;Carro
+0;-66.5218,18.2358;00664;Ciales;Casa Blanca
+0;-65.7091,18.3477;00773;Luquillo;Casa Blanca
+0;-66.2602,18.4588;00646;Vega Alta;Casa del Rey
+0;-66.6013,18.0119;00716;Ponce;Caserio Doctor Gándara
+0;-66.6038,18.0197;00716;Ponce;Caserio Doctor Pila
+0;-66.8321,18.1805;00631;Lares;Castañer
+0;-65.9807,18.4247;00983;Carolina;Castellania Gardens
+0;-66.5407,18.4516;00617;Barceloneta;Catalina
+28093;-66.1182,18.4413;00962;Cataño;Cataño
+18494;-66.1660,18.1119;00736;Cayey;Cayey
+0;-66.0410,18.4219;00978;San Juan;Cayo Hueso
+1284;-66.7393,18.2911;00641;Utuado;Cayuco
+0;-66.3741,18.0008;00757;Santa Isabel;Cayures
+6277;-65.6485,18.2641;00735;Ceiba;Ceiba
+6576;-66.3507,18.4463;00693;Vega Alta;Ceiba
+4435;-65.9660,18.2716;00778;Gurabo;Celada
+0;-65.6502,18.2613;00735;Naguabo;Celina
+0;-67.1430,18.1858;00680;Mayagüez;Celitos
+1588;-66.2229,17.9536;00704;Salinas;Central Aguirre
+0;-66.7168,18.4277;00616;Arecibo;Central Los Caños
+0;-67.2268,18.3136;00677;Rincón;Centro Calvache
+0;-67.1305,18.3986;00676;Aguadilla;Centro Palmar
+0;-67.2635,18.3633;00677;Rincón;Centro Puntas
+0;-66.5427,18.4458;00617;Barceloneta;Centro Vacacional Recidencial Recinto La Catala
+0;-66.6493,18.4544;00652;Arecibo;Cercadillo
+0;-67.1482,18.1350;00660;Cabo Rojo;Cerrillos
+0;-66.5699,18.0672;00780;Ponce;Cerrillos
+0;-66.4841,18.3022;00638;Ciales;Cerro Gordo
+0;-66.3443,18.4808;00693;Vega Alta;Cerro Gordo
+0;-65.8779,18.0489;00767;Yabucoa;Cerro del Calvario
+0;-66.4677,18.1383;00766;Villalba;Céspedes
+0;-66.0785,18.3530;00965;San Juan;Chalet de la Colina
+0;-66.1563,18.3941;00956;Bayamón;Chalets de Bayamon
+0;-66.1127,18.3624;00965;Guaynabo;Chalets del Parque
+0;-66.7118,18.4141;00616;Arecibo;Charco Hondo
+0;-66.4299,17.9736;00757;Santa Isabel;Chardón
+0;-66.0493,18.3877;00978;San Juan;Chestnut Hill
+0;-66.1982,17.9655;00704;Guayama;Chún Chín
+3256;-66.4688,18.3361;00638;Ciales;Ciales
+5067;-66.1613,18.1758;00739;Cidra;Cidra
+0;-66.1902,17.9961;00784;Guayama;Cimarrona
+0;-66.5574,17.9963;00715;Ponce;Cintrona Segunda
+0;-66.1065,17.9702;00784;Guayama;Ciudad Universitaria
+0;-66.0277,18.3711;00978;Trujillo Alto;Ciudad Universitaria
+0;-66.6329,18.0108;00716;Ponce;Clausells
+0;-66.0091,18.3947;00976;San Juan;Club Manor
+11940;-66.3580,18.0800;00769;Coamo;Coamo
+5803;-66.2593,18.0072;00751;Salinas;Coco
+0;-66.1110,18.3549;00965;Guaynabo;Colimar
+0;-66.0060,18.3869;00976;San Juan;Colinas Vendes
+0;-66.0521,18.3566;00978;San Juan;Colinas de Curry
+0;-66.0318,18.3575;00976;Trujillo Alto;Colinas de Fair View
+0;-65.9749,18.2488;00778;Gurabo;Colinas de Gurabo
+0;-66.8280,18.4286;00627;Hatillo;Colinas de Hatillo
+0;-66.3968,18.3336;00687;Morovis;Colinas de Monte Llano
+0;-66.9680,18.0877;00637;Sabana Grande;Colinas de Villa Rosa
+0;-67.0582,17.9772;00667;Lajas;Colinas de la Parguera
+0;-66.3838,18.4502;00693;Vega Baja;Colinas del Marques
+0;-67.1180,18.1436;00660;Hormigueros;Colinas del Oeste
+0;-65.7716,18.3525;00721;Río Grande;Colinas del Yunque
+0;-66.0879,18.3833;00965;San Juan;College Park
+0;-66.6221,18.1983;00664;Jayuya;Collores
+0;-66.5416,18.0922;00780;Juana Díaz;Collores
+0;-67.1407,18.2641;00610;Mayagüez;Colonia Dolores
+0;-67.1602,18.3819;00602;Aguada;Coloso
+0;-65.9065,18.0044;00707;Maunabo;Columbia
+0;-67.1516,18.1986;00680;Mayagüez;Columbus Landing
+0;-66.4310,18.4297;00693;Vega Baja;Combate
+4649;-66.2260,18.2180;00782;Comerío;Comerío
+0;-65.8288,18.1427;00791;Humacao;Cometa
+0;-65.9807,18.2605;00778;Gurabo;Compamento Gurabo
+2027;-65.8438,18.0872;00767;Yabucoa;Comunas
+0;-66.4943,18.1266;00766;Villalba;Comunidad Borinquen
+0;-66.7118,18.0533;00624;Peñuelas;Comunidad Caracoles
+0;-66.3188,18.4150;00692;Vega Alta;Comunidad Carmen
+0;-66.4971,18.0489;00795;Juana Díaz;Comunidad Cristina
+0;-65.9688,18.2552;00778;Gurabo;Comunidad Extension San Jose
+0;-66.1563,18.1744;00739;Cidra;Comunidad Gandara
+0;-66.3249,18.4166;00692;Vega Alta;Comunidad La Ponderosa
+0;-66.2227,18.2202;00782;Comerío;Comunidad Las Casitas
+0;-65.9960,18.3752;00976;Trujillo Alto;Comunidad Matienzo Cintron
+0;-67.1899,18.3883;00602;Aguada;Comunidad Palmar Novoa II
+0;-67.1982,18.3902;00602;Aguada;Comunidad Palmer Noroa
+0;-66.4096,17.9558;00757;Santa Isabel;Comunidad Playa
+0;-67.1141,18.3941;00676;Moca;Comunidad Ramos
+0;-66.1757,18.4169;00952;Bayamón;Comunidad Rio Plantation
+0;-67.1182,18.3922;00676;Moca;Comunidad Sabana
+0;-66.2738,18.1430;00705;Aibonito;Comunidad San Luis
+0;-66.8255,18.4769;00659;Hatillo;Comunidad Santa Rosa
+0;-65.9799,18.2574;00778;Gurabo;Comunidad Villa Alegre
+0;-65.7293,18.3672;00773;Luquillo;Comunidad Villa Angelina
+0;-66.4091,17.9572;00757;Santa Isabel;Comunidad Villa Brabe
+0;-66.4005,17.9555;00757;Santa Isabel;Comunidad Villa Pulga
+0;-66.0368,17.9797;00714;Arroyo;Concordia
+0;-66.0304,18.3947;00978;San Juan;Concordia Gardens
+0;-66.0707,18.4544;00901;San Juan;Condado
+0;-66.0213,18.2411;00725;Caguas;Condado Moderno
+0;-67.1705,18.1161;00623;Cabo Rojo;Conde Ávila
+0;-67.1538,18.1958;00680;Mayagüez;Condelaria
+0;-66.5993,18.0047;00716;Ponce;Constancia
+0;-67.0321,18.2088;00606;Mayagüez;Consumo
+0;-65.6621,18.3516;00738;Fajardo;Convento
+3590;-66.2271,17.9741;00704;Salinas;Coquí
+0;-66.1343,18.4350;00962;Cataño;Coqui II
+2925;-66.0849,17.9927;00784;Guayama;Corazón
+0;-67.2424,18.3177;00677;Rincón;Córcega
+1527;-66.7763,18.4586;00659;Hatillo;Corcovado
+0;-66.4827,18.4291;00674;Manatí;Córdova Dávila
+0;-67.1699,18.1516;00660;Cabo Rojo;Cornelia
+0;-66.7057,18.0802;00624;Adjuntas;Corozal
+11297;-66.3168,18.3411;00783;Corozal;Corozal
+0;-67.1843,17.9819;00622;Cabo Rojo;Corozo
+0;-66.6530,18.0800;00624;Ponce;Corral Viejo
+0;-67.1135,18.4461;00603;Aguadilla;Corrales
+0;-65.9824,18.3527;00976;Trujillo Alto;Corrientes
+0;-66.1010,17.9761;00784;Guayama;Costa Azul
+0;-67.0313,18.5052;00662;Isabela;Costa Brava
+0;-66.2707,18.4783;00646;Dorado;Costa Dorado
+0;-65.8204,18.1472;00791;Humacao;Costa Este
+0;-66.0946,17.9741;00784;Guayama;Costa Sur
+0;-66.2793,18.4719;00646;Dorado;Costa de Oro
+0;-65.7171,18.3797;00773;Luquillo;Costal Azul
+0;-67.0505,18.0966;00683;San Germán;Coto
+3606;-66.5513,18.0497;00780;Ponce;Coto Laurel
+1381;-66.4399,18.4308;00674;Vega Baja;Coto Norte
+0;-66.4638,18.4188;00674;Manatí;Coto Sur
+0;-66.0043,18.4027;00976;San Juan;Country Club
+0;-65.9974,18.4138;00983;Carolina;Country Club Extension
+0;-66.1796,18.3722;00956;Bayamón;Country States
+0;-65.9010,18.3805;00729;Canóvanas;Country View
+0;-66.5654,18.4308;00617;Barceloneta;Cruce Dávila
+0;-66.5713,18.4180;00688;Barceloneta;Cruce Magueyes
+0;-66.5379,18.0083;00715;Ponce;Cuarta de Tierra
+0;-67.1391,18.0264;00622;Cabo Rojo;Cuatro Calles
+0;-66.7952,18.4288;00659;Hatillo;Cuatro Calles
+0;-66.4585,18.0430;00795;Juana Díaz;Cuatro Calles
+0;-66.6013,18.0072;00716;Ponce;Cuatro Calles
+0;-67.1477,18.0461;00622;Cabo Rojo;Cuatro Caminos
+0;-66.1538,18.4355;00952;Cataño;Cucharillas
+0;-67.1330,18.2005;00680;Mayagüez;Cuebas
+0;-66.7107,18.0458;00624;Peñuelas;Cuebas
+0;-67.1430,18.1830;00680;Mayagüez;Cuesta de las Piedras
+1486;-65.3010,18.3030;00775;Culebra;Culebra
+0;-66.4999,18.0486;00795;Juana Díaz;Cristina
+0;-66.0488,18.3594;00978;San Juan;Cupey Gardens
+1488;-65.6832,18.2264;00735;Naguabo;Daguao
+0;-67.1366,18.2869;00610;Añasco;Daguey
+0;-66.0210,18.3658;00976;Trujillo Alto;Daney
+0;-66.1796,18.4044;00952;Bayamón;Davila
+0;-66.0477,18.4183;00978;San Juan;Davita y Llenza
+0;-66.0699,18.3774;00978;San Juan;De Diego
+0;-66.8504,18.4705;00627;Camuy;Del Carmen
+0;-66.9371,18.4697;00678;Quebradillas;Del Carmen
+0;-66.0368,18.3991;00978;San Juan;Del Carmen
+0;-67.1557,18.1030;00623;Cabo Rojo;Delicias
+0;-66.0452,18.4013;00978;San Juan;Delicias
+0;-66.4346,18.0064;00757;Santa Isabel;Descalabrado
+0;-65.8560,18.3833;00745;Río Grande;Desvío Dolores
+0;-66.5105,18.1619;00766;Orocovis;Divisoria
+0;-65.9599,18.1888;00754;San Lorenzo;Dolores Gonzales Diaz Don Lolo
+0;-67.0257,18.4941;00662;San Lorenzo;Domencech
+0;-67.1491,18.2027;00680;Mayagüez;Domingo Ortiz
+0;-66.6818,18.4455;00616;Arecibo;Domingo Ruíz
+0;-66.7480,18.4211;00612;Arecibo;Dominguito
+13117;-66.2677,18.4588;00646;Dorado;Dorado
+0;-66.2763,18.4711;00646;Dorado;Dorado del Mar
+0;-66.2802,18.4399;00949;Dorado;Doraville
+0;-66.6707,18.3380;00641;Utuado;Dos Bocas
+0;-66.0382,18.4047;00978;San Juan;Dos Pinos
+0;-66.1668,18.4341;00952;Cataño;Dos Rios
+0;-66.4724,18.3461;00638;Ciales;Dos Rios
+1529;-65.7417,18.2367;00740;Naguabo;Duque
+0;-66.1071,18.3655;00965;Guaynabo;El Alamo
+0;-66.4904,18.4688;00674;Manatí;El Alto
+0;-66.9541,18.0863;00637;Sabana Grande;El Arrendado
+0;-65.7010,18.2341;00718;Naguabo;El Banco
+0;-66.9893,18.2491;00670;Las Marías;El Bosque
+0;-66.6088,18.0077;00716;Ponce;El Bosque
+0;-66.5785,18.0336;00715;Ponce;El Bronce
+0;-67.1141,18.0497;00623;Cabo Rojo;El Brujo
+0;-66.5280,18.4288;00617;Barceloneta;El Cachete
+0;-66.5117,18.4490;00617;Manatí;El Cantito
+0;-65.8210,18.3822;00745;Río Grande;El Carmen
+0;-66.3099,18.1827;00794;Barranquitas;El Cartijo
+0;-66.3241,18.3480;00783;Corozal;El Centro
+0;-67.1827,18.0558;00622;Cabo Rojo;El Cerro
+0;-66.0965,18.0491;00784;Guayama;El Chino
+0;-66.0060,18.2080;00754;Caguas;El Cinco
+0;-67.1210,18.1377;00660;Hormigueros;El Cinco
+0;-65.9918,18.4013;00983;Carolina;El Comandante
+0;-67.2121,17.9783;00622;Cabo Rojo;El Combate
+0;-66.0382,18.2366;00725;Caguas;El Condado
+0;-66.0049,18.3469;00976;Trujillo Alto;El Conquistador
+0;-66.1113,17.9814;00784;Guayama;El Coqui
+0;-66.1724,18.3605;00956;Bayamón;El Cortijo
+0;-66.7366,18.4608;00612;Arecibo;El Coto
+0;-66.2868,18.4300;00949;Dorado;El Coto
+0;-66.9893,18.3308;00685;San Sebastián;El Culebrinas
+0;-66.7135,18.4191;00616;Arecibo;El Dique
+0;-66.3643,18.0733;00769;Coamo;El Eden
+0;-67.1160,18.2786;00610;Añasco;El Espino
+0;-66.6260,18.4077;00688;Arecibo;El Espino
+0;-66.7885,18.0013;00656;Guayanilla;El Faro
+0;-66.1929,18.3966;00952;Bayamón;El Frutal
+0;-66.7068,18.2647;00641;Utuado;El Guano
+0;-66.9730,18.3391;00685;San Sebastián;El Guayabal
+0;-66.1652,18.1138;00736;Cayey;El Hoyo
+0;-66.1027,18.3138;00965;Guaynabo;El Laberinto
+0;-66.6366,18.0372;00716;Ponce;El Madrigal
+1979;-65.8796,18.2341;00777;Juncos;El Mangó
+0;-66.0857,18.3569;00965;San Juan;El Minao
+0;-66.0513,18.3519;00978;San Juan;El Mirador
+0;-66.1754,18.4513;00952;Toa Baja;El Naranjal
+0;-66.0310,18.1733;00725;Caguas;El Naranjito
+1656;-65.8513,18.0375;00767;Yabucoa;El Negro
+0;-66.1957,18.3427;00719;Bayamón;El Ocho
+1713;-66.3916,18.0038;00757;Santa Isabel;El Ojo
+0;-66.7879,18.4283;00659;Hatillo;El Pajuil
+0;-66.0588,17.9669;00714;Arroyo;El Palmar
+0;-66.0268,18.4408;00978;Carolina;El Palmar
+0;-66.0582,18.3802;00978;San Juan;El Paradiso
+0;-65.8263,18.1555;00791;Humacao;El Paraiso
+0;-66.2110,18.4227;00952;Toa Baja;El Plantino
+0;-66.2835,18.4300;00949;Dorado;El Polvorín
+0;-66.1999,18.3391;00719;Bayamón;El Portón
+0;-66.4480,18.4286;00674;Manatí;El Pueblito
+0;-65.8538,18.3808;00745;Río Grande;El Pueblo del Niño
+0;-66.4707,18.4599;00674;Manatí;El Pulguero
+0;-65.8324,18.1516;00791;Humacao;El Recreo
+0;-67.0313,18.0758;00683;San Germán;El Recreo
+0;-66.0199,18.0064;00723;Patillas;El Remanso
+0;-67.0341,18.0766;00683;San Germán;El Retiro
+0;-66.8568,18.0266;00698;Yauco;El Rosario
+0;-66.7968,18.4113;00659;Hatillo;El Saco
+0;-66.9102,18.2944;00669;San Sebastián;El Salto
+0;-66.0574,18.3608;00978;San Juan;El Senorial
+0;-66.8999,18.0050;00653;Guánica;El Tumbao
+0;-67.0555,18.0411;00667;Lajas;El Valle
+0;-66.0604,18.4180;00978;San Juan;El Vedado
+0;-66.0527,18.2247;00725;Caguas;El Verde
+0;-65.8257,18.3388;00745;Río Grande;El Verde
+0;-66.6207,18.0202;00716;Ponce;El Vigía
+0;-65.9754,18.2561;00778;Gurabo;El Vivero
+0;-66.6257,18.0363;00716;Ponce;El Yerbo
+5075;-66.0640,18.4163;00978;San Juan;Eleanor Roosevelt
+0;-65.8418,18.1427;00791;Humacao;Electra
+0;-67.1835,18.0788;00623;Cabo Rojo;Elizabeth
+3099;-65.8827,18.0005;00707;Maunabo;Emajagua
+0;-66.9916,18.3338;00685;San Sebastián;Emerito Estra da Rivera
+0;-66.1624,18.4291;00952;Cataño;Enramada
+0;-67.1435,18.2047;00680;Mayagüez;Ensanche Martinez
+0;-66.9335,17.9689;00647;Guánica;Ensenada
+0;-65.9854,18.3558;00976;Trujillo Alto;Entrerios
+0;-66.1952,18.2491;00782;Comerío;Escuela La Prieta
+0;-65.6588,18.3211;00738;Fajardo;Espanta Sueño
+0;-66.0677,18.2069;00725;Caguas;Esperanza
+0;-65.6885,18.2197;00718;Naguabo;Esperanza
+0;-66.5741,17.9950;00715;Ponce;Esperanza
+0;-66.2568,17.9627;00704;Salinas;Esperanza
+1422;-67.1193,18.2763;00610;Añasco;Espino
+0;-66.3188,18.4152;00692;Vega Alta;Espinosa
+0;-65.7074,18.2069;00718;Naguabo;Estación Botija
+0;-65.7296,18.2041;00718;Naguabo;Estación Naguabo
+0;-66.3996,17.9852;00757;Santa Isabel;Estación Santa Isabel
+0;-65.8465,18.1586;00791;Humacao;Estadio
+0;-66.2710,18.1500;00705;Aibonito;Estancias Del Llano
+0;-66.8171,18.4877;00659;Hatillo;Estancias Hatillo
+0;-66.1849,18.3463;00956;Bayamón;Estancias de Cerro Gordo
+0;-66.0582,18.2250;00725;Caguas;Estancias de Degetau I
+0;-66.0554,18.2280;00725;Caguas;Estancias de Degetau II
+5972;-66.5696,18.3666;00650;Florida;Estancias de Florida
+0;-65.9713,18.3969;00983;Carolina;Estancias de San Fernando
+0;-65.9696,18.1894;00754;San Lorenzo;Estancias de San Lorenzo
+0;-66.0460,18.2647;00725;Caguas;Estancias de Turabo
+0;-65.9929,18.3688;00976;Trujillo Alto;Estancias del Camino
+0;-66.9424,18.4791;00678;Quebradillas;Estancias del Rocio
+0;-66.1591,18.4116;00956;Bayamón;Estansia
+0;-67.1546,18.1541;00660;Hormigueros;Estebania
+0;-66.3324,18.3455;00783;Corozal;Extension Alturas de Cibuco
+0;-67.0538,18.0383;00667;Lajas;Extension El Valle
+0;-66.0318,18.2244;00725;Caguas;Extension El Verde
+0;-66.2896,18.4361;00949;Dorado;Extension Higuillar
+0;-66.0629,17.9744;00714;Arroyo;Extension Jardines de Arroyo
+0;-66.4060,17.9705;00757;Santa Isabel;Extension Jardines de Santa Isabel
+0;-66.2907,17.9769;00751;Salinas;Extension La Carmen
+0;-66.0421,18.4377;00978;San Juan;Extension Las Casas
+0;-65.8629,18.1725;00771;Las Piedras;Extension Las Mercedes
+0;-66.6241,18.0038;00716;Ponce;Extensión Mariani
+0;-66.7277,18.4663;00612;Arecibo;Extension Marquez
+0;-65.9849,18.3627;00976;Carolina;Extension Metropolis
+0;-66.4791,18.4258;00674;Manatí;Extension O'Neill
+0;-66.1060,18.2586;00703;Aguas Buenas;Extension Padre Quiones
+0;-65.8285,18.1552;00791;Humacao;Extension Roig
+0;-66.4724,18.3333;00638;Ciales;Extension San Jose
+0;-66.7896,18.0283;00656;Guayanilla;Extension Santa Elena De Monte II
+0;-66.7885,18.0244;00656;Guayanilla;Extension Santa Elena Del Monte III
+0;-65.6593,18.2725;00735;Ceiba;Extension Santa Maria
+0;-66.1035,18.3544;00965;Guaynabo;Extension Santa Paula
+0;-66.1588,18.4075;00956;Bayamón;Extension Sierra Bayamon
+0;-65.9771,18.4322;00983;Carolina;Extension Vista Mar
+0;-66.8491,18.4680;00627;Camuy;Extension del Carmen
+0;-66.6349,18.4425;00688;Arecibo;Factor
+0;-66.6010,18.0136;00716;Ponce;Fagot
+0;-66.0371,18.3669;00978;Trujillo Alto;Fairview
+32124;-65.6524,18.3258;00738;Fajardo;Fajardo
+0;-65.6590,18.3458;00738;Fajardo;Fajardo Gardens
+0;-66.1974,18.3705;00956;Bayamón;Faría
+0;-66.3993,17.9669;00757;Santa Isabel;Felicia I
+0;-67.1255,18.4636;00690;Aguadilla;Feliciano
+0;-66.4832,18.4230;00674;Manatí;Felix Cordova Davila
+0;-65.8541,18.1763;00771;Humacao;Fermina
+0;-66.1602,18.1772;00739;Cidra;Fernandez
+0;-66.1574,18.1108;00736;Cayey;Fernandez Colon
+0;-67.0535,18.0022;00667;Lajas;Finca Juanita
+0;-67.0691,18.2036;00636;Mayagüez;Finca La Corza
+0;-67.0827,18.2152;00636;Mayagüez;Finca Marini
+0;-65.9579,18.4472;00983;Loíza;Finca Piñones
+0;-67.0877,18.2538;00610;Añasco;Finca San Miguel
+0;-67.1460,18.1822;00680;Mayagüez;Flamboyan
+0;-66.1604,18.3899;00956;Bayamón;Flamboyant Gardens
+0;-66.1660,18.3744;00956;Bayamón;Flamingo Garden
+0;-66.1849,18.3911;00956;Bayamón;Flamingo Hills
+0;-66.0529,18.4180;00978;San Juan;Floral Park
+5652;-66.5613,18.3624;00650;Florida;Florida
+0;-65.7821,18.2366;00744;Naguabo;Florida
+0;-66.1635,18.3863;00956;Bayamón;Forest Hills
+0;-65.6460,18.3036;00738;Fajardo;Fortuna
+0;-65.7443,18.3783;00773;Luquillo;Fortuna
+0;-66.5421,17.9941;00715;Ponce;Fortuna
+0;-66.2568,17.9805;00704;Salinas;Fortuna
+0;-66.5396,18.4530;00617;Barceloneta;Francisco O Ortega
+0;-66.9935,18.2491;00670;Las Marías;Francisco Serrano
+2021;-66.4277,18.3402;00687;Morovis;Franquez
+0;-66.9071,18.0097;00653;Guánica;Fraternidad
+0;-66.1641,18.1808;00739;Cidra;Freire
+0;-66.1685,18.4294;00952;Bayamón;Fronteras de Bayamon
+1204;-66.9160,17.9877;00653;Guánica;Fuig
+1798;-66.1041,18.1275;00736;Cayey;G. L. Garcia
+2705;-66.2588,18.3624;00953;Toa Alta;Galateo
+0;-67.0032,18.4555;00662;Aguadilla;Galateo Bajo
+0;-66.5146,17.9938;00715;Juana Díaz;Galicias
+0;-66.1460,18.1755;00739;Cidra;Gándara
+0;-66.7285,18.4733;00612;Arecibo;Garcia
+0;-67.1557,18.1439;00660;Cabo Rojo;García
+0;-66.0827,18.3619;00965;San Juan;Garcia
+0;-65.6554,18.3355;00738;Fajardo;Garcia Ponce
+0;-66.1141,18.3988;00934;Guaynabo;Garden Hills
+0;-66.1185,18.4099;00934;Guaynabo;Gardenville
+0;-67.1749,18.0958;00623;Cabo Rojo;Garita
+0;-65.9260,18.0108;00707;Maunabo;Garona
+0;-66.6110,18.4577;00652;Arecibo;Garrochales
+1208;-66.5663,18.4536;00617;Barceloneta;Garrochales
+0;-66.1124,18.4030;00934;Guaynabo;Georgetown
+0;-66.1115,17.9797;00784;Guayama;Gidralter
+0;-66.0541,18.2608;00725;Aguas Buenas;Golden Gates
+0;-66.0179,18.3705;00976;Trujillo Alto;Golden Hill
+0;-65.8202,18.1486;00791;Humacao;Gomez
+0;-66.0249,18.3991;00978;San Juan;Gonzales Seijo
+0;-66.6435,18.0450;00716;Ponce;Granada Hills
+0;-66.9085,17.9752;00653;Guánica;Dona Clara
+0;-66.0921,17.9772;00784;Guayama;Green Hills
+0;-66.0088,18.3641;00976;Trujillo Alto;Gruta de Lourdes
+0;-67.1171,18.0111;00622;Cabo Rojo;Guanábana
+0;-67.1377,18.1433;00660;Hormigueros;Guanaiibo
+0;-67.1549,18.1647;00660;Mayagüez;Guanajibo Castillo
+0;-67.1732,18.1738;00680;Mayagüez;Guanajiro Homes
+9224;-66.9079,17.9716;00653;Guánica;Guánica
+0;-67.1796,18.0641;00622;Cabo Rojo;Guaniquilla
+0;-66.6702,18.1252;00601;Ponce;Guaraguao
+2377;-66.5013,18.0814;00795;Juana Díaz;Guayabal
+0;-66.8116,18.1894;00631;Adjuntas;Guayabo Dulce
+21575;-66.1138,17.9841;00784;Guayama;Guayama
+5213;-66.7918,18.0191;00656;Guayanilla;Guayanilla
+0;-66.7891,18.0238;00656;Guayanilla;Guaydía
+81360;-66.1110,18.3575;00965;Guaynabo;Guaynabo
+0;-66.7318,18.0139;00624;Peñuelas;Guaypao
+8973;-65.9729,18.2544;00778;Gurabo;Gurabo
+2379;-66.2738,18.3477;00783;Toa Alta;H. Rivera Colon
+0;-66.5435,18.2874;00650;Ciales;Hacienda Aldea
+0;-67.1016,18.2513;00610;Mayagüez;Hacienda Alicia
+0;-66.3921,17.9580;00757;Santa Isabel;Hacienda Alomar
+0;-66.4149,17.9997;00757;Santa Isabel;Hacienda Altura
+0;-66.4707,18.0100;00795;Juana Díaz;Hacienda Amelia
+0;-66.8152,18.1400;00631;Yauco;Hacienda Américo
+0;-66.5654,18.0536;00780;Ponce;Hacienda Ana María
+0;-66.5391,18.0897;00780;Juana Díaz;Hacienda Anadón
+0;-66.8241,18.1566;00631;Yauco;Hacienda Arbela
+0;-66.5385,18.0875;00780;Juana Díaz;Hacienda Arbona
+0;-66.6196,18.1008;00780;Ponce;Hacienda Arbona
+0;-66.7382,18.2461;00641;Utuado;Hacienda Artau
+0;-66.8316,18.1636;00631;Yauco;Hacienda Asunción
+0;-66.9788,18.1888;00606;Maricao;Hacienda Balare
+0;-66.8829,18.2175;00631;Lares;Hacienda Ballester
+0;-66.5913,18.0358;00716;Ponce;Hacienda Barrancas
+0;-66.6621,18.1050;00624;Ponce;Hacienda Batíz
+0;-67.0346,18.0252;00667;Lajas;Hacienda Beatriz Soledad
+0;-66.7702,18.1030;00624;Guayanilla;Hacienda Belgodere
+0;-67.0702,18.2480;00670;Las Marías;Hacienda Bermúdez
+0;-66.7888,18.1700;00631;Adjuntas;Hacienda Bianchi
+0;-66.0204,18.2177;00725;Caguas;Hacienda Borinquen
+0;-66.8457,18.1939;00631;Lares;Hacienda Buena Vista
+0;-66.9532,18.2497;00670;Las Marías;Hacienda Buena Vista
+0;-66.3724,18.0238;00769;Santa Isabel;Hacienda Buena Vista
+0;-66.6424,18.1022;00624;Ponce;Hacienda Burenes
+0;-66.5921,18.2844;00664;Utuado;Hacienda Butler
+0;-66.9143,18.1425;00606;Yauco;Hacienda Candelaria
+0;-66.5846,18.0147;00715;Ponce;Hacienda Caño Verde
+0;-66.6296,18.2727;00664;Utuado;Hacienda Carbonell
+0;-66.6116,18.1430;00664;Ponce;Hacienda Carmelita
+0;-66.2918,17.9747;00751;Salinas;Hacienda Carmen
+0;-67.0760,18.2502;00610;Las Marías;Hacienda Casey
+0;-66.7935,18.0947;00656;Guayanilla;Hacienda Catalina
+0;-66.7757,18.1155;00601;Guayanilla;Hacienda Chesari
+0;-66.5191,18.0158;00795;Juana Díaz;Hacienda Cintrona Primera
+0;-67.0630,18.2388;00670;Mayagüez;Hacienda Cipriano
+0;-66.2166,18.0352;00765;Salinas;Hacienda Clavell
+0;-66.5199,18.2761;00638;Ciales;Hacienda Colom
+0;-66.8235,18.1327;00631;Yauco;Hacienda Concepción
+0;-66.9416,18.2119;00606;Las Marías;Hacienda Constancia
+0;-67.0907,18.2083;00680;Mayagüez;Hacienda Constanza
+0;-66.3207,18.1344;00705;Coamo;Hacienda Córcega
+0;-67.0196,18.1294;00683;San Germán;Hacienda Córcega
+0;-66.5854,18.1383;00664;Ponce;Hacienda Cortada
+0;-67.0691,18.1011;00683;San Germán;Hacienda Coto
+0;-66.5038,18.0444;00795;Juana Díaz;Hacienda Cristina
+0;-66.9907,18.2016;00606;Maricao;Hacienda Delicias
+0;-67.1094,18.0211;00667;Lajas;Hacienda Desengaño
+0;-66.6516,18.1722;00601;Jayuya;Hacienda El Banco
+0;-66.8130,18.2033;00631;Adjuntas;Hacienda El Fénix
+0;-66.6646,18.1805;00601;Utuado;Hacienda El Progreso
+0;-66.5202,18.1291;00766;Villalba;Hacienda El Semil
+0;-66.6007,18.1197;00780;Ponce;Hacienda El Tesoro
+0;-66.3732,18.0172;00757;Santa Isabel;Hacienda Esmeralda
+0;-66.7974,18.1744;00631;Adjuntas;Hacienda Esperanza
+0;-66.8738,18.2763;00669;Lares;Hacienda Esperanza
+0;-67.0449,18.2374;00670;Las Marías;Hacienda Esperanza
+0;-67.0721,18.2547;00610;Las Marías;Hacienda Esperanza
+0;-66.9124,18.1563;00606;Maricao;Hacienda Esperanza
+0;-66.7168,18.1114;00601;Peñuelas;Hacienda Esperanza
+0;-66.9213,18.2494;00669;Las Marías;Hacienda Espino
+0;-67.1877,18.2977;00610;Añasco;Hacienda Eugenia
+0;-67.0293,18.2011;00606;Mayagüez;Hacienda Fajardo
+0;-66.5432,18.0233;00715;Ponce;Hacienda Fé
+0;-66.0813,17.9727;00714;Guayama;Hacienda Felicia
+0;-66.8329,18.1102;00631;Yauco;Hacienda Fernández Rosal
+0;-66.5127,18.1902;00766;Orocovis;Hacienda Figueroa
+0;-66.5149,18.2849;00638;Ciales;Hacienda Flor de Alba
+0;-66.3988,17.9625;00757;Santa Isabel;Hacienda Florida
+0;-66.8463,18.0294;00698;Yauco;Hacienda Florida
+0;-66.8638,18.1594;00631;Maricao;Hacienda Fortuna
+0;-66.5482,18.2691;00664;Ciales;Hacienda Garau
+0;-66.7671,18.1125;00601;Guayanilla;Hacienda Gloria
+0;-65.7013,18.2191;00718;Naguabo;Hacienda Grande
+0;-66.5766,18.1958;00664;Jayuya;Hacienda Gripiñas
+0;-66.5335,18.1119;00766;Juana Díaz;Hacienda Guayo
+0;-66.2396,18.0119;00704;Salinas;Hacienda Húcar
+0;-66.8582,18.1900;00631;Lares;Hacienda Iberia
+0;-66.8710,18.1633;00631;Maricao;Hacienda Indiera
+0;-66.6402,18.1850;00664;Jayuya;Hacienda Jauca
+0;-66.9482,18.2019;00606;Las Marías;Hacienda Josefa
+0;-66.6635,18.0464;00624;Ponce;Hacienda Josefa
+0;-67.0132,18.2383;00670;Las Marías;Hacienda Juanita
+0;-66.2002,18.0127;00765;Guayama;Hacienda Julia
+0;-67.0924,18.1219;00660;Hormigueros;Hacienda Julia
+0;-66.5760,18.1394;00664;Ponce;Hacienda Jurutungo
+0;-66.8299,18.1983;00631;Adjuntas;Hacienda La Balear
+0;-66.6007,18.2716;00664;Utuado;Hacienda La Catalana
+0;-66.5635,18.0844;00780;Ponce;Hacienda La Concordia
+0;-66.9227,18.1530;00606;Maricao;Hacienda La Delfina
+0;-66.6791,18.1908;00601;Utuado;Hacienda La Esperanza
+0;-66.6291,18.1350;00664;Ponce;Hacienda La Gloria
+0;-66.5905,18.2944;00650;Utuado;Hacienda La Isolina
+0;-66.8454,18.1400;00631;Yauco;Hacienda La Juanita
+0;-66.9046,18.1477;00631;Yauco;Hacienda La Luisa
+0;-67.0024,18.2186;00670;Las Marías;Hacienda La Milagrosa
+0;-66.6329,18.1280;00601;Ponce;Hacienda La Mocha
+0;-67.1288,18.1019;00623;Cabo Rojo;Hacienda La Ratina
+0;-66.9088,18.1341;00637;Yauco;Hacienda La Rosita
+0;-66.8546,18.1552;00631;Maricao;Hacienda La Vega
+0;-66.9180,18.1694;00606;Maricao;Hacienda La Vega
+0;-67.0646,18.2613;00670;Las Marías;Hacienda Lamberti
+0;-66.6080,18.3355;00650;Arecibo;Hacienda Las Abras
+0;-66.5385,18.1041;00766;Juana Díaz;Hacienda Las Magas
+0;-66.8649,18.1352;00631;Yauco;Hacienda Las Piñas
+0;-66.8841,18.2333;00669;Lares;Hacienda Lealtad
+0;-66.8329,18.1322;00631;Yauco;Hacienda Leonor
+0;-66.5938,18.2788;00664;Jayuya;Hacienda Limón
+0;-66.4452,18.1577;00766;Villalba;Hacienda Limón
+0;-66.8952,18.1791;00631;Maricao;Hacienda Llanada
+0;-66.5882,18.1902;00664;Jayuya;Hacienda Los Planes
+0;-66.7588,18.0927;00624;Peñuelas;Hacienda Loyola
+0;-66.5118,18.0594;00795;Juana Díaz;Hacienda Luciana
+0;-67.0641,18.0238;00667;Lajas;Hacienda Luisa
+0;-66.9224,18.1897;00606;Maricao;Hacienda Manuela
+0;-66.5941,18.0872;00780;Ponce;Hacienda Maragüez
+0;-66.3049,17.9716;00751;Salinas;Hacienda Margarita
+0;-66.4446,18.3116;00638;Morovis;Hacienda María
+0;-66.8504,18.1705;00631;Maricao;Hacienda María Antonia
+0;-66.5752,18.2883;00664;Utuado;Hacienda Marqués
+0;-67.0782,18.2633;00610;Añasco;Hacienda Mata
+0;-66.6368,17.9944;00716;Ponce;Hacienda Matilde
+0;-66.8099,18.1213;00631;Yauco;Hacienda Mejias
+0;-66.5049,18.0586;00795;Juana Díaz;Hacienda Mercado
+0;-67.0260,18.2208;00670;Las Marías;Hacienda Merle
+0;-66.5391,18.1311;00766;Juana Díaz;Hacienda Miramar
+0;-66.4554,18.0216;00795;Juana Díaz;Hacienda Miranda
+0;-66.8099,18.1127;00631;Yauco;Hacienda Mogote
+0;-66.6343,18.0947;00716;Ponce;Hacienda Molina
+0;-66.8804,18.1905;00631;Lares;Hacienda Monserrate
+0;-66.8566,18.2325;00631;Lares;Hacienda Monserrate
+0;-66.5763,18.0733;00780;Ponce;Hacienda Monserrate
+0;-67.0955,18.2724;00610;Añasco;Hacienda Morales
+0;-66.7652,18.1541;00601;Adjuntas;Hacienda Noez
+0;-66.7485,18.0636;00624;Peñuelas;Hacienda Oliva
+0;-66.7760,18.1280;00601;Guayanilla;Hacienda Olivieri
+0;-66.3580,17.9727;00757;Santa Isabel;Hacienda Palés
+0;-66.5724,18.1016;00780;Ponce;Hacienda Paraíso
+0;-66.5132,18.2958;00638;Ciales;Hacienda Peñonales
+0;-66.5902,18.3136;00650;Utuado;Hacienda Piedra Gorda
+0;-66.7713,18.1722;00601;Adjuntas;Hacienda Pietri
+0;-66.8385,18.1164;00631;Yauco;Hacienda Pietri
+0;-66.8149,18.1225;00631;Yauco;Hacienda Pintado
+0;-67.0335,18.2238;00670;Las Marías;Hacienda Plato Indio
+0;-67.0185,18.1769;00606;Maricao;Hacienda Polmares
+0;-66.5432,18.0516;00780;Juana Díaz;Hacienda Ponceña
+0;-66.8793,18.2569;00669;Lares;Hacienda Porvenir
+0;-66.5102,18.0008;00715;Juana Díaz;Hacienda Potala
+0;-66.5143,18.2108;00664;Ciales;Hacienda Ralate
+0;-67.0649,18.1930;00636;Mayagüez;Hacienda Recurso
+0;-67.0821,18.0238;00667;Lajas;Hacienda Resolución
+0;-66.5888,18.0016;00716;Ponce;Hacienda Restaurada
+0;-66.8502,18.1377;00631;Yauco;Hacienda Resurrección
+0;-67.0210,18.1955;00606;Mayagüez;Hacienda Retiro
+0;-66.5488,18.2775;00664;Ciales;Hacienda Reynés
+0;-66.8016,18.2055;00631;Adjuntas;Hacienda Ripoll
+0;-66.8113,18.2177;00631;Adjuntas;Hacienda Rivera
+0;-66.8391,18.1039;00698;Yauco;Hacienda Roig
+0;-67.0382,18.1936;00636;Mayagüez;Hacienda Rolón
+0;-66.5777,18.1233;00780;Ponce;Hacienda Rosalí
+0;-66.7785,18.1425;00601;Adjuntas;Hacienda Rosario
+0;-67.0832,18.2427;00610;Mayagüez;Hacienda Salomé
+0;-66.8188,18.2097;00631;Adjuntas;Hacienda San Alberto
+0;-66.9988,18.1877;00606;Maricao;Hacienda San Antonio
+0;-66.5585,18.1361;00766;Juana Díaz;Hacienda San Carlos
+0;-66.5455,18.1408;00766;Juana Díaz;Hacienda San Clemente
+0;-65.9724,17.9777;00723;Patillas;Hacienda San Isidoro
+0;-66.7807,18.2191;00631;Adjuntas;Hacienda San José
+0;-66.5918,18.3613;00650;Arecibo;Hacienda San José
+0;-66.8504,18.1538;00631;Yauco;Hacienda San Lorenzo
+0;-66.6118,18.1352;00664;Ponce;Hacienda San Narciso
+0;-66.9335,18.2730;00669;San Sebastián;Hacienda San Pedro
+0;-66.8013,18.1261;00631;Yauco;Hacienda Santa Anita
+0;-66.5504,18.2488;00664;Ciales;Hacienda Santa Bárbara
+0;-66.5627,18.2538;00664;Jayuya;Hacienda Santa Bárbara
+0;-66.8316,18.1458;00631;Yauco;Hacienda Santa Clara
+0;-66.7235,18.2197;00641;Adjuntas;Hacienda Santa Elena
+0;-66.5324,18.3038;00650;Ciales;Hacienda Santa Elena
+0;-66.8624,18.1400;00631;Maricao;Hacienda Santa María
+0;-66.9816,18.1714;00606;Maricao;Hacienda Santa Rita
+0;-66.5910,18.1272;00780;Ponce;Hacienda Santa Rita
+0;-66.7907,18.1561;00631;Adjuntas;Hacienda Santa Rosa
+0;-66.6205,18.1836;00664;Jayuya;Hacienda Santa Rosa
+0;-66.9132,18.1894;00606;Maricao;Hacienda Santiago
+0;-66.5193,18.1677;00766;Ciales;Hacienda Tabonuco
+0;-66.9677,18.1986;00606;Maricao;Hacienda Teresa
+0;-66.5524,18.0191;00715;Ponce;Hacienda Teresa
+0;-66.2741,17.9627;00704;Salinas;Hacienda Teresa
+0;-66.6096,18.2747;00664;Utuado;Hacienda Tetuán
+0;-66.7377,18.2325;00641;Utuado;Hacienda Tres Hermanas
+0;-66.4871,18.0041;00795;Juana Díaz;Hacienda Úrsula
+0;-66.6138,18.0950;00780;Ponce;Hacienda Usera
+0;-66.7821,18.1544;00631;Adjuntas;Hacienda Vaquiñas
+0;-66.5810,18.2744;00664;Jayuya;Hacienda Vega Grande
+0;-67.0519,18.2275;00670;Mayagüez;Hacienda Veremos
+0;-66.5510,18.1066;00780;Juana Díaz;Hacienda Vertedero
+0;-66.8316,18.1244;00631;Yauco;Hacienda Vicario
+0;-66.8599,18.2219;00631;Lares;Hacienda Vilella
+0;-66.5480,18.0663;00780;Ponce;Hacienda Vista Alegre
+0;-66.5716,18.1208;00780;Ponce;Hacienda Vista Alegre
+0;-66.5763,18.1216;00780;Ponce;Hacienda Yani
+0;-66.0518,18.2425;00725;Caguas;Hacienda del Parque
+5622;-66.8255,18.4863;00659;Hatillo;Hatillo
+0;-66.8204,18.4911;00659;Camuy;Hatillo Del Mar
+0;-66.7474,18.4474;00612;Arecibo;Hato Abajo
+732;-67.0341,18.3558;00685;San Sebastián;Hato Arriba
+2453;-65.7871,18.3744;00721;Río Grande;Hato Candal
+0;-66.1893,18.4055;00952;Bayamón;Hato Tejas
+0;-66.4763,18.3636;00638;Ciales;Hato Viejo
+0;-66.0538,18.4236;00978;San Juan;Hector A Piñero
+0;-66.3105,18.1597;00794;Barranquitas;Helechal
+0;-66.5060,18.0558;00795;Juana Díaz;Hermanos Santiago
+0;-66.0190,18.3897;00978;San Juan;Highland Park
+0;-67.1541,18.4230;00603;Aguadilla;Higüey
+0;-66.7260,18.4452;00612;Arecibo;Higuillales
+0;-66.2921,18.4388;00646;Dorado;Higuillar
+0;-66.0165,18.4138;00978;San Juan;Hill Brothers
+0;-65.8696,18.4319;00772;Loíza;Honduras
+0;-66.0782,18.3647;00978;San Juan;Horizon
+11934;-67.1274,18.1397;00660;Hormigueros;Hormigueros
+0;-66.8566,18.0302;00698;Yauco;Hospital Bella Vista
+0;-67.0477,18.0825;00683;San Germán;Hospital Concepcion
+0;-67.1269,18.1552;00660;Hormigueros;Hoya Grande
+0;-65.9576,18.3968;00983;Carolina;Hoyo Mulas
+0;-65.7093,18.1875;00718;Naguabo;Húcares
+0;-66.0615,18.4219;00978;San Juan;Huyke
+0;-66.0613,18.4075;00978;San Juan;Hyde Park
+0;-66.0463,18.2444;00725;Caguas;Idamaris Gardens
+0;-67.1538,18.4294;00603;Aguadilla;Iglesia
+0;-66.1941,18.2483;00782;Comerío;Iglesia Virgen de la Providencia
+3021;-66.5524,18.4369;00617;Barceloneta;Imbery
+0;-67.1410,18.2836;00610;Añasco;Imperial Court
+0;-66.8846,18.1516;00631;Maricao;Indiera Alta
+1739;-66.8193,17.9941;00656;Guayanilla;Indios
+5664;-66.2260,18.4422;00949;Toa Baja;Ingenio
+20387;-65.8274,18.1497;00791;Humacao;Humacao
+0;-66.1546,18.3572;00965;Bayamón;Irlanda
+0;-66.1460,18.3530;00965;Bayamón;Irlanda Heights
+0;-67.1266,18.1044;00623;Cabo Rojo;Isabel Josefa
+12505;-67.0243,18.5008;00662;Isabela;Isabela
+0;-65.6418,18.3391;00738;Fajardo;Isidra
+0;-67.1085,18.3736;00676;Moca;Isleta
+0;-66.5970,18.4858;00652;Arecibo;Islote
+0;-66.0374,18.4238;00978;San Juan;Israel
+0;-66.0029,18.4019;00976;San Juan;Iturregui
+0;-66.5079,18.0544;00795;Juana Díaz;Jacagua X
+0;-66.5282,18.0544;00795;Juana Díaz;Jacaguas
+0;-66.2963,18.0800;00765;Coamo;Jácana
+0;-66.5968,18.0433;00716;Ponce;Jacaranda
+1402;-65.9954,18.1616;00754;San Lorenzo;Jagual
+0;-66.7257,18.0764;00624;Peñuelas;Jaguas
+0;-66.2646,17.9689;00704;Salinas;Jaguas
+0;-66.4613,18.3372;00638;Ciales;Jaguas Ventana
+0;-66.5085,18.1102;00766;Villalba;Jagueyes
+0;-66.1602,18.0633;00736;Cayey;Jajome
+0;-67.0288,18.5002;00662;Isabela;Jardin Caribe
+0;-65.7454,18.2294;00718;Naguabo;Jardin Esperanza
+0;-66.7213,18.1597;00601;Adjuntas;Jardin de Adjuntas
+0;-65.9060,18.0183;00707;Maunabo;Jardines Los Almendros
+0;-66.0438,18.4036;00978;San Juan;Jardines Selles
+0;-66.2729,18.1358;00705;Aibonito;Jardines de Aibonito
+0;-67.1368,18.2888;00610;Añasco;Jardines de Anasco
+0;-66.7510,18.4705;00612;Arecibo;Jardines de Arecibo
+0;-66.0671,17.9758;00714;Arroyo;Jardines de Arroyo
+0;-65.9163,18.2197;00777;Juncos;Jardines de Barcelona
+0;-66.1546,18.3602;00956;Bayamón;Jardines de Bayamonte
+0;-66.8535,18.0350;00698;Yauco;Jardines de Borinquen
+0;-65.8949,18.3791;00729;Canóvanas;Jardines de Canovanas
+0;-66.1302,18.3938;00934;Bayamón;Jardines de Caparra
+0;-65.9746,18.3783;00983;Trujillo Alto;Jardines de Carolina
+0;-65.6510,18.2600;00735;Ceiba;Jardines de Ceiba I
+0;-65.6546,18.2600;00735;Ceiba;Jardines de Ceiba II
+0;-66.4238,18.3308;00687;Ciales;Jardines de Ciales
+0;-66.0171,18.2444;00725;Caguas;Jardines de Condado Moderno
+0;-65.9735,18.4213;00983;Carolina;Jardines de Country Club
+0;-66.2630,18.4575;00646;Dorado;Jardines de Dorado
+0;-65.8227,18.1536;00791;Humacao;Jardines de Humacao
+0;-65.9138,18.2152;00777;Juncos;Jardines de Juncos
+0;-66.0652,17.9705;00714;Arroyo;Jardines de Lafayette
+0;-67.0607,18.0394;00667;Lajas;Jardines de Lajas
+0;-66.8860,18.2908;00669;Lares;Jardines de Lares
+0;-65.8771,18.4280;00772;Carolina;Jardines de Loiza
+0;-67.1449,18.1822;00680;Mayagüez;Jardines de Mayaquez
+0;-66.4993,18.4144;00674;Manatí;Jardines de Monaco
+0;-66.0104,18.3880;00976;San Juan;Jardines de Monte Hatillo
+0;-66.3991,18.3283;00687;Morovis;Jardines de Monte Llano
+0;-65.8243,18.1550;00791;Humacao;Jardines de Oriente
+0;-66.7204,18.0616;00624;Peñuelas;Jardines de Penuelas
+0;-66.5946,18.0422;00716;Ponce;Jardines de Ponce
+0;-66.3652,18.0758;00769;Coamo;Jardines de San Blas
+0;-65.9660,18.1805;00754;San Lorenzo;Jardines de San Lorenzo
+0;-66.2507,18.3930;00953;Toa Alta;Jardines de Toa Alta
+0;-66.6949,18.2697;00641;Utuado;Jardines de Utuado
+0;-66.0413,18.4105;00978;San Juan;Jardines de Valencia
+0;-66.9843,18.3308;00685;San Sebastián;Jardines de Venturrini
+0;-66.1552,18.1705;00739;Cidra;Jardines de Villa del Carmen
+0;-65.8738,18.0477;00767;Yabucoa;Jardines de Yabucoa
+0;-66.6488,18.0125;00716;Ponce;Jardines del Caribe
+0;-67.0296,18.5019;00662;Isabela;Jardines del Noreste
+0;-66.0338,18.3894;00978;San Juan;Jardines del Paraiso
+0;-66.6907,18.4791;00612;Arecibo;Jarealito
+1838;-66.3657,17.9691;00757;Santa Isabel;Jauca
+3587;-66.5916,18.2186;00664;Jayuya;Jayuya
+0;-66.6154,18.2180;00664;Jayuya;Jayuya Abajo
+0;-67.1305,18.2000;00680;Mayagüez;Jmari Ramos
+0;-66.7185,18.1616;00601;Adjuntas;Joaquin M Andino
+0;-67.0716,18.4969;00690;Aguadilla;Jobos
+3475;-66.1654,17.9552;00784;Guayama;Jobos
+0;-67.1530,18.1941;00680;Mayagüez;John F Kennedy
+0;-66.0224,18.2344;00725;Caguas;Jose Delgado
+0;-65.8735,18.0411;00767;Yabucoa;Jose M Mendez
+0;-66.0238,18.2175;00725;Caguas;José Mercado
+0;-65.8202,18.3852;00745;Río Grande;Jose P H Hernandez
+0;-65.9616,18.3849;00983;Loíza;Jose S Quinones
+0;-66.6046,18.0347;00716;Ponce;Jose Tormos Diego
+0;-67.1210,18.2758;00610;Añasco;Josefa
+0;-65.6496,18.3122;00738;Fajardo;Josefa
+0;-66.1557,17.9500;00784;Guayama;Josefa
+0;-66.7366,18.4658;00612;Arecibo;Joya de los Santos
+0;-67.1824,18.1150;00623;Cabo Rojo;Joyuda
+0;-66.1243,17.9769;00784;Guayama;Juan Anglade
+9427;-66.5066,18.0525;00795;Juana Díaz;Juana Díaz
+0;-66.1299,18.4366;00962;Cataño;Juana Matos
+1155;-66.9191,18.3138;00669;San Sebastián;Juncal
+8905;-65.9210,18.2275;00777;Juncos;Juncos
+0;-65.7860,18.1858;00744;Humacao;Junio
+0;-66.7274,18.0655;00624;Peñuelas;Kennedy
+0;-65.7813,18.3761;00721;Río Grande;Korea
+0;-66.9702,18.0839;00637;Sabana Grande;La Alborada
+0;-66.0490,18.3644;00978;San Juan;La Alborada
+0;-66.6068,18.4338;00688;Arecibo;La Aldea
+0;-66.1749,18.3769;00956;Bayamón;La Aldea
+0;-66.3171,18.3386;00783;Corozal;La Aldea
+0;-66.2849,18.4402;00949;Dorado;La Aldea
+0;-66.6043,18.0155;00716;Ponce;La Alhambra
+2139;-66.6024,18.3974;00688;Arecibo;La Alianza
+0;-65.9896,18.3452;00976;Trujillo Alto;La Antigua
+0;-66.2902,17.9755;00751;Salinas;La Arboleda
+0;-66.1860,18.4172;00952;Bayamón;La Arena
+0;-66.0443,18.2802;00725;Caguas;La Barra
+0;-66.0635,18.3027;00703;Caguas;La Bayamonesa
+0;-66.5382,18.4813;00617;Barceloneta;La Boca
+0;-66.1532,18.4049;00956;Bayamón;La Cambija
+0;-66.0757,18.3508;00965;San Juan;La Campina
+0;-66.8154,18.0408;00656;Guayanilla;La Capital
+0;-66.2935,17.9772;00751;Salinas;La Carmen
+0;-66.9238,18.4258;00678;Quebradillas;La Casa de Piedra
+0;-66.6060,18.0055;00716;Ponce;La Ceiba
+0;-66.0618,18.2977;00703;Caguas;La Changa
+0;-65.9946,18.3444;00976;Trujillo Alto;La Cima
+0;-66.8163,18.4186;00659;Hatillo;La Cuesta
+0;-66.0757,18.3600;00978;San Juan;La Cumbre
+3534;-65.8557,18.3755;00745;Río Grande;La Dolores
+0;-66.7468,18.3819;00616;Arecibo;La Esperanza
+0;-66.1113,18.3655;00965;Guaynabo;La Esperanza
+0;-66.7621,18.2516;00611;Utuado;La Estancita
+0;-65.7618,18.2119;00718;Naguabo;La Fe
+3177;-65.8535,18.1755;00771;Las Piedras;La Fermina
+0;-66.5721,18.3533;00650;Barceloneta;La Fuente
+0;-66.4827,18.4572;00674;Manatí;La Glorieta
+0;-66.9974,18.3316;00685;San Sebastián;La González
+0;-66.4043,18.4230;00693;Vega Baja;La Granja
+0;-66.2707,18.0875;00765;Aibonito;La Guaba
+0;-66.6063,18.0227;00716;Ponce;La Guadalupe
+0;-66.7249,18.4216;00616;Arecibo;La Guinea
+0;-66.2552,18.2033;00782;Comerío;La Guitarra
+0;-66.2310,18.2152;00782;Comerío;La Hacienda
+0;-66.1135,17.9700;00784;Guayama;La Hacienda
+0;-66.3199,18.4166;00692;Vega Alta;La Inmaculada
+0;-66.3221,18.4169;00692;Vega Alta;La Inmaculada II
+0;-66.8735,18.0008;00698;Guánica;La Joya
+0;-66.0904,18.1880;00725;Caguas;La Jurado
+0;-66.0088,18.3502;00976;Trujillo Alto;La Lomita
+2887;-66.5099,18.4488;00617;Manatí;La Luisa
+0;-66.8899,17.9789;00653;Guánica;La Luna
+0;-66.7038,18.4713;00612;Arecibo;La Marina
+0;-65.8954,18.3430;00729;Loíza;La Marina
+0;-66.0538,18.3594;00978;San Juan;La Marina
+0;-66.9582,18.0811;00637;Sabana Grande;La Milagrosa
+0;-66.1768,18.3966;00956;Bayamón;La Miligrosa
+0;-67.1688,18.3552;00602;Aguada;La Mina
+0;-66.5935,18.2150;00664;Jayuya;La Monserrate
+0;-67.1149,18.3994;00676;Moca;La Monserrate
+0;-66.2388,18.4474;00949;Toa Baja;La Monserrate
+0;-66.0988,18.3291;00965;Guaynabo;La Muda
+0;-67.0235,18.3050;00685;San Sebastián;La Parada
+1141;-67.0466,17.9750;00667;Lajas;La Parguera
+0;-66.8649,18.4649;00627;Camuy;La Pica
+0;-66.6496,18.1589;00601;Jayuya;La Pica
+0;-66.9546,18.0625;00637;Sabana Grande;La Pica
+0;-66.1807,18.1233;00736;Cayey;La Placita
+0;-66.2330,18.1544;00786;Aibonito;La Plata
+2139;-67.1869,18.2874;00610;Añasco;La Playa
+0;-66.6638,18.2836;00641;Utuado;La Playa
+0;-66.0424,18.1389;00754;Caguas;La Plaza
+1036;-66.2046,18.0466;00765;Salinas;La Plena
+0;-66.0602,18.1752;00725;Caguas;La Pradera
+0;-65.8324,18.1569;00791;Humacao;La Pratt
+0;-67.1882,18.2769;00610;Añasco;La Puente
+0;-66.8624,18.0264;00698;Yauco;La Quinta
+0;-66.6002,18.0266;00716;Ponce;La Rambla
+0;-66.0679,18.2180;00725;Caguas;La Rampla
+0;-66.0654,17.9652;00714;Arroyo;La Riviera
+0;-66.0899,18.3902;00934;San Juan;La Riviera
+0;-66.5999,18.4041;00688;Arecibo;La Romana
+0;-67.1366,18.2416;00680;Mayagüez;La Soledad
+0;-65.8054,18.1439;00791;Humacao;La Suiza
+0;-65.9807,18.4558;00983;Loíza;La Torre
+0;-67.2088,18.2977;00677;Añasco;La Tosca
+0;-66.3816,18.4411;00693;Vega Baja;La Trocha
+0;-66.3166,18.1883;00794;Barranquitas;La Vega
+0;-67.0024,18.4025;00685;Isabela;La Vega
+0;-66.4888,18.1294;00766;Orocovis;La Vega
+0;-65.7688,18.3483;00721;Río Grande;La Vega
+0;-66.0038,18.3824;00976;San Juan;La Vista
+0;-66.3130,18.0316;00751;Salinas;La Zanja
+0;-66.1904,18.4502;00952;Toa Baja;Lago de Plata
+0;-66.1893,18.4630;00952;Toa Alta;Lagos de Norte
+0;-66.0154,18.4294;00978;Carolina;Laguna Gardens
+5255;-67.0593,18.0500;00667;Lajas;Lajas
+0;-67.0110,18.0375;00667;Lajas;Lajas Arriba
+1121;-65.9857,17.9814;00723;Patillas;Lamboglia
+0;-67.0274,18.5049;00662;Isabela;Lamela
+7184;-66.8771,18.2947;00669;Lares;Lares
+0;-66.1393,18.3452;00965;Bayamón;Las Americas
+0;-66.0740,18.4011;00978;San Juan;Las Américas
+0;-66.2930,17.9800;00751;Salinas;Las Antillas
+0;-67.1493,18.0244;00622;Cabo Rojo;Las Arenas
+0;-66.2141,18.3902;00953;Toa Alta;Las Arenas
+0;-66.6713,18.3752;00616;Arecibo;Las Cántaras
+0;-66.0649,18.2541;00725;Caguas;Las Carolinas
+0;-65.8388,18.4297;00772;Loíza;Las Carreras
+0;-66.0410,18.4300;00978;San Juan;Las Casas
+0;-66.6935,18.4455;00616;Arecibo;Las Claras
+0;-65.7716,18.3838;00721;Río Grande;Las Coles
+0;-67.1771,18.3650;00602;Aguada;Las Corozas
+0;-65.6260,18.3647;00738;Fajardo;Las Croabas
+0;-65.9840,18.3938;00983;Carolina;Las Cruces
+0;-66.0974,18.1683;00739;Cidra;Las Cruces
+0;-66.0152,18.3677;00976;Trujillo Alto;Las Cuevas
+0;-66.4060,18.3408;00687;Morovis;Las Cumbres
+0;-66.7546,18.4449;00612;Arecibo;Las Cunetas
+0;-66.6454,18.0341;00716;Ponce;Las Delicias
+0;-66.3029,18.1819;00794;Barranquitas;Las Flores
+0;-66.3635,18.0469;00769;Coamo;Las Flores
+0;-66.4971,18.0530;00795;Juana Díaz;Las Flores
+0;-66.3907,18.4480;00693;Vega Baja;Las Flores
+0;-66.9791,18.0597;00637;Sabana Grande;Las Guaras
+0;-66.0721,17.9786;00714;Arroyo;Las Guásimas
+0;-66.4713,18.3380;00638;Ciales;Las Guavas
+0;-66.6949,18.3961;00616;Arecibo;Las Llanadas
+0;-66.5099,18.0619;00795;Juana Díaz;Las Lomas
+0;-66.0952,18.3916;00934;San Juan;Las Lomas
+0;-66.1446,17.9380;00784;Guayama;Las Mareas
+0;-66.2643,17.9486;00704;Salinas;Las Mareas
+1823;-67.1463,18.2933;00610;Añasco;Las Marias
+0;-66.3877,18.0555;00769;Coamo;Las Marías
+1031;-66.9921,18.2519;00670;Las Marías;Las Marías
+0;-66.2952,17.9822;00751;Salinas;Las Marías
+0;-66.0821,18.3699;00965;San Juan;Las Marias
+0;-66.7204,18.4561;00612;Arecibo;Las Mercedes
+0;-66.0554,17.9808;00714;Arroyo;Las Mercedes
+0;-65.8671,18.1752;00771;Las Piedras;Las Mercedes
+0;-65.8915,18.4202;00772;Loíza;Las Mercedes
+0;-66.2907,17.9811;00751;Salinas;Las Mercedes
+0;-65.9646,18.1900;00754;San Lorenzo;Las Mercedes
+0;-66.5857,18.0375;00715;Ponce;Las Monjitas
+1199;-66.3179,17.9847;00751;Salinas;Las Ochenta
+1949;-66.4210,18.0140;00757;Santa Isabel;Las Ollas
+0;-66.0307,17.9844;00723;Arroyo;Las Palmas
+0;-67.1341,17.9850;00622;Cabo Rojo;Las Palmas
+0;-66.1441,18.4238;00934;Cataño;Las Palmas
+0;-67.1180,18.3963;00676;Moca;Las Palmas
+0;-66.0460,18.4361;00978;San Juan;Las Palmas
+6655;-65.8663,18.1830;00771;Las Piedras;Las Piedras
+0;-65.9177,18.2516;00777;Juncos;Las Piñas
+0;-66.2518,18.1377;00705;Barranquitas;Las Quintas
+0;-65.8263,18.1586;00791;Humacao;Las Rosales
+0;-65.8332,18.2191;00744;Las Piedras;Las Torres
+0;-65.8054,18.3600;00721;Río Grande;Las Tres T
+0;-66.1452,18.4313;00962;Cataño;Las Vegas
+0;-67.0307,18.1852;00606;Mayagüez;Las Vegas
+0;-65.6382,18.2722;00735;Naguabo;Las Vegas
+0;-66.5274,18.0519;00795;Juana Díaz;Las Viudas
+0;-65.8888,18.0713;00767;Yabucoa;Laura
+0;-67.0999,18.1300;00660;Hormigueros;Lavadero
+0;-66.8032,18.4513;00659;Hatillo;Lechuga
+0;-66.0285,18.3597;00976;Trujillo Alto;Leprocomio
+29785;-66.1816,18.4500;00952;Toa Baja;Levittown
+1303;-66.9424,18.0430;00637;Sabana Grande;Liborio Negron Torres
+0;-66.8327,18.0019;00698;Yauco;Limas
+0;-67.0707,18.1872;00636;Mayagüez;Limón
+0;-65.7068,18.2508;00740;Naguabo;Limones
+0;-65.9024,18.0836;00767;Yabucoa;Limones
+0;-66.8510,18.4863;00627;Camuy;Linda Vista
+0;-66.6346,17.9886;00716;Ponce;Liro Del Sur
+0;-66.0427,18.3716;00978;San Juan;Litheda
+0;-67.1094,18.0294;00667;Lajas;Llanos
+0;-67.1319,18.0686;00623;Cabo Rojo;Llanos Tuna
+0;-66.4093,17.9711;00757;Santa Isabel;Llanso de Santa Isabel
+0;-67.1516,18.2011;00680;Mayagüez;Llavit
+2005;-66.9046,18.0383;00698;Sabana Grande;Lluveras
+4311;-65.8802,18.4313;00772;Loíza;Loíza
+0;-66.0527,18.4488;00901;San Juan;Loíza
+0;-65.9138,18.3749;00729;Loíza;Loíza Valley
+0;-65.9865,18.3736;00976;Trujillo Alto;Loma Alta
+0;-66.3224,18.3363;00783;Corozal;Loma Linda
+953;-65.9088,18.2686;00777;Canóvanas;Lomas
+0;-65.7293,18.2100;00718;Naguabo;Lomas Del Triunfo
+0;-67.1294,18.1739;00680;Mayagüez;Lomas Lindas
+0;-66.1493,18.3747;00956;Bayamón;Lomas Verdes
+0;-66.0107,18.3611;00976;Trujillo Alto;Lomas de Santa Marta
+0;-66.0202,18.3591;00976;Trujillo Alto;Lomas de Trujillo Alto
+0;-66.0427,18.4036;00978;San Juan;Lopez Sicardo
+0;-66.1613,18.4200;00956;Bayamón;Los Almendros
+0;-66.5960,18.0127;00716;Ponce;Los Almendros
+0;-66.0074,18.4291;00978;Carolina;Los Angeles
+0;-65.8752,18.0530;00767;Yabucoa;Los Angeles
+0;-66.0982,18.4049;00934;Guaynabo;Los Caobos
+0;-66.5882,18.0013;00715;Ponce;Los Caobos
+0;-66.0154,18.3722;00976;Trujillo Alto;Los Cedros
+0;-66.7229,18.1672;00601;Adjuntas;Los Cerros
+0;-66.0485,18.3575;00978;San Juan;Los Choferes
+0;-66.0190,18.3608;00976;Trujillo Alto;Los Claveles
+0;-66.7277,18.4722;00612;Arecibo;Los Coléricas
+0;-66.3263,18.4086;00692;Vega Alta;Los Colinas
+0;-65.6413,18.2763;00735;Ceiba;Los Colinas Santa Maria
+0;-67.1835,18.1002;00623;Cabo Rojo;Los Flamboyanes
+0;-66.0346,18.2191;00725;Caguas;Los Flamboyanes
+0;-67.0143,18.4952;00662;Isabela;Los Flamboyanes
+0;-66.1066,18.3794;00965;San Juan;Los Frailes
+0;-66.1729,18.4052;00956;Bayamón;Los Grillos
+0;-65.7302,18.2075;00718;Naguabo;Los Hucares
+0;-66.8046,18.0027;00656;Guayanilla;Los Indios
+2301;-66.4057,18.0552;00769;Coamo;Los Llanos
+0;-67.1449,18.2816;00610;Añasco;Los Maestros
+0;-65.9754,18.2547;00778;Gurabo;Los Maestros
+0;-65.8199,18.1514;00791;Humacao;Los Maestros
+0;-65.8421,18.3780;00745;Río Grande;Los Maestros
+0;-66.0346,18.4058;00978;San Juan;Los Maestros
+0;-66.7227,18.1652;00601;Adjuntas;Los Maestros
+0;-66.1891,18.4333;00952;Toa Baja;Los Magos
+0;-66.4860,18.4697;00674;Manatí;Los Molinos
+0;-66.6652,18.3702;00616;Arecibo;Los Muertos
+0;-66.3946,18.4722;00693;Vega Baja;Los Naranjos
+0;-66.6332,17.9983;00716;Ponce;Los Pámpanos
+0;-66.0224,18.3966;00978;San Juan;Los Peñas
+0;-65.7821,18.1625;00741;Humacao;Los Perros
+0;-65.8468,18.1439;00791;Humacao;Los Pinos
+0;-66.3949,18.0416;00769;Coamo;Los Puertos
+0;-66.3099,18.4341;00692;Dorado;Los Puertos
+0;-67.1835,18.3872;00602;Aguada;Los Robles
+0;-67.1202,18.3950;00676;Moca;Los Robles
+0;-66.6074,18.0255;00716;Ponce;Los Rosales
+0;-65.8168,18.1516;00791;Humacao;Los Sauces
+0;-66.8446,18.0336;00698;Yauco;Lucchetti
+0;-66.4877,18.4230;00674;Manatí;Luchetti
+0;-65.6427,18.3027;00738;Fajardo;Luis Cintrón
+3328;-66.5268,18.0569;00795;Juana Díaz;Luis Llorens Torres
+0;-66.0416,18.4480;00901;San Juan;Luis Llorens Torres
+2634;-65.6385,18.2997;00738;Fajardo;Luis M. Cintron
+0;-65.9718,18.1919;00754;San Lorenzo;Luis Munoz Marin
+8326;-65.7165,18.3725;00773;Luquillo;Luquillo
+0;-65.7263,18.3669;00773;Luquillo;Luquillo Lomas
+0;-65.7257,18.3755;00773;Luquillo;Luquillo Mar
+3553;-67.1574,18.3644;00602;Aguada;Luyando
+0;-65.6846,18.3105;00738;Fajardo;Mabí
+0;-65.7788,18.3686;00721;Río Grande;Mabí
+0;-66.7735,18.0558;00656;Guayanilla;Macaná
+0;-66.9438,18.0444;00637;Sabana Grande;Machuchal
+0;-66.2143,18.4044;00953;Toa Baja;Macún
+0;-65.9213,18.2336;00777;Juncos;Madrid
+0;-66.7832,18.0202;00656;Guayanilla;Magas Abajo
+1063;-66.7691,18.0175;00656;Guayanilla;Magas Arriba
+0;-66.2802,17.9719;00751;Salinas;Magdalena
+0;-66.1679,18.3763;00956;Bayamón;Magnolia Gardens
+0;-67.0835,18.0102;00667;Lajas;Maguayo
+0;-66.8880,18.0197;00698;Guánica;Magueyes
+0;-66.6493,18.0436;00716;Ponce;Magueyes
+0;-65.7602,18.2327;00740;Naguabo;Maizales
+0;-67.1607,18.2200;00680;Mayagüez;Malecón
+0;-67.1282,18.4772;00690;Aguadilla;Maleza
+0;-65.8682,18.3538;00729;Río Grande;Malpica
+0;-66.2743,18.4730;00646;Dorado;Mameyal
+0;-65.7702,18.3702;00721;Río Grande;Mameyes
+16092;-66.4921,18.4275;00674;Manatí;Manatí
+0;-67.1696,18.2408;00680;Mayagüez;Maní
+0;-66.1627,18.4408;00952;Cataño;Mansion del Norte
+0;-66.1632,18.4388;00952;Cataño;Mansion del Rio
+0;-66.1627,18.4350;00952;Cataño;Mansion del Sur
+0;-66.0446,18.3880;00978;San Juan;Mansiones Monterrey
+0;-66.0510,18.2630;00725;Caguas;Mansiones de Bairos
+0;-67.1524,18.2208;00680;Mayagüez;Mansiones de Espana
+0;-66.0452,18.3688;00978;San Juan;Mansiones de Rio Piedras
+0;-65.9596,18.4136;00983;Loíza;Mansiones de Villa Carolina
+0;-66.0732,18.3488;00965;San Juan;Mansiones de Villanova
+0;-67.0138,18.4480;00662;Aguadilla;Mantilla
+0;-66.0327,18.4124;00978;San Juan;Manuel A Perez
+0;-66.5368,17.9752;00715;Juana Díaz;Manzanillo
+0;-66.8149,18.4899;00659;Hatillo;Mar Azul
+0;-66.8524,18.4827;00627;Camuy;Maracayo
+0;-66.5788,18.0891;00780;Ponce;Maragüez
+0;-67.1091,18.0886;00623;Cabo Rojo;Margarita
+0;-66.5388,18.1147;00766;Juana Díaz;Margarita
+0;-65.6988,18.3533;00773;Luquillo;Margarita
+1479;-66.8893,17.9783;00653;Guánica;Maria Antonia
+0;-65.9416,18.2647;00778;Gurabo;María Jiménez
+0;-66.0104,18.0072;00723;Patillas;Marian I
+0;-65.9532,18.3336;00983;Carolina;Mariana
+0;-65.7118,18.2364;00718;Naguabo;Mariana
+0;-66.6179,18.0069;00716;Ponce;Mariani
+2387;-66.3324,18.0233;00751;Coamo;Mariano Colón
+1172;-66.9799,18.1808;00606;Maricao;Maricao
+0;-67.1521,18.2000;00680;Mayagüez;Marina
+0;-66.1468,18.4519;00962;Cataño;Marina Bahia
+0;-66.7277,18.4700;00612;Arecibo;Marquez
+0;-66.0704,18.4399;00901;San Juan;Marruecos
+0;-66.7202,18.4663;00612;Arecibo;Marteli
+0;-65.9752,18.3761;00983;Trujillo Alto;Martin Gonzales
+0;-66.0635,18.4275;00978;San Juan;Martin Martell
+0;-66.0527,18.4272;00978;San Juan;Martín Peña
+0;-66.2646,18.4611;00646;Vega Alta;Martonnel
+2884;-65.8982,18.0761;00767;Yabucoa;Martorell
+913;-66.6560,18.0577;00716;Ponce;Marueño
+0;-65.9616,18.1864;00754;San Lorenzo;Masso
+0;-67.0796,18.2666;00610;Añasco;Mata y Orsini
+0;-67.2244,18.3697;00602;Aguada;Matias
+0;-66.8432,18.2680;00669;Lares;Matilde
+0;-66.8474,18.4305;00627;Camuy;Matojillo
+2154;-65.8993,18.0072;00707;Maunabo;Maunabo
+0;-67.1477,18.2155;00680;Mayagüez;Mayagüez Terrace
+0;-65.8057,18.1302;00791;Humacao;Mayo
+0;-66.8374,17.9830;00698;Guayanilla;Media Quijada
+0;-65.8435,18.4244;00772;Loíza;Medianía Alta
+0;-66.2985,18.2983;00783;Corozal;Medina
+0;-65.6588,18.3266;00738;Fajardo;Melendez
+0;-65.8435,18.2066;00771;Las Piedras;Melillas
+0;-66.8705,18.4805;00627;Camuy;Membrillo
+0;-65.9221,18.2319;00777;Juncos;Mendez Lopez
+0;-65.7379,18.2180;00718;Naguabo;Mendoza
+0;-67.1505,18.2002;00680;Mayagüez;Meridional
+0;-65.9852,18.3686;00976;Gurabo;Metropolis
+0;-66.2743,18.4350;00949;Dorado;Mi Querido Viejo
+0;-66.8549,18.2550;00669;Lares;Milagros
+0;-66.0827,18.3602;00965;San Juan;Milaville
+0;-65.8446,18.4222;00772;Loíza;Miñi Miñi
+0;-66.9827,18.0772;00637;San Germán;Minillas
+0;-66.0646,17.9680;00714;Arroyo;Minima Arroyo
+0;-66.0582,17.9747;00714;Arroyo;Minima Brooklin
+0;-65.8960,18.0089;00707;Maunabo;Minima Calimano
+0;-66.2291,18.2155;00782;Comerío;Minima La Plata
+0;-66.2668,18.4594;00646;Dorado;Minima San Antonio
+0;-67.1218,18.1377;00660;Hormigueros;Minima Verdum
+0;-66.1710,18.1094;00736;Cayey;Mirador Echevarria
+0;-66.1521,18.1147;00736;Cayey;Mirador Universitario
+0;-66.0435,18.2638;00725;Caguas;Miradorde Bairea
+0;-66.6516,18.4236;00616;Arecibo;Miraflores
+0;-65.7971,18.1250;00791;Humacao;Miraflores
+0;-67.1555,18.2125;00680;Mayagüez;Miramar
+0;-66.0838,18.4522;00901;San Juan;Miramar
+2057;-66.3838,18.3866;00692;Vega Baja;Miranda
+4964;-67.1132,18.3947;00676;Moca;Moca
+0;-67.1074,18.3908;00676;Moca;Moca Gardens
+0;-66.0724,18.3616;00978;Aguas Buenas;Monacillo
+0;-65.9488,18.4049;00983;Carolina;Monserrate
+0;-65.7307,18.3794;00773;Luquillo;Monserrate
+2756;-66.3596,18.4366;00693;Vega Baja;Monserrate
+0;-66.2977,17.9819;00751;Salinas;Monserrate
+0;-67.0991,18.4880;00690;Aguadilla;Montaña
+0;-66.6066,18.3613;00650;Arecibo;Montaña
+0;-66.1838,18.3705;00956;Bayamón;Montanez
+0;-66.8730,18.2927;00669;Lares;Monte Bello
+0;-66.1141,18.3752;00965;Guaynabo;Monte Bello
+0;-65.6557,18.3463;00738;Fajardo;Monte Brisas
+0;-66.3916,18.4469;00693;Vega Baja;Monte Carlo
+0;-66.1954,18.4161;00952;Bayamón;Monte Claro
+0;-66.6946,18.4627;00612;Arecibo;Monte Grande
+1817;-67.1074,18.0875;00623;Cabo Rojo;Monte Grande
+0;-66.2977,18.4466;00646;Dorado;Monte Lindo
+0;-67.1830,18.3841;00602;Aguada;Monte Mar
+0;-66.0929,17.9802;00784;Guayama;Monte Mar
+0;-66.0152,18.3913;00978;San Juan;Monte Park
+0;-67.1513,18.4327;00603;Aguadilla;Monte Real
+0;-66.7296,18.4711;00612;Arecibo;Monte Rey
+0;-66.2016,18.3780;00953;Toa Alta;Monte Verdes
+0;-66.5232,18.3680;00650;Manatí;Montebello
+0;-65.9946,18.3497;00976;Trujillo Alto;Montecillo
+0;-65.9949,18.3427;00976;Gurabo;Montecillo II
+0;-66.0554,18.4377;00901;San Juan;Monteflores
+0;-65.9568,18.1819;00754;San Lorenzo;Monterrey
+0;-66.3135,18.4213;00692;Vega Alta;Monterrey
+0;-66.0379,18.3858;00978;San Juan;Monterrey
+0;-67.0324,18.4680;00662;Aguadilla;Mora
+1857;-67.0327,18.4630;00662;Isabela;Mora
+0;-66.0588,18.2316;00725;Caguas;Morales
+0;-67.1269,18.0377;00622;Cabo Rojo;Morales Díaz
+2414;-66.4066,18.3258;00687;Morovis;Morovis
+0;-66.6349,18.0147;00716;Ponce;Morel Campos
+1690;-66.2160,18.3908;00953;Toa Alta;Mucarabones
+0;-66.6136,17.9660;00716;Ponce;Muelle de Ponce
+0;-66.0904,18.1755;00739;Caguas;Muñoz Grillo
+0;-66.1066,18.3741;00965;Guaynabo;Muñoz Rivera
+0;-66.9855,18.2547;00670;Las Marías;Muñoz Torruellas
+73077;-67.1396,18.2011;00680;Mayagüez;Mayagüez
+0;-67.1502,18.1783;00680;Mayagüez;Nadal
+4643;-65.7349,18.2116;00718;Naguabo;Naguabo
+0;-65.7365,18.2089;00718;Naguabo;Naguabo Valley
+0;-66.9988,18.2097;00606;Las Marías;Naranjales
+2005;-66.2449,18.3008;00719;Naranjito;Naranjito
+0;-66.5335,18.3255;00650;Ciales;Negrito
+0;-66.0793,18.4208;00934;San Juan;Nemesio Canales
+0;-67.1471,18.2013;00680;Mayagüez;Nieves Bonet
+0;-66.0446,18.2313;00725;Caguas;Notre Dame
+0;-67.1541,18.4258;00603;Aguadilla;Nuevo
+0;-66.0954,18.3780;00965;Guaynabo;Oasis Gardens
+0;-66.7421,18.4727;00612;Arecibo;Obrero
+0;-66.0524,18.4341;00978;San Juan;Obrero
+0;-66.0543,18.4522;00901;San Juan;Ocean Park
+0;-66.7360,18.4702;00612;Arecibo;Oceanview
+0;-66.3993,18.4488;00693;Vega Baja;Ojo de Agua
+0;-66.1507,18.3919;00956;Bayamón;Olazabal
+2493;-66.1082,18.0019;00784;Guayama;Olimpo
+0;-67.0707,18.0022;00667;Lajas;Olivares
+0;-66.1924,18.3938;00952;Bayamón;Oliver
+0;-66.5291,18.0469;00780;Juana Díaz;Ollas Hondas
+0;-66.7143,18.4413;00612;Arecibo;Oriente
+944;-66.3910,18.2269;00720;Orocovis;Orocovis
+0;-66.4474,18.1658;00766;Villalba;Ortiga
+0;-66.3199,18.3266;00783;Corozal;Ortíz
+0;-66.9932,18.3336;00685;San Sebastián;Pacalelo 38
+0;-66.1438,18.3644;00965;Bayamón;Pacelas Juan Sanchez
+0;-65.9985,18.3533;00976;Trujillo Alto;Pacifica
+0;-66.3446,18.3219;00783;Corozal;Padilla
+0;-66.1888,18.3633;00956;Bayamón;Pájaro Puertorriqueño
+9466;-66.2168,18.3686;00953;Toa Alta;Pájaros
+0;-66.2102,18.3988;00952;Toa Baja;Pájaros
+761;-66.5557,18.3822;00650;Florida;Pajonal
+0;-66.4596,18.0950;00766;Villalba;Palma Sola
+1087;-66.3255,18.0680;00769;Coamo;Palmarejo
+0;-66.2971,18.3180;00783;Corozal;Palmarejo
+1169;-67.0768,18.0402;00667;Lajas;Palmarejo
+0;-65.8904,18.3961;00729;Loíza;Palmarejo
+0;-66.5532,18.0422;00780;Ponce;Palmarejo
+0;-65.8752,18.4286;00772;Loíza;Palmarenas
+2829;-66.0254,17.9872;00723;Arroyo;Palmas
+0;-65.7979,18.0819;00791;Humacao;Palmas del Mar
+0;-66.0635,18.2175;00725;Caguas;Palmas del Turabo
+1205;-65.7741,18.3705;00721;Río Grande;Palmer
+0;-66.1160,18.3636;00965;Guaynabo;Palmer de Rio
+0;-66.4480,18.4216;00674;Manatí;Palo Alto
+0;-66.6488,18.4272;00616;Arecibo;Palo Blanco
+1152;-65.9368,18.0075;00707;Maunabo;Palo Seco
+0;-66.1446,18.4611;00962;Toa Baja;Palo Seco
+0;-66.8046,18.4366;00659;Hatillo;Paloma
+0;-66.8749,18.4524;00627;Camuy;Palomar
+1742;-66.2563,18.2325;00782;Comerío;Palomas
+2321;-66.8732,18.0136;00698;Yauco;Palomas
+0;-67.1621,18.0927;00623;Cabo Rojo;Parabueyón
+0;-67.0405,18.0600;00667;Lajas;Parada de Señal Fulminante
+0;-67.0249,18.0316;00667;Lajas;Parada de Señal Irizarry
+0;-65.7007,18.2819;00735;Fajardo;Paraíso
+0;-66.1232,17.9722;00784;Guayama;Parce Las Blondet
+0;-66.0160,18.4030;00978;San Juan;Parcelas Falú
+1344;-66.1882,18.1708;00739;Cidra;Parcelas La Milagrosa
+0;-67.1313,18.1694;00660;Mayagüez;Parcelas Lomas Verdes
+0;-65.6618,18.2750;00735;Fajardo;Parcelas Machos
+1628;-66.1724,18.1402;00736;Cidra;Parcelas Nuevas
+1132;-66.3413,17.9989;00751;Santa Isabel;Parcelas Peñuelas
+0;-67.1352,18.2047;00680;Mayagüez;Paris
+0;-66.0321,18.3888;00978;San Juan;Park Gardens
+0;-66.1918,18.4044;00952;Bayamón;Parker
+0;-65.8752,18.1769;00771;Las Piedras;Parkhurst
+0;-66.1029,18.4075;00934;Guaynabo;Parkside
+0;-66.0971,18.3680;00965;Guaynabo;Parkville
+0;-66.0602,18.4527;00901;San Juan;Parque
+0;-67.1388,18.2863;00610;Añasco;Parque Atletico Francisco Pagan
+0;-66.0868,18.3702;00965;San Juan;Parque Bucare II
+0;-66.0682,18.3472;00978;San Juan;Parque Forestal
+0;-66.0096,18.4255;00978;San Juan;Parque Isla Verde
+0;-66.0063,18.2186;00725;Caguas;Parque Las Mercedes
+0;-66.0507,18.2291;00725;Caguas;Parque de Bonneville
+0;-65.9982,18.3472;00976;Trujillo Alto;Parque del Monte
+0;-66.0588,18.3469;00978;San Juan;Paseo Alta
+0;-66.0621,18.3466;00978;Aguas Buenas;Paseo Las Brisa
+0;-66.0590,18.3486;00978;San Juan;Paseo Las Vistas
+0;-66.0582,18.3541;00978;San Juan;Paseo Mayor
+0;-66.2571,18.1408;00705;Aibonito;Paseo Monte Carlos
+0;-66.0613,18.3547;00978;San Juan;Paseo Real
+0;-66.0949,17.9766;00784;Guayama;Paseo Rivera
+0;-66.2841,18.4625;00646;Dorado;Paseo de Dorado
+0;-66.0632,18.3544;00978;San Juan;Paseo de la Fuentes
+0;-66.0602,18.3444;00978;San Juan;Paseo del Prado
+0;-67.1377,18.1666;00660;Mayagüez;Paseo la Sultana
+0;-66.3899,18.0027;00757;Santa Isabel;Paso Seco
+0;-66.4860,18.0088;00795;Juana Díaz;Pastillito
+0;-66.4849,17.9919;00795;Juana Díaz;Pastillo
+0;-66.6621,18.0372;00716;Ponce;Pastillo
+0;-66.6643,18.0394;00716;Ponce;Pastillo Cana
+0;-65.7902,18.1705;00741;Humacao;Pasto Viejo
+1528;-66.2588,18.1177;00705;Aibonito;Pastos
+0;-65.8338,18.1447;00791;Humacao;Patagonia
+4247;-66.0157,18.0064;00723;Patillas;Patillas
+0;-65.6813,18.3536;00773;Luquillo;Paulina
+0;-66.0079,18.3549;00976;Trujillo Alto;Pedro Regalado Diaz
+0;-66.9935,18.3388;00685;San Sebastián;Pedro Tomas La Valle
+0;-66.7013,18.2033;00601;Adjuntas;Pellejas
+0;-67.1474,18.1863;00680;Mayagüez;Pena
+0;-67.1594,18.2222;00680;Mayagüez;Peña Cortada
+1024;-65.8221,18.2155;00744;Naguabo;Peña Pobre
+6847;-66.7216,18.0563;00624;Peñuelas;Peñuelas
+0;-66.3510,18.0091;00751;Santa Isabel;Peñuelas
+0;-66.7260,18.0644;00624;Peñuelas;Penuelas Valley
+0;-66.9807,18.3086;00685;San Sebastián;Perchas
+0;-65.8238,18.1502;00791;Humacao;Pereyo
+0;-66.7043,18.2677;00641;Utuado;Perez Matos
+0;-66.0535,18.4152;00978;San Juan;Pérez Morris
+0;-66.1238,17.9630;00784;Guayama;Pica
+0;-67.0438,18.1288;00683;San Germán;Pico
+0;-67.2449,18.3430;00677;Rincón;Pico Alalaya
+0;-66.4929,18.0380;00795;Juana Díaz;Piedra Aguzada
+1927;-66.8877,18.4341;00678;Camuy;Piedra Gorda
+0;-66.7985,18.0169;00656;Guayanilla;Piedras Blancas
+0;-66.2246,18.3663;00953;Toa Alta;Piña
+0;-66.2277,18.1844;00786;Comerío;Piñas
+0;-65.9574,18.4502;00983;Loíza;Piñones
+0;-66.0510,17.9941;00714;Arroyo;Pitahaya
+0;-65.8254,18.1819;00791;Humacao;Pitahaya
+0;-65.7165,18.3422;00773;Luquillo;Pitahaya
+0;-67.1635,18.1425;00660;Cabo Rojo;Plan Bonito
+0;-66.1732,18.4430;00952;Toa Baja;Plantaje
+0;-65.7185,18.3808;00773;Luquillo;Playa Azul
+0;-66.4413,17.9766;00757;Santa Isabel;Playa Cortada
+2037;-65.7452,18.3797;00773;Luquillo;Playa Fortuna
+0;-67.1788,18.2555;00610;Mayagüez;Playa Grande
+0;-65.6360,18.3455;00738;Fajardo;Playa Sardinera
+0;-65.6324,18.3327;00738;Fajardo;Playa de Fajardo
+0;-66.9082,17.9650;00653;Guánica;Playa de Guánica
+0;-65.8218,18.0616;00767;Yabucoa;Playa de Guayanés
+0;-66.7718,18.0061;00656;Guayanilla;Playa de Guayanilla
+0;-65.7432,18.1672;00741;Humacao;Playa de Humacao
+0;-65.7165,18.1902;00718;Naguabo;Playa de Naguabo
+0;-66.6207,17.9819;00716;Ponce;Playa de Ponce
+0;-66.3004,17.9625;00751;Santa Isabel;Playa de Salinas
+0;-66.4093,17.9552;00757;Santa Isabel;Playa de Santa Isabel
+673;-66.2896,17.9605;00751;Salinas;Playita
+2192;-65.9074,18.0447;00767;Yabucoa;Playita
+1677;-66.4391,17.9850;00757;Santa Isabel;Playita Cortada
+0;-66.1138,17.9494;00784;Guayama;Playita Machete
+0;-66.7930,18.0230;00656;Guayanilla;Poblado Sitios
+1829;-67.1852,17.9750;00622;Cabo Rojo;Pole Ojea
+137491;-66.6240,18.0103;00716;Ponce;Ponce
+0;-66.1004,18.3711;00965;Guaynabo;Ponce de León
+0;-67.1238,18.2086;00680;Mayagüez;Ponce de Leon
+0;-66.6238,18.0061;00716;Ponce;Ponce de León
+0;-67.0335,18.0811;00683;San Germán;Porta Coeli
+0;-66.0285,18.2275;00725;Caguas;Portales Reales
+3819;-66.4966,17.9914;00795;Juana Díaz;Potala Pastillo
+0;-66.1727,18.4333;00952;Toa Alta;Pradera
+0;-65.9899,18.3438;00976;Trujillo Alto;Primavera
+0;-66.0035,17.9875;00723;Patillas;Providencia
+0;-66.9674,18.4338;00678;Isabela;Pueblito de Ponce
+1481;-65.8629,18.2280;00771;Las Piedras;Pueblito del Rio
+0;-67.1466,18.0894;00623;Cabo Rojo;Pueblo Norte
+0;-67.1502,18.0886;00623;Cabo Rojo;Pueblo Nuevo
+0;-66.8543,18.4605;00627;Camuy;Pueblo Nuevo
+0;-66.9757,18.1811;00606;Maricao;Pueblo Nuevo
+0;-67.1441,18.2002;00680;Mayagüez;Pueblo Nuevo
+0;-66.0249,18.3683;00976;Trujillo Alto;Pueblo Seco
+0;-67.1455,18.0847;00623;Cabo Rojo;Pueblo Sur
+0;-66.1349,18.4272;00934;Cataño;Puente Blanco
+0;-65.8877,17.9922;00707;Maunabo;Puerto Maunabo
+0;-66.0818,18.4116;00934;San Juan;Puerto Nuevo
+0;-66.0893,18.4158;00934;San Juan;Puerto Nuevo Norte
+6166;-67.1871,18.0750;00623;Cabo Rojo;Puerto Real
+0;-66.1835,17.9522;00784;Guayama;Puerto de Jobos
+0;-66.1027,18.4644;00901;San Juan;Puerts de Tierra
+0;-66.4141,18.4291;00693;Vega Baja;Pugnado Afuera
+0;-66.1699,18.4052;00956;Bayamón;Punta Brava
+0;-66.8788,18.4374;00627;Camuy;Punta Brava
+0;-66.8118,18.4494;00659;Hatillo;Punta Brava
+0;-66.5335,18.0058;00715;Ponce;Punta Brava
+0;-66.0399,18.4516;00901;San Juan;Punta Las Marías
+5803;-65.7482,18.1664;00741;Humacao;Punta Santiago
+0;-66.3080,18.4052;00692;Dorado;Punto Cubano
+1130;-66.8321,18.3566;00669;Camuy;Quebrada
+0;-66.1657,18.1450;00739;Cidra;Nogueras
+0;-66.0143,18.3488;00976;Trujillo Alto;Quebrada Colorado
+0;-66.2763,18.1847;00794;Barranquitas;Quebrada Grande
+5620;-66.9385,18.4738;00678;Quebradillas;Quebradillas
+0;-65.9868,18.1825;00754;San Lorenzo;Quemados
+0;-66.5677,17.9683;00715;Ponce;Quinta Esperanza
+0;-66.5946,18.0472;00716;Ponce;Quinta de Monserrate
+0;-66.0479,18.4147;00978;San Juan;Quintana
+0;-65.8979,18.3711;00729;Canóvanas;Quintas de Canovanas
+0;-65.9918,18.4188;00983;Carolina;Quintas de Country Club
+0;-66.2780,18.4638;00646;Dorado;Quintas de Dorado
+0;-66.1771,18.3947;00956;Bayamón;Quintas de Flamingo
+0;-65.8204,18.1464;00791;Humacao;Quintas de Humacao
+0;-66.1057,18.3694;00965;Guaynabo;Quintas de Parkville
+0;-67.1319,18.1950;00680;Mayagüez;Quintas de San Francisco
+0;-66.2005,18.4030;00952;Toa Baja;Quintas del Norte
+0;-66.1588,18.4172;00956;Bayamón;Quintas del Rio
+0;-66.2404,18.0350;00765;Salinas;Rabo del Buey
+0;-66.7513,18.4758;00612;Arecibo;Radioville
+0;-66.5466,18.3644;00650;Barceloneta;Rafael Arroyo
+1863;-66.7821,18.4072;00659;Hatillo;Rafael Capo
+2325;-66.7868,18.4275;00659;Hatillo;Rafael Gonzalez
+1516;-67.0791,18.4713;00690;Aguadilla;Rafael Hernandez
+0;-67.1477,18.2108;00680;Mayagüez;Ramirez Agrait
+0;-67.1560,18.1880;00680;Mayagüez;Ramirez de Arellano
+0;-65.9766,18.3116;00976;San Sebastián;Ramón Colón
+0;-66.0668,18.3986;00978;San Juan;Ramón Nevares
+0;-66.3691,18.3336;00687;Morovis;Ramón Pabón
+2004;-65.7127,18.3397;00773;Luquillo;Ramos
+0;-65.8796,18.0491;00767;Yabucoa;Ramos Antonini
+0;-66.0271,18.4102;00978;San Juan;Ramos Antonini
+0;-66.5657,18.0775;00780;Ponce;Real Abajo
+0;-66.5727,18.1194;00780;Ponce;Real Anón
+0;-66.5632,18.0958;00780;Ponce;Real Arriba
+0;-65.9582,17.9716;00723;Patillas;Recio
+0;-66.3321,18.4397;00692;Vega Alta;Regadera
+0;-65.8113,18.1494;00791;Humacao;Reparto
+0;-65.8702,18.1855;00771;Las Piedras;Reparto Arenales
+0;-66.2546,18.1408;00705;Aibonito;Reparto Bella Vista
+0;-66.4746,18.3288;00638;Ciales;Reparto Cabilla
+0;-66.3591,18.0822;00769;Coamo;Reparto Colinas de Coamo
+0;-66.3099,18.1908;00794;Barranquitas;Reparto Colinas de Monte Verde
+0;-66.2502,18.3877;00953;Toa Alta;Reparto Diaz
+0;-67.0549,18.0411;00667;Lajas;Reparto El Valle
+0;-66.4099,17.9686;00757;Santa Isabel;Reparto Flamboyan
+0;-66.7005,18.0539;00624;Peñuelas;Reparto Guaynes
+0;-65.8838,18.0433;00767;Yabucoa;Reparto Horizonte
+0;-66.8591,18.0386;00698;Yauco;Reparto La Esperanza
+0;-65.6279,18.3316;00738;Fajardo;Reparto La Playa
+0;-66.1063,17.9822;00784;Guayama;Reparto La Sabana
+0;-67.1866,18.3897;00602;Aguada;Reparto Los Maestros
+0;-67.1935,18.3791;00602;Aguada;Reparto Minerva
+0;-67.0268,18.4913;00662;Isabela;Reparto Miraflores
+0;-66.1929,18.4025;00952;Bayamón;Reparto Rivera
+0;-66.9927,18.3391;00685;San Sebastián;Reparto Roman
+0;-65.9727,18.2511;00778;Gurabo;Reparto San Jose
+0;-66.0374,18.3538;00978;San Juan;Reparto San Rafael
+0;-66.0060,18.3675;00976;Trujillo Alto;Reparto San Rafael
+0;-65.7357,18.2161;00718;Naguabo;Reparto Santiago
+0;-66.0199,18.4022;00978;San Juan;Reparto Sevilla
+0;-66.0413,18.3941;00978;San Juan;Reparto Universitario
+0;-66.0413,18.3925;00978;San Juan;Reparto Universitario San Antonio
+0;-66.7118,18.0536;00624;Peñuelas;Reparto Valle Alto
+0;-65.6577,18.3380;00738;Fajardo;Reparto Valle Verde
+0;-66.1721,18.3669;00956;Bayamón;Reparto Zarina
+0;-66.7218,18.1575;00601;Adjuntas;Residencial Alturas de Adjuntas
+0;-66.5396,18.4558;00617;Barceloneta;Residencial Antonio Davila Freyte
+0;-66.2960,17.9794;00751;Salinas;Residencial Bella Vista
+0;-66.0582,17.9725;00714;Arroyo;Residencial Brisas de Arroyo
+0;-66.1604,18.4147;00956;Bayamón;Residencial Brisas de Bayamon
+0;-65.8993,18.0061;00707;Maunabo;Residencial Carmen H Martorell
+0;-66.0254,18.2338;00725;Caguas;Residencial Castellon
+0;-66.4643,18.3438;00638;Ciales;Residencial Colinas de Jaguas
+0;-65.8785,18.0444;00767;Yabucoa;Residencial Doctoro Victor Berrios
+0;-66.7343,18.4641;00612;Arecibo;Residencial Doctoro Zeno Gandia
+0;-66.4716,18.3438;00638;Ciales;Residencial Dos Rios
+0;-66.4955,18.1300;00766;Villalba;Residencial Efrain Suarez Negron
+0;-65.7143,18.3708;00773;Luquillo;Residencial El Cemi
+0;-66.1296,18.4386;00962;Cataño;Residencial El Coqui
+0;-66.0413,18.4341;00978;San Juan;Residencial El Mirador
+0;-65.7132,18.3719;00773;Luquillo;Residencial El Yuquiyu
+0;-66.3888,18.4472;00693;Vega Baja;Residencial Enrique Catoni
+0;-66.4849,18.4241;00674;Manatí;Residencial Enrique Zorilla
+0;-66.1035,18.2602;00703;Aguas Buenas;Residencial Espiritu Santo
+0;-66.6991,18.2694;00641;Utuado;Residencial Fernando L Garcia
+0;-67.1932,18.3811;00602;Aguada;Residencial Francisco Egipciaco
+0;-67.1402,18.2855;00610;Añasco;Residencial Francisco Figueroa
+0;-66.8779,18.2986;00669;Lares;Residencial Francisco Sein
+0;-66.3318,18.4136;00692;Vega Alta;Residencial Francisco Vega Sanchez
+0;-65.8229,18.3772;00745;Río Grande;Residencial H Ramirez
+0;-66.0277,18.3680;00976;Trujillo Alto;Residencial Interamericana
+0;-66.0632,17.9652;00714;Arroyo;Residencial Isidro Cora
+0;-66.5049,18.0494;00795;Juana Díaz;Residencial J F Kennedy
+0;-65.6518,18.2613;00735;Ceiba;Residencial Jardines de Ceiba
+0;-66.1652,18.1733;00739;Cidra;Residencial Jardines de Cidra
+0;-66.9057,17.9777;00653;Guánica;Residencial Jardines de Guanica
+0;-66.1116,18.3608;00965;Guaynabo;Residencial Jardines de Guaynablo
+0;-65.8991,18.3763;00729;Canóvanas;Residencial Jesus T Pinero
+0;-66.9635,18.0800;00637;Sabana Grande;Residencial Jose Castillo Mercado
+0;-66.3924,18.2230;00720;Orocovis;Residencial Jose Fortis
+0;-66.0410,18.2169;00725;Caguas;Residencial Jose Gautier Benitez
+0;-66.9805,18.1825;00606;Maricao;Residencial Juan Ferrer
+0;-66.1288,18.4363;00962;Cataño;Residencial Juana Matos
+0;-65.6460,18.2669;00735;Ceiba;Residencial La Ceiba
+0;-66.0241,18.2211;00725;Caguas;Residencial La Meseta
+0;-66.5979,18.2172;00664;Jayuya;Residencial La Montana
+0;-65.8652,18.1805;00771;Las Piedras;Residencial La Rivera
+0;-65.9621,18.3905;00983;Carolina;Residencial Lagos de Blasina
+0;-66.0363,18.4344;00978;San Juan;Residencial Las Margaritas
+0;-66.3629,18.0780;00769;Coamo;Residencial Las Palmas
+0;-66.3130,18.4133;00692;Vega Alta;Residencial Las Videtas
+0;-66.1049,18.3630;00965;Guaynabo;Residencial Los Alamos
+0;-65.7238,18.0558;00741;Peñuelas;Residencial Los Flamboyanes
+0;-65.9546,18.3905;00983;Carolina;Residencial Los Naranjales
+0;-65.9779,18.2544;00778;Gurabo;Residencial Luis Del Carmen Echevaria
+0;-66.0479,18.4472;00901;San Juan;Residencial Luis Llorens Torres
+0;-66.1110,17.9730;00784;Guayama;Residencial Luis Pales Matos
+0;-66.1127,18.3591;00965;Guaynabo;Residencial Mabo
+0;-66.3632,18.0758;00769;Coamo;Residencial Manuel J Rivera
+0;-66.2224,18.2213;00782;Comerío;Residencial Manuel Martorell
+0;-66.1238,18.4405;00962;Cataño;Residencial Matienzo Cintron
+0;-66.5896,18.2197;00664;Jayuya;Residencial Mattei
+0;-66.2980,17.9791;00751;Salinas;Residencial Modesto Cintron
+0;-65.6402,18.2711;00735;Naguabo;Residencial Mundo Plaza
+0;-66.5379,18.4586;00617;Barceloneta;Residencial Plazuela
+0;-66.1588,18.1727;00739;Cidra;Residencial Prexedes Santiago
+0;-65.6393,18.3336;00738;Fajardo;Residencial Puerto Real
+0;-66.8471,18.4852;00627;Camuy;Residencial Ramon Adames
+0;-66.4071,18.3222;00687;Morovis;Residencial Riverdo Tomas M Sorrolla
+0;-66.8266,18.4847;00659;Hatillo;Residencial Ruiz Miranda
+0;-66.7285,18.1686;00601;Adjuntas;Residencial Valle Verde
+0;-66.3043,18.1825;00794;Barranquitas;Residencial Villa Universidad
+0;-66.0129,18.0055;00723;Patillas;Residencial Villa del Caribe
+0;-66.1057,18.2547;00703;Aguas Buenas;Residencial Vista Alegre
+0;-66.1004,18.2605;00703;Aguas Buenas;Residencial Vistas de Jagueyes
+0;-67.1377,18.1944;00680;Mayagüez;Residencial Yaguez
+0;-67.1796,18.3855;00602;Aguada;Residencials Jardines de Aguada
+0;-66.1427,17.9555;00784;Guayama;Reunión
+0;-66.1035,17.9833;00784;Guayama;Rexmanor
+0;-66.1924,18.3672;00956;Bayamón;Rexville
+0;-65.9840,18.3505;00976;Trujillo Alto;Riachuelo
+0;-66.5438,18.0480;00780;Ponce;Rincón
+1499;-67.2499,18.3402;00677;Rincón;Rincón
+0;-66.0190,18.3558;00976;Trujillo Alto;Rincon Espanol
+0;-65.8588,18.2280;00771;Las Piedras;Río
+0;-65.8029,18.1508;00791;Humacao;Río Abajo
+0;-66.3863,18.4236;00693;Vega Baja;Río Abajo
+1406;-65.7885,18.2183;00744;Naguabo;Río Blanco
+0;-66.4263,18.0491;00769;Juana Díaz;Río Cañas
+0;-66.6366,18.0027;00716;Ponce;Rio Canas
+1185;-66.4677,18.0383;00795;Juana Díaz;Río Cañas Abajo
+13467;-65.8313,18.3802;00745;Río Grande;Río Grande
+0;-65.8471,18.3808;00745;Río Grande;Rio Grande Hills
+0;-66.2496,18.2127;00782;Comerío;Río Hondo
+0;-66.3329,18.0211;00751;Coamo;Río Jueyes
+2349;-66.2677,18.3947;00953;Dorado;Río Lajas
+0;-66.7218,18.0594;00624;Peñuelas;Rio Sol
+0;-65.8357,18.1552;00791;Humacao;Rivera Donato
+0;-66.2699,18.3274;00719;Naranjito;Rivera y Lomas
+0;-66.0443,18.3619;00978;San Juan;Riveras de Cupey
+0;-67.0305,18.0805;00683;San Germán;Riverside
+0;-66.7235,18.0614;00624;Peñuelas;Riverside
+0;-66.1616,18.4169;00956;Bayamón;Riverview
+0;-66.1729,18.4150;00952;Bayamón;Riverview
+0;-66.2485,18.1336;00705;Aibonito;Robles
+0;-66.1790,18.2020;00739;Cidra;Rodríguez Hevia
+0;-65.9838,18.3800;00983;Carolina;Rolling Hills
+0;-66.0779,18.3666;00978;San Juan;Romany
+0;-65.8290,18.1563;00791;Humacao;Roosevelt
+0;-67.1480,18.1966;00680;Mayagüez;Roosevelt
+0;-65.9649,18.1955;00754;San Lorenzo;Roosevelt
+0;-65.9524,18.3849;00983;Carolina;Rosa María
+1221;-65.9135,18.0616;00767;Yabucoa;Rosa Sanchez
+0;-67.0791,18.1625;00636;San Germán;Rosario
+0;-66.0324,18.4166;00978;San Juan;Rosendo Matienzo Cintron
+0;-66.0171,18.3749;00976;San Juan;Round Hill
+0;-66.1793,18.3761;00956;Bayamón;Royal Gardens
+0;-66.1718,18.3658;00956;Bayamón;Royal Town
+0;-66.6918,18.0919;00624;Peñuelas;Rucio
+0;-66.4032,18.3222;00687;Morovis;Russe
+0;-67.1493,18.1766;00680;Mayagüez;Sábalos
+0;-66.1874,18.3300;00719;Bayamón;Sabana
+0;-66.1182,18.4313;00962;Guaynabo;Sabana
+0;-66.1127,18.4294;00962;Guaynabo;Sabana
+0;-65.7277,18.3247;00773;Luquillo;Sabana
+1946;-66.3585,18.4608;00693;Vega Baja;Sabana
+0;-65.9827,18.4097;00983;Carolina;Sabana Abajo
+0;-67.1510,18.1150;00623;Cabo Rojo;Sabana Alta
+1847;-67.0810,18.0861;00683;San Germán;Sabana Eneas
+0;-65.9724,18.4144;00983;Carolina;Sabana Gardens
+8961;-66.9604,18.0777;00637;Sabana Grande;Sabana Grande
+1823;-66.6138,18.4338;00688;Arecibo;Sabana Hoyos
+0;-66.3310,18.0369;00769;Coamo;Sabana Hoyos
+0;-66.2513,18.0244;00765;Salinas;Sabana Llana
+0;-66.5280,18.0194;00715;Juana Díaz;Sabana Llana Abajo
+0;-66.5130,18.0313;00795;Juana Díaz;Sabana Llana Arriba
+0;-66.4749,18.4158;00674;Manatí;Sabana Seca
+6247;-66.1846,18.4269;00952;Toa Baja;Sabana Seca
+0;-66.5846,18.0125;00715;Ponce;Sabanetas
+0;-66.0571,17.9683;00714;Arroyo;Sagrado Corazon
+0;-66.0524,18.3749;00978;San Juan;Sagrado Corazón
+0;-66.9113,17.9719;00653;Guánica;Sagrado Corozon
+0;-66.0118,18.3680;00976;Trujillo Alto;Saint Just
+0;-66.6043,18.0091;00716;Ponce;Salazar
+0;-65.7049,18.2911;00740;Fajardo;Saldaña
+0;-66.2966,17.9811;00751;Salinas;Salimar
+6375;-66.2980,17.9775;00751;Salinas;Salinas
+0;-65.8204,18.3497;00745;Río Grande;Samuel Davila
+0;-67.0738,18.1272;00636;San Germán;San Agustín
+0;-66.0382,18.3947;00978;San Juan;San Agustín
+0;-66.7943,18.0308;00656;Guayanilla;San Agusto
+0;-66.6057,18.0036;00716;Ponce;San Antón
+2300;-67.0985,18.4922;00690;Aguadilla;San Antonio
+0;-66.1060,18.2602;00703;Aguas Buenas;San Antonio
+0;-67.1374,18.2855;00610;Añasco;San Antonio
+0;-66.0588,17.9697;00714;Arroyo;San Antonio
+0;-66.0302,18.2436;00725;Caguas;San Antonio
+6456;-66.3027,18.4488;00646;Dorado;San Antonio
+0;-65.8227,18.1575;00791;Humacao;San Antonio
+0;-66.6327,18.0055;00716;Ponce;San Antonio
+1203;-66.9315,18.4396;00678;Quebradillas;San Antonio
+0;-66.9732,18.0800;00637;Sabana Grande;San Antonio
+0;-66.1388,18.3408;00965;Bayamón;San Augustin I
+0;-66.1432,18.3397;00965;Bayamón;San Augustin II
+0;-67.1377,18.1866;00680;Mayagüez;San Benito
+0;-66.0113,18.0038;00723;Patillas;San Benito
+0;-66.0429,18.2086;00725;Caguas;San Carlos
+0;-66.2921,18.4425;00646;Dorado;San Carlos
+0;-67.1849,18.3811;00602;Aguada;San Cristobal
+0;-65.7279,18.2166;00718;Naguabo;San Cristóbal
+0;-66.3371,18.0980;00769;Coamo;San Diego
+0;-65.7852,18.2136;00744;Naguabo;San Eladio
+0;-66.2152,17.9702;00704;Salinas;San Felipe
+0;-66.7268,18.1655;00601;Adjuntas;San Felipe
+0;-66.3207,18.3375;00783;Corozal;San Feliz
+0;-66.0629,18.3713;00978;San Juan;San Fernando
+0;-66.2546,18.3875;00953;Toa Alta;San Fernando
+0;-67.1830,18.3824;00602;Aguada;San Francisco
+0;-66.7138,18.4486;00612;Arecibo;San Francisco
+0;-66.0815,18.3794;00978;San Juan;San Francisco
+0;-66.0571,18.3744;00978;San Juan;San Gerardo
+12055;-67.0449,18.0816;00683;San Germán;San Germán
+0;-65.2463,18.3075;00775;Culebra;San Ildefonso
+8071;-65.8854,18.3922;00729;Canóvanas;San Isidro
+0;-66.9543,18.0764;00637;Sabana Grande;San Isidro
+0;-66.7213,18.1605;00601;Adjuntas;San Joaquin
+0;-66.8477,18.4863;00627;Camuy;San Jose
+0;-66.4879,18.4380;00674;Manatí;San José
+0;-67.1728,18.1741;00680;Mayagüez;San José
+0;-67.1685,18.1825;00680;Mayagüez;San Jose
+0;-66.0160,18.0122;00723;Patillas;San Jose
+0;-66.0329,18.4180;00978;San Juan;San José
+3278;-66.2557,18.3983;00953;Toa Baja;San José
+0;-66.2560,18.1394;00705;Aibonito;San Jose
+0;-66.9718,18.0866;00637;Sabana Grande;San Jose II
+418140;-66.1057,18.4663;00901;San Juan;San Juan
+0;-66.1160,18.4661;00901;San Juan;Viejo San Juan
+0;-66.9816,18.1872;00606;Maricao;San Juan Bautista
+0;-66.0671,18.4302;00962;San Juan;San Juan Chateau
+0;-66.0729,18.3647;00978;San Juan;San Juan Gardens
+0;-66.7352,18.4672;00612;Arecibo;San Lorenzo
+0;-67.1085,18.3686;00676;Moca;San Lorenzo
+9373;-65.9610,18.1894;00754;San Lorenzo;San Lorenzo
+0;-66.6399,18.4594;00652;Arecibo;San Luis
+0;-66.6074,18.4513;00652;Arecibo;San Luis
+0;-66.7207,18.4741;00612;Arecibo;San Luis
+0;-65.7113,18.2022;00718;Naguabo;San Luis
+0;-66.0046,18.3933;00976;San Juan;San Martín
+0;-65.7015,18.3677;00773;Luquillo;San Miguel
+0;-67.1477,18.1847;00680;Mayagüez;San Miguel
+0;-66.4021,17.9633;00757;Santa Isabel;San Miguel
+0;-66.6991,18.4080;00616;Arecibo;San Pedro
+0;-65.6616,18.3102;00738;Fajardo;San Pedro
+0;-65.6560,18.3224;00738;Fajardo;San Pedro
+0;-65.8985,18.0047;00707;Maunabo;San Pedro
+0;-66.9463,18.4766;00678;Quebradillas;San Rafael
+0;-66.0021,18.3680;00976;Trujillo Alto;San Rafael
+0;-66.1993,18.3947;00952;Toa Baja;San Rafael State
+0;-67.0171,18.0739;00683;San Germán;San Ramón
+0;-66.0940,18.3752;00965;Guaynabo;San Ramon
+0;-66.4868,18.4308;00674;Manatí;San Salvador
+0;-66.1824,18.3666;00956;Bayamón;San Sauci
+0;-66.1877,18.3705;00956;Bayamón;San Sebastián
+11590;-66.9902,18.3366;00685;San Sebastián;San Sebastián
+0;-65.7404,18.3538;00773;Luquillo;San Vicente
+0;-66.4074,18.2411;00720;Orocovis;Sana Muerto
+0;-66.4113,18.4852;00693;Vega Baja;Sandin
+0;-65.7132,18.3747;00773;Luquillo;Sandy Hills
+0;-66.2682,18.1461;00705;Aibonito;Santa Ana
+0;-66.0615,18.4013;00978;San Juan;Santa Ana
+0;-67.1546,18.4313;00603;Aguadilla;Santa Bárbara
+0;-66.7043,18.4674;00612;Arecibo;Santa Bárbara
+5168;-65.9188,18.3936;00729;Canóvanas;Santa Barbara
+0;-67.0352,18.5008;00662;Isabela;Santa Barbara
+0;-66.6057,18.2177;00664;Jayuya;Santa Bárbara
+0;-65.9196,18.3944;00729;Loíza;Santa Bárbara
+0;-66.0366,18.3994;00978;San Juan;Santa Barbara
+0;-66.0113,18.2325;00725;Caguas;Santa Cecilia
+1138;-66.1320,18.2146;00739;Aguas Buenas;Santa Clara
+0;-66.1488,18.1694;00739;Cidra;Santa Clara
+0;-66.6021,18.0214;00716;Ponce;Santa Clara
+0;-66.0907,18.3552;00965;San Juan;Santa Clara
+0;-65.9710,18.1966;00754;San Lorenzo;Santa Clara
+0;-66.1466,18.3961;00956;Bayamón;Santa Cruz
+0;-66.5954,17.9816;00716;Ponce;Santa Cruz
+0;-66.4085,18.3291;00687;Morovis;Santa Domingo
+0;-66.0991,17.9708;00784;Guayama;Santa Elena
+0;-66.7910,18.0264;00656;Guayanilla;Santa Elena
+0;-65.8754,18.0405;00767;Yabucoa;Santa Elena
+0;-66.0121,18.2372;00725;Caguas;Santa Elvira
+7260;-66.4049,17.9661;00757;Santa Isabel;Santa Isabel
+0;-65.6438,18.3361;00738;Fajardo;Santa Isidra
+0;-65.6435,18.3361;00738;Fajardo;Santa Isidra 2 Extenstion
+0;-65.6540,18.3322;00738;Fajardo;Santa Isidra I Extension
+0;-66.0288,18.2491;00725;Caguas;Santa Juana
+0;-66.1613,18.3627;00956;Bayamón;Santa Juanita
+0;-65.6620,18.2736;00735;Ceiba;Santa María
+0;-67.1260,18.3033;00610;Añasco;Sagrado Corazon
+0;-66.6179,18.0041;00716;Ponce;Santa María
+0;-66.9574,18.0739;00637;Sabana Grande;Santa María
+0;-66.0868,18.3761;00965;San Juan;Santa María
+0;-66.7930,18.0288;00656;Guayanilla;Santa Maria
+0;-67.0291,18.0794;00683;San Germán;Santa Marta
+0;-66.1741,18.3905;00956;Bayamón;Santa Mónica
+0;-66.1038,18.3580;00965;Guaynabo;Santa Paula
+0;-65.6424,18.3188;00738;Fajardo;Santa Rita
+0;-66.0563,18.4025;00978;San Juan;Santa Rita
+0;-66.3196,18.4108;00692;Vega Alta;Santa Rita
+0;-66.1418,18.3863;00956;Bayamón;Santa Rosa
+0;-66.0041,18.2125;00754;Caguas;Santa Rosa
+0;-66.2741,18.4202;00949;Dorado;Santa Rosa
+0;-66.1366,18.3527;00965;Guaynabo;Santa Rosa
+0;-66.1335,18.3677;00965;Guaynabo;Santa Rosa Tres
+0;-65.8074,18.1405;00791;Humacao;Santa Teresa
+0;-66.6074,18.0291;00716;Ponce;Santa Teresita
+0;-66.0452,18.4491;00901;San Juan;Santa Teresita
+0;-66.6702,18.4463;00616;Arecibo;Santana
+0;-67.0663,18.4908;00690;Aguadilla;Santiago
+0;-66.3518,17.9961;00751;Santa Isabel;Santiago
+0;-66.0993,18.3830;00965;San Juan;Santiago Iglesias
+0;-65.7057,18.2047;00718;Naguabo;Santiago y Lima
+3633;-66.7524,18.0633;00624;Peñuelas;Santo Domingo
+0;-66.6257,17.9836;00716;Ponce;Santo Tomas
+0;-67.2305,18.3755;00677;Aguada;Santoni
+0;-67.1402,18.1952;00680;Mayagüez;Santurce
+0;-66.7213,18.0180;00624;Peñuelas;Seboruco
+0;-66.5405,18.4466;00617;Barceloneta;Sector Abra de Pimiento
+0;-66.8213,18.4822;00659;Hatillo;Sector Alvares
+0;-66.8874,18.2919;00669;Lares;Sector Arizon
+0;-67.2027,18.3763;00602;Aguada;Sector Casualidad
+0;-66.5435,18.4505;00617;Barceloneta;Sector Catanito
+0;-66.5480,18.4486;00617;Barceloneta;Sector Cementerio
+0;-66.5435,18.4522;00617;Barceloneta;Sector Cerro Morales
+0;-67.1460,18.1947;00680;Mayagüez;Sector Columbia
+0;-67.1507,18.2047;00680;Mayagüez;Sector Dulces Labios
+0;-67.0296,18.4947;00662;Isabela;Sector Florida
+0;-66.3585,18.0744;00769;Coamo;Sector Isla Verde
+0;-66.5549,18.3563;00650;Barceloneta;Sector La Ceiba
+0;-66.7180,18.0561;00624;Peñuelas;Sector La Loma
+0;-65.8668,18.1739;00771;Las Piedras;Sector La Sabana
+0;-66.1716,18.3405;00965;Bayamón;Sector La Tosca
+0;-66.9366,18.4527;00678;Quebradillas;Sector LaSalle
+0;-66.5485,18.3591;00650;Barceloneta;Sector Las Parcelas
+0;-66.2227,18.2188;00782;Comerío;Sector Laso
+0;-67.0296,18.4905;00662;Isabela;Sector Loma Santa
+0;-66.1516,18.1705;00739;Cidra;Sector Los Flores
+0;-65.8666,18.1658;00771;Las Piedras;Sector Los Garbanzos
+0;-66.9604,18.0836;00637;Sabana Grande;Sector Los Gardens
+0;-66.5599,18.3655;00650;Barceloneta;Sector Los Quemaos
+0;-66.7143,18.1494;00601;Adjuntas;Sector Olimpia
+0;-66.8463,18.4763;00627;Camuy;Sector Pena Militar
+0;-67.0630,18.0477;00667;Lajas;Sector Piedras Blancas
+0;-66.9696,18.1816;00606;Maricao;Sector Pueblo Nuevo
+0;-66.8454,18.4688;00627;Camuy;Sector Puente Salsa
+0;-65.9702,18.1789;00754;Juncos;Sector Quemado Interior
+0;-66.8855,18.2930;00669;Lares;Sector Rafael Castro
+0;-66.8885,18.2930;00669;Lares;Sector Retiro
+0;-66.7352,18.0591;00624;Peñuelas;Sector Ruberte
+0;-66.1632,18.1808;00739;Cidra;Sector Santa Teresita
+0;-66.5460,18.4458;00617;Barceloneta;Sector Seboruco
+0;-67.1505,18.2094;00680;Mayagüez;Sector Trastalleres
+0;-65.8799,18.0430;00767;Yabucoa;Sector Varsovia
+0;-66.2291,18.2102;00782;Comerío;Sector Villa Brava
+0;-66.2938,18.1861;00794;Barranquitas;Sector Villa Casino
+0;-66.3335,18.4150;00692;Vega Alta;Sector Vista Alegre
+0;-66.5671,18.3091;00650;Ciales;Segui
+0;-67.1496,18.1644;00660;Mayagüez;Segundo Castillo
+0;-66.5663,18.3611;00650;Barceloneta;Selgas
+0;-66.5166,18.1225;00766;Villalba;Semil
+0;-66.4999,17.9925;00795;Juana Díaz;Serrano
+0;-66.8013,18.0094;00656;Guayanilla;Sesctor Beldum
+0;-65.7446,18.2077;00718;Naguabo;Shanghai
+0;-66.1616,18.4019;00956;Bayamón;Sierra Bayamon
+0;-66.1699,18.4016;00956;Bayamón;Sierra Bayamón
+0;-66.1152,18.3516;00965;Guaynabo;Sierra Berdecia
+0;-66.0935,18.3499;00965;San Juan;Sierra Brava
+0;-66.1813,18.3813;00956;Bayamón;Sierra Linda
+0;-66.3329,18.3369;00783;Corozal;Silvia
+0;-66.0593,17.9791;00714;Arroyo;Singapur
+0;-66.3185,18.3366;00783;Corozal;Sobrino
+0;-67.0107,18.4852;00662;Isabela;Sol y Mar
+0;-65.7215,18.3841;00773;Luquillo;Solimar
+0;-65.6257,18.3691;00738;Fajardo;Soroco
+0;-67.1574,18.0214;00622;Cabo Rojo;Sosa
+1293;-67.2468,18.3219;00677;Rincón;Stella
+0;-66.0332,18.2286;00725;Caguas;Suarez
+2276;-65.8535,18.4302;00772;Loíza;Suárez
+0;-66.1207,18.3952;00934;Guaynabo;Suchville
+1145;-66.1288,18.2186;00703;Aguas Buenas;Sumidero
+0;-66.1029,18.3997;00934;San Juan;Summit Hills
+0;-66.1638,18.3627;00956;Bayamón;Sunny Hills
+0;-66.0204,18.3636;00976;Trujillo Alto;Sunville
+0;-65.7268,18.1877;00718;Naguabo;Suromar
+0;-66.9113,18.0333;00698;Sabana Grande;Susúa
+0;-67.1668,18.3961;00602;Aguada;Tablonal
+0;-65.7452,18.2411;00740;Naguabo;Tablones
+0;-66.8880,18.2833;00669;Lares;Tabonuco
+1150;-66.7163,17.9950;00624;Peñuelas;Tallaboa
+2243;-66.7002,18.0511;00624;Peñuelas;Tallaboa Alta
+0;-66.7341,18.0319;00624;Peñuelas;Tallaboa Poniente
+0;-67.1552,18.4355;00603;Aguadilla;Tamarindo
+0;-66.0313,18.3688;00978;Trujillo Alto;Terazas de Cupey
+0;-66.1204,18.3577;00965;Guaynabo;Terrazas de Guaynabo
+709;-66.5807,18.4316;00688;Barceloneta;Tiburones
+0;-66.5410,17.9839;00715;Ponce;Tiburones
+0;-66.0443,18.2355;00725;Caguas;Tierra Linda
+2366;-66.4885,18.4619;00674;Manatí;Tierras Nuevas Poniente
+0;-66.1291,18.4049;00934;Bayamón;Tintillo
+0;-66.1752,18.3702;00956;Bayamón;Tío
+4483;-66.2482,18.3883;00953;Toa Alta;Toa Alta
+1889;-66.2596,18.4438;00949;Toa Baja;Toa Baja
+0;-66.1899,18.1305;00736;Cayey;Toita
+0;-65.9004,18.3530;00729;Loíza;Toma de Agua
+0;-66.0263,18.1877;00725;Caguas;Tomás de Castro
+0;-65.9804,18.4155;00983;Carolina;Torre de la Sabana
+0;-66.4346,18.3388;00687;Ciales;Torrecillas
+0;-66.2757,18.1444;00705;Aibonito;Torres
+0;-65.9968,18.4305;00983;Carolina;Torres de Carolinas
+0;-66.1174,18.3877;00934;Guaynabo;Torrimar
+0;-67.2035,18.3880;00602;Aguada;Tosquero
+0;-66.2552,18.3836;00953;Toa Alta;Town Hills
+0;-66.0299,18.3899;00978;San Juan;Town Park
+0;-66.0793,18.4458;00901;San Juan;Tras Talleres
+0;-66.1529,18.1794;00739;Cidra;Treasure Island Gardens
+0;-66.1557,18.1861;00739;Cidra;Treasure Valley
+0;-67.1899,18.2844;00610;Añasco;Tres Hermanos
+0;-66.3849,18.4408;00693;Vega Baja;Triovegabajeno
+75243;-66.0074,18.3547;00976;Trujillo Alto;Trujillo Alto
+0;-65.9554,18.3680;00983;Carolina;Trujillo Bajo
+0;-66.6568,17.9869;00716;Ponce;Tuque
+0;-66.0627,18.2172;00725;Caguas;Turabo
+0;-66.0529,18.2211;00725;Caguas;Turabo Gardens
+0;-66.0490,18.2222;00725;Caguas;Turabo Heights
+0;-65.8788,18.4308;00772;Loíza;Turnkey
+0;-66.5455,17.9930;00715;Ponce;Unión
+0;-66.0652,18.4058;00978;San Juan;University Gardens
+0;-67.1502,18.1827;00680;Mayagüez;Santa Maria
+0;-66.0288,18.2297;00725;Caguas;Urbanizacion Machin
+9844;-66.7005,18.2655;00641;Utuado;Utuado
+0;-66.1913,18.3997;00952;Bayamón;Valencia
+0;-65.9185,18.2261;00777;Juncos;Valencia
+0;-65.9218,18.2222;00777;Juncos;Valencia
+0;-66.0440,18.4113;00978;San Juan;Valencia
+0;-66.0199,18.0125;00723;Patillas;Valle Alto
+0;-66.5810,18.0433;00780;Ponce;Valle Alto
+0;-65.9738,18.4091;00983;Carolina;Valle Arriba Heights
+0;-65.6357,18.3297;00738;Fajardo;Valle Puerto Real
+0;-66.0479,18.2386;00725;Caguas;Valle Tolina
+0;-66.1663,18.4247;00952;Bayamón;Valle Verde
+0;-66.0468,18.2574;00725;Caguas;Valle Verde
+0;-66.1796,18.3463;00956;Bayamón;Valle de Cerro Gordo
+0;-66.1229,17.9752;00784;Guayama;Valle de Guayama
+0;-66.1288,18.3972;00934;Bayamón;Valle de Sol
+0;-65.9921,18.3413;00976;Trujillo Alto;Valle de San Juan
+0;-66.4863,18.4380;00674;Manatí;Valles de Manati
+0;-66.1960,18.3488;00956;Bayamón;Van Scoy
+0;-65.6724,18.3038;00738;Fajardo;Vapor
+0;-66.6307,18.3761;00688;Arecibo;Varela
+0;-66.5841,18.0522;00780;Ponce;Vayas
+2297;-66.2385,18.0658;00765;Salinas;Vázquez
+12036;-66.3313,18.4122;00692;Vega Alta;Vega Alta
+0;-65.6446,18.3305;00738;Fajardo;Vega Baja
+29325;-66.3877,18.4444;00693;Vega Baja;Vega Baja
+0;-66.5913,18.2175;00664;Jayuya;Vega Linda
+0;-66.1096,18.1286;00736;Cayey;Vegas
+0;-66.4168,17.9733;00757;Santa Isabel;Velázquez
+0;-66.0532,18.3944;00978;San Juan;Venezuela
+0;-66.5432,18.0147;00715;Ponce;Ventura
+0;-66.0379,18.3752;00978;San Juan;Venus Gardens
+0;-66.1585,18.4049;00956;Bayamón;Vereda
+0;-66.1399,18.3666;00965;Bayamón;Versailles
+0;-66.2452,18.0802;00765;Aibonito;Vertedero
+0;-66.1171,18.4030;00934;Guaynabo;Victor Braegger
+0;-66.7399,18.4583;00612;Arecibo;Victor Rojas Number 1
+0;-67.1543,18.4047;00603;Aguadilla;Victoria
+0;-66.1938,18.4000;00952;Bayamón;Victoria Heights
+4325;-65.8329,18.4249;00745;Loíza;Vieques
+0;-66.1654,18.4313;00952;Cataño;Valparaiso
+250;-66.1116,18.4369;00962;Guaynabo;Vietnam
+0;-66.4921,18.1308;00766;Orocovis;Villa Alba
+0;-66.9638,18.0833;00637;Sabana Grande;Villa Alba
+0;-67.1488,18.4394;00603;Aguadilla;Villa Alegria
+0;-66.2521,18.3872;00953;Toa Alta;Villa Amparo
+0;-66.0271,18.3822;00978;San Juan;Villa Andalucia
+0;-65.9715,18.4172;00983;Carolina;Villa Astuarias
+0;-65.6496,18.2669;00735;Ceiba;Villa Avila
+0;-66.5482,18.4558;00617;Barceloneta;Villa Barcelona
+0;-67.1224,18.1697;00660;Mayagüez;Villa Benni
+0;-66.0507,18.2436;00725;Caguas;Villa Blanca
+0;-66.0449,18.1750;00725;Caguas;Villa Borinquen
+0;-66.0199,18.2141;00725;Caguas;Villa Borinquen
+0;-66.0893,18.4127;00934;San Juan;Villa Borinquen
+0;-66.0629,18.2219;00725;Caguas;Villa Caliz
+0;-66.0493,18.2113;00725;Caguas;Villa Caliz
+0;-66.5941,18.0175;00716;Ponce;Villa Campo Alegre
+0;-66.1110,18.4077;00934;Guaynabo;Villa Caparra
+0;-66.0310,18.3919;00978;San Juan;Villa Capri
+0;-65.9621,18.3977;00983;Carolina;Villa Carolina
+0;-65.6588,18.3233;00738;Fajardo;Villa Clarita
+0;-66.0941,18.3677;00965;Guaynabo;Villa Clementina
+0;-66.1688,18.3791;00956;Bayamón;Villa Contessa
+0;-66.0171,18.2319;00725;Caguas;Villa Criollos
+0;-66.6043,17.9805;00716;Ponce;Villa Del Carmen
+0;-67.1168,18.3997;00676;Moca;Villa Deloamit
+0;-66.6108,18.0446;00716;Ponce;Villa Elena
+0;-66.0060,18.3552;00976;Trujillo Alto;Villa Escondida
+0;-66.1388,18.3988;00956;Bayamón;Villa España
+0;-66.6016,18.0197;00716;Ponce;Villa Esperanza
+0;-66.4799,18.4205;00674;Manatí;Villa Evangelina
+0;-65.6574,18.3313;00738;Fajardo;Villa Fajardo I
+0;-65.6532,18.2683;00735;Ceiba;Villa Flores
+0;-66.5905,18.0083;00716;Ponce;Villa Flores
+0;-65.9735,18.4044;00983;Carolina;Villa Fontana
+0;-66.5480,18.4602;00617;Barceloneta;Villa Georgetti
+0;-65.9232,18.2377;00777;Juncos;Villa Graciela
+0;-66.0338,18.4033;00978;San Juan;Villa Grande
+0;-66.6235,18.0002;00716;Ponce;Villa Grillasca
+0;-66.0602,18.2191;00725;Caguas;Villa Hermosa
+0;-65.8757,18.0475;00767;Yabucoa;Villa Hilda
+0;-65.7996,18.1439;00791;Humacao;Villa Humacao
+0;-66.1741,18.4236;00952;Toa Baja;Villa Kenny
+0;-66.3238,18.4091;00692;Vega Alta;Villa Linares
+0;-66.8196,18.4813;00659;Hatillo;Villa Los Pinos
+0;-66.7402,18.4650;00612;Arecibo;Villa Los Santos
+0;-66.6032,18.0325;00716;Ponce;Villa Machuelo
+0;-66.0285,18.4427;00978;Carolina;Villa Mar
+0;-66.1721,18.4261;00952;Toa Alta;Villa Marasol
+0;-66.0032,18.4263;00983;Carolina;Villa Marina
+0;-65.9782,18.2513;00778;Gurabo;Villa Marina
+0;-66.2546,18.3883;00953;Vega Alta;Villa Matilde
+0;-66.8613,18.0250;00698;Yauco;Villa Milagros
+0;-65.3004,18.3119;00775;Culebra;Villa Muneco
+0;-65.8957,18.0047;00707;Maunabo;Villa Navarro
+0;-66.0693,18.3919;00978;San Juan;Villa Nevares
+0;-66.9310,18.4702;00678;Quebradillas;Villa Norma
+0;-66.0546,18.2108;00725;Caguas;Villa Nueva
+0;-66.8491,18.0283;00698;Yauco;Villa Olimpia
+0;-66.2863,18.4394;00949;Dorado;Villa Palma
+0;-66.0502,18.4402;00901;San Juan;Villa Palmeras
+0;-66.0260,18.4286;00978;San Juan;Villa Panamericana
+0;-65.6488,18.2622;00735;Ceiba;Villa Penetro
+0;-66.7791,18.1908;00631;Adjuntas;Villa Pérez
+0;-67.0232,18.5063;00662;Isabela;Villa Pesquera
+0;-66.0249,18.4069;00978;San Juan;Villa Prades
+0;-65.8782,18.0519;00767;Yabucoa;Villa Recrero
+0;-66.4124,17.9697;00757;Santa Isabel;Villa Retiro
+0;-66.1707,18.3961;00956;Bayamón;Villa Rica
+0;-66.3110,18.1844;00794;Barranquitas;Villa Ronga
+0;-66.1054,17.9786;00784;Guayama;Villa Rosa
+0;-66.4949,18.4272;00674;Manatí;Villa Rosa
+0;-66.2602,18.1433;00705;Aibonito;Villa Rosales
+0;-65.9838,18.3872;00983;Carolina;Villa San Anton
+0;-66.0902,17.9780;00784;Guayama;Villa San Martin
+0;-66.2905,18.4480;00646;Vega Alta;Villa Santa
+0;-67.1352,18.1936;00680;Mayagüez;Villa Sol
+0;-67.1127,18.3977;00676;Moca;Villa Soto
+0;-67.1393,18.1727;00680;Mayagüez;Villa Sultana
+0;-65.8366,18.1422;00791;Humacao;Villa Universitaria
+0;-65.9807,18.4372;00983;Carolina;Villa Vencia
+0;-66.2541,18.1372;00705;Aibonito;Villa Verde
+0;-66.1432,18.3450;00965;Bayamón;Villa Verde
+0;-66.4035,17.9616;00757;Santa Isabel;Villa de Caribe
+0;-67.0260,18.4961;00662;Isabela;Villa de Espana
+0;-65.9763,18.2583;00778;Gurabo;Villa de Gurabo
+0;-66.0735,18.3663;00978;San Juan;Villa del Alar
+0;-66.0391,18.2158;00725;Caguas;Villa del Carmen
+0;-65.9771,18.2433;00778;Gurabo;Villa del Carmen
+0;-66.8204,18.4852;00659;Hatillo;Villa del Carmen
+0;-66.1802,18.3597;00956;Bayamón;Villa del Olimpio
+0;-65.6435,18.2688;00735;Ceiba;Villa del Pilar
+0;-66.0613,18.2147;00725;Caguas;Villa del Rey
+0;-66.7866,18.0158;00656;Guayanilla;Villa del Rio
+0;-66.1141,18.3819;00965;Guaynabo;Villa del Rio
+0;-65.7296,18.2169;00718;Naguabo;Villa del Rosario
+0;-66.3882,18.4486;00693;Vega Baja;Villa del Rosario
+0;-66.5035,18.0558;00795;Juana Díaz;Villa del Sol
+4555;-66.4921,18.1272;00766;Villalba;Villalba
+0;-66.0113,18.2186;00725;Caguas;Villas de Castro
+0;-67.1463,18.2816;00610;Añasco;Villas de Anasco
+0;-66.5727,18.3666;00650;Barceloneta;Villas de Florida
+0;-66.0160,18.4327;00978;Carolina;Villas de Lago Mar
+0;-66.1691,18.4461;00952;Toa Baja;Villas de Levittown
+0;-66.2743,18.4752;00646;Dorado;Villas de Playa II
+0;-65.6443,18.3388;00738;Fajardo;Villas de Puerto Rico
+0;-65.8438,18.3830;00745;Río Grande;Villas de Rio Grande
+0;-66.0357,18.2141;00725;Caguas;Villas de Rio Verde
+0;-66.1893,18.4372;00952;Toa Baja;Villas de Sabana
+0;-66.1382,18.3474;00965;Bayamón;Villas de San Augustin
+0;-66.4043,18.3380;00687;Morovis;Villas del Norte
+0;-66.0557,18.2138;00725;Caguas;Villas del Ray 3
+0;-66.0427,18.2111;00725;Caguas;Villas del Ray I
+0;-66.0574,18.2163;00725;Caguas;Villas del Rey 4
+0;-67.1224,18.1986;00680;Mayagüez;Ville India
+0;-66.1791,17.9750;00784;Guayama;Villodas
+0;-65.7213,18.3822;00773;Luquillo;Vilomar
+0;-65.9107,18.2102;00777;Juncos;Virginia Valley
+0;-66.1621,18.3947;00956;Bayamón;Vista Alegre
+0;-65.8977,18.0116;00707;Maunabo;Vista Alegre
+0;-66.5982,18.0055;00716;Ponce;Vista Alegre
+0;-66.1543,18.3638;00956;Bayamón;Vista Bella
+0;-66.4960,18.1280;00766;Villalba;Vista Bella
+0;-65.6479,18.3388;00738;Fajardo;Vista Del Mar
+0;-66.7221,18.4749;00612;Arecibo;Vista Mar
+0;-65.9815,18.4350;00983;Carolina;Vista Mar Marina Oeste
+0;-67.1535,18.1850;00680;Mayagüez;Vista Verde
+0;-66.3610,18.0727;00769;Coamo;Vista de Sol
+0;-65.6546,18.3505;00738;Fajardo;Vista del Convento
+0;-66.1496,18.4488;00962;Cataño;Vista del Morro
+0;-67.1569,18.1802;00680;Mayagüez;Vista del Oeste
+0;-65.9788,18.4275;00983;Carolina;Vistamar
+0;-66.1027,17.9766;00784;Guayama;Vistamar
+0;-66.8504,18.4780;00627;Camuy;Vistas de Camuy
+0;-66.8488,18.4763;00627;Camuy;Vistas de Camuy II
+0;-65.7232,18.3733;00773;Luquillo;Vistas de Luquillo
+0;-67.0118,18.4911;00662;Isabela;Vistas de Medina
+0;-67.1430,18.2080;00680;Mayagüez;Vivaldi
+0;-66.1135,17.9766;00784;Guayama;Vives
+0;-67.0385,18.0819;00683;San Germán;Vivoni
+0;-66.1849,18.4091;00952;Bayamón;Volcán
+0;-66.1860,18.4208;00952;Toa Baja;Volcan
+0;-66.0285,18.3899;00978;San Juan;Vosburg
+6952;-65.8793,18.0505;00767;Yabucoa;Yabucoa
+0;-67.1432,18.1933;00680;Mayagüez;Yaguez
+0;-66.1024,18.3827;00965;San Juan;Yambelle
+20295;-66.8499,18.0350;00698;Yauco;Yauco
+0;-66.8824,18.4791;00627;Camuy;Yeguada
+0;-65.7285,18.3461;00773;Luquillo;Yuquiyú
+0;-66.4079,18.1002;00769;Coamo;Zanja Blanca
+0;-66.3988,18.0947;00769;Coamo;Zanja Negra
+1468;-66.0571,18.0269;00723;Arroyo;Yaurel
+0;-66.0396,18.4174;00978;San Juan;Truman
+0;-67.0482,17.9747;00667;Lajas;Parguera
+0;-67.1049,18.3919;00676;Moca;Cuba
+0;-65.6649,18.2366;00735;Ceiba;Quebrada Seca
+0;-66.0499,18.3974;00978;San Juan;Rio Piedras
+0;-66.3838,18.4477;00693;Manatí;Villa Real
+0;-67.1396,18.2011;00680;Mayagüez;Municipio de Mayaguez
+0;-66.1503,18.4166;00956;Bayamón;Centro de Detencion Regional
+0;-66.0672,18.4410;00901;San Juan;Residence San Juan Bautista
+0;-66.1637,18.4256;00952;Bayamón;Rio Hondo IV
+0;-66.5078,18.4488;00674;Manatí;La Luisa Comunidad
+0;-67.0461,17.9747;00667;Lajas;La Parguera Comunidad
+0;-67.1865,18.2866;00610;Añasco;La Playa Comunidad
+0;-66.2064,18.0412;00765;Salinas;La Plena Comunidad
+0;-65.9851,17.9848;00723;Patillas;Lamboglia Comunidad
+0;-67.1451,18.2928;00610;Añasco;Las Marías Comunidad
+0;-66.3174,17.9841;00751;Salinas;Las Ochenta Comunidad
+0;-66.4206,18.0142;00757;Santa Isabel;Las Ollas Comunidad
+0;-66.1758,18.4455;00952;Toa Baja;Levittown Comunidad
+0;-66.9428,18.0431;00637;Sabana Grande;Liborio Negrón Torres Comunidad
+0;-66.9026,18.0381;00698;Sabana Grande;Lluveras Comunidad
+0;-65.9091,18.2688;00777;Canóvanas;Lomas Comunidad
+0;-66.4091,18.0580;00769;Coamo;Los Llanos Comunidad
+0;-66.5267,18.0565;00795;Juana Díaz;Luis Lloréns Torres Comunidad
+0;-65.6378,18.3014;00738;Fajardo;Luis M. Cintrón Comunidad
+0;-67.1553,18.3575;00602;Aguada;Luyando Comunidad
+0;-66.7664,18.0234;00656;Guayanilla;Magas Arriba Comunidad
+0;-66.8887,17.9787;00653;Guánica;María Antonia Comunidad
+0;-66.3356,18.0287;00769;Coamo;Mariano Colón Comunidad
+0;-65.8977,18.0730;00767;Yabucoa;Martorell Comunidad
+0;-66.6567,18.0587;00624;Ponce;Marueño Comunidad
+0;-66.3789,18.3869;00692;Vega Baja;Miranda Comunidad
+0;-66.3579,18.4367;00693;Vega Baja;Monserrate Comunidad
+0;-67.1200,18.0894;00623;Cabo Rojo;Monte Grande Comunidad
+0;-67.0322,18.4625;00662;Isabela;Mora Comunidad
+0;-66.2177,18.3907;00953;Toa Alta;Mucarabones Comunidad
+0;-66.1095,18.0026;00784;Guayama;Olimpo Comunidad
+0;-66.2184,18.3610;00953;Toa Alta;Pájaros Comunidad
+0;-66.5559,18.3848;00650;Florida;Pajonal Comunidad
+0;-66.3266,18.0682;00769;Coamo;Palmarejo Comunidad
+0;-67.0764,18.0412;00667;Lajas;Palmarejo Comunidad
+0;-66.0254,17.9878;00723;Arroyo;Palmas Comunidad
+0;-65.9370,18.0093;00707;Maunabo;Palo Seco Comunidad
+0;-65.7736,18.3700;00721;Río Grande;Palmer Comunidad
+0;-66.2534,18.2353;00782;Comerío;Palomas Comunidad
+0;-66.8688,18.0135;00698;Yauco;Palomas Comunidad
+0;-66.1869,18.1715;00739;Cidra;Parcelas la Milagrosa Comunidad
+0;-66.1702,18.1400;00736;Cidra;Parcelas Nuevas Comunidad
+0;-66.3564,18.0096;00757;Santa Isabel;Parcelas Peñuelas Comunidad
+0;-66.2601,18.1193;00705;Aibonito;Pastos Comunidad
+0;-65.8222,18.2174;00744;Naguabo;Peña Pobre Comunidad
+0;-66.8861,18.4342;00627;Camuy;Piedra Gorda Comunidad
+0;-65.7445,18.3781;00773;Luquillo;Playa Fortuna Comunidad
+0;-66.2908,17.9624;00751;Salinas;Playita Comunidad
+0;-65.9071,18.0405;00767;Yabucoa;Playita Comunidad
+0;-66.4436,17.9767;00757;Santa Isabel;Playita Cortada Comunidad
+0;-67.1832,17.9743;00622;Cabo Rojo;Pole Ojea Comunidad
+0;-66.4967,17.9920;00795;Juana Díaz;Potala Pastillo Comunidad
+0;-65.8616,18.2280;00771;Las Piedras;Pueblito Del Río Comunidad
+0;-67.1870,18.0757;00623;Cabo Rojo;Puerto Real Comunidad
+0;-65.7587,18.1618;00741;Humacao;Punta Santiago Comunidad
+0;-66.8354,18.3604;00669;Camuy;Quebrada Comunidad
+0;-66.7908,18.3998;00659;Hatillo;Rafael Capó Comunidad
+0;-66.7871,18.4264;00659;Hatillo;Rafael González Comunidad
+0;-67.0786,18.4718;00690;Aguadilla;Rafael Hernández Comunidad
+0;-65.7111,18.3389;00773;Luquillo;Ramos Comunidad
+0;-65.7930,18.2123;00744;Naguabo;Río Blanco Comunidad
+0;-66.4679,18.0390;00795;Juana Díaz;Río Cañas Abajo Comunidad
+0;-66.2643,18.3969;00953;Dorado;Río Lajas Comunidad
+0;-65.6291,18.2350;00742;Ceiba;Roosevelt Roads Comunidad
+0;-65.9135,18.0591;00767;Yabucoa;Rosa Sánchez Comunidad
+0;-66.3517,18.4643;00693;Vega Baja;Sabana Comunidad
+0;-67.0852,18.0810;00683;San Germán;Sabana Eneas Comunidad
+0;-66.6117,18.4281;00688;Arecibo;Sabana Hoyos Comunidad
+0;-66.1809,18.4273;00952;Toa Baja;Sabana Seca Comunidad
+0;-67.0998,18.4931;00690;Aguadilla;San Antonio Comunidad
+0;-66.3002,18.4468;00646;Dorado;San Antonio Comunidad
+0;-66.9362,18.4382;00678;Quebradillas;San Antonio Comunidad
+0;-65.8853,18.3918;00729;Canóvanas;San Isidro Comunidad
+0;-66.2493,18.4029;00953;Toa Baja;San José Comunidad
+0;-65.9176,18.3951;00729;Canóvanas;Santa Bárbara Comunidad
+0;-66.1321,18.2109;00739;Aguas Buenas;Santa Clara Comunidad
+0;-66.7458,18.0722;00624;Peñuelas;Santo Domingo Comunidad
+0;-67.2471,18.3229;00677;Rincón;Stella Comunidad
+0;-65.8514,18.4307;00772;Loíza;Suárez Comunidad
+0;-66.7019,18.0504;00624;Peñuelas;Tallaboa Alta Comunidad
+0;-66.7085,17.9961;00624;Peñuelas;Tallaboa Comunidad
+0;-66.5807,18.4381;00688;Barceloneta;Tiburones Comunidad
+0;-66.4890,18.4627;00674;Manatí;Tierras Nuevas Poniente Comunidad
+0;-66.2339,18.0687;00765;Salinas;Vázquez Comunidad
+0;-65.8356,18.4273;00772;Loíza;Vieques Comunidad
+0;-66.0560,18.0301;00723;Arroyo;Yaurel Comunidad
+0;-67.0669,18.4456;00690;Moca;Aceitunas Comunidad
+0;-65.6662,18.2447;00735;Ceiba;Aguas Claras Comunidad
+0;-66.5331,18.0284;00780;Juana Díaz;Aguilita Comunidad
+0;-66.6364,18.4458;00688;Arecibo;Animas Comunidad
+0;-65.8079,18.1883;00744;Humacao;Antón Ruíz Comunidad
+0;-66.0660,18.2538;00725;Caguas;Las Carolinas Comunidad
+0;-66.6769,18.4234;00616;Arecibo;Bajadero Comunidad
+0;-65.7831,18.1601;00741;Humacao;Bajandas Comunidad
+0;-66.4443,18.3523;00638;Morovis;Barahona Comunidad
+0;-65.8414,18.3620;00745;Río Grande;Bartolo Comunidad
+0;-66.1097,18.1781;00739;Cidra;Bayamón Comunidad
+0;-65.8788,18.2725;00777;Canóvanas;Benítez Comunidad
+0;-67.1335,18.0296;00622;Cabo Rojo;Betances Comunidad
+0;-67.1716,18.0341;00622;Cabo Rojo;Boquerón Comunidad
+0;-65.8439,18.2011;00771;Las Piedras;Boquerón Comunidad
+0;-66.3346,18.4733;00693;Vega Alta;Breñas Comunidad
+0;-66.0519,17.9962;00714;Arroyo;Buena Vista Comunidad
+0;-66.5749,18.4174;00688;Barceloneta;Búfalo Comunidad
+0;-67.1357,18.4448;00603;Aguadilla;Cabán Comunidad
+0;-66.9559,18.4523;00678;Quebradillas;Cacao Comunidad
+0;-66.2383,18.4229;00949;Toa Baja;Campanilla Comunidad
+0;-65.8974,18.3371;00729;Canóvanas;Campo Rico Comunidad
+0;-66.2203,18.4175;00952;Toa Baja;Candelaria Arenas Comunidad
+0;-66.2175,18.4043;00953;Toa Baja;Candelaria Comunidad
+0;-65.8342,18.1017;00791;Humacao;Candelero Arriba Comunidad
+0;-66.5359,18.0132;00715;Juana Díaz;Capitanejo Comunidad
+0;-66.7879,18.4811;00659;Hatillo;Carrizales Comunidad
+0;-66.7348,18.2923;00641;Utuado;Cayuco Comunidad
+0;-66.3468,18.4434;00692;Vega Alta;Ceiba Comunidad
+0;-65.9620,18.2666;00778;Gurabo;Celada Comunidad
+0;-66.2603,18.0010;00751;Salinas;Coco Comunidad
+0;-65.8405,18.0871;00767;Yabucoa;Comunas Comunidad
+0;-66.2255,17.9793;00704;Salinas;Coquí Comunidad
+0;-66.0833,17.9940;00784;Guayama;Corazón Comunidad
+0;-66.7778,18.4610;00659;Hatillo;Corcovado Comunidad
+0;-66.5517,18.0491;00780;Ponce;Coto Laurel Comunidad
+0;-66.4408,18.4328;00674;Manatí;Coto Norte Comunidad
+0;-65.6799,18.2217;00742;Naguabo;Daguao Comunidad
+0;-65.7432,18.2382;00740;Naguabo;Duque Comunidad
+0;-65.8751,18.2345;00777;Juncos;El Mangó Comunidad
+0;-65.8495,18.0369;00767;Yabucoa;El Negro Comunidad
+0;-66.3918,18.0038;00757;Santa Isabel;El Ojo Comunidad
+0;-65.8830,18.0015;00707;Maunabo;Emajagua Comunidad
+0;-67.1193,18.2761;00610;Añasco;Espino Comunidad
+0;-66.4276,18.3401;00687;Morovis;Fránquez Comunidad
+0;-66.9171,17.9857;00653;Guánica;Fuig Comunidad
+0;-66.1026,18.1259;00736;Cayey;G. L. García Comunidad
+0;-66.2590,18.3640;00953;Toa Alta;Galateo Comunidad
+0;-66.5675,18.4572;00617;Barceloneta;Garrochales Comunidad
+0;-66.5017,18.0760;00795;Juana Díaz;Guayabal Comunidad
+0;-66.2733,18.3482;00783;Toa Alta;H. Rivera Colón Comunidad
+0;-67.0334,18.3504;00685;San Sebastián;Hato Arriba Comunidad
+0;-65.7906,18.3732;00721;Río Grande;Hato Candal Comunidad
+0;-66.5565,18.4371;00617;Barceloneta;Imbéry Comunidad
+0;-66.8211,17.9942;00656;Guayanilla;Indios Comunidad
+0;-66.2259,18.4454;00949;Toa Baja;Ingenio Comunidad
+0;-65.9991,18.1610;00754;San Lorenzo;Jagual Comunidad
+0;-66.3668,17.9616;00757;Santa Isabel;Jauca Comunidad
+0;-66.1655,17.9607;00784;Guayama;Jobos Comunidad
+0;-66.9187,18.3133;00669;San Sebastián;Juncal Comunidad
+0;-66.5994,18.3976;00688;Arecibo;La Alianza Comunidad
+0;-65.8547,18.3726;00745;Río Grande;La Dolores Comunidad
+0;-65.8527,18.1744;00771;Humacao;La Fermina Comunidad
+0;-67.0583,18.0453;00667;Lajas;Lajas Zona Urbana
+0;-66.8821,18.2951;00669;Lares;Lares Zona Urbana
+0;-66.9867,18.2545;00670;Las Marías;Las Marías Zona Urbana
+0;-65.8708,18.1784;00771;Las Piedras;Las Piedras Zona Urbana
+0;-65.8796,18.4320;00772;Loíza;Loíza Zona Urbana
+0;-65.7201,18.3755;00773;Luquillo;Luquillo Zona Urbana
+0;-66.4824,18.4283;00674;Manatí;Manatí Zona Urbana
+0;-66.9826,18.1848;00606;Maricao;Maricao Zona Urbana
+0;-65.9011,18.0057;00707;Maunabo;Maunabo Zona Urbana
+0;-67.1426,18.2012;00680;Mayagüez;Mayagüez Zona Urbana
+0;-67.1154,18.3971;00676;Moca;Moca Zona Urbana
+0;-66.4059,18.3270;00687;Morovis;Morovis Zona Urbana
+0;-65.7370,18.2117;00718;Naguabo;Naguabo Zona Urbana
+0;-66.2459,18.3021;00719;Naranjito;Naranjito Zona Urbana
+0;-66.3916,18.2257;00720;Orocovis;Orocovis Zona Urbana
+0;-66.0134,18.0069;00723;Patillas;Patillas Zona Urbana
+0;-66.7208,18.0595;00624;Peñuelas;Peñuelas Zona Urbana
+0;-66.6094,17.9868;00716;Ponce;Ponce Zona Urbana
+0;-66.9360,18.4732;00678;Quebradillas;Quebradillas Zona Urbana
+0;-67.2516,18.3388;00677;Rincón;Rincón Zona Urbana
+0;-65.8389,18.3789;00745;Río Grande;Río Grande Zona Urbana
+0;-66.9673,18.0821;00637;Sabana Grande;Sabana Grande Zona Urbana
+0;-66.2961,17.9779;00751;Salinas;Salinas Zona Urbana
+0;-67.0460,18.0826;00683;San Germán;San Germán Zona Urbana
+0;-66.0639,18.4065;00978;San Juan;San Juan Zona Urbana
+0;-65.9675,18.1894;00754;San Lorenzo;San Lorenzo Zona Urbana
+0;-66.9948,18.3355;00685;San Sebastián;San Sebastián Zona Urbana
+0;-66.4048,17.9687;00757;Santa Isabel;Santa Isabel Zona Urbana
+0;-66.2503,18.3883;00953;Toa Alta;Toa Alta Zona Urbana
+0;-66.2547,18.4438;00949;Toa Baja;Toa Baja Zona Urbana
+0;-66.0103,18.3600;00976;Trujillo Alto;Trujillo Alto Zona Urbana
+0;-66.7049,18.2697;00641;Utuado;Utuado Zona Urbana
+0;-66.3212,18.4152;00692;Vega Alta;Vega Alta Zona Urbana
+0;-66.3993,18.4411;00693;Vega Baja;Vega Baja Zona Urbana
+0;-66.4815,18.1279;00766;Villalba;Villalba Zona Urbana
+0;-65.8792,18.0469;00767;Yabucoa;Yabucoa Zona Urbana
+0;-66.8614,18.0344;00698;Yauco;Yauco Zona Urbana
+0;-67.1884,18.3803;00602;Aguada;Aguada Zona Urbana
+0;-67.1548,18.4380;00603;Aguadilla;Aguadilla Zona Urbana
+0;-66.1061,18.2574;00703;Aguas Buenas;Aguas Buenas Zona Urbana
+0;-66.2658,18.1398;00705;Aibonito;Aibonito Zona Urbana
+0;-67.1413,18.2858;00610;Añasco;Añasco Zona Urbana
+0;-66.7364,18.4530;00612;Arecibo;Arecibo Zona Urbana
+0;-66.0613,17.9688;00714;Arroyo;Arroyo Zona Urbana
+0;-66.5381,18.4530;00617;Barceloneta;Barceloneta Zona Urbana
+0;-66.3102,18.1848;00794;Barranquitas;Barranquitas Zona Urbana
+0;-66.1635,18.3793;00956;Bayamón;Bayamón Zona Urbana
+0;-67.1483,18.0867;00623;Cabo Rojo;Cabo Rojo Zona Urbana
+0;-66.0387,18.2319;00725;Caguas;Caguas Zona Urbana
+0;-66.8502,18.4824;00627;Camuy;Camuy Zona Urbana
+0;-65.9056,18.3783;00729;Canóvanas;Canóvanas Zona Urbana
+0;-65.9810,18.4077;00983;Carolina;Carolina Zona Urbana
+0;-66.1388,18.4416;00962;Cataño;Cataño Zona Urbana
+0;-66.1630,18.1150;00736;Cayey;Cayey Zona Urbana
+0;-65.6488,18.2650;00735;Ceiba;Ceiba Zona Urbana
+0;-66.4704,18.3344;00638;Ciales;Ciales Zona Urbana
+0;-66.1582,18.1775;00739;Cidra;Cidra Zona Urbana
+0;-66.3638,18.0765;00769;Coamo;Coamo Zona Urbana
+0;-66.2246,18.2201;00782;Comerío;Comerío Zona Urbana
+0;-66.3124,18.3410;00783;Corozal;Corozal Zona Urbana
+0;-65.3029,18.3105;00775;Culebra;Culebra Zona Urbana
+0;-66.2713,18.4677;00646;Dorado;Dorado Zona Urbana
+0;-65.6593,18.3330;00738;Fajardo;Fajardo Zona Urbana
+0;-66.5611,18.3643;00650;Florida;Florida Zona Urbana
+0;-66.9309,17.9698;00647;Guánica;Guánica Zona Urbana
+0;-66.1104,17.9744;00784;Guayama;Guayama Zona Urbana
+0;-66.7898,18.0221;00656;Guayanilla;Guayanilla Zona Urbana
+0;-66.1134,18.3838;00965;Guaynabo;Guaynabo Zona Urbana
+0;-65.9786,18.2529;00778;Gurabo;Gurabo Zona Urbana
+0;-66.8226,18.4836;00659;Hatillo;Hatillo Zona Urbana
+0;-67.1200,18.1437;00660;Hormigueros;Hormigueros Zona Urbana
+0;-65.8204,18.1520;00791;Humacao;Humacao Zona Urbana
+0;-67.0234,18.5016;00662;Isabela;Isabela Zona Urbana
+0;-66.5968,18.2189;00664;Jayuya;Jayuya Zona Urbana
+0;-66.5046,18.0532;00795;Juana Díaz;Juana Díaz Zona Urbana
+0;-65.9163,18.2265;00777;Juncos;Juncos Zona Urbana
+0;-66.5865,18.1392;00664;Ponce;Anon Raices Comunidad
+0;-66.0215,18.2636;00725;Caguas;Bairoa La Vienticinco Comunidad
+0;-66.5671,18.0075;00715;Ponce;Calzada Comunidad
+0;-65.8165,18.0942;00791;Humacao;Candelero Abajo Comunidad
+0;-66.6523,18.0755;00624;Ponce;Corral Viejo Comunidad
+0;-66.6021,18.0648;00780;Ponce;El Paraiso Comunidad
+0;-66.0721,18.2409;00725;Caguas;Hacienda San Jose Comunidad
+0;-66.0495,18.2905;00725;Caguas;La Liga Comunidad
+0;-66.6077,18.0727;00780;Ponce;La Yuca Comunidad
+0;-66.0762,18.1871;00725;Caguas;Los Panes Comunidad
+0;-66.0621,18.2330;00725;Caguas;Los Prados Comunidad
+0;-66.6196,18.0972;00780;Ponce;Monte Verde Comunidad
+0;-66.0042,18.2301;00778;Gurabo;Parcelas de Navarro Comunidad
+0;-66.5627,18.0810;00780;Ponce;Parcelas Mandry Comunidad
+0;-66.0406,18.1739;00725;Caguas;Parcelas Viejas Borinquen Comunidad
+0;-66.6846,18.0379;00624;Ponce;Quebrada del Agua Comunidad
+0;-66.6324,18.0908;00716;Ponce;Tibes Comunidad
+0;-66.1822,18.2020;00739;Cidra;Rodríguez Hevia Comunidad
+0;-66.4949,18.0339;00795;Juana Díaz;Piedra Aguza Comunidad
+0;-66.0238,18.4422;00978;Carolina;Isla Verde
+0;-66.2620,17.9529;00704;Salinas;Aguirre
+0;-66.5632,18.0110;00715;Ponce;Mercedita
+0;-66.1221,18.4122;00934;Guaynabo;Fort Buchanan
+0;-66.6764,17.9739;00716;Ponce;El Balneario
+0;-66.6021,18.0648;00780;Ponce;El Paraiso
+0;-65.7930,18.4165;00721;Río Grande;Miquillo de Rio Grande
+0;-66.0952,18.4540;00901;San Juan;Isla Grande

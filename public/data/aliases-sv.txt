@@ -1,0 +1,105 @@
+ru;Сакатеколука;Zacatecoluca
+ar;ساكاتيكولوكا;Zacatecoluca
+hi;ज़ाकाटेकोलुका;Zacatecoluca
+ja;サカテコルカ;Zacatecoluca
+ru;Усулутане;Usulután
+hi;उसुलुतान;Usulután
+ko;우술루탄;Usulután
+nah;Ocelotlan;Usulután
+ru;Усулутан;Usulután
+zh;烏蘇盧坦;Usulután
+en;Usulutan;Usulután
+ar;أوسولوتان;Usulután
+fr;Usulutan;Usulután
+de;Usulutan;Usulután
+ja;ウスルタン;Usulután
+ru;Сояпанго;Soyapango
+nah;Zoyapanco;Soyapango
+zh;索亞潘戈;Soyapango
+ru;Сонсонате;Sonsonate
+hi;सोनसोनाते;Sonsonate
+ko;손소나테;Sonsonate
+nah;Centzonatl;Sonsonate
+zh;松索納特;Sonsonate
+ar;سونسونات;Sonsonate
+ja;ソンソナテ;Sonsonate
+ru;Сесори;Sesori
+ru;Сенсутепеке;Sensuntepeque
+ar;سنسونتيبيك;Sensuntepeque
+hi;सेंसुंतेपेक;Sensuntepeque
+ja;センスンテペケ;Sensuntepeque
+ru;Сан-Висенте;San Vicente
+ar;سان فيسينتي;San Vicente
+hi;सैन विसेंटे;San Vicente
+ja;サンビセンテ;San Vicente
+pt;São Vicente;San Vicente
+ru;Санта-Ана;Santa Ana
+ko;산타아나;Santa Ana
+ja;サンタ・アナ;Santa Ana
+hi;सानता-आना;Santa Ana
+nah;Cihuatehuahcan;Santa Ana
+zh;聖安娜;Santa Ana
+ar;سانتا آنا;Santa Ana
+fr;Salvador;San Salvador
+ja;サンサルバドル;San Salvador
+ko;산살바도르;San Salvador
+ru;Сан-Сальвадор;San Salvador
+ar;سان سلفادور;San Salvador
+ht;San Salvadò;San Salvador
+zh;聖薩爾瓦多;San Salvador
+hi;सान-साल्वाडोर;San Salvador
+ru;Сан-Мигель;San Miguel
+ar;سان ميغيل;San Miguel
+hi;सैन मिगुएल;San Miguel
+ja;サンミゲル;San Miguel
+ru;Сан-Франциско;San Francisco
+ar;سان فرانسيسكو;San Francisco
+hi;सैन फ्रांसिस्को;San Francisco
+ja;サンフランシスコ;San Francisco
+ru;Кесальтепеке;Quezaltepeque
+ru;Нуэва-Сан-Сальвадор;Santa Tecla
+ko;산타테클라;Santa Tecla
+ru;Санта-Текла;Santa Tecla
+zh;聖特克拉;Santa Tecla
+ar;سانتا تيكلا;Santa Tecla
+hi;सांता टेक्ला;Santa Tecla
+ja;サンタテクラ;Santa Tecla
+nah;Metlapan;Metapán
+ru;Метапан;Metapán
+zh;梅塔潘;Metapán
+ru;Мехиканос;Mejicanos
+en;La Union;La Unión
+ru;Ла-Унион;La Unión
+ar;لا يونيون;La Unión
+fr;La Union;La Unión
+hi;ला यूनियन;La Unión
+de;La Union;La Unión
+ja;ラウニオン;La Unión
+ru;Исалько;Izalco
+zh;伊薩爾科;Izalco
+ru;Илопанго;Ilopango
+es;Zona Industrial Plan de La Laguna;Hacienda Plan de La Laguna
+ru;Сальвадор;El Salvador
+zh;埃爾孔戈;El Congo
+ru;Дельгадо;Delgado
+ru;Кохутепеке;Cojutepeque
+ar;كوجوتيبيك;Cojutepeque
+hi;कोजुतेपेक;Cojutepeque
+ja;コフテペケ;Cojutepeque
+ru;Чалатенанго;Chalatenango
+hi;छालातेनानगो;Chalatenango
+ko;찰라테낭고;Chalatenango
+nah;Xalatenanco;Chalatenango
+zh;查拉特南戈;Chalatenango
+ar;تشالاتينانجو;Chalatenango
+ja;チャラテナンゴ;Chalatenango
+ru;Апопа;Apopa
+zh;安蒂果庫斯卡特蘭;Antiguo Cuscatlán
+ru;Ачуачапан;Ahuachapán
+en;Ahuachapan;Ahuachapán
+ar;أواتشابان;Ahuachapán
+fr;Ahuachapan;Ahuachapán
+hi;अहुचपान;Ahuachapán
+de;Ahuachapan;Ahuachapán
+ja;アウアチャパン;Ahuachapán
+ru;Акахутла;Acajutla

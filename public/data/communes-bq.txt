@@ -1,0 +1,112 @@
+418;-63.2314,17.6286;BQ-SB;Saba;Windward Side
+0;-62.9817,17.4779;BQ-SE;Sint Eustatius;Wilton
+0;-62.9765,17.4685;BQ-SE;Sint Eustatius;White Hook
+0;-68.2432,12.1247;BQ-BO;Bonaire;Wanapa
+0;-62.9760,17.4859;BQ-SE;Sint Eustatius;Walkers
+0;-68.2734,12.1668;BQ-BO;Bonaire;Vlijt
+0;-62.9721,17.4842;BQ-SE;Sint Eustatius;Upper Round Hill
+2810;-63.2265,17.6430;BQ-SB;Saba;Upper Hell's Gate
+0;-62.9716,17.4895;BQ-SE;Sint Eustatius;Tom Ball
+283;-63.2272,17.6261;BQ-SB;Saba;The Level
+0;-63.2533,17.6299;BQ-SB;Saba;The Gap
+0;-62.9754,17.4773;BQ-SE;Sint Eustatius;The Farm
+488;-63.2497,17.6265;BQ-SB;Saba;The Bottom
+0;-68.2726,12.1837;BQ-BO;Bonaire;Tera Hundu
+0;-68.3463,12.2389;BQ-BO;Bonaire;Sint Joris
+0;-68.2681,12.1509;BQ-BO;Bonaire;Senkuria
+0;-62.9881,17.4894;BQ-SE;Sint Eustatius;Schotsenhoek
+0;-68.3654,12.2387;BQ-BO;Bonaire;Santa Krus
+0;-68.2287,12.1365;BQ-BO;Bonaire;Santa Clara
+0;-68.2247,12.1492;BQ-BO;Bonaire;Santa Catarina
+0;-68.2366,12.1270;BQ-BO;Bonaire;San José
+0;-68.2670,12.1889;BQ-BO;Bonaire;San Bernardo
+0;-68.2837,12.1627;BQ-BO;Bonaire;Saliña
+186;-63.2434,17.6206;BQ-SB;Saba;Saint John's Flat
+0;-68.3428,12.2401;BQ-BO;Bonaire;Sabaneta
+0;-68.2686,12.1436;BQ-BO;Bonaire;Roozendaal
+0;-68.3665,12.2297;BQ-BO;Bonaire;Riscado
+0;-68.3614,12.2463;BQ-BO;Bonaire;Rigot
+0;-68.3464,12.2529;BQ-BO;Bonaire;Republiek
+0;-68.2598,12.1473;BQ-BO;Bonaire;Republiek
+0;-62.9783,17.4806;BQ-SE;Sint Eustatius;Princess Garden
+0;-68.2814,12.2317;BQ-BO;Bonaire;Porto Spaño
+0;-68.3515,12.2630;BQ-BO;Bonaire;Porta Makaku
+0;-62.9710,17.4783;BQ-SE;Sint Eustatius;Pleasures
+0;-62.9818,17.4868;BQ-SE;Sint Eustatius;Paramira
+0;-68.3406,12.2367;BQ-BO;Bonaire;Para Mira
+0;-68.2386,12.1367;BQ-BO;Bonaire;Paradijs
+0;-68.2276,12.1556;BQ-BO;Bonaire;Orinoco
+1097;-62.9864,17.4830;BQ-SE;Sint Eustatius;Oranjestad
+0;-68.2500,12.0333;BQ-BO;Bonaire;Oranje Pan
+0;-68.3122,12.2480;BQ-BO;Bonaire;Onima
+0;-62.9841,17.4865;BQ-SE;Sint Eustatius;New Ground
+51;-62.9669,17.4859;BQ-SE;Sint Eustatius;Mountain Piece
+0;-68.2723,12.1749;BQ-BO;Bonaire;Mentor
+0;-62.9506,17.4751;BQ-SE;Sint Eustatius;Markoe
+0;-62.9796,17.4854;BQ-SE;Sint Eustatius;Mansion Pasture
+0;-62.9803,17.4836;BQ-SE;Sint Eustatius;Mansion
+0;-62.9568,17.4895;BQ-SE;Sint Eustatius;Man of War
+0;-62.9748,17.4839;BQ-SE;Sint Eustatius;Lower Round Hill
+0;-63.2299,17.6397;BQ-SB;Saba;Lower Hell's Gate
+0;-62.9765,17.4834;BQ-SE;Sint Eustatius;Lodi
+0;-68.2729,12.2243;BQ-BO;Bonaire;Leeuwarden
+0;-68.3996,12.2517;BQ-BO;Bonaire;Labra
+0;-68.2622,12.1967;BQ-BO;Bonaire;Kuruburu
+0;-68.2693,12.1782;BQ-BO;Bonaire;Kunuku Bieu
+0;-68.3046,12.2462;BQ-BO;Bonaire;Kunchi
+10620;-68.2667,12.1500;BQ-BO;Bonaire;Kralendijk
+0;-68.3273,12.2314;BQ-BO;Bonaire;Kokorobí
+0;-62.9516,17.4711;BQ-SE;Sint Eustatius;Kid Sadler
+0;-68.2731,12.1703;BQ-BO;Bonaire;Kibra Hacha
+0;-62.9842,17.4882;BQ-SE;Sint Eustatius;Jeems
+0;-68.3500,12.2167;BQ-BO;Bonaire;Jan Doran
+0;-68.2364,12.1419;BQ-BO;Bonaire;Ishiri
+0;-68.2873,12.1235;BQ-BO;Bonaire;Hoop
+0;-62.9730,17.4868;BQ-SE;Sint Eustatius;Hearty
+0;-62.9695,17.4872;BQ-SE;Sint Eustatius;Hard Time
+0;-68.2399,12.1705;BQ-BO;Bonaire;Guatemala
+0;-62.9778,17.5032;BQ-SE;Sint Eustatius;Grovell
+0;-62.9802,17.4733;BQ-SE;Sint Eustatius;Grove
+823;-62.9812,17.4914;BQ-SE;Sint Eustatius;Golden Rock
+0;-62.9909,17.4873;BQ-SE;Sint Eustatius;Godet
+0;-62.9715,17.4806;BQ-SE;Sint Eustatius;Glass Bottle
+0;-62.9772,17.4789;BQ-SE;Sint Eustatius;Gilheads
+0;-62.9873,17.4847;BQ-SE;Sint Eustatius;Fiscal
+0;-62.9731,17.4950;BQ-SE;Sint Eustatius;Fair Play
+0;-63.2290,17.6324;BQ-SB;Saba;English Quarter
+0;-62.9618,17.4929;BQ-SE;Sint Eustatius;English Quarter
+1186;-68.2604,12.1373;BQ-BO;Bonaire;Dorp Tera Kora
+0;-68.2695,12.1491;BQ-BO;Bonaire;Dorp Sabana
+1875;-68.3306,12.2376;BQ-BO;Bonaire;Dorp Rincon
+0;-68.2749,12.1760;BQ-BO;Bonaire;Dorp Nor’i Saliña
+3475;-68.2612,12.1444;BQ-BO;Bonaire;Dorp Nikiboko
+3811;-68.2704,12.1663;BQ-BO;Bonaire;Dorp Antriol
+0;-62.9654,17.4671;BQ-SE;Sint Eustatius;Docker’s Island
+0;-68.2701,12.1698;BQ-BO;Bonaire;Den Tuna
+0;-62.9821,17.4719;BQ-SE;Sint Eustatius;Crooks
+283;-63.2417,17.6257;BQ-SB;Saba;Crispeen
+0;-62.9857,17.4852;BQ-SE;Sint Eustatius;Cottage Pasture
+0;-62.9786,17.4930;BQ-SE;Sint Eustatius;Concordia
+0;-62.9745,17.4928;BQ-SE;Sint Eustatius;Cherry Tree
+0;-68.2319,12.1716;BQ-BO;Bonaire;Kas Korá
+0;-68.2644,12.1360;BQ-BO;Bonaire;Caranjito
+0;-68.3267,12.2490;BQ-BO;Bonaire;Buena Vista
+0;-68.2292,12.1682;BQ-BO;Bonaire;Buena Esperansa
+0;-68.2231,12.1559;BQ-BO;Bonaire;Bricat
+0;-62.9809,17.4710;BQ-SE;Sint Eustatius;Boxen Alley
+0;-68.2151,12.1862;BQ-BO;Bonaire;Boven Bolivia
+0;-62.9806,17.4722;BQ-SE;Sint Eustatius;Bouille
+0;-68.3193,12.2316;BQ-BO;Bonaire;Botelé
+0;-62.9558,17.4889;BQ-SE;Sint Eustatius;Big Pasture
+0;-62.9889,17.4859;BQ-SE;Sint Eustatius;Benners
+0;-68.3396,12.2656;BQ-BO;Bonaire;Benesuela
+0;-68.2918,12.1186;BQ-BO;Bonaire;Bel Nem
+0;-68.2626,12.1502;BQ-BO;Bonaire;Bella Vista
+0;-68.3041,12.1992;BQ-BO;Bonaire;Barkadera
+881;-68.2874,12.1233;BQ-BO;Bonaire;Belnem
+0;-62.9874,17.4823;BQ-SE;Sint Eustatius;Claes Gut
+0;-68.3576,12.2374;BQ-BO;Bonaire;Dos Pos
+0;-68.2596,12.1392;BQ-BO;Bonaire;Libertad
+0;-68.2708,12.1172;BQ-BO;Bonaire;Kincu
+0;-68.2633,12.1774;BQ-BO;Bonaire;Angola
+0;-68.3337,12.2274;BQ-BO;Bonaire;Subi di Rincon

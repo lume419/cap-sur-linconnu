@@ -1,0 +1,292 @@
+es;3 de Mayo;Tres de Mayo
+es;Ype Jhú;Ypejhú
+es;Compañía Jhovy;Yhovy
+es;Ygatimi;Villa Ygatimí
+es;Ybytymi;Ybytymí
+es;Colonia Felipe Matiauda;Yataity del Norte
+ru;Ягуарон;Yaguarón
+zh;亞瓜龍;Yaguarón
+ar;نهر جاغواراو;Yaguarón
+zh-Hant;亞鬆森;Yaguarón
+ja;ヤグアロン;Yaguarón
+ru;Вильяррика;Villarrica
+gn;Villarrika;Villarrica
+zh;比亚里卡;Villarrica
+ko;비야리카;Villarrica
+ar;فيلاريكا;Villarrica
+hi;विलारिका;Villarrica
+ja;ビジャリカ;Villarrica
+ru;Вилья-Айес;Villa Hayes
+ar;فيلا هايز;Villa Hayes
+hi;विला हेयस;Villa Hayes
+ja;ビジャ・ハイエス;Villa Hayes
+ru;Тринидад;Trinidad
+es;San Ignacio Guazú;San Ignacio
+es;Santa Rosa Misiones;Santa Rosa
+es;Santa Rosa de Lima;Santa Rosa
+es;Colonia Santa Rosa;Santa Rosa del Aguaray
+es;Santa María de Fe;Santa María
+en;San Pedro de Ycuamandyyu;San Pedro de Ycuamandyyú
+ru;Сан-Педро-де-Йкуамандийю;San Pedro de Ycuamandyyú
+ar;سان بيدرو دي يكوامانديو;San Pedro de Ycuamandyyú
+es;San Pedro de Ycuamandyyu;San Pedro de Ycuamandyyú
+fr;San Pedro de Ycuamandyyu;San Pedro de Ycuamandyyú
+hi;सैन पेड्रो डे यकुअमंदिु;San Pedro de Ycuamandyyú
+de;San Pedro de Ycuamandyyu;San Pedro de Ycuamandyyú
+ja;サンペドロデイクアマンディウ;San Pedro de Ycuamandyyú
+pt;San Pedro de Ycuamandyyu;San Pedro de Ycuamandyyú
+ar;سان لورينزو;San Lorenzo
+ru;Сан-Лоренсо;San Lorenzo
+zh;聖洛倫索;San Lorenzo
+ru;Сан-Хуан-Баутиста;San Juan Bautista
+ar;سان خوان باوتيستا;San Juan Bautista
+hi;सैन जुआन बॉटिस्टा;San Juan Bautista
+ja;サンファンバウティスタ;San Juan Bautista
+es;Compañía Sanchez-Cué;Sánchez Kué
+gn;Salto del Guaira;Salto del Guairá
+ko;살토델과이라;Salto del Guairá
+ru;Сальто-дель-Гуайра;Salto del Guairá
+zh;薩爾托德爾瓜;Salto del Guairá
+en;Salto del Guaira;Salto del Guairá
+ar;سالتو ديل جوايرا;Salto del Guairá
+es;Salto del Guaira;Salto del Guairá
+fr;Salto del Guaira;Salto del Guairá
+hi;साल्टो डेल गुआइरा;Salto del Guairá
+de;Salto del Guaira;Salto del Guairá
+ja;サルトデルグアイラ;Salto del Guairá
+pt;Salto del Guaira;Salto del Guairá
+es;Colonia Repatriación;Repatriación
+ar;بيلار;Pilar
+ru;Пилар;Pilar
+zh;皮拉爾;Pilar
+ko;필라르;Pilar
+hi;पिलार;Pilar
+ja;ピラル;Pilar
+ja;ペドロ・フアン・カバリェロ市;Pedro Juan Caballero
+ru;Педро-Хуан-Кабальеро;Pedro Juan Caballero
+zh;佩德罗胡安卡瓦列罗;Pedro Juan Caballero
+ko;페드로후안카바예로;Pedro Juan Caballero
+ar;بيدرو خوان كابالييرو;Pedro Juan Caballero
+hi;पेड्रो जुआन कैबेलेरो;Pedro Juan Caballero
+gn;Paraguari;Paraguarí
+ko;파라과리;Paraguarí
+ru;Парагуари;Paraguarí
+zh;巴拉瓜里;Paraguarí
+en;Paraguari;Paraguarí
+ar;باراجواري;Paraguarí
+fr;Paraguari;Paraguarí
+hi;पारागुआरी;Paraguarí
+de;Paraguari;Paraguarí
+ja;パラグアリ;Paraguarí
+es;Hugo Stroessner;Nueva Londres
+es;Teniente Primero Domingo Robledo;Natalio
+es;Nanawua;Nanawa
+es;Mayor Martínez;Mayor José Dejesús Martínez
+es;Colonia Julio Otaño;Mayor Julio Dionisio Otaño
+es;Colonia Mayor Julio Otaño;Mayor Julio Dionisio Otaño
+ar;لوكي;Luque
+gn;Lúke;Luque
+ja;ルケ;Luque
+zh;卢克;Luque
+ko;루케;Luque
+es;Cedrales;Los Cedrales
+ru;Лима;Lima
+es;La Paloma;La Paloma del Espíritu Santo
+es;Santa María de la Paz;La Paz
+gn;Lambare;Lambaré
+ja;ランバレ;Lambaré
+ko;람바레;Lambaré
+zh;蘭巴雷;Lambaré
+ru;Ламбаре;Lambaré
+es;Santa Rosa;Santa Rosa del Mbutuy
+es;Juan Eulogio Estigarribia;Doctor Juan Eulogio Estigarribia
+es;Colonia General Alfredo Stroessner;Doctor Juan Eulogio Estigarribia
+es;José Domingo Ocampo;José Domingo Ocampos
+ru;Итурбе;Iturbe
+gn;Ytaygua;Itauguá
+ru;Итаугуа;Itauguá
+zh;伊陶瓜;Itauguá
+es;Itapuá Poty;Itapúa Poty
+es;Isla Ombú;Isla Umbú
+es;General Francisco I. Resquín;General Francisco Isidoro Resquín
+es;Puente Kyjha;Francisco Caballero Álvarez
+es;General Francisco Caballero Álvarez;Francisco Caballero Álvarez
+es;Eugenio Alejandrino Garay;General Eugenio Alejandrino Garay
+es;Colonia General Elizardo Aquino;General Elizardo Aquino
+ko;푸에르테올림포;Fuerte Olimpo
+ru;Фуэрте-Олимпо;Fuerte Olimpo
+zh;奥林波堡;Fuerte Olimpo
+ar;فويرتي أوليمبو;Fuerte Olimpo
+hi;फुएर्टे ओलिम्पो;Fuerte Olimpo
+ja;フエルテオリンポ;Fuerte Olimpo
+ru;Фрам;Fram
+ar;فيرناندو دي لا مورا;Fernando de la Mora
+zh;費爾南多德拉莫拉;Fernando de la Mora
+ru;Фернандо Де Ла Мора;Fernando de la Mora
+pt;Encarnação;Encarnación
+ru;Энкарнасьон;Encarnación
+ja;エンカルナシオン;Encarnación
+zh;恩卡纳西翁;Encarnación
+ko;엥카르나시온;Encarnación
+ar;إنكارناسيون;Encarnación
+hi;एनकार्नेशन;Encarnación
+es;Antidia de Matiauda;Edelira
+es;Puerto Domingo Martínez de Irala;Domingo Martínez de Irala
+es;Ex Pastoreo;Doctor Juan Manuel Frutos
+es;Colonia Doctor Juan León Mallorquín;Doctor Juan León Mallorquín
+es;Cecilio Baez;Doctor Cecilio Báez
+ru;Коронель-Овьедо;Coronel Oviedo
+ja;コロネル・オビエド;Coronel Oviedo
+zh;奥维多上校镇;Coronel Oviedo
+ko;코로넬오비에도;Coronel Oviedo
+ar;كورونيل أوفييدو;Coronel Oviedo
+hi;कोरोनेल ओविएडो;Coronel Oviedo
+es;Coronel José Félix Bogado;Coronel Bogado
+ru;Консепсьон;Concepción
+pt;Conceição;Concepción
+ar;كونسيبسيون;Concepción
+hi;कॉनसेप्शन;Concepción
+ja;コンセプシオン;Concepción
+es;Guido Coronel;Santa Fe del Paraná
+es;Colonia Juan Manuel Frutos;Colonia Doctor Manuel Frutos
+es;Colonia General Alejandro F. Davalos;Colonia General Alejandro Fretes Davalos
+es;Colonia Blas Garay;Colonia Blas A. Garay
+ko;시우다드델에스테;Ciudad del Este
+ja;シウダー・デル・エステ;Ciudad del Este
+ru;Сьюдад-дель-Эсте;Ciudad del Este
+zh;東方市;Ciudad del Este
+ar;سيوداد ديل إسته;Ciudad del Este
+hi;सिउदाद डेल एस्टे;Ciudad del Este
+es;Colonia Carlos Antonio López;Carlos Antonio López
+es;Colonia Capitán Meza;Capitán Meza
+gn;Kapiatã;Capiatá
+ja;カピアタ;Capiatá
+ko;카피아타;Capiatá
+zh;卡皮亞塔;Capiatá
+ru;Капьята;Capiatá
+gn;Kaasapa;Caazapá
+ko;카사파;Caazapá
+zh;卡薩帕;Caazapá
+en;Caazapa;Caazapá
+ru;Каазапа;Caazapá
+ar;كاازابا;Caazapá
+fr;Caazapa;Caazapá
+hi;काअजपा;Caazapá
+de;Caazapa;Caazapá
+ja;カアサパ;Caazapá
+gn;Kaakupe;Caacupé
+ko;카쿠페;Caacupé
+zh;卡庫佩;Caacupé
+en;Caacupe;Caacupé
+ru;Каакупе;Caacupé
+ar;كاكوبي;Caacupé
+hi;काकुपे;Caacupé
+ja;カアクペ;Caacupé
+es;Bella Vista Norte;Bella Vista
+es;Juan de Ayolas;Ayolas
+ar;أسونسيون;Asunción
+ja;アスンシオン;Asunción
+ko;아순시온;Asunción
+pt;Assunção;Asunción
+ru;Асунсьон;Asunción
+zh;亞松森;Asunción
+gn;Paraguay;Asunción
+pap;Assuncion;Asunción
+ht;Asounsyòn;Asunción
+ay;Asunsyun;Asunción
+en;Aregua;Areguá
+ru;Арегуа;Areguá
+ar;أريجوا;Areguá
+fr;Aregua;Areguá
+hi;अरेग्वा;Areguá
+de;Aregua;Areguá
+ja;アレグア;Areguá
+ru;Алтос;Altos
+es;Juan Bautista Alberdi;Alberdi
+de;Mariscal Estigarribia;Mariscal José Félix Estigarribia
+fr;Mariscal Estigarribia;Mariscal José Félix Estigarribia
+en;Mariscal Estigarribia;Mariscal José Félix Estigarribia
+ru;Филадельфия;Filadelfia
+ar;فيلادلفيا;Filadelfia
+fr;Philadelphie;Filadelfia
+hi;फिलाडेल्फिया;Filadelfia
+ja;フィラデルフィア;Filadelfia
+pt;Filadélfia;Filadelfia
+ar;مايور بابلو لاجيرنزا;Capitán Pablo Lagerenza
+pt;Mayor Pablo Lagerenza;Capitán Pablo Lagerenza
+gn;Mayor Pablo Lagerenza;Capitán Pablo Lagerenza
+en;Mayor Pablo Lagerenza;Capitán Pablo Lagerenza
+es;Mayor Pablo Lagerenza;Capitán Pablo Lagerenza
+nl;Mayor Pablo Lagerenza;Capitán Pablo Lagerenza
+de;Straßberg;Strassberg
+de;Grünfeld;Grunfeld
+en;Puerto Valle-Mi;Puerto Vallemí
+es;Compañía Espinialo;Compañía Espinillo
+es;Guazú Corá;Guazú Kora
+es;Guasu Kora;Guazú Kora
+es;Tacuruty;Takuruty
+es;Compañía Yacý Cañý;Yasy Cañy
+es;Tacuara;Takuara
+es;Isla Guavirá;Isla Guavira
+es;Yuquyty;Jukyty
+es;Curupicayty;Kurupika’yty
+es;Arrua-í;Arrua’i
+es;Valle Yo-á;Valle Jo’a
+es;Tape Tuyá;Tape Tuja
+es;Peguajhó;Peguaho
+es;Ex Guazucuá;Colonia Comandante Julián Insfran
+es;Isla Ybate;Isla Ybaté
+es;Compañía Caaguazú;Caaguazú
+es;Compañía Calle Poi;Calle Po’i
+es;Compañía Potrero Poi;Potrero Po’i
+es;Compañía Aveiro;Aveiro
+es;Compañía Calle Ybaté;Calle Yvaté
+es;Compañía Juguá Ñaró;Hugua Ñaro
+es;Compañía Potrerito;Potrerito
+es;Compañía Pindolo;Pindolo
+es;Compañía Yataity Corá Diecisiete;Yataity
+es;Compañía Costa Fleitas;Costa Fleitas
+es;Compañía Caacupe Mi;Caacupemí Uno
+es;Caacupemí 1;Caacupemí Uno
+es;Compañía Isla Valle;Isla Valle
+es;Compañía Cocue Guazú;Kokue Guazú
+es;Kokue Guasu;Kokue Guazú
+es;Compañía Caraguata-í-tý;Caraguatayty
+es;Compañía Potrero Guazú;Potrero Guazú
+es;Potrero Guasu;Potrero Guazú
+es;Compañía Nú Poi;Ñu Po’i
+es;Compañía Paso Puente;Paso Puente
+es;Compañía Mbocayaty;Mbokajaty
+es;Siratý;Siraty
+es;Compañía Capi-í-pé;Compañía Capiipé
+es;Compañía Jhugua Jhú;Hugua Hu
+es;25 de Diciembre;Veinticinco de Diciembre
+es;Compañía San Blas;Vaquería
+es;Colonia San Pablo;San Pablo
+es;Waldhorst;Colonia Número Cuatro
+es;Mariental;Colonia Número Doce
+es;Kirchmeim;Colonia Número Trece
+es;Korniesheim;Colonia Número Cuatro
+es;Grosweide;Colonia Número Dos
+es;Ruckenau;Colonia Número Cinco
+es;Schoenwalde;Colonia Número Uno
+es;Waldhein;Colonia Número Dos
+es;Tiefenbrunn;Colonia Número Cinco
+es;Waldeck;Colonia Número Seis
+es;Waldesruk;Colonia Número Siete
+es;Fredeshein;Colonia Número Ocho
+es;Fuerstenweder;Colonia Número Nueve
+es;Grunewald;Colonia Número Diez
+es;Rosenort;Colonia Número Once
+es;Estancia Merzan;Estancia Mersan
+es;Compañía Capitán Cué;Capitán Kué
+es;Compañía Ñurumí;Asentamiento Jurumi
+es;Compañía Paraje;Paraje Guazú
+es;Barrio María Auxiliadora;María Auxiliadora
+es;Kilómetro Veinte;Campo Grande
+es;Tayaó;Regimiento de Infantería Tres Corrales
+es;R.I. 3 Corrales;Regimiento de Infantería Tres Corrales
+es;R. I. 3 Corrales;Regimiento de Infantería Tres Corrales
+es;General Higinio Morinigo;General Higinio Morínigo
+es;Karapa’i;Karapaí
+es;Kokue Guasu San Antonio;Kokue Guazú San Antonio

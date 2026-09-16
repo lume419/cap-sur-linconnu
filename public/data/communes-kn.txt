@@ -1,0 +1,129 @@
+0;-62.5611,17.1416;KN-04;Saint George Gingerland;Zion
+0;-62.5756,17.1386;KN-04;Saint George Gingerland;Zetlands
+0;-62.7833,17.3333;KN-13;Middle Island;Wingfield Manor
+0;-62.5583,17.1806;KN-05;Saint James Windwa;Whitehall
+0;-62.8167,17.4167;KN-09;Saint Paul Capesterre;Whitegate
+0;-62.6073,17.1825;KN-12;Saint Thomas Lowland;Westbury
+0;-62.5606,17.1452;KN-04;Saint George Gingerland;Webb’s Ground
+0;-62.6245,17.1637;KN-12;Saint Thomas Lowland;Vaughans
+0;-62.7070,17.3150;KN-11;Saint Peter Basseterre;Upper Conaree
+1692;-62.7758,17.3004;KN-15;Trinity Palmetto Point;Trinity
+0;-62.8500,17.3833;KN-09;Saint Paul Capesterre;Trants
+0;-62.5746,17.1303;KN-04;Saint George Gingerland;Taylors Pasture
+0;-62.7739,17.3866;KN-06;Saint John Capesterre;Tabernacle
+0;-62.6149,17.1579;KN-12;Saint Thomas Lowland;Stuart’s
+0;-62.5667,17.1431;KN-04;Saint George Gingerland;Stonyhill
+0;-62.7307,17.3269;KN-11;Saint Peter Basseterre;Stapleton
+0;-62.5589,17.1220;KN-04;Saint George Gingerland;Sherriffs
+0;-62.5799,17.1936;KN-05;Saint James Windwa;Scarborough
+3140;-62.8486,17.3591;KN-02;Saint Anne Sandy Point;Sandy Point Town
+0;-62.7290,17.3161;KN-11;Saint Peter Basseterre;Saint Peter’s
+2460;-62.8356,17.4061;KN-09;Saint Paul Capesterre;Saint Paul’s
+1205;-62.7930,17.4045;KN-06;Saint John Capesterre;Sadlers
+0;-62.7833,17.3333;KN-13;Middle Island;Romneys
+0;-62.5624,17.1283;KN-04;Saint George Gingerland;Rices
+0;-62.5829,17.1952;KN-05;Saint James Windwa;Rawlins
+0;-62.5718,17.1439;KN-04;Saint George Gingerland;Rawlins
+0;-62.5820,17.1282;KN-07;Saint John Figtree;Pond Hill
+0;-62.7606,17.3661;KN-01;Christ Church Nichola Town;Phillips
+0;-62.6001,17.1159;KN-07;Saint John Figtree;Pembroke
+0;-62.8051,17.4094;KN-06;Saint John Capesterre;Parson’s Ground
+0;-62.7298,17.3234;KN-11;Saint Peter Basseterre;Parry’s
+0;-62.7433,17.3626;KN-08;Saint Mary Cayon;Ottley’s
+0;-62.7763,17.3050;KN-15;Trinity Palmetto Point;Ottley’s
+0;-62.8333,17.3833;KN-09;Saint Paul Capesterre;Ortons
+1647;-62.8034,17.3222;KN-13;Middle Island;Old Road Town
+0;-62.7331,17.3301;KN-11;Saint Peter Basseterre;Ogee’s
+2059;-62.7532,17.3796;KN-01;Christ Church Nichola Town;Nicola Town
+0;-62.8520,17.3876;KN-09;Saint Paul Capesterre;Newton Ground
+0;-62.5527,17.1453;KN-04;Saint George Gingerland;New River
+493;-62.5833,17.2000;KN-05;Saint James Windwa;Newcastle
+0;-62.5843,17.1863;KN-05;Saint James Windwa;Mount Lily
+0;-62.5833,17.1167;KN-07;Saint John Figtree;Montpelier
+592;-62.7291,17.3233;KN-11;Saint Peter Basseterre;Monkey Hill
+0;-62.7551,17.3699;KN-01;Christ Church Nichola Town;Molineux
+2332;-62.8105,17.3259;KN-13;Middle Island;Middle Island
+0;-62.5725,17.1281;KN-04;Saint George Gingerland;Maynards Ground
+2568;-62.5727,17.1322;KN-04;Saint George Gingerland;Market Shop
+0;-62.7167,17.3167;KN-11;Saint Peter Basseterre;Mardenbrough
+690;-62.7575,17.3827;KN-01;Christ Church Nichola Town;Mansion
+0;-62.5490,17.1652;KN-05;Saint James Windwa;Mannings
+0;-62.5333,17.1833;KN-05;Saint James Windwa;Maddens
+0;-62.7000,17.3000;KN-06;Saint John Capesterre;Lucas
+0;-62.6040,17.1173;KN-07;Saint John Figtree;Low Ground Settlement
+0;-62.7475,17.3640;KN-08;Saint Mary Cayon;Lodge
+0;-62.7333,17.2833;KN-03;Saint George Basseterre;Limekiln
+0;-62.7167,17.3000;KN-03;Saint George Basseterre;La Guérite
+0;-62.6869,17.2908;KN-11;Saint Peter Basseterre;Kittitian Village
+0;-62.7221,17.2988;KN-03;Saint George Basseterre;Kit Stoddart
+0;-62.7142,17.3421;KN-08;Saint Mary Cayon;Key
+0;-62.7290,17.3210;KN-11;Saint Peter Basseterre;John England Village
+0;-62.6206,17.1621;KN-12;Saint Thomas Lowland;Jessup
+0;-62.7333,17.3500;KN-08;Saint Mary Cayon;Jack in the Box
+0;-62.5733,17.1414;KN-04;Saint George Gingerland;Hull Ground
+0;-62.7833,17.3833;KN-06;Saint John Capesterre;Houstons
+0;-62.5581,17.1192;KN-04;Saint George Gingerland;Holmes Hill
+0;-62.5596,17.1843;KN-05;Saint James Windwa;Hick’s
+0;-62.5544,17.1377;KN-04;Saint George Gingerland;Hichmans
+0;-62.5813,17.1329;KN-04;Saint George Gingerland;Hermitage
+0;-62.7167,17.3667;KN-08;Saint Mary Cayon;Hermitage
+0;-62.8368,17.4055;KN-09;Saint Paul Capesterre;Heldens
+0;-62.5587,17.1463;KN-04;Saint George Gingerland;Harris
+0;-62.7875,17.4028;KN-06;Saint John Capesterre;Harris
+0;-62.5500,17.1333;KN-04;Saint George Gingerland;Hardtimes
+0;-62.8247,17.3329;KN-13;Middle Island;Half Way Tree
+0;-62.7000,17.3167;KN-11;Saint Peter Basseterre;Greatheeds
+0;-62.7167,17.3167;KN-11;Saint Peter Basseterre;Golden Rock
+493;-62.5693,17.1352;KN-04;Saint George Gingerland;Gingerland
+0;-62.7833,17.3833;KN-06;Saint John Capesterre;Geagans
+0;-62.5915,17.1813;KN-05;Saint James Windwa;Fountain
+0;-62.5500,17.1500;KN-04;Saint George Gingerland;Fothergill
+0;-62.8576,17.3673;KN-02;Saint Anne Sandy Point;Fig Tree
+2922;-62.6026,17.1262;KN-07;Saint John Figtree;Fig Tree
+0;-62.5649,17.1390;KN-04;Saint George Gingerland;Fenton Hill
+0;-62.7167,17.3167;KN-11;Saint Peter Basseterre;Douglas
+592;-62.8139,17.4147;KN-06;Saint John Capesterre;Dieppe Bay Town
+0;-62.7000,17.3500;KN-08;Saint Mary Cayon;Dalzells
+0;-62.5679,17.1288;KN-04;Saint George Gingerland;Crook’s Ground
+0;-62.6231,17.1435;KN-02;Saint Anne Sandy Point;Craddocks
+0;-62.5839,17.1210;KN-07;Saint John Figtree;Cox
+381;-62.6167,17.1667;KN-12;Saint Thomas Lowland;Cotton Ground
+0;-62.5880,17.1273;KN-07;Saint John Figtree;Cole Hill
+0;-62.8000,17.4000;KN-09;Saint Paul Capesterre;Cliftons
+0;-62.6000,17.1833;KN-12;Saint Thomas Lowland;Cliftons
+0;-62.5995,17.1327;KN-07;Saint John Figtree;Church Ground
+0;-62.5796,17.1318;KN-04;Saint George Gingerland;Chicken Stone
+1538;-62.6167,17.1333;KN-10;Saint Paul Charlestown;Charlestown
+0;-62.7849,17.3040;KN-15;Trinity Palmetto Point;Challengers
+788;-62.7333,17.3500;KN-08;Saint Mary Cayon;Cayon
+0;-62.7000,17.3333;KN-11;Saint Peter Basseterre;Canada
+0;-62.5764,17.1970;KN-05;Saint James Windwa;Camps
+0;-62.5508,17.1665;KN-05;Saint James Windwa;Butlers
+0;-62.8167,17.3667;KN-02;Saint Anne Sandy Point;Burts
+0;-62.5727,17.1962;KN-05;Saint James Windwa;Burnaby
+0;-62.5640,17.1262;KN-04;Saint George Gingerland;Buck’s Hill
+0;-62.7333,17.3000;KN-03;Saint George Basseterre;Brumaire
+0;-62.5933,17.1323;KN-07;Saint John Figtree;Brown Pasture
+0;-62.6020,17.1214;KN-07;Saint John Figtree;Brown Hill
+0;-62.8000,17.4000;KN-06;Saint John Capesterre;Brownes
+0;-62.5534,17.1753;KN-05;Saint James Windwa;Brick Kiln
+0;-62.7667,17.3833;KN-06;Saint John Capesterre;Brambles
+591;-62.7702,17.2978;KN-15;Trinity Palmetto Point;Boyd’s
+0;-62.7333,17.3833;KN-01;Christ Church Nichola Town;Bourryau
+0;-62.7806,17.4019;KN-06;Saint John Capesterre;Belle Vue
+0;-62.5813,17.1244;KN-07;Saint John Figtree;Beaumont
+0;-62.7487,17.3343;KN-11;Saint Peter Basseterre;Bayford’s
+0;-62.6271,17.1299;KN-07;Saint John Figtree;Bath
+12920;-62.7250,17.2955;KN-03;Saint George Basseterre;Basseterre
+0;-62.6109,17.1678;KN-12;Saint Thomas Lowland;Barnes Ghaut
+0;-62.5500,17.2000;KN-05;Saint James Windwa;Barnabys Village
+0;-62.5167,17.1333;KN-04;Saint George Gingerland;Bachelors Hall
+0;-62.7334,17.2916;KN;;Fortlands
+0;-62.5879,17.1301;KN-07;Saint John Figtree;Beach Road
+0;-62.5933,17.1363;KN-07;Saint John Figtree;Burdon Pasture
+0;-62.5674,17.1937;KN-05;Saint James Windwa;Potwork Settlement
+0;-62.5816,17.2038;KN-05;Saint James Windwa;Nisbett Settlement
+0;-62.7055,17.2886;KN-03;Saint George Basseterre;Bird Rock
+0;-62.6634,17.2659;KN-03;Saint George Basseterre;Grape Tree Bottom
+0;-62.5760,17.1357;KN-07;Saint John Figtree;Stoney Hill
+0;-62.7333,17.3526;KN-08;Saint Mary Cayon;Hermitage Estate

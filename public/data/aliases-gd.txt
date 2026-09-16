@@ -1,0 +1,16 @@
+zh;上拉坦特;Upper La Tante
+ja;チボリ;Tivoli
+zh;蒂沃利_;Tivoli
+de;St. George's;Saint George's
+en;St. George's;Saint George's
+fr;Saint-Georges;Saint George's
+it;St. George's;Saint George's
+ja;セントジョージズ;Saint George's
+ko;세인트조지스;Saint George's
+pt;Saint George.s;Saint George's
+ru;Сент-Джоржес;Saint George's
+ja;パラダイス;Paradise
+zh;莫恩朗格;Morne Longue
+de;L'Anse Aux Epines;Lance aux Épines
+ja;カリヴィニー;Calivigny
+zh;卡利維尼;Calivigny

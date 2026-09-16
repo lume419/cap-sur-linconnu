@@ -1,0 +1,3497 @@
+0;-89.7667,14.0000;SV-01;Ahuachapan;Zunca
+0;-88.7667,14.1167;SV-03;Chalatenango Department;Zazalapa
+11749;-89.2889,13.5894;SV-05;La Libertad Department;Zaragoza
+0;-88.3667,13.5167;SV-09;San Miguel Department;Zaragoza
+0;-89.8614,13.8064;SV-01;Ahuachapan;Zapúa
+0;-89.4489,13.8047;SV-05;La Libertad Department;Zapotitán
+0;-88.4833,13.5333;SV-14;Usulutan;Zapotillo
+0;-88.1833,13.5000;SV-09;San Miguel Department;Zamorán
+0;-88.7000,13.3333;SV-14;Usulutan;Zamorán
+0;-89.1000,13.4500;SV-06;La Paz Department;Zambombera
+39613;-88.8702,13.5087;SV-06;La Paz Department;Zacatecoluca
+0;-89.4833,13.8833;SV-11;Santa Ana Department;Zacatal
+0;-89.7000,13.9667;SV-11;Santa Ana Department;Zacamil
+0;-89.1969,13.8983;SV-10;San Salvador Department;Zacamil
+0;-89.2167,13.7333;SV-10;San Salvador Department;Zacamil
+0;-88.8333,14.1000;SV-03;Chalatenango Department;Yurique
+0;-88.0000,13.5500;SV-07;La Union;Yucuaiquín
+0;-88.4833,13.5167;SV-14;Usulutan;Yomo
+0;-87.8333,13.3000;SV-07;La Union;Yologual
+0;-88.1500,13.7667;SV-08;Morazan;Yoloaiquín
+0;-88.0222,13.4486;SV-07;La Union;Yayantique
+0;-88.1000,13.8000;SV-08;Morazan;Yancolo
+0;-88.1667,13.6667;SV-08;Morazan;Yamabal
+0;-88.8167,13.5833;SV-12;San Vicente Department;Volcán Opico
+0;-88.2833,13.8167;SV-09;San Miguel Department;Volcancillo
+0;-87.8333,13.7000;SV-07;La Union;Volcancillo
+0;-87.9317,13.2150;SV-07;La Union;El Volcancillo
+0;-88.5667,13.5333;SV-14;Usulutan;Virginia
+0;-88.0500,13.6167;SV-08;Morazan;Villa Modelo
+2023;-88.6333,13.9500;SV-02;Cabanas;Victoria
+0;-89.3011,13.7158;SV-05;La Libertad Department;Victoria
+0;-88.8667,13.6500;SV-12;San Vicente Department;Verapaz
+0;-89.4333,13.8042;SV-05;La Libertad Department;Veracruz
+0;-88.9000,13.7500;SV-04;Cuscatlan;Veracruz
+0;-89.1000,13.7333;SV-10;San Salvador Department;Veracruz
+0;-88.1500,13.7167;SV-08;Morazan;Veracruz
+0;-88.9333,13.6500;SV-06;La Paz Department;Veracruz
+0;-89.1000,13.5000;SV-06;La Paz Department;Veracruz
+0;-89.4400,13.9556;SV-11;Santa Ana Department;Finca Venecia
+0;-89.1500,13.7167;SV-10;San Salvador Department;Venecia
+0;-89.2833,14.2000;SV-03;Chalatenango Department;Vega Grande
+0;-88.0167,13.7667;SV-08;Morazan;Varilla Negra
+0;-89.0833,14.1167;SV-03;Chalatenango Department;Valle Nuevo
+0;-89.2000,14.0500;SV-10;San Salvador Department;Valle Nuevo
+0;-88.8667,13.9000;SV-02;Cabanas;Valle Nuevo
+0;-89.4033,13.8756;SV-05;La Libertad Department;Valle Nuevo
+0;-88.9500,13.8833;SV-02;Cabanas;Valle Nuevo
+0;-89.6983,13.8433;SV-13;Sonsonate Department;Valle Nuevo
+0;-89.5464,13.7875;SV-13;Sonsonate Department;Valle Nuevo
+0;-89.3458,13.7569;SV-05;La Libertad Department;Valle Nuevo
+0;-89.8167,13.6500;SV-13;Sonsonate Department;Valle Nuevo
+0;-88.4500,13.6333;SV-14;Usulutan;Valle Nuevo
+0;-88.0667,13.6333;SV-08;Morazan;Valle Nuevo
+0;-88.0167,13.5667;SV-07;La Union;Valle Nuevo
+0;-89.7500,13.6000;SV-13;Sonsonate Department;Valle Jocotillo
+0;-88.2500,13.8167;SV-08;Morazan;Valle Grande
+0;-89.7167,13.9167;SV-01;Ahuachapan;Valle El Portezuelo
+0;-88.6833,13.4833;SV-12;San Vicente Department;Valle El Aceituno
+0;-89.5833,13.8667;SV-11;Santa Ana Department;Valle del Mascarón
+0;-89.0333,14.3333;SV-03;Chalatenango Department;Valle de Jesús
+0;-89.6167,13.8500;SV-11;Santa Ana Department;Valle Campana
+0;-88.2667,13.5167;SV-09;San Miguel Department;Valle Alegre
+0;-87.7989,13.5056;SV-07;La Union;Valle Afuera
+0;-89.5000,14.4000;SV-11;Santa Ana Department;Valeriano
+0;-88.3167,13.5500;SV-09;San Miguel Department;Valencia
+0;-88.9167,14.1667;SV-03;Chalatenango Department;Vainillas
+0;-88.3667,13.8667;SV-09;San Miguel Department;Vado Nuevo
+0;-87.9000,13.7667;SV-07;La Union;Uvitas
+51910;-88.4399,13.3447;SV-14;Usulutan;Usulután
+0;-87.8667,13.8833;SV-07;La Union;Upire
+0;-88.9500,14.0500;SV-03;Chalatenango Department;Upatoro
+0;-88.0667,13.5000;SV-09;San Miguel Department;Uluazapa
+0;-88.8833,13.5167;SV-06;La Paz Department;Ulapa
+0;-89.2233,13.8939;SV-10;San Salvador Department;Tutultepeque
+11829;-89.7661,13.9664;SV-01;Ahuachapan;Turín
+0;-89.6764,13.7953;SV-13;Sonsonate Department;Los Tunalmiles
+0;-87.8764,13.7033;SV-07;La Union;Tulima
+0;-89.7833,13.8667;SV-01;Ahuachapan;Tulapa
+0;-89.2833,13.5500;SV-05;La Libertad Department;Tula
+0;-88.6167,13.8667;SV-02;Cabanas;Tronalagua
+0;-87.9333,13.4000;SV-07;La Union;Trinchera
+0;-89.1333,13.9333;SV-04;Cuscatlan;Tres Ceibas
+0;-89.1886,13.8314;SV-10;San Salvador Department;Tres Ceibas
+0;-89.4775,13.7522;SV-13;Sonsonate Department;Tres Ceibas
+0;-89.7000,13.7167;SV-13;Sonsonate Department;Tres Ceibas
+0;-89.0500,14.2000;SV-03;Chalatenango Department;Tremedal
+0;-88.2167,13.9333;SV-08;Morazan;Tortolico
+0;-88.2333,13.9167;SV-08;Morazan;Torola
+0;-88.2667,13.5833;SV-09;San Miguel Department;Tongolona
+0;-89.7353,13.5978;SV-13;Sonsonate Department;Tonalá
+6245;-89.1186,13.7811;SV-10;San Salvador Department;Tonacatepeque
+0;-89.2172,13.4511;SV-05;La Libertad Department;Toluca
+0;-89.1000,13.5167;SV-06;La Paz Department;Tobalón
+0;-87.8567,13.7136;SV-07;La Union;Tizate
+0;-89.7833,13.8500;SV-01;Ahuachapan;Tizapa
+0;-88.7333,13.8000;SV-02;Cabanas;Titihuapa
+0;-89.1167,14.2167;SV-03;Chalatenango Department;Tilapa
+0;-89.2333,13.5667;SV-05;La Libertad Department;Tilapa
+0;-89.0333,13.4833;SV-06;La Paz Department;Tilapa
+0;-88.2500,13.9167;SV-08;Morazan;Tijeretas
+0;-87.9500,13.3017;SV-07;La Union;Tihuilotal
+0;-89.8833,13.7500;SV-01;Ahuachapan;Tihuicha
+0;-88.0706,13.4114;SV-09;San Miguel Department;Tierra Dura
+0;-88.1167,13.9167;SV-08;Morazan;Tierra Colorada
+0;-89.4833,13.6833;SV-05;La Libertad Department;Tierra Colorada
+0;-88.9000,13.5167;SV-06;La Paz Department;Tierra Colorada
+0;-89.6667,14.1333;SV-11;Santa Ana Department;Tierra Blanca
+0;-88.0500,13.7667;SV-08;Morazan;Tierra Blanca
+0;-88.8833,13.4500;SV-06;La Paz Department;Tierra Blanca
+0;-88.6500,13.3833;SV-14;Usulutan;Tierra Blanca
+0;-88.0561,13.2742;SV-09;San Miguel Department;Tierra Blanca
+0;-89.8333,13.8000;SV-01;Ahuachapan;Texuzín Chirizo
+2401;-89.5000,14.1333;SV-11;Santa Ana Department;Texistepeque
+0;-89.8000,13.7500;SV-01;Ahuachapan;Texispulco
+0;-89.5167,13.8167;SV-11;Santa Ana Department;Teshcal
+0;-89.6628,13.7808;SV-13;Sonsonate Department;Teshcal
+0;-87.9625,13.3986;SV-07;La Union;Terrero Blanco
+0;-87.8394,13.7489;SV-07;La Union;Terreritos
+0;-88.3167,13.8000;SV-09;San Miguel Department;Teponaguaste
+0;-88.9000,14.0333;SV-03;Chalatenango Department;Tepeyac
+0;-88.8333,13.6500;SV-12;San Vicente Department;Tepetitán
+0;-88.0000,13.5667;SV-07;La Union;Tepemechín
+0;-89.4678,13.7003;SV-05;La Libertad Department;Tepecoyo
+0;-89.2833,14.0500;SV-03;Chalatenango Department;Tepeagua
+0;-89.3000,13.5167;SV-05;La Libertad Department;Tepeagua
+0;-89.5183,13.5853;SV-05;La Libertad Department;Teotepeque
+0;-89.1333,14.2500;SV-03;Chalatenango Department;Teosinte
+0;-89.0667,14.2167;SV-03;Chalatenango Department;Teosinte
+0;-88.7667,14.1000;SV-03;Chalatenango Department;Teosinte
+0;-89.0167,13.8833;SV-04;Cuscatlan;Tenango
+1011;-88.9833,13.8333;SV-04;Cuscatlan;Tenancingo
+0;-88.5500,13.6167;SV-14;Usulutan;Tempisque
+0;-87.9833,13.3667;SV-07;La Union;Tempisque
+0;-89.1000,14.1667;SV-03;Chalatenango Department;Tejutla
+0;-88.9000,13.8500;SV-02;Cabanas;Tejutepeque
+0;-88.9000,13.5500;SV-06;La Paz Department;Tehuiste Arriba
+0;-88.9000,13.5500;SV-06;La Paz Department;Tehuiste Abajo
+0;-89.3714,13.9056;SV-05;La Libertad Department;Tehuicho
+0;-89.6794,13.7186;SV-13;Sonsonate Department;Tecuma
+0;-89.1106,13.4739;SV-06;La Paz Department;Tacualuya
+0;-89.1667,14.2000;SV-03;Chalatenango Department;Tecomates
+0;-89.0339,13.8414;SV-04;Cuscatlan;Tecomatepeque
+2781;-89.0053,13.7892;SV-04;Cuscatlan;Tecoluca
+0;-88.7833,13.5333;SV-12;San Vicente Department;Tecoluca
+0;-88.4833,13.4500;SV-14;Usulutan;Tecapán
+0;-89.4078,13.5731;SV-05;La Libertad Department;Tarpeya
+0;-89.4833,13.5167;SV-05;La Libertad Department;Taquillo
+0;-88.4167,13.4667;SV-14;Usulutan;Tapesquillo Bajo
+0;-88.4000,13.4833;SV-14;Usulutan;Tapesquillo Alto
+0;-89.6833,13.7667;SV-13;Sonsonate Department;Tapalshucut
+0;-89.0803,13.5603;SV-06;La Paz Department;Tapalhuaca
+0;-89.7333,13.9167;SV-01;Ahuachapan;Tapacún
+0;-89.4203,13.5983;SV-05;La Libertad Department;Tamanique
+0;-89.7833,13.8333;SV-01;Ahuachapan;Taltapanca
+0;-89.3000,14.4167;SV-03;Chalatenango Department;Talquezalar
+0;-89.1667,14.1667;SV-03;Chalatenango Department;Talquezal
+0;-88.8667,13.6833;SV-12;San Vicente Department;Talpetates
+0;-87.8167,13.7667;SV-07;La Union;Talpetate
+0;-89.4092,13.6669;SV-05;La Libertad Department;Talnique
+0;-89.6833,13.7833;SV-13;Sonsonate Department;Talcomunca
+0;-88.0833,13.9667;SV-08;Morazan;Talchiga
+0;-89.1333,14.2167;SV-03;Chalatenango Department;Talchaluya
+0;-89.7075,13.8231;SV-13;Sonsonate Department;Tajcuilujlán
+0;-89.4000,14.2667;SV-11;Santa Ana Department;Tahuilapa
+0;-89.7833,13.9000;SV-01;Ahuachapan;Tacubita
+5055;-89.9297,13.9011;SV-01;Ahuachapan;Tacuba
+0;-89.0500,13.8167;SV-04;Cuscatlan;Tacanagua
+0;-89.2619,13.9150;SV-05;La Libertad Department;Tacachico
+0;-88.5833,13.3667;SV-14;Usulutan;Taburete Los Claros
+0;-88.5667,13.3667;SV-14;Usulutan;Taburete Jagual
+0;-89.5833,14.1000;SV-11;Santa Ana Department;Tabloncitos
+0;-89.4500,14.3833;SV-11;Santa Ana Department;Tablón Chagüite
+0;-89.6569,13.7039;SV-13;Sonsonate Department;Suquiat
+0;-88.3167,13.6833;SV-09;San Miguel Department;Suntulín
+0;-89.8011,13.9000;SV-01;Ahuachapan;Suntecumat
+0;-88.0833,13.7667;SV-08;Morazan;Sunsulaca
+0;-89.3000,14.1667;SV-03;Chalatenango Department;Sunapa
+0;-89.0667,14.2500;SV-03;Chalatenango Department;Sumpul de Chacones
+0;-89.0500,14.2500;SV-03;Chalatenango Department;Sumpul de Avelares
+5735;-89.0278,13.9381;SV-04;Cuscatlan;Suchitoto
+0;-89.2375,13.7850;SV-10;San Salvador Department;Suchinango
+329708;-89.1399,13.7102;SV-10;San Salvador Department;Soyapango
+15446;-89.7147,13.7342;SV-13;Sonsonate Department;Sonzacate
+59468;-89.7230,13.7173;SV-13;Sonsonate Department;Sonsonate
+0;-87.8914,13.5264;SV-07;La Union;Sombrerito
+0;-89.4394,13.9500;SV-11;Santa Ana Department;Solimán
+0;-88.3333,13.9000;SV-09;San Miguel Department;Soledad Terrero
+0;-88.9833,13.6333;SV-06;La Paz Department;Soledad Las Flores
+0;-88.1667,13.8667;SV-08;Morazan;Soledad
+0;-88.8833,13.7667;SV-04;Cuscatlan;Soledad
+0;-88.0169,13.4742;SV-07;La Union;Socorro
+1770;-88.0167,13.7000;SV-08;Morazan;Sociedad
+0;-88.8500,13.8667;SV-02;Cabanas;Sitio Viejo
+0;-88.8833,13.4500;SV-06;La Paz Department;Sitio Viejo
+0;-88.5167,13.8833;SV-02;Cabanas;Sitio Quebrachal
+0;-88.0000,13.6667;SV-08;Morazan;Sitio Marriburria
+0;-89.3333,14.0833;SV-03;Chalatenango Department;Sitio Los Ranchos
+0;-88.9333,14.0667;SV-03;Chalatenango Department;Sitio Los Núñez
+0;-88.9000,13.9333;SV-02;Cabanas;Sitio Los Chavarría
+0;-89.5000,14.0000;SV-11;Santa Ana Department;Sitio Las Palomas
+0;-89.3317,13.7833;SV-05;La Libertad Department;Sitio Grande
+0;-89.4497,13.9986;SV-11;Santa Ana Department;Sitio El Rosario
+0;-88.5833,13.8000;SV-02;Cabanas;Sitio El Castillo
+0;-88.1833,14.0167;SV-08;Morazan;Sitio El Aguacate
+0;-88.5500,13.2833;SV-14;Usulutan;Sitio de Santa Lucía
+0;-88.4833,13.6500;SV-14;Usulutan;Sitio de San Antonio
+0;-89.2728,13.8919;SV-05;La Libertad Department;Sitio de Los Nejapa
+0;-88.7833,13.8500;SV-02;Cabanas;Sitio de la Avanzada
+0;-89.7167,13.7500;SV-13;Sonsonate Department;Sisimitepet
+0;-87.8667,13.4833;SV-07;La Union;Siramita
+0;-87.9189,13.3550;SV-07;La Union;Sirama
+0;-89.6333,14.0667;SV-11;Santa Ana Department;Singüil
+0;-87.9167,13.3500;SV-07;La Union;Sincuya
+0;-89.5667,13.5667;SV-05;La Libertad Department;Sihuapilapa
+0;-88.8167,14.0167;SV-03;Chalatenango Department;Sihuapate
+0;-88.2667,13.9167;SV-08;Morazan;Sicahuite
+0;-89.0333,13.5000;SV-06;La Paz Department;Sicahuite
+0;-89.4500,13.5667;SV-05;La Libertad Department;Siberia
+0;-89.8333,13.8333;SV-01;Ahuachapan;Shucutitán
+0;-89.6178,13.7672;SV-13;Sonsonate Department;Shan Shon
+0;-89.1031,13.6386;SV-10;San Salvador Department;Shaltipa
+1390;-88.3667,13.7167;SV-09;San Miguel Department;Sesori
+20386;-88.6273,13.8758;SV-02;Cabanas;Sensuntepeque
+0;-88.1667,13.6667;SV-08;Morazan;Sensembra
+0;-89.2333,13.9333;SV-05;La Libertad Department;Segura
+0;-89.6667,14.1500;SV-11;Santa Ana Department;San Vicente
+41504;-88.7846,13.6411;SV-12;San Vicente Department;San Vicente
+0;-89.5167,14.1667;SV-11;Santa Ana Department;Santo Tomás
+14581;-89.1333,13.6408;SV-10;San Salvador Department;Santo Tomás
+0;-88.2833,13.6333;SV-09;San Miguel Department;Santo Tomás
+0;-89.1200,13.4806;SV-06;La Paz Department;Santo Tomás
+0;-89.7983,13.7150;SV-13;Sonsonate Department;Santo Domingo de Guzmán
+0;-89.2667,13.7167;SV-10;San Salvador Department;Santo Domingo
+0;-88.8500,13.7167;SV-12;San Vicente Department;Santo Domingo
+0;-89.4167,14.1333;SV-11;Santa Ana Department;San Tiburcio
+0;-89.1183,13.6428;SV-10;San Salvador Department;Santiago Texacuangos
+9490;-88.9500,13.5167;SV-06;La Paz Department;Santiago Nonualco
+15032;-88.4667,13.4833;SV-14;Usulutan;Santiago de María
+0;-89.6067,14.1831;SV-11;Santa Ana Department;Santiago de La Frontera
+0;-90.0767,13.8228;SV-01;Ahuachapan;Santa Virginia El Achiotal
+0;-89.3092,13.8814;SV-05;La Libertad Department;Santa Teresa
+0;-88.8167,13.7333;SV-12;San Vicente Department;Santa Teresa
+0;-88.9667,13.5333;SV-06;La Paz Department;Santa Teresa
+0;-87.8039,13.6928;SV-07;La Union;Santa Rosita
+0;-89.6667,14.0333;SV-11;Santa Ana Department;Santa Rosa Senca
+0;-89.3500,14.2000;SV-11;Santa Ana Department;Santa Rosa Guachipilín
+13249;-87.8936,13.6247;SV-07;La Union;Santa Rosa de Lima
+0;-89.8064,13.9250;SV-01;Ahuachapan;Santa Rosa Acacalco
+0;-89.1333,14.3667;SV-03;Chalatenango Department;Santa Rosa
+0;-89.2167,14.1667;SV-03;Chalatenango Department;Santa Rosa
+0;-89.2667,14.0667;SV-03;Chalatenango Department;Santa Rosa
+0;-89.2950,13.8861;SV-05;La Libertad Department;Santa Rosa
+0;-89.4258,13.8453;SV-05;La Libertad Department;Santa Rosa
+0;-89.2617,13.8300;SV-05;La Libertad Department;Santa Rosa
+0;-88.6833,13.7167;SV-12;San Vicente Department;Santa Rosa
+0;-88.3500,13.6833;SV-09;San Miguel Department;Santa Rosa
+0;-89.0167,13.4333;SV-06;La Paz Department;Santa Rosa
+0;-89.3000,14.2167;SV-03;Chalatenango Department;Santa Rita Cimarrón
+0;-88.9833,13.5667;SV-06;La Paz Department;Santa Rita Almendro
+0;-89.4000,14.3167;SV-11;Santa Ana Department;Santa Rita
+0;-89.0000,14.1333;SV-03;Chalatenango Department;Santa Rita
+0;-89.7667,13.9500;SV-01;Ahuachapan;Santa Rita
+0;-88.9167,13.8667;SV-02;Cabanas;Santa Rita
+0;-88.4833,13.8500;SV-09;San Miguel Department;Santa Rita
+0;-90.0631,13.8164;SV-01;Ahuachapan;Santa Rita
+0;-88.9167,13.8833;SV-02;Cabanas;Santa Olaya
+0;-88.7000,13.9500;SV-02;Cabanas;Santa Marta
+0;-88.9309,13.6190;SV-06;La Paz Department;Santa María Ostuma
+0;-89.5667,13.5500;SV-05;La Libertad Department;Santa María Mizata
+0;-89.0208,13.5444;SV-06;La Paz Department;Santa María de La Sabana
+0;-88.4333,13.3500;SV-14;Usulutan;Santa María
+0;-89.1500,13.5000;SV-06;La Paz Department;Santa Lucía La Barranca
+0;-88.8000,14.1000;SV-03;Chalatenango Department;Santa Lucía
+0;-88.7833,13.8333;SV-02;Cabanas;Santa Lucía
+0;-89.4250,13.8278;SV-05;La Libertad Department;Santa Lucía
+0;-88.9000,13.7333;SV-04;Cuscatlan;Santa Lucía
+0;-89.1333,13.7000;SV-10;San Salvador Department;Santa Lucía
+0;-89.3667,13.6667;SV-05;La Libertad Department;Santa Lucía
+0;-88.8167,13.6667;SV-12;San Vicente Department;Santa Lucía
+0;-89.4167,13.6167;SV-05;La Libertad Department;Santa Lucía
+0;-89.4833,13.5833;SV-05;La Libertad Department;Santa Lucía
+0;-88.8667,13.5333;SV-06;La Paz Department;Santa Lucía
+0;-87.9592,13.5103;SV-07;La Union;Santa Lucía
+0;-88.2228,13.4492;SV-09;San Miguel Department;Santa Lucía
+0;-89.5853,13.6100;SV-13;Sonsonate Department;Santa Isabel Ishuatán
+0;-88.9333,13.7000;SV-04;Cuscatlan;Santa Isabel
+0;-89.5667,14.3667;SV-11;Santa Ana Department;Santa Inés
+0;-88.2000,13.5667;SV-09;San Miguel Department;Santa Inés
+0;-88.7667,13.5833;SV-12;San Vicente Department;Santa Gertrudis
+0;-89.1333,13.5167;SV-06;La Paz Department;Santa Fe
+0;-89.7333,13.6833;SV-13;Sonsonate Department;Santa Emilia
+0;-89.0167,13.4000;SV-06;La Paz Department;Santa Emilia
+0;-89.5186,14.3036;SV-11;Santa Ana Department;Santa Eloísa
+0;-89.4833,14.1500;SV-11;Santa Ana Department;Santa Elena
+0;-90.0281,13.8056;SV-01;Ahuachapan;Santa Elena
+0;-88.7833,13.7667;SV-12;San Vicente Department;Santa Elena
+0;-89.2667,13.6667;SV-05;La Libertad Department;Santa Elena
+5887;-88.4167,13.3833;SV-14;Usulutan;Santa Elena
+0;-88.9667,13.7333;SV-04;Cuscatlan;Santa Cruz Michapa
+0;-88.9333,13.5667;SV-06;La Paz Department;Santa Cruz Loma
+0;-89.0667,13.6333;SV-06;La Paz Department;Santa Cruz La Vega
+0;-88.9833,13.5667;SV-06;La Paz Department;Santa Cruz Chacastal
+0;-88.9500,13.6500;SV-04;Cuscatlan;Santa Cruz Analquito
+0;-89.4833,14.3500;SV-11;Santa Ana Department;Santa Cruz
+0;-89.6231,14.1697;SV-11;Santa Ana Department;Santa Cruz
+0;-89.8833,14.0167;SV-01;Ahuachapan;Santa Cruz
+0;-88.9500,13.9500;SV-03;Chalatenango Department;Santa Cruz
+0;-89.1833,13.9333;SV-05;La Libertad Department;Santa Cruz
+0;-89.1167,13.8500;SV-04;Cuscatlan;Santa Cruz
+0;-88.6500,13.8000;SV-02;Cabanas;Santa Cruz
+0;-88.8333,13.7833;SV-02;Cabanas;Santa Cruz
+0;-88.9000,13.7000;SV-04;Cuscatlan;Santa Cruz
+0;-88.4833,13.6000;SV-14;Usulutan;Santa Cruz
+0;-88.4000,13.5333;SV-14;Usulutan;Santa Cruz
+0;-88.5833,13.5167;SV-14;Usulutan;Santa Cruz
+0;-89.2000,13.4833;SV-05;La Libertad Department;Santa Cruz
+0;-87.8900,13.4667;SV-07;La Union;Santa Cruz
+0;-88.7833,13.4500;SV-12;San Vicente Department;Santa Cruz
+0;-87.9000,13.4500;SV-07;La Union;Santa Crucita
+0;-88.7333,13.7000;SV-12;San Vicente Department;Santa Clara
+0;-87.7756,13.5889;SV-07;La Union;Santa Clara
+0;-89.0981,13.4572;SV-06;La Paz Department;Santa Clara
+0;-88.3833,13.3833;SV-14;Usulutan;Santa Clara
+0;-89.7661,13.7861;SV-13;Sonsonate Department;Santa Catarina Masahuat
+0;-88.3500,13.8333;SV-09;San Miguel Department;Santa Catarina
+0;-88.7833,13.7333;SV-12;San Vicente Department;Santa Catarina
+0;-89.9833,13.7167;SV-01;Ahuachapan;Santa Catarina
+0;-88.3167,13.5833;SV-09;San Miguel Department;Santa Catarina
+0;-89.1000,14.0667;SV-03;Chalatenango Department;Santa Bárbara
+0;-88.9333,13.9333;SV-02;Cabanas;Santa Bárbara
+0;-89.1528,13.8367;SV-10;San Salvador Department;Santa Bárbara
+0;-88.3833,13.8000;SV-09;San Miguel Department;Santa Bárbara
+0;-88.3500,13.6333;SV-09;San Miguel Department;Santa Bárbara
+0;-88.2333,13.5667;SV-09;San Miguel Department;Santa Bárbara
+0;-88.7000,13.4500;SV-12;San Vicente Department;Santa Bárbara
+0;-88.4500,13.3167;SV-14;Usulutan;Santa Bárbara
+0;-88.9833,13.8167;SV-04;Cuscatlan;Santa Anita
+0;-88.9000,13.6833;SV-04;Cuscatlan;Santa Anita
+0;-88.5167,13.5667;SV-14;Usulutan;Santa Anita
+0;-88.1000,13.5500;SV-08;Morazan;Santa Anita
+0;-88.8000,14.0333;SV-03;Chalatenango Department;Santa Ana
+176661;-89.5568,13.9883;SV-11;Santa Ana Department;Santa Ana
+0;-88.2333,13.8333;SV-08;Morazan;San Simón
+0;-89.6361,13.9692;SV-11;Santa Ana Department;San Sebastián Salitrillo
+0;-88.8667,13.3333;SV-06;La Paz Department;San Sebastián La Zorra
+0;-88.9000,13.3500;SV-06;La Paz Department;San Sebastián El Chingo
+0;-89.4333,14.1667;SV-11;Santa Ana Department;San Sebastián Arriba
+0;-88.9333,13.5667;SV-06;La Paz Department;San Sebastián Arriba
+0;-88.9333,13.5333;SV-06;La Paz Department;San Sebastián Abajo
+0;-89.7333,14.0167;SV-11;Santa Ana Department;San Sebastián
+0;-88.9000,13.9333;SV-02;Cabanas;San Sebastián
+0;-88.4667,13.7833;SV-09;San Miguel Department;San Sebastián
+0;-88.9167,13.7500;SV-04;Cuscatlan;San Sebastián
+7333;-88.8333,13.7333;SV-12;San Vicente Department;San Sebastián
+0;-88.3333,13.6833;SV-09;San Miguel Department;San Sebastián
+0;-87.9500,13.6500;SV-07;La Union;San Sebastián
+0;-89.3000,13.6000;SV-05;La Libertad Department;San Sebastián
+0;-89.1303,13.5389;SV-06;La Paz Department;San Sebastián
+525990;-89.1872,13.6893;SV-10;San Salvador Department;San Salvador
+0;-89.2297,13.7497;SV-10;San Salvador Department;San Roque
+0;-88.0911,13.2058;SV-09;San Miguel Department;San Román
+0;-89.8167,13.9667;SV-01;Ahuachapan;San Raymundo
+0;-88.7500,13.4667;SV-12;San Vicente Department;San Ramón Grifal
+0;-89.8167,13.8667;SV-01;Ahuachapan;San Ramoncito
+0;-89.2667,14.3667;SV-03;Chalatenango Department;San Ramón
+0;-89.8167,13.8833;SV-01;Ahuachapan;San Ramón
+0;-89.7333,13.7167;SV-13;Sonsonate Department;San Ramón
+0;-88.9333,13.6833;SV-04;Cuscatlan;San Ramón
+0;-88.9167,13.6000;SV-06;La Paz Department;San Ramón
+0;-89.1956,13.5642;SV-10;San Salvador Department;San Ramón
+0;-88.8667,13.2833;SV-06;La Paz Department;San Rafael Tasajera
+0;-88.8000,13.5833;SV-12;San Vicente Department;San Rafael San Diego
+19095;-88.3500,13.3833;SV-09;San Miguel Department;San Rafael Oriente
+0;-88.9333,13.5000;SV-06;La Paz Department;San Rafael Obrajuelo
+0;-88.9667,13.7000;SV-04;Cuscatlan;San Rafael La Loma
+0;-88.8833,13.7333;SV-04;Cuscatlan;San Rafael Cedros
+0;-89.0333,14.1333;SV-03;Chalatenango Department;San Rafael
+0;-89.6167,14.0667;SV-11;Santa Ana Department;San Rafael
+0;-89.1833,14.0500;SV-10;San Salvador Department;San Rafael
+0;-89.9333,13.9333;SV-01;Ahuachapan;San Rafael
+0;-89.8000,13.7667;SV-13;Sonsonate Department;San Rafael
+0;-89.3667,13.6000;SV-05;La Libertad Department;San Rafael
+0;-89.3333,13.5167;SV-05;La Libertad Department;San Rafael
+0;-88.8667,13.5167;SV-06;La Paz Department;San Rafael
+0;-89.3500,13.5000;SV-05;La Libertad Department;San Rafael
+0;-88.6833,13.5167;SV-12;San Vicente Department;Sanqueque
+0;-89.8042,13.7722;SV-01;Ahuachapan;San Pedro Puxtla
+0;-89.5500,14.1333;SV-11;Santa Ana Department;San Pedro Potrerillos
+0;-89.0389,13.7733;SV-04;Cuscatlan;San Pedro Perulapán
+0;-89.3408,13.8719;SV-05;La Libertad Department;San Pedro Oriente
+0;-88.9333,13.6000;SV-06;La Paz Department;San Pedro Nonualco
+2654;-89.0386,13.5436;SV-06;La Paz Department;San Pedro Masahuat
+0;-89.3942,13.8967;SV-05;La Libertad Department;San Pedro Mártir
+0;-88.9167,13.5167;SV-06;La Paz Department;San Pedro Mártir
+0;-89.2739,13.9581;SV-05;La Libertad Department;San Pedro Las Flores
+0;-89.3439,13.8244;SV-05;La Libertad Department;Las Flores
+0;-89.0608,13.5642;SV-06;La Paz Department;San Pedro La Palma
+0;-88.8333,13.6333;SV-12;San Vicente Department;San Pedro Agua Caliente
+0;-88.4167,13.8333;SV-09;San Miguel Department;San Pedro
+0;-88.9000,13.6833;SV-04;Cuscatlan;San Pedro
+0;-88.6667,13.6667;SV-12;San Vicente Department;San Pedro
+0;-88.2667,13.6500;SV-09;San Miguel Department;San Pedro
+0;-88.4833,13.6167;SV-14;Usulutan;San Pedro
+0;-88.2500,13.6167;SV-09;San Miguel Department;San Pedro
+0;-88.1000,13.6000;SV-08;Morazan;San Pedro
+0;-88.3833,13.4333;SV-09;San Miguel Department;San Pedro
+0;-88.6667,13.4167;SV-14;Usulutan;San Pedro
+0;-88.1525,13.3019;SV-09;San Miguel Department;San Pedro
+0;-88.0231,13.3039;SV-07;La Union;San Pedro
+3033;-89.3400,13.9756;SV-05;La Libertad Department;San Pablo Tacachico
+0;-88.6000,13.6667;SV-12;San Vicente Department;San Pablo Cañales
+0;-88.8000,14.1333;SV-03;Chalatenango Department;San Pablo
+0;-88.9167,13.7000;SV-04;Cuscatlan;San Pablo
+0;-89.0167,14.1000;SV-03;Chalatenango Department;San Nicolás Piedras Gordas
+0;-89.3669,13.8461;SV-05;La Libertad Department;San Nicolás Los Encuentros
+0;-88.7000,13.4333;SV-12;San Vicente Department;San Nicolás Lempa
+0;-89.3881,13.8728;SV-05;La Libertad Department;San Nicolás La Encarnación
+0;-88.0500,13.4500;SV-09;San Miguel Department;San Nicolás Anchico
+0;-89.7167,14.0333;SV-11;Santa Ana Department;San Nicolás
+0;-88.7333,14.0000;SV-02;Cabanas;San Nicolás
+0;-88.9667,13.9167;SV-02;Cabanas;San Nicolás
+0;-89.1667,13.8000;SV-10;San Salvador Department;San Nicolás
+0;-88.9500,13.7333;SV-04;Cuscatlan;San Nicolás
+0;-88.7000,13.6333;SV-12;San Vicente Department;San Nicolás
+247126;-88.1821,13.4826;SV-09;San Miguel Department;San Miguel
+0;-89.0167,14.1167;SV-03;Chalatenango Department;San Miguel Tobías
+0;-89.0214,13.6225;SV-06;La Paz Department;San Miguel Tepezontes
+0;-88.9333,13.7000;SV-04;Cuscatlan;San Miguel Nance Verde
+0;-89.0500,14.1500;SV-03;Chalatenango Department;San Miguelito
+0;-89.4483,13.9858;SV-11;Santa Ana Department;San Miguelito
+0;-89.9500,13.8167;SV-01;Ahuachapan;San Miguelito
+0;-89.3500,14.3333;SV-11;Santa Ana Department;San Miguel Ingenio
+0;-88.9333,14.0167;SV-03;Chalatenango Department;San Miguel de Mercedes
+0;-89.5667,14.1500;SV-11;Santa Ana Department;San Miguel
+0;-89.2167,13.7333;SV-10;San Salvador Department;San Miguel
+0;-89.3175,13.8869;SV-05;La Libertad Department;San Matías
+0;-88.7000,13.8833;SV-02;Cabanas;San Matías
+0;-88.2667,13.7833;SV-09;San Miguel Department;San Matías
+0;-88.9500,13.7833;SV-04;Cuscatlan;San Martín
+39361;-88.9167,13.7833;SV-04;Cuscatlan;San Martín
+0;-89.0564,13.7417;SV-10;San Salvador Department;San Martín
+0;-89.8714,13.7258;SV-01;Ahuachapan;San Martín
+0;-88.7000,13.4333;SV-14;Usulutan;San Marcos Lempa
+0;-88.8167,13.4167;SV-06;La Paz Department;San Marcos de La Cruz
+0;-88.5667,13.9667;SV-02;Cabanas;San Marcos
+0;-88.2833,13.8500;SV-09;San Miguel Department;San Marcos
+0;-90.1164,13.7831;SV-01;Ahuachapan;San Marcos
+54615;-89.1825,13.6611;SV-10;San Salvador Department;San Marcos
+0;-88.1167,13.6333;SV-08;Morazan;San Marcos
+0;-89.5167,13.6000;SV-05;La Libertad Department;San Marcos
+0;-89.1836,13.7778;SV-10;San Salvador Department;San Luis Mariona
+0;-89.6367,14.1789;SV-11;Santa Ana Department;Caserío San Luis Ciénaga
+0;-88.3167,13.7500;SV-09;San Miguel Department;San Luisito
+0;-88.9667,13.9667;SV-03;Chalatenango Department;San Luis del Carmen
+0;-88.3500,13.8167;SV-09;San Miguel Department;San Luis de la Reina
+0;-89.6833,14.0500;SV-11;Santa Ana Department;San Luis
+0;-89.4739,13.9950;SV-11;Santa Ana Department;San Luis
+0;-89.8167,13.9500;SV-01;Ahuachapan;San Luis
+0;-89.9500,13.9167;SV-01;Ahuachapan;San Luis
+0;-89.5939,13.7692;SV-13;Sonsonate Department;San Luis
+0;-88.9333,13.6500;SV-06;La Paz Department;San Luis
+0;-89.3500,13.6167;SV-05;La Libertad Department;San Luis
+0;-88.3833,13.5333;SV-09;San Miguel Department;San Luis
+0;-89.0892,13.4739;SV-06;La Paz Department;San Luis Talpa
+0;-89.1586,13.9453;SV-04;Cuscatlan;San Lucas
+0;-88.2000,13.8167;SV-08;Morazan;San Lucas
+0;-89.6622,13.5922;SV-13;Sonsonate Department;San Lucas
+0;-88.8833,13.5333;SV-06;La Paz Department;San Lucas
+0;-88.0000,13.5167;SV-07;La Union;San Lucas
+0;-89.2500,14.3667;SV-03;Chalatenango Department;San Lorenzo
+0;-89.7833,14.0333;SV-01;Ahuachapan;San Lorenzo
+0;-88.6833,13.8833;SV-02;Cabanas;San Lorenzo
+0;-89.3367,13.8625;SV-05;La Libertad Department;San Lorenzo
+0;-88.8000,13.7167;SV-12;San Vicente Department;San Lorenzo
+0;-88.5667,13.6167;SV-12;San Vicente Department;San Lorenzo
+0;-88.5500,13.4833;SV-14;Usulutan;San Lorenzo
+0;-89.8003,13.9639;SV-01;Ahuachapan;San Lázaro
+0;-89.1500,13.7667;SV-10;San Salvador Department;San Laureano
+0;-89.5592,13.6961;SV-13;Sonsonate Department;San Julián
+0;-89.7925,13.6136;SV-13;Sonsonate Department;San Julián
+0;-88.3500,13.4333;SV-09;San Miguel Department;San Julián
+0;-88.6667,13.3667;SV-14;Usulutan;San Judas
+0;-89.0100,13.6139;SV-06;La Paz Department;San Juan Tepezontes
+0;-89.0908,13.5028;SV-06;La Paz Department;San Juan Talpa
+7127;-89.3597,13.8761;SV-05;La Libertad Department;San Juan Opico
+0;-88.8833,13.5000;SV-06;La Paz Department;San Juan Nonualco
+0;-88.9500,13.5833;SV-06;La Paz Department;San Juan Nahuistepeque
+0;-88.9500,13.6833;SV-04;Cuscatlan;San Juan Miraflor Abajo
+0;-89.2714,13.7594;SV-05;La Libertad Department;San Juan Los Planes
+0;-88.5500,13.5500;SV-14;Usulutan;San Juan Loma Alta
+0;-87.7833,13.6667;SV-07;La Union;San Juan Gualaria
+0;-89.7167,14.0000;SV-01;Ahuachapan;San Juan El Espino
+0;-88.7000,13.6833;SV-12;San Vicente Department;San Juan de Merino
+0;-88.7500,13.2667;SV-14;Usulutan;San Juan del Gozo
+0;-88.6833,13.4500;SV-14;Usulutan;San Juan de Letrán
+0;-89.0333,14.2667;SV-03;Chalatenango Department;San Juan de La Cruz
+0;-89.7675,13.8794;SV-13;Sonsonate Department;San Juan de Dios
+0;-89.6667,14.0167;SV-11;Santa Ana Department;San Juan Chiquito
+0;-89.7333,14.0167;SV-01;Ahuachapan;San Juan Buenavista
+0;-89.5436,13.9525;SV-11;Santa Ana Department;San Juan Buenavista
+0;-88.9000,13.6667;SV-12;San Vicente Department;San Juan Buenavista
+0;-89.2450,13.5353;SV-05;La Libertad Department;San Juan Buena Vista
+0;-88.7000,13.5167;SV-12;San Vicente Department;San Juan Buenavista
+0;-89.3667,14.3000;SV-11;Santa Ana Department;San Juan Arriba
+0;-89.3500,14.2833;SV-11;Santa Ana Department;San Juan Abajo
+0;-88.6333,13.9833;SV-02;Cabanas;San Juan
+0;-88.9500,13.9667;SV-03;Chalatenango Department;San Juan
+0;-89.0167,13.9500;SV-04;Cuscatlan;San Juan
+0;-89.9500,13.9333;SV-01;Ahuachapan;San Juan
+0;-88.3667,13.8167;SV-09;San Miguel Department;San Juan
+0;-88.3000,13.7167;SV-09;San Miguel Department;San Juan
+0;-87.7789,13.6481;SV-07;La Union;San Juan
+0;-88.5167,13.6333;SV-14;Usulutan;San Juan
+0;-88.1667,13.6333;SV-08;Morazan;San Juan
+0;-88.0333,13.5667;SV-08;Morazan;San Juan
+0;-88.4833,13.4833;SV-14;Usulutan;San Juan
+0;-89.4833,14.0667;SV-11;Santa Ana Department;San José Zompopo
+0;-89.2653,13.5781;SV-05;La Libertad Department;San José Villanueva
+0;-89.0667,13.7667;SV-10;San Salvador Department;San José Segundo
+0;-89.1667,14.2833;SV-03;Chalatenango Department;San José Sacare
+0;-89.0667,13.7500;SV-10;San Salvador Department;San José Primero
+0;-89.6667,14.0500;SV-11;Santa Ana Department;San José Pinalito
+0;-88.9333,13.4833;SV-06;La Paz Department;San José Obrajuelo
+0;-89.0000,13.5000;SV-06;La Paz Department;San José Obrajito
+0;-88.5000,13.5333;SV-14;Usulutan;San José Montañita
+0;-89.0333,14.1167;SV-03;Chalatenango Department;San José Los Sitios
+0;-89.4167,13.7000;SV-05;La Libertad Department;San José Los Sitios
+0;-89.0000,13.5167;SV-06;La Paz Department;San José Loma
+0;-88.8000,13.5167;SV-12;San Vicente Department;San José Llano Grande
+0;-88.8333,14.0500;SV-03;Chalatenango Department;San José Las Flores
+0;-89.5108,13.8689;SV-11;Santa Ana Department;San José Las Flores
+0;-89.2333,14.3000;SV-03;Chalatenango Department;San José Las Caleras
+0;-89.0533,13.6164;SV-06;La Paz Department;San José La Montaña
+0;-88.8167,13.3000;SV-06;La Paz Department;San José La Montaña
+0;-89.7097,13.8464;SV-13;Sonsonate Department;San José La Majada
+0;-89.3936,13.9469;SV-05;La Libertad Department;San José La Cueva
+0;-88.9833,13.6833;SV-04;Cuscatlan;San José La Ceiba
+0;-89.4000,14.3667;SV-11;Santa Ana Department;San José Ingenio
+0;-89.0969,13.8422;SV-04;Cuscatlan;San José Guayabal
+0;-88.0961,13.2094;SV-09;San Miguel Department;José Gualozo
+0;-88.9500,13.9167;SV-02;Cabanas;San José El Tule
+0;-89.5000,13.5500;SV-05;La Libertad Department;San José El Tablón
+0;-89.3500,13.6667;SV-05;La Libertad Department;San José El Porvenir
+0;-89.9308,13.7619;SV-01;Ahuachapan;San José El Naranjo
+0;-88.9333,13.6333;SV-06;La Paz Department;San José El Carrizal
+0;-89.1667,14.1333;SV-03;Chalatenango Department;San José El Carao
+0;-88.9833,13.6500;SV-04;Cuscatlan;San José Costa Rica
+0;-89.1447,13.7611;SV-10;San Salvador Department;San José Cortez
+0;-88.9000,13.4833;SV-06;La Paz Department;San Josecito
+0;-89.3667,14.1167;SV-03;Chalatenango Department;San José Chilín
+0;-88.8833,13.6167;SV-12;San Vicente Department;San José Carbonera
+0;-89.3833,14.2167;SV-11;Santa Ana Department;San José Capulín
+0;-88.8500,13.9833;SV-03;Chalatenango Department;San José Cancasque
+0;-88.7833,13.9167;SV-02;Cabanas;San José Caleras
+0;-89.1000,13.5167;SV-06;La Paz Department;San José Buena Vista
+0;-88.9667,13.5167;SV-06;La Paz Department;San José Arriba
+0;-89.2333,13.6500;SV-10;San Salvador Department;San José Aquacatitán
+0;-88.6500,13.6833;SV-12;San Vicente Department;San José Almendros
+0;-88.9833,13.5167;SV-06;La Paz Department;San José Abajo
+0;-88.9333,14.1667;SV-03;Chalatenango Department;San José
+0;-89.1167,14.1333;SV-03;Chalatenango Department;San José
+0;-88.8833,14.0833;SV-03;Chalatenango Department;San José
+0;-89.4167,14.0667;SV-03;Chalatenango Department;San José
+0;-88.9667,14.0000;SV-03;Chalatenango Department;San José
+0;-88.7667,13.9333;SV-02;Cabanas;San José
+0;-89.8167,13.8833;SV-01;Ahuachapan;San José
+0;-88.2500,13.8833;SV-08;Morazan;San José
+0;-89.8667,13.8667;SV-01;Ahuachapan;San José
+0;-88.8667,13.8167;SV-02;Cabanas;San José
+0;-88.9500,13.7667;SV-04;Cuscatlan;San José
+0;-88.7333,13.7167;SV-12;San Vicente Department;San José
+0;-88.9000,13.7000;SV-04;Cuscatlan;San José
+0;-88.1000,13.6667;SV-08;Morazan;San José
+0;-88.0000,13.6333;SV-08;Morazan;San José
+0;-88.4667,13.6000;SV-14;Usulutan;San José
+0;-87.8000,13.5833;SV-07;La Union;San José
+0;-87.9017,13.5608;SV-07;La Union;San José
+0;-88.2333,13.5167;SV-09;San Miguel Department;San José
+0;-89.0500,13.4167;SV-06;La Paz Department;San José
+0;-87.9833,13.4167;SV-07;La Union;San José
+0;-89.5000,14.4167;SV-11;Santa Ana Department;San Jorge
+0;-89.4833,14.1833;SV-11;Santa Ana Department;San Jorge
+0;-88.6667,14.0000;SV-02;Cabanas;San Jorge
+0;-89.3011,13.9606;SV-05;La Libertad Department;San Jorge
+0;-88.3833,13.6833;SV-09;San Miguel Department;San Jorge
+0;-88.3500,13.4167;SV-09;San Miguel Department;San Jorge
+0;-88.2167,13.8833;SV-08;Morazan;San Joaquín
+0;-89.2500,13.7667;SV-10;San Salvador Department;San Jerónimo Los Planes
+0;-88.8833,13.6500;SV-12;San Vicente Department;San Jerónimo Limón
+0;-89.5333,14.3833;SV-11;Santa Ana Department;San Jerónimo
+0;-89.5833,14.0833;SV-11;Santa Ana Department;San Jerónimo
+0;-89.1892,13.9236;SV-10;San Salvador Department;San Jerónimo
+0;-88.4167,13.8500;SV-09;San Miguel Department;San Jerónimo
+0;-88.6833,13.7667;SV-12;San Vicente Department;San Jerónimo
+0;-88.3000,13.6667;SV-09;San Miguel Department;San Jerónimo
+0;-88.9000,13.5333;SV-06;La Paz Department;San Jerónimo
+0;-87.9917,13.4711;SV-07;La Union;San Jerónimo
+0;-88.7500,13.7333;SV-12;San Vicente Department;San Jacinto La Burrera
+0;-89.4747,13.9736;SV-11;Santa Ana Department;San Jacinto
+0;-88.4500,13.7000;SV-09;San Miguel Department;San Jacinto
+0;-88.6833,13.6833;SV-12;San Vicente Department;San Jacinto
+0;-88.2000,13.6000;SV-09;San Miguel Department;San Jacinto
+0;-88.7500,13.5500;SV-12;San Vicente Department;San Jacinto
+0;-89.2667,13.7333;SV-10;San Salvador Department;San Isidro Los Planes
+0;-88.8500,14.0000;SV-03;Chalatenango Department;San Isidro Labrador
+0;-89.4500,14.2500;SV-11;Santa Ana Department;San Isidro
+0;-89.7000,14.1167;SV-11;Santa Ana Department;San Isidro
+0;-89.3667,14.0333;SV-05;La Libertad Department;San Isidro
+0;-89.5333,14.0000;SV-11;Santa Ana Department;San Isidro
+0;-88.2333,13.8500;SV-08;Morazan;San Isidro
+0;-88.7167,13.8333;SV-02;Cabanas;San Isidro
+0;-89.5589,13.7875;SV-13;Sonsonate Department;San Isidro
+0;-88.8667,13.6833;SV-12;San Vicente Department;San Isidro
+0;-89.4833,13.6167;SV-05;La Libertad Department;San Isidro
+0;-88.9500,13.6167;SV-06;La Paz Department;San Isidro
+0;-89.4500,13.5833;SV-05;La Libertad Department;San Isidro
+0;-89.1728,13.5814;SV-10;San Salvador Department;San Isidro
+0;-89.1000,13.5500;SV-06;La Paz Department;San Isidro
+0;-88.6000,13.5333;SV-14;Usulutan;San Isidro
+0;-89.5833,14.1500;SV-11;Santa Ana Department;San Ildefonso
+0;-88.7500,13.7333;SV-12;San Vicente Department;San Ildefonso
+0;-88.5667,13.7000;SV-12;San Vicente Department;San Ildefonso
+0;-88.3500,13.3167;SV-14;Usulutan;San Ildefonso
+0;-89.1833,14.3333;SV-03;Chalatenango Department;San Ignacio
+0;-89.2961,13.9381;SV-05;La Libertad Department;San Ignacio
+0;-88.5500,13.9167;SV-02;Cabanas;San Gregorio
+0;-88.4000,13.8000;SV-09;San Miguel Department;San Gerardo
+0;-88.1333,13.6667;SV-08;Morazan;San Francisquito
+506;-89.0500,14.1833;SV-03;Chalatenango Department;San Francisco Morazán
+1264;-90.0158,13.8431;SV-01;Ahuachapan;San Francisco Menéndez
+0;-88.8500,13.4333;SV-06;La Paz Department;San Francisco Los Reyes
+0;-89.0014,13.9744;SV-03;Chalatenango Department;San Francisco Lempa
+0;-88.5667,13.4167;SV-14;Usulutan;San Francisco Javier
+0;-88.8333,13.8000;SV-02;Cabanas;San Francisco Iraheta
+0;-88.9667,13.5500;SV-06;La Paz Department;San Francisco Hacienda
+0;-89.3667,13.6333;SV-05;La Libertad Department;San Francisco El Potrerón
+0;-89.0000,13.3667;SV-06;La Paz Department;San Francisco El Porfiado
+0;-88.9500,13.8833;SV-02;Cabanas;San Francisco Echeverría
+0;-88.8000,13.9167;SV-02;Cabanas;San Francisco del Monte
+0;-89.0964,13.6056;SV-06;La Paz Department;San Francisco Chinameca
+0;-88.8500,13.6333;SV-12;San Vicente Department;San Francisco Aqua Agria
+0;-89.3500,14.1833;SV-11;Santa Ana Department;San Francisco Apanta
+0;-88.8167,13.5167;SV-12;San Vicente Department;San Francisco Angulo
+0;-89.0675,13.4228;SV-06;La Paz Department;San Francisco Amatepe
+0;-89.2000,14.3667;SV-03;Chalatenango Department;San Francisco
+0;-89.5000,14.2000;SV-11;Santa Ana Department;San Francisco
+0;-88.6667,13.8333;SV-02;Cabanas;San Francisco
+0;-89.2742,13.8125;SV-05;La Libertad Department;San Francisco
+0;-89.0167,13.8167;SV-04;Cuscatlan;San Francisco
+0;-88.8167,13.7500;SV-12;San Vicente Department;San Francisco
+0;-88.5500,13.7167;SV-12;San Vicente Department;San Francisco
+0;-88.8333,13.7000;SV-12;San Vicente Department;San Francisco
+16152;-88.1041,13.6941;SV-08;Morazan;San Francisco
+0;-88.3667,13.6167;SV-09;San Miguel Department;San Francisco
+0;-89.2833,13.5833;SV-05;La Libertad Department;San Francisco
+0;-88.5500,13.5167;SV-14;Usulutan;San Francisco
+0;-88.4167,13.3667;SV-14;Usulutan;San Francisco
+0;-88.4833,13.2833;SV-14;Usulutan;San Francisco
+0;-89.0333,14.3000;SV-03;Chalatenango Department;San Fernando
+0;-88.2000,13.9667;SV-08;Morazan;San Fernando
+0;-88.7500,13.4833;SV-12;San Vicente Department;San Fernando
+0;-88.6833,13.6333;SV-12;San Vicente Department;San Felipito
+0;-89.4106,13.9842;SV-11;Santa Ana Department;San Felipe
+0;-89.3789,13.8497;SV-05;La Libertad Department;San Felipe
+0;-87.9842,13.7603;SV-08;Morazan;San Felipe
+0;-88.6833,13.6500;SV-12;San Vicente Department;San Felipe
+0;-88.0333,13.6000;SV-08;Morazan;San Felipe
+0;-88.5833,13.5167;SV-14;Usulutan;San Felipe
+0;-87.7792,13.4761;SV-07;La Union;San Felipe
+0;-89.0167,13.4333;SV-06;La Paz Department;San Felipe
+0;-88.3500,13.2667;SV-14;Usulutan;San Felipe
+0;-89.5167,13.7167;SV-13;Sonsonate Department;San Eugenio
+0;-88.7833,13.6833;SV-12;San Vicente Department;San Esteban Catarina
+0;-88.7833,13.7167;SV-12;San Vicente Department;San Esteban
+0;-89.4000,13.6500;SV-05;La Libertad Department;San Emilio
+0;-88.8667,13.6167;SV-12;San Vicente Department;San Emigdio El Tablón
+0;-88.9833,13.6500;SV-06;La Paz Department;San Emigdio
+0;-87.8667,13.5667;SV-07;La Union;San Eduardo
+0;-88.4667,13.2833;SV-14;Usulutan;San Dionisio
+0;-89.4667,14.3000;SV-11;Santa Ana Department;San Diego
+0;-89.1667,14.0000;SV-10;San Salvador Department;San Diego
+0;-88.2667,13.9000;SV-08;Morazan;San Diego
+0;-88.1333,13.6500;SV-08;Morazan;San Diego
+0;-88.7833,13.5833;SV-12;San Vicente Department;San Diego
+0;-89.2450,13.4844;SV-05;La Libertad Department;San Diego
+0;-89.4333,14.3000;SV-11;Santa Ana Department;San Cristóbal
+0;-89.1000,14.2000;SV-03;Chalatenango Department;San Cristóbal
+0;-89.6667,14.1833;SV-11;Santa Ana Department;San Cristóbal
+0;-89.6833,14.0667;SV-11;Santa Ana Department;San Cristóbal
+0;-89.6167,14.0500;SV-11;Santa Ana Department;San Cristóbal
+0;-89.0833,14.0333;SV-04;Cuscatlan;San Cristóbal
+0;-89.1833,13.9333;SV-10;San Salvador Department;San Cristóbal
+0;-88.3500,13.7667;SV-09;San Miguel Department;San Cristóbal
+0;-88.9000,13.7000;SV-04;Cuscatlan;San Cristóbal
+0;-88.8167,13.6500;SV-12;San Vicente Department;San Cayetano Istepeque
+0;-87.9000,13.3667;SV-07;La Union;San Cayetano
+0;-88.5167,13.8500;SV-02;Cabanas;San Carlos
+0;-88.4667,13.8000;SV-09;San Miguel Department;San Carlos
+0;-89.4000,13.6667;SV-05;La Libertad Department;San Carlos
+0;-88.1000,13.6500;SV-08;Morazan;San Carlos
+0;-87.8167,13.5667;SV-07;La Union;San Carlos
+0;-88.7500,13.3833;SV-12;San Vicente Department;San Carlos
+0;-88.2203,13.3800;SV-09;San Miguel Department;San Carlos
+0;-88.3833,13.5333;SV-14;Usulutan;San Buenaventura
+0;-88.8833,13.6333;SV-12;San Vicente Department;San Benito Piedra Gorda
+0;-88.7833,14.0000;SV-03;Chalatenango Department;San Benito
+0;-88.9333,13.8667;SV-02;Cabanas;San Benito
+0;-89.9667,13.8167;SV-01;Ahuachapan;San Benito
+0;-89.5333,13.6167;SV-05;La Libertad Department;San Benito
+0;-88.5667,13.6000;SV-14;Usulutan;San Benito
+0;-89.4000,13.5833;SV-05;La Libertad Department;San Benito
+0;-88.8000,13.4833;SV-12;San Vicente Department;San Benito
+0;-89.0508,13.7658;SV-04;Cuscatlan;San Bartolomé Perulapía
+0;-88.7000,13.5500;SV-12;San Vicente Department;San Bartolo Ichanmico
+0;-89.0167,14.0667;SV-03;Chalatenango Department;San Bartolo
+0;-89.0992,13.7172;SV-10;San Salvador Department;San Bartolo
+0;-88.1833,13.6500;SV-08;Morazan;San Bartolo
+0;-88.9667,13.6167;SV-06;La Paz Department;San Bartolo
+0;-88.2000,13.6167;SV-08;Morazan;San Bartolo
+0;-88.5667,13.3000;SV-14;Usulutan;San Bartolo
+0;-88.8000,13.6333;SV-12;San Vicente Department;San Antonio Tras El Cerro
+0;-88.0303,13.3939;SV-09;San Miguel Department;San Antonio Silva
+0;-88.7667,13.2833;SV-14;Usulutan;San Antonio Potrerillos
+0;-89.0833,13.6000;SV-06;La Paz Department;San Antonio Panchimilama
+0;-89.5811,14.1967;SV-11;Santa Ana Department;San Antonio Pajonal
+0;-89.4667,14.1667;SV-11;Santa Ana Department;San Antonio Masahuat
+0;-89.0392,13.5681;SV-06;La Paz Department;San Antonio Masahuat
+0;-88.9000,14.0000;SV-03;Chalatenango Department;San Antonio Los Ranchos
+0;-88.8667,13.6333;SV-12;San Vicente Department;San Antonio Los Ranchos
+0;-89.0167,13.5761;SV-06;La Paz Department;San Antonio La Loma
+0;-89.4000,14.2333;SV-11;Santa Ana Department;San Antonio La Junta
+0;-88.8833,13.6667;SV-12;San Vicente Department;San Antonio Jiboa
+0;-89.2333,14.0500;SV-10;San Salvador Department;San Antonio Grande
+0;-89.1500,13.6000;SV-06;La Paz Department;San Antonio Girón
+9135;-89.7383,13.7164;SV-13;Sonsonate Department;San Antonio del Monte
+0;-88.7833,14.0167;SV-03;Chalatenango Department;San Antonio de La Cruz
+0;-88.7833,13.6000;SV-12;San Vicente Department;San Antonio Caminos
+0;-89.0500,14.1333;SV-03;Chalatenango Department;San Antonio Buenavista
+0;-88.9333,13.8333;SV-02;Cabanas;San Antonio Buenavista
+0;-88.9167,13.5667;SV-06;La Paz Department;San Antonio Arriba
+0;-89.5564,14.2100;SV-11;Santa Ana Department;San Antonio Angeleño
+0;-88.7167,13.5667;SV-12;San Vicente Department;San Antonio Achichilquito
+0;-88.9167,13.5333;SV-06;La Paz Department;San Antonio Abajo
+0;-89.2333,13.7167;SV-10;San Salvador Department;San Antonio Abad
+0;-89.4000,14.2500;SV-11;Santa Ana Department;San Antonio
+0;-89.7167,13.9833;SV-01;Ahuachapan;San Antonio
+0;-88.6500,13.9833;SV-02;Cabanas;San Antonio
+0;-89.4272,13.8950;SV-05;La Libertad Department;San Antonio
+0;-88.9667,13.8833;SV-02;Cabanas;San Antonio
+0;-88.3667,13.8500;SV-09;San Miguel Department;San Antonio
+0;-88.2667,13.8333;SV-09;San Miguel Department;San Antonio
+0;-88.9167,13.7500;SV-04;Cuscatlan;San Antonio
+0;-88.1167,13.7500;SV-08;Morazan;San Antonio
+0;-89.9167,13.7333;SV-01;Ahuachapan;San Antonio
+0;-89.4917,13.7122;SV-05;La Libertad Department;San Antonio
+0;-88.9000,13.7000;SV-04;Cuscatlan;San Antonio
+0;-88.9833,13.6833;SV-04;Cuscatlan;San Antonio
+0;-89.4000,13.6333;SV-05;La Libertad Department;San Antonio
+0;-88.4167,13.6333;SV-14;Usulutan;San Antonio
+0;-88.9167,13.6167;SV-06;La Paz Department;San Antonio
+0;-89.4833,13.5500;SV-05;La Libertad Department;San Antonio
+0;-89.0928,13.5311;SV-06;La Paz Department;San Antonio
+0;-88.7333,13.4833;SV-12;San Vicente Department;San Antonio
+0;-88.3667,13.4833;SV-09;San Miguel Department;San Antonio
+0;-88.6000,13.4333;SV-14;Usulutan;San Antonio
+0;-89.0500,13.3833;SV-06;La Paz Department;San Antonio
+0;-88.3667,13.3333;SV-14;Usulutan;San Antonio
+0;-88.3333,13.2667;SV-14;Usulutan;San Antonio
+0;-88.7167,13.5167;SV-12;San Vicente Department;San Andrés Achiotes
+0;-88.4333,13.8500;SV-09;San Miguel Department;San Andrés
+0;-89.4000,13.8167;SV-05;La Libertad Department;San Andrés
+0;-88.9333,13.7667;SV-04;Cuscatlan;San Andrés
+0;-89.8500,13.7167;SV-01;Ahuachapan;San Andrés
+0;-88.2417,13.4950;SV-09;San Miguel Department;San Andrés
+0;-89.1667,13.4667;SV-05;La Libertad Department;San Alfredo
+0;-89.3833,13.5333;SV-05;La Libertad Department;San Alfonso
+5149;-87.9631,13.4314;SV-07;La Union;San Alejo
+0;-89.2942,13.9506;SV-05;La Libertad Department;Sitio San Agustín
+0;-89.0167,13.7000;SV-04;Cuscatlan;San Agustín
+0;-88.9333,13.6833;SV-04;Cuscatlan;San Agustín
+2149;-88.6000,13.4333;SV-14;Usulutan;San Agustín
+0;-88.2833,13.2333;SV-14;Usulutan;Samuria
+0;-88.6500,13.9667;SV-02;Cabanas;Salto
+0;-89.7333,13.9333;SV-01;Ahuachapan;Salitrero
+0;-88.6667,13.3000;SV-14;Usulutan;Salinas El Potrero
+0;-87.8333,13.4500;SV-07;La Union;Salinas El Lajero
+0;-88.6833,13.2833;SV-14;Usulutan;Salinas de Sisiguayo
+0;-89.6678,13.5483;SV-13;Sonsonate Department;Salinas de Ayacachapa
+0;-89.7583,13.8286;SV-13;Sonsonate Department;Salcoatitán
+0;-88.2500,13.5333;SV-09;San Miguel Department;Salamar
+0;-88.3500,13.2667;SV-14;Usulutan;Salamar
+0;-89.4719,13.7364;SV-05;La Libertad Department;Sacacoyo
+0;-89.7000,14.1500;SV-11;Santa Ana Department;Sabanetas
+0;-88.0833,14.0500;SV-08;Morazan;Sabanetas
+0;-89.7000,13.8000;SV-13;Sonsonate Department;Sabana San Juan Arriba
+0;-89.7167,13.7833;SV-13;Sonsonate Department;Sabana San Juan Abajo
+0;-89.7500,13.7500;SV-13;Sonsonate Department;Sabana Grande
+0;-88.9500,13.8167;SV-04;Cuscatlan;Rosario Tablón
+0;-89.0167,13.8333;SV-04;Cuscatlan;Rosario Perico
+5178;-89.2089,13.5753;SV-10;San Salvador Department;Rosario de Mora
+0;-89.8833,13.8000;SV-01;Ahuachapan;Rosario Arriba
+0;-89.8667,13.7667;SV-01;Ahuachapan;Rosario Abajo
+0;-88.9833,13.7333;SV-04;Cuscatlan;Rosales
+0;-88.5667,13.3167;SV-14;Usulutan;Roquinte
+0;-88.6333,13.9333;SV-02;Cabanas;Rojitas
+0;-88.6167,13.9000;SV-02;Cabanas;Rojas
+0;-89.1000,13.8333;SV-04;Cuscatlan;Rodríguez
+0;-88.3667,13.4000;SV-09;San Miguel Department;Rodeo de Piedrón
+0;-88.0531,13.4936;SV-09;San Miguel Department;Río Vargas
+0;-89.0667,14.2667;SV-03;Chalatenango Department;Río Grande de Cardoza
+0;-89.0667,14.1833;SV-03;Chalatenango Department;Río Grande de Alvarado
+0;-88.6000,13.8500;SV-02;Cabanas;Río Grande
+0;-88.7500,13.5833;SV-12;San Vicente Department;Río Grande
+0;-89.8333,14.0333;SV-01;Ahuachapan;Río Frío
+0;-88.6167,13.6000;SV-12;San Vicente Department;Río Frío
+0;-88.7333,13.5833;SV-12;San Vicente Department;Río Frío
+0;-89.1167,14.3667;SV-03;Chalatenango Department;Río Chiquito
+0;-89.7333,13.9333;SV-01;Ahuachapan;Rincón Grande
+0;-89.4394,13.9867;SV-11;Santa Ana Department;Resbaladero
+0;-89.6000,14.0167;SV-11;Santa Ana Department;Ranchador
+0;-89.1333,13.8667;SV-04;Cuscatlan;Ramírez
+0;-88.1833,13.9000;SV-08;Morazan;Raíces
+0;-89.1500,14.0667;SV-03;Chalatenango Department;Quitasol
+0;-88.7000,13.3667;SV-14;Usulutan;Quita Calzón
+0;-88.7167,14.0333;SV-03;Chalatenango Department;Quipure
+28886;-89.2722,13.8312;SV-05;La Libertad Department;Quezaltepeque
+0;-89.8142,13.8486;SV-01;Ahuachapan;Quezalapa
+0;-89.2061,13.6128;SV-10;San Salvador Department;Quezalapa
+0;-88.5000,13.7833;SV-09;San Miguel Department;Queseras
+0;-88.8167,13.8333;SV-02;Cabanas;Quesera
+0;-88.2333,13.5167;SV-09;San Miguel Department;Quelepa
+0;-89.3333,14.3000;SV-11;Santa Ana Department;Quebrada de Agua
+0;-89.4000,14.2167;SV-11;Santa Ana Department;Quebrada de Agua
+0;-88.3833,13.8000;SV-09;San Miguel Department;Quebracho
+0;-88.4833,13.5333;SV-14;Usulutan;Quebracho
+0;-89.7200,13.7672;SV-13;Sonsonate Department;Pushtán
+0;-89.8000,13.5333;SV-13;Sonsonate Department;Punta Remedios
+0;-89.8167,13.7667;SV-01;Ahuachapan;Pululapa
+0;-88.4333,13.2500;SV-14;Usulutan;Puerto Parada
+0;-88.5833,13.3000;SV-14;Usulutan;Puerto Los Ávalos
+19074;-88.5500,13.2833;SV-14;Usulutan;Puerto El Triunfo
+0;-88.2833,13.1833;SV-14;Usulutan;Puerto Caballo
+0;-88.1667,13.9500;SV-08;Morazan;Pueblo Viejo
+0;-88.1500,13.8167;SV-08;Morazan;Pueblo Viejo
+0;-87.7333,13.7833;SV-07;La Union;Pueblo Nuevo
+0;-87.8333,13.8000;SV-07;La Union;Pueblo
+0;-89.1333,13.7000;SV-10;San Salvador Department;Prusia
+0;-89.5239,13.9708;SV-11;Santa Ana Department;Primavera
+0;-89.2983,13.8178;SV-05;La Libertad Department;Primavera
+0;-88.3333,13.3500;SV-09;San Miguel Department;Primavera
+0;-88.6667,13.8000;SV-02;Cabanas;Potrero y Tablas
+0;-89.3667,14.1000;SV-03;Chalatenango Department;Potrero Sula
+0;-89.1500,14.0333;SV-10;San Salvador Department;Potrero Grande
+0;-88.7167,13.8000;SV-02;Cabanas;Potrero de Batres
+0;-88.2167,13.8167;SV-08;Morazan;Potrero Adentro
+0;-89.5933,13.9528;SV-11;Santa Ana Department;Potrerillos del Matazano
+0;-89.6000,13.8833;SV-11;Santa Ana Department;Potrerillos de La Laguna
+0;-88.9167,14.1833;SV-03;Chalatenango Department;Potrerillos
+0;-88.7500,14.0167;SV-03;Chalatenango Department;Potrerillos
+0;-88.9167,13.9667;SV-03;Chalatenango Department;Potrerillos
+0;-89.1500,13.6167;SV-10;San Salvador Department;Potrerillos
+0;-88.8000,13.5500;SV-12;San Vicente Department;Potrerillos
+0;-88.9000,13.9667;SV-03;Chalatenango Department;Potonico
+0;-89.2667,14.1500;SV-03;Chalatenango Department;Potenciana
+0;-89.6833,13.9333;SV-11;Santa Ana Department;Porvenir Jocotillo
+0;-87.9833,13.6667;SV-08;Morazan;Portillo Los Carrillo
+0;-88.8500,14.0000;SV-03;Chalatenango Department;Portillo del Norte
+0;-88.7500,14.1333;SV-03;Chalatenango Department;Portillo del Aguacate
+0;-88.3000,13.9000;SV-09;San Miguel Department;Portillo Blanco
+0;-88.1333,13.7167;SV-08;Morazan;Portillo Blanco
+0;-87.8192,13.8103;SV-07;La Union;Polorós
+0;-88.7000,14.0333;SV-03;Chalatenango Department;Plazuelas
+0;-88.4833,13.4833;SV-14;Usulutan;Playitas
+0;-87.9444,13.1658;SV-07;La Union;Playas Negras
+0;-88.1161,13.3189;SV-09;San Miguel Department;Playa Grande
+0;-89.2600,13.8583;SV-05;La Libertad Department;Platanillos
+0;-88.0833,13.5500;SV-09;San Miguel Department;Platanarillo
+0;-88.9333,14.1833;SV-03;Chalatenango Department;Plan Verde
+0;-88.4000,13.4500;SV-14;Usulutan;Plan Grande
+0;-89.1917,13.6464;SV-10;San Salvador Department;Planes de Renderos
+0;-89.1417,13.5050;SV-06;La Paz Department;Planes de Las Delicias
+0;-89.5875,13.8633;SV-11;Santa Ana Department;Los Planes de La Laguna
+0;-88.7167,13.6667;SV-12;San Vicente Department;Plan de Mesas
+0;-89.1419,13.7408;SV-10;San Salvador Department;Plan del Pino
+0;-89.0000,14.1833;SV-03;Chalatenango Department;Plan del Ojo de Agua
+0;-89.1978,13.5064;SV-10;San Salvador Department;Plan del Mango
+0;-89.0500,14.2333;SV-03;Chalatenango Department;Plan del Horno
+0;-88.0500,13.7167;SV-08;Morazan;Plan del Higo
+0;-88.2333,13.6833;SV-08;Morazan;Plan del Carbón
+0;-89.4672,13.9167;SV-11;Santa Ana Department;Plan de Las Marías
+0;-89.6158,13.6933;SV-13;Sonsonate Department;Plan de Amayo
+0;-87.8500,13.6333;SV-07;La Union;Placitas
+0;-89.5833,14.3833;SV-11;Santa Ana Department;Pita Floja
+0;-89.1747,13.9606;SV-10;San Salvador Department;Pishishapa
+0;-88.8500,13.5333;SV-06;La Paz Department;Pineda
+0;-89.5667,14.1000;SV-11;Santa Ana Department;Pinalón
+0;-89.1753,13.9764;SV-10;San Salvador Department;Piñalitos
+0;-89.5667,14.0500;SV-11;Santa Ana Department;Pinalito
+0;-89.6233,13.7342;SV-13;Sonsonate Department;Piedras Pachas
+0;-88.9333,13.9833;SV-03;Chalatenango Department;Piedras Gordas
+0;-88.3833,13.7333;SV-09;San Miguel Department;Piedras Gordas
+0;-88.1333,13.5333;SV-09;San Miguel Department;Piedras Blancas
+0;-87.7342,13.4789;SV-07;La Union;Piedras Blancas
+0;-89.6650,14.1681;SV-11;Santa Ana Department;Piedras Azules
+0;-87.8914,13.2519;SV-07;La Union;Piedra Rallada
+0;-89.6667,13.9667;SV-11;Santa Ana Department;Piedra Rajada
+0;-88.1500,13.7167;SV-08;Morazan;Piedra Parada
+0;-87.9833,13.6833;SV-08;Morazan;Piedra Parada
+0;-89.1167,13.8500;SV-04;Cuscatlan;Piedra Labrada
+0;-88.8667,13.5333;SV-06;La Paz Department;Piedra Grande Arriba
+0;-88.8667,13.5167;SV-06;La Paz Department;Piedra Grande Abajo
+0;-87.9500,13.4167;SV-07;La Union;Piedra Gorda
+0;-89.7000,13.7167;SV-13;Sonsonate Department;Piedra de Moler
+0;-89.5000,14.1667;SV-11;Santa Ana Department;Piedra Cargada
+0;-87.8775,13.2808;SV-07;La Union;Piedra Blanca
+0;-88.2833,13.3833;SV-09;San Miguel Department;Piedra Azul
+0;-88.4000,13.3667;SV-14;Usulutan;Piedra Ancha
+0;-89.3167,14.3333;SV-11;Santa Ana Department;Pie de La Cuesta
+0;-88.2667,13.6500;SV-09;San Miguel Department;Pie de La Cuesta
+0;-88.9167,14.2000;SV-03;Chalatenango Department;Petapa
+0;-88.5000,13.7167;SV-09;San Miguel Department;Petacones
+0;-89.5500,13.7000;SV-13;Sonsonate Department;Petacas
+0;-88.1667,13.9500;SV-08;Morazan;Perquín
+0;-89.7333,13.9667;SV-01;Ahuachapan;Pepenance
+0;-89.0000,13.9167;SV-04;Cuscatlan;Pepeishtenango
+0;-88.8833,13.5167;SV-06;La Paz Department;Penitente Arriba
+0;-88.8833,13.4833;SV-06;La Paz Department;Penitente Abajo
+0;-88.7000,13.9833;SV-02;Cabanas;Peña Blanca
+0;-88.1833,13.8000;SV-08;Morazan;Peña Blanca
+0;-89.5667,13.6861;SV-13;Sonsonate Department;Peña Blanca
+0;-87.8667,13.4500;SV-07;La Union;Pavana
+0;-88.0667,13.8833;SV-08;Morazan;Paturla
+0;-88.7333,14.0333;SV-03;Chalatenango Department;Patanera
+0;-88.4333,13.7167;SV-09;San Miguel Department;Paso Hondo
+0;-89.4333,14.4167;SV-11;Santa Ana Department;Paso de La Ceiba
+0;-89.6097,13.5867;SV-13;Sonsonate Department;Paso de Canoas
+0;-87.8833,13.6167;SV-07;La Union;Pasaquinita
+2149;-87.8411,13.5844;SV-07;La Union;Pasaquina
+0;-88.6167,13.6167;SV-12;San Vicente Department;Parras Lempa
+0;-88.8333,13.4500;SV-06;La Paz Department;Paredes
+0;-88.6000,13.9667;SV-02;Cabanas;Paratao
+0;-89.6500,14.1500;SV-11;Santa Ana Department;Paraje Galán
+0;-88.9667,13.6333;SV-06;La Paz Department;Paraíso de Osorio
+0;-87.9833,13.4500;SV-07;La Union;Papalón
+0;-87.8000,13.6167;SV-07;La Union;Papalambre
+0;-89.1508,13.5725;SV-10;San Salvador Department;Panchimalquito
+6764;-89.1800,13.6128;SV-10;San Salvador Department;Panchimalco
+0;-88.8667,14.0333;SV-03;Chalatenango Department;Palo Verde
+0;-89.5833,13.7000;SV-13;Sonsonate Department;Palo Verde
+0;-87.7167,13.5000;SV-07;La Union;Palo Seco
+0;-89.9000,13.9500;SV-01;Ahuachapan;Palo Pique
+0;-89.4856,13.8611;SV-11;Santa Ana Department;Palo Negro
+0;-89.0833,13.9167;SV-04;Cuscatlan;Palo Grande
+0;-89.2189,13.5436;SV-10;San Salvador Department;Palo Grande
+0;-89.3333,14.2167;SV-11;Santa Ana Department;Palo Galán
+0;-88.4167,13.3333;SV-14;Usulutan;Palo Galán
+0;-89.6100,13.8667;SV-11;Santa Ana Department;Palo de Campana
+0;-88.6667,13.8667;SV-02;Cabanas;Palo Bonito
+0;-87.8000,13.7500;SV-07;La Union;Palo Blanco
+0;-87.8667,13.5333;SV-07;La Union;Palo Blanco
+0;-89.1667,13.8667;SV-10;San Salvador Department;Palmira
+0;-88.8167,13.9500;SV-02;Cabanas;Palacios
+0;-89.0736,13.8397;SV-04;Cuscatlan;Palacios
+0;-89.0667,13.8333;SV-04;Cuscatlan;Palacios
+0;-88.5833,13.8167;SV-02;Cabanas;Palacios
+0;-88.8667,13.7333;SV-04;Cuscatlan;Palacios
+0;-88.2500,13.6667;SV-09;San Miguel Department;Pajigua
+0;-88.9333,14.1333;SV-03;Chalatenango Department;Pacayas
+0;-88.3167,13.6000;SV-09;San Miguel Department;Pabaya
+4171;-88.5000,13.3833;SV-14;Usulutan;Ozatlán
+0;-88.3333,13.8000;SV-09;San Miguel Department;Ostucal
+0;-89.5503,14.3253;SV-11;Santa Ana Department;Ostúa
+0;-88.1500,13.8000;SV-08;Morazan;Osicala
+0;-88.3833,13.4833;SV-09;San Miguel Department;Oromontique
+0;-89.0597,13.8164;SV-04;Cuscatlan;Oratorio de Concepción
+0;-88.8833,13.8333;SV-02;Cabanas;Oratorio
+0;-89.6333,14.0000;SV-11;Santa Ana Department;Omoa
+0;-88.9500,14.0667;SV-03;Chalatenango Department;Olosingo
+0;-88.0267,13.3111;SV-07;La Union;Olomega
+6324;-89.1172,13.5697;SV-06;La Paz Department;Olocuilta
+0;-87.9833,13.4000;SV-07;La Union;Ojushtillo
+0;-89.2167,14.2167;SV-03;Chalatenango Department;Ojos de Agua
+0;-89.0667,14.1333;SV-03;Chalatenango Department;Ojos de Agua
+0;-88.8667,14.1333;SV-03;Chalatenango Department;Ojos de Agua
+0;-89.2428,13.6042;SV-05;La Libertad Department;Ojos de Agua
+0;-88.1928,13.2200;SV-14;Usulutan;Ojo de Agua de León
+0;-89.6333,14.1500;SV-11;Santa Ana Department;Ojo de Agua
+0;-89.5333,14.1500;SV-11;Santa Ana Department;Ojo de Agua
+0;-89.7000,13.9000;SV-11;Santa Ana Department;Ojo de Agua
+0;-89.7233,13.8708;SV-13;Sonsonate Department;Ojo de Agua
+0;-88.1833,13.8500;SV-08;Morazan;Ojo de Agua
+0;-88.9333,13.7500;SV-04;Cuscatlan;Ojo de Agua
+0;-88.3500,13.4667;SV-09;San Miguel Department;Ojo de Agua
+0;-88.4667,13.3500;SV-14;Usulutan;Ojo de Agua
+0;-88.4833,13.7667;SV-09;San Miguel Department;Ojeo
+0;-87.8667,13.8167;SV-07;La Union;Ocotillo
+0;-88.0667,13.7500;SV-08;Morazan;Ocotillo
+0;-88.0500,13.8667;SV-08;Morazan;Ocote Seco
+0;-89.5833,13.9000;SV-11;Santa Ana Department;Ochupse Arriba
+0;-89.5853,13.9217;SV-11;Santa Ana Department;Ochupse Abajo
+0;-89.2167,14.1333;SV-03;Chalatenango Department;Obrajuelo
+0;-88.4000,13.3167;SV-14;Usulutan;Obrajuelo
+0;-89.3000,14.1167;SV-03;Chalatenango Department;Obrajito
+0;-89.3092,13.9478;SV-05;La Libertad Department;Obraje Nuevo
+0;-88.2833,13.7167;SV-09;San Miguel Department;Nuevo Porvenir
+0;-88.4833,13.8167;SV-09;San Miguel Department;Nuevo Edén de San Juan
+0;-89.3000,14.0833;SV-03;Chalatenango Department;Nuevo Edén
+0;-89.0833,13.4667;SV-06;La Paz Department;Nuevo Edén
+6469;-89.2653,13.6486;SV-05;La Libertad Department;Nuevo Cuscatlán
+0;-88.8000,14.0667;SV-03;Chalatenango Department;Nueva Trinidad
+124694;-89.2833,13.6774;SV-05;La Libertad Department;Santa Tecla
+0;-87.9667,13.5667;SV-07;La Union;Nueva Guadalupe
+5798;-88.3500,13.5333;SV-09;San Miguel Department;Nueva Guadalupe
+0;-88.4500,13.6000;SV-14;Usulutan;Nueva Granada
+2528;-87.8386,13.7836;SV-07;La Union;Nueva Esparta
+9990;-89.3000,14.1333;SV-03;Chalatenango Department;Nueva Concepción
+0;-88.1475,13.2706;SV-09;San Miguel Department;Nueva Concepción
+0;-88.6500,13.3667;SV-14;Usulutan;Nueva California
+0;-88.7333,14.0000;SV-03;Chalatenango Department;Nombre de Jesús
+0;-88.0667,13.6500;SV-08;Morazan;Nombre de Jesús
+0;-88.1333,13.5833;SV-08;Morazan;Nombre de Jesús
+0;-88.5167,13.9500;SV-02;Cabanas;Nombre de Dios
+0;-89.4164,13.9178;SV-05;La Libertad Department;Nombre de Dios
+0;-88.6333,13.4833;SV-14;Usulutan;Nombre de Dios
+0;-88.5333,13.8167;SV-02;Cabanas;Niqueresque
+0;-89.8775,13.8975;SV-01;Ahuachapan;Nejapa
+0;-89.2314,13.8147;SV-10;San Salvador Department;Nejapa
+0;-89.2667,13.6000;SV-05;La Libertad Department;Nazaret
+0;-89.4667,14.0000;SV-11;Santa Ana Department;Natividad
+0;-89.2767,13.9936;SV-10;San Salvador Department;Natividad
+0;-89.4147,13.9900;SV-11;Santa Ana Department;Nancintepeque
+0;-89.1333,13.8833;SV-10;San Salvador Department;Nance Verde
+0;-88.9000,13.8000;SV-02;Cabanas;Nanastepeque
+0;-89.7128,13.7036;SV-13;Sonsonate Department;Nahulingo
+7358;-89.7367,13.7775;SV-13;Sonsonate Department;Nahuizalco
+0;-88.1500,14.0500;SV-08;Morazan;Nahuaterique
+0;-89.0000,13.4667;SV-06;La Paz Department;Nahualapa
+0;-88.5833,13.8167;SV-02;Cabanas;Nacaspilo
+0;-87.9333,13.8667;SV-07;La Union;Nacascolo
+0;-87.7833,13.7833;SV-07;La Union;Munguía
+0;-88.5333,13.9667;SV-02;Cabanas;Mundo Nuevo
+0;-88.4667,13.3000;SV-14;Usulutan;Mundo Nuevo
+0;-89.8392,13.6958;SV-01;Ahuachapan;Morro Grande
+0;-89.8500,13.6667;SV-13;Sonsonate Department;Morro Grande
+0;-88.3167,13.2667;SV-14;Usulutan;Moropala
+0;-88.7167,13.8167;SV-02;Cabanas;Morontepeque
+0;-89.6667,14.1500;SV-11;Santa Ana Department;Monte Verde
+0;-87.8833,13.4167;SV-07;La Union;Monte Verde
+0;-88.9500,13.7667;SV-04;Cuscatlan;Monte San Juan
+0;-88.9833,14.0667;SV-03;Chalatenango Department;Monte Redondo
+0;-88.9000,13.9500;SV-03;Chalatenango Department;Monte Redondo
+0;-89.0794,13.8714;SV-04;Cuscatlan;Montepeque
+0;-89.3000,14.3000;SV-11;Santa Ana Department;Montenegro
+0;-87.9833,13.6833;SV-08;Morazan;Monte Mayor
+0;-89.9167,13.8000;SV-01;Ahuachapan;Monte Hermoso
+0;-88.1844,13.4378;SV-09;San Miguel Department;Monte Grande
+0;-89.5833,14.4000;SV-11;Santa Ana Department;Montecristo
+0;-88.0667,13.5833;SV-08;Morazan;Montecristo
+0;-88.8000,13.2500;SV-14;Usulutan;Montecristo
+0;-88.5000,13.7500;SV-09;San Miguel Department;Montecillos
+0;-87.8414,13.8756;SV-07;La Union;Monteca
+0;-89.5486,13.8314;SV-11;Santa Ana Department;Montebello
+0;-87.9500,13.7500;SV-07;La Union;Montañita
+0;-88.6500,13.5000;SV-14;Usulutan;Montañita
+0;-89.3822,13.9625;SV-05;La Libertad Department;Moncagua
+2148;-88.2500,13.5333;SV-09;San Miguel Department;Moncagua
+0;-88.8667,13.6500;SV-12;San Vicente Department;Molineros
+0;-87.8861,13.4353;SV-07;La Union;El Mogotillo
+0;-89.3919,13.9769;SV-05;La Libertad Department;Mogotes
+0;-89.7606,13.6042;SV-13;Sonsonate Department;Miravalle
+0;-89.1000,13.9333;SV-04;Cuscatlan;Mirandilla
+0;-89.8667,13.6833;SV-01;Ahuachapan;Miramar
+0;-89.5833,13.6333;SV-13;Sonsonate Department;Miramar
+0;-88.4333,13.4500;SV-14;Usulutan;Miramar
+0;-89.0000,13.7667;SV-04;Cuscatlan;Miraflores
+0;-88.0908,13.4261;SV-09;San Miguel Department;Miraflores
+0;-88.9500,13.6833;SV-04;Cuscatlan;Miraflor Arriba
+0;-88.3000,13.8500;SV-09;San Miguel Department;Miracapa
+0;-88.3833,13.7333;SV-09;San Miguel Department;Minitas
+0;-87.8000,13.7167;SV-07;La Union;Minitas
+0;-88.3167,13.6667;SV-09;San Miguel Department;Mineral El Potosí
+0;-89.3872,13.8600;SV-05;La Libertad Department;Minas de Plomo
+0;-89.0439,13.9097;SV-04;Cuscatlan;Milingo
+0;-89.1667,13.7500;SV-10;San Salvador Department;Milingo
+0;-88.9833,13.7500;SV-04;Cuscatlan;Michapa
+19143;-89.4500,14.3333;SV-11;Santa Ana Department;Metapán
+0;-89.8803,13.6392;SV-13;Sonsonate Department;Metalío
+0;-87.8500,13.9000;SV-07;La Union;Mesetas
+0;-88.5000,13.5667;SV-14;Usulutan;Mercedes Umaña
+0;-88.9000,13.6333;SV-06;La Paz Department;Mercedes La Ceiba
+0;-89.1167,13.8333;SV-04;Cuscatlan;Meléndez
+0;-89.2167,13.4833;SV-05;La Libertad Department;Melara
+0;-88.4167,13.3333;SV-14;Usulutan;Mejicapa
+160317;-89.1880,13.7240;SV-10;San Salvador Department;Mejicanos
+0;-87.6975,13.1797;SV-07;La Union;Meanguera del Golfo
+0;-88.1500,13.8500;SV-08;Morazan;Meanguera
+0;-88.3833,13.6833;SV-09;San Miguel Department;Mazatepeque
+0;-89.5000,14.0333;SV-11;Santa Ana Department;Mazacúa
+0;-88.2000,13.5500;SV-09;San Miguel Department;Mayucaquín
+0;-87.9500,13.7833;SV-08;Morazan;Matapalo
+0;-89.5500,14.3667;SV-11;Santa Ana Department;Matalapa
+0;-89.8833,13.8167;SV-01;Ahuachapan;Matala
+0;-89.1000,13.9667;SV-04;Cuscatlan;Masatepeque
+0;-88.0833,13.9167;SV-08;Morazan;Masala
+0;-89.3344,13.8833;SV-05;La Libertad Department;Masajapa
+0;-89.4333,14.1833;SV-11;Santa Ana Department;Masahuat
+0;-89.0253,13.3539;SV-06;La Paz Department;Marcelino
+0;-88.7833,13.8500;SV-02;Cabanas;Maquilishuat
+0;-87.9231,13.2825;SV-07;La Union;Maquigüe
+0;-88.8000,14.0500;SV-03;Chalatenango Department;Manaquil
+0;-88.4333,13.6833;SV-09;San Miguel Department;Managuara
+0;-89.1006,13.7644;SV-10;San Salvador Department;Malacof
+0;-89.4206,13.9722;SV-11;Santa Ana Department;Majoma
+0;-89.4000,14.3833;SV-11;Santa Ana Department;Majada Vieja
+0;-88.2000,13.6833;SV-08;Morazan;Maiguera
+0;-89.9344,13.7033;SV-01;Ahuachapan;Maguey
+0;-88.5167,13.2167;SV-14;Usulutan;Madre Sal
+0;-88.3667,13.3500;SV-14;Usulutan;Maculís
+0;-89.2811,13.7811;SV-05;La Libertad Department;Macance
+0;-89.4753,13.9364;SV-11;Santa Ana Department;Lousiana
+0;-89.3672,13.7224;SV-05;La Libertad Department;Lourdes
+0;-87.8833,13.7000;SV-07;La Union;Los Zetino
+0;-89.0167,13.9833;SV-03;Chalatenango Department;Los Zepeda
+0;-88.3833,13.4167;SV-09;San Miguel Department;Los Zelaya
+0;-88.9000,13.4833;SV-06;La Paz Department;Los Zacatillos
+0;-88.9500,13.6333;SV-06;La Paz Department;Los Zacatales
+0;-88.1667,13.7667;SV-08;Morazan;Los Ventura
+0;-88.7833,13.9333;SV-02;Cabanas;Los Urías
+0;-89.1656,13.5631;SV-10;San Salvador Department;Los Troncones
+0;-88.6500,13.4500;SV-14;Usulutan;Los Tres Chorros
+0;-88.7500,13.9000;SV-02;Cabanas;Los Torunos
+0;-89.9303,13.9600;SV-01;Ahuachapan;Los Toles
+0;-88.6833,13.9667;SV-02;Cabanas;Los Talpetates
+0;-88.5833,13.5500;SV-14;Usulutan;Los Talpetates
+0;-88.1103,13.3722;SV-09;San Miguel Department;Los Talpetates
+0;-88.4667,13.6000;SV-14;Usulutan;Los Talnetes
+0;-89.8333,13.8500;SV-01;Ahuachapan;Los Tablones
+0;-87.8333,13.7833;SV-07;La Union;Los Rubio
+0;-88.9167,13.6500;SV-06;La Paz Department;Los Romero
+0;-88.8667,13.7000;SV-12;San Vicente Department;Los Rodríguez
+0;-89.8667,13.7333;SV-01;Ahuachapan;Los Rivas
+0;-88.5833,13.4167;SV-14;Usulutan;Los Ríos
+0;-89.5833,14.0500;SV-11;Santa Ana Department;Los Rincones
+0;-88.0897,13.2903;SV-09;San Miguel Department;Los Riítos
+0;-88.0500,13.6833;SV-08;Morazan;Los Reyes
+0;-88.8833,13.9000;SV-02;Cabanas;Los Remedios
+0;-89.3333,14.2500;SV-11;Santa Ana Department;Los Ranchos
+0;-89.3833,14.1333;SV-03;Chalatenango Department;Los Ranchos
+0;-88.7167,13.9167;SV-02;Cabanas;Los Ranchos
+0;-87.9500,13.6667;SV-07;La Union;Los Ranchos
+0;-88.6333,13.4667;SV-14;Usulutan;Los Ranchos
+0;-88.0797,13.3844;SV-09;San Miguel Department;Los Ranchos
+0;-88.1500,13.9167;SV-08;Morazan;Los Ramírez
+0;-89.8411,13.7675;SV-01;Ahuachapan;Los Puentecitos
+0;-88.9500,14.1833;SV-03;Chalatenango Department;Los Prados
+0;-89.1667,14.3333;SV-03;Chalatenango Department;Los Pozos
+0;-88.8000,13.6167;SV-12;San Vicente Department;Los Pozos
+0;-88.7000,13.3000;SV-14;Usulutan;Los Pozos
+0;-88.5500,13.9167;SV-02;Cabanas;Los Portillos
+0;-89.8400,13.7297;SV-01;Ahuachapan;Los Platanares
+0;-88.8667,13.4833;SV-06;La Paz Department;Los Platanares
+0;-88.3167,13.5333;SV-09;San Miguel Department;Los Planes de San Sebastián
+0;-89.2833,14.3833;SV-03;Chalatenango Department;Los Planes
+0;-89.0833,14.3167;SV-03;Chalatenango Department;Los Planes
+0;-89.3333,14.1667;SV-03;Chalatenango Department;Los Planes
+0;-88.3167,13.5333;SV-09;San Miguel Department;Los Planes
+0;-88.6167,13.3833;SV-14;Usulutan;Los Planes
+0;-89.5167,13.8667;SV-11;Santa Ana Department;Los Pinos
+0;-88.0833,13.4919;SV-09;San Miguel Department;Los Pilones
+0;-87.9000,13.8500;SV-07;La Union;Los Picachos
+0;-89.1667,13.6167;SV-10;San Salvador Department;Los Palones
+0;-89.3456,13.8933;SV-05;La Libertad Department;Los Palmitos
+0;-89.1500,13.5833;SV-10;San Salvador Department;Los Pajales
+0;-89.3167,13.5333;SV-05;La Libertad Department;Los Pajales
+0;-88.9000,14.0667;SV-03;Chalatenango Department;Los Ortiz
+0;-87.8000,13.7000;SV-07;La Union;Los Orteces
+0;-88.7333,13.9000;SV-02;Cabanas;Los Olotes
+0;-88.4000,13.6167;SV-14;Usulutan;Los Novillos
+0;-87.9333,13.3000;SV-07;La Union;Los Negritos
+0;-88.8000,13.9500;SV-02;Cabanas;Los Navarrete
+0;-89.0500,14.2833;SV-03;Chalatenango Department;Los Naranjos
+0;-88.9000,14.1167;SV-03;Chalatenango Department;Los Naranjos
+0;-88.9667,13.9667;SV-03;Chalatenango Department;Los Naranjos
+0;-89.6739,13.8725;SV-13;Sonsonate Department;Los Naranjos
+0;-88.9167,13.7167;SV-04;Cuscatlan;Los Naranjos
+0;-88.3167,13.3833;SV-09;San Miguel Department;Los Moreira
+0;-88.7833,14.0333;SV-03;Chalatenango Department;Los Morales
+0;-87.8719,13.6692;SV-07;La Union;Los Mojones
+0;-88.8000,14.0333;SV-03;Chalatenango Department;Los Miranda
+0;-89.0028,13.9636;SV-03;Chalatenango Department;Los Menjívar
+0;-88.8333,13.8500;SV-02;Cabanas;Los Menjívar
+0;-88.0167,13.5500;SV-07;La Union;Los Mendoza
+0;-89.8833,13.6833;SV-13;Sonsonate Department;Los Méndez
+0;-87.9167,13.6500;SV-07;La Union;Los Melgar
+0;-87.9833,13.5500;SV-07;La Union;Los Melgar
+0;-89.0833,14.1667;SV-03;Chalatenango Department;Los Martínez
+0;-88.1167,13.7500;SV-08;Morazan;Los Martínez
+0;-88.8000,13.3667;SV-06;La Paz Department;Los Marranitos
+0;-88.1500,13.7333;SV-08;Morazan;Los Marquez
+0;-88.7833,13.3500;SV-12;San Vicente Department;Los Marines
+0;-89.4000,14.0333;SV-03;Chalatenango Department;Los Mangos
+0;-89.2000,13.9667;SV-10;San Salvador Department;Los Mangos
+0;-89.5333,13.7833;SV-13;Sonsonate Department;Los Mangos
+0;-89.8333,13.7000;SV-01;Ahuachapan;Los Mangos
+0;-89.8167,13.9333;SV-01;Ahuachapan;Los Magueyes
+0;-89.0500,14.3167;SV-03;Chalatenango Department;Los Llanitos
+0;-88.6333,13.8833;SV-02;Cabanas;Los Llanitos
+0;-88.8333,13.8500;SV-02;Cabanas;Los Llanitos
+0;-89.2000,13.7500;SV-10;San Salvador Department;Los Llanitos
+0;-88.1933,13.3408;SV-09;San Miguel Department;Los Llanitos
+0;-88.2186,13.2769;SV-14;Usulutan;Los Llanitos
+0;-88.4167,13.6500;SV-14;Usulutan;Los Limones
+0;-88.9500,13.4333;SV-06;La Paz Department;Los Limones
+0;-88.6167,13.3167;SV-14;Usulutan;Los Limones
+0;-88.8333,13.7500;SV-12;San Vicente Department;Los Laureles
+0;-89.5167,13.7000;SV-05;La Libertad Department;Los Laureles
+0;-89.4122,13.7036;SV-05;La Libertad Department;Los Laureles
+0;-88.9833,13.6000;SV-06;La Paz Department;Los Laureles
+0;-88.8167,13.6000;SV-12;San Vicente Department;Los Laureles
+0;-89.5622,13.7339;SV-13;Sonsonate Department;Los Lagartos
+0;-88.6833,13.8500;SV-02;Cabanas;Los Jobos
+0;-88.6000,13.6000;SV-12;San Vicente Department;Los Jobos
+0;-87.8503,13.4500;SV-07;La Union;Los Jiotes
+0;-89.5333,13.6333;SV-05;La Libertad Department;Los Izotes
+0;-89.8333,13.9167;SV-01;Ahuachapan;Los Huatales
+0;-88.8000,13.8500;SV-02;Cabanas;Los Hoyos
+0;-88.5667,13.4167;SV-14;Usulutan;Los Hornos
+0;-89.2667,14.3667;SV-03;Chalatenango Department;Los Hornitos
+0;-89.2167,14.3000;SV-03;Chalatenango Department;Los Horcones
+0;-89.4167,14.1333;SV-11;Santa Ana Department;Los Horcones
+0;-89.8833,13.9667;SV-01;Ahuachapan;Los Horcones
+0;-88.5500,13.5667;SV-14;Usulutan;Los Horcones
+0;-87.7906,13.5569;SV-07;La Union;Horcones
+0;-88.5500,13.4333;SV-14;Usulutan;Los Horcones
+0;-88.5167,13.4167;SV-14;Usulutan;Los Horcones
+0;-88.7333,14.0167;SV-03;Chalatenango Department;Los Henríquez
+0;-87.9667,13.5500;SV-07;La Union;Los Hatillos
+0;-88.8333,13.9833;SV-03;Chalatenango Department;Los Guillén
+0;-88.8500,14.0667;SV-03;Chalatenango Department;Los Guardado
+0;-89.1167,13.5500;SV-06;La Paz Department;Los Guachipilines
+0;-89.6167,13.6833;SV-13;Sonsonate Department;Los Gramales
+0;-88.1167,13.8833;SV-08;Morazan;Los González
+0;-88.7333,14.0833;SV-03;Chalatenango Department;Los Filos
+0;-88.6500,13.4000;SV-14;Usulutan;Los Eucaliptos
+0;-88.3833,13.7333;SV-09;San Miguel Department;Los Espinos
+0;-88.4000,13.5833;SV-14;Usulutan;Los Espinos
+0;-88.5667,13.3500;SV-14;Usulutan;Los Esperanza
+0;-88.9667,14.2167;SV-03;Chalatenango Department;Los Encuentros
+0;-88.1000,13.6167;SV-08;Morazan;Los Encuentros
+0;-88.3833,13.3500;SV-14;Usulutan;Los Encuentros
+0;-88.2500,13.5500;SV-09;San Miguel Department;Los Ejidos
+0;-89.2833,14.0167;SV-10;San Salvador Department;Los Dos Cerros
+0;-89.0500,14.1167;SV-03;Chalatenango Department;Los Desamparados
+0;-87.9936,13.3125;SV-07;La Union;Los Conejos
+0;-89.8000,13.5333;SV-13;Sonsonate Department;Los Cóbanos
+0;-89.4167,13.6667;SV-05;La Libertad Department;Los Cipreses
+0;-89.4458,13.8844;SV-11;Santa Ana Department;Finca El Chorro
+0;-87.9000,13.5000;SV-07;La Union;Los Chivos
+0;-89.6167,14.1333;SV-11;Santa Ana Department;Los Chilamates
+0;-88.4000,13.6000;SV-14;Usulutan;Los Charcos
+0;-88.5000,13.4333;SV-14;Usulutan;Los Chapetones
+0;-89.0833,14.3000;SV-03;Chalatenango Department;Los Chagüites
+0;-88.6167,13.4333;SV-14;Usulutan;Los Cañales
+0;-88.5500,13.3500;SV-14;Usulutan;Los Campos
+0;-89.9333,13.7167;SV-01;Ahuachapan;Los Calderón
+0;-88.9833,13.3333;SV-06;La Paz Department;Los Blancos
+0;-88.4333,13.5167;SV-14;Usulutan;Los Batres
+0;-88.9833,14.1167;SV-03;Chalatenango Department;Los Barrillas
+0;-88.6333,13.4667;SV-14;Usulutan;Los Ayala
+0;-88.6167,13.4167;SV-14;Usulutan;Los Arrozales
+0;-89.4500,14.0333;SV-11;Santa Ana Department;Los Apoyos
+0;-89.5167,13.8833;SV-11;Santa Ana Department;Los Anteojos
+0;-89.7667,13.8667;SV-13;Sonsonate Department;Los Anisales
+0;-89.5667,14.2167;SV-11;Santa Ana Department;Los Ángeles
+0;-87.8958,13.2653;SV-07;La Union;Los Ángeles
+0;-88.9833,14.0167;SV-03;Chalatenango Department;Los Amates
+0;-88.8167,14.0167;SV-03;Chalatenango Department;Los Amates
+0;-88.2000,14.0000;SV-08;Morazan;Los Amates
+0;-89.3711,13.8969;SV-05;La Libertad Department;Los Amates
+0;-89.8500,13.8000;SV-01;Ahuachapan;Los Amates
+0;-90.0844,13.7661;SV-01;Ahuachapan;Los Amates
+0;-89.3450,13.6792;SV-05;La Libertad Department;Los Amates
+0;-88.3000,13.6000;SV-09;San Miguel Department;Los Amates
+0;-88.4000,13.3833;SV-14;Usulutan;Los Amates
+0;-89.4500,13.7167;SV-05;La Libertad Department;Los Alpes
+0;-89.2000,14.2000;SV-03;Chalatenango Department;Los Almendros
+0;-88.2500,13.7000;SV-08;Morazan;Los Abelines
+0;-89.2150,13.5892;SV-10;San Salvador Department;Loma y Media
+0;-89.3769,13.8297;SV-05;La Libertad Department;Lomas de Santiago
+0;-89.6000,13.8333;SV-11;Santa Ana Department;Lomas de San Marcelino
+0;-88.9000,13.8167;SV-02;Cabanas;Lomas de Peña
+0;-89.2211,13.6522;SV-10;San Salvador Department;Lomas de Candelaria
+0;-89.9275,13.9275;SV-01;Ahuachapan;Loma Larga
+0;-89.3667,13.6833;SV-05;La Libertad Department;Loma Larga
+0;-88.9000,13.6333;SV-06;La Paz Department;Loma Larga
+0;-88.0667,13.6000;SV-08;Morazan;Loma Larga
+0;-87.9594,13.2053;SV-07;La Union;Loma Larga
+0;-88.4333,13.6167;SV-14;Usulutan;Loma Grande
+0;-89.1522,13.9000;SV-10;San Salvador Department;Loma de Ramos
+0;-90.0167,13.8167;SV-01;Ahuachapan;Loma de Paja
+0;-88.4333,13.4833;SV-14;Usulutan;Loma de Los González
+0;-89.7244,13.7550;SV-13;Sonsonate Department;Loma del Muerto
+0;-88.9333,13.8000;SV-04;Cuscatlan;Loma de Las Delicias
+0;-89.8697,13.9092;SV-01;Ahuachapan;Loma de La Gloria
+0;-89.5167,14.3667;SV-11;Santa Ana Department;Loma de Chepe
+0;-89.7833,13.9833;SV-01;Ahuachapan;Loma de Alarcón
+0;-89.6333,14.0500;SV-11;Santa Ana Department;Loma Chata
+0;-89.5667,13.8000;SV-13;Sonsonate Department;Loma Chata
+0;-89.5667,13.9667;SV-11;Santa Ana Department;Loma Alta
+0;-87.9333,13.8833;SV-07;La Union;Loma Alta
+0;-88.8333,13.6333;SV-12;San Vicente Department;Loma Alta
+0;-88.3000,13.4167;SV-09;San Miguel Department;Loma Alta
+0;-88.0833,13.7333;SV-08;Morazan;Lolotiquillo
+2654;-88.3500,13.5500;SV-09;San Miguel Department;Lolotique
+0;-88.8333,14.0500;SV-03;Chalatenango Department;Llano Verde
+0;-88.0000,13.8667;SV-08;Morazan;Llano Verde
+0;-88.7833,13.6167;SV-12;San Vicente Department;Llanos de Achichilco
+0;-88.8500,13.9167;SV-02;Cabanas;Llano Largo
+0;-88.0667,13.8167;SV-08;Morazan;Llano La Ceiba
+0;-88.4333,13.5333;SV-14;Usulutan;Llano Grande de Las Piedras
+0;-89.4167,14.3000;SV-11;Santa Ana Department;Llano Grande
+0;-88.9333,14.1000;SV-03;Chalatenango Department;Llano Grande
+0;-88.6167,13.8667;SV-02;Cabanas;Llano Grande
+0;-89.0833,13.8333;SV-04;Cuscatlan;Llano Grande
+0;-87.7667,13.6333;SV-07;La Union;Llano El Irire
+0;-87.7833,13.6500;SV-07;La Union;Llano El Azote
+0;-88.2833,13.8000;SV-09;San Miguel Department;Llano El Ángel
+0;-88.0667,13.5833;SV-08;Morazan;Llano de Santiago
+0;-87.9686,13.1828;SV-07;La Union;Llano de Los Patos
+0;-88.1333,13.9667;SV-08;Morazan;Llano del Muerto
+0;-89.3833,14.2833;SV-11;Santa Ana Department;Llano del Hoyo
+0;-88.3167,13.3667;SV-09;San Miguel Department;Llano del Coyol
+0;-89.2333,14.3500;SV-03;Chalatenango Department;Llano de La Virgen
+0;-88.0994,13.2542;SV-09;San Miguel Department;Llano de Las Rosas
+0;-89.4167,14.2000;SV-11;Santa Ana Department;Llano de Las Majadas
+0;-89.8639,13.9475;SV-01;Ahuachapan;Llano de La Laguna
+0;-88.7000,13.8167;SV-02;Cabanas;Llano de la Hacienda
+0;-89.8167,13.9567;SV-01;Ahuachapan;Llano de Doña María
+0;-87.9333,13.8500;SV-07;La Union;Llano Blanco
+0;-88.1500,13.8167;SV-08;Morazan;Llano Alegre
+0;-87.8992,13.8014;SV-07;La Union;Lislique
+0;-89.6167,13.5667;SV-13;Sonsonate Department;Linda Vista
+0;-89.3833,13.9833;SV-05;La Libertad Department;Lima
+0;-88.8667,13.5333;SV-06;La Paz Department;Lievano
+0;-88.4667,13.6333;SV-14;Usulutan;Lepaz
+0;-88.7833,13.5667;SV-12;San Vicente Department;León de Piedra
+0;-88.3500,13.6667;SV-09;San Miguel Department;La Zanja
+0;-89.5833,14.3500;SV-11;Santa Ana Department;La Virgen
+0;-88.9167,13.6833;SV-04;Cuscatlan;La Virgen
+0;-88.8500,13.6667;SV-12;San Vicente Department;La Virgen
+0;-88.6167,13.9667;SV-02;Cabanas;La Uvilla
+0;-88.4833,13.8000;SV-09;San Miguel Department;Laureles
+0;-89.7333,13.8500;SV-13;Sonsonate Department;La Unión
+0;-89.1000,13.7500;SV-10;San Salvador Department;La Unión
+0;-88.6333,13.5167;SV-14;Usulutan;La Unión
+26807;-87.8433,13.3392;SV-07;La Union;La Unión
+0;-88.4167,13.5667;SV-14;Usulutan;La Tronconada
+0;-87.9500,13.6333;SV-07;La Union;La Trompina
+0;-88.8833,14.1667;SV-03;Chalatenango Department;La Trinidad
+0;-88.7667,13.9667;SV-02;Cabanas;La Trinidad
+0;-89.0000,13.9500;SV-04;Cuscatlan;La Trinidad
+0;-88.7167,13.9333;SV-02;Cabanas;La Trinidad
+0;-88.3000,13.6167;SV-09;San Miguel Department;La Trinidad
+0;-88.1167,13.5500;SV-09;San Miguel Department;La Trinidad
+0;-87.9833,13.8667;SV-08;Morazan;La Tortuga
+0;-89.2833,13.8500;SV-05;La Libertad Department;La Toma
+0;-88.7667,13.2500;SV-14;Usulutan;La Tirana
+0;-88.8833,14.1000;SV-03;Chalatenango Department;Las Vueltas
+0;-88.3500,13.6000;SV-09;San Miguel Department;Las Ventas
+0;-89.2311,13.9800;SV-10;San Salvador Department;Las Ventanas
+0;-88.7667,14.0833;SV-03;Chalatenango Department;Las Vegas
+0;-88.9667,13.8667;SV-02;Cabanas;Las Vegas
+0;-89.3667,13.9667;SV-05;La Libertad Department;Las Tunas
+0;-89.2000,13.9378;SV-10;San Salvador Department;Las Tunas
+0;-87.8667,13.5833;SV-07;La Union;Las Tunas
+0;-88.1833,14.0000;SV-08;Morazan;Las Trojas
+0;-89.3000,14.0833;SV-03;Chalatenango Department;Las Trancas
+0;-88.5000,13.3667;SV-14;Usulutan;Las Trancas
+0;-88.0000,13.2500;SV-07;La Union;Las Trancas
+0;-88.0369,13.2275;SV-07;La Union;Las Tinajas
+0;-89.4697,13.5617;SV-05;La Libertad Department;Las Termópilas
+0;-89.4667,13.5500;SV-05;La Libertad Department;Las Termópilas
+0;-89.3833,14.3333;SV-11;Santa Ana Department;Las Tapias
+0;-89.4000,14.0667;SV-03;Chalatenango Department;Las Tablas
+0;-89.7833,13.6833;SV-13;Sonsonate Department;Las Tablas
+0;-88.8667,13.4333;SV-06;La Paz Department;Las Tablas
+0;-88.0825,13.3328;SV-09;San Miguel Department;Las Tablas
+0;-88.4333,13.2500;SV-14;Usulutan;Las Salinas
+0;-88.8000,13.7500;SV-12;San Vicente Department;Las Rosas
+0;-87.9456,13.5058;SV-07;La Union;Queseras
+0;-88.1667,13.9333;SV-08;Morazan;Las Quebradas
+0;-88.2333,13.7833;SV-08;Morazan;Las Quebradas
+0;-89.3833,13.6833;SV-05;La Libertad Department;Las Quebradas
+0;-87.9775,13.3542;SV-07;La Union;Las Pitas
+0;-87.9167,13.6833;SV-07;La Union;Las Piñas
+0;-89.3167,14.3000;SV-11;Santa Ana Department;Las Piletas
+0;-89.6178,14.1833;SV-11;Santa Ana Department;Las Piletas
+0;-89.5333,14.1500;SV-11;Santa Ana Department;Las Piletas
+0;-89.4417,13.9425;SV-11;Santa Ana Department;Las Piletas
+0;-88.6500,13.5167;SV-14;Usulutan;Las Piletas
+0;-88.2383,13.2239;SV-14;Usulutan;Las Piletas
+0;-89.1000,14.3667;SV-03;Chalatenango Department;Las Pilas
+0;-88.1000,13.9333;SV-08;Morazan;Las Pilas
+0;-87.9061,13.8225;SV-07;La Union;Las Pilas
+0;-87.8167,13.8167;SV-07;La Union;Las Pilas
+0;-88.9000,13.4833;SV-06;La Paz Department;Las Piedronas
+0;-89.6333,13.5333;SV-13;Sonsonate Department;Las Piedras
+0;-89.1500,14.1500;SV-03;Chalatenango Department;Las Peñas
+0;-89.8000,13.8167;SV-13;Sonsonate Department;Las Peñas
+0;-89.3000,14.2667;SV-11;Santa Ana Department;Las Pavas
+0;-89.5306,14.3181;SV-11;Santa Ana Department;Hacienda La Soledad
+0;-88.6833,13.5167;SV-12;San Vicente Department;La Soledad
+0;-89.4333,14.1167;SV-11;Santa Ana Department;Las Negritas
+0;-88.8333,13.9000;SV-02;Cabanas;Las Minas
+0;-88.8000,13.6667;SV-12;San Vicente Department;Las Minas
+0;-88.9667,14.0000;SV-03;Chalatenango Department;Las Mesitas
+0;-89.4667,14.1500;SV-11;Santa Ana Department;Las Mesas
+0;-89.3306,13.9917;SV-05;La Libertad Department;Las Mesas
+0;-88.1667,13.9000;SV-08;Morazan;Las Mesas
+0;-87.9167,13.8500;SV-07;La Union;Las Mesas
+0;-89.9047,13.7981;SV-01;Ahuachapan;Las Mesas
+0;-88.3167,13.7000;SV-09;San Miguel Department;Las Mesas
+0;-88.3333,13.5333;SV-09;San Miguel Department;Las Mesas
+0;-88.1014,13.4972;SV-09;San Miguel Department;Las Mesas
+0;-88.8000,13.2833;SV-12;San Vicente Department;Las Mesas
+0;-89.7333,14.0333;SV-11;Santa Ana Department;Las Mercedes
+0;-90.0000,13.8833;SV-01;Ahuachapan;Las Mercedes
+0;-89.4833,13.8833;SV-11;Santa Ana Department;Las Mercedes
+0;-89.2547,13.8883;SV-05;La Libertad Department;Las Mercedes
+0;-89.5667,13.7167;SV-13;Sonsonate Department;Las Mercedes
+0;-89.4833,13.6833;SV-05;La Libertad Department;Las Mercedes
+0;-89.2928,13.9683;SV-05;La Libertad Department;Las Marías
+0;-88.1333,13.9333;SV-08;Morazan;Las Marías
+0;-88.5500,13.8667;SV-02;Cabanas;Las Marías
+0;-87.8464,13.8594;SV-07;La Union;Las Marías
+0;-89.5886,13.7853;SV-13;Sonsonate Department;Las Marías
+0;-87.9872,13.6247;SV-08;Morazan;Las Marías
+0;-87.9964,13.4978;SV-07;La Union;Las Marías
+0;-88.3833,13.4667;SV-09;San Miguel Department;Las Marías
+0;-89.4000,14.3500;SV-11;Santa Ana Department;Las Margaritas
+0;-88.1975,13.4561;SV-09;San Miguel Department;Las Lomitas
+0;-88.8500,13.4000;SV-06;La Paz Department;Las Lomitas
+0;-87.8667,13.8500;SV-07;La Union;Las Lomas
+0;-89.3881,13.8281;SV-05;La Libertad Department;Las Lomas
+0;-89.0500,13.8000;SV-04;Cuscatlan;Las Lomas
+0;-88.4500,13.5667;SV-14;Usulutan;Las Llaves
+0;-88.8500,14.0333;SV-03;Chalatenango Department;Las Limas
+0;-88.2500,13.2000;SV-14;Usulutan;Las Lajitas
+0;-89.4500,14.4167;SV-11;Santa Ana Department;Las Lajas
+0;-89.5769,13.8158;SV-13;Sonsonate Department;Las Lajas
+0;-88.5667,13.6500;SV-12;San Vicente Department;Las Lajas
+0;-89.0667,13.5667;SV-06;La Paz Department;Las Lajas
+0;-88.0000,13.4833;SV-07;La Union;Las Lajas
+0;-88.1000,13.9833;SV-08;Morazan;Las Joyas
+0;-89.0108,13.4042;SV-06;La Paz Department;Las Isletas
+0;-88.8167,13.3833;SV-06;La Paz Department;Las Isletas
+0;-88.6667,13.9667;SV-02;Cabanas;La Siguanaba
+0;-88.8000,13.9000;SV-02;Cabanas;Las Huertas
+0;-88.1681,13.1867;SV-14;Usulutan;Las Huateras
+0;-89.7425,13.6881;SV-13;Sonsonate Department;Las Hojas
+0;-88.0167,13.5500;SV-07;La Union;Las Hojas
+0;-89.0464,13.3636;SV-06;La Paz Department;Las Hojas
+0;-89.3464,13.5708;SV-05;La Libertad Department;La Shila
+0;-89.3167,14.3833;SV-11;Santa Ana Department;Las Higueras
+0;-89.6000,13.7500;SV-13;Sonsonate Department;Las Higueras
+0;-88.1172,13.2056;SV-09;San Miguel Department;Las Guayabas
+0;-88.5667,13.8500;SV-02;Cabanas;Las Guarumas
+0;-88.9833,13.4167;SV-06;La Paz Department;Las Guarumas
+0;-89.3003,13.7542;SV-05;La Libertad Department;Las Granadillas
+0;-89.3000,13.6167;SV-05;La Libertad Department;Las Granadillas
+0;-89.6833,13.9500;SV-11;Santa Ana Department;Las Flores
+0;-89.1317,13.7989;SV-10;San Salvador Department;Las Flores
+0;-89.2000,13.7333;SV-10;San Salvador Department;Las Flores
+0;-89.4333,13.7167;SV-05;La Libertad Department;Las Flores
+0;-89.4833,13.6833;SV-05;La Libertad Department;Las Flores
+0;-89.4647,13.6358;SV-05;La Libertad Department;Las Flores
+0;-88.4833,13.5000;SV-14;Usulutan;Las Flores
+0;-89.0439,13.4614;SV-06;La Paz Department;Las Flores
+0;-88.5667,13.3167;SV-14;Usulutan;Las Flores
+0;-88.2833,13.2333;SV-14;Usulutan;Las Flores
+0;-89.2708,13.5883;SV-05;La Libertad Department;Las Dispensas
+0;-89.2128,13.9881;SV-10;San Salvador Department;Las Delicias
+0;-89.1000,13.9667;SV-04;Cuscatlan;Las Delicias
+0;-88.5333,13.9167;SV-02;Cabanas;Las Delicias
+0;-89.2333,13.7833;SV-10;San Salvador Department;Las Delicias
+0;-88.3833,13.7667;SV-09;San Miguel Department;Las Delicias
+0;-89.3436,13.7506;SV-05;La Libertad Department;Las Delicias
+0;-89.0833,13.7333;SV-10;San Salvador Department;Las Delicias
+0;-88.9833,13.7167;SV-04;Cuscatlan;Las Delicias
+0;-89.9333,13.7000;SV-01;Ahuachapan;Las Delicias
+0;-89.7333,13.6833;SV-13;Sonsonate Department;Las Delicias
+0;-88.5667,13.5500;SV-14;Usulutan;Las Delicias
+0;-89.0000,13.5333;SV-06;La Paz Department;Las Delicias
+0;-88.1233,13.4883;SV-09;San Miguel Department;Las Delicias
+0;-88.6500,13.4667;SV-14;Usulutan;Las Delicias
+0;-88.6333,14.0000;SV-02;Cabanas;Las Dantas
+0;-87.7500,13.8000;SV-07;La Union;Las Cuevas
+0;-88.8000,13.9000;SV-02;Cabanas;Las Cuchillas
+0;-89.4953,13.7642;SV-13;Sonsonate Department;Las Crucitas
+0;-89.1167,14.3667;SV-03;Chalatenango Department;Las Cruces
+0;-89.4667,14.2000;SV-11;Santa Ana Department;Las Cruces
+0;-89.6558,13.9139;SV-11;Santa Ana Department;Las Cruces
+0;-89.4394,13.8639;SV-05;La Libertad Department;Las Cruces
+0;-88.4000,13.4000;SV-14;Usulutan;Las Cruces
+0;-88.0833,13.5667;SV-08;Morazan;Las Conchas
+0;-89.9167,13.8667;SV-01;Ahuachapan;Las Colinas
+0;-89.8833,14.0000;SV-01;Ahuachapan;Las Chinamas
+0;-88.6167,13.3833;SV-14;Usulutan;Las Champas
+0;-87.9403,13.3656;SV-07;La Union;Las Chachas
+0;-89.2714,13.9722;SV-05;La Libertad Department;Las Cerezas
+0;-89.3333,14.1500;SV-03;Chalatenango Department;Las Casitas
+0;-89.4811,13.9239;SV-11;Santa Ana Department;Las Casitas
+0;-89.1667,13.6383;SV-10;San Salvador Department;Las Casitas
+0;-88.4667,13.5000;SV-14;Usulutan;Las Casitas
+0;-88.9667,13.8667;SV-02;Cabanas;Las Caricias
+0;-89.8667,13.8167;SV-01;Ahuachapan;Las Canoas
+0;-89.0667,14.2333;SV-03;Chalatenango Department;Las Cañitas
+0;-89.1667,14.1000;SV-03;Chalatenango Department;Las Cañas
+0;-88.0500,13.9000;SV-08;Morazan;Las Cañas
+0;-87.9281,13.6822;SV-07;La Union;Las Cañas
+0;-89.3106,13.7492;SV-05;La Libertad Department;Las Brisas
+0;-89.1986,13.5347;SV-10;San Salvador Department;Las Barrosas
+0;-88.4833,13.7833;SV-09;San Miguel Department;Las Barrancas
+0;-89.5500,13.9000;SV-11;Santa Ana Department;Las Aradas
+0;-89.5333,13.9000;SV-11;Santa Ana Department;Las Aradas
+0;-89.3153,13.9458;SV-05;La Libertad Department;Las Anonas
+0;-88.7667,13.3667;SV-12;San Vicente Department;Las Anonas
+0;-89.0828,13.7989;SV-10;San Salvador Department;Las Ánimas
+0;-88.8333,13.6833;SV-12;San Vicente Department;Las Ánimas
+0;-88.6500,13.6833;SV-12;San Vicente Department;Las Ánimas
+0;-87.9928,13.6542;SV-08;Morazan;Las Ánimas
+0;-88.9333,13.5500;SV-06;La Paz Department;Las Ánimas
+0;-89.3311,13.7417;SV-05;La Libertad Department;Las Angosturas
+0;-89.4500,14.1667;SV-11;Santa Ana Department;Las Almohadas
+0;-89.4408,13.8728;SV-05;La Libertad Department;Las Acosta
+0;-89.4167,14.1500;SV-11;Santa Ana Department;La Ruda
+0;-88.0653,13.4769;SV-09;San Miguel Department;La Romalguena
+0;-88.0167,13.7833;SV-08;Morazan;La Rinconada
+0;-87.9372,13.5400;SV-07;La Union;La Rinconada
+0;-89.1500,14.2000;SV-03;Chalatenango Department;La Reina
+0;-89.4250,13.8278;SV-05;La Libertad Department;La Reforma
+0;-88.6333,13.4667;SV-14;Usulutan;La Quesera
+0;-87.9722,13.2717;SV-07;La Union;Quesadilla
+0;-88.3167,13.8333;SV-09;San Miguel Department;La Quebradona
+0;-89.6167,13.7500;SV-13;Sonsonate Department;La Quebrada Española
+0;-88.6833,13.5667;SV-12;San Vicente Department;La Puertona
+0;-89.3034,14.1306;SV-05;La Libertad Department;La Puerta de La Laguna
+0;-89.9069,13.9081;SV-01;Ahuachapan;La Puerta
+0;-88.3000,13.8000;SV-09;San Miguel Department;La Puerta
+0;-89.5322,13.7331;SV-13;Sonsonate Department;La Puerta
+0;-88.4667,13.5500;SV-14;Usulutan;La Puerta
+0;-88.4500,13.5167;SV-14;Usulutan;La Puerta
+0;-88.1964,13.3961;SV-09;San Miguel Department;La Puerta
+0;-89.7500,13.8833;SV-13;Sonsonate Department;La Puente
+0;-89.3125,13.9097;SV-05;La Libertad Department;La Puebla
+0;-89.5142,13.8197;SV-11;Santa Ana Department;La Presa
+0;-87.9500,13.4500;SV-07;La Union;La Presa
+0;-88.4667,13.3333;SV-14;Usulutan;La Presa
+0;-88.5000,13.3500;SV-14;Usulutan;La Poza
+0;-88.2833,13.4667;SV-09;San Miguel Department;La Placita
+0;-88.1333,13.6667;SV-08;Morazan;La Pitahaya
+0;-88.7000,13.9833;SV-02;Cabanas;La Pinte
+0;-89.5689,14.1817;SV-11;Santa Ana Department;La Piedrona
+0;-89.5167,13.5333;SV-05;La Libertad Department;La Perla
+0;-89.0833,13.9667;SV-04;Cuscatlan;La Periquera
+0;-88.1833,13.1667;SV-14;Usulutan;La Periquera
+0;-88.0333,13.7333;SV-08;Morazan;La Peñita
+0;-88.4667,13.5167;SV-14;Usulutan;La Peña
+0;-88.3833,13.4500;SV-09;San Miguel Department;La Peña
+0;-88.5667,13.4000;SV-14;Usulutan;La Peña
+0;-88.4667,13.3833;SV-14;Usulutan;La Peña
+0;-89.8333,13.7500;SV-01;Ahuachapan;La Paz
+0;-88.9000,13.7167;SV-04;Cuscatlan;La Paz
+0;-87.9353,13.5692;SV-07;La Union;La Paz
+0;-89.6167,14.0833;SV-11;Santa Ana Department;La Parada
+0;-89.9000,13.8833;SV-01;Ahuachapan;La Pandeadura
+0;-88.4500,13.6667;SV-14;Usulutan;La Palomilla
+0;-88.4333,13.5500;SV-14;Usulutan;La Palmera
+0;-89.1667,14.3167;SV-03;Chalatenango Department;La Palma
+0;-89.0675,13.7214;SV-10;San Salvador Department;La Palma
+0;-88.9167,13.4833;SV-06;La Paz Department;La Palma
+0;-88.5333,13.8333;SV-02;Cabanas;La Palanca
+0;-88.3500,13.8833;SV-09;San Miguel Department;La Orilla
+0;-89.4100,13.8622;SV-05;La Libertad Department;La Nueva Encarnación
+0;-89.7833,13.6333;SV-13;Sonsonate Department;La Nueva
+0;-88.6833,13.3833;SV-14;Usulutan;La Noria
+0;-88.4667,13.8000;SV-09;San Miguel Department;La Mula
+0;-88.3167,13.4167;SV-09;San Miguel Department;La Morita
+0;-88.6500,13.4333;SV-14;Usulutan;La Mora
+0;-88.9500,14.1667;SV-03;Chalatenango Department;La Montañita
+0;-89.7667,13.9333;SV-01;Ahuachapan;La Montañita
+0;-88.6000,13.9333;SV-02;Cabanas;La Montañita
+0;-89.4500,13.7333;SV-05;La Libertad Department;La Montañita
+0;-88.5167,13.5333;SV-14;Usulutan;La Montañita
+0;-88.8667,14.0000;SV-03;Chalatenango Department;La Montaña
+0;-89.8939,13.8511;SV-01;Ahuachapan;La Montaña
+0;-88.1667,13.8167;SV-08;Morazan;La Montaña
+0;-88.6167,13.4500;SV-14;Usulutan;La Montaña
+0;-88.7833,13.9667;SV-02;Cabanas;La Maraña
+0;-88.0500,13.7333;SV-08;Morazan;La Manzanilla
+0;-88.3333,13.7167;SV-09;San Miguel Department;La Majada
+0;-89.7000,14.0333;SV-11;Santa Ana Department;La Magdalena
+0;-88.8500,13.4667;SV-06;La Paz Department;La Lucha
+0;-88.7333,14.0500;SV-02;Cabanas;La Longaniza
+0;-88.9333,13.4667;SV-06;La Paz Department;La Longaniza
+0;-89.3128,13.9000;SV-05;La Libertad Department;La Loma
+0;-89.1000,13.8833;SV-04;Cuscatlan;La Loma
+0;-88.1667,13.8333;SV-08;Morazan;La Loma
+0;-89.0333,13.7500;SV-04;Cuscatlan;La Loma
+0;-88.6167,13.6500;SV-12;San Vicente Department;La Línea
+0;-89.2500,13.5833;SV-05;La Libertad Department;La Lima
+0;-89.6844,13.9717;SV-11;Santa Ana Department;La Libertad
+16855;-89.3222,13.4883;SV-05;La Libertad Department;La Libertad
+0;-87.9833,13.1833;SV-07;La Union;La Leona
+0;-89.3167,14.1667;SV-03;Chalatenango Department;La Laguneta
+0;-88.8833,13.6000;SV-06;La Paz Department;La Laguneta
+0;-88.9500,14.1667;SV-03;Chalatenango Department;La Laguna
+0;-88.8833,14.0667;SV-03;Chalatenango Department;La Laguna
+0;-89.5000,13.8667;SV-11;Santa Ana Department;La Laguna
+0;-88.1833,13.8667;SV-08;Morazan;La Laguna
+0;-87.9500,13.8667;SV-08;Morazan;La Laguna
+0;-88.3833,13.8333;SV-09;San Miguel Department;La Laguna
+0;-88.6833,13.6000;SV-12;San Vicente Department;La Laguna
+0;-88.4167,13.3333;SV-14;Usulutan;La Laguna
+0;-88.0000,13.7167;SV-08;Morazan;La Labranza
+0;-88.8500,13.7500;SV-12;San Vicente Department;La Labor
+0;-89.4167,13.7000;SV-05;La Libertad Department;La Labor
+0;-88.9667,14.1167;SV-03;Chalatenango Department;La Junta
+0;-89.4472,13.8311;SV-05;La Libertad Department;La Joyita
+0;-87.9000,13.3000;SV-07;La Union;La Joya Redonda
+0;-89.5000,14.3667;SV-11;Santa Ana Department;La Joya
+0;-89.3833,14.1667;SV-11;Santa Ana Department;La Joya
+0;-88.5500,13.9333;SV-02;Cabanas;La Joya
+0;-88.1333,13.8667;SV-08;Morazan;La Joya
+0;-89.4586,13.8578;SV-11;Santa Ana Department;La Joya
+0;-88.2000,13.8333;SV-08;Morazan;La Joya
+0;-87.8500,13.8333;SV-07;La Union;La Joya
+0;-88.4167,13.7667;SV-09;San Miguel Department;La Joya
+0;-87.9667,13.7000;SV-08;Morazan;La Joya
+0;-87.7500,13.6667;SV-07;La Union;La Joya
+0;-88.7333,13.6167;SV-12;San Vicente Department;La Joya
+0;-87.9167,13.5667;SV-07;La Union;La Joya
+0;-88.8167,13.5167;SV-06;La Paz Department;La Joya
+0;-88.0333,13.5167;SV-09;San Miguel Department;La Joya
+0;-88.0339,13.4672;SV-07;La Union;La Joya
+0;-88.4833,13.3167;SV-14;Usulutan;La Joya
+0;-87.8189,13.8914;SV-07;La Union;Lajitas
+0;-88.1333,13.7333;SV-08;Morazan;Lajitas
+0;-89.4667,13.7000;SV-05;La Libertad Department;La Javía
+0;-88.6000,13.6500;SV-12;San Vicente Department;Lajas y Canoas
+0;-87.9167,13.6833;SV-07;La Union;La Jagua
+0;-88.1000,13.6000;SV-08;Morazan;La Jagua
+0;-88.2167,13.7333;SV-08;Morazan;La Isleta
+0;-89.3667,14.2333;SV-11;Santa Ana Department;La Isla
+0;-88.9500,13.3500;SV-06;La Paz Department;La Herradura
+0;-87.9000,13.6500;SV-07;La Union;La Hacienda
+0;-90.0922,13.8442;SV-01;Ahuachapan;La Hachadura
+0;-88.8500,14.0333;SV-03;Chalatenango Department;Lagunita
+0;-89.3000,14.3500;SV-11;Santa Ana Department;Lagunetas
+0;-87.9667,13.3500;SV-07;La Union;Lagunetas
+0;-89.3333,14.1333;SV-03;Chalatenango Department;Laguna Seca
+0;-88.7000,13.7500;SV-12;San Vicente Department;La Guayabilla
+0;-89.8000,14.0167;SV-01;Ahuachapan;La Guascota
+0;-89.7528,13.7847;SV-13;Sonsonate Department;La Guacamaya
+0;-89.0833,14.3500;SV-03;Chalatenango Department;La Granadilla
+0;-89.3500,14.2500;SV-11;Santa Ana Department;Lagnetas
+0;-89.5167,13.9500;SV-11;Santa Ana Department;La Gloria
+0;-87.8333,13.5333;SV-07;La Union;Lagartero
+0;-87.8167,13.5667;SV-07;La Union;La Garita
+0;-88.0833,14.0333;SV-08;Morazan;La Galera
+0;-89.1078,13.7444;SV-10;San Salvador Department;La Fuente
+0;-88.0333,13.7333;SV-08;Morazan;La Frutilla
+0;-88.3000,13.5333;SV-09;San Miguel Department;La Fragua
+0;-89.2150,13.9492;SV-10;San Salvador Department;La Florida
+0;-89.6333,14.1667;SV-11;Santa Ana Department;La Flor
+0;-89.0500,13.7333;SV-10;San Salvador Department;La Flor
+0;-89.7333,13.6833;SV-13;Sonsonate Department;La Fincona
+0;-88.0700,13.2933;SV-09;San Miguel Department;La Estrechura
+0;-89.5500,14.1667;SV-11;Santa Ana Department;La Estancia
+0;-88.0333,13.7833;SV-08;Morazan;La Estancia
+0;-88.2667,13.5667;SV-09;San Miguel Department;La Estancia
+0;-89.7333,13.9167;SV-01;Ahuachapan;La Esperanza
+0;-89.4442,13.8281;SV-05;La Libertad Department;La Esperanza
+0;-89.0050,13.8081;SV-04;Cuscatlan;La Esperanza
+0;-89.8333,13.7833;SV-01;Ahuachapan;La Esperanza
+0;-88.7833,13.7667;SV-12;San Vicente Department;La Esperanza
+0;-89.0000,13.6000;SV-06;La Paz Department;La Esperanza
+0;-88.2500,13.6000;SV-09;San Miguel Department;La Esperanza
+0;-89.1197,13.5906;SV-06;La Paz Department;La Esperanza
+0;-88.7833,13.5333;SV-12;San Vicente Department;La Esperanza
+0;-89.1167,13.4333;SV-06;La Paz Department;La Esmeralda
+0;-88.9500,13.9333;SV-02;Cabanas;La Escopeta
+0;-88.0667,13.9333;SV-08;Morazan;La Ermita
+0;-88.0000,13.8667;SV-08;Morazan;La Ermita
+0;-88.9000,13.8333;SV-02;Cabanas;La Ermita
+0;-89.6153,13.6703;SV-13;Sonsonate Department;La Ensenada
+0;-88.5500,13.8167;SV-02;Cabanas;La Dubona
+0;-89.6167,14.1667;SV-11;Santa Ana Department;La Danta
+0;-89.8667,14.0167;SV-01;Ahuachapan;La Danta
+0;-90.0833,13.7500;SV-01;Ahuachapan;La Danta
+0;-88.3833,13.3333;SV-14;Usulutan;La Danta
+0;-88.3667,13.3167;SV-14;Usulutan;La Danta
+0;-88.9833,14.1500;SV-03;Chalatenango Department;La Cumbre
+0;-89.4736,13.6614;SV-05;La Libertad Department;Juan Higinio
+0;-89.2667,14.3833;SV-03;Chalatenango Department;La Cuestona
+0;-88.9333,14.1667;SV-03;Chalatenango Department;La Cuchilla
+0;-89.4242,13.8272;SV-05;La Libertad Department;La Cuchilla
+0;-88.1167,13.8000;SV-08;Morazan;La Cuchilla
+0;-89.1000,13.6333;SV-10;San Salvador Department;La Cuchilla
+0;-89.5167,13.9833;SV-11;Santa Ana Department;La Cruz Verde
+0;-88.9667,13.5167;SV-06;La Paz Department;La Cruz del Mojón
+0;-88.6167,13.3667;SV-14;Usulutan;La Cruzadilla de San Juan
+0;-89.1119,13.8597;SV-04;Cuscatlan;La Cruz
+0;-88.9667,13.8667;SV-02;Cabanas;La Cruz
+0;-89.0500,13.7500;SV-04;Cuscatlan;La Cruz
+0;-88.8167,13.7000;SV-12;San Vicente Department;La Cruz
+0;-88.2833,13.6833;SV-09;San Miguel Department;La Cruz
+0;-88.9833,13.5833;SV-06;La Paz Department;La Cruz
+0;-88.4833,13.5667;SV-14;Usulutan;La Cruz
+0;-88.5833,13.3833;SV-14;Usulutan;La Cruz
+0;-88.2242,13.2447;SV-14;Usulutan;La Cruz
+0;-89.6833,14.1000;SV-11;Santa Ana Department;La Criba
+0;-89.8167,13.9667;SV-01;Ahuachapan;La Coyotera
+0;-89.5167,13.8667;SV-11;Santa Ana Department;La Coyota
+0;-89.5667,13.8833;SV-11;Santa Ana Department;A Coruña
+0;-88.4167,13.3500;SV-14;Usulutan;La Constancia
+0;-88.5500,13.3333;SV-14;Usulutan;La Concordia
+0;-89.8167,13.8000;SV-01;Ahuachapan;La Concepción
+0;-88.9500,13.5833;SV-06;La Paz Department;La Comunidad
+0;-88.7500,13.9833;SV-02;Cabanas;La Chorrera del Guayabo
+0;-87.9083,13.6061;SV-07;La Union;La Chorrera
+0;-88.0500,13.3333;SV-09;San Miguel Department;La Chiricana
+0;-89.6814,13.6925;SV-13;Sonsonate Department;La Chapina
+0;-87.9000,13.5500;SV-07;La Union;La Chacra
+0;-88.3167,13.8500;SV-09;San Miguel Department;La Chacara
+0;-89.3500,14.2667;SV-11;Santa Ana Department;La Ceibita
+0;-88.3000,13.8833;SV-09;San Miguel Department;La Ceibita
+0;-88.8833,14.0833;SV-03;Chalatenango Department;La Ceiba
+0;-89.8833,13.8833;SV-01;Ahuachapan;La Ceiba
+0;-90.0428,13.8283;SV-01;Ahuachapan;La Ceiba
+0;-87.8667,13.6667;SV-07;La Union;La Ceiba
+0;-88.5833,13.4667;SV-14;Usulutan;La Ceiba
+0;-87.7500,13.4333;SV-07;La Union;La Ceiba
+0;-88.3333,13.4000;SV-09;San Miguel Department;La Ceiba
+0;-88.4000,13.3167;SV-14;Usulutan;La Ceiba
+0;-88.3833,13.6000;SV-14;Usulutan;La Caridad
+0;-88.9000,13.5833;SV-06;La Paz Department;La Carbonera
+0;-87.8167,13.6333;SV-07;La Union;La Cantarera
+0;-88.1658,13.3328;SV-09;San Miguel Department;La Canoa
+0;-88.7667,13.3000;SV-14;Usulutan;La Canoa
+0;-88.1667,13.6500;SV-08;Morazan;La Candelilla
+0;-89.5500,14.4000;SV-11;Santa Ana Department;La Cañada
+0;-88.7333,14.1000;SV-03;Chalatenango Department;La Cañada
+0;-88.6000,13.9333;SV-02;Cabanas;La Cañada
+0;-88.1167,13.5667;SV-08;Morazan;La Cañada
+0;-88.0167,13.5333;SV-07;La Union;La Cañada
+0;-87.9833,13.3833;SV-07;La Union;La Cañada
+0;-88.1386,13.2444;SV-09;San Miguel Department;La Cañada
+0;-88.9000,13.3333;SV-06;La Paz Department;La Calzada
+0;-88.7333,13.9500;SV-02;Cabanas;La Calera
+0;-88.1833,13.6333;SV-08;Morazan;La Calera
+0;-87.9833,13.6333;SV-08;Morazan;La Calavera
+0;-89.1833,14.0167;SV-10;San Salvador Department;La Cabaña
+0;-89.1500,13.7833;SV-10;San Salvador Department;La Cabaña
+0;-88.2667,13.2833;SV-14;Usulutan;La Cabaña
+0;-88.5333,13.3833;SV-14;Usulutan;La Breña
+0;-89.4000,14.2500;SV-11;Santa Ana Department;La Bolsa
+0;-88.0667,13.1667;SV-07;La Union;La Bocana
+0;-88.6333,13.9333;SV-02;Cabanas;La Bermuda
+0;-89.0375,13.8714;SV-04;Cuscatlan;La Bermuda
+0;-89.0833,13.5500;SV-06;La Paz Department;La Baza
+0;-88.5667,13.6000;SV-14;Usulutan;La Barca
+0;-87.9167,13.4667;SV-07;La Union;La Barahona
+0;-89.1167,13.9667;SV-04;Cuscatlan;La Asunción
+0;-89.5333,13.5333;SV-05;La Libertad Department;La Argentina
+0;-88.1167,13.5500;SV-09;San Miguel Department;La Arenera
+0;-88.9500,13.3667;SV-06;La Paz Department;La Anona
+0;-89.9500,13.9667;SV-01;Ahuachapan;La Angostura
+0;-88.3000,13.7167;SV-09;San Miguel Department;La Angostura
+0;-88.1667,13.7167;SV-08;Morazan;La Angostura
+0;-88.3333,13.2833;SV-14;Usulutan;La Anchila
+0;-89.1167,13.8667;SV-04;Cuscatlan;La Aldea
+0;-89.2167,13.5833;SV-10;San Salvador Department;Jutillo
+0;-88.9000,13.8833;SV-02;Cabanas;Jutiapa
+2022;-89.8572,13.7869;SV-01;Ahuachapan;Jujutla
+1643;-88.2478,13.2539;SV-14;Usulutan;Jucuarán
+10601;-88.3833,13.5167;SV-14;Usulutan;Jucuapa
+9936;-89.7456,13.8414;SV-13;Sonsonate Department;Juayúa
+0;-88.0650,13.4592;SV-09;San Miguel Department;Juan Yánez
+0;-89.5000,13.5333;SV-05;La Libertad Department;Joya Verde
+0;-89.1500,13.6000;SV-06;La Paz Department;Joyas de Girón
+0;-89.1833,13.8333;SV-10;San Salvador Department;Joya Grande
+0;-88.3000,13.7000;SV-09;San Miguel Department;Joya Grande
+0;-89.1000,13.6500;SV-10;San Salvador Department;Joya Grande
+0;-89.2000,13.8167;SV-10;San Salvador Department;Joya Galana
+0;-89.7500,13.9500;SV-01;Ahuachapan;Joya El Zapote
+0;-88.3667,13.4167;SV-09;San Miguel Department;Joya de Ventura
+0;-88.8667,13.6000;SV-12;San Vicente Department;Joya de Munguía
+0;-88.1500,13.6500;SV-08;Morazan;Joya de Monte Grande
+0;-88.4167,13.7833;SV-09;San Miguel Department;Joya del Zapotillo
+0;-89.7167,13.9500;SV-01;Ahuachapan;Joya del Platanar
+0;-88.5500,13.3667;SV-14;Usulutan;Joya del Pilar
+0;-88.2000,13.7500;SV-08;Morazan;Joya del Matazano
+0;-89.3583,13.8239;SV-05;La Libertad Department;Joya de Cerén
+0;-89.5861,13.7547;SV-13;Sonsonate Department;Joya de Cerén
+0;-88.4000,13.4167;SV-14;Usulutan;Joya Ancha Arriba
+0;-88.4167,13.4167;SV-14;Usulutan;Joya Ancha Abajo
+0;-88.3500,13.4667;SV-09;San Miguel Department;Jocote Dulce
+0;-89.0833,14.3000;SV-03;Chalatenango Department;Jocotán
+4298;-88.0167,13.6167;SV-08;Morazan;Jocoro
+0;-88.5000,13.6667;SV-14;Usulutan;Jocomontique
+0;-88.1500,13.9000;SV-08;Morazan;Jocoaitique
+0;-88.4667,13.6833;SV-14;Usulutan;Joco
+0;-88.6167,13.4000;SV-14;Usulutan;Jobal Arrozales
+0;-88.0500,13.9000;SV-08;Morazan;Joateca
+9129;-88.5833,13.3167;SV-14;Usulutan;Jiquilisco
+0;-88.9667,13.8333;SV-04;Cuscatlan;Jiñuco
+0;-88.9500,13.7167;SV-04;Cuscatlan;Jiñuco
+0;-87.8667,13.6000;SV-07;La Union;Jícaras Largas
+0;-89.5067,13.5528;SV-05;La Libertad Department;Jicalapa
+0;-88.8833,13.7500;SV-04;Cuscatlan;Jiboa
+0;-88.9000,13.6500;SV-06;La Paz Department;Jerusalén
+0;-89.2667,14.1167;SV-03;Chalatenango Department;Jayuca
+0;-89.1333,13.4964;SV-06;La Paz Department;Jayuca
+0;-89.4397,13.6733;SV-05;La Libertad Department;Jayaque
+0;-88.9667,13.5000;SV-06;La Paz Department;Jalponguita
+0;-88.9333,13.4667;SV-06;La Paz Department;Jalponga
+0;-88.2208,13.4950;SV-09;San Miguel Department;Jalacatal
+0;-88.8333,14.0833;SV-03;Chalatenango Department;Jaguatalla
+0;-89.7500,13.9833;SV-01;Ahuachapan;Izcaquilío
+0;-88.8500,13.7000;SV-12;San Vicente Department;Izcanales
+19197;-89.6731,13.7447;SV-13;Sonsonate Department;Izalco
+0;-89.0364,13.8014;SV-04;Cuscatlan;Istagua
+0;-89.8500,13.7000;SV-01;Ahuachapan;Istagapán
+0;-88.4333,13.6000;SV-14;Usulutan;Isleta
+0;-88.7000,13.2333;SV-14;Usulutan;Isla de Méndez
+3540;-88.0544,13.1969;SV-07;La Union;Intipucá
+0;-88.8167,13.5500;SV-12;San Vicente Department;India
+38890;-89.1094,13.7017;SV-10;San Salvador Department;Ilopango
+0;-88.8500,13.8500;SV-02;Cabanas;Ilobasco
+0;-88.4500,13.2833;SV-14;Usulutan;Iglesia Vieja
+0;-89.0667,13.9000;SV-04;Cuscatlan;Ichanquezo
+0;-88.5333,13.3667;SV-14;Usulutan;Hule Chacho
+0;-88.8167,14.0833;SV-03;Chalatenango Department;Huizúcar
+0;-89.2383,13.5894;SV-05;La Libertad Department;Huizúcar
+0;-89.0000,13.8000;SV-04;Cuscatlan;Huisiltepeque
+0;-89.6925,13.7411;SV-13;Sonsonate Department;Huiscoyolate
+0;-88.7333,13.9500;SV-02;Cabanas;Huiscoyol
+0;-88.9333,13.9167;SV-02;Cabanas;Huiscoyol
+0;-87.9000,13.7667;SV-07;La Union;Huertas Viejas
+0;-88.2667,13.6000;SV-09;San Miguel Department;Hualama
+0;-88.8000,14.1500;SV-03;Chalatenango Department;Horconcillos
+0;-89.4167,14.1333;SV-11;Santa Ana Department;Honduritas
+0;-87.8333,13.8167;SV-07;La Union;Honduritas
+0;-87.9875,13.8622;SV-08;Morazan;Hondable
+0;-88.6333,13.4833;SV-14;Usulutan;Hoja de Sal
+0;-88.2108,13.2353;SV-14;Usulutan;Hoja de Sal
+0;-87.9167,13.7833;SV-07;La Union;Higueras
+0;-89.0833,14.2500;SV-03;Chalatenango Department;Higueral
+0;-88.8500,13.4167;SV-06;La Paz Department;Hatos de Los Reyes
+0;-88.1500,13.5167;SV-09;San Miguel Department;Hato Nuevo
+0;-87.8578,13.4672;SV-07;La Union;Hato Nuevo
+0;-89.1167,13.9667;SV-04;Cuscatlan;Haciendita
+0;-89.4167,14.3333;SV-11;Santa Ana Department;Hacienda Vieja
+0;-88.7833,14.0833;SV-03;Chalatenango Department;Hacienda Vieja
+0;-88.8333,14.0333;SV-03;Chalatenango Department;Hacienda Vieja
+0;-88.7000,14.0000;SV-03;Chalatenango Department;Hacienda Vieja
+0;-88.0833,13.7000;SV-08;Morazan;Hacienda Vieja
+0;-88.9667,13.6000;SV-06;La Paz Department;Hacienda Vieja
+0;-88.2500,13.5833;SV-09;San Miguel Department;Hacienda Tongolona
+0;-88.2667,13.5833;SV-09;San Miguel Department;Hacienda Tamera
+0;-89.9333,14.0000;SV-01;Ahuachapan;Hacienda Santa Rosa Calapa
+0;-89.2667,14.0667;SV-03;Chalatenango Department;Hacienda Santa Rosa
+0;-89.5833,13.8667;SV-11;Santa Ana Department;Hacienda Santa Rosa
+0;-89.5000,14.0167;SV-11;Santa Ana Department;Hacienda Santa Gertrudis
+0;-89.7667,13.6667;SV-13;Sonsonate Department;Hacienda Santa Emilia
+0;-89.2167,14.0500;SV-03;Chalatenango Department;Hacienda Santa Elena
+0;-89.7500,13.6667;SV-13;Sonsonate Department;Hacienda Santa Clara
+0;-88.5167,13.5500;SV-14;Usulutan;Hacienda Santa Anita
+0;-89.6000,14.0333;SV-11;Santa Ana Department;Hacienda Santa Adela
+0;-88.0872,13.1842;SV-07;La Union;Hacienda San Román
+0;-89.8167,13.6333;SV-13;Sonsonate Department;Hacienda San Pedro
+0;-88.3833,13.3000;SV-14;Usulutan;Hacienda San Pedro
+0;-88.4500,13.4167;SV-14;Usulutan;Hacienda San Mariano
+0;-89.8833,13.9667;SV-01;Ahuachapan;Hacienda San Luis
+0;-88.7333,13.2667;SV-14;Usulutan;Hacienda San Juan del Gozo
+0;-89.1333,13.8167;SV-10;San Salvador Department;Hacienda San José Arrazola
+0;-88.3167,13.2333;SV-14;Usulutan;Hacienda San José
+0;-89.9000,13.9500;SV-01;Ahuachapan;Hacienda San Isidro
+0;-88.3333,13.2667;SV-14;Usulutan;Hacienda San Felipe
+0;-89.1667,14.0000;SV-10;San Salvador Department;Hacienda San Diego
+0;-89.5167,14.0333;SV-11;Santa Ana Department;Hacienda San Cayetano
+0;-87.9000,13.3500;SV-07;La Union;Hacienda San Carlos
+0;-89.4000,13.5667;SV-05;La Libertad Department;Hacienda San Benito
+0;-88.4000,13.6333;SV-14;Usulutan;Hacienda San Antonio
+0;-89.8000,13.6000;SV-13;Sonsonate Department;Hacienda San Antonio
+0;-88.3333,13.2667;SV-14;Usulutan;Hacienda San Antonio
+0;-89.0500,13.8500;SV-04;Cuscatlan;Hacienda Primavera
+0;-89.2485,13.6723;SV-04;Cuscatlan;Hacienda Plan de La Laguna
+0;-89.7000,13.5833;SV-13;Sonsonate Department;Hacienda Ojos de Agua
+0;-88.3833,13.3167;SV-14;Usulutan;Hacienda Obrajuelo
+0;-88.1833,13.3000;SV-09;San Miguel Department;Hacienda Nueva de Chilanguera
+0;-89.4000,13.7333;SV-05;La Libertad Department;Hacienda Nueva
+0;-88.3500,13.3000;SV-14;Usulutan;Hacienda Nueva
+0;-87.9833,13.1833;SV-07;La Union;Hacienda Monares
+0;-89.2167,13.4833;SV-05;La Libertad Department;Hacienda Melara
+0;-88.6000,13.5667;SV-14;Usulutan;Hacienda Mechotique
+0;-88.5161,13.2167;SV-14;Usulutan;Hacienda Madresal
+0;-89.5667,13.7333;SV-13;Sonsonate Department;Hacienda Los Lagartos
+0;-89.4167,14.0833;SV-03;Chalatenango Department;Hacienda Los Jobos
+0;-89.4500,14.4000;SV-11;Santa Ana Department;Hacienda Las Piletas
+0;-88.3500,13.6167;SV-09;San Miguel Department;Hacienda Las Palmeras
+0;-89.2875,13.9375;SV-05;La Libertad Department;Hacienda Las Flores
+0;-88.5000,13.3333;SV-14;Usulutan;Hacienda La Poza
+0;-88.3333,13.6167;SV-09;San Miguel Department;Hacienda La Palestina
+0;-88.6333,13.3500;SV-14;Usulutan;Hacienda La Normandía
+0;-89.5833,13.7667;SV-13;Sonsonate Department;Hacienda La Joya
+0;-88.7500,13.6167;SV-12;San Vicente Department;Hacienda La Joya
+0;-89.3397,13.8492;SV-05;La Libertad Department;Hacienda La Isla
+0;-88.4833,13.3667;SV-14;Usulutan;Hacienda La Hulera
+0;-89.4667,14.1333;SV-11;Santa Ana Department;Hacienda La Florida
+0;-88.2667,13.5667;SV-09;San Miguel Department;Hacienda La Estancia
+0;-88.3528,13.1784;SV-14;Usulutan;Hacienda La Chepona
+0;-88.5000,13.3000;SV-14;Usulutan;Hacienda La Carrera
+0;-88.9000,13.3167;SV-06;La Paz Department;Hacienda La Calzada
+0;-89.7167,13.6500;SV-13;Sonsonate Department;Hacienda La Bolsona
+0;-89.5439,14.2908;SV-11;Santa Ana Department;Hacienda La Barra
+0;-88.4667,13.2833;SV-14;Usulutan;Hacienda La Alcancía
+0;-89.2167,14.0500;SV-03;Chalatenango Department;Hacienda Jiboa
+0;-88.7167,13.4833;SV-12;San Vicente Department;Hacienda Guajoyo
+0;-89.0167,14.0000;SV-03;Chalatenango Department;Hacienda Grande
+0;-89.8000,13.6833;SV-13;Sonsonate Department;Hacienda El Zope
+0;-88.7333,13.3833;SV-12;San Vicente Department;Hacienda El Triunfo
+0;-89.9167,13.7833;SV-01;Ahuachapan;Hacienda El Salto
+0;-88.7500,13.4333;SV-12;San Vicente Department;Hacienda El Playón
+0;-89.4167,13.5500;SV-05;La Libertad Department;Hacienda El Palmar
+0;-89.9833,13.8667;SV-01;Ahuachapan;Hacienda El Imposible
+0;-89.7833,13.6333;SV-13;Sonsonate Department;Hacienda El Coyol
+0;-89.9000,13.7333;SV-01;Ahuachapan;Hacienda El Chagüite
+0;-89.6500,13.6667;SV-13;Sonsonate Department;Hacienda El Cacao
+0;-89.5833,13.7333;SV-13;Sonsonate Department;Hacienda El Bebedero
+0;-89.2500,13.5500;SV-05;La Libertad Department;Hacienda El Banco
+0;-89.3667,13.7333;SV-05;La Libertad Department;Hacienda Cuyagualo
+0;-88.5667,13.2167;SV-14;Usulutan;Hacienda Corral de Mulas
+0;-89.0333,13.9500;SV-04;Cuscatlan;Hacienda Concepción
+0;-88.6500,13.6000;SV-12;San Vicente Department;Hacienda Chamoco
+0;-88.5667,13.3000;SV-14;Usulutan;Hacienda Chaguantique
+0;-88.6667,13.3667;SV-14;Usulutan;Hacienda California
+0;-89.0333,13.7167;SV-04;Cuscatlan;Hacienda Buena Vista
+0;-88.6667,13.4500;SV-14;Usulutan;Hacienda Bolívar
+0;-89.3000,14.0167;SV-05;La Libertad Department;Hacienda Atiocoyo
+0;-89.8333,13.6000;SV-13;Sonsonate Department;Hacienda Atalaya
+0;-89.0333,13.8667;SV-04;Cuscatlan;Hacienda América
+0;-88.7167,13.7500;SV-12;San Vicente Department;Hacienda Amatitán Arriba
+0;-88.8500,14.0667;SV-03;Chalatenango Department;Hacienda
+0;-89.0167,14.1333;SV-03;Chalatenango Department;Gutiérrez
+0;-87.8650,13.3497;SV-07;La Union;Guisquil
+0;-88.9500,13.8500;SV-02;Cabanas;Güiligüiste
+0;-88.1667,13.8000;SV-08;Morazan;Güiligüiste
+0;-87.7108,13.1742;SV-07;La Union;Guerrero
+0;-87.7647,13.7811;SV-07;La Union;Gueripe
+10995;-89.1731,13.8769;SV-10;San Salvador Department;Guazapa
+1517;-89.8422,13.7503;SV-01;Ahuachapan;Guaymango
+0;-89.9608,13.7600;SV-01;Ahuachapan;Guayapa Arriba
+0;-89.9697,13.7178;SV-01;Ahuachapan;Guayapa Abajo
+0;-89.8894,13.9275;SV-01;Ahuachapan;Guayaltepec
+0;-87.7333,13.8000;SV-07;La Union;Guayabo
+0;-89.5500,14.4000;SV-11;Santa Ana Department;Guayabillas
+0;-88.4000,13.7167;SV-09;San Miguel Department;Guatinluca
+5273;-88.2000,13.6667;SV-08;Morazan;Guatajiagua
+0;-88.0172,13.1794;SV-07;La Union;Guarute
+0;-88.1833,13.7167;SV-08;Morazan;Guarumal
+0;-89.4333,14.1000;SV-11;Santa Ana Department;Guarnecia
+0;-88.8833,14.0167;SV-03;Chalatenango Department;Guarjila
+0;-88.2833,13.7500;SV-09;San Miguel Department;Guanacaste
+0;-87.8667,13.2500;SV-07;La Union;Gualpirque
+0;-88.2167,13.8167;SV-08;Morazan;Gualococti
+0;-88.0833,13.7500;SV-08;Morazan;Gualindo Centro
+0;-88.1000,13.7500;SV-08;Morazan;Gualindo Abajo
+0;-88.7333,14.0500;SV-03;Chalatenango Department;Gualcimaca
+0;-88.3167,13.2667;SV-14;Usulutan;Gualchua
+0;-89.2167,14.3833;SV-03;Chalatenango Department;Gualcho
+0;-88.5000,13.4167;SV-14;Usulutan;Gualache
+0;-88.3833,13.7167;SV-09;San Miguel Department;Guajiniquil
+0;-88.8833,13.3500;SV-06;La Paz Department;Guadalupe La Zorra
+0;-89.0000,13.8833;SV-04;Cuscatlan;Guadalupe
+0;-89.2167,13.7667;SV-10;San Salvador Department;Guadalupe
+0;-89.2000,13.6500;SV-10;San Salvador Department;Guadalupe
+0;-88.8833,13.6167;SV-12;San Vicente Department;Guadalupe
+0;-87.9661,13.5722;SV-07;La Union;Guadalupe
+0;-89.3000,13.5333;SV-05;La Libertad Department;Guadalupe
+0;-88.1806,13.2453;SV-09;San Miguel Department;Guadalupe
+0;-88.6500,13.8667;SV-02;Cabanas;Guacotecti
+0;-88.9667,14.1667;SV-03;Chalatenango Department;Guachipilín
+0;-89.6833,13.9167;SV-11;Santa Ana Department;Guachipilín
+0;-88.0500,13.8167;SV-08;Morazan;Guachipilín
+0;-88.6167,13.6500;SV-12;San Vicente Department;Guachipilín
+0;-88.0333,13.6500;SV-08;Morazan;Guachipilín
+0;-88.1167,13.8667;SV-08;Morazan;Guacamaya
+0;-88.1000,13.5000;SV-09;San Miguel Department;Guacamaya
+0;-89.5667,14.0167;SV-11;Santa Ana Department;Granada
+0;-89.2569,13.8722;SV-05;La Libertad Department;Girón
+0;-88.0000,13.6500;SV-08;Morazan;Gigante
+0;-90.0781,13.7283;SV-01;Ahuachapan;Garita Palmera
+0;-88.5833,13.4500;SV-14;Usulutan;Galingagua
+0;-89.2331,13.8453;SV-10;San Salvador Department;Galera Quemada
+0;-89.6500,14.0000;SV-11;Santa Ana Department;Galeano
+0;-88.0833,13.8000;SV-08;Morazan;Flor del Muerto
+0;-89.5672,13.9317;SV-11;Santa Ana Department;Flor Amarilla Abajo
+0;-88.0000,13.6167;SV-08;Morazan;Flamenco
+0;-89.1000,13.8500;SV-04;Cuscatlan;Finca Victoria
+0;-89.5167,13.8667;SV-11;Santa Ana Department;Finca San José
+0;-89.5333,13.8000;SV-13;Sonsonate Department;Finca San Cayetano
+0;-89.8833,13.8500;SV-01;Ahuachapan;Finca San Antonio
+0;-89.7000,13.9500;SV-11;Santa Ana Department;Finca Las Victorias
+0;-89.4833,13.6667;SV-05;La Libertad Department;Finca Las Tinieblas
+0;-89.4667,13.6500;SV-05;La Libertad Department;Finca La Marina
+0;-88.2333,13.7833;SV-08;Morazan;Finca La Angostura
+0;-89.5667,13.9500;SV-11;Santa Ana Department;Finca El Sinai
+0;-89.3667,13.6167;SV-05;La Libertad Department;Finca El Ranchón
+0;-89.8500,13.8667;SV-01;Ahuachapan;Finca El Carmen
+0;-88.8167,13.6000;SV-12;San Vicente Department;Finca Barrios
+0;-90.0047,13.7386;SV-01;Ahuachapan;Faya
+0;-89.0833,14.1333;SV-03;Chalatenango Department;Estanzuelas
+0;-89.0500,13.9167;SV-04;Cuscatlan;Estanzuelas
+0;-88.5000,13.6500;SV-14;Usulutan;Estanzuelas
+0;-88.8667,13.5167;SV-06;La Paz Department;Espino Arriba
+0;-88.8667,13.5000;SV-06;La Paz Department;Espino Abajo
+0;-88.7167,14.0000;SV-03;Chalatenango Department;Escalante
+0;-88.3833,13.3500;SV-14;Usulutan;Ereguayquín
+0;-88.7500,14.0333;SV-03;Chalatenango Department;Eramón
+0;-89.4089,13.7447;SV-05;La Libertad Department;Entre Ríos
+0;-89.2500,14.2333;SV-03;Chalatenango Department;Encumbrado
+0;-88.5667,13.4167;SV-14;Usulutan;El Zúngano
+0;-89.3897,13.9933;SV-05;La Libertad Department;El Zope
+0;-88.6000,13.9500;SV-02;Cabanas;El Zope
+0;-89.8003,13.6878;SV-13;Sonsonate Department;El Zope
+0;-89.4333,13.5000;SV-05;La Libertad Department;El Zonte
+0;-89.4500,14.1500;SV-11;Santa Ana Department;El Zompopo
+0;-89.8333,13.7000;SV-01;Ahuachapan;El Zarzal
+0;-88.0469,13.4003;SV-09;San Miguel Department;El Zarzal
+0;-89.4000,14.1667;SV-11;Santa Ana Department;El Zapotillo
+0;-89.3333,14.1500;SV-03;Chalatenango Department;El Zapote
+0;-88.7833,14.0333;SV-03;Chalatenango Department;El Zapote
+0;-89.0983,13.9456;SV-04;Cuscatlan;El Zapote
+0;-88.6833,13.9500;SV-02;Cabanas;El Zapote
+0;-88.5167,13.9167;SV-02;Cabanas;El Zapote
+0;-88.9333,13.8667;SV-02;Cabanas;El Zapote
+0;-87.7500,13.8333;SV-07;La Union;El Zapote
+0;-89.2167,13.7500;SV-10;San Salvador Department;El Zapote
+0;-89.6289,13.7264;SV-13;Sonsonate Department;El Zapote
+0;-90.0236,13.7044;SV-01;Ahuachapan;El Zapote
+0;-88.2333,13.5667;SV-09;San Miguel Department;El Zapote
+0;-88.8833,13.5500;SV-06;La Paz Department;El Zapote
+0;-87.9167,13.5333;SV-07;La Union;El Zapote
+0;-88.6500,13.4167;SV-14;Usulutan;El Zapote
+0;-88.9167,13.3000;SV-06;La Paz Department;El Zapote
+0;-88.2281,13.2350;SV-14;Usulutan;El Zapote
+0;-88.1786,13.1967;SV-14;Usulutan;El Zapote
+0;-88.8667,14.1167;SV-03;Chalatenango Department;El Zapotal
+0;-88.0833,13.8667;SV-08;Morazan;El Zapotal
+0;-88.0000,13.5500;SV-07;La Union;El Zapotal
+0;-88.1214,13.3661;SV-09;San Miguel Department;El Zapotal
+0;-88.0292,13.2886;SV-07;La Union;El Zapotal
+0;-87.7833,13.5333;SV-07;La Union;El Zapatero
+0;-89.6500,14.0833;SV-11;Santa Ana Department;El Zacamil
+0;-88.7833,14.0667;SV-03;Chalatenango Department;El Zacamil
+0;-89.4883,13.6978;SV-05;La Libertad Department;El Zacamil
+0;-88.0833,13.9000;SV-08;Morazan;El Volcancillo
+0;-88.1667,13.8833;SV-08;Morazan;El Volcancillo
+0;-88.6833,13.9000;SV-02;Cabanas;El Volcán
+0;-88.2167,13.7333;SV-08;Morazan;El Volcán
+0;-88.2475,13.4833;SV-09;San Miguel Department;El Volcán
+0;-88.2667,13.4667;SV-09;San Miguel Department;El Volcán
+0;-88.4167,13.4333;SV-14;Usulutan;El Volcán
+0;-88.4333,13.3500;SV-14;Usulutan;El Ujushte
+0;-89.8344,13.8686;SV-01;Ahuachapan;El Tronconal
+0;-89.0333,13.8167;SV-04;Cuscatlan;El Triunfo
+0;-89.5500,13.6833;SV-13;Sonsonate Department;El Triunfo
+0;-88.0833,13.6500;SV-08;Morazan;El Triunfo
+0;-89.3167,13.5833;SV-05;La Libertad Department;El Triunfo
+0;-88.4333,13.5667;SV-14;Usulutan;El Triunfo
+0;-88.4500,13.3167;SV-14;Usulutan;El Trillo
+0;-88.5000,13.5500;SV-14;Usulutan;El Trilladero
+0;-89.1333,13.9833;SV-04;Cuscatlan;El Trapichón
+0;-89.1000,14.1500;SV-03;Chalatenango Department;El Tránsito
+0;-89.3667,14.0167;SV-05;La Libertad Department;El Tránsito
+0;-89.1161,13.7964;SV-10;San Salvador Department;El Tránsito
+0;-89.4167,13.7333;SV-05;La Libertad Department;El Tránsito
+0;-89.4167,13.7167;SV-05;La Libertad Department;El Tránsito
+0;-89.1333,13.7167;SV-10;San Salvador Department;El Tránsito
+0;-88.9333,13.6333;SV-06;La Paz Department;El Tránsito
+0;-87.9667,13.5333;SV-07;La Union;El Tránsito
+9485;-88.3500,13.3500;SV-09;San Miguel Department;El Tránsito
+0;-89.7500,13.9167;SV-01;Ahuachapan;El Tortuguero
+0;-88.6500,13.7167;SV-12;San Vicente Department;El Tortuguero
+0;-88.0500,13.9167;SV-08;Morazan;El Tizate
+0;-87.9658,13.4808;SV-07;La Union;El Tizate
+0;-89.4672,13.8278;SV-11;Santa Ana Department;El Tinteral
+0;-89.1833,14.1667;SV-03;Chalatenango Department;El Tigre
+0;-89.9167,13.9833;SV-01;Ahuachapan;El Tigre
+0;-89.9111,13.9858;SV-01;Ahuachapan;El Tigre
+0;-88.4333,13.4833;SV-14;Usulutan;El Tigre
+0;-89.6500,14.0333;SV-11;Santa Ana Department;El Tesoro
+0;-89.0500,14.2167;SV-03;Chalatenango Department;El Terrero
+0;-87.9167,13.8333;SV-07;La Union;El Terrero
+0;-87.7667,13.7500;SV-07;La Union;El Terrero
+0;-88.6333,13.8667;SV-02;Cabanas;El Tempisque
+0;-89.1833,13.6833;SV-10;San Salvador Department;El Tejar
+0;-88.0036,13.3275;SV-07;La Union;El Tejar
+0;-88.5167,13.6333;SV-14;Usulutan;El Tecomatal
+0;-88.1178,13.3914;SV-09;San Miguel Department;El Tecomatal
+0;-88.1453,13.3711;SV-09;San Miguel Department;Tecomatal
+0;-89.4667,13.6000;SV-05;La Libertad Department;El Tecolote
+0;-88.1414,13.4383;SV-09;San Miguel Department;El Tapesco
+0;-88.8833,13.5333;SV-06;La Paz Department;El Tapechame
+0;-89.7167,14.1000;SV-11;Santa Ana Department;El Tanque
+0;-90.0700,13.8722;SV-01;Ahuachapan;El Tamboral
+0;-88.0333,13.8167;SV-08;Morazan;El Tambor
+0;-88.6833,13.5167;SV-12;San Vicente Department;El Tamarindo
+0;-87.9019,13.5100;SV-07;La Union;El Tamarindo
+0;-87.9208,13.1839;SV-07;La Union;El Tamarindo
+0;-87.8833,13.4667;SV-07;La Union;El Tamarindito
+0;-90.0500,13.8667;SV-01;Ahuachapan;El Talpetate
+0;-90.0036,13.7361;SV-01;Ahuachapan;El Talpetate
+0;-87.7903,13.6447;SV-07;La Union;El Talpetate
+0;-87.8333,13.5667;SV-07;La Union;El Talpetate
+0;-88.4833,13.3333;SV-14;Usulutan;El Talpetate
+0;-89.5833,14.1711;SV-11;Santa Ana Department;El Tablón
+0;-88.8833,14.1500;SV-03;Chalatenango Department;El Tablón
+0;-89.0667,14.0833;SV-03;Chalatenango Department;El Tablón
+0;-89.8000,14.0500;SV-01;Ahuachapan;El Tablón
+0;-89.2583,13.9781;SV-10;San Salvador Department;El Tablón
+0;-89.0333,13.9833;SV-04;Cuscatlan;El Tablón
+0;-88.1833,13.8500;SV-08;Morazan;El Tablón
+0;-88.3333,13.8333;SV-09;San Miguel Department;El Tablón
+0;-88.6500,13.8167;SV-02;Cabanas;El Tablón
+0;-88.3667,13.7500;SV-09;San Miguel Department;El Tablón
+0;-88.0000,13.7333;SV-08;Morazan;El Tablón
+0;-88.7000,13.7000;SV-12;San Vicente Department;El Tablón
+0;-89.3667,13.5333;SV-05;La Libertad Department;El Tablón
+0;-88.5667,13.5167;SV-14;Usulutan;El Tablón
+0;-87.8281,13.4956;SV-07;La Union;El Tablón
+0;-88.5667,13.3833;SV-14;Usulutan;El Tablón
+0;-88.1978,13.2567;SV-09;San Miguel Department;El Tablón
+0;-87.9833,13.2500;SV-07;La Union;El Tablón
+0;-89.3833,13.5000;SV-05;La Libertad Department;El Sunzal
+0;-89.5603,13.7547;SV-13;Sonsonate Department;El Sunza
+0;-89.8489,13.6278;SV-13;Sonsonate Department;Suncita
+0;-89.0297,13.5900;SV-06;La Paz Department;El Socorro
+0;-88.8333,13.4833;SV-06;La Paz Department;El Socorro
+0;-88.7167,13.4667;SV-12;San Vicente Department;El Socorro
+0;-88.8667,14.1500;SV-03;Chalatenango Department;El Sitio
+0;-88.8000,14.0500;SV-03;Chalatenango Department;El Sitio
+0;-88.7500,14.0500;SV-03;Chalatenango Department;El Sitio
+0;-88.9833,13.9500;SV-03;Chalatenango Department;El Sitio
+0;-89.9333,13.7667;SV-01;Ahuachapan;El Sitio
+0;-88.2167,13.5000;SV-09;San Miguel Department;El Sitio
+0;-89.9458,13.8822;SV-01;Ahuachapan;El Sincuyo
+0;-88.9167,14.1167;SV-03;Chalatenango Department;El Sicahuite
+0;-88.8333,14.0000;SV-03;Chalatenango Department;El Sicahuital
+0;-89.5833,14.4000;SV-11;Santa Ana Department;El Shiste
+0;-89.2778,13.8269;SV-05;La Libertad Department;El Señor
+0;-88.4167,13.5500;SV-14;Usulutan;El Semillero
+0;-89.5833,14.0667;SV-11;Santa Ana Department;El Sauce
+0;-89.1167,13.7833;SV-10;San Salvador Department;El Sauce
+0;-89.0442,13.7108;SV-10;San Salvador Department;El Sauce
+0;-89.5500,13.7000;SV-13;Sonsonate Department;El Sauce
+0;-87.8006,13.6689;SV-07;La Union;El Sauce
+0;-88.9500,13.4500;SV-06;La Paz Department;El Sauce
+0;-87.7019,13.2031;SV-07;La Union;El Salvador
+0;-88.8833,13.5667;SV-06;La Paz Department;El Salto
+0;-88.4500,13.5167;SV-14;Usulutan;El Salto
+0;-88.1639,13.3272;SV-09;San Miguel Department;El Salto
+0;-89.3667,14.2167;SV-11;Santa Ana Department;El Salitre
+0;-89.1333,14.1667;SV-03;Chalatenango Department;El Salitre
+0;-88.9167,14.0167;SV-03;Chalatenango Department;El Salitre
+0;-89.0333,14.0000;SV-03;Chalatenango Department;El Salitre
+0;-89.1042,13.8703;SV-04;Cuscatlan;El Salitre
+0;-89.2539,13.8022;SV-10;San Salvador Department;El Salitre
+0;-89.8175,13.6819;SV-13;Sonsonate Department;El Salamo
+0;-88.2222,13.2536;SV-14;Usulutan;El Sálamo
+0;-89.0000,14.0167;SV-03;Chalatenango Department;El Salamar
+0;-89.8167,13.8833;SV-01;Ahuachapan;El Saitillal
+0;-90.0553,13.8533;SV-01;Ahuachapan;El Sacramento
+0;-87.8833,13.5500;SV-07;La Union;El Saco
+0;-89.3167,13.6333;SV-05;La Libertad Department;El Sacazil
+0;-88.0000,13.7500;SV-08;Morazan;El Rotillo
+0;-89.1667,14.3500;SV-03;Chalatenango Department;El Rosario
+0;-89.0167,14.1667;SV-03;Chalatenango Department;El Rosario
+0;-88.9500,14.1167;SV-03;Chalatenango Department;El Rosario
+0;-89.6500,14.0000;SV-11;Santa Ana Department;El Rosario
+0;-89.7167,13.9667;SV-01;Ahuachapan;El Rosario
+0;-89.0833,13.9333;SV-04;Cuscatlan;El Rosario
+0;-89.9167,13.9000;SV-01;Ahuachapan;El Rosario
+0;-88.2500,13.8667;SV-08;Morazan;El Rosario
+0;-88.2167,13.8667;SV-08;Morazan;El Rosario
+0;-89.4833,13.7833;SV-13;Sonsonate Department;El Rosario
+0;-88.9333,13.7833;SV-04;Cuscatlan;El Rosario
+0;-89.4906,13.7731;SV-13;Sonsonate Department;El Rosario
+0;-88.9167,13.7667;SV-04;Cuscatlan;El Rosario
+0;-89.8833,13.7500;SV-01;Ahuachapan;El Rosario
+0;-89.1303,13.7653;SV-10;San Salvador Department;El Rosario
+0;-89.0833,13.7500;SV-10;San Salvador Department;El Rosario
+0;-88.6167,13.7333;SV-12;San Vicente Department;El Rosario
+0;-88.9833,13.6833;SV-04;Cuscatlan;El Rosario
+0;-89.3525,13.6408;SV-05;La Libertad Department;El Rosario
+0;-88.0833,13.5667;SV-08;Morazan;El Rosario
+0;-87.8000,13.5667;SV-07;La Union;El Rosario
+5620;-89.0297,13.4978;SV-06;La Paz Department;El Rosario
+0;-89.5667,14.3833;SV-11;Santa Ana Department;El Rodeo
+0;-89.4167,14.1500;SV-11;Santa Ana Department;El Rodeo
+0;-89.9425,13.9417;SV-01;Ahuachapan;El Rodeo
+0;-88.1333,13.9000;SV-08;Morazan;El Rodeo
+0;-89.4961,13.8469;SV-11;Santa Ana Department;El Rodeo
+0;-87.8139,13.8447;SV-07;La Union;Rodeo
+0;-89.0167,13.8000;SV-04;Cuscatlan;El Rodeo
+0;-88.0333,13.8000;SV-08;Morazan;El Rodeo
+0;-88.1667,13.6833;SV-08;Morazan;El Rodeo
+0;-88.2833,13.5333;SV-09;San Miguel Department;El Rodeo
+0;-88.6333,13.4167;SV-14;Usulutan;El Rodeo
+0;-89.2333,14.2833;SV-03;Chalatenango Department;El Roblito
+0;-89.8167,13.9833;SV-01;Ahuachapan;El Roble
+0;-89.0697,13.9100;SV-04;Cuscatlan;El Roblar
+0;-88.9167,13.6000;SV-06;La Paz Department;El Roble
+0;-89.0333,14.3000;SV-03;Chalatenango Department;El Roblar
+0;-88.1333,13.9500;SV-08;Morazan;El Rincón
+0;-88.1333,13.8833;SV-08;Morazan;El Rincón
+0;-88.5667,13.8500;SV-02;Cabanas;El Rincón
+0;-88.8833,13.7833;SV-02;Cabanas;El Rincón
+0;-87.8000,13.7167;SV-07;La Union;El Rincón
+0;-89.4500,13.5333;SV-05;La Libertad Department;El Regadío
+0;-89.7047,13.9767;SV-01;Ahuachapan;El Refugio
+0;-89.9667,13.8000;SV-01;Ahuachapan;El Refugio
+0;-88.8500,13.7167;SV-12;San Vicente Department;El Refugio
+0;-88.6000,13.6167;SV-12;San Vicente Department;El Rebelde
+0;-87.8669,13.5011;SV-07;La Union;El Rebalse
+0;-88.1164,13.4331;SV-09;San Miguel Department;El Rebalse
+0;-89.3000,13.7000;SV-05;La Libertad Department;El Quequeishque
+0;-89.2333,13.4833;SV-05;La Libertad Department;El Pulido
+0;-88.6167,13.6333;SV-12;San Vicente Department;El Pulguero
+0;-89.7500,13.8167;SV-13;Sonsonate Department;El Puente
+0;-88.8167,13.5167;SV-12;San Vicente Department;El Puente
+0;-88.2333,13.8833;SV-08;Morazan;El Progreso
+0;-89.2694,13.7383;SV-05;La Libertad Department;El Progreso
+0;-88.1717,13.3817;SV-09;San Miguel Department;El Progreso
+0;-88.2325,13.2664;SV-14;Usulutan;El Progreso
+0;-89.7172,13.5722;SV-13;Sonsonate Department;El Presidio
+0;-88.4667,13.4500;SV-14;Usulutan;El Pozón
+0;-89.2167,14.3667;SV-03;Chalatenango Department;El Poy
+0;-88.7667,13.8833;SV-02;Cabanas;El Potrero
+0;-88.6667,13.8167;SV-02;Cabanas;El Potrero
+0;-88.8333,13.7333;SV-12;San Vicente Department;El Porvenir Aguacayo
+0;-89.6500,14.0167;SV-11;Santa Ana Department;El Porvenir
+0;-89.5333,13.8500;SV-11;Santa Ana Department;El Porvenir
+0;-90.0597,13.7231;SV-01;Ahuachapan;El Porvenir
+0;-88.2833,13.6833;SV-09;San Miguel Department;El Porvenir
+0;-89.1500,13.6333;SV-10;San Salvador Department;El Porvenir
+0;-89.0533,13.3963;SV-06;La Paz Department;El Porvenir
+0;-89.0561,13.3903;SV-06;La Paz Department;El Porvenir
+0;-88.3333,13.3333;SV-14;Usulutan;El Porvenir
+0;-87.9500,13.2667;SV-07;La Union;El Portillo del Ujushte
+0;-88.8333,14.1167;SV-03;Chalatenango Department;El Portillo
+0;-89.7833,14.0333;SV-01;Ahuachapan;El Portillo
+0;-87.8600,13.7942;SV-07;La Union;El Portillo
+0;-87.8000,13.7667;SV-07;La Union;El Portillo
+0;-87.9294,13.6650;SV-07;La Union;El Portillo
+0;-88.3167,13.6333;SV-09;San Miguel Department;El Portillo
+0;-87.8167,13.5667;SV-07;La Union;El Portillo
+0;-87.9500,13.2833;SV-07;La Union;El Portillo
+0;-89.6244,14.2025;SV-11;Santa Ana Department;El Portezuelo de La Cañada
+0;-89.2667,14.1500;SV-03;Chalatenango Department;El Portezuelo
+0;-89.5833,13.9833;SV-11;Santa Ana Department;El Portezuelo
+0;-88.8167,13.4500;SV-12;San Vicente Department;El Porrillo
+0;-87.8333,13.5333;SV-07;La Union;El Polvo
+0;-89.5500,14.3833;SV-11;Santa Ana Department;El Playón
+0;-88.7500,13.4333;SV-12;San Vicente Department;El Playón
+0;-89.0628,13.9453;SV-04;Cuscatlan;El Platanar
+0;-88.8833,13.8833;SV-02;Cabanas;El Platanar
+0;-88.3000,13.5833;SV-09;San Miguel Department;El Platanar
+0;-88.3000,13.2500;SV-14;Usulutan;El Planón
+0;-88.9807,13.9654;SV-03;Chalatenango Department;El Pital
+0;-90.0708,13.8547;SV-01;Ahuachapan;El Pital
+0;-89.6506,14.1719;SV-11;Santa Ana Department;Caserío El Pino
+0;-89.4833,14.3833;SV-11;Santa Ana Department;El Pinito
+0;-89.4500,13.6167;SV-05;La Libertad Department;El Pinal
+0;-89.0667,13.3667;SV-06;La Paz Department;El Pimiental
+0;-87.7667,13.6833;SV-07;La Union;El Pilón
+0;-87.9211,13.3119;SV-07;La Union;El Pilón
+0;-88.0000,13.2833;SV-07;La Union;El Pichito
+0;-87.9914,13.2947;SV-07;La Union;El Piche
+0;-88.2500,13.9333;SV-08;Morazan;El Picacho
+0;-88.3167,13.8000;SV-09;San Miguel Department;El Picacho
+0;-87.8333,13.6000;SV-07;La Union;El Picacho
+0;-89.4894,13.8578;SV-11;Santa Ana Department;El Pezote
+0;-88.8333,13.5500;SV-12;San Vicente Department;El Perical
+0;-87.8500,13.4833;SV-07;La Union;El Perical
+0;-89.1667,14.2333;SV-03;Chalatenango Department;El Pepeto
+0;-88.9667,14.1000;SV-03;Chalatenango Department;El Pepeto
+0;-88.5833,13.9500;SV-02;Cabanas;El Pepeto
+0;-88.9833,13.8500;SV-04;Cuscatlan;El Pepeto
+0;-88.6333,13.8167;SV-02;Cabanas;El Pepeto
+0;-89.1675,13.6592;SV-10;San Salvador Department;El Pepeto
+0;-87.9833,13.7000;SV-08;Morazan;El Peñón
+0;-87.7833,13.6167;SV-07;La Union;El Peñón
+0;-89.3833,13.6000;SV-05;La Libertad Department;El Peñón
+0;-88.6500,13.5833;SV-12;San Vicente Department;El Pedregal
+0;-89.0233,13.4511;SV-06;La Paz Department;El Pedregal
+0;-88.1000,13.7333;SV-08;Morazan;El Pedernal
+0;-88.0283,13.4561;SV-07;La Union;El Pastor
+0;-89.7000,14.1333;SV-11;Santa Ana Department;El Paste
+0;-89.0500,13.5167;SV-06;La Paz Department;El Paredón
+0;-89.5833,14.1333;SV-11;Santa Ana Department;El Paraíso
+0;-89.0667,14.1000;SV-03;Chalatenango Department;El Paraíso
+0;-88.2000,14.0333;SV-08;Morazan;El Paraíso
+0;-89.7619,13.9492;SV-01;Ahuachapan;El Paraíso
+0;-89.0333,13.7667;SV-04;Cuscatlan;El Paraíso
+0;-88.8000,13.7333;SV-12;San Vicente Department;El Paraíso
+0;-89.5667,13.6167;SV-13;Sonsonate Department;El Paraíso
+0;-88.6167,13.3500;SV-14;Usulutan;El Paraíso
+0;-88.9000,13.4333;SV-06;La Paz Department;El Papayal
+0;-89.3167,14.0500;SV-05;La Libertad Department;El Papaturral
+0;-88.5833,13.9667;SV-02;Cabanas;El Papalón
+0;-88.2833,13.6333;SV-09;San Miguel Department;El Papalón
+0;-88.2833,13.5167;SV-09;San Miguel Department;El Papalón
+0;-88.1358,13.4508;SV-09;San Miguel Department;El Papalón
+0;-89.4500,14.3667;SV-11;Santa Ana Department;El Panal
+0;-89.2167,14.3000;SV-03;Chalatenango Department;El Panal
+0;-89.8000,13.8667;SV-01;Ahuachapan;El Palo Verde
+0;-88.4333,13.6000;SV-14;Usulutan;El Palón
+0;-88.3667,13.5667;SV-09;San Miguel Department;El Palón
+0;-88.5833,13.9833;SV-02;Cabanas;El Palomar
+0;-89.2500,13.5167;SV-05;La Libertad Department;El Palomar
+0;-88.7500,13.5167;SV-12;San Vicente Department;El Palomar
+0;-88.7500,13.5000;SV-12;San Vicente Department;El Palomar
+0;-89.9500,13.8833;SV-01;Ahuachapan;El Palmo
+0;-88.5667,13.4333;SV-14;Usulutan;El Palmo
+0;-88.5000,13.4000;SV-14;Usulutan;El Palmital
+0;-89.4167,13.5333;SV-05;La Libertad Department;El Palmar
+0;-88.9000,13.5333;SV-06;La Paz Department;El Pajal
+1641;-89.2186,13.9736;SV-10;San Salvador Department;El Paisnal
+0;-88.0333,13.5667;SV-09;San Miguel Department;El Pacún
+0;-88.7333,13.4000;SV-12;San Vicente Department;El Pacún
+0;-88.6667,13.9167;SV-02;Cabanas;El Ojushte
+0;-88.4833,13.6167;SV-14;Usulutan;El Ojushte
+0;-87.8667,13.2500;SV-07;La Union;El Ocre
+0;-87.7833,13.8333;SV-07;La Union;El Ocote
+0;-88.9833,14.2000;SV-03;Chalatenango Department;El Ocotal
+0;-88.6667,13.5833;SV-12;San Vicente Department;El Obrajuelo Lempa
+0;-88.0833,13.7167;SV-08;Morazan;El Norte
+0;-88.6833,13.9833;SV-02;Cabanas;El Níspero
+0;-89.8986,13.8653;SV-01;Ahuachapan;El Níspero
+0;-89.5500,13.5333;SV-05;La Libertad Department;El Níspero
+0;-89.2667,14.1667;SV-03;Chalatenango Department;El Nisperal
+0;-88.4167,13.4167;SV-14;Usulutan;El Nisperal
+0;-88.2006,13.4275;SV-09;San Miguel Department;El Niño
+0;-87.9167,13.8500;SV-07;La Union;El Negro
+0;-89.7000,14.0167;SV-11;Santa Ana Department;El Nazareno
+0;-90.1011,13.7717;SV-01;Ahuachapan;El Naranjo
+0;-87.9000,13.5000;SV-07;La Union;El Naranjo
+0;-89.8686,13.8486;SV-01;Ahuachapan;El Naranjito
+0;-88.3333,13.5667;SV-09;San Miguel Department;El Nancito
+0;-89.5072,14.1753;SV-11;Santa Ana Department;Caserío El Nance Dulce
+0;-88.1000,13.7833;SV-08;Morazan;El Nance
+0;-89.9833,13.7333;SV-01;Ahuachapan;El Nance
+0;-87.8333,13.5333;SV-07;La Union;El Nance
+0;-88.1167,13.9000;SV-08;Morazan;El Mozote
+0;-88.9500,14.1500;SV-03;Chalatenango Department;El Morro
+0;-89.1333,13.6167;SV-10;San Salvador Department;El Morro
+0;-88.1083,13.3825;SV-09;San Miguel Department;El Moral
+0;-88.2367,13.2314;SV-14;Usulutan;El Monito
+0;-89.7500,13.8167;SV-13;Sonsonate Department;El Monarca
+0;-89.8500,13.8833;SV-01;Ahuachapan;El Molino
+0;-89.0286,13.8536;SV-04;Cuscatlan;El Molino
+0;-87.7544,13.7481;SV-07;La Union;El Molino
+0;-89.5594,14.1797;SV-11;Santa Ana Department;Caserío El Mojón
+0;-88.8667,14.0167;SV-03;Chalatenango Department;El Mojón
+0;-89.8500,13.9667;SV-01;Ahuachapan;El Mojón
+0;-89.7000,13.7333;SV-13;Sonsonate Department;El Mojón
+0;-89.5000,13.6667;SV-05;La Libertad Department;El Mojón
+0;-89.6400,14.1853;SV-11;Santa Ana Department;Caserío El Mogote
+0;-89.5167,13.9333;SV-11;Santa Ana Department;El Milagro
+0;-89.1667,13.9000;SV-10;San Salvador Department;El Mico
+0;-88.8333,13.9167;SV-02;Cabanas;El Mestizo
+0;-89.3333,14.1833;SV-11;Santa Ana Department;El Matazano
+0;-89.2167,14.0167;SV-10;San Salvador Department;El Matazano
+0;-88.9500,14.0000;SV-03;Chalatenango Department;El Matazano
+0;-89.6167,13.9333;SV-11;Santa Ana Department;El Matazano
+0;-89.3150,13.7858;SV-05;La Libertad Department;El Matazano
+0;-89.1500,13.7000;SV-10;San Salvador Department;El Matazano
+0;-89.2922,13.6583;SV-05;La Libertad Department;El Matazano
+0;-89.3833,13.6333;SV-05;La Libertad Department;El Matazano
+0;-89.5167,13.6167;SV-05;La Libertad Department;El Matazano
+0;-89.2833,13.6167;SV-05;La Libertad Department;El Matazano
+0;-88.7167,13.5667;SV-12;San Vicente Department;El Matazano
+0;-88.7000,13.5667;SV-12;San Vicente Department;El Marquezado
+0;-88.4500,13.5000;SV-14;Usulutan;El Marquesado
+0;-88.7333,13.3167;SV-14;Usulutan;El Marillo
+0;-88.8167,13.9500;SV-02;Cabanas;El Manguito
+0;-89.3167,13.7000;SV-05;La Libertad Department;El Manguito
+0;-88.8333,13.5333;SV-06;La Paz Department;El Maneadero
+0;-89.5000,14.3833;SV-11;Santa Ana Department;El Malpaso
+0;-89.3681,13.4942;SV-05;La Libertad Department;El Majagual
+0;-88.9833,13.9667;SV-03;Chalatenango Department;El Llano
+0;-88.9667,13.8167;SV-04;Cuscatlan;El Llano
+0;-88.9667,13.3833;SV-06;La Paz Department;El Llano
+0;-88.2447,13.2406;SV-14;Usulutan;El Llano
+0;-89.0000,14.0500;SV-03;Chalatenango Department;El Limón
+0;-88.8333,13.9500;SV-02;Cabanas;El Limón
+0;-88.5667,13.9000;SV-02;Cabanas;El Limón
+0;-88.0667,13.8500;SV-08;Morazan;El Limón
+0;-88.9833,13.7667;SV-04;Cuscatlan;El Limón
+0;-89.1325,13.7225;SV-10;San Salvador Department;El Limón
+0;-89.3926,13.7370;SV-05;La Libertad Department;El Limon
+0;-88.1667,13.7000;SV-08;Morazan;El Limón
+0;-88.4167,13.2500;SV-14;Usulutan;El Limón
+0;-89.4000,14.4167;SV-11;Santa Ana Department;El Limo
+0;-89.3667,14.3667;SV-11;Santa Ana Department;El Limo
+0;-88.6000,13.9833;SV-02;Cabanas;El Limo
+0;-89.8833,13.8667;SV-01;Ahuachapan;El Limo
+0;-89.0667,13.6333;SV-06;La Paz Department;El Limar
+0;-89.1500,13.9500;SV-04;Cuscatlan;El Líbano
+0;-88.0333,13.8333;SV-08;Morazan;El León
+0;-88.9500,13.6000;SV-06;La Paz Department;El Lazareto
+0;-89.4500,14.1000;SV-11;Santa Ana Department;El Jute
+0;-89.7000,14.0833;SV-11;Santa Ana Department;El Jute
+0;-88.1514,13.4419;SV-09;San Miguel Department;El Jute
+0;-88.2444,13.2789;SV-14;Usulutan;El Jutal
+0;-89.5833,13.9833;SV-11;Santa Ana Department;El Jurón
+0;-89.8667,14.0500;SV-01;Ahuachapan;El Junquillo
+0;-89.8378,13.9889;SV-01;Ahuachapan;El Junquillo
+0;-88.2500,13.9000;SV-08;Morazan;El Junquillo
+0;-88.7333,13.8500;SV-02;Cabanas;El Junquillo
+0;-88.0833,13.8333;SV-08;Morazan;El Junquillo
+0;-88.3500,13.8167;SV-09;San Miguel Department;El Junquillo
+0;-88.6667,13.6333;SV-12;San Vicente Department;El Junquillal
+0;-89.4628,13.5294;SV-05;La Libertad Department;Julupe
+0;-88.9833,14.1000;SV-03;Chalatenango Department;El Jocotillo
+0;-90.0764,13.8725;SV-01;Ahuachapan;El Jocotillo
+0;-88.4667,13.5667;SV-14;Usulutan;El Jocotillo
+0;-89.2811,13.9144;SV-05;La Libertad Department;El Jocote
+0;-88.5333,13.8000;SV-02;Cabanas;El Jocote
+0;-88.3000,13.4667;SV-09;San Miguel Department;El Jocote
+0;-88.6000,13.4500;SV-14;Usulutan;El Jocote
+0;-88.9500,13.9333;SV-04;Cuscatlan;El Jocotal
+0;-89.9000,14.0167;SV-01;Ahuachapan;El Jobo
+0;-89.7833,13.9658;SV-01;Ahuachapan;El Jobo
+0;-88.3000,13.5167;SV-09;San Miguel Department;El Jobo
+0;-88.6833,13.8333;SV-02;Cabanas;El Jobito
+0;-88.5999,13.2441;SV-14;Usulutan;El Jobal
+0;-88.2500,13.6667;SV-09;San Miguel Department;El Jiote
+0;-89.2553,13.9964;SV-10;San Salvador Department;El Jicarón
+0;-89.9500,13.9000;SV-01;Ahuachapan;El Jícaro
+0;-88.2167,13.9000;SV-08;Morazan;El Jícaro
+0;-89.3133,13.8700;SV-05;La Libertad Department;El Jícaro
+0;-88.6500,13.8167;SV-02;Cabanas;El Jícaro
+0;-88.7167,13.8000;SV-02;Cabanas;El Jícaro
+0;-88.4500,13.7500;SV-09;San Miguel Department;El Jícaro
+0;-88.3833,13.5833;SV-09;San Miguel Department;El Jícaro
+0;-88.5333,13.5667;SV-14;Usulutan;El Jícaro
+0;-88.4833,13.4500;SV-14;Usulutan;El Jícaro
+0;-88.6167,13.4167;SV-14;Usulutan;El Jícaro
+0;-87.9439,13.3458;SV-07;La Union;El Jícaro
+0;-88.2833,13.2167;SV-14;Usulutan;El Jícaro
+0;-88.3833,13.6333;SV-14;Usulutan;El Jicarito
+0;-88.5333,13.9500;SV-02;Cabanas;El Jicarillo
+0;-89.8167,14.0500;SV-01;Ahuachapan;El Jicaral
+0;-88.0333,13.5000;SV-09;San Miguel Department;El Jicaral
+0;-87.9167,13.1667;SV-07;La Union;El Jagüey
+0;-89.3025,13.7644;SV-05;La Libertad Department;El Jabalí
+0;-89.1000,14.2667;SV-03;Chalatenango Department;El Izotal
+0;-88.5167,13.9500;SV-02;Cabanas;El Izcatal
+0;-88.7333,13.8333;SV-02;Cabanas;El Izcatal
+0;-88.6167,13.9000;SV-02;Cabanas;El Irayol
+0;-88.3833,13.8500;SV-09;San Miguel Department;El Huiscoyolito
+0;-88.1333,14.0333;SV-08;Morazan;El Huatalón
+0;-88.3167,13.6000;SV-09;San Miguel Department;El Hotel
+0;-88.0500,13.5333;SV-09;San Miguel Department;El Hormiguero
+0;-87.9667,13.2667;SV-07;La Union;El Higuerón
+0;-88.1667,13.5500;SV-09;San Miguel Department;El Havillal
+0;-88.1322,13.4256;SV-09;San Miguel Department;El Havillal
+0;-89.4333,14.0333;SV-03;Chalatenango Department;El Guineo
+0;-89.5000,13.8833;SV-11;Santa Ana Department;El Guineo
+0;-88.7000,13.8833;SV-02;Cabanas;El Guineo
+0;-88.5333,13.9500;SV-02;Cabanas;El Güiligüiste
+0;-89.4333,14.0500;SV-03;Chalatenango Department;El Guayabo
+0;-90.1036,13.8314;SV-01;Ahuachapan;El Guayabo
+0;-89.5500,13.7833;SV-13;Sonsonate Department;El Guayabo
+0;-89.7183,13.6928;SV-13;Sonsonate Department;El Guayabo
+0;-88.7667,13.6833;SV-12;San Vicente Department;El Guayabo
+0;-89.2000,13.6333;SV-10;San Salvador Department;El Guayabo
+0;-88.4833,13.6333;SV-14;Usulutan;El Guayabito
+0;-88.3333,13.5500;SV-09;San Miguel Department;El Guayabito
+0;-87.9500,13.3500;SV-07;La Union;El Guásimo
+0;-88.0500,13.8000;SV-08;Morazan;El Guapinol
+0;-89.5000,13.7000;SV-05;La Libertad Department;El Guamo
+0;-87.9125,13.8864;SV-07;La Union;El Guajiniquil
+0;-89.1500,13.6667;SV-10;San Salvador Department;El Guaje
+0;-89.1406,13.6828;SV-10;San Salvador Department;El Guaje
+0;-89.1833,14.3000;SV-03;Chalatenango Department;El Gramal
+0;-88.9167,14.0000;SV-03;Chalatenango Department;El Gramal
+0;-88.9167,13.4333;SV-06;La Paz Department;El Golfo
+0;-89.4167,14.0500;SV-03;Chalatenango Department;El Gavilán
+0;-87.9625,13.3433;SV-07;La Union;El Gavilán
+0;-89.0167,13.3667;SV-06;La Paz Department;El Fraile
+0;-89.8000,13.5833;SV-13;Sonsonate Department;El Flor
+0;-88.6833,13.5167;SV-12;San Vicente Department;El Filo
+0;-89.3569,13.5917;SV-05;La Libertad Department;El Faro
+0;-88.4167,13.7500;SV-09;San Miguel Department;El Espíritu Santo
+0;-88.6000,13.2500;SV-14;Usulutan;El Espíritu Santo
+0;-89.8500,13.9500;SV-01;Ahuachapan;El Espino
+0;-89.0167,13.7500;SV-04;Cuscatlan;El Espino
+0;-88.9000,13.6500;SV-06;La Paz Department;El Espino
+0;-88.0975,13.3289;SV-09;San Miguel Department;El Espino
+0;-88.0056,13.3083;SV-07;La Union;El Espino
+0;-88.2833,13.1667;SV-14;Usulutan;El Espino
+0;-89.4233,13.8539;SV-05;La Libertad Department;El Espinal
+0;-88.8667,13.7500;SV-04;Cuscatlan;El Espinal
+0;-87.9500,13.8000;SV-08;Morazan;El Escorpión
+0;-89.2500,13.9833;SV-10;San Salvador Department;El Escondido
+0;-88.9333,13.3500;SV-06;La Paz Department;El Escobal
+0;-88.4167,13.6667;SV-09;San Miguel Department;El Escarbadero
+0;-89.8333,13.7333;SV-01;Ahuachapan;El Escalón
+0;-89.7358,13.6500;SV-13;Sonsonate Department;El Edén
+0;-89.8167,13.8000;SV-01;Ahuachapan;El Durazno
+0;-89.6833,13.9500;SV-11;Santa Ana Department;El Duraznillo
+0;-90.0000,13.9500;SV-01;Ahuachapan;El Durazneño
+0;-89.0000,14.0500;SV-03;Chalatenango Department;El Dorado
+0;-89.1667,13.6000;SV-10;San Salvador Department;El Divisadero
+0;-88.0500,13.6000;SV-08;Morazan;El Divisadero
+0;-87.8500,13.5328;SV-07;La Union;El Divisadero
+0;-89.9025,13.7814;SV-01;Ahuachapan;El Diamante
+0;-89.4000,14.2167;SV-11;Santa Ana Department;El Despoblado
+0;-88.8333,13.3667;SV-06;La Paz Department;El Despoblado
+0;-88.4167,13.3000;SV-14;Usulutan;El Desparrame
+0;-87.8667,13.5500;SV-07;La Union;El Desagüe
+0;-87.9000,13.8167;SV-07;La Union;El Derrumbado
+0;-88.5167,13.3833;SV-14;Usulutan;El Delirio
+0;-88.1514,13.3300;SV-09;San Miguel Department;El Delirio
+0;-88.2167,13.7333;SV-08;Morazan;El Cutal
+0;-88.6500,13.6000;SV-12;San Vicente Department;El Curunco
+0;-89.4167,14.2833;SV-11;Santa Ana Department;El Cuje
+0;-89.6667,13.9833;SV-11;Santa Ana Department;El Cuje
+0;-89.4333,13.6167;SV-05;La Libertad Department;El Cuervo
+0;-88.1167,13.1667;SV-09;San Miguel Department;El Cuco
+0;-89.6000,13.8833;SV-11;Santa Ana Department;El Cristo
+0;-88.8167,13.5833;SV-12;San Vicente Department;El Coyolito
+0;-88.0042,13.2542;SV-07;La Union;El Coyolito
+0;-88.6167,13.6167;SV-12;San Vicente Department;El Coyolar
+0;-89.7975,13.6500;SV-13;Sonsonate Department;El Coyol
+0;-89.8167,13.7333;SV-01;Ahuachapan;El Cortez
+0;-87.8667,13.8333;SV-07;La Union;El Corralito
+0;-89.9167,13.8000;SV-01;Ahuachapan;El Corral
+0;-90.0117,13.8019;SV-01;Ahuachapan;El Corozo
+0;-88.5833,13.4500;SV-14;Usulutan;El Corozo
+0;-88.1333,13.6000;SV-09;San Miguel Department;El Corozal
+0;-89.6300,13.5461;SV-13;Sonsonate Department;El Corozal
+0;-88.6333,13.5167;SV-14;Usulutan;El Corozal
+0;-88.9667,13.9500;SV-04;Cuscatlan;El Copinol
+0;-88.9667,13.6167;SV-06;La Paz Department;El Copinol
+0;-88.8333,13.5167;SV-06;La Paz Department;El Copinol
+0;-87.9333,13.4333;SV-07;La Union;El Copalío
+0;-88.1328,13.3569;SV-09;San Miguel Department;El Consuelo
+8905;-89.4958,13.9089;SV-11;Santa Ana Department;El Congo
+0;-88.2333,13.3500;SV-09;San Miguel Department;El Conde
+0;-88.9500,14.1000;SV-03;Chalatenango Department;El Conacaste
+0;-88.8667,14.0833;SV-03;Chalatenango Department;El Conacaste
+0;-89.8000,14.0500;SV-01;Ahuachapan;El Conacaste
+0;-89.4033,13.8333;SV-05;La Libertad Department;Conacaste
+0;-88.4500,13.7167;SV-09;San Miguel Department;El Conacaste
+0;-88.9000,13.6667;SV-06;La Paz Department;El Conacaste
+0;-89.3514,13.6125;SV-05;La Libertad Department;El Conacaste
+0;-89.0333,14.2000;SV-03;Chalatenango Department;El Común
+0;-88.0667,13.5500;SV-09;San Miguel Department;El Colorado
+0;-89.7167,14.0833;SV-11;Santa Ana Department;El Coco
+0;-88.9167,13.9000;SV-02;Cabanas;El Coco
+0;-88.4500,13.5000;SV-14;Usulutan;El Coco
+0;-89.0500,13.3833;SV-06;La Paz Department;El Cocal
+0;-89.4333,14.2333;SV-11;Santa Ana Department;El Cóbano
+0;-89.1167,14.0833;SV-03;Chalatenango Department;El Cobanito
+0;-89.3333,13.7167;SV-05;La Libertad Department;El Cobanal
+0;-88.2667,13.7167;SV-08;Morazan;El Cirigual
+0;-89.1500,13.6500;SV-10;San Salvador Department;El Ciprés
+0;-87.9072,13.2411;SV-07;La Union;El Ciprés
+0;-88.6667,13.9833;SV-02;Cabanas;El Cimarrón
+0;-88.5833,13.6167;SV-12;San Vicente Department;El Cimarrón
+0;-89.2964,13.5333;SV-05;La Libertad Department;El Cimarrón
+0;-88.9833,14.2333;SV-03;Chalatenango Department;El Chupadero
+0;-88.7167,13.5333;SV-12;San Vicente Department;El Chorizo
+0;-90.0500,13.7333;SV-01;Ahuachapan;El Chino
+0;-88.3167,13.3333;SV-09;San Miguel Department;El Chingaste
+0;-88.8833,13.5833;SV-06;La Paz Department;El Chile
+0;-88.4500,13.2167;SV-14;Usulutan;El Chile
+0;-89.4167,13.8500;SV-05;La Libertad Department;El Chilar
+0;-89.3522,13.8267;SV-05;La Libertad Department;El Chilar
+0;-89.0000,14.1000;SV-03;Chalatenango Department;El Chilamate
+0;-87.9167,13.8167;SV-07;La Union;El Chilamate
+0;-89.1333,13.5500;SV-06;La Paz Department;El Chilamate
+0;-88.0731,13.2250;SV-07;La Union;El Chichipate
+0;-89.7500,13.9333;SV-01;Ahuachapan;El Chayal
+0;-88.9000,13.6333;SV-06;La Paz Department;El Chaperno
+0;-88.1500,13.1803;SV-14;Usulutan;El Chapernal
+0;-89.6833,13.8167;SV-13;Sonsonate Department;El Chaparrón
+0;-87.7833,13.7333;SV-07;La Union;El Chaparro
+0;-88.5333,13.9500;SV-02;Cabanas;El Chaparral
+0;-88.3500,13.7667;SV-09;San Miguel Department;El Chaparral
+0;-89.3000,14.4000;SV-03;Chalatenango Department;El Chagüitón
+0;-89.3333,14.3833;SV-11;Santa Ana Department;El Chagüitón
+0;-90.0000,13.9333;SV-01;Ahuachapan;El Chagüite
+0;-88.3667,13.5000;SV-14;Usulutan;El Chagüite
+0;-89.1000,14.2167;SV-03;Chalatenango Department;El Cerrón
+0;-88.2500,13.8333;SV-08;Morazan;El Cerro
+0;-89.5217,13.7125;SV-13;Sonsonate Department;El Cerro
+0;-88.2500,13.5500;SV-09;San Miguel Department;El Cerro
+0;-89.0167,13.5167;SV-06;La Paz Department;El Cerro
+0;-89.7361,13.7581;SV-13;Sonsonate Department;El Cerrito
+0;-88.4167,13.5167;SV-14;Usulutan;El Cerrito
+0;-88.4500,13.3833;SV-14;Usulutan;El Cerrito
+0;-89.1000,14.3833;SV-03;Chalatenango Department;El Centro
+0;-88.9667,13.7333;SV-04;Cuscatlan;El Centro
+0;-87.8667,13.7667;SV-08;Morazan;El Cedro
+0;-89.2211,13.6208;SV-10;San Salvador Department;El Cedro
+0;-88.6167,13.4833;SV-14;Usulutan;El Cedro
+0;-88.1167,14.0500;SV-08;Morazan;El Cedral
+0;-88.0725,13.3581;SV-09;San Miguel Department;El Cedral
+0;-88.0203,13.3783;SV-07;La Union;El Caulotillo
+0;-89.0167,13.9333;SV-04;Cuscatlan;El Caulote
+0;-89.7753,13.7422;SV-13;Sonsonate Department;El Caulote
+0;-88.5000,13.5833;SV-14;Usulutan;El Caulote
+0;-89.4397,13.9111;SV-05;La Libertad Department;El Castillo
+0;-89.7464,13.7253;SV-13;Sonsonate Department;El Castaño
+0;-89.6333,13.6833;SV-13;Sonsonate Department;El Castaño
+0;-88.6833,13.4167;SV-14;Usulutan;El Castaño
+0;-89.4667,13.7167;SV-09;San Miguel Department;El Carrizo
+0;-88.6667,13.5833;SV-12;San Vicente Department;El Carrizo
+0;-89.0833,14.2000;SV-03;Chalatenango Department;El Carrizal
+0;-88.8833,14.1833;SV-03;Chalatenango Department;El Carrizal
+0;-89.3833,14.1667;SV-11;Santa Ana Department;El Carrizal
+0;-88.1333,14.0167;SV-08;Morazan;El Carrizal
+0;-88.0833,13.9500;SV-08;Morazan;El Carrizal
+0;-88.6000,13.8333;SV-02;Cabanas;El Carrizal
+0;-88.2500,13.8000;SV-08;Morazan;El Carrizal
+0;-89.8025,13.7406;SV-13;Sonsonate Department;El Carrizal
+0;-89.7333,13.7333;SV-13;Sonsonate Department;El Carrizal
+0;-88.0167,13.7333;SV-08;Morazan;El Carrizal
+0;-88.9500,13.7000;SV-04;Cuscatlan;El Carrizal
+0;-89.2000,13.5667;SV-10;San Salvador Department;El Carrizal
+0;-88.6000,13.3333;SV-14;Usulutan;El Carrizal
+0;-89.4500,14.3833;SV-11;Santa Ana Department;El Carmen
+0;-89.1833,14.3667;SV-03;Chalatenango Department;El Carmen
+0;-89.4167,14.1667;SV-11;Santa Ana Department;El Carmen
+0;-89.5000,14.0000;SV-11;Santa Ana Department;El Carmen
+0;-89.3489,13.9394;SV-05;La Libertad Department;El Carmen
+0;-89.8333,13.7833;SV-01;Ahuachapan;El Carmen
+0;-88.9167,13.7667;SV-04;Cuscatlan;El Carmen
+0;-89.0000,13.7500;SV-04;Cuscatlan;El Carmen
+0;-89.2667,13.7167;SV-10;San Salvador Department;El Carmen
+0;-88.9000,13.7167;SV-04;Cuscatlan;El Carmen
+0;-88.8667,13.6667;SV-12;San Vicente Department;El Carmen
+0;-89.1333,13.6333;SV-10;San Salvador Department;El Carmen
+0;-88.8667,13.5667;SV-06;La Paz Department;El Carmen
+0;-89.0381,13.4961;SV-06;La Paz Department;El Carmen
+0;-88.6500,13.4333;SV-14;Usulutan;El Carmen
+0;-88.0000,13.3547;SV-07;La Union;El Carmen
+0;-87.9333,13.7333;SV-07;La Union;El Carbonal
+0;-88.7833,13.5167;SV-12;San Vicente Department;El Carao
+0;-88.1442,13.3231;SV-09;San Miguel Department;El Carao
+0;-88.0833,13.2142;SV-07;La Union;El Carao
+0;-88.4833,13.6000;SV-14;Usulutan;El Caragual
+0;-87.9500,13.3833;SV-07;La Union;El Caragón
+0;-88.6333,13.9333;SV-02;Cabanas;El Caracol
+0;-88.7000,13.5333;SV-12;San Vicente Department;El Caracol
+0;-88.8000,13.4833;SV-12;San Vicente Department;El Caracol
+0;-89.4333,14.3333;SV-11;Santa Ana Department;El Capulín
+0;-88.0833,13.9167;SV-08;Morazan;El Capulín
+0;-90.1036,13.7775;SV-01;Ahuachapan;El Capulín
+0;-89.9333,13.7500;SV-01;Ahuachapan;El Capulín
+0;-87.7167,13.4000;SV-07;La Union;El Capulín
+0;-88.1264,13.2844;SV-09;San Miguel Department;El Capulín
+0;-87.9500,13.4667;SV-07;La Union;El Capitán
+0;-89.7167,13.8167;SV-13;Sonsonate Department;El Canelo
+0;-88.3000,13.3167;SV-14;Usulutan;El Cañal
+0;-88.6833,13.9167;SV-02;Cabanas;El Camalote
+0;-88.9167,13.7833;SV-04;Cuscatlan;El Calvario
+0;-89.1833,13.7500;SV-10;San Salvador Department;El Callejón
+0;-88.8167,13.5167;SV-06;La Paz Department;El Callejón
+0;-89.4000,14.1667;SV-11;Santa Ana Department;El Cagalero
+0;-88.9500,13.9000;SV-02;Cabanas;El Cacao
+0;-89.1667,13.7000;SV-10;San Salvador Department;El Cacao
+0;-89.6553,13.6625;SV-13;Sonsonate Department;El Cacao
+0;-88.2667,13.2667;SV-14;Usulutan;El Cacao
+0;-87.8525,13.2389;SV-07;La Union;El Cacao
+0;-89.4000,14.4500;SV-11;Santa Ana Department;El Brujo
+0;-88.6333,13.6167;SV-12;San Vicente Department;El Brujo
+0;-88.2144,13.3444;SV-09;San Miguel Department;El Brazo
+0;-88.0667,13.9000;SV-08;Morazan;El Bramadero
+0;-88.6833,13.9833;SV-02;Cabanas;El Bosque
+0;-88.2478,13.3508;SV-09;San Miguel Department;El Borbollón
+0;-89.2014,13.8633;SV-10;San Salvador Department;El Bonete
+0;-89.2667,14.0000;SV-10;San Salvador Department;El Bejuco
+0;-89.5167,13.9333;SV-11;Santa Ana Department;El Bejuco
+0;-89.5806,13.7267;SV-13;Sonsonate Department;El Bebedero
+0;-89.8272,13.9125;SV-01;Ahuachapan;El Barro
+0;-88.1000,14.0000;SV-08;Morazan;El Barrancón
+0;-89.2872,13.6150;SV-05;La Libertad Department;El Barillo
+0;-88.6667,13.8667;SV-02;Cabanas;El Bañadero
+0;-89.6167,13.6833;SV-13;Sonsonate Department;El Balsamar
+0;-89.6839,13.8325;SV-13;Sonsonate Department;El Arenal
+0;-89.1833,13.7667;SV-10;San Salvador Department;El Arenal
+0;-89.8833,13.8333;SV-01;Ahuachapan;El Arco
+0;-88.7833,13.5500;SV-12;San Vicente Department;El Arco
+0;-88.3167,13.1667;SV-14;Usulutan;El Arco
+0;-89.7167,13.9333;SV-11;Santa Ana Department;El Arado
+0;-88.2667,13.2833;SV-14;Usulutan;El Aquino
+0;-88.0000,13.6667;SV-08;Morazan;El Apintal
+0;-89.7667,13.9167;SV-01;Ahuachapan;El Anonal
+0;-89.3506,13.9414;SV-05;La Libertad Department;El Ángel Talcualuya
+0;-89.2000,13.8000;SV-10;San Salvador Department;El Ángel
+0;-89.5497,13.5747;SV-05;La Libertad Department;El Ángel
+0;-89.0167,13.5500;SV-06;La Paz Department;El Ángel
+0;-88.4167,13.5000;SV-14;Usulutan;El Amatón
+0;-89.6325,14.1906;SV-11;Santa Ana Department;Caserío El Amatillo
+0;-90.1075,13.7822;SV-01;Ahuachapan;El Amatillo
+0;-88.5000,13.7833;SV-09;San Miguel Department;El Amatillo
+0;-88.4667,13.6167;SV-14;Usulutan;El Amatillo
+0;-87.7667,13.6000;SV-07;La Union;El Amatillo
+0;-87.9667,13.3167;SV-07;La Union;El Amatillo
+0;-88.2833,13.2167;SV-14;Usulutan;El Amatillo
+0;-88.2333,13.1667;SV-14;Usulutan;El Amatillo
+0;-88.7333,13.8333;SV-02;Cabanas;El Amate
+0;-87.8000,13.5167;SV-07;La Union;El Amate
+0;-88.4000,13.5000;SV-14;Usulutan;El Amate
+0;-88.2214,13.4756;SV-09;San Miguel Department;El Amate
+0;-88.8000,13.4333;SV-06;La Paz Department;El Amate
+0;-88.2322,13.3833;SV-09;San Miguel Department;El Amate
+0;-89.5500,14.3500;SV-11;Santa Ana Department;El Amatal
+0;-90.0506,13.8431;SV-01;Ahuachapan;El Amatal
+0;-89.9000,13.6333;SV-13;Sonsonate Department;El Amatal
+0;-88.9667,13.3833;SV-06;La Paz Department;El Amatal
+0;-87.9167,13.4333;SV-07;La Union;El Alto
+0;-88.0994,13.2158;SV-09;San Miguel Department;El Almidón
+0;-89.7167,13.7500;SV-13;Sonsonate Department;El Almendro
+0;-87.8506,13.6197;SV-07;La Union;El Algodón
+0;-89.3833,14.2333;SV-11;Santa Ana Department;El Ahogado
+0;-88.6000,13.8667;SV-02;Cabanas;El Aguacate
+0;-88.0667,13.7667;SV-08;Morazan;El Achiote
+0;-89.5667,13.6667;SV-13;Sonsonate Department;El Achiotal
+0;-89.0303,13.4064;SV-06;La Paz Department;El Achiotal
+0;-88.1167,13.7500;SV-08;Morazan;El Aceituno
+0;-88.4167,13.5833;SV-14;Usulutan;El Aceituno
+0;-89.0167,14.1500;SV-03;Chalatenango Department;Dulce Nombre de María
+0;-89.5167,14.4000;SV-11;Santa Ana Department;Dulce Nombre
+0;-89.0464,13.5183;SV-06;La Paz Department;Dulce Nombre
+0;-88.7667,13.6167;SV-12;San Vicente Department;Dos Quebradas
+0;-89.0761,13.7067;SV-10;San Salvador Department;Dolores Apulo
+0;-88.5667,13.7833;SV-02;Cabanas;Dolores
+0;-88.1333,13.7833;SV-08;Morazan;Delicias de Concepción
+0;-88.9000,13.5000;SV-06;La Paz Department;Delicias de Concepción
+71594;-89.1687,13.7217;SV-10;San Salvador Department;Delgado
+0;-89.0978,13.5486;SV-06;La Paz Department;Cuyultitán
+0;-89.3500,14.2500;SV-11;Santa Ana Department;Cuyuiscat
+0;-89.7683,13.7072;SV-13;Sonsonate Department;Cuyuapa Abajo
+0;-89.7725,13.7714;SV-13;Sonsonate Department;Cuyuapa
+0;-88.6167,13.8333;SV-02;Cabanas;Cuyantepeque
+0;-89.7739,13.9339;SV-01;Ahuachapan;Cuyanausul
+0;-89.6286,13.7636;SV-13;Sonsonate Department;Cuyagualo
+0;-89.3833,13.7167;SV-05;La Libertad Department;Cuyagualo
+0;-88.7500,13.6500;SV-12;San Vicente Department;Cutumayo
+0;-89.5000,14.0500;SV-11;Santa Ana Department;Cutumay Camones
+44369;-89.1816,13.7270;SV-10;San Salvador Department;Cuscatancingo
+0;-89.7225,13.8136;SV-13;Sonsonate Department;Cusamaluco
+0;-88.1500,13.9167;SV-08;Morazan;Cururo
+0;-88.5833,13.8000;SV-02;Cabanas;Curarén
+0;-88.0167,13.8833;SV-08;Morazan;Cuquinca
+0;-89.1000,13.5500;SV-06;La Paz Department;Cupinco
+0;-89.8167,13.6667;SV-13;Sonsonate Department;Cupatacho
+0;-89.6336,13.7508;SV-13;Sonsonate Department;Cuntán
+0;-88.1167,13.9167;SV-08;Morazan;Cumaro
+0;-89.5000,14.0833;SV-11;Santa Ana Department;Cujucuyo
+0;-88.9833,13.7000;SV-04;Cuscatlan;Cujuapa
+0;-89.6036,13.6367;SV-13;Sonsonate Department;Cuisnahuat
+0;-88.9667,14.2000;SV-03;Chalatenango Department;Cuevitas
+0;-88.9833,14.0000;SV-03;Chalatenango Department;Cuesta de Marina
+0;-89.4667,13.6333;SV-05;La Libertad Department;Cuervo Arriba
+0;-89.4500,13.6167;SV-05;La Libertad Department;Cuervo Abajo
+0;-88.4667,13.8500;SV-09;San Miguel Department;Cucurucho
+0;-89.1467,13.6667;SV-10;San Salvador Department;Guapa
+0;-89.7333,13.6000;SV-13;Sonsonate Department;Cruz Verde
+0;-88.2833,13.3500;SV-09;San Miguel Department;Cruz Verde
+0;-89.6667,13.7667;SV-13;Sonsonate Department;Cruz Grande
+0;-88.8667,13.8167;SV-02;Cabanas;Cruz del Llano
+0;-88.7833,13.4333;SV-12;San Vicente Department;Cruzadilla de Vaqueranos
+0;-88.3000,13.7167;SV-09;San Miguel Department;Coyotera
+0;-88.8500,14.1000;SV-03;Chalatenango Department;Coyolar
+0;-89.4667,14.1500;SV-11;Santa Ana Department;Costa Rica
+0;-88.9667,13.8000;SV-04;Cuscatlan;Corral Viejo
+0;-87.9500,13.8167;SV-08;Morazan;Corralito
+0;-88.8833,13.9500;SV-03;Chalatenango Department;Corral Falso
+0;-88.7667,13.8667;SV-02;Cabanas;Corral de Piedras
+0;-88.5526,13.2054;SV-14;Usulutan;Corral de Mulas
+0;-89.0667,14.0000;SV-04;Cuscatlan;Corozal
+0;-88.5167,13.7333;SV-09;San Miguel Department;Corlantique
+3160;-87.9714,13.8108;SV-08;Morazan;Corinto
+0;-88.4000,13.7000;SV-09;San Miguel Department;Cordoncillo
+0;-87.9167,13.7000;SV-07;La Union;Cordoncillo
+0;-87.9833,13.4667;SV-07;La Union;Cordoncillo
+0;-89.6500,13.6333;SV-13;Sonsonate Department;Coquiama
+0;-88.7333,13.9000;SV-02;Cabanas;Copinolapa
+0;-88.8833,13.7500;SV-04;Cuscatlan;Copinol
+0;-88.6000,13.6167;SV-12;San Vicente Department;Copinol
+0;-87.9369,13.6967;SV-07;La Union;Copetillos
+0;-88.9667,13.9333;SV-04;Cuscatlan;Copapayo
+0;-88.7833,14.0000;SV-03;Chalatenango Department;Copalío
+0;-88.9667,13.8500;SV-04;Cuscatlan;Copalchán
+0;-89.2669,13.9811;SV-10;San Salvador Department;Consolación
+0;-89.0778,13.9825;SV-04;Cuscatlan;Consolación
+0;-88.5333,13.6167;SV-14;Usulutan;Condadillo
+0;-87.9333,13.2000;SV-07;La Union;Condadillo
+0;-87.8500,13.3000;SV-07;La Union;Conchagüita
+0;-87.7589,13.2392;SV-07;La Union;Conchagüita
+0;-88.1167,13.1667;SV-09;San Miguel Department;Conchagüita
+3034;-87.8647,13.3078;SV-07;La Union;Conchagua
+0;-88.9500,14.0833;SV-03;Chalatenango Department;Concepción Quezaltepeque
+0;-88.9833,13.6333;SV-06;La Paz Department;Concepción Lourdes
+0;-89.1000,13.5833;SV-06;La Paz Department;Concepción Los Planes
+0;-88.9333,13.4833;SV-06;La Paz Department;Concepción Jalponga
+0;-87.7167,13.7914;SV-07;La Union;Concepción de Oriente
+7797;-89.8486,13.8703;SV-01;Ahuachapan;Concepción de Ataco
+0;-88.1333,13.6000;SV-09;San Miguel Department;Concepción Corozalito
+0;-88.8500,13.6667;SV-12;San Vicente Department;Concepción Cañas
+3286;-88.3667,13.3500;SV-14;Usulutan;Concepción Batres
+0;-89.1000,14.1833;SV-03;Chalatenango Department;Concepción
+0;-88.8000,13.9833;SV-03;Chalatenango Department;Concepción
+0;-89.4914,13.9739;SV-11;Santa Ana Department;Concepción
+0;-88.8667,13.8667;SV-02;Cabanas;Concepción
+0;-88.9333,13.7833;SV-04;Cuscatlan;Concepción
+0;-88.9667,13.7000;SV-04;Cuscatlan;Concepción
+0;-88.9333,13.6333;SV-06;La Paz Department;Concepción
+0;-88.3833,13.5667;SV-09;San Miguel Department;Concepción
+0;-88.5333,13.5167;SV-14;Usulutan;Concepción
+0;-89.7333,13.6667;SV-13;Sonsonate Department;Conacaste Herrado
+0;-89.5253,13.9458;SV-11;Santa Ana Department;Conacaste
+0;-89.2378,13.8047;SV-10;San Salvador Department;Conacaste
+0;-89.3292,13.7750;SV-05;La Libertad Department;Conacaste
+0;-88.3000,13.4333;SV-09;San Miguel Department;Conacastal
+0;-89.6000,14.0000;SV-11;Santa Ana Department;Comecayo
+0;-89.5333,13.5333;SV-05;La Libertad Department;Comaylán
+0;-89.3783,13.6392;SV-05;La Libertad Department;Comasagua
+0;-89.7167,13.9833;SV-01;Ahuachapan;Comapa
+0;-88.9500,14.1333;SV-03;Chalatenango Department;Comalapa
+0;-89.6500,13.7000;SV-13;Sonsonate Department;Comalapa
+0;-89.0758,13.5011;SV-06;La Paz Department;Comalapa
+0;-88.0667,13.5333;SV-09;San Miguel Department;Comacarán
+0;-88.5667,13.5500;SV-14;Usulutan;Colón
+0;-89.1333,14.0500;SV-04;Cuscatlan;Colima
+48411;-88.9331,13.7197;SV-04;Cuscatlan;Cojutepeque
+0;-88.0211,13.3975;SV-07;La Union;Cofradía Nueva
+5773;-89.5042,13.9286;SV-11;Santa Ana Department;Coatepeque
+8491;-88.2667,13.7667;SV-09;San Miguel Department;Ciudad Barrios
+10095;-89.4472,13.8403;SV-05;La Libertad Department;Ciudad Arce
+0;-89.2167,14.3667;SV-03;Chalatenango Department;Citalá
+0;-87.9833,13.5000;SV-07;La Union;Ciricuario
+0;-88.9667,13.8833;SV-02;Cabanas;Cinquera
+0;-88.5833,13.9167;SV-02;Cabanas;Chunte
+0;-88.7500,13.6167;SV-12;San Vicente Department;Chucuyo
+0;-88.1122,13.4486;SV-09;San Miguel Department;Chucuyo
+0;-89.5000,14.3333;SV-11;Santa Ana Department;Chucumba
+0;-88.9833,14.2500;SV-03;Chalatenango Department;Chorro Blanco
+0;-89.6500,13.7667;SV-13;Sonsonate Department;Chorro Arriba
+0;-89.6667,13.7500;SV-13;Sonsonate Department;Chorro Abajo
+6393;-88.1386,13.2203;SV-09;San Miguel Department;Chirilagua
+0;-89.6939,13.6678;SV-13;Sonsonate Department;Chiquihuat
+0;-89.7906,13.9286;SV-01;Ahuachapan;Chipilapa
+8646;-88.3500,13.5000;SV-09;San Miguel Department;Chinameca
+0;-89.4500,14.3500;SV-11;Santa Ana Department;Chimalapa
+0;-89.4689,13.5906;SV-05;La Libertad Department;Chiltiupán
+0;-89.3667,14.1167;SV-03;Chalatenango Department;Chilincito
+0;-89.3833,14.1667;SV-11;Santa Ana Department;Chilín
+0;-89.5333,14.0667;SV-11;Santa Ana Department;Chilcuyo
+0;-89.5322,13.6753;SV-13;Sonsonate Department;Chilata
+0;-88.1717,13.3036;SV-09;San Miguel Department;Chilanguera
+0;-88.1167,13.7167;SV-08;Morazan;Chilanga
+0;-89.2167,14.0500;SV-03;Chalatenango Department;Chilamates
+0;-88.4000,13.6833;SV-09;San Miguel Department;Chilamate
+0;-87.8667,13.3167;SV-07;La Union;Chilagual
+0;-88.8833,14.0333;SV-03;Chalatenango Department;Chiapas
+0;-88.3500,13.7500;SV-09;San Miguel Department;Charlaca
+3159;-88.2667,13.6333;SV-09;San Miguel Department;Chapeltique
+0;-88.6167,13.8000;SV-02;Cabanas;Chapelcoro
+0;-88.1333,13.7000;SV-08;Morazan;Chaparral
+0;-89.3828,13.8867;SV-05;La Libertad Department;Chantusnene
+0;-89.3564,13.7872;SV-05;La Libertad Department;Chanmico
+0;-89.8667,13.9333;SV-01;Ahuachapan;Chancuyo
+0;-88.9833,13.5333;SV-06;La Paz Department;Chancuyo
+0;-89.2119,13.7606;SV-10;San Salvador Department;Chancala
+0;-88.6333,13.6000;SV-12;San Vicente Department;Chamoco
+0;-88.3333,13.4500;SV-09;San Miguel Department;Chambala
+0;-88.8500,13.9500;SV-02;Cabanas;Chamalistagua
+0;-89.1522,13.6472;SV-10;San Salvador Department;Chaltepe
+32282;-89.6811,13.9867;SV-11;Santa Ana Department;Chalchuapa
+19364;-88.9395,14.0414;SV-03;Chalatenango Department;Chalatenango
+0;-89.3167,14.2167;SV-11;Santa Ana Department;Chagüitón
+0;-87.8897,13.5508;SV-07;La Union;Chagüitillo
+0;-90.0411,13.8472;SV-01;Ahuachapan;Chagalapa
+0;-88.7500,13.7667;SV-12;San Vicente Department;Cerros de San Pedro
+0;-87.8419,13.6011;SV-07;La Union;Cerro Pelón
+0;-88.1167,13.8333;SV-08;Morazan;Cerro Pando
+0;-89.2000,14.2833;SV-03;Chalatenango Department;Cerro Grande
+0;-88.7833,14.0833;SV-03;Chalatenango Department;Cerro Grande
+0;-88.8333,13.6667;SV-12;San Vicente Department;Cerro Grande
+0;-88.4500,13.3833;SV-14;Usulutan;Cerro El Nanzal
+0;-87.9333,13.3167;SV-07;La Union;Cerro El Jiote
+0;-89.6167,13.7000;SV-13;Sonsonate Department;Cerro de Las Flores
+0;-88.8833,13.7833;SV-02;Cabanas;Cerro Colorado
+0;-88.0911,13.4464;SV-09;San Miguel Department;Cerro Bonito
+0;-89.6333,13.7000;SV-13;Sonsonate Department;Cerro Alto
+0;-88.2000,13.9000;SV-08;Morazan;Cerritos
+0;-89.2000,13.4833;SV-10;San Salvador Department;Cerco de Piedra
+0;-87.9019,13.3997;SV-07;La Union;Cerco de Piedras
+0;-88.0000,13.4597;SV-07;La Union;Centeno
+0;-87.9422,13.4647;SV-07;La Union;Ceibillas
+0;-88.6500,13.3667;SV-14;Usulutan;Canton Criba
+0;-89.6333,13.7333;SV-13;Sonsonate Department;Ceiba del Charco
+0;-89.2500,13.6833;SV-05;La Libertad Department;Ceiba de Guadalupe
+0;-89.8664,13.7594;SV-01;Ahuachapan;Cauta Arriba
+0;-89.8667,13.7333;SV-01;Ahuachapan;Cauta Abajo
+0;-89.3000,14.3000;SV-11;Santa Ana Department;Casitas
+0;-89.4833,14.1667;SV-11;Santa Ana Department;Casitas
+0;-87.9833,13.6500;SV-08;Morazan;Casas Viejas
+0;-89.6167,14.1167;SV-11;Santa Ana Department;Casas de Teja
+0;-89.4167,14.3500;SV-11;Santa Ana Department;Casa de Tejas
+0;-89.2167,13.6500;SV-10;San Salvador Department;Casa de Piedra
+0;-88.1667,13.9667;SV-08;Morazan;Casa Blanca
+0;-88.9500,13.8667;SV-02;Cabanas;Carrasco
+0;-87.7833,13.8667;SV-07;La Union;Carpintero
+0;-88.8667,13.9500;SV-02;Cabanas;Carolina
+0;-88.3000,13.8500;SV-09;San Miguel Department;Carolina
+0;-87.9667,13.2000;SV-07;La Union;Caribal
+0;-90.0358,13.7792;SV-01;Ahuachapan;Cara Sucia
+0;-88.7833,14.0667;SV-03;Chalatenango Department;Carasque
+0;-88.1419,13.3767;SV-09;San Miguel Department;Cantora
+0;-87.9500,13.1667;SV-07;La Union;Canoguero
+0;-89.6914,13.7267;SV-13;Sonsonate Department;Cangrejera
+0;-89.1794,13.4658;SV-05;La Libertad Department;Cangrejera
+0;-88.5167,13.7000;SV-12;San Vicente Department;Candelaria Lempa
+6301;-89.6500,14.1167;SV-11;Santa Ana Department;Candelaria de La Frontera
+0;-87.9469,13.6081;SV-07;La Union;Candelaria Albornoz
+0;-88.9500,14.1167;SV-03;Chalatenango Department;Candelaria
+0;-88.8667,13.9667;SV-03;Chalatenango Department;Candelaria
+0;-88.4333,13.7833;SV-09;San Miguel Department;Candelaria
+0;-88.9500,13.7500;SV-04;Cuscatlan;Candelaria
+0;-88.9000,13.7167;SV-04;Cuscatlan;Candelaria
+0;-88.9833,13.6833;SV-04;Cuscatlan;Candelaria
+0;-88.0333,13.6833;SV-08;Morazan;Candelaria
+0;-88.8167,13.6500;SV-12;San Vicente Department;Candelaria
+0;-89.0933,13.6153;SV-06;La Paz Department;Candelaria
+0;-88.0333,13.5333;SV-09;San Miguel Department;Candelaria
+0;-88.3667,13.4333;SV-09;San Miguel Department;Candelaria
+0;-88.1833,13.9500;SV-08;Morazan;Cañaverales
+0;-89.3833,14.3167;SV-11;Santa Ana Department;Cañas Dulces
+0;-87.8203,13.6642;SV-07;La Union;Canaire
+0;-88.5167,13.8000;SV-02;Cabanas;Cañafístula
+0;-88.5833,13.7500;SV-02;Cabanas;Cañafístula
+0;-89.1333,13.6500;SV-10;San Salvador Department;Caña Brava
+0;-89.2833,14.2833;SV-11;Santa Ana Department;Camulián
+0;-88.4833,13.5333;SV-14;Usulutan;Campanero
+0;-88.8000,13.5000;SV-12;San Vicente Department;Campanario
+0;-89.3772,13.9978;SV-05;La Libertad Department;Campana
+0;-88.7667,13.9833;SV-02;Cabanas;Campamento Número Uno
+0;-88.7500,13.9833;SV-02;Cabanas;Campamento Número Dos
+0;-89.4667,14.2167;SV-11;Santa Ana Department;Campamento Guajoyo
+0;-89.2000,13.8333;SV-10;San Salvador Department;Camotepeque
+0;-89.6622,13.7236;SV-13;Sonsonate Department;Caluco
+0;-87.9667,13.7333;SV-08;Morazan;Calpules
+0;-89.1500,13.7500;SV-10;San Salvador Department;Calle Real
+0;-89.1669,13.8592;SV-10;San Salvador Department;Calle Nueva
+0;-88.2833,13.3667;SV-09;San Miguel Department;Calle Nueva
+0;-88.4667,13.4333;SV-14;Usulutan;California
+0;-88.6667,13.3667;SV-14;Usulutan;California
+0;-88.9500,13.9000;SV-02;Cabanas;Caleras
+0;-88.7667,13.6833;SV-12;San Vicente Department;Calderas
+0;-88.0000,13.8167;SV-08;Morazan;Calavera
+0;-89.9167,13.9833;SV-01;Ahuachapan;Calapa
+2528;-88.0833,13.7667;SV-08;Morazan;Cacaopera
+0;-88.0500,13.6833;SV-08;Morazan;Cacahuatalejo
+0;-88.5667,13.3167;SV-14;Usulutan;Cabos Negros
+0;-89.6475,13.8833;SV-11;Santa Ana Department;Buenos Aires
+0;-89.7525,13.8747;SV-13;Sonsonate Department;Buenos Aires
+0;-88.8000,13.8667;SV-02;Cabanas;Buenos Aires
+0;-89.0333,13.7333;SV-04;Cuscatlan;Buenos Aires
+0;-89.8833,13.6500;SV-13;Sonsonate Department;Buenos Aires
+0;-89.3858,13.5328;SV-05;La Libertad Department;Buenos Aires
+0;-88.5833,13.4500;SV-14;Usulutan;Buenos Aires
+0;-88.8333,13.5500;SV-06;La Paz Department;Buena Vista Arrinconada
+0;-88.8500,13.5167;SV-06;La Paz Department;Buena Vista Arriba
+0;-88.8333,13.5167;SV-06;La Paz Department;Buena Vista Abajo
+0;-89.3894,13.9292;SV-05;La Libertad Department;Buena Vista
+0;-89.1167,13.9333;SV-04;Cuscatlan;Buena Vista
+0;-88.9667,13.7500;SV-04;Cuscatlan;Buena Vista
+0;-89.4833,13.7167;SV-05;La Libertad Department;Buena Vista
+0;-89.0000,13.7167;SV-04;Cuscatlan;Buena Vista
+0;-89.2833,13.7000;SV-05;La Libertad Department;Buena Vista
+0;-89.1500,13.7000;SV-10;San Salvador Department;Buena Vista
+0;-89.0500,13.5500;SV-06;La Paz Department;Buena Vista
+0;-89.3500,13.7333;SV-05;La Libertad Department;Botoncillal
+0;-87.7792,13.7394;SV-07;La Union;Boquín
+0;-88.3500,13.5000;SV-09;San Miguel Department;Boquerón
+0;-87.9558,13.5736;SV-07;La Union;Bolívar
+0;-88.6667,13.4500;SV-14;Usulutan;Bolívar
+0;-87.9333,13.3833;SV-07;La Union;Bobadilla
+11313;-88.5333,13.5000;SV-14;Usulutan;Berlín
+0;-89.6167,13.9667;SV-11;Santa Ana Department;Beneficio Monte Alegre
+0;-89.6333,13.9167;SV-11;Santa Ana Department;Beneficio Las Cruces
+0;-88.4500,13.5000;SV-14;Usulutan;Beneficio El Marquesado
+0;-89.4667,14.2167;SV-11;Santa Ana Department;Belén Güijat
+0;-89.3833,14.2833;SV-11;Santa Ana Department;Belén
+0;-88.3167,13.7667;SV-09;San Miguel Department;Belén
+0;-89.0000,13.5667;SV-06;La Paz Department;Belén
+0;-88.1167,13.6000;SV-08;Morazan;Barrios
+0;-88.8000,13.4333;SV-12;San Vicente Department;Barrio Nuevo
+0;-88.9333,13.6500;SV-04;Cuscatlan;Barrio Abajo
+0;-89.7000,13.5333;SV-13;Sonsonate Department;Barra Salada
+0;-87.7908,13.4336;SV-07;La Union;Barrancones
+0;-89.3586,13.9014;SV-05;La Libertad Department;Barranca Honda
+0;-90.0064,13.6972;SV-01;Ahuachapan;Barra de Santiago
+0;-89.0000,13.5333;SV-06;La Paz Department;Barahona
+0;-88.4667,13.6500;SV-14;Usulutan;Azacualpía de Joco
+0;-88.4500,13.6333;SV-14;Usulutan;Azacualpía de Gualcho
+0;-89.5500,14.0833;SV-11;Santa Ana Department;Azacualpa
+0;-88.9833,13.9833;SV-03;Chalatenango Department;Azacualpa
+0;-88.2000,13.9667;SV-08;Morazan;Azacualpa
+0;-88.6000,13.9500;SV-02;Cabanas;Azacualpa
+0;-88.8333,13.8833;SV-02;Cabanas;Azacualpa
+0;-88.2167,13.8833;SV-08;Morazan;Azacualpa
+0;-89.8833,13.7833;SV-01;Ahuachapan;Azacualpa
+0;-89.5267,13.7619;SV-13;Sonsonate Department;Azacualpa
+0;-89.1742,13.5522;SV-10;San Salvador Department;Azacualpa
+0;-88.8333,13.3500;SV-06;La Paz Department;Azacualpa
+25426;-89.2022,13.7354;SV-10;San Salvador Department;Ayutuxtepeque
+0;-89.6167,14.0333;SV-11;Santa Ana Department;Ayutica
+0;-89.6714,13.9444;SV-11;Santa Ana Department;Ayutepeque
+0;-89.5833,14.0333;SV-11;Santa Ana Department;Ayuta
+0;-89.2878,13.6375;SV-05;La Libertad Department;Ayagualo
+9476;-89.7525,13.9769;SV-01;Ahuachapan;Atiquizaya
+0;-89.2833,14.0167;SV-05;La Libertad Department;Atiocoyo
+0;-89.5514,13.6408;SV-13;Sonsonate Department;Atiluya
+0;-89.4333,13.7333;SV-05;La Libertad Department;Ateos
+0;-89.0261,13.5122;SV-06;La Paz Department;Asunción Amatepe
+0;-89.0500,13.4500;SV-06;La Paz Department;Astoria
+0;-89.1003,13.6753;SV-10;San Salvador Department;Asino
+0;-89.8333,13.9500;SV-01;Ahuachapan;Ashapuco
+14997;-89.4989,13.7436;SV-13;Sonsonate Department;Armenia
+0;-88.3833,13.4333;SV-09;San Miguel Department;Arenales
+0;-88.7500,14.0833;SV-03;Chalatenango Department;Arcatao
+0;-88.1333,13.9167;SV-08;Morazan;Arambala
+0;-88.6333,13.7667;SV-12;San Vicente Department;Aradillas
+0;-89.1167,14.2000;SV-03;Chalatenango Department;Aposentos
+112158;-89.1792,13.8072;SV-10;San Salvador Department;Apopa
+5785;-88.7833,13.6667;SV-12;San Vicente Department;Apastepeque
+0;-88.5000,13.5167;SV-14;Usulutan;Apastepeque
+0;-88.3000,13.7833;SV-09;San Miguel Department;Apapuerta
+0;-89.8011,13.8600;SV-01;Ahuachapan;Apaneca
+0;-89.6203,13.6036;SV-13;Sonsonate Department;Apancoyo
+0;-88.8000,13.6500;SV-12;San Vicente Department;Antón Flores
+33767;-89.2532,13.6649;SV-05;La Libertad Department;Antiguo Cuscatlán
+0;-88.8500,13.4167;SV-06;La Paz Department;Ánimas Arriba
+0;-88.8667,13.3667;SV-06;La Paz Department;Ánimas Abajo
+0;-89.0939,13.8100;SV-04;Cuscatlan;Ánimas
+0;-88.9667,13.7667;SV-04;Cuscatlan;Ánimas
+0;-89.4667,14.4167;SV-11;Santa Ana Department;Anguiatú
+0;-88.0608,13.4269;SV-09;San Miguel Department;Anchico
+2655;-87.8736,13.7406;SV-07;La Union;Anamorós
+0;-88.3833,13.3667;SV-14;Usulutan;Analco
+0;-89.7311,13.8039;SV-13;Sonsonate Department;Anal Arriba
+0;-89.7333,13.7833;SV-13;Sonsonate Department;Anal Abajo
+0;-88.9667,13.5667;SV-06;La Paz Department;Amulunco
+0;-89.1719,13.5172;SV-10;San Salvador Department;Amayón
+0;-88.8833,13.5667;SV-06;La Paz Department;Amayo
+0;-88.3500,13.5667;SV-09;San Miguel Department;Amaya
+0;-88.7333,13.7500;SV-12;San Vicente Department;Amatitán Arriba
+0;-88.7167,13.7667;SV-12;San Vicente Department;Amatitán Abajo
+0;-89.1000,13.7000;SV-10;San Salvador Department;Amatitán
+0;-89.2500,13.5833;SV-05;La Libertad Department;Amaquilco
+0;-87.8294,13.3050;SV-07;La Union;Amapalita
+0;-89.2667,13.7333;SV-05;La Libertad Department;Álvarez
+0;-88.8000,14.0000;SV-03;Chalatenango Department;Alvarenga
+0;-88.1833,13.5833;SV-09;San Miguel Department;Altomiro
+0;-88.8833,13.9833;SV-03;Chalatenango Department;Alto El Sitio
+0;-87.9761,13.3242;SV-07;La Union;Alto El Roble
+0;-89.7231,13.6692;SV-13;Sonsonate Department;Alemán
+0;-88.4833,13.5000;SV-14;Usulutan;Alegría
+0;-89.1167,14.1333;SV-03;Chalatenango Department;Aldeíta
+0;-89.3833,14.2833;SV-11;Santa Ana Department;Aldea Zapote
+0;-88.9333,14.1333;SV-03;Chalatenango Department;Aldea Vieja
+0;-88.8500,14.0500;SV-03;Chalatenango Department;Aldea Vieja
+0;-89.5667,13.9833;SV-11;Santa Ana Department;Aldea San Antonio
+0;-89.2000,13.8000;SV-10;San Salvador Department;Aldea Mercedes
+0;-89.4919,13.9111;SV-11;Santa Ana Department;Aldea de La Cruz
+0;-87.9500,13.5833;SV-07;La Union;Albornoz Arriba
+0;-87.9500,13.6000;SV-07;La Union;Albornoz
+0;-88.9333,13.8167;SV-04;Cuscatlan;Ajuluco
+34102;-89.8434,13.9240;SV-01;Ahuachapan;Ahuachapán
+21445;-89.1897,13.9572;SV-10;San Salvador Department;Aguilares
+0;-89.2167,14.1333;SV-03;Chalatenango Department;Agua Zarca
+0;-88.2167,13.9333;SV-08;Morazan;Agua Zarca
+0;-88.6500,13.8833;SV-02;Cabanas;Agua Zarca
+0;-88.8667,13.8000;SV-02;Cabanas;Agua Zarca
+0;-88.0833,13.7667;SV-08;Morazan;Agua Zarca
+0;-88.3000,13.7000;SV-09;San Miguel Department;Agua Zarca
+0;-88.2000,13.5333;SV-09;San Miguel Department;Agua Zarca
+0;-88.8000,13.4000;SV-06;La Paz Department;Agua Zarca
+0;-89.8000,13.9167;SV-01;Ahuachapan;Agua Shuca
+0;-89.5667,13.7000;SV-13;Sonsonate Department;Agua Shuca
+0;-89.5833,13.6492;SV-13;Sonsonate Department;Agua Shuca
+0;-89.7500,13.7000;SV-13;Sonsonate Department;Agua Santa
+0;-87.8333,13.5833;SV-07;La Union;Agua Salada
+0;-88.1061,13.4761;SV-09;San Miguel Department;Agua Salada
+0;-89.1667,14.1000;SV-03;Chalatenango Department;Aguaje Escondido
+0;-89.2881,13.9889;SV-10;San Salvador Department;Agua Helada
+0;-88.7333,13.7167;SV-12;San Vicente Department;Agua Helada
+0;-88.7333,13.4167;SV-12;San Vicente Department;Agua Fuerte
+0;-89.2500,14.2333;SV-03;Chalatenango Department;Agua Fría
+0;-89.4167,14.1833;SV-11;Santa Ana Department;Agua Fría
+0;-89.5167,13.9500;SV-11;Santa Ana Department;Agua Fría
+0;-90.0000,13.9017;SV-01;Ahuachapan;Agua Fría
+0;-88.0333,13.8833;SV-08;Morazan;Agua Fría
+0;-88.1167,13.8000;SV-08;Morazan;Agua Fría
+0;-87.9000,13.7833;SV-07;La Union;Agua Fría
+0;-87.9333,13.4003;SV-07;La Union;Aguas Frías
+0;-89.3508,13.8308;SV-05;La Libertad Department;Agua Escondida
+0;-87.8108,13.2975;SV-07;La Union;Agua Escondida
+0;-89.9833,13.7667;SV-01;Ahuachapan;Aguachapío
+0;-89.0494,13.9278;SV-04;Cuscatlan;Aguacayo
+0;-88.5833,13.3333;SV-14;Usulutan;Aguacayo
+0;-89.1167,14.3333;SV-03;Chalatenango Department;Aguacatal
+0;-89.2333,14.1833;SV-03;Chalatenango Department;Agua Caliente
+0;-89.6333,13.7167;SV-13;Sonsonate Department;Agua Caliente
+0;-87.9600,13.2411;SV-07;La Union;Agua Caliente
+0;-88.0500,13.8167;SV-08;Morazan;Agua Blanca
+0;-87.9208,13.7486;SV-07;La Union;Agua Blanca
+0;-87.7336,13.7642;SV-07;La Union;Agua Blanca
+22763;-89.8275,13.5928;SV-13;Sonsonate Department;Acajutla
+0;-89.5833,13.5833;SV-13;Sonsonate Department;Acachapa
+0;-89.6667,13.5500;SV-13;Sonsonate Department;Acachapa
+0;-89.4703,13.8319;SV-11;Santa Ana Department;El Cambio
+0;-89.4550,13.8197;SV-11;Santa Ana Department;Valle Nuevo
+0;-89.4583,13.8239;SV-11;Santa Ana Department;Lomas del Caulote
+0;-89.4114,13.8197;SV-05;La Libertad Department;San Andrés
+0;-89.4044,13.8183;SV-05;La Libertad Department;Ingeniero San Andrés
+0;-89.4258,13.8231;SV-05;La Libertad Department;Caña de Tarro
+0;-89.3636,13.8194;SV-05;La Libertad Department;Colonia Joya de Cerén
+0;-89.3444,13.8294;SV-05;La Libertad Department;Boca Tronadora
+0;-89.2697,13.8272;SV-05;La Libertad Department;Colonia San Judas
+0;-89.2772,13.8294;SV-05;La Libertad Department;Colonia Palmira
+0;-89.2689,13.8203;SV-05;La Libertad Department;El Cerrito
+0;-89.2547,13.8253;SV-05;La Libertad Department;El Cambio
+0;-89.3583,13.8067;SV-05;La Libertad Department;Sitio del Niño
+0;-89.3725,13.8083;SV-05;La Libertad Department;Río Sucio
+0;-89.4256,13.7967;SV-05;La Libertad Department;Rancho Gracar
+0;-89.4867,13.7797;SV-05;La Libertad Department;Puerto Arturo
+0;-89.3186,13.7647;SV-05;La Libertad Department;El Jabalí
+0;-89.3022,13.7661;SV-05;La Libertad Department;Las Granadillas
+0;-89.3369,13.7719;SV-05;La Libertad Department;Jabalinón
+0;-89.3383,13.7700;SV-05;La Libertad Department;El Carmen
+0;-89.3425,13.7603;SV-05;La Libertad Department;El Tránsito
+0;-89.4711,13.7519;SV-05;La Libertad Department;Copapayo
+0;-89.3728,13.7864;SV-05;La Libertad Department;Colonia Sitio del Niño
+0;-89.4594,13.9603;SV-11;Santa Ana Department;El Rosario
+0;-89.4375,13.9975;SV-11;Santa Ana Department;Esquipulas
+0;-89.4422,13.9897;SV-11;Santa Ana Department;San Francisco
+0;-89.4125,13.9700;SV-11;Santa Ana Department;Santa Efigenia
+0;-89.4064,13.9731;SV-11;Santa Ana Department;Valle Los Manojos
+0;-89.3256,13.9997;SV-11;Santa Ana Department;San Juan La Mesa
+0;-89.3303,13.9844;SV-11;Santa Ana Department;El Rincón
+0;-89.2531,13.9672;SV-11;Santa Ana Department;San Antonio
+0;-89.2639,13.9861;SV-11;Santa Ana Department;Los Escobar
+0;-89.2539,13.9381;SV-11;Santa Ana Department;Segura
+0;-89.2847,13.8917;SV-11;Santa Ana Department;Joya del Maguey
+0;-89.3028,13.8919;SV-11;Santa Ana Department;Valle El Cerro
+0;-89.2972,13.9103;SV-11;Santa Ana Department;Las Dos Hojas
+0;-89.3928,13.9739;SV-11;Santa Ana Department;Valle San Felipe
+0;-89.4786,13.9456;SV-05;La Libertad Department;El Cerro
+0;-89.4775,13.9319;SV-05;La Libertad Department;San Luis Potosí
+0;-89.4467,13.9175;SV-05;La Libertad Department;El Zapote
+0;-89.4403,13.8964;SV-05;La Libertad Department;Canterillas
+0;-89.4025,13.9047;SV-05;La Libertad Department;Loma Alta
+0;-89.4058,13.8967;SV-05;La Libertad Department;Lomas del Copinol
+0;-89.4692,13.8506;SV-05;La Libertad Department;El Tinteral
+0;-89.4022,13.8386;SV-05;La Libertad Department;El Conacaste
+0;-89.3794,13.8794;SV-05;La Libertad Department;Valle Gracia
+0;-89.3939,13.8836;SV-05;La Libertad Department;El Espino
+0;-89.3506,13.8394;SV-05;La Libertad Department;Agua Escondida
+0;-89.2622,13.8425;SV-05;La Libertad Department;Santa Rosa
+0;-89.2578,13.8692;SV-05;La Libertad Department;Agua Caliente
+0;-89.2531,13.8786;SV-05;La Libertad Department;Loma El Espino
+0;-89.2986,13.8828;SV-05;La Libertad Department;La Joya
+0;-89.3633,13.9478;SV-05;La Libertad Department;El Portillo
+0;-89.3967,13.9097;SV-11;Santa Ana Department;Los Mangos
+0;-89.3322,13.9394;SV-11;Santa Ana Department;Colonia La Ceiba
+0;-89.3369,13.9467;SV-11;Santa Ana Department;Colonia El Ángel
+0;-89.3936,13.9411;SV-05;La Libertad Department;Laguneta
+0;-88.2433,13.1844;SV-14;Usulutan;El Naranjo
+0;-88.2019,13.1822;SV-14;Usulutan;La Palanca
+0;-88.2108,13.1956;SV-14;Usulutan;El Jobo
+0;-88.1975,13.1967;SV-14;Usulutan;Piedra de Agua
+0;-88.2436,13.2006;SV-14;Usulutan;El Naranjito
+0;-88.2417,13.2089;SV-14;Usulutan;El Mono
+0;-88.2344,13.2069;SV-14;Usulutan;La Piragua
+0;-88.2436,13.2442;SV-14;Usulutan;Santa Lucía
+0;-88.2472,13.2456;SV-14;Usulutan;Guazacapán
+0;-88.2322,13.2439;SV-14;Usulutan;Gualora
+0;-88.2253,13.2408;SV-14;Usulutan;El Jícarito
+0;-88.2431,13.2619;SV-14;Usulutan;El Carmelo
+0;-88.2403,13.2714;SV-14;Usulutan;El Colorado
+0;-88.2492,13.2683;SV-14;Usulutan;El Portillito
+0;-88.2458,13.2839;SV-14;Usulutan;El Encantado
+0;-88.2244,13.2714;SV-14;Usulutan;El Tiangue
+0;-88.2153,13.2683;SV-14;Usulutan;El Zacatoso
+0;-88.2192,13.2594;SV-14;Usulutan;El Bosque
+0;-88.2222,13.2567;SV-14;Usulutan;San Cristóbal
+0;-88.2228,13.2500;SV-14;Usulutan;El Zúngano
+0;-88.1981,13.2258;SV-14;Usulutan;Ojo de Agua Arriba
+0;-88.1928,13.2317;SV-14;Usulutan;El Alambre
+0;-88.1733,13.2289;SV-14;Usulutan;El Chichipate
+0;-88.1308,13.1831;SV-09;San Miguel Department;El Tempiscal
+0;-88.1361,13.1942;SV-09;San Miguel Department;El Bajío
+0;-88.1464,13.2067;SV-09;San Miguel Department;El Jiote
+0;-88.1328,13.2136;SV-09;San Miguel Department;Las Mesas
+0;-88.1536,13.2211;SV-09;San Miguel Department;El Jobo
+0;-88.1467,13.2256;SV-09;San Miguel Department;El Caimito
+0;-88.1650,13.2297;SV-09;San Miguel Department;La Cebadilla
+0;-88.1817,13.2328;SV-09;San Miguel Department;El Guaycume
+0;-88.1775,13.2531;SV-09;San Miguel Department;El Criba
+0;-88.1758,13.2592;SV-09;San Miguel Department;Santa Ana
+0;-88.1828,13.2578;SV-09;San Miguel Department;Monte Fresco
+0;-88.1872,13.2625;SV-09;San Miguel Department;Talpetate
+0;-88.1914,13.2467;SV-09;San Miguel Department;El Nispero
+0;-88.2022,13.2544;SV-09;San Miguel Department;Loma Aislada
+0;-88.1908,13.2633;SV-09;San Miguel Department;El Huiscoyol
+0;-88.1836,13.2664;SV-09;San Miguel Department;Valle Nuevo
+0;-88.1686,13.2653;SV-09;San Miguel Department;La Ceiba
+0;-88.1692,13.2772;SV-09;San Miguel Department;Mundo Nuevo
+0;-88.1619,13.2708;SV-09;San Miguel Department;La China
+0;-88.1564,13.2736;SV-09;San Miguel Department;Potrero Seco
+0;-88.2111,13.3250;SV-09;San Miguel Department;Hacienda Casa Mota
+0;-88.1864,13.3086;SV-09;San Miguel Department;Hacienda San José
+0;-88.1725,13.2914;SV-09;San Miguel Department;Hacienda Vieja Chilanguera
+0;-88.1719,13.3089;SV-09;San Miguel Department;Hacienda Nueva
+0;-88.1642,13.3097;SV-09;San Miguel Department;El Chorizo
+0;-88.1619,13.3000;SV-09;San Miguel Department;El Portillo
+0;-88.1633,13.2858;SV-09;San Miguel Department;El Tamboral
+0;-88.1644,13.2781;SV-09;San Miguel Department;El Chilar
+0;-88.1528,13.3222;SV-09;San Miguel Department;La Cumbre
+0;-88.1742,13.3314;SV-09;San Miguel Department;Hacienda El Cortijo
+0;-88.1353,13.3231;SV-09;San Miguel Department;El Talpetate
+0;-88.1508,13.3086;SV-09;San Miguel Department;Joconcota
+0;-88.1267,13.3103;SV-09;San Miguel Department;La Mona
+0;-88.1303,13.3044;SV-09;San Miguel Department;El Castaño
+0;-88.1067,13.3133;SV-09;San Miguel Department;El Manguito
+0;-88.1194,13.2794;SV-09;San Miguel Department;El Talquezal
+0;-88.1144,13.2836;SV-09;San Miguel Department;El Chayal
+0;-88.1161,13.2739;SV-09;San Miguel Department;Las Lajitas
+0;-88.1217,13.2767;SV-09;San Miguel Department;La Flor
+0;-88.1119,13.2661;SV-09;San Miguel Department;El Peinado
+0;-88.1072,13.2681;SV-09;San Miguel Department;El Coyolar
+0;-88.1017,13.2708;SV-09;San Miguel Department;El Cedral
+0;-88.1250,13.2803;SV-09;San Miguel Department;Los Berríos
+0;-88.1286,13.2900;SV-09;San Miguel Department;El Mostacillar
+0;-88.0853,13.3278;SV-09;San Miguel Department;Miraflores
+0;-88.0939,13.3175;SV-09;San Miguel Department;La Pelota
+0;-88.0950,13.3139;SV-09;San Miguel Department;El Espino
+0;-88.0281,13.3242;SV-07;La Union;El Cangrejillo
+0;-88.0278,13.3228;SV-07;La Union;Los Melgar
+0;-88.0081,13.3189;SV-07;La Union;Cabrera
+0;-88.0014,13.2978;SV-07;La Union;El Achiotal
+0;-88.0308,13.2936;SV-07;La Union;El Borbollón
+0;-88.0358,13.3169;SV-07;La Union;Punta de Ceiba
+0;-88.0333,13.3036;SV-07;La Union;Punta de Navarro
+0;-88.0539,13.2978;SV-09;San Miguel Department;Olomeguita
+0;-88.0469,13.2925;SV-09;San Miguel Department;Tres Palos
+0;-88.0475,13.2881;SV-09;San Miguel Department;El Carretero
+0;-88.0486,13.2919;SV-09;San Miguel Department;Punta de Navarro
+0;-88.0481,13.2844;SV-09;San Miguel Department;El Pajarito
+0;-88.0503,13.2803;SV-09;San Miguel Department;Puerto Viejo
+0;-88.0333,13.2742;SV-07;La Union;Guanacastal
+0;-88.0683,13.2947;SV-09;San Miguel Department;La Isla
+0;-88.0764,13.2936;SV-09;San Miguel Department;Punta de Sueño
+0;-88.0594,13.2606;SV-09;San Miguel Department;Hacienda Tierra Blanca
+0;-88.0678,13.2414;SV-07;La Union;La Cañada
+0;-88.0236,13.2867;SV-07;La Union;Valle Las Flores
+0;-88.0069,13.2622;SV-07;La Union;Pozos
+0;-88.0264,13.2456;SV-07;La Union;El Planón
+0;-88.0153,13.2294;SV-07;La Union;Las Pavas
+0;-88.0197,13.2203;SV-07;La Union;El Amate
+0;-88.0392,13.2200;SV-07;La Union;El Petatero
+0;-88.0108,13.2108;SV-07;La Union;El Bartolo
+0;-88.0017,13.1828;SV-07;La Union;La Leona
+0;-88.0256,13.1803;SV-07;La Union;El Marañon
+0;-88.0256,13.1672;SV-07;La Union;Hacienda El Icacal
+0;-88.0314,13.1675;SV-07;La Union;Agua
+0;-88.0175,13.1911;SV-07;La Union;Hacienda El Lavadero
+0;-88.0439,13.1981;SV-07;La Union;El Borbollón
+0;-88.0522,13.1925;SV-07;La Union;Hacienda Los Romero
+0;-88.0553,13.1856;SV-07;La Union;Hacienda Los Moreno
+0;-88.0589,13.2250;SV-07;La Union;El Caulotillo
+0;-88.0656,13.2097;SV-07;La Union;El Jícarito
+0;-88.0853,13.2164;SV-09;San Miguel Department;Gualosito
+0;-88.0678,13.1867;SV-07;La Union;Santa Juliana
+0;-88.1014,13.1847;SV-09;San Miguel Department;Las Salinas
+0;-88.0942,13.1828;SV-09;San Miguel Department;Río San Román
+0;-88.1094,13.2239;SV-09;San Miguel Department;La Suncuya
+0;-88.1247,13.2372;SV-09;San Miguel Department;El Zorral
+0;-88.1067,13.2397;SV-09;San Miguel Department;El Rucio
+0;-88.1206,13.2242;SV-09;San Miguel Department;Zapatagua
+0;-88.1192,13.2106;SV-09;San Miguel Department;El Roble
+0;-88.1331,13.2278;SV-09;San Miguel Department;La Colonia
+0;-88.0947,13.2581;SV-09;San Miguel Department;El Chorizo
+0;-88.1039,13.1911;SV-09;San Miguel Department;Tierra Morada
+0;-88.2408,13.4886;SV-09;San Miguel Department;Hacienda La Cruz
+0;-88.2369,13.4897;SV-09;San Miguel Department;La Cruz
+0;-88.2286,13.4372;SV-09;San Miguel Department;El Casco
+0;-88.2272,13.4283;SV-09;San Miguel Department;Chaparrastique
+0;-88.2128,13.4319;SV-09;San Miguel Department;Los Rodas
+0;-88.2178,13.4222;SV-09;San Miguel Department;Los Berríos
+0;-88.2050,13.4356;SV-09;San Miguel Department;Los Sánchez
+0;-88.1847,13.4364;SV-09;San Miguel Department;La Joya
+0;-88.1867,13.4469;SV-09;San Miguel Department;La Cuesta
+0;-88.2250,13.4678;SV-09;San Miguel Department;Guadalupe
+0;-88.2044,13.4758;SV-09;San Miguel Department;La Cruz
+0;-88.1792,13.4514;SV-09;San Miguel Department;Ojo de Agua
+0;-88.1428,13.4822;SV-09;San Miguel Department;El Pacún
+0;-88.1442,13.4833;SV-09;San Miguel Department;La Escondida
+0;-88.1525,13.4644;SV-09;San Miguel Department;Los Ranchos
+0;-88.1347,13.4675;SV-09;San Miguel Department;La Gallina
+0;-88.1261,13.4661;SV-09;San Miguel Department;Las Hojas
+0;-88.1253,13.4875;SV-09;San Miguel Department;La Pila
+0;-88.0958,13.4936;SV-09;San Miguel Department;Las Piletas
+0;-88.0931,13.4822;SV-09;San Miguel Department;Los Piedror
+0;-88.1106,13.4603;SV-09;San Miguel Department;Las Peñitas
+0;-88.0747,13.4908;SV-09;San Miguel Department;El Salamar
+0;-88.0661,13.4925;SV-09;San Miguel Department;La Esperanza
+0;-88.0533,13.4883;SV-09;San Miguel Department;El Tablón
+0;-88.0450,13.4853;SV-09;San Miguel Department;El Güiligüistal
+0;-88.0481,13.4781;SV-09;San Miguel Department;El Zorral
+0;-88.2281,13.3939;SV-09;San Miguel Department;Buena Vista
+0;-88.2244,13.3850;SV-09;San Miguel Department;La Cruzadilla
+0;-88.2047,13.3953;SV-09;San Miguel Department;El Caimito
+0;-88.2044,13.4053;SV-09;San Miguel Department;Las Cocinas
+0;-88.2333,13.3706;SV-09;San Miguel Department;El Chiquirín
+0;-88.2250,13.3644;SV-09;San Miguel Department;El Jícaro
+0;-88.2075,13.3350;SV-09;San Miguel Department;El Garrote
+0;-88.2025,13.3419;SV-09;San Miguel Department;Valle Alegre
+0;-88.2131,13.3467;SV-09;San Miguel Department;Gualuca
+0;-88.2047,13.3475;SV-09;San Miguel Department;El Chorizo
+0;-88.2097,13.3853;SV-09;San Miguel Department;La Morita
+0;-88.1947,13.3983;SV-09;San Miguel Department;Los Portillos
+0;-88.1922,13.3972;SV-09;San Miguel Department;Los Sorto
+0;-88.1975,13.4222;SV-09;San Miguel Department;Las Lomitas
+0;-88.2189,13.4167;SV-09;San Miguel Department;El Ciprés
+0;-88.1864,13.4189;SV-09;San Miguel Department;Las Playitas
+0;-88.1861,13.4275;SV-09;San Miguel Department;Alto del Llano
+0;-88.1822,13.4225;SV-09;San Miguel Department;La Presa
+0;-88.1631,13.4108;SV-09;San Miguel Department;El Progreso
+0;-88.1594,13.4086;SV-09;San Miguel Department;Los Limones
+0;-88.1756,13.3403;SV-09;San Miguel Department;La Canoa
+0;-88.1442,13.4078;SV-09;San Miguel Department;La Ceibita
+0;-88.1369,13.3928;SV-09;San Miguel Department;El Mono
+0;-88.1344,13.3908;SV-09;San Miguel Department;La Gloria
+0;-88.1172,13.4042;SV-09;San Miguel Department;La Ceiba de Agua
+0;-88.1197,13.4264;SV-09;San Miguel Department;La Arenera
+0;-88.1494,13.4219;SV-09;San Miguel Department;El Manguito
+0;-88.1053,13.4164;SV-09;San Miguel Department;El Saso
+0;-88.1025,13.4422;SV-09;San Miguel Department;Valle Nuevo
+0;-88.0781,13.4478;SV-09;San Miguel Department;Palos Prietos
+0;-88.0936,13.4628;SV-09;San Miguel Department;Las Casitas
+0;-88.1069,13.3953;SV-09;San Miguel Department;Los Reyes
+0;-88.0750,13.4258;SV-09;San Miguel Department;Guacuco
+0;-88.0844,13.4117;SV-09;San Miguel Department;Altos del Moral
+0;-88.0972,13.3578;SV-09;San Miguel Department;Altamiz
+0;-88.0714,13.3439;SV-09;San Miguel Department;La Bolsa
+0;-88.0553,13.3453;SV-09;San Miguel Department;La Casona
+0;-88.0542,13.3450;SV-09;San Miguel Department;San Joaquín
+0;-88.0094,13.3539;SV-07;La Union;El Chile
+0;-88.0169,13.3567;SV-07;La Union;La Mona
+0;-88.0247,13.3833;SV-07;La Union;Zanjón Prieto
+0;-88.0117,13.4031;SV-07;La Union;Los Amates
+0;-88.0197,13.4094;SV-07;La Union;La Gloria
+0;-88.0256,13.3994;SV-09;San Miguel Department;El Mono
+0;-88.0189,13.4583;SV-07;La Union;La Lomita
+0;-88.0189,13.4583;SV-07;La Union;La Ceiba
+0;-88.0158,13.4647;SV-07;La Union;Las Cuevitas
+0;-88.0017,13.4681;SV-07;La Union;Peña Parada
+0;-88.0053,13.4747;SV-07;La Union;El Tuno
+0;-88.0519,13.4647;SV-09;San Miguel Department;El Manzanillo
+0;-88.0397,13.4461;SV-07;La Union;El Tejar
+0;-88.0494,13.4444;SV-09;San Miguel Department;San Nicolás Anchico
+0;-88.0447,13.4200;SV-07;La Union;Poste Grueso
+0;-88.0058,13.4467;SV-07;La Union;Santa Teresa
+0;-88.0647,13.4653;SV-09;San Miguel Department;Los Vásquez
+0;-88.0208,13.3875;SV-07;La Union;Paso del Río
+0;-88.0631,13.4094;SV-09;San Miguel Department;El Huiscoyol
+0;-88.0844,13.4117;SV-09;San Miguel Department;Altos del Mora
+0;-88.1947,13.3983;SV-09;San Miguel Department;Los Portillo
+0;-89.5153,14.3056;SV-11;Santa Ana Department;Caserío Las Conchas
+0;-89.5475,14.2208;SV-11;Santa Ana Department;Caserío Los Cocos
+0;-89.5542,14.2142;SV-11;Santa Ana Department;Caserío Canton
+0;-89.6528,14.1847;SV-11;Santa Ana Department;Caserío La Joya
+0;-89.5011,14.1850;SV-11;Santa Ana Department;Caserío Los Ranchos
+0;-89.5936,14.1683;SV-11;Santa Ana Department;Caserío Cuis Cuis
+0;-89.5047,14.3258;SV-11;Santa Ana Department;San Miguelito
+0;-90.0200,13.8294;SV-01;Ahuachapan;Tamashita
+0;-90.0294,13.8258;SV-01;Ahuachapan;Las Brisas
+0;-90.0383,13.8206;SV-01;Ahuachapan;San Antonio
+0;-90.0825,13.8311;SV-01;Ahuachapan;Puertas Negras
+0;-90.0531,13.8111;SV-01;Ahuachapan;La Cuchilla
+0;-90.0408,13.8186;SV-01;Ahuachapan;Los Conacastes
+0;-90.0194,13.8128;SV-01;Ahuachapan;Tamasha
+0;-90.0403,13.8044;SV-01;Ahuachapan;El Güisnay
+0;-90.0525,13.8069;SV-01;Ahuachapan;Desvío San Francisco
+0;-90.0842,13.7944;SV-01;Ahuachapan;Los Huatalones
+0;-90.0122,13.7878;SV-01;Ahuachapan;Iravol
+0;-90.0381,13.7869;SV-01;Ahuachapan;La Palma
+0;-90.0911,13.7819;SV-01;Ahuachapan;Los Cerritos
+0;-90.1000,13.7606;SV-01;Ahuachapan;El Castaño
+0;-90.0383,13.7581;SV-01;Ahuachapan;El Coco
+0;-90.0267,13.7647;SV-01;Ahuachapan;El Camalote
+0;-90.0186,13.7523;SV-01;Ahuachapan;Hacienda Nueva York
+0;-90.1214,13.7397;SV-01;Ahuachapan;El Botoncillo
+0;-90.0364,13.7403;SV-01;Ahuachapan;Las Salinas
+0;-90.0981,13.7303;SV-01;Ahuachapan;Bola de Monte
+0;-90.0722,13.7200;SV-01;Ahuachapan;La Playa
+0;-90.0100,13.9256;SV-01;Ahuachapan;La Angostura
+0;-90.0044,13.9139;SV-01;Ahuachapan;Llano Grande
+0;-90.0353,13.9103;SV-01;Ahuachapan;Lomas El Zope
+0;-90.0342,13.9089;SV-01;Ahuachapan;La Cabaña
+0;-90.0047,13.9078;SV-01;Ahuachapan;El Sunza
+0;-90.0417,13.8875;SV-01;Ahuachapan;Los Mangos
+0;-90.0278,13.8772;SV-01;Ahuachapan;La Maquina
+0;-90.0433,13.8806;SV-01;Ahuachapan;Los Conacastes
+0;-90.0581,13.8767;SV-01;Ahuachapan;El Martillo
+0;-90.0550,13.8669;SV-01;Ahuachapan;El Telpetate
+0;-90.0050,13.8564;SV-01;Ahuachapan;Tegal
+0;-90.0103,13.8614;SV-01;Ahuachapan;El Golandrino
+0;-90.0278,13.8575;SV-01;Ahuachapan;La Puebla
+0;-90.0844,13.8592;SV-01;Ahuachapan;Puente Arce
+0;-90.0875,13.8572;SV-01;Ahuachapan;Manuel José Arce
+0;-90.0675,13.8536;SV-01;Ahuachapan;El Ujushtal
+0;-90.0333,13.8431;SV-01;Ahuachapan;El Huiscoyol
+0;-90.0825,13.8397;SV-01;Ahuachapan;La Quesera
+0;-90.0850,13.8394;SV-01;Ahuachapan;La Montañita
+0;-89.7108,13.8133;SV-13;Sonsonate Department;Río Las Monjas
+0;-89.1347,13.4361;SV-06;La Paz Department;Amatecampo
+0;-89.2439,13.9553;SV-10;San Salvador Department;El Tronador
+0;-89.5817,13.9353;SV-11;Santa Ana Department;Calzontes Abajo
+0;-89.6033,13.9117;SV-11;Santa Ana Department;Calzontes Arriba
+0;-89.4642,13.9386;SV-11;Santa Ana Department;El Cerro
+0;-89.4197,13.4986;SV-05;La Libertad Department;Club Atami
+0;-89.3525,13.8344;SV-05;La Libertad Department;El Chorrerón
+0;-89.7017,13.7711;SV-13;Sonsonate Department;Almendro
+0;-89.4858,13.9036;SV-11;Santa Ana Department;Junquillo
+0;-89.3436,13.7583;SV-05;La Libertad Department;El Jabalincito
+0;-89.5986,13.9275;SV-11;Santa Ana Department;Potrero Grande Abajo
+0;-89.1667,13.9589;SV-04;Cuscatlan;San Francisco
+0;-89.6375,13.9322;SV-11;Santa Ana Department;Santa Rosa
+0;-89.5189,13.9000;SV-11;Santa Ana Department;Siete Principes
+0;-89.7211,13.5303;SV-13;Sonsonate Department;Barra Ciega
+0;-89.4433,13.6975;SV-05;La Libertad Department;Minas
+0;-89.5872,13.5286;SV-05;La Libertad Department;Mizata
+0;-89.9992,13.6906;SV-01;Ahuachapan;Barra de Santiago
+0;-89.2964,13.5447;SV-05;La Libertad Department;San Francisco
+0;-89.4214,13.5561;SV-05;La Libertad Department;Río Tamanique
+0;-89.0464,13.5183;SV-06;La Paz Department;Valladares
+0;-89.7917,13.8169;SV-01;Ahuachapan;Concepción
+0;-89.5603,13.8428;SV-13;Sonsonate Department;Isla del Cerro
+0;-89.8192,13.5331;SV-13;Sonsonate Department;Club Salinitas
+0;-89.7792,13.8033;SV-13;Sonsonate Department;El Matazano
+0;-89.8136,13.7025;SV-13;Sonsonate Department;El Zarzalito
+0;-89.7528,13.8600;SV-13;Sonsonate Department;La Fuente
+0;-89.7231,13.7200;SV-13;Sonsonate Department;Río Las Monjas
+0;-87.8297,13.8889;SV-07;La Union;Quebrada El Naranjo
+0;-87.9122,13.6350;SV-07;La Union;San Sebastián
+0;-88.0000,13.5189;SV-07;La Union;El Carmen
+0;-87.7614,13.4464;SV-07;La Union;Las Conchas
+0;-87.8372,13.2917;SV-07;La Union;El Faro
+0;-87.9164,13.2053;SV-07;La Union;Los Corrales
+0;-87.9919,13.5425;SV-07;La Union;Las Cruces
+0;-87.7439,13.3161;SV-07;La Union;El Cáguamo
+0;-87.6439,13.3189;SV-07;La Union;La Gallinera
+0;-87.7142,13.2053;SV-07;La Union;Plan de La Negra
+0;-87.6572,13.3333;SV-07;La Union;Punta Novillo
+0;-87.7253,13.4936;SV-07;La Union;Los Naranjos
+0;-89.6375,13.8731;SV-13;Sonsonate Department;Finca Mauritania
+0;-89.1072,13.3959;SV-06;La Paz Department;Playa El Pimental
+0;-88.9470,13.3545;SV-06;La Paz Department;San Luis la  Herradura
+0;-89.4945,14.2665;SV-11;Santa Ana Department;Azacualpa
+0;-88.4508,13.2143;SV;;Isla Rancho Viejo
+0;-88.4155,13.2401;SV-14;Usulutan;Puerto El Flor

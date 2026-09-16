@@ -1,0 +1,230 @@
+ko;비야메야;Villa Mella
+ja;ビジャ・メジャ;Villa Mella
+zh;梅拉镇;Villa Mella
+ru;Вилья-Альтаграсия;Villa Altagracia
+en;Tireo;Tireo al Medio
+nl;Tireo;Tireo al Medio
+ru;Тенарес;Tenares
+ru;Тамборил;Tamboril
+en;Sosua, Cabarete;Sosúa
+en;Santo Domingo City;Santo Domingo
+fr;Saint Domingue;Santo Domingo
+ru;Санто-Доминго;Santo Domingo
+ko;산토도밍고;Santo Domingo
+zh;聖多明哥;Santo Domingo
+ru;Сантьяго-де-лос-Кабальерос;Santiago de los Caballeros
+ja;サンティアゴ・デ・ロス・カバリェロス;Santiago de los Caballeros
+ru;Сантьяго-де-лос-Трейнта-Кабальерос;Santiago de los Caballeros
+zh;聖地牙哥;Santiago de los Caballeros
+ko;산티아고데로스카바예로스;Santiago de los Caballeros
+es;Santiago;Santiago de los Caballeros
+de;Santiago;Santiago de los Caballeros
+en;Santiago;Santiago de los Caballeros
+ar;سانتياغو دي لوس كابالييروس;Santiago de los Caballeros
+hi;सैंटियागो डे लॉस कैबेलेरोस;Santiago de los Caballeros
+ru;Санта-Крус-де-Эль-Сейбо;Santa Cruz de El Seibo
+ar;سانتا كروز ديل سيبو;Santa Cruz de El Seibo
+hi;सांता क्रूज़ डे एल सेइबो;Santa Cruz de El Seibo
+ja;サンタ・クルス・デ・エル・セイボ;Santa Cruz de El Seibo
+nl;Barahona;Santa Cruz de Barahona
+ru;Санта-Крус-де-Бараона;Santa Cruz de Barahona
+ar;سانتا كروز دي باراهونا;Santa Cruz de Barahona
+hi;सांता क्रूज़ डे बराहोना;Santa Cruz de Barahona
+ja;サンタ・クルス・デ・バラホナ;Santa Cruz de Barahona
+ru;Самана;Samaná
+en;Santa Bárbara de Samaná;Samaná
+ar;سمانا;Samaná
+fr;Samana;Samaná
+hi;समाना;Samaná
+de;Samana;Samaná
+ja;サマナ;Samaná
+ru;Сан-Педро-де-Макорис;San Pedro de Macorís
+ar;سان بيدرو دي ماكوريس;San Pedro de Macorís
+fr;San Pedro de Macoris;San Pedro de Macorís
+hi;सैन पेड्रो डे मैकोरिस;San Pedro de Macorís
+ja;サン・ペドロ・デ・マコリス;San Pedro de Macorís
+en;San Juan;San Juan de la Maguana
+ru;Сан-Хуан-де-ла-Магуана;San Juan de la Maguana
+ar;سان خوان دي لا ماغوانا;San Juan de la Maguana
+hi;सैन जुआन डे ला मागुआना;San Juan de la Maguana
+ja;サン・フアン・デ・ラ・マグアナ;San Juan de la Maguana
+en;San Jose de Ocoa;San José de Ocoa
+ru;Сан-Хосе-де-Окоа;San José de Ocoa
+ar;سان خوسيه دي أوكوا;San José de Ocoa
+fr;San Jose de Ocoa;San José de Ocoa
+hi;सैन जोसे डे ओकोआ;San José de Ocoa
+de;San Jose de Ocoa;San José de Ocoa
+ja;サン・ホセ・デ・オコア;San José de Ocoa
+ru;Сан-Франсиско-де-Макорис;San Francisco de Macorís
+ar;سان فرانسيسكو دي ماكوريس;San Francisco de Macorís
+hi;सैन फ्रांसिस्को डे मैकोरिस;San Francisco de Macorís
+de;San Francisco de Macoris;San Francisco de Macorís
+ja;サン・フランシスコ・デ・マコリス;San Francisco de Macorís
+en;Monte Cristo;San Fernando de Monte Cristi
+ru;Сан-Фернандо-де-Монте-Кристи;San Fernando de Monte Cristi
+ar;سان فرناندو دي مونتي كريستي;San Fernando de Monte Cristi
+hi;सैन फर्नांडो डे मोंटे क्रिस्टी;San Fernando de Monte Cristi
+ja;サン・フェルナンド・デ・モンテ・クリスティ;San Fernando de Monte Cristi
+es;San Felipe de Puerto Plata;Puerto Plata
+it;San Felipe de Puerto Plata;Puerto Plata
+ja;プエルト・プラタ;Puerto Plata
+zh;聖斐利-銀港;Puerto Plata
+en;San Felipe de Puerto Plata;Puerto Plata
+de;San Felipe de Puerto Plata;Puerto Plata
+fr;San Felipe de Puerto Plata;Puerto Plata
+ko;푸에르토플라타;Puerto Plata
+ru;Сан-Фелипе-де-Пуэрто-Плата;Puerto Plata
+ar;بويرتو بلاتا;Puerto Plata
+hi;प्यूर्टो प्लाटा;Puerto Plata
+de;Higüey;Salvaleón de Higüey
+fr;Higüey;Salvaleón de Higüey
+nl;Higüey;Salvaleón de Higüey
+es;Higüey;Salvaleón de Higüey
+ru;Сальвалеон-де-Игуэй;Salvaleón de Higüey
+ar;سالفاليون دي هيغويي;Salvaleón de Higüey
+hi;सालवालियॉन डे हिगुएय;Salvaleón de Higüey
+ja;サルバレオン・デ・イグエイ;Salvaleón de Higüey
+ru;Салcедо;Salcedo
+ar;سالسيدو;Salcedo
+hi;सलसेडो;Salcedo
+ja;サルセド;Salcedo
+ru;Сан-Игнасио-де-Сабанета;San Ignacio de Sabaneta
+ar;سان اجناثيو دي سابانيتا;San Ignacio de Sabaneta
+hi;सैन इग्नासियो डे सबानेटा;San Ignacio de Sabaneta
+ja;サン・イグナシオ・デ・サバネタ;San Ignacio de Sabaneta
+ru;Пунта Кана;Punta Cana
+ru;Пунта-Кана;Punta Cana
+ru;Пунта Кана;Punta Caña
+ru;Поло;Polo
+ru;Пизарете;Pizarrete
+ru;Пиментел;Pimentel
+ru;Перавия;Peravia
+ru;Пералта;Peralta
+ru;Педерналес;Pedernales
+ar;بيدرنالس;Pedernales
+hi;पेडर्नलेस;Pedernales
+ja;ペデルナレス;Pedernales
+ru;Партидо;Partido
+ru;Нейба;Neiba
+ar;نيبا;Neiba
+hi;नेइबा;Neiba
+ja;ネイバ;Neiba
+ru;Нагуа;Nagua
+ar;ناغوا;Nagua
+hi;नागुआ;Nagua
+ja;ナグア;Nagua
+ru;Монте Плата;Monte Plata
+ar;مونتي بلاتا;Monte Plata
+hi;मोंटे प्लाटा;Monte Plata
+ja;モンテプラタ;Monte Plata
+ru;Мока;Moca
+ar;موكا;Moca
+hi;मोका;Moca
+ja;モカ;Moca
+ru;Матая;Matayaya
+ru;Мао;Mao
+ar;ماو;Mao
+hi;माओ;Mao
+ja;マオ;Mao
+ja;マノグアヤボ;Manoguayabo
+ru;Лас-Матас-де-Фарфан;Las Matas de Farfán
+ru;Ла-Романа;La Romana
+ja;ラ・ロマーナ;La Romana
+ko;라로마나;La Romana
+zh;羅馬納;La Romana
+ar;لا رومانا;La Romana
+hi;ला रोमाना;La Romana
+ru;Альтагарсия;La Altagracia
+pt;Juncalito;Juncalito Abajo
+en;Juncalito;Juncalito Abajo
+es;Juncalito;Juncalito Abajo
+nl;Juncalito;Juncalito Abajo
+ru;Хуан-Долио;Juan Dolio
+en;Jimani;Jimaní
+ru;Химани;Jimaní
+ar;جيماني;Jimaní
+fr;Jimani;Jimaní
+hi;जिमानी;Jimaní
+de;Jimani;Jimaní
+ja;ヒマニ;Jimaní
+ru;Харабакоа;Jarabacoa
+ru;Имберт;Imbert
+ru;Хато-Майор-дель-Рей;Hato Mayor del Rey
+ar;هاتو مايور ديل ري;Hato Mayor del Rey
+hi;हातो मेयर डेल रे;Hato Mayor del Rey
+ja;ハト・マヨル・デル・レイ;Hato Mayor del Rey
+es;San Antonio de Guerra;Guerra
+en;Guayacanes, San Pedro de Macoris;Guayacanes
+ru;Фантино;Fantino
+en;Dajabon;Dajabón
+ru;Дахабон;Dajabón
+ar;داخابون;Dajabón
+fr;Dajabon;Dajabón
+hi;दाजाबोन;Dajabón
+de;Dajabon;Dajabón
+ja;ダハボン;Dajabón
+en;Cotui;Cotuí
+ru;Котуи;Cotuí
+ar;كوتوي;Cotuí
+fr;Cotui;Cotuí
+hi;कोटुई;Cotuí
+de;Cotui;Cotuí
+ja;コトゥイ;Cotuí
+ru;Констанция;Constanza
+de;Concepción de la Vega;La Vega
+en;Concepción de la Vega;La Vega
+es;Concepción de La Vega;La Vega
+fr;Concepción de La Vega;La Vega
+nl;Concepción de La Vega;La Vega
+it;Concepción de la Vega;La Vega
+ja;コンセプシオン・デ・ラ・ベガ;La Vega
+ko;라베가;La Vega
+ru;Консепсион-де-ла-Вега;La Vega
+zh;拉維加;La Vega
+ar;لافيغا;La Vega
+hi;ला वेगा;La Vega
+ru;Коменадор;Comendador
+ar;كوميندادور;Comendador
+hi;कोमेंडाडोर;Comendador
+ja;コメンダドル;Comendador
+en;El Cachón;Cachón
+es;El Cachón;Cachón
+nl;El Cachón;Cachón
+ru;Кабарете;Cabarete
+es;Abajo Caballero;Caballero
+ru;Бонао;Bonao
+ar;بوناو;Bonao
+hi;बोनाओ;Bonao
+ja;ボナオ;Bonao
+de;Boca del Yuma;Boca de Yuma
+ja;ボカ・デ・ユマ;Boca de Yuma
+zh;博卡德尤馬;Boca de Yuma
+ru;Бока Чика;Boca Chica
+en;San Cristobal;San Cristóbal
+ru;Сан-Кристобаль;San Cristóbal
+ar;سان كريستوبال;San Cristóbal
+fr;San Cristobal;San Cristóbal
+hi;सैन क्रिस्टोबल;San Cristóbal
+de;San Cristobal;San Cristóbal
+ja;サン・クリストバル;San Cristóbal
+ja;バヤイベ;Bayahibe
+nl;Bayahíbe;Bayahibe
+es;Bayahíbe;Bayahibe
+en;Albizú;Batey Albizú
+ru;Бан;Baní
+ar;باني;Baní
+hi;बानी;Baní
+de;Bani;Baní
+ja;バニ;Baní
+ru;Асуа-де-Компостела;Azua
+ar;أزوا;Azua
+hi;अजुआ;Azua
+ja;アズア;Azua
+ru;Ареносо;Arenoso
+ru;Амина;Amina
+ru;Алтамира;Altamira
+ru;Санто Доминго Оесте;Santo Domingo Oeste
+ru;Санто-Доминго-Эсте;Santo Domingo Este
+ar;سانتو دومينغو إيسте;Santo Domingo Este
+hi;सांतो डोमिंगो एस्ते;Santo Domingo Este
+ja;サントドミンゴエステ;Santo Domingo Este

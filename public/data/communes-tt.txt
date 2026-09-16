@@ -1,0 +1,455 @@
+0;-60.6167,11.2333;TT-11;Tobago;Zion Hill
+0;-60.7226,11.2497;TT-11;Tobago;Woodlands
+0;-61.3998,10.2568;TT-PRT;Princes Town;Woodlands
+0;-61.4841,10.2152;TT-SIP;Siparia Regional Corporation;Woodland
+0;-61.5284,10.6640;TT-05;Port of Spain;Woodbrook
+0;-60.6521,11.2128;TT-11;Tobago;Windsor
+0;-61.3830,10.3128;TT-PRT;Princes Town;Williamsville
+0;-61.4687,10.4777;TT-CTT;Couva-Tabaquite-Talparo;Waterloo
+0;-61.4007,10.5821;TT-TUP;Tunapuna/Piarco;Warren
+0;-61.4171,10.5730;TT-SJL;San Juan/Laventille;Warners
+0;-61.4541,10.2892;TT-10;San Fernando;Vistabella
+0;-61.4547,10.2612;TT-10;San Fernando;Victoria
+0;-61.6291,10.2243;TT-SIP;Siparia Regional Corporation;Vessigny
+0;-61.2938,10.6903;TT-TUP;Tunapuna/Piarco;Verdant Vale
+0;-61.6312,10.2017;TT-SIP;Siparia Regional Corporation;Vance River
+0;-61.4179,10.6406;TT-TUP;Tunapuna/Piarco;Valsayn
+0;-61.1999,10.6499;TT-SGE;Sangre Grande Regional Corporation;Valencia
+0;-61.4863,10.2209;TT-PED;Penal/Debe;Usine
+0;-61.0621,10.5229;TT-SGE;Sangre Grande Regional Corporation;Upper Manzanilla
+0;-61.0550,10.5879;TT-SGE;Sangre Grande Regional Corporation;Upper Fishing Pond
+0;-61.3963,10.4456;TT-CTT;Couva-Tabaquite-Talparo;Upper Carapichaima
+0;-61.2780,10.3339;TT-CTT;Couva-Tabaquite-Talparo;Unis
+0;-60.7500,11.1833;TT-11;Tobago;Union
+0;-61.4404,10.3021;TT-10;San Fernando;Union
+0;-60.8090,11.1511;TT-11;Tobago;Tyson Hall
+17758;-61.3888,10.6524;TT-TUP;Tunapuna/Piarco;Tunapuna
+0;-61.4000,10.6167;TT-TUP;Tunapuna/Piarco;Tulls
+0;-60.5372,11.2898;TT-11;Tobago;Trois Rivieres
+0;-61.3928,10.3715;TT-CTT;Couva-Tabaquite-Talparo;Tortuga
+0;-61.3333,10.4810;TT-CTT;Couva-Tabaquite-Talparo;Todd’s Road
+0;-60.9464,10.8333;TT-SGE;Sangre Grande Regional Corporation;Toco
+0;-61.3364,10.2505;TT-PRT;Princes Town;Third Company
+0;-61.5209,10.1757;TT-SIP;Siparia Regional Corporation;Thick
+0;-60.7436,11.2063;TT-11;Tobago;The Whim
+0;-60.9583,10.8310;TT-SGE;Sangre Grande Regional Corporation;The Mission
+1661;-61.2667,10.5000;TT-CTT;Couva-Tabaquite-Talparo;Talparo
+0;-61.2711,10.2780;TT-PRT;Princes Town;Tableland
+3314;-61.2970,10.3882;TT-CTT;Couva-Tabaquite-Talparo;Tabaquite
+0;-61.4333,10.3667;TT-CTT;Couva-Tabaquite-Talparo;Sum Sum Hill
+0;-61.4833,10.6500;TT-SJL;San Juan/Laventille;Success
+0;-60.6617,11.1977;TT-11;Tobago;Studley Park
+0;-60.5270,11.3286;TT-11;Tobago;Starwood
+0;-61.4252,10.3739;TT-CTT;Couva-Tabaquite-Talparo;Spring Vale
+0;-61.4262,10.4210;TT-CTT;Couva-Tabaquite-Talparo;Spring
+0;-60.5380,11.2969;TT-11;Tobago;Speyside
+0;-61.5477,10.2279;TT-SIP;Siparia Regional Corporation;South Oropouche
+0;-61.3452,10.2626;TT-PRT;Princes Town;Sixth Company
+8568;-61.5074,10.1453;TT-SIP;Siparia Regional Corporation;Siparia
+0;-61.5529,10.7072;TT-DMN;Diego Martin Regional Corporation;Sierra Leone
+0;-60.5378,11.2579;TT-11;Tobago;Shore Park
+17000;-60.7353,11.1823;TT-11;Tobago;Scarborough
+0;-61.4698,10.7228;TT-SJL;San Juan/Laventille;Santa Cruz
+0;-61.0015,10.8341;TT-SGE;Sangre Grande Regional Corporation;Sans Souci
+0;-61.2699,10.5735;TT-CTT;Couva-Tabaquite-Talparo;San Rafael
+0;-61.4457,10.6579;TT-SJL;San Juan/Laventille;San Juan
+0;-61.0784,10.5945;TT-SGE;Sangre Grande Regional Corporation;Sangre Grande Oropuche
+15968;-61.1301,10.5870;TT-SGE;Sangre Grande Regional Corporation;Sangre Grande
+0;-61.1115,10.5670;TT-SGE;Sangre Grande Regional Corporation;Sangre Chiquita
+0;-61.3945,10.4325;TT-CTT;Couva-Tabaquite-Talparo;San Francisco Settlement
+0;-61.6534,10.0761;TT-SIP;Siparia Regional Corporation;San Francique
+55419;-61.4684,10.2797;TT-10;San Fernando;San Fernando
+0;-61.0305,10.7015;TT-SGE;Sangre Grande Regional Corporation;Salybia
+0;-61.4234,10.5197;TT-CHA;Chaguanas;Saint Thomas
+0;-61.4268,10.4625;TT-CTT;Couva-Tabaquite-Talparo;Saint Marys
+0;-61.5425,10.2233;TT-SIP;Siparia Regional Corporation;Saint Mary’s
+0;-61.4528,10.3452;TT-CTT;Couva-Tabaquite-Talparo;Saint Margaret
+0;-61.0035,10.2556;TT-03;Mayaro;Saint Margaret
+0;-61.3588,10.2711;TT-PRT;Princes Town;Saint Julien
+0;-61.4181,10.6558;TT-TUP;Tunapuna/Piarco;Saint Joseph
+0;-60.9932,10.3167;TT-03;Mayaro;Saint Joseph
+0;-61.4470,10.2845;TT-10;San Fernando;Saint Joseph
+0;-61.4183,10.2475;TT-PRT;Princes Town;Saint John
+0;-61.5345,10.6717;TT-05;Port of Spain;Saint James
+0;-61.3364,10.5798;TT-TUP;Tunapuna/Piarco;Saint Helena
+0;-61.4297,10.2719;TT-PRT;Princes Town;Sainte Madeleine
+0;-61.5000,10.6833;TT-SJL;San Juan/Laventille;Saint Elizabeth
+0;-61.3687,10.2629;TT-PRT;Princes Town;Sainte Croix
+0;-61.5217,10.6704;TT-05;Port of Spain;Saint Clair
+0;-61.3924,10.6420;TT-TUP;Tunapuna/Piarco;Saint Augustine
+0;-61.5134,10.6771;TT-SJL;San Juan/Laventille;Saint Ann’s
+0;-61.4786,10.4225;TT-CTT;Couva-Tabaquite-Talparo;Saint Andrew
+0;-61.4335,10.1314;TT-PED;Penal/Debe;Sadhoowa
+0;-61.0556,10.1290;TT-03;Mayaro;Rushville
+0;-60.7063,11.2524;TT-11;Tobago;Runnemede
+0;-60.5760,11.2494;TT-11;Tobago;Roxborough
+0;-61.5826,10.2150;TT-SIP;Siparia Regional Corporation;Roussillac
+0;-60.7377,11.1902;TT-11;Tobago;Rockly Vale
+0;-61.2887,10.2711;TT-PRT;Princes Town;Robert
+0;-60.6833,11.2833;TT-11;Tobago;Riversdale
+0;-60.7813,11.1728;TT-11;Tobago;Riseland
+35650;-61.1756,10.3059;TT-03;Mayaro;Rio Claro
+0;-60.6121,11.2318;TT-11;Tobago;Richmond
+0;-61.5667,10.7167;TT-DMN;Diego Martin Regional Corporation;Riche Plaine
+0;-61.4165,10.3056;TT-PRT;Princes Town;Reform
+0;-61.3167,10.6167;TT-TUP;Tunapuna/Piarco;Red Hill
+0;-60.9453,10.7917;TT-SGE;Sangre Grande Regional Corporation;Redhead
+0;-60.9534,10.7919;TT-SGE;Sangre Grande Regional Corporation;Ravin Anglais
+0;-60.9836,10.7351;TT-SGE;Sangre Grande Regional Corporation;Rampanalgas
+0;-61.4744,10.2388;TT-PED;Penal/Debe;Rambert
+0;-61.5333,10.1333;TT-SIP;Siparia Regional Corporation;Quarry Village
+0;-60.7339,11.2047;TT-11;Tobago;Providence
+0;-60.7818,11.1772;TT-11;Tobago;Prospect
+10000;-61.3710,10.2718;TT-PRT;Princes Town;Princes Town
+0;-61.4040,10.4216;TT-CTT;Couva-Tabaquite-Talparo;Preysal
+0;-61.3161,10.2026;TT-PRT;Princes Town;Preau
+49031;-61.5189,10.6667;TT-05;Port of Spain;Port of Spain
+0;-61.1236,10.4511;TT-03;Mayaro;Poole
+0;-61.2289,10.2997;TT-03;Mayaro;Poole
+0;-61.6667,10.1667;TT-PTF;Point Fortin;Point Ligoure
+19056;-61.6841,10.1741;TT-PTF;Point Fortin;Point Fortin
+0;-61.4592,10.3182;TT-CTT;Couva-Tabaquite-Talparo;Pointe-à-Pierre
+0;-60.7665,11.2162;TT-11;Tobago;Plymouth
+0;-61.1167,10.4500;TT-03;Mayaro;Plum Mitan
+0;-61.0667,10.5000;TT-SGE;Sangre Grande Regional Corporation;Plum
+0;-61.5036,10.1768;TT-SIP;Siparia Regional Corporation;Pluck
+0;-61.1334,10.7410;TT-SGE;Sangre Grande Regional Corporation;Platanal
+0;-60.9998,10.2936;TT-03;Mayaro;Plaisance
+0;-61.4849,10.2453;TT-PED;Penal/Debe;Plaisance
+0;-61.3412,10.3398;TT-PRT;Princes Town;Piparo
+0;-61.0078,10.2953;TT-03;Mayaro;Pierreville
+0;-61.3249,10.5881;TT-TUP;Tunapuna/Piarco;Piarco
+0;-61.4597,10.3841;TT-CTT;Couva-Tabaquite-Talparo;Phoenix Park
+8140;-61.5472,10.6997;TT-DMN;Diego Martin Regional Corporation;Petit Valley
+0;-60.9364,10.8326;TT-SGE;Sangre Grande Regional Corporation;Petit Trou
+0;-61.6183,10.6827;TT-DMN;Diego Martin Regional Corporation;Petit Bourg
+0;-61.4500,10.6500;TT-SJL;San Juan/Laventille;Petit Bourg
+0;-61.1500,10.5000;TT-SGE;Sangre Grande Regional Corporation;Peters
+0;-61.5358,10.6636;TT-05;Port of Spain;Peru
+0;-61.3564,10.4032;TT-CTT;Couva-Tabaquite-Talparo;Pepper Village
+12281;-61.4667,10.1667;TT-PED;Penal/Debe;Peñal
+0;-60.6248,11.2172;TT-11;Tobago;Pembroke
+0;-60.7730,11.1918;TT-11;Tobago;Patience Hill
+0;-61.6396,10.1728;TT-SIP;Siparia Regional Corporation;Parry Lands
+0;-60.6587,11.2921;TT-11;Tobago;Parrot Hall
+0;-60.6440,11.3003;TT-11;Tobago;Parlatuvier
+15067;-61.3630,10.6530;TT-TUP;Tunapuna/Piarco;Paradise
+0;-61.5892,10.0935;TT-SIP;Siparia Regional Corporation;Palo Seco
+0;-61.4275,10.2814;TT-PRT;Princes Town;Palmyra
+0;-61.4564,10.3969;TT-CTT;Couva-Tabaquite-Talparo;Ouplay
+0;-61.3167,10.7000;TT-TUP;Tunapuna/Piarco;Ortinola
+0;-61.0954,10.6046;TT-SGE;Sangre Grande Regional Corporation;Oropuche
+0;-61.4730,10.4591;TT-CTT;Couva-Tabaquite-Talparo;Orange Valley
+0;-61.1349,10.5653;TT-SGE;Sangre Grande Regional Corporation;Ogis
+0;-60.7030,11.2378;TT-11;Tobago;Nutmeg Grove
+0;-61.0333,10.5167;TT-SGE;Sangre Grande Regional Corporation;North Manzanilla
+0;-61.6333,10.2333;TT-SIP;Siparia Regional Corporation;New Jersey
+0;-61.3221,10.2850;TT-PRT;Princes Town;New Grant
+0;-61.1464,10.5278;TT-SGE;Sangre Grande Regional Corporation;Nestor
+0;-61.1831,10.3563;TT-03;Mayaro;Navet
+0;-60.9833,10.7833;TT-SGE;Sangre Grande Regional Corporation;Naranjo
+0;-61.3247,10.5636;TT-CTT;Couva-Tabaquite-Talparo;Nancoo Village
+0;-61.2590,10.4776;TT-CTT;Couva-Tabaquite-Talparo;Mundo Nuevo
+4342;-61.5370,10.6625;TT-05;Port of Spain;Mucurapo
+0;-60.7378,11.2386;TT-11;Tobago;Mount Thomas
+0;-61.4061,10.2899;TT-PRT;Princes Town;Mount Stewart
+0;-60.6826,11.1950;TT-11;Tobago;Mount Saint George
+0;-60.7950,11.1638;TT-11;Tobago;Mount Pleasant
+0;-61.6100,10.7132;TT-DMN;Diego Martin Regional Corporation;Mount Pleasant
+0;-61.1165,10.4992;TT-SGE;Sangre Grande Regional Corporation;Mount Harris
+0;-60.7500,11.1833;TT-11;Tobago;Mount Grace
+0;-60.7000,11.2667;TT-11;Tobago;Mount Dillon River
+0;-61.4764,10.6630;TT-SJL;San Juan/Laventille;Morvant
+0;-61.2807,10.0878;TT-PRT;Princes Town;Moruga
+0;-60.7261,11.1864;TT-11;Tobago;Morne Quiton
+0;-61.4461,10.1091;TT-PED;Penal/Debe;Morne Diablo
+0;-60.9397,10.8034;TT-SGE;Sangre Grande Regional Corporation;Morne Cabrite
+0;-61.3507,10.3604;TT;;Morichal
+0;-60.7137,11.2461;TT-11;Tobago;Moriah
+0;-61.4454,10.0703;TT-PED;Penal/Debe;Moque Point
+0;-61.2828,10.2702;TT-PRT;Princes Town;Moos
+0;-60.6531,11.2014;TT-11;Tobago;Montrose
+0;-61.3948,10.5170;TT-CHA;Chaguanas;Montrose
+0;-60.7908,11.1852;TT-11;Tobago;Montgomery
+0;-61.0246,10.8206;TT-SGE;Sangre Grande Regional Corporation;Monte Video
+56380;-61.4459,10.2798;TT-10;San Fernando;Mon Repos
+0;-61.3785,10.5757;TT-TUP;Tunapuna/Piarco;Mon Plaisir
+0;-61.3333,10.2667;TT-PRT;Princes Town;Monkey Town
+0;-61.4265,10.2138;TT-PED;Penal/Debe;Monkey Town
+0;-60.6910,11.1950;TT-11;Tobago;Mesopotamia
+0;-60.5321,11.2745;TT-11;Tobago;Merchiston
+0;-61.4522,10.4477;TT-CTT;Couva-Tabaquite-Talparo;Mc Bean
+0;-61.3814,10.3542;TT-CTT;Couva-Tabaquite-Talparo;Mayo
+0;-61.2691,10.6415;TT-TUP;Tunapuna/Piarco;Maturita
+0;-61.0590,10.6757;TT-SGE;Sangre Grande Regional Corporation;Matura
+0;-61.1263,10.8192;TT-SGE;Sangre Grande Regional Corporation;Matelot
+0;-60.7095,11.2211;TT-11;Tobago;Mason Hall
+0;-60.7556,11.2048;TT-11;Tobago;Mary’s Hill
+0;-61.5096,10.7074;TT-DMN;Diego Martin Regional Corporation;Maraval
+0;-61.4376,10.7530;TT-SJL;San Juan/Laventille;Maracas Bay Village
+0;-61.4196,10.7106;TT-TUP;Tunapuna/Piarco;Maracas
+26700;-61.4467,10.3062;TT-10;San Fernando;Marabella
+0;-61.3848,10.2668;TT-PRT;Princes Town;Manahambre
+0;-61.2908,10.4489;TT-CTT;Couva-Tabaquite-Talparo;Mamoral
+0;-61.1622,10.4758;TT-SGE;Sangre Grande Regional Corporation;Mamon
+0;-61.2814,10.6253;TT-01;Borough of Arima;Malabar Settlement
+0;-61.3343,10.5534;TT-CTT;Couva-Tabaquite-Talparo;Madras Settlement
+0;-60.7825,11.1526;TT-11;Tobago;Lowlands
+0;-60.7379,11.1843;TT-11;Tobago;Lower Town
+0;-60.7651,11.2060;TT-11;Tobago;Lower Quarter
+0;-61.0500,10.5167;TT-SGE;Sangre Grande Regional Corporation;Lower Manzanilla
+0;-61.0437,10.5734;TT-SGE;Sangre Grande Regional Corporation;Lower Fishing Pond
+0;-61.3812,10.2564;TT-PRT;Princes Town;Lothian
+0;-61.5646,10.1119;TT-SIP;Siparia Regional Corporation;Los Bajos
+0;-61.3000,10.4167;TT-CTT;Couva-Tabaquite-Talparo;Los Atajos
+0;-61.3258,10.6889;TT-TUP;Tunapuna/Piarco;Lopinot
+0;-61.3722,10.5062;TT-CHA;Chaguanas;Longdenville
+0;-61.4219,10.7241;TT-TUP;Tunapuna/Piarco;Loango
+0;-61.1928,10.3045;TT-03;Mayaro;Libertville
+0;-60.7440,11.2289;TT-11;Tobago;Les Coteaux
+0;-61.3672,10.2549;TT-PRT;Princes Town;Lengua
+0;-61.4000,10.5167;TT-CHA;Chaguanas;Lendor
+0;-61.3500,10.7000;TT-TUP;Tunapuna/Piarco;La Veronica
+21000;-61.4989,10.6492;TT-SJL;San Juan/Laventille;Laventille
+0;-61.3142,10.5380;TT-CTT;Couva-Tabaquite-Talparo;Las Lomas
+0;-61.3889,10.7850;TT-SJL;San Juan/Laventille;Las Cuevas
+0;-61.6587,10.6799;TT-DMN;Diego Martin Regional Corporation;La Retraite
+0;-61.4667,10.7167;TT-SJL;San Juan/Laventille;La Pastora
+0;-61.3161,10.6997;TT-TUP;Tunapuna/Piarco;La Pastora
+0;-61.4004,10.6151;TT-TUP;Tunapuna/Piarco;Lapai Village
+0;-60.9789,10.8348;TT-SGE;Sangre Grande Regional Corporation;L’Anse Noire
+0;-60.7609,11.1688;TT-11;Tobago;Lambeau
+0;-61.3329,10.0764;TT-PRT;Princes Town;La Lune
+0;-61.5161,10.7314;TT-DMN;Diego Martin Regional Corporation;La Finette
+0;-61.4479,10.3157;TT-CTT;Couva-Tabaquite-Talparo;La Carrière
+0;-61.6133,10.2424;TT-SIP;Siparia Regional Corporation;La Brea
+0;-61.5000,10.6500;TT-SJL;San Juan/Laventille;La Basse
+0;-60.5518,11.2724;TT-11;Tobago;King’s Bay
+0;-61.3593,10.5869;TT-TUP;Tunapuna/Piarco;Kelly Village
+0;-61.3733,10.3275;TT-CTT;Couva-Tabaquite-Talparo;Kelly Junction
+0;-61.3994,10.5488;TT-CHA;Chaguanas;Jermingham Junction
+0;-61.1333,10.5333;TT-SGE;Sangre Grande Regional Corporation;Jaraysingh
+0;-61.0833,10.5500;TT-SGE;Sangre Grande Regional Corporation;James Smart
+0;-61.7470,10.1337;TT-SIP;Siparia Regional Corporation;Irois
+0;-61.3302,10.2747;TT-PRT;Princes Town;Indian Walk
+0;-61.4119,10.3964;TT-CTT;Couva-Tabaquite-Talparo;Indian Chain
+0;-61.3889,10.2868;TT-PRT;Princes Town;Iere
+0;-61.9123,10.0473;TT-SIP;Siparia Regional Corporation;Icacos
+0;-61.1786,10.5253;TT-SGE;Sangre Grande Regional Corporation;Howson
+0;-60.6982,11.1923;TT-11;Tobago;Hope
+0;-61.0688,10.8284;TT-SGE;Sangre Grande Regional Corporation;Homard
+0;-61.3218,10.2708;TT-PRT;Princes Town;Hindustan
+0;-60.6642,11.2199;TT-11;Tobago;Hillsborough
+0;-60.5824,11.3121;TT-11;Tobago;Hermitage
+0;-61.4333,10.3500;TT-CTT;Couva-Tabaquite-Talparo;Hermitage
+0;-61.4612,10.2355;TT-PED;Penal/Debe;Hermitage
+0;-61.3175,10.2996;TT-PRT;Princes Town;Haswaron
+0;-61.1966,10.5625;TT-SGE;Sangre Grande Regional Corporation;Hasnalli
+0;-61.6167,10.6833;TT-DMN;Diego Martin Regional Corporation;Hart’s Cut
+0;-61.3621,10.3108;TT-PRT;Princes Town;Hardbargain
+0;-61.0321,10.1472;TT-03;Mayaro;Guayaguayare
+0;-61.4103,10.6959;TT-TUP;Tunapuna/Piarco;Guarata
+0;-61.3254,10.3797;TT-CTT;Couva-Tabaquite-Talparo;Guaracara Junction
+0;-61.6566,10.1951;TT-PTF;Point Fortin;Guapo
+0;-61.2682,10.5974;TT-TUP;Tunapuna/Piarco;Guanapo
+0;-61.3667,10.7500;TT-SJL;San Juan/Laventille;Guamal
+0;-61.1499,10.4821;TT-SGE;Sangre Grande Regional Corporation;Guaico Tamana
+0;-61.1522,10.5948;TT-SGE;Sangre Grande Regional Corporation;Guaico
+0;-60.6754,11.2124;TT-11;Tobago;Green Hill
+0;-61.5634,10.7315;TT-DMN;Diego Martin Regional Corporation;Green Hill
+0;-61.8041,10.1326;TT-SIP;Siparia Regional Corporation;Granville
+0;-60.7903,11.1918;TT-11;Tobago;Grange
+0;-61.0510,10.8252;TT-SGE;Sangre Grande Regional Corporation;Grande Riviere
+0;-61.3745,10.4039;TT-CTT;Couva-Tabaquite-Talparo;Gran Couva
+0;-60.7833,11.1833;TT-11;Tobago;Grafton
+0;-61.4000,10.3000;TT-PRT;Princes Town;Gordon Settlement
+0;-60.6368,11.2042;TT-11;Tobago;Goodwood
+0;-60.6295,11.2153;TT-11;Tobago;Goldsborough
+0;-60.7346,11.2425;TT-11;Tobago;Golden Lane
+0;-61.4387,10.2535;TT-PED;Penal/Debe;Golconda
+0;-60.6098,11.2226;TT-11;Tobago;Glamorgan
+0;-61.3199,10.2794;TT-PRT;Princes Town;George Village
+9925;-61.4260,10.3170;TT-CTT;Couva-Tabaquite-Talparo;Gasparillo
+0;-61.5458,10.1811;TT-SIP;Siparia Regional Corporation;Fyzabad
+0;-61.8863,10.0853;TT-SIP;Siparia Regional Corporation;Fullarton
+0;-60.7960,11.1484;TT-11;Tobago;Friendship
+0;-61.4739,10.3879;TT-CTT;Couva-Tabaquite-Talparo;Friendship
+0;-60.7115,11.1939;TT-11;Tobago;Friendsfield
+0;-61.4156,10.4582;TT-CTT;Couva-Tabaquite-Talparo;Freeport
+0;-61.3949,10.6055;TT-TUP;Tunapuna/Piarco;Frederick Village
+0;-60.7473,11.2206;TT-11;Tobago;Franklyns
+0;-61.3347,10.2386;TT-PRT;Princes Town;Fourth Company
+0;-61.5602,10.6884;TT-DMN;Diego Martin Regional Corporation;Four Roads
+0;-61.2176,10.4869;TT-CTT;Couva-Tabaquite-Talparo;Four Roads
+0;-61.4313,10.3636;TT-CTT;Couva-Tabaquite-Talparo;Forres Park
+0;-61.2386,10.2871;TT-03;Mayaro;Fonrose
+0;-60.6000,11.2500;TT-11;Tobago;Florida
+0;-61.3158,10.4317;TT-CTT;Couva-Tabaquite-Talparo;Flanagin Town
+0;-61.3590,10.8058;TT-SJL;San Juan/Laventille;Filette
+0;-61.3247,10.2322;TT-PRT;Princes Town;Fifth Company
+0;-61.4772,10.4484;TT-CTT;Couva-Tabaquite-Talparo;Felicity Hall
+0;-61.4500,10.6500;TT-SJL;San Juan/Laventille;Fébeau
+0;-61.4532,10.4215;TT-CTT;Couva-Tabaquite-Talparo;Exchange
+0;-61.4528,10.2465;TT-PED;Penal/Debe;Esperance
+0;-61.3856,10.5226;TT-CHA;Chaguanas;Enterprise
+0;-60.6741,11.2856;TT-11;Tobago;Englishman’s Bay
+0;-61.4554,10.6374;TT-SJL;San Juan/Laventille;El Socorro
+0;-61.2500,10.4833;TT-CTT;Couva-Tabaquite-Talparo;El Quemado
+0;-61.3805,10.6398;TT-TUP;Tunapuna/Piarco;El Dorado
+0;-61.3808,10.3222;TT-PRT;Princes Town;Eckel Village
+0;-61.1374,10.3237;TT-03;Mayaro;Ecclesville
+0;-60.6819,11.2258;TT-11;Tobago;Easterfield
+0;-61.5056,10.6564;TT-05;Port of Spain;East Dry River
+0;-61.5000,10.6667;TT-SJL;San Juan/Laventille;Earthigg
+0;-61.4600,10.2529;TT-PED;Penal/Debe;Duncan
+0;-61.4708,10.4035;TT-CTT;Couva-Tabaquite-Talparo;Dowe
+0;-61.3603,10.6388;TT-TUP;Tunapuna/Piarco;Dinsley
+25370;-61.5662,10.7208;TT-DMN;Diego Martin Regional Corporation;Diego Martin
+0;-61.5312,10.6835;TT-DMN;Diego Martin Regional Corporation;Dibe
+0;-60.7701,11.1716;TT-11;Tobago;Diamond
+0;-61.4372,10.3676;TT-CTT;Couva-Tabaquite-Talparo;Diamond
+0;-61.4427,10.2365;TT-PED;Penal/Debe;Diamond
+0;-61.5609,10.1848;TT-SIP;Siparia Regional Corporation;Delhi Settlement
+0;-60.5593,11.2660;TT-11;Tobago;Delaford
+3127;-61.4527,10.2085;TT-PED;Penal/Debe;Debe
+0;-61.3132,10.6273;TT-TUP;Tunapuna/Piarco;D’Abadie
+0;-61.4502,10.6691;TT-SJL;San Juan/Laventille;Curucaye
+0;-61.4000,10.6333;TT-TUP;Tunapuna/Piarco;Curepe
+0;-61.3756,10.5474;TT-CHA;Chaguanas;Cunupia
+0;-61.1640,10.5559;TT-SGE;Sangre Grande Regional Corporation;Cunaripa
+0;-61.1369,10.5831;TT-SGE;Sangre Grande Regional Corporation;Cunapo
+0;-61.2078,10.5866;TT-SGE;Sangre Grande Regional Corporation;Cumuto
+0;-61.4092,10.5067;TT-CHA;Chaguanas;Cumberbatch
+0;-61.1587,10.7092;TT-SGE;Sangre Grande Regional Corporation;Cumaca
+0;-60.7365,11.2466;TT-11;Tobago;Culloden
+0;-61.1792,10.3788;TT-03;Mayaro;Cuche
+0;-60.7964,11.1415;TT-11;Tobago;Cove
+5178;-61.4675,10.4225;TT-CTT;Couva-Tabaquite-Talparo;Couva
+0;-60.7729,11.2104;TT-11;Tobago;Courland
+0;-61.1844,10.5099;TT-SGE;Sangre Grande Regional Corporation;Coryal
+0;-61.4342,10.4848;TT-CTT;Couva-Tabaquite-Talparo;Coryal
+0;-61.8010,10.1008;TT-SIP;Siparia Regional Corporation;Coromandel Settlement
+0;-61.5167,10.6500;TT-05;Port of Spain;Corbeaux Town
+0;-61.5500,10.7333;TT-DMN;Diego Martin Regional Corporation;Coolie Block
+0;-60.7253,11.2180;TT-11;Tobago;Concordia
+0;-61.4880,10.2340;TT-PED;Penal/Debe;Concord
+0;-61.0667,10.5333;TT-SGE;Sangre Grande Regional Corporation;Comparo
+0;-61.4333,10.2500;TT-PED;Penal/Debe;Golconda
+0;-61.4607,10.2681;TT-10;San Fernando;Coffee
+0;-61.5488,10.6811;TT-DMN;Diego Martin Regional Corporation;Cocorite
+0;-61.5833,10.6833;TT-DMN;Diego Martin Regional Corporation;Coco
+0;-61.6452,10.1860;TT-PTF;Point Fortin;Cochrane
+5679;-61.4599,10.3664;TT-CTT;Couva-Tabaquite-Talparo;Claxton Bay
+0;-61.3774,10.2283;TT-PED;Penal/Debe;Cipero-Sainte Croix
+0;-60.7252,11.2045;TT-11;Tobago;Cinnamon Hill
+0;-61.3427,10.5606;TT-CTT;Couva-Tabaquite-Talparo;Chin Chin Savanna Village
+0;-61.3759,10.4274;TT-CTT;Couva-Tabaquite-Talparo;Chickland
+0;-61.1330,10.5497;TT-SGE;Sangre Grande Regional Corporation;Cheeyou
+0;-61.7349,10.0887;TT-SIP;Siparia Regional Corporation;Chatham
+0;-61.4111,10.4765;TT-CTT;Couva-Tabaquite-Talparo;Chase Village
+0;-61.1550,10.4023;TT-03;Mayaro;Charuma
+0;-60.5471,11.3255;TT-11;Tobago;Charlotteville
+0;-61.4102,10.4929;TT-CHA;Chaguanas;Chandernagore Settlement
+0;-61.6447,10.6825;TT-DMN;Diego Martin Regional Corporation;Chaguaramas
+67433;-61.4167,10.5167;TT-CHA;Chaguanas;Chaguanas
+0;-61.3199,10.5889;TT-TUP;Tunapuna/Piarco;Centeno
+0;-61.3567,10.7134;TT-TUP;Tunapuna/Piarco;Caura
+0;-60.6910,11.2798;TT-11;Tobago;Castara
+0;-61.3817,10.6057;TT-TUP;Tunapuna/Piarco;Caroni
+0;-60.7837,11.1674;TT-11;Tobago;Carnbee Village
+0;-61.1980,10.4973;TT-SGE;Sangre Grande Regional Corporation;Carmichael
+0;-61.5930,10.6887;TT-DMN;Diego Martin Regional Corporation;Carenage
+0;-60.6341,11.2338;TT-11;Tobago;Cardiff
+0;-61.4167,10.3500;TT-CTT;Couva-Tabaquite-Talparo;Caratal
+0;-61.2963,10.5936;TT-TUP;Tunapuna/Piarco;Carapo
+0;-61.4474,10.4771;TT-CTT;Couva-Tabaquite-Talparo;Carapichaima
+0;-61.7075,10.1526;TT-PTF;Point Fortin;Cap-de-Ville
+0;-61.3219,10.4570;TT-CTT;Couva-Tabaquite-Talparo;Caparo
+0;-61.4718,10.7112;TT-SJL;San Juan/Laventille;Cantaro
+0;-60.8126,11.1604;TT-11;Tobago;Canaan
+0;-61.4763,10.2533;TT-PED;Penal/Debe;Canaan
+0;-61.5500,10.7167;TT-DMN;Diego Martin Regional Corporation;Cameron
+0;-60.5515,11.3172;TT-11;Tobago;Cambleton
+3012;-61.4729,10.4092;TT-CTT;Couva-Tabaquite-Talparo;California
+0;-60.7350,11.1913;TT-11;Tobago;Calder Hall
+0;-61.4488,10.4349;TT-CTT;Couva-Tabaquite-Talparo;Calcutta Settlement
+0;-61.0613,10.5570;TT-SGE;Sangre Grande Regional Corporation;Caigual
+0;-61.4333,10.5500;TT-CHA;Chaguanas;Cacandee Settlement
+0;-61.4634,10.4800;TT-CTT;Couva-Tabaquite-Talparo;Butler
+0;-61.2936,10.3141;TT-PRT;Princes Town;Busy Corner
+0;-61.6842,10.1041;TT-SIP;Siparia Regional Corporation;Buenos Ayres
+0;-61.3694,10.2793;TT-PRT;Princes Town;Buen Intento
+0;-60.8062,11.1832;TT-11;Tobago;Buccoo
+0;-61.3988,10.2157;TT-PED;Penal/Debe;Bronte
+0;-61.6219,10.2459;TT-SIP;Siparia Regional Corporation;Brighton
+0;-61.4686,10.4902;TT-CTT;Couva-Tabaquite-Talparo;Brickfield
+0;-61.2746,10.3422;TT-CTT;Couva-Tabaquite-Talparo;Brickfield
+0;-61.2757,10.5547;TT-CTT;Couva-Tabaquite-Talparo;Brazil
+0;-61.2731,10.4253;TT-CTT;Couva-Tabaquite-Talparo;Brasso Venado
+0;-61.2687,10.7481;TT-TUP;Tunapuna/Piarco;Brasso Seco Village
+0;-61.3117,10.4399;TT-CTT;Couva-Tabaquite-Talparo;Brasso Piedra
+0;-61.3211,10.4120;TT-CTT;Couva-Tabaquite-Talparo;Brasso
+0;-61.3082,10.3141;TT-PRT;Princes Town;Bonne Terre
+0;-61.4109,10.3337;TT-CTT;Couva-Tabaquite-Talparo;Bonne Aventure
+0;-61.8610,10.0910;TT-SIP;Siparia Regional Corporation;Bonasse
+0;-60.8251,11.1616;TT-11;Tobago;Bon Accord Village
+0;-61.5167,10.6667;TT-05;Port of Spain;Boissiere Village
+0;-61.3098,10.7960;TT-TUP;Tunapuna/Piarco;Blanchisseuse
+0;-60.7819,11.2060;TT-11;Tobago;Black Rock
+0;-61.1337,10.4291;TT-03;Mayaro;Biche
+0;-60.7835,11.1827;TT-11;Tobago;Bethel
+0;-60.5275,11.3151;TT-11;Tobago;Belmont
+0;-61.5057,10.6682;TT-05;Port of Spain;Belmont
+0;-60.5989,11.2335;TT-11;Tobago;Belle Garden
+0;-61.2962,10.1273;TT-PRT;Princes Town;Basse Terre
+0;-61.3958,10.2064;TT-PED;Penal/Debe;Barrackpore
+0;-61.4600,10.6472;TT-SJL;San Juan/Laventille;Barataria
+0;-61.8459,10.0962;TT-SIP;Siparia Regional Corporation;Bamboo
+0;-61.4284,10.4210;TT-CTT;Couva-Tabaquite-Talparo;Balmain
+0;-61.4506,10.1784;TT-PED;Penal/Debe;Bakhen
+0;-60.7226,11.1754;TT-11;Tobago;Bacolet
+0;-61.5350,10.1998;TT-SIP;Siparia Regional Corporation;Avocat
+0;-60.7850,11.1732;TT-11;Tobago;Auchenskeoch
+12054;-61.3349,10.6288;TT-TUP;Tunapuna/Piarco;Arouca
+0;-60.7567,11.2086;TT-11;Tobago;Arnos Vale
+35000;-61.2823,10.6374;TT-01;Borough of Arima;Arima
+0;-60.5833,11.2667;TT-11;Tobago;Arden
+0;-60.6122,11.3097;TT-11;Tobago;Anse Fourmi
+0;-61.4000,10.4833;TT-CTT;Couva-Tabaquite-Talparo;Agostini
+0;-60.7693,11.2137;TT-11;Tobago;Adventure
+0;-60.7177,11.2097;TT-11;Tobago;Adelphi
+0;-61.5035,10.6586;TT-SJL;San Juan/Laventille;Gonzales
+0;-60.5294,11.3069;TT;;Batteaux Bay
+0;-60.7322,11.1982;TT-11;Tobago;Harmony Hall
+0;-61.5687,10.6833;TT-DMN;Diego Martin Regional Corporation;Goodwood Park
+0;-61.5740,10.6816;TT-DMN;Diego Martin Regional Corporation;Glencoe
+0;-61.5662,10.6785;TT-DMN;Diego Martin Regional Corporation;Bayshore
+0;-61.5820,10.6837;TT-DMN;Diego Martin Regional Corporation;Sea View Gardens
+0;-61.4190,10.7063;TT-TUP;Tunapuna/Piarco;El Chorro
+0;-61.4389,10.5389;TT-CHA;Chaguanas;Felicity
+0;-61.4098,10.5009;TT-CHA;Chaguanas;Edinburgh
+0;-61.4447,10.4813;TT-CTT;Couva-Tabaquite-Talparo;Wyaby
+0;-61.3679,10.4932;TT-CTT;Couva-Tabaquite-Talparo;Palmiste
+0;-61.2088,10.5282;TT-CTT;Couva-Tabaquite-Talparo;Caratal
+0;-61.4442,10.3842;TT-CTT;Couva-Tabaquite-Talparo;Windsor Park
+0;-61.4412,10.4011;TT-CTT;Couva-Tabaquite-Talparo;Basterhall
+0;-61.4270,10.3961;TT-CTT;Couva-Tabaquite-Talparo;Carolina
+0;-61.4520,10.3580;TT-CTT;Couva-Tabaquite-Talparo;Soledad
+0;-61.3893,10.4345;TT-CTT;Couva-Tabaquite-Talparo;Jaitoo
+0;-61.3923,10.3899;TT-CTT;Couva-Tabaquite-Talparo;Gordon Settlement
+0;-61.4342,10.2748;TT-PRT;Princes Town;Tarouba
+0;-61.4579,10.3370;TT-PRT;Princes Town;Plaisance Park
+0;-61.4625,10.2867;TT-10;San Fernando;Spring Vale
+0;-61.4643,10.2799;TT-10;San Fernando;La Pique
+0;-61.4548,10.2687;TT-10;San Fernando;Pleasantville
+0;-61.4648,10.2627;TT-10;San Fernando;Palmiste
+0;-61.4835,10.2495;TT-10;San Fernando;La Romain
+0;-61.3674,10.2682;TT-PRT;Princes Town;Craignish
+0;-61.6380,10.1793;TT-PTF;Point Fortin;Hubert’s Town
+0;-61.0008,10.1526;TT-03;Mayaro;Mouville
+0;-60.8370,11.1526;TT;;Crown Point
+0;-60.8082,11.1699;TT;;Golden Grove
+0;-60.7611,11.1801;TT;;Signal Hill
+0;-60.7555,11.1948;TT;;Orange Hill
+0;-61.3547,10.6353;TT-TUP;Tunapuna/Piarco;Trincity
+0;-61.0106,10.2904;TT-03;Mayaro;Mayaro

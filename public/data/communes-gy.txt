@@ -1,0 +1,773 @@
+0;-57.4667,5.8500;GY-13;East Berbice-Corentyne;Barakara
+0;-58.4882,7.1745;GY-16;Pomeroon-Supenaam;Zorg en Vlygt
+0;-58.4762,7.1318;GY-16;Pomeroon-Supenaam;Zorg
+0;-57.8500,5.6833;GY-18;Upper Demerara-Berbice;Zion
+0;-57.8166,6.5749;GY-15;Mahaica-Berbice;Zes Kinderen
+0;-58.3402,6.8747;GY-14;Essequibo Islands-West Demerara;Zeelugt
+0;-58.4446,7.0115;GY-14;Essequibo Islands-West Demerara;Zeelandia
+0;-58.3135,6.8796;GY-14;Essequibo Islands-West Demerara;Zeeburg
+0;-57.8435,6.6191;GY-15;Mahaica-Berbice;Zealand
+0;-59.3500,3.6667;GY-19;Upper Takutu-Upper Essequibo;Yupukarri
+0;-57.8192,6.5774;GY-15;Mahaica-Berbice;Yorkshire Hall
+0;-58.6333,1.3667;GY-19;Upper Takutu-Upper Essequibo;Yepu Village
+0;-58.6667,1.3500;GY-19;Upper Takutu-Upper Essequibo;Yepi Village
+0;-57.2672,6.0491;GY-13;East Berbice-Corentyne;Yakusari
+0;-59.2500,3.9000;GY-19;Upper Takutu-Upper Essequibo;Yakarinta
+0;-59.0833,3.9833;GY-19;Upper Takutu-Upper Essequibo;Woweta Village
+0;-58.6164,6.4724;GY-11;Cuyuni-Mazaruni;Wolga
+0;-58.3833,5.5000;GY-18;Upper Demerara-Berbice;Wiribisirikanali
+0;-58.5849,6.1760;GY-11;Cuyuni-Mazaruni;Wineperu
+1602;-58.2352,6.8457;GY-14;Essequibo Islands-West Demerara;Windsor Forest
+0;-58.4797,7.3076;GY-16;Pomeroon-Supenaam;Windsor Castle
+0;-57.3660,6.2590;GY-13;East Berbice-Corentyne;Williamsburg
+0;-57.9233,6.6714;GY-12;Demerara-Mahaica;Wilhelmina
+0;-59.5333,2.8667;GY-19;Upper Takutu-Upper Essequibo;Wichabai
+0;-59.9833,4.9500;GY-17;Potaro-Siparuni;Wiapri
+0;-57.3123,6.2324;GY-13;East Berbice-Corentyne;Whim
+0;-58.2277,6.7799;GY-14;Essequibo Islands-West Demerara;Westminster
+0;-58.4916,7.1994;GY-16;Pomeroon-Supenaam;Westfield
+0;-58.5028,7.3669;GY-16;Pomeroon-Supenaam;Westbury
+0;-57.4591,5.8583;GY-13;East Berbice-Corentyne;Wel te Vreeden
+0;-57.6880,6.4965;GY-15;Mahaica-Berbice;Weldaad
+0;-59.9167,8.0833;GY-10;Barima-Waini;Wauna-Yarikita
+0;-58.4206,6.9098;GY-14;Essequibo Islands-West Demerara;Waterloo
+0;-58.4788,7.1521;GY-16;Pomeroon-Supenaam;Wastelands
+0;-57.8068,6.5007;GY-15;Mahaica-Berbice;Washclothes
+0;-59.9000,3.1000;GY-19;Upper Takutu-Upper Essequibo;Waruma
+0;-59.2000,2.7167;GY-19;Upper Takutu-Upper Essequibo;Wariwau
+0;-59.4833,2.9333;GY-19;Upper Takutu-Upper Essequibo;Warimure
+0;-58.2861,6.3156;GY-12;Demerara-Mahaica;Warida
+0;-57.1833,6.0667;GY-13;East Berbice-Corentyne;Ward village
+0;-58.8667,7.6167;GY-10;Barima-Waini;Waramuri Mission
+0;-59.7167,4.5500;GY-17;Potaro-Siparuni;Wandapa Village
+0;-59.5833,4.4500;GY-17;Potaro-Siparuni;Wandaik Village
+0;-58.4814,7.3304;GY-10;Barima-Waini;Walton Hall
+0;-58.2248,6.8384;GY-14;Essequibo Islands-West Demerara;Wallers Delight
+0;-58.2000,6.7000;GY-14;Essequibo Islands-West Demerara;Wales
+0;-58.8000,7.5167;GY-16;Pomeroon-Supenaam;Wakapau Village
+0;-58.7500,1.3833;GY-19;Upper Takutu-Upper Essequibo;Wakakulud Village
+0;-59.7167,1.9833;GY-19;Upper Takutu-Upper Essequibo;Wakadanawa
+0;-58.8000,1.4333;GY-19;Upper Takutu-Upper Essequibo;Waiwoi Village
+0;-58.6500,1.5833;GY-19;Upper Takutu-Upper Essequibo;Wai-Wai
+0;-60.0000,4.9333;GY-17;Potaro-Siparuni;Waipa Village
+0;-59.4000,7.5333;GY-10;Barima-Waini;Waikerebi Mission
+3073;-58.1938,6.8109;GY-14;Essequibo Islands-West Demerara;Vreed-en-Hoop
+0;-57.9170,6.6851;GY-12;Demerara-Mahaica;Voorsigtigheid
+0;-57.9132,6.6255;GY-12;Demerara-Mahaica;Virginia
+0;-58.4893,7.0350;GY-16;Pomeroon-Supenaam;Vilvoorden
+0;-57.9194,6.6659;GY-15;Mahaica-Berbice;Vevay
+0;-58.4181,6.9350;GY-14;Essequibo Islands-West Demerara;Vertrouwen
+0;-58.1911,6.7920;GY-14;Essequibo Islands-West Demerara;Versailles
+0;-58.3570,6.8765;GY-14;Essequibo Islands-West Demerara;Vergenoegen
+0;-58.3567,6.8728;GY-14;Essequibo Islands-West Demerara;Het Vergenoegen
+0;-57.9310,6.6613;GY-12;Demerara-Mahaica;Vereeniging
+0;-59.8000,4.8667;GY-17;Potaro-Siparuni;Velgrad
+0;-58.5939,6.4342;GY-18;Upper Demerara-Berbice;Urisirima Point
+0;-58.6000,6.4333;GY-18;Upper Demerara-Berbice;Urisirima
+0;-58.8009,6.4309;GY-11;Cuyuni-Mazaruni;Upper Kamaria
+0;-57.9209,6.6414;GY-12;Demerara-Mahaica;Uplands
+0;-58.4645,6.8243;GY-14;Essequibo Islands-West Demerara;Unity
+0;-57.9319,6.7151;GY-12;Demerara-Mahaica;Unity
+0;-58.3975,6.9611;GY-14;Essequibo Islands-West Demerara;Uniform
+0;-58.3040,6.8745;GY-14;Essequibo Islands-West Demerara;Uitvlugt
+0;-58.3028,6.4523;GY-12;Demerara-Mahaica;Uit
+0;-58.3497,6.8713;GY-14;Essequibo Islands-West Demerara;Tuschen de Vrienden
+8286;-58.3426,6.8766;GY-14;Essequibo Islands-West Demerara;Tuschen
+0;-57.9304,6.6982;GY-12;Demerara-Mahaica;Tranquility Hall
+0;-60.0000,7.3167;GY-10;Barima-Waini;Towakaima
+0;-59.3833,3.9167;GY-19;Upper Takutu-Upper Essequibo;Toka Village
+0;-58.2035,6.7435;GY-14;Essequibo Islands-West Demerara;Toevlugt
+0;-59.5667,4.2167;GY-19;Upper Takutu-Upper Essequibo;Tipuru Village
+0;-59.4333,4.0500;GY-19;Upper Takutu-Upper Essequibo;Tiger Pond Village
+0;-58.4850,7.2310;GY-16;Pomeroon-Supenaam;Three Friends
+0;-58.4838,7.3379;GY-16;Pomeroon-Supenaam;The Jib
+0;-58.6667,6.3833;GY-11;Cuyuni-Mazaruni;The Clip
+0;-58.2002,6.8135;GY-14;Essequibo Islands-West Demerara;The Best
+0;-58.4126,6.9505;GY-14;Essequibo Islands-West Demerara;Tewkesbury
+0;-58.4864,7.2101;GY-16;Pomeroon-Supenaam;Taymouth Manor
+0;-58.3833,2.0833;GY-19;Upper Takutu-Upper Essequibo;Taruma Village
+0;-59.6333,4.8000;GY-17;Potaro-Siparuni;Taruka
+0;-57.2388,6.1816;GY-13;East Berbice-Corentyne;Tarlogie
+0;-59.7167,2.3500;GY-19;Upper Takutu-Upper Essequibo;Tamton
+0;-57.9667,5.6000;GY-18;Upper Demerara-Berbice;Takama Battle School
+0;-57.9167,5.5667;GY-18;Upper Demerara-Berbice;Takama
+0;-57.3363,6.2390;GY-13;East Berbice-Corentyne;Tain
+0;-58.3076,6.3620;GY-12;Demerara-Mahaica;Susannahs Rust
+0;-59.0667,4.1667;GY-19;Upper Takutu-Upper Essequibo;Surumatra
+0;-59.8000,7.8167;GY-10;Barima-Waini;Surprise Hill
+0;-59.0833,4.1667;GY-19;Upper Takutu-Upper Essequibo;Surama Village
+0;-57.9263,6.6637;GY-12;Demerara-Mahaica;Supply
+0;-57.7997,6.5452;GY-15;Mahaica-Berbice;Supply
+0;-59.6500,3.7000;GY-19;Upper Takutu-Upper Essequibo;Sunnyside
+0;-58.4773,7.1092;GY-16;Pomeroon-Supenaam;Suddie
+0;-58.4322,6.9029;GY-14;Essequibo Islands-West Demerara;Success
+0;-58.0709,6.8111;GY-12;Demerara-Mahaica;Success
+0;-57.8002,6.5332;GY-15;Mahaica-Berbice;Strath Campbell
+0;-57.9229,6.6483;GY-12;Demerara-Mahaica;Strathavon
+0;-57.8865,6.6546;GY-15;Mahaica-Berbice;Strangroen
+0;-57.1540,5.9213;GY-13;East Berbice-Corentyne;Number Seventy-four Stockholm
+0;-58.2971,6.8727;GY-14;Essequibo Islands-West Demerara;Stewartville
+0;-58.3144,6.3763;GY-14;Essequibo Islands-West Demerara;Stena
+0;-58.2061,6.7304;GY-14;Essequibo Islands-West Demerara;Stanleytown
+0;-57.5126,6.2347;GY-13;East Berbice-Corentyne;Stanleytown
+0;-57.1406,5.8930;GY-13;East Berbice-Corentyne;Springlands
+0;-57.9242,6.6989;GY-12;Demerara-Mahaica;Spring Hall
+0;-58.5011,6.9824;GY-16;Pomeroon-Supenaam;Spring Garden
+0;-58.2690,6.2973;GY-14;Essequibo Islands-West Demerara;Spring Garden
+0;-57.1606,5.9129;GY-13;East Berbice-Corentyne;Number Seventy-five Spring Garden
+0;-57.7998,6.5476;GY-15;Mahaica-Berbice;Spooner
+0;-58.4794,7.3022;GY-16;Pomeroon-Supenaam;Sparta
+0;-58.4530,6.8356;GY-14;Essequibo Islands-West Demerara;Sparta
+0;-57.7994,6.5679;GY-15;Mahaica-Berbice;Sophia
+0;-58.5652,7.3966;GY-16;Pomeroon-Supenaam;Somerset
+0;-58.2290,6.5428;GY-14;Essequibo Islands-West Demerara;Soesdyke
+5859;-57.1468,5.8704;GY-13;East Berbice-Corentyne;Skeldon
+0;-59.5500,4.6500;GY-17;Potaro-Siparuni;Sisipelin Village
+0;-57.5333,6.2833;GY-15;Mahaica-Berbice;Sir James
+0;-58.6592,7.3274;GY-16;Pomeroon-Supenaam;Siriki
+0;-59.8313,7.7740;GY-10;Barima-Waini;Sinclair Landing
+0;-58.5833,6.5167;GY-14;Essequibo Islands-West Demerara;Simirie
+0;-58.6700,7.2153;GY-16;Pomeroon-Supenaam;Simeri
+0;-59.7833,3.0833;GY-19;Upper Takutu-Upper Essequibo;Shulinab
+0;-59.1333,2.8167;GY-19;Upper Takutu-Upper Essequibo;Shea Village
+0;-57.6739,6.4808;GY-15;Mahaica-Berbice;Seafield
+0;-57.1420,5.9068;GY-13;East Berbice-Corentyne;Scottsburg
+0;-58.1953,6.7802;GY-14;Essequibo Islands-West Demerara;Schoonord
+0;-58.6109,6.5778;GY-14;Essequibo Islands-West Demerara;Saxakalli
+0;-59.6500,2.6833;GY-19;Upper Takutu-Upper Essequibo;Sawariwaunawa
+0;-58.2088,6.5936;GY-12;Demerara-Mahaica;Sarah Johanna
+0;-58.4638,6.9656;GY-14;Essequibo Islands-West Demerara;Sarah
+0;-57.8240,6.6014;GY-15;Mahaica-Berbice;Sarah
+0;-58.9500,7.6500;GY-10;Barima-Waini;Santa Rosa Mission
+0;-59.6000,3.7833;GY-19;Upper Takutu-Upper Essequibo;Santa Fe
+0;-59.2333,7.6500;GY-10;Barima-Waini;Santa Cruz
+0;-58.4734,6.9566;GY-14;Essequibo Islands-West Demerara;Sans Souci
+0;-58.2923,6.4415;GY-12;Demerara-Mahaica;Sans Souci
+0;-58.3141,6.4786;GY-14;Essequibo Islands-West Demerara;Sand Hills
+0;-57.7403,5.8120;GY-18;Upper Demerara-Berbice;Sandhills
+0;-59.5167,3.0000;GY-19;Upper Takutu-Upper Essequibo;Sand Creek Village
+0;-58.4473,6.8389;GY-14;Essequibo Islands-West Demerara;Salem
+0;-58.9500,7.5000;GY-16;Pomeroon-Supenaam;Saint Nicholas Mission
+0;-58.5835,6.2439;GY-11;Cuyuni-Mazaruni;Saint Marys
+0;-59.0167,5.2000;GY-17;Potaro-Siparuni;Saint Mary’s
+0;-58.4743,6.8098;GY-14;Essequibo Islands-West Demerara;Saint Lawrence
+0;-59.8000,3.3333;GY-19;Upper Takutu-Upper Essequibo;Saint Ignatius
+0;-58.6981,6.3713;GY-11;Cuyuni-Mazaruni;Saint Edwards Mission
+0;-58.0867,6.3687;GY-12;Demerara-Mahaica;Saint Cuthberts Mission
+0;-59.8333,7.8167;GY-10;Barima-Waini;Saint Benedict Mission
+0;-59.4667,7.5667;GY-10;Barima-Waini;Saint Bede’s Mission
+0;-58.1561,6.7461;GY-12;Demerara-Mahaica;Sage Pond
+0;-59.2333,2.3333;GY-19;Upper Takutu-Upper Essequibo;Sabernawau Village
+0;-58.2308,6.8426;GY-14;Essequibo Islands-West Demerara;Ruimzigt
+0;-58.3862,6.8701;GY-14;Essequibo Islands-West Demerara;Ruby
+0;-58.2109,6.8249;GY-14;Essequibo Islands-West Demerara;Rotterdam
+5782;-57.5370,6.2710;GY-15;Mahaica-Berbice;Rosignol
+8000;-57.3550,6.2558;GY-13;East Berbice-Corentyne;Rose Hall
+4532;-57.3588,6.2377;GY-13;East Berbice-Corentyne;Rose Hall
+0;-58.4575,6.8324;GY-14;Essequibo Islands-West Demerara;Roden Rust
+0;-58.5525,5.9889;GY-18;Upper Demerara-Berbice;Rockstone
+0;-58.5925,6.4384;GY-18;Upper Demerara-Berbice;Riverview
+0;-58.4822,7.0669;GY-16;Pomeroon-Supenaam;Riverstown
+0;-57.2000,6.0833;GY-13;East Berbice-Corentyne;Rising Sun
+0;-58.4078,6.9561;GY-14;Essequibo Islands-West Demerara;Richmond Hill
+0;-58.4814,7.2731;GY-16;Pomeroon-Supenaam;Richmond
+0;-57.3409,6.2400;GY-13;East Berbice-Corentyne;Resource
+0;-58.4836,7.2436;GY-16;Pomeroon-Supenaam;Reliance
+0;-59.4333,7.8667;GY-10;Barima-Waini;Red Hill Settlement
+0;-58.4924,7.1939;GY-16;Pomeroon-Supenaam;Queenstown Village District
+0;-57.1409,5.8864;GY-13;East Berbice-Corentyne;Queenstown
+0;-57.8512,6.6259;GY-15;Mahaica-Berbice;Quakers Hall
+0;-59.9833,4.5167;GY-17;Potaro-Siparuni;Puwa Village
+0;-58.9000,3.0667;GY-19;Upper Takutu-Upper Essequibo;Pukasanta Village
+0;-58.6167,5.2333;GY-18;Upper Demerara-Berbice;Pubu
+0;-57.5243,6.2260;GY-13;East Berbice-Corentyne;Providence Place
+0;-58.6342,7.4838;GY-16;Pomeroon-Supenaam;Providence
+0;-57.8670,6.6399;GY-15;Mahaica-Berbice;Prospect
+0;-58.1525,6.7451;GY-12;Demerara-Mahaica;Profit
+0;-57.7221,6.5208;GY-15;Mahaica-Berbice;Profit
+0;-57.1392,5.9049;GY-13;East Berbice-Corentyne;Princetown
+0;-58.3036,6.4893;GY-14;Essequibo Islands-West Demerara;Princess Carolina
+0;-58.4784,6.8074;GY-14;Essequibo Islands-West Demerara;Present Hope
+0;-59.4500,2.5333;GY-19;Upper Takutu-Upper Essequibo;Powisanau Village
+0;-58.5851,6.2851;GY-11;Cuyuni-Mazaruni;Poterima
+0;-57.3336,6.2460;GY-13;East Berbice-Corentyne;Port Mourant
+0;-59.8751,7.7299;GY-10;Barima-Waini;Port Kaituma
+0;-58.4824,7.0588;GY-16;Pomeroon-Supenaam;Pomona
+0;-57.8418,6.6172;GY-15;Mahaica-Berbice;Planters Hall
+0;-57.7481,6.5366;GY-15;Mahaica-Berbice;Abary
+0;-59.6667,3.6167;GY-19;Upper Takutu-Upper Essequibo;Pirara
+0;-57.7831,6.4150;GY-15;Mahaica-Berbice;Pine Ground
+0;-59.6833,2.7667;GY-19;Upper Takutu-Upper Essequibo;Pilinawa
+0;-58.7225,7.2562;GY-16;Pomeroon-Supenaam;Pickersgill
+0;-58.1906,6.7979;GY-14;Essequibo Islands-West Demerara;Phoenix Town
+0;-58.4478,6.8912;GY-14;Essequibo Islands-West Demerara;Phoenix
+0;-58.3660,6.8749;GY-14;Essequibo Islands-West Demerara;Philadelphia
+28;-57.8014,6.5544;GY-15;Mahaica-Berbice;Perth
+0;-58.4932,7.3562;GY-16;Pomeroon-Supenaam;Perth
+0;-58.4758,7.1459;GY-16;Pomeroon-Supenaam;Perseverance
+0;-58.1470,6.7409;GY-12;Demerara-Mahaica;Perseverance
+0;-57.8332,6.6111;GY-15;Mahaica-Berbice;Perseverance
+0;-59.1167,4.1333;GY-19;Upper Takutu-Upper Essequibo;Peropo
+0;-58.2085,6.5891;GY-12;Demerara-Mahaica;Pearl
+0;-58.6185,6.5399;GY-14;Essequibo Islands-West Demerara;Patientia
+0;-58.2001,6.6985;GY-14;Essequibo Islands-West Demerara;Patentia
+0;-59.5730,3.4542;GY-19;Upper Takutu-Upper Essequibo;Parishara
+0;-59.5833,3.5667;GY-19;Upper Takutu-Upper Essequibo;Parikaranal
+4081;-58.4294,6.8371;GY-14;Essequibo Islands-West Demerara;Parika
+0;-59.6667,7.3667;GY-10;Barima-Waini;Parapimai
+0;-59.7000,4.7167;GY-17;Potaro-Siparuni;Paramakatoi
+0;-57.9167,5.5667;GY-18;Upper Demerara-Berbice;Paradise
+0;-58.4845,7.3347;GY-16;Pomeroon-Supenaam;Paradise
+0;-57.6955,6.5031;GY-15;Mahaica-Berbice;Paradise
+0;-59.3000,2.2167;GY-19;Upper Takutu-Upper Essequibo;Parabara
+0;-58.4385,6.8978;GY-14;Essequibo Islands-West Demerara;Osterbeck
+0;-57.8153,6.5893;GY-15;Mahaica-Berbice;Ormsary
+0;-57.3333,5.3167;GY-13;East Berbice-Corentyne;Orealla
+0;-58.4047,6.8665;GY-14;Essequibo Islands-West Demerara;Orangestein
+0;-59.9178,6.0721;GY-11;Cuyuni-Mazaruni;Oranapai Landing
+0;-58.5443,7.3930;GY-16;Pomeroon-Supenaam;Opposite
+0;-58.4853,7.1063;GY-16;Pomeroon-Supenaam;Onderneeming
+0;-58.2304,6.7800;GY-14;Essequibo Islands-West Demerara;Onderneeming
+0;-58.2746,5.9722;GY-18;Upper Demerara-Berbice;Old England
+0;-58.3721,6.9273;GY-14;Essequibo Islands-West Demerara;Okum
+0;-57.7997,6.5351;GY-15;Mahaica-Berbice;Number Twelve
+0;-57.5831,6.3566;GY-15;Mahaica-Berbice;Number Twelve
+0;-57.8863,6.5685;GY-15;Mahaica-Berbice;Number Ten
+0;-57.7998,6.5423;GY-15;Mahaica-Berbice;Number Ten
+0;-57.1616,5.9907;GY-13;East Berbice-Corentyne;Number Sixty-two
+0;-57.1614,5.9662;GY-13;East Berbice-Corentyne;Number Sixty-six
+0;-57.1549,5.9633;GY-13;East Berbice-Corentyne;Number Sixty-seven
+0;-57.1613,5.9958;GY-13;East Berbice-Corentyne;Number Sixty-one
+0;-57.1671,5.9981;GY-13;East Berbice-Corentyne;Number Sixty
+0;-57.1445,5.9000;GY-13;East Berbice-Corentyne;Number Seventy-seven
+0;-57.2000,6.0833;GY-13;East Berbice-Corentyne;Number Forty-six
+0;-57.6727,6.4739;GY-15;Mahaica-Berbice;Number Forty-one
+0;-57.2000,6.1000;GY-13;East Berbice-Corentyne;Number Forty-five
+0;-57.6693,6.4700;GY-15;Mahaica-Berbice;Number Forty
+0;-57.8283,6.6057;GY-15;Mahaica-Berbice;Now or Never
+0;-57.7654,6.5504;GY-15;Mahaica-Berbice;Novar
+0;-58.2081,6.8160;GY-14;Essequibo Islands-West Demerara;Nouvelle Flanders
+0;-57.9625,6.7490;GY-12;Demerara-Mahaica;Nooten Zuil
+0;-58.4533,6.9409;GY-14;Essequibo Islands-West Demerara;Noitgedacht
+0;-57.8974,6.6474;GY-15;Mahaica-Berbice;Noitgedacht
+0;-58.0405,6.7703;GY-12;Demerara-Mahaica;Nog Eens
+0;-58.2041,6.7542;GY-14;Essequibo Islands-West Demerara;Nismes
+0;-58.6290,7.4788;GY-16;Pomeroon-Supenaam;Nile
+0;-57.8027,6.5173;GY-15;Mahaica-Berbice;New Providence
+0;-57.1563,5.9739;GY-13;East Berbice-Corentyne;Number Sixty-five New Market
+0;-58.4784,6.9476;GY-14;Essequibo Islands-West Demerara;New Friendship
+0;-58.4437,6.9488;GY-14;Essequibo Islands-West Demerara;New Belle Plaine
+35039;-57.5158,6.2492;GY-13;East Berbice-Corentyne;New Amsterdam
+0;-58.2659,6.7361;GY-14;Essequibo Islands-West Demerara;New Aanlegt
+0;-57.8955,6.6551;GY-15;Mahaica-Berbice;Neufchatel
+0;-57.6574,5.7583;GY-18;Upper Demerara-Berbice;Fort Nassau
+0;-59.5760,3.4147;GY-19;Upper Takutu-Upper Essequibo;Nappi Village
+0;-58.4447,6.8417;GY-14;Essequibo Islands-West Demerara;Naamryck
+0;-58.4829,6.8022;GY-14;Essequibo Islands-West Demerara;Naamless
+0;-59.1333,7.5833;GY-10;Barima-Waini;Mubohina
+0;-59.4667,7.8167;GY-10;Barima-Waini;Mount Everard
+0;-59.5500,3.5167;GY-19;Upper Takutu-Upper Essequibo;Mountain View
+0;-59.6333,3.0000;GY-19;Upper Takutu-Upper Essequibo;Mountain Point
+0;-57.9246,6.7085;GY-12;Demerara-Mahaica;Mosquito Hall
+0;-57.8048,6.5106;GY-15;Mahaica-Berbice;Mortice
+0;-59.5500,3.9000;GY-19;Upper Takutu-Upper Essequibo;Moreiru
+0;-59.7561,8.2687;GY-10;Barima-Waini;Morawhanna
+0;-58.5040,6.7643;GY-14;Essequibo Islands-West Demerara;Morasi
+0;-57.7776,6.4373;GY-15;Mahaica-Berbice;Mora Point
+0;-57.9508,6.0986;GY-15;Mahaica-Berbice;Saint Francis Mission
+0;-58.4501,6.8358;GY-14;Essequibo Islands-West Demerara;Mora
+0;-58.4092,6.9871;GY-14;Essequibo Islands-West Demerara;Moorfarm
+0;-59.6833,4.4833;GY-17;Potaro-Siparuni;Monkey Mountain
+0;-58.5667,6.2500;GY-18;Upper Demerara-Berbice;Monkey Jump
+0;-58.6208,6.3977;GY-11;Cuyuni-Mazaruni;Mongreppo
+0;-58.2568,6.7209;GY-14;Essequibo Islands-West Demerara;Mon Desir
+0;-59.6667,3.3333;GY-19;Upper Takutu-Upper Essequibo;Moco-Moco Village
+0;-57.7868,6.4745;GY-15;Mahaica-Berbice;Moca Moca
+0;-58.4892,7.1937;GY-16;Pomeroon-Supenaam;Mocha
+0;-59.8603,7.7589;GY-10;Barima-Waini;Mission Landing
+0;-58.4872,7.0413;GY-16;Pomeroon-Supenaam;Middlesex
+0;-57.2824,6.1055;GY-13;East Berbice-Corentyne;Mibikuri
+0;-58.3237,6.8784;GY-14;Essequibo Islands-West Demerara;Met en Meerzorg
+0;-57.8819,6.6508;GY-15;Mahaica-Berbice;Mes Delices
+0;-59.5833,3.7500;GY-19;Upper Takutu-Upper Essequibo;Meritizero
+0;-58.4691,6.9541;GY-14;Essequibo Islands-West Demerara;Melville
+0;-58.4387,6.9837;GY-14;Essequibo Islands-West Demerara;Meerzorg
+0;-58.2010,6.7769;GY-14;Essequibo Islands-West Demerara;Meer Zorgen
+0;-57.1661,5.9402;GY-13;East Berbice-Corentyne;Number Seventy Massiah
+0;-59.3000,3.9000;GY-19;Upper Takutu-Upper Essequibo;Massara
+0;-58.3833,5.6000;GY-18;Upper Demerara-Berbice;Masabona
+0;-58.4148,6.9111;GY-14;Essequibo Islands-West Demerara;Maryville
+0;-57.9326,6.6604;GY-12;Demerara-Mahaica;Marys Hope
+0;-57.1467,5.8987;GY-13;East Berbice-Corentyne;Number Seventy-eight Mary and Eliza
+0;-57.7980,6.5743;GY-15;Mahaica-Berbice;Mary
+0;-59.1667,2.7500;GY-19;Upper Takutu-Upper Essequibo;Marurawaunawa Village
+0;-57.8896,6.5286;GY-15;Mahaica-Berbice;Martins Burial Ground
+0;-58.6435,7.4919;GY-16;Pomeroon-Supenaam;Marlborough
+0;-59.6667,3.0500;GY-19;Upper Takutu-Upper Essequibo;Mariwa Village
+0;-58.5066,6.7534;GY-14;Essequibo Islands-West Demerara;Maripa
+0;-58.4373,6.9560;GY-14;Essequibo Islands-West Demerara;Marionville
+0;-58.4332,6.9778;GY-14;Essequibo Islands-West Demerara;Marias Pleasure
+0;-58.4780,7.1141;GY-16;Pomeroon-Supenaam;Marias Lodge
+0;-58.5391,7.3921;GY-16;Pomeroon-Supenaam;Marias Delight
+0;-58.4620,6.9346;GY-14;Essequibo Islands-West Demerara;Maria Johanna
+0;-59.5500,3.6000;GY-19;Upper Takutu-Upper Essequibo;Marakanata
+0;-57.8899,6.6563;GY-15;Mahaica-Berbice;Manilla
+0;-58.8667,7.5833;GY-10;Barima-Waini;Manawarin
+0;-59.8333,7.5167;GY-10;Barima-Waini;Manari Village
+0;-59.7667,3.4333;GY-19;Upper Takutu-Upper Essequibo;Manari
+0;-58.6015,6.7136;GY-14;Essequibo Islands-West Demerara;Manaka
+0;-59.7333,1.9410;GY-19;Upper Takutu-Upper Essequibo;Mamir Pawa
+0;-58.1880,6.7947;GY-14;Essequibo Islands-West Demerara;Malgre Tout
+0;-58.3500,5.6167;GY-18;Upper Demerara-Berbice;Malali
+0;-58.5841,6.4756;GY-14;Essequibo Islands-West Demerara;Makouria
+0;-58.4903,7.0090;GY-16;Pomeroon-Supenaam;Makeshift
+0;-58.7450,7.2414;GY-16;Pomeroon-Supenaam;Makasima
+0;-58.5538,4.5455;GY-17;Potaro-Siparuni;Makari
+0;-58.4836,7.2400;GY-16;Pomeroon-Supenaam;Mainstay
+4200;-59.1498,5.2847;GY-17;Potaro-Siparuni;Mahdia
+2130;-57.8062,6.5721;GY-15;Mahaica-Berbice;Mahaicony Village
+4867;-57.9218,6.6817;GY-12;Demerara-Mahaica;Mahaica Village
+0;-59.7167,3.0667;GY-19;Upper Takutu-Upper Essequibo;Macusi Village
+0;-57.7881,6.3811;GY-15;Mahaica-Berbice;Macouba
+0;-58.5530,7.0528;GY-16;Pomeroon-Supenaam;Mashabo
+0;-57.5833,6.0833;GY-13;East Berbice-Corentyne;Macaw
+6366;-59.7812,8.2038;GY-10;Barima-Waini;Mabaruma
+0;-58.4902,7.1881;GY-16;Pomeroon-Supenaam;L’Union
+0;-59.4833,2.4000;GY-19;Upper Takutu-Upper Essequibo;Lumidpau
+0;-58.3173,5.9653;GY-18;Upper Demerara-Berbice;Lucky Spot
+0;-58.2876,6.4253;GY-12;Demerara-Mahaica;Low Wood
+0;-57.9581,6.7429;GY-12;Demerara-Mahaica;Lowlands
+0;-58.7629,6.4116;GY-11;Cuyuni-Mazaruni;Lower Kamaria
+0;-58.4437,6.8932;GY-14;Essequibo Islands-West Demerara;Louisiana
+0;-58.2000,6.7000;GY-14;Essequibo Islands-West Demerara;Lorenza
+0;-58.2646,6.2934;GY-12;Demerara-Mahaica;Loo Lands
+0;-58.2736,6.2543;GY-12;Demerara-Mahaica;Loo Lands
+0;-58.4404,6.8446;GY-14;Essequibo Islands-West Demerara;Look Out
+0;-58.4809,6.8046;GY-14;Essequibo Islands-West Demerara;Lookabu
+0;-57.1582,5.9356;GY-13;East Berbice-Corentyne;Number Seventy-one Little Massiah
+0;-58.4891,7.2030;GY-16;Pomeroon-Supenaam;Alliance
+44690;-58.3072,6.0081;GY-18;Upper Demerara-Berbice;Linden
+0;-58.4793,7.2881;GY-16;Pomeroon-Supenaam;Lima
+0;-57.6615,6.4676;GY-15;Mahaica-Berbice;Lichfield
+3893;-59.7997,3.3726;GY-19;Upper Takutu-Upper Essequibo;Lethem
+0;-57.3019,6.1463;GY-13;East Berbice-Corentyne;Lesbeholden
+0;-58.2890,6.8692;GY-14;Essequibo Islands-West Demerara;Leonora
+0;-57.1761,6.0549;GY-13;East Berbice-Corentyne;Leeds
+0;-58.3941,6.8689;GY-14;Essequibo Islands-West Demerara;Le Destin
+0;-58.2048,6.7367;GY-14;Essequibo Islands-West Demerara;La Retraite
+0;-58.5304,7.3904;GY-16;Pomeroon-Supenaam;La Resource
+0;-57.8098,6.5840;GY-15;Mahaica-Berbice;La Raisonable
+0;-58.2246,6.7796;GY-14;Essequibo Islands-West Demerara;La Parfaite Harmonie
+0;-58.4845,7.2350;GY-16;Pomeroon-Supenaam;Land of Plenty
+0;-58.2000,6.6020;GY-12;Demerara-Mahaica;Land of Canaan
+0;-58.2500,5.8333;GY-18;Upper Demerara-Berbice;Lancaster
+0;-57.9299,6.7075;GY-12;Demerara-Mahaica;Lancaster
+0;-58.5726,6.6179;GY-14;Essequibo Islands-West Demerara;Lanaballi
+0;-58.2878,6.4939;GY-12;Demerara-Mahaica;Lana
+0;-57.8985,6.6423;GY-15;Mahaica-Berbice;La Jeanette
+0;-58.2475,6.8524;GY-14;Essequibo Islands-West Demerara;La Jalousie
+0;-58.1989,6.7667;GY-14;Essequibo Islands-West Demerara;La Grange
+0;-57.9335,6.6581;GY-12;Demerara-Mahaica;La Bonne Mere
+0;-58.4776,7.2813;GY-16;Pomeroon-Supenaam;La Belle Alliance
+0;-58.4077,6.9240;GY-14;Essequibo Islands-West Demerara;La Bagatelle
+0;-57.9196,6.6454;GY-12;Demerara-Mahaica;Bagatelle
+0;-59.5000,3.6333;GY-19;Upper Takutu-Upper Essequibo;Kwatata
+0;-58.0500,5.2833;GY-18;Upper Demerara-Berbice;Kwakwani
+0;-59.3333,3.8167;GY-19;Upper Takutu-Upper Essequibo;Kwaimatta Village
+0;-59.1500,7.5667;GY-10;Barima-Waini;Kwabanna
+0;-58.6167,1.7333;GY-19;Upper Takutu-Upper Essequibo;Kurukuru-Baibari
+0;-59.8833,4.7500;GY-17;Potaro-Siparuni;Kurukabaru Village
+0;-59.7974,8.1915;GY-10;Barima-Waini;Kumaka
+0;-58.9500,7.6500;GY-10;Barima-Waini;Kumaka
+0;-57.9333,5.5833;GY-18;Upper Demerara-Berbice;Kumaka
+0;-58.3833,3.9000;GY-19;Upper Takutu-Upper Essequibo;Kumaka
+0;-59.6667,4.5833;GY-17;Potaro-Siparuni;Kukui-Eng Village
+0;-59.1500,2.3000;GY-19;Upper Takutu-Upper Essequibo;Kotoewau
+0;-59.6424,7.6159;GY-10;Barima-Waini;Koriabo
+0;-59.8000,4.9333;GY-17;Potaro-Siparuni;Kopinang Mission
+0;-58.6833,1.5667;GY-19;Upper Takutu-Upper Essequibo;Konashen
+0;-59.5900,7.3338;GY-10;Barima-Waini;Kokerite
+0;-57.8993,6.6398;GY-15;Mahaica-Berbice;Klyzenaar
+0;-58.1872,6.8012;GY-14;Essequibo Islands-West Demerara;Klien Pouderoyen
+0;-58.6724,7.5370;GY-16;Pomeroon-Supenaam;Kitty
+0;-58.4148,6.9466;GY-14;Essequibo Islands-West Demerara;Kingston
+0;-59.8167,4.6667;GY-17;Potaro-Siparuni;Kato Village
+0;-59.2500,2.8167;GY-19;Upper Takutu-Upper Essequibo;Kataliriwau Outstation
+0;-58.6942,6.3864;GY-11;Cuyuni-Mazaruni;Kartabu Point
+0;-59.4500,4.9167;GY-17;Potaro-Siparuni;Karisparu Village
+0;-59.7148,7.3782;GY-10;Barima-Waini;Kariaku
+0;-58.5833,6.8333;GY-14;Essequibo Islands-West Demerara;Kariakaria
+0;-59.4333,2.4667;GY-13;East Berbice-Corentyne;Karaudanawa
+0;-59.5333,4.0333;GY-19;Upper Takutu-Upper Essequibo;Karasabai Village
+0;-59.3000,3.7500;GY-19;Upper Takutu-Upper Essequibo;Karanambo
+0;-59.8619,8.1319;GY-10;Barima-Waini;Kamwatta Hill
+0;-58.7667,6.4167;GY-11;Cuyuni-Mazaruni;Kamaria
+0;-59.9333,4.8333;GY-17;Potaro-Siparuni;Kamana Village
+0;-57.9167,5.5500;GY-18;Upper Demerara-Berbice;Kalkuni
+0;-58.6531,6.3884;GY-11;Cuyuni-Mazaruni;Kalakun
+0;-59.8667,3.5667;GY-19;Upper Takutu-Upper Essequibo;Kaibarupai Village
+0;-58.5333,1.8500;GY-19;Upper Takutu-Upper Essequibo;Johi Village
+0;-58.4773,7.1222;GY-16;Pomeroon-Supenaam;Johanna Cecelia
+0;-58.4951,6.8882;GY-14;Essequibo Islands-West Demerara;Johanna
+0;-57.2650,6.0790;GY-13;East Berbice-Corentyne;Joanna
+0;-57.2000,6.1333;GY-13;East Berbice-Corentyne;Java
+0;-59.6667,3.5167;GY-19;Upper Takutu-Upper Essequibo;Jakaretinga
+0;-57.6590,6.4609;GY-15;Mahaica-Berbice;Jacoba
+0;-58.6214,7.4716;GY-16;Pomeroon-Supenaam;Jackson
+676;-58.2563,5.5367;GY-18;Upper Demerara-Berbice;Ituni
+0;-59.4239,5.8138;GY-11;Cuyuni-Mazaruni;Issano Terminus
+0;-57.5167,6.2167;GY-13;East Berbice-Corentyne;Islington
+0;-59.3667,2.3167;GY-19;Upper Takutu-Upper Essequibo;Isherton
+0;-59.6000,7.4333;GY-10;Barima-Waini;Ipotaikuru
+0;-57.8883,6.5863;GY-15;Mahaica-Berbice;Industry
+0;-59.8333,3.1333;GY-19;Upper Takutu-Upper Essequibo;Imprenza
+0;-59.4500,2.2667;GY-19;Upper Takutu-Upper Essequibo;Illimir Village
+0;-59.2667,7.4000;GY-10;Barima-Waini;Igupa Village
+0;-58.4190,6.8633;GY-14;Essequibo Islands-West Demerara;Hydronie
+0;-58.4323,6.8533;GY-14;Essequibo Islands-West Demerara;Hyde Park
+0;-58.2686,6.5102;GY-12;Demerara-Mahaica;Hyde Park
+0;-58.0000,5.3667;GY-18;Upper Demerara-Berbice;Hururu
+0;-57.7795,6.5565;GY-15;Mahaica-Berbice;Huntley
+0;-58.4674,6.8194;GY-14;Essequibo Islands-West Demerara;Hubu
+0;-59.8216,8.0087;GY-10;Barima-Waini;Hotoquai
+0;-59.8081,8.1733;GY-10;Barima-Waini;Hosororo
+0;-58.7333,6.2833;GY-11;Cuyuni-Mazaruni;Hororabo
+0;-57.6153,6.3874;GY-15;Mahaica-Berbice;Hopetown
+0;-57.9555,6.7373;GY-12;Demerara-Mahaica;Hope
+0;-57.1568,5.9311;GY-13;East Berbice-Corentyne;Number Seventy-two Hong Kong
+0;-59.5833,4.9667;GY-17;Potaro-Siparuni;Holmia
+0;-58.4899,7.1803;GY-16;Pomeroon-Supenaam;Hoff Van Aurich
+0;-59.8167,7.9667;GY-10;Barima-Waini;Hobediah
+0;-57.7500,5.8000;GY-18;Upper Demerara-Berbice;Hitia
+0;-58.4886,7.0206;GY-16;Pomeroon-Supenaam;Hibernia
+0;-59.6333,3.4000;GY-19;Upper Takutu-Upper Essequibo;Hiawa
+0;-57.8959,6.6531;GY-15;Mahaica-Berbice;Hensden
+0;-58.1476,6.7440;GY-12;Demerara-Mahaica;Henry
+0;-58.4815,7.2683;GY-16;Pomeroon-Supenaam;Henrietta
+0;-57.9231,6.6762;GY-12;Demerara-Mahaica;Helena Number Two
+1568;-57.9245,6.6730;GY-12;Demerara-Mahaica;Helena Number One
+0;-59.5500,3.4833;GY-19;Upper Takutu-Upper Essequibo;Hawkins Mission
+0;-57.3444,6.2407;GY-13;East Berbice-Corentyne;Haswell
+0;-57.1493,5.9101;GY-13;East Berbice-Corentyne;Number Seventy-six Harriet
+0;-57.8652,6.6382;GY-15;Mahaica-Berbice;Harmony Hall
+0;-58.2204,6.8345;GY-14;Essequibo Islands-West Demerara;Mary
+0;-57.9180,6.6820;GY-12;Demerara-Mahaica;Hand en Veldt
+0;-58.4828,7.3145;GY-16;Pomeroon-Supenaam;Hampton Court
+0;-57.3663,6.2501;GY-13;East Berbice-Corentyne;Hampshire
+0;-58.4667,7.0500;GY-14;Essequibo Islands-West Demerara;Hamburg
+0;-58.2625,6.8504;GY-14;Essequibo Islands-West Demerara;Hague
+0;-57.7833,6.5595;GY-15;Mahaica-Berbice;Grove
+0;-58.2838,6.8697;GY-14;Essequibo Islands-West Demerara;Groenveldt
+0;-58.3784,6.8712;GY-14;Essequibo Islands-West Demerara;Greenwich Park
+0;-57.9411,6.7262;GY-12;Demerara-Mahaica;Greenfield
+11;-57.7824,6.4646;GY-15;Mahaica-Berbice;Governor Light
+0;-57.7922,6.3922;GY-15;Mahaica-Berbice;Gordon Table
+0;-58.4768,6.9515;GY-14;Essequibo Islands-West Demerara;Good Success
+0;-58.1815,6.6945;GY-12;Demerara-Mahaica;Good Success
+0;-58.2075,6.7148;GY-12;Demerara-Mahaica;Good Intent
+0;-58.4043,6.9562;GY-14;Essequibo Islands-West Demerara;Good Intent
+0;-57.9167,6.6878;GY-12;Demerara-Mahaica;Good Intent
+0;-57.2000,6.1000;GY-13;East Berbice-Corentyne;Good Hope
+0;-59.5833,3.8667;GY-19;Upper Takutu-Upper Essequibo;Good Hope
+0;-58.5066,6.9762;GY-16;Pomeroon-Supenaam;Good Hope
+0;-58.3824,6.8709;GY-14;Essequibo Islands-West Demerara;Good Hope
+0;-57.9213,6.6782;GY-12;Demerara-Mahaica;Good Hope
+0;-58.2922,6.4168;GY-14;Essequibo Islands-West Demerara;Good Hope
+0;-57.7600,6.5484;GY-15;Mahaica-Berbice;Good Faith
+0;-58.3028,6.0813;GY-18;Upper Demerara-Berbice;Gold Hill
+0;-58.1831,6.7035;GY-12;Demerara-Mahaica;Golden Grove
+0;-58.4814,7.1384;GY-16;Pomeroon-Supenaam;Golden Fleece
+0;-57.6922,6.5000;GY-15;Mahaica-Berbice;Golden Fleece
+0;-58.1928,6.7853;GY-14;Essequibo Islands-West Demerara;Goed Fortuin
+0;-57.7305,5.6189;GY-18;Upper Demerara-Berbice;GNS Kimbia
+0;-57.8716,6.6430;GY-15;Mahaica-Berbice;Glaziers Lust
+0;-58.2833,6.5167;GY-12;Demerara-Mahaica;Glasgow Village
+0;-58.2947,6.4963;GY-14;Essequibo Islands-West Demerara;Glasgow
+0;-57.8938,6.6157;GY-15;Mahaica-Berbice;Geruchy and Ruyters
+235017;-58.1553,6.8045;GY-12;Demerara-Mahaica;Georgetown
+0;-57.3868,6.2750;GY-13;East Berbice-Corentyne;Number Three Fyrish
+0;-58.4594,6.9737;GY-14;Essequibo Islands-West Demerara;Friendship
+0;-57.1679,5.9459;GY-13;East Berbice-Corentyne;Number Sixty-nine Friendship
+0;-57.9520,6.7347;GY-12;Demerara-Mahaica;Two Friends
+0;-58.4399,6.9521;GY-14;Essequibo Islands-West Demerara;Fredericksburg
+0;-57.8973,6.6278;GY-15;Mahaica-Berbice;Fredericka Johanna
+0;-57.7112,6.5125;GY-15;Mahaica-Berbice;Foulis
+0;-57.7948,6.3622;GY-15;Mahaica-Berbice;First Savannah
+0;-58.2560,6.8574;GY-14;Essequibo Islands-West Demerara;Fellowship
+0;-57.7997,6.5389;GY-15;Mahaica-Berbice;Felicity
+0;-58.4806,7.2983;GY-16;Pomeroon-Supenaam;Fear Not
+0;-58.4858,7.0310;GY-16;Pomeroon-Supenaam;Fairfield
+0;-57.8568,6.6311;GY-15;Mahaica-Berbice;Fairfield
+0;-58.2969,6.4012;GY-14;Essequibo Islands-West Demerara;Experience
+0;-58.4877,7.3458;GY-16;Pomeroon-Supenaam;Exmouth
+0;-58.5558,7.3952;GY-16;Pomeroon-Supenaam;Evergreen
+0;-58.5958,7.3902;GY-16;Pomeroon-Supenaam;Eurowa
+0;-57.7900,6.4818;GY-15;Mahaica-Berbice;Essau and Jacob
+0;-57.3333,5.1333;GY-13;East Berbice-Corentyne;Epira
+0;-58.3989,6.9152;GY-14;Essequibo Islands-West Demerara;Enterprise
+0;-58.3870,6.9221;GY-14;Essequibo Islands-West Demerara;Endeavour
+0;-57.8965,6.6505;GY-15;Mahaica-Berbice;Endeavour
+0;-59.6667,4.5667;GY-17;Potaro-Siparuni;Enaruko Village
+0;-58.2983,6.4481;GY-12;Demerara-Mahaica;Elizabeth Ann
+0;-57.7022,6.5093;GY-15;Mahaica-Berbice;Eldorado
+0;-58.2814,6.8652;GY-14;Essequibo Islands-West Demerara;Edinburgh
+0;-57.7850,5.5660;GY-18;Upper Demerara-Berbice;Ebini
+0;-58.8808,7.2547;GY-16;Pomeroon-Supenaam;Durung Bang
+0;-58.2661,6.2991;GY-12;Demerara-Mahaica;Buabanna
+0;-58.4958,7.3590;GY-16;Pomeroon-Supenaam;Dunkeld
+0;-57.7679,6.5564;GY-15;Mahaica-Berbice;Dundee
+0;-57.1401,5.9039;GY-13;East Berbice-Corentyne;Dukestown
+0;-57.8204,6.5973;GY-15;Mahaica-Berbice;Drill
+0;-58.2642,6.2892;GY-12;Demerara-Mahaica;Dora
+0;-58.4175,6.9424;GY-14;Essequibo Islands-West Demerara;Doomhaag
+0;-58.4525,6.9580;GY-14;Essequibo Islands-West Demerara;Domburg
+0;-57.9516,6.7369;GY-12;Demerara-Mahaica;Dochfour
+0;-58.1771,6.7227;GY-12;Demerara-Mahaica;Diamond Place
+0;-58.3147,6.8741;GY-14;Essequibo Islands-West Demerara;De William
+0;-57.8983,6.6439;GY-15;Mahaica-Berbice;De Vriend
+0;-58.4815,7.3258;GY-16;Pomeroon-Supenaam;Devonshire Castle
+0;-58.2552,6.8535;GY-14;Essequibo Islands-West Demerara;Den Amstel
+0;-57.8466,6.6217;GY-15;Mahaica-Berbice;De Kinderen
+0;-58.3308,6.8765;GY-14;Essequibo Islands-West Demerara;De Kinderen
+0;-57.9002,6.6375;GY-15;Mahaica-Berbice;De Kinderen
+0;-57.8980,6.6459;GY-15;Mahaica-Berbice;De Hoop
+0;-58.2080,6.7085;GY-14;Essequibo Islands-West Demerara;De Gezusters
+0;-58.6118,7.2095;GY-16;Pomeroon-Supenaam;Dawa
+0;-58.4999,7.3628;GY-16;Pomeroon-Supenaam;Dartmouth
+0;-57.8784,6.6473;GY-15;Mahaica-Berbice;Dantzig
+0;-58.4800,7.2962;GY-16;Pomeroon-Supenaam;Danielstown
+0;-58.5857,6.4856;GY-14;Essequibo Islands-West Demerara;Dalli
+0;-58.5002,7.1928;GY-16;Pomeroon-Supenaam;Dageraad
+0;-59.5167,2.8333;GY-19;Upper Takutu-Upper Essequibo;Dadanawa
+0;-58.4799,7.1604;GY-16;Pomeroon-Supenaam;Cullen
+0;-57.9673,6.7498;GY-12;Demerara-Mahaica;Craig Milne
+0;-58.1713,6.6876;GY-12;Demerara-Mahaica;Craig
+0;-57.1500,5.8500;GY-13;East Berbice-Corentyne;Crabwood Creek
+0;-57.3916,6.2785;GY-13;East Berbice-Corentyne;Number Two Courtland
+0;-57.8397,6.6151;GY-15;Mahaica-Berbice;Cottage
+0;-58.2696,6.8621;GY-14;Essequibo Islands-West Demerara;Cornelia Ida
+0;-57.8799,6.6488;GY-15;Mahaica-Berbice;Content
+0;-58.4856,7.2235;GY-16;Pomeroon-Supenaam;Columbia
+0;-57.8755,6.6449;GY-15;Mahaica-Berbice;Columbia
+0;-58.4810,7.2927;GY-16;Pomeroon-Supenaam;Coffee Grove
+0;-57.9462,6.7314;GY-12;Demerara-Mahaica;Clonbrook
+0;-57.1630,5.9235;GY-13;East Berbice-Corentyne;Number Seventy-three Clonbrook
+0;-58.4019,6.9601;GY-14;Essequibo Islands-West Demerara;Clairmont
+225;-59.5500,7.5167;GY-10;Barima-Waini;Chinese Landing
+0;-59.5667,4.9167;GY-17;Potaro-Siparuni;Chenapowu Village
+0;-58.4103,6.9538;GY-14;Essequibo Islands-West Demerara;Chateau Truro
+0;-58.5947,7.3970;GY-16;Pomeroon-Supenaam;Charity
+0;-57.8954,6.6213;GY-15;Mahaica-Berbice;Chapmans
+0;-57.8001,6.5257;GY-15;Mahaica-Berbice;Chance
+0;-57.7803,6.5350;GY-15;Mahaica-Berbice;Champagne
+0;-57.9213,6.6573;GY-12;Demerara-Mahaica;Ceres
+0;-57.7510,6.5393;GY-15;Mahaica-Berbice;Catherine
+0;-57.8627,6.6361;GY-15;Mahaica-Berbice;Carlton Hall
+0;-58.4864,7.2084;GY-16;Pomeroon-Supenaam;Capoey
+0;-57.9184,6.6249;GY-12;Demerara-Mahaica;Cane Grove
+0;-57.4836,6.2462;GY-13;East Berbice-Corentyne;Canefield
+0;-58.3767,6.9262;GY-14;Essequibo Islands-West Demerara;Canefield
+0;-57.9163,6.6896;GY-12;Demerara-Mahaica;Cambridge
+0;-58.4479,7.0035;GY-14;Essequibo Islands-West Demerara;Caledonia
+0;-57.7539,6.5424;GY-15;Mahaica-Berbice;Calcutta
+0;-59.4000,3.8000;GY-19;Upper Takutu-Upper Essequibo;Cajueiro
+0;-57.9200,6.6681;GY-15;Mahaica-Berbice;Bygeval
+0;-58.6112,7.4028;GY-16;Pomeroon-Supenaam;Buxton
+0;-58.6131,5.7414;GY-11;Cuyuni-Mazaruni;Butukari
+0;-58.4164,6.8641;GY-14;Essequibo Islands-West Demerara;Bushy Park
+0;-57.8304,6.6074;GY-15;Mahaica-Berbice;Bushy Park
+0;-57.6185,6.4063;GY-15;Mahaica-Berbice;Bush Lot
+0;-57.2648,6.2072;GY-13;East Berbice-Corentyne;Bush Lot
+0;-58.4835,7.2535;GY-16;Pomeroon-Supenaam;Bush Lot
+0;-59.3500,2.3500;GY-19;Upper Takutu-Upper Essequibo;Burisanawa Village
+0;-57.8602,6.6328;GY-15;Mahaica-Berbice;Broomhall
+0;-57.9006,6.6356;GY-15;Mahaica-Berbice;Broek en Waterland
+0;-57.2161,6.1431;GY-13;East Berbice-Corentyne;Brighton
+0;-58.4798,7.1562;GY-16;Pomeroon-Supenaam;Bremen
+0;-57.6333,5.9833;GY-13;East Berbice-Corentyne;Brandwagt-Sari
+0;-58.5079,7.3710;GY-16;Pomeroon-Supenaam;Bounty Hall
+0;-59.8000,3.3833;GY-19;Upper Takutu-Upper Essequibo;Bon Success
+0;-58.3907,6.9197;GY-14;Essequibo Islands-West Demerara;Blenheim
+0;-57.8018,6.5707;GY-15;Mahaica-Berbice;Blenheim
+0;-58.2509,6.8527;GY-14;Essequibo Islands-West Demerara;Blankenburg
+0;-58.4583,6.8315;GY-14;Essequibo Islands-West Demerara;Blake
+0;-57.5398,6.2570;GY-15;Mahaica-Berbice;Blairmont
+0;-58.5500,1.7667;GY-19;Upper Takutu-Upper Essequibo;Biloku
+0;-57.8781,6.5370;GY-15;Mahaica-Berbice;Baiabu
+0;-58.5129,7.3763;GY-16;Pomeroon-Supenaam;Better Success
+0;-58.5225,7.3868;GY-16;Pomeroon-Supenaam;Better Hope
+0;-58.5833,6.9667;GY-16;Pomeroon-Supenaam;Bethany
+0;-58.6033,6.7964;GY-14;Essequibo Islands-West Demerara;Bethany
+0;-58.5705,7.3973;GY-16;Pomeroon-Supenaam;Berks
+0;-58.5658,6.6609;GY-14;Essequibo Islands-West Demerara;Beribisiballi
+0;-58.4329,6.9623;GY-14;Essequibo Islands-West Demerara;Bendorff
+0;-58.4912,6.7921;GY-14;Essequibo Islands-West Demerara;Bendorff
+0;-57.1591,5.9847;GY-13;East Berbice-Corentyne;Number Sixty-three Benab
+0;-57.8937,6.6589;GY-15;Mahaica-Berbice;Belvidere
+0;-57.3708,6.2502;GY-13;East Berbice-Corentyne;Belvidere
+0;-57.9278,6.6677;GY-12;Demerara-Mahaica;Belmont
+0;-57.8362,6.6130;GY-15;Mahaica-Berbice;Belmont
+0;-58.2062,6.7217;GY-14;Essequibo Islands-West Demerara;Belle Vue
+0;-58.4706,6.9614;GY-14;Essequibo Islands-West Demerara;Belle Plaine
+0;-57.7015,6.5019;GY-15;Mahaica-Berbice;Belladrum
+0;-57.9697,6.7241;GY-12;Demerara-Mahaica;Belfield
+0;-58.4803,7.1094;GY-16;Pomeroon-Supenaam;Belfield
+0;-58.4097,6.9128;GY-14;Essequibo Islands-West Demerara;Belfield
+0;-57.5564,6.3169;GY-15;Mahaica-Berbice;Bel Air
+0;-57.9419,6.7309;GY-12;Demerara-Mahaica;Beehive
+0;-57.8545,6.6287;GY-15;Mahaica-Berbice;Bath
+0;-59.8000,3.3333;GY-19;Upper Takutu-Upper Essequibo;Basha Village
+11486;-58.6233,6.4054;GY-11;Cuyuni-Mazaruni;Bartica
+0;-57.6280,5.7877;GY-13;East Berbice-Corentyne;Bartica
+0;-58.4554,6.8349;GY-14;Essequibo Islands-West Demerara;Bortenstein
+0;-58.3710,6.8734;GY-14;Essequibo Islands-West Demerara;Barnwell
+0;-59.2161,7.8384;GY-10;Barima-Waini;Baramanni
+0;-58.6667,6.3833;GY-11;Cuyuni-Mazaruni;Barakara
+0;-59.8009,8.2129;GY-10;Barima-Waini;Barabina Hill
+0;-57.8833,6.5500;GY-15;Mahaica-Berbice;Barabara
+0;-58.4492,6.9901;GY-14;Essequibo Islands-West Demerara;Bank Hall
+0;-58.6276,6.6139;GY-14;Essequibo Islands-West Demerara;Banakari
+0;-58.2016,6.7589;GY-14;Essequibo Islands-West Demerara;Mindenburg
+0;-57.1579,5.9793;GY-13;East Berbice-Corentyne;Number Sixty-four Babylon
+0;-59.2000,2.6667;GY-19;Upper Takutu-Upper Essequibo;Awaruwaunawa
+0;-58.4935,7.0005;GY-16;Pomeroon-Supenaam;Aurora
+0;-59.7500,6.8000;GY-11;Cuyuni-Mazaruni;Aurora
+0;-58.2923,6.4300;GY-14;Essequibo Islands-West Demerara;Aurora
+0;-58.5167,5.0833;GY-18;Upper Demerara-Berbice;Attai Village
+0;-59.7167,3.0000;GY-19;Upper Takutu-Upper Essequibo;Atamadpau
+0;-59.6500,5.8167;GY-11;Cuyuni-Mazaruni;Assura Village
+0;-58.4501,6.9433;GY-14;Essequibo Islands-West Demerara;Arthurville
+0;-59.5333,5.0167;GY-17;Potaro-Siparuni;Arnik Village
+0;-59.4833,2.7667;GY-19;Upper Takutu-Upper Essequibo;Arakwai Outstation
+0;-58.5864,4.0377;GY-19;Upper Takutu-Upper Essequibo;Apoteri
+0;-59.2167,5.6500;GY-11;Cuyuni-Mazaruni;Apanachi
+0;-57.9485,6.7345;GY-12;Demerara-Mahaica;Anns Grove
+0;-58.4859,7.1687;GY-16;Pomeroon-Supenaam;Annandale
+0;-58.4404,6.8957;GY-14;Essequibo Islands-West Demerara;Anna Maria
+0;-59.1333,3.9500;GY-19;Upper Takutu-Upper Essequibo;Annai
+0;-58.2762,6.8649;GY-14;Essequibo Islands-West Demerara;Anna Catherina
+0;-57.3487,6.2412;GY-13;East Berbice-Corentyne;Ankerville
+0;-58.5178,7.3817;GY-16;Pomeroon-Supenaam;Andrews
+0;-58.3809,6.9231;GY-14;Essequibo Islands-West Demerara;Amsterdam
+0;-58.5740,6.5204;GY-14;Essequibo Islands-West Demerara;Ampa
+0;-58.4260,6.9718;GY-14;Essequibo Islands-West Demerara;Amersfoort
+0;-59.7667,3.0333;GY-19;Upper Takutu-Upper Essequibo;Ambrose Village
+0;-58.6064,7.3964;GY-16;Pomeroon-Supenaam;Amazon
+0;-59.1667,2.4833;GY-19;Upper Takutu-Upper Essequibo;Altora Village
+0;-57.2886,6.2245;GY-13;East Berbice-Corentyne;Alness
+0;-58.9333,7.6500;GY-10;Barima-Waini;Akwero
+0;-58.7328,7.3720;GY-16;Pomeroon-Supenaam;Akawini Amerindian Village
+0;-59.2500,2.5167;GY-19;Upper Takutu-Upper Essequibo;Aishalton
+0;-57.7736,6.5579;GY-15;Mahaica-Berbice;Airy Hall
+0;-58.4871,7.2156;GY-16;Pomeroon-Supenaam;Affiance
+0;-58.4802,7.0835;GY-16;Pomeroon-Supenaam;Adventure
+0;-57.9250,6.6616;GY-12;Demerara-Mahaica;Adventure
+0;-59.6333,2.1333;GY-19;Upper Takutu-Upper Essequibo;Adelair
+0;-59.5833,2.3000;GY-19;Upper Takutu-Upper Essequibo;Achiwib
+0;-58.4826,7.1632;GY-16;Pomeroon-Supenaam;Abrams Zuil
+0;-58.4852,7.2274;GY-16;Pomeroon-Supenaam;Aberdeen
+0;-59.9500,3.0833;GY-19;Upper Takutu-Upper Essequibo;Bonfim
+0;-60.7500,5.8167;GY-11;Cuyuni-Mazaruni;Waramadon Village
+0;-60.1572,5.4531;GY-11;Cuyuni-Mazaruni;Waioklepaluta Village
+0;-60.0500,6.1667;GY-11;Cuyuni-Mazaruni;Tumareng
+0;-60.4333,5.5167;GY-11;Cuyuni-Mazaruni;Pipillipai
+0;-61.1333,6.4333;GY-11;Cuyuni-Mazaruni;Pathawaru
+0;-61.0500,5.8000;GY-11;Cuyuni-Mazaruni;Paruima Mission
+0;-60.1506,7.4907;GY-10;Barima-Waini;Pakera
+0;-60.0167,4.7000;GY-17;Potaro-Siparuni;Orinduik
+0;-60.5833,5.4333;GY-11;Cuyuni-Mazaruni;Opadai
+0;-61.1500,6.4667;GY-11;Cuyuni-Mazaruni;Muruwawe Village
+0;-60.1333,7.1667;GY-11;Cuyuni-Mazaruni;Muruakundi
+0;-60.5833,5.7500;GY-11;Cuyuni-Mazaruni;Morowta
+0;-60.6000,5.9500;GY-11;Cuyuni-Mazaruni;Minata
+0;-61.0000,5.8167;GY-11;Cuyuni-Mazaruni;Meruwang
+0;-60.1507,7.4943;GY-10;Barima-Waini;Matthews Ridge
+0;-60.2167,7.9500;GY-10;Barima-Waini;La Juanita
+0;-60.6500,6.0167;GY-11;Cuyuni-Mazaruni;Kwiokrebaru
+0;-60.3000,6.9000;GY-11;Cuyuni-Mazaruni;Kurutuku Village
+0;-60.2667,6.8833;GY-11;Cuyuni-Mazaruni;Kurachi
+0;-60.3000,5.6500;GY-11;Cuyuni-Mazaruni;Kowaeng Village
+0;-60.0167,7.2500;GY-10;Barima-Waini;Konoro Village
+0;-60.5667,5.7500;GY-11;Cuyuni-Mazaruni;Kokadai
+0;-60.6333,5.9333;GY-11;Cuyuni-Mazaruni;Keweigek
+0;-60.1333,4.5333;GY-17;Potaro-Siparuni;Kanapang Village
+0;-60.3000,5.6333;GY-11;Cuyuni-Mazaruni;Kamuda Village
+0;-60.6167,5.8667;GY-11;Cuyuni-Mazaruni;Kamarang
+0;-61.1333,6.1833;GY-11;Cuyuni-Mazaruni;Kaikan
+0;-60.1000,4.6000;GY-17;Potaro-Siparuni;Itabac
+0;-60.3333,6.4667;GY-11;Cuyuni-Mazaruni;Isseneru Village
+0;-60.0167,4.8833;GY-17;Potaro-Siparuni;Ipisiau Village
+0;-60.2833,5.7000;GY-11;Cuyuni-Mazaruni;Imbaimadai
+0;-60.0338,6.1530;GY-11;Cuyuni-Mazaruni;Enachu Landing
+0;-60.8333,6.4667;GY-11;Cuyuni-Mazaruni;Ekereku
+0;-60.4833,7.3500;GY-10;Barima-Waini;Baramita
+0;-60.8000,6.8000;GY-11;Cuyuni-Mazaruni;Awarabati
+0;-60.0833,7.1500;GY-11;Cuyuni-Mazaruni;Aunama Village
+0;-61.1667,6.3167;GY-11;Cuyuni-Mazaruni;Arawai Village
+0;-61.1333,6.4167;GY-11;Cuyuni-Mazaruni;Arau Village
+0;-60.0167,7.5833;GY-10;Barima-Waini;Arakaka
+0;-60.3000,5.3833;GY-11;Cuyuni-Mazaruni;Amokokopai Village
+0;-60.0167,6.8000;GY-11;Cuyuni-Mazaruni;Amamuri Village
+0;-60.3167,5.6833;GY-11;Cuyuni-Mazaruni;Akar Village
+0;-60.5667,5.9000;GY-11;Cuyuni-Mazaruni;Ajimipepai
+12448;-58.4826,7.2656;GY-16;Pomeroon-Supenaam;Anna Regina
+0;-57.7801,6.4533;GY-15;Mahaica-Berbice;Bara Bara
+0;-57.7777,6.4440;GY-15;Mahaica-Berbice;Yarow Creek
+0;-58.1504,6.7959;GY-12;Demerara-Mahaica;North East La Penitence
+0;-58.2792,6.5027;GY-12;Demerara-Mahaica;Alliance
+0;-58.2248,6.4697;GY-12;Demerara-Mahaica;Yarowkabra
+340;-57.7591,6.4738;GY-15;Mahaica-Berbice;Burma
+0;-58.2169,6.8314;GY-14;Essequibo Islands-West Demerara;Haarlem
+0;-58.0627,6.8142;GY-12;Demerara-Mahaica;Margot
+0;-58.0864,6.8187;GY-12;Demerara-Mahaica;Beterverwagting
+0;-58.0390,6.7917;GY-12;Demerara-Mahaica;Lusignan
+0;-58.7414,7.6021;GY-16;Pomeroon-Supenaam;Tuschen
+0;-58.6098,7.4166;GY-16;Pomeroon-Supenaam;Hope and Success
+0;-58.6142,7.4495;GY-16;Pomeroon-Supenaam;Dublin
+0;-58.6148,7.4550;GY-16;Pomeroon-Supenaam;Belle Vue
+0;-58.6382,7.4882;GY-16;Pomeroon-Supenaam;Grant Calvin
+0;-58.6400,7.4870;GY-16;Pomeroon-Supenaam;Adventure
+0;-58.6003,7.3923;GY-16;Pomeroon-Supenaam;Opposition
+0;-58.4914,7.3542;GY-16;Pomeroon-Supenaam;Eliza
+0;-58.7263,7.2482;GY-16;Pomeroon-Supenaam;Kabakaburi
+0;-58.3104,5.9177;GY-18;Upper Demerara-Berbice;Three Friends
+0;-57.5099,6.2623;GY-13;East Berbice-Corentyne;Fort Canje
+118;-57.5963,6.3918;GY-15;Mahaica-Berbice;Fort Wellington
+0;-58.3310,6.5641;GY-14;Essequibo Islands-West Demerara;Santa Mission
+0;-58.3898,6.8693;GY-14;Essequibo Islands-West Demerara;Farm
+0;-58.4845,6.9119;GY-14;Essequibo Islands-West Demerara;Palmyra
+0;-58.4452,6.9892;GY-14;Essequibo Islands-West Demerara;Free and Easy
+0;-58.4236,6.9071;GY-14;Essequibo Islands-West Demerara;Bachelors Adventure
+0;-57.9274,6.5213;GY-15;Mahaica-Berbice;Krapa
+0;-57.8873,6.5999;GY-15;Mahaica-Berbice;Posts
+0;-58.4367,6.8490;GY-14;Essequibo Islands-West Demerara;Grove
+0;-58.2306,6.3362;GY-12;Demerara-Mahaica;Dora
+0;-57.9500,6.7167;GY-12;Demerara-Mahaica;Ann's Grove
+0;-58.1872,6.7472;GY-14;Essequibo Islands-West Demerara;Herstelling
+0;-58.0667,6.3667;GY-12;Demerara-Mahaica;St. Cuthbert's
+0;-58.1283,6.7811;GY-12;Demerara-Mahaica;Unity Village
+0;-59.8343,8.1595;GY-10;Barima-Waini;Tobago & Wauna Hill
+0;-57.9257,6.6698;GY-12;Demerara-Mahaica;Vrygeval
+0;-57.9278,6.6631;GY-12;Demerara-Mahaica;Andersons Town
+0;-57.9207,6.6862;GY-12;Demerara-Mahaica;Jones Town
+0;-58.1846,6.7973;GY-14;Essequibo Islands-West Demerara;Phoenix Park
+0;-58.2013,6.8099;GY-14;Essequibo Islands-West Demerara;Best See The Best
+0;-58.5168,6.8842;GY-14;Essequibo Islands-West Demerara;Hoop en Vries
+0;-58.5964,6.8019;GY-14;Essequibo Islands-West Demerara;Sarepapa
+0;-58.5090,6.7823;GY-14;Essequibo Islands-West Demerara;Fort Zeelandia
+0;-58.5953,6.8052;GY-14;Essequibo Islands-West Demerara;The Klip
+0;-58.5795,6.8930;GY-14;Essequibo Islands-West Demerara;Amarawa
+0;-58.5548,6.9628;GY-16;Pomeroon-Supenaam;Kuruwatikuru
+0;-58.5898,6.8283;GY-14;Essequibo Islands-West Demerara;Schoonhoven
+0;-58.2905,6.8687;GY-14;Essequibo Islands-West Demerara;Parafield
+0;-58.2654,6.8217;GY-14;Essequibo Islands-West Demerara;Hague Backdam
+0;-58.3824,6.9251;GY-14;Essequibo Islands-West Demerara;Sand
+0;-58.4043,6.9140;GY-14;Essequibo Islands-West Demerara;Bagatelle
+0;-58.3063,6.8793;GY-14;Essequibo Islands-West Demerara;Oceanview
+0;-58.6020,7.3960;GY-16;Pomeroon-Supenaam;Unity
+0;-58.6083,7.4001;GY-16;Pomeroon-Supenaam;Saint Joseph
+0;-58.5094,7.3725;GY-16;Pomeroon-Supenaam;Phillips
+0;-58.4799,7.3001;GY-16;Pomeroon-Supenaam;Cape Batave
+0;-58.5059,7.3687;GY-16;Pomeroon-Supenaam;Chandler
+0;-58.6463,7.4971;GY-16;Pomeroon-Supenaam;Windsor Castle
+11488;-57.1494,5.9330;GY-13;East Berbice-Corentyne;Corriverton

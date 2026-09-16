@@ -1,0 +1,89 @@
+fr;Woodford-Hill;Woodford Hill
+zh;伍德福德希尔;Woodford Hill
+ja;ウッドフォード・ヒル;Woodford Hill
+nl;Woodford-Hill;Woodford Hill
+ru;Уэсли;Wesley
+ar;ويسلي;Wesley
+hi;वेस्ली;Wesley
+ja;ウェスリー;Wesley
+en;Soufriere;Soufrière
+ru;Суфриер;Soufrière
+ar;سوفرير;Soufrière
+es;Soufriere;Soufrière
+hi;सोफ्रिएर;Soufrière
+de;Soufriere;Soufrière
+ja;スーフリエール;Soufrière
+ru;Солсбери;Salisbury
+zh;索爾茲伯里_;Salisbury
+ja;ソールズベリー;Salisbury
+ru;Сент-Джозеф;Saint Joseph
+ar;سانت جوزيف;Saint Joseph
+fr;Saint-Joseph;Saint Joseph
+hi;सेंट जोसेफ;Saint Joseph
+ja;セント・ジョセフ;Saint Joseph
+pt;São José;Saint Joseph
+ja;ロゾー;Roseau
+ko;로조;Roseau
+ar;روسو;Roseau
+ht;Rozo;Roseau
+ru;Розо;Roseau
+zh;羅索;Roseau
+ru;Розали;Rosalie
+ar;روزالي;Rosalie
+hi;रोज़ेली;Rosalie
+ja;ロザリー;Rosalie
+ru;Портсмут;Portsmouth
+ar;بورتسموث;Portsmouth
+hi;पोर्ट्समाउथ;Portsmouth
+ja;ポーツマス;Portsmouth
+en;Pont Casse;Pont Cassé
+ru;Пон-Кассе;Pont Cassé
+ar;بون كاسيه;Pont Cassé
+es;Pont Casse;Pont Cassé
+hi;पोंट कैसे;Pont Cassé
+de;Pont Casse;Pont Cassé
+ja;ポンカッセ;Pont Cassé
+ru;Пуэнт-Мишель;Pointe Michel
+ar;بوانت ميشيل;Pointe Michel
+hi;पोइंटे मिशेल;Pointe Michel
+ja;ポアントミシェル;Pointe Michel
+de;Petite Savanne;Petite Savane
+en;Petite Savanne;Petite Savane
+fr;Petite Savanne;Petite Savane
+zh;小薩凡納;Petite Savane
+ja;プティト・サヴァンナ;Petite Savane
+nl;Petite Savanne;Petite Savane
+ja;ペ・ブーシュ;Paix Bouche
+zh;佩布奇;Paix Bouche
+ja;マサカー;Massacre
+zh;馬薩克雷;Massacre
+ru;Мао;Mahaut
+zh;馬歐;Mahaut
+ja;マオ;Mahaut
+ru;Лаудат;Laudat
+ja;ラウダ;Laudat
+zh;勞達特;Laudat
+ru;Хэмпстед;Hampstead
+ja;ガリオン;Galion
+zh;加利恩;Galion
+ru;Дюблан;Dublanc
+zh;迪布朗;Dublanc
+ja;デュブラン;Dublanc
+de;Delices;Délices
+ja;デリッシュ;Délices
+en;Delices;Délices
+nl;Delices;Délices
+zh;代利斯;Délices
+ru;Колиго;Colihaut
+ar;كوليهاوت;Colihaut
+hi;कोलिहौट;Colihaut
+ja;コリハウト;Colihaut
+ru;Берекуа;Berekua
+ar;بيريكوا;Berekua
+hi;बेरेकुआ;Berekua
+ja;ベレクア;Berekua
+fr;Bataca;Bataka
+zh;巴塔卡;Bataka
+ru;Кейнфилд;Canefield
+zh;坎菲尔德;Canefield
+ja;ケインフィールド;Canefield

@@ -1,0 +1,24 @@
+es;Carlota Amalia;Charlotte Amalie
+ja;シャーロット・アマリー;Charlotte Amalie
+ru;Шарлота Амалия;Charlotte Amalie
+ar;شارلوت أمالي;Charlotte Amalie
+ko;샬럿아말리에;Charlotte Amalie
+ru;Шарлотта-Амалия;Charlotte Amalie
+zh;夏洛特阿马利亚;Charlotte Amalie
+ru;Кристианстед;Christiansted
+zh;克里斯琴斯特德;Christiansted
+ru;Круз-Бей;Cruz Bay
+ar;كروز باي;Cruz Bay
+hi;क्रूज़ बे;Cruz Bay
+ja;クルーズベイ;Cruz Bay
+en;Johns Folly Bay;Johns Folly
+en;St Croix;Saint Croix
+es;Santa Cruz;Saint Croix
+ru;Сент-Крой;Saint Croix
+ar;سانت كروا;Saint Croix
+fr;Sainte-Croix;Saint Croix
+hi;सेंट क्रॉइक्स;Saint Croix
+ja;セント・クロイ;Saint Croix
+pt;Santa Cruz;Saint Croix
+en;St John Island;Saint John
+en;St John;Saint John

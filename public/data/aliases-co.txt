@@ -1,0 +1,666 @@
+ru;Сипакира;Zipaquirá
+zh;錫帕基拉;Zipaquirá
+ko;시파키라;Zipaquirá
+es;Zacarías-Riodagua;Zacarías
+ru;Йопаль;Yopal
+ko;요팔;Yopal
+zh;約帕爾;Yopal
+ar;يوبال;Yopal
+hi;योपाल;Yopal
+ja;ヨパール;Yopal
+es;Yaco;Yacó
+ru;Витербо;Viterbo
+ja;ビリャビセンシオ;Villavicencio
+ko;비야비센시오;Villavicencio
+pt;Villavicêncio;Villavicencio
+ru;Вильявисенсио;Villavicencio
+zh;比亚维森西奥;Villavicencio
+ar;فيللافيسينسيو;Villavicencio
+hi;विल्लाविसेन्सियो;Villavicencio
+ru;Вилья-дель-Росарио;Villa del Rosario
+ru;Вильянуэва;Villanueva
+es;Villagarzon;Villa Garzón
+es;Vidatranquila;Vida Tranquila
+ru;Ветас;Vetas
+ar;توربو;Valledupar
+ko;예두파르;Valledupar
+ja;バジェドゥパル;Valledupar
+ru;Вальедупар;Valledupar
+zh;巴耶杜帕尔;Valledupar
+hi;वल्लेदुपार;Valledupar
+ru;Урумита;Urumita
+ru;Урибе;Uribe
+ru;Урамита;Uramita
+ru;Уне;Une
+ru;Тута;Tuta
+ru;Турбо;Turbo
+ar;تونخا;Tunja
+ja;トゥンハ;Tunja
+ko;툰하;Tunja
+ru;Тунха;Tunja
+zh;通哈;Tunja
+hi;तुंजा;Tunja
+ru;Тумако;Tumaco
+it;San Andrés de Tumaco;Tumaco
+zh;圖馬科;Tumaco
+ru;Тулуа;Tuluá
+nl;Tulúa;Tuluá
+zh;图卢阿;Tuluá
+en;Tubara;Tubará
+ru;Тринидад;Trinidad
+es;Inspección de Policía Tres Esquinas;Tres Esquinas
+ru;Тота;Tota
+ru;Торо;Toro
+zh;托派皮;Topaipí
+ru;Тона;Tona
+ru;Тол;Santiago de Tolú
+en;Tolú;Santiago de Tolú
+zh;托盧;Santiago de Tolú
+ru;Толедо;Toledo
+zh;托坎西帕;Tocancipá
+ru;Тьерральта;Tierralta
+ru;Тибирита;Tibirita
+ru;Тибасоса;Tibasosa
+ru;Тенерифе;Tenerife
+ru;Тена;Tena
+ru;Тарсо;Tarso
+ru;Там;Tame
+zh;塔梅;Tame
+zh;蘇塔滕薩;Sutatenza
+ru;Суса;Susa
+ru;Сукре;Sucre
+ru;Сора;Sora
+ru;Соледад;Soledad
+ru;Солано;Solano
+ru;Согамосо;Sogamoso
+zh;索加莫索;Sogamoso
+ru;Соачу;Soacha
+ru;Синселехо;Sincelejo
+ko;신셀레호;Sincelejo
+zh;辛塞萊霍;Sincelejo
+ar;سينسيليخو;Sincelejo
+hi;सिनसेलेजो;Sincelejo
+ja;シンセレホ;Sincelejo
+ru;Силос;Silos
+ru;Сативасур;Sativasur
+ru;Сативанорте;Sativanorte
+ru;Сардината;Sardinata
+ru;Саравена;Saravena
+zh;聖維森特德爾卡古安;San Vicente del Caguán
+ru;Санта-Роса-де-Осос;Santa Rosa de Osos
+zh;聖羅莎德奧索斯;Santa Rosa de Osos
+ru;Санта-Роса-де-Кабаль;Santa Rosa de Cabal
+es;Río Iró;Santa Rita
+ru;Сантана;Santana
+ru;Санта-Марта;Santa Marta
+ar;سانتا مارتا;Santa Marta
+hi;सांता मार्ता;Santa Marta
+ja;サンタマルタ;Santa Marta
+es;Pedregal;Santa Cruz
+es;Doña Bárbara;Santa Bárbara
+ru;Санта-Барбара;Santa Bárbara
+zh;聖芭芭拉;Santa Bárbara
+es;Municipio de San Luis de Palenque;San Luis de Palenque
+zh;聖路易斯德帕倫克;San Luis de Palenque
+es;San Luis de Cubarral;Cubarral
+zh;聖何塞德蘇艾塔;San José de Suaita
+es;San José de Isnos;Isnos
+ru;Иснос;Isnos
+es;San José;Caserío Maruamaque
+zh;聖希爾;San Gil
+en;San Antonio del Guamues;San Antonio del Guamués
+en;Saint Andrews;San Andrés
+ru;Сан-Андрес;San Andrés
+ar;سان أندريس;San Andrés
+hi;सैन एंड्रेस;San Andrés
+de;San Andres;San Andrés
+ja;サンアンドレス;San Andrés
+ru;Саленто;Salento
+ru;Саламина;Salamina
+es;El Saladito;Saladito
+en;Savanilla;Sabanilla
+ru;Сабаналарга;Sabanalarga
+ru;Ровира;Rovira
+ru;Росас;Rosas
+ru;Ривера;Rivera
+ru;Рисаральда;Fundo Risaralda
+ru;Рисаральда;Risaralda
+zh;里奧內格羅;Rionegro
+ko;리오네그로;Rionegro
+ru;Рионегро;Rionegro
+en;Rio de la Hacha;Riohacha
+ru;Риоача;Riohacha
+ar;ريوهاتشا;Riohacha
+hi;रिओहाचा;Riohacha
+ja;リオハッチャ;Riohacha
+es;Rinconhondo;Rincón Hondo
+ru;Ретиро;Retiro
+ru;Рестрепо;Restrepo
+ru;Ремолино;Remolino
+es;Remolino Bajo Orteguaza;Remolino
+ru;Ремедиос;Remedios
+zh;雷梅迪奧斯;Remedios
+ru;Апуло;Apulo
+ru;Кибдо;Quibdó
+ko;키브도;Quibdó
+zh;基布多;Quibdó
+ar;كيبدو;Quibdó
+hi;क्विब्दो;Quibdó
+de;Quibdo;Quibdó
+ja;キブド;Quibdó
+es;Caserío Puerto Miranda;Puerto Miranda
+es;Medio Baudó;Puerto Meluk
+en;Caucayá;Puerto Leguízamo
+ru;Пуэрто Легисамо;Puerto Leguízamo
+ko;인리다;Inírida
+ru;Инирида;Inírida
+zh;伊尼里達;Inírida
+en;Inirida;Inírida
+ar;إنيريدا;Inírida
+hi;इनिरिडा;Inírida
+de;Inirida;Inírida
+ja;イニリダ;Inírida
+ru;Пуэрто-Карреньо;Puerto Carreño
+ar;بويرتو كاريينو;Puerto Carreño
+hi;प्वर्टो कैरेनो;Puerto Carreño
+ja;プエルトカレーニョ;Puerto Carreño
+ru;Пуэрто-Асис;Puerto Asís
+en;Old Town;Pueblo Viejo
+es;Pueblo Viejo;Pueblo Viejo de Ura
+es;Pueblo Viejo;Vda. Pueblo Viejo
+es;Profundo;Profundó
+ru;Прадо;Prado
+ru;Прадера;Pradera
+es;Municipio Pore;Pore
+ru;Поре;Pore
+ja;ポパヤン;Popayán
+ru;Попаян;Popayán
+zh;波帕扬;Popayán
+ko;포파얀;Popayán
+ar;بوبايان;Popayán
+hi;पोपायान;Popayán
+ru;Понедера;Ponedera
+ru;Планета-Рики;Planeta Rica
+ru;Планадас;Planadas
+ru;Питалито;Pitalito
+zh;皮塔利托;Pitalito
+ru;Питал;Pital
+ru;Писба;Pisba
+es;Pimente;Pimentel
+es;Pie de Pato;Pie de Pató
+ru;Пиедекуеста;Piedecuesta
+ru;Перейра;Pereira
+ar;بيريرا;Pereira
+hi;पेरीरा;Pereira
+ja;ペレイラ;Pereira
+es;El Pepino;Pepino
+ru;Пасто;Pasto
+ar;باستو;Pasto
+hi;पास्तो;Pasto
+ja;パスト;Pasto
+es;Partebueno;Páratebueno
+es;Paratebueno;Páratebueno
+ru;Панди;Pandi
+ru;Памплонита;Pamplonita
+ru;Памплона;Pamplona
+ru;Палмито;Palmito
+ru;Пальмира;Palmira
+ru;Палмира;Palmira
+ru;Палмар;Palmar
+ru;Палестина;Palestina
+ru;Палермо;Palermo
+es;Paimadó;Paimandó
+es;Río Quito;Paimandó
+es;Páez;Belalcázar
+es;Belalcázer;Belalcázar
+es;Paez;Belalcázar
+ru;Оспина;Ospina
+ru;Опорапа;Oporapa
+ru;Оканья;Ocaña
+zh;奧卡尼亞;Ocaña
+ru;Обандо;Obando
+ru;Нуки;Nuquí
+es;Granada;Nueva Granada
+ru;Нобса;Nobsa
+ru;Нило;Nilo
+ru;Нейва;Neiva
+ar;نيفا;Neiva
+hi;नेइवा;Neiva
+ja;ネイバ;Neiva
+es;Mumbu;Mumbú
+ru;Мотавита;Motavita
+ru;Москера;Mosquera
+ru;Моралес;Morales
+ru;Монтерía;Montería
+ar;مونتيريا;Montería
+hi;मोंटेरिया;Montería
+ja;モンテリア;Montería
+pt;Monteria;Montería
+es;Monteredondo;Monterredondo
+ru;Момил;Momil
+ko;모코아;Mocoa
+ru;Мокоа;Mocoa
+zh;莫科阿;Mocoa
+ar;موكوا;Mocoa
+hi;मोकोआ;Mocoa
+ja;モコア;Mocoa
+ru;Митú;Mitú
+ar;ميتو;Mitú
+hi;मितु;Mitú
+ja;ミトゥ;Mitú
+ru;Миранда;Miranda
+ru;Мирафлорес;Miraflores
+ru;Мельгар;Melgar
+ru;Медина;Medina
+ru;Медельин;Medellín
+pt;Medelim;Medellín
+ja;メデジン;Medellín
+ko;메데인;Medellín
+ar;ميديلين;Medellín
+zh;麦德林;Medellín
+hi;मेडेल्लिन;Medellín
+ru;Маруланда;Marulanda
+ru;Мармато;Marmato
+en;Mariquita;San Sebastián de Mariquita
+es;San Ramón Maporillal;Maporillal
+ru;Манта;Manta
+ar;مانيزاليس;Manizales
+ko;마니살레스;Manizales
+ja;マニサレス;Manizales
+ru;Манисалес;Manizales
+zh;馬尼薩萊斯;Manizales
+hi;मानिज़ेल्स;Manizales
+es;El Cantón de San Pablo;Managrú
+ru;Маламбо;Malambo
+ru;Маикао;Maicao
+pt;Magangue;Magangué
+ru;Маганге;Magangué
+zh;馬甘格;Magangué
+ru;Мадрид;Madrid
+es;Macaguan;Macaguán
+ru;Линарес;Linares
+ru;Либорина;Liborina
+es;Líbano;El Libano
+pt;Letícia;Leticia
+ru;Летиция;Leticia
+ar;ليتيسيا;Leticia
+ja;レティシア;Leticia
+ko;레티시아;Leticia
+ru;Летисия;Leticia
+zh;萊蒂西亞;Leticia
+hi;लेटिशिया;Leticia
+es;La Yagüita;La Yaguita
+es;La Vilena;La Vileña
+es;La Viga;La Vigía
+es;Gaviotas;Las Gaviotas
+es;Animas;Ánimas
+es;Reinera;La Reinera
+ru;Ла-Пинтада;La Pintada
+zh;拉平塔達;La Pintada
+es;La Parigugra;La Periquera
+zh;納雷港;Puerto Nare
+ru;Гуахира;La Guajira
+ru;Ла-Эстрелья;La Estrella
+ru;Ла-Дорада;La Dorada
+es;Coregimento Departmental La Chorrera;La Chorrera
+es;La Carrero;La Carrera
+es;La Cabana;La Cabaña
+ru;Хамунди;Jamundí
+es;Jambalo;Jambaló
+ru;Итагуи;Itagüí
+zh;伊塔圭;Itagüí
+ru;Истмина;Istmina
+es;Irramaurichen;Irramauriehen
+ru;Ипьялес;Ipiales
+zh;伊皮亞萊斯;Ipiales
+ru;Илес;Iles
+ko;이바게;Ibagué
+ja;イバゲ;Ibagué
+ar;أباجي;Ibagué
+ru;Ибаге;Ibagué
+zh;伊瓦格;Ibagué
+en;Ibague;Ibagué
+hi;इबाग्वे;Ibagué
+pt;Ibaguê;Ibagué
+ru;Гуавиар;Guaviare
+ru;Гуапи;Guapí
+es;Guanare;Guanaré
+es;Miramar;Bocas de Guanapalo
+ru;Гренада;Granada
+es;Tableral;Granada
+zh;格拉馬洛特;Gramalote
+es;Gramal;Sierra del Gramal
+ru;Хирон;Girón
+de;Girardot;Girardot City
+ru;Жирардо;Girardot City
+es;Girardot;Girardot City
+es;Tunebia;Gibraltar
+es;Gibraltar o Tunebia;Gibraltar
+zh;加拉戈阿;Garagoa
+ru;Фунза;Funza
+ru;Фунес;Funes
+ru;Фронтино;Frontino
+ru;Фресно;Fresno
+ru;Фортул;Fortul
+ru;Флоридабланка;Floridablanca
+ru;Флорида;Florida
+ru;Флореста;Floresta
+ru;Флоренсия;Florencia
+ar;فلورنسيا;Florencia
+hi;फ्लोरेंसिया;Florencia
+ja;フロレンシア;Florencia
+pt;Florência;Florencia
+es;Flor Amarillo;Flor Amarilla
+ru;Фландес;Flandes
+ru;Фиравитоба;Firavitoba
+ru;Фалан;Falan
+ru;Факататива;Facatativá
+zh;法卡塔蒂瓦;Facatativá
+ru;Эспиналь;Espinal
+ru;Энвигадо;Envigado
+zh;恩維加多;Envigado
+es;Los Tulipanes;Tulipán
+es;El Tesoro;Providencia El Toro
+es;Hacienda El Limonar;El Limonar
+es;Hato El Juncal;El Juncal
+ru;Кармен-де-Боливар;El Carmen de Bolívar
+ru;Эль-Банка;El Banco
+ru;Эль-Багре;El Bagre
+zh;埃爾巴格萊;El Bagre
+ru;Дуитама;Duitama
+zh;杜伊塔馬;Duitama
+es;Dos Quebradas;Dosquebradas
+ru;Доскебрадас;Dosquebradas
+es;Delicias;Las Delicias
+ru;Курумани;Curumaní
+ru;Кундинамарка;Cundinamarca
+ja;ククタ;Cúcuta
+ko;쿠쿠타;Cúcuta
+ru;Кукута;Cúcuta
+zh;库库塔;Cúcuta
+ar;كوكوتا;Cúcuta
+hi;कुकुटा;Cúcuta
+ru;Коросаль;Corozal
+ru;Копакабана;Copacabana
+es;Municipio de Copacabana;Copacabana
+ru;Конкордия;Concordia
+zh;孔科爾迪亞;Concordia
+es;Corregimiento Colomboy;Colomboy
+zh;謝納加;Ciénega
+ru;Сиенага;Ciénaga
+es;Chonchillosa;Chontillosa
+ru;Чинчины;Chinchiná
+ru;Чиа;Chía
+es;Ceilan;Ceilán
+ru;Кавказ;Caucasia
+zh;考卡西亞;Caucasia
+ru;Каукасия;Caucasia
+es;Caserío Santa Rita;Santa Rita
+es;Caserio Cascajal;Cascajal
+ru;Картаго;Cartago
+es;Cartagena de Indias;Cartagena
+fr;Carthagène des Indes;Cartagena
+it;Cartagena de Indias;Cartagena
+ja;カルタヘナ;Cartagena
+pt;Cartagena das Índias;Cartagena
+ru;Картахена;Cartagena
+ar;قرطاجنة، كولومبيا;Cartagena
+ko;카르타헤나;Cartagena
+zh;卡塔赫纳;Cartagena
+nah;Caratagena de Indias;Cartagena
+de;Cartagena de Indias;Cartagena
+en;Cartagena de Indias;Cartagena
+fr;Carthagène;Cartagena
+hi;कार्टाजेना;Cartagena
+es;Carrazas;Carrozas
+en;El Carmen de Viboral;Carmen de Viboral
+es;El Carmen de Viboral;Carmen de Viboral
+fr;El Carmen de Viboral;Carmen de Viboral
+it;El Carmen de Viboral;Carmen de Viboral
+nl;El Carmen de Viboral;Carmen de Viboral
+ru;Эль-Кармен-де-Вибораль;Carmen de Viboral
+zh;卡門德比博拉爾;Carmen de Viboral
+es;Caracolí;El Caracolí
+ru;Кампо-де-ла-Крус;Campo de la Cruz
+ru;Кампоалегре;Campoalegre
+es;Santiago de Cali;Cali
+en;Santiago de Cali;Cali
+ja;サンティアゴ・デ・カリ;Cali
+zh;卡利;Cali
+pt;Cáli;Cali
+ar;كالي;Cali
+ko;칼리;Cali
+ru;Кали;Cali
+hi;काली;Cali
+ru;Кальдас;Caldas
+zh;卡爾達斯;Caldas
+ru;Буга;Guadalajara de Buga
+zh;布加;Guadalajara de Buga
+ru;Буэнавентура;Buenaventura
+zh;布埃納文圖拉;Buenaventura
+ru;Буенавентура;Buenaventura
+ja;ブカラマンガ;Bucaramanga
+ko;부카라망가;Bucaramanga
+ru;Букараманга;Bucaramanga
+zh;布卡拉曼加;Bucaramanga
+ar;بوكاراميانجا;Bucaramanga
+hi;बुकारामांगा;Bucaramanga
+ru;Бояка;Boyacá
+ru;Богота;Bogotá
+fr;Bogota;Bogotá
+ar;بوغوتا;Bogotá
+ja;ボゴタ;Bogotá
+ko;보고타;Bogotá
+nl;Bogota;Bogotá
+ru;Санта-Фе-де-Богота;Bogotá
+zh;波哥大;Bogotá
+ht;Bogota;Bogotá
+hi;बोगोटा;Bogotá
+ay;Wukuta;Bogotá
+pap;Bogota;Bogotá
+de;Bogota;Bogotá
+ru;Арболеда;Arboleda
+es;Bermejito;Bermejo
+ru;Белмира;Belmira
+ru;Белла;Bello
+ru;Бельо;Bello
+zh;貝約;Bello
+es;Inspección de Policía Bellavista;Bellavista
+es;Bazan;Bazán
+ja;バランキージャ;Barranquilla
+pt;Barranquilha;Barranquilla
+ko;바랑키야;Barranquilla
+ar;بارانكويلا;Barranquilla
+ru;Барранкилья;Barranquilla
+zh;巴兰基亚;Barranquilla
+es;Killa;Barranquilla
+es;Quilla;Barranquilla
+es;La Arenosa;Barranquilla
+hi;बेरानकिला;Barranquilla
+ru;Барранкабермеха;Barrancabermeja
+ja;バランカベルメハ;Barrancabermeja
+zh;巴蘭卡韋梅哈;Barrancabermeja
+pt;Barracana Bermeja;Barrancabermeja
+ru;Барбоза;Barbosa
+ru;Барбоса;Barbosa
+zh;巴爾博薩;Barbosa
+es;Ciudad de Mutis;Bahía Solano
+es;Ciudad Mutis;Bahía Solano
+ru;Армения;Armenia
+ar;أرمينيا;Armenia
+fr;Arménie;Armenia
+hi;आर्मेनिया;Armenia
+de;Armenien;Armenia
+ja;アルメニア;Armenia
+pt;Armênia;Armenia
+ru;Аренал;Arenal
+ru;Арболетес;Arboletes
+ru;Арболедас;Arboledas
+es;Municipio de Arauquita;Arauquita
+ru;Араука;Arauca
+ko;아라우카;Arauca
+zh;阿劳卡;Arauca
+ar;أراوكا;Arauca
+hi;अराउका;Arauca
+ja;アラウカ;Arauca
+ar;أراكاتاكا;Aracataca
+ru;Аракатака;Aracataca
+zh;阿拉卡塔卡;Aracataca
+ru;Ансерма;Anserma
+zh;阿諾萊馬;Anolaima
+ru;Андес;Andes
+ru;Андагоя;Andagoya
+es;Barrio La America;La América
+ru;Амбалема;Ambalema
+ru;Амалфи;Amalfi
+ru;Алварадо;Alvarado
+ru;Алтамира;Altamira
+ru;Алдана;Aldana
+zh;阿瓜蘇爾;Aguazul
+it;Aqua de Dios;Agua de Dios
+zh;阿瓜德迪奧斯;Agua de Dios
+ru;Агуачика;Aguachica
+en;Acaricuará;Acaricuara
+es;Hacienda Llano Grande;Llano Grande
+es;Laragoza;Zaragoza
+es;El Saman;El Samón
+es;Regadero;Pegadero
+es;Coruntal;El Curuntal
+es;Casezing;Hacienda Casazinc
+es;Guacharaca;Guacharaco
+es;Doche;El Doche
+es;Hacienda Doche;El Doche
+es;Caney;El Caney
+es;Montebello;Hacienda Montebello
+es;San Martín;Hacienda San Martín
+es;El Desquite;Hacienda El Desquite
+es;Pachingo;Pachinga
+es;La Urama;Urama
+es;Los Astilleros;El Astillero
+es;Inspección de Policía La Cecilia;La Cecilia
+es;Caserío El Aserrío;El Aserrío
+es;Maracaibo;Maracaibito
+es;Inspección de Policía Mesa Rica;Mesa Rica
+es;Tortugas;Tortuga
+es;La Mata;La Meta
+es;Llanitos;Los Llanitos
+es;Balcones;Balcanes
+es;Buena Vista;Buenavista
+es;Choza El Porvenir;Hato El Porvenir
+es;Retén Nueva Antioquia;Corregimiento Nueva Antioquia
+es;La Canaguata;La Cañaguata
+es;Villalita;Villalira
+ru;Месетас;Mesetas
+zh;蒙特雷;Monterrey
+ar;تينيري;Tenere
+es;El Libano;El Líbano
+es;La Melana;La Molana
+es;Mesa de San Juan;Mesas de San Juan
+ru;Кукута;Caserío Cúcuta
+en;Agustin Codazzi;Agustín Codazzi
+ru;Агустин-Кодасси;Agustín Codazzi
+zh;科達齊;Agustín Codazzi
+ru;Плато;Plato
+es;El Litoral de San Juan;Santa Genoveva de Docordó
+es;La Bolsa;La Balsa
+es;Albania;La Albania
+es;Bilanda;Belinda
+es;Alpujarrita;Hacienda Alpujarrita
+es;Mielecita;La Mielecita
+es;Brisas;Brisa
+es;Tambo Seco;Tamboseco
+ru;Сан-Хосе-дель-Гуавиаре;San José del Guaviare
+ar;سان خوسيه ديل جوافيار;San José del Guaviare
+fr;San Jose del Guaviare;San José del Guaviare
+hi;सैन जोस डेल गुआविएरे;San José del Guaviare
+de;San Jose del Guaviare;San José del Guaviare
+ja;サン・ホセ・デル・グアビアレ;San José del Guaviare
+pt;San Jose del Guaviare;San José del Guaviare
+ru;Орито;Orito
+es;El Bogante;Bogante
+es;Caserío Puerto Brasilia;Puerto Brasilia
+es;Caserío San José;San José
+ru;Солита;Solita
+es;El Rubi;Caserío El Rubí
+es;Maticurú;Caserío Maticurú
+es;Caserío San Francisco;San Francisco
+es;Inspección de Policía El Danubio-Campo Alegre;Danubio
+es;Inspección de Policía Maticurú-Granarío;Maticurú-Granarío
+es;Inspección de Policía Puerto Tejada;Puerto Tejada
+es;Puerto Barrios;Caserio Puerto Barrios
+es;Hacienda Montacario;Hacienda Montecarlo
+es;Buenavista;Buena Vista
+es;Nuevo Antioquia;Nueva Antioquia
+es;Samana;Samaná
+es;Darien;El Darién
+en;Darien;El Darién
+pt;Darien;El Darién
+es;De Guane;Vereda De Guane
+es;La Menta;Vereda La Menta
+es;Vda. San Luis de Chontayaco;Vereda San Luis de Chontayaco
+es;San Antonio (I.P);San Antonio de Atenas
+es;Hacienda Corinto;Corinto
+es;Hacienda La Granja;La Granja
+es;La Florida;Finca La Florida
+es;Sitio Piedras Blancas;Piedras Blancas
+es;Sitio Patio Bonilo;Patio Bonilo
+es;Finca La Teresita;La Teresita
+es;La Colmenera;La Colmera
+es;San Francisco;Finca San Francisco
+es;Monte Pantarilo;Monte Pantanillo
+es;Cerro Bonito;La Gusanera
+ja;サンタ・マルタ;Santa Marta
+ko;산타마르타;Santa Marta
+zh;圣玛尔塔;Santa Marta
+es;Taporal;Taparal
+es;Mira Valle;Verda Miravalle
+es;Caserio La Estrella;La Estrella
+es;Hacienda El Asombrito;El Asombrito
+es;Campoalegre;Hacienda Campo Alegre
+es;El Tambo;El Tambor
+es;La Remigia;La Remingia
+es;Finca La Tolda;La Tolda
+es;Vereda Aguas Fria;Vereda Aguas Frias
+es;Sitio La Miranda;La Mirada
+es;Vereda Pueblito de Los Sanchez;Pueblito
+es;Hacienda El Castillo;Castillo
+es;Hacienda La Honda;La Honda
+es;Platenal;Boca de Cunimía
+es;Platanal;Boca de Cunimía
+es;Sonora;La Sonora
+ru;Долорес;Dolores
+es;Monte Lino;Montelino
+es;Vereda Bretel;Vereda Bhetel
+es;Neptuna;La Neptuna
+es;El Chocal;El Chochal
+es;La Albania;Albania
+es;Care Perro;Careperro
+es;Agua Buena;Aguabuena
+es;Vereda La Esperanza;La Esperanza
+es;La Laja;Las Lajas
+es;Inspección de Policía La Tribuna;La Tribuna
+es;Inspección de Policía Pubuza;Pubuza
+es;Caserío Tanela;Tanela
+es;San Luis vía La Calera;Barrio San Luis
+en;Suroco;Suruco
+es;Playabonita;Playa Bonita
+es;El Diamante;Atravesada
+es;Corregimiento Pimental;Pimental
+es;Inspección de Policía Bocas de Taija;Bocas de Taija
+es;Inspección de Policía Yansal;Yansal
+es;Inspección de Policía Arenal;Arenal
+es;Inspección de Policía San Pedro de Bolívar;San Pedro de Bolívar
+es;Inspección de Policía Bocas de Secadero;Bocas de Secadero
+es;Inspección de Policía Francisco de Taija;Francisco de Taija
+es;Inspección de Policía Jorge Eliecer Gaitan;Jorge Eliecer Gaitan
+es;Inspección de Policía El Porvenir;El Porvenir
+es;Caserío El 92;Caserío El Noventa y Dos
+es;Inspección de Policía El Llanón;El Llanón
+es;Inspección de Policía La Cantina;La Cantina
+es;Caracol;El Invento
+es;Caserío Quince Letras;Quince Letras
+es;El Portilio;Portillo
+es;Inspección de Policía Nueva Granada;Nueva Granada
+es;Los Terrones;San Miguel
+es;Yapu;Yapú
+es;Centro Poblado Yapu;Yapú

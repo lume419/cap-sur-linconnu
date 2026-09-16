@@ -1,0 +1,97 @@
+ru;Вест-Энд-Виллидж;West End Village
+ar;قرية ويست إند;West End Village
+es;Pueblo West End;West End Village
+fr;Village de West End;West End Village
+hi;वेस्ट एंड विलेज;West End Village
+de;West End Dorf;West End Village
+ja;ウェストエンドビレッジ;West End Village
+pt;Vila West End;West End Village
+es;El Valle;The Valley
+ja;バレー;The Valley
+ko;더밸리;The Valley
+ru;Валли;The Valley
+zh;瓦利;The Valley
+ru;Квартал;The Quarter
+ar;الحي;The Quarter
+es;El Barrio;The Quarter
+fr;Le Quartier;The Quarter
+hi;क्वार्टर;The Quarter
+de;Das Viertel;The Quarter
+ja;クォーター;The Quarter
+pt;O Bairro;The Quarter
+ru;Фаррингтон;Farrington
+ar;فارينجتون;Farrington
+hi;फेरिंगटन;Farrington
+ja;ファリントン;Farrington
+ru;Стони Граунд;Stoney Ground
+ar;ستوني جراوند;Stoney Ground
+es;Terreno Pedregoso;Stoney Ground
+fr;Terrain Pierreux;Stoney Ground
+hi;पथरीली जमीन;Stoney Ground
+de;Steiniger Boden;Stoney Ground
+ja;ストーニーグラウンド;Stoney Ground
+pt;Solo Rochoso;Stoney Ground
+ru;Саут-Хилл-Виллидж;South Hill Village
+ar;قرية ساوث هيل;South Hill Village
+es;Pueblo South Hill;South Hill Village
+fr;Village de South Hill;South Hill Village
+hi;साउथ हिल विलेज;South Hill Village
+de;South Hill Dorf;South Hill Village
+ja;サウスヒルビレッジ;South Hill Village
+pt;Vila South Hill;South Hill Village
+ru;Сэнди-Граунд-Виллидж;Sandy Ground Village
+ar;قرية سانdy جراوند;Sandy Ground Village
+es;Pueblo Sandy Ground;Sandy Ground Village
+fr;Village de Sandy Ground;Sandy Ground Village
+hi;सैंडी ग्राउंड विलेज;Sandy Ground Village
+de;Sandy Ground Dorf;Sandy Ground Village
+ja;サンディグラウンドビレッジ;Sandy Ground Village
+pt;Vila Sandy Ground;Sandy Ground Village
+ru;Норт-Сайд;North Side
+ar;الجانب الشمالي;North Side
+es;Lado Norte;North Side
+fr;Côté Nord;North Side
+hi;उत्तर पक्ष;North Side
+de;Nordseite;North Side
+ja;ノースサイド;North Side
+pt;Lado Norte;North Side
+ru;Норт-Хилл-Виллидж;North Hill Village
+ar;قرية نورث هيل;North Hill Village
+es;Pueblo North Hill;North Hill Village
+fr;Village de North Hill;North Hill Village
+hi;नॉर्थ हिल विलेज;North Hill Village
+de;North Hill Dorf;North Hill Village
+ja;ノースヒルビレッジ;North Hill Village
+pt;Vila North Hill;North Hill Village
+ru;Айленд-Харбор;Island Harbour
+ar;ميناء الجزيرة;Island Harbour
+es;Puerto de Isla;Island Harbour
+fr;Port de l'Île;Island Harbour
+hi;आइलैंड हार्बर;Island Harbour
+de;Inselhafen;Island Harbour
+ja;アイランドハーバー;Island Harbour
+pt;Porto da Ilha;Island Harbour
+ru;Джордж Хилл;George Hill
+ar;جورج هيل;George Hill
+hi;जॉर्ज हिल;George Hill
+ja;ジョージヒル;George Hill
+ru;Ист-Энд-Виллидж;East End Village
+ar;قرية ايست اند;East End Village
+es;Pueblo East End;East End Village
+fr;Village de East End;East End Village
+hi;ईस्ट एंड विलेज;East End Village
+de;East End Dorf;East End Village
+ja;イーストエンドビレッジ;East End Village
+pt;Vila East End;East End Village
+ru;Блоуинг-Пойнт-Виллидж;Blowing Point Village
+ar;قرية بلوينج بوينت;Blowing Point Village
+es;Pueblo Blowing Point;Blowing Point Village
+fr;Village de Blowing Point;Blowing Point Village
+hi;ब्लोइंग पॉइंट विलेज;Blowing Point Village
+de;Blowing Point Dorf;Blowing Point Village
+ja;ブローイングポイントビレッジ;Blowing Point Village
+pt;Vila Blowing Point;Blowing Point Village
+ru;Сэнди-Хилл;Sandy Hill
+ar;ساندي هيل;Sandy Hill
+hi;सैंडी हिल;Sandy Hill
+ja;サンディヒル;Sandy Hill

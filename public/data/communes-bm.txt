@@ -1,0 +1,29 @@
+0;-64.8161,32.2572;PG 01;Warwick;Warwick Camp
+0;-64.6881,32.3328;HS 02;Saint Georgeʼs;Tucker’s Town
+412;-64.7402,32.3209;FL 01;Hamilton;Flatt’s Village
+0;-64.7411,32.3264;FL 01;Hamilton;Sunnyside
+1000;-64.8683,32.2983;MA 01;Sandys;Somerset
+0;-64.8656,32.2972;MA 01;Sandys;Scotts Hill
+1896;-64.6781,32.3817;HS 02;Saint George;Saint George
+0;-64.7736,32.3064;HM 08;Devonshire;North Shore Village
+0;-64.7836,32.2742;DV 03;Paget;Mount Pleasant
+0;-64.6774,32.3685;HS 02;Saint Georgeʼs;Melrose
+0;-64.8800,32.2711;MA 01;Sandys;Hog Bay
+0;-64.7436,32.3136;FL 01;Smithʼs;Hinson Hall
+0;-64.8089,32.2694;PG 01;Warwick;Hill View
+902;-64.7830,32.2949;HM 08;Hamilton city;Hamilton
+0;-64.7706,32.2836;DV 03;Paget;Chelston
+0;-64.6544,32.3703;HS 02;Saint Georgeʼs;Cashew City
+0;-64.7606,32.2942;DV 01;Paget;Camden
+0;-64.7500,32.2833;DV 01;Devonshire;Bethaven
+0;-64.7289,32.3186;FL 01;Smithʼs;Harrington Hundreds
+135;-64.8388,32.2535;SB 02;Southampton;Cross Bay
+411;-64.8143,32.3059;HM 14;Pembroke;Stovel Bay
+7330;-64.7575,32.3058;DV 01;Devonshire;Devonshire Parish
+5406;-64.7390,32.3139;FL 01;Smithʼs;Smith's Parish
+5862;-64.7302,32.3422;FL 01;Hamilton;Hamilton Parish
+5659;-64.6976,32.3725;DD 01;Saint Georgeʼs;St George's Parish
+5702;-64.7833,32.2802;DV 03;Paget;Paget Parish
+8615;-64.8092,32.2657;PG 01;Warwick;Warwick Parish
+6633;-64.8547,32.2516;SB 02;Southampton;Southampton Parish
+7653;-64.8693,32.2964;MA 01;Sandys;Sandys Parish

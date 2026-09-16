@@ -1,0 +1,60 @@
+0;-62.2179,16.7681;MS-03;Saint Peter;Zion Hill
+208;-62.2243,16.7574;MS-03;Saint Peter;Woodlands
+0;-62.1932,16.7337;MS-02;Saint Georges;Windy Hill
+0;-62.2174,16.7293;MS-01;Saint Anthony;Weekes
+0;-62.2173,16.7787;MS-03;Saint Peter;Virgin Islands
+0;-62.2181,16.7001;MS-01;Saint Anthony;Victoria
+0;-62.2112,16.7827;MS-03;Saint Peter;Soldier Ghaut
+277;-62.2218,16.7509;MS-03;Saint Peter;Salem
+0;-62.2173,16.7727;MS-03;Saint Peter;Saint Peters
+395;-62.1910,16.7822;MS-03;Saint Peter;Saint John's Village
+0;-62.2197,16.7419;MS-03;Saint Peter;Rocklands
+0;-62.1569,16.7016;MS-01;Saint Anthony;Roche’s Yard
+0;-62.2243,16.7186;MS-01;Saint Anthony;Richmond Hill
+0;-62.2267,16.7160;MS-01;Saint Anthony;Richmond
+0;-62.1996,16.8089;MS-03;Saint Peter;Rendezvous
+0;-62.2099,16.7814;MS-03;Saint Peter;Pond Bottom
+0;-62.2129,16.7055;MS-01;Saint Anthony;Plymouth
+0;-62.2091,16.7059;MS-01;Saint Anthony;Parsons
+0;-62.2288,16.7543;MS-03;Saint Peter;Olveston
+61;-62.2337,16.7469;MS-03;Saint Peter;Old Towne
+0;-62.1984,16.7861;MS-03;Saint Peter;Old Norwood
+0;-62.2127,16.7800;MS-03;Saint Peter;Nixons
+0;-62.1819,16.6852;MS-01;Saint Anthony;Morris’
+0;-62.1971,16.7268;MS-02;Saint Georges;Molyneux
+0;-62.2124,16.7848;MS-03;Saint Peter;Marko Bottom
+0;-62.1967,16.7762;MS-02;Saint Georges;Mango Hill
+166;-62.1931,16.7809;MS-02;Saint Georges;Judy Piece
+0;-62.2301,16.7366;MS-03;Saint Peter;Iles Bay
+0;-62.2178,16.7351;MS-03;Saint Peter;Iles Bay
+0;-62.2177,16.7485;MS-03;Saint Peter;Hope
+0;-62.1992,16.7308;MS-02;Saint Georges;Hodge’s Hill
+0;-62.2230,16.7419;MS-03;Saint Peter;Happy Hill
+0;-62.1917,16.7297;MS-02;Saint Georges;Gun Hill
+0;-62.2050,16.7158;MS-01;Saint Anthony;Glen Mhor
+118;-62.1977,16.7904;MS-03;Saint Peter;Gerald’s Bottom
+133;-62.1936,16.7958;MS-03;Saint Peter;Gerald's
+0;-62.1968,16.7261;MS-01;Saint Anthony;Gages
+159;-62.2180,16.7448;MS-03;Saint Peter;Frith
+0;-62.2332,16.7287;MS-01;Saint Anthony;Fox's Bay
+0;-62.2138,16.7733;MS-03;Saint Peter;Fogarty
+0;-62.2169,16.7450;MS-03;Saint Peter;Fleming
+0;-62.1651,16.7353;MS-02;Saint Georges;Farm
+0;-62.2217,16.7584;MS-03;Saint Peter;Duberry Hill
+0;-62.1974,16.8007;MS-03;Saint Peter;Drummond’s
+0;-62.1932,16.7788;MS-02;Saint Georges;Dick Hill
+422;-62.2051,16.7944;MS-03;Saint Peter;Davy Hill
+120;-62.2082,16.7844;MS-03;Saint Peter;Cudjoe Head
+0;-62.2197,16.7420;MS-03;Saint Peter;Cheapend
+0;-62.2057,16.7766;MS-03;Saint Peter;Cavalla Hill
+0;-62.2144,16.7885;MS-03;Saint Peter;Black Ghaut Basin
+0;-62.1932,16.7349;MS-02;Saint Georges;Beech Hill
+0;-62.2146,16.7837;MS-03;Saint Peter;Banks
+0;-62.2161,16.7861;MS-03;Saint Peter;Banks Level
+0;-62.2094,16.7774;MS-03;Saint Peter;Baker Hill
+0;-62.1844,16.8183;MS;;Hell's Gate
+1000;-62.2106,16.7918;MS-03;Saint Peter;Brades
+0;-62.2278,16.7251;MS;;Elberton
+5;-62.2304,16.7396;MS;;Garibaldi Hill
+600;-62.1836,16.7938;MS-03;Saint Peter;Lookout
+0;-62.2037,16.7998;MS-03;Saint Peter;Little Bay

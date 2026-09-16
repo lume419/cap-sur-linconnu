@@ -1,0 +1,574 @@
+ko;윰벨;Yumbel
+ru;Юмбель;Yumbel
+zh;雲貝爾;Yumbel
+ja;ビニャ・デル・マール;Viña del Mar
+ru;Винья-дель-Мар;Viña del Mar
+ko;비냐델마르;Viña del Mar
+zh;比尼亚德尔马;Viña del Mar
+ar;فينيا ديل مار;Viña del Mar
+ja;ビジャリカ;Villarrica
+ru;Вильяррика;Villarrica
+zh;比亞里卡;Villarrica
+ko;비야리카;Villarrica
+ru;Вилья-Алемана;Villa Alemana
+zh;阿萊馬納鎮;Villa Alemana
+ja;ビジャ・アレマーナ;Villa Alemana
+ko;비야알레마나;Villa Alemana
+ru;Викунья;Vicuña
+ko;빅토리아;Victoria
+ru;Виктория;Victoria
+zh;維多利亞;Victoria
+fr;Valparaiso;Valparaíso
+ja;バルパライソ;Valparaíso
+ru;Вальпараисо;Valparaíso
+ko;발파라이소;Valparaíso
+ar;فالبارايسو;Valparaíso
+zh;瓦尔帕莱索;Valparaíso
+hi;वालपाराईसो;Valparaíso
+iu;ᕙᓪᐸᕃᓱ;Valparaíso
+srn;Balparaiso;Valparaíso
+ru;Вальдивия;Valdivia
+ja;バルディビア;Valdivia
+zh;瓦尔迪维亚;Valdivia
+ko;발디비아;Valdivia
+ar;فالديفيا;Valdivia
+hi;वाल्डिविया;Valdivia
+ko;투카펠;Tucapel
+ru;Тукапель;Tucapel
+zh;圖卡佩爾;Tucapel
+ko;트라이겐;Traiguén
+ru;Трайген;Traiguén
+zh;特賴根;Traiguén
+ja;トメ;Tomé
+ko;토메;Tomé
+ru;Томе;Tomé
+zh;托梅;Tomé
+ru;Токопилья;Tocopilla
+zh;托科皮亚;Tocopilla
+ko;토코피야;Tocopilla
+ko;티루아;Tirúa
+ru;Тируа;Tirúa
+zh;蒂魯阿;Tirúa
+ru;Тилтил;Tiltil
+ru;Тено;Teno
+arn;Temuko;Temuco
+ru;Темуко;Temuco
+ja;テムコ;Temuco
+ko;테무코;Temuco
+zh;特木科;Temuco
+ar;تيموكو;Temuco
+hi;तेमुको;Temuco
+ru;Тальталь;Taltal
+zh;塔爾塔爾;Taltal
+qu;Talkawanu;Talcahuano
+ja;タルカワノ;Talcahuano
+ay;Talkawanu;Talcahuano
+ru;Талькауано;Talcahuano
+zh;塔爾卡瓦諾;Talcahuano
+ar;تالكاهوانو;Talcahuano
+ko;탈카우아노;Talcahuano
+ru;Талька;Talca
+ja;タルカ;Talca
+qu;Talka;Talca
+ay;Talka;Talca
+zh;塔爾卡;Talca
+ko;탈카;Talca
+ar;تالكا;Talca
+hi;तालका;Talca
+ko;탈라간테;Talagante
+ru;Талаганте;Talagante
+zh;塔拉甘特;Talagante
+de;Santiago de Chile;Santiago
+es;Santiago de Chile;Santiago
+ar;سانتياغو;Santiago
+fr;Santiago du Chili;Santiago
+it;Santiago del Cile;Santiago
+ja;サンティアゴ;Santiago
+ko;산티아고;Santiago
+nl;Santiago de Chile;Santiago
+pt;Santiago do Chile;Santiago
+ru;Сантьяго;Santiago
+zh;圣地亚哥;Santiago
+en;Santiago de Chile;Santiago
+ru;Санта-Крус;Santa Cruz
+ko;산타크루스;Santa Cruz
+zh;聖克魯斯;Santa Cruz
+es;Santa Barbara;Santa Bárbara
+es;Sta. Barbara;Santa Bárbara
+es;Sta Barbara;Santa Bárbara
+es;Sta. Bárbara;Santa Bárbara
+es;Sta Bárbara;Santa Bárbara
+ru;Сан-Педро-де-Атакама;San Pedro de Atacama
+ja;サンペドロ・デ・アタカマ;San Pedro de Atacama
+zh;聖佩德羅德阿塔卡馬;San Pedro de Atacama
+ko;산페드로데아타카마;San Pedro de Atacama
+zh-Hans;圣佩德罗德阿塔卡马;San Pedro de Atacama
+ru;Сан-Хосе-де-Майпо;San José de Maipo
+ko;산호세데마이포;San José de Maipo
+zh;聖何塞德邁波;San José de Maipo
+es;San Javier de Loncomilla;San Javier
+it;San Javier de Loncomilla;San Javier
+nl;San Javier de Loncomilla;San Javier
+ko;산하이베르;San Javier
+pt;San Javier de Loncomilla;San Javier
+ru;Сан-Хавьер-де-Лонкомилья;San Javier
+zh;聖哈維爾;San Javier
+ko;산카를로스;San Carlos
+ru;Сан-Карлос;San Carlos
+zh;聖卡洛斯;San Carlos
+ru;Сан-Бернардо;San Bernardo
+zh;聖貝爾納多;San Bernardo
+ru;Сан-Антонио;San Antonio
+zh;聖安東尼奧;San Antonio
+ar;سالامانكا;Salamanca
+hi;सलामांका;Salamanca
+ko;살라망카;Salamanca
+ru;Саламанка;Salamanca
+zh;薩拉曼卡;Salamanca
+ru;Ромерал;Romeral
+ko;레티로;Retiro
+ru;Ретиро;Retiro
+zh;雷蒂羅;Retiro
+ru;Ренго;Rengo
+ko;렝고;Rengo
+zh;倫戈;Rengo
+ru;Ренка;Renca
+ru;Ранкагуа;Rancagua
+ko;랑카과;Rancagua
+ay;Rankawa;Rancagua
+ja;ランカグア;Rancagua
+zh;兰卡瓜;Rancagua
+ar;رانكاجوا;Rancagua
+hi;रानकागुआ;Rancagua
+ko;킨테로;Quintero
+ru;Кинтеро;Quintero
+zh;金特羅;Quintero
+ko;킨타데틸코코;Quinta de Tilcoco
+ru;Кинта-де-Тилькоко;Quinta de Tilcoco
+zh;昆塔德蒂爾科科;Quinta de Tilcoco
+ja;キルプエ;Quilpué
+ru;Кильпуэ;Quilpué
+zh;基爾普埃;Quilpué
+ru;Кильота;Quillota
+zh;基約塔;Quillota
+ko;키요타;Quillota
+ru;Киликура;Quilicura
+zh;基利库拉;Quilicura
+ko;킬리쿠라;Quilicura
+ru;Путре;Putre
+zh;普特雷;Putre
+ko;푸랑케;Purranque
+ru;Пурранке;Purranque
+zh;普蘭克;Purranque
+ja;プンタ・アレーナス;Punta Arenas
+ru;Пунта Аренас;Punta Arenas
+ru;Пунта-Аренас;Punta Arenas
+zh;蓬塔阿雷纳斯;Punta Arenas
+ko;푼타아레나스;Punta Arenas
+ar;بونتا أرينس;Punta Arenas
+hi;पुंता अरेनास;Punta Arenas
+ar;بويرتو ويليامز;Puerto Williams
+ja;プエルト・ウィリアムズ;Puerto Williams
+ko;푸에르토윌리암스;Puerto Williams
+ru;Пуэрто-Уильямс;Puerto Williams
+zh;威廉斯港;Puerto Williams
+ru;Пуэрто Варас;Puerto Varas
+ru;Пуэрто-Варас;Puerto Varas
+zh;巴拉斯港;Puerto Varas
+ar;بويرتو فاراس;Puerto Varas
+ko;푸에르토바라스;Puerto Varas
+ja;プエルト・バラス;Puerto Varas
+ru;Пуэрто-Наталес;Puerto Natales
+zh;納塔萊斯港;Puerto Natales
+hi;पुरतो नातालीस;Puerto Natales
+ar;بويرتو نتالز;Puerto Natales
+ja;プエルト・ナターレス;Puerto Natales
+ko;푸에르토 나탈레스;Puerto Natales
+en;Port Montt;Puerto Montt
+ru;Пуэрто-Монт;Puerto Montt
+ja;プエルトモント;Puerto Montt
+zh;蒙特港;Puerto Montt
+ko;푸에르토몬트;Puerto Montt
+ar;بويرتو مونت;Puerto Montt
+hi;प्यूर्टो मोंट;Puerto Montt
+es;Ciudad de Aysén;Puerto Aysén
+en;Puerto Aisén;Puerto Aysén
+ru;Пуэнте-Альто;Puente Alto
+zh;上普恩特;Puente Alto
+ru;Пукон;Pucón
+ja;プコン;Pucón
+ko;푸콘;Pucón
+zh;普孔;Pucón
+ru;Провиденсия;Providencia
+ja;ポルベニール;Porvenir
+ko;포르베니르;Porvenir
+ru;Порвенир;Porvenir
+zh;波韋尼爾;Porvenir
+ru;Пинто;Pinto
+ja;ピチレム;Pichilemu
+hi;पीचिलीम्यू;Pichilemu
+ht;Pychillimu;Pichilemu
+ay;Piychillimu;Pichilemu
+ar;بتشيلمو;Pichilemu
+ru;Пичилему;Pichilemu
+zh;披市勒亩;Pichilemu
+ko;피카;Pica
+qu;Piqa;Pica
+ru;Пика;Pica
+zh;皮卡;Pica
+ja;ペンコ;Penco
+ru;Пенко;Penco
+zh;彭科;Penco
+ko;펭코;Penco
+ru;Пеньялолен;Peñalolén
+ko;페냘롤렌;Peñalolén
+zh;佩尼亞洛倫;Peñalolén
+ru;Пеньяфлор;Peñaflor
+ru;Парраля;Parral
+ko;파레도네스;Paredones
+ru;Паредонес;Paredones
+zh;帕雷多內斯;Paredones
+ko;파푸도;Papudo
+ru;Папудо;Papudo
+zh;帕普多;Papudo
+ru;Пангипульи;Panguipulli
+arn;pangi pülli;Panguipulli
+ko;팡기푸이;Panguipulli
+zh;潘吉普伊;Panguipulli
+ar;بانجويبولي;Panguipulli
+ja;パンギプジ;Panguipulli
+ru;Палена;Palena
+ru;Пейн;Paine
+es;Villa Alegre de Paine;Paine
+ru;Овалье;Ovalle
+zh;奧瓦列;Ovalle
+ru;Осорно;Osorno
+ru;Оливар;Olivar
+ko;누에바임페리알;Nueva Imperial
+ru;Нуэва-Имперьяль;Nueva Imperial
+zh;新帝國鎮;Nueva Imperial
+ru;Негрете;Negrete
+ru;Мульчен;Mulchén
+ko;몬테파트리아;Monte Patria
+ru;Монте-Патрия;Monte Patria
+zh;蒙特帕特里亞;Monte Patria
+ru;Молина;Molina
+ru;Мелипилья;Melipilla
+zh;梅利皮亞;Melipilla
+ko;멜리피야;Melipilla
+ko;메히요네스;Mejillones
+ru;Мехильонес;Mejillones
+zh;梅希約內斯;Mejillones
+ru;Мауле - Чили;Maule
+ru;Маипу;Maipú
+ko;마찰리;Machalí
+ru;Мачали;Machalí
+zh;馬查利;Machalí
+ru;Лот;Lota
+ja;ロタ;Lota
+ru;Лота;Lota
+zh;洛塔;Lota
+ko;로타;Lota
+ru;Лос-Вилос;Los Vilos
+ko;로스빌로스;Los Vilos
+zh;洛斯比洛斯;Los Vilos
+ru;Лос-Лагос - Чили;Los Lagos
+es;Ciudad de Los Anjeles;Los Ángeles
+ru;Лос-Анджелес;Los Ángeles
+ja;ロス・アンヘレス;Los Ángeles
+ko;로스앙헬레스;Los Ángeles
+ru;Лос-Анхелес;Los Ángeles
+zh;洛桑赫萊斯;Los Ángeles
+ru;Лос-Анд;Los Andes
+ru;Лос-Андес;Los Andes
+zh;洛斯安第斯;Los Andes
+ru;Лолол;Lolol
+ru;Ло-Барнечеа;Lo Barnechea
+ko;로바르네체아;Lo Barnechea
+zh;洛巴爾內切阿;Lo Barnechea
+arn;Llankünwe;Llanquihue
+ru;Линарес;Linares
+zh;利納雷斯;Linares
+ko;리나레스;Linares
+ru;Лимаче;Limache
+zh;利馬切;Limache
+ko;리마체;Limache
+ru;Лебу;Lebu
+zh;萊布;Lebu
+ko;라우니온;La Unión
+ru;Ла-Уньон;La Unión
+es;Las Minillas;Minillas
+ru;Ла-Серена;La Serena
+ja;ラ・セレナ;La Serena
+ko;라세레나;La Serena
+zh;拉塞雷纳;La Serena
+ar;لا سيرينا;La Serena
+hi;ला सेरेना;La Serena
+ru;Ла-Рейна;La Reina
+ko;라레이나;La Reina
+zh;拉雷納;La Reina
+ru;Лампа;Lampa
+ru;Ла-Лигуа;La Ligua
+arn;sur de chile;La Ligua
+ko;라리과;La Ligua
+zh;拉利瓜;La Ligua
+ar;لا ليغوا;La Ligua
+ja;ラ・リグア;La Ligua
+ru;Флорида;Florida
+ru;Ла-Флорида;La Florida
+ar;لا فلوريدا;La Florida
+ko;라플로리다;La Florida
+zh;拉弗羅里達;La Florida
+ko;라칼레라;La Calera
+ru;Ла-Калера;La Calera
+zh;拉卡萊拉;La Calera
+es;Junta de Chingoles;Junta de Chincoles
+ja;イキケ;Iquique
+ru;Икике;Iquique
+zh;伊基克;Iquique
+ko;이키케;Iquique
+ar;إيكيكي;Iquique
+hi;इकिके;Iquique
+ru;Ильяпель;Illapel
+zh;伊亞佩爾;Illapel
+ru;Уаско;Huasco
+zh;瓦斯科;Huasco
+ko;우아스코;Huasco
+ja;ワルペン;Hualpén
+ru;Уальпен;Hualpén
+zh;瓦爾彭;Hualpén
+ko;우알펜;Hualpén
+ko;이후엘라스;Hijuelas
+ru;Ихуэлас;Hijuelas
+zh;伊胡埃拉斯;Hijuelas
+ko;우알키;Hualqui
+ru;Уальки;Hualqui
+zh;瓦爾基;Hualqui
+ko;그라네로스;Graneros
+ru;Гранерос;Graneros
+zh;格拉內羅斯;Graneros
+ar;فيوترونو;Futrono
+ko;푸트르노;Futrono
+ru;Футроно;Futrono
+zh;富特羅諾;Futrono
+ar;فيوتاليوفيو;Futaleufú
+ko;푸탈레우푸;Futaleufú
+ru;Футалеуфу;Futaleufú
+zh;富塔萊烏富;Futaleufú
+ar;فرياراينا;Freirina
+ko;프레이리나;Freirina
+ru;Фрейрина;Freirina
+zh;弗雷里納;Freirina
+ko;엘키스코;El Quisco
+ru;Эль-Киско;El Quisco
+zh;埃爾基斯科;El Quisco
+ar;دونيهيو;Doñihue
+ko;도니우에;Doñihue
+ru;Доньиуэ;Doñihue
+zh;多尼韋;Doñihue
+arn;Dalkawe;Dalcahue
+ar;دالكاهيو;Dalcahue
+ko;달카우에;Dalcahue
+ru;Далькауэ;Dalcahue
+zh;達卡衛;Dalcahue
+zh-Hans;达卡卫;Dalcahue
+ja;ダルアウェ;Dalcahue
+ru;Курико;Curicó
+zh;庫里科;Curicó
+ja;クリコ;Curicó
+ar;كوريكو;Curicó
+ko;쿠리코;Curicó
+ar;كيوريبتو;Curepto
+ko;쿠렙토;Curepto
+ru;Курепто;Curepto
+zh;庫雷普托;Curepto
+ar;كيوراناي لاهيو;Curanilahue
+ko;쿠라닐라우에;Curanilahue
+ru;Куранилауэ;Curanilahue
+zh;庫拉尼拉韋;Curanilahue
+ar;كيوراكافاي;Curacaví
+ko;쿠라카비;Curacaví
+ru;Куракави;Curacaví
+zh;庫拉卡維;Curacaví
+ar;كورال;Corral
+ko;코랄;Corral
+ru;Корраль;Corral
+zh;科拉爾;Corral
+ru;Коронель;Coronel
+ar;كورونل;Coronel
+zh;科羅內爾;Coronel
+ja;コロネル;Coronel
+ru;Кокимбо;Coquimbo
+qu;Kukimpu;Coquimbo
+ar;كوكويمبو;Coquimbo
+ko;코킴보;Coquimbo
+ja;コキンボ;Coquimbo
+zh;科金博;Coquimbo
+ja;コピアポ;Copiapó
+qu;Qhupiyapu;Copiapó
+ko;코피아포;Copiapó
+ru;Копьяпо;Copiapó
+zh;科皮亞波;Copiapó
+ar;كوبيابو;Copiapó
+hi;कोपिआपो;Copiapó
+ar;كونستيتسيون;Constitución
+ja;コンスティトゥシオン;Constitución
+ko;콘스티투시온;Constitución
+ru;Конститусьон;Constitución
+zh;孔斯蒂圖西翁;Constitución
+ar;كونكون;Concón
+ko;콩콘;Concón
+ru;Конкон;Concón
+zh;孔孔;Concón
+ru;Консепсьон;Concepción
+ar;كونثبثيون، تشيلي;Concepción
+hi;कॉन्सेप्सिओन;Concepción
+ja;コンセプシオン;Concepción
+kl;Concepcion;Concepción
+ko;콘셉시온;Concepción
+zh;康塞普西翁;Concepción
+ko;콤바르발라;Combarbalá
+ru;Комбарбала;Combarbalá
+zh;孔巴爾瓦拉;Combarbalá
+ar;كولينا;Colina
+ko;콜리나;Colina
+ru;Колина;Colina
+ja;コリーナ;Colina
+ar;كولشاني;Colchane
+ko;콜차네;Colchane
+qu;Qullchani;Colchane
+ru;Кольчане;Colchane
+zh;科爾查內;Colchane
+ar;كولبيون;Colbún
+ko;콜분;Colbún
+ru;Кольбун;Colbún
+zh;科爾文;Colbún
+ru;Койайке;Coyhaique
+en;Coihaique;Coyhaique
+ar;كويايك;Coyhaique
+hi;कोयाइक;Coyhaique
+ja;コイアイケ;Coyhaique
+ar;كوكرين;Cochrane
+ko;코크라네;Cochrane
+ru;Кокран;Cochrane
+zh;科克拉內;Cochrane
+arn;Trongchü;Chonchi
+ar;شونشي;Chonchi
+ko;촌치;Chonchi
+ru;Чончи;Chonchi
+zh;瓊奇;Chonchi
+en;Chillan;Chillán
+ru;Чильян;Chillán
+ar;تشيلان;Chillán
+hi;चिलान;Chillán
+ja;チリャン;Chillán
+ja;チグアヤンテ;Chiguayante
+ru;Чигуаянте;Chiguayante
+zh;奇瓜揚特;Chiguayante
+ar;شيغوانتي;Chiguayante
+ko;치과얀테;Chiguayante
+ar;شانارال;Chañaral
+ko;차냐랄;Chañaral
+ru;Чаньяраль;Chañaral
+zh;查尼亞拉爾;Chañaral
+ru;Чайтен;Chaitén
+zh;柴滕;Chaitén
+ar;شايتن;Chaitén
+ko;차이텐;Chaitén
+ru;Каукенес;Cauquenes
+zh;考克內斯;Cauquenes
+ar;كايكيونيس;Cauquenes
+ko;카우케네스;Cauquenes
+ru;Кастро;Castro
+ja;カストロ;Castro
+zh;卡斯特罗市;Castro
+fr;Carthagène;Cartagena
+ar;قرطاجنة;Cartagena
+ko;카르타헤나;Cartagena
+ru;Картахена;Cartagena
+zh;卡塔赫納;Cartagena
+ar;كالديرا;Caldera
+ko;칼데라;Caldera
+ru;Кальдера;Caldera
+zh;卡爾德拉;Caldera
+arn;Kallfüko;Calbuco
+ar;كالبوكو;Calbuco
+ko;칼부코;Calbuco
+ru;Кальбуко;Calbuco
+zh;卡爾布科;Calbuco
+zh-Hans;卡尔布科;Calbuco
+ja;カルブコ;Calbuco
+ru;Калама;Calama
+ja;カラマ;Calama
+qu;Kalama;Calama
+zh;卡拉馬;Calama
+ar;كالاما;Calama
+ko;칼라마;Calama
+ru;Булнес;Bulnes
+ru;Буин;Buin
+ru;Арика;Arica
+qu;Arika;Arica
+ja;アリカ;Arica
+ko;아리카;Arica
+ar;أريكا;Arica
+zh;阿里卡;Arica
+hi;एरिका;Arica
+ar;أراوكو;Arauco
+ko;아라우코;Arauco
+ru;Арауко;Arauco
+zh;阿勞科;Arauco
+ja;アントファガスタ;Antofagasta
+ko;안토파가스타;Antofagasta
+ar;أنتوفاغاستا;Antofagasta
+ru;Антофагаста;Antofagasta
+zh;安托法加斯塔;Antofagasta
+hi;एंटोफ़गास्टा;Antofagasta
+ru;Анголь;Angol
+ja;アンゴル;Angol
+zh;安戈爾;Angol
+ar;أنداكولو;Andacollo
+ko;안다코요;Andacollo
+ru;Андакольо;Andacollo
+zh;安達科約;Andacollo
+arn;Ankuñ;Ancud
+ru;Анкуд;Ancud
+zh;安庫德;Ancud
+ar;أنكود;Ancud
+ko;앙쿠드;Ancud
+ar;ألتو هوسبيكيو;Alto Hospicio
+ko;알토오스피시오;Alto Hospicio
+ru;Альто-Осписио;Alto Hospicio
+zh;上霍斯皮西奧;Alto Hospicio
+ar;ألتو ديل كارمن;Alto del Carmen
+ko;알토델카르멘;Alto del Carmen
+ru;Альто-дель-Кармен;Alto del Carmen
+zh;阿托德爾卡門;Alto del Carmen
+ar;الغاروبو;Algarrobo
+ja;アルガロボ;Algarrobo
+ko;알가로보;Algarrobo
+ru;Альгарробо;Algarrobo
+zh;阿尔加罗沃;Algarrobo
+ar;هانجا روا;Hanga Roa
+ko;항가로아;Hanga Roa
+ru;Анга-Роа;Hanga Roa
+ja;ハンガロア;Hanga Roa
+zh;安加罗阿;Hanga Roa
+ja;サン・ペドロ・デ・ラ・パス;San Pedro de la Paz
+ru;Сан-Педро-де-ла-Пас;San Pedro de la Paz
+zh;聖佩德羅德拉帕斯;San Pedro de la Paz
+ko;산페드로데라파스;San Pedro de la Paz
+ru;Ла-Пинтана;La Pintana
+ko;라핀타나;La Pintana
+zh;拉平塔納;La Pintana
+ru;Ло-Прадо;Lo Prado
+ko;로프라도;Lo Prado
+zh;洛普拉多;Lo Prado
+ru;Сан-Фернандо;San Fernando
+zh;聖費爾南多;San Fernando
+ko;산페르난도;San Fernando
+es;Guaneras Punta Patache;Guaneros Punta Patache
+ru;Вилья Меркедес;Villa Mercedes
+es;Nancomahuida;Ñancomahuida
+es;Rinconada de Cato;Rinconada
+es;Idahue Bajo;Idahue Chico
+es;El Arenal del 25;El Arenal del Veinticinco

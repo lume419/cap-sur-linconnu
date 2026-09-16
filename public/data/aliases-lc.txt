@@ -1,0 +1,44 @@
+zh;維吉;Vigie
+ru;Вьё-Фор;Vieux Fort
+ar;فيو فور;Vieux Fort
+hi;व्यू फोर्ट;Vieux Fort
+ja;ビューフォート;Vieux Fort
+en;Soufriere;Soufrière
+ru;Суфриер;Soufrière
+ar;سوفريير;Soufrière
+es;Soufriere;Soufrière
+hi;सोफ्रिएर;Soufrière
+de;Soufriere;Soufrière
+ja;スーフリエール;Soufrière
+pt;Soufriere;Soufrière
+ru;Микуд;Micoud
+ar;ميكود;Micoud
+hi;मिकौड;Micoud
+ja;ミクード;Micoud
+ru;Лабори;Laborie
+ar;لابوري;Laborie
+hi;लबोरी;Laborie
+ja;ラボリー;Laborie
+ru;Гро-Изле;Gros Islet
+ar;جروس إيسليت;Gros Islet
+hi;ग्रॉस इस्लेट;Gros Islet
+ja;グロスイスレット;Gros Islet
+ru;Денери;Dennery
+ar;دينري;Dennery
+hi;डेनरी;Dennery
+ja;デナリー;Dennery
+ru;Шуазель;Choiseul
+ar;شوازول;Choiseul
+hi;चोइसेल;Choiseul
+ja;ショイズール;Choiseul
+ja;カストリーズ;Castries
+ko;캐스트리스;Castries
+ru;Кастри;Castries
+ar;كاستريس;Castries
+ht;Kastri;Castries
+zh;卡斯特里;Castries
+fr;Anse-La-Raye;Anse La Raye
+ru;Анс-ла-Рэ;Anse La Raye
+ar;أنس لا راي;Anse La Raye
+hi;एंस ला रे;Anse La Raye
+ja;アンスラレイ;Anse La Raye

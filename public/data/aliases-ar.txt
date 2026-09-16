@@ -1,0 +1,3564 @@
+ru;Зарате;Zárate
+ar;زاراتي، بوينس آيرس;Zárate
+zh;萨拉特;Zárate
+hi;ज़ारते;Zárate
+ja;ザラテ;Zárate
+ru;Вильде;Wilde
+zh;懷爾德;Wilde
+zh-Hans;怀尔德;Wilde
+ar;وايلد;Wilde
+en;Villa Laguna Brava;Villa Laguna La Brava
+ru;Вилла Паранаситó;Villa Paranacito
+ar;فيلا بارانسيتو;Villa Paranacito
+hi;विला पारानसिटो;Villa Paranacito
+ja;ビジャパラナシト;Villa Paranacito
+es;Villa Madero;Villa Eduardo Madero
+ru;Вильягуай;Villaguay
+ar;فيلاجواي;Villaguay
+hi;विलागुए;Villaguay
+ja;ビジャグアイ;Villaguay
+ru;Вилья-Хесель;Villa Gesell
+zh;巴列斯特爾鎮;Villa Ballester
+ru;Валентин-Альсина;Valentín Alsina
+zh;巴倫廷阿爾西納;Valentín Alsina
+ar;فالنتين ألسينا;Valentín Alsina
+ja;バレンティン・アルシーナ;Valentín Alsina
+hi;विसेंट लोपेज;Vicente López
+ru;Висенте-Лопес;Vicente López
+ko;비센테 로페즈;Vicente López
+zh;維森特洛佩斯;Vicente López
+ar;فيسنتي لوبيز;Vicente López
+ja;ビセンテ・ロペス;Vicente López
+en;Veronica;Verónica
+ru;Вероника;Verónica
+ar;فيرونيكا;Verónica
+fr;Véronique;Verónica
+hi;वेरोनिका;Verónica
+de;Veronica;Verónica
+ja;ベロニカ;Verónica
+es;Colonia 25 de Mayo;Colonia Veinticinco de Mayo
+es;Vaghes;Vagues
+es;Colonia 3 de Febrero;Colonia Tres de Febrero
+zh;托爾圖吉塔斯;Tortuguitas
+zh-Hans;托尔图吉塔斯;Tortuguitas
+ar;تورتيوغيوتاس;Tortuguitas
+ru;Тигре;Tigre
+ru;Тандиль;Tandil
+zh;坦迪爾;Tandil
+ja;タンディル;Tandil
+ar;تانديل;Tandil
+ko;탄딜;Tandil
+hi;तांडिल;Tandil
+ru;Табосси;Tabossi
+es;Tablada;La Tablada
+ru;Ла-Таблада;La Tablada
+ar;لا تابلادا;La Tablada
+ru;Суйпача;Suipacha
+ar;سويباتشا;Suipacha
+hi;सुइपाचा;Suipacha
+ja;スイパチャ;Suipacha
+ru;Соус;Sauce
+ar;ساوس;Sauce
+hi;सॉस;Sauce
+ja;ソース;Sauce
+ru;Сан-Висенте;San Vicente
+ar;سان فيسينتي;San Vicente
+hi;सैन विसेंटे;San Vicente
+ja;サンビセンテ;San Vicente
+en;Santo Tome;Santo Tomé
+ru;Санто-Томе;Santo Tomé
+ar;سانتو تومي;Santo Tomé
+fr;Santo Tome;Santo Tomé
+hi;सेंटो टोमे;Santo Tomé
+de;Santo Tome;Santo Tomé
+ja;サントトメ;Santo Tomé
+zh;聖盧加雷斯;Santos Lugares
+ru;Санта-Роса;Santa Rosa
+es;Estancia Santa María;Santa María
+en;Santa Lucia;Santa Lucía
+ru;Санта-Люсия;Santa Lucía
+ar;سانتا لوسيا;Santa Lucía
+fr;Sainte-Lucie;Santa Lucía
+hi;सांता लूसिया;Santa Lucía
+de;Santa Lucia;Santa Lucía
+ja;サンタルチア;Santa Lucía
+pt;Santa Lúcia;Santa Lucía
+ru;Санта-Ана;Santa Ana
+ar;سانتا آنا;Santa Ana
+fr;Sainte-Anne;Santa Ana
+hi;सांता अना;Santa Ana
+ja;サンタアナ;Santa Ana
+zh;聖薩爾瓦多;San Salvador
+ru;Сан-Сальвадор;San Salvador
+ar;سان سلفادور;San Salvador
+hi;सैन सल्वाडोर;San Salvador
+ja;サンサルバドル;San Salvador
+ru;Сан-Рок;San Roque
+ar;سان روك;San Roque
+hi;सैन रोक;San Roque
+ja;サンロケ;San Roque
+ru;Сан-Педро;San Pedro
+ar;سان بيدرو;San Pedro
+hi;सैन पेड्रो;San Pedro
+ja;サンペドロ;San Pedro
+ru;Сан-Мигель-дель-Монте;San Miguel del Monte
+ar;سان ميغيل ديل مونتي;San Miguel del Monte
+hi;सैन मिगुएल डेल मोंटे;San Miguel del Monte
+ja;サンミゲルデルモンテ;San Miguel del Monte
+ru;Сан-Мигель;San Miguel
+ar;سان ميغيل;San Miguel
+hi;सैन मिगुएल;San Miguel
+ja;サンミゲル;San Miguel
+ru;Сан-Луис-дель-Пальмар;San Luis del Palmar
+ar;سان لويس ديل بالمار;San Luis del Palmar
+hi;सैन लुइस डेल पल्मार;San Luis del Palmar
+ja;サンルイスデルパルマル;San Luis del Palmar
+ru;Сан-Хусто;San Justo
+ar;سان خوستو;San Justo
+hi;सैन जुस्तो;San Justo
+ja;サンフスト;San Justo
+en;San Jose de Feliciano;San José de Feliciano
+ru;Сан-Хосе-де-Фелисиано;San José de Feliciano
+ar;سان خوسيه دي فيليثيانو;San José de Feliciano
+fr;San Jose de Feliciano;San José de Feliciano
+hi;सैन जोसे डे फेलिसिआनो;San José de Feliciano
+de;San Jose de Feliciano;San José de Feliciano
+ja;サンホセデフェリシアーノ;San José de Feliciano
+pt;San Jose de Feliciano;San José de Feliciano
+ru;Сан-Харьер;San Javier
+ar;سان خابيير;San Javier
+hi;सैन जेवियर;San Javier
+ja;サンハビエル;San Javier
+ar;سان إيسيدرو;San Isidro
+zh;圣伊西德罗;San Isidro
+ru;Сан-Исидро;San Isidro
+hi;सैन इसिड्रो;San Isidro
+ja;サンイシドロ;San Isidro
+ru;Сан-Игнасио;San Ignacio
+ar;سان إجناثيو;San Ignacio
+hi;सैन इग्नासियो;San Ignacio
+ja;サンイグナシオ;San Ignacio
+ru;Сан-Франсиско-де-Лаиши;San Francisco de Laishi
+ar;سان فرانثيسكو دي لايشي;San Francisco de Laishi
+hi;सैन फ्रांसिस्को डे लाइशी;San Francisco de Laishi
+ja;サンフランシスコデライシ;San Francisco de Laishi
+ru;Сан-Франциско;San Francisco
+ru;Сан-Космо;San Cosme
+ar;سان كوسمي;San Cosme
+hi;सैन कॉसमे;San Cosme
+ja;サンコスメ;San Cosme
+ru;Сан-Клементе-дель-Тую;San Clemente del Tuyú
+ru;Сан-Каетано;San Cayetano
+ar;سان كايتانو;San Cayetano
+hi;सैन कायेतानो;San Cayetano
+ja;サンカイェターノ;San Cayetano
+ar;سان انطونيو دي بادوا;San Antonio de Padua
+zh;聖安東尼奧德帕杜瓦;San Antonio de Padua
+ru;Сан-Антонио-де-Падуа;San Antonio de Padua
+ja;サン・アントニオ・デ・パドゥア;San Antonio de Padua
+ru;Сан-Антонио-де-Аресо;San Antonio de Areco
+ar;سان أنطونيو دي أريكو;San Antonio de Areco
+hi;सैन एंटोनियो डे अरेको;San Antonio de Areco
+ja;サンアントニオデアレコ;San Antonio de Areco
+ru;Сан-Антонио;San Antonio
+ar;سان أنطونيو;San Antonio
+hi;सैन एंटोनियो;San Antonio
+ja;サンアントニオ;San Antonio
+en;San Andres de Giles;San Andrés de Giles
+ru;Сан-Андрес-де-Хилес;San Andrés de Giles
+ar;سان أندريس دي خيليس;San Andrés de Giles
+fr;San Andres de Giles;San Andrés de Giles
+hi;सैन एंड्रेस डे गाइलस;San Andrés de Giles
+de;San Andres de Giles;San Andrés de Giles
+ja;サンアンドレスデヒレス;San Andrés de Giles
+pt;San Andres de Giles;San Andrés de Giles
+ru;Саладильо;Saladillo
+ar;سلاديلو;Saladillo
+hi;सलादिलो;Saladillo
+ja;サラディーリョ;Saladillo
+ru;Салядас;Saladas
+ar;سالادس;Saladas
+hi;सलादास;Saladas
+ja;サラダス;Saladas
+zh;羅薩里奧德爾塔拉;Rosario del Tala
+ru;Росарио дель Тала;Rosario del Tala
+ar;روزاريو ديل تالا;Rosario del Tala
+hi;रोसारियो डेल ताला;Rosario del Tala
+ja;ロサリオ・デル・タラ;Rosario del Tala
+en;Roque Perez;Roque Pérez
+ru;Роке Перес;Roque Pérez
+ar;روكي بيريز;Roque Pérez
+fr;Roque Perez;Roque Pérez
+hi;रोके पेरेज़;Roque Pérez
+de;Roque Perez;Roque Pérez
+ja;ロケ・ペレス;Roque Pérez
+pt;Roque Perez;Roque Pérez
+es;Rivas;General Rivas
+es;Rincón del Ambrosio;Rincón de Ambrosio
+es;Ciudad de Resistencia;Resistencia
+ja;レシステンシア;Resistencia
+pt;Resistência;Resistencia
+ru;Ресистенсия;Resistencia
+zh;雷西斯滕西亚;Resistencia
+ko;레시스텐시아;Resistencia
+ar;ريسيستينسيا;Resistencia
+hi;रेजिस्टेंसिया;Resistencia
+ru;Реконкиста;Reconquista
+ar;الاسترجاع;Reconquista
+hi;रीकॉन्किस्टा;Reconquista
+ja;レコンキスタ;Reconquista
+ru;Раух;Rauch
+ar;راوتش;Rauch
+hi;रौच;Rauch
+ja;ラウチ;Rauch
+ru;Ранчос;Ranchos
+ar;رانشوس;Ranchos
+hi;रैंचोस;Ranchos
+ja;ランチョス;Ranchos
+ar;راموس ميخيا;Ramos Mejía
+zh;拉莫斯梅希亞;Ramos Mejía
+ru;Кильмес;Quilmes
+ja;キルメス;Quilmes
+zh;基尔梅斯;Quilmes
+ar;كويلمس;Quilmes
+ko;킬메스;Quilmes
+hi;क़िलमेस;Quilmes
+ru;Пуэрто Тирол;Puerto Tirol
+ar;بويرتو تيرول;Puerto Tirol
+hi;प्वेर्टो टायरोल;Puerto Tirol
+ja;プエルト・ティロル;Puerto Tirol
+ru;Пуэрто-Рико;Puerto Rico
+ar;بويرتو ريكو;Puerto Rico
+fr;Porto Rico;Puerto Rico
+hi;प्वेर्टो रिको;Puerto Rico
+ja;プエルトリコ;Puerto Rico
+pt;Porto Rico;Puerto Rico
+ru;Пуэрто-Игуасу;Puerto Iguazú
+ar;بويرتو جواسيو;Puerto Iguazú
+ko;푸에르토이과수;Puerto Iguazú
+ja;プエルト・イグアス;Puerto Iguazú
+zh;伊瓜蘇港;Puerto Iguazú
+ru;Пуэрто Эсперанса;Puerto Esperanza
+ar;بويرتو إسبيرانزا;Puerto Esperanza
+hi;प्वेर्टो एस्पेरांज़ा;Puerto Esperanza
+ja;プエルト・エスペランサ;Puerto Esperanza
+ru;Президенсия де ла Плаза;Presidencia de la Plaza
+ar;رئاسة الساحة;Presidencia de la Plaza
+hi;प्रेसिडेंसिया डे ला प्लाज़ा;Presidencia de la Plaza
+ja;プレシデンシア・デ・ラ・プラサ;Presidencia de la Plaza
+pt;Presidência da Praça;Presidencia de la Plaza
+ja;ポサーダス;Posadas
+ru;Посадас;Posadas
+zh;波萨达斯;Posadas
+ko;포사다스;Posadas
+ar;بوساداس، ميسيونيس;Posadas
+hi;पोसादास;Posadas
+ar;بونتيفيدرا;Pontevedra
+zh;蓬特韋德拉;Pontevedra
+ru;Понтеведра;Pontevedra
+en;Pirane;Pirané
+ru;Пиране;Pirané
+ar;بيران;Pirané
+es;Pirane;Pirané
+fr;Pirane;Pirané
+hi;पिराने;Pirané
+de;Pirane;Pirané
+ja;ピラネ;Pirané
+pt;Pirane;Pirané
+ru;Пинамар;Pinamar
+ar;بينامار;Pinamar
+hi;पिनामार;Pinamar
+ja;ピナマール;Pinamar
+ru;Пилар;Pilar
+ar;بيلار;Pilar
+hi;पिलार;Pilar
+ja;ピラール;Pilar
+ru;Пила;Pila
+ar;بيلا;Pila
+hi;पिला;Pila
+ja;ピラ;Pila
+ru;Пасо де лос Либрес;Paso de los Libres
+ar;باسو دي لوس ليبريس;Paso de los Libres
+hi;पासो डे लॉस लिब्रेस;Paso de los Libres
+ja;パソ・デ・ロス・リブレス;Paso de los Libres
+ar;اوليفوس، بوينس آيرس;Olivos
+zh;奧利沃斯;Olivos
+ru;Оливос;Olivos
+hi;ओलिवोस;Olivos
+ja;オリボス;Olivos
+es;Colonia Oficial Número 3;Colonia Oficial Número Tres
+es;Ochandio;Ochandío
+ru;Обера;Oberá
+gn;Obera;Oberá
+zh;奧韋拉;Oberá
+ar;اوبيرا;Oberá
+en;Obera;Oberá
+fr;Obera;Oberá
+hi;ओबेरा;Oberá
+de;Obera;Oberá
+ja;オベラ;Oberá
+pt;Obera;Oberá
+en;Nuestra Senora del Rosario de Caa Cati;Nuestra Señora del Rosario de Caá Catí
+ru;Нуэстра Сеньора дель Росарио де Каа Каті;Nuestra Señora del Rosario de Caá Catí
+ar;سيدتنا روزاريو كاا كاتي;Nuestra Señora del Rosario de Caá Catí
+hi;न्यूएस्ट्रा सेनोरा डेल रोसारियो डी काा कातिः;Nuestra Señora del Rosario de Caá Catí
+ja;ヌエストラ・セニョーラ・デル・ロサリオ・デ・カア・カティ;Nuestra Señora del Rosario de Caá Catí
+pt;Nossa Senhora do Rosário de Caá Catí;Nuestra Señora del Rosario de Caá Catí
+zh;諾戈亞;Nogoyá
+en;Nogoya;Nogoyá
+ru;Ногойá;Nogoyá
+ar;نوجويا;Nogoyá
+fr;Nogoya;Nogoyá
+hi;नोगोया;Nogoyá
+de;Nogoya;Nogoyá
+ja;ノゴヤ;Nogoyá
+pt;Nogoya;Nogoyá
+ar;نيكوتشيا;Necochea
+zh;內科切阿;Necochea
+ru;Некочеа;Necochea
+hi;नेकोचेया;Necochea
+ja;ネコチェア;Necochea
+ru;Наварро;Navarro
+ar;نافارو;Navarro
+hi;नवार्रो;Navarro
+ja;ナバーロ;Navarro
+ja;モロン;Morón
+zh;莫龙;Morón
+ar;مورون، بوينس آيرس;Morón
+ko;모론;Morón
+ru;Морон;Morón
+hi;मोरोन;Morón
+hi;मोंते गारदेय;Monte Grande
+zh-Hans;蒙特格兰德;Monte Grande
+zh;蒙特格蘭德;Monte Grande
+ar;مونتي غراندي;Monte Grande
+ja;モンテ・グランデ;Monte Grande
+ru;Монте-Гранде;Monte Grande
+ko;몬테 그란데;Monte Grande
+ru;Монте-Чинголо;Monte Chingolo
+zh;蒙特欽戈洛;Monte Chingolo
+ar;مونتي شينغولو;Monte Chingolo
+zh;蒙特卡塞羅斯;Monte Caseros
+ru;Монте Касерос;Monte Caseros
+ar;مونتي كاسيروس;Monte Caseros
+hi;मोंटे कैसेरोस;Monte Caseros
+ja;モンテ・カセロス;Monte Caseros
+ru;Монтекарло;Montecarlo
+ar;مونت كارلو;Montecarlo
+hi;मॉन्टेकार्लो;Montecarlo
+ja;モンテカルロ;Montecarlo
+ru;Мирамар;Miramar
+ar;ميرامار;Miramar
+hi;मिरामार;Miramar
+ja;ミラマール;Miramar
+zh;梅洛;Merlo
+ja;メルロ;Merlo
+ar;ميرلو، بوينس آيرس;Merlo
+ko;메를로;Merlo
+ru;Мерло;Merlo
+hi;मर्लो;Merlo
+zh;梅塞德斯;Mercedes
+ar;مرسيدس، مقاطعة بوينس آيرس;Mercedes
+ru;Мерседес;Mercedes
+hi;मर्सिडीज;Mercedes
+ja;メルセデス;Mercedes
+zh;梅爾塞德斯;Mercedes
+ar;مرسيدس;Mercedes
+en;Mburucuya;Mburucuyá
+ru;Мбуруküя;Mburucuyá
+ar;مبوروكويا;Mburucuyá
+es;Mburucuya;Mburucuyá
+fr;Mburucuya;Mburucuyá
+hi;म्बुरुकुया;Mburucuyá
+de;Mburucuya;Mburucuyá
+ja;ムブルクヤ;Mburucuyá
+pt;Mburucuya;Mburucuyá
+ru;Мартинес;Martínez
+it;Martinez;Martínez
+zh;馬丁內斯;Martínez
+ar;مارتينيز;Martínez
+ja;マルティネス;Martínez
+en;Margarita Belen;Margarita Belén
+ru;Маргарита Белен;Margarita Belén
+ar;مارجريتا بيلين;Margarita Belén
+fr;Margarita Belen;Margarita Belén
+hi;मार्गरिता बेलेन;Margarita Belén
+de;Margarita Belen;Margarita Belén
+ja;マルガリータベレン;Margarita Belén
+pt;Margarita Belém;Margarita Belén
+en;Mar del Tuyu;Mar del Tuyú
+ru;Мар дель Туйу;Mar del Tuyú
+ar;مار ديل تويو;Mar del Tuyú
+es;Mar del Tuyu;Mar del Tuyú
+fr;Mar del Tuyu;Mar del Tuyú
+hi;मार डेल तुयु;Mar del Tuyú
+de;Mar del Tuyu;Mar del Tuyú
+ja;マルデルトゥユ;Mar del Tuyú
+pt;Mar del Tuyu;Mar del Tuyú
+ja;マル・デル・プラタ;Mar del Plata
+ru;Мар-дель-Плата;Mar del Plata
+ko;마르델플라타;Mar del Plata
+zh;马德普拉塔;Mar del Plata
+ar;ماريه ديل بلاتا;Mar del Plata
+hi;मार डेल प्लाटा;Mar del Plata
+ja;マル・デ・アホ;Mar de Ajó
+ar;ماركوس باز;Marcos Paz
+ru;Маркос Paz;Marcos Paz
+hi;मार्कोस पाज़;Marcos Paz
+ja;マルコスパス;Marcos Paz
+zh;曼努埃爾·B·貢內特;Manuel B. Gonnet
+en;Makalle;Makallé
+ru;Макалле;Makallé
+ar;مكالي;Makallé
+es;Makalle;Makallé
+fr;Makalle;Makallé
+hi;मकल्ले;Makallé
+de;Makalle;Makallé
+ja;マカレ;Makallé
+pt;Makalle;Makallé
+en;Maipu;Maipú
+ru;Майпу;Maipú
+ar;مايبو;Maipú
+fr;Maipu;Maipú
+hi;मैपु;Maipú
+de;Maipu;Maipú
+ja;マイプ;Maipú
+ru;Магдалена;Magdalena
+ar;مجدلينا;Magdalena
+hi;मैग्डेलीना;Magdalena
+ja;マグダレナ;Magdalena
+pt;Madalena;Magdalena
+ru;Лухан;Luján
+zh;盧漢;Luján
+ar;لوخان، مقاطعة بوينس آيرس;Luján
+hi;लुजान;Luján
+ja;ルハン;Luján
+ru;Лорето;Loreto
+ru;Ломас де Замора;Lomas de Zamora
+ar;لوماس دي زامورا;Lomas de Zamora
+hi;लोमास डे ज़मोरा;Lomas de Zamora
+ja;ロマスデサモーラ;Lomas de Zamora
+ar;لوبوس;Lobos
+ru;Лобос;Lobos
+hi;लोबोस;Lobos
+ja;ロボス;Lobos
+en;Loberia;Lobería
+ru;Лобария;Lobería
+ar;لوبيريا;Lobería
+fr;Loberia;Lobería
+hi;लोबेरिया;Lobería
+de;Loberia;Lobería
+ja;ロベリア;Lobería
+pt;Loberia;Lobería
+zh;利亞瓦略爾;Llavallol
+zh-Hans;利亚瓦略尔;Llavallol
+ar;لايافالول;Llavallol
+ja;ルラバロール;Llavallol
+ru;Лима;Lima
+es;Pueblo Liebig's;Pueblo Liebig
+ar;ليبرتاد;Libertad
+zh;利伯塔德;Libertad
+hi;लिबेर्ताद;Libertad
+ru;Либертад;Libertad
+ko;리베르타드;Libertad
+ja;リベルタ;Libertad
+ru;Леандро Н. Алем;Leandro N. Alem
+ar;لياندرو ن. ألم;Leandro N. Alem
+hi;लिएंड्रो एन. एलेम;Leandro N. Alem
+ja;レアンドロNアレム;Leandro N. Alem
+es;Las Garzas;Pueblo Bellocq
+ru;Лас Флорес;Las Flores
+ar;لاس فلوريس;Las Flores
+hi;लास फ्लोरेस;Las Flores
+ja;ラスフローレス;Las Flores
+ja;ラプラタ;La Plata
+ar;لابلاتا;La Plata
+ru;Ла-Плата;La Plata
+ko;라플라타;La Plata
+hi;ला प्लाटा;La Plata
+zh;拉普拉塔;La Plata
+ru;Ла-Paz;La Paz
+ar;لاباز;La Paz
+hi;ला पाज़;La Paz
+ja;ラパス;La Paz
+ar;لانوس;Lanús
+ja;ラヌース;Lanús
+ko;라누스;Lanús
+ru;Ланус;Lanús
+zh;拉努斯;Lanús
+en;Lanus;Lanús
+fr;Lanus;Lanús
+hi;लानुस;Lanús
+de;Lanus;Lanús
+ru;Ла Леонеса;La Leonesa
+ar;لاليونيسا;La Leonesa
+hi;ला लियोनेसा;La Leonesa
+ja;ラレオネサ;La Leonesa
+es;Gregorio de Laferrere;Laferrere
+ru;Лаферрере;Laferrere
+ru;Ла Круз;La Cruz
+ar;لاكروز;La Cruz
+hi;ला क्रूज़;La Cruz
+ja;ラクルス;La Cruz
+es;Estancia La Amalia;La Amalia
+es;Villa Flandria;Villa Flandria Sur
+zh;伊圖薩因戈;Ituzaingó
+en;Ituzaingo;Ituzaingó
+ru;Итусаинго;Ituzaingó
+ar;إيتوزاينغو;Ituzaingó
+fr;Ituzaingo;Ituzaingó
+hi;इटुज़ैंगो;Ituzaingó
+de;Ituzaingo;Ituzaingó
+ja;イトゥザイング;Ituzaingó
+en;Itati;Itatí
+ru;Итати;Itatí
+ar;إيتاتي;Itatí
+fr;Itati;Itatí
+hi;इटाटी;Itatí
+de;Itati;Itatí
+ja;イタティ;Itatí
+ar;إيسيدرو كاسانوفا;Isidro Casanova
+zh;伊西德羅卡薩諾瓦;Isidro Casanova
+hi;इसीड्रो कासानोवा;Isidro Casanova
+ru;Исидро-Касанова;Isidro Casanova
+ko;이시드로 카사노바;Isidro Casanova
+ja;イシドロ・カサノバ;Isidro Casanova
+ja;インヘニェロ・マスチュウイツ;Ingeniero Maschwitz
+ru;Ибаррета;Ibarreta
+es;Ibáñez;Ibañez
+ru;Хурлингем;Hurlingham
+ar;هورلينغهام;Hurlingham
+hi;हर्लिंगहैम;Hurlingham
+ja;ハーリンガム;Hurlingham
+ru;Гуалегуайчу;Gualeguaychú
+gn;Gualeguaychu;Gualeguaychú
+zh;瓜萊瓜伊丘;Gualeguaychú
+ar;جيوليجياشو، انتري ريوس;Gualeguaychú
+fr;Gualeguaychu;Gualeguaychú
+hi;गुएलेगुआयचु;Gualeguaychú
+de;Gualeguaychu;Gualeguaychú
+ja;グアレグアイチュ;Gualeguaychú
+zh;瓜萊瓜伊;Gualeguay
+ru;Гуалегай;Gualeguay
+ar;جوالجواي;Gualeguay
+hi;गुएलेगाय;Gualeguay
+ja;グアレガイ;Gualeguay
+zh;格朗堡;Grand Bourg
+ar;غراند بورغ;Grand Bourg
+ru;Гойя;Goya
+ar;جويا;Goya
+hi;गोया;Goya
+ja;ゴヤ;Goya
+es;Gouin;Pueblo Gouin
+hi;गोंजालेज कतान;González Catán
+ru;Гонсалес-Катан;González Catán
+ko;곤잘레즈 카탄;González Catán
+it;Gonzàlez Catán;González Catán
+zh;貢薩萊斯卡坦;González Catán
+ar;غونزاليس كاتان;González Catán
+ja;ゴンサレス・カタン;González Catán
+es;Gobernador Virasoro;Gobernador Virasora
+en;Gobernador Virasoro;Gobernador Virasora
+ar;غيرلي;Gerli
+zh;赫爾利;Gerli
+en;Ciudad del Libertador General San Martin;Ciudad del Libertador General San Martín
+ru;Сьюдад дель Либертадор Генерал Сан Мартин;Ciudad del Libertador General San Martín
+ar;سيوداد ديل ليبرتادور خنرال سان مارتين;Ciudad del Libertador General San Martín
+fr;Ciudad del Libertador General San Martin;Ciudad del Libertador General San Martín
+hi;सिउदाद डेल लिबर्टाडोर जनरल सान मार्टिन;Ciudad del Libertador General San Martín
+de;Ciudad del Libertador General San Martin;Ciudad del Libertador General San Martín
+ja;シウダドデルリベルタドールヘネラルサンマルティン;Ciudad del Libertador General San Martín
+en;General Rodriguez;General Rodríguez
+ru;Генерал Родригес;General Rodríguez
+ar;جنرال رودريجيس;General Rodríguez
+fr;General Rodriguez;General Rodríguez
+hi;जनरल रोड्रिगेज;General Rodríguez
+de;General Rodriguez;General Rodríguez
+ja;ヘネラルロドリゲス;General Rodríguez
+zh;帕切科将军镇;General Pacheco
+ar;جنرال باتشيكو;General Pacheco
+zh-Hant;帕切科將軍鎮;General Pacheco
+ja;ヘネラル・パチェコ;General Pacheco
+ru;Хенераль-Пачеко;General Pacheco
+ru;Генерал Лаваль;General Lavalle
+ar;جنرال لافالي;General Lavalle
+hi;जनरल लावल्ले;General Lavalle
+ja;ヘネラルラバレ;General Lavalle
+ru;Генерал Лас Хераз;General Las Heras
+ar;جنرال لاس هيراس;General Las Heras
+hi;जनरल लास हेरास;General Las Heras
+ja;ヘネラルラスヘラス;General Las Heras
+ru;Генерал Хуан Мадариага;General Juan Madariaga
+ar;جنرال خوان مادارياجا;General Juan Madariaga
+hi;जनरल जुआन मादरियागा;General Juan Madariaga
+ja;ヘネラルフアンマダリアガ;General Juan Madariaga
+ar;الجنرال خوسيه دي سان مارتين;General José de San Martín
+zh;聖馬丁將軍鎮;General José de San Martín
+en;General Jose de San Martin;General José de San Martín
+ru;Генерал Хосе де Сан Мартин;General José de San Martín
+es;General Jose de San Martin;General José de San Martín
+fr;General Jose de San Martin;General José de San Martín
+hi;जनरल जोसे डे सैन मार्टिन;General José de San Martín
+de;General Jose de San Martin;General José de San Martín
+ja;ホセ・デ・サンマルティン将軍;General José de San Martín
+pt;General Jose de San Martin;General José de San Martín
+ru;Генерал Гвидо;General Guido
+ar;جنرال جويدو;General Guido
+hi;जनरल गुइडो;General Guido
+ja;グイド将軍;General Guido
+ru;Генерал Конеса;General Conesa
+ar;جنرال كونيسا;General Conesa
+hi;जनरल कोनेसा;General Conesa
+ja;コネサ将軍;General Conesa
+ru;Генерал Бельграно;General Belgrano
+ar;جنرال بلجرانو;General Belgrano
+hi;जनरल बेलग्रानो;General Belgrano
+ja;ベルグラーノ将軍;General Belgrano
+es;Ciudad de Formosa;Formosa
+ru;Формоза;Formosa
+ja;フォルモーサ;Formosa
+ko;포르모사;Formosa
+ru;Формоса;Formosa
+zh;福莫萨;Formosa
+ar;فورموزا;Formosa
+hi;फॉर्मोसा;Formosa
+ru;Фонтана;Fontana
+ru;Сан-Хуан-Баутиста;San Juan Bautista
+ar;سان خوان باوتيستا;San Juan Bautista
+hi;सैन जुआन बौटिस्टा;San Juan Bautista
+ja;サンファンバウティスタ;San Juan Bautista
+es;Fiorito;Villa Fiorito
+ru;Федераль;Federal
+ar;فيدرال;Federal
+hi;फेडरल;Federal
+ja;フェデラル;Federal
+en;Federacion;Federación
+ru;Федерасьон;Federación
+ar;فيدراسيون;Federación
+es;Federacion;Federación
+fr;Federation;Federación
+hi;फेडरेसन;Federación
+de;Föderationen;Federación
+ja;フェデラシオン;Federación
+pt;Federação;Federación
+ar;إيزيزا;Ezeiza
+zh;埃塞薩;Ezeiza
+es;José María Ezeiza;Ezeiza
+ru;Эсеиса;Ezeiza
+hi;एज़ेइज़ा;Ezeiza
+ja;エセイサ;Ezeiza
+ru;Эскина;Esquina
+ar;إسكينا;Esquina
+hi;एस्क्विना;Esquina
+ja;エスキナ;Esquina
+ru;Эль Эспинильо;El Espinillo
+ar;إل إسبينيو;El Espinillo
+hi;एल एस्पिनिलो;El Espinillo
+ja;エルエスピニージョ;El Espinillo
+ru;Энсенада;Ensenada
+ar;إنسينادا;Ensenada
+hi;एनसेनाडा;Ensenada
+ja;エンセナダ;Ensenada
+es;Enrique Finn;Enrique Fynn
+ru;Эмпедрадо;Empedrado
+ar;إمبيدرادو;Empedrado
+hi;एमपेड्रेडो;Empedrado
+ja;エンペドラード;Empedrado
+es;Almacén El Triángulo;El Triángulo
+es;El Talar de Pacheco;El Talar
+ru;Эль Собербио;El Soberbio
+ar;إل سوبيربيو;El Soberbio
+hi;एल सोबर्बियो;El Soberbio
+ja;エルソベルビオ;El Soberbio
+es;Almacén El Huesco Clavado;Hueso Clavado
+ru;Эльдорадо;Eldorado
+ar;إلدورادو;Eldorado
+hi;एल्डोराडो;Eldorado
+ja;エルドラド;Eldorado
+es;El Cimarrón;Aldea San Isidro
+ar;دون توركواتو;Don Torcuato
+zh;唐托爾夸托;Don Torcuato
+ru;Дон Торкуато;Don Torcuato
+ru;Долорес;Dolores
+ar;دولوريس;Dolores
+hi;डोलोरेस;Dolores
+ja;ドロレス;Dolores
+gn;Kurusu Kuatia;Curuzú Cuatiá
+zh;庫魯蘇夸蒂亞;Curuzú Cuatiá
+en;Curuzu Cuatia;Curuzú Cuatiá
+ru;Курусу Куатиа;Curuzú Cuatiá
+ar;كوروزو كواتيا;Curuzú Cuatiá
+es;Curuzu Cuatia;Curuzú Cuatiá
+fr;Curuzu Cuatia;Curuzú Cuatiá
+hi;करुजु कुएतिया;Curuzú Cuatiá
+de;Curuzu Cuatia;Curuzú Cuatiá
+ja;クルズクアティア;Curuzú Cuatiá
+pt;Curuzu Cuatia;Curuzú Cuatiá
+es;Ciudad de Corrientes;Corrientes
+ar;كورينتس;Corrientes
+ru;Корриентес;Corrientes
+gn;Taragui;Corrientes
+ja;コリエンテス;Corrientes
+zh;科连特斯;Corrientes
+ko;코리엔테스;Corrientes
+hi;कोरियेन्टेस;Corrientes
+en;Text corpus;Corpus
+de;Textkorpus;Corpus
+ja;コーパス;Corpus
+zh;语料库;Corpus
+ru;Полковник Видаль;Coronel Vidal
+ar;كولونيل فيدال;Coronel Vidal
+fr;Colonel Vidal;Coronel Vidal
+hi;कर्नल विडल;Coronel Vidal
+de;Oberst Vidal;Coronel Vidal
+ja;コロネルビダル;Coronel Vidal
+ru;Конкордия;Concordia
+zh;康科迪亚;Concordia
+ja;コンコルディア;Concordia
+ar;كونكورديا، انتري ريوس;Concordia
+ko;콩코르디아;Concordia
+hi;कॉनकॉर्डिया;Concordia
+ru;Консепсьон-дель-Уругвай;Concepción del Uruguay
+zh;乌拉圭河畔康塞普西翁;Concepción del Uruguay
+ar;كونسبسيون ديل أوروغواي;Concepción del Uruguay
+hi;कॉन्सेप्सियन डेल उरुग्वे;Concepción del Uruguay
+ja;コンセプシオン・デル・ウルグアイ;Concepción del Uruguay
+en;Concepcion de la Sierra;Concepción de la Sierra
+ru;Консепсьон-де-ла-Сьерра;Concepción de la Sierra
+ar;كونسيبسيون دي لا سيرا;Concepción de la Sierra
+es;Concepcion de la Sierra;Concepción de la Sierra
+fr;Concepcion de la Sierra;Concepción de la Sierra
+hi;कॉन्सेप्सियन डे ला सिएरा;Concepción de la Sierra
+de;Concepcion de la Sierra;Concepción de la Sierra
+ja;コンセプシオン・デ・ラ・シエラ;Concepción de la Sierra
+pt;Concepcion de la Sierra;Concepción de la Sierra
+en;Concepcion;Concepción
+ru;Консепсьон;Concepción
+ar;كونسيبسيون;Concepción
+es;Concepcion;Concepción
+fr;Concepcion;Concepción
+hi;कॉन्सेप्सियन;Concepción
+de;Concepcion;Concepción
+ja;コンセプシオン;Concepción
+pt;Concepcion;Concepción
+ru;Командант Фонтана;Comandante Fontana
+ar;كوماندانتي فونتانا;Comandante Fontana
+fr;Commandant Fontana;Comandante Fontana
+hi;कमांडेंट फोंटाना;Comandante Fontana
+de;Kommandant Fontana;Comandante Fontana
+ja;コマンダンテフォンターナ;Comandante Fontana
+es;Colonia 3 de Abril;Colonia Tres de Abril
+en;Colonia Hocker;Hocker
+fr;Colonia Hocker;Hocker
+es;Colonia Hocker;Hocker
+nl;Colonia Hocker;Hocker
+ru;Колония Елиса;Colonia Elisa
+ar;كولونيا إليسا;Colonia Elisa
+fr;Colonie Elisa;Colonia Elisa
+hi;कॉलोनिया एलिसा;Colonia Elisa
+de;Kolonie Elisa;Colonia Elisa
+ja;コロニアエリサ;Colonia Elisa
+en;Colon;Colón
+ru;Колон;Colón
+ar;كولون;Colón
+es;Colon;Colón
+fr;Colon;Colón
+hi;कोलन;Colón
+de;Colon;Colón
+ja;コロン;Colón
+pt;Colon;Colón
+ru;Клоринда;Clorinda
+ar;كلوريندا;Clorinda
+hi;क्लोरिंडा;Clorinda
+ja;クロリンダ;Clorinda
+zh;貝爾市;City Bell
+en;Chascomus;Chascomús
+ru;Часкомус;Chascomús
+ar;تشاسكوموس;Chascomús
+es;Chascomus;Chascomús
+fr;Chascomus;Chascomús
+hi;चास्कोमस;Chascomús
+de;Chascomus;Chascomús
+ja;チャスコムス;Chascomús
+pt;Chascomus;Chascomús
+ru;Чарадай;Charadai
+ar;تشارادي;Charadai
+hi;चारदई;Charadai
+ja;チャラダイ;Charadai
+es;El 14;El Catorce
+fr;Chutes d'Iguazú;Cataratas del Iguazú
+pt;Cataratas do Iguaçu;Cataratas del Iguazú
+fr;Chutes d'Iguassu;Cataratas del Iguazú
+de;Iguazú-Wasserfälle;Cataratas del Iguazú
+en;Iguazu Falls;Cataratas del Iguazú
+en;Iguassu Falls;Cataratas del Iguazú
+en;Iguaçu Falls;Cataratas del Iguazú
+gn;Chororo Yguasu;Cataratas del Iguazú
+ru;Кастелли;Castelli
+ar;كاستيللي;Castelli
+hi;कस्टेली;Castelli
+ja;カステルリ;Castelli
+ar;كاستيلار;Castelar
+zh;卡斯特拉爾;Castelar
+hi;कास्टेलार;Castelar
+ru;Кастелар;Castelar
+ko;카스테라;Castelar
+ja;カステラール;Castelar
+ar;كاسيروس;Caseros
+zh;卡塞羅斯;Caseros
+ru;Касерос;Caseros
+hi;कैसरोस;Caseros
+ja;カセロス;Caseros
+ru;Кармен де Арехо;Carmen de Areco
+ar;كارمن دي أريكو;Carmen de Areco
+hi;कार्मेन डे अरेको;Carmen de Areco
+ja;カルメンデアレコ;Carmen de Areco
+ru;Карило;Cariló
+en;Capitan Sarmiento;Capitán Sarmiento
+ru;Капитан Сармьенто;Capitán Sarmiento
+ar;كابيتان سارميينتو;Capitán Sarmiento
+fr;Capitaine Sarmiento;Capitán Sarmiento
+hi;कैपिटन सारमिएंटो;Capitán Sarmiento
+de;Kapitän Sarmiento;Capitán Sarmiento
+ja;カピタン・サルミエント;Capitán Sarmiento
+pt;Capitão Sarmiento;Capitán Sarmiento
+en;Capilla del Senor;Capilla del Señor
+ru;Капилья-дель-Сеньор;Capilla del Señor
+ar;كابيلا ديل سينيور;Capilla del Señor
+fr;Chapelle du Seigneur;Capilla del Señor
+hi;कपिला डेल सेनोर;Capilla del Señor
+de;Kapelle des Herrn;Capilla del Señor
+ja;カピラ・デル・セニョル;Capilla del Señor
+pt;Capela do Senhor;Capilla del Señor
+en;Canuelas;Cañuelas
+ru;Канюэлас;Cañuelas
+ar;كانويلاس;Cañuelas
+fr;Canuelas;Cañuelas
+hi;कैनुएलस;Cañuelas
+de;Canuelas;Cañuelas
+ja;カヌエラス;Cañuelas
+pt;Canuelas;Cañuelas
+ru;Кампо-Гранде;Campo Grande
+ar;كامبو غراندي;Campo Grande
+hi;कैम्पो ग्रांडे;Campo Grande
+ja;カンポグランデ;Campo Grande
+ru;Кампана;Campana
+ar;كامبانا;Campana
+hi;कैम्पाना;Campana
+ja;カンパナ;Campana
+es;Fortín Cabo 1° Lugones;Fortín Cabo Primero Lugones
+ar;بيورزاكو;Burzaco
+zh;布爾薩科;Burzaco
+es;Ciudad Autónoma de Buenos Aires;Buenos Aires
+ru;Буэнос-Айрес;Buenos Aires
+zh;布宜诺斯艾利斯;Buenos Aires
+ar;بوينس آيرس;Buenos Aires
+ht;Bwènozè;Buenos Aires
+hi;ब्युएनॉस एरीस;Buenos Aires
+ja;ブエノスアイレス;Buenos Aires
+ko;부에노스아이레스;Buenos Aires
+ru;Корнель Брандсен;Coronel Brandsen
+ar;كورونيل براندسن;Coronel Brandsen
+fr;Colonel Brandsen;Coronel Brandsen
+hi;कर्नल ब्रांडसेन;Coronel Brandsen
+de;Oberst Brandsen;Coronel Brandsen
+ja;コロネル・ブランセン;Coronel Brandsen
+ru;Боврил;Bovril
+es;Boulogne;Boulogne Sur Mer
+ru;Бонпланд;Bonpland
+en;Beron de Astrada;Berón de Astrada
+ru;Берон-де-Астрада;Berón de Astrada
+ar;بيرون دي استرادا;Berón de Astrada
+fr;Beron d'Astrada;Berón de Astrada
+hi;बेरॉन डे एस्त्राडा;Berón de Astrada
+de;Beron de Astrada;Berón de Astrada
+ja;ベロン・デ・アストラダ;Berón de Astrada
+ru;Бернардо-де-Иригойен;Bernardo de Irigoyen
+ar;برناردو دي إريغويين;Bernardo de Irigoyen
+fr;Bernardo d'Irigoyen;Bernardo de Irigoyen
+hi;बर्नार्डो डे इरिगॉयन;Bernardo de Irigoyen
+ja;ベルナルド・デ・イリゴイェン;Bernardo de Irigoyen
+ar;بيريسو;Berisso
+ru;Берисо;Berisso
+hi;बेरिसो;Berisso
+ja;ベリッソ;Berisso
+hi;बेराजातेगी;Berazategui
+zh-Hans;贝拉萨特吉;Berazategui
+zh;貝拉薩特吉;Berazategui
+ar;بيرازاتيغي;Berazategui
+ja;ベラサテギ;Berazategui
+ru;Берасатеги;Berazategui
+ko;베라사테기;Berazategui
+en;Benito Juarez;Benito Juárez
+ru;Бенито Хуарес;Benito Juárez
+ar;بينيتو خواريس;Benito Juárez
+fr;Benito Juarez;Benito Juárez
+hi;बेनिटो जुआरेज़;Benito Juárez
+de;Benito Juarez;Benito Juárez
+ja;ベニート・フアレス;Benito Juárez
+ru;Белла-Виста;Bella Vista
+ar;بيلا فيستا;Bella Vista
+hi;बेला विस्टा;Bella Vista
+ja;ベラビスタ;Bella Vista
+en;Belen de Escobar;Belén de Escobar
+ru;Белен-де-Эскобар;Belén de Escobar
+ar;بيلين دي إسكوبار;Belén de Escobar
+fr;Belen d'Escobar;Belén de Escobar
+hi;बेलेन डे एस्कोबर;Belén de Escobar
+de;Belen de Escobar;Belén de Escobar
+ja;ベレン・デ・エスコバル;Belén de Escobar
+pt;Belém de Escobar;Belén de Escobar
+ru;Басавилбасо;Basavilbaso
+ar;بارانكيوراس;Barranqueras
+zh;巴蘭克拉斯;Barranqueras
+ru;Барадеро;Baradero
+ar;باراديرو;Baradero
+hi;बारादेरो;Baradero
+ja;バラデロ;Baradero
+ar;بانفيلد، بوينس آيرس;Banfield
+ja;バンフィエルド;Banfield
+ko;반필드;Banfield
+ru;Банфилд;Banfield
+zh;班菲爾德;Banfield
+en;Balneario Mar Azul;Mar Azul
+ar;بالكارسي;Balcarce
+zh;巴爾卡塞;Balcarce
+ru;Балькарсе;Balcarce
+hi;बालकार्स;Balcarce
+ja;バルカルセ;Balcarce
+ru;Азул;Azul
+zh;阿蘇爾;Azul
+ar;أزول، مقاطعة بوينس آيرس;Azul
+hi;अज़ूल;Azul
+ja;アスル;Azul
+ru;Аякучо;Ayacucho
+ar;أياكوتشو;Ayacucho
+hi;अयाकुचो;Ayacucho
+ja;アヤクーチョ;Ayacucho
+ru;Авельянеда;Avellaneda
+ru;Альвеар;Alvear
+ar;ألفيار;Alvear
+hi;अलवीयर;Alvear
+ja;アルベアル;Alvear
+es;Matanza;Aldo Bonzi
+ru;Альба-Посе;Alba Posse
+ar;ألبا بوسيه;Alba Posse
+hi;अल्बा पोसे;Alba Posse
+ja;アルバポッセ;Alba Posse
+ja;アカスソ;Acassuso
+ru;Герника;Guernica
+ar;غيرنيكا;Guernica
+hi;गेर्निका;Guernica
+ja;ゲルニカ;Guernica
+es;Colonia 10 de Mayo;Colonia Diez de Mayo
+ru;Вилла-Басилио-Ниевас;Villa Basilio Nievas
+ar;فيلا باسيليو نييفاس;Villa Basilio Nievas
+hi;विला बेसिलियो नीवास;Villa Basilio Nievas
+ja;ビラバシリオニエバス;Villa Basilio Nievas
+es;Zapallito;El Zapallar
+ru;Сапала;Zapala
+zh;薩帕拉;Zapala
+ar;زابالا;Zapala
+hi;ज़पाला;Zapala
+ja;サパラ;Zapala
+es;Zanjón;El Zanjón
+ru;Йерба-Буэна;Yerba Buena
+ar;يربا بويينا;Yerba Buena
+hi;येरबा बुएना;Yerba Buena
+ja;イエルバ・ブエナ;Yerba Buena
+es;Yacuchirí;Yacuchiri
+ru;Винчина;Vinchina
+ar;فينتشينا;Vinchina
+hi;विंचिना;Vinchina
+ja;ビンチナ;Vinchina
+es;Vinalar;El Vinalar
+en;Villa Union;Villa Unión
+ru;Вилла-Унион;Villa Unión
+ar;فيلا يونيون;Villa Unión
+fr;Villa Union;Villa Unión
+hi;विला यूनियन;Villa Unión
+de;Villa Union;Villa Unión
+ja;ビラウニオン;Villa Unión
+ru;Вилла-Тулумба;Villa Tulumba
+ar;فيلا تولومبا;Villa Tulumba
+hi;विला तुलुम्बा;Villa Tulumba
+ja;ビラトゥルンバ;Villa Tulumba
+es;Villa Stella;Villa Estela
+ru;Вилла-Санта-Роса;Villa Santa Rosa
+ar;فيلا سانتا روزا;Villa Santa Rosa
+hi;विला सांता रोजा;Villa Santa Rosa
+ja;ビラサンタロサ;Villa Santa Rosa
+ru;Вилла-Охо-де-Агва;Villa Ojo de Agua
+ar;فيلا أوخو دي أغوا;Villa Ojo de Agua
+hi;विला ओजो डे अगुआ;Villa Ojo de Agua
+ja;ビラオホデアグア;Villa Ojo de Agua
+ru;Вилла-Медиа-Агва;Villa Media Agua
+ar;فيلا ميديا أغوا;Villa Media Agua
+hi;विला मीडिया अगुआ;Villa Media Agua
+ja;ビラメディアアグア;Villa Media Agua
+ru;Вилла-Мария;Villa María
+zh;瑪麗亞鎮;Villa María
+ar;فيلا ماريا;Villa María
+fr;Villa Maria;Villa María
+hi;विला मारिया;Villa María
+ja;ビラマリア;Villa María
+pt;Villa Maria;Villa María
+es;Villa La Carolina;Villa Carolina
+zh;拉安戈斯圖拉鎮;Villa La Angostura
+ru;Вилья Краузе;Villa Krause
+ar;فيلا كراوزه;Villa Krause
+hi;विला क्राउसे;Villa Krause
+ja;ビリャ・クラウセ;Villa Krause
+ru;Вилья Уидобро;Villa Huidobro
+ar;فيلا هويدوبرو;Villa Huidobro
+hi;विला हुइडोब्रो;Villa Huidobro
+ja;ビリャ・ウイドブロ;Villa Huidobro
+ru;Вилья Генераль Рока;Villa General Roca
+ar;فيلا جنرال روكا;Villa General Roca
+hi;विला जनरल रोका;Villa General Roca
+ja;ビリャ・ヘネラル・ロカ;Villa General Roca
+ar;فيلا دولوريس;Villa Dolores
+zh;多洛雷斯鎮;Villa Dolores
+en;Villa de Maria;Villa de María
+ru;Вилья де Мария;Villa de María
+ar;فيلا دي ماريا;Villa de María
+fr;Villa de Maria;Villa de María
+hi;विला डी मारिया;Villa de María
+de;Villa de Maria;Villa de María
+ja;ビリャ・デ・マリア;Villa de María
+pt;Villa de Maria;Villa de María
+ru;Вилья дель Тоторал;Villa del Totoral
+ar;فيلا ديل توتورال;Villa del Totoral
+hi;विला डेल टोटोरल;Villa del Totoral
+ja;ビリャ・デル・トトラル;Villa del Totoral
+es;Villa del Salvador;Villa El Salvador
+ru;Вилья Эль Сальвадор;Villa El Salvador
+ar;فيلا إل سلفادور;Villa El Salvador
+hi;विला एल साल्वाडोर;Villa El Salvador
+ja;ビリャ・エル・サルバドル;Villa El Salvador
+zh;羅薩里奧鎮;Villa del Rosario
+ru;Вилья дель Росарио;Villa del Rosario
+ar;فيلا ديل روزاريو;Villa del Rosario
+hi;विला डेल रोसारियो;Villa del Rosario
+ja;ビリャ・デル・ロサリオ;Villa del Rosario
+ru;Вилья Кура Брочеро;Villa Cura Brochero
+ar;فيلا كورا بروتشيرو;Villa Cura Brochero
+hi;विला कुरा ब्रोचेरो;Villa Cura Brochero
+ja;ビリャ・クラ・ブロチェロ;Villa Cura Brochero
+zh;孔斯蒂圖西翁鎮;Villa Constitución
+en;Villa Constitucion;Villa Constitución
+ru;Вилья Конститусьон;Villa Constitución
+ar;فيلا دي كونستيتوسيون;Villa Constitución
+fr;Villa Constitucion;Villa Constitución
+hi;विला संविधान;Villa Constitución
+de;Villa Constitucion;Villa Constitución
+ja;ビリャ・コンスティトゥシオン;Villa Constitución
+pt;Villa Constituição;Villa Constitución
+ru;Вилья Кастелли;Villa Castelli
+ar;فيلا كاستيلي;Villa Castelli
+hi;विला कास्टेली;Villa Castelli
+ja;ビリャ・カステッリ;Villa Castelli
+ru;Карлос-Паз;Villa Carlos Paz
+ru;Вилья-Карлос-Пас;Villa Carlos Paz
+zh;卡洛斯帕斯鎮;Villa Carlos Paz
+ar;فيلا كارلوس باز;Villa Carlos Paz
+ru;Вилья Бертет;Villa Berthet
+ar;فيلا بيرتيت;Villa Berthet
+hi;विला बर्तेट;Villa Berthet
+ja;ビリャ・ベルテット;Villa Berthet
+ru;Вилья Атамискуи;Villa Atamisqui
+ar;فيلا أتاميسكي;Villa Atamisqui
+hi;विला अतमिस्की;Villa Atamisqui
+ja;ビリャ・アタミスキ;Villa Atamisqui
+zh;安吉拉鎮;Villa Ángela
+en;Villa Angela;Villa Ángela
+ru;Вилья Анжела;Villa Ángela
+ar;فيلا أنجيلا;Villa Ángela
+fr;Villa Angela;Villa Ángela
+hi;विला एंजेला;Villa Ángela
+de;Villa Angela;Villa Ángela
+ja;ビリャ・アンジェラ;Villa Ángela
+pt;Villa Angela;Villa Ángela
+ru;Вилья Аберастаин;Villa Aberastain
+ar;فيلا أبيراستاين;Villa Aberastain
+hi;विला एबेरेस्टेन;Villa Aberastain
+ja;ビリャ・アベラスタイン;Villa Aberastain
+ru;Вьедма;Viedma
+ja;ビエドマ;Viedma
+zh;別德馬;Viedma
+ko;비에드마;Viedma
+ar;فيدما;Viedma
+hi;विएडमा;Viedma
+ru;Викторика;Victorica
+ar;فيكتوريكا;Victorica
+hi;विक्टोरिका;Victorica
+ja;ビクトリカ;Victorica
+ru;Виктория;Victoria
+zh;維多利亞;Victoria
+en;Colonia Vichigasta;Vichigasta
+ru;Вера;Vera
+ar;فيرا;Vera
+hi;वेरा;Vera
+ja;ベラ;Vera
+ru;Неукен;Venado Tuerto
+zh;貝納多圖埃托;Venado Tuerto
+ar;فينادو تيورتو;Venado Tuerto
+es;Veintiocho de Noviembre;28 de Noviembre
+ru;Вейнтисинко де Майо;Veinticinco de Mayo
+ar;فينتيسينكو دي مايو;Veinticinco de Mayo
+hi;वेइंटिसिंको दे मायो;Veinticinco de Mayo
+ja;ベインティシンコ・デ・マヨ;Veinticinco de Mayo
+ru;Ведиа;Vedia
+ar;فيديا;Vedia
+hi;वेडिया;Vedia
+ja;ベディア;Vedia
+ru;Валле Гранде;Valle Grande
+ar;فالي غراندي;Valle Grande
+hi;वैली ग्रांडे;Valle Grande
+ja;バジェ・グランデ;Valle Grande
+ru;Валчета;Valcheta
+ar;فالتشيتا;Valcheta
+hi;वालचेटा;Valcheta
+ja;バルチェタ;Valcheta
+es;Vacasnioj;Yacanioj
+fr;Ushuaïa;Ushuaia
+ko;우수아이아;Ushuaia
+ru;Ушуая;Ushuaia
+ja;ウシュアイア;Ushuaia
+ar;أوشوايا;Ushuaia
+zh;乌斯怀亚;Ushuaia
+hi;उशुआया;Ushuaia
+ru;Урундел;Urundel
+ru;Урибуру;Uriburu
+ru;Улапес;Ulapes
+ar;أولابيس;Ulapes
+hi;उलेपस;Ulapes
+ja;ウラペス;Ulapes
+ru;Тупунгато;Tupungato
+ar;توبونغاتو;Tupungato
+hi;तुपुंगाटो;Tupungato
+ja;トゥプンガト;Tupungato
+en;Tunuyan;Tunuyán
+ru;Тунуян;Tunuyán
+ar;توينويان;Tunuyán
+fr;Tunuyan;Tunuyán
+hi;तुनुयां;Tunuyán
+de;Tunuyan;Tunuyán
+ja;トゥヌヤン;Tunuyán
+ru;Тумбайя;Tumbaya
+ar;تومبايا;Tumbaya
+hi;तुंबाया;Tumbaya
+ja;トゥンバヤ;Tumbaya
+es;Tuc Tuca;San Francisco de Tuctuca
+es;Trigohuaico;Trigo Huayco
+ru;Тревелин;Trevelin
+es;Tres Quebradas;Tres Quebrachos
+ru;Трес Лома;Tres Lomas
+ar;تريس لوماس;Tres Lomas
+hi;त्रेस लोमास;Tres Lomas
+ja;トレス・ロマス;Tres Lomas
+ru;Трес Исдета;Tres Isletas
+ar;تريس إسليتاس;Tres Isletas
+hi;त्रेस इस्लेटास;Tres Isletas
+ja;トレス・イスレタス;Tres Isletas
+zh;特雷斯阿羅約斯;Tres Arroyos
+ar;تريس آرويوس;Tres Arroyos
+ru;Трес Арройос;Tres Arroyos
+hi;त्रेस एरॉयोस;Tres Arroyos
+ja;トレス・アロジョス;Tres Arroyos
+ru;Трес-Альгарробос;Tres Algarrobos
+zh;特雷斯阿尔加罗波斯;Tres Algarrobos
+zh-Hant;特雷斯阿爾加羅波斯;Tres Algarrobos
+ar;ترينكيو لايكيون;Trenque Lauquen
+zh;特倫克勞肯;Trenque Lauquen
+ru;Тренке Лаукен;Trenque Lauquen
+hi;ट्रेनक्यू लाउकेन;Trenque Lauquen
+ja;トレンケ・ラウケン;Trenque Lauquen
+ru;Тренель;Trenel
+ar;تريني;Trenel
+hi;ट्रेनेल;Trenel
+ja;トレネル;Trenel
+zh;特雷利烏;Trelew
+ja;トレレウ;Trelew
+ar;تريليو;Trelew
+ko;트렐레우;Trelew
+es;13 de Abril;Trece de Abril
+ru;Транкас;Trancas
+ar;ترانكاس;Trancas
+hi;ट्रांकास;Trancas
+ja;トランカス;Trancas
+es;Trampeadero;El Trampeadero
+es;Tralalhué;Tralahue
+ru;Тоторас;Totoras
+ru;Тостадо;Tostado
+ar;توستادو;Tostado
+hi;टोस्टादो;Tostado
+ja;トスタド;Tostado
+zh;托恩基斯特;Tornquist
+ru;Торнквист;Tornquist
+ar;تورنكويست;Tornquist
+hi;टॉर्नक्विस्ट;Tornquist
+ja;トルンキスト;Tornquist
+ru;Толедо;Toledo
+es;Toldos;Los Toldos
+ru;Тоай;Toay
+ar;توي;Toay
+hi;टोआय;Toay
+ja;トアイ;Toay
+ru;Тинтина;Tintina
+zh;蒂諾加斯塔;Tinogasta
+ru;Тиногаста;Tinogasta
+ar;تينوغاستا;Tinogasta
+hi;टिनोगास्ता;Tinogasta
+ja;ティノガスタ;Tinogasta
+es;Estancia Tinajeraioj;Tinajerayoj
+ru;Тилкара;Tilcara
+ar;تيلكارا;Tilcara
+hi;तिलकारा;Tilcara
+ja;ティルカラ;Tilcara
+en;Termas de Rio Hondo;Termas de Río Hondo
+ru;Термас-де-Рио-Ондо;Termas de Río Hondo
+ar;تيرماس دي ريو هندو;Termas de Río Hondo
+fr;Termas de Rio Hondo;Termas de Río Hondo
+hi;टर्मास डे रियो होंडो;Termas de Río Hondo
+de;Termas de Rio Hondo;Termas de Río Hondo
+ja;テルマス・デ・リオ・オンド;Termas de Río Hondo
+pt;Termas de Rio Hondo;Termas de Río Hondo
+ru;Телсен;Telsen
+ar;تيلسن;Telsen
+hi;टेलसेन;Telsen
+ja;テルセン;Telsen
+ru;Текка;Tecka
+ar;تيكا;Tecka
+hi;टेक्का;Tecka
+ja;テッカ;Tecka
+es;Tasiganta;Tasigasta
+es;Tasial;El Tacial
+ru;Тартагал;Tartagal
+ar;تارتغال;Tartagal
+zh;塔塔加爾;Tartagal
+hi;तर्तागल;Tartagal
+ja;タルタガル;Tartagal
+es;Taqueyo Pozo;Taqueyoj
+en;Tapalque;Tapalqué
+ru;Тапалькё;Tapalqué
+ar;تابالكي;Tapalqué
+fr;Tapalque;Tapalqué
+hi;तापालकु;Tapalqué
+de;Tapalque;Tapalqué
+ja;タパルケ;Tapalqué
+pt;Tapalque;Tapalqué
+en;Tamberias;Tamberías
+ru;Тамберес;Tamberías
+ar;تامبيرياس;Tamberías
+fr;Tamberias;Tamberías
+hi;टैम्बेरियास;Tamberías
+de;Tamberias;Tamberías
+ja;タンベリアス;Tamberías
+pt;Tamberias;Tamberías
+ru;Тама;Tama
+ar;تاما;Tama
+hi;तामा;Tama
+ja;タマ;Tama
+es;Tajamares;Los Tajamares
+en;Tafi Viejo;Tafí Viejo
+ru;Тафи-Вьехо;Tafí Viejo
+ar;تافي فييخو;Tafí Viejo
+fr;Tafi Viejo;Tafí Viejo
+hi;ताफी विएजो;Tafí Viejo
+de;Tafi Viejo;Tafí Viejo
+ja;タフィ・ビエホ;Tafí Viejo
+pt;Tafi Viejo;Tafí Viejo
+en;Tafi del Valle;Tafí del Valle
+ru;Тафи-дель-Валье;Tafí del Valle
+ar;تافي ديل فالي;Tafí del Valle
+fr;Tafi del Valle;Tafí del Valle
+hi;ताफी डेल वाले;Tafí del Valle
+de;Tafi del Valle;Tafí del Valle
+ja;タフィ・デル・バレ;Tafí del Valle
+pt;Tafi del Valle;Tafí del Valle
+es;Taco Yuraj;Tacko Yuraj
+es;Estancia Taco Pozo;Taco Pozo
+es;Tacañitas;Estación Tacañitas
+es;Taboada;Estación Taboada
+ru;Сускес;Susques
+ar;سوسكيس;Susques
+hi;सुस्केस;Susques
+ja;ススケス;Susques
+es;Estancia Suri Pozo;Suri Pozo
+ru;Сунчо-Коррал;Suncho Corral
+ar;سونتشو كورال;Suncho Corral
+hi;सुंचो कोरल;Suncho Corral
+ja;スンチョ・コラル;Suncho Corral
+es;Suncho;Suncho Pozo
+ru;Сумампа;Sumampa
+ar;سومامبا;Sumampa
+hi;सुमाम्पा;Sumampa
+ja;スマンパ;Sumampa
+es;Estancia Sobremonte;Sobremonte
+es;Sitquiosj;Sitkioj
+ru;Симока;Simoca
+ar;سيموكا;Simoca
+hi;सिमोका;Simoca
+ja;シモカ;Simoca
+es;Simbol;Simbol Pozo
+ru;Сьерра-Колорада;Sierra Colorada
+ar;سيرا كولورادا;Sierra Colorada
+hi;सिएरा कोलोरेडा;Sierra Colorada
+ja;シエラ・コロラダ;Sierra Colorada
+ru;Серрано;Serrano
+en;Uquía;Senador Pérez
+fr;Uquía;Senador Pérez
+es;Uquía;Senador Pérez
+nl;Uquía;Senador Pérez
+ru;Сельва;Selva
+ar;سيلفا;Selva
+hi;सेल्वा;Selva
+ja;セルバ;Selva
+es;Sauzal;El Sauzal
+es;Villa Saurí;Villa Sauri
+ru;Саухиль;Saujil
+ar;سوخيل;Saujil
+hi;साउजिल;Saujil
+ja;サウヒル;Saujil
+ru;Састре;Sastre
+ar;سسترة;Sastre
+hi;सास्त्रे;Sastre
+ja;サストレ;Sastre
+zh;薩爾米恩托;Sarmiento
+ru;Сармьенто;Sarmiento
+ar;سارمينتو;Sarmiento
+hi;सर्मिएन्तो;Sarmiento
+ja;サルミエント;Sarmiento
+es;San Vincente;San Vicente
+es;Ciudad de Santiago del Estero;Santiago del Estero
+ru;Сантьяго-дель-Эстеро;Santiago del Estero
+ja;サンティアゴ・デル・エステロ;Santiago del Estero
+zh;圣地亚哥-德尔埃斯特罗;Santiago del Estero
+ko;산티아고델에스테로;Santiago del Estero
+ar;سانتياغو ديل استيرو;Santiago del Estero
+hi;सैन्टियागो डेल एस्त्रो;Santiago del Estero
+ru;Санта-Виктория;Santa Victoria
+ar;سانتا فيكتوريا;Santa Victoria
+hi;सांता विक्टोरिया;Santa Victoria
+ja;サンタ・ビクトリア;Santa Victoria
+pt;Santa Vitória;Santa Victoria
+ru;Санта-Сильвина;Santa Sylvina
+ar;سانتا سيلفينا;Santa Sylvina
+es;Santa Silvina;Santa Sylvina
+hi;सांता सिल्विना;Santa Sylvina
+ja;サンタ・シルビナ;Santa Sylvina
+pt;Santa Silvina;Santa Sylvina
+en;Santa Rosa de Rio Primero;Santa Rosa de Río Primero
+ru;Санта-Роза-де-Рио-Примеро;Santa Rosa de Río Primero
+ar;سانتا روزا دي ريو بريمرو;Santa Rosa de Río Primero
+fr;Santa Rosa de Rio Primero;Santa Rosa de Río Primero
+hi;सांता रोजा डे रियो प्रिमेरो;Santa Rosa de Río Primero
+de;Santa Rosa de Rio Primero;Santa Rosa de Río Primero
+ja;サンタ・ロサ・デ・リオ・プリメロ;Santa Rosa de Río Primero
+pt;Santa Rosa de Rio Primero;Santa Rosa de Río Primero
+ru;Санта-Роза-дель-Конлара;Santa Rosa del Conlara
+ar;سانتا روزا ديل كونلارا;Santa Rosa del Conlara
+hi;सांता रोजा डेल कॉनलारा;Santa Rosa del Conlara
+ja;サンタ・ロサ・デル・コンララ;Santa Rosa del Conlara
+es;Estancia Santa Rosa;Santa Rosa
+es;Ciudad de Santa Rosa;Santa Rosa
+de;Santa Rosa de Toay;Santa Rosa
+ja;サンタローサ;Santa Rosa
+ko;산타로사;Santa Rosa
+zh;聖羅莎;Santa Rosa
+ar;سانتا روزا، لا بامبا;Santa Rosa
+hi;सांता रोजा;Santa Rosa
+ar;سانتا روزا;Santa Rosa
+ja;サンタ・ロサ;Santa Rosa
+ru;Санта-Роса;Santa Rosa de Calchines
+en;Santa Maria;Santa María
+ru;Санта-Мария;Santa María
+ar;سانتا ماريا;Santa María
+fr;Santa Maria;Santa María
+hi;सांता मारिया;Santa María
+de;Santa Maria;Santa María
+ja;サンタ・マリア;Santa María
+pt;Santa Maria;Santa María
+es;Santa María;Santa María Este
+es;Santa Lucia;Santa Lucía
+fr;Santa Lucia;Santa Lucía
+ja;サンタルシア;Santa Lucía
+pt;Santa Lucia;Santa Lucía
+ru;Санта-Исабель;Santa Isabel
+ar;سانتا إيزابيل;Santa Isabel
+hi;सांता इसाबेल;Santa Isabel
+ja;サンタイサベル;Santa Isabel
+es;Estancia Santa Florinda;Santa Florida
+es;Ciudad de Santa Fe;Santa Fe
+ru;Санта-Фе;Santa Fe
+ar;سانتا فيه;Santa Fe
+hi;सांता फ़े;Santa Fe
+ja;サンタフェ;Santa Fe
+pt;Santa Fé;Santa Fe
+es;Santa Cruz;Santa Cruz de Aguilar
+ru;Санта-Клара;Santa Clara
+ar;سانتا كلارا;Santa Clara
+hi;सांता क्लारा;Santa Clara
+ja;サンタクララ;Santa Clara
+ru;Санта-Каталина;Santa Catalina
+ar;سانتا كاتالينا;Santa Catalina
+hi;सांता कातालीना;Santa Catalina
+ja;サンタカタリナ;Santa Catalina
+ru;Хухуй;San Salvador de Jujuy
+ru;Сан Сальвадор де Хухуй;San Salvador de Jujuy
+ru;Сан Сальвадор де Жужуй;San Salvador de Jujuy
+ja;サン・サルバドール・デ・フフイ;San Salvador de Jujuy
+ru;Сан-Сальвадор-де-Жужуй;San Salvador de Jujuy
+zh;圣萨尔瓦多-德胡胡伊;San Salvador de Jujuy
+ko;산살바도르데후후이;San Salvador de Jujuy
+ar;سان سلفادور دي خوخوي;San Salvador de Jujuy
+hi;सैन सल्वाडोर डी जुजुय;San Salvador de Jujuy
+en;Orán;San Ramón de la Nueva Orán
+ar;وهران، سالتا;San Ramón de la Nueva Orán
+ko;산라몬데라누에바오란;San Ramón de la Nueva Orán
+ru;Сан-Рамон-де-ла-Нуэва-Оран;San Ramón de la Nueva Orán
+zh;奧蘭;San Ramón de la Nueva Orán
+es;San Ramón;San Ramón Norte
+ru;Сан-Рафаэль;San Rafael
+zh;聖拉斐爾;San Rafael
+ar;سان رافائيل، مندوزا;San Rafael
+hi;सैन रैफेल;San Rafael
+ja;サンラファエル;San Rafael
+ru;Сан-Педро;Campo Andino
+ru;Сан-Педро-де-Гуасаян;San Pedro de Guasayán
+ar;سان بيدرو دي غواسايان;San Pedro de Guasayán
+fr;San Pedro de Guasayan;San Pedro de Guasayán
+hi;सैन पेड्रो डे गुआसायन;San Pedro de Guasayán
+de;San Pedro de Guasayan;San Pedro de Guasayán
+ja;サンペドロデグアサヤン;San Pedro de Guasayán
+pt;San Pedro de Guasayan;San Pedro de Guasayán
+ru;Сан-Педро-де-Жужуй;San Pedro de Jujuy
+ar;سان بيدرو دي جوجوي;San Pedro de Jujuy
+hi;सैन पेड्रो डे जुजुय;San Pedro de Jujuy
+ja;サンペドロデフフイ;San Pedro de Jujuy
+en;Sanogasta;Sañogasta
+ru;Саногаста;Sañogasta
+ar;سانوغاستا;Sañogasta
+es;Sanogasta;Sañogasta
+fr;Sanogasta;Sañogasta
+hi;सानोगास्ता;Sañogasta
+de;Sanogasta;Sañogasta
+ja;サノガスタ;Sañogasta
+pt;Sanogasta;Sañogasta
+zh;圣尼古拉斯;San Nicolás de los Arroyos
+ar;سان نيكولاس دي لوس آرويوس;San Nicolás de los Arroyos
+ru;Сан-Николас-де-лос-Арройос;San Nicolás de los Arroyos
+hi;सैन निकोलस डे लॉस अरोयोस;San Nicolás de los Arroyos
+ja;サンニコラスデロスアロヨス;San Nicolás de los Arroyos
+pt;San Nicolas de los Arroyos;San Nicolás de los Arroyos
+ru;Сант-Николас;San Nicolás
+ru;Сант-Николас;El Carmen
+es;Tucumán;San Miguel de Tucumán
+en;Tucumán;San Miguel de Tucumán
+ja;サン・ミゲル・デ・トゥクマン;San Miguel de Tucumán
+ko;산미겔데투쿠만;San Miguel de Tucumán
+ru;Сан-Мигель-де-Тукуман;San Miguel de Tucumán
+zh;圣米格尔-德图库曼;San Miguel de Tucumán
+ar;سان ميغيل دي توكومان;San Miguel de Tucumán
+hi;सैन मिगुएल डी तुकुमान;San Miguel de Tucumán
+ru;Сан-Мартин-Де-Лос-Андес;San Martín de los Andes
+zh;聖馬丁德洛斯安第斯;San Martín de los Andes
+ar;سان مارتين;San Martín
+zh;聖馬丁;San Martín
+en;San Martin;San Martín
+ru;Сан-Мартин;San Martín
+es;San Martin;San Martín
+fr;San Martin;San Martín
+hi;सैन मार्टिन;San Martín
+de;San Martin;San Martín
+ja;サンマルティン;San Martín
+pt;San Martin;San Martín
+en;Villa General San Martin;Villa General San Martín
+ru;Вилла Хенераль Сан-Мартин;Villa General San Martín
+ar;فيلا جنرال سان مارتين;Villa General San Martín
+fr;Villa General San Martin;Villa General San Martín
+hi;विला जनरल सैन मार्टिन;Villa General San Martín
+de;Villa General San Martin;Villa General San Martín
+ja;ビラヘネラルサンマルティン;Villa General San Martín
+pt;Villa General San Martin;Villa General San Martín
+es;Ciudad de San Luis;San Luis
+ru;Сан-Луис;San Luis
+ja;サン・ルイス;San Luis
+ko;산루이스;San Luis
+zh;聖路易斯;San Luis
+ar;سان لويس;San Luis
+hi;सैन लुइस;San Luis
+ru;Сан-Лоренцо;San Lorenzo
+ar;سان لورينزو;San Lorenzo
+hi;सैन लोरेंजो;San Lorenzo
+ja;サンロレンソ;San Lorenzo
+es;Villa San Lorenzo;San Lorenzo
+es;Ciudad de San Juan;San Juan
+ar;سان خوان، الأرجنتين;San Juan
+ja;サンフアン;San Juan
+ko;산후안;San Juan
+ru;Сан-Хуан;San Juan
+zh;圣胡安;San Juan
+hi;सैन जुआन;San Juan
+zh;聖何塞德哈查爾;San José de Jáchal
+en;San Jose de Jachal;San José de Jáchal
+ru;Сан-Хосе-де-Чачаль;San José de Jáchal
+ar;سان خوسيه دي جاچال;San José de Jáchal
+es;San Jose de Jachal;San José de Jáchal
+fr;San Jose de Jachal;San José de Jáchal
+hi;सैन होसे डे जाचाल;San José de Jáchal
+de;San Jose de Jachal;San José de Jáchal
+ja;サンホセデジャチャル;San José de Jáchal
+pt;San Jose de Jachal;San José de Jáchal
+es;San José de Flores;San José
+es;Estancia San José;San José
+es;San José;San José Norte
+en;San Jose;San José
+ru;Сан-Хосе;San José
+ar;سان خوسيه;San José
+es;San Jose;San José
+fr;San Jose;San José
+hi;सैन होसे;San José
+de;San Jose;San José
+ja;サンホセ;San José
+pt;San Jose;San José
+ar;سان إسيدرو;San Isidro
+hi;सैन इसिद्रो;San Isidro
+es;Estancia San Genaro;San Genaro
+ru;Сан-Франциско-дель-Монте-де-Оро;San Francisco del Monte de Oro
+ar;سان فرانسيسكو ديل مونتي دي أورو;San Francisco del Monte de Oro
+hi;सैन फ्रांसिस्को डेल मोंटे डे ओरो;San Francisco del Monte de Oro
+ja;サンフランシスコデルモンテデオロ;San Francisco del Monte de Oro
+en;San Francisco del Chanar;San Francisco del Chañar
+ru;Сан-Франциско-дель-Чанар;San Francisco del Chañar
+ar;سان فرانسيسكو ديل تشانار;San Francisco del Chañar
+es;San Francisco del Chanar;San Francisco del Chañar
+fr;San Francisco del Chanar;San Francisco del Chañar
+hi;सैन फ्रांसिस्को डेल चानार;San Francisco del Chañar
+de;San Francisco del Chanar;San Francisco del Chañar
+ja;サンフランシスコデルチャナル;San Francisco del Chañar
+pt;San Francisco del Chanar;San Francisco del Chañar
+es;Estancia San Francisco;Colonia San Francisco
+zh;聖弗朗西斯科;San Francisco
+ar;سان فرانسيسكو، قرطبة;San Francisco
+hi;सैन फ्रांसिस्को;San Francisco
+ja;サンフランシスコ;San Francisco
+de;San Fernando del Valle de Catamarca;Catamarca
+en;San Fernando del Valle de Catamarca;Catamarca
+es;San Fernando del Valle de Catamarca;Catamarca
+fr;San Fernando del Valle de Catamarca;Catamarca
+ko;산페르난도델바예데카타마르카;Catamarca
+ru;Сан-Фернандо-дель-Валье-де-Катамарка;Catamarca
+zh;卡塔马卡;Catamarca
+ja;サン・フェルナンド・デル・バジェ・デ・カタマルカ;Catamarca
+ar;سان فرناندو ديل فالي دي كاتاماركا;Catamarca
+hi;कटामार्का;Catamarca
+es;San Fernando;San Fernando de Escoipe
+es;Estancia San Enrique;Colonia San Enrique
+es;Estancia San Cristóbal;San Cristóbal
+en;San Cristobal;San Cristóbal
+ru;Сан-Кристобаль;San Cristóbal
+ar;سان كريستوبال;San Cristóbal
+es;San Cristobal;San Cristóbal
+fr;San Cristobal;San Cristóbal
+hi;सैन क्रिस्टोबल;San Cristóbal
+de;San Cristobal;San Cristóbal
+ja;サンクリストバル;San Cristóbal
+pt;San Cristobal;San Cristóbal
+en;San Carlos de Bolivar;San Carlos de Bolívar
+ru;Сан-Карлос-де-Боливар;San Carlos de Bolívar
+ar;سان كارلوس دي بوليفار;San Carlos de Bolívar
+es;San Carlos de Bolivar;San Carlos de Bolívar
+fr;San Carlos de Bolivar;San Carlos de Bolívar
+hi;सैन कार्लोस डे बोलिवर;San Carlos de Bolívar
+de;San Carlos de Bolivar;San Carlos de Bolívar
+ja;サンカルロスデボリバル;San Carlos de Bolívar
+pt;San Carlos de Bolivar;San Carlos de Bolívar
+es;Estancia San Carlos;San Carlos
+ru;Сан-Карлос-Минас;San Carlos Minas
+ar;سان كارلوس مينياس;San Carlos Minas
+hi;सैन कार्लोस मिनास;San Carlos Minas
+ja;サンカルロスミナス;San Carlos Minas
+ru;Сан-Карлос;San Carlos
+ar;سان كارلوس;San Carlos
+hi;सैन कार्लोस;San Carlos
+ja;サンカルロス;San Carlos
+en;San Blas de los Sauces;San Blas
+ru;Сан-Блас-де-лос-Саусес;San Blas
+ar;سان بلاس دي لوس ساوسيس;San Blas
+es;San Blas de los Sauces;San Blas
+fr;San Blas de los Sauces;San Blas
+hi;सैन ब्लास डे लॉस साउसेस;San Blas
+de;San Blas de los Sauces;San Blas
+ja;サンブラスデロスサウセス;San Blas
+pt;San Blas de los Sauces;San Blas
+ru;Сан-Бернардо;San Bernardo
+ar;سان برناردو;San Bernardo
+hi;सैन बर्नार्डो;San Bernardo
+ja;サンベルナルド;San Bernardo
+zh;西圣安东尼奥;San Antonio Oeste
+ru;Сан-Антонио-Оэсте;San Antonio Oeste
+ar;سان أنطونيو أويستي;San Antonio Oeste
+hi;सैन अंतोनियो ओएस्टे;San Antonio Oeste
+ja;サンアントニオオエステ;San Antonio Oeste
+es;San Antonio de los Flores;San Antonio de las Flores
+zh;聖安東尼奧德洛斯科布雷斯;San Antonio de los Cobres
+ru;Сан-Антонио-де-лос-Кобрес;San Antonio de los Cobres
+ar;سان أنطونيو دي لوس كوبريس;San Antonio de los Cobres
+hi;सैन अंतोनियो डे लॉस कोब्रेस;San Antonio de los Cobres
+ja;サンアントニオデロスコブレス;San Antonio de los Cobres
+es;Estancia San Antonio;San Antonio
+hi;सैन अंतोनियो;San Antonio
+es;San Antonio;Matancillas de San Antonio
+en;Villa San Agustin;Villa San Agustín
+ru;Вилла Сан-Агустин;Villa San Agustín
+ar;فيلا سان أغسطين;Villa San Agustín
+es;Villa San Agustin;Villa San Agustín
+fr;Villa San Agustin;Villa San Agustín
+hi;विला सैन अगस्टिन;Villa San Agustín
+de;Villa San Agustin;Villa San Agustín
+ja;ビラサンアグスティン;Villa San Agustín
+pt;Villa San Agustin;Villa San Agustín
+en;San Agustin;San Agustín
+ru;Сан-Агустин;San Agustín
+ar;سان أغسطين;San Agustín
+es;San Agustin;San Agustín
+fr;San Agustin;San Agustín
+hi;सैन अगस्टिन;San Agustín
+de;San Agustin;San Agustín
+ja;サンアグスティン;San Agustín
+pt;San Agustin;San Agustín
+ru;Салто;Salto
+ar;سالتو;Salto
+hi;साल्तो;Salto
+ja;サルト;Salto
+es;Ciudad de Salta;Salta
+ru;Сальта;Salta
+ko;살타;Salta
+ja;サルタ;Salta
+zh;萨尔塔;Salta
+qu;Salta llaqta;Salta
+ar;سالتا;Salta
+hi;साल्टा;Salta
+ru;Салсакате;Salsacate
+ar;سالساكاتي;Salsacate
+hi;सालसाकाते;Salsacate
+ja;サルサカテ;Salsacate
+en;Salliquelo;Salliqueló
+ru;Салликело;Salliqueló
+ar;ساليكويلو;Salliqueló
+es;Salliquelo;Salliqueló
+fr;Salliquelo;Salliqueló
+hi;सालिक्वेलो;Salliqueló
+de;Salliquelo;Salliqueló
+ja;サリケロ;Salliqueló
+pt;Salliquelo;Salliqueló
+es;Salinas;Salina Huyamampa
+es;Estancia Salalé;Salale
+es;Salado;El Salado
+ru;Руфино;Rufino
+ru;Росарио де Лерма;Rosario de Lerma
+ar;روساريو دي ليرما;Rosario de Lerma
+hi;रोसारियो डे लर्मा;Rosario de Lerma
+ja;ロサリオ・デ・レルマ;Rosario de Lerma
+pt;Rosário de Lerma;Rosario de Lerma
+ru;Росарио де ла Фронтера;Rosario de la Frontera
+ar;روساريو دي لا فرونتيرا;Rosario de la Frontera
+hi;रोसारियो डे ला फ्रोन्टेरा;Rosario de la Frontera
+ja;ロサリオ・デ・ラ・フロンテーラ;Rosario de la Frontera
+pt;Rosário de la Frontera;Rosario de la Frontera
+ar;روساريو;Rosario
+pt;Rosário;Rosario
+ja;ロサリオ;Rosario
+ko;로사리오;Rosario
+ru;Росарио;Rosario
+zh;罗萨里奥;Rosario
+hi;रोसारियो;Rosario
+ru;Рохас;Rojas
+ar;روخاس;Rojas
+hi;रोजास;Rojas
+ja;ロハス;Rojas
+ru;Родео;Rodeo
+ar;رودييو;Rodeo
+fr;Rodéo;Rodeo
+hi;रोडेओ;Rodeo
+ja;ロデオ;Rodeo
+pt;Rodeio;Rodeo
+es;Rodeo;Rodeo de Soria
+es;Robles;Estación Robles
+ru;Ривадавия;Rivadavia
+ar;ريفادافيا;Rivadavia
+hi;रिवादविया;Rivadavia
+ja;リバダビア;Rivadavia
+pt;Rivadávia;Rivadavia
+ru;Рио Майо;Río Mayo
+ru;Рио-Гранде;Río Grande
+ja;リオ・グランデ;Río Grande
+pt;Rio Grande;Río Grande
+zh;里奧格蘭德;Río Grande
+ar;ريو غراندي، تييرا ديل فويغو;Río Grande
+ko;리오그란데;Río Grande
+en;Rio Grande;Río Grande
+fr;Rio Grande;Río Grande
+hi;रियो ग्रांडे;Río Grande
+de;Rio Grande;Río Grande
+ja;リオ・ガジェゴス;Río Gallegos
+ko;리오가예고스;Río Gallegos
+ru;Рио-Гальегос;Río Gallegos
+zh;里奥加耶戈斯;Río Gallegos
+ar;ريو غاليغوس، سانتا كروز;Río Gallegos
+hi;रियो गैलेगोस;Río Gallegos
+es;Ciudad de Río Cuarto;Río Cuarto
+ru;Рио-Куарто;Río Cuarto
+ja;リオ・クアルト;Río Cuarto
+zh;里奥夸尔托;Río Cuarto
+ar;ريو كوارتو، قرطبة;Río Cuarto
+ko;리오쿠아르토;Río Cuarto
+hi;रियो क्वार्टो;Río Cuarto
+ru;Пичи-Мауида;Río Colorado
+zh;里奧科洛拉多;Río Colorado
+en;Rio Colorado;Río Colorado
+ar;ريو كولورادو;Río Colorado
+fr;Rio Colorado;Río Colorado
+hi;रियो कोलोराडो;Río Colorado
+de;Rio Colorado;Río Colorado
+ja;リオコロラド;Río Colorado
+pt;Rio Colorado;Río Colorado
+ru;Ринконада;Rinconada
+ar;رينكونادا;Rinconada
+hi;रिनकोनाडा;Rinconada
+ja;リンコナダ;Rinconada
+es;Rincón;El Rincón
+es;Balneario Océano;Reta
+es;Resistencia;Fortín Resistencia
+es;Resbalosa;La Resbalosa
+es;Regel;Rangel
+ja;レクレオ;Recreo
+ru;Рекрео;Recreo
+ko;레크레오;Recreo
+zh;雷克雷奧;Recreo
+ar;ريكريو;Recreo
+hi;रेक्रिओ;Recreo
+pt;Recreio;Recreo
+en;Realico;Realicó
+ru;Реалико;Realicó
+ar;رياليكو;Realicó
+fr;Realico;Realicó
+hi;रेलिको;Realicó
+de;Realico;Realicó
+ja;レアリコ;Realicó
+ru;Реаль-Дель-Падре;Real del Padre
+ru;Роусон;Rawson
+ru;Росон;Rawson
+zh;罗森;Rawson
+ja;ラウソン;Rawson
+ko;라우손;Rawson
+ar;روسون، تشوبوت;Rawson
+hi;रॉसन;Rawson
+ru;Рамало;Ramallo
+ar;راماللو;Ramallo
+hi;रामाल्लो;Ramallo
+ja;ラマロ;Ramallo
+es;Rahuecó;Rahueco
+ru;Рафаэла;Rafaela
+zh;拉斐拉;Rafaela
+ar;رافاييلا;Rafaela
+hi;रफेला;Rafaela
+ja;ラファエラ;Rafaela
+ru;Кутилипи;Quitilipi
+ar;كويتيليبي;Quitilipi
+hi;क्विटिलिपी;Quitilipi
+ja;キティリピ;Quitilipi
+en;Quimili;Quimilí
+ru;Кимили;Quimilí
+ar;كيميلي;Quimilí
+fr;Quimili;Quimilí
+hi;क्विमिली;Quimilí
+de;Quimili;Quimilí
+ja;キミリ;Quimilí
+es;Quimil;Campo El Quimil
+es;Quesería;Casa de la Quesera
+en;Quemu Quemu;Quemú Quemú
+ru;Кему-Кему;Quemú Quemú
+ar;كيمو كيمو;Quemú Quemú
+fr;Quemu Quemu;Quemú Quemú
+hi;क्वेमु क्वेमु;Quemú Quemú
+de;Quemu Quemu;Quemú Quemú
+ja;ケムケム;Quemú Quemú
+es;Quebrachos;Villa Quebracho
+ru;Пунта-де-Вакас;Punta de Vacas
+ja;プンタ・デ・バカス;Punta de Vacas
+es;Punta de Agua;Punta del Agua
+ru;Пунта-Альта;Punta Alta
+ko;푼타알타;Punta Alta
+zh;蓬塔阿尔塔;Punta Alta
+ar;بونتا ألتا;Punta Alta
+hi;पुंता अल्ता;Punta Alta
+ja;プンタアルタ;Punta Alta
+es;Punilla;La Punilla
+en;Puiggari;Estación Puiggari
+fr;Puiggari;Estación Puiggari
+nl;Puiggari;Estación Puiggari
+zh;聖克魯斯港;Puerto Santa Cruz
+ru;Пуэрто-Санта-Крус;Puerto Santa Cruz
+ar;بويرتو سانتا كروز;Puerto Santa Cruz
+hi;प्यूर्टो सांता क्रुज़;Puerto Santa Cruz
+ja;プエルトサンタクルス;Puerto Santa Cruz
+en;Puerto San Julian;Puerto San Julián
+ru;Пуэрто-Сан-Хулиан;Puerto San Julián
+ar;بويرتو سان خوليان;Puerto San Julián
+fr;Puerto San Julian;Puerto San Julián
+hi;प्यूर्टो सैन जूलियन;Puerto San Julián
+de;Puerto San Julian;Puerto San Julián
+ja;プエルトサンフリアン;Puerto San Julián
+ru;Пуэрто-Мадрин;Puerto Madryn
+zh;馬德林港;Puerto Madryn
+ar;بويرتو مادرين;Puerto Madryn
+hi;प्यूर्टो मैड्रिन;Puerto Madryn
+ja;プエルトマドリン;Puerto Madryn
+zh;德塞阿多港;Puerto Deseado
+ru;Пуэрто-Десеадо;Puerto Deseado
+ar;بويرتو ديسيادو;Puerto Deseado
+hi;प्यूर्टो डेसेआडो;Puerto Deseado
+ja;プエルトデセアド;Puerto Deseado
+es;Puerta de Paya;Puerta La Paya
+ru;Пуэльчес;Puelches
+ar;بويلتشيس;Puelches
+hi;प्यूल्चेस;Puelches
+ja;プエルチェス;Puelches
+es;Pucará;El Pucará
+en;Puan;Puán
+ru;Пуан;Puán
+ar;بوان;Puán
+fr;Puan;Puán
+hi;पुआन;Puán
+de;Puan;Puán
+ja;プアン;Puán
+en;Salvador Mazza;Profesor Salvador Mazza
+en;Pocitos;Profesor Salvador Mazza
+zh;羅克薩恩斯培尼亞總統城;Presidencia Roque Sáenz Peña
+ar;بريسدنس روكي ساينز بينيا;Presidencia Roque Sáenz Peña
+ru;Президенсия Рокье Саэнс Пеня;Presidencia Roque Sáenz Peña
+fr;Presidencia Roque Saenz Pena;Presidencia Roque Sáenz Peña
+hi;प्रेसिडेंसिया रोक साएंज़ पेना;Presidencia Roque Sáenz Peña
+ja;プレシデンシアロケサエンスペーニャ;Presidencia Roque Sáenz Peña
+pt;Presidência Roque Sáenz Peña;Presidencia Roque Sáenz Peña
+es;Pozo Mozo;Pozo Mosoj
+ru;Позо Ондо;Pozo Hondo
+ar;بوزو هوندو;Pozo Hondo
+hi;पोज़ो होंडो;Pozo Hondo
+ja;ポッソ・オンド;Pozo Hondo
+es;Pozo Grande;Pozo Grande de Ambargasta
+es;Pozo de Anta;Pozo El Anta
+es;Pozo de Abajo;Pozo del Bajo
+en;Pluma de Pato;Pluma del Pato
+es;Pluma de Pato;Pluma del Pato
+nl;Pluma de Pato;Pluma del Pato
+ru;Пилканийеу;Pilcaniyeu
+ar;بيلكانييو;Pilcaniyeu
+hi;पिलकानियु;Pilcaniyeu
+ja;ピルカニエウ;Pilcaniyeu
+en;Piguee;Pigüé
+ru;Пигуэ;Pigüé
+ar;بيغوي;Pigüé
+es;Piguee;Pigüé
+fr;Piguee;Pigüé
+hi;पिगुई;Pigüé
+de;Piguee;Pigüé
+ja;ピグエ;Pigüé
+pt;Piguee;Pigüé
+es;Piedra Larga;Piedras Larga
+en;Piedra del Aguila;Piedra del Águila
+ru;Пьедра дель Агила;Piedra del Águila
+ar;بيدرا ديل أغيلا;Piedra del Águila
+es;Piedra del Aguila;Piedra del Águila
+fr;Piedra del Aguila;Piedra del Águila
+hi;पिएड्रा डेल एगुइला;Piedra del Águila
+de;Piedra del Aguila;Piedra del Águila
+ja;ピエドラ・デル・アギラ;Piedra del Águila
+pt;Piedra del Aguila;Piedra del Águila
+en;Picun Leufu;Picún Leufú
+ru;Пикун Лейфу;Picún Leufú
+ar;بيكون لوفو;Picún Leufú
+es;Picun Leufu;Picún Leufú
+fr;Picun Leufu;Picún Leufú
+hi;पिकुन लेउफु;Picún Leufú
+de;Picun Leufu;Picún Leufú
+ja;ピクン・レウフ;Picún Leufú
+pt;Picun Leufu;Picún Leufú
+ru;Пико Трункадо;Pico Truncado
+ru;Перито Морено;Perito Moreno
+ar;بيريتو مورينو;Perito Moreno
+hi;पेरिटो मोरेनो;Perito Moreno
+ja;ペリット・モレーノ;Perito Moreno
+ru;Пергамино;Pergamino
+ar;بيرغامينو;Pergamino
+hi;पेर्गामिनो;Pergamino
+ja;ペルガミーノ;Pergamino
+es;Peralta;Zoilo Peralta
+ru;Пеллегрини;Pellegrini
+ar;بيليغريني;Pellegrini
+hi;पेल्लेग्रिनी;Pellegrini
+ja;ペレグリーニ;Pellegrini
+zh;佩瓦霍;Pehuajó
+ru;Пеуахо;Pehuajó
+ar;بيهواخو;Pehuajó
+es;Pehuajo;Pehuajó
+fr;Pehuajo;Pehuajó
+hi;पेहुआजो;Pehuajó
+de;Pehuajo;Pehuajó
+ja;ペウアホ;Pehuajó
+pt;Pehuajo;Pehuajó
+en;Patquia;Patquía
+ru;Патквиа;Patquía
+ar;باتكيا;Patquía
+es;Patquia;Patquía
+fr;Patquia;Patquía
+hi;पाटक्विया;Patquía
+de;Patquia;Patquía
+ja;パトキア;Patquía
+pt;Patquia;Patquía
+ru;Пасо де Индиос;Paso de Indios
+ar;باسو دي ينديوس;Paso de Indios
+hi;पासो डे इंडियोस;Paso de Indios
+ja;パソ・デ・インディオス;Paso de Indios
+ru;Парера;Parera
+ar;بارير;Parera
+hi;पारेरा;Parera
+ja;パレラ;Parera
+es;Paraní;Parani
+ko;파라나;Paraná
+ja;パラナ;Paraná
+gn;Parana;Paraná
+ru;Парана;Paraná
+zh;巴拉那;Paraná
+ar;بارانا، انتري ريوس;Paraná
+hi;पराना;Paraná
+es;Paraje Santa Catalina;Santa Catalina
+es;Paraje El Gavilán;El Gavilán
+ru;Пампа дель Инфиерно;Pampa del Infierno
+ar;بامبا ديل إنفيرنو;Pampa del Infierno
+hi;पम्पा डेल इनफिएर्नो;Pampa del Infierno
+ja;パンパ・デル・インフィエルノ;Pampa del Infierno
+en;Palpala;Palpalá
+ru;Палпала;Palpalá
+ar;بالبالا;Palpalá
+es;Palpala;Palpalá
+fr;Palpala;Palpalá
+hi;पालपाला;Palpalá
+de;Palpala;Palpalá
+ja;パルパラ;Palpalá
+pt;Palpala;Palpalá
+es;Palá Palá;Pala Pala
+es;Oyolas;Oyola
+es;Ovejería;La Ovejería
+es;Oro Pampa;Coro Pampa
+es;Orcos;Horcos Tucucuna
+ru;Олта;Olta
+ar;أولتا;Olta
+hi;ओल्टा;Olta
+ja;オルタ;Olta
+ru;Олива;Oliva
+ar;أوليفا;Oliva
+hi;ओलिवा;Oliva
+ja;オリーバ;Oliva
+ru;Олаваррия;Olavarría
+zh;奧拉瓦里亞;Olavarría
+ar;أولافاريا;Olavarría
+fr;Olavarria;Olavarría
+hi;ओलावर्रिया;Olavarría
+ja;オラバリア;Olavarría
+pt;Olavarria;Olavarría
+es;Ocultar;El Ocultar
+es;Nuñez del Prado;Núñez del Prado
+es;Nuevo Líbano;Nueva Líbano
+ru;Нев-де-Хулио;Nueve de Julio
+ar;نويفي دي خوليو;Nueve de Julio
+hi;नुएवे डे जुलियो;Nueve de Julio
+ja;ヌエベ・デ・フリオ;Nueve de Julio
+ru;Нуэве де Хулио;Nueve de Julio
+ru;Нуэва Эсперанса;Nueva Esperanza
+ar;نويفا إسبيرانزا;Nueva Esperanza
+hi;नुएवा एस्पेरांजा;Nueva Esperanza
+ja;ヌエバ・エスペランサ;Nueva Esperanza
+en;Norquinco;Ñorquincó
+ru;Норкинко;Ñorquincó
+ar;نوركنكو;Ñorquincó
+fr;Norquinco;Ñorquincó
+hi;नोरक्विन्को;Ñorquincó
+de;Norquinco;Ñorquincó
+ja;ノルキンコ;Ñorquincó
+pt;Norquinco;Ñorquincó
+ru;Ноно;Nono
+es;Ciudad de Neuquén;Neuquén
+ru;Неукен;Neuquén
+ja;ネウケン;Neuquén
+zh;内乌肯;Neuquén
+ko;네우켄;Neuquén
+ar;نيوكوين;Neuquén
+hi;न्यूक्वीन;Neuquén
+de;Neuquen;Neuquén
+es;Navaquin;Navaquín
+ru;Мортерос;Morteros
+ru;Моррисон;Morrison
+ru;Монтерос;Monteros
+ar;مونتيروس;Monteros
+hi;मोंटेरोस;Monteros
+ja;モンテロス;Monteros
+ru;Монте Кемадо;Monte Quemado
+ar;مونتي كيمادو;Monte Quemado
+hi;मोंते क्वेमाडो;Monte Quemado
+ja;モンテ・ケマド;Monte Quemado
+es;Estancia Monte Paquete;Monte Paquete
+ru;Монте Эрмосо;Monte Hermoso
+ar;مونتي إرموسو;Monte Hermoso
+hi;मोंते हरमोसो;Monte Hermoso
+ja;モンテ・エルモソ;Monte Hermoso
+es;Mollares;Los Mollares
+ru;Молинос;Molinos
+ar;مولينوس;Molinos
+hi;मोलिनोस;Molinos
+ja;モリーノス;Molinos
+ru;Мирафлорес;Miraflores
+es;Estancia Millacó;Millacó
+ru;Миларго;Milagro
+ar;ميلاغرو;Milagro
+hi;मिलाग्रो;Milagro
+ja;ミラグロ;Milagro
+es;Estación Metán;San José de Metán
+en;San Jose de Metan;San José de Metán
+ru;Сан-Хосе-де-Метан;San José de Metán
+ar;سان خوسيه دي ميتان;San José de Metán
+fr;San Jose de Metan;San José de Metán
+hi;सैन जोस डे मेतान;San José de Metán
+de;San Jose de Metan;San José de Metán
+ja;サン・ホセ・デ・メタン;San José de Metán
+pt;San Jose de Metan;San José de Metán
+es;Villa de Merlo;Merlo
+en;Villa de Merlo;Merlo
+ru;Мендоса;Mendoza
+es;Ciudad de Mendoza;Mendoza
+ar;مندوزا;Mendoza
+hi;मेन्दोज़ा;Mendoza
+ja;メンドーサ;Mendoza
+ko;멘도사;Mendoza
+zh;门多萨;Mendoza
+en;Melincue;Melincué
+ru;Мелинкуэ;Melincué
+ar;ميلينكوي;Melincué
+es;Melincue;Melincué
+fr;Melincue;Melincué
+hi;मेलिनक्यू;Melincué
+de;Melincue;Melincué
+ja;メリンクエ;Melincué
+pt;Melincue;Melincué
+en;Medanos;Médanos
+ru;Мединос;Médanos
+ar;ميدانوس;Médanos
+fr;Medanos;Médanos
+hi;मेडानोस;Médanos
+de;Medanos;Médanos
+ja;メダーノス;Médanos
+es;Médano de Oro;Villa Bolaños
+ru;Меданитос;Medanitos
+ru;Матталди;Mattaldi
+es;Estancia María Antonia;La María
+en;Marcos Juarez;Marcos Juárez
+ru;Маркос Хуарес;Marcos Juárez
+ar;ماركوس خوارس;Marcos Juárez
+fr;Marcos Juarez;Marcos Juárez
+hi;मार्कोस जुआरेज़;Marcos Juárez
+de;Marcos Juarez;Marcos Juárez
+ja;マルコス・フアレス;Marcos Juárez
+es;Marapá;Marapa
+ru;Макинчао;Maquinchao
+ar;ماكينتشاو;Maquinchao
+hi;मकिंचाओ;Maquinchao
+ja;マキンチャオ;Maquinchao
+es;Mangrullo;El Mangrullo
+zh;马拉圭;Malargüe
+ru;Маларгуэ;Malargüe
+ar;مالارغويه;Malargüe
+hi;मालारग्वे;Malargüe
+ja;マラルグエ;Malargüe
+en;Malanzan;Malanzán
+ru;Маланзан;Malanzán
+ar;مالانزان;Malanzán
+es;Malanzan;Malanzán
+fr;Malanzan;Malanzán
+hi;मलांजान;Malanzán
+de;Malanzan;Malanzán
+ja;マランサン;Malanzán
+pt;Malanzan;Malanzán
+es;Estancia Maipú;Campo Maipú
+pt;Maipu;Maipú
+ru;Маймара;Maimará
+es;Magdalena;La Magdalena
+ru;Мачагай;Machagai
+ar;ماتشاجاي;Machagai
+hi;मचागई;Machagai
+ja;マチャガイ;Machagai
+en;Macachin;Macachín
+ru;Макакин;Macachín
+ar;ماكاتشين;Macachín
+es;Macachin;Macachín
+fr;Macachin;Macachín
+hi;मकाचिन;Macachín
+de;Macachin;Macachín
+ja;マカチン;Macachín
+pt;Macachin;Macachín
+ru;Лулес;Lules
+ar;لولس;Lules
+hi;लुलेस;Lules
+ja;ルレス;Lules
+en;Lujan de Cuyo;Luján de Cuyo
+ru;Лухан-де-Куйо;Luján de Cuyo
+ar;لوحان دي كويو;Luján de Cuyo
+fr;Lujan de Cuyo;Luján de Cuyo
+hi;लुजान दे कुयो;Luján de Cuyo
+de;Lujan de Cuyo;Luján de Cuyo
+ja;ルハン・デ・クイヨ;Luján de Cuyo
+pt;Lujan de Cuyo;Luján de Cuyo
+es;Estancia Los Yacones;Los Yacones
+es;Los Tres Horcones;Tres Horcones
+ru;Лос-Телярес;Los Telares
+ar;لوس تيلاريس;Los Telares
+hi;लॉस तेलारेस;Los Telares
+ja;ロス・テラレス;Los Telares
+es;Los Pozuelos;Campo de los Pozuelos
+es;Los Gigantes;Mina Los Gigantes
+es;Estancia Los Cerritos;Los Cerritos
+es;Estancia Los Andes;Los Andes
+es;Loro Huasi Guanchín;Loro Huasi
+ru;Лондрес;Londres
+en;Loncopue;Loncopué
+ru;Лонкопуэ;Loncopué
+ar;لونكوبويه;Loncopué
+es;Loncopue;Loncopué
+fr;Loncopue;Loncopué
+hi;लोनकोपुए;Loncopué
+de;Loncopue;Loncopué
+ja;ロンコプエ;Loncopué
+pt;Loncopue;Loncopué
+es;Lomitas;Las Lomitas
+es;Loma Blanca;Lomas Blancas
+es;Estancia Lolén;Estancia Lolen
+ru;Линкольн;Lincoln
+ar;لينكولن;Lincoln
+hi;लिंकन;Lincoln
+ja;リンカーン;Lincoln
+ru;Лимай-Мауида;Limay Mahuida
+ar;لايماي ماهويدا;Limay Mahuida
+hi;लिमय महुइदा;Limay Mahuida
+ja;リマイ・マウイダ;Limay Mahuida
+ja;サン・マルティン;San Martín
+en;Libertador General San Martin;Libertador General San Martín
+ru;Либертадор-Хенераль-Сан-Мартин;Libertador General San Martín
+ar;ليبرتادور جنرال سان مارتين;Libertador General San Martín
+fr;Libertador General San Martin;Libertador General San Martín
+hi;लिबर्टाडोर जनरल सैन मार्टिन;Libertador General San Martín
+de;Libertador General San Martin;Libertador General San Martín
+ja;リベルタドール・ヘネラル・サン・マルティン;Libertador General San Martín
+pt;Libertador General San Martin;Libertador General San Martín
+es;Libertad;Colonia Libertad
+es;Líbano;El Líbano
+es;Colonia Levy;Colonia Leven
+ru;Лелеке;Leleque
+ar;ليليك;Leleque
+hi;लेलेके;Leleque
+ja;レレケ;Leleque
+es;Colonia Lejarraga;Lejarraga
+es;La Vuelta;Vuelta de la Barranca
+en;La Vina;La Viña
+ru;Ла-Виньа;La Viña
+ar;لا فينا;La Viña
+fr;La Vina;La Viña
+hi;ला विना;La Viña
+de;La Vina;La Viña
+ja;ラ・ビナ;La Viña
+pt;La Vina;La Viña
+es;Estancia La Victoria;La Victoria
+es;Estancia La Verde;La Verde
+es;La Tosca;Las Toscas
+ru;Ла-Тома;La Toma
+ar;لا توما;La Toma
+hi;ला टोमा;La Toma
+ja;ラ・トマ;La Toma
+es;Estancia Las Tres Marías;Las Tres Marías
+ru;Лас-Росас;Las Rosas
+ar;لاس روزاس;Las Rosas
+hi;लास रोसास;Las Rosas
+ja;ラス・ロサス;Las Rosas
+ru;Лас-Плумас;Las Plumas
+ar;لاس بلوماس;Las Plumas
+hi;लास प्लुमास;Las Plumas
+ja;ラス・プルマス;Las Plumas
+es;Las Mesadas;La Mesada
+es;Estancia Las Lomas;Las Lomas
+ru;Лас-Лахас;Las Lajas
+ar;لاس لاخاس;Las Lajas
+hi;लास लाहास;Las Lajas
+ja;ラス・ラハス;Las Lajas
+es;Las Juntas;La Junta
+es;Estancia Las Isletas;Las Isletas
+ru;Лас-Эрас;Las Heras
+ar;لاس هيراس;Las Heras
+hi;लास हेरास;Las Heras
+ja;ラス・ヘラス;Las Heras
+es;Estancia La Selva;La Selva
+ru;Лас-Колорадас;Las Coloradas
+zh;拉斯科洛拉達斯;Las Coloradas
+ar;لاس كولورادات;Las Coloradas
+hi;लास कोलोरेडास;Las Coloradas
+ja;ラス・コロラダス;Las Coloradas
+es;Las Chacras;Chacras
+en;Las Brenas;Las Breñas
+ru;Лас-Бреньяс;Las Breñas
+ar;لاس بريناس;Las Breñas
+fr;Las Brenas;Las Breñas
+hi;लास ब्रेनास;Las Breñas
+de;Las Brenas;Las Breñas
+ja;ラス・ブレナス;Las Breñas
+pt;Las Brenas;Las Breñas
+es;Estancia Las Balas;Las Balas
+es;Puesto Las Almas;Las Almas
+es;Ciudad de La Rioja;La Rioja
+ru;Ла-Риоха;La Rioja
+ja;ラ・リオハ;La Rioja
+ko;라리오하;La Rioja
+qu;La Rioja llaqta;La Rioja
+pt;Rioja;La Rioja
+zh;拉里奧哈;La Rioja
+ar;لا ريوخا;La Rioja
+hi;ला रियोजा;La Rioja
+ru;Ла-Кьяка;La Quiaca
+zh;拉基亞卡;La Quiaca
+ar;لا كياكا;La Quiaca
+hi;ला क्विएका;La Quiaca
+ja;ラ・キアカ;La Quiaca
+ru;Ла-Пуэрта;La Puerta
+ar;لا بويرتا;La Puerta
+hi;ला प्वर्ता;La Puerta
+ja;ラ・プエルタ;La Puerta
+es;La Puerta;Las Puertas
+es;La Promesa;Las Promesas
+ru;Лаприда;Laprida
+ar;لابريدا;Laprida
+hi;लाप्रीडा;Laprida
+ja;ラプリダ;Laprida
+ru;Ла-Пома;La Poma
+ar;لا بوما;La Poma
+hi;ला पोमा;La Poma
+ja;ラ・ポマ;La Poma
+es;Estancia La Permanente;La Permanente
+ru;Ла-Пас;La Paz
+ja;ラ・パス;La Paz
+es;Estancia La Norma;La Norma
+es;Estancia La Noria;La Noria
+ru;Ла-Мерсед;La Merced
+ar;لا ميرسيد;La Merced
+hi;ला मर्सेड;La Merced
+ja;ラ・メルセド;La Merced
+es;La Maroma;Barrio Finca La Maroma
+es;Estancia La Margarita;La Margarita
+es;La Libanesa;Colonia Libanesa
+es;Estancia La Legua;La Legua
+es;La Legua;Colonia La Legua
+es;La Junta;Las Juntas
+es;Estancia La Josefina;La Josefina
+es;Estancia La Isleta;La Isleta
+es;Estancia La Haydée;La Haydée
+ru;Лагуна-Йема;Laguna Yema
+ar;لاغونا يما;Laguna Yema
+hi;लागुना येमा;Laguna Yema
+ja;ラグーナ・イェマ;Laguna Yema
+es;Colonia La Graciela;Colonia Graciela
+es;Lago Muyo;Lago Muyoj
+es;Balneario Lago de Gómez;Balneario Laguna de Gómez
+es;Estancia La Fortuna;La Fortuna Este
+ru;Ла-Фальда;La Falda
+es;Estancia La Esther;La Esther
+es;Estancia La Diana;La Diana
+ru;Ла-Консульта;La Consulta
+ar;لا كونسولتا;La Consulta
+hi;ला कॉन्सुल्टा;La Consulta
+ja;ラ・コンスルタ;La Consulta
+es;Estancia La Constancia;La Constancia
+es;Estancia La Conquista;La Conquista
+ru;Ла-Коча;La Cocha
+ar;لا كوتشا;La Cocha
+hi;ला कोचा;La Cocha
+ja;ラ・コチャ;La Cocha
+es;Estancia La Chiquita;Balneario La Chiquita
+es;La Chicharra;Las Chicharras
+es;La Cheschila;La Chejchila
+es;Estancia La Chacra;La Chacra
+es;Estancia La Cautiva;La Cautiva
+zh;拉卡爾洛塔;La Carlota
+ru;Ла-Карлота;La Carlota
+ar;لا كارلوتا;La Carlota
+hi;ला कार्लोता;La Carlota
+ja;ラ・カルロータ;La Carlota
+ru;Ла-Канделарья;La Candelaria
+ar;لا كانديلاريا;La Candelaria
+hi;ला कांडेलारिया;La Candelaria
+ja;ラ・カンデラリア;La Candelaria
+en;La Canada;La Cañada
+ru;Ла-Канада;La Cañada
+ar;لا كانادا;La Cañada
+fr;La Canada;La Cañada
+hi;ला कनाडा;La Cañada
+de;La Canada;La Cañada
+ja;ラ・カナダ;La Cañada
+pt;La Canadá;La Cañada
+ru;Ла-Калдера;La Caldera
+ar;لا كالديرا;La Caldera
+hi;ला कल्डेरा;La Caldera
+ja;ラ・カルデラ;La Caldera
+ru;Лабуле;Laboulaye
+ar;لابولاي;Laboulaye
+hi;लाबुलाये;Laboulaye
+ja;ラブレイ;Laboulaye
+ru;Лаборде;Laborde
+ru;Ла-Банда;La Banda
+ar;لا باندا;La Banda
+hi;ला बांडा;La Banda
+ja;ラ・バンダ;La Banda
+es;Almacén La Angelita;La Angelita
+en;Aldea Escolar;La Aldea
+es;Colonia La Adela;La Adela
+es;Krabbé;Krabbe
+zh;胡寧德洛斯安第斯;Junín de los Andes
+en;Junin de los Andes;Junín de los Andes
+ru;Хунин-де-лос-Андес;Junín de los Andes
+ar;خونين دي لوس اندس;Junín de los Andes
+hi;जुनिन दे लोस एंडेस;Junín de los Andes
+ja;フニン・デ・ロス・アンデス;Junín de los Andes
+zh;胡寧;Junín
+ar;جونين، مقاطعة بوينس آيرس;Junín
+ru;Хунин;Junín
+hi;जुनिन;Junín
+ja;フニン;Junín
+en;Junin;Junín
+ar;خونين;Junín
+en;Jose de San Martin;José de San Martín
+ru;Хосе-де-Сан-Мартин;José de San Martín
+ar;خوسيه دي سان مارتين;José de San Martín
+hi;जोसे दे सान मार्टिन;José de San Martín
+ja;ホセ・デ・サンマルティン;José de San Martín
+en;Jesus Maria;Jesús María
+ru;Хесус-Мария;Jesús María
+ar;يسوع ماريا;Jesús María
+fr;Jésus-María;Jesús María
+hi;जीसस मारिया;Jesús María
+ja;ヘスス・マリア;Jesús María
+en;Jagüe;Jagüé
+es;Jacimampá;Jasimampa
+es;Iturreguí;Iturregui
+de;Iturbe;Hipólito Yrigoyen
+en;Iturbe;Hipólito Yrigoyen
+it;Iturbe;Hipólito Yrigoyen
+nl;Iturbe;Hipólito Yrigoyen
+es;Estancia Isla Verde;Isla Verde
+zh;伊魯亞;Iruya
+ru;Ируя;Iruya
+ar;إيرويا;Iruya
+hi;इरुया;Iruya
+ja;イルウヤ;Iruya
+ru;Интендентте Альвеар;Intendente Alvear
+ar;إنتندينتي الفيار;Intendente Alvear
+hi;इंटेंडेंते अलवियर;Intendente Alvear
+ja;インテンデンテ・アルベアル;Intendente Alvear
+en;Ingeniero Guillermo N. Juarez;Ingeniero Guillermo N. Juárez
+ru;Инженеро Гильермо Н. Хуарес;Ingeniero Guillermo N. Juárez
+ar;إنجينيرو جيليرمو ن. خوارث;Ingeniero Guillermo N. Juárez
+fr;Ingeniero Guillermo N. Juarez;Ingeniero Guillermo N. Juárez
+hi;इंजिनीयरो गुइलेर्मो एन. जुआरेज;Ingeniero Guillermo N. Juárez
+ja;イニェニエーロ・ギジェルモ・エン・フアレス;Ingeniero Guillermo N. Juárez
+es;Igarzábal;Igarzabal
+ru;Умауака;Humahuaca
+ar;هوماهواكا;Humahuaca
+hi;हुमाहुआका;Humahuaca
+ja;フマワカ;Humahuaca
+es;Huerta;La Huerta
+es;Hualcupén;Hualcupén Abajo
+es;Huaiquimil;Huayquimil
+es;Huaico Hondo;Huaico Redondo
+es;Higuerita;Las Higueritas
+es;Higuera;Las Higueras
+ru;Эррера;Herrera
+ar;إيريرا;Herrera
+hi;हेरेरा;Herrera
+ja;ヘレラ;Herrera
+ru;Эрмосо-Кампо;Hermoso Campo
+ar;إيرموسو كامبو;Hermoso Campo
+hi;हर्मोसो कैम्पो;Hermoso Campo
+ja;ヘルモソ・カンポ;Hermoso Campo
+es;Hereford;Heresford
+ru;Хендерсон;Henderson
+ar;هندرسون;Henderson
+hi;हेंडर्सन;Henderson
+ja;ヘンダーソン;Henderson
+ru;Элвесия;Helvecia
+ar;إيلفيسيا;Helvecia
+hi;हेल्वेशिया;Helvecia
+ja;ヘルベシア;Helvecia
+en;Guatrache;Guatraché
+ru;Гуатраче;Guatraché
+ar;جواتراتشيه;Guatraché
+es;Guatrache;Guatraché
+fr;Guatrache;Guatraché
+hi;गुआत्राचे;Guatraché
+de;Guatrache;Guatraché
+ja;グアトラチェ;Guatraché
+pt;Guatrache;Guatraché
+ar;غوارديا ميتر;Guardia Mitre
+es;Guanchincito;Guanchín
+en;Guamini;Guaminí
+ru;Гуамини;Guaminí
+ar;جوامينى;Guaminí
+hi;गुआमिनी;Guaminí
+ja;グアミニ;Guaminí
+ru;Гуачипас;Guachipas
+ar;جواتشيباس;Guachipas
+hi;गुआचिपास;Guachipas
+ja;グアチパス;Guachipas
+ru;Гранерос;Graneros
+ar;جرانيروس;Graneros
+hi;ग्रेनेरोस;Graneros
+ja;グラネロス;Graneros
+es;Puesto Grande;Puerto Grande
+es;Goicó;Goico
+ru;Годой-Крус;Godoy Cruz
+ar;جودوي كروز;Godoy Cruz
+hi;गोडॉय क्रूज़;Godoy Cruz
+ja;ゴドイ・クルス;Godoy Cruz
+ru;Гобернадор-Грегорес;Gobernador Gregores
+ar;جوبرنادور جريجوريس;Gobernador Gregores
+hi;गोबर्नादोर ग्रेगोरेस;Gobernador Gregores
+ja;ゴベルナドール・グレゴレス;Gobernador Gregores
+en;Gobernador Garmendia;Garmendia
+nl;Gobernador Garmendia;Garmendia
+ru;Генерал-Вильегас;General Villegas
+ar;جنرال فيليغاس;General Villegas
+hi;जनरल विलेगास;General Villegas
+ja;ヘネラル・ビジェガス;General Villegas
+ru;Лос-Тольдос;Los Toldos
+ar;لوس توليدوس;Los Toldos
+hi;लॉस टोल्डोस;Los Toldos
+ja;ロス・トルドス;Los Toldos
+es;Ciudad de General Roca;General Roca
+ru;Хенераль;General Roca
+zh;羅卡將軍市;General Roca
+ar;جنرال روكا، ريو نيغرو;General Roca
+en;Villa General Ramírez;General Ramírez
+es;El Carmen;General Racedo
+ru;Генерал-Пинто;General Pinto
+ar;جنرال بينتو;General Pinto
+hi;जनरल पिंटो;General Pinto
+ja;ヘネラル・ピント;General Pinto
+zh;皮內多將軍鎮;General Pinedo
+ru;Генерал Пинедо;General Pinedo
+ar;جنرال بينيدو;General Pinedo
+hi;जनरल पिनेडो;General Pinedo
+ja;ヘネラル・ピネド;General Pinedo
+zh;皮科將軍鎮;General Pico
+ar;جينرال بيكو;General Pico
+ru;Генерал Пико;General Pico
+hi;जनरल पिको;General Pico
+ja;ヘネラル・ピコ;General Pico
+en;General Guemes;General Güemes
+ru;Генерал Гемес;General Güemes
+ar;جنرال غويمس;General Güemes
+fr;General Guemes;General Güemes
+hi;जनरल गुएमेस;General Güemes
+de;General Guemes;General Güemes
+ja;ヘネラル・グエメス;General Güemes
+ru;Вилла Тулумайя;Villa Tulumaya
+ar;فيلا توليمايا;Villa Tulumaya
+hi;विल्ला तुलुमाया;Villa Tulumaya
+ja;ビジャ・トゥルマヤ;Villa Tulumaya
+ru;Генерал Ла Мадрид;General La Madrid
+ar;جنرال لا مدريد;General La Madrid
+hi;जनरल ला मैड्रिड;General La Madrid
+ja;ヘネラル・ラ・マドリッド;General La Madrid
+ru;Генерал Москони;General Mosconi
+ar;جنرال موسكوني;General Mosconi
+hi;जनरल मोस्कोनी;General Mosconi
+ja;ヘネラル・モスコーニ;General Mosconi
+en;General Enrique Mosconi;General Mosconi
+ja;ヘネラル・コネサ;General Conesa
+ru;Генерал Аренальес;General Arenales
+ar;جنرال أرينالس;General Arenales
+hi;जनरल एरेनालेस;General Arenales
+ja;ヘネラル・アレナレス;General Arenales
+ru;Генерал Альвеар;General Alvear
+ar;جنرال ألفير;General Alvear
+hi;जनरल अल्वियर;General Alvear
+ja;ヘネラル・アルベアル;General Alvear
+ru;Генерал Ача;General Acha
+ar;جنرال آتشا;General Acha
+hi;जनरल आचा;General Acha
+ja;ヘネラル・アチャ;General Acha
+ru;Гастре;Gastre
+ar;جاسترا;Gastre
+hi;गास्त्रे;Gastre
+ja;ガストレ;Gastre
+ru;Гарса;Garza
+ar;جارزا;Garza
+hi;गार्ज़ा;Garza
+ja;ガルサ;Garza
+ru;Гайман;Gaiman
+ar;جايمان;Gaiman
+hi;गैमान;Gaiman
+ja;ガイマン;Gaiman
+ru;Фунес;Funes
+en;Frias;Frías
+ru;Фриас;Frías
+ar;فريس;Frías
+fr;Frias;Frías
+hi;फ्रियास;Frías
+de;Frias;Frías
+ja;フリアス;Frías
+es;Estancia Fortín República;Fortín República
+ru;Фирмат;Firmat
+es;Filo-hua-hum;Filo Hua Hum
+ru;Ферри;Ferri
+en;Fernandez;Fernández
+ru;Фернандес;Fernández
+ar;فرنانديز;Fernández
+fr;Fernandez;Fernández
+hi;फर्नांडेज़;Fernández
+de;Fernandez;Fernández
+ja;フェルナンデス;Fernández
+es;Federación;La Federación
+ru;Фаматина;Famatina
+ar;فاماتينا;Famatina
+hi;फामतिना;Famatina
+ja;ファマティナ;Famatina
+en;Famailla;Famaillá
+ru;Фамаилья;Famaillá
+ar;فاماييلا;Famaillá
+es;Famailla;Famaillá
+fr;Famailla;Famaillá
+hi;फामैला;Famaillá
+de;Famailla;Famaillá
+ja;ファマイジャ;Famaillá
+pt;Famailla;Famaillá
+es;Establecimiento Las Costas;Las Costas
+es;Esquinas de Arriba;Las Esquinas
+ru;Эскель;Esquel
+ar;آيسكيول;Esquel
+zh;埃斯克爾;Esquel
+es;Espinillo;El Espinillo
+ru;Эсперанса;Esperanza
+ar;إسبيرانزا;Esperanza
+hi;एस्पेरांजा;Esperanza
+ja;エスペランサ;Esperanza
+pt;Esperança;Esperanza
+es;Espartar;El Espartal
+es;Estancia El Zorro;El Zorro
+es;El Veinticinco;Veinticinco de Mayo Sur
+es;25 de Mayo Sur;Veinticinco de Mayo Sur
+es;El Vallecito;Vallecito
+es;Puesto El Tala;El Tala
+en;Villa Angelica;Villa Angélica
+es;El Rosario;Rosario
+es;El Río Grande;Río Grande
+es;Estancia El Retiro;El Retiro
+es;Estancia El Reducto;El Reducto
+es;Palmar 1;Palmar Uno
+es;Almacén El Ojo de Agua;Ojo de Agua
+es;El Morterito;Los Morteritos
+es;Estancia El Morito;El Morito
+es;Estancia El Molino;Colonia El Molino
+es;Estancia El Lucero;El Lucero
+en;El Huecu;El Huecú
+ru;Эль Уэку;El Huecú
+ar;إل هويكو;El Huecú
+es;El Huecu;El Huecú
+fr;El Huecu;El Huecú
+hi;एल ह्यूकू;El Huecú
+de;El Huecu;El Huecú
+ja;エル・ウエク;El Huecú
+pt;El Huecu;El Huecú
+es;El Hualco;El Huaico
+es;Hito 1;Hito Uno
+es;El Gritado;El Gritao
+es;El Graciano;Garciano
+es;Estancia El Diablo;El Diablo
+ru;Эль Кай;El Cuy
+ar;إل كوي;El Cuy
+hi;एल कुय;El Cuy
+ja;エル・クイ;El Cuy
+es;El Corralito;Corralito
+es;El Chinchillal;Chichillal
+es;Estancia El Carmen;El Carmen
+ru;Эль Кармен;El Carmen
+ar;إل كارمن;El Carmen
+hi;एल कार्मेन;El Carmen
+ja;エル・カルメン;El Carmen
+es;Estancia Cano;El Cano
+es;Estancia El Cambrado;El Cambiado
+es;Calafate;El Calafate
+ru;Эль Калафате;El Calafate
+ja;カラファテ;El Calafate
+ja;エル・カラファテ;El Calafate
+zh;埃尔卡拉法特;El Calafate
+ar;الكالافات;El Calafate
+ko;엘칼라파테;El Calafate
+es;El Cadillol;El Cadillal
+es;Estancia El Cadillo;El Cadillo
+es;El Bravo;Pozo El Bravo
+zh;埃爾博爾松;El Bolsón
+es;El Aybal;El Aibal
+ru;Эль Альто;El Alto
+ar;إل ألتو;El Alto
+hi;एल अल्टो;El Alto
+ja;エル・アルト;El Alto
+es;Estancia El Algarrobo;El Algarrobo
+es;Estancia El Alba;El Alba
+es;Eje Abajo;El Eje
+ru;Эдуардо Кастекс;Eduardo Castex
+ar;إدوارد كاستكس;Eduardo Castex
+hi;एडुआर्डो कास्टेक्स;Eduardo Castex
+ja;エドゥアルド・カステックス;Eduardo Castex
+es;Duraznito;El Duraznito
+ru;Доблас;Doblas
+ru;Диаманте;Diamante
+ar;ديامانتي;Diamante
+hi;डियमांते;Diamante
+ja;ディアマンテ;Diamante
+ru;Девото;Devoto
+es;Desvío La Paloma;La Paloma
+es;Desvío Kilómetro 1342;Kilómetro 1342
+en;Dean Funes;Deán Funes
+ru;Дин Фунес;Deán Funes
+ar;ديان فونيس;Deán Funes
+es;Dean Funes;Deán Funes
+fr;Dean Funes;Deán Funes
+hi;डीन फ्यून्स;Deán Funes
+de;Dean Funes;Deán Funes
+ja;ディーン・フネス;Deán Funes
+pt;Dean Funes;Deán Funes
+ru;Дайро;Daireaux
+ar;دايرو;Daireaux
+hi;डेरौक्स;Daireaux
+ja;ダイレ;Daireaux
+es;Cuchiyacú;Cochiyaco
+en;Cuchillo Co;Cuchillo Có
+ru;Кучильо Ко;Cuchillo Có
+ar;كوتشيلو كو;Cuchillo Có
+fr;Cuchillo Co;Cuchillo Có
+hi;कुचिलो को;Cuchillo Có
+de;Cuchillo Co;Cuchillo Có
+ja;クチージョ・コ;Cuchillo Có
+pt;Cuchillo Co;Cuchillo Có
+ru;Крус дель Эхе;Cruz del Eje
+ar;كروز ديل إيخي;Cruz del Eje
+hi;क्रूज़ डेल एजे;Cruz del Eje
+ja;クルス・デル・エヘ;Cruz del Eje
+es;Crucecita;Crucesitas
+ar;كوسكيون;Cosquín
+zh;科斯金;Cosquín
+en;Cosquin;Cosquín
+ru;Косквин;Cosquín
+fr;Cosquin;Cosquín
+hi;कोस्क्विन;Cosquín
+de;Cosquin;Cosquín
+ja;コスキン;Cosquín
+ru;Корсуэла;Corzuela
+ar;كورزويلا;Corzuela
+hi;कोरज़ुएला;Corzuela
+ja;コルスエラ;Corzuela
+ru;Коронель-Суарез;Coronel Suárez
+ar;كورونيل سوريز;Coronel Suárez
+fr;Coronel Suarez;Coronel Suárez
+hi;कर्नल सुआरेज़;Coronel Suárez
+de;Coronel Suarez;Coronel Suárez
+ja;コロネル・スアレス;Coronel Suárez
+pt;Coronel Suarez;Coronel Suárez
+ru;Полковник Принглес;Coronel Pringles
+ar;كورونيل برينجليس;Coronel Pringles
+hi;कर्नल प्रिंगलेस;Coronel Pringles
+ja;コロネル・プリングレス;Coronel Pringles
+ru;Полковник Доррего;Coronel Dorrego
+ar;كورونيل دوريغو;Coronel Dorrego
+hi;कर्नल डोरेगो;Coronel Dorrego
+ja;コロネル・ドレゴ;Coronel Dorrego
+ru;Коронда;Coronda
+ar;كورندا;Coronda
+hi;कोरोंडा;Coronda
+ja;コロンダ;Coronda
+es;Ciudad de Córdoba;Córdoba
+pt;Córdova;Córdoba
+ja;コルドバ;Córdoba
+ar;كوردوبا;Córdoba
+ru;Кордова;Córdoba
+ko;코르도바;Córdoba
+zh;科尔多瓦;Córdoba
+hi;कोर्डोबा;Córdoba
+es;Cóndorhuasi;Cóndor Huasi
+ar;كونسبسيون، توكومان;Concepción
+zh;康塞普西翁;Concepción
+hi;कॉन्सेपसियॉन;Concepción
+en;Concaran;Concarán
+ru;Конкаран;Concarán
+ar;كونكاران;Concarán
+fr;Concaran;Concarán
+hi;कॉनकारान;Concarán
+de;Concaran;Concarán
+ja;コンカラン;Concarán
+pt;Concaran;Concarán
+ja;コモドーロ・リバダビア;Comodoro Rivadavia
+ru;Комодоро-Ривадавия;Comodoro Rivadavia
+zh;里瓦达维亚海军准将城;Comodoro Rivadavia
+ar;كومودورو ريفادافيا;Comodoro Rivadavia
+ko;코모도로리바다비아;Comodoro Rivadavia
+hi;कोमोडोरो रिवाडाविया;Comodoro Rivadavia
+es;Comedero;El Comedero
+es;Colonia Nieves;Colonia Nievas
+es;Colonia Mackinlay;Colonia Mackinlay Sur
+es;La Brava;Colonia La Brava
+es;Colonia 10 de Julio;Colonia Diez de Julio
+hi;कोलोन;Colón
+es;Codihué;Codihue
+en;Plaza Clucellas;Clucellas
+es;Estación Loreto;Villa San Martín
+ru;Чиполлетти;Cipolletti
+zh;西波列蒂;Cipolletti
+ar;كيبوليتي;Cipolletti
+ru;Чумбича;Chumbicha
+ar;تشومبيتشا;Chumbicha
+hi;चुम्बिचा;Chumbicha
+ja;チュムビチャ;Chumbicha
+ru;Чос-Малаль;Chos Malal
+zh;喬斯馬拉爾;Chos Malal
+ar;تشوس مالال;Chos Malal
+hi;चोस मालल;Chos Malal
+ja;チョス・マラル;Chos Malal
+es;Chorro;El Chorro
+es;Choiqué;Choique
+ru;Чоэле-Чоэль;Choele Choel
+ar;تشويلي تشويل;Choele Choel
+hi;चोएले चोएल;Choele Choel
+ja;チョエレ・チョエル;Choele Choel
+es;Chiyuyoc;Chiyayoc
+zh;奇維爾科伊;Chivilcoy
+ar;تشيفيلكوي;Chivilcoy
+ru;Чивилкой;Chivilcoy
+hi;चिविलकॉय;Chivilcoy
+ja;チビルコイ;Chivilcoy
+ru;Чимбас;Chimbas
+ar;تشيمباس;Chimbas
+hi;चिम्बास;Chimbas
+ja;チンバス;Chimbas
+ru;Чилесито;Chilecito
+zh;奇萊西托;Chilecito
+ar;تشيليسيتو;Chilecito
+hi;चिलेसिटो;Chilecito
+ja;チレシート;Chilecito
+es;Chilca;Chilca La Loma
+ru;Чикоана;Chicoana
+ar;تشيكوانا;Chicoana
+hi;चिकोआना;Chicoana
+ja;チコアナ;Chicoana
+es;Chicligasta;Villa Chicligasta
+pt;Chepes;Villa Chepes
+en;Chepes;Villa Chepes
+it;Chepes;Villa Chepes
+fr;Chepes;Villa Chepes
+es;Chepes;Villa Chepes
+zh;切佩斯;Villa Chepes
+ja;チェペス;Villa Chepes
+nl;Chepes;Villa Chepes
+ru;Чепес;Chepes
+ar;تشيبيس;Chepes
+hi;चेपेस;Chepes
+ja;チェペス;Chepes
+ar;شاراتا;Charata
+zh;查拉塔;Charata
+ru;Чарата;Charata
+hi;चाराता;Charata
+ja;チャラタ;Charata
+ru;Чамикаль;Chamical
+ar;تشاميكال;Chamical
+hi;चामिकल;Chamical
+ja;チャミカル;Chamical
+ru;Чакабуко;Chacabuco
+ar;تشاكابوكو;Chacabuco
+hi;चाकाबुको;Chacabuco
+ja;チャカブコ;Chacabuco
+es;Cerro Rico;Cerro Chico
+en;Cerrillos;San José de los Cerrillos
+ru;Серрильос;San José de los Cerrillos
+ar;سيريلوس;San José de los Cerrillos
+es;Cerrillos;San José de los Cerrillos
+fr;Cerrillos;San José de los Cerrillos
+hi;सेरिलोस;San José de los Cerrillos
+de;Cerrillos;San José de los Cerrillos
+ja;セリージョス;San José de los Cerrillos
+pt;Cerrillos;San José de los Cerrillos
+es;Ceibal;El Ceibal
+zh;考塞特;Caucete
+ru;Каусете;Caucete
+ar;كاوسيتي;Caucete
+hi;कौसेटे;Caucete
+ja;カウセテ;Caucete
+en;Catrilo;Catriló
+ru;Катрило;Catriló
+ar;كاتريلو;Catriló
+es;Catrilo;Catriló
+fr;Catrilo;Catriló
+hi;कैट्रिलो;Catriló
+de;Catrilo;Catriló
+ja;カトリーロ;Catriló
+pt;Catrilo;Catriló
+en;Colonia Catinzaco;Catinzaco
+en;Juan Jose Castelli;Juan José Castelli
+ru;Хуан Хосе Кастелли;Juan José Castelli
+ar;خوان خوسيه كاستيلي;Juan José Castelli
+hi;जुआन होसे कास्टेली;Juan José Castelli
+ja;フアン・ホセ・カステリ;Juan José Castelli
+ru;Касильда;Casilda
+ar;كاسيلدا;Casilda
+hi;कसिल्डा;Casilda
+ja;カシルダ;Casilda
+ru;Кармен-де-Патагонес;Carmen de Patagones
+ar;كارمن دي باتاغونيس;Carmen de Patagones
+hi;कार्मेन डे पैटागोनेस;Carmen de Patagones
+ja;カルメン・デ・パタゴネス;Carmen de Patagones
+ru;Карлос Техедор;Carlos Tejedor
+ar;كارلوس تيخيدور;Carlos Tejedor
+hi;कार्लोस टेजेडोर;Carlos Tejedor
+ja;カルロス・テヘドル;Carlos Tejedor
+ru;Карлос Касарес;Carlos Casares
+ar;كارلوس كاسارس;Carlos Casares
+hi;कार्लोस कसारेस;Carlos Casares
+ja;カルロス・カサレス;Carlos Casares
+en;Carhue;Carhué
+ru;Карху;Carhué
+ar;كارهوي;Carhué
+fr;Carhue;Carhué
+hi;कारहु;Carhué
+de;Carhue;Carhué
+ja;カルフエ;Carhué
+pt;Carhue;Carhué
+es;Carachipampa;Carachi Pampa
+es;Capillitas;Mina Capillitas
+zh;卡皮亞德爾蒙特;Capilla del Monte
+es;Candelaria;La Candelaria
+ru;Канада-де-Гомес;Cañada de Gómez
+en;Canada de Gomez;Cañada de Gómez
+ar;كانيدا دي جوميز;Cañada de Gómez
+hi;कनाडा डे गोमेज़;Cañada de Gómez
+ja;カナダ・デ・ゴメス;Cañada de Gómez
+ru;Кампо-Ларго;Campo Largo
+ar;كامبو لارغو;Campo Largo
+hi;कैम्पो लार्गो;Campo Largo
+ja;カンポ・ラルゴ;Campo Largo
+ru;Кампо-Гальо;Campo Gallo
+ar;كامبو جالو;Campo Gallo
+hi;कैम्पो गैलो;Campo Gallo
+ja;カンポ・ガロ;Campo Gallo
+zh;卡馬羅內斯;Camarones
+ru;Камаронес;Camarones
+ar;كاماروني;Camarones
+hi;कामरोनेस;Camarones
+ja;カマローネス;Camarones
+ru;Калета-Оливия;Caleta Olivia
+zh;卡萊塔奧利維亞;Caleta Olivia
+ru;Кафайат;Cafayate
+zh;卡法亞特;Cafayate
+es;Cachí Adentro;Cachi Adentro
+ru;Качи;Cachi
+ar;كاتشي;Cachi
+hi;काची;Cachi
+ja;カチ;Cachi
+es;Butacó;Buta Co
+en;Villa Burruyacu;Villa Burruyacú
+ru;Вилья-Буррухаку;Villa Burruyacú
+ar;فيلا بوروياكو;Villa Burruyacú
+fr;Villa Burruyacu;Villa Burruyacú
+hi;विला बुरुयाकु;Villa Burruyacú
+de;Villa Burruyacu;Villa Burruyacú
+ja;ビリャ・ブルユアク;Villa Burruyacú
+pt;Villa Burruyacu;Villa Burruyacú
+es;Puesto Buenos Aires;Buenos Aires
+ru;Буэна-Эсперанса;Buena Esperanza
+ar;بويناإسبيرانثا;Buena Esperanza
+hi;बुएना एस्पेरांजा;Buena Esperanza
+ja;ブエナ・エスペランサ;Buena Esperanza
+ru;Бринкманн;Brinkmann
+es;Breayol;Breayoj
+ru;Бреа-Позо;Brea Pozo
+ar;بريا بوزو;Brea Pozo
+hi;ब्रेया पोजो;Brea Pozo
+ja;ブレア・ポソ;Brea Pozo
+ar;براغدو;Bragado
+zh;布拉加多;Bragado
+ru;Брагадо;Bragado
+hi;ब्रागाडो;Bragado
+ja;ブラガド;Bragado
+es;Bordeu;Villa Bordeau
+es;Boquerón;El Boquerón
+es;Bobadal;El Bobadal
+es;Blanca Grande;Blancagrande
+ru;Бернасконі;Bernasconi
+ar;برناسكوني;Bernasconi
+hi;बर्नास्कोनी;Bernasconi
+ja;ベルナスコーニ;Bernasconi
+zh;貝爾維爾;Bell Ville
+ar;بيل فيل;Bell Ville
+ru;Белл-Віль;Bell Ville
+hi;बेल विल;Bell Ville
+ja;ベル・ビル;Bell Ville
+ru;Белла-Віста;Bella Vista
+hi;बेला विस्ता;Bella Vista
+ja;ベラ・ビスタ;Bella Vista
+zh;貝倫;Belén
+en;Belen;Belén
+ru;Белен;Belén
+ar;بيلين;Belén
+fr;Belen;Belén
+hi;बेलेन;Belén
+de;Belen;Belén
+ja;ベレン;Belén
+pt;Belem;Belén
+es;Barroso;La Barrosa
+es;Barrancayoj;Pozo Barrancayoj
+es;Baños Talacasto;Termas de Talacasto
+ru;Бандера;Bandera
+ar;باندیرا;Bandera
+hi;बंडेरा;Bandera
+ja;バンデラ;Bandera
+en;Banda del Rio Sali;Banda del Río Salí
+ru;Банда-дель-Ріо-Салі;Banda del Río Salí
+ar;باندا ديل ريو سالي;Banda del Río Salí
+fr;Banda del Rio Sali;Banda del Río Salí
+hi;बांडा देल रीओ सली;Banda del Río Salí
+de;Banda del Rio Sali;Banda del Río Salí
+ja;バンダ・デル・リオ・サリ;Banda del Río Salí
+pt;Banda del Rio Sali;Banda del Río Salí
+en;Banado de Ovanta;Bañado de Ovanta
+ru;Банадо-де-Ованта;Bañado de Ovanta
+ar;باناديو دي أوفانتا;Bañado de Ovanta
+fr;Banado de Ovanta;Bañado de Ovanta
+hi;बनाडो डे ओवांता;Bañado de Ovanta
+de;Banado de Ovanta;Bañado de Ovanta
+ja;バナド・デ・オバンタ;Bañado de Ovanta
+pt;Banado de Ovanta;Bañado de Ovanta
+ar;باهيا بلانكا;Bahía Blanca
+ru;Байя-Бланка;Bahía Blanca
+ja;バイアブランカ;Bahía Blanca
+ko;바이아블랑카;Bahía Blanca
+ru;Баия-Бланка;Bahía Blanca
+zh;布兰卡港;Bahía Blanca
+hi;बाहिया ब्लांका;Bahía Blanca
+pt;Bahia Blanca;Bahía Blanca
+es;Azulcuesta;Azul Cuesta
+es;Azampay;Asampay
+es;Ayudante;El Ayudante
+es;Atoj Pozo;Aloj Pozo
+es;Aspirante;Fortín Aspirante
+es;Artigal;Antigal
+ru;Арруфо;Arrufo
+ru;Арройо-Секо;Arroyo Seco
+en;Arroyo de La Ventana;Arroyo Ventana
+nl;Arroyo de La Ventana;Arroyo Ventana
+ru;Арресіфес;Arrecifes
+ar;أريسيفيس;Arrecifes
+hi;अरेसिफस;Arrecifes
+ja;アレシフェス;Arrecifes
+en;Arraga;Árraga
+ru;Аррага;Árraga
+ar;أراغا;Árraga
+fr;Arraga;Árraga
+hi;अरागा;Árraga
+de;Arraga;Árraga
+ja;アラガ;Árraga
+pt;Arraga;Árraga
+es;Aromito;El Aromito
+ru;Армстронг;Armstrong
+es;Arenal;Arenal Viejo
+ru;Арата;Arata
+es;Apuyaco;Apoyaco
+ru;Антофагаста-де-ла-Сьєрра;Antofagasta de la Sierra
+ar;أنتوفاغاستا ديلا سيرا;Antofagasta de la Sierra
+hi;एंटोफागास्ता डे ला सिएरा;Antofagasta de la Sierra
+ja;アントファガスタ・デ・ラ・シエラ;Antofagasta de la Sierra
+es;Antaje;Antajé
+es;Anta;Cabeza de Anta
+es;Animán;Amimán
+en;Colonia Anguinán;Anguinán
+es;Angostura;La Angostura
+en;Anelo;Añelo
+ru;Анело;Añelo
+ar;أنيلو;Añelo
+fr;Anelo;Añelo
+hi;अनेलो;Añelo
+de;Anelo;Añelo
+ja;アネロ;Añelo
+pt;Anelo;Añelo
+en;Andalgala;Andalgalá
+ru;Андальгала;Andalgalá
+ar;أندالغالا;Andalgalá
+fr;Andalgala;Andalgalá
+hi;एंडलगाला;Andalgalá
+de;Andalgala;Andalgalá
+ja;アンダルガラ;Andalgalá
+pt;Andalgala;Andalgalá
+ru;Андаколло;Andacollo
+ar;أندكولو;Andacollo
+hi;एंडाकोलो;Andacollo
+ja;アンダコロ;Andacollo
+ru;Анкасті;Ancasti
+ar;أنكاستي;Ancasti
+hi;एंकास्टी;Ancasti
+ja;アンカスティ;Ancasti
+en;Anatuya;Añatuya
+ru;Анатуя;Añatuya
+ar;أناتويا;Añatuya
+es;Anatuya;Añatuya
+fr;Anatuya;Añatuya
+hi;एनाटुया;Añatuya
+de;Anatuya;Añatuya
+ja;アナトゥヤ;Añatuya
+pt;Anatuya;Añatuya
+ru;Амінга;Aminga
+ar;أمينغا;Aminga
+hi;अमिंगा;Aminga
+ja;アミンガ;Aminga
+ru;Флорентіно-Амегіно;Florentino Ameghino
+ar;فلورنتينو أميغينو;Florentino Ameghino
+hi;फ्लोरेंटिनो अमेघिनो;Florentino Ameghino
+ja;フロレンティーノ・アメギーノ;Florentino Ameghino
+en;Alumine;Aluminé
+ru;Алюміне;Aluminé
+ar;ألومين;Aluminé
+fr;Alumine;Aluminé
+hi;अलुमाइन;Aluminé
+de;Alumine;Aluminé
+ja;アルミネ;Aluminé
+en;Alto Rio Senguer;Alto Río Senguer
+ru;Альто-Ріо-Сенгер;Alto Río Senguer
+ar;ألتو ريو سينغر;Alto Río Senguer
+fr;Alto Rio Senguer;Alto Río Senguer
+hi;अल्टो रीओ सेंगुएर;Alto Río Senguer
+de;Alto Rio Senguer;Alto Río Senguer
+ja;アルト・リオ・センゲル;Alto Río Senguer
+pt;Alto Rio Senguer;Alto Río Senguer
+ru;Альта-Грация;Alta Gracia
+zh;上格拉西亞;Alta Gracia
+ar;ألتا غراسيا;Alta Gracia
+hi;अल्टा ग्रेसिया;Alta Gracia
+ja;アルタ・グラシア;Alta Gracia
+es;Almona;La Almona
+es;Puesto de Allega;Puerta de Allega
+en;Algarrobo del Aguila;Algarrobo del Águila
+ru;Алгарробо-дель-Агіла;Algarrobo del Águila
+ar;الغاروبو ديل أغيلا;Algarrobo del Águila
+fr;Algarrobo del Aguila;Algarrobo del Águila
+hi;अलगरोबो डेल अगीला;Algarrobo del Águila
+de;Algarrobo del Aguila;Algarrobo del Águila
+ja;アルガロボ・デル・アギラ;Algarrobo del Águila
+pt;Algarrobo del Aguila;Algarrobo del Águila
+es;Algarrobal;El Algarrobal
+es;Alemania;Alemanía
+ru;Альберти;Alberti
+ar;ألبيرتي;Alberti
+hi;अल्बर्टी;Alberti
+ja;アルベルティ;Alberti
+es;Albardón;El Albardón
+ru;Аймогаста;Aimogasta
+ar;أيموغاستا;Aimogasta
+hi;ऐमोगास्ता;Aimogasta
+ja;アイモガスタ;Aimogasta
+ru;Агиларес;Aguilares
+ar;أجويلاريس;Aguilares
+hi;एगुइलारेस;Aguilares
+ja;アギラレス;Aguilares
+es;Aguilar;San José de Aguilar
+es;Agua Colorada;Aguas Coloradas
+es;Colonia Agraria Sepaucal;Colonia Agrícola Sepaucal
+en;Adolfo Gonzales Chaves;Adolfo Gonzáles Chaves
+ru;Адольфо Гонсалес Чавес;Adolfo Gonzáles Chaves
+ar;أدولفو غونسالس تشافيس;Adolfo Gonzáles Chaves
+es;Adolfo Gonzales Chaves;Adolfo Gonzáles Chaves
+fr;Adolfo Gonzales Chaves;Adolfo Gonzáles Chaves
+hi;एडोल्फो गोंजालेस चावेस;Adolfo Gonzáles Chaves
+de;Adolfo Gonzales Chaves;Adolfo Gonzáles Chaves
+ja;アドルフォ・ゴンサレス・チャベス;Adolfo Gonzáles Chaves
+pt;Adolfo Gonzales Chaves;Adolfo Gonzáles Chaves
+es;Acoite;Acoyte
+es;Achibarca;Archibarca
+ru;Абра Памpa;Abra Pampa
+ar;أبرا بامبا;Abra Pampa
+hi;अब्रा पाम्पा;Abra Pampa
+ja;アブラ・パンパ;Abra Pampa
+ru;Аарон-Кастельянос;Aarón Castellanos
+ru;Вилья Катедраль;Villa Catedral
+ru;Эль Чалтен;El Chaltén
+ja;ビジャ・メルセデス;Villa Mercedes
+zh;梅塞德斯鎮;Villa Mercedes
+ar;فيلا مرسيدس، سان لويس;Villa Mercedes
+ko;비야메르세데스;Villa Mercedes
+es;Valle de Las Leñas;Las Leñas
+ja;アベジャネーダ;Avellaneda
+ko;아베야네다;Avellaneda
+zh;阿韦亚内达;Avellaneda
+ar;أفيانيدا;Avellaneda
+hi;एवेलनेडा;Avellaneda
+zh;諾德塔;Nordelta
+ru;Вилла-Мартелли;Villa Martelli
+zh;马特利镇;Villa Martelli
+ja;ビージャ・マルテリ;Villa Martelli
+ar;فيلا أديلينا;Villa Adelina
+zh;阿德利娜鎮;Villa Adelina
+ru;Вилья-Аделина;Villa Adelina
+ja;ヴィラ・アデリーナ;Villa Adelina
+ar;سان ميغيل، بوينس آيرس;San Miguel
+zh;聖米格爾;San Miguel
+ru;Сан Мигел;San Miguel
+ru;Андресито;Andresito
+ru;Лас-Грутас;Las Grutas
+ru;Сан Карлос де Барилоче;San Carlos de Bariloche
+de;Bariloche;San Carlos de Bariloche
+nl;Bariloche;San Carlos de Bariloche
+ar;باريلوتشي;San Carlos de Bariloche
+ja;サン・カルロス・デ・バリローチェ;San Carlos de Bariloche
+ko;산카를로스데바릴로체;San Carlos de Bariloche
+pt;Bariloche;San Carlos de Bariloche
+ru;Сан-Карлос-де-Барилоче;San Carlos de Bariloche
+zh;圣卡洛斯-德巴里洛切;San Carlos de Bariloche
+en;Bariloche;San Carlos de Bariloche
+fr;Bariloche;San Carlos de Bariloche
+gn;Bariloche;San Carlos de Bariloche
+es;Bariloche;San Carlos de Bariloche
+it;Bariloche;San Carlos de Bariloche
+ar;مورينو;Moreno
+ru;Морено;Moreno
+zh;莫雷諾;Moreno
+es;Estancia San Justo;Colonia San Justo
+es;Estancia Loma Negra;Loma Negra
+es;Colonia Ensanche General Roca;Colonia General Roca
+es;Estancia Santa Juana;Colonia Santa Juana
+es;La Florida;Colonia La Florida
+es;Estancia El Paso del Gallo;Paso del Gallo
+en;Yacimientos Río Turbio;Río Turbio
+ru;Адроге;Adrogué
+zh;布宜諾斯艾利斯;Adrogué
+ar;أدروغي;Adrogué
+ru;Толуин;Tolhuin
+ar;تولهوين;Tolhuin
+hi;टोलहुइन;Tolhuin
+ja;トルウィン;Tolhuin
+es;Unión Ferroviaria;La Unión
+es;20 de Junio;Veinte de Junio
+es;Estancia Las Lilas;Las Lilas
+es;Estancia San Jorge;San Jorge
+es;Estancia El Cóndor;El Cóndor
+es;Barrio Parque El Remanso;El Remanso
+es;Podesta;Pablo Podestá
+es;Nuevo Pueblo;Pueblo Nuevo
+es;Arroyo Luna;Arroyo de Luna
+es;San Alberto;Villa San Alberto
+es;Villa Flandria;Villa Flandria Norte
+es;Barrio Marabo;Barrio Morabo
+es;Barrio Parque El Cazador;El Cazador
+es;Villa José Ingenieros;José Ingenieros
+es;Barrio Parque Trujui;Trujui
+es;Villa Marqués de Aguado;Villa Marqués Alejandro María de Aguado
+es;Villa General Necochea;Villa General Eugenio Necochea
+es;Barrio Churruca;Churruca
+en;Rincon de Los Sauces;Rincón de Los Sauces
+ru;Ринкон де Лос Саусес;Rincón de Los Sauces
+ar;رينكون دي لوس سوسس;Rincón de Los Sauces
+hi;रिनकॉन डे लॉस सॉसेस;Rincón de Los Sauces
+ja;リンコン・デ・ロス・サウセス;Rincón de Los Sauces
+en;Jose C. Paz;José C. Paz
+ru;Хосе К. Пас;José C. Paz
+ar;خوسيه سي باز;José C. Paz
+hi;जोसे सी. पाज़;José C. Paz
+de;Jose C. Paz;José C. Paz
+ja;ホセ・C・パス;José C. Paz
+es;Mina 9 de Octubre;Mina Nueve de Octubre
+es;5ta Brigada;Quinta Brigada
+es;Cushamen Centro;Cushamen
+es;28 de Julio;Veintiocho de Julio
+es;Lago Número 5;Lago Número Cinco
+es;Frontera de Río Pico;Doctor Oscar Atilio Viglione
+es;Lago Número 4;Lago Número Cuatro
+es;Lago Número 3;Lago Número Tres
+es;Lago Número 1;Lago Número Uno
+es;Lago Número 2;Lago Número Dos
+es;11 de Octubre;Once de Octubre
+es;Paso Mina 1;Paso Mina Uno
+es;Mina 3;Mina Tres
+es;Lote 8;Lote Ocho
+es;Lote 20;Lote Veinte
+es;Lote 1;Lote Uno
+es;Lote 9;Lote Nueve
+es;Lote 108 Ladrillería;Lote Ciento Ocho Ladrillería
+es;Colonia 14 de Mayo;Colonia Catorce de Mayo
+es;Lote 219;Lote Dos Cientos Diecinueve
+es;Colonia 15;Colonia Quince
+es;Cabo 1° Noroña;Cabo Primero Noroña
+es;Lote 11;Lote Once
+es;Colonia 20 de Junio;Colonia Veinte de Junio
+es;Isla 25 de Mayo;Isla Veinticinco de Mayo
+es;Comunidad 7 de Junio;Comunidad Siete de Junio
+es;Lote 17 Legua A;Lote Diecisiete Legua A
+es;9 de Julio;Nueve de Julio
+es;El 50;El Cincuenta
+es;Colonia 5 de Octubre;Colonia Cinco de Octubre
+es;Cerro 60;Cerro Sesenta
+es;El 48;El Cuarenta y Ocho
+es;9 de Julio Kilómetro 20;Nueve de Julio Kilómetro 20
+es;3 de Mayo;Tres de Mayo
+es;1° de Mayo;Primero de Mayo
+es;Colonia 9 de Julio;Colonia Nueve de Julio
+es;Barrio Escuela 461;Barrio Escuela Cuatro Cientos Sesenta y Uno
+es;Picada 37;Picada Treinta y Siete
+es;28 de Diciembre;Veintiocho de Diciembre
+es;11 de Septiembre;Once de Septiembre
+es;Barrio Isla 10;Barrio Isla Diez
+es;Barrio Calle Ciega Número 6;Barrio Calle Ciega Número Seis
+es;Bajo San Cayetano;Paraje Arroyón
+es;Barrio Calle Ciega Número 10;Barrio Calle Ciega Número Diez
+es;Barrio Ruta 40;Barrio Ruta Cuarenta
+es;Misión Kilómetro Seis;Misión Kilómetro 6
+es;Boliche El 24;Boliche El Veinticuatro
+es;Colonia El 25;Colonia El Veinticinco
+es;Comunidad Lote 8;Comunidad Lote Ocho
+es;Centro 25 de Junio;Centro Veinticinco de Junio
+ru;Ла Колония;La Colonia
+ar;لا كولونيا;La Colonia
+hi;ला कोलोनिया;La Colonia
+ja;ラ・コロニア;La Colonia
+es;Barrio 12 de Octubre;Barrio Doce de Octubre
+es;El 15;El Quince
+es;1° de Agosto;Primero de Agosto
+es;Villa 7 de Marzo;Villa Siete de Marzo
+es;Colonia 7 de Marzo;Colonia Siete de Marzo
+es;Lote 39;Lote Treinta y Nueve
+es;El 16;El Dieciséis
+es;Laguna El 20;Laguna El Veinte
+es;El 27;El Veintisiete
+es;Colonia 17;Colonia Diecisiete
+es;Colonia Oficial Número 11;Colonia Oficial Número Once
+es;Colonia Oficial Número 22;Colonia Oficial Número Veintidós
+es;Colonia Oficial 5;Colonia Oficial Cinco
+es;Colonia Oficial Número 14;Colonia Oficial Número Catorce
+es;Colonia Oficial 18;Colonia Oficial Dieciocho
+es;Colonia Oficial Número 13;Colonia Oficial Número Trece
+es;Colonia Oficial 21;Colonia Oficial Veintiuno
+es;Colonia Oficial 9;Colonia Oficial Nueve
+es;Colonia Oficial 17;Colonia Oficial Diecisiete
+es;Colonia Oficial 16;Colonia Oficial Dieciséis
+es;Dique Número 1;Dique Número Uno
+es;La 38;La Treinta y Ocho
+es;Colonia 2 de Abril;Colonia Dos de Abril
+es;Colonia 1;Colonia Uno
+es;Colonia 10;Colonia Diez
+es;4 Sauces;Cuatro Sauces
+es;Colonia 8;Colonia Ocho
+es;Colonia 3 Sur;Colonia Tres Sur
+es;Colonia 16;Colonia Dieciséis
+es;Colonia 3;Colonia Tres
+es;El 25;El Veinticinco
+es;El 47;El Cuarenta y Siete
+es;Colonia 6;Colonia Seis
+es;Colonia 5;Colonia Cinco
+es;Colonia 14;Colonia Catorce
+es;Colonia 4 Sur;Colonia Cuatro Sur
+es;Colonia 2;Colonia Dos
+es;Colonia 2 Sur;Colonia Dos Sur
+es;2 de Abril;Dos de Abril
+es;Colonia 6 Sur;Colonia Seis Sur
+es;Colonia 4;Colonia Cuatro
+es;Pozo 43;Pozo Cuarenta y Tres
+es;Colonia 9 Sur;Colonia Nueve Sur
+es;Lote de Agua Dulce;Lotes de Agua Dulce
+es;El 43;El Cuarenta y Tres
+es;Colonia Manuel 1°;Colonia Manuel Primero
+es;30 de Diciembre;Treinta de Diciembre
+es;El 80;El Ochenta
+es;Los 4 Caminos;Los Cuatro Caminos
+es;14 de Mayo;Catorce de Mayo
+es;La Ramada;Campo La Ramada
+es;Primero de Mayo;Barrio Gilbert
+es;Lote 48;Lote Cuarenta y Ocho
+es;Lote 43;Lote Cuarenta y Tres
+es;Lote 40;Lote Cuarenta
+es;El 60;El Sesenta
+es;El 90;El Noventa
+es;Lote 110;Lote Ciento Diez
+es;Lote 115;Lote Ciento Quince
+es;Lote 28;Lote Veintiocho
+es;Lote 3;Lote Tres
+es;Lote 31;Lote Treinta y Uno
+es;Lote 87;Lote Ochenta y Siete
+es;Lote 29;Lote Veintinueve
+es;El 20;El Veinte
+es;Tramo 16;Tramo Dieciséis
+es;Lote 53;Lote Cincuenta y Tres
+es;Lote 63;Lote Sesenta y Tres
+es;Lote 32;Lote Treinta y Dos
+es;Lote 59;Lote Cincuenta y Nueve
+es;Tramo 20;Tramo Veinte
+es;Lote 69;Lote Sesenta y Nueve
+es;Tramo 26;Tramo Veintiséis
+es;Lote 15;Lote Quince
+es;Lote 33;Lote Treinta y Tres
+es;Lote 46;Lote Cuarenta y Seis
+es;Lote 24;Lote Veinticuatro
+es;25 de Mayo de Banegas;Veinticinco de Mayo de Banegas
+es;25 de Mayo;Veinticinco de Mayo
+es;El 49;El Cuarenta y Nueve
+es;Lote 23 Pampa Grande;Lote Veintitrés Pampa Grande
+es;Lote 17;Lote Diecisiete
+es;Lote 12;Lote Doce
+es;Lote 4;Lote Cuatro
+es;Lote 18;Lote Dieciocho
+es;Lote 91 y 101;Lote Noventa y Uno y Ciento Uno
+es;Lote 90;Lote Noventa
+es;Lote 176;Lote Ciento Setenta y Seis
+es;Lote 10;Lote Diez
+es;Lote 10 Sur;Lote Diez Sur
+es;Legua 19;Legua Diecinueve
+es;Lote 76;Lote Setenta y Seis
+es;Lote 13;Lote Trece
+es;Lote 45;Lote Cuarenta y Cinco
+es;Lote 27;Lote Veintisiete
+es;Lote 20 Legua A;Lote Veinte Legua A
+es;Lote 19;Lote Diecinueve
+es;Lote 14;Lote Catorce
+es;Lote 22;Lote Veintidós
+es;Lote 25;Lote Veinticinco
+es;Legua 131;Legua Ciento Treinta y Uno
+es;El 45;El Cuarenta y Cinco
+es;Lote 21;Lote Veintiuno
+es;Legua 54;Legua Cincuenta y Cuatro
+es;Lote 34;Lote Treinta y Cuatro
+es;Lote 7;Lote Siete
+es;Lote 5;Lote Cinco
+es;Colonia Pampa El 11;Colonia Pampa El Once
+es;Lote 23;Lote Veintitrés
+es;Colonia El 44;Colonia El Cuarenta y Cuatro
+es;2 de Mayo;Dos de Mayo
+es;Lote 82;Lote Ochenta y Dos
+es;Lote 96;Lote Noventa y Seis
+es;Lote Fiscal 16;Lote Fiscal Dieciséis
+es;Lote 88;Lote Ochenta y Ocho
+es;Lote 6;Lote Seis
+es;El 38;El Treinta y Ocho
+es;10 de Mayo;Diez de Mayo
+es;Lote 47;Lote Cuarenta y Siete
+es;Lote 4 El Loro Blanco;Lote Cuatro El Loro Blanco
+es;Lote 106;Lote Ciento Seis
+es;Lote 126;Lote Ciento Veintiséis
+es;Lote 71;Lote Setenta y Uno
+es;Legua 41;Legua Cuarenta y Uno
+es;Lote 30;Lote Treinta
+es;4 de Febrero;Cuatro de Febrero
+es;Lote 92;Lote Noventa y Dos
+es;Lote 9 Pampa Grande;Lote Nueve Pampa Grande
+es;Lote 50;Lote Cincuenta
+es;El Palo Santo 2;El Palo Santo Dos
+es;Campo 25 de Mayo;Campo Veinticinco de Mayo
+es;Base Orcadas;Orcadas Base
+fr;Base Antarctique Orcadas;Orcadas Base
+it;Distaccamento navale Orcadas;Orcadas Base
+ko;오르카다스 기지;Orcadas Base
+en;Orcadas;Orcadas Base
+en;Henryk Arctowski Polish Antarctic Station;Arctowski Station
+en;Henryk Arctowski Station;Arctowski Station
+en;Arctowski;Arctowski Station
+ru;Арцтовский;Arctowski Station
+de;Arctowski-Station;Arctowski Station
+en;Henryk Arctowski;Arctowski Station
+fr;Base Antarctique Arctowski;Arctowski Station
+ar;محطة هنريك أركتوسكي;Arctowski Station
+es;Base Henryk Arctowski;Arctowski Station
+it;Stazione antartica polacca Henryk Arctowski;Arctowski Station
+pt;Estação Antártica Polaca Henryk Arctowski;Arctowski Station
+es;Base General Artigas;General Artigas
+es;Base Antártica General Artigas;General Artigas
+en;Artigas Base;General Artigas
+en;Artigas;General Artigas
+ru;Артигас;General Artigas
+de;Base Científica Antártica Artigas;General Artigas
+it;Base Artigas;General Artigas
+es;Base Antártica Capitán Arturo Prat;Arturo Prat Base
+en;Captain Arturo Prat Base;Arturo Prat Base
+ar;محطة الكابتن أرتورو برات;Arturo Prat Base
+nl;Captain Arturo Prat Basis;Arturo Prat Base
+es;Base Naval Capitán Arturo Prat;Arturo Prat Base
+es;Base Capitán Arturo Prat;Arturo Prat Base
+es;Capitán Arturo Prat;Arturo Prat Base
+de;Arturo-Prat0-Station;Arturo Prat Base
+fr;Base Navale Capitán Arturo Prat;Arturo Prat Base
+pt;Base Capitão Arturo Prat;Arturo Prat Base
+en;Captain Arturo Prat;Arturo Prat Base
+en;Belgrano II;Belgrano II Base
+es;Base Belgrano II;Belgrano II Base
+ar;محطة الجنرال بلغرانو 2;Belgrano II Base
+ru;Бельграно II;Belgrano II Base
+de;Belgrano-II-Station;Belgrano II Base
+fr;Base Antarctique Belgrano II;Belgrano II Base
+it;Base dell'esercito generale Belgrano II;Belgrano II Base
+ru;Беллинсгаузен;Bellingshausen Station
+en;Bellingshouse;Bellingshausen Station
+de;Bellinghausen;Bellingshausen Station
+en;Bellingshausen Base;Bellingshausen Station
+es;Base Bellingshausen;Bellingshausen Station
+fr;Base Antarctique Bellingshausen;Bellingshausen Station
+pt;Estação Bellingshausen;Bellingshausen Station
+nl;Station Bellingshausen;Bellingshausen Station
+de;Bellingshausen-Station;Bellingshausen Station
+it;Stazione Bellingshausen;Bellingshausen Station
+ar;محطة بيلينغسهاوزن;Bellingshausen Station
+ja;ベリングスハウゼン;Bellingshausen Station
+en;Bellingshausen;Bellingshausen Station
+es;Base Carlini;Carlini Base
+fr;Base Antarctique Carlini;Carlini Base
+de;Carlini-Station;Carlini Base
+it;Stazione Carlini;Carlini Base
+en;Carlini;Carlini Base
+ar;محطة القائد فيراز;Comandante Ferraz
+ru;Команданте Феррас;Comandante Ferraz
+ja;コマンダンテ・フェラス;Comandante Ferraz
+it;Stazione Antarctica Comandante Ferraz;Comandante Ferraz
+es;Base Comandante Ferraz;Comandante Ferraz
+en;CZ*ECO Nelson;Eco-Nelson
+en;Eco Nelson;Eco-Nelson
+es;Base Eco Nelson;Eco-Nelson
+es;Base Julio Escudero;Julio Escudero Station
+es;Profesor Julio Escudero Base;Julio Escudero Station
+en;Professor Julio Escudero Antarctic Base;Julio Escudero Station
+en;Professor Julio Escudero Base;Julio Escudero Station
+es;Base Professor Julio Escudero;Julio Escudero Station
+en;Julio Escudero;Julio Escudero Station
+en;Great Wall;Great Wall Station
+zh-Hant;長城南極站;Great Wall Station
+ar;محطة السور العظيم;Great Wall Station
+ko;장성 기지;Great Wall Station
+de;Große-Mauer-Station;Great Wall Station
+es;Base Gran Muralla;Great Wall Station
+fr;Base Antarctique Grande Muraille;Great Wall Station
+fr;Grande Muraille;Great Wall Station
+es;Gran Muralla;Great Wall Station
+it;Stazione grande muraglia;Great Wall Station
+it;Grande Muraglia;Great Wall Station
+ru;Равсон;Rawson
+es;Loteo Vélez Crespo;San Ignacio
+es;Rincón Norte;Arroyo Leyes
+en;San Martin Base;San Martín Base
+es;Base San Martín;San Martín Base
+es;Base San Martin;San Martín Base
+fr;Base Antarctique San Martin;San Martín Base
+it;Base dell'esercito generale San Martín;San Martín Base
+en;San Martin;San Martín Base
+en;GARS-O'Higgins;German Antarctic Receiving Station
+es;Estación Alemana de Recepción Antártica;German Antarctic Receiving Station
+en;Vernadsky;Vernadsky Research Base
+en;Vernadsky Base;Vernadsky Research Base
+es;Base Vernadski;Vernadsky Research Base
+fr;Base antarctique Akademik-Vernadsky;Vernadsky Research Base
+pt;Estação Akademik Vernadsky;Vernadsky Research Base
+ru;Академик Вернадский;Vernadsky Research Base
+ar;محطة فيرنادسكي;Vernadsky Research Base
+ja;ベルナツキー基地;Vernadsky Research Base
+ja;ベルナツキ;Vernadsky Research Base
+nl;Akademik Vernadsky Station;Vernadsky Research Base
+de;Wernadski-Station;Vernadsky Research Base
+it;Base di ricerca Vernads'kyj;Vernadsky Research Base
+en;Marambio;Marambio Base
+es;Base Marambio;Marambio Base
+fr;Base Antarctique Marambio;Marambio Base
+fr;Base Antarctique Du Roi Sejong;King Sejong Station
+ko;세종과학기지;King Sejong Station
+pt;Estação Rei Sejong;King Sejong Station
+it;Base Scientifica Sejong;King Sejong Station
+es;Base Rey Sejong;King Sejong Station
+en;King Sejong;King Sejong Station
+ar;محطة الأميرال براون;Brown Station
+es;Base Brown;Brown Station
+es;Estación Científica Almirante Brown;Brown Station
+es;Estación Brown;Brown Station
+en;Brown;Brown Station
+fr;Almirante Brown;Brown Station
+fr;Base Antarctique Almirante-Brown;Brown Station
+pt;Base Antártica Almirante Brown;Brown Station
+it;Base ammiraglio Brown;Brown Station
+nl;Antarctische basis Almirante Brown;Brown Station
+en;Camara;Camara Base
+es;Cámara Base;Camara Base
+en;Cámara;Camara Base
+es;Base Cámara;Camara Base
+es;Teniente Luis Carvajal Villaroel;Teniente Luis Carvajal Villaroel Antarctic Base
+es;Base Carvajal;Teniente Luis Carvajal Villaroel Antarctic Base
+en;Carvajal;Teniente Luis Carvajal Villaroel Antarctic Base
+es;Teniente Carvajal;Teniente Luis Carvajal Villaroel Antarctic Base
+it;Base tenente Luis Carvajal Villaroel;Teniente Luis Carvajal Villaroel Antarctic Base
+de;Dallmann-Labor;Dallmann Laboratory
+en;Dallman;Dallmann Laboratory
+es;Laboratorio Dallmann;Dallmann Laboratory
+en;Deception;Deception Station
+es;Base Decepción;Deception Station
+es;Decepción;Deception Station
+en;Dirck Gerritsz;Dirck Gerritsz Laboratory
+nl;Dirck Gerritszlaboratorium;Dirck Gerritsz Laboratory
+es;Laboratorio Dirck Gerritsz;Dirck Gerritsz Laboratory
+es;Estación Científica Antártica Ruperto Elichiribehety;Ruperto Elichiribehety Antarctic Scientific Station
+en;Ruperto Elichiribehety;Ruperto Elichiribehety Antarctic Scientific Station
+en;Elichiribehety;Ruperto Elichiribehety Antarctic Scientific Station
+fr;Base Ruperto Elichiribehety;Ruperto Elichiribehety Antarctic Scientific Station
+en;Gabriel de Castilla;Gabriel de Castilla Base
+it;Base antartica spagnola dell'esercito Gabriel de Castilla;Gabriel de Castilla Base
+de;Gabriel-de-Castilla-Station;Gabriel de Castilla Base
+fr;Base Antarctique Gabriel de Castilla;Gabriel de Castilla Base
+pt;Estação Antártica Espanhola Gabriel de Castilla;Gabriel de Castilla Base
+en;Doctor Guillermo Mann;Doctor Guillermo Mann Base
+en;Guillermo Mann;Doctor Guillermo Mann Base
+es;Base Doctor Guillermo Mann;Doctor Guillermo Mann Base
+it;Base dottor Guillermo Mann;Doctor Guillermo Mann Base
+en;Juan Carlos I;Juan Carlos I Antarctic Base
+es;Base Antártica Española Juan Carlos I;Juan Carlos I Antarctic Base
+en;Juan Carlos 1;Juan Carlos I Antarctic Base
+de;Juan-Carlos-I.-Station;Juan Carlos I Antarctic Base
+fr;Base antarctique Juan Carlos I;Juan Carlos I Antarctic Base
+it;Base antartica spagnola Juan Carlos I;Juan Carlos I Antarctic Base
+en;Julio Ripamonti;Julio Ripamonti Base
+es;Refugio Julio Ripamonti;Julio Ripamonti Base
+fr;base Julio Ripamonti;Julio Ripamonti Base
+en;Captain Pieter J. Lenie;Captain Pieter J. Lenie Base
+en;Pieter J. Lenie;Captain Pieter J. Lenie Base
+en;Lenie;Captain Pieter J. Lenie Base
+en;Copacabana Field Station;Captain Pieter J. Lenie Base
+es;Base Copacabana;Captain Pieter J. Lenie Base
+it;Stazione Pieter J. Lenie;Captain Pieter J. Lenie Base
+en;Pieter J. Lenie Field Station;Captain Pieter J. Lenie Base
+en;Maldonado;Maldonado Base
+es;Base Maldonado;Maldonado Base
+es;Base Pedro Vicente Maldonado;Maldonado Base
+it;Stazione Pedro Vicente Maldonado;Maldonado Base
+es;Estación Pedro Vincente Maldonado;Maldonado Base
+es;Base Aérea Teniente Benjamín Matienzo;Lieutenant Benjamín Matienzo Air Base
+en;Lieutenant Benjamín Matienzo;Lieutenant Benjamín Matienzo Air Base
+en;Base Matienzo;Lieutenant Benjamín Matienzo Air Base
+en;Matienzo;Lieutenant Benjamín Matienzo Air Base
+es;Estación Matienzo;Lieutenant Benjamín Matienzo Air Base
+es;Base Melchior;Melchior Base
+en;Melchior;Melchior Base
+es;Estación Melchior;Melchior Base
+de;Melchior-Station;Melchior Base
+en;J.G. Mendel Czech Antarctic Station;Mendel Polar Station
+en;Mendel Station;Mendel Polar Station
+en;Mendel;Mendel Polar Station
+de;Mendel-Polarstation;Mendel Polar Station
+es;Base Johann Gregor Mendel;Mendel Polar Station
+pt;Estação Polar Mendel;Mendel Polar Station
+it;Stazione polare Mendel;Mendel Polar Station

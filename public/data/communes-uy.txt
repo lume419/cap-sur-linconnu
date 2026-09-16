@@ -1,0 +1,1002 @@
+0;-55.3333,-31.8000;45000;Tacuarembó Department;Zapucay
+553;-54.9422,-33.5228;34100;Lavalleja;Zapicán
+0;-56.0382,-31.6938;45000;Tacuarembó Department;Zapará
+0;-57.5511,-33.7944;75300;Soriano;Zanja Honda
+0;-54.6667,-31.8167;41200;Rivera Department;Zanja Honda
+0;-55.6667,-31.2167;40100;Rivera Department;Zanja Honda
+16756;-57.6269,-32.6984;65100;Río Negro Department;Young
+0;-56.8500,-30.2500;55000;Artigas;Yacot
+0;-54.5833,-32.5167;36200;Montevideo Department;Wenceslao Silveira
+0;-53.7867,-34.1979;27200;Rocha Department;Vuelta del Palmar
+0;-54.0667,-32.2000;37000;Cerro Largo;Villa Viñoles
+0;-56.3673,-34.0584;94000;Florida;Villa Vieja
+0;-54.9836,-34.3184;30000;Lavalleja;Villa Serrana
+1199;-54.4195,-33.2534;33000;Treinta y Tres Department;Villa Sara
+0;-53.9008,-33.2907;33000;Treinta y Tres Department;Villa Passano
+0;-56.1333,-34.6000;91500;Canelones;Villa Nueva
+0;-57.0500,-32.3333;60100;Río Negro Department;Villa Elisa
+0;-56.2529,-34.8944;11900;Montevideo Department;Villa del Cerro
+2703;-56.0094,-33.2394;97000;Durazno Department;Villa del Carmen
+0;-58.3500,-33.7667;70700;Soriano;Villa Alejandrina
+0;-56.2391,-34.8595;11900;Montevideo Department;Victoria
+3698;-54.6918,-31.7779;41200;Rivera Department;Vichadero
+3810;-53.9381,-32.9442;31100;Treinta y Tres Department;Vergara
+0;-55.4500,-32.6667;97000;Durazno Department;Verdún
+0;-56.8106,-31.5992;50000;Salto Department;Cerros de Vera
+1022;-54.2805,-34.0363;27300;Rocha Department;Velázquez
+0;-55.2333,-34.2833;91800;Lavalleja;Vejigas
+1852;-56.3394,-34.1892;95100;Florida;25 de Mayo
+1849;-56.4022,-34.4117;95400;Florida;25 de Agosto
+330;-53.7958,-34.3361;27200;Rocha Department;Barra de Valizas
+178;-55.1047,-33.2589;35100;Treinta y Tres Department;Valentines
+0;-57.1568,-31.2735;50000;Salto Department;Valentín Grande
+3235;-57.2625,-34.3396;70400;Colonia;Colonia Valdense
+0;-53.5167,-32.4833;37100;Cerro Largo;Uruguay
+1122;-54.7667,-32.8333;36100;Cerro Largo;Tupambaé
+0;-56.5333,-34.4000;80400;San José Department;Tropezón
+22897;-56.8996,-33.5165;85000;Flores Department;Trinidad
+0;-54.6833,-32.5167;36200;Montevideo Department;Tres Islas
+0;-57.3718,-34.1223;70200;Colonia;Tres Esquinas
+0;-55.6667,-31.3667;45000;Rivera Department;Tres Cerros
+0;-56.6500,-30.9500;55000;Artigas;Tres Cerros
+0;-57.8333,-33.7333;65100;Río Negro Department;Tres Bocas
+0;-57.4833,-31.8833;60000;Paysandú Department;Tres Bocas
+25890;-54.3858,-33.2310;33000;Treinta y Tres Department;Treinta y Tres
+7235;-55.7500,-31.2000;40100;Rivera Department;Tranqueras
+0;-55.7500,-31.1667;40100;Rivera Department;Tranqueras
+0;-55.9933,-34.6609;91500;Canelones;Totoral del Sauce
+0;-56.6333,-31.3500;50000;Salto Department;Toro Negro
+124;-56.8205,-30.2977;55000;Artigas;Topador
+0;-57.6963,-31.6328;50000;Paysandú Department;Tomás Paz
+2872;-57.4361,-30.4287;55100;Artigas;Tomás Gomensoro
+4397;-56.0947,-34.7381;15700;Canelones;Toledo
+0;-54.5667,-32.5333;36200;Montevideo Department;Toledo
+0;-54.0167,-32.5000;36200;Cerro Largo;Toledo
+0;-56.5439,-32.3441;60100;Paysandú Department;Tiatucurá
+184;-57.5209,-30.9475;50000;Salto Department;Termas del Arapey
+0;-56.6677,-30.4736;55000;Artigas;Tarumán
+6632;-57.6187,-34.2655;70600;Colonia;Tarariras
+213;-55.7511,-34.5677;91600;Canelones;Estación Tapia
+1561;-56.2444,-31.8774;45000;Tacuarembó Department;Tambores
+0;-56.5070,-30.4643;55000;Artigas;Tamanduá
+4949;-55.7638,-34.3435;91800;Canelones;Tala
+60586;-55.9793,-31.7188;45000;Tacuarembó Department;Tacuarembó
+0;-57.5549,-31.9753;60000;Paysandú Department;Soto
+0;-54.1667,-31.9833;37000;Cerro Largo;Soto
+0;-56.6000,-31.0333;50000;Salto Department;Soto
+1124;-58.3218,-33.3981;75100;Soriano;Villa Soriano
+2825;-55.4681,-34.5995;30100;Lavalleja;Solís de Mataojo
+0;-55.4500,-34.3333;30000;Lavalleja;Solís
+1742;-55.7020,-34.6843;15600;Canelones;Soca
+0;-55.8833,-31.2333;40100;Rivera Department;Sierra de Lunarejo
+1149;-56.8704,-30.9892;55000;Artigas;Pueblo Sequeira
+0;-57.0483,-34.3693;80300;San José Department;Scavino
+0;-56.2333,-34.8333;12900;Montevideo Department;Sayago
+0;-55.5500,-30.9333;40100;Rivera Department;Sauzal
+0;-54.8667,-32.1000;45000;Tacuarembó Department;Sauce Solo de Río Negro
+0;-57.5293,-31.1076;50000;Salto Department;Saucedo
+0;-57.6117,-32.0916;60000;Paysandú Department;Sauce del Queguay
+0;-55.6319,-33.4667;97000;Florida;Sauce del Yi
+5910;-56.0643,-34.6519;91500;Canelones;Sauce
+0;-56.7833,-33.2000;91800;Durazno Department;Sauce
+0;-57.5833,-31.5167;50000;Salto Department;Sauce
+6130;-56.3333,-33.7333;85000;Florida;Sarandí Grande
+0;-56.8658,-32.5436;97000;Río Negro Department;Sarandí de Navarro
+7176;-55.6333,-33.3500;98000;Durazno Department;Sarandí del Yi
+0;-54.6000,-33.5333;30300;Lavalleja;Sarandí de Gutiérrez
+0;-56.6598,-30.8742;55000;Artigas;Sarandí de Cuaró
+0;-54.5333,-33.7167;30000;Lavalleja;Sarandí de Cebollatí
+0;-54.2000,-32.0167;37000;Cerro Largo;Sarandí de Aceguá
+0;-57.9000,-33.9500;70800;Colonia;Sarandí
+0;-53.7167,-32.4833;37100;Cerro Largo;Sarandí
+0;-56.2154,-30.9875;50000;Salto Department;Sarandí del Arapey
+1468;-56.3500,-34.7903;80500;Montevideo Department;Santiago Vázquez
+2657;-57.7167,-34.4333;37000;Colonia;Santa Teresa
+3727;-56.0380,-34.4982;91400;Canelones;Santa Rosa
+0;-55.5365,-34.7893;15400;Canelones;Santa Lucía del Este
+16438;-56.3906,-34.4533;90200;Canelones;Santa Lucía
+0;-55.5500,-31.5500;41100;Rivera Department;Santa Fernandina
+2341;-54.9445,-32.9225;98000;Treinta y Tres Department;Santa Clara de Olimar
+1067;-57.4882,-33.7910;75300;Soriano;Santa Catalina
+1094;-56.5250,-33.3536;97000;Durazno Department;Santa Bernardina
+0;-55.4678,-34.7870;15400;Canelones;Santa Ana
+0;-53.3000,-32.6333;37100;Cerro Largo;San Servando
+7133;-55.9557,-34.2916;91100;Canelones;San Ramón
+0;-54.8981,-34.9297;20000;Maldonado;San Rafael
+0;-57.8285,-34.2937;70000;Colonia;San Pedro
+0;-57.6167,-33.7500;75400;Soriano;San Martín
+0;-53.7166,-33.6035;27300;Rocha Department;San Luis al Medio
+0;-55.5907,-34.7686;15400;Canelones;San Luis
+0;-56.3000,-30.9167;55000;Salto Department;San Luis
+0;-57.4667,-33.9333;70000;Colonia;San Juan
+35883;-56.7134,-34.3390;80000;San José Department;San José de Mayo
+0;-55.4833,-32.8333;97000;Durazno Department;San José de las Cañas
+0;-55.8962,-32.8424;97000;Durazno Department;San Jorge
+1781;-58.1332,-32.6652;61100;Río Negro Department;San Javier
+3954;-55.8715,-34.5446;91600;Canelones;San Jacinto
+3415;-55.8333,-32.6167;41100;Tacuarembó Department;San Gregorio de Polanco
+0;-56.7525,-33.9382;80000;San José Department;San Gregorio
+0;-55.8868,-34.0388;94000;Florida;San Gabriel
+1718;-58.1009,-32.3463;60000;Paysandú Department;San Félix
+0;-57.5167,-33.8667;75300;Soriano;San Dios
+0;-57.7574,-33.1009;75000;Soriano;San Díos
+0;-57.7167,-32.8333;65100;Río Negro Department;Sánchez Grande
+0;-57.7550,-32.8138;65100;Río Negro Department;Sánchez
+27471;-54.9182,-34.7912;20400;Maldonado;San Carlos
+1905;-55.9586,-34.4402;91200;Canelones;San Bautista
+1453;-56.0804,-34.4513;91300;Canelones;San Antonio
+0;-57.7590,-31.3513;50000;Salto Department;San Antonio
+114084;-57.9598,-31.3881;50000;Salto Department;Salto
+8626;-55.8395,-34.7773;15100;Canelones;Salinas
+0;-54.6667,-34.1667;20500;Maldonado;Salamanca
+0;-57.5833,-33.1667;75000;Soriano;Saca Chispas
+0;-57.2833,-31.8667;60000;Paysandú Department;Saca Chispas
+10085;-57.3500,-34.3167;70200;Colonia;Rosario
+0;-55.9833,-33.1167;97000;Durazno Department;Rolón
+0;-56.8908,-32.6373;45100;Río Negro Department;Rolón
+0;-56.6833,-33.2167;91800;Durazno Department;Roja
+2604;-56.5380,-34.3810;37000;San José Department;Rodríguez
+26784;-54.3306,-34.4800;27000;Rocha Department;Rocha
+84775;-55.5508,-30.9053;40000;Rivera Department;Rivera
+0;-57.5727,-33.6217;75200;Soriano;Risso
+14604;-53.3858,-32.5980;37100;Cerro Largo;Río Branco
+0;-55.1833,-31.8167;41200;Tacuarembó Department;Rincón de Yaguarí
+0;-56.3833,-34.3833;90200;Canelones;Rincón de Vidal
+0;-56.3333,-34.4000;90200;Canelones;Rincón de Velázquez
+0;-57.2018,-31.2807;50000;Salto Department;Rincón de Valentín
+0;-54.4167,-32.5000;36200;Cerro Largo;Rincón de Py
+0;-56.1626,-30.7054;55000;Artigas;Rincón de Pacheco
+0;-55.8667,-31.3000;40100;Rivera Department;Rincón de Moraes
+0;-56.8348,-34.5033;80000;San José Department;Rincón del Pino
+0;-53.8479,-34.3030;37100;Rocha Department;Rincón de los Olivera
+0;-57.4667,-32.7167;65100;Río Negro Department;Rincón de los Negros
+0;-57.4333,-33.0833;75000;Soriano;Rincón del Cololó
+0;-56.4255,-32.8331;45100;Durazno Department;Rincón del Bonete
+0;-56.0667,-31.7500;45000;Tacuarembó Department;Rincón de la Aldea
+0;-54.7500,-33.2000;33000;Treinta y Tres Department;Rincón de Gutiérrez
+0;-56.4167,-33.3833;97000;Durazno Department;Rincón de Cuadra
+0;-53.9667,-32.7000;37000;Cerro Largo;Rincón de Coronel
+0;-53.8333,-32.7833;33000;Treinta y Tres Department;Rincón
+0;-56.3000,-34.5333;90000;Canelones;Riffó
+0;-57.7105,-34.4323;37000;Colonia;Riachuelo
+0;-55.6474,-33.9911;96400;Florida;Reboledo
+0;-57.8833,-34.4333;70000;Colonia;Real de San Carlos
+0;-56.4667,-33.3333;97000;Durazno Department;Rancherío Tejera
+0;-56.4333,-31.2833;50000;Salto Department;Ramos
+0;-54.6373,-32.3486;37000;Cerro Largo;Ramón Trigo
+0;-55.0500,-33.0167;35300;Lavalleja;Ramón Saravia
+738;-56.6630,-34.3402;80000;San José Department;Raigón
+1274;-56.7971,-34.5234;80200;San José Department;Rafael Perazza
+0;-58.0079,-34.1213;70000;Colonia;Radial Conchillas
+0;-56.1667,-31.6667;45000;Tacuarembó Department;Quiebra Yugos
+0;-54.6333,-32.6833;36200;Cerro Largo;Quebracho
+2853;-57.9014,-31.9353;60200;Paysandú Department;Quebracho
+0;-57.5333,-33.6500;75200;Soriano;Puntas Duraznito
+0;-56.3630,-33.6223;94100;Florida;Puntas de Maciel
+0;-57.5500,-33.3833;75200;Soriano;Puntas del Tala
+0;-57.0195,-33.8215;70600;Flores Department;Puntas del Sauce
+0;-54.3787,-32.7251;33000;Cerro Largo;Puntas del Parao
+0;-55.2000,-31.3167;40000;Rivera Department;Puntas de Corrales
+0;-56.9167,-31.6333;50000;Salto Department;Puntas de Cañas
+0;-56.7392,-34.4079;15600;San José Department;Puntas de Cañada Grande
+0;-57.3429,-31.8628;60000;Paysandú Department;Puntas del Buricayupí
+9277;-54.9338,-34.9475;20000;Maldonado;Punta del Este
+0;-56.1597,-34.9228;11300;Montevideo Department;Punta Carretas
+0;-57.6403,-34.4366;70000;Colonia;Puerto Platero
+0;-56.4430,-34.4424;27400;San José Department;Dieciocho de Julio
+0;-56.2167,-34.8000;12900;Montevideo Department;Pueblo Ferrocarril
+0;-54.6500,-33.6833;30000;Lavalleja;Pueblo del Sauce
+0;-55.3833,-32.0500;45000;Tacuarembó Department;Pueblo de Barro
+0;-55.4667,-31.7500;45000;Tacuarembó Department;Pueblo de Arriba
+0;-56.2333,-34.8333;12900;Montevideo Department;Conciliación
+1136;-56.4667,-32.8667;45100;Durazno Department;Pueblo Centenario
+16244;-56.2176,-34.6674;15900;Canelones;Progreso
+1159;-57.9696,-32.3927;60000;Paysandú Department;Porvenir
+1055;-57.8537,-32.3708;60000;Paysandú Department;Estación Porvenir
+0;-55.1673,-33.8983;30000;Lavalleja;Polanco Sur
+0;-56.1564,-33.4869;94100;Florida;Polanco del Yi
+0;-55.2667,-33.9333;30000;Lavalleja;Polanco de Ibargoyen
+0;-55.1217,-33.8752;30000;Lavalleja;Polanco Norte
+0;-55.3333,-31.7167;41100;Rivera Department;Poblado Zapucay
+0;-55.7833,-32.0333;45000;Tacuarembó Department;Poblado Zambullón
+0;-57.1500,-31.3000;50000;Salto Department;Poblado Varese
+0;-57.1167,-31.2333;50000;Salto Department;Poblado Sosa
+0;-55.1667,-31.5000;41100;Rivera Department;Poblado Segarra
+0;-55.9254,-31.8515;45000;Tacuarembó Department;Sauce de Tranqueras
+0;-56.0167,-31.9167;45000;Tacuarembó Department;Poblado Sauce de Batoví
+0;-55.0500,-31.9667;45000;Tacuarembó Department;Poblado San Ramón
+0;-56.1667,-32.4667;45200;Tacuarembó Department;Poblado San Benito
+0;-55.9667,-32.3333;85000;Tacuarembó Department;Poblado Rolón
+0;-55.6667,-32.0333;45000;Tacuarembó Department;Poblado Rivera Chico
+0;-56.0167,-32.2167;45000;Tacuarembó Department;Poblado Rincón de los Muchadas
+0;-55.4833,-32.0000;45000;Paysandú Department;Poblado Rincón de la Laguna
+0;-55.9167,-31.8167;45000;Tacuarembó Department;Poblado Rincón de la Bolsa
+0;-55.7667,-31.8333;45000;Tacuarembó Department;Poblado Rincón de Giloca
+0;-55.8833,-32.3333;85000;Tacuarembó Department;Poblado Paso Hondo
+0;-55.6000,-32.2167;45000;Tacuarembó Department;Poblado Montevideo Chico
+0;-55.9768,-31.8765;45000;Tacuarembó Department;Martinote
+0;-54.9167,-32.2667;45000;Tacuarembó Department;Poblado los Silveira
+0;-56.2500,-31.7667;45000;Paysandú Department;Poblado Los Rodríguez
+0;-56.0333,-32.5000;45000;Tacuarembó Department;Poblado Los Laureles
+0;-56.0000,-31.8500;45000;Tacuarembó Department;Poblado Los Grozos
+0;-55.0333,-32.1833;45000;Tacuarembó Department;Poblado Los Gómez
+0;-54.9500,-32.1500;45000;Tacuarembó Department;Poblado Los García
+0;-55.9833,-31.8333;45000;Tacuarembó Department;Poblado Los Coitinhos
+0;-55.0833,-31.3667;40000;Rivera Department;Poblado la Villa
+0;-55.9667,-31.8167;45000;Tacuarembó Department;Poblado Lavalleja
+0;-55.8667,-31.3833;40100;Tacuarembó Department;Poblado Laureles
+0;-54.8833,-32.1500;45000;Tacuarembó Department;Poblado Laura
+0;-55.0667,-32.3833;45000;Tacuarembó Department;Poblado Las Chircas
+0;-55.0667,-32.0167;45000;Tacuarembó Department;Poblado Las Arenas
+0;-56.0667,-32.1833;45000;Tacuarembó Department;Poblado La Morcona
+0;-55.9667,-31.5167;45000;Tacuarembó Department;Poblado Lambari
+0;-54.8667,-32.0500;45000;Tacuarembó Department;Poblado La Humedad
+0;-55.6581,-32.0786;45000;Tacuarembó Department;Poblado La Hilera
+0;-54.6333,-32.0500;41200;Tacuarembó Department;Poblado La Chilca
+0;-56.6874,-31.0888;50000;Salto Department;Guaviyú de Arapey
+0;-55.8833,-31.9000;97000;Tacuarembó Department;Poblado Goyo Martínez
+0;-56.0167,-31.7667;34200;Tacuarembó Department;Poblado Godoy
+0;-55.9655,-31.6936;45000;Tacuarembó Department;Echeverry
+0;-55.2833,-32.1833;45000;Tacuarembó Department;Poblado del Turupí
+0;-55.3500,-32.4000;45000;Tacuarembó Department;Poblado de los Morales
+0;-55.9500,-32.1667;45000;Tacuarembó Department;Poblado de los Cuadrados
+0;-55.0333,-32.4500;45000;Tacuarembó Department;Poblado del Minuano
+0;-55.5000,-31.8167;45000;Tacuarembó Department;Poblado de Heriberto
+0;-56.4333,-32.8333;45100;Durazno Department;Poblado de Castro
+0;-56.1000,-31.7000;45000;Tacuarembó Department;Poblado Cerro del Pastoreo
+0;-56.0333,-32.4500;45200;Tacuarembó Department;Poblado Cerro Chato
+0;-56.0000,-31.8833;45000;Tacuarembó Department;Poblado Cerro Batoví
+0;-57.1200,-31.3150;50000;Salto Department;Poblado Celeste
+0;-55.2333,-31.4333;41100;Rivera Department;Poblado Berruti
+0;-55.9333,-31.9167;97000;Tacuarembó Department;Poblado Batoví
+0;-55.3060,-34.8324;20200;Maldonado;Playa Verde
+0;-55.6833,-31.0000;40000;Rivera Department;Platón
+0;-53.7176,-32.7553;37100;Cerro Largo;Plácido Rosas
+7968;-55.2747,-34.8629;20200;Maldonado;Piriápolis
+0;-54.7574,-33.7397;30000;Lavalleja;Pirarajá
+0;-56.8384,-33.8840;85000;Flores Department;Pueblo Pintos
+0;-56.4230,-30.5158;55000;Artigas;Pintado Grande
+0;-56.3070,-33.8347;94100;Florida;Pintado
+0;-57.0486,-32.3269;60100;Paysandú Department;Piñera
+0;-57.1000,-31.3000;50000;Salto Department;Pinchazo
+0;-55.6500,-34.3333;91800;Canelones;Piedritas
+0;-56.3098,-32.0829;45000;Paysandú Department;Piedra Sola
+0;-55.5189,-34.7419;15400;Canelones;Piedras de Afilar
+1094;-57.6090,-32.3718;94100;Paysandú Department;Piedras Coloradas
+0;-56.3527,-30.5242;55000;Artigas;Piedra Pintada
+0;-55.8828,-34.7011;15900;Canelones;Piedra del Toro
+0;-56.3612,-32.4938;45100;Tacuarembó Department;Peralta
+0;-56.3868,-31.4543;50000;Salto Department;Pepe Núñez
+0;-56.1833,-34.8167;12400;Montevideo Department;Peñarol
+0;-54.3333,-31.7833;37000;Cerro Largo;Peñarol
+0;-55.8333,-34.5833;91600;Canelones;Pedrera
+0;-55.7833,-34.3667;91800;Canelones;Pedernal
+81550;-58.0807,-32.3171;60000;Paysandú Department;Paysandú
+0;-56.9044,-34.3117;80000;San José Department;Pavón
+0;-56.2500,-34.4500;90000;Canelones;Paso Toscas
+0;-56.7347,-32.6335;45100;Río Negro Department;Paso de Soca
+0;-56.8383,-31.4380;50000;Salto Department;Paso del Potrero
+0;-55.2333,-32.4667;45000;Cerro Largo;Paso Pereira
+0;-56.2833,-34.4500;90000;Canelones;Paso Francos
+0;-54.0667,-33.0500;31100;Treinta y Tres Department;Paso de Piriz
+0;-56.2818,-34.4291;90200;Canelones;Paso de Pache
+0;-55.3333,-31.2500;40000;Rivera Department;Paso del Tapado
+0;-54.7833,-31.9000;41200;Tacuarembó Department;Paso del Parque
+12985;-56.5167,-32.8167;65100;Tacuarembó Department;Paso de los Toros
+0;-57.1591,-32.5198;60100;Río Negro Department;Los Mellizos
+0;-57.4324,-31.9803;60000;Paysandú Department;Paso de los Carros
+0;-57.0882,-30.1270;55000;Artigas;Paso de León
+0;-55.8332,-31.4782;45000;Tacuarembó Department;Paso del Cerro
+0;-53.9333,-34.2000;27200;Rocha Department;Paso del Bañado
+0;-53.4833,-32.5167;37100;Cerro Largo;Paso de las Piedras
+0;-56.6333,-31.6667;80200;Salto Department;Paso de las Piedras
+0;-56.0482,-31.5634;45000;Tacuarembó Department;Paso de las Carretas
+0;-57.5333,-30.9667;50000;Salto Department;Paso de la Laguna
+0;-57.8815,-34.2377;70000;Colonia;Paso de la Horqueta
+0;-56.1484,-34.4423;91300;Canelones;Paso de la Cadena
+0;-56.0766,-31.5197;45000;Tacuarembó Department;Paso de Ceferino
+0;-57.7833,-34.2000;70600;Colonia;Paso de Antolín
+0;-56.7420,-31.4027;50000;Salto Department;Paso Cementerio
+15393;-56.0522,-34.8603;15000;Canelones;Paso de Carrasco
+0;-55.6667,-31.1000;40000;Rivera Department;Paso Ataques
+0;-54.3161,-34.2215;27000;Rocha Department;Parallé
+0;-57.7923,-31.3670;50000;Salto Department;Parada Herrería
+24047;-55.9584,-34.7172;15600;Canelones;Pando
+6597;-55.2358,-34.7787;30300;Maldonado;Pan de Azúcar
+0;-57.6093,-31.0809;50000;Salto Department;Palomas
+2123;-57.8008,-33.5072;75500;Soriano;Palmitas
+0;-57.5167,-30.6833;55000;Artigas;Palma Sola
+0;-53.9351,-34.2661;27200;Rocha Department;Palmar de Castillos
+0;-57.6833,-30.6000;55100;Artigas;Palma
+0;-56.3334,-34.8675;12700;Montevideo Department;Pajas Blancas
+0;-56.7686,-30.6374;55000;Artigas;Paguero
+0;-53.6333,-33.0000;37100;Treinta y Tres Department;Padula
+0;-57.1167,-31.5000;50000;Salto Department;Oribe
+0;-57.5173,-32.3800;60000;Paysandú Department;Orgoroso
+0;-56.7071,-34.7040;80100;San José Department;Ordeig
+0;-53.9833,-33.9833;27200;Rocha Department;Oratorio
+0;-56.3558,-33.2962;97000;Durazno Department;Ombúes de Oribe
+3390;-57.8096,-33.9378;70800;Colonia;Ombúes de Lavalle
+0;-56.8781,-31.1190;50000;Salto Department;Olivera
+0;-56.2333,-34.8500;11900;Montevideo Department;Nuevo París
+2450;-58.0586,-32.9797;65000;Río Negro Department;Nuevo Berlín
+9857;-58.4118,-33.8703;70700;Colonia;Nueva Palmira
+10054;-57.2333,-34.3000;70300;Colonia;Nueva Helvecia
+0;-55.2623,-34.7180;20300;Maldonado;Nueva Carrara
+0;-55.1500,-33.4833;34200;Florida;Nico Pérez
+0;-54.0847,-32.1743;37000;Cerro Largo;Nando
+0;-56.5167,-31.0833;50000;Salto Department;Musi
+0;-56.1333,-32.9000;97000;Durazno Department;Mouriño
+0;-56.5167,-32.2500;60100;Paysandú Department;Montevideo Chico
+1270737;-56.1882,-34.9033;11100;Montevideo Department;Montevideo
+1760;-55.5622,-34.4934;91700;Canelones;Montes
+0;-55.2000,-33.4667;34200;Florida;Molles del Pescado
+0;-55.2167,-33.5000;45100;Florida;Molles Chico
+0;-56.4833,-33.0500;97000;Durazno Department;Molles
+0;-54.9855,-31.6043;41200;Rivera Department;Moirones
+0;-57.4508,-34.3633;70500;Colonia;Minuano
+3788;-55.4708,-31.5738;41100;Rivera Department;Minas de Corrales
+38645;-55.2377,-34.3759;30000;Lavalleja;Minas
+2109;-55.6279,-34.4876;91700;Canelones;Migues
+999;-57.6479,-34.0065;70800;Colonia;Miguelete
+528;-56.9043,-32.3849;60100;Paysandú Department;Merinos
+43543;-58.0305,-33.2524;75000;Soriano;Mercedes
+0;-56.2167,-34.2375;95600;Florida;Mendoza Chico
+0;-56.2144,-34.2821;95600;Florida;Mendoza
+0;-54.1500,-33.0500;33000;Treinta y Tres Department;Mendizabal
+0;-57.4846,-32.5582;65100;Río Negro Department;Menafra
+56013;-54.1641,-32.3682;37000;Cerro Largo;Melo
+0;-55.2333,-32.9000;35300;Cerro Largo;Mederos
+0;-56.2833,-31.1833;50000;Salto Department;Mataojo Chico
+0;-56.3833,-34.5000;90000;Canelones;Mataojo
+0;-56.3676,-31.1785;50000;Salto Department;Pueblo Fernández
+240;-56.0041,-31.0834;40200;Artigas;Masoller
+0;-58.2071,-34.1612;70100;Colonia;Martín Chico
+0;-56.1167,-34.8500;12000;Montevideo Department;Maroñas
+1626;-54.7773,-34.0408;98000;Lavalleja;Mariscala
+0;-57.1333,-33.2333;85000;Flores Department;Marincho
+0;-54.0000,-33.8000;37000;Cerro Largo;María Isabel
+0;-56.1833,-33.0833;97000;Durazno Department;María Cejas
+0;-54.6783,-33.3900;30300;Treinta y Tres Department;María Albina
+0;-54.0667,-32.1167;37000;Cerro Largo;Mangrullo
+0;-56.1000,-34.8167;12300;Montevideo Department;Manga
+0;-54.8263,-34.9045;20000;Maldonado;Manantiales
+102000;-54.9502,-34.8979;20000;Maldonado;Maldonado
+0;-56.9526,-34.1470;80000;San José Department;Mal Abrigo
+0;-54.6500,-33.4667;30300;Lavalleja;Maguna
+0;-57.0000,-33.8667;70600;Soriano;Machado
+0;-55.6167,-33.3500;98000;Durazno Department;Machado
+0;-55.9833,-31.1000;40100;Rivera Department;Lunarejo
+0;-55.4333,-31.8833;45000;Tacuarembó Department;Los Vásquez
+0;-55.5670,-34.7798;15400;Canelones;Los Titanes
+0;-54.4906,-34.0931;27300;Maldonado;Los Talas
+0;-54.7833,-33.3333;30300;Lavalleja;Los Talas
+0;-56.1758,-31.8169;45000;Tacuarembó Department;Los Rosanos
+0;-55.9500,-31.2500;40100;Rivera Department;Los Potreros
+0;-55.6833,-31.9833;45000;Tacuarembó Department;Los Novillos
+0;-56.0833,-32.9000;97000;Durazno Department;Los Mezquitas
+0;-55.7500,-32.2500;45000;Tacuarembó Department;Los Furtados
+0;-55.9000,-32.2667;85000;Tacuarembó Department;Los Furtado
+0;-55.3333,-32.3000;45000;Tacuarembó Department;Los Feos
+0;-57.9307,-34.2187;70000;Colonia;Los Cerros de San Juan
+2508;-56.3564,-34.6050;90100;Canelones;Los Cerrillos
+0;-57.4164,-32.0457;60000;Paysandú Department;Zeballos
+0;-56.9333,-33.5333;85000;Flores Department;Los Ahogados
+0;-55.9000,-32.7833;97000;Durazno Department;Los Agregados
+0;-57.9168,-32.0771;60000;Paysandú Department;Lorenzo Geyres
+0;-57.0641,-31.1015;50000;Salto Department;Lluveras
+10166;-56.6174,-34.6346;80100;San José Department;Libertad
+0;-56.1000,-34.9000;11400;Montevideo Department;Lavaderos
+0;-55.4333,-31.6833;41100;Rivera Department;Laureles
+0;-57.5255,-31.4990;50000;Salto Department;Laureles
+0;-55.8500,-31.3667;40100;Tacuarembó Department;Laureles
+0;-57.7500,-32.7500;65100;Río Negro Department;La Unión
+0;-55.5617,-34.7808;15400;Canelones;La Tuna
+0;-57.7451,-32.4862;60000;Paysandú Department;La Tentación
+0;-57.7500,-32.4833;60000;Paysandú Department;La Tentaciõn
+0;-57.1333,-33.6000;90000;Flores Department;Las Violetas
+0;-55.7379,-34.7646;15200;Canelones;Las Toscas
+3146;-55.7167,-34.7333;15300;Canelones;Las Toscas
+0;-55.0143,-32.1766;45000;Tacuarembó Department;Las Toscas
+0;-54.2500,-32.0833;37000;Cerro Largo;Las Ratas
+69682;-56.2191,-34.7302;15900;Canelones;Las Piedras
+0;-54.3247,-34.6967;91500;Rocha Department;Las Garzas
+0;-55.3271,-34.8152;20200;Maldonado;Las Flores
+0;-55.3333,-34.7500;20300;Maldonado;Las Flores
+0;-57.5709,-32.3964;60300;Paysandú Department;Las Flores
+0;-55.2167,-31.8167;45200;Tacuarembó Department;Las Flores
+6976;-54.2065,-33.6724;27300;Rocha Department;Lascano
+0;-55.5167,-32.9333;97000;Durazno Department;Las Cañas
+0;-56.4030,-34.6880;90000;Canelones;Las Brujas
+0;-55.0833,-33.3833;34200;Lavalleja;Larrosa
+0;-55.0167,-32.1667;45000;Tacuarembó Department;Larrayos
+0;-55.6167,-34.6333;15600;Canelones;La Querencia
+0;-54.9655,-31.4734;40000;Rivera Department;Lapuente
+321;-54.9167,-31.4167;40000;Rivera Department;Lapuente
+225;-54.1235,-34.5921;27400;Rocha Department;La Pedrera
+0;-56.8667,-33.5000;85000;Flores Department;La Pedrera
+0;-54.1333,-32.3500;37000;Cerro Largo;La Pedrera
+19913;-56.2259,-34.7603;15900;Canelones;La Paz
+0;-57.3096,-34.3477;70200;Colonia;La Paz
+0;-58.0833,-33.5833;75100;Soriano;La Paraguaya
+3495;-54.1645,-34.6627;27400;Rocha Department;La Paloma
+1567;-55.5827,-32.7269;97000;Durazno Department;La Paloma
+0;-54.1500,-31.9000;37000;Cerro Largo;La Mina
+0;-53.9000,-32.6333;37000;Cerro Largo;La Micaela
+0;-55.5000,-32.5333;97000;Durazno Department;La Mazamorra
+0;-56.1932,-34.0358;91800;Florida;La Macana
+0;-54.4167,-31.7333;33000;Cerro Largo;La Lata
+0;-57.8023,-32.7484;65100;Río Negro Department;La Florida
+1107;-55.6814,-34.7557;15300;Canelones;La Floresta
+0;-57.7228,-34.3288;70000;Colonia;La Estanzuela
+0;-55.1333,-33.0000;35300;Cerro Largo;La Esperanza
+0;-55.2833,-33.7500;30000;Lavalleja;Ladrillos
+0;-53.3918,-32.6043;37100;Cerro Largo;La Cuchilla
+0;-56.2385,-33.9299;94000;Florida;La Cruz
+0;-53.5158,-33.8943;37100;Rocha Department;La Coronilla
+510;-53.8580,-33.5579;20500;Rocha Department;La Coronilla
+0;-54.0167,-33.2500;33000;Treinta y Tres Department;La Chiva
+0;-55.4167,-31.4500;41100;Rivera Department;La Calera
+0;-54.2667,-32.9333;33000;Treinta y Tres Department;La Calavera
+0;-57.2000,-31.2500;50000;Salto Department;La Bolsa
+0;-57.0357,-31.0521;50000;Salto Department;La Bolsa
+0;-56.3366,-30.8461;55000;Artigas;La Bolsa
+0;-54.8540,-34.9120;20000;Maldonado;La Barra
+0;-53.7953,-34.3350;27200;Rocha Department;La Barra
+0;-55.5833,-32.6000;97000;Durazno Department;La Alegría
+0;-56.7496,-34.6941;80100;San José Department;Kiyú
+0;-56.4000,-34.3667;95300;Florida;Kilómetro 71
+0;-54.1500,-33.1500;33000;Treinta y Tres Department;Julio María Sanz
+0;-56.8043,-34.3232;80000;San José Department;Juan Soler
+12816;-57.4528,-34.4189;70500;Colonia;Juan L. Lacaze
+0;-56.7441,-33.4940;85000;Flores Department;Juan José Castro
+5118;-54.5359,-33.4545;30300;Lavalleja;José Pedro Varela
+0;-56.7333,-34.6833;80100;San José Department;José Ignacio
+0;-54.6373,-34.8443;20400;Maldonado;José Ignacio
+2120;-57.5315,-33.6962;75400;Soriano;José Enrique Rodó
+2203;-55.1167,-33.4667;34200;Lavalleja;José Batlle y Ordóñez
+6570;-56.0347,-34.7350;15500;Canelones;Joaquín Suárez
+1305;-56.2533,-34.5945;90000;Canelones;Juanicó
+140;-56.7849,-30.4331;55000;Artigas;Javier de Viana
+0;-55.4046,-34.7861;15400;Canelones;Jaureguiberry
+0;-56.1167,-34.8500;12000;Montevideo Department;Ituzaingó
+771;-56.4249,-34.4203;90200;San José Department;Ituzaingó
+0;-57.7050,-31.2862;50000;Salto Department;Itapebí
+0;-57.0667,-33.4167;85000;Colonia;Ismael Cortinas
+0;-54.5833,-32.9833;33000;Treinta y Tres Department;Isla Patrulla
+2331;-54.1231,-31.9622;37000;Cerro Largo;Isidoro Noblía
+0;-53.9167,-33.2500;33000;Treinta y Tres Department;Ingenio José Serrato
+0;-55.5056,-34.4149;91700;Lavalleja;Ingeniero Luis Andreoni
+0;-56.3983,-34.3517;95300;Florida;Independencia
+0;-55.3315,-33.6089;34200;Florida;Illescas
+0;-54.6500,-31.6833;41200;Rivera Department;Hospital
+0;-53.9500,-34.1167;27200;Rocha Department;Horqueta
+5051;-57.1978,-32.3585;60100;Paysandú Department;Guichón
+0;-57.6833,-33.8500;70100;Soriano;Guerrero
+0;-57.3159,-32.2692;60000;Paysandú Department;Guayabos
+0;-54.8333,-31.4833;40000;Rivera Department;Guaviyú
+0;-55.3967,-34.7466;20300;Maldonado;Gregorio Aznáres
+0;-57.0440,-32.8145;65100;Río Negro Department;Grecco
+0;-56.8742,-34.2292;80000;San José Department;González
+0;-55.9667,-33.0833;97000;Durazno Department;González
+0;-56.4129,-33.5203;75500;Florida;Goñi
+0;-56.4833,-33.4833;94100;Florida;Goní
+0;-53.5000,-33.8833;27100;Rocha Department;Gervasio
+0;-55.2555,-34.7649;20300;Maldonado;Gerona
+1430;-53.8052,-33.2039;33000;Rocha Department;General Enrique Martínez
+0;-57.3882,-32.5550;65100;Río Negro Department;Villa General Borges
+0;-54.5450,-34.5913;20400;Maldonado;Garzón
+354;-57.8274,-31.3393;50000;Salto Department;Garibaldi
+0;-55.7345,-34.1939;96200;Florida;Fray Marcos
+26297;-58.3107,-33.1165;65000;Río Negro Department;Fray Bentos
+148;-57.5924,-30.2127;55100;Artigas;Franquia
+3168;-54.5333,-32.5167;36200;Cerro Largo;Fraile Muerto
+36471;-56.2148,-34.1003;94000;Florida;Florida
+0;-57.1333,-31.3000;50000;Salto Department;Florentino
+3716;-57.3717,-33.8779;75200;Colonia;Florencio Sánchez
+0;-55.5667,-33.4833;98000;Florida;Ferrer
+0;-56.9562,-31.1019;50000;Salto Department;Ferreira
+0;-54.1333,-32.0000;37000;Cerro Largo;Fernández
+0;-57.3183,-32.0380;60000;Paysandú Department;Federación
+0;-55.1667,-34.3667;30000;Lavalleja;Falagian
+0;-56.5847,-30.6989;55000;Artigas;Fagúndez
+0;-57.7333,-34.3000;70000;Colonia;Estanzuela
+0;-55.6251,-34.5243;91700;Canelones;Estación Migues
+0;-58.2833,-33.6167;75100;Soriano;Espinillo
+0;-57.9483,-32.3498;60000;Paysandú Department;Esperanza
+0;-57.0000,-34.2167;80000;San José Department;Escudero
+0;-56.0733,-34.7153;91500;Canelones;Empalme Sauce
+4199;-55.8927,-34.6975;15600;Canelones;Empalme Olmos
+0;-57.7833,-31.4000;50000;Salto Department;El Tropiezo
+0;-57.3000,-32.0000;60000;Paysandú Department;El Tarugo
+0;-57.4125,-33.2034;75000;Flores Department;El Tala
+0;-57.6906,-34.3359;70000;Colonia;El Semillero
+0;-57.7318,-32.9052;65100;Río Negro Department;Sauce
+0;-53.9333,-34.0667;27200;Rocha Department;El Maturrango
+0;-55.6833,-33.9333;37000;Florida;El Infiernillo
+0;-55.8500,-33.9500;94000;Florida;El Hueco
+0;-57.4850,-31.9836;60000;Paysandú Department;El Horno
+0;-57.8296,-34.4260;70000;Colonia;El General
+0;-57.2629,-31.8990;60000;Paysandú Department;El Eucalipto
+0;-53.9500,-33.0167;31100;Treinta y Tres Department;El Chajá
+0;-55.4000,-32.9667;97000;Durazno Department;El Chaco
+0;-57.5133,-31.9590;60000;Paysandú Department;El Chaco
+0;-58.2822,-33.9815;70100;Colonia;El Cerro
+0;-53.7833,-33.5167;41200;Rocha Department;El Ceibo
+0;-54.2167,-32.9500;33000;Treinta y Tres Department;El Catete
+0;-57.6667,-34.4000;70000;Colonia;El Caño
+0;-57.6269,-33.6023;75200;Soriano;Egaña
+2585;-57.0488,-34.3578;80300;San José Department;Ecilda Paullier
+0;-56.3167,-34.5333;90000;Canelones;Echevarría
+40279;-56.5231,-33.3806;97000;Durazno Department;Durazno
+17174;-58.2170,-33.5301;75100;Soriano;Dolores
+977;-53.5532,-33.6822;27100;Rocha Department;Dieciocho de Julio
+0;-54.0672,-34.3628;27000;Rocha Department;Diecinueve de Abril
+17973;-56.3645,-34.7649;80500;San José Department;Delta del Tigre
+0;-57.9357,-31.5124;50000;Salto Department;Daymán
+0;-57.6333,-33.1127;75000;Soriano;Villa Darwin
+1037;-56.1167,-32.1500;45000;Tacuarembó Department;Curtina
+0;-55.5500,-30.9667;40100;Rivera Department;Curticeras
+0;-55.5833,-31.5333;41100;Rivera Department;Cuñapirú
+0;-57.1076,-34.1940;70300;Colonia;Cufré
+0;-55.3833,-31.3500;41100;Rivera Department;Cuchilla Manguera
+0;-54.4500,-32.6500;33000;Cerro Largo;Cuchilla Grande
+0;-56.3550,-32.4919;45100;Tacuarembó Department;Cuchilla de Peralta
+0;-55.6943,-31.7773;45000;Tacuarembó Department;Cuchilla del Ombú
+0;-54.9833,-32.2333;45000;Tacuarembó Department;Cuchilla Caraguatá
+0;-55.4992,-34.7910;15400;Canelones;Cuchilla Alta
+0;-55.1333,-31.9000;41200;Tacuarembó Department;Cuaró
+0;-56.9046,-30.6117;55000;Artigas;Cuaró
+0;-54.1833,-32.0333;37000;Cerro Largo;Cruz de Piedra
+0;-55.9629,-34.6346;91500;Canelones;Cruz de los Caminos
+0;-56.6833,-34.2500;80000;San José Department;Cruz de los Caminos
+0;-58.1667,-33.9333;70100;Colonia;Costa de Víboras
+0;-56.8833,-33.8500;85000;Flores Department;Costa de San José
+0;-55.6588,-34.7652;15300;Canelones;Costa Azul
+0;-55.1500,-31.7833;41200;Rivera Department;Cortume
+0;-54.6667,-33.4667;30300;Lavalleja;Corrales
+0;-56.4500,-33.8833;94100;Flores Department;Corral de Piedra
+0;-54.7333,-31.9167;41200;Tacuarembó Department;Coronilla
+0;-57.7333,-33.4500;75500;Soriano;Coquimbo
+2846;-57.8495,-31.0691;50100;Salto Department;Villa Constitución
+0;-58.0074,-32.2066;60000;Paysandú Department;Constancia
+0;-57.1167,-32.9333;65100;Río Negro Department;Conde
+401;-58.0339,-34.1648;70000;Colonia;Conchillas
+0;-57.2167,-34.3167;70300;Colonia;Colonia Suiza
+0;-55.7000,-33.1833;98000;Durazno Department;Colonia Rossell y Rius
+0;-57.2833,-34.4167;70300;Colonia;Colonia Rosario
+0;-58.0773,-32.2699;60000;Paysandú Department;Nuevo Paysandú
+956;-57.0233,-31.0939;50000;Salto Department;Colonia Lavalleja
+0;-54.3333,-33.2500;33000;Treinta y Tres Department;Colonia Jefferies
+0;-58.2893,-33.9640;70100;Colonia;Colonia Estrella
+0;-57.1667,-34.4000;70300;Colonia;Colonia Española
+0;-57.6427,-30.3645;55100;Artigas;Colonia España
+0;-57.8749,-31.3579;15700;Salto Department;Colonia Dieciocho de Julio
+0;-57.8000,-32.3333;60000;Paysandú Department;Colonia Diecinueve de Abril
+32164;-57.8398,-34.4626;70000;Colonia;Colonia del Sacramento
+0;-58.1526,-34.0165;70100;Colonia;Colonia Arrué
+0;-56.9833,-34.2000;80000;San José Department;Colonia América
+0;-56.2333,-34.8000;12900;Montevideo Department;Colón
+0;-54.7203,-33.8764;30000;Lavalleja;Colón
+0;-57.3500,-34.0667;70200;Colonia;Colla
+0;-55.7322,-32.2241;45000;Tacuarembó Department;Clara
+9675;-53.4593,-33.6979;27100;Rocha Department;Chui
+0;-55.6667,-33.5500;98000;Florida;Chilcas
+735;-57.8881,-31.6605;50000;Paysandú Department;Chapicuy
+0;-55.9167,-34.2413;96100;Florida;Chamizo
+0;-56.6833,-34.1667;80000;San José Department;Chamizo
+0;-56.4774,-32.6886;45100;Tacuarembó Department;Chamberlain
+0;-56.0833,-34.8500;12000;Montevideo Department;Chacarita
+0;-57.4667,-33.1833;75000;Soriano;Cerro Vera
+0;-53.8500,-34.1667;27200;Rocha Department;Cerros de los Rochas
+0;-54.8000,-31.7667;41200;Rivera Department;Cerros Blancos
+0;-55.1538,-31.4705;41100;Rivera Department;Cerro Pelado del Este
+0;-54.5928,-32.6243;36200;Cerro Largo;Cerro de las Cuentas
+0;-57.7233,-34.0660;70800;Colonia;Cerro de las Armas
+0;-55.6500,-32.7500;97000;Durazno Department;Cerro Convento
+1357;-55.5426,-33.8625;96500;Florida;Alejandro Gallinal
+0;-55.1333,-33.1000;41200;Treinta y Tres Department;Cerro Chato
+0;-57.5400,-31.8628;60000;Paysandú Department;Cerro Chato
+0;-55.4833,-30.9333;40100;Rivera Department;Cerro Caqueiro
+0;-57.9500,-33.3333;75000;Soriano;Cerro Alegre
+0;-56.8333,-31.6500;50000;Salto Department;Cerrillada
+0;-54.7100,-31.4398;40000;Rivera Department;Cerrillada
+0;-55.4333,-32.7667;97000;Durazno Department;Cerrezuelo
+0;-55.5167,-32.8833;97000;Durazno Department;Ceibal
+1609;-53.7942,-33.2670;27300;Rocha Department;Cebollatí
+0;-56.7711,-31.2422;50000;Salto Department;Pueblo Cayetano
+2402;-55.6481,-34.0999;96300;Florida;Casupá
+7541;-53.8592,-34.1987;27200;Rocha Department;Castillos
+0;-57.6667,-33.8833;70100;Soriano;Castillos
+0;-58.1615,-32.3968;60000;Paysandú Department;Casa Blanca
+0;-56.1833,-32.8333;41100;Durazno Department;Carpintería
+18041;-58.2840,-34.0002;70100;Colonia;Carmelo
+976;-56.4765,-33.0566;97000;Durazno Department;Carlos Reyles
+0;-56.3070,-32.4566;45100;Tacuarembó Department;Cardozo Chico
+0;-56.3266,-32.6435;45100;Tacuarembó Department;Cardoso
+4600;-57.3695,-33.8705;75200;Soriano;Cardona
+1291;-56.3889,-34.2906;95200;Florida;Cardal
+0;-54.7500,-31.7833;41200;Rivera Department;Caraguatá
+0;-57.6500,-32.9333;65100;Río Negro Department;Caraballo
+771;-56.4645,-34.4366;90200;San José Department;Capurro
+0;-55.6285,-33.4671;97000;Florida;Capilla del Sauce
+0;-55.4167,-32.8833;97000;Durazno Department;Capilla de Farruco
+0;-55.2500,-34.5167;30000;Lavalleja;Canepa
+24185;-56.2822,-34.5238;90000;Canelones;Canelones
+0;-56.3000,-34.0667;94000;Florida;Candil
+0;-56.0167,-31.3000;45000;Tacuarembó Department;Cañas
+0;-54.3167,-32.4667;37000;Cerro Largo;Cañada Sauce
+0;-58.1090,-33.6987;75100;Soriano;Cañada Nieto
+0;-57.1820,-31.9476;60000;Paysandú Department;Cañada del Pueblo
+0;-57.2500,-31.8333;60000;Paysandú Department;Cañada del Pueblo
+0;-53.9817,-33.3170;33000;Treinta y Tres Department;Cañada Chica
+0;-57.6140,-31.5596;50000;Salto Department;Campo de Todos
+0;-57.9020,-34.0326;70800;Colonia;Campana
+0;-56.7818,-30.7890;55000;Artigas;Paso Campamento
+0;-57.6167,-33.8667;70100;Soriano;Came
+0;-56.4667,-31.1167;50000;Salto Department;Cambará
+0;-56.8833,-30.5667;55000;Artigas;Camaño
+0;-53.7826,-34.4024;27200;Rocha Department;Cabo Polonio
+0;-54.2000,-32.1500;37000;Cerro Largo;Buena Vista
+0;-55.6333,-31.2333;40100;Rivera Department;Buena Unión
+0;-58.1329,-34.0765;70100;Colonia;Buena Hora
+0;-56.1333,-34.9000;11600;Montevideo Department;Buceo
+0;-57.0544,-30.7554;55000;Artigas;Brigadier General Diego Lamas
+0;-57.8333,-34.0333;70800;Colonia;Boné
+0;-55.7296,-34.2224;96200;Canelones;Bolívar
+0;-57.3336,-34.4332;70500;Colonia;Boca del Rosario
+0;-55.8333,-32.3500;41100;Tacuarembó Department;Blanquillos
+1084;-55.6333,-32.7667;97000;Durazno Department;Blanquillo
+0;-56.8000,-34.3167;80000;San José Department;Bifurcación
+345;-57.1241,-31.2759;50000;Salto Department;Biassini
+0;-55.5139,-34.7919;15400;Canelones;Biarritz
+0;-56.9705,-30.2983;55000;Artigas;Bernabé Rivera
+0;-55.3569,-34.8022;20200;Maldonado;Bella Vista
+0;-56.2005,-34.8774;70000;Montevideo Department;Bella Vista
+0;-57.0000,-34.3167;80000;San José Department;Bella Vista
+12200;-57.5992,-30.2597;55100;Artigas;Bella Unión
+0;-56.1167,-34.8333;12000;Montevideo Department;Bella Italia
+0;-57.8837,-32.7639;65100;Río Negro Department;Bellaco
+2033;-57.7758,-30.7872;50200;Salto Department;Belén
+0;-57.0532,-32.3153;60100;Paysandú Department;Beisso
+0;-56.8134,-32.8768;97000;Durazno Department;Baygorria
+0;-56.7500,-31.6000;50000;Salto Department;Barra Tapado
+0;-53.8059,-33.6341;30000;Rocha Department;Paso Barrancas
+0;-54.8667,-34.8667;20000;Maldonado;Barra de Maldonado
+905;-53.3794,-33.7491;27100;Rocha Department;Barra del Chuy
+158;-57.4560,-34.2602;70200;Colonia;Barker
+0;-55.8500,-31.6000;45000;Tacuarembó Department;Bañado de Rocha
+0;-55.8333,-31.5333;45000;Tacuarembó Department;Bañado de Rocha
+0;-54.3483,-32.4021;37000;Cerro Largo;Bañado de Medina
+2531;-57.3260,-30.7190;55000;Artigas;Baltasar Brum
+0;-55.3799,-34.7933;20200;Maldonado;Solís
+0;-54.3299,-33.6102;30300;Rocha Department;Diecinueve de Junio
+5562;-55.7584,-34.7719;15200;Canelones;Atlántida
+0;-57.5763,-34.4255;70000;Colonia;Artilleros
+43897;-56.4693,-30.4043;55000;Artigas;Artigas
+0;-53.8856,-33.3512;33000;Rocha Department;Arrozal Victoria
+0;-53.6970,-33.0426;31100;Treinta y Tres Department;Arrozal Treinta y Tres
+0;-56.9333,-33.3333;85000;Flores Department;Arroyo Malo
+0;-57.0898,-33.9606;85000;Flores Department;Ismael Cortinas
+0;-56.4000,-34.1333;80000;Florida;Arroyo de la Virgen
+0;-54.7910,-31.6333;41200;Rivera Department;Arroyo Blanco
+0;-54.5667,-32.0333;41200;Tacuarembó Department;Arriera
+0;-55.4543,-34.7927;15400;Canelones;Argentino
+0;-55.0781,-32.6392;35300;Cerro Largo;Arévalo
+0;-58.0000,-31.4161;50000;Salto Department;Arenitas Blancas
+0;-58.2667,-33.7167;70700;Soriano;Arenales
+0;-55.7833,-34.4500;91200;Canelones;Arenal
+0;-54.2500,-32.6500;37000;Cerro Largo;Arbolito
+0;-56.4570,-32.2163;60100;Paysandú Department;Arbolito
+0;-57.8167,-32.1000;60000;Paysandú Department;Araújo
+0;-55.4648,-31.8784;45000;Paysandú Department;Ansina
+261;-57.1285,-33.1683;85000;Flores Department;Andresito
+0;-54.3833,-33.2167;33000;Treinta y Tres Department;Anastasia
+779;-57.3893,-32.4212;60400;Río Negro Department;Algorta
+0;-55.5500,-33.8167;96500;Florida;Alejandro Gallinal
+0;-56.9000,-33.5500;85000;Flores Department;Aldecoa
+544;-57.8147,-31.3841;50000;Salto Department;Albisu
+2465;-54.7567,-34.2050;20500;Maldonado;Aiguá
+0;-56.4667,-33.7500;94100;Flores Department;Ahogados
+0;-54.7667,-32.3667;36200;Cerro Largo;Aguirre
+0;-57.9833,-33.6000;75100;Soriano;Águila
+0;-53.6167,-32.6667;37100;Cerro Largo;Águila
+0;-53.7821,-34.2745;27200;Rocha Department;Aguas Dulces
+1047;-56.3936,-34.5219;90200;Canelones;Aguas Corrientes
+0;-55.8000,-32.8000;97000;Durazno Department;Aguas Buenas
+586;-58.2667,-33.8098;70700;Soriano;Agraciada
+0;-53.8438,-33.2449;33000;Treinta y Tres Department;Acosta
+0;-54.4333,-33.5333;30300;Lavalleja;Achiras
+0;-56.1807,-32.4029;45000;Tacuarembó Department;Achar
+1511;-54.1635,-31.8718;37000;Cerro Largo;Aceguá
+0;-55.0167,-31.7500;41200;Rivera Department;Abrojal
+0;-56.6000,-34.6500;80100;San José Department;Villa Libertad
+0;-56.2083,-34.9083;11000;Montevideo Department;Ciudad Vieja
+1491;-56.7010,-34.5855;80100;San José Department;Puntas de Valdéz
+0;-56.2175,-34.6983;15900;Canelones;El Dorado
+924;-56.2139,-34.7642;15900;Montevideo Department;Abayuba
+0;-56.0206,-34.7625;15500;Canelones;Cap. Juan A. Artigas
+0;-56.0533,-34.7811;15500;Montevideo Department;Villa García
+8902;-56.0243,-34.8152;15000;Canelones;Colonia Nicolich
+0;-56.0858,-34.8031;12300;Montevideo Department;Villa Don Bosco
+5410;-56.0297,-34.8772;15000;Canelones;Barra de Carrasco
+2000;-56.3342,-34.8017;12700;Montevideo Department;Pajas Blancas
+300;-53.5405,-34.0458;27200;Rocha Department;Punta del Diablo
+0;-55.8298,-34.6626;15300;Canelones;Las Vegas
+0;-54.1604,-34.6374;27400;Rocha Department;La Aguada
+0;-55.9520,-34.8197;15800;Canelones;Ciudad de la Costa
+1090;-54.1531,-34.6292;27400;Rocha Department;Costa Azul
+456;-57.4607,-33.0625;75000;Soriano;Palmar
+0;-55.3005,-34.8373;20200;Maldonado;Playa Hermosa
+0;-56.4656,-30.4269;55000;Artigas;Cerro Ejido
+0;-55.9637,-34.8291;15800;Canelones;Solymar
+0;-55.9731,-34.8378;15000;Canelones;El Bosque
+0;-55.9832,-34.8377;15000;Canelones;Lagomar
+0;-55.9981,-34.8464;15000;Canelones;Shangrila
+0;-56.0092,-34.8581;15000;Canelones;City Park
+0;-55.7642,-34.7448;15200;Canelones;Estación Atlántida
+0;-55.7208,-34.7587;15300;Canelones;Parque del Plata
+0;-55.7757,-34.7682;15200;Canelones;Villa Argentina
+0;-57.5639,-30.2730;55100;Artigas;Portones de Hierro y Campodónico
+0;-57.6112,-30.2979;55100;Artigas;Coronado
+531;-57.6638,-30.3738;55100;Artigas;Ingeniero Agrónomo Alfredo Mones Quintela
+0;-57.6151,-30.3870;55100;Artigas;Cainsa
+0;-57.6296,-30.7410;50200;Artigas;Sarandí de Yacuy
+0;-57.6925,-30.6881;50200;Artigas;Local Feria Don Félix
+0;-57.3478,-30.6028;55000;Artigas;La Garrapata
+0;-57.4153,-30.4848;55100;Artigas;Local Feria Itacumbú
+0;-57.7889,-30.6648;55100;Artigas;Paredón
+0;-57.6675,-30.5137;55100;Artigas;La Azotea
+0;-57.6156,-30.4675;55100;Artigas;Colonia Viñar
+0;-57.4154,-30.5927;55000;Artigas;Yacare
+1025;-57.5680,-30.2252;55100;Artigas;Cuareim
+0;-54.1734,-34.5903;27000;Rocha Department;Lomas
+0;-57.6780,-30.5842;55100;Artigas;Colonia Palma
+0;-55.1396,-34.8729;20000;Maldonado;Sauce de Portezuelo
+0;-55.0391,-34.8883;20000;Maldonado;Punta Ballena
+0;-55.0888,-34.8741;20000;Maldonado;Chihuahua
+0;-55.9656,-34.6861;15600;Canelones;Jardines de Pando
+0;-56.1168,-34.8810;11400;Montevideo Department;Malvín Norte
+0;-56.1058,-34.8714;12100;Montevideo Department;Las Canteras
+0;-53.8220,-34.1617;27200;Rocha Department;Castillos
+0;-55.3020,-34.8498;20200;Maldonado;Playa Grande
+31650;-56.0026,-34.7524;15500;Canelones;Barros Blancos
+0;-56.9472,-33.6703;85000;Flores Department;La Casilla
+0;-56.7989,-33.7262;85000;Flores Department;Cerro Colorado
+0;-54.6224,-34.8223;20000;Maldonado;Arenas de José Ignacio
+0;-54.9864,-34.7396;20400;Maldonado;Abra de Perdomo
+0;-54.9431,-34.8615;37000;Maldonado;Barrio Hipódromo
+0;-54.9451,-34.8435;20000;Maldonado;Canteras de Marelli
+0;-54.9767,-34.8815;30000;Maldonado;Cerro Pelado
+0;-55.1290,-34.8541;20000;Maldonado;La Capuera
+0;-55.1151,-34.8690;20000;Maldonado;Ocean Park
+0;-55.2169,-34.8893;20200;Maldonado;Punta Negra
+0;-54.7931,-34.8884;20000;Maldonado;Balneario Buenos Aires
+0;-54.7558,-34.8650;20000;Maldonado;Edén Rock
+0;-54.8128,-34.9021;20000;Maldonado;El Chorro
+0;-55.0563,-34.6308;20000;Maldonado;El Edén
+0;-54.8702,-34.9033;20000;Maldonado;El Tesoro
+0;-54.6993,-34.8497;20000;Maldonado;Santa Mónica
+0;-55.0382,-34.6728;20000;Maldonado;Sarandí del Mataojo
+0;-55.0594,-34.5790;20000;Maldonado;Zanja del Tigre
+0;-55.3650,-34.7660;20300;Maldonado;Cerros Azules
+0;-55.4001,-34.7473;70300;Canelones;La Sierra
+0;-55.4390,-34.7130;70300;Canelones;Solís Grande
+0;-53.6976,-34.1573;27200;Rocha Department;La Esmeralda
+0;-54.1507,-34.6148;37000;Rocha Department;Arachania
+0;-54.1411,-34.6026;37000;Rocha Department;Diamante de La Pedrera
+0;-54.1201,-34.5777;27400;Rocha Department;Punta Rubia
+0;-54.3690,-34.7143;91500;Rocha Department;Santa Isabel
+0;-54.0786,-34.5479;27400;Rocha Department;San Antonio
+0;-56.3838,-34.7670;80500;San José Department;Ciudad del Plata
+510;-55.9793,-31.8076;45000;Tacuarembó Department;Paso Bonilla
+0;-54.9671,-32.2326;45000;Tacuarembó Department;Cruz de los Caminos
+0;-55.9640,-31.6665;45000;Tacuarembó Department;Balneario Ipora
+0;-54.4158,-34.5957;27000;Rocha Department;El Canelón
+30;-54.3266,-34.5452;27000;Rocha Department;La Ribiera
+0;-54.3185,-34.5448;27000;Rocha Department;Puerto de los Botes
+0;-54.1001,-34.5572;27400;Rocha Department;Santa Isabel
+0;-54.4230,-34.6708;91500;Rocha Department;Cuchilla de Gazón
+0;-54.5025,-34.6434;27000;Rocha Department;Picada Tolosa
+0;-54.2965,-34.4583;33000;Rocha Department;Las Chacras
+0;-54.5384,-34.7877;20000;Rocha Department;El Caracol
+0;-53.5141,-33.9077;27100;Rocha Department;Las Cholgas
+0;-54.1952,-33.8256;27300;Rocha Department;El Chimango
+0;-53.8550,-33.3626;33000;Rocha Department;Los Tacuruses
+1346;-53.4093,-33.7741;27100;Lavalleja;Puimayen
+0;-53.4840,-33.8491;27100;Rocha Department;Palmares de la Coronilla
+0;-54.6237,-33.7259;30000;Lavalleja;Las Achiras
+0;-54.4554,-33.6533;30300;Lavalleja;Rincón de Cebollatí
+0;-54.5427,-33.6221;30300;Lavalleja;Molles de Cañada Grande
+0;-54.6195,-33.6378;30300;Lavalleja;Poblado Pedro Aramendía
+0;-54.5511,-33.4372;30300;Treinta y Tres Department;El Bellaco
+0;-54.3880,-33.4199;30300;Lavalleja;Alonso
+0;-54.2597,-33.3426;30300;Treinta y Tres Department;Lechiguana de Corrales de Cebollatí
+0;-53.7182,-33.1395;31100;Treinta y Tres Department;Tres Bocas
+0;-54.2256,-33.1821;90200;Treinta y Tres Department;Los Ceibos
+0;-54.4393,-33.1584;33000;Treinta y Tres Department;Verde Alto
+0;-54.4402,-33.2024;33000;Treinta y Tres Department;Bañado de los Olivera
+0;-54.6224,-33.1727;33000;Treinta y Tres Department;Rincón de los Francos
+0;-55.0317,-34.8468;20000;Maldonado;Las Cumbres
+0;-55.3748,-34.6297;30100;Maldonado;Abra de Castellanos
+0;-54.9610,-34.7188;20400;Maldonado;Partido Oeste
+0;-55.0236,-34.7363;20400;Maldonado;Guardia Vieja
+0;-54.9671,-34.7644;20400;Maldonado;Los Ceibos
+0;-54.8803,-34.9195;20000;Maldonado;El Placer
+0;-54.8927,-34.7983;20400;Maldonado;Parque Medina
+0;-54.5866,-34.4209;20400;Maldonado;Puntas de José Ignacio
+0;-55.5309,-34.4782;91700;Lavalleja;Solís Grande
+0;-55.3020,-34.4324;30000;Lavalleja;La Plata
+0;-55.2859,-34.4707;30000;Lavalleja;Velázquez
+0;-55.2820,-34.3442;30000;Lavalleja;Higueritas
+0;-55.2990,-34.3946;30000;Lavalleja;Barrio La Coronilla-Ancap
+0;-55.2499,-34.3307;30000;Lavalleja;Campanero
+0;-54.9852,-34.3918;30000;Lavalleja;Marco de Los Reyes
+0;-54.7264,-34.2617;20500;Maldonado;Sauce de Aiguá
+0;-54.5220,-34.1087;20500;Maldonado;Paso de Los Talas
+0;-55.3933,-34.3398;30000;Lavalleja;Estación Ortíz
+0;-55.4478,-34.3663;30000;Lavalleja;Estación Solís
+0;-55.4771,-34.3144;30000;Lavalleja;Villa del Rosario
+0;-55.1609,-34.1919;30000;Lavalleja;Puntas de Santa Lucía
+0;-55.3451,-34.1906;30000;Lavalleja;Costas del Soldado
+0;-55.3622,-34.2057;30000;Lavalleja;El Soldado
+0;-55.4811,-34.1290;30000;Lavalleja;Gaetán
+0;-54.5856,-33.9347;30000;Lavalleja;Rincón de Mariscala
+0;-55.4701,-34.7917;15400;Canelones;Sierra del Mar
+0;-55.6126,-34.7655;15400;Canelones;Guazu-Virá
+0;-55.6407,-34.7710;15300;Canelones;Bello Horizonte
+0;-55.8081,-34.7708;15100;Canelones;Fortín de Santa Rosa
+3543;-55.8241,-34.7743;15100;Canelones;Marindia
+0;-55.6856,-34.7347;15300;Canelones;Estación La Floresta
+0;-55.8800,-34.7884;15100;Canelones;Neptunia
+0;-55.8588,-34.7869;15100;Canelones;Pinamar
+0;-55.8895,-34.7948;15800;Canelones;El Pinar
+0;-55.9595,-34.8033;15800;Canelones;Colinas de Solymar
+0;-55.8797,-34.7200;15600;Canelones;La Montañesa
+0;-55.8023,-34.6895;15600;Canelones;La Palmita
+0;-55.5189,-34.6989;15400;Canelones;Capilla de Cella
+0;-55.9706,-34.6944;15600;Canelones;Estanque de Pando
+0;-55.9656,-34.6861;15600;Canelones;Villa Jardín
+0;-55.8876,-34.7028;15900;Canelones;Villa San Cono
+0;-55.8153,-34.6103;91600;Canelones;Estación Pedrera
+0;-55.9957,-34.7913;15500;Canelones;Villa Aeroparque
+0;-56.0737,-34.7170;15700;Canelones;Villa San José
+0;-56.3329,-34.6889;90100;Canelones;Rincón del Colorado
+0;-56.2545,-34.6238;15900;Canelones;Parada Cabrera
+0;-56.2407,-34.6422;15900;Canelones;Villa Felicidad
+0;-56.0601,-34.5429;91400;Canelones;Puntas de Pantanoso
+0;-56.3541,-34.6717;90000;Canelones;Paso de las Toscas
+0;-56.3561,-34.6369;90100;Canelones;Cerrillos al Sur
+0;-56.4516,-34.6210;90100;Canelones;Paso del Bote
+0;-56.4673,-34.6085;90100;Canelones;Parador Tajes
+0;-56.2578,-34.5159;90000;Canelones;Paso Palomeque
+0;-55.9793,-34.5669;91600;Canelones;Costa de Pando
+0;-56.2792,-34.4943;90000;Canelones;Paso Espinosa
+0;-56.1521,-34.4883;90000;Canelones;La Paloma
+0;-55.9573,-34.3777;91200;Canelones;Castellanos
+0;-56.4012,-34.1660;95100;Florida;Paso de los Novillos
+0;-56.2775,-34.1474;94000;Florida;Berrondo
+0;-56.1851,-34.0971;94000;Florida;Juncal
+0;-56.0422,-33.9252;91600;Florida;Talita
+0;-57.7129,-32.9693;65100;Río Negro Department;Estancia Bichadero
+0;-57.5530,-32.9451;65100;Río Negro Department;Paso de los Cobres
+0;-57.9103,-32.8431;65100;Río Negro Department;La Unión
+0;-57.4556,-32.8578;65100;Río Negro Department;El Ombú
+0;-56.9709,-33.4318;85000;Flores Department;El Totoral
+0;-56.8083,-33.1860;91800;Durazno Department;Feliciano
+0;-56.9485,-32.7325;45100;Río Negro Department;El Progreso
+0;-56.7532,-32.6098;45100;Río Negro Department;La Coronilla
+0;-57.9964,-32.7003;61100;Río Negro Department;Tres Quintas
+0;-57.2565,-32.6472;65100;Río Negro Department;Mataojo
+0;-57.8424,-32.5882;60000;Río Negro Department;Uleste
+0;-57.3763,-32.5600;65100;Río Negro Department;Villa María
+0;-58.1472,-32.4755;60000;Río Negro Department;Santa Elisa
+0;-57.9689,-32.5262;60000;Paysandú Department;Rabón
+0;-57.8081,-32.4648;60000;Paysandú Department;Valdéz
+0;-57.5601,-32.4772;60300;Paysandú Department;Arroyo Negro
+0;-58.0340,-32.3575;60000;Paysandú Department;Costa de Sacra
+0;-57.4629,-32.3846;60000;Paysandú Department;Pandule
+0;-57.6424,-32.1235;60000;Paysandú Department;Sauce de Abajo
+0;-57.7447,-31.9963;60000;Paysandú Department;Araújo
+0;-57.5388,-31.9979;60000;Paysandú Department;Sauce de Buricayupí
+700;-57.4802,-31.8847;60000;Paysandú Department;Gallinal
+0;-56.2659,-31.8165;45000;Tacuarembó Department;El Empalme
+0;-56.1751,-31.8223;45000;Tacuarembó Department;Valle Edén
+0;-57.7198,-31.6623;50000;Paysandú Department;Bella Vista
+0;-56.1728,-31.6120;45000;Tacuarembó Department;Rincón de Freitas
+0;-57.9079,-31.4526;50000;Salto Department;Termas del Daymán
+0;-57.1329,-31.4969;50000;Salto Department;Puntas de Valentín
+0;-56.9864,-31.4643;50000;Salto Department;Paso de las Cañas
+0;-56.6037,-31.5231;60000;Salto Department;Carumbé
+0;-57.1476,-34.4423;80300;San José Department;Boca del Cufré
+0;-57.1693,-34.4428;70300;Colonia;Brisas del Plata
+0;-57.1926,-34.4373;70300;Colonia;Santa Regina
+0;-56.9877,-34.4074;80300;San José Department;La Boyada
+0;-56.5265,-34.5885;80100;San José Department;Rincón de Buschental
+0;-56.6187,-34.5308;80100;San José Department;Valdéz Chico
+0;-56.7604,-34.5508;80000;San José Department;Radial Ruta Tres
+0;-56.7614,-34.5154;80000;San José Department;Villa María
+0;-56.5316,-34.3648;80400;San José Department;La Cuchilla
+0;-56.5523,-34.1726;80000;San José Department;Carreta Quemada
+0;-56.9844,-33.9849;85000;San José Department;Paso del Guaycurú
+0;-57.1794,-33.9785;70200;Colonia;Puntas del Rosario
+0;-58.4265,-33.5651;75100;Soriano;La Concordia
+0;-58.2109,-33.5542;75100;Soriano;Chacras de Dolores
+0;-58.0235,-33.8289;75100;Soriano;Palo Solo
+0;-58.3030,-33.4224;75100;Soriano;La Loma
+0;-58.3583,-33.1644;65000;Río Negro Department;Las Cañas
+0;-57.7996,-33.8336;70100;Soriano;Lares
+0;-57.7475,-33.8501;70100;Soriano;Pueblo Castillos
+0;-58.3309,-33.9635;70100;Colonia;Zagarzazú
+0;-58.3811,-33.9091;70700;Colonia;Belgrano Sur
+0;-58.3483,-33.8814;70700;Colonia;Belgrano Norte
+0;-58.2760,-33.8778;70700;Colonia;Polancos
+0;-58.1984,-33.9293;70100;Colonia;Víboras y Vacas
+0;-58.1920,-34.0586;70100;Colonia;Juan González
+0;-58.0641,-34.0384;70800;Colonia;San Roque
+0;-57.9562,-34.0361;70800;Colonia;Sarandí Campana
+0;-57.9961,-34.0845;70000;Colonia;Santa Rosa
+0;-58.1339,-33.4310;75100;Soriano;Bizcocho
+0;-58.0385,-33.2332;75000;Río Negro Department;Los Arrayanes
+0;-58.0378,-33.3271;75000;Soriano;Colonia Díaz
+0;-57.8722,-33.0455;75000;Soriano;Rincón de Cololó
+0;-57.2649,-33.7208;75200;Soriano;Cuchilla del Perdido
+0;-57.2285,-33.9144;75200;Soriano;Juan Jackson
+0;-57.1544,-33.7654;85000;Flores Department;Santa Adelaida
+0;-57.1102,-33.5785;85000;Flores Department;Arenal Chico
+0;-57.0497,-33.5222;85000;Flores Department;Puntas del Marincho
+0;-57.0252,-33.4618;85000;Flores Department;Colonia Alemana
+0;-57.0770,-33.2608;85000;Flores Department;El Coronilla
+0;-57.8995,-31.3875;15700;Salto Department;Barrio Artigas
+0;-57.7958,-31.4287;50000;Salto Department;La Bolsa
+0;-56.0136,-31.7214;45000;Tacuarembó Department;La Pedrera
+0;-56.0502,-31.6164;45000;Tacuarembó Department;Capón de la Yerba
+0;-57.9430,-31.2896;50000;Salto Department;Parque José Luis
+460;-57.4071,-31.3376;50000;Salto Department;Colonia Itapebí
+0;-57.5206,-31.1393;50000;Salto Department;Cerrilladas de Saucedo
+0;-56.6634,-31.1269;50000;Salto Department;Paso Nuevo del Arapey
+0;-57.7893,-31.0725;50100;Salto Department;Chacras de Constitución
+0;-56.6868,-31.0835;50000;Salto Department;Bordenave
+0;-56.6342,-31.0344;50000;Salto Department;Cuchilla de Guaviyú
+0;-57.8450,-30.9562;50100;Salto Department;El Espinillar
+0;-57.7737,-30.8074;50200;Salto Department;Chacras de Belén
+0;-57.7326,-30.4304;55100;Artigas;Cainsa Campo Tres
+0;-57.1896,-30.9074;55000;Artigas;Patitas
+0;-56.3933,-30.5046;55000;Artigas;Guayubirá
+0;-56.5536,-30.4048;55000;Artigas;Colonia Brigadier General Rivera
+0;-56.4567,-30.4322;55000;Artigas;Pintadito
+0;-57.5954,-34.4211;70000;Colonia;Santa Ana
+0;-57.6025,-34.4237;70000;Colonia;El Ensueño
+0;-57.3349,-34.4341;70500;Colonia;Boca del Rosario Oeste
+0;-57.2967,-34.4357;70300;Colonia;Blanca Arena
+0;-57.2713,-34.4328;70300;Colonia;Britópolis
+0;-57.2537,-34.4332;70300;Colonia;Fomento
+0;-57.2638,-34.3689;70400;Colonia;Nuevo Torino
+0;-57.6757,-34.1266;70600;Colonia;Paso Hospital
+0;-57.3513,-34.3314;70200;Colonia;Pastoreo
+0;-57.8415,-34.3770;70000;Colonia;Piedra de los Indios
+0;-57.8277,-34.2837;70000;Colonia;San Pedro Norte
+0;-57.4019,-34.3848;70500;Colonia;Colonia Cosmopolita
+0;-57.2209,-34.2418;90100;Colonia;Barrancas Coloradas
+0;-57.3350,-34.2753;70200;Colonia;Rosario y Colla
+0;-57.7994,-34.2040;70600;Colonia;San Juan
+0;-57.9793,-34.1340;70000;Colonia;El Bañado
+0;-57.9360,-34.1024;70800;Colonia;Puntas de Juan González
+0;-57.8521,-34.1058;70800;Colonia;Miguelete de Conchillas
+0;-57.4776,-34.2203;70200;Colonia;Barker Norte
+0;-57.3408,-34.2457;70200;Colonia;Costa de Navarro
+0;-57.4097,-34.2476;70200;Colonia;Costa de Colla al Este
+0;-57.6732,-34.1728;70600;Colonia;San Luis Sánchez
+0;-57.7995,-34.1380;91200;Colonia;El Cuadro
+0;-57.9206,-34.1819;70000;Colonia;Minas de Narancio
+0;-57.5382,-30.7108;55000;Artigas;Palma Sola
+0;-57.3773,-30.7079;55000;Artigas;Cabellos
+0;-53.8243,-34.1785;27200;Rocha Department;Palmar
+0;-54.6175,-34.0888;20500;Maldonado;Salamanca
+0;-56.4211,-34.7528;80500;San José Department;Ciudad del Plata
+0;-56.7508,-34.4660;80000;San José Department;Cañada Grande
+0;-58.1061,-33.9375;70100;Colonia;Víboras
+0;-57.7488,-32.8818;65100;Río Negro Department;Sánchez Chico
+0;-57.5658,-31.5457;50000;Salto Department;Sauce Chico
+0;-56.0208,-31.8911;45000;Tacuarembó Department;Sauce de Batoví
+0;-56.0416,-31.7393;45000;Tacuarembó Department;La Aldea

@@ -1,0 +1,59 @@
+0;-63.0491,18.0516;SX;;Zorg en Rust
+0;-63.0833,18.0167;SX;;Windsor
+0;-63.0652,18.0310;SX;;Welgeleden
+0;-63.0380,18.0214;SX;;Vineyard
+4020;-63.0307,18.0328;SX;;Upper Prince’s Quarter
+0;-63.0465,18.0527;SX;;Union Farm
+0;-63.0600,18.0311;SX;;The Villa
+0;-63.0833,18.0167;SX;;The Corner
+0;-63.0349,18.0408;SX;;Sucker Garden
+0;-63.0333,18.0333;SX;;Spring Garden
+700;-63.1185,18.0378;SX;;Simson Bay Village
+0;-63.0567,18.0417;SX;;Saunders
+0;-63.0706,18.0535;SX;;St. Peters
+0;-63.0359,18.0555;SX;;Rockland
+0;-63.0644,18.0590;SX;;Reward
+0;-63.0658,18.0468;SX;;Retreat Estate
+0;-63.0667,18.0333;SX;;Prospect Farm
+0;-63.0333,18.0333;SX;;Pine Garden
+1400;-63.0458,18.0260;SX;;Philipsburg
+0;-63.0432,18.0367;SX;;Over the Pond
+0;-63.0766,18.0360;SX;;Orange Grove
+0;-63.0333,18.0500;SX;;One Hoe
+0;-63.0493,18.0544;SX;;Nazareth
+0;-63.0443,18.0442;SX;;Middle Region
+0;-63.0592,18.0381;SX;;Mary’s Fancy
+0;-63.0499,18.0398;SX;;Madame’s Estate
+8000;-63.0379,18.0499;SX;;Lower Prince’s Quarter
+0;-63.0667,18.0333;SX;;Koolbaai
+0;-63.0697,18.0411;SX;;Industrie
+0;-63.0359,18.0283;SX;;Experiment
+0;-63.0568,18.0555;SX;;Ebenezer
+0;-63.0830,18.0432;SX;;Diamond
+0;-63.0333,18.0333;SX;;Defiance
+0;-63.1333,18.0500;SX;;Cupe Coy
+8467;-63.0651,18.0485;SX;;Cul de Sac
+0;-63.0385,18.0636;SX;;Bloomingdale
+0;-63.0374,18.0556;SX;;Belvédère
+0;-63.0154,18.0558;SX;;Oyster Pond
+0;-63.0175,18.0470;SX;;Dawn Beach
+0;-63.0233,18.0430;SX;;Tamarind Hill
+0;-63.0296,18.0529;SX;;Rice Hill
+0;-63.0383,18.0463;SX;;Saint James
+0;-63.0483,18.0487;SX;;Dutch Quarter
+0;-63.0500,18.0458;SX;;Mont William Hill
+0;-63.0514,18.0424;SX;;Claude Estate
+0;-63.0570,18.0593;SX;;Waymouth Hills Mildrum
+0;-63.0799,18.0395;SX;;Almond Grove Estate
+6000;-63.0840,18.0405;SX;;Koolbaai
+0;-63.1159,18.0376;SX;;Beacon Hill
+0;-63.1221,18.0419;SX;;Maho Reef
+0;-63.1260,18.0460;SX;;Mullet Bay
+0;-63.0842,18.0264;SX;;Cay Bay
+0;-63.0616,18.0243;SX;;Rabbit Hill
+0;-63.0232,18.0394;SX;;Red Pond
+0;-63.0201,18.0539;SX;;Oyster Pond
+5581;-63.0646,18.0264;SX;;Little Bay
+0;-63.1351,18.0499;SX;;Cupecoy
+0;-63.0945,18.0288;SX;;Pelikan Key
+0;-63.0604,18.0352;SX;;Phillipsburg

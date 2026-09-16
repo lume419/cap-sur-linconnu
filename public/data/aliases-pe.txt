@@ -1,0 +1,2074 @@
+es;3 De Octubre;Tres de Octubre
+es;Zorro-Cote;Zorro Cote
+es;Cote;Zorro Cote
+ru;Юримагуас;Yurimaguas
+es;Viviare;Viviate
+es;Vista Allegre;Vista Alegre
+zh-Hans;比鲁;Virú
+qu;Wiru llaqta;Virú
+zh;比魯;Virú
+es;Hacienda Vinzos;Vinzos
+es;Ventarrones;Hacienda Ventarrones
+es;Uvidi;Ubidi
+es;Unto;Fundo Unto
+ru;Умбе;Umbe
+ru;Тунал;Tunal
+qu;Tumpis;Tumbes
+ru;Тумбес;Tumbes
+ja;トゥンベス;Tumbes
+zh;通贝斯;Tumbes
+ko;툼베스;Tumbes
+ar;تومبس;Tumbes
+hi;तुम्बेस;Tumbes
+ru;Трухильо;Trujillo
+ko;트루히요;Trujillo
+nah;Troxillo;Trujillo
+ja;トルヒーリョ;Trujillo
+ar;تروخيو، بيرو;Trujillo
+qu;Truhillu;Trujillo
+zh;特鲁希略;Trujillo
+hi;त्रुजिल्लो;Trujillo
+es;Corrientes Trompeteros;Trompeteros
+es;Villa Trompeteros;Trompeteros
+ru;Тромпетерос;Trompeteros
+ru;Тринидад;Trinidad
+es;La Tranca;Tranca de Reque
+ru;Тотора;Totora
+es;Totora;Totoral Bajo
+ay;Tinku Mariya;Tingo María
+qu;Tinku Mariya;Tingo María
+zh;廷戈瑪麗亞;Tingo María
+ru;Тембладера;Tembladera
+es;Tayapampa;Tayapamba
+qu;Taraputu;Tarapoto
+ru;Тарапото;Tarapoto
+zh;塔拉波托;Tarapoto
+ru;Тамариндо;Tamarindo
+ru;Талара;Talara
+ja;タララ;Talara
+zh;塔拉拉;Talara
+ko;탈라라;Talara
+es;Talamvito;Talambito
+ru;Табалосос;Tabalosos
+ru;Сульяна;Sullana
+zh;蘇亞納;Sullana
+es;Suimate;Suymat
+ru;Соритор;Soritor
+ru;Сондор;Sondor
+es;Sogesa;La Chancadora
+ru;Ситабамба;Sitabamba
+ru;Симбал;Simbal
+es;Sivingam Alto;Sivingán Alto
+es;Sivingan Alto;Sivingán Alto
+es;Sibingán;Sivingán Alto
+es;Carbonería;Sechín Alto
+ru;Сартимбамба;Sartimbamba
+zh;圣地亚哥-德考;Santiago de Cao
+es;Santeno;Santeño
+es;Santa Cemencia;Santa Clemencia
+es;Santa Ana;Fundo Santa Ana
+ru;Санта;Santa
+es;San Roque;Shocorco
+es;San Roque Shocorco;Shocorco
+qu;San Pedro Lluq;San Pedro de Lloc
+zh;聖佩德羅德約克;San Pedro de Lloc
+zh-Hans;圣佩德罗德约克;San Pedro de Lloc
+ru;Сан Педро Де Йок;San Pedro de Lloc
+es;Hacienda San Pedro;San Pedro
+es;San Nicolás;La Colca de San Nicolas
+es;San Miguel de Matara;San Miguel de Matarita
+es;San Miguel;San Miguel de Matarita
+es;San Marcos;San Marcos Numero Uno
+es;San Marcos Numero 1;San Marcos Numero Uno
+es;Hacienda San Juan;San Juan
+es;Chapipampa;San Juan de Lagunas
+ru;Сиса;Sisa
+es;San José Hacienda;San José
+ru;Зана;Saña
+ru;Салпо;Salpo
+ru;Салитрал;Salitral
+ru;Салас;Salas
+es;Hacienda Salagual;Salagual
+es;Santa Rosa del Rupe;Rupe
+ru;Румисапа;Rumisapa
+ru;Рондос;Rondos
+es;Rinconazo;Hacienda Rinconazo
+es;Recuaybamba;Racuaybamba
+es;Quisquis;Hacienda Quiquis
+es;San Pedro de Quinuamayo;Quinuamayo Bajo
+es;Quinaquina;Quina Quina
+es;Quilcay Grande;Quilcay
+es;Quere;Quefe
+es;Quemazón;Quemazon
+es;Putcan;Puican
+en;Puerto Morín;Puerto Mori
+es;Puerto Morín;Puerto Mori
+nl;Puerto Morín;Puerto Mori
+en;Pucara;Pucará
+ja;プカルバ;Pucallpa
+qu;Pukallpa;Pucallpa
+ru;Пукальпа;Pucallpa
+ay;Pukallpa;Pucallpa
+zh;普卡尔帕;Pucallpa
+ko;푸카이파;Pucallpa
+ar;بوكالبا;Pucallpa
+hi;पुकल्पा;Pucallpa
+ru;Порото;Poroto
+ru;Понто;Ponto
+es;Pumallucay;Pomallucay
+ru;Помабамба;Pomabamba
+es;Poctao;Hacienda Poctao
+ru;Пиура;Piura
+ay;Piwra;Piura
+qu;Piwra;Piura
+ja;ピウラ;Piura
+ru;Пьюра;Piura
+zh;皮乌拉;Piura
+ko;피우라;Piura
+ar;بيورا;Piura
+hi;पिउरा;Piura
+ru;Пира;Pira
+ru;Пинра;Pinra
+ru;Пиментел;Pimentel
+es;Pie del Toro;Piedra del Toro
+ru;Пикси;Picsi
+es;San Pedro de Perico;Pericos
+es;Pencabamba;Pencapampa
+ru;Пебас;Pebas
+es;La Pauquilla;Pauquilla
+es;La Pauquilla;Pauquilla Trancas
+es;Pauca;Pauca Santa Rosa
+ru;Паробамба;Parobamba
+ru;Паринари;Parinari
+es;Parachique;Parachique - La Bocana
+ru;Пампас;Pampas
+ru;Пампаромас;Pamparomas
+es;Palosantal;Palo Santal
+es;Palomino;Hacienda Palomino
+es;Palillo;Palillo Chico
+es;Paitar;Paltar
+ru;Паита;Paita
+qu;Payta;Paita
+ru;Пайта;Paita
+zh;派塔;Paita
+ar;بايخان;Paiján
+es;La Paccha;Paccha
+es;Otra Banda;Hacienda La Otra Banda
+es;La Otra Banda;Hacienda La Otra Banda
+ru;Олто;Olto
+ru;Олмос;Olmos
+es;Viejo Olaya;José Olaya
+ru;Обас;Obas
+es;Livinto;Nivintos
+ru;Наварро;Navarro
+ru;Намора;Namora
+es;Mutis;Minis
+ru;Мойобамба;Moyobamba
+ay;Muyupampa;Moyobamba
+qu;Muyupampa;Moyobamba
+zh;莫約班巴;Moyobamba
+ko;모요밤바;Moyobamba
+ar;مويوبامبا;Moyobamba
+hi;मोयोबांबा;Moyobamba
+ja;モヨバンバ;Moyobamba
+ru;Мотупе;Motupe
+ru;Моро;Moro
+es;Morro;Moro
+ru;Моралес;Morales
+ru;Монтеро;Montero
+zh;蒙塞富;Monsefú
+ru;Молино;Molino
+ru;Мирафлорес;Miraflores
+ru;Нинабамба;Ninabamba
+es;Anrisha;Membrillar
+es;Mazanilla;Manzanilla
+ru;Матапало;Matapalo
+es;Hacienda Marcamachay;Marcamachay
+de;Mancora;Máncora
+zh;曼科拉;Máncora
+ru;Малвас;Malvas
+es;Hacienda Malca;Malcas
+es;Malacasí;Malacasi
+es;Luzfaque;Lusfaque
+ru;Лобитос;Lobitos
+es;La Aurora;Llullapuquio
+es;Llaucan;Llaucán
+es;Limón Alto;El Limón
+es;Liclispampa;Liclipampa
+ru;Леванто;Levanto
+es;La Victória;La Victoria
+es;Casa Blanca;Las Viejas
+es;Tres Compuertas;Las Tres Compuertas
+es;Las Hortalizes;Las Ortalices
+ru;Ларедо;Laredo
+es;La Ramada Alta;La Ramada
+es;La Pena;La Peña
+ru;Ламуд;Lamud
+ru;Ламбайеке;Lambayeque
+qu;Lampalliqi;Lambayeque
+zh;兰巴耶克;Lambayeque
+ru;Ламас;Lamas
+es;La Juanita;Juanita
+es;La Huaca;Hacienda La Huaca
+es;La Cramarca;Lacramarca Alta
+es;La Capilla;Capilla
+zh;洪比亞;Jumbilla
+zh-Hans;洪比亚;Jumbilla
+ru;Хуанхуи;Juanjuí
+qu;Huwanhuy;Juanjuí
+zh;胡安惠;Juanjuí
+ja;フアンフイ;Juanjuí
+es;Jancala;Jancalá
+ru;Хаэн;Jaén
+qu;Ikitus;Iquitos
+ru;Икитос;Iquitos
+ko;이키토스;Iquitos
+ja;イキトス;Iquitos
+zh;伊基托斯;Iquitos
+ar;إكيتوس;Iquitos
+hi;इकिटोस;Iquitos
+es;Huisco;Breña Isco
+es;Huaynamarca;Huayanmarca
+es;Huashcayan;Huashcayán
+qu;Waras;Huaraz
+ru;Уарас;Huaraz
+zh;瓦拉斯;Huaraz
+ay;Waras;Huaraz
+ja;ワラス;Huaraz
+ko;우아라스;Huaraz
+ar;هوراز;Huaraz
+hi;हुराज़;Huaraz
+qu;Wanuku;Huánuco
+ru;Уануко;Huánuco
+ja;ワヌコ;Huánuco
+nah;Huanuco;Huánuco
+ay;Wanuku;Huánuco
+zh;瓦努科;Huánuco
+ko;우아누코;Huánuco
+ar;هوانوكو;Huánuco
+hi;हुआनूको;Huánuco
+qu;Wanchaku;Huanchaco
+es;Huamanhuauco;Humanhuauco
+es;Hacienda Tuñad;Tuñad
+es;Tincayoc;Tinyayoc
+es;Tingayoc;Tinyayoc
+es;Pauca;La Pauca
+es;Polloquito;San Luis de Polloquito
+es;San Luis;San Luis de Polloquito
+es;Hacienda Los Cocos;Los Cocos
+es;Los Codos;Los Cocos
+es;Hacienda La Viña;La Viña
+es;Hacienda La Candena;La Cadena
+es;Hacienda Eureca;Eureca
+es;Hacienda el Portal;El Portal
+es;Hacienda Condor Arma;Condorarma
+es;Condor Arma;Condorarma
+es;Granero;El Voladero
+es;Fanupe;Fundo Fanupe
+es;Bella Vista;Bellavista
+es;Fundo Bellavista;Bellavista
+es;El Progresso;Progreso Colón
+es;El Progreso;Progreso Colón
+es;El Parco;El Parco District
+es;El Paraizo;El Paraíso
+es;El Milagro;Milagro
+es;El Guanabano;Guanabano
+es;Gallito;Gallito Ciego
+es;Sección Castillo;El Castillo
+es;Cafetal;El Cafetal
+es;El Arenal;Huambacho El Arenal
+es;Cuscudén;Cuzcuden
+ru;Куско;Cusco
+es;Cumbicus;Cumbico
+es;Culebras;Cule Bras
+es;Cuernavaca;Cuerna Vaca
+es;Cucco;Cutco
+es;Corral de Vaca;Corral de Vaga
+zh-Hans;孔图马萨;Contumazá
+qu;Quntumasa;Contumazá
+zh;孔圖馬薩;Contumazá
+es;Conocuarmi;Conoc Huarmi
+es;Conga de Patiño;Patiño
+es;Condormaca;Condormarca
+es;Conchud;Palma Conchud
+es;Hacienda Culquimarca;Culquimarca
+es;Chuquillanqui Alto;Chuquillanqui
+ru;Чулуканаса;Chulucanas
+es;Chullhuay;Quillhuay
+es;Chuhuad;Chuad
+qu;Chimputi;Chimbote
+ru;Чимботе;Chimbote
+ja;チンボテ;Chimbote
+ay;Chimputi;Chimbote
+ko;침보테;Chimbote
+zh;钦博特;Chimbote
+qu;Chiklayu;Chiclayo
+ru;Чиклайо;Chiclayo
+ja;チクラーヨ;Chiclayo
+ar;تشيكلايو;Chiclayo
+zh;奇克拉约;Chiclayo
+ko;치클라요;Chiclayo
+hi;चिक्लायो;Chiclayo
+es;Huayna Cápac;Chica Alta
+qu;Chipin;Chepén
+zh;切彭;Chepén
+es;Sitio arqueológico de Chavín;Chavín de Huantar
+fr;Chavin;Chavín de Huantar
+de;Chavín de Huántar;Chavín de Huantar
+en;Chavín culture;Chavín de Huantar
+it;Chavin;Chavín de Huantar
+nl;Chavin-cultuur;Chavín de Huantar
+pt;Chavin;Chavín de Huantar
+es;Charanal;Charandal
+es;Peligro;Chamán
+qu;Chachapuyas;Chachapoyas
+ru;Чачапояс;Chachapoyas
+zh;查查波亚斯;Chachapoyas
+ay;Chachapuyas;Chachapoyas
+ko;차차포야스;Chachapoyas
+ar;تشاتشابويا;Chachapoyas
+hi;चाचापोयस;Chachapoyas
+ja;チャチャポヤス;Chachapoyas
+qu;Chakas;Chacas
+zh;查卡斯;Chacas
+es;Cepo;El Cepo
+zh;塞倫丁;Celendín
+zh-Hans;塞伦丁;Celendín
+es;Cayan;Cayán
+es;Hacienda Cayalti;Cayalti
+es;Caucau;Cau Cau
+es;Casope;Casupe
+es;Castaneda;Castañeda
+es;Cashapampa;Casapampa
+hi;कैरज़;Caraz
+ru;Карас;Caraz
+qu;Qaras;Caraz
+ko;카라즈;Caraz
+zh;卡拉斯;Caraz
+ar;كاراز، بيرو;Caraz
+ja;カラス;Caraz
+ay;Qaras;Caraz
+es;Cangrejo;Hacienda Cangrejo
+es;Calupe;Hacienda Calupe
+es;Callhuan;Calluán
+qu;Qashamarka;Cajamarca
+qu;Kashamarka;Cajamarca
+ru;Кахамарка;Cajamarca
+ko;카하마르카;Cajamarca
+ay;Qajamarka;Cajamarca
+ja;カハマルカ;Cajamarca
+nah;Caxamarca;Cajamarca
+zh;卡哈馬卡;Cajamarca
+ar;كاخامركا;Cajamarca
+hi;काजामर्का;Cajamarca
+es;Chilancape;Cadape
+es;Buenaventura;Buena Ventura
+ru;Бернал;Bernal
+ru;Бамбас;Bambas
+ru;Балсас;Balsas
+ru;Багуа;Bagua
+zh;巴瓜;Bagua
+ru;Аякучо;Ayacucho
+ru;Аренал;Arenal
+ru;Анта;Anta
+es;Angoy;Anguy
+es;Ampanún;Ampanú
+ru;Амотапе;Amotape
+es;Nuevo Olaya;Alto Perillo
+es;Allaymucha;Llaymucha
+es;Alizal;El Alizar
+es;Alizopata;Alisopata
+es;El Aliso;El Alizo
+es;Aguas Blanca;Agua Blanca
+es;Achacuas;Achahuas
+es;Campoverde;Campo Verde
+es;Naranjo;Naranjos
+es;Tamborapa;Puerto Tamborapa
+es;Parairaca;Parayracra
+es;Tocac;Tocaj
+es;Callampampa;Callapampa
+es;El Cumbil;Cumbil
+es;La Munana;Munana
+es;Izcumalca;Iscomalca
+es;Iscumalca;Iscomalca
+es;Cusihuán;Cusilguan
+es;Timon;Timón
+es;Blanca Forida;Blanca Florida
+es;Diamante;El Diamante
+es;Menbrillar;Membrillar
+es;Granadilla;La Granadilla
+es;Alfalfilla;La Alfalfilla
+es;Limoncito;El Limoncito
+es;Batán;El Batán
+es;Huaca La Tenera;Huaca La Ternera
+es;Luscapampa;Luzcapampa
+es;La Muchal;La Muchala
+es;Chilanian;Chilanlan
+es;Guagamarca;Huangamarca
+es;La Succha Huangamarca;Succha Huangamarca
+es;Succha de Huangamarca;Succha Huangamarca
+es;Succha Molle;La Succha
+es;Yonque;El Yonque
+es;Rocoto;El Rocoto
+es;Lima Pampa;Limapampa
+es;Hacienda Quipacuy;Quipayuc
+es;San Luis de Quipayuc;San Luis
+es;Balconsillo;Balcón
+es;El Sauce;Los Sauces
+es;Sullcho;Suychuco
+es;Ayahuaca;Ayahuacas
+es;Queromarca;Santa Teresa de Queromarca
+es;Molino;El Molino
+es;Lanchi;Lanche
+es;Tomate;El Tomate
+es;Cochapampa;Cochapamba
+es;Villa Aeronautica;Villa Aeronáutica
+es;Pampa Corral;San Juan de Corralpampa
+es;Nuevo San Juan de Corralpampa;San Juan de Corralpampa
+es;Corral Pampa;San Juan de Corralpampa
+es;San Juan de Huangamarca;Huangamarca
+es;Ramos Cucho;Ramoscucho
+es;Ñuñun;Ñun Ñun
+es;Ñunñun;Ñun Ñun
+es;Caliacate;Callacat
+es;Callacate;Callacat
+es;Jadibamba Bajo;Jadibamba
+es;Chanta Alta;Santiago de Chanta Alta
+es;Quengorio;Quengorrio
+es;Quengorrio Bajo;Quengorrio
+es;Quengorrío Bajo;Quengorrio
+es;Quillimbas;Quillimbash
+es;Cura Pampa;Curapampa
+es;Mayoc Chico;Muyoc Chico
+es;Quinua;La Quinua
+es;Sexe Huangamarca;Sexe
+es;Chilac;Chilac Número Ocho
+es;Chilac Número 8;Chilac Número Ocho
+es;Las Lagunas;Lagunas
+es;Chugul;Chugur
+es;La Huayla;La Huaylla
+es;Lanchechuco;Lanchecucho
+es;La Shita;Shita
+es;Reyes;Los Reyes
+es;Lirio Pampa;Liriopampa
+es;El Tingo;Tingo
+es;Melendez;Meléndez
+es;Paria Puquio;Pariapuquio
+es;Molinopampa;Molina Pampa
+es;Quehuaysana;Queruaysana
+es;Quehuaysar;Queruaysana
+es;Quervaysana;Queruaysana
+es;Alanya;San Luis de Alanya
+es;Yaguan;Llaguan
+es;Salacate;Salacat
+es;Cruz Pampa;Cruzpampa
+es;Quinua Pampa;Quinuapampa
+es;Yierba Buena;San Juan de Yerba Buena
+es;Hierba Buena;San Juan de Yerba Buena
+es;Rejo Pampa;Rejopampa
+es;Paraíso;El Paraíso
+es;La Laguna;Laguna
+es;Cuñur;Coñor Chico
+es;Hierba Buena;Yierba Buena
+es;Porvenir;El Porvenir
+es;La Alfalfía;Alfalfilla
+es;Lama Lama;La Malama
+es;Tashaca;La Tashaca
+es;El Ochentaiuno;Kilómetro 81
+es;Colahuay;Colaguay
+es;Chinchahua;Chichagua
+es;Fundo Huarango Pampa;Huarangopampa
+es;Altamisa;Altamiza de Chingama
+es;Chingama;Rosario de Chingama
+es;El Cruce;Cruce Sunba
+es;San Miguel de Chinchique;San Miguel
+es;Vista Alegre;Vista Alegre Chingama
+es;Shanango;Santa Rosa de Chanango
+es;Piñas;Las Piñas
+es;Uña de Gato;Uñegato
+es;Rinconada La Genia;Rinconada Lajeña
+es;Yanu Yacu;Yanuyacu
+es;Almendral;El Almendral
+es;Las Almendras;El Almendral
+es;Hacienda Chunchuquillo;Chunchuquillo
+es;Vista Alegre;Vista Alegre de Zonanga
+es;Vista Alegre Zonanga;Vista Alegre de Zonanga
+es;Puente Sonanga;Zonanga
+es;Chunchuca Puente;Puente Blanco
+es;Coronga;Joronga Alto
+es;Infiernillo;El Infiernillo
+es;Churca;San Gerardo de Churca
+es;Mesa Rumi;Mesarrume
+es;El Anís;El Aniz
+es;Rollo;El Rollo
+es;Cedro;Cedro del Pasto
+es;San Antonio de Paujilzapa;San Antonio de Paujilsapa
+es;Misquiyacu;Mishquiyacu
+es;Alto Perú;Huaca Alto Perú
+es;Aviación;Campo La Aviación
+es;Chacarilla;La Chacarilla
+es;Destino;El Destino
+es;El Triunfo;Triunfo
+es;Fala Falita;Falita
+es;La Nueva;Hacienda Nueva
+es;Hacienda La Nueva;Hacienda Nueva
+es;La Vieja;Hacienda Vieja
+es;Hacienda La Vieja;Hacienda Vieja
+es;Lavalle;La Valle
+es;Popan Bajo;Popan
+es;Samán;Saman
+es;San Martín-Chacupe;Hacienda Chacupe
+es;Santa Rosa;Huaca San Rosa
+es;Santo Tomás;Fundo Santo Thomas
+es;Ucupe;Hacienda Ucupe
+es;San Martín CP-Seis;San Martín CP-6
+en;Peca Palacios;Alenya
+es;Caimito;Caymito
+es;Puerto Misquiyacu;Puerto Mishquiyacu
+es;Llmonyacu;Limón Yacu
+es;Gollicate;Collicate
+es;Shape;Shuape
+es;Mercedes;Las Mercedes
+es;Puerto Naranjito;Puerto Naranjitos
+es;Tablazos;Tablazon
+es;Tetoral;Totoral
+es;San Jacinto;El Jacinto
+es;Poechos;Hacienda Poechos
+es;Monte Señor;Hacienda Monte Señor
+es;La Macarena;Hacienda La Macarena
+es;Santa Grimanesa;Hacienda Santa Grimanesa
+es;San Ignacio;Hacienda San Ignacio
+es;Santa Cristina;Hacienda Santa Cristina
+es;Santa Ana;Hacienda Santa Ana
+es;Santa Sofia;Hacienda Santa Sofia
+es;San José;Hacienda San José
+es;Vista Florida;Hacienda Vista Florida
+es;La Chira;Hacienda La Chira
+es;El Perico;El Penco
+es;Santa Rosa;Santa Rosa de Yaraví
+es;Chinería;Rondiña
+es;Santa Elena;San Pedro
+es;Yana-orcco;Yanaorcco
+es;Cucho Yareoca;Yocahue
+ru;Витис;Vitis
+ru;Витарте;Vitarte
+es;Visachate;Wisachata
+es;Villa Tupac Amaru;Tupac Amaru
+ru;Вилавила;Vilavila
+ru;Урубамба;Urubamba
+ru;Урипа;Uripa
+es;Umahuamba;Soraycho Umabamba
+es;Hacienda Umahuamba;Soraycho Umabamba
+es;Uchuy Buena Vista;Buena Vista
+ru;Убинас;Ubinas
+ru;Тути;Tuti
+ru;Турпо;Turpo
+ru;Тупе;Tupe
+es;Tunasnioj;Tunasnioc
+ru;Тотос;Totos
+ru;Тоторалес;Totorales
+es;Torremachay;Torremacmay
+ru;Торо;Toro
+ru;Тората;Torata
+ru;Томепампа;Tomepampa
+ru;Томас;Tomas
+es;Tomanga;Tomancca
+ru;Тирапата;Tirapata
+ru;Тинта;Tinta
+es;Hacienda Tincopalca;Tincopalca
+ru;Титили;Titili
+es;Ticcahuassi;Ticcahuasi
+ru;Тарма;Tarma
+zh;塔爾馬;Tarma
+ru;Тарата;Tarata
+es;Vallecito San Isidro;Taracancamaya
+es;Cancamaya;Taracancamaya
+es;Isla de Taquili;Taquile
+qu;Intika;Taquile
+ru;Тапо;Tapo
+ru;Тантара;Tantara
+ru;Танта;Tanta
+es;Tanquiri;Tanquire
+es;Tanco;Tonco
+es;Jichu Ccollo;Tanapaca
+ru;Тамбопата;Tambopata
+es;Salinas Huito;Tambo De Sal
+ru;Тамбобамба;Tambobamba
+ru;Тамбо;Tambo
+ru;Талавера;Talavera
+es;Hacienda Taica;Taica
+qu;Taqna;Tacna
+ru;Такна;Tacna
+ja;タクナ;Tacna
+ay;Taqna;Tacna
+zh;塔克纳;Tacna
+ko;타크나;Tacna
+ar;تاكنا;Tacna
+hi;तक्ना;Tacna
+es;Surcuña;Hacienda Surcuña
+ru;Супе;Supe
+ru;Сунампе;Sunampe
+es;Sumpapayoc;Sumapayoc
+ru;Сорас;Soras
+es;Sisicaya;Pampa Sisicaya
+ru;Сина;Sina
+ru;Сатипо;Satipo
+es;Santa Ines;Fundo Santa Ines
+es;Hacienda Santa Catalina;Santa Catalina
+es;Puerto San Nicolás;San Nicolás
+es;Pomata;San Miguel de Huapaca
+es;Huacapa San Miguel;San Miguel de Huapaca
+es;San Julián;Fundo San Julián
+es;San Juan de Capillas;Capillas
+es;Puerto San Juan;San Juan
+en;San Juan de Marcona;San Juan
+es;San Juan de Marcona;San Juan
+es;San Isidro de Antacancha;Antacocha
+es;Sandoval;Lago Sandoval
+ru;Сан Бартоло;San Bartolo
+es;Salvianepara;Salvianepata
+es;Saila;Sayla
+es;Sacharaqay;Sacharajay
+es;Saccsane;Saccsañe
+es;Sacacani;Sacacane
+es;Rumi Huasi;Rumihuasi
+ru;Росаспата;Rosaspata
+es;Reventasga;Reventasja
+es;Quispe Maquercota;Quispemaquera
+es;Quisma Cruz;Quimsa Cruz
+es;Quisuarani;Quishuarani
+es;Ocallasi;Kehuari Ocallasi
+es;Queallane;Queallani
+es;Huata;Putina
+ru;Путина;Putina
+es;San Cristóbal de Putica;Putica
+ru;Пуси;Pusi
+es;Los Puquios;Fundo Los Puquios
+ja;プーノ;Puno
+ru;Пуно;Puno
+ko;푸노;Puno
+ay;Punu;Puno
+qu;Punu;Puno
+zh;普诺;Puno
+ar;بونو;Puno
+hi;पूनो;Puno
+es;Puerto Viejo;Caleta Puerto Viejo
+es;Puerto Pariamanú;Pariamanú
+ja;プエルト・マルドナド;Puerto Maldonado
+ru;Пуэрто-Мальдонадо;Puerto Maldonado
+ko;푸에르토말도나도;Puerto Maldonado
+zh;馬爾多納多港;Puerto Maldonado
+ar;بويرتو مالدونادو;Puerto Maldonado
+hi;प्यूर्टो माल्डोनाडो;Puerto Maldonado
+es;Pueblo Viejo Colquioc;Colquioc
+es;Pocapuquio 2;Pocapuquio Dos
+es;Pucará;Pucara
+ru;Потони;Potoni
+ru;Помата;Pomata
+es;Ancomarca;Pojollojo
+ru;Санта-Мария-дель-Мар;Playa de Santa María
+es;Las Piedras;Planchón
+ru;Писко;Pisco
+qu;Pisqu llaqta;Pisco
+zh;皮斯科;Pisco
+ru;Писак;Pisac
+es;Pirca Chica;Hacienda Pirca Chica
+es;Piedraliza;Piedra Liza
+es;Sacare Peñaloza;Sacari Peñaloza
+es;Sarapi Peñalosa;Sacari Peñaloza
+es;Pay Pay;Paypay
+es;Pataraya;Pataraya Grande
+ru;Паруро;Paruro
+es;Pariahuana;Paria Huana Alto
+ru;Парас;Paras
+ru;Парамонга;Paramonga
+ru;Паракас;Paracas
+es;Pantaico;Pantayco
+zh;潘帕斯;Pampas
+es;P.J. Pampa Libre;Pampa Libre
+es;Pachacute;Pampa de Tate
+ru;Палпа;Palpa
+es;Paichaqui;Paichachi
+es;Pachacámac;Pachacamac
+de;Pachacámac;Pachacamac
+qu;Pachakamaq llaqta;Pachacamac
+ru;Пачакамак;Pachacamac
+es;Pacchani;Pajchani
+es;Pacchani Chico;Pajchani
+es;Hacienda Pacchani;Pajchani
+es;Oscollo;Osccollo
+ru;Оропеса;Oropesa
+es;Oralalla;Ollaraya
+ru;Ондорес;Ondores
+ru;Омате;Omate
+ru;Омас;Omas
+qu;Ullantaytanpu;Ollantaytambo
+qu;Ullantaytampu;Ollantaytambo
+ja;オリャンタイタンボ;Ollantaytambo
+ru;Ольянтайтамбо;Ollantaytambo
+zh;奧揚泰坦博;Ollantaytambo
+es;Huaraca Santiago;Sector Olla
+es;Ojejasa;Ojojasa
+es;Occobamba;Occopampa
+es;Oceanía Nueva;Oceanía
+es;Occosullo;Ucusuyo
+es;Comunidad Occollo Centro;Occollo
+es;Ninapata;Nina Pata
+es;Provincia de Nazca;Nazca
+pt;Placa de Nazca;Nazca
+ru;Наска;Nazca
+qu;Naska;Nazca
+zh;納斯卡;Nazca
+es;Muña Or;Muña Orco
+es;Mullojpampa;Mollojpampa
+es;Muje;Hacienda Muje
+es;Moron Cancha;Muruncancha
+ru;Мокегуа;Moquegua
+ay;Mukiwa;Moquegua
+qu;Muqiwa;Moquegua
+zh;莫克瓜;Moquegua
+ko;모케과;Moquegua
+ar;موكيجوا;Moquegua
+hi;मोकेगुआ;Moquegua
+ja;モケグア;Moquegua
+es;Montenuasi;Montihuasi
+ru;Монобамба;Monobamba
+ru;Мольендо;Mollendo
+qu;Mullintu;Mollendo
+zh;莫延多;Mollendo
+ru;Молинос;Molinos
+es;Molino Humacata;Molino Humabata
+es;Mohocachi;Mocache
+es;Milpo;Millpo
+es;Mayopampa;Mayupampa
+es;Macachani Santa Rosa;Maycachane
+pt;Porto de Matarani;Matarani
+ru;Марипоса;Mariposa
+es;Marcuyo;Marcollo
+es;Marcocancha;Marco Cancha
+es;Maraynioj;Marayniocc
+es;Marayccra;Marayniocc
+ru;Марас;Maras
+ru;Маранура;Maranura
+ru;Мара;Mara
+ru;Манта;Manta
+es;Mariaos;Manaos
+es;Manache;Hacienda Manache
+ru;Мамара;Mamara
+es;Mal Raso;Mal Paso
+ru;Мала;Mala
+ru;Мачу-Пикчу;Machupicchu
+es;Luisiana;La Unión
+es;Lucmallo;Lucumayo
+es;Lucerna;Puerto Lucerna
+es;Lomas Punta;Lomaspata
+es;Locicasos;Los Icascos
+es;Llojeoj;Llojeyocc
+es;Pila;Llaquepa
+es;Estancia;Llaquepa
+es;Llacctahuran;Llactahuran
+es;Centro Lipichakarka;Lipichicarca
+es;Limón;Limon
+ru;Лимбани;Limbani
+es;Lima Vieja;Lima La Vieja
+ru;Лиматамбо;Limatambo
+ar;ليما;Lima
+ja;リマ;Lima
+ko;리마;Lima
+qu;Limaq;Lima
+ru;Лима;Lima
+zh;利馬;Lima
+hi;लीमा;Lima
+es;Licapa;Ccarhuacc Licapa
+es;Mollo Patacollo;León Patacollo
+es;Layune;Layuni
+es;La Victoria;Victoria
+ru;Лари;Lari
+ru;Ларес;Lares
+ru;Ларамате;Laramate
+ru;Ла-Оройа;La Oroya
+ay;Uruya;La Oroya
+qu;Uruya llaqta;La Oroya
+zh;拉奧羅亞;La Oroya
+ru;Лампа;Lampa
+es;La Mejorada;Lamejorada
+ru;Ламбрама;Lambrama
+ru;Либертад;La Libertad
+es;La Joya;Joya El Pilar
+es;Cachuela;Cachuela Margen Izquierda
+es;La Cachuela;Cachuela Margen Izquierda
+ja;フリアカ;Juliaca
+qu;Hullaqa;Juliaca
+ko;훌리아카;Juliaca
+ay;Hullaqa;Juliaca
+ru;Хульяка;Juliaca
+zh;胡利亞卡;Juliaca
+es;Josjosa;Coscosa
+es;José Gálvez Barrenechea;Villa Poeta José Gálvez Barrenechea
+es;José Gálvez;Villa Poeta José Gálvez Barrenechea
+es;Jochapata;Huachuapata
+ru;Хауха;Jauja
+es;Qasanccay;Qasanqay
+es;Jallo;Jallo Jallo
+es;Islay;Islay (Matarani)
+es;Isjana;Esccana
+es;Incahuasi;Hacienda Incahuasi
+ru;Ило;Ilo
+ay;Ilu;Ilo
+qu;Ilu;Ilo
+zh;伊洛;Ilo
+ru;Илаве;Ilave
+es;Iglesia Huasi;Iglesiahuasi
+qu;Ika;Ica
+ru;Ика;Ica
+ay;Ika;Ica
+ja;イカ;Ica
+zh;伊卡;Ica
+ko;이카;Ica
+ar;إيكا;Ica
+hi;ईका;Ica
+es;Huinchuclo;Huinchucho
+es;Huinchilca;Huinchillca
+es;Huinches;Huinche
+es;Huilaccollo;Huilacollo
+es;Huertas;Huertas Huanchuy
+qu;Waytara;Huaytará
+zh;瓦伊塔拉;Huaytará
+es;San Pedro de Huayllata;Huayllata
+es;Huaycuna;Huaycuña
+es;Huariquisana;Huariquisama
+es;Chuqui Huarcaya;Huarcaya
+qu;Waral;Huaral
+ru;Уараль;Huaral
+zh;瓦拉爾;Huaral
+ay;Wanta;Huanta
+qu;Wanta;Huanta
+zh;萬塔;Huanta
+qu;Wankayu;Huancayo
+ru;Уанкайо;Huancayo
+ja;ワンカヨ;Huancayo
+ar;وانكاشو;Huancayo
+ay;Wankayu;Huancayo
+zh;万卡约;Huancayo
+ko;우앙카요;Huancayo
+hi;हुआंकायो;Huancayo
+qu;Wankawillka;Huancavelica
+ru;Уанкавелика;Huancavelica
+ay;Wankawillka;Huancavelica
+zh;萬卡韋利卡;Huancavelica
+ko;우앙카벨리카;Huancavelica
+ar;هوانكافيليكا;Huancavelica
+hi;हुअनकावेलिका;Huancavelica
+ja;ワンカベリカ;Huancavelica
+es;Huancane;Hacienda Huancane
+ru;Уанкане;Huancané
+qu;Wankani llaqta;Huancané
+zh;萬卡內;Huancané
+zh-Hans;万卡内;Huancané
+ay;Wankani;Huancané
+es;Huallhuac;Huallhua
+es;Hualla Grande;Huaya Grande
+es;Huahua Puquio;Huahuapuquio
+ru;Уачо;Huacho
+qu;Wachu llaqta;Huacho
+zh;瓦喬;Huacho
+ko;우아초;Huacho
+ar;هواتشو;Huacho
+hi;हुआचो;Huacho
+ja;ワチョ;Huacho
+es;Huachinga;Hacienda Huachinga
+es;Chacallapi;Huacani
+es;Huacani Sajsuyo;Huacani
+es;Huaca de Los Muertos;Horca de Los Muertos
+es;Hilcaccasa;Chilcaccasa
+es;Velásquez;Hacienda Velásquez
+es;Violeta Velásquez;Hacienda Velásquez
+es;Hacienda Tarucani;Tarucani
+es;Pantipampa Suyo;Hacienda Pantipampa
+es;Hacienda Floresta Baja;Floresta Baja
+es;Ccolque;Colque
+es;Exaltación de la Colpa;La Colpa
+es;Gramadal;Fundo Gramadal
+es;Gaugochuca;Guagochuca
+es;Fundo Humarote;Humarote
+es;Esquivilca;Fundo Esquivilca
+es;Espingo;Espinco
+es;Dadelsa;Dadelso
+es;Cuzco;Cusco
+es;Ciudad del Cuzco;Cusco
+fr;Cuzco;Cusco
+ja;クスコ;Cusco
+nl;Cuzco;Cusco
+qu;Qusqu;Cusco
+ko;쿠스코;Cusco
+ar;قوسقو;Cusco
+en;Cuzco;Cusco
+hi;कुज़्को;Cusco
+ay;Qusqu;Cusco
+zh;庫斯科;Cusco
+es;Cullay;Ccollay
+es;Cuesta Colorado;Cuesta Colorada
+es;Colpalaya;Collpalaya
+es;Tisnuyo;Copapujo
+es;Faharata Copani;Pharata Copani
+es;Hacienda Congon;Congón
+es;San Isidro;Congón
+es;Congomarca;Congormarca
+es;Condonya;Hacienda Condonya
+ru;Консепсьон;Concepción
+qu;Kunsipsyun;Concepción
+zh;康塞普西翁;Concepción
+ay;Kunsipsyun;Concepción
+es;Comunidad;Hacienda Comunidad
+es;Colla Huacho;Collahuacho
+es;Cochacc;Hacienda Cochacc
+es;Churia;Churia Cucho
+es;Churiacucho;Churia Cucho
+es;Chollocota;Chollucuta
+es;Chullucuta;Chollucuta
+qu;Chuqikiraw;Choquequirao
+ru;Чокекирао;Choquequirao
+es;Chupacota;Chupaccota
+es;Chopaccota;Chupaccota
+es;Chontay;Santa Rosa de Chontay
+es;Santa Calle;Chuchín Santa Calle
+de;Chiquian;Chiquián
+ay;Chiqllan;Chiquián
+zh;奇塞安;Chiquián
+ja;チキアン;Chiquián
+es;Cascaria;Chipoconi
+es;Chinquene;Chinguene
+qu;Hanan Chincha;Chincha Alta
+ru;Чинча-Альта;Chincha Alta
+zh;上欽查;Chincha Alta
+es;Chillapucropampa;Chillapucropanpa
+es;Vilcachili;Vilca Chile
+es;Chigua;Chihua
+es;Chaupicerca;Chaupicirca
+es;Chasouiocco;Chasquiocco
+es;Chasqueocco;Chasquiocco
+es;Charata;Charata Pata
+es;Chaquipampa;Chaquidanda
+es;Chanchaillo;Chanchayllo
+es;Challhuas;Chalhuas
+es;Chalaviejo;Chala Viejo
+es;Chajo;Chaqo
+es;Chalara;Chaiará
+es;Chacula;Chacolla
+es;Challapampa;Chachacumani
+ru;Серро-де-Паско;Cerro de Pasco
+ay;Pasqu qullu;Cerro de Pasco
+ja;セロ・デ・パスコ;Cerro de Pasco
+ko;세로데파스코;Cerro de Pasco
+qu;Pasqu urqu;Cerro de Pasco
+zh;塞羅德帕斯科;Cerro de Pasco
+ar;سيرو دي باسكو;Cerro de Pasco
+hi;सेरो डे पास्को;Cerro de Pasco
+es;Collota;Ccollota
+es;Carpisa;Ccarpiza
+es;Cayñajune;Cayñajoni
+es;Casablanca;Casa Blanca
+es;Carnuanilla;Carhuanilla
+es;Karipuyo;Caripuyo
+es;Karifuyo;Caripuyo
+ru;Каравели;Caravelí
+qu;Qarawili;Caravelí
+zh;卡拉韋利;Caravelí
+zh-Hans;卡拉韦利;Caravelí
+es;Kaquida;Caqueña
+es;Kcañi;Cañi
+es;Cambria Pampa;Cambria
+es;Hacienda Camacho;Camacho
+es;Kallcabamba;Callcabamba
+es;El Callao;Callao
+pt;El Callao;Callao
+qu;Kallaw;Callao
+ja;カヤオ;Callao
+ar;كاياو;Callao
+ay;Kallao;Callao
+ru;Кальяо;Callao
+zh;卡亞俄;Callao
+ko;카야오;Callao
+hi;कल्लाओ;Callao
+es;Guitarrane;Calamarca
+es;Calacato;Calacoto
+ru;Кахатамбо;Cajatambo
+qu;Qaqatampu;Cajatambo
+zh;卡哈坦博;Cajatambo
+ja;カハタンボ;Cajatambo
+es;Cajamarca;Casamarca
+ja;カチチェ;Santa Rosa de Cachiche
+en;Cachiche;Santa Rosa de Cachiche
+nl;Cachiche;Santa Rosa de Cachiche
+es;Cachiche;Santa Rosa de Cachiche
+es;Hacienda Buena Vista;Buena Vista
+es;Barrio Vista Alegre;Vista Alegre
+es;Hacienda Bambarén;Bambarén
+es;Baltimori;Baltimore
+es;Balconcillo de la Palma;Balconcillo de las Palmas
+es;Balconcillo de Aviyay;Balconsillo de Aviyay
+ru;Асангаро;Azángaro
+qu;Aswan Q'hari;Azángaro
+zh;阿桑加羅;Azángaro
+zh-Hans;阿桑加罗;Azángaro
+ja;アサンガロ;Azángaro
+ay;Asankaru;Azángaro
+es;Ayapampa;Ayapata
+es;Ayaorco;Ayaorqo
+qu;Wamanqa;Ayacucho
+ja;アヤクーチョ;Ayacucho
+zh;阿亚库乔;Ayacucho
+ay;Ayaquchu;Ayacucho
+ko;아야쿠초;Ayacucho
+ar;أياكوتشو;Ayacucho
+hi;अयाकुचो;Ayacucho
+es;Auquish;Auquix
+es;Auquirajay;Auquiraqay
+es;Astillapata;Astilla Pata
+es;Cachi Pucara;Asquicha
+es;Asnacpampa;Asnaqpampa
+ru;Арма;Arma
+es;Arguay;Arhuay
+ja;アレキパ;Arequipa
+qu;Arikipa;Arequipa
+qu;Ariqipa;Arequipa
+ko;아레키파;Arequipa
+ar;أريكيبا;Arequipa
+ru;Арекипа;Arequipa
+zh;阿雷基帕;Arequipa
+hi;अरेक्विपा;Arequipa
+ru;Арапа;Arapa
+es;Centro Aracachi;Aracachi
+ru;Апата;Apata
+es;Antanaiso;Hacienda Antanaiso
+es;Antallane;Antallani
+ru;Антабамба;Antabamba
+es;Hacienda Anta;Anta Alta
+ru;Анисо;Aniso
+es;Anguia;Anqea
+es;Angea;Anqea
+ru;Андарапа;Andarapa
+qu;Antawaylla;Andahuaylas
+zh;安達韋拉斯;Andahuaylas
+ru;Андауайлас;Andahuaylas
+es;Ancoputo;Ancopoto
+es;Anchiguay;Anchihuay Sierra
+es;Anamias;Añamia
+ru;Амбо;Ambo
+ru;Амбар;Ambar
+ru;Алис;Alis
+es;Ajonchi;Hacienda Aconcha
+es;Ajlahuito;Ajla Huito
+es;Aichi;Ajchi
+es;Desmontadora Agua Santa;Agua Santa
+es;Acocunea;Acocunca
+es;Acochacra;Acuchacra
+qu;Abankay;Abancay
+qu;Awankay;Abancay
+ru;Абанкай;Abancay
+ay;Awankay;Abancay
+ja;アバンカイ;Abancay
+zh;阿班凯;Abancay
+ko;아방카이;Abancay
+ar;أبانكاي;Abancay
+hi;अबांकाय;Abancay
+es;Arcopunco;Arco Punco
+es;San Lorenzo Urubamba;San Lorenzo
+es;Nacaria;Ñacaria
+es;Chuca;Chocal
+es;Chucal;Chocal
+es;Benigno;San Benigno
+es;Hacienda Santa Ana de Llipata;Santana de Yipata
+es;Hacienda Arenal;Arenal
+es;Hacienda Munive;Munieve
+es;Hacienda El Jasmín;El Jasmín
+es;Hacienda Dionicia;Deonicia
+es;Hacienda Santo Domingo;Santo Domingo
+es;Hacienda San Carlos;San Carlos
+es;Hacienda Santa Bárbara;Santa Bárbara
+es;Hacienda Santa Inés;Santa Ines
+es;Hacienda San Matías;San Matías
+es;Fundo Santa Luisa;Santa Luisa
+es;Pampa Negra;Tamarindo
+es;Hacienda Tacanaca;Tacaracá
+es;Fundo Pongo;Pongo
+es;Yupanquis;Jupanquis
+es;Fundo La Joya;La Joya
+es;San Idefonso;San Idelfonso
+es;Bajo Zotatani;Bajo Zotarani
+es;Naciente Cuvitiani;Naciente Cuviriani
+es;Auziki;Autiki
+es;Pajonal Chiquitavo;Chequitavo
+es;Pajonal Kishimashao;Quiteriavo
+es;Shembo;Chembo
+es;Misión Unine;Misión Unini
+es;Diamante Auúl;Diamante Azul
+es;Pueblo Libre;Pueblo Libre de Chicosillo
+es;Nueva Italia;Nueva Italia RIMAC
+es;Rimac;Nueva Italia RIMAC
+es;Pucani;Libertad de Pukani
+es;Ccollcca;Ccullcca
+es;Coñilini;Joñelini
+es;Ñacoreque;Ñacoreque Grande
+es;Sayhuapata;Huatasccapa
+es;Sayaca;Sayaco
+es;Sallacco;Sayaco
+es;Chaupi Ayllu;Chaupiayllu
+es;Boca Tibeni;Boca Tiveni
+es;Matereni;Tres Unidos de Matereni
+es;Meteni;Quipatziari
+es;Boca Sanibeni;Boca Saniveni
+es;9 de Octubre;Nueve de Octubre
+es;Cartuta;Cantuta
+es;Tres y Medío;La Campiña
+es;Tangay Bajo;Tangay Bajo Mochica
+es;Tres Cabezas;Trez Cabezas
+es;Tangay;Tangay Medio
+es;Doscientas Millas;Urbanización Doscientas Millas
+es;San Juan Masias;Urbanización San Juan Masias
+es;Capitana;Fundo La Capitana
+es;Santa Inés;Fundo Santa Inés
+es;Santa Rosa;Fundo Santa Rosa
+es;La Viña;Fundo La Viña
+es;La Joya;Fundo La Joya
+es;Los Pacaes;Hara Los Pacaes
+es;Sorpresa;Fundo Sorpresa
+es;Contigo Perú;Asentamiento Humano Contigo Perú
+es;San Juan de Dios;Asentamiento Humano San Juan de Dios
+es;Jenaro Herrera;Genaro Herrera
+es;Miraflores;Fundo Miraflores
+es;Pampa Hermosa;Fundo Pampa Hermosa
+es;Arenal;Fundo Arenal
+es;Urbanizacion Las Totoritas;Las Totoritas
+es;San José;Fundo San José
+es;Santa Enriqueta;Fundo Santa Enriqueta
+es;Aldea;Fundo Adela
+es;Boca Anapate;Boca Anapati
+es;Cotohoco;Coto Occo
+es;Chipana Nueva Alianza;Chipana
+es;Huallatiri;Huallatire
+es;Tuturoma;Totoruma
+es;Central Patani;Patani
+es;Collpacotaña;Santa Cruz de Collpacotaña
+es;Alcamarineccucho;Alcamarine
+es;Cocha Peti;Cochapeti
+es;Taullish;Taullispampa
+es;Iran;Irán
+es;Caicor;Caycor
+es;Marahuás;Marahuaz
+es;Cururuc;Cururup
+es;Huasgo;Huashgo
+es;Conamires;Cobamires
+es;Tambo;Shaquitambo
+es;Chiquitambo;Shaquitambo
+es;Campamento Marizagua;Marizagua
+es;Huaquillas;Las Huaquillas
+es;Calabozo;San Pedro de Calabozo
+es;Huarayocc;Huaracayoq
+es;Ccachubamba;Ccachobamba
+es;Ccollpapampa;Colpapampa
+es;Astania;Astanya
+es;Huallhuachica;Huallhua Chica Inmaculada
+es;Inmaculada Huallhua Chica;Huallhua Chica Inmaculada
+es;Santa Rosa de Pión;Santa Rosa
+es;El Nogal;Nogal
+es;Putaca Alta;Putaca
+es;Carapo;Carap
+es;Oxapampa;Ocshapampa
+es;Pucata;Pucará
+es;Huaracuran;Huarac Huran
+es;Yanaranra;Yanarranra
+es;Puquichuain;Puquiohuain
+es;Canguar;Canhuar
+es;Ocoshuy;Ocushuy
+es;Ache;Acha
+es;Huinchos;Winchus
+es;Carhuac;Carhua
+es;Chucchin;Chuchín
+es;Punyan;Punyán
+es;Masac;Mazac
+es;Tucuran;Tucuhurán
+es;Colcabamba;Collcapampa
+es;Paquian;Pakián
+es;Mashra;Masra
+es;Atna;Atma
+es;Huashcau;Huashcao
+es;Sacuayo;Sacuayoc
+es;Shuropunta;Shoropunta
+es;Punya;Punyán
+es;Chequeo;Chequio
+es;San Miguel de Recresh;Recrish
+es;Paltaypampa;Paltay
+es;San António;San Antonio
+es;Julca;Julcamarca
+es;Huashau;Huashao
+es;Silla Irca;Sillahirca
+es;San Salvador Tiraccollo;Tiracullo
+es;Tupala Hacienda;Tupala
+es;Ancomarca;San José de Ancomarca
+es;Charahuaja;Sharahuaña
+es;Nuevaluz Oviri;Oviri
+es;Marobeni;Camajeni
+es;Taniri Circa Chinga;Tanire Circa Chinga
+es;Jutun Marco;Santa Rosa de Marco
+es;14 Incas;Catorce Incas
+es;La Cuadra;Cascajal Bajo
+es;Pueblo Viejo;Fundo Pueblo Viejo
+es;El Pacay;Fundo El Pacay
+es;El Alto;Fundo El Alto
+es;El Pinar;Fundo El Pinar
+es;Lavandero;Fundo Lavandero
+es;Monte Campo;Fundo Monte Campo
+es;Progreso;Valle El Progreso
+es;Los Maquics;Los Maquies
+es;San Isidro Labrador;San Isidro
+es;Fundo San Isidro;San Isidro
+es;Vista Alegre Bajo;Vista Alegre
+es;Jaravia;Saravia
+es;Fundo La Victoria;La Victoria
+es;Tambo María;Tingo María
+es;Bajo Pampa Hermoza;Bajo Pampa Hermosa
+es;Playapampa;Playa Pampa
+es;Mesa Pata;Mesapata
+es;Hincón Chacos;Rincón Chacos
+es;Santa Teresa;Fundo Santa Teresa
+es;Alto Pampa Hermoza;Alto Pampa Hermosa
+es;Pampamichi;Pampa Michi
+es;Villa Anasironi;Villa Anashironi
+es;Gavilán;Gavilán Centro
+es;Pampatigre;Pampa Tigre
+es;Playamonte;Playa Monte
+es;Maranquiari;Marankiari
+es;Bajo Pichiroqui;Bajo Pichiroki
+es;Sanchiro;Sanchirio Palomar
+es;La Unión;La Unión Palomar
+es;Mayme;Maime
+es;Machcabocaz;Machca Bocaz
+es;Bella Esperanza;Buena Esperanza
+es;Incariado;Inkariado
+es;Las Palma;Las Palmas Satinaki
+es;Bajo Pumpa;Bajo Pumpuriani
+es;Horizonte;Fundo El Horizonte
+es;Tahagarana;Tangarana
+es;Apac;San José de Apac
+es;Pucur;Pacur
+ru;Масма;Masma
+es;Santa Rosa Juhuan;Santa Rosa de Jahuán
+es;Ichun;San Pedro de Ichón
+es;Tumarian;Tumarín
+ru;Анра;Anra
+es;San Juan de Ponto;San Juan
+es;Santa Rosa de Tingo;Santa Rosa de Tinco
+en;Miraflores District;Miraflores
+es;Distrito de Miraflores;Miraflores
+fr;District de Miraflores;Miraflores
+it;Distretto di Miraflores;Miraflores
+ay;Miraflores jiska taqa suyu;Miraflores
+qu;Miraflores distritu;Miraflores
+zh;米拉弗洛雷斯區;Miraflores
+ru;Агуас-Кальентес;Aguas Calientes
+pt;Machu Picchu pueblo;Aguas Calientes
+fr;Machupicchu pueblo;Aguas Calientes
+qu;Machu Pikchu llaqta;Aguas Calientes
+zh;阿瓜斯卡連特斯;Aguas Calientes
+ar;أغواس كالينتس;Aguas Calientes
+ja;マチュ・ピチュ;Aguas Calientes
+es;Ugarte California;Ugarte
+es;Aipena;Aypena
+es;Vistosos;Vistoso
+es;Santa Maria;Santa Marta
+es;La Merced;Urb La Merced
+es;Tircus;Tircos
+es;Carhuauran;Carhuahurán
+es;Llaclla;Llacllán
+es;Huayhuasjasa;Huayhuas
+es;Fundo Chula;Chula
+es;Pachanga;Pacchancca
+es;Llahuas;Santa Cruz de Llacchuas
+es;Choquejechja;Choqewichqa
+es;Choqehichqa;Choqewichqa
+es;Huancas;San Juan de Huancas
+es;Vista Alegre;Isto
+es;Mosocllacta;Mosoccllaqta
+es;Cochaca;Ccachir
+es;Cochapa;Ccachir
+es;Cedro Huerta;Fundo Cedro Huerta
+es;Ñahuin Puquio;Ñahuinpuquio
+es;Marccare;Marccari
+es;Quis;Equis
+es;Mitapasamañan;Mitapasamana
+es;San José de Mayobamba;San José de Mayopampa
+es;Mayobamba;San José de Mayopampa
+es;Maucallaccta;Maucallacta
+es;Buenos Aires;Ccochapampa
+es;Josencca;Cosencca
+ru;Палмапампа;Palmapampa
+ru;Кимбири;Kimbiri
+qu;Siwya;Sivia
+es;Chaca;Qochqa
+es;Ccohcca;Qochqa
+es;Villavista;Villa Vista
+es;Mana;Caservine Norte
+es;Torrerumi;Torre Rumi
+es;Chihuillo;Chihuillo San Antonio
+es;Chihuillo Alto San Antonio;Chihuillo San Antonio
+es;San António;Chihuillo San Antonio
+es;Mimirini;Mimirini Paisanos
+es;Santoshari;Shiantuishari
+es;Shirotiari;Tsirotiari
+es;Quinquiviri;Kinkiviri
+es;Nogalpampa;Nogal Pampa
+es;Sanquirhuato;Shankirwato
+es;Otari;Otari Nativos
+es;Shinungari;Gran Shinungari
+es;Tirincavine;Tirincavini
+es;San Martín;Otari San Martín
+es;Sevita Alta;Sevite Alta
+es;Sevita Baja;Sevite Baja
+es;Puente Huacamayo;Huacamayo
+es;Ceterra de Quisto Cocha;Quistococha
+es;Anapati;Anapate
+es;6 de Agosto;Seis de Agosto
+es;La Capitana;Urbanización La Capitana
+es;Las Colinas;Urbanización Las Colinas
+es;Calupe Numero 2;Calupe Numero Dos
+es;Estreno Numero 2;Estreno Numero Dos
+es;Fundo Corle;Corle
+es;Latina;La Tina
+es;Quesquera;La Quesera
+es;La Quesquera;La Quesera
+es;Lluladón;Yuladón
+es;Hacienda San Lorenzo;San Lorenzo
+es;Cantarilla;Hacienda Cantarilla
+es;Valencia;Lago Valencia
+es;Fundo Venecia;San Carlos
+es;Leon de Juda;León de Juda
+es;Nuevo Pacaran;Nuevo Pacarán
+es;Santa Maria;Santa María
+es;Chilina;Iberia
+es;Empacha;San Ramón
+es;Fray Martin;Fray Martín
+es;Isla Playa Alta;Playa Alta
+es;Centro Ganadero;Centro de Desarrollo Ganadero
+es;C. F. Fitzcarrald;Carlos Fitzcarrald
+es;Cascajal;El Cascajal
+es;Pastora Alta;Alta Pastora
+es;Pastora Centro;Centro Pastora
+es;Cachuela Centro;Centro Cachuela
+es;Albergue Turístico Cusco Amazónico;Albergue Turístico Cuzco Amazónico
+es;Albergue;Albergue Turístico Tambolodge
+es;Isuluma;Isilluma
+es;Selva Alegre;Cuchini
+es;Monte Sinai;Pampa Grande
+es;Churinga;Churinga Huancaluque
+es;Huayllabamba;Huari Huari
+es;Pujiocchcho;Pujioccucho
+es;Ayochijisia;Ayo
+es;Chuisia;Chigisia
+es;Ccumani;Ccoumani
+es;Kallapapata;Kallpapata
+es;Miraflores;Centro Miraflores
+es;Phpquera Chico;Porquera Chico
+es;Chichihuay;Chichihuaya
+es;Camaron;Camarón
+es;Santiagopampa;Santiago Pampa
+es;Linquipata;Llinquipata
+es;San Antón;Misca
+es;Masiapo;Massiapo
+es;San José;San José Pampa
+es;Totoya;Totora
+es;Challuma;Challuhuma
+es;Quispicanchis;Santa Rosa Quispicanchis
+es;Santa Rosa;Santa Rosa Quispicanchis
+es;Yuraymayo;Yurajmayo
+es;Torremani;Torre Mamani
+es;Colpani;Ccollpani
+es;Santana;Santa Ana
+es;Huayrururó;Huayruruni
+es;Santo Tomás;Alto Tunquimayo
+es;Santafé;Santa Fe
+es;Charubamba;Charobamba
+es;Lusini;Lucine
+es;Pacopacuni;Pacupacuni
+es;Huanchicani;Inambari
+es;Huamacuri;Huanacuri
+es;Boca Limón;Boca Limbani
+es;Cuatro;Punto Cuatro
+es;Huanchicani;Huanacuri
+es;Llapapata;Llarapata
+es;Callepatja;Callipadja
+es;Huayllajata;Huallajata
+es;Sacchupata;Checchuta
+es;Titale;Tilali
+es;Cerro Lunar de Oro;Cerro Lunar
+es;Lunar;Cerro Lunar
+es;Lunar de Oro;Cerro Lunar
+es;Santa Rosa de Phoquera;Pokera
+es;Pichucuchu;Pichucucho
+es;Apacheta;Apacheta Chejeparque
+es;Pujioni;Pugioni
+es;Pampa Japo Occo;Japoocco
+es;Aurora Pampa Real;Aurora
+es;Hacienda Cotapata;Cotapata
+es;Quenagani;Quenajani
+es;Pampa Pinuni Hichincha;Pinuni Hichincha
+es;Hacienda Caylloma;Caylloma
+es;Japu;Japo
+es;Hacienda Japu;Japo
+es;Pampa Caycopampa;Cayccopampa
+es;Kellotacuni;Quellotacuni
+es;Quellutacuni;Quellotacuni
+es;Paria;Pariasicuya
+es;Hacienda Paria;Pariasicuya
+es;Piduni;Piñuni
+es;Hacienda Piduni;Piñuni
+es;San Juan Bautista de Chajana;Chajana
+es;Bella Pampa;Bellapampa
+es;Mallconuta;Malconuta
+es;Ritty Kuchu;Riticucho
+es;Girigachi;Hirigache
+es;Hacienda Hornopampa;Hornopampa
+es;Pampamarca;Pampaccarka
+es;Hacienda Lusini;Lusuni
+es;Ccanccoccala;Hanccoccala
+es;Chognacota;Chocdacota
+es;Ccaccani;Ccacani
+es;Sorapa;Sorapata
+es;Huancani Los Andes;Los Andes Achucachi
+es;Hacienda Los Andes;Los Andes Achucachi
+es;Hacienda Panascachi;Panascachi
+es;Sucasani Yaputira;Sucasani
+es;Yaputira;Sucasani
+es;Hacienda Halla;Halla
+es;Halla Central;Halla
+es;Huarihumada;Huarihuma
+es;Quelloquello;Quello Quello
+es;Hacienda Quelloquello;Quello Quello
+es;Purumuyo;Purumhuyo
+es;Chejepata;Chejepampa
+es;Huayllacuyo;Chejepampa
+es;Quenuane;Queñuani
+es;Hacienda Quenuane;Queñuani
+es;Culca;Quilca
+es;Hacienda Callipata;Callipata Lizane
+es;Humajalso;Umajalso
+es;Viscachane;Viscachani
+es;Hacienda Toma Perua;Tumapirhua
+es;Collpaparqui;Collpaparque
+es;Vizcacane;Viscachane
+es;Arocollpa;Jarocollpa
+es;Hacienda Huantorcota;Huantorcota
+es;Ñapa Tomapiura;Tomapiura
+es;Napa;Ñapa Central
+es;Centro Mallcusuca;Mallcusuca Central
+es;Fundo Jojorea;Jojorea
+es;Puru Jojoria;Jojorea
+es;Hacienda Pauchinta;Ticapata Pauchinta
+es;Putina;Putina Chucho
+es;Queallapata;Quealla Pata
+es;Quiscauyo;Quiscahuyo
+es;Corhuare Apacheta;Corhuare
+es;Quillca Kimsamuñapatane;Quillca
+es;Quilca;Quillca
+es;Orane;Kera Kera Orane
+es;Sico Pomacca;Sico Pomaoca
+es;Sico;Sico Pomaoca
+es;Chanajari;Chañajari
+es;Japasi;Japiasi
+es;Tunuco;Tumuco
+es;Llate;Llata
+es;Chilcapata;Chillcapata
+es;Taylasane;Taylasani
+es;Ñuñuni;Muñuni Central
+es;Kispe;Kispe Occopampa
+es;Sullka Cercado;Sullca
+es;Antabajo;Anta Bajo
+es;Copujo;Copohuyo
+es;Quequerana Akarani;Quequerana
+es;Hacienda Quequerana;Quequerana
+es;Hacienda Quiri Quiri;Quiri Quiri
+es;Hacienda Collorani;Collorani
+es;Hacienda Huallatiri;Huallatiri
+es;Campanani Viluyo;Viluyo
+es;Hacienda Viluyo;Viluyo
+es;Hacienda Huancasaya;Huancasaya
+es;Chapieco;Champico
+es;Cuna Cuna;Cuna Cunta
+es;Callenuta Kantati Ururi;Kantati Ururi
+es;Cuchaulla;Quechaulla
+ru;Санта Анита-Лос Фикус;Santa Anita - Los Ficus
+ru;Сан Мартин;San Martin
+ru;Сан Франкиско Де Борха;San Francisco De Borja
+ru;Мирамар;Miramar
+ru;Табалослос;Tabaloslos
+ru;Фонави;Fonavi
+es;Florida;La Florida
+es;Caudaloso;Caudaloza
+es;San Juan de Mejorada;San Juan Mejorada
+es;La Unión;Unión Mantaro
+es;Shankimintiari;Sankiminkiari
+es;Santa Teresa;Santa Teresa Alta
+es;Carmen Pampa;Chongos Carmen Pampa
+es;Chola Valdivia;Chola Huayrapata
+es;Novilloccasa Alta;Novillo Ccasa Alta
+es;Pulpito Alta;Pulpito Alto
+es;Kapachari;Kapashiari
+es;Nazaret Alta;Nazareth Alta
+es;Anato;Ashaninka Anato
+es;CP-Seis Bajo;CP-6 Bajo
+es;TJ-Cero Cinco;TJ-0.5
+es;Bajo Emanuel CP-Cuatro;Bajo Emanuel CP-4
+es;Tejedores Nueve Seis;Tejedores 9.6
+es;9 de Octubre CP-11;Nueve de Octubre CP-11
+es;Nueve de Octubre CP-Once;Nueve de Octubre CP-11
+es;Santa Rosa CP-Catorce;Santa Rosa CP-14
+es;La Libertad CP Quince;La Libertad CP 15
+es;San Martín CP-Tres;San Martín CP-3
+es;José Olaya CP-Doce;José Olaya CP-12
+es;San Miguel Alto CP-Tres;San Miguel Alto CP-3
+es;Jesús María CP-Dieciséis;Jesús María CP-16
+es;Jesús María Lateral 47;Jesús María Lateral Cuarenta y Siete
+es;CP Nueve La Fortaleza;CP 9 La Fortaleza
+es;Túpac Amaru;San José del Valle
+es;CP-Ocho Canal Grande;CP-8 Canal Grande
+es;Kilómetro 41;San José
+es;El Checo;Víctor Raúl
+es;Santa Rosa;Kilómetro 62
+ru;Масин;Masin
+ru;Андабамба;Andabamba
+es;12 de Octubre;Doce de Octubre
+es;Valle 2000;Valle Dos Mil
+es;Alvarado;Alvarados
+es;Acopugio;Accopujio
+es;Ocopampa;Occopampa
+es;Justo Juea;Jatun Ayllu
+es;Churubamba;Chillihua
+es;Lequepata;Cayatocco
+es;Huacchani;Huacchani de Punayllu
+es;Apomayo;Jilasullca
+es;Bajo Collana;Collana
+es;Cangalli;Cangalli Pichacani
+es;Cuna Cuna;Cunacuna
+es;Pausi;Pause
+es;Pichacani;Pichakani Quirini
+es;Ccarcca Punco;Jocco
+es;Hacienda Tulani;Tulani Sapapugio
+es;Viluyo;Viluyo Chimboya
+es;Chimboya;Viluyo Chimboya
+es;Balsa Pata;Pueblo Libre
+es;Condoriri Suchini;Condorire
+es;Condoriri;Condoriri Quenamari
+es;La Oroya;Oroya
+es;Murmuntani;Mormontani
+es;Carlos Gutiérrez;Carlos Gutiérrez Zamora
+es;Kacsle;Kacsile
+es;Vilacollo Quillca;Vilachupa
+es;Ccayarani;Jallarani
+es;Iruhuata;Condorquina
+es;Centro Paylla;Paylla
+es;Antauta;Angostura
+es;Antacalla;Hacienda Antacalla
+es;Amacasi;Escalera
+es;Machu Huasi;La Raya
+es;Pashul;Santa Rosa de Pashul
+es;Lirio;El Lirio
+es;Shanhuinoloma;Shahuindoloma
+es;Corralpampa;Corral Pampa
+es;Hacienda Rumi;Rumi Rumi
+es;Chuquipuquio;Chiquipuquio
+es;Collpa;La Collpa
+es;Huacataz;La Collpa
+es;Huachtaz;La Collpa
+es;Cordón Alto;Cardón Alto
+es;Shahuindo de Araqueda;Shahuindo
+es;Quinua Mayo;Quinuamayo
+es;Lecchen;Lechen
+es;Masma;La Masma
+es;Hacienda Higos Pampa;Higosbamba
+es;Río Grande del Aliso Colorado;Aliso Colorado
+es;Yumagual Bajo;Yumagual
+es;Nuevo Edén de Mogol;El Nuevo Edén de Mogol
+es;Tanchual Alto;Tantachual Alto
+es;Tantachual;Tantachual Alto
+es;Troje;Tantachual Alto
+es;Shilla Bamba;Shillabamba
+es;Barbichopampa;Barbechopampa
+es;El Amante;Amante
+es;Huacariz San Antonio;Huacariz
+es;La Shayhua;La Shayua
+es;Rosa Huayta;Rosahuayta
+es;Huabalito;Huavalito
+es;La Quinua Salagual;Quinua
+es;Mangallana;Fundo Mangallana
+es;La Molina Moyococha;La Molina
+es;San Ignacio;San Ignacio de Unanca
+es;Laimina;Laimina Alta
+es;Quillishpampa;Quillish Pampa
+es;Las Moradas;La Morada
+es;El Progreso;Progreso
+es;Aushuconga;Aushoconga
+es;Conchán Bajo;Cochán Bajo
+es;Gigon;Jigon
+es;Iscacucho;Iscocucho
+es;Catillamde;Catillambi
+es;Chuhuachi;Chauchi
+es;Jamcay;Jamcate
+es;Antonio Raymondy;Antonio Raymondi
+es;Pimar;Limac
+es;2 de Mayo;Dos de Mayo
+es;Jelig;Gelig
+es;Chupicallpa;Chipicallpa
+es;El Lloque;Lloque
+es;Secsemayo Lote 2;Secsemayo Lote Dos
+es;Limón;Villa Rica El Limón
+es;La Muyupana;Muyupana
+es;Hacienda Huayo;El Huayo
+es;Succha Alta;La Succha
+es;Hualanga;Hualanca
+es;El Alizo;El Aliso
+es;Huansa;Huanza
+es;Hacienda Campo Alegre;Campo Alegre
+es;Hacienda Zapotal;Zapotal
+es;Malcas;Malca
+es;Tayapampa;Tallapampa
+es;Barrojo Tres Tingos;Barrojo
+es;Vitian;Vitian Bajo
+es;Hacienda Santa Rosa de Chumbil;Santa Rosa de Chumbil
+es;Chimchin;Chiuchin
+es;Hacienda Huagal;Huagal
+es;Piedra Blanca de San Antonio;Piedra Blanca San Antonio
+es;Iglesia Pampa;Iglesiapampa
+es;El Quinual;Quinual
+es;Chirimoyo;El Chirimoyo
+es;Canlle;Canlli
+es;Queserillas;Queserilla
+es;Otuzco Llicliconga;Licliconga
+es;Regalado;El Regalado
+es;Pampa de Chancas;Pampa Chancas
+es;Mitibamba;Matibamba
+es;3 de Mayo;Tres de Mayo
+es;Chimchin;Chim Chim
+es;Pan de Azúcar Bajo;Pan de Azúcar
+es;Chilacate;Chilacat
+es;Esterillas;Las Esterillas
+es;Granero Esterilla;Las Esterillas
+es;Mollepampa;Mollepamba
+es;Las Contayas;Las Contoyas
+es;Capellanía;La Capellanía
+es;Fundo Tauripampa;Tauripampa
+es;Ventanilla;Ventanillas
+es;Tangalbamba;Tangalbamba Alto
+es;Lanchipampa;Lanchepampa
+es;Villa Nunden;Nunden
+es;El Moroch;Jancos
+es;Tranca I;La Tranca I
+es;Socchagay;Socchagon
+es;Bancuyuc;Bancuyoc
+es;Tica Pampa;Ticapampa
+es;San José;San José de Tumina
+es;Ventanillas;Ventanilla
+es;La Pampa;Polan
+es;Huanborco;Huamborco
+es;Hacienda Huacra;Huacra
+es;San José de Canay;San José
+es;El Rejo;El Rejo de Callancas
+es;Hacienda Jocos;Jocos
+es;Las Tayas;Tayas
+es;Sisguis;Siguis
+es;Colpillo;La Colpilla
+es;Chugur;Chungur
+es;Huichupucro;Luichupucro Alto
+es;La Lucmillita Chimin;Chimin
+es;Mesapata;Mezapata
+es;Tantachual;Tantachual Bajo
+es;Alizo;El Aliso
+es;Jalquilla;La Jalquilla
+es;Dos de Mayo;El Rejo
+es;Florida El Rejo;El Rejo
+es;2 de Mayo;El Rejo
+es;Yuracalpa;Yuragalpa
+es;Salitre;El Salitre
+es;Hacienda Santa Paula de Chumbil;Santa Paula de Chumbil
+es;El Punas;Punas
+es;La Ruda;Antivo La Ruda
+es;Hacienda Chichir;Chichir
+es;Chichir Alto;Chichir
+es;Trujillito;Trujillito de Amarcucho
+es;San Antonio de Agomarca;San Antonio
+es;Sunoden;Sunuden
+es;La Capilla de Unanca;Capilla de Unanca
+es;Casa Blanca;Casablanca
+es;Luluash;Luluhuash
+es;Carrera Pampa;Carrerapampa
+es;Pariash Pampa;Pariashpampa
+es;Taya;San Antonio de Taya
+es;Picup;Picut
+es;Caqui;Nuevo Kaqui
+es;Ututobamba;Ututubamba
+es;Gasagpampa;Gasajpampa
+es;Huansha;Huanza
+es;Tanyar;Progreso Tandar
+es;Garash;Carash
+es;Cucho;Nueva Rinconada Cucho
+es;Quenhuaragra;Quinhuaragra
+es;Cashacancha;Canchancancha
+es;Cacchan;Chacchan
+es;Rapolla;Rapoya
+es;Buenos Aires de Cormo;Corma
+es;Taya;Tayabamba
+es;Jatunquillusa;Jatunquillush
+es;Jaroc;Jarog
+es;Chinlla;Ichic Chinlla
+es;Yuracyaco;Yurajyacu
+es;Cedros;Cedro
+es;Ocutac;Niño Jesús de Ucutac
+es;Ñingumpe;Vista Alegre
+es;Huaya Pampa;Huaya
+es;Saurana;Saurapa
+es;Tambo Río Negro;Tambo
+es;Shongo Huarco;Shongohuarco
+es;Viñaulla;Viñauya
+es;Quisuarpata;Quishuar
+es;San Lorenzo;San Lorenzo de Cochap
+es;Secse;Secsi
+es;23 de Octubre;Veintitrés de Octubre
+es;Mantas;Manta
+es;Jasga;Gasga
+es;Mallucallan;Mallakayan
+es;Carhuachupa;Carhuachuna
+es;San Cristóbal de Mashuán;Mashuán
+es;Opayacu;Opayaco
+es;Huancahuasi;Huacanhuasi
+es;Sajacancha;Saja Cancha
+es;Esperanza;La Esperanza
+es;San Cristóbal de Racrao;Racrao
+es;31 de Mayo;Treinta y Uno de Mayo
+es;Ayavina;Ayaviña
+es;Cusca;Cuzca
+es;Pampap;Huataspín
+es;Pampac;Huataspín
+es;Huishín Bajo;Huishín
+es;Pampa Chirimoya;Ichic Quian
+es;Quian;Ichic Quian
+es;Jara Uran;Jarahurán
+es;Quita Flor;Quitaflor
+es;Caucho;Gaucho
+es;Maraybamba;Maraybamba Arriba
+es;Pampa Libertad;Pampa La Libertad
+es;Oco Pampa;Ocopampa
+es;Marquir;San Juan de Maqui
+es;Pauchos;Jatuntorre de Pauchos
+es;Juncay;San Miguel de Juncay
+es;Laguna;La Laguna
+es;Querobamba;Quirobamba
+es;Porvenir 2 de Mayo;Porvenir Dos de Mayo
+es;San Bernardo Inamiaco;San Bernardo de Inamiaco
+es;Cloronilla;La Coronilla
+es;El Tambo;Playa El Tambo
+es;Chilac;Chilal
+es;Hacienda Polloc;Rosario de Polloc
+es;22 de Mayo;Veintidós de Mayo
+es;El Progreso;El Progreso de Tallambo
+es;La Libertad de La Quinua;Libertad de La Quinua
+es;Toril;El Toril
+es;Lijadero;Hijadero
+es;Tres Ríos;Los Tres Ríos
+es;Iraca;La Iraca
+es;Auque El Mirador;Auque Mirador
+es;San Cristóbal del Nudillo;Nudillo
+es;El Paraje;Lanchebamba El Paraje
+es;Sangal;Sangal Bajo
+es;Nuevo Porvenir de Alifiaco;Nuevo Porvenir de Afiliaco
+es;Chim Chim;Chimchim
+es;San Juan Sector 8;San Juan Sector Ocho
+es;San José de Cullanmayo;Cullanmayo
+es;Semicullo Bajo;Sanicullo Bajo
+es;La Extrema;Los Quinuales
+es;Semicullo Alto;Sanicullo Alto
+es;Sanicullo;Sanicullo Alto
+es;Nuevo Oriente de Huichud;Nuevo Oriente
+es;Huilcate Dos;Huilcate II
+es;Alfonbrilla;La Alfombrilla
+es;Chumbicate;El Palmo
+es;Negritos Bajos;Negritos
+es;Quinuamayo Lucmacucho;Lucmacucho
+es;Guagayoc;Guaguayo
+es;Sitacucho;Shitacucho
+es;Pajurillo;El Pajurillo
+es;Unión Bellavista;Unión Bellavista de Camse
+es;Unión Bellavista de Canse;Unión Bellavista de Camse
+es;Succha;Sugcha
+es;Tapo;Santa Rosa de Tapo
+es;Convento;El Convento
+es;Alto Rejopampa Tucto;Alto Rejopampa
+es;Frutillo;Frutillo Bajo
+es;Buenos Aires de Payac;Payac
+es;Progreso;La Toma
+es;Pan de Azúcar;Libertad Pan de Azúcar
+es;Alpacocha;Fraylecocha
+es;Llactara Pampa;Lloctarapampa
+es;Callaorco;Quellahorco
+es;Colpa Thapampa;Colpatuapampa
+es;Apón 28 de Julio;Apán Veintiocho de Julio
+es;Juan Velásco;Juan Velásco Álvarado
+es;Rambram;Rabrán
+es;San Francisco;San Francisco de Asís
+es;Campamento Túnel Conchano;Túnel Conchano
+es;Jaillua;La Jayua
+es;Ususqui Grande;Ushushque Grande
+es;Rodeo Pampa;Rodeopampa
+es;Shadín;Sadín
+es;Chanipata;Shanipata
+es;El Naranjo;Naranjo
+es;Amaro;El Amaro
+es;Ventanilla;Ventanillas de Combayo
+es;Tumar;Santa Rosa de Tumar
+es;Monte Redondo;Monteredondo
+es;Rambranpata;Rambrampata
+es;Shotorco Rambranpata;Rambrampata
+es;Changomarca Bajo;Changomarca
+es;Chucra Chulit;Utchuclachulit
+es;Uchuclachulit;Utchuclachulit
+es;San Carlos;San José de Churucancha
+es;Succha Alta;La Succha Alta
+es;El Sauce;Sauce
+es;Baños;Los Baños
+es;El Chirmoyo;El Chirimoyo
+es;Succhabamba Bajo;Succhabamba Baja
+es;Las Palmas de Sinchimache;Palmas de Sinchimache
+es;Lajas Alto;Lajas Altas
+es;Nuevo Orronte;Nuevo Oriente
+es;Aguamala;Nuevo Perú
+es;Luzpampa;Luspampa
+es;Yerba Buena;Yerbabuena
+es;Hualanga;La Hualanga
+es;Caunse;Santa Rosa de Huichud
+es;28 de Julio;Veintiocho de Julio
+es;San Antonio de Irana;San Antonio de Iraca
+es;La Calzada;Pampa La Calzada
+es;La Congona de La Succha;La Congona
+es;Conda;Condac
+es;Baños Quilcate;Baños de Quilcate
+es;Shihuate;Shiuat
+es;Las 3 Zanjas;Las Tres Zanjas
+es;Tres Zanjas;Las Tres Zanjas
+es;Allango Bajo;Allanga Baja
+es;Palmapampa;Pichiwilca
+es;Joco;Jocco
+es;Segundo Chimpa Jilahuta;Segundo Chimpa Jilahuata
+es;1 de Mayo;Primero de Mayo
+es;Central Trapiche;Trapiche
+es;Huaraca Santiago;Pocoaque
+es;Machamarca;Machajmarca
+es;Sicta Iracuyo;Sicta Pampa
+es;Sicta;Sicta Pampa
+es;Buena Vista;Chacachaca
+es;Agua y Milagro;Agua Milagro
+es;Santiago de Bellavista;Bellavista
+es;Canahuachupa;Bajo San Miguel
+es;Chilloraya;Cajsani
+es;San Juan de Cocora;San Juan de Totora
+es;Milla Cochapata;Millocochapata
+es;San Isidro;Pajana San Isidro
+es;Pahana San Isidro;Pajana San Isidro
+es;Viluyo;Huaraca San Miguel
+es;Condoriri;Condoriri Wilak
+es;Contaya;Faracane
+es;Taypiña;Taipiña
+es;Chaulliricolline;Chaulliri
+es;Pampa Cahuaya;Cahuaya
+es;Vizcachani;Viscachani
+es;Antalla;Phuqrupata Antalla
+es;Yarecoa Sacara;Cucho Yareoca
+es;Huallatire;Huallatiri
+es;Central Tuquina;Tuquina
+es;Jila Central;Jila
+es;Barrio Santiago Luján;Santiago Luján
+es;Chiñachiña;Chiña Chiña
+es;Llauringaza Tapoje;Llaurinaza
+es;Villa Queñuani;Queñuani
+es;Pultucani;Patascachi Capilla
+es;Patacachi;Patascachi Capilla
+es;Linte;Patascachi Capilla
+es;Ichucahua;Manasaya
+es;Kily Yanapata;Kily
+es;Villa Yanapata;Kily
+es;Quili;Kily
+es;Tirapunco;Tirapuncu
+es;Barrio San Francisco;San Francisco
+es;Pampa Chucaripo;Hombre Huaty
+es;Justo Huano Mocco;Acopunco
+es;Compuyo;Chaupi Compuyo
+es;Chaupi Compullo;Chaupi Compuyo
+es;Ticani Central;Vilacunca
+es;Libertad Alto;Alto Libertad
+es;Villa Quishuarani;Quisuarani
+es;Zepita;Camiraya Molino
+es;Machacahuyo;Machaca Huyo
+es;Tambillo Pampa;Tambillo
+es;Panchoja;Paru Jojoria
+es;Achusire;Chiasi
+es;Hacienda San Salvador;San Salvador
+es;Chama Jahuira;Phocona
+es;Chapioco;Chapiocco
+es;Aracachi;San Juan de Aracachi
+es;Santa Ana de Tacurani;Tarucani
+es;Huayllane;San Francisco Arconuma
+es;San Francisco;San Francisco Arconuma
+es;Accari;Acari
+es;Alto Panita;Alto Pavita
+es;Tarucomarca;Alto Pavita
+es;Pavita;Alto Pavita
+es;Chua Chua;Kacalinca
+es;Central Rukus;Rukus
+es;Kcanamarca;Kanamarca
+es;Acocollo Central;Acocollo
+es;Villamar Aychuyo;Villa Mar Aychuyo
+es;Huayllani 20;Huayllani Veinte
+es;Corazón de Jesus;Mercedes
+es;Vilcallami;Villacallami Alto
+es;Alto Vilcallami;Villacallami Alto
+es;Pampa Yarecoa;Cucho Yareoca
+es;Llaquepa;Iruhinto
+es;Pajcha Pata;Villa Pajcha
+es;Mallcutira;Marcotira
+es;Anexo Sahuacasi 3;Anexo Sahuacasi Tres
+es;Huacullani;Vilachave
+es;Santa Bárbara;Vilurcuni
+es;Pardo Chua Chua;Chua Chua
+es;Santa Cruz d Ayrihuas;Parinacota
+es;Santa Rosa;Cerro Santa Rosa
+es;Sihuayro Tonconi;Tonconi
+es;Lampa Ceucho;Lampa Grande
+es;Faralleta;Tuni Grande
+es;Primer Chimpa Jilahuta;Primer Chimpa Jilahuata
+es;Accopata;San Antonio Accopata
+es;San Francisco de Cayrahuire;Gast San Francisco Cayrahuire
+es;Hacienda Parja Parja;Parca Parca
+es;Hacienda Purina;Purina
+es;Central Ccalla;Ccalla
+es;Apaycochi;Apaicachi
+es;San Jeronimo;Jila San Gerónimo
+es;Bajo Milliraya;Milliraya
+es;Ancomarca;Chacachita
+es;Hacienda Sillicachi;Tarapoto
+es;Punta Sahuacasi Dos;Punta Sahuacasi
+es;Punta Sahuacasi 2;Punta Sahuacasi
+es;Cerro Buena Vista;Buena Vista
+es;Chocorasi;Choccorasi
+es;Accopata Central;Acopata
+es;Chacapa;Imicate
+es;Totorani;Totorani Bajo
+es;Yunguyo;Yanapata
+es;Chimbo;Yanapata
+es;Poccona;Espíritu Santo
+es;Pajonal Tihuanaski;Tiahuanasqui
+es;23 de Septiembre;Veintitrés de Setiembre
+es;16 de Noviembre;Dieciséis de Noviembre
+es;Esperanza de Aguaytía;La Esperanza
+es;Trapiche;San José
+es;26 de Noviembre;Veintiséis de Noviembre
+es;23 de Diciembre;Veintitrés de Diciembre
+es;Yamino;Nueva Esperanza
+es;Alto Utuquinia;San José
+es;San Francisco;San Francisco de Lagarto
+es;Palometa;Nueva Unión
+es;Gamitana;Asunción de Gamitana
+es;Delta 3;Bajo Pukiri
+es;Delta Tres;Bajo Pukiri
+es;Julio Mercado;Nuevo Bethel
+es;Punkiri Chico;Puerto Punkiri
+es;Alto 2 de Mayo;Alto Dos de Mayo
+es;Pacal;Pacal Guacamayo
+es;Centro Pukiri;Delta Dos
+es;Delta 2;Delta Dos
+es;San Pablo de Loreto;Nueva Mansilla
+es;Awajún;Kashap Entsa
+es;Bajo Pukiri;Delta Uno
+es;Delta 1;Delta Uno
+es;Isirive;Boca Isiri
+es;Llacta Pampa;Palotoa
+es;Thocori Jarani;Jarani
+es;Sulcatura II;Sulcatura Dos
+es;Sulcatura 2;Sulcatura Dos
+es;Sullcacatura II;Sulcatura Dos
+es;Nayranjaque;Yacari Tuntachani
+es;Aparune;Apharuni
+es;Machacmarca;Machatmarca
+es;Jalluyo Compuyo Huilaccollo;Jalluyo
+es;Jalluyo Compuyo;Jalluyo
+es;Huilacollo;Jalluyo
+es;Compacazo;Compacaso
+es;Tuyo;Yajacircatuyo
+es;Tuco;Yajacircatuyo
+es;Choiñapute;Chojnapute
+es;Ccorpa Flores;Corpa Flores
+es;Chijuyo;Chijuyo Copapujo
+es;Chiluyo Copapujo;Chijuyo Copapujo
+es;Copapojo;Chijuyo Copapujo
+es;Poquichila;Poquichilla
+es;Sumarire;Conapi Sumarire
+es;Jonapi;Conapi Sumarire
+es;Conapi Sumariri;Conapi Sumarire
+es;Pucajrani Tiraccollo;Pucajarane Terracollo
+es;Sucano;Sucano Churo
+es;Challa Pujo;Suyo
+es;Ccollpa;Suyo
+es;Challapujio Suyo;Suyo
+es;Pfurafora;Fora
+es;Suquinape;Suquinapi
+es;Ccapoputi Rivera;Caputi
+es;Villa Sicata;Sicata
+es;Ticona;Ticona Cusullaca
+es;Chojña Chojñani;Chajña Chajñani
+es;Chojnechouna;Chajña Chajñani
+es;Kcañi;Aricollo
+es;Pichincuta;Pichincota
+es;Chilaccolo;Chilacollo
+es;Santigo Tire;Santiago Thiri
+es;Jichucollo;Jichu Ccollo
+es;Jichuccolllo Antamarca;Jichu Ccollo
+es;Pacco Risalazopacco;Simillaca
+es;Sulcatura 1;Sulcatura Uno
+es;Hacienda Itapalluni;Itapalluni
+es;Ccoriacc Cabracancha;Ccoriacc
+es;Concepción Cangallo;Concepción
+es;Canapiriato;Cañapiriato
+es;Urubamba;Huascahura
+es;San Juan de Urubamba;Huascahura
+es;Ccocha;Cochapata
+es;Qollana;Ccollana
+es;Ccatu Pata;Qatupata
+es;8 de Diciembre;Ocho de Diciembre
+es;Putaca;Putacca
+es;Huaripercca;Wariperqa
+es;Waripercca;Wariperqa
+es;Mozo Bamba;Mozobamba Alta
+es;Qatunpampa de Huayllay;Ccatumpampa Huayllay
+es;24 de Junio;Veinticuatro de Junio
+es;San José de Ccacheccara;Ccachccara
+es;Huaracascca;Santa Rosa de Huaracasqa
+es;Duraznopata;Durazno Pata
+es;Antallaccta;Antallaqta
+es;Luichopata;Luichupata
+es;Unión Cerro de Oro;Cerro de Oro
+es;Pucacollpa;Pocacolpa
+es;Villa Vista;San José de Villa Vista
+es;Bellavista;San José de Villa Vista
+es;Atoqhuachanqa;Atoqhuachancca
+es;Hacienda Huancarama;Huancarama
+es;Paccre;Ingenio
+es;Estanciapata;Estancia Pata
+es;San Juan de Churrupallana;Churrupallana
+es;Tomanga Cusibamba;Cusibamba
+es;Gloriapata;Gloria Pata
+es;Ancohaqui;Anccochaque
+es;Ayna;Machente
+es;Santa Cruz Rayán;Rayán
+es;La Unión;Peña Blanca
+es;Peña Blanca La Unión;Peña Blanca
+es;Sullcanaca;Sulcanaca
+es;Coarita;Paratía
+es;Hayna;Ayna
+es;Isoqasa;Isoccasa
+es;Miraflores;San Juan de Miraflores

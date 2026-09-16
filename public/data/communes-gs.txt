@@ -1,0 +1,3 @@
+22;-36.4940,-54.2830;SIQQ 1ZZ;;King Edward Point
+2;-36.5092,-54.2811;SIQQ 1ZZ;;Grytviken
+10;-38.0517,-54.0085;SIQQ 1ZZ;;Bird Research Station

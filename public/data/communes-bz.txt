@@ -1,0 +1,519 @@
+1885;-88.6461,18.0910;BZ-04;Orange Walk District;Yo Creek
+115;-88.4977,18.3548;BZ-03;Corozal District;Yo Chen
+0;-88.9445,17.3810;BZ-04;Orange Walk District;Yalbac Camp
+0;-88.4605,18.3981;BZ-03;Corozal District;Xcanluum
+0;-88.3582,18.0040;BZ-04;Orange Walk District;Xcanha
+0;-89.1333,17.5333;BZ-04;Orange Walk District;Xaxe Venic
+1783;-88.4339,18.3865;BZ-03;Corozal District;Xaibe
+403;-88.5727,17.5289;BZ-01;Belize District;Willows Bank
+0;-88.4833,17.2500;BZ-01;Belize District;White Hill
+0;-88.3561,17.3120;BZ-01;Belize District;Watters Bank
+0;-88.6407,17.7891;BZ-04;Orange Walk District;Water Bank
+0;-88.4604,17.6853;BZ-01;Belize District;Washing Tree
+0;-88.3197,18.0008;BZ-04;Orange Walk District;Warrie Camp
+0;-88.9349,17.5445;BZ-04;Orange Walk District;Wamil
+0;-88.6471,16.5940;BZ-06;Toledo District;Waha Leaf Camp
+0;-88.4500,18.2833;BZ-03;Corozal District;Villa Alfonso
+0;-88.7832,17.9797;BZ-04;Orange Walk District;Vaqueros
+0;-89.1625,16.7664;BZ-02;Cayo District;Valentin Camp
+0;-89.0633,17.0325;BZ-02;Cayo District;Vaca
+1232;-88.9339,17.2103;BZ-02;Cayo District;Unitedville
+0;-89.1419,16.3964;BZ-06;Toledo District;Campamento Unión
+0;-89.0189,16.6275;BZ-02;Cayo District;Union Camp
+0;-89.1378,17.3230;BZ-02;Cayo District;Tu-Tu Camp
+0;-88.3833,17.4667;BZ-01;Belize District;Tropical Park
+0;-88.6704,16.5852;BZ-06;Toledo District;Trio Camp
+628;-88.6870,18.0236;BZ-04;Orange Walk District;Trinidad
+5850;-88.5658,18.1012;BZ-04;Orange Walk District;Trial Farm
+0;-88.9571,17.8876;BZ-04;Orange Walk District;Tres Leguas
+0;-88.5405,18.0532;BZ-04;Orange Walk District;Tres Brazos
+0;-89.0650,17.1695;BZ-02;Cayo District;Trapiche
+254;-88.5592,18.0286;BZ-04;Orange Walk District;Tower Hill
+0;-89.1420,17.3036;BZ-02;Cayo District;Toro
+0;-88.8262,16.1338;BZ-06;Toledo District;Toledo Settlement
+210;-88.9374,16.2274;BZ-06;Toledo District;The Dump
+1999;-88.8550,17.2295;BZ-02;Cayo District;Teakettle Village
+0;-88.8313,16.5144;BZ-06;Toledo District;Teakettle Camp
+0;-88.4427,18.3840;BZ-03;Corozal District;Tacistal
+0;-88.7576,17.8976;BZ-04;Orange Walk District;Tacistal
+0;-88.4717,18.1876;BZ-03;Corozal District;Swasey Branch Barquedier
+0;-89.0736,17.4083;BZ-04;Orange Walk District;Spring Camp
+0;-88.9833,17.2167;BZ-02;Cayo District;Spanish Lookout
+3108;-89.0092,17.2628;BZ-02;Cayo District;Spanish Lookout
+0;-88.9833,16.9000;BZ-02;Cayo District;South View Point
+0;-88.7566,16.5578;BZ-06;Toledo District;Solomon Camp
+0;-88.2833,16.8333;BZ-05;Southern District;Sittee
+0;-89.0922,17.5871;BZ-04;Orange Walk District;Silvester’s Camp
+0;-88.4667,16.7000;BZ-05;Southern District;Silver Creek Camp
+2627;-88.3333,16.8833;BZ-05;Southern District;Silk Grass
+0;-88.8784,17.5436;BZ-04;Orange Walk District;Sierra de Agua
+0;-88.6566,17.0949;BZ-02;Cayo District;Sibun Camp
+4070;-88.6545,17.8938;BZ-04;Orange Walk District;Shipyard
+0;-88.1844,18.2333;BZ-03;Corozal District;Shipstern Landing
+0;-88.1685,18.1862;BZ-03;Corozal District;Shipstern
+1895;-88.3649,16.5694;BZ-05;Southern District;Seine Bight Village
+0;-88.5167,17.5667;BZ-01;Belize District;Scotland
+0;-88.9697,17.1107;BZ-02;Cayo District;Sayab Camp
+0;-88.8053,17.1907;BZ-02;Cayo District;Savannah Bank
+0;-88.7667,17.3167;BZ-02;Cayo District;Saturday Creek
+3550;-88.1454,18.3533;BZ-03;Corozal District;Sarteneja
+926;-88.2738,16.9715;BZ-05;Southern District;Sarawina
+1094;-88.5760,18.2586;BZ-03;Corozal District;San Victor
+344;-89.0500,16.1333;BZ-06;Toledo District;Santa Theresa
+0;-88.4593,18.4837;BZ-03;Corozal District;Santa Rosa
+0;-89.1372,17.1361;BZ-02;Cayo District;Santa Rosa
+0;-88.3891,18.3897;BZ-03;Corozal District;Santa Rita
+132;-88.2966,17.8032;BZ-01;Belize District;Santana
+2600;-89.0743,17.1859;BZ-02;Cayo District;Santa Familia
+8587;-89.0546,17.1614;BZ-02;Cayo District;Santa Elena
+304;-88.7060,18.1153;BZ-04;Orange Walk District;Santa Cruz
+532;-89.0766,16.2343;BZ-06;Toledo District;Santa Cruz
+975;-88.5122,18.2941;BZ-03;Corozal District;Santa Clara
+346;-88.9544,16.1042;BZ-06;Toledo District;Santa Anna
+0;-88.5078,18.2972;BZ-03;Corozal District;San Roman
+491;-88.6425,18.1924;BZ-04;Orange Walk District;San Roman
+0;-89.2044,15.9377;BZ-06;Toledo District;San Pedro Landing
+608;-88.4949,18.3377;BZ-03;Corozal District;San Pedro
+17429;-87.9659,17.9160;BZ-01;Belize District;San Pedro
+0;-88.9833,17.3500;BZ-02;Cayo District;San Pedro
+1454;-88.9544,16.2715;BZ-06;Toledo District;San Pedro
+0;-88.9901,16.7162;BZ-02;Cayo District;San Pastor Camp
+1238;-88.5661,18.2106;BZ-04;Orange Walk District;San Pablo
+2784;-88.5208,18.3040;BZ-03;Corozal District;San Narciso
+0;-89.0235,17.1825;BZ-02;Cayo District;San Miguel
+812;-88.9320,16.2930;BZ-06;Toledo District;San Miguel
+287;-88.6030,18.1918;BZ-04;Orange Walk District;San Luis
+135;-89.0985,16.0768;BZ-06;Toledo District;San Lucas
+0;-88.6224,18.1407;BZ-04;Orange Walk District;San Lorenzo
+1210;-88.6632,18.0385;BZ-04;Orange Walk District;San Lazaro
+0;-88.3001,17.9859;BZ-04;Orange Walk District;San Juan Bank
+0;-88.6167,18.1833;BZ-04;Orange Walk District;San Juan
+2424;-89.1301,17.0845;BZ-02;Cayo District;San Jose Soccoths
+2146;-88.5635,18.0620;BZ-04;Orange Walk District;San Jose Palmar
+3499;-88.5712,18.1958;BZ-04;Orange Walk District;San Jose
+0;-88.9333,17.4833;BZ-04;Orange Walk District;San Jose
+0;-89.0980,17.1710;BZ-02;Cayo District;San Jose
+889;-89.0936,16.2671;BZ-06;Toledo District;San Jose
+1528;-88.4420,18.3527;BZ-03;Corozal District;San Joaquin
+21229;-89.0696,17.1588;BZ-02;Cayo District;San Ignacio
+0;-88.4582,18.3239;BZ-03;Corozal District;San Francisco
+593;-88.3544,18.3213;BZ-03;Corozal District;San Fernando
+1898;-88.7733,17.8730;BZ-04;Orange Walk District;San Felipe
+0;-89.0668,17.1468;BZ-02;Cayo District;San Felipe
+518;-88.9050,16.1326;BZ-06;Toledo District;San Felipe
+2115;-88.5113,18.1541;BZ-04;Orange Walk District;San Estevan
+2168;-88.3683,17.6404;BZ-01;Belize District;Sand Hill
+476;-89.1860,16.1125;BZ-06;Toledo District;San Benito Poite
+767;-88.3998,18.4017;BZ-03;Corozal District;San Antonio
+479;-88.6742,18.1311;BZ-04;Orange Walk District;San Antonio
+2738;-89.0236,17.0786;BZ-02;Cayo District;San Antonio
+1447;-89.0242,16.2436;BZ-06;Toledo District;San Antonio
+0;-88.9333,16.1000;BZ-06;Toledo District;San Antonia
+1243;-88.4094,18.3892;BZ-03;Corozal District;San Andres
+0;-88.3926,18.3146;BZ-03;Corozal District;Saltillo
+0;-88.6361,16.7133;BZ-05;Southern District;Sale si Puede
+0;-88.8265,16.1144;BZ-06;Toledo District;Saint Vincent Block
+0;-88.6333,17.1500;BZ-02;Cayo District;Saint Thomas
+211;-88.5907,17.5116;BZ-01;Belize District;Saint Paul’s
+0;-89.1131,16.7003;BZ-02;Cayo District;Round Hole Bank
+0;-89.0827,17.3231;BZ-02;Cayo District;Round Hole
+0;-88.9169,17.8868;BZ-04;Orange Walk District;Rosita
+0;-88.4667,17.4000;BZ-01;Belize District;Rockville
+177;-88.3437,17.7539;BZ-01;Belize District;Rockstone Pond
+0;-88.7333,17.3500;BZ-02;Cayo District;Rock Dondo
+2430;-88.7962,17.2595;BZ-02;Cayo District;Roaring Creek
+0;-89.1144,16.4275;BZ-06;Toledo District;Rito Bonillo
+247;-89.1086,16.2297;BZ-06;Toledo District;Rio Blanco
+0;-88.8439,16.1359;BZ-06;Toledo District;Rice Station
+0;-88.5516,17.8625;BZ-01;Belize District;Revenge
+0;-89.1403,16.7186;BZ-02;Cayo District;Retiro
+0;-89.0682,16.6314;BZ-02;Cayo District;Resumadero Camp
+0;-88.4134,18.4531;BZ-03;Corozal District;Remate
+0;-89.1213,17.4195;BZ-04;Orange Walk District;Rejolla
+0;-88.8825,17.8821;BZ-04;Orange Walk District;Reinland
+0;-88.3320,16.8128;BZ-05;Southern District;Regalia
+0;-88.4927,16.7630;BZ-05;Southern District;Red Bank
+2323;-88.5591,16.6165;BZ-05;Southern District;Red Bank Village
+0;-88.8050,16.4788;BZ-06;Toledo District;Ranger Camp
+0;-88.5996,16.7195;BZ-05;Southern District;Rancho Grande
+237;-88.6285,17.5357;BZ-01;Belize District;Rancho Dolores
+0;-88.4073,18.2560;BZ-03;Corozal District;Rancho Corozal
+0;-88.3725,17.9594;BZ-04;Orange Walk District;Rancho
+1649;-88.4103,18.3775;BZ-03;Corozal District;Ranchito
+0;-89.1324,17.4118;BZ-04;Orange Walk District;Ramonal
+0;-89.1309,17.1566;BZ-02;Cayo District;Ramonal
+0;-88.9825,17.9168;BZ-04;Orange Walk District;Quatro Leguas
+0;-88.3593,16.9968;BZ-05;Southern District;Quarry Hill
+5406;-88.8097,16.0983;BZ-06;Toledo District;Punta Gorda
+671;-89.1417,16.2053;BZ-06;Toledo District;Pueblo Viejo
+0;-88.4129,18.3098;BZ-03;Corozal District;Pueblo Nuevo
+0;-88.4123,18.3106;BZ-03;Corozal District;Puebla Nueva
+0;-88.4382,18.1364;BZ-03;Corozal District;Pucte
+0;-89.0619,16.7687;BZ-02;Cayo District;Puchituk Camp
+0;-89.1362,17.1431;BZ-02;Cayo District;Providencien
+1403;-88.4107,18.2309;BZ-03;Corozal District;Progresso
+0;-88.9465,17.0358;BZ-02;Cayo District;Privassion Camp
+2122;-88.3742,16.9951;BZ-05;Southern District;Pomona
+0;-89.1355,17.1580;BZ-02;Cayo District;Plant Sucker
+4300;-88.3665,16.5142;BZ-05;Southern District;Placencia
+0;-89.1434,17.3790;BZ-04;Orange Walk District;Piedregal
+0;-88.9391,16.1043;BZ-06;Toledo District;Piebra
+0;-88.5394,18.0782;BZ-04;Orange Walk District;Pettville
+0;-89.1068,17.3576;BZ-04;Orange Walk District;Pescado Camp
+0;-88.5767,16.6098;BZ-06;Toledo District;Perry Bank
+1517;-88.4715,18.4006;BZ-03;Corozal District;Patchchacan
+0;-89.0441,17.4038;BZ-04;Orange Walk District;Pascua Camp
+1267;-88.3942,18.4078;BZ-03;Corozal District;Paraiso
+0;-88.6918,17.3546;BZ-02;Cayo District;Panama
+0;-88.8818,16.4490;BZ-06;Toledo District;Palmar Camp
+328;-89.1759,16.0213;BZ-06;Toledo District;Otoxha Village
+15298;-88.5633,18.0812;BZ-04;Orange Walk District;Orange Walk
+0;-88.7891,17.2700;BZ-02;Cayo District;Orange Walk
+960;-88.8919,17.2212;BZ-02;Cayo District;Ontario Village
+0;-89.0090,17.1816;BZ-02;Cayo District;Norland
+0;-88.8156,16.3213;BZ-06;Toledo District;Nimu Punit
+0;-88.2667,16.9000;BZ-05;Southern District;New Town
+0;-88.4445,18.1154;BZ-03;Corozal District;New Home
+0;-88.6343,16.7412;BZ-05;Southern District;New Home
+0;-88.5905,16.2542;BZ-06;Toledo District;New Haven
+0;-88.7606,17.3205;BZ-02;Cayo District;Never Delay
+0;-89.0420,17.9075;BZ-04;Orange Walk District;Neustadt
+0;-88.9014,17.8978;BZ-04;Orange Walk District;Nuendorf
+0;-89.0833,17.0784;BZ-02;Cayo District;Negroman
+0;-89.1373,16.4314;BZ-06;Toledo District;Nasario Perez
+0;-88.5061,18.1692;BZ-04;Orange Walk District;Narrows Landing
+0;-88.2913,17.8803;BZ-01;Belize District;Nago Bank
+176;-88.9927,16.2442;BZ-06;Toledo District;Nafreda
+198;-88.3007,17.1051;BZ-05;Southern District;Mullins River
+0;-88.9297,17.2202;BZ-02;Cayo District;Mount Hope
+0;-89.0489,16.7875;BZ-02;Cayo District;Mountain Cow
+387;-88.6920,17.3473;BZ-02;Cayo District;More Tomorrow
+0;-88.3690,17.8426;BZ-01;Belize District;More Force
+193;-88.4852,16.3617;BZ-06;Toledo District;Monkey River Town
+0;-89.0503,17.1375;BZ-02;Cayo District;Monkey Fall
+341;-88.5217,17.0400;BZ-05;Southern District;Middlesex
+0;-88.3087,16.8284;BZ-05;Southern District;Middle Bank
+0;-88.6367,16.4430;BZ-06;Toledo District;Melvin’s Bank
+0;-88.7268,17.3865;BZ-02;Cayo District;Meditation
+340;-88.7423,16.4445;BZ-06;Toledo District;Medina Bank
+0;-88.4713,17.6554;BZ-01;Belize District;May Pen
+998;-88.5254,16.6602;BZ-05;Southern District;Maya Mopan
+206;-88.3537,16.6154;BZ-05;Southern District;Maya Beach
+1260;-88.3117,17.8779;BZ-01;Belize District;Maskall
+0;-88.4148,16.5360;BZ-05;Southern District;Mango Creek
+0;-88.9967,17.3971;BZ-04;Orange Walk District;Mammee Camp
+0;-88.9733,17.0654;BZ-02;Cayo District;Mai Gate
+0;-88.8885,16.1990;BZ-06;Toledo District;Machaca Camp
+0;-89.1150,16.1403;BZ-06;Toledo District;Machaca
+0;-89.0667,16.9833;BZ-02;Cayo District;Macaw Bank
+477;-88.3169,17.7792;BZ-01;Belize District;Lucky Strike
+892;-88.5098,18.3195;BZ-03;Corozal District;Louisville
+0;-89.0093,16.7042;BZ-02;Cayo District;Los Lirios Camp
+0;-88.9956,16.9773;BZ-02;Cayo District;Los Altos
+4876;-88.3333,17.5446;BZ-01;Belize District;Lord’s Bank
+0;-89.0854,17.3140;BZ-02;Cayo District;Long Bridge
+0;-88.4333,17.9833;BZ-04;Orange Walk District;London
+0;-88.5428,16.4894;BZ-06;Toledo District;Logan’s Bank
+0;-88.4893,16.7780;BZ-05;Southern District;Locust Bank
+0;-88.5419,17.5753;BZ-01;Belize District;Little Bermudian Landing
+2888;-88.4079,18.1980;BZ-03;Corozal District;Little Belize
+0;-89.0211,17.2022;BZ-02;Cayo District;Listowel
+0;-88.4918,17.6309;BZ-01;Belize District;Lime Walk
+1489;-88.4544,18.3079;BZ-03;Corozal District;Libertad
+292;-88.6030,17.6081;BZ-01;Belize District;Lemonal
+0;-88.5180,18.3825;BZ-03;Corozal District;Laguna
+300;-88.9380,16.1691;BZ-06;Toledo District;Lagoona
+0;-88.5896,16.6629;BZ-05;Southern District;Lagarto Bank
+0;-89.1404,17.3973;BZ-04;Orange Walk District;Lagarto
+0;-89.0092,16.6227;BZ-02;Cayo District;La Flor Camp
+7655;-88.2900,17.5543;BZ-01;Belize District;Ladyville
+301;-88.5447,17.3408;BZ-01;Belize District;La Democracia
+301;-88.3781,16.8131;BZ-05;Southern District;Kendal
+0;-89.0658,17.3822;BZ-04;Orange Walk District;Kaway Camp
+0;-89.1673,16.1151;BZ-06;Toledo District;Joventud
+0;-88.3644,17.4234;BZ-01;Belize District;Joe Wagner Boom
+0;-89.0405,16.2936;BZ-06;Toledo District;Jimmy Cut
+759;-89.1467,16.1581;BZ-06;Toledo District;Jalacte
+0;-88.8500,16.1667;BZ-06;Toledo District;Jacinto Landing
+183;-88.5333,17.5833;BZ-01;Belize District;Isabella Bank
+236;-88.6574,17.7539;BZ-04;Orange Walk District;Indian Church
+4878;-88.4188,16.5344;BZ-05;Southern District;Independence and Mango Creek
+0;-88.9280,17.2347;BZ-02;Cayo District;Iguana Creek Bank
+1767;-88.2844,16.8631;BZ-05;Southern District;Hopkins
+0;-88.9667,16.4667;BZ-06;Toledo District;Hopital
+0;-88.4501,18.0327;BZ-04;Orange Walk District;Honey Camp
+0;-88.3945,18.2456;BZ-03;Corozal District;Hill Bank
+0;-88.6925,17.6033;BZ-04;Orange Walk District;Hill Bank
+0;-88.3095,16.8263;BZ-05;Southern District;High Sand
+0;-88.7971,16.3609;BZ-06;Toledo District;Hellgate
+2184;-88.3936,17.4478;BZ-01;Belize District;Hattieville
+0;-88.9017,16.2200;BZ-06;Toledo District;Hamidli Creek Settlement
+3821;-88.5984,17.9670;BZ-04;Orange Walk District;Guinea Grass
+0;-88.4756,16.8518;BZ-05;Southern District;Guana Church Bank
+0;-88.4497,17.3658;BZ-01;Belize District;Gracy Rock Bank
+0;-88.4049,17.6498;BZ-01;Belize District;Grace Bank
+0;-88.6573,17.1176;BZ-02;Cayo District;Good Living Camp
+0;-88.9500,17.7000;BZ-04;Orange Walk District;Gongora
+0;-88.9171,17.8805;BZ-04;Orange Walk District;Gnadenthal
+0;-88.9173,17.8722;BZ-04;Orange Walk District;Gnadenfeld
+953;-88.9746,17.1906;BZ-02;Cayo District;Georgeville
+659;-88.5078,16.6532;BZ-05;Southern District;Georgetown
+0;-89.1452,17.0551;BZ-02;Cayo District;Garbutt’s Falls
+0;-89.0467,17.5620;BZ-04;Orange Walk District;Gallon Jug
+449;-88.3352,17.1710;BZ-01;Belize District;Gales Point
+0;-88.3540,17.4249;BZ-01;Belize District;Freetown Sibun
+0;-88.2910,16.8256;BZ-05;Southern District;Freetown Area
+659;-88.6374,17.2609;BZ-02;Cayo District;Franks Eddy
+0;-89.0664,16.5185;BZ-02;Cayo District;Fork Camp
+517;-88.8330,16.1387;BZ-06;Toledo District;Forest Home
+249;-88.4929,17.6141;BZ-01;Belize District;Flowers Bank
+0;-89.0633,17.0447;BZ-02;Cayo District;Flour Camp
+0;-89.0536,17.2589;BZ-02;Cayo District;Fermin Reyes
+0;-88.2953,17.4419;BZ-01;Belize District;Ferguson Bank
+0;-88.4523,18.2911;BZ-03;Corozal District;Estrella
+0;-88.5024,18.4125;BZ-03;Corozal District;Estero
+0;-89.0231,16.4172;BZ-06;Toledo District;Esperanza Camp
+0;-89.1308,17.3780;BZ-04;Orange Walk District;Esperanza
+1162;-89.0442,17.1745;BZ-02;Cayo District;Esperanza
+0;-88.8714,16.4981;BZ-06;Toledo District;Esperanza
+0;-89.1043,17.9080;BZ-04;Orange Walk District;Encalada Potrero
+0;-88.4333,18.2000;BZ-03;Corozal District;El Remate
+0;-88.6167,18.2000;BZ-04;Orange Walk District;El Brazo
+0;-88.3914,17.4253;BZ-01;Belize District;Egypt
+0;-88.9819,17.9271;BZ-04;Orange Walk District;Edenthal
+0;-89.0631,17.1197;BZ-02;Cayo District;Duffy Bank
+758;-89.0164,17.2185;BZ-02;Cayo District;Duck Run
+0;-88.5962,17.1706;BZ-02;Cayo District;Dry Creek Bank
+0;-88.8167,17.8167;BZ-04;Orange Walk District;Driving Camp
+0;-88.9139,17.3582;BZ-02;Cayo District;Drill Camp
+586;-88.6014,18.2352;BZ-04;Orange Walk District;Douglas
+639;-88.5575,17.5436;BZ-01;Belize District;Double Head Cabbage
+0;-88.8532,17.9059;BZ-04;Orange Walk District;Dos Bocas
+694;-89.2108,15.9890;BZ-06;Toledo District;Dolores
+0;-88.3959,17.6446;BZ-01;Belize District;Davis Bank
+9927;-88.2331,16.9697;BZ-05;Southern District;Dangriga
+0;-88.4374,16.8312;BZ-05;Southern District;Dancing Pool
+0;-89.0100,16.7847;BZ-02;Cayo District;Cubetas
+0;-88.5696,17.2291;BZ-01;Belize District;Crossing Landing Bank
+910;-88.5420,17.7760;BZ-01;Belize District;Crooked Tree
+872;-88.4955,18.3486;BZ-03;Corozal District;Cristo Rey
+1254;-89.0550,17.1314;BZ-02;Cayo District;Cristo Rey
+481;-89.1000,15.9833;BZ-06;Toledo District;Crique Sarco
+314;-89.0167,16.2667;BZ-06;Toledo District;Crique Jute
+0;-88.2266,18.2222;BZ-03;Corozal District;Cowpen
+0;-88.4468,18.1080;BZ-03;Corozal District;Cowpen
+1582;-88.5333,16.5667;BZ-05;Southern District;Cowpen
+0;-88.3126,17.7617;BZ-01;Belize District;Cowhead Creek
+0;-89.1250,16.7381;BZ-02;Cayo District;Cowboy Camp
+0;-88.7333,17.3333;BZ-02;Cayo District;Cotton Tree Bank
+2338;-88.7140,17.2736;BZ-02;Cayo District;Cotton Tree
+270;-89.1242,16.0553;BZ-06;Toledo District;Corozon
+0;-88.3765,18.1024;BZ-03;Corozal District;Corozalito
+0;-88.8034,17.9614;BZ-04;Orange Walk District;Corozalito
+133;-88.2739,17.8390;BZ-01;Belize District;Corozalito
+9815;-88.3885,18.3938;BZ-03;Corozal District;Corozal
+0;-89.0811,17.4053;BZ-04;Orange Walk District;Corozal
+0;-88.6224,17.4227;BZ-02;Cayo District;Coquericot
+0;-88.9679,17.1714;BZ-02;Cayo District;Cool Shade
+649;-88.3013,18.4574;BZ-03;Corozal District;Consejo
+281;-89.0018,16.0410;BZ-06;Toledo District;Conejo
+1481;-88.4742,18.3231;BZ-03;Corozal District;Concepcion
+0;-88.3099,16.8681;BZ-05;Southern District;Commerce Bight Village
+0;-89.0842,16.8194;BZ-02;Cayo District;Cohune Ridge
+0;-88.3734,18.2514;BZ-03;Corozal District;Cocos
+0;-88.6140,18.2239;BZ-04;Orange Walk District;Cocos
+0;-88.5553,17.3053;BZ-01;Belize District;Churchyard
+1821;-88.3575,18.2979;BZ-03;Corozal District;Chunox
+0;-88.3833,18.3000;BZ-03;Corozal District;Chunch
+0;-88.7022,16.5385;BZ-06;Toledo District;Chan Bank
+0;-89.1239,17.2550;BZ-02;Cayo District;Chorro
+0;-88.3116,17.8152;BZ-01;Belize District;Chicago
+0;-89.1134,17.1049;BZ-02;Cayo District;Chial
+0;-89.1392,16.7817;BZ-02;Cayo District;Chapayal
+0;-88.5626,18.3268;BZ-03;Corozal District;Chan Sapote
+0;-88.6850,16.5166;BZ-06;Toledo District;Chan Quebrada
+0;-89.1000,17.4000;BZ-04;Orange Walk District;Chan Pond
+578;-88.5825,18.0369;BZ-04;Orange Walk District;Chan Pine Ridge
+0;-89.1385,17.3617;BZ-04;Orange Walk District;Chan Limón
+869;-88.4167,18.4333;BZ-03;Corozal District;Chan Chen
+0;-88.5000,18.2167;BZ-03;Corozal District;Chan Bank
+0;-88.2574,18.2738;BZ-03;Corozal District;Chacan Chac Mol
+0;-89.0280,17.6911;BZ-04;Orange Walk District;Cedar Crossing
+0;-88.4387,17.3858;BZ-01;Belize District;Cedar Bank
+0;-89.1642,16.6571;BZ-02;Cayo District;Cebada Camp
+2729;-88.0276,17.7366;BZ-01;Belize District;Caye Caulker
+0;-88.7118,17.1500;BZ-02;Cayo District;Caves Branch
+378;-88.7952,16.1195;BZ-06;Toledo District;Cattle Landing
+0;-88.6668,17.3646;BZ-02;Cayo District;Castile
+0;-88.4500,17.9833;BZ-04;Orange Walk District;Cashew Tree
+0;-88.4283,18.3655;BZ-03;Corozal District;Carolina
+1936;-88.5429,18.0131;BZ-04;Orange Walk District;Carmelita
+0;-89.0626,17.1824;BZ-02;Cayo District;Carmelita Gardens
+0;-88.8648,17.6818;BZ-04;Orange Walk District;Canal Bank
+0;-88.2995,18.0783;BZ-03;Corozal District;Campa Pita
+3132;-88.8274,17.2388;BZ-02;Cayo District;Camelote
+613;-89.1373,17.1275;BZ-02;Cayo District;Callac Creek
+0;-88.7810,16.5318;BZ-06;Toledo District;Calera Camp
+1373;-88.4775,18.2274;BZ-03;Corozal District;Caledonia
+852;-88.4388,18.3618;BZ-03;Corozal District;Calcutta
+0;-89.1000,17.2833;BZ-02;Cayo District;Cadena Creek Camp
+0;-89.0675,16.4006;BZ-06;Toledo District;Cabro
+0;-88.4453,17.4109;BZ-01;Belize District;Butcher Burns
+2615;-88.4053,17.5693;BZ-01;Belize District;Burrell Boom
+0;-89.1211,17.3849;BZ-04;Orange Walk District;Burnt Ground
+0;-88.6667,17.7000;BZ-04;Orange Walk District;Burnham Hall
+0;-89.1103,16.4450;BZ-06;Toledo District;Burgos
+3932;-89.1110,17.1680;BZ-02;Cayo District;Bullet Tree Falls
+508;-88.5266,18.2369;BZ-03;Corozal District;Buena Vista
+0;-89.1167,17.1167;BZ-02;Cayo District;Buena Vista
+0;-89.0797,17.1794;BZ-02;Cayo District;Branch Mouth
+166;-88.3667,17.6833;BZ-01;Belize District;Boston
+112;-88.2762,17.8917;BZ-01;Belize District;Bomba
+0;-88.4345,17.2575;BZ-01;Belize District;Bocotora
+0;-88.4856,17.7041;BZ-01;Belize District;Bob Eiley
+0;-88.9177,17.8639;BZ-04;Orange Walk District;Blumenfeld
+0;-88.9386,16.7919;BZ-02;Cayo District;Blue Hole Camp
+841;-88.8898,17.8932;BZ-04;Orange Walk District;Blue Creek Village
+389;-89.0422,16.1978;BZ-06;Toledo District;Blue Creek Village
+0;-88.4927,18.1625;BZ-04;Orange Walk District;Blossom Bank
+0;-88.9642,17.0464;BZ-02;Cayo District;Blancaneau
+0;-89.0592,17.0489;BZ-02;Cayo District;Black Rock
+0;-88.9159,17.2274;BZ-02;Cayo District;Black Man Eddy
+702;-88.4572,17.7170;BZ-01;Belize District;Biscayne
+0;-88.5846,17.4947;BZ-01;Belize District;Big Falls
+846;-88.8910,16.2569;BZ-06;Toledo District;Big Fall
+0;-89.0684,17.0917;BZ-02;Cayo District;Big Eddy
+395;-88.5357,17.5573;BZ-01;Belize District;Bermudian Landing
+7160;-89.1392,17.0750;BZ-02;Cayo District;Benque Viejo el Carmen
+0;-88.4558,18.2766;BZ-03;Corozal District;Benque Viejo
+0;-89.0336,17.1854;BZ-02;Cayo District;Benque Ceiba
+13381;-88.7640,17.2538;BZ-02;Cayo District;Belmopan
+65222;-88.1976,17.4995;BZ-01;Belize District;Belize City
+0;-88.7134,16.4086;BZ-06;Toledo District;Beattie Pen
+0;-88.9738,17.2098;BZ-02;Cayo District;Barton Ramie
+140;-88.9167,16.0000;BZ-06;Toledo District;Barranco
+0;-88.4797,18.1767;BZ-04;Orange Walk District;Barquedier Sierra
+0;-88.7814,17.3187;BZ-02;Cayo District;Banana Bank
+0;-88.7408,16.9936;BZ-02;Cayo District;Baldy Sibun
+0;-88.7917,17.0035;BZ-02;Cayo District;Baldy Beacon
+0;-89.0130,17.2008;BZ-02;Cayo District;Baking Pot
+0;-88.3833,17.5500;BZ-01;Belize District;Bakers
+0;-88.6080,17.8384;BZ-04;Orange Walk District;Backlanding
+0;-87.8604,18.1866;BZ-01;Belize District;Bacalar Chico
+0;-88.4488,18.3301;BZ-03;Corozal District;Aventura
+2160;-88.7249,17.9725;BZ-04;Orange Walk District;August Pine Ridge
+0;-88.9972,16.9671;BZ-02;Cayo District;Augustine
+945;-89.1525,17.0235;BZ-02;Cayo District;El Arenal
+0;-89.0569,16.6171;BZ-02;Cayo District;Arabato Camp
+0;-89.0167,17.7167;BZ-04;Orange Walk District;Andersons Camp
+0;-88.4423,18.3435;BZ-03;Corozal District;America
+106;-88.4052,16.9937;BZ-05;Southern District;Alta Vista
+0;-88.4000,16.5333;BZ-05;Southern District;Alabama Wharf
+0;-88.5204,16.6702;BZ-05;Southern District;Alabama
+0;-89.0502,16.7071;BZ-02;Cayo District;Aguacate Camp
+471;-89.0939,16.1622;BZ-06;Toledo District;Aguacate
+0;-89.1282,17.1314;BZ-02;Cayo District;Buena Vista
+0;-89.1264,17.1100;BZ-02;Cayo District;Catarata La Clarisa
+0;-89.0636,17.0836;BZ-02;Cayo District;Macaw Bank
+3246;-88.8347,17.3347;BZ-02;Cayo District;Valley of Peace
+0;-88.5000,16.8333;BZ-05;Southern District;Stann Creek District
+0;-88.3330,18.2499;BZ-03;Corozal District;Corozal District
+0;-88.3939,18.4851;BZ-03;Corozal District;Santa Elena
+0;-87.8054,16.7968;BZ;;Glover's Reef Atoll
+0;-87.9470,17.9395;BZ-03;Corozal District;Ambergris Caye
+461;-88.5809,18.2276;BZ-03;Corozal District;Nuevo San Juan
+0;-88.6805,18.1574;BZ-04;Orange Walk District;Campechito
+0;-88.8909,17.8985;BZ-04;Orange Walk District;Inda Vista
+0;-89.1382,17.2642;BZ-02;Cayo District;Fowlers Work
+0;-88.6720,17.2785;BZ-02;Cayo District;Beaver Dam
+0;-89.1275,17.0998;BZ-02;Cayo District;San Lorenzo
+0;-88.5308,17.0404;BZ-05;Southern District;Humming Bird Community
+0;-88.9092,17.0464;BZ-02;Cayo District;Bull Run Ranch
+0;-88.3288,17.6632;BZ-01;Belize District;Salt Creek
+0;-89.1886,15.9096;BZ-06;Toledo District;Happy Farms Village
+0;-89.1451,15.9719;BZ-06;Toledo District;Metchekin
+0;-89.0990,16.0996;BZ-06;Toledo District;Old Marbel Ha
+0;-89.0956,16.1074;BZ-06;Toledo District;Old Mabilha
+0;-89.0801,16.1054;BZ-06;Toledo District;New Mahbilla
+117;-89.0149,16.1539;BZ-06;Toledo District;Jordan
+464;-89.1997,16.2389;BZ-06;Toledo District;San Vincente
+0;-89.2020,16.2450;BZ-06;Toledo District;Santiago Jalacte
+0;-89.2053,16.1841;BZ-06;Toledo District;Santa Cruz
+385;-89.0287,16.0391;BZ-06;Toledo District;Sunday Wood Creek Village
+1958;-88.4544,16.6662;BZ-05;Southern District;Santa Rosa Village
+2195;-88.4742,16.6528;BZ-05;Southern District;San Roman Village
+0;-88.4346,16.5588;BZ-05;Southern District;Lime Tree Village
+0;-89.1985,16.2910;BZ-06;Toledo District;Esperino
+0;-89.1994,16.2782;BZ-06;Toledo District;Santa Rosea
+837;-88.8317,16.3151;BZ-06;Toledo District;Indian Creek Village
+0;-88.4672,16.8497;BZ-05;Southern District;Mitchell’s Run
+0;-88.3267,16.9852;BZ-05;Southern District;Canada Hill
+1726;-88.6358,16.5153;BZ-06;Toledo District;Trio Village
+0;-88.6062,16.5144;BZ-05;Southern District;Trion Village
+1039;-88.5153,16.5623;BZ-05;Southern District;San Juan
+0;-88.8992,16.2492;BZ-06;Toledo District;Esporanza
+244;-88.9509,16.0599;BZ-06;Toledo District;Medway City Main Village
+0;-88.9068,16.0731;BZ-06;Toledo District;Boom Creek
+0;-88.5237,16.4391;BZ-06;Toledo District;Esparasca
+868;-88.9009,16.2168;BZ-06;Toledo District;San Margos
+420;-88.8054,16.3635;BZ-06;Toledo District;Golden Stream Village
+0;-89.0818,16.2854;BZ-06;Toledo District;Na Luum Ca
+954;-88.9493,17.1022;BZ-02;Cayo District;Seven Miles El Progresso
+1405;-88.6110,17.0905;BZ-02;Cayo District;St. Margaret
+660;-88.9167,17.2167;BZ-02;Cayo District;Blackman Eddy
+2421;-88.7464,17.1553;BZ-02;Cayo District;Armenia
+206;-88.3804,18.4017;BZ-03;Corozal District;Altamira
+1080;-88.2482,18.0519;BZ-03;Corozal District;Neuland
+196;-88.6277,17.8677;BZ-04;Orange Walk District;Fire Burn
+1080;-88.7192,17.7522;BZ-04;Orange Walk District;Indian Creek
+188;-88.6538,17.7185;BZ-04;Orange Walk District;San Carlos
+719;-88.3844,17.9703;BZ-04;Orange Walk District;Santa Martha
+147;-88.5547,17.1226;BZ-01;Belize District;Bird Walk
+507;-88.4188,17.6704;BZ-01;Belize District;Gardenia
+341;-88.4489,17.3746;BZ-01;Belize District;Gracie Rock
+177;-88.5291,17.1706;BZ-01;Belize District;Green Hill Manatee
+869;-88.5672,17.3385;BZ-01;Belize District;Mahogany Heights
+437;-88.5020,17.5662;BZ-01;Belize District;Scotland Halfmoon
+132;-88.3108,17.8537;BZ-01;Belize District;St. Anne's
+1414;-88.2955,17.4709;BZ-01;Belize District;Western Paradise
+1057;-89.0503,17.2112;BZ-02;Cayo District;Billy White
+911;-88.9408,17.2505;BZ-02;Cayo District;Buena Vista
+600;-89.0271,17.2420;BZ-02;Cayo District;Duck Run 2
+776;-89.0404,17.2594;BZ-02;Cayo District;Duck Run 3
+317;-88.9332,17.3535;BZ-02;Cayo District;La Gracia
+715;-89.0115,17.3237;BZ-02;Cayo District;Los Tambos
+518;-88.9148,17.1584;BZ-02;Cayo District;Lower Barton Creek
+162;-88.8849,17.1747;BZ-02;Cayo District;New Holland
+271;-88.9729,17.2548;BZ-02;Cayo District;San Marcos
+435;-88.9895,17.2885;BZ-02;Cayo District;Selena
+240;-88.8053,17.1456;BZ-02;Cayo District;Springfield
+1398;-88.6443,17.2743;BZ-02;Cayo District;St. Matthew's
+110;-88.9446,17.1249;BZ-02;Cayo District;Upper Barton Creek
+1244;-88.3125,17.0026;BZ-05;Southern District;Hope Creek
+435;-88.5296,17.0430;BZ-05;Southern District;Hummingbird Community
+151;-88.2657,16.9804;BZ-05;Southern District;Long Bank
+731;-88.3824,16.7984;BZ-05;Southern District;Maya Center
+101;-88.3815,16.9886;BZ-05;Southern District;Mountain Valley Community
+3008;-88.4255,16.6975;BZ-05;Southern District;Santa Cruz
+462;-88.3238,16.8209;BZ-05;Southern District;Sittee River
+176;-88.4160,16.7187;BZ-05;Southern District;South Stann Creek
+694;-88.4244,16.9991;BZ-05;Southern District;Steadfast
+988;-88.4494,17.0022;BZ-02;Cayo District;Valley Community
+6259;-88.5317,16.5095;BZ-06;Toledo District;Bella Vista
+766;-88.6245,16.4719;BZ-06;Toledo District;Bladen
+652;-88.8407,16.1382;BZ-06;Toledo District;Eldridgeville
+530;-88.8766,16.2829;BZ-06;Toledo District;Hicattee
+441;-88.8771,16.1529;BZ-06;Toledo District;Jacintoville
+263;-89.0871,16.1006;BZ-06;Toledo District;Mabilha
+166;-89.1910,15.9411;BZ-06;Toledo District;Machakilha
+539;-88.8134,16.1083;BZ-06;Toledo District;New Road Area
+210;-88.5934,16.6557;BZ-05;Southern District;Newland
+334;-88.8295,16.2446;BZ-06;Toledo District;Pinehill
+159;-88.5920,16.6387;BZ-06;Toledo District;Roseville
+999;-88.5447,16.5116;BZ-06;Toledo District;San Isidro
+599;-88.5804,16.6122;BZ-06;Toledo District;San Pablo
+718;-88.8901,16.2798;BZ-06;Toledo District;Silver Creek
+110;-88.7752,16.3864;BZ-06;Toledo District;Tambran
+426;-88.8968,16.1724;BZ-06;Toledo District;Yemeri Grove
+0;-89.2014,16.2019;BZ-06;Toledo District;Jalacte
+0;-87.9783,17.9011;BZ-03;Corozal District;São Pedro

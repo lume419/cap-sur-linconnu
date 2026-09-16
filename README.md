@@ -1536,6 +1536,57 @@ Nouvelle-Zélande, Fidji, Samoa, Tonga, Salomon, Vanuatu, Cook et Palaos : aucun
 France Diplomatie pour Tuvalu, Kiribati, Nauru, Marshall, Micronésie, Niue, Tokelau et les territoires américains,
 australiens et britannique.
 
+### Amériques : cinquante pays et territoires (septembre 2026)
+
+États-Unis, Canada, Mexique, Groenland, Bermudes, Guatemala, Belize, Salvador, Honduras, Nicaragua, Costa Rica, Panama,
+Cuba, Jamaïque, Haïti, République dominicaine, Bahamas, Saint-Kitts-et-Nevis, Antigua-et-Barbuda, Dominique,
+Sainte-Lucie, Saint-Vincent-et-les-Grenadines, Barbade, Grenade, Trinité-et-Tobago, Porto Rico, îles Vierges
+américaines et britanniques, Turques-et-Caïques, Caïmans, Anguilla, Montserrat, Aruba, Curaçao, Sint Maarten,
+Pays-Bas caribéens, Colombie, Venezuela, Guyana, Suriname, Équateur, Pérou, Bolivie, Brésil, Paraguay, Uruguay,
+Argentine, Chili, Malouines, Géorgie du Sud-et-les îles Sandwich du Sud — **763 003 lieux**
+(`scripts/build-ameriques-communes.js`) : Mexique 256 393, États-Unis 162 937, Brésil 66 533, Pérou 46 394, Colombie
+33 884, Bolivie 25 597, Venezuela 23 225, Canada 19 687… ; **~80 000 alias** (`scripts/build-ameriques-aliases.js`). Le
+site compte désormais **~4,8 millions de lieux** (bundle communes 227 Mo bruts ; index de recherche 16,4 millions
+d'entrées ; serveur ~2,4 Go, tirages prêts en ~14 s en local).
+
+**Codes postaux** (règle des 90 %) : États-Unis 96,6 %, Mexique 97,5 %, Bermudes, Costa Rica, Panama, Haïti, Porto Rico,
+îles Vierges américaines, Équateur, Pérou et Uruguay ont leurs codes ; code unique pour Turques-et-Caïques (TKCA 1ZZ),
+Anguilla (AI-2640), Malouines (FIQQ 1ZZ), Géorgie du Sud (SIQQ 1ZZ) ; étiquette de région ailleurs (Canada 44 % — le
+fichier GeoNames ne donne que les trois premiers caractères —, Brésil 69 %, Colombie 70 %…). **Équateur** : sans point
+postal à moins de 15 km, le lieu prend le point le plus proche de son canton (codes de division identiques, vérifiés) —
+plusieurs points des Galápagos sont mal placés, et 34 des 51 lieux de l'archipel, dont le chef-lieu, étaient écartés.
+
+**Frontières** (routes) : Canada–États-Unis, États-Unis–Mexique, Mexique–Guatemala et Belize, toute l'Amérique centrale
+jusqu'au Panama, Haïti–République dominicaine, Sint Maarten–Saint-Martin, Colombie–Venezuela, –Équateur, –Brésil
+(Leticia–Tabatinga, enclave), Venezuela–Brésil, Guyana–Brésil, Brésil–Guyane française (pont de l'Oyapock), Équateur–Pérou,
+Pérou–Brésil, –Bolivie, –Chili, Bolivie–Brésil, –Paraguay, –Argentine, –Chili, Brésil–Paraguay, –Argentine, –Uruguay,
+Argentine–Uruguay, –Paraguay, –Chili. **Sans route** : Panama–Colombie (Darién), Venezuela–Guyana, Colombie–Pérou,
+Canada–Groenland ; bacs seulement : Guyana–Suriname, Suriname–Guyane française (voir "Ferries").
+
+**Péages : aucun modélisé.** Barèmes officiels au kilomètre seulement sur quelques axes isolés — 407 ETR (Ontario, selon
+zone et heure), Costanera Norte (Santiago), Pennsylvania Turnpike, Via Dutra en flux libre — sans tarif national ;
+ailleurs, forfaits par barrière (CAPUFE au Mexique, Colombie, Pérou, Brésil, Argentine…).
+
+**Monnaies : 32 nouvelles** (CAD, MXN, BMD, GTQ, BZD, HNL, NIO, CRC, PAB, CUP, JMD, HTG, DOP, BSD, XCD, BBD, TTD, KYD, AWG, XCG,
+COP, VES, GYD, SRD, PEN, BOB, BRL, PYG, UYU, ARS, CLP, FKP), avec leur signe usuel ; le córdoba s'affiche « C$ (NIO) » pour
+ne pas le confondre avec le dollar canadien ; florin caribéen XCG (Curaçao, Sint Maarten, depuis 2025). Dollar
+américain au Salvador, en Équateur, aux Pays-Bas caribéens, à Porto Rico, aux îles Vierges et aux Turques-et-Caïques.
+**Taux** : InforEuro de septembre 2026, sauf **Cuba** (taux flottant de la Banque centrale, 764 CUP/€ — InforEuro retient
+24 CUP/USD, ~27 fois sous le taux de guichet) et **Venezuela** (Banque centrale, 977,68 Bs/€, InforEuro en retard). Seul prix
+moyen officiel d'hébergement trouvé : Chili, 76 104 CLP par chambre occupée (juin 2026, INE), dans "economique".
+
+**Hébergement et circulation** : Booking.com absent de Cuba, Airbnb très restreint ; paiements difficiles au Venezuela ;
+aucun hébergement à terre en Géorgie du Sud ; pas de location de voiture aux Galápagos ; visiteurs limités aux
+mini-voitures et scooters aux Bermudes.
+
+**Zones à tension** (65 règles) : Haïti rouge en entier ; Venezuela orange en entier avec frontières et arc minier en
+rouge ; Cuba orange en entier (crise énergétique) ; Mexique (Tamaulipas, Guerrero, Colima, sud du Michoacán, Tijuana,
+Culiacán… en rouge ; bande frontalière, Basse-Californie, Chihuahua, Sinaloa… en orange) ; Colombie (frontières, Arauca,
+Catatumbo, Chocó, Cauca, Nariño, Putumayo en rouge) ; Honduras orange sauf îles de la Baie, Valle et Copán ; Équateur,
+Pérou (VRAEM), Brésil (frontière vénézuélienne rouge, bandes frontalières orange), Bolivie, Paraguay, Panama (Darién),
+Nicaragua (Bluefields), Jamaïque (Spanish Town), Trinité-et-Tobago. États-Unis, Canada, Argentine, Chili, Uruguay et la
+plupart des Petites Antilles : aucune zone rouge ou orange.
+
 ## Zones à tension et frontières (septembre 2026)
 
 **Changement de règle, à la demande de l'utilisateur : les règles politiques ne ferment plus aucune
@@ -1552,7 +1603,7 @@ ouverte ET hors des zones formellement déconseillées par France Diplomatie. D�
   « non retenues » gardent leurs constats (état réel des postes, sources), mais ces frontières sont
   aujourd'hui ouvertes dans le modèle.
 - **Zones à tension** (`TENSION_ZONES`, public/js/trip-data.js, construit par
-  `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **294 règles pour 79 pays**,
+  `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **359 règles pour 94 pays**,
   relevées sur les fiches « Sécurité » de France Diplomatie (mises à jour du 15 septembre 2026) — zones
   **rouges** (« formellement déconseillé ») et **orange** (« déconseillé sauf raison impérative »), le jaune
   étant ignoré. Découpage au plus juste : pays entier quand il est tout rouge (Russie, Ukraine,
@@ -1564,7 +1615,7 @@ ouverte ET hors des zones formellement déconseillées par France Diplomatie. D�
   possible : les étapes sont alors cherchées hors zone, plus loin si nécessaire. Si seul le filtre rend le
   tirage impossible, un message dédié le dit (`tensionBlocked`).
 - **Avertissement** : toute étape en zone rouge ou orange, et le point de départ lui-même, affichent un
-  bandeau « Sécurité » coloré, traduit dans les 143 langues, avec un lien vers la fiche officielle.
+  bandeau « Sécurité » coloré, traduit dans les 150 langues, avec un lien vers la fiche officielle.
 
 **Approximations assumées, et écrites dans chaque règle** (champ `label`) : les fiches ne donnent presque
 jamais la largeur des bandes frontalières, estimée sur les cartes ; les limites tracées « entre deux villes »
@@ -2895,6 +2946,39 @@ leur donne de statut) ; bichelamar, chuuk, pohnpei, kosrae, maori des îles Cook
 sans orthographe fixée). Le drapeau Tino Rangatiratanga (`maori.svg` de circle-flags) n'est pas un drapeau d'État :
 non utilisé.
 
+### Amériques : sept langues ajoutées (septembre 2026)
+
+**150 langues au total.** Même double critère (statut légal ET orthographe fixée par un texte ou une autorité publique),
+et même exigence de traduction utilisable (seuil de fiabilité ~55 % estimé par le traducteur, comme pour le yi) :
+- **Hawaïen** (`haw`, drapeau d'**Hawaï**) — Constitution d'Hawaï, art. XV §4 ; ʻokina et kahakō (loi HRS §1-13.5). ~60 %.
+- **Créole haïtien** (`ht`, **Haïti**) — Constitution de 1987, art. 5 ; orthographe officielle (décret du 31 janvier 1980),
+  Akademi Kreyòl Ayisyen. ~75 %.
+- **Papiamento d'Aruba** (`pap-AW`, **Aruba**) — AB 2003 n° 38 ; orthographe étymologique (AB 2018 n° 68). ~58 %.
+- **Papiamentu de Curaçao** (`pap-CW`, **Curaçao**) — P.B. 2007 n° 39 ; orthographe phonologique de la Fundashon pa
+  Planifikashon di Idioma (2008), aussi en usage à Bonaire. ~65 %. Les deux orthographes étant officiellement différentes,
+  ce sont deux langues d'interface ; un navigateur réglé sur « pap » reçoit celle de Curaçao, « pap-AW » celle d'Aruba.
+- **Quechua du Sud** (`qu`, **Pérou**) — Constitution art. 48, loi 29735 ; alphabet officiel RM 1218-85-ED (1985), commun
+  avec la Bolivie (DS 20227, 1984). ~60 %.
+- **Kichwa d'Équateur** (`qu-EC`, **Équateur**) — Constitution de 2008, art. 2 ; alphabet unifié (Acuerdo Ministerial 244,
+  2004). ~55 %.
+- **Guarani** (`gn`, **Paraguay**) — Constitution de 1992, art. 140 ; Academia de la Lengua Guaraní (loi 4251/2010),
+  alphabet 2015 et règles d'orthographe 2016. ~60 %.
+
+Toutes les traductions sont à faire relire par des locuteurs natifs.
+
+**Retenues selon le critère mais NON ajoutées, faute de traduction utilisable** : groenlandais (~35-40 %), maya yucatèque
+(~45 %), aymara (~45 %), k'iche', kaqchikel et q'eqchi' (20-40 %) ; et, sans tentative de traduction, les 16 autres langues
+du Mexique dotées d'une norme d'écriture de l'INALI (tseltal, tsotsil, ch'ol, otomí…), les 18 autres langues mayas du
+Guatemala (alphabets de l'ALMG, 1987), 9 langues du Venezuela (Ley de Idiomas Indígenas 2008 ; Resolución 83 de 1982) et
+les langues amazoniennes du Pérou (alphabets officialisés en 2015). À reprendre avec des traducteurs humains.
+
+**Avec réserve ou écartées** : inuktitut et inuinnaqtun (Nunavut : orthographe fixée par un organisme non public),
+langues des Territoires du Nord-Ouest, de l'Alaska, navajo, cherokee, mi'kmaw (orthographe sans acte), langues de Panama
+(simplement « reconnues »), shuar et rapa nui (alphabet non prouvé par un acte), langues de Bolivie autres que quechua et
+aymara (alphabets non vérifiés un par un) ; lakota, langues du Nicaragua, sranan tongo, créole de San Andrés, nheengatu
+et langues co-officielles municipales du Brésil, langues du Chaco argentin, mapudungun (statut ou orthographe manquant) ;
+kriol bélizien, patwa jamaïcain, kwéyòl de Dominique et de Sainte-Lucie (aucun statut).
+
 ## Démarrer en local
 
 ```bash
@@ -3931,6 +4015,40 @@ Frioul…) restent continentales.
   deux mois minimum), Marie-Galante et les Saintes (plus de transport de véhicules publié), îles Loyauté et îles
   Sous-le-Vent (passagers seulement ou pas de grille véhicules), Tahiti ↔ Moorea par Tauati (une seule liaison par
   paire : Aremiti retenue).
+
+### Amériques : 162 liaisons (septembre 2026)
+
+**Masses terrestres** (`scripts/iles/iles-nord.js`, `iles-centre.js`, `iles-caraibes.js`, `iles-sud-amerique.js`) : clés
+partagées `northAmerica` (du Canada et de l'Alaska au Panama), `southAmerica` (de la Colombie à la Patagonie ; le bouchon
+du Darién sépare les deux), `hispaniola`, `tierraDelFuego`, `saintMartinFR` (Sint Maarten rejoint la partie française).
+Au-delà des îles, les **zones sans route** sont des masses à part : Hawaï (une par île), localités d'Alaska hors réseau
+(Juneau, Ketchikan, Sitka, Kodiak, Nome, Bethel…), Nunavut, Nunavik, nord du Manitoba et des Territoires du Nord-Ouest,
+toutes les localités du Groenland, Leticia–Tabatinga, Iquitos et l'Amazonie péruvienne, colombienne et brésilienne sans
+route (Parintins, Tefé…), côte pacifique et Chocó colombiens, Mosquitia hondurienne, Darién panaméen au-delà de Yaviza,
+Galápagos (une par île). **La Guyane française n'est pas reliée au reste du continent** : avec l'Amapá brésilien (pont de
+l'Oyapock), elle forme la masse `guyane`, qu'aucune route ne relie au Pará ni au Suriname.
+
+**Liaisons à grille officielle** (exemples) : BC Ferries (33 lignes, dont Tsawwassen ↔ Swartz Bay), Marine Atlantic (North
+Sydney ↔ Port aux Basques), SPM Ferries (Fortune ↔ Saint-Pierre, 75 € la voiture), CTMA (Îles-de-la-Madeleine), traversiers
+de Terre-Neuve, du Nouveau-Brunswick, de Nouvelle-Écosse et de l'Ontario (Wolfe Island gratuit), Steamship Authority
+(Martha's Vineyard, Nantucket), Maine State Ferry Service, Washington State Ferries, Hatteras ↔ Ocracoke (gratuit), îles
+des Grands Lacs ; Transcaribe (Calica ↔ Cozumel), UltraCarga (Punta Sam ↔ Isla Mujeres), Ferry Bocas (Almirante ↔ Isla
+Colón) ; Ferries del Caribe (Santo Domingo ↔ San Juan), TTIT (Port of Spain ↔ Scarborough), Love City Car Ferries (Red Hook
+↔ Cruz Bay), Bequia Express (Grenadines) ; Transmarchilay (Pargua ↔ Chacao), TABSA (Punta Delgada ↔ Bahía Azul), Caleta La
+Arena ↔ Caleta Puelche, bacs gratuits de la Carretera Austral, New Haven ↔ Port Howard (Malouines), Conferry (Puerto La Cruz
+↔ Margarita), DER-SP (São Sebastião ↔ Ilhabela), Henvil (Marajó).
+**Sans tarif fixe lisible** (`unknown`) : Alaska Marine Highway (27 lignes, prix au moteur de réservation), Relais Nordik
+(Anticosti, Basse-Côte-Nord), Sea Bridge (Saint-Kitts ↔ Nevis), Tyrrel Bay Express (Carriacou), Batabanó ↔ Nueva Gerona
+(Cuba), La Ceiba ↔ Roatán, San Jorge ↔ Ometepe, Dalcahue ↔ Quinchao, Saint-Laurent-du-Maroni ↔ Albina (reprise partielle
+en juillet 2026), bacs du Guyana (Moleson Creek ↔ South Drain, Parika ↔ Supenaam, Kurupukari…).
+**Sans liaison** : Bahamas (véhicules sur cargos sans passagers), Caïmans, Turques-et-Caïques, Culebra (véhicules des
+résidents), Saint-Croix, îles ABC, Galápagos, San Andrés, île de Pâques, Groenland (Arctic Umiaq Line : passagers), Hawaï
+(aucun ferry pour voitures entre îles), Catalina et Mackinac (voitures interdites), Iquitos et Amazonie (barges de fret).
+
+**Correction du moteur faite en chemin** : pour les pays ajoutés depuis 2025, deux pays devaient être déclarés
+frontaliers (`ADJACENT_PAIRS`) pour qu'un trajet passe de l'un à l'autre, **même par ferry** : Busan ↔ Shimonoseki
+(Corée ↔ Japon) n'était donc jamais proposé. Une liaison ferry entre deux masses terrestres suffit désormais ; la liste
+des frontières ne vaut plus que pour la route.
 
 ## Export PDF
 

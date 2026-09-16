@@ -1,0 +1,47 @@
+ru;Велчман-Холл;Welchman Hall
+ar;ويلتشمان هول;Welchman Hall
+hi;वेलचमैन हॉल;Welchman Hall
+ja;ウェルチマンホール;Welchman Hall
+ru;Крейн;Crane
+ar;كرين;Crane
+hi;क्रेन;Crane
+ja;クレーン;Crane
+ru;Спейтстаун;Speightstown
+ar;سبايتستاون;Speightstown
+hi;स्पेइट्सटाउन;Speightstown
+ja;スペイツタウン;Speightstown
+ru;Ойстинс;Oistins
+ar;أويستنز;Oistins
+hi;ओइस्टिंस;Oistins
+ja;オイスティンス;Oistins
+ru;Холтаун;Holetown
+ar;هولتاون;Holetown
+hi;होलटाउन;Holetown
+ja;ホールタウン;Holetown
+ar;غرينلاند;Greenland
+ru;Гринленд;Greenland
+es;Groenlandia;Greenland
+fr;Groenland;Greenland
+hi;ग्रीनलैंड;Greenland
+de;Grönland;Greenland
+ja;グリーンランド;Greenland
+pt;Groenlândia;Greenland
+ru;Фор Кросс Роадс;Four Cross Roads
+ar;فور كروس رودز;Four Cross Roads
+hi;फोर क्रॉस रोड्स;Four Cross Roads
+ja;フォークロスロード;Four Cross Roads
+ru;Чекер Холл;Checker Hall
+ar;تشيكر هول;Checker Hall
+hi;चेकर हॉल;Checker Hall
+ja;チェッカーホール;Checker Hall
+ar;بريدج تاون;Bridgetown
+ja;ブリッジタウン;Bridgetown
+ko;브리지타운;Bridgetown
+ru;Бриджтаун;Bridgetown
+ja;ベルプレーン;Belleplaine
+zh;贝尔普兰;Belleplaine
+ru;Батшеба;Bathsheba
+ar;باثشيبا;Bathsheba
+hi;बाथशेबा;Bathsheba
+ja;バスシーバ;Bathsheba
+en;The Gap;Saint Lawrence Gap

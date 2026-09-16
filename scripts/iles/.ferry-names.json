@@ -1268,6 +1268,70 @@
   "name": "Kasnäs ↔ Rosala/Hitis"
  },
  {
+  "routeKey": "santoDomingoSanJuan",
+  "name": "Santo Domingo ↔ San Juan"
+ },
+ {
+  "routeKey": "portOfSpainScarborough",
+  "name": "Port of Spain ↔ Scarborough"
+ },
+ {
+  "routeKey": "redHookCruzBay",
+  "name": "Red Hook ↔ Cruz Bay"
+ },
+ {
+  "routeKey": "majorsBayCadesBay",
+  "name": "Major's Bay ↔ Cades Bay"
+ },
+ {
+  "routeKey": "stGeorgesTyrrelBay",
+  "name": "St. George's ↔ Tyrrel Bay"
+ },
+ {
+  "routeKey": "kingstownPortElizabeth",
+  "name": "Kingstown ↔ Port Elizabeth"
+ },
+ {
+  "routeKey": "kingstownCanouan",
+  "name": "Kingstown ↔ Canouan"
+ },
+ {
+  "routeKey": "canouanMayreau",
+  "name": "Canouan ↔ Mayreau"
+ },
+ {
+  "routeKey": "mayreauUnionIsland",
+  "name": "Mayreau ↔ Clifton (Union Island)"
+ },
+ {
+  "routeKey": "kingstownUnionIsland",
+  "name": "Kingstown ↔ Clifton (Union Island)"
+ },
+ {
+  "routeKey": "batabanoNuevaGerona",
+  "name": "Surgidero de Batabanó ↔ Nueva Gerona"
+ },
+ {
+  "routeKey": "calicaCozumel",
+  "name": "Calica (Punta Venado) ↔ Cozumel"
+ },
+ {
+  "routeKey": "puntaSamIslaMujeres",
+  "name": "Punta Sam ↔ Isla Mujeres"
+ },
+ {
+  "routeKey": "laCeibaRoatan",
+  "name": "La Ceiba ↔ Roatán"
+ },
+ {
+  "routeKey": "sanJorgeMoyogalpa",
+  "name": "San Jorge ↔ Moyogalpa"
+ },
+ {
+  "routeKey": "almiranteIslaColon",
+  "name": "Almirante ↔ Bocas del Toro (Isla Colón)"
+ },
+ {
   "routeKey": "sfaxSidiYoussef",
   "name": "Sfax ↔ Sidi Youssef (Kerkennah)"
  },
@@ -1604,6 +1668,510 @@
   "name": "Avşa ↔ Ekinlik"
  },
  {
+  "routeKey": "hainesJuneau",
+  "name": "Haines ↔ Juneau (Auke Bay)"
+ },
+ {
+  "routeKey": "bellinghamKetchikan",
+  "name": "Bellingham ↔ Ketchikan"
+ },
+ {
+  "routeKey": "ketchikanAnnetteBay",
+  "name": "Ketchikan ↔ Annette Bay (Metlakatla)"
+ },
+ {
+  "routeKey": "ketchikanHollis",
+  "name": "Ketchikan ↔ Hollis"
+ },
+ {
+  "routeKey": "ketchikanWrangell",
+  "name": "Ketchikan ↔ Wrangell"
+ },
+ {
+  "routeKey": "wrangellJuneau",
+  "name": "Wrangell ↔ Juneau (via Petersburg)"
+ },
+ {
+  "routeKey": "juneauSitka",
+  "name": "Juneau ↔ Sitka"
+ },
+ {
+  "routeKey": "juneauHoonah",
+  "name": "Juneau ↔ Hoonah"
+ },
+ {
+  "routeKey": "juneauGustavus",
+  "name": "Juneau ↔ Gustavus"
+ },
+ {
+  "routeKey": "juneauAngoon",
+  "name": "Juneau ↔ Angoon"
+ },
+ {
+  "routeKey": "juneauKake",
+  "name": "Juneau ↔ Kake"
+ },
+ {
+  "routeKey": "juneauTenakee",
+  "name": "Juneau ↔ Tenakee Springs"
+ },
+ {
+  "routeKey": "juneauPelican",
+  "name": "Juneau ↔ Pelican"
+ },
+ {
+  "routeKey": "whittierCordova",
+  "name": "Whittier ↔ Cordova"
+ },
+ {
+  "routeKey": "valdezTatitlek",
+  "name": "Valdez ↔ Tatitlek"
+ },
+ {
+  "routeKey": "homerSeldovia",
+  "name": "Homer ↔ Seldovia"
+ },
+ {
+  "routeKey": "homerKodiak",
+  "name": "Homer ↔ Kodiak"
+ },
+ {
+  "routeKey": "kodiakPortLions",
+  "name": "Kodiak ↔ Port Lions"
+ },
+ {
+  "routeKey": "kodiakOuzinkie",
+  "name": "Kodiak ↔ Ouzinkie"
+ },
+ {
+  "routeKey": "kodiakOldHarbor",
+  "name": "Kodiak ↔ Old Harbor"
+ },
+ {
+  "routeKey": "kodiakChignik",
+  "name": "Kodiak ↔ Chignik"
+ },
+ {
+  "routeKey": "chignikSandPoint",
+  "name": "Chignik ↔ Sand Point"
+ },
+ {
+  "routeKey": "sandPointKingCove",
+  "name": "Sand Point ↔ King Cove"
+ },
+ {
+  "routeKey": "kingCoveColdBay",
+  "name": "King Cove ↔ Cold Bay"
+ },
+ {
+  "routeKey": "coldBayFalsePass",
+  "name": "Cold Bay ↔ False Pass"
+ },
+ {
+  "routeKey": "falsePassAkutan",
+  "name": "False Pass ↔ Akutan"
+ },
+ {
+  "routeKey": "akutanDutchHarbor",
+  "name": "Akutan ↔ Dutch Harbor"
+ },
+ {
+  "routeKey": "anacortesFridayHarbor",
+  "name": "Anacortes ↔ Friday Harbor"
+ },
+ {
+  "routeKey": "anacortesOrcas",
+  "name": "Anacortes ↔ Orcas Island"
+ },
+ {
+  "routeKey": "anacortesShaw",
+  "name": "Anacortes ↔ Shaw Island"
+ },
+ {
+  "routeKey": "anacortesLopez",
+  "name": "Anacortes ↔ Lopez Island"
+ },
+ {
+  "routeKey": "fauntleroyVashon",
+  "name": "Fauntleroy ↔ Vashon Island"
+ },
+ {
+  "routeKey": "anacortesGuemes",
+  "name": "Anacortes ↔ Guemes Island"
+ },
+ {
+  "routeKey": "gooseberryPointLummi",
+  "name": "Gooseberry Point ↔ Lummi Island"
+ },
+ {
+  "routeKey": "steilacoomAnderson",
+  "name": "Steilacoom ↔ Anderson Island"
+ },
+ {
+  "routeKey": "steilacoomKetron",
+  "name": "Steilacoom ↔ Ketron Island"
+ },
+ {
+  "routeKey": "charlevoixBeaverIsland",
+  "name": "Charlevoix ↔ Saint James (Beaver Island)"
+ },
+ {
+  "routeKey": "cheboyganBoisBlanc",
+  "name": "Cheboygan ↔ Bois Blanc Island"
+ },
+ {
+  "routeKey": "deTourDrummond",
+  "name": "De Tour Village ↔ Drummond Island"
+ },
+ {
+  "routeKey": "saultSugarIsland",
+  "name": "Sault Ste. Marie ↔ Sugar Island"
+ },
+ {
+  "routeKey": "algonacHarsens",
+  "name": "Algonac ↔ Harsens Island"
+ },
+ {
+  "routeKey": "northportWashingtonIsland",
+  "name": "Northport ↔ Washington Island (Detroit Harbor)"
+ },
+ {
+  "routeKey": "bayfieldLaPointe",
+  "name": "Bayfield ↔ La Pointe (Madeline Island)"
+ },
+ {
+  "routeKey": "catawbaPutInBay",
+  "name": "Catawba ↔ Put-in-Bay (South Bass Island)"
+ },
+ {
+  "routeKey": "catawbaMiddleBass",
+  "name": "Catawba ↔ Middle Bass Island"
+ },
+ {
+  "routeKey": "marbleheadKelleys",
+  "name": "Marblehead ↔ Kelleys Island"
+ },
+ {
+  "routeKey": "woodsHoleVineyardHaven",
+  "name": "Woods Hole ↔ Vineyard Haven"
+ },
+ {
+  "routeKey": "hyannisNantucket",
+  "name": "Hyannis ↔ Nantucket"
+ },
+ {
+  "routeKey": "edgartownChappaquiddick",
+  "name": "Edgartown ↔ Chappaquiddick"
+ },
+ {
+  "routeKey": "pointJudithBlockIsland",
+  "name": "Point Judith ↔ Block Island (Old Harbor)"
+ },
+ {
+  "routeKey": "newLondonFishersIsland",
+  "name": "New London ↔ Fishers Island"
+ },
+ {
+  "routeKey": "greenportShelterIsland",
+  "name": "Greenport ↔ Shelter Island"
+ },
+ {
+  "routeKey": "bristolPrudence",
+  "name": "Bristol ↔ Prudence Island"
+ },
+ {
+  "routeKey": "portlandPeaksIsland",
+  "name": "Portland ↔ Peaks Island"
+ },
+ {
+  "routeKey": "portlandLongIslandMaine",
+  "name": "Portland ↔ Long Island (Casco Bay)"
+ },
+ {
+  "routeKey": "portlandChebeague",
+  "name": "Portland ↔ Chebeague Island"
+ },
+ {
+  "routeKey": "portlandCliffIsland",
+  "name": "Portland ↔ Cliff Island"
+ },
+ {
+  "routeKey": "portlandGreatDiamond",
+  "name": "Portland ↔ Great Diamond Island"
+ },
+ {
+  "routeKey": "rocklandVinalhaven",
+  "name": "Rockland ↔ Vinalhaven"
+ },
+ {
+  "routeKey": "rocklandNorthHaven",
+  "name": "Rockland ↔ North Haven"
+ },
+ {
+  "routeKey": "lincolnvilleIslesboro",
+  "name": "Lincolnville ↔ Islesboro"
+ },
+ {
+  "routeKey": "bassHarborSwansIsland",
+  "name": "Bass Harbor ↔ Swan's Island"
+ },
+ {
+  "routeKey": "bassHarborFrenchboro",
+  "name": "Bass Harbor ↔ Frenchboro"
+ },
+ {
+  "routeKey": "rocklandMatinicus",
+  "name": "Rockland ↔ Matinicus"
+ },
+ {
+  "routeKey": "hatterasOcracoke",
+  "name": "Hatteras ↔ Ocracoke"
+ },
+ {
+  "routeKey": "northSydneyPortAuxBasques",
+  "name": "North Sydney ↔ Channel-Port aux Basques"
+ },
+ {
+  "routeKey": "fortuneSaintPierre",
+  "name": "Fortune ↔ Saint-Pierre"
+ },
+ {
+  "routeKey": "portugalCoveBellIsland",
+  "name": "Portugal Cove ↔ Bell Island"
+ },
+ {
+  "routeKey": "farewellFogoIsland",
+  "name": "Farewell ↔ Fogo Island"
+ },
+ {
+  "routeKey": "farewellChangeIslands",
+  "name": "Farewell ↔ Change Islands"
+ },
+ {
+  "routeKey": "pilleysIslandLongIsland",
+  "name": "Pilley's Island ↔ Long Island (Lushes Bight)"
+ },
+ {
+  "routeKey": "burnsideStBrendans",
+  "name": "Burnside ↔ St. Brendan's"
+ },
+ {
+  "routeKey": "burgeoRamea",
+  "name": "Burgeo ↔ Ramea"
+ },
+ {
+  "routeKey": "gooseBayRigolet",
+  "name": "Happy Valley-Goose Bay ↔ Rigolet"
+ },
+ {
+  "routeKey": "rigoletMakkovik",
+  "name": "Rigolet ↔ Makkovik"
+ },
+ {
+  "routeKey": "makkovikPostville",
+  "name": "Makkovik ↔ Postville"
+ },
+ {
+  "routeKey": "makkovikHopedale",
+  "name": "Makkovik ↔ Hopedale"
+ },
+ {
+  "routeKey": "hopedaleNatuashish",
+  "name": "Hopedale ↔ Natuashish"
+ },
+ {
+  "routeKey": "natuashishNain",
+  "name": "Natuashish ↔ Nain"
+ },
+ {
+  "routeKey": "blacksHarbourGrandManan",
+  "name": "Blacks Harbour ↔ North Head (Grand Manan)"
+ },
+ {
+  "routeKey": "ingallsHeadWhiteHead",
+  "name": "Ingalls Head ↔ White Head Island"
+ },
+ {
+  "routeKey": "leteteDeerIsland",
+  "name": "Letete ↔ Deer Island"
+ },
+ {
+  "routeKey": "eastFerryTiverton",
+  "name": "East Ferry ↔ Tiverton"
+ },
+ {
+  "routeKey": "freeportWestport",
+  "name": "Freeport ↔ Westport"
+ },
+ {
+  "routeKey": "sourisCapAuxMeules",
+  "name": "Souris ↔ Cap-aux-Meules"
+ },
+ {
+  "routeKey": "montmagnyIsleAuxGrues",
+  "name": "Montmagny ↔ L'Isle-aux-Grues"
+ },
+ {
+  "routeKey": "havreSaintPierrePortMenier",
+  "name": "Havre-Saint-Pierre ↔ Port-Menier"
+ },
+ {
+  "routeKey": "kegaskaLaRomaine",
+  "name": "Kegaska ↔ La Romaine"
+ },
+ {
+  "routeKey": "teteALaBaleineLaTabatiere",
+  "name": "Tête-à-la-Baleine ↔ La Tabatière"
+ },
+ {
+  "routeKey": "laTabatiereBlancSablon",
+  "name": "La Tabatière ↔ Blanc-Sablon"
+ },
+ {
+  "routeKey": "saintAugustinBlancSablon",
+  "name": "Saint-Augustin ↔ Blanc-Sablon"
+ },
+ {
+  "routeKey": "kingstonWolfeIsland",
+  "name": "Kingston ↔ Marysville (Wolfe Island)"
+ },
+ {
+  "routeKey": "wolfeIslandSimcoeIsland",
+  "name": "Wolfe Island ↔ Simcoe Island"
+ },
+ {
+  "routeKey": "millhavenAmherstIsland",
+  "name": "Millhaven ↔ Stella (Amherst Island)"
+ },
+ {
+  "routeKey": "leamingtonPeleeIsland",
+  "name": "Leamington ↔ Pelee Island"
+ },
+ {
+  "routeKey": "tsawwassenSwartzBay",
+  "name": "Tsawwassen ↔ Swartz Bay"
+ },
+ {
+  "routeKey": "horseshoeBayLangdale",
+  "name": "Horseshoe Bay ↔ Langdale"
+ },
+ {
+  "routeKey": "horseshoeBaySnugCove",
+  "name": "Horseshoe Bay ↔ Snug Cove (Bowen Island)"
+ },
+ {
+  "routeKey": "earlsCoveSalteryBay",
+  "name": "Earls Cove ↔ Saltery Bay"
+ },
+ {
+  "routeKey": "comoxPowellRiver",
+  "name": "Comox (Little River) ↔ Powell River (Westview)"
+ },
+ {
+  "routeKey": "powellRiverBlubberBay",
+  "name": "Powell River ↔ Blubber Bay (Texada)"
+ },
+ {
+  "routeKey": "croftonVesuvius",
+  "name": "Crofton ↔ Vesuvius Bay (Salt Spring)"
+ },
+ {
+  "routeKey": "tsawwassenLongHarbour",
+  "name": "Tsawwassen ↔ Long Harbour (Salt Spring)"
+ },
+ {
+  "routeKey": "tsawwassenOtterBay",
+  "name": "Tsawwassen ↔ Otter Bay (Pender Island)"
+ },
+ {
+  "routeKey": "tsawwassenVillageBay",
+  "name": "Tsawwassen ↔ Village Bay (Mayne Island)"
+ },
+ {
+  "routeKey": "tsawwassenSturdiesBay",
+  "name": "Tsawwassen ↔ Sturdies Bay (Galiano Island)"
+ },
+ {
+  "routeKey": "swartzBayOtterBay",
+  "name": "Swartz Bay ↔ Otter Bay (Pender Island)"
+ },
+ {
+  "routeKey": "swartzBayVillageBay",
+  "name": "Swartz Bay ↔ Village Bay (Mayne Island)"
+ },
+ {
+  "routeKey": "swartzBaySturdiesBay",
+  "name": "Swartz Bay ↔ Sturdies Bay (Galiano Island)"
+ },
+ {
+  "routeKey": "swartzBayLyallHarbour",
+  "name": "Swartz Bay ↔ Lyall Harbour (Saturna Island)"
+ },
+ {
+  "routeKey": "chemainusThetis",
+  "name": "Chemainus ↔ Thetis Island"
+ },
+ {
+  "routeKey": "nanaimoHarbourDescansoBay",
+  "name": "Nanaimo Harbour ↔ Descanso Bay (Gabriola)"
+ },
+ {
+  "routeKey": "buckleyBayDenman",
+  "name": "Buckley Bay ↔ Denman Island"
+ },
+ {
+  "routeKey": "gravellyBayShingleSpit",
+  "name": "Gravelly Bay (Denman) ↔ Shingle Spit (Hornby)"
+ },
+ {
+  "routeKey": "campbellRiverQuathiaskiCove",
+  "name": "Campbell River ↔ Quathiaski Cove (Quadra)"
+ },
+ {
+  "routeKey": "heriotBayWhaletown",
+  "name": "Heriot Bay (Quadra) ↔ Whaletown (Cortes)"
+ },
+ {
+  "routeKey": "portMcNeillSointula",
+  "name": "Port McNeill ↔ Sointula (Malcolm Island)"
+ },
+ {
+  "routeKey": "portMcNeillAlertBay",
+  "name": "Port McNeill ↔ Alert Bay (Cormorant Island)"
+ },
+ {
+  "routeKey": "princeRupertSkidegate",
+  "name": "Prince Rupert ↔ Skidegate"
+ },
+ {
+  "routeKey": "skidegateAllifordBay",
+  "name": "Skidegate ↔ Alliford Bay"
+ },
+ {
+  "routeKey": "portHardyBellaBella",
+  "name": "Port Hardy ↔ Bella Bella (McLoughlin Bay)"
+ },
+ {
+  "routeKey": "bellaCoolaBellaBella",
+  "name": "Bella Coola ↔ Bella Bella"
+ },
+ {
+  "routeKey": "bellaCoolaShearwater",
+  "name": "Bella Coola ↔ Shearwater"
+ },
+ {
+  "routeKey": "bellaCoolaKlemtu",
+  "name": "Bella Coola ↔ Klemtu"
+ },
+ {
+  "routeKey": "bellaCoolaOceanFalls",
+  "name": "Bella Coola ↔ Ocean Falls"
+ },
+ {
+  "routeKey": "bellaBellaShearwater",
+  "name": "Bella Bella (McLoughlin Bay) ↔ Shearwater"
+ },
+ {
   "routeKey": "mulifanuaSalelologa",
   "name": "Mulifanua ↔ Salelologa"
  },
@@ -1666,6 +2234,86 @@
  {
   "routeKey": "balingoanBenoni",
   "name": "Balingoan ↔ Benoni (Camiguin)"
+ },
+ {
+  "routeKey": "parguaChacao",
+  "name": "Pargua ↔ Chacao"
+ },
+ {
+  "routeKey": "dalcahueQuinchao",
+  "name": "Dalcahue ↔ Isla Quinchao"
+ },
+ {
+  "routeKey": "huichaChulchuy",
+  "name": "Huicha ↔ Chulchuy"
+ },
+ {
+  "routeKey": "laArenaPuelche",
+  "name": "Caleta La Arena ↔ Caleta Puelche"
+ },
+ {
+  "routeKey": "puertoYungayRioBravo",
+  "name": "Puerto Yungay ↔ Río Bravo"
+ },
+ {
+  "routeKey": "puntaDelgadaBahiaAzul",
+  "name": "Punta Delgada ↔ Bahía Azul"
+ },
+ {
+  "routeKey": "puntaArenasPuertoWilliams",
+  "name": "Punta Arenas ↔ Puerto Williams"
+ },
+ {
+  "routeKey": "newHavenPortHoward",
+  "name": "New Haven ↔ Port Howard"
+ },
+ {
+  "routeKey": "puertoLaCruzPuntaDePiedras",
+  "name": "Puerto La Cruz ↔ Punta de Piedras"
+ },
+ {
+  "routeKey": "saintLaurentAlbina",
+  "name": "Saint-Laurent-du-Maroni ↔ Albina"
+ },
+ {
+  "routeKey": "molesonCreekSouthDrain",
+  "name": "Moleson Creek ↔ South Drain"
+ },
+ {
+  "routeKey": "kurupukariCrossing",
+  "name": "Kurupukari ↔ Iwokrama"
+ },
+ {
+  "routeKey": "parikaSupenaam",
+  "name": "Parika ↔ Supenaam"
+ },
+ {
+  "routeKey": "parikaLeguan",
+  "name": "Parika ↔ Leguan"
+ },
+ {
+  "routeKey": "parikaWakenaam",
+  "name": "Parika ↔ Wakenaam"
+ },
+ {
+  "routeKey": "parikaBartica",
+  "name": "Parika ↔ Bartica"
+ },
+ {
+  "routeKey": "saoSebastiaoIlhabela",
+  "name": "São Sebastião ↔ Ilhabela"
+ },
+ {
+  "routeKey": "icoaraciCamara",
+  "name": "Icoaraci ↔ Camará"
+ },
+ {
+  "routeKey": "salvaterraSoure",
+  "name": "Salvaterra ↔ Soure"
+ },
+ {
+  "routeKey": "travessiaCachoeiraDoArari",
+  "name": "Camará ↔ Cachoeira do Arari"
  },
  {
   "routeKey": "agaeteSantaCruzTenerife",

@@ -1,0 +1,820 @@
+es;Zarzal;El Pinalito
+es;El Zapote del Bálsamo;Zapote del Bálsamo
+ru;Сакулеу;Zaculeu
+ru;Сакапа;Zacapa
+es;Yuxquén;Yuxquén El Aguacate
+es;Yohoa;Yojoa
+es;Yocón;Yacón
+es;Yiquiche Canan;Yaquiché Canau
+es;El Calvario Yaxjá;El Calvario Yaxhá
+es;Coxom;Xocom
+es;Xepiacual;Xepiacul
+es;San José Xepatán;Xepatán
+es;Xepanil;Paxepanil
+es;Xejolóm;Xejolón
+es;Xeatzán Bajo;Xeatzán
+es;Volcán;El Volcán
+es;El Volcán;Volcán
+ru;Вилья-Нуэва;Villa Nueva
+zh;比亞努埃瓦;Villa Nueva
+ru;Вилья Каналес;Villa Canales
+es;Villa Angela;Villa Ángela
+es;Ventana Abaj Uno;Ventana Abaj
+es;Ventana Abaj 01;Ventana Abaj
+es;Valle Los Portillos;Valle de Los Portillo
+es;Valle Arriba;Barrio Arriba
+es;Tzumalzatz;Tzimatzatz
+es;Tzanatzán;Montecristo
+es;Tuiloplatzán;Lublatzán
+ru;Тотоникапан;Totonicapán
+es;Tutzul Ocula;Tonzul Ucalá
+es;Terrero;Tobar
+es;Terrero;Terrera
+es;Teninquín;Teninquim
+es;Tecamapa;Tecomapa
+es;Tamaja;Tameja
+es;Tamagás Creek;Tamagás
+es;Tablón del Ocotal;Tablón del Ocatal
+es;Secum;Sucum
+es;Ixcamán;Sonté
+ru;Солома;Soloma
+ru;Солола;Sololá
+es;Simajutio;Simajutiu
+ru;Сибинал;Sibinal
+es;Shishín;Shinshín
+es;Cooperativa Quetzalito;Sesuchaj
+es;Secemilito;Sesesmilito
+es;Saquiquib;Sequiquib
+es;Seneca Milla 38;Seneca
+es;Seneca Milla Treinta y Ocho;Seneca
+es;Sejalauté;Selauté
+es;Seguachil;Saguachil
+es;Sevilá;Sebilá
+es;Serranx;Searranx
+es;Santo Domingo Cunixpuy;San Antonio Cunixpur
+es;Finca Santo Domingo;Santo Domingo Mertón
+es;Santo Domingo Cancuén;Santo Domingo
+es;Los Planes Santa Rosa;Santa Rosa
+es;Santa Rosita;Santa Rosa
+ru;Санта Лучиа Котзумалгуапа;Santa Lucía Cotzumalguapa
+es;Estación Santa Inés;Santa Inés
+ru;Санта-Крус-дель-Киче;Santa Cruz del Quiché
+es;Santa Catarina Ixtaguacán;Santa Catarina Ixtahuacán
+es;Santa Agustina Xolhuitz;Santa Agustina
+ru;Сансаре;Sansare
+es;San Rafael Tierras del Pueblo;San Rafael
+nah;San Pedro Zacatepec;San Pedro Sacatepéquez
+zh;聖佩德羅薩卡特佩克斯;San Pedro Sacatepéquez
+zh;聖馬科斯;San Marcos
+ko;산마르코스;San Marcos
+ru;Сан-Маркос;San Marcos
+es;San Lucas Choatacaj;San Lucas
+es;San Juan Tapalapa;Tapalapa
+ru;Сан Хуан Сакатепекез;San Juan Sacatepéquez
+es;San José Trapiche Grande;Finca San José Trapiche Grande
+es;San Isidro El Choco;San Isidro
+es;Nuevo Nacimiento de San Gil;Nacimiento San Gil
+es;Finca San Francisco;San Francisco
+ru;Санарате;Sanarate
+es;Hacienda San Antonio Las Pilas;San Antonio Las Pilas
+zh;聖安德雷斯;San Andrés
+es;Tablero San Mororo;Samororo
+es;Samanzana;Comunidad Samanzana
+es;Sajcap;Saccap
+es;Sacocpur;Secocpur
+es;Secareche;Secaretché
+es;Rodeo;El Rodeo
+es;Nuevo San Carlos;Río San Carlos
+es;Pichilingo;Río Pichilingo
+es;Río Cuache;Río Los Cuaches
+ru;Реталулеу;Retalhuleu
+es;El Remolino;Remolino
+es;Paquix;Raxquix
+ru;Рабинал;Rabinal
+es;Quisajché;Quisaché
+pt;Quiriguá;Quirigua
+pt;Quimalá;Quimala
+es;La Joya Quimal;Quimal
+ja;ケツァルテナンゴ;Quetzaltenango
+ru;Кесальтенанго;Quetzaltenango
+nah;Quetzaltenānco;Quetzaltenango
+ko;케트살테낭고;Quetzaltenango
+zh;克薩爾特南戈;Quetzaltenango
+es;Quebraditas;Quebradita
+zh;聖何塞港;Puerto San José
+ru;Пуэрто-Барриос;Puerto Barrios
+zh;巴里奧斯港;Puerto Barrios
+en;Pueblo Nuevo Tiquisate;Tiquisate
+es;Poza del Llano;Posa del Llano
+es;Posinicapa;Posonicapa Grande
+es;El Porvenir;Porvenir
+es;Portezuelo;Portesuelo
+pt;Las Playitas;Playitas
+es;Platanillo;Platilla
+es;Plan Grande Quegueche;Plan Grande
+es;Las Placetas;Placetas
+es;Pipil Arriba;Pipiltepeque
+es;El Pinalito;Pinalito
+es;Pesote;Pezote
+es;Peshjá;Pexjá
+ru;Петапа;Petapa
+es;Patzanes;Los Patzanes
+ru;Патулул;Patulul
+es;El Paterno;Paterno
+es;Potachaj;Patachaj
+ru;Пасторес;Pastores
+es;Patzacom;Pasacom
+es;Pasac I;Pasac
+ru;Паррамос;Parramos
+es;Paquin;Paquim
+es;Paquip;Paquib
+es;El Naranjo;Panaranjo
+es;Pancacché;Panpacché
+es;Pamezabal;Pamesabal
+es;San Juan de Palimá;Palimá
+es;Pajomil;Pajomel
+es;Pacoxpom;Pocoxpom
+es;San Marcos Pacoc;San Marcos Pacol
+es;Pacoc Grande;Pacac
+es;Pachalun;Pachalum
+es;Panchej;Pachaj
+es;Pacayalito;El Pacayalito
+es;El Olvido;Olvido
+ru;Олопа;Olopa
+es;Ojo de Agua;Panorama Ojo de Agua
+es;Ojo de Agua La Travesía;La Travesía
+es;Nimlasajal;Sesajal
+es;Nimlabajal;Sesajal
+es;Los Naranjales;Naranjales
+es;Muyurcó;Moyurcó
+ru;Моралес;Morales
+es;Monterrico;Chuipoj
+es;Monte Rico;Monterrico
+es;Montañuelas;Montañuela
+es;Mojón Panimaquito;Mojón Panimá
+es;Mocolixot Bajo;Mocolicxot Bajo
+ru;Мишко;Mixco
+es;Minas Arriba;Mina Arriba
+es;Minas Abajo;Mina Abajo
+es;Mestizo;El Mestizo
+ru;Масатенанго;Mazatenango
+es;Manacas;Manaca
+es;Mojadas;Majadas
+es;Finca Luisiana;Luisiana
+es;Los Volcansillos;Los Volcancillos
+es;Pacay;Los Tablones
+es;Las Frutillas;Los Frutillos
+es;Los Cadona;Los Cardona
+es;Los Cajones;Los Cojones
+es;Loma de Paja;Loma Paja
+es;Lo de Obrero;Lo de Orrego
+es;Creek Lo de Enmedio;Lo de Enmedio
+es;Labor La Verde;La Verde
+es;Finca La Trinidad;La Trinidad
+es;La Torera;Las Toreras
+es;Tashistal;Las Toreras
+es;Los Olivos;Las Pulgas
+es;Finca Las Palmas;Las Palmas
+es;Margaritas;Las Margaritas
+es;San José La Sierra;La Sierra
+es;Labor Las Delicias;Las Delicias
+es;Hacienda Las Conchas;Las Conchas
+es;Brisas;Las Brisas
+es;La Puerta de La Montaña;La Puerta
+es;La Puente;El Puente
+es;Hacienda La Providencia;La Providencia
+es;La Peña del Palmar;La Peña
+es;Hacienda La Parada;La Parada
+es;La Montañita;San José La Montañita
+zh;拉利伯塔德;La Libertad
+es;La Esperanza;Esperanza del Mar
+es;La Demacracia;La Democracia
+es;La Cumbre Nearar;La Cumbre
+es;San Francisco La Consulta;La Consulta
+es;La Barca;Colonia La Barca
+es;Jutiapa;Jutiapia
+ru;Хутиапа;Jutiapa
+es;Jute;El Jute
+ru;Халапа;Jalapa
+ru;Хакальтенанго;Jacaltenango
+es;Ixobel;Ixtobel
+ru;Ипала;Ipala
+es;Huixoc;Huixcoc
+es;Guijó;Huijó
+es;Las Huertas;Huertas
+ja;ウェウェテナンゴ;Huehuetenango
+ko;우에우에테낭고;Huehuetenango
+ru;Уэуэтенанго;Huehuetenango
+zh;韋韋特南戈;Huehuetenango
+es;Chuinonabaj;Guonabaj
+pt;Gualá;Gualán
+en;Gualan;Gualán
+es;Gran Cañón;El Gran Cañón
+es;Finca Gracias a Dios;Gracias a Dios
+es;Gancho de Fierro;Buena Fe
+es;Cooperativa San Luis Buena Fe;Buena Fe
+ru;Флорес;Flores
+ko;플로레스;Flores
+zh;弗洛雷斯;Flores
+es;Filo del Mecate;Fila del Mecate
+zh;埃斯基普拉斯;Esquipulas
+ja;エスクィントラ;Escuintla
+ru;Эскуинтла;Escuintla
+es;El Valle Abajo;Valle Abajo
+es;Labor El Trompillo;El Trompillo
+es;Finca El Tecomate;El Tecomate
+es;Sillón Abajo;El Sillón Abajo
+es;Finca El Rosario Canajal;El Rosario Canajal
+es;El Rosario Abajo;El Rosario
+es;El Roble;El Roblar
+es;Finca El Naranjo;El Naranjo
+es;Manantial;El Manantial
+es;Las Tareas;El Llano
+es;El Limón;Finca El Limón
+es;El Limón Yalicar;El Limón
+es;El Limar Tontoles;El Limar
+es;Hacienda El Jardín;El Jardín
+es;El Cuje;El Cujito
+es;El Chile Abajo;El Chile
+es;El Carizal;Carrizal
+es;Chapulín;El Capulín
+es;El Almendro;Finca El Almendro
+es;Don Diego Río de Paz;Don Diego
+ru;Долорес;Dolores
+es;Montaña Dakota;Dakota
+es;Cushpemech;Cuxpemech
+es;Joyas;Culebrero
+es;Cuje;El Cuje
+es;Cuesta Paxte;Cuesta del Paxte
+es;Coyotes;El Coyote
+es;Labor Covadonga;Covadonga
+es;Corral de Piedra;Corral de Piedras
+es;Concepción;Concepción Huista
+es;Cojomachaj;Cojomachoj
+es;Cajobal;Cojobal
+es;Cajcam;Cojcam
+ko;코반;Cobán
+ru;Кобан;Cobán
+zh;科萬;Cobán
+nah;Coatepec;Coatepeque
+zh;科阿特佩克;Coatepeque
+ru;Коатепеке;Coatepeque
+es;Ciudad Melchor de Mencos;Melchor de Mencos
+es;Santiago de Guatimala;Guatemala City
+es;Nueva Guatemala de la Asunción;Guatemala City
+es;Nueva Guatemala;Guatemala City
+en;New Guatemala;Guatemala City
+de;Guatemala-Stadt;Guatemala City
+es;Ciudad Guatemala;Guatemala City
+fr;Guatemala;Guatemala City
+it;Città del Guatemala;Guatemala City
+ja;グアテマラシティ;Guatemala City
+ko;과테말라 시;Guatemala City
+nl;Guatemala-stad;Guatemala City
+pt;Cidade da Guatemala;Guatemala City
+es;Ciudad de Guatemala;Guatemala City
+ar;مدينة غواتيمالا;Guatemala City
+ru;Гватемала;Guatemala City
+es;Guate;Guatemala City
+ko;과테말라시티;Guatemala City
+es;Ciracilito;Ciralcito
+es;Chuti Estancia;Chuiti Estancia
+es;Churrín;Churirín
+es;El Chupadero;Chupadero
+es;Chuisacuesán;Chirijcalual
+es;Chuiquel;Chiquel
+es;Chicacá;Chuicacá
+es;Chuchiyá;Chuiyá
+es;Los Planes de Chuchexic;Chuchexic
+es;Xuatzán San Francisco;Xuatzán
+es;Choyomche;Choyomché
+es;Choqui;Choquí
+es;Chojemula;Chojimula
+es;Chuatacaj;Choatacaj
+es;Chixpjau;Chixajau
+es;Chirijuyú;Chirinjuyú
+es;Chirijox;Chinjox
+es;Chuquistepeque;Chiquistepeque
+es;Chirristepeque;Chiquistepeque
+ru;Чикимула;Chiquimula
+ru;Чинаутла;Chinautla
+es;Chinaserranx;Chinarranx
+es;China Benque;Chinabenque
+es;Chimochuch;Chimuchuch
+es;Chimasayub;Chinasayub
+es;Aquil Chinasayub;Chinasayub
+ru;Чимальтенанго;Chimaltenango
+es;La Esperanza Chilatz;Chilatz
+es;Chivarabal;Chiguarabal
+ru;Чичикастенанго;Chichicastenango
+es;Chaquirocia;Chaquirocjá
+es;Chancolín;Victorias Chancolín
+es;Puerto Champerico;Champerico
+es;Chacalté Aparicio Número 1;Chacalté Aparicio
+es;Chacalté Aparicio Número Uno;Chacalté Aparicio
+es;Chabilchoc;Chabilchoch
+es;Cerro Colorado;San José Cerro Colorado
+es;Las Cebollas;Cebollas
+es;Caulotes;Caulote
+es;San Fernando Los Olivos;San Fernando
+es;Cachichoch;Caquichoch
+es;Las Canoas;Canoas
+es;Caníbal;Canibal
+es;Conapará;Canapará
+es;Sacampat;Campát
+es;El Oratorio;Campanario
+es;Agua Fría;Camino Real
+es;Camaché;Camache
+es;Chaperno;Buenos Aires
+es;Bojorquez;Bojorjes
+es;La Barranca;Barranca
+ru;Барберена;Barberena
+es;Aquil;Nuevo Aquil
+es;Santiago de los Caballeros de Guatemala;Antigua Guatemala
+es;Muy Noble y Muy Leal Ciudad de Santiago de los Caballeros;Antigua Guatemala
+it;Antigua;Antigua Guatemala
+nl;Antigua;Antigua Guatemala
+zh;安地瓜;Antigua Guatemala
+ru;Антигуа-Гватемала;Antigua Guatemala
+ja;アンティグア・グアテマラ;Antigua Guatemala
+nah;Huehcāuh Cuauhtēmallān;Antigua Guatemala
+ru;Антигуа-Гуатемала;Antigua Guatemala
+es;El Ahorcado;Ahorcado
+es;Agüijotes;Aguijotes
+es;Finca Aceituno;La Florida Aceituno
+es;Nuevo Mirador;Mirador
+es;La Caoba;La Caobita
+es;El Cangrejal;Cangrejal
+es;Poité;Poité Centro
+es;Frijolillo;La Unión
+es;Cruces de Chinchilla;Cruces de Chinchila
+es;Cruce de Chinchila;Cruces de Chinchila
+es;Negro Norte;Negro Norte Arriba
+es;Ciudad de Los Logos;Ciudad de Los Locos
+es;Tierra Blanca El Astillero;El Astillero
+es;Los Horcones;Horcones
+es;Ojo de Agua;El Ojo de Agua de Tía María
+es;Centro D-6;Centro D-Seis
+es;Maravilla;La Libertad
+es;Cooperativa Agrícola Pipiles;Cooperativa El Sacrificio
+es;Parcelamiento Agrario Bethania;Bethania
+es;Nuevas Ilusiones;Nuevas Iluciones
+es;Nueva Jerusalem;Nuevas Ilusiones
+es;Nuevo Paraíso;El Recuerdo
+es;San Juan;San Juan La Quince
+es;Cary;Cari
+es;La Atlántida;Atlántida
+es;El Pacayal;Las Pacayas
+es;El Arenal;San Antonio El Arenal
+es;La Esperancita del Río;Esperancita del Río
+es;Tzulutlán;Tzulutlán Uno
+es;Nuevo Paraiso;El Nuevo Paraiso
+es;Chantza;Chantzaj
+es;San Antonio Barrancas;San Antonio Las Barrancas
+es;Checambal;Checambá
+es;Tohaman;Tohamán
+es;Chiquila;Chiquilá
+es;Saquim;Sacquim
+es;Los Angeles;Los Ángeles
+es;Ojo Agua;Ojo de Agua
+es;Planes;Los Planes
+es;Los Regadíos;La Esperanza
+es;Ixcunén;San José Ixcunén
+es;El Malacate;El Campamento
+es;Finca Santa Rosa Alfaro;Santa Rosa Alfaro
+es;Finca Santa Teresa;Santa Teresa
+es;Cantarrana;La Fortuna
+es;San Isabel;Santa Isabel
+es;Santa Julia;San Julian
+es;Ranchería, Hacienda San José La Cuchilla;San Judas
+es;San José Petacalpa;San José Petacalapa
+es;Yanai;Parcelamiento Yanahí
+es;Yanahí;Parcelamiento Yanahí
+es;San José La Máquina;La Máquina
+es;Sancapech;Yulquén
+es;Chunillá;Cruce Dos Aguadas
+es;Bajo del Venado;El Bajo del Venado
+es;Bajo Venado;El Bajo del Venado
+es;Cantón Nuevo León;Nuevo León
+es;Pueblo Viejo;Jolomquém
+es;Zatlá;Satlá
+es;Sagrado Corazón;Corazón
+es;Tzulul;Tzulul Katchí
+es;El Sibal I;El Sibal
+es;Kemania;Quemane
+es;Santa Teresita la Zarca;La Zarca
+es;Alaska;Cumbre de Nahualá
+es;Chuitzanchaj;Chuitzanchal
+es;Pajomel;Pajomil
+es;Panuca;Panunca
+es;Los Churuneles II;Churuneles II
+es;La Ilusión Chuiquel;La Ilusión
+es;Santa María El Tablón;Santa María El Tumbador
+es;Churunel;Churuneles
+es;Xiquinabaj San José;San José Xiquinabaj
+es;San José Xequinabaj;San José Xiquinabaj
+es;Potrerillo;Los Potrerillos
+es;Mocoxilot Alto;Mocolicxot Alto
+es;Porvenir Chupop;El Porvenir Chipop
+es;Panimaché III del Río;Panimaché III
+es;Chirijmay;Chirijximay
+es;Patzaj;Pak’wex
+es;El Colón;San José El Más Allá
+es;Xocxoc;Chocxoc
+es;San Marcos;San Marcos Palajunoj
+es;Xuicaracoj;Chuicaracoj
+es;Las Ilusiones;Las Ilusiones Santa Bárbara
+es;Patuacal;Pahuacal
+es;San Juán El Mirador;San Juan El Mirador
+es;Tzanpetey;Tzampetey
+es;Chicotiyab;Chicotiyap
+es;Tzampoj;Tzanpoj
+es;Chilopizap;Chilopisap
+es;Tzamabaj;Samabaj
+es;Chui-Santo Tomás;Chuisantotomás
+es;Camache Grande;Arenal
+es;Pacaco;Loma Larga
+es;Chirijsín;Chirisín
+es;Caleras;Calera
+es;San Rafael Bujilla;San Rafael
+es;Piedritas;Microparcelamiento Piedritas
+es;Pinula;Los Rosales
+es;Rinconcito;El Rinconcito
+es;Pampas Las Flores;Pampa Las Flores
+es;San Paulito;San Pablito
+es;San Ignacio;Ignacio
+es;Candelaria;Parcelamiento Agrario Candelaria Panán
+es;Concepción;Concepción La Ceiba
+es;San Alfonso;Colonia San Alfonzo
+es;El Siglo I;Siglo I
+es;El Centro;Centro
+es;Xulá Dos;Xulá II
+es;Xulá 2;Xulá II
+es;Panimaquin;Panimaquim
+es;Xechipup;Xexpup
+es;San Antonio El Cornejo;Parcelamiento Agrario San Antonio
+es;Sagcaú;Saccaú
+es;El Cimiento Camposanto;Cimientos Camposanto
+es;El Chocolate;Parcelamiento El Chocolate
+es;Comunidad Agraria Las Pitas;Comunidad Agraria La Luz
+es;Japón Nacional;El Japón
+es;Chicayá;Chacayá
+es;Residencial Oklahoma;Oklahoma
+es;La Rinconada;San José La Rinconada
+es;Joya de La Ventanilla;Joya de Las Ventillas
+es;San José Pacul;Pacul
+es;24 de Junio;Veinticuatro de Junio
+es;Chuiyá;Chiyá
+es;Tziquibalyá;La Esperanza
+es;Los Positos;Los Pocitos
+es;Zajcap;Sajcap
+es;Piedra Blanca;Piedras Blancas
+es;Himares;Los Tecomates
+es;Chibolson;Chuabaj Grande
+es;Santa Lucía Buena Vista;Buena Vista
+es;Pantulul;Pantucul
+es;Pachalum I;Pachalum
+es;Pachalum II;Platanar
+es;Tzitzíl;Tzitzil
+es;Chorrajax;Chorraxaj
+es;Paxijá;Paxejá
+es;El Ticón San Pedro;El Ticón
+es;Chicoxop;Chicoxob
+es;Tzampoclaj;Tzanpoclaj
+es;Xejuyub;Xeluyub
+es;Limón;El Limón
+es;Sabaquiej;Pasabaquiej
+es;Labalan;Labalam
+es;Paquí;Palquí
+es;Xolalbarda;Xolbarda
+es;Chinistán;Chimistán
+es;El Carrizal;Carrizal
+es;Tesoro Chiquito;El Tesoro Chiquito
+es;Sibaca II;Sibacá II
+es;Playitas Copón;Playita Copón
+es;Xala Chactelá;Boca del Chactelá
+es;Comunidad Primavera;Primavera del Ixcán
+es;Tzecún;Tzetún
+es;Comunidad Semuitequen II;Samoltequen II
+es;El Aguacatillo;Aguacatío
+es;Cooperativa El Zapote;El Zapote
+es;San Antonio El Nuevo;El Matrimonio
+es;Semarak;Semarac Cangrejal
+es;Nacimiento Machaquilaíto Semuc;Nacimiento Semuc
+es;Comunidad Esperanza I;La Esperanza
+es;San Martín;Arroyo San Martín
+es;Rosa Atitlán;Rosatitlán
+es;Quebrada Seca;Chile Verde
+es;Nueva Israelita;San Martín I
+es;San Martín;San Martín I
+es;Kilómetro 70;Kilómetro Setenta
+es;Mopán II;Mopán Dos
+es;Resumidero Mopán;Mopán Tres
+es;La Nueva Libertad;Nueva Libertad
+es;Cooperativa El Consuelo;Santa Rosita
+es;Pozo del Norte;Paso del Norte
+es;Lualá;Iualá
+es;Xolec;Xolac
+es;Cumbre de Las Palmas;La Cumbre
+es;San Miguelón;Miguelón
+es;El Progreso;Los Lagartos
+es;La Laguna;Checchinal La Laguna
+es;Pitorreal;La Esperanza
+es;Las Violetas del Jobo;Las Violetas
+es;La Cantaría;La Cantería
+es;El Canche;El Caliche
+es;La Caprichosa;La Caparrosa
+es;Los Jérez;Los Pérez
+es;Campanario La Avanzada;La Avanzada
+es;Chanquitillo;Chagüitillo
+es;Cocalito;Cocal
+es;La Poza de Agua;Poza de Agua
+es;Joya del Limón;Joya de Limón
+es;Piteros Dos;Piteros II
+es;Suiche Tres;Suiche III
+es;Poljá;Poljá Abajo
+es;Casasola;Poljá Abajo
+es;Los Cordón;Poljá Arriba
+es;Limones;Los Limones
+es;El Zapote;Zapote
+es;Zarzal;El Zarzal
+es;Carrizal;El Carrizal
+es;Mariscal;Masical
+es;Encuentros del Camalote;Encuentro del Camalote
+es;Puerta de Hierro;La Puerta de Hierro
+es;Barreto;El Barreto
+es;Suiche 4;Suiche Quatro
+es;Chiqueritos;Chiquerito
+es;El Guayabal;Guayabal
+es;Cooperativa Vista Hermosa;Vista Hermosa
+es;La Florida;Florida
+es;Montaña Nahoa;Nahuá
+es;La Loma;Loma del Rico
+es;El Zunzal;Tzunzal
+es;La Laguna;El Tecolote
+es;La Palmilla;Palmilla Vega Grande
+es;San José Alsacia;San José Alsacia Abajo
+es;Del Silencio;El Silencio
+es;Mojanales;Mojanes
+es;Cumbre La Esperanza;La Esperanza
+es;San Miguel El Choco;San Miguel Choco
+es;El Rosario Choco;El Rosario
+es;La Coraza;La Coroza
+es;Treinta y Nueve;La Treintinueve
+es;Playa Chicasaw;La Playa de Chickasaw
+es;El Dulce Nombre;Dulce Nombre
+es;Enramada;Enramadas
+es;El Durazno;Durazno
+es;Pino Alto;Pinos Altos
+es;Santa Ana La Montaña;Santa Ana La Montañita
+es;Paso de Caballo;Paso de Caballos
+es;Saquipec;Saquipac
+es;Seraxpens;Saapens
+es;Sepaspens;Saapens
+es;Ranchería Chimuchoj;Chumuchoj
+es;Tonitzul Zetzul;Comunidad Tonitzol
+es;Chunajté;Chunacté
+es;Chicanib;Comunidad Quiacán
+es;Chicuis;Chigüis
+es;San Luis Tonten;San Luis Tontem
+es;Poza del Chino;San Francisco El Río
+es;Milla Cuarenticinco San Francisco;San Francisco
+es;Tope de Las Sierras;Cumbre de La Sierra Tope
+es;Creek Zarco;Zarco Creek
+es;Finca El Atlántico;Finca del Atlántico
+es;Totoposte Milla Seis;Milla Seis El Totoposte
+es;Totoposte Milla 6;Milla Seis El Totoposte
+es;El Cedrito Milla 7;El Cedrito Milla Siete
+es;Colonia Seminole;Colonia Seminola
+es;Finca Ramal Bobos;Finca El Real
+es;Boquerón;Pie del Cerro del Boquerón
+es;Rubijá;Rujijá
+es;Sisvilá;Sisbilá
+es;Comunidad Nueva Libertad;Barrio Nueva Libertad
+es;Secolay;Secolay Dos
+es;Comunidad Santa Delia;Santa Delmi
+es;Baldio Magüilá;Magüilá
+es;Ceposillo;Sepocillo
+es;Tonichaj Semococh;Tonichaj
+es;Seye;La Ye
+es;Río Mojarra Campamac;Comunidad Río Mojarras Campamac
+es;Mucbilha;Secacaj
+es;Semuy Sinchej;Semuy Sincheu
+es;Sincheu;Semuy Sincheu
+es;Uniyá Pacala;Uniyá
+es;San Rabinac Grande;Sacrabiná Grande
+es;Comunidad Guadalupe;Guadalupe Rubelimib
+es;Xalajachiviez;Xalajá Chivitz
+es;Chavilchoc;Santa Cruz Chavilchoch
+es;Nuevo San José;Comunidad Nuevo San José
+es;Sequixquib;Sibajá I
+es;Villa Nueva Guadalupe;Nueva Villa Guadalupe
+es;Caoba II;Sesutsujó La Caoba
+es;San Pablo Comunjá;San Pablo Cumunjá
+es;El Esfuerzo;Comunidad El Esfuerzo
+es;Yalchactí;Comunidad Yalchactí
+es;Campur;Comunidad Campur
+es;Balbatzul;Comunidad Balbatzul
+es;Sejactual;Comunidad Sejactual
+es;Sequixqib;Sequixquib
+es;Choctún;Comunidad Choctún
+es;San Jacinto;Comunidad San Jacinto
+es;Monte Blanco;Comunidad Monte Blanco
+es;Muyjá;Mujyá
+es;Quixal;Comunidad Quixal
+es;Santa María Selamux;Santa María Selamuc
+es;San Pedro Seten;Setem
+es;Sepur Seboc;Sebac Soselá
+es;Secapur;Nuevo Secapur
+es;Sejolobab;Sejolobob
+es;Jolobob;Sejolobob
+es;Sosela Chinajú;Gaspar Chimajú II
+es;Setsol;Setzol Rubelcacao
+es;Comunidad San José;San José
+es;Inupal;Comunidad Inupal
+es;Purabub;Purahub
+es;Chaquiro Quijá;Chaquiroquijá
+es;Secoloxá;Secotoxá
+es;Secaxte;Secar
+es;Coyoucte;Secoyouté
+es;Cacabila;Cacagüila
+es;Chinapetén;Chipetén
+es;Chiquixji;Chiquixil
+es;San José Setsac;Setzac
+es;Caxlanaj de La Roca;Caxlam Aj de La Roca
+es;Sesajar;Sesajcar
+es;Secaj;Secajc
+es;Seaquib;Seaquibá
+es;Santa Elena Mamachaj;Santa Elena
+es;Chicabnab;Chicanab
+es;Pantolox;San Lucas Pantolox
+es;Chirreocob;Chirrecob
+es;Sechinajux;Sechinaux
+es;San Juan Payacal;San Juan Pacayal
+es;Las Flores de Sejá;Las Flores
+es;Cooperativa San Felipe de Lara;Cooperativa Agraria San Felipe de Lara
+es;Ciénaga Sumanché;Ciénaga Sumaché
+es;Secampana;Sacampana
+es;Nuevo Chicacnab;Nuevo Chicanab
+es;Chicacanab;Chicanab
+es;Satuzuyu;Tzuyul
+es;San Pablo Sesoch;Sesoch
+es;Buena Vista;San José Buena Vista
+es;Casa Guatemala;Las Brisas del Golfete
+es;El Laurel;Los Laureles
+es;El Cimarroncito;Cimarrón
+es;El Cimarroncito;Cimarroncito
+es;Blank Creek;Black Creek
+es;El Pajuil;El Paujil
+es;Las Limas;La Lima
+es;Xeulito;Xeúl Pajales
+es;Comunidad Santo Tomás Parahub;Comunidad Santo Tomás Purahub
+es;Papur Pajales;Papur
+es;Cicruz;Chicruz
+es;Comunidad Sayaxot;Comunidad Sayaxut
+es;El Chapote;Chapote
+es;Cuyucabaj;Cuyacabaj
+es;San Ángel Lote Seis;Lote Seis
+es;Pacayas;Las Pacayas
+es;Benque;El Benque
+es;El Rosario;Rosario
+es;Seconty;Secont
+es;Yocbatz;Comunidad Yocbatz
+es;Chirretzaj;Chirretzaaj
+es;Chinimlajón;Chininlajón
+es;Comunidad Chibulbut;Comunidad Chibulbub
+es;Chixiná;Chexená
+es;Sarraxoch;Sarraxach
+es;Sejohuitz;Seogüis
+es;Saquijá;Saquijá Cruz
+es;Chilax Pequeño;Chilaxito
+es;Xotilá;Xolilá
+es;Tamté;Chitamté
+es;Panixté;Panisté
+es;Acamal II;Nuevo Acamal
+es;Los Arcos;El Arco
+es;Chiley;Chilley
+es;Comunidad Río Frío;Río Frío
+es;Bempec;Rancha
+es;Samelb;Semelb
+es;El Manatial;El Manantial
+es;Parranchoch;Parrachoch
+es;San José La Tortuga;La Tortuga
+es;Nimlajá;Nimlajá Uno
+es;Setul;San Lucas El Aguacate
+es;San Lucas Aguacate;San Lucas El Aguacate
+es;Canachí;Canalchí
+es;Kaxlam Poom La Cumbre;Caxlampón
+es;Sepillul;Sepurul
+es;Paité Seco;Poité Seco
+es;Chicorral;Chijcorral
+es;Cahaboncito;Guaxojt
+es;Chicallí;Chiallí
+es;San José Chitusul I;San José Chitusul
+es;Panquich;Panquix
+es;Platanar;Plan Grande
+es;Rincón del Durazno;El Durazno
+es;Parranchoch;Parrachoch Uno
+es;El Portezuelo;Portezuelo
+es;Santa Rita Norte;Santa Rita
+es;Cola del Mico;Cola de Mico
+es;Sacá;Secá
+es;Cumbre La May;La Cumbre La May
+es;Pansal;Panjal
+es;Pansumaj;Pansimaj
+es;Pambón;Panbón
+es;Comunidad Cerro Verde;Cerro Verde
+es;Panjush;Panjux
+es;Cumbre de Las Flores;La Cumbre
+es;Flor Sesajal;La Flor Sesajal
+es;Nuevo Jerusalem;Nueva Jerusalén
+es;Machaquita Chilero;Machaquitas Chicleras
+es;Carrizalito;El Carrizalito
+es;La Lucha;Parcelamiento La Lucha
+es;Sabalán;Sabalam
+es;La Machaca I;Machaca Uno
+es;La Nueva Esperanza;Nueva Esperanza
+es;La Gloria;Parcelamiento La Gloria
+es;Yaltatú Dos;Yaltutú Dos
+es;El Chilar Uno;El Chilar I
+es;Comunidad Corral Tzul;Comunidad La Planada Corral Tzul
+es;Nueva Esperanza;Comunidad Las Cruces del Norte
+es;Chinaha Zapotillo;Chinajá Zapotillo
+es;Nuevo Semuy;Nuevo Sámuy
+es;Seubub;Comunidad Sehubub Serraxquén
+es;Collon Balan;Coyón Balam
+es;Semox;Semox Setinta
+es;Rubelho;Comunidad Rubelho
+es;San Rafael Caquijá;Caquijá
+es;Semococh;Samococh
+es;Chinaticarib;Comunidad Chinaticarib
+es;Comunidad La Palma;Las Palmas
+es;Yalicar;Comunidad Sesac
+es;Santa Marta Chibentzul;Comunidad Santa Marta
+es;Israel;Comunidad Israel
+es;Delicias Dolores;Comunidad Las Delicias
+es;Vista Hermosa Xalija;Vista Hermosa
+es;Las Promesas;Comunidad Las Promesas
+es;Semox Cetinta;Comunidad Semox Setinta
+es;Potrero Chimay;San Marcos
+es;Panjorná;Pahorna
+es;Pantic;Pantión
+es;Sacpor;Sapur
+es;El Volcancito;El Volcancito Pantoc
+es;Nuevo Binarios;Nuevo Vinarios
+es;Nuevo Vinaroz;Nuevo Vinarios
+es;Guaxcux;Chiquin Guaxcux
+es;Chiquin;Chiquin Guaxcux
+es;Las Palmas;Comunidad Las Palmas
+es;Tambayal;El Tamboyal
+es;Parcelamiento San Greené;Parcelamiento San Greene
+es;Parcelamiento Sangrin;Parcelamiento San Greene
+es;Samgreene;Parcelamiento San Greene
+es;Fundación del Centavo;Parcelamiento San Greene
+es;Libertad Dos Mil Dos;La Libertad Dos Mil
+es;Libertad 2002;La Libertad Dos Mil
+es;Repollal Uno;El Repollal Uno
+es;Repollal Dos;El Repollal Dos
+es;La Cumbre del Soldado;Comunidad Cumbre del Soldado
+es;Obrejuelas;Orejuela
+es;Sulín;Colonia Sulín
+es;Comunal;El Comunal
+es;Rincón El Quetzal;Rincón del Quetzal
+es;Pompacay;Pampacay
+es;Pilapec;Chajlab
+es;Chajla;Chajlab
+es;Nuevo Porvenir;Comunidad Nuevo Porvenir
+es;Dolores;Comunidad Río Dolores
+es;Monte de Los Olivos;Montes Los Olivos
+es;Panimaché II;Panimanché II
+es;Calvillo;San Antonio El Calvillo
+es;Buena Vista Queleya;Buena Vista
+es;Rochatzac;Comunidad Rocjá Satzay
+es;Rubeljum;Rubelyún
+es;Chaquirocha Setaña;Chaqui Rocjá Setaña
+es;Secuachil;Saguachil
+es;La Corona Abajo;La Coronada Abajo
+es;Nuevo Zunzapote;Nuevo Sunzapote
+es;El Churrupaco;El Churupaco
+es;Las Ánimas Abajo;Río Grande
+es;Oluma;Uluma
+es;El Obraje;Obraje
+es;Cerro de Alcoba;Cerro Alcoba
+es;Potrerillos;El Potrerillo
+es;Pacan;Pacaní
+es;Pecajbaj;Pecajbá
+es;Semuy;Pecajbá
+es;Monte Negro;Montenegro
+es;Canutillo;El Canutillo
+es;Puente Xacbal;Puente Xaclbal
+es;Nuevo Porvenir;Santa Ana El Nuevo Porvenir
+es;Lotificación El Paso;El Paso
+es;Panimaché Chiquito;Caliaj
+es;Xulá I;Xulá
+es;Los Encuentritos;Los Encuentros
+es;Sibaca;Sibacá
+es;Barrios Pinalito;El Pinalito
+es;San José Pineda;Pineda
+es;Satex;Satexá
+es;Sacxim;Saquixim
+es;Comunidad Sepacay;Sepacay

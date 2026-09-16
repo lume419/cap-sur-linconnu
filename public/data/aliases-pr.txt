@@ -1,0 +1,439 @@
+ru;Адхунтас;Adjuntas
+ar;أدجونتاس;Adjuntas
+hi;अडजुंटास;Adjuntas
+ja;アドフンタス;Adjuntas
+ru;Агуада;Aguada
+zh;阿瓜達;Aguada
+ar;أغوادا;Aguada
+hi;अगुआडा;Aguada
+ja;アグアダ;Aguada
+ru;Агуадилья;Aguadilla
+zh;阿瓜迪亚;Aguadilla
+ar;أغوادييا;Aguadilla
+hi;अगुआडिल्ला;Aguadilla
+ja;アグアディージャ;Aguadilla
+ru;Агуас-Буэнас;Aguas Buenas
+ar;أغواس بويناس;Aguas Buenas
+hi;अगुआस बुएनास;Aguas Buenas
+ja;アグアスブエナス;Aguas Buenas
+ru;Айбонито;Aibonito
+ar;ايبونيتو;Aibonito
+hi;ऐबोनिटो;Aibonito
+ja;アイボニート;Aibonito
+zh;阿尼亞斯科;Añasco
+en;Anasco;Añasco
+ru;Ананско;Añasco
+ar;أناسكو;Añasco
+fr;Anasco;Añasco
+hi;अनास्को;Añasco
+de;Anasco;Añasco
+ja;アナスコ;Añasco
+pt;Anasco;Añasco
+ru;Анимас;Animas
+ru;Арресибо;Arecibo
+ar;أريسيبو;Arecibo
+hi;अरेसिबो;Arecibo
+ja;アレシボ;Arecibo
+ru;Арройо;Arroyo
+ar;أرويو;Arroyo
+hi;अर्रोयो;Arroyo
+ja;アロヨ;Arroyo
+ru;Барселонета;Barceloneta
+ar;برشلونيتا;Barceloneta
+hi;बार्सिलोनेटा;Barceloneta
+ja;バルセロネタ;Barceloneta
+zh;巴蘭基塔斯;Barranquitas
+ru;Барранкитас;Barranquitas
+ar;باررانكيتاس;Barranquitas
+hi;बारानकिटास;Barranquitas
+ja;バランキータス;Barranquitas
+ru;Бартоло;Bartolo
+ar;بايامون;Bayamón
+ja;バヤモン;Bayamón
+ko;바야몬;Bayamón
+ru;Баямон;Bayamón
+zh;巴阿蒙;Bayamón
+fr;Bayamon;Bayamón
+hi;बयामोन;Bayamón
+ru;Бренас;Brenas
+ru;Буфало;Bufalo
+zh;卡沃羅霍;Cabo Rojo
+ru;Кабо-Рохо;Cabo Rojo
+ar;كابو روخو;Cabo Rojo
+hi;काबो रोजो;Cabo Rojo
+ja;カボロホ;Cabo Rojo
+ja;カグアス;Caguas
+ru;Кагуас;Caguas
+zh;卡瓜斯;Caguas
+ar;كاغواس;Caguas
+hi;कागुआस;Caguas
+zh;卡穆伊;Camuy
+ru;Камуй;Camuy
+ar;كاموي;Camuy
+hi;कामुय;Camuy
+ja;カムイ;Camuy
+es;Canóvanas;Canovanas
+ru;Канованнас;Canovanas
+ar;كانوفانا;Canovanas
+hi;कानोवानास;Canovanas
+ja;カノバナス;Canovanas
+ru;Каролина;Carolina
+ar;كارولينا;Carolina
+fr;Caroline;Carolina
+hi;कैरोलिना;Carolina
+ja;カロリナ;Carolina
+en;Catano;Cataño
+ru;Катано;Cataño
+ar;كاتانو;Cataño
+fr;Catano;Cataño
+hi;कातानो;Cataño
+de;Catano;Cataño
+ja;カタニョ;Cataño
+pt;Catano;Cataño
+ru;Каей;Cayey
+ar;كايي;Cayey
+hi;कायी;Cayey
+ja;カイェイ;Cayey
+ru;Сейба;Ceiba
+zh;塞瓦;Ceiba
+ar;سيبا;Ceiba
+hi;सीबा;Ceiba
+ja;セイバ;Ceiba
+zh;錫亞萊斯;Ciales
+ru;Сиалес;Ciales
+ar;سيالس;Ciales
+hi;सियाल्स;Ciales
+ja;シアレス;Ciales
+ru;Сидра;Cidra
+ar;سيدرا;Cidra
+hi;सिद्रा;Cidra
+ja;シドラ;Cidra
+zh;科阿莫;Coamo
+ru;Коамо;Coamo
+ar;كوامو;Coamo
+hi;कोआमो;Coamo
+ja;コアモ;Coamo
+en;Comerio;Comerío
+ru;Комерио;Comerío
+ar;كوميريو;Comerío
+es;Comerio;Comerío
+fr;Comerio;Comerío
+hi;कोमेरियो;Comerío
+de;Comerio;Comerío
+ja;コメリオ;Comerío
+pt;Comerio;Comerío
+ru;Коросаль;Corozal
+ar;كوروزال;Corozal
+hi;कोरोजल;Corozal
+ja;コロサル;Corozal
+ru;Кулебра;Culebra
+ar;كوليبرا;Culebra
+hi;कुलेब्रा;Culebra
+ja;クレブラ;Culebra
+zh;多拉多;Dorado
+ru;Дорадо;Dorado
+ar;دورادو;Dorado
+hi;डोराडो;Dorado
+ja;ドラード;Dorado
+ru;Фахардо;Fajardo
+zh;法哈多;Fajardo
+ar;فاخاردو;Fajardo
+hi;फजार्डो;Fajardo
+ja;ファハルド;Fajardo
+ru;Флорида;Florida
+ar;فلوريدا;Florida
+fr;Floride;Florida
+hi;फ्लोरिडा;Florida
+ja;フロリダ;Florida
+pt;Flórida;Florida
+zh;瓜尼卡;Guánica
+en;Guanica;Guánica
+ru;Гуаника;Guánica
+ar;غوانيكا;Guánica
+fr;Guanica;Guánica
+hi;ग्वानिका;Guánica
+de;Guanica;Guánica
+ja;グアニカ;Guánica
+pt;Guanica;Guánica
+ru;Гуаяма;Guayama
+zh;瓜亞馬;Guayama
+ar;غوايامة;Guayama
+hi;गुआयामा;Guayama
+ja;グアヤマ;Guayama
+ru;Гуаянилья;Guayanilla
+ar;جوايانيلا;Guayanilla
+hi;गुआयनिल्ला;Guayanilla
+ja;グアヤニージャ;Guayanilla
+ru;Гуайнабо;Guaynabo
+ar;جوينابو;Guaynabo
+hi;गुआयनाबो;Guaynabo
+ja;グアイナボ;Guaynabo
+zh;古拉沃;Gurabo
+ru;Гурабо;Gurabo
+ar;جورابو;Gurabo
+hi;गुराबो;Gurabo
+ja;グラボ;Gurabo
+zh;阿提約;Hatillo
+ru;Атилло;Hatillo
+ar;هاتيلو;Hatillo
+hi;हटिलो;Hatillo
+ja;ハティージョ;Hatillo
+zh;奧爾米格羅斯;Hormigueros
+ru;Ормигеро;Hormigueros
+ar;هورميغيروس;Hormigueros
+hi;होर्मिगुएरोस;Hormigueros
+ja;オルミゲロス;Hormigueros
+zh;烏馬考;Humacao
+ru;Умакао;Humacao
+ar;هوماكاو;Humacao
+hi;हुमाकाओ;Humacao
+ja;フマカオ;Humacao
+ru;Изабела;Isabela
+ar;إيزابيلا;Isabela
+hi;इसाबेला;Isabela
+ja;イサベラ;Isabela
+ru;Джайуйя;Jayuya
+ar;جايويا;Jayuya
+hi;जयुया;Jayuya
+ja;ジャユヤ;Jayuya
+zh;胡安娜迪亞斯;Juana Díaz
+en;Juana Diaz;Juana Díaz
+ru;Хуана Диас;Juana Díaz
+ar;خوانا دياز;Juana Díaz
+fr;Juana Diaz;Juana Díaz
+hi;जुआना डिआज़;Juana Díaz
+de;Juana Diaz;Juana Díaz
+ja;フアナ・ディアス;Juana Díaz
+pt;Juana Diaz;Juana Díaz
+ru;Хункос;Juncos
+ar;جونكوس;Juncos
+hi;जुंकोस;Juncos
+ja;フンコス;Juncos
+zh;拉哈斯;Lajas
+ru;Лахас;Lajas
+ar;لاخاس;Lajas
+hi;लाजास;Lajas
+ja;ラハス;Lajas
+ru;Ларес;Lares
+zh;拉雷斯;Lares
+ar;لاريس;Lares
+hi;लारेस;Lares
+ja;ラレス;Lares
+zh;拉斯瑪麗亞斯;Las Marías
+en;Las Marias;Las Marías
+ru;Лас Мариас;Las Marías
+ar;لاس ماريس;Las Marías
+fr;Las Marias;Las Marías
+hi;लास मारियास;Las Marías
+de;Las Marias;Las Marías
+ja;ラス・マリアス;Las Marías
+pt;Las Marias;Las Marías
+ru;Лас Пьедрас;Las Piedras
+ar;لاس بيدراس;Las Piedras
+hi;लास पिएड्रास;Las Piedras
+ja;ラス・ピエドラス;Las Piedras
+zh;莱维顿;Levittown
+ru;Левитаун;Levittown
+zh;洛伊薩;Loíza
+en;Loiza;Loíza
+ru;Лойза;Loíza
+ar;لويزا;Loíza
+fr;Loiza;Loíza
+hi;लोइजा;Loíza
+de;Loiza;Loíza
+ja;ロイザ;Loíza
+pt;Loiza;Loíza
+ru;Лукильо;Luquillo
+ar;لوكيلو;Luquillo
+hi;लुकिलो;Luquillo
+ja;ルキージョ;Luquillo
+en;Manati;Manatí
+ru;Манати;Manatí
+ar;مناتي;Manatí
+fr;Manati;Manatí
+hi;मनाती;Manatí
+de;Manati;Manatí
+ja;マナティ;Manatí
+pt;Manati;Manatí
+zh;馬里考;Maricao
+ru;Марикао;Maricao
+ar;ماريكاو;Maricao
+hi;मारिकाओ;Maricao
+ja;マリカオ;Maricao
+ru;Мауна́бо;Maunabo
+ar;مونابو;Maunabo
+hi;मौनाबो;Maunabo
+ja;マウナボ;Maunabo
+ru;Миранда;Miranda
+zh;莫卡;Moca
+ru;Мока;Moca
+ar;موكا;Moca
+hi;मोका;Moca
+ja;モカ;Moca
+ru;Монсеррате;Monserrate
+ru;Мора;Mora
+ru;Моровис;Morovis
+ar;موروفيس;Morovis
+hi;मोरोविस;Morovis
+ja;モロビス;Morovis
+ja;マヤグエス;Mayagüez
+ru;Маягуэс;Mayagüez
+zh;馬亞圭斯;Mayagüez
+ko;마야궤스;Mayagüez
+ar;مايجويز;Mayagüez
+fr;Mayaguez;Mayagüez
+hi;मायागुएज़;Mayagüez
+de;Mayaguez;Mayagüez
+pt;Mayaguez;Mayagüez
+it;Nagüabo;Naguabo
+nl;Nagüabo;Naguabo
+zh;納瓜沃;Naguabo
+ru;Нагуабо;Naguabo
+ar;نجوابو;Naguabo
+hi;नागुआबो;Naguabo
+ja;ナグアボ;Naguabo
+zh;納蘭希托;Naranjito
+ru;Наранхито;Naranjito
+ar;ناراخيتو;Naranjito
+hi;नारांजिटो;Naranjito
+ja;ナランヒート;Naranjito
+ru;Олимпо;Olimpo
+ru;Орокови́с;Orocovis
+ar;أوروكوفيس;Orocovis
+hi;ओरोकोविस;Orocovis
+ja;オロコビス;Orocovis
+ru;Палмас;Palmas
+ru;Палмер;Palmer
+ru;Паломас;Palomas
+ru;Пастос;Pastos
+zh;帕蒂亞斯;Patillas
+ru;Патильяс;Patillas
+ar;باتيلاس;Patillas
+hi;पटिलास;Patillas
+ja;パティージャス;Patillas
+en;Penuelas;Peñuelas
+ru;Пеньуэлас;Peñuelas
+ar;بينويلاس;Peñuelas
+fr;Penuelas;Peñuelas
+hi;पेन्यूएलास;Peñuelas
+de;Penuelas;Peñuelas
+ja;ペニュエラス;Peñuelas
+pt;Penuelas;Peñuelas
+ru;Понсе;Ponce
+ja;ポンセ;Ponce
+ko;폰세;Ponce
+zh;龐塞;Ponce
+ar;بونثي;Ponce
+hi;पॉन्स;Ponce
+zh;克布拉迪亞斯;Quebradillas
+ru;Кебрадильяс;Quebradillas
+ar;كبرادييس;Quebradillas
+hi;क्वेब्राडिलास;Quebradillas
+ja;ケブラディージャス;Quebradillas
+ru;Рамос;Ramos
+en;Rincon;Rincón
+ru;Ринкон;Rincón
+ar;رينكون;Rincón
+fr;Rincon;Rincón
+hi;रिनकॉन;Rincón
+de;Rincon;Rincón
+ja;リンコン;Rincón
+pt;Rincão;Rincón
+zh;里奧格蘭德;Río Grande
+en;Rio Grande;Río Grande
+ru;Рио-Гранде;Río Grande
+ar;ريو غراندي;Río Grande
+fr;Rio Grande;Río Grande
+hi;रियो ग्रांडे;Río Grande
+de;Rio Grande;Río Grande
+ja;リオグランデ;Río Grande
+pt;Rio Grande;Río Grande
+ru;Сабана;Sabana
+zh;大薩瓦納;Sabana Grande
+ru;Сабана-Гранде;Sabana Grande
+ar;سابانا غراندي;Sabana Grande
+hi;सबाना ग्रांडे;Sabana Grande
+ja;サバナグランデ;Sabana Grande
+ru;Салинас;Salinas
+ar;سالينس;Salinas
+hi;सालिनास;Salinas
+ja;サリナス;Salinas
+ru;Сан Антонио;San Antonio
+zh;聖赫爾曼;San Germán
+en;San German;San Germán
+ru;Сан-Жермен;San Germán
+ar;سان جرمان;San Germán
+fr;San German;San Germán
+hi;सैन जर्मन;San Germán
+de;San German;San Germán
+ja;サンジェルマン;San Germán
+ja;サンフアン;San Juan
+ko;산후안;San Juan
+ru;Сан-Хуан;San Juan
+ar;سان خوان;San Juan
+zh;圣胡安;San Juan
+ko;샌환;San Juan
+en;Old San Juan;Viejo San Juan
+ru;Сан-Лоренцо;San Lorenzo
+ar;سان لورينزو;San Lorenzo
+hi;सैन लोरेंजो;San Lorenzo
+ja;サンロレンソ;San Lorenzo
+en;San Sebastian;San Sebastián
+ru;Сан-Себастьян;San Sebastián
+ar;سان سيباستيان;San Sebastián
+fr;San Sebastian;San Sebastián
+hi;सैन सेबास्टियन;San Sebastián
+de;San Sebastian;San Sebastián
+ja;サンセバスチャン;San Sebastián
+pt;San Sebastião;San Sebastián
+ru;Санта-Исабель;Santa Isabel
+ar;سانتا إيزابيل;Santa Isabel
+hi;सांता इसाबेल;Santa Isabel
+ja;サンタイサベル;Santa Isabel
+ru;Сумидеро;Sumidero
+ja;タリャボア;Tallaboa
+zh;塔拉博阿;Tallaboa
+zh;上托阿;Toa Alta
+ru;Тоа-Альта;Toa Alta
+ar;توا ألتا;Toa Alta
+hi;तोआ अल्ता;Toa Alta
+ja;トアアルタ;Toa Alta
+ru;Тоа-Баха;Toa Baja
+ar;توا باخا;Toa Baja
+hi;तोआ बाजा;Toa Baja
+ja;トアバハ;Toa Baja
+ko;트루히요알토;Trujillo Alto
+zh;上特魯希略;Trujillo Alto
+ru;Трухильо-Альто;Trujillo Alto
+ar;تروخيلو ألتو;Trujillo Alto
+hi;ट्रुजिलो अल्टो;Trujillo Alto
+ja;トルヒーヨアルト;Trujillo Alto
+zh;烏圖阿多;Utuado
+ru;Утуадо;Utuado
+ar;أوتوادو;Utuado
+hi;उतुआदो;Utuado
+ja;ウトゥアド;Utuado
+zh;上維加;Vega Alta
+ru;Вега-Альта;Vega Alta
+ar;فيغا ألتا;Vega Alta
+hi;वेगा अल्ता;Vega Alta
+ja;ベガアルタ;Vega Alta
+zh;下維加;Vega Baja
+ru;Вега-Баха;Vega Baja
+ar;فيغا باخا;Vega Baja
+hi;वेगा बाजा;Vega Baja
+ja;ベガバハ;Vega Baja
+ru;Вильяльба;Villalba
+ar;فيلالبا;Villalba
+hi;विलाल्बा;Villalba
+ja;ビジャルバ;Villalba
+ru;Ябукоа;Yabucoa
+ar;يابوكوا;Yabucoa
+hi;यबुकोआ;Yabucoa
+ja;ヤブコア;Yabucoa
+zh;堯科;Yauco
+ru;Яуко;Yauco
+ar;ياوكو;Yauco
+hi;याउको;Yauco
+ja;ヤウコ;Yauco
+en;Roosevelt Roads;Roosevelt Roads Comunidad

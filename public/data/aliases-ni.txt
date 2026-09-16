@@ -1,0 +1,358 @@
+es;Turawás;Turwás
+es;Siksa Yari;Siksayali
+es;Sika Yari;Siksayali
+es;Sicsayeri;Siksayali
+es;Sicsa Yeri;Siksayali
+es;Irpiri Tingni;Ipiri Tingni
+es;Irpi Tingni;Ipiri Tingni
+es;Zambrana;Zambrano
+es;Yucapuca;Yuca Puca
+es;Yolaina;Colonia Agrícola Yolaina
+es;Yaule;Yaule El Cielo
+es;Yakalpanani;Yakal Panani
+es;Wiwilí de Nueva Segovia;Wiwilí
+es;Wáspuko;Waspuk
+es;Waspado Nueva Esperanza;Waspado
+es;Villa Nueva;Villanueva
+es;Veracruz del Zapotal;Veracruz
+es;San Juan;Valle San Juan de Somoto
+es;Sabana Grande;Valle San Juan de Sabana Grande
+es;El Pericón;Valle El Pericón
+es;Las Pilas;Valle Las Pilas
+es;Kuikuinita;Valle Kuikuinita
+es;Valle El Tablón;El Tablón
+es;Valle El Ojochal;El Ojochal
+es;El Brasil;Valle El Brasil
+es;Ducualí;Valle Ducualí
+es;Finca Utila;Utila
+es;Hacienda Utila;Utila
+ru;Тола;Tola
+ru;Тисма;Tisma
+ru;Типитапа;Tipitapa
+es;Barrio Tierra Colorada;Tierra Colorada
+ru;Террабона;Terrabona
+es;Temoá Grande Nº 1;Temoá Grande
+es;Temoá Grande Nº 2;Temoá Grande
+es;Temoá Grande Nº 3;Temoá Grande
+es;La Tijerina;Tejerina
+es;La Tejerina;Tejerina
+es;Kalila Kangban;Tasba Pain
+es;Los Tocaniste;Los Tacaniste
+es;Susulí Central;Susulí
+es;Susulí Arriba;Susulí
+es;Susulí Abajo;Susulí
+es;Punta Square;San Vincente
+en;Square Point;San Vincente
+es;Sota Caballo;Sotacaballo
+es;Sota Caballos;Sotacaballo
+ja;ソモト;Somoto
+ko;소모토;Somoto
+ru;Сомото;Somoto
+zh;索莫托;Somoto
+ar;سوموتو;Somoto
+hi;सोमोटो;Somoto
+es;Siuna Wás;Siunawás
+es;Siquia;Villa Siquia
+es;Sinsin;Sisin
+es;Barrio Marvin Corrales;Marvin Corrales
+es;Susama;Sasama
+es;San Rafael;Sasama
+es;Santa Teresa;Santa Teresa de Apatague
+es;Santa Rosa;Santa Rosa de Lima
+es;Agrícola Miramontes;Agrícola Altamira
+es;El Cruzero;El Cruzero de Teustepe
+es;Santa Betania;Betania
+es;San Pedro;San Pedro de Los Molinas
+es;San Juan de Nicaragua;Grey Town
+es;San Juan;San Juan de Tipitapa
+es;San José de Limares;San José de Umure
+es;Monte Negro;Iván Montenegro
+es;Monte Alto;Iván Montenegro
+es;Los Baltodanos;San José de Los Baltodanos
+es;San Francisco de La Unión;La Unión
+es;Barrio San Francisco;San Francisco
+es;Eddy Monterrey;Eddy Monterrey (Río Grande)
+es;Río Grande;Eddy Monterrey (Río Grande)
+ko;산카를로스;San Carlos
+ru;Сан-Карлос;San Carlos
+zh;聖卡洛斯;San Carlos
+ar;سان كارلوس;San Carlos
+hi;सान कार्लोस;San Carlos
+ja;サンカルロス;San Carlos
+es;San Blas;San Blás
+es;San Andrés;San Andrés de La Palanca
+es;Saíz;El Saíz
+es;La Rota;Rota
+ru;Ривас;Rivas
+ar;ريفاس;Rivas
+hi;रिवास;Rivas
+ja;リバス;Rivas
+es;Máximo Jerez;Colonia Máximo Jerez
+es;Rancherías;Rancheria
+ru;Рама;Rama
+en;Bilwi;Puerto Cabezas
+ru;Пуэрто-Кабесас;Puerto Cabezas
+ar;بويرتو كابيزاس;Puerto Cabezas
+hi;प्यूर्टो कैबेजास;Puerto Cabezas
+ja;プエルトカベサス;Puerto Cabezas
+es;Puerta de París;Puertas de París
+es;Pils;Plis
+es;El Picacho;Picacho
+es;Palo Yumpa;Paloyumpa
+es;Paiwás;San José de Paiwás
+es;San José;San José de Paiwás
+es;Llanos de Osocal;Llanos de Ostocal
+es;Ocuslí;Oculí
+es;Osculí;Oculí
+ru;Окоталь;Ocotal
+ar;أوكوتال;Ocotal
+hi;ओकोटल;Ocotal
+ja;オコタル;Ocotal
+ru;Нандасмо;Nandasmo
+es;Nandaimé;Nandaime
+es;Comarca Nancite Dulce;Nancite Dulce
+es;Nancemi;Nancimí
+ru;Мурра;Murra
+es;Mulukuku;Mulukukú
+ru;Моррито;Morrito
+es;Mine Castro;Mina Columbus
+es;Portillo Matasano;Portillo Matasanos
+ru;Матагальпа;Matagalpa
+ar;ماتاجالبا;Matagalpa
+hi;मातागल्पा;Matagalpa
+ja;マタガルパ;Matagalpa
+ru;Масая;Masaya
+ja;マサヤ;Masaya
+zh;馬薩亞;Masaya
+ar;ماسايا;Masaya
+hi;मसाया;Masaya
+ru;Масатепе;Masatepe
+ru;Масачапа;Masachapa
+es;Kukulaya;Carpato
+es;El Mangle Alto;Mangle Alto
+pt;Manágua;Managua
+ar;ماناغوا;Managua
+ja;マナグア;Managua
+ko;마나과;Managua
+ru;Манагуа;Managua
+ay;Manawa;Managua
+nah;Mānāhuac;Managua
+ht;Managoua;Managua
+zh;馬納瓜;Managua
+es;Malacatoyo;Malacatoya
+es;Macantaca;Makantaka
+es;Makantaca;Makantaka
+es;Caserío Los Zarzales;Los Zarzales
+es;Espinocita Norte;Los Sánchez Norte
+es;Los Puentes;Los Puentes de Agua
+es;Los Placeres;Los Placeres de Las Playitas
+es;Los Ortiz;Barrio Los Ortices
+es;Los Gutiérrez Sur;Los Gutiérrez del Sur
+es;Los Cutiérrez;Los Gutiérrez
+es;Valle Los Encuentros;Los Encuentros
+es;Las Brisas;Las Brisas (Los Caracoles)
+es;Los Caracoles;Las Brisas (Los Caracoles)
+es;Los Brasiles;El Brasil
+es;Los Altos de Guanacastillo;Guanacastillo
+es;Los Altos del Guanacastillo;Guanacastillo
+es;El Limisto;Limixto
+es;El Limixto;Limixto
+es;Aserradero Pasmata;Pasmata
+es;Licoroy;El Hato de Licoroy
+ja;レオン;León
+ko;레온;León
+ru;Леон;León
+zh;莱昂;León
+ar;ليون;León
+hi;लियॉन;León
+es;Caserío El Guásimo;El Guásimo
+es;La Trinidad;La Trinidad de Carazo
+es;La Sabana;Las Sabanas
+es;Barrio Las Playitas;Las Playitas
+es;Reparto Las Playitas;Las Playitas
+es;La Palma;Las Palmas
+es;Monte Cristo;Montecristo
+es;Comarca La Mora;La Mora
+es;Las Cañas;Las Cañas de García Abajo
+es;La Camelia;Las Camelias
+es;Las Brisas;Pellizco Central
+pt;La Rosita;Rosita
+es;La Peñita;Las Peñitas
+es;La Mojarra;Las Mojarras
+es;La Menuda;Piedra Menuda
+es;Gorra;La Gorra
+es;El Cangrejal;Cangrejal
+en;Brown Bank;La Fé
+es;La Estrelia;La Estrella
+es;La Cruz;Barrio de La Cruz
+es;La Chácara;Las Chácaras
+es;La Calle Real de Tolapa;Calle Real de Tolapa
+es;Calle Daniel Amador;Calle Daniel Playa Hermosa Amador
+es;La Boqueta;La Boquita
+en;Great River Town;La Barra de Río Grande
+es;La Barra;La Barra de Río Grande
+es;Barrio San Rafael;San Rafael
+es;Las Avellanas;La Avellana
+es;Kuiwi Tingni;Kuyu Tingni
+es;Klingna;Kugna
+es;Kamlah;Kambla
+ru;Хуигальпа;Juigalpa
+ar;خويجالبا;Juigalpa
+hi;जुइगल्पा;Juigalpa
+ja;フイガルパ;Juigalpa
+ru;Хикилийо;Jiquilillo
+ru;Хинотепе;Jinotepe
+ar;خينوتيبي;Jinotepe
+hi;जिनोटेपे;Jinotepe
+ja;ジノテペ;Jinotepe
+ar;خينوتيجا;Jinotega
+hi;जिनोटेगा;Jinotega
+ja;ジノテガ;Jinotega
+es;El Jiñocuabo;Valle El Jiñocuabo
+es;Colonia Jerusalén;Colonia Agrícola Jerusalén
+ru;Халапа;Jalapa
+es;Empalme de Izapa;Empalme Izapa
+es;Izapa;Empalme Izapa
+es;Wirruca;Guirruca
+es;Güisquilapa;Güiquiliapa
+es;El Guapotal;Guapotal
+es;Guanacaste;El Guanacaste
+es;Hacienda Guadalupe;Guadalupe
+es;Kingston;Kingstown
+ru;Гренада;Granada
+ja;グラナダ;Granada
+ko;그라나다;Granada
+ru;Гранада;Granada
+zh;格拉纳达;Granada
+ar;غرناطة;Granada
+hi;ग्रानाडा;Granada
+ru;Эстели;Estelí
+ja;エステリ;Estelí
+zh;埃斯特利;Estelí
+ko;에스텔리;Estelí
+en;Esteli;Estelí
+ar;استيلي;Estelí
+hi;एस्टेली;Estelí
+de;Esteli;Estelí
+ru;Эль-Вьехо;El Viejo
+es;Empalme Wanawa;Empalme de Wanawa
+es;El Tachote;El Talchocote
+es;El Salto;Valle El Salto
+es;El Naranjal;El Naranjo
+es;El Doral;Ciudad El Doral
+es;Ciudad Doral;Ciudad El Doral
+es;Caserío El Madroño;El Madroño
+es;Caserío El Laurel Galán;Laurel Galán
+es;Lagartillo;El Lagartillo
+es;Veraneadero El Jicote;El Jicote
+es;El Horcal;El Golfo
+es;El Espabel;El Espavel
+es;El Empalme de Alamikamba;El Empalme
+es;Barrio 15 de Septiembre;15 de Septiembre
+es;Comarca El Cuá Abajo;El Cuá
+es;Comarca Cuá Abajo;El Cuá
+es;El Corozo Centro;El Corozo
+es;Corozo;El Corozo
+es;Oluminapa;San José de Oluminapa
+es;El Cacao de Los Duarte;El Jocote
+es;El Cacao;El Cacao de Los Suárez
+es;El Bijague;El Bijagüe
+es;El Sompopo;El Zompopo
+es;Ebaniso Tasbapaun;Ebaniso Tasbapauni
+es;Dulce Nombre;Dulce Nombre de Jesús
+es;El Dulce Nombre;Dulce Nombre
+es;El Dulce Nombre de Jesús;Dulce Nombre
+es;Dulce Nombre de Jesús;Dulce Nombre
+ru;Долорес;Dolores
+ru;Дипилто;Dipilto
+es;Gumacia;Cumaica
+es;Cuapa;San Francisco de Cuapa
+es;Cuajiniquil;Los Cuajiniquiles
+es;La Trinidad;Colonia La Trinidad
+es;Chorrera;La Chorrera
+ru;Чинандеге;Chinandega
+ar;تشينانديجا;Chinandega
+hi;चिनान्देगा;Chinandega
+ja;チナンデガ;Chinandega
+es;Chagüite Grande;Chagüite Grande o El Naranjo
+es;El Naranjo;Chagüite Grande o El Naranjo
+es;Sabadilla;La Cebadía
+es;Cebadía;La Cebadía
+es;Abra Vieja;Caserío Abra Vieja
+es;Caserío de Casa Nueva;Casa Nueva
+es;Villa Carlos Fonseca;Villa El Carmen
+es;Candelaria;La Candelaria
+es;El Apacorral de Candelaria;La Candelaria
+es;Caña Fístula;Cañafístula
+es;Mombachito Nº 2;Mombachito No 2
+es;San Antonio de Wasaka Nº 1;San Antonio de Wasaka
+es;Campuzano;Campusano
+es;Calderas;Las Calderas
+es;Buena Vista;Buenavista
+es;Buenavista;Buena Vista
+es;El Bordo;Bordo Las Tinajas
+ru;Боако;Boaco
+ar;بواكو;Boaco
+hi;बोआको;Boaco
+ja;ボアコ;Boaco
+zh;布盧菲爾茲;Bluefields
+ru;Блуфилдс;Bluefields
+ko;블루필즈;Bluefields
+ar;بلوفيلدز، نيكاراغوا;Bluefields
+hi;ब्लूफील्ड्स;Bluefields
+ja;ブルーフィールズ;Bluefields
+es;Bismuna Tara;Bismuna
+es;Barrio Rigoberto López Pérez;Rigoberto López Pérez
+es;Barrio El Nacascolo;El Nacascolo
+es;Comarca Copaltepe;Comarca de Copaltepe
+es;Barra de Wawa;Wawa
+es;Barrio Arlen Siu;Arlen Siu
+es;Reparto Arlen Siu;Arlen Siu
+es;Apompuá;El Apompuá
+es;Apumiguel;Apamiguel
+es;Apalí Nuevo;Apalí
+es;Agüehüito;Agüegüito
+es;Aguas Calientes;Agua Caliente
+es;La Cañita;Las Cañitas
+es;Hacienda El Porvenir;El Porvenir
+es;Los Laureles;Colonia Los Laureles
+es;El Tempisque;La Guayaba
+es;Llano Redondo;Valle Redondo
+es;Empalme de San Benito;Empalme San Benito
+es;San Benito;Empalme San Benito
+es;Miralago;Mira Lago
+es;Cristo Rey;Colonia Cristo Rey
+es;Carreta Buena;Carrera Buena
+es;Santa Ana-Los Malacos;Los Malacos
+es;El Barillal;La Barillal
+es;Barrio El Barillal;La Barillal
+es;Asese;Aseses
+es;La Flor;El Trapiche
+es;Las Rivieras;La Riviera
+es;El Coyotar;El Coyolar
+es;Buenavista del Sur;Bueno Vista del Sur
+es;El Guaira;El Guairo
+es;Silo;El Silo
+es;El Guayacan;El Guayacán
+es;El Guayacah;El Guayacán
+es;El Raisudo;El Raizudo
+es;San Idelfonso;El Peludo
+es;La Medina;Los Medinas
+es;Presa Candelaria;Candelaria
+es;Sajohie;Saljonia
+es;Tepano;San Francisco de Tepano
+es;Santa Cruz de Buenavista;Santa Cruz de Buena Vista
+es;Miguel Larreynaga Los Gómez;Los Gómez
+es;Mata de Pule;Mata de Tule
+es;El Trapichito;Trapichito
+en;Maranonal;El Madroñal
+es;Lourdes;San Juan de Las Pencas
+es;El Jicaral;Llano El Jicaral
+es;Ciudadela San Martín Camilo Ortega;Ciudadela San Martín
+ru;Пантасма;Pantasma
+es;El Copelar;Walter Acevedo
+es;Proyecto Walter Acevedo;Walter Acevedo
+es;La Ñoca;Barrio La Ñoca
+es;San Francisco;Barrio La Ñoca
+es;Villa Álvarez;Colonia Villa Álvarez
+es;El Corocito;Colonia El Corocito

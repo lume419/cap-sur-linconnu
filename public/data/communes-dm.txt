@@ -1,0 +1,119 @@
+1063;-61.3315,15.5809;DM-02;Saint Andrew Parish;Woodford Hill
+1933;-61.3167,15.5667;DM-02;Saint Andrew Parish;Wesley
+0;-61.3714,15.2782;DM-04;Saint George Parish;Wall House
+726;-61.4082,15.6142;DM-02;Saint Andrew Parish;Vieille Case
+0;-61.3456,15.3273;DM-04;Saint George Parish;Trafalgar
+0;-61.4638,15.6112;DM-05;Saint John Parish;Toucari
+0;-61.4059,15.6143;DM-02;Saint Andrew Parish;Tobino
+0;-61.3973,15.5997;DM-02;Saint Andrew Parish;Thibaud
+0;-61.2737,15.3636;DM-03;Saint David Parish;The Cross
+0;-61.3340,15.2355;DM-09;Saint Patrick Parish;Tête Morne
+0;-61.4148,15.3886;DM-10;Saint Paul Parish;Tarou
+0;-61.4611,15.6019;DM-05;Saint John Parish;Tanetane
+0;-61.3556,15.3593;DM-10;Saint Paul Parish;Sylvania
+0;-61.2934,15.2457;DM-09;Saint Patrick Parish;Stowe
+1416;-61.3588,15.2337;DM-08;Saint Mark Parish;Soufrière
+0;-61.2482,15.4663;DM-03;Saint David Parish;Sineku
+0;-61.3770,15.2579;DM-07;Saint Luke Parish;Sibouli
+0;-61.3648,15.2122;DM-08;Saint Mark Parish;Scotts Head Village
+1413;-61.4364,15.4369;DM-06;Saint Joseph Parish;Salisbury
+0;-61.2575,15.4938;DM-03;Saint David Parish;Salybia
+0;-61.2547,15.4026;DM-03;Saint David Parish;Saint Sauveur
+2184;-61.4237,15.4061;DM-06;Saint Joseph Parish;Saint Joseph
+0;-61.2535,15.4902;DM-03;Saint David Parish;Saint Cyr
+16571;-61.3881,15.3017;DM-04;Saint George Parish;Roseau
+802;-61.2667,15.3667;DM-03;Saint David Parish;Rosalie
+0;-61.3881,15.3390;DM-10;Saint Paul Parish;Roger
+0;-61.2584,15.3599;DM-03;Saint David Parish;Rivière Ciriques
+0;-61.3667,15.4167;DM-06;Saint Joseph Parish;Riversdale
+3633;-61.4559,15.5829;DM-05;Saint John Parish;Portsmouth
+702;-61.3500,15.3667;DM-10;Saint Paul Parish;Pont Cassé
+1202;-61.3745,15.2598;DM-07;Saint Luke Parish;Pointe Michel
+0;-61.3258,15.2642;DM-09;Saint Patrick Parish;Pichelin
+0;-61.2562,15.3902;DM-03;Saint David Parish;Petite Soufrière
+0;-61.2679,15.2553;DM-09;Saint Patrick Parish;Petite Savane
+0;-61.4246,15.6311;DM-02;Saint Andrew Parish;Pineville
+0;-61.4113,15.5925;DM-02;Saint Andrew Parish;Paix Bouche
+0;-61.2556,15.4266;DM-03;Saint David Parish;Morpo
+0;-61.4654,15.6137;DM-05;Saint John Parish;Morne Soleil
+0;-61.4473,15.4564;DM-06;Saint Joseph Parish;Morne Raquette
+0;-61.3600,15.2970;DM-04;Saint George Parish;Morne Prosper
+0;-61.2640,15.3529;DM-03;Saint David Parish;Morne Jaune
+0;-61.2621,15.3574;DM-03;Saint David Parish;Morne Aux Frégates
+0;-61.2648,15.4996;DM-03;Saint David Parish;Monkey Hill
+0;-61.4289,15.4187;DM-06;Saint Joseph Parish;Méro
+0;-61.2922,15.5453;DM-02;Saint Andrew Parish;Melville Hall
+1552;-61.3916,15.3468;DM-10;Saint Paul Parish;Massacre
+2669;-61.2820,15.5374;DM-02;Saint Andrew Parish;Marigot
+2369;-61.3970,15.3636;DM-10;Saint Paul Parish;Mahaut
+0;-61.2494,15.4677;DM-03;Saint David Parish;Madjini
+0;-61.3722,15.2789;DM-04;Saint George Parish;Loubiere
+0;-61.4255,15.3970;DM-06;Saint Joseph Parish;Layou
+0;-61.3321,15.3372;DM-04;Saint George Parish;Laudat
+0;-61.4057,15.5879;DM-02;Saint Andrew Parish;La Source
+0;-61.3287,15.5862;DM-02;Saint Andrew Parish;Larieu
+1332;-61.2475,15.3277;DM-09;Saint Patrick Parish;La Plaine
+0;-61.4163,15.6260;DM-05;Saint John Parish;Là Haut
+0;-61.4578,15.5800;DM-05;Saint John Parish;Lagon
+495;-61.3663,15.5946;DM-02;Saint Andrew Parish;Hampstead
+0;-61.4611,15.6051;DM-05;Saint John Parish;Guillet
+0;-61.2819,15.3563;DM-03;Saint David Parish;Grand Fond
+0;-61.2541,15.4117;DM-03;Saint David Parish;Good Hope
+0;-61.4035,15.6097;DM-02;Saint Andrew Parish;Gommier
+0;-61.4561,15.5671;DM-05;Saint John Parish;Glanvillia
+0;-61.3487,15.2918;DM-04;Saint George Parish;Giraudet
+0;-61.3166,15.2454;DM-09;Saint Patrick Parish;Geneva
+0;-61.2528,15.4825;DM-03;Saint David Parish;Gaulette
+0;-61.3574,15.2226;DM-08;Saint Mark Parish;Galion
+0;-61.2821,15.2448;DM-09;Saint Patrick Parish;Fond Saint Jean
+0;-61.3540,15.3187;DM-04;Saint George Parish;Fond Cani
+0;-61.3038,15.2467;DM-09;Saint Patrick Parish;Dubuc
+0;-61.4668,15.5136;DM-11;Saint Peter Parish;Dublanc
+0;-61.4127,15.5852;DM-02;Saint Andrew Parish;Dos D’Âne
+0;-61.4183,15.6297;DM-02;Saint Andrew Parish;Demitrie
+0;-61.2662,15.2873;DM-09;Saint Patrick Parish;Délices
+0;-61.2576,15.4970;DM-03;Saint David Parish;Crayfish River
+0;-61.4509,15.4607;DM-06;Saint Joseph Parish;Coulibistrie
+0;-61.4637,15.6158;DM-05;Saint John Parish;Cottage
+890;-61.4622,15.4848;DM-11;Saint Peter Parish;Colihaut
+0;-61.4603,15.6168;DM-05;Saint John Parish;Cocoyer
+0;-61.3619,15.3377;DM-10;Saint Paul Parish;Cochrane
+0;-61.4628,15.6238;DM-05;Saint John Parish;Clifton
+0;-61.3817,15.2944;DM-04;Saint George Parish;Newtown
+1387;-61.2572,15.4440;DM-03;Saint David Parish;Castle Bruce
+0;-61.4612,15.6307;DM-05;Saint John Parish;Capucin
+1020;-61.3490,15.5930;DM-02;Saint Andrew Parish;Calibishie
+0;-61.4208,15.5795;DM-05;Saint John Parish;Borne
+0;-61.2505,15.3091;DM-09;Saint Patrick Parish;Boetica
+0;-61.4668,15.5090;DM-11;Saint Peter Parish;Bioche
+2608;-61.3167,15.2333;DM-09;Saint Patrick Parish;Berekua
+0;-61.3756,15.5877;DM-02;Saint Andrew Parish;Bense
+0;-61.2500,15.2833;DM-09;Saint Patrick Parish;Belvidere
+0;-61.4072,15.5887;DM-02;Saint Andrew Parish;Belmanier
+0;-61.3393,15.4221;DM-06;Saint Joseph Parish;Bells
+0;-61.3450,15.2645;DM-04;Saint George Parish;Bellevue Chopin
+0;-61.2663,15.5065;DM-03;Saint David Parish;Bataka
+0;-61.3667,15.4333;DM-06;Saint Joseph Parish;Bassinville
+0;-61.4065,15.6114;DM-02;Saint Andrew Parish;Au Parc
+0;-61.3828,15.5931;DM-02;Saint Andrew Parish;Anse de Mai
+0;-61.3892,15.3314;DM-10;Saint Paul Parish;Canefield
+0;-61.3786,15.3033;DM;;Bath Estate
+0;-61.3727,15.3071;DM;;St Aroment
+0;-61.3869,15.3141;DM;;Fond Cole
+0;-61.4603,15.6315;DM-05;Saint John Parish;Capuchin
+790;-61.3705,15.2844;DM-04;Saint George Parish;Castle Comfort
+220;-61.3384,15.3181;DM-04;Saint George Parish;Wotten Waven
+0;-61.3752,15.2990;DM-04;Saint George Parish;Upper King's Hill
+0;-61.3961,15.3668;DM-10;Saint Paul Parish;Belfast
+0;-61.3569,15.2979;DM-04;Saint George Parish;Eggleston
+0;-61.4352,15.4449;DM-06;Saint Joseph Parish;Grand Savane
+0;-61.4031,15.3714;DM-10;Saint Paul Parish;Jimmit
+0;-61.3728,15.3752;DM-10;Saint Paul Parish;Campbell
+0;-61.3937,15.3930;DM-10;Saint Paul Parish;Warner
+0;-61.4594,15.5528;DM-05;Saint John Parish;Picard
+0;-61.3857,15.3736;DM-10;Saint Paul Parish;Bon Repos
+0;-61.3576,15.3130;DM-04;Saint George Parish;Copt Hall Estate
+0;-61.2478,15.3191;DM-09;Saint Patrick Parish;Laronde
+0;-61.3873,15.3285;DM-10;Saint Paul Parish;River Estate
+0;-61.3770,15.2892;DM-04;Saint George Parish;Citronnière
+0;-61.3729,15.2906;DM-04;Saint George Parish;Mount Saint Mary’s

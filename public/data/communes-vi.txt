@@ -1,0 +1,222 @@
+0;-64.7921,17.7155;00850;Saint Croix Island;Upper Bethlehem
+0;-64.9835,18.3483;00801;Saint Thomas Island;Adelphi
+0;-64.7685,18.3413;00831;Saint John Island;Adrian
+0;-64.8401,17.7280;00840;Saint Croix Island;Allandale
+0;-64.6940,17.7447;00824;Saint Croix Island;Altona
+1316;-64.9488,18.3389;00803;Saint Thomas Island;Altona
+0;-64.7799,17.7066;00850;Saint Croix Island;Anguilla
+0;-64.7743,17.7116;00850;Saint Croix Island;Annaberg
+0;-64.7301,18.3630;00830;Saint John Island;Annaberg
+0;-64.8543,17.7497;00840;Saint Croix Island;Annaly
+0;-64.7288,17.7283;00820;Saint Croix Island;Annas Hope
+0;-64.9460,18.3652;00801;Saint Thomas Island;Barrett
+0;-64.8501,17.7252;00840;Saint Croix Island;Beck Grove
+0;-64.7246,17.7381;00820;Saint Croix Island;Beeston Hill
+0;-64.7335,17.7477;00820;Saint Croix Island;Bellevue
+0;-64.9204,18.3252;00802;Saint Thomas Island;Bellevue
+0;-64.7988,17.7764;00841;Saint Croix Island;Belvedere
+0;-64.8618,18.3222;00802;Saint Thomas Island;Benner
+0;-64.7829,18.3311;00831;Saint John Island;Bethany
+0;-64.7938,17.7314;00850;Saint Croix Island;Bethlehem Old Work
+0;-64.8165,17.6922;00850;Saint Croix Island;Bettys Hope
+0;-64.7957,17.7594;00841;Saint Croix Island;Betzys Jewell
+0;-64.7646,17.7139;00823;Saint Croix Island;Blessing
+0;-64.8415,17.7514;00841;Saint Croix Island;Bodkin
+0;-64.8982,18.3175;00802;Saint Thomas Island;Bolongo
+0;-64.7693,17.7433;00823;Saint Croix Island;Bonne Esperance
+0;-64.9871,18.3544;00801;Saint Thomas Island;Bonne Esperance
+0;-64.7210,18.3352;00830;Saint John Island;Bordeaux
+0;-64.8921,18.3147;00802;Saint Thomas Island;Bovoni
+0;-64.7040,17.7258;00851;Saint Croix Island;Bugbyhole
+0;-64.7282,17.7402;00820;Saint Croix Island;Bulows Minde
+0;-64.8915,17.7486;00840;Saint Croix Island;Butler Bay
+0;-64.6774,17.7466;00824;Saint Croix Island;Butzberg
+0;-64.7032,18.3277;00830;Saint John Island;Calabash Boom
+0;-64.8685,17.6936;00840;Saint Croix Island;Camporico
+0;-64.7965,17.7602;00841;Saint Croix Island;Canaan
+0;-64.9207,18.3572;00802;Saint Thomas Island;Canaan
+0;-64.8454,17.7050;00840;Saint Croix Island;Cane
+0;-64.8465,17.7194;00840;Saint Croix Island;Cane Valley
+0;-64.8101,17.7716;00841;Saint Croix Island;Canebay
+0;-64.6407,17.7589;00824;Saint Croix Island;Carden
+0;-64.9760,18.3638;00801;Saint Thomas Island;Caret Bay Estate
+0;-64.8499,17.7028;00840;Saint Croix Island;Carlton
+0;-64.7215,18.3472;00830;Saint John Island;Carolina
+0;-64.7454,17.7233;00823;Saint Croix Island;Castle Coakley
+0;-64.6162,17.7480;00824;Saint Croix Island;Catharinas Hope
+0;-64.7176,17.7227;00820;Saint Croix Island;Cathrines Rest
+20000;-64.9307,18.3419;00802;Saint Thomas Island;Charlotte Amalie
+1866;-64.7056,17.7468;00824;Saint Croix Island;Christiansted
+0;-64.7796,17.7752;00841;Saint Croix Island;Clairmont
+0;-64.7751,17.7258;00850;Saint Croix Island;Clifton Hill
+0;-64.8735,17.6861;00840;Saint Croix Island;Concordia
+0;-64.8640,17.7033;00840;Saint Croix Island;Concordia
+0;-64.7688,17.7575;00841;Saint Croix Island;Concordia
+0;-64.7065,18.3105;00830;Saint John Island;Concordia
+0;-64.7924,18.3255;00831;Saint John Island;Contant
+0;-64.9560,18.3419;00801;Saint Thomas Island;Contant
+0;-64.7129,17.7361;00820;Saint Croix Island;Contentment
+0;-64.8099,17.6947;00850;Saint Croix Island;Cooper
+615;-64.7132,18.3480;00830;Saint John Island;Coral Bay
+0;-64.6365,17.7322;00824;Saint Croix Island;Cotton Grove
+0;-64.6199,17.7505;00824;Saint Croix Island;Cotton Valley
+2743;-64.7938,18.3313;00831;Saint John Island;Cruz Bay
+0;-64.8254,17.7033;00850;Saint Croix Island;Diamond
+0;-64.7540,17.7305;00823;Saint Croix Island;Diamond
+0;-64.7138,17.7047;00851;Saint Croix Island;Diamond Keturah
+0;-64.8976,18.3366;00802;Saint Thomas Island;Donoe
+0;-64.9618,18.3586;00801;Saint Thomas Island;Dorothea
+0;-64.6746,18.3397;00830;Saint John Island;East End
+0;-64.7179,18.3480;00830;Saint John Island;Emmaus
+0;-64.7915,18.3283;00831;Saint John Island;Enighed
+0;-64.9226,18.3633;00802;Saint Thomas Island;Enighed
+0;-64.9524,18.3680;00801;Saint Thomas Island;Ensomned
+0;-64.8029,17.6994;00850;Saint Croix Island;Envy
+0;-64.9110,18.3397;00802;Saint Thomas Island;Estate Thomas
+0;-64.6704,17.7155;00851;Saint Croix Island;Fareham
+0;-64.7662,18.3222;00831;Saint John Island;Fish Bay
+0;-64.8068,17.7402;00850;Saint Croix Island;Coble
+0;-64.8829,17.7153;00840;Saint Croix Island;Fort Frederick
+0;-64.8277,17.7500;00841;Saint Croix Island;Fountain
+0;-64.7815,17.7350;00850;Saint Croix Island;Fredensborg
+0;-64.7121,17.7400;00820;Saint Croix Island;Fredensdal
+0;-64.8635,17.7127;00840;Saint Croix Island;Frederiks Haab
+528;-64.8818,17.7123;00840;Saint Croix Island;Frederiksted
+0;-64.7362,18.3597;00830;Saint John Island;Fredriksdal
+0;-64.9421,18.3383;00802;Saint Thomas Island;Frenchtown
+0;-64.7804,17.7461;00850;Saint Croix Island;Friedensfeld
+0;-64.8724,18.3458;00802;Saint Thomas Island;Frydendal
+0;-64.7746,17.7483;00850;Saint Croix Island;Glynn
+0;-64.8010,17.7155;00850;Saint Croix Island;Golden Grove
+0;-64.8485,17.6936;00840;Saint Croix Island;Good Hope
+0;-64.7157,17.7130;00851;Saint Croix Island;Granard
+0;-64.7224,17.7312;00820;Saint Croix Island;Grange
+0;-64.6488,17.7244;00824;Saint Croix Island;Great Pond
+0;-64.6540,17.7586;00824;Saint Croix Island;Green Kay
+0;-64.8226,17.7255;00850;Saint Croix Island;Grove Place
+0;-64.8807,17.7655;00840;Saint Croix Island;Hams Bay
+0;-64.8265,17.7411;00841;Saint Croix Island;Hard Labour
+0;-64.8046,17.7494;00841;Saint Croix Island;Hermitage
+0;-64.7001,18.3563;00830;Saint John Island;Hermitage
+0;-64.8799,17.6975;00840;Saint Croix Island;Hesselberg
+0;-64.8949,18.3336;00802;Saint Thomas Island;Hoffman
+0;-64.8468,17.7094;00840;Saint Croix Island;Hogensborg
+0;-64.7579,17.7147;00823;Saint Croix Island;Hope
+0;-64.8357,17.7186;00850;Saint Croix Island;Hope
+0;-64.7307,17.7122;00823;Saint Croix Island;Humbug
+0;-64.8038,17.7355;00850;Saint Croix Island;Jealousy
+0;-64.7504,17.7125;00823;Saint Croix Island;Jerusalem and Figtree Hill
+0;-64.9971,18.3597;00801;Saint Thomas Island;John Oley
+0;-64.7035,18.3194;00830;Saint John Island;Johns Folly
+0;-64.8613,17.7322;00840;Saint Croix Island;Jolly Hill
+0;-64.7829,17.7230;00850;Saint Croix Island;Kingshill
+0;-64.5940,17.7553;00824;Saint Croix Island;Knight
+0;-64.7593,18.3402;00830;Saint John Island;L'Esperance
+0;-64.7362,17.7575;00820;Saint Croix Island;La Grande Princesse
+0;-64.8785,17.7191;00840;Saint Croix Island;La Grange
+0;-64.7735,17.7327;00850;Saint Croix Island;La Reine
+0;-64.8031,17.7778;00841;Saint Croix Island;La Vallee
+0;-64.7246,18.3205;00830;Saint John Island;Lameshur
+0;-64.6863,17.7264;00824;Saint Croix Island;Laprey Valley
+0;-64.7204,18.3633;00830;Saint John Island;Leinster Bay
+0;-64.9402,18.3602;00802;Saint Thomas Island;Lerkenlund
+0;-64.7854,17.7544;00841;Saint Croix Island;Libanon Hill
+0;-64.9521,18.3544;00801;Saint Thomas Island;Lilliendahl
+0;-64.7643,17.7369;00823;Saint Croix Island;Limetree
+0;-64.7938,17.7516;00841;Saint Croix Island;Little Fountain
+0;-64.6949,17.7161;00851;Saint Croix Island;Longford
+0;-64.9249,18.3511;00802;Saint Thomas Island;Louisenhoj
+0;-64.9110,18.3591;00802;Saint Thomas Island;Lovenlund
+0;-64.8076,17.7222;00850;Saint Croix Island;Lower Love
+0;-64.6724,17.7391;00824;Saint Croix Island;Lowrys Hill
+0;-64.6171,17.7361;00824;Saint Croix Island;Madame Carty
+0;-64.9315,18.3525;00802;Saint Thomas Island;Mafolie
+0;-64.7115,18.3133;00830;Saint John Island;Mandal
+0;-64.8985,18.3555;00802;Saint Thomas Island;Mandal
+0;-64.8815,18.3277;00802;Saint Thomas Island;Mariendal
+0;-64.7418,18.3652;00830;Saint John Island;Mary Point
+0;-64.9318,18.3544;00802;Saint Thomas Island;Misgen
+0;-64.7515,18.3291;00830;Saint John Island;Mollendal
+0;-64.7888,17.7483;00841;Saint Croix Island;Mon Bijou
+0;-64.7763,18.3208;00831;Saint John Island;Monte
+0;-64.8424,17.7389;00840;Saint Croix Island;Montpellier
+0;-64.7562,17.7608;00820;Saint Croix Island;Montpellier
+0;-64.7613,17.7583;00820;Saint Croix Island;Morningstar
+0;-64.8007,17.7458;00841;Saint Croix Island;Mount Pleasant
+0;-64.7365,18.3558;00830;Saint John Island;Mount Pleasant
+0;-64.6879,17.7230;00851;Saint Croix Island;Munster
+0;-64.8782,18.3222;00802;Saint Thomas Island;Nadir
+0;-64.8549,18.3208;00802;Saint Thomas Island;Nazareth
+0;-64.8074,17.7080;00850;Saint Croix Island;Negro Bay
+0;-64.9729,18.3661;00801;Saint Thomas Island;Neltjeberg
+0;-64.8721,17.7530;00840;Saint Croix Island;Nicholas
+0;-64.8882,17.7586;00840;Saint Croix Island;North Side
+0;-64.8185,17.7680;00841;Saint Croix Island;North Star
+0;-64.6774,17.7172;00851;Saint Croix Island;Nugent
+0;-64.7193,17.7455;00820;Saint Croix Island;Orange Grove
+0;-64.8521,17.7372;00840;Saint Croix Island;Orangegrove
+0;-64.8610,17.7391;00840;Saint Croix Island;Oxford
+0;-64.7068,18.3488;00830;Saint John Island;Palestina
+0;-64.8149,17.7044;00850;Saint Croix Island;Paradise
+0;-64.8171,17.7539;00841;Saint Croix Island;Parasol
+0;-64.7338,17.7164;00823;Saint Croix Island;Pearl
+0;-64.9182,18.3402;00802;Saint Thomas Island;Pearson Gardens
+0;-64.9254,18.3716;00802;Saint Thomas Island;Peterborg
+0;-64.7405,17.7255;00823;Saint Croix Island;Peters Rest
+0;-64.6679,17.7275;00824;Saint Croix Island;Petronella
+0;-64.8613,17.7491;00840;Saint Croix Island;Pleasant Vale
+0;-64.8204,17.7166;00850;Saint Croix Island;Plessen
+0;-64.7804,17.7172;00850;Saint Croix Island;Profit
+0;-64.8821,17.7261;00840;Saint Croix Island;Prosperity
+0;-64.8682,17.7422;00840;Saint Croix Island;Punch
+0;-64.9090,18.3344;00802;Saint Thomas Island;Raphune
+0;-64.7526,17.7519;00820;Saint Croix Island;Rattan and Belvedere
+0;-64.6979,17.7364;00824;Saint Croix Island;Recovery Hill
+0;-64.7379,18.3294;00830;Saint John Island;Reef Bay
+0;-64.9565,18.3544;00801;Saint Thomas Island;Resolution
+0;-64.7160,17.7452;00820;Saint Croix Island;Richmond
+0;-64.8513,17.7150;00840;Saint Croix Island;Robe Hill
+0;-64.9121,18.3522;00802;Saint Thomas Island;Rosendal
+0;-64.8432,17.6916;00840;Saint Croix Island;Ruan Bay
+0;-64.7549,17.7369;00823;Saint Croix Island;Ruby
+0;-64.6829,17.7280;00824;Saint Croix Island;Ryan
+50601;-64.7470,17.7275;00823;Saint Croix Island;Saint Croix
+0;-64.7471,17.7636;00820;Saint Croix Island;Saint John
+0;-64.7496,18.3397;00830;Saint John Island;Saint John
+0;-64.6926,17.7419;00824;Saint Croix Island;Saint Peter
+0;-64.6668,17.7358;00824;Saint Croix Island;Sallys Fancy
+0;-64.8804,17.6919;00840;Saint Croix Island;Sandy Point
+0;-64.9782,18.3586;00801;Saint Thomas Island;Santa Maria Estate
+0;-64.6513,17.7458;00824;Saint Croix Island;Seven Hills
+0;-64.6824,17.7553;00824;Saint Croix Island;Shoys
+0;-64.7604,18.3308;00830;Saint John Island;Sieben
+0;-64.7432,17.7325;00820;Saint Croix Island;Sion Farm
+0;-64.7471,17.7411;00820;Saint Croix Island;Sion Hill
+0;-64.7804,17.7308;00850;Saint Croix Island;Slob
+0;-64.8804,17.6997;00840;Saint Croix Island;Smithfield
+0;-64.9418,18.3475;00802;Saint Thomas Island;Solberg
+0;-64.6312,17.7561;00824;Saint Croix Island;Solitude
+0;-64.9829,18.3655;00801;Saint Thomas Island;Sorgenfri
+0;-64.6007,17.7578;00824;Saint Croix Island;Southgate
+0;-64.7729,17.7172;00850;Saint Croix Island;Spanish Town
+0;-64.8921,17.7425;00840;Saint Croix Island;Sprat Hall Beach
+0;-64.8321,17.7311;00850;Saint Croix Island;Springfield
+0;-64.7610,17.7322;00823;Saint Croix Island;Strawberry Hill
+0;-64.7485,17.7269;00823;Saint Croix Island;Sunny Isle
+0;-64.7729,18.3413;00831;Saint John Island;Susannaberg
+0;-64.6049,17.7519;00824;Saint Croix Island;Teagues Bay
+0;-64.6696,17.7553;00824;Saint Croix Island;Testman
+5519;-64.8865,18.3388;00802;Saint Thomas Island;Tutu
+0;-64.8793,17.7064;00840;Saint Croix Island;Two Brothers
+0;-64.8154,17.7311;00850;Saint Croix Island;Upper Love
+0;-64.8443,17.7166;00840;Saint Croix Island;Waldberggaard
+0;-64.8710,17.7122;00840;Saint Croix Island;Wheel of Fortune
+0;-64.8621,17.7000;00840;Saint Croix Island;Whim
+0;-64.8738,17.6883;00840;Saint Croix Island;Whites Bay
+0;-64.8888,17.7344;00840;Saint Croix Island;William
+0;-64.8354,17.7000;00850;Saint Croix Island;Williams Delight
+0;-64.7404,18.3569;00830;Saint John Island;Windberg
+0;-64.7738,17.7586;00841;Saint Croix Island;Windsor
+0;-64.9765,18.3561;00801;Saint Thomas Island;Zambee
+0;-64.8277,17.7228;00850;Saint Croix Island;Grove Place
+0;-64.8504,18.3346;00831;Saint Thomas Island;Sapphire Village

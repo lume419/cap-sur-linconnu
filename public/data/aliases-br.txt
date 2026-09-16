@@ -1,0 +1,3278 @@
+pt;Zézito;Zezito
+ru;Витория-де-Санту-Антан;Vitória de Santo Antão
+pt;Quilômetro Oitenta;Quilômetro 80
+ru;Вила-Флор;Vila Flor
+zh;维拉弗洛尔;Vila Flor
+ru;Висоза;Viçosa
+zh;维索萨;Viçosa
+ru;Виана;Viana
+pt;Veraneio Icaraí;Icaraí
+pt;Uruguinha;Uruguaiana
+ru;Тукурви;Tucuruí
+ru;Торитама;Toritama
+ru;Тимон;Timon
+ru;Тибау-ду-Сул;Tibau do Sul
+zh;南蒂鲍;Tibau do Sul
+ru;Терезина;Teresina
+ar;تيريسينا;Teresina
+ja;テレジーナ;Teresina
+ko;테레지나;Teresina
+zh;特雷西納;Teresina
+hi;तेरेसीना;Teresina
+ru;Тейшейра;Teixeira
+zh;特谢拉;Teixeira
+pt;Topada;Valdemar Lima
+pt;Praia da Taiba;Taiba
+ru;Собрал;Sobral
+ru;Сиринхаем;Sirinhaém
+pt;Agrovila do PA Campo Comprido;Agrovila do Projeto de Assentamento Campo Comprido
+pt;Serra Vermelha;Agrovila do Projeto de Assentamento Serra Vermelha
+pt;Agrovila do PA Serra Vermelha;Agrovila do Projeto de Assentamento Serra Vermelha
+pt;Agrovila do PA Serra Verde;Agrovila do Projeto de Assentamento Serra Verde
+ru;Серра-Тальяда;Serra Talhada
+zh;塞拉塔利亚达;Serra Talhada
+ru;Серра-Негра-ду-Норти;Serra Negra do Norte
+zh;北塞拉内格拉;Serra Negra do Norte
+ru;Сан-Себастьян;São Sebastião
+pt;Agrovila do PA São Pedro;Agrovila do Projeto de Assentamento São Pedro
+ru;Сан-Мигел-ду-Тапую;São Miguel do Tapuio
+zh;圣米格尔-杜塔普尤;São Miguel do Tapuio
+ru;Сан-Мигель-дус-Кампус;São Miguel dos Campos
+ru;Сан-Мигел;São Miguel
+zh;圣米格尔;São Miguel
+pt;Sâo Miguel;São Miguel
+pt;São Luís;São Luis
+ru;Сан-Луис;São Luís
+ar;ساو لويز;São Luís
+ja;サン・ルイス;São Luís
+ko;상루이스;São Luís
+zh;圣路易斯;São Luís
+hi;साओ लुइस;São Luís
+ru;Сан-Лоренсу-да-Мата;São Lourenço da Mata
+pt;São José;São José de Solonópole
+ru;Сао Жосе Де Рибамар;São José de Ribamar
+pt;São José da Mata;Queimadas
+pt;São Jorge do Jabuti;São Jorge
+ru;Сан-Жуан-ду-Пиауи;São João do Piauí
+zh;皮奥伊州圣若昂;São João do Piauí
+pt;São Gerônimo;Núcleo Colonial Pio XII
+ru;Сао Гонкало До Амаранте;São Gonçalo do Amarante
+ru;Сао Феликс До Ксингу;São Félix do Xingu
+ru;Сан-Бенту;São Bento
+ru;Санта Рита;Santa Rita
+ru;Сантарен;Santarém
+ja;サンタレン;Santarém
+ko;산타렝;Santarém
+zh;聖塔倫;Santarém
+ru;Сантана-ду-Ипанема;Santana do Ipanema
+pt;Agrovila do PA Santa Maria III;Agrovila do Projeto de Assentamento Santa Maria III
+pt;Sítio Santa Maria;Santa Maria
+ru;Санта-Инес;Santa Inês
+pt;Agrovila do PA Santa Helena;Agrovila do Projeto de Assentamento Santa Helena
+ru;Санта-Крус-ду-Капибариби;Santa Cruz do Capibaribe
+zh;圣克鲁斯-杜卡皮巴里比;Santa Cruz do Capibaribe
+ru;Санта-Крус;Santa Cruz
+zh;聖克魯斯;Santa Cruz
+ru;Салгейру;Salgueiro
+pt;Rio Doce I;Rio Doce
+ru;Риашу-ди-Сантана;Riacho de Santana
+zh;里亞舒迪聖安娜;Riacho de Santana
+pt;Agrovila do PA Recreio;Agrovila do Projeto de Assentamento Recreio
+ja;レシフェ;Recife
+ru;Ресифи;Recife
+ar;ريسيفي;Recife
+hi;रिसीफ़ी;Recife
+ko;헤시피;Recife
+zh;累西腓;Recife
+ru;Рафаэл-Фернандис;Rafael Fernandes
+zh;拉斐尔费尔南德斯;Rafael Fernandes
+pt;Queimade Grande;Queimada Grande
+pt;Queimado;Queimada
+pt;Quati;Quatis
+pt;Punaú;Vila Punaú
+pt;Agrovila do PA Prensa;Agrovila do Projeto de Assentamento Prensa
+ru;Сантана;Santana
+es;Puerto de Gallinas;Porto de Galinhas
+pt;Pôrto Alegre;Porto Alegre
+ru;Порталегри;Portalegre
+zh;波尔塔莱格里;Portalegre
+pt;Ponta do Flechal;Pontal do Flechal
+pt;Ponto Alegre;Ponta Alegre
+ru;Помбал;Pombal
+zh;蓬巴尔;Pombal
+pt;Agrovila do PA Poço Novo;Agrovila do Projeto de Assentamento Poço Novo
+ru;Посиньюс;Pocinhos
+zh;波西纽斯;Pocinhos
+ru;Пиньейру;Pinheiro
+ru;Пилойнс;Pilões
+zh;皮龍伊斯;Pilões
+ru;Пилар;Pilar
+en;Pikus;Picos
+ru;Пикус;Picos
+ja;ピークス;Picos
+ko;피쿠스;Picos
+zh;皮库斯;Picos
+pt;Piau;Piaú
+ru;Петролина;Petrolina
+zh;彼得羅利納;Petrolina
+ru;Ятоба;Jatobá
+ru;Пернамбуку;Pernambuco
+ru;Педра-Бранка;Pedra Branca
+ru;Паулу-Афонсу;Paulo Afonso
+zh;保罗·阿方索城;Paulo Afonso
+ru;Паулиста;Paulista
+ru;Пау-дус-Феррус;Pau dos Ferros
+zh;保杜斯费鲁斯;Pau dos Ferros
+ru;Патус;Patos
+zh;帕图斯;Patos
+ru;Парнамирин;Parnamirim
+ru;Парнаиба;Parnaíba
+zh;巴纳伊巴;Parnaíba
+ru;Паринтинса;Parintins
+ru;Параиба;Paraíba
+ru;Парагоминас;Paragominas
+ru;Палмарис;Palmares
+zh;帕尔马里斯;Palmares
+ja;オリンダ;Olinda
+ko;올린다;Olinda
+ru;Олинда;Olinda
+zh;奧林達;Olinda
+ru;Уэйрас;Oeiras
+zh;奥埃拉斯;Oeiras
+zh;奧比多斯;Óbidos
+ru;Обидус;Óbidos
+ru;Назар-да-Мата;Nazaré da Mata
+ru;Натал;Natal
+ar;ناتال;Natal
+hi;नेटाल;Natal
+ja;ナタル;Natal
+pt;Praia do Mundaú;Mundaú
+pt;Morro da Mariana;Morro da Marinha
+pt;Agrovila do PA Mucuim II;Agrovila do Projeto de Assentamento Mucuim II
+ru;Монти-Алегри;Monte Alegre
+ja;モソロー;Mossoró
+ru;Мосоро;Mossoró
+zh;莫索罗;Mossoró
+pt;Agrovila do PA Meu Rancho;Agrovila do Projeto de Assentamento Meu Rancho
+ru;Мартинс;Martins
+zh;马丁斯;Martins
+pt;Marrêtas;Marretas
+ru;Марселину-Виейра;Marcelino Vieira
+zh;马塞利努维埃拉;Marcelino Vieira
+ru;Марангуапе;Maranguape
+ru;Мараканау;Maracanaú
+ar;مارابا;Marabá
+ko;마라바;Marabá
+ru;Мараба;Marabá
+zh;马拉巴;Marabá
+ru;Мажор-Салис;Major Sales
+zh;马若尔萨利斯;Major Sales
+ru;Масейо;Maceió
+ar;ماسايو;Maceió
+ja;マセイオ;Maceió
+ko;마세이오;Maceió
+zh;马塞约;Maceió
+en;Macelo;Maceió
+hi;मासेइओ;Maceió
+ru;Макау;Macau
+zh;馬考;Macau
+ru;Макапа;Macapá
+ar;ماكابا;Macapá
+ja;マカパ;Macapá
+ko;마카파;Macapá
+zh;馬卡帕;Macapá
+hi;मकापा;Macapá
+ru;Луис-Гомис;Luís Gomes
+zh;路易斯戈梅斯;Luís Gomes
+pt;Lingua de Vaca;Língua de Vaca
+ru;Лажеду;Lajedo
+ru;Лаго-да-Педра;Lago da Pedra
+pt;Lagoa Seca;Lagoa Sêca
+pt;Agrovila do PA Lagoa Nova II;Agrovila do Projeto de Assentamento Lagoa Nova II
+pt;Agrovila do PA Lagoa Nova I;Agrovila do Projeto de Assentamento Lagoa Nova I
+pt;Lagoa dos Filós;Lagoa dos Filos
+pt;Lagoa;Lagoa de São Francisco
+ru;Лагоа;Lagoa
+zh;拉戈阿;Lagoa
+pt;Serpa;Justiniano de Serpa
+pt;Justiniano Serpa;Justiniano de Serpa
+ru;Журути;Juruti
+zh;茹魯蒂;Juruti
+ru;Жуазейру-ду-Норти;Juazeiro do Norte
+zh;北茹阿澤魯;Juazeiro do Norte
+ru;Жуазеиро;Juazeiro
+ru;Жозе-да-Пенья;José da Penha
+zh;若泽-达佩尼亚;José da Penha
+ru;Жуан-Песоа;João Pessoa
+ar;جواو بيسوا;João Pessoa
+ja;ジョアンペソア;João Pessoa
+ko;주앙페소아;João Pessoa
+zh;若昂佩索阿;João Pessoa
+hi;जोआओ पेसोआ;João Pessoa
+pt;Jeritacó;Jeritaco
+pt;Agrovila do PA Jatobá;Agrovila do Projeto de Assentamento Jatobá
+ru;Жандуис;Janduís
+zh;然杜伊斯;Janduís
+ru;Жагуариби;Jaguaribe
+ru;Итакоатиара;Itacoatiara
+ru;Итапипока;Itapipoca
+en;Itapajé;Itapagé
+ru;Итаитуба;Itaituba
+ru;Ипожука;Ipojuca
+pt;Inga;Ingá
+ru;Императрис;Imperatriz
+zh;因佩拉特里斯;Imperatriz
+ru;Игарасу;Igarassu
+zh;伊加拉苏;Igarassu
+en;Gurjao;Gurjão
+zh;吉马朗伊斯;Guimarães
+ru;Гимарайнс;Guimarães
+ru;Гуарабира;Guarabira
+zh;瓜拉比拉;Guarabira
+pt;Graças;Garças
+ru;Гояна;Goiana
+zh;戈亚纳;Goiana
+pt;Góes;Goés
+ru;Гараньюнс;Garanhuns
+ru;Форталеза;Fortaleza
+ja;フォルタレザ;Fortaleza
+ar;فورتاليزا;Fortaleza
+ko;포르탈레자;Fortaleza
+zh;福塔雷萨;Fortaleza
+hi;फोर्टालेजा;Fortaleza
+ru;Флориан;Floriano
+ru;Флориану;Floriano
+zh;弗洛里亚努;Floriano
+ru;Флореста;Floresta
+zh;弗洛雷斯塔;Floresta
+pt;Boa Morte;Extrema
+ru;Эусебио;Eusébio
+ru;Эстремос;Extremoz
+zh;埃斯特雷穆斯;Extremoz
+pt;Agrovila do PA Espinheiro;Agrovila do Projeto de Assentamento Espinheiro
+ru;Экуадор;Equador
+zh;赤道镇;Equador
+ru;Дотор-Севериану;Doutor Severiano
+zh;塞韦里亚努博士镇;Doutor Severiano
+pt;Agrovila do PA Dourada;Agrovila do Projeto de Assentamento Dourada
+ru;Куррайс-Новус;Currais Novos
+zh;新库赖斯;Currais Novos
+pt;Agrovila do PA Cuiabá;Agrovila do Projeto de Assentamento Cuiabá
+pt;Vila do Cravo;Cravo
+ru;Крату;Crato
+zh;克拉图;Crato
+ru;Коронел-Жуан-Песоа;Coronel João Pessoa
+zh;若昂佩索阿上校镇;Coronel João Pessoa
+pt;Comum;Comun
+ru;Колинас;Colinas
+ru;Кодо;Codó
+pt;Cercado Velho;Cercado Novo
+ru;Кашиас;Caxias
+zh;卡希亚斯;Caxias
+ru;Каукаиа;Caucaia
+pt;Catinga;Caatinga
+ru;Кастаньял;Castanhal
+zh;卡斯塔尼亞爾;Castanhal
+ru;Каруару;Caruaru
+ru;Карпина;Carpina
+ru;Каролина;Carolina
+zh;卡罗利纳;Carolina
+pt;Carnaubeira;Carnaubeira da Penha
+ru;Канинде;Canindé
+zh;卡宁德;Canindé
+ru;Кангуаретама;Canguaretama
+zh;坎瓜雷塔马;Canguaretama
+ru;Кампу-Майор;Campo Maior
+zh;坎普马约尔;Campo Maior
+pt;Campinho;Campinhos
+ja;カンピナグランデ;Campina Grande
+ru;Кампина-Гранде;Campina Grande
+ko;캄피나그란지;Campina Grande
+ru;Кампина-Гранди;Campina Grande
+zh;大坎皮納;Campina Grande
+ru;Камета;Cametá
+ru;Камарагибе;Camaragibe
+pt;Camaipi;Renascença
+ru;Кажазейрас;Cajazeiras
+zh;卡雅泽拉斯;Cajazeiras
+pt;Cajàzeira;Cajazeiras
+ru;Кайко;Caicó
+zh;凯科;Caicó
+pt;Cachoeira Sêca;Cachoeira Seca
+pt;Caboclo;Cabloco
+ru;Кабо Де Санто Агостиньё;Cabo de Santo Agostinho
+pt;Agrovila do PA Cabelo de Negro;Agrovila do Projeto de Assentamento Cabelo de Negro
+ru;Кабеделу;Cabedelo
+zh;卡贝德卢;Cabedelo
+pt;Morro Cabeçano no Tempo;Morro Cabeça no Tempo
+pt;Cabeça no Tempo;Morro Cabeça no Tempo
+ru;Буики;Buíque
+ru;Бревес;Breves
+pt;Brejo;Brejo de João Alves
+ru;Браганка;Bragança
+ru;Борба;Borba
+zh;博爾巴;Borba
+pt;Bom Principio;Bom Princípio
+pt;Bodocongó;Barra de Santana
+ru;Безеррус;Bezerros
+pt;Sitio Bertioga;Bertioga
+pt;Ladeira da Bertioga;Bertioga
+ru;Белем;Belém
+ru;Белен;Belém
+zh;貝倫;Belém
+ja;ベレン;Belém
+gn;Velẽ;Belém
+ar;بيليم;Belém
+ko;벨렝;Belém
+zh;贝伦;Belém
+hi;बेलेम;Belém
+ru;Беберибе;Beberibe
+pt;Agrovila do PA Pirangi;Agrovila do Projeto de Assentamento Pirangi
+pt;Agrovila do PA Barreiro;Agrovila do Projeto de Assentamento Barreiro
+pt;Barreira Branca;Barreira do Campo
+ru;Баррас;Barras
+ru;Баркарена;Barcarena
+pt;Agrovila do PA Barandão;Agrovila do Projeto de Assentamento Barandão
+ru;Бальсас;Balsas
+pt;Baixa do Quim-Quim;Baixa do QuinQuim
+ru;Баиа-Формоза;Baía Formosa
+zh;巴伊亚福尔莫萨;Baía Formosa
+ru;Бакабал;Bacabal
+pt;Agrovila do PA Arizona I;Agrovila do Projeto de Assentamento Arizona I
+pt;Agrovila do PA Arizona;Agrovila do Projeto de Assentamento Arizona
+ru;Арковерди;Arcoverde
+ru;Арарипина;Araripina
+ar;أرارا;Arara
+ja;アララ;Arara
+ko;아라라;Arara
+ru;Арара;Arara
+zh;阿拉拉;Arara
+ru;Арапирака;Arapiraca
+ru;Арагуаина;Araguaína
+pt;Agrovila do Projeto de Assentamento Zabelê;Assentamento Aracati
+pt;Agrovila do PA Zabelê;Assentamento Aracati
+ru;Аракати;Aracati
+zh;阿拉卡蒂;Aracati
+ru;Аподи;Apodi
+zh;阿波迪;Apodi
+ru;Ананиндеуа;Ananindeua
+ja;アナニンデウア;Ananindeua
+ko;아나닌데우아;Ananindeua
+zh;阿納寧德瓦;Ananindeua
+pt;Agrovila do PA Palestina;Agrovila do Projeto de Assentamento Palestina
+pt;Alta Alegre;Alto Alegre
+ru;Альтамира;Altamira
+ru;Алтамира;Altamira
+zh;阿爾塔米拉;Altamira
+ru;Алмейрин;Almeirim
+ru;Алешандрия;Alexandria
+zh;亚历山大;Alexandria
+ru;Агуа-Нова;Água Nova
+zh;新阿瓜多西;Água Nova
+pt;Agrovila do PA Água Branca;Agrovila do Projeto de Assentamento Água Branca
+ru;Акарау;Acaraú
+ru;Абреу-и-Лима;Abreu e Lima
+zh;阿布雷乌埃利马;Abreu e Lima
+ru;Абаететуба;Abaetetuba
+pt;Agrovila do PA Serrote-Serra Branca;Agrovila do Projeto de Assentamento Serrote-Serra Branca
+pt;Cana Brava;Cana-Brava
+pt;PA Barroca da Vaca;Projeto de Assentamento Barroca da Vaca
+pt;São Sebastião;São Sebastião do Uatumã
+pt;Tabocão;Fortaleza do Tabocão
+pt;Warnow;Warnow Grande
+ru;Вотупоранга;Votuporanga
+ru;Воторантим;Votorantim
+pt;V Redonda;Volta Redonda
+ru;Волта-Редонда;Volta Redonda
+zh;沃尔塔雷东达;Volta Redonda
+ru;Витория-да-Конкиста;Vitória da Conquista
+ja;ヴィトリア・ダ・コンキスタ;Vitória da Conquista
+zh;维多利亚-达孔基斯塔;Vitória da Conquista
+ja;ビトリア;Vitória
+ru;Витория;Vitória
+ar;فيتوريا;Vitória
+hi;विटोरिया;Vitória
+pt;Vítor Hugo;Victor Hugo
+ru;Вила-Велья;Vila Velha
+ja;ヴィラ・ヴェーリャ;Vila Velha
+ko;빌라벨랴;Vila Velha
+zh;韦利亚镇;Vila Velha
+pt;Vila Leuza;Vila Leusa
+pt;Vila Cajado;Cajado
+pt;Vieiras;Igrejinha dos Vieira
+pt;Engenheiro Vieira Cortes;Engenheiro Vieira Cortês
+ru;Видейра;Videira
+ja;ヴィソーザ;Viçosa
+ko;비소자;Viçosa
+zh;維索薩;Viçosa
+pt;Vianópolis de Minas;Vianópolis
+ru;Виаман;Viamão
+zh;维亚芒;Viamão
+ru;Веспасиано;Vespasiano
+pt;Venda;Venda Nova do Imigrante
+pt;Veadinho;Tabajara
+ru;Васорас;Vassouras
+zh;瓦索拉斯;Vassouras
+ru;Варзеа Паулиста;Várzea Paulista
+ru;Варзеа Гранде;Várzea Grande
+ru;Варжинья;Varginha
+zh;瓦尔任阿;Varginha
+pt;Varginha;Lacerdinha
+ru;Варжен-Гранди-ду-Сул;Vargem Grande do Sul
+pt;Vargem Grande;Vargem Grande do Bom Jesus
+pt;Vargem Grande;Várzea Grande
+pt;Vargem;Vargem do Bento da Costa
+ru;Валиньюс;Valinhos
+zh;瓦利尼乌斯;Valinhos
+ru;Валенса;Valença
+ko;발렌사;Valença
+zh;瓦倫薩;Valença
+ru;Вакария;Vacaria
+ru;Уругуаяна;Uruguaiana
+zh;乌鲁瓜亚纳;Uruguaiana
+ru;Уруасу;Uruaçu
+ru;Униан-да-Витория;União da Vitória
+zh;乌尼昂-达维多利亚;União da Vitória
+ru;Унай;Unaí
+ru;Умуарама;Umuarama
+ja;ウベルランジア;Uberlândia
+ko;우베를란지아;Uberlândia
+ru;Уберландия;Uberlândia
+zh;烏貝蘭迪亞;Uberlândia
+ru;Убераба;Uberaba
+zh;烏貝拉巴;Uberaba
+ru;Убатуба;Ubatuba
+zh;乌巴图巴;Ubatuba
+ru;Уба;Ubá
+zh;乌巴;Ubá
+ru;Тупасигуара;Tupaciguara
+ru;Тупа;Tupã
+ru;Тупан;Tupã
+zh;图庞;Tupã
+ru;Тумиритинга;Tumiritinga
+zh;图米里廷加;Tumiritinga
+ja;オオハシ上科;Tucano
+ru;Тукану;Tucano
+zh;圖卡諾;Tucano
+ru;Тубаран;Tubarão
+zh;图巴朗;Tubarão
+pt;Trocadeiro;Trocadeiro da Penha
+pt;Trinta Réis;Trinta-Réis
+ru;Триндади;Trindade
+zh;特林达迪;Trindade
+ru;Трес-Риус;Três Rios
+zh;特雷斯里奥斯;Três Rios
+ru;Трес-Понтас;Três Pontas
+zh;特雷斯蓬塔斯;Três Pontas
+ar;تريس لاغواس;Três Lagoas
+ru;Трес-Лагоас;Três Lagoas
+ru;Трес-Корасойнс;Três Corações
+zh;特雷斯科拉松伊斯;Três Corações
+pt;Três Barras;Três Barras do Paraná
+pt;Três Barras;São Sebastião de Três Barras
+pt;Três Barras;Três Barras da Estrada Real
+ru;Торрес;Torres
+ru;Торрис;Torres
+zh;托里斯;Torres
+pt;Tôrres;São Sebastião dos Torres
+ru;Томазина;Tomazina
+zh;托马齐纳;Tomazina
+ru;Толедо;Toledo
+zh;托莱多;Toledo
+ru;Тимофей;Timóteo
+ja;ティモテオ;Timóteo
+ru;Тимотеу;Timóteo
+zh;蒂莫特乌;Timóteo
+ru;Тижукас-ду-Сул;Tijucas do Sul
+zh;南蒂茹卡斯;Tijucas do Sul
+ru;Тижукас;Tijucas
+pt;Tijucal;Presidente Kubitschek
+ru;Тиете;Tietê
+zh;铁特;Tietê
+ru;Терезополис;Teresópolis
+zh;特雷索波利斯;Teresópolis
+pt;Santa Teresinha de Goiás;Santa Terezinha de Goiás
+ar;تيوفيلو أوتوني;Teófilo Otoni
+ru;Теофилу-Отони;Teófilo Otoni
+zh;特奥菲卢奥托尼;Teófilo Otoni
+ru;Теодору-Сампаю;Teodoro Sampaio
+zh;特奧多魯桑帕尤;Teodoro Sampaio
+ru;Телемаку-Борба;Telêmaco Borba
+zh;特莱马库博尔巴;Telêmaco Borba
+ay;Telemaco Borba;Telêmaco Borba
+gn;Telemaco Borba;Telêmaco Borba
+pt;Tavares;Tavares de Minas
+gn;Táva yvate;Taubaté
+ja;タウバテ;Taubaté
+ru;Таубате;Taubaté
+zh;陶巴特;Taubaté
+ru;Татуи;Tatuí
+zh;塔图伊;Tatuí
+pt;Taruaçu;Taruaçu de Minas
+ar;تاكواريتينغا;Taquaritinga
+ru;Такуаритинга;Taquaritinga
+zh;塔夸里廷加;Taquaritinga
+ru;Такуари;Taquari
+pt;Taquaral;Taquaral de Guanhães
+pt;Taquaral;Taquaral de Goiás
+pt;Taquaraí;Taquaral de Goiás
+pt;Tapa-Ôlho;Teresina de Goiás
+pt;Tamburi;Tambori
+ru;Тайобейрас;Taiobeiras
+pt;Tábuas;Tabuas
+pt;Tabocas;Vale das Tabocas
+ru;Табоао Да Серра;Taboão da Serra
+ru;Сузано;Suzano
+ja;スザノ;Suzano
+ru;Сузану;Suzano
+zh;蘇扎諾;Suzano
+ru;Сумаре;Sumaré
+zh;蘇馬雷;Sumaré
+pt;Suiço;Suíço
+pt;Sousas;Souza
+ja;ソロカーバ;Sorocaba
+ko;소로카바;Sorocaba
+ru;Сорокаба;Sorocaba
+zh;索羅卡巴;Sorocaba
+pt;Solidão;Vila Solidão
+ru;Сокорро;Socorro
+ru;Сокорру;Socorro
+zh;索科鲁;Socorro
+zh;小楼镇;Sobradinho
+pt;Sítio;Sítio da Baraúna
+ru;Симан-Диас;Simão Dias
+zh;西芒迪亞斯;Simão Dias
+ru;Сети-Лагоас;Sete Lagoas
+ru;Сертаозиньё;Sertãozinho
+ru;Серру;Serro
+zh;塞鲁;Serro
+pt;Serra da Esperança;Serra da Boa Esperança
+pt;Serra Branca;Serra Branca de Minas
+pt;Bairro da Serra;Bairro Serra
+pt;Serra;Bairro Serra
+ru;Серра;Serra
+ru;Серопедика;Seropédica
+zh;塞罗佩迪卡;Seropédica
+ru;Сенадор Канедо;Senador Canedo
+ru;Саранди;Sarandi
+ru;Сапукая;Sapucaia do Sul
+ru;Сан-Висенти-ди-Минас;São Vicente de Minas
+zh;圣维森特-迪米纳斯;São Vicente de Minas
+ru;Сан-Висенти;São Vicente
+zh;聖維森特市;São Vicente
+ko;상비센치;São Vicente
+ru;Сан-Симан;São Simão
+zh;聖西芒;São Simão
+pt;São Sebastião do Paraju;Alto Paraju
+ru;Сан-Себастьян-ду-Параисо;São Sebastião do Paraíso
+ru;Сан-Себастьян-ду-Параизу;São Sebastião do Paraíso
+zh;圣塞巴斯蒂昂-杜帕拉伊苏;São Sebastião do Paraíso
+pt;São Sebastião do Monte Alegre;São Sebastião da Vista Alegre
+zh;聖塞巴斯蒂昂;São Sebastião
+pt;São Sebastião;São Sebastião do Norte
+pt;São Roque;São Roque do Canaã
+pt;São Roque;São Roque da Terra Roxa
+ru;Сан-Педру-да-Алдея;São Pedro da Aldeia
+zh;圣佩德罗-达阿尔德亚;São Pedro da Aldeia
+ru;Сан-Педру;São Pedro
+zh;聖佩德羅;São Pedro
+pt;São Pedro;Colina São Pedro dos Morrinhos
+pt;São Pedro;São Pedro do Pampã
+ar;ساو باولو;São Paulo
+it;San Paolo;São Paulo
+ja;サンパウロ;São Paulo
+ko;상파울루;São Paulo
+ru;Сан-Паулу;São Paulo
+pt;São Paulo capital;São Paulo
+pt;Sampa;São Paulo
+ht;São Paolo;São Paulo
+hi;साओ पाउलो;São Paulo
+ay;San Pauluw;São Paulo
+ko;상파올로;São Paulo
+ko;상파울로;São Paulo
+ko;상파올루;São Paulo
+zh;圣保罗;São Paulo
+pt;São Paulinho;São Paulino
+en;São Miguel do Oeste;São Miguel d'Oeste
+pt;São Miguel;São Miguel da Serra
+pt;São Miguel;São Miguel do Passa Quatro
+ru;Сан-Матеус-ду-Сул;São Mateus do Sul
+pt;São Mateus;São Mateus de Minas
+ru;Сан-Матеус;São Mateus
+pt;São Manuel de Carangola;São Manuel do Boi
+ru;Сан-Мануэль;São Manuel
+pt;São Luís do Miranda;São Luiz de Miranda
+pt;São Luís da Boa Sorte;São Luís de Boa Sorte
+ru;Сан-Лоренсу-ду-Сул;São Lourenço do Sul
+ru;Сан-Лоренсу;São Lourenço
+ja;サン・レオポルド;São Leopoldo
+ko;상레오폴두;São Leopoldo
+ru;Сан-Леополду;São Leopoldo
+zh;圣利奥波尔杜;São Leopoldo
+pt;São Leocádia;Santa Leocádia
+ru;Сан-Жозе-дус-Пиньяйс;São José dos Pinhais
+zh;聖若澤杜斯皮尼艾斯;São José dos Pinhais
+ru;Сан-Жозе-дус-Кампус;São José dos Campos
+pt;Vale do Paraíba;São José dos Campos
+pt;SJCampos;São José dos Campos
+pt;Vale Paraiba;São José dos Campos
+ko;상조제두스캄푸스;São José dos Campos
+ja;サン・ジョゼ・ドス・カンポス;São José dos Campos
+zh;聖若澤多斯坎波斯;São José dos Campos
+pt;SJC;São José dos Campos
+pt;SJ Campos;São José dos Campos
+pt;São José do Rio Preto;São José do Vale do Rio Preto
+pt;Rio Preto;São José do Rio Preto
+ru;Сан-Жозе-ду-Риу-Прету;São José do Rio Preto
+ja;サン・ジョゼー・ド・リオ・プレト;São José do Rio Preto
+zh;普雷图河畔圣若泽;São José do Rio Preto
+pt;Sao Jose do Rio Preto;São José do Rio Preto
+pt;São José do Rio dos Veados;São José do Rio Veado
+ru;Сан-Жозе-да-Боа-Виста;São José da Boa Vista
+zh;圣若泽-达博阿维斯塔;São José da Boa Vista
+ru;Сао Жосе;São José
+ru;Сан-Жозе;São José
+zh;圣若泽;São José
+pt;São José;São José do Caparaó
+pt;São José;Córrego José Pedro
+pt;São José;São Simão do Rio Preto
+pt;São José do Rio Preto;São Simão do Rio Preto
+pt;São José;São José de Mantenópolis
+pt;São José;São José da Vitória
+ru;Сан-Жуан-Непомусено;São João Nepomuceno
+pt;São João de Sul;São João do Sul
+ru;Сан-Жуан-ди-Мерити;São João de Meriti
+zh;聖若昂迪梅里蒂;São João de Meriti
+fr;São João del-Rei;São João del Rei
+pt;São João del-Rei;São João del Rei
+nl;São João del-Rei;São João del Rei
+es;São João del-Rei;São João del Rei
+it;São João del-Rei;São João del Rei
+ja;サン・ジョアン・デル・レイ;São João del Rei
+ko;상조앙지우레이;São João del Rei
+ru;Сан-Жуан-дел-Рей;São João del Rei
+zh;圣若昂-德雷;São João del Rei
+ru;Сан-Жуан-да-Барра;São João da Barra
+ru;Сан-Жерониму-да-Серра;São Jerônimo da Serra
+zh;圣热罗尼穆-达塞拉;São Jerônimo da Serra
+pt;São Gonçalo do Rio Acima;São Gonzalo do Monte
+ja;サンゴンサロ;São Gonçalo
+ko;상곤살루;São Gonçalo
+ru;Сан-Гонсалу;São Gonçalo
+zh;聖貢薩洛;São Gonçalo
+ar;ساو غونسالو;São Gonçalo
+pt;São Gonçalo;São Gonçalo de Botelhos
+pt;São Gabriel;São Gabriel da Palha
+ru;Сан-Франсиску-ду-Сул;São Francisco do Sul
+es;San Francisco del Sur;São Francisco do Sul
+zh;南圣弗朗西斯科;São Francisco do Sul
+ru;Сан-Франсиску-ду-Конде;São Francisco do Conde
+ru;Сан-Франсиску-ди-Паула;São Francisco de Paula
+zh;圣弗朗西斯科-迪保拉;São Francisco de Paula
+ru;Сан-Франсиску-ди-Асис;São Francisco de Assis
+zh;圣弗朗西斯科-迪阿西斯;São Francisco de Assis
+pt;São Francisco;São Francisco da Praia
+ru;Сан-Франсиску;São Francisco
+zh;聖弗朗西斯科;São Francisco
+pt;São Félix;São Félix de Minas
+pt;São Domingos;São Domingos do Norte
+ru;Сан-Кристован;São Cristóvão
+ja;サン・クリストヴァン;São Cristóvão
+ko;상크리스토방;São Cristóvão
+zh;聖克里斯托旺;São Cristóvão
+ru;Сан-Карлос;São Carlos
+ko;상카를루스;São Carlos
+ru;Сан-Карлус;São Carlos
+ar;ساو كارلوس;São Carlos
+zh;聖卡洛斯;São Carlos
+ru;Сан-Каэтано-ду-Сул;São Caetano do Sul
+pt;São Caetano;São Caetano da Serra
+ru;Сан-Борха;São Borja
+ru;Сан-Бернардо-ду-Кампу;São Bernardo do Campo
+pt;SBCampo;São Bernardo do Campo
+ru;Сан-Бенту-ду-Сул;São Bento do Sul
+pt;Sao Bento das Lajes;São Bento das Lajes
+pt;São Bento;São Bento de Mirabela
+pt;São Bartolomeu;São Bartolomeu de Sem Peixe
+ru;Сантус-Думонт;Santos Dumont
+zh;桑托斯杜蒙特;Santos Dumont
+ja;サントス;Santos
+ru;Сантос;Santos
+pt;Baixada Santista;Santos
+ar;سانتوس;Santos
+ko;산투스;Santos
+ru;Сантус;Santos
+zh;桑托斯;Santos
+pt;Santo Antônio;Santo Antônio do Pousalegre
+pt;Santo Antônio do Rio Prêto;Santo Antônio do Rio Preto
+ru;Санто Антонио де Жесус;Santo Antônio de Jesus
+ru;Санту-Антониу-да-Платина;Santo Antônio da Platina
+pt;Santo Antônio;Ribeirão de Santo Antônio
+pt;Santo Antônio;Santo Antônio do Alegre
+pt;Santo Antônio;Santo Antônio do Pontal
+ru;Санту-Анджело;Santo Ângelo
+ru;Санту-Анжелу;Santo Ângelo
+zh;圣安热卢;Santo Ângelo
+ru;Санту-Андре;Santo André
+de;Santo André (São Paulo);Santo André
+de;Santo André (Bahia);Santo André
+ru;Санту-Амару;Santo Amaro
+zh;圣阿马鲁;Santo Amaro
+ru;Сантьяго;Santiago
+ru;Санта-Тереза;Santa Teresa
+zh;聖特雷莎;Santa Teresa
+pt;Povoado-Santa Rosa;Santa Rosa
+ru;Санта-Рита-ду-Сапукайя;Santa Rita do Sapucaí
+pt;Santa Rita do Rio Abaixo;Ritápolis
+pt;Ritàpolis;Ritápolis
+pt;Santa Rita do Aventureiro;Santa Rita
+pt;Santa Rita da Prata;Santa Rita da Lagoa da Prata
+pt;Santa Rita;Nova Santa Rita
+pt;Santa Rita;Santa Rita de Minas
+pt;Santa Rita;Santa Rita de Cássia
+pt;Santa Rita;Santa Rita do Araçuaí
+ru;Сантана-ду-Параисо;Santana do Paraíso
+ru;Сантана-ду-Параизу;Santana do Paraíso
+zh;圣安娜-杜帕拉伊苏;Santana do Paraíso
+es;Santana do Livramento;Sant'Ana do Livramento
+en;Santana do Livramento;Sant'Ana do Livramento
+ru;Сантана-ду-Ливраменту;Sant'Ana do Livramento
+ja;サンタナ・ド・リヴラメント;Sant'Ana do Livramento
+zh;圣安娜-利弗拉门图;Sant'Ana do Livramento
+ru;Сантана Де Парнаиба;Santana de Parnaíba
+zh;圣玛丽亚-迪伊塔比拉;Santa Maria de Itabira
+ru;Санта-Мария-ди-Итабира;Santa Maria de Itabira
+ru;Санта-Мария-да-Витория;Santa Maria da Vitória
+ru;Санта-Мария;Santa Maria
+ko;산타마리아;Santa Maria
+zh;聖瑪麗亞;Santa Maria
+pt;Santa Luzia;Santa Luzia de Caratinga
+ru;Санта-Лусия;Santa Luzia
+ru;Санта-Лузия;Santa Luzia
+zh;聖盧西亞;Santa Luzia
+pt;Santa Luzia;Santa Luzia dos Barros
+pt;Santa Luzia;Nova Santa Luzia
+pt;Santa Leocádia;Comunidade Santa Leocádia
+pt;Santa Inácia;Inácio
+ru;Санта-Элена-ди-Гояс;Santa Helena de Goiás
+pt;Santa Efigênia;Santa Efigênia de Caratinga
+pt;Santa Efigênia;Santa Efigênia de Minas
+ru;Санта-Крус-ду-Сул;Santa Cruz do Sul
+zh;南圣克鲁斯;Santa Cruz do Sul
+pt;Santa Cruz dos Motas;Santa Cruz dos Matos
+pt;Santa Cruz do Mónte Alverne;Monte Alveme
+pt;Santa Cruz;Santa Cruz de Galiléia
+pt;Santa Clara do Caparaó;Santa Clara
+ru;Санта-Катарина;Santa Catarina
+ru;Санта Барбара Доесте;Santa Bárbara d'Oeste
+pt;Santa Bárbara;Santa Bárbara do Leste
+ru;Санта-Барбара;Santa Bárbara
+zh;聖巴巴拉;Santa Bárbara
+pt;Santa Bárbara;Engenheiro Caldas
+pt;Santa Bárbara;Santa Bárbara de Goiás
+ja;サルバドール;Salvador
+es;Salvador de Bahía;Salvador
+ru;Салвадор;Salvador
+ja;サルヴァドール;Salvador
+ar;سالفادور، باهيا;Salvador
+ko;사우바도르;Salvador
+zh;萨尔瓦多;Salvador
+hi;साल्वेडोर;Salvador
+ru;Салту-Гранди;Salto Grande
+zh;大萨尔图;Salto Grande
+ru;Сальто;Salto
+ru;Салту;Salto
+zh;萨尔图;Salto
+pt;Salto;Santo Antônio do Salto
+pt;Salto;São Geraldo do Salto
+ru;Салинас;Salinas
+zh;萨利纳斯;Salinas
+pt;Sagrado Coração;Sagrado Coração de Jesus
+ru;Сакраменту;Sacramento
+zh;萨克拉门托;Sacramento
+pt;Saco dos Cações;Praia dos Cações
+ru;Сабара;Sabará
+zh;萨巴拉;Sabará
+pt;Rutes;Vila Ruthes
+pt;Ribião Júnior;Rubião Júnior
+ru;Росарио-ду-Сул;Rosário do Sul
+ru;Роки-Гонзалис;Roque Gonzales
+zh;罗克贡扎利斯;Roque Gonzales
+ru;Рондонополис;Rondonópolis
+ru;Риу-Верди;Rio Verde
+zh;里奥韦尔迪;Rio Verde
+pt;Rio Sêco;Rio Seco
+pt;Rio Prêto;Rio Preto
+ru;Рио-Пардо;Rio Pardo
+ru;Риу-Парду;Rio Pardo
+zh;里奥帕尔杜;Rio Pardo
+ru;Рио-Гранде;Rio Grande
+ru;Риу-ду-Сул;Rio do Sul
+zh;南河镇;Rio do Sul
+pt;Rio do Liso;Lajeado Liso
+es;Río de Janeiro;Rio de Janeiro
+ar;ريو دي جانيرو;Rio de Janeiro
+ja;リオデジャネイロ;Rio de Janeiro
+ru;Рио-де-Жанейро;Rio de Janeiro
+ko;리우데자네이루;Rio de Janeiro
+hi;रियो डि जेनेरो;Rio de Janeiro
+zh;里约热内卢;Rio de Janeiro
+ru;Рио Дас Острас;Rio das Ostras
+es;Río Claro;Rio Claro
+ru;Риу-Клару;Rio Claro
+zh;里约克拉罗;Rio Claro
+ru;Рио Кларо;Rio Claro
+ru;Риу-Брильянти;Rio Brilhante
+zh;里奧布里朗蒂;Rio Brilhante
+ru;Риу-Бранку-ду-Сул;Rio Branco do Sul
+pt;Ribeiros de Cima;Ribeiros
+pt;Ribeirão;Ribeirão Preto
+ja;リベイラン・プレト;Ribeirão Preto
+ko;히베이랑프레투;Ribeirão Preto
+ru;Рибейран-Прету;Ribeirão Preto
+zh;里貝朗普雷圖;Ribeirão Preto
+ru;Рибеирао Пирес;Ribeirão Pires
+ru;Рибеирао Дас Невес;Ribeirão das Neves
+pt;Ribeirão;Ribeirão Santo Antônio
+pt;Riacho Fundo;Santana do Riacho
+zh;里亚舒-迪圣安娜;Riacho de Santana
+pt;Coronel João Borges;Riacho da Onça
+pt;Retiro;Turvolândia
+ru;Респлендор;Resplendor
+zh;雷斯普伦杜;Resplendor
+ru;Резенди;Resende
+zh;雷森迪;Resende
+ko;헤젠지;Resende
+pt;Remdios;Bairro dos Remdios
+pt;Regamê;Regamé
+pt;Rajadinha;Núcleo Rural Rajadinha
+pt;Quilombo;Alto do Quilombo
+pt;Querendo;Bom Jesus do Querendo
+ru;Кеимадос;Queimados
+pt;Quartéis;Quartel do Indaiá
+ru;Куараи;Quaraí
+zh;夸拉伊;Quaraí
+pt;Professor Sousa;Professor Souza
+pt;Príncipe;São João do Príncipe
+pt;Primavera;Primavera do Leste
+pt;Presidente Soares;Alto Jequitibá
+ru;Президенти-Пруденти;Presidente Prudente
+zh;普鲁登特总统城;Presidente Prudente
+pt;Pratinha;Pratinha do Joselino
+pt;Prata;Prata de Lajinha
+pt;Prata;Santana da Prata
+pt;Praia Sêca;Praia Seca
+ru;Прайя-Гранди;Praia Grande
+ru;Прая-Гранди;Praia Grande
+zh;大普拉亚;Praia Grande
+ru;Прадус;Prados
+zh;普拉杜斯;Prados
+pt;Poxoréo;Poxoréu
+pt;Pouso Sêco;Pouso Seco
+ru;Позу-Алегри;Pouso Alegre
+zh;波苏阿莱格里;Pouso Alegre
+pt;Pôsto Central;Posto Central
+pt;Posto Alto Manissauai;Pôsto Alto Manissaua
+pt;Posses;Posses de São Sebastião
+ar;بورتو سيجورو;Porto Seguro
+ja;ポルト・セグーロ;Porto Seguro
+ru;Порту-Сегуру;Porto Seguro
+zh;塞古鲁港;Porto Seguro
+ru;Порту-Феррейра;Porto Ferreira
+pt;Pôrto Ferrão;Porto Ferrão
+ru;Порту-Фелис;Porto Feliz
+pt;Pôrto Euclides da Cunha;Euclides da Cunha Paulista
+pt;Ponto de Santa Cruz;Porto de Santa Cruz
+pt;Pôrto das Cruzes;Porto da Cruz
+pt;Pôrto Bugre;Porto Biguá
+es;Puerto Alegre;Porto Alegre
+ja;ポルト・アレグレ;Porto Alegre
+ru;Порту-Алегри;Porto Alegre
+ar;بورتو أليغري;Porto Alegre
+ko;포르투알레그리;Porto Alegre
+zh;阿雷格里港;Porto Alegre
+hi;पोर्टो अलेग्रे;Porto Alegre
+ru;Порангату;Porangatu
+pt;Pontões;Pontões do São João do Manhuaçu
+pt;Ponte do Paraúna;Presidente Juscelino
+pt;Ponte Alta;Ponte Alta de Minas
+es;Punta Porá;Ponta Porã
+ru;Понта-Поран;Ponta Porã
+ru;Понта-Гроса;Ponta Grossa
+zh;蓬塔格羅薩;Ponta Grossa
+pt;Ponta do Rei;Porto do Rei
+en;Muta Point;Ponta do Muta
+pt;Pompeu Velho;Pompéu Velho
+pt;Pompeu;Pompéu
+ru;Посус-ди-Калдас;Poços de Caldas
+zh;波苏斯－迪卡尔达斯;Poços de Caldas
+ru;Поа;Poá
+ru;Планалтина;Planaltina
+ru;Питанга;Pitanga
+zh;皮坦加;Pitanga
+pt;Pirituba;Piratuba
+ru;Пирес-ду-Риу;Pires do Rio
+ru;Пиракара;Piraquara
+ru;Пирапора;Pirapora
+zh;皮拉波拉;Pirapora
+pt;Pirapetinga;Bom Jesus de Pirapetinga
+ru;Пирангинью;Piranguinho
+zh;皮兰吉纽;Piranguinho
+ru;Пираи-ду-Сул;Piraí do Sul
+zh;南皮拉伊;Piraí do Sul
+ru;Пирасунунга;Pirassununga
+zh;皮拉苏农加;Pirassununga
+ru;Пирасикаба;Piracicaba
+gn;Pirasykava;Piracicaba
+zh;皮拉西卡巴;Piracicaba
+pt;Pintada;Pintado
+pt;Pinheiros;Pinheiro de Minas
+pt;Pingador;Linha Pingador
+ru;Пиндамоньянгаба;Pindamonhangaba
+zh;平达莫尼扬加巴;Pindamonhangaba
+pt;Piedade;Piedade de Caratinga
+pt;Bairro do Peão;Pião
+pt;Pião;Pião de Cima
+pt;Piaí;Bairro do Piaí
+pt;Piabanha;Piabanha do Norte
+ja;ペトロポリス;Petrópolis
+ko;페트로폴리스;Petrópolis
+ru;Петрополис;Petrópolis
+zh;彼得罗波利斯;Petrópolis
+ru;Перуиби;Peruíbe
+zh;佩鲁伊比;Peruíbe
+pt;Perobas;Doresópolis
+ru;Пердизис;Perdizes
+zh;佩尔迪济斯;Perdizes
+pt;Pequi;São João do Pequi
+ru;Пенья;Penha
+pt;Penha;Penha do Aramirim
+ru;Пенаполис;Penápolis
+ru;Пелотас;Pelotas
+ko;펠로타스;Pelotas
+zh;佩洛塔斯;Pelotas
+ru;Педрейра;Pedreira
+pt;Pedro Branco;Pedra Branca
+ru;Паулу-Фронтин;Paulo Frontin
+zh;保罗弗龙廷;Paulo Frontin
+fr;Paulinia;Paulínia
+ar;بباوليستا;Paulínia
+ja;パウリニア;Paulínia
+ru;Паулиния;Paulínia
+zh;保利尼亚;Paulínia
+pt;Pau de Linho;Pau do Olinho
+pt;Pau Brasil;Aldeia Indígena Pau Brasil
+ru;Патросиниу;Patrocínio
+zh;帕特罗西尼乌;Patrocínio
+pt;Patrimônio São Sebastião;São Sebastião da Serra
+pt;Patrimônio do Pinheiro;Pinheiros
+pt;Patrão Mor;Patrão-Mor de Baixo
+pt;Patrão-Mór de Baixo;Patrão-Mor de Baixo
+ru;Патус-ди-Минас;Patos de Minas
+zh;帕图斯迪米纳斯;Patos de Minas
+pt;Patos;Patos do Abaeté
+ru;Пату-Бранку;Pato Branco
+zh;帕图布兰库;Pato Branco
+pt;Patis;Patins
+ru;Пати-ду-Алферис;Paty do Alferes
+pt;Pasto da Mata;Posto da Mata
+ru;Пассос;Passos
+ru;Пасус;Passos
+zh;帕苏斯;Passos
+ru;Пасу-Фунду;Passo Fundo
+zh;帕苏丰杜;Passo Fundo
+ru;Алворада;Alvorada
+nl;Passa-Quatro;Passa Quatro
+ja;パッサ・クアトロ;Passa Quatro
+ru;Паса-Куатру;Passa Quatro
+zh;帕萨夸特鲁;Passa Quatro
+pt;Passagem;Povoado da Passagem
+pt;Paredão;Paredão de Minas
+ru;Паранаиба;Paranaíba
+ru;Паранагуа;Paranaguá
+ja;パラナグア;Paranaguá
+zh;巴拉那瓜;Paranaguá
+pt;Paraíso;Vila Paraíso
+ru;Параиба-ду-Сул;Paraíba do Sul
+ja;パラ・デ・ミナス;Pará de Minas
+ru;Пара-ди-Минас;Pará de Minas
+zh;帕拉迪米纳斯;Pará de Minas
+ru;Паракату;Paracatu
+zh;帕拉卡图;Paracatu
+pt;Pântano;Pântano de Santa Cruz
+pt;Panorama;Macacos
+pt;Palmital;Palmela
+pt;Palmital;Palmital de Minas
+ru;Палмейрас;Palmeiras
+zh;帕尔梅拉斯;Palmeiras
+ru;Палмейра;Palmeira
+zh;帕尔梅拉;Palmeira
+pt;Palmeira;Palmeiras
+pt;Palmeira;Palmeiras do Vale
+ru;Пальмас;Palmas
+ja;パルマス;Palmas
+ko;파우마스;Palmas
+ru;Палмас;Palmas
+zh;帕尔马斯;Palmas
+pt;Palmares;Brunópolis
+ru;Пальоса;Palhoça
+zh;帕略萨;Palhoça
+pt;Pádua Sales;Pádua Salles
+ja;オウロ・プレット;Ouro Preto
+ru;Ору-Прету;Ouro Preto
+ko;오루프레투;Ouro Preto
+zh;欧鲁普雷图;Ouro Preto
+ru;Ору-Фину;Ouro Fino
+zh;欧鲁菲努;Ouro Fino
+pt;Ouro Fino;Ouro Fino do Mato Dentro
+pt;Ouro Branco;Ourolândia
+ru;Ориньюс;Ourinhos
+zh;欧里尼奥斯;Ourinhos
+ru;Осорио;Osório
+ru;Озориу;Osório
+zh;奥索里乌;Osório
+ru;Осаску;Osasco
+pt;Onça de Pitangui;Onça
+ru;Оливейра;Oliveira
+zh;奥利韦拉;Oliveira
+ru;Олимпия;Olímpia
+pt;Olhos d’Água;Olhos-d'Água
+pt;Olhos d’Água;Olhos d’Água do Oeste
+pt;Núcleo Ibicatu;Ibicatu
+pt;Novo Horizonte;Novo Horizonte de Inhapim
+ja;ノヴォ・アンブルゴ;Novo Hamburgo
+ko;노부암부르구;Novo Hamburgo
+ru;Нову-Амбургу;Novo Hamburgo
+zh;新漢堡;Novo Hamburgo
+ru;Нова Серрана;Nova Serrana
+ru;Нова-Лима;Nova Lima
+ru;Нова-Игуасу;Nova Iguaçu
+ja;ノヴァ・イグアス;Nova Iguaçu
+ko;노바이구아수;Nova Iguaçu
+zh;新伊瓜蘇;Nova Iguaçu
+es;Nueva Friburgo;Nova Friburgo
+ru;Нова-Фрибургу;Nova Friburgo
+zh;新弗里堡;Nova Friburgo
+pt;Nova Estrêla;Nova Estrela
+ru;Носса Сеньёра До Сокорро;Nossa Senhora do Socorro
+pt;Aré;Até
+ja;ニテロイ;Niterói
+ru;Нитерой;Niterói
+ru;Никеландия;Niquelândia
+ru;Нилополис;Nilópolis
+zh;尼洛波利斯;Nilópolis
+pt;Nhunguau;Sebastiana
+pt;Nhunguaçu;Sebastiana
+ru;Нерополис;Nerópolis
+ru;Назар;Nazaré
+ru;Навираи;Naviraí
+ru;Навегантис;Navegantes
+pt;Mutuca;São Luís de Mutuca
+ru;Муриаэ;Muriaé
+zh;穆里亚埃;Muriaé
+ru;Мукури;Mucuri
+pt;Agronômica;Mosquito
+pt;Morro Grande;Bairro Morro Grande
+pt;Morro d’Anta;Pedro Canário
+pt;Morro Alto;Barão do Monte Alto
+pt;Barão de Monte Alto;Barão do Monte Alto
+ru;Монтис-Кларус;Montes Claros
+zh;蒙蒂斯克拉鲁斯;Montes Claros
+ru;Монти-Санту;Monte Santo
+zh;圣山镇;Monte Santo
+ru;Черногория;Montenegro
+ru;Монтенегру;Montenegro
+zh;蒙特内格鲁;Montenegro
+pt;Monte Belo;Monte Belo de Carbonita
+pt;Monte Belo;Monte Formoso
+ru;Монти-Алту;Monte Alto
+zh;蒙蒂阿尔图;Monte Alto
+pt;Mombuca;Quilombo de Mumbuca
+nl;Mogi-Mirim;Mogi Mirim
+ru;Можи-Мирин;Mogi Mirim
+zh;莫吉米林;Mogi Mirim
+nl;Mogi-Guaçu;Mogi Guaçu
+ru;Можи-Гуасу;Mogi Guaçu
+zh;莫吉瓜苏;Mogi Guaçu
+ru;Моги Дас Крузес;Mogi das Cruzes
+pt;Moacir;Moacyr Ávidos
+pt;Alto da Boa Vista;Mirorós
+ru;Мирандополис;Mirandópolis
+pt;Mirandopólis;Mirandópolis
+ru;Миранда;Miranda
+zh;米蘭達;Miranda
+ru;Мирасема;Miracema
+ru;Мимозу-ду-Сул;Mimoso do Sul
+zh;南米莫蘇;Mimoso do Sul
+pt;Mimosa dos Marinhos;Mimosa
+pt;Mercês de Diamantina;Senador Modestino Gonçalves
+pt;Melo Viana;Senador Melo Viana
+ru;Медианейра;Medianeira
+gn;Maua;Mauá
+ru;Мауа;Mauá
+zh;毛阿;Mauá
+pt;Mauá;Visconde de Mauá
+ru;Мата-де-Сан-Жуан;Mata de São João
+pt;Mata;Mata do Paiol
+pt;Marombas;Marombas Bossardi
+pt;Maripá;Maripá de Minas
+ja;マリンガ;Maringá
+ko;마링가;Maringá
+ru;Маринга;Maringá
+zh;馬林加;Maringá
+pt;Marimbondo;Bairro Marimbondo
+ru;Марилья;Marília
+ru;Марилия;Marília
+zh;馬里利亞;Marília
+ru;Марика;Maricá
+ru;Мариана;Mariana
+zh;馬里亞納;Mariana
+pt;Agrovila do PA Marcação I, II e III;Agrovila do Projeto de Assentamento Marcação I, II e III
+nl;Maracajú;Maracaju
+ru;Маракажу;Maracaju
+zh;馬拉卡茹;Maracaju
+pt;Manuel de Morais;Manoel de Morais
+ru;Мантена;Mantena
+zh;曼特納;Mantena
+ru;Маньюасу;Manhuaçu
+zh;马纽阿苏;Manhuaçu
+pt;Aurora do Norte;Aurora do Tocantins
+ru;Мангаратиба;Mangaratiba
+zh;曼加拉蒂巴;Mangaratiba
+ru;Майрипоран;Mairiporã
+ru;Майринки;Mairinque
+ru;Майри;Mairi
+zh;迈里;Mairi
+ru;Маже;Magé
+zh;马热;Magé
+ru;Мафре;Mafra
+ru;Мафра;Mafra
+zh;马夫拉;Mafra
+pt;Machado;Machado de Perdões
+pt;Maçaranduba;Massaranduba
+ru;Макаэ;Macaé
+zh;马卡埃;Macaé
+ru;Лузианиа;Luziânia
+ru;Лукас;Lucas
+ru;Лорена;Lorena
+zh;洛雷纳;Lorena
+ja;ロンドリーナ;Londrina
+ru;Лондрина;Londrina
+ar;لوندرينا;Londrina
+ko;론드리나;Londrina
+zh;隆德里納;Londrina
+pt;Lôbo;Lobo
+ru;Линс;Lins
+ja;リンス;Lins
+ko;링스;Lins
+zh;林斯;Lins
+ru;Линьярис;Linhares
+pt;Limoeiro;Alto Limoeiro
+pt;Sorocaba;Limoeiro
+ru;Лимейра;Limeira
+zh;利梅拉;Limeira
+pt;Limeira;Limeira de Mantena
+ru;Лима-Дуарти;Lima Duarte
+zh;利马杜阿蒂;Lima Duarte
+ru;Лем;Leme
+ru;Леми;Leme
+zh;莱米;Leme
+ru;Лаврас-ду-Сул;Lavras do Sul
+zh;南拉夫拉斯;Lavras do Sul
+ar;لفراس;Lavras
+ru;Лаврас;Lavras
+zh;拉夫拉斯;Lavras
+zh;拉兰热拉斯;Laranjeiras
+ja;ラランジェイラス;Laranjeiras
+pt;Larania da Terra;Laranja da Terra
+ru;Лапа;Lapa
+zh;拉帕;Lapa
+pt;Lameirão;Limoeiro
+ru;Лажис;Lages
+zh;拉热斯;Lages
+pt;Rio Preto;Teolândia
+pt;Lajeado Liso;Bairro Lajeado Liso
+ru;Лажеаду;Lajeado
+zh;拉热阿杜;Lajeado
+pt;Lajeado;Lajeado e Grevilhas
+ru;Лагуна;Laguna
+zh;拉古纳;Laguna
+ru;Лагоа-Вермелья;Lagoa Vermelha
+zh;拉戈阿韦梅利亚;Lagoa Vermelha
+ru;Лагоа-Санта;Lagoa Santa
+zh;聖湖鎮;Lagoa Santa
+pt;Lagoa José Luís;Lagoa José Luiz
+pt;Lagoa do Meio;Lagoa da Pedra
+pt;Água Clara;Lagoa Clara
+ru;Лагарто;Lagarto
+ar;جوندياي;Jundiaí
+gn;Jurundiay;Jundiaí
+ru;Жундиаи;Jundiaí
+zh;容迪亞伊;Jundiaí
+ru;Жуис-ди-Фора;Juiz de Fora
+ja;ジュイス・デ・フォーラ;Juiz de Fora
+ko;주이스지포라;Juiz de Fora
+zh;茹伊斯迪福拉;Juiz de Fora
+pt;Juàzeiro;Juazeiro
+pt;Jordãozinho;Colônia Jordãozinho
+ja;ジョインヴィレ;Joinville
+ko;조인빌리;Joinville
+ru;Жоинвили;Joinville
+zh;若茵维莱;Joinville
+ru;Жуан-Пиньейру;João Pinheiro
+zh;若昂皮涅鲁;João Pinheiro
+ru;Жуан-Монлевади;João Monlevade
+zh;若昂蒙莱瓦迪;João Monlevade
+pt;Johannisdorf;Colônia Joanisdorf
+pt;Joanisdorf;Colônia Joanisdorf
+ru;Жоасаба;Joaçaba
+zh;若阿萨巴;Joaçaba
+ru;Жекитиньонья;Jequitinhonha
+zh;热基蒂尼奥尼亚;Jequitinhonha
+ja;ジェキエー;Jequié
+ru;Жекие;Jequié
+zh;热基耶;Jequié
+ru;Жау;Jaú
+zh;雅乌;Jaú
+pt;Jataí;São Geraldo do Jataí
+en;Jatai;Jataí
+ru;Жатаи;Jataí
+ru;Жардин-Алегри;Jardim Alegre
+zh;雅尔丁阿莱格里;Jardim Alegre
+ru;Жардин;Jardim
+zh;雅爾丁;Jardim
+ru;Жарагуа-ду-Сул;Jaraguá do Sul
+zh;南雅拉瓜;Jaraguá do Sul
+ru;Жарагуа;Jaraguá
+zh;雅拉瓜;Jaraguá
+ru;Жапери;Japeri
+ru;Жандира;Jandira
+pt;Jaguarinho;Jaguarinha
+ru;Жакобина;Jacobina
+zh;雅科比纳;Jacobina
+ru;Жакарезинью;Jacarezinho
+ru;Жакареи;Jacareí
+zh;雅卡雷伊;Jacareí
+pt;Jacaré;São Manoel do Guaiaçu
+ru;Жаботикабал;Jaboticabal
+zh;雅博蒂卡巴尔;Jaboticabal
+zh;伊維涅馬;Ivinhema
+ru;Ивиньема;Ivinhema
+ru;Итурама;Iturama
+ja;イツンビアラ;Itumbiara
+ru;Итумбиара;Itumbiara
+zh;伊通比亚拉;Itumbiara
+ru;Итиютаба;Ituiutaba
+zh;伊图尤塔巴;Ituiutaba
+ru;Итуэта;Itueta
+zh;伊图埃塔;Itueta
+ja;イトゥー;Itu
+ru;Иту;Itu
+zh;伊图;Itu
+gn;Ytu;Itu
+ko;이투;Itu
+ru;Итауна;Itaúna
+zh;伊塔乌纳;Itaúna
+ru;Итатиба;Itatiba
+pt;Itaroquem;Vila Santa Rosa
+ru;Итараре;Itararé
+ru;Итака;Itaqui
+ru;Итакакекетуба;Itaquaquecetuba
+pt;Itapiruna;Fernandes Tourinho
+ru;Итапира;Itapira
+zh;伊塔皮拉;Itapira
+ru;Итапеви;Itapevi
+ja;イタペティニンガ;Itapetininga
+ru;Итапетининга;Itapetininga
+zh;伊塔佩蒂宁加;Itapetininga
+ru;Итаперуна;Itaperuna
+zh;伊塔佩鲁纳;Itaperuna
+ru;Итапемирин;Itapemirim
+zh;伊塔佩米林;Itapemirim
+ru;Итапема;Itapema
+pt;Itapejara;Itapejara d'Oeste
+ru;Итапесерика-да-Серра;Itapecerica da Serra
+ru;Итаньоми;Itanhomi
+zh;伊塔尼奥米;Itanhomi
+ru;Итаньяэн;Itanhaém
+zh;伊塔尼亚恩;Itanhaém
+zh;伊坦巴库里;Itambacuri
+ru;Итамбакури;Itambacuri
+ru;Итажуба;Itajubá
+zh;伊塔茹巴;Itajubá
+de;Itajahy;Itajaí
+ru;Итажаи;Itajaí
+zh;伊達賈伊;Itajaí
+pt;Itaípe;Barra de Itaípe
+ru;Итагуаи;Itaguaí
+zh;伊塔瓜伊;Itaguaí
+pt;Itagi;Itagimirim
+ru;Итабуна;Itabuna
+ja;イタブーナ;Itabuna
+zh;伊塔布纳;Itabuna
+ru;Итабораи;Itaboraí
+zh;伊塔博拉伊;Itaboraí
+ru;Итабира;Itabira
+zh;伊塔比拉;Itabira
+ru;Итабераи;Itaberaí
+ru;Итабаиана;Itabaiana
+ru;Иракара;Iraquara
+zh;伊拉夸拉;Iraquara
+ru;Ипора;Iporá
+ru;Ипиау;Ipiaú
+ja;イパチンガ;Ipatinga
+ru;Ипатинга;Ipatinga
+zh;伊帕廷加;Ipatinga
+ko;이파네마;Ipanema
+ru;Ипанема;Ipanema
+zh;伊帕内玛;Ipanema
+zh;伊帕内马;Ipanema
+pt;Índio;Índios
+ru;Индаятуба;Indaiatuba
+zh;因达亚图巴;Indaiatuba
+pt;Imbé;Imbé de Minas
+pt;São Jorgé dos Ilhéos;Ilhéus
+ru;Ильеус;Ilhéus
+ja;イリェウス;Ilhéus
+zh;伊列乌斯;Ilhéus
+ru;Илья-Солтейра;Ilha Solteira
+zh;伊利亚索尔泰拉;Ilha Solteira
+ru;Ижуи;Ijuí
+zh;伊茹伊;Ijuí
+ru;Игуапи;Iguape
+zh;伊瓜佩;Iguape
+pt;Coronel João Sá;Iguaba
+ru;Игрежинья;Igrejinha
+zh;伊格雷日尼亚;Igrejinha
+ru;Иконья;Iconha
+zh;伊科尼亞;Iconha
+ru;Исара;Içara
+pt;Ibitiúra;Ibitiúra de Minas
+ru;Ибитирама;Ibitirama
+zh;伊比蒂拉馬;Ibitirama
+ru;Ибирите;Ibirité
+de;Hammonia;Ibirama
+en;Santa Rita Tatuí;Santa Rita de Cássia
+ru;Ортоландия;Hortolândia
+zh;奥托兰迪亚;Hortolândia
+ru;Гурупи;Gurupi
+pt;Praia se Guaxindiba;Guaxindiba
+ru;Гуарульюс;Guarulhos
+gn;Guyrajára;Guarujá
+ja;グアルジャ;Guarujá
+ru;Гуаружа;Guarujá
+zh;瓜魯雅;Guarujá
+ru;Гуаратингета;Guaratinguetá
+ru;Гуарапуава;Guarapuava
+zh;瓜拉普阿瓦;Guarapuava
+ru;Гуарапари;Guarapari
+pt;Guarani;Guaranilândia
+ru;Гуара;Guará
+ru;Гуапимирин;Guapimirim
+ru;Гуанамби;Guanambi
+zh;瓜南比;Guanambi
+ru;Гуаира;Guaíra
+zh;瓜伊拉;Guaíra
+ru;Гуайра;Guaíra
+pt;Guaiquica;Engenheiro Coelho
+ru;Гуасуи;Guaçuí
+zh;瓜蘇伊;Guaçuí
+pt;Grupo Escolar;Fartura
+gn;Karavatay;Gravataí
+ru;Граватаи;Gravataí
+zh;格拉瓦塔伊;Gravataí
+ru;Говернадор-Валадарес;Governador Valadares
+pt;Valadares;Governador Valadares
+pt;Gov. Valadares;Governador Valadares
+ja;ゴベルナドール・バラダレス;Governador Valadares
+ko;고베르나도르발라다레스;Governador Valadares
+ru;Говернадор-Валадарис;Governador Valadares
+zh;瓦拉達里斯州長市;Governador Valadares
+ru;Гоятуба;Goiatuba
+ru;Гоянира;Goianira
+ru;Гояния;Goiânia
+ja;ゴイアニア;Goiânia
+ar;غويانيا;Goiânia
+ko;고이아니아;Goiânia
+zh;戈亚尼亚;Goiânia
+hi;गोयानिया;Goiânia
+pt;Gata Branca;Cata Branca
+ru;Гаспар;Gaspar
+zh;加斯帕;Gaspar
+pt;Garuva;Garuva Acima
+pt;Gargau;Gargaú
+ru;Ганду;Gandu
+zh;甘杜;Gandu
+ru;Гама;Gama
+pt;Furnas;Bairro de Furnas
+ru;Фрутал;Frutal
+ru;Франко Да Роча;Franco da Rocha
+ru;Франкиско Морато;Francisco Morato
+ru;Белтран-Франциско;Francisco Beltrão
+ru;Франсиску-Белтран;Francisco Beltrão
+zh;贝尔德朗;Francisco Beltrão
+ru;Франко;Franca
+ja;フランカ;Franca
+ru;Франка;Franca
+zh;弗朗卡;Franca
+es;Foz de Iguazu;Foz do Iguaçu
+ja;フォス・ド・イグアス;Foz do Iguaçu
+ru;Фос-ду-Игуасу;Foz do Iguaçu
+ko;포스두이구아수;Foz do Iguaçu
+zh;伊瓜苏;Foz do Iguaçu
+ar;فوز دو إيغواسو;Foz do Iguaçu
+de;Foz do Iguacu;Foz do Iguaçu
+pt;Fortuna;Fortuna de Minas
+ru;Форкильинья;Forquilhinha
+zh;福莫薩;Formosa
+ko;포르모자;Formosa
+ru;Формоса;Formosa
+ru;Формига;Formiga
+zh;福米加;Formiga
+ru;Флорианополис;Florianópolis
+pt;Floripa;Florianópolis
+ja;フロリアノーポリス;Florianópolis
+ko;플로리아노폴리스;Florianópolis
+ar;فلوريانوبوليس;Florianópolis
+zh;弗洛里亚诺波利斯;Florianópolis
+hi;फ्लोरिआनोपोलिस;Florianópolis
+pt;Flores da Aparecida;Flores de Aparecida
+ru;Ферраз Де Васконкелос;Ferraz de Vasconcelos
+pt;Fernandes Figueira;Figueira
+ru;Фейра-де-Сантана;Feira de Santana
+ja;フェイラ・デ・サンタナ;Feira de Santana
+ko;페이라지산타나;Feira de Santana
+ru;Фейра-ди-Сантана;Feira de Santana
+zh;費拉迪聖安娜;Feira de Santana
+pt;Faxinal de São Pedro;Faxinal São Pedro
+pt;Fátima;São Lourenço de Fátima
+pt;Fábrica Santa Bárbara;Santa Barbara
+ru;Еунаполис;Eunápolis
+ru;Евклид-да-Кунья;Euclides da Cunha
+pt;Estrelado;Estrela do Norte
+pt;Espigão Alto;Espigão Alto do Iguaçu
+ru;Эсмеральдас;Esmeraldas
+pt;Esmeralda;Esmeraldas de Ferros
+pt;Esmeraldas de Ferro;Esmeraldas de Ferros
+ru;Эрешин;Erechim
+zh;埃雷欣;Erechim
+pt;Eremita;São Bento Abade
+pt;Riosinho;Riozinho
+pt;Engenho Gutierrez;Riozinho
+pt;Triunfo;Engenheiro Nóbrega
+pt;Eme;Povoado do Eme
+ru;Эмба;Embu das Artes
+pt;Embu Arte;Embu das Artes
+ru;Экопоранга;Ecoporanga
+zh;埃科波蘭加;Ecoporanga
+ar;دوق دي كاكسياس;Duque de Caxias
+ja;ドゥケ・デ・カシアス;Duque de Caxias
+ko;두키지카시아스;Duque de Caxias
+ru;Дуки-ди-Кашиас;Duque de Caxias
+zh;卡希亞斯公爵城;Duque de Caxias
+pt;Duque de Caxias;Duque de Caixas
+ru;Драсена;Dracena
+zh;德拉塞纳;Dracena
+ar;دورادوس;Dourados
+ru;Дорадус;Dourados
+zh;多拉杜斯;Dourados
+pt;Dores;Dores do José Pedro
+pt;Dom Viçoso;Viçoso
+ru;Дойс-Визиньюс;Dois Vizinhos
+zh;多伊斯维齐尼乌斯;Dois Vizinhos
+ru;Дивинополис;Divinópolis
+zh;迪维诺波利斯;Divinópolis
+pt;Divino de Ubá;Divinésia
+pt;Divino;Divino do Traíra
+ru;Диамантина;Diamantina
+pt;Diamante;Diamante do Sul
+ru;Диадема;Diadema
+pt;Despenhado;Desempenhado
+pt;Descalvado;Bairro Descalvado
+ru;Курвелу;Curvelo
+zh;库尔韦卢;Curvelo
+ru;Куритибанус;Curitibanos
+ja;クリチバ;Curitiba
+ru;Куритиба;Curitiba
+ar;كوريتيبا;Curitiba
+ay;Kuritiwa;Curitiba
+chr;ᎫᎵᏘᎦ;Curitiba
+gn;Kuriytýva;Curitiba
+hi;कुरितिबा;Curitiba
+kl;Kuritiba;Curitiba
+ko;쿠리치바;Curitiba
+zh;庫里奇巴;Curitiba
+pt;Cuiabá;Cuiaba
+ja;クイアバ;Cuiabá
+ru;Куяба;Cuiabá
+ar;كويابا;Cuiabá
+ko;쿠이아바;Cuiabá
+zh;库亚巴;Cuiabá
+en;Culaba;Cuiabá
+hi;कुइआबा;Cuiabá
+ko;쿠바타오;Cubatão
+ru;Кубатао;Cubatão
+ru;Крузейру-ду-Уэсти;Cruzeiro do Oeste
+zh;西克鲁赛罗;Cruzeiro do Oeste
+ru;Крузейру;Cruzeiro
+zh;克鲁赛罗;Cruzeiro
+pt;Cruzeiro;Cruzeiro de Aricanga
+ru;Крус-Алта;Cruz Alta
+zh;上克鲁斯;Cruz Alta
+ru;Кристалина;Cristalina
+zh;克里斯塔利娜;Cristalina
+pt;Cristal;Cristal do Norte
+ru;Крисиума;Criciúma
+zh;克里西烏馬;Criciúma
+ru;Кошин;Coxim
+pt;Couto de Magalhães;Couto de Magalhães de Minas
+ru;Котиа;Cotia
+de;Vila Cosmos;Cosmos
+de;Hansa;Corupá
+ar;كورومبا;Corumbá
+ja;コルンバ;Corumbá
+ko;코룸바;Corumbá
+ru;Корумба;Corumbá
+pt;Corrego Grande;Córrego Grande
+ja;コロネル・ファブリシアーノ;Coronel Fabriciano
+ru;Коронел-Фабрисиану;Coronel Fabriciano
+zh;法布里西亚诺上校城;Coronel Fabriciano
+ru;Коромандел;Coromandel
+zh;科罗曼德尔;Coromandel
+pt;Coroas;Coroa
+pt;Coroas;Coronel Xavier Chaves
+ru;Корнелиу-Прокопиу;Cornélio Procópio
+zh;科内利乌-普罗科皮乌;Cornélio Procópio
+ru;Коринто;Corinto
+ja;コンタジェン;Contagem
+ko;콘타젱;Contagem
+ru;Контажен;Contagem
+zh;孔塔任;Contagem
+ru;Консельейру-Пена;Conselheiro Pena
+zh;佩纳顾问城;Conselheiro Pena
+ru;Консельейру-Лафаети;Conselheiro Lafaiete
+zh;拉法耶蒂顾问城;Conselheiro Lafaiete
+ru;Конгоньяс;Congonhas
+ru;Конкордия;Concórdia
+ru;Коншал;Conchal
+zh;孔沙尔;Conchal
+ru;Консейсан-ду-Кастелу;Conceição do Castelo
+zh;孔塞桑杜卡斯特洛;Conceição do Castelo
+ru;Консейсан-да-Барра;Conceição da Barra
+zh;康塞桑達巴拉;Conceição da Barra
+pt;Conceição;Conceição de Minas
+pt;Colonio Serrinha;Colônia Serrinha
+pt;Colônia Piaguí;Colônia do Piagui
+pt;Marquês de Abrantes;Marques de Abrantes
+pt;Colônia Marquês de Abrantes;Marques de Abrantes
+ru;Коломбо;Colombo
+ja;コロンボ;Colombo
+ru;Коломбу;Colombo
+zh;哥伦布;Colombo
+ko;콜롬부;Colombo
+pt;Colégio;Gleba Colégio
+ru;Колатина;Colatina
+pt;Côco do Pote;Caco do Pote
+pt;Cocais da Estrêla;Cocais das Estrelas
+pt;Cocais;Sítio dos Cocais
+pt;Cipó-de-Leite;Cipó de Leite
+ru;Сианорте;Cianorte
+ru;Шапеко;Chapecó
+zh;沙佩科;Chapecó
+pt;Chapadão;Chapadão do Pau-Terra
+pt;Chapdão do Pau-terra;Chapadão do Pau-Terra
+pt;Chapada;Chapada dos Tanoeiros
+pt;Chapada;Chapada do Norte
+pt;Cêrro Grande;Cerro Grande do Sul
+ru;Сейландия;Ceilândia
+pt;Caxixa;Alto Caxixe
+ru;Кашиас-ду-Сул;Caxias do Sul
+ja;カシアス・ド・スル;Caxias do Sul
+ko;카시아스두술;Caxias do Sul
+zh;南卡希亞斯;Caxias do Sul
+pt;Cavuru;Cavaru
+pt;Catinga de Cima;Caatinga de Cima
+pt;Catinga;São Sebastião da Vargem Alegre
+ru;Катандува;Catanduva
+ru;Каталао;Catalão
+ru;Катагуазис;Cataguases
+zh;卡塔瓜西斯;Cataguases
+ru;Каштелу;Castelo
+ru;Кастелу;Castelo
+zh;卡斯特盧;Castelo
+ru;Казимиру-ди-Абреу;Casimiro de Abreu
+zh;卡西米鲁-迪阿布雷乌;Casimiro de Abreu
+ar;الأفعى ذات الجرس;Cascavel
+ko;방울뱀;Cascavel
+nv;Tłʼiish áníní;Cascavel
+ru;Каскавел;Cascavel
+zh;卡斯卡韋爾;Cascavel
+ru;Каска;Casca
+zh;卡斯卡;Casca
+pt;Casa de Telha;Serra Azul de Minas
+pt;Nova Belém;Carrapato
+ru;Карранкас;Carrancas
+zh;卡兰卡斯;Carrancas
+pt;Carneirinho;Candidópolis
+pt;Candinópolis;Candidópolis
+ru;Кариакика;Cariacica
+ru;Каразинью;Carazinho
+ru;Каратинга;Caratinga
+zh;卡拉廷加;Caratinga
+ru;Карапикуиба;Carapicuíba
+ru;Карангола;Carangola
+zh;卡兰戈拉;Carangola
+ru;Карагуататуба;Caraguatatuba
+pt;Caragua;Caraguatatuba
+pt;Caquende;Caquente
+pt;Caputera;Bairro Caputera
+ru;Капивари;Capivari
+pt;Capivara;Capivari dos Eleuterios
+pt;Capetinga;Captinga
+ru;Капелинья;Capelinha
+zh;卡佩利尼亚;Capelinha
+pt;Capela do Jaguara;Jaguara
+pt;Caparaó Velho;Alto Caparaó
+pt;Capão Redondo;Santa Fé de Minas
+ja;カノアス;Canoas
+ru;Каноас;Canoas
+zh;卡諾阿斯;Canoas
+ru;Канела;Canela
+pt;Cancela;Vale das Cancelas
+pt;Praia de Canasvieiras;Canasvieiras
+pt;Cana do Reino;Carvalhópolis
+pt;Cana-Brava;Canabrava
+ru;Кампус-Новус;Campos Novos
+zh;坎普斯诺武斯;Campos Novos
+ru;Кампус-Жерайс;Campos Gerais
+ja;カンポス・ド・ジョルドン;Campos do Jordão
+ru;Кампус-ду-Жордау;Campos do Jordão
+zh;坎普斯-杜若尔当;Campos do Jordão
+ru;Кампос;Campos dos Goytacazes
+zh;坎普斯戈伊塔卡濟斯;Campos dos Goytacazes
+ru;Кампус-дус-Гойтаказис;Campos dos Goytacazes
+ru;Кампо Моурао;Campo Mourão
+pt;Campo Limpo;Campo Limpo Paulista
+pt;Campolide;São Sebastião de Campolide
+ru;Кампу-Ларгу;Campo Largo
+zh;坎普拉古;Campo Largo
+ar;كامبو غراندي;Campo Grande
+ja;カンポ・グランデ;Campo Grande
+ru;Кампу-Гранди;Campo Grande
+ko;캄푸그란지;Campo Grande
+zh;格蘭德營;Campo Grande
+hi;कैंपो ग्रांडे;Campo Grande
+ru;Кампу-Белу;Campo Belo
+zh;坎普贝卢;Campo Belo
+pt;Campista;Bairro Campista
+ja;カンピーナス;Campinas
+ru;Кампинас;Campinas
+pt;Campinas e Região;Campinas
+pt;Região de Campinas;Campinas
+ar;كامبيناس;Campinas
+ko;캄피나스;Campinas
+zh;坎皮纳斯;Campinas
+ru;Кампина-Гранде-ду-Сул;Campina Grande do Sul
+ru;Кампина-Гранди-ду-Сул;Campina Grande do Sul
+zh;南大坎皮纳;Campina Grande do Sul
+pt;Campina;Campina das Missões
+pt;Campina;Campina do Simão
+pt;Campestre;Santana do Campestre
+ja;カンペチェ;Campeche
+pt;Cambuíí;Bairro Cambuí
+pt;Cambuí;Bairro Cambuí
+pt;Cambiú;Bairro Cambuí
+pt;Cambui;Cambuí
+ja;坎博里乌;Camboriú
+ru;Камбориу;Camboriú
+ru;Камбе;Cambé
+pt;Cambaiaba;Cambaíba
+pt;Câmara;Camará
+ja;カマサリ;Camaçari
+ru;Камасари;Camaçari
+zh;卡馬薩里;Camaçari
+ru;Калдас-Новас;Caldas Novas
+zh;卡尔达斯诺瓦斯;Caldas Novas
+ru;Калдас;Caldas
+zh;卡尔达什;Caldas
+pt;Caiubá;Caiobá
+ru;Каиеирас;Caieiras
+pt;Café Ralo;Cafelândia
+pt;Café;Capitão Andrade
+ru;Каэтите;Caetité
+zh;卡埃蒂特;Caetité
+ru;Каэте;Caeté
+ar;ايتابيميريم دي كاتشويرو;Cachoeiro de Itapemirim
+ja;カショエイロ・ジ・イタペミリン;Cachoeiro de Itapemirim
+ru;Кашуэйру-ди-Итапемирин;Cachoeiro de Itapemirim
+ru;Качоеиринья;Cachoeirinha
+pt;Cachoeirinha;Cachoeira de Santa Cruz
+ru;Кашуэйра-ду-Сул;Cachoeira do Sul
+pt;Cachoeira de Macacos;Cachoeira da Prata
+ru;Кашуэйра;Cachoeira
+zh;卡舒埃拉;Cachoeira
+ru;Касерис;Cáceres
+zh;卡塞雷斯;Cáceres
+ru;Касапава-ду-Сул;Caçapava do Sul
+zh;南卡萨帕瓦;Caçapava do Sul
+ru;Какапава;Caçapava
+ru;Касадор;Caçador
+zh;卡萨多尔;Caçador
+ru;Кабреува;Cabreúva
+es;Cabo Frío;Cabo Frio
+ru;Кабу-Фриу;Cabo Frio
+zh;卡波弗里奧;Cabo Frio
+pt;Buritis;Buritis da Mulatas
+ru;Бури;Buri
+zh;布里;Buri
+pt;Bulhões;Bulhões Velho
+ru;Бруски;Brusque
+zh;布吕斯克;Brusque
+ru;Брумаду;Brumado
+zh;布鲁马杜;Brumado
+pt;Brejetubinha;Brejaubinha
+pt;Brasino;Vila Brasino
+ru;Бразилия-ди-Минас;Brasília de Minas
+es;Brasilia;Brasília
+ar;برازيليا;Brasília
+fr;Brasilia;Brasília
+ja;ブラジリア;Brasília
+ko;브라질리아;Brasília
+nl;Brasilia;Brasília
+ru;Бразилиа;Brasília
+qu;Brasilia;Brasília
+it;Brasilia;Brasília
+ru;Бразилия;Brasília
+ay;Brasilia;Brasília
+gn;Brasilia;Brasília
+ht;Brazilia;Brasília
+kl;Brasilia;Brasília
+nah;Brasilia;Brasília
+zh;巴西利亚;Brasília
+hi;ब्रासीलिया;Brasília
+ru;Браганса-Паулиста;Bragança Paulista
+zh;布拉干薩-保利斯塔;Bragança Paulista
+ru;Брасу-ду-Норти;Braço do Norte
+zh;北布拉索;Braço do Norte
+ru;Ботукату;Botucatu
+zh;博图卡图;Botucatu
+pt;Bom Sucesso;Bonsucesso
+pt;Bom Successo;Bonsucesso
+ja;ボンスセッソ;Bonsucesso
+zh;邦蘇塞索;Bonsucesso
+ru;Бониту;Bonito
+zh;博尼塔;Bonito
+pt;Bom Sucesso;Bom Sucesso do Sul
+pt;Bom Sucesso;Bom Sucesso de Patos
+ru;Бон-Ретиру;Bom Retiro
+zh;邦雷蒂鲁;Bom Retiro
+pt;Bom Princípio;Vila Bom Princípio Baixo
+pt;Bom Jesus do Manhuaçu;Bom Jesus
+ru;Бон-Жезус-ду-Итабапоана;Bom Jesus do Itabapoana
+pt;Bom Jesus do Carangola;Bom Jesus do Divino
+ru;Бон-Жезус-да-Лапа;Bom Jesus da Lapa
+pt;Bom Jesus da Floresta;Floresta
+pt;Bom Jesus;Bom Jesus do Rio Preto
+pt;Bom Jesus;Bom Jesus de Goiás
+pt;Bom Jesus do Goiás;Bom Jesus de Goiás
+ru;Бон-Жардин-ди-Минас;Bom Jardim de Minas
+zh;邦雅尔丁-迪米纳斯;Bom Jardim de Minas
+ru;Бон-Жардин;Bom Jardim
+zh;邦雅爾丁;Bom Jardim
+ru;Бон-Деспашу;Bom Despacho
+zh;博姆德斯帕科;Bom Despacho
+pt;Boia;Bóia
+pt;Boa Vista;Ermo da Boa Vista
+pt;Boa Vista;Boa Vista de Minas
+pt;Boa Vista;Boa Vista de Santana
+pt;Boa Vista da Tapera;Boa Vista do Tapera
+pt;Bousquet;Boa Esperança
+ru;Боа-Эсперанса;Boa Esperança
+zh;博阿埃斯佩兰萨;Boa Esperança
+ru;Блуменау;Blumenau
+ar;بلوميناو;Blumenau
+ja;ブルメナウ;Blumenau
+ko;블루메나우;Blumenau
+zh;布盧梅瑙;Blumenau
+fr;Birigüi;Birigui
+ru;Биригуи;Birigui
+zh;比里吉;Birigui
+pt;Biribiri;Vila do Biribiri
+pt;Bicuíba;Bicuiba
+pt;Bicas do Meio;Wenceslau Braz
+pt;Venceslau Bras;Wenceslau Braz
+ja;ベチン;Betim
+ru;Бетин;Betim
+zh;貝廷;Betim
+ru;Бертиога;Bertioga
+zh;贝尔蒂奥加;Bertioga
+ru;Бенто Гонкалвес;Bento Gonçalves
+ja;ベロオリゾンチ;Belo Horizonte
+zh;贝洛奥里藏特;Belo Horizonte
+ru;Белу-Оризонти;Belo Horizonte
+ja;ベロオリゾンテ;Belo Horizonte
+pt;BH;Belo Horizonte
+pt;Bhte;Belo Horizonte
+pt;Belo Hte;Belo Horizonte
+pt;B.H.;Belo Horizonte
+ar;بيلو هوريزونتي;Belo Horizonte
+ko;벨루오리존치;Belo Horizonte
+hi;बेलो होरिजोंटे;Belo Horizonte
+ja;ベルフォード・ロッショ;Belford Roxo
+ru;Белфорд-Рошу;Belford Roxo
+zh;貝爾福羅舒;Belford Roxo
+pt;Belchior Baixo;Belchior
+ru;Бела-Виста;Bela Vista
+zh;貝拉維斯塔;Bela Vista
+pt;Bela Vista;Boa Vista dos Andradas
+pt;Boa Vista;Boa Vista dos Andradas
+ru;Бауру;Bauru
+gn;Yvauru;Bauru
+ja;バウル;Bauru
+zh;巴烏魯;Bauru
+ru;Бататайс;Batatais
+ru;Батагуасу;Bataguassu
+ru;Баруэри;Barueri
+pt;Tamboré;Barueri
+ja;バルエリ;Barueri
+zh;巴魯埃里;Barueri
+ru;Баррозу;Barroso
+zh;巴罗苏;Barroso
+ru;Барретус;Barretos
+ar;بارريتوس;Barretos
+zh;巴雷图斯;Barretos
+pt;Barreto;Vila Barreto
+pt;Barreto;Barretos de Alvinópolis
+ru;Баррейрас;Barreiras
+pt;Barreiras;Barreira
+ru;Барра-Манса;Barra Mansa
+zh;巴拉曼萨市;Barra Mansa
+ru;Барра-ду-Пираи;Barra do Piraí
+zh;巴拉杜皮莱;Barra do Piraí
+ru;Барра-ду-Гарсас;Barra do Garças
+pt;Barra do Sul;Balneário Barra do Sul
+pt;Barra do Araquari;Balneário Barra do Sul
+ru;Барра-де-Сан-Франциско;Barra de São Francisco
+pt;Barra da Boa Vista;Boa Vista
+pt;Barracão;Barração
+pt;Barraca;Barrocas
+ru;Барра;Barra
+pt;Barbosas;Barbosa
+ru;Барбакена;Barbacena
+pt;Baraúna;São Sebastião de Braúnas
+pt;São Sebastião de Braúna;São Sebastião de Braúnas
+pt;Bandeirantes;Bandeirantes d'Oeste
+pt;Bananal do Rio;Bananal de Baixo
+pt;Bananal;Nacip Raydan
+pt;São Luiz do Purunã Balsa Nova;Balsa Nova
+es;Camboriú;Balneário Camboriú
+es;Balneario Camboriú;Balneário Camboriú
+ru;Балнеариу-Камбориу;Balneário Camboriú
+zh;巴内阿里约坎博里乌;Balneário Camboriú
+pt;Balbinópolis;Santa Helena de Minas
+ru;Байшу-Гуанду;Baixo Guandu
+pt;Baixinha de Todos os Santos;Baixinha
+pt;Usina Hidrelétrica de Baguari;Baguari
+pt;Baguari;São Geraldo do Baguari
+ru;Баг;Bagé
+ru;Баже;Bagé
+zh;巴熱;Bagé
+pt;Aventureio;Santo Antônio do Aventureiro
+ja;アチバイア市;Atibaia
+ru;Атибая;Atibaia
+zh;阿蒂巴亚;Atibaia
+ru;Ассис;Assis
+pt;Assis, SP;Assis
+pt;Assis São Paulo;Assis
+pt;Búzios;Armação dos Búzios
+pt;Praia da Armação do Pântano do Sul;Armação
+pt;Praia da Armação;Armação
+pt;Aristides Lôbo;Aristides Lobo
+pt;Areião;Areão
+pt;Areia Branca;Alto da Areia Branca
+pt;Aredo;Aredor
+pt;Areado;Barra Bairro do Areado
+pt;Arcoverde;Arco Verde
+ru;Аркос;Arcos
+ru;Аркус;Arcos
+zh;阿尔科斯;Arcos
+ru;Араша;Araxá
+zh;阿拉沙;Araxá
+ru;Араукария;Araucária
+ru;Араруама;Araruama
+zh;阿拉鲁阿马;Araruama
+ru;Арарас;Araras
+zh;阿拉拉斯;Araras
+ja;アララクアラ;Araraquara
+ru;Араракуара;Araraquara
+zh;阿拉拉夸拉;Araraquara
+ru;Арарангуа;Araranguá
+ru;Арапонгас;Arapongas
+zh;阿拉蓬加斯;Arapongas
+pt;Aranã;Cachoeira do Arana
+ru;Арагуари;Araguari
+zh;阿拉瓜里;Araguari
+ru;Арасуаи;Araçuaí
+ru;Аракрус;Aracruz
+zh;阿拉克魯斯;Aracruz
+ru;Арасатуба;Araçatuba
+zh;阿拉萨图巴;Araçatuba
+pt;Araçatuba;Comunidade Rural Nova Araçatuba
+pt;Aracati;Aracati de Minas
+ru;Аракажу;Aracaju
+ja;アラカジュ;Aracaju
+ko;아라카주;Aracaju
+zh;阿拉卡茹;Aracaju
+ar;أراكاجو;Aracaju
+hi;अराकाजु;Aracaju
+pt;Aquiles Stengel;Achiles Stenguel
+ru;Апукарана;Apucarana
+ru;Апаресида;Aparecida
+zh;阿帕雷西達;Aparecida
+pt;Antônio Prado;Antônio Prado de Minas
+ru;Антонина;Antonina
+zh;安东尼娜;Antonina
+pt;Anta;Ribeirão da Anta
+ru;Анитаполис;Anitápolis
+ru;Ангра-дус-Рейс;Angra dos Reis
+zh;安格拉杜斯雷斯;Angra dos Reis
+ru;Андреландия;Andrelândia
+zh;安德烈兰迪亚;Andrelândia
+ru;Андрадас;Andradas
+zh;安德拉达斯;Andradas
+ja;アンシエタ;Anchieta
+ru;Аншиета;Anchieta
+zh;安謝塔;Anchieta
+ja;アナポリス;Anápolis
+ru;Анаполис;Anápolis
+zh;阿纳波利斯;Anápolis
+ru;Ампару;Amparo
+zh;安帕羅;Amparo
+ru;Американа;Americana
+zh;亚美利加纳;Americana
+fr;Amazonie;Amazônia
+ru;Алваренга;Alvarenga
+zh;阿尔瓦伦加;Alvarenga
+pt;Alto de Santa Maria;Alto Santa Maria
+ru;Алмиранти-Тамандаре;Almirante Tamandaré
+zh;阿尔米兰特塔曼达雷;Almirante Tamandaré
+ru;Альменара;Almenara
+ru;Алменара;Almenara
+zh;阿尔梅纳拉;Almenara
+pt;Alho;Pau d'Alho
+ru;Алфенас;Alfenas
+zh;阿尔费纳斯;Alfenas
+ru;Алегрети;Alegrete
+pt;Aldeia 20 de Setembro;Aldeia Vinte de Setembro
+pt;Aldeia Caibai;Aldeia Caiabi
+ru;Алкобаса;Alcobaça
+zh;阿尔科巴萨;Alcobaça
+pt;Albuquerque;Bairro do Albuquerque
+pt;Alberto Tôrres;Alberto Torres
+ru;Алагоиньяс;Alagoinhas
+zh;阿拉戈伊尼亚斯;Alagoinhas
+ru;Айморес;Aimorés
+zh;艾莫雷斯;Aimorés
+ru;Агуду;Agudo
+zh;阿古杜;Agudo
+ja;アグアス・デ・サン・ペドロ;Águas de São Pedro
+ko;아구아스지상페드루;Águas de São Pedro
+ru;Агуас-ди-Сан-Педру;Águas de São Pedro
+zh;阿瓜斯-迪圣佩德罗;Águas de São Pedro
+pt;Água Santa;Água Santa de Minas
+en;Vila do Abraao;Abraão
+pt;Abaitinga;Abaitininga
+ru;Абаэте;Abaeté
+pt;Abadia;Abadia de Carbonita
+ru;Леблон;Leblon
+zh-Hant;萊伯倫;Leblon
+zh;莱伯伦;Leblon
+ja;レブロン;Leblon
+ru;Ботафого;Botafogo
+ko;보타포구;Botafogo
+it;Botafogo quartiere;Botafogo
+zh;博塔福古;Botafogo
+ar;بوتافوغو;Botafogo
+ja;ボタフォゴ;Botafogo
+ru;Леме;Leme
+ja;レメ;Leme
+pt;Piaçaguera;Piassagüera
+ar;بالماس;Palmas
+hi;पालमास;Palmas
+ru;Акари;Acari
+ja;リオデジャネイロ;Guadalupe
+pt;Turiaçu;Turiaça
+en;Turiaçu;Turiaça
+it;Turiaçu;Turiaça
+zh;皮纳布拉斯街区;Brás de Pina
+ja;カンピーニョ;Campinho
+ja;サンパイオ;Sampaio
+pt;Agua Santa;Água Santa
+hi;अनिल;Anil
+ru;Сидаде-де-Деуш;Cidade de Deus
+zh;上帝之城;Cidade de Deus
+ar;سيداد دي ديوس;Cidade de Deus
+pt;Vardem Grande;Vargem Grande
+ru;Сан-Конраду;São Conrado
+zh;圣康拉多;São Conrado
+pt;Juquiá-Gúaçu;Juquia-Guaçu
+pt;Bairro dos Barnabes;Barnabés
+pt;Palestina;Bairro Palestina
+pt;Pires do Meio;Pires de Melo
+pt;Decarle;Decart
+pt;Monte Branco;Assentamento Monte Branco
+pt;São Roqué do Baguari;São Roque do Baguari
+pt;Caeira;Caieira
+pt;Butiá de Cima;Butiá dos Carvalho
+pt;Sítio Pscheidt;Vila Pscheidt
+pt;Sítio Campina;Campina
+pt;Pug Mill;Pugmil
+pt;Santa Rita;Santa Rita do Tocantins
+pt;Crixás;Crixás do Tocantins
+pt;Paredao;Paredão
+pt;Paiol;Vista Alegre
+pt;Linha 5;Linha Cinco
+pt;Bairro Água Quente;Água Quente
+pt;Bairro Lençol;Lençol
+pt;Bairro Lajeado;Lageado
+pt;Capitão Brás;Capitão Braz
+pt;Guaraú II;Guaraú Segunda
+pt;Meio do Serra;Meio da Serra
+pt;Tristão Camara;Tristão Câmara
+pt;Queimasangue;Queima Sangue
+pt;Queima-Sangue;Queima Sangue
+pt;Coqueiros;Coqueiro
+pt;Cidade Jardim Montevideo;Montevidéu
+pt;Cidade Jardim Montividéo;Montevidéu
+pt;Jardim Marambaia;Jardim Mambaia
+pt;Vila Babi;Recantus
+pt;Aguas Lindas;Águas Lindas
+pt;San Antônio;Santo Antônio
+pt;Palmeiras da Serra;Palmeira da Serra
+pt;Cinco Lagoas;Cinco Lagos
+pt;Macambará;Massambara
+pt;São Pedro do Itanguá;São Pedro do Taguá
+pt;Saí;Vale do Rio Sahy
+pt;Icarai;Icaraí de Minas
+pt;Vila Tepequém;Vila Tepequem
+pt;São Gabriel;São Gabriel da Cachoeira
+en;Santa Isabel Rio Negro;Santa Isabel do Rio Negro
+en;Tapuruquára;Santa Isabel do Rio Negro
+es;Río Branco;Rio Branco
+ru;Риу-Бранку;Rio Branco
+ja;リオブランコ;Rio Branco
+ar;ريو برانكو;Rio Branco
+ko;히우브랑쿠;Rio Branco
+zh;里約布蘭科;Rio Branco
+hi;रियो ब्रांको;Rio Branco
+ru;Порту-Велью;Porto Velho
+ar;بورتو فاليو;Porto Velho
+ja;ポルト・ヴェーリョ;Porto Velho
+ko;포르투벨류;Porto Velho
+zh;韋柳港;Porto Velho
+hi;पोर्टो वेल्हो;Porto Velho
+pt;Pôrto Franco;Porto Franco
+pt;Manáos;Manaus
+es;Manaos;Manaus
+ja;マナウス;Manaus
+ru;Манаус;Manaus
+ar;ماناوس;Manaus
+hi;मनाउस;Manaus
+ru;Манакапуру;Manacapuru
+pt;Janari;Jauari
+pt;Río Jauarí;Jauari
+pt;Iucaí;Lucai
+ru;Умайта;Humaitá
+zh;烏邁塔;Humaitá
+en;Fortaleza do Albuna;Fortaleza do Abunã
+ru;Эспириту Санту;Espírito Santo
+pt;Cucuí;Cucui
+es;Cucuí;Cucui
+ru;Крузейру-ду-Сул;Cruzeiro do Sul
+zh;南克魯賽羅;Cruzeiro do Sul
+ru;Коари;Coari
+ru;Каракараи;Caracaraí
+zh;卡拉卡拉伊;Caracaraí
+ru;Боа-Виста;Boa Vista
+de;Boa Vista (Roraima);Boa Vista
+ar;بوا فيستا;Boa Vista
+hi;बोआ विस्ता;Boa Vista
+ja;ボアビスタ;Boa Vista
+ru;Бенжамин-Констант;Benjamin Constant
+ru;Барселус;Barcelos
+zh;巴塞洛斯;Barcelos
+ru;Арикемис;Ariquemes
+ru;Арипуанан;Aripuanã
+pt;Custódia Freire;Vila Custódio Freire
+pt;Seringal Triunfo;Grande Triunfo
+ru;Вилена;Vilhena
+ru;Рондония;Rondônia
+ru;Ору-Прету-ду-Уэсти;Ouro Preto do Oeste
+pt;Seringal Independencia,  Nova Olinda;Nova Olinda
+pt;Fazenda Nova Olinda;Nova Olinda
+ru;Жи Парана;Ji Paraná
+ru;Жара;Jaru
+en;Guajará-Mirim;Guajará Mirim
+pt;Guajará-Mirim;Guajará Mirim
+zh;瓜亞拉米林;Guajará Mirim
+ko;구아자라미링;Guajará Mirim
+ru;Какоал;Cacoal
+pt;Poti;Colocação Poti
+pt;São Luis;Alto São Luís
+ru;Акаиландиа;Açailândia
+ru;Агуас Линдас Де Гоиас;Águas Lindas de Goiás
+ru;Алта-Флореста;Alta Floresta
+ja;アパレシダ・デ・ゴイアニア;Aparecida de Goiânia
+ru;Апаресида-ди-Гояния;Aparecida de Goiânia
+zh;阿帕雷西達迪戈亞尼亞;Aparecida de Goiânia
+ja;アウロラ;Aurora
+pt;Guilherme;Centro do Guilherme
+ru;Фазенда Рио Гранде;Fazenda Rio Grande
+ko;페르난도 데 노로나;Fernando de Noronha (Distrito Estadual)
+en;Herval d'Oeste;Herval dOeste
+ja;ジャボアタン・ドス・グアララペス;Jaboatão dos Guararapes
+ko;자보아탕두스구아라라페스;Jaboatão dos Guararapes
+ru;Жабоатан-дус-Гуарарапис;Jaboatão dos Guararapes
+zh;熱博阿陶;Jaboatão dos Guararapes
+ru;Лауро Де Фреитас;Lauro de Freitas
+ru;Маритуба;Marituba
+ru;Монте-Карло;Monte-Carlo
+ru;Нова-Андрадина;Nova Andradina
+ru;Ново Гама;Novo Gama
+ru;Пако До Лумиар;Paço do Lumiar
+ru;Парана;Paraná
+zh;帕拉纳;Paraná
+ru;Парауапебас;Parauapebas
+ru;Пиньяис;Pinhais
+ru;Розариу-ду-Иваи;Rosário do Ivaí
+zh;罗萨里奥-杜伊瓦伊;Rosário do Ivaí
+ru;Сан-Франсиску-ду-Уэсти;São Francisco do Oeste
+zh;西圣弗朗西斯科;São Francisco do Oeste
+pt;São Luiz do Anauá;São Luiz
+ru;Сао Мигел До Гвапоре;São Miguel do Guaporé
+ru;Симоес Фильё;Simões Filho
+ru;Синоп;Sinop
+ru;Соррисо;Sorriso
+pt;Veadinhos;Tabajara
+ru;Тангара Да Серра;Tangará da Serra
+ru;Теиксеира Де Фреитас;Teixeira de Freitas
+ru;Урвара;Uruará
+ru;Валпараисо Де Гоиас;Valparaíso de Goiás
+ru;Вера-Крус-ду-Уэсти;Vera Cruz do Oeste
+zh;西韦拉克鲁斯;Vera Cruz do Oeste
+pt;Avenida Rio Branco;Av. Rio Branco
+pt;R. Verbo Divino;Rua Verbo Divino
+pt;Alphavile;Alphaville
+pt;ABC Paulista;Grande ABC
+pt;ABCD;Grande ABC
+pt;ABC;Grande ABC
+ko;키키;Barra da Tijuca
+zh;巴拉达蒂茹卡;Barra da Tijuca
+ar;بارا دا تيجوكا;Barra da Tijuca
+ja;バハ・ダ・チジューカ;Barra da Tijuca
+ru;Бара Да Тижука;Barra da Tijuca
+ja;ジャルジーム・アメリカ;Jardim América
+ja;ヴィラ・イサベル;Vila Isabel
+zh;格拉雅乌;Grajaú
+ru;Росинья;Rocinha
+zh;羅西尼亞;Rocinha
+ar;روسينها;Rocinha
+ja;ロシーニャ;Rocinha
+pt;Jardim Botãnico;Jardim Botanico
+ja;マレ;Maré
+ja;ガンボア;Gamboa
+pt;Sítio Pedra Selada;Pedra Selada
+pt;Sítio Bela Vista;Bela Vista
+pt;Cafundó;Bela Vista
+pt;Fazenda Santará;Pedra Gomes
+pt;Sítio Mato Dentro;Mato Dentro
+pt;Xarapa;Charapa
+pt;Ouro Fino;Bairro Ouro Fino
+pt;Bairro Tabuo;Bairro Tabuão
+pt;Tabuo;Tabuão
+pt;Bairro So Bento;São Bento
+pt;So Silvestre do Jacare;São Silvestre de Jacareí
+pt;Luis Carlos;Luiz Carlos
+pt;Bairro dos Pessegueiros;Pessegueiros
+pt;Bairro Biquinha;Biquinha
+pt;Bairro Poço do Peixe;Poço dos Peixes
+pt;Buracada;Poço dos Peixes
+pt;Bairro Três Córregos;Três Córregos
+pt;Bairro Posse;Posse
+pt;Bairro do Albuquerque;Albuquerque
+pt;Bairro do Imbuí;Imbuí
+pt;Bairro da Serra da Caneca Fina;Caneca Fina
+pt;Paríaso;Paraíso
+pt;Prata dos Aredos;Prata dos Aredes
+pt;Patis;Pratis
+pt;Quilômetro 12;Duas Barras
+pt;Frades;Frade
+pt;Bom Sucesso;Vale de Bonsucesso
+pt;Areias Grandes;Conquista
+pt;São José do Acaraí;Tapera
+pt;Pomeranos;Pomeranos Caravaggio
+pt;Tatutiva Um;Tatutiva I
+pt;Tatutiva Dois;Tatutiva II
+pt;Tatutiva Quatro;Tatutiva IV
+pt;Tatutiva Tres;Tatutiva III
+pt;Barrio Ponta Aguda;Bairro Pontal Aguda
+pt;Linha 60;Linha Sessenta
+pt;5a Légua;Quinta Légua
+pt;4a Légua;Quarta Légua
+pt;São Francisco da 6a Légua;São Francisco da Sexta Légua
+pt;Século XX;Século Vigésimo
+pt;Linha 40;Linha Quarenta
+pt;Sítio Haga-2;Sítio Haga-Dois
+pt;Bairro Rio de Una;Rio Una de Baixo
+pt;Bairro do Cupim;Cupim
+pt;Bairro Sorocabuçu;Sorocabuçu
+pt;Mirandas;Bairro Mirandas
+pt;Jundiacanga;Judiacanga
+pt;Loteamento Quintas de Pirapora;Quintas de Pirapora I
+pt;Leite;Leites
+pt;Barra;Quintas da Barra
+pt;Fazendinha;Fazendinha dos Pretos
+pt;Jurupará do Meio;Jurupará
+pt;Sítio dos Ortizes;Ortizes
+pt;Godinho;Godinhos
+pt;Parada 57;Parada Cinquenta e Sete
+pt;Núcleo Santa Cruz;Santa Cruz
+pt;Sítio Nossa Toca Um;Sítio Nossa Toca
+pt;Gleba II;Gleba Segunda
+pt;Gleba I;Gleba Primeiro
+pt;Jardim de Mairiporã Gleba I;Jardim de Mairiporã Gleba Um
+pt;Jardim de Mairiporã Gleba II;Jardim de Mairiporã Gleba Segunda
+pt;Loteamento Colina II de Mainporã;Loteamento Colina Segunda de Mariporã
+pt;Sítio Sauna II;Sítio Sauna Segunda
+pt;Barrio Barra Grande;Barra Grande
+pt;Panelas de Bréjauva;Área Residencial da Mineração Plumbum
+pt;Bairro Caraças;Caraça
+pt;Colônia Sete Barras;Sete Barras
+pt;Bairro do Lajeado;Lageado
+pt;Quilômetro Quinze;Bairro Bela Vista
+pt;Bairro Castelhanos;Bairro Casteliano
+pt;Bairro Ivaporunduva;Quilombo Ivotuporunduva
+pt;São Pedro;Quilombo São Pedro
+pt;Vila Tatu;Tatu
+pt;Barra do Pindaúva;Barra do Pindaíba
+pt;Colônia Velha;Bairro das Palmeiras
+pt;Descampadinho;Corregozinho
+pt;Colônia João XXIII;Colônia João Vigésimo Terceiro
+pt;Bairro do Betari;Bairro Betary
+pt;Sítio Imobiliária 2.000;Sítio Imobiliária Dois Mil
+pt;Barra do Ribeirão Grande;Quilombo Ribeirão Grande
+pt;Tapera;Prainnha
+pt;Bairro Indaiatuba;Indaiatuba
+pt;Rafael Segundo;Rafael II
+pt;Barra do Dollman;Barra do Dollmann
+pt;Caminho do Posto;Caminho
+pt;Dona Ema;Dona Emma
+pt;Ponte dos Vieira;Ponte dos Vieras
+pt;Loteamento Dona Francisca;Dona Francisca
+pt;Campina dos Crispim;Campina dos Crispins
+pt;Ladeira 1;Ladeira Um
+pt;Ladeira 2;Ladeira Dois
+pt;Caminas dos Konkl;Campinas dos Konkl
+pt;Vila Soleriedade;Vila Solidariedade
+pt;Patrimônio Marques dos Reis;Marques dos Reis
+pt;Catangara;Catangará
+pt;Victor Meireles;Vitor Meireles
+pt;Rio da Anta;Rio das Antas
+pt;Picadão da Baia;Picadão da Baía
+pt;Barra do Rio da Prata;Barra do Rio do Prata
+pt;Cerro Azul;Serro Azul
+pt;Sítio Salmo 91;Sítio Salmo Noventa e Um
+pt;Gleba 4;Gleba Quatro
+pt;Tibaji Alta;Gleba Quatro
+pt;Água Branca;Agrovila do Projeto de Assentamento Vila Rural Água Branca
+pt;Bairro Tabuão;Taboão
+pt;Bairro Tatapuí;Povoado Tatapuí
+ja;サンタ・テレサ地区;Santa Teresa
+zh;加利昂;Galeão
+zh;乌尔卡;Urca
+pt;Rio Azeite;Barra do Azeite
+pt;Ilha das Peças;Ponta das Peças
+pt;Capivari;Capivari Grande
+pt;Pirapora;Parque de Pirapora
+pt;Canela Oca;Rio Branco
+pt;São Manoel;São Manoel do Paraná
+pt;Santa Cruz;Santa Cruz de Botumirim
+pt;Agua Boa;Água Boa de Santa Cruz
+pt;Arraial Pouso Alegre;Pouso Alegre
+pt;Marinho;Vila Marinho
+pt;Antonópolis;Passagem de Pedras
+pt;Resende;Vila Resende
+pt;Cajuite;Cajuíta
+pt;Ponta da Corumbaú;Ponta do Corumbaú
+pt;São Francisco;São Francisco de Assis
+pt;Betinho;Vila Betinho
+pt;Gabriel Passos;Vila Gabriel Passos
+pt;Santa Luzia;Santa Luzia de Minas
+pt;Tome;Tomé
+pt;Nova Brasilia;Nova Brasília
+pt;Floreste do Sul;Floresta do Sul
+pt;Quilômetro Quatorze do Mutum;Quilômetro 14 do Mutum
+pt;Quilômetro Catorze do Mutum;Quilômetro 14 do Mutum
+pt;Taquaral;Taquaral de Minas
+pt;Santa Cruz;Santa Cruz de Irupi
+pt;Manuel Ribajo;Manoel Ribeiro
+pt;Manuel Ribeiro;Manoel Ribeiro
+pt;Perucaba;Peruçaba
+pt;Tapera de Ipiranga;Tapera
+pt;Feira Nova;Teotônio Vilela
+pt;Baixa Grande;São Luiz
+pt;Buriti de Santo Antonio;Buriti de Santo Antônio
+pt;Conceição;Sigefredo Pacheco
+pt;Bela Vista;Ipiranga
+pt;São João da Chaga;São João dos Chagas
+pt;Lagoa do Barro;Lagoa do Barro do Piauí
+pt;Ruas;Uruás
+pt;Gameleira;Gameleira do Jacaré
+pt;Lameirão;Júlio Borges
+pt;Bom Jardim;Dirceu Arcoverde
+pt;Anjico;Angico dos Dias
+pt;Maristela;Maristela de Minas
+pt;Boa Vista da Canaheia;Boa Vista da Cananéia
+pt;Redenção;Nova Redenção
+pt;Graças;Vila das Graças
+pt;Pimenta;Pimenteiras
+pt;Itaibé;Itaimbé
+pt;Itiúba;Itiuba
+pt;Taboleirinho;Tabuleirinho
+pt;Pitubas;Pitubinhas
+pt;Muquém de São Francisco;Muquém do São Francisco
+pt;Boa Sorte;Boa Sorte do Paraíso
+pt;Entroncamento;Entroncamento de Taiobeiras
+pt;Tijuco;Tejuco
+pt;União;União de Minas
+pt;Novislândia;Naveslândia
+pt;Navislândia;Naveslândia
+pt;São Francisco de Assisi;São Francisco
+pt;Ráimundo;Raimundo
+pt;Mocambinho;Mucambinho
+pt;Rochedo;Vale do Paraíso
+pt;Santa Rosa de Meia Ponte;Santa Rosa da Meia Ponte
+pt;Rancho Algre;Rancho Alegre
+pt;Santa Teresa;Terezópolis de Goias
+pt;Brasilândia;Brasilândia de Minas
+pt;Picão;Gentil de Matos
+pt;Trevo de Monte Alegre;Trevo
+pt;Sao José do Timozinho;São José do Timbozinho
+pt;Chartes;Chartres
+pt;Água Fria;Água Fria de Goiás
+pt;Malhador;Goianópolis
+pt;Arturlândia;Artulândia
+pt;Montividiu;Montividiu do Norte
+pt;Indianópolis;Indaianópolis
+pt;Rosario;Rosário
+pt;São Vicente;Patrimônio São Vicente
+pt;Barreiro;Linda Vista
+pt;Cajueiro;Azinópolis
+pt;Entroncamento São Miguel do Araguaia;Azinópolis
+pt;Santo Antônio do Rio das Mortes;Novo Santo Antônio
+pt;Fazenda Varjadão;Dorilândia
+pt;Patrimonio;Patrimônio
+pt;Rosalândia Velha;Rosalândia do Norte
+pt;Goiani dos Campos;Goiany dos Campos
+pt;Furnas;Núcleo Residencial e Administrativo da Represa de Furnas
+pt;Carrancas;Estaçao de Carrancas
+pt;Icatu;Ecatu
+pt;Pagador Andrade;Andrade
+pt;Cidade Vale do Rio Cristalino;Retiro da Companhia Vale do Rio Cristalino
+pt;Fazenda Suiá-Miçu;Suia-Missu
+pt;Vila Pontinópolis;Pontinópolis
+pt;Novo Horizonte;Novo Horizonte do Oeste
+pt;Bacuritabe;Bacurituba
+pt;Gurupa;Gurupá
+pt;Urucuri;Urupuri
+pt;Ajoai;Ajoaí
+pt;Fazenda Nossa Senhora de Fátima;Nossa Senhora de Fátima
+pt;Madeireira;Novo Remanso
+en;Momasa River Engineer Camp;Acampamento Momasa Engenheiro Rio
+pt;Porto Itaperiú;Porto do Itaperiu
+pt;Barra do Superagui;Barra do Superaguí
+pt;Campinas do Dias;Primeiro Faxinal dos Castilhos
+pt;Lagoa do Baixo;Lagoa de Baixo
+pt;Pedra do Una;Pedras de Una
+pt;Alta Floresta d’Oeste;Alta Floresta d'Oeste
+pt;Quilômetro 27;Quilometro
+pt;Quilômetro Vinte e Sete;Quilometro
+pt;Vila Ubim;Ubim
+pt;Vila Guananatuba;Vila Guaranatuba
+pt;Vila Corvalho;Vila Carvalho
+pt;Vila Espíritu Santo;Vila Espírito Santo
+pt;Santa Inés;Santa Inês
+pt;Poção;Comunidade do Poção
+pt;Cametá;Turiano Serrço
+pt;Itapaiuna;Itapaiúna
+pt;Maripá;Maripu
+pt;Socorro;Vila Socorro
+pt;Ajumari;Ajamury
+pt;Nossa Senhora do Conceição;Nossa Senhora da Conceição
+pt;Gorete;Vila Gorete
+pt;Vila Ana;Vila Anã
+pt;Pariçó;Paricó
+pt;Curuá-Una;Vila de Curuá-Una
+pt;Agrópolis Brasil Novo;Brasil Novo
+pt;Jutuarana;Jutuarama
+pt;Fazenda Santa Rosa;Santa Rosa
+pt;Caracol;Bela Vista do Caracol
+pt;São Sebastião do Barriero;São Sebastião do Barroso
+pt;Residência Fuk;Residência Fuck
+pt;Rechã;Rechan
+pt;Cacau Pirera;Cacau Pirêra
+pt;Mangabeiras;Mangabeira
+pt;Areal;Malvinas
+pt;Aris- Fercal III;Fercal
+zh;高園;Planaltina
+ru;Луис Едуардо Магальяес;Luis Eduardo Magalhães
+pt;Alto Rio Pinheiros;Pinheiros Altos
+pt;Rio Scharf;Scharf
+pt;Rancho de Tabuas;Rancho de Tábuas
+pt;Farturo;Fartura
+pt;Papagaios;Balneário Papagaio
+pt;Vila Santana;Santana
+pt;Embiras;Imbiras
+pt;Ponta Ruça;Ponta Russa
+pt;Limeira Alta;Limeira
+pt;Centro de Fernandes;Fernandes
+pt;Limeira Baixa;Limeira
+pt;Alto Pedras Grandes;Pedras Grandes
+pt;Zantão;Santão
+pt;Tomás Coelho;Linha Tomás Coelho
+pt;Vargem dos Bugres;Vargem do Bugres
+pt;Valsugana;Valsunga
+pt;Barbaquá;Barbaguá
+pt;Morro do Boi;Comunidade Quilombola Morro do Boi
+pt;Ribeirão São Luis;Ribeirão São Luís
+pt;Bairro de São Pedro;São Pedro
+pt;Ponte Negra;Ponta Negra
+pt;Iguaba Pequena;Iguabinha
+pt;Boa Esperança;De Boa Esperança
+pt;São Pedro;São Pedro da Serra
+pt;Ilha da Boa Vista;Ilha Boa Vista
+pt;Ipiabinhas;Ipiabas
+pt;Jardim da Mata;Mata
+pt;Ribeira;Gleba Ribeira
+pt;Motas;Mottas
+pt;Jaborandi;João Brande
+pt;Sapé;Sapê
+pt;Toboão;Taboão
+pt;Pompéu;Pompeu
+pt;Cajazeira;Cajazeiras
+pt;Lamarão;Núcleo Rural Lamarão
+pt;Núcleo Rural Tabatinga;Tabatinga
+pt;Núcleo Rural Rio Preto;Rio Preto
+pt;Núcleo Rural Capão Grande;Capão Grande
+pt;Mestre das Armas;Mestre d'Armas
+pt;Lagoa Mato Grande;Lagoa
+pt;Goiaminas;Goiasminas
+pt;Vila São José;São José
+pt;Braslândia;Brazlândia
+pt;Cruzelândia;Cruzlândia
+pt;Francinópolis;Francisnópolis
+pt;Xavantes;Aldeia Pimentel Barbosa
+pt;Una;Una de Cima
+pt;São José;São José do Limoeiro
+pt;Barra Grande;Barra Grande de Mesquita
+pt;Santo Antônio do Requerente;Patrimônio do Requerente
+pt;Nananuque;Naque-Nanuque
+pt;Dona Carlota;Dom Carloto
+pt;Coração de Maria;Macadame
+pt;Serra Nova;Serra Nova Dourada
+pt;Engenho;Engenho Dois
+pt;Horto Pingo-d’Água;Pingo-d'Água
+pt;Cachoeira de Almas;Cachoeira das Almas
+pt;Boa Vista;Boa Vista da Serra
+pt;Pimenta;Pimentas
+pt;Bairro Quatinga;Quatinga
+pt;Retiro;Morro do Retiro
+pt;SIA;Setor de Indústria e Abastecimiento
+ru;Санта Мариа;Santa Maria
+ru;Риачо Фундо II;Riacho Fundo II
+pt;Riacho Fundo I;Riacho Fundo
+ru;Самамбаиа;Samambaia
+ru;Агуас Кларас;Águas Claras
+pt;SCIA;Setor Complementar de Indústria e Abastecimento
+pt;Cruziero;Cruzeiro
+pt;Ouro Fino;Ouro Fino Paulista
+pt;São José;Núcleo Rural São José
+pt;Santos Dumont;Núcleo Rural Santos Dumont
+pt;Coperbrás;Núcleo Rural Coperbrás
+pt;Café Sem Troco;Café Sem Trôco
+pt;Cariru;Núcleo Rural Cariru
+pt;PAD-DF;COOPA/DF
+pt;Cooperativa Agropecuária do Distrito Federal;COOPA/DF
+pt;Programa de Assentamento Dirigido Distrito Federal;COOPA/DF
+pt;Taquara;Núcleo Rural da Taquara
+pt;Sarandi;Núcleo Rural Sarandi
+pt;Lago Oeste;Núcleo Rural Lago Oeste
+pt;INCRA 8;INCRA Oito
+pt;INCRA 9;INCRA Nove
+pt;INCRA 7;INCRA Sete
+pt;INCRA 6;INCRA Seis
+pt;Jibóia;Laje
+pt;Mandim;Sudene
+pt;Morro da Glória;Costeira
+pt;Graína;Graúna
+pt;Tingui;Assentamento Josué de Castro
+pt;Gado Bravo 2;Gado Bravo Dois
+pt;Agrovila do PA Santa Rosa do Jardim;Agrovila do Projeto de Assentamento Santa Rosa do Jardim
+pt;Quilômetro 16;Quilômetro Dezesseis
+pt;Agrovila do PA Ponta d'Água;Agrovila do Projeto de Assentamento Ponta d'Água
+pt;Agrovila do PA Água Fria;Agrovila do Projeto de Assentamento Água Fria
+pt;Agrovila do PA Riachão II;Agrovila do Projeto de Assentamento Riachão II
+pt;Agrovila do PA Três Voltas;Agrovila do Projeto de Assentamento Três Voltas
+pt;Agrovila do PA São Miguel;Agrovila do Projeto de Assentamento São Miguel
+pt;Agrovila do PA Lagoa Nova III;Agrovila do Projeto de Assentamento Lagoa Nova III
+pt;Agrovila do PA Boca do Campo;Agrovila do Projeto de Assentamento Boca do Campo
+pt;Agrovila do PA Bonsucesso;Agrovila do Projeto de Assentamento Bonsucesso
+pt;Agrovila do PA Xoá;Agrovila do Projeto de Assentamento Xoá
+pt;Agrovila do PA Vale do Lírio;Agrovila do Projeto de Assentamento Vale do Lírio
+pt;Agrovila do Projeto de Assentamento Zabelê;Santo Antônio
+pt;Agrovila do PA Zabelê;Santo Antônio
+pt;Agrovila do PA Marajó;Agrovila do Projeto de Assentamento Marajó
+pt;Agrovila do PA Vivará;Agrovila do Projeto de Assentamento Vivará
+pt;Agrovila do PA Canto da Ilha de Cima;Agrovila do Projeto de Assentamento Canto da Ilha de Cima
+pt;Agrovila do PA Chico Mendes;Agrovila do Projeto de Assentamento Chico Mendes
+pt;Agrovila do PA Canafístula;Agrovila do Projeto de Assentamento Canafístula
+pt;Agrovila do PA Caracaxá;Agrovila do Projeto de Assentamento Caracaxá
+pt;Agrovila do PA Rosário;Agrovila do Projeto de Assentamento Rosário
+pt;Agrovila do PA Taboleiro do Barreto;Agrovila do Projeto de Assentamento Taboleiro do Barreto
+pt;Perobas;Assentamento Astral
+pt;Agrovila do PA Três Corações;Agrovila do Projeto de Assentamento Três Corações
+pt;Agrovila do PA Santa Terezinha;Agrovila do Projeto de Assentamento Santa Terezinha
+pt;Agrovila do PA José Coelho Sobrinho;Agrovila do Projeto de Assentamento José Coelho Sobrinho
+pt;Agrovila do PA Margarida Alves;Agrovila do Projeto de Assentamento Margarida Alves
+pt;Agrovila do PA Nova Vida II;Agrovila do Projeto de Assentamento Nova Vida II
+pt;Agrovila do PA São José Pedregulho;Agrovila do Projeto de Assentamento São José Pedregulho
+pt;Agrovila do Projeto de Assentamento Quilombo dos Palmares;Zabelê
+pt;Agrovila do PA Quilombo dos Palmares;Zabelê
+pt;Agrovila do PA Padre Cícero;Agrovila do Projeto de Assentamento Padre Cícero
+pt;Agrovila do PA Potengi;Agrovila do Projeto de Assentamento Potengi
+pt;Agrovila do PA Brinco de Ouro;Agrovila do Projeto de Assentamento Brinco de Ouro
+pt;Agrovila do PA Boa Sorte;Agrovila do Projeto de Assentamento Boa Sorte
+pt;Agrovila do PA São Sebastião;Agrovila do Projeto de Assentamento São Sebastião
+pt;Agrovila do PA Eldorado dos Carajás;Agrovila do Projeto de Assentamento Eldorado dos Carajás
+pt;Agrovila do PA Nova Conquista;Agrovila do Projeto de Assentamento Nova Conquista
+pt;Agrovila do Projeto de Assentamento Planalto do Retiro;Assentamento Planalto do Retiro
+pt;Agrovila do PA Planalto do Retiro;Assentamento Planalto do Retiro
+pt;Agrovila do PA Jerusalém;Agrovila do Projeto de Assentamento Jerusalém
+pt;Agrovila do PA Santa Vitória;Agrovila do Projeto de Assentamento Santa Vitória
+pt;Agrovila do PA Baixa da Quixaba;Agrovila do Projeto de Assentamento Baixa da Quixaba
+pt;Agrovila do PA Passagem do Juazeiro;Agrovila do Projeto de Assentamento Passagem do Juazeiro
+pt;Agrovila do PA Antônio Conselheiro;Agrovila do Projeto de Assentamento Antônio Conselheiro
+pt;Lagoa do Sal;Monte Alegre
+pt;Boqueirão Vila Três;Vila Israel
+pt;Boqueirão Vila 3;Vila Israel
+pt;Agrovila do PA Nova Esperança II;Agrovila do Projeto de Assentamento Nova Esperança II
+pt;Agrovila do PA Uirapuru;Agrovila do Projeto de Assentamento Uirapuru
+pt;Agrovila do PA 25 de Julho;Agrovila do Projeto de Assentamento Vinte e Cinco de Julho
+pt;Agrovila do PA Vinte e Cinco de Julho;Agrovila do Projeto de Assentamento Vinte e Cinco de Julho
+pt;Boqueirão Vila Um;Vila Assis
+pt;Boqueirão Vila 1;Vila Assis
+pt;Agrovila do PA Novo Horizonte II;Agrovila do Projeto de Assentamento Novo Horizonte II
+pt;Agrovila do PA Modelo;Agrovila do Projeto de Assentamento Modelo
+pt;Agrovila do PCT Barbara;Agrovila do Projeto Cédula da Terra Barbara
+pt;Agrovila do PA Baixa do Novilho;Agrovila do Projeto de Assentamento Baixa do Novilho
+pt;Agrovila do PA Canadá;Agrovila do Projeto de Assentamento Canadá
+pt;Agrovila do PCT Barra de Santo Estevão;Agrovila do Projeto Cédula da Terra Barra de Santo Estevão
+pt;Agrovila do PA Três Voltas II;Agrovila do Projeto de Assentamento Três Voltas II
+pt;Agrovila do PA Pedra de São Pedro;Agrovila do Projeto de Assentamento Pedra de São Pedro
+pt;Agrovila do PA Espírito Santo;Agrovila do Projeto de Assentamento Espírito Santo
+pt;Vila Maine;Vila Mayne
+pt;Agrovila do PA Três Corações Dois;Agrovila do Projeto de Assentamento Três Corações Dois
+pt;Agrovila do PA Três Corações 2;Agrovila do Projeto de Assentamento Três Corações Dois
+pt;Agrovila do Projeto de Assentamento Zabelê;Cajá
+pt;Agrovila do PA Zabelê;Cajá
+pt;Lagoa do Fogo;Perobas
+pt;Agrovila do PA Carnaúba dos Limões;Agrovila do Projeto de Assentamento Carnaúba dos Limões
+pt;PA Riacho da Cruz do Meio;Projeto de Assentamento Riacho da Cruz do Meio
+pt;Agrovila do PA Barbaco II;Agrovila do Projeto de Assentamento Barbaco II
+pt;Agrovila do PA São Luís;Agrovila do Projeto de Assentamento São Luís
+pt;Agrovila do PA Novo Riacho da Cruz;Agrovila do Projeto de Assentamento Novo Riacho da Cruz
+pt;Agrovila do PA Riacho da Cruz;Agrovila do Projeto de Assentamento Riacho da Cruz
+pt;Agrovila do PA Bujari;Agrovila do Projeto de Assentamento Bujari
+pt;Agrovila do PA Santo Antônio;Agrovila do Projeto de Assentamento Santo Antônio
+pt;Agrovila do PA Ronda;Agrovila do Projeto de Assentamento Ronda
+pt;Agrovila do PA Casinhas;Agrovila do Projeto de Assentamento Casinhas
+pt;Agrovila do PA Barbaco I;Agrovila do Projeto de Assentamento Barbaco I
+pt;Agrovila do PA Seridó;Agrovila do Projeto de Assentamento Seridó
+pt;Lamarão;Aldeia Indígena Tremembé
+pt;Saquinho;Aldeia Indígena Tremembé
+pt;Agrovila do PA Sede Velha de Abiaí;Agrovila do Projeto de Assentamento Sede Velha de Abiaí
+pt;Agrovila do PA Pedro Teixeira;Agrovila do Projeto de Assentamento Pedro Teixeira
+pt;Agrovila do PA Camucim;Agrovila do Projeto de Assentamento Camucim
+pt;Agrovila do PA Senhor do Bomfim;Agrovila do Projeto de Assentamento Senhor do Bomfim
+pt;Agrovila do PA José Rodrigues Sobrinho;Agrovila do Projeto de Assentamento José Rodrigues Sobrinho
+pt;Agrovila do PA Novo Salvador;Agrovila do Projeto de Assentamento Novo Salvador
+pt;Agrovila do PA Chico Mendes I;Agrovila do Projeto de Assentamento Chico Mendes I
+pt;Agrovila do PA Usina Santa Maria;Agrovila do Projeto de Assentamento Usina Santa Maria
+pt;PA Barra do Gramame;Projeto de Assentamento Barra do Gramame
+pt;Agrovila do PA Teixeirinha;Agrovila do Projeto de Assentamento Teixeirinha
+pt;Agrovila do PA Baixio;Agrovila do Projeto de Assentamento Baixio
+pt;Agrovila do PA Zumbi dos Palmares;Agrovila do Projeto de Assentamento Zumbi dos Palmares
+pt;Agrovila do PA Rick Charles;Agrovila do Projeto de Assentamento Rick Charles
+pt;Agrovila do PA Tainha;Agrovila do Projeto de Assentamento Tainha
+pt;Agrovila do PA Subaruma;Agrovila do Projeto de Assentamento Subaruma
+pt;Agrovila do PA Boa Esperança;Agrovila do Projeto de Assentamento Boa Esperança
+pt;Agrovila do PA Chico Mendes II;Agrovila do Projeto de Assentamento Chico Mendes II
+pt;Agrovila do PA Conjunto Leal Landia;Agrovila do Projeto de Assentamento Conjunto Leal Landia
+pt;Canto Alegre 2;Canto Alegre Dois
+pt;Agrovila do PA Nova Vida;Agrovila do Projeto de Assentamento Nova Vida
+pt;Agrovila do PA Tiradente;Agrovila do Projeto de Assentamento Tiradente
+pt;Agrovila do PA Dona Antônia;Agrovila do Projeto de Assentamento Dona Antônia
+pt;Agrovila do PA Padre Gino;Agrovila do Projeto de Assentamento Padre Gino
+pt;Agrovila do PA Vinte e Um de Abril;Agrovila do Projeto de Assentamento Vinte e Um de Abril
+pt;Agrovila do PA Canudos;Agrovila do Projeto de Assentamento Canudos
+pt;Agrovila do PA Oitieiro de Miranda;Agrovila do Projeto de Assentamento Oitieiro de Miranda
+pt;Agrovila do PA Primeiro de Março;Agrovila do Projeto de Assentamento Primeiro de Março
+pt;Agrovila do PA 1° de Março;Agrovila do Projeto de Assentamento Primeiro de Março
+pt;Agrovila do Projeto de Assentamento 1° de Março;Agrovila do Projeto de Assentamento Primeiro de Março
+pt;Agrovila do PA Apasa;Agrovila do Projeto de Assentamento Apasa
+pt;Agrovila do PA Maria Preta;Agrovila do Projeto de Assentamento Maria Preta
+pt;Colônia Agrícola de Punaú;Punaú
+pt;Santana 3;Santana Três
+pt;Setor D1;Setor D Um
+pt;Setor D2;Setor D Dois
+pt;2a Etapa;Segunda Etapa
+pt;Setor C1;Setor C Um
+pt;Setor C2;Setor C Dois
+pt;Mangabeira 2;Mangabeira Dois
+pt;Conjunto Habitacional NH2;Conjunto Habitacional Núcleo Habitacional Dois
+pt;PA Juazeiro;Projeto de Assentamento Juazeiro
+pt;Agrovila do PA Juazeiro;Agrovila do Projeto de Assentamento Juazeiro
+pt;Núcleo 2 São Gonçalo;Núcleo Dois São Gonçalo
+pt;Conjunto Habitacional NH3;Conjunto Habitacional Núcleo Habitacional Três
+pt;PA Valdeci Santiago;Projeto de Assentamento Valdeci Santiago
+pt;Córrego da Forquilha 1;Córrego da Forquilha Um
+pt;Agrovila do PA Lagoa do Mato;Agrovila do Projeto de Assentamento Lagoa do Mato
+pt;PA Conceição Bonfim;Projeto de Assentamento Conceição Bonfim
+pt;PA Santa Rosa;Projeto de Assentamento Santa Rosa
+pt;PA Lagoa do Jirau;Projeto de Assentamento Lagoa do Jirau
+pt;Agrovila do PA Guriú;Agrovila do Projeto de Assentamento Guriú
+pt;Setor 01;Setor Um
+pt;PA Groaíras;Projeto de Assentamento Groaíras
+pt;Setor 7;Setor Sete
+pt;Quilômetro Vinte e Sete;Quilômetro 27
+pt;Agrovila do PCT Monte Alegre II;Agrovila do Projeto Cédula da Terra Monte Alegre II
+pt;Agrovila do PA Nossa Senhora do Conceição;Agrovila do Projeto de Assentamento Nossa Senhora do Conceição
+pt;Agrovila do PA Tabuleiro Grande;Agrovila do Projeto de Assentamento Tabuleiro Grande
+pt;Agrovila do PA Esperança;Agrovila do Projeto de Assentamento Esperança
+pt;Assentamento 1o de Maio;Assentamento Primeiro de Maio
+pt;Agrovila do PA Sítio do Góis;Agrovila do Projeto de Assentamento Sítio do Góis
+pt;Agrovila do PA Bom Lugar;Agrovila do Projeto de Assentamento Bom Lugar
+pt;Agrovila do PA Hipólito;Agrovila do Projeto de Assentamento Hipólito
+pt;Agrovila do PA Sebastião Andrade;Agrovila do Projeto de Assentamento Sebastião Andrade
+pt;Agrovila do PA José Milanês;Agrovila do Projeto de Assentamento José Milanês
+pt;Agrovila do PA Serra do Meio;Agrovila do Projeto de Assentamento Serra do Meio
+pt;Serra Nova;Agrovila do Projeto de Assentamento Serra do Meio
+pt;Agrovila do PA Jatuarana;Agrovila do Projeto de Assentamento Jatuarana
+pt;Agrovila do PA Novo Pingos;Agrovila do Projeto de Assentamento Novo Pingos
+pt;Agrovila do PA Santa Clara II;Agrovila do Projeto de Assentamento Santa Clara II
+pt;Agrovila do PA Alto da Felicidade;Agrovila do Projeto de Assentamento Alto da Felicidade
+pt;Agrovila do PA Santa Maria;Agrovila do Projeto de Assentamento Santa Maria
+pt;Agrovila do PA Cordão de Sombra;Agrovila do Projeto de Assentamento Cordão de Sombra
+pt;Agrovila do PA Serrano;Agrovila do Projeto de Assentamento Serrano
+pt;Agrovila do PA Santana;Agrovila do Projeto de Assentamento Santana
+pt;Mendubim 1;Mendubim Um
+pt;Agrovila do PA Mulunguzinho;Agrovila do Projeto de Assentamento Mulunguzinho
+pt;Agrovila do PA Vingt Rosado;Agrovila do Projeto de Assentamento Vingt Rosado
+pt;Agrovila do PA Ligação;Agrovila do Projeto de Assentamento Ligação
+pt;Agrovila do PA Favela;Agrovila do Projeto de Assentamento Favela
+pt;Agrovila do PA Rio Doce;Agrovila do Projeto de Assentamento Rio Doce
+pt;Agrovila do PA Maisa;Agrovila do Projeto de Assentamento Maisa
+pt;Agrovila do PA Planalto do Mel;Agrovila do Projeto de Assentamento Planalto do Mel
+pt;Quilômetro Sessenta;Quilômetro 60
+pt;Agrovila do PA Planalto;Agrovila do Projeto de Assentamento Planalto
+pt;Kilometro Nove;Kilometro 9
+pt;Núcleo 3 São Gonçalo;Núcleo Três São Gonçalo
+pt;Agrovila do PA Fortuna;Agrovila do Projeto de Assentamento Fortuna
+pt;Agrovila do PA Arizona II;Agrovila do Projeto de Assentamento Arizona II
+pt;Agrovila do PA Acoci;Agrovila do Projeto de Assentamento Acoci
+pt;Santa Maria;Agrovila do Projeto de Assentamento Acoci
+pt;PA Facundo;Projeto de Assentamento Facundo
+pt;Agrovila do PA Bem-te-vi;Agrovila do Projeto de Assentamento Bem-te-vi
+pt;Arizona;Agrovila do Projeto de Assentamento Acoci
+pt;Agrovila do PA Canaã;Agrovila do Projeto de Assentamento Canaã
+pt;PA Ingá;Projeto de Assentamento Ingá
+pt;Agrovila do PA União;Agrovila do Projeto de Assentamento União
+pt;Agrovila do PA Ambrósio;Agrovila do Projeto de Assentamento Ambrósio
+pt;Agrovila do PA Cajupi;Agrovila do Projeto de Assentamento Cajupi
+pt;São José;Agrovila do Projeto de Assentamento Acoci
+pt;PA Santo Agostinho;Projeto de Assentamento Santo Agostinho
+pt;São José;Projeto de Assentamento Jacu
+pt;PA Jacu;Projeto de Assentamento Jacu
+pt;Agrovila do PA Iracema;Agrovila do Projeto de Assentamento Iracema
+pt;PA Padre Zozimo;Projeto de Assentamento Padre Zozimo
+pt;Quilômetro 17;Quilômetro Dezessete
+pt;PA Monte Alegre;Projeto de Assentamento Monte Alegre
+pt;PA Vila Simão;Projeto de Assentamento Vila Simão
+pt;PA Claridade;Projeto de Assentamento Claridade
+pt;PA Natal;Projeto de Assentamento Natal
+pt;PA Olho d'Água dos Grilos;Projeto de Assentamento Olho d'Água dos Grilos
+pt;PA Jaqueira;Projecto de Assentamento Jaqueira
+pt;Pedra-de-Fogo;Pedra de Fogo
+pt;PA Três Setubas;Projeto de Assentamento Três Setubas
+pt;PA Vale Verde;Projeto de Assentamento Vale Verde
+pt;PA Rocinha;Projeto de Assentamento Rocinha
+pt;PA Vila Vitória;Projeto de Assentamento Vila Vitória
+pt;Tracajatuba 3;Tracajatuba Três
+pt;2 Irmãos;Dois Irmãos
+pt;Aglomerados;Aglomerados Tucano II
+pt;Aglomerados Rurais;Aglomerados Tucano II
+pt;Missão Nova;Tiriós
+pt;Tracajuba 1;Tracajuba Um
+pt;Dalsan;Jaguaré
+pt;Quilômetro 14;Quilômetro Quatorze
+pt;Quilômetro 64;Quilômetro Sessenta e Quatro
+pt;Quilômetro 48;Quilômetro Quarenta e Oito
+pt;Núcleo 9 da Colone;Núcleo Nove da Colone
+pt;Lelau;Venceslau
+pt;PA Alto da Alegria;Projeto de Assentamento Alto da Alegria
+pt;Núcleo 13 da Colone;Núcleo Treze da Colone
+pt;Núcleo 7 da Colone;Núcleo Sete da Colone
+pt;Agrovila do PA Ouro;Agrovila do Projeto de Assentamento Ouro
+pt;Núcleo 11 da Colone;Núcleo Onze da Colone
+pt;Núcleo 8 da Colone;Núcleo Oito da Colone
+pt;Agrovila do PA Paragonorte;Agrovila do Projeto de Assentamento Paragonorte
+pt;PA Porão dos Pirros;Projeto de Assentamento Porão dos Pirros
+pt;Núcleo 05;Núcleo Cinco
+pt;PA Água Boa;Projeto de Assentamento Água Boa
+pt;P1 V2;Primeiro Povoado da Segunda Vicinal
+pt;PA Lagoa do Coco;Projeto de Assentamento Lagoa do Coco
+pt;Trilha 410;Trilha Quatrocentos e Dez
+pt;PA Chapada do Garoto;Projeto de Assentamento Chapada do Garoto
+pt;PA Chupé;Projeto de Assentamento Chupé
+pt;P1 V4 1º Povoado da 4ª Vicinal;P1 V4 Primeiro Povoado da Quarta Vicinal
+pt;Segundo Povoado da Terceira Vicinal;P2 V3
+pt;Primeiro Povoado da Quinta Vicinal;P1 V5
+pt;P1 V5 1º Povoado da 5ª Vicinal;P1 V5
+pt;Segundo Povoado da Quarta Vicinal;P2 V4
+pt;PA Piçarreira;Projeto de Assentamento Piçarreira
+pt;P1 V3;Primeiro Povoado da Terceira Vicinal
+pt;P1 V3 3ª Vicinal;Primeiro Povoado da Terceira Vicinal
+pt;Quilômetro 28;Quilômetro Vinte e Oito
+pt;Primeiro Povoado da Segunda Vicinal Sagrima;P1 V2 Sagrima
+pt;PA Pedra Preta;Projeto de Assentamento Pedra Preta
+pt;Araçazal;Aracazal
+pt;Quilômetro 19;Quilômetro Dezenove
+pt;Agrovila do PA Três Irmãos;Agrovila do Projeto de Assentamento Três Irmãos
+pt;Garimpo Alto Bonito 2;Garimpo Alto Bonito Dois
+pt;Luís Barbudo;Nova Esperança
+pt;Gordo;Ouro Roxo
+pt;Doca;Nova Serra Verde
+pt;Sundario;Marupa
+pt;Agrovila do PA Vila Bom Socorro;Agrovila do Projeto de Assentamento Vila Bom Socorro
+pt;Quilômetro 140;Agrovila Progresso
+pt;Quilômetro 201;Agrovila Monte Sinai
+pt;Plato 1;Plato Um
+pt;Murias;Muriá
+pt;Cuiu-Anã;Cuianã
+pt;PA Nazaré;Projeto de Assentamento Nazaré
+pt;Agrovila do PA Conservan;Agrovila do Projeto de Assentamento Conservan
+pt;Agrovila do PA Santo Antônio do Matupi;Agrovila do Projeto de Assentamento Santo Antônio do Matupi
+pt;Agrovila do PA Humaitá Vila Pia;Agrovila do Projeto de Assentamento Humaitá Vila Pia
+pt;Agrovila do PA Pedro Peixoto Vila Pia;Agrovila do Projeto de Assentamento Pedro Peixoto Vila Pia
+pt;Porto 22;Porto Vinte e Dois
+pt;Quinto BEC;Quinto Batalhão de Engenharia de Construção
+pt;Boa Esperança;Boa Esperança do Norte
+pt;Tempo Novo 2;Tempo Novo Dois
+pt;Vila Nova;Deuslândia
+pt;Quilombo;Santa Amália
+pt;Fartura;Aparecida da Fartura
+pt;Quilômetro-115;Quilômetro-Cento e Quinze
+pt;Santa Fé;Vilinha
+pt;São João 6;São João Seis
+pt;Coco 3;Coco Três
+pt;Palmeira 06;Palmeira Seis
+pt;Palmeiras 5;Palmeiras Cinco
+pt;Pé de Galinha;Neteolândia
+pt;Cinira;Cimira
+pt;Quilômetro 50;Quilômetro Cinquenta
+pt;Vila União;Formiga
+pt;Agrovila do PA União do Norte;Agrovila do Projeto de Assentamento União do Norte
+pt;Comunidade 15 de Novembro;Comunidade Quinze de Novembro
+pt;Comunidade 100;Comunidade Cem
+pt;Almerindópolis;Almerindonópolis
+pt;Ribeirão São Domingos;Ribeirão Poção
+pt;Almeida Campos;Loteamento Ponte Nova
+pt;Recanto Nova Alvorada;Recanto Ouro Verde
+pt;Botavo;Nova de Carli
+pt;Vila 31 de Março;Vila Trinta e Um de Março
+pt;Agrovila do PA Engenho Ubu;Agrovila do Projeto de Assentamento Engenho Ubu
+pt;Agrovila do PA Canoa Rachada;Agrovila do Projeto de Assentamento Canoa Rachada
+pt;Agrovila do PA Pedreiras;Agrovila do Projeto de Assentamento Pedreiras
+pt;Agrovila do PA Pedra Imã;Agrovila do Projeto de Assentamento Pedra Imã
+pt;Agrovila do PA Riachão;Agrovila do Projeto de Assentamento Riachão
+pt;Agrovila do PA Arariba da Pedra;Agrovila do Projeto de Assentamento Arariba da Pedra
+pt;Agrovila do PA Estrela do Norte;Agrovila do Projeto de Assentamento Estrela do Norte
+pt;Caetés;Caité
+pt;Agrovila do PA Mangueira;Agrovila do Projeto de Assentamento Mangueira
+pt;Agrovila do PA Engenho Pereirinha;Agrovila do Projeto de Assentamento Engenho Pereirinha
+pt;Agrovila do PA Pitanga I-Área l;Agrovila do Projeto de Assentamento Pitanga I-Área l
+pt;Agrovila do PA Engenho Serra;Agrovila do Projeto de Assentamento Engenho Serra
+pt;Agrovila do PA Barra Azul;Agrovila do Projeto de Assentamento Barra Azul
+pt;Agrovila Retiro;José Lopes de Siqueira Santos
+pt;Agrovila do PA Silvio Jungmann;Agrovila do Projeto de Assentamento Silvio Jungmann
+pt;Agrovila do PA Primoroso;Agrovila do Projeto de Assentamento Primoroso
+pt;Agrovila do PA São João da Prata;Agrovila do Projeto de Assentamento São João da Prata
+pt;Agrovila do PA Arariba de Baixo;Agrovila do Projeto de Assentamento Arariba de Baixo
+pt;Agrovila do PA Piaba de Baixo;Agrovila do Projeto de Assentamento Piaba de Baixo
+pt;Agrovila do PA Camaçari;Agrovila do Projeto de Assentamento Camaçari
+pt;Agrovila do PA Asa Branca;Agrovila do Projeto de Assentamento Asa Branca
+pt;Agrovila do PA Brejo;Agrovila do Projeto de Assentamento Brejo
+pt;Agrovila do PA Melo;Agrovila do Projeto de Assentamento Melo
+pt;Agrovila do PA Boa Vista II;Agrovila do Projeto de Assentamento Boa Vista II
+pt;Agrovila do PA Pindoba II;Agrovila do Projeto de Assentamento Pindoba II
+pt;Agrovila do PA Ilhetas;Agrovila do Projeto de Assentamento Ilhetas
+pt;Agrovila do PA Bom Jesus;Agrovila do Projeto de Assentamento Bom Jesus
+pt;Agrovila do PA Manuino;Agrovila do Projeto de Assentamento Manuino
+pt;Agrovila do PA Acampamento Velho Chico;Agrovila do Projeto de Assentamento Acampamento Velho Chico
+pt;Agrovila do PA Baeté;Agrovila do Projeto de Assentamento Baeté
+pt;Agrovila do PA Parnaso;Agrovila do Projeto de Assentamento Parnaso
+pt;Lagoa Grande dos Basílios 2;Lagoa Grande dos Basílios Dois
+pt;Agrovila do PA Saué Grande;Agrovila do Projeto de Assentamento Saué Grande
+pt;Agrovila do PA Buenos Aires;Agrovila do Projeto de Assentamento Buenos Aires
+pt;Agrovila do PA Pacas;Agrovila do Projeto de Assentamento Pacas
+pt;Agrovila do PA Itabaiana;Agrovila do Projeto de Assentamento Itabaiana
+pt;Agrovila do PA Florestan Fernandes;Agrovila do Projeto de Assentamento Florestan Fernandes
+pt;Agrovila do PA Nova Esperança;Agrovila do Projeto de Assentamento Nova Esperança
+pt;Agrovila do PA Samba;Agrovila do Projeto de Assentamento Samba
+pt;São José;Riachão
+pt;Agrovila do PA Rendeira;Agrovila do Projeto de Assentamento Rendeira
+pt;Agrovila do PA Japão II;Agrovila do Projeto de Assentamento Japão II
+pt;Agrovila do PA Pau Amarelo;Agrovila do Projeto de Assentamento Pau Amarelo
+pt;Agrovilla do PA Destilaria Maciapé;Agrovilla do Projeto de Assentamento Destilaria Maciapé
+pt;Agrovila do PA Conceição;Agrovila do Projeto de Assentamento Conceição
+pt;Agrovila do PA Padre Cicero;Agrovila do Projeto de Assentamento Padre Cicero
+pt;Agrovila do PA Tibiri;Agrovila do Projeto de Assentamento Tibiri
+pt;Agrovila do PA Santa Tereza;Agrovila do Projeto de Assentamento Santa Tereza
+pt;Agrovila do PA Serra Preta;Agrovila do Projeto de Assentamento Serra Preta
+pt;Agrovila do PA Frutuoso;Agrovila do Projeto de Assentamento Frutuoso
+pt;Agrovila do PA Santo Antônio da Boa Vista;Agrovila do Projeto de Assentamento Santo Antônio da Boa Vista
+pt;Agrovila do PA Silvio Viana;Agrovila do Projeto de Assentamento Silvio Viana
+pt;Agrovila do PA Boa Fé;Agrovila do Projeto de Assentamento Boa Fé
+pt;Agrovila do PA Fazenda Barra Verde;Agrovila do Projeto de Assentamento Fazenda Barra Verde
+pt;Agrovila do PA Serra dos Cavalos;Agrovila do Projeto de Assentamento Serra dos Cavalos
+pt;Agrovila do PA Javari;Agrovila do Projeto de Assentamento Javari
+pt;Agrovila do PA Lemos;Agrovila do Projeto de Assentamento Lemos
+pt;Agrovila do PA Flor do Mundau;Agrovila do Projeto de Assentamento Flor do Mundau
+pt;Agrovila do PA Santa Fé;Agrovila do Projeto de Assentamento Santa Fé
+pt;Agrovila do PA Serrote das Aroeiras;Agrovila do Projeto de Assentamento Serrote das Aroeiras
+pt;Agrovila do PA Mascate;Agrovila do Projeto de Assentamento Mascate
+pt;Agrovila do Projeto de Assentamento Mascate Grande;Agrovila do Projeto de Assentamento Mascate
+pt;Agrovila do PA Mascate Grande;Agrovila do Projeto de Assentamento Mascate
+pt;Agrovila do PA Bom Jardim;Agrovila do Projeto de Assentamento Bom Jardim
+pt;Agrovila do PA Massangano;Agrovila do Projeto de Assentamento Massangano
+pt;Agrovila do PA Mongibura;Agrovila do Projeto de Assentamento Mongibura
+pt;Agrovila do PA Santa Luzia do Riachão;Agrovila do Projeto de Assentamento Santa Luzia do Riachão
+pt;Agrovila do PA Angico Torto;Agrovila do Projeto de Assentamento Angico Torto
+pt;Agrovila do PA Tentugal;Agrovila do Projeto de Assentamento Tentugal
+pt;Agrovila do PA Junco;Agrovila do Projeto de Assentamento Junco
+pt;Agrovila do PA Sauezinho;Agrovila do Projeto de Assentamento Sauezinho
+pt;Agrovila do PA Cocau Grande;Agrovila do Projeto de Assentamento Cocau Grande
+pt;Agrovila do PA Cavaco;Agrovila do Projeto de Assentamento Cavaco
+pt;Agrovila do PA Boa Vista;Agrovila do Projeto de Assentamento Boa Vista
+pt;Agrovila do PA Santa Cruz;Agrovila do Projeto de Assentamento Santa Cruz
+pt;Agrovila do PA Mascatinho;Agrovila do Projeto de Assentamento Mascatinho
+pt;Agrovila do PA Mata Verde;Agrovila do Projeto de Assentamento Mascatinho
+pt;Agrovila do Projeto de Assentamento Mata Verde;Agrovila do Projeto de Assentamento Mascatinho
+pt;Agrovila do PA Costa Dourada;Agrovila do Projeto de Assentamento Costa Dourada
+pt;Agrovila do PA Paraíso Agrícola;Agrovila do Projeto de Assentamento Paraíso Agrícola
+pt;Agrovila do PA Libertação;Agrovila do Projeto de Assentamento Libertação
+pt;Agrovila do PA Serra d'Água do Una;Agrovila do Projeto de Assentamento Serra d'Água do Una
+pt;Itatiaia do Alto Bonito;São José do Jacuípe
+pt;Agrovila do PA 8 de Outubro;Agrovila do Projeto de Assentamento Oito de Outubro
+pt;Agrovila do PA Oito de Outubro;Agrovila do Projeto de Assentamento Oito de Outubro
+pt;Agrovila do PA Cachoeirinha;Agrovila do Projeto de Assentamento Cachoeirinha
+pt;Agrovila do PA Fortaleza;Agrovila do Projeto de Assentamento Fortaleza
+pt;Agrovila do PA Vaza Barris;Agrovila do Projeto de Assentamento Vaza Barris
+pt;Caimã;Ponta da Serra
+pt;Agrovila do PA Ribeiro Aragão;Agrovila do Projeto de Assentamento Ribeiro Aragão
+pt;Agrovila do PA Flor do Mucuri 1;Agrovila do Projeto de Assentamento Flor do Mucuri Um
+pt;Agrovila do PA Flor do Mucuri Um;Agrovila do Projeto de Assentamento Flor do Mucuri Um
+pt;Agrovila do PA Nossa Senhora Aparecida;Agrovila do Projeto de Assentamento Nossa Senhora Aparecida
+pt;Agrovila do PA Manoel Martinho;Agrovila do Projeto de Assentamento Manoel Martinho
+pt;Agrovila do PA Mario Lago;Agrovila do Projeto de Assentamento Mario Lago
+pt;Agrovila do PA Nossa Senhora de Lourdes;Agrovila do Projeto de Assentamento Nossa Senhora de Lourdes
+pt;Agrovila do PA Paraíso de São Pedro;Agrovila do Projeto de Assentamento Paraíso de São Pedro
+pt;Agrovila do PA Vitória da União;Agrovila do Projeto de Assentamento Vitória da União
+pt;Agrovila do PA Serra do Rio Real;Agrovila do Projeto de Assentamento Serra do Rio Real
+pt;Agrovila do PA Patizinho;Agrovila do Projeto de Assentamento Patizinho
+pt;Colonia Retiro;Colônia Retiro
+pt;Agrovila do PA Sete Brejos;Agrovila do Projeto de Assentamento Sete Brejos
+pt;Agrovila do PA Santa Clara;Agrovila do Projeto de Assentamento Santa Clara
+pt;Agrovila do PA Novo Horizonte;Agrovila do Projeto de Assentamento Novo Horizonte
+pt;Agrovila do PA São Francisco;Agrovila do Projeto de Assentamento São Francisco
+pt;Agrovila do PA Maria Cleonice Alves;Agrovila do Projeto de Assentamento Maria Cleonice Alves
+pt;Agrovila do PA Mangabeira;Agrovila do Projeto de Assentamento Mangabeira
+pt;Vila Nova;Pituba
+pt;Agrovila do PA Joélia Lima;Agrovila do Projeto de Assentamento Joélia Lima
+pt;Agrovila da PA Unidos do Palame;Agrovila da Projeto de Assentamento Unidos do Palame
+pt;Agrovila do PA Boa Vista III;Agrovila do Projeto de Assentamento Boa Vista III
+pt;Agrovila do PA 13 de Maio;Agrovila do Projeto de Assentamento Treze de Maio
+pt;Agrovila do PA São Sebastião;Agrovila do Projecto de Assentamento São Sebastião
+pt;Estiva de Paus;Estiva dos Paus
+pt;Agrovila do PA Caraíbas;Agrovila do Projeto de Assentamento Caraíbas
+pt;Agrovila do PA Ladeirinhas A;Agrovila do Projecto de Assentamento Ladeirinhas A
+pt;Agrovila do PA Manoel Dionízio;Agrovila do Projeto de Assentamento Manoel Dionízio
+pt;Agrovila do PA Borda da Mata;Agrovila do Projeto de Assentamento Borda da Mata
+pt;Agrovila do PA Paulo Freire;Agrovila do Projeto de Assentamento Paulo Freire
+pt;Agrovila do PA Sítio Novo;Agrovila do Projeto de Assentamento Sítio Novo
+pt;Aldeia Indígena TI Xocó da Ilha de São Pedro;Aldeia Indígena Terra Indígena Xocó da Ilha de São Pedro
+pt;Lagoa 2;Lagoa Dois
+pt;Agrovila do PA Paraná;Agrovila do Projeto de Assentamento Paraná
+pt;Agrovila do PA Santa Isabel;Agrovila do Projeto de Assentamento Santa Isabel
+pt;PA São Miguel;Projeto de Assentamento São Miguel
+pt;Agrovila do PA Maravilha;Agrovila do Projeto de Assentamento Maravilha
+pt;PA Santa Maria;Projeto de Assentamento Santa Maria
+pt;PA Imbirussu de Dentro;Projeto de Assentamento Imbirussu de Dentro
+pt;Movelar;Projeto de Assentamento Bela Vista
+pt;PA Bela Vista;Projeto de Assentamento Bela Vista
+pt;Agrovila do PA Colônia;Agrovila do Projeto de Assentamento Colônia
+pt;Agrovila do PA Fruto da Terra;Agrovila do Projeto de Assentamento Fruto da Terra
+pt;PA Lajedo Bonito;Projeto de Assentamento Lajedo Bonito
+pt;PA Roseli Nunes;Projeto de Assentamento Roseli Nunes
+pt;PA Terra Nova;Projeto de Assentamento Terra Nova
+pt;Agrovila do PA Corumbaú II;Agrovila do Projeto de Assentamento Corumbaú II
+pt;PA Pedra Bonita;Projeto de Assentamento Pedra Bonita
+pt;PDS Reunidas Pau Brasil;Projeto de Desenvolvimento Sustentável Reunidas Pau Brasil
+pt;PA 4045;Projeto de Assentamento Cuatro Mil e Quarenta e Cinco
+pt;PA Embaúba I;Projeto de Assentamento Embaúba I
+pt;Macedo;Núcleo Macedo
+pt;Agrovila do PA Alexandre Gusmão;Agrovila do Projeto de Assentamento Alexandre Gusmão
+pt;Mandacaru;Mandacaru do Paraíso
+pt;Branapolis;Branápolis
+pt;Barra do Pará;Pontal
+pt;Vargem do Setubal;São Francisco
+pt;Santo Antônio dos Medeiros;Santo Antônio do Moreiros
+pt;Núcleo Habitacional 2-Área F;Núcleo Habitacional Dois-Área F
+pt;Núcleo Habitacional 1-Área F;Núcleo Habitacional Um-Área F
+pt;Núcleo de Serviço 1-NS-1/B;Núcleo de Serviço Um-NS-Um/B
+pt;Núcleo Habitacional 2 (NS-2);Núcleo Habitacional Dois
+pt;NS-Dois;Núcleo Habitacional Dois
+pt;NS-2;Núcleo Habitacional Dois
+pt;Para Pedro;São Caetano
+pt;Agrovila 14;Agrovila Quatorze
+pt;Agrovila 07;Agrovila Sete
+pt;Agrovila 08;Agrovila Oito
+pt;Agrovila 11;Agrovila Onze
+pt;Agrovila 02;Agrovila Dois
+pt;Agrovila 10;Agrovila Dez
+pt;Agrovila 03;Agrovila Três
+pt;Agrovila 05;Agrovila Cinco
+pt;Agrovila 15;Agrovila Quinze
+pt;Agrovila 06;Agrovila Seis
+pt;Agrovila 01;Agrovila Um
+pt;Agrovila 04;Agrovila Quatro
+pt;Pasmado;Pasmadinho
+pt;Córrego das Posses;Projeto de Assentamento Santa Rosa
+pt;PA Horto Aimorés;Projeto de Assentamento Horto Aimorés
+pt;Agrovila do PA Monte Alegre 4;Agrovila do Projeto de Assentamento Monte Alegre Quatro
+pt;Agrovila do PA Banco da Terra;Agrovila do Projeto de Assentamento Banco da Terra
+pt;Agrovila do PA Monte Alegre III;Agrovila do Projeto de Assentamento Monte Alegre III
+pt;Loteamento Adriana;Loteamento Matão
+pt;Biondo;Loteamento Matão
+pt;N Esp. Porto Carolina;Loteamento Matão
+pt;Agrovila do PA Monte Alegre 1;Agrovila do Projeto de Assentamento Monte Alegre Um
+pt;Loteamento Auferville 3 e Estância Vila Azul;Loteamento Auferville Três e Estância Vila Azul
+pt;Agrovila do PA Monte Alegre II;Agrovila do Projeto de Assentamento Monte Alegre II
+pt;Balneário de Rancharia;Balneário Público Municipal
+pt;Rádio;Torre
+pt;Figueiras;Filgueiras
+pt;Vila Santo Antônio;Monjolos
+pt;Boa União;Cabeceira da Lajinha
+pt;Alves;Gamelheira
+pt;Agrovila do PA Porto Feliz;Agrovila do Projeto de Assentamento Porto Feliz
+pt;Agrovila do PA Jardim Nova Granada;Agrovila do Projeto de Assentamento Jardim Nova Granada
+pt;Agrovila do PA Campos Vileta;Agrovila do Projeto de Assentamento Campos Vileta
+pt;4 Bocas;Quatro Bocas
+pt;São João;São Luís
+pt;Poço d'Anta;Cavinha
+pt;Rio do Colégio;Barra do Colégio
+pt;Solteira;Pedra da Solteira
+pt;Califórnia;São Benedito
+pt;Guarau;Guaraú
+pt;Rio Acima 2;Rio Acima Dois
+pt;Santa Lucia;Recanto dos Laranjais
+pt;Estância Dois Córregos;Recanto dos Laranjais
+pt;Estância Ouro Verde;Estânia Sorrento
+pt;Condomínio Bela Vista;Condomínio Vale do Sol
+pt;Condomínio Raios de Outono;Condomínio Pau-Brasil
+pt;Condomínio Laranjal;Condomínio Pau-Brasil
+pt;Pingo de Ouro;São José
+pt;Colina Azul;São José
+pt;Rancho Alegre;São José
+pt;Condomínio Cuca Fresca;Recanto dos Pássaros
+pt;Clube Recreativo São Bernardo;Estânica Tais
+pt;Quilombo;Comunidade Mata do Tição
+pt;Ribeirão São Domingos;Palanquinho
+pt;Ponta de Areia;Guarani
+pt;Toca Fria;Santo Aleixo
+pt;Rio Negro;Bela Vista
+pt;Belmonte;Belo Monte
+pt;São Jerônimo;Buraco Fundo
+pt;Rio Grande;Nova Floresta
+pt;Cascata 2;Cascata Dois
+pt;Rio Preto;Novo Horizonte
+pt;Sebastião;Cerejeira
+pt;Paraíso;Macacos
+pt;Flecheira;Alto do Cardeiro
+pt;Poço Escuro;Poço
+pt;Cambota;Cambotinha
+pt;Dezeseis;São Cristóvão
+pt;Areia Dourada;Areia Branca
+pt;Bicuda Grande;Durra Barras
+pt;Bicuda Grande;Serra Escura
+pt;Camboinhas;Tucuns
+pt;Asfalto Novo;Vargem Alta de Cima
+pt;Coqueiro;Coqueiros
+pt;Floresta;Floresta Mendes
+pt;Rabo da Gamba;Marajó
+pt;Morro do Quebra Bunda;Panorama da Lisboa
+pt;Vila dos Teles;Serra do Palmital
+pt;Agrovila do PA Conquista;Agrovila do Projeto de Assentamento Conquista
+pt;Maçaguaçu;Massaguaçu
+pt;Palmital do Cervo;Palmital
+pt;De Sardoal;Sardoal
+pt;Parada 121;Parada Cento e Vinte e Um
+pt;Quilômetro 3;Quilômetro Três
+pt;Albertos;Nuvens
+pt;Buraco Quente;São José
+pt;Mundo Novo;Água Fria
+pt;Buraco do Sapo;Córrego Frio
+pt;São Sebastião;Pontilhão
+pt;Norte;Aldeia Indígena Tekoá Porã
+pt;Miranda 3;Miranda Três
+pt;Miranda 2000;Miranda Dois Mil
+pt;Miranda 5;Miranda Cinco
+pt;Miranda 4;Miranda Quatro
+pt;Miranda 2;Miranda Dois
+pt;Miranda 1;Miranda Um
+pt;Chevrant;Paraíso
+pt;Taquaral de Baixo;Taquara de Baixo
+pt;Comunidade Quilômetro Treze;Comunidade Quilômetro 13
+pt;Agrovila do PA Córrego da Lage;Agrovila do Projeto de Assentamento Córrego da Lage
+pt;Agrovila do PA Paulo Vinhas;Agrovila do Projeto de Assentamento Paulo Vinhas
+pt;PA Paulo Vinhas;Agrovila do Projeto de Assentamento Paulo Vinhas
+pt;Projeto de Assentamento Paulo Vinhas;Agrovila do Projeto de Assentamento Paulo Vinhas
+pt;PA Irmãos Fritz;Projeto de Assentamento Irmãos Fritz
+pt;Altos do Galópolis;Altos de Galópolis
+pt;Agropecuária Chamba-Avipal 12;Agropecuária Chamba-Avipal Doze
+pt;Praia do Bacopari;Vivendas dos Lagos
+pt;Comunidade Chapadão das Palminhas;Chapadão das Palminhas
+pt;Chapadão do 15;Chapadão do Quinze
+pt;São Francisco;São Francisquinho
+pt;Quilômetro Cento e Onze;Quilômetro 111
+pt;Estrada Santa Catarina Quilômetro 11;Estrada Santa Catarina Quilômetro Onze
+pt;Estrada do Oeste 2;Estrada do Oeste Dois
+pt;Estrada do Oeste 1;Estrada do Oeste Um
+pt;Morro do Boi;Nova Esperança
+pt;Serra dos Índios;Serra Alto dos Índios
+pt;Quilômetro Noventa e Oito;Quilômetro 98
+pt;Quilômetro Oito;Quilômetro 8
+pt;Quilômetro Dezesseis;Quilômetro 16
+pt;Assentamento 13 de Outubro;Assentamento Treze de Outubro
+pt;Nossa Senhora de Lurdes;Nossa Senhora de Lourdes
+pt;Turma 60;Turma Sessenta
+pt;Quilômetro Treze;Quilômetro 13
+pt;Quilômetro Trinta;Quilômetro 30
+pt;Recanto dos 18;Recanto dos Dezoito
+pt;Agrovila do PA Aglomerado 1;Agrovila do Projeto de Assentamento Aglomerado Um
+pt;Vila Rural 3;Vila Rural Três
+pt;Agrovila do PA Aglomerado 2;Agrovila do Projeto de Assentamento Aglomerado Dois
+pt;Vila Rural 5;Vila Rural Cinco
+pt;Vila Rural 4;Vila Rural Quatro
+pt;Vila Ferras;Vila Ferraz
+pt;Vila Militar de São Simão;São Simão
+pt;25 de Maio;Vinte e Cinco de Maio
+pt;Linha 24 de Fevereiro;Linha Vinte e Quatro de Fevereiro
+pt;Agrovila do Projeto Assentamento Indianópolis;Agrovila do Projeto de Assentamento Indianópolis
+pt;Nova;Praia Talmamar
+pt;Alfa 1;Alfa Um
+pt;Linha 12 de Novembro;Linha Doze de Novembro
+pt;Linha 6 de Setembro;Linha Seis de Setembro
+pt;Linha 16 de Maio;Linha Dezesseis de Maio
+pt;Linha 21 de Novembro;Linha Vinte e Um de Novembro
+pt;Boa Vista;Jardim Maria Luiza
+pt;Linha 8 de Março;Linha Oito de Março
+pt;Assentamento 26 de Outubro;Assentamento Vinte e Seis de Outubro
+pt;Linha 12 de Outubro;Linha Doze de Outubro
+pt;Parque Industrial 3;Parque Industrial Três
+pt;Jardim Refúgio;Barra Dois
+pt;Várzea Grande;Várzea Grande Velha
+pt;Agrovila do PA Cascavel;Agrovila do Projeto de Assentamento Cascavel
+pt;Agrovila do PE Projeto Piauí;Agrovila do Projeto de Assentamento Estadual Projeto Piauí
+pt;Agrovila do PA Baixio do Boi;Agrovila do Projeto de Assentamento Baixio do Boi
+pt;Agrovila do PA Terra Livre;Agrovila do Projeto de Assentamento Terra Livre
+pt;Agrovila do PA Terra Nova;Agrovila do Projeto de Assentamento Terra Nova
+pt;Agrovila do PA Mandacarú;Agrovila do Projeto de Assentamento Mandacarú
+pt;Agrovila do PA Novo Mundo;Agrovila do Projeto de Assentamento Novo Mundo
+pt;Pelada;Peladas
+pt;Aldeia Pé de Serra de São Sebastião;Aldeia Pé de Serra do Oiti
+pt;Agrovila do Projeto de Assentamento Nossa Senhora de Fátima;Agrovila do Projeto de Assentamento Viração
+pt;Agrovila do PA Nossa Senhora do Rosario;Agrovila do Projeto de Assentamento Nossa Senhora do Rosario
+pt;Agrovila do PA Dois Irmãos;Agrovila do Projeto de Assentamento Dois Irmãos
+pt;Quilômetro Sessenta e Sete;Quilômetro 67
+pt;Quilômetro Oitenta e Dois;Quilômetro 82
+pt;Cajueiro Grande;Terceira Aguada
+pt;Curirici;Várzea
+pt;Agrovila do PA 3-Antônio Conselheiro I;Agrovila do Projeto de Assentamento Três-Antônio Conselheiro I
+pt;Agrovila do PA 5-Antônio Conselheiro I;Agrovila do Projeto de Assentamento Cinco-Antônio Conselheiro I
+pt;Agrovila AJ 3;Agrovila AJ Três
+pt;Quixabá;Aldeia Indígena Xucuru-Kiriri
+pt;DNOCS-2;DNOCS-Dois
+pt;Agrovila de Projeto de PA Bonito das Umburanas;Agrovila de Projeto de Projeto de Assentamento Bonito das Umburanas
+pt;Agrovila 2 Bloco 1;Agrovila Dois Bloco Um
+pt;Agrovila AG-05;Agrovila AG-Cinco
+pt;Agrovila AJ 9;Agrovila AJ Nove
+pt;Agrovila do PA Cajueiro;Agrovila do Projeto de Assentamento Cajueiro
+pt;Agrovila do PA 4-Antônio Conselheiro I;Agrovila do Projeto de Assentamento Quatro-Antônio Conselheiro I
+pt;Agrovila do PA Pedra Grande;Agrovila do Projeto de Assentamento Pedra Grande
+pt;Agrovila do PA 1-Antônio Conselheiro I;Agrovila do Projeto de Assentamento Um-Antônio Conselheiro I
+pt;Agrovila do PA Delmiro Gouveia;Agrovila do Projeto de Assentamento Delmiro Gouveia
+pt;Agrovila AG-03;Agrovila AG-Três
+pt;Agrovila do PA Queimada Grande;Agrovila do Projeto de Assentamento Queimada Grande
+pt;Agrovila AJ 8;Agrovila AJ Oito
+pt;Agrovila AJ 5;Agrovila AJ Cinco
+pt;Agrovila do PA Aroeira Juazeirão;Agrovila do Projeto de Assentamento Aroeira Juazeirão
+pt;Agrovila AJ 6;Agrovila AJ Seis
+pt;Agrovila AG-02;Agrovila AG-Dois
+pt;Agrovila do PA Nova Canadá;Agrovila do Projeto de Assentamento Nova Canadá
+pt;Quilômetro Quarenta;Quilômetro 40
+pt;Agrovila AJ 1;Agrovila AJ Um
+pt;Agrovila 1-Bloco 1;Agrovila Um-Bloco Um
+pt;Agrovila AJ 7;Agrovila AJ Sete
+pt;Agrovila AJ 2;Agrovila AJ Dois
+pt;Agrovila 7 Bloco 2;Agrovila Sete Bloco Dois
+pt;Agrovila do PA Mandacaru I;Agrovila do Projeto de Assentamento Mandacaru I
+pt;Agrovila do PA AG26;Agrovila do Projeto de Assentamento AG Vinte e Seis
+pt;Agrovila do PA AG22;Agrovila do Projeto de Assentamento AG Vinte e Dois
+pt;Agrovila do PA Mandacaru;Agrovila do Projeto de Assentamento Mandacaru
+pt;Agrovila do PA AG35;Agrovila do Projeto de Assentamento AG Trinta e Cinco
+pt;Agrovila do PA Água Viva II;Agrovila do Projeto de Assentamento Água Viva II
+pt;Agrovila do PA Alegre;Agrovila do Projeto de Assentamento Alegre
+pt;Agrovila do PA Demetrius;Agrovila do Projeto de Assentamento Demetrius
+pt;Agrovila do PA 4;Agrovila do Projeto de Assentamento Quatro
+pt;Agrovila do PA AG25;Agrovila do Projeto de Assentamento AG Vinte e Cinco
+pt;Agrovila do PA Água Viva;Agrovila do Projeto de Assentamento Água Viva
+pt;Agrovila do PA 7;Agrovila do Projeto de Assentamento Sete
+pt;Agrovila do PA AG34;Agrovila do Projeto de Assentamento AG Trinta e Quatro
+pt;Agrovila do PA José Ramos;Agrovila do Projeto de Assentamento José Ramos
+pt;Agrovila do PA AG29;Agrovila do Projeto de Assentamento AG Vinte e Nove
+pt;Agrovila AG-5/AG-6;Agrovila AG-Cinco/AG-Seis
+pt;Agrovila do PA AG27;Agrovila do Projeto de Assentamento AG Vinte e Sete
+pt;Agrovila do PA AG19;Agrovila do Projeto de Assentamento AG Dezenove
+pt;Agrovila do PA AG15;Agrovila do Projeto de Assentamento AG Quinze
+pt;Agrovila do PA AG09;Agrovila do Projeto de Assentamento AG Nove
+pt;Agrovila do PA AG12;Agrovila do Projeto de Assentamento AG Doze
+pt;Agrovila do PA AG08;Agrovila do Projeto de Assentamento AG Oito
+pt;Agrovila do PA AG18;Agrovila do Projeto de Assentamento AG Dezoito
+pt;Agrovila do PA AG23;Agrovila do Projeto de Assentamento AG Vinte e Três
+pt;Agrovila do PA AG39;Agrovila do Projeto de Assentamento AG Trinta e Nove
+pt;Agrovila do PA 3;Agrovila do Projeto de Assentamento Três
+pt;Agrovila do PA AG10;Agrovila do Projeto de Assentamento AG Dez
+pt;Agrovila do PA 9;Agrovila do Projeto de Assentamento Nove
+pt;Agrovila do PA AG37;Agrovila do Projeto de Assentamento AG Trinta e Sete
+pt;NS 2;NS Dois
+pt;Agrovila do PA Catalunha I;Agrovila do Projeto de Assentamento Catalunha I
+pt;Agrovila do PA AG30;Agrovila do Projeto de Assentamento AG Trinta
+pt;Agrovila do PA AG28;Agrovila do Projeto de Assentamento AG Vinte e Oito
+pt;Agrovila do PA Aquarius;Agrovila do Projeto de Assentamento Aquarius
+pt;Agrovila do PA Nossa Senhora da Conceição I;Agrovila do Projeto de Assentamento Nossa Senhora da Conceição I
+pt;Agrovila do PA 2;Agrovila do Projeto de Assentamento Dois
+pt;Agrovilla do PA Boqueirão;Agrovilla do Projeto de Assentamento Boqueirão
+pt;Agrovila do PA AG31;Agrovila do Projeto de Assentamento AG Trinta e Um
+pt;Agrovila do PA Safra II;Agrovila do Projeto de Assentamento Safra II
+pt;Agrovila do PA AG02;Agrovila do Projeto de Assentamento AG Dois
+pt;Agrovila do PA AG36;Agrovila do Projeto de Assentamento AG Trinta e Seis
+pt;Agrovila do PA AG06;Agrovila do Projeto de Assentamento AG Seis
+pt;Agrovila do PA AG17;Agrovila do Projeto de Assentamento AG Dezessete
+pt;Agrovila do PA Safra I;Agrovila do Projeto de Assentamento Safra I
+pt;Agrovila do PA Vitória II;Agrovila do Projeto de Assentamento Vitória II
+pt;Quilômetro Vinte e Cinco;Quilômetro 25
+pt;Agrovila do PA AG16;Agrovila do Projeto de Assentamento AG Dezesseis
+pt;Agrovila do PA Vitória I;Agrovila do Projeto de Assentamento Vitória I
+pt;Agrovila do PA AG13;Agrovila do Projeto de Assentamento AG Treze
+pt;Agrovila do PA 8;Agrovila do Projeto de Assentamento Oito
+pt;Agrovila do PA 1;Agrovila do Projeto de Assentamento Um
+pt;Agrovila do PA Brilhante;Agrovila do Projeto de Assentamento Brilhante
+pt;Agrovila do PA AG04;Agrovila do Projeto de Assentamento AG Quatro
+pt;Agrovila AG 10;Agrovila AG Dez
+pt;Agrovila do PA AG43;Agrovila do Projeto de Assentamento AG Quarenta e Três
+pt;Agrovila do PA AG38;Agrovila do Projeto de Assentamento AG Trinta e Oito
+pt;Agrovila do PA Senador Masueto de Lavor;Agrovila do Projeto de Assentamento Senador Masueto de Lavor
+pt;Agrovila do PA Madre Paulina;Agrovila do Projeto de Assentamento Madre Paulina
+pt;Área 20;Área Vinte
+pt;Agrovila do PA Nossa Senhora de Fátima;Agrovila do Projeto de Assentamento Nossa Senhora de Fátima
+pt;NS 1;NS Um
+pt;Agrovila do PA Nossa Senhora da Conceição II;Agrovila do Projeto de Assentamento Nossa Senhora da Conceição II
+pt;Agrovila 1 Bloco 3;Agrovila Um Bloco Três
+pt;Agrovila 4 Bloco 4;Agrovila Quatro Bloco Quatro
+pt;Agrovila 1 Bloco 4;Agrovila Um Bloco Quatro
+pt;Agrovila 4;Agrovila Quatro
+pt;Agrovila do PA Irmã Doroth-Antônio Conselheiro II;Agrovila do Projeto de Assentamento Irmã Doroth-Antônio Conselheiro II
+pt;Agrovila 2 Bloco 3;Agrovila Dois Bloco Três
+pt;Agrovila 4 Bloco 2;Agrovila Quatro Bloco Dois
+pt;Agrovila 10 Bloco 3;Agrovila Dez Bloco Três
+pt;Agrovila 8 Bloco 3;Agrovila Oito Bloco Três
+pt;Agrovila do Projeto de Assentamento Poço Verde;Agrovila do Projeto de Assentamento Vale do Moxotó
+pt;Agrovila do PA Vale do Moxotó;Agrovila do Projeto de Assentamento Vale do Moxotó
+pt;Agrovila do PA Poço Verde;Agrovila do Projeto de Assentamento Vale do Moxotó
+pt;Agrovila 7 Bloco 3;Agrovila Sete Bloco Três
+pt;Agrovila do PA 2-Antônio Conselheiro II;Agrovila do Projeto de Assentamento Dois-Antônio Conselheiro II
+pt;Agrovila do PA 6-Antônio Conselheiro I;Agrovila do Projeto de Assentamento Seis-Antônio Conselheiro I
+pt;Agrovila 6 Bloco 3;Agrovila Seis Bloco Três
+pt;Agrovila do PA Conselheiro III;Agrovila do Projeto de Assentamento Conselheiro III
+pt;Agrovila 6 Bloco 4;Agrovila Seis Bloco Quatro
+pt;Agrovila do Projeto de Assentamento Olho d'Água;Agrovila do Projeto de Assentamento Provincia do Uige
+pt;Agrovila do PA Olho d'Água;Agrovila do Projeto de Assentamento Provincia do Uige
+pt;Agrovila do PA Provincia do Uige;Agrovila do Projeto de Assentamento Provincia do Uige
+pt;Agrovila 3 Bloco 3;Agrovila Três Bloco Três
+pt;Agrovila 9 Bloco 3;Agrovila Nove Bloco Três
+pt;Agrovila 5;Agrovila Cinco
+pt;Agrovila 4 Bloco 3;Agrovila Quatro Bloco Três
+pt;Agrovila 3 Bloco 4;Agrovila Três Bloco Quatro
+pt;Agrovila-3;Agrovila-Três
+pt;Agrovila 5 Bloco 3;Agrovila Cinco Bloco Três
+pt;Agrovila-8;Agrovila-Oito
+pt;Agrovila 5 Bloco 4;Agrovila Cinco Bloco Quatro
+pt;Igarapo Açu;Igarapé Açu
+pt;Alto Igarap Açu;Alto Igarapé Açu
+pt;Baixo Acara;Monte Sinai
+pt;São Raimundo;São Bento de Cima
+pt;Rio Fundo 3;Rio Fundo Três
+pt;Agrovila do PA 8 de Março;Agrovila do Projeto de Assentamento Oito de Março
+pt;Campos Vila 2;Campos Vila Dois
+pt;Agrovila do PA Che Guevara-Tapera do Nico;Agrovila do Projeto de Assentamento Che Guevara-Tapera do Nico
+pt;Agrovila do PA José Gomes da Silva;Agrovila do Projeto de Assentamento José Gomes da Silva
+pt;Agrovila do PA 22 de Novembro;Agrovila do Projeto de Assentamento Vinte e Dois de Novembro
+pt;Agrovila do PA Dorcelina Folador;Agrovila do Projeto de Assentamento Dorcelina Folador
+pt;Arimandeua;Arimendeua
+pt;Laguinho 1;Laguinho Um
+pt;Estancia 2;Estancia Dois
+pt;Aldeia Indígena de Caieiras Velha;Caieiras Velha
+pt;Bairro Coqueiral;Coqueiral
+pt;Irajá;Novo Irajá
+pt;Barra de Mangaraí;Barra do Mangaraí
+pt;Barra do Sahi;Barra do Sahy
+pt;São José do Alto Viçosa;São José de Alto Viçosa
+pt;Bairro Jucú;Jucu
+pt;São Vicente de Crubixa;São Vicente de Crubixá
+pt;Iririti Mirim;Iriritimirim
+pt;Assentamento Nova Vitoria;Assentamento Nova Vitória
+pt;Agrovila do PA Miragem;Agrovila do Projeto de Assentamento Miragem
+pt;Comunidade Paraiso Novo;Comunidade Paraíso Novo
+pt;Corrego da Areia;Córrego de Areia
+pt;Patrimômio do Bis;Patrimônio do Bis
+pt;Quilômetro Vinte;Quilômetro 20
+pt;Povoação de Baunilha;Povoação de Baunilhia
+pt;Assentamento Uita;Projeto de Assentamento Ita
+pt;Agrovila do PA Floresta;Agrovila do Projeto de Assentamento Floresta
+pt;Fazenda Gama 1;Fazenda Gama Um
+pt;Agrovila do PA Serra das Moças e dos Caboclos;Agrovila do Projeto de Assentamento Serra das Moças e dos Caboclos
+ru;Реканто Дас Емас;Recanto das Emas
+pt;Saco Comprido;São Pedro
+pt;Vila Vendinha;Vendinha
+ru;Плано Пилото;Plano Piloto

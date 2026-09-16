@@ -1,0 +1,11 @@
+en;Ceru Colorado;Sero Colorado
+nl;Ceru Colorado;Sero Colorado
+zh;塞鲁科罗拉多;Sero Colorado
+de;Pos Chikito;Pos Chiquito
+pap;Pos Chikito;Pos Chiquito
+ja;オラニエスタッド;Oranjestad
+ru;Ораньестад;Oranjestad
+ar;أورنجستاد;Oranjestad
+ko;오라녜스타트;Oranjestad
+zh;奥拉涅斯塔德;Oranjestad
+pap;Playa;Oranjestad

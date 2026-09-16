@@ -1,0 +1,79 @@
+ar;ويليكيس;Willikies
+zh;威利基斯;Willikies
+ja;ウィリキーズ;Willikies
+zh;斯威茨;Swetes
+ja;スウィーツ;Swetes
+de;Seaview Farm;Sea View Farm
+ja;シービュー・ファーム;Sea View Farm
+fr;Seaview Farm;Sea View Farm
+ru;Ситонс;Seatons
+ja;ソウコルツ;Sawcolts
+en;St. Philips;Saint Philips
+de;Saint John's;Saint John’s
+en;St. John's;Saint John’s
+es;Saint John's;Saint John’s
+fr;Saint John's;Saint John’s
+it;Saint John's;Saint John’s
+ja;セントジョンズ;Saint John’s
+ko;세인트존스;Saint John’s
+nl;Saint John's;Saint John’s
+pt;Saint John's;Saint John’s
+zh;圣约翰;Saint John’s
+ru;Сент-Джонс;Saint John’s
+en;St John's;Saint John’s
+en;Saint John's;Saint John’s
+ht;Sen Jòns;Saint John’s
+ru;Поттерс-Вилладж;Potters Village
+zh;皮戈茨;Piggotts
+ja;ピゴッツ;Piggotts
+ru;Пигготтс;Piggotts
+ar;بيغوتس;Piggotts
+hi;पिगॉट्स;Piggotts
+ru;Пархэм;Parham
+zh;帕勒姆;Parham
+ja;パーハム;Parham
+ar;بارهام;Parham
+hi;पारहम;Parham
+ru;Олд-Роуд;Old Road
+ja;オールド・ロード;Old Road
+zh;舊羅德;Old Road
+ru;Ньюфилд;Newfield
+ru;Либерта;Liberta
+zh;利伯塔;Liberta
+ja;リベルタ;Liberta
+ru;Джонсонс-Поинт;Johnsons Point
+de;Johnson’s Point;Johnsons Point
+ru;Дженнингс;Jennings
+ru;Фритаун;Freetown
+ru;Фалмут;Falmouth
+ar;فالماوث;Falmouth
+hi;फालमाउथ;Falmouth
+ja;ファルマス;Falmouth
+ja;イングリッシュ・ハーバー;English Harbour Town
+it;English Harbour;English Harbour Town
+ru;Кодрингтон;Codrington
+ja;コドリントン;Codrington
+ko;코드링턴;Codrington
+zh;科德灵顿;Codrington
+ar;كودرينغتون;Codrington
+hi;कोड्रिंगटन;Codrington
+ja;シダー・グローブ;Cedar Grove
+zh;錫達格羅夫;Cedar Grove
+ja;カーライル;Carlisle
+ja;ボランス;Bolands
+zh;博兰斯;Bolands
+ru;Болэндс;Bolands
+ar;بولاندس;Bolands
+hi;बोलैंड्स;Bolands
+zh;奥尔赛因茨;All Saints
+ja;オール・セインツ;All Saints
+ja;ジョリー港;Jolly Harbour
+zh;乔利港;Jolly Harbour
+ru;Приход Святого Павла;St. Paul Parish
+ar;رعية سانت بول;St. Paul Parish
+es;Parroquia de San Pablo;St. Paul Parish
+fr;Paroisse St. Paul;St. Paul Parish
+hi;सेंट पॉल पेरिश;St. Paul Parish
+de;St. Paul Gemeinde;St. Paul Parish
+ja;セント・ポール教区;St. Paul Parish
+pt;Paróquia de São Paulo;St. Paul Parish

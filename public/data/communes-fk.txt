@@ -1,0 +1,57 @@
+0;-58.7667,-51.9667;FIQQ 1ZZ;;Walker Creek
+0;-59.0921,-51.8137;FIQQ 1ZZ;;Tranquilidad
+16;-58.4382,-51.5570;FIQQ 1ZZ;;Teal Inlet Settlement
+2213;-57.8570,-51.6938;FIQQ 1ZZ;;Stanley
+0;-58.3720,-51.4341;FIQQ 1ZZ;;Salvador Settlement
+0;-58.7500,-51.4833;FIQQ 1ZZ;;Sand Fountain
+11;-59.0350,-51.5736;FIQQ 1ZZ;;San Carlos Settlement
+0;-58.3093,-51.4615;FIQQ 1ZZ;;Rincon Grande Settlement
+8;-58.9875,-51.5018;FIQQ 1ZZ;;Port San Carlos Settlement
+0;-58.1500,-51.6000;FIQQ 1ZZ;;Port Louis South
+0;-58.1090,-51.5237;FIQQ 1ZZ;;Port Louis Settlement
+41;-59.5230,-51.6154;FIQQ 1ZZ;;Port Howard
+0;-58.7667,-51.5333;FIQQ 1ZZ;;Piedra Sola
+25;-59.6039,-51.3182;FIQQ 1ZZ;;Pebble Island Settlement
+0;-59.2333,-51.8667;FIQQ 1ZZ;;Orqueta
+25;-59.3676,-52.1237;FIQQ 1ZZ;;North Arm Settlement
+0;-58.6000,-51.8333;FIQQ 1ZZ;;Mid Rancho
+0;-59.4000,-51.9000;FIQQ 1ZZ;;Mariquita
+0;-58.4000,-51.9000;FIQQ 1ZZ;;Mare Harbour Rancho
+0;-58.0397,-51.4984;FIQQ 1ZZ;;Johnson Harbour Settlement
+0;-58.2167,-51.5333;FIQQ 1ZZ;;Horseshoe Bay
+0;-59.3563,-51.8631;FIQQ 1ZZ;;Hope Cottage
+40;-58.9725,-51.8277;FIQQ 1ZZ;;Goose Green Settlement
+0;-58.2500,-51.7333;FIQQ 1ZZ;;Fitzroy North
+8;-58.2263,-51.7869;FIQQ 1ZZ;;Fitzroy Settlement
+0;-58.1652,-51.6353;FIQQ 1ZZ;;Estancia House
+31;-58.6088,-51.4599;FIQQ 1ZZ;;Douglas Settlement
+0;-59.2500,-51.7833;FIQQ 1ZZ;;Dos Lomas
+7;-58.9596,-51.8069;FIQQ 1ZZ;;Darwin
+0;-59.9333,-51.3333;FIQQ 1ZZ;;Cranmer
+0;-58.8500,-51.7167;FIQQ 1ZZ;;Ceritos
+0;-58.9667,-51.5333;FIQQ 1ZZ;;Camp Verde
+0;-58.9394,-51.7841;FIQQ 1ZZ;;Burnside House
+0;-58.6859,-51.5481;FIQQ 1ZZ;;Bombilia House
+0;-58.1785,-51.7483;FIQQ 1ZZ;;Bluff Cove
+0;-59.6882,-52.2207;FIQQ 1ZZ;;Speedwell Island Settlement
+0;-58.4566,-51.9941;FIQQ 1ZZ;;Lively Settlement
+0;-58.1756,-51.7475;FIQQ 1ZZ;;Bluff Cove Settlement
+0;-58.1178,-51.5483;FIQQ 1ZZ;;Green Patch Settlement
+0;-58.3309,-51.4678;FIQQ 1ZZ;;Foam Creek House
+0;-59.9433,-51.3312;FIQQ 1ZZ;;Keppel Settlement
+0;-60.4559,-51.8297;FIQQ 1ZZ;;Spring Point Settlement
+0;-60.3856,-51.5484;FIQQ 1ZZ;;Roy Cove Settlement
+0;-60.8445,-52.1024;FIQQ 1ZZ;;Port Stephens Settlement
+16;-60.1156,-51.4974;FIQQ 1ZZ;;Hill Cove
+7;-60.0844,-51.9517;FIQQ 1ZZ;;Fox Bay West Settlement
+15;-60.0693,-51.9566;FIQQ 1ZZ;;Fox Bay East Settlement
+0;-60.4166,-51.7415;FIQQ 1ZZ;;Dunnose Head Settlement
+0;-60.0795,-51.7111;FIQQ 1ZZ;;Chartres
+0;-60.9049,-51.8923;FIQQ 1ZZ;;Weddell Settlement
+0;-61.2988,-51.7256;FIQQ 1ZZ;;New Island Settlement
+0;-60.0873,-51.3659;FIQQ 1ZZ;;Saunders Island Settlement
+0;-61.2538,-51.8532;FIQQ 1ZZ;;Beaver Settlement
+0;-60.6868,-51.3488;FIQQ 1ZZ;;Westpoint Island Settlement
+0;-60.5570,-51.2909;FIQQ 1ZZ;;Carcass Island Settlement
+0;-58.4608,-51.8290;FIQQ 1ZZ;;Mount Pleasant
+0;-60.2798,-52.0494;FIQQ 1ZZ;;Port Edgar Settlement

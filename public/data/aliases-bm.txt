@@ -1,0 +1,11 @@
+de;Saint George’s;Saint George
+ja;セント・ジョージ;Saint George
+ko;세인트조지스;Saint George
+ru;Сент-Джордж;Saint George
+zh;圣乔治斯;Saint George
+ja;ハミルトン;Hamilton
+ko;해밀턴;Hamilton
+ar;هاميلتون;Hamilton
+ru;Гамильтон;Hamilton
+zh;哈密尔顿;Hamilton
+en;Saint George's Parish;St George's Parish

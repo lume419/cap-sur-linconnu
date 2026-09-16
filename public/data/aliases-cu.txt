@@ -1,0 +1,1185 @@
+es;Ya Veremos;Yaveremos
+es;Yarayal;Yareyal
+es;Yaguey;Yagüey
+es;Yaguanabo;Yaguanabo Arriba
+es;Wilfredo Pages;Wilfredo Pagés
+es;Puerto Vita;Vita
+es;Vista Alegre;Vista Alegre de Cañadón
+es;Leviste;Laviste
+ru;Виньялес;Viñales
+en;María Victoria;Simon Bolivar
+en;Victoria;Simon Bolivar
+es;Simón Bolívar;Simon Bolivar
+es;Victoria;Unidad Victoria
+es;Victoria Unidad;Unidad Victoria
+ru;Vert’yentes;Vertientes
+ru;La-Veder’yana;La Valeriana
+ru;Vegita-del’-Sur;Veguita del Sur
+es;Veguita;Veguita Amarilla
+es;Vega del Jojo;Vega del Jobo
+ru;Варадеро;Varadero
+zh;巴拉德罗;Varadero
+ko;바라데로;Varadero
+es;Vallecito;El Vallecito
+es;Ullao Viejo;Ullao
+es;Tuli;La Tulita
+es;Villa Onelia;Tulipán
+es;Triunvitario;Triunvirato
+ru;Тринидад;Trinidad
+ja;トリニダ;Trinidad
+zh;特立尼达;Trinidad
+hi;त्रिनिदाद;Trinidad
+ko;트리니다드;Trinidad
+es;Tres María;Tres Marías
+es;Tranquera de Piedras;Tranquera de Piedra
+es;Los Toros Dos;Toro Dos
+ru;Топес де Кольянтес;Topes de Collantes
+es;El Titi;El Tití
+es;Tiguabos;Tiguabo
+es;San Felipe Thompson;Thompson
+es;La Tasajera;Tasajera
+es;Tasajeras Dos;Tasajera
+es;La Tapia;Tapia
+es;Talaveras;Talavera
+es;Taco Taco;Taco-Taco
+ru;Сороа;Soroa
+es;Soledad;Soledad de Mandiga
+es;Salvador;El Salvador
+es;Sofia;Sofía
+ru;El’-Sokorro;El Socorro
+es;Sirven;Sirvén
+es;Victoria;Vitoria
+es;7 de Noviembre;Natividad
+es;Ejercito de Cayojo;Cerrecito Cayojo
+es;Sembré;Sempré
+es;Seboruquito;Seboruco
+ru;Сантьяго-де-лас-Вегас;Santiago de las Vegas
+ja;サンティアーゴ・デ・クーバ;Santiago de Cuba
+it;Santiago di Cuba;Santiago de Cuba
+ru;Сантьяго-де-Куба;Santiago de Cuba
+ar;سانتياغو دي كوبا;Santiago de Cuba
+ko;산티아고데쿠바;Santiago de Cuba
+zh;圣地亚哥-德古巴;Santiago de Cuba
+hi;सैंटिएगो डे क्यूबा;Santiago de Cuba
+es;Santa Ursula;Santa Úrsula
+es;Santa Teresa;Pedro Salas
+es;Santa Teresa Dos;Santa Teresa
+es;Santa Susana Dos;Santa Susana
+es;Santa Rosalia;Santa Rosalía
+es;Santa Rita de Tempu;Santa Rita de Tempú
+es;Santa Marta;Santa Martha
+es;Santa Maria;Santa María
+es;Santa Isabel;Entronque Santa Isabel
+es;Cunagua;Santa Gertrudis
+es;Santa Fé;Santa Fe
+es;Santa Fe;Santa Fé
+es;La Clarita;Clarita
+ja;サンタ・クララ;Santa Clara
+ru;Санта Клара;Santa Clara
+ko;산타클라라;Santa Clara
+ru;Санта-Клара;Santa Clara
+zh;圣克拉拉;Santa Clara
+ar;سانتا كلارا;Santa Clara
+hi;सांता क्लारा;Santa Clara
+es;Santa Clara;Santa Clarita
+es;Jorge Prieto;Santa Cecilia
+es;Santa Brianda;Brianda
+es;Sitio de Santa Bárbara;Santa Bárbara
+es;Santa Ana;Santana
+es;Santa Ana;Santa Ana de Naguas
+es;San Rafael;San Rafael Uno
+es;La Presa;San Rafael
+es;Callejón;San Rafael
+es;San Pedro;San Pedro Arriba
+es;San Pablo;Gregorio López
+ru;Сан Мигел Дел Падрон;San Miguel del Padrón
+es;San Miguel;Minas de San Miguel
+es;Luis Carrasco;Quiñones
+es;Luis Quiñones;Quiñones
+es;San Marcos Uno;San Marcos Nuevo
+es;San Marco Nuevo;San Marcos Nuevo
+es;San Marco;San Marcos
+es;San Luis Viejo;San Luis
+es;Juan Lorenzo;Virrey
+es;San Julian;San Julián
+es;San Juan de Sagua;Sagua
+en;San Jose de las Lajas;San José de las Lajas
+ru;Сан-Хосе-де-лас-Лахас;San José de las Lajas
+ar;سان خوسيه دي لاس لاخاس;San José de las Lajas
+fr;San Jose de las Lajas;San José de las Lajas
+hi;सैन जोसे डे लास लाहास;San José de las Lajas
+de;San Jose de las Lajas;San José de las Lajas
+ja;サン・ホセ・デ・ラス・ラハス;San José de las Lajas
+pt;San Jose de las Lajas;San José de las Lajas
+es;San José;San José de las Peladas
+es;San José;San José de las Lajas
+es;San José;Chucho San José
+es;San Jorge Uno;San Jorge
+es;Alambre;El Alambre
+es;Camino a Charco Largo;San Jerónimo
+es;Cruce San Francisco;San Francisco
+es;San Francisco;San Francisco de las Canteras
+es;San Francisco;San Fancisco de la Luna
+es;Ciego;El Ciego
+es;El Sapo;San Enrique
+es;Pueblo Nuevo de San Diego;San Diego
+es;San Diego;San Diego Nuevo
+ru;Санкти-Спиритус;Sancti Spíritus
+ar;سانكتي سبيريتوس;Sancti Spíritus
+fr;Sancti Spiritus;Sancti Spíritus
+hi;सैंक्टी स्पिरिटस;Sancti Spíritus
+de;Sancti Spiritus;Sancti Spíritus
+ja;サンクティ・スピリトゥス;Sancti Spíritus
+pt;Sancti Spiritus;Sancti Spíritus
+es;San Cristóbal;San Cristobal
+es;San Claudio;San Claudio Uno
+es;San Blás;San Blas Oeste
+es;San Benito;San Benito de Mayarí
+ru;Сан-Антонио-де-лас-Вуэльтас;San Antonio de las Vueltas
+es;Vueltas;San Antonio de las Vueltas
+es;San Antonio;San Antonio de Jó
+ru;Сан Антон;San Antón
+en;San Anton;San Antón
+es;San Agustin de Aguaras;San Agustín
+es;San Salvador;Salvador Rosales
+es;Sale;Salé
+es;Saládrigas;Saladrigas
+es;Sabanitas;Sabanita
+es;Sabana La Mar;Sabanalamar
+es;Ruffín;Ruffin
+es;Rolletico;Rollete
+ru;Родас;Rodas
+es;Rincón de Naranjo;Rincón Naranjo
+es;Ricardo;La Ricardo
+es;El Retrete Abajo;Retrete Abajo
+es;La Resbalosa;El Jiquí Resbalosa
+es;Colombia;Columbia
+es;Rensoli;Rensolí
+ru;Ремедиос;Remedios
+es;Remate de Arioza;Remate de Ariosa
+es;Rejondon;Rejondón
+es;Reinoso;La Reinosa
+es;Rebarcadero;Rebacadero
+es;El Realéngo;El Realengo
+es;Rancho Viejo;Rancho Viejo Abajo
+es;Rancho Cruz;Rancho Club
+de;Rafael Freyre;Santa Lucía
+ru;Кивикан;Quivicán
+es;Luis Carrasco;Luis Quiñones
+es;Quesada;Chacha Quesada
+es;Chacha Quezada;Chacha Quesada
+es;Quesada;Crucero de Quesada
+es;Crucero Quesada;Crucero de Quesada
+es;Quemado de Cuneira;El Quemado de Cuneira
+es;Quemadito Viejo;Quemadito
+es;Puriales;Puriales Arriba
+es;San Juan;Punta San Juan
+es;La Punta;Punta San Juan
+es;Punta de Diamantes;Punta de Diamante
+es;Punta Diamante;Punta de Diamante
+zh;蓬塔布拉瓦;Punta Brava
+es;Puerto Rico;Playa Puerto Rico
+ru;Пуэрто-Падре;Puerto Padre
+es;Palo Viejo;Polo Viejo
+es;El Porvenir;Curva El Porvenir
+es;Polo Redondo;Pozo Redondo
+es;Playa de Florida;Playa Florida
+es;Playa Piloto;Puerto Piloto
+es;Playa La Panchita;La Panchita
+es;Playa La Herradura;La Herradura
+ru;Плая Хирон;Playa Girón
+es;Playa El Morillo;Playa El Morrillo
+es;Playa de Caletones;Caletones
+es;Playa de Baracoa;Playa Baracoa
+en;Caimito;Playa Baracoa
+ru;Platanil’os;Platanillo
+ru;Пинар-дель-Рио;Pinar del Río
+ar;بينار ديل ريو;Pinar del Río
+hi;पिनार डेल रियो;Pinar del Río
+ja;ピナル・デル・リオ;Pinar del Río
+pt;Pinar del Rio;Pinar del Río
+es;Pina;Plan Piña
+es;El Pilar;Pilar
+es;Pijuán;Pijuan
+es;La Piedra;Piedra
+es;Perú;El Perú
+es;Antonio Maceo;Peralejo
+es;Paquita Uno;Paquito Uno
+es;La Panchita;Islote La Panchita
+es;Palo Seco;Paso Seco
+ru;Палмира;Palmira
+ru;Палма Сориано;Palma Soriano
+ru;Pal’marekho;Palmarejo
+es;Palmar de las Grullas;El Palmar
+es;Palma;Palma Clara
+ru;Pal’ma-Klara;Palma Clara
+es;Palanque;Palenque
+es;Padrón;El Padrón
+es;Pablo de La Torriente Brau;Orozco
+es;Oriente;Nuevo Oriente
+es;Ojo del Toro;Ojo de Toro
+es;Ojo de Agua;Ojo de Agua Arriba
+es;La Luz;Ojo de Agua
+es;Ofelia;La Ofelia
+es;Ocujal;Ocujal del Turquino
+ru;Нуэва-Херона;Nueva Gerona
+ja;ヌエバ・ヘローナ;Nueva Gerona
+ko;누에바헤로나;Nueva Gerona
+zh;新赫羅納;Nueva Gerona
+ar;نويفا خيرونا;Nueva Gerona
+hi;नुएवा जेरोना;Nueva Gerona
+es;Lengua de Pájaros;Nícaro-Levisa
+es;Nibujón;La Vega de Nibujón
+es;Nela;Aracelio Iglesias
+es;Navarra;Entronque Abreus
+es;Natalla;Natalia
+es;Obdulio Morales;Narcisa
+ru;Narankho-Dul’se;Naranjo Dulce
+es;Naranjal;Naranjales
+es;Mota Uno;Mota
+ru;Морон;Morón
+ht;Moron;Morón
+zh;莫隆;Morón
+es;Moralito;Moralitos
+es;Monte Grande;Monte Grande ESBEC
+es;Monasterio;Defensa
+es;Loma de Mujica;Mujica
+es;Modelo;La Modelo
+ru;Моа;Moa
+es;Julio Antonio Mella;Mella
+es;Miraflores Viejo;Miraflores
+es;Miraflores Nuevo;Miraflores
+es;Miraflores Nueva;Miraflores
+ru;Минас;Minas
+es;Mijial Uno;Colonia Mijial
+es;Mijal;Mijial
+es;Merchant Uno;Marchan
+ru;Матанзас;Matanzas
+ja;マタンサス;Matanzas
+ru;Матансас;Matanzas
+zh;馬坦薩斯;Matanzas
+ar;ماتانزاس;Matanzas
+hi;मातांजास;Matanzas
+es;Matatoros;Matatoro
+es;Martín López;Guanal Alto
+es;Guano Alto;Guanal Alto
+es;Guanalalto;Guanal Alto
+ru;Mar’yana;Mariana
+es;La Luisa;María Luisa
+es;Maravillas Rojas;Maravilla Roja
+es;Marañón Uno;Marañón
+ru;Мансанильо;Manzanillo
+ko;만사니요;Manzanillo
+zh;曼薩尼約;Manzanillo
+es;Manuelita Larrendo;Manuelita Larrondo
+es;Manuelita Lorrondo;Manuelita Larrondo
+es;Manguito;El Manguito
+es;Manaquitas;Manaquita
+es;Manacas Ransola;Manaca Ranzola
+es;Manacas Ransolas;Manaca Ranzola
+es;Las Delicias;Manacas
+es;Mameyal;El Mameyal
+es;El Mamey;El Mameyal
+es;Mamey;El Mamey
+es;Martiattus;Martiatus
+es;Malpaez;Malpáez
+es;Macagua;La Macagua
+en;Punta De Maisi;Maisí
+es;Maibio;Maibío
+es;Tres Macios;Tres Macíos
+es;Mabyuba;Mabuya
+es;Lugardita;Lutgardita
+es;Los Toros;Nuevo Toro Dos
+es;Los Sáez;Los Saez
+ru;Manant’yales;Manantiales
+ru;Los-L’yanos;Los Llanos
+es;Los Limpiones;Limpiones
+es;Limones Palmeros;Limones Palmero
+es;Los Ingenieros;La Mina
+es;Los Guiros;Los Güiros
+es;Los Guasimales;Guasimal
+es;Los Colorados;Las Coloradas
+es;Los Carderos;Los Calderos
+es;Los Borges;Los Burgones
+es;Los Basanes;Los Bazanes
+es;El Baño de los Brujos;El Baño
+es;El Baño Los Brujos;El Baño
+es;Ángeles Dos;Los Ángeles Dos
+es;Los Alfonsos;La Manciega
+es;Loma de Calendaria;Loma de Candelaria
+es;Primera Parada;Loma del Muerto
+es;Punta la Llana;Punta La Yana
+es;Limones Tienda;Limones Cantero
+es;La Marea de Limones;Marea de Limones
+es;Limones;Limones de Mota
+es;Limoncito;Limoncito La Caridad
+ru;Лимонар;Limonar
+es;Libardí;Libardi
+es;Lequeitio;Lequeito
+es;Valle Azul;La Vigía
+es;La Victoria;La Victoria Abajo
+es;Veracruz Gómez;Veracruz de Gómez
+es;Las Veguitas;La Veguita
+es;Apeadero de Laurita;Laura
+es;La Tägua;La Tagua
+ru;Лас-Тунас;Las Tunas
+it;Victoria de Las Tunas;Las Tunas
+zh;维多利亚-德拉斯图纳斯;Las Tunas
+ko;라스투나스;Las Tunas
+ar;لاس توناس;Las Tunas
+hi;लास टुनास;Las Tunas
+ja;ラス・トゥナス;Las Tunas
+es;Las Puertas de las Cuevas;Las Cuevas
+es;Las Pozas;Cacahual de Avispa
+es;Los Minos;Las Minas
+es;Las Mercédes;Las Mercedes
+es;Las Mercedes Dos;Las Mercedes Numero Dos
+es;Las Marías;Las María
+es;Las Marías;Veintiocho de Octubre
+es;Los Teyes;Los Telles
+es;El Dos de Monte Fres;Monte Fresco
+es;Seca;Seca Abajo
+es;Delicias;Las Delicias
+es;Las Damas;Las Damas Uno
+es;Las Cuavas;Las Cuabas
+es;Las Cruce de Purnio;Las Cruces de Purnio
+es;Las Coloradas;La Colorada
+es;Las Cañas;Cuzco Las Cañas
+es;El Rodeo;Las Bocas
+es;Las Bellezas;Caney
+es;Las Balisas;Las Balizas
+ru;Ла Салюд;La Salud
+es;La Sabana;Andrés Cuevas
+es;Rivas;La Riva
+es;La Resistencia;El Entronque
+es;La Prudencia;La Prudenciana
+es;La Poa;La Púa
+es;La Patricia;Primero de Enero
+es;La Panchita;Jiménez
+es;La Olleta;Olleta
+es;Los Ajies;Los Ajíes
+es;La Mina;Mina Dos
+es;La Matilde de Cañera;La Matilde
+es;La Martina;La Maltina
+es;La Mariana;Las Marianas
+es;La Manchuria;La Manchurria
+es;La Legua;Ceja-La Legua
+es;La Ceja;Ceja-La Legua
+es;La Ceja-La Legua;Ceja-La Legua
+es;La Jatia;La Jatía
+es;Jagua Uno;La Jagua
+es;Horquitas;Horquita
+es;La Habana;Habana
+de;Havanna;Havana
+es;La Habana;Havana
+ar;هافانا;Havana
+fr;La Havane;Havana
+it;L'Avana;Havana
+ja;ハバナ;Havana
+ko;아바나;Havana
+ru;Гавана;Havana
+zh;哈瓦那;Havana
+nah;La Ahuana;Havana
+ht;La Avàn;Havana
+hi;हवाना;Havana
+es;Méndez Capote;Lagunillas
+es;Birama;Virama
+es;Granja;La Granja
+es;Gía Dos;La Jía Dos
+es;La Jía;La Gía
+es;La Clarita;La Garita
+es;La Grabriela;La Gabriela
+es;Sierra Maestra;La Cubana
+es;La Fé;La Fe
+es;Macurije;Macurijes
+ru;Пуэрто Эсперанса;Puerto Esperanza
+es;La Escondida;Escondida
+es;La Entrada;La Entrada de Sao Arriba
+es;La Encarnita;Encarnita
+es;La Deseada;Veintiuno de Septiembre
+es;Coronela;La Coronela
+es;La Conchita;Julián Alemán
+es;La Colorada;Las Coloradas
+es;El Pinar de la Ceiba;Pinar de Ceiba
+es;La Ceiba;La Ceibita
+es;Camino Felton;La Ceiba
+es;La Caridad;La Caridad Dos
+es;La Caridad;La Caridad del Dátil
+es;Arenera;La Caridad Nueva
+es;Carranchola;La Carranchola
+es;La Canoa;La Canoa Uno
+es;La Candelaria;Candelaria
+es;San José de La Cabrera;La Cabera
+es;Laberinto;Laberinto-Laportilla
+es;La Barbarita;La Barbarita Uno
+es;Ascensión;Ascención
+es;Altura;La Altura
+es;Paso Hondo;Jutinicú
+es;Chiqui Gómez;Jutiero
+es;Dos Moya;Moya
+es;El Júcaro;Júcaro
+es;Jucaro;Júcaro
+es;Josefina;Josefina Uno
+ru;Khobal’;El Jobal
+es;San Isidro;Jiquiabo
+es;Jiqui;Jiquí
+es;Jimaguayú;Plan Vianda Jimaguayú
+es;La Jicotea;Jicotea
+es;Brasil;Jaronú
+es;Jagüey Viejo;Jagüey
+es;Jagüeyes;Jagüeyes Abajo
+es;Jagueyal;Jagüeyal
+es;Jagua;Jagua Uno
+es;Jaksonville;Jacksonville
+es;Iznaga;Manaca Iznaga
+es;Israel Ruíz;Israel Ruiz
+es;Rosario;El Rosario
+es;Hortensia;Malezal Dos
+ja;オルギン;Holguín
+ru;Ольгин;Holguín
+zh;奧爾金;Holguín
+ar;هولغوين;Holguín
+hi;होलगुइन;Holguín
+es;Hermanos Saiz;Hermanos Saíz
+es;San Marcos Dos;Rose
+es;Chucho Rose;Rose
+ru;Ato-V’yekho;Hato Viejo
+es;Modelo;Santiago Escobar
+ru;Mariya-del’-Pilar;María del Pilar
+es;Güirito;El Güirito
+es;El Guirito;El Güirito
+ru;Guin’yao;Güiniao
+ru;Гуинес;Güines
+es;Guillermo Llabré;Guillermo Llabre
+ru;Гуайос;Guayos
+es;El Guayabal;Guayabal
+es;Las Guásimas;Carolina las Guásimas
+es;Guasasas;Guasasa
+es;Guasacama;Guasacamá
+fr;Guantanamo;Guantánamo
+ja;グアンタナモ;Guantánamo
+ru;Гуантанамо;Guantánamo
+ar;غوانتانامو;Guantánamo
+hi;ग्वांटानामो;Guantánamo
+es;Caserío;Guanito
+es;El Cardón;Guanina
+es;Guanalalto;Guano Alto
+ja;グアナボ;Guanabo
+zh;瓜納博;Guanabo
+ru;Гуанабакоа;Guanabacoa
+es;Guamutas;Guamuta
+es;Guama;Guamá
+es;Guaimaro;Guáimaro
+es;Grua Nueva;Grúa Nueva
+es;Granadillo;Los Granadillos
+es;Gonzalo Quesada;Gonzalo de Quesada
+es;Gonzalo de Quezada;Gonzalo de Quesada
+es;Godines;Godínez
+es;Codínez;Godínez
+es;Gladys;Romana Siete
+es;Juan Ginebra;Ginebra
+es;Georgina;La Georgina
+es;Gavilanes;Gavilan
+es;Las Canas;Las Cañas
+es;Candito;Frías
+ru;Фонтанар;Fontanar
+ru;Фоменто;Fomento
+ru;Флорида;Florida
+es;Ciudad Caracas;Caracas
+es;Filipínas;Filipinas
+es;Farfán;El Falfan
+es;Esperanza;La Esperanza
+ru;Эсмеральда;Esmeralda
+zh;埃斯梅拉達;Esmeralda
+es;Enriqueta;La Enriqueta
+es;El Alto;El Alto de los Ángeles
+es;El Empalme;Empalme
+es;Embarcadero de Banes;Embarcadero
+es;Yarual Tres;El Yarual
+es;El Vesubio;Vesubio
+es;El Rubro;El Rubio
+es;El Rosario;Rosario
+es;Las Bocas;El Rodeo
+es;El Roblón;El Roblar Uno
+ru;El’-Rinkon;El Rincón
+es;El Verraco;Berraco
+es;El Ram;El Ramón de las Yaguas
+es;Purial;El Purial
+es;El Puerco;El Puerto
+es;Palmar;El Palmar
+es;El Manguito;Manguito Abajo
+ru;El’-Akuedukto;El Acueducto
+es;Jíbaro;El Jíbaro
+es;Jagüey;El Jagüey
+es;El Jaguey;El Jagüey
+es;El Güineo;El Guineo
+es;Guanito;El Guanito
+es;El Gato;Mogote el Gato
+es;El Estado Arriba;El Estado
+es;El Edén;Edén
+es;El Damijí;Damují
+es;El Danují;Damují
+es;Damuji;Damují
+es;Unión Fernández;Unión de Fernández
+ru;El’-Korokho;El Corojo
+es;El Corojito;El Corojo
+es;Corojalito Arriba;Corojalito
+es;Coloso;El Coloso
+ru;Эль-Кобре;El Cobre
+es;Carmen Hernández;El Carmen
+es;Carmen;El Carmen
+ru;El’-Karmen;El Carmen
+es;Caney;El Carmen
+es;Mar Verde;El Carmen
+es;Calvario;El Calvario
+es;El Briche;El Brinche
+es;La Perra;El Bejuco
+es;En Ángel;El Ángel Viejo
+es;Amparo y Caridad;El Amparo
+es;Amparo Caridad;El Amparo
+es;Los Amparos;El Amparo
+es;El Alambique;Alambique
+ru;El’-Akhi;El Ají
+es;Eduviges;La Eduviges
+es;Eduvijes;La Eduviges
+es;Dulce;Dulce Nombre
+es;Dos Bocas;Dos Bocas de Cardero
+es;Don Mariano;Don Mariano Norte
+es;Los Dolores;Dolores
+es;Dolores;Dolores Jabonillar
+es;Dobales;Cruce Dobales
+es;Diamante;El Diamante
+es;Las Delicias;Delicia
+es;La Delia;Delia
+es;Dágame;Dagame
+es;Curvelo;Curbelo
+es;Cupeyes;Los González
+es;Los Gonzalez;Los González
+es;Cupey;Cupey Arriba
+es;Cupey;El Cupey
+es;Cupeicillo;Cañada de Cupeycillo
+es;Cuesta;CPA "Benito Ramírez"
+es;Benito Ramírez;CPA "Benito Ramírez"
+es;Cubita;Cubitas
+ru;Куба;La Cuba
+ru;Крусес;Cruces
+es;Crucero Carabela;Las Carabelas
+es;Las Crucecitas;Crucecita
+es;Cotilla;Cotilla Dos
+es;Cosme Batey;Cosme
+es;Corralito;Corralito Arriba
+es;Corralillo;Corralillo Vivero
+es;Naranjo;Los Naranjos
+es;Corojos;Corojo
+es;Carolina;Corina
+es;Copo El Chato;Copo del Chato
+ru;Кондадо;Condado
+es;Comecara;Comecará
+zh;科隆;Colón
+ru;Колон;Colón
+es;Collado;Collada
+es;Ciudad Industrial;Ciudad Industrial Uno
+ru;S’yen-Rosas;Cien Rosas
+ja;シエンフエーゴス;Cienfuegos
+ru;Сьенфуэгос;Cienfuegos
+ar;سينفويغوس;Cienfuegos
+zh;西恩富戈斯;Cienfuegos
+hi;सिएनफिएगोस;Cienfuegos
+ru;Сьего-де-Авила;Ciego de Ávila
+ar;سييغو دي أفيلا;Ciego de Ávila
+fr;Ciego de Avila;Ciego de Ávila
+hi;सिएगो डे एविला;Ciego de Ávila
+ja;シエゴ・デ・アビラ;Ciego de Ávila
+es;Charco Azul;Charco Azul Arriba
+es;Ceballo;Ceballos
+es;Frank País;Cayo Mambí
+es;Cayo Acosta Uno;Cayo Acosta
+es;Cayajabo;Cayajabos
+es;Cauto Las Espinas;Las Espinas
+ru;Katalun’ya;Cataluña
+es;Finca Castillo;Castillo
+es;El Chicharrón del Macho;El Chicharrón
+es;Las Casimbas;Las Casimba
+es;El Tomeguín;Tomeguín
+es;Carolina;Las Carolinas
+es;Carolina;La Carolina
+ru;Карденас;Cárdenas
+zh;卡爾德納斯;Cárdenas
+ht;Cardenas;Cárdenas
+es;Carbo;Carbó
+es;Caracura;Caracuna
+es;Casa de Tejas;La Candelaria
+es;Canario;Centro Acopio El Sao
+es;Cañada Honda Trece;Cañada Honda
+ru;Камило Сьенфуагос Уно;Camilo Cienfuegos Uno
+ru;Камило Сьенфуагос Дос;Camilo Cienfuegos Dos
+ja;カマグエイ;Camagüey
+ru;Камагуэй;Camagüey
+ar;كاماغويه;Camagüey
+hi;कामागुएय;Camagüey
+es;Osvaldo Fuentes;Callejas
+es;Calambroso;Calambrosio
+es;Cajimaya Abajo;Cajimaya
+es;Cerro Caisimú;Cerro de Caisimú
+es;Cairije;Caidije
+zh;凱瓦連;Caibarién
+es;Cagueira;Cagüeira
+es;El Cafetal;Cafetal
+es;Cacarajícara;Asiento de Cacarajícara
+es;Cacahual Norte;Cacahual Nuevo
+es;Cacahual;Cacahual Nuevo
+es;Nuevo Cacahual;Cacahual Nuevo
+es;Cabagán;Cabagán la Arenera
+es;Santa Rita;Santa Rita de Burene
+es;Buey de Gallego;Buey del Gallego
+es;Minas de Buey Arriba;Buey Arriba
+es;Buena Vista;Buenavista
+es;Buenavista;Buena Vista
+es;Buenaventura;Buena Ventura
+es;Borbollón;Loma de los Comunistas
+es;Boquerones;Boquerones Uno
+es;Bongué;Bongue
+es;Bombon;Bombón
+es;Bocanaza;Bocanasa
+es;Blas Gonzáles;Blas González
+es;Blaquizal;Blanquizal
+ru;El’-Blankil’o;El Blanquillo
+es;Playa Bibijagua;Bibijagua
+es;Bermejas;Bermeja
+ru;Bel’yesa;Belleza
+es;Bellamota;Bella Mota
+es;Belen;Belén Nuevo
+ru;Бехукаль;Bejucal
+zh;貝胡卡爾;Bejucal
+ru;Баямо;Bayamo
+ar;بايامو;Bayamo
+hi;बयामो;Bayamo
+ja;バヤモ;Bayamo
+es;Barranca Uno;Barranca
+es;Bariguarita;Barigüita
+es;Bariguita;Barigüita
+ru;Баракоа;Baracoa
+ru;Банес;Banes
+es;Aurora;La Aurora
+ru;Артемиса;Artemisa
+ar;أرتيميسا;Artemisa
+hi;आर्टेमिसा;Artemisa
+ja;アルテミサ;Artemisa
+ru;Арроё Наранхо;Arroyo Naranjo
+es;Arroyo Blanco;Arroyo Blanco de Uvera
+es;Antonio Sánchez;Covadonga
+es;Covadanga;Covadonga
+es;Andreíta Veinte y Cinco;Andreita Veinticinco
+es;Andreita Venticinco;Andreita Veinticinco
+es;Asunao;Alunao
+es;Alto el Mango;Alto del Mango
+es;Alto de Jo;Alto de Jó
+es;El Almendro;Almendro
+es;Algodones Uno;Algodones
+es;Algodones;Camilo
+es;Alfonso;Rafael Alfonso
+es;Ancón;Valle Ancón
+es;Aguacate;El Aguacate
+ru;Aguakatal’;Aguacatal
+es;Acana;Ácana
+es;Ingenito Uno;Número Uno
+es;Loma de Kindelán;Kindelán
+es;El Mejicano;El Mexicano
+es;Solapa;La Solapa
+es;Crucero Piedrecitas;Crucero de Piedrecitas
+es;El Porvenir;Porvenir
+es;La Ceiba;La Veintiuno
+es;Gregorio García;Blanca Arena
+es;Chacón;Delio Chacón
+ru;Плая Ларга;Playa Larga
+es;Boca del Cajío;Boca de Cajío
+es;Jagua Trés;Jagua Tres
+es;Los Pinos;Playa Los Pino
+es;San Ramón Uno;San Ramón
+es;Esprey Uno;Esprague Uno
+es;Velazco Veinte y Seis;Velazco Veintiséis
+es;Velazco Veinte y Nueve;Velazco Veintinueve
+es;Punta San Juan;Máximo Gómez
+es;La Oriental;Oriental
+es;Veguita de San Cayetano;San Cayetano
+es;Veguitas de San Cayetano;San Cayetano
+es;Entronque  Lebanon;Entronque Lebanón
+es;Santa Rosa Tres;El Tres de Santa Rosa
+es;Las Doce;El Doce
+es;El Veinte;El Veinte de Soroa
+es;La Curva;El Veinte de Soroa
+es;Lima;La Lima
+es;Las Minas;Las Minas de Melones
+es;Báguanos Viejo;Báguano Viejo
+es;Rosafé Signet;Rosafé
+es;Loma Candela;Loma de Candela
+ru;El’-Narankho;Los Naranjos
+es;Leiva Uno;Leyva Uno
+es;Hechevarria;Hechavarría
+es;Veintiseis de Julio;Veintiséis de Julio
+es;Monte Negro;Montenegro
+es;El Castillo;El Castillito
+es;Playa Borrachos;Playa Borracho
+es;Borrachos;Playa Borracho
+es;Playa Cazonal;Cazonal
+ru;El’-Aguakate;El Aguacate
+es;Gran Piedra;La Gran Piedra
+es;Jagua de Bucuey;Jagua
+es;La Güinea;La Guinea
+es;El Mango;El Manguito
+es;Efraín Alfonso;Ifraín Alfonso
+es;Bueycabón;Buey Cabón
+es;El Malangal;Malangal
+es;Guajaibón;La Sabana
+ru;Марина;Marina Cayo Largo
+es;Mina Julio A. Mella;Julio Antonio Mella
+es;Arroyo Naranjo;Vladimir Ilich Lenin
+es;Nuevo;Rafael Ferro
+es;Maguelles;Magueyes
+es;Trece de la Coloma;Trece a La Coloma
+es;Quince de la Coloma;Quince a La Coloma
+es;Briones Montoto;Antonio Briones Montoto
+es;Veintiuno de la Coloma;Veintiuno a La Coloma
+es;Cuatro Caminos;Cuatro Caminos de Las Palizadas
+es;Campo Alegre;Campo Alegre El Colmenar
+es;Paradero Sábalo;Paradero de Sábalo
+es;El Marañón;Los Marañones
+es;El Siete;Siete a Viñales
+es;Batey Sánchez;Batey de Sánchez
+es;Loma Colorada;Loma Colorada del Mambí
+es;Fajardo;Manuel Fajardo
+es;La Picadura;La Picadora
+es;Quebradero del Yuro;Quebrada del Yuro
+es;La Quebrada del Yuro;Quebrada del Yuro
+es;El Portugués;Callejón Portugués
+es;Carambola;Orlando Nodarse
+es;Frías;Fría
+es;Playa Carenero;Carenero
+es;La Treinta;Las Treinta
+es;Cataluña;La Cataluña
+es;Reparto Antonio Maceo;Antonio Maceo
+es;El Cañonero;Cañonero
+es;Juan Borrel;Juan Borrell
+es;Entronque de Aguacate;Entronque
+es;Chamboli;Chambolí
+en;Punta Parda;Punta Perdiz
+es;El Polvorin;El Polvorín
+es;Vegas;Vega
+es;Playa Las Canas;Las Canas
+es;Cayo Caro;Cayo Coro
+es;Caleta de Muñoz;Caleta Muñoz
+es;Lagunilla;La Una
+es;Tres Palmas Dos;Los Puriales
+es;Sanguily;Manuel Sanguily
+es;La Media Lengua;La Media Legua
+es;Media Legua;La Media Legua
+es;Los Tamaridos;Los Tamarindos
+es;Olivero Marín;Oliverio Marín
+es;Cuyuji;Cuyují
+es;Punta de Peo;Mainicú
+es;Cuatro Camino;Cuatro Caminos
+es;La Veinte y Dos;La Veintidós
+es;La Veintidos;La Veintidós
+es;La Veinte y Tres;La Veintitrés
+es;Pojábo;Pojabo
+es;La Unión;La Unión Vieja
+es;El Soldado;El Salado
+es;Frank País;Toma de Agua
+es;Vegueta;Veguita
+es;El Cacahual;Álvaro Barba
+es;Cangalito;Cangulito
+es;Río Caña;Río Cañas
+es;FNTA;Federación Nacional de Trabajadores Azucareros
+es;Portales;Los Portales
+es;Antangildo Cajigal;Atanagildo Cagigal
+es;Patricío Lumumba;Patricio Lumumba
+es;Casa Cayo;Casa Cay
+es;El Rodeo;Rodeo
+es;Sergio Gonsález;Sergio González
+es;Porfueza;Porfuerza
+es;Bello Amanecer;La Recría
+es;La Recria;La Recría
+es;La Coquera;La Pollera
+es;El Mango;Los Mangos
+es;La Brisas;Las Brisas
+es;Cuba Libre;Mártires de Barbados
+es;Curva de Portugalete;La Peseta
+es;Las Delicias;Lajitas
+es;El Triángulo;Triángulo
+es;José R. Riquelme;José René Riquelme
+es;Panque Manacas;Panqué Manacas
+es;Panqué de Manacas;Panqué Manacas
+es;Crucero La Vía Estrecha;Vía Estrecha
+es;Casino;Casino de la Playa
+es;Paicito;Paisito
+es;Gardó;Gardo
+es;San Francisco;La Legua
+es;Martinez;Martínez
+es;Nueva Isabela;La Nueva Isabela
+es;San Juan;San Juan de Amaro
+es;Pozo;Chucho Pozo
+es;Rosalia;Rosalía
+es;Martha Abreu;Marta Abreu
+es;Martha Abreus;Marta Abreu
+es;La Jíguima;La Jíquima
+es;Crucero El Hiero;Crucero el Hierro
+es;Túnel del Hanabanilla;El Túnel
+es;Playa Nazabal;Playa Emilio Córdova
+es;Crecencio Valdés;Crescencio Valdés
+es;Llarreyes;Ilarreyes
+es;Oropesa;Sabana Oropesa
+es;Marrero;Camino Marrero
+es;Julian Grimau;Julián Grimau
+es;Yabu;Julián Grimau
+es;Juan Francisco de Aro;Juan Francisco Aro
+es;Indio;El Indio
+es;Perotte;Perotty
+es;Manaquita;Manaquitas
+es;13 de Marzo;Trece de Marzo
+es;Cuatro Esquinas de Santa Lucía;Cuatro Esquinas de Santa Lucia
+es;El Purial;Nave del Purial
+es;La Nave Purial;Nave del Purial
+es;Zorilla;Zorrilla
+es;17 de Mayo;Diecisiete de Mayo
+es;Cuatro Esquínas de Paula;Cuatro Esquina de Paura
+es;Cuatro Esquinas de Paula;Cuatro Esquina de Paura
+es;Jacinto Martínez;Juancito Martínez
+es;Casanova;Casanova-Los Patos
+es;Las Piedras;Casa de Piedra
+es;Loma de Juan Pérez;Loma Juan Pérez
+es;Fuste;Fusté
+es;El Berro;El Barro
+es;Calzado Maceo;Calzada Maceo
+es;La Mina;Mina Dolomita
+es;Mina Dolita;Mina Dolomita
+es;Guaní;Guani
+es;La Fe;La Fé
+es;Colorado;Batey Colorado
+es;Loma de Perico;Loma del Perico
+es;Calboney;Carboney
+es;Carbonell;Carboney
+es;Las Nuevas;La Nueva
+es;Plantel;El Plantel
+es;Panchito Gómez Toro;Gómez Toro
+es;Panchito Gómez;Gómez Toro
+es;La Veinte;Tramojos Dos
+es;Rematé de Caonao;Remate de Adriano
+es;Remate de Caonao;Remate de Adriano
+es;La Cejas de Pedro Barba;Cejas de Pedro Barba
+es;Aridanes Viejo;Aridanes
+es;Curva de Coca;La Curva de Coca
+es;Vizcusia;Viscusia
+es;Amín Klay;Amin Klay
+es;Llanada Arriba;Llanadas Arriba
+es;Llanada Abajo;Llanadas Abajo
+es;Naranjo Dos;Los Naranjos
+es;Playa Cunagua;Playa de Cunagua
+es;La Veintiuna;La Veintiuno
+es;La Isabelina;La Isabelita
+es;El Mamey;Mamey
+es;La Nueve de Manga Larga;La Nueve
+es;Cayo Yero;Brígido
+es;Brigido;Brígido
+es;La Ferrolana;La Ferrolana Dos
+es;El Pinto;Pinto
+es;Sergio Gonzáles;Sergio González
+es;Las Tosas;Las Tozas Nuevas
+es;Las Tosas Nuevas;Las Tozas Nuevas
+es;Alturas de Venceremos;Venceremos
+es;Pascasto;Pascasio
+es;Cabrera;La Cabrera
+es;Crucero Guayacanes;Crucero de Guayacanes
+es;26 de Julio;Veintiséis de Julio
+es;Crucero Trilladeras;Crucero de Trilladeras
+es;Crucero de Trilladera;Crucero de Trilladeras
+es;Benítez;La Curva
+es;Limpiones;Crucero de Limpiones
+es;Hoyo de la Palma Rensoli;Hoyo de la Palma
+es;Las Cuarentas;Las Cuarenta
+es;Campio;Cambio
+es;Clementina;La Clementina
+es;Sulferri;Suferry
+es;Suferri;Suferry
+es;Crucero de Baragua;Crucero de Baraguá
+es;El Ángel;El Ángel Nuevo
+es;Entrada Dos Quince;La Dos Quince
+es;Los Quince;La Dos Quince
+es;Miraflores;Miraflores Nuevo
+es;Miraflores Nueva;Miraflores Nuevo
+es;La Martina;Las Martinas
+es;Maduro Chiquito;La Pre EIDE
+es;Oliva;La Oliva
+es;Vigía Dos;Vigía
+es;Matacaballo;Mata Caballo
+es;Dos María;Dos Mareas
+es;Cubeña;Cubeñas
+es;Gua;Gúa
+es;Guasimal;Guasimal Abajo
+es;Guairajal;Guaimaral
+es;El Sitio de Jíbaro;Sitio de Jíbaro
+es;Piñona;Piñonal
+es;Garatas Arriba;Garata Arriba
+es;Camagüecito;Camagüeycito
+es;La Voz de Ceiba;La Ceiba
+es;Narcisa Uno;Narcisa
+es;Las Matildes;La Matilde
+es;El Seis;Kilómetro Seis
+es;Cupertina Afuera;Nueva Cupertina
+es;San Jose Dos;San José
+es;La Varía;La Baría
+es;El Diez;Kilómetro Diez
+es;La Veinte y Una;Kilómetro Veintiuno
+es;Caobilla;La Caobilla
+es;El Cuarenta y Ocho;El Cuarenta y Ocho Nuevo
+es;Pelona Primera;Las Pelonas Primera
+es;Cincuenta y Cinco;El Cincuenta y Cinco
+es;Los Conucos;Robotham
+es;La Rosal;El Rosal
+es;Anacaguita;La Anacahuita
+es;Corral Falso;Corral Falso Adentro
+es;La Calera;Calera Dos
+es;Santa Lideada;Santa Librada
+es;Yaraguana;Yuraguanal
+es;Alta Gracia;Altagracia
+es;El Jardín;El Jardín de Miradero
+es;Cuatillo Abajo;Cautillo Abajo
+es;Corojal;El Corojal
+es;Santa María;Santa María de las Mangas
+es;San José;San José de Cautillo
+es;El Canero;El Carnero
+es;Candelaria;La Candelaria
+es;El Ingenio;El Ingenito
+es;La Villega;La Nenita
+es;Morales;Pinar de Morales
+es;Cruces de La Plata;Cruce de la Plata
+es;El Cuatro y Cinco;El Cuatro
+es;Macanacón;Macanacú
+es;Mateo Remas;Mateo Romás
+es;San Juan Dos;San Juan Dos Abajo
+es;Punta Cana;Punta de Cana
+es;Yao del Medio;Yao Nave
+es;Maguara;Maguaro Abajo
+es;Los Lajales;Los Lajales Dos
+es;El Banco Abajo;Banco Abajo
+es;El Banco Arriba;Banco Arriba
+es;La Sierrita;La Sierrita de Naguas
+es;El Caney de las Mercedes;Liberación
+es;La Biajaca;Biajaca
+es;Arroyon;Arroyón
+es;El Veinte de las Mil Nueve;La Te
+es;Juan M. Márquez;Juan Manuel Márquez
+es;La Luz;Marea La Luz
+es;Rector;Reytor
+es;Corcovado;Corcobao
+es;Pozo Empalado;Pozo Empalao
+es;El Guaimaro;El Guáimaro
+es;Las Piedras;La Piedra
+es;Rancho Viejo;Rancho Viejo Arriba
+es;Ginco Palmas;Cinco Palmas
+es;La Majacera;La Majasera
+es;Quang-Tri;Quang Trí
+es;Belén;Manolín
+es;Vista del Principe;Vista del Príncipe
+es;La Prudencia;La Potencia
+es;Simón Bolivar;Simón Bolívar
+es;La Esperanza;La Esperanza de Senado
+es;Paso de Vilató;Pozo de Vilató
+es;Poso de Vilató;Pozo de Vilató
+es;Entronque de Lugareño;Entronque Lugareño
+es;La Sierpe Vieja;Sierpe Vieja
+es;Kilómetro Veinte y Cuatro;Kilómetro Veinticuatro
+es;Merino;Meriño
+es;Manatí Uno;El Número Uno
+es;Rincón;El Rincón
+es;San Ramón de Guanito;Guanito
+es;El Dormitorio;Dormitorio
+es;Yariguá;Yariguá Granja
+es;Cruce Santo Domingo;El Triángulo
+es;Yuraguapa;Yuraguana
+es;Velazco Veinte y Tres;Velazco Veintitrés
+es;La Gerónima;La Gerónima Dos
+es;Playa La Jibara;La Jíbara
+es;El Tropezón;Tropezón
+es;La Cruz del Cedrón;Cruz del Cedrón
+es;La Boca;La Boca Playa
+es;Montes de Oca;Asalto al Polvorín
+es;Cooperativa Javier de la Vega;Javier de la Vega
+es;El Aura;Laura
+es;Dumois Uno;Dumois
+es;Kilómetro Veinte y dos;Kilómetro Veintidós
+es;La Pua;La Púa
+es;Los Pajantos;Los Pajaritos
+es;La Escondida;La Escondida Norte
+es;Palmarito;Palmarito de Arroyo Seco
+es;Naranjón;El Naranjo
+es;Los Haytes;Los Aites
+es;Los Pinos;Los Pinos de Retrete
+es;La Caridad;La Caridad de Bariay
+es;La Vega;La Vega de Junucún
+es;La Vega;Vega de Samá
+es;Loma de Justo;Loma Don Justo
+es;El Centro Guabasibo;El Centro Guabasiabo
+es;Punta Brava;Loma Blanca La Esperanza
+es;Las Minas;Minas de Sabanilla
+es;San Miguel;San Miguel de Amasabo
+es;La Escondida;La Escondida de Purnio
+es;Las Cuevas;Las Cuevas de Purnio
+es;Algaroba;La Algarroba
+es;La Ceja;Ceja de la Palma
+es;Cruce de Guaramanao;Cruce Guaramanao
+es;Tomi Uno;Tomí Uno
+es;Tomi Dos;Tomí Dos
+es;Certeneja;Certeneja de Güirabo
+es;El Cayo;El Cayo de Mayabe
+es;Veinte y Cinco de Tomi;El Veinticinco de Tomí
+es;Dos Hermanas;Dos Hermanos
+es;La Represa;La Represa de Camazán
+es;Batey Nuevo;Mulet
+es;Caridad Dos;Caridad
+es;La Caridad;Caridad
+es;Jimmy Hirzel;La Tres
+es;Algodones Seis;Parrita
+es;El Cencerro;El Bolo-Cencerro
+es;Braulio Coroneaux;La Victoria
+es;Nolazco;Nolasco
+es;Sarah Veinte;Sara Veinte
+es;Majaguatón;Majagualón
+es;Lajas;Cruce Lajas
+es;La Caridad;Caridad de Casanova
+es;La Somania;La Somanta
+es;Las Minas;Minas de Cambute
+es;Santa Rita;El Cuatro de Oriente
+es;Nipe Dos;Kilómetro Veintisiete
+es;Carbonera;Guanina Núñez
+es;El Entronque;Entronque Ocujal
+es;La Mina;Las Minas de Pinares
+es;Mensura Dos;Mensura
+es;Hicotea;Jicotea Arriba
+es;Batea;Barea
+es;San Blas Arriba;San Blás Arriba
+es;La Güira;La Güira de Arroyo Seco
+es;Paraíso;El Paraíso Uno
+es;Caja de Limones;Ceja de Limones
+es;El Treinta y Sieta;El Treinta y Siete
+es;El Quinto;Mina El Quinto
+es;Carenerito Dos;Doncella
+es;Alto Carbón;Cabonico Obelisco
+es;Pueblo Nuevo;Cabonico Los Carboneros
+es;Río Frío;Río Frío Primero
+es;Micara;Mícara
+es;Paso la Vaca;Paso de la Vaca
+es;San Pedr;San Pedro
+es;Cayo Grande;Cayo Grande de Farallones
+es;Las Güiras;Los Güiros
+es;La Alcarraza;Alcarraza
+es;Cintra;Cintra de Margot
+es;Los Maïzales;Los Maizales
+es;Boca de Micara;Boca de Mícara
+es;El Lechero;Lechero Abajo
+es;San Luis de Potos;San Luis de Potosí
+es;Limones Diez y Seis;Limones Dieciséis
+es;La Felita;La Felita de Trujillo
+es;Colunga;Calunga
+es;Yaguas;Yaguasí Arriba
+es;Latali;La Talí
+es;Bolanos;Cruz de Bolaño
+es;Carpintero;El Carpintero
+es;El Castillo;Castillo
+es;Boca de Dos Ríos;Boca Dos Ríos
+es;El Madrigón;El Madrugón
+es;El Papavo;El Papayo
+es;El Baga;El Bagá
+es;Limones;Limones de Maisí
+es;El Guarano;El Guárano
+es;Guagüí;El Guagüi
+es;La Calzada;La Calzada de Capiro
+es;Los Hoyos;Los Hoyos de Sabanilla
+es;Ceiba;Saibá
+es;Marón;Marrón
+es;La Riconta;La Rencontra
+es;Yumurí;Yumuri de Picoteo
+es;Jaraguá;Jaragua
+es;Recreo;El Recreo
+es;El Posango;El Pozanco
+es;La Mesa;El Plan Fijo
+es;Riíto;Riito
+es;Calentura del Medio;Calentura
+es;Santa Barbara;Santa Bárbara
+es;Roberto Negrin;Roberto Negrín
+es;Ben Tre;Bentre
+es;Genética del Oeste;Genético del Oeste
+es;Mártires de Camanayagua;Mártires de Cumanayagua
+es;Venta del Río;Venta de Río
+es;Tabloncito;El Tabloncito
+es;Las Marías;Los Cocos
+es;Baños Portada;Baños Portadas
+es;Las Fuentes;Los Fuentes
+es;El Mamey Cientoveinte;El Mamey Ciento Veinte
+es;Cafetal;Islote Cafetal
+es;Cafetal;Cafetal Uno
+es;Cerrito;El Cerrito
+es;Plan Horticola;Plan Hortícola
+es;Galleria;La Gallería
+es;Llegaypon de Mata;Llega y Pon de Mata
+es;Martires del Moncada;Mártires del Moncada
+es;Cuatro Caminos Nuevos;Cuatro Caminos Nuevo
+es;La Diesinueve;La Diecinueve
+es;Manuel Ascunse;Manuel Ascunce
+es;Entronque Güasimal;Entronque de Guasimal
+es;El Colorao;El Colorado
+es;Comunidad Noel Sancho;Noel Sancho
+es;José Antonio Echevería;José Antonio Echeverría
+es;José Antonio Echevarría;José Antonio Echeverría
+es;Los Paraguitas;Los Paragüitas
+es;Pica Pica;La Pica Pica
+es;El Gurugú;Gurugú
+es;José Luis Tasende;José Luis Tassende
+es;Poblado Holandés;El Holandés
+es;El Mexicano;Mexicano
+es;Cubanita;La Cubanita
+es;Las Vilas;Vila
+es;Crucero Linares;Crucero de Linares
+es;Presa Escuela Secundaria Básica en el Campo;Presa ESBEC
+es;Crucero de Barquero;Crucero Barquero
+es;Abel Santa María Nuevo;Abel Santamaría Pueblo Nuevo
+es;Abel Santa María Viejo;Abel Santamaría Pueblo Viejo
+es;Cuatro Esquina de Neiva;Cuatro Esquinas de Neiva
+es;La Alameda;Alameda
+es;Yaguey Abajo;Yagüey Abajo
+es;Caragüi;Caragüí
+es;Piedras Prietas;Piedra Prieta
+es;La Gasolinera Sandino;La Gasolinera
+es;Elcires Pérez;Elcire Pérez
+es;CPA Augusto César Sandino;Augusto César Sandino
+es;Diesisiete de Mayo;Diecisiete de Mayo
+es;Las Tosas Viejas;Las Tozas Viejas
+es;Veracruz Grasso;Veracruz de Graso
+es;Santa Rosa;Desembarco del Granma
+es;Pensacola;Penzacola
+es;Brigada Sesentiocho;Brigada Sesenta y Ocho
+es;Castillo y Ceibón;Ceibón y Castillo
+es;El Ateje;Ateje
+es;La Dominica;Dominica
+es;La Timbita;La Tumbita
+es;Cumberland;Cumberlán
+es;Cumberlan;Cumberlán
+es;Antiguo Tejar;El Tejar
+es;Los Mangos;Los Mangos de Atanagildo
+es;Caolín;El Caolín
+es;Entronque Pablo de La Torriente Brau;Entronque de Orozco
+es;Villa María;María Minas
+es;La Javita;La Jabita
+es;Isidro de Alma;Isidro de Armas
+es;La Incubadora;Incubadora
+es;El Ingenito;Ingenito
+es;Rincón;Finca el Rincón
+es;El Rincón;Finca el Rincón
+es;Finca Rincón;Finca el Rincón
+en;La Levisa;La Lebiza
+es;América;La América
+es;San Miguel;San Miguel de Guajabales
+en;Guantanamo Bay;Naval Station Guantanamo Bay
+es;Magueyes;Maguelles
+es;Arroyo Seco de Pinares;Arroyo Seco
+es;El Diecisiete de las 1009;El Diecisiete de las Mil Nueve
+es;CP-Quince;Consejo Popular Quince

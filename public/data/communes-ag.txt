@@ -1,0 +1,177 @@
+0;-61.8750,17.0790;AG-05;Saint Mary Parish;Yorks
+0;-61.8259,17.1353;AG-04;Saint John Parish;Woods
+0;-61.7199,17.0405;AG-08;Saint Philip Parish;Willoughby
+0;-61.7790,17.0495;AG-06;Saint Paul Parish;Willis Freemans
+1270;-61.7093,17.0868;AG-08;Saint Philip Parish;Willikies
+0;-61.8353,17.1651;AG-04;Saint John Parish;Weatherills
+0;-61.6779,17.0545;AG-08;Saint Philip Parish;Watsons
+564;-61.7713,17.0919;AG-07;Saint Peter Parish;Vernons
+738;-61.8762,17.0269;AG-05;Saint Mary Parish;Urlings
+396;-61.7952,17.0483;AG-06;Saint Paul Parish;Tyrells
+0;-61.8373,17.0255;AG-05;Saint Mary Parish;Tramontania
+808;-61.8081,17.1133;AG-04;Saint John Parish;Tomlinson
+0;-61.8000,17.1000;AG-03;Saint George Parish;The Grove
+0;-61.7434,17.0711;AG-07;Saint Peter Parish;The Garden
+57;-61.7605,17.0776;AG-07;Saint Peter Parish;The Diamond
+0;-61.7878,17.6858;AG-01;Barbuda;The Caves
+0;-61.6806,17.0597;AG-08;Saint Philip Parish;The Brook
+191;-61.7799,17.0433;AG-06;Saint Paul Parish;Table Hill Gordon
+1837;-61.8009,17.0504;AG-06;Saint Paul Parish;Swetes
+0;-61.8295,17.1227;AG-04;Saint John Parish;Sutherlands Development
+0;-61.8801,17.1124;AG-04;Saint John Parish;Sutherland
+0;-61.7039,17.0939;AG-08;Saint Philip Parish;Spencers
+0;-61.7118,17.0910;AG-08;Saint Philip Parish;Sign
+792;-61.8028,17.0881;AG-03;Saint George Parish;Sea View Farm
+457;-61.7255,17.0943;AG-08;Saint Philip Parish;Seatons
+0;-61.8643,17.0938;AG-05;Saint Mary Parish;Seaforths
+0;-61.8201,17.0504;AG-05;Saint Mary Parish;Sawcolts
+0;-61.7387,17.0208;AG-06;Saint Paul Parish;Savannah
+0;-61.7699,17.0753;AG-07;Saint Peter Parish;Sandersons
+0;-61.7237,17.0463;AG-08;Saint Philip Parish;Saint Philips
+0;-61.8344,17.0788;AG-04;Saint John Parish;Saint Lukes
+515;-61.8270,17.1186;AG-04;Saint John Parish;Saint Johnston Village
+51737;-61.8433,17.1210;AG-04;Saint John Parish;Saint John’s
+0;-61.6975,17.0997;AG-08;Saint Philip Parish;Rooms
+370;-61.8107,17.0902;AG-04;Saint John Parish;Renfrew
+0;-61.7416,17.0311;AG-06;Saint Paul Parish;Red Hill
+1433;-61.8196,17.1134;AG-04;Saint John Parish;Potters Village
+1878;-61.8000,17.1167;AG-03;Saint George Parish;Piggotts
+0;-61.7531,17.0315;AG-06;Saint Paul Parish;Piccadilly
+326;-61.8068,17.1179;AG-03;Saint George Parish;Paynters
+417;-61.7833,17.0333;AG-06;Saint Paul Parish;Pattersons Dwelling House
+0;-61.7885,17.0241;AG-06;Saint Paul Parish;Pattersons
+0;-61.7648,17.0739;AG-07;Saint Peter Parish;Parrys
+969;-61.7705,17.0968;AG-07;Saint Peter Parish;Parham
+575;-61.7544,17.0849;AG-07;Saint Peter Parish;Pares
+0;-61.8416,17.1495;AG-04;Saint John Parish;Paradise View
+35;-61.8044,17.1259;AG-03;Saint George Parish;Osbourn
+0;-61.8667,17.0333;AG-05;Saint Mary Parish;Orange Valley Mill
+0;-61.8155,17.0771;AG-04;Saint John Parish;Olivers
+623;-61.8358,17.0168;AG-05;Saint Mary Parish;Old Road
+0;-61.7837,17.0956;AG-03;Saint George Parish;North Sound
+1266;-61.8134,17.1457;AG-03;Saint George Parish;New Winthorpes
+255;-61.7254,17.0569;AG-08;Saint Philip Parish;Newfield
+0;-61.8771,17.0893;AG-05;Saint Mary Parish;New Division
+0;-61.7906,17.0389;AG-06;Saint Paul Parish;Mount William
+0;-61.7589,17.0496;AG-06;Saint Paul Parish;Morris Loobys
+0;-61.7191,17.0509;AG-08;Saint Philip Parish;Montpelier
+0;-61.6833,17.0333;AG-08;Saint Philip Parish;Mill Reef Club
+0;-61.7369,17.0938;AG-07;Saint Peter Parish;Mercers Creek
+0;-61.7137,17.0868;AG-08;Saint Philip Parish;Mayers
+0;-61.7949,17.0582;AG-06;Saint Paul Parish;Matthews
+0;-61.6938,17.0378;AG-08;Saint Philip Parish;Mannings
+0;-61.7300,17.0575;AG-08;Saint Philip Parish;Lyons
+0;-61.7362,17.0441;AG-08;Saint Philip Parish;Lower Lyons
+0;-61.7420,17.0673;AG-08;Saint Philip Parish;Long Lane
+0;-61.7476,17.0693;AG-07;Saint Peter Parish;Little Duers
+0;-61.8027,17.1009;AG-03;Saint George Parish;Lightfoots
+2560;-61.7905,17.0414;AG-06;Saint Paul Parish;Liberta
+0;-61.7388,17.0609;AG-08;Saint Philip Parish;Lavingtons
+204;-61.8888,17.0298;AG-05;Saint Mary Parish;Johnsons Point
+0;-61.8222,17.0433;AG-05;Saint Mary Parish;John Hughes
+609;-61.8658,17.0778;AG-08;Saint Philip Parish;Jennings
+741;-61.8140,17.0940;AG-04;Saint John Parish;Herberts
+0;-61.8667,17.0333;AG-05;Saint Mary Parish;Harveys
+0;-61.8333,17.0500;AG-04;Saint John Parish;Hamiltons
+0;-61.7999,17.1097;AG-03;Saint George Parish;Gunthorpes
+542;-61.8474,17.1058;AG-04;Saint John Parish;Grays Hill
+0;-61.7072,17.0785;AG-08;Saint Philip Parish;Grays
+0;-61.7167,17.0833;AG-08;Saint Philip Parish;Grants
+0;-61.8469,17.0890;AG-04;Saint John Parish;Golden Grove
+0;-61.7252,17.0858;AG-08;Saint Philip Parish;Glanvilles
+0;-61.7390,17.0891;AG-07;Saint Peter Parish;Gilberts
+0;-61.7186,17.0674;AG-08;Saint Philip Parish;Gaynors
+623;-61.7033,17.0479;AG-08;Saint Philip Parish;Freetown
+860;-61.7857,17.0792;AG-07;Saint Peter Parish;Freemans
+0;-61.8839,17.1194;AG-04;Saint John Parish;Five Islands Village
+0;-61.7949,17.1242;AG-03;Saint George Parish;Fitches Creek
+131;-61.7314,17.0551;AG-08;Saint Philip Parish;St. Philip's
+619;-61.7814,17.0274;AG-06;Saint Paul Parish;Falmouth
+778;-61.7674,17.0164;AG-06;Saint Paul Parish;English Harbour Town
+0;-61.8373,17.0722;AG-04;Saint John Parish;Emanuel
+0;-61.8590,17.0829;AG-05;Saint Mary Parish;Ebenezer
+0;-61.8544,17.0715;AG-05;Saint Mary Parish;Dunnings
+0;-61.8270,17.5937;AG-01;Barbuda;Dulcina
+0;-61.7518,17.0605;AG-06;Saint Paul Parish;Delaps
+0;-61.8896,17.0405;AG-05;Saint Mary Parish;Dark Wood
+788;-61.8237,17.1657;AG-04;Saint John Parish;Crosbies
+0;-61.8565,17.0790;AG-04;Saint John Parish;Creekside
+142;-61.8911,17.0344;AG-05;Saint Mary Parish;Crab Hill
+0;-61.7141,17.0813;AG-08;Saint Philip Parish;Comfort Hall
+0;-61.7332,17.0761;AG-08;Saint Philip Parish;Collins
+1325;-61.8244,17.6394;AG-01;Barbuda;Codrington
+0;-61.7346,17.1101;AG-07;Saint Peter Parish;Coconut Hall
+0;-61.7669,17.0833;AG-07;Saint Peter Parish;Cochranes
+0;-61.7660,17.0240;AG-06;Saint Paul Parish;Cobbs Cross
+0;-61.8359,17.0253;AG-05;Saint Mary Parish;Claremont
+0;-61.8167,17.1167;AG-04;Saint John Parish;Clare Hall
+0;-61.7514,17.0353;AG-06;Saint Paul Parish;Christian Hill
+0;-61.8000,17.1333;AG-04;Saint John Parish;Cedar Valley Mill
+0;-61.8576,17.0773;AG-05;Saint Mary Parish;Cedar Hall
+789;-61.8178,17.1623;AG-04;Saint John Parish;Cedar Grove
+0;-61.8115,17.1282;AG-04;Saint John Parish;Cassada Gardens
+831;-61.8036,17.1323;AG-03;Saint George Parish;Carlisle
+0;-61.8645,17.0258;AG-05;Saint Mary Parish;Cades Bay
+0;-61.7840,17.0601;AG-06;Saint Paul Parish;Burkes
+801;-61.8134,17.0722;AG-04;Saint John Parish;Buckleys
+0;-61.8361,17.1037;AG-04;Saint John Parish;Branns Hamlet
+0;-61.8333,17.1667;AG-04;Saint John Parish;Boon House
+1657;-61.8747,17.0657;AG-05;Saint Mary Parish;Bolands
+0;-61.8642,17.0665;AG-05;Saint Mary Parish;Blubber Valley
+0;-61.8156,17.0452;AG-05;Saint Mary Parish;Bishops
+0;-61.7633,17.0708;AG-07;Saint Peter Parish;Big Duers
+0;-61.7448,17.0812;AG-07;Saint Peter Parish;Betty’s Hope
+499;-61.7508,17.0433;AG-06;Saint Paul Parish;Bethesda
+973;-61.8360,17.0681;AG-04;Saint John Parish;Bendals
+0;-61.8261,17.0996;AG-04;Saint John Parish;Belmont
+0;-61.8230,17.0922;AG-04;Saint John Parish;Bellevue Heights
+0;-61.7500,17.0167;AG-06;Saint Paul Parish;Bats Cave
+537;-61.8079,17.1423;AG-03;Saint George Parish;Barnes Hill
+2526;-61.7930,17.0667;AG-07;Saint Peter Parish;All Saints
+0;-61.8098,17.0699;AG-04;Saint John Parish;Aberdeen
+0;-62.0676,16.9960;AG-05;Saint Mary Parish;Guadeloupe
+855;-61.8865,17.0662;AG-05;Saint Mary Parish;Jolly Harbour
+0;-61.7927,17.0802;AG-07;Saint Peter Parish;Freemans Village
+0;-61.8362,17.1686;AG-04;Saint John Parish;Soldier
+0;-61.8625,17.1182;AG-04;Saint John Parish;Side Hill
+0;-61.8743,17.0573;AG-05;Saint Mary Parish;Roses
+0;-61.8727,17.0616;AG-05;Saint Mary Parish;Tottenham Park
+0;-61.8758,17.0488;AG-05;Saint Mary Parish;Willocks
+0;-61.8341,17.1463;AG-04;Saint John Parish;Friars Hill
+0;-61.8274,17.1691;AG-04;Saint John Parish;Black Rock
+0;-61.8106,17.1633;AG-04;Saint John Parish;Royals
+0;-61.7909,17.1164;AG-03;Saint George Parish;Weirs
+0;-61.7698,17.1024;AG-07;Saint Peter Parish;Twenty Hill
+0;-61.7652,17.0987;AG-07;Saint Peter Parish;Parham Hill
+0;-61.7727,17.0874;AG-07;Saint Peter Parish;Mount Joy
+0;-61.7375,17.0809;AG-08;Saint Philip Parish;Elliots
+0;-61.7657,17.0495;AG-06;Saint Paul Parish;Bodkins
+0;-61.8015,17.0394;AG-06;Saint Paul Parish;Richmond
+0;-61.7856,17.0382;AG-06;Saint Paul Parish;Green Hill
+0;-61.7813,17.0419;AG-06;Saint Paul Parish;Brooks
+0;-61.7719,17.0312;AG-06;Saint Paul Parish;Guinea Bush
+0;-61.7658,17.0104;AG-06;Saint Paul Parish;The Ordnance Land
+0;-61.6981,17.0678;AG-08;Saint Philip Parish;Browns
+0;-61.8088,17.0511;AG-06;Saint Paul Parish;Follys
+0;-61.8170,17.0729;AG-04;Saint John Parish;Martin Hill
+0;-61.8387,17.0677;AG-04;Saint John Parish;Belvedere
+0;-61.8130,17.1037;AG-04;Saint John Parish;Potters Buff
+0;-61.8723,17.1249;AG-04;Saint John Parish;Yepton
+0;-61.7909,17.0741;AG-07;Saint Peter Parish;Jonas
+0;-61.7937,17.0800;AG-03;Saint George Parish;Bellevue
+0;-61.7807,17.1051;AG-07;Saint Peter Parish;Cedar Hill
+0;-61.7572,17.1242;AG-07;Saint Peter Parish;Crabs Peninsula
+0;-61.8530,17.1165;AG-04;Saint John Parish;Hattons
+0;-61.8875,17.0421;AG-05;Saint Mary Parish;Picarts
+0;-61.8580,17.0916;AG-05;Saint Mary Parish;Halls
+0;-61.8169,17.6426;AG-01;Barbuda;James Corner
+0;-61.7623,17.0072;AG-06;Saint Paul Parish;Saint Helena
+898;-61.8232,17.0847;AG-04;Saint John Parish;Saint Clare
+1051;-61.8175,17.0884;AG-04;Saint John Parish;Sugar Factory
+1151;-61.8633,17.1093;AG-04;Saint John Parish;Jacks Hill
+8128;-61.7693,17.0234;AG-06;Saint Paul Parish;St. Paul Parish
+1634;-61.7765,17.6240;AG-01;Barbuda;Barbuda Parish
+8055;-61.7956,17.1169;AG-03;Saint George Parish;St. George Parish
+5325;-61.7122,17.0849;AG-08;Saint Philip Parish;St. Peter Parish
+7341;-61.8744,17.0722;AG-05;Saint Mary Parish;St. Mary Parish
+3347;-61.7272,17.0543;AG-08;Saint Philip Parish;St. Philip Parish

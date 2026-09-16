@@ -1,0 +1,74 @@
+ru;Тринити;Trinity
+ar;ترينيتي;Trinity
+hi;ट्रिनिटी;Trinity
+ja;トリニティ;Trinity
+ru;Сэнди-Пойнт-Таун;Sandy Point Town
+ar;مدينة ساندي بوينت;Sandy Point Town
+hi;सैंडी पॉइंट टाउन;Sandy Point Town
+ja;サンディポイントタウン;Sandy Point Town
+fr;Saint Paul's;Saint Paul’s
+en;Saint Paul's;Saint Paul’s
+ru;Сент-Полс;Saint Paul’s
+ar;سانت بول;Saint Paul’s
+es;Saint Paul's;Saint Paul’s
+hi;सेंट पॉल्स;Saint Paul’s
+de;Saint Paul's;Saint Paul’s
+ja;セントポールズ;Saint Paul’s
+pt;Saint Paul's;Saint Paul’s
+ar;أولد رود تاون;Old Road Town
+ja;オールドロード・タウン;Old Road Town
+zh;舊羅德鎮;Old Road Town
+ru;Олд Роуд Таун;Old Road Town
+fr;Nichola Town;Nicola Town
+ru;Никола-Таун;Nicola Town
+ar;مدينة نيكولا;Nicola Town
+hi;निकोला टाउन;Nicola Town
+ja;ニコラタウン;Nicola Town
+ru;Ньюкасл;Newcastle
+ar;نيوكاسل;Newcastle
+hi;न्यूकैसल;Newcastle
+ja;ニューカッスル;Newcastle
+ru;Манки-Хилл;Monkey Hill
+ar;تل القرود;Monkey Hill
+hi;मंकी हिल;Monkey Hill
+ja;モンキーヒル;Monkey Hill
+ru;Миддл-Айленд;Middle Island
+ar;جزيرة وسطى;Middle Island
+hi;मिडल आइलैंड;Middle Island
+ja;ミドルアイランド;Middle Island
+ru;Маркет-Шоп;Market Shop
+ar;متجر السوق;Market Shop
+hi;मार्केट शॉप;Market Shop
+ja;マーケットショップ;Market Shop
+fr;Figtree;Fig Tree
+ru;Фиг-Три;Fig Tree
+ar;شجرة التين;Fig Tree
+hi;अंजीर का पेड़;Fig Tree
+ja;イチジクの木;Fig Tree
+ru;Дьепп-Бэй-Таун;Dieppe Bay Town
+ar;مدينة خليج ديب;Dieppe Bay Town
+hi;डिएप बे टाउन;Dieppe Bay Town
+ja;ディエップベイタウン;Dieppe Bay Town
+ru;Коттон-Граунд;Cotton Ground
+ar;أرضية القطن;Cotton Ground
+hi;कॉटन ग्राउंड;Cotton Ground
+ja;コットングラウンド;Cotton Ground
+ru;Чарльзтаун;Charlestown
+ar;تشارلستون;Charlestown
+hi;चार्लेस्टाउन;Charlestown
+ja;チャールズタウン;Charlestown
+ja;チャレンジャーズ;Challengers
+zh;查伦杰斯;Challengers
+ru;Кайон;Cayon
+ar;كايون;Cayon
+hi;कायोन;Cayon
+ja;カイヨン;Cayon
+hi;ईंट का भट्ठा;Brick Kiln
+ja;ブリック・キルン;Brick Kiln
+zh;布里克基伦;Brick Kiln
+ja;バセテール;Basseterre
+ru;Бастер;Basseterre
+ar;باستير;Basseterre
+ht;Bastè;Basseterre
+ko;바스테르;Basseterre
+zh;巴斯特尔;Basseterre

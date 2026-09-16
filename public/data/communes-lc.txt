@@ -1,0 +1,302 @@
+0;-60.9954,14.0186;LC-03;Castries;Vigie
+0;-60.9305,13.7867;LC-08;Micoud;Vige
+0;-60.9461,14.0495;LC-06;Gros-Islet;Vieux Sucreic
+4574;-60.9500,13.7167;LC-10;Vieux-Fort;Vieux Fort
+0;-60.9945,13.9435;LC-03;Castries;Vanard
+0;-61.0561,13.8112;LC-09;Soufrière;Union Vale
+0;-60.9667,14.0333;LC-06;Gros-Islet;Union
+0;-60.9167,13.8167;LC-08;Micoud;Troumasse
+0;-60.9723,13.9886;LC-03;Castries;Trois Piton
+0;-61.0478,13.9259;LC-12;Canaries;Theodorine
+2918;-61.0566,13.8562;LC-09;Soufrière;Soufrière
+0;-60.9992,13.9775;LC-03;Castries;Soucis
+0;-60.9298,13.7691;LC-08;Micoud;Savannes Estate
+0;-60.9396,13.7741;LC-10;Vieux-Fort;Savannes
+0;-60.9869,13.9439;LC-03;Castries;Sarot
+0;-61.0066,13.7525;LC-07;Laborie;Sapphire
+0;-61.0110,13.8095;LC-07;Laborie;Saltibus
+0;-60.9439,13.7608;LC-10;Vieux-Fort;Saint Urbain
+0;-61.0299,13.8398;LC-09;Soufrière;Saint Phillip
+0;-61.0496,13.8589;LC-09;Soufrière;Ruby
+0;-60.9184,13.7748;LC-08;Micoud;Rouarné
+0;-61.0228,13.8022;LC-04;Choiseul;Roblot
+0;-61.0365,13.7637;LC-04;Choiseul;River Dorée
+0;-60.9203,13.9362;LC-05;Dennery;Riche Fond
+0;-60.9410,13.9998;LC-03;Castries;Resinard
+0;-60.9549,14.0687;LC-06;Gros-Islet;Réduit
+1906;-60.8972,13.8755;LC-08;Micoud;Praslin
+0;-60.9807,13.7594;LC-10;Vieux-Fort;Pomme
+0;-60.9500,13.7500;LC-10;Vieux-Fort;Pointe Sable
+0;-60.9156,13.8093;LC-08;Micoud;Planard
+0;-61.0207,13.7538;LC-07;Laborie;Piaye
+0;-61.0118,13.9507;LC-03;Castries;Perou
+0;-60.9095,13.8511;LC-08;Micoud;Patience
+0;-61.0527,13.8646;LC-09;Soufrière;Palmiste
+0;-60.9000,13.8833;LC-08;Micoud;Old Settlement
+0;-60.9474,13.7133;LC-10;Vieux-Fort;Moule à Chique
+0;-61.0236,13.8133;LC-04;Choiseul;Motête
+0;-61.0564,13.7871;LC-04;Choiseul;Morne Sion
+0;-60.9577,14.0313;LC-06;Gros-Islet;Morne Serpent
+0;-61.0028,13.7690;LC-07;Laborie;Morne Paul
+0;-60.9337,13.9290;LC-05;Dennery;Morne Panache
+1176;-60.9724,14.0099;LC-03;Castries;Morne Doudon
+0;-61.0066,13.9502;LC-03;Castries;Morne d’Or
+0;-60.9470,13.7743;LC-10;Vieux-Fort;Morne Caillandre
+1212;-60.9023,13.8598;LC-08;Micoud;Mon Repos
+0;-60.9377,14.0234;LC-06;Gros-Islet;Monier
+0;-61.0443,13.8023;LC-04;Choiseul;Mongouge
+0;-60.9594,14.0620;LC-06;Gros-Islet;Mongiraud
+0;-61.0167,13.8000;LC-04;Choiseul;Mondesir
+1011;-60.9299,14.0532;LC-06;Gros-Islet;Monchy
+0;-60.9949,13.9029;LC-01;Anse-la-Raye;Millet
+0;-61.0202,13.8368;LC-09;Soufrière;Migny
+3406;-60.9000,13.8167;LC-08;Micoud;Micoud
+0;-61.0369,13.9501;LC-01;Anse-la-Raye;Massacré
+0;-60.9110,14.0259;LC-06;Gros-Islet;Marquis
+0;-60.9688,14.0455;LC-06;Gros-Islet;Marisule Estate
+0;-61.0260,13.9638;LC-03;Castries;Marigot Bay
+0;-61.0137,13.9673;LC-03;Castries;Marigot
+0;-60.9590,13.9513;LC-03;Castries;Marc Marc
+0;-61.0694,13.8642;LC-09;Soufrière;Mamin
+0;-61.0483,13.8729;LC-09;Soufrière;Mal Mason
+0;-61.0609,13.8413;LC-09;Soufrière;Malgrétoute
+0;-60.9595,13.8435;LC-08;Micoud;Mahaut
+0;-61.0727,13.8802;LC-09;Soufrière;Mahaut
+0;-60.8961,13.9404;LC-05;Dennery;Lumière
+0;-60.9140,13.8484;LC-08;Micoud;L’Orangerie
+0;-61.0069,13.7801;LC-07;Laborie;Londonderry
+0;-61.0669,13.8006;LC-09;Soufrière;L’Ivrogne
+0;-60.9167,14.0167;LC-06;Gros-Islet;L’Hermitage
+0;-60.9571,13.7372;LC-10;Vieux-Fort;La Tourney
+0;-60.9668,13.7568;LC-10;Vieux-Fort;La Retraite
+0;-60.9162,13.9467;LC-05;Dennery;La Ressource
+1521;-60.9577,13.7446;LC-10;Vieux-Fort;La Resource
+1274;-60.9024,13.8460;LC-08;Micoud;La Pointe
+0;-61.0656,13.7946;LC-04;Choiseul;La Pointe
+0;-61.0333,13.9833;LC-03;Castries;La Point
+0;-61.0504,13.8560;LC-09;Soufrière;La Pearle
+0;-60.9980,13.7905;LC-07;Laborie;La Haut
+0;-60.9382,14.0513;LC-06;Gros-Islet;La Feuillet
+0;-61.0396,13.7733;LC-04;Choiseul;La Fargue
+0;-61.0030,13.9658;LC-03;Castries;La Croix Maingot
+0;-60.9265,14.0479;LC-06;Gros-Islet;La Borne
+6701;-60.9833,13.7500;LC-07;Laborie;Laborie
+1355;-60.9719,13.9271;LC-03;Castries;L’Abbayée
+0;-61.0142,13.9479;LC-03;Castries;Jean Baptiste
+0;-61.0599,13.8283;LC-09;Soufrière;Jalousie
+0;-60.9959,13.9879;LC-03;Castries;Incommode
+0;-60.9882,13.7565;LC-07;Laborie;H’Erelle
+0;-60.9167,13.7833;LC-08;Micoud;Hellene
+0;-60.9632,13.9909;LC-03;Castries;Guesneau
+25210;-60.9500,14.0667;LC-06;Gros-Islet;Gros Islet
+0;-60.9339,13.9326;LC-05;Dennery;Grande Rivière
+0;-60.9262,13.9417;LC-05;Dennery;Grande Ravine
+0;-60.8994,14.0009;LC-06;Gros-Islet;Grand Anse
+0;-60.9686,13.7816;LC-10;Vieux-Fort;Grace
+0;-60.9570,13.9779;LC-03;Castries;Girard
+0;-60.9898,13.7693;LC-07;Laborie;Gentil
+0;-60.9315,14.0068;LC-06;Gros-Islet;Garrand
+1003;-60.9625,13.9595;LC-03;Castries;Forestière
+0;-61.0167,13.8333;LC-09;Soufrière;Fond Saint Jacques
+0;-60.9167,13.8500;LC-08;Micoud;Fond Devaux
+0;-60.9350,13.9955;LC-03;Castries;Fond Assor
+0;-60.9620,13.9599;LC-03;Castries;Floissac
+0;-61.0534,13.7946;LC-04;Choiseul;Fiette
+0;-60.9933,13.9645;LC-03;Castries;Ferrand
+0;-60.9319,13.7584;LC-10;Vieux-Fort;Eau Piquant
+0;-60.9935,13.9263;LC-01;Anse-la-Raye;Durandeau
+0;-61.0291,13.8044;LC-04;Choiseul;Dugard
+0;-60.9129,13.8118;LC-08;Micoud;Dugard
+0;-61.0468,13.8513;LC-09;Soufrière;Diamond
+0;-60.9351,13.7982;LC-08;Micoud;Desruisseaux
+0;-60.9112,13.9491;LC-05;Dennery;Despinoze
+0;-61.0500,13.7667;LC-04;Choiseul;Descatieres
+0;-60.9090,13.9934;LC-06;Gros-Islet;Desbarra
+0;-60.9609,13.7430;LC-10;Vieux-Fort;Derrière Morne
+0;-61.0157,13.9429;LC-01;Anse-la-Raye;Derrière Lagoon
+0;-60.9243,13.9538;LC-05;Dennery;Dernière Rivière
+12589;-60.8913,13.9141;LC-05;Dennery;Dennery
+0;-60.9515,13.7965;LC-08;Micoud;De Mailly
+0;-61.0612,13.7965;LC-04;Choiseul;Delcer
+0;-60.9751,13.9614;LC-03;Castries;Deglos
+0;-61.0286,13.7882;LC-04;Choiseul;Debreuil
+0;-60.9053,14.0391;LC-06;Gros-Islet;Dauphin
+0;-60.9167,13.8333;LC-08;Micoud;D’Aubaigon
+0;-60.9918,13.9221;LC-01;Anse-la-Raye;Dame de Traversay
+0;-60.9693,13.9590;LC-03;Castries;Crown Lands
+1576;-60.9607,14.0453;LC-06;Gros-Islet;Corinthe
+0;-61.0547,13.8664;LC-09;Soufrière;Colombette
+2471;-61.0081,13.9901;LC-03;Castries;Ciceron
+6098;-61.0493,13.7727;LC-04;Choiseul;Choiseul
+36;-60.9694,14.0315;LC-06;Gros-Islet;Choc
+0;-61.0516,13.8168;LC-09;Soufrière;Château Belair
+0;-60.9264,13.9924;LC-03;Castries;Chassin
+20000;-61.0061,13.9957;LC-03;Castries;Castries
+0;-60.9641,13.7815;LC-10;Vieux-Fort;Carrière
+677;-60.9435,14.0996;LC-06;Gros-Islet;Cap Estate
+1105;-60.9753,13.7526;LC-10;Vieux-Fort;Cantonement
+1862;-61.0646,13.9022;LC-01;Anse-la-Raye;Canaries
+0;-61.0355,13.7859;LC-04;Choiseul;Cafeière
+1169;-60.9478,14.0040;LC-03;Castries;Cabiche
+0;-61.0727,13.8725;LC-09;Soufrière;Bouton
+0;-60.9142,13.9326;LC-05;Dennery;Bosquet d’Or
+0;-61.0296,13.7653;LC-07;Laborie;Bongalo
+0;-60.9695,14.0485;LC-06;Gros-Islet;Bon Air
+0;-60.8981,13.9179;LC-05;Dennery;Bois Joli
+0;-60.9665,14.0538;LC-06;Gros-Islet;Bois d’Orange
+0;-60.9463,13.8061;LC-08;Micoud;Blanchard
+0;-60.9768,13.7454;LC-10;Vieux-Fort;Black Bay
+12980;-60.9744,14.0243;LC-03;Castries;Bisee
+1049;-60.9778,13.9526;LC-03;Castries;Bexon
+0;-60.9947,13.9703;LC-03;Castries;Berre Denis
+0;-61.0499,13.8798;LC-09;Soufrière;Belvedere
+0;-60.9267,13.9497;LC-05;Dennery;Belmont
+0;-61.0364,13.8073;LC-09;Soufrière;Belle Vue
+0;-60.9567,13.7913;LC-10;Vieux-Fort;Belle Vue
+0;-61.0274,13.8183;LC-09;Soufrière;Belle Plaine
+0;-60.9789,13.9471;LC-03;Castries;Belair
+0;-61.0647,13.8187;LC-09;Soufrière;Beauséjour
+0;-60.9667,13.7500;LC-10;Vieux-Fort;Beauséjour
+0;-60.9949,13.7837;LC-07;Laborie;Banse
+0;-61.0273,13.7569;LC-07;Laborie;Balembouche
+0;-61.0226,13.7712;LC-07;Laborie;Balca
+1812;-60.9560,14.0140;LC-03;Castries;Balata
+0;-60.9432,14.0037;LC-03;Castries;Babonneau
+451;-61.0413,13.9461;LC-01;Anse-la-Raye;Au Tabor
+1850;-60.9789,13.7632;LC-10;Vieux-Fort;Augier
+0;-60.9833,13.7333;LC-07;Laborie;Anse Noir
+0;-61.0562,13.9114;LC-12;Canaries;Anse La Verdure
+1256;-61.0388,13.9462;LC-01;Anse-la-Raye;Anse La Raye
+1471;-60.9164,13.7978;LC-08;Micoud;Anse Ger
+0;-60.8967,13.9056;LC-05;Dennery;Anse Canot
+0;-61.0025,13.7729;LC-07;Laborie;Annus
+0;-60.9167,13.7833;LC-08;Micoud;Angere
+0;-60.9297,13.8302;LC-08;Micoud;Anbre
+0;-60.9742,13.9040;LC-05;Dennery;Santa Lucia di Roverbella
+0;-61.0171,13.9506;LC-01;Anse-la-Raye;Jacmel
+0;-61.0364,13.8552;LC-09;Soufrière;Cresslands
+0;-60.9364,14.0833;LC-06;Gros-Islet;Cas en Bas
+1420;-60.9720,13.9889;LC-03;Castries;Bocage
+0;-60.9679,14.0428;LC-06;Gros-Islet;Upper Bonne Terre
+0;-61.0128,13.9428;LC-01;Anse-la-Raye;Bois d'Inde
+0;-61.0244,13.9537;LC-01;Anse-la-Raye;Roseau
+0;-60.9473,14.0686;LC-06;Gros-Islet;Rodney Bay
+0;-60.9447,14.0798;LC-06;Gros-Islet;Massade Estate
+1685;-60.9442,14.0754;LC-06;Gros-Islet;Beauséjour
+0;-60.9435,14.0695;LC-06;Gros-Islet;Bonne Terre
+0;-60.9479,14.0608;LC-06;Gros-Islet;Moulin à Vent
+0;-60.9494,14.0565;LC-06;Gros-Islet;Careffe
+0;-60.9534,14.0533;LC-06;Gros-Islet;Bois d’Inde
+0;-60.9388,14.0532;LC-06;Gros-Islet;La Rivière Mitan
+0;-60.9376,14.0494;LC-06;Gros-Islet;Bois Verrelle
+0;-60.9317,14.0418;LC-06;Gros-Islet;Des Rameaux
+0;-60.9437,14.0366;LC-06;Gros-Islet;Piat
+0;-60.9391,14.0353;LC-06;Gros-Islet;La Vaccance
+1121;-60.9533,14.0325;LC-06;Gros-Islet;Grande Rivière
+0;-60.9312,14.0216;LC-06;Gros-Islet;Americ
+0;-60.9283,14.0214;LC-06;Gros-Islet;La Gare
+0;-60.9387,14.0189;LC-06;Gros-Islet;Paix Bouche
+0;-60.9422,14.0123;LC-03;Castries;La Croix Chaubourg
+0;-60.9226,14.0152;LC-06;Gros-Islet;Theatiste
+0;-60.9464,14.0088;LC-03;Castries;Christopher
+0;-60.9517,14.0236;LC-06;Gros-Islet;Ti Morne
+0;-60.9624,14.0178;LC-03;Castries;Almondale
+0;-60.9338,14.0037;LC-06;Gros-Islet;Pays Perdu
+0;-60.9436,13.9946;LC-03;Castries;Talvern
+0;-60.9509,13.9962;LC-03;Castries;Fond Cacao
+0;-60.9415,13.9910;LC-03;Castries;En Poix Doux
+0;-60.9466,13.9884;LC-03;Castries;Combat
+0;-61.0117,13.9910;LC-03;Castries;La Belle Vie
+0;-60.9766,13.9934;LC-03;Castries;Four Roads Junction
+0;-60.9701,13.9956;LC-03;Castries;Ti Rocher
+0;-60.9657,13.9993;LC-03;Castries;La Fitte
+0;-60.9588,13.9927;LC-03;Castries;Fond Cannie
+0;-60.9082,13.9398;LC-05;Dennery;La Pelle
+0;-60.9421,13.9306;LC-05;Dennery;Thomazo
+0;-60.9243,13.9338;LC-05;Dennery;La Belle Vie
+0;-60.9312,13.9345;LC-05;Dennery;Mabouya
+0;-60.9327,13.9238;LC-05;Dennery;Dubonnet
+0;-60.9236,13.9080;LC-05;Dennery;Bazile
+0;-60.8925,13.9054;LC-05;Dennery;Athens
+0;-60.9059,13.9324;LC-05;Dennery;La Caye
+0;-60.9971,13.9386;LC-03;Castries;La Treille
+0;-61.0031,13.9443;LC-03;Castries;Morne Ciseaux
+0;-60.9846,13.9742;LC-03;Castries;Odsan
+0;-60.9733,13.9833;LC-03;Castries;Dubrassay
+0;-60.9967,13.9736;LC-03;Castries;Tourat
+0;-61.0030,13.9712;LC-03;Castries;Ticolon
+0;-61.0058,13.9735;LC-03;Castries;Morne Saint Joseph
+0;-61.0005,13.9630;LC-03;Castries;Barre Duchaussée
+0;-61.0080,13.9653;LC-03;Castries;Fond Manger
+0;-61.0140,13.9580;LC-03;Castries;Coolietown
+0;-61.0494,13.8930;LC-09;Soufrière;Sibieux
+0;-61.0429,13.8872;LC-09;Soufrière;Ravine Duval
+0;-61.0356,13.8577;LC-09;Soufrière;Zenon
+0;-61.0281,13.8483;LC-09;Soufrière;Ravine Claire
+0;-61.0473,13.8487;LC-09;Soufrière;Saphire
+0;-61.0560,13.8391;LC-09;Soufrière;Plat Pays
+0;-61.0597,13.8441;LC-09;Soufrière;Stonefield
+0;-61.0434,13.8358;LC-09;Soufrière;Sulphur Springs
+0;-61.0348,13.8337;LC-09;Soufrière;Bois d’Inde
+0;-61.0289,13.8351;LC-09;Soufrière;Mocha
+0;-61.0039,13.8422;LC-09;Soufrière;Morne Fond Saint Jacques
+0;-61.0412,13.8306;LC-09;Soufrière;Fond Lloyd
+0;-61.0410,13.8280;LC-09;Soufrière;Belfond
+0;-61.0313,13.8310;LC-09;Soufrière;Morne Bonin
+0;-61.0393,13.8193;LC-09;Soufrière;Etangs
+0;-61.0449,13.8186;LC-09;Soufrière;Saint Rémy
+0;-61.0458,13.8107;LC-04;Choiseul;Raveneau
+0;-61.0430,13.8100;LC-04;Choiseul;Victoria De Ville
+0;-61.0470,13.8078;LC-04;Choiseul;Espérance
+0;-61.0502,13.8049;LC-04;Choiseul;Derrière Morne
+0;-61.0549,13.8041;LC-04;Choiseul;Bois d’Inde Franciou
+0;-61.0449,13.7956;LC-04;Choiseul;Ponyon
+0;-61.0456,13.7892;LC-04;Choiseul;Martin
+0;-61.0378,13.8003;LC-04;Choiseul;Dacretin
+0;-61.0319,13.8113;LC-04;Choiseul;Morne Jacques
+0;-61.0329,13.8092;LC-04;Choiseul;Mavay
+0;-61.0220,13.8086;LC-04;Choiseul;Monzie
+0;-61.0198,13.8061;LC-04;Choiseul;Lamaze
+0;-61.0261,13.7931;LC-04;Choiseul;Dupré
+0;-61.0549,13.7840;LC-04;Choiseul;Newfield
+0;-61.0474,13.7836;LC-04;Choiseul;La Riche
+0;-61.0330,13.7759;LC-04;Choiseul;Sauzay
+0;-61.0230,13.8179;LC-04;Choiseul;Mailly Motête
+0;-60.9680,13.7724;LC-10;Vieux-Fort;Coolie Town
+0;-60.9759,13.7781;LC-10;Vieux-Fort;Morne Vert
+0;-60.9617,13.7841;LC-10;Vieux-Fort;Joyeux
+1457;-60.9439,13.7711;LC-10;Vieux-Fort;Pierrot
+0;-60.9545,13.7761;LC-10;Vieux-Fort;Fond Sabot
+0;-60.9611,13.7760;LC-10;Vieux-Fort;Plut
+0;-60.9429,13.7792;LC-10;Vieux-Fort;Cacao
+0;-61.0059,13.8078;LC-07;Laborie;Daban
+0;-61.0022,13.7858;LC-07;Laborie;Fond Berange
+0;-61.0074,13.7923;LC-07;Laborie;Giraud
+0;-61.0076,13.7839;LC-07;Laborie;Gertrine
+0;-61.0006,13.7787;LC-07;Laborie;La Grace
+0;-60.9958,13.7770;LC-07;Laborie;Olibo
+0;-60.9854,13.7797;LC-07;Laborie;Macdomel
+0;-61.0180,13.7854;LC-07;Laborie;Gayabois
+0;-60.9407,13.8105;LC-08;Micoud;Gouette
+0;-60.9324,13.8052;LC-08;Micoud;Delomel
+1371;-60.9302,13.8166;LC-08;Micoud;Ti Rocher
+0;-60.9564,13.8233;LC-08;Micoud;Calypso
+0;-60.9219,13.8286;LC-08;Micoud;La Tille
+0;-60.9346,13.8346;LC-08;Micoud;La Fille
+0;-60.9360,13.8328;LC-08;Micoud;Ti Riviere
+0;-60.9392,13.8364;LC-08;Micoud;Galba
+0;-60.9461,13.8361;LC-08;Micoud;Carrière
+0;-60.9039,13.8412;LC-08;Micoud;Malgrétoute
+0;-60.9027,13.8656;LC-08;Micoud;Mamiku
+0;-60.9078,13.8600;LC-08;Micoud;Des Marinières
+0;-60.9143,13.8590;LC-08;Micoud;Mont Eole
+0;-60.9106,13.8546;LC-08;Micoud;Lombard
+0;-60.9097,13.8797;LC-08;Micoud;Pélouze
+0;-60.9110,13.8742;LC-08;Micoud;Miné
+0;-60.8898,13.9823;LC-06;Gros-Islet;Caille Des
+1393;-60.9078,13.9458;LC-05;Dennery;Au Leon
+0;-61.0618,13.7903;LC-04;Choiseul;Industry
+0;-60.9290,13.9954;LC-06;Gros-Islet;Des Bollières
+0;-60.9346,14.0278;LC-06;Gros-Islet;Plateau
+0;-60.9202,14.0119;LC-06;Gros-Islet;Boguis
+0;-61.0612,13.8626;LC-09;Soufrière;Desruisseaux

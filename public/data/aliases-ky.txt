@@ -1,0 +1,26 @@
+ru;Западный залив;West Bay
+ar;خليج الغرب;West Bay
+hi;वेस्ट बे;West Bay
+ja;ウェストベイ;West Bay
+ru;Северная сторона;North Side
+ar;الجانب الشمالي;North Side
+hi;नॉर्थ साइड;North Side
+ja;ノースサイド;North Side
+ja;ジョージタウン;George Town
+nl;Georgetown;George Town
+ar;جورج تاون;George Town
+ko;조지타운;George Town
+ru;Джорджтаун;George Town
+zh;喬治敦;George Town
+ru;Восточный конец;East End
+ar;الطرف الشرقي;East End
+hi;ईस्ट एंड;East End
+ja;イーストエンド;East End
+ru;Боддентаун;Bodden Town
+ar;بودن تاون;Bodden Town
+hi;बोडेन टाउन;Bodden Town
+ja;ボッデンタウン;Bodden Town
+ru;Малый Кайман;Little Cayman
+ar;كايمان الصغرى;Little Cayman
+hi;लिटिल केमैन;Little Cayman
+ja;リトルケイマン;Little Cayman

@@ -1,0 +1,10 @@
+ko;세틀먼트;The Settlement
+zh;西班牙镇;Spanish Town
+zh-Hant;西班牙鎮;Spanish Town
+ja;スパニッシュ・タウン;Spanish Town
+ja;ロードタウン;Road Town
+ar;رود تاون;Road Town
+ko;로드타운;Road Town
+ru;Род-Таун;Road Town
+zh;罗德城;Road Town
+en;Nottingham;Nottingham Estate

@@ -1,0 +1,48 @@
+es;Caleta Trullo;Teal Inlet Settlement
+de;Port Stanley;Stanley
+es;Puerto Argentino;Stanley
+fr;Port Stanley;Stanley
+it;Port Stanley;Stanley
+nl;Port Stanley;Stanley
+pt;Port Stanley;Stanley
+ja;スタンレー;Stanley
+ja;スタンリー;Stanley
+ko;스탠리;Stanley
+ar;ستانلي;Stanley
+ru;Порт-Стэнли;Stanley
+zh;斯坦利;Stanley
+es;Puerto Stanley;Stanley
+en;Port Stanley;Stanley
+ja;サルバドール;Salvador Settlement
+es;Salvador;Salvador Settlement
+en;Rincon Grande;Rincon Grande Settlement
+es;Rincón Grande;Rincon Grande Settlement
+nl;Rincon Grande;Rincon Grande Settlement
+de;Port San Carlos;Port San Carlos Settlement
+pt;Porto San Carlos;Port San Carlos Settlement
+ja;ポート・サン・カルロス;Port San Carlos Settlement
+en;Port San Carlos;Port San Carlos Settlement
+fr;Port San Carlos;Port San Carlos Settlement
+es;Puerto San Carlos;Port San Carlos Settlement
+nl;Port San Carlos;Port San Carlos Settlement
+ja;ノース・アーム;North Arm Settlement
+en;North Arm;North Arm Settlement
+fr;North Arm;North Arm Settlement
+zh;北安;North Arm Settlement
+es;Brazo Norte;North Arm Settlement
+nl;North Arm;North Arm Settlement
+de;Goose Green;Goose Green Settlement
+ru;Гуз-Грин;Goose Green Settlement
+pt;Goose Green;Goose Green Settlement
+en;Goose Green;Goose Green Settlement
+it;Goose Green;Goose Green Settlement
+fr;Goose Green;Goose Green Settlement
+es;Pradera del Ganso;Goose Green Settlement
+zh;鵝綠;Goose Green Settlement
+zh-Hans;鹅绿;Goose Green Settlement
+ja;グース・グリーン;Goose Green Settlement
+nl;Goose Green;Goose Green Settlement
+es;Fitz Roy;Fitzroy Settlement
+en;Roy Cove;Roy Cove Settlement
+es;Ensenada Roy;Roy Cove Settlement
+nl;Roy Cove;Roy Cove Settlement

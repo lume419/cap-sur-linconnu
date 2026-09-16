@@ -1,0 +1,19 @@
+en;Saint Petersburg;Saint Peters
+ru;Санкт-Петербург;Saint Peters
+ar;سانت بطرسبرغ;Saint Peters
+es;San Petersburgo;Saint Peters
+fr;Saint-Pétersbourg;Saint Peters
+hi;सेंट पीटर्सबर्ग;Saint Peters
+de;Sankt Petersburg;Saint Peters
+ja;サンクトペテルブルク;Saint Peters
+pt;São Petersburgo;Saint Peters
+ar;بليموث;Plymouth
+ja;プリマス;Plymouth
+ko;플리머스;Plymouth
+ru;Плимут;Plymouth
+zh;普利茅斯;Plymouth
+en;Old Town;Old Towne
+ja;ブレイズ;Brades
+ko;브레이즈;Brades
+ru;Брейдс;Brades
+zh;布莱兹;Brades

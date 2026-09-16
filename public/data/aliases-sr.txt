@@ -1,0 +1,63 @@
+ja;ザンデライ;Zanderij
+en;Washabo;Wasjabo
+ru;Тотнесс;Totness
+ar;توتنس;Totness
+hi;टॉटनेस;Totness
+ja;トットネス;Totness
+en;Tjakkatjakka Ston;Tjakka-Tjakka Ston
+es;Tjakkatjakka Ston;Tjakka-Tjakka Ston
+en;Tepoe;Pelelu Tepu
+ko;포키그론;Pokigron
+ja;ポクイグロン;Pokigron
+ru;Паранам;Paranam
+ja;パラナム;Paranam
+ar;باراماريبو;Paramaribo
+ja;パラマリボ;Paramaribo
+ko;파라마리보;Paramaribo
+ru;Парамарибо;Paramaribo
+hi;पारामरिबो;Paramaribo
+zh;帕拉马里博;Paramaribo
+ru;Онверхахт;Onverwacht
+ar;أونفيرفاخت;Onverwacht
+hi;ऑनवेरवाछ्ट;Onverwacht
+ja;オンフェルワハト;Onverwacht
+nl;Oemakondre;Oema-kondre
+ru;Нивю-Никкерия;Nieuw Nickerie
+ar;نيو نيكيري;Nieuw Nickerie
+es;Nueva Nicaría;Nieuw Nickerie
+hi;न्यू निकेरी;Nieuw Nickerie
+de;Neu-Nickerie;Nieuw Nickerie
+ja;ニューニッケリー;Nieuw Nickerie
+pt;Nova Nickerie;Nieuw Nickerie
+fr;Nieuw-Amsterdam;Nieuw Amsterdam
+ru;Нивю-Амстердам;Nieuw Amsterdam
+ar;نيو أمستردام;Nieuw Amsterdam
+es;Nueva Ámsterdam;Nieuw Amsterdam
+hi;न्यू एम्स्टर्डम;Nieuw Amsterdam
+de;Neu-Amsterdam;Nieuw Amsterdam
+ja;ニューアムステルダム;Nieuw Amsterdam
+pt;Nova Amsterdã;Nieuw Amsterdam
+en;Malobi;Manlobi
+nl;Malobi;Manlobi
+nl;Makaja pingo;Makajapiengo
+ru;Лелидорп;Lelydorp
+ar;ليليدورب;Lelydorp
+hi;लेलीडॉर्प;Lelydorp
+ja;レリドルプ;Lelydorp
+ru;Гронинген;Groningen
+ar;غرونينغن;Groningen
+es;Groninga;Groningen
+hi;ग्रोनिंगन;Groningen
+ja;フローニンゲン;Groningen
+ru;Брокопондо;Brokopondo
+ar;بروكوبوندو;Brokopondo
+hi;ब्रोकोपोंडो;Brokopondo
+ja;ブロコポンド;Brokopondo
+ja;ビタフロン;Bitagron
+ko;벤즈도르프;Benzdorp
+ja;ベンドルプ;Benzdorp
+ru;Албина;Albina
+ar;ألبينا;Albina
+hi;अलबीना;Albina
+ja;アルビナ;Albina
+en;Palumeu;Paloemeu

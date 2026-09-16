@@ -1,0 +1,2356 @@
+0;-84.4408,14.6323;NI-17;North Caribbean Coast;Waspuk
+0;-84.9704,14.7386;NI-17;North Caribbean Coast;Turwás
+0;-84.3762,13.6331;NI-17;North Caribbean Coast;Siksayali
+0;-86.6035,13.7791;NI-13;Nueva Segovia Department;Brujil
+0;-84.1767,14.7136;NI-17;North Caribbean Coast;La Ceiba
+0;-85.0245,14.5938;NI-07;Jinotega Department;Raití
+0;-84.0945,14.7306;NI-17;North Caribbean Coast;Leimus
+0;-84.2039,14.7241;NI-17;North Caribbean Coast;Ipiri Tingni
+0;-86.7142,13.4274;NI-09;Madriz Department;Los Tablones
+0;-85.6287,14.0085;NI-13;Nueva Segovia Department;Somotincito
+0;-86.0756,13.1353;NI-07;Jinotega Department;Saraguasca
+0;-85.3885,11.1554;NI-15;Rivas Department;Zapotillo
+0;-86.7597,13.6972;NI-13;Nueva Segovia Department;Zapotal
+0;-86.1857,13.4047;NI-07;Jinotega Department;El Zancudal
+0;-86.0782,12.1457;NI-10;Managua Department;Zambrano
+0;-83.4484,14.1227;NI-17;North Caribbean Coast;Yulu Tingni
+0;-83.5948,14.0666;NI-17;North Caribbean Coast;Yulú
+0;-83.6855,14.6392;NI-17;North Caribbean Coast;Yulnata
+0;-86.0207,13.1737;NI-07;Jinotega Department;Yuca Puca
+0;-84.3898,11.6629;NI-18;South Caribbean Coast;Colonia Agrícola Yolaina
+0;-85.7513,13.0335;NI-12;Matagalpa Department;Yaule El Cielo
+0;-85.9925,12.9084;NI-12;Matagalpa Department;Yaule Abajo
+0;-85.7998,12.9759;NI-12;Matagalpa Department;Yasica Sur
+0;-85.7969,13.0065;NI-12;Matagalpa Department;Yasica Norte
+0;-84.6749,13.6337;NI-12;Matagalpa Department;Yaoya Abajo
+2265;-86.4930,13.4838;NI-09;Madriz Department;Yalagüina
+0;-85.5060,14.0720;NI-07;Jinotega Department;Yakal Panani
+0;-86.0534,13.0483;NI-07;Jinotega Department;Yagualica
+0;-83.8167,14.1667;NI-17;North Caribbean Coast;Yablis
+0;-83.9134,13.5985;NI-17;North Caribbean Coast;Yabaltara
+0;-83.5341,13.5556;NI-17;North Caribbean Coast;Wounta
+0;-84.4668,14.6164;NI-17;North Caribbean Coast;Wiwinak
+6955;-85.8254,13.6268;NI-13;Nueva Segovia Department;Wiwilí
+0;-84.2500,14.6833;NI-17;North Caribbean Coast;Wirapahani
+0;-85.3000,14.0662;NI-07;Jinotega Department;Wina
+0;-85.5678,12.6240;NI-01;Boaco Department;Wiliwa
+0;-84.9978,14.5654;NI-17;North Caribbean Coast;Waylaska
+0;-85.1956,14.3655;NI-07;Jinotega Department;Wayawás
+0;-83.7564,12.5830;NI-18;South Caribbean Coast;Wawasang
+0;-85.9708,12.9165;NI-12;Matagalpa Department;Waswalí Abajo
+0;-84.8941,13.7901;NI-17;North Caribbean Coast;Waspuk
+6403;-83.9717,14.7419;NI-17;North Caribbean Coast;Waspán
+0;-84.3056,12.7408;NI-18;South Caribbean Coast;Waspado
+6498;-85.3700,13.3350;NI-17;North Caribbean Coast;Waslala
+0;-83.7421,14.7999;NI-17;North Caribbean Coast;Wasla
+0;-85.5659,12.9637;NI-12;Matagalpa Department;Silvio Mayorga
+0;-83.5834,13.2166;NI-17;North Caribbean Coast;Wankluma
+0;-84.8531,13.6952;NI-17;North Caribbean Coast;Waní
+0;-85.6874,13.8179;NI-07;Jinotega Department;Wamblán
+0;-83.5582,13.4698;NI-17;North Caribbean Coast;Walpasiksa
+0;-83.5346,12.9395;NI-18;South Caribbean Coast;Walpa
+0;-85.0721,14.5582;NI-07;Jinotega Department;Walakitàn
+0;-83.5905,14.0771;NI-17;North Caribbean Coast;Wakaban
+0;-83.3197,14.4534;NI-17;North Caribbean Coast;Waingka Laya
+0;-87.0419,12.5924;NI-03;Chinandega Department;Santa Matilde
+0;-86.1133,11.9449;NI-11;Masaya Department;Vista Alegre
+0;-86.6001,12.7288;NI-08;León Department;Guásimo Macho
+7799;-84.9936,12.0483;NI-04;Chontales Department;Villa Sandino
+0;-86.9453,12.7914;NI-03;Chinandega Department;Villa Quince de Julio
+0;-86.8152,12.9635;NI-03;Chinandega Department;Villanueva
+0;-85.2589,13.2103;NI-12;Matagalpa Department;Villa Nazaret
+0;-86.7572,12.4008;NI-08;León Department;San Jerónimo
+0;-86.5270,13.5685;NI-09;Madriz Department;Verapaz
+0;-85.7337,13.0275;NI-12;Matagalpa Department;Verapaz
+0;-86.9837,12.6022;NI-03;Chinandega Department;Todo es Humo
+0;-86.1662,12.0791;NI-11;Masaya Department;Veracruz
+0;-85.9105,11.7448;NI-06;Granada Department;Vera Cruz
+0;-86.2155,11.5597;NI-02;Carazo Department;Veracruz
+0;-85.8748,11.4237;NI-15;Rivas Department;Veracruz
+0;-87.4919,12.7808;NI-03;Chinandega Department;Venecia
+0;-86.1294,11.9494;NI-11;Masaya Department;Venecia
+0;-86.2168,12.5511;NI-10;Managua Department;Valle Telpochapa
+0;-86.5069,13.5389;NI-09;Madriz Department;Valle Santo Domingo
+0;-86.5671,13.4519;NI-09;Madriz Department;Valle Santa Teresa
+0;-86.5920,13.4501;NI-09;Madriz Department;Valle Santa Isabel
+0;-86.5364,13.5232;NI-09;Madriz Department;Valle San Juan de Somoto
+0;-86.1604,13.6999;NI-13;Nueva Segovia Department;Valle San Juan de Sabana Grande
+0;-86.3000,13.2333;NI-05;Estelí Department;Valle San José
+0;-86.9870,12.7973;NI-03;Chinandega Department;San José del Obraje
+0;-86.2769,13.5840;NI-09;Madriz Department;San Francisco de Paula
+2219;-86.2887,12.5248;NI-10;Managua Department;Valle San Francisco
+0;-86.5269,13.4756;NI-09;Madriz Department;Valle San Antonio
+0;-86.1033,12.6581;NI-12;Matagalpa Department;Valle San Antonio
+0;-86.2825,13.4480;NI-09;Madriz Department;Valle San Andrés
+0;-86.1210,13.7429;NI-13;Nueva Segovia Department;Valle Sabana Larga
+0;-86.2289,13.4988;NI-13;Nueva Segovia Department;Valle El Pericón
+0;-86.0823,11.7268;NI-06;Granada Department;Ricardo Morales Avilés
+0;-85.9086,13.2533;NI-07;Jinotega Department;Mancotal
+0;-85.9519,13.1715;NI-07;Jinotega Department;Valle Los Robles
+0;-86.5052,12.1138;NI-10;Managua Department;Valle Los Aburtos
+0;-85.8350,13.3131;NI-07;Jinotega Department;Veracruz
+209;-86.0000,13.0690;NI-07;Jinotega Department;Llano de La Tejera
+0;-86.7720,13.0030;NI-03;Chinandega Department;Valle Las Pilas
+0;-86.3269,13.4475;NI-09;Madriz Department;Valle La Plazuela
+0;-84.8550,13.3974;NI-17;North Caribbean Coast;Valle Kuikuinita
+0;-86.2667,13.3141;NI-05;Estelí Department;Valle Guayucalí
+0;-85.0490,11.0046;NI-14;Río San Juan Department;Valle Guadalupe
+0;-86.0332,12.6567;NI-12;Matagalpa Department;Valle El Tempisque
+0;-86.7139,13.5274;NI-13;Nueva Segovia Department;Valle El Tamarindo
+0;-85.3677,11.1374;NI-15;Rivas Department;El Tablón
+0;-86.1856,12.6500;NI-12;Matagalpa Department;Valle El Orégano
+0;-86.7968,12.5635;NI-08;León Department;El Ojochal
+0;-85.9970,12.5502;NI-12;Matagalpa Department;Valle San Juan
+0;-86.1950,13.8436;NI-13;Nueva Segovia Department;Valle El Limón
+0;-86.2588,13.3620;NI-05;Estelí Department;Valle El Jocote
+0;-86.7866,13.0711;NI-03;Chinandega Department;Valle El Danto
+0;-86.1747,12.6647;NI-12;Matagalpa Department;Valle El Charco
+0;-86.2286,12.6453;NI-12;Matagalpa Department;Valle El Brasil
+0;-86.6698,13.2727;NI-09;Madriz Department;Valle El Ángel
+0;-86.3975,13.4165;NI-09;Madriz Department;Valle Ducualí
+0;-86.2322,12.6657;NI-12;Matagalpa Department;Valle de Trujillo
+1643;-86.0094,13.1249;NI-07;Jinotega Department;LLano de La Cruz
+0;-86.0045,13.1381;NI-07;Jinotega Department;Apanás
+0;-85.9210,13.1330;NI-07;Jinotega Department;Dantalí
+0;-85.8725,13.8060;NI-13;Nueva Segovia Department;Valle Congojas
+0;-86.3833,12.0667;NI-10;Managua Department;Valencia
+0;-83.5377,14.9800;NI-17;North Caribbean Coast;Utlamasta
+0;-86.2713,12.0375;NI-10;Managua Department;Utila
+0;-83.2888,14.4815;NI-17;North Caribbean Coast;Uskira
+0;-85.5880,11.5243;NI-15;Rivas Department;Urbaite
+0;-85.1970,14.3471;NI-07;Jinotega Department;Upla Pruan
+0;-85.6167,12.9167;NI-12;Matagalpa Department;Upá
+0;-84.7014,14.6478;NI-17;North Caribbean Coast;Umbra Sumal
+0;-83.9422,14.7411;NI-17;North Caribbean Coast;Ulwás
+0;-83.6258,14.1470;NI-17;North Caribbean Coast;Ukunni
+0;-83.8369,14.7704;NI-17;North Caribbean Coast;Uhri
+0;-83.5312,14.9470;NI-17;North Caribbean Coast;Uram
+0;-83.7794,14.7851;NI-17;North Caribbean Coast;Tuskru Tara
+0;-86.3058,11.6071;NI-02;Carazo Department;Tupilapa
+0;-84.4318,13.3147;NI-17;North Caribbean Coast;Tungla
+0;-85.4362,12.4138;NI-01;Boaco Department;Tuncar
+0;-83.4006,14.3188;NI-17;North Caribbean Coast;Tum Tum
+0;-84.3713,13.0048;NI-18;South Caribbean Coast;Tumarín
+0;-84.5626,14.6503;NI-17;North Caribbean Coast;Tulimbila
+0;-83.4344,14.3233;NI-17;North Caribbean Coast;Tuara
+0;-83.3312,14.1082;NI-17;North Caribbean Coast;Tuapí
+0;-84.0550,11.5600;NI-18;South Caribbean Coast;Nueva Atlanta
+0;-86.1400,12.7068;NI-12;Matagalpa Department;Totumblita
+2265;-86.4925,13.5628;NI-09;Madriz Department;Totogalpa
+0;-86.0516,14.0410;NI-13;Nueva Segovia Department;Totecacinte
+0;-83.7753,14.7522;NI-17;North Caribbean Coast;Torre Dos
+0;-83.7733,14.5670;NI-17;North Caribbean Coast;Torre Cinco
+0;-87.2039,12.6794;NI-03;Chinandega Department;Toro Blanco
+0;-87.1332,12.7673;NI-03;Chinandega Department;Tonalá
+0;-87.3239,12.7090;NI-03;Chinandega Department;Tomvalle
+0;-86.0623,13.1520;NI-07;Jinotega Department;Tomatoya
+0;-85.9166,12.5238;NI-01;Boaco Department;Tomatoyita
+0;-85.9008,12.6412;NI-12;Matagalpa Department;Tomalapa
+0;-86.6151,12.6242;NI-08;León Department;Tolapa
+2638;-85.9389,11.4393;NI-15;Rivas Department;Tola
+5182;-86.0174,12.0819;NI-11;Masaya Department;Tisma
+50000;-86.0971,12.1973;NI-10;Managua Department;Tipitapa
+0;-84.5265,13.5777;NI-17;North Caribbean Coast;Santa Juana
+0;-86.5950,13.4995;NI-09;Madriz Department;Tierras Blancas
+0;-86.5915,12.1351;NI-08;León Department;Tierra Colorada
+0;-86.0392,12.5734;NI-12;Matagalpa Department;El Prado
+0;-85.8028,12.2721;NI-01;Boaco Department;Tierra Blanca
+0;-85.8984,11.5558;NI-15;Rivas Department;Tierra Blanca
+0;-85.5477,12.6966;NI-01;Boaco Department;Tierra Azul
+13209;-86.2049,12.0226;NI-10;Managua Department;Ticuantepe
+0;-85.4893,11.4050;NI-15;Rivas Department;Tichaná
+4287;-85.7980,12.4203;NI-01;Boaco Department;Teustepe
+0;-86.3537,12.6863;NI-08;León Department;Terranova
+1902;-85.9647,12.7303;NI-12;Matagalpa Department;Terrabona
+0;-85.8084,12.1358;NI-01;Boaco Department;Tepalón
+0;-86.0640,14.0447;NI-13;Nueva Segovia Department;Teotecacinte
+0;-86.9042,12.5860;NI-08;León Department;Tempisque Negro
+0;-86.2715,11.9524;NI-11;Masaya Department;Temoá Grande
+2037;-86.2871,13.5315;NI-09;Madriz Department;Telpaneca
+8776;-86.8594,12.5220;NI-08;León Department;Telica
+0;-85.9861,12.9423;NI-12;Matagalpa Department;Tejerina
+0;-83.9899,14.4809;NI-17;North Caribbean Coast;Tee Kamp
+0;-86.2592,11.6486;NI-02;Carazo Department;Tecomapa
+0;-86.4708,12.0421;NI-10;Managua Department;El Arca de Noé
+0;-85.6423,12.2530;NI-01;Boaco Department;Tecolostote
+0;-85.9504,11.8876;NI-06;Granada Department;Tayway
+0;-83.2798,14.4622;NI-17;North Caribbean Coast;Tawasakia
+0;-83.5783,13.3841;NI-17;North Caribbean Coast;Tawantara
+0;-86.1400,13.8914;NI-13;Nueva Segovia Department;Tastaslí
+0;-84.1128,14.5272;NI-17;North Caribbean Coast;Tasba Pain
+0;-83.5453,12.6712;NI-18;South Caribbean Coast;Tasbapauni
+0;-85.6304,13.0290;NI-12;Matagalpa Department;Tapasle
+0;-84.8854,12.3875;NI-04;Chontales Department;Tapalwás
+0;-84.8833,12.9167;NI-18;South Caribbean Coast;Tapales
+0;-84.3999,12.9852;NI-18;South Caribbean Coast;Tamarín
+0;-87.2130,12.8172;NI-03;Chinandega Department;Ticuantepe
+0;-85.5885,12.2899;NI-01;Boaco Department;Talpetate
+0;-86.4196,12.8346;NI-08;León Department;Talolinga
+0;-86.2260,12.4897;NI-01;Boaco Department;La Talolinga
+0;-85.7388,12.5634;NI-01;Boaco Department;Talnites
+0;-85.6113,12.6269;NI-01;Boaco Department;Tagua
+0;-84.8122,13.5909;NI-17;North Caribbean Coast;Tadasna
+0;-86.3054,12.0107;NI-10;Managua Department;Los Tacaniste
+0;-85.4000,14.1833;NI-07;Jinotega Department;Suti Tingni
+0;-85.8504,12.8155;NI-12;Matagalpa Department;Susulí
+0;-86.1709,13.6745;NI-13;Nueva Segovia Department;Susucayán
+0;-86.0989,13.1572;NI-07;Jinotega Department;Suní
+0;-85.8259,11.5136;NI-15;Rivas Department;Sucuyá
+0;-85.0812,13.1789;NI-12;Matagalpa Department;Suba
+0;-84.4952,14.6189;NI-17;North Caribbean Coast;Suak Suakia
+0;-83.7790,12.5170;NI-18;South Caribbean Coast;San Vincente
+0;-85.6540,11.2311;NI-15;Rivas Department;Sotacaballo
+0;-86.0308,12.5552;NI-12;Matagalpa Department;Sonzaponte
+0;-85.7066,12.4263;NI-01;Boaco Department;Sonzapote
+20316;-86.5823,13.4841;NI-09;Madriz Department;Somoto
+15385;-86.9051,13.0439;NI-03;Chinandega Department;Somotillo
+0;-85.7787,11.3514;NI-15;Rivas Department;El Genízaro
+0;-83.9373,14.6150;NI-17;North Caribbean Coast;Slilmasía
+0;-83.8062,14.3382;NI-17;North Caribbean Coast;Skrubarbán
+0;-84.7489,13.7277;NI-17;North Caribbean Coast;Siunawás
+16056;-84.7772,13.7332;NI-17;North Caribbean Coast;Siuna
+0;-85.9804,12.4822;NI-01;Boaco Department;La Cuchilla
+0;-83.4909,14.2920;NI-17;North Caribbean Coast;Sisinata
+0;-83.6992,14.3034;NI-17;North Caribbean Coast;Iltara
+0;-85.0117,12.7384;NI-18;South Caribbean Coast;Villa Siquia
+0;-83.5540,14.2720;NI-17;North Caribbean Coast;Sisin
+0;-86.2582,11.9030;NI-02;Carazo Department;Marvin Corrales
+0;-84.9906,14.7278;NI-17;North Caribbean Coast;El Triunfo
+0;-83.5279,14.9512;NI-17;North Caribbean Coast;Sih
+0;-84.3705,13.3239;NI-17;North Caribbean Coast;Shellsing
+0;-83.6473,14.1992;NI-17;North Caribbean Coast;Seven Benk
+0;-83.4869,12.4581;NI-18;South Caribbean Coast;Set Net
+0;-86.0920,12.8505;NI-12;Matagalpa Department;Sébaco Viejo
+0;-86.0963,12.8532;NI-12;Matagalpa Department;Sébaco
+0;-83.5716,13.3929;NI-17;North Caribbean Coast;Saw Mill
+0;-83.9098,14.7481;NI-17;North Caribbean Coast;Sáupuka
+0;-87.2349,12.6782;NI-03;Chinandega Department;Sasama
+0;-85.6274,11.2489;NI-15;Rivas Department;Sapoá
+0;-87.0074,12.4322;NI-08;León Department;Gracias a Dios
+0;-86.1741,13.1411;NI-07;Jinotega Department;San Vicente del Coyolito
+0;-86.2825,12.0141;NI-10;Managua Department;San Vicente
+0;-86.3270,11.8363;NI-02;Carazo Department;San Vicente
+0;-85.3280,11.8552;NI-04;Chontales Department;San Ubaldo
+608;-86.9227,13.1861;NI-03;Chinandega Department;Santo Tomás del Norte
+0;-87.3778,12.7508;NI-03;Chinandega Department;Santo Tomás
+14809;-85.0906,12.0694;NI-04;Chontales Department;Santo Tomás
+0;-86.2266,13.5754;NI-09;Madriz Department;Santo Domingo
+0;-85.7594,12.4884;NI-01;Boaco Department;Santo Domingo
+5827;-85.0824,12.2644;NI-04;Chontales Department;Santo Domingo
+0;-86.4613,11.8737;NI-10;Managua Department;Los Gutiérrez Norte
+0;-86.1356,11.8627;NI-11;Masaya Department;Santo Domingo
+0;-86.3341,11.9609;NI-10;Managua Department;Santiago
+0;-85.7749,11.4047;NI-15;Rivas Department;Santa Teresita
+0;-86.5419,13.4138;NI-05;Estelí Department;Santa Teresa de Guasuyuca
+0;-86.5976,12.6251;NI-08;León Department;Santa Teresa de Apatague
+0;-86.8774,13.0603;NI-03;Chinandega Department;Santa Teresa
+0;-85.7332,13.0015;NI-12;Matagalpa Department;El Roblar
+0;-87.1933,12.5829;NI-03;Chinandega Department;Santa Teresa
+0;-86.8381,12.4291;NI-08;León Department;Santa Teresa
+0;-86.7620,12.3040;NI-08;León Department;Santa Teresa
+0;-86.2526,12.0224;NI-10;Managua Department;Las Dispersas
+0;-86.4348,11.8888;NI-10;Managua Department;Los Larios
+0;-85.9912,11.8447;NI-06;Granada Department;Santa Teresa
+0;-86.1631,11.8030;NI-02;Carazo Department;Santa Teresa
+0;-85.5989,11.4900;NI-15;Rivas Department;Santa Teresa
+2913;-86.3699,12.8012;NI-08;León Department;Santa Rosa del Peñón
+0;-86.2032,12.9000;NI-12;Matagalpa Department;Santa Rosa de Lima
+0;-84.7417,14.7093;NI-17;North Caribbean Coast;Santa Rosa
+0;-86.5122,12.7124;NI-08;León Department;Santa Rosa
+0;-85.9795,12.6785;NI-12;Matagalpa Department;Santa Rosa
+0;-85.5184,12.6218;NI-01;Boaco Department;Santa Rosa
+0;-87.1167,12.5667;NI-03;Chinandega Department;Santa Rosa
+0;-86.6052,12.5576;NI-08;León Department;San Pancho
+0;-86.8119,12.5051;NI-08;León Department;San José de Los Pocitos
+0;-86.2000,12.1167;NI-10;Managua Department;Santa Rosa
+0;-86.3009,12.0769;NI-10;Managua Department;Santa Rosa
+0;-86.1423,11.8748;NI-11;Masaya Department;Santa Rosa
+0;-85.9758,11.8012;NI-06;Granada Department;Las Colinas
+0;-86.3285,11.6551;NI-02;Carazo Department;Santa Rosa
+0;-86.0240,13.5145;NI-13;Nueva Segovia Department;Santa Rita
+0;-85.2866,12.0474;NI-04;Chontales Department;Apompuà
+0;-86.3814,13.4012;NI-09;Madriz Department;Santa Rita
+0;-86.3500,12.6333;NI-08;León Department;Santa Rita
+0;-85.7281,12.4040;NI-01;Boaco Department;Santa Rita
+0;-86.1797,12.3801;NI-10;Managua Department;Santa Rita
+0;-85.2343,12.3029;NI-04;Chontales Department;Santa Rita
+0;-86.6777,12.2935;NI-08;León Department;Santa Rita
+0;-85.1123,12.2430;NI-04;Chontales Department;Santa Rita
+0;-85.6730,12.2106;NI-01;Boaco Department;Santa Rita
+0;-86.3290,12.0575;NI-10;Managua Department;Los Ortiz
+0;-86.1071,11.8637;NI-11;Masaya Department;Santa Rita
+0;-86.3842,11.8453;NI-02;Carazo Department;Santa Rita del Este
+0;-86.1930,11.7790;NI-02;Carazo Department;Santa Rita
+0;-86.9054,12.5212;NI-08;León Department;Santa Patricia
+0;-86.9520,12.6458;NI-03;Chinandega Department;Rigoberto López Pérez
+0;-85.8564,13.1731;NI-07;Jinotega Department;Santa Maura
+0;-83.6241,14.3046;NI-17;North Caribbean Coast;Santa Marta
+0;-86.7625,12.3939;NI-08;León Department;Santa Marta
+0;-85.1866,11.8011;NI-04;Chontales Department;Santa Marta
+0;-86.0536,13.3307;NI-07;Jinotega Department;Santa María de Loma Azul
+720;-86.7093,13.7467;NI-13;Nueva Segovia Department;Santa María
+0;-86.5363,12.5789;NI-08;León Department;Santa María
+0;-86.9511,12.5400;NI-03;Chinandega Department;Santa María
+0;-86.3438,12.5587;NI-10;Managua Department;Santa María
+0;-85.9984,12.5394;NI-10;Managua Department;Valle San Juan
+0;-85.9001,12.2139;NI-06;Granada Department;Santa María
+0;-85.7149,12.1342;NI-01;Boaco Department;Agrícola Altamira
+0;-85.9439,11.8012;NI-06;Granada Department;Santa Margarita
+0;-86.4167,12.1500;NI-10;Managua Department;Santa Luisa
+0;-85.7300,12.9390;NI-12;Matagalpa Department;Santa Lucía
+0;-86.5279,12.7634;NI-08;León Department;Santa Lucía
+0;-87.1333,12.6000;NI-03;Chinandega Department;Santa Lucía
+1869;-85.7107,12.5326;NI-01;Boaco Department;Santa Lucía
+0;-86.8146,12.4312;NI-08;León Department;Santa Lucía
+0;-86.9287,12.4077;NI-08;León Department;El Obraje
+0;-86.0831,12.2724;NI-10;Managua Department;Santa Lucía
+0;-86.3527,11.7463;NI-02;Carazo Department;Santa Lucía
+0;-85.9288,11.7889;NI-06;Granada Department;Santa Julia
+0;-85.9035,12.8624;NI-12;Matagalpa Department;Santa Josefina
+0;-86.0376,11.6983;NI-06;Granada Department;Santa Ana
+0;-86.2793,13.3272;NI-05;Estelí Department;Santa Isabel
+0;-84.7811,14.7834;NI-17;North Caribbean Coast;Santa Isabel
+0;-86.1221,12.8192;NI-12;Matagalpa Department;Santa Isabel
+0;-85.9040,12.6894;NI-12;Matagalpa Department;El Balsámo
+0;-86.5325,12.5661;NI-08;León Department;Santa Isabel
+0;-85.5190,12.5229;NI-01;Boaco Department;Santa Isabel
+0;-85.6682,12.0936;NI-01;Boaco Department;Santa Isabel
+0;-86.3589,11.9029;NI-10;Managua Department;San José de La Montaña
+0;-86.1831,11.8691;NI-02;Carazo Department;Santa Isabel
+0;-85.9271,11.8455;NI-06;Granada Department;Santa Isabel
+0;-84.0925,14.7188;NI-17;North Caribbean Coast;Santa Inés
+0;-85.6235,12.3934;NI-01;Boaco Department;Santa Inés
+0;-85.9728,11.6155;NI-15;Rivas Department;Santa Gertrudis
+0;-84.2930,14.6609;NI-17;North Caribbean Coast;Santa Fé
+0;-85.6633,12.7249;NI-12;Matagalpa Department;Santa Fe
+0;-85.4236,12.6292;NI-01;Boaco Department;Santa Fé
+0;-85.2635,12.3679;NI-01;Boaco Department;San Pablo
+0;-85.3444,12.5331;NI-01;Boaco Department;Santa Fé
+0;-85.7952,11.3772;NI-15;Rivas Department;Santa Fé
+0;-85.8409,12.9814;NI-12;Matagalpa Department;Santa Emilia
+0;-86.7598,12.7609;NI-03;Chinandega Department;Santa Emilia
+0;-86.0554,11.4510;NI-15;Rivas Department;Santa Emilia
+0;-86.2643,11.9039;NI-02;Carazo Department;Santa Elvira
+0;-87.2369,12.6471;NI-03;Chinandega Department;Santa Elena
+0;-86.8263,12.6557;NI-08;León Department;Santa Elena
+0;-86.3909,12.5433;NI-08;León Department;Santa Elena
+0;-83.9531,11.8717;NI-18;South Caribbean Coast;Santa Elisa
+0;-86.1369,13.8384;NI-13;Nueva Segovia Department;Santa Cruz
+0;-85.9041,13.4439;NI-07;Jinotega Department;Santa Cruz
+0;-86.3123,13.0152;NI-05;Estelí Department;Santa Cruz
+0;-86.0387,12.8646;NI-12;Matagalpa Department;Santa Cruz
+0;-87.3302,12.7264;NI-03;Chinandega Department;Casa de Tejas
+0;-86.0504,12.6703;NI-12;Matagalpa Department;Santa Cruz
+0;-86.4553,12.6205;NI-08;León Department;Santa Cruz
+0;-85.5711,12.8550;NI-12;Matagalpa Department;Enrique Montoya
+0;-85.7981,12.4101;NI-01;Boaco Department;El Cruzero de Teustepe
+0;-85.5598,12.8507;NI-12;Matagalpa Department;Santa Cruz
+0;-86.2580,13.7066;NI-13;Nueva Segovia Department;Santa Clara
+0;-86.3544,12.8819;NI-05;Estelí Department;Santa Clara
+0;-86.7921,12.6382;NI-08;León Department;Santa Clara
+0;-86.5497,12.5254;NI-08;León Department;Santa Clara
+0;-85.9916,12.0133;NI-06;Granada Department;Santa Clara
+0;-86.2260,11.8664;NI-02;Carazo Department;Santa Cecilia
+0;-86.6667,12.4097;NI-08;León Department;Santa Casimira
+0;-86.0264,11.6202;NI-06;Granada Department;Betania
+0;-86.2028,13.8138;NI-13;Nueva Segovia Department;Santa Bárbara
+0;-86.5261,13.4535;NI-09;Madriz Department;Santa Bárbara
+0;-86.5902,12.8597;NI-08;León Department;Santa Bárbara
+0;-86.7606,12.3649;NI-08;León Department;Santa Bárbara
+0;-85.8675,11.6549;NI-15;Rivas Department;Santa Bárbara
+0;-84.1115,14.7670;NI-17;North Caribbean Coast;Santa Ana
+0;-84.1832,12.1017;NI-18;South Caribbean Coast;María Cristina
+0;-86.3461,12.0965;NI-10;Managua Department;Santa Ana
+0;-86.3841,11.9846;NI-10;Managua Department;Santa Ana
+0;-85.9937,11.8397;NI-06;Granada Department;Santa Ana
+0;-86.3546,11.6762;NI-02;Carazo Department;Santa Ana
+0;-85.5650,11.4886;NI-15;Rivas Department;Santa Ana
+0;-86.7588,12.2927;NI-08;León Department;Santa María
+0;-85.6653,13.3702;NI-07;Jinotega Department;Santa Ana
+0;-85.9386,12.9934;NI-12;Matagalpa Department;San Simón de Palcila
+0;-87.0583,12.3904;NI-08;León Department;San Silvestre
+0;-85.5717,11.5624;NI-15;Rivas Department;San Silvestre
+4514;-86.1864,13.3054;NI-07;Jinotega Department;San Sebastián de Yalí
+0;-86.3723,11.9135;NI-10;Managua Department;San Sebastián
+0;-85.8708,12.9576;NI-12;Matagalpa Department;San Salvador
+0;-86.3186,12.8210;NI-08;León Department;San Roque
+0;-86.2103,12.4424;NI-10;Managua Department;San Roque
+0;-86.2801,12.8248;NI-12;Matagalpa Department;San Ramón de la Uva
+0;-86.4690,13.4474;NI-09;Madriz Department;San Ramón
+2827;-85.8390,12.9234;NI-12;Matagalpa Department;San Ramón
+0;-86.5221,12.8534;NI-08;León Department;San Ramón
+0;-86.2127,12.3357;NI-10;Managua Department;San Ramón
+0;-85.8786,12.2141;NI-06;Granada Department;San Ramón
+0;-86.3052,11.9620;NI-10;Managua Department;San Ramón
+0;-86.5533,12.0522;NI-10;Managua Department;Santa Bárbara
+29836;-86.4384,11.8485;NI-10;Managua Department;San Rafael del Sur
+5458;-86.1109,13.2125;NI-07;Jinotega Department;San Rafael del Norte
+0;-85.6118,12.6518;NI-01;Boaco Department;San Rafael
+0;-85.9525,11.6646;NI-15;Rivas Department;San Rafael
+0;-85.8568,11.4470;NI-15;Rivas Department;San Rafael
+0;-85.1152,12.1294;NI-04;Chontales Department;San Pedro de Lóvago
+0;-86.8778,13.2761;NI-03;Chinandega Department;San Pedro del Norte
+0;-84.7386,13.0526;NI-17;North Caribbean Coast;San Pedro del Norte
+0;-85.8995,13.1823;NI-07;Jinotega Department;San Pedro de Buculmay
+0;-86.3294,13.1154;NI-05;Estelí Department;San Pedro
+0;-86.4317,12.7895;NI-08;León Department;San Pedro
+0;-87.1000,12.7040;NI-03;Chinandega Department;San Pedro
+0;-85.9443,12.6615;NI-12;Matagalpa Department;San Pedro
+0;-86.7430,12.5203;NI-08;León Department;Genízaro Mocho
+0;-85.0155,12.2854;NI-04;Chontales Department;San Pedro
+0;-85.4101,12.2192;NI-04;Chontales Department;San Pedro
+0;-85.3566,11.9180;NI-04;Chontales Department;Pikín Guerrero
+0;-86.3220,11.8802;NI-02;Carazo Department;San Pedro de Los Molinas
+0;-86.0925,11.8340;NI-02;Carazo Department;San Pedro
+0;-86.4719,11.7834;NI-10;Managua Department;San Pedro
+0;-86.0257,11.5742;NI-15;Rivas Department;San Pedro
+0;-85.4705,11.4247;NI-15;Rivas Department;San Pedro
+0;-85.6065,12.1915;NI-01;Boaco Department;San Patricio
+0;-84.9151,11.6279;NI-14;Río San Juan Department;San Pancho
+0;-85.8721,11.6837;NI-06;Granada Department;San Pancho
+0;-86.1257,12.9055;NI-12;Matagalpa Department;Carreta Quebrada
+0;-86.7201,12.8872;NI-03;Chinandega Department;San Pablo
+0;-85.7766,12.8786;NI-12;Matagalpa Department;San Pablo
+0;-86.9919,12.5383;NI-03;Chinandega Department;San Pablo
+0;-85.9933,11.9678;NI-06;Granada Department;San Pablo
+0;-86.2225,11.8644;NI-02;Carazo Department;San Pablo
+0;-86.4116,11.8408;NI-10;Managua Department;San Pablo
+0;-83.7158,14.3089;NI-17;North Caribbean Coast;Sannilaya
+0;-86.3481,12.9324;NI-05;Estelí Department;San Nicolás
+0;-86.2911,12.6272;NI-12;Matagalpa Department;San Nicolás
+0;-84.5635,12.3551;NI-18;South Caribbean Coast;San Nicolás
+0;-87.1385,12.7877;NI-03;Chinandega Department;San Miguelito
+0;-85.5831,12.7898;NI-12;Matagalpa Department;San Miguelito
+0;-86.8173,12.3294;NI-08;León Department;San Miguelito
+0;-86.5317,12.2431;NI-08;León Department;Silvio Mayorga
+0;-86.5374,12.1877;NI-08;León Department;San Miguelito
+4181;-84.8999,11.4025;NI-14;Río San Juan Department;San Miguelito
+0;-86.3121,11.8744;NI-02;Carazo Department;San Miguel
+0;-85.8620,11.7708;NI-06;Granada Department;San Miguel
+0;-85.8753,11.7134;NI-06;Granada Department;San Miguel
+0;-85.5895,11.5782;NI-15;Rivas Department;San Miguel
+0;-86.4817,12.7838;NI-08;León Department;San Martín
+0;-85.7995,11.3369;NI-15;Rivas Department;El Capulín
+0;-83.9456,11.1083;NI-18;South Caribbean Coast;San Martín
+0;-86.1051,13.1310;NI-07;Jinotega Department;San Marcos
+23347;-86.2035,11.9095;NI-02;Carazo Department;San Marcos
+0;-86.0085,11.5965;NI-15;Rivas Department;San Marcos
+0;-85.6483,11.5818;NI-15;Rivas Department;San Marcos
+0;-85.4216,11.9097;NI-04;Chontales Department;San Manuel
+0;-84.0788,14.7568;NI-17;North Caribbean Coast;San Luis
+0;-86.6877,12.7920;NI-03;Chinandega Department;San Luis
+0;-86.6125,12.5715;NI-08;León Department;San Luis
+0;-86.3667,12.1833;NI-10;Managua Department;San Luis
+0;-85.9958,11.9602;NI-06;Granada Department;San Luis
+0;-86.5834,11.8883;NI-10;Managua Department;San Luis
+910;-86.6111,13.4138;NI-09;Madriz Department;San Lucas
+0;-86.8777,12.6999;NI-03;Chinandega Department;San Lucas
+0;-85.1102,11.9653;NI-04;Chontales Department;San Lucas
+0;-86.8525,12.4961;NI-08;León Department;San Lorenzo
+8694;-85.6665,12.3783;NI-01;Boaco Department;San Lorenzo
+0;-86.6167,12.1167;NI-08;León Department;San Lorenzo
+0;-86.4533,11.8071;NI-10;Managua Department;San Lorenzo
+0;-85.9102,11.3042;NI-15;Rivas Department;San Lorenzo
+0;-85.6585,11.4856;NI-15;Rivas Department;San Lázaro
+0;-86.5788,12.2686;NI-08;León Department;San Julián
+0;-85.9627,11.5344;NI-15;Rivas Department;San Juan Viejo
+0;-86.0571,12.7000;NI-12;Matagalpa Department;San Juanillo
+3820;-86.1650,13.5448;NI-09;Madriz Department;San Juan de Río Coco
+2111;-86.0734,11.9062;NI-11;Masaya Department;San Juan de Oriente
+7790;-85.8705,11.2529;NI-15;Rivas Department;San Juan del Sur
+642;-83.7347,10.9468;NI-14;Río San Juan Department;Grey Town
+4997;-86.6123,13.1760;NI-05;Estelí Department;San Juan de Limay
+0;-86.9109,12.7684;NI-03;Chinandega Department;San Juan de Las Pencas
+0;-86.1854,11.9508;NI-11;Masaya Department;San Juan de La Concepción
+0;-85.1672,11.7942;NI-04;Chontales Department;San Juan de Dios
+0;-87.1167,12.6167;NI-03;Chinandega Department;San Juancito
+0;-84.1818,12.1663;NI-18;South Caribbean Coast;San Juan
+0;-86.0342,12.1654;NI-10;Managua Department;San Juan de Tipitapa
+0;-86.6167,11.9167;NI-10;Managua Department;San Juan
+0;-85.6456,12.4300;NI-01;Boaco Department;San José de Torres
+0;-86.1430,11.8506;NI-02;Carazo Department;San José de Monte Redondo
+0;-85.6460,11.4860;NI-15;Rivas Department;San José del Sur
+2115;-85.7617,12.5975;NI-01;Boaco Department;San José de los Remates
+0;-85.8973,11.7869;NI-06;Granada Department;San José del Mombacho
+0;-86.3169,11.9995;NI-10;Managua Department;San José del Cardón
+1419;-86.6554,13.2884;NI-09;Madriz Department;San José de Cusmapa
+0;-87.1870,12.7164;NI-03;Chinandega Department;San José de Cuasompa
+2367;-85.5394,13.5420;NI-07;Jinotega Department;San José de Bocay
+0;-86.3461,13.5699;NI-09;Madriz Department;San José de Amucayán
+0;-87.2857,12.7691;NI-03;Chinandega Department;San José de Agua Fría
+0;-85.6247,13.2610;NI-12;Matagalpa Department;El Caracol
+0;-86.6470,13.5837;NI-09;Madriz Department;San José
+0;-86.0053,12.9938;NI-12;Matagalpa Department;San José de Umure
+0;-85.9500,12.6966;NI-12;Matagalpa Department;San José
+0;-87.1134,12.7238;NI-03;Chinandega Department;Santa Rosalía
+0;-86.7983,12.6897;NI-08;León Department;San José
+0;-86.7819,12.5053;NI-08;León Department;Palo de Lapa
+0;-86.4344,12.4925;NI-08;León Department;San José
+0;-85.9973,12.0471;NI-11;Masaya Department;San José
+0;-86.5149,11.9873;NI-10;Managua Department;San José
+0;-86.2272,11.9955;NI-10;Managua Department;San José
+0;-84.9917,11.7580;NI-04;Chontales Department;Iván Montenegro
+0;-86.2094,11.8922;NI-02;Carazo Department;San José de Los Baltodanos
+0;-85.9541,11.6338;NI-15;Rivas Department;San José
+0;-85.8147,11.5303;NI-15;Rivas Department;San José
+0;-86.2279,12.5335;NI-10;Managua Department;San Jorge
+7158;-85.8031,11.4558;NI-15;Rivas Department;San Jorge
+0;-86.0630,12.1281;NI-11;Masaya Department;San Alejandro
+0;-84.2529,11.9451;NI-18;South Caribbean Coast;San Jerónimo
+0;-86.2286,11.9385;NI-11;Masaya Department;San Jerónimo
+0;-85.2140,11.8584;NI-04;Chontales Department;San Jerónimo
+0;-85.9266,11.3903;NI-15;Rivas Department;La Junta
+0;-86.7768,12.5825;NI-08;León Department;San Jacinto
+0;-86.0702,11.6560;NI-06;Granada Department;San Jacinto
+0;-86.1952,12.9296;NI-12;Matagalpa Department;San Isidro
+0;-85.4889,12.5577;NI-01;Boaco Department;San Isidro
+0;-86.8000,12.4333;NI-08;León Department;San Isidro
+0;-84.6992,13.7798;NI-17;North Caribbean Coast;San Isidro
+0;-86.3007,12.2092;NI-10;Managua Department;San Isidro
+0;-85.9475,12.1960;NI-06;Granada Department;San Isidro
+0;-86.0030,11.6083;NI-15;Rivas Department;San Isidro
+0;-86.0800,12.2565;NI-10;Managua Department;San Ildefonso
+0;-86.2146,11.9721;NI-11;Masaya Department;San Ignacio
+0;-85.9567,11.9138;NI-06;Granada Department;San Ignacio
+0;-86.0788,11.5163;NI-15;Rivas Department;San Ignacio
+0;-84.6342,14.6655;NI-17;North Caribbean Coast;Sang Sang
+0;-86.3070,11.8331;NI-02;Carazo Department;San Gregorio de Las Cañas
+0;-86.0424,13.7319;NI-13;Nueva Segovia Department;San Gregorio
+0;-85.5157,12.3398;NI-04;Chontales Department;San Gregorio
+0;-85.0859,12.2832;NI-04;Chontales Department;San Gregorio
+0;-86.0658,13.1692;NI-07;Jinotega Department;San Gabriel
+0;-86.7539,12.4767;NI-08;León Department;San Gabriel
+0;-86.6461,12.2967;NI-08;León Department;San Gabriel
+0;-86.2994,12.5050;NI-10;Managua Department;San Francisco Libre
+0;-86.0414,12.4113;NI-10;Managua Department;San Francisco del Peñón
+0;-86.7710,13.1992;NI-03;Chinandega Department;San Francisco del Norte
+0;-86.1572,11.7838;NI-02;Carazo Department;La Unión
+0;-84.2919,13.0792;NI-18;South Caribbean Coast;San Francisco
+0;-85.8722,12.9474;NI-12;Matagalpa Department;San Francisco
+0;-86.8500,12.5500;NI-08;León Department;San Francisco
+0;-85.6420,12.3058;NI-01;Boaco Department;San Francisco
+0;-86.4128,12.1922;NI-10;Managua Department;San Francisco
+0;-86.2834,12.0357;NI-10;Managua Department;San Francisco
+0;-86.1667,11.7500;NI-02;Carazo Department;San Francisco
+0;-85.9474,11.6063;NI-15;Rivas Department;San Francisco
+3899;-86.3149,13.6776;NI-13;Nueva Segovia Department;San Fernando
+0;-85.8531,12.1683;NI-06;Granada Department;La Trinidad
+0;-85.1739,11.8531;NI-04;Chontales Department;San Felipe
+0;-85.9144,13.2072;NI-07;Jinotega Department;San Esteban
+0;-86.2385,12.7235;NI-12;Matagalpa Department;San Esteban
+0;-85.4606,12.1327;NI-04;Chontales Department;San Esteban
+0;-86.2833,12.0833;NI-10;Managua Department;San Ernesto
+0;-86.0179,12.3147;NI-10;Managua Department;San Emilio
+0;-85.8686,11.5193;NI-15;Rivas Department;San Emilio
+0;-86.8043,12.9982;NI-03;Chinandega Department;San Eduardo
+0;-83.5289,12.9631;NI-18;South Caribbean Coast;Sandy Bay Sirpi
+3910;-85.8502,12.7602;NI-12;Matagalpa Department;San Dionisio
+0;-84.2595,12.0332;NI-18;South Caribbean Coast;Las Iguanas
+0;-86.3709,13.3765;NI-05;Estelí Department;San Diego
+0;-85.8100,12.5050;NI-01;Boaco Department;San Diego
+0;-86.3667,12.5667;NI-08;León Department;San Cristóbal
+0;-86.8000,12.4167;NI-08;León Department;San Cristóbal
+0;-86.3884,11.8712;NI-02;Carazo Department;San Cristóbal
+0;-86.5340,12.6172;NI-08;León Department;San Claudio
+0;-85.9550,11.4880;NI-15;Rivas Department;Los Sánchez
+0;-85.9467,11.4636;NI-15;Rivas Department;Eddy Monterrey (Río Grande)
+0;-86.5432,12.9245;NI-08;León Department;San Cayetano
+0;-86.5156,11.8990;NI-10;Managua Department;San Cayetano
+0;-84.7019,14.6640;NI-17;North Caribbean Coast;San Carlos
+0;-86.5530,12.5314;NI-08;León Department;San Carlos
+13451;-84.7779,11.1271;NI-14;Río San Juan Department;San Carlos
+0;-86.0426,11.8111;NI-06;Granada Department;San Caralampio
+0;-86.1011,11.7687;NI-06;Granada Department;San Caralampio
+0;-86.0481,12.4803;NI-10;Managua Department;San Blas
+0;-86.2848,12.5767;NI-10;Managua Department;San Blas
+0;-83.9736,12.1993;NI-18;South Caribbean Coast;Neysi Ríos
+0;-85.9844,11.9861;NI-06;Granada Department;San Blás
+0;-86.0010,12.2470;NI-10;Managua Department;Victoria de Julio
+0;-86.2695,12.5696;NI-10;Managua Department;San Benito
+0;-87.0404,12.5536;NI-03;Chinandega Department;San Benito
+0;-86.0667,12.3167;NI-10;Managua Department;San Benito
+0;-85.9262,13.5337;NI-13;Nueva Segovia Department;San Bartolo
+0;-85.2165,12.1042;NI-04;Chontales Department;San Bartolo
+0;-86.5498,11.9170;NI-10;Managua Department;San Bartolo
+0;-86.4499,12.7521;NI-08;León Department;Hato Viejo
+0;-85.8353,13.2646;NI-07;Jinotega Department;San Antonio de Las Cuchillas
+0;-86.2729,11.8475;NI-02;Carazo Department;San Antonio de Arriba
+0;-84.4000,11.7880;NI-18;South Caribbean Coast;San Antonio
+0;-86.8833,12.5333;NI-08;León Department;San Antonio
+0;-86.8367,12.4699;NI-08;León Department;Monte Redondo
+0;-85.1486,12.4815;NI-01;Boaco Department;San Antonio
+0;-86.0407,12.4731;NI-10;Managua Department;San Antonio
+0;-86.9995,12.3955;NI-08;León Department;San Antonio
+0;-84.3106,12.3377;NI-18;South Caribbean Coast;San Antonio
+0;-86.8175,12.2948;NI-08;León Department;San Antonio
+0;-86.2667,12.0500;NI-10;Managua Department;San Antonio
+0;-86.0833,11.8333;NI-06;Granada Department;San Antonio
+0;-86.0751,11.7774;NI-06;Granada Department;San Antonio
+0;-86.3255,11.6932;NI-02;Carazo Department;San Antonio
+0;-86.2467,11.6045;NI-02;Carazo Department;San Antonio
+0;-85.7217,11.1497;NI-15;Rivas Department;San Antonio
+0;-86.1069,13.3470;NI-07;Jinotega Department;San Antonio
+0;-85.6994,12.9328;NI-12;Matagalpa Department;San Andrés
+0;-86.2285,12.8799;NI-12;Matagalpa Department;Valle San Andrés
+0;-86.2353,12.8187;NI-12;Matagalpa Department;El Zapote
+0;-85.5757,12.5601;NI-01;Boaco Department;San Andrés
+0;-86.4068,12.1689;NI-10;Managua Department;San Andrés de La Palanca
+0;-86.4874,12.5613;NI-08;León Department;San Agustín
+0;-85.8707,12.8638;NI-12;Matagalpa Department;Samulalí
+0;-86.5448,11.9884;NI-10;Managua Department;Samaria
+0;-85.6296,12.6843;NI-12;Matagalpa Department;Salónica
+0;-86.8494,12.2679;NI-08;León Department;Salinas Grandes
+0;-86.1043,11.4757;NI-15;Rivas Department;Salinas
+0;-86.4625,12.9338;NI-08;León Department;Salale
+0;-83.8433,14.7700;NI-17;North Caribbean Coast;Saklin
+0;-85.3113,12.7925;NI-12;Matagalpa Department;El Saíz
+0;-85.6561,12.5229;NI-01;Boaco Department;Saguatepe
+0;-83.5597,14.9268;NI-17;North Caribbean Coast;Sagua
+0;-85.6766,11.4803;NI-15;Rivas Department;Sacramento
+0;-86.1000,13.0833;NI-07;Jinotega Department;Sacaclis
+0;-86.5415,13.3627;NI-05;Estelí Department;Sabana Grande
+0;-86.1110,13.1897;NI-07;Jinotega Department;Sabana Grande
+0;-85.7297,12.8572;NI-12;Matagalpa Department;Sabana Grande
+0;-86.4844,12.8182;NI-08;León Department;Sabana Grande
+0;-87.0994,12.7229;NI-03;Chinandega Department;Sabana Grande
+0;-86.5950,12.5111;NI-08;León Department;Sabana Grande
+0;-86.1668,12.1214;NI-10;Managua Department;Sabana Grande
+0;-86.7272,12.5342;NI-08;León Department;Rota
+0;-83.5126,14.9974;NI-17;North Caribbean Coast;Roskaya
+0;-86.7855,13.1355;NI-03;Chinandega Department;Rodeo Grande
+0;-86.4431,13.1338;NI-05;Estelí Department;Rodeo Grande
+0;-86.2169,13.4050;NI-09;Madriz Department;El Robledar
+30000;-85.8275,11.4398;NI-15;Rivas Department;Rivas
+0;-86.2709,11.8130;NI-02;Carazo Department;Río Seco
+0;-86.1217,12.8459;NI-12;Matagalpa Department;Río Nuevo
+0;-85.4100,12.5559;NI-01;Boaco Department;Río Negro
+0;-86.5701,12.9843;NI-08;León Department;Río Grande
+0;-86.8400,12.5434;NI-08;León Department;Colonia Máximo Jerez
+0;-86.3577,12.4915;NI-08;León Department;Río Grande
+0;-85.9777,11.8893;NI-06;Granada Department;Río Grande
+0;-85.8976,11.4011;NI-15;Rivas Department;Río Grande
+17018;-85.2235,12.9344;NI-12;Matagalpa Department;Río Blanco
+0;-86.4478,13.3729;NI-05;Estelí Department;Los Laureles
+0;-86.6234,12.8736;NI-08;León Department;Rincón Escondido
+0;-83.6902,14.8688;NI-17;North Caribbean Coast;Rayapura
+0;-85.5304,12.7692;NI-12;Matagalpa Department;Rancheria
+0;-83.8087,11.8811;NI-18;South Caribbean Coast;Rama Cay
+20456;-84.2195,12.1596;NI-18;South Caribbean Coast;Rama
+0;-83.6827,12.3431;NI-18;South Caribbean Coast;Raitipura
+0;-85.0187,14.6111;NI-07;Jinotega Department;Raudal Lakus
+0;-86.4256,13.6662;NI-13;Nueva Segovia Department;Quisulí
+0;-85.3224,11.9652;NI-04;Chontales Department;Quintana
+0;-84.9363,11.9991;NI-04;Chontales Department;Quinama
+13590;-86.0260,13.5670;NI-13;Nueva Segovia Department;Quilalí
+0;-86.2005,13.4925;NI-09;Madriz Department;Quibuto
+1974;-86.9029,12.5068;NI-08;León Department;Quezalguaque
+0;-87.2635,12.8855;NI-03;Chinandega Department;Quesera Playa Grande
+0;-87.0217,12.4509;NI-08;León Department;Quebrada Seca
+0;-86.0274,12.9154;NI-12;Matagalpa Department;Quebrada Honda
+0;-86.1912,12.8229;NI-12;Matagalpa Department;Quebrada Honda
+0;-86.0504,12.3597;NI-10;Managua Department;Quebrada Honda
+0;-86.2253,13.2844;NI-07;Jinotega Department;Quebrada Arriba
+0;-83.6738,14.3033;NI-17;North Caribbean Coast;Panua
+0;-87.6883,12.9236;NI-03;Chinandega Department;Punta Ñata
+0;-83.6929,12.5602;NI-18;South Caribbean Coast;Marshall Point
+0;-83.7865,11.5143;NI-18;South Caribbean Coast;Punta Gorda
+0;-85.4814,11.4898;NI-15;Rivas Department;Punta Gorda
+0;-85.1867,11.9632;NI-04;Chontales Department;Punta de Suela
+0;-85.2456,13.5146;NI-17;North Caribbean Coast;Puerto Viejo
+4371;-86.7601,12.1957;NI-08;León Department;Puerto Sandino
+0;-86.2835,12.4973;NI-10;Managua Department;Puerto Nuevo
+7671;-87.1720,12.8508;NI-03;Chinandega Department;Puerto Morazán
+0;-86.6155,12.4049;NI-08;León Department;Puerto Momotombo
+0;-83.5691,13.3615;NI-17;North Caribbean Coast;Puerto Isabel
+0;-85.5122,11.9646;NI-04;Chontales Department;Puerto Díaz
+33635;-83.3888,14.0351;NI-17;North Caribbean Coast;Puerto Cabezas
+0;-87.4936,12.8487;NI-03;Chinandega Department;Puerto Arturo
+0;-86.0489,12.6011;NI-12;Matagalpa Department;Puertas Viejas
+0;-85.1686,12.1367;NI-04;Chontales Department;Puertas de París
+4608;-86.4808,13.3798;NI-05;Estelí Department;Pueblo Nuevo
+0;-85.8958,11.5214;NI-15;Rivas Department;Pueblo Nuevo
+0;-85.6684,11.1511;NI-15;Rivas Department;Pueblo Nuevo
+0;-84.1406,12.1324;NI-18;South Caribbean Coast;La Mosquitia
+394;-83.5650,13.4065;NI-17;North Caribbean Coast;Prinzapolka
+0;-86.3500,12.1500;NI-10;Managua Department;Prinzapolka
+0;-84.4071,12.1495;NI-18;South Caribbean Coast;Presillitas
+0;-84.5333,12.4833;NI-18;South Caribbean Coast;Poza Redonda
+0;-85.9244,11.5115;NI-15;Rivas Department;Poza Azul
+0;-86.4022,12.9999;NI-08;León Department;Potrero Grande
+0;-85.7975,12.3648;NI-01;Boaco Department;Potrerillos
+0;-85.4664,11.4535;NI-15;Rivas Department;Potrerillos
+0;-87.5037,13.0061;NI-03;Chinandega Department;Potosí
+5222;-85.8568,11.4942;NI-15;Rivas Department;Potosí
+6403;-86.9798,12.5442;NI-03;Chinandega Department;Posoltega
+0;-86.6125,12.7587;NI-08;León Department;Portobanco
+0;-85.6487,12.8697;NI-12;Matagalpa Department;Portillo del Jícaro
+0;-85.8258,11.4553;NI-15;Rivas Department;Popoyuapa
+4232;-87.0422,12.3783;NI-08;León Department;Poneloya
+0;-86.5044,11.7724;NI-10;Managua Department;Pochomil
+0;-85.4389,14.1051;NI-07;Jinotega Department;Plis
+0;-83.4494,14.9834;NI-17;North Caribbean Coast;Plankira
+0;-84.5362,14.6360;NI-17;North Caribbean Coast;Pilpilia
+0;-83.8788,11.4709;NI-18;South Caribbean Coast;Pijibaye
+0;-84.3329,12.1398;NI-18;South Caribbean Coast;Pijibay
+0;-85.8422,12.7457;NI-12;Matagalpa Department;Piedra Larga
+0;-85.9491,12.9663;NI-12;Matagalpa Department;Piedra de Agua
+0;-85.8766,12.8298;NI-12;Matagalpa Department;Piedra Colorada
+0;-85.9460,11.6158;NI-15;Rivas Department;Pica Pica
+0;-86.4166,12.8448;NI-08;León Department;Picacho
+0;-87.3787,12.7015;NI-03;Chinandega Department;Petacaltepe
+0;-85.0824,12.7027;NI-01;Boaco Department;Peñas Blancas
+0;-85.6159,11.2062;NI-15;Rivas Department;Peñas Blancas
+0;-85.9505,12.7890;NI-12;Matagalpa Department;Valle Payacuca
+0;-85.9709,11.6570;NI-15;Rivas Department;Paso Real de Ochomogo
+0;-85.6733,13.3684;NI-07;Jinotega Department;El Cuá
+0;-85.5310,12.8013;NI-12;Matagalpa Department;Paso Real
+0;-86.1950,11.6363;NI-02;Carazo Department;Paso La Solera
+0;-85.8857,12.1130;NI-06;Granada Department;Paso de Panaloya
+0;-85.3530,12.1303;NI-04;Chontales Department;Paso de Lajas
+0;-84.6694,11.9118;NI-04;Chontales Department;Paso de Lajas
+0;-86.1339,12.8722;NI-12;Matagalpa Department;Paso Carretera
+0;-87.2025,12.5314;NI-03;Chinandega Department;Paso Caballos
+0;-87.2382,12.5488;NI-03;Chinandega Department;Paredones
+0;-85.9869,11.5010;NI-15;Rivas Department;Pansuaca
+0;-85.7960,11.5014;NI-15;Rivas Department;Tolesmaida
+0;-85.2207,14.2537;NI-07;Jinotega Department;Pankawás
+0;-85.1659,14.2814;NI-07;Jinotega Department;Panka Dákura
+0;-87.1497,12.5805;NI-03;Chinandega Department;Rancho Pancho
+0;-85.5624,12.9272;NI-12;Matagalpa Department;Pancasán
+0;-85.8635,12.2009;NI-06;Granada Department;Santa Teresa del Rempujón
+0;-84.4009,14.6620;NI-17;North Caribbean Coast;Paloyumpa
+0;-85.8495,11.4550;NI-15;Rivas Department;Los Ranchos
+0;-87.0244,12.9730;NI-03;Chinandega Department;Palo Grande
+0;-86.3921,12.9022;NI-05;Estelí Department;Palo Blanco
+0;-85.0235,12.4038;NI-04;Chontales Department;Palmira
+0;-86.2667,12.0167;NI-11;Masaya Department;Palmira
+0;-84.3418,13.5904;NI-17;North Caribbean Coast;Palmera
+0;-87.2989,12.7793;NI-03;Chinandega Department;Palermo
+0;-86.9898,12.3926;NI-08;León Department;Palermo
+3678;-86.4062,13.4557;NI-09;Madriz Department;Palacagüina
+0;-85.2835,12.8808;NI-12;Matagalpa Department;Paiwitas
+0;-85.2383,12.8465;NI-12;Matagalpa Department;San José de Paiwás
+0;-83.2952,14.3871;NI-17;North Caribbean Coast;Páhara
+0;-86.0762,11.9484;NI-11;Masaya Department;Pacayita
+0;-86.3005,11.9491;NI-11;Masaya Department;Pacaya
+0;-85.9326,12.3063;NI-10;Managua Department;Llanos de Ostocal
+0;-83.7116,12.5540;NI-18;South Caribbean Coast;Orinoco
+0;-86.3947,11.9420;NI-10;Managua Department;Olimpo
+0;-85.5321,12.7186;NI-12;Matagalpa Department;Olama
+0;-86.6970,12.6334;NI-08;León Department;Valle Las Zapatas
+0;-85.2386,14.1679;NI-07;Jinotega Department;Oculí
+0;-85.8703,12.7482;NI-12;Matagalpa Department;Ocote de Abajo
+33928;-86.4740,13.6322;NI-13;Nueva Segovia Department;Ocotal
+0;-86.6227,13.7330;NI-13;Nueva Segovia Department;Ococona
+0;-85.7781,12.7696;NI-12;Matagalpa Department;Obregones
+0;-85.9636,11.9566;NI-06;Granada Department;Obregón
+1292;-84.1963,12.8225;NI-18;South Caribbean Coast;El Tortuguero
+52929;-84.4562,11.6876;NI-18;South Caribbean Coast;Nueva Guinea
+0;-85.9439,12.5839;NI-12;Matagalpa Department;Nombre de Jesús
+7732;-86.0945,11.9052;NI-11;Masaya Department;Niquinohomo
+7073;-86.1205,12.0032;NI-11;Masaya Department;Nindirí
+0;-83.2864,14.4696;NI-17;North Caribbean Coast;Ninayeri
+0;-83.5440,14.9525;NI-17;North Caribbean Coast;Neblina
+0;-84.7333,12.5667;NI-18;South Caribbean Coast;Nauawás
+0;-84.5251,14.6327;NI-17;North Caribbean Coast;Nasma Almuk
+0;-86.5182,12.1127;NI-10;Managua Department;Nandayosi
+6934;-86.1207,11.9241;NI-11;Masaya Department;Nandasmo
+0;-86.0392,11.6779;NI-06;Granada Department;Nandarola
+20810;-86.0529,11.7570;NI-06;Granada Department;Nandaime
+0;-85.8660,11.2685;NI-15;Rivas Department;Nandaime
+0;-86.1500,11.7667;NI-02;Carazo Department;Nancite Dulce
+0;-85.8188,11.3681;NI-15;Rivas Department;Nancite Dulce
+0;-85.9567,11.4733;NI-15;Rivas Department;Nancimí
+26270;-86.5647,12.2659;NI-08;León Department;Nagarote
+0;-86.4783,13.0023;NI-08;León Department;Nacascolo
+0;-85.8519,11.5669;NI-15;Rivas Department;Nacascolo
+4839;-85.6291,12.7622;NI-12;Matagalpa Department;Muy Muy
+0;-84.5091,14.4355;NI-17;North Caribbean Coast;Murubila
+1179;-86.0184,13.7585;NI-13;Nueva Segovia Department;Murra
+0;-84.9552,13.1761;NI-17;North Caribbean Coast;Mulukukú
+0;-85.1622,14.4800;NI-07;Jinotega Department;Mulakrai
+0;-85.2033,14.3696;NI-07;Jinotega Department;Mukuwás
+0;-84.8693,11.9942;NI-04;Chontales Department;Muhan
+0;-84.3013,12.2515;NI-18;South Caribbean Coast;Muelle Real de Siquia
+3587;-84.5350,12.0700;NI-18;South Caribbean Coast;Muelle de los Bueyes
+2338;-86.4384,13.6603;NI-13;Nueva Segovia Department;Mozonte
+3940;-85.6980,11.5401;NI-15;Rivas Department;Moyogalpa
+1360;-85.0805,11.6212;NI-14;Río San Juan Department;Morrito
+0;-84.7905,11.2422;NI-14;Río San Juan Department;Morrillo
+0;-86.2387,13.1490;NI-05;Estelí Department;Moropotente
+0;-86.4054,12.8641;NI-08;León Department;Monte Oscuro
+0;-85.9479,12.7045;NI-12;Matagalpa Department;Monte Oscuro
+0;-86.5156,11.8179;NI-10;Managua Department;Montelimar
+0;-86.1883,11.8741;NI-02;Carazo Department;Monte Líbano
+0;-86.0819,12.9868;NI-07;Jinotega Department;Monte Grande
+0;-86.6780,12.9317;NI-08;León Department;Monte Grande
+0;-85.9998,12.7342;NI-12;Matagalpa Department;Monte Grande
+0;-85.7463,12.4149;NI-01;Boaco Department;Monte Grande
+0;-86.8719,12.6789;NI-03;Chinandega Department;Monte de Los Olivos
+0;-87.2884,12.6575;NI-03;Chinandega Department;Monte Cristo
+0;-84.2738,12.1419;NI-18;South Caribbean Coast;Monte Cristo
+0;-86.2753,11.9230;NI-02;Carazo Department;Montecristo
+0;-85.9255,12.7129;NI-12;Matagalpa Department;Montaña Grande
+0;-83.6584,11.5964;NI-18;South Caribbean Coast;Monkey Point
+0;-85.6866,13.7736;NI-07;Jinotega Department;Los Mollejones
+0;-85.9177,12.9607;NI-12;Matagalpa Department;Molino Norte
+0;-87.0423,12.7809;NI-03;Chinandega Department;Mokorón
+0;-86.2644,11.9921;NI-11;Masaya Department;Miravalle
+0;-85.6845,12.1223;NI-01;Boaco Department;Miramontes
+0;-86.1523,11.9574;NI-11;Masaya Department;Miralagos
+0;-86.3392,12.1856;NI-10;Managua Department;Miraflores
+0;-86.3684,11.9166;NI-10;Managua Department;Miraflores
+0;-85.8186,12.8738;NI-12;Matagalpa Department;Mina Verde
+0;-86.6985,12.7372;NI-08;León Department;Mina Santa Pancha
+0;-86.7382,12.7513;NI-08;León Department;Mina El Limón
+0;-83.9363,14.1242;NI-17;North Caribbean Coast;Mina Columbus
+0;-84.1091,14.5611;NI-17;North Caribbean Coast;Miguel Bikan
+0;-86.6122,13.6046;NI-13;Nueva Segovia Department;Mesas Alcayán
+0;-85.5249,11.4049;NI-15;Rivas Department;El Guineo
+0;-85.5602,11.4420;NI-15;Rivas Department;Mérida
+0;-86.0167,11.8833;NI-06;Granada Department;Medio Mundo
+0;-86.2480,12.9955;NI-05;Estelí Department;Mechapa
+0;-85.9463,11.7737;NI-06;Granada Department;Mecatepe
+0;-86.3312,12.0231;NI-10;Managua Department;Mazatlán
+10523;-85.4622,12.8373;NI-12;Matagalpa Department;Matiguás
+61234;-86.4281,12.2351;NI-10;Managua Department;Mateare
+0;-86.5546,13.3057;NI-07;Jinotega Department;Portillo Matasanos
+0;-84.2971,12.3044;NI-18;South Caribbean Coast;Mataka
+109089;-85.9191,12.9279;NI-12;Matagalpa Department;Matagalpa
+0;-86.1190,11.4680;NI-15;Rivas Department;Guasacate
+0;-86.6649,12.9668;NI-08;León Department;Mata de Caña
+0;-85.9685,11.5555;NI-15;Rivas Department;Mata de Caña
+130113;-86.0959,11.9732;NI-11;Masaya Department;Masaya
+21452;-86.1446,11.9145;NI-11;Masaya Department;Masatepe
+0;-85.7409,12.1728;NI-01;Boaco Department;Masapía
+0;-86.8268,12.3935;NI-08;León Department;Santa Isabel
+5000;-86.5142,11.7869;NI-10;Managua Department;Masachapa
+0;-83.6205,14.6443;NI-17;North Caribbean Coast;Maruta
+0;-84.1869,14.1666;NI-17;North Caribbean Coast;Carpato
+0;-87.0177,12.3823;NI-08;León Department;María Cristina
+0;-83.6454,14.0984;NI-17;North Caribbean Coast;Maniwatla
+0;-87.4089,12.8796;NI-03;Chinandega Department;Mangle Alto
+0;-86.0188,11.6296;NI-15;Rivas Department;Mancarrón
+973087;-86.2504,12.1328;NI-10;Managua Department;Managua
+0;-86.2588,12.8571;NI-12;Matagalpa Department;Mal Paso
+0;-86.6795,12.5937;NI-08;León Department;Malpaisillo
+0;-85.7176,12.6065;NI-01;Boaco Department;Malacatoya
+0;-85.8395,12.1471;NI-06;Granada Department;Malacatoya
+0;-85.0862,12.8573;NI-18;South Caribbean Coast;Malakawás
+0;-84.0861,13.2463;NI-18;South Caribbean Coast;Makantaka
+0;-83.9946,12.0894;NI-18;South Caribbean Coast;Mahogany
+0;-87.2802,12.5763;NI-03;Chinandega Department;Maderas Negras
+0;-85.5339,12.6952;NI-01;Boaco Department;Maderas
+374;-86.6130,13.6533;NI-13;Nueva Segovia Department;Macuelizo
+0;-86.1947,12.6944;NI-12;Matagalpa Department;Macuelís
+0;-85.0373,13.3683;NI-17;North Caribbean Coast;Lukú
+0;-85.1629,12.0061;NI-04;Chontales Department;Lóvago
+0;-86.7549,12.7691;NI-08;León Department;Lourdes
+0;-86.4404,12.6649;NI-08;León Department;Los Zarzales
+0;-86.1239,13.3959;NI-07;Jinotega Department;Los Walices
+0;-85.8978,11.5528;NI-15;Rivas Department;Los Viejitos
+0;-86.8662,12.6539;NI-03;Chinandega Department;Los Velásquez
+0;-86.3884,11.8118;NI-10;Managua Department;Los Velásquez
+0;-86.1306,12.8977;NI-03;Chinandega Department;Los Valdivia
+1024;-86.4780,12.4820;NI-08;León Department;Nuevo Renacer
+0;-86.5400,12.8480;NI-08;León Department;Los Tololos
+0;-84.5135,11.8596;NI-18;South Caribbean Coast;Los Tacanistes
+0;-86.4417,11.8695;NI-10;Managua Department;Los Sánchez Norte
+0;-86.2662,11.8735;NI-02;Carazo Department;Los Sánchez
+0;-86.6933,13.6928;NI-13;Nueva Segovia Department;Los Robles
+0;-86.2644,11.8921;NI-02;Carazo Department;Los Rivera
+0;-86.4566,12.5046;NI-08;León Department;Los Riitos
+0;-87.0883,12.6276;NI-03;Chinandega Department;Belén
+0;-86.4204,12.1718;NI-10;Managua Department;Los Ranchos
+0;-86.0144,11.7886;NI-06;Granada Department;Héroes de Pancasán
+0;-86.1830,13.8241;NI-13;Nueva Segovia Department;Los Puntalitos
+0;-85.8571,12.1346;NI-06;Granada Department;Los Puentes de Agua
+0;-86.7018,13.4558;NI-09;Madriz Department;Los Potrerillos
+0;-85.5494,12.3297;NI-01;Boaco Department;El Potrerillo
+0;-85.9003,13.2223;NI-07;Jinotega Department;Los Potrerillos
+0;-87.3977,12.7263;NI-03;Chinandega Department;Los Portillos
+0;-85.8226,12.7295;NI-12;Matagalpa Department;Curaren
+0;-86.8947,12.6277;NI-03;Chinandega Department;Los Portillos
+0;-86.5416,12.5544;NI-08;León Department;Los Portillos
+0;-86.8281,12.4770;NI-08;León Department;Los Pocitos
+0;-86.5524,13.7790;NI-13;Nueva Segovia Department;Los Planes
+0;-85.7445,12.9895;NI-12;Matagalpa Department;Los Placeres
+0;-86.0383,12.5633;NI-12;Matagalpa Department;Los Placeres de Las Playitas
+0;-86.5215,12.9169;NI-08;León Department;Los Peroles
+0;-86.1996,12.0012;NI-10;Managua Department;Barrio Los Ortices
+0;-86.0576,12.3114;NI-10;Managua Department;Los Novios
+0;-85.9087,12.4641;NI-01;Boaco Department;Los Negritos
+0;-86.4679,11.7972;NI-10;Managua Department;Los Navarrete
+0;-86.4019,11.8267;NI-02;Carazo Department;Los Narváez
+0;-84.9806,12.1689;NI-04;Chontales Department;Los Morenos
+0;-86.0306,11.7738;NI-06;Granada Department;Los Mollejones
+0;-84.8248,11.9899;NI-04;Chontales Department;Los Millones
+0;-85.9705,12.3860;NI-10;Managua Department;Los Menas
+0;-86.8701,12.6618;NI-08;León Department;Los Mangles
+0;-86.6173,12.9689;NI-08;León Department;Los Loras
+0;-86.5689,13.3079;NI-05;Estelí Department;Los Llanos
+0;-86.5912,12.9085;NI-08;León Department;Los Llanos
+0;-87.1777,12.7765;NI-03;Chinandega Department;Los Lirios
+0;-86.4259,12.9639;NI-08;León Department;Los Limones
+0;-86.5599,12.9119;NI-08;León Department;Los Limones
+0;-86.3404,12.8730;NI-08;León Department;Los Limones
+0;-85.3075,13.2400;NI-17;North Caribbean Coast;Santa Isabel
+0;-84.2009,12.1768;NI-18;South Caribbean Coast;Santa Rosa
+0;-86.5917,12.1706;NI-08;León Department;Copaltepe
+0;-86.4071,11.8216;NI-10;Managua Department;Los Gutiérrez del Sur
+0;-86.2800,11.8500;NI-02;Carazo Department;Los Gutiérrez
+0;-85.8094,12.7656;NI-12;Matagalpa Department;Los Guidos
+0;-86.3657,11.8594;NI-02;Carazo Department;Los Gagos
+0;-86.4753,13.4697;NI-09;Madriz Department;Los Encuentros
+0;-86.2435,11.7093;NI-02;Carazo Department;Los Encuentros
+0;-86.0464,13.8363;NI-13;Nueva Segovia Department;Los Encinos
+0;-86.8965,12.9771;NI-03;Chinandega Department;Los Diamantes
+0;-86.1493,11.8154;NI-02;Carazo Department;Los Cruces
+0;-85.8954,12.0878;NI-06;Granada Department;Los Cocos
+0;-85.2977,12.6554;NI-01;Boaco Department;Los Cimientos
+0;-85.9184,12.3889;NI-10;Managua Department;La Empanada
+0;-86.2766,13.0513;NI-05;Estelí Department;Los Chilamates
+0;-86.0337,13.0527;NI-07;Jinotega Department;Los Chagüites
+0;-86.4717,12.9524;NI-08;León Department;Los Cerritos
+0;-86.5142,12.6796;NI-08;León Department;Los Cerritos
+0;-84.9568,11.6790;NI-14;Río San Juan Department;Los Cerritos
+0;-86.3989,12.2185;NI-10;Managua Department;Vistas del Momotombo
+0;-86.0562,12.8848;NI-12;Matagalpa Department;Los Cardones
+0;-86.6273,13.0424;NI-08;León Department;Los Caraos
+0;-85.6064,13.3004;NI-08;León Department;Las Brisas (Los Caracoles)
+0;-86.0903,13.0469;NI-07;Jinotega Department;Los Calpules
+0;-87.0567,12.9838;NI-03;Chinandega Department;San Enrique
+0;-86.5557,13.4007;NI-05;Estelí Department;Los Calpules
+0;-85.1399,11.8543;NI-04;Chontales Department;Los Bueyes
+0;-85.9320,12.2682;NI-10;Managua Department;El Brasil
+0;-86.3624,12.1865;NI-10;Managua Department;Los Brasiles
+0;-86.1154,13.3291;NI-07;Jinotega Department;Los Bañaderos
+0;-86.3658,11.7934;NI-02;Carazo Department;Los Baltodanos
+0;-86.7746,12.3299;NI-08;León Department;Los Arcos
+0;-86.7630,13.2582;NI-03;Chinandega Department;Los Arados
+0;-87.0736,12.7349;NI-03;Chinandega Department;El Chonco
+0;-87.1703,12.6875;NI-03;Chinandega Department;Los Ángeles
+0;-83.7802,12.2363;NI-18;South Caribbean Coast;Los Ángeles
+0;-86.4667,12.0833;NI-10;Managua Department;Los Ángeles
+0;-86.0157,11.7319;NI-06;Granada Department;El Manchón
+0;-85.6939,11.4971;NI-15;Rivas Department;Los Ángeles
+0;-86.1010,12.0781;NI-11;Masaya Department;Guanacastillo
+0;-83.8475,12.1791;NI-18;South Caribbean Coast;Loma de Mico
+0;-86.4483,11.7509;NI-10;Managua Department;Loma Alegre
+0;-86.3093,13.0410;NI-05;Estelí Department;Llano Redondo
+0;-86.1639,13.0946;NI-05;Estelí Department;Llano Largo
+0;-85.9359,12.9625;NI-12;Matagalpa Department;Llano Grande
+0;-85.7665,12.3214;NI-01;Boaco Department;Llano Grande
+0;-85.4219,12.2234;NI-04;Chontales Department;Llano Grande
+0;-86.0222,11.9902;NI-11;Masaya Department;Llano Grande
+0;-86.2732,12.8428;NI-12;Matagalpa Department;Llano del Boquerón
+0;-85.8326,12.6076;NI-12;Matagalpa Department;Casas Nuevas
+0;-85.9648,12.8804;NI-12;Matagalpa Department;Limixto
+0;-83.5373,14.9633;NI-17;North Caribbean Coast;Living Creek
+0;-84.9697,13.3696;NI-17;North Caribbean Coast;Lisawé
+0;-83.6623,12.9029;NI-18;South Caribbean Coast;Pasmata
+0;-87.1751,12.4584;NI-08;León Department;Linda Vista
+0;-85.7412,11.3592;NI-15;Rivas Department;El Limón
+0;-84.0860,13.4829;NI-17;North Caribbean Coast;Limbaica
+0;-86.3171,12.9018;NI-05;Estelí Department;Limay
+0;-83.2654,14.4608;NI-17;North Caribbean Coast;Li-Dákura
+0;-86.1679,13.0440;NI-05;Estelí Department;El Hato de Licoroy
+0;-86.9240,12.6079;NI-03;Chinandega Department;El Guanacastal
+0;-86.4435,11.9201;NI-10;Managua Department;Los Leonardos
+144538;-86.8786,12.4353;NI-08;León Department;León
+0;-84.0951,14.7305;NI-17;North Caribbean Coast;Leimus
+0;-86.0679,11.6908;NI-06;Granada Department;La Zorra
+0;-86.5647,12.3090;NI-08;León Department;La Zopilota
+0;-86.5173,11.8489;NI-10;Managua Department;La Zopilota
+0;-83.6919,13.6661;NI-17;North Caribbean Coast;Layasiksa
+0;-83.4902,14.0492;NI-17;North Caribbean Coast;Lawa Place
+0;-85.8444,13.2973;NI-07;Jinotega Department;La Virgen
+0;-84.4526,12.2673;NI-18;South Caribbean Coast;La Virgen
+0;-85.8507,12.1317;NI-06;Granada Department;Ana Virgen Noble
+0;-86.0946,11.4883;NI-15;Rivas Department;La Virgen
+0;-85.7583,11.3724;NI-15;Rivas Department;La Virgen
+0;-85.9143,13.4812;NI-13;Nueva Segovia Department;La Vigía
+0;-85.8110,11.2637;NI-15;Rivas Department;Toro Venado
+0;-86.8728,12.3644;NI-08;León Department;La Veranera
+0;-85.2382,12.0091;NI-04;Chontales Department;La Vainilla
+0;-87.5383,12.8572;NI-03;Chinandega Department;La Vaca
+0;-86.1216,12.7486;NI-12;Matagalpa Department;La Uva
+0;-86.2107,12.5762;NI-10;Managua Department;La Uva
+0;-86.0311,12.4710;NI-10;Managua Department;La Uva
+0;-84.8994,13.5268;NI-17;North Caribbean Coast;La Unión
+0;-86.2635,12.7965;NI-12;Matagalpa Department;La Unión
+0;-85.6990,12.1885;NI-01;Boaco Department;Masapa
+0;-86.2353,12.9688;NI-05;Estelí Department;La Trinidad
+0;-85.2489,11.8339;NI-04;Chontales Department;El Guásimo
+0;-86.3823,12.1347;NI-10;Managua Department;La Trinidad
+0;-86.5029,11.9028;NI-10;Managua Department;La Trinidad
+0;-86.3330,11.7361;NI-02;Carazo Department;La Trinidad de Carazo
+0;-85.8877,11.3545;NI-15;Rivas Department;La Trinidad
+0;-84.1128,12.2314;NI-18;South Caribbean Coast;La Tortuga
+0;-84.4568,12.0315;NI-18;South Caribbean Coast;La Tortuga
+0;-86.3621,12.9700;NI-08;León Department;La Tejera
+0;-86.1232,13.6351;NI-13;Nueva Segovia Department;Las Vueltas
+0;-86.1022,13.3681;NI-07;Jinotega Department;Las Vegas
+0;-85.9512,12.9097;NI-12;Matagalpa Department;Las Tejas
+0;-86.6029,13.1092;NI-08;León Department;Las Tablas
+0;-86.4766,12.6900;NI-08;León Department;Las Tablas
+0;-86.1171,11.7926;NI-02;Carazo Department;Las Tablas
+1257;-86.6218,13.3430;NI-09;Madriz Department;Las Sabanas
+0;-86.1633,11.9549;NI-11;Masaya Department;La Sabanita
+0;-86.1152,13.2491;NI-07;Jinotega Department;Las Rinconadas
+0;-87.5382,13.0330;NI-03;Chinandega Department;Las Pozas
+0;-85.0284,12.8195;NI-18;South Caribbean Coast;Las Pozas
+0;-85.8148,12.2484;NI-06;Granada Department;El Rincón
+0;-86.0431,12.5738;NI-10;Managua Department;Las Playitas
+0;-86.0804,12.0526;NI-11;Masaya Department;Las Pilas Occidentales
+0;-86.5756,12.9522;NI-08;León Department;Las Pilas
+0;-86.0121,12.6337;NI-12;Matagalpa Department;Las Pilas
+0;-85.6924,12.3510;NI-01;Boaco Department;Laguna de San Onofre
+0;-86.4079,11.9750;NI-10;Managua Department;Las Pilas
+0;-85.5882,11.5129;NI-15;Rivas Department;Las Pilas
+0;-85.9716,11.3925;NI-15;Rivas Department;Las Pilas
+0;-85.8639,11.6388;NI-15;Rivas Department;Las Piedras
+0;-85.8499,11.4292;NI-15;Rivas Department;San Francisco
+0;-86.6360,12.4268;NI-08;León Department;Las Peraltas
+0;-85.8858,12.3883;NI-01;Boaco Department;Santa Isabel
+0;-87.0215,12.3614;NI-08;León Department;Las Peñitas
+0;-86.2699,12.9375;NI-05;Estelí Department;Las Pencas
+0;-85.7554,12.4613;NI-01;Boaco Department;Las Pencas
+0;-85.4789,12.7299;NI-12;Matagalpa Department;Las Pavas
+0;-84.4312,12.0274;NI-18;South Caribbean Coast;Las Pavas
+0;-85.2333,12.8667;NI-12;Matagalpa Department;Las Palomas
+0;-86.5729,12.9293;NI-08;León Department;Las Palmas
+0;-86.7103,12.7700;NI-08;León Department;Las Palancas
+0;-86.1337,12.6263;NI-12;Matagalpa Department;Las Nubes
+0;-86.9973,12.6157;NI-03;Chinandega Department;Carlos Espinoza (Las Nubes)
+0;-84.2979,12.3181;NI-18;South Caribbean Coast;Las Nubes
+0;-84.4408,12.1257;NI-18;South Caribbean Coast;Las Nubes
+0;-86.2863,12.0088;NI-11;Masaya Department;Las Nubes
+0;-85.2732,11.8742;NI-04;Chontales Department;Las Ñocas
+0;-86.4831,11.8811;NI-10;Managua Department;Las Nambiras
+0;-85.3833,12.8333;NI-12;Matagalpa Department;Las Minitas
+0;-86.0391,13.0831;NI-07;Jinotega Department;Las Mesitas
+0;-86.0015,12.4678;NI-10;Managua Department;Las Mesas de Acicaya
+0;-86.9631,12.9832;NI-03;Chinandega Department;Las Mesas
+0;-85.9385,11.5666;NI-15;Rivas Department;Las Mesas
+0;-85.5333,12.9000;NI-12;Matagalpa Department;Las Mercedes
+0;-86.4723,12.8412;NI-08;León Department;Las Mercedes
+0;-86.9333,12.6167;NI-03;Chinandega Department;Las Mercedes
+0;-86.9833,12.5000;NI-08;León Department;Las Mercedes
+0;-86.7767,12.4437;NI-08;León Department;Las Mercedes
+0;-86.7374,12.3992;NI-08;León Department;Las Navajuelas
+0;-86.3177,11.7972;NI-02;Carazo Department;Las Mercedes
+0;-85.8340,12.5602;NI-01;Boaco Department;Las Masís
+0;-86.8620,12.6672;NI-08;León Department;Las Marías
+0;-86.5696,13.7921;NI-13;Nueva Segovia Department;Las Manos
+0;-86.2157,12.8378;NI-12;Matagalpa Department;Las Mangas
+0;-85.7357,11.1387;NI-15;Rivas Department;Montecristo
+0;-86.0402,12.4464;NI-10;Managua Department;Las Maderas
+0;-86.0966,12.6960;NI-12;Matagalpa Department;Las Limas
+0;-83.8426,12.2359;NI-18;South Caribbean Coast;Las Limas
+0;-86.4024,11.8934;NI-10;Managua Department;Las Lapas
+0;-86.2972,12.9957;NI-05;Estelí Department;Santa Cruz
+0;-86.6812,12.3092;NI-08;León Department;Las Lajitas
+0;-85.4081,12.1292;NI-04;Chontales Department;Las Lajitas
+0;-86.0701,13.2938;NI-07;Jinotega Department;Las Lajas
+0;-85.4402,12.4709;NI-01;Boaco Department;La Codorniz
+0;-85.7287,12.3166;NI-01;Boaco Department;Las Lajas
+0;-85.6142,12.4681;NI-01;Boaco Department;Las Lagunas
+0;-86.2086,12.0961;NI-10;Managua Department;Las Jagüitas
+0;-86.3693,13.1779;NI-05;Estelí Department;La Sirena
+0;-86.7717,12.6830;NI-08;León Department;La Sirena
+0;-85.7632,12.2329;NI-01;Boaco Department;Las Guabas
+0;-86.8820,12.7331;NI-03;Chinandega Department;Las Grietas
+0;-86.0370,11.9943;NI-11;Masaya Department;Las Flores
+0;-86.2500,11.8833;NI-02;Carazo Department;Santa Clara
+0;-87.5824,12.8366;NI-03;Chinandega Department;Las Enramadas
+0;-86.7704,13.2050;NI-03;Chinandega Department;Las Enramadas
+0;-86.1880,11.7620;NI-02;Carazo Department;Las Enramadas
+0;-85.9842,11.6705;NI-15;Rivas Department;Las Enramadas
+0;-85.2542,13.2586;NI-12;Matagalpa Department;Las Delicias
+0;-86.8667,12.6667;NI-08;León Department;Las Delicias
+0;-85.9757,12.2631;NI-10;Managua Department;Las Delicias
+0;-85.8481,12.1900;NI-06;Granada Department;La Trinidad No 2
+0;-86.0538,11.5311;NI-15;Rivas Department;Las Delicias
+0;-86.3041,11.7519;NI-02;Carazo Department;Las Cuchillas
+0;-85.8996,12.7473;NI-08;León Department;Las Cuchillas
+0;-85.4906,11.4663;NI-15;Rivas Department;Las Cuchillas
+0;-87.0780,12.6429;NI-03;Chinandega Department;La Mora
+0;-86.1170,11.8573;NI-11;Masaya Department;Las Crucitas
+0;-86.0824,13.5975;NI-13;Nueva Segovia Department;Las Cruces
+0;-86.4594,12.9045;NI-08;León Department;Las Cruces
+0;-87.2774,12.6640;NI-03;Chinandega Department;La Castilla
+0;-85.7518,13.1458;NI-12;Matagalpa Department;Las Conchitas
+0;-86.3105,11.9718;NI-11;Masaya Department;Las Conchitas
+0;-86.0354,11.7515;NI-06;Granada Department;Las Conchitas
+0;-86.8975,12.5693;NI-08;León Department;Las Colinas
+0;-86.7855,12.3501;NI-08;León Department;Las Castillos
+0;-86.2142,12.7377;NI-12;Matagalpa Department;Las Casas Viejas
+0;-86.1121,11.5409;NI-15;Rivas Department;Las Cañas de Arriba
+0;-86.6318,12.9539;NI-08;León Department;La Herradura
+0;-86.1475,11.5287;NI-15;Rivas Department;Las Cañas de García Abajo
+0;-86.2134,12.9365;NI-05;Estelí Department;Las Cañas
+0;-85.9093,13.1087;NI-07;Jinotega Department;Las Camelias
+0;-86.3126,12.9951;NI-05;Estelí Department;Las Cámaras
+0;-86.0881,12.6663;NI-12;Matagalpa Department;Valle Las Calabazas
+0;-86.0451,11.5391;NI-15;Rivas Department;Las Cabras
+0;-84.7949,13.6196;NI-17;North Caribbean Coast;Las Brisas
+0;-87.0203,12.6165;NI-03;Chinandega Department;Pellizco Central
+0;-86.7307,12.4377;NI-08;León Department;Las Brisas
+0;-86.0667,11.7500;NI-06;Granada Department;Las Brisas
+0;-85.9543,12.3304;NI-10;Managua Department;Las Banderas
+0;-85.7868,12.8097;NI-12;Matagalpa Department;Pueblo Viejo
+0;-86.5550,12.9669;NI-08;León Department;La Sabana
+7703;-86.5712,12.6761;NI-08;León Department;Larreynaga
+0;-84.4028,13.9150;NI-17;North Caribbean Coast;Rosita
+0;-85.0157,13.6432;NI-17;North Caribbean Coast;La Rosa Grande
+0;-85.7941,12.9550;NI-12;Matagalpa Department;La Rosa
+0;-86.0658,13.4779;NI-07;Jinotega Department;El Caracol
+0;-86.0377,13.4086;NI-07;Jinotega Department;La Rica
+0;-83.8243,12.4491;NI-18;South Caribbean Coast;Larga Vista
+0;-86.4701,12.6105;NI-08;León Department;La Reseda
+0;-86.1851,12.7298;NI-12;Matagalpa Department;La Remonta
+0;-85.7121,12.3132;NI-01;Boaco Department;La Rejoya
+0;-85.8128,12.9152;NI-12;Matagalpa Department;La Reina
+0;-86.7500,12.1667;NI-08;León Department;La Quesera
+0;-86.0968,11.6095;NI-15;Rivas Department;La Punta
+0;-85.3227,12.1865;NI-04;Chontales Department;La Puerta
+0;-86.3365,11.9764;NI-10;Managua Department;La Providencia
+0;-85.9776,12.2419;NI-10;Managua Department;La Presita
+0;-86.6167,12.2333;NI-08;León Department;La Presa
+0;-86.1692,11.6364;NI-02;Carazo Department;La Pitilla
+0;-86.1909,12.7536;NI-12;Matagalpa Department;La Pitahaya
+0;-86.7091,12.7085;NI-08;León Department;La Pitahaya
+0;-85.7627,13.3825;NI-07;Jinotega Department;La Pita de El Carmen
+0;-87.3218,12.7553;NI-03;Chinandega Department;Chimaltepe
+0;-85.9348,12.7756;NI-12;Matagalpa Department;La Pita
+0;-87.2856,12.6086;NI-03;Chinandega Department;La Pita
+0;-85.6719,12.4415;NI-01;Boaco Department;La Pita
+0;-85.6689,12.2789;NI-01;Boaco Department;El Llano
+0;-86.2142,11.7941;NI-02;Carazo Department;La Pita
+0;-86.1436,11.6237;NI-02;Carazo Department;La Pita
+0;-86.2114,11.6046;NI-02;Carazo Department;La Piñuela
+0;-86.3915,13.0806;NI-05;Estelí Department;La Pintada
+0;-86.1005,11.7119;NI-06;Granada Department;La Pintada
+0;-85.2810,11.8472;NI-04;Chontales Department;La Pila del Guásimo
+0;-86.1981,11.7598;NI-02;Carazo Department;La Piedra Pintada
+0;-86.0159,12.0483;NI-11;Masaya Department;La Piedra
+0;-85.6335,12.9557;NI-12;Matagalpa Department;La Perla
+0;-85.6695,12.2081;NI-01;Boaco Department;Las Peñitas
+0;-86.9061,12.6787;NI-03;Chinandega Department;La Pelona
+0;-86.6989,12.3469;NI-08;León Department;La Paz Vieja
+2454;-86.1278,11.8231;NI-02;Carazo Department;La Paz de Carazo
+23481;-86.6753,12.3400;NI-08;León Department;La Paz Centro
+0;-85.8072,13.3312;NI-07;Jinotega Department;La Pavona Abajo
+0;-85.3695,12.9744;NI-12;Matagalpa Department;La Patriota
+0;-83.7768,13.8748;NI-17;North Caribbean Coast;Lapan
+0;-86.9508,12.4578;NI-08;León Department;La Trinidad
+0;-86.9083,12.4165;NI-08;León Department;Las Playitas
+0;-85.7075,12.1081;NI-01;Boaco Department;La Palma
+0;-85.2629,12.0305;NI-04;Chontales Department;La Palma
+0;-85.8976,13.0751;NI-07;Jinotega Department;La Palestina
+0;-85.8865,12.2725;NI-06;Granada Department;La Palanca
+0;-86.3047,12.9452;NI-05;Estelí Department;La Pacaya
+0;-86.0405,11.7828;NI-06;Granada Department;La Orilla
+0;-86.4283,12.8652;NI-08;León Department;La Morada
+0;-85.0667,12.2500;NI-01;Boaco Department;La Montañita
+0;-86.4247,12.8928;NI-08;León Department;La Montaña
+0;-86.5126,12.7009;NI-08;León Department;La Montaña
+0;-86.3929,12.5865;NI-08;León Department;La Montaña
+0;-85.9251,11.4892;NI-15;Rivas Department;San José de La Montaña
+0;-86.3574,12.6024;NI-10;Managua Department;Las Mojarras
+0;-86.1753,11.7009;NI-02;Carazo Department;La Mohosa
+0;-83.4189,14.0238;NI-17;North Caribbean Coast;Lamlaya
+0;-86.7911,12.7317;NI-08;León Department;La Milpa
+0;-86.1577,12.0486;NI-11;Masaya Department;Piedra Menuda
+0;-85.4909,14.0868;NI-07;Jinotega Department;La Marrana
+0;-86.8247,12.2826;NI-08;León Department;Salto Quesada
+0;-86.3093,11.9210;NI-02;Carazo Department;La Marcheneña
+0;-86.0978,13.5377;NI-09;Madriz Department;Cerro Blanco
+0;-85.9600,13.6213;NI-13;Nueva Segovia Department;La Luz
+0;-85.8988,12.8492;NI-12;Matagalpa Department;La Luz
+0;-85.7743,12.9712;NI-12;Matagalpa Department;La Lima
+3127;-85.1659,12.2164;NI-04;Chontales Department;La Libertad
+0;-85.8318,12.9306;NI-12;Matagalpa Department;La Leonesa
+0;-85.7589,11.1593;NI-15;Rivas Department;La Tortuga
+0;-86.3009,13.0513;NI-05;Estelí Department;La Lagunillas
+0;-86.3416,12.9634;NI-08;León Department;La Laguna
+0;-87.3469,12.6897;NI-03;Chinandega Department;La Laguna
+0;-85.9374,11.5482;NI-15;Rivas Department;La Lagarta
+0;-86.1829,13.6569;NI-13;Nueva Segovia Department;La Jumuyca
+0;-85.7302,12.3405;NI-01;Boaco Department;La Joya
+0;-86.0913,12.7649;NI-12;Matagalpa Department;La Jagua
+0;-86.3831,12.8718;NI-08;León Department;La Jabilla
+0;-85.1852,11.7377;NI-04;Chontales Department;La Horqueta
+0;-86.1732,11.6706;NI-02;Carazo Department;La Hormiga
+0;-86.2680,12.0145;NI-10;Managua Department;La Historia
+0;-85.7775,12.8385;NI-12;Matagalpa Department;Laguna Seca
+6809;-83.6712,12.3429;NI-18;South Caribbean Coast;Pearl City
+0;-85.8257,11.7149;NI-06;Granada Department;La Guinea
+0;-85.8149,12.4715;NI-01;Boaco Department;La Guayaba
+0;-86.1938,13.1503;NI-07;Jinotega Department;La Guanábana
+0;-86.2884,12.8903;NI-05;Estelí Department;El Espinito
+0;-86.5724,13.1808;NI-05;Estelí Department;La Grecia
+0;-86.8500,12.4333;NI-08;León Department;La Granja
+0;-86.4082,11.9321;NI-10;Managua Department;La Granja
+0;-86.2484,11.8304;NI-02;Carazo Department;La Grandeza
+0;-86.0257,11.8076;NI-06;Granada Department;La Granadilla
+0;-84.6449,12.0215;NI-18;South Caribbean Coast;La Gorra
+0;-87.1554,12.6312;NI-03;Chinandega Department;La Gaveta
+0;-84.7791,11.9985;NI-04;Chontales Department;La Gateada
+0;-85.8631,12.9366;NI-12;Matagalpa Department;La Garita
+0;-85.7790,11.4332;NI-15;Rivas Department;Cangrejal
+0;-85.9120,13.0599;NI-07;Jinotega Department;La Fundadora
+0;-86.2805,12.0223;NI-10;Managua Department;La Fundadora
+0;-86.5807,12.5407;NI-08;León Department;La Fuente
+0;-85.9982,11.8796;NI-06;Granada Department;La Fuente
+0;-85.2694,12.8408;NI-12;Matagalpa Department;La Fortuna
+0;-84.3941,12.3721;NI-18;South Caribbean Coast;La Florida
+0;-86.0094,12.5301;NI-10;Managua Department;La Flor
+0;-86.1123,11.6093;NI-15;Rivas Department;La Flor
+0;-85.6569,11.5711;NI-15;Rivas Department;La Flor
+0;-85.0289,11.5674;NI-14;Río San Juan Department;La Flor
+0;-85.9375,11.3846;NI-15;Rivas Department;La Flor
+0;-85.7844,11.1402;NI-15;Rivas Department;La Flor
+0;-83.7532,12.4803;NI-18;South Caribbean Coast;La Fé
+0;-84.3081,11.2412;NI-14;Río San Juan Department;Nueva Quesada
+0;-85.9141,12.8272;NI-12;Matagalpa Department;La Estrella
+0;-87.2076,12.6699;NI-03;Chinandega Department;La Estrella
+0;-85.7208,12.0988;NI-01;Boaco Department;El Maniadero
+0;-86.1616,13.2587;NI-07;Jinotega Department;Los Mollejones
+0;-84.8091,13.2293;NI-17;North Caribbean Coast;La Estrechura
+0;-86.0908,13.0192;NI-07;Jinotega Department;La Estancia
+0;-85.8829,13.2363;NI-07;Jinotega Department;La Esperanza
+0;-86.8464,12.9884;NI-03;Chinandega Department;La Esperanza
+0;-85.7587,12.8279;NI-12;Matagalpa Department;La Esperanza
+0;-87.1893,12.6948;NI-03;Chinandega Department;La Esperanza
+0;-85.5337,12.5721;NI-01;Boaco Department;La Esperanza
+0;-84.2881,12.1994;NI-18;South Caribbean Coast;La Esperanza
+0;-85.9047,11.3180;NI-15;Rivas Department;La Esperanza
+0;-85.7668,11.2015;NI-15;Rivas Department;Los Collados
+0;-86.8751,12.7080;NI-03;Chinandega Department;La Española
+0;-85.8496,13.0006;NI-12;Matagalpa Department;La Cumplida
+0;-85.7520,12.8216;NI-12;Matagalpa Department;La Cuesta de Apatite
+0;-85.8399,11.2880;NI-15;Rivas Department;La Cuesta
+1669;-84.1859,13.1129;NI-18;South Caribbean Coast;La Cruz de Río Grande
+0;-86.3022,12.7483;NI-08;León Department;La Cruz de La India
+0;-85.8290,12.4183;NI-01;Boaco Department;La Cruz
+0;-86.2064,11.9193;NI-02;Carazo Department;Barrio de La Cruz
+0;-86.2667,12.0667;NI-10;Managua Department;La Crisálida
+0;-87.0389,12.4625;NI-08;León Department;La Coyotera
+0;-86.0379,12.9676;NI-12;Matagalpa Department;La Corneta
+0;-85.7587,12.9555;NI-12;Matagalpa Department;La Constancia
+919;-86.1928,11.7343;NI-02;Carazo Department;La Conquista
+2249;-86.1666,13.1953;NI-07;Jinotega Department;La Concordia
+0;-85.8780,12.3650;NI-01;Boaco Department;La Concha
+0;-84.2308,12.0659;NI-18;South Caribbean Coast;Julio Buitrago
+0;-86.3719,13.5006;NI-09;Madriz Department;La Concepción
+0;-86.1284,12.8917;NI-12;Matagalpa Department;La Concepción
+0;-86.7031,12.8733;NI-03;Chinandega Department;La Concepción
+0;-85.7606,12.5339;NI-01;Boaco Department;La Concepción
+6946;-86.1898,11.9371;NI-11;Masaya Department;La Concepción
+0;-85.6735,11.5556;NI-15;Rivas Department;La Concepción
+0;-85.9895,11.8544;NI-06;Granada Department;La Chuscada
+0;-86.1851,11.6478;NI-02;Carazo Department;La Cholpa
+0;-85.8476,11.3947;NI-15;Rivas Department;La Chocolata
+0;-86.6685,13.7641;NI-13;Nueva Segovia Department;La Chinampa
+0;-86.0966,12.7979;NI-12;Matagalpa Department;La China
+0;-87.5008,12.8799;NI-03;Chinandega Department;Gaspar García Laviana
+0;-86.7310,13.1855;NI-05;Estelí Department;Las Chácaras
+0;-85.6379,12.4525;NI-01;Boaco Department;Cerro Largo
+0;-86.8167,12.4000;NI-08;León Department;La Ceiba
+0;-86.5072,11.9446;NI-10;Managua Department;La Ceiba
+0;-86.0787,12.0869;NI-11;Masaya Department;La Carbonera
+0;-85.9883,11.6828;NI-06;Granada Department;El Iguanero
+0;-87.0879,12.8307;NI-03;Chinandega Department;La Canoa
+0;-84.1688,12.1979;NI-18;South Caribbean Coast;La Cándida
+0;-86.2333,13.0333;NI-05;Estelí Department;La Cañada
+0;-86.0748,12.2401;NI-10;Managua Department;La Campana
+0;-86.0862,11.6692;NI-06;Granada Department;La Camaroncita
+0;-86.0750,11.6327;NI-06;Granada Department;La Camarona
+0;-85.9414,11.9795;NI-06;Granada Department;La Calzada
+0;-86.5392,12.6341;NI-08;León Department;Calle Real de Tolapa
+0;-86.5541,12.1110;NI-08;León Department;Calle Daniel Playa Hermosa Amador
+0;-86.5148,11.9175;NI-10;Managua Department;La California
+0;-86.6230,13.0674;NI-08;León Department;La Calera
+0;-85.9439,11.8578;NI-06;Granada Department;La Calera
+0;-86.0949,11.7263;NI-02;Carazo Department;La Calera
+0;-85.3352,12.4625;NI-01;Boaco Department;La Calamidad
+0;-84.0405,12.8801;NI-18;South Caribbean Coast;El Torro Negro
+0;-84.9334,13.5609;NI-17;North Caribbean Coast;Labú
+0;-86.0510,11.7803;NI-06;Granada Department;La Breña
+0;-86.3824,11.6783;NI-02;Carazo Department;La Boquita
+0;-84.7898,13.7587;NI-17;North Caribbean Coast;La Bomba
+0;-86.1838,11.9325;NI-11;Masaya Department;La Bolsa
+0;-84.5984,13.9353;NI-17;North Caribbean Coast;La Bodega
+0;-86.2541,12.4298;NI-10;Managua Department;La Bocana
+0;-85.8324,11.3018;NI-15;Rivas Department;La Boca de La Montaña
+0;-84.6189,12.0483;NI-18;South Caribbean Coast;La Batea
+0;-86.2771,11.9138;NI-02;Carazo Department;La Barranca
+0;-86.0405,11.7983;NI-06;Granada Department;La Barranca
+0;-83.5245,12.9070;NI-18;South Caribbean Coast;La Barra de Río Grande
+0;-84.6308,11.1567;NI-14;Río San Juan Department;La Azucena
+0;-86.1091,12.1654;NI-10;Managua Department;San Rafael
+0;-85.9729,12.4483;NI-10;Managua Department;La Avellana
+0;-86.2667,12.0833;NI-10;Managua Department;La Aurora
+0;-85.9761,11.8482;NI-06;Granada Department;La Asunción
+0;-86.9294,12.4520;NI-08;León Department;Abangasca Sur
+0;-86.2500,12.1167;NI-10;Managua Department;La Argentina
+0;-86.3411,11.9441;NI-10;Managua Department;La Amistad
+0;-85.5722,12.9810;NI-12;Matagalpa Department;La Alianza
+0;-86.1240,11.4800;NI-15;Rivas Department;La Albina
+0;-83.9206,14.4868;NI-17;North Caribbean Coast;Kuyu Tingni
+0;-85.4278,13.1240;NI-12;Matagalpa Department;Kuskawás
+0;-84.1674,13.4674;NI-17;North Caribbean Coast;Kurin Dan
+0;-83.5022,14.5658;NI-17;North Caribbean Coast;Kuri
+0;-83.7142,14.8110;NI-17;North Caribbean Coast;Kum
+0;-83.7452,12.2410;NI-18;South Caribbean Coast;Kukra Hill
+0;-83.6981,13.7089;NI-17;North Caribbean Coast;Kukalaya
+0;-84.7842,13.4850;NI-17;North Caribbean Coast;Kuikuina Grande
+0;-83.6339,13.9619;NI-17;North Caribbean Coast;Kugna
+0;-83.6029,13.3182;NI-17;North Caribbean Coast;Kuanwatla
+0;-83.5181,14.2106;NI-17;North Caribbean Coast;Kuakuil
+861;-83.3077,14.1684;NI-17;North Caribbean Coast;Krukira
+0;-84.7307,14.7018;NI-17;North Caribbean Coast;Krasa
+0;-86.0091,12.9224;NI-12;Matagalpa Department;El Guayacán
+0;-84.4340,14.5818;NI-17;North Caribbean Coast;Kligna
+0;-83.8553,14.7663;NI-17;North Caribbean Coast;Klark
+0;-83.6067,14.8994;NI-17;North Caribbean Coast;Klam
+0;-83.6924,14.8779;NI-17;North Caribbean Coast;Kiwás Tara
+0;-84.6034,14.6570;NI-17;North Caribbean Coast;Kitaski
+0;-85.5092,13.6320;NI-07;Jinotega Department;Kununuwás
+0;-85.1732,14.3132;NI-07;Jinotega Department;San Andrés de Amaywás
+0;-84.0229,14.7411;NI-17;North Caribbean Coast;Kisalaya
+0;-85.7829,13.5503;NI-07;Jinotega Department;Kilambé
+0;-84.1333,13.1667;NI-18;South Caribbean Coast;Kiawás
+0;-84.5502,14.6552;NI-17;North Caribbean Coast;Kauru Tingni
+0;-83.2770,14.4730;NI-17;North Caribbean Coast;Kaska
+0;-83.5772,12.9307;NI-18;South Caribbean Coast;Karawala
+0;-83.4809,13.9254;NI-17;North Caribbean Coast;Karatá
+0;-83.5839,12.8939;NI-18;South Caribbean Coast;Kara
+0;-84.0734,13.2032;NI-18;South Caribbean Coast;Kansas City
+0;-84.9356,13.1847;NI-12;Matagalpa Department;Kangrina
+0;-83.4028,14.0780;NI-17;North Caribbean Coast;Kambla
+0;-83.9758,12.1558;NI-18;South Caribbean Coast;Kama
+0;-84.0118,13.6117;NI-17;North Caribbean Coast;Kakaubila
+0;-83.7241,12.3965;NI-18;South Caribbean Coast;Kahkabila
+50000;-85.3655,12.1059;NI-04;Chontales Department;Juigalpa
+0;-85.9449,12.8720;NI-12;Matagalpa Department;Jucuapa Arriba
+0;-85.9988,12.8681;NI-12;Matagalpa Department;Jucuapa Abajo
+0;-87.0185,12.5976;NI-03;Chinandega Department;Sirama
+0;-86.7770,13.2574;NI-03;Chinandega Department;Jocomico
+0;-86.0542,13.0080;NI-07;Jinotega Department;Jocomico
+0;-85.9172,11.5392;NI-15;Rivas Department;Jocomico
+4142;-87.4516,12.7459;NI-03;Chinandega Department;Jiquilillo
+29507;-86.1992,11.8483;NI-02;Carazo Department;Jinotepe
+55000;-86.0023,13.0910;NI-07;Jinotega Department;Jinotega
+0;-86.8336,13.1303;NI-03;Chinandega Department;Valle El Jiñocuabo
+0;-86.8054,12.5159;NI-08;León Department;El Morral
+0;-86.5348,12.6729;NI-08;León Department;Jesús María
+0;-87.0169,12.5562;NI-03;Chinandega Department;Jesús María
+0;-86.8517,12.4518;NI-08;León Department;Santa María
+0;-84.5028,11.7601;NI-18;South Caribbean Coast;Colonia Agrícola Jerusalén
+0;-85.6929,12.7881;NI-12;Matagalpa Department;Rodeo Siles
+24037;-86.1235,13.9222;NI-13;Nueva Segovia Department;Jalapa
+0;-86.7365,12.2674;NI-08;León Department;Empalme Izapa
+0;-85.2667,13.4167;NI-12;Matagalpa Department;Iyás
+0;-86.4800,12.0536;NI-10;Managua Department;Monte Fresco
+0;-83.7448,13.7994;NI-17;North Caribbean Coast;Isnawás
+0;-83.5799,13.8661;NI-17;North Caribbean Coast;Iskri
+0;-86.2254,13.1167;NI-05;Estelí Department;Isiquí
+0;-86.3275,13.1287;NI-05;Estelí Department;Isidrillo
+0;-86.2830,11.9650;NI-10;Managua Department;Isabel Grande
+0;-85.1887,14.4140;NI-07;Jinotega Department;Inipuwás
+0;-86.5014,12.0622;NI-10;Managua Department;Ingenio Santa Rita
+0;-86.9200,12.5063;NI-08;León Department;Vieja Estación Ferrocarril de Quezalguaque
+0;-87.0449,12.5326;NI-03;Chinandega Department;Ingenio San Antonio
+0;-85.7909,12.9943;NI-12;Matagalpa Department;Ilapo
+0;-86.6873,13.6300;NI-09;Madriz Department;Icalupe
+0;-86.1448,13.6532;NI-13;Nueva Segovia Department;La Pimienta
+0;-86.2202,11.6419;NI-02;Carazo Department;Huiste
+0;-83.5122,13.6911;NI-17;North Caribbean Coast;Haulover
+0;-83.6727,12.3226;NI-18;South Caribbean Coast;Haulover
+0;-83.8229,11.0977;NI-18;South Caribbean Coast;Haulover
+0;-86.6226,12.9158;NI-08;León Department;Hato Viejo
+0;-86.6220,12.9426;NI-08;León Department;Hato Nuevo
+0;-86.8051,12.3805;NI-08;León Department;Hato Grande
+0;-86.0357,12.1518;NI-11;Masaya Department;Hato Grande
+0;-85.4317,11.9892;NI-04;Chontales Department;Hato Grande
+0;-87.3910,12.7955;NI-03;Chinandega Department;Hato de La Virgen
+0;-86.0275,12.8428;NI-12;Matagalpa Department;Hatillo
+0;-84.9549,12.0229;NI-04;Chontales Department;Hamacas
+0;-85.7095,12.4364;NI-01;Boaco Department;Güiscoyol
+0;-85.5981,12.4500;NI-01;Boaco Department;Guirruca
+0;-86.1811,11.8217;NI-02;Carazo Department;Güiquiliapa
+0;-85.1167,12.8833;NI-18;South Caribbean Coast;Güilique
+0;-86.0038,11.4560;NI-15;Rivas Department;Guastomate
+0;-85.5400,12.9403;NI-12;Matagalpa Department;El Guasimón
+0;-85.6076,12.9980;NI-12;Matagalpa Department;Guapotal
+0;-85.8241,12.2239;NI-06;Granada Department;Guapinolapa
+0;-86.0514,12.5118;NI-10;Managua Department;Guapinol
+0;-86.7758,12.4924;NI-08;León Department;La Chilena
+0;-86.3261,12.8395;NI-08;León Department;El Guanacaste
+0;-85.9671,13.5057;NI-13;Nueva Segovia Department;Guaná
+0;-85.8380,12.8845;NI-12;Matagalpa Department;Guadalupe
+0;-86.7534,12.7982;NI-03;Chinandega Department;Guadalupe
+0;-84.2371,11.9920;NI-18;South Caribbean Coast;Guadalupe
+0;-85.6639,11.1897;NI-15;Rivas Department;Guadalupe
+0;-85.9390,11.7350;NI-06;Granada Department;Guachipilín
+0;-83.3145,14.4626;NI-17;North Caribbean Coast;Kingstown
+0;-87.1094,12.6659;NI-03;Chinandega Department;La Grecia
+89409;-85.9537,11.9306;NI-06;Granada Department;Granada
+0;-86.1498,11.6630;NI-02;Carazo Department;Gómez
+0;-86.7106,12.9578;NI-03;Chinandega Department;Genízaro
+0;-87.3648,12.6645;NI-03;Chinandega Department;Manzanillo
+0;-84.4329,13.9182;NI-17;North Caribbean Coast;Fruta de Pan
+0;-84.2282,12.3885;NI-18;South Caribbean Coast;Fruta de Pan
+0;-85.0033,12.2884;NI-04;Chontales Department;Fruta de Pan
+0;-83.7646,10.9792;NI-14;Río San Juan Department;Bread Fruit
+0;-85.7066,12.3281;NI-01;Boaco Department;Monte Fresco
+0;-87.1185,12.5909;NI-03;Chinandega Department;Filadelfia
+0;-86.1785,11.8909;NI-02;Carazo Department;Fátima
+96422;-86.3559,13.0929;NI-05;Estelí Department;Estelí
+0;-86.3508,13.0234;NI-05;Estelí Department;La Estanzuela
+0;-85.6809,12.7420;NI-12;Matagalpa Department;Los Ramos
+0;-84.6488,14.6703;NI-17;North Caribbean Coast;Esquipulas
+0;-87.2449,12.7872;NI-03;Chinandega Department;Tecomatepe
+0;-85.7873,12.6645;NI-12;Matagalpa Department;Esquipulas
+0;-86.2158,12.0746;NI-10;Managua Department;Comarca Esquipulas
+0;-86.0962,11.8243;NI-02;Carazo Department;Esquipulas
+0;-85.7060,11.5067;NI-15;Rivas Department;Esquipulas
+0;-85.6100,12.2764;NI-01;Boaco Department;Espíritu Santo
+0;-85.6649,12.9264;NI-12;Matagalpa Department;Escocia
+0;-85.8036,11.2028;NI-15;Rivas Department;Escamequita
+0;-86.0437,11.6084;NI-15;Rivas Department;Escalante
+0;-84.9821,12.5748;NI-18;South Caribbean Coast;Ermita El Castillo
+0;-86.3016,11.9383;NI-02;Carazo Department;Emperatriz
+0;-85.6617,12.9352;NI-12;Matagalpa Department;La Verbena
+0;-85.8867,12.7926;NI-12;Matagalpa Department;El Zarzal
+0;-86.1471,12.7745;NI-12;Matagalpa Department;El Zarzal
+0;-86.0448,13.6195;NI-13;Nueva Segovia Department;El Zapotillal
+0;-86.4407,13.5868;NI-13;Nueva Segovia Department;El Zapote
+0;-86.5290,13.5222;NI-09;Madriz Department;El Zapote
+0;-86.7943,13.2100;NI-03;Chinandega Department;El Zapote
+0;-85.3582,12.9498;NI-12;Matagalpa Department;El Zapote
+0;-85.9253,12.7383;NI-12;Matagalpa Department;El Zapote
+0;-85.6694,12.3578;NI-01;Boaco Department;El Zapote
+0;-85.6793,12.1760;NI-01;Boaco Department;El Zapote
+0;-86.4777,11.9406;NI-10;Managua Department;El Zapote
+0;-86.5800,11.8920;NI-10;Managua Department;El Zapote
+0;-86.0203,11.5332;NI-15;Rivas Department;El Zapote
+0;-84.7306,11.6743;NI-14;Río San Juan Department;El Zapotal
+53504;-87.1666,12.6635;NI-03;Chinandega Department;El Viejo
+0;-85.1823,12.9321;NI-18;South Caribbean Coast;Empalme de Wanawa
+0;-85.9818,11.9056;NI-06;Granada Department;El Barillal
+0;-86.7042,12.6594;NI-08;León Department;El Petén
+0;-86.5697,12.2365;NI-08;León Department;Valle de Jesús
+0;-86.0084,12.8158;NI-12;Matagalpa Department;Potrero Largo
+0;-85.8483,11.2478;NI-15;Rivas Department;El Valle
+0;-86.7043,12.8817;NI-03;Chinandega Department;El Tunalito
+0;-85.7451,13.0627;NI-12;Matagalpa Department;El Tuma
+0;-86.2450,13.3243;NI-05;Estelí Department;El Tule
+0;-86.3189,12.7085;NI-08;León Department;El Tule
+0;-85.5677,12.4781;NI-14;Río San Juan Department;El Tule
+0;-85.7073,12.3894;NI-01;Boaco Department;El Tule
+0;-85.4453,12.2379;NI-04;Chontales Department;El Tule
+0;-85.0915,12.8857;NI-18;South Caribbean Coast;El Trompillo
+0;-86.9921,12.5258;NI-03;Chinandega Department;El Trianón
+0;-86.4854,13.4452;NI-09;Madriz Department;El Trapichito
+0;-85.3774,12.7162;NI-01;Boaco Department;El Trapichito
+0;-86.8674,12.3789;NI-08;León Department;Los Ángeles
+0;-85.8201,12.3053;NI-01;Boaco Department;El Trapiche
+0;-86.7042,12.0548;NI-08;León Department;El Tránsito
+0;-86.9404,12.5984;NI-03;Chinandega Department;El Torreón Nuevo
+0;-85.0709,12.9307;NI-18;South Caribbean Coast;El Toro
+0;-86.3167,12.0222;NI-10;Managua Department;El Tizate
+0;-86.6848,12.0342;NI-08;León Department;El Tinco
+0;-86.3010,11.8485;NI-02;Carazo Department;El Tigre
+0;-85.3399,11.1384;NI-15;Rivas Department;El Tigre
+0;-85.8055,12.6725;NI-12;Matagalpa Department;El Terrero
+0;-86.0986,12.5866;NI-10;Managua Department;El Terrero
+0;-86.0044,12.5463;NI-10;Managua Department;El Terrero
+0;-87.0670,12.7521;NI-03;Chinandega Department;San Cayetano
+0;-85.8902,12.7262;NI-12;Matagalpa Department;El Tempisque
+0;-85.9844,13.0163;NI-07;Jinotega Department;El Tanque
+0;-86.3004,12.7950;NI-08;León Department;El Tanque
+0;-86.9436,12.5243;NI-08;León Department;El Tanque
+0;-86.0084,11.4160;NI-15;Rivas Department;El Tambor
+0;-86.1119,12.7210;NI-12;Matagalpa Department;El Tamarindo
+0;-86.7233,12.2373;NI-08;León Department;El Tamarindo
+0;-86.4856,11.8415;NI-10;Managua Department;El Tamarindo
+0;-86.8710,12.3963;NI-08;León Department;El Talchocote
+0;-85.9153,12.4176;NI-01;Boaco Department;Cerro de Piedra
+0;-85.9384,12.4241;NI-01;Boaco Department;El Tábano
+0;-85.4833,12.6667;NI-01;Boaco Department;El Tabacal
+0;-85.8462,11.2225;NI-15;Rivas Department;El Sucio
+0;-86.1335,11.7155;NI-02;Carazo Department;El Sol
+0;-85.9322,12.9071;NI-12;Matagalpa Department;Susumá
+0;-86.7469,12.6829;NI-08;León Department;El Socorro
+0;-86.3667,12.0833;NI-10;Managua Department;El Socorro
+0;-85.8113,11.2263;NI-15;Rivas Department;El Socorro
+0;-86.0021,11.9966;NI-11;Masaya Department;El Sitio
+0;-86.0183,13.8765;NI-13;Nueva Segovia Department;El Silencio
+0;-85.1201,12.6594;NI-01;Boaco Department;El Silencio
+11898;-86.5390,12.8869;NI-08;León Department;El Sauce
+0;-85.6596,13.0745;NI-12;Matagalpa Department;El Sardinal
+0;-85.8025,13.2476;NI-07;Jinotega Department;El Sarayal
+0;-85.5381,11.1970;NI-15;Rivas Department;La Palma
+0;-87.3390,12.7309;NI-03;Chinandega Department;El Salvador
+0;-85.9041,13.1263;NI-18;South Caribbean Coast;Valle El Salto
+0;-84.6146,11.3988;NI-14;Río San Juan Department;El Dorado No 3
+0;-84.5775,13.8605;NI-17;North Caribbean Coast;El Salto
+0;-86.1911,13.2283;NI-07;Jinotega Department;El Salto
+0;-85.2120,13.0201;NI-12;Matagalpa Department;El Salto
+0;-86.4137,11.8736;NI-10;Managua Department;El Salto
+0;-85.5333,12.9667;NI-12;Matagalpa Department;El Sabalar
+0;-86.2414,11.7263;NI-02;Carazo Department;El Rosario Manila
+0;-87.5858,13.0450;NI-03;Chinandega Department;El Rosario
+0;-86.1213,12.5061;NI-10;Managua Department;Las Lajas
+0;-86.0620,12.2188;NI-10;Managua Department;San Judas
+0;-86.5778,11.9329;NI-10;Managua Department;El Rosario
+0;-86.1653,11.8328;NI-02;Carazo Department;El Rosario
+2991;-86.3738,11.7780;NI-02;Carazo Department;El Rosario
+0;-85.8541,11.4629;NI-15;Rivas Department;El Rosario
+0;-86.3140,12.0526;NI-10;Managua Department;Monte Fresco
+0;-86.2821,13.2398;NI-05;Estelí Department;El Rodeo
+0;-86.3170,12.8301;NI-08;León Department;El Rodeo
+0;-85.9687,12.7842;NI-12;Matagalpa Department;El Rodeo
+0;-85.7209,12.7569;NI-12;Matagalpa Department;El Rodeo
+0;-85.6505,12.3393;NI-01;Boaco Department;El Rodeo
+0;-86.0298,11.8595;NI-06;Granada Department;El Rodeo
+0;-85.5105,12.3338;NI-01;Boaco Department;El Roblar
+0;-85.8500,12.6333;NI-12;Matagalpa Department;El Río
+0;-85.7238,12.5112;NI-01;Boaco Department;El Riego
+0;-86.6663,12.0610;NI-08;León Department;Tamborcito
+0;-86.0510,11.5034;NI-15;Rivas Department;El Remate
+0;-87.1635,12.5862;NI-03;Chinandega Department;El Ensayo
+0;-86.5818,12.3081;NI-08;León Department;El Recreo
+0;-85.6596,12.2209;NI-01;Boaco Department;El Recreo
+0;-84.3160,12.1739;NI-18;South Caribbean Coast;El Recreo
+0;-86.2714,11.9494;NI-11;Masaya Department;El Recreo
+6208;-87.1652,12.5433;NI-03;Chinandega Department;El Realejo
+0;-85.3501,11.9816;NI-04;Chontales Department;San Antonio
+0;-85.8925,11.8907;NI-06;Granada Department;El Rayo
+0;-86.1791,11.6127;NI-02;Carazo Department;El Quinal
+0;-86.8097,12.7111;NI-08;León Department;El Queso
+0;-85.8142,13.1250;NI-12;Matagalpa Department;El Quebradón
+0;-87.5639,12.8612;NI-03;Chinandega Department;El Puente
+0;-85.9438,11.5499;NI-15;Rivas Department;El Progreso
+0;-86.4000,12.1000;NI-10;Managua Department;El Prado
+0;-86.8973,12.5420;NI-08;León Department;El Pozo
+0;-87.2757,12.6400;NI-03;Chinandega Department;El Pozo
+0;-85.7485,12.2505;NI-01;Boaco Department;El Potrero
+0;-86.4686,13.3257;NI-05;Estelí Department;El Potrerillo
+0;-83.2101,14.9930;NI-17;North Caribbean Coast;El Porvenir
+0;-84.3662,13.3329;NI-17;North Caribbean Coast;El Porvenir
+0;-86.6476,12.9952;NI-08;León Department;El Porvenir
+0;-85.7889,12.1209;NI-06;Granada Department;Estero El Guayabo
+0;-86.1964,11.8979;NI-02;Carazo Department;El Porvenir
+0;-86.3500,11.7667;NI-02;Carazo Department;El Portón
+0;-86.8015,12.9786;NI-03;Chinandega Department;El Portillo
+0;-86.4753,11.8258;NI-10;Managua Department;El Portillo
+0;-85.5899,12.3200;NI-04;Chontales Department;El Pochote
+0;-85.8893,11.2972;NI-15;Rivas Department;El Plantel
+0;-86.5830,12.2008;NI-08;León Department;El Pital
+0;-86.7023,12.6538;NI-08;León Department;El Piñuelar
+0;-85.3985,12.2482;NI-04;Chontales Department;Palo Grande
+0;-84.4613,12.1349;NI-18;South Caribbean Coast;El Pijibay
+0;-86.0656,11.9727;NI-11;Masaya Department;La Poma
+0;-85.5624,11.4632;NI-15;Rivas Department;El Perú
+0;-84.6821,12.9453;NI-18;South Caribbean Coast;El Perro
+0;-87.0606,12.6468;NI-03;Chinandega Department;La Bolsa
+0;-87.0763,12.6296;NI-03;Chinandega Department;San Isidro
+0;-87.1677,12.6297;NI-03;Chinandega Department;La Tejana
+0;-85.8027,11.4022;NI-15;Rivas Department;El Pegón
+0;-85.6720,12.4043;NI-01;Boaco Department;Potrero del Platanal
+0;-86.2063,11.7133;NI-02;Carazo Department;El Pedernal
+0;-84.9330,11.4394;NI-14;Río San Juan Department;El Pedernal
+0;-86.5635,12.8996;NI-08;León Department;El Pavón
+0;-86.3794,13.0464;NI-05;Estelí Department;El Pastoreo
+0;-86.4771,11.9951;NI-10;Managua Department;El Pastor
+0;-86.1729,12.8412;NI-12;Matagalpa Department;El Paso Real
+0;-87.5005,12.9187;NI-03;Chinandega Department;El Paraíso
+0;-85.6464,12.7398;NI-12;Matagalpa Department;El Paraíso
+0;-85.5666,12.5299;NI-01;Boaco Department;Los Valerio
+0;-83.8085,12.3160;NI-18;South Caribbean Coast;El Paraíso
+0;-86.1601,11.8750;NI-11;Masaya Department;El Paraíso
+0;-86.2329,11.8821;NI-02;Carazo Department;Villas de San Sebastián
+0;-86.0627,12.2791;NI-10;Managua Department;Ulises Tapia
+0;-86.5488,12.2476;NI-08;León Department;San Ildelfonso
+0;-86.4662,12.4741;NI-08;León Department;El Papalonal
+0;-86.2049,11.9730;NI-11;Masaya Department;El Panamá
+20;-86.2517,11.9558;NI-11;Masaya Department;El Panorama
+0;-86.1073,12.1714;NI-10;Managua Department;El Panamá
+0;-85.9017,11.4473;NI-15;Rivas Department;El Palmar
+0;-85.9064,12.4444;NI-01;Boaco Department;El Palmar
+0;-85.8032,11.5137;NI-15;Rivas Department;Elequemia
+0;-86.6403,12.3293;NI-08;León Department;Los Linartes
+0;-86.0176,12.0330;NI-11;Masaya Department;El Palenque
+0;-86.0927,11.8623;NI-11;Masaya Department;El Palaíso
+0;-85.9516,13.1223;NI-07;Jinotega Department;El Palacio
+0;-87.1990,12.8342;NI-03;Chinandega Department;El Palacio
+0;-85.7608,11.1121;NI-15;Rivas Department;El Ostional
+0;-86.3833,12.6500;NI-08;León Department;El Ojoche
+0;-86.3406,11.8970;NI-02;Carazo Department;El Ojochal
+0;-86.2159,11.8097;NI-02;Carazo Department;El Ojochal
+0;-86.3351,13.0088;NI-05;Estelí Department;El Ocotillo
+0;-86.3540,12.7688;NI-08;León Department;El Ocotillo
+0;-85.9367,12.8533;NI-12;Matagalpa Department;El Ocote
+0;-85.9278,12.8688;NI-12;Matagalpa Department;El Ocotal
+0;-86.4558,12.8918;NI-08;León Department;El Ocotal
+0;-86.9813,12.7971;NI-03;Chinandega Department;El Obraje
+0;-85.9601,12.8061;NI-12;Matagalpa Department;El Obraje
+0;-86.2952,12.5957;NI-10;Managua Department;El Obraje
+0;-84.0772,13.1976;NI-18;South Caribbean Coast;Vuelta El Naranjo
+0;-86.0307,12.9927;NI-12;Matagalpa Department;El Naranjo
+0;-85.8034,12.8977;NI-12;Matagalpa Department;El Naranjo
+0;-86.2319,12.6124;NI-10;Managua Department;El Naranjo
+0;-86.2224,11.6870;NI-02;Carazo Department;El Naranjo
+0;-86.2097,11.6623;NI-02;Carazo Department;El Naranjo
+0;-85.7104,11.0885;NI-15;Rivas Department;El Naranjo
+0;-85.2577,12.1907;NI-04;Chontales Department;El Naranjo
+0;-86.2525,12.7328;NI-12;Matagalpa Department;El Nancital
+0;-85.4837,11.9775;NI-04;Chontales Department;El Morán
+0;-84.9128,12.2638;NI-04;Chontales Department;El Areno Bulún
+0;-86.2457,11.5980;NI-02;Carazo Department;Mata Palo
+0;-86.0461,13.2139;NI-07;Jinotega Department;El Mojón
+0;-85.9323,12.5481;NI-01;Boaco Department;El Mojón
+0;-86.6529,13.3733;NI-09;Madriz Department;El Matasano
+0;-86.3868,12.1991;NI-10;Managua Department;Ciudad El Doral
+0;-86.0461,12.5390;NI-10;Managua Department;El Madroño
+0;-85.0554,13.1228;NI-17;North Caribbean Coast;Los Chavarría
+0;-85.5021,12.1678;NI-01;Boaco Department;El Llanito
+0;-85.6714,13.6999;NI-07;Jinotega Department;El Lirio
+0;-85.8343,11.4836;NI-15;Rivas Department;El Limonal
+0;-86.5188,13.3613;NI-05;Estelí Department;El Limón
+0;-86.0772,11.4575;NI-15;Rivas Department;El Limón
+0;-86.3182,12.5734;NI-10;Managua Department;Laurel Galán
+0;-84.1366,12.8517;NI-18;South Caribbean Coast;El Lanchón
+0;-86.7065,13.2352;NI-05;Estelí Department;El Lajero
+0;-86.5581,13.0836;NI-08;León Department;El Lagartillo
+0;-86.7799,12.7170;NI-08;León Department;El Jote
+0;-86.3938,13.5152;NI-09;Madriz Department;El Jocote
+0;-86.2038,12.8640;NI-12;Matagalpa Department;El Jocote
+0;-85.4482,12.2573;NI-04;Chontales Department;El Jocote
+0;-85.6009,12.9001;NI-12;Matagalpa Department;El Jobo
+0;-86.1251,12.7747;NI-12;Matagalpa Department;El Jobo
+0;-86.9425,12.8538;NI-03;Chinandega Department;El Jicote
+0;-86.4430,12.8611;NI-08;León Department;El Jicote
+0;-86.3005,12.9691;NI-05;Estelí Department;El Hornillo
+0;-85.9739,12.5313;NI-01;Boaco Department;El Jícaro
+0;-86.0946,11.6023;NI-15;Rivas Department;El Jícaro
+1446;-86.3806,12.7268;NI-08;León Department;El Jicaral
+0;-86.1155,11.6570;NI-06;Granada Department;El Jabillo
+0;-85.8942,11.5865;NI-15;Rivas Department;El Jabillo
+0;-86.1343,11.6695;NI-06;Granada Department;El Jabillito
+0;-86.2199,11.7799;NI-02;Carazo Department;El Ingenio
+0;-86.9533,12.4121;NI-08;León Department;San Carlos
+0;-86.7536,12.9157;NI-03;Chinandega Department;El Hoyero
+0;-86.0032,13.0304;NI-07;Jinotega Department;El Horno
+0;-86.2808,12.9092;NI-05;Estelí Department;El Horno
+0;-85.7342,12.9088;NI-12;Matagalpa Department;El Horno
+0;-84.9447,13.7565;NI-17;North Caribbean Coast;El Hormiguero
+0;-86.8768,12.7155;NI-03;Chinandega Department;El Higueral
+0;-85.8673,11.6734;NI-15;Rivas Department;El Higueral
+0;-86.0861,11.5075;NI-15;Rivas Department;El Higueral
+0;-86.2001,12.7669;NI-12;Matagalpa Department;El Hato de La Virgen
+0;-85.9529,12.0451;NI-06;Granada Department;El Hato
+0;-86.0591,12.2859;NI-10;Managua Department;Colonia Roque
+0;-85.3658,11.9542;NI-04;Chontales Department;El Hatillo
+0;-86.2510,12.6431;NI-12;Matagalpa Department;El Guiscánal
+0;-86.6481,12.1059;NI-08;León Department;El Guayabalito
+0;-86.6499,12.1292;NI-08;León Department;El Guayabal
+0;-86.4919,12.8487;NI-08;León Department;El Guásimo
+0;-86.1013,11.6862;NI-06;Granada Department;El Guarumo
+0;-86.4125,11.9545;NI-10;Managua Department;El Guapinolar
+0;-85.8369,13.3640;NI-07;Jinotega Department;El Guapinol
+0;-86.5709,12.7580;NI-08;León Department;El Guapinol
+0;-85.8951,12.6233;NI-12;Matagalpa Department;El Guapinol
+0;-85.8062,12.5358;NI-01;Boaco Department;El Guanacaste
+0;-86.0228,11.8527;NI-06;Granada Department;El Guanacaste
+0;-86.7362,13.3954;NI-09;Madriz Department;El Gualiqueme
+0;-85.5491,12.3049;NI-01;Boaco Department;El Guabo
+0;-86.2389,11.6417;NI-02;Carazo Department;El Guabillo
+0;-85.7071,12.7301;NI-12;Matagalpa Department;El Gorrión
+0;-86.3414,11.8962;NI-02;Carazo Department;El Golfo
+0;-86.0331,11.3917;NI-15;Rivas Department;El Gigante
+0;-86.2127,13.3669;NI-07;Jinotega Department;El Gamalote
+0;-84.2291,13.1043;NI-18;South Caribbean Coast;El Gallo
+0;-86.6833,12.6930;NI-08;León Department;El Estero
+0;-85.6112,12.8255;NI-12;Matagalpa Department;El Esquirín
+0;-86.7196,13.4455;NI-09;Madriz Department;El Espino
+0;-86.5193,12.5817;NI-08;León Department;El Espino
+0;-86.2785,13.0450;NI-05;Estelí Department;El Espinal
+0;-86.4624,12.2586;NI-10;Managua Department;El Espadillo
+0;-84.6663,12.0105;NI-18;South Caribbean Coast;El Espavel
+0;-86.1264,11.6389;NI-02;Carazo Department;El Eslabón
+0;-86.3884,12.2319;NI-10;Managua Department;El Esfuerzo
+0;-86.6667,12.2333;NI-08;León Department;El Escobillo
+0;-85.1097,12.2721;NI-04;Chontales Department;El Escándalo
+0;-86.2200,11.9450;NI-11;Masaya Department;Santa Rosa
+0;-86.0767,11.8130;NI-06;Granada Department;El Encanto
+0;-84.4417,13.6687;NI-17;North Caribbean Coast;El Empalme
+0;-86.4234,12.6739;NI-08;León Department;El Empalme
+0;-86.0536,12.2911;NI-10;Managua Department;15 de Septiembre
+0;-85.6493,12.1530;NI-01;Boaco Department;El Embudo
+0;-86.0640,11.9804;NI-11;Masaya Department;El Edén
+0;-84.6404,13.8256;NI-17;North Caribbean Coast;El Dos
+0;-85.8620,13.8467;NI-13;Nueva Segovia Department;El Dorado
+0;-85.4287,11.1501;NI-15;Rivas Department;El Triunfo
+0;-84.9323,12.5121;NI-18;South Caribbean Coast;El Despacho
+0;-86.3554,12.1066;NI-10;Managua Department;El Descanso
+0;-86.2224,12.7150;NI-12;Matagalpa Department;Las Mesas
+0;-83.9072,11.1212;NI-14;Río San Juan Department;El Delirio
+0;-85.7500,13.4167;NI-07;Jinotega Department;El Cuá
+16469;-86.3095,11.9901;NI-10;Managua Department;El Crucero
+0;-85.9674,12.5661;NI-12;Matagalpa Department;El Cristal
+0;-85.9732,11.8180;NI-06;Granada Department;El Cráter
+0;-86.2136,12.6794;NI-12;Matagalpa Department;El Coyolito
+0;-86.6972,13.7373;NI-13;Nueva Segovia Department;El Coyolar
+0;-86.1468,13.3168;NI-07;Jinotega Department;El Coyolar
+0;-85.6047,12.6317;NI-01;Boaco Department;Filas Verdes
+0;-86.0563,11.8336;NI-06;Granada Department;El Coyolar
+0;-86.4030,12.8329;NI-08;León Department;El Coyol
+0;-85.9158,12.5658;NI-01;Boaco Department;El Coyol
+0;-85.9546,12.5095;NI-01;Boaco Department;El Coyol
+0;-85.9648,11.3939;NI-15;Rivas Department;El Coyol
+0;-86.2280,11.9510;NI-11;Masaya Department;El Costillo
+0;-86.8001,12.6622;NI-08;León Department;El Cortesal
+0;-85.9003,12.7770;NI-12;Matagalpa Department;El Corozo
+0;-85.7816,12.5580;NI-01;Boaco Department;El Corozo
+0;-84.6588,13.3480;NI-17;North Caribbean Coast;El Corozo
+0;-84.8935,12.0924;NI-04;Chontales Department;El Corozo
+0;-85.8736,12.7860;NI-12;Matagalpa Department;El Corozo
+0;-86.8260,12.4062;NI-08;León Department;El Convento
+0;-87.4053,12.8154;NI-03;Chinandega Department;El Congo
+0;-86.0709,12.0161;NI-11;Masaya Department;La Ceibita
+0;-86.5121,12.8283;NI-08;León Department;El Coco
+0;-84.4321,14.6113;NI-17;North Caribbean Coast;El Cocal
+0;-85.8196,12.8247;NI-12;Matagalpa Department;El Chile
+0;-84.9645,12.4201;NI-04;Chontales Department;El Chile
+0;-84.4783,11.9070;NI-04;Chontales Department;El Chile
+0;-84.7412,11.9983;NI-04;Chontales Department;El Chilamate
+0;-86.5415,12.5880;NI-08;León Department;El Charco de Los Bueyes
+0;-86.3975,12.1887;NI-10;Managua Department;El Chaparro
+0;-86.8843,12.2852;NI-08;León Department;La Garita
+0;-86.8751,12.3688;NI-08;León Department;El Chagüe
+0;-86.0363,12.5381;NI-10;Managua Department;San José de Oluminapa
+0;-86.8333,12.4500;NI-08;León Department;El Cerrito
+0;-86.4188,12.7572;NI-08;León Department;El Censo
+0;-85.6384,12.2211;NI-01;Boaco Department;El Cedral
+0;-85.6080,12.3226;NI-01;Boaco Department;El Cebollín
+735;-84.3970,11.0189;NI-14;Río San Juan Department;El Castillo de La Concepción
+0;-85.7953,12.7246;NI-12;Matagalpa Department;El Castillo
+0;-85.7769,12.6977;NI-12;Matagalpa Department;El Castillo
+0;-86.5403,12.9378;NI-08;León Department;El Carrizo
+0;-86.2681,12.8716;NI-12;Matagalpa Department;El Carrizo
+0;-86.3009,12.7277;NI-08;León Department;El Carrizal
+0;-86.6833,12.2667;NI-08;León Department;El Carrizal
+0;-86.1614,11.6820;NI-02;Carazo Department;El Carrizal
+0;-84.2485,14.7502;NI-17;North Caribbean Coast;El Carmen
+0;-86.0605,12.6375;NI-12;Matagalpa Department;El Carmen
+0;-86.9191,12.4712;NI-08;León Department;Abangasca Central
+0;-86.2082,12.3069;NI-10;Managua Department;El Carmen
+0;-86.2833,12.0667;NI-10;Managua Department;El Carmen
+0;-86.2524,11.8710;NI-02;Carazo Department;El Carmen
+0;-86.2250,13.5854;NI-09;Madriz Department;El Carbonal
+0;-86.2500,13.0500;NI-05;Estelí Department;El Carao
+0;-85.9899,12.8216;NI-12;Matagalpa Department;El Caracol
+0;-87.4877,12.9942;NI-03;Chinandega Department;El Capulín
+0;-86.0052,11.9726;NI-06;Granada Department;El Capulín
+0;-86.4485,12.0141;NI-10;Managua Department;El Brasil
+0;-85.0980,11.0715;NI-14;Río San Juan Department;El Cairo
+0;-83.8253,12.3420;NI-18;South Caribbean Coast;El Caimito
+0;-85.9753,11.6531;NI-15;Rivas Department;El Caimito
+0;-85.9783,11.4717;NI-15;Rivas Department;El Caimito
+0;-85.8591,12.5245;NI-01;Boaco Department;El Jocote
+0;-84.1873,14.7131;NI-17;North Caribbean Coast;San Jerónimo
+0;-86.2677,12.9566;NI-05;Estelí Department;El Cacao
+0;-86.0234,12.7859;NI-12;Matagalpa Department;El Cacao
+0;-85.9093,12.5930;NI-12;Matagalpa Department;El Cacao de Los Suárez
+0;-84.7022,12.0003;NI-04;Chontales Department;El Cacao
+0;-86.1486,11.7654;NI-02;Carazo Department;El Cacao
+0;-85.3402,11.9400;NI-04;Chontales Department;El Buey Negro
+0;-86.1728,11.7171;NI-02;Carazo Department;El Brasil
+0;-85.5155,13.2705;NI-12;Matagalpa Department;El Bote
+0;-84.6771,13.9745;NI-17;North Caribbean Coast;El Bosque
+0;-85.6402,12.7136;NI-12;Matagalpa Department;El Bosque
+0;-86.7500,12.6167;NI-08;León Department;El Bosque
+0;-86.2306,11.7558;NI-02;Carazo Department;El Bosque
+0;-83.6904,11.9947;NI-18;South Caribbean Coast;Bluefields Bluff
+0;-85.9656,12.8487;NI-12;Matagalpa Department;El Bijagüe
+0;-86.1903,13.3620;NI-07;Jinotega Department;El Bijagual
+0;-86.3155,12.9262;NI-08;León Department;El Barro
+0;-86.2891,12.7019;NI-12;Matagalpa Department;El Barro
+0;-85.8640,12.6257;NI-12;Matagalpa Department;El Barro
+0;-84.1260,12.1113;NI-18;South Caribbean Coast;El Banco
+0;-85.6212,12.7113;NI-12;Matagalpa Department;El Zompopo
+0;-86.1777,13.5743;NI-13;Nueva Segovia Department;El Bálsamo
+0;-85.5871,12.9567;NI-12;Matagalpa Department;El Bálsamo
+0;-85.9472,12.8329;NI-12;Matagalpa Department;El Bálsamo
+0;-85.3667,12.8167;NI-12;Matagalpa Department;El Bálsamo
+0;-85.6471,12.6576;NI-12;Matagalpa Department;La Caldera
+0;-87.2268,12.6233;NI-03;Chinandega Department;El Bálsamo
+0;-85.6344,12.5771;NI-01;Boaco Department;Raúl Urbina Valle
+5406;-85.3124,12.2087;NI-04;Chontales Department;Los Copeles
+0;-86.1641,11.5122;NI-15;Rivas Department;El Astillero
+0;-86.2377,11.9233;NI-02;Carazo Department;El Asilo
+0;-86.3222,13.6770;NI-13;Nueva Segovia Department;El Arrayán
+0;-85.9223,13.0174;NI-12;Matagalpa Department;El Arenal
+0;-86.8427,13.2484;NI-03;Chinandega Department;El Aradito
+0;-84.4392,12.1160;NI-18;South Caribbean Coast;El Aparejo
+0;-86.4905,11.9650;NI-10;Managua Department;El Apante
+0;-85.9574,11.6318;NI-15;Rivas Department;El Amparo
+0;-86.6245,13.6374;NI-13;Nueva Segovia Department;El Amatillo
+0;-85.7212,12.2609;NI-01;Boaco Department;El Alto
+0;-86.6500,12.7167;NI-08;León Department;El Almendro
+2681;-84.7027,11.6786;NI-14;Río San Juan Department;El Almendro
+0;-86.3134,13.2886;NI-09;Madriz Department;El Aguacate
+0;-85.9659,11.7817;NI-06;Granada Department;El Agua Agria
+0;-86.4559,11.9048;NI-10;Managua Department;Quebrada de Agua
+0;-85.5380,12.3863;NI-01;Boaco Department;El Abra
+0;-86.1799,11.7837;NI-02;Carazo Department;El Abra
+0;-86.1492,11.5512;NI-15;Rivas Department;El Abejonal
+0;-84.2500,13.4325;NI-17;North Caribbean Coast;Ebaniso Tasbapauni
+0;-86.3432,11.8596;NI-02;Carazo Department;Dulce Nombre de Jesús
+0;-86.1740,11.8370;NI-02;Carazo Department;Dulce Nombre
+0;-86.1326,12.7964;NI-12;Matagalpa Department;Dos Montes
+7065;-86.2158,11.8562;NI-02;Carazo Department;Dolores
+10113;-86.0518,11.8763;NI-06;Granada Department;Diriomo
+35008;-86.2392,11.8581;NI-02;Carazo Department;Diriamba
+3903;-86.0551,11.8842;NI-06;Granada Department;Diriá
+0;-86.5126,13.7412;NI-13;Nueva Segovia Department;Dipilto Viejo
+467;-86.5062,13.7211;NI-13;Nueva Segovia Department;Dipilto
+0;-85.6872,12.8414;NI-12;Matagalpa Department;Tapasle
+0;-83.7657,10.7743;NI-14;Río San Juan Department;Delta del San Juan
+0;-84.9530,13.6869;NI-17;North Caribbean Coast;Danlí
+0;-83.2257,14.3942;NI-17;North Caribbean Coast;Dákura
+0;-83.5173,14.0596;NI-17;North Caribbean Coast;Dakban
+0;-84.4665,12.3382;NI-18;South Caribbean Coast;Cuyamel
+0;-85.9111,13.1811;NI-07;Jinotega Department;Cuyalí
+0;-85.9327,11.8318;NI-06;Granada Department;Cutirre
+0;-85.7779,12.3626;NI-01;Boaco Department;Cusirina
+0;-85.5119,12.8496;NI-12;Matagalpa Department;Cusile
+0;-86.3000,12.0667;NI-10;Managua Department;Cundinamarca
+0;-85.8451,12.7818;NI-12;Matagalpa Department;Cunagua
+0;-85.7108,12.6878;NI-12;Matagalpa Department;Cumaica
+0;-83.7542,12.2864;NI-18;South Caribbean Coast;Los Cinco
+0;-85.7617,12.3765;NI-01;Boaco Department;Caserío La Cuesta
+0;-85.8657,11.2988;NI-15;Rivas Department;Cuatro Tubos
+0;-86.4358,12.4792;NI-08;León Department;Cuatro Palos
+0;-85.8026,13.0124;NI-12;Matagalpa Department;Cuatro Esquinas
+0;-85.5734,11.5308;NI-15;Rivas Department;Cuatro Esquinas
+0;-86.0473,11.4487;NI-15;Rivas Department;Cuascoto
+0;-83.6467,14.1123;NI-17;North Caribbean Coast;Cuarenta y Tres
+2400;-85.3821,12.2688;NI-04;Chontales Department;San Francisco de Cuapa
+0;-85.9318,12.9669;NI-12;Matagalpa Department;Los Cuajiniquiles
+0;-87.0614,12.5941;NI-03;Chinandega Department;Cosmapa
+0;-87.5013,12.9114;NI-03;Chinandega Department;Cosigüina
+0;-86.5215,12.9503;NI-08;León Department;Corre Viento
+0;-86.6893,12.6171;NI-08;León Department;Correviento
+8011;-83.0410,12.1700;NI-18;South Caribbean Coast;South End
+19183;-87.1730,12.4825;NI-03;Chinandega Department;Corinto
+0;-86.3482,12.0287;NI-10;Managua Department;Corinto
+0;-84.1015,14.7897;NI-17;North Caribbean Coast;Corinto
+0;-84.5683,13.6836;NI-17;North Caribbean Coast;Coperna
+11000;-86.3985,13.3650;NI-05;Estelí Department;Condega
+0;-87.1387,12.5951;NI-03;Chinandega Department;Concepción
+0;-84.0306,12.8195;NI-18;South Caribbean Coast;Kuma Tingni
+0;-85.9483,13.2293;NI-07;Jinotega Department;Tomayunca
+0;-86.2000,12.0667;NI-11;Masaya Department;Comarca Los Madrigales
+0;-86.8487,12.4993;NI-08;León Department;Comarca El Tololar
+0;-86.8861,12.4704;NI-08;León Department;El Platanar
+0;-86.8322,12.5350;NI-08;León Department;El Morral
+0;-86.9179,12.5493;NI-08;León Department;Comarca Ceiba Chachagua
+0;-85.6768,12.6374;NI-01;Boaco Department;Cumaica Sur
+1272;-85.5108,12.2835;NI-04;Chontales Department;Comalapa
+0;-84.4391,11.6444;NI-18;South Caribbean Coast;Colonia Verdún
+0;-87.0730,12.5569;NI-03;Chinandega Department;Colonia La Trinidad
+0;-86.3157,12.1253;NI-10;Managua Department;Colonia Molina
+0;-87.0461,12.4886;NI-03;Chinandega Department;Colonia La Esperanza Grande
+0;-86.1565,13.1079;NI-07;Jinotega Department;Colón
+0;-85.2226,11.1003;NI-15;Rivas Department;Colón
+0;-85.8624,12.2937;NI-10;Managua Department;Colama
+0;-86.1220,12.1204;NI-11;Masaya Department;Cofradía
+0;-84.7607,14.5952;NI-17;North Caribbean Coast;Coco Mine
+0;-83.9337,14.4700;NI-17;North Caribbean Coast;Buenos Aires
+0;-86.1385,13.7229;NI-13;Nueva Segovia Department;El Jícaro
+13318;-86.1240,12.7314;NI-12;Matagalpa Department;Ciudad Darío
+1787;-86.3081,13.6406;NI-13;Nueva Segovia Department;Ciudad Antigua
+0;-86.4737,11.9182;NI-10;Managua Department;Citalapa
+784;-86.8681,13.2296;NI-03;Chinandega Department;Cinco Pinos
+0;-86.2523,11.9251;NI-02;Carazo Department;Cicaya Grande
+0;-86.1112,13.9527;NI-13;Nueva Segovia Department;Chuslí
+0;-87.2858,12.7513;NI-03;Chinandega Department;La Chorrera
+0;-86.3730,11.9518;NI-10;Managua Department;Los Chocoyos
+126387;-87.1313,12.6295;NI-03;Chinandega Department;Chinandega
+33137;-87.0280,12.5704;NI-03;Chinandega Department;Chichigalpa
+0;-84.1312,13.1208;NI-18;South Caribbean Coast;Chicago
+0;-85.8934,11.7946;NI-06;Granada Department;Charco Muerto
+0;-84.0963,12.1283;NI-18;South Caribbean Coast;Chalmeca
+0;-86.0814,12.8849;NI-12;Matagalpa Department;Chagüitillo
+0;-86.6568,12.8955;NI-08;León Department;Chagüite Grande o El Naranjo
+0;-86.0313,12.7692;NI-12;Matagalpa Department;Chagüite Grande
+0;-85.8971,11.4825;NI-15;Rivas Department;Chacalapa
+0;-86.8127,13.1734;NI-03;Chinandega Department;Cerro Colorado
+0;-86.6085,12.3116;NI-08;León Department;Ceiba Mocha
+0;-86.0293,11.6443;NI-15;Rivas Department;Cebadilla
+0;-85.5488,12.8818;NI-12;Matagalpa Department;La Cebadía
+0;-86.9157,12.9081;NI-03;Chinandega Department;Cayanlipe
+0;-85.6983,12.3744;NI-01;Boaco Department;Catarina
+0;-85.8008,12.1824;NI-01;Boaco Department;Catarina
+2327;-86.0738,11.9120;NI-11;Masaya Department;Catarina
+0;-85.2816,13.4390;NI-17;North Caribbean Coast;Casulí
+0;-86.0000,12.0167;NI-11;Masaya Department;Caserío Veinticuatro
+0;-86.2369,12.6007;NI-10;Managua Department;Caserío Las Ranas
+0;-86.2890,12.6595;NI-08;León Department;Caserío Abra Vieja
+0;-83.6571,14.3609;NI-17;North Caribbean Coast;Casa Sola
+0;-86.0526,12.5221;NI-10;Managua Department;Casa Sola
+0;-86.3575,11.6464;NI-02;Carazo Department;Casares
+0;-86.4115,12.5612;NI-08;León Department;Casa Nueva
+0;-86.4200,11.9244;NI-10;Managua Department;Casa de Teja
+0;-84.4646,12.9448;NI-18;South Caribbean Coast;Casa de Alto
+0;-86.3110,11.9810;NI-10;Managua Department;Casa Colorada
+0;-85.9384,11.6074;NI-15;Rivas Department;Casa Blanca
+0;-84.7904,14.8044;NI-17;North Caribbean Coast;Carrizal
+5219;-86.5057,11.9801;NI-10;Managua Department;Villa El Carmen
+1204;-85.5089,11.1964;NI-15;Rivas Department;Cárdenas
+0;-85.7167,13.1667;NI-12;Matagalpa Department;Caratera
+0;-85.2234,13.0140;NI-12;Matagalpa Department;Caratera
+0;-84.4558,12.1237;NI-18;South Caribbean Coast;Cara de Mono
+0;-85.9791,11.6042;NI-15;Rivas Department;Cantimplora
+0;-83.8131,12.1196;NI-18;South Caribbean Coast;Caño Mocho
+0;-86.0756,12.7943;NI-12;Matagalpa Department;La Candelaria
+0;-86.6013,12.1431;NI-08;León Department;Candelaria
+0;-85.4026,11.8901;NI-04;Chontales Department;Cañas Gordas
+0;-85.6861,11.2968;NI-15;Rivas Department;Cañas Gordas
+0;-85.2714,11.1138;NI-15;Rivas Department;Cañas
+0;-86.8645,12.9393;NI-03;Chinandega Department;Cañafístula
+0;-86.0026,12.6818;NI-12;Matagalpa Department;Caña de Castilla
+0;-85.5832,12.3812;NI-01;Boaco Department;Mombachito No 2
+0;-85.9910,11.8587;NI-06;Granada Department;Caña de Castilla
+0;-85.7275,13.1486;NI-12;Matagalpa Department;San Antonio de Wasaka
+0;-85.9447,12.7526;NI-12;Matagalpa Department;Cañada Grande
+0;-86.2043,13.7462;NI-13;Nueva Segovia Department;El Bijao
+0;-87.0613,12.7917;NI-03;Chinandega Department;Campuzano
+0;-86.1365,12.0537;NI-11;Masaya Department;Campusano
+0;-83.6192,14.5707;NI-17;North Caribbean Coast;Campamento Omega
+0;-86.4851,12.9901;NI-08;León Department;Campamento
+16653;-85.5128,12.3838;NI-01;Boaco Department;Camoapa
+0;-86.1563,13.1942;NI-07;Jinotega Department;Los Calpules
+0;-86.4471,12.7290;NI-08;León Department;Las Calderas
+0;-85.9399,12.6331;NI-12;Matagalpa Department;Calabaza
+0;-83.2495,14.9388;NI-17;North Caribbean Coast;Cabo Viejo
+0;-86.6726,12.3682;NI-08;León Department;Cabo de Horno
+0;-83.5817,14.1791;NI-17;North Caribbean Coast;Prata
+0;-84.1481,14.7179;NI-17;North Caribbean Coast;Bum Sirpi
+0;-83.4608,14.1514;NI-17;North Caribbean Coast;Bum Sirpi
+0;-83.5973,14.9150;NI-17;North Caribbean Coast;Boom
+0;-84.9089,12.2141;NI-04;Chontales Department;Bulún
+0;-86.7126,12.6936;NI-08;León Department;Buenos Aires
+0;-85.5386,12.4985;NI-01;Boaco Department;Buenos Aires
+0;-86.9920,12.3874;NI-08;León Department;Buenos Aires
+1692;-85.8166,11.4692;NI-15;Rivas Department;Buenos Aires
+0;-86.3305,11.8142;NI-02;Carazo Department;Buenavista del Norte
+0;-86.3074,11.7640;NI-02;Carazo Department;El Chanal
+0;-83.6492,14.6471;NI-17;North Caribbean Coast;Buena Vista
+0;-86.0635,13.5266;NI-13;Nueva Segovia Department;Buenavista
+0;-85.6692,12.9173;NI-12;Matagalpa Department;Buenavista
+0;-87.3853,12.8425;NI-03;Chinandega Department;Buena Vista
+0;-86.4231,12.8099;NI-08;León Department;Buenavista
+0;-85.6177,12.0528;NI-04;Chontales Department;Buena Vista
+0;-86.4309,11.9899;NI-10;Managua Department;Buenavista
+0;-86.1796,11.6764;NI-02;Carazo Department;Buena Vista
+0;-83.8133,11.0749;NI-18;South Caribbean Coast;Buena Vista
+0;-84.0914,12.8640;NI-18;South Caribbean Coast;El Torro Negro
+0;-83.7307,12.4545;NI-18;South Caribbean Coast;Brown Bank
+0;-86.3394,11.8495;NI-02;Carazo Department;Brasilito
+0;-86.2916,11.8999;NI-02;Carazo Department;Brasil Grande
+0;-86.3135,12.7352;NI-08;León Department;Bordo Las Tinajas
+6315;-84.5910,14.0289;NI-17;North Caribbean Coast;Bonanza
+0;-85.1516,14.2975;NI-07;Jinotega Department;Bocay
+7872;-85.1227,12.7857;NI-18;South Caribbean Coast;Bocana de Paiwas
+0;-84.4667,11.0500;NI-14;Río San Juan Department;Boca de Sábalos
+0;-85.0007,13.4717;NI-17;North Caribbean Coast;Kaskita
+0;-85.7498,12.4517;NI-01;Boaco Department;Boaquito
+0;-85.5299,12.4611;NI-01;Boaco Department;Boaco Viejo
+29046;-85.6596,12.4726;NI-01;Boaco Department;Boaco
+44373;-83.7645,12.0129;NI-18;South Caribbean Coast;Bluefields
+0;-83.4080,14.7478;NI-17;North Caribbean Coast;Bismuna
+0;-83.8829,14.7588;NI-17;North Caribbean Coast;Bilwaskarma
+0;-85.5790,12.8810;NI-12;Matagalpa Department;Bilwás
+0;-85.2269,13.3209;NI-17;North Caribbean Coast;Bilampí
+0;-85.2233,12.3222;NI-04;Chontales Department;Betulia
+0;-83.9321,13.4325;NI-17;North Caribbean Coast;Batil
+0;-86.0542,11.5857;NI-15;Rivas Department;Berlín
+0;-84.1843,12.8787;NI-18;South Caribbean Coast;Bella Vista
+0;-86.9534,12.6696;NI-03;Chinandega Department;Bellavista
+0;-85.7627,12.6544;NI-12;Matagalpa Department;Bella Vista
+0;-85.6746,12.1690;NI-01;Boaco Department;Belén
+5415;-85.8893,11.5030;NI-15;Rivas Department;Belén
+0;-86.6207,13.1380;NI-05;Estelí Department;San Lorenzo
+0;-86.1197,11.8983;NI-11;Masaya Department;Barrio Pío XII
+0;-86.2511,11.7935;NI-02;Carazo Department;Barrio Nuevo
+0;-86.1092,11.9154;NI-11;Masaya Department;Barrio Momotombo
+0;-86.3906,12.0150;NI-10;Managua Department;Barrio Los Hidalgos
+0;-86.2070,11.9626;NI-11;Masaya Department;Rigoberto López Pérez
+0;-86.6122,12.5492;NI-08;León Department;El Terrero
+0;-86.6005,12.1038;NI-08;León Department;El Nacascolo
+0;-85.7753,11.3192;NI-15;Rivas Department;Barrio de Zaragoza
+0;-86.5467,12.5434;NI-08;León Department;Tecuaname
+0;-86.0404,11.7782;NI-06;Granada Department;San Francisco
+0;-86.6085,12.1552;NI-08;León Department;Comarca de Copaltepe
+0;-84.3882,12.9797;NI-18;South Caribbean Coast;Barrera
+0;-86.3040,11.6730;NI-02;Carazo Department;Barranco Bayo
+0;-83.4623,13.8710;NI-17;North Caribbean Coast;Wawa
+0;-83.8753,11.2917;NI-18;South Caribbean Coast;Barra del Río Maíz
+0;-86.3612,11.9261;NI-10;Managua Department;Barba del Tigre
+0;-83.7311,12.4477;NI-18;South Caribbean Coast;Brown Bank Bottom
+0;-85.5162,11.4908;NI-15;Rivas Department;Balque
+0;-84.8438,13.4798;NI-17;North Caribbean Coast;La Esperanza
+0;-84.5531,13.6957;NI-17;North Caribbean Coast;Baká
+0;-85.8896,12.5587;NI-01;Boaco Department;Bajos de Tomatoya
+0;-85.4857,12.6544;NI-01;Boaco Department;Bacoas
+0;-83.8066,14.7722;NI-17;North Caribbean Coast;Bachilaya
+0;-86.5165,12.0240;NI-10;Managua Department;Azacualpa
+0;-85.4012,13.7789;NI-07;Jinotega Department;Ayapal
+0;-83.6509,14.3005;NI-17;North Caribbean Coast;Auyatara
+0;-83.6130,14.2934;NI-17;North Caribbean Coast;Auya Pihni
+0;-85.6448,12.6467;NI-01;Boaco Department;Aurora
+0;-83.9499,14.3827;NI-17;North Caribbean Coast;Auas Tingni
+0;-83.2282,14.3090;NI-17;North Caribbean Coast;Auastara
+0;-84.0140,11.5785;NI-18;South Caribbean Coast;Atlanta
+427;-85.5133,12.1530;NI-01;Boaco Department;Cuisalà
+0;-85.8962,13.2428;NI-07;Jinotega Department;Asturias
+0;-86.7185,12.4353;NI-08;León Department;Buenos Aires
+0;-85.9297,11.8987;NI-06;Granada Department;Puerto de Asese
+0;-83.7917,14.4070;NI-17;North Caribbean Coast;Aserrío Wiwás
+0;-83.5532,14.1055;NI-17;North Caribbean Coast;Aserradero Sanders
+0;-84.7511,14.7249;NI-17;North Caribbean Coast;Asang
+0;-85.6470,12.8478;NI-12;Matagalpa Department;Asancor
+0;-86.3595,13.1026;NI-05;Estelí Department;Arlen Siu
+0;-83.5741,13.3975;NI-17;North Caribbean Coast;Ariswatla
+0;-85.3026,12.5109;NI-01;Boaco Department;Arenitas
+0;-86.8255,12.3636;NI-08;León Department;Aranjuez
+0;-84.9988,14.5167;NI-07;Jinotega Department;Arandak
+0;-87.3613,12.6349;NI-03;Chinandega Department;Aposentillo
+0;-86.1102,12.7980;NI-12;Matagalpa Department;Apompuá
+0;-86.2854,11.7816;NI-02;Carazo Department;El Apompuá
+0;-85.8517,11.5076;NI-15;Rivas Department;Apompuá
+0;-85.9615,12.7763;NI-12;Matagalpa Department;Apatus
+0;-86.9922,12.6411;NI-03;Chinandega Department;Apastepe
+0;-86.3716,13.5903;NI-13;Nueva Segovia Department;Apamiguel
+0;-85.9662,12.9976;NI-12;Matagalpa Department;Apalilí
+0;-86.2391,13.6935;NI-13;Nueva Segovia Department;Apalí
+0;-86.5146,13.6321;NI-13;Nueva Segovia Department;Apají
+0;-84.9254,14.7766;NI-17;North Caribbean Coast;Anris Tara
+0;-83.6377,14.8791;NI-17;North Caribbean Coast;Anris
+0;-84.8333,13.6500;NI-17;North Caribbean Coast;Amparo
+0;-83.8553,11.2019;NI-18;South Caribbean Coast;Amérisco
+0;-86.3549,11.9918;NI-10;Managua Department;América
+0;-86.2754,11.7889;NI-02;Carazo Department;Amayo
+0;-85.7084,11.3200;NI-15;Rivas Department;Amayo
+0;-86.3280,11.7177;NI-02;Carazo Department;Amayito
+0;-86.7330,12.3694;NI-08;León Department;Felipe López
+0;-86.7680,12.3665;NI-08;León Department;Amatitán
+0;-84.6873,14.6733;NI-17;North Caribbean Coast;Amaki
+0;-85.1515,14.2563;NI-07;Jinotega Department;Amaka
+2771;-85.5784,11.5662;NI-15;Rivas Department;Altagracia
+0;-84.9129,13.6215;NI-17;North Caribbean Coast;Aló
+0;-84.2244,13.5001;NI-17;North Caribbean Coast;Alamikambang
+0;-85.5923,12.1837;NI-01;Boaco Department;Agüegüito
+0;-86.2008,11.6220;NI-02;Carazo Department;Aguas Calientes de Acayo
+0;-85.3736,12.1528;NI-04;Chontales Department;Aguas Calientes
+0;-86.2863,12.7707;NI-12;Matagalpa Department;Agua Frìa
+0;-86.1667,12.3500;NI-10;Managua Department;Agua Dulce
+0;-84.5167,13.9667;NI-17;North Caribbean Coast;Agua Clara
+0;-86.8241,12.6940;NI-08;León Department;Agua Caliente
+0;-85.7893,12.3892;NI-01;Boaco Department;Agua Caliente
+0;-85.7028,13.0383;NI-12;Matagalpa Department;Porfirio Sovalbarro
+10563;-85.1711,11.9703;NI-04;Chontales Department;Acoyapa
+3299;-86.5900,13.0537;NI-08;León Department;Achuapa
+0;-85.4444,11.1586;NI-15;Rivas Department;Las Cañitas
+0;-85.6647,11.1799;NI-15;Rivas Department;Santa Ana
+0;-85.6929,11.0792;NI-15;Rivas Department;Mojones
+0;-83.9167,10.7167;NI-14;Río San Juan Department;El Porvenir
+0;-84.9402,10.9582;NI-14;Río San Juan Department;Cabanga
+0;-87.5597,13.0502;NI-03;Chinandega Department;Santa Julia
+0;-86.0465,12.0748;NI-11;Masaya Department;El Cielo
+0;-86.0489,12.1062;NI-11;Masaya Department;Santa Cruz
+0;-86.0392,12.1770;NI-10;Managua Department;San Martín
+0;-86.0064,12.2693;NI-10;Managua Department;Colonia Los Laureles
+0;-86.0014,12.3176;NI-10;Managua Department;Las Canoas
+0;-86.0489,12.5381;NI-10;Managua Department;Los Ángeles
+0;-86.0099,12.5537;NI-12;Matagalpa Department;San Pedro
+0;-86.0131,12.5743;NI-12;Matagalpa Department;Buenavista
+0;-86.0061,12.6115;NI-12;Matagalpa Department;La Guayaba
+0;-86.0125,12.6347;NI-12;Matagalpa Department;Mario Soza
+0;-86.0297,12.6822;NI-12;Matagalpa Department;Los Ojos de Agua
+0;-86.0475,12.7222;NI-12;Matagalpa Department;El Jícaro
+0;-86.0109,12.7382;NI-12;Matagalpa Department;Los Calpules
+0;-86.0092,12.7711;NI-12;Matagalpa Department;San Esteban
+0;-86.0308,12.7737;NI-12;Matagalpa Department;Maunica
+0;-86.0163,12.8390;NI-12;Matagalpa Department;Las Minas
+0;-86.0201,12.8219;NI-12;Matagalpa Department;Las Pozas
+0;-86.0342,12.8042;NI-12;Matagalpa Department;San Cristóbal
+0;-86.0568,12.9064;NI-12;Matagalpa Department;Las Cuatro Esquinas
+0;-86.0536,12.8254;NI-12;Matagalpa Department;Bilwaska
+0;-86.0156,12.9407;NI-12;Matagalpa Department;Las Mesas
+0;-86.0741,12.9333;NI-12;Matagalpa Department;El Cacao
+0;-86.0294,12.9790;NI-12;Matagalpa Department;El Salto
+0;-86.0034,12.9686;NI-12;Matagalpa Department;El Chagüite
+0;-86.0151,12.9871;NI-12;Matagalpa Department;Valle Redondo
+0;-86.0706,12.9996;NI-12;Matagalpa Department;El Quebrachal
+0;-86.0540,12.3078;NI-10;Managua Department;Empalme San Benito
+50000;-86.3442,12.1589;NI-10;Managua Department;Ciudad Sandino
+0;-86.4759,12.0682;NI-10;Managua Department;Los Cedros
+0;-86.6183,12.4111;NI-08;León Department;Mira Lago
+0;-86.5577,12.6135;NI-08;León Department;La Sabaneta
+0;-86.5064,12.5851;NI-08;León Department;Las Lomas
+0;-86.7246,12.6944;NI-08;León Department;El Paraíso
+0;-86.8448,12.8552;NI-03;Chinandega Department;Israel
+0;-86.8982,12.6108;NI-08;León Department;Colonia Cristo Rey
+0;-86.8419,12.2731;NI-08;León Department;Omar Torrijos
+0;-86.7617,12.1686;NI-08;León Department;Miramar
+0;-86.3349,12.0855;NI-10;Managua Department;Comarca San José de Las Cañadas
+0;-86.2755,12.0952;NI-10;Managua Department;Comarca Silvia Ferrufino
+0;-86.2929,12.0789;NI-10;Managua Department;Comarca Pochocuape
+0;-84.3315,11.6554;NI-12;Matagalpa Department;Colonia Ruben Dario
+7836;-85.9440,13.3480;NI-07;Jinotega Department;Las Praderas
+0;-85.9350,11.7321;NI-06;Granada Department;Dolores
+0;-85.8166,11.7119;NI-06;Granada Department;Las Cañas
+0;-85.8668,11.6862;NI-15;Rivas Department;El Menco
+0;-85.8717,11.6699;NI-15;Rivas Department;Carrera Buena
+0;-85.9380,11.9925;NI-06;Granada Department;Cauloa
+0;-85.9588,11.9830;NI-06;Granada Department;Las Mercedes
+0;-85.4290,13.7326;NI-07;Jinotega Department;Peña Cruz
+0;-85.9644,11.9794;NI-06;Granada Department;El Cóbano
+0;-85.9780,11.9783;NI-06;Granada Department;Buenavista
+0;-85.9864,11.9747;NI-06;Granada Department;El Rosario
+0;-85.9857,11.9665;NI-06;Granada Department;Fumosa
+0;-85.9722,11.9700;NI-06;Granada Department;Santa Cecilia
+0;-85.9620,12.0082;NI-06;Granada Department;Los Malacos
+0;-85.9579,11.9764;NI-06;Granada Department;La Porra
+0;-85.9888,11.9581;NI-06;Granada Department;Santa Maria
+0;-85.9755,11.9541;NI-06;Granada Department;El Amparo
+0;-85.9736,11.9572;NI-06;Granada Department;Los Angeles
+0;-85.9699,11.9567;NI-06;Granada Department;San Carlos
+0;-85.9579,11.9660;NI-06;Granada Department;El Parque
+0;-85.9634,11.9475;NI-06;Granada Department;La Estancia
+0;-85.9680,11.9461;NI-06;Granada Department;Santa Teresita
+0;-85.9811,11.9494;NI-06;Granada Department;Dulce Nombre
+0;-85.3042,12.0657;NI-04;Chontales Department;Santa Rita
+0;-85.9660,11.9439;NI-06;Granada Department;San Francisco
+0;-85.9687,11.9242;NI-06;Granada Department;El Chinchorre
+0;-85.9832,11.9154;NI-06;Granada Department;Valle Escondido
+0;-85.9720,11.9145;NI-06;Granada Department;Alemania
+0;-85.9748,11.9127;NI-06;Granada Department;La Barillal
+0;-86.0145,12.7404;NI-12;Matagalpa Department;La Joya
+0;-85.9455,11.9097;NI-06;Granada Department;Quinta Ena
+0;-86.0505,12.5623;NI-10;Managua Department;San Agustín
+0;-86.1368,12.9160;NI-12;Matagalpa Department;La Lima y La Perla
+0;-85.9065,11.9061;NI-06;Granada Department;El Diamante
+0;-85.9934,11.9079;NI-06;Granada Department;Laguna Azul
+0;-85.9876,11.9152;NI-06;Granada Department;El Esfuerzo
+0;-85.9541,11.9042;NI-06;Granada Department;El Charco
+0;-85.9853,11.9023;NI-06;Granada Department;La Pedrera
+0;-85.9877,11.9009;NI-06;Granada Department;La Piedra
+0;-85.9874,11.8996;NI-06;Granada Department;El Hormigón
+0;-85.9822,11.8944;NI-06;Granada Department;La Chanchera
+0;-85.9357,11.9037;NI-06;Granada Department;Aseses
+0;-85.9072,11.8541;NI-06;Granada Department;El Elequeme
+0;-85.9369,11.8437;NI-06;Granada Department;El Cacao
+0;-85.9329,11.8350;NI-06;Granada Department;María Auxiladora
+0;-85.9247,11.7985;NI-06;Granada Department;El Guacual
+0;-85.9374,11.7854;NI-06;Granada Department;San Juan de Mombacho
+0;-85.8657,11.7650;NI-06;Granada Department;Santa María
+0;-85.9956,11.8375;NI-06;Granada Department;El Progreso
+0;-85.9760,11.8744;NI-06;Granada Department;El Pacion
+0;-85.9976,11.8795;NI-06;Granada Department;Berlin
+0;-86.0133,11.8550;NI-06;Granada Department;Poste Rojo
+0;-85.9769,11.8561;NI-06;Granada Department;El Carmelo
+0;-85.9805,11.9177;NI-06;Granada Department;Las Prusias
+0;-85.9380,11.7555;NI-06;Granada Department;San Luis de Manares
+0;-86.4406,11.7286;NI-02;Carazo Department;Las Breñas
+0;-86.4018,11.7250;NI-02;Carazo Department;Horno Grande
+0;-86.3897,11.7271;NI-02;Carazo Department;Flor Amarrilla
+0;-86.3794,11.7181;NI-02;Carazo Department;El Pozo
+0;-86.3170,11.6607;NI-02;Carazo Department;La Banqueta
+0;-86.3517,11.6559;NI-02;Carazo Department;Monte Mar
+0;-86.3500,11.6517;NI-02;Carazo Department;La Verarera
+0;-86.3380,11.7606;NI-02;Carazo Department;El Trapiche
+0;-86.3499,11.6494;NI-02;Carazo Department;San Francisco
+0;-86.3624,11.6751;NI-02;Carazo Department;El Narcigüiste
+0;-86.3760,11.6814;NI-02;Carazo Department;El Jocotal
+0;-86.3803,11.6808;NI-02;Carazo Department;Los Alamos
+0;-86.3624,11.6876;NI-02;Carazo Department;Carril Guásimo
+0;-86.3599,11.6922;NI-02;Carazo Department;Paso Cenizas
+0;-86.3747,11.6700;NI-02;Carazo Department;La Riviera
+0;-86.3639,11.7339;NI-02;Carazo Department;Santo Domingo
+0;-86.3548,11.7359;NI-02;Carazo Department;El Tamarindo
+0;-86.3464,11.7348;NI-02;Carazo Department;El Coyolar
+0;-86.3000,11.7602;NI-02;Carazo Department;Bueno Vista del Sur
+0;-86.2880,11.7219;NI-02;Carazo Department;La Madaleña
+0;-86.2867,11.7114;NI-02;Carazo Department;El Guairo
+0;-86.2884,11.7090;NI-02;Carazo Department;El Silo
+0;-86.2902,11.7069;NI-02;Carazo Department;Santa Fe
+0;-86.2901,11.7402;NI-02;Carazo Department;San Luis
+0;-86.3091,11.7475;NI-02;Carazo Department;La Nueva Reforma
+0;-86.3284,11.7218;NI-02;Carazo Department;El Recreo
+0;-86.2912,11.7029;NI-02;Carazo Department;El Guayacán
+0;-86.2750,11.7049;NI-02;Carazo Department;La Guabina
+0;-86.3033,11.6684;NI-02;Carazo Department;El Palacio
+0;-86.3073,11.6755;NI-02;Carazo Department;El Guayacán
+0;-86.3163,11.6879;NI-02;Carazo Department;Las Brisas
+0;-86.2387,11.7441;NI-02;Carazo Department;Aqui Te Espero
+0;-86.2176,11.7231;NI-02;Carazo Department;Cerro Grande
+0;-86.2070,11.7361;NI-02;Carazo Department;Santa Luisa
+0;-86.2453,11.7411;NI-02;Carazo Department;El Polvasal
+0;-86.2040,11.7025;NI-02;Carazo Department;La Bota
+0;-86.2068,11.6878;NI-02;Carazo Department;El Raizudo
+0;-86.1983,11.6785;NI-02;Carazo Department;Santa Lucía
+0;-85.2968,11.8851;NI-02;Carazo Department;Los Gómez
+0;-86.1547,11.6906;NI-02;Carazo Department;Ochomogo
+0;-86.1549,11.6920;NI-02;Carazo Department;Las Esquinas
+0;-86.0821,11.7158;NI-06;Granada Department;Valle Menier
+0;-86.1467,11.6996;NI-02;Carazo Department;La Argentina
+0;-86.1518,11.7012;NI-02;Carazo Department;Santa Gertrudis
+0;-86.1559,11.7024;NI-02;Carazo Department;La Chiripa
+0;-86.1559,11.7106;NI-02;Carazo Department;San Pedro
+0;-86.1758,11.6867;NI-02;Carazo Department;La Hacienda
+0;-86.1178,11.7035;NI-02;Carazo Department;Mata Caña
+0;-86.1746,11.7123;NI-02;Carazo Department;Los Reyes
+0;-86.1152,11.7570;NI-02;Carazo Department;San Jerónimo
+0;-86.1803,11.7430;NI-02;Carazo Department;El Carmen
+0;-86.1847,11.7444;NI-02;Carazo Department;Esquipulas
+0;-86.1108,11.7786;NI-06;Granada Department;San José de Gracias
+0;-86.1106,11.7132;NI-02;Carazo Department;Los Jirones
+0;-86.1231,11.7691;NI-02;Carazo Department;Los Encuentros
+0;-86.1177,11.7024;NI-02;Carazo Department;Sanjose
+0;-86.0735,11.7342;NI-06;Granada Department;El Peludo
+0;-86.0731,11.7432;NI-02;Carazo Department;El Almendro
+0;-86.5004,12.7752;NI-08;León Department;Los Medinas
+0;-86.0905,11.7194;NI-02;Carazo Department;Río Medina
+0;-86.1111,11.6703;NI-02;Carazo Department;El Ojo de Agua
+0;-86.0579,11.6746;NI-02;Carazo Department;San Rafael
+0;-86.0438,11.6670;NI-02;Carazo Department;Los Castillos
+0;-86.0323,11.6874;NI-02;Carazo Department;San Luis
+0;-86.0038,11.6792;NI-02;Carazo Department;El Contadero
+0;-86.0177,11.6835;NI-02;Carazo Department;San Martín
+0;-86.0162,11.6901;NI-06;Granada Department;San Nicolás
+0;-86.0367,11.6903;NI-02;Carazo Department;Periamo
+0;-86.0382,11.7045;NI-02;Carazo Department;El Socorro
+0;-86.0371,11.7066;NI-02;Carazo Department;La Vigia
+0;-86.0366,11.7101;NI-02;Carazo Department;San Lucas
+0;-85.9964,11.6474;NI-06;Granada Department;El Pilón
+0;-86.0505,11.7147;NI-02;Carazo Department;La Danta
+0;-86.0658,11.7148;NI-02;Carazo Department;Bernardino Díaz Ochoa
+0;-86.0543,11.7469;NI-02;Carazo Department;El Congo
+0;-86.0419,11.7496;NI-02;Carazo Department;La Concepción
+0;-86.0408,11.7467;NI-02;Carazo Department;EL Paraíso
+0;-86.0475,11.7411;NI-06;Granada Department;Candelaria
+0;-86.0377,11.7257;NI-02;Carazo Department;Las Colinas
+0;-86.0565,11.7390;NI-02;Carazo Department;El Porvenir
+0;-86.0172,11.7370;NI-02;Carazo Department;El Tesoro
+0;-86.0074,11.7301;NI-02;Carazo Department;El Pitalito
+0;-86.0054,11.7201;NI-02;Carazo Department;El Toco
+0;-86.2314,11.7383;NI-02;Carazo Department;Las Cuacas
+0;-86.2288,11.7294;NI-02;Carazo Department;San Antonio
+0;-86.2128,11.7348;NI-02;Carazo Department;Saljonia
+0;-86.2365,11.7117;NI-02;Carazo Department;El Paraíso
+0;-86.2203,11.6730;NI-02;Carazo Department;San Felipe
+0;-86.1512,11.5906;NI-02;Carazo Department;La Chota
+0;-86.1885,11.7287;NI-02;Carazo Department;Los Chilamates
+0;-86.0601,11.7214;NI-02;Carazo Department;Barraquel
+0;-86.2392,13.2404;NI-05;Estelí Department;Miraflor
+0;-85.9431,11.9037;NI-06;Granada Department;San José
+0;-86.2731,11.7402;NI-02;Carazo Department;El Tular
+0;-86.3626,11.6990;NI-02;Carazo Department;San Francisco de Tepano
+0;-86.1847,11.7333;NI-02;Carazo Department;El Gigante
+0;-86.5515,13.2312;NI-05;Estelí Department;El Pedernal
+0;-85.9622,11.8939;NI-06;Granada Department;La Galera
+0;-85.9915,11.8958;NI-06;Granada Department;Santa Cruz de Buena Vista
+0;-86.1462,11.6795;NI-02;Carazo Department;Los Gómez
+0;-86.1332,11.7030;NI-02;Carazo Department;Mata de Tule
+0;-86.2112,11.7088;NI-02;Carazo Department;Buenavista
+0;-86.0520,11.4139;NI-15;Rivas Department;Hacienda Iguana Golf & Beach Resort
+0;-83.7053,13.9880;NI-17;North Caribbean Coast;Sukat Pin
+0;-85.5755,11.5353;NI-15;Rivas Department;El Quino
+0;-85.4761,12.3990;NI-01;Boaco Department;Rancho Rojo
+0;-86.1942,12.1471;NI-10;Managua Department;La Subasta
+0;-85.5390,11.4892;NI-15;Rivas Department;Santa Cruz
+0;-85.9336,13.2905;NI-07;Jinotega Department;Las Cruces
+0;-85.9445,13.3481;NI-07;Jinotega Department;Santa Maía de Pantasma
+0;-85.7795,13.2979;NI-07;Jinotega Department;Abisinia
+0;-85.8124,12.8531;NI-12;Matagalpa Department;Ocalca
+0;-82.9814,12.2881;NI-18;South Caribbean Coast;Carib Town
+0;-83.7428,12.6576;NI-18;South Caribbean Coast;Trinkulang
+0;-86.2200,12.0105;NI-10;Managua Department;La Borgona
+0;-85.0037,11.1751;NI-14;Río San Juan Department;Mancarrón
+0;-85.8168,13.6149;NI-07;Jinotega Department;Wiwilí de Jinotega
+0;-85.9379,13.0476;NI-07;Jinotega Department;San José de Las Latas
+0;-85.8252,13.6187;NI-07;Jinotega Department;Wiwili
+0;-86.9968,12.6294;NI-03;Chinandega Department;Juan José Briceño
+0;-86.8544,12.3670;NI-08;León Department;Trapichito
+0;-86.8714,12.4907;NI-08;León Department;El Madroñal
+0;-86.1024,12.0471;NI-11;Masaya Department;Los Altos de Masaya
+0;-86.8613,12.5137;NI-08;León Department;San Jose de Telica
+0;-86.0918,12.0651;NI-11;Masaya Department;Matildina
+0;-86.7321,12.3588;NI-08;León Department;La Concepcion
+0;-86.7787,12.7503;NI-03;Chinandega Department;San Juan de Las Pencas
+0;-86.4132,13.3857;NI-05;Estelí Department;Ducuale Grande
+0;-86.2401,11.8718;NI-02;Carazo Department;La Palmera
+0;-86.8650,13.1795;NI-03;Chinandega Department;Llano El Jicaral
+0;-86.1052,12.8416;NI-12;Matagalpa Department;El Valle
+0;-86.0882,12.2255;NI-10;Managua Department;Ciudadela San Martín
+0;-86.5751,12.2060;NI-08;León Department;La Trinidad
+0;-86.0781,13.1218;NI-07;Jinotega Department;La Ermita de Saraguasca
+0;-84.6483,11.9178;NI-04;Chontales Department;El Coral
+0;-84.8152,12.4995;NI-18;South Caribbean Coast;El Ayote
+0;-85.7374,13.1365;NI-12;Matagalpa Department;La Dalia
+0;-85.5582,13.2370;NI-12;Matagalpa Department;Rancho Grande
+0;-86.5370,13.3916;NI-05;Estelí Department;El Rodeo
+0;-86.1483,12.1621;NI-10;Managua Department;Los Chagüites
+0;-86.1520,12.1679;NI-10;Managua Department;El Chagüite
+0;-86.5194,13.4938;NI-09;Madriz Department;La Esperanza
+0;-86.3337,12.0807;NI-10;Managua Department;La Esperanza
+0;-86.3181,12.0519;NI-10;Managua Department;El Cañón
+0;-84.5317,11.2197;NI-14;Río San Juan Department;La Palmera
+0;-86.1768,12.7065;NI-12;Matagalpa Department;El Palo de Agua
+0;-86.3038,12.0786;NI-10;Managua Department;El Encanto
+0;-85.6843,12.6671;NI-12;Matagalpa Department;Santa Rosa
+0;-86.2978,12.0810;NI-10;Managua Department;La Desearía
+0;-86.1864,12.0875;NI-10;Managua Department;San José
+0;-86.2061,12.0913;NI-10;Managua Department;Cuatro Esquinas
+0;-86.2790,12.0912;NI-10;Managua Department;San Roberto
+0;-85.7480,12.7215;NI-12;Matagalpa Department;Santa Inés
+0;-86.2795,12.0831;NI-10;Managua Department;San Martín
+0;-86.3316,12.1094;NI-10;Managua Department;Comarca Nejapa
+0;-85.7164,11.3172;NI-15;Rivas Department;Urbanato
+0;-85.5169,11.2036;NI-15;Rivas Department;Las Mercedes
+0;-85.6406,11.2364;NI-15;Rivas Department;La Calera
+0;-86.7453,12.1390;NI-08;León Department;El Velero
+0;-86.7369,12.1109;NI;;Playa Hermosa
+0;-85.9616,11.9876;NI-06;Granada Department;San Ignacio
+0;-85.9545,11.9788;NI-06;Granada Department;San José
+0;-85.9631,11.9190;NI-06;Granada Department;El Carmen
+0;-85.9798,11.8531;NI-06;Granada Department;La Granja
+0;-86.1326,11.7296;NI-02;Carazo Department;Barrio Nuevo
+0;-85.9419,13.3573;NI-07;Jinotega Department;Pantasma
+0;-86.4392,13.3144;NI-05;Estelí Department;Santa Teresa
+0;-84.5821,11.8932;NI-04;Chontales Department;El Granadino
+0;-85.8810,11.2706;NI-15;Rivas Department;El Nacascolo
+0;-85.0182,11.6587;NI-14;Río San Juan Department;San Bartolo
+0;-84.9294,11.5988;NI-14;Río San Juan Department;Walter Acevedo
+0;-84.9228,11.6754;NI-14;Río San Juan Department;Mayasang
+0;-84.9037,11.6415;NI-14;Río San Juan Department;Barrio La Ñoca
+0;-84.7596,11.3555;NI-14;Río San Juan Department;El Tule
+0;-84.8461,11.4643;NI-14;Río San Juan Department;Never Oporta
+0;-84.7085,11.4493;NI-14;Río San Juan Department;Santa María
+0;-84.6697,11.5476;NI-14;Río San Juan Department;El Jícaro
+0;-84.5723,11.5611;NI-14;Río San Juan Department;Toro Bayo
+0;-84.6697,11.7279;NI-14;Río San Juan Department;Colonia Villa Álvarez
+0;-84.5777,11.7623;NI-14;Río San Juan Department;Colonia El Corocito
+0;-86.3130,12.2120;NI-10;Managua Department;Bosques de Xiloá
+0;-84.8237,13.8957;NI-17;North Caribbean Coast;Gusma
+0;-87.2020,12.6334;NI-03;Chinandega Department;Río Chiquito

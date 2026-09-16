@@ -1,0 +1,81 @@
+ru;Тунапуна;Tunapuna
+ar;تونابونا;Tunapuna
+hi;तुनापुना;Tunapuna
+ja;トゥナプナ;Tunapuna
+ru;Сипария;Siparia
+ar;سيبارياً;Siparia
+hi;सिपारिया;Siparia
+ja;シパリア;Siparia
+ru;Скарборо;Scarborough
+ar;سكاربوروغ;Scarborough
+hi;स्कारबोरो;Scarborough
+ja;スカーボロー;Scarborough
+ru;Сангре-Гранде;Sangre Grande
+ar;سانجري جراندي;Sangre Grande
+hi;संग्रे ग्रांडे;Sangre Grande
+ja;サングレ・グランデ;Sangre Grande
+ru;Сан-Фернандо;San Fernando
+ar;سان فرناندو;San Fernando
+hi;सैन फर्नांडो;San Fernando
+ja;サンフェルナンド;San Fernando
+fr;Río Claro;Rio Claro
+ru;Рио-Кларо;Rio Claro
+ar;ريو كلارو;Rio Claro
+hi;रियो क्लारो;Rio Claro
+ja;リオクラロ;Rio Claro
+ru;Принцес-Таун;Princes Town
+ar;مدينة برينسز;Princes Town
+hi;प्रिंसेज़ टाउन;Princes Town
+ja;プリンセスタウン;Princes Town
+de;Port-of-Spain;Port of Spain
+es;Puerto España;Port of Spain
+fr;Port-d'Espagne;Port of Spain
+ja;ポートオブスペイン;Port of Spain
+ko;포트 오브 스페인;Port of Spain
+ko;포트오브스페인;Port of Spain
+zh;西班牙港;Port of Spain
+ru;Порт-оф-Спейн;Port of Spain
+ar;بورت أوف سبين;Port of Spain
+hi;पोर्ट ऑफ स्पेन;Port of Spain
+ht;Pò of Espay;Port of Spain
+nah;Acalquixohuayan Caxtillan;Port of Spain
+ru;Пойнт-Фортин;Point Fortin
+ar;بوينت فورتين;Point Fortin
+hi;पॉइंट फोर्टिन;Point Fortin
+ja;ポイントフォーティン;Point Fortin
+en;Penal;Peñal
+ru;Пенал;Peñal
+ar;بينال;Peñal
+es;Penal;Peñal
+fr;Penal;Peñal
+hi;पेनल;Peñal
+de;Penal;Peñal
+ja;ペナル;Peñal
+pt;Penal;Peñal
+ru;Марабелла;Marabella
+zh;马拉贝拉;Marabella
+ar;مارابيا;Marabella
+zh-Hant;馬拉貝拉;Marabella
+ru;Лавентилль;Laventille
+ar;لافينتيل;Laventille
+hi;लैवेंटिल;Laventille
+ja;ラベンティル;Laventille
+ru;Диего-Мартин;Diego Martin
+ar;دييغو مارتين;Diego Martin
+hi;डिएगो मार्टिन;Diego Martin
+ja;ディエゴマルティン;Diego Martin
+ru;Куэва;Couva
+ar;كويفا;Couva
+hi;कूवा;Couva
+ja;クーバ;Couva
+ru;Чагуанас;Chaguanas
+ar;تشاغوانياس;Chaguanas
+hi;चागुआनास;Chaguanas
+ja;チャグアナス;Chaguanas
+de;Bon Accord;Bon Accord Village
+fr;Bon Accord;Bon Accord Village
+en;Bon Accord;Bon Accord Village
+ru;Арима;Arima
+ar;أريما;Arima
+hi;अरीमा;Arima
+ja;アリマ;Arima

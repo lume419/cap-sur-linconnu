@@ -1,0 +1,16 @@
+ru;Де-Боттом;The Bottom
+ar;ذا بوتوم;The Bottom
+hi;द बॉटम;The Bottom
+ja;ザボトム;The Bottom
+ar;أورانياستاد;Oranjestad
+ja;オラニエスタッド;Oranjestad
+ko;오라녜스타트;Oranjestad
+ru;Ораньестад;Oranjestad
+zh;奥拉涅斯塔德;Oranjestad
+hi;ओरांजेस्टाड;Oranjestad
+ja;クラレンダイク;Kralendijk
+ru;Кралендейк;Kralendijk
+zh;克拉伦代克;Kralendijk
+ar;كراليندايك;Kralendijk
+ko;크랄렌데이크;Kralendijk
+ko;린콘;Dorp Rincon

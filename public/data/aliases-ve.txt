@@ -1,0 +1,514 @@
+ru;Ла-Асунсьон;La Asunción
+ar;لا أسونسيون;La Asunción
+hi;ला असुन्सिओन;La Asunción
+ja;ラ・アスンシオン;La Asunción
+es;Las Salinas;La Salinas
+ru;Анако;Anaco
+ru;Алто Баринас;Alto Barinas
+ru;Зараза;Zaraza
+zh;薩拉薩;Zaraza
+ru;Яритагуа;Yaritagua
+ru;Валье-де-Ла-Паскуа;Valle de La Pascua
+ru;Валера;Valera
+zh;巴莱拉;Valera
+ja;バレンシア;Valencia
+pt;Valência;Valencia
+ru;Валенсия;Valencia
+ar;بلنسية;Valencia
+ko;발렌시아;Valencia
+qu;Valincia;Valencia
+zh;巴伦西亚;Valencia
+hi;वेलेंसिया;Valencia
+es;Urena;Ureña
+en;Urena;Ureña
+pt;Urena;Ureña
+ru;Упата;Upata
+ru;Турмеро;Turmero
+zh;圖爾梅羅;Turmero
+ru;Тумеремо;Tumeremo
+ru;Тукупита;Tucupita
+ar;توكوبيتا;Tucupita
+hi;टुकुपिता;Tucupita
+ja;トクピタ;Tucupita
+ko;트루히요;Trujillo
+zh;特魯希略;Trujillo
+ru;Трухильо;Trujillo
+ar;تروخيللو;Trujillo
+hi;ट्रुजिलो;Trujillo
+ja;トルヒーリョ;Trujillo
+es;Colonia Tovar;Tovar
+en;Colonia Tovar;Tovar
+fr;Colonia Tovar;Tovar
+it;Colonia Tovar;Tovar
+pt;Colônia Tovar;Tovar
+en;Tovar Municipality;Tovar
+es;Municipio Tovar;Tovar
+zh;托瓦爾市;Tovar
+ru;Товар;Tovar
+ru;Торунос;Torunos
+en;Tocopero;Tocópero
+es;Tocopero;Tocópero
+pt;Tocopero;Tocópero
+zh;蒂納基約;Tinaquillo
+ru;Тинакильо;Tinaquillo
+ru;Тимотес;Timotes
+ru;Тембладор;Temblador
+ru;Тариба;Táriba
+es;Tanaguarena;Punta Tanaguarena
+en;Tanaguarena;Punta Tanaguarena
+pt;Tanaguarena;Punta Tanaguarena
+es;Tacarigua La Laguna;Tacarigua de La Laguna
+en;Tacarigua La Laguna;Tacarigua de La Laguna
+pt;Tacarigua La Laguna;Tacarigua de La Laguna
+es;Tabai;Tabay
+ru;Табай;Tabay
+en;Tabai;Tabay
+pt;Tabai;Tabay
+ru;Соледад;Soledad
+ru;Сараре;Sarare
+ru;Санта-Тереза-дель-Туй;Santa Teresa del Tuy
+es;Santa Elena de Guairén;Santa Elena de Uairén
+es;Santa Elena;Santa Elena de Uairén
+ru;Санта-Елена-де-Уайрен;Santa Elena de Uairén
+en;Santa Barbara;Santa Bárbara
+es;Santa Barbara;Santa Bárbara
+pt;Santa Barbara;Santa Bárbara
+es;Santa Ana del Táchira;Santa Ana
+es;San Rafael de Palo Alzado;San Rafael
+en;San Rafael de Palo Alzado;San Rafael
+pt;San Rafael de Palo Alzado;San Rafael
+ru;Сан-Хуан-де-лос-Моррос;San Juan de los Morros
+ar;سان خوان دي لوس موروس;San Juan de los Morros
+hi;सैन जुआन डे लॉस मोरोस;San Juan de los Morros
+ja;サン・フアン・デ・ロス・モロス;San Juan de los Morros
+es;San Juan de la Bardona;San Juan de las Galdonas
+es;San Juan de Bardona;San Juan de las Galdonas
+es;San Juan De Colon;Colón
+en;San Juan De Colon;Colón
+pt;San Juan De Colon;Colón
+en;San Juan de Colón;Colón
+pt;San Juan de Colón;Colón
+en;Galipan;San José de Galipán
+es;Galipan;San José de Galipán
+pt;Galipan;San José de Galipán
+ko;산펠리페;San Felipe
+ru;Сан-Фелипе;San Felipe
+zh;聖費利佩;San Felipe
+ar;سان فيليب;San Felipe
+hi;सैन फेलिपे;San Felipe
+ja;サン・フェリペ;San Felipe
+es;San Cristobal;San Cristóbal
+pt;San Cristobal;San Cristóbal
+ar;سان كريستوبال;San Cristóbal
+ko;산크리스토발;San Cristóbal
+ru;Сан-Кристобаль;San Cristóbal
+zh;聖克里斯托瓦爾;San Cristóbal
+hi;सैन क्रिस्टोबल;San Cristóbal
+ja;サン・クリストバル;San Cristóbal
+ru;Сан Карлос Дел Зулиа;San Carlos del Zulia
+ko;산카를로스;San Carlos
+zh;聖卡洛斯;San Carlos
+ru;Сан-Карлос;San Carlos
+ar;سان كارلوس;San Carlos
+hi;सैन कार्लोस;San Carlos
+ja;サン・カルロス;San Carlos
+ru;Санаре;Sanare
+es;Caparo;San Antonio de Caparo
+en;Caparo;San Antonio de Caparo
+pt;Caparo;San Antonio de Caparo
+ru;Сабанета;Sabaneta
+ru;Рубио;Rubio
+ru;Росарио;La Villa del Rosario
+es;Caribe;Río Caribe
+es;Rio Caribe;Río Caribe
+en;Rio Caribe;Río Caribe
+pt;Rio Caribe;Río Caribe
+es;Quibor;Quíbor
+en;Quibor;Quíbor
+pt;Quibor;Quíbor
+zh;克尼克阿;Queniquea
+zh;蓬托菲霍;Punto Fijo
+ru;Пунто-Фихо;Punto Fijo
+ru;Пунта-Кардон;Punta Cardón
+es;Punta de Arena;Punta Arenas
+es;Puipui;Pui Puy
+es;Pui Pui;Pui Puy
+en;Pui Pui;Pui Puy
+pt;Pui Pui;Pui Puy
+en;Puipui;Pui Puy
+pt;Puipui;Pui Puy
+es;Puerto Piritu;Puerto Píritu
+es;Puerto de La Cruz;Puerto La Cruz
+ru;Пуэрто Ла Круз;Puerto La Cruz
+pt;Puerto Cruz;Puerto La Cruz
+es;Puerto Cruz;Puerto La Cruz
+en;Puerto Cruz;Puerto La Cruz
+ar;بويرتو لا كروز;Puerto La Cruz
+ru;Пуэрто-ла-Крус;Puerto La Cruz
+zh;拉克魯斯港;Puerto La Cruz
+ru;Пуерто Кабелло;Puerto Cabello
+ko;푸에르토카베요;Puerto Cabello
+ru;Пуэрто-Кабельо;Puerto Cabello
+zh;卡貝略港;Puerto Cabello
+ko;푸에르토아야쿠초;Puerto Ayacucho
+ru;Пуэрто-Аякучо;Puerto Ayacucho
+zh;阿亞庫喬港;Puerto Ayacucho
+ar;بويرتو أياكوتشو;Puerto Ayacucho
+hi;पुएर्टो अयाकुचो;Puerto Ayacucho
+ja;プエルト・アヤクーチョ;Puerto Ayacucho
+en;La Sierra;Pueblo Nuevo de La Sierra
+pt;La Sierra;Pueblo Nuevo de La Sierra
+es;La Sierra;Pueblo Nuevo de La Sierra
+ru;Порламар;Porlamar
+zh;波拉马尔;Porlamar
+es;Pinango;Piñango
+en;Pinango;Piñango
+pt;Pinango;Piñango
+ja;ペタレ;Petare
+ru;Петаре;Petare
+ko;페타레;Petare
+zh;佩塔雷;Petare
+es;El Valle de Pedro Gonzalez;Pedrogonzález
+es;Pedrogonzalez;Pedrogonzález
+en;Pedrogonzalez;Pedrogonzález
+pt;Pedrogonzalez;Pedrogonzález
+ru;Педерналес;Pedernales
+ru;Пампатар;Pampatar
+ru;Пампанито;Pampanito
+ru;Пало Негро;Palo Negro
+ru;Палмира;Palmira
+ru;Палмасола;Palmasola
+ru;Оспино;Ospino
+es;Ortíz;Ortiz
+ru;Оното;Onoto
+es;Ocumare;Ocumare del Tuy
+pt;Ocumare;Ocumare del Tuy
+en;Ocumare;Ocumare del Tuy
+fr;Ocumare;Ocumare del Tuy
+de;Ocumare;Ocumare del Tuy
+ru;Окумаре-дель-Туй;Ocumare del Tuy
+ru;Обиспос;Obispos
+es;Mucuruba;Mucurubá
+en;Mucuruba;Mucurubá
+pt;Mucuruba;Mucurubá
+es;Mucuchachi;Mucuchachí
+en;Mucuchachi;Mucuchachí
+pt;Mucuchachi;Mucuchachí
+es;Puerto Mochima;Mochima
+es;Misión San Francisco de Guayo;San Francisco de Guayo
+ru;Миримире;Mirimire
+ru;Миранда;Miranda
+es;La Mesa Bolívar;Mesa Bolívar
+es;Mesa Bolivar;Mesa Bolívar
+en;Mesa Bolivar;Mesa Bolívar
+pt;Mesa Bolivar;Mesa Bolívar
+en;La Mesa Bolívar;Mesa Bolívar
+pt;La Mesa Bolívar;Mesa Bolívar
+ru;Мерида;Mérida
+es;Merida;Mérida
+en;Merida;Mérida
+pt;Merida;Mérida
+ja;メリダ;Mérida
+ar;ماردة;Mérida
+ko;메리다;Mérida
+zh;梅里達市;Mérida
+hi;मेरिडा;Mérida
+ru;Маспаррито;Masparrito
+ru;Марипа;Maripa
+ru;Мариара;Mariara
+ja;マラカイ;Maracay
+ko;마라카이;Maracay
+qu;Marakay;Maracay
+ru;Маракай;Maracay
+zh;马拉凯;Maracay
+ar;ماراكاي;Maracay
+hi;मारकाय;Maracay
+ja;マラカイボ;Maracaibo
+ar;ماراكايبو;Maracaibo
+qu;Marakaypu;Maracaibo
+ko;마라카이보;Maracaibo
+ru;Маракайбо;Maracaibo
+zh;马拉开波;Maracaibo
+guc;Marakaaya;Maracaibo
+hi;मारकायबो;Maracaibo
+ru;Мапорал;Maporal
+ru;Мапире;Mapire
+ru;Мампорал;Mamporal
+es;Magdalena;Magdaleno
+en;Magdalena;Magdaleno
+pt;Magdalena;Magdaleno
+fr;Magdalena;Magdaleno
+de;Magdalena;Magdaleno
+ru;Мачикес;Machiques
+ja;ロス・テケス;Los Teques
+ko;로스테케스;Los Teques
+zh;洛斯特克斯;Los Teques
+ru;Лос-Текес;Los Teques
+ar;لوس تيكيس;Los Teques
+hi;लॉस टेकेस;Los Teques
+ru;Лос Растрохос;Los Rastrojos
+es;Los Barrancos;Los Barrancos de Fajardo
+ru;Лобатера;Lobatera
+ru;Либертад;Libertad
+zh;拉維多利亞;La Victoria
+ru;Ла-Виктория;La Victoria
+es;Aguas Termales;Las Trincheras
+es;Trincheras;Las Trincheras
+en;Trincheras;Las Trincheras
+pt;Trincheras;Las Trincheras
+es;Tejerias;Las Tejerías
+pt;Tejerias;Las Tejerías
+fr;Tejerias;Las Tejerías
+de;Tejerias;Las Tejerías
+it;Tejerias;Las Tejerías
+ru;Ландер;Lander
+en;Loma;La Loma de la Virgen
+en;La Loma;La Loma de la Virgen
+es;La Loma;La Loma de la Virgen
+pt;La Loma;La Loma de la Virgen
+fr;La Loma;La Loma de la Virgen
+it;La Loma;La Loma de la Virgen
+de;La Loma;La Loma de la Virgen
+ja;ラ・グアイラ;La Guaira
+ko;라과이라;La Guaira
+ru;Ла-Гуайра;La Guaira
+zh;拉瓜伊拉;La Guaira
+ar;لا غويرا;La Guaira
+hi;ला गुआइरा;La Guaira
+ru;Ла Конкепкион;La Concepción
+pt;Kavanayén;Kanavayén
+es;Kavanayen;Kanavayén
+en;Kavanayen;Kanavayén
+pt;Kavanayen;Kanavayén
+it;Kavanayen;Kanavayén
+fr;Kavanayen;Kanavayén
+de;Kavanayen;Kanavayén
+es;Jaji;Jají
+en;Jaji;Jají
+pt;Jaji;Jají
+ru;Ирапа;Irapa
+ja;グアティレ;Guatire
+ko;과티레;Guatire
+ru;Гуатире;Guatire
+zh;瓜蒂雷;Guatire
+es;Guariquen;Guariquén
+en;Guariquen;Guariquén
+pt;Guariquen;Guariquén
+ru;Гуаренас;Guarenas
+ja;グアナレ;Guanare
+ko;과나레;Guanare
+ru;Гуанаре;Guanare
+zh;瓜納雷;Guanare
+ar;غوانار;Guanare
+hi;गुआनारे;Guanare
+ru;Гуакара;Guacara
+ru;Гибралтар;Gibraltar
+es;Estanques;Estánquez
+en;Estanques;Estánquez
+pt;Estanques;Estánquez
+es;Escaguey;Escagüey
+en;Escaguey;Escagüey
+pt;Escaguey;Escagüey
+ru;Эль-Вихия;El Vigía
+es;Tocuyo;El Tocuyo
+en;Tocuyo;El Tocuyo
+pt;Tocuyo;El Tocuyo
+ru;Эль-Токуйо;El Tocuyo
+zh;埃爾托庫約;El Tocuyo
+ko;엘티그레;El Tigre
+zh;埃爾蒂格雷;El Tigre
+ru;Эль-Тигре;El Tigre
+es;El Peñon;El Peñón
+es;Pauji;El Paují
+es;El Limon;El Limón
+pt;El Limon;El Limón
+en;El Limon;El Limón
+fr;El Limon;El Limón
+de;El Limon;El Limón
+zh;埃爾利蒙;El Limón
+ru;Эль-Лимон;El Limón
+es;Pueblo el Hatillo;El Hatillo
+en;El Hatillo Municipality;El Hatillo
+es;Municipio El Hatillo;El Hatillo
+ja;エルアティジョ市;El Hatillo
+ko;엘아티요 시;El Hatillo
+zh;埃爾阿蒂約市;El Hatillo
+ru;Эхидо;Ejido
+ru;Долорес;Dolores
+es;Guayacua;Cuyagua
+es;Cupira;Cúpira
+en;Cupira;Cúpira
+pt;Cupira;Cúpira
+ru;Кумана;Cumaná
+ja;クマナ;Cumaná
+ko;쿠마나;Cumaná
+zh;庫馬納;Cumaná
+ar;كومانا;Cumaná
+hi;कुमाना;Cumaná
+ru;Куа;Cúa
+ja;コロ;Coro
+ru;Коро;Coro
+ko;코로;Coro
+ar;سانتا آنا دي كورو;Coro
+zh;聖安娜德科羅;Coro
+hi;कोरो;Coro
+ru;Кохедес;Cojedes
+pt;Cidade Pilar;Ciudad Piar
+zh;奧赫達城;Ciudad Ojeda
+ru;Сьюдад-Охеда;Ciudad Ojeda
+pt;Cidade Guaiana;Ciudad Guayana
+ru;Сьюдад-Гуаяна;Ciudad Guayana
+ja;シウダーグアヤナ;Ciudad Guayana
+zh;圭亞那城;Ciudad Guayana
+ko;시우다드과야나;Ciudad Guayana
+es;Bolívar;Ciudad Bolívar
+ja;シウダ・ボリバル;Ciudad Bolívar
+ru;Сьюдад-Боливар;Ciudad Bolívar
+en;Ciudad Bolivar;Ciudad Bolívar
+es;Ciudad Bolivar;Ciudad Bolívar
+pt;Ciudad Bolivar;Ciudad Bolívar
+hi;सिउदाद बोलिवर;Ciudad Bolívar
+ko;시우다드볼리바르;Ciudad Bolívar
+qu;Bolívar llaqta;Ciudad Bolívar
+zh;玻利瓦尔城;Ciudad Bolívar
+ar;سيوداد بوليفار;Ciudad Bolívar
+es;Choroni;Choroní
+en;Choroni;Choroní
+es;Chiguara;Chiguará
+en;Chiguara;Chiguará
+pt;Chiguara;Chiguará
+ru;Чаральяве;Charallave
+es;Municipio Chacao;Chacao
+ja;チャカオ市;Chacao
+ko;차카오 시;Chacao
+zh;查考市;Chacao
+es;Cepe;Ceped
+en;Cepe;Ceped
+pt;Cepe;Ceped
+ru;Катия-Ла-Мар;Catia La Mar
+en;Casigua-El Cubo;Casigua El Cubo
+es;Casigua-El Cubo;Casigua El Cubo
+zh;卡西瓜-埃爾庫沃;Casigua El Cubo
+zh;卡魯帕諾;Carúpano
+ru;Карупано;Carúpano
+es;Boca del Karún;Karún Ken
+ru;Каррисаль;Carrizal
+ru;Карора;Carora
+es;Carmen;Carmen de Cura
+es;Cararabo;Carabobo
+ar;كاراكاس;Caracas
+ja;カラカス;Caracas
+ko;카라카스;Caracas
+ru;Каракас;Caracas
+zh;卡拉卡斯;Caracas
+qu;Karakas;Caracas
+ht;Karakas;Caracas
+hi;काराकास;Caracas
+es;Santiago de León de Caracas;Caracas
+es;Cano Manamo;Caño Mánamo
+en;Cano Manamo;Caño Mánamo
+pt;Cano Manamo;Caño Mánamo
+es;Canagua;Canaguá
+en;Canagua;Canaguá
+pt;Canagua;Canaguá
+fr;Canagua;Canaguá
+it;Canagua;Canaguá
+de;Canagua;Canaguá
+zh;卡拉沃索;Calabozo
+ru;Калабосо;Calabozo
+ru;Кагуа;Cagua
+ru;Кабударе;Cabudare
+ru;Кабимас;Cabimas
+ar;كابيماس;Cabimas
+zh;卡維馬斯;Cabimas
+es;Quiragua;Buena Vista
+pt;Quiracoa;Buena Vista
+es;Quirigua;Buena Vista
+es;San José de Bongó;Bongó
+zh;博科諾;Boconó
+es;Uchire;Boca de Uchire
+es;Boca Aroa;Boca de Aroa
+en;Boca Aroa;Boca de Aroa
+pt;Boca Aroa;Boca de Aroa
+ru;Бобурес;Bobures
+es;Nuestra Señora del Rosario de Baruta;Baruta
+ru;Барута;Baruta
+ru;Баркисимето;Barquisimeto
+ja;バルキシメト;Barquisimeto
+ko;바르키시메토;Barquisimeto
+zh;巴基西梅托;Barquisimeto
+ar;باركيسيميتو;Barquisimeto
+hi;बार्किसिमेटो;Barquisimeto
+ru;Баринитас;Barinitas
+ko;바리나스;Barinas
+ru;Баринас;Barinas
+ar;باريناس;Barinas
+qu;Barinas llaqta;Barinas
+zh;巴里納斯;Barinas
+hi;बारिना;Barinas
+ja;バリナ;Barinas
+ru;Барселона;Barcelona
+ja;バルセロナ;Barcelona
+ko;바르셀로나;Barcelona
+zh;巴塞羅那;Barcelona
+ar;برشلونة;Barcelona
+hi;बार्सिलोना;Barcelona
+ru;Байладорес;Bailadores
+zh;拜拉多雷斯;Bailadores
+ru;Арисменди;Arismendi
+ru;Аренас;Arenas
+ru;Арауре;Araure
+ja;アムアイ;Amuay
+ru;Алтамира;Altamira
+ru;Лос Пуертос Де Алтагракиа;Los Puertos de Altagracia
+es;Adicora;Adícora
+en;Adicora;Adícora
+pt;Adicora;Adícora
+ja;アカリグア;Acarigua
+ru;Акаригуа;Acarigua
+zh;阿卡里瓜;Acarigua
+ko;아카리과;Acarigua
+es;Misión de Los Angles de Tokuku;El Tucuco
+es;Tocucu;El Tucuco
+es;Los Ángeles del Tucuco;El Tucuco
+es;Merecure;La Teja
+es;Caño Mendez;Caño Méndez
+es;Mucunutan;Mucunután
+en;Mucunutan;Mucunután
+pt;Mucunutan;Mucunután
+es;Villanueva;Villa Nueva
+es;Alto de Niño;Alto del Niño
+es;San Josesito;San Josecito
+es;Las Curvas;La Curva
+es;Tampacón;Tampancón
+es;Támauco;Támuco
+es;Catarnica;Catárnica
+es;Jerico;Jericó
+es;Las Gumas;Las Guamas
+es;Loma de Pio;Loma de Pío
+ru;Матурин;Maturín
+ko;마투린;Maturín
+zh;馬圖林;Maturín
+ar;ماتورين;Maturín
+hi;मेचुरीन;Maturín
+ja;マトゥリン;Maturín
+es;Bajaragua;Bajarigua
+zh;拉格里塔;La Grita
+es;El Topon;El Tópon
+en;El Topon;El Tópon
+pt;El Topon;El Tópon
+es;Macanilla;La Macanilla
+es;Altos de Sucre;Los Altos de Santa María
+en;Altos de Sucre;Los Altos de Santa María
+pt;Altos de Sucre;Los Altos de Santa María
+es;Santa Rosalia;El Playón
+es;Tapa de Salmeron;Tapa de Salmerón
+es;Hacienda Bolívar;Puerto Bolívar
+es;San Fernando;San Fernando de Apure
+ru;Сан-Фернандо-де-Апуре;San Fernando de Apure
+ar;سان فرناندو دي أبوري;San Fernando de Apure
+hi;सैन फर्नांडो डी अपूरे;San Fernando de Apure
+ja;サン・フェルナンド・デ・アプーレ;San Fernando de Apure
+es;Los Fermines;Las Fermines
+es;Guaruguaja;Piedras Negras
+es;Guamachal;Las Lares

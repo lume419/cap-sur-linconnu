@@ -1,0 +1,5 @@
+ja;コックバーンタウン;Cockburn Town
+ko;코번타운;Cockburn Town
+ru;Коберн-Таун;Cockburn Town
+zh;科伯恩城;Cockburn Town
+en;Provo;Providenciales

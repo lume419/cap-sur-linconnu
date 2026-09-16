@@ -1,0 +1,339 @@
+fr;Weche;Welch
+fr;Voute l'Église;Voûte l’Église
+fr;Viéllot;Viellot
+ht;Vèrèt;Verrettes
+ht;Valyè;Vallières
+ht;Twen;Trouin
+ht;Trou di Nò;Trou du Nord
+fr;Caïman;Trou Caïman
+fr;Trou Bonbon;Bonbon
+fr;Tossele;Torcelle
+ht;Tòbèk;Torbeck
+fr;Tamarin;Tomarin
+fr;Ti-Charute;Ti Charute
+ht;Tomond;Thomonde
+ht;Tomazo;Thomazeau
+ht;Tomasik;Thomassique
+ht;Tyòt;Thiotte
+ht;Tête Bœuf;Tete Boeuf
+ht;Tête Bœuf;Tee Boeuf
+fr;Tetard;Têtard
+ht;Tèrye Wouj;Terrier Rouge
+ht;Tènèv;Terre Neuve
+ht;Taba;Tabarre
+ht;Source Bœuf;Source Boeuf
+fr;Sinai;Sinaï
+ht;Savanèt;Savanette
+fr;Savane Macotte;Savane Marotte
+fr;Savane Bombée;Savane Bombe
+ht;Savane Bœuf;Savane Boeuf
+ht;Sen Rafayèl;Saint-Raphaël
+ht;Sen Michèl Latalay;Saint-Michel de l'Atalaye
+ru;Сен-Марк;Saint-Marc
+ht;Sen Lwi di Sid;Saint-Louis du Sud
+ht;Sen Lwi di Nò;Saint-Louis du Nord
+ht;Sen Jan di Sid;Saint-Jean du Sud
+ht;Sent Sizàn;Sainte-Suzanne
+fr;Roye Canot;Roy Canot
+fr;Roche Eustache;Roches Eustaches
+fr;Roche Mûlatre;Roche Mulâtre
+fr;Rolhe Coupeye;Roche Goupèye
+ht;Wòchabato;Roche-à-Bateau
+fr;Robergeaud;Robergeau
+fr;Risqué;Risque
+fr;Rédinègre;Redinègre
+ht;Rankit;Ranquitte
+fr;Rangé Déjoie;Rangé de Joie
+ht;Katye Moren;Quartier Morin
+fr;Tovot;Povot
+fr;Poste Metier;Poste Métier
+ht;Pò Sali;Port-Salut
+ht;Pò Mago;Port-Margot
+zh;和平港;Port-de-Paix
+ht;Pòdepè;Port-de-Paix
+ht;Pòdpè;Port-de-Paix
+ru;Пор-де-Пе;Port-de-Paix
+ja;ポールドペ;Port-de-Paix
+ko;포르드페이;Port-de-Paix
+ko;포르드페;Port-de-Paix
+pt;Porto-da-Paz;Port-de-Paix
+es;Puerto Príncipe;Port-au-Prince
+ht;Pòtoprens;Port-au-Prince
+ja;ポルトープランス;Port-au-Prince
+ko;포르토프랭스;Port-au-Prince
+pt;Porto Príncipe;Port-au-Prince
+ru;Порт-о-Пренс;Port-au-Prince
+zh;太子港;Port-au-Prince
+pap;Port au Prince;Port-au-Prince
+hi;पोर्ट-ऑ-प्रिंस;Port-au-Prince
+ar;بورت أو برانس;Port-au-Prince
+qu;Port au Prince;Port-au-Prince
+fr;Pont l'Estère;L'Estère
+ht;Lestè;L'Estère
+fr;Planton Mombin;Platon Mombin
+fr;Platon Dumé;Platon Dume
+fr;Platon Dufossé;Platon du Fossé
+ht;Plezans;Plaisance
+ht;Plèn di Nò;Plaine du Nord
+fr;Place Pru d'Homme;Place Prudhomme
+ht;Pilat;Pilate
+fr;Figuier;Piguer
+ht;Piyon;Pignon
+fr;Petit Paradis;Ti Paradis
+fr;Petit-Goâve;Tigwav
+ru;Тигвав;Tigwav
+ht;Ti Rivyè Latibonit;Petite Rivière de l'Artibonite
+ht;Petyon-Vil;Pétionville
+ru;Петионвилле;Pétionville
+ht;Pestèl;Pestel
+fr;Pérnier;Pernier
+ht;Pèch;Perches
+fr;Pava Jonc;Pavajonc
+fr;Passé Citron;Passe Citron
+ht;Payan;Paillant
+ht;Wanament;Ouanaminthe
+fr;Oranger;Orangers
+fr;Nan Sales;Nan Salès
+fr;Nan Risqué;Nan Risque
+fr;Nan Rang;Rang
+fr;Nan Mangot;Nan Mango
+fr;Nan Mambre;Nan Mambré
+fr;Nan Gris Gris;Nan Gris
+fr;Nan Fouc;Nan Fourc
+ht;Monwon;Moron
+ht;Morne Tête Bœuf;Morne Tete Boeuf
+fr;Habitation Morne Blanc;Morne Blanc
+ht;Morne à Bœufs;Morne a Boeufs
+fr;Mont-Organisé;Montòrganize
+fr;Monclair;Montclair
+ht;Momben Kwochi;Mombin Crochu
+fr;Moguode;Moguodé
+ht;Mibalè;Mirebalais
+ht;Milo;Milot
+fr;Méyer;Meyer
+fr;Melissant;Mélissant
+fr;Marseillan;Masseillan
+fr;Martino;Martineau
+ht;Mamelad;Marmelade
+ht;Marigo;Marigot
+fr;Mare Bleue;Mare Bleu
+fr;Mare Aurèle;Marc Aurèle
+ht;Manich;Maniche
+fr;Manèze;Manège
+fr;Manceniller;Mancenillier
+es;Mal Paso;Malpasse
+fr;Mahotière;Mahotières
+fr;Madèque;Madeque
+fr;Lomaraine;Lomoraine
+ht;Limonad;Limonade
+ru;Лимбе;Lenbe
+fr;L'Islet;L’Îlet
+fr;Liberal;Libéral
+fr;L'Hopital;L’Hôpital
+fr;Lépinard;L’Épinard
+ht;Leyogàn;Léogâne
+ja;レオガン;Léogâne
+ru;Леоган;Léogâne
+zh;萊奧甘;Léogâne
+fr;La Cid;Le Cid
+ht;Obòy;Borgne
+fr;La Yaye;Layaye
+fr;Carrefour la Ville;Laville
+ht;La Viktwa;La Victoire
+fr;Lavert;La Verte
+fr;Lavaneau;Lavanneau
+ht;Lavale Jakmèl;La Vallée de Jacmel
+fr;La Tendric;La Tendrie
+fr;La Solabe;La Solable
+ht;Lazil;L'Asile
+ht;Laskawobas;Lascahobas
+fr;Larrieux;Larieux
+fr;La Revoire;La Revoir
+fr;Laporte;La Porte
+fr;La Plante;Laplante
+fr;Laguardiane;La Guardiane
+ht;Lachapèl;La Chapelle
+fr;Lacetaque;Lacetague
+fr;La Cangé;La Cange
+en;Labadee;Labadie
+de;Labadee;Labadie
+ht;Kenskòf;Kenscoff
+fr;La Fourneau;Jo Fourneau
+ru;Жереми;Jérémie
+ht;Jeremi;Jérémie
+ja;ジェレミー;Jérémie
+ko;제레미;Jérémie
+pt;Jeremias;Jérémie
+zh;熱雷米;Jérémie
+ht;Jan Rabèl;Jean-Rabel
+fr;Jean Belune;Jean Bellune
+ht;Jakmèl;Jacmel
+ru;Жакмеле;Jacmel
+ja;ジャクメル;Jacmel
+ru;Жакмель;Jacmel
+zh;雅克梅勒;Jacmel
+es;Yáquimo;Jacmel
+ko;자크멜;Jacmel
+ht;Ench;Hinche
+es;Hincha;Hinche
+ja;アンシュ;Hinche
+ko;앵슈;Hinche
+ru;Энш;Hinche
+zh;安什;Hinche
+ht;Sodo;Haut Saut d'Eau
+fr;Hauttes Feuilles;Hautes Feuilles
+fr;Hatte Béllangé;Hatte Bellangé
+fr;Guilouette;Gullouette
+ht;Gromòn;Gros Morne
+fr;Grand Rock;Grand Rack
+ht;Gran Gozye;Grand Gosier
+fr;Grand-Goâve;Grangwav
+ht;Grann Rivyè di Nò;Grande Rivière du Nord
+ht;Gran Boukan;Grand Boucan
+fr;Gouillomel;Gouillomet
+fr;Les Gonaïves;Gonaïves
+ru;Гонаив;Gonaïves
+ht;Gonayiv;Gonaïves
+fr;Gilote;Gillote
+ht;Gantye;Ganthier
+fr;Fourneaux;Fourneau
+ht;Fòlibète;Fort Liberté
+ht;Fon Vèrèt;Fonds Verrettes
+fr;Fond Rondole;Fond Randol
+fr;Fond Férrier;Fond Ferrier
+fr;Fond des Nègres;Fon Dè Nèg
+ar;فوند ديس بلانكس;Fond des Blancs
+ja;フォン＝デ＝ブラン;Fond des Blancs
+fr;Fond-des-Blancs;Fond des Blancs
+ht;Fondèblan;Fond des Blancs
+es;Fond-des-Blancs;Fond des Blancs
+fr;Fond Chatelain;Fond Châtelain
+ht;Fèrye;Ferrier
+fr;Fermate;Fermathe
+ht;Ennri;Ennery
+fr;Dupléssis;Duplessis
+fr;Duperier;Dupérier
+fr;Duparc;Du Parc
+fr;Dunére;Dunère
+fr;Dufossé;Du Fossé
+fr;Dubédou;Dubedou
+fr;Dimalé;Dimale
+fr;Dévallon;Devallon
+fr;Dessource;Dessources
+ht;Desalin;Dessalines
+ru;Дессалинес;Dessalines
+fr;Déseaux;Dézeau
+ht;Dedin;Desdunes
+fr;Despas;Dépas
+fr;Demarague;Démarague
+fr;Délumay;Delumay
+ht;Dèlma;Delmas
+ru;Делмас;Delmas
+fr;D'lo Noire;De l’Eau Noire
+fr;D'lo Coq;De l’Eau Coq
+fr;D'Lo Contrée;De l’Eau Contrée
+fr;D'lo Banquille;De l’Eau Banquille
+fr;Dégraves;Degrave
+fr;Débauche;Débauché
+fr;Dano;Daneau
+ht;Kwadèbouke;Croix-des-Bouquets
+ru;Круакс-Дес-Букец;Croix-des-Bouquets
+fr;Creace;Créace
+fr;Côtes de Fer;Kotdefè
+fr;Les Côteaux;Koto
+ht;Kòniyon;Cornillon
+ht;Koray;Corail
+fr;Conète;Conete
+ht;Cœur Droit;Coeur Droit
+ht;Cœur de Bois;Coeur de Bois
+ht;Cœur Brulé;Coeur Brule
+ht;Cœur Bois;Coeur Bois
+fr;Chiendent;Chien Dent
+ht;Chansòl;Chansolme
+ht;Chanbèlan;Chambellan
+ht;Sèka Lasous;Cerca la Source
+fr;Cercadié;Cercadie
+ht;Sèka Kavajal;Cerca Carvajal
+fr;Cédé;Céde
+ht;Kay Jakmèl;Cayes-Jacmel
+ht;Okay;Les Cayes
+es;Los Cayos;Les Cayes
+ja;レカイ;Les Cayes
+ko;르카예;Les Cayes
+ru;Ле-Ке;Les Cayes
+zh;萊凱;Les Cayes
+ht;Kavayon;Cavaillon
+fr;Cassourdé;Cassourde
+ht;Karis;Carice
+fr;Carême;Carème
+ht;Karakòl;Caracol
+ht;Kapotiy;Capotille
+de;Cap-Haitien;Cap-Haïtien
+es;Cabo Haitiano;Cap-Haïtien
+ht;Kap Ayisyen;Cap-Haïtien
+ru;Кап-Аитьене;Cap-Haïtien
+ko;카프아이시앵;Cap-Haïtien
+ja;カパイシャン;Cap-Haïtien
+pt;Cabo Haitiano;Cap-Haïtien
+ru;Кап-Аитьен;Cap-Haïtien
+zh;海地角;Cap-Haïtien
+ht;Okap;Cap-Haïtien
+ht;Kan Peren;Camp Perrin
+fr;Ça-Ira;Ça Ira
+fr;Ca Ira;Ca-Ira
+fr;Caiman;Caïman
+fr;Caille Coq;KaKok
+fr;Ca Compté;Ca Compte
+fr;Ca Béllande;Ca Bellande
+fr;Cabare;Cabaret
+ht;Kabarè;Cabaret
+ht;Cabane Bœuf;Cabane Boeuf
+ru;Броссар;Brossard
+fr;Bremant;Brémant
+ht;Boulaille Bœuf;Boulaille Boeuf
+ht;Bonbadopolis;Bombardopolis
+fr;Bois Pin;Bois Pins
+fr;Bois Brulé;Bois Brûlé
+fr;Bois Rond;Boirond
+fr;Boisdine;Boidine
+fr;Billigui;Billiguy
+fr;Billard;Billiard
+ht;Belœuf;Beloeuf
+fr;Béloc;Beloc
+fr;Belle Vue;Bellevue
+fr;Belle-Vue;Bellevue
+fr;Belery;Bellery
+ht;Belans;Belle-Anse
+fr;Béllangé;Bellangé
+ht;Beladè;Belladère
+fr;Beau Champ;Beauchamp
+ht;Bassin Bœuf;Bassin Boeuf
+ht;Basen Ble;Bassin Bleu
+ht;Barre Bœuf;Barre Boeuf
+fr;Barbe Espagnole;Barbes Espagnol
+fr;Barbe Pangnole;Barbe Pangnol
+ht;Baradè;Baradères
+ht;Benè;Bainet
+ht;Be de Èn;Baie de Henne
+ht;Bawon;Bahon
+fr;Bracilier;Bacillier
+fr;Aux Plaines;Les Plaines
+ht;Anikè;Arniquet
+ht;Ano;Arnaud
+ht;Akayè;Arcahaie
+ht;Lakayè;Arcahaie
+ru;Аркахаие;Arcahaie
+ht;Aken;Aquin
+fr;Lantage;Antage
+fr;Anses à Pitre;Anse-à-Pitre
+fr;Anse Pitres;Anse-à-Pitre
+fr;Anses-a-Pîtres;Anse-à-Pitre
+fr;Anse-à-Pitres;Anse-à-Pitre
+fr;Anse à Macon;Anse à Maçon
+ht;Ansagalè;Anse à Galets
+ht;Akil di Nò;Acul du Nord
+ht;Abriko;Les Abricots
+ht;Site Solèy;Cité Soleil
+ru;Ките Солеил;Cité Soleil
+ht;Kafou;Carrefour
+ru;Каррефур;Carrefour

@@ -1,0 +1,3199 @@
+0;-77.1258,18.3391;JM-09;Saint Ann Parish;Orange Park
+0;-77.2045,18.2628;JM-09;Saint Ann Parish;Harmony Vale
+1499;-77.6283,18.3912;JM-15;Trelawny Parish;Sherwood Content
+0;-76.8934,18.1157;JM-10;Saint Catherine Parish;Zion Hill
+0;-77.8232,18.1484;JM-11;St. Elizabeth;Y.S. Estate
+0;-77.2227,18.2699;JM-09;Saint Ann Parish;York Castle
+0;-77.9373,18.2927;JM-16;Westmoreland;York
+0;-76.4500,17.9333;JM-14;Saint Thomas Parish;York
+0;-77.2741,17.9439;JM-01;Clarendon;York
+0;-77.2380,17.8663;JM-01;Clarendon;Yates Savanna
+7644;-76.5624,17.8748;JM-14;Saint Thomas Parish;Yallahs
+0;-77.1500,18.1400;JM-10;Saint Catherine Parish;Worthy Park
+0;-77.7535,18.0740;JM-11;St. Elizabeth;Woolwich
+0;-76.6667,18.2333;JM-07;Portland Parish;Woodstock
+0;-76.9353,18.2558;JM-13;Saint Mary Parish;Woodside
+0;-77.2833,17.9900;JM-01;Clarendon;Woodside
+0;-76.9500,17.9667;JM-10;Saint Catherine Parish;Woodlands
+0;-77.4920,17.9092;JM-04;Manchester;Woodlands
+0;-77.2602,18.0573;JM-01;Clarendon;Wood Hall
+0;-77.1368,18.0416;JM-10;Saint Catherine Parish;Woodhall
+0;-77.1880,18.3740;JM-09;Saint Ann Parish;Winefield
+0;-76.9800,17.9769;JM-10;Saint Catherine Parish;Windsor Park
+0;-77.8017,18.4369;JM-12;Saint James Parish;Windsor Lodge
+0;-76.3362,18.1111;JM-07;Portland Parish;Windsor Forest
+0;-76.6993,18.2598;JM-07;Portland Parish;Windsor Castle
+0;-76.9609,18.2653;JM-13;Saint Mary Parish;Windsor Castle
+0;-76.5500,17.9333;JM-14;Saint Thomas Parish;Windsor Castle
+0;-77.6167,18.3667;JM-15;Trelawny Parish;Windsor
+0;-77.6478,18.3594;JM-15;Trelawny Parish;Windsor
+0;-78.1202,18.2381;JM-16;Westmoreland;Windsor
+0;-76.4499,18.1095;JM-07;Portland Parish;Windsor
+0;-77.7674,17.9685;JM-11;St. Elizabeth;Winchester
+0;-76.2920,17.9330;JM-14;Saint Thomas Parish;Winchester
+0;-77.9551,18.4222;JM-12;Saint James Parish;Wiltshire
+0;-77.6602,18.0556;JM-11;St. Elizabeth;Wilton
+0;-77.5731,18.2653;JM-15;Trelawny Parish;Wilson Valley
+0;-76.3974,17.9257;JM-14;Saint Thomas Parish;Wilmington
+0;-76.9654,18.2671;JM-13;Saint Mary Parish;Williams Town
+0;-77.1500,18.2000;JM-10;Saint Catherine Parish;Williamsons
+0;-77.3792,18.4338;JM-09;Saint Ann Parish;Williamsfield
+0;-78.0640,18.3229;JM-16;Westmoreland;Williamsfield
+0;-77.7050,18.1880;JM-11;St. Elizabeth;Williamsfield
+0;-76.9446,18.1821;JM-10;Saint Catherine Parish;Williamsfield
+0;-76.4180,18.1680;JM-07;Portland Parish;Williamsfield
+3255;-77.4667,18.0667;JM-04;Manchester;Williamsfield
+0;-76.2863,18.0395;JM-07;Portland Parish;Williams Field
+0;-77.7639,17.9443;JM-11;St. Elizabeth;Williamsfield
+0;-76.9191,18.4135;JM-13;Saint Mary Parish;Wilderness
+0;-77.5285,17.9040;JM-04;Manchester;Wigton
+0;-77.3445,18.3150;JM-09;Saint Ann Parish;Wicks
+0;-76.5169,18.1934;JM-07;Portland Parish;Whydaw
+0;-77.7416,18.0741;JM-11;St. Elizabeth;Wharton
+0;-77.3936,18.0320;JM-01;Clarendon;Whitney Turn
+0;-77.3833,18.0500;JM-01;Clarendon;Whitney
+4284;-78.0333,18.2638;JM-16;Westmoreland;Whithorn
+0;-77.0676,18.4165;JM-13;Saint Mary Parish;White River
+3233;-77.9671,18.0934;JM-16;Westmoreland;Whitehouse
+0;-76.4746,17.8738;JM-14;Saint Thomas Parish;White Horses
+0;-77.1667,18.3667;JM-09;Saint Ann Parish;Whitehorns Thicket
+0;-77.8078,18.1514;JM-11;St. Elizabeth;White Hill
+0;-76.4500,17.9595;JM-14;Saint Thomas Parish;Cluney
+0;-76.8790,18.3025;JM-13;Saint Mary Parish;Whitehall
+0;-78.3454,18.2744;JM-16;Westmoreland;Whitehall
+0;-76.7158,18.2096;JM-07;Portland Parish;Whitehall
+0;-77.8504,18.1108;JM-11;St. Elizabeth;White Hall
+0;-76.4493,17.9540;JM-14;Saint Thomas Parish;Whitehall
+0;-77.5676,18.2015;JM-04;Manchester;Whitby
+0;-77.1181,17.9188;JM-10;Saint Catherine Parish;Whim
+0;-76.2896,17.9557;JM-14;Saint Thomas Parish;Wheelersfield
+0;-76.6500,18.0637;JM-08;Saint Andrew Parish;Westphalia
+0;-78.3650,18.2733;JM-16;Westmoreland;Westlands
+0;-78.2441,18.3564;JM-02;Hanover;Westfield
+0;-77.7695,18.3974;JM-12;Saint James Parish;Castle Wemyss
+0;-77.3335,18.2800;JM-09;Saint Ann Parish;Welcome
+0;-77.2333,18.1333;JM-01;Clarendon;Wedge Well
+0;-77.4108,18.3091;JM-09;Saint Ann Parish;Watt Town
+0;-77.7571,18.4483;JM-12;Saint James Parish;Watson Town
+0;-78.0534,18.2483;JM-16;Westmoreland;Water Works
+0;-78.0380,18.1928;JM-16;Westmoreland;Water Wheel
+0;-76.8310,18.2799;JM-13;Saint Mary Parish;Water Valley
+0;-76.3945,17.8843;JM-14;Saint Thomas Parish;Water Valley
+0;-77.1028,18.0623;JM-10;Saint Catherine Parish;Watermount
+0;-77.3466,18.3894;JM-09;Saint Ann Parish;Waterloo
+0;-77.0795,18.1714;JM-10;Saint Catherine Parish;Waterloo
+0;-77.0429,18.0728;JM-10;Saint Catherine Parish;Waterloo
+0;-76.9365,18.0260;JM-10;Saint Catherine Parish;Waterloo
+0;-76.8348,18.0238;JM-08;Saint Andrew Parish;Waterhouse Pen
+0;-77.7570,17.9370;JM-11;St. Elizabeth;Watchwell
+0;-77.4508,17.9071;JM-04;Manchester;Warwick
+0;-77.5751,18.2667;JM-15;Trelawny Parish;Warsop
+0;-77.2417,17.9842;JM-01;Clarendon;Worksop
+0;-76.5444,18.1378;JM-07;Portland Parish;Warsaw
+0;-77.2167,18.2333;JM-09;Saint Ann Parish;Waltham
+0;-76.9987,18.2789;JM-13;Saint Mary Parish;Wallingford
+0;-77.0910,18.3327;JM-09;Saint Ann Parish;Walkers Wood
+0;-77.4867,18.1305;JM-04;Manchester;Walderston
+2763;-77.7218,18.4121;JM-15;Trelawny Parish;Wakefield
+0;-77.2500,18.4103;JM-09;Saint Ann Parish;Wakefield
+0;-78.1137,18.2200;JM-16;Westmoreland;Wakefield
+0;-77.0547,18.1155;JM-10;Saint Catherine Parish;Wakefield
+0;-77.5148,18.2501;JM-15;Trelawny Parish;Wait-A-Bit
+0;-77.4526,18.0958;JM-04;Manchester;Virginia
+0;-77.7887,18.0144;JM-11;St. Elizabeth;Vineyard
+0;-77.9904,18.1560;JM-16;Westmoreland;Vinegar Hill
+0;-77.5365,18.4740;JM-15;Trelawny Parish;Village of Kettering
+0;-76.9005,18.3870;JM-13;Saint Mary Parish;Villa
+0;-77.3818,17.9179;JM-04;Manchester;Victoria Town
+0;-77.0517,18.0160;JM-10;Saint Catherine Parish;Vaz Delight
+0;-77.7576,18.1736;JM-11;St. Elizabeth;Vauxhall
+0;-77.7962,18.3375;JM-12;Saint James Parish;Vaughansfield
+0;-77.0370,18.1505;JM-10;Saint Catherine Parish;Vanity Fair
+0;-76.9333,18.0667;JM-10;Saint Catherine Parish;Usher Mount
+0;-77.1022,18.2436;JM-09;Saint Ann Parish;Unity Valley
+0;-76.3462,17.9293;JM-14;Saint Thomas Parish;Unity Valley
+0;-77.3181,18.4676;JM-09;Saint Ann Parish;Unity
+0;-77.9818,18.4477;JM-12;Saint James Parish;Unity Hall
+0;-76.8569,18.1384;JM-08;Saint Andrew Parish;Unity
+0;-76.9880,18.3482;JM-13;Saint Mary Parish;Union Hill
+0;-77.0730,18.3500;JM-09;Saint Ann Parish;Union
+1411;-77.5207,18.3148;JM-15;Trelawny Parish;Ulster Spring
+0;-76.9232,17.9957;JM-10;Saint Catherine Parish;Twickenham Park
+0;-77.1098,18.3797;JM-09;Saint Ann Parish;Twickenham Park
+0;-77.4160,18.1770;JM-01;Clarendon;Tweedside
+0;-76.6333,18.0500;JM-14;Saint Thomas Parish;Tweedside
+0;-77.2495,18.1622;JM-01;Clarendon;Turtle Pond
+0;-76.9955,18.1126;JM-10;Saint Catherine Parish;Tulloch
+0;-78.0667,18.4500;JM-02;Hanover;Tryall
+0;-78.1504,18.3076;JM-16;Westmoreland;Truro Pen
+0;-77.6110,18.2473;JM-15;Trelawny Parish;Troy
+0;-77.1775,17.9432;JM-01;Clarendon;Troy
+0;-77.3308,18.1430;JM-01;Clarendon;Trout Hall
+0;-76.9246,18.2050;JM-10;Saint Catherine Parish;Troja
+0;-76.9048,18.2154;JM-13;Saint Mary Parish;Troja
+2895;-76.5143,17.9608;JM-14;Saint Thomas Parish;Trinity Ville
+0;-76.9069,18.3644;JM-13;Saint Mary Parish;Trinity
+0;-76.9167,18.0833;JM-10;Saint Catherine Parish;Trentham Park
+0;-77.7588,17.8767;JM-11;St. Elizabeth;Treasure Beach
+0;-77.0431,18.1912;JM-10;Saint Catherine Parish;Treadways
+0;-77.2597,17.9842;JM-01;Clarendon;Treadlight
+0;-77.9667,18.4333;JM-12;Saint James Parish;Trafalgar
+0;-78.1412,18.3254;JM-16;Westmoreland;Town Head
+12184;-76.6510,18.0128;JM-08;Saint Andrew Parish;Tower Hill
+0;-77.6442,17.8952;JM-11;St. Elizabeth;Top Hill
+0;-77.3277,18.3425;JM-09;Saint Ann Parish;Muir House - Top Buxton
+0;-76.8334,18.1612;JM-08;Saint Andrew Parish;Toms River
+0;-78.1416,18.4067;JM-02;Hanover;Tom Spring
+0;-76.4425,18.1365;JM-07;Portland Parish;Toms Hope
+0;-76.5268,18.1515;JM-07;Portland Parish;Tomsfield
+0;-77.2167,18.0667;JM-01;Clarendon;Tom Kings
+0;-77.7570,18.0807;JM-11;St. Elizabeth;Lacovia Tombstone
+0;-77.3612,17.9742;JM-01;Clarendon;Toll Gate
+0;-77.3778,18.3701;JM-09;Saint Ann Parish;Tobolski
+0;-77.3478,18.3279;JM-09;Saint Ann Parish;Titchfield
+0;-77.0382,18.1613;JM-10;Saint Catherine Parish;Time and Patience
+0;-78.1400,18.2707;JM-16;Westmoreland;Three Mile River
+0;-77.7170,18.1843;JM-11;St. Elizabeth;Thornton
+0;-76.4018,17.9510;JM-14;Saint Thomas Parish;Thornton
+0;-77.9815,18.1535;JM-16;Westmoreland;Thorn Hill
+0;-78.0455,18.3927;JM-02;Hanover;Thomson Hill
+0;-77.3560,18.0830;JM-01;Clarendon;Thompson Town
+0;-78.0500,18.4000;JM-02;Hanover;Thompsons Bush
+0;-77.4118,17.9312;JM-04;Manchester;Thicket
+0;-77.0833,17.9500;JM-10;Saint Catherine Parish;Thetford
+0;-77.6323,18.4819;JM-15;Trelawny Parish;The Rock
+0;-77.0239,18.0111;JM-10;Saint Catherine Parish;Bendons Rest
+0;-76.7318,18.0293;JM-08;Saint Andrew Parish;Grove
+0;-77.1827,18.1182;JM-01;Clarendon;Alves
+0;-77.5104,18.3419;JM-15;Trelawny Parish;The Alps
+0;-77.2700,17.8090;JM-01;Clarendon;Alley
+0;-77.2468,18.3910;JM-09;Saint Ann Parish;Thatch Walk
+0;-77.3167,18.0167;JM-01;Clarendon;Thatch Pen
+0;-77.3946,18.3433;JM-09;Saint Ann Parish;Thatchfield
+0;-77.8109,17.9446;JM-11;St. Elizabeth;Thatchfield
+0;-77.2660,18.0445;JM-01;Clarendon;Teak Pen
+0;-78.0559,18.3707;JM-02;Hanover;Tarwood
+0;-76.9342,18.0565;JM-10;Saint Catherine Parish;Tarentum
+0;-76.9853,17.9830;JM-10;Saint Catherine Parish;Sydenham
+0;-76.5915,18.1668;JM-07;Portland Parish;Swift River
+0;-78.0913,18.2446;JM-16;Westmoreland;Sweet River
+0;-77.2376,18.0740;JM-01;Clarendon;Suttons
+0;-77.2550,17.8150;JM-01;Clarendon;Suttons
+0;-77.2148,18.4142;JM-09;Saint Ann Parish;Sussex
+0;-77.1092,18.3625;JM-09;Saint Ann Parish;Susan Hill
+0;-76.3167,17.9667;JM-14;Saint Thomas Parish;Sunny Bank
+0;-76.3877,17.9501;JM-14;Saint Thomas Parish;Sunning Hill
+0;-76.3500,17.9667;JM-14;Saint Thomas Parish;Sunflower
+0;-77.8117,18.3548;JM-12;Saint James Parish;Summer Hill
+0;-76.2833,17.9500;JM-14;Saint Thomas Parish;Suffolk Park
+0;-78.0438,18.3764;JM-02;Hanover;Success
+0;-77.7523,17.9628;JM-11;St. Elizabeth;Success
+0;-77.3177,18.4183;JM-09;Saint Ann Parish;Sturge Town
+0;-77.9603,18.2697;JM-16;Westmoreland;Struie
+0;-77.4356,18.0542;JM-04;Manchester;Strickland
+0;-77.3327,18.4237;JM-09;Saint Ann Parish;Shawberry
+0;-76.4901,18.1767;JM-07;Portland Parish;Stony Hill
+8551;-76.7900,18.0772;JM-08;Saint Andrew Parish;Stony Hill
+0;-76.4354,17.9349;JM-14;Saint Thomas Parish;Stony Gut
+0;-77.0755,18.0550;JM-10;Saint Catherine Parish;Stone Hill
+0;-77.5533,18.3790;JM-15;Trelawny Parish;Stonehenge
+0;-77.8609,18.2420;JM-12;Saint James Parish;Stonehenge
+0;-76.2850,17.9254;JM-14;Saint Thomas Parish;Stokes Hall
+0;-77.0384,18.1755;JM-10;Saint Catherine Parish;Stirling Castle
+0;-76.8374,18.0575;JM-08;Saint Andrew Parish;Sterling Castle
+0;-77.3064,18.2864;JM-09;Saint Ann Parish;Sterling
+0;-77.4475,18.3873;JM-15;Trelawny Parish;Stewart Town
+0;-77.3559,18.0266;JM-01;Clarendon;Stewarton
+0;-77.3545,18.0188;JM-01;Clarendon;Stewarton
+0;-77.2410,17.9925;JM-01;Clarendon;Stewarton Pen
+0;-77.5333,18.2833;JM-15;Trelawny Parish;Stettin
+0;-77.2947,18.2848;JM-09;Saint Ann Parish;Stepney
+0;-77.1647,18.4168;JM-09;Saint Ann Parish;Steer Town
+0;-77.1567,18.3464;JM-09;Saint Ann Parish;Steerfield
+0;-77.5497,18.4551;JM-15;Trelawny Parish;Steelfield
+0;-76.6667,18.2000;JM-07;Portland Parish;Starapple Grove
+0;-76.4523,18.1307;JM-07;Portland Parish;Stanton Harcourt
+0;-76.4080,17.8983;JM-14;Saint Thomas Parish;Stanton
+0;-76.4754,17.8761;JM-14;Saint Thomas Parish;Stanmore
+0;-76.9376,18.0755;JM-10;Saint Catherine Parish;Stanberry Grove
+0;-77.5544,18.0107;JM-04;Manchester;Spur Tree
+0;-77.0730,17.9597;JM-10;Saint Catherine Parish;Spring Village
+0;-78.2374,18.4034;JM-02;Hanover;Spring Valley
+0;-77.0195,18.4105;JM-13;Saint Mary Parish;Spring Valley
+0;-76.3083,18.0327;JM-07;Portland Parish;Spring Valley
+0;-77.7605,18.3832;JM-12;Saint James Parish;Spring Vale
+0;-77.8445,18.1365;JM-11;St. Elizabeth;Springvale
+0;-77.0522,18.0825;JM-10;Saint Catherine Parish;Springvale
+0;-77.5913,18.4815;JM-15;Trelawny Parish;Mountain Spring
+0;-77.8615,18.0560;JM-11;St. Elizabeth;Spring Park
+0;-77.8517,18.4010;JM-12;Saint James Parish;Spring Mount
+0;-76.7160,18.1327;JM-07;Portland Parish;Spring Hill
+0;-77.8226,18.3748;JM-12;Saint James Parish;Spring Garden
+0;-77.5687,18.2980;JM-15;Trelawny Parish;Spring Garden
+0;-76.6381,18.2210;JM-07;Portland Parish;Spring Garden
+0;-77.0694,17.9854;JM-10;Saint Catherine Parish;Spring Garden
+0;-76.4209,17.9214;JM-14;Saint Thomas Parish;Spring Garden
+0;-78.2660,18.2700;JM-16;Westmoreland;Spring Garden
+0;-77.0172,18.2723;JM-09;Saint Ann Parish;Spring Garden
+0;-77.8439,18.3744;JM-12;Saint James Parish;Springfield
+0;-78.2950,18.2819;JM-16;Westmoreland;Springfield
+0;-76.9669,18.2553;JM-10;Saint Catherine Parish;Springfield
+0;-76.7333,18.2167;JM-13;Saint Mary Parish;Springfield
+0;-77.8722,18.1725;JM-11;St. Elizabeth;Springfield
+0;-76.5899,18.1613;JM-07;Portland Parish;Springfield
+0;-76.2766,17.9042;JM-14;Saint Thomas Parish;Springfield
+0;-77.3310,17.8560;JM-01;Clarendon;Springfield
+0;-76.3261,17.9639;JM-14;Saint Thomas Parish;Spring Bank
+0;-77.7911,18.4953;JM-12;Saint James Parish;Spot Valley
+0;-77.4806,18.1229;JM-04;Manchester;Spitzbergen
+0;-76.7387,18.2478;JM-13;Saint Mary Parish;Spicy Grove
+0;-76.9468,18.0233;JM-10;Saint Catherine Parish;Beckford and Spencers
+0;-77.8823,18.0652;JM-11;St. Elizabeth;Speculation
+145018;-76.9574,17.9911;JM-10;Saint Catherine Parish;Spanish Town
+0;-77.4578,18.1555;JM-01;Clarendon;Spaldings
+0;-77.2850,18.4325;JM-09;Saint Ann Parish;Southfield
+2695;-77.6671,17.8878;JM-11;St. Elizabeth;Southfield
+0;-76.4334,18.1667;JM-07;Portland Parish;Sommers Town
+0;-77.3254,18.3578;JM-09;Saint Ann Parish;Sommerset
+0;-77.7853,18.4297;JM-12;Saint James Parish;Somerton
+0;-77.1388,18.0314;JM-10;Saint Catherine Parish;Somerset Hall
+0;-77.5521,18.0863;JM-04;Manchester;Somerset
+0;-76.6316,17.9947;JM-08;Saint Andrew Parish;Somerset
+0;-76.5356,17.9804;JM-14;Saint Thomas Parish;Somerset
+0;-77.4283,17.9485;JM-04;Manchester;Soho
+0;-76.4482,17.9454;JM-14;Saint Thomas Parish;Soho
+0;-77.4206,18.4512;JM-09;Saint Ann Parish;Jacks Lodge
+0;-77.4938,17.9493;JM-04;Manchester;Snowdon
+0;-77.3797,18.1071;JM-01;Clarendon;Smithville
+0;-77.3667,18.1000;JM-01;Clarendon;Wakefield
+0;-78.0933,18.4106;JM-02;Hanover;Smithfield
+0;-76.7167,18.1167;JM-07;Portland Parish;Smithfield
+0;-77.4827,17.9005;JM-04;Manchester;Smithfield
+0;-77.7967,18.0547;JM-11;St. Elizabeth;Slipe
+0;-76.9390,18.0944;JM-10;Saint Catherine Parish;Sligoville
+0;-76.8447,18.0546;JM-08;Saint Andrew Parish;Stanmore
+0;-77.4126,18.3157;JM-09;Saint Ann Parish;Skipton
+0;-76.6335,18.1876;JM-07;Portland Parish;Skibo
+0;-76.5501,18.1293;JM-07;Portland Parish;Skibo
+0;-77.2333,17.7500;JM-01;Clarendon;Money Musk
+0;-77.0036,18.2433;JM-10;Saint Catherine Parish;Simmonds Valley
+0;-77.5306,18.4836;JM-15;Trelawny Parish;Silver Sands
+0;-76.7128,18.1530;JM-07;Portland Parish;Silver Hill
+2725;-77.7035,18.1671;JM-11;St. Elizabeth;Siloah
+0;-77.2694,18.4342;JM-09;Saint Ann Parish;Sidney Castle
+0;-77.4077,18.3375;JM-09;Saint Ann Parish;Siberia
+0;-78.0667,18.2667;JM-16;Westmoreland;Shrewsbury
+0;-76.5514,18.1610;JM-07;Portland Parish;Shrewsbury
+0;-77.9137,18.0803;JM-11;St. Elizabeth;Shrewsbury
+0;-77.6833,18.4500;JM-15;Trelawny Parish;Shawfield
+0;-77.4855,18.0670;JM-04;Manchester;Shooters Hill
+0;-76.6170,18.1489;JM-07;Portland Parish;Shirley Castle
+0;-77.5830,18.0934;JM-04;Manchester;Shirehampton
+0;-77.2972,17.9910;JM-01;Clarendon;Sheckles Pen
+0;-77.9666,18.3425;JM-02;Hanover;Shettlewood
+0;-76.3778,18.1481;JM-07;Portland Parish;Sherwood Forest
+0;-76.6167,18.0333;JM-14;Saint Thomas Parish;Sherwood Forest
+0;-77.4549,17.9639;JM-04;Manchester;Sherwood Forest
+0;-78.0500,18.4000;JM-02;Hanover;Shepperds Hall
+0;-78.3040,18.2791;JM-16;Westmoreland;Sheffield
+0;-76.8125,18.3167;JM-13;Saint Mary Parish;Sheerness
+0;-77.1060,18.3981;JM-09;Saint Ann Parish;Shaw Park
+0;-77.2088,17.9956;JM-01;Clarendon;Sevens Estate
+0;-77.9170,18.3423;JM-12;Saint James Parish;Seven Rivers
+0;-76.6994,17.9474;JM-08;Saint Andrew Parish;Seven Mile
+0;-77.0122,18.0209;JM-10;Saint Catherine Parish;Seven Doubloons
+0;-77.6984,18.0259;JM-11;St. Elizabeth;Seven Corners
+0;-76.4800,17.9535;JM-14;Saint Thomas Parish;Serge Island
+0;-77.4266,17.9503;JM-04;Manchester;Seniors
+0;-77.9053,18.0706;JM-11;St. Elizabeth;Selington
+0;-77.4870,18.1585;JM-04;Manchester;Sedburgh
+0;-77.2192,18.4006;JM-09;Saint Ann Parish;Sea View
+0;-76.4415,18.0925;JM-07;Portland Parish;Seamans Valley
+4550;-76.4573,17.9358;JM-14;Saint Thomas Parish;Seaforth
+0;-77.9031,18.2499;JM-16;Westmoreland;Seaford Town
+0;-77.7083,18.4986;JM-15;Trelawny Parish;Seafield
+0;-77.3855,18.0084;JM-04;Manchester;Scotts Pass
+0;-77.4817,17.9457;JM-04;Manchester;Scotia
+0;-77.0949,18.2287;JM-09;Saint Ann Parish;Schwallenburgh
+0;-77.7099,18.0078;JM-11;St. Elizabeth;Schoolfield
+0;-77.3088,18.4574;JM-09;Saint Ann Parish;Scarlett Hall
+0;-77.3848,18.3220;JM-09;Saint Ann Parish;Scarborough
+0;-78.2447,18.3745;JM-02;Hanover;Saxham
+0;-77.4876,18.3776;JM-15;Trelawny Parish;Sawyers
+16553;-78.1332,18.2189;JM-16;Westmoreland;Savanna-la-Mar
+0;-77.2333,18.1333;JM-01;Clarendon;Santamaria
+0;-76.8922,18.0826;JM-10;Saint Catherine Parish;Santa Maria
+8217;-77.6984,18.0534;JM-11;St. Elizabeth;Santa Cruz
+0;-77.4358,18.1570;JM-01;Clarendon;Sanguinetti
+0;-77.9052,18.0512;JM-11;St. Elizabeth;Sandy Ground
+4520;-78.0732,18.4485;JM-02;Hanover;Sandy Bay
+0;-77.1621,17.9347;JM-01;Clarendon;Sandy Bay
+0;-77.1833,17.8167;JM-01;Clarendon;Sandy Bay
+0;-76.9057,18.3413;JM-13;Saint Mary Parish;Sandside
+0;-77.8694,18.4875;JM-12;Saint James Parish;Salt Spring
+0;-78.2710,18.3784;JM-02;Hanover;Salt Spring
+0;-77.1687,17.8373;JM-01;Clarendon;Salt River
+0;-76.9315,17.9500;JM-10;Saint Catherine Parish;Salt Pond Pen
+0;-76.9814,18.4039;JM-13;Saint Mary Parish;Salt Gut
+0;-77.8355,18.4287;JM-12;Saint James Parish;Salters Hill
+0;-77.7399,18.1038;JM-11;St. Elizabeth;Sallys Hall
+0;-77.0422,18.0057;JM-10;Saint Catherine Parish;Sallys Delight
+0;-77.1032,18.3507;JM-09;Saint Ann Parish;Salisbury
+0;-77.0014,18.2853;JM-13;Saint Mary Parish;Salisbury
+0;-76.8572,18.1000;JM-08;Saint Andrew Parish;Salisbury Plain
+0;-78.3000,18.3667;JM-02;Hanover;Salem
+0;-77.5485,18.2972;JM-15;Trelawny Parish;Saint Vincent
+0;-77.4050,17.9840;JM-04;Manchester;Saint Toolies
+0;-76.6800,18.0670;JM-08;Saint Andrew Parish;Saint Peter’s
+0;-77.6119,18.1591;JM-04;Manchester;Saint Pauls
+0;-77.1500,18.3000;JM-09;Saint Ann Parish;Saint Mountain
+0;-77.6624,17.9286;JM-11;St. Elizabeth;Saint Mary’s
+0;-76.5181,18.1955;JM-07;Portland Parish;Saint Margaret’s Bay
+0;-77.8968,18.2555;JM-16;Westmoreland;Saint Leonards
+0;-77.1550,18.2097;JM-09;Saint Ann Parish;Saint John’s
+0;-77.0517,17.9600;JM-10;Saint Catherine Parish;Saint Helens
+0;-77.4421,18.1058;JM-04;Manchester;Saint Helena
+0;-77.0950,18.2395;JM-09;Saint Ann Parish;Faith's Pen
+0;-77.1151,18.0466;JM-10;Saint Catherine Parish;Saint Faiths
+0;-77.3637,18.3195;JM-09;Saint Ann Parish;Saint D’Acre
+0;-76.8345,18.0942;JM-08;Saint Andrew Parish;Saint Christopher
+13671;-77.2010,18.4358;JM-09;Saint Ann Parish;Saint Ann’s Bay
+0;-77.9993,18.3490;JM-02;Hanover;Sadlers Hall
+0;-77.6615,17.9854;JM-11;St. Elizabeth;Russells
+0;-77.0338,18.1638;JM-10;Saint Catherine Parish;Russell Pen
+0;-76.3139,18.0956;JM-07;Portland Parish;Rural Hill
+12358;-77.3357,18.4596;JM-09;Saint Ann Parish;Runaway Bay
+0;-76.4553,17.8850;JM-14;Saint Thomas Parish;Rozelle
+0;-77.4728,18.0538;JM-04;Manchester;Royal Flat
+0;-77.4570,18.0075;JM-04;Manchester;Roxborough
+0;-76.2841,17.9745;JM-14;Saint Thomas Parish;Rowlandsfield
+0;-77.5592,17.8896;JM-04;Manchester;Rowes Corner
+0;-78.0167,18.4500;JM-02;Hanover;Round Hill
+0;-77.9670,18.1893;JM-16;Westmoreland;Rotherwood
+0;-77.6067,18.4584;JM-15;Trelawny Parish;Roslin Castle
+0;-77.1678,17.9581;JM-01;Clarendon;Rosewell
+0;-77.1649,17.9955;JM-01;Clarendon;Rose Valley
+0;-77.3611,18.3125;JM-09;Saint Ann Parish;Rosetta
+0;-76.8215,18.2859;JM-13;Saint Mary Parish;Rosend
+0;-77.0450,18.0132;JM-10;Saint Catherine Parish;Rosemount
+0;-77.7668,18.4936;JM-12;Saint James Parish;Rose Hill
+0;-76.9213,18.2204;JM-13;Saint Mary Parish;Rose Hill
+0;-76.6758,18.1882;JM-07;Portland Parish;Rose Hill
+0;-77.6408,17.9377;JM-11;St. Elizabeth;Rose Hall
+0;-77.7015,17.9800;JM-11;St. Elizabeth;Roseberry
+0;-77.0354,18.4010;JM-13;Saint Mary Parish;Roscommon
+0;-78.0452,18.4186;JM-02;Hanover;Rome
+0;-77.9047,18.4015;JM-12;Saint James Parish;Roehampton
+0;-76.2544,17.9087;JM-14;Saint Thomas Parish;Golden Grove
+0;-76.2659,17.8933;JM-14;Saint Thomas Parish;Rocky Point
+3152;-77.2611,17.7740;JM-01;Clarendon;Rocky Point
+0;-78.2413,18.3602;JM-02;Hanover;Rock Spring
+0;-77.5713,18.3000;JM-15;Trelawny Parish;Rock Spring
+0;-77.2131,18.0723;JM-01;Clarendon;Rock River
+0;-78.1796,18.3812;JM-02;Hanover;Rockingham
+0;-76.8827,18.0816;JM-08;Saint Andrew Parish;Rock Hall
+0;-77.9965,18.1392;JM-16;Westmoreland;Robins River
+0;-77.2333,17.8667;JM-01;Clarendon;Robinsons New Park
+0;-77.5484,18.2018;JM-04;Manchester;Robins Hall
+0;-76.8022,18.3077;JM-13;Saint Mary Parish;Robins Bay
+0;-78.0513,18.2876;JM-16;Westmoreland;Roaring River
+0;-77.0792,18.2864;JM-09;Saint Ann Parish;Roadside
+0;-78.1976,18.3797;JM-02;Hanover;Riverside
+4085;-76.9642,18.1659;JM-10;Saint Catherine Parish;Riversdale
+0;-77.0865,18.2718;JM-09;Saint Ann Parish;River Head
+0;-78.0440,18.2470;JM-16;Westmoreland;River Head
+0;-77.0978,18.1612;JM-10;Saint Catherine Parish;Riverhead
+0;-77.4293,18.1441;JM-01;Clarendon;Ritchies
+0;-77.0500,18.2833;JM-09;Saint Ann Parish;Riswich
+0;-76.9688,18.2079;JM-10;Saint Catherine Parish;Rio Magno
+0;-77.4608,18.4705;JM-15;Trelawny Parish;Rio Bueno
+0;-76.5667,17.9667;JM-14;Saint Thomas Parish;Riley Village
+0;-78.2105,18.2948;JM-16;Westmoreland;Ridgeland
+0;-78.1502,18.2905;JM-16;Westmoreland;Ricketts River
+0;-77.3678,18.0446;JM-01;Clarendon;Richmond Park
+0;-77.0054,18.2155;JM-10;Saint Catherine Parish;Richmond Hill
+0;-77.2500,18.4500;JM-09;Saint Ann Parish;Richmond
+0;-77.4500,18.3333;JM-09;Saint Ann Parish;Richmond
+2046;-76.8880,18.2548;JM-13;Saint Mary Parish;Richmond
+0;-76.5731,18.1448;JM-07;Portland Parish;Richmond
+0;-77.4694,18.0238;JM-04;Manchester;Richmond
+0;-77.0220,18.3530;JM-13;Saint Mary Parish;Richards Pen
+0;-77.3591,18.2859;JM-09;Saint Ann Parish;Richardsfield
+0;-77.3167,17.9300;JM-01;Clarendon;Rhymesbury
+0;-78.2935,18.3769;JM-02;Hanover;Rhodes Hall
+0;-76.3328,17.9490;JM-14;Saint Thomas Parish;Rhine
+0;-77.7060,17.8923;JM-11;St. Elizabeth;Reynolds Run
+0;-78.2930,18.2458;JM-16;Westmoreland;Revival
+0;-78.2285,18.2480;JM-16;Westmoreland;Retrieve Common
+0;-77.3906,17.9291;JM-04;Manchester;Retrieve
+0;-77.4144,18.3826;JM-09;Saint Ann Parish;Retreat
+0;-77.0167,18.3833;JM-13;Saint Mary Parish;Retreat
+0;-78.2667,18.2500;JM-16;Westmoreland;Retreat
+0;-77.2023,18.0461;JM-01;Clarendon;Retreat
+0;-77.5438,18.0187;JM-04;Manchester;Retreat
+0;-77.4609,18.4327;JM-15;Trelawny Parish;Retirement
+0;-77.8833,18.4333;JM-12;Saint James Parish;Retirement
+0;-77.3945,18.3036;JM-09;Saint Ann Parish;Retirement
+0;-77.1406,18.2960;JM-09;Saint Ann Parish;Retirement
+0;-78.3062,18.2464;JM-16;Westmoreland;Retirement
+0;-77.7750,18.2010;JM-11;St. Elizabeth;Retirement
+0;-77.5343,17.8955;JM-04;Manchester;Rest Store
+0;-77.1237,17.9300;JM-10;Saint Catherine Parish;Rodens and Rest Pen
+0;-77.3510,17.8773;JM-01;Clarendon;Rest
+0;-76.6661,18.0621;JM-08;Saint Andrew Parish;Resource
+0;-77.4791,17.8894;JM-04;Manchester;Resource
+0;-77.6323,18.4112;JM-15;Trelawny Parish;Reserve
+0;-77.1167,18.0695;JM-10;Saint Catherine Parish;Rennalls
+0;-77.1144,18.3665;JM-09;Saint Ann Parish;Relief
+0;-77.5447,18.0639;JM-04;Manchester;Retford
+0;-77.5748,18.4631;JM-15;Trelawny Parish;Refuge
+0;-77.4186,18.0105;JM-04;Manchester;Reeves Wood
+0;-76.9858,18.2077;JM-10;Saint Catherine Parish;Redwood
+0;-76.8411,18.0542;JM-08;Saint Andrew Parish;Red Hills
+0;-76.4194,17.8905;JM-14;Saint Thomas Parish;Red Hill
+0;-77.1226,18.0008;JM-10;Saint Catherine Parish;Red Ground
+0;-76.7307,18.2213;JM-13;Saint Mary Parish;Reddington
+0;-77.4226,18.0194;JM-04;Manchester;Redberry
+0;-76.6710,18.1792;JM-07;Portland Parish;Rectory
+0;-77.8817,18.0672;JM-11;St. Elizabeth;Rectory
+0;-77.2591,18.0585;JM-01;Clarendon;Rectory
+0;-78.0590,18.4272;JM-02;Hanover;Recovery Pen
+0;-77.0317,18.1933;JM-10;Saint Catherine Parish;Recess
+0;-77.9470,18.4447;JM-12;Saint James Parish;Reading
+0;-76.4146,17.8833;JM-14;Saint Thomas Parish;Readers Pen
+0;-76.3156,18.0449;JM-07;Portland Parish;Reach
+0;-77.2363,17.8581;JM-01;Clarendon;Raymonds
+0;-77.9322,18.2636;JM-16;Westmoreland;Rat Trap
+0;-76.9134,18.0394;JM-10;Saint Catherine Parish;Ratcliff Park
+0;-78.0168,18.3333;JM-02;Hanover;Ramble Pen
+0;-77.9785,18.3512;JM-02;Hanover;Ramble
+0;-76.6160,17.9783;JM-14;Saint Thomas Parish;Ramble
+2974;-77.2855,17.8360;JM-01;Clarendon;Race Course
+0;-77.7034,18.2479;JM-15;Trelawny Parish;Quick Step
+0;-77.4109,18.4322;JM-09;Saint Ann Parish;Queenhythe
+0;-76.8821,18.3485;JM-13;Saint Mary Parish;Quebec
+0;-76.2451,17.9550;JM-14;Saint Thomas Parish;Quaw Hill
+0;-77.4540,17.9160;JM-04;Manchester;Quatre Bras
+0;-77.4048,17.9030;JM-04;Manchester;Pusey Hill
+0;-77.2000,17.7580;JM-01;Clarendon;Portland Ridge
+0;-77.6100,17.9750;JM-11;St. Elizabeth;Punch Bowl
+0;-77.6922,18.2145;JM-11;St. Elizabeth;Pullet Hall
+0;-77.9458,18.4255;JM-12;Saint James Parish;Providence
+0;-77.3698,18.3533;JM-09;Saint Ann Parish;Providence
+0;-76.2833,18.0500;JM-07;Portland Parish;Providence
+0;-77.5284,17.9610;JM-04;Manchester;Providence
+0;-77.0485,18.4082;JM-13;Saint Mary Parish;Prospect
+0;-77.8167,18.3500;JM-12;Saint James Parish;Prospect
+0;-78.1000,18.3167;JM-16;Westmoreland;Prospect
+0;-77.8790,18.1130;JM-11;St. Elizabeth;Prospect
+0;-77.4500,17.8833;JM-04;Manchester;Prospect
+0;-76.3445,17.8695;JM-14;Saint Thomas Parish;East Prospect
+0;-77.2252,18.4428;JM-09;Saint Ann Parish;Priory
+0;-76.3370,18.1330;JM-07;Portland Parish;Black Rock
+0;-77.3390,17.8840;JM-01;Clarendon;Pridees
+0;-77.4191,17.9119;JM-04;Manchester;Pratville
+0;-76.3667,17.9333;JM-14;Saint Thomas Parish;Potosi
+5923;-77.4117,18.0354;JM-04;Manchester;Porus
+3327;-76.8406,17.9374;JM-17;Kingston;Port Royal
+102861;-76.8869,17.9710;JM-10;Saint Catherine Parish;Portmore
+0;-76.3256,17.8910;JM-14;Saint Thomas Parish;Port Morant
+7906;-76.8895,18.3685;JM-13;Saint Mary Parish;Port Maria
+0;-77.5470,17.8780;JM-04;Manchester;Port Mahone
+0;-77.2292,17.7682;JM-01;Clarendon;Portland Cottage
+0;-76.8756,17.9507;JM-10;Saint Catherine Parish;Port Henderson
+0;-77.1319,17.8927;JM-10;Saint Catherine Parish;Port Esquivel
+0;-78.0428,18.3250;JM-16;Westmoreland;Porters Mountain
+14400;-76.4522,18.1789;JM-07;Portland Parish;Port Antonio
+0;-76.5918,17.8820;JM-14;Saint Thomas Parish;Poor Mans Corner
+0;-78.0795,18.3951;JM-02;Hanover;Pondside
+0;-77.8019,17.9732;JM-11;St. Elizabeth;Pond Side
+5344;-77.1076,18.0899;JM-10;Saint Catherine Parish;Point Hill
+0;-78.1473,18.4559;JM-02;Hanover;Point
+0;-77.8214,18.3594;JM-12;Saint James Parish;Point
+0;-77.5445,17.8826;JM-04;Manchester;Plowden
+0;-76.6779,18.1684;JM-07;Portland Parish;Pleasing Prospect
+0;-77.1333,18.2667;JM-09;Saint Ann Parish;Pleasant Valley
+0;-76.5883,18.1501;JM-07;Portland Parish;Pleasant Hill
+0;-76.6722,18.0710;JM-08;Saint Andrew Parish;Pleasant Hill
+0;-76.2914,18.0659;JM-07;Portland Parish;Rural Hill
+0;-77.4680,17.9244;JM-04;Manchester;Pleasant Hill
+0;-77.0221,18.3629;JM-13;Saint Mary Parish;Planters Hall
+0;-77.8815,18.2017;JM-11;St. Elizabeth;Pisgah
+0;-77.1211,18.3914;JM-09;Saint Ann Parish;Pimento Walk
+0;-77.1252,18.0163;JM-10;Saint Catherine Parish;Pimento Grove
+0;-77.2461,18.3836;JM-09;Saint Ann Parish;Tranent
+0;-78.2823,18.3565;JM-02;Hanover;Phoenix Town
+0;-77.1298,18.2793;JM-09;Saint Ann Parish;Phoenix Park
+0;-78.2833,18.3667;JM-02;Hanover;Winchester Estates - part of
+0;-77.3199,18.3912;JM-09;Saint Ann Parish;Philadelphia
+0;-77.1875,18.0852;JM-01;Clarendon;Phelp Run
+0;-77.9600,18.1227;JM-16;Westmoreland;Petersville
+3454;-78.0712,18.2616;JM-16;Westmoreland;Petersfield
+0;-77.5480,18.1114;JM-04;Manchester;Petersfield
+0;-76.5101,17.9142;JM-14;Saint Thomas Parish;Petersfield
+0;-77.6800,18.3931;JM-15;Trelawny Parish;Peru
+0;-77.6377,18.4339;JM-15;Trelawny Parish;Perth Town
+0;-77.5099,18.0045;JM-04;Manchester;Perth
+0;-77.2446,17.8203;JM-01;Clarendon;Perrins
+0;-76.6243,18.1465;JM-07;Portland Parish;Peppingford
+0;-77.5935,18.0316;JM-04;Manchester;Pepper - Part of
+0;-77.6074,18.0363;JM-11;St. Elizabeth;Pepper
+0;-77.3326,18.4130;JM-09;Saint Ann Parish;Penhurst
+0;-77.2948,18.1093;JM-01;Clarendon;Pennants
+0;-76.9866,18.3030;JM-13;Saint Mary Parish;Pembroke Hall
+0;-76.8121,18.0750;JM-08;Saint Andrew Parish;Pembroke Hall Mountain
+0;-76.8299,18.0304;JM-08;Saint Andrew Parish;Pembroke Hall
+0;-76.9492,18.3814;JM-13;Saint Mary Parish;Pemberton Valley
+0;-77.2204,18.1938;JM-01;Clarendon;Pedro River
+0;-77.7420,17.8735;JM-11;St. Elizabeth;Pedro Pen
+0;-78.2130,18.4534;JM-02;Hanover;Pedro
+0;-77.2000,18.2810;JM-09;Saint Ann Parish;Pedro Farm
+0;-77.3878,18.1654;JM-01;Clarendon;Peckham
+0;-77.4800,17.9870;JM-04;Manchester;Pear Tree
+0;-76.3212,17.9185;JM-14;Saint Thomas Parish;Pear Tree River
+0;-76.9421,18.2523;JM-13;Saint Mary Parish;Pear Tree Grove part of
+0;-78.1333,18.4333;JM-02;Hanover;Peak Pen
+0;-78.1916,18.2741;JM-16;Westmoreland;Paul Island
+0;-76.9500,18.0500;JM-10;Saint Catherine Parish;Patton Park
+0;-77.4550,17.9745;JM-04;Manchester;Patrick Town
+0;-76.8683,17.9782;JM-10;Saint Catherine Parish;Passage Fort
+0;-77.1124,18.3927;JM-09;Saint Ann Parish;Parry Town
+0;-77.2633,17.9299;JM-01;Clarendon;Parnassus
+0;-76.8628,18.1007;JM-08;Saint Andrew Parish;Parks Road
+0;-77.6645,18.2097;JM-11;St. Elizabeth;Park Head
+0;-77.4133,17.9244;JM-04;Manchester;Park Hall & Perrins
+0;-78.1287,18.4570;JM-02;Hanover;Paradise
+0;-78.2176,18.3878;JM-02;Hanover;Paradise
+0;-78.0816,18.2235;JM-16;Westmoreland;Paradise
+0;-77.2167,18.1333;JM-01;Clarendon;Paradise
+0;-77.7490,17.9767;JM-11;St. Elizabeth;Paradise
+0;-76.7375,18.0120;JM-08;Saint Andrew Parish;Papine
+0;-77.7973,18.4884;JM-12;Saint James Parish;Palmyra
+0;-76.9310,18.2684;JM-13;Saint Mary Parish;Palmetto Grove
+0;-77.2142,17.9516;JM-01;Clarendon;Palmers Cross
+0;-76.6962,17.9434;JM-08;Saint Andrew Parish;Palm Beach
+0;-77.0291,18.1825;JM-10;Saint Catherine Parish;Palm
+0;-77.5833,18.4500;JM-15;Trelawny Parish;Oxford
+0;-77.6348,18.1964;JM-11;St. Elizabeth;Oxford
+0;-77.1163,18.1048;JM-10;Saint Catherine Parish;Oxford
+0;-77.3912,18.2755;JM-09;Saint Ann Parish;Owens
+0;-77.3154,18.3683;JM-09;Saint Ann Parish;Outon
+0;-77.3310,17.9663;JM-01;Clarendon;Osborne Store
+0;-76.7570,18.2411;JM-13;Saint Mary Parish;Osbornes
+0;-77.9360,18.1968;JM-16;Westmoreland;Ormiston
+0;-78.0500,18.4500;JM-02;Hanover;Orchard
+0;-77.7248,18.4807;JM-15;Trelawny Parish;Orange Valley
+0;-77.3536,18.4256;JM-09;Saint Ann Parish;Orange Valley Estate
+0;-77.1744,18.1173;JM-10;Saint Catherine Parish;Orange Valley
+0;-77.1851,17.9670;JM-01;Clarendon;Orange River
+0;-76.8049,18.2792;JM-13;Saint Mary Parish;Orange Hill
+0;-78.3167,18.2372;JM-16;Westmoreland;Orange Hill
+0;-77.0500,18.3430;JM-09;Saint Ann Parish;Orange Hall
+0;-77.9809,18.1293;JM-16;Westmoreland;Orange Grove
+0;-77.0680,18.1596;JM-10;Saint Catherine Parish;Orangefield
+0;-78.2000,18.4500;JM-02;Hanover;Orange Cove
+2546;-78.3075,18.3667;JM-02;Hanover;Orange Bay
+0;-76.6146,18.2270;JM-07;Portland Parish;Orange Bay
+0;-77.8496,18.4518;JM-12;Saint James Parish;Orange
+4100;-76.9464,18.4032;JM-13;Saint Mary Parish;Oracabessa
+0;-77.9750,18.1788;JM-16;Westmoreland;Old Rotherwood
+0;-76.3158,17.8763;JM-14;Saint Thomas Parish;Old Pera
+0;-77.3510,17.9000;JM-01;Clarendon;Old House
+0;-78.2323,18.2313;JM-16;Westmoreland;Old Hope
+7912;-77.0972,17.9092;JM-10;Saint Catherine Parish;Old Harbour Bay
+26024;-77.1090,17.9414;JM-10;Saint Catherine Parish;Old Harbour
+0;-77.4661,17.9936;JM-04;Manchester;Old England
+0;-77.5250,17.9651;JM-04;Manchester;Oldbury
+26503;-77.1031,18.4076;JM-09;Saint Ann Parish;Ocho Rios
+0;-76.8500,18.1333;JM-08;Saint Andrew Parish;Oberlin
+0;-77.1628,17.9630;JM-01;Clarendon;Oakes Pen
+0;-77.2239,18.0845;JM-01;Clarendon;Oakes
+0;-77.4276,18.3499;JM-09;Saint Ann Parish;Stewart Castle
+0;-76.4711,18.1950;JM-07;Portland Parish;Norwich
+0;-77.5643,18.2181;JM-04;Manchester;Norway
+0;-77.6800,18.0300;JM-11;St. Elizabeth;Northampton
+0;-76.5777,17.9182;JM-14;Saint Thomas Parish;Norris
+0;-77.6753,17.9017;JM-11;St. Elizabeth;Norfolk
+0;-76.8936,18.2872;JM-13;Saint Mary Parish;Nonsuch
+0;-76.4195,18.1518;JM-07;Portland Parish;Nonsuch
+0;-78.3167,18.2600;JM-16;Westmoreland;Nonpareil
+0;-77.4360,17.9266;JM-04;Manchester;Nonpareil
+0;-77.4843,18.4251;JM-15;Trelawny Parish;Nightengale Grove
+0;-77.1768,18.2540;JM-09;Saint Ann Parish;New York
+0;-77.1277,18.1137;JM-10;Saint Catherine Parish;New York
+0;-77.2752,17.8804;JM-01;Clarendon;New Yarmouth
+0;-77.9699,18.1725;JM-16;Westmoreland;New Works
+0;-77.7452,18.1242;JM-11;St. Elizabeth;Newton
+0;-76.6871,17.9583;JM-08;Saint Andrew Parish;Newstead
+0;-77.9925,18.1766;JM-16;Westmoreland;New Shafston
+0;-77.9360,18.1893;JM-16;Westmoreland;New Roads
+0;-76.9833,18.3625;JM-13;Saint Mary Parish;New Ramble
+0;-77.5083,17.9605;JM-04;Manchester;Newport
+0;-76.2856,17.8880;JM-14;Saint Thomas Parish;New Pera
+0;-76.5542,17.9740;JM-14;Saint Thomas Parish;New Monklands
+0;-77.1017,17.9349;JM-10;Saint Catherine Parish;New Market Pen
+0;-77.9146,18.1614;JM-11;St. Elizabeth;New Market
+0;-77.1855,18.2103;JM-09;Saint Ann Parish;New Hall
+0;-77.6074,18.1602;JM-04;Manchester;New Hall
+0;-76.9850,18.1333;JM-10;Saint Catherine Parish;New Hall
+0;-77.4740,18.0358;JM-04;Manchester;New Hall
+0;-78.2667,18.3667;JM-02;Hanover;New Green Island
+0;-77.1654,18.3726;JM-09;Saint Ann Parish;Ewart Town
+0;-77.7520,17.9333;JM-11;St. Elizabeth;Newell
+0;-77.7570,17.9200;JM-11;St. Elizabeth;Newcombe Valley
+0;-77.3000,18.3500;JM-09;Saint Ann Parish;New Colliston
+0;-77.0815,18.2780;JM-09;Saint Ann Parish;New Castle
+0;-76.7158,18.0664;JM-08;Saint Andrew Parish;Newcastle
+0;-76.4473,18.1600;JM-07;Portland Parish;Bermuda
+0;-77.5564,17.9968;JM-04;Manchester;Newark
+0;-76.6000,18.0100;JM-14;Saint Thomas Parish;Ness Castle
+0;-78.2833,18.2500;JM-16;Westmoreland;Negril Spots
+13779;-78.3481,18.2684;JM-16;Westmoreland;Negril
+0;-76.3780,17.9106;JM-14;Saint Thomas Parish;Needham Pen
+0;-77.0026,18.2215;JM-10;Saint Catherine Parish;Naseberry Garden
+2394;-77.6053,17.9653;JM-11;St. Elizabeth;Nain
+0;-77.6355,17.9740;JM-11;St. Elizabeth;Myersville
+0;-77.3098,18.2596;JM-09;Saint Ann Parish;Murray Mountain
+0;-76.7117,18.1546;JM-07;Portland Parish;Mulleth Hall
+0;-77.8183,18.5028;JM-12;Saint James Parish;Mount Zion
+0;-77.2820,18.4293;JM-09;Saint Ann Parish;Mount Zion
+0;-77.3167,18.1167;JM-01;Clarendon;Mount Zion
+0;-77.6833,17.9333;JM-11;St. Elizabeth;Mount Zion
+0;-76.6758,18.2443;JM-07;Portland Parish;Mount Vernon
+0;-76.5595,17.9619;JM-14;Saint Thomas Parish;Mount Vernon
+0;-78.0290,18.2722;JM-16;Westmoreland;Mount Thirza
+0;-77.9973,18.2988;JM-16;Westmoreland;Mount Stewart
+0;-77.2883,18.0604;JM-01;Clarendon;Mount Providence
+0;-77.5833,18.0667;JM-04;Manchester;Mount Prospect
+0;-78.2703,18.3548;JM-02;Hanover;Mount Pleasant
+0;-76.8126,18.3101;JM-13;Saint Mary Parish;Mount Pleasant
+0;-77.1167,18.2667;JM-09;Saint Ann Parish;Mount Pleasant
+0;-76.5167,18.1736;JM-07;Portland Parish;Mount Pleasant
+0;-77.8823,18.0911;JM-11;St. Elizabeth;Mount Pleasant
+0;-76.7930,18.0792;JM-08;Saint Andrew Parish;Mount Pleasant
+0;-77.4000,18.0667;JM-01;Clarendon;Mount Pleasant
+0;-77.1094,18.0291;JM-10;Saint Catherine Parish;Mount Pleasant
+0;-77.4223,17.9021;JM-04;Manchester;Mount Pleasant
+0;-76.8190,18.1656;JM-08;Saint Andrew Parish;Belair
+0;-77.3473,18.4330;JM-09;Saint Ann Parish;Mount Olive
+0;-77.1710,18.0791;JM-10;Saint Catherine Parish;Mount Olive
+0;-76.7841,18.1182;JM-08;Saint Andrew Parish;Mount Moses
+0;-77.3510,18.0760;JM-01;Clarendon;Mount Moses
+0;-77.3616,18.0476;JM-01;Clarendon;Mount Lebanus
+0;-76.5413,17.9702;JM-14;Saint Thomas Parish;Mount Lebanus
+0;-76.7872,18.1143;JM-08;Saint Andrew Parish;Mount James
+0;-77.8766,18.3493;JM-12;Saint James Parish;Mount Horeb
+0;-77.0692,18.3333;JM-09;Saint Ann Parish;Mount Hermon
+0;-77.6463,17.9995;JM-11;St. Elizabeth;Mount Hermon
+0;-76.6639,18.1749;JM-07;Portland Parish;Mount Granby
+0;-78.1275,18.3168;JM-16;Westmoreland;Mount Grace
+0;-78.1953,18.2960;JM-16;Westmoreland;Mount Eagle
+0;-76.6703,17.9987;JM-08;Saint Andrew Parish;Mount Dispute
+0;-76.6507,18.0246;JM-08;Saint Andrew Parish;Mount Charles
+0;-77.9362,18.3917;JM-12;Saint James Parish;Mount Carey
+0;-77.4833,17.9500;JM-04;Manchester;Mount Blow
+0;-78.3391,18.2547;JM-16;Westmoreland;Mount Airy
+0;-78.0667,18.4000;JM-02;Hanover;Mountain Valley
+0;-77.7489,17.9819;JM-11;St. Elizabeth;Mountainside
+0;-77.0933,18.0628;JM-10;Saint Catherine Parish;Mountain River
+0;-78.1154,18.4464;JM-02;Hanover;Mosquito Cove
+0;-77.2756,18.1122;JM-01;Clarendon;Morgans Valley
+0;-77.5263,17.9969;JM-04;Manchester;Moreland
+0;-77.2160,17.8189;JM-01;Clarendon;Moreland
+0;-77.4657,18.1928;JM-01;Clarendon;Moravia
+9368;-76.4093,17.8815;JM-14;Saint Thomas Parish;Morant Bay
+0;-76.4317,17.9042;JM-14;Saint Thomas Parish;Morant Estate
+1119;-76.4258,18.0777;JM-07;Portland Parish;Moore Town
+0;-77.1996,18.0207;JM-01;Clarendon;Moores
+0;-77.9299,18.3716;JM-12;Saint James Parish;Montpelier
+0;-77.1060,18.3592;JM-09;Saint Ann Parish;Montpelier
+0;-77.3467,18.0696;JM-01;Clarendon;Montpelier
+0;-77.5800,18.0000;JM-04;Manchester;Montpelier
+82867;-77.9188,18.4712;JM-12;Saint James Parish;Montego Bay
+0;-76.7175,18.2176;JM-07;Portland Parish;Mammouth
+3319;-77.1118,18.2756;JM-09;Saint Ann Parish;Moneague
+0;-76.6500,18.0167;JM-08;Saint Andrew Parish;Mocho House
+0;-77.8370,18.2908;JM-12;Saint James Parish;Mocho
+0;-77.3341,18.0389;JM-01;Clarendon;Mocho
+0;-77.2046,17.8041;JM-01;Clarendon;Mitchell Town
+0;-77.6110,18.0667;JM-11;St. Elizabeth;Mitcham
+0;-78.1995,18.3228;JM-16;Westmoreland;Mint
+0;-77.3742,18.4130;JM-09;Saint Ann Parish;Minard
+0;-77.2807,18.3573;JM-09;Saint Ann Parish;Milltown
+0;-76.3983,18.0401;JM-07;Portland Parish;Millbank
+0;-77.3667,17.8500;JM-01;Clarendon;Milk River Bath
+0;-77.1012,18.3986;JM-09;Saint Ann Parish;Milford
+0;-77.9941,18.3671;JM-02;Hanover;Miles Town
+0;-77.5482,18.1381;JM-04;Manchester;Mile Gully
+0;-76.7131,18.0620;JM-08;Saint Andrew Parish;Middleton
+0;-76.4333,17.9247;JM-04;Manchester;Middleton
+0;-78.1786,18.4079;JM-02;Hanover;Middlesex
+0;-77.0348,18.2388;JM-09;Saint Ann Parish;Middlesex
+0;-77.8377,18.1006;JM-11;St. Elizabeth;Middle Quarters
+0;-77.0190,18.1234;JM-10;Saint Catherine Parish;Mickleton
+0;-77.6750,18.4584;JM-15;Trelawny Parish;Merrywood
+0;-77.0903,18.0814;JM-10;Saint Catherine Parish;Mendez Hill
+0;-77.0853,17.9229;JM-10;Saint Catherine Parish;Mendes Pen & Palmyra
+0;-76.6072,18.1709;JM-07;Portland Parish;Melrose
+0;-77.3278,18.1451;JM-01;Clarendon;Mears
+0;-77.2400,18.0420;JM-01;Clarendon;Mears Pen
+0;-78.0329,18.1821;JM-16;Westmoreland;Mearnsville
+44755;-77.2451,17.9645;JM-01;Clarendon;May Pen
+0;-77.5725,17.9591;JM-04;Manchester;May Hill
+0;-77.6753,18.4647;JM-15;Trelawny Parish;Maxfield
+1821;-76.6579,18.0311;JM-08;Saint Andrew Parish;Mavis Bank
+0;-76.8423,18.0715;JM-08;Saint Andrew Parish;Maverley Mountain
+0;-76.8620,18.0500;JM-08;Saint Andrew Parish;Mason Valley
+0;-77.2681,18.1980;JM-01;Clarendon;Douglas Castle
+0;-76.9171,18.3980;JM-13;Saint Mary Parish;Mason Hall
+0;-77.5220,18.2192;JM-04;Manchester;Masons Run
+0;-78.2178,18.2700;JM-16;Westmoreland;Masemure
+0;-76.9333,18.1000;JM-10;Saint Catherine Parish;Mary Village
+0;-78.1295,18.3894;JM-02;Hanover;Maryland
+0;-77.6901,17.8836;JM-11;St. Elizabeth;Mary Gayles Run
+0;-77.0468,18.0105;JM-10;Saint Catherine Parish;Maryfield
+0;-76.7974,18.0366;JM-08;Saint Andrew Parish;Mary Browns Corner
+0;-76.8662,18.2906;JM-13;Saint Mary Parish;Martin Village
+0;-77.6594,18.4714;JM-15;Trelawny Parish;Martha Brae
+0;-77.5310,18.0599;JM-04;Manchester;Marshalls Pen
+3085;-77.7954,18.3446;JM-12;Saint James Parish;Maroon Town
+0;-77.1028,17.9445;JM-10;Saint Catherine Parish;Marlie Mount
+0;-77.1391,18.0658;JM-10;Saint Catherine Parish;Marlie Hill
+0;-77.5096,17.8715;JM-04;Manchester;Marlie Hill
+0;-77.5000,17.8667;JM-04;Manchester;Marley Hill
+0;-76.9798,18.3289;JM-13;Saint Mary Parish;Marley
+0;-77.5308,17.9906;JM-04;Manchester;Marlborough
+0;-78.2734,18.3456;JM-02;Hanover;March Town
+0;-76.8949,18.3679;JM-13;Saint Mary Parish;Mannings Town
+0;-77.2305,18.3755;JM-09;Saint Ann Parish;Mango Grove
+47115;-77.5071,18.0417;JM-04;Manchester;Mandeville
+2321;-76.2773,18.0444;JM-07;Portland Parish;Manchioneal
+0;-77.7500,17.8833;JM-11;St. Elizabeth;Jenny Pond Run
+0;-77.1685,18.4323;JM-09;Saint Ann Parish;Mammee Bay
+0;-77.1604,18.3828;JM-09;Saint Ann Parish;Malvern Park Pen
+0;-77.6780,17.8856;JM-11;St. Elizabeth;Malvern Chase
+3291;-77.7000,17.9667;JM-11;St. Elizabeth;Malvern
+0;-77.5508,18.1930;JM-04;Manchester;Malton
+0;-77.8052,18.3500;JM-12;Saint James Parish;Maldon
+0;-77.2111,18.0493;JM-01;Clarendon;Malsey Valley
+0;-76.5104,18.1561;JM-07;Portland Parish;Maidstone
+0;-77.5833,18.1135;JM-04;Manchester;Maidstone
+0;-77.4877,18.3912;JM-15;Trelawny Parish;Mahogany Hall
+0;-76.8220,18.2213;JM-13;Saint Mary Parish;Mahoe Hill
+0;-78.1167,18.4167;JM-02;Hanover;Maggotty
+1371;-77.7646,18.1613;JM-11;St. Elizabeth;Maggotty
+0;-78.0146,18.3121;JM-16;Westmoreland;Mackfield
+0;-77.1072,18.0442;JM-10;Saint Catherine Parish;Macca Tree
+0;-76.3808,17.8776;JM-14;Saint Thomas Parish;Lyssons
+0;-77.2326,18.3713;JM-09;Saint Ann Parish;Lumsden
+0;-77.1980,18.1225;JM-01;Clarendon;Ludlow
+0;-77.1833,18.2167;JM-09;Saint Ann Parish;Lucky Valley
+0;-77.2133,18.1016;JM-01;Clarendon;Lucky Valley
+0;-77.5576,17.9798;JM-04;Manchester;Lucky Valley
+774;-77.0149,18.3100;JM-13;Saint Mary Parish;Lucky Hill
+7377;-78.1736,18.4509;JM-02;Hanover;Lucea
+0;-76.5346,17.9208;JM-14;Saint Thomas Parish;Lows Mountain
+0;-76.6044,18.2308;JM-07;Portland Parish;Low Leyton
+0;-77.3667,17.9667;JM-01;Clarendon;Lowes Pen
+0;-77.6351,17.9535;JM-11;St. Elizabeth;Lower Warminster
+0;-77.4050,18.3167;JM-09;Saint Ann Parish;Lower Tooting
+0;-77.6880,17.8771;JM-11;St. Elizabeth;Lower Southfield
+0;-77.4964,18.2363;JM-15;Trelawny Parish;Lowe River
+0;-76.8672,18.2851;JM-13;Saint Mary Parish;Lower Esher
+0;-77.6599,17.8691;JM-11;St. Elizabeth;Yardley Chase
+0;-77.5671,18.3783;JM-15;Trelawny Parish;Lottery
+0;-77.8178,18.4096;JM-12;Saint James Parish;Lottery
+0;-76.8939,18.3939;JM-13;Saint Mary Parish;Look Out
+0;-77.6263,18.1466;JM-04;Manchester;Lookout
+0;-77.2833,17.8140;JM-01;Clarendon;Longwood
+0;-77.1600,17.9090;JM-01;Clarendon;Longville Park
+0;-77.2140,18.0140;JM-01;Clarendon;Longville
+0;-78.1982,18.2314;JM-16;Westmoreland;Long Pond
+0;-77.5416,18.4233;JM-15;Trelawny Parish;Long Pond
+0;-77.6540,18.0167;JM-11;St. Elizabeth;Long Hill
+0;-76.3151,18.0973;JM-07;Portland Parish;Long Bay
+0;-77.9127,18.0305;JM-11;St. Elizabeth;Longacre
+0;-78.2944,18.3511;JM-02;Hanover;Logwood
+0;-77.4108,18.1578;JM-01;Clarendon;Logie Green
+0;-77.0567,18.3773;JM-09;Saint Ann Parish;Lodge
+0;-77.4617,18.0128;JM-04;Manchester;Lochaber
+3163;-77.1488,18.1276;JM-10;Saint Catherine Parish;Lluidas Vale
+0;-76.5475,17.9011;JM-14;Saint Thomas Parish;Lloyds
+0;-76.8916,18.3264;JM-13;Saint Mary Parish;Llanrumney
+0;-77.3003,18.4686;JM-09;Saint Ann Parish;Llandovery
+0;-76.6111,17.9623;JM-14;Saint Thomas Parish;Llandewey
+0;-76.5319,18.1941;JM-07;Portland Parish;Little Spring Garden
+0;-77.8097,18.5214;JM-12;Saint James Parish;Little River
+0;-77.7257,17.9034;JM-11;St. Elizabeth;Little Park
+0;-77.3833,17.9000;JM-04;Manchester;Little Mountain
+4954;-78.2164,18.2483;JM-16;Westmoreland;Little London
+0;-77.8082,18.4698;JM-12;Saint James Parish;Little Ease
+0;-78.2250,18.2268;JM-16;Westmoreland;Broughton
+0;-78.2672,18.2209;JM-16;Westmoreland;Little Bay
+0;-76.9662,18.0562;JM-10;Saint Catherine Parish;Simons
+0;-77.5743,17.9429;JM-04;Manchester;Lititz
+0;-77.5075,18.2511;JM-15;Trelawny Parish;Litchfield
+5362;-77.2406,17.8101;JM-01;Clarendon;Lionel Town
+20660;-77.0317,18.1368;JM-10;Saint Catherine Parish;Linstead
+0;-76.7138,17.9941;JM-08;Saint Andrew Parish;Lindos Gap
+0;-77.4018,18.3891;JM-09;Saint Ann Parish;Lyndale
+0;-77.5663,18.0231;JM-04;Manchester;Lincoln
+0;-77.2094,18.2962;JM-09;Saint Ann Parish;Limetree Valley
+0;-77.3915,18.3401;JM-09;Saint Ann Parish;Lime Tree Garden
+0;-77.2098,18.4031;JM-09;Saint Ann Parish;Lime Hall
+0;-77.2000,18.0667;JM-01;Clarendon;Lime Hall
+0;-77.7795,18.4459;JM-12;Saint James Parish;Lima
+0;-77.6399,18.1502;JM-11;St. Elizabeth;Lilliput
+0;-76.9379,18.4109;JM-13;Saint Mary Parish;Liberty Castle
+0;-76.6191,18.2252;JM-07;Portland Parish;Leyton Valley
+0;-77.8963,18.0580;JM-11;St. Elizabeth;Lewis Town
+0;-76.8333,18.2471;JM-13;Saint Mary Parish;Lewis Store
+0;-77.2455,18.4390;JM-09;Saint Ann Parish;Lewis
+0;-77.9672,18.3933;JM-02;Hanover;Lethe
+0;-77.8356,18.4712;JM-12;Saint James Parish;Leogan
+0;-77.9492,18.1822;JM-16;Westmoreland;Lennox Pen
+0;-76.5940,18.2128;JM-07;Portland Parish;Lennox
+0;-76.3374,17.8773;JM-14;Saint Thomas Parish;Leith Hall
+0;-77.3904,18.1406;JM-01;Clarendon;Leicesterfields
+0;-77.6878,18.0182;JM-11;St. Elizabeth;Leeds
+0;-76.6783,18.0573;JM-08;Saint Andrew Parish;Mount Lebanon
+0;-77.9320,18.2062;JM-16;Westmoreland;Leamington
+0;-76.8515,18.1310;JM-08;Saint Andrew Parish;Lawrence Tavern
+0;-77.2589,18.4385;JM-09;Saint Ann Parish;Laughlands
+0;-76.9167,18.3236;JM-13;Saint Mary Parish;Langley
+0;-77.1830,17.9340;JM-01;Clarendon;Lancewood Valley
+0;-78.2172,18.4427;JM-02;Hanover;Lances Bay
+0;-77.4644,17.9356;JM-04;Manchester;Lancaster
+0;-77.9139,18.2632;JM-16;Westmoreland;Lambs River
+0;-77.7587,18.0758;JM-11;St. Elizabeth;East Lacovia
+2760;-77.7690,18.0936;JM-11;St. Elizabeth;Lacovia
+0;-77.0304,18.3508;JM-13;Saint Mary Parish;Labyrinth
+0;-76.8667,18.2333;JM-13;Saint Mary Parish;Konigsberg
+0;-77.3660,18.3504;JM-09;Saint Ann Parish;Knutsford
+0;-76.9943,18.1158;JM-10;Saint Catherine Parish;Knollis
+0;-77.5056,17.9926;JM-04;Manchester;Knockpatrick
+0;-77.9961,18.3278;JM-02;Hanover;Knockalva
+0;-77.3300,18.3970;JM-09;Saint Ann Parish;Knapdale
+0;-77.0540,18.0174;JM-10;Saint Catherine Parish;Kitson Town
+0;-77.8417,18.4579;JM-12;Saint James Parish;Kirkpatrick Hall
+0;-76.8273,18.0565;JM-08;Saint Andrew Parish;Kirkland Heights
+0;-77.5622,18.4021;JM-15;Trelawny Parish;Kinloss
+0;-78.1910,18.3242;JM-16;Westmoreland;Kings Valley
+0;-78.2030,18.3831;JM-02;Hanover;Kingsvale
+937700;-76.7936,17.9970;JM-17;Kingston;Kingston
+0;-77.9640,18.0893;JM-16;Westmoreland;Kings Pen
+0;-77.9005,18.0603;JM-11;St. Elizabeth;Kilmorey
+0;-77.9231,18.1315;JM-11;St. Elizabeth;Kilmarnoch
+0;-76.6535,18.2248;JM-07;Portland Parish;Kildare
+0;-77.7505,17.9728;JM-11;St. Elizabeth;Kildare
+0;-77.0698,17.9458;JM-10;Saint Catherine Parish;Kilbies
+0;-77.9350,18.2818;JM-16;Westmoreland;Kew Park
+0;-78.1511,18.4382;JM-02;Hanover;Kew
+0;-78.0019,18.2442;JM-16;Westmoreland;Kippin
+0;-76.9926,18.0876;JM-10;Saint Catherine Parish;Kent Village
+0;-77.1602,18.0913;JM-10;Saint Catherine Parish;Kentish
+0;-77.7348,18.4843;JM-15;Trelawny Parish;Kent
+0;-77.3333,18.3333;JM-09;Saint Ann Parish;Kensington
+0;-77.6697,17.9210;JM-11;St. Elizabeth;Kensington
+0;-77.2030,17.9560;JM-01;Clarendon;Kennedy Run
+0;-77.4875,18.0848;JM-04;Manchester;Kendal
+0;-78.1280,18.3962;JM-02;Hanover;Kempshot
+0;-77.8710,18.4070;JM-12;Saint James Parish;Kempshot
+0;-77.2890,17.8589;JM-01;Clarendon;Kemps Hill
+2631;-77.2308,18.1728;JM-01;Clarendon;Kellits
+0;-77.4068,18.4097;JM-09;Saint Ann Parish;Keith
+0;-77.6058,18.1931;JM-04;Manchester;Kaenwood
+0;-77.0202,18.2540;JM-09;Saint Ann Parish;Kelham
+0;-77.9218,18.2664;JM-16;Westmoreland;Cow Park
+0;-77.6116,17.9089;JM-11;St. Elizabeth;Junction
+0;-78.3204,18.2726;JM-16;Westmoreland;Jones Pen
+0;-78.2667,18.3167;JM-02;Hanover;Moreland
+0;-77.7790,18.2082;JM-11;St. Elizabeth;Jointwood
+0;-76.3654,17.8906;JM-14;Saint Thomas Parish;Johns Town
+0;-77.2553,18.4039;JM-09;Saint Ann Parish;Johnson Land
+0;-77.5500,18.4667;JM-15;Trelawny Parish;Johnston Pen
+0;-78.1652,18.4373;JM-02;Hanover;Johnson Town
+0;-76.3162,17.9682;JM-14;Saint Thomas Parish;Johnson Mountain
+0;-77.7356,17.9700;JM-11;St. Elizabeth;Johns Lodge
+0;-77.8527,18.4195;JM-12;Saint James Parish;Johns Hall
+0;-77.4000,18.3000;JM-09;Saint Ann Parish;Johns Hall
+0;-77.3751,18.1748;JM-01;Clarendon;Johns Hall
+0;-77.5840,18.1219;JM-04;Manchester;Johns Hall
+0;-76.4691,18.1024;JM-07;Portland Parish;Johns Hall
+0;-78.2333,18.3245;JM-16;Westmoreland;Jerusalem Mountain
+0;-78.1296,18.4284;JM-02;Hanover;Jericho
+0;-77.8521,18.3297;JM-12;Saint James Parish;Jericho Tangle River
+0;-77.0425,18.1582;JM-10;Saint Catherine Parish;Jericho
+0;-77.0167,18.2833;JM-13;Saint Mary Parish;Jeffrey Town
+0;-77.4550,17.9260;JM-04;Manchester;Java
+0;-78.1355,18.2723;JM-16;Westmoreland;Jane Marks
+0;-77.3430,18.1766;JM-01;Clarendon;James Hill
+0;-76.8000,18.2667;JM-13;Saint Mary Parish;Jacks Rock
+0;-76.9715,18.0941;JM-10;Saint Catherine Parish;Jackson Village
+0;-77.4874,18.4153;JM-15;Trelawny Parish;Jackson Town
+0;-77.2365,17.7424;JM-01;Clarendon;Jacksons Bay
+0;-76.7548,18.0365;JM-08;Saint Andrew Parish;Jacks Hill
+0;-76.9416,18.3764;JM-13;Saint Mary Parish;Jacks River
+0;-77.2543,17.9722;JM-01;Clarendon;Jack Monday
+0;-77.0833,18.2000;JM-10;Saint Catherine Parish;Ivy Mount
+0;-77.7135,17.9576;JM-11;St. Elizabeth;Iver Cottage
+0;-76.7484,18.2703;JM-13;Saint Mary Parish;Iter Boreale
+0;-77.1240,18.3416;JM-09;Saint Ann Parish;Islington Pen
+2958;-76.8548,18.3092;JM-13;Saint Mary Parish;Islington
+0;-76.3413,18.1340;JM-07;Portland Parish;Islington
+0;-77.5048,17.9525;JM-04;Manchester;Isle
+0;-77.8809,18.4561;JM-12;Saint James Parish;Irwin
+0;-77.8637,18.5174;JM-12;Saint James Parish;Ironshore
+0;-76.7234,18.0493;JM-08;Saint Andrew Parish;Irish Town
+0;-76.6976,18.2120;JM-07;Portland Parish;Ipswich
+0;-77.8097,18.2044;JM-11;St. Elizabeth;Ipswich
+0;-77.3613,18.2766;JM-09;Saint Ann Parish;Inverness
+0;-77.1710,17.9358;JM-01;Clarendon;Inverness
+0;-77.0199,17.9823;JM-10;Saint Catherine Parish;Innswood
+0;-77.7989,18.4279;JM-12;Saint James Parish;Industry
+0;-77.2483,18.3841;JM-09;Saint Ann Parish;Industry
+0;-76.5305,18.1695;JM-07;Portland Parish;Industry
+0;-77.5667,18.4333;JM-15;Trelawny Parish;Hyde Hall
+0;-77.5414,18.4091;JM-15;Trelawny Parish;Hyde & Gibraltar
+0;-76.9667,18.3500;JM-13;Saint Mary Parish;Huntstown
+0;-77.2268,17.9335;JM-01;Clarendon;Hunts Pen
+0;-77.3627,18.4046;JM-09;Saint Ann Parish;Huntley
+0;-77.5830,18.0730;JM-04;Manchester;Huntley
+0;-76.4907,17.9390;JM-14;Saint Thomas Parish;Huntley
+0;-76.2667,17.9500;JM-14;Saint Thomas Parish;Hordley
+0;-76.3333,17.9333;JM-14;Saint Thomas Parish;Hopewell Hall
+0;-78.0153,18.4538;JM-02;Hanover;Hopewell
+0;-78.1333,18.4333;JM-02;Hanover;Hopewell
+0;-77.0925,18.3528;JM-09;Saint Ann Parish;Hopewell
+0;-78.3000,18.2520;JM-16;Westmoreland;Hopewell
+0;-76.7213,18.0582;JM-08;Saint Andrew Parish;Hopewell
+0;-77.7781,17.9494;JM-11;St. Elizabeth;Hopewell
+0;-77.8678,18.3933;JM-12;Saint James Parish;Hopeton
+0;-76.6972,18.1823;JM-07;Portland Parish;Hopeton
+0;-77.9469,18.1678;JM-16;Westmoreland;Hopeton
+0;-77.6651,17.9598;JM-11;St. Elizabeth;Hopeton
+0;-78.1803,18.4323;JM-02;Hanover;Hope Hall
+0;-76.5601,18.1960;JM-07;Portland Parish;Hopefield
+1666;-76.5654,18.1988;JM-07;Portland Parish;Hope Bay
+0;-77.4565,18.0713;JM-04;Manchester;Hope
+0;-77.0120,18.0278;JM-10;Saint Catherine Parish;Moxham
+0;-76.7435,18.0261;JM-08;Saint Andrew Parish;Hope Estate
+0;-77.3461,18.0202;JM-01;Clarendon;Hope
+0;-77.5455,17.9954;JM-04;Manchester;Hope
+0;-77.4131,18.4121;JM-09;Saint Ann Parish;Home Castle
+0;-76.2667,17.9667;JM-14;Saint Thomas Parish;Holland Park
+0;-77.8090,18.1039;JM-11;St. Elizabeth;Holland
+0;-76.2515,17.9430;JM-14;Saint Thomas Parish;Holland
+0;-76.9797,18.0114;JM-10;Saint Catherine Parish;Hog Hole
+0;-77.4419,17.9355;JM-04;Manchester;Hog Hole
+0;-77.8730,18.0440;JM-11;St. Elizabeth;Hodges
+0;-77.1090,18.3500;JM-09;Saint Ann Parish;Hinds Town
+0;-77.8082,17.9579;JM-11;St. Elizabeth;Hill Top
+0;-76.4786,17.9688;JM-14;Saint Thomas Parish;Hillside
+0;-77.2167,17.8333;JM-01;Clarendon;Hillside
+0;-76.8949,18.0821;JM-10;Saint Catherine Parish;Hillsborough
+0;-76.4333,17.9167;JM-14;Saint Thomas Parish;Highland Castle
+0;-76.8935,18.2724;JM-13;Saint Mary Parish;Highgate
+0;-76.9452,18.0874;JM-10;Saint Catherine Parish;Highgate
+0;-77.2064,18.3815;JM-09;Saint Ann Parish;Higgin Town
+0;-77.5432,18.1665;JM-04;Manchester;Hibernia
+0;-76.8799,18.3166;JM-13;Saint Mary Parish;Heywood Hall
+0;-77.3028,18.2603;JM-09;Saint Ann Parish;Hessen Castle
+0;-77.4403,17.9180;JM-04;Manchester;Hermitage
+0;-77.4060,18.4452;JM-09;Saint Ann Parish;Helicon
+0;-76.2636,18.0042;JM-07;Portland Parish;Hectors River
+0;-77.5789,18.1871;JM-04;Manchester;Heavitree
+0;-77.0381,18.1334;JM-10;Saint Catherine Parish;Heathfield
+0;-77.2800,17.8305;JM-01;Clarendon;Healthfield
+0;-77.3284,18.0286;JM-01;Clarendon;Netherfield
+0;-76.5816,17.9016;JM-14;Saint Thomas Parish;Heart Ease
+0;-77.0765,18.1879;JM-10;Saint Catherine Parish;Hayfield
+9701;-77.2371,17.8757;JM-01;Clarendon;Hayes
+0;-78.2777,18.3848;JM-02;Hanover;Haughton Hall Estate
+0;-77.9903,18.3365;JM-02;Hanover;Haughton Grove
+0;-78.2036,18.4420;JM-02;Hanover;Haughton Court
+0;-77.7450,18.0970;JM-11;St. Elizabeth;Haughton
+0;-77.5373,18.0294;JM-04;Manchester;Hatfield
+0;-76.6824,18.2524;JM-07;Portland Parish;Hart Hill
+0;-78.0909,18.2584;JM-16;Westmoreland;Hertford
+0;-77.5599,18.1786;JM-04;Manchester;Harry Watch
+0;-77.1632,18.3287;JM-09;Saint Ann Parish;Harmony Hall
+0;-77.5065,18.4634;JM-15;Trelawny Parish;Harmony Hall
+0;-76.8888,18.2853;JM-13;Saint Mary Parish;Harmony Hall
+0;-77.2127,17.7580;JM-01;Clarendon;Harmony Hall
+0;-77.4193,17.9727;JM-04;Manchester;Harmons
+0;-76.9432,18.1877;JM-10;Saint Catherine Parish;Harewood
+0;-77.2796,17.9393;JM-01;Clarendon;Harewood
+0;-77.0320,18.3976;JM-13;Saint Mary Parish;Hard Bargain
+0;-76.7171,17.9534;JM-08;Saint Andrew Parish;Harbour View
+0;-76.3253,17.8967;JM-14;Saint Thomas Parish;Harbour Head
+0;-77.0855,18.3789;JM-09;Saint Ann Parish;Happy Retreat
+0;-77.8620,18.1489;JM-11;St. Elizabeth;Hazel Grove
+0;-76.8750,18.0454;JM-08;Saint Andrew Parish;Happy Grove
+0;-76.2677,18.0085;JM-07;Portland Parish;Happy Grove
+0;-77.5000,18.1897;JM-04;Manchester;Hansons Run
+0;-77.5465,17.9797;JM-04;Manchester;Hanover
+0;-77.4904,18.0646;JM-04;Manchester;Hanbury
+0;-76.9578,18.2190;JM-10;Saint Catherine Parish;Ham Walk
+0;-76.2642,17.9172;JM-14;Saint Thomas Parish;Hampton Court
+0;-77.8555,18.3838;JM-12;Saint James Parish;Hampton
+0;-77.6935,17.9595;JM-11;St. Elizabeth;Hampton
+0;-77.6355,18.4233;JM-15;Trelawny Parish;Hampstead
+0;-76.9169,18.3105;JM-13;Saint Mary Parish;Hampstead
+0;-77.7474,18.4412;JM-12;Saint James Parish;Hampden
+0;-77.3141,17.9695;JM-01;Clarendon;Swansea Hamilton Pen
+0;-77.2383,17.9352;JM-01;Clarendon;Halse Hall
+0;-77.0833,18.3667;JM-09;Saint Ann Parish;Hiattsfield
+0;-76.6635,18.0570;JM-08;Saint Andrew Parish;Halls Delight
+0;-76.4568,17.9273;JM-14;Saint Thomas Parish;Hall Head
+0;-77.0208,18.2915;JM-13;Saint Mary Parish;Halifax
+0;-77.5302,18.1667;JM-04;Manchester;Halifax
+18552;-76.7993,18.0125;JM-08;Saint Andrew Parish;Half Way Tree
+0;-76.6545,17.9818;JM-08;Saint Andrew Parish;Halberstadt
+0;-76.6176,18.0172;JM-14;Saint Thomas Parish;Hagley Gap
+0;-77.0950,18.3076;JM-09;Saint Ann Parish;Haddon
+0;-78.0043,18.4212;JM-02;Hanover;Haddington
+0;-76.9935,18.4030;JM-13;Saint Mary Parish;Huddersfield
+0;-76.9918,18.2499;JM-10;Saint Catherine Parish;Guys Hill
+0;-77.5932,18.0159;JM-11;St. Elizabeth;Gutters
+0;-77.3705,18.1545;JM-01;Clarendon;Guinea Corn
+0;-77.8149,18.4273;JM-12;Saint James Parish;Guilsbro - part of
+0;-77.7948,18.4158;JM-12;Saint James Parish;Guilsbro
+0;-76.6804,18.0283;JM-08;Saint Andrew Parish;Guava Ridge
+0;-77.0690,18.0360;JM-10;Saint Catherine Parish;Guanaboa Vale
+0;-77.4715,17.9011;JM-04;Manchester;Grove Town
+0;-77.5202,18.0908;JM-04;Manchester;Grove Place
+0;-76.3533,17.9264;JM-14;Saint Thomas Parish;Grossett Village
+0;-77.3288,17.8583;JM-01;Clarendon;Grimett
+0;-77.1833,18.2833;JM-09;Saint Ann Parish;Grier Park
+0;-77.1376,18.2715;JM-09;Saint Ann Parish;Grierfield
+0;-76.8813,17.9956;JM-10;Saint Catherine Parish;Gregory Park
+0;-76.9570,18.3620;JM-13;Saint Mary Parish;Greenwood Park
+0;-77.9363,18.3000;JM-16;Westmoreland;Greenwich
+0;-78.0833,18.2833;JM-16;Westmoreland;Greenwich
+0;-76.7270,18.0727;JM-08;Saint Andrew Parish;Greenwich
+0;-77.5333,18.0333;JM-04;Manchester;Greenvale
+0;-77.4605,17.9493;JM-04;Manchester;Green Vale
+0;-76.5500,17.9667;JM-14;Saint Thomas Parish;Green Rossfield Isle
+0;-78.2536,18.3571;JM-02;Hanover;Green River
+0;-77.8761,18.4742;JM-12;Saint James Parish;Green Pond
+0;-77.4341,17.9799;JM-04;Manchester;Green Pond
+0;-77.6908,18.4663;JM-15;Trelawny Parish;Green Park
+0;-77.1774,18.3534;JM-09;Saint Ann Parish;Green Park
+0;-77.3370,18.0250;JM-01;Clarendon;Green Park
+0;-77.3667,18.2000;JM-01;Clarendon;Greenock
+0;-78.1837,18.4160;JM-02;Hanover;Greenland
+0;-78.2738,18.3892;JM-02;Hanover;Green Island
+0;-76.7142,18.0931;JM-07;Portland Parish;Green Hills
+0;-77.3474,18.3203;JM-09;Saint Ann Parish;Green Hill
+0;-77.6225,18.4626;JM-15;Trelawny Parish;Grange
+0;-77.3083,18.4283;JM-09;Saint Ann Parish;Green Castle
+0;-76.8000,18.2922;JM-13;Saint Mary Parish;Green Castle
+0;-76.3167,17.9167;JM-14;Saint Thomas Parish;Green Castle
+0;-78.0624,18.4030;JM-02;Hanover;Great Valley
+0;-76.7833,18.2667;JM-13;Saint Mary Parish;Grays Inn
+0;-77.3276,17.9056;JM-01;Clarendon;Gravel Hill
+0;-77.6623,18.0649;JM-11;St. Elizabeth;Grasmond
+0;-76.8866,18.2629;JM-13;Saint Mary Parish;Grantham
+0;-77.3949,18.1543;JM-01;Clarendon;Grantham
+0;-76.8833,18.1167;JM-10;Saint Catherine Parish;Grantham
+10429;-78.1843,18.3106;JM-16;Westmoreland;Grange Hill
+0;-78.2347,18.3618;JM-02;Hanover;Grange
+0;-78.0733,18.3358;JM-16;Westmoreland;Grange
+0;-77.9419,18.1009;JM-16;Westmoreland;Grandvale
+0;-77.3800,18.3266;JM-09;Saint Ann Parish;Wakering
+0;-76.9256,17.9571;JM-10;Saint Catherine Parish;Goshen Pen
+0;-77.0451,18.3158;JM-09;Saint Ann Parish;Goshen
+0;-77.3103,18.0123;JM-01;Clarendon;Goshen
+1088;-76.7178,18.0358;JM-08;Saint Andrew Parish;Gordon Town
+0;-77.1833,17.9667;JM-01;Clarendon;Gordons Store
+0;-77.7497,18.4749;JM-12;Saint James Parish;Goodwill
+0;-76.9667,17.9667;JM-10;Saint Catherine Parish;Goods Pen
+0;-77.6783,18.4179;JM-15;Trelawny Parish;Good Hope
+0;-78.3380,18.2649;JM-16;Westmoreland;Good Hope
+0;-78.0333,18.2000;JM-16;Westmoreland;Good Hope
+0;-76.6908,17.9940;JM-08;Saint Andrew Parish;Good Hope
+0;-77.3359,18.0945;JM-01;Clarendon;Good Endevor
+0;-78.2187,18.2334;JM-16;Westmoreland;Goldson Land
+0;-76.4667,18.1333;JM-07;Portland Parish;Golden Vale
+0;-76.8045,18.0944;JM-08;Saint Andrew Parish;Golden Spring
+0;-77.2285,18.3947;JM-09;Saint Ann Parish;Golden Grove
+0;-78.0254,18.3699;JM-02;Hanover;Golden Grove
+0;-77.1470,18.3245;JM-09;Saint Ann Parish;Golden Grove
+0;-76.9635,18.2355;JM-10;Saint Catherine Parish;Golden Grove
+3058;-76.2725,17.9336;JM-14;Saint Thomas Parish;Golden Grove
+0;-77.1950,18.3846;JM-09;Saint Ann Parish;Golden Spring Estate
+0;-77.5423,18.2553;JM-15;Trelawny Parish;Goat Island
+0;-77.0500,18.2500;JM-09;Saint Ann Parish;Gloster
+0;-77.3742,18.0857;JM-01;Clarendon;Gloucester
+0;-77.3711,18.1549;JM-01;Clarendon;Glenroy
+0;-78.0716,18.3245;JM-16;Westmoreland;Glen Islay
+0;-77.9020,18.4806;JM-12;Saint James Parish;Glendevon
+0;-77.8064,18.4495;JM-12;Saint James Parish;Glasgow
+0;-78.2057,18.3566;JM-16;Westmoreland;Glasgow
+0;-76.4437,17.9536;JM-14;Saint Thomas Parish;Glasgow
+0;-77.1778,18.0800;JM-10;Saint Catherine Parish;Ginger Ridge
+0;-76.4282,18.0634;JM-07;Portland Parish;Ginger House
+0;-77.8581,18.2074;JM-11;St. Elizabeth;Ginger Hill
+0;-77.6500,18.0500;JM-11;St. Elizabeth;Gilnock
+0;-77.8833,18.1039;JM-11;St. Elizabeth;Giddy Hall
+0;-77.4321,18.3393;JM-09;Saint Ann Parish;Gibraltar
+0;-77.1450,18.2400;JM-09;Saint Ann Parish;Gibraltar
+0;-77.0198,18.0845;JM-10;Saint Catherine Parish;Giblatore
+0;-77.5378,18.4496;JM-15;Trelawny Parish;Georgia
+0;-78.1368,18.4194;JM-02;Hanover;Georgia
+0;-76.8041,18.2415;JM-13;Saint Mary Parish;Georgia Pen
+0;-77.7167,18.4667;JM-15;Trelawny Parish;Georges Valley
+0;-77.6269,18.1017;JM-11;St. Elizabeth;Georges Valley
+0;-78.1423,18.2760;JM-16;Westmoreland;Georges Plain
+0;-78.1833,18.3000;JM-16;Westmoreland;Geneva
+0;-77.7543,17.9249;JM-11;St. Elizabeth;Geneva
+0;-77.5959,17.9367;JM-11;St. Elizabeth;Gazeland
+3305;-77.0097,18.3264;JM-13;Saint Mary Parish;Gayle
+0;-77.8260,18.3067;JM-12;Saint James Parish;Garlands
+0;-76.9863,18.0581;JM-10;Saint Catherine Parish;Garlands
+0;-76.4904,18.0885;JM-07;Portland Parish;Garland Grove
+0;-77.5910,18.0853;JM-04;Manchester;Galway
+0;-77.7322,18.4165;JM-15;Trelawny Parish;Gales Valley
+0;-77.8932,18.0775;JM-11;St. Elizabeth;Fyffes Pen
+0;-77.9383,18.0705;JM-11;St. Elizabeth;Fustic Grove
+0;-77.7795,17.9959;JM-11;St. Elizabeth;Fullerswood Park
+0;-77.7985,18.0000;JM-11;St. Elizabeth;Fullerswood
+0;-76.5508,18.1427;JM-07;Portland Parish;Fruitful Vale
+0;-76.8865,18.3667;JM-13;Saint Mary Parish;Frontier
+993;-78.1547,18.2941;JM-16;Westmoreland;Frome
+0;-76.3465,18.0702;JM-07;Portland Parish;Friendship Valley
+0;-78.0188,18.4391;JM-02;Hanover;Friendship
+0;-78.2255,18.3944;JM-02;Hanover;Friendship
+0;-77.0795,18.3382;JM-09;Saint Ann Parish;Friendship
+0;-76.8552,18.3199;JM-13;Saint Mary Parish;Friendship
+0;-78.0870,18.3054;JM-16;Westmoreland;Friendship
+0;-77.1550,18.2788;JM-09;Saint Ann Parish;Friendship
+0;-76.6394,18.1806;JM-07;Portland Parish;Friendship
+0;-77.2772,18.1282;JM-01;Clarendon;Friendship
+0;-76.8060,18.0980;JM-08;Saint Andrew Parish;Mount Friendship
+0;-76.9961,18.0123;JM-10;Saint Catherine Parish;Frasers Content
+0;-77.6461,18.0060;JM-11;St. Elizabeth;Friendship
+0;-76.4231,17.8800;JM-14;Saint Thomas Parish;Friendship Pen
+0;-77.5513,17.9811;JM-04;Manchester;French Park
+0;-77.0193,18.0095;JM-10;Saint Catherine Parish;Frenchmans Hill
+0;-77.8079,18.0707;JM-11;St. Elizabeth;Frenchman
+0;-77.2912,18.3283;JM-09;Saint Ann Parish;French Land
+0;-77.1470,17.9186;JM-01;Clarendon;Freetown
+0;-77.2085,17.9304;JM-01;Clarendon;Savannah Cross
+0;-76.9323,18.3574;JM-13;Saint Mary Parish;Free Hill
+0;-77.3869,18.3950;JM-09;Saint Ann Parish;Freefield
+0;-76.7000,18.2000;JM-07;Portland Parish;Free Field
+0;-77.3664,18.1466;JM-01;Clarendon;Frankfield
+0;-77.2479,18.0612;JM-01;Clarendon;Four Paths
+0;-77.2917,17.9695;JM-01;Clarendon;Four Paths
+0;-76.3780,18.0145;JM-14;Saint Thomas Parish;Four Feet
+0;-78.0671,18.2978;JM-16;Westmoreland;Fort William
+0;-76.7428,18.2382;JM-13;Saint Mary Parish;Fort Stewart
+0;-76.7731,18.2401;JM-13;Saint Mary Parish;Fort George
+0;-77.2241,18.1885;JM-01;Clarendon;Fort George
+0;-76.8118,18.0801;JM-08;Saint Andrew Parish;Fort George
+0;-77.7808,17.9250;JM-11;St. Elizabeth;Fort Charles
+0;-77.9333,18.2950;JM-16;Westmoreland;Fornbrook
+0;-77.2289,18.3849;JM-09;Saint Ann Parish;Forest
+0;-77.7000,18.2500;JM-15;Trelawny Parish;Foremost
+0;-77.9423,18.0504;JM-11;St. Elizabeth;Font Hill
+0;-76.5102,17.9427;JM-14;Saint Thomas Parish;Font Hill
+0;-77.6565,18.3936;JM-15;Trelawny Parish;Fontabelle
+0;-76.9480,18.3623;JM-13;Saint Mary Parish;Fontabelle
+0;-78.1480,18.2850;JM-16;Westmoreland;Fontabelle
+0;-77.4126,18.4563;JM-09;Saint Ann Parish;Old Folly
+0;-77.3667,18.0167;JM-01;Clarendon;Folly
+0;-77.8516,18.4917;JM-12;Saint James Parish;Flower Hill
+0;-77.6183,18.4889;JM-15;Trelawny Parish;Florida
+0;-77.6287,18.4721;JM-15;Trelawny Parish;Florence Hall
+0;-78.0544,18.4477;JM-02;Hanover;Flint River
+0;-77.8167,18.3167;JM-12;Saint James Parish;Flamstead Mountain
+0;-76.6857,18.0168;JM-08;Saint Andrew Parish;Flamstead
+0;-77.7773,18.3418;JM-12;Saint James Parish;Flagstaff
+0;-78.3000,18.3333;JM-02;Hanover;Fish River
+0;-77.0609,18.1257;JM-10;Saint Catherine Parish;Fiddle Hall
+0;-78.0714,18.2279;JM-16;Westmoreland;Ferris Cross
+0;-76.9901,18.3723;JM-13;Saint Mary Parish;Fellowship Hall
+0;-77.0730,18.1125;JM-10;Saint Catherine Parish;Fellowship Hall
+0;-76.8020,18.1150;JM-08;Saint Andrew Parish;Fellowship Hall
+0;-76.9680,17.9580;JM-10;Saint Catherine Parish;Fellowship Hall
+0;-76.4546,18.1393;JM-07;Portland Parish;Fellowship
+0;-77.6232,17.9979;JM-11;St. Elizabeth;Friendship - part of
+0;-76.6333,18.0333;JM-14;Saint Thomas Parish;Farm Hill
+7779;-77.6559,18.4936;JM-15;Trelawny Parish;Falmouth
+0;-77.0569,18.1558;JM-10;Saint Catherine Parish;Falkland Pen
+0;-76.6124,18.1540;JM-07;Portland Parish;Fairy Hill
+0;-76.3805,18.1658;JM-07;Portland Parish;Fairy Hill
+0;-76.3232,18.1138;JM-07;Portland Parish;Fair Prospect
+0;-77.9111,18.4519;JM-12;Saint James Parish;Fairfield
+0;-76.6969,18.1703;JM-07;Portland Parish;Fairfield
+0;-77.1075,18.0961;JM-10;Saint Catherine Parish;Fairfield
+0;-77.5708,18.0215;JM-04;Manchester;Fairfield
+0;-76.2715,17.8915;JM-14;Saint Thomas Parish;Fairfield
+0;-77.3568,18.1846;JM-01;Clarendon;Fairburn
+0;-77.3020,17.8350;JM-01;Clarendon;Olive Park
+0;-77.0651,18.4062;JM-09;Saint Ann Parish;Exchange
+12797;-77.0854,18.1833;JM-10;Saint Catherine Parish;Ewarton
+0;-76.8634,18.0986;JM-08;Saint Andrew Parish;Everton Park
+0;-77.6130,18.1675;JM-04;Manchester;Evergreen
+0;-77.5667,18.4500;JM-15;Trelawny Parish;Etingdon
+0;-77.3620,18.2839;JM-09;Saint Ann Parish;Essling
+0;-76.9186,18.2356;JM-13;Saint Mary Parish;Essex
+0;-78.1972,18.4539;JM-02;Hanover;Esher
+0;-76.8618,18.2878;JM-13;Saint Mary Parish;Esher
+0;-77.1400,18.3716;JM-09;Saint Ann Parish;Epworth
+0;-76.7263,18.2491;JM-13;Saint Mary Parish;Epsom
+0;-77.0227,17.9819;JM-10;Saint Catherine Parish;Envy Valley
+0;-76.9578,18.0092;JM-10;Saint Catherine Parish;Ensom Pen
+0;-77.3863,18.3899;JM-09;Saint Ann Parish;Enfield
+0;-77.9595,18.2155;JM-16;Westmoreland;Enfield
+0;-76.7320,18.2051;JM-13;Saint Mary Parish;Enfield
+0;-77.0263,18.1982;JM-10;Saint Catherine Parish;Enfield
+0;-76.7145,18.0390;JM-08;Saint Andrew Parish;Enfield
+0;-77.4735,17.9540;JM-04;Manchester;Enfield
+0;-77.0471,18.3628;JM-13;Saint Mary Parish;Endeavour
+0;-77.4271,18.3599;JM-09;Saint Ann Parish;Endeavour
+0;-77.3435,18.3352;JM-09;Saint Ann Parish;Endeavour
+0;-77.0442,18.0193;JM-10;Saint Catherine Parish;Emilie
+0;-77.9140,18.4051;JM-12;Saint James Parish;Elysium
+0;-77.4575,17.9683;JM-04;Manchester;Ellen Street
+0;-77.6812,18.1225;JM-11;St. Elizabeth;Elim
+0;-78.1521,18.4453;JM-02;Hanover;Elgin Town
+0;-77.0173,18.3038;JM-13;Saint Mary Parish;Elgin Town
+0;-76.6436,17.9335;JM-14;Saint Thomas Parish;Eleven Miles
+0;-77.7981,18.2302;JM-11;St. Elizabeth;Eldersley
+0;-76.8500,18.2833;JM-13;Saint Mary Parish;Egypt
+0;-77.5833,18.0167;JM-04;Manchester;Eglington
+0;-77.3845,18.1280;JM-01;Clarendon;Effort
+0;-76.9243,18.1218;JM-10;Saint Catherine Parish;Edward Piece
+0;-76.5833,17.9000;JM-14;Saint Thomas Parish;Edinburgh Castle
+0;-76.9351,18.3808;JM-13;Saint Mary Parish;Eden Hill
+0;-77.9667,18.4000;JM-12;Saint James Parish;Eden
+0;-76.9335,18.3958;JM-13;Saint Mary Parish;Eden
+0;-77.3266,18.0497;JM-01;Clarendon;Eden Mocho
+0;-77.0076,18.0398;JM-10;Saint Catherine Parish;Edbury
+0;-76.3361,18.0584;JM-07;Portland Parish;Ecclesdown
+0;-77.0263,17.9714;JM-10;Saint Catherine Parish;Ebony Park
+0;-78.1574,18.4125;JM-02;Hanover;Eaton
+2634;-76.5882,17.9240;JM-14;Saint Thomas Parish;Easington
+0;-76.5277,18.1334;JM-07;Portland Parish;Durham
+0;-76.8041,18.0260;JM-08;Saint Andrew Parish;Dunrobin Acres
+0;-77.2908,18.0090;JM-01;Clarendon;Dunkleys Pen
+0;-77.2667,17.9000;JM-01;Clarendon;Dunkleys
+0;-77.5063,18.1014;JM-04;Manchester;Dunkeld
+0;-77.7333,18.4500;JM-15;Trelawny Parish;Dundee
+5153;-77.5363,18.4680;JM-15;Trelawny Parish;Duncans
+0;-76.6142,18.1604;JM-07;Portland Parish;Dunbar
+0;-76.5537,18.1249;JM-07;Portland Parish;Dunbar
+0;-77.5023,18.2000;JM-04;Manchester;Dump
+0;-77.5667,17.8833;JM-04;Manchester;Duff House
+0;-76.2605,17.9209;JM-14;Saint Thomas Parish;Duckenfield Hall
+0;-77.5903,18.4047;JM-15;Trelawny Parish;Duanvale
+0;-77.2584,17.8786;JM-01;Clarendon;Dry River
+0;-77.3687,18.4605;JM-09;Saint Ann Parish;Dry Harbour Cave
+0;-77.6907,17.8725;JM-11;St. Elizabeth;Drummonds Run
+0;-77.7202,18.3767;JM-15;Trelawny Parish;Dromilly
+0;-76.9784,18.3342;JM-13;Saint Mary Parish;Dressikie
+0;-76.4095,18.1752;JM-07;Portland Parish;Drapers
+0;-77.5679,17.9486;JM-04;Manchester;Downs
+0;-76.7050,18.2605;JM-13;Saint Mary Parish;Dover
+0;-77.0739,18.0079;JM-10;Saint Catherine Parish;Dover
+0;-76.9515,18.1124;JM-10;Saint Catherine Parish;Dove Hall
+0;-77.0050,18.0013;JM-10;Saint Catherine Parish;Dovecot Park
+0;-77.4049,18.2791;JM-09;Saint Ann Parish;Dorothy Pen
+0;-77.3130,18.2906;JM-09;Saint Ann Parish;Down Lodge
+0;-77.8878,18.1742;JM-11;St. Elizabeth;Donegal
+0;-77.4082,18.3360;JM-09;Saint Ann Parish;Doncaster
+0;-77.9291,18.4828;JM-12;Saint James Parish;Doctors Cave
+8257;-77.4000,18.4587;JM-09;Saint Ann Parish;Discovery Bay
+0;-78.1962,18.3975;JM-02;Hanover;Dias
+0;-77.2069,18.0831;JM-01;Clarendon;Diamond
+0;-76.8614,18.0663;JM-08;Saint Andrew Parish;Diamond
+0;-77.3751,18.3510;JM-09;Saint Ann Parish;Devon
+0;-77.5284,18.1701;JM-04;Manchester;Devon
+0;-77.2672,17.9710;JM-01;Clarendon;Denbigh
+0;-77.7443,18.3916;JM-15;Trelawny Parish;Deeside
+0;-77.3500,17.8833;JM-01;Clarendon;Dee Side
+0;-76.9967,18.2577;JM-13;Saint Mary Parish;Decoy Pen
+0;-76.9796,18.2800;JM-13;Saint Mary Parish;Decoy Estate
+0;-77.3594,17.9621;JM-01;Clarendon;Decoy
+0;-77.3000,18.0500;JM-01;Clarendon;Dawkins Smokey Hole
+0;-77.4600,18.0942;JM-04;Manchester;Davyton
+0;-77.1658,18.3851;JM-09;Saint Ann Parish;Davis Town
+2076;-77.9763,18.2373;JM-16;Westmoreland;Darliston
+0;-77.4030,18.3438;JM-09;Saint Ann Parish;Darlington
+0;-76.5070,18.1606;JM-07;Portland Parish;Darley
+0;-76.9516,18.2231;JM-10;Saint Catherine Parish;Dalvey
+3037;-76.2486,17.9118;JM-14;Saint Thomas Parish;Dalvey
+0;-77.9220,18.0609;JM-11;St. Elizabeth;Dallingtober
+0;-76.7050,17.9985;JM-08;Saint Andrew Parish;Dallas Castle
+0;-77.3834,18.3448;JM-09;Saint Ann Parish;Cyprus
+0;-76.8766,18.0589;JM-08;Saint Andrew Parish;Cypress Hall
+0;-76.8783,18.2919;JM-13;Saint Mary Parish;Cum See
+0;-77.4309,18.1122;JM-01;Clarendon;Cumberland
+0;-77.9722,18.1030;JM-16;Westmoreland;Culloden
+0;-76.5206,18.1833;JM-07;Portland Parish;Panton
+0;-77.0744,18.0613;JM-10;Saint Catherine Parish;Cudjoe Hill
+0;-77.8837,18.1403;JM-11;St. Elizabeth;Croyden
+0;-77.1910,17.9612;JM-01;Clarendon;Cross Pen
+0;-77.5036,17.9013;JM-04;Manchester;Cross Keys
+0;-78.3017,18.2307;JM-16;Westmoreland;Crosbie
+0;-77.3112,18.1326;JM-01;Clarendon;Crooked River
+0;-77.2077,18.1330;JM-01;Clarendon;Crofts Hill
+0;-77.1439,18.3192;JM-09;Saint Ann Parish;Crescent Park
+0;-76.9830,18.0441;JM-10;Saint Catherine Parish;Crescent
+0;-76.4892,17.8884;JM-14;Saint Thomas Parish;Creighton Hall
+0;-76.9318,18.3096;JM-13;Saint Mary Parish;Crawle
+0;-77.1611,18.0095;JM-10;Saint Catherine Parish;Crawle Pen
+0;-77.9111,18.0417;JM-11;St. Elizabeth;Crawford
+0;-76.7209,18.0560;JM-08;Saint Andrew Parish;Craigton
+0;-76.6836,18.2215;JM-07;Portland Parish;Craig Mill
+0;-77.5568,18.2388;JM-04;Manchester;Craig Head
+0;-77.6303,18.3848;JM-15;Trelawny Parish;Coxheath
+0;-77.1133,18.0767;JM-10;Saint Catherine Parish;Cowans
+0;-78.0667,18.4167;JM-02;Hanover;Coventry Pen
+0;-78.2399,18.4268;JM-02;Hanover;Cousins Cove
+0;-77.1830,18.3230;JM-09;Saint Ann Parish;Coultart Grove
+0;-77.9131,18.0893;JM-11;St. Elizabeth;Cotterwood
+0;-77.9377,18.1729;JM-16;Westmoreland;Cottage
+0;-76.7296,18.2548;JM-13;Saint Mary Parish;Cottage
+0;-77.2333,17.8167;JM-01;Clarendon;Cottage
+0;-77.0210,18.2347;JM-10;Saint Catherine Parish;Cotswold Hill
+0;-76.9357,18.0655;JM-10;Saint Catherine Parish;Corrovants Grove
+0;-77.6333,18.4500;JM-15;Trelawny Parish;Cornwood
+0;-76.4204,18.0643;JM-07;Portland Parish;Cornwall Barracks
+0;-77.3824,18.1235;JM-01;Clarendon;Corn Hill
+0;-77.6642,17.9031;JM-11;St. Elizabeth;Corby
+0;-77.9686,18.3764;JM-02;Hanover;Copse
+0;-77.1230,18.1071;JM-10;Saint Catherine Parish;Cool Spring
+0;-77.2878,17.9495;JM-01;Clarendon;Content Village
+0;-77.4000,18.4276;JM-09;Saint Ann Parish;Content
+0;-77.0422,18.3611;JM-13;Saint Mary Parish;Content
+0;-78.0009,18.3788;JM-02;Hanover;Content
+0;-77.2532,18.3839;JM-09;Saint Ann Parish;Content
+0;-76.8848,18.2671;JM-13;Saint Mary Parish;Content
+0;-77.9993,18.1803;JM-16;Westmoreland;Content
+0;-77.9128,18.1014;JM-11;St. Elizabeth;Content
+0;-76.6852,18.0480;JM-08;Saint Andrew Parish;Content Gap
+0;-77.1602,18.0226;JM-10;Saint Catherine Parish;Bois Content
+0;-77.0734,18.0218;JM-10;Saint Catherine Parish;Lloyds Content
+0;-76.7113,18.0141;JM-08;Saint Andrew Parish;Constitution Hill
+12830;-76.7937,18.0508;JM-08;Saint Andrew Parish;Constant Spring
+0;-77.1648,18.0709;JM-10;Saint Catherine Parish;Connors
+0;-76.9133,17.9493;JM-10;Saint Catherine Parish;Congreve Park
+0;-77.2193,18.2155;JM-09;Saint Ann Parish;Concord
+0;-76.3391,18.1237;JM-07;Portland Parish;Commodore
+0;-77.5852,17.9105;JM-11;St. Elizabeth;Comma Pen
+0;-78.0333,18.4333;JM-02;Hanover;Commadore
+0;-77.3263,17.9480;JM-01;Clarendon;Comfort Village
+0;-77.6029,18.1818;JM-04;Manchester;Comfort Hall
+0;-76.4142,18.0544;JM-07;Portland Parish;Comfort Castle
+0;-77.9179,18.4141;JM-12;Saint James Parish;Comfort
+0;-77.2675,18.1430;JM-01;Clarendon;Colonels Ridge
+3860;-77.5075,18.2078;JM-04;Manchester;Coleyville
+0;-76.5000,17.9500;JM-14;Saint Thomas Parish;Coley
+0;-76.9019,18.1961;JM-13;Saint Mary Parish;Cold Spring
+0;-77.1346,17.9624;JM-10;Saint Catherine Parish;Colbeck
+0;-76.8481,18.2506;JM-13;Saint Mary Parish;Coffee Piece
+0;-77.4680,17.9595;JM-04;Manchester;Coffee Grove
+0;-77.1778,18.1823;JM-10;Saint Catherine Parish;Coco Ree
+0;-77.2833,18.0667;JM-01;Clarendon;Cocoa Walk
+0;-76.6000,17.9501;JM-14;Saint Thomas Parish;Cocoa Walk
+0;-77.4981,17.8870;JM-04;Manchester;Cocoa Walk
+0;-77.2333,18.1333;JM-01;Clarendon;Cockshop
+0;-77.1482,17.8841;JM-01;Clarendon;Cockpit
+0;-77.4733,18.1436;JM-04;Manchester;Cobbla
+0;-77.2510,17.9500;JM-01;Clarendon;Coates Pen
+0;-77.3339,18.3000;JM-09;Saint Ann Parish;Clydesdale
+0;-76.6641,18.0794;JM-08;Saint Andrew Parish;Clydesdale
+0;-77.1500,18.2167;JM-09;Saint Ann Parish;Clover Hill
+0;-76.8541,18.2455;JM-13;Saint Mary Parish;Clonmel
+0;-77.6442,18.4716;JM-15;Trelawny Parish;Clifton
+0;-77.0570,18.3833;JM-09;Saint Ann Parish;Clifton
+0;-78.1331,18.3109;JM-16;Westmoreland;Clifton
+0;-77.9890,18.2442;JM-16;Westmoreland;Clifton
+0;-76.3167,17.9000;JM-14;Saint Thomas Parish;Clifton
+0;-77.1892,17.9590;JM-01;Clarendon;Cliffords Rest
+0;-76.8644,18.2592;JM-13;Saint Mary Parish;Clermont
+2606;-77.5463,18.4182;JM-15;Trelawny Parish;Clarks Town
+0;-77.5097,18.0616;JM-04;Manchester;Clarks Town
+0;-77.3626,18.2412;JM-09;Saint Ann Parish;Clarksonville
+0;-77.3716,17.9935;JM-01;Clarendon;Clarendon Park
+0;-77.7337,17.9206;JM-11;St. Elizabeth;Claremont Park
+0;-77.1736,18.3312;JM-09;Saint Ann Parish;Claremont
+0;-77.1167,17.9500;JM-10;Saint Catherine Parish;Claremont
+0;-77.8167,18.5167;JM-12;Saint James Parish;Cinnamon Hill
+0;-77.5025,18.1494;JM-04;Manchester;Chudleigh
+0;-76.5378,18.1534;JM-07;Portland Parish;Christianfield Village
+0;-77.4912,18.1736;JM-04;Manchester;Christiana
+0;-76.8095,18.2498;JM-13;Saint Mary Parish;Chovey
+0;-76.5560,18.1314;JM-07;Portland Parish;Chipps Hall
+0;-77.9618,18.2312;JM-16;Westmoreland;Chilton
+0;-78.0385,18.4010;JM-02;Hanover;Chigwell
+0;-76.6778,18.0743;JM-08;Saint Andrew Parish;Chestervale
+0;-77.2167,18.3833;JM-09;Saint Ann Parish;Chesterfield
+0;-76.6333,18.0333;JM-14;Saint Thomas Parish;Chesterfield
+0;-77.2506,17.8111;JM-01;Clarendon;Chesterfield
+0;-77.6167,18.4176;JM-15;Trelawny Parish;Chester
+0;-76.7776,18.0458;JM-08;Saint Andrew Parish;Cherry Gardens
+0;-77.0514,17.9339;JM-10;Saint Catherine Parish;Cherry Garden
+0;-77.0406,18.4026;JM-13;Saint Mary Parish;Cherryfield
+0;-76.6282,18.1744;JM-07;Portland Parish;Chepstowe
+0;-76.5791,18.1492;JM-07;Portland Parish;Chelsea
+0;-77.6924,17.9341;JM-11;St. Elizabeth;Chelsea
+0;-77.0152,18.1856;JM-10;Saint Catherine Parish;Cheesefield
+0;-76.9988,17.9748;JM-10;Saint Catherine Parish;Chedwin Gardens
+0;-77.6050,17.9250;JM-11;St. Elizabeth;Cheapside
+0;-77.4372,17.9300;JM-04;Manchester;Cheapside
+0;-77.0305,18.3972;JM-13;Saint Mary Parish;Chatsworth
+0;-76.5373,18.1478;JM-07;Portland Parish;Chatsworth
+0;-77.9190,18.4926;JM-12;Saint James Parish;Chatham
+0;-77.7607,18.4675;JM-12;Saint James Parish;Chatham
+0;-77.2000,17.9770;JM-01;Clarendon;Chateau
+0;-77.3540,18.3080;JM-09;Saint Ann Parish;Charlton
+0;-77.0915,18.1700;JM-10;Saint Catherine Parish;Charlton
+0;-76.8777,18.2500;JM-13;Saint Mary Parish;Charlottenburgh
+0;-76.6713,18.2121;JM-07;Portland Parish;Charles Town
+0;-77.0667,18.1833;JM-10;Saint Catherine Parish;Charlemont
+4514;-77.2667,18.0833;JM-01;Clarendon;Chapelton
+0;-77.4675,18.1064;JM-04;Manchester;Chantilly
+0;-76.9494,18.2691;JM-13;Saint Mary Parish;Change Hill
+0;-77.1968,17.9860;JM-01;Clarendon;Chandlers Pen
+0;-77.1630,18.4002;JM-09;Saint Ann Parish;Chalky Hill
+0;-76.9168,18.0011;JM-10;Saint Catherine Parish;Central Village
+0;-77.2537,18.3021;JM-09;Saint Ann Parish;Cedar Valley
+0;-76.9820,18.2070;JM-10;Saint Catherine Parish;Cedar Valley
+0;-76.7106,18.1085;JM-07;Portland Parish;Cedar Valley
+0;-76.9424,18.0813;JM-10;Saint Catherine Parish;Cedar Valley
+0;-76.8676,18.0563;JM-08;Saint Andrew Parish;Cedar Valley
+0;-76.5851,17.9920;JM-14;Saint Thomas Parish;Cedar Valley
+0;-76.9000,18.0167;JM-10;Saint Catherine Parish;Caymanas Estate
+0;-78.2731,18.3280;JM-02;Hanover;Cave Valley
+0;-77.3655,18.2241;JM-09;Saint Ann Parish;Cave Valley
+0;-77.3739,18.4620;JM-09;Saint Ann Parish;Cave Hill
+0;-76.8424,18.0962;JM-08;Saint Andrew Parish;Cavaliers
+0;-78.2409,18.3900;JM-02;Hanover;Cauldwell
+0;-77.8746,18.2838;JM-12;Saint James Parish;Catadupa
+0;-77.8135,18.0413;JM-11;St. Elizabeth;Cataboo
+0;-77.2667,17.8500;JM-01;Clarendon;Caswell Hill
+0;-76.8258,18.1750;JM-13;Saint Mary Parish;Castleton
+0;-76.7223,18.0926;JM-07;Portland Parish;Castle Dawson
+0;-76.3500,18.1333;JM-07;Portland Parish;Castle Comfort
+0;-76.8073,18.0196;JM-08;Saint Andrew Parish;Cassia Park
+0;-76.8707,18.1394;JM-10;Saint Catherine Parish;Cassava
+0;-77.7665,18.0680;JM-11;St. Elizabeth;Cashoo
+1232;-78.1034,18.3975;JM-02;Hanover;Cascade
+0;-77.4583,18.2195;JM-09;Saint Ann Parish;Cascade
+0;-76.7100,18.0950;JM-07;Portland Parish;Cascade
+0;-77.1861,18.3565;JM-09;Saint Ann Parish;Carton
+0;-77.9000,18.4500;JM-12;Saint James Parish;Carthagena
+0;-76.3833,17.9167;JM-14;Saint Thomas Parish;Carry Hall
+0;-76.9450,18.2746;JM-13;Saint Mary Parish;Carron Hall
+0;-77.7726,18.4830;JM-12;Saint James Parish;Carlton
+0;-76.9570,17.9809;JM-10;Saint Catherine Parish;Corletts Pen
+0;-77.7692,18.1479;JM-11;St. Elizabeth;Carisbrook
+0;-77.9333,18.3833;JM-12;Saint James Parish;Carey Town
+0;-77.5593,18.4743;JM-15;Trelawny Parish;Carey Park
+0;-78.0829,18.2572;JM-16;Westmoreland;Carawina
+0;-76.5775,18.1958;JM-07;Portland Parish;Caenwood
+0;-76.6913,17.9453;JM-08;Saint Andrew Parish;Cane River
+0;-78.2149,18.2986;JM-16;Westmoreland;Camp Savanna
+0;-77.1584,18.2228;JM-09;Saint Ann Parish;Camperdown
+0;-77.4380,17.9630;JM-04;Manchester;Campbell Castle
+0;-77.2733,18.4273;JM-09;Saint Ann Parish;Cranbrook
+0;-77.6000,18.4333;JM-15;Trelawny Parish;Cambridge
+3119;-77.9025,18.3133;JM-12;Saint James Parish;Cambridge
+0;-76.4094,18.1498;JM-07;Portland Parish;Cambridge
+0;-77.0343,18.1289;JM-10;Saint Catherine Parish;Cambrian
+0;-76.7910,18.2268;JM-13;Saint Mary Parish;Camberwell
+0;-78.2859,18.3461;JM-02;Hanover;Cambelton
+0;-77.5620,18.0208;JM-04;Manchester;California
+0;-78.0484,18.3783;JM-02;Hanover;Caledonia
+0;-77.8760,18.3878;JM-12;Saint James Parish;Caledonia
+0;-77.4288,18.3148;JM-09;Saint Ann Parish;Caledonia
+0;-78.0144,18.2492;JM-16;Westmoreland;Caledonia
+0;-77.3000,18.2833;JM-09;Saint Ann Parish;Calderwood
+0;-77.3269,18.2878;JM-09;Saint Ann Parish;Cairnie
+0;-78.0124,18.2321;JM-16;Westmoreland;Cairn Curran
+0;-78.0148,18.4030;JM-02;Hanover;Cacoon Castle
+0;-78.1979,18.4111;JM-02;Hanover;Cacoon
+0;-77.0231,18.1566;JM-10;Saint Catherine Parish;Byndloss
+0;-76.6586,18.1802;JM-07;Portland Parish;Bybrook
+0;-77.6747,18.0643;JM-11;St. Elizabeth;Bybrook
+0;-77.0736,18.1229;JM-10;Saint Catherine Parish;Buxton Town
+0;-78.1025,18.3735;JM-02;Hanover;Buxton
+0;-77.2487,17.9827;JM-01;Clarendon;Bushy Park
+0;-77.0693,17.9322;JM-10;Saint Catherine Parish;Bushy Park
+0;-77.3072,18.3911;JM-09;Saint Ann Parish;Butts Run
+0;-76.5387,18.1263;JM-07;Portland Parish;Brunton Hall
+0;-77.7621,18.0510;JM-11;St. Elizabeth;Burnt Savannah
+0;-77.5500,18.3000;JM-15;Trelawny Parish;Burnt Hill
+0;-77.7066,18.0340;JM-11;St. Elizabeth;Burnt Ground
+0;-76.5036,18.2012;JM-07;Portland Parish;Burlington
+0;-76.6500,17.9333;JM-14;Saint Thomas Parish;Burge
+0;-77.6956,18.3930;JM-15;Trelawny Parish;Bunkers Hill
+6962;-77.5902,17.8868;JM-11;St. Elizabeth;Bull Savannah
+0;-76.9458,18.0167;JM-10;Saint Catherine Parish;Bull Pen
+0;-76.6633,17.9408;JM-08;Saint Andrew Parish;Bull Bay
+0;-77.2833,17.9440;JM-01;Clarendon;Bullards Content
+2757;-76.6612,18.2329;JM-07;Portland Parish;Buff Bay
+0;-77.5067,18.2043;JM-04;Manchester;Buck-up
+0;-76.5069,17.9350;JM-14;Saint Thomas Parish;Buckingham
+0;-77.1003,18.4067;JM-09;Saint Ann Parish;Buckfield
+0;-77.2333,17.9667;JM-01;Clarendon;Bryans Pen
+0;-77.3000,18.1340;JM-01;Clarendon;Bryans Hill
+0;-76.4714,18.1910;JM-07;Portland Parish;Bryans Bay
+0;-77.4788,18.4416;JM-15;Trelawny Parish;Bryan Castle
+0;-77.4685,18.4316;JM-15;Trelawny Parish;Brampton Bryan
+0;-77.1775,18.3203;JM-09;Saint Ann Parish;Brunswick
+0;-77.7710,17.9790;JM-11;St. Elizabeth;Brucefield
+0;-77.2003,18.2751;JM-09;Saint Ann Parish;Browns Valley
+0;-77.7660,17.9777;JM-11;St. Elizabeth;Brown Berry
+0;-77.3668,18.3925;JM-09;Saint Ann Parish;Browns Town
+0;-77.0913,18.0697;JM-10;Saint Catherine Parish;Browns Town
+0;-77.1215,18.0594;JM-10;Saint Catherine Parish;Browns Hall
+0;-76.7333,18.2333;JM-13;Saint Mary Parish;Brown Hill Village
+0;-76.9204,18.3829;JM-13;Saint Mary Parish;Brooklyn
+0;-77.9400,18.1423;JM-16;Westmoreland;Bronte
+0;-77.8849,18.0675;JM-11;St. Elizabeth;Brompton
+0;-77.0884,18.3220;JM-09;Saint Ann Parish;Bromley
+0;-77.4624,17.9859;JM-04;Manchester;Brokenhurst
+0;-77.1667,18.3287;JM-09;Saint Ann Parish;Broadstreet
+0;-76.8152,18.2297;JM-13;Saint Mary Parish;Broadgate
+0;-77.3213,18.0211;JM-01;Clarendon;Brixton Hill
+0;-77.2090,18.3629;JM-09;Saint Ann Parish;Brittonville
+0;-77.2010,18.1079;JM-01;Clarendon;Morant Town
+0;-77.5147,18.3036;JM-15;Trelawny Parish;Bristol
+0;-77.2500,18.3000;JM-09;Saint Ann Parish;Brissett Run
+0;-77.6129,17.9370;JM-11;St. Elizabeth;Brinkley
+0;-76.9185,18.3439;JM-13;Saint Mary Parish;Brimmer Hall
+0;-78.0171,18.1572;JM-16;Westmoreland;Brighton
+0;-77.8730,18.1500;JM-11;St. Elizabeth;Brighton
+0;-77.5921,17.9262;JM-11;St. Elizabeth;Bridge Pen
+0;-76.9471,18.0069;JM-10;Saint Catherine Parish;Bretts Pen
+0;-77.1439,18.3760;JM-09;Saint Ann Parish;Breezy Hill
+0;-76.4476,18.1633;JM-07;Portland Parish;Breastworks
+0;-77.0871,18.3844;JM-09;Saint Ann Parish;Breadnut Hill
+0;-77.1791,17.9620;JM-01;Clarendon;Breadnut Bottom
+0;-76.5313,18.1645;JM-07;Portland Parish;Rock Hall
+0;-77.1667,17.8333;JM-01;Clarendon;Brazilletos
+0;-77.2506,18.1583;JM-01;Clarendon;Brandon Hill
+0;-76.8134,18.1497;JM-08;Saint Andrew Parish;Brandon Hill
+0;-76.8956,18.1963;JM-13;Saint Mary Parish;Brainerd
+0;-76.9053,17.9498;JM-10;Saint Catherine Parish;Braeton
+0;-77.6505,18.0802;JM-11;St. Elizabeth;Braes River
+0;-76.9360,18.2653;JM-13;Saint Mary Parish;Brae Head
+0;-77.4940,18.4715;JM-15;Trelawny Parish;Braco
+0;-76.9336,18.3193;JM-13;Saint Mary Parish;Boyne Park
+0;-76.2833,17.9000;JM-14;Saint Thomas Parish;Boxford Lodge
+0;-78.1864,18.4043;JM-02;Hanover;Bowers Hall
+0;-77.2541,17.8994;JM-01;Clarendon;Bowens Hall
+0;-76.3135,17.8874;JM-14;Saint Thomas Parish;Bowden
+0;-77.7128,18.4497;JM-15;Trelawny Parish;Bounty Hall
+0;-76.3564,18.1583;JM-07;Portland Parish;Boston
+0;-77.4321,17.9031;JM-04;Manchester;Bassue
+0;-76.9749,18.4009;JM-13;Saint Mary Parish;Boscobel
+0;-77.4265,18.1997;JM-09;Saint Ann Parish;Borobridge
+0;-76.8644,18.1597;JM-13;Saint Mary Parish;Border
+0;-77.6429,18.2616;JM-15;Trelawny Parish;Booth
+0;-76.9495,18.3248;JM-13;Saint Mary Parish;Bonny Gate
+0;-77.0271,18.2221;JM-10;Saint Catherine Parish;Bonnett
+0;-77.9200,18.4058;JM-12;Saint James Parish;Buena Vista
+0;-77.1266,18.3352;JM-09;Saint Ann Parish;Bolton Park
+0;-77.4833,18.2167;JM-09;Saint Ann Parish;Bohemia
+12873;-77.0054,18.1020;JM-10;Saint Catherine Parish;Bog Walk
+0;-77.2333,17.8833;JM-01;Clarendon;Bog Plain
+0;-77.1333,18.4000;JM-09;Saint Ann Parish;Bog
+0;-77.9436,18.1540;JM-16;Westmoreland;Bog
+0;-77.2384,17.8267;JM-01;Clarendon;Bog
+0;-77.1423,17.9365;JM-10;Saint Catherine Parish;Bodles Pen
+0;-76.8748,18.0214;JM-10;Saint Catherine Parish;Bocca Pen
+0;-77.7570,17.8920;JM-11;St. Elizabeth;Bluntas
+0;-77.1268,18.1910;JM-10;Saint Catherine Parish;Blue Mountain
+0;-77.4364,18.0648;JM-04;Manchester;Blue Mountain
+0;-77.8405,18.4874;JM-12;Saint James Parish;Blue Hole
+0;-78.0879,18.4489;JM-02;Hanover;Blue Hole
+0;-78.0260,18.1505;JM-16;Westmoreland;Belmont
+0;-77.3400,18.3762;JM-09;Saint Ann Parish;Bluefields
+2828;-78.0270,18.1660;JM-16;Westmoreland;Bluefields
+0;-78.1188,18.2765;JM-16;Westmoreland;Blue Castle
+0;-76.6565,17.9876;JM-08;Saint Andrew Parish;Bloxburgh
+0;-76.5870,18.1552;JM-07;Portland Parish;Bloomfield
+0;-77.5268,18.0367;JM-04;Manchester;Bloomfield
+0;-77.5631,17.9449;JM-04;Manchester;Blakes Pen
+0;-77.0215,18.2597;JM-09;Saint Ann Parish;Blackstone Edge
+4229;-77.8487,18.0264;JM-11;St. Elizabeth;Black River
+0;-77.1377,18.3061;JM-09;Saint Ann Parish;Blackheath
+0;-78.1196,18.3057;JM-16;Westmoreland;Black Heath Estate
+0;-78.1574,18.2254;JM-16;Westmoreland;Big Bridge
+0;-77.7064,17.9550;JM-11;St. Elizabeth;Bideford
+0;-77.4697,18.4053;JM-15;Trelawny Parish;Biddiford
+0;-77.9131,18.3593;JM-12;Saint James Parish;Bickersteth
+0;-77.2910,18.4538;JM-09;Saint Ann Parish;Beverly
+0;-77.6153,18.1566;JM-04;Manchester;Beverly
+0;-76.2964,18.0495;JM-07;Portland Parish;Bettys Hope
+0;-77.6968,17.9654;JM-11;St. Elizabeth;Bethlehem
+0;-76.6167,17.9500;JM-14;Saint Thomas Parish;Bethezra
+2416;-77.9511,18.2950;JM-16;Westmoreland;Bethel Town
+0;-76.5862,17.9858;JM-14;Saint Thomas Parish;Bethel Gap
+0;-77.3646,18.3150;JM-09;Saint Ann Parish;Bethany
+0;-77.5361,18.1510;JM-04;Manchester;Bethany
+0;-76.9899,18.1401;JM-10;Saint Catherine Parish;Berwick
+0;-77.4852,18.0231;JM-04;Manchester;Berwick
+0;-76.9290,18.2878;JM-13;Saint Mary Parish;Berry Hill
+0;-77.3855,18.0168;JM-01;Clarendon;Berrydale
+0;-76.4781,18.1481;JM-07;Portland Parish;Berridale
+0;-76.9313,17.9781;JM-10;Saint Catherine Parish;Bernard Lodge
+0;-77.6601,17.9140;JM-11;St. Elizabeth;Berlin
+0;-77.0033,18.2089;JM-10;Saint Catherine Parish;Berkshire Hall
+0;-76.8906,18.0734;JM-10;Saint Catherine Parish;Berdoes
+0;-77.2137,18.2396;JM-09;Saint Ann Parish;Bensonton
+0;-77.3245,18.3000;JM-09;Saint Ann Parish;Bennetsfield
+0;-77.6844,18.2047;JM-11;St. Elizabeth;Benlomonds
+0;-77.4500,18.4700;JM-09;Saint Ann Parish;Bengal
+0;-76.8042,18.2641;JM-13;Saint Mary Parish;Bendish Rock
+0;-77.0110,18.2345;JM-10;Saint Catherine Parish;Ben Bow
+0;-77.9503,18.3369;JM-02;Hanover;Belvedere
+0;-76.7074,18.2138;JM-07;Portland Parish;Belvedere
+0;-76.8504,18.0521;JM-08;Saint Andrew Parish;Belvedere
+0;-76.4334,17.8755;JM-14;Saint Thomas Parish;Belvedere
+0;-76.8906,18.4035;JM-13;Saint Mary Parish;Bel Retiro
+0;-77.7167,18.2667;JM-15;Trelawny Parish;Belmore Castle
+0;-77.9000,18.4500;JM-12;Saint James Parish;Belmont
+0;-77.4500,18.3667;JM-15;Trelawny Parish;Belmont
+0;-77.1240,18.3272;JM-09;Saint Ann Parish;Belmont
+0;-77.0703,18.0346;JM-10;Saint Catherine Parish;Belmont
+0;-77.3380,18.0430;JM-01;Clarendon;Belmont
+0;-76.4500,17.9580;JM-14;Saint Thomas Parish;Belmare
+0;-77.1484,18.0647;JM-10;Saint Catherine Parish;Bellefield
+0;-77.0201,17.9976;JM-10;Saint Catherine Parish;Bellevue Heights
+0;-77.0630,18.3460;JM-09;Saint Ann Parish;Bellevue
+0;-77.4648,18.0115;JM-04;Manchester;Belretiro
+0;-77.3175,17.9757;JM-01;Clarendon;Belle Plain
+0;-77.4515,18.0812;JM-04;Manchester;Bellefield
+0;-76.2683,17.9995;JM-07;Portland Parish;Belle Castle
+0;-77.4523,18.1030;JM-04;Manchester;Belleair
+0;-77.1605,18.0459;JM-10;Saint Catherine Parish;Bellas Gate
+0;-76.2667,17.8833;JM-14;Saint Thomas Parish;Belford
+0;-76.8283,18.2630;JM-13;Saint Mary Parish;Belfield Works
+0;-76.8467,18.2609;JM-13;Saint Mary Parish;Belfield
+0;-76.4003,17.8837;JM-14;Saint Thomas Parish;Belfast
+0;-77.9748,18.1479;JM-16;Westmoreland;Beeston Spring
+0;-77.1154,18.3695;JM-09;Saint Ann Parish;Beecher Town
+0;-76.3629,17.8868;JM-14;Saint Thomas Parish;Beckford Town
+0;-77.3130,18.0833;JM-01;Clarendon;Beckford Kraal
+0;-76.9473,17.9953;JM-10;Saint Catherine Parish;Beacon Hill
+0;-76.3554,17.9619;JM-14;Saint Thomas Parish;Beacon Hill
+2382;-76.3492,17.9482;JM-14;Saint Thomas Parish;Bath
+0;-77.4815,18.2205;JM-09;Saint Ann Parish;Battersea
+0;-77.7330,18.1356;JM-11;St. Elizabeth;Bartons
+0;-77.1367,18.0367;JM-10;Saint Catherine Parish;Bartons
+0;-77.1634,18.3110;JM-09;Saint Ann Parish;Barrett Hall Village
+0;-77.4659,18.0262;JM-04;Manchester;Barossa
+0;-77.4782,18.4023;JM-15;Trelawny Parish;Barnstaple
+0;-77.9666,18.2721;JM-16;Westmoreland;Barneyside
+0;-76.2780,17.8977;JM-14;Saint Thomas Parish;Barking Lodge
+0;-76.4530,17.9470;JM-14;Saint Thomas Parish;Bariff Castle
+10337;-78.1014,18.4504;JM-02;Hanover;Barbican
+0;-77.7690,17.9618;JM-11;St. Elizabeth;Barbary Hall
+0;-77.0588,18.3959;JM-09;Saint Ann Parish;Bonham Spring
+0;-77.2370,18.4365;JM-09;Saint Ann Parish;New Banks
+0;-77.3061,17.8407;JM-01;Clarendon;Banks
+0;-76.6846,18.1661;JM-07;Portland Parish;Bangor Ridge
+0;-77.8660,18.3570;JM-12;Saint James Parish;Bandon
+0;-78.1143,18.2695;JM-16;Westmoreland;Banbury
+0;-77.0508,18.1417;JM-10;Saint Catherine Parish;Banbury
+0;-77.4232,18.0804;JM-04;Manchester;Banana Ground
+0;-78.0133,18.4465;JM-02;Hanover;Bamboo
+4264;-77.2643,18.3922;JM-09;Saint Ann Parish;Bamboo
+0;-77.5654,18.1709;JM-04;Manchester;Ballynure
+0;-77.1841,18.2144;JM-09;Saint Ann Parish;Ballimoney
+0;-77.3024,18.3070;JM-09;Saint Ann Parish;Ballintoy
+0;-76.8879,18.3219;JM-13;Saint Mary Parish;Ballards Valley
+0;-76.6989,18.1672;JM-07;Portland Parish;Balcarres
+0;-77.4313,18.1266;JM-01;Clarendon;Balcarres
+2862;-77.6437,18.1723;JM-11;St. Elizabeth;Balaclava
+0;-77.4350,18.1744;JM-01;Clarendon;Baillieston
+0;-76.5914,18.1671;JM-07;Portland Parish;Bagatelle
+0;-78.1910,18.4378;JM-02;Hanover;Bachelors Hall
+0;-77.0877,18.3080;JM-09;Saint Ann Parish;Bachelors Hall
+0;-76.3167,17.9531;JM-14;Saint Thomas Parish;Bachelors Hall
+0;-77.3220,17.8330;JM-01;Clarendon;Beachams
+0;-78.0374,18.3637;JM-02;Hanover;Axe and Adze
+0;-77.6239,18.2132;JM-04;Manchester;Auchtembeddie
+0;-77.9833,18.1167;JM-16;Westmoreland;Auchindown
+0;-78.1500,18.3846;JM-02;Hanover;Askenish
+0;-77.4299,17.9167;JM-04;Manchester;Asia
+0;-77.9320,18.2300;JM-16;Westmoreland;Ashton
+0;-77.8580,18.0480;JM-11;St. Elizabeth;Ashton
+0;-77.2653,18.0782;JM-01;Clarendon;Ashley
+0;-76.5920,18.1300;JM-07;Portland Parish;Arscott
+0;-77.1333,18.3833;JM-09;Saint Ann Parish;Arthurs Seat
+0;-77.2277,18.1371;JM-01;Clarendon;Arthurs Seat
+0;-77.2249,18.4063;JM-09;Saint Ann Parish;Arthurs Mount
+0;-76.6000,18.0167;JM-14;Saint Thomas Parish;Arntally
+0;-77.6525,18.1933;JM-11;St. Elizabeth;Armstrong
+0;-77.3502,18.2941;JM-09;Saint Ann Parish;Armadale
+0;-77.0898,18.2500;JM-09;Saint Ann Parish;Ardoch
+0;-76.7831,18.0370;JM-08;Saint Andrew Parish;Acadia
+0;-77.5072,18.4509;JM-15;Trelawny Parish;Arcadia
+0;-76.3035,17.9187;JM-14;Saint Thomas Parish;Arcadia
+0;-77.7259,18.1662;JM-11;St. Elizabeth;Appleton
+0;-77.2992,18.4433;JM-09;Saint Ann Parish;Antrim
+5504;-76.7652,18.2717;JM-13;Saint Mary Parish;Annotto Bay
+0;-77.1550,18.3663;JM-09;Saint Ann Parish;Annandale
+0;-78.0585,18.2148;JM-16;Westmoreland;Anglesea
+0;-76.9739,18.0243;JM-10;Saint Catherine Parish;Angels
+0;-77.3675,18.2228;JM-09;Saint Ann Parish;Andersons Town
+0;-77.9372,18.4043;JM-12;Saint James Parish;Anchovy Bottom
+4161;-77.9317,18.4103;JM-12;Saint James Parish;Anchovy
+0;-77.8100,18.3970;JM-12;Saint James Parish;Amity Hall
+0;-76.2506,17.9556;JM-14;Saint Thomas Parish;Amity Hall
+0;-77.0399,17.9319;JM-10;Saint Catherine Parish;Amity Hall
+0;-78.0990,18.2560;JM-16;Westmoreland;Amity Cross
+0;-77.3179,18.3018;JM-09;Saint Ann Parish;Alva
+0;-76.4000,18.0333;JM-07;Portland Parish;Altamont
+0;-77.4362,18.1796;JM-01;Clarendon;Alston
+0;-77.7667,17.9667;JM-11;St. Elizabeth;Alscot
+0;-78.2066,18.2914;JM-16;Westmoreland;Alma
+1793;-77.5677,17.8693;JM-04;Manchester;Alligator Pond
+0;-77.0500,18.1500;JM-10;Saint Catherine Parish;Allenton
+0;-77.4333,18.4500;JM-09;Saint Ann Parish;Allen Hall
+0;-78.0239,18.3400;JM-02;Hanover;Alexandria
+1927;-77.3534,18.3077;JM-09;Saint Ann Parish;Alexandria
+0;-77.2985,18.0743;JM-01;Clarendon;Alexandria
+0;-76.8630,18.2388;JM-13;Saint Mary Parish;Aleppo
+0;-77.2034,18.2978;JM-09;Saint Ann Parish;Alderton
+0;-77.9192,18.4824;JM-12;Saint James Parish;Albion
+0;-76.6037,17.8856;JM-14;Saint Thomas Parish;Albion
+3449;-77.5424,18.2943;JM-15;Trelawny Parish;Albert Town
+0;-76.8459,18.2915;JM-13;Saint Mary Parish;Albany
+0;-76.6167,18.1333;JM-07;Portland Parish;Albany
+0;-76.3457,17.9206;JM-14;Saint Thomas Parish;Airy Castle
+0;-76.8087,18.2416;JM-13;Saint Mary Parish;Agualta Vale
+0;-76.5323,17.9043;JM-14;Saint Thomas Parish;Aeolus Valley
+0;-77.3989,18.2104;JM-01;Clarendon;Aenon Town
+0;-77.7932,18.4468;JM-12;Saint James Parish;Adelphi
+0;-77.6000,18.1167;JM-04;Manchester;Adams Valley
+0;-77.6364,18.4250;JM-15;Trelawny Parish;Acton
+0;-78.1333,18.2667;JM-16;Westmoreland;Acton
+788;-77.7536,18.2263;JM-11;St. Elizabeth;Accompong
+0;-77.3592,18.2538;JM-09;Saint Ann Parish;Aboukir
+0;-78.2950,18.3870;JM-02;Hanover;Abingdon
+0;-77.3596,18.2685;JM-09;Saint Ann Parish;Aberley
+0;-77.3592,18.3817;JM-09;Saint Ann Parish;Aberdeen
+0;-77.7018,18.1985;JM-11;St. Elizabeth;Aberdeen
+5261;-76.8761,18.1068;JM-10;Saint Catherine Parish;Above Rocks
+0;-76.9096,18.1222;JM-10;Saint Catherine Parish;Harkers Hall
+0;-76.8977,18.1140;JM-10;Saint Catherine Parish;Rentcome
+0;-76.8901,18.1460;JM-10;Saint Catherine Parish;Glengoffe
+0;-76.9155,18.1369;JM-10;Saint Catherine Parish;Long Hill
+0;-76.9151,18.1448;JM-10;Saint Catherine Parish;Mt. Industry
+0;-77.9289,18.4801;JM-12;Saint James Parish;Montego Bay Hip Strip
+0;-78.3634,18.2594;JM-16;Westmoreland;West End
+2321;-77.4712,18.1529;JM-01;Clarendon;Limit
+0;-77.8182,18.5218;JM-12;Saint James Parish;Rose Hall
+0;-77.2792,18.2974;JM-09;Saint Ann Parish;Nine Mile
+0;-77.0370,18.4154;JM-13;Saint Mary Parish;Carribean Park
+0;-77.9034,18.1491;JM-11;St. Elizabeth;New Market
+0;-78.0086,18.3245;JM-02;Hanover;Chichester
+0;-76.5858,18.2062;JM-07;Portland Parish;Black Hill
+0;-76.5981,18.0072;JM-14;Saint Thomas Parish;Whitfield Hall
+0;-76.7499,17.9992;JM-08;Saint Andrew Parish;College Commons
+0;-77.4988,18.1432;JM-04;Manchester;Penzance
+0;-76.6356,18.0469;JM-14;Saint Thomas Parish;Penlyne Castle
+0;-76.7284,18.0344;JM-08;Saint Andrew Parish;Gayle Mountain
+0;-76.8931,18.2438;JM-13;Saint Mary Parish;Cuffy Gully
+0;-76.6667,18.0801;JM-08;Saint Andrew Parish;Bellevue
+0;-77.2544,18.1609;JM-01;Clarendon;Grasspiece
+0;-77.2691,18.2001;JM-09;Saint Ann Parish;Cave Valley
+0;-77.8698,18.2349;JM-12;Saint James Parish;Chesterfield
+0;-77.8905,18.2564;JM-12;Saint James Parish;Gringer Hill
+0;-77.8056,18.2704;JM-12;Saint James Parish;Sweetwater
+0;-77.7545,17.9049;JM-11;St. Elizabeth;Beacon
+0;-77.7758,18.1002;JM-11;St. Elizabeth;West Lacovia
+0;-77.7180,18.3078;JM-15;Trelawny Parish;Saint Brians Burg
+0;-77.6516,18.2656;JM-15;Trelawny Parish;Crown Lands
+0;-77.7044,18.2527;JM-15;Trelawny Parish;Quickstep
+0;-77.6156,18.2551;JM-15;Trelawny Parish;Tyre
+0;-76.2766,18.0243;JM-07;Portland Parish;Long Road
+0;-76.2887,17.8965;JM-14;Saint Thomas Parish;St. John
+0;-76.6283,17.9069;JM-14;Saint Thomas Parish;Grants Pen
+0;-77.4170,18.1919;JM-01;Clarendon;Morgans Forest
+0;-77.4995,17.9556;JM-04;Manchester;Wales
+0;-77.6953,17.9108;JM-11;St. Elizabeth;Top Round Hill
+0;-76.3452,18.1291;JM-07;Portland Parish;Boston Bay
+0;-76.8178,18.0681;JM-08;Saint Andrew Parish;Smokey Vale
+0;-77.8989,18.4456;JM-12;Saint James Parish;Granville
+17169;-77.8018,18.5149;JM-12;Saint James Parish;Barrett Town
+0;-77.8536,18.4061;JM-12;Saint James Parish;Cool Water
+0;-76.9274,18.1383;JM-10;Saint Catherine Parish;Omeally
+0;-77.8480,18.4031;JM-12;Saint James Parish;Carew Spring Mount
+0;-77.8453,18.4129;JM-12;Saint James Parish;Potosi
+0;-77.8619,18.4365;JM-12;Saint James Parish;Hurlock
+0;-77.8594,18.4221;JM-12;Saint James Parish;Worcester
+0;-77.8563,18.3856;JM-12;Saint James Parish;Plum Tree
+0;-77.8592,18.3922;JM-12;Saint James Parish;Williamsfield in Hopeton
+0;-77.8396,18.4268;JM-12;Saint James Parish;Williamsfield in John's Hall
+0;-77.8808,18.2273;JM-12;Saint James Parish;Catskin
+0;-77.8946,18.2979;JM-12;Saint James Parish;Clifton
+0;-77.7545,18.4812;JM-12;Saint James Parish;Clifton
+0;-76.6603,18.1712;JM-07;Portland Parish;Ann's Delight
+0;-76.9242,18.2519;JM-13;Saint Mary Parish;Louisiana
+0;-76.8692,18.3514;JM-13;Saint Mary Parish;Quebec Estate
+0;-76.7257,18.2142;JM-13;Saint Mary Parish;Mount Olympus
+0;-76.7292,18.2109;JM-13;Saint Mary Parish;Oran
+0;-77.0120,18.3048;JM-13;Saint Mary Parish;Retirement
+0;-76.8625,18.1521;JM-08;Saint Andrew Parish;Mount Charles near Border
+0;-77.9000,18.3113;JM-12;Saint James Parish;Rose Mount
+0;-77.9169,18.3157;JM-02;Hanover;Senior
+0;-77.8852,18.2986;JM-12;Saint James Parish;Raby Park
+0;-77.9153,18.3061;JM-16;Westmoreland;Ducketts in Bethel Town
+0;-77.9072,18.3087;JM-12;Saint James Parish;Ducketts in Cambridge
+0;-77.8642,18.2315;JM-12;Saint James Parish;Orange Hill
+0;-77.8147,18.2924;JM-12;Saint James Parish;Horseguards
+0;-77.8801,18.4122;JM-12;Saint James Parish;Camrose
+0;-76.8596,18.1652;JM-13;Saint Mary Parish;Paisley
+0;-76.8635,18.1690;JM-13;Saint Mary Parish;Lenna
+0;-76.8882,18.1811;JM-13;Saint Mary Parish;Sue River
+0;-77.8107,18.4583;JM-12;Saint James Parish;Paisley
+0;-77.8360,18.4799;JM-12;Saint James Parish;Running Gut
+0;-77.7514,18.5113;JM-12;Saint James Parish;Long Bay
+0;-77.8482,18.5172;JM-12;Saint James Parish;Spring Farm
+0;-77.9086,18.4150;JM-12;Saint James Parish;Concordia
+0;-77.9000,18.4125;JM-12;Saint James Parish;Crochers Mount
+0;-77.9255,18.3741;JM-12;Saint James Parish;Blue Hole
+0;-77.4460,18.2068;JM-09;Saint Ann Parish;Yankie
+0;-77.4768,18.2076;JM-09;Saint Ann Parish;Yankee River
+0;-77.8845,18.3924;JM-12;Saint James Parish;Windsor Castle
+0;-77.8720,18.3960;JM-12;Saint James Parish;Mount Vernon
+0;-77.7815,18.3557;JM-12;Saint James Parish;Schaw Castle
+0;-77.8799,18.2922;JM-12;Saint James Parish;Quarry
+0;-77.7653,18.4225;JM-12;Saint James Parish;New Canaan
+0;-77.7829,18.4114;JM-12;Saint James Parish;Yorkland
+0;-77.8603,18.2410;JM-12;Saint James Parish;Glencoe
+0;-77.8761,18.2889;JM-12;Saint James Parish;Maize Land
+0;-77.8201,18.4758;JM-12;Saint James Parish;Spring Gut
+0;-77.8213,18.4500;JM-12;Saint James Parish;Slippery Gut
+0;-77.7970,18.2522;JM-12;Saint James Parish;Graysville
+0;-76.8911,18.1281;JM-10;Saint Catherine Parish;Saint Faith's
+0;-76.8840,18.1528;JM-10;Saint Catherine Parish;Free Town
+0;-77.8239,18.2588;JM-12;Saint James Parish;Johnson District
+0;-77.8203,18.3794;JM-12;Saint James Parish;Burkes Mountain
+0;-77.7847,18.4179;JM-12;Saint James Parish;Virgin Valley
+0;-76.6145,17.9936;JM-14;Saint Thomas Parish;Goat Ridge
+0;-77.8093,18.3816;JM-12;Saint James Parish;Adelphi Mount
+0;-77.8806,18.3408;JM-12;Saint James Parish;Plum Park
+0;-77.8820,18.3249;JM-12;Saint James Parish;Fern
+0;-77.9218,18.3348;JM-12;Saint James Parish;Hazelymph
+0;-77.8332,18.3710;JM-12;Saint James Parish;Shepherds Hall
+0;-77.8945,18.2932;JM-12;Saint James Parish;Richmond Hill
+0;-77.9007,18.2903;JM-12;Saint James Parish;Bruce Hall
+0;-77.9139,18.4209;JM-12;Saint James Parish;Wales Pond
+0;-77.7735,18.3457;JM-12;Saint James Parish;Waterloo
+0;-77.7859,18.3630;JM-12;Saint James Parish;Chatsworth
+0;-77.8266,18.3684;JM-12;Saint James Parish;Kensington
+0;-77.8146,18.3030;JM-12;Saint James Parish;Cold Spring
+0;-77.7928,18.3487;JM-12;Saint James Parish;Woodland
+0;-77.8632,18.3647;JM-12;Saint James Parish;Barnett Bush
+0;-77.8747,18.3649;JM-12;Saint James Parish;Russea
+0;-77.8977,18.3530;JM-12;Saint James Parish;Nairn
+0;-78.2085,18.4153;JM-02;Hanover;Blenheim
+0;-78.1963,18.4208;JM-02;Hanover;Richmond
+0;-78.1903,18.4208;JM-02;Hanover;Mento
+0;-78.0457,18.4145;JM-02;Hanover;Rejoin
+0;-78.0484,18.4022;JM-02;Hanover;Gurney's Mount
+0;-78.0862,18.3700;JM-02;Hanover;Hills Brook
+0;-78.1434,18.3994;JM-02;Hanover;Clifton
+0;-78.2245,18.3588;JM-02;Hanover;Cessnock
+0;-78.2361,18.3704;JM-02;Hanover;Blairs Hill
+0;-78.0561,18.4081;JM-02;Hanover;Cold Spring
+0;-77.8297,18.3712;JM-12;Saint James Parish;Tulloch Castle
+0;-77.3246,18.1250;JM-01;Clarendon;Sawyers River
+0;-77.4149,18.0719;JM-01;Clarendon;Garlogie
+0;-77.4618,18.4629;JM-15;Trelawny Parish;Calabar
+0;-77.1806,18.0293;JM-01;Clarendon;Keys
+0;-77.3681,17.9743;JM-01;Clarendon;Bailey's Pen
+0;-77.3300,17.9622;JM-01;Clarendon;Saint Jago Savannah
+0;-77.3781,18.1085;JM-01;Clarendon;Lady Hume
+0;-76.7475,18.1976;JM-13;Saint Mary Parish;May Hill
+0;-76.7459,18.1946;JM-13;Saint Mary Parish;May River
+0;-76.7538,18.1936;JM-13;Saint Mary Parish;Hope Hill
+0;-76.7579,18.2088;JM-13;Saint Mary Parish;Tryall
+0;-76.7533,18.2089;JM-13;Saint Mary Parish;Cum See
+0;-76.7616,18.2039;JM-13;Saint Mary Parish;Fish Bone
+0;-76.7616,18.2251;JM-13;Saint Mary Parish;Bridge Hole
+0;-76.7503,18.2114;JM-13;Saint Mary Parish;Long Road Village
+0;-76.7662,18.2068;JM-13;Saint Mary Parish;Annotto River
+0;-76.8855,18.2068;JM-13;Saint Mary Parish;Mount Vernon
+0;-76.8609,18.1297;JM-08;Saint Andrew Parish;Mahoney
+0;-77.1879,18.0100;JM-01;Clarendon;Longville Estate
+0;-77.1882,18.0045;JM-01;Clarendon;Bird's Hill
+0;-77.3129,18.1223;JM-01;Clarendon;Ballards River
+0;-77.2305,18.1060;JM-01;Clarendon;Morant
+0;-77.2526,18.1240;JM-01;Clarendon;Crawle River
+0;-77.2349,18.1181;JM-01;Clarendon;Pindars River
+0;-77.2635,18.1205;JM-01;Clarendon;Ashley Kraal
+0;-77.2555,18.1083;JM-01;Clarendon;Mullett Hall
+0;-77.2250,18.1214;JM-01;Clarendon;Guava Ground
+0;-76.8883,18.0946;JM-10;Saint Catherine Parish;Golden River
+0;-78.0055,18.1746;JM-16;Westmoreland;Rosebank
+0;-78.0085,18.1658;JM-16;Westmoreland;Shafston Pen
+0;-77.2422,17.9880;JM-01;Clarendon;Rectory Lands
+0;-77.3418,18.0061;JM-01;Clarendon;Bagatelle
+0;-77.3383,18.0025;JM-01;Clarendon;Darlow
+0;-77.3511,18.0473;JM-01;Clarendon;Belmont Cottage
+0;-77.3492,18.0156;JM-01;Clarendon;Martin Gully
+0;-77.3893,18.1506;JM-01;Clarendon;Kilsyth
+0;-77.7992,18.4103;JM-12;Saint James Parish;Spencer's Mountain
+0;-77.8806,18.4172;JM-12;Saint James Parish;Kerr Land
+0;-77.8058,18.3630;JM-12;Saint James Parish;Carlton Mountain
+0;-77.2543,18.3841;JM-09;Saint Ann Parish;Relief
+0;-77.9384,18.1616;JM-16;Westmoreland;Carmel
+0;-77.3340,18.0913;JM-01;Clarendon;Blackwoods
+0;-77.4638,18.1252;JM-04;Manchester;Allison
+0;-77.4685,18.1608;JM-04;Manchester;George North
+0;-77.3890,18.0796;JM-01;Clarendon;Wanstead
+0;-77.3591,18.0690;JM-01;Clarendon;Spring Mount
+0;-77.4002,18.0587;JM-01;Clarendon;Mount Pleasant
+0;-77.4005,18.0897;JM-01;Clarendon;Peace River
+0;-77.4235,18.1034;JM-01;Clarendon;Cabbage Hall
+0;-77.3765,18.1558;JM-01;Clarendon;Cabbage Hill
+0;-77.3554,18.2000;JM-01;Clarendon;Palmyra & Bog Hole
+0;-77.3601,18.1648;JM-01;Clarendon;Desire
+0;-77.3565,18.1512;JM-01;Clarendon;Lampart
+0;-77.3562,18.1685;JM-01;Clarendon;Carty Hill
+0;-77.3599,18.1748;JM-01;Clarendon;Cumberland
+0;-77.3475,18.1880;JM-01;Clarendon;Salem
+0;-77.3507,18.1791;JM-01;Clarendon;Vaughnsfield
+0;-77.3477,18.1851;JM-01;Clarendon;Flemington
+0;-77.3537,18.1636;JM-01;Clarendon;Retirement
+0;-77.3713,18.1560;JM-01;Clarendon;Water Works
+0;-77.2628,18.0475;JM-01;Clarendon;Shingle Hut
+0;-77.2440,18.0698;JM-01;Clarendon;Ennetts
+0;-77.2584,18.0646;JM-01;Clarendon;Post Road
+0;-77.3603,18.1589;JM-01;Clarendon;Cow Pen
+0;-77.3767,18.1708;JM-01;Clarendon;Silver Spring
+0;-77.1623,18.0417;JM-01;Clarendon;Joe Ground
+0;-77.2545,18.0526;JM-01;Clarendon;Kellits
+0;-77.4062,18.2002;JM-01;Clarendon;Long Bough
+0;-77.2875,18.1185;JM-01;Clarendon;Morgans Pass
+0;-77.2840,18.1212;JM-01;Clarendon;Morgans Valley North
+0;-77.2650,18.1180;JM-01;Clarendon;Prospect
+0;-76.4447,18.1484;JM-07;Portland Parish;Retirement
+0;-77.1602,18.0354;JM-01;Clarendon;Trivis
+0;-77.1609,18.0385;JM-01;Clarendon;Pear Tree Valley
+0;-76.8184,18.1850;JM-13;Saint Mary Parish;Chesterfield
+0;-76.9533,18.3061;JM-13;Saint Mary Parish;Derry
+0;-77.2043,18.1718;JM-01;Clarendon;Sinks
+0;-77.2764,18.1835;JM-01;Clarendon;Stanhope
+0;-77.2675,18.1845;JM-01;Clarendon;Mason's River
+0;-77.2748,18.1767;JM-01;Clarendon;Garberley
+0;-77.2717,18.1820;JM-01;Clarendon;Staceyville
+0;-77.2748,18.1720;JM-01;Clarendon;Bull Head
+0;-77.9618,18.3105;JM-16;Westmoreland;Argyle Mountain
+0;-77.2552,18.1756;JM-01;Clarendon;Rhoden Hall
+0;-77.2566,18.1470;JM-01;Clarendon;Johnnies Hill
+0;-76.8705,18.2108;JM-13;Saint Mary Parish;Mount Regale
+0;-76.6565,18.1799;JM-07;Portland Parish;Martinique
+0;-76.7170,18.0993;JM-07;Portland Parish;Ellerslie
+0;-76.7099,18.0964;JM-07;Portland Parish;Section
+0;-76.7199,18.1026;JM-07;Portland Parish;Glen Gyle
+0;-76.6880,18.1821;JM-07;Portland Parish;Cool Shade
+0;-76.2865,18.0651;JM-07;Portland Parish;Peasant Hill
+0;-76.6408,18.1522;JM-07;Portland Parish;Claverty Cottage
+0;-76.5145,18.1941;JM-07;Portland Parish;Burlington Estate
+0;-76.3856,18.1599;JM-07;Portland Parish;Zion Hill
+0;-76.3321,18.1295;JM-07;Portland Parish;Priestman's River
+0;-76.4707,18.1487;JM-07;Portland Parish;Rothiemurchas
+0;-76.7198,18.1355;JM-07;Portland Parish;Birnamwood
+0;-76.7267,18.1169;JM-07;Portland Parish;Lancaster
+0;-76.7325,18.1374;JM-07;Portland Parish;Shantamee
+0;-76.6007,18.1635;JM-07;Portland Parish;Guatamala
+0;-76.4805,18.1970;JM-07;Portland Parish;Whitehall
+0;-76.4974,18.1992;JM-07;Portland Parish;Snow Hill
+0;-77.4383,18.3059;JM-09;Saint Ann Parish;Madras
+0;-76.7065,18.1745;JM-07;Portland Parish;Galloway
+0;-76.7310,18.1767;JM-07;Portland Parish;Fort Stewart
+0;-76.7227,18.1894;JM-07;Portland Parish;Harmony Hill
+0;-76.3870,18.1695;JM-07;Portland Parish;Blue Hole
+0;-76.6593,18.1776;JM-07;Portland Parish;Middleton
+0;-76.4198,17.8950;JM-14;Saint Thomas Parish;Summit Gardens
+0;-76.5689,17.8893;JM-14;Saint Thomas Parish;Montpelier
+0;-76.5146,17.8671;JM-14;Saint Thomas Parish;Pamphret
+0;-76.5883,17.9144;JM-14;Saint Thomas Parish;Woodbourne
+0;-76.5879,17.9843;JM-14;Saint Thomas Parish;Richmond Vale
+0;-76.4175,17.8823;JM-14;Saint Thomas Parish;Church Corner
+0;-76.4747,17.9327;JM-14;Saint Thomas Parish;Danvers Pen
+0;-76.4280,17.8769;JM-14;Saint Thomas Parish;Duhaney Pen
+0;-76.4939,17.8721;JM-14;Saint Thomas Parish;Green Wall
+0;-76.3766,18.0119;JM-14;Saint Thomas Parish;Edgars Rio Grande
+0;-76.5827,17.8816;JM-14;Saint Thomas Parish;Lloydsville
+0;-76.3658,17.8960;JM-14;Saint Thomas Parish;Retreat
+0;-76.2813,17.9929;JM-07;Portland Parish;Haining
+0;-76.3969,17.8824;JM-14;Saint Thomas Parish;Dumfries
+0;-76.5644,17.9832;JM-14;Saint Thomas Parish;Duckworth
+0;-76.4411,17.9187;JM-14;Saint Thomas Parish;Lower York
+0;-76.5406,17.9608;JM-14;Saint Thomas Parish;Halliday Hill
+0;-76.4909,17.9738;JM-14;Saint Thomas Parish;Garbrand & Mullet Hall
+0;-76.5192,17.9521;JM-14;Saint Thomas Parish;Georgia
+0;-76.4792,17.9258;JM-14;Saint Thomas Parish;Blue Mountain
+0;-76.4301,17.9505;JM-14;Saint Thomas Parish;Bannockburn
+0;-76.3915,17.9702;JM-14;Saint Thomas Parish;Mount Felix
+0;-76.4016,17.9701;JM-14;Saint Thomas Parish;Glenmoy
+0;-76.3539,17.9713;JM-14;Saint Thomas Parish;Cotton Tree Mountain
+0;-76.3768,17.9456;JM-14;Saint Thomas Parish;Friendship
+0;-76.3593,17.9492;JM-14;Saint Thomas Parish;Ginger Hall
+0;-76.3065,17.9469;JM-14;Saint Thomas Parish;Plantain Garden River Estate
+0;-76.3264,17.9253;JM-14;Saint Thomas Parish;Richmond Hill
+0;-76.3329,17.9080;JM-14;Saint Thomas Parish;Style Hut
+0;-76.3368,17.9284;JM-14;Saint Thomas Parish;Sterling Castle
+0;-76.4052,17.9537;JM-14;Saint Thomas Parish;Water Valley
+0;-76.4005,17.9546;JM-14;Saint Thomas Parish;Riversview
+0;-76.4023,17.9594;JM-14;Saint Thomas Parish;Cross Path
+0;-76.3538,17.9563;JM-14;Saint Thomas Parish;Croton
+0;-76.5693,17.8789;JM-14;Saint Thomas Parish;Harmony Hall
+0;-76.5682,17.8995;JM-14;Saint Thomas Parish;Brighton
+0;-76.5388,17.9522;JM-14;Saint Thomas Parish;Inverness
+0;-76.5609,17.9027;JM-14;Saint Thomas Parish;Bransbury
+0;-76.5714,17.8857;JM-14;Saint Thomas Parish;Cherry Garden
+0;-76.5683,17.9020;JM-14;Saint Thomas Parish;Logwood
+0;-76.5837,17.9111;JM-14;Saint Thomas Parish;Raywood
+0;-76.5979,17.9581;JM-14;Saint Thomas Parish;Ultimatum
+0;-76.6381,17.9653;JM-14;Saint Thomas Parish;Easy Mind
+0;-77.9535,18.3272;JM-02;Hanover;Chester Castle
+0;-78.2896,18.3506;JM-02;Hanover;River Head
+0;-78.2911,18.3648;JM-02;Hanover;Santoy
+0;-78.2744,18.3678;JM-02;Hanover;Winchester Estates
+0;-77.9931,18.4416;JM-02;Hanover;Woodlands
+0;-77.9966,18.4364;JM-02;Hanover;Watford Hill
+0;-76.8341,18.1754;JM-13;Saint Mary Parish;Gibbs Hill
+0;-76.8210,18.1732;JM-08;Saint Andrew Parish;Orangefield
+0;-76.8397,18.1711;JM-13;Saint Mary Parish;Toms River - Part of
+0;-76.8293,18.1655;JM-13;Saint Mary Parish;Golden Valley
+0;-77.8971,18.2796;JM-16;Westmoreland;Retrieve
+0;-77.8946,18.2739;JM-16;Westmoreland;Scarlett Field
+0;-77.9711,18.4363;JM-12;Saint James Parish;Spring Garden
+0;-77.6272,18.4275;JM-15;Trelawny Parish;Gravesend
+0;-77.6460,18.3992;JM-15;Trelawny Parish;Coffee Hall
+0;-77.7900,18.4346;JM-12;Saint James Parish;Adelphi Land
+0;-76.5559,17.8966;JM-14;Saint Thomas Parish;Buchananas Mountain
+0;-76.6337,17.9175;JM-14;Saint Thomas Parish;Mezgar Gardens
+0;-76.4349,17.9396;JM-14;Saint Thomas Parish;Citron Valley
+0;-76.4336,17.9378;JM-14;Saint Thomas Parish;Middleton Village
+0;-76.6097,17.9937;JM-14;Saint Thomas Parish;Windsor Forest
+0;-76.6123,17.9959;JM-14;Saint Thomas Parish;River Head
+0;-76.4481,17.9538;JM-14;Saint Thomas Parish;Gordonfield
+0;-76.6178,18.0195;JM-14;Saint Thomas Parish;Minto
+0;-76.6416,18.0444;JM-14;Saint Thomas Parish;Sheldon
+0;-76.6107,18.0367;JM-14;Saint Thomas Parish;Radnor
+0;-76.4532,17.9347;JM-14;Saint Thomas Parish;Upper York
+0;-76.6278,18.0127;JM-14;Saint Thomas Parish;Carrick Hill
+0;-76.7792,18.1235;JM-08;Saint Andrew Parish;Mount Airy
+0;-76.7888,18.1310;JM-08;Saint Andrew Parish;Mount Prospect
+0;-76.8049,18.1347;JM-08;Saint Andrew Parish;New Garden
+0;-76.5337,17.9612;JM-14;Saint Thomas Parish;Barracks
+0;-76.5324,17.9608;JM-14;Saint Thomas Parish;Moffatt
+0;-76.5799,17.9711;JM-14;Saint Thomas Parish;Belle Clare
+0;-76.5778,17.9686;JM-14;Saint Thomas Parish;Maley
+0;-76.5422,17.9527;JM-14;Saint Thomas Parish;Reid Mountain
+0;-76.4548,17.9251;JM-14;Saint Thomas Parish;Valley Road
+0;-76.5717,17.9444;JM-14;Saint Thomas Parish;Wakefield
+0;-76.4619,17.9464;JM-14;Saint Thomas Parish;Stewart Field
+0;-76.5892,17.9744;JM-14;Saint Thomas Parish;Manheim
+0;-76.6195,17.9821;JM-14;Saint Thomas Parish;Garden Piece
+0;-76.6317,17.9568;JM-14;Saint Thomas Parish;Turners Gap
+0;-76.6017,17.9378;JM-14;Saint Thomas Parish;Mount Sinai
+0;-76.5936,17.9308;JM-14;Saint Thomas Parish;Smithfield
+0;-76.3300,17.8988;JM-14;Saint Thomas Parish;Stokesfield
+0;-76.3869,17.9258;JM-14;Saint Thomas Parish;Cory Hall
+0;-77.7022,18.4931;JM-15;Trelawny Parish;Salt Marsh
+0;-77.4876,18.4424;JM-15;Trelawny Parish;Brampton
+0;-77.6174,18.4574;JM-15;Trelawny Parish;Daniel Town
+0;-77.6200,18.2428;JM-04;Manchester;Cowick Park
+0;-77.6313,18.2516;JM-15;Trelawny Parish;Maitland - Hutchinson
+0;-77.6327,18.2560;JM-15;Trelawny Parish;Wilson's Run
+0;-77.5543,18.4014;JM-15;Trelawny Parish;Haddington
+0;-77.5618,18.3072;JM-15;Trelawny Parish;Carambie
+0;-77.5158,18.4482;JM-15;Trelawny Parish;Middlemost
+0;-77.5137,18.4530;JM-15;Trelawny Parish;Samuels Prospect
+0;-77.5304,18.2478;JM-15;Trelawny Parish;Allsides
+0;-77.5508,18.2597;JM-15;Trelawny Parish;Wire Fence
+0;-77.5571,18.4601;JM-15;Trelawny Parish;Simpson
+0;-77.9642,18.3103;JM-16;Westmoreland;Hermitage
+0;-78.0358,18.2592;JM-16;Westmoreland;New Galloway
+0;-78.0232,18.2910;JM-16;Westmoreland;Haddo
+0;-78.0274,18.2801;JM-16;Westmoreland;Lindoes Hill
+0;-76.4104,17.9697;JM-14;Saint Thomas Parish;Ginger Piece
+0;-76.4098,17.9721;JM-14;Saint Thomas Parish;Abernethy
+0;-76.4324,17.9581;JM-14;Saint Thomas Parish;Golden Valley
+0;-77.0294,18.4010;JM-13;Saint Mary Parish;Charles Town
+0;-76.8500,18.1911;JM-13;Saint Mary Parish;Leinster
+0;-76.8560,18.1859;JM-13;Saint Mary Parish;Jobs Hill
+0;-76.8301,18.1933;JM-13;Saint Mary Parish;Scotts Hall
+0;-76.9040,18.1830;JM-13;Saint Mary Parish;Lucky Hill
+0;-76.9913,18.3116;JM-13;Saint Mary Parish;Bagnold Spring
+0;-76.9743,18.2927;JM-13;Saint Mary Parish;Donnington
+0;-76.8148,18.2061;JM-13;Saint Mary Parish;Devon Pen
+0;-76.9050,18.2337;JM-13;Saint Mary Parish;Flint River
+0;-76.9090,18.2477;JM-13;Saint Mary Parish;Orange River
+0;-76.8955,18.4072;JM-13;Saint Mary Parish;Galina
+0;-76.8193,18.2009;JM-13;Saint Mary Parish;Friendship
+0;-76.8199,18.1921;JM-13;Saint Mary Parish;Cross Hill
+0;-76.9654,18.3255;JM-13;Saint Mary Parish;Arthlone
+0;-76.9982,18.3178;JM-13;Saint Mary Parish;Barclay Town
+0;-76.7441,18.1811;JM-13;Saint Mary Parish;Belmont
+0;-76.9533,18.2859;JM-13;Saint Mary Parish;Burnside
+0;-76.9264,18.2379;JM-13;Saint Mary Parish;Braemmer
+0;-76.5941,18.0035;JM-14;Saint Thomas Parish;Grove
+0;-76.5584,17.9806;JM-14;Saint Thomas Parish;Greenfield
+0;-76.3580,17.9750;JM-14;Saint Thomas Parish;Moy Hall
+0;-76.5959,18.0229;JM-14;Saint Thomas Parish;Moy Hall
+0;-76.5978,17.9833;JM-14;Saint Thomas Parish;Wilson's Gap
+0;-76.5924,17.9835;JM-14;Saint Thomas Parish;Richmond Gap
+0;-76.6044,17.9591;JM-14;Saint Thomas Parish;Garden Castle
+0;-76.6527,17.9419;JM-14;Saint Thomas Parish;Pentonville
+0;-76.6545,17.9414;JM-14;Saint Thomas Parish;Bull Bay - Part of
+0;-76.6447,17.9542;JM-14;Saint Thomas Parish;Worcester Park
+0;-76.8203,18.1181;JM-08;Saint Andrew Parish;Temple Hall
+0;-78.1156,18.2549;JM-16;Westmoreland;Bath Pen
+0;-78.0777,18.3481;JM-16;Westmoreland;Blackheath Mountain
+0;-78.0877,18.3580;JM-02;Hanover;Flower Hill
+0;-78.0951,18.3454;JM-16;Westmoreland;Bleauwearie
+0;-78.0968,18.3452;JM-16;Westmoreland;Barham Mountain
+0;-77.9277,18.2580;JM-16;Westmoreland;Belvedere
+0;-77.9156,18.2402;JM-16;Westmoreland;Montpelier Mountain
+0;-76.6412,17.9338;JM-14;Saint Thomas Parish;Cambridge Farm
+0;-76.4008,17.9393;JM-14;Saint Thomas Parish;Bon Hill
+0;-76.4082,17.9299;JM-14;Saint Thomas Parish;Mount Champangy
+0;-76.5184,17.9048;JM-14;Saint Thomas Parish;Scotland Gate
+0;-78.1939,18.2405;JM-16;Westmoreland;McNeils Land
+0;-78.2290,18.3125;JM-16;Westmoreland;Midgham Mountain
+0;-78.2499,18.2759;JM-16;Westmoreland;Delve
+0;-78.2472,18.2856;JM-16;Westmoreland;Moreland Hill
+0;-78.2362,18.2773;JM-16;Westmoreland;Delveland
+0;-78.2810,18.2736;JM-16;Westmoreland;Ketto
+0;-78.2971,18.2997;JM-16;Westmoreland;Silver Spring
+0;-78.2818,18.2984;JM-16;Westmoreland;Ginger Mountain
+0;-78.0453,18.2033;JM-16;Westmoreland;Cave
+0;-77.9970,18.1279;JM-16;Westmoreland;McAlpine
+0;-78.0063,18.1243;JM-16;Westmoreland;Farm
+0;-77.9483,18.0897;JM-16;Westmoreland;Long Hill
+0;-77.9481,18.0762;JM-16;Westmoreland;Fustic Grove - part of
+0;-78.0691,18.3359;JM-16;Westmoreland;Blackheath
+0;-78.0599,18.3416;JM-16;Westmoreland;Birds Mountain
+0;-78.2668,18.3235;JM-02;Hanover;Coffee Walk
+0;-78.2485,18.3057;JM-16;Westmoreland;Moreland - part of
+0;-77.9089,18.2243;JM-16;Westmoreland;Charleymont
+0;-77.9040,18.2261;JM-16;Westmoreland;Berkshire
+0;-77.9290,18.2020;JM-16;Westmoreland;Spring Park
+0;-78.0111,18.3234;JM-02;Hanover;Ramble
+0;-78.1781,18.3083;JM-16;Westmoreland;Sterling
+0;-78.0344,18.1901;JM-16;Westmoreland;Beggars View
+0;-77.9875,18.2867;JM-16;Westmoreland;Cornwall Mountain
+0;-78.0195,18.2834;JM-16;Westmoreland;Cornwall Land
+0;-78.0053,18.3099;JM-16;Westmoreland;Coffee Walk
+0;-78.0319,18.2798;JM-16;Westmoreland;Line Gate
+0;-77.9863,18.2124;JM-16;Westmoreland;Holly Hill
+0;-78.1113,18.3064;JM-16;Westmoreland;Baulk
+0;-78.1064,18.2998;JM-16;Westmoreland;Barham Village
+0;-78.0832,18.3152;JM-16;Westmoreland;Strawberry
+0;-77.8974,18.2311;JM-16;Westmoreland;Dundee
+0;-78.1985,18.2895;JM-16;Westmoreland;Fullersfield
+0;-77.9390,18.2028;JM-16;Westmoreland;Windsor Forest
+0;-78.0690,18.2283;JM-16;Westmoreland;Mount Pleasant
+0;-78.0628,18.2211;JM-16;Westmoreland;Water Cress
+0;-78.0012,18.1917;JM-16;Westmoreland;Bognie
+0;-78.0061,18.2035;JM-16;Westmoreland;Bath Mountain
+0;-78.0250,18.1992;JM-16;Westmoreland;Cedar Valley
+0;-78.0218,18.1964;JM-16;Westmoreland;Kentucky
+0;-78.0080,18.1950;JM-16;Westmoreland;Bunyan
+0;-77.9976,18.2125;JM-16;Westmoreland;Tharpwood
+0;-77.9382,18.1341;JM-16;Westmoreland;Briscoe Mountain
+0;-77.9563,18.3099;JM-16;Westmoreland;Seven Rivers Mountain
+0;-77.9176,18.1392;JM-11;St. Elizabeth;Harts Hall
+0;-77.9347,18.2115;JM-16;Westmoreland;Exeter
+0;-77.9233,18.1822;JM-16;Westmoreland;Glenburnie
+0;-77.9318,18.1829;JM-16;Westmoreland;Cruize
+0;-77.9290,18.1806;JM-16;Westmoreland;Smithfield
+0;-77.9732,18.1668;JM-16;Westmoreland;Old Mountain
+0;-78.1144,18.3186;JM-16;Westmoreland;Burnt Savanna
+0;-78.1223,18.3253;JM-16;Westmoreland;Dangra
+0;-77.8879,18.2536;JM-16;Westmoreland;Bridgewater
+0;-77.8856,18.2599;JM-16;Westmoreland;Chelsea
+0;-77.8941,18.2581;JM-16;Westmoreland;Hopewell
+0;-77.8820,18.2618;JM-16;Westmoreland;Marchmont
+0;-78.1154,18.2386;JM-16;Westmoreland;Strathbogie
+0;-77.9474,18.2900;JM-16;Westmoreland;Wedderburn
+0;-78.1339,18.3127;JM-16;Westmoreland;Blackness
+0;-78.2268,18.2947;JM-16;Westmoreland;Canaan Mountain
+0;-78.0010,18.1275;JM-16;Westmoreland;Mount Edgecombe
+0;-78.0855,18.3882;JM-02;Hanover;Hyde Castle
+0;-77.7087,18.4335;JM-15;Trelawny Parish;Tilston
+0;-77.7232,18.4248;JM-15;Trelawny Parish;Moorefield
+0;-77.7278,18.4119;JM-15;Trelawny Parish;Weston Favel
+0;-77.7471,18.3838;JM-15;Trelawny Parish;Liberty
+0;-77.7469,18.3935;JM-15;Trelawny Parish;Hastings
+0;-77.7308,18.4505;JM-15;Trelawny Parish;New Cargen
+0;-77.6308,18.4051;JM-15;Trelawny Parish;Browns Mountain
+0;-77.6514,18.4368;JM-15;Trelawny Parish;Potosi and Lansquinet
+0;-77.4919,18.2170;JM-15;Trelawny Parish;Lorrimers
+0;-77.6185,18.4597;JM-15;Trelawny Parish;Claremont
+0;-77.6241,18.4577;JM-15;Trelawny Parish;Water Valley Lottery
+0;-77.6171,18.3926;JM-15;Trelawny Parish;Piedmont
+0;-77.4919,18.2153;JM-15;Trelawny Parish;Lindsay
+0;-77.0932,18.2721;JM-09;Saint Ann Parish;Dalrymple
+0;-77.5173,18.2436;JM-15;Trelawny Parish;Raven
+0;-77.5214,18.2513;JM-15;Trelawny Parish;Ebdon
+0;-77.4657,18.1915;JM-01;Clarendon;Walders Run
+0;-77.4752,18.2142;JM-09;Saint Ann Parish;Lebanon
+0;-77.4733,18.2196;JM-09;Saint Ann Parish;Frazers
+0;-77.4854,18.2199;JM-15;Trelawny Parish;Battersea - part of
+0;-77.2604,18.4407;JM-09;Saint Ann Parish;Deveronside
+0;-77.2781,18.4425;JM-09;Saint Ann Parish;Mines District
+0;-77.2691,18.4417;JM-09;Saint Ann Parish;Cranbrook Pen
+0;-77.2690,18.4356;JM-09;Saint Ann Parish;Spicy Grove
+0;-77.2596,18.4377;JM-09;Saint Ann Parish;Chester
+0;-77.1681,18.3255;JM-09;Saint Ann Parish;Beechamville
+0;-77.1826,18.3323;JM-09;Saint Ann Parish;Carton Mountain
+0;-77.4099,18.3033;JM-09;Saint Ann Parish;Mount Nebo
+0;-77.1016,18.3562;JM-09;Saint Ann Parish;Coventry
+0;-77.1104,18.3692;JM-09;Saint Ann Parish;Cottage
+0;-77.1005,18.3595;JM-09;Saint Ann Parish;Hinds Town part
+0;-77.4102,18.2505;JM-09;Saint Ann Parish;Tingle Mountain
+0;-77.4199,18.2789;JM-09;Saint Ann Parish;Merrywood
+0;-77.4045,18.2655;JM-09;Saint Ann Parish;Tingle Mount
+0;-77.3989,18.2850;JM-09;Saint Ann Parish;Linton Park
+0;-77.3840,18.3176;JM-09;Saint Ann Parish;Camperdown
+0;-77.3580,18.2990;JM-09;Saint Ann Parish;Old Bethany
+0;-77.2078,18.2500;JM-09;Saint Ann Parish;Gladsmuir
+0;-77.1562,18.2030;JM-09;Saint Ann Parish;Tydixon
+0;-77.2240,18.2401;JM-09;Saint Ann Parish;Little River
+0;-77.2214,18.2088;JM-09;Saint Ann Parish;Pedro
+0;-77.0178,18.2749;JM-09;Saint Ann Parish;Whitehall
+0;-77.8660,18.1388;JM-11;St. Elizabeth;Clifton
+0;-77.8769,18.1309;JM-11;St. Elizabeth;Bloomsbury
+0;-77.8774,18.1392;JM-11;St. Elizabeth;Cheltenham
+0;-77.8850,18.1416;JM-11;St. Elizabeth;Happy Grove
+0;-77.7658,18.1896;JM-11;St. Elizabeth;Trenail
+0;-77.7653,18.1596;JM-11;St. Elizabeth;Cameron Hill
+0;-77.6279,18.0327;JM-11;St. Elizabeth;Goshen
+0;-77.0870,18.3578;JM-09;Saint Ann Parish;Cole Gate
+0;-77.0969,18.4020;JM-09;Saint Ann Parish;Mansfield
+0;-77.1057,18.3852;JM-09;Saint Ann Parish;New Hope
+0;-77.2701,18.3218;JM-09;Saint Ann Parish;Syms Run
+0;-77.3344,18.2714;JM-09;Saint Ann Parish;Maida
+0;-77.3173,18.2574;JM-09;Saint Ann Parish;Glasgow Lodge
+0;-77.3199,18.2430;JM-09;Saint Ann Parish;McKenzie
+0;-77.3510,18.4045;JM-09;Saint Ann Parish;Orange Hill
+0;-77.3681,18.3450;JM-09;Saint Ann Parish;Culloden
+0;-77.2519,18.1959;JM-09;Saint Ann Parish;McNie
+0;-77.3884,18.2165;JM-01;Clarendon;Cave River
+0;-77.4406,18.2111;JM-09;Saint Ann Parish;Mount Moriah
+0;-77.0710,18.2473;JM-09;Saint Ann Parish;Montgomery
+0;-77.0288,18.2553;JM-09;Saint Ann Parish;Mosely Hall
+0;-77.0724,18.2879;JM-09;Saint Ann Parish;Soho
+0;-77.0438,18.2683;JM-09;Saint Ann Parish;Ramsays
+0;-77.0251,18.2540;JM-09;Saint Ann Parish;Castle Kelly
+0;-77.0531,18.2414;JM-09;Saint Ann Parish;Turnberry
+0;-77.0817,18.3189;JM-09;Saint Ann Parish;Cottage
+0;-77.4254,18.3530;JM-09;Saint Ann Parish;Somerton
+0;-77.2117,18.3129;JM-09;Saint Ann Parish;Woodstock
+0;-77.1686,18.3745;JM-09;Saint Ann Parish;Hermitage
+0;-77.1782,18.2422;JM-09;Saint Ann Parish;New England
+0;-77.2035,18.2454;JM-09;Saint Ann Parish;Arthurs Mount
+0;-77.2127,18.2479;JM-09;Saint Ann Parish;Drumilly
+0;-77.4942,18.2393;JM-15;Trelawny Parish;Gladstonbury
+0;-77.4943,18.2435;JM-15;Trelawny Parish;Lime Tree
+0;-77.4972,18.2441;JM-15;Trelawny Parish;City
+0;-77.5014,18.2490;JM-15;Trelawny Parish;Fullerton
+0;-77.5070,18.2527;JM-15;Trelawny Parish;Litchfield Mountain
+0;-77.4980,18.2132;JM-15;Trelawny Parish;Highgate Hall
+0;-77.5610,18.2980;JM-15;Trelawny Parish;Durham
+0;-77.5303,18.3050;JM-15;Trelawny Parish;Dutch Hill
+0;-77.5952,18.2572;JM-15;Trelawny Parish;Dry Hill
+0;-77.5350,18.2903;JM-15;Trelawny Parish;Freemans Hall
+0;-77.5516,18.2832;JM-15;Trelawny Parish;Gathering Castle
+0;-77.5738,18.2720;JM-15;Trelawny Parish;Retreat
+0;-77.4515,18.3939;JM-15;Trelawny Parish;Wilson Vale
+0;-77.4941,18.4045;JM-15;Trelawny Parish;Sportsman Hall
+0;-77.4772,18.3743;JM-15;Trelawny Parish;Ashley Hall
+0;-77.4913,18.3707;JM-15;Trelawny Parish;Vale Royal Mountain
+0;-77.5127,18.3964;JM-15;Trelawny Parish;Rush Content
+0;-77.5161,18.4057;JM-15;Trelawny Parish;Monteith
+0;-77.5168,18.3433;JM-15;Trelawny Parish;Linton Spring
+0;-77.5185,18.3470;JM-15;Trelawny Parish;Linton
+0;-77.5119,18.3455;JM-15;Trelawny Parish;Caledonia Alps
+0;-77.4850,18.3809;JM-15;Trelawny Parish;Cottage
+0;-77.4949,18.4095;JM-15;Trelawny Parish;Liberty Hall
+0;-77.4662,18.4352;JM-15;Trelawny Parish;Trafalgar
+0;-77.4615,18.4376;JM-15;Trelawny Parish;Green Hill
+0;-77.5716,18.2908;JM-15;Trelawny Parish;Ruthmel
+0;-77.5406,18.4645;JM-15;Trelawny Parish;Scharschmidt Prospect
+0;-77.5875,18.0680;JM-04;Manchester;Wickwar
+0;-77.8846,18.0644;JM-11;St. Elizabeth;Cambridge
+0;-77.7802,17.9306;JM-11;St. Elizabeth;Green Vale
+0;-77.8154,18.2086;JM-11;St. Elizabeth;Mulgrave
+0;-77.6184,17.8789;JM-11;St. Elizabeth;Gibraltar
+0;-77.6176,17.8837;JM-11;St. Elizabeth;Ballards Valley
+0;-77.7357,17.9442;JM-11;St. Elizabeth;Hounslow Bigwoods
+0;-77.6412,18.1234;JM-11;St. Elizabeth;Bogue
+0;-77.7551,17.8833;JM-11;St. Elizabeth;Frenchman
+0;-77.8564,18.1022;JM-11;St. Elizabeth;Mount Charles
+0;-77.8779,18.1241;JM-11;St. Elizabeth;Mount Lebanon
+0;-77.8741,18.0893;JM-11;St. Elizabeth;Hodges Land
+0;-77.8510,18.0935;JM-11;St. Elizabeth;Wilton
+0;-77.6903,18.0053;JM-11;St. Elizabeth;Maribah
+0;-77.6539,17.8996;JM-11;St. Elizabeth;Bellevue
+0;-77.6854,17.8947;JM-11;St. Elizabeth;Queensbury
+0;-77.8379,18.1996;JM-11;St. Elizabeth;Merrywood
+0;-77.6442,17.9774;JM-11;St. Elizabeth;Buena Vista
+0;-77.6289,17.9734;JM-11;St. Elizabeth;Austin
+0;-77.7157,17.8941;JM-11;St. Elizabeth;Campbells Run
+0;-77.7020,17.9014;JM-11;St. Elizabeth;Round Hill
+0;-77.7716,18.1979;JM-11;St. Elizabeth;Harmony Hall
+0;-77.5045,18.1133;JM-04;Manchester;Top Hill
+0;-77.8198,17.9635;JM-11;St. Elizabeth;Parottee
+0;-77.5938,17.9764;JM-11;St. Elizabeth;Baalbec
+0;-77.6161,18.0340;JM-11;St. Elizabeth;Phantilands
+0;-77.5846,18.0363;JM-04;Manchester;Spice Grove
+0;-77.6803,17.9129;JM-11;St. Elizabeth;Potsdam
+0;-77.7025,18.2332;JM-11;St. Elizabeth;Mosquito Hill
+0;-77.6939,18.2217;JM-11;St. Elizabeth;Cinnamon
+0;-77.6965,18.2200;JM-11;St. Elizabeth;Ringtail Hall
+0;-77.6294,17.9279;JM-11;St. Elizabeth;Red Bank
+0;-77.7103,18.0058;JM-11;St. Elizabeth;Prosper
+0;-77.7022,18.0070;JM-11;St. Elizabeth;Mount Plymouth
+0;-77.7598,17.8782;JM-11;St. Elizabeth;Calabash Bay
+0;-77.6667,17.9405;JM-11;St. Elizabeth;Corsham
+0;-77.6609,17.9418;JM-11;St. Elizabeth;Dalton
+0;-77.6506,17.9666;JM-11;St. Elizabeth;Warminster
+0;-77.7788,18.0038;JM-11;St. Elizabeth;Arlington
+0;-77.8447,18.0210;JM-11;St. Elizabeth;Heavy Sands
+0;-77.8579,18.0665;JM-11;St. Elizabeth;Luana
+0;-77.8722,18.0662;JM-11;St. Elizabeth;Luana Gardens
+0;-77.8153,18.0047;JM-11;St. Elizabeth;Salt Spring
+0;-77.8031,17.9695;JM-11;St. Elizabeth;Stilton
+0;-77.7400,17.9709;JM-11;St. Elizabeth;Brooklyn
+0;-77.4276,17.9114;JM-04;Manchester;Sweetland
+0;-77.6154,18.1455;JM-04;Manchester;Glenrock
+0;-77.6176,18.1513;JM-04;Manchester;Providence
+0;-77.6207,18.1607;JM-04;Manchester;Keynsham
+0;-77.6077,18.1440;JM-04;Manchester;Bogue
+0;-77.6163,18.1608;JM-04;Manchester;Windsor Park
+0;-77.6414,18.1531;JM-11;St. Elizabeth;Paradise
+0;-77.6580,18.1564;JM-11;St. Elizabeth;Content
+0;-77.6579,18.2090;JM-11;St. Elizabeth;Marlborough
+0;-77.6266,18.2000;JM-04;Manchester;Oxford - Part of
+0;-76.9367,18.3512;JM-13;Saint Mary Parish;Oxford
+0;-77.5315,17.9811;JM-04;Manchester;Berry Hill
+0;-77.4632,18.0910;JM-04;Manchester;Napierston
+0;-77.5977,18.1364;JM-04;Manchester;Medina
+0;-77.5907,18.1366;JM-04;Manchester;Greenland
+0;-77.5889,18.1097;JM-04;Manchester;New Hope
+0;-77.5792,18.0996;JM-04;Manchester;Timbuctoo
+0;-77.5965,18.1101;JM-04;Manchester;Glenhead
+0;-77.6095,18.1248;JM-04;Manchester;Mayfield
+0;-77.6163,18.2319;JM-04;Manchester;Penrith
+0;-77.6227,18.2194;JM-04;Manchester;Glasgow
+0;-77.6301,18.2373;JM-04;Manchester;Chamberlin
+0;-77.6325,18.2377;JM-15;Trelawny Parish;Chamberlin part of
+0;-77.5106,17.9468;JM-04;Manchester;Blenheim
+0;-77.5134,17.9345;JM-04;Manchester;Glasgow
+0;-77.5339,17.9257;JM-04;Manchester;Rose Hill
+0;-77.5291,17.9551;JM-04;Manchester;Butterwick
+0;-77.5545,17.9748;JM-04;Manchester;Elliston
+0;-77.5140,17.8955;JM-04;Manchester;New Broughton
+0;-77.5663,17.9060;JM-04;Manchester;New Forest
+0;-77.5820,17.8678;JM-11;St. Elizabeth;The Spring Pastures
+0;-77.5747,17.8868;JM-11;St. Elizabeth;Duff House - part of
+0;-77.5710,17.9283;JM-04;Manchester;Watsons Hill
+0;-77.5665,17.9318;JM-04;Manchester;Sea Air
+0;-77.5454,18.0379;JM-04;Manchester;Dunsinane
+0;-77.5400,18.0553;JM-04;Manchester;Mike Town
+0;-77.5731,18.0471;JM-04;Manchester;Chatham
+0;-77.5706,18.0267;JM-04;Manchester;Nottingham
+0;-77.5088,18.2126;JM-04;Manchester;Dobson
+0;-77.4827,18.1748;JM-04;Manchester;Bronte
+0;-77.4775,18.0067;JM-04;Manchester;May Day
+0;-77.4712,17.9794;JM-04;Manchester;Elgin
+0;-77.4595,18.0000;JM-04;Manchester;Epping Forest
+0;-77.4675,18.0982;JM-04;Manchester;Providence
+0;-77.4509,18.1182;JM-04;Manchester;Ginger Hall
+0;-77.4536,18.1059;JM-04;Manchester;Mango Grove
+0;-77.4559,18.1180;JM-04;Manchester;Bombay
+0;-77.5854,18.1727;JM-04;Manchester;Green Hill
+0;-77.5363,18.1529;JM-04;Manchester;Richmond Hill
+0;-77.5471,18.1503;JM-04;Manchester;Lambert
+0;-77.4288,17.9463;JM-04;Manchester;Perrins
+0;-77.4397,17.9395;JM-04;Manchester;Farm
+0;-77.4434,17.9212;JM-04;Manchester;Frankfield
+0;-77.5383,18.2332;JM-04;Manchester;Muirhead
+0;-77.5663,18.2411;JM-04;Manchester;Carter
+0;-77.4936,18.0792;JM-04;Manchester;Hanbury Pen
+0;-77.4878,18.0938;JM-04;Manchester;Coolshade
+0;-77.5275,18.1421;JM-04;Manchester;Litchfield
+0;-77.5697,18.0312;JM-04;Manchester;Upper Lincoln
+0;-77.5754,17.9815;JM-04;Manchester;Prospect
+0;-77.5778,17.9671;JM-04;Manchester;Precious Plain
+0;-77.4993,18.0120;JM-04;Manchester;Cedar Grove
+0;-77.5023,18.0205;JM-04;Manchester;Cedar Grove Gardens
+0;-77.5440,18.0152;JM-04;Manchester;Kingsland
+0;-77.4178,18.0423;JM-04;Manchester;Clarks Town
+0;-77.4336,18.0542;JM-04;Manchester;Prentis Hill
+0;-77.4607,18.0459;JM-04;Manchester;Comfort
+0;-77.4488,18.0268;JM-04;Manchester;Hampton
+0;-77.4514,18.0511;JM-04;Manchester;Melrose Pen
+0;-77.4841,18.0279;JM-04;Manchester;George's Valley
+0;-77.5871,18.2036;JM-04;Manchester;Waterloo
+0;-77.5704,18.2074;JM-04;Manchester;Good Intent
+0;-77.4695,17.9638;JM-04;Manchester;Burlington
+0;-77.3820,18.0094;JM-01;Clarendon;Scotts Pass - Part of
+0;-77.5022,17.9552;JM-04;Manchester;Bethel
+0;-77.4839,17.9546;JM-04;Manchester;Blenheim Town
+0;-77.4904,17.9629;JM-04;Manchester;New Wales
+0;-77.5102,17.9417;JM-04;Manchester;Hartham Rudds Corner
+0;-77.5107,17.9296;JM-04;Manchester;Stone's Hope
+0;-77.4990,17.9188;JM-04;Manchester;Salmon Town
+0;-77.5705,18.0996;JM-04;Manchester;Bath
+0;-77.5100,18.0208;JM-04;Manchester;Waltham
+0;-77.4797,18.0465;JM-04;Manchester;Heartease
+0;-77.5180,18.0663;JM-04;Manchester;New Green
+0;-77.0070,18.2483;JM-09;Saint Ann Parish;Saxham
+0;-76.9238,18.2168;JM-10;Saint Catherine Parish;Facey
+0;-77.2920,18.1449;JM-01;Clarendon;Red Hills
+0;-77.2906,18.1527;JM-01;Clarendon;Red Lands
+0;-76.9335,18.0189;JM-10;Saint Catherine Parish;Mount View Estate
+0;-77.0115,18.3200;JM-13;Saint Mary Parish;Arcadia
+0;-76.9878,18.2589;JM-13;Saint Mary Parish;Decoy Land
+0;-76.9842,18.2529;JM-10;Saint Catherine Parish;Meuse
+0;-76.9822,18.2507;JM-10;Saint Catherine Parish;Waterford
+0;-77.0875,18.0574;JM-10;Saint Catherine Parish;Back Pasture
+0;-77.0955,18.0712;JM-10;Saint Catherine Parish;Grass Piece
+0;-77.0463,18.2028;JM-10;Saint Catherine Parish;Bermaddy
+0;-77.0486,18.2037;JM-10;Saint Catherine Parish;Ruxley
+0;-77.0523,18.2088;JM-10;Saint Catherine Parish;Mullock
+0;-76.9466,18.0431;JM-10;Saint Catherine Parish;De La Vega Heights
+0;-76.9948,17.9960;JM-10;Saint Catherine Parish;Innswood Village
+0;-76.9018,17.8909;JM-10;Saint Catherine Parish;Saint George's Cliff
+0;-76.9095,17.8864;JM-10;Saint Catherine Parish;Sandhills Vista
+0;-77.0309,17.9657;JM-10;Saint Catherine Parish;McCooks Pen
+0;-77.0232,17.9863;JM-10;Saint Catherine Parish;Silversun Estate
+0;-77.0036,18.1064;JM-10;Saint Catherine Parish;Shenton
+0;-77.0249,18.1080;JM-10;Saint Catherine Parish;Bybrook
+0;-77.0139,18.1018;JM-10;Saint Catherine Parish;Jew Pen
+0;-76.9240,17.9704;JM-10;Saint Catherine Parish;Clifton
+0;-76.9508,18.0873;JM-10;Saint Catherine Parish;Hampstead
+0;-76.9404,18.0906;JM-10;Saint Catherine Parish;Montpelier
+0;-76.9528,18.1015;JM-10;Saint Catherine Parish;Winchester
+0;-76.9428,18.0968;JM-10;Saint Catherine Parish;Llangibby
+0;-76.9242,18.1075;JM-10;Saint Catherine Parish;Vauxhall
+0;-76.8736,17.9770;JM-10;Saint Catherine Parish;Independence City
+0;-76.8809,18.1312;JM-10;Saint Catherine Parish;Mount Mathews
+0;-76.8845,18.1255;JM-10;Saint Catherine Parish;Ashley
+0;-76.8823,18.2592;JM-13;Saint Mary Parish;Lyndale
+0;-77.1258,17.9996;JM-10;Saint Catherine Parish;Cocoa Walk
+0;-77.1219,17.9910;JM-10;Saint Catherine Parish;Colbeck Heights
+0;-77.2048,18.0454;JM-01;Clarendon;Garden Wood
+0;-77.2250,18.0300;JM-01;Clarendon;Canoe Valley
+0;-77.1576,18.0684;JM-10;Saint Catherine Parish;Blue Hole
+0;-77.1483,18.0680;JM-10;Saint Catherine Parish;Leith Mount
+0;-77.1547,18.0686;JM-10;Saint Catherine Parish;Orange Brook
+0;-77.1650,18.0091;JM-01;Clarendon;Canaan Valley
+0;-77.1621,18.0568;JM-10;Saint Catherine Parish;Cocoa Ridge
+0;-77.1641,18.0516;JM-01;Clarendon;Pleasant Hill
+0;-77.1230,18.1043;JM-10;Saint Catherine Parish;Pigeon Hill
+0;-77.1173,18.0955;JM-10;Saint Catherine Parish;Duxes
+0;-76.9598,18.0502;JM-10;Saint Catherine Parish;Orange Grove
+0;-77.1258,17.9885;JM-10;Saint Catherine Parish;Bullet Tree
+0;-77.0739,18.0182;JM-10;Saint Catherine Parish;Barry and Lloyds
+0;-77.0024,18.0338;JM-10;Saint Catherine Parish;Fruit Hill
+0;-77.0233,18.0390;JM-10;Saint Catherine Parish;Andersons Run
+0;-77.0187,18.0381;JM-10;Saint Catherine Parish;Russell Mountain
+0;-77.0913,18.1601;JM-10;Saint Catherine Parish;Polly Ground
+0;-77.0445,18.1489;JM-10;Saint Catherine Parish;Victoria
+0;-77.0722,18.1721;JM-10;Saint Catherine Parish;Nutshell
+0;-77.0433,18.0768;JM-10;Saint Catherine Parish;Crawle
+0;-76.9157,18.0617;JM-10;Saint Catherine Parish;Glade Pen
+0;-76.9255,18.0563;JM-10;Saint Catherine Parish;Mount Dawson
+0;-76.9255,18.0911;JM-10;Saint Catherine Parish;James Mountain
+0;-76.8926,18.0872;JM-10;Saint Catherine Parish;Waugh Hill
+0;-76.8869,18.0850;JM-10;Saint Catherine Parish;Rock Hall - part of
+0;-76.8686,18.0960;JM-10;Saint Catherine Parish;Springfield
+0;-76.8706,18.0898;JM-10;Saint Catherine Parish;Mount Recovery
+0;-77.1871,18.0813;JM-01;Clarendon;Cliffords
+0;-77.1926,18.0894;JM-01;Clarendon;Simons
+0;-77.1162,17.9631;JM-10;Saint Catherine Parish;Bannister
+0;-77.0176,18.2364;JM-10;Saint Catherine Parish;Middlesex - part of
+0;-76.9970,18.2405;JM-10;Saint Catherine Parish;Moreland
+0;-77.0101,18.2258;JM-10;Saint Catherine Parish;Spring Farm
+0;-77.0041,18.2231;JM-10;Saint Catherine Parish;Berry Garden
+0;-76.9836,18.2137;JM-10;Saint Catherine Parish;Phillipsburgh
+0;-76.9826,18.2166;JM-10;Saint Catherine Parish;Palmetto Valley
+0;-76.9884,18.2246;JM-10;Saint Catherine Parish;Boozy Ridge
+0;-76.9861,18.2215;JM-10;Saint Catherine Parish;Jubilee Town
+0;-77.0006,18.2442;JM-10;Saint Catherine Parish;Ragsville
+0;-76.9416,18.2424;JM-10;Saint Catherine Parish;Richmond Hill
+0;-76.9374,18.2464;JM-13;Saint Mary Parish;Richmond Hill part of
+0;-76.9428,18.2373;JM-10;Saint Catherine Parish;Pear Tree Grove
+0;-77.0090,18.2193;JM-10;Saint Catherine Parish;Clunis
+0;-76.9966,18.2246;JM-10;Saint Catherine Parish;Milton
+0;-77.0498,18.1598;JM-10;Saint Catherine Parish;Swansea
+0;-76.9737,17.9387;JM-10;Saint Catherine Parish;Hillrun
+0;-76.9537,17.9745;JM-10;Saint Catherine Parish;Blair Pen - New
+0;-77.0057,18.1324;JM-10;Saint Catherine Parish;Princessfield
+0;-76.9849,18.1625;JM-10;Saint Catherine Parish;Crawle
+0;-76.9211,18.1791;JM-10;Saint Catherine Parish;Dunvegan
+0;-76.9363,18.1884;JM-10;Saint Catherine Parish;Darling Spring
+0;-76.9222,18.1839;JM-10;Saint Catherine Parish;White Plain
+0;-76.9242,18.1832;JM-10;Saint Catherine Parish;Berry Hill
+0;-76.9454,18.0790;JM-10;Saint Catherine Parish;Kensington
+0;-76.9509,18.2104;JM-10;Saint Catherine Parish;Needham Wood
+0;-76.9409,18.2310;JM-13;Saint Mary Parish;Dunkeld
+0;-76.9356,18.2264;JM-10;Saint Catherine Parish;Coldingham
+0;-76.9293,18.2211;JM-10;Saint Catherine Parish;Bagbie
+0;-76.9283,18.2334;JM-13;Saint Mary Parish;Flemington
+0;-76.9007,18.1734;JM-10;Saint Catherine Parish;Belgar
+0;-77.0864,18.0709;JM-10;Saint Catherine Parish;Burke Hill
+0;-77.1017,18.0802;JM-10;Saint Catherine Parish;Long Grass
+0;-77.0366,18.0676;JM-10;Saint Catherine Parish;Trafalgar
+0;-77.0217,18.0514;JM-10;Saint Catherine Parish;Widows Retreat
+0;-77.8786,18.0681;JM-11;St. Elizabeth;Locklyn
+0;-76.9862,18.0634;JM-10;Saint Catherine Parish;Dignum Mountain
+0;-76.9916,18.0827;JM-10;Saint Catherine Parish;Keith Hall
+0;-76.9617,18.0708;JM-10;Saint Catherine Parish;Elrick
+0;-77.1740,18.0539;JM-01;Clarendon;Charing Cross
+0;-77.0431,18.0059;JM-10;Saint Catherine Parish;Byles
+0;-77.1022,18.3799;JM-09;Saint Ann Parish;Maiden Hall
+0;-77.0374,18.1897;JM-10;Saint Catherine Parish;Cambria Palm
+0;-77.0312,18.1885;JM-10;Saint Catherine Parish;Rosemere
+0;-76.6815,18.0515;JM-08;Saint Andrew Parish;Ginger Piece
+0;-76.7067,18.0754;JM-08;Saint Andrew Parish;Cold Spring
+0;-76.6975,17.9981;JM-08;Saint Andrew Parish;Stafford Hall
+0;-76.8283,18.1168;JM-08;Saint Andrew Parish;Sans Souci
+0;-76.7568,18.0775;JM-08;Saint Andrew Parish;Montpelier
+0;-76.8232,18.1638;JM-13;Saint Mary Parish;Content
+0;-76.8432,18.0576;JM-08;Saint Andrew Parish;Burnside Valley
+0;-76.8595,18.0582;JM-08;Saint Andrew Parish;Woodlands
+0;-76.6532,18.0038;JM-08;Saint Andrew Parish;Phillips Valley
+0;-76.6663,17.9640;JM-08;Saint Andrew Parish;Bito
+0;-76.6517,17.9873;JM-08;Saint Andrew Parish;Galloway Gap
+0;-76.6611,17.9683;JM-08;Saint Andrew Parish;Kalorama
+0;-76.7470,18.0675;JM-08;Saint Andrew Parish;Woodford
+0;-76.6938,18.0968;JM-07;Portland Parish;Wallenford
+0;-76.7219,18.0986;JM-07;Portland Parish;Commodore Donnington
+0;-76.7358,18.0821;JM-08;Saint Andrew Parish;Rose Hill
+0;-76.7487,18.0739;JM-08;Saint Andrew Parish;Mount Olive
+0;-76.7500,18.0783;JM-08;Saint Andrew Parish;Free Town
+0;-76.7511,18.0691;JM-08;Saint Andrew Parish;Cottage
+0;-76.7444,18.0690;JM-08;Saint Andrew Parish;Jack Allen
+0;-76.7490,18.0650;JM-08;Saint Andrew Parish;Peters Rock
+0;-76.6113,18.2028;JM-07;Portland Parish;Mount James
+0;-76.8007,18.1415;JM-08;Saint Andrew Parish;Mount Horeb
+0;-76.8230,18.0571;JM-08;Saint Andrew Parish;Green Glebe Mountain
+0;-76.7917,18.0751;JM-08;Saint Andrew Parish;Pear Hill
+0;-77.7763,18.4915;JM-12;Saint James Parish;Success Mountain
+0;-77.7600,18.5070;JM-12;Saint James Parish;Barrett Hall
+0;-77.7408,18.5066;JM-12;Saint James Parish;Greenwood
+0;-76.2848,17.9822;JM-14;Saint Thomas Parish;Haining - part of
+0;-76.5958,18.1790;JM-07;Portland Parish;Byram
+0;-76.5788,18.1425;JM-07;Portland Parish;Garrick
+0;-76.5860,18.1315;JM-07;Portland Parish;Mulberry
+0;-76.5957,18.1327;JM-07;Portland Parish;Grasspiece
+0;-76.5849,18.1282;JM-07;Portland Parish;Georges Field
+0;-76.5771,18.1388;JM-07;Portland Parish;Friendship
+0;-76.6017,18.1681;JM-07;Portland Parish;Bellevue
+0;-76.5988,18.1751;JM-07;Portland Parish;New Eden
+0;-76.6235,18.1772;JM-07;Portland Parish;Catalina
+0;-76.7184,18.2606;JM-13;Saint Mary Parish;Golden Grove
+0;-76.7332,18.2017;JM-13;Saint Mary Parish;Comfort Hill
+0;-76.4475,18.1435;JM-07;Portland Parish;West Retreat
+0;-76.4291,18.1427;JM-07;Portland Parish;Park Mount
+0;-76.5087,18.1343;JM-07;Portland Parish;Mount Olive
+0;-76.4329,18.1600;JM-07;Portland Parish;Mount Oakley
+0;-76.4444,18.1652;JM-07;Portland Parish;Red Hassel
+0;-76.2879,18.0087;JM-07;Portland Parish;Grange Hill
+0;-76.3043,18.0298;JM-07;Portland Parish;Muirton Pen
+0;-76.5903,18.1687;JM-07;Portland Parish;Spring Valley
+0;-76.6114,18.1631;JM-07;Portland Parish;Newport
+0;-76.6105,18.1700;JM-07;Portland Parish;Mount Hermon
+0;-76.6072,18.1651;JM-07;Portland Parish;Sherbourne
+0;-76.5992,18.1738;JM-07;Portland Parish;New Eden
+0;-76.6305,18.1940;JM-07;Portland Parish;Graham Hall
+0;-76.4726,18.1513;JM-07;Portland Parish;Isleworth
+0;-76.4638,18.1464;JM-07;Portland Parish;Kewgreen
+0;-76.2988,18.0439;JM-07;Portland Parish;Bush
+0;-76.3138,18.0788;JM-07;Portland Parish;Rural Vale
+0;-76.5821,18.1496;JM-07;Portland Parish;Rural Vale
+0;-76.6829,18.1651;JM-07;Portland Parish;Berwick Spring
+0;-76.6947,18.1464;JM-07;Portland Parish;Mahoe
+0;-76.5948,18.1656;JM-07;Portland Parish;Pilgrimage
+0;-76.5897,18.2115;JM-07;Portland Parish;Retreat
+0;-76.5541,18.1992;JM-07;Portland Parish;Hermitage Farm
+0;-76.6151,18.2209;JM-07;Portland Parish;Hopewell
+0;-76.7248,18.2204;JM-13;Saint Mary Parish;Mammouth - part
+0;-76.4464,18.1626;JM-07;Portland Parish;Perseverance
+0;-76.6088,18.1561;JM-07;Portland Parish;Mahogany Hill
+0;-76.5608,18.1534;JM-07;Portland Parish;Twickenham
+0;-76.6185,18.1482;JM-07;Portland Parish;Chancery Hall
+0;-76.6064,18.1519;JM-07;Portland Parish;McKeane
+0;-76.5129,18.1438;JM-07;Portland Parish;Bourbon
+0;-76.5097,18.1423;JM-07;Portland Parish;Fountainbleau
+0;-76.5115,18.1417;JM-07;Portland Parish;Dumphries
+0;-76.5130,18.1324;JM-07;Portland Parish;Expectation
+0;-76.5143,18.1381;JM-07;Portland Parish;Comesay
+0;-76.5192,18.1345;JM-07;Portland Parish;Gravesend
+0;-76.5339,18.1292;JM-07;Portland Parish;Still Further
+0;-76.5295,18.1237;JM-07;Portland Parish;Manchester
+0;-76.6889,18.1938;JM-07;Portland Parish;Orange Vale
+0;-76.7063,18.2046;JM-07;Portland Parish;Ann Grove
+0;-76.3383,18.1004;JM-07;Portland Parish;Grange
+0;-76.3374,18.1053;JM-07;Portland Parish;Hartford
+0;-76.3434,18.0978;JM-07;Portland Parish;Milford
+0;-76.6795,18.1492;JM-07;Portland Parish;Brooks
+0;-76.6941,18.1408;JM-07;Portland Parish;Leighfield
+0;-76.6911,18.1521;JM-07;Portland Parish;Mount Saint Bernard
+0;-76.6825,18.1849;JM-07;Portland Parish;Tranquility
+0;-76.8511,18.1400;JM-08;Saint Andrew Parish;Fern Hill
+0;-76.6913,18.0268;JM-08;Saint Andrew Parish;Galloway Lodge
+0;-76.7402,18.1475;JM-07;Portland Parish;Lovely Grove
+0;-76.6990,17.9695;JM-08;Saint Andrew Parish;Stavely Park
+0;-76.6748,17.9666;JM-08;Saint Andrew Parish;Lower Lucky Valley
+0;-76.8627,18.1171;JM-08;Saint Andrew Parish;Essex Hall
+0;-76.8551,18.1188;JM-08;Saint Andrew Parish;Belvedere
+0;-76.8279,18.0878;JM-08;Saint Andrew Parish;Swallowfield Mountain
+0;-76.6673,18.0700;JM-08;Saint Andrew Parish;Cinchona Heights
+0;-76.6599,18.0518;JM-08;Saint Andrew Parish;Mount Faraway
+0;-76.7385,18.0558;JM-08;Saint Andrew Parish;Maryland
+0;-77.3056,17.9725;JM-01;Clarendon;Georges Pen
+0;-77.2826,17.9721;JM-01;Clarendon;Clarendon Gardens
+0;-77.2253,18.2022;JM-09;Saint Ann Parish;Waterloo
+0;-76.7870,18.0672;JM-08;Saint Andrew Parish;Bridgemount
+0;-76.7770,18.0889;JM-08;Saint Andrew Parish;Bowden Hill
+0;-76.7433,18.0813;JM-08;Saint Andrew Parish;Happy Grove
+0;-76.8697,18.0458;JM-08;Saint Andrew Parish;Mount Royal
+0;-76.7343,18.0326;JM-08;Saint Andrew Parish;Cooperage
+0;-76.7365,18.0341;JM-08;Saint Andrew Parish;Mammie River
+0;-76.6875,18.0886;JM-08;Saint Andrew Parish;Candlelight
+0;-76.6496,18.0748;JM-08;Saint Andrew Parish;Strawberry Hill
+0;-76.6551,18.0330;JM-08;Saint Andrew Parish;Green Valley
+0;-76.6665,18.0326;JM-08;Saint Andrew Parish;Stone Leigh
+0;-76.8283,18.0831;JM-08;Saint Andrew Parish;New River
+0;-76.8192,18.0831;JM-08;Saint Andrew Parish;Whitehall Mountain
+0;-76.8446,18.0823;JM-08;Saint Andrew Parish;Padmore
+0;-76.8407,18.0814;JM-08;Saint Andrew Parish;Good Hope
+0;-76.8434,18.0771;JM-08;Saint Andrew Parish;Swain Spring
+0;-76.6612,18.0045;JM-08;Saint Andrew Parish;Lime Tree
+0;-76.7227,18.0591;JM-08;Saint Andrew Parish;Red Light
+0;-76.7234,18.0439;JM-08;Saint Andrew Parish;Claremont
+0;-76.7174,18.0384;JM-08;Saint Andrew Parish;Bermuda Mount
+0;-76.7112,18.0440;JM-08;Saint Andrew Parish;Penfield
+0;-76.8090,18.0455;JM-08;Saint Andrew Parish;Havendale
+0;-76.8487,18.1022;JM-08;Saint Andrew Parish;Lacey
+0;-76.7875,18.0711;JM-08;Saint Andrew Parish;Pigeon Valley
+0;-76.7961,18.1025;JM-08;Saint Andrew Parish;Iron River
+0;-76.6786,17.9544;JM-08;Saint Andrew Parish;Greenvale
+0;-76.8198,18.0380;JM-08;Saint Andrew Parish;Valentine Gardens
+0;-76.6762,18.0356;JM-08;Saint Andrew Parish;Salt Hill
+0;-76.6829,18.0396;JM-08;Saint Andrew Parish;Hopewell
+0;-76.7924,18.2130;JM-13;Saint Mary Parish;Cascade
+0;-76.8807,18.1794;JM-13;Saint Mary Parish;Wey Hill
+0;-77.0395,18.3947;JM-13;Saint Mary Parish;Three Hills
+0;-77.0282,18.4129;JM-13;Saint Mary Parish;Balmoral
+0;-77.0435,18.4210;JM-13;Saint Mary Parish;Tower Hill
+0;-76.7367,18.2243;JM-13;Saint Mary Parish;Juno Pen Village
+0;-76.9377,18.2370;JM-13;Saint Mary Parish;Stapleton
+0;-76.9830,18.3515;JM-13;Saint Mary Parish;Verdun
+0;-77.0170,18.3597;JM-13;Saint Mary Parish;Epping
+0;-77.0395,18.3684;JM-13;Saint Mary Parish;The Cedars
+0;-77.0241,18.3713;JM-13;Saint Mary Parish;Hindsville
+0;-76.9948,18.3625;JM-13;Saint Mary Parish;Union Hill Pen
+0;-77.0101,18.3661;JM-13;Saint Mary Parish;Warwick Castle
+0;-76.7359,18.1796;JM-13;Saint Mary Parish;Evandale
+0;-76.9617,18.3111;JM-13;Saint Mary Parish;Castle Mine
+0;-76.8724,18.2134;JM-13;Saint Mary Parish;Clarke Castle
+0;-76.9308,18.3243;JM-13;Saint Mary Parish;Coffee Field
+0;-76.8794,18.2128;JM-13;Saint Mary Parish;Montrose
+0;-76.9049,18.2833;JM-13;Saint Mary Parish;Tremolesworth
+0;-76.9224,18.2833;JM-13;Saint Mary Parish;Kilancholly
+0;-76.8575,18.3559;JM-13;Saint Mary Parish;Copper
+0;-76.8682,18.3603;JM-13;Saint Mary Parish;Frontier Estate
+0;-76.8534,18.1670;JM-13;Saint Mary Parish;New Ramble
+0;-76.8498,18.1666;JM-08;Saint Andrew Parish;King Weston
+0;-76.8515,18.1579;JM-08;Saint Andrew Parish;Ramble
+0;-76.9790,18.2867;JM-13;Saint Mary Parish;Cox Piece
+0;-76.9534,18.3806;JM-13;Saint Mary Parish;Hamilton Mountain
+0;-76.8975,18.1916;JM-13;Saint Mary Parish;Deeside
+0;-76.8520,18.2096;JM-13;Saint Mary Parish;Rock River
+0;-76.8390,18.1857;JM-13;Saint Mary Parish;Pitsfield
+0;-76.8902,18.2061;JM-13;Saint Mary Parish;Lewisburgh
+0;-76.8100,18.2148;JM-13;Saint Mary Parish;Mason Yard
+0;-76.8079,18.2177;JM-13;Saint Mary Parish;Margaret's Hope
+0;-76.7939,18.2160;JM-13;Saint Mary Parish;Georges Hope
+0;-76.9426,18.3814;JM-13;Saint Mary Parish;Eden Park
+0;-76.8414,18.1900;JM-13;Saint Mary Parish;Pembroke
+0;-76.8500,18.1768;JM-08;Saint Andrew Parish;Mount Cheerful
+0;-77.0019,18.2552;JM-13;Saint Mary Parish;Mount Pelier
+0;-76.9121,18.2481;JM-13;Saint Mary Parish;Hopewell
+0;-76.9136,18.2706;JM-13;Saint Mary Parish;Dean Pen
+0;-76.7878,18.2127;JM-13;Saint Mary Parish;Baxters Mountain
+0;-76.7963,18.2295;JM-13;Saint Mary Parish;Green Side
+0;-76.9859,18.2905;JM-13;Saint Mary Parish;Providence
+0;-76.8579,18.3338;JM-13;Saint Mary Parish;Roadside
+0;-76.9961,18.3257;JM-13;Saint Mary Parish;Farm Pen
+0;-76.9611,18.3240;JM-13;Saint Mary Parish;Raynham
+0;-76.9642,18.3204;JM-13;Saint Mary Parish;Cash Hill
+0;-76.9575,18.3252;JM-13;Saint Mary Parish;Prospect
+0;-76.8720,18.1670;JM-13;Saint Mary Parish;Mount Royal
+0;-76.8561,18.2906;JM-13;Saint Mary Parish;Moore Hall
+0;-76.9369,18.2668;JM-13;Saint Mary Parish;Petersfield
+0;-76.9415,18.3062;JM-13;Saint Mary Parish;Richmond Green
+0;-76.9336,18.3329;JM-13;Saint Mary Parish;Spring Piece
+0;-77.1078,18.0848;JM-10;Saint Catherine Parish;Nash
+0;-77.1289,18.1028;JM-10;Saint Catherine Parish;Pusey
+0;-77.1395,18.1021;JM-10;Saint Catherine Parish;Bartolas
+0;-77.1486,18.1026;JM-10;Saint Catherine Parish;Pleasant Hill
+0;-76.9003,18.1300;JM-10;Saint Catherine Parish;Sandy Hill
+0;-76.9721,18.1595;JM-10;Saint Catherine Parish;Mount Olive
+0;-76.9608,18.1805;JM-10;Saint Catherine Parish;Hampshire
+0;-77.1479,18.1259;JM-10;Saint Catherine Parish;Shady Grove
+0;-77.0252,18.0170;JM-10;Saint Catherine Parish;Naseberry Village
+0;-77.0203,17.9424;JM-10;Saint Catherine Parish;Hartlands
+0;-76.9387,18.0393;JM-10;Saint Catherine Parish;Williamson's Run
+0;-77.1616,17.9912;JM-01;Clarendon;Planters Hall
+0;-77.1734,18.0775;JM-10;Saint Catherine Parish;Cliffords Estate
+0;-76.9181,18.1558;JM-10;Saint Catherine Parish;Kelly Grove
+0;-76.9011,18.1341;JM-10;Saint Catherine Parish;Chesterfield
+0;-76.8965,18.1362;JM-10;Saint Catherine Parish;Mount Florence
+0;-76.8990,18.1169;JM-10;Saint Catherine Parish;Carew Castle
+0;-76.8897,18.1204;JM-10;Saint Catherine Parish;Bamboo Corner
+0;-76.8810,18.1343;JM-10;Saint Catherine Parish;Bullet Tree
+0;-76.8878,18.1214;JM-10;Saint Catherine Parish;Endeavour
+0;-76.9082,18.1416;JM-10;Saint Catherine Parish;Aberdeen
+0;-76.9045,18.1440;JM-10;Saint Catherine Parish;Ebenezer
+0;-76.9383,18.1324;JM-10;Saint Catherine Parish;Morris Hall
+0;-76.9072,18.1287;JM-10;Saint Catherine Parish;Back Hill
+0;-76.9071,18.1370;JM-10;Saint Catherine Parish;Cottage
+0;-76.8835,18.1609;JM-10;Saint Catherine Parish;Duplyn
+0;-76.8815,18.1585;JM-10;Saint Catherine Parish;Lovely Grove
+0;-76.8941,18.1488;JM-10;Saint Catherine Parish;Grateful Hill
+0;-76.8959,18.1495;JM-10;Saint Catherine Parish;Nottingham
+0;-77.3860,18.2310;JM-09;Saint Ann Parish;Broomhall
+0;-77.3942,18.2333;JM-09;Saint Ann Parish;Norwood
+0;-77.1469,18.2899;JM-09;Saint Ann Parish;Broadbelt
+0;-77.1229,18.3780;JM-09;Saint Ann Parish;Murphy Hill
+0;-77.3509,18.3019;JM-09;Saint Ann Parish;Myndale
+0;-77.3426,18.3141;JM-09;Saint Ann Parish;Hammerton
+0;-77.3429,18.3113;JM-09;Saint Ann Parish;Meldrum
+0;-77.1696,18.3166;JM-09;Saint Ann Parish;Pilgrim
+0;-77.1931,18.3211;JM-09;Saint Ann Parish;Rural Retreat
+0;-77.1586,18.3085;JM-09;Saint Ann Parish;Caroline
+0;-77.2543,18.3012;JM-09;Saint Ann Parish;Prickly Pole
+0;-77.4118,18.3313;JM-09;Saint Ann Parish;Tooting
+0;-77.0809,18.2475;JM-09;Saint Ann Parish;Providence
+0;-77.0756,18.2470;JM-09;Saint Ann Parish;Bellwood
+0;-77.4388,18.4512;JM-09;Saint Ann Parish;Bethel Town
+0;-77.4301,18.4478;JM-09;Saint Ann Parish;Herman Hill
+0;-77.3522,18.3791;JM-09;Saint Ann Parish;Milford
+0;-77.3624,18.3758;JM-09;Saint Ann Parish;Wilberforce
+0;-77.3111,18.3970;JM-09;Saint Ann Parish;Thatchfield
+0;-77.2140,18.2554;JM-09;Saint Ann Parish;Edinburgh Castle
+0;-77.2108,18.2297;JM-09;Saint Ann Parish;Drummoreland
+0;-77.2034,18.2276;JM-09;Saint Ann Parish;Inniskilin
+0;-77.2005,18.2276;JM-09;Saint Ann Parish;York
+0;-77.0865,18.3463;JM-09;Saint Ann Parish;Union Pen
+0;-77.2324,18.3845;JM-09;Saint Ann Parish;Spring Garden
+0;-77.2377,18.3629;JM-09;Saint Ann Parish;New Find
+0;-77.2504,18.3880;JM-09;Saint Ann Parish;Spring Mount
+0;-77.2546,18.3813;JM-09;Saint Ann Parish;Arabia Felix
+0;-77.3998,18.3995;JM-09;Saint Ann Parish;Fentan
+0;-77.3960,18.4053;JM-09;Saint Ann Parish;Retirement
+0;-77.3975,18.4123;JM-09;Saint Ann Parish;Lawrence Park
+0;-77.4310,18.4175;JM-09;Saint Ann Parish;Thicketts
+0;-77.4299,18.4238;JM-09;Saint Ann Parish;The Ridge
+0;-77.4578,18.3109;JM-09;Saint Ann Parish;Richmond Pen
+0;-77.4521,18.3238;JM-09;Saint Ann Parish;Barnstaple
+0;-77.4372,18.3447;JM-09;Saint Ann Parish;Industry Pen
+0;-77.4006,18.3165;JM-09;Saint Ann Parish;Defiance
+0;-77.1092,18.3556;JM-09;Saint Ann Parish;Spring Mount
+0;-77.2117,18.3956;JM-09;Saint Ann Parish;Content Pen
+0;-77.1979,18.3816;JM-09;Saint Ann Parish;Fletchers Land
+0;-77.1046,18.2842;JM-09;Saint Ann Parish;Rose Hall
+0;-77.2126,18.4030;JM-09;Saint Ann Parish;Laycock Village
+0;-77.2260,18.4032;JM-09;Saint Ann Parish;Blow Fire
+0;-77.2101,18.4132;JM-09;Saint Ann Parish;Clamstead
+0;-77.2085,18.4107;JM-09;Saint Ann Parish;Liberty Hill
+0;-77.3014,18.4461;JM-09;Saint Ann Parish;Mount Arrarat
+0;-77.2829,18.4024;JM-09;Saint Ann Parish;Lillyfield
+0;-77.1878,18.3952;JM-09;Saint Ann Parish;Dawson Town
+0;-77.4167,18.2992;JM-09;Saint Ann Parish;Perseverance
+0;-77.4106,18.3010;JM-09;Saint Ann Parish;Turners Run
+0;-77.4010,18.2956;JM-09;Saint Ann Parish;Industry - Part
+0;-77.2626,18.4596;JM-09;Saint Ann Parish;Llandovery Estate
+0;-77.4298,18.3015;JM-09;Saint Ann Parish;Lyndale RW
+0;-77.1059,18.3364;JM-09;Saint Ann Parish;Greenfield & Endeavour
+0;-77.0554,18.3785;JM-09;Saint Ann Parish;Brother's Retreat
+0;-77.0585,18.3716;JM-09;Saint Ann Parish;Mile End
+0;-77.0669,18.3699;JM-09;Saint Ann Parish;Upton
+0;-77.2960,18.3181;JM-09;Saint Ann Parish;Higgins Land
+0;-77.4069,18.3215;JM-09;Saint Ann Parish;Mount Nebo RW
+0;-77.3892,18.3203;JM-09;Saint Ann Parish;Glasgow
+0;-77.1046,18.3502;JM-09;Saint Ann Parish;Belly Blister
+0;-77.4340,18.4410;JM-09;Saint Ann Parish;Woods Town
+0;-77.4241,18.4501;JM-09;Saint Ann Parish;Belle Grove
+0;-77.2565,18.4051;JM-09;Saint Ann Parish;Banks Mountain
+0;-77.2509,18.4058;JM-09;Saint Ann Parish;Coolshade Mount
+0;-77.2565,18.4032;JM-09;Saint Ann Parish;Clay Ground
+0;-77.2483,18.3998;JM-09;Saint Ann Parish;Richmond Mountain
+0;-77.2452,18.3785;JM-09;Saint Ann Parish;Aurora
+0;-77.2060,18.3081;JM-09;Saint Ann Parish;Red Hill
+0;-77.2971,18.4290;JM-09;Saint Ann Parish;Llandovery Mountain
+0;-77.3757,18.4336;JM-09;Saint Ann Parish;Liberty Hill
+0;-77.3739,18.4297;JM-09;Saint Ann Parish;Wilton
+0;-77.3005,18.3168;JM-09;Saint Ann Parish;Heartease
+0;-77.3248,18.3370;JM-09;Saint Ann Parish;Woodlands
+0;-77.2737,18.4013;JM-09;Saint Ann Parish;Chippenham Park
+0;-77.2371,18.3797;JM-09;Saint Ann Parish;Locheroch
+0;-77.2399,18.3770;JM-09;Saint Ann Parish;Loch Enoch
+0;-77.2362,18.3720;JM-09;Saint Ann Parish;Content - part
+0;-77.2439,18.3814;JM-09;Saint Ann Parish;Ebenezer
+0;-77.2313,18.3713;JM-09;Saint Ann Parish;Road Vale
+0;-77.3270,18.3677;JM-09;Saint Ann Parish;Buxton
+0;-77.4804,18.4364;JM-15;Trelawny Parish;Lysworney
+0;-77.4630,18.4715;JM-15;Trelawny Parish;Holland Hill
+0;-77.3868,18.3519;JM-09;Saint Ann Parish;Georges Grove
+0;-77.3618,18.3650;JM-09;Saint Ann Parish;Friendship
+0;-77.3475,18.3603;JM-09;Saint Ann Parish;Farm
+0;-77.4607,18.4615;JM-15;Trelawny Parish;Tom Bell
+0;-77.5172,18.3095;JM-15;Trelawny Parish;Brown Bottom
+0;-77.4413,18.3842;JM-09;Saint Ann Parish;Woodstock
+0;-77.5167,18.3229;JM-15;Trelawny Parish;Comfort Hall
+0;-77.5166,18.3258;JM-15;Trelawny Parish;Mahoe Hill
+0;-77.5094,18.3472;JM-15;Trelawny Parish;Crydon Mountain
+0;-77.5390,18.3953;JM-15;Trelawny Parish;The Hyde
+0;-77.6060,18.4015;JM-15;Trelawny Parish;New Forest
+0;-78.1612,18.4184;JM-02;Hanover;Eaton Estate
+0;-78.1501,18.4160;JM-02;Hanover;Dundee Pen
+0;-78.1602,18.4277;JM-02;Hanover;Riley
+0;-78.1838,18.4179;JM-02;Hanover;Baulk
+0;-78.1792,18.4358;JM-02;Hanover;Dry Hill
+0;-78.1722,18.4349;JM-02;Hanover;Brissett
+0;-78.2543,18.3870;JM-02;Hanover;Winchester Estate
+0;-78.2254,18.3611;JM-02;Hanover;Kendal
+0;-78.2359,18.3427;JM-02;Hanover;Jerusalem Mountain - part of
+0;-78.2845,18.3721;JM-02;Hanover;Squinger
+0;-78.2206,18.3585;JM-02;Hanover;Glasgow - part of
+0;-78.0328,18.3741;JM-02;Hanover;Pierces Village
+0;-77.9743,18.3652;JM-02;Hanover;Burnt Ground
+0;-77.9551,18.0816;JM-16;Westmoreland;Grove
+0;-77.9561,18.1000;JM-16;Westmoreland;Three Brods
+0;-77.9640,18.0771;JM-16;Westmoreland;South Sea Park
+0;-77.9568,18.0755;JM-16;Westmoreland;Cove Pen
+0;-78.0195,18.1468;JM-16;Westmoreland;Cherry Hill
+0;-78.0104,18.1431;JM-16;Westmoreland;Mount Airy
+0;-78.2217,18.3186;JM-16;Westmoreland;Meylersfield Mountain
+0;-78.2437,18.3118;JM-16;Westmoreland;Retrieve and Drummond Mountain
+0;-78.2059,18.2880;JM-16;Westmoreland;Charlottenburgh
+0;-78.1573,18.2770;JM-16;Westmoreland;Llandilo
+0;-77.9788,18.1764;JM-16;Westmoreland;Ivanhoe
+0;-78.0082,18.2322;JM-16;Westmoreland;Jointer
+0;-77.9974,18.2452;JM-16;Westmoreland;Gibraltar
+0;-77.9944,18.2450;JM-16;Westmoreland;Goodwill
+0;-78.0167,18.2286;JM-16;Westmoreland;Glen Curran
+0;-77.9224,18.2630;JM-16;Westmoreland;Carpenter Hall
+0;-77.9444,18.2726;JM-16;Westmoreland;Cedar Grove
+0;-77.9462,18.2987;JM-16;Westmoreland;Galloway
+0;-78.2277,18.2332;JM-16;Westmoreland;Drummond Lodge
+0;-78.1662,18.3098;JM-16;Westmoreland;Bull Strode
+0;-77.8936,18.2540;JM-16;Westmoreland;Hogmagogen
+0;-77.9252,18.2518;JM-16;Westmoreland;Belvedere Mountain
+0;-77.9156,18.2643;JM-16;Westmoreland;Ricketts Land
+0;-77.9226,18.2617;JM-16;Westmoreland;Melrose
+0;-77.9234,18.2585;JM-16;Westmoreland;Pike Mountain
+0;-77.8939,18.2659;JM-16;Westmoreland;Underwood
+0;-78.1009,18.2538;JM-16;Westmoreland;Westmore Gardens
+0;-78.3259,18.2342;JM-16;Westmoreland;Pitkelleney
+0;-78.3267,18.2449;JM-16;Westmoreland;Westcliffe
+0;-78.0509,18.2097;JM-16;Westmoreland;Scott Hill
+0;-77.9795,18.1070;JM-16;Westmoreland;Little Culloden
+0;-78.1169,18.2681;JM-16;Westmoreland;Fenton Pen
+0;-77.9337,18.1971;JM-16;Westmoreland;Johnson
+0;-77.9512,18.1959;JM-16;Westmoreland;Windsor Grove
+0;-77.9920,18.2069;JM-16;Westmoreland;Deleon Bigwoods
+0;-77.9660,18.2045;JM-16;Westmoreland;Lennox Bigwoods
+0;-77.9666,18.2257;JM-16;Westmoreland;Clontarf
+0;-77.9650,18.2272;JM-16;Westmoreland;Carron Lodge
+0;-77.9960,18.1990;JM-16;Westmoreland;Bigwoods
+0;-77.9666,18.1931;JM-16;Westmoreland;Archil Park
+0;-77.9340,18.1594;JM-11;St. Elizabeth;Paynes Town
+0;-77.9875,18.2150;JM-16;Westmoreland;De Leon
+0;-77.9750,18.2288;JM-16;Westmoreland;Kent
+0;-77.9685,18.2173;JM-16;Westmoreland;Happy Retreat
+0;-77.9919,18.2224;JM-16;Westmoreland;Hopewell and Lundie
+0;-77.9816,18.2261;JM-16;Westmoreland;Garden Hill
+0;-77.9710,18.2302;JM-16;Westmoreland;Mayfield
+0;-77.9032,18.2700;JM-16;Westmoreland;Read Land
+0;-77.9050,18.2707;JM-16;Westmoreland;Thompson Land
+0;-77.9059,18.2677;JM-16;Westmoreland;Liberty
+0;-77.9056,18.2702;JM-16;Westmoreland;Campbell Land
+0;-77.9044,18.2668;JM-16;Westmoreland;Graham Lands
+0;-77.9010,18.2712;JM-16;Westmoreland;Amity
+0;-77.9073,18.2709;JM-16;Westmoreland;Waiteland
+0;-77.9008,18.2775;JM-16;Westmoreland;Grey Land
+0;-77.8998,18.2767;JM-16;Westmoreland;Prospect
+0;-77.8977,18.2783;JM-16;Westmoreland;Endeavour
+0;-77.8974,18.2805;JM-16;Westmoreland;Green Hill
+0;-77.8972,18.2624;JM-16;Westmoreland;Longwood
+0;-77.8970,18.3101;JM-12;Saint James Parish;Muchette
+0;-77.8300,18.3128;JM-12;Saint James Parish;Brothers Retreat
+0;-77.8270,18.3174;JM-12;Saint James Parish;Flamstead Gardens
+0;-77.8519,18.3356;JM-12;Saint James Parish;Bandon Pen
+0;-77.8301,18.4028;JM-12;Saint James Parish;Flamstead
+0;-77.8216,18.4344;JM-12;Saint James Parish;Latium
+0;-77.7993,18.4040;JM-12;Saint James Parish;Prospect
+0;-77.8290,18.3967;JM-12;Saint James Parish;Sunderland Estate
+0;-77.8324,18.3912;JM-12;Saint James Parish;Newman Hall
+0;-77.8734,18.3540;JM-12;Saint James Parish;Harmony Hall
+0;-77.8778,18.3534;JM-12;Saint James Parish;Farm
+0;-77.8897,18.3750;JM-12;Saint James Parish;Mafoota
+0;-77.9184,18.4030;JM-12;Saint James Parish;Childermas
+0;-77.9151,18.4086;JM-12;Saint James Parish;Wakefield
+0;-77.7810,18.4660;JM-12;Saint James Parish;Content
+0;-77.7726,18.4684;JM-12;Saint James Parish;Blytheston
+0;-77.7648,18.4728;JM-12;Saint James Parish;Unity
+0;-77.8250,18.4484;JM-12;Saint James Parish;Moor Park
+0;-77.8045,18.4670;JM-12;Saint James Parish;Millenium Hall
+0;-77.7763,18.3477;JM-12;Saint James Parish;Georges Valley
+0;-77.8033,18.3500;JM-12;Saint James Parish;Dundee and Heart Ease
+0;-77.8485,18.3877;JM-12;Saint James Parish;Speculation
+0;-77.7965,18.4322;JM-12;Saint James Parish;Bull Pen
+0;-77.7596,18.4413;JM-12;Saint James Parish;Dumfries Pen
+0;-77.7599,18.4486;JM-12;Saint James Parish;Belfield
+0;-77.7649,18.4045;JM-12;Saint James Parish;Occasion Hill
+0;-77.8320,18.2772;JM-12;Saint James Parish;Auchindolly
+0;-77.8195,18.3349;JM-12;Saint James Parish;Clydeside
+0;-77.9434,18.3997;JM-12;Saint James Parish;Fustic Grove
+0;-77.9282,18.4212;JM-12;Saint James Parish;Prospect Pen
+0;-77.9272,18.4294;JM-12;Saint James Parish;Edge Hill
+0;-77.9292,18.4267;JM-12;Saint James Parish;Mount Parnassus
+0;-77.8778,18.2708;JM-12;Saint James Parish;Stevenage
+0;-77.8679,18.2770;JM-12;Saint James Parish;Lapland
+0;-77.8825,18.3037;JM-12;Saint James Parish;Shortwood
+0;-77.7733,18.4048;JM-12;Saint James Parish;Equity
+0;-77.8020,18.3773;JM-12;Saint James Parish;Mount Ararat
+0;-77.7987,18.3732;JM-12;Saint James Parish;Top Carlton
+0;-77.7632,18.4052;JM-12;Saint James Parish;Weymms Road
+0;-77.8276,18.4863;JM-12;Saint James Parish;Northern Estates
+0;-77.8828,18.3194;JM-12;Saint James Parish;New Battle
+0;-77.9008,18.3101;JM-12;Saint James Parish;White Sand
+0;-77.4539,18.1882;JM-01;Clarendon;Mount Lebanon
+0;-77.8290,18.2581;JM-12;Saint James Parish;Mount Lebanon
+0;-77.8131,18.2514;JM-12;Saint James Parish;Niagara
+0;-77.8020,18.2460;JM-12;Saint James Parish;Arcadia
+0;-77.8152,18.3527;JM-12;Saint James Parish;Phoenix Mountain
+0;-77.8714,18.2719;JM-12;Saint James Parish;Belfont
+0;-77.7845,18.4353;JM-12;Saint James Parish;Cedar Hill
+0;-77.8700,18.3745;JM-12;Saint James Parish;Endeavour
+0;-77.7987,18.3452;JM-12;Saint James Parish;Dundee Mountain
+0;-77.8130,18.4069;JM-12;Saint James Parish;Leyden
+0;-77.8711,18.3117;JM-12;Saint James Parish;Leyden
+0;-77.7892,18.2373;JM-11;St. Elizabeth;Cooks Bottom
+0;-77.6503,18.1831;JM-11;St. Elizabeth;Wallingford
+0;-77.5880,18.0112;JM-04;Manchester;Salliwitter
+0;-77.5944,18.0177;JM-11;St. Elizabeth;New Hope
+0;-77.9231,18.1303;JM-11;St. Elizabeth;Red Bank
+0;-77.7733,18.0910;JM-11;St. Elizabeth;Cuffies Pen
+0;-77.7385,18.0764;JM-11;St. Elizabeth;Content
+0;-77.7341,18.0678;JM-11;St. Elizabeth;Rocky Hill
+0;-77.7354,18.0553;JM-11;St. Elizabeth;Park Mountain
+0;-77.7300,18.0490;JM-11;St. Elizabeth;Good Hope
+0;-77.6969,18.1498;JM-11;St. Elizabeth;McLeod Mountain
+0;-77.7382,18.1510;JM-11;St. Elizabeth;Coker
+0;-77.7432,18.1536;JM-11;St. Elizabeth;Spring Garden
+0;-77.7603,17.8900;JM-11;St. Elizabeth;Lewis Town
+0;-77.7629,17.8894;JM-11;St. Elizabeth;Isaac Pond
+0;-77.7631,17.8873;JM-11;St. Elizabeth;Sandy Bank
+0;-77.8938,18.1730;JM-11;St. Elizabeth;Woodlands
+0;-77.8843,18.1874;JM-11;St. Elizabeth;Cheviot HIll
+0;-77.8788,18.2048;JM-11;St. Elizabeth;Merry Hill
+0;-77.8810,18.2079;JM-11;St. Elizabeth;Huntley Castle
+0;-77.8943,18.2165;JM-16;Westmoreland;Bershire
+0;-77.8898,18.1380;JM-11;St. Elizabeth;Green Valley
+0;-77.8800,18.1471;JM-11;St. Elizabeth;Compton
+0;-77.8880,18.1544;JM-11;St. Elizabeth;Frazer
+0;-77.8950,18.1522;JM-11;St. Elizabeth;Rose Hall
+0;-77.9029,18.1574;JM-11;St. Elizabeth;Mocho
+0;-77.7503,17.9473;JM-11;St. Elizabeth;Ridge Pen
+0;-77.6328,17.9894;JM-11;St. Elizabeth;Stone Bottom
+0;-77.7011,17.9575;JM-11;St. Elizabeth;Smithfield
+0;-77.6915,17.9537;JM-11;St. Elizabeth;Mount Pleasant
+0;-77.6544,17.9596;JM-11;St. Elizabeth;Mole Hill
+0;-77.6569,17.9636;JM-11;St. Elizabeth;Folly
+0;-77.6744,18.0059;JM-11;St. Elizabeth;Southampton
+0;-77.7491,17.9761;JM-11;St. Elizabeth;Scotland
+0;-77.5997,17.9044;JM-11;St. Elizabeth;Dunder Hill
+0;-77.5977,17.9077;JM-11;St. Elizabeth;Chocolate Hole
+0;-77.6074,17.9175;JM-11;St. Elizabeth;Delightful
+0;-77.6151,17.9019;JM-11;St. Elizabeth;Exton
+0;-77.5841,17.9124;JM-11;St. Elizabeth;Essex Valley
+0;-77.6905,17.8807;JM-11;St. Elizabeth;Seaview
+0;-77.7114,17.8820;JM-11;St. Elizabeth;Flagaman
+0;-77.7435,17.8825;JM-11;St. Elizabeth;Great Bay
+0;-77.7529,18.0161;JM-11;St. Elizabeth;Retrieve
+0;-77.7531,18.0176;JM-11;St. Elizabeth;Orange Grove
+0;-77.7470,18.0090;JM-11;St. Elizabeth;Knoxwood
+0;-77.7060,18.0754;JM-11;St. Elizabeth;New River
+0;-77.6392,18.1708;JM-11;St. Elizabeth;Chewmanga
+0;-77.5906,17.9592;JM-11;St. Elizabeth;Content
+0;-77.8600,18.1280;JM-11;St. Elizabeth;Content
+0;-77.9159,18.0934;JM-11;St. Elizabeth;Colter
+0;-77.5996,17.8677;JM-11;St. Elizabeth;Breadnut Wood
+0;-77.9027,18.1007;JM-11;St. Elizabeth;Forest Mountain
+0;-77.9070,18.1048;JM-11;St. Elizabeth;Rose Hill
+0;-77.6247,18.1178;JM-11;St. Elizabeth;Ginger Piece
+0;-77.6259,18.1235;JM-11;St. Elizabeth;Spring Head
+0;-77.7073,17.9722;JM-11;St. Elizabeth;Malvern Pen
+0;-77.7169,17.9756;JM-11;St. Elizabeth;Elgin
+0;-77.7148,17.9700;JM-11;St. Elizabeth;Malvern Heights
+0;-77.7173,17.9729;JM-11;St. Elizabeth;Malvern Well
+0;-77.6360,17.9193;JM-11;St. Elizabeth;Portsea
+0;-77.4633,17.9379;JM-04;Manchester;Kensworth
+0;-77.4453,17.9820;JM-04;Manchester;Edgeware
+0;-77.5871,17.9561;JM-11;St. Elizabeth;Brambleton Hall
+0;-77.4565,18.0760;JM-04;Manchester;Long Hill
+0;-77.5033,18.1340;JM-04;Manchester;Contrivance
+0;-77.4884,18.1371;JM-04;Manchester;Fine Grass
+0;-77.4810,18.1115;JM-04;Manchester;Comfort Hall
+0;-77.4756,18.1150;JM-04;Manchester;Cheapside
+0;-77.4828,18.1194;JM-04;Manchester;Mizpah
+0;-77.4819,18.1213;JM-04;Manchester;Thompson Piece
+0;-77.3800,18.0390;JM-01;Clarendon;Whitney Estate
+0;-77.4016,18.0560;JM-01;Clarendon;Coffee Grove
+0;-77.4189,18.0409;JM-04;Manchester;Compass Hall
+0;-77.4245,18.0384;JM-04;Manchester;Trinity
+0;-77.5056,18.2085;JM-04;Manchester;Dunnsville
+0;-77.5138,18.2030;JM-04;Manchester;Ticky Ticky
+0;-77.5349,18.2070;JM-04;Manchester;Bilby
+0;-77.5460,18.2118;JM-04;Manchester;Barrys Run
+0;-77.5022,17.9089;JM-04;Manchester;Lang Syne
+0;-77.5069,17.9107;JM-04;Manchester;Wilson Pen
+0;-77.4377,17.9319;JM-04;Manchester;Haddingville
+0;-76.4540,17.9418;JM-14;Saint Thomas Parish;Patto Gully
+0;-76.4701,17.9599;JM-14;Saint Thomas Parish;Spring Pen
+0;-76.4324,18.1550;JM-07;Portland Parish;Lyda
+0;-76.4243,18.1696;JM-07;Portland Parish;Anchovy
+0;-76.4213,18.1706;JM-07;Portland Parish;Clear Spring
+0;-77.4380,18.1101;JM-04;Manchester;Free Town
+0;-77.4552,17.9953;JM-04;Manchester;Rose Cottage
+0;-77.5954,18.0850;JM-04;Manchester;Silver Grove
+0;-77.5439,17.9913;JM-04;Manchester;Swabys Hope
+0;-77.5131,18.1661;JM-04;Manchester;Denham Farm
+0;-77.5010,18.1931;JM-04;Manchester;Sawmill
+0;-77.4074,17.9290;JM-04;Manchester;Manningsfield
+0;-77.5192,17.9736;JM-04;Manchester;Daley's Grove
+0;-77.5084,17.9660;JM-04;Manchester;Bethabara
+0;-77.5040,17.9672;JM-04;Manchester;Newfield
+0;-77.5538,18.1111;JM-04;Manchester;Coley Mountain
+0;-77.5578,18.1210;JM-04;Manchester;Endeavour
+0;-77.5385,18.1190;JM-04;Manchester;Lyndhurst
+0;-77.4726,18.1973;JM-01;Clarendon;Silent Hill
+0;-77.3922,17.9144;JM-04;Manchester;Content
+0;-77.5344,17.8995;JM-04;Manchester;Lottery
+0;-77.5128,17.9642;JM-04;Manchester;Ryde
+0;-77.4497,18.0360;JM-04;Manchester;Browns Town
+0;-77.4323,18.0296;JM-04;Manchester;Broadleaf
+0;-77.4297,18.0192;JM-04;Manchester;Good Hope
+0;-77.4330,18.0150;JM-04;Manchester;Ramble
+0;-77.3772,17.8491;JM-01;Clarendon;Farquhar's Land
+0;-77.3572,17.8715;JM-01;Clarendon;Scotts Bottom
+0;-77.3467,17.9751;JM-01;Clarendon;McGilchrist Pen
+0;-77.3559,17.8949;JM-01;Clarendon;Pass Side
+0;-77.2220,18.1567;JM-01;Clarendon;Seven Ground
+0;-77.2234,18.1820;JM-01;Clarendon;Jericho
+0;-77.2304,18.1810;JM-01;Clarendon;Good Hope
+0;-77.4440,17.9370;JM-04;Manchester;Farenough
+0;-76.9608,18.0326;JM-10;Saint Catherine Parish;Cross Pen
+0;-76.9568,18.0315;JM-10;Saint Catherine Parish;Cross Estate
+0;-77.2330,18.0314;JM-01;Clarendon;Rhodens Store
+0;-77.2200,18.0263;JM-01;Clarendon;New Longville
+0;-77.1938,17.9974;JM-01;Clarendon;Hummingbird Meadows
+0;-77.1613,18.0270;JM-01;Clarendon;Billy Gordon
+0;-77.3177,18.0512;JM-01;Clarendon;Glendale
+0;-77.3190,18.0571;JM-01;Clarendon;Hampton Court
+0;-77.3401,18.0589;JM-01;Clarendon;Drummond Castle
+0;-77.3336,18.0571;JM-01;Clarendon;Glenmuir
+0;-77.3404,18.0542;JM-01;Clarendon;Dawkins
+0;-77.3104,17.8788;JM-01;Clarendon;Gimme-me-bit
+0;-77.3097,18.1410;JM-01;Clarendon;Douce
+0;-77.3337,18.0100;JM-01;Clarendon;Amity Hall
+0;-77.3274,17.9816;JM-01;Clarendon;Ludford Rock
+0;-77.3535,17.8733;JM-01;Clarendon;Bryans River
+0;-77.3834,18.0888;JM-01;Clarendon;Victoria
+0;-77.3428,18.0962;JM-01;Clarendon;Elgin
+0;-77.3478,18.0925;JM-01;Clarendon;Good Meadow
+0;-77.3522,18.0930;JM-01;Clarendon;Reid Piece
+0;-77.3348,18.0952;JM-01;Clarendon;Old Pound
+0;-77.3426,17.9637;JM-01;Clarendon;Bakers Pen
+0;-77.2977,17.8925;JM-01;Clarendon;Manningsfield
+0;-77.3805,18.1213;JM-01;Clarendon;Martinee
+0;-77.3785,18.1346;JM-01;Clarendon;Ettrick Hall
+0;-77.3788,18.1538;JM-01;Clarendon;Andrew Hill
+0;-77.3762,18.1375;JM-01;Clarendon;Old Savoy
+0;-77.3768,18.1356;JM-01;Clarendon;Nine Turns
+0;-77.3898,18.1482;JM-01;Clarendon;Top Hill
+0;-77.3135,18.1622;JM-01;Clarendon;Brae Head
+0;-77.3083,18.0832;JM-01;Clarendon;Old Plantation
+0;-77.3665,18.0593;JM-01;Clarendon;Old Works
+0;-77.1877,17.9929;JM-01;Clarendon;Breadland Pen
+0;-77.2947,18.0181;JM-01;Clarendon;Breadnut Valley
+0;-77.1894,17.9380;JM-01;Clarendon;Palmetto Pen
+0;-77.1967,17.9380;JM-01;Clarendon;Green Bottom
+0;-77.1726,17.9388;JM-01;Clarendon;Green Park
+0;-77.3356,18.1537;JM-01;Clarendon;Taymount
+0;-77.3522,18.0883;JM-01;Clarendon;Mount Hermon
+0;-77.3543,18.1130;JM-01;Clarendon;Unity
+0;-77.3318,18.1044;JM-01;Clarendon;Mount Hindmost
+0;-77.3430,18.1071;JM-01;Clarendon;Coolspring
+0;-77.3600,18.1069;JM-01;Clarendon;Kellens
+0;-77.1720,17.9819;JM-01;Clarendon;Shands Pen
+0;-77.2219,18.0744;JM-01;Clarendon;Low Ground
+0;-77.2925,18.0123;JM-01;Clarendon;Pleasant Valley
+0;-77.2938,18.1264;JM-01;Clarendon;Orange River
+0;-77.3200,18.1590;JM-01;Clarendon;Collington
+0;-77.1745,18.0630;JM-01;Clarendon;Campbells Goldmine
+0;-77.1790,18.0555;JM-01;Clarendon;Dry Hill
+0;-77.1857,18.0495;JM-01;Clarendon;Coffee Grove
+0;-77.1871,18.0582;JM-01;Clarendon;Provost
+0;-77.1882,18.0542;JM-01;Clarendon;Retirement
+0;-77.1896,18.0570;JM-01;Clarendon;Mitchells Hill
+0;-77.3405,18.1495;JM-01;Clarendon;Retreat
+0;-77.1931,18.0949;JM-01;Clarendon;Unity
+0;-77.3620,18.1237;JM-01;Clarendon;Long Look
+0;-77.4185,18.1800;JM-01;Clarendon;McConnells Run
+0;-77.2711,18.1824;JM-01;Clarendon;Sandy River
+0;-77.3369,18.1325;JM-01;Clarendon;Goddon Hill
+0;-77.3413,18.0140;JM-01;Clarendon;Ashley
+0;-77.3414,18.0176;JM-01;Clarendon;Montreal
+0;-77.2910,18.0523;JM-01;Clarendon;Ashley Candia
+0;-77.2869,18.0568;JM-01;Clarendon;Harrietfield
+0;-77.2903,18.0585;JM-01;Clarendon;Society
+0;-77.2657,18.0999;JM-01;Clarendon;Danks Savoy
+0;-77.2900,17.9663;JM-01;Clarendon;Four Paths Basic School
+0;-77.2840,17.9679;JM-01;Clarendon;Foga
+0;-77.3404,18.1830;JM-01;Clarendon;Nairn Castle
+0;-77.1713,18.1200;JM-10;Saint Catherine Parish;Lemon Hall
+0;-77.0137,18.0670;JM-10;Saint Catherine Parish;Smokey Hole
+0;-77.3733,18.0248;JM-01;Clarendon;Mount Airy
+0;-77.1451,17.9259;JM-01;Clarendon;Rose Hall
+0;-77.1405,17.9233;JM-10;Saint Catherine Parish;Bodles
+0;-77.8349,18.1158;JM-11;St. Elizabeth;Gainsborough
+0;-77.6779,18.4620;JM-15;Trelawny Parish;Granville
+0;-76.9902,18.3880;JM-13;Saint Mary Parish;Mango Valley
+0;-77.4287,18.2147;JM-09;Saint Ann Parish;Cuffie Ridge
+0;-77.9641,18.4406;JM-12;Saint James Parish;Tower Hill
+0;-77.8951,18.2903;JM-12;Saint James Parish;Retrieve - part of
+0;-77.3148,17.8543;JM-01;Clarendon;Sedge Pond
+0;-77.3826,18.1930;JM-01;Clarendon;McKoy
+0;-77.9321,18.1392;JM-11;St. Elizabeth;Kilmarnoch - part of
+0;-77.3593,18.3025;JM-09;Saint Ann Parish;Bristol

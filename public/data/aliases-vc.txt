@@ -1,0 +1,49 @@
+ja;トルマカ;Troumaka
+ja;リッチランド・パーク;Richland Park
+zh;里奇兰帕克;Richland Park
+ru;Порт-Элизабет;Port Elizabeth
+ar;بورت إليزابيث;Port Elizabeth
+hi;पोर्ट एलिजाबेथ;Port Elizabeth
+ja;ポート・エリザベス;Port Elizabeth
+zh-Hant;祕魯韋爾;Peruvian Vale
+ja;ペルヴィアン・ヴェイル;Peruvian Vale
+zh;秘魯韋爾;Peruvian Vale
+ru;Лайу;Layou
+ar;لايو;Layou
+hi;लायौ;Layou
+ja;ラユ;Layou
+ja;キングスタウン;Kingstown
+ko;킹스타운;Kingstown
+ru;Кингстаун;Kingstown
+ar;كينغستاون;Kingstown
+zh;金斯敦;Kingstown
+ja;グレイグス;Greiggs
+en;Greggs;Greiggs
+ru;Джорджтаун;Georgetown
+ar;جورجتاون;Georgetown
+hi;जॉर्जटाउन;Georgetown
+ja;ジョージタウン;Georgetown
+ru;Колонари;Colonarie
+zh;科洛納里;Colonarie
+ja;コロナリー;Colonarie
+ru;Шатобелэр;Chateaubelair
+ar;شاتوبلير;Chateaubelair
+hi;चेटोबेलेयर;Chateaubelair
+ja;シャトーベレア;Chateaubelair
+ja;バイエラ・ヴィレッジ;Byera Village
+zh;拜拉村;Byera Village
+zh-Hans;比亚布;Biabou
+ja;ビアブー;Biabou
+zh;比亞布;Biabou
+ru;Биабоу;Biabou
+ru;Баррукалли;Barrouallie
+ar;باروالي;Barrouallie
+hi;बेरौली;Barrouallie
+ja;バロアリ;Barrouallie
+zh-Hans;卡利亚夸;Calliaqua
+zh-Hant;卡利亞誇;Calliaqua
+ja;カリアクア;Calliaqua
+zh;卡利亞夸;Calliaqua
+zh;罗斯班克;Rose Bank
+en;McIntyre Village;Lowmans
+en;Lot 14;Lot Fourteen

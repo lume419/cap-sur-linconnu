@@ -1,0 +1,104 @@
+0;-64.6022,18.4468;VG;;Wesley Will
+0;-64.6348,18.4122;VG;;Threllfall
+200;-64.3167,18.7198;VG;;The Settlement
+0;-64.5348,18.4432;VG;;The Mill
+3800;-64.4347,18.4481;VG;;Spanish Town
+0;-64.3902,18.4819;VG;;South Sound
+8449;-64.6208,18.4269;VG;;Road Town
+0;-64.5667,18.4167;VG;;Maya Cove
+0;-64.5667,18.4333;VG;;Long Swamp
+0;-64.7332,18.4400;VG;;Little Harbour
+0;-64.6741,18.4059;VG;;Little Carrot Bay
+0;-64.7236,18.4535;VG;;Lettsome Settlement
+0;-64.6411,18.4275;VG;;Leonards
+0;-64.5995,18.4178;VG;;Kingstown
+0;-64.6365,18.4026;VG;;Hannah
+0;-64.6296,18.4368;VG;;Great Mountain
+0;-64.6712,18.4110;VG;;Great Carrot Bay
+0;-64.6813,18.3914;VG;;Freshwater Pond
+0;-64.6570,18.4269;VG;;Cane Garden Bay
+0;-64.7515,18.4461;VG;;Belle Vue
+0;-64.6392,18.4415;VG;;Anderson
+0;-64.5564,18.4402;VG;;East End
+0;-64.3811,18.4911;VG;;Creek Village
+0;-64.7473,18.4410;VG;;South Side
+0;-64.7524,18.4472;VG;;Cotton Ground
+0;-64.7333,18.4454;VG;;Skeleton Land
+0;-64.4419,18.4333;VG;;Spring Bay Land
+0;-64.4350,18.4350;VG;;Rhymers Estate
+0;-64.4364,18.4321;VG;;The Country
+0;-64.4255,18.4327;VG;;Copper Mine
+0;-64.4395,18.4387;VG;;Trunk Bay Land
+0;-64.4340,18.4586;VG;;Little Dix Bay
+0;-64.4133,18.4701;VG;;Pond Bay
+0;-64.4130,18.4787;VG;;John Tarter
+0;-64.4116,18.4840;VG;;Plum Tree Bay
+0;-64.3852,18.4929;VG;;Bakers Bay
+0;-64.3831,18.4906;VG;;North Sound
+0;-64.3924,18.4898;VG;;The Bond
+0;-64.3848,18.4972;VG;;North Sound Settlement
+0;-64.7056,18.3918;VG;;Dawson
+0;-64.7009,18.3923;VG;;Belmont
+0;-64.6977,18.3880;VG;;West End
+0;-64.6861,18.3966;VG;;Long Bay
+0;-64.6819,18.3952;VG;;Little Apple Bay
+0;-64.6798,18.3995;VG;;Cappoons Bay
+0;-64.6768,18.4021;VG;;Apple Bay
+0;-64.6751,18.3947;VG;;Cart Path
+0;-64.6735,18.3886;VG;;Recovery
+0;-64.6731,18.3850;VG;;Boway
+0;-64.6729,18.3869;VG;;Daseys
+0;-64.6526,18.3944;VG;;Pockwood Pond
+0;-64.6439,18.3944;VG;;Havers
+0;-64.6571,18.4161;VG;;Arundell
+0;-64.6675,18.4151;VG;;Ballast Bay
+0;-64.6512,18.4105;VG;;Edney
+0;-64.6513,18.4207;VG;;Shannon
+0;-64.6557,18.4279;VG;;Hodge
+0;-64.6533,18.4320;VG;;McIntosh
+0;-64.6571,18.4334;VG;;Ross
+0;-64.6531,18.4387;VG;;Martin
+0;-64.6429,18.4485;VG;;Mount Healthy
+0;-64.6335,18.4433;VG;;Spooner
+0;-64.6329,18.4396;VG;;Henley
+0;-64.6244,18.4404;VG;;Turnbull Hill
+0;-64.6112,18.4465;VG;;Trunk Bay
+0;-64.6211,18.4384;VG;;Fahie Hill
+0;-64.6435,18.4316;VG;;Green Bank
+0;-64.6377,18.4328;VG;;New Bush
+0;-64.6333,18.4369;VG;;Primrose Garden
+0;-64.6452,18.4263;VG;;Meyers
+0;-64.6392,18.4274;VG;;Martins Joes Hill
+0;-64.6344,18.4315;VG;;Diamond
+0;-64.6413,18.4042;VG;;Pleasant Valley
+0;-64.6245,18.4086;VG;;Duffs Bottom
+0;-64.6179,18.4073;VG;;Slaney
+0;-64.6287,18.4143;VG;;Albion
+0;-64.6299,18.4206;VG;;Blyden
+0;-64.6355,18.4143;VG;;Nibbs
+0;-64.6454,18.4195;VG;;Chalwell
+0;-64.6462,18.4141;VG;;Doty
+0;-64.6253,18.4218;VG;;Georges Hollow
+0;-64.6271,18.4175;VG;;Steep Hill
+0;-64.6298,18.4191;VG;;Cocodella
+0;-64.6049,18.4464;VG;;Rogues Bay
+0;-64.6041,18.4517;VG;;Carrot Bay
+0;-64.5999,18.4465;VG;;Cooten Bay
+0;-64.6303,18.4319;VG;;Pickering
+0;-64.5751,18.4515;VG;;Lambert
+0;-64.5941,18.4362;VG;;Upper Hope
+0;-64.5904,18.4376;VG;;Lower Hope
+0;-64.5826,18.4351;VG;;Martin Spring Ghut
+0;-64.5947,18.4310;VG;;Belle Vue
+0;-64.5784,18.4329;VG;;Nottingham Estate
+0;-64.5842,18.4292;VG;;Hedrington Spring Ghut
+0;-64.5844,18.4181;VG;;Brandywine Bay
+0;-64.5996,18.4205;VG;;Fish Bay
+0;-64.5818,18.4259;VG;;Paraquita Bay
+0;-64.5881,18.4431;VG;;Josias Bay
+0;-64.5690,18.4260;VG;;Hodge’s Creek
+0;-64.5599,18.4425;VG;;Parham Town
+0;-64.5548,18.4434;VG;;Thomas Land
+0;-64.5609,18.4475;VG;;Lloyds
+0;-64.5607,18.4564;VG;;Hawks Nest
+0;-64.5682,18.4541;VG;;Balsom Ghut

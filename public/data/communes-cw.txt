@@ -1,0 +1,68 @@
+0;-68.9000,12.1167;CW;;Zeelandia
+125000;-68.8864,12.1225;CW;;Willemstad
+0;-68.9833,12.0167;CW;;Weitje
+0;-68.9333,12.1500;CW;;Weis
+0;-68.9333,12.1500;CW;;Suriname Dorp
+0;-68.9167,12.1500;CW;;Suffisant Dorp
+0;-68.9667,12.1167;CW;;Su Casa
+0;-68.9833,12.1333;CW;;Slangenbaai
+5138;-68.9833,12.1500;CW;;Sint Michiel Liber
+0;-69.0833,12.2833;CW;;Sint Jozefsdal
+0;-68.9167,12.1167;CW;;Seritu
+0;-69.1000,12.3167;CW;;Ser’i Bientu
+5198;-68.8833,12.1167;CW;;Santa Rosa
+0;-68.9333,12.1500;CW;;Santa Maria
+0;-69.1300,12.3016;CW;;Santa Krus
+0;-69.1500,12.3833;CW;;San Pedro
+0;-69.0333,12.2500;CW;;San Pedro
+0;-68.9000,12.1000;CW;;Saliña Abou
+783;-69.1540,12.3705;CW;;Sabana Westpunt
+0;-68.9000,12.1167;CW;;Rust en Vrede
+0;-68.9500,12.1333;CW;;Roosendaal
+0;-68.9167,12.1500;CW;;Rancho
+0;-68.9167,12.1000;CW;;Parera
+0;-68.8167,12.0500;CW;;Newport
+0;-68.8333,12.0833;CW;;Morgenster
+0;-68.8667,12.1000;CW;;Montan’i Rei
+0;-68.8667,12.1167;CW;;Libie
+289;-69.1504,12.3221;CW;;Lagún
+0;-69.1500,12.3500;CW;;Kura Juri
+0;-69.0167,12.2000;CW;;Kunuku Abou
+0;-69.0333,12.2333;CW;;Krakeel
+0;-68.9000,12.1167;CW;;Kolontjie
+0;-68.9667,12.1167;CW;;Kas Chikitu
+0;-68.9500,12.1500;CW;;Julianadorp
+0;-68.9500,12.1667;CW;;Juan Domingo
+0;-68.9000,12.1000;CW;;Janwé
+0;-68.8667,12.0833;CW;;Jan Thiel
+0;-68.9667,12.1500;CW;;Jan Doret
+0;-68.9167,12.1333;CW;;Groot Kwartier
+0;-68.9650,12.1657;CW;;Gato
+0;-68.9167,12.1667;CW;;Fortuna Abou
+0;-69.0833,12.2500;CW;;Fontein
+0;-68.9167,12.1333;CW;;Emmastad
+0;-69.1333,12.3667;CW;;Dorp Westpunt
+2233;-69.1125,12.2775;CW;;Dorp Soto
+465;-69.0625,12.2154;CW;;Dorp Sint Willebrordus
+0;-68.9833,12.1333;CW;;Dorp Sint Michiel
+0;-68.9500,12.1333;CW;;De Hoop
+0;-69.0155,12.1835;CW;;Bullenbaai
+0;-68.9500,12.1333;CW;;Buena Vista
+4695;-68.9000,12.1500;CW;;Brievengat
+0;-69.1000,12.3000;CW;;Bou’i Seru
+0;-68.9833,12.1667;CW;;Bonavista
+0;-68.8500,12.1167;CW;;Bona Vista
+0;-68.9833,12.1333;CW;;Boka Samí
+0;-68.9333,12.1500;CW;;Blomonte
+2424;-69.0739,12.2901;CW;;Barber
+0;-68.9500,12.1167;CW;;Australie
+0;-68.9383,12.1444;CW;;Piedras Negras
+5732;-68.9949,12.1433;CW;;St. Michiel
+0;-68.8364,12.1419;CW;;Santa Catharina
+0;-69.0733,12.2090;CW;;Coral Estate Rif St. Marie
+841;-68.9983,12.1924;CW;;Grote Berg
+0;-69.0207,12.2090;CW;;Daniel
+0;-69.0206,12.2062;CW;;Kashutuin
+20838;-68.8309,12.0926;CW;;Bandariba
+13125;-69.0653,12.2718;CW;;Bandabou
+4388;-69.0287,12.2236;CW;;Tera Kora

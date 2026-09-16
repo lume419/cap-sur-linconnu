@@ -1,0 +1,349 @@
+0;-75.3624,24.1536;BS-06;Cat Island;Zonicles
+0;-75.6500,24.6167;BS-06;Cat Island;Zion Hill
+0;-77.2833,25.0333;BS-23;New Providence;Yamacraw Beach Estate
+0;-77.7333,26.9000;BS-46;North Abaco;Wood Cay
+0;-77.2667,25.0333;BS-23;New Providence;Winton Meadows
+0;-77.2667,25.0333;BS-23;New Providence;Winton Heights
+0;-77.2833,25.0500;BS-23;New Providence;Winton
+0;-77.0333,26.3667;BS-37;Central Abaco;Wilson City
+0;-78.6667,26.4833;BS-25;Freeport;Williams Town
+0;-75.5589,23.4260;BS-10;Exuma;William’s Town
+0;-75.1667,23.4000;BS-15;Long Island;Whitehouse
+12724;-78.9770,26.6871;BS-54;West Grand Bahama;West End
+0;-76.2500,24.7500;BS-52;South Eleuthera;Wemyss Bight
+0;-76.2132,24.7085;BS-23;New Providence;Wemyss Bight
+0;-75.1833,23.4167;BS-15;Long Island;Wemyss
+0;-77.5333,25.0333;BS-23;New Providence;Waterloo
+0;-76.2333,24.7500;BS-52;South Eleuthera;Waterford
+0;-78.5000,26.7500;BS-54;West Grand Bahama;Water Cay
+0;-78.9500,26.6667;BS-54;West Grand Bahama;Vincent Town
+0;-74.9500,23.0833;BS-15;Long Island;Victoria Village
+0;-74.5234,24.0935;BS-35;San Salvador;Victoria Hill
+0;-74.4667,24.0333;BS-35;San Salvador;Victoria Hill
+0;-76.6667,25.4500;BS-48;North Eleuthera;Upper Bogue
+0;-74.4500,24.1000;BS-35;San Salvador;United Estates
+0;-77.9980,24.7258;BS-47;North Andros;Twin Lakes
+0;-77.4833,25.0667;BS-23;New Providence;Tusculum
+0;-75.0167,23.0833;BS-15;Long Island;Turnbull
+0;-74.0667,22.0667;BS-24;Acklins;True Blue
+0;-74.4833,23.9667;BS-35;San Salvador;Trial Farm
+0;-75.6333,24.5333;BS-06;Cat Island;Thurston Hill
+0;-78.9667,26.6500;BS-54;West Grand Bahama;Thomas Town
+0;-75.4000,24.2500;BS-06;Cat Island;The Village
+0;-75.6833,24.6333;BS-06;Cat Island;The Lot
+0;-75.5667,23.4500;BS-10;Exuma;The Ferry Settlement
+0;-76.7444,25.4907;BS-48;North Eleuthera;The Bluff
+0;-77.5500,24.1167;BS-51;South Andros;The Bluff
+0;-77.5500,26.3000;BS-45;Moore’s Island;The Bight
+0;-75.4152,24.2896;BS-06;Cat Island;The Bight
+0;-75.5167,24.4000;BS-06;Cat Island;Tea Bay
+0;-75.2000,23.4833;BS-15;Long Island;Tatnall
+0;-76.1816,24.9700;BS-52;South Eleuthera;Tarpum Bay
+0;-74.8833,22.9833;BS-15;Long Island;Taits
+0;-77.0333,26.3500;BS-37;Central Abaco;Sweetings Village
+483;-77.8693,26.6133;BS-41;East Grand Bahama;Sweeting Cay
+0;-74.5167,23.6500;BS-35;San Salvador;Sugar Loaf
+0;-76.0000,23.6333;BS-10;Exuma;Stuart Manor
+0;-75.9448,23.6426;BS-10;Exuma;Steventon
+0;-75.0167,23.0833;BS-15;Long Island;Stevens
+0;-75.5420,24.4442;BS-06;Cat Island;Stephenson
+0;-75.2651,23.5920;BS-15;Long Island;Stella Maris
+0;-77.3667,25.0500;BS-23;New Providence;Stapleton Gardens
+0;-77.8876,24.8314;BS-47;North Andros;Staniard Creek
+0;-77.9367,24.9059;BS-47;North Andros;Stafford Creek
+0;-73.9606,22.4588;BS-24;Acklins;Spring Point
+0;-77.0891,26.4747;BS-37;Central Abaco;Spring City Settlement
+1500;-76.7640,25.5472;BS-53;Spanish Wells;Spanish Wells
+0;-78.7500,26.4914;BS-54;West Grand Bahama;Southwest Point
+0;-74.4667,24.0000;BS-35;San Salvador;South Victoria Hill
+0;-76.1833,25.1500;BS-39;Central Eleuthera;South Palmetto Point
+407;-73.8783,22.5550;BS-24;Acklins;Snug Corner
+0;-77.0482,26.4568;BS-37;Central Abaco;Snake Cay
+0;-77.5333,24.0500;BS-51;South Andros;Smith’s Hill
+0;-78.6167,26.5000;BS-25;Freeport;Smith Point
+0;-75.4773,24.3438;BS-06;Cat Island;Smith Bay
+0;-75.2360,23.4792;BS-15;Long Island;Simms
+0;-75.3114,23.6562;BS-15;Long Island;Seymour’s
+0;-77.9333,24.8667;BS-47;North Andros;Seminets
+0;-74.2833,22.8167;BS-40;Crooked Island and Long Cay;Seaview Settlement
+0;-78.8167,26.5333;BS-54;West Grand Bahama;Sea Grape
+0;-77.3167,25.0167;BS-23;New Providence;Sea Breeze Estates
+0;-75.2333,23.4833;BS-15;Long Island;Scrub Hill
+0;-75.0167,23.1000;BS-15;Long Island;Scrub Hill
+0;-76.1371,25.0842;BS-39;Central Eleuthera;Savannah Sound
+0;-77.3900,26.0205;BS-50;South Abaco;Sandy Point
+0;-77.3167,25.0500;BS-23;New Providence;Sandilands Village
+7800;-78.0500,25.0667;BS-47;North Andros;San Andros
+0;-75.1833,23.4000;BS-15;Long Island;Sam McKinnons
+0;-75.1231,23.3459;BS-15;Long Island;Salt Pond
+0;-74.2435,22.2048;BS-24;Acklins;Salina Point
+0;-74.8843,22.9833;BS-15;Long Island;Roses
+0;-75.9848,23.6733;BS-10;Exuma;Rolleville
+0;-75.7042,23.4631;BS-10;Exuma;Rolletown
+0;-75.9167,23.6167;BS-10;Exuma;Rokers Point Settlement
+0;-75.5833,24.5192;BS-06;Cat Island;Roakers
+0;-78.9500,26.6667;BS-54;West Grand Bahama;Roberts Town
+0;-75.9943,23.6068;BS-10;Exuma;Richmond Hill
+0;-74.3333,22.8000;BS-40;Crooked Island and Long Cay;Richmond
+0;-78.1954,25.1378;BS-47;North Andros;Red Bay Settlement
+0;-74.4500,24.1000;BS-35;San Salvador;Reckley Hill
+0;-75.8667,23.5667;BS-10;Exuma;Ramsey
+0;-74.5190,24.1038;BS-35;San Salvador;Quarters
+0;-77.5333,23.9667;BS-51;South Andros;Pure Gold
+91;-74.8416,23.6497;BS-49;Rum Cay;Port Nelson
+0;-75.3386,24.1585;BS-06;Cat Island;Port Howe
+0;-74.8207,23.7035;BS-49;Rum Cay;Port Boyd
+0;-73.9938,22.4114;BS-24;Acklins;Pompey Bay
+0;-74.4333,24.0833;BS-35;San Salvador;Polly Hill
+217;-73.0946,22.4307;BS-16;Mayaguana;Pirates Well
+0;-77.0000,25.0333;BS-23;New Providence;Pinewood Gardens Estate
+0;-78.7333,26.5500;BS-54;West Grand Bahama;Pine Ridge
+0;-73.8667,22.6500;BS-24;Acklins;Pinefield
+0;-78.6833,26.4833;BS-25;Freeport;Pinders Point
+0;-75.1000,23.2833;BS-15;Long Island;Pinders
+0;-78.0833,26.6500;BS-41;East Grand Bahama;Pelican Point
+0;-76.1667,25.1667;BS-39;Central Eleuthera;Palmetto Point
+0;-78.0357,24.8776;BS-47;North Andros;Owens Town
+0;-77.4833,25.0667;BS-23;New Providence;Orange Hill
+0;-75.7167,24.6500;BS-06;Cat Island;Orange Creek
+0;-75.2167,23.5000;BS-15;Long Island;O’Neils
+0;-74.4833,23.9667;BS-35;San Salvador;Old Place
+0;-75.0833,23.2167;BS-15;Long Island;Old Grays
+0;-75.3796,24.2304;BS-06;Cat Island;Old Bight
+0;-76.1833,25.1667;BS-39;Central Eleuthera;North Palmetto Point
+0;-77.4438,26.7191;BS-46;North Abaco;Normans Castle
+270;-78.0016,25.1453;BS-47;North Andros;Nicholls Town
+0;-75.4700,24.3208;BS-06;Cat Island;New Bight
+0;-77.2833,25.0333;BS-23;New Providence;Nassau Estate
+227940;-77.3431,25.0582;BS-23;New Providence;Nassau
+0;-77.0958,26.5526;BS-37;Central Abaco;Murphy Town
+0;-77.6800,24.2954;BS-44;Mangrove Cay;Moxey Town
+0;-75.8833,23.5833;BS-10;Exuma;Mount Thompson
+0;-77.5167,25.0167;BS-23;New Providence;Mount Pleasant
+0;-77.7667,26.9000;BS-46;North Abaco;Mount Hope
+0;-75.3868,24.2462;BS-06;Cat Island;Moss Town
+0;-75.8557,23.5467;BS-10;Exuma;Moss Town
+0;-74.2500,22.8000;BS-40;Crooked Island and Long Cay;Moss Town
+0;-74.8743,22.9062;BS-15;Long Island;Mortimers
+0;-78.0333,25.1667;BS-47;North Andros;Morgan’s Bluff
+0;-74.0333,22.4000;BS-24;Acklins;Morant Bay
+0;-74.4944,23.9564;BS-35;San Salvador;Montreal
+0;-77.7667,24.7000;BS-47;North Andros;Minns
+0;-75.2500,23.5500;BS-15;Long Island;Millerton
+0;-77.9833,25.1167;BS-47;North Andros;Millers Hill
+0;-75.1667,23.4000;BS-15;Long Island;Millers
+0;-77.4304,24.9849;BS-23;New Providence;Millars
+0;-76.1916,24.6741;BS-23;New Providence;Millars
+0;-77.3833,25.0167;BS-23;New Providence;Millar Heights
+0;-75.7658,23.4905;BS-10;Exuma;Michelson
+0;-75.4708,24.1779;BS-06;Cat Island;McQueens
+0;-77.9919,26.6580;BS-41;East Grand Bahama;McLeans Town
+0;-75.0667,23.1333;BS-15;Long Island;McKenzie
+0;-74.8833,23.0167;BS-15;Long Island;McKenzie
+0;-75.1667,23.3667;BS-15;Long Island;McKanns
+452;-73.6735,20.9498;BS-13;Inagua;Matthew Town
+0;-78.5833,26.5500;BS-54;West Grand Bahama;Mather Town
+0;-77.9694,25.0673;BS-47;North Andros;Mastic Point
+0;-73.8778,22.5435;BS-24;Acklins;Masons Bay
+0;-78.8000,26.5333;BS-54;West Grand Bahama;Martin Town
+5314;-77.0636,26.5412;BS-37;Central Abaco;Marsh Harbour
+0;-77.5158,23.8671;BS-51;South Andros;Mars Bay
+0;-77.7500,24.5500;BS-38;Central Andros;Man of War Sound
+0;-77.0008,26.5954;BS-43;Hope Town;Man of War Cay Settlement
+0;-77.6629,24.2603;BS-44;Mangrove Cay;Mangrove Cay
+0;-75.0667,23.1333;BS-15;Long Island;Mangrove Bush
+0;-74.1562,22.7268;BS-40;Crooked Island and Long Cay;Majors
+0;-77.4667,25.0667;BS-23;New Providence;Macbride
+46525;-78.6667,26.5333;BS-25;Freeport;Lucaya
+0;-78.0917,25.1489;BS-47;North Andros;Lowe Sound Settlement
+0;-75.0960,23.1664;BS-15;Long Island;Lower Deadman’s Cay
+0;-76.7057,25.4551;BS-48;North Eleuthera;Lower Bogue
+0;-73.9820,22.6913;BS-24;Acklins;Lovely Bay
+0;-77.8500,24.7500;BS-47;North Andros;Love Hill
+0;-77.5000,25.0667;BS-23;New Providence;Love
+0;-79.2785,25.5525;BS-05;Bimini;Louis Town
+0;-74.5254,24.0115;BS-35;San Salvador;Long Bay
+66;-76.3167,23.9500;BS-36;Black Point;Little Farmer's Cay
+0;-77.5225,23.9467;BS-51;South Andros;Little Creek
+0;-76.8333,25.3333;BS-48;North Eleuthera;Little Bay Settlement
+0;-77.1667,25.8333;BS-50;South Abaco;Little Bay
+0;-77.6375,24.2140;BS-44;Mangrove Cay;Lisbon Creek
+0;-74.3373,22.8035;BS-40;Crooked Island and Long Cay;Landrail Point
+0;-75.4999,24.3673;BS-06;Cat Island;Knowles Village
+17679;-77.4167,25.0500;BS-23;New Providence;Killarney
+0;-77.5334,24.0270;BS-51;South Andros;Kemps Bay
+0;-76.2026,24.6898;BS-23;New Providence;John Millars
+0;-75.8667,23.5667;BS-10;Exuma;Jimmy Hill
+0;-76.3618,25.3257;BS-48;North Eleuthera;James Cistern
+0;-75.5500,24.4500;BS-06;Cat Island;Industrious Hill
+0;-78.7167,26.4833;BS-54;West Grand Bahama;Hunters
+0;-76.9574,26.5386;BS;;Hope Town
+0;-78.9333,26.6667;BS-54;West Grand Bahama;Hope Estate
+0;-78.8333,26.5500;BS-54;West Grand Bahama;Holmes Rock
+0;-78.8000,26.5333;BS-54;West Grand Bahama;Holmes Rock
+0;-74.4500,24.0167;BS-35;San Salvador;Holdiday Track
+3744;-78.2821,26.6265;BS-41;East Grand Bahama;High Rock
+0;-77.5833,24.1667;BS-51;South Andros;High Rock
+0;-77.3167,25.0333;BS-23;New Providence;Highbury Park
+0;-75.8333,23.5167;BS-10;Exuma;Hermitage
+0;-75.5094,24.1588;BS-06;Cat Island;Hawks Nest
+0;-78.7333,26.5000;BS-54;West Grand Bahama;Hawksbill
+0;-75.6667,23.4333;BS-10;Exuma;Hartswell
+0;-75.5333,24.4167;BS-06;Cat Island;Harts Bay Hill
+0;-73.8776,22.6018;BS-24;Acklins;Hard Hill
+0;-77.5667,26.3167;BS-45;Moore’s Island;Hard Bargain
+0;-77.7975,24.7553;BS-47;North Andros;Hard Bargain
+0;-74.4500,24.0667;BS-35;San Salvador;Hard Bargain
+0;-74.8924,23.0185;BS-15;Long Island;Hard Bargain
+0;-74.5167,24.1000;BS-35;San Salvador;Harbour Estate
+0;-74.5167,24.0000;BS-35;San Salvador;Halls Landing
+0;-76.5571,25.3909;BS-48;North Eleuthera;Gregory Town
+0;-77.4500,26.8167;BS-46;North Abaco;Green Turtle Village
+0;-77.3248,26.7582;BS-43;Hope Town;Green Turtle Cay
+0;-76.2738,24.7983;BS-52;South Eleuthera;Green Castle
+0;-77.1078,26.6666;BS-43;Hope Town;Great Guana Cay
+0;-75.1029,23.2529;BS-15;Long Island;Grays
+0;-76.2333,25.1667;BS-39;Central Eleuthera;Governor’s Harbour
+0;-74.8500,22.8667;BS-15;Long Island;Gordon’s
+0;-73.8753,22.5368;BS-24;Acklins;Goodwill
+0;-78.3333,26.6000;BS-41;East Grand Bahama;Golden Grove
+0;-73.9000,22.4667;BS-24;Acklins;Golden Grove
+0;-77.3500,25.0167;BS-23;New Providence;Golden Gates Estates
+0;-75.3000,23.6333;BS-15;Long Island;Glintons
+0;-75.9167,23.6000;BS-10;Exuma;Gilbert Grant
+7314;-75.7866,23.5162;BS-10;Exuma;George Town
+0;-77.5000,25.0667;BS-23;New Providence;Gambier Village
+0;-74.9715,23.0623;BS-15;Long Island;Galloway Landing
+0;-75.5500,24.4667;BS-06;Cat Island;Gaitor’s
+0;-74.3000,22.6833;BS-40;Crooked Island and Long Cay;French Wells
+0;-78.4500,26.5667;BS-46;North Abaco;Freetown
+0;-75.4306,24.3033;BS-06;Cat Island;Freetown
+26910;-78.7000,26.5333;BS-25;Freeport;Freeport
+0;-77.7998,26.9177;BS-46;North Abaco;Fox Town
+0;-74.4500,24.0167;BS-35;San Salvador;Fortune Hill
+0;-75.9144,23.5870;BS-10;Exuma;Forest
+0;-74.8667,22.9167;BS-15;Long Island;Ford
+0;-75.6473,23.4600;BS-10;Exuma;Forbes Hill
+0;-77.5008,26.8616;BS-46;North Abaco;Fire Road Village
+0;-74.4667,24.0000;BS-35;San Salvador;Farquharson
+0;-75.9000,23.6000;BS-10;Exuma;Farmer’s Hill
+0;-74.2167,22.7833;BS-40;Crooked Island and Long Cay;Fairfield
+0;-78.7833,26.5167;BS-54;West Grand Bahama;Eight Mile Rock
+1523;-76.6363,25.5022;BS-22;Harbour Island;Dunmore Town
+0;-74.9055,23.0477;BS-15;Long Island;Dunmore
+0;-77.0798,26.5464;BS-37;Central Abaco;Dundas Town
+70;-75.7258,22.1908;BS-18;Ragged Island;Duncan Town
+0;-75.6467,24.6008;BS-06;Cat Island;Dumfries
+0;-77.5995,24.2086;BS-51;South Andros;Driggs Hill
+0;-75.4074,24.2801;BS-06;Cat Island;Douds
+0;-75.2167,23.4667;BS-15;Long Island;Doctor’s Creek
+0;-74.4500,24.1000;BS-35;San Salvador;Dixons
+0;-75.4667,24.1167;BS-06;Cat Island;Devil’s Point
+0;-73.9921,22.4201;BS-24;Acklins;Delectable Point
+0;-76.2667,24.7667;BS-52;South Eleuthera;Delancey Town
+0;-76.2696,24.7733;BS-52;South Eleuthera;Deep Creek
+0;-77.5500,24.0000;BS-51;South Andros;Deep Creek
+0;-75.1131,23.1792;BS-15;Long Island;Deadman's Cay
+0;-75.9667,23.6333;BS-10;Exuma;Curtis
+0;-76.8162,25.3449;BS-48;North Eleuthera;Current Island Settlement
+0;-76.7840,25.4080;BS-48;North Eleuthera;Current
+0;-77.4333,25.0833;BS-23;New Providence;Cunningham
+210;-77.8167,26.9000;BS-46;North Abaco;Crown Haven
+0;-77.1833,26.1333;BS-50;South Abaco;Crossing Rocks
+0;-74.2333,22.7833;BS-40;Crooked Island and Long Cay;Cripple Hill
+0;-77.3000,25.0667;BS-23;New Providence;Creek Village
+0;-75.5333,24.4167;BS-06;Cat Island;Cove
+0;-77.5272,26.8629;BS-46;North Abaco;Cornishtown
+0;-77.4556,24.9982;BS-23;New Providence;Coral Heights
+0;-77.4653,24.9818;BS-23;New Providence;Coral Harbour
+8413;-77.5113,26.8714;BS-46;North Abaco;Cooper’s Town
+90;-77.5842,24.1661;BS-51;South Andros;Congo Town
+0;-77.9957,25.1219;BS-47;North Andros;Conch Sound Settlement
+240;-74.2041,22.7545;BS-40;Crooked Island and Long Cay;Colonel Hill
+0;-76.2500,25.2000;BS;;Colebrooke Dale
+831;-74.5314,24.0518;BS-35;San Salvador;Cockburn Town
+0;-77.7949,24.7263;BS-47;North Andros;Coakley Town
+0;-77.5667,25.0167;BS-23;New Providence;Clifton
+1752;-74.9833,23.1000;BS-15;Long Island;Clarence Town
+0;-74.2167,22.7500;BS-40;Crooked Island and Long Cay;Church Grove
+0;-77.9026,25.4125;BS-32;Berry Islands;Chub Cay
+0;-73.9179,22.7066;BS-24;Acklins;Chesters
+0;-77.0333,26.2833;BS-37;Central Abaco;Cherokee Sound
+0;-77.6520,26.8953;BS-46;North Abaco;Cedar Harbour
+0;-75.0667,23.1333;BS-15;Long Island;Cartwright
+0;-77.4333,25.0167;BS-23;New Providence;Carmichael Village
+0;-77.7199,24.4986;BS-38;Central Andros;Cargill Creek
+0;-77.2667,25.0500;BS-23;New Providence;Camperdown
+0;-75.9667,23.6000;BS-10;Exuma;Calvin Hill
+0;-77.8000,24.7333;BS-47;North Andros;Calabash Bay
+0;-75.5667,24.4833;BS-06;Cat Island;Cairey’s
+0;-74.8857,22.9328;BS-15;Long Island;Cabbage Point
+0;-74.2199,22.7638;BS-40;Crooked Island and Long Cay;Cabbage Hill
+0;-75.2868,23.6113;BS-15;Long Island;Burnt Ground
+0;-77.8689,25.7521;BS-32;Berry Islands;Bullocks Harbour
+0;-75.0833,23.1500;BS-15;Long Island;Buckleys
+0;-74.0604,22.7292;BS-40;Crooked Island and Long Cay;Browns
+0;-78.7333,26.5333;BS-54;West Grand Bahama;Braudies Point
+0;-74.4333,24.0833;BS-35;San Salvador;Brandy Hill
+0;-77.5167,25.0667;BS-23;New Providence;Bradford
+0;-75.0833,23.2500;BS-15;Long Island;Bowers
+0;-77.7333,24.5833;BS-38;Central Andros;Bowen Sound
+0;-79.3167,25.7833;BS-05;Bimini;Bluff
+0;-75.5919,24.5227;BS-06;Cat Island;Bluff Settlement
+0;-77.9000,24.8500;BS-47;North Andros;Blanket Sound
+0;-77.4393,26.8139;BS-46;North Abaco;Blackwood Village
+414;-76.3833,24.1000;BS-36;Black Point;Black Point
+0;-77.5500,23.9833;BS-36;Black Point;Black Point
+0;-74.1385,22.3212;BS-24;Acklins;Binnacle Hill
+0;-78.3167,26.6000;BS-41;East Grand Bahama;Bevans Town
+0;-73.1341,22.4186;BS-16;Mayaguana;Betsy Bay
+0;-74.8829,22.9543;BS-15;Long Island;Berrys
+0;-75.6399,24.5635;BS-06;Cat Island;Bennetts Harbor
+0;-77.3667,25.0167;BS-23;New Providence;Belair Estates
+0;-77.7236,24.4800;BS-38;Central Andros;Behring Point
+0;-77.6253,24.2346;BS-44;Mangrove Cay;Bastian Point
+0;-76.0413,23.6957;BS-10;Exuma;Baraterre
+0;-76.0333,23.6833;BS-10;Exuma;Baraterre
+0;-76.1840,24.6606;BS-23;New Providence;Bannerman Town
+0;-75.3835,24.1502;BS-06;Cat Island;Bain Town
+0;-78.7833,26.5167;BS-54;West Grand Bahama;Bain Town
+0;-75.7148,24.6544;BS-06;Cat Island;Bain Town
+0;-75.2167,23.4500;BS-15;Long Island;Bains
+0;-79.2861,25.7437;BS-05;Bimini;Bailey Town
+0;-75.3167,24.1525;BS-06;Cat Island;Bailey Town
+0;-77.9833,25.0333;BS-47;North Andros;August Town
+1175;-75.6715,24.6224;BS-06;Cat Island;Arthur’s Town
+0;-76.0500,23.6833;BS-10;Exuma;Anne’s Tract Settlement
+2455;-77.7691,24.7050;BS-47;North Andros;Andros Town
+0;-75.0833,23.2167;BS-15;Long Island;Andersons
+0;-75.2333,23.5333;BS-15;Long Island;Anderson
+0;-73.8667,22.6167;BS-24;Acklins;Anderson
+0;-75.2167,23.4500;BS-15;Long Island;Alligator Bay Settlement
+0;-74.5167,23.9500;BS-35;San Salvador;Allen
+949;-79.2972,25.7280;BS-05;Bimini;Alice Town
+0;-76.4853,25.3460;BS-48;North Eleuthera;Alice Town
+0;-76.0167,23.6500;BS-10;Exuma;Alexander
+25;-74.3469,22.6009;BS-24;Acklins;Albert Town
+0;-77.4905,25.0022;BS-23;New Providence;Adelaide
+0;-75.2542,23.5806;BS-15;Long Island;Adderly
+235;-72.9667,22.3667;BS-16;Mayaguana;Abraham’s Bay
+0;-73.9500,22.3667;BS-24;Acklins;Abercorn
+0;-78.7000,26.5167;BS-54;West Grand Bahama;Russell Town
+0;-76.1722,25.1500;BS-39;Central Eleuthera;South Palmetto Point
+0;-74.5352,24.0017;BS-35;San Salvador;Sugar Loaf
+0;-77.9850,25.0526;BS-47;North Andros;New Town
+0;-77.7211,24.4881;BS-38;Central Andros;Markey
+0;-76.1822,24.9070;BS-52;South Eleuthera;Kemps Point
+0;-76.2202,24.7309;BS-52;South Eleuthera;Davis Harbor
+1187;-77.2858,26.6769;BS-46;North Abaco;Treasure Cay
+0;-76.4276,25.3334;BS;;Rainbow Bay
+0;-76.1502,25.1360;BS;;Eleuthera
+0;-74.4644,24.1190;BS;;Graham's Harbour
+0;-79.2843,25.5555;BS;;North Cat Cay
+0;-79.2999,25.5823;BS;;Gun Cay
+0;-79.3025,25.7008;BS-05;Bimini;Port Royal
+3137;-76.2771,24.7789;BS-52;South Eleuthera;Freetown
+0;-75.6781,23.4299;BS-10;Exuma;Pigeon Cay
+383;-78.3277,27.2198;BS-42;Grand Cay;Grand Cay
+23;-78.4024,27.2599;BS-42;Grand Cay;Walker Cay
+0;-77.4771,25.0325;BS;;Nassau

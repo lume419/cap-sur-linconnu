@@ -1,0 +1,744 @@
+es;Sibubi;Sibube
+es;Zangüengas;Las Zangüengas
+es;Ventorillo;Ventorrillo
+es;Playa Venado;Venado
+es;Playa Venada;Venado
+ru;Веладеро;Veladero
+en;Vacamonte;Puerto Vacamonte
+fr;Vacamonte;Puerto Vacamonte
+nl;Vacamonte;Puerto Vacamonte
+es;Uracillo Número 2;Uracillo Número Dos
+es;Tuté Arriba;Tute Arriba
+es;El Cruce;Trinidad de Los Cerros
+es;La Trichera;La Trinchera
+es;Tranquilla;Tranquilla Centro
+ru;Токумен;Tocumen
+ru;Тобобе;Tobobe
+es;Tinta;Tinta Abajo
+es;Los Tinajones Arriba;Tinajones Arriba
+es;Tebe;Tebé
+es;Taimatí;Pueblo Nuevo
+en;Summit;Summit Park
+es;Sortova;Sortová
+es;Sonso;Llano Sonso
+es;Boca de Soloy;Soloy
+es;Sofre;Sófre
+es;Isla Hormiga;Sichirdup
+en;Santiago;Santiago de Veraguas
+ko;산티아고데베라과스;Santiago de Veraguas
+nah;Santiago Veraguas;Santiago de Veraguas
+zh;圣地亚哥-德贝拉瓜斯;Santiago de Veraguas
+ru;Сантьяго-де-Веррагус;Santiago de Veraguas
+ar;سانتياغو دي فيراغوس;Santiago de Veraguas
+hi;सैंटियागो डे वेरागुआस;Santiago de Veraguas
+ja;サンティアゴ・デ・ベラグアス;Santiago de Veraguas
+es;Santa Rosa Número 1;Santa Rosa Número Uno
+es;Santa Fé;Santa Fe
+en;Santa Fé;Santa Fe
+es;Santa Clara;El Congo
+ru;Сан-Мигелито;San Miguelito
+es;El Valle de San Miguel;San Miguel
+es;Valle de San Miguel;San Miguel
+es;San Martín Número 2;San Martín Número Dos
+es;Cerro San Cristóbal;San Cristóbal
+es;San Bartolo Línea;San Bartolo
+ru;Салуд;Salud
+es;Salto del Subí;El Ato de Subí
+ru;Сабанитас;Sabanitas
+es;Sabaneta;La Sabaneta
+es;Sabana de Chilibre;Sabanas de Chilibre
+es;El Nance;Nance de Riscó
+es;Valle del Risco;Valle de Riscó
+es;Río Viejo Número 1;Río Viejo Número Uno
+es;Rodeo Viejo Número 2;Rodeo Viejo Número Dos
+es;Río Viejo de Perina;Río Viejo Arriba
+es;Río Negro Número 1;Río Negro Número Uno
+es;Bajos de Iglesia;Río Iglesias
+es;Bajos de Iglesias;Río Iglesias
+es;Cabecera de Río Caña;Cañaveral
+es;Uargandup;Río Azúcar
+es;Rincón;Rincón Largo
+es;Riecito Abajo;Riecito
+es;Querque;Querque Número Uno
+es;Querque Número 1;Querque Número Uno
+es;Quebrada Boca Salada;Quebrada Salada
+es;Quebrada Honda;Quebrada Honda Número Dos
+es;Quebrada Honda Número 2;Quebrada Honda Número Dos
+es;Quebrada del Rosario;Quebrada del Rosario Arriba
+es;Quebrada del Bajo;Quebrada El Bajo
+es;El Purio;Purio
+zh;布里卡;Burica
+ru;Бурика;Burica
+es;Puerto Número 2;Puerto Número Dos
+es;Pueblo Nuevo;El Jobo
+en;Pueblo Nuevo Veraguas;Pueblo Nuevo
+es;Providencia;La Providencia
+es;Portorica;Porto Rica
+ja;ポルトベロ;Portobelo
+ko;포르토벨로;Portobelo
+ru;Портобело;Portobelo
+zh;波托韦洛;Portobelo
+es;Platanáres;Platanares
+es;Piñal;Piñal Número Uno
+es;Piñal Número 1;Piñal Número Uno
+en;Pina;Piña
+es;Piedra de Sol;Piedra del Sol
+es;Pereque;Perequé
+ru;Пералес;Perales
+ru;Пенономе;Penonomé
+ar;بينونومي;Penonomé
+hi;पेनोनोमे;Penonomé
+de;Penonome;Penonomé
+ja;ペノノメ;Penonomé
+es;Reserva Punta Patiño;La Moneda
+es;Paso Real Marcela;Paso Real de Marcela
+es;Paso del Corotú;El Chanchito
+es;Paso de la Pared;La Pared
+ru;Парита;Parita
+es;Pan de Azúcar Número 2;Pan de Azúcar Número Dos
+de;Panama-Stadt;Panama City
+es;Ciudad de Panamá;Panama City
+fr;Panamá;Panama City
+it;Panamá;Panama City
+ja;パナマシティ;Panama City
+ko;파나마 시;Panama City
+nl;Panama-stad;Panama City
+pt;Panamá;Panama City
+ht;Panama;Panama City
+ru;Панама;Panama City
+es;Panamá;Panama City
+ko;파나마시티;Panama City
+es;Palmira del Banco;Palmira de Banco
+ru;Палмира;Palmira
+es;Palanque;Palenque
+es;Nueva Arraiján;Nuevo Arraiján
+es;Nueva Delly;Nueva Nelly
+es;Nanzales;Nanzal
+ru;Мирамар;Miramar
+en;Una Mila;Milla Uno
+es;Milla 3;Milla Tres
+es;Milla 7 1/2;Milla Siete y Medio
+es;Milla 7;Milla Siete
+es;Milla 6;Milla Seis
+es;Milla 11;Milla Once
+es;Milla 8;Milla Ocho
+es;Milla 9;Milla Nueve
+es;Milla 10 1/2;Milla Diez y Medio
+es;Milla 4;Milla Cuatro
+es;Milla 5;Milla Cinco
+es;Melliza;Mellisa
+es;Las Margaritas;Margarita
+es;Bajo Marañón;Marañón
+es;Manquencal;Maquencal
+es;Manicuda;Manicudá
+es;Pumuna;Man Creek
+es;Majara;Majará
+es;Majagua Civil Número 1;Majagua Civil Número Uno
+es;Machito;El Machito
+es;Nudoviri;Nudobiri
+es;Los Pardos;Los Pardos Centro
+es;Los Núñez;Los Núñes
+es;Los Chorros de Cirí;Los Chorros de Cirí Grande
+es;Los Bontoncillos;Los Botoncillos
+es;Los Bajos del Cusco;Los Bajos del Cuscú
+en;Llano Tugri;Llano Tugrí
+ru;Льяно Тугри;Llano Tugrí
+ar;لانو توجري;Llano Tugrí
+fr;Llano Tugri;Llano Tugrí
+hi;लानो तुग्री;Llano Tugrí
+de;Llano Tugri;Llano Tugrí
+ja;ラーノ・トゥグリ;Llano Tugrí
+pt;Llano Tugri;Llano Tugrí
+es;Llano Largo Número 1;Llano Largo Número Uno
+es;Llano de Catival;Mariato
+es;Llano del Rosario;Llano El Rosario
+es;Llano del Harino;Llano Harino
+es;Llano Bonito Número Uno;Llano Bonito
+ru;Лимонес;Limones
+es;Cerro La Vieja;La Vieja
+es;Los Valdés;La Valdés
+es;La Unciana;La Uncianca
+es;La Tulua;La Tulúa
+es;La Trinidaíta;La Trinidaita
+es;La Toyosa;La Tollosa
+es;Las Subiditas;La Subidita
+es;La Tablita;Las Tablitas
+ru;Лас-Таблас;Las Tablas
+ar;لاس تابلاس;Las Tablas
+hi;लास टेबलास;Las Tablas
+ja;ラス・タブラス;Las Tablas
+es;La Posta;Llano del Apóstol
+es;Sonadora;La Sonadora
+es;La Mesita Número Uno;Las Mesitas
+es;Las Matas;La Mata
+es;Las Guías de Oriente;Las Guías Oriente
+es;Pueblo Nuevo;Las Delicias
+es;Las Delicias;Las Delicias Abajo
+es;Las Benitas;La Benitas
+es;Los Balsas;Las Balsas
+es;Las Arenas;Los Arenas
+es;La Salamanca;Salamanca
+es;La Sabaneta;Las Sabanetas
+es;Terable;Altos del Llano
+es;El Puente;La Puente
+es;Peña de Los Hernández;La Peñita de Los Hernández
+es;El Pedregoso;La Pedregosa
+es;La Pedregosa Número 1;La Pedregosa Número Uno
+es;La Paola;La Paula
+ru;Ла-Палма;La Palma
+ar;لا بالما;La Palma
+hi;ला पल्मा;La Palma
+ja;ラ・パルマ;La Palma
+es;Llanito Verde;La Noneca
+es;La Montaña de Boró Número 2;La Montaña de Boró Número Dos
+es;Las Margaritas;La Monita
+es;La Mina Número Uno;La Mina
+es;La Macha;La Mancha
+es;La Loma;Quebro
+es;La Llana Arriba;Llana Arriba
+es;La Llana Abajo;Llana Abajo
+es;La Jita Morada;Lajita Morada
+es;Las Huacas;La Huaca
+es;La Honda;La Honda Abajo
+es;Honda Arriba;La Honda
+es;La Gruta;Colonia Santeña
+es;La Cuesta;Los Suspiros
+es;La Cucúa;La Cucuá
+es;Chorrerita Número 1;Chorrerita Número Uno
+es;Chorrerita Número 2;Chorrerita Número Dos
+ru;Ла-Чоррера;La Chorrera
+ar;لا تشوريرا;La Chorrera
+hi;ला चोरेरा;La Chorrera
+ja;ラ・チョレラ;La Chorrera
+es;La Playita;La Cantina
+es;La Caleta Número 1;La Caleta Número Uno
+es;Cabuya;La Cabuya
+es;Boca del Guásimo;La Boca del Guásimo
+es;La Arena;Arena
+es;Las Mareas;Juay
+es;Hondura;Juan Pelón
+ru;Хуан Диаз;Juan Díaz
+es;Juan Chámpara;Juan Chámpra
+pt;Ilha Grande;Isla Grande
+es;La Horqueta;Horqueta
+es;Hato Juli;Hato Julí
+es;Hato Chami;Hato Chamí
+es;Guzman;Guzmán
+es;Guirí;Guiri
+es;Guías Arriba;Las Guías Arriba
+es;Guayabal;Guacamaya
+es;Guánico Arriba;Guaniquito Arriba
+es;Guaca Arriba;Guacá Arriba
+es;Guabino;El Guabino
+es;Gobeita Número 1;Gobeita Número Uno
+es;El Gavilán;El Gavillán
+es;Gatú;Gatú Abajo
+en;Fort Kobbe;Fuerte Kobbe
+ru;Флорес;Flores
+es;Lima;Santa Rosa de Lima
+es;Las Filipinas;Filipinas
+es;El Espino de Santa Rosa;Espino de Santa Rosa
+es;Espigadilla Arriba;La Espigadilla Arriba
+es;El Espavé;Espavé
+es;Ballena;Bahía La Ballena
+es;Los Sainos;El Saíno
+es;El Salitre;El Yaya
+es;El Valle de Anton;Anton Valley
+es;El Salitre Número 2;El Salitre Número Dos
+es;Retiro;El Retiro
+es;Quinteño;El Quiteño
+es;El Quije;Quije
+es;El Pixvae;Pixvae
+es;El Pifá;Pixvae
+es;El Pedregoso;Pedregoso
+es;El Pato;El Cristo Centro
+es;El Naranjo Número 1;El Naranjo Número Uno
+es;El Merchor;El Melchor
+es;El Macanal;Macanal
+es;El Limón Número Uno;El Limón
+es;El Limón;Limón
+es;El Líbano;Líbano
+es;El Juncal;Juncal
+es;El Higo Número 2;El Higo Número Dos
+es;Hato de San Juan de Dios;El Hato
+es;El Guabo;Guabo
+es;El Espiníto;El Espinito
+es;Escobal;El Escobal
+es;El Coquillo;Coquillo Centro
+es;El Coclá;El Cocla
+es;El Caraño Número 1;El Caraño Número Uno
+es;Calvario;El Calvario
+es;El Cajón de Los Quinteros;El Cajón
+es;El Cacao;Cacao
+es;El Cruce;La Bonga
+es;Bongo Abajo;El Bongo Abajo
+es;El Barrero Número 2;El Barrero Número Dos
+es;El Cedro Abajo;Bajo El Cedro Abajo
+es;Alto de Los Martínez;El Alto de Los Martínez
+es;El Alto de Capira;Alto de Capira
+es;El Ahogado;El Ahogado Centro
+es;Dos Ríos Abajo;Dos Ríos
+es;Dolega;Dolegua
+ru;Дэвид;David
+ja;ダビッド;David
+ko;다비드;David
+ru;Давид;David
+zh;戴维;David
+ar;داويد;David
+hi;डेविड;David
+es;Cumbirilla;Cumbrilla
+zh;克里斯托弗;Cristóbal
+es;Copi;El Copi
+es;Quebrada Conga;Alto de Quebrada Conga
+es;Ciudad de Colón;Colón
+ja;コロン;Colón
+ko;콜론;Colón
+ru;Колон;Colón
+zh;科隆;Colón
+ar;كولون;Colón
+hi;कोलन;Colón
+es;Colón Número Dos;Colón
+es;Agua Viva Número 1;Agua Viva Número Uno
+es;Cocuyé;Cocuyé Abajo
+es;El Cobra;El Cobre
+es;Los Chorritos;Los Chorros
+es;Cirí de Los Sotos;Ciricito de Los Sotos
+en;Pueblo Nuevo;Ciricito Pueblo Nuevo
+en;Ciricito Abajo;Ciricito Pueblo Nuevo
+es;Cilico Greek;Cilico Creek
+es;Chupimpe;El Chupimpe
+es;Chupaíto;Chupaito
+es;Chumico;El Chumico
+ru;Читре;Chitré
+ar;شيتري;Chitré
+hi;चित्रे;Chitré
+de;Chitre;Chitré
+ja;チトレ;Chitré
+es;Chiriquicito Número 2;Chiriquicito Número Dos
+ru;Чангинола;Changuinola
+es;Cerro Vaca;Bijao
+es;Cerro de Plata;Cerro Plata
+es;Paragüito;Cerrillo
+es;Cerro Iglesias;Cerro Iglesia
+es;Bajo de Cerro Iglesias;Cerro Iglesia
+es;Cerro Brisas;Cerro Brisa
+es;Cerro Armando;Cerro Armado
+es;Cerrezuela;Cerro Zuela
+es;Catecito Número 2;Catecito Número Dos
+es;Catecito Número 1;Catecito Número Uno
+es;Caño Victoria;Caño Victorio
+es;Paso Canoas Internacional;Paso Canoas
+es;Río Cangandí;Cangandí
+es;Cañazas Número Uno;Cañazas
+es;Cañazas;Cañazas Abajo
+es;California;Finca California
+es;Caimital;Caimital Número Uno
+es;Caimital Número 1;Caimital Número Uno
+es;Cabecera Cabimales;Cabecera de Cabimales
+es;Buena Vista;Buena Vista Norte
+es;Buena Vista Número 2;Buena Vista Número Dos
+es;Bella Vista;Buena Vista
+es;El Gorgojo;Gorgojo
+ru;Бокас-дель-Торо;Bocas del Toro
+en;Bocas Town;Bocas del Toro
+ko;보카스델토로;Bocas del Toro
+zh;博卡斯德尔托罗;Bocas del Toro
+ar;بوكاس ديل تورو;Bocas del Toro
+hi;बोकास डेल टोरो;Bocas del Toro
+ja;ボカス・デル・トロ;Bocas del Toro
+es;Bocas de la Quebrada Las Lajas;Boca de la Quebrada Las Lajas
+es;Boca de Monte;Boca del Monte
+es;Boca de Lura;Boca de Lurá
+es;Bocalatum;Bocalatún
+es;Río Clarito;Pavarandó
+es;Boca de Drago;Boca del Drago
+es;Boca de la Corocita;Boca la Corocita
+es;Boca de Cupé;Boca de Cupe
+ru;Бисира;Bisira
+es;Bijagual Número 1;Bijagual Número Uno
+pt;Bellevista;Bellavista
+ru;Бастиментос;Bastimentos
+es;Barranquilla Número Dos;Barranquilla Número Tres
+es;Barranquilla Número 3;Barranquilla Número Tres
+es;Balsa Número 2;Balsa Número Dos
+es;Batilla;Balilla
+es;Balandra;La Balandra
+es;Bajo Volcancito;Volcancito
+es;Bajos del Río;Bajo del Río
+es;Bajo del Piro;Bajo El Piro
+es;Bajo Cigual;El Cigual
+es;Baitún;Baitún Arriba
+es;Parque Alegre;Bachiller
+es;Playa Azul Número 1;Playa Azul Número Uno
+es;Atre;Atré
+ru;Аросемена;Arosemena
+es;Arenosa;La Arenosa
+ru;Аренас;Arenas
+es;Alto Panamá;Alto de Panamá
+es;Alto de Llanón;Alto del Llanón
+es;Comunidad Altos del Jobo;Alto del Jobo
+es;Alto La Arena;Alto de La Arena
+ru;Алмиранте;Almirante
+es;Ipetí Emberá;Ipetí Chocó
+en;Ipetí;Ipetí Chocó
+fr;Ipetí;Ipetí Chocó
+nl;Ipetí;Ipetí Chocó
+es;Río Nazereno;Río Nazareno
+es;La Placita;Río Nazareno
+es;Limonada;Limonada Arriba
+es;Jesusito;Jesucito
+es;Río de Jesús;Jesucito
+es;Jingurudó;Jingurudo
+es;Río Bado;Boca de Bado
+es;Río Iguana;Opogado
+es;El Molino;Tropic-Star Lodge
+es;Biroquera;Biroquerá
+es;Río Piedra Número Uno;Río Piedra
+es;Nuevo Paraiso;Nuevo Paraíso
+es;Santa Rosa;Portuchada
+es;Sansón Número Dos;Sansón
+es;Sansón Número 2;Sansón
+es;Canglón Número Dos;Canglón
+es;Pirre Número 1;Pirre Número Uno
+en;Union Choco;Unión Chocó
+ru;Унион-Чоко;Unión Chocó
+ar;يونيون تشوكو;Unión Chocó
+fr;Union Choco;Unión Chocó
+hi;यूनियन चोको;Unión Chocó
+de;Union Choco;Unión Chocó
+ja;ユニオン・チョコ;Unión Chocó
+pt;União Choco;Unión Chocó
+es;Flores Nuevo;Las Flores
+es;Quebrada Ancha Número Dos;Quebrada Ancha
+es;Buena Vista Número 1;Buena Vista Número Uno
+es;San José;San José de Madroño
+es;La Saína;La Zahína
+es;Superación Campesina;Asentamiento Superación Campesina
+es;El Tigre;El Tigre Abajo
+es;Agua Buena Número 1;Agua Buena Número Uno
+es;Pueblo Nuevo Número 2;Pueblo Nuevo Número Dos
+es;Río Seco Número 2;Río Seco Número Dos
+es;Wuacuco;Wacuco
+es;San José;Tortí Arriba
+es;Palmas Bellas Número Uno;Palmas Bellas
+es;Platanilla;Platanillo
+es;Río Venado;Río Venao
+es;Arimae;Los Monos
+es;San Francisco;Sansoncito
+es;Quebrada Felix;Quebrada Félix
+es;La Punolocita;Punolocita
+es;Nuevo Vigia;Nuevo Vigía
+es;Capetuira;Capetí
+es;El Común;Común
+es;El Coco;Coco
+es;Caracuchal;Llano Bonito
+es;Kuna;Ipetí Kuna
+en;Chong Point;Punta Níspero
+es;Punta Sirain;Syrain
+es;Punta de Uva;Punta Uva
+en;Pigeon Key;Cayo Paloma
+es;Pueblo Nuevo;Pueblo Nuevo Número Uno
+es;Pueblo Nuevo Número 1;Pueblo Nuevo Número Uno
+es;Isla Popa Número 2;Isla Popa Número Dos
+es;Tolote;Tolete
+es;Quebrada Nigua Número 1;Quebrada Nigua Número Uno
+es;Guabo;Quebrada Guabo
+es;Cochigro;Cochigró
+es;Sieykin;Siekin
+es;Sieyik;Sieyic
+es;Finca 33;Finca Treinta y Tres
+es;Finca 62;Finca Sesenta y Dos
+es;Finca 67;Finca Sesenta y Siete
+es;Finca 3;Finca Tres
+es;Finca 64;Finca Sesenta y Cuatro
+es;Finca 63;Finca Sesenta y Tres
+es;Débora;Déborah
+es;Junco;Boca de Junco
+es;Finca 52;Finca Cincuenta y Dos
+es;Nuevo Porvenir;El Nuevo Porvenir
+es;Santa Fé Abajo;Santa Fé Número Uno
+es;Santa Fé Número 1;Santa Fé Número Uno
+es;Santa Fé Arriba;Santa Fé Número Dos
+es;Santa Fé Número 2;Santa Fé Número Dos
+es;Alto de Chiriquí Viejo;Alto Chiriquí Viejo
+es;Cuervito Arriba;Cuervito
+es;Soberanía;El Triunfo
+es;Finca Palmito;Finca Palmito Viejo
+es;Palmito Número Uno;Finca Palmito Uno
+es;Finca Palmito Nuevo;Finca Palmito Uno
+es;Finca Palmito 01;Finca Palmito Uno
+es;Burica Adentro;Burica Centro
+es;Chiriquí Viejo;Río Chiriquí Viejo
+es;Olivo Civil;Los Olivos
+es;Algarrobos Arriba;Los Algarrobos Arriba
+es;Gualaca;Gualaquita
+es;Rámbala;Rambala
+ru;Рамбала;Rambala
+es;Quebrada Butiguorí;Quebrada Juri
+es;Valle de La Mina;Valle de Las Minas
+es;Quebrada Cayuco;Samboa
+es;Boca de Saguí;Boca de Sagui
+es;Cerro Balso;Cerro Balsa
+es;Cabecera de Quebrada Salado;Quebrada Salado
+es;Cabecera de Quebrada Guacamaya;Guacamaya Rogua Guidete
+es;Pomanqueare;Poman Quare
+es;Mununí;Joboto
+es;Cuoronte;Coronte
+es;Olobota;Olabota
+es;Caracol;Mueretone
+es;Río Hacha;Río Flores
+ru;Ома;Oma
+es;Diuma;Duima
+es;Cabecera Quebrada Guaba;Cabecera de Quebrada Guabo
+es;Cerro Iglesias Número Dos;Cerro Iglesia Número Dos
+es;Cerro Iglesia Número 2;Cerro Iglesia Número Dos
+es;Quebrada de Guabo Número 2;Quebrada de Guabo Número Dos
+es;Quebrada Guabo;Quebrada de Guabo Número Dos
+es;Cerro Quirate;Quirate
+es;Santa Lucia;Santa Lucía
+es;San Pedro Arriba;Mango
+ru;Миронес;Mirones
+es;Guayabo;Guayabal
+es;El Común;Alto El Común
+es;Bajo Venado;Llano Venado
+es;Tijeras;Cerro Tijeras
+es;Bajo Solis;Bajo Solís
+es;Bijagual Número 2;Bijagual Número Dos
+es;Lajero Arriba;Lajero
+es;Tulú Centro;Tulú
+es;Santa Ana Abajo;Santa Ana
+es;Liri Centro;Lurá Centro
+es;Cerro Lino;Cerro Lindo
+es;Pajonal Centro;Pajonal
+es;El Caño de San Miguel;Caño de San Miguel
+es;Bella Vista;Marica Abajo
+es;La Cuesta de Marica;Las Cuestas de Marica
+es;El Palmar Abajo;El Palmar
+es;El Quirá;Cabuya
+es;La Pandura;La Pandura Número Uno
+es;La Pandura Número 1;La Pandura Número Uno
+es;Guacamayo;Guacamaya
+es;Boca Doguira;Doguira
+es;El Paredón Arriba;Paredón Arriba
+es;Los Pajaritos;Alto de Los Pajaritos
+es;Cerro Galera;Alto Galera
+es;Las Cañacillas;Cañacillas
+es;Río Seguidul;Seguidule
+es;San Isidro;Barraza Final
+es;Cerro Cabra;Cerro Cabra Número Uno
+es;Cerro Cabra Número 1;Cerro Cabra Número Uno
+es;Mata Palo;Altamira
+es;Quebrada Jordonal;Jordanal
+es;Santa Rosa Número 2;Santa Rosa Número Dos
+es;Higuerón;Finca Higuerón
+es;Kilómetro 24;Kilómetro Veinticuatro
+es;Kilómetro 32;Kilómetro Treinta y Dos
+es;Cerro Gato Número 2;Cerro Gato Número Dos
+es;Quebrada Monito Número 2;Quebrada Monito Número Dos
+es;Los Bajo de Palo Blanco;Los Bajos de Palo Blanco
+es;Altos de Milla 10;Altos de Milla Diez
+es;Milla 12;Milla Doce
+es;Milla 4 1/2;Milla Cuatro y Medio
+es;Barra 44;Barra Cuarenta y Cuatro
+es;Finca 3 Rural;Finca Tres Rural
+es;Finca 62 Rural;Finca Sesenta y Dos Rural
+es;Quebrada Corozo Número 1;Quebrada Corozo Número Uno
+es;La Pita Número 1;La Pita Número Uno
+es;Quebrada Chica;Quebrada Chicha
+es;Cogollo Número 2;Cogollo Número Dos
+es;Quebrada Lajita Número 2;Quebrada Lajita Número Dos
+es;Cerro Limón Número 2;Cerro Limón Número Dos
+es;Cerro Limón Número 1;Cerro Limón Número Uno
+es;Baso Miel Número 1;Baso Miel Número Uno
+es;Baso Miel Número 2;Baso Miel Número Dos
+es;Altos de Dos Caños;Alto de Dos Caños
+es;Campo Alegre Número 2;Campo Alegre Número Dos
+es;Campo Alegre Número 1;Campo Alegre Número Uno
+es;Quebrada Carbón Número 2;Quebrada Carbón Número Dos
+es;Boca de Colubre;Boca de Culubre
+es;Planta 5;Planta Cinco
+es;Playa Azul Número 2;Playa Azul Número Dos
+es;Finca 67 Abajo;Finca Sesenta y Siete Abajo
+es;Lago 4;Lago Cuatro
+es;Milla 21;Milla Veintiuno
+es;Quebrada Carbón Número 1;Quebrada Carbón Número Uno
+es;Cotito Número 2;Cotito Número Dos
+es;Alto Tizingal;Alto Tisingal
+es;Cenipita Número 1;Cenipita Número Uno
+es;Agua Viva Número 2;Agua Viva Número Dos
+es;Los Laureles Número 2;Los Laureles Número Dos
+es;El Cedro Número 2;El Cedro Número Dos
+es;Sardina Número 1;Sardina Número Uno
+es;Sardina Número 3;Sardina Número Tres
+es;El Pixvae Número 2;El Pixvae Número Dos
+es;El Pixvae Número 1;El Pixvae Número Uno
+es;Atré 2;Atré Dos
+es;Sardina Número 4;Sardina Número Cuatro
+es;Cerro Alicia;Cerro Alica
+es;Alicia;Alica
+es;San Pedro Número 2;San Pedro Número Dos
+es;Llano Bonito Número 1;Llano Bonito Número Uno
+es;Las Mesitas Número 2;Las Mesitas Número Dos
+es;Llano Bonito Número 2;Llano Bonito Número Dos
+es;Callejones Número 1;Callejones Número Uno
+es;La Caleta Número 2;La Caleta Número Dos
+es;La Sonadora Número 1;La Sonadora Número Uno
+es;La Teja;Las Tejas
+es;Los Martínez Número 2;Los Martínez Número Dos
+es;Mününi Número 3;Mününi Número Tres
+es;Quebrada Catarro Número 1;Quebrada Catarro Número Uno
+es;Quebrada Arena Número 1;Quebrada Arena Número Uno
+es;Salitre Número 2;Salitre Número Dos
+es;Gurunte Número 2;Gurunte Número Dos
+es;Quebrada Arena Número 2;Quebrada Arena Número Dos
+es;Querque Número 2;Querque Número Dos
+es;El Piñal Número 2;El Piñal Número Dos
+es;Piedra Pintada Número 2;Piedra Pintada Número Dos
+es;Salitre Número 1;Salitre Número Uno
+es;Gurunte Número 1;Gurunte Número Uno
+es;Quebrada Ahogada Número 2;Quebrada Ahogada Número Dos
+es;Caracol Número 1;Caracol Número Uno
+es;Caracol Número 2;Caracol Número Dos
+es;Caleta Número 2;Caleta Número Dos
+es;Aguacate Número 2;Aguacate Número Dos
+es;Guazarito Número 2;Guazarito Número Dos
+es;La Empalizada Número 2;La Empalizada Número Dos
+es;Quebrada Larga Número 2;Quebrada Larga Número Dos
+es;Guazarito Número 1;Guazarito Número Uno
+es;Quebrada Larga Número 1;Quebrada Larga Número Uno
+es;Pedregoso Número 1;Pedregoso Número Uno
+es;Cerro Peñón Número 2;Cerro Peñón Número Dos
+es;El Balita Número 1;El Balita Número Uno
+es;El Balita Número 2;El Balita Número Dos
+es;La Pandura Número 2;La Pandura Número Dos
+es;La Isleta Número 1;La Isleta Número Uno
+es;El Algarrobo Número 1;El Algarrobo Número Uno
+es;El Algarrobo Número 2;El Algarrobo Número Dos
+es;Portugués;La Portuguesa
+es;El Salitre Número 1;El Salitre Número Uno
+es;La Ciraca Número 1;La Ciraca Número Uno
+es;Belencillo Número 1;Belencillo Número Uno
+es;El Cenizo Número 1;El Cenizo Número Uno
+es;La Sabaneta Número 1;La Sabaneta Número Uno
+es;La Montañuela Número 1;La Montañuela Número Uno
+es;El Jobo Número 2;El Jobo Número Dos
+es;Camarón Número 2;Camarón Número Dos
+es;Cerro Salitre;Merende
+es;Quebrada Plata Número 1;Quebrada Plata Número Uno
+es;Pueblo Grande Número 2;Pueblo Grande Número Dos
+es;Alto de Gloria Número 2;Alto de Gloria Número Dos
+es;Agua Clara Número 2;Agua Clara Número Dos
+es;Nueva Providencia Número 1;Nueva Providencia Número Uno
+es;El Chorro Número 2;El Chorro Número Dos
+es;Barnizal Número 1;Barnizal Número Uno
+es;El Limón Número 2;El Limón Número Dos
+es;Las Mendozas Número 1;Las Mendozas Número Uno
+es;Las Mendozas Número 2;Las Mendozas Número Dos
+es;Caimital Número 2;Caimital Número Dos
+es;San José Número 2;San José Número Dos
+es;Los Ruices Número 1;Los Ruices Número Uno
+es;La Palma Número 1;La Palma Número Uno
+es;La Sanguijuela;Bella Vista
+es;Ciricito Arriba Número 2;Ciricito Arriba Número Dos
+es;El Membrillo;Membrillar
+es;La Jagua;El Jagua
+es;Tabiral;El Tabiral
+es;El Cedro Número 1;El Cedro Número Uno
+es;Gobeita Número 2;Gobeita Número Dos
+es;Cambombia;Morbepdupu
+es;Llano de Las Damas;Monte Oscuro Arriba
+es;Barraza Número 2;Barraza Número Dos
+es;Peña Blanca;Ipetí Arriba
+es;Corotú Abajo;Corotú
+es;Chaca Mero;Charco Mero
+es;Agua Fría;Agua Fría de Ipetí
+es;La Playita;Villa del Carmen
+es;Río Sereno Número 2;Río Sereno Número Dos
+es;Isla Cueva de Lagarto;Dain Ya
+es;Santa Bárbara Abajo;Calle Mansa
+es;Río Marco;Marco
+es;La Ensorba;Río Ensorba
+es;Juan de Dios;Río Sierpe
+es;Río Jesús;Río de Jesús
+es;La Patriota;Eusebio
+es;Eusebia Arriba;Eusebio
+es;El Caoba;Caoba
+es;La Carrioza;La Carrizoza
+es;La Carrisoza;La Carrizoza
+es;El Vampiro;Palo Verde
+es;Boca de Jesús;Playa Colorada
+es;La China;La Mesa Arriba
+es;Alcazar 1;Alcazar Uno
+es;Alcazar 2;Alcazar Dos
+es;Alto del Vigía;Altos del Vigía
+es;Piñalito;Piñalón
+es;Dorotea;Quebrada Dorotea
+es;La Juanita;Juanita
+es;La Cantera;Puerto La Cantera
+es;Agua Buena Número 2;Agua Buena Número Dos
+es;Saíno;Nuevo Flores
+es;Alto del Lago;Altos del Lago
+es;Río Chico Número 2;Río Chico Número Dos
+es;Veinte de Abril;La Gallinera
+es;20 de Abril;La Gallinera
+es;Vía Melo;Puerto Melo
+es;San Pedro 2;San Pedro Dos
+es;Wounam;Cémaco
+es;Quebrada del Medio Número 2;Quebrada del Medio Número Dos
+es;Cabecera del Río Pava;Cabecera de Río Pava
+es;Quebrada La Pita;La Pita Arriba
+es;Patio Bonito;Río Zaíno
+es;Río Las Minas;Río La Mina
+es;Boca de Venado;Boca Venado
+es;Bongo;La Bonga
+es;Borroviche;Morrovic
+es;Belén;Morrovic
+es;Quebrada Roberto;Río Piña
+es;Quebrada Mermeja;Buena Vista
+es;Corotú;Villa Nueva
+es;El Limón;Boca de Julián
+es;Los Pereas;Los Perea
+es;Limón;Los Perea
+es;La Moracha;Urrutia
+es;Barrancón;Valle Alegre
+es;Fondiaderito;Fondeaderito
+es;Quebrada Espaveral;Espavé
+es;Espaveral;Espavé
+es;Quebrada Jira;Quebrada Gira
+es;Cabecera de Alto de Jesús;Cabecera de Alto Jesús
+es;Bella Vista;Mompo
+es;Quebrada Honda;La Honda
+es;San Judas Tadeo;Don Diego
+es;La Pista;Palo Seco
+es;Tardecita Alegre;Tardecita Arriba
+es;Palo Seco Número 3;Palo Seco Número Tres
+es;Valle Riquito;Valle Rico
+es;Río Tigre Abajo;Río Tigre
+es;Río Pavita;Río Playita
+es;Las Vegas;Santa Ana
+es;Quebrada Seca Número 1;Quebrada Seca Número Uno
+es;Membrillal Arriba;Membrillal
+es;El Ceibo;El Cedro
+es;Pirre Número 2;Pirre Número Dos
+es;Loma de Naranja;Loma Naranja
+es;La Buchua;La Bichua
+es;Boca de Río Chico;Peñita
+es;El Cerro Número 1;El Cerro Número Uno
+es;Corozales;Corozal
+es;Cangandí Número 2;Cangandí Número Dos
+es;Los Mogotes;Mogote
+es;Reserva Grande;Reversa Grande
+es;Entrada del Mamey;Quebrada Mamey
+es;Mapuchica;Pueblo Nuevo
+es;Quebrada Marín;Marín Abajo
+es;Pueblo Nuevo;Aruza del Medio
+es;Quebrada Honda Número 1;Quebrada Honda Número Uno
+es;Alto Playona;Alto Playón
+es;Quebrada Macho;Chiatí Arriba
+es;Asnatí;Kuputup
+es;San Lázaro;San Lorenzo
+es;Escobal;Duermisolo
+es;Los Saltos;El Salto
+es;Finca 2;Finca Dos
+es;Milla 10;Milla Diez
+es;Teria;Teriá

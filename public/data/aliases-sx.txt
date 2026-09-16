@@ -1,0 +1,7 @@
+en;Filipsburg;Philipsburg
+ru;Филипсбург;Philipsburg
+ja;フィリップスブルフ;Philipsburg
+ko;필립스뷔르흐;Philipsburg
+zh;菲利普斯堡;Philipsburg
+ar;فيليبسبورج;Philipsburg
+ru;Лоуэр-Принс-Куотер;Lower Prince’s Quarter

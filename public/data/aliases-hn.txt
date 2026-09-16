@@ -1,0 +1,91 @@
+ru;Пуэрто-Кортес;Puerto Cortez
+es;Puerto Cortés;Puerto Cortez
+es;Aldea Yaguacire Centro;Yaguacire
+ko;트루히요;Trujillo
+ru;Трухильо;Trujillo
+zh;特魯希略;Trujillo
+ru;Тринидад;Trinidad
+ru;Токоа;Tocoa
+es;Tierra Blanca;Nueva Jalapa
+ru;Тела;Tela
+ja;テグシガルパ;Tegucigalpa
+ko;테구시갈파;Tegucigalpa
+zh;德古斯加巴;Tegucigalpa
+ru;Тегусигальпа;Tegucigalpa
+ar;تيغوسيغالبا;Tegucigalpa
+ht;Tegousigoualpa;Tegucigalpa
+nah;Teuctzincalpan;Tegucigalpa
+es;Aldea de Suyapa;Suyapa
+ru;Сула;Sula
+ru;Субирана;Subirana
+ru;Сигуатепеке;Siguatepeque
+ru;Сенсенти;Sensenti
+ru;Санта-Роса-де-Копан;Santa Rosa de Copán
+zh;科潘省聖羅莎;Santa Rosa de Copán
+es;Aldea Santa Rosa;Santa Rosa
+ja;サン・ペドロ・スーラ;San Pedro Sula
+nah;San Pedro Zōllān;San Pedro Sula
+ko;산페드로술라;San Pedro Sula
+ar;سان بيدرو سولا;San Pedro Sula
+ru;Сан-Педро-Сула;San Pedro Sula
+zh;圣佩德罗苏拉;San Pedro Sula
+ja;サンボ・クリーク;Sambo Creek
+en;Roatan Town;Coxen Hole
+ru;Песпире;Pespire
+en;Cruta River;Paptalaya
+ru;Опаторо;Opatoro
+ru;Оланчито;Olanchito
+ru;Франсиско Морасан;Morazán
+ru;Марале;Marale
+ru;Манто;Manto
+es;El Durazno;Los Planes
+es;Aldea Los Jutes;Los Jutes
+es;Los Chagüites Número 1;Los Chagüites Número Uno
+ru;Ломитас;Lomitas
+es;Aldea La Soledad Número 2;Aldea La Soledad Número Dos
+ru;Ла-Лима;La Lima
+zh;拉恩特拉達;La Entrada
+ru;Ла Ентрада;La Entrada
+es;Aldea La Cuesta Número 1;Aldea La Cuesta Número Uno
+ru;Ла-Сейба;La Ceiba
+ja;ラ・セイバ;La Ceiba
+zh;拉塞瓦;La Ceiba
+es;Aldea La Cañada;La Cañada
+ru;Илама;Ilama
+ko;그라시아스;Gracias
+zh;格拉西亞斯;Gracias
+en;Flowers Bight;Flowers Bay
+ru;Флорида;Florida
+ru;Флорес;Flores
+es;Aldea El Tizatillo;El Tizatillo
+ru;Эль-Прогресо;El Progreso
+es;Caserío El Lolo;El Lolo
+es;Caserío El Jícaro;El Jícaro
+ru;Долорес;Dolores
+ru;Данли;Danlí
+ru;Копан;Copán Ruinas
+en;Copán;Copán Ruinas
+ru;Чолома;Choloma
+es;Aldea Cerro Grande;Cerro Grande
+ru;Катакамас;Catacamas
+ru;Кабо-Грасьяс-а-Дьос;Cabo Gracias a Dios
+es;Auaspani;Auspahni
+ru;Атима;Atima
+ru;Армента;Armenta
+ru;Аренал;Arenal
+ru;Арада;Arada
+ru;Амапала;Amapala
+es;Los Chagüites Número 2;Los Chagüites Número Dos
+es;Crique Nacuntatá;Crique Nakuntatá
+es;Caserío El Espinal;El Espinal
+es;Aldea Germania;Germania
+es;Caserío Agua Blanca;Agua Blanca
+es;Caserío El Guayabal;El Guayabal
+es;Aldea La Ciénega;La Ciénega
+es;Aldea La Cuesta Número Dos;La Cuesta Número Dos
+es;Aldea La Cuesta Número 2;La Cuesta Número Dos
+es;La Cuesta Número 2;La Cuesta Número Dos
+es;La Lagunita Número 1;La Lagunita Número Uno
+es;Sabanas del Toro;El Jute
+es;El Amatillo Número 1;El Amatillo Número Uno
+es;Planes;Los Canales

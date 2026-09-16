@@ -1,0 +1,12 @@
+ko;빌렘스타트;Willemstad
+ja;ウィレムスタット;Willemstad
+zh;威廉斯塔德;Willemstad
+ar;ويلمستاد;Willemstad
+ru;Виллемстад;Willemstad
+en;Sint Michiel;Sint Michiel Liber
+de;Nieuwpoort;Newport
+de;Nieuwpoort, Curacao;Newport
+zh-Hans;布雷芬加特;Brievengat
+zh-Hant;佈雷芬加特;Brievengat
+zh;布里文加特;Brievengat
+en;Boca St. Michiel;St. Michiel

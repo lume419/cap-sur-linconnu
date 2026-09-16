@@ -1,0 +1,12 @@
+ru;Кинг Эдуард Пойнт;King Edward Point
+pt;Cabo Rei Eduardo;King Edward Point
+zh;愛德華七世角;King Edward Point
+ar;نقطة الملك إدوارد;King Edward Point
+ja;キング・エドワード・ポイント;King Edward Point
+ru;Грютвикен;Grytviken
+ja;グリトビケン;Grytviken
+zh;古利德維肯;Grytviken
+ko;그리트비켄;Grytviken
+en;Bird;Bird Research Station
+en;Bird Station;Bird Research Station
+es;Base Isla Pájaro;Bird Research Station

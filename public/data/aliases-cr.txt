@@ -1,0 +1,350 @@
+es;Vista de Mar;Vista del Mar
+es;Vara de Roble;Vara del Roble
+es;San Francisco;Vaca Blanca
+ru;Увита;Uvita
+ru;Упала;Upala
+ru;Турриальба;Turrialba
+es;Boca de Sarapiquí;Trinidad
+es;Bajos del Toro;Bajo del Toro
+ru;Тобоси;Tobosi
+en;Tilaran;Tilarán
+es;Caracol Norte;Tigre
+es;Platanillo;Tayutic
+es;García Muñoz;Sonzapotal
+es;Solania;Solanea
+es;Saltillo;Siquiares
+es;Antiguo Sipurio;Sipurio
+ru;Сардинал;Sardinal
+es;Santa Rosa;Zaragoza
+zh;聖安娜區;Santa Ana
+ja;サンタ・アナ地区;Santa Ana
+es;San Rafael;San Rafael Abajo
+es;Cucaracho;San Rafael
+es;San Rafael;Freeman
+es;San Rafael de San Pedro;San Rafael
+es;San Miguel;Cerrillos
+es;Las Mulas;San Martín
+es;San Luis de Monteverde;San Luis
+es;El Salvador;San Luis
+es;San Juan de Chicuá;San Juan de Chicoá
+es;San Juano Chicua;San Juan de Chicoá
+en;San Juan Chicoá;San Juan de Chicoá
+es;Pizote;San José
+es;San José;Río Jesús
+ja;サンホセ;San José
+ko;산호세;San José
+ru;Сан-Хосе;San José
+ay;San Jusiy;San José
+ar;سان خوسيه;San José
+ht;San Jozé;San José
+hi;सान होज़े;San José
+pap;San Jose;San José
+zh;聖荷西;San José
+de;San Jose;San José
+es;Tigre;San Isidro
+en;San Isidro de El General;San Isidro
+es;San Isidro de El General;San Isidro
+fr;San Isidro de El General;San Isidro
+zh;聖伊西德羅德埃爾赫內拉爾區;San Isidro
+es;Burrito;San Francisco
+zh;薩馬拉區;Sámara
+ru;Салитрал;Salitral
+ru;Сабалито;Sabalito
+es;Hacienda Rodeo;Rodeo
+es;Río Grande;Cristo Rey
+es;Respingue;Canaán
+ru;Кесада;Quesada
+zh;克薩達;Quesada
+ru;Пуррал;Purral
+ru;Пунтаренас;Puntarenas
+ja;プンタレナス;Puntarenas
+zh;蓬塔雷納斯;Puntarenas
+ko;푼타레나스;Puntarenas
+ar;بونتاريناس;Puntarenas
+hi;पुंतारेनास;Puntarenas
+es;Ciudad de Limón;Limón
+fr;Puerto Limón;Limón
+de;Puerto Limón;Limón
+ru;Пуэрто-Лимон;Limón
+en;Puerto Limón;Limón
+ja;リモン;Limón
+ko;리몬;Limón
+ru;Лимон;Limón
+zh;利蒙;Limón
+ar;ليمون;Limón
+hi;लिमन;Limón
+es;Pueblo Nuevo;Sardinal
+es;Monte Frío;Potrerillos
+es;Porvenir;Cerro Azul
+ru;Питал;Pital
+es;Ángeles;Piedras Blancas
+es;Carmen;Peña
+es;Paso de Tempisque;Paso Tempisque
+es;San José;Pascua
+ru;Паррита;Parrita
+es;Palo de Jabón;San Gerardo
+es;San Juan;Quebrada Palo
+ru;Оротина;Orotina
+ru;Ороси;Orosi
+es;Boca del Nosara;Nosara
+es;Bocas del Nasara;Nosara
+ar;نيكوجا;Nicoya
+zh;尼科亞;Nicoya
+es;New Castle;Castillo Nuevo
+es;Monteverde;Monte Verde
+pt;Hacienda Montecristo;HDA Montecristo
+ru;Мирамар;Miramar
+ru;Матина;Matina
+es;Finca Margarita;Margarita
+es;Maíz de Los Uvas;Colinas
+es;Loáiza;Loaiza
+es;Altamirita;Llanos
+es;Llanos de Altamirita;Llanos
+es;Llano Grande;Desamparados
+es;Lindavista;Cambronero
+es;Alto Cincuenta y Dos;Linda Vista
+es;Linda Vista;Lindavista
+es;Huacas;Libertad
+es;Helados;Libertad
+ru;Либерия;Liberia
+ja;リベリア;Liberia
+zh;利韋里亞;Liberia
+ko;리베리아;Liberia
+ar;ليبيريا;Liberia
+hi;लाइबेरिया;Liberia
+es;Las Pilas;Pilas Blancas
+es;Pueblo Nuevo;Mona
+es;Fila;Chánguena
+es;Kilómetro Treinta y Tres;Kilómetro 33
+es;Jarazal;Jarasal
+ru;Эредиа;Heredia
+ru;Эредия;Heredia
+zh;埃雷迪亞;Heredia
+ko;에레디아;Heredia
+ar;هيريديا;Heredia
+fr;Héredia;Heredia
+hi;हेरेडिया;Heredia
+ja;エレディア;Heredia
+es;Hacienda Quéveri;Queverí
+es;Hacienda Queverí;Queverí
+es;Caletas;Guadalupe
+es;Gamalotillo;Gamalotillo Dos
+es;Gamalotillo 2;Gamalotillo Dos
+es;San Luis;Florida
+es;Florida;Aguada
+es;Riyito;Esquinas
+es;San Jerónimo;Esperanzas
+es;Esperanza;Tronco Negro
+es;Bajo Charío;Dos de Abangares
+es;Veraguas;Doboncragua
+ru;Десампарадос;Desamparados
+es;Concepción;La Danta
+en;Playas del Coco;Coco, Sardinal
+es;San Carlos;Chontales
+es;China Kicha;China Kichá
+ru;Картаго;Cartago
+zh;卡塔戈;Cartago
+ko;카르타고;Cartago
+ar;كارتاغو;Cartago
+hi;कार्टागो;Cartago
+ja;カルタゴ;Cartago
+es;San Ramón;Cariblanca
+ru;Канаш;Cañas
+en;Canas;Cañas
+es;Campiña;Campiñas
+es;Las Brisas;Brisas
+en;Boruca people;Boruca
+es;Bomba de Cedro;Llano Verde
+ru;Атенас;Atenas
+es;Candelaria;Angostura
+es;San Isidro;Altos Pascua
+es;San Isidro;Altos Herediana
+ru;Алахуэла;Alajuela
+ar;ألاخويلا;Alajuela
+zh;阿拉胡埃拉;Alajuela
+ko;알라후엘라;Alajuela
+hi;अलाहुएला;Alajuela
+ja;アラフエラ;Alajuela
+es;Filadelfia;Agua Buena
+es;Agua Buena;Aguabuena
+pt;Playa Tamarindo;Tamarindo
+ru;Тамариндо;Tamarindo
+zh;塔馬林多區;Tamarindo
+es;Parque Nacional Arenal;National Park Arenal
+zh;普萊亞格蘭德;Playa Grande
+es;Fnca Freehold;Freehold
+es;Punta de Plancha;Cuatro Cruces
+es;Guabo;Santa Ana
+es;Rabo Lucio;Monte de Oro
+es;Torito;Mango
+es;San Jorge;Mono
+es;Bajo Caliente;Chiruta
+es;Cenizosa;Vista al Mar
+es;Despacio;San Rafael
+es;Carmen;Fama
+es;Aquilea;San Francisco
+es;Concepción;Corea
+es;Santa Fé;Cantarrana
+es;San Martín;El Bosque
+es;Rincón Herrera;Rincón de Herrera
+es;Finca Candelaria;Candelaria
+es;Finca Quebrada Azul;Quebrada Azul
+es;Finca Cerros;Cerros
+es;Finca Anita;Anita
+es;Finca Mona;Mona
+es;Tacorí;Tocorí
+es;Finca Llorona;Llorona
+es;Finca Bartolo;Bartolo
+es;Finca Roncador;Roncador
+es;Gamalotillo 3;Gamalotillo Tres
+es;Tierra Fértil;Gamalotillo Tres
+es;Barro;Valle Vasconía
+es;Bajo Rey;Bajo El Rey
+es;Bajos de Jicote;Bajos Jicote
+es;Gamalotillo 1;Gamalotillo Uno
+es;Colonia;Gamalotillo Uno
+es;Santa Ana;Quebrada Seca
+es;El Hoyo;Hoyo
+es;Salitral;Facio
+es;Hacienda El Barro;El Barro
+es;Kilómetro Ochenta y Uno;Kilómetro 81
+es;Alto Quebradillas;Alto Quebradilla
+es;Finca Tres Rosales;Tres Rosales
+es;Finca Isla Grande;Isla Grande
+es;Finca 3 - Ticabán;Finca Tres - Ticabán
+es;Finca 3;Finca Tres
+es;Fátima;Tigra
+es;Finca 1 - Ticabán;Finca Uno - Ticabán
+es;Finca Banamola;Banamola
+es;Finca Frutera Atlántica;Frutera
+es;Y Griega;I Griega
+es;Finca 1;Finca Uno
+es;Finca 2 - Ticabán;Finca Dos - Ticabán
+es;Tapezco;La Encina
+es;Hacienda El Indio;Indio
+es;Hacienda La Suerte;Suárez
+es;Hacienda Suárez;Suárez
+es;Finca 2;Finca Dos
+es;La Victoria;Victoria
+es;Tournón;Victoria
+es;Finca 5;Finca Cinco
+es;Nazaret;Colonia Nazareth
+es;Finca Doka;Doka
+es;Finca Hilda;Hilda
+es;Fátima;Bajo Latas
+es;Colonia Penal;Magsasay
+es;Santa Ana;Santa Fé
+es;Palma;Guápil
+es;La Mina;Mina
+es;Morado;San Antonio
+es;Villaflor;Villa Flor
+es;Cantarrana;Villa Flor
+es;San Luis de Bocana;Bocana
+es;Bella Vista;Suiza
+es;Jilguero;Jilguero Sur
+es;Seis;El Seis
+es;Quebrada Cabuyo;Jabillos
+es;Bajo Cincuenta y Dos Millas;Bajo 52 Millas
+es;Alto Varal;Alto de Varas
+es;San Joaquín;Cabeza de Buey
+es;Arizona;Quebrada Vueltas
+es;Campo Tres;Campo Tres Este
+es;Mata de Limón;Llano Bonito
+es;Lomas;Lomas Azules
+es;Carolina Tica;Carolina
+es;Semillero;Campo Cinco
+es;Finca Palestina;Palestina
+es;El Bajo;Líbano
+es;Finca Trinidad;Trinidad
+es;Finca Indio;Indio
+es;Finca San Isidro ASBANA;San Isidro
+es;Finca San Pablo;San Pablo
+es;La Lucha;Lucha
+es;Finca Bananita;Bananita
+es;Finca Santa María;Santa María
+es;Finca Bambú;Bambú
+es;Los Mangos;La Gloria
+es;Paraíso;Las Ánimas
+es;Mayal;Quebrada Honda
+es;Caldura;Alto Calderón
+es;Santa María;Convento
+es;Damarís;El Seis
+es;Sitio Rangalle;Rangalle
+es;El Hueco;Hueco
+es;Colonia Santa Rita;Santa Rita
+es;Milla Catorce;Milla 14
+es;El Cuarenta y Cinco;Cuarenta y Cinco
+es;El 45;Cuarenta y Cinco
+es;El Cuarenta;Kilómetro 40
+es;El 40;Kilómetro 40
+es;Kilómetro Cuarenta;Kilómetro 40
+es;Kilómetro Dieciséis;Kilómetro 16
+es;Bijagual;Jardín
+es;Paso del Higuerón;Paso Higuerón
+es;Kilómetro Veinticuatro;Kilómetro 24
+es;Kilómetro Veinte;Kilómetro 20
+es;Kilómetro Nueve;Kilómetro 9
+es;Esperanza;Esperanza de Coto
+es;Peña;Riviera
+es;Kilómetro Siete;Kilómetro 7
+es;La Chiva;Chiva
+es;Pataste;Pastate
+es;Palma;Cocorí
+es;Tigre;Alto Tigre
+es;Bocuares;Bocuare
+es;Carbón 1;Carbón Uno
+es;Finca Helechales;Helechales
+es;Agua Caliente;Aguacaliente
+es;Las Marías;Marías
+es;Sitio Casa Blanca;Casablanca
+es;Cachabri;Cachabli
+es;Finca Palma;Palma
+es;El Control;Control
+es;Finca Caucho;Caucho
+es;Colonia Libertad Kilómetro Treinta y Uno;Colonia Libertad
+es;Colonia Libertad Kilómetro 31;Colonia Libertad
+es;Caracol;Caracol de La Vaca
+es;Finca Roble;Roble
+es;Vegas de Incendio;Santa Lucía
+es;Vaca Este;Pueblo de Dios
+es;Finca Bambito;Bambito
+es;Finca Tamarindo;Tamarindo
+es;Finca Mango;Mango
+es;El Chorro;Chorro
+es;Finca Caimito;Caimito
+es;Kilómetro Veintinueve;Kilómetro 29
+es;Kilómetro Veintisiete;Kilómetro 27
+es;Finca Cenizo;Cenizo
+es;San Rafael Sur;San Rafael
+es;Bajos;Bajo
+es;Finca Cuarenta y Nueve;Coto Cuarenta y Nueve
+es;Finca 49;Coto Cuarenta y Nueve
+es;Coto 49;Coto Cuarenta y Nueve
+es;Coloradito Sur;Barrio Nuevo
+es;Finca Cuarenta y Dos;Coto Cuarenta y Dos
+es;Finca 42;Coto Cuarenta y Dos
+es;Coto 42;Coto Cuarenta y Dos
+es;Finca Cuarenta y Siete;Coto Cuarenta y Siete
+es;Finca 47;Coto Cuarenta y Siete
+es;Coto 47;Coto Cuarenta y Siete
+es;Finca Cuarenta y Cuarto;Coto Cuarenta y Cuarto
+es;Finca 44;Coto Cuarenta y Cuarto
+es;Coto 44;Coto Cuarenta y Cuarto
+es;Kilómetro Veintidós;Kilómetro 22
+es;Altos de Abrojo;Cacoragua
+es;Finca Cincuenta-Cincuenta y Uno;Coto Cincuenta-Cincuenta y Uno
+es;Finca 50-51;Coto Cincuenta-Cincuenta y Uno
+es;Coto 50-51;Coto Cincuenta-Cincuenta y Uno
+es;Finca Cuarenta y Cinco;Coto Cuarenta y Cinco
+es;Finca 45;Coto Cuarenta y Cinco
+es;Coto 45;Coto Cuarenta y Cinco
+es;Coloradito Norte;Coloradito
+es;Kilómetro Veinticinco;Kilómetro 25
+es;Río Bonito;Río Nuevo
+es;Norte;Río Nuevo
+es;Bellavista;Montezuma
+es;Hacienda Metaponto;Metaponto
+es;Sheuab;Shewab
+es;San Antonio;Yolillal
+es;Quebrada;Rincón
+es;Buenos Aires;Horquetas

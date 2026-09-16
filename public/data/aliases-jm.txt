@@ -1,0 +1,317 @@
+ru;Шервуд-Контент;Sherwood Content
+zh;謝伍德康坦特;Sherwood Content
+en;York Town;York
+ja;ウッドホール;Wood Hall
+en;William Town;Williams Town
+en;Williams Field;Williamsfield
+en;Wick;Wicks
+en;Waterloo - Dignum;Waterloo
+en;Warsop;Worksop
+en;Thornhill;Thorn Hill
+en;The Alves;Alves
+en;Stirling;Sterling
+en;Spring Vale;Springvale
+ar;سبانيش تاون;Spanish Town
+ja;スパニッシュ・タウン;Spanish Town
+ru;Спаниш-Таун;Spanish Town
+zh;西班牙鎮;Spanish Town
+ko;스패니시타운;Spanish Town
+en;Somersett;Sommerset
+en;Summerset;Sommerset
+en;Sea Ford Town;Seaford Town
+en;Scarbrough;Scarborough
+en;Sawyers and Cottage;Sawyers
+en;Saint Heleana;Saint Helena
+en;St Helena;Saint Helena
+en;Shanteleana;Saint Helena
+en;St Helleana;Saint Helena
+en;St Ann's Bay;Saint Ann’s Bay
+en;Riverhead;River Head
+en;River Head;Riverhead
+en;Rodens & Rest Pen;Rodens and Rest Pen
+en;Rodens Pen & Rest Pen;Rodens and Rest Pen
+en;Rennals;Rennalls
+en;Queenhithe;Queenhythe
+en;Queen Hythe;Queenhythe
+en;Punchbowl;Punch Bowl
+en;Prospect Run;Prospect
+en;Preddie;Pridees
+ja;ポート・ロイヤル;Port Royal
+ko;포트로열;Port Royal
+ru;Порт-Ройал;Port Royal
+zh;罗亚尔港;Port Royal
+ar;بورت رويال;Port Royal
+zh-Hant;羅亞爾港;Port Royal
+jam;Puot Rayal;Port Royal
+ru;Портмор;Portmore
+en;Port Mahon;Port Mahone
+ru;Порт-Антонио;Port Antonio
+zh;安東尼奧港;Port Antonio
+en;Phelps Run;Phelp Run
+en;Peters Field;Petersfield
+en;Peppinford;Peppingford
+en;Pembroke Hall;Pembroke Hall Mountain
+en;Pear Tree Valley;Pear Tree
+en;Patten Park;Patton Park
+en;Park Hall & Perins;Park Hall & Perrins
+en;Orange Valley;Orange Valley Estate
+zh;奧拉卡貝薩;Oracabessa
+ru;Очо-Риос;Ocho Rios
+ja;オーチョ・リオス;Ocho Rios
+es;Ocho Ríos;Ocho Rios
+ar;أوتشو ريوس;Ocho Rios
+zh;奧喬里奧斯;Ocho Rios
+zh-Hans;欧丘里欧;Ocho Rios
+zh-Hant;歐丘里歐;Ocho Rios
+en;New Stead;Newstead
+en;Newark Pen;Newark
+en;Newark Estate;Newark
+en;New Ark;Newark
+ru;Негрил;Negril
+ja;ネグリル;Negril
+zh;內格里爾;Negril
+jam;Nigril;Negril
+en;Mt Zion;Mount Zion
+en;Mount Terza;Mount Thirza
+en;Mt Terza;Mount Thirza
+en;Mt Providence;Mount Providence
+en;Mount Herman;Mount Hermon
+en;Mt Herman;Mount Hermon
+en;Mt Hermon;Mount Hermon
+en;Mount Pelier;Montpelier
+es;Bahía Montego;Montego Bay
+ja;モンテゴ・ベイ;Montego Bay
+ru;Монтего-Бей;Montego Bay
+ar;مونتيغو باي;Montego Bay
+zh;蒙特哥貝;Montego Bay
+ko;몬테고베이;Montego Bay
+ja;モネギュー;Moneague
+ru;Монеагуе;Moneague
+en;Mint Estate;Mint
+en;Miltown;Milltown
+en;Mill Town;Milltown
+en;Mendez;Mendez Hill
+zh;馬維斯;Mavis Bank
+ru;Мандевиль;Mandeville
+en;Malvern Park;Malvern Park Pen
+en;Moulton;Malton
+en;Luidas Vale;Lluidas Vale
+en;Simon;Simons
+en;Mt Lebanon;Mount Lebanon
+en;Lance Wood Valley;Lancewood Valley
+en;Kirklands;Kirkland Heights
+en;Kirkland Trail;Kirkland Heights
+en;Kirkland Height;Kirkland Heights
+ru;Кингстон;Kingston
+zh;京斯敦;Kingston
+ja;キングストン;Kingston
+ko;킹스턴;Kingston
+en;Kilmoreyluana;Kilmorey
+en;Kipping;Kippin
+ru;Кенсингтон;Kensington
+en;Kan Pan;Cow Park
+en;Jericho;Jericho Tangle River
+en;Jack Munday;Jack Monday
+en;Isles;Isle
+en;Hopeton House;Hopeton
+en;Hopeton Pen;Hopeton
+en;Hopeton Farm;Hopeton
+en;Hoghole;Hog Hole
+en;Hodges Pen;Hodges
+zh;海格特;Highgate
+en;Hector's River;Hectors River
+en;Hayfield Village;Hayfield
+zh;海斯;Hayes
+en;Haughton Hall;Haughton Hall Estate
+en;Harmony Hill;Harmony Hall
+ru;Хэмпстед;Hampstead
+en;Swansea;Swansea Hamilton Pen
+en;Greenwood;Greenwood Park
+en;Green River Pen;Green River
+en;Graysinn;Grays Inn
+en;Georgia;Georgia Pen
+en;Galloway;Galway
+en;Mt Friendship;Mount Friendship
+en;Frenchmans;Frenchman
+en;Frenches Land;French Land
+en;Free Field;Freefield
+en;Freefield;Free Field
+en;Fort George Estate;Fort George
+en;Esling;Essling
+en;Dover Castle;Enfield
+en;Eden;Eden Mocho
+en;Edbury & Ffrench Mountain;Edbury
+en;Dunrobin;Dunrobin Acres
+en;Deeside;Dee Side
+en;Darly;Darley
+en;Dalvy;Dalvey
+en;Dalentober;Dallingtober
+en;Come See;Cum See
+en;Cumsee;Cum See
+en;Crawle Pen;Crawle
+en;Crawle Estate;Crawle
+en;Craighton;Craigton
+en;Coultant Grove;Coultart Grove
+en;Content;Lloyds Content
+en;Commodore Donnington;Commodore
+zh;克里斯蒂安娜;Christiana
+en;Cherry Garden;Cherry Gardens
+en;Cherry Field;Cherryfield
+en;Charlemount Pen;Charlemont
+en;Cave Hill Pen;Cave Hill
+en;Cairn;Cairn Curran
+en;Bruton Hall;Brunton Hall
+en;Buckup;Buck-up
+en;Morant;Morant Town
+en;Bloxborough;Bloxburgh
+en;Beverley;Beverly
+en;Betty's Hope;Bettys Hope
+en;Benbow;Ben Bow
+en;Belretiro;Bel Retiro
+en;Belfield;Bellefield
+en;Bellfield;Bellefield
+en;Bell Plain;Belle Plain
+en;Belle-Air;Belleair
+en;Bambury;Banbury
+en;Bally Mony;Ballimoney
+en;Ballimony;Ballimoney
+en;Bally Money;Ballimoney
+en;Batchelors Hall;Bachelors Hall
+en;Beechams;Beachams
+en;Axe Adze;Axe and Adze
+en;Ashleys;Ashley
+en;Ashlers;Ashley
+en;Arcadia;Acadia
+zh;安諾托貝;Annotto Bay
+zh;安徹維;Anchovy
+ru;Анчовй;Anchovy
+ru;Аллигатор-Понд;Alligator Pond
+ja;アコンポン;Accompong
+jam;Akompong;Accompong
+zh;阿坎朋;Accompong
+en;Rentcombe;Rentcome
+en;Caribbean Park;Carribean Park
+en;Newmarket;New Market
+en;Gayle Mt.;Gayle Mountain
+en;Sweet Water;Sweetwater
+en;Carew;Carew Spring Mount
+en;Carrew;Carew Spring Mount
+en;Rosemount;Rose Mount
+en;Running Gut Land;Running Gut
+en;Freetown;Free Town
+en;Plum Pen;Plum Park
+en;Old Shafston;Shafston Pen
+en;Quatamala;Guatamala
+en;Scarletfield;Scarlett Field
+en;Graves End;Gravesend
+en;Charleymount;Charleymont
+en;Hopewell Plantation;Hopewell
+en;Tidixon;Tydixon
+en;Glen Rock;Glenrock
+en;Elleston;Elliston
+en;Bermaddie;Bermaddy
+en;Bermady;Bermaddy
+en;Shanton;Shenton
+en;Balm Bybrook;Bybrook
+en;Mt Matthews;Mount Mathews
+en;Mt Dawson;Mount Dawson
+en;Morelands;Moreland
+en;Hill Run;Hillrun
+en;Princess Field;Princessfield
+en;Bogbie;Bagbie
+en;Mont Pelier;Montpelier
+en;Mt Pelier;Montpelier
+en;Mt Olive;Mount Olive
+en;Biram;Byram
+en;Mulbury;Mulberry
+en;Georgesfield;Georges Field
+en;Sherborn;Sherbourne
+en;Sherbourn;Sherbourne
+en;Kew Green;Kewgreen
+en;McKain;McKeane
+en;Mackane;McKeane
+en;Fountain Blue;Fountainbleau
+en;Stillfurther;Still Further
+en;Mt St Bernard;Mount Saint Bernard
+en;Galloway Hill and Flamstead;Galloway Lodge
+en;The Cooperage;Cooperage
+en;Way Hill;Wey Hill
+en;Juno Pen;Juno Pen Village
+en;Cedars;The Cedars
+en;Castlemine;Castle Mine
+en;Trimlesworth;Tremolesworth
+en;Tremolsworth;Tremolesworth
+en;Trimolsworth;Tremolesworth
+en;Killon Cholley;Kilancholly
+en;Kings Weston;King Weston
+en;Margarets Hope;Margaret's Hope
+en;Mt Pelier;Mount Pelier
+en;Mont Pelier;Mount Pelier
+en;Montpelier;Mount Pelier
+en;More Hall;Moore Hall
+en;Moore Hall Estate;Moore Hall
+en;Mt Florence;Mount Florence
+en;Carrew Castle;Carew Castle
+en;Dublin;Duplyn
+en;Duplin;Duplyn
+en;Bromhall;Broomhall
+en;Broom Hall;Broomhall
+en;Hamerton;Hammerton
+en;Newfind;New Find
+en;Spring Mountain;Spring Mount
+en;Lindale;Lyndale RW
+en;Locherochside;Locheroch
+en;Loch Eroch;Locheroch
+en;Buxton Village;Buxton
+en;Lisworney;Lysworney
+en;Lysworny;Lysworney
+en;Tombell;Tom Bell
+en;Tom Belle;Tom Bell
+en;Pearces Village;Pierces Village
+en;Pike;Pike Mountain
+en;Lenox Bigwoods;Lennox Bigwoods
+en;Deleon;De Leon
+en;Dillion;De Leon
+en;Haughton Corner;Read Land
+en;Sunderland;Sunderland Estate
+en;Blythson;Blytheston
+en;Blythston;Blytheston
+en;Moore Park;Moor Park
+en;Accandally;Auchindolly
+en;Auckandally;Auchindolly
+en;Auckendolley;Auchindolly
+en;Auchendolly;Auchindolly
+en;Laden;Leyden
+en;Layden;Leyden
+en;Chariot Hill;Cheviot HIll
+en;South Hampton;Southampton
+en;Sea View;Seaview
+en;Malvern Wells;Malvern Well
+en;Port Sea;Portsea
+en;Mannings Field;Manningsfield
+en;Rhyde;Ryde
+en;Rhoden Store;Rhodens Store
+en;Rodens Store;Rhodens Store
+en;Glenmore;Glenmuir
+en;Dawkings;Dawkins
+en;Gimme Me Bit;Gimme-me-bit
+en;Douces;Douce
+en;Douses;Douce
+en;Tay Mount;Taymount
+en;Taymouth;Taymount
+en;Mount Hyndmost;Mount Hindmost
+en;Mt Hindmost;Mount Hindmost
+en;Mount Hind Most;Mount Hindmost
+en;Coolsprings;Coolspring
+en;Cool Spring;Coolspring
+en;Prevost;Provost
+en;Ashley Canda;Ashley Candia
+en;Ashley Condia;Ashley Candia
+en;Ashleys Canga;Ashley Candia
+en;Harriet Field;Harrietfield
+en;Harottfield;Harrietfield
+en;Harriettfield;Harrietfield
+en;Harriottfield;Harrietfield
+en;Denbigh Foga;Foga
+en;Nairne Castle;Nairn Castle
+en;Gainsboro;Gainsborough

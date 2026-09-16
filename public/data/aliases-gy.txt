@@ -1,0 +1,52 @@
+zh;溫莎森林;Windsor Forest
+en;Wash Clothes;Washclothes
+en;Voorzigtigheid;Voorsigtigheid
+de;Saxacalli;Saxakalli
+en;Saxacalli;Saxakalli
+fr;Saxacalli;Saxakalli
+nl;Saxacalli;Saxakalli
+es;Saxacalli;Saxakalli
+ko;로시뇰;Rosignol
+zh;羅西格諾爾;Rosignol
+zh-Hans;罗西格诺尔;Rosignol
+ru;Росигнол;Rosignol
+en;Little Abary;Abary
+es;Nueva Ámsterdam;New Amsterdam
+ko;뉴암스테르담;New Amsterdam
+zh;新阿姆斯特丹;New Amsterdam
+ru;Нью-Амстэрдам;New Amsterdam
+ar;المهدية;Mahdia
+de;Mahaica;Mahaica Village
+fr;Mahaica;Mahaica Village
+en;Lookout;Look Out
+ru;Линден;Linden
+ko;이튜니;Ituni
+zh;伊圖尼;Ituni
+zh-Hans;伊图尼;Ituni
+en;Henselan;Hensden
+ar;جورج توغن;Georgetown
+ja;ジョージタウン;Georgetown
+ko;조지타운;Georgetown
+ru;Джорджтаун;Georgetown
+ar;جورج تاون;Georgetown
+ht;Jòjtòn;Georgetown
+zh;乔治敦;Georgetown
+hi;जॉर्जटाउन;Georgetown
+en;De Willem;De William
+en;Craig Mine;Craig Milne
+zh;酸渣木溪;Crabwood Creek
+ja;アポテリ;Apoteri
+ja;アンナイ;Annai
+zh;艾沙爾頓;Aishalton
+pt;Urenduíque;Orinduik
+ja;オリンドゥイック;Orinduik
+ja;カマラン;Kamarang
+es;Camarán;Kamarang
+ja;インバイマダイ;Imbaimadai
+zh;巴拉米塔;Baramita
+en;Cozier;Hope and Success
+en;Kumaka;Sarepapa
+en;Patientia;Kuruwatikuru
+en;La Bagatelle;Bagatelle
+ja;コリバートン;Corriverton
+ru;Корривертон;Corriverton

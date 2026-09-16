@@ -1,0 +1,1972 @@
+de;One Hundred Mile House;100 Mile House
+ru;Абботсфорд;Abbotsford
+ar;أبوتسفورد;Abbotsford
+ja;アボッツフォード;Abbotsford
+ko;애버츠퍼드;Abbotsford
+zh;亞博斯福;Abbotsford
+en;Abbotsford British Columbia;Abbotsford
+ja;アビー;Abee
+zh;阿比;Abee
+ru;Актонвейл;Acton Vale
+en;Admiral's Beach;Admirals Beach
+ar;أدستوك;Adstock
+it;Ahousaht;Ahousat
+ar;إيردراي;Airdrie
+ko;에어드리;Airdrie
+zh;艾尔德里;Airdrie
+ru;Ердри;Airdrie
+ar;أجاكس;Ajax
+ko;에이잭스;Ajax
+ru;Эйджакс;Ajax
+ja;エイジャックス;Ajax
+zh;亞積士;Ajax
+ru;Аклавик;Aklavik
+zh;阿克拉维克;Aklavik
+ru;Албертон;Alberton
+zh;奧爾德森;Alderson
+zh-Hans;奥尔德森;Alderson
+ja;オルダーソン;Alderson
+nl;Alexander Bay Station;Alexander Bay
+zh;阿列索;Alexo
+ru;Аллистон;Alliston
+zh;安大略;Alliston
+ja;アリストン;Alliston
+ru;Алма;Alma
+ar;ألما، كيبك;Alma
+de;Alton (Ontario);Alton
+ru;Алтона;Altona
+zh;安博谷;Amber Valley
+ar;أمهرست;Amherst
+zh;阿默斯特;Amherst
+en;Amherst Nova Scotia;Amherst
+ru;Амерст-Пойнт;Amherst Pointe
+ar;أموس، كيبك;Amos
+ru;Амо;Amos
+ar;آنج غارديان;Ange-Gardien
+ja;アナポリスロイヤル;Annapolis Royal
+en;Antigonish Nova Scotia;Antigonish
+ru;Арктик-Бей;Arctic Bay
+zh;北極灣;Arctic Bay
+zh;亞馬嶺;Armour Heights
+zh;阿姆斯特朗;Armstrong
+en;Armstrong British Columbia;Armstrong
+ru;Армстронг;Armstrong
+ja;アーンプライアー;Arnprior
+ru;Арвиат;Arviat
+zh;亞懷亞特;Arviat
+fr;Asbestos;Val-des-Sources
+ar;أسكوت كورنر;Ascot Corner
+ar;أشكروفت;Ashcroft
+ru;Астон-Жонксьон;Aston-Jonction
+ar;أستون جونكسيون;Aston-Jonction
+ru;Атабаска;Athabasca
+zh;阿萨巴斯卡;Athabasca
+ar;أورورا;Aurora
+ko;오로라;Aurora
+ru;Орора;Aurora
+zh;奧羅拉;Aurora
+ja;オーロラ;Aurora
+ar;أوتييه نور;Authier-Nord
+ar;بيديك;Baddeck
+ar;بيه كومو، كيبك;Baie-Comeau
+ru;Бе-Комо;Baie-Comeau
+ar;بيه دو فيفر;Baie-du-Febvre
+ru;Бе-дю-Февр;Baie-du-Febvre
+ru;Бе-Джеймс;Baie-James
+fr;Eeyou Istchee Baie-James;Baie-James
+ar;بيه جيمس;Baie-James
+ar;بيه جوهان بيتز;Baie-Johan-Beetz
+fr;Qamani’tuaq;Baker Lake
+ru;Бейкер-Лейк;Baker Lake
+zh;貝克湖;Baker Lake
+ja;バンフ;Banff
+zh;班夫;Banff
+ru;Банф;Banff
+ko;밴프;Banff
+ar;بانف;Banff
+ar;باروت;Barraute
+ru;Баррхейвен;Barrhaven
+zh;巴哈文;Barrhaven
+zh;巴尔黑德;Barrhead
+ru;Бархед;Barrhead
+ja;バリー;Barrie
+ar;باري;Barrie
+ko;배리;Barrie
+ru;Барри;Barrie
+zh;巴里;Barrie
+de;Barry’s Bay;Barry's Bay
+ja;バリーズベイ;Barry's Bay
+ar;باتيسكون;Batiscan
+ru;Бетлфорд;Battleford
+ar;باي روبرتس;Bay Roberts
+ru;Беконсфилд;Beaconsfield
+ar;بيكونسفيلد;Beaconsfield
+ar;بوأرنوا، كيبك;Beauharnois
+ru;Боарнуа;Beauharnois
+ar;بولاك-غارتبي;Beaulac-Garthby
+ru;Бомонт;Beaumont
+zh;博蒙特;Beaumont
+ja;ビゥモント;Beaumont
+ar;بيكانكور، كيبك;Bécancour
+ru;Беканкур;Bécancour
+en;Waglisla;Bella Bella
+ar;بيلا بيلا;Bella Bella
+ja;ベラ・ベラ;Bella Bella
+zh;貝拉貝拉;Bella Bella
+ru;Белл-Ривер;Belle River
+ko;벨빌;Belleville
+ja;ベルビル;Belleville
+ar;بيلفي;Belleville
+ru;Бельвиль;Belleville
+zh;贝尔维尔;Belleville
+it;Isola Bell;Bell Island
+en;Ottawa Bells Corners;Bells Corners
+ru;Белс-Корнерс;Bells Corners
+fr;Belœil;Beloeil
+ar;بيل أوي، كيبك;Beloeil
+de;Belœil;Beloeil
+ru;Белёй;Beloeil
+ru;Бигар;Biggar
+zh;白楊石壁;Birch Cliff
+ar;بلاكفيل;Blackville
+ru;Бленим;Blenheim
+ja;ブラインド・ベイ;Blind Bay
+zh;花開公園;Blossom Park
+ru;Блайтсвуд;Blytheswood
+zh;東博爾頓;Bolton-Est
+ar;بولتون إست;Bolton-Est
+ja;イーストボルトン;Bolton-Est
+ru;Бонивил;Bonnyville
+ar;بوشيفيل، كيبك;Boucherville
+ja;ブーシャーヴィル;Boucherville
+ru;Бушервиль;Boucherville
+ru;Бактуш;Bouctouche
+ar;بريسبريدج;Bracebridge
+ja;ブレイスブリッジ;Bracebridge
+ja;ブランプトン;Brampton
+ko;브램턴;Brampton
+ar;برامبتون;Brampton
+hi;ब्रैंपटन;Brampton
+ru;Брамптон;Brampton
+zh;布兰普顿;Brampton
+ru;Брэндон;Brandon
+ja;ブランドン;Brandon
+ru;Брандон;Brandon
+zh;布兰登;Brandon
+ko;브랜트퍼드;Brantford
+ja;ブラントフォード;Brantford
+ar;برانتفورد;Brantford
+ru;Брантфорд;Brantford
+zh;布兰特福德;Brantford
+ar;برايتون;Brighton
+ja;ブロックビル;Brockville
+ar;بروكفيل;Brockville
+ru;Броквилл;Brockville
+zh;布羅克維爾;Brockville
+ar;برومون;Bromont
+ru;Бромон;Bromont
+ko;브룩스;Brooks
+zh;布鲁克斯;Brooks
+ru;Брукс;Brooks
+ar;بروسار;Brossard
+ja;ブロサード;Brossard
+zh;寶樂沙;Brossard
+ru;Броссар;Brossard
+ja;バーリントン;Burlington
+ar;بيرلينجتون;Burlington
+ko;벌링턴;Burlington
+ru;Берлингтон;Burlington
+zh;伯灵顿;Burlington
+ja;バーナビー市;Burnaby
+zh;本那比;Burnaby
+ja;バーナビー;Burnaby
+ko;버너비;Burnaby
+ar;بورنبي;Burnaby
+ru;Бернаби;Burnaby
+ru;Беруош-Лендинг;Burwash Landing
+zh;伯沃什兰丁;Burwash Landing
+zh-Hant;伯沃什蘭丁;Burwash Landing
+ar;كاتش كريك;Cache Creek
+fr;Cap-des-Caissie;Caissie Cape
+ar;كاليدون;Caledon
+ja;カレドン;Caledon
+ru;Каледон;Caledon
+ja;カルガリー;Calgary
+ko;캘거리;Calgary
+ru;Калгари;Calgary
+hi;कैलगरी;Calgary
+ar;كالغاري;Calgary
+zh;卡尔加里;Calgary
+ja;ケンブリッジ;Cambridge
+ar;كامبريدج;Cambridge
+ru;Кеймбридж;Cambridge
+zh;剑桥;Cambridge
+ko;케임브리지;Cambridge
+fr;Ikaluktutiak;Cambridge Bay
+ru;Кеймбридж-Бей;Cambridge Bay
+zh;剑桥湾;Cambridge Bay
+ar;خليج كامبردج;Cambridge Bay
+iu;Iqaluktutiaak;Cambridge Bay
+ar;كامبريدج;Cambridge-Narrows
+ja;キャンベルフォード;Campbellford
+zh;金寶福;Campbellford
+ko;캠벨리버;Campbell River
+ar;كامبل ريفر;Campbell River
+ja;キャンベルリバー;Campbell River
+ru;Кэмпбелл-Ривер;Campbell River
+zh;坎贝尔里弗;Campbell River
+zh;卡姆罗斯;Camrose
+ar;كامروز;Camrose
+ar;كاندياك، كيبك;Candiac
+ru;Канмор;Canmore
+zh;坎莫尔;Canmore
+ru;Канора;Canora
+fr;Îles-de-la-Madeleine;Cap-aux-Meules
+ar;كاب شا;Cap-Chat
+en;Cape Dorset;Kinngait
+ru;Кейп-Дорсет;Kinngait
+ja;フォーチュー岬;Cape Forchu
+zh;佛祖角;Cape Forchu
+ru;Карбери;Carberry
+zh;卡克罗斯;Carcross
+ru;Каркросс;Carcross
+ja;カークロス;Carcross
+ru;Кардстон;Cardston
+ar;كارينيون;Carignan
+ar;كارلتون بلاس;Carleton Place
+ru;Карлтон-Плейс;Carleton Place
+zh;卡爾頓普雷斯;Carleton Place
+ru;Карлингтон;Carlington
+ru;Карман;Carman
+ru;Карп;Carp
+zh;卡提亞城;Cartierville
+ar;كاسلغار;Castlegar
+ru;Каслгар;Castlegar
+zh;卡斯尔加;Castlegar
+ar;كايامون;Cayamant
+ru;Чок-Ривер;Chalk River
+zh;粉筆河;Chalk River
+ar;شومبلي، كيبك;Chambly
+ru;Шамбли;Chambly
+ar;شومبور;Chambord
+ar;شونوف;Champneuf
+de;Port aux Basques;Channel-Port aux Basques
+fr;Channel-Port-aux-Basques;Channel-Port aux Basques
+ru;Шапло;Chapleau
+ja;シャーロットタウン;Charlottetown
+ru;Шарлоттаун;Charlottetown
+ko;샬럿타운;Charlottetown
+zh;夏洛特顿;Charlottetown
+ar;تشارلوت تاون;Charlottetown
+hi;शार्लोटटाउन;Charlottetown
+ar;شاتوغيه، كيبك;Châteauguay
+ru;Шатоге;Châteauguay
+ru;Чатем;Chatham
+zh;查茨沃思;Chatsworth
+ar;شازل;Chazel
+ar;تشلسي;Chelsea
+ru;Челси;Chelsea
+ar;تشستر;Chester
+ru;Честермир;Chestermere
+ar;تشيسترفيل;Chesterville
+ru;Шибугамо;Chibougamau
+ar;شيبوغامو;Chibougamau
+ru;Чилливак;Chilliwack
+zh;卡拉利;Clairlea
+ar;كليرفال;Clerval
+ru;Клинтон;Clinton
+ko;클린턴;Clinton
+zh;克林頓;Clinton
+ja;クリントン;Clinton
+ar;كوتيكوك، كيبك;Coaticook
+ar;كوبورغ;Cobourg
+zh;科堡;Cobourg
+ru;Кобург;Cobourg
+ja;コクレーン;Cochrane
+ru;Кокран;Cochrane
+zh;科克倫;Cochrane
+ru;Колчестер;Colchester
+zh;冷湖市;Cold Lake
+ar;كولد لايك;Cold Lake
+hi;कोल्ड लेक;Cold Lake
+ja;コールド・レイク;Cold Lake
+ru;Колд-Лейк;Cold Lake
+ko;콜드 레이크;Cold Lake
+ar;كولينجوود;Collingwood
+en;Collingwood;Collingwood Corner
+ar;كولوود;Colwood
+ko;콜우드;Colwood
+zh;科尔伍德;Colwood
+ru;Комбер;Comber
+en;Greater Montreal;Communauté métropolitaine de Montréal
+es;Gran Montreal;Communauté métropolitaine de Montréal
+pt;Região Metropolitana de Montreal;Communauté métropolitaine de Montréal
+ar;كوموكس;Comox
+ar;كونتون;Compton
+ko;코퀴틀럼;Coquitlam
+ar;كوكويتلام;Coquitlam
+ja;コキットラム;Coquitlam
+ru;Кокуитлам;Coquitlam
+zh;高貴林;Coquitlam
+ja;コーナーブルック;Corner Brook
+ko;코너브룩;Corner Brook
+ru;Корнер-Брук;Corner Brook
+zh;科纳布鲁克;Corner Brook
+hi;कॉर्नर ब्रुक;Corner Brook
+zh-Hant;科納布魯克;Corner Brook
+ar;كورنر بروك;Corner Brook
+ru;Корнуолл;Cornwall
+ar;كورنوال;Cornwall
+zh;康沃尔;Cornwall
+ja;コーンウォール;Cornwall
+ko;콘월;Cornwall
+ru;Коттам;Cottam
+ar;كورسيل;Courcelles
+ru;Куртенэ;Courtenay
+ar;كورتيناي;Courtenay
+ru;Кортни;Courtenay
+zh;考特尼;Courtenay
+de;Courtland-Park;Courtland Park
+ar;كوتس;Coutts
+ar;كووانسفيل، كيبك;Cowansville
+ru;Крейг-Генри;Craig Henry
+ar;كرانبروك;Cranbrook
+ru;Кранбрук;Cranbrook
+zh;克兰布鲁克;Cranbrook
+zh;新月城;Crescent Town
+de;Cumberland (British Columbia);Cumberland
+ko;다트머스;Dartmouth
+hi;डार्टमाउथ;Dartmouth
+ru;Дартмут;Dartmouth
+zh-Hans;达特茅斯;Dartmouth
+zh;達特茅斯;Dartmouth
+ar;دارتموث;Dartmouth
+ja;ダートマス;Dartmouth
+zh;多芬;Dauphin
+hi;दौफिन;Dauphin
+ru;Дофин;Dauphin
+ko;도핀;Dauphin
+ar;دوفان;Dauphin
+ja;ドーファン;Dauphin
+ko;도슨크릭;Dawson Creek
+ar;دوسن كريك;Dawson Creek
+ru;Досон-Крик;Dawson Creek
+zh;道森克里克;Dawson Creek
+ja;ディープリバー;Deep River
+ru;Дип Ривер;Deep River
+ja;デルハイ;Delhi
+ru;Дельта;Delta
+ar;ديلتا;Delta
+ja;デルタ;Delta
+ko;델타;Delta
+ru;Делта;Delta
+zh;三角洲;Delta
+ru;остров Денман;Denman Island
+ru;Дешайон-Сюр-Сен-Лоран;Deschaillons-sur-Saint-Laurent
+ar;ديشايون سور سان لوران;Deschaillons-sur-Saint-Laurent
+ja;デシャイヨン＝シュル＝サン＝ローラン;Deschaillons-sur-Saint-Laurent
+ru;Девон;Devon
+ar;ديوبري;Dewberry
+ru;Дидсбери;Didsbury
+ja;ディエップ;Dieppe
+ru;Дьеп;Dieppe
+zh;迪耶普;Dieppe
+ar;ديكسفيل;Dixville
+ar;دولبو ميستاسيني، كيبك;Dolbeau-Mistassini
+ru;Долбо Мистасини;Dolbeau-Mistassini
+en;Dollard-des-Ormeaux;Dollard-Des Ormeaux
+es;Dollard-Des-Ormeaux;Dollard-Des Ormeaux
+nl;Dollard-des-Ormeaux;Dollard-Des Ormeaux
+ar;دولار ديزورمو، كيبك;Dollard-Des Ormeaux
+pt;Dollard-des-Ormeaux;Dollard-Des Ormeaux
+ru;Долар Дез Ормо;Dollard-Des Ormeaux
+ja;ドン・ミルズ;Don Mills
+zh;當妙斯;Don Mills
+ar;دورتشستر;Dorchester
+ar;دورفال، كيبك;Dorval
+ru;Дорваль;Dorval
+ar;درابر;Draper
+ja;ドレイパー;Draper
+ru;Дрейтон-Валли;Drayton Valley
+ja;ドラムヘラー;Drumheller
+ar;درومونفيل;Drummondville
+ja;ドラモンビル;Drummondville
+ru;Драммондвилл;Drummondville
+zh;德拉蒙市;Drummondville
+ar;درايدن، أونتاريو;Dryden
+ru;Драйден;Dryden
+zh;德赖登;Dryden
+hi;ड्राडेन;Dryden
+ko;드라이든;Dryden
+ja;ドライデン;Dryden
+ar;دادسويل;Dudswell
+ar;دوهامل;Duhamel
+ru;Дункан;Duncan
+zh;邓肯;Duncan
+en;Dundee Rd. West Bay;Dundee
+ar;دانفيل;Dunnville
+ru;Дунвиле;Dunnville
+en;Armstrong;Earlton
+ar;أيست أنغس;East Angus
+ru;Ист Ангус;East Angus
+ar;ايست فارنهام;East Farnham
+ar;ايست ويليمباري;East Gwillimbury
+ar;ايست هيريفورد;East Hereford
+ja;エドモントン;Edmonton
+ko;에드먼턴;Edmonton
+ru;Эдмонтон;Edmonton
+cr;ᐊᒥᐢᑲᐧᒋᐊᐧᐢᑲᐦᐃᑲᐣ;Edmonton
+ar;إدمونتون;Edmonton
+zh;埃德蒙顿;Edmonton
+hi;एडमॉन्टन;Edmonton
+ru;Едсон;Edson
+ru;Эганвилль;Eganville
+ja;エリオットレイク;Elliot Lake
+ar;إليوت لايك;Elliot Lake
+ru;Ендерби;Enderby
+ar;إريكسديل;Eriksdale
+ru;Эриксдейл;Eriksdale
+ar;ايرين;Erin
+ru;Ирин;Erin
+zh;艾林米爾斯;Erin Mills
+es;Española;Espanola
+ja;エスパノーラ;Espanola
+zh;埃斯帕諾拉;Espanola
+ru;Еспанола;Espanola
+ar;إيسكويمالت;Esquimalt
+zh;埃斯奎莫爾特;Esquimalt
+ar;إسيكس، أونتاريو;Essex
+ru;Эссекс;Essex
+ar;إسيكس;Essex
+zh;艾塞克斯;Essex
+en;Riverview;Essondale
+ar;إستيفن;Estevan
+ru;Эстеван;Estevan
+hi;एस्टेवन;Estevan
+zh-Hans;埃斯特万;Estevan
+zh;艾斯特凡;Estevan
+ja;エステヴァン;Estevan
+ko;에스터밴;Estevan
+ru;Етобикоке;Etobicoke
+zh;埃克塞特;Exeter
+ru;Фарнем;Farnham
+ar;فارنهام;Farnham
+ar;فاسيت;Fassett
+ru;Ферни;Fernie
+ja;フィールド;Field
+zh;菲爾德;Field
+ru;Флетчер;Fletcher
+ru;Флин-Флон;Flin Flon
+ja;フォントヒル;Fonthill
+ar;فورموست;Foremost
+ar;فور كولونج;Fort-Coulonge
+fr;Fort Érié;Fort Erie
+ar;فورت إيري;Fort Erie
+ja;フォートエリー;Fort Erie
+zh;伊利堡;Fort Erie
+ru;Форт Ири;Fort Erie
+ar;فورت فرانسيس;Fort Frances
+ja;フォートフランシス;Fort Frances
+zh;弗朗西斯堡;Fort Frances
+ru;Форт Франсес;Fort Frances
+zh;福尔捷维尔;Fortierville
+ar;فورتييهفيل;Fortierville
+zh-Hant;福爾捷維爾;Fortierville
+en;Forties Settlement;Forties
+ru;Форт Маклауд;Fort Macleod
+ja;フォートマクマレー;Fort McMurray
+ar;فورت ماكموراي;Fort McMurray
+ko;포트맥머리;Fort McMurray
+zh;麦克默里堡;Fort McMurray
+ru;Форт-Макферсон;Fort McPherson
+zh;纳尔逊堡;Fort Nelson
+ar;حصن نلسون، كولومبيا البريطانية;Fort Nelson
+ja;フォート・ネルソン;Fort Nelson
+ru;Форт-Релайанс;Fort Reliance
+zh;里萊恩斯堡;Fort Reliance
+ar;فورت ساسكاتشوان;Fort Saskatchewan
+ru;Форт-Саскачеван;Fort Saskatchewan
+zh;萨斯喀彻温堡;Fort Saskatchewan
+en;Ft Saskatchewan;Fort Saskatchewan
+ru;Форт-Селкёрк;Fort Selkirk
+zh;塞尔柯克堡;Fort Selkirk
+ru;Форт-Симпсон;Fort Simpson
+zh;辛普森堡;Fort Simpson
+ar;فورت سانت جون;Fort St. John
+ru;Форт-Сент-Джон;Fort St. John
+zh;聖約翰堡;Fort St. John
+en;Fort St John;Fort St. John
+ru;Фредериктон;Fredericton
+ja;フレデリクトン;Fredericton
+ko;프레더릭턴;Fredericton
+ar;فريدريكتون;Fredericton
+zh;弗雷德里克頓;Fredericton
+hi;फ्रेडेरिक्टन;Fredericton
+ar;فريليسبيرغ;Frelighsburg
+ja;フレリトビュール;Frelighsburg
+ar;فرونتناك;Frontenac
+ar;غادسباي;Gadsby
+ar;جاجتون;Gagetown
+ar;غاليشان;Gallichan
+ja;ガンダー;Gander
+ru;Гандер;Gander
+zh;甘德;Gander
+zh-Hant;加里波第地區;Garibaldi
+ja;ガリバルディ;Garibaldi
+zh;加里波第地区;Garibaldi
+ja;ガスペ;Gaspé
+ar;غاسبيه;Gaspé
+cr;ᗴᔅᗫ;Gaspé
+ru;Гаспе;Gaspé
+ja;ガティノー;Gatineau
+ar;غاتينو;Gatineau
+ko;가티노;Gatineau
+ru;Гатино;Gatineau
+zh;加蒂諾;Gatineau
+zh;乔治敦;Georgetown
+ko;조지타운;Georgetown
+zh;佐治鎮;Georgetown
+ja;ジョージタウン;Georgetown
+ru;Гимли;Gimli
+en;Kincolith;Gingolx
+ar;جيرارفيل;Girardville
+iu;Uqsuqtuuq;Gjoa Haven
+ru;Глостер;Gloucester
+ja;ゴドリッチ;Goderich
+zh;戈德里奇;Goderich
+ru;Годрич;Goderich
+ar;غرانبي;Granby
+ru;Гранби;Granby
+zh;格兰比;Granby
+en;Grand Bay–Westfield;Grand Bay-Westfield
+zh;格兰湾;Grand Bend
+ru;Гранд Бенд;Grand Bend
+ru;Гранд Кеш;Grande Cache
+ko;그랜디프레리;Grande Prairie
+ar;غراند براري;Grande Prairie
+ru;Гранд-Прери;Grande Prairie
+zh;大草原城;Grande Prairie
+ar;غراند بيل;Grandes-Piles
+ru;Гранд-Форкс;Grand Forks
+cr;Misi-páwastik;Grand Rapids
+fr;Grand Sudbury;Greater Sudbury
+es;Gran Sudbury;Greater Sudbury
+ar;غريتر سودبوري;Greater Sudbury
+ko;서드베리;Greater Sudbury
+ja;サドバリー;Greater Sudbury
+pt;Sudbury;Greater Sudbury
+ru;Большой Садбери;Greater Sudbury
+en;Sudbury;Greater Sudbury
+zh;大薩德伯里;Greater Sudbury
+ar;جرافنهورست;Gravenhurst
+ja;グレイブンハースト;Gravenhurst
+zh;格雷文赫斯特;Gravenhurst
+en;Napanee;Greater Napanee
+zh;格里利;Greely
+zh;綠庭;Green Court
+ar;غرنفيل سور لا روج;Grenville-sur-la-Rouge
+ru;Гретна;Gretna
+zh;格雷特纳;Gretna
+ar;غريمسبي;Grimsby
+ja;グリムスビー;Grimsby
+zh;格里姆斯比;Grimsby
+ru;Гримсби;Grimsby
+ru;Гримшо;Grimshaw
+ja;グリスフィヨルド;Grise Fiord
+ru;Грис-Фьорд;Grise Fiord
+de;Grünthal;Grunthal
+ja;ゲルフ;Guelph
+ar;غويلف;Guelph
+ko;궬프;Guelph
+ru;Гуэлф;Guelph
+zh;貴湖;Guelph
+ru;Хафмун-Бей;Halfmoon Bay
+en;Hall Beach;Sanirajak
+en;Hall's Harbour;Halls Harbour
+ja;ハミルトン;Hamilton
+ko;해밀턴;Hamilton
+ar;هاميلتون;Hamilton
+ru;Гамильтон;Hamilton
+zh;哈密尔顿;Hamilton
+ru;Хэмпстед;Hampstead
+ru;Хана;Hanna
+ru;Хановер;Hanover
+ru;Харроу;Harrow
+en;Harvey Station;Harvey
+en;Havre-St-Pierre;Havre-Saint-Pierre
+ar;هاوكيسبيري;Hawkesbury
+ru;Хоксбери;Hawkesbury
+ar;هازلتون;Hazelton
+ru;Херст;Hearst
+ar;أونريفيل;Henryville
+ru;Хай Левел;High Level
+ru;Хинтон;Hinton
+ru;Хинтонберг;Hintonburg
+zh;軒頓堡;Hintonburg
+ru;Улукхакток;Ulukhaktok
+ar;هوب;Hope
+zh;合普;Hope
+ja;ホットスプリングス・コーブ;Hot Springs Cove
+zh;溫泉灣;Hot Springs Cove
+ar;هوويك;Howick
+hi;हम्बोल्ट;Humboldt
+ru;Гумбольдт;Humboldt
+zh-Hans;洪堡;Humboldt
+ko;훔볼트;Humboldt
+ar;هومبولت;Humboldt
+ja;フンボルト;Humboldt
+zh;狩獵會區;Hunt Club
+ar;هانتسفيل;Huntsville
+ja;ハンツビル;Huntsville
+ru;Хантсвилл;Huntsville
+zh;亨茨維爾;Huntsville
+ar;هورن أيست;Huron East
+de;Iglulik;Igloolik
+fr;Igloulik;Igloolik
+it;Iglulik;Igloolik
+ru;Иглулик;Igloolik
+ar;إنجرسول;Ingersoll
+ru;Ингерсол;Ingersoll
+zh-Hant;英格勒姆波特;Ingramport
+ja;イヌヴィック;Inuvik
+ko;이누빅;Inuvik
+ru;Инувик;Inuvik
+zh;因纽维克;Inuvik
+ru;Айон-Стейшн;Iona Station
+zh;愛奧那站;Iona Station
+ja;アイオナ・ステーション;Iona Station
+iu;ᐃᖃᓗᐃᑦ;Iqaluit
+ja;イカルイト;Iqaluit
+ko;이칼루이트;Iqaluit
+zh;伊魁特;Iqaluit
+ar;إيكالويت;Iqaluit
+ru;Икалуит;Iqaluit
+hi;इकालुइट;Iqaluit
+ru;Дженнетс-Крик;Jeannettes Creek
+ar;جولييت، كيبك;Joliette
+ja;カムループス;Kamloops
+ru;Камлупс;Kamloops
+ar;كاملوبس;Kamloops
+zh;坎卢普斯;Kamloops
+ru;Каната;Kanata
+zh;坎納塔;Kanata
+ar;كابوسكاسينغ;Kapuskasing
+ru;Капасказинг;Kapuskasing
+ar;كازابازوا;Kazabazua
+ja;ケロウナ;Kelowna
+ru;Келоуна;Kelowna
+ar;كيلونا;Kelowna
+ko;켈로나;Kelowna
+zh;基隆拿;Kelowna
+ru;Кемптвилл;Kemptville
+zh;肯普特维尔;Kemptville
+zh-Hant;肯普特維爾;Kemptville
+ar;كينورا;Kenora
+ja;ケノーラ;Kenora
+ru;Кенора;Kenora
+zh;肯諾拉;Kenora
+fr;Portage-aux-Rats;Kenora
+ru;Кенсингтон;Kensington
+ar;كيمبيرلي;Kimberley
+ru;Кимберли;Kimberley
+ar;كينكاردين;Kincardine
+zh;金卡丁;Kincardine
+ru;Кинкардин;Kincardine
+ar;كينغ;King
+ko;킹시티;King City
+ru;Кинг-Сити;King City
+zh;皇帝市;King City
+ja;キングストン;Kingston
+ru;Кингстон;Kingston
+ar;كينغستون;Kingston
+ko;킹스턴;Kingston
+zh;金斯顿;Kingston
+ru;Кингсвилл;Kingsville
+ar;كينغسفيل;Kingsville
+ru;Кингсвил;Kingsville
+zh;基努紹;Kinoosao
+ar;كيركلاند، كيبك;Kirkland
+ru;Киркланд;Kirkland
+ko;커클랜드레이크;Kirkland Lake
+ar;كيركلاند ليك;Kirkland Lake
+ru;Китченер;Kitchener
+ar;كيتشنر;Kitchener
+ko;키치너;Kitchener
+ja;キッチナー;Kitchener
+zh;基秦拿;Kitchener
+ar;كيتيمات;Kitimat
+de;Klondike Fields;Klondike
+hi;क्लोनडिके;Klondike
+ja;クロンダイク;Klondike
+ru;Клондайк;Klondike
+zh;克朗代克;Klondike
+ar;خليج كوتيناي;Kootenay Bay
+en;Coppermine;Kugluktuk
+ru;Куглуктук;Kugluktuk
+zh;库格鲁克图克;Kugluktuk
+ar;كوجواك;Kuujjuaq
+iu;ᑰᔾᔪᐊᖅ;Kuujjuaq
+ru;Кууджуак;Kuujjuaq
+zh;库朱瓦克;Kuujjuaq
+ar;كوجوارابيك;Kuujjuarapik
+ru;Кууджуарапик;Kuujjuarapik
+zh;拉布拉多市;Labrador City
+en;Lac Brome;Lac-Brome
+ar;لاك ديس بلايجس;Lac-des-Plages
+ar;لاك دروليت;Lac-Drolet
+ar;لاك دو كيرف;Lac-du-Cerf
+ar;لاشوت;Lachute
+zh;梅干提克湖;Lac-Mégantic
+ar;لاك مغانتيك;Lac-Mégantic
+ru;Лак Мегантик;Lac-Mégantic
+ar;لاكولي;Lacolle
+ar;لاكومب;Lacombe
+zh;拉科姆;Lacombe
+hi;लैकोम्बे;Lacombe
+ru;Лаком;Lacombe
+ko;라콩브;Lacombe
+ja;ラクーム;Lacombe
+ar;لاك كونسبتشن;La Conception
+ar;لاك كروني;La Corne
+ar;لايدي سميث;Ladysmith
+ru;Лейдисмит;Ladysmith
+en;Laforge;Laforge-1
+ar;ليكشور;Lakeshore
+ar;لا ماكازا;La Macaza
+ar;لامبتون;Lambton
+ar;لمبتون شوريس;Lambton Shores
+ru;Ламтон Шорс;Lambton Shores
+ru;Ламонт;Lamont
+ar;لانغفورد;Langford
+zh;蘭福德;Langford
+ru;Лангфорд;Langford
+en;Langley City;Langley
+es;Ciudad de Langley;Langley
+ar;لانغلي، كولومبيا البريطانية;Langley
+ja;ラングリー;Langley
+ko;랭글리;Langley
+zh;蘭里市;Langley
+ru;Лангли;Langley
+ar;لاباتري;La Patrie
+ar;لا بريري;La Prairie
+ru;Ла Прери;La Prairie
+ru;Ла Рондж;La Ronge
+ar;لاسال;LaSalle
+ru;Ла-Саль;LaSalle
+ar;لا ساري;La Sarre
+ru;Ла-Сар;La Sarre
+ar;لاسونسيون;L'Ascension
+ar;لاتاك;La Tuque
+ru;Ла-Тюк;La Tuque
+zh;拉圖克;La Tuque
+ja;ラヴァル;Laval
+ar;لافال;Laval
+ru;Лаваль;Laval
+zh;拉瓦勒;Laval
+ar;لأنفير;L'Avenir
+zh;羅倫斯嶺;Lawrence Heights
+zh;羅倫斯莊園;Lawrence Manor
+ar;ليمينغتون;Leamington
+ru;Лимингтон;Leamington
+zh;裡塞區;Leaside
+ar;ليسلرفيل;Leclercville
+ko;리덕;Leduc
+ar;ليدوك;Leduc
+zh;勒杜克;Leduc
+hi;लेडुक;Leduc
+ja;レドゥク;Leduc
+ru;Ледук;Leduc
+ar;ليميوكس;Lemieux
+de;Le Moyne;LeMoyne
+ja;ル・モイン;LeMoyne
+en;Le Moyne;LeMoyne
+fr;Le Moyne;LeMoyne
+ar;ليس كوتياكس;Les Coteaux
+ja;レ・コトー;Les Coteaux
+en;Lethbridge, Morley's Siding, Brooklyn, Charleston, Jamestown, Portland, Winter Brook and Sweet Bay;Lethbridge
+ja;レスブリッジ;Lethbridge
+ar;ليثبريدج;Lethbridge
+ko;레스브리지;Lethbridge
+ru;Летбридж;Lethbridge
+zh;萊斯布里奇;Lethbridge
+en;L'Ile Perrot;L'Île-Perrot
+ar;لينكون;Lincoln
+ja;リンカーン;Lincoln
+ru;Линден-Бич;Linden Beach
+ja;リンジー;Lindsay
+ru;Линдсей;Lindsay
+ko;린지;Lindsay
+de;Isle des Allumettes;L'Isle-aux-Allumettes
+pt;Isle-aux-Allumettes;L'Isle-aux-Allumettes
+es;Isle-aux-Allumettes;L'Isle-aux-Allumettes
+ar;للسل أوكس ألوميتيس;L'Isle-aux-Allumettes
+ja;リッタルフォート;Little Fort
+ru;Ливерпул;Liverpool
+zh;利物浦;Liverpool
+ar;ليفربول، نوفا سكوتيا;Liverpool
+ja;リバプール;Liverpool
+ar;لويدمنستر;Lloydminster
+ru;Ллойдминстер;Lloydminster
+zh;劳埃德明斯特;Lloydminster
+ja;ロンドン;London
+ar;لندن;London
+ko;런던;London
+ru;Лондон;London
+zh;伦敦;London
+ja;ロンゲール;Longueuil
+ar;لونغوي;Longueuil
+ru;Лонгёй;Longueuil
+zh;朗基爾;Longueuil
+ko;롱괴이;Longueuil
+ar;لورانفيل;Lorrainville
+ar;لويزفيل;Louiseville
+ru;Луивил;Louiseville
+ja;ルーネンバーグ;Lunenburg
+ru;Луненберг;Lunenburg
+zh;盧嫩堡;Lunenburg
+ar;مدينة ونينبورج;Lunenburg
+ru;Лют Маунтин;Lutes Mountain
+ja;マッキャン;Maccan
+zh;麥肯;Maccan
+ar;ماغوغ، كيبك;Magog
+ja;マゴグ;Magog
+ru;Мейгог;Magog
+ru;Магро;Magrath
+ru;Мейдстон;Maidstone
+ru;Мен-а-Дьё;Main-à-Dieu
+ar;مانيواكي;Maniwaki
+ru;Маниваки;Maniwaki
+ru;Менинг;Manning
+ar;مانسو;Manseau
+zh;曼尼貝利斯;Manyberries
+ja;メープル;Maple
+zh;楓樹區;Maple
+ru;Мэпл-Ридж;Maple Ridge
+ko;메이플리지;Maple Ridge
+ja;メイプルリッジ;Maple Ridge
+ar;مابل ريدج;Maple Ridge
+zh;楓樹嶺;Maple Ridge
+ar;ماريانا لايك;Mariana Lake
+ar;ماركام;Markham
+ja;マーカム;Markham
+ru;Маркем;Markham
+zh;萬錦市;Markham
+en;Marriott's Cove;Marriotts Cove
+en;Martin's River;Martins River
+ar;مارتانفيل;Martinville
+ar;ماسكوش، كيبك;Mascouche
+ar;ماتاغامي;Matagami
+ru;Матагами;Matagami
+ru;Матава;Mattawa
+ar;مك أدام;McAdam
+ja;マッカラム;McCallum Settlement
+ru;Мак-Грегор;McGregor
+ar;مك ماسترفيل;McMasterville
+ja;メドウレイク;Meadow Lake
+ja;メアンダーリバー;Meander River
+ru;Мит-Коув;Meat Cove
+ar;مدسين هات;Medicine Hat
+ru;Медисин-Хат;Medicine Hat
+zh;梅迪辛哈特;Medicine Hat
+hi;मेडिसिन हैट;Medicine Hat
+ja;メディシン・ハット;Medicine Hat
+ko;메디신햇;Medicine Hat
+ru;Мелфорт;Melfort
+ru;Мелита;Melita
+ru;Мелвилл;Melville
+ar;ميمرامكوك;Memramcook
+ru;Мерлин;Merlin
+ar;ميريت;Merritt
+ru;Мерит;Merritt
+ar;ميدلاند;Midland
+zh;美德兰;Midland
+ru;Мидланд;Midland
+ar;ميلان;Milan
+zh;磨坊灣;Mill Bay
+ar;ميله لسليس;Mille-Isles
+ar;ميلتون;Milton
+ja;ミルトン;Milton
+ru;Милтон;Milton
+zh;米尔顿;Milton
+fr;Minigan;Mingan
+ru;Минедоса;Minnedosa
+ar;مينتو;Minto
+ar;ميرابيل، كيبك;Mirabel
+ru;Мирабель;Mirabel
+ru;Мирамиши;Miramichi
+ko;미션;Mission
+ar;ميشن;Mission
+zh;米遜;Mission
+ar;ميسيساغا;Mississauga
+ja;ミシサガ;Mississauga
+ko;미시소거;Mississauga
+ru;Миссиссога;Mississauga
+zh;密西沙加;Mississauga
+en;Mitchell/Ontario;Mitchell
+ru;Монктон;Moncton
+ar;مونكتون;Moncton
+ja;モンクトン;Moncton
+zh;蒙克顿;Moncton
+ko;멍크턴;Moncton
+ar;مونتكالم;Montcalm
+ar;مونتكيرفت لايتون;Montcerf-Lytton
+ru;Монтебелло;Montebello
+zh;蒙提貝羅;Montebello
+ar;مونتيبيلو;Montebello
+ja;モンテベロ;Montebello
+ar;مونت لوريل;Mont-Laurier
+ar;مونتمارتري;Montmartre
+de;Montreal;Montréal
+es;Montreal;Montréal
+en;Montreal;Montréal
+ht;Monreyal;Montréal
+iu;ᒧᕆᐊᓪ;Montréal
+ja;モントリオール;Montréal
+ko;몬트리올;Montréal
+pt;Montreal;Montréal
+ru;Монреаль;Montréal
+en;Montreal City;Montréal
+ar;مونتريال;Montréal
+en;Montreal East;Montréal-Est
+en;Montreal West;Montréal-Ouest
+en;Mount Royal;Mont-Royal
+nl;Mount Royal;Mont-Royal
+ar;مونت رويال;Mont-Royal
+ar;مونت سان هيلير;Mont-Saint-Hilaire
+ru;Мон Сент Илер;Mont-Saint-Hilaire
+ar;مونت تريمبلانت، كيبك;Mont-Tremblant
+ja;モントランブラン;Mont-Tremblant
+ru;Мус-Джо;Moose Jaw
+ar;موسجاو;Moose Jaw
+zh;穆斯乔;Moose Jaw
+ko;무스조;Moose Jaw
+ja;ムースニー;Moosonee
+ru;Мусони;Moosonee
+ru;Морден;Morden
+zh;莫登;Morden
+ja;モーデン;Morden
+ru;Маунт-Ханли;Mount Hanley
+de;Mount Hope (Ontario);Mount Hope
+en;Hamlet of Mount Lorne;Mount Lorne
+ru;Накавик;Nackawic
+ja;ナナイモ;Nanaimo
+ru;Нанаймо;Nanaimo
+ko;나나이모;Nanaimo
+zh;纳奈莫;Nanaimo
+ar;نانيامو إي;Nanaimo
+ru;Нельсон;Nelson
+ar;نيلسون;Nelson
+ja;ネルソン;Nelson
+en;Nelson;Nelson-Miramichi
+ru;Непин;Nepean
+fr;New Bridgen;New Brigden
+en;Newcastle;Newcastle Village
+ja;ニューキャッスル地区;Newcastle Village
+fr;Newcastle;Newcastle Village
+nl;Newcastle;Newcastle Village
+zh;紐卡素;Newcastle Village
+ru;Нью-Эдинбург;New Edinburgh
+zh;新愛丁堡;New Edinburgh
+pt;Nova Glasgow;New Glasgow
+zh;新倫敦;New London
+zh-Hans;新伦敦;New London
+ja;ニュー・ロンドン;New London
+en;Newmans Cove;Newman's Cove
+ko;뉴마켓;Newmarket
+ar;نيوماركت;Newmarket
+ru;Ньюмаркет;Newmarket
+zh;纽马克特;Newmarket
+ja;ニューマーケット;Newmarket
+ar;نيو ويستمينيستر;New Westminster
+ja;ニューウエストミンスター;New Westminster
+ko;뉴웨스트민스터;New Westminster
+ru;Нью-Уэстминстер;New Westminster
+zh;新威斯敏斯特;New Westminster
+fr;Chutes Niagara;Niagara Falls
+zh;尼亚加拉瀑布城;Niagara Falls
+ja;ナイアガラフォールズ;Niagara Falls
+ar;نياجارا فولز;Niagara Falls
+ko;나이아가라폴스;Niagara Falls
+ru;Ниагара-Фолс;Niagara Falls
+es;Cataratas del Niágara;Niagara Falls
+ja;ナイアガラオンザレイク;Niagara-on-the-Lake
+ko;나이아가라온더레이크;Niagara-on-the-Lake
+ar;نياجارا-أون-ذا-ليك;Niagara-on-the-Lake
+ru;Ниагара-он-те-Лейк;Niagara-on-the-Lake
+zh;滨湖尼亚加拉;Niagara-on-the-Lake
+ru;Николе;Nicolet
+ar;نوموينينغو;Nominingue
+ru;Норман-Уэлс;Norman Wells
+ar;نورث باتلفورد;North Battleford
+zh;北贝特爾福德;North Battleford
+ja;ノースベイ;North Bay
+ar;نورث باي;North Bay
+ru;Норт-Бей;North Bay
+zh;北灣;North Bay
+ru;Норт-Бакстон;North Buxton
+ar;كاويتشان الشمالية;North Cowichan
+ar;نورث بيرث;North Perth
+ru;Норт Перт;North Perth
+ja;ノースバンクーバー;North Vancouver
+ko;노스밴쿠버;North Vancouver
+ru;Норт-Ванкувер;North Vancouver
+zh;北溫哥華市;North Vancouver
+ar;نورويتش;Norwich
+ar;نورت دام دي مونتاوبان;Notre-Dame-de-Montauban
+ar;نورت دام دو لاوس;Notre-Dame-du-Laus
+ar;نورت دام دو نورد;Notre-Dame-du-Nord
+ar;نويان;Noyan
+ru;Ноян;Noyan
+ar;أوك باي;Oak Bay
+zh;橡樹灣;Oak Bay
+ar;أوكفيل;Oakville
+ja;オークビル;Oakville
+ko;오크빌;Oakville
+ru;Оквилл;Oakville
+zh;奥克维尔;Oakville
+ru;Оушен-Фолс;Ocean Falls
+ar;أوكا;Oka
+ja;オカナガン・フォールズ;Okanagan Falls
+ko;오코톡스;Okotoks
+zh;奥克托克斯;Okotoks
+ru;Окотокс;Okotoks
+en;Old Towns;Old Bella Bella
+ru;Оулдс;Olds
+ru;Оливер;Oliver
+ar;أوريليا;Orillia
+ru;Ориллия;Orillia
+ja;オリリア;Orillia
+zh;奧里利亞;Orillia
+ar;أورمستاون;Ormstown
+ar;أوشاوا;Oshawa
+ja;オシャワ;Oshawa
+ko;오샤와;Oshawa
+ru;Ошава;Oshawa
+zh;奧沙華;Oshawa
+ru;Осуюс;Osoyoos
+ar;أوتاوا;Ottawa
+iu;ᐊᑐᕚ/atavaa;Ottawa
+ja;オタワ;Ottawa
+ko;오타와;Ottawa
+pt;Otava;Ottawa
+ru;Оттава;Ottawa
+nah;Ottahua;Ottawa
+chr;ᎠᏔᏩ;Ottawa
+ht;Otawa;Ottawa
+zh;渥太華;Ottawa
+ru;Оттауа Саут;Ottawa South
+ar;أوين ساوند;Owen Sound
+ja;オーウェンサウンド;Owen Sound
+ru;Оуэн-Саунд;Owen Sound
+ru;Пейнкорт;Pain Court
+ja;パーマーストン;Palmerston
+ru;Пангниртунг;Pangnirtung
+ar;بابينيوفيل;Papineauville
+ar;باركسفيل;Parksville
+zh;帕克斯維爾;Parksville
+en;Jewel of Vancouver Island;Parksville
+ru;Парксвил;Parksville
+ja;パリーサウンド;Parry Sound
+zh;帕里灣;Parry Sound
+ru;Пари Саунд;Parry Sound
+ru;Полатук;Paulatuk
+zh;皮斯里弗;Peace River
+fr;Rivière-la-Paix;Peace River
+ru;Пис Ривер;Peace River
+ar;بيلهام;Pelham
+ja;ペルハム;Pelham
+ru;Пелли-Кроссинг;Pelly Crossing
+ar;بيمبرتون;Pemberton
+ar;بينيتانجويشين;Penetanguishene
+ru;Пенетангуишин;Penetanguishene
+ar;بينتيكتون;Penticton
+zh;彭蒂克顿;Penticton
+ru;Пентиктон;Penticton
+ja;パース;Perth
+ru;Перт;Perth
+zh;珀斯;Perth
+ru;Питерборо;Peterborough
+ar;بيتيربوروغ;Peterborough
+ja;ピーターボロ;Peterborough
+ko;피터버러;Peterborough
+zh;彼得堡;Peterborough
+ja;ピカリング;Pickering
+ar;بيكرينغ;Pickering
+ru;Пикеринг;Pickering
+ko;피커링;Pickering
+zh;皮克靈;Pickering
+ja;ピクトン;Picton
+ko;픽토우랜딩;Pictou Landing
+ru;Пинчер Крик;Pincher Creek
+cr;kinêpiko-sâkahikam;Pinehouse
+ar;بيوبوليس;Piopolis
+ru;Питт-Медоус;Pitt Meadows
+en;Pitts Meadows;Pitt Meadows
+ar;بيت ميدوز;Pitt Meadows
+ja;ピットメドウズ;Pitt Meadows
+ko;피트메도스;Pitt Meadows
+zh;匹特草原;Pitt Meadows
+ar;بيت ميدوز، كولومبيا البريطانية;Pitt Meadows
+ar;بلايسانسه;Plaisance
+ar;بوينتي كالوميت;Pointe-Calumet
+ar;بوينت كلير;Pointe-Claire
+ru;Пуант-Лебель;Pointe-Lebel
+ru;Понд-Инлет;Pond Inlet
+ru;Понока;Ponoka
+ru;Понтьяк;Pontiac
+ar;بونيتياك;Pontiac
+ru;Портидж-ла-Прери;Portage la Prairie
+hi;पोर्टेज ला प्राइरी;Portage la Prairie
+zh;波蒂奇拉普雷里;Portage la Prairie
+ar;بورتاج لابريري;Portage la Prairie
+ja;ポーティッジ・ラ・プレーリー;Portage la Prairie
+ko;포티지러프레리;Portage la Prairie
+ar;بورت ألبيرني;Port Alberni
+zh;艾伯尼港;Port Alberni
+ru;Порт-Алберни;Port Alberni
+ru;Портапик;Portapique
+ar;بورت كارتير;Port-Cartier
+zh;卡捷港;Port-Cartier
+ar;بورت كولبورن;Port Colborne
+ko;포트콜본;Port Colborne
+ja;ポートコルボーン;Port Colborne
+ar;بورت كوكويتلام;Port Coquitlam
+ja;ポートコキットラム;Port Coquitlam
+ko;포트코퀴틀럼;Port Coquitlam
+zh;高貴林港;Port Coquitlam
+en;PoCo;Port Coquitlam
+ru;Порт Коквитлам;Port Coquitlam
+ru;Порт-Кредит;Port Credit
+ja;ポートクレジット;Port Credit
+ar;بورت إليغين;Port Elgin
+zh-Hant;埃爾金港;Port Elgin
+ru;Порт-Хоксбери;Port Hawkesbury
+ar;بورت هوب;Port Hope
+ru;Порт Хоуп;Port Hope
+ko;포트무디;Port Moody
+ar;بورت مودي;Port Moody
+ja;ポートムーディ;Port Moody
+zh;滿地寶;Port Moody
+ru;Порт Муди;Port Moody
+fr;Port-Royal;Port Royal
+ru;Порт-Юнион;Port Union
+ar;بولايريس;Poularies
+ar;بويل ريفر;Powell River
+ru;Пауел Ривер;Powell River
+ar;بريساك;Preissac
+ru;Прескотт;Prescott
+ar;برينس ألبرت;Prince Albert
+ja;プリンス・アルバート;Prince Albert
+ru;Принс-Альберт;Prince Albert
+zh;艾伯特亲王城;Prince Albert
+en;Prince Edward County;Prince Edward
+ru;Принс-Джордж;Prince George
+ar;برينس جورج;Prince George
+ko;프린스조지;Prince George
+zh;乔治王子城;Prince George
+ko;프린스루퍼트;Prince Rupert
+ja;プリンスルパート;Prince Rupert
+ar;برينس روبيرت;Prince Rupert
+ru;Принс-Руперт;Prince Rupert
+zh;鲁珀特王子港;Prince Rupert
+ru;Принстон;Princeton
+ar;بوغواش;Pugwash
+ja;パグウォッシュ;Pugwash
+ar;شاطئ كواليكم;Qualicum Beach
+ar;كويين تشارلوت;Daajing Giids
+ar;كينيل;Quesnel
+ru;Квеснел;Quesnel
+ar;قوينت ويست;Quinte West
+ja;クインテウエスト;Quinte West
+ru;Радиссон;Radisson
+en;Radium;Radium Hot Springs
+en;Tlicho Community Government of Gameti;Gamèti
+zh;藍斯威老;Ramsayville
+ru;Ранкин-Инлет;Rankin Inlet
+ar;رابيد دانسيور;Rapide-Danseur
+ar;رابيدز ديس دواتشيمس;Rapides-des-Joachims
+ru;Роудон;Rawdon
+ar;راودون، كيبك;Rawdon
+en;Metapenagiag;Red Bank
+ar;رد دير;Red Deer
+ru;Ред-Дир;Red Deer
+zh;红鹿市;Red Deer
+ja;レッドディア;Red Deer
+hi;रेड डियर;Red Deer
+ko;레드디어;Red Deer
+fr;Régina;Regina
+ja;レジャイナ;Regina
+ru;Реджайна;Regina
+ko;리자이나;Regina
+ar;ريجاينا;Regina
+zh;里贾纳;Regina
+hi;रेजिना;Regina
+ja;レンフルー;Renfrew
+ru;Ренфру;Renfrew
+fr;Renous-Quarryville;Renous
+zh;内诺斯;Renous
+ar;ريبنتينيي;Repentigny
+ru;Репантиньи;Repentigny
+iu;ᓇᐅᔮᑦ;Naujaat
+ja;レゾリュート;Resolute
+ru;Резольют;Resolute
+de;Resolute Bay;Resolute
+ar;ريفيلستوك;Revelstoke
+ru;Ревелстоук;Revelstoke
+zh;力士杜;Rexdale
+ar;ريكستون;Rexton
+fr;Richibouctou;Richibucto
+ru;Ришибакто;Richibucto
+ru;Ричмонд;Richmond
+ja;リッチモンド;Richmond
+ko;리치먼드;Richmond
+ar;ريتشموند;Richmond
+zh;列治文;Richmond
+zh;列治文山;Richmond Hill
+zh;烈治文山;Richmond Hill
+ja;リッチモンドヒル;Richmond Hill
+ar;ريتشموند هيل;Richmond Hill
+ko;리치먼드힐;Richmond Hill
+ru;Ричмонд-Хилл;Richmond Hill
+ru;Риджтаун;Ridgetown
+ja;リッジタウン;Ridgetown
+zh;里奇敦;Ridgetown
+ru;Ривер Глейд;River Glade
+ru;Ривер-Джон;River John
+ru;Ривесайд;Riverside
+ru;Риверсайд-Трейлер-Парк;Riverside Trailer Park
+ru;Ривервью;Riverview
+en;St. Paul's River;Rivière-Saint-Paul
+en;Saint Paul's River;Rivière-Saint-Paul
+ar;روجرسفيل;Rogersville
+ar;روزميري;Rosemère
+ru;Розмер;Rosemère
+zh;羅斯蘭;Rossland
+ru;Росланд;Rossland
+ja;ローゼイ;Rothesay
+ar;رووان نوراندا;Rouyn-Noranda
+ru;Руэн-Норанда;Rouyn-Noranda
+fr;Rusagonis-Waasis;Rusagonis
+ru;Русагонис;Rusagonis
+ar;سانيتش;Saanich
+ru;Санич;Saanich
+ru;Саквилл;Sackville
+ja;サグネ;Saguenay
+ar;ساغينيه;Saguenay
+ru;Сагеней;Saguenay
+zh;薩格奈;Saguenay
+ko;사그네;Saguenay
+ja;サンアレクサンドル;Saint-Alexandre
+ar;سان آمابل، كيبك;Saint-Amable
+en;St. Andrews;Saint Andrews
+ar;ساينت أنتوني;Saint-Antoine
+ru;Сен-Арман;Saint-Armand
+ar;سان باسيلي لي جراند;Saint-Basile-le-Grand
+ru;Сен Базил Ле Гран;Saint-Basile-le-Grand
+ar;سان برونو دي مونترافلي;Saint-Bruno-de-Montarville
+ru;Сен Брино Де Монтарвил;Saint-Bruno-de-Montarville
+zh;圣卡利克斯;Saint-Calixte
+ru;Сен-Шарль-сюр-Ришельё;Saint-Charles-sur-Richelieu
+ar;سان كونستانت;Saint-Constant
+ru;Сен Констан;Saint-Constant
+ar;سانت أغاث دس مونتس;Sainte-Agathe-des-Monts
+ja;サンタガット・デ・モン;Sainte-Agathe-des-Monts
+ru;Сент-Анн-де-Бельвю;Sainte-Anne-de-Bellevue
+ru;Сент Ан Де Мон;Sainte-Anne-des-Monts
+ar;سانت آن دي بلين;Sainte-Anne-des-Plaines
+ar;سانت كاثرين;Sainte-Catherine
+zh;圣卡特琳娜;Sainte-Catherine
+ru;Сент-Кристин-д'Овернь;Sainte-Christine-d'Auvergne
+ja;サント＝クリスティーヌ＝ドヴェルニュ;Sainte-Christine-d'Auvergne
+ar;سانت جولي;Sainte-Julie
+ko;생트마르트;Sainte-Marthe
+ar;سانت أوستاش;Saint-Eustache
+ru;Сент-Эсташ;Saint-Eustache
+ar;سان فيليسيان;Saint-Félicien
+ru;Сен-Фелисьен;Saint-Félicien
+fr;Valcartier;Saint-Gabriel-de-Valcartier
+en;St-Hippolyte;Saint-Hippolyte
+ru;Санкт-Гиацинт;Saint-Hyacinthe
+ar;سان هياسنت، كيبك;Saint-Hyacinthe
+ru;Сент-Иасент;Saint-Hyacinthe
+fr;St Hyacinthe;Saint-Hyacinthe
+ru;Сен-Жан-сюр-Ришелье;Saint-Jean-sur-Richelieu
+ar;سان جان سور ريشليو;Saint-Jean-sur-Richelieu
+ar;سان جيروم;Saint-Jérôme
+ru;Сен-Жером;Saint-Jérôme
+fr;Saint-Jean;Saint John
+ko;세인트존;Saint John
+ja;セント・ジョン;Saint John
+ja;セントジョン;Saint John
+ru;Сент-Джон;Saint John
+zh;圣约翰;Saint John
+zh;圣约瑟夫杜拉克;Saint-Joseph-du-Lac
+ar;سان لازار، كيبك;Saint-Lazare
+ru;Сен Лазар;Saint-Lazare
+ru;Саинт-Лауис-Де-Терребонне;Saint-Louis-de-Terrebonne
+en;Saint-Marc-des-Carrieres;Saint-Marc-des-Carrières
+fr;Saint-Mathieu-de-Belœil;Saint-Mathieu-de-Beloeil
+ru;Сен Тит;Saint-Tite
+ar;سالبيري دي فاليفيلد;Salaberry-de-Valleyfield
+ru;Салаберри-де-Валлифилд;Salaberry-de-Valleyfield
+ar;سالمون آرم;Salmon Arm
+zh;萨蒙阿姆;Salmon Arm
+ru;Самон Арм;Salmon Arm
+ar;ساندسبيت، كولومبيا البريطانية;Sandspit
+ja;サンドスピット;Sandspit
+zh;沙嘴市;Sandspit
+zh;桑古都;Sangudo
+iu;ᓴᓂᑭᓗᐊᖅ;Sanikiluaq
+ja;サーニア;Sarnia
+ar;سارنيا;Sarnia
+ru;Сарния;Sarnia
+zh;薩尼亞市;Sarnia
+ko;사니아;Sarnia
+ja;サスカトゥーン;Saskatoon
+ru;Саскатун;Saskatoon
+ar;ساسكاتون;Saskatoon
+ko;새스커툰;Saskatoon
+zh;萨斯卡通;Saskatoon
+fr;Sault-Sainte-Marie;Sault Ste. Marie
+it;Sault Sainte Marie;Sault Ste. Marie
+ja;スーセントマリー;Sault Ste. Marie
+ko;수세인트마리;Sault Ste. Marie
+ar;سو ساينت ماري;Sault Ste. Marie
+zh;蘇聖瑪麗;Sault Ste. Marie
+ru;Су-Сент-Мари;Sault Ste. Marie
+ru;Шеффервилл;Schefferville
+ru;Селкирк;Selkirk
+hi;सेलकर्क;Selkirk
+zh-Hans;塞尔奇克;Selkirk
+zh-Hant;塞爾奇克;Selkirk
+zh;賽爾柯克;Selkirk
+ar;سيلكيرك;Selkirk
+ja;セルカーク;Selkirk
+ko;셀커크;Selkirk
+ru;Сентер;Senneterre
+ru;Сет-Иль;Sept-Îles
+ar;سات إيل;Sept-Îles
+ru;Сексмит;Sexsmith
+ja;シャウィニガン;Shawinigan
+ar;شاوينيغان;Shawinigan
+ru;Шавиниган;Shawinigan
+fr;Shédiac;Shediac
+ru;Шедьяк;Shediac
+ru;Шелберн;Shelburne
+ru;Шербрук;Sherbrooke
+ar;شيربروك;Sherbrooke
+ja;シェルブルック;Sherbrooke
+zh;舍布魯克;Sherbrooke
+ko;셰르브루크;Sherbrooke
+hi;शेरवुड पार्क;Sherwood Park
+ru;Шервуд-Парк;Sherwood Park
+zh-Hant;舍伍德公園;Sherwood Park
+ko;시어우드 파크;Sherwood Park
+zh;舍伍德公园;Sherwood Park
+ar;شيروود بارك;Sherwood Park
+ja;シャーウッドパーク;Sherwood Park
+ar;سيدني;Sidney
+zh;悉尼;Sidney
+ru;Су-Лукаут;Sioux Lookout
+zh;斯基德盖特;Skidegate
+ar;سلوكان;Slocan
+ar;سميذرز;Smithers
+fr;Sorel;Sorel-Tracy
+ru;Сурис;Souris
+ru;Спенсервилл;Spencerville
+ja;スペンシズブリッジ;Spences Bridge
+zh;斯宾塞斯桥;Spences Bridge
+zh;斯匹黎馬欽;Spillimacheen
+ar;سبروس غرووف;Spruce Grove
+ru;Спрус-Гроув;Spruce Grove
+zh;斯普鲁斯格罗夫;Spruce Grove
+ar;سكواميش;Squamish
+ko;스쿼미시;Squamish
+fr;Îles Square;Square Islands
+es;Saint Albert;St. Albert
+it;Saint Albert;St. Albert
+ar;سانت ألبرت;St. Albert
+fr;Saint-Albert;St. Albert
+ko;세인트앨버트;St. Albert
+zh;圣艾伯特;St. Albert
+ru;Сент Алберт;St. Albert
+ru;Станстед;Stanstead
+ja;セントアンソニー;St. Anthony
+en;Saint Anthony;St. Anthony
+ru;Стейплс;Staples
+fr;Sainte-Catharine;St. Catharines
+ja;セントキャサリンズ;St. Catharines
+ar;سانت كاثرينز;St. Catharines
+ko;세인트캐서린스;St. Catharines
+ru;Сент-Катаринс;St. Catharines
+zh;圣凯瑟琳斯;St. Catharines
+ru;Стайнбак;Steinbach
+zh;斯坦巴克;Steinbach
+hi;स्टाइनबाक;Steinbach
+ar;ستاينباك;Steinbach
+ja;シュタインバッハ;Steinbach
+ko;스트라스부르;Steinbach
+ru;Стивенвилл;Stephenville
+zh;斯蒂芬維爾;Stephenville
+zh-Hans;斯蒂芬维尔;Stephenville
+ar;ستيفنفيل;Stephenville
+ru;Стетлер;Stettler
+zh;斯图尔特;Stewart
+fr;Saint-George;St. George
+ar;ستيرلينغ;Stirling
+zh;聖詹姆斯敦;St. James Town
+ru;Сент-Джоаким;St. Joachim
+zh-Hans;圣劳伦特;St. Laurent
+fr;Saint-Laurent;St. Laurent
+zh;聖勞倫特;St. Laurent
+en;Saint Lewis;St. Lewis
+fr;Saint-Lina;St. Lina
+fr;Saint Marys;St. Marys
+ru;Сент Марис;St. Marys
+ru;Стони-Пойнт;Stoney Point/Pointe-aux-Roches
+zh;斯托尼普莱恩;Stony Plain
+zh;維特祖治-斯多夫維爾;Stouffville
+ru;Стоуфвиле;Stouffville
+en;St Peters;St. Peter's
+en;Saint Peter's;St. Peter's
+ru;Стратфорд;Stratford
+ko;스트랫퍼드;Stratford
+ar;ستارتفورد;Stratford
+zh;斯特拉特福;Stratford
+ja;ストラトフォード;Stratford
+ru;Стратмор;Strathmore
+fr;Saint-Stephen;St. Stephen
+en;Saint Theresa Point;St. Theresa Point
+ja;セントトーマス;St. Thomas
+ar;سانت توماس;St. Thomas
+es;Saint Thomas;St. Thomas
+zh;聖湯瑪士;St. Thomas
+en;Saint Thomas;St. Thomas
+ru;Сент Томас;St. Thomas
+zh;萨默赛德;Summerside
+ar;سوري، كولومبيا البريطانية;Surrey
+ko;서리;Surrey
+ja;サレー;Surrey
+ru;Суррей;Surrey
+zh;素里;Surrey
+zh;天鹅河;Swan River
+ru;Свон Ривер;Swan River
+ar;ساوستيكة;Swastika
+ru;Свастика;Swastika
+ja;スワスティカ;Swastika
+ar;سويفت كورنت;Swift Current
+zh;斯威夫特卡伦特;Swift Current
+hi;स्विफ्ट करंट;Swift Current
+zh-Hant;斯喀徹溫;Swift Current
+ja;スウィフトカレント;Swift Current
+ru;Суифт-Каррент;Swift Current
+ko;스위프트 커렌트;Swift Current
+ru;Сиденем;Sydenham
+ar;تيكومسه;Tecumseh
+ru;Текамсе;Tecumseh
+ru;Темискаминг;Témiscaming
+de;New Liskeard;Temiskaming Shores
+ar;تيميسكيمينج شورز;Temiskaming Shores
+ja;ティミスカミングショアーズ;Temiskaming Shores
+zh;蒂米斯卡明湖岸市;Temiskaming Shores
+ru;Темискаминг Шорс;Temiskaming Shores
+ar;تيراس;Terrace
+ru;Терас;Terrace
+ja;テラス・ヴォードゥルイユ;Terrasse-Vaudreuil
+ar;تيربون;Terrebonne
+ru;Тербон;Terrebonne
+ko;애닉스;The Annex
+ja;アネックス;The Annex
+zh;兼併區;The Annex
+ja;ザ ジャンクション;The Junction
+zh;交加區;The Junction
+ko;킹스웨이;The Kingsway
+zh;京士威;The Kingsway
+fr;Le Pas;The Pas
+zh;地士道城;Thistletown
+ar;تومبسون;Thompson
+ru;Томпсон;Thompson
+zh;汤普森;Thompson
+hi;थॉम्पसन;Thompson
+zh-Hant;湯普森;Thompson
+ja;トンプソン;Thompson
+ko;탐슨;Thompson
+zh;塘巒村;Thorncrest Village
+ru;Торнхилл;Thornhill
+ar;ثورولد;Thorold
+ja;ソロルド;Thorold
+ru;Торолд;Thorold
+ru;Тандер-Бей;Thunder Bay
+ja;サンダーベイ;Thunder Bay
+ar;ثاندر باي;Thunder Bay
+ko;선더베이;Thunder Bay
+zh;桑德贝;Thunder Bay
+ar;تيلسونبيرج;Tillsonburg
+ru;Тилсонбург;Tillsonburg
+ar;تيمينز;Timmins
+ja;ティミンズ;Timmins
+ko;티민스;Timmins
+zh;蒂明斯;Timmins
+ru;Тимминс;Timmins
+ar;تيفرتون;Tiverton
+ja;トバモリ;Tobermory
+ar;تورونتو;Toronto
+ja;トロント;Toronto
+ko;토론토;Toronto
+ru;Торонто;Toronto
+hi;टोरण्टो;Toronto
+zh;多伦多;Toronto
+ar;ترايل;Trail
+ru;Трейл;Trail
+ru;Трентон;Trenton
+ja;トロワリビエール;Trois-Rivières
+ja;トロワリヴィエール;Trois-Rivières
+ru;Труа-Ривьер;Trois-Rivières
+ar;تروا ريفيير;Trois-Rivières
+zh;三河市;Trois-Rivières
+ko;트루아리비에르;Trois-Rivières
+ru;Труро;Truro
+ru;Тактояктук;Tuktoyaktuk
+zh;图克托亚图克;Tuktoyaktuk
+zh;尤克盧利特;Ucluelet
+ru;Юклулет;Ucluelet
+zh;於人村;Unionville
+ar;يوكسبريدج;Uxbridge
+ru;Валкур;Valcourt
+de;Val-d’Or;Val-d'Or
+ar;فال دور، كيبك;Val-d'Or
+ru;Валь-д'Ор;Val-d'Or
+ar;فاليفيو;Valleyview
+ar;فان اندا;Van Anda
+ja;バンクーバー市;Vancouver
+ko;밴쿠버;Vancouver
+pt;Vancôver;Vancouver
+ru;Ванкувер;Vancouver
+ja;バンクーバー;Vancouver
+ar;فانكوفر;Vancouver
+hi;वैंकूवर;Vancouver
+zh;溫哥華;Vancouver
+gn;Vangúve;Vancouver
+ar;فاندرهوف;Vanderhoof
+ru;Вандерхуф;Vanderhoof
+zh;范德胡夫;Vanderhoof
+ar;فانير;Vanier
+ru;Ванье;Vanier
+ja;ヴァニエ;Vanier
+zh;瓦尼爾;Vanier
+ru;Варен;Varennes
+ar;فودرويدوريون;Vaudreuil-Dorion
+ar;فاوجان;Vaughan
+ja;ヴォーン;Vaughan
+ru;Вон;Vaughan
+zh;旺市;Vaughan
+ko;본;Vaughan
+ja;バベンビ;Vavenby
+zh;瓦凡彼;Vavenby
+ru;Вегревилл;Vegreville
+ru;Верегин;Veregin
+ru;Вермилион;Vermilion
+ar;فيرنون;Vernon
+ru;Вернон;Vernon
+zh;弗农;Vernon
+ja;ヴィクトリア;Victoria
+ja;ビクトリア;Victoria
+ru;Виктория;Victoria
+ar;فكتوريا;Victoria
+ko;빅토리아;Victoria
+zh;維多利亞;Victoria
+hi;विक्टोरिया;Victoria
+ar;فيكتوريا فيل;Victoriaville
+ja;ビクトリアビル;Victoriaville
+ru;Викториавилл;Victoriaville
+en;Old Fort Bay;Vieux-Fort
+en;Old Fort;Vieux-Fort
+nl;Old Fort;Vieux-Fort
+ru;Верден;Virden
+zh;亞歷山大子爵公園;Viscount Alexander Park
+ru;Валкан;Vulcan
+ar;وابامون;Wabamun
+ja;ワナップ地域;Wanup
+ru;Ворман;Warman
+ar;وارنر;Warner
+en;Wasaga;Wasaga Beach
+ru;Ватерлоо;Waterloo
+ja;ウォータールー;Waterloo
+ar;واترلو;Waterloo
+zh;滑鐵盧;Waterloo
+ko;워털루;Waterloo
+ru;Уотерлу;Waterloo
+en;Warwick;Watford
+ru;Уотсон-Лейк;Watson Lake
+zh;韋奇波特;Wedgeport
+ko;웰랜드;Welland
+ar;ويلاند;Welland
+ja;ウェランド;Welland
+zh;威蘭;Welland
+zh;韦尔斯;Wells
+ja;ウェントワース＝ノード;Wentworth-Nord
+ar;ويسماونت;Westmount
+ru;Уэстмаунт;Westmount
+ja;ウエストマウント;Westmount
+zh;威斯特沃德;Westwold
+ar;وتاسكوين;Wetaskiwin
+ko;웨타스키윈;Wetaskiwin
+zh;韦塔斯基温;Wetaskiwin
+hi;वेटस्कीवीन;Wetaskiwin
+ja;ウェタスキウィン;Wetaskiwin
+ru;Ветаскивин;Wetaskiwin
+ar;ويبرن;Weyburn
+hi;वेबर्न;Weyburn
+zh-Hans;韦恩伯恩;Weyburn
+zh;韋本;Weyburn
+ja;ウェーバーン;Weyburn
+ru;Уэйберн;Weyburn
+ko;웨이번;Weyburn
+ru;Уитли;Wheatley
+en;Whistler Village;Whistler
+ar;ويسلر، كولومبيا البريطانية;Whistler
+ja;ウィスラー;Whistler
+ko;휘슬러;Whistler
+ru;Уистлер;Whistler
+zh;威士拿;Whistler
+ar;ويتبي;Whitby
+ko;휘트비;Whitby
+ru;Уитби;Whitby
+zh;惠特比;Whitby
+ja;ウィットビー;Whitby
+en;Whitchurch–Stouffville;Whitchurch-Stouffville
+it;Whitchurch–Stouffville;Whitchurch-Stouffville
+ru;Витчерч-Стовил;Whitchurch-Stouffville
+ja;ホワイトホース;Whitehorse
+ru;Уайтхорс;Whitehorse
+ko;화이트호스;Whitehorse
+ar;وايت هورس;Whitehorse
+zh;白馬市;Whitehorse
+hi;व्हाइटहोर्स;Whitehorse
+ar;وايت روك;White Rock
+ja;ホワイトロック;White Rock
+ko;화이트록;White Rock
+zh;白石;White Rock
+ja;ウィッカム;Wickham
+pt;Williams;Williams Lake
+zh;威廉姆斯湖;Williams Lake
+ar;ويليامز ليك;Williams Lake
+ru;Уильямс Лейк;Williams Lake
+ru;Виндзор;Windsor
+ru;Уинсор;Windsor
+ja;ウインザー;Windsor
+ja;ウィンザー;Windsor
+ar;وندسور;Windsor
+ko;윈저;Windsor
+zh;温莎;Windsor
+ru;Уингем;Wingham
+zh;溫厄姆;Wingham
+ja;ウィンガム;Wingham
+ru;Винклер;Winkler
+hi;विंकलर;Winkler
+zh-Hans;温克勒;Winkler
+ko;윙클러;Winkler
+ar;وينكلر;Winkler
+ja;ウィンクラー;Winkler
+ja;ウィニペグ;Winnipeg
+ru;Виннипег;Winnipeg
+en;Winnipeg City;Winnipeg
+cr;ᐄᐧᓂᐯᐠ;Winnipeg
+ar;وينيبيغ;Winnipeg
+ko;위니펙;Winnipeg
+zh;温尼伯;Winnipeg
+hi;विनिपेग;Winnipeg
+ru;Вудсток;Woodstock
+ar;وودستوك;Woodstock
+ja;ウッドストック;Woodstock
+zh;胡士托;Woodstock
+ko;야머스;Yarmouth
+ru;Ярмут;Yarmouth
+ja;イエローナイフ;Yellowknife
+ko;옐로나이프;Yellowknife
+ar;يلونايف;Yellowknife
+ru;Йеллоунайф;Yellowknife
+zh;黃刀鎮;Yellowknife
+hi;येलोनाइफ;Yellowknife
+ar;يوركتن;Yorkton
+zh;约克顿;Yorkton
+hi;यॉर्कटाउन;Yorkton
+zh-Hant;約克頓;Yorkton
+ja;ヨークトン;Yorkton
+ru;Йорктон;Yorkton
+ko;요크턴;Yorkton
+ja;フレンドリー・コーヴ;Yuquot
+ar;بوسفيل;Beauceville
+ru;Галифакс;Halifax
+ar;هاليفاكس;Halifax
+hi;हैलिफैक्स;Halifax
+ja;ハリファックス;Halifax
+en;Saint John's;St. John's
+en;St Johns;St. John's
+ru;Сент-Джонс;St. John's
+de;St. John’s;St. John's
+es;San Juan de Terranova;St. John's
+it;Saint John's;St. John's
+ja;セントジョンズ;St. John's
+qu;Saint John;St. John's
+ko;세인트존스;St. John's
+ar;سانت جونز;St. John's
+zh;聖約翰斯;St. John's
+fr;Saint-Jean de Terre-Neuve;St. John's
+fr;Saint-Jean;St. John's
+hi;सेंट जॉन्स;St. John's
+zh;贝捷叙尔梅尔;Berthier-Sur-Mer
+ar;بيرتييه سور مير;Berthier-Sur-Mer
+ja;ベルティエ＝シュル＝メール;Berthier-Sur-Mer
+ar;كاب سان إغناس;Cap-Saint-Ignace
+en;Quebec City;Québec
+ru;Квебек;Québec
+es;Quebec;Québec
+ko;퀘벡;Québec
+hi;क्यूबेक नगर;Québec
+ja;ケベック・シティー;Québec
+ar;مدينة كيبك;Québec
+pap;Quebec City;Québec
+pt;Quebec;Québec
+qu;Quebec llaqta;Québec
+zh;魁北克市;Québec
+en;Quebec;Québec
+de;Quebec;Québec
+gn;Kévek táva;Québec
+nah;Altepetl Quebec;Québec
+ar;ليفيس;Lévis
+ja;レヴィ;Lévis
+ru;Леви;Lévis
+zh;利维;Lévis
+ru;Л'Иль-Верт;L'Isle-Verte
+ar;للسل فيرته;L'Isle-Verte
+ar;مونتماغني، كيبك;Montmagny
+en;Saint Thomas de Montmagny;Montmagny
+ar;نيوفيل;Neuville
+ru;Невил;Neuville
+ar;بورتنيوف;Portneuf
+ru;Порнеф;Portneuf
+ar;ريموسكي;Rimouski
+cr;ᕆᒧᔅᑭ;Rimouski
+ru;Римуски;Rimouski
+cr;ᑲᐱᑎᑌᒍᐁᔅ;Rivière-du-Loup
+ar;ريفري دو لوب;Rivière-du-Loup
+ru;Ривьер-дю-Лу;Rivière-du-Loup
+ja;シドニー;Sydney
+hi;सिडनी;Sydney
+zh;悉尼;Sydney
+ar;سيدني;Sydney
+ru;Сидни;Sydney
+ko;시드니;Sydney
+ru;Бивер-Крик;Beaver Creek
+zh;河狸溪;Beaver Creek
+ja;ビーバークリーク;Beaver Creek
+ru;Эйлмер;Aylmer
+ru;Тофино;Tofino
+zh;吐芬奴;Tofino
+ko;재스퍼;Jasper
+ja;ジャスパー;Jasper
+zh;贾斯珀;Jasper
+ru;Джаспер;Jasper
+ja;エドモンストン;Edmundston
+ru;Эдмундстон;Edmundston
+zh;埃德蒙兹顿;Edmundston
+zh;拉欣;Lachine
+fr;Saint-Jean-Port-Joli;St-Jean-Port-Joli
+fr;Grand-Sault;Grand Falls
+ru;Гранд-Фолс;Grand Falls
+en;Percé;Perce
+ru;Персе;Perce
+zh;拜圣卡特琳;Baie-Sainte-Catherine
+ar;بيه سانت كاترين;Baie-Sainte-Catherine
+ar;تادوساك;Tadoussac
+ja;タドゥサック;Tadoussac
+ru;Тадуссак;Tadoussac
+zh;泰道沙克;Tadoussac
+ru;Бересфорд;Beresford
+ar;بيه سان بول;Baie-Saint-Paul
+ar;كارلتون سور مير;Carleton-sur-Mer
+ru;Карлтон Сир Мер;Carleton-sur-Mer
+ar;بواشاتل;Boischatel
+ja;ボワシャテル;Boischatel
+ru;Боисчател;Boischatel
+zh;坎贝尔顿;Campbellton
+ru;Кэмпбелтон;Campbellton
+ja;バサースト;Bathurst
+ru;Батерст;Bathurst
+zh;巴瑟斯特;Bathurst
+hi;बाथर्स्ट;Bathurst
+ar;باثرست;Bathurst
+ko;배서스트;Bathurst
+cr;ᒪᑕᓀ;Matane
+ar;ماتان، كيبك;Matane
+ru;Матан;Matane
+en;L'Islet;L'Islet-sur-Mer
+ar;كيدويك;Kedgwick
+ja;インカーマン;Inkerman
+ru;Каракет;Caraquet
+cr;ᐊᒻᕿ;Amqui
+ar;أمكي;Amqui
+en;Miscou Centre;Miscou
+ar;بيرت أندوفر;Perth-Andover
+zh;伯斯-安多弗;Perth-Andover
+ru;Перт-Андовер;Perth-Andover
+ar;ساينت إيسيدور;Saint-Isidore
+ja;ネーン;Nain
+de;Dawson;Dawson City
+ko;도슨시티;Dawson City
+ja;ドーソン・シティ;Dawson City
+ru;Доусон;Dawson City
+zh;道森市;Dawson City
+nah;Altepetl Dawson;Dawson City
+en;Délı̨ne;Deline
+en;Lutselk'e;Łutselk'e
+ru;Ламек;Lamèque
+ko;라메크;Lamèque
+fr;Néguac;Neguac
+ar;نيغاك;Neguac
+ar;داكتاون;Doaktown
+ar;موردوتشفيل;Murdochville
+ar;غراند أنسه;Grande-Anse
+zh;拉科索蒙;Lac-au-Saumon
+ar;لاك او سومون;Lac-au-Saumon
+de;Témiscouata-sur-le-Lac;Cabano
+ar;كابانو;Cabano
+ja;カバノ;Cabano
+ar;مونت جولي;Mont-Joli
+ru;Мон Жоли;Mont-Joli
+ar;لاك إيتشمين;Lac-Etchemin
+ar;ديجيليس;Dégelis
+ar;مالبي;La Malbaie
+ru;Ла Малбе;La Malbaie
+ar;ليس إيسكومينس;Les Escoumins
+en;District of West Kelowna;West Kelowna
+ja;ウェストケロウナ;West Kelowna
+ja;ウエストケロウナ;West Kelowna
+zh;西基隆拿;West Kelowna
+fr;Saint-Mathieu;Saint-Mathieu-de-Rioux
+fr;St-Mathieu;Saint-Mathieu-de-Rioux
+ar;بوينت فيرتي;Pointe-Verte
+en;Tracadie–Sheila;Tracadie-Sheila
+ru;Тракади-Шайла;Tracadie-Sheila
+zh-Hant;悉尼礦區;Sydney Mines
+ja;シドニー・マインズ;Sydney Mines
+zh;悉尼矿区;Sydney Mines
+ja;ハートランド;Hartland
+ru;Хартленд;Hartland
+ru;Сент-Анн-де-Бопре;Sainte-Anne-de-Beaupré
+ar;سان أوغوستن دي ديماروس;Saint-Augustin-de-Desmaures
+ar;لا بوكاريه;La Pocatière
+en;Ste. Anne de la Pocatière;La Pocatière
+fr;Métabetchouan–Lac-à-la-Croix;Metabetchouan-Lac-a-la-Croix
+ru;Йейл;Yale
+zh;耶魯;Yale
+de;Saint Leonard;Saint-Léonard
+ru;Омеме;Omemee
+zh;多伦多华埠;Chinatown
+ja;ディスティラリー地区;Distillery District
+zh;釀酒廠區;Distillery District
+zh;東湖濱區;East Bayfront
+ar;المنطقة المالية;Financial District
+zh;金融區;Financial District
+es;Distrito Financiero;Financial District
+ja;ディスカバリー・ディストリクト;Discovery District
+zh;科研區;Discovery District
+zh;哈拔村;Harbord Village
+ru;Кенсингтон маркет;Kensington Market
+ja;ケンジントンマーケット;Kensington Market
+zh;堅盛頓市場;Kensington Market
+zh;崔凡閣;Trefann Court
+ko;이스트댄포스;East Danforth
+zh;東丹佛;East Danforth
+zh;里斯利威老;Leslieville
+zh;普利打邨;Playter Estates
+zh;港口區;Port Lands
+zh;上湖灘;Upper Beaches
+zh;宏利士公園;Wanless Park
+zh;域治活公園;Wychwood Park
+ko;블루어웨스트빌리지;Bloor West Village
+zh;布魯亞西村;Bloor West Village
+zh;博頓村;Brockton Village
+zh;卡爾頓村;Carleton Village
+zh;意大利大街;Corso Italia
+zh;伯爵圍;Earlscourt
+zh;交加三角;Junction Triangle
+hi;लिबर्टी विलेज;Liberty Village
+zh;自由村;Liberty Village
+it;Little Italy di Toronto;Little Italy
+zh;小意大利;Little Italy
+zh-Hant;西頓村;Seaton Village
+zh;西顿村;Seaton Village
+zh;坡路村;Pape Village
+zh;皇景村;Kingsview Village
+zh-Hant;布拉格溪;Bragg Creek
+en;River Jordan;Jordan River
+ja;ジョーダン川;Jordan River
+fr;River Jordan;Jordan River
+zh;贝拉库拉;Bella Coola
+zh;阿尔蒙特;Almonte
+ru;Анкастер;Ancaster
+ja;オールドトロント;Old Toronto
+ko;올드토론토;Old Toronto
+zh;舊多倫多市;Old Toronto
+ar;تورونتو القديمة;Old Toronto
+ru;Йорк;York
+ar;فانكوفر الغربية;West Vancouver
+ja;ウェストバンクーバー;West Vancouver
+ko;웨스트밴쿠버;West Vancouver
+zh;西溫哥華;West Vancouver
+zh;卡普朗;Caplan
+ar;كابلون;Caplan
+ar;ويارتون، أونتاريو;Wiarton
+ja;ワイアートン;Wiarton
+ru;Орлеан;Orléans
+ar;برتراند;Bertrand
+ar;بيتيت روتشر;Petit-Rocher
+ja;スティーブンスヴィル;Stevensville
+ar;بتيت ساغوناي;Petit-Saguenay
+ar;ايست بروتون;East Broughton
+ja;イースト・ブロートン;East Broughton
+ar;ليستر;Lyster
+ar;سان ريموند;Saint-Raymond
+en;Saint-Raymond-de-Portneuf;Saint-Raymond
+ja;オロノ;Orono
+zh;奧羅諾;Orono
+ja;セントジェイコブス;St. Jacobs
+zh;圣雅各;St. Jacobs
+ru;Амбрен;Embrun
+ru;Килларни;Killarney
+en;Behchoko;Behchokǫ̀
+fr;Bas-Paquetville;Paquetville
+fr;Savoie Landing;Savoy Landing
+fr;Sainte-Rosette;Sainte Rosette
+fr;Évangeline;Evangeline
+fr;Sainte-Rose;Sainte Rose
+en;Cold Lake South;Grand Centre
+en;East Aldergrove;Aldergrove East
+fr;Baie-Sainte-Anne;Baie Ste. Anne
+en;Weedon;Weedon Centre
+ru;Уилловуд;Willowood
+ru;Митчел-Бей;Mitchell's Bay
+fr;Saint-André;St-André
+en;Big Hole Tract First Nation;Big Hole
+fr;Big Hole Tract First Nation;Big Hole
+en;Tobique First Nation;Tobique Narrows
+fr;Tobique First Nation;Tobique Narrows
+en;Hamilton Township;Hamilton
+ru;Гамильтон тауншип;Hamilton
+ja;アラート;Alert
+ar;أليرت;Alert
+zh;阿勒特;Alert
+ko;얼러트;Alert
+ru;Ле Платеау-Монт-Роял;Le Plateau-Mont-Royal
+ru;Вилле-Марие;Ville-Marie
+ru;Мерсиер-Хокхелага-Маисоннеуве;Mercier–Hochelaga-Maisonneuve
+ru;Ривиере-Дес-Праириес-Поинте-Аукс-Тремблес;Rivière-des-Prairies–Pointe-aux-Trembles
+ru;Росемонт-Ла Петите-Патрие;Rosemont–La Petite-Patrie
+ru;Виллераи-Саинт-Микхел-Парк-Екстенсион;Villeray–Saint-Michel–Parc-Extension
+en;Black Duck Brook-Winterhouse;Black Duck Brook and Winterhouse
+en;Belle Cote;Belle Côte
+fr;Baie-des-Hérons;Heron Bay
+en;Dysart et al;United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde
+en;Dysart and Others;United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde

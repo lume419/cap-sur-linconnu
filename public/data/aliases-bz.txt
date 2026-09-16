@@ -1,0 +1,72 @@
+ru;Ксайбе;Xaibe
+es;Campamento Tu-Tu;Tu-Tu Camp
+ja;サルタネハ;Sarteneja
+ru;Сартенея;Sarteneja
+en;San Pedro Town;San Pedro
+ru;Сан-Педро;San Pedro
+zh;聖佩德羅;San Pedro
+de;San Pedro Columbia;San Pedro
+en;San Pedro Columbia;San Pedro
+fr;San Pedro Columbia;San Pedro
+nl;San Pedro Columbia;San Pedro
+ru;Сан-Хосе Пальмар;San Jose Palmar
+zh;聖伊格納西奧;San Ignacio
+ru;Сан-Игнасио;San Ignacio
+pt;San Ignacio/Santa Elena;San Ignacio
+zh-Hans;圣伊格纳西奥;San Ignacio
+ko;샌이그나시오;San Ignacio
+ja;サン・イグナシオ;San Ignacio
+de;Copper Bank;San Fernando
+en;Copper Bank;San Fernando
+nl;Copper Bank;San Fernando
+de;Sandhill;Sand Hill
+ja;サンド・ヒル;Sand Hill
+fr;Sandhill;Sand Hill
+ru;Пунта-Горда;Punta Gorda
+zh;蓬塔戈爾達;Punta Gorda
+ar;بونتا غوردا;Punta Gorda
+hi;पुंटा गोर्डा;Punta Gorda
+ja;プンタゴルダ;Punta Gorda
+en;Placentia Village;Placencia
+ja;プラセンシア;Placencia
+ru;Ориндж-Уолк;Orange Walk
+ar;أورانج ووك;Orange Walk
+hi;ऑरेंज वॉक;Orange Walk
+ja;オレンジウォーク;Orange Walk
+zh;猴溪橋鎮;Monkey River Town
+ja;リトルベリーズ;Little Belize
+en;Independence;Independence and Mango Creek
+en;Dangriga Town, Dangriga;Dangriga
+ru;Дангрига;Dangriga
+ar;دانغريغا;Dangriga
+hi;डांग्रिगा;Dangriga
+ja;ダングリガ;Dangriga
+ru;Корозаль;Corozal
+ar;كوروزال;Corozal
+hi;कोरोज़ल;Corozal
+ja;コロサル;Corozal
+ru;Чунокс;Chunox
+es;Chan Limon;Chan Limón
+es;Cayo Corker;Caye Caulker
+en;Callar Creek;Callac Creek
+es;Belmopán;Belmopan
+ja;ベルモパン;Belmopan
+ko;벨모판;Belmopan
+ru;Бельмопан;Belmopan
+ht;Bèlmopan;Belmopan
+ar;بلموبان;Belmopan
+hi;बेल्मोपान;Belmopan
+zh;貝爾墨邦;Belmopan
+es;Ciudad de Belice;Belize City
+ja;ベリーズシティ;Belize City
+nl;Belize-stad;Belize City
+pt;Belize;Belize City
+nah;Altepetl Belice;Belize City
+ko;벨리즈시티;Belize City
+hi;बेलीज़ सिटी;Belize City
+ru;Белиз;Belize City
+zh;伯利兹市;Belize City
+ar;مدينة بليز;Belize City
+es;Zona Libre de Belice;Santa Elena
+en;Alta Mira;Altamira
+es;Santa Marta;Santa Martha

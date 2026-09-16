@@ -1,0 +1,1443 @@
+qu;Ruburiy;Roboré
+zh;羅沃雷;Roboré
+ja;ロボレ;Roboré
+ay;asco tu dtpo;Roboré
+ru;Пуэрто-Суарес;Puerto Suárez
+zh;蘇亞雷斯港;Puerto Suárez
+ko;푸에르토수아레스;Puerto Suárez
+es;Estancia Quijarro;Puerto Quijarro
+pt;Pôrto Quijarro;Puerto Quijarro
+es;El Carmen;El Carmen Guadalupe
+es;Comunidad Villazón;Villazón
+es;Comunidad Santa Isabel;Santa Isabel
+es;Comunidad Natividad de La Bahia;Natividad de Bahía
+es;Hacienda Zurima Grande;Surima Grande
+qu;Takupaya;Zudáñez
+zh;蘇達涅斯;Zudáñez
+es;Yotaucito;Yotau
+ru;Якуиба;Yacuiba
+es;Yacuíba;Yacuiba
+qu;Yaku llaqta;Yaco
+zh;瓦爾內斯;Warnes
+qu;Witichi;Vitichi
+qu;Wint'u;Vinto
+zh;賓托;Vinto
+hi;वींतो;Vinto
+ru;Винто;Vinto
+ko;빈토;Vinto
+ar;فينتو، بوليفيا;Vinto
+ja;ビント;Vinto
+ay;Willasun;Villazón
+ja;ビリャソン;Villazón
+ru;Вильясон;Villazón
+zh;比亞松;Villazón
+ko;비야손;Villazón
+qu;Tunari llaqta;Villa Tunari
+zh;圖納里鎮;Villa Tunari
+es;El Villar;Villar
+es;Villa Montes;Villamontes
+ru;Вилья-Монтес;Villamontes
+zh;比亞蒙特斯;Villamontes
+es;Ciudad de Villa Montes;Villamontes
+es;Camataqui;Villa Abecia
+ay;Wiyacha;Viacha
+ja;ビアチャ;Viacha
+ko;비아차;Viacha
+qu;Wiyacha;Viacha
+zh;比亞查;Viacha
+zh;巴耶格蘭德;Vallegrande
+ar;فاليجراند;Vallegrande
+ja;バージェグランデ;Vallegrande
+ru;Вайегранде;Vallegrande
+ru;Уюни;Uyuni
+zh;烏尤尼;Uyuni
+hi;उयूनी;Uyuni
+ar;أويوني;Uyuni
+ja;ウユニ;Uyuni
+es;Usuru;Usuro
+de;Valle de Concepción;Uriondo
+zh;烏里翁多;Uriondo
+es;Ucurutu;Sindicato Agrario Ocorotu
+es;Ucha Ucha;Ulla Ulla
+es;Estancia Ucha Ucha;Ulla Ulla
+ay;Turku;Turco
+ay;Tupisa;Tupiza
+qu;Tupisa;Tupiza
+zh;圖皮薩;Tupiza
+hi;टूपिज़ा;Tupiza
+ar;توبيزا;Tupiza
+ja;トゥピサ;Tupiza
+ru;Туписа;Tupiza
+ko;투피자;Tupiza
+es;Ciudad Trinidad;Trinidad
+ja;トリニダ;Trinidad
+ru;Тринидад;Trinidad
+en;La Santisima Trinidad;Trinidad
+qu;Kimsantin llaqta;Trinidad
+zh;特立尼达;Trinidad
+ko;트리니다드;Trinidad
+ar;ترينيداد;Trinidad
+hi;ट्रिनिडाड;Trinidad
+ay;Kimsa Kurusati;Tres Cruces
+ru;Тоторал;Totoral
+qu;Tutura;Totora
+zh;托托拉;Totora
+ru;Тотора;Totora
+ay;Tuliru;Toledo
+qu;T'iraqi;Tiraque
+zh;蒂拉克;Tiraque
+qu;Tikipaya;Tiquipaya
+zh;蒂基帕亞;Tiquipaya
+zh-Hans;蒂基帕亚;Tiquipaya
+es;Tiwanaku;Tiahuanaco
+en;Tiwanaku;Tiahuanaco
+ja;ティワナク;Tiahuanaco
+nl;Tiwanaku;Tiahuanaco
+pt;Civilização Tiahuanaco;Tiahuanaco
+pt;Tiwanaku;Tiahuanaco
+ru;Тиуанако;Tiahuanaco
+fr;Tiwanaku;Tiahuanaco
+ru;Тариха;Tarija
+ja;タリハ;Tarija
+nah;Tarixa;Tarija
+ay;Tarixa;Tarija
+zh;塔里哈;Tarija
+ko;타리하;Tarija
+ar;تاريخا;Tarija
+hi;तारिजा;Tarija
+es;Comunidad Tarenda;Tarenda
+ru;Тарата;Tarata
+qu;T'arata;Tarata
+gn;Taráta;Tarata
+zh;塔拉塔;Tarata
+ja;タラブコ;Tarabuco
+ko;타라부코;Tarabuco
+qu;Tarapuku;Tarabuco
+zh;塔拉布科;Tarabuco
+es;Hacienda Tangoya;Tangoya
+es;Taco Taco;Thaco Thaco
+es;Taipillanga;Taypillanga
+es;Tabacal;El Tabacal
+ay;Sukri;Sucre
+ja;スクレ;Sucre
+ko;수크레;Sucre
+ru;Сукре;Sucre
+zh;苏克雷;Sucre
+qu;Chuqichaka;Sucre
+ar;سوكري;Sucre
+ht;Sik;Sucre
+es;Suches;Central Suches Jajpo Kollo
+qu;Surat'a;Sorata
+zh;索拉塔;Sorata
+ru;Сората;Sorata
+ar;سوراتا;Sorata
+es;Socabon;Socavón
+es;Sivingamayo;Sivinga Mayu
+es;Sibingal;Sivingal
+es;Hacienda Seripona;Seripona
+es;Sauci Mayu;Sauce Mayo
+es;Saucemayo;Sauce Mayo
+es;Saucemayo;Sauce Mayu
+qu;Sapajaqi;Sapahaqui
+qu;Santiwañis;Santiváñez
+zh;聖羅薩德爾阿布納;Santa Rosa del Abuná
+es;Santa Rosa;Santa Rosa de Lima
+zh;聖羅莎德亞庫馬;Santa Rosa de Yacuma
+zh-Hans;圣罗莎德亚库马;Santa Rosa de Yacuma
+ja;サンタ・ロサ・デ・ヤクマ;Santa Rosa de Yacuma
+zh-Hans;圣里塔;Santa Rita
+zh;聖里塔;Santa Rita
+es;Estancia Santa Lourdes;Santa Lourdes
+fr;Santa Cruz;Santa Cruz de la Sierra
+ja;サンタクルス;Santa Cruz de la Sierra
+pt;Santa Cruz da Serra;Santa Cruz de la Sierra
+ru;Санта-Крус-де-ла-Сиерра;Santa Cruz de la Sierra
+en;Santa Cruz;Santa Cruz de la Sierra
+pt;Santa Cruz;Santa Cruz de la Sierra
+es;Santa Cruz;Santa Cruz de la Sierra
+ar;سانتا كروز دي لا سيرا;Santa Cruz de la Sierra
+hi;सांता क्रूज़ डी ला सिएरा;Santa Cruz de la Sierra
+de;San Pedro de Tiquina;San Pedro
+qu;San Pidru Tikina;San Pedro
+en;San Pedro de Tiquina;San Pedro
+fr;San Pedro de Tiquina;San Pedro
+nl;San Pedro de Tiquina;San Pedro
+qu;San Pawlu Tikina;San Pablo de Tiquina
+ru;Сан-Лоренсо;San Lorenzo
+zh;聖洛倫佐;San Lorenzo
+es;La Raya;San Juan del Potrero
+es;San Juan;San Juan de la Bella
+hi;सैन होसे दे चिकीटोज़;San José de Chiquitos
+ru;Сан-Хосе-де-Чикитос;San José de Chiquitos
+qu;San José Chikitus;San José de Chiquitos
+ko;산 호세 데 치키토스;San José de Chiquitos
+zh;聖何塞德奇基托斯;San José de Chiquitos
+ar;سان خوسيه دي تشيكيتوس;San José de Chiquitos
+ja;サン・ホセ・デ・チキトス;San José de Chiquitos
+es;San José de Carrapatas;San José de Garrapatas
+es;Hacienda San José;San José
+es;Comunidad San José;San José
+ru;Сан-Хавьер;San Javier
+zh;聖哈維爾;San Javier
+ar;سان خافيير;San Javier
+ja;サン・ハビエル;San Javier
+qu;San Inasyu;San Ignacio de Velasco
+zh;聖伊格納西奧;San Ignacio de Velasco
+en;San Ignacio;San Ignacio de Moxo
+es;San Ignacio;San Ignacio de Moxo
+qu;Samaypata;Samaipata
+zh;薩邁帕塔;Samaipata
+de;Salinas de Garcí Mendoza;Salinas de Garci Mendoza
+zh;薩利納斯德加西門多薩;Salinas de Garci Mendoza
+zh;賽皮納;Saipina
+zh-Hans;赛皮纳;Saipina
+es;Hacienda Sacha Pampa;Sacha Pampa
+qu;Sakaka;Sacaca
+zh;薩卡卡;Sacaca
+qu;Saqapampa;Sacabamba
+zh;薩卡班巴;Sacabamba
+qu;Sakawa;Sacaba
+ru;Сакаба;Sacaba
+zh;薩卡瓦;Sacaba
+hi;सकाबा;Sacaba
+zh-Hans;萨卡瓦;Sacaba
+ar;ساكابا;Sacaba
+ja;サカバ;Sacaba
+ko;사카바;Sacaba
+qu;Sawaya;Sabaya
+ru;Сабая;Sabaya
+zh;薩瓦亞;Sabaya
+ar;سابايا;Sabaya
+ru;Сааведра;Saavedra
+es;Rurre;Rurrenabaque
+zh;魯雷納瓦克;Rurrenabaque
+ru;Рурренабаке;Rurrenabaque
+ar;روريناباكوي;Rurrenabaque
+ja;ルレナバケ;Rurrenabaque
+es;Rodeo;Rodeo el Palmar
+es;De Río Blanco;Río Blanco
+ja;リベラルタ;Riberalta
+ru;Риберальта;Riberalta
+zh;里韋拉爾塔;Riberalta
+ko;리베랄타;Riberalta
+es;TCO Comunidad Indígena Okita;Tierra Comunitaria de Origen Comunidad Indígena Okita
+es;Quirusillas;Quirusillas los Tajibos
+es;Quiñal;El Quiñe
+qu;Q'imi llaqta;Quime
+zh;基梅;Quime
+ar;كيومي;Quime
+qu;Killaqullu;Quillacollo
+zh;基亞科約;Quillacollo
+hi;क्विलैकोलो;Quillacollo
+ar;كياكويو;Quillacollo
+ja;キヤコヨ;Quillacollo
+ru;Кильякольо;Quillacollo
+ko;끼야꼬요;Quillacollo
+ay;Killaka;Quillacas
+es;Comunidad Quillihuy;Quilihuyo
+es;Quenaquena;Quena Quena
+es;Queara;Comunidad Queara
+es;Comunidad Keara;Comunidad Queara
+es;Puni;Gran Puni
+hi;पुनाता;Punata
+ru;Пуната;Punata
+ko;푸나타;Punata
+zh;普納塔;Punata
+ar;بوناتا، بوليفيا;Punata
+ja;プナタ;Punata
+es;Puna Cachi;Punacachi
+es;Pujio;El Pugio
+es;Comunidad Puina;Puina
+es;Puesto Fernandez;Fernández Alonso
+zh;派拉斯港;Puerto Pailas
+ja;プエルト・リコ;Puerto Rico
+zh;里科港;Puerto Rico
+es;Pérez;Puerto Pérez
+zh;貢薩洛莫雷諾港;Puerto Gonzalo Moreno
+qu;Waychu llaqta;Puerto Acosta
+zh;阿科斯塔港;Puerto Acosta
+es;Puerto Abapó;Centro Poblado Abapó
+es;Puchuni;Villa Puchuni
+ay;Putusi;Potosí
+ja;ポトシ;Potosí
+qu;Putusi;Potosí
+ru;Потоси;Potosí
+ko;포토시;Potosí
+ar;بوتوسي;Potosí
+hi;पोतोसी;Potosí
+zh;波托西;Potosí
+es;Postrervallecito;Postrer Vallecito
+es;Porton;El Portón
+zh;波爾丘埃洛;Portachuelo
+ru;Портачуело;Portachuelo
+es;Pirhua Cancha;Pirca Cancha
+es;Pillapi San Agustín;Pillapi
+es;Piedramesa;Piedra Mesa
+es;Guarayos;Peña Guarayo
+es;Guanay;Peña Guarayo
+es;Peñaderia;Peñaderias
+qu;Pilichuku;Pelechuco
+zh;保里托;Paurito
+ru;Паурито;Paurito
+qu;Patakamaya;Patacamaya
+zh;帕塔卡馬亞;Patacamaya
+es;Hacienda Pasorapillas;Pasorapilla
+es;Paslapaya Chico;Paslapaya
+qu;Parutani;Parotani
+zh;帕羅塔尼;Parotani
+zh-Hans;帕罗塔尼;Parotani
+ay;Pariya;Paria
+es;Parapetí;San Pedro del Parapeti
+es;Parajtí;Parajti
+es;Palmazola;Palmasola
+es;Palmar del Oratorio;El Palmar del Oratorio
+es;Palizada;La Palizada
+qu;Pallqa;Palca
+zh;帕爾卡;Palca
+zh;派隆;Pailón
+zh;帕迪亞;Padilla
+ar;باديلا، بوليفيا;Padilla
+ja;パディヤ;Padilla
+qu;Patqaya;Padcaya
+zh;帕德卡亞;Padcaya
+es;Pacay;Pucay
+es;Pabellón;Pabellones
+qu;Utuyu;Otuyo
+es;Hacienda Otoronco;Otorongo
+ay;Ururu;Oruro
+ru;Оруро;Oruro
+ja;オルロ;Oruro
+ar;أورورو;Oruro
+qu;Uru Uru;Oruro
+zh;奥鲁罗;Oruro
+ko;오루로;Oruro
+hi;ओरुरो;Oruro
+qu;Jurinuqa kantun;Orinoca
+es;Estancia Ollería;Ollerías
+es;Ollería;Ollerías
+es;Ocurí;Ocuri
+ja;ヌエボ・ムンド;Nuevo Mundo
+es;Ñarenda;Ñaherenda
+es;Nachoca;Ñachoca
+es;Murillo;Cumaru
+es;Estancia Muelle;Muelle
+es;Mosqueras;Mosquera
+es;Hacienda Mosoj Llajta;Mosoj Llajta
+qu;Muruchata;Morochata
+ru;Монтеро;Montero
+ja;モンテロ;Montero
+zh;蒙特羅;Montero
+ko;몬테로;Montero
+es;Montecanto;Monte Canto
+ru;Монтеагудо;Monteagudo
+it;Montegaudo;Monteagudo
+zh;蒙特阿古多;Monteagudo
+ja;モンテアグード;Monteagudo
+qu;Misk'i llaqta;Mizque
+zh;米斯克;Mizque
+ja;ミスケ;Mizque
+es;Mirma Pata;Mirmapata
+es;Miraflores;Mira Flores
+ru;Минерос;Mineros
+es;Mendez;Chorcoya Méndez
+qu;Miqapaka;Mecapaca
+zh;麦卡帕卡;Mecapaca
+es;Hacienda Mara Pampa;Mara Pampa
+es;Maquela;Maquela Yura
+ru;Мапири;Mapiri
+zh;邁拉納;Mairana
+zh-Hans;迈拉纳;Mairana
+ru;Маирана;Mairana
+es;Machamacha;Machacamarca
+es;Estancia Machacamarca;Machacamarca
+ay;Machakamarka;Machacamarca
+qu;Machaqa Marka;Machacamarca
+es;Centro Machacamarca;Machacamarca
+ru;Лурибей;Luribay
+qu;Luriway;Luribay
+zh;盧里瓦伊;Luribay
+es;Los Pinos;El Pino
+qu;Luritu;Loreto
+zh;洛雷托;Loreto
+qu;Llika llaqta;Llica
+zh;伊卡;Llica
+ar;ليكا;Llica
+es;Llanquera;Sayjasi Jacha Villque
+ay;Llankira;Sayjasi Jacha Villque
+ay;Llallawa;Llallagua
+qu;Llallawa;Llallagua
+zh;拉拉瓜;Llallagua
+es;Lisboa;Hacienda Lisboa
+zh;利蒙西托;Limoncito
+es;La Torre;San Antonio de la Torre
+ru;Ла-Ривера;La Rivera
+zh;拉里韋拉;La Rivera
+es;La Peña;Las Peñas
+es;Ciudad La Paz;La Paz
+ay;Chukiyawu;La Paz
+ar;لاباز;La Paz
+ja;ラパス;La Paz
+ko;라파스;La Paz
+ru;Ла-Пас;La Paz
+zh;拉巴斯;La Paz
+qu;Chuqiyapu;La Paz
+hi;ला पास;La Paz
+ay;Chuqi Yapu;La Paz
+es;Laja;La Laja
+zh;拉瓦查卡;Lahuachaca
+ja;イゲラ;La Higuera
+ar;لا هيغويرا;La Higuera
+ru;Ла Игера;La Higuera
+zh;拉伊格拉;La Higuera
+zh;拉瓜迪亞;La Guardia
+es;La Fortuna;San Bartolo de la Fortuna
+zh;拉貝爾吉卡;La Bélgica
+zh-Hans;拉贝尔吉卡;La Bélgica
+de;Cuchu Ingenio;Khucho Ingenio
+en;Cuchu Ingenio;Khucho Ingenio
+nl;Cuchu Ingenio;Khucho Ingenio
+es;Cuchu Ingenio;Khucho Ingenio
+es;Khello;Estancia Kellu Pata
+es;Khata;Kuraq Warayuj Athun Caata
+es;Jupani;Jupani Grande
+zh-Hans;霍罗奇托;Jorochito
+zh;霍羅奇托;Jorochito
+qu;Jesus Machaqa;Jesús de Machaca
+es;Jayuma;Jayuma Llallagua
+ay;Jayüma;Jayuma Llallagua
+zh;伊西亞馬斯;Ixiamas
+ja;イクシアマス;Ixiamas
+es;Itapú;Itapo
+zh;伊魯帕納;Irupana
+es;Iripiti;Iripity
+es;Mora;Francisco Mora
+es;Hacienda Huay Llavi;Wayllavi
+es;Huayllamarca;Santiago de Huayllamarca
+ay;Wayllamarka;Santiago de Huayllamarca
+es;Hoaycho;Huaycho
+ru;Уарина;Huarina
+ja;アルト・ペルー;Huarina
+ru;Уануни;Huanuni
+qu;Wanuni;Huanuni
+zh;瓦努尼;Huanuni
+ay;Wachakalla;Huachacalla
+qu;Wachaqalla;Huachacalla
+ru;Уачакалья;Huachacalla
+zh;瓦查卡亞;Huachacalla
+es;Estancia Huacachani;Huacochani
+es;Horcas;San Juan de Horcas
+es;Hacienda San Antonio;San Antonio Bajo
+es;Hacienda Sacawillki Grande;Sacavillque Grande
+es;Hacienda Pusani;Pusani
+es;Hacienda Molle Pata;Molle Pata
+es;Hacienda Huilacollo;Wilacollo
+es;Comunidad Wila Collo;Wilacollo
+es;Hacienda Capira;Capira
+es;Hacienda Cala Cala;Comunidad Cala Cala
+es;Hachaya;Achaya
+ko;과야라메린;Guayaramerín
+qu;Wayaramirin;Guayaramerín
+ru;Гуаярамерин;Guayaramerín
+zh;瓜亞拉梅林;Guayaramerín
+hi;गुयेरामिरिन;Guayaramerín
+zh-Hans;瓜亚拉梅林;Guayaramerín
+ar;غواياراميرين;Guayaramerín
+ja;グアヤラメリン;Guayaramerín
+es;Guarirenda;Cuarirenda
+qu;Waki llaqta;Guaqui
+de;Saavedra;General Saavedra
+zh-Hans;萨韦德拉;General Saavedra
+ja;サアベドラ;General Saavedra
+en;Saavedra;General Saavedra
+fr;Saavedra;General Saavedra
+nl;Saavedra;General Saavedra
+zh;薩韋德拉;General Saavedra
+es;General Pando;General José Manuel Pando
+qu;Tinkipaya kantun;Tinguipaya
+es;Fuertepampa;Fuerte Pampa
+es;Fortin;Fortín
+es;Fortaleza;Fortín
+es;Estrella;Nueva Estrella
+es;Estancia Yuraj Cancha;Yurac Cancha
+es;Estancia Yayuma;Llanuma
+es;Estancia Yajo Pampa;Yajo Pampa
+es;Estancia Willkhi;Willki
+es;Estancia Waca Cancha;Huaca Cancha
+es;Estancia Viluyo;Viluyo
+es;Estancia Vila Vila;Vila Vila
+es;Estancia Uyuni;Uyuni
+es;Estancia Utan Palca;Utampalca
+es;Estancia Usuncani;Usungani
+es;Estancia Uma Pampa;Humapampa
+es;Estancia Tuniri;Turrini
+es;Estancia Tulmisa;Tullmisa
+es;Estancia Tujpacha;Tujpacha
+es;Estancia Tucultapi;Tucultapi
+es;Estancia Totorani;Totorani Primero
+es;Estancia Toquensa;Toquenza
+es;Estancia Tomala;Tomola
+es;Estancia Tocopa;Tacupa
+es;Estancia Ticatica;Comunidad Tica Tica
+es;Tica Tica;Comunidad Tica Tica
+es;Estancia Thuruyuj;Turuyuc
+es;Estancia Terrado;Terrado
+es;Estancia Taypi Chinaya;Taypi Chiñaya
+es;Estancia Taypi Ayca;Tayplayca
+es;Estancia Taypi;Zona Taypi Estancia
+es;Estancia Tauca;Tauca
+es;Estancia Tatora;Totora K
+es;Totora;Totora K
+es;Estancia Tambo;Campesina Tambo Valle Grande
+es;Estancia Tambo;Tambo
+es;Estancia Suna;Zuna
+es;Estancia Sulu Phia;Sollophia
+es;Estancia Soto Rancho;Soto Rancho
+es;Estancia Sor Majchi;Surmajchi
+es;Estancia Sivingani;Sihuincani
+es;Estancia Sehuencani;Sivingani
+es;Estancia San Josema;San Josema
+es;Estancia Sani Mayu;Sani Mayu
+es;Estancia San Fermín;San Fermín
+es;Estancia Salitral;Sindicato Agrario Salitral
+es;Estancia Sala Pampa;Sala Pampa
+es;Estancia Saipina Alta;Saipina Alta
+es;Estancia Saca Pampa;Saca Pampa
+es;Estancia Saca Pampa;Seca Pampa
+es;Estancia Romero Pampa;Romero Pampa
+es;Estancia Quirpini;Quirpini
+es;Estancia Quetacochi;Ketacochi
+es;Estancia Quella Huyo;Kellahuyo
+es;Estancia Putani;Villa Futani
+es;Estancia Puitucani;Paytucani
+es;Estancia Puchuni;Puchuni
+es;Estancia Potrero Grande;Potrero Largo
+es;Estancia Piquinchata;Piquenchaca
+es;Estancia Pinañi;Piñani
+es;Estancia Piedra Grande;Piedra Grande
+es;Estancia Peca;Pecka
+es;Estancia Pata Torcoco;Pata Torcoco
+es;Estancia Patacamaya;Patacamaya
+es;Estancia Parte Libre;Parte Libre
+es;Estancia Parco Kkota;Zona Parcocota
+es;Estancia Palluma;Palluma
+es;Estancia Pallcoma;Pallcoma
+es;Estancia Paipani;Paya Payani
+es;Estancia Pacobamba;Pacobamba
+es;Estancia Pachacachi;Pachacachi
+es;Estancia Ororille;Orurillo Centro
+es;Estancia Orcayo;Orkhoyo
+es;Estancia Ockoma;Okoma
+es;Estancia Nokheska;Ñoquejza
+es;Estancia Nanpalcayoj;Indígena Originaria Ñan Palcayoj
+es;Estancia Najoni;Najoni
+es;Estancia Mucha Miel;Mucha Miel
+es;Comunidad Moro Karka;Moroqarqa
+es;Estancia Moro Karka;Moroqarqa
+es;Estancia Molle Molle;Molle Molle
+es;Estancia Molle Cancha;Molle Cancha
+es;Estancia Mikani;Mikani
+es;Estancia Mayu Torcoco;Mayu Torcoco
+es;Estancia Mamilluni;Mamillon
+es;Estancia Machacamarca;Machacamarca Ayllu Ninoca
+es;Estancia Llamkheri;Llanqueri
+es;Estancia Lisa;Cliza
+es;Estancia Leucoscochi;Lecoscochi
+es;Estancia Laurani;Laurani
+es;Estancia Laura Grande;Laura Grande
+es;Estancia Laurachico;Laura Chica
+es;Estancia La Manga;Las Mangas de Lomerío
+es;Estancia Lagunillas;Lagunillas
+es;Estancia La Fortuna;La Fortuna
+es;Estancia La Aguada;La Aguada
+es;Estancia Kutu Kutu;Comunidad Cutucutu
+es;Estancia Cotocoto;Comunidad Cutucutu
+es;Estancia Khutukutu;Comunidad Cutucutu
+es;Estancia Khara Llantayoj;Kcarallantayo
+es;Estancia Kehuaca Grande;Kehuaca Grande
+es;Estancia Kehuaca Chico;Kehuaca Chica
+es;Estancia Kasquiri;Casquiri
+es;Estancia Jorjochi;Jorjochi
+es;Estancia Jirupa;Jirupa Cala Cala
+es;Estancia Jira;Gira
+es;Estancia Jikillani;Iquillavi
+es;Estancia Jenkho Khalani;Jankho Callani
+es;Estancia Jatuquira;Jatuquira
+es;Estancia Jatun Jara;Jatun Jara
+es;Estancia Japu;Japo
+es;Estancia Jantha;Jantha Villa
+es;Estancia Jankho Marca;Janko Marca
+es;Estancia Jankho Marca;Janko Marka
+es;Estancia Jankhol Jakke;Jankoaque
+es;Estancia Jankho Jakke;Jankho Jakke
+es;Estancia Jajaya;Comunidad Jajaya
+es;Jajaya;Comunidad Jajaya
+es;Estancia Jachcha Japo;Achayapu
+es;Estancia Iquilluyo;Iquilluyo
+es;Estancia Huyo Huyo;Huyu Huyu
+es;Estancia Huaraca;Huaraca
+es;Estancia Huancani;Huncanni
+es;Estancia Huañakhota Pata;Estancia Huanakhota Pata
+es;Estancia Huachaca;Huachaca
+es;Estancia Equillani;Esquillani
+es;Estancia El Torno;El Torno
+es;Estancia El Hondo;El Hondo
+es;Estancia Cuchisito;San Javier de Cuchisito
+es;Estancia Cota Cotani;Cotacotani
+es;Estancia Coruni;Curuni
+es;Estancia Copatamaya;Copatamaya
+es;Estancia Churo;Choro Queroma
+es;Estancia Choro;Zona Churo
+es;Estancia Choquapiña;Choquepiña
+es;Estancia Chojahuaya;Chojahuaya
+es;Estancia Chillkhata;Zona Chilchata
+es;Estancia Chillchata;Zona Chilchata
+es;Estancia Chilijchi;Chilljchi
+es;Estancia Chiaraque;Chiaraque
+es;Estancia Charque;Churqui Churqui
+es;Estancia Chari;Chari
+es;Comunidad Chari;Chari
+es;Estancia Chara Huayto;Charawaytu
+es;Estancia Chapapani;Chapapani
+es;Estancia Chamacatani;Chamacatani
+es;Cchallasirca;Challasirca
+es;Estancia Challa Jipiña;Callipiña
+es;Estancia Chalavi;Chalavi
+es;Estancia Chahuaria;Chavarría
+es;Estancia Chaguaya;Chaguaya
+es;Estancia Centeno Tambo;Cinteño Tambo
+es;Estancia Cayu Jasi;Kaywasi
+es;Estancia Cavini;Cavini
+es;Estancia Catari;Cotari
+es;Estancia Casiri Chico;Casquiri Chico
+es;Estancia Carahuisa;Qarabisa
+es;Estancia Caporuro;Copururo
+es;Estancia Capellania;Capellanía
+es;Estancia Cantu Pata;Kantupata
+es;Estancia Canto Marca;Cantumarca
+es;Estancia Canizaya;Cañisaya
+es;Estancia Canchas Blancas;Canchas Blancas
+es;Estancia Canari Alto;Canari Alto
+es;Estancia Cambalache;Cambalache
+es;Estancia Cala Vinto;Calavinto
+es;Estancia Cala Calani;Cala Calani
+es;Estancia Cajani;Cajani
+es;Estancia Cachuyoj;Cachuyo
+es;Estancia Cacahuallo;Cacahuallo
+es;Sub Central Villa Verde;Arco
+es;Estancia Aramaxi;Aramasi
+es;Estancia Antahuara;Antahuara
+es;Estancia Ancara;Ankara
+es;Estancia Añahuayani;Añahuayani
+es;Estancia Alto Pomani;Alto Pomani
+es;Estancia Akanami;Akhanani
+es;Estancia Achumani;Achumani
+qu;Mayupura;Entre Ríos
+zh;恩特雷里奥斯;Entre Ríos
+zh-Hant;恩特雷里奧斯;Entre Ríos
+es;Empinado;El Empinado
+es;El Tacovo;Tacobo
+es;Hacienda El Rodeo;Rodeo Porvenir
+es;El Meson;Meson
+es;El Marfil;Marfil
+es;El Ingenio;Ingenio
+es;El Chaco;San Juan del Chaco
+es;El Barrial;Barrial
+ay;Risawariru;Desaguadero
+es;Cusi;Tambo Cusi
+qu;Karanka Kurawara;Curahuara de Carangas
+zh;庫拉瓦拉德卡蘭加斯;Curahuara de Carangas
+zh;奎沃;Cuevo
+ar;كويفو;Cuevo
+qu;Qutuqa;Cotoca
+zh;科托卡;Cotoca
+es;Cotañani;Cotañani Alto
+qu;Qutaqayta;Santiago de Cotagaita
+zh;聖地牙哥德科塔蓋塔;Santiago de Cotagaita
+de;Cotagaita;Santiago de Cotagaita
+fr;Cotagaita;Santiago de Cotagaita
+ay;Kurki;Corque
+ru;Корке;Corque
+qu;Qhurqhi;Corque
+zh;科爾克;Corque
+qu;Quruyqu;Coroico
+ru;Коройко;Coroico
+zh;科羅伊科;Coroico
+es;Coripote;Corepoti
+ay;Qupakawana;Copacabana
+ko;코파카바나;Copacabana
+qu;Qupaqhawana;Copacabana
+zh;科帕卡瓦納;Copacabana
+es;Condorhahuira;Condor Jahuira
+qu;Kunsipsyun;Concepción
+zh;康塞普西翁;Concepción
+es;Comunidad San Pedro de Zapocoz;San Pedro de Sapoco
+es;Comunidad San Pedrito;San Pedro de Sapoco
+es;Comunidad Unduavi;Untuavi
+es;Comunidad Torno;El Torno
+es;Comunidad Toldo Mago;Toldo Mogo
+es;Comunidad Tokonkori;Tocongori
+es;Comunidad Tirite;Tirita
+es;Comunidad Tipoye;Tipoy
+es;Comunidad Ticata;Villa Ticata
+es;Tholapata;Thola Pata
+es;Comunidad Tapchiquira;Campesina Originaria Tapquichira
+es;Comunidad Tacoygo;Cruz del Tacoigo
+es;Comunidad Saygua Pampa;Sayhuapampa
+es;Comunidad Santa Teresita;Santa Teresita de los Sujales
+es;Comunidad Santa Rosa de Las Minas;Santa Rosa de las Minas
+es;Comunidad Santa Barbara;Santa Barbara
+es;Comunidad Santa Barbara;Santa Bárbara
+es;Comunidad Santa Anita;Santa Anita de la Frontera
+es;Comunidad Sañonama;Sañonama
+es;Comunidad San Luis;San Luisito de Lima
+es;Comunidad San Juancito;San Juancito
+es;Comunidad San Juán Bautista;San Juan Bautista
+es;Comunidad San Josema;San Josema
+es;Comunidad San Fermín;San Fermín
+es;Comunidad San Antonio;San Antonio
+es;Comunidad San Andrés;San Andrés
+es;Comunidad Ramada Quemada;Ramada Quemada
+es;Comunidad Punama;Punuma
+es;Comunidad Pulperas;Pulperas
+es;Comunidad Potrero Aguilar;Potrero Aguilar
+es;Comunidad Parajachi;Comunidad Pajarachi
+es;Comunidad Pampasi;Pampasi
+es;Comunidad Orcola;Orkhola
+es;Comunidad Okinawa;Okinawa
+es;Comunidad Naranjillos;Naranjillo
+es;Comunidad Molle Molle;Molle Molle
+es;Comunidad Mercedes;Mercedes de las Minas
+es;Comunidad Medio Monte Colorado;Medio Monte
+es;Comunidad Llokhallata;Yocallata
+es;Comunidad Llachuani;Llachuani
+es;Comunidad La Porfía;La Porfia
+es;Comunidad La Encrucijada;La Encrucijada de Belén
+es;Comunidad Lachiraya;Lachiraya
+es;Comunidad Kumali;Faja Kumali
+es;Comunidad Khara Khara;Ckara Ckara
+es;Comunidad Khala Khala;Cala Cala
+es;Comunidad Kalancachi;Calanganchi Centro
+es;Estancia Kalancachi;Calanganchi Centro
+es;Comunidad Jotijoti;Jotijoti
+es;Comunidad Iquipuni;Iquipuni
+es;Comunidad Ilave;Llave
+es;Llave Juchupampa;Llave
+es;Comunidad Huikikisa;Wiquiquisa
+es;Estancia Kuikikisa;Wiquiquisa
+es;Comunidad Guapomocito;Guapomocito
+es;Comunidad Fatima;Fatima Paraíso
+es;Comunidad El Tajibo;El Tajibo
+es;Comunidad El Paraiso;Paraíso Dos
+es;Paraíso 2;Paraíso Dos
+es;Comunidad El Naranjo;Los Naranjos
+es;Comunidad El Carmen;El Carmen
+es;Comunidad Cotoca;Faja Cotoca
+es;Comunidad Cotoca;Cotoca
+es;Comunidad Cotoca;Cotoquita
+es;Comunidad Churuni;Chururi
+es;Comunidad Churillango;Churillanca
+es;Comunidad Chojñokho;Chojñoco
+es;Comunidad Chojña Khala;Chonjñacala
+es;Comunidad Chata;Chata
+es;Comunidad Chanka;Chankha
+es;Comunidad Cerrito;San Pedro del Cerrito
+es;Comunidad Candelaria;Candelaria de Noza
+es;Comunidad Cancollo;Suncallo
+es;Comunidad Canchas Blancas;Canchas Blancas
+es;Comunidad Alianza;Alianza
+es;Comunidad Acuarrio;San Francisco de Guarrio
+qu;Qumpaya;Combaya
+qu;Kumarapa;Comarapa
+zh;科馬拉帕;Comarapa
+zh-Hans;科马拉帕;Comarapa
+ja;コマラパ;Comarapa
+de;Colquiri;Campamento Colquiri
+qu;Qullqiri;Campamento Colquiri
+en;Colquiri;Campamento Colquiri
+fr;Colquiri;Campamento Colquiri
+zh;科爾基里;Campamento Colquiri
+zh-Hans;科尔基里;Campamento Colquiri
+nl;Colquiri;Campamento Colquiri
+qu;Qullqincha;Colquencha
+zh;科爾肯查;Colquencha
+qu;Qullqichaka;Colquechaca
+zh;科爾克查卡;Colquechaca
+ru;Колькечака;Colquechaca
+es;Okinawa 3;Okinawa Tres
+es;Colonia Canadiense-1;Canadiense Uno
+es;Canadiense 1;Canadiense Uno
+qu;Qullana;Collana
+zh;科利亞納;Collana
+zh-Hans;科利亚纳;Collana
+zh;科爾查尼（波托西）;Colchani
+hi;कोल्कापियरहा;Colcapirhua
+ru;Колькапируа;Colcapirhua
+qu;Qullqapirwa;Colcapirhua
+ko;콜카피르후아;Colcapirhua
+zh;科爾卡皮爾瓦;Colcapirhua
+ar;كولكابيرهوا;Colcapirhua
+ja;コルカピルウア;Colcapirhua
+es;Colabamba;Collabamba
+ay;Kuchawampa;Cochabamba
+ja;コチャバンバ;Cochabamba
+qu;Quchapampa;Cochabamba
+ru;Кочабамба;Cochabamba
+ko;코차밤바;Cochabamba
+ay;Quchapampa;Cochabamba
+zh;科恰班巴;Cochabamba
+ar;كوتشابامبا;Cochabamba
+hi;कोचाबम्बा;Cochabamba
+ru;Кобиха;Cobija
+ay;Kuwixa;Cobija
+ja;コビハ;Cobija
+qu;Kuwiha;Cobija
+zh;科維哈;Cobija
+ko;코비하;Cobija
+ar;كوبيخا;Cobija
+hi;कोबिजा;Cobija
+qu;Klisa;Cliza
+zh;克利薩;Cliza
+ja;クリサ;Cliza
+es;Churuni;Arapa Churuni
+ay;Chukichampi;Chuquichambi
+es;Hacienda Chunca Cancha;Chunca Kancha
+ru;Чулумани;Chulumani
+zh;丘盧馬尼;Chulumani
+ja;チャルマニ;Chulumani
+es;Chulloma;Chualluma
+es;Estancia Chualloma;Chualluma
+es;Chojña Pata;Chojñapata
+es;Chochis;Chochís
+es;Chiruhuamani;Churihumani
+qu;Chimuriy;Chimoré
+zh;奇莫雷;Chimoré
+ja;チモレ;Chimoré
+ru;Чиморе;Chimoré
+es;Chichamayo;Chicha Mayu
+es;Chiarhuyo;Challuyo
+es;Chejepampa;Cheje Pampa
+es;Cháves;Rancho Chávez
+hi;चरागुआ;Charagua
+ru;Чарагуа;Charagua
+qu;Charawa;Charagua
+ko;차라구아;Charagua
+zh;查拉瓜;Charagua
+ar;تاراغوا;Charagua
+ja;チャラグア;Charagua
+es;Chantamarca;Chontamarca
+ru;Чальяпата;Challapata
+qu;Ch'allapata;Challapata
+zh;查亞帕塔;Challapata
+zh-Hans;查亚帕塔;Challapata
+ja;チャヤパタ;Challapata
+es;Cantaya;Chajaya
+es;Cerrillo;Cerrillos
+es;Casas Viejas;Casa Vieja
+es;Carnavales;Carnaval
+es;Carasani;Carazani
+es;Comunidad Carasani;Carazani
+qu;Qarañawi;Caranavi
+zh;卡拉納維;Caranavi
+es;Karobaicho;Karovaicho
+qu;Qaraqullu;Caracollo
+zh;卡拉科約;Caracollo
+es;Villa Taroca;Cañohuma
+es;Canlliri;Kanlliri
+es;Hacienda Candelaria;Candelaria
+ru;Камири;Camiri
+qu;Kamiri;Camiri
+zh;卡米里;Camiri
+zh;卡馬戈;Camargo
+es;Callacalla;Cala Cala
+qu;Qalamarka;Calamarca
+zh;卡拉卡拉;Cala Cala
+ay;Wurgus;Burgos
+es;Buenos Aires;Barraca Buenos Aires
+ja;ボユイベ;Boyuibe
+zh;博尤伊韋;Boyuibe
+ru;Боюибе;Boyuibe
+es;Bolíbar;Bolívar
+zh;貝坦索斯;Betanzos
+ar;بلدية بيتانزوس;Betanzos
+qu;Panti llaqta;Bermejo
+zh;貝爾梅霍;Bermejo
+es;Puesto Bella Vista;Bella Vista
+de;Tres Cruces;Belén
+qu;Ayu Ayu;Ayo Ayo
+qu;Atucha;Atocha
+ru;Аточа;Atocha
+zh;阿托查;Atocha
+es;Asuvi;Azubi
+es;Asubi;Azubi
+es;Comunidad Asariamas;Azariamas
+qu;Jarani;Arani
+zh;阿拉尼;Arani
+ru;Арани;Arani
+es;Aramani Norte;Aramani
+es;Apooco;Apohoco
+es;Angostura;La Angostura
+es;Ancoma;Ancoma Norte
+qu;Amariti;Amarete
+zh;阿馬雷特;Amarete
+ru;Амарете;Amarete
+es;Altos;Los Altos
+es;Barraca Alta Gracia;Alta Gracia
+es;Alicia;Villa Alicia
+es;Puerto Alianza;Puesto Alianza
+es;Villa Adela;Villa Adelia
+ay;Jach'ak'achi;Achacachi
+qu;Jach'ak'achi;Achacachi
+zh;阿查卡奇;Achacachi
+ru;Ачакачи;Achacachi
+ko;아차카치;Achacachi
+ar;أتشاكاتشي;Achacachi
+ja;アチャカチ;Achacachi
+es;Acesilo;Azacilo
+zh;阿巴波;Abapó Viejo
+zh-Hans;夸特罗卡尼亚达斯;Cuatro Cañadas
+zh;夸特羅卡尼亞達斯;Cuatro Cañadas
+de;San Miguel;San Miguel de Velasco
+qu;San Miguel;San Miguel de Velasco
+zh;聖米吉;San Miguel de Velasco
+es;Comunidad Zamora;Zamora
+es;La Seja;La Ceja
+es;Comunidad San Joaquin;San Joaquín
+es;Estancia Zanja Honda;Zanja Honda
+de;Chané Independencia;Chane Independencia
+zh-Hans;查内因德彭登西亚;Chane Independencia
+zh;查內因德彭登西亞;Chane Independencia
+es;Comunidad Bioceanica;Bioceánica
+es;Rutina;Aserradero Rutina
+es;Comunidad Nareuda;Nareuda
+zh;聖博爾哈;San Borja
+ar;سان بورخا;San Borja
+ja;サン・ボルハ;San Borja
+ru;Сан-Борха;San Borja
+es;Soberania Bella Vista;Soberanía Bella Vista
+es;Felix Roca;Félix Roca
+es;Curichon;Curichón
+es;Soberania Dos;Soberanía Dos
+es;Soberania 2;Soberanía Dos
+es;Soberania;Soberanía
+es;Nueva Alegria;Nueva Alegría
+es;Compensación Espiritu I;Compensación Espíritu I
+es;Comunidad Bella Vista;Bella Vista
+es;Comunidad Avaroa;Avaroa
+es;Comunidad Mejillones;Mejillones
+es;Comunidad Villa Fatima;Villa Fátima
+es;Comunidad Nueva Esperanza;Nueva Esperanza
+es;Comunidad Alto Bahia;Alto Bahía
+es;Comunidad Rosario;Villa Rosario
+es;Potón;Ponton
+es;Comunidad San Pedro;San Pedro
+es;Purisima;Purísima
+es;San Francisco de Asis;San Francisco de Asís
+es;Empresa Nueva;Empresiña
+es;Planchon;Planchón
+es;Nueva Union;Nueva Unión
+es;Lago 2;Lago Dos
+es;El Lago;Lago
+es;Veronica;Verónica
+es;Cuatro de Octubre;Karamanu
+es;19 de Agosto;Diecinueve de Agosto
+es;Espiritu II;Espíritu II
+es;11 de Septiembre;Once de Septiembre
+es;Alto Monte el Pinopollo Samaria;Alto Monte el Pinpollo Samaria
+es;Luz de America;Luz de América
+es;Asunta;Las Mercedes
+es;Diesiocho de Noviembre;Dieciocho de Noviembre
+es;18 de Noviembre;Dieciocho de Noviembre
+es;Barraca Tarabuco;Tarabuco
+es;El Pozón;Barraca Libertad
+es;Cafondo;Puerto Vargas Arroyo Grande
+es;Ajea;Puerto Barga
+es;Comunidad Campesina Los Laguitos;Campesina los Laguitos
+es;Santa Lucia;Santa Lucía
+es;Santa Maria;Santa María
+es;Zaldana;Zaldaña
+es;Irosima;Hiroshima
+es;Rancho Palacio;Palacios
+es;Piñalito;Pinalito
+es;Quemado;Quemada
+es;Manuripi;Manuripal
+es;Santa Bonita;Bernardino Racua
+es;Las Abejas Dos;Las Abejas II
+es;Barraca Cuchuquera;Rancho Cuchuquera
+es;Dos Calles;Primero de Mayo
+es;Alto Bahia Dos;Alto Bahía II
+es;16 de Julio;Dieciséis de Julio
+es;Comunidad Campesina Villa el Carmen;Campesina Villa el Carmen
+es;Simon Bolivar;Simón Bolívar
+es;Barraca Pernanbuco;Pernanbuco
+es;Estancia Lambramani;Lambramani
+es;Estancia Jachatira;Villa Jachatira
+es;Estancia Jachehatira;Villa Jachatira
+es;Comunidad Kilima;Quilima Titicachi
+es;Comunidad Tilacoca;Tilacoca
+es;Comunidad Quilma;Quilma
+es;Comunidad Yarhuicohua;Yaricoa Bajo
+es;Comunidad Huallachapi;Ullachapi Primero
+es;Comunidad Tomokho Chico;Tomoco Chico
+es;Comunidad Tomokho Grande;Tomoco Grande
+es;Estancia Wilajaya Chajerico;Wilajayo
+es;Estancia Chimokho;Chimoco
+es;Comunidad Kerape;Kerapi
+es;Comunidad Wilas;Wilasi
+es;Estancia Tacaraca;San Miguel de Tacaraca
+es;Estancia Chojasquia;Chojasquia
+es;Estancia Kanlla Pampa;Canllapampa
+es;Estancia Pujraca;Taypi Pujraca
+es;Estancia Jankho Uma;Taypi Jankho Uma
+es;Estancia Salla Khuchu;Sallacucho
+es;Comunidad Ollajsantia;Ollajsantia
+es;Comunidad Secuco;Sacuco
+es;Estancia Ojchiti Puca;Ojchi
+es;Comunidad Parajachi Primero;Parajachi Primero
+es;Estancia Unahuaya;Unahuaya
+es;Estancia Pucarpata;Sur Pocarcata
+es;Estancia Chakaqui;Chacaqui Primero
+es;Estancia Collercana;Collercana
+es;Achulani;Chapia Achuluni
+es;Estancia Huapata;Upata
+es;Estancia Llacharapi;Llacharapi
+es;Comunidad Tanavacas;Tanavacas
+es;Challapampa Isla del Sol;Challapampa
+zh;查利亞潘帕;Challapampa
+es;Estancia Huatacana;Huatacana
+es;Niño Corin;Niño Corín
+es;Quillpani;Qullpani
+es;3 de Mayo;Tres de Mayo
+es;Chupisulani;Chupilusani
+es;1ro de Mayo;Primero de Mayo
+es;Comunidad Agua Blanca;Agua Blanca
+es;Estancia Cololo;Cololo Altarani
+es;Estancia Paria;Zona Paria
+es;Nueve Pampa;Nuve Pampa
+es;Estancia Nueve Pampa;Nuve Pampa
+es;Estancia Khellu Jahuira;Zona Kellu Jahuira
+es;Estancia Makara;Makara
+es;Zona Macara;Makara
+es;Estancia Nakara;Makara
+es;Calaya;Caalaya
+es;Kuraj Caalaya;Caalaya
+es;Totorani;Toto Rani
+es;Comunidad Totorani;Toto Rani
+es;Comunidad Isalpampa;Isalpampa
+es;Comunidad Chullumpini;Chullumpini
+es;Comunidad Huyrapata;Huayrapata
+es;Huyrapata;Huayrapata
+es;Paco;Estancia Paco
+es;Wilacala;Villa Rosario de Wilacala
+es;Comunidad Viscachani;Viscachani
+es;Comunidad Quesihuyo;Quisihuyo
+es;Comunidad Huarcamarca;Huarcamarca
+es;Comunidad Pantini;Pantini
+es;Iturraya;Ituraya
+es;Estancia Utan Karka;Athankarka
+es;Upinhaya;Upinhuaya
+es;Estancia Tira Khahua;Tirajahua
+es;Comunidad Kacapi;San José de Kacapi
+es;Zona Mojsahuma;Mojsahuma
+es;16 de Mayo;Dieciséis de Mayo
+es;8 de Octubre;Ocho de Octubre
+es;18 de Junio;Dieciocho de Junio
+es;Los Cayuces km 24;Los Cayuces Kilómetro Veinticuatro
+es;San Fransisco del Yata;San Francisco del Yata
+es;Cachuela Mamore;Cachuela Mamoré
+es;26 de Marzo;Veintiséis de Marzo
+es;2 de Octubre;Dos de Octubre
+es;Villa Purisima;Villa Purísima
+es;7 de Julio;Siete de Julio
+es;Bolivar;Bolívar
+es;8 de Febrero;Ocho de Febrero
+es;27 de Noviembre;Veintisiete de Noviembre
+es;Río Mamore;Río Mamoré
+es;14 de Septiembre;Catorce de Septiembre
+es;12 de Octubre;Doce de Octubre
+es;San Juan km 42;San Juan Kilómetro Cuarenta y Dos
+es;26 de Octubre;Veintiséis de Octubre
+es;7 de Enero;Siete de Enero
+es;11 de Octubre;Once de Octubre
+es;12 de Marzo;Doce de Marzo
+es;6 de Agosto;Seis de Agosto
+es;Tco Yaminahua Machimeri;Tierra Comunitaria de Origen Yaminahua Machimeri
+es;20 de Enero;Veinte de Enero
+es;Campo Largo Hito 22;Campo Largo Hito Veintidós
+es;Otb Paralelo 22;Otb Paralelo Veintidós
+es;Organización Territorial Base de Paralelo Veintidós;Otb Paralelo Veintidós
+es;Indígena Weenhayek Yuchán Central;Indígena Weenhayek Yuchan Central
+es;Indígena 16 de Septiembre;Indígena Dieciséis de Septiembre
+es;Las Palmeras 2;Las Palmeras Dos
+es;La Puricima;La Purísima
+es;Las Piedades 2;Las Piedades Dos
+es;Cañada Larga Comunidad Nueva Belén 4 de Noviembre;Cañada Larga Comunidad Nueva Belén Cuatro de Noviembre
+es;Hábitat 1;Hábitat Uno
+es;Las Piedades 1;Las Piedades Uno
+es;15 de Abril;Quince de Abril
+es;Cahuela;Bajo Paragua
+es;18 de Septiembre Apia;Dieciocho de Septiembre Apia
+es;San Ramón Puesto 27;San Ramón Puesto Veintisiete
+es;25 de Enero;Veinticinco de Enero
+es;7 de Septiembre;Siete de Septiembre
+es;Kapiacuandi;Capiacuandi
+es;Machacamarca Z C;Machacamarca Zona Central
+es;10 de Julio;Diez de Julio
+es;Central Curihuati;Santa Ana
+es;Indígena 5 de Julio;Indígena Cinco de Julio
+es;1 de Agosto;Uno de Agosto
+es;21 de Junio;Veintiuno de Junio
+es;Alto Paragua;Candelaria
+es;15 de Agosto;Quince de Agosto
+es;23 de Junio;Veintitrés de Junio
+es;6 de Agosto B;Seis de Agosto B
+es;Sindicato Agrario 16 de Junio II;Sindicato Agrario Dieciseis de Junio II
+es;Agropecuaria 23 de Marzo;Agropecuaria Veintitrés de Marzo
+es;23 de Julio;Veintitrés de Julio
+es;4 de Agosto;Cuatro de Agosto
+es;Indígena 3 Septiembre;Indígena Tres Septiembre
+es;Santa Rosita del Carmen Ruiz;Santa Rosita del Carmen de Ruiz
+es;Indígena Palestina TCO Monte Ver;Indígena Nuevo Jesus Alen Tierra Comunitaria de Origen Monte Verde
+es;2 de Deciembre II;Dos de Diciembre II
+es;Interculturales 24 de Junio;Interculturales Veinticuatro de Junio
+es;Indígena Sagrado Corazón de Jesús TCO M;Indígena Sagrado Corazón de Jesús Tierra Comunitaria de Origen Multiétnico
+es;4 de Julio;Cuatro de Julio
+es;Alto Paragua;Providencia
+es;10 de Octubre;Diez de Octubre
+es;Indígena Palestina TCO Monte Verde;Indígena Palestina Tierra Comunitaria de Origen Monte Verde
+es;26 de Enero;Veintiséis de Enero
+es;11 de Julio;Once de Julio
+es;Sindicato 16 de Junio;Sindicato Dieciseis de Junio
+es;13 de Mayo;Trece de Mayo
+es;Campesina Indígena 3 de Octubre;Campesina Indígena Tres de Octubre
+es;17 de Diciembre;Diecisiete de Diciembre
+es;Unión 19 de Marzo;Unión Diecinueve de Marzo
+es;Alto Olivo 1ro la Libertad;Alto Olivo Primero la Libertad
+es;12 de Agosto;Doce de Agosto
+es;CP Dorado Grande;Centro Poblado Dorado Grande
+es;Código Postal Dorado Grande;Centro Poblado Dorado Grande
+es;Santiago 7 Lomas;Santiago Siete Lomas
+es;2da San Bartolomé;Segunda San Bartolomé
+es;21 de Agosto;Veintiuno de Agosto
+es;Huancollo;Huanocollo
+es;20 de Agosto;Veinte de Agosto
+es;Central Agraria Campesina Santa Ana;Santa Ana
+es;25 de Julio;Veinticinco de Julio
+es;Chirca;Huayrapata - Chirca
+es;Porvenir 20 de Mayo;Porvenir Veinte de Mayo
+es;1 de Mayo;Uno de Mayo
+es;Abanico Yapacani 2;Abanico Yapacani Dos
+es;3 Estrellas;Tres Estrellas
+es;Nazareno 2;Nazareno Dos
+es;22 de Mayo;Veintidós de Mayo
+es;Tamborada A2;Tamborada A Dos
+es;9 de Agosto;Nueve de Agosto
+es;Moiler 27;Moiler Veintisiete
+es;1ra Volcán;Primera Volcán
+es;19 de Marzo;Diecinueve de Marzo
+es;9 de Abril Yapacani;Nueve de Abril Yapacani
+es;11 de Enero;Once de Enero
+es;31 de Octubre;Treinta y Uno de Octubre
+es;Villa Rosario Kilómetro 45;Villa Rosario Kilómetro Cuarenta y Cinco
+es;Gualberto Villarroel 2;Gualberto Villarroel Dos
+es;2 de Agosto;Dos de Agosto
+es;12 Estrellas;Doce Estrellas
+es;10 de Marzo B;Diez de Marzo B
+es;Sindicato Agrario Kilómetro 40 Faja Central;Sindicato Agrario Kilómetro Cuarenta Faja Central
+es;25 de Abril;Veinticinco de Abril
+es;Tamborada A1;Tamborada A Uno
+es;26 de Septiembre;Veintiséis de Septiembre
+es;4 de Marzo;Cuatro de Marzo
+es;Platanera 2 de Agosto;Platanera Dos de Agosto
+es;Agrario de Colonizadores 12 de Julio;Agrario de Colonizadores Doce de Julio
+es;9 de Abril;Nueve de Abril
+es;Sindicato Agrario Nuevo Amanecer Kilómetro 18;Sindicato Agrario Nuevo Amanecer Kilómetro Dieciocho
+es;Central Senda 5;Villa Verde
+es;Cenral Senda Cinco;Villa Verde
+es;Vueltadero;La Florida
+es;10 de Marzo;Diez de Marzo
+es;24 de Septiembre;Veinticuatro de Septiembre
+es;10 de Febrero;Diez de Febrero
+es;10 de Noviembre;Diez de Noviembre
+es;15 de Mayo;Quince de Mayo
+es;Senda 2 de Agosto;Senda Dos de Agosto
+es;Abanico 3;Abanico Tres
+es;Sindicato Agrario 25 de Agosto;Sindicato Agrario Veinticinco de Agosto
+es;Agrupación Agraria Lomerio 1;Agrupación Agraria Lomerio Uno
+es;Kilómetro 45;Kilómetro Cuarenta y Cinco
+es;2 de Marzo;Dos de Marzo
+es;3 Pozos;Tres Pozos
+es;Tamborada A3;Tamborada A Tres
+es;Kilómetro 21 Avanico;Kilómetro Veintiuno Abanico
+es;21 de Julio;Veintiuno de Julio
+es;Sindicato 12 de Octubre;Sindicato Doce de Octubre
+es;Campesina 25 de Julio;Campesina Veinticinco de Julio
+es;Isla 2;Isla Dos
+es;1 de Mayo;Primero de Mayo
+es;12 de Julio;Doce de Julio
+es;18 de Septiembre;Dieciocho de Septiembre
+es;1 de Agosto;Primero de Agosto
+es;24 de Junio;Veinticautro de Junio
+es;23 de Marzo Avaroa;Veintitrés de Marzo Avaroa
+es;Valle Sacta;Valle Sajta
+es;Sindicato 14 de Septiembre;Sindicato Catorce de Septiembre
+es;2da Monte Sinaí;Segunda Monte Sinaí
+es;Central Bulo Bulo;Lauca Eñe
+es;Sindicato Agrario 6 de Enero los Mandarinos;Sindicato Agrario Seis de Enero los Mandarinos
+es;Sindicato Agrario 9 de Abril;Sindicato Agrario Nueve de Abril
+es;Palmar 2 Grupo;Palmar Dos Grupo
+es;Sindicato Agrario 15 de Agosto;Sindicato Agrario Quince de Agosto
+es;Central Bulo Bulo;Veintitrés de Marzo Ichoa
+es;23 de Marzo Ichoa;Veintitrés de Marzo Ichoa
+es;25 de Mayo;Veinticinco de Mayo
+es;6 de Mayo;Seis de Mayo
+es;6 de Enero;Seis de Enero
+es;12 de Septiembre;Doce de Septiembre
+es;Patujusal 1;Patujusal Uno
+es;TCO Agrofprofasi;Tierra Comunitaria de Origen Agrofprofasi
+es;Cooperativa 15 de Agosto;Cooperativa Quince de Agosto
+es;Central Senda Cinco;Villa Verde
+es;Anarancho 2;Anarancho Dos
+es;3o Grupo Valle Hermoso;Tercero Grupo Valle Hermoso
+es;Karawasi;Kara Huasi
+es;La Hoyada 7 de Septiembre;La Hoyada Siete de Septiembre
+es;25 de Septiembre;Veinticinco de Septiembre
+es;2do Torrecillas;Segundo Torrecillas
+es;Huertas;La Huerta
+es;Banda Oriental 1;Banda Oriental Uno
+es;Diam Pampa;Diampampa
+es;8 de Septiembre;Ocho de Septiembre
+es;Torrehuaico;Torrehuayco
+es;Soliman;Solimán
+es;Playa Ancha Núcleo 61;Playa Ancha Núcleo Sesenta y Uno
+es;Los Cantaros;Los Cántaros
+es;Campesina el Palmar Núcleo 25;Campesina el Palmar Núcleo Veinticinco
+es;10 de Junio;Diez de Junio
+es;Yucumo 30 B;Yucumo Treinta B
+es;El Palmar Núcleo 25;El Palmar Núcleo Veinticinco
+es;San Miguel Huancaya Núcleo 23;San Miguel Huancaya Núcleo Veintitrés
+es;Concepción Tamo 1;Concepción Tamo Uno
+es;21 de Septiembre;Veintiuno de Septiembre
+es;21 de Octubre;Veintiuno de Octubre
+es;San Nicolás 64;San Nicolás Sesenta y Cuatro
+es;San Juan de Dios Núcleo 36;San Juan de Dios Núcleo Treinta y Seis
+es;Nueva Belén Núcleo 27;Nueva Belén Núcleo Veintisiete
+es;Aroma Núcleo 42;Aroma Núcleo Cuarenta y Dos
+es;Colonia Modelo Núcleo 21;Colonia Modelo Núcleo Veintiuno
+es;Monte Grande Kilómetro 5;Monte Grande Kilómetro Cinco
+es;27 de Mayo;Veintisiete de Mayo
+es;2 de Abril;Dos de Abril
+es;8 Hermanos;Ocho Hermanos
+es;9 de Junio;Nueve de Junio
+es;Celvita 1;Celvita Uno
+es;San Andrés;La Portera
+es;San Martín;La Portera
+es;Campesina Agraria 6 de Enero;Campesina Agraria Seis de Enero
+es;Kilómetro 14;Kilómetro Catorce
+es;San Juaquin de la Paz;San Joaquín de la Paz
+es;16 de Agosto;Dieciséis de Agosto
+es;8 de Julio;Ocho de Julio
+es;Colonia Menonita Hohenau 1;Colonia Menonita Hohenau Uno
+es;8 de Diciembre;Ocho de Diciembre
+es;Jiraphi Alta;Jirapi Alta
+es;Pukarillo;Pucarillo
+es;Rayuela Huasacañada;Rayuela
+es;2 de Septiembre;Dos de Septiembre
+es;29 de Marzo;Veintinueve de Marzo
+es;La Fortuna 2;La Fortuna Dos
+es;12 de Abril;Doce de Abril
+es;4 de Octubre;Cuatro de Octubre
+es;Campesina Agropecuaria 19 de Noviembre;Campesina Agropecuaria Diecinueve de Noviembre
+es;Campesina 10 de Octubre;Campesina Diez de Octubre
+es;14 de Noviembre;Catorce de Noviembre
+es;Campesina 30 de Agosto;Campesina Treinta de Agosto
+es;31 de Marzo;Treintiuno de Marzo
+es;Campesina Tajibo 2;Campesina Tajibo Dos
+es;Indígena 1 de Mayo;Indígena Primero de Mayo
+es;10 de Enero;Diez de Enero
+es;Indígena Guayacán;Indígena Guayacán Uno
+es;Indígena Guayacán  1;Indígena Guayacán Uno
+es;Menonita;Tinto del Este
+es;Campesina Tajibo 1;Campesina Tajibo Uno
+es;Colonia Menonita Hohenau 2;Colonia Menonita Hohenau Dos
+es;8 de Abril;Ocho de Abril
+es;5 de Agosto;Cinco de Agosto
+es;Sub Central Villa Verde;Collpuma
+es;Sub Central Villa Verde;Puna Huaylluma
+es;12 de Mayo;Doce de Mayo
+es;Sacavillque;Sacavillque Chico
+es;Rancherio;Carapari
+es;16 de Febrero;Dieciséis de Febrero
+es;La Esperanza del Río Mamore;La Esperanza del Río Mamoré
+es;Liquimayo 2;Liquimayo Dos
+es;5 de Junio la Merced;Cinco de Junio la Merced
+es;3 de Abril;Tres de Abril
+es;Campo 5;Campo Cinco
+es;Campo 8;Campo Ocho
+es;Campo 7;Campo Siete
+es;Campo 1,5;Campo Uno, Cinco
+es;Campo 11;Campo Once
+es;Campesina 5 de Octubre;Campesina Cinco de Octubre
+es;Alianza del Sur Núcleo 28A;Alianza del Sur Núcleo Veinte y Ocho A
+es;1ro de Julio;Primero de Julio
+es;24 de Septiembre;Veinte y Cuatro de Septiembre
+es;Campesina San Pablo Núcleo 34 B;Campesina San Pablo Núcleo Treinta y Cuatro B
+es;Villa Imperial 45;Villa Imperial Cuarenta y Cinco
+es;5 de Mayo;Cinco de Mayo
+es;Campo 3;Campo Tres
+es;El Carmen Núcleo 53;El Carmen Núcleo Cincuenta y Tres
+es;El Tacuaral 2;El Tacuaral Dos
+es;Campo 1;Campo Uno
+es;24 de Julio;Veinticuatro de Julio
+es;San Pedro n 72;San Pedro n Setenta y Dos
+es;1 de Abril;Primero de Abril
+es;6 de Abril;Seis de Abril
+es;20 de Julio;Veinte de Julio
+es;16 de Julio n 67;Dieciséis de Julio n Sesenta y Siete
+es;30 de Mayo;Treinta de Mayo
+es;Limoncito 2B;Limoncito Dos B
+es;Indígena Originaria San Rudy 2;Indígena Originaria San Rudy Dos
+es;San Salvador n 38;San Salvador n Treinta y Ocho
+es;Nuevo Amanecer Núcleo 49;Nuevo Amanecer Núcleo Cuarenta y Nueve
+es;Villa Imperial n 69;Villa Imperial N Sesenta y Nueve
+es;1 de Octubre;Primero de Octubre
+es;Suypacha Núcleo 41;Suypacha Núcleo Cuarenta y Uno
+es;Núcleo Cuarenta y Uno;Suypacha Núcleo Cuarenta y Uno
+es;Núcleo 41;Suypacha Núcleo Cuarenta y Uno
+es;Sindicato 16 de Julio Núcleo 68;Sindicato Dieciséis de Julio Núcleo Sesenta y Ocho
+es;Núcleo 31B Entre Rios;Núcleo Treinta y Uno B Entre Ríos
+es;Núcleo 70 Segunda Milla;Núcleo Setenta Segunda Milla
+es;24 Septiembre;Veinticuatro Septiembre
+es;Núcleo 30 Sagrado Corazon;Núcleo Trienta Sagrado Corazón
+es;11 de Mayo;Once de Mayo
+es;Santa Bárbara Núcleo 51;Santa Bárbara Núcleo Cincuenta y Uno
+es;6 de Junio;Seis de Junio
+es;El Limonal Núcleo 32;El Limonal Núcleo Treinta y Dos
+es;Campesina 17 de Diciembre la Conquista;Campesina Diecisiete de Diciembre la Conquista
+es;Campo 2;Campo Dos
+es;2 de Agosto n 66;Dos de Agosto n Sesenta y Seis
+es;Campo 4;Campo Cuatro
+es;Núcleo 76 la Union;Núcleo Setenta y Siete la Union
+es;Tupiza Núcleo 40;Tupiza Núcleo Cuarenta
+es;26 de Agosto;Veintiséis de Agosto
+es;Villa Esperanza Núcleo 50;Villa Esperanza Núcleo Cincuenta
+es;Monte Hermoso Núcleo 43 - 7;Monte Hermoso Núcleo Cuarenta y Tres - Siete
+es;Indígena 15 de Agosto Caruguata;Indígena Quince de Agosto Caruguata
+es;Illimani Núcleo 29;Illimani Núcleo Veintinueve
+es;31 de Julio;Treinta y Uno de Julio
+es;Oriental Núcleo 40;Oriental Núcleo Cuarenta
+es;Sindicato Agrario 27 de Mayo;Sindicato Agrario Veintisiete de Mayo
+es;VIII de Septiembre;Ocho de Septiembre
+es;Nueva Jordania Núcleo 27;Nueva Jordania Núcleo Veintisiete
+es;Murillo Núcleo 44;Pedro Murillo Núcleo Cuarenta y Cuatro
+es;Pedro Murillo Núcleo 44;Pedro Murillo Núcleo Cuarenta y Cuatro
+es;Murillo Núcleo Cuarenta y Cuatro;Pedro Murillo Núcleo Cuarenta y Cuatro
+es;3 de Junio;Tres de Junio
+es;Bolivar II;Bolivar Dos
+es;Núcleo 26 Villa Cotoca;Núcleo Veintiséis Villa Cotoca
+es;Propiedad 5 Estrellas;Propiedad Cinco Estrellas
+es;Campesina 18 de Junio Área 6;Campesina Dieciocho de Junio Área Seis
+es;San Miguel Núcleo 17;San Miguel Núcleo Diecisiete
+es;Campo 10;Campo Diez
+es;Núcleo 68 B Villa Esperanza;Núcleo Sesenta y Ocho B Villa Esperanza
+es;Los Nades Núcleo 22;Los Nades Núcleo Veintidós
+es;Núcleo 3 Otawa;Núcleo Tres Otawa
+es;Campesina Astillero II;Campesina Astillero Dos
+es;Sindicato Agrario 5 de Mayo;Sindicato Agrario Cinco de Mayo
+es;Núcleo 15 Villa Pampa;Núcleo Quince Villa Pampa
+es;3 de Julio;Tres de Julio
+es;Campesina 3 de Mayo;Campesina Tres de Mayo
+es;13 de Junio;Trece de Junio
+es;Asociación 10 de Noviembre la Familia;Asociación Diez de Noviembre la Familia
+es;Nueva Vida Núcleo 14;Nueva Vida Núcleo Catorce
+es;Israel Núcleo 8;Israel Núcleo Ocho
+es;Núcleo 19 Kantuta;Núcleo Diecinueve Kantuta
+es;Villa San Antonio Núcleo 11;Villa San Antonio Núcleo Once
+es;Núcleo 4 Totora;Núcleo Cuatro Totora
+es;15 de Junio;Quince de Junio
+es;Núcleo B9 Villa Nueva;Núcleo B Nueve Villa Nueva
+es;Cerrito 10 de Abril;Cerrito Diez de Abril
+es;Gualberto Villarroel Núcleo 7;Gualberto Villarroel Núcleo Siete
+es;Área 4;Área Cuatro
+es;Villa Arancivia 12;Villa Arancivia Doce
+es;Villa 14 de Septiembre;Villa Catorce de Septiembre
+es;Cotoca 25 de Mayo;Cotoca Veinticinco de Mayo
+es;El Progreso Núcleo 13;El Progreso Núcleo Trece
+es;Núcleo 21 la Merced;Núcleo Veintiuno la Merced
+es;20 de Junio;Veinte de Junio
+es;Núcleo 9 Unión Villa Blanca;Núcleo Nueve Unión Villa Blanca
+es;Villa Sinai Núcleo 18;Villa Sinai Núcleo Dieciocho
+es;Campo 9;Campo Nueve
+es;Sindicato Agrario 5 de Marzo;Sindicato Agrario Cinco de Marzo
+es;17 de Agosto;Diecisiete de Agosto
+es;16 de Marzo;Dieciséis de Marzo
+es;Nucleo 13 Valle Nuevo;Núcleo Trece Valle Nuevo
+es;Núcleo 20 Sebastian Pagador;Núcleo Veinte Sebastian Pagador
+es;Nueva Frontera Núcleo 3;Nueva Frontera Núcleo Tres
+es;Eduardo Avaroa n 28B;Eduardo Avaroa n Veintiocho B
+es;Huracán Núcleo 25;Huracán Núcleo Veinticinco
+es;Núcleo 7 Belén;Núcleo Siete Belén
+es;17 de Abril;Diecisiete de Abril
+es;Propiedad 4 Vientos;Propiedad Cuatro Vientos
+es;Aldea 1;Aldea Uno
+es;Villa Esperanza 2da Fase;Villa Esperanza Segunda Fase
+es;Montaña Alta 2;Montaña Alta Dos
+es;La Peña Brecha 3;La Peña Brecha Tres
+es;18 de Febrero;Dieciocho de Febrero
+es;Platanillo Brecha 7;Platanillo Brecha Siete
+es;Colonia el Dorado Campo 38;Colonia el Dorado Campo Treinta y Ocho
+es;Santa Rosa Brecha 12;Santa Rosa Brecha Doce
+es;Colonia el Dorado Campo 36;Colonia el Dorado Campo Treinta y Seis
+es;Colonia el Dorado Campo 50;Colonia el Dorado Campo Cincuenta
+es;Montaña Alta 1;Montaña Alta Uno
+es;Colonia Swift Curent Campo 111 Rosenheim;Colonia Swift Curent Campo Ciento Once Rosenheim
+es;Colonia el Dorado Campo 37;Colonia el Dorado Campo Treinta y Siete
+es;Campo 95 Menonitas;Campo Noventa y Cinco Menonitas
+es;Rosal 1;Rosal Uno
+es;Colonia el Dorado Campo 53;Colonia el Dorado Campo Cincuenta y Tres
+es;Colonia Riva Palacio Campo 12 Agruenthal;Colonia Riva Palacio Campo Doce Agruenthal
+es;Campo 34;Campo Trienta y Cuatro
+es;Brecha 10;Brecha Diez
+es;Porvenir 85;Porvenir Ochenta y Cinco
+es;Campo 33;Campo Treinta y Tres
+es;2 de Mayo;Dos de Mayo
+es;Campo 35;Campo Treinta y Cinco
+es;Sindicato Agrario 22 de Agosto;Sindicato Agrario Veintidós de Agosto
+es;Rosal Centro 2;Rosal Centro Dos
+es;Colonia Riva Palacio Campo 14;Colonia Riva Palacio Campo Catorce
+es;San Lorenzo Brecha 7;San Lorenzo Brecha Siete
+es;Villa Gracia Brecha 5;Villa Gracia Brecha Cinco
+es;Colonia Swift Curent Campo 108 Edenfeld;Colonia Swift Curent Campo Ciento Ocho Edenfeld
+es;Mamore 2;Mamoré Dos
+es;Colonia Menonita el Dorado Campo 48;Colonia Menonita el Dorado Campo Cuarenta y Ocho
+es;Colonia Dorado Campo 52;Colonia Dorado Campo Cincuenta y Dos
+es;Burapacu;Burapucu
+es;Sindicato Agrario 2 de Septiembre;Sindicato Agrario Dos de Septiembre
+es;Sindicato Agrario 9 de Abril Surutu San Juan;Sindicato Agrario Nueve de Abril Surutu San Juan
+es;Sindicato Agrario 06 de Marzo Guadalupe Palometil;Sindicato Agrario Seis de Marzo Guadalupe Palometil
+es;Sindicato Agrario 6 de Agosto;Sindicato Agrario Seis de Agosto
+es;Sindicato Agrario 25 de Octubre;Sindicato Agrario Veinticinco de Octubre
+es;Sindicato Agrario 6 de Octubre;Sindicato Agrario Seis de Octubre
+es;Colonia Okinawa;Okinawa Uno
+es;Sindicato Agrario 16 de Junio Aguas Calientes Car;Sindicato Agrario Dieciséis de Junio Aguas Calientes Car
+es;Sindicato Agrario 06 de Agosto Monte Rico Caranda;Sindicato Agrario Seis de Agosto Monte Rico Caranda
+es;Sindicato Agrario 25 de Octubre Candelaria;Sindicato Agrario Veinticinco de Octubre Candelaria
+es;Menonita;Nueva Holanda
+es;Kilómetro 5;Kilómetro Cinco
+es;Indígena 3 Pozos Sur;Indígena Tres Pozos Sur
+es;Campesina el 50;Campesina el Cincuenta
+es;Lupiza Ayllu Chullpa TCO Chullpa;Lupiza Ayllu Chullpa Tierra Comunal de Origen Chullpa
+es;Nicalapo 18 de Noviembre;Nicalapo Dieciocho de Noviembre
+es;San Miguel 1;San Miguel Uno
+es;7 II;Siete II
+es;5 de Junio;Cinco de Junio
+es;Esmeralda 1;Esmeralda Uno
+es;30 de Agosto;Treinta de Agosto
+es;7 de Diciembre;Siete de Diciembre
+es;Ratije A.D.;Ratije
+es;Indigena Weenhayek las 3 Moras;Indígena Weenhayek las Tres Moras
+es;Indígena Pananty Asamblea del Pueblo Guaraní;Indígena Pananty APG
+es;Comunidad Villa Marieta;Villa Marieta
+es;Independencia Nuevo;Independencia
+es;Independencia Nueva;Independencia
+es;Las Barreras;La Cruceña
+es;La Estación;Charagua

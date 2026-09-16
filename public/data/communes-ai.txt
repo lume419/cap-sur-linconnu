@@ -1,0 +1,45 @@
+0;-62.9957,18.2533;AI-2640;;White Hill
+0;-63.1494,18.1719;AI-2640;West End;West End Village
+0;-63.0122,18.2446;AI-2640;;Welches Hill
+0;-63.0337,18.2267;AI-2640;;Wattices
+2035;-63.0578,18.2170;AI-2640;The Valley;The Valley
+0;-63.0418,18.2080;AI-2640;The Quarter;The Quarter
+0;-63.0312,18.2490;AI-2640;;The Fountain
+0;-63.0452,18.2004;AI-2640;;The Forest
+0;-63.0224,18.2150;AI-2640;The Farrington;Farrington
+0;-62.9968,18.2335;AI-2640;;The Copse
+0;-63.0461,18.2203;AI-2640;Stoney Ground;Stoney Ground
+0;-63.0878,18.1920;AI-2640;South Hill;South Hill Village
+0;-63.0289,18.2538;AI-2640;;Shoal Bay Village
+274;-63.0900,18.2012;AI-2640;Sandy Ground;Sandy Ground Village
+0;-63.0435,18.2083;AI-2640;;Rey Hill
+0;-63.0440,18.2292;AI-2640;North Side;North Side
+0;-63.0785,18.2054;AI-2640;North Hill;North Hill Village
+0;-62.9955,18.2430;AI-2640;;Mount Fortune
+0;-63.0471,18.2149;AI-2640;;Mahogany Tree
+0;-63.1021,18.1921;AI-2640;;Lower South Hill
+0;-63.0245,18.2148;AI-2640;;Long Path
+0;-63.0598,18.2022;AI-2640;;Long Ground
+0;-63.1288,18.1876;AI-2640;South Hill;Long Bay Village
+0;-63.1266,18.1838;AI-2640;;Long Bay
+0;-63.0378,18.2326;AI-2640;;Little Dix
+0;-62.9892,18.2520;AI-2640;;Junks Hole
+0;-63.0102,18.2560;AI-2640;Island Harbour;Island Harbour
+0;-63.0665,18.1994;AI-2640;George Hill;George Hill
+0;-63.0667,18.2167;AI-2640;;Ebenezer
+671;-63.0000,18.2333;AI-2640;East End;East End Village
+0;-63.0260,18.2350;AI-2640;;Deep Waters
+0;-63.0639,18.2172;AI-2640;;Crocus Hill
+0;-63.0150,18.2348;AI-2640;;Chalvilles
+0;-63.0421,18.2217;AI-2640;;Cauls Bottom
+0;-63.0196,18.2336;AI-2640;;Cannifist
+0;-63.1010,18.1848;AI-2640;;Bungalows
+942;-63.0938,18.1765;AI-2640;Blowing Point;Blowing Point Village
+0;-63.0043,18.2257;AI-2640;;Betty Hill
+0;-63.1000,18.2000;AI-2640;;Bethel
+636;-63.0133,18.2210;AI-2640;Sandy Hill;Sandy Hill
+0;-62.9892,18.2617;AI-2640;;Captains Ridge
+0;-63.0494,18.2360;AI-2640;;Brimegin
+0;-63.0591,18.2273;AI-2640;;Cedar Village
+0;-63.1020,18.1719;AI-2640;;Cul-de-Sac
+0;-63.0329,18.2515;AI-2640;;Shoal Bay East

@@ -1,0 +1,157 @@
+ru;Вест-Энд;West End
+ar;ويست إند;West End
+hi;वेस्ट एंड;West End
+ja;ウェストエンド;West End
+en;Spring City;Spring City Settlement
+en;Spanish Wells Settlement;Spanish Wells
+ru;Испанские колодцы;Spanish Wells
+ar;آبار إسبانية;Spanish Wells
+es;Pozos Españoles;Spanish Wells
+fr;Puits Espagnols;Spanish Wells
+hi;स्पैनिश कुएं;Spanish Wells
+de;Spanische Brunnen;Spanish Wells
+ja;スパニッシュウェルズ;Spanish Wells
+pt;Poços Espanhóis;Spanish Wells
+ru;Сан-Андрос;San Andros
+ar;سان أندروس;San Andros
+hi;सैन एंड्रोस;San Andros
+ja;サンアンドロス;San Andros
+ru;Порт-Нельсон;Port Nelson
+ar;ميناء نيلسون;Port Nelson
+es;Puerto Nelson;Port Nelson
+hi;पोर्ट नेल्सन;Port Nelson
+ja;ポートネルソン;Port Nelson
+pt;Porto Nelson;Port Nelson
+en;Nicholl’s Town;Nicholls Town
+zh;尼科尔斯镇;Nicholls Town
+ja;ニコルズ・タウン;Nicholls Town
+en;New Bight Settlement;New Bight
+es;Nasáu;Nassau
+ja;ナッソー;Nassau
+ko;나소;Nassau
+ru;Нассау;Nassau
+ar;ناساو;Nassau
+ht;Naso;Nassau
+zh;拿骚;Nassau
+ko;나사우;Nassau
+ru;Мэтью-Таун;Matthew Town
+ar;مدينة ماثيو;Matthew Town
+es;Pueblo Matthew;Matthew Town
+fr;Ville de Matthew;Matthew Town
+hi;मैथ्यु टाउन;Matthew Town
+ja;マシュータウン;Matthew Town
+pt;Cidade de Matthew;Matthew Town
+en;Mastic Point Settlement;Mastic Point
+ru;Мейсонс-Бей;Masons Bay
+ar;خليج ميسونز;Masons Bay
+es;Bahía Masons;Masons Bay
+fr;Baie de Masons;Masons Bay
+hi;मेसन्स बे;Masons Bay
+ja;メイソンズベイ;Masons Bay
+pt;Baía de Masons;Masons Bay
+ru;Марш-Харбор;Marsh Harbour
+ar;ميناء مارش;Marsh Harbour
+es;Puerto Marsh;Marsh Harbour
+hi;मार्श हार्बर;Marsh Harbour
+ja;マーシュハーバー;Marsh Harbour
+pt;Porto Marsh;Marsh Harbour
+en;Man of War Cay;Man of War Cay Settlement
+en;Mangrove Cay Settlement;Mangrove Cay
+en;Lowe Sound;Lowe Sound Settlement
+ru;Хай-Рок;High Rock
+ar;صخرة عالية;High Rock
+es;Roca Alta;High Rock
+fr;Rocher Haut;High Rock
+hi;हाई रॉक;High Rock
+ja;ハイロック;High Rock
+pt;Rocha Alta;High Rock
+ru;Хард-Барджейн;Hard Bargain
+ar;صفقة صعبة;Hard Bargain
+hi;हार्ड बार्गेन;Hard Bargain
+ja;ハードバーゲン;Hard Bargain
+en;Guano Cay;Great Guana Cay
+en;Governor's Harbour;Governor’s Harbour
+ru;Гавань Губернатора;Governor’s Harbour
+ar;ميناء الحاكم;Governor’s Harbour
+es;Puerto del Gobernador;Governor’s Harbour
+fr;Port du Gouverneur;Governor’s Harbour
+hi;राज्यपाल का बंदरगाह;Governor’s Harbour
+de;Governor's Harbour;Governor’s Harbour
+ja;ガバナーズハーバー;Governor’s Harbour
+pt;Porto do Governador;Governor’s Harbour
+ru;Джордж-Таун;George Town
+ar;مدينة جورج;George Town
+es;Pueblo George;George Town
+fr;Ville de George;George Town
+hi;जॉर्ज टाउन;George Town
+ja;ジョージタウン;George Town
+pt;Cidade de George;George Town
+ru;Фрипорт;Freeport
+ar;ميناء حر;Freeport
+es;Puerto Libre;Freeport
+hi;फ्रीपोर्ट;Freeport
+ja;フリーポート;Freeport
+pt;Porto Franco;Freeport
+ru;Дункан-Таун;Duncan Town
+ar;مدينة دنكان;Duncan Town
+es;Pueblo Duncan;Duncan Town
+fr;Ville de Duncan;Duncan Town
+hi;डंकन टाउन;Duncan Town
+ja;ダンカンタウン;Duncan Town
+pt;Cidade de Duncan;Duncan Town
+en;Deadman's Cay Settlement;Deadman's Cay
+ja;コンゴ・タウン;Congo Town
+en;Conch Sound;Conch Sound Settlement
+ru;Полковник-Хилл;Colonel Hill
+ar;تل العقيد;Colonel Hill
+es;Cerro del Coronel;Colonel Hill
+fr;Colline du Colonel;Colonel Hill
+hi;कर्नल हिल;Colonel Hill
+ja;コロネルヒル;Colonel Hill
+pt;Colina do Coronel;Colonel Hill
+ru;Кокберн-Таун;Cockburn Town
+ar;مدينة كوكبرن;Cockburn Town
+es;Pueblo Cockburn;Cockburn Town
+fr;Ville de Cockburn;Cockburn Town
+hi;कॉकबर्न टाउन;Cockburn Town
+ja;コックバーンタウン;Cockburn Town
+pt;Cidade de Cockburn;Cockburn Town
+ru;Кларенс-Таун;Clarence Town
+ar;مدينة كلارنس;Clarence Town
+es;Pueblo Clarence;Clarence Town
+fr;Ville de Clarence;Clarence Town
+hi;क्लेरेंस टाउन;Clarence Town
+ja;クラレンスタウン;Clarence Town
+pt;Cidade de Clarence;Clarence Town
+ru;Черная точка;Black Point
+ar;النقطة السوداء;Black Point
+es;Punto Negro;Black Point
+fr;Point Noir;Black Point
+hi;ब्लैक पॉइंट;Black Point
+ja;ブラックポイント;Black Point
+pt;Ponto Negro;Black Point
+ru;Артурс-Таун;Arthur’s Town
+ar;مدينة آرثر;Arthur’s Town
+es;Pueblo Arthur;Arthur’s Town
+fr;Ville d'Arthur;Arthur’s Town
+hi;आर्थर टाउन;Arthur’s Town
+de;Arthur's Town;Arthur’s Town
+ja;アーサーズタウン;Arthur’s Town
+pt;Cidade de Arthur;Arthur’s Town
+ru;Элис-Таун;Alice Town
+ar;مدينة أليس;Alice Town
+es;Pueblo Alice;Alice Town
+fr;Ville d'Alice;Alice Town
+hi;ऐलिस टाउन;Alice Town
+ja;アリスタウン;Alice Town
+pt;Cidade de Alice;Alice Town
+en;Abraham's Bay;Abraham’s Bay
+ru;Авраамова бухта;Abraham’s Bay
+ar;خليج إبراهيم;Abraham’s Bay
+es;Bahía de Abraham;Abraham’s Bay
+fr;Baie d'Abraham;Abraham’s Bay
+hi;अब्राहम की खाड़ी;Abraham’s Bay
+de;Abraham's Bay;Abraham’s Bay
+ja;アブラハムズベイ;Abraham’s Bay
+pt;Baía de Abraham;Abraham’s Bay
+ja;トレジャー・カイ;Treasure Cay
