@@ -1,0 +1,1297 @@
+en;Zini reception centre;Zini
+en;Yuabra;Yiwoabra
+de;Yeji;Yegyi
+en;Yeji;Yegyi
+ak;Yɛgyi;Yegyi
+fr;Yeji;Yegyi
+es;Yeji;Yegyi
+nl;Yeji;Yegyi
+en;Yantoakrom;Yaw Owusukurom
+en;Baganjua;Yala
+en;Yarku;Nyaako
+en;Yahoman;Yaawoman
+en;Yadomi;Yawdome
+en;Yaw Bew;Yabiw
+en;Ya Biw;Yabiw
+en;Woroworoso;Roroso Number Two
+en;Roroso Number 2;Roroso Number Two
+en;Womasi;Wamase
+en;Weh;Woe
+en;Wiawso;Wioso
+en;Wiamoase;Wiamuasi
+nl;Wiamoase;Wiamuasi
+en;Wiaga;Wiaga-Yisobsa
+ak;Wiaga;Wiaga-Yisobsa
+nl;Wiaga;Wiaga-Yisobsa
+de;Wenchi;Wankyi
+it;Wenchi;Wankyi
+fr;Wenchi;Wankyi
+es;Wenchi;Wankyi
+ha;Wenchi;Wankyi
+nl;Wenchi;Wankyi
+en;Weidza;Weija
+ee;Ʋegbe Kpalime;Wegbe
+tw;Wegbe Kpalime;Wegbe
+en;Wegbe Kpalime;Wegbe
+nl;Wegbe Kpalime;Wegbe
+en;Wasedumuma;Amanokrom
+en;Wamanafo;Wamanfo
+nl;Wamanafo;Wamanfo
+tw;Walewale mu nsem;Walewale
+en;Adwuampong;Twindurasi
+en;Twedie;Twedee
+en;Tuobodom;Tuobodum
+ak;Tuobodom;Tuobodum
+nl;Tuobodom;Tuobodum
+es;Tuobodom;Tuobodum
+en;Trebuomu;Trebuom
+en;Trebomu;Trebuom
+en;Tomento;Tumentu
+en;Tiwobebi;Tebaabi Plantation
+en;Thomaskrom;Thomaskurom
+en;Teteogbu;Tetegbu
+ar;تيما;Tema
+en;Telania;Telenia
+ak;Telania;Telenia
+nl;Telania;Telenia
+ak;Tekyimantia;Techimantia
+en;Techiman-Mbreweja Apaisi;Takyiman Mmerewagya
+en;Techiman;Takyiman
+ak;Takwa;Tarkwa
+en;Tanfiano Number 1;Tanfiano Number One
+en;Tananaw;Tanom
+en;Takoradze;Takoradi
+en;Tainano Number 2;Tainano Number Two
+en;Tabrakuso;Atabrakoso
+en;Tabani;Tibanu
+en;Soaduro;Swedru
+de;Agona Swedru;Swedru
+en;Agona Swedru;Swedru
+fr;Agona Swedru;Swedru
+es;Agona Swedru;Swedru
+nl;Agona Swedru;Swedru
+en;Surawno;Sorono
+en;Sumniboma;Sumnaboma
+nl;Sumniboma;Sumnaboma
+en;Eriakrom;Sumahu
+en;Sukwai;Sokwae
+en;Subriso;Subenso
+en;Subima;Subinma
+en;Suami;Suame
+ee;Sogakɔƒe;Sogakofe
+de;Sogakope;Sogakofe
+pt;Sogakope;Sogakofe
+en;Sogakope;Sogakofe
+it;Sogakope;Sogakofe
+fr;Sogakope;Sogakofe
+nl;Sogakope;Sogakofe
+en;Temponmu;Sereso
+en;Sinamou;Seremowu
+en;Sombo;Sihiduori
+en;Siena;Siana
+de;Sirigu;Sherigu
+en;Anyanzinli;Sanzule
+en;Mosonso Number 1;Mosonso Number One
+fr;Sékondi;Sekondi-Takoradi
+ar;سيكوندي تاكورادي;Sekondi-Takoradi
+en;Sehwi;Sefwi
+en;Sayerano;Sanyerano
+en;Sawuboi;Sawubele
+en;Samsonkura;Asasebomebosia
+en;Sanwa;Samba
+en;Samakro;Esuepiri
+en;Princess Town;Prusi
+en;Prince’s Town;Prusi
+en;Pretsia;Pertsea
+en;Pretsea;Pertsea
+ar;بريستية;Prestea
+ar;برامبرام;Prampram
+tw;Prampram kuro mu nsem;Prampram
+en;Pramiso;Pramso
+en;Podoe;Pore
+nl;Podoe;Pore
+en;Popremam;Boblama
+en;Ponkokrom;Amehavi
+en;Pokukurom Number 1;Pokukurom Number One
+en;Pobiman;Pobi-Asaawa
+en;Pewdie;Pewodee
+en;Pepease;Pepiasi
+nl;Pepease;Pepiasi
+en;Pensanum;Pensanom
+en;Paninammisa;Peniamisa
+en;Peinkrom;Panyinkrom
+en;Mpesaso Two;Mpasaso Number Two
+en;Pankronu;Pankrono
+en;Kpala;Pala
+en;Pafu;Pafo
+en;Owulabu;Atorman
+en;Owhim;Ohwim
+en;Otuntuma;Atuntuma
+en;Otuaplem;Otuaple
+en;Onyinanufuaro;Nyinanufu
+en;Onwe Number Two;Onwi
+en;Onwe Number 2;Onwi
+en;Old Ningo;Old Nigo
+nl;Old Ningo;Old Nigo
+en;Okirakrom;Krakrom
+en;Ohiancheda;Kuntokurom
+de;Oduponkpehe;Kasoa
+ak;Oduponkpehe;Kasoa
+nl;Oduponkpehe;Kasoa
+es;Oduponkpehe;Kasoa
+en;Odenki;Odenke
+ak;Akyem Oda;Akim Oda
+de;Obuasi;Obuase
+en;Obuasi;Obuase
+en;Obokwashi;Obokwasi
+en;New Obuase;New Oboase
+en;Obakrowa;Obakrowe
+en;Nyinwonsu;Nyinawonsu
+en;Nyensi;Nyanzini
+en;Nyankumaso;Nyankomaso
+en;Nyankumusi;Nyankumasi
+en;Nyanchremasi;Nyankye Remasi
+en;Nyamebekyere Number 1;Nyamebekyere Number One
+en;Nyamibechire;Nyamebekyere
+en;Nyamiadom;Nyameadom Bredi
+en;Ntem;Ntom
+en;Ntobroso;Ntoboroso
+en;Ntwuam;Ntoam
+en;Nsuta;Denyasefokurom
+en;Nsuta;Sekyere Nsuta
+en;Nsuhiem;Asuohyiame
+en;Nsuadei;Asuadei
+es;Nsuatre;Nsoatre
+en;Nsawkaw;Nsoko
+ha;Nsawkaw;Nsoko
+nl;Nsawkaw;Nsoko
+en;Nsakina;Nsakyina
+en;Esakaw;Asuakor
+en;Nsajwiso;Nsadweso
+en;Nkwanta;Nkwanta Number One
+en;Nkwanta-Kese;Nkwanta
+en;Nkrunwia;Nkronua Atifi
+en;Ngulofolo;Nkroful
+en;Nkran;Nkrang
+en;Nkrang;Nkran
+en;Nkawie;Nkawiekuma
+nl;Nkawie;Nkawiekuma
+en;Ngalekyi;Ngalechie
+en;Nerekazo;Ngelekazo
+en;Mutrakni;Modrokenli
+en;Mitrukni;Modrokenli
+en;Mpuasee;Mpoase
+en;Mposo;Awaduwankwanta
+en;Amgbenu;Ampaim
+en;Mpenin;Mpehin
+en;Kewimaniampong;Kwame Ne Ampa
+en;Mpatasie;Mpatasee
+en;Mowire;Mmowere
+en;Moseaso;Monseeso
+en;Meredane;Miradani
+en;Minta;Mintaso
+en;Metamano;Metsemano
+en;Meninasi;Mmensinase
+en;Monsonso Number 2;Monsonso Number Two
+en;Mmedoma;Meduma
+en;Mertian;Metinga
+en;Manso;Maaso
+ar;مانكسيم;Mankesim
+tw;Mankessim;Mankesim
+en;Mankessim;Mankesim
+ak;Mankessim;Mankesim
+fr;Mankessim;Mankesim
+nl;Mankessim;Mankesim
+es;Mankessim;Mankesim
+en;Mamponso;Mammposo
+en;Mampong;Mampon
+en;Mampehia;Maampehia
+en;Mabeduam;Babaduam
+en;Kwanwuma;Kwanwoma
+en;Kwamu;Kwamo
+en;Kwamfukrom;Yaw Mafokrom
+en;Kwakukrom;Kwekukrom
+en;Akurowa;Kodeekuma
+en;Kwaben;Kwaban
+en;Kusiasi;Kwabenadwomokurom
+en;Kuronum;Kronom
+en;Kurawnkaw;Kronko Number Two
+en;Kronko Number 2;Kronko Number Two
+en;Kunyabeno;Kunyebin
+en;Kuntanase;Kuntanasi
+nl;Kuntanase;Kuntanasi
+en;Kunkunso;Kumkumso
+en;Kumyemua;Kemyemua
+ar;كوماسي;Kumasi
+en;Kubekro;Kobeda
+en;Krokohwe;Kolokowhe
+en;Krofofro;Bereporo
+en;Sekyere Krobo;Krobo
+en;Krakosua;Okraa Akosua
+en;Kpando;Kpandu
+ar;كباندو;Kpandu
+tw;Kpabiya;Kpabia
+ha;Kpabiya;Kpabia
+ak;Kpabiya;Kpabia
+fr;Kpabiya;Kpabia
+en;Kontromfikrom;Kontromfikurom
+en;Kongolimi;Tomayiri
+en;Komfoeku;Komfeku
+en;Kokofrey;Kukoavile
+en;Kojonyamkrom;Kodwommra-Kurom
+en;Kojofusukrom;Fosukrom
+en;Koenimakrom;Koe Nimakurom
+fr;Agbozoumin;Agbosome
+en;Kenyinase Number Two;Kenyase Number Two
+ha;Kenyasi;Kenyase Number Two
+ak;Kenyase;Kenyase Number Two
+nl;Kenyasi;Kenyase Number Two
+en;Kenyinase Number One;Kenyase Number One
+en;Kasi;Kaase
+en;Moiri;Kapachuhu
+en;Kaboku;Kabaku
+en;Ekebaku;Kabaku
+en;Jwinasi;Edwenase
+en;Juaben;Dwaben
+en;Gyamako;Jumako
+en;Gyomo;Jomo
+en;Joma;Dzamai
+en;Dzoma;Dzamai
+en;Kpale;Jinpasi
+en;Jinyasi;Gyenyasi
+en;Jimija;Gyimigya
+en;Jetuakrom;Asimakurom
+en;Gyema;Jema
+en;Gyapa Amamfi;Gyapa
+en;Jantikrom;Buodukrom
+en;Gyama;Abesewa Gyaman
+en;Gyakyi;Amanase
+en;Dwuabo;Jabo
+en;Wiabra;Huntaado
+en;Huniso;Huniiso
+ak;Но;Ho
+en;Hiakwesi;Hiakose
+en;Bodom Buoho;Heman
+en;Sekyere Heman;Hemang
+en;Hemakrom;Adiemmra Number Two
+en;Adiemmra Number 2;Adiemmra Number Two
+en;Awiano;Awiane
+nl;Half Assini;Awiane
+en;Toyiri;Grunyu
+en;Gbegbe;Gbegbeyise
+nl;Gbegbe;Gbegbeyise
+en;Freso;Fure
+en;Fohiakawbaw;Fahiakobo
+en;Fenaso Number 2;Fenaso Number Two
+en;Fiankuma;Fiankoma
+en;Fia;Nyamebekyere
+en;Esumafo;Esunafo
+en;Asuadee;Esuadai
+en;Asunafoo;Asikasu
+en;Esaaman;Esiamang
+en;Eshwenyami;Ehwenyame
+en;Esem;Essem
+ha;Enchi;Enkye
+ak;Enkyi;Enkye
+nl;Enchi;Enkye
+en;Elabankata;Alabanketa
+ak;Edina;Elmina
+ar;ألمينا;Elmina
+en;Effutu;Efutu
+nl;Effutu;Efutu
+en;Efuenta;Efuanta
+en;Efiena;Asankran Efiena
+en;Efia;Effia
+en;Dumtu;Edumtu
+en;Odumase;Edumasi
+en;Edum;Akuapem
+en;Aluakru;Eluokrom
+en;Edubiaso;Adubiase
+en;Kyease;Echiasi
+en;Eburaso;Aburaso
+en;Ebunuso;Bunso
+en;Ebo Number 2;Ebo Number Two
+en;Ebo Number One;Aboo
+en;Dewurapong;Dawurampon
+de;Dunkwa-on-Offin;Dunkwa
+en;Dunkwa-on-Offin;Dunkwa
+nl;Dunkwa-on-Offin;Dunkwa
+es;Dunkwa-on-Offin;Dunkwa
+en;Supon Dunkwa;Dunkwa
+en;Dumama;Domama Wasa
+en;Duadaso Number 2;Duadaso Number Two
+en;Kwasi Kwaa;Duachimiase
+en;Bayeyiri;Doung
+en;Dormaa-Ahenkro;Domaa-Ahenkro
+en;Dompoasi;Dompoase
+en;Dompem Number One;Dompim
+en;Dominibo Number 1;Dominibo Number One
+en;Dome Kaniago;Kaniago
+en;Domeabra;Domiabra
+nl;Domeabra;Domiabra
+en;Domiabra;Domeabra
+en;Dom;Dome
+en;Diawuoso;Diewieso
+en;Datan;Okrakurom
+ha;Dadieso;Dadeeso
+fr;Dadieso;Dadeeso
+en;Dadease;Dadiasi
+nl;Dadease;Dadiasi
+en;Daboya;Daboa
+en;Da;Asankran Oda
+en;Cocoa Town;Elubo
+en;Chiehiweri;Atakrom
+en;Bedukrom Chiamikrom;Nyaminkum
+en;Chcechuamwa;Twetweamoah
+en;Chavun;Kyiavani
+en;Mireku;Aboabo Number Four
+en;Buku;Boko
+en;Bura;Buda
+en;Brofoyedru;Brofoyeduru
+en;Brofoyedru;Bofoado
+en;Brisaukrom;Nkyensedaho
+en;Bremang;Breman
+en;Botodwina;Botawjwina
+en;Bososo;Bosuso
+nl;Bososo;Bosuso
+en;Bosomase;Bosumasi
+en;Bonsua Number 2;Bonsua Number Two
+en;Bonkwaso;Bonkwaso Number One
+en;Bonkwaso Number 1;Bonkwaso Number One
+en;Bonne;Boni
+en;Bokrom;Boekrom
+en;Bokakre;Bokakole
+en;Bokale;Bokakole
+en;Boinzan;Boizan
+en;Ediakrom;Bohinikrom
+en;Bogdaa;Kamfensi
+en;Bodwesango;Bodweseanwo
+ha;Bodwesango;Bodweseanwo
+nl;Bodwesango;Bodweseanwo
+en;Bodi;Boadi
+en;Bisiasi;Fenaso Number One
+en;Fenaso Number 1;Fenaso Number One
+en;Bisakrom Jedua;Gyedua
+en;Bimbilla;Bimbila
+ha;Bimbilla;Bimbila
+nl;Bimbilla;Bimbila
+es;Bimbilla;Bimbila
+en;Biemso Number 2;Biemso Number Two
+en;Biadan;Biadani
+nl;Biadan;Biadani
+en;Bewere;Bewele
+en;Betinku;Betinko
+en;Betinasi;Betenase
+en;Kwesiase;Besiasi
+en;Okumayemfuohu;Bepokawkaw
+en;Bepawso;Bisiasi
+en;Benchema-Nkatiaso;Nkatieso
+en;Bekwai;Wassa Bekwae
+en;Beku;Baku
+en;Chinkado;Begoroase
+en;Bare Kese;Barekese
+en;Baano Number 1;Baano Number One
+en;Banahenekrom;Kyerenkum
+en;Bakanta;Ekonu
+en;Badowa Number 1;Badowa Number One
+en;Bababra;Koforidua
+en;Ayensua Fufuo;Ayensuafufuo
+en;Ayaso;Ayasu
+en;Tutuma;Atuntuma
+en;Atuna;Nkyekyemamu
+en;Atrakaso;Adrekezo
+en;Atrekeso;Adrekezo
+en;Cape Three Points;Atinkyin
+en;Ataraso;Adelazo
+en;Adaraso;Adelazo
+en;Atabireso;Nyamebekyere
+en;Asuogya;Asuoja
+en;Asuminya;Asumenya
+en;Asutsuare;Asuchuali
+nl;Asutsuare;Asuchuali
+en;Asuboswaso;Asobasuazo
+en;Asofa;Asofaa
+en;Asinua;Asennua
+en;Asikuma;Esikuma
+en;Ashiem;Ashiam
+en;Ashaleanan;Ashaliaman
+pt;Ashiaman;Ashaiman
+it;Ashiaman;Ashaiman
+ar;آشيامان;Ashaiman
+nl;Ashiaman;Ashaiman
+en;Asempaneye;Nyiniso Number Three
+en;Nyiniso Number 3;Nyiniso Number Three
+en;Asooko;Asawku
+en;Asawinso;Sefwi-Asanwenso
+en;Asanwinso;Asawenso
+en;Esumankrom;Asankrom
+en;Asafo;Sefwi Asafo
+en;Aposika;Apewusika
+en;Apitiso Number 2;Apitiso Number Two
+en;Apemenyim;Apimenim
+en;Apiajeikrom;Apeagyeikurom
+en;Apiadu;Apeadu
+en;Apenemedi;Apenimadi
+en;Ayinasuaso;Anyinasuso
+en;Anyinasa;Anyinaso
+en;Enyinaberem;Enyinabirmu
+en;Anyinatiase;Anyatiasi
+en;Anwiesu;Nyiniso Number One
+en;Nyiniso Number 1;Nyiniso Number One
+en;Anwhiem;Anwim
+en;Anwiawa;Anwianwia
+en;Anweanu;Anwiam
+en;Anwiafutu;Anhweafutu
+en;Antobam;Anntobam
+en;Antadu;Anteado
+en;Anteamua;Ansiemua
+en;Anokokrom;Akaakrom
+en;Anokyi;Anochi
+nl;Ankasi;Ankaase
+en;Anniammoa;Aniamoa
+en;Animoo;Aniamoa
+en;Ango;Angu
+en;Anansu Number 1;Anansu Number One
+en;Anchenin;Ankyernyin
+en;Anama;Tenkoran
+en;Anaji;Anagyi
+nl;Anaji;Anagyi
+en;Ampunyanso;Amponyase Nkwanta
+de;Ampenyi;Ampeni
+en;Ampabami;Ampabame
+en;Amomang;Amuaman
+en;Amekomfokrom;Amakurom
+en;Amanten;Amantin
+nl;Amanten;Amantin
+en;New Amanful;Amanful
+en;Amamfor;Amanful
+en;Amanfro;Amanfrom
+en;Amamum;Amamon
+en;Alumkazo;Alemikezo
+en;Alapoke;Aloakpoke
+en;Akodaa;Esile
+en;Akwesiasi II;Akwesiasi Two
+en;Akwesiasi One;Akwasiase
+en;Akwadum;Nkwadumu
+en;Akusuno;Akosuno
+en;Wasa Ekuropon;Wassa Akropon
+en;Akropong;Akropon
+en;Akorokyere;Akrokerri
+en;Akrofuom;Old Akrofuom
+en;Akuroforom;Old Akrofuom
+en;Akuroforom;Akrofuom
+en;Akotuaku;Koteaku
+en;Akosumu;Akosomo
+en;Akaresim;Akasanimu
+en;Akantansu;Akwaku
+en;Akakankro;Ankaakur
+en;Ajumako;Edwumako
+en;Adwoam Number 1;Adwoam Number One
+en;Ajinyede;Mmofra Mfa Adwen
+en;Aiyinabrim;Anyinabrim
+en;Anyinabirim;Anyinabrim
+en;Ahwiren;Ehuren
+en;Abireso;Ahireso
+en;Ahinsan;Ahensan
+en;Old Town;Ahemakrom
+en;Ahiem;Ashiem
+en;Eshiem;Ashiem
+en;Alata Number 1;Alata Number One
+en;Afrebo;Avrebo
+en;Afrancho;Afrantwo
+nl;Afrancho;Afrantwo
+en;Afiefiso;Afiefso
+en;Afamanso;Afamanaso
+en;Adusa;Adusu
+en;Hwe Nyame;Adagya
+en;Oda;Adori
+en;Bekwai;Adobewora
+en;Adina;Andonoe
+en;Aduanin;Andonoe
+en;Adiembra;Adeemmra
+en;Adimanu;Adanse
+en;Adamso;Adamso Number Two
+en;Adamso Number 2;Adamso Number Two
+en;Adamanso;Addamanso
+en;Atwereboannda;Aehuneboana
+en;Achiremade;Akyeremade
+en;Achim;Ahyenlezo
+en;Akyinim;Ahyenlezo
+en;Achikrom;Mprakyire
+en;Akyease;Achiasi
+en;Achiaman;Atsiaman
+nl;Achiaman;Atsiaman
+en;Acherensua;Akyerensua
+nl;Acherensua;Akyerensua
+en;Achempim;Akyempim
+pt;Acra;Accra
+tw;Nkran;Accra
+ar;أكرا;Accra
+ak;Nkran;Accra
+en;Abrikaso;Abibireso
+en;Abrekuma;Ablekuma
+en;Aboabo Duana;Aboabo Number Three
+en;Aduana;Aboabo Number Three
+en;Aboabo Number 3;Aboabo Number Three
+en;Kuromokurom;Aboabo Number One
+en;Kuasi;Aboabo Number Two
+en;Abejum;Abedwum
+en;Aboodenkuro;Abuodeikro
+en;Abanyasu;Mile Fourteen
+en;Mpeinyasa;Mpanyinansa
+en;Akutuabo;Akutuebo
+en;Amanmewhe;Isakuro
+en;Yakrom;Yawkurom
+ak;Sehwi Akontombra;Sefwi Akontombra
+nl;Awoshie;Awoshi
+es;Awoshie;Awoshi
+en;Obusumasi;Kurabi
+en;Oshija;Kweku Panfo
+en;Laabi;Larbi
+en;Atireso Number Five;Larbi
+en;Atireso Number 5;Larbi
+en;Papase Number 1;Papase Number One
+en;Beretum;Bletum
+en;Ademan;Adaman
+en;New Teteogbu;New Tetegbu
+en;Dzauman;Jaman
+en;Janman;Jaman
+en;Abehinasi;Abehenease
+en;Agbon Number 1;Agbon Number One
+en;Agbon;Agbon Number One
+en;Malam;Malam Quarry
+en;Sotuom;Sowutuom
+en;Domiabra;Edelesuazo
+en;Mbirinyina;Amukan
+en;Nkubim;Nkubem
+en;Anhwuiami;Ahunyame
+en;Dadeeso Number 2;Dadeeso Number Two
+en;Abenabena;Fawuanyiwhe
+en;Bayerebon Number 2;Bayerebon Number Two
+en;Bayerebon Number 1;Bayerebon Number One
+en;Esienchiem;Bayerebon Number One
+en;Samangso;Bukasa
+en;Bayerebon Number 3;Bayerebon Number Three
+en;Mawhu;Domeabra
+en;Bayerebon Number 4;Bayerebon Number Four
+en;Bayerebon Number 5;Bayerebon Number Five
+en;Bayerebon Number 6;Bayerebon Number Six
+en;Bayerebon Number 7;Bayerebon Number Seven
+en;Ajenasi;Edwenase
+en;Jajatreso;Gyagyatreso
+en;Kwanchiabo;Kwankyiabo
+en;Esienchiem;Esienkyiem
+en;Amomang;Amoaman
+en;Mpeasem;Mepease
+en;Kwanware;Kawkawtiasua
+en;Kwasimanukrom;Nchinchimso
+en;Akonfure;Akomfori
+en;Detiem;Dotiem
+en;Achukong;Akyikon
+en;Ayisiso;Awisesu
+en;Tadieso;Otaapanyinkurom
+en;Duhinidaso;Krakyekurom
+en;Kwamensa;Nagore
+en;Nyamibechere;Nyamebekyere
+en;Edupri;Adupiri
+en;Debrikuso;Akomeakurom
+en;Bakomaba;Baakonniaba
+en;Agogoso;Kwako-Kurukurom
+en;Kyekyemso Number 1;Kyekyemso Number One
+en;Boatinkrom;Boatenkurom
+en;Botirampa;Botireampa
+en;Kwadaiso;Mpanwe
+en;Titikaasu;Bantena
+en;Edumasa;Adumasa
+en;Yawampekrom;Nyameye Adom
+en;Nyamiadom;Nyameye Adom
+en;Batawu;Nsuna
+en;Nabajorom;Chappa
+en;Jahayire;Kpanayire
+en;Ndayiri;Sombayiri
+en;Kperiyiri;Tanyun
+en;Teme;Meka
+en;Nyinbali;Nyimbale
+en;Kunbiasi;Konbiahe
+en;Daduori;Kunzokola
+en;Balirigber;Piliniri
+en;Goni;Koni
+en;Bayonyiri;Ulogosu
+en;Ekpunza;Buakwaw
+en;Keiwabo;Keyiwabo
+en;Nyamebekyere;Andokrom
+en;Kramokrom;Biamkrom
+en;Apiakrom Number 2;Apiakrom Number Two
+en;Apiakrom Number 1;Apiakrom Number One
+en;Abotarye Number 1;Abotarye Number One
+en;Asuaakro Number 1;Asuaakro Number One
+en;Bisiasi;Besease
+en;Nkotoraso;Nkotoroso
+en;Sangri;Senkore
+en;Mpeasam;Mempeasem
+en;Binikwakukroni;Benekwakukurom
+en;Ahugunu;Ahogono
+en;Bredi Number 2;Bredi Number Two
+en;Bredi Number One;Kwabenatuakurom
+en;Bredi Number 1;Kwabenatuakurom
+en;Bredi Number 1;Bredi Number One
+en;Esiehu;Sieho
+en;Aframkrom;Biaasuontem
+en;Adienehin;Adinkyi
+en;Kasapenso;Akwasiatuakurom
+en;Nkasapinso;Akwasiatuakurom
+en;Moshiekurom;Dormaa Agogo
+en;Boakokurom;Betinko
+en;Awona Number 1;Awona Number One
+en;Awona Number 2;Awona Number Two
+en;Brofuyedu;Borofoyeduru
+en;Dababiso;Dababi
+en;Asunsuanafo;Asunso Number Two
+en;Asunso Number 2;Asunso Number Two
+en;Ajimankrom;Agyemangkurom
+en;Binikrom;Benekurom
+en;Chemikrom;Kyereemekurom
+en;Degisua;Kyereemekurom
+en;Besiasi;Besease
+en;Ntabene;Atabene
+en;Mpekrom;Apenkuro
+en;Jweng;Dwen
+en;Koradaso;Twum-Krom-Koradaso
+en;Jwahu;Dwaho
+en;Jein;Dwen
+en;Akuntanso;Subinkurom
+en;Supire;Kwamekumikurom
+en;Adiako Number 1;Adiako Number One
+en;Janbuse;Jambusi
+en;Kwajoaba;Kodwoaba
+en;Beposo;Amoakrom
+en;Kojoponikrom;Esikuma
+en;Keniago;Kaniago
+en;Mmoframfaadwene Number 2;Mmoframfaadwene Number Two
+en;Mmoframfaadwene Number 1;Mmoframfaadwene Number One
+en;Senchem;Asenkyem
+en;Dannyame Number 1;Dannyame Number One
+en;Benumnsuo;Benimso
+en;Busuchi;Adokurom
+en;Dannyame Number 3;Dannyame Number Three
+en;Danyamikese;Dannyame Number Three
+en;Miyeden;Meyeden
+en;Odumasi;Adopekurom
+en;Dannyame Number 2;Dannyame Number Two
+en;Fifikrom;Ofirikurom
+en;Mofranfajwin;Oforikurom
+en;Kasadufri;Kasayeadifuoe
+en;Nkrommakurom Number 1;Nkrommakurom Number One
+en;Nyamebekyere Number 2;Nyamebekyere Number Two
+en;Mradani;Mmeredane
+en;Obookurom Number 1;Obookurom Number One
+en;Boagya Number 2;Boagya Number Two
+en;Obookuron Number 2;Obookuron Number Two
+en;Hiawhete;Hiahwete
+en;Dienyamibeka;Kofinkrumankwania
+en;Nsakasu Number 1;Nsakasu Number One
+en;Nsakasu Number 2;Nsakasu Number Two
+en;Adupri;Dupri
+en;Domaa Number 1;Domaa Number One
+en;Doma;Domaa Number One
+en;Doma;Domaa Number Two
+en;Kwesiwurokrom;Kwasiwurokurom
+en;Bonkro;Bomkurom
+en;Mfawaninto;Fawanintu
+en;Bonkronu;Bomkurom
+en;Brentuakrom;Kasi
+en;Domaa Number 3;Domaa Number Three
+en;Apenimadi;Apanimade
+en;Camp Number 11;Camp Number Eleven
+en;Sikanyasem;Sikanyeasem
+en;Asanyanakrom;Asemanyinakrom
+en;Atasi;Antwiegyeikrom
+en;Tipukrom;Tipokrom
+en;Asummra;Asubura
+en;Mensakrom;Manukrom
+en;Anibirikrom Number 2;Anibirikrom Number Two
+en;Anibirikrom Number 1;Anibirikrom Number One
+en;Camp Number 12;Camp Number Twelve
+en;Akakrom;Adwowafuokrom
+en;Kobnajabekrom;Kwesi Addaekrom
+en;Santasi;Santase
+en;Adiemra;Adeembra
+en;Kwakrom;Kwawkrom
+en;Kantankrobo Number 2;Kantankrobo Number Two
+en;Kantankrobo Number 1;Kantankrobo Number One
+en;Kantankrobo;Kantankrobo Number One
+en;Tibanti Number 1;Tibanti Number One
+en;Tibanti Number 2;Tibanti Number Two
+en;Kanyanko;Kanianko
+en;Apimkro;Seniagyakrom
+en;Peterkrom;Manukrom
+en;Amutinkrom;Amoatinkrom
+en;Nyamebekyere;Gyingyinkofikrom
+en;Nkyekyer;Ncherechi
+en;Nkyerekyer;Ncherechi
+en;Emisakrom;Brukora
+en;Amissakrom;Brukora
+en;Daboase Nkwanta Number Two;Daboasi-Kwanta
+en;Daboase Nkwanta Number 2;Daboasi-Kwanta
+en;Kakawakrom;Kakokrom
+en;Dompem Number 2;Dompem Number Two
+en;Kumasi;Kumase
+en;Asem Asa Number 2;Asem Asa Number Two
+en;Bronyikrom;Boronyikrom
+en;Daboase Nkwanta Number 1;Daboase Nkwanta Number One
+en;Sekundi;Sekondi
+en;Kwanuama Number 2;Kwanuama Number Two
+en;Atekyemu Number 2;Atekyemu Number Two
+en;Atekyemu Number 3;Atekyemu Number Three
+en;Kwanuama Number 1;Kwanuama Number One
+en;Atekyemu Number 1;Atekyemu Number One
+en;Bukru;Bukuru
+en;Latekrom;Latekurom
+en;Yaobronikura;Eniakra
+en;Praprababida Number 1;Praprababida Number One
+en;Praprababida Number 2;Praprababida Number Two
+en;Praprababida Number 3;Praprababida Number Three
+en;Zion Number 2;Zion Number Two
+en;Badowa Number 2;Badowa Number Two
+en;Akwanhyiamu Number 2;Akwanhyiamu Number Two
+en;Akwanhyiamu Number 1;Akwanhyiamu Number One
+en;Bungalow Number 2;Bungalow Number Two
+en;Sienchiem;Asenekurom
+en;Abiem;Abigyine
+en;Binsiri;Binsere
+en;Kofikrom;Kofikurom
+en;Nyamso;Apitikokoo
+en;Kofiwikrom;Kofiwikurom
+en;Kwabrafaso;Kwiabrafoso
+en;Asasi;Feti
+en;Apitiso Number 1;Apitiso Number One
+en;Apitiso;Apitiso Number One
+en;Mensakurom Number 1;Mensakurom Number One
+en;Alata Number 2;Alata Number Two
+en;Kwekuonakrom;Kwameduokurom
+en;Mensakurom Number 2;Mensakurom Number Two
+en;Nyamebekyere Number 3;Nyamebekyere Number Three
+en;Atasi;Ataase
+en;Behinasi;Behenease
+en;Kwapia;Kwafia
+en;Penipa;Pennipa
+en;Kajasi;Kagyaase
+en;Abenchim;Abankyen
+en;Feiasi;Feyiase
+en;Nchechirem;Nkyekyem
+en;Edumasi;Odumuse
+en;Brofoyedru;Safokurom
+en;Krawasi;Okoroase
+en;Bisiase;Besease
+en;Betinsin;Betensin
+en;Amansie;Domeabra
+en;Esreso;Esareso
+en;Sisikraw;Sisikuro
+en;Wamasi;Womaase
+en;Bawdoma;Bodoma
+en;Sowaabo;Seweaba
+en;Yaokawkaw;Oseikokookurom
+en;Dentekrom;Dentekurom
+en;Juenehu;Dwenewoho
+en;Donkoasi;Donkoase
+en;Subidie;Sebedie
+en;Kwamang;Kwaman
+en;Biribiwomang;Biribiwomanmu
+en;Abuso;Wioso
+en;Chichiwere;Kyekyewere
+en;Akoabetoso;Akwabetosu
+en;Akrawbeto;Akwabetosu
+en;Makro;Mmaakuro
+en;Ajwinasi;Edwenase
+en;Krumuasi;Krumuase
+en;Behinasi;Behinase
+en;Fanchinibra;Fankyenebra
+en;Chichibong;Kyekyebon
+en;Apimenim;Apemanim
+en;Afretia;Afrentia
+en;Adumasa;Adumase
+en;Akrofrom;Sebina Akrofrom
+en;Mantukwa;Abom
+en;Mentukwa;Mantukwa
+en;Burosankaw;Brusanko
+en;Mawnaw;Monno
+en;Ajuampong;Adwuampon
+en;Chiransa;Kyiransa
+en;Bedasi;Bedase
+en;Esipong;Esipon
+en;Odumasi;Odumase
+en;Behinasi;Behenase
+en;Duropam;Duopam
+en;Ampeyo;Ampeyoo
+en;Esreso;Esereso
+en;Dabaipenin;Dabanpanin
+en;Dabai;Daban
+en;Konkrumasi;Konkromase
+en;Meusom;Mesuom
+en;Sipetinpom;Sepetimpom
+en;Sipe-Wusuansa;Owusu Ansa
+en;Abrepopenire;Abrepokese
+en;Echem;Ekyem
+en;Jachi;Gyakye
+en;Dakwa Jachi;Gyakye
+en;Aperadi;Aperade
+en;Kokobin;Kokoben
+en;Aiyuom;Ayuom
+en;Warakese;Worakese
+en;Aponsakwa-Kwauma;Aponsakwa Kwanwoma
+en;Achiremadi;Akyeremade
+en;Apampetia;Ampetua
+en;Kotwi;Kotei
+en;Nkpoansa;Nkroransa
+en;Apramang;Aprabon
+en;Apiri;Apere
+en;Dakojom;Dakodwo
+en;Eshiaso;Nhiaso
+en;Ahunja;Ahodwo
+en;Bohyen;Bohen
+en;Bohien;Bohen
+en;Buobai;Buabai
+en;Akokoanbong;Akokoamon
+en;Tsinsimhwe;Tsintsimhwe
+en;Tetrem;Tetremu
+en;Santiayao;Sentinyon-Nkwanta
+en;Nyamiyaokrom;Nyame Yawkrom
+en;Apimenim;Apimanim
+en;Nkwantasia;Nkwantaesia
+en;Freti;Friti
+en;Achokwai;Atwokwae
+en;Aketenchi;Aketenkye
+en;Tentum;Tontu
+en;Mpasem;Mmpeasem
+en;Ayinase;Enyinaase
+en;Anyinasi;Enyinaase
+en;Ahuntumano;Huntumano
+en;Ahuntumanu;Huntumano
+en;Abuadi;Aboadzi
+en;Aboadi;Aboadzi
+en;Awuna;Atakrom
+en;Awunakrom;Atakrom
+en;Kubekro;Kubekul
+en;Anchelyen;Ankyernyin
+en;Awusiejo Nkwanta;Ewusiadwo Nkwanta
+en;Akitekyi;Akatakyi
+en;Aketechi;Akatakyi
+en;Dabikrom;Adabokrom
+en;Pretsea Nkwanta;Pertsea Nkwanta
+en;Afropokrom;Efurapokrom
+en;Efrapukrom;Efurapokrom
+en;Kwekutiakrom;Kwekutsiakrom
+en;Adiantem;Adiamtem
+en;Figyae;Fijai
+en;Nguanasa;Enumasa
+en;Anoanamasa;Enumasa
+en;Wari Village Number 2;Wari Village Number Two
+en;Afutu;Efutu
+en;Abuabo;Aboabo
+en;Wari Village Number One;Wari Village Number Two
+en;Wari Village Number 1;Wari Village Number Two
+en;Sradookrom;Ahinkrom
+en;Papakrom;Pepekrom
+en;Ajakamado;Ajankamado
+en;Srahakrom;Mansaso
+en;Kwamijwakrom;Mansaso
+en;Fotom;Jasikrom
+en;Bediakokrom;Tadieso
+en;Afutom;Afatom
+en;Mansira;Mansra
+en;Fwidiem;Hwediem
+en;Nketia;Nkatia
+en;Krobo Boahung;Krobobuoho
+en;Sehiemo;Seyimo
+en;Patasi;Patase
+en;Pampetia;Pampatia
+en;Chrikrom;Chinikurom
+en;Adubinso Bia;Adubensobea
+en;Adubinso Kese;Adubensokese
+en;Abum;Ebom
+en;Ejwinasi;Edwenase
+en;Masi;Maase
+en;Ajaku Boahung;Agyaakobooho
+en;Etimetim;Atimatim
+en;Medoma;Mmedoma
+en;Busori;Bosore
+en;Womasi;Nwomasi
+en;Sisrasi;Sisirase
+en;Abradi;Abrade
+en;Asonomaso Nkwanta;New Nsoromaso
+en;Nsoromaso Nkwahta;New Nsoromaso
+en;Jamfi Wono;Gyamfi Wono
+en;Akitibombo;Aketebommo
+en;Bonsua Fufuo;Bonsua Number One
+en;Bonsua Number 1;Bonsua Number One
+en;Ampaba;Asaman
+en;Akuso;Amanforom
+en;Bisiasi;Adubenso Besease
+en;Wiaswso;Wioso
+en;Prekokrom;Brofoyedru
+en;Settlement Number 11;Settlement Number Eleven
+en;Kwadwo Adansekurom Nyame Bekyere Number 2;Kwadwo Adansekurom Nyame Bekyere Number Two
+en;Hiayeya;Ohiayeya
+en;Apreku;Mile Fifteen
+en;Anwiafutu;Afuakobikurom
+en;Etia;Atia
+en;Nohuaso;Nkyuaso
+en;Metemanu;Manukurom
+en;Domeabra Number 2;Domeabra Number Two
+en;Chuaso;Kyuaso
+en;Roroso Number 1;Roroso Number One
+en;Anyemi;Anyame
+en;Kronko Number 1;Kronko Number One
+en;Kurawnkaw;Kronko Number One
+en;Domeabra Number 1;Domeabra Number One
+en;Number 1;Number One
+en;Bonsukrom;Bonsukurom
+en;Kwekuajeikrom;Sunkwa
+en;Asikentia;Asekantia
+en;Nfresini;Afrensini
+en;Nyamebekyere;Dokowaakurom
+en;Achimachwe;Sikafrebogya
+en;Akwiesika;Adense
+en;Dwenohu;Dwenewoho
+en;Adiembra;Beposo
+en;Yaokrakrom;Yawkrakurom
+en;Apotosu Number 2;Apotosu Number Two
+en;Apotosu Number 3;Apotosu Number Three
+en;Apotosu Number 1;Apotosu Number One
+en;Nyiniso Number 2;Nyiniso Number Two
+en;Mehami Number 2;Mehami Number Two
+en;Mehami Number 1;Mehami Number One
+en;Kunsu Number 2;Kunsu Number Two
+en;Nkasasu Number 1;Nkasasu Number One
+en;Nkasaisu;Nkasasu Number One
+en;Nkasasu Number 2;Nkasasu Number Two
+en;Tweapiase Number 2;Tweapiase Number Two
+en;Tweapiase Number 1;Tweapiase Number One
+en;Pokukurom Number 2;Pokukurom Number Two
+en;Boahenkwaa Number 2;Boahenkwaa Number Two
+en;Asampon Number 1;Asampon Number One
+en;Asampon Number 2;Asampon Number Two
+en;Gyema Nkwanta;Jema-Nkwanta
+en;Paninammisa;New Peniamisa
+en;Tikila Number 2;Tikila Number Two
+en;Akroma Number 2;Akroma Number Two
+en;Akroma Number 1;Akroma Number One
+en;Tikila Number 1;Tikila Number One
+en;Dankate;Dagarti
+en;Kwroi One;Kurew
+en;Kwroi I;Kurew
+en;Kwamin Aje;Kwadwonkrommakurom
+en;Konkon;Kwaabasa
+en;Kwroi II;Kwroi Two
+en;Goudaw;Gonnokurom
+en;Kwakubedikrom;Kwakubenkurom
+en;Yaobafuekrom;Yawboafokurom
+en;Kokumkrom;Kofikumikurom
+en;Kofibaikrom;Bebaabra
+en;Adamso Number 1;Adamso Number One
+en;Tanfiano Number 2;Tanfiano Number Two
+en;Duu;Jande
+en;Sikaniasem;Sika Ne Asem
+en;Asesreabawye;Asesere
+en;Apiakrom;Mrakete Compound
+en;Achempim;Akyempem
+en;Bediabawu;Obratwarowu
+en;Lamikrom;Sewubetima
+en;Hwnakrombua;Ntodikrom
+en;Kwamibosumpra Kurasu;Kwamibosumprakurasi
+en;Mendekrom;Manaekrom
+en;Ajaikrom;Abotarye
+en;Chuja;Twigyaa
+en;Dainso;Densu
+en;Kokoasi;Kakoase
+en;Boposo Nkaka;Nkaka
+en;Amuabaka;Amubakakrom
+en;Amubaka;Amubakakrom
+en;Amanase;Amanasi
+en;Ampontinkurom;Nyamibechire
+en;Akatreka;Katreka
+en;Akwasibikurom;Aboajikrom
+en;Asesensu;Asisensu
+en;Adeade;Adiadi
+en;Ampabina;Mpabina
+en;Nkrofo;Nkrofro
+en;Akwabusu;Akwabosu
+en;Subimso;Subinso
+en;Nkwantanum;Kwantanum
+en;Domeabra;Kojowasakrom
+en;Atonso;Atensu
+en;Awnyuikwanta;Onwe-Nkwanta
+en;Amrasi;Ntenwe
+en;Banko;Akuradadam
+en;Brosankro-Nkwanta;New Brosankro
+en;Nyamiyedru;Kwabinatentenkurom
+en;Kwamisiakrom;Kwame-Nsiakurom
+en;Beredi;Bredi
+en;Toni;Tani
+en;Abuom;Aboom
+en;Boaso Number 2;Boaso Number Two
+en;Boaso Number 1;Boaso Number One
+en;Nyesua;Nyasua
+en;Takarasi;Dankwa
+en;Wantawniasi;Kwamekurom
+en;Fanti;Mfrante
+en;Dampua;Tomaa
+en;Chiali;Tambari
+en;Gora;Woliyiri
+en;Dasietini;Darigiayiri
+en;Meka;Bulu Tanga
+en;Ponyahiyiri;Ponyamayiri
+en;Bandanyiri;Chabara
+en;Tankari;Tankasa
+en;Tanjihi;Tanjisi
+en;Esamang;Sawoma
+en;Adubrim;Ayawora
+en;Bikyeme;Bichem
+en;Nkwanta Number 2;Nkwanta Number Two
+en;Pebease Number 2;Pebease Number Two
+en;Pebasi;Pebease Number Two
+en;Boadikrom;Tumeantu
+en;Kwesi Ponkrom;Poaso
+en;Pasro Number 2;Pasro Number Two
+en;Owusukurom Number 1;Owusukurom Number One
+en;Owusukurom Number 2;Owusukurom Number Two
+en;Sesuri;Kwabenaforikurom
+en;Anansu Number 2;Anansu Number Two
+en;Domuobo;Anansu Number Two
+en;Abobonyun;Abobonwin
+en;Kwakumosikrom;Afransie
+en;Keniago;Kyeikurom
+en;Abekoasi;Abakoase
+en;Atufoakurom Number 1;Atufoakurom Number One
+en;Atufoakurom Number 2;Atufoakurom Number Two
+en;Ntoatoa;Adeekurom
+en;Aboabogya Number 2;Aboabogya Number Two
+en;Wamasi;Hwidiem
+en;Asuanta;Ansuontaa
+en;Achiasi;Akyease
+en;Yakawkaw;Kramokurom
+en;Aboadin;Abodiem
+en;Nsuatem;Nsuontem
+en;Chwibiri;Twabidi Number Two
+en;Twabidi Number 2;Twabidi Number Two
+en;Mosikese;Bosikese
+en;Safoasin;Asafoasin
+en;Chwibiri;Subriso
+en;Chriba;Akuasiwaso
+en;Timbabi Number 3;Timbabi Number Three
+en;Sirboaso Number 2;Sirboaso Number Two
+en;Mfaanibu Number 1;Mfaanibu Number One
+en;Mnfaniagu;Mfaanibu Number Two
+en;Mfaanibu Number 2;Mfaanibu Number Two
+en;Siriboaso Number 1;Siriboaso Number One
+en;Abesewa;Tadeeso
+en;Sinorosiso Number 1;Sinorosiso Number One
+en;Sinorosiso Number 2;Sinorosiso Number Two
+en;Dejamim;Dagyamem
+en;Nsonkonai;Wa
+en;Tinaso;Tenaso Number Two
+en;Asubrofu;Asubrofo
+en;Kawbedi;Kobedi
+en;Domiabra;Afresepakurom
+en;Ohia Nkwanta;Afresepakurom
+en;Adongo;Yaw Mensa
+en;Nchiesa;Ntwiesa
+en;Asuboa;Tanoanafo
+en;Kwasua;Akwasua
+en;Ahwini;Ohene
+en;Nyinamponase Number 2;Nyinamponase Number Two
+en;Nyinamponase Number 1;Nyinamponase Number One
+en;Atabi Number 2;Atabi Number Two
+en;Atabi Number 1;Atabi Number One
+en;Mevogili;Mevoli
+en;Murupari;Wula
+en;Mutripari;Soma
+en;Lumpuyiri;Tediliyiri
+en;Abuyiri;Takariyiri
+en;Wuldi;Waldie
+en;Melinko;Guon
+en;Baladayiri;Konpihi
+en;Botuoyiri;Jankaa
+en;Jemayiri;Vondiali
+en;Aiyiboaso;Bepoase
+en;Kankakrom;Tanoso
+en;Kokooso Number 3;Kokooso Number Three
+en;Kokooso Number 2;Kokooso Number Two
+en;Besiasi;Kokooso Number Two
+en;Kokooso Number 1;Kokooso Number One
+en;Nyamayama;Nyaman Yama
+en;Bakunka;Boakonka
+en;Sikaniasem;Sikaneasem
+en;Enguro;Sikaneasem
+en;Nsunyamiye;Nsonyameye
+en;Ayirekrom;Ayerekurom
+en;Echuabo;Ekyuiabo
+en;Anyinasie;Enyinaase
+en;Nkrang;Affulkurom
+en;Abesinsuom Number 1;Abesinsuom Number One
+en;Domiabra;Abesinsuom Number One
+en;Famang;Fawoman
+en;Abesinsuom Number 2;Abesinsuom Number Two
+en;Ohianpenika;Ohiampeanika
+en;Jukwa;Kwakumekurom
+en;Adiembra;Hwennampori
+en;Ohianpenika;Mpokoampa
+en;Abuakwa;Akawuakurom
+en;Degede;Dekede
+en;Kwaso;Kwaaso
+en;Chenchenasi;Kyenkyenase
+en;Benkrumisa;Bankromisa
+en;Akasu;Akaaso
+en;Eyiechiren;Wiakyire
+en;Ahoikrom;Nsuta
+en;Akrakrom;Ankramuano
+en;Nframanyo;Mframanyo
+en;Mfrekurom Number 1;Mfrekurom Number One
+en;Mfrekurom Number 2;Mfrekurom Number Two
+en;Asempaneye;Kwame Nkrumakurom
+en;Wiredukrom;Kwahu Flowers
+en;Yank Ye Number 1;Yank Ye Number One
+en;Yank Ye Number 2;Yank Ye Number Two
+en;Asampanaye Number 1;Asampanaye Number One
+en;Atotrom Number 1;Atotrom Number One
+en;Atotrom;Atotrom Number One
+en;Atotrom Number 2;Atotrom Number Two
+en;Manponten Number 1;Manponten Number One
+en;Baafikurom;Ohiampeanika
+en;Mamponten Number 2;Mamponten Number Two
+en;Etwinito;Tanoso
+en;Oseikurom Number 1;Oseikurom Number One
+en;Oseikurom Number 2;Oseikurom Number Two
+en;Sikafrebogya Number 1;Sikafrebogya Number One
+en;Sikafrebogya Number 2;Sikafrebogya Number Two
+en;Asubirim;Asibrim
+en;Asufufuo;Asufufo
+en;Aboasuaja;Adukurom
+en;Apenimadi-Nyamibechere;Apenenadi
+en;Metemano;Donkokurom
+en;Metimano;Donkokurom
+en;Kwamiayagokrom;Abusuakyireka
+en;Kwamiyakurom;Abusuakyireka
+en;Yaodonkorkrom;Jaekuntabu
+en;Ataniata;Ataneata
+en;Nyamibechere;Agyeikurom
+en;Amanfro;Amanforom
+en;Ahafoguafo;Akyenkyehenekurom
+en;Odumasi;Amoasikurom
+en;Konkokrom;Konkokurom
+en;Bojampa;Bogyampa
+en;Pewuhuyesu;Obenkurom
+en;Onyambekyere Number 1;Onyambekyere Number One
+en;Subinaja;Mempehia
+en;Kramokroa;Kwabenakeseakuraa
+en;Kojomenukrom;Twabidi Number One
+en;Twabidi Number 1;Twabidi Number One
+en;Timbabi Number 1;Timbabi Number One
+en;Timbabi Number 2;Timbabi Number Two
+en;Nyinakaw;Buronikurom
+en;Acherensuaja;Akyerensuagya
+en;Goam;Kwadwokurom
+en;Nsakobesa;Nsagobesa Number One
+en;Nsagobesa Number 1;Nsagobesa Number One
+en;Jedu;Gyedu
+en;Nsagobesa Number 2;Nsagobesa Number Two
+en;Kurosua Number 2;Kurosua Number Two
+en;Kenyaase Number 3;Kenyaase Number Three
+en;Adjeponkurom;Antwikurom
+en;Ninasua;Ninkyiama
+en;Nkatiakurom Number 1;Nkatiakurom Number One
+en;Nkatiakurom Number 2;Nkatiakurom Number Two
+en;Banue Number 2;Banue Number Two
+en;Yomu;Ata Kuram
+en;Yomu;Kwadwo Banini Kurom
+en;Nwadom Number 1;Nwadom Number One
+en;Nkwado Number 2;Nkwado Number Two
+en;Lambonga;Poliyire
+en;Kasiyire;Mepeasam
+en;Doyigza;Sogoyire
+en;Fra;Dekumplayiri
+en;Meka;Muana
+en;Kpenlu;Chanayiri
+en;Wongoli;Kerikonayiri
+en;Danyuasa;Sansanyiri
+en;Sansanyiri;Zokanteu
+en;Jesieyiri;Munakuwan
+en;Ganganpio;Samambo
+en;Dapora;Dapoha
+en;Kalbabile;Joleriyiri
+en;Cheliher;Bechunyiri
+en;Kapaliyiri;Kudondogle
+en;Sakabalon;Saabalon
+en;Sodayiri;Sugu
+en;Namo;Kulukpen
+en;Hajaga;Kuntaa
+en;Janborgu;Jangbogo
+en;Chagilu;Chegli
+en;Gulle;Gulli
+en;Sanchiga;Sanchigu
+en;Samambaw;Samanbo
+en;Kpongpala;Kponpala
+en;Bamahu;Bamano
+en;Bisie;Bise
+en;Gorgi;Gogi
+en;Gudairi;Gudayiri
+en;Gonua;Guonor
+en;Banungoni;Banungoma
+en;Kene;Kenee
+en;Bulia;Balienaa
+en;Ulkon;Suleyiri
+en;Nietaw;Niator
+en;Adwoam Number 2;Adwoam Number Two
+en;Atabuka;Atabokaa
+en;Asamwakrom;Yawkrom
+en;Sikaniasam;Sikanyeasem
+en;Nkronsa Number 1;Nkronsa Number One
+en;Nkronsa Number 2;Nkronsa Number Two
+en;Nsuhia;Kramokrom
+en;Churichuri;Tweritweri
+en;Koriakaukrom;Akaakrom
+en;Adiembra;Adeembra
+en;Ahisakrom;Ayisakrom
+en;Dome Number 1;Dome Number One
+en;Wuruwuru;Ruru
+en;Gumisia;Ntom
+en;Krokoa;Korkorwa
+en;Baano Number 3;Baano Number Three
+en;Baano Number 2;Baano Number Two
+en;Adiako Number 2;Adiako Number Two
+en;Aboagyekrom Camp Number 2;Aboagyekrom Camp Number Two
+en;Suiano Number 2;Suiano Number Two
+en;Suiano Number 1;Suiano Number One
+en;Prusu;Kuroda Damu
+en;Ompuakrom;Piokrom
+en;Mamomoho;Abrabra
+en;Mile Three Number 2;Mile Three Number Two
+en;Mile Three Number 1;Mile Three Number One
+en;Manhyia Number 2;Manhyia Number Two
+en;Beposo Number 2;Beposo Number Two
+en;Kuabenampekrom;Asukese
+en;Wamano Two;Kwasikonto
+en;Aponaponoso Number 1;Aponaponoso Number One
+en;Aponaponso;Aponaponoso Number One
+en;Wamho Number 1;Wamho Number One
+en;Kofi Siawkrom;Kwadwosiawkurom
+en;Nsuakaw;Asukoko
+en;Kofi Buokurom;Pruhuru
+en;Domeabra;Krakyekurom
+en;Gambia Number 1;Gambia Number One
+en;Old Tokorom;Asempanaye
+en;Aboabo;Yawbadukurom
+en;Goaso;Gooso
+en;Monchwi;Abenaakukurom
+en;Akwatiaso;Kenyaase Camp
+en;Aponaponoso Number 2;Aponaponoso Number Two
+en;Edwinasi;Edwenase
+en;Adumasa;Odumase
+en;Buakrom;Boekrom
+en;Number 2;Number Two
+en;Ehwia Sisaso;Manhyia
+en;Nkwanta Esasi;Esaase
+en;Nsutem;Nsuontem
+en;Kwamikrom;Kwamekurom
+en;Tapachudi;Twabidi
+en;Basewakrom;Twabidi

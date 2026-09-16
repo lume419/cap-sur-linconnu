@@ -1,0 +1,763 @@
+fr;Zouerate;Zouérat
+es;Zuérate;Zouérat
+ar;ازويرات;Zouérat
+ar;الزويرات;Zouérat
+de;Zouerat;Zouérat
+ha;Zouerat;Zouérat
+pt;Zouerat;Zouérat
+ar;ازنيكي فولبي;Zneigui Foulbé
+ar;ازنيكي البيضان;Zneigui Elbidhane
+ar;ومبو;Woumpou
+ar;ويندي امبوردي;Windé Mbordi
+ar;ويندي هايري;Windé Hairé
+ar;وندو سنو;Wendou Seno
+ar;توميات لقلال;Tewmiyatt Laghlal
+ar;تومبو;Toumbou
+ar;جنـﯖا;Diengua
+fr;Timbedgha;Tembedgha
+fr;Timébédra;Tembedgha
+fr;Timbédra;Tembedgha
+ar;تمبدغة;Tembedgha
+ar;تيجيكجة;Tidjikja
+ar;تيشطاية;Teichetaya
+fr;Termesa;Termessa
+ar;تانيت;Tânît
+ar;تنت;Tânît
+fr;Tâmchekket;Tamchekett
+fr;Tamchakett;Tamchekett
+fr;Tamchaket;Tamchekett
+ar;الطلحايه;Talhaya
+ar;شلخة الشوك;Chelkhett Echewk
+ar;تاغوتالا;Tagoutalla
+ar;الصوفي;Souvi
+ar;سيلو;Silou
+ar;سيوي;Civé
+ar;سيال ﯖابابي;Seyal Gababi
+ar;سيلبابي;Sélibaby
+ar;سيليبابي;Sélibaby
+es;Selibaby;Sélibaby
+de;Selibaby;Sélibaby
+ha;Selibaby;Sélibaby
+pt;Selibaby;Sélibaby
+ar;احسي عمر;Hsey Amar
+ar;سد المَ;Sed Elma
+ar;سونتو;Sounetou
+ar;الشلخه الدخنه;Chelkha Edakhna
+ar;شلخه بالي;Chalkha Balé
+ar;سابوسيري;Saboussiré
+ar;ريندياو;Rindiaw
+ar;بمباجيل;Pempédiel
+ar;باتوكون 1;Patoukone Un
+ar;انحيل فولبي;Nhail Foulbé
+ar;وولم نيري;Woloum Néré
+fr;Oumoul Rheuz;Oumm el Khezz
+fr;Oumoulkheuze;Oumm el Khezz
+fr;Oumoul Kheuz;Oumm el Khezz
+fr;Oumm el Khez;Oumm el Khezz
+ar;ولد الرامي 1;Ould Erami Un
+ar;أولاد عده;Awlad Ada
+ar;ول الرامي 2;Ould Erami Deux
+ar;ولد جدو أهل امبارك;Ould Jidou Ehel Mbarek
+ar;أولاد الحاج;Awlad Elhaj
+ar;إديبني ويد آمور;Ideibni Woid Amour
+ar;ويد آمور;Woid Amour
+ar;أوشكش;Awechkeche
+ar;اودي لمـﯖـيل;Oudey Lemguil
+fr;Nouasser;Nouassar
+es;Nuadibú;Nouadhibou
+ar;نواذيبو;Nouadhibou
+en;Port-Étienne;Nouadhibou
+pt;Nouadibou;Nouadhibou
+ar;نيومل بوكي صابودي;Niomel Boki Saboudi
+ar;نيري والو;Néré Walo
+ar;النعمة;Néma
+es;Nema;Néma
+de;Nema;Néma
+ha;Nema;Néma
+pt;Nema;Néma
+ar;اندوملي الحجرة;Ndoumeli Elhajra
+ar;اندوملي انياكي;Ndoumeli Niaki
+ar;انجوا;Ndiewa
+ar;اندياكو;Ndiago
+ar;انجاكو;Ndiago
+ar;منطقة اندياكو;Ndiago
+ar;منطقة انجاكو;Ndiago
+ar;بلدية اندياكو;Ndiago
+ar;اندام ياللبي;Ndam Yalalbé
+fr;Mreïmida Harâtîne;Mreimida
+fr;Mreïmida Haratin;Mreimida
+fr;Mreïmida Beïdane;Mreïmîdet el Bidâne
+ar;موليسي سوننكه;Molissino Soninké
+ar;موجي 1;Moudji Un
+ar;موجي 2;Moudji Deux
+fr;Moudjéria;Moudjeria
+ar;لمبيديع الساقه;Lembeidi Assagha
+ar;امبولي سانتر;Mbouli Santer
+ar;مقجّوكه;Maghadiouga
+ar;مافوندا;Mafounda
+ar;ليرادي;Liradi
+ar;لمغيشم;Lemghaichem
+ar;لحرش;Lahrache
+ar;لكفوفه;Laghvouya
+ar;كوندل;Koundel
+ar;كمبا انضو;Koumba Ndaw
+ar;ﯖويدة 2;Gweida Deux
+ar;ﯖويدة;Gweida
+ar;كت;Kett
+ar;كراكورو;Karakoro
+ar;كوركا;Korka
+ar;كوب أهل الجاي;Kowb Ehel Ediay
+ar;كتان البيضان;Elkitane Elbidhane
+ar;كيفة;Kiffa
+es;Kifa;Kiffa
+ar;هرسنغان;Hersenghane
+fr;Kamor;Kamour
+ar;كيهيدي;Kaédi
+it;Kaedi;Kaédi
+de;Kaedi;Kaédi
+ha;Kaedi;Kaédi
+pt;Kaedi;Kaédi
+ar;عومار ولد اعلي;Oumar Ould Eli
+ar;لحسي لحمر;Hsey Lahmar
+ar;احسي الشمس البظان;Hsey Echemss Elbidhane
+ar;حاسي البقر;Hassi Bagra
+ar;حاسي بقرة;Hassi Bagra
+ar;عر;Ar
+ar;موري هايرا;Wouro Hairé
+ar;ﯖيراي;Guiray
+ar;كمو 1;Gemou Un
+fr;Graïr Enzaï;Anzey
+fr;El Graïr Enzaï;Anzey
+ar;كتوَل;Ketwel
+ar;كورل مامودو;Gourel Mamoudou
+ar;فولي;Foulé
+ar;فاربا 1;Farba Un
+ar;ادياريبي;Diarébé
+ar;كورل آداما;Gourel Adama
+ar;كوديول 1;Koudiol Un
+ar;ﯖارلي;Garli
+ar;ﯖانكي 1;Ganki Un
+ar;أدباي فرع لادم;Debaye Vorae Ladem
+ar;الفلكة;Elvilka
+ar;تكتاكة فرلو;Tektaka Ferlo
+ar;فيتاسا;Vitassa
+de;F'dérik;Fderîck
+ar;لكصيبه 1;Lexeiba Un
+ar;أهل الجيلاني كرفه;Ehel Eljeilani Garva
+ar;بولحيه;Boulehya
+ar;البير;Elbir
+ar;أجار أهل علي;Ejar Ehel Ali
+ar;ادبلكي;Dboulgui
+ar;جكني;Djiguenni
+ar;جيبابه;Dieibaba
+ar;ولد الرامي بديزكن;Ould Erami Bedizguene
+ar;ديندي;Dindé
+ar;اديام اديام;Diamdiam
+ar;ادياكيلي;Diaguily
+ar;انجفان جوكي;Ndiafane Dioké
+de;Chinguetti;Chingueṭṭi
+pt;Chinguetti;Chingueṭṭi
+fr;Chinguetti;Chingueṭṭi
+en;Chinguetti;Chingueṭṭi
+it;Chinguetti;Chingueṭṭi
+es;Chingueti;Chingueṭṭi
+ar;شنقيط;Chingueṭṭi
+nl;Chinguetti;Chingueṭṭi
+ar;كانصادو;Cansado
+de;Kānṣādū;Cansado
+ar;بوتندا;Boutenda
+ar;بروجي;Boroudji
+ar;بوجوبايا إفلان 1;Boudioubaya Ivoulane Un
+ar;بوغي;Bogué
+ar;بوكى;Bogué
+ar;بوكي;Bogué
+ar;بديزﯖن;Bedizguene
+ar;بيلينابي;Bélinabé
+fr;Bergatanni;Bargatanni
+ar;لعيون;Ayoun El Atrous
+ar;العيون;Ayoun El Atrous
+ar;عيون العتروس;Ayoun El Atrous
+ar;لعوينات;El Awaynatt
+ar;أطار;Atar
+ar;آررشان مانجو;Archane Mango
+ar;عوينات صدره إفلان;Aweinatt Sedra Ivoulane
+ar;امبيديع أماقا;Mbeidi Amaga
+ar;ألاك;Aleg
+ar;أكجوجت;Akjoujt
+ar;أجار إفلان;Ejar Peul
+ar;آكوينيت;Agweinitt
+ar;آكوانيت;Agouanitt
+ar;آﯖـنيتير لفراقله;Agneitir Levraghla
+fr;El Msid;Lemsid
+ar;كوراي;Gouraye
+ar;وادي الناقة;Ouâd Nâga
+ar;واد الناقة;Ouâd Nâga
+de;Wadi an-Nāqa;Ouâd Nâga
+en;Wadi an-Nāqa;Ouâd Nâga
+fr;Letfata;Letfetar
+fr;Nbeïka;Nbeika
+fr;Gharghar;Agharghar
+ar;سنتيو بوبو ماك;Sinthiou Boubou Maka
+ar;عرفات;Arafat
+ar;امبلل;Mbalal
+ar;تفرغ زينه;Tevragh Zeina
+ar;دار النعيم;Dar Naim
+ar;حفرة أهل الشيخ سيدي الأمين;Hovratt ehl Cheikh Sid'Elemine
+ar;النعيمات;An-Naima
+ar;امصب لحسي;Msab Lehsey
+ar;لوريمه;Loureima
+ar;الصبار 1;Sabar Un
+ar;آريفوندا;Arifounda
+ar;أهل بوبكر;Ehel Boibakar
+ar;العكريش;Elakriche
+ar;أهل مولاي الشريف;Ehel Moulay Cherif
+ar;سنتيان اتيرنو;Synthiane Thierno
+ar;حاسي دنبه;Hassi Demba
+ar;أمبومي 2;Mbomi Deux
+ar;بوكل تيلي القديم;Bokol Thilé Elghadim
+ar;اندوله;Ndoule
+ar;دنبو;Dembou
+ar;الصفا;Savaa
+ar;سنبوكر;Sambokar
+ar;كوب الدمجه;Kowb Edemja
+ar;البرباره;Elberbara
+ar;فوندي بيلل;Fondé Bélel
+ar;باشات الدخله;Bachatt Edakhla
+ar;اجريكايه ابـلـﯖطاطي;Ajreikaya Blegtati
+ar;باشات ولد بقرو;Bachatt Ould Beghrou
+ar;الجديده;Eljedida
+ar;أدباي أودي اللوت;Debay Oudey Loutt
+ar;القاهرة 2;Alghahra Deux
+ar;أهل امبيري;Ehel Mbéri
+ar;أهل محمد صنبه 2;Ehel Mohamed Samba Deux
+ar;بويل 1;Bowel Un
+ar;كوب أهل اكريده;Kowb Ehel Kreida
+ar;لـﯖـليته;Gleita
+ar;صباح الله;Sabah Allah
+ar;الخظاره 1;Khadhara Un
+ar;دباي اهل كلاي;Debay Ehel Guelay
+ar;بتنـﯖل 1;Betengal Un
+ar;أهل أحمد صنبه;Ehel Ahmed Samba
+ar;تتيان;Téthiane
+ar;تيفوند سيفه;Toufndé Civé
+ar;امصب البطه;Msab Elbatha
+ar;فاصكينل;Faskinel
+ar;بولنـﯖيرا 2;Boulenguéra Deux
+ar;وورو مامدو جا;Wouro Mamadou Dia
+ar;أهل كيلي;Ehel Kélé
+ar;خظارت لحسي;Khadharett Lehsey
+ar;آرويجي;Arweiji
+ar;فاربا 2;Farba Deux
+ar;مامادو فوجي;Mamadou Fodié
+ar;أهل المامي;Ehel Elmami
+ar;بونا اندي;Bona Indé
+ar;لويد;Lweid
+ar;سنتيان اﯖريجمه;Sinthiane Greijouma
+ar;اكراع اجمل;Krae Ejmel
+ar;أهل مالل;Ehel Malal
+ar;دار السلام;Dar Esselam
+ar;روماني بوكي;Roumani Bouki
+ar;اهل انبري تكيلت;Ehel Nbéri Tekyelt
+ar;اندام آردو;Ndam Ardo
+ar;أهل بابكار;Ehel Babakar
+ar;لوجول;Lodiol
+ar;محمد ولد شيخ;Mohamed Ould Cheikh
+ar;العداله أودي لحديد;Eladala Oudey Lehdid
+ar;وورو آمدو تيرنو;Wouro Amadou Thierno
+ar;حسين صنبة;Housseine Samba
+ar;بئر البركه;Bir Elbarka
+ar;الركنه 2;Rakna Deux
+ar;الشلخه الزينه;Chelkha Ezeina
+ar;أهل ميمرات;Ehel Maimratt
+ar;ويندو بوكي;Wendou Boki
+ar;ناتيرﯖول 1;Natirgol Un
+ar;أهل بوله;Ehel Boula
+ar;إدواش;Idewache
+ar;اهل إدريس;Ehel Idriss
+ar;ازمان لمتونه;Zmane Lemtouna
+ar;امويبرات;Mweibratt
+ar;أهل صنبه;Ehel Samba
+ar;أهل الطالب بوبكار;Ehel Taleb Boubakar
+ar;فرع الجرك;Vorae Ejerk
+ar;اندام ييرو;Ndam Yéro
+ar;وورو عالي كلوجي;Wouro Ali Kolodji
+ar;أهل بوبو;Ehel Boubou
+ar;وورو آمدو آبو;Wouro Amadou Abou
+ar;فم لكليته;Voum Legleita
+ar;لحسي;Lehsey
+ar;بالي;Balé
+ar;نوالت بوﯖادوم;Newalett Bougadoum
+ar;ﯖانكي دوبوجي;Ganki Doubodji
+ar;جاووت 2;Diawoutt Deux
+ar;المشروع;Elmecherou
+ar;مفتاح الخير;Meftah Elkheir
+ar;سيال وورو مولو;Seyal Wouro Molo
+ar;فرع لادم بل;Vorae Ladem Peul
+ar;سوفه فريبه;Souva Féreibé
+ar;سنتيان انبادون;Sinthiane Mbadone
+ar;أهل هوري;Ehel Horī
+ar;بتنـﯖل 2;Betengal Deux
+ar;دنبه جالالو;Demba Dialalo
+ar;أهل ابليل;Ehel Bleyil
+ar;لوﯖيري;Louguéré
+ar;أهل زاله;Ehel Zala
+ar;دار السالمه;Dar Esselama
+ar;جداه;Jedaha
+ar;أهل صنبه اتري;Ehel Samba Tri
+ar;أهل جعفر;Ehel Jaevar
+ar;أهل ساسي;Ehel Sassi
+ar;اللـﯖـه بودامي;Lega Boudami
+ar;اورو جوندي;Wouro Djouneidi
+ar;الـﯖت;Elguett
+ar;أهل ابليل تيلي;Ehel Bleyil Teli
+ar;أهل أبه;Ehel Ebba
+ar;محمد ول مسعود;Mohamed Ould Massoud
+ar;تاﯖوتلا;Tagoutala
+ar;الصبار 2;Sabar Deux
+ar;تكيلت;Tekyelt
+ar;المتكاده;Elmetkada
+ar;امبدان 2;Mbidane Deux
+ar;وورو سيمو;Wouro Sémou
+ar;أهل سالم;Ehel Salem
+ar;الخظاره 1;Khadhara Deux
+ar;وورو كاليدو;Wouro Kalidou
+ar;التوميات;Towmiyatt
+ar;الجديدة;Eljedida
+ar;النعيم;Nayim
+ar;درﯔ موسى;Derg Moussa
+ar;ول عالي 2;Ould Ali Deux
+ar;مدن السياد;Medene Essaada
+ar;أهل امهيدي;Ehel Mheidi
+ar;وورو آلاسن;Wouro Alassane
+ar;أهل بوسيف;Ehel Bousseif
+ar;اهل محمد مبارك;Ehel Mohamed Mbarek
+ar;لـﯖواطيط;Legouatitt
+ar;أمبومي ﯖدروه;Mbomi Guedroh
+ar;اندام أهل اعليات;Ndam Ehel Eleyatt
+ar;الـﯖاره;Elgara
+ar;تولدي بومي;Touldé Boumé
+ar;أدباي ﯖانكي;Debay Ganki
+ar;بويل 2;Bowel Deux
+ar;الكرامه;Elkarama
+ar;اميجيجه;Moijija
+ar;دمشق;Dimechegh
+ar;وورو صانو رابي;Wouro Sanno Raabé
+ar;الدفعه;Devea
+ar;درﯔ انبوديري;Derg Nbodéri
+ar;صايدو تيكي;Saidou Thiéké
+ar;أدباي البطحه;Debaye Batha
+ar;اهل مسعود;Ehel Messoud
+ar;امبود;Mboud
+ar;لحرش 2;Lahrache Deux
+ar;أمبومي 1;Mbomi Un
+ar;امبارك هامظا;Mbarek Hamedha
+ar;امصب كوب;Msab Kowb
+ar;أودي الحديد ياللبي;Oudey Lehdid Yalalbé
+ar;العافيه;Elavia
+ar;كوب بالي;Kowb Balé
+ar;احسي الشمس إفلان;Hsey Echemss Ivoulane
+ar;أدباي الفدره;Debay Elvedra
+ar;وورو ﯖيجلي;Wouro Guédjili
+ar;لبودو باروﯖل;Loboudou Barogal
+ar;سيليوي 1;Siliwé Un
+ar;بولنـﯖيرا;Boulenguéra
+ar;اندولي;Ndoulī
+ar;النحيل;Nhail
+ar;كوب أهل جعفر;Kowb Ehel Jaevar
+ar;ولد الرامي 4;Ould Erami Quatre
+ar;جاووت 1;Diawoutt Un
+ar;تنجح;Tenjah
+ar;سيليوي أهل وريع;Siliwé Ehel Werii
+ar;أهل الناني;Ehel Nani
+ar;طيبة;Taiba
+ar;اهل القارﯖ;Ehel Elghareg
+ar;أهل عبد الله;Ehel Abdella
+ar;ول بقرو;Ould Beghrou
+ar;حي آنتن شنـﯖيتل;Hay Antene Chinguitel
+ar;أهل ديدي;Ehel Didi
+ar;توكومادي;Tokomadji
+ar;أهل مهدي;Ehel Mehdi
+ar;توت إدكجمله;Toutt Ideguejmala
+ar;واجيو بوكي;Wadhio Bokké
+ar;أجريكايه باجان;Ajreikaya Badiane
+ar;شلخت أهل اعبيدي;Chelkhett Ehel Abeidi
+ar;واجيو بوصيا;Wadhio Bosséa
+ar;تابلنكه;Tablenka
+ar;همادي زكريا;Hamadi Zakaria
+ar;العرﯖوب;Argoub
+ar;أهل والي;Ehel Wali
+ar;ييرلابي;Yirlabé
+ar;أهل محمد صنبه;Ehel Mohamed Samba
+ar;تولدي بالي;Touldé Bali
+ar;ليوي المدرسه;Liwī Elmedrassa
+ar;أهل تويكيت;Ehel Tweikitt
+ar;تانـﯖال كولي;Tangal Kolé
+ar;ناتيرﯖول 2;Natirgol Deux
+ar;أهل جيبي;Ehel Djibi
+ar;اندام موات;Ndam Moitt
+ar;امبارك سيلي;Mbarek Siley
+ar;اهل حداد;Ehel Hadad
+ar;ازريـﯖت أهل الحسن;Zraiguett Ehel Hassene
+ar;لحنيكات;Lehneikatt
+ar;ﯖورل ﯖوبي 2;Gourel Gobi Deux
+ar;وورو بوكار;Wouro Bokar
+ar;بوكل تيلي;Boguel Thiéli
+ar;وورو جيبي ألفا;Wouro Djibi Alfa
+ar;اكراع الفيله اتوابير;Krae Elvila Touabir
+ar;ول الرامي 1;Ould Erami Un
+ar;آبو سولي;Abou Soulé
+ar;أهل العيل;Ehel Eliyel
+ar;سنتيو طيبه;Sinthiou Taiba
+ar;دار العافيه;Dar Elavia
+ar;أهل ﯖت;Ehel Guett
+ar;اهل مبارك;Ehel Mbarek
+ar;اكراع الفيله جاوبي;Krae Elvila Diawbé
+ar;بيلنداندي;Béléndendi
+ar;القاهرة 1;Elghahra Un
+ar;مديخلو 2;Medekhlou Deux
+ar;آوشيكش;Awcheikech
+ar;تنترامه;Tentrama
+ar;عبد الله ﯖلي;Abdalla Guelé
+ar;وورو عالي جيني;Wouro Ali Dieini
+ar;أهل بوبقجه;Ehel Bougueja
+ar;اﯖـطع وطيه;Agtae Watya
+ar;امبدان صنبه كيدي;Mbidane Samba Kidé
+ar;عبد أمو;Abd Amou
+ar;أدباي السيال;Debay Esseyal
+ar;دار السالم;Dar Essalam
+ar;لـﯖريفات;Legreivatt
+ar;الركنه 1;Rakna Un
+ar;وورو صنـﯖاري;Wouro Sangaré
+ar;آكجوله;Agjoula
+ar;امبيزيره;Mbeizira
+ar;بغداد;Baghdad
+ar;امبومي;Mbomé
+ar;امسيـﯖم ابل;Mseiguem Peul
+ar;ولد الرامي 3;Ould Erami Trois
+ar;ولد جدار;Ould Jedar
+ar;دباي سيليوي;Debay Siliwé
+ar;الفدره أهل صالح;Elvedra Ehel Saleh
+ar;توﯔ اتقير;Toug Tghir
+ar;امبدان كلومبي;Mbidane Golombé
+ar;اندام بانجوﯖو;Ndam Bandiougou
+ar;سنتيان;Sinthiane
+ar;أرون;Erone
+ar;أهل بلال;Ehel Blal
+ar;مد الله;Medalla
+ar;كرواط;Karwatt
+ar;الخظاره 1;Khadhara Trois
+ar;أهل عثمان;Ehel Ethmane
+ar;لكريكره;Lekreikra
+ar;أهل دنبه;Ehel Demba
+ar;دار البيضة;Dar Elbeidha
+ar;ﯖورل ﯖوبي 1;Gourel Gobi Un
+ar;أهل أحيمد;Ehel Ahaimed
+ar;أدباي لحسي;Debay Lehsey
+ar;وورو باتيلي;Wouro Bathili
+ar;باتي بيرام;Paté Birane
+ar;وورو امبيبي;Wouro Mbaibé
+ar;لحريطاني;Lehraitani
+ar;البنكا 1;Elbenga Un
+ar;ولد بومبا ولد جدو;Ould Bomba Ould Jidou
+ar;أهل لمرابط;Ehel Lemrabett
+ar;تغادة;Teghada
+ar;ستيان بروجي;Sinthiane Boroudji
+ar;انخيله 1;Nkhaila Un
+ar;العدلة;Eladla
+ar;ادياكي صمبا بولدا;Diagui Samba Bouldé
+ar;ارخوخه;Rkhoukha
+ar;امبولي المطّايره;Mbouli Elmetaira
+ar;لحرج دمدم;Lehraj Demdem
+ar;وورو للدو;Wouro Leldo
+ar;مدن لقلال;Medene Leghlal
+ar;امبولي ووري غوري;Mbouli Wouro Gouri
+ar;ابريكه البيضان 2;Braika Elbidhane Deux
+ar;أهل عبيدي;Ehel Abeidi
+ar;سابوسيري 2;Saboussiré Deux
+ar;ابريكه فولبي 2;Braika Foulbé Deux
+ar;كلوير 2;Gueleweir Deux
+ar;عرفة;Arava
+ar;وندو بوكي;Wendou Boki
+ar;كوبي مودي 1;Gopou Modi Un
+ar;ولد جدو كانكي;Ould Jidou Ganki
+ar;العرك;Elerg
+ar;ولد جدو أهل الخي;Ould Jidou Ehel Elkhay
+ar;الحرة;Elhora
+ar;أهل واندو;Ehel Woindou
+ar;الطيبات;Teyibatt
+ar;بومرجن;Boumarjene
+ar;النزاهة;Nezaha
+ar;وندو كوبي;Wendou Goubé
+ar;دماغا البيضان;Demagha Elbidhane
+ar;ممدو غور;Mamadou Gor
+ar;أرغاوه;Arghaw
+ar;بيل;Byel
+ar;ويد آمور أهل مربه;Ouweid Amour Ehel Merba
+ar;اهل برو 2;Ehel Barou Deux
+ar;ابلا جميل 2;Blajmil Deux
+ar;كورل دمبا;Gourel Demba
+ar;دارا دوسو;Dara Doussou
+ar;امبيقيرت ابلال;Mbeighirett Blal
+ar;اشطيبه;Chteiba
+ar;المتعيلك 2;Elmetailag Deux
+ar;تكتاكة;Tektaka
+ar;أويد آمور أهل كوتي;Ouweid Amour Ehel Kouti
+ar;أهل ألمين;Ehel Elemine
+ar;امبيسان 2;Mbaissane Deux
+ar;يرو;Yéro
+ar;كلو;Kelou
+ar;امصب انحل;Msab Enhal
+ar;تبال 3;Tabal Trois
+ar;افريع الكتان;Vréa Elkitane
+ar;غلالا;Galala
+ar;موتو كومالو;Mouto Goumalo
+ar;اندوملي أهل السالم;Ndoumeli Ehel Salem
+ar;نديارون وورو بندو;Ndiarone Wouro Boundou
+ar;سولوقو 2;Souloughou Deux
+ar;ادييكوني;Dieigouni
+ar;موليسي فولبي 1;Molissino Foulbé Un
+ar;البصرة;Elbasra
+ar;وورو يوبا;Wouro Youba
+ar;صانكو;Sankou
+ar;المتعيلك أهل جديدو;Elmetailag Ehel Jdeidou
+ar;لبواره بريات;Leboira Beryatt
+ar;مارسي;Marseille
+ar;بوتا إفلان;Bota Ivoulane
+ar;امبيسان 1;Mbaissane Un
+ar;آكنيتير سرمان باديو باري;Agneitir Sirmane Bandiou Barry
+ar;كامبماه;Campement
+ar;موجي 1 كراج;Moudji Un Garage
+ar;أهل عيسى بابا;Ehel Issababa
+ar;وورو بيري;Wouro Béri
+ar;المصقول;Elmesgoul
+ar;يرلابه;Yirlabé
+ar;لمولح عطشان;Lemouleh Atchane
+ar;اكصر الحاج;Gsar Elhaj
+ar;كوديول 2;Koudiol Ithnayn
+ar;صبو توتي;Sabou Touti
+ar;صبو وندو;Sabou Wendou
+ar;زقره;Zaghra
+ar;امباي سي;Mbaye Sy
+ar;جمو المسفّرين;Gemou Elmoussafrine
+ar;لعوينات;Leaweinatt
+ar;أم الهيدي;Oum Elheidi
+ar;أهل برو 1;Ehel Barou Un
+ar;أهل معطله;Ehel Maetala
+ar;أولاد ألمين;Awlad Elemine
+ar;صودو كانكي;Soudou Ganki
+ar;مدن بوبو;Medene Boubou
+ar;وورو مالك;Wouro Malik
+ar;تبال 1;Tabal Un
+ar;شلخت أكودو;Chelkhett Egoudou
+ar;آكني البرد 4;Aguini Elberd Quatre
+ar;خوتي;Khoté
+ar;حاسي النخلة;Hassi Enakhla
+ar;اسرانكوات وامبابي;Srankouatt Wambabé
+ar;عزب إفلان;Azba Ivoulane
+ar;شيا 1;Cheya Un
+ar;النَبْيَه;Nebya
+ar;امبولي دار النعيم;Mbouli Dar Naim
+ar;ابلا اجميل;Blajmil
+ar;انينتو 1;Nientou Un
+ar;تبال 2;Tabal Deux
+ar;وورو عبد الرحمن;Wouro Abdarahmane
+ar;كاديل زكريا 1;Kadiel Zakarya Un
+ar;ركل;Rakel
+ar;تغادة المدن;Taghada Elmedene
+ar;بلخدود;Belekhdoud
+ar;لبحيرة 2;Lebheira Deux
+ar;ولد الرامي فولبي;Ould Erami Foulbé
+ar;صيدو فرانس;Saidou Frans
+ar;كوديول 3;Koudiol Trois
+ar;أهل لكحل;Ehel Lekhal
+ar;امبولي جاوبه;Mbouli Diawbé
+ar;آلينا;Aleina
+ar;انداو دمبا موري;Ndaw Demba Mori
+ar;انينتو 2;Nientou Deux
+ar;شلخة آمور;Chelkhett Amour
+ar;لفكارين;Lefkarine
+ar;بوقربه;Bouguerba
+ar;بوسيابه;Bosséyabé
+ar;ورو ما إفلان;Wouro Ma Peul
+ar;أهل عبيد الله;Ehel Abeidallah
+ar;صابورا 3;Saboura Trois
+ar;الحاسي لبيض;Hassi Lebyadh
+ar;وورو سيليبه;Wouro Siloubé
+ar;انحاسه;Nhassa
+ar;كوبي مودي 2;Gopou Modi Deux
+ar;تينلي;Thiéneli
+ar;كورل فولبي;Gourel Foulbé
+ar;أهل اديم;Ehel Ediem
+ar;كمو 2;Gemou Deux
+ar;بوقربه;Bou Guerba
+ar;أنديارون فاد بوبو;Ndiarone Fad Boubou
+ar;بوقربه أهل مامور;Bou Guerba Ehel Mamour
+ar;أهل سيدي أحمد انكي;Ehel Sidahmed Ngui
+ar;انينتو 3;Nientou Trois
+ar;ادياكي فولبي ادييري;Diagui Foulbé Diéri
+ar;وندو انييبي;Wendou Nyibi
+ar;وورو كرادجي;Wouro Karadji
+ar;أهل بوبه ديدي;Ehel Boiba Didi
+ar;لكنيبه;Legneiba
+ar;كورل سولي;Gourel Soulé
+ar;كاديل الكرفه;Gadil Elgarva
+ar;دبيا;Debya
+ar;احسي إفلان;Hsey Ivoulane
+ar;عين لكواص;Aine Legwass
+ar;الإسلام;Lislam
+ar;بافولبي لوتيد;Bafoulbé Louteid
+ar;انديارون اجياومبه;Ndiarone Diawambé
+ar;بورلل;Borela
+ar;امباركو الحاج صمبا يرو جلو;Mbargou Elhaj Samba Yéro Diallo
+ar;وورو امباي;Wouro Mbaye
+ar;آنتين النزاهة;Antene Enezaha
+ar;كتان إفلان;Elkitane Ivoulane
+ar;التيسير;Teissir
+ar;لعشوشه;Laechoucha
+ar;التيدومه الماخظ;Teidouma Elmakhedh
+ar;بوعمامة;Bouamama
+ar;أهل مالك;Ehel Malik
+ar;دلول صيدو;Dolol Saidou
+ar;امديبيكه;Mdeibika
+ar;أهل سوكابا;Ehel Soukabé
+ar;السعادة;Saada
+ar;حاسي البقر الواد;Hassi Bagra Elouad
+ar;آرشان البيضان;Archane Elbidhane
+ar;آكنيتير افريبه;Agneitir Vraiba
+ar;أدرك الطلح;Ederg Etalh
+ar;انخيله 3;Nkhaila Trois
+ar;دماغا فولبي;Demagha Foulbé
+ar;الصالحين;Salihine
+ar;كوبو بارينابي;Gopou Barinabé
+ar;آكني البرد;Aguini Elberd
+ar;أهل عبيد;Ehel Abeid
+ar;وورو صمبولي;Wouro Samboulé
+ar;عين لعذاب;Aine Dhaba
+ar;وورو هسو;Wouro Hesso
+ar;الإسلام;Elislam
+ar;الشلخة البيظة;Chelkha Elbeidha
+ar;إديشف;Ideichef
+ar;صابورا 2;Saboura Deux
+ar;تيشطاية إفلان;Teichetaya Ivoulane
+ar;بلل سينو;Belel Séno
+ar;جوبالي التحتاني;Diuoubali Etahtani
+ar;أهل ابن وهيب;Ehel Ebnou Wehib
+ar;صابورا 1;Saboura Un
+ar;وورو ممدو سولي;Wouro Mamadou Soulé
+ar;عمر انياكي;Oumar Niaki
+ar;لبواره إفرا;Leboira Ifra
+ar;صمبا ساقو;Samba Saghou
+ar;امبوروبي;Mborobé
+ar;بوبكر;Boubakar
+ar;كرفه فولبي;Garva Foulbé
+ar;ونديول;Wendeyol
+ar;كيديول;Guédiéwal
+ar;وورو امباري;Wouro Mbaré
+ar;أهل بولحيه;Ehel Boulehya
+ar;أهل مسعود;Ehel Messoud
+ar;مدينة كرفه;Medina Garva
+ar;كوتيي;Kothié
+ar;لبحيرة 1;Lebheira Un
+ar;المدروم;Elmedroum
+ar;انخيله 2;Nkhaila Deux
+ar;أويد آمور الرومده;Ouweid Amour Eroumda
+ar;بيتل;Bitel
+ar;راس الفيل;Rass Elvil
+ar;أماقا أهل المختار ولد بوبكر;Amaga Ehel Mokhtar Ould Boubakar
+ar;موليسي فولبي 2;Molissino Foulbé Deux
+ar;يوبوالينا;Youboilene
+ar;بوتا 1;Bota Un
+ar;كليله;Keleila
+ar;يوكي إفلان;Yewgui Ivoulane
+ar;حمدلاي;Hamdalay
+ar;أهل مولل;Ehel Molel
+ar;بنعمان 2;Benaemane Deux
+ar;اندوملي أهل موسى;Ndoumeli Ehel Moussa
+ar;ابوالين;Boilene
+ar;كرفافه;Gourvava
+ar;اركيك;Rgueig
+ar;وورو ديدي;Wouro Deidi
+ar;تيدومة فولبي;Teidouma Foulbé
+ar;لبودي;Leboudi
+ar;ويد آمور أهل اسويلك;Ouweid Amour Ehel Sweilik
+ar;موجي 3;Moudji Trois
+ar;ابلا جميل 1;Blajmil Un
+ar;هولي هوتا;Houlé Hota
+ar;واعرت أهل لفضيل;Waerett Ehel Levdhil
+ar;شلخت دافو;Chekhet Edavou
+ar;لبواره;Leboira
+ar;امبيغرت السلام;Mbeighirett Esselam
+ar;صيدو تبارا;Saidou Tabara
+ar;انضو مودي;Ndaw Modi
+ar;اشيلخة;Chleikha
+ar;وورو دويا;Wouro Douya
+ar;أهل صمبه;Ehel Samba
+ar;يوكي 2;Yewgui Deux
+ar;انخيله 4;Nkhaila Quatre
+ar;لمبغدد;Lembaghded
+ar;سيف الواسطة;Seif Elwasta
+ar;مامل;Mamel
+ar;مامل 1;Mamel Un
+ar;لحرج;Lehraj
+ar;تيدومة ازبيرات;Teidouma Zbeiratt
+ar;امبيغرت الصحابة;Mbeighirett Essahaba
+ar;وورو صال صمبا;Wouro Sall Samba
+ar;أهل الحسن;Ehel Elhassene
+ar;الملكى;Elmelga
+ar;باب السلام;Bab Esselam
+ar;صيدو أهل سيدي;Saidou Ehel Sidi
+ar;كاديل زكريا 2;Kadiel Zakarya Deux
+ar;دخلت كلشي;Dakhlett Kelchi
+ar;بنعمان;Benaemane
+ar;وورو جوبه;Wouro Diawbé
+ar;ابريكه فولبي 1;Braika Foulbé Un
+ar;بوسيابه;Bosseyabé
+ar;المسلم 1;Elmeslem Un
+ar;لمولح إفلان;Lemouleh Ivoulane
+ar;فولبي ادييري;Foulbé Diéri
+ar;البنكا 2;Elbenga Deux
+ar;الصفا;Sava
+ar;أذن الفرس;Oudhene Levrass
+ar;شكاتا;Chekata
+ar;المسلم 2;Elmeslem Deux
+ar;كنكو;Kenkou
+ar;تبال 4;Tabal Quatre
+ar;وادي النعاج;Ouad Eneaj
+ar;الفلوجة;Elvelouja
+ar;كلوير 1;Gueleweir Un
+ar;ابلا جميل 3;Blajmil Trois
+ar;آكني البرد 1;Aguini Elberd Un
+ar;تزكره;Tezekra
+ar;اسرانكوات صاديورو;Srankwatt Sadioro
+ar;كاديل كراج;Gadil Garaj
+ar;امبولي أهل بارك;Mbouli Ehel Barik
+ar;نعمة معاوية;Néma Mouawiya
+ar;صبو البيضان;Sabou Elbidhane
+ar;أويد آمور بويبه;Ouweid Amour Boibou
+ar;يوكي 1;Yewgui Un
+ar;المتعيلك أدباي;Elmetailag Edebay
+ar;عزب البيضان;Azba Elbidhane
+ar;دماغا البيضان 2;Demagha Elbidhane Deux
+ar;تيلي امبومي;Thilé Mbomi
+ar;آرشان دمبوبه;Archane Dembouba
+ar;حاسي غابون;Hassi Gaboune
+ar;آكني البرد 2;Aguini Elberd Deux
+ar;كرامتو;Karametou
+ar;ادياكي عمر نوح;Diagui Oumar Nouh
+ar;أويد اجريد;Ouweid Ejrid
+ar;اعوينات صدره البيضان;Aweinatt Sedra Elbidhane
+ar;سولوقو 1;Souloughou Un
+ar;آكنيتير كالورو;Agneitir Galorou
+ar;آرشان إفلان;Archane Ivoulane
+ar;افريع الكتان أهل امبارك;Vréa Elkitane Ehel Mbarek
+ar;مسيل لحبش;Messeyel Lehbech
+ar;شيا 2;Cheya Deux
+ar;ول جدو إفلان;Ould Jidou Ivoulane
+ar;اندوملي أهل النافع;Ndoumeli Ehel Enavae
+ar;انجابل;Ndiabel
+ar;ﯖانكي 2;Ganki Deux
+ar;باتوكون 2;Patoukone Deux
+ar;نيومل باروبي;Niomel Barobé
+ar;لكليبية;Lekleibiya
+ar;الشرفاء;Chorfa
+fr;Fondé Diéri;Fondé Elimane

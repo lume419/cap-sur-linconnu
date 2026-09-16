@@ -1,0 +1,1417 @@
+bm;Sirakɔrɔ;Sirakoro
+bm;Nsensana;Cinzana Gare
+bm;Zelabugu;Ziélabougou
+fr;Zéniébougou;Zinyébougou
+fr;Zignébougou;Zinyébougou
+fr;Zempiéla;Zampiéla
+fr;Zenpiéla;Zampiéla
+fr;Dempiéla;Zampiéla
+bm;Zeguwa;Zégoua
+fr;Zansona;Zazouna
+bm;Zancɛbugu;Zantiébougou
+bm;Zankɛbugu;Zankèbougou
+fr;Zangouala;Zangoula
+fr;Ravina;Zanfina
+fr;Zabadiana;Zanbadyana
+fr;Safa;Zana
+fr;Zambougou;Zanbougou
+fr;N'Zambougou;Zanbougou
+fr;Zambougou;Zinbougou
+fr;Zanbougou;Zinbougou
+fr;Zambala;Zanbala
+fr;Zafina;Zanfina
+bm;Yuwaru;Youwarou
+bm;Yɔrɔso;Yorosso
+fr;Yom-Yom;Yom Yom
+fr;Yola;Yoala
+fr;Yérélébougou;Yérétébougou
+bm;Yendume;Yenndouma
+bm;Yelimani;Yélimané
+fr;Télékola;Yélékéla
+bm;Yelekebugu;Yélékébougou
+fr;Yéguétéré;Yéguétéré Ntiobougou
+fr;Yédala;Diédala
+fr;Yatia;Yatéa
+bm;Yarankabugu;Yarangabougou
+bm;Yangaso;Yangasso
+fr;Yaïnané;Yahimané
+bm;Wuɲan;Ouonian
+fr;Oundyla;Wondya
+fr;Woloni;Wôlôni
+fr;Ouoloni;Wôlôni
+bm;Wɔlɔnin;Wôlôni
+fr;Ouoloni;Wolomé
+bm;Wɔlɔjɛdo;Ouolodiédo
+fr;Wolobougou;Zanakorobougou
+fr;Wétoni;Ouéto
+fr;Ourogouréli;Wérékéla
+fr;Wennkala;Vinkala
+fr;Wenkala;Vinkala
+fr;Wendoubougou;Wondobougou
+fr;Ouélingara;Wélengara
+fr;Ouélengara;Wélengara
+fr;Wékorobougou;Ouékorobougou
+fr;Gouénina;Ngouénina
+fr;Fasonbougou;Ngouénina
+fr;Wayanbougou;Wayambougou
+fr;Warsala;Wassala
+fr;Warké;Wérékébougou Tigangoni
+fr;Ouarkébougou;Wérékébougou Tigangoni
+fr;Ouakébougou;Wérékébougou Tigangoni
+fr;Ouarké;Wérékébougou Tigangoni
+fr;Warana;Ouarana
+fr;Warabougou;Ouarabougou
+fr;Wanino;Ouagano
+fr;Waloguéla;Ouéléguéla
+fr;Walila;Oualila
+fr;Wakoro;Ouokoro
+fr;Vélakoura;Wélakoura
+fr;Ouélakoura;Wélakoura
+fr;Tiérona;Tyorona
+fr;Tiongo;Tyongo
+fr;Thion;Tyon
+fr;Tio;Tyo
+fr;Tyéssola;Tyésola
+fr;Tiessola;Tyésola
+fr;Tiengala;Tyènkola
+fr;Tyendo;Tiendo
+fr;Tiende;Tiendo
+fr;Tyénabougou;Tiénabougou
+fr;Tienembougou;Tiénabougou
+fr;Tiembougou;Tiénabougou
+bm;Cɛn;Tyèn
+fr;Tiékoumela;Tyékouméla
+fr;Tiefola;Tyafola
+fr;Tousona;Touzona
+bm;Tusɔna;Touzona
+fr;Tourtaroma;Barokounda
+fr;Toungakoura;Tounga Coura
+bm;Tona;Touna
+fr;Touna;Diouladougou Touna
+fr;Toumidjourmé;Timbidiouromé
+fr;Toumboundounto;Toumboudioto
+fr;Toumbinassou;Tombinassou
+bm;Tumanibuguda;Toumanibougouda
+bm;Tukɔtɔ;Toukoto
+bm;Tukɔrɔ;Toukoro
+bm;Túba;Touba
+fr;Tonséguéla;Tosséguéla
+bm;Tusegela;Tosséguéla
+ha;Ƙauyen Toroli;Toroli
+fr;Torokorobougou;Torokorobougou Est
+bm;Torokɔrɔbugu;Torokorobougou Est
+bm;Tɔ́rɔkɔrɔbugu;Torokorobougou Est
+bm;Tɔnɔkalakura;Tonokalakoura
+bm;Tɔnka;Tonka
+bm;Tɔnga;Tonga
+fr;Tounga;Tonga
+fr;Tonégé;Tonégué
+bm;Tɔndibi;Tondibi
+bm;Tomiɲan;Tominian
+es;Tombuctú;Timbuktu
+ar;تمبكتو;Timbuktu
+fr;Tombouctou;Timbuktu
+it;Timbuctù;Timbuktu
+nl;Timboektoe;Timbuktu
+pt;Timbouctou;Timbuktu
+pt;Tombuctu;Timbuktu
+bm;Tumutu;Timbuktu
+fr;Tomadjima;Toumadjima
+bm;Tɔkɔ;Toko
+fr;Tokoya;Togoya
+fr;Togouya;Togoya
+fr;Taoya;Togoya
+bm;Togu;Togou
+fr;Tofolani;Tofola
+fr;Tofota;Tofola
+fr;Klé;Tlé
+fr;Tissala;Tisala
+fr;Nokolo Sirakoni;Tirakoroni
+bm;Cɔribugu;Tioribougou
+fr;Tiokanbougou;Tiokombougou Est
+fr;Tiokombougou;Tiokombougou Est
+fr;Tintora;Saorané Tintokan
+fr;Tinntokan;Tintokan
+fr;Tinntila;Tintila
+fr;Tinntiba;Tintiba
+fr;Tinnko;Tinko
+fr;Tiniana;Tianniana
+fr;Tingoï;Tingoyé
+bm;Timisa;Timissa
+fr;Tigina;Tiguina
+fr;Tiguya;Tiguia
+fr;Tiguiya;Tiguia
+fr;Tiétembougou;Tiétinbougou
+fr;Tiétimbougou;Tiétinbougou
+fr;Tiéssémabougou;Tiéssamabougou
+fr;Tiesamabougou;Tiéssamabougou
+fr;Tiéssémabougou;Tièssamabougou
+fr;Tiéssémabougou;Nèguèbabougou Daban
+bm;Cɛparandugu;Tiéparandougou
+fr;Tienkongo;Tyinkongo
+fr;Tiékongo;Tyinkongo
+bm;Tiɲɛkungo;Tyinkongo
+bm;Cɛmɛna;Tiéména
+fr;Tiékouroula;Tiékourala
+fr;Tiécourala;Tiékourala
+fr;Tiékongoba;Tyinkongoba
+fr;Tiékoungoba;Tyinkongoba
+fr;Tenéna;Tiéfina
+fr;Tiafara;Tiéfala
+bm;Cɛfala;Tiéfala
+fr;Tiebilendougou;Tiéblébougou
+fr;Tibassa;Tibèssa
+fr;Tiamougou;Tiambougou
+fr;Tiola;Tiala
+fr;Tiégala;Tiagala
+fr;Tiébala;Tiagala
+fr;Tiafahina;Tiafina Est
+fr;Tiafina;Tiafina Est
+bm;Tesaliti;Tessalit
+fr;Tèribougou;Térébougou
+bm;Teredugu;Térédougou
+fr;Téninba;Ténimba
+bm;Tɛnɛnkun;Ténenkou
+fr;Ténembougou;Ténenbougou
+fr;Tonembougou;Ténenbougou
+bm;Tɛnɛ;Téné
+fr;Téléladji;Tléladji
+bm;Tasɔna;Tassona
+fr;Tarakénié;Trakénié
+fr;Torobokoro;Tarabakoro
+fr;Tapiri;Tapiréla
+bm;Tawusa;Taoussa
+es;Taoudeni;Taoudenni
+fr;Taoudeni;Taoudenni
+ar;تودني;Taoudenni
+ar;تَوْدِنّي;Taoudenni
+ar;تودنّي;Taoudenni
+ar;تاودني;Taoudenni
+bm;Tawudeni;Taoudenni
+fr;Taoudénit;Taoudenni
+fr;Tanboko;Tamboko
+fr;Tanbala;Tambala
+fr;Tanbadala;Tambadala
+fr;Tambia;Sambaya
+fr;Tambatinndi;Tambatinti
+en;Tambacara;Tambakara
+ha;Garin Tambacara;Tambakara
+nl;Tambacara;Tambakara
+fr;Tamara;Kamala
+bm;Tàmanin;Tamani
+bm;Tàmanin;Tamani-Soba
+fr;Tamale;Tamalé
+bm;Takuti;Takouti
+fr;Tokoumana;Takoumala
+fr;Tagama;Tagana
+bm;Ja-Bozo;Taga-Diabozo
+fr;Tafissiriga;Tafsirga
+bm;Tabu;Tabou
+bm;Sɔbugu;Swobougou
+fr;Sounsounkoradié;Sounsounkoradie
+fr;Sounndonndiala;Soundondiala
+fr;Soukoutali;Soukoutali 1
+bm;Sugunba;Sougoumba
+pt;Sugumba;Sougoumba
+bm;Sugula;Sougoula
+fr;Bouba;Souba
+bm;Sotuba;Sotouba
+bm;Sorokɔrɔ;Sorokoro
+fr;Sarakoroni;Sorokoro
+bm;Sɔrɔna;Sorona
+fr;Soniébougou;Sonièbougou
+bm;Soɲɛbugu;Sonièbougou
+fr;Seno;Soné
+bm;Sɔ́mɔnɔso;Somonosso
+fr;Solonhoto;Solonkoto
+fr;Solinnta;Solinta
+fr;Siola;Sola
+fr;Sala;Sola
+fr;Ounga;Sokourani
+bm;Sókura;Sokoura
+bm;Sokɔrɔ;Sokoro
+fr;Sokorala;Sokorola
+bm;Sogoninkɔ;Sogoniko
+fr;Swala;Sokolo
+fr;Soala;Sokolo
+bm;Sokolon;Sokolo
+bm;Sokobiya;Sogobia
+bm;Sokolonbugu;Sokolombougou
+bm;Sɔbugu;Sobougou Fittobe
+fr;Sirimanbougou;Sérimanbougou
+fr;Sirigidya;Siriguidya
+fr;Siratouma;Faradou
+fr;Siramindoulou;Siranidoulou
+fr;Siraniboulou;Siranidoulou
+bm;Sirakɔrɔnin;Sirakoroni
+fr;Sirakoro;Sirakoroni
+fr;Kolokola;Sirakoroni
+bm;Sirakɔrɔla;Sirakorola
+fr;Sirakorobougou;Markadougou Sirakoro
+fr;Sikoroni;Markadougou Sirakoro
+bm;Sirakɔrɔba;Sirakoroba
+fr;Sirakoro;Sirakoroba
+fr;Sikoro;Sirakoroba
+bm;Sìrakɔrɔ;Sirakoro
+bm;Nsìrakɔrɔ;Sirakoro
+bm;Sirakɔrɔ;Sirakoro Petit
+bm;Sìrakɔrɔ;Sirakoro-Tiongoni
+bm;Nsìrakɔrɔ;Sirakoro-Tiongoni
+fr;Sirakoronianandougou;Sirakoro
+fr;Sirakoronianandoug;Sirakoro
+fr;Sirakorobougou;Sirakoro
+fr;Sirafia;Sirafla
+fr;Sirablou;Sirablo
+fr;Siradobougou;Sirababougou
+fr;Siokoro;Syokoro
+fr;Siobougou;Syobougou
+fr;Sinyana;Siana
+fr;Siniana;Siana
+bm;Sinsinna;Sinsina
+fr;Sinnsinn;Sinsin
+fr;Sinnsine;Sinsin
+fr;Singué;Seguin
+fr;Sinéni;Sinèni
+fr;Senoni;Sinèni
+fr;Sénébougou;Sinébougou
+fr;Sindébougou;Sentébougou
+fr;Sindala;Sintala
+bm;Sikɔrɔ;Sikoro
+bm;Sikɔrɔnin;Sikoroni
+bm;Sikaso;Sikasso
+ar;سيكاسو;Sikasso
+bm;Sigiri;Siguiri
+fr;Siguidoulou;Siguidlo
+fr;Siguidolo;Siguidlo
+fr;Sigidoulou;Siguidlo
+fr;Siennsouroula;Syinsorola
+fr;Siensouroula;Syinsorola
+fr;Sibinndi;Sibindi
+fr;Sienkoro;Siankoro
+fr;Seyna;Séyna Niamazana
+fr;Seïna;Séyna Niamazana
+bm;Seware;Sévaré
+fr;Sérouala;Sériouala
+fr;Séroualaba;Sériouala
+fr;Sérossébendi;Sérossébindi
+fr;Sèribougou;Séribougou
+fr;Sérhokoto;Sékokoto
+fr;Séghokoto;Sékokoto
+fr;Sérébéla;Séribila
+fr;Séréboula;Séribila
+fr;Sintala;Séntéla
+bm;Senu;Sénou
+en;Sendégué;Sindégué
+nl;Sendégué;Sindégué
+fr;Sélouko;Soliko Sacko
+fr;Sèlouma;Soliko Sacko
+fr;Sélinnkégni;Sélinkényi
+fr;Sélébougou;Kala Solibougou
+fr;Siribougou;Kala Solibougou
+fr;Kalla-Soalibougou;Kala Solibougou
+fr;Kalassoribougou;Kala Solibougou
+fr;Noumoubougou;Sékouoré
+fr;Sekokoto;Sékokoto
+fr;Sékan;Sékana
+fr;Sègeye;Sègueye
+fr;Ségéné;Séguéné
+fr;Séguindara;Séguèndara
+fr;Ségèndara;Séguèndara
+fr;Léguendara;Séguèndara
+fr;Séguébougou;Séguibougou
+fr;Ségébougou;Séguibougou
+bm;Sɛgɛn;Ségué
+bm;Segukɔrɔ;Ségoukoro
+bm;Segubugu;Ségoubougou
+es;Segú;Ségou
+bm;Segu;Ségou
+ar;سيغو;Ségou
+ha;Segou;Ségou
+pt;Segou;Ségou
+fr;Ségala Mba;Ségalaba
+en;Séféto;Séfé
+nl;Séféto;Séfé
+bm;Sebekɔrɔ;Sébékoro
+fr;Sébékoro;Sébékoro 1
+bm;Sebekɔrɔ;Sébékoro 1
+fr;Sébékoro;Sébékoro Gouenzéna
+bm;Sebekɔrɔ;Sébékoro Gouenzéna
+fr;Diba;Satifara
+fr;Sassou;Sassoun
+fr;Sassa;Sasa
+fr;Saralébougou;Sakalobougou
+bm;Sansana;Sanzana
+fr;Santaféto;Santafélo
+fr;Sanonkorala;Sanankoroba
+fr;Sanonkorola;Sanankoroba
+bm;Sanankɔrɔba;Sanankoroba
+fr;Sanguénéna;Singuéréna
+bm;Sangarebugu;Sangarébougou
+fr;Sanbéa;Sambéa
+bm;Sanankɔrɔnin;Sanankoroni
+fr;Kabala;Sanankoroni
+fr;Sanankora;Sanankoro
+bm;Sanankɔrɔ;Sanankoro
+fr;Sanankoro;Sanankoro Kouloubadougou
+fr;Sanando;Sanandio
+fr;Sanambélé;Sanamblé
+fr;Sanambilé;Sanamblé
+bm;Sanamanin;Sanamani
+fr;Sanankoro;Sanakoro
+fr;Sankoro Diadolo;Sanakoro
+bm;Samaɲana;Samaniana
+bm;Samakɔ;Samako
+fr;Sama;Saman
+fr;Sala;Sala-Kotoula
+fr;Safinébougou;Fantambougou
+fr;Saétinnti;Sayétinti
+bm;Sajola;Sadiola
+bm;Sajɔla;Sadiola
+bm;Sabusire;Saboussiré Madigata
+bm;Sabusire;Saboussiré
+fr;Saboussire;Saboussiré
+fr;Karéwal;Sabéré Mami
+bm;Sábalibugu;Sabalibougou
+fr;Pityola;Pitiola
+bm;Npeserebugu;Mpéssérébougou
+fr;Pékana;Pèguèna Deux
+fr;Pèguèna 2;Pèguèna Deux
+en;Oussoubidiagna;Oussoubidiania
+nl;Oussoubidiagna;Oussoubidiania
+fr;Oussegui;Ousségui
+fr;Ourali Diaranké;Wouraliba
+fr;Ourali-Diaranké;Wouraliba
+fr;Ourali-Banbara;Wouraliding
+bm;Welesebugu;Wolossébougou
+bm;Wɔlɔdo;Ouolodo
+fr;Ouola;Wola
+fr;Ouala;Wola
+fr;Ouo;Wô
+fr;Ouéla;Wéla
+fr;Ouani;Wani
+fr;Ouakoro;Wakoro
+fr;Ouakou;Wakoro
+fr;Nzanina;Zanina
+fr;N'Zona;Zana
+fr;Nzana;Zana
+bm;Ɲumala;Nioumala
+fr;Niema;Nyomo
+fr;Niola;Nyola
+fr;Nyentékébougou;Niniekebougou
+fr;Nyadoumana;Nyantoumana
+fr;Niantoumana;Nyantoumana
+bm;Ɲámina;Niamina
+fr;Nyamazana;Niamazana
+fr;Nyamazona;Niamazana
+fr;Niannianzana;Niamazana
+fr;Niamanzana;Niamazana
+fr;Nyamana;Niamana
+fr;Nianiana;Nyamana
+bm;Ɲamakɔrɔ;Niamakoro
+fr;Niamadié;Nyamadjo
+fr;Nyama;Niama
+bm;Ɲagadina;Niagadina
+fr;Niamouroutiéla;Nyabouridjila
+fr;Ntiébougou;Ntyébougou
+fr;N'Dyla;Ntya
+fr;Ngila;Ntya
+fr;Ntossanso;Ntozanso
+fr;Ntogon;Ntogona
+fr;Niobougou;Ntobougou
+fr;N'Tobougou;Ntiobougou
+fr;N'Tiobougo;Ntiobougou
+fr;Ntila;Ntjila
+bm;Ncila;Ntjila
+fr;Ntiga;Ntigan
+fr;Ntégédo;Ntéguédo
+fr;N'Djila;Ntchila
+fr;Ntchila;Ntjila
+fr;Neila;Ntjila
+fr;Tchibougou;Ntchibougou
+fr;Mpébougou;Noumousso
+bm;Nɔnsɔnbugu;Nossombougou
+fr;Norholo;Nogholo
+fr;Nokolo;Nogholo
+bm;Nɔnkɔn;Nonkon
+fr;Nogossiré;Noukoussiré
+fr;Nanfoma;Nofoura
+fr;Kourala;Nkourala
+fr;Njibléna;Djibléna
+fr;Nirouana;Nirouani
+en;Nioro du Sahel;Nioro
+bm;Ɲòoro;Nioro
+fr;Nioro-du-Sahel;Nioro
+bm;Ɲɔnɔ;Niono
+bm;Ɲɔna;Niona
+fr;Niékoma;Niokona
+fr;Ninngoni;Ningoni
+fr;Ningom;Ningoni
+fr;Ninnglita;Ninglita
+fr;Ninangouha;Nyinangoufa
+fr;Niéssan;Siminian
+fr;Nienngué;Niengué
+fr;Niendjila;Niandjila
+bm;Ɲɛna;Niéna
+fr;Niéfia;Nyéfia
+bm;Ɲaro;Niaro
+fr;Niarèkoto;Niarékoto
+fr;Niankélé;Nienkélé
+fr;Niamana;Niamala
+fr;Niakouranzana;Niakourazana
+fr;Niakalénessiraya;Niakalinsiraya
+bm;Ɲafunke;Niafunké
+fr;Ngounyana;Mouniana
+bm;Nkuma;Ngouma
+fr;Ngouloumfala;Ngolofala
+fr;Ngolonyébougou;Ngoloniébougou
+fr;N'Golabougou;Ngolobougou
+fr;Molobouabougou;Ngolobabougou
+fr;Ngolala;Ngolola
+fr;Ngolabougou;Ngolobabougou
+fr;Ngdabougou;Ngolobabougou
+fr;Nérébougou;Ngolobabougou
+bm;Ngaara;N'gara
+fr;Gara;Ngara
+fr;N'Gonou;Nganou
+fr;Ngalamana;N'Galamana
+fr;Galama;N'Galamana
+fr;Galofouga;Ngalafouga
+fr;N'Kala;Ngala
+fr;Gabokoro;Ngabakoro
+fr;Gabakoro;Ngabakoro
+fr;Nétiéla;Niétia
+fr;Nérékoroko;Nèrèkoro
+fr;Nérékoro;Nèrèkoro
+bm;Nɛrɛkɔrɔ;Nèrèkoro
+bm;Nɛrɛkɔrɔ;Nérékoro
+fr;Nérékoro;Néréko
+fr;Nènèrèbougou;Nanèrèbougou
+fr;Néguébougou;Néguélabougou
+bm;Nɛgɛla;Néguéla
+fr;Négéla;Néguéla
+fr;Négabougou;Néguébougou
+fr;N'Tola;Ntola
+fr;Ndola;Ntola
+fr;Ndjissimbougou;Ndjisimbougou
+fr;Djissombougou;Ndjisimbougou
+fr;N'Kila;Ntjila
+fr;Ndjila;Ntjila
+fr;N'Tchifina;Ndjifina
+fr;Ndjibougou;Ntjibougou
+bm;Njela;Ndiéla
+bm;Npedugu;Mpèbougou
+fr;Mantchena;Natyana
+fr;Nasséla;Naséla
+fr;Nassila;Naséla
+fr;Naréfilia;Naréfilié
+bm;Nawajɛ;Nawadié
+bm;Nanpala;Nampala
+bm;Nanpala;Kala-Nampala
+fr;Nanpala;Nampala
+fr;Namlabougou;Nampélabougou
+fr;Namadiado;Namadyola
+bm;Mamaribugu;Mamaribougou
+fr;Nale;Nalé
+fr;Nadinso;Niantanso
+fr;Mpolonan;Mpolona
+fr;Piédiana;Mpiédiana
+fr;Mpédiana;Mpiédiana
+fr;Mpiébougou;Mpièbougou
+fr;M'Pétiéla;Mpétyéla
+fr;Mpiéla;Mpéla
+fr;Mpébougoula;Mpiébougoula
+fr;Moussala;Moussala Soninké
+fr;Moussala;Moussala Fatola
+fr;Mourro;Mouro
+bm;Muruja;Mourdiah
+fr;Mourdia;Mourdiah
+bm;Muntugula;Mountougoula
+bm;Muniya;Mounia
+en;Mougna;Mounia
+nl;Mougna;Mounia
+fr;Morla;Moria
+fr;Dioubéto;Moria
+fr;Mouroula;Morila
+fr;Moribougoukoura;Moribougou koura
+bm;Móti;Mopti
+ar;موبتي;Mopti
+bm;Mɔputi;Mopti
+fr;Monsona;Monzona
+fr;Monsombougou;Monsonbougou
+fr;Monkoukoro;Monkonkoro
+fr;Mounkonkoro;Monkonkoro
+fr;Monkokoro;Monkonkoro
+fr;Moninntou;Monintou
+fr;Nianguena;Monguéla
+fr;Nianguéla;Monguéla
+fr;Mongéla;Monguéla
+fr;Molokoni;Diomatènè
+fr;Modikanoudi;Modinkanou Kassé
+fr;Modibaya;Gouroundapé
+fr;Modi;Modin
+fr;Mokoyabougou;Moabougou
+fr;Makaiabougou;Moabougou
+bm;Misira;Missira
+fr;Messala;Missala
+fr;Mina;Mima
+fr;Mètanbougou;Métimbougou
+fr;Montobougou;Métimbougou
+fr;Mercoya;Merkoya
+fr;Mercoïa;Merkoya
+fr;Méninko;Mininko
+en;Menaka;Ménaka
+ar;منكا;Ménaka
+es;Menaca;Ménaka
+de;Menaka;Ménaka
+ha;Menaka;Ménaka
+pt;Menaca;Ménaka
+fr;Méréna;Mèna
+fr;Missala;Mémissala
+bm;Madinɛkura;Médine Koura
+bm;Medinakura;Médine Koura
+bm;Medini;Médine
+bm;Madinɛkura;Médina Koura
+bm;Medinakura;Médina Koura
+bm;Nbewani;Mbèwani
+fr;Mbéréouala;Mbéréwala
+fr;M'pérentiola;Mbérédyoula
+fr;M'Pérédiola;Mbérédyoula
+fr;Mpéridiola;Mbérédyoula
+bm;Masigi;Massigui
+fr;Massaransama;Masaransama
+fr;Nasaransama;Masaransama
+bm;Masala;Massala
+fr;Massala;Masala
+fr;Massakoni;Masakoni
+fr;Masakani;Masakoni
+fr;Bouya Bougou;Masakoni
+fr;Massabougou;Masabougou
+fr;Massabala;Masabala
+bm;Marakala;Markala
+fr;Maribougoukoro;Maribougou Koro
+fr;Mandribougou;Maribougou
+bm;Moribabugu;Moribabougou
+fr;Marébougou;Moribougou Trois
+fr;Moribougou 3;Moribougou Trois
+bm;Maɲanbugu;Manyanbougou
+bm;Maɲanbugu;Magnambougou
+fr;Mansonkolo;Monsonkolon
+fr;Mansona;Manzona
+fr;Mansoua;Manzona
+fr;Mansadi;Massadji
+fr;Manndakoto;Mandankoto
+bm;Miɲon;Mignon
+bm;Mɔninpebugu;Moninnpébougou
+fr;Manila;Manéla
+fr;Mangadoumfa;Tougougnou
+bm;Manɛ;Mané
+fr;Manakongo;Manakoumbo
+fr;Mahinandi;Mahinanding
+fr;Mahana;Makana
+fr;Mabana;Makana
+bm;Màafɛya;Mafèya
+fr;Madiné;Madina
+fr;Madïawaya;Madihawaya
+bm;Lutana;Loutana
+bm;Lulo;Loulo
+fr;Lougui;Néma
+fr;Loubana;Loumbama
+fr;Loboala;Lobouala
+fr;Linnguékoto;Linguékoto Deux
+fr;Linguékoto 2;Linguékoto Deux
+fr;Lakanfia;Tabakoto
+fr;Lahanti;Lahandi
+en;Labbezenga;Labbezanga
+nl;Labbezenga;Labbezanga
+fr;Kyéné;Kiènè
+fr;Kouo;Kwô
+fr;Kouanzana;Kwazana
+bm;Kɔla;Kola
+fr;Krikissama;Diba
+bm;Kucala;Koutiala
+bm;Kuruma;Kourouma
+fr;Kourouloli;Kouroulou
+fr;Kouroukotodji;Koutoukotodji
+fr;Kourouba;Kourouba Goroli
+bm;Kuruba;Kourouba
+fr;Kourokorodji;Korokorodji
+fr;Kournipi;Kourounifing
+bm;Kuworo;Kouoro
+fr;Kougnan;Kounian
+fr;Koungoba;Kongoba
+fr;Koundiou;Koundou
+fr;Koundou;Kountou
+fr;Kounana;Konana
+fr;Koumi;Koumkorokono
+bm;Kumantun;Koumantou
+fr;Koumaukou;Koumankou
+fr;Koumankoun;Koumankou
+fr;Koulounbéré;Kouloumbéré
+fr;Kouloumé;Koumbiné Darsalam
+fr;Kouloukorononi;Kouloukoroni
+fr;Koulankoro;Kouloukoroni
+en;Kouloudiengué;Kouloudyènhé
+nl;Kouloudiengué;Kouloudyènhé
+bm;Kùluba;Koulouba
+bm;Kulikɔrɔ;Koulikoro
+ar;كوليكورو;Koulikoro
+bm;Kulukɔrɔ;Koulikoro
+bm;Kula;Koula
+fr;Kougoulikoro;Kongolikouo
+bm;Kubi;Koubi
+bm;Kɔsabugu;Kossabougou
+fr;Kotoubaguintan;Kotouba
+bm;Kɔtuba;Kotouba
+fr;Kotin;Koting
+fr;Kossouroula;Koussouroula
+fr;Kossoumalé;Kossoumalé Fassa
+fr;Koroni Sirakoro;Kononi Sirakoro
+fr;Koroni;Kononi Sirakoro
+fr;Koromba;Kolomba
+fr;Koronba;Kolomba
+fr;Korola;Kouroula
+fr;Korokoro;Kouroukoro
+fr;Korodougou;Korodougou-Markala
+fr;Korodongou;Korodougou-Markala
+bm;Koriyɔme;Koryoumé
+bm;Koriyanze;Korientzé
+fr;Koressinngui;Koréssingui
+fr;Korali;Kodiari
+bm;Kɔnsegela;Konséguéla
+fr;Konsanbougou;Konzambougou
+fr;Konossourou;Konosourou
+fr;Kanossourou;Konosourou
+fr;Konokassi;Konokasi
+bm;Kɔ́nɔdiminin;Konodimini
+bm;Kɔnɔbugu;Konobougou
+fr;Koungodian;Konkoudyan
+fr;Konkou;Konkou Zambougou
+fr;Konkoga;Kankoga
+fr;Kongo;Kongou
+fr;Kango;Kongou
+fr;Kongo;Kango
+fr;Kondora;Mangadounfa
+fr;Kondogo;Koundogo
+fr;Koundou;Koundogo
+fr;Kondognan;Kondonia
+fr;Kondjié;Konzé
+fr;Kondji;Konyi
+bm;Kɔnna;Kona
+fr;Konina;Konâ
+fr;Komorobougou;Koromobougou
+bm;Kɔminɛ;Kominé
+fr;Kombonte;Kombonté
+fr;Koloso;Kolosso
+pt;Coloni;Koloni
+fr;Kolonia;Koloni
+fr;Kolon;Koloni
+bm;Kɔlɔnjɛba;Kolondiéba
+fr;Kolonbinbougou;Kolonpérébougou
+fr;Koulompérébougou;Kolonpérébougou
+fr;Kolombinbougou;Kolonpérébougou
+fr;Kokolani;Kolokani
+bm;Kɔlɔkanin;Kolokani
+fr;Kolinnguémou;Kolinguémou
+bm;Kɔlena;Koléna
+fr;Kouala;Kola-Foulala
+fr;Kola;Kola-Foulala
+fr;Kokounna;Kokouna
+bm;Kɔkuna;Kokouna
+fr;Kouakounna;Kokouna
+fr;Kokouri;Kokoun
+fr;Korodiou;Kokodio
+fr;Koikoni;Soliko Bamana
+fr;Kogolikoro;Kongolikoro
+fr;Kofoulate;Kofoulaté
+fr;Kofi;Kofing
+fr;Kodiéli;Kodjéli
+bm;Kɔdugu;Kodougou
+fr;Kobokoto;Ndiaye Kobokoto
+fr;Kobodinn Koto;Kobodinkoto
+fr;Kobala;Koba
+fr;Kitora;Kitoro
+fr;Kinyan;Kignan
+fr;Kinian;Kignan
+bm;Kiɲan;Kignan
+bm;Kidali;Kidal
+ar;كيدال;Kidal
+fr;Ki;Kin
+fr;Kesséna;Késsana
+fr;Kersignané;Kersiniané
+fr;Gomi;Kériko
+fr;Kéreba;Kéréla
+bm;Kɛrɛna;Kérano
+fr;Kéniélèndo;Kéniélèdo
+fr;Kényékouloumba;Kénié
+fr;Kénié Kolomba;Kénié
+bm;Kɛɲɛba;Kéniéba
+fr;Kenioto;Kénioto
+fr;Kéniékéniéta;Kénékéniéta
+fr;Kéniébandi;Kéniébanding
+fr;Kéniéba Koto;Kéniéba Kouta
+fr;Kenekolo;Kénékoulou
+fr;Kénébougou;Kinibougou
+fr;Kembougou;Kinibougou
+fr;Kénanou;Fénanou
+fr;Kébé;Kémé
+fr;Kembellé;Kembélé
+bm;Ke-Masina;Ké-Macina
+bm;Kɛ̀ɛmasina;Ké-Macina
+bm;Kɛlɛku;Kélékou
+bm;Káyì;Kayes
+ar;كايس;Kayes
+bm;Kayi;Kayes
+fr;Kala;Kaya
+fr;Kaïa;Kaya
+fr;Kantiola;Katiola
+bm;Kacɛna;Katiéna
+bm;Katibugu;Katibougou
+ar;كاتي;Kati
+fr;Kassoronani;Kossourounani
+fr;Kassombougou;Kassonbougou
+fr;Kassomougou;Kassonbougou
+fr;Kassodamba;Khasso Damba
+bm;Kasaro;Kassaro
+fr;Kassa;Kosa
+fr;Kartan;Kartani
+fr;Karouma;Tambaoura Kama
+bm;Karangaso;Karangasso
+fr;Kansao;Kanzo
+fr;Kaniena;Kanyéma
+fr;Kanpolosso;Kampolosso
+fr;Kandiourou;Kandyourou
+fr;Kanbélé;Kambélé
+fr;Kambou (Amont);Kambou
+fr;Kamana;Kamané
+fr;Kama;Kama Bambouck
+bm;Kalifabugu;Kalifabougou
+fr;Kalao;Kalaou
+fr;Kalaké-Marka;Kalaké Bamana
+fr;Kéléko;Kalaké Marka
+bm;Kalakɛ Bamanan;Kalaké Marka
+bm;Kalabugu;Kalabougou
+ar;كالابوغو;Kalabougou
+bm;Kalabanbugu;Kalabambougou
+bm;Kalabankɔrɔ;Kalaban Koro
+fr;Kola;Kala
+fr;Kakiya;Kakian Koura
+bm;Kajolo;Kadiolo
+fr;Kabada;Kabala
+fr;Irinnkasso;Iringasso
+fr;Irignasso;Iringasso
+fr;Irignaso;Iringasso
+bm;Yírimanjɔ;Yirimandio
+bm;Yírimajɔ;Yirimandio
+fr;Ichébougou;Nènèbougou
+fr;Iarakada;Larakada
+bm;Hɔnbori;Hombori
+fr;Hermakono;Hèrèmakono
+fr;Hataro;Fatako
+bm;Ámdàláy;Hamdallaye
+bm;Hámudàlayi;Hamdallaye
+bm;Ámdàláy;Hamdalaye
+fr;Hamdallaye;Hamdalaye
+bm;Hámudàlayi;Hamdallaï
+bm;Hámdàlay;Hamdallaï
+fr;Guissoumalé;Djissoumalé
+fr;Guisoumalé;Djissoumalé
+fr;Giré;Guiré
+fr;Guioyo;Guihoya
+fr;Guihoyo;Guihoya
+fr;Guinntama;Guintama
+fr;Guimini;Djimini
+fr;Guiedigui;Djédigui Kassé
+fr;Guidikamé;Kidikamé
+fr;M'Bérébélé;Gouérékélé
+fr;Guérékélé;Gouérékélé
+fr;Kélékélé;Gouérékélé
+fr;Guèninkoro;Guèninnkoro
+fr;Guénéia;Séribougou
+fr;Guéné;Ngonikoro
+fr;Guinté;Ngonikoro
+fr;Guendou;Gouendo
+fr;Guendo;Gouendo
+fr;Gouénou;Gouendo
+fr;Guénékoro;Guénakoro
+fr;Génakoro;Guénakoro
+fr;Guembé;Kembé
+bm;Ararusi;Gourma Rharous
+fr;Gourbassi;Bérola
+bm;Gundamu;Goundam
+ha;Garin Goumbou;Goumbou
+fr;Goumaré;Koumaré
+fr;Gouano;Gouana
+fr;Gouala;Goualan
+fr;Gomakoulou;Gouakoulou
+bm;Gɔrɔ;Goro
+fr;Gori Banda;Gori
+bm;Gundoguru;Gondo Ogorou
+ar;كوكي;Gogui
+bm;Garigando;Gargando
+fr;Garabougou;Garambougou
+ar;جاو;Gao
+bm;Gàwó;Gao
+en;Gagna;Gania
+nl;Gagna;Gania
+fr;Ganfan (Amont);Ganfan
+fr;Gandlébougou;Ngantlébougou
+fr;Gamoulou;Gamboulou
+fr;Gamèssiri;Gamessiri
+fr;Galaka;Galakan
+fr;Gagni;Ganyi
+fr;Gafou;Gafoun
+fr;Fransékouta;Ouassala
+bm;Futuba;Foutoumba
+bm;Futuba;Foutouba
+fr;Foussaba;Fissaba
+fr;Fourounyina;Foroninia
+fr;Foundoubougou;Fondobougou
+fr;Foudombougou;Fondobougou
+fr;Foukara;Foukara Rive Gauche
+fr;Folondara;Folondo
+fr;Folondala;Folondo
+fr;Folo;Fofo
+bm;Pɛ̀linŋana;Pèlèngana
+fr;Flabougou;Dialobougou
+fr;Finiana;Finyana
+fr;Finnkola;Finkola
+fr;Founena;Finana
+fr;Fiébougou;Fyébougou
+fr;Fégnélé;Fényélé
+fr;Fengola;Fingola
+fr;Fégéla;Féguéla
+fr;Fatyana;Fatiana
+fr;Patiana;Fatiana
+bm;Facana;Fatiana
+fr;Fatafi;Fatafin
+bm;Fasudebe;Fassoudébé
+fr;Fassirimanbougou;Fasirimanbougou
+bm;Fasala;Fassala
+fr;Faranina;Faranida
+fr;Farama;Faramé
+fr;Farako;Farakoro-Soba
+fr;Farakoro I;Farakoro
+bm;Farakɔ;Farako
+fr;Farakoro;Farako
+fr;Faraka;Farako
+fr;Faradiguinndato;Faradiguindato
+fr;Faradala;Faroto
+bm;Farabanna;Farabana
+fr;Fantabougou;Sababougou
+bm;Fangaso;Fangasso
+fr;Fandiala;Findiala
+fr;Fendiala;Findiala
+bm;Fanafiyɛkoro;Fanafiè Koro
+fr;Famanbougou;Famabougou
+bm;Falu;Falou
+bm;Falu;Fallou
+fr;Falani Fadia;Farani-Fadia
+fr;Falani;Farani
+fr;Falakala;Farakala Un
+fr;Farakala 1;Farakala Un
+fr;Faladyé;Faladié
+fr;Faladjé;Faladié
+bm;Falajɛ;Faladié
+fr;Fala;Fara
+fr;Fadougabougou;Fadabougou
+bm;Fabula;Faboula
+bm;Fabugu;Fabougou
+bm;Hɛrɛmakɔnɔ;Hèrèmakono
+bm;Nafaji Júmanzana;Nafadji Dioumanzana
+bm;Júmanzana;Dioumanzana
+bm;Julafondo;Dioulafondo
+bm;Jɔ́nkala;Dionkala
+fr;Diondougou;Dyondougou
+fr;Dyokon;Diokon
+fr;Dyinindyébougou;Djinidièbougou
+fr;Guiniguébougou;Djinidièbougou
+fr;Dyidyé;Djidiè
+fr;Guidiéni;Djidiè
+fr;Dyidyana;Djidiana
+fr;Didiana;Djidiana
+fr;Dioro;Dyero
+fr;Diéro;Dyero
+fr;Dyèro;Diero
+fr;Diero;Dyèro
+fr;Diouenka;Dyénongo
+fr;Diononko;Dyénongo
+fr;Dionogo;Dyénongo
+bm;Janginebugu;Dianguinébougou
+fr;Dyendyen;Diendien
+fr;Dindié;Diendien
+fr;Diandyé;Diendien
+fr;Dyenbala;Guimbala
+fr;Dion;Dyen
+fr;Dien;Dyen
+fr;Diélé;Dyélé
+fr;Diébé;Dyébé
+fr;Dyaratobougou;Dyaratabougou
+fr;Diaratobougou;Dyaratabougou
+fr;Diarani;Dyarani
+fr;Dyangirla;Dyanguirla
+fr;Dion;Dyana
+bm;Jalube;Dyaloubé
+fr;Dialakoro;Dyalakoro
+fr;Dyalakoro;Dialakoro
+fr;Dialako-Malé;Dialakoro
+bm;Jakɔ;Diako
+fr;Diadian;Dyadyan
+fr;Diadia;Dyadyan
+fr;Dyabasso;Diabasso
+fr;Dyabali;Diabali
+fr;Diabal;Diabali
+bm;Jabali;Diabali
+bm;Dubabugu;Doubabougou
+fr;Dulokou;Doulokou
+fr;Dourounka;Dourounkaba
+fr;Dorako;Dourako
+fr;Don;Doun
+fr;Doumeba;Douméba
+fr;Douméba;Tamaratinti
+fr;Dougouninkara;Dougounikoro
+fr;Dougouibarakaya;Dougouibarakaïa
+bm;Dùguba;Dougouba
+bm;Dúwanzà;Douentza
+fr;Doubala;Doubalakoro
+fr;Douaragouné;Kérouané
+fr;Douaragoumé;Kérouané
+fr;Dotan;Ndotan
+fr;Dossorosso;Dossorosso Peul
+fr;Dosséribougou;Dossérébougou
+fr;Kassombougou;Dossamabougou
+bm;Dɔribugu;Doribougou
+fr;Dongo;Dongo Djidouma
+fr;Dongola;Dongo Djidouma
+fr;Domosela;Domosséla
+fr;Domasséla;Domosséla
+bm;Dɔnbila;Dombila
+fr;Domba;Donba
+fr;Dohoma;Doma
+fr;Donibala;Dolimala
+bm;Dogonin;Dogoni
+bm;Dogofiri;Dogofri
+bm;Dɔgɔfiri;Dogofri
+fr;Djodaloma;Djourdaloma
+fr;Djindiang Téguenda;Djiguitiguenda
+fr;Djinakolomba;Djinakolonba
+fr;N'Djila;Djila-Finyana
+fr;Djikouna;Djikounani
+fr;Dykounna;Djikouna
+bm;Bakɔjikɔrɔnin;Djikoroni
+fr;Diéguila;Djiguila
+fr;Djigéla;Djiguéla
+fr;Djifalé;Djéfalé
+fr;Djibrouïa;Djibouria
+fr;Djibouroula;Djibroula
+fr;Guibouroula;Djibroula
+bm;Jiburula;Djibroula
+fr;Djiblèbougou;Ntjiblembougou
+fr;Djiba;Ntjiba
+bm;Jene;Djenné
+fr;Djénné;Djenné
+bm;Jɛ̀nɛ;Djenné
+fr;Djélimagara;Kamana Soubala
+fr;Dira;Diaga
+bm;Jura;Dioura
+fr;Dioungou;Dioungo
+bm;Jungani;Dioungani
+bm;Julafundo;Baba Dioulafoundou
+bm;Julafundo;Dioulafoundou
+fr;Diougouma;Diougouna
+fr;Dioufoya Tinntokan;Djoufoya Tintokan
+fr;Dioufoya-Farako;Djoufoya Farako
+fr;Dioufoya Bâ;Djoufoyaba
+bm;Jɔnin;Dioni
+bm;Jɔngaga;Diongaga
+bm;Jonjori;Diondiori
+fr;Dioumana;Diomana
+fr;Diomamadji;Diombomadji
+bm;Jɔ̀maaji;Diamadji
+fr;Diokhé;Dioké
+bm;Dɔyila;Dioïla
+fr;Doïla;Dioïla
+fr;Dinnguilou;Djinguilou
+fr;Dinkasso;Dingasso
+fr;Dilia;Dilia Daloma
+fr;Diguiron;Gouman
+bm;Jaramana;Diéramana
+fr;Diénibantan;Guénoubantan
+bm;Jema;Diéma
+bm;Jɛma;Diéma
+bm;Jɛdugu;Diédougou
+fr;Diédié;Djidié
+fr;Didié;Djidié
+fr;Diédié;Diédiéni
+fr;Diedia;Diédia
+fr;Diéboukara;Djéboukara
+fr;N'Dydiana;Didyana
+fr;Didna;Dinda
+fr;Diatissann;Diantinsa
+fr;Diatamoussa;Diata Moussala
+fr;Diongouéla;Diankaréla
+bm;Jankabu;Diankabou
+fr;Diandiana;Diandian
+fr;Dianbala;Diambala
+fr;Diambougou;Dianbougou
+bm;Janbugu;Dianbougou
+bm;Jɔ̀maaji;Diamadi
+bm;Jalube;Dialoubé
+fr;Dialla;Diallan
+bm;Jalasagu;Diallassagou
+fr;Dialakémoro;Dialakémoko
+fr;Dialaka;Diarika
+fr;Dialafara-Rhama;Dialafara Kama
+fr;Dialafara-Ghama;Dialafara Kama
+fr;Dialadidian;Toumboumba
+fr;Diala;Dialan
+bm;Jakuruna;Diakourouna
+bm;Jakɔ;Diakon
+bm;Jaka;Diaka
+fr;Diagounté;Diangounté
+bm;Jafarabe;Diafarabé
+bm;Jado;Diado
+fr;Diadiani;Djiadiani
+fr;Diadia;Diadiéya
+fr;Doubabougou;Diababougou
+fr;Dia;Dla
+fr;Désébéla;Dézébéla
+fr;Déniékoro;Dényékoro
+fr;Dégnékoro;Dényékoro
+fr;Dembatoumania;Dibatoumania
+fr;Déguéré;Oualia Déguéré
+fr;Diarabougou;Darabougou
+fr;N'Daouna;Daouna
+fr;Daona;Daouna
+fr;Daola;Daola Sanzana
+fr;Daoula;Daola Sanzana
+fr;Danzéné;Danzénibougou Koro
+fr;Dazéné;Danzénibougou Koro
+fr;Dangorola;Dankorola
+fr;Danfibougou;Danfimbougou
+fr;Dafimbougou;Danfimbougou
+fr;Sanabougou;Danfa
+fr;Denfa;Danfa
+fr;Danbala;Dambala
+fr;Dambélé;Dembélé
+fr;Damba Djoubé;Damba Dioubé
+fr;Dalissilamé;Dar Salam
+bm;Dagi-Dagi;Dag-Dag
+fr;Dabora;Dabara
+fr;Datan;Daban
+fr;Chouchiéna;Souchiéna
+fr;Siankoro;Chiankoro
+bm;Bósola;Bozola I
+fr;Bonsibougou;Bozibougou
+fr;Bouta;Bouya
+fr;Boussola;Boussala
+fr;Bouroumba;Boromba
+bm;Burɛmu;Bourem
+bm;Burɛmu;Bourèm
+fr;Bourela;Bouréla
+bm;Bura;Boura
+fr;Boundougourou;Bountoukouroun
+fr;Bourou N'Dyaïe;Boundjigiré
+fr;Boundjiguiré;Boundjigiré
+fr;Boudjiguiré;Boundjigiré
+fr;Saroudia;Bouloumba
+fr;Boulougou;Bouloukou
+fr;Bouboukou;Bouloukou
+fr;Boularou;Boulako
+en;Boulal;Boula
+nl;Boulal;Boula
+fr;Boukouda;Bougouda
+fr;Bougountinti;Bougoutinti
+bm;Bugunin;Bougouni
+fr;Tiobougoula;Bougoula
+fr;Tiébougoula;Bougoula
+fr;Bougoukourdia;Bougoukourala
+fr;Bougoukoura;Bougou Koura
+bm;Buguba;Bougouba
+fr;Boudjadia;Boudiadia
+fr;Bouba;Bozobougou
+fr;Boron;Bouara
+fr;Bouara;Bowara
+fr;Bohouara;Bowara
+fr;Bouanindié;Bouanidié
+fr;Bounidié;Bouanidié
+bm;Buwala;Bouala
+fr;Bonadiébougou;Bouadiébougou
+fr;Boronké;Bokongué
+bm;Bɔ̀rɔ;Boron
+fr;Borokone;Brokone
+fr;Bouoro;Boro
+fr;Bonnégué;Bonégué
+fr;Bonégé;Bonégué
+fr;Gbon;Bon
+fr;Boulounga;Boloma
+fr;Bokoutinnti;Bougoutinti
+fr;Boila;Boïla
+fr;Boïdiguendou;Badinantou
+fr;Boidigendou;Badinantou
+fr;Bohidinié;Bohidiguen
+fr;Boïdigué;Bohidiguen
+fr;Bodiarinko;Gomou
+fr;Boala Waré;Boala Wéré
+fr;Boala;Bouala
+fr;Boaba;Bouala
+fr;Blinndion;Blindioni
+fr;Blondioni;Blindioni
+fr;Blendioni;Blindioni
+fr;Blinndio;Blindio
+fr;Blendio;Blindio
+bm;Bila;Bla
+fr;Birmassou;Brémassou
+fr;Bindougou;Bendougou
+fr;Binadyana;Binadiana
+fr;Benandiana;Binadiana
+fr;Bérola;Tambadiya
+fr;Bérékoussa Dioma;Bérékoussa-Dioma
+fr;Bégnéna;Bényéna
+en;Bentyia;Bentia
+bm;Bɛnɛna;Bénéna
+fr;Bembougou;Binbougou
+fr;Béléko;Bélékou
+fr;Béléco;Bélékou
+fr;Benkou;Béléko-Soba
+fr;Belekou;Béléko-Soba
+fr;Bélékoro;Béléko-Soba
+fr;Béléko;Béléko-Soba
+fr;Béléko-Gwéngéna;Béléko-Gwénguéna
+fr;M'béla;M'Pella
+fr;Béla;M'Pella
+fr;Bégéné;Béguéné
+fr;Baguini;Béguéné
+fr;Baye;Baï
+fr;Beyabougou;Bayabougou
+bm;Bàyabugu;Bayabougou
+fr;Batérandé;Batrandé
+fr;Bassatou;Batasso
+fr;Bassaro Wéré;Basaro Wéré
+bm;Basabugu;Bassabougou
+bm;Barawuli;Barouéli
+fr;Barkaya;Barakaïa
+fr;Barkaïa;Barakaïa
+fr;Baranii;Bakanyi
+bm;Báwulen;Baoulé
+fr;Sao;Bao-Flala
+fr;Bao;Bao-Flala
+fr;Banantomona;Bantona
+fr;Bantinngoungou;Bantingoungou
+fr;Banntako;Bantanko
+fr;Bannbadinnka;Bambadinka
+bm;Bankumana;Bankoumana
+fr;Bankouma;Bankouma 1
+bm;Bángɔni;Bankoni
+fr;Bankolé;Bankoni
+bm;Bánin;Bani
+fr;Banbarho;Banbagho
+fr;Banguirila;Bangriya
+fr;Bangouma;Zanfina Deux
+fr;Bankouma;Zanfina Deux
+fr;Zanfina 2;Zanfina Deux
+fr;Bangoro;Bencoro
+fr;Bandiankabougou;Badiankabougou
+bm;Bánjagara;Bandiagara
+fr;Banbala;Mbambala
+bm;Bànankɔrɔ;Banankoro
+bm;Bànankɔrɔ;Banangourou
+fr;Bananko;Banankoro
+bm;Bànankabugu;Banankabougou
+bm;Banankɔrɔnin;Banankoroni
+bm;Bananba;Banamba
+bm;Banbugu;Bambougou
+bm;Banbugu;Banbougou
+bm;Banbara Mawude;Bambara-Maoundé
+fr;Bamanatoum;Banamantou
+fr;Bamanatoun;Banamantou
+ar;باماكو;Bamako
+bm;Bàmakɔ;Bamako
+fr;Balabougou;Babougou
+fr;Bela;Bala
+fr;Bakouroubougou;Bakounoubougou
+fr;Bahé;Bayé
+bm;Báginda;Baguinéda
+bm;Bágineda;Baguinéda
+fr;Bagila;Baguila
+fr;Baguiba;Baguiba II
+fr;Bagiba;Baguiba II
+fr;Bagari;Diandiana
+bm;Bàgadáji;Bagadadji
+fr;Bagadadi;Bagadadji
+bm;Báfilabɛn;Bafoulabé
+fr;Badigue;Badinyé
+fr;Badéka;Bounkouko
+bm;Bádalabugu;Badalabougou
+bm;Arawan;Araouane
+ar;أراوان;Araouane
+bm;Awuru;Aourou
+fr;Aouadi;Louady Cherif
+bm;Anefisi;Anefis i-n-Darane
+bm;Anderabukani;Andéranboukan
+bm;Anderanbukani;Andéranboukan
+fr;Ambidédi Sima;Ambidédi
+bm;Agɛlihɔki;Aguelhok
+bm;Falajɛ;Faladiè
+bm;Janikɔrɔ;Dianikoro
+bm;Wɔlɔjɛdo;Ouolodièdo
+bm;Jalakɔrɔba;Dialakoroba
+bm;Kalabankura;Kalaban Koura
+bm;Sibiribugu;Sibiribougou
+bm;Sokɔrɔji;Sokorodji
+bm;Misabugu;Missabougou
+bm;Kɔ́rɔfina;Korofina
+bm;Jalakɔrɔji;Dialakorodji
+bm;Báginedabugu;Baguineda Village
+bm;Ntòmikɔrɔbugu;Ntomikorobougou
+bm;Warala;Ouarala
+bm;Ɲanina;Nianina
+bm;Bankasi;Bankassi
+bm;Musabugu;Moussabougou
+bm;Ɲamakɔrɔla;Niamakorola
+bm;Torokɔrɔbugu;Torokorobougou
+fr;Moukoumaka;Mogomakan
+bm;Ɲamakɔrɔnin;Niamakoroni
+bm;Sebeninkɔrɔ;Sébénikoro
+bm;Sɔbugu;Sobougou
+bm;Kuluninkɔ;Koulouniko
+fr;Mariko I;Mariko Un
+fr;Mariko 1;Mariko Un
+fr;Mariko II;Mariko Deux
+fr;Mariko 2;Mariko Deux
+bm;Tidɛrimɛni;Tidarméné
+bm;Inekari;Inékar
+bm;Sabusire;Saboussire
+fr;Sola;Solan
+bm;Kabiyo;Kabio
+fr;Souronto;Soroto
+fr;Zabaténé;Diabougoula
+fr;Worofra;Worofouna
+fr;Sazarani;Sanzana
+fr;Moloko;Ngolokosanzana
+bm;Jɛ́bùgu;Diébougou
+fr;Mbétiona II;Mpétiona Deux
+fr;Mpétiona 2;Mpétiona Deux
+fr;Nougoula;Nougoula Un
+fr;Nougoula 1;Nougoula Un
+fr;Zonbougou;Zombougou
+fr;Souroufing;Sorofing
+fr;Marla;Maréla
+fr;Tinkabougou;Tangabougou
+fr;Namansiala;Namaziéla
+fr;Kogosso;Kokosso
+fr;Bla;Kaniégué
+fr;Diabougou;Dièbougou
+fr;Diéna;Mpiènina
+bm;Ogosugu;Ogossogou
+bm;Gɔrɔ;Golo
+bm;Jakɔrɔla;Diakorola
+bm;Kacɔrɔnin;Katioroni
+bm;Másina;Macina
+bm;Ɲàni Wɛrɛ;Gnani Were
+bm;Láfìyábugu;Lafiabougou
+bm;Kɔnsɔfɔn;Konsofon
+fr;Kokana;Kokéné
+fr;Déala;Déla
+fr;Mokoula;Noukoula
+fr;Bomoti 2;Bomoti Deux
+fr;Dyaouarala;Diawarala
+fr;Siratigi;Siratigui
+fr;Soubabougou;Siratigui Wèrè
+fr;Noumousa;Bougounina
+fr;Tounga;Tongani
+fr;Mwabougou;Niobougou
+fr;Wolokoro I;Wolokoro
+fr;Wolokoro Un;Wolokoro
+fr;Wolokoro II;Wawabougou
+fr;Wolokoro Deux;Wawabougou
+fr;Koya;Koyan
+fr;Dyalado;Dialado
+fr;Nonba;Nomba
+fr;Ndyegéla;Ndyeguéla
+fr;Ndyégébougou;Ndyéguébougou
+fr;Ntyobougou;Mbéguésso
+fr;Dyana;Diana
+fr;Nyola;Niola
+fr;Tyémorobougou;Dounamakèbougou
+fr;Banindo;Bananido
+fr;Dyabalougou;Diéboulougou
+fr;Gantigiwéré;Gantiguiwèrè
+fr;Gantiguiouéré;Gantiguiwèrè
+fr;Boubouwéré;Boubouwèrè
+fr;Boubououéré;Boubouwèrè
+fr;Mamadou-Sisébougou;Mamari Cissé Bougou
+fr;Dyoni;Dioni
+fr;Dyoni-Sibi;Dioni-Sibi
+fr;Dyoni-Mamari;Dioni-Mamari
+bm;Sekɔrɔ;Séko
+fr;Dyoléwéré;Diolen
+bm;Npedugu;M'Pebougou
+fr;Morhon;Moghon
+fr;Konbalabougou;Kombalabougou
+fr;Tegn;Tiembougou
+fr;Srarhabougou;Sourakabougou
+fr;Ntosonibougou;Ntossonibougou
+bm;Kumantun;Koumato
+fr;Gouwasolo;Gouassola
+fr;Faradyala;Faradiala
+fr;Tyon;Tiénou
+fr;Dougoutigila;Dougoutiguila
+fr;Gwéngéna-Flala;Gwénguéna-Flala
+fr;Ntya-Dougoutigila;Ntya-Dougoutiguila
+fr;Koala;Kolabougou
+fr;Sondigila;Sondiguila
+bm;Bakɔrɔ;Bakoro
+fr;Djigila;Djiguila
+fr;Djigibougou;Djiguibougou
+fr;Fatigidyana;Fatiguidyana
+fr;Segou Coura;Ségou-Koura
+bm;Ségukura;Ségou-Koura
+bm;Jɛki;Diéki
+bm;Tɔnɔkalakɔrɔ;Tononkalakoro
+bm;Nsirakɔrɔ;Sirakoro
+bm;Fabugu;Nfabougou
+bm;Bakɔrɔ Wɛrɛ;Bakoro Ouèrè
+bm;Banbugu Wɛrɛ;Bambougou Ouèrè
+bm;Bákaribugu;Boukaribougou
+bm;Jɛ́bùgu;Dièbougou
+bm;Sɔmɔnɔdugunin;Somonodougouni
+bm;Ɲɛna;Nièna
+bm;Wɔsila;Ouossila
+bm;Dùgutigibugu;Dougoutiguibougou
+bm;Wedebugu;Ouendébougou
+bm;Banankɔrɔnin Wɛrɛ;Boussourou
+bm;Dùgukuna;Dougoukouna
+bm;Mɛlɛwɛrɛ;Mèlè Ouèrè
+bm;Jijɛnin;Didiéni
+fr;Kinndo;Kindo
+fr;Wénia;Sirabanikabougou
+fr;Bélépounedji;Bélépounédji
+fr;Tintiba;Tintila
+fr;Guidinnta;Guindinta
+fr;Sitani Soroma;Sitani
+fr;Souroubiré;Sourbiré
+fr;Kouroussembé;Koursimbé
+fr;Bakaroulénia;Boukinafé
+fr;Kéola Timbatoussou;Kéola
+bm;Sabaribugu;Sabaribougou
+bm;Tumanibugu;Toumanibougou
+bm;Síkaso;Sikasso
+bm;Tinisako;Ti-n-Essako
+bm;Tesiti;Tessit
+bm;Awa Dɛnbaya;Hawa Dembaya
+bm;Jèlibugu;Djelibougou
+bm;Karicemali;Quartier Mali
+bm;Jasadeni;Diassadeni
+en;Tinipchi;Intibsite
+fr;Oudeina;Oudeini
+bm;Trubugu;Troubougou
+fr;Bomoti 1;Bomoti Un
+fr;Bomoti 3;Bomoti Trois
+fr;Zanfina 1;Zanfina Un
+fr;Madinading (Amont);Madinading
+fr;Marobougou;Moussabougou
+fr;Farakala 2;Farakala Deux
+fr;Pèguèna 1;Pèguèna Un
+fr;Mpétiona 1;Mpétiona Un
+fr;Bambako;Tintindiokan
+fr;Nougoula 2;Nougoula Deux

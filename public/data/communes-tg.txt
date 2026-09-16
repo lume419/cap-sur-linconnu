@@ -1,0 +1,752 @@
+0;1.1572,6.2342;TG-24;Maritime;Adidomé
+0;1.1433,6.2336;TG-24;Maritime;Zopomarhé
+0;1.0908,6.4253;TG-24;Maritime;Zogbé Kopé
+0;1.0406,6.4386;TG-24;Maritime;Zogbé Kopé
+0;1.1181,6.3628;TG-24;Maritime;Zobékopé
+0;1.1114,6.3953;TG-24;Maritime;Ziovounou
+0;1.3817,6.2156;TG-24;Maritime;Ziogba
+0;1.0117,6.4794;TG-24;Maritime;Yométchin
+0;1.1467,6.1758;TG-24;Maritime;Yokoé
+0;1.3289,6.4128;TG-24;Maritime;Yobo
+0;1.1533,9.6111;TG-23;Kara;Yadé
+0;1.1500,6.1881;TG-24;Maritime;Wonyomé
+0;-0.0131,10.8019;TG-26;Savanes;Warkambou
+0;1.2639,6.3111;TG-24;Maritime;Wassouké
+20569;1.5333,6.3333;TG-24;Maritime;Vogan
+0;1.3992,6.4061;TG-24;Maritime;Vodjé
+0;1.4742,6.4892;TG-24;Maritime;Vo Asso
+0;1.2333,6.1606;TG-24;Maritime;Witi
+0;1.1467,6.4469;TG-24;Maritime;Vamatchi
+0;1.1308,6.3744;TG-24;Maritime;Valakopé
+0;1.1572,6.2133;TG-24;Maritime;Vakpo
+0;1.0772,6.3367;TG-24;Maritime;Tsivé
+55775;1.2133,6.4261;TG-24;Maritime;Tsévié
+0;1.3461,6.3231;TG-24;Maritime;Tsamé
+0;1.1925,6.2792;TG-24;Maritime;Tovouganou
+0;1.1422,6.2864;TG-24;Maritime;Tovégblé
+0;1.1883,6.1878;TG-24;Maritime;Totigan
+0;1.4722,6.4411;TG-24;Maritime;Toka
+6767;1.6167,7.0333;TG-25;Plateaux;Tohoun
+0;1.4781,6.2281;TG-24;Maritime;Togoville
+0;1.2219,6.2283;TG-24;Maritime;Togomé
+0;1.4231,6.2103;TG-24;Maritime;Togokomé
+0;1.2136,6.2733;TG-24;Maritime;Togblé Kopé
+0;0.1094,11.0394;TG-26;Savanes;Timbou
+0;1.4678,6.4008;TG-24;Maritime;Tigoé
+0;1.1281,9.8281;TG-23;Kara;Ténéga
+0;1.0833,6.2986;TG-24;Maritime;Tédo
+0;1.1478,9.6231;TG-23;Kara;Tchitchao
+0;1.4214,6.3719;TG-24;Maritime;Tchilémé
+0;1.2158,6.2933;TG-24;Maritime;Tchikplonoukondji
+0;1.4164,6.3256;TG-24;Maritime;Tchidémé
+0;1.3703,6.4828;TG-24;Maritime;Tchékpo Dévé
+0;1.1833,9.6644;TG-23;Kara;Tcharé
+0;1.0167,8.0500;TG-22;Centrale;Tcharabaou
+0;0.4911,10.4990;TG-26;Savanes;Tchanaga
+25668;1.4167,9.0333;TG-22;Centrale;Tchamba
+1671;0.1950,10.6558;TG-26;Savanes;Tandjouaré
+0;-0.0167,10.7500;TG-26;Savanes;Tampialim
+0;0.0361,10.8458;TG-26;Savanes;Tami
+0;0.3667,10.8333;TG-26;Savanes;Tamatgou
+0;1.3186,6.1831;TG-24;Maritime;Tamanyé
+0;0.5653,9.9692;TG-26;Savanes;Takpamba
+0;1.3417,6.3181;TG-24;Maritime;Tahassi
+22304;1.5000,6.5833;TG-24;Maritime;Tabligbo
+0;1.2503,6.1689;TG-24;Maritime;Station Météo
+0;1.1808,6.1772;TG-24;Maritime;Sovipé
+0;1.2558,9.6478;TG-23;Kara;Soumdina
+24332;0.9840,8.5634;TG-22;Centrale;Sotouboua
+0;1.3489,9.8906;TG-23;Kara;Solla
+117811;1.1333,8.9833;TG-22;Centrale;Sokodé
+0;1.1306,6.3464;TG-24;Maritime;Sohoukopé
+0;1.3183,9.5719;TG-23;Kara;Sirka
+0;1.1867,9.8219;TG-23;Kara;Siou
+0;1.0450,6.3211;TG-24;Maritime;Sévého
+0;1.0900,6.2922;TG-24;Maritime;Sévagbléta
+0;1.4100,6.2969;TG-24;Maritime;Sévagan
+0;1.1117,6.1900;TG-24;Maritime;Ségbé
+0;1.3419,6.4122;TG-24;Maritime;Sédjro
+0;1.0225,9.6308;TG-23;Kara;Sara-Kawa
+0;1.2611,6.2869;TG-24;Maritime;Séouvé
+0;1.1400,6.2472;TG-24;Maritime;Sanyako
+0;1.1119,6.2286;TG-24;Maritime;Sanguéra
+0;1.3456,6.2533;TG-24;Maritime;Sagonou
+0;1.1383,6.1769;TG-24;Maritime;Sagbado Agotimé
+0;1.1353,6.1869;TG-24;Maritime;Sagbado
+0;1.1647,6.1914;TG-24;Maritime;Rhétchevi
+0;1.4686,6.3406;TG-24;Maritime;Hédjégan
+0;1.2931,6.3117;TG-24;Maritime;Rhayé
+0;1.2664,9.9094;TG-23;Kara;Pouda
+0;1.4592,6.3269;TG-24;Maritime;Potassou Rhédjé
+0;1.2256,6.3503;TG-24;Maritime;Popoumé
+0;0.5067,10.9742;TG-26;Savanes;Ponio
+0;1.1031,6.4683;TG-24;Maritime;Poguiéssou
+0;1.1500,9.6667;TG-23;Kara;Pya
+0;0.9833,10.0167;TG-23;Kara;Kpassidè
+0;0.2817,10.7503;TG-26;Savanes;Pana
+0;1.1061,6.3842;TG-24;Maritime;Pakli Kopé
+0;1.2183,6.3592;TG-24;Maritime;Ouakpo Kopé
+0;1.2614,6.1992;TG-24;Maritime;Onsou
+0;1.2458,6.4175;TG-24;Maritime;Nyossikopé
+0;1.3708,6.4719;TG-24;Maritime;Nyagbali Kopé
+35039;1.1667,6.9500;TG-25;Plateaux;Notsé
+0;1.0361,6.2605;TG-24;Maritime;Noepe
+0;1.4558,6.4525;TG-24;Maritime;Nyita Dzogbédji
+23261;1.1053,9.7681;TG-23;Kara;Niamtougou
+0;1.1856,6.2458;TG-24;Maritime;Niamassi
+0;0.1686,10.5061;TG-26;Savanes;Nayergou
+0;0.1103,10.7034;TG-26;Savanes;Nano
+0;0.4056,9.5986;TG-23;Kara;Nandouta
+0;0.4014,10.8893;TG-26;Savanes;Namoundjoga
+0;0.8108,9.7286;TG-23;Kara;Namon
+0;0.3664,10.7228;TG-26;Savanes;Naki-Est
+0;0.0914,10.9058;TG-26;Savanes;Naki-Ouest
+0;0.1769,11.0069;TG-26;Savanes;Nadjoundi
+0;0.6439,10.3839;TG-26;Savanes;Mogou
+0;1.1258,6.3222;TG-24;Maritime;Mission-Tové
+0;1.2667,9.9500;TG-23;Kara;Massédéna
+37748;0.4708,10.3592;TG-26;Savanes;Mango
+5203;0.8167,10.8500;TG-26;Savanes;Mandouri
+0;1.1478,6.2681;TG-24;Maritime;Madjikpéto
+0;1.1550,6.2022;TG-24;Maritime;Madéomé
+0;1.0067,6.4886;TG-24;Maritime;Lomé
+2188376;1.2215,6.1287;TG-24;Maritime;Lomé
+0;0.1061,10.6139;TG-26;Savanes;Lokpano
+0;0.2542,10.5792;TG-26;Savanes;Loko
+0;1.4847,6.3592;TG-24;Maritime;Livé
+0;0.9542,9.6958;TG-23;Kara;Léon
+0;1.3475,6.2161;TG-24;Maritime;Lébé
+0;1.2422,9.6150;TG-23;Kara;Lassa
+0;1.4808,6.1989;TG-24;Maritime;Lankomé
+0;1.2833,9.5167;TG-23;Kara;Kpèzindè
+0;1.2489,9.6875;TG-23;Kara;Landa
+0;1.2739,6.3450;TG-24;Maritime;Lanbadé Kopé
+0;1.2128,6.3722;TG-24;Maritime;Lablé Kopé
+0;1.1131,6.4097;TG-24;Maritime;Kwahwé
+0;1.4156,6.3194;TG-24;Maritime;Kpota
+0;1.2850,6.1661;TG-24;Maritime;Kponou
+0;1.0761,6.2350;TG-24;Maritime;Kpola
+0;1.3825,6.1728;TG-24;Maritime;Kpogan
+0;1.3589,6.3083;TG-24;Maritime;Kpogamé
+0;1.1875,6.4489;TG-24;Maritime;Kpoédji
+0;1.0208,6.2814;TG-24;Maritime;Kpévi Donion
+0;1.0958,6.4492;TG-24;Maritime;Bolou Kpéta
+75084;0.6333,6.9000;TG-25;Plateaux;Kpalimé
+7686;1.3278,9.7525;TG-23;Kara;Pagouda
+0;1.4131,6.1822;TG-24;Maritime;Kpaglikouta
+0;1.3986,6.4428;TG-24;Maritime;Kovéto
+0;1.4167,6.6667;TG-24;Maritime;Kouvé
+0;0.8031,9.8261;TG-23;Kara;Koutièr
+0;0.3650,9.6056;TG-23;Kara;Kountja
+5979;0.8000,7.6667;TG-25;Plateaux;Kouniohou
+0;0.6414,10.9431;TG-26;Savanes;Koundjoaré
+0;0.4481,10.1864;TG-26;Savanes;Koumongou
+0;1.3500,9.6667;TG-23;Kara;Kémèrida
+0;1.1825,9.7228;TG-23;Kara;Kéméa
+0;1.1883,6.3344;TG-24;Maritime;Koulossikopé
+0;1.3494,6.1633;TG-24;Maritime;Koudakpokomé
+0;1.0939,6.3294;TG-24;Maritime;Kota
+0;0.3031,10.9372;TG-26;Savanes;Korbongou
+0;1.1378,6.2167;TG-24;Maritime;Konhé
+0;1.1244,6.3419;TG-24;Maritime;Komla Kopé
+0;1.2339,6.4647;TG-24;Maritime;Kolokopé
+0;1.2486,6.4750;TG-24;Maritime;Kodjo
+0;1.0744,6.4028;TG-24;Maritime;Gbégamé
+0;1.2956,6.3242;TG-24;Maritime;Kloutsé Kopé
+0;1.2589,6.2392;TG-24;Maritime;Kloubatémé
+0;1.0642,6.4772;TG-24;Maritime;Klokpoé
+0;1.1094,6.2456;TG-24;Maritime;Klikamé
+0;1.2053,6.1725;TG-24;Maritime;Klikamé
+0;1.2256,6.1531;TG-24;Maritime;Klétigan
+0;1.4467,6.4083;TG-24;Maritime;Klétchi
+0;1.1317,6.2264;TG-24;Maritime;Klémé
+0;0.4636,9.7836;TG-23;Kara;Kidjaboum
+4441;0.9333,6.4333;TG-24;Maritime;Kévé
+0;1.2222,6.2139;TG-24;Maritime;Kétidjan
+0;1.3114,9.6611;TG-23;Kara;Kétao
+0;1.1025,6.2650;TG-24;Maritime;Képégblé
+0;1.2439,6.2106;TG-24;Maritime;Kélégougan
+0;0.5258,9.8875;TG-23;Kara;Katchamba
+104207;1.1861,9.5511;TG-23;Kara;Kara
+0;0.2919,10.9039;TG-26;Savanes;Kantindi
+12970;1.0447,9.9578;TG-23;Kara;Kandé
+0;1.0667,6.2728;TG-24;Maritime;Kamassakopé
+0;1.2806,6.4139;TG-24;Maritime;Kaguenkopé
+0;0.9731,9.8003;TG-23;Kara;Kadjala
+0;1.3375,6.3278;TG-24;Maritime;Akadiamé
+0;1.2094,6.2364;TG-24;Maritime;Hodakpo
+0;1.2517,6.4939;TG-24;Maritime;Havé
+0;1.3906,6.3653;TG-24;Maritime;Hahatoé
+9570;0.6114,9.6906;TG-23;Kara;Guérin-Kouka
+0;0.7333,7.1500;TG-25;Plateaux;Govié
+0;0.1667,10.6833;TG-26;Savanes;Goundoga
+0;1.1353,6.2014;TG-24;Maritime;Godéka
+0;1.4167,6.1919;TG-24;Maritime;Gbodjomé
+0;1.1894,6.4442;TG-24;Maritime;Gblenvié
+0;1.1831,6.1903;TG-24;Maritime;Gblenkomé
+0;1.3056,6.1486;TG-24;Maritime;Gbésogbé
+0;1.0367,6.3306;TG-24;Maritime;Gbavé
+0;1.3889,6.1964;TG-24;Maritime;Gbata
+0;1.0778,6.4161;TG-24;Maritime;Gatiblé
+0;1.0908,6.2817;TG-24;Maritime;Gaokopé
+0;0.7447,10.3325;TG-26;Savanes;Gando Namoni
+0;0.3528,10.5072;TG-26;Savanes;Galangachi
+0;1.2072,6.1511;TG-24;Maritime;Gadjépé
+0;1.1900,6.2342;TG-24;Maritime;Fiové
+0;1.3442,6.4753;TG-24;Maritime;Fongbé Apédomé
+0;1.3458,6.4522;TG-24;Maritime;Fongbé
+0;1.0858,6.4647;TG-24;Maritime;Fokoun
+0;1.1669,6.4092;TG-24;Maritime;Fli
+0;1.2500,9.7333;TG-23;Kara;Farendé
+0;1.3681,6.4044;TG-24;Maritime;Ezo
+0;1.3325,6.4922;TG-24;Maritime;Éssoun
+0;1.1675,6.4453;TG-24;Maritime;Enuy
+0;1.1344,6.3097;TG-24;Maritime;Emoé Kopé
+0;1.3000,8.0000;TG-25;Plateaux;Elavagnon
+6680;0.7167,7.2833;TG-25;Plateaux;Elavagnon
+0;1.4481,6.2464;TG-24;Maritime;Ekpoui
+0;1.1419,6.4886;TG-24;Maritime;Avé Djén
+0;1.2711,6.1467;TG-24;Maritime;Edjé
+0;1.2456,6.1847;TG-24;Maritime;Adgénou
+0;1.0600,6.3444;TG-24;Maritime;Dzoubéto
+0;1.3394,6.2919;TG-24;Maritime;Dyaoulé
+0;1.2414,6.2883;TG-24;Maritime;Doumé
+0;1.3275,6.1553;TG-24;Maritime;Doévi
+0;1.2008,9.8278;TG-23;Kara;Djorergou
+0;1.1569,6.4975;TG-24;Maritime;Djodjire
+0;1.0581,6.3150;TG-24;Maritime;Djiméki
+0;1.1742,6.2531;TG-24;Maritime;Djilédji
+0;1.0400,9.5156;TG-23;Kara;Djamdè
+0;1.1428,6.2017;TG-24;Maritime;Djakli
+0;1.2814,6.2447;TG-24;Maritime;Djagblé
+0;1.2111,6.3422;TG-24;Maritime;Djadou Kopé
+0;1.1028,6.3011;TG-24;Maritime;Diassékopé
+0;1.3439,6.1931;TG-24;Maritime;Dévégo
+0;1.2036,6.2422;TG-24;Maritime;Démakpoé
+0;1.0783,6.4586;TG-24;Maritime;Dékpo
+0;1.3725,6.2783;TG-24;Maritime;Dekpo
+0;1.1156,6.2192;TG-24;Maritime;Dekpo
+0;1.2825,6.2744;TG-24;Maritime;Dé Kopé
+0;1.2344,6.2453;TG-24;Maritime;Dékamé
+0;1.0864,9.8761;TG-23;Kara;Défalé
+0;1.0997,6.4867;TG-24;Maritime;Dèdjé
+0;1.2050,6.3847;TG-24;Maritime;Davié
+0;1.2697,6.4344;TG-24;Maritime;Davédé
+58071;0.2076,10.8622;TG-26;Savanes;Dapaong
+0;1.2486,6.3861;TG-24;Maritime;Dalavé
+0;1.4047,6.2028;TG-24;Maritime;Dagé
+26926;0.0094,11.1039;TG-26;Savanes;Sinkassé
+0;0.2072,10.7036;TG-26;Savanes;Bombouaka
+0;1.3317,9.8636;TG-23;Kara;Boufalé
+0;0.5769,10.7636;TG-26;Savanes;Borgou
+0;1.1733,6.4236;TG-24;Maritime;Bolougan
+0;0.1833,10.6500;TG-26;Savanes;Bogou
+0;1.1850,6.3094;TG-24;Maritime;Boga Kopé
+0;1.1575,6.4608;TG-24;Maritime;Bodoukpé
+0;1.1667,9.5833;TG-23;Kara;Bohou
+9735;0.9859,8.3233;TG-22;Centrale;Blitta
+0;1.2342,6.3172;TG-24;Maritime;Bini Kopé
+0;0.2708,10.7175;TG-26;Savanes;Bidjanga
+0;0.0547,11.0194;TG-26;Savanes;Biankouri
+0;1.2475,6.1411;TG-24;Maritime;Bé
+0;1.2131,6.3353;TG-24;Maritime;Bassavakopé
+61845;0.7821,9.2502;TG-23;Kara;Bassar
+0;0.3031,10.5503;TG-26;Savanes;Barkoissi
+0;0.6165,9.5252;TG-23;Kara;Bapuré
+0;1.0550,6.3297;TG-24;Maritime;Bamé
+0;1.2736,6.2569;TG-24;Maritime;Bama Kopé
+0;1.3250,6.1675;TG-24;Maritime;Baguida
+0;0.7337,10.8710;TG-26;Savanes;Bagré
+22543;1.2667,9.3500;TG-23;Kara;Bafilo
+24000;0.6000,7.5833;TG-25;Plateaux;Badou
+0;1.2950,6.3639;TG-24;Maritime;Aziakpo Kopé
+0;1.3433,6.2800;TG-24;Maritime;Aziadomé
+0;1.2653,6.1417;TG-24;Maritime;Ayivi Adjavon
+0;1.0800,6.2556;TG-24;Maritime;Ayamagblé
+0;1.2983,6.2300;TG-24;Maritime;Avougon Kopé
+0;1.0267,6.4981;TG-24;Maritime;Avévoen
+0;1.2872,6.2689;TG-24;Maritime;Avéta
+0;1.2325,6.2214;TG-24;Maritime;Avéimé
+0;1.3425,6.1683;TG-24;Maritime;Avéfodzo
+0;1.1700,6.1953;TG-24;Maritime;Avédjikpodji
+0;1.0592,6.4908;TG-24;Maritime;Avédjé
+0;1.2369,6.3131;TG-24;Maritime;Avalépo
+0;1.1106,6.4228;TG-24;Maritime;Ativémé
+0;1.3072,6.3111;TG-24;Maritime;Atitso Kopé
+0;1.4736,6.4694;TG-24;Maritime;Atitolomé Apégamé
+0;1.0819,6.2794;TG-24;Maritime;Atitoé
+0;1.1594,6.4681;TG-24;Maritime;Atissobékopé
+0;1.4811,6.4267;TG-24;Maritime;Atétimé
+0;1.3006,6.3789;TG-24;Maritime;Atchanvé
+0;0.9414,9.9347;TG-23;Kara;Ataloté
+80683;1.1333,7.5333;TG-25;Plateaux;Atakpamé
+0;1.1603,6.3603;TG-24;Maritime;Assomé
+0;0.7000,7.2000;TG-25;Plateaux;Apéyémé
+0;1.3408,6.2742;TG-24;Maritime;Aondou
+0;1.4144,6.4300;TG-24;Maritime;Animaoio
+37398;1.2000,7.7500;TG-25;Plateaux;Anié
+47579;1.5919,6.2280;TG-24;Maritime;Aného
+0;1.1219,6.2128;TG-24;Maritime;Amousou
+0;1.1675,6.2425;TG-24;Maritime;Amokwi
+9870;0.9000,7.4667;TG-25;Plateaux;Amlamé
+0;1.4011,6.2078;TG-24;Maritime;Amédé Kouévé
+0;1.2597,6.3700;TG-24;Maritime;Amégblévé
+0;0.9889,9.7389;TG-23;Kara;Aloum
+0;1.0822,6.4353;TG-24;Maritime;Alokoégbé
+0;1.1786,6.2733;TG-24;Maritime;Alinka
+0;1.2364,6.2197;TG-24;Maritime;Alikopé
+0;1.2933,6.2472;TG-24;Maritime;Alaglo Kopé
+0;1.1956,6.2692;TG-24;Maritime;Akwen
+0;1.1117,6.3422;TG-24;Maritime;Kovié
+0;1.4497,6.3872;TG-24;Maritime;Akoumapé
+0;1.3964,6.3394;TG-24;Maritime;Akodésséwa
+0;1.0497,6.2439;TG-24;Maritime;Aképé Dzogbépimé
+0;1.0561,6.2375;TG-24;Maritime;Aképé
+0;1.1000,6.1725;TG-24;Maritime;Akato Viépé
+0;1.0919,6.1903;TG-24;Maritime;Akato Avoémé
+0;1.4592,6.4308;TG-24;Maritime;Akatchang
+0;1.2528,6.3181;TG-24;Maritime;Agouté
+4485;0.7333,6.8833;TG-25;Plateaux;Agou Gadzépé
+0;1.1869,6.2908;TG-24;Maritime;Agossito
+0;1.4875,6.4675;TG-24;Maritime;Agoponou
+0;1.4303,6.2311;TG-24;Maritime;Agomékpota
+0;1.3453,6.3367;TG-24;Maritime;Agomé
+0;1.3628,6.1769;TG-24;Maritime;Agodéké
+0;1.0781,6.3067;TG-24;Maritime;Agligo
+0;1.2806,6.1719;TG-24;Maritime;Aglami
+0;1.4789,6.2014;TG-24;Maritime;Agbodrafo
+0;1.2644,6.1472;TG-24;Maritime;Agbétyafan
+0;1.4222,6.2839;TG-24;Maritime;Agbédévi Kopé
+0;1.1961,6.1883;TG-24;Maritime;Agbalé Pédo
+0;1.0228,6.3325;TG-24;Maritime;Agbalaho
+0;1.0806,6.4272;TG-24;Maritime;Agbadomé
+0;1.3958,6.1778;TG-24;Maritime;Afidényigba
+8912;1.6500,6.4833;TG-24;Maritime;Afanyangan
+0;1.2817,6.2981;TG-24;Maritime;Adjoguidi
+0;1.2622,6.4086;TG-24;Maritime;Adjira Kopé
+0;1.4289,6.2644;TG-24;Maritime;Adjido Déka
+0;1.0694,6.2678;TG-24;Maritime;Adjadébé
+0;1.2681,6.3339;TG-24;Maritime;Adidovikopé
+0;1.2158,6.3231;TG-24;Maritime;Adéti-Kopé
+8499;0.7333,7.1333;TG-25;Plateaux;Adéta
+0;1.1861,6.4350;TG-24;Maritime;Adato
+0;1.4897,6.3619;TG-24;Maritime;Adakpo Kondji
+0;1.2877,6.1730;TG-24;Maritime;Adakpamé
+0;1.3761,6.2358;TG-24;Maritime;Abobo
+0;1.2633,6.1344;TG-24;Maritime;Ablogamé
+0;1.1017,6.3669;TG-24;Maritime;Ablochrhi Kopé
+0;1.3097,6.2467;TG-24;Maritime;Klédoumé
+0;1.2861,6.2367;TG-24;Maritime;Kodésoa
+0;1.2964,6.2319;TG-24;Maritime;Kodèmé
+0;1.3086,6.2314;TG-24;Maritime;Adidomé
+0;1.3092,6.2381;TG-24;Maritime;Bodavé
+0;1.3161,6.2381;TG-24;Maritime;Vokémé
+0;1.3142,6.2319;TG-24;Maritime;Améléké
+0;1.3272,6.2406;TG-24;Maritime;Gagban
+0;1.3306,6.2319;TG-24;Maritime;Adjidomé
+0;1.3333,6.2264;TG-24;Maritime;Djavedji
+0;1.3358,6.2225;TG-24;Maritime;Sidomi
+0;1.3453,6.2244;TG-24;Maritime;Touta Kopé
+0;1.3489,6.2106;TG-24;Maritime;Akakpo
+0;1.3561,6.2067;TG-24;Maritime;Sofo
+0;1.3578,6.2269;TG-24;Maritime;Homakué
+0;1.3525,6.2239;TG-24;Maritime;Kwengan
+0;1.3633,6.2383;TG-24;Maritime;Klou Kopé
+0;1.3692,6.2433;TG-24;Maritime;Koudémo Kopé
+0;1.3669,6.2414;TG-24;Maritime;Kalapé
+0;1.3744,6.2311;TG-24;Maritime;Fatao Kopé
+0;1.3711,6.2278;TG-24;Maritime;Akousé
+0;1.3669,6.2242;TG-24;Maritime;Mirhédo
+0;1.3689,6.2133;TG-24;Maritime;Asou
+0;1.3650,6.2072;TG-24;Maritime;Sodokè
+0;1.3669,6.2072;TG-24;Maritime;Logosé
+0;1.3811,6.2250;TG-24;Maritime;Dosavi
+0;1.3833,6.2225;TG-24;Maritime;Klouvi
+0;1.4539,6.2456;TG-24;Maritime;Rhoségbado
+0;1.4619,6.2489;TG-24;Maritime;Kohoun
+0;1.4869,6.2403;TG-24;Maritime;Kondo
+0;1.4897,6.2378;TG-24;Maritime;Kakpoui
+0;1.4928,6.2436;TG-24;Maritime;Aisou
+0;1.4975,6.2492;TG-24;Maritime;Féglo
+0;1.4994,6.2444;TG-24;Maritime;Koui
+0;1.4969,6.2417;TG-24;Maritime;Agodéké
+0;1.4944,6.2344;TG-24;Maritime;Tagovi
+0;1.4975,6.2317;TG-24;Maritime;Koumako
+0;1.2519,6.2047;TG-24;Maritime;Ondito
+0;1.2567,6.2019;TG-24;Maritime;Agbodo
+0;1.2681,6.1942;TG-24;Maritime;Apédo
+0;1.2750,6.1850;TG-24;Maritime;Adjogblé
+0;1.2667,6.1775;TG-24;Maritime;Amousoukopé
+0;1.2783,6.1786;TG-24;Maritime;Avoutsou
+0;1.2700,6.1706;TG-24;Maritime;Vikpakpa
+0;1.2658,6.1658;TG-24;Maritime;Ounpé
+0;1.2853,6.1697;TG-24;Maritime;Kosi Kopé
+0;1.2906,6.1689;TG-24;Maritime;Kébolo
+0;1.2819,6.1664;TG-24;Maritime;Bétoglo
+0;1.2511,6.1511;TG-24;Maritime;Manasé
+0;1.2531,6.1525;TG-24;Maritime;Bosou
+0;1.2564,6.1542;TG-24;Maritime;Hotonou
+0;1.2622,6.1542;TG-24;Maritime;Sosou
+0;1.2678,6.1544;TG-24;Maritime;Anfamé
+0;1.2972,6.1606;TG-24;Maritime;Kanyi
+0;1.3397,6.1853;TG-24;Maritime;Lawadan
+0;1.3381,6.1817;TG-24;Maritime;Kokou Kopé
+0;1.3331,6.1756;TG-24;Maritime;Koumazan
+0;1.3767,6.1822;TG-24;Maritime;Yovo Kopé
+0;1.3811,6.1828;TG-24;Maritime;Toudji
+0;1.4142,6.2067;TG-24;Maritime;Agbodan
+0;1.4194,6.2039;TG-24;Maritime;Kokou
+0;1.4214,6.2075;TG-24;Maritime;Touglo
+0;1.4214,6.2042;TG-24;Maritime;Komlavi
+0;1.4306,6.2117;TG-24;Maritime;Agogoudjou
+0;1.4503,6.2142;TG-24;Maritime;Kpésikonou
+0;1.4783,6.2050;TG-24;Maritime;Zongo
+0;1.4803,6.2056;TG-24;Maritime;Aziza
+0;1.4936,6.2214;TG-24;Maritime;Agbésitonou
+0;1.2517,6.1461;TG-24;Maritime;Houvémé
+0;1.2600,6.1428;TG-24;Maritime;Avété
+0;1.2586,6.1408;TG-24;Maritime;Alagbo
+0;1.2678,6.1500;TG-24;Maritime;Akodéséwa
+0;1.2758,6.1389;TG-24;Maritime;Kofiwendjé
+0;1.2819,6.1503;TG-24;Maritime;Adjigo
+0;1.2806,6.1461;TG-24;Maritime;Ladjékpo
+0;1.2817,6.1417;TG-24;Maritime;Sopé
+0;1.2861,6.1525;TG-24;Maritime;Ema Kopé
+0;1.2850,6.1442;TG-24;Maritime;Lantigban
+0;1.2925,6.1433;TG-24;Maritime;Ayivi
+0;1.2986,6.1456;TG-24;Maritime;Kawékondji
+0;1.3100,6.1631;TG-24;Maritime;Rhodan
+0;1.3058,6.1617;TG-24;Maritime;Rhatosé
+0;1.3050,6.1517;TG-24;Maritime;Oundo
+0;1.3092,6.1561;TG-24;Maritime;Tokpokondji
+0;1.3386,6.1592;TG-24;Maritime;Adjatogo
+0;1.3394,6.1597;TG-24;Maritime;Améwawou
+0;1.3456,6.1619;TG-24;Maritime;Agbosè
+0;1.3514,6.1697;TG-24;Maritime;Foli Kopé
+0;1.3539,6.1647;TG-24;Maritime;Baka
+0;1.3594,6.1661;TG-24;Maritime;Séglo
+0;1.3628,6.1669;TG-24;Maritime;Aményaglo
+0;1.3706,6.1694;TG-24;Maritime;Bobolé
+0;1.3983,6.1783;TG-24;Maritime;Kouasi Agbavi
+0;1.4244,6.1844;TG-24;Maritime;Amoukondji
+0;1.4344,6.1867;TG-24;Maritime;Dévikamé
+0;1.4406,6.1883;TG-24;Maritime;Anyimanya
+0;1.4519,6.1908;TG-24;Maritime;Adiséou
+0;1.4719,6.1953;TG-24;Maritime;Kodzovya
+0;1.3769,6.2453;TG-24;Maritime;Kpoguéde
+0;1.0581,6.2461;TG-24;Maritime;Halte
+0;1.0556,6.2456;TG-24;Maritime;Fagbédji
+0;1.0611,6.2439;TG-24;Maritime;Akpa
+0;1.0653,6.2244;TG-24;Maritime;Komla
+0;1.0669,6.2289;TG-24;Maritime;Mikéso
+0;1.0694,6.2261;TG-24;Maritime;Apéléte
+0;1.0664,6.2169;TG-24;Maritime;Evohoun
+0;1.0742,6.2133;TG-24;Maritime;Fyégbo
+0;1.0742,6.2469;TG-24;Maritime;Djévé
+0;1.0772,6.2431;TG-24;Maritime;Alokénou
+0;1.0772,6.2406;TG-24;Maritime;Bamé
+0;1.0767,6.2275;TG-24;Maritime;Tékpolo
+0;1.0831,6.2214;TG-24;Maritime;Djikousére
+0;1.0847,6.2211;TG-24;Maritime;Ablogbé
+0;1.0867,6.2197;TG-24;Maritime;Afangbédji
+0;1.0828,6.2172;TG-24;Maritime;Adokpo
+0;1.0783,6.2058;TG-24;Maritime;Mésan
+0;1.0756,6.2008;TG-24;Maritime;Kémavo
+0;1.0783,6.2017;TG-24;Maritime;Kéhodou
+0;1.0811,6.1978;TG-24;Maritime;Asyabi
+0;1.0831,6.1931;TG-24;Maritime;Adyényénya
+0;1.0850,6.2453;TG-24;Maritime;Nomanyo
+0;1.0983,6.2417;TG-24;Maritime;Atidjon
+0;1.1022,6.2403;TG-24;Maritime;Agbanati
+0;1.1119,6.2389;TG-24;Maritime;Naka
+0;1.1083,6.2344;TG-24;Maritime;Gakpodji
+0;1.1258,6.2456;TG-24;Maritime;Nyalimé
+0;1.1194,6.2381;TG-24;Maritime;Aoudja
+0;1.1258,6.2386;TG-24;Maritime;Daliko
+0;1.1208,6.2328;TG-24;Maritime;Kpoka
+0;1.1203,6.2297;TG-24;Maritime;Gbéto
+0;1.1331,6.2381;TG-24;Maritime;Sanyra
+0;1.1303,6.2328;TG-24;Maritime;Kpodo
+0;1.1389,6.2361;TG-24;Maritime;Misino
+0;1.1450,6.2494;TG-24;Maritime;Atyémé
+0;1.1467,6.2408;TG-24;Maritime;Sidémé
+0;1.1483,6.2386;TG-24;Maritime;Aoudé
+0;1.1544,6.2475;TG-24;Maritime;Denliko
+0;1.1558,6.2378;TG-24;Maritime;Nyavi
+0;1.1486,6.2358;TG-24;Maritime;Dosé
+0;1.1581,6.2319;TG-24;Maritime;Zomésimé
+0;1.1636,6.2436;TG-24;Maritime;Komé
+0;1.1600,6.2486;TG-24;Maritime;Atchyomé
+0;1.1631,6.2469;TG-24;Maritime;Agbéli
+0;1.1633,6.2456;TG-24;Maritime;Agbodjalo
+0;1.1603,6.2411;TG-24;Maritime;Sakpléto
+0;1.1681,6.2372;TG-24;Maritime;Mwen
+0;1.1747,6.2436;TG-24;Maritime;Eho
+0;1.1767,6.2450;TG-24;Maritime;Bésé
+0;1.1733,6.2356;TG-24;Maritime;Djamakou
+0;1.1714,6.2331;TG-24;Maritime;Zobinou
+0;1.1778,6.2367;TG-24;Maritime;Akakpo
+0;1.1908,6.2411;TG-24;Maritime;Akpla Albo
+0;1.1900,6.2494;TG-24;Maritime;Zogbégan
+0;1.1950,6.2358;TG-24;Maritime;Dola
+0;1.2014,6.2481;TG-24;Maritime;Agbo
+0;1.2094,6.2267;TG-24;Maritime;Atchavé
+0;1.2125,6.2467;TG-24;Maritime;Kémé
+0;1.2144,6.2442;TG-24;Maritime;Bolo Kopé
+0;1.2175,6.2269;TG-24;Maritime;Agokpwi
+0;1.2200,6.2250;TG-24;Maritime;Adjavon
+0;1.2261,6.2244;TG-24;Maritime;Adjougba
+0;1.0936,6.2325;TG-24;Maritime;Dougan
+0;1.1058,6.2303;TG-24;Maritime;Vougomé
+0;1.1044,6.2219;TG-24;Maritime;Djava
+0;1.0961,6.2164;TG-24;Maritime;Agbo
+0;1.1044,6.2200;TG-24;Maritime;Rhotou
+0;1.1025,6.2181;TG-24;Maritime;Atinyo
+0;1.1086,6.2108;TG-24;Maritime;Kopégan
+0;1.1086,6.2072;TG-24;Maritime;Agbonaglé
+0;1.0972,6.2069;TG-24;Maritime;Avégwimé
+0;1.1094,6.2050;TG-24;Maritime;Rhimé
+0;1.1044,6.1992;TG-24;Maritime;Kpodji
+0;1.0997,6.1861;TG-24;Maritime;Sélég
+0;1.0925,6.1739;TG-24;Maritime;Kouvi
+0;1.0917,6.1722;TG-24;Maritime;Vonhoto
+0;1.1111,6.1794;TG-24;Maritime;Amousou
+0;1.1078,6.1786;TG-24;Maritime;Agbodinou
+0;1.0961,6.1747;TG-24;Maritime;Gamadékou
+0;1.1019,6.1744;TG-24;Maritime;Gandé
+0;1.1108,6.1753;TG-24;Maritime;Aéto
+0;1.0969,6.1700;TG-24;Maritime;Agbévé
+0;1.1000,6.1711;TG-24;Maritime;Sohonou
+0;1.1150,6.2247;TG-24;Maritime;Apégame
+0;1.1200,6.2167;TG-24;Maritime;Alakopé
+0;1.1175,6.2147;TG-24;Maritime;Afangbédji
+0;1.1283,6.2128;TG-24;Maritime;Sohou
+0;1.1325,6.2086;TG-24;Maritime;Adjakové
+0;1.1356,6.1969;TG-24;Maritime;Gbouamé
+0;1.1483,6.2014;TG-24;Maritime;Kosi
+0;1.1483,6.1958;TG-24;Maritime;Agbédinou
+0;1.1481,6.1892;TG-24;Maritime;Adjivon
+0;1.1367,6.1900;TG-24;Maritime;Sagbado Logoté
+0;1.1456,6.1881;TG-24;Maritime;Kpésoudji
+0;1.1144,6.1806;TG-24;Maritime;Azakopé
+0;1.1225,6.1825;TG-24;Maritime;Kagavé
+0;1.1325,6.1811;TG-24;Maritime;Sakani
+0;1.1461,6.1808;TG-24;Maritime;Asato
+0;1.1478,6.1811;TG-24;Maritime;Davo
+0;1.1653,6.1794;TG-24;Maritime;Adido Gomé
+0;1.1508,6.1767;TG-24;Maritime;Pasra
+0;1.1131,6.1789;TG-24;Maritime;Myéso
+0;1.1197,6.1775;TG-24;Maritime;Agbo Akounou
+0;1.1153,6.1672;TG-24;Maritime;Dzokyasi
+0;1.1283,6.1681;TG-24;Maritime;Agbéménya
+0;1.1428,6.1719;TG-24;Maritime;Yokoé Kopégan
+0;1.1478,6.1733;TG-24;Maritime;Mésan
+0;1.1256,6.2278;TG-24;Maritime;Atigan Kopé
+0;1.1372,6.2219;TG-24;Maritime;Asinyo
+0;1.1417,6.2300;TG-24;Maritime;Amouadranyi
+0;1.1447,6.2278;TG-24;Maritime;Zohoun
+0;1.1417,6.2233;TG-24;Maritime;Agboba
+0;1.1606,6.2286;TG-24;Maritime;Wati
+0;1.1558,6.2236;TG-24;Maritime;Kounyo
+0;1.1511,6.2208;TG-24;Maritime;Gbogba
+0;1.1483,6.2200;TG-24;Maritime;Agbavito
+0;1.1539,6.2153;TG-24;Maritime;Gbologan
+0;1.1664,6.2272;TG-24;Maritime;Aziza
+0;1.1650,6.2236;TG-24;Maritime;Tchokpo
+0;1.1658,6.2144;TG-24;Maritime;Agbotamé
+0;1.1656,6.2136;TG-24;Maritime;Ayi Kopé
+0;1.1631,6.2092;TG-24;Maritime;Adékplovi
+0;1.1492,6.2083;TG-24;Maritime;Djérémégan
+0;1.1575,6.2036;TG-24;Maritime;Sagbado
+0;1.1622,6.2003;TG-24;Maritime;Gavi
+0;1.1611,6.1978;TG-24;Maritime;Djanyipémé
+0;1.1750,6.2264;TG-24;Maritime;Azabényon
+0;1.1697,6.2203;TG-24;Maritime;Agbétchafan
+0;1.1761,6.2197;TG-24;Maritime;Mikbondji
+0;1.1811,6.2311;TG-24;Maritime;Néglo
+0;1.1817,6.2294;TG-24;Maritime;Gbonvé
+0;1.1806,6.2256;TG-24;Maritime;Adjavi
+0;1.1881,6.2281;TG-24;Maritime;Odoméglo
+0;1.1892,6.2253;TG-24;Maritime;Klouga
+0;1.1978,6.2242;TG-24;Maritime;Aouya
+0;1.1669,6.2119;TG-24;Maritime;Nomanyon
+0;1.1694,6.2086;TG-24;Maritime;Agbézoudo
+0;1.1742,6.2175;TG-24;Maritime;Midja
+0;1.1775,6.2125;TG-24;Maritime;Kpéti
+0;1.1819,6.2097;TG-24;Maritime;Kpoti
+0;1.1800,6.2192;TG-24;Maritime;Goza
+0;1.1864,6.2156;TG-24;Maritime;Azongo
+0;1.1864,6.2131;TG-24;Maritime;Tokplézo
+0;1.1875,6.2058;TG-24;Maritime;Aglago
+0;1.1919,6.2028;TG-24;Maritime;Améglo
+0;1.1978,6.2208;TG-24;Maritime;Aloé
+0;1.2006,6.2186;TG-24;Maritime;Nyanou
+0;1.2053,6.2169;TG-24;Maritime;Bla
+0;1.1947,6.2153;TG-24;Maritime;Mlagani
+0;1.2033,6.2150;TG-24;Maritime;Amou
+0;1.2022,6.2133;TG-24;Maritime;Kpatéfi
+0;1.1967,6.2078;TG-24;Maritime;Djamla
+0;1.2028,6.2089;TG-24;Maritime;Dovi
+0;1.1983,6.2064;TG-24;Maritime;Zyon
+0;1.1750,6.1817;TG-24;Maritime;Avédji
+0;1.1781,6.1803;TG-24;Maritime;Avédji Anyigbé
+0;1.1692,6.1758;TG-24;Maritime;Tiglikpo
+0;1.1742,6.1744;TG-24;Maritime;Agbakou
+0;1.1706,6.1725;TG-24;Maritime;Djaka
+0;1.1739,6.2011;TG-24;Maritime;Aményaglo
+0;1.1764,6.1961;TG-24;Maritime;Yovokopé
+0;1.1831,6.1981;TG-24;Maritime;Djamési
+0;1.1767,6.1864;TG-24;Maritime;Ba Kopé
+0;1.1936,6.1978;TG-24;Maritime;Honkopé
+0;1.1819,6.1844;TG-24;Maritime;Madodji
+0;1.1850,6.1811;TG-24;Maritime;Sedjro
+0;1.1872,6.1758;TG-24;Maritime;Soklito
+0;1.2042,6.2056;TG-24;Maritime;Aogan
+0;1.1942,6.2011;TG-24;Maritime;Taméklo
+0;1.2047,6.1947;TG-24;Maritime;Aglali
+0;1.1981,6.1919;TG-24;Maritime;Mésan
+0;1.1969,6.1844;TG-24;Maritime;Afanbo
+0;1.1883,6.1808;TG-24;Maritime;Avéméné
+0;1.2003,6.1772;TG-24;Maritime;Azyagbang
+0;1.1919,6.1758;TG-24;Maritime;Aboni Kopé
+0;1.2006,6.1758;TG-24;Maritime;Gakli
+0;1.1950,6.1725;TG-24;Maritime;Gbolovou
+0;1.2172,6.2178;TG-24;Maritime;Vyévépé
+0;1.2250,6.2194;TG-24;Maritime;Agbézourhlan
+0;1.2386,6.2172;TG-24;Maritime;Nélimé
+0;1.2119,6.2100;TG-24;Maritime;Ala
+0;1.2144,6.2156;TG-24;Maritime;Akoé
+0;1.2278,6.2158;TG-24;Maritime;Dodji
+0;1.2417,6.2147;TG-24;Maritime;Séméba
+0;1.2156,6.2092;TG-24;Maritime;Kodjo
+0;1.2192,6.2061;TG-24;Maritime;Adablai
+0;1.2231,6.2089;TG-24;Maritime;Agbénouvon
+0;1.2225,6.2067;TG-24;Maritime;Tokpo
+0;1.2386,6.2114;TG-24;Maritime;Kopégan
+0;1.2478,6.2056;TG-24;Maritime;Agbétchafan
+0;1.2131,6.1764;TG-24;Maritime;Séou
+0;1.2136,6.1739;TG-24;Maritime;Adakousé
+0;1.2078,6.1706;TG-24;Maritime;Noubklo
+0;1.2158,6.1692;TG-24;Maritime;Sémé
+0;1.2100,6.1672;TG-24;Maritime;Amousouvi
+0;1.2100,6.2014;TG-24;Maritime;Masorthé
+0;1.2167,6.1958;TG-24;Maritime;Kélégouvi
+0;1.2281,6.1992;TG-24;Maritime;Azogénou
+0;1.2297,6.1992;TG-24;Maritime;Atiso
+0;1.2456,6.1956;TG-24;Maritime;Aoudja
+0;1.2361,6.1947;TG-24;Maritime;Koumaho
+0;1.2097,6.1903;TG-24;Maritime;Badoga
+0;1.2328,6.1900;TG-24;Maritime;Soagédé
+0;1.2419,6.1917;TG-24;Maritime;Togbidji
+0;1.2381,6.1869;TG-24;Maritime;Awen
+0;1.2153,6.1850;TG-24;Maritime;Aidé
+0;1.2150,6.1836;TG-24;Maritime;Kofi
+0;1.2183,6.1831;TG-24;Maritime;Kouléhoho
+0;1.2331,6.1800;TG-24;Maritime;Atchati
+0;1.2167,6.1806;TG-24;Maritime;Agbénya
+0;1.2186,6.1767;TG-24;Maritime;Afotoudé
+0;1.2194,6.1761;TG-24;Maritime;Ongodé
+0;1.2247,6.1750;TG-24;Maritime;Magbla
+0;1.2267,6.1711;TG-24;Maritime;Sékotéli
+0;1.2228,6.1656;TG-24;Maritime;Houndanou
+0;1.2064,6.1647;TG-24;Maritime;Migbodji
+0;1.2094,6.1656;TG-24;Maritime;Gali
+0;1.2192,6.1656;TG-24;Maritime;Kosivi
+0;1.2244,6.1656;TG-24;Maritime;Boyi
+0;1.2078,6.1608;TG-24;Maritime;Dosou
+0;1.2175,6.1617;TG-24;Maritime;Tisé
+0;1.2242,6.1617;TG-24;Maritime;Nyaso
+0;1.2172,6.1603;TG-24;Maritime;Kpésé
+0;1.2381,6.1608;TG-24;Maritime;Atchavé
+0;1.2175,6.1553;TG-24;Maritime;Dogbéavi
+0;1.2228,6.1567;TG-24;Maritime;Ako
+0;1.2461,6.1492;TG-24;Maritime;Anoukou
+0;1.2194,6.1442;TG-24;Maritime;Gbadago
+0;1.2425,6.1436;TG-24;Maritime;Amoutivé
+0;1.2392,6.1394;TG-24;Maritime;Apéyémé
+0;1.2044,6.1292;TG-24;Maritime;Nyenakpoé
+0;1.2422,6.1322;TG-24;Maritime;Kpéhénou
+0;1.2064,6.1203;TG-24;Maritime;Kodjovya
+0;1.2631,6.4433;TG-24;Maritime;Agbatopé
+0;1.4339,6.3339;TG-24;Maritime;Béhémé
+0;1.2539,6.2656;TG-24;Maritime;Hiama Kopé
+0;1.0608,6.2906;TG-24;Maritime;Noégpéblé
+0;1.0386,6.3633;TG-24;Maritime;Kpédje
+0;1.4681,6.4639;TG-24;Maritime;Damabali
+0;1.4753,6.4175;TG-24;Maritime;Hoéta
+0;1.4917,6.3672;TG-24;Maritime;Akbodia Kondj
+0;1.4250,6.2872;TG-24;Maritime;Séva-Apédomé
+0;1.2933,6.2483;TG-24;Maritime;Kopé
+0;1.2611,6.3153;TG-24;Maritime;Avalépo
+0;1.1242,6.1528;TG-24;Maritime;Aveyigbome
+0;1.1303,6.2111;TG-24;Maritime;Atigan
+0;1.0731,10.1522;TG-23;Kara;Nadoba
+0;1.2106,10.0544;TG-23;Kara;Koutougou
+0;1.1877,6.1810;TG-24;Maritime;Totsi
+0;1.1974,6.1800;TG-24;Maritime;Avedji Telessou
+0;0.6088,10.9683;TG-26;Savanes;Tambima
+0;0.6493,10.9602;TG-26;Savanes;Konpiéna
+0;0.8864,10.9397;TG-26;Savanes;Lalabiga
+0;0.3974,10.9720;TG-26;Savanes;Kpemboli
+0;0.8237,10.9756;TG-26;Savanes;Souktangou
+0;0.5737,10.9124;TG-26;Savanes;Lidolé
+0;0.5777,10.9366;TG-26;Savanes;Blamonga
+0;0.5541,10.9309;TG-26;Savanes;Tchimori
+0;0.4045,10.9641;TG-26;Savanes;Topiengue
+0;0.4134,10.9663;TG-26;Savanes;Kpembonle
+0;0.5516,10.7881;TG-26;Savanes;Kpentendjoaga 1
+0;0.5404,10.7973;TG-26;Savanes;Kpentendjoaga 2
+0;0.5351,10.8140;TG-26;Savanes;Kpentendjoaga 3
+0;0.8836,10.9107;TG-26;Savanes;Gniengou
+0;0.6587,10.9250;TG-26;Savanes;Bambore
+0;0.6582,10.9353;TG-26;Savanes;Tigou
+0;0.6635,10.9094;TG-26;Savanes;Omalgbong
+0;0.4681,11.0068;TG-26;Savanes;Gbamonte
+0;0.7252,10.8756;TG-26;Savanes;Bagre-Tambina
+0;0.7926,10.8630;TG-26;Savanes;Mondofoali
+0;0.7846,10.8672;TG-26;Savanes;Tindandeni
+0;0.7867,10.8566;TG-26;Savanes;Djatinga
+0;0.7806,10.8559;TG-26;Savanes;Mondofoali 2
+0;0.7565,10.8879;TG-26;Savanes;Kpakparga
+0;0.7773,10.8887;TG-26;Savanes;Pebili
+0;0.7779,10.9129;TG-26;Savanes;Djoatou
+0;0.7620,10.9072;TG-26;Savanes;Namoufouali
+0;0.7257,10.8892;TG-26;Savanes;Bagre-Kouampante
+0;0.2667,10.4297;TG-26;Savanes;Tambinamone
+0;0.2585,10.4277;TG-26;Savanes;Yamchékné
+0;0.2087,10.4288;TG-26;Savanes;Nagouni
+0;0.5599,10.9386;TG-26;Savanes;Gniepol
+0;0.5530,10.9541;TG-26;Savanes;Banangandi
+0;0.5714,10.9092;TG-26;Savanes;Teliga
+0;0.5675,10.9094;TG-26;Savanes;Tetega
+0;0.5641,10.9173;TG-26;Savanes;Botolonga
+0;0.5464,10.9123;TG-26;Savanes;Gnumdjanga
+0;0.5355,10.9144;TG-26;Savanes;Dielo
+0;0.5359,10.9079;TG-26;Savanes;Tanloaga 2
+0;0.5563,10.3488;TG-26;Savanes;Tchiri 2
+0;0.5554,10.3169;TG-26;Savanes;Bonzoukou
+0;0.6147,10.4260;TG-26;Savanes;Namoumale
+0;0.3856,10.9278;TG-26;Savanes;Bamone
+0;0.5162,10.8139;TG-26;Savanes;Namatigou
+0;0.3775,11.0036;TG-26;Savanes;Nadjou
+0;0.6038,10.8833;TG-26;Savanes;Sibirigbongbong
+0;0.6535,10.7235;TG-26;Savanes;Yiagou
+0;0.6097,10.7483;TG-26;Savanes;Momba 1
+0;0.6197,10.7480;TG-26;Savanes;Momba 2
+0;0.6058,10.7278;TG-26;Savanes;Natongou 1
+0;0.3874,10.8558;TG-26;Savanes;Tchiamonga
+0;0.6011,10.8436;TG-26;Savanes;Natchambonga
+0;0.4998,10.6324;TG-26;Savanes;Gniboutigou
+0;0.5233,10.6096;TG-26;Savanes;Toping
+0;0.5235,10.6410;TG-26;Savanes;Tchamignoti
+0;0.5064,10.6168;TG-26;Savanes;Tangbadi
+0;0.5021,10.6161;TG-26;Savanes;Tangbane
+0;0.7995,10.8265;TG-26;Savanes;Tinbedi
+0;0.8050,10.8142;TG-26;Savanes;Nannagrigou
+0;0.7878,10.8271;TG-26;Savanes;Nakpafoaga
+5850;0.6956,7.2036;TG-25;Plateaux;Danyi-Apéyémé
+0;0.2947,10.9157;TG-26;Savanes;Kabilagou II
+0;0.2917,10.9038;TG-26;Savanes;Kabilagou I
+0;0.4517,10.6069;TG-26;Savanes;Gayargou
+0;0.4665,10.6332;TG-26;Savanes;Woamane
+0;0.4551,10.6271;TG-26;Savanes;Mamaga

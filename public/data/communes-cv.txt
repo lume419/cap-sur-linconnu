@@ -1,0 +1,2708 @@
+8;-24.6827,14.8688;CV-02;Brava;Vinagre
+2225;-24.6956,14.8714;CV-02;Brava;Nova Sintra
+0;-25.0927,17.1963;CV-07;Ribeira Grande;Vila Maria Pia
+4472;-23.2116,15.1382;CV-04;Maio;Vila do Maio
+2851;-24.2983,16.6158;CV-22;Ribeira Brava;Ribeira Brava
+155;-24.4509,14.8933;CV-18;São Filipe;Vicente Dias
+414;-23.4725,14.9905;CV-17;São Domingos;Vale da Gusta
+0;-25.1920,17.0773;CV-21;Porto Novo;Urgueiro
+230;-23.5588,14.9565;CV-14;Praia;Trindade
+396;-23.7135,15.2951;CV-20;Tarrafal;Trás os Montes
+0;-24.3632,16.6197;CV-27;Tarrafal de São Nicolau;Torno de Água
+0;-23.7167,15.3000;CV-20;Tarrafal;Toril
+765;-24.4752,14.9253;CV-18;São Filipe;Tongom
+476;-25.0624,17.1835;CV-07;Ribeira Grande;Tarrafal
+679;-25.3104,16.9587;CV-21;Porto Novo;Tarrafal de Monte Trigo
+4371;-24.3579,16.5662;CV-27;Tarrafal de São Nicolau;Tarrafal de São Nicolau
+13483;-23.7519,15.2788;CV-20;Tarrafal;Tarrafal
+0;-25.1998,17.0154;CV-21;Porto Novo;Tabuga de Cima
+0;-25.1667,17.0833;CV-21;Porto Novo;Tabuadinha
+371;-25.0316,17.1775;CV-07;Ribeira Grande;Sinagoga
+0;-24.4686,14.9428;CV-18;São Filipe;Serrado
+0;-25.3038,16.9590;CV-21;Porto Novo;Seladinha
+0;-25.1549,17.1472;CV-07;Ribeira Grande;Selada do Mocho
+0;-25.2675,17.1004;CV-21;Porto Novo;Aldeia
+1060;-25.0658,16.8289;CV-11;São Vicente;São Pedro
+618;-23.5681,14.9245;CV-23;Ribeira Grande de Santiago;São Martinho Grande
+0;-22.8246,16.0621;CV-01;Boa Vista;São Jorge
+602;-24.4290,15.0132;CV-18;São Filipe;São Jorge
+0;-23.6601,14.9465;CV-23;Ribeira Grande de Santiago;São João
+10097;-24.4956,14.8961;CV-18;São Filipe;São Filipe
+2960;-23.5625,15.0244;CV-17;São Domingos;São Domingos
+0;-23.1138,15.2672;CV-04;Maio;Santo António
+0;-23.5338,15.1391;CV-16;Santa Cruz;Santiago Maior
+8400;-22.9051,16.5980;CV-08;Sal;Santa Maria
+9488;-23.5594,15.1340;CV-16;Santa Cruz;Santa Cruz
+102;-24.6866,14.8754;CV-02;Brava;Santa Bárbara
+0;-24.3446,15.0432;CV-13;Mosteiros;Sambango
+10936;-22.9172,16.1761;CV-01;Boa Vista;Sal Rei
+1172;-24.9436,16.9031;CV-11;São Vicente;Salamansa
+0;-23.5667,15.0500;CV-17;São Domingos;Sacramento
+1078;-23.5998,15.0352;CV-14;Praia;Rui Vaz
+0;-25.2833,17.0833;CV-21;Porto Novo;Ribeira Vermelha
+350;-24.3627,16.6594;CV-27;Tarrafal de São Nicolau;Ribeira da Prata
+0;-23.6804,15.2241;CV-20;Tarrafal;Ribeirão Sal
+1064;-23.5244,15.0060;CV-17;São Domingos;Ribeirão Chiqueiro
+635;-24.3773,15.0368;CV-13;Mosteiros;Ribeira Ilhéu
+3000;-25.0650,17.1825;CV-07;Ribeira Grande;Ribeira Grande
+1;-24.3354,16.6746;CV-27;Tarrafal de São Nicolau;Ribeira Funda
+122;-25.1572,17.0515;CV-21;Porto Novo;Ribeira Fria
+1;-24.3630,16.6303;CV-27;Tarrafal de São Nicolau;Ribeira dos Calhaus
+1009;-23.7453,15.2295;CV-20;Tarrafal;Ribeira da Prata
+314;-25.2470,17.1083;CV-21;Porto Novo;Ribeira da Cruz
+2048;-23.7595,15.1374;CV-15;Santa Catarina;Ribeira da Barca
+1061;-24.2978,14.9774;CV-13;Mosteiros;Relva
+0;-22.9159,16.8495;CV-08;Sal;Reguinho
+1401;-22.8867,16.1298;CV-01;Boa Vista;Rabil
+0;-25.2274,16.9907;CV-21;Porto Novo;Queimado
+246;-24.3167,16.6361;CV-22;Ribeira Brava;Queimadas
+0;-22.9294,16.7800;CV-08;Sal;Preguiça
+557;-24.2809,16.5631;CV-22;Ribeira Brava;Preguiça
+0;-22.8023,16.0067;CV-01;Boa Vista;Prazeres
+0;-22.9150,16.5965;CV-08;Sal;Prainha
+461;-24.3868,16.6424;CV-27;Tarrafal de São Nicolau;Praia Branca
+883;-23.4725,15.0591;CV-17;São Domingos;Praia Baixo
+137868;-23.5125,14.9315;CV-14;Praia;Praia
+186;-22.9176,16.0384;CV-01;Boa Vista;Povoação Velha
+1210;-23.7647,15.0611;CV-15;Santa Catarina;Rincão
+11138;-25.0647,17.0197;CV-21;Porto Novo;Porto Novo
+488;-23.6650,14.9388;CV-23;Ribeira Grande de Santiago;Porto Gouveia
+27;-23.6957,15.2513;CV-20;Tarrafal;Portal
+1166;-23.4926,14.9789;CV-14;Praia;São Francisco
+3300;-25.0922,17.2017;CV-07;Ribeira Grande;Ponta do Sol
+0;-24.7455,16.7463;CV-11;São Vicente;Ponta da Cruz
+0;-22.8500,16.1833;CV-01;Boa Vista;Ponta Adiante
+1429;-25.0201,17.1503;CV-05;Paul;Pombas
+0;-25.1667,17.0833;CV-21;Porto Novo;Pinto
+0;-23.6000,15.1667;CV-19;São Miguel;Pinchossa
+2040;-23.6324,15.0836;CV-26;São Salvador do Mundo;Picos
+0;-25.0207,17.0963;CV-21;Porto Novo;Perdia
+80;-24.4496,14.8859;CV-18;São Filipe;Penteada
+107;-23.1154,15.2478;CV-04;Maio;Pedro Vaz
+0;-25.1492,16.9585;CV-21;Porto Novo;Pedrinha
+259;-22.8935,16.7638;CV-08;Sal;Pedra Lume
+55;-24.7289,14.8582;CV-02;Brava;Pau
+803;-24.4260,14.8731;CV-18;São Filipe;Patim
+2320;-22.9835,16.7575;CV-08;Sal;Palmeira
+135;-22.9263,16.6637;CV-08;Sal;Palha Verde
+88;-24.3418,16.6114;CV-27;Tarrafal de São Nicolau;Palhal
+197;-23.6472,15.2229;CV-19;São Miguel;Palha Carga
+0;-23.1098,15.2580;CV-04;Maio;Pai Joana
+0;-22.7294,16.0397;CV-01;Boa Vista;Pai Amaro
+177;-24.3530,16.6114;CV-27;Tarrafal de São Nicolau;Hortelã
+0;-23.6167,15.0667;CV-25;São Lourenço dos Órgãos;Órgãos
+236;-24.7161,14.8580;CV-02;Brava;Nossa Senhora do Monte
+375;-23.5460,15.0203;CV-17;São Domingos;Nora
+0;-22.9428,16.7024;CV-08;Sal;Nha Marco
+0;-24.1840,16.6103;CV-22;Ribeira Brava;Morro Alto
+195;-23.2225,15.1800;CV-04;Maio;Morro
+0;-25.2705,17.0804;CV-21;Porto Novo;Morrinho d’Égua
+0;-25.2240,16.9640;CV-21;Porto Novo;Morrinho
+404;-23.2044,15.2659;CV-04;Maio;Morrinho
+152;-24.1941,16.6334;CV-22;Ribeira Brava;Morre Braz
+0;-23.7228,15.2252;CV-20;Tarrafal;Montinho
+213;-24.3295,14.8465;CV-24;Santa Catarina do Fogo;Monte Vermelho
+143;-25.0481,17.1598;CV-07;Ribeira Grande;Monte Joana
+0;-23.7167,15.2500;CV-20;Tarrafal;Montão
+336;-23.5849,15.0840;CV-25;São Lourenço dos Órgãos;Montanha
+216;-23.4472,15.0203;CV-17;São Domingos;Moia Moia
+378;-23.7052,15.2466;CV-20;Tarrafal;Achada Moirão
+156;-24.4461,14.9749;CV-18;São Filipe;Mira Mira
+69013;-24.9804,16.8901;CV-11;São Vicente;Mindelo
+4;-25.2282,17.0867;CV-21;Porto Novo;Miguel Pires
+51;-25.2028,17.1236;CV-07;Ribeira Grande;Meio de Espanha
+198;-23.6398,15.1998;CV-19;São Miguel;Mato Correia
+0;-24.9356,16.8599;CV-11;São Vicente;Mateuzinho
+0;-23.7000,15.2333;CV-20;Tarrafal;Massapé
+0;-25.2500,17.1000;CV-21;Porto Novo;Martiana
+1400;-23.6439,15.2346;CV-19;São Miguel;Achada Monte
+81;-23.7167,15.1333;CV-15;Santa Catarina;Malveira
+0;-24.9339,16.8277;CV-11;São Vicente;Madeiral
+0;-24.4398,14.8747;CV-18;São Filipe;Luzia Nunes
+0;-24.4833,14.9333;CV-18;São Filipe;Lugar Novo
+138;-25.1597,17.1138;CV-07;Ribeira Grande;Lombo de Mário
+18;-25.2136,17.1356;CV-07;Ribeira Grande;Lombo de Galinha
+260;-25.0630,17.0973;CV-21;Porto Novo;Lombo de Figueira
+0;-25.2167,17.0000;CV-21;Porto Novo;Lombo da Torre
+26;-25.2167,16.9833;CV-21;Porto Novo;Lombo das Lanças
+0;-25.1980,17.0007;CV-21;Porto Novo;Leiro
+449;-25.0218,16.8764;CV-11;São Vicente;Lazareto
+99;-23.6937,15.2684;CV-20;Tarrafal;Lapa Cachorro
+0;-24.3333,15.0167;CV-13;Mosteiros;Lagoa Atrás
+0;-23.1519,15.1290;CV-04;Maio;Lagoa
+365;-24.4667,14.9167;CV-18;São Filipe;Lagariça
+393;-24.1317,16.6137;CV-22;Ribeira Brava;Juncalinho
+441;-22.7437,16.1507;CV-01;Boa Vista;João Galego
+0;-25.2312,16.9670;CV-21;Porto Novo;João Daninha
+0;-22.7446,16.0216;CV-01;Boa Vista;João Barrosa
+1167;-24.9864,17.1203;CV-05;Paul;Janela
+109;-24.4519,14.9646;CV-18;São Filipe;Italiano
+408;-24.4430,14.9377;CV-18;São Filipe;Inhuco
+0;-23.6286,15.1974;CV-19;São Miguel;Ilhéu
+4084;-24.3333,15.0333;CV-13;Mosteiros;Igreja
+0;-22.7099,16.1965;CV-01;Boa Vista;Gatas
+13;-24.6862,14.8592;CV-02;Brava;Garça
+691;-24.4438,14.9987;CV-18;São Filipe;Galinheiros
+594;-24.6809,14.8870;CV-02;Brava;Furna
+1070;-23.6958,15.1682;CV-15;Santa Catarina;Fundura
+294;-22.7248,16.1393;CV-01;Boa Vista;Fundo das Figueiras
+266;-24.4418,14.8828;CV-18;São Filipe;Forno
+0;-23.6685,15.2502;CV-20;Tarrafal;Porto Formoso
+412;-24.3558,14.8484;CV-24;Santa Catarina do Fogo;Fonte Aleixo
+118;-25.1039,17.1879;CV-07;Ribeira Grande;Fontainhas
+0;-24.3190,16.5769;CV-27;Tarrafal de São Nicolau;Fontaínhas
+6;-22.8408,16.0819;CV-01;Boa Vista;Fogão
+0;-22.9149,16.8512;CV-08;Sal;Fiura
+63;-23.1448,15.1562;CV-04;Maio;Figueira Seca
+56;-25.2000,17.1333;CV-07;Ribeira Grande;Figueiras de Cimas
+0;-25.2114,17.1390;CV-07;Ribeira Grande;Figueiras de Baixo
+274;-24.3110,14.8711;CV-24;Santa Catarina do Fogo;Figueira Pavão
+0;-24.2167,16.6333;CV-22;Ribeira Brava;Figueira de Coxe
+1157;-23.7316,15.1820;CV-15;Santa Catarina;Figueira das Naus
+402;-23.1519,15.1599;CV-04;Maio;Figueira da Horta
+22;-22.9024,16.7527;CV-08;Sal;Feijoal
+0;-24.9497,16.8621;CV-11;São Vicente;Fazenda Real
+0;-25.1566,17.1238;CV-07;Ribeira Grande;Fundo
+0;-25.1610,17.1477;CV-07;Ribeira Grande;Fajãzinha
+144;-24.3529,15.0476;CV-13;Mosteiros;Fajãzinha
+110;-24.7311,14.8732;CV-02;Brava;Fajã de Agua
+392;-24.3192,16.6680;CV-22;Ribeira Brava;Estância Brás
+4;-22.7950,16.2092;CV-01;Boa Vista;Espingueira
+0;-25.1562,17.0896;CV-07;Ribeira Grande;Espadanã
+0;-25.1500,17.1167;CV-07;Ribeira Grande;Esgamaleiro
+0;-25.1500,17.1333;CV-07;Ribeira Grande;Escabeçada de Baixo
+0;-25.1500,17.1333;CV-07;Ribeira Grande;Escabeçada
+0;-25.1667,17.1145;CV-07;Ribeira Grande;Endriano
+0;-22.7944,16.2228;CV-01;Boa Vista;Derrubado
+110;-24.3319,14.8562;CV-24;Santa Catarina do Fogo;Dacabalaio
+0;-22.7923,15.9907;CV-01;Boa Vista;Curral Velho
+213;-25.2218,17.0432;CV-21;Porto Novo;Curral das Vacas
+0;-22.8077,16.0264;CV-01;Boa Vista;Curral Branco
+398;-25.1038,17.1641;CV-07;Ribeira Grande;Curral
+244;-25.1661,17.1703;CV-07;Ribeira Grande;Cruzinha da Garça
+0;-24.9413,16.8776;CV-11;São Vicente;Pé do Verde
+88;-24.3435,16.6557;CV-22;Ribeira Brava;Covoada
+1052;-24.2934,14.8905;CV-24;Santa Catarina do Fogo;Cova Figueira
+32;-25.1109,17.1910;CV-07;Ribeira Grande;Corvo
+254;-24.3048,14.9994;CV-13;Mosteiros;Corvo
+317;-25.2227,17.0507;CV-21;Porto Novo;Círio
+3319;-23.6053,14.9153;CV-23;Ribeira Grande de Santiago;Cidade Velha
+252;-23.7668,15.1277;CV-15;Santa Catarina;Charco
+0;-25.1936,17.0847;CV-21;Porto Novo;Chão Queimado
+160;-25.2712,17.1093;CV-21;Porto Novo;Chã do Norte
+468;-25.2102,17.0443;CV-21;Porto Novo;Chã de Morte
+0;-25.1918,17.1406;CV-07;Ribeira Grande;Varzinha
+0;-25.1915,17.1436;CV-07;Ribeira Grande;Chã Queimada
+22;-25.1906,17.1416;CV-07;Ribeira Grande;Chã de Paulo
+0;-23.7368,15.1867;CV-15;Santa Catarina;Chã de Figueira
+0;-23.6976,15.2451;CV-20;Tarrafal;Dentro
+0;-25.2540,17.1016;CV-21;Porto Novo;Chã de Ribeirinha
+593;-25.1639,17.1579;CV-07;Ribeira Grande;Chã da Igreja
+86;-23.6565,15.1970;CV-19;São Miguel;Xaxa
+0;-24.0401,16.5819;CV-22;Ribeira Brava;Castilhiano
+140;-23.1726,15.2700;CV-04;Maio;Cascabulho
+0;-25.0601,16.8241;CV-11;São Vicente;Casa do Cabo Submarino
+194;-24.3014,16.6493;CV-22;Ribeira Brava;Carvoeiros
+190;-24.0815,16.5545;CV-22;Ribeira Brava;Carriçal
+0;-24.3500,16.6667;CV-22;Ribeira Brava;Camarões
+1081;-23.2141,15.2304;CV-04;Maio;Calheta
+6329;-23.5923,15.1861;CV-19;São Miguel;Calheta de São Miguel
+1177;-24.8669,16.8522;CV-11;São Vicente;Calhau
+224;-24.3079,16.6031;CV-27;Tarrafal de São Nicolau;Calejão
+0;-25.0998,17.1608;CV-07;Ribeira Grande;Fajã de Coculi
+0;-25.2000,17.0500;CV-21;Porto Novo;Cachaço
+190;-24.6956,14.8373;CV-02;Brava;Cachaço
+0;-24.3167,16.5964;CV-27;Tarrafal de São Nicolau;Cachacinho
+77;-22.7248,16.1238;CV-01;Boa Vista;Cabeço dos Tarafes
+158;-24.3229,16.5977;CV-27;Tarrafal de São Nicolau;Cabeçalinho
+0;-22.9000,16.1167;CV-01;Boa Vista;Cabeçadas
+0;-25.3314,17.0417;CV-21;Porto Novo;Botija
+0;-25.3167,17.0833;CV-21;Porto Novo;Bonita
+0;-22.9000,16.7000;CV-08;Sal;Bomfim
+184;-22.8225,16.1856;CV-01;Boa Vista;Bofareira
+456;-22.8855,16.1315;CV-01;Boa Vista;Boa Ventura
+290;-23.6875,15.2506;CV-20;Tarrafal;Achada Biscainho
+0;-22.9667,16.8000;CV-08;Sal;Bela Vista
+0;-22.9333,16.6833;CV-08;Sal;Beirona
+447;-23.1612,15.1353;CV-04;Maio;Barreiro
+0;-25.0516,17.1805;CV-07;Ribeira Grande;Barbasco
+8;-24.3880,15.0092;CV-18;São Filipe;Baluarte
+0;-24.6861,14.8554;CV-02;Brava;Baleia
+1;-25.1952,16.9897;CV-21;Porto Novo;Baboso
+468;-24.3862,15.0315;CV-13;Mosteiros;Atalaia
+21297;-23.6833,15.1000;CV-15;Santa Catarina;Assomada
+0;-24.9656,16.8899;CV-11;São Vicente;Areia Branca
+0;-22.8237,16.1199;CV-01;Boa Vista;Amador
+183;-23.1041,15.2174;CV-04;Maio;Alcatraz
+0;-25.2144,16.9702;CV-21;Porto Novo;Água das Fortes
+0;-23.7069,15.2345;CV-20;Tarrafal;Achadinha
+348;-24.3032,14.9877;CV-13;Mosteiros;Achada Grande
+291;-23.4642,15.0466;CV-17;São Domingos;Achada Baleia
+321;-24.3354,16.6206;CV-22;Ribeira Brava;Cachaco
+681;-24.3237,16.6487;CV-22;Ribeira Brava;Faja de Baixo
+2;-25.1571,16.9501;CV-21;Porto Novo;Ribeira Torta
+4;-24.4113,16.6008;CV-27;Tarrafal de São Nicolau;Barril
+627;-23.5892,15.0669;CV-25;São Lourenço dos Órgãos;João Teves
+10038;-23.5308,15.1375;CV-16;Santa Cruz;Pedra Badejo
+24500;-22.9446,16.7552;CV-08;Sal;Espargos
+361;-25.1196,17.1611;CV-07;Ribeira Grande;Boca de Coruja
+1811;-23.5670,15.1490;CV-16;Santa Cruz;Cancelo
+1117;-23.6000,15.1992;CV-18;São Filipe;Ponta Verde
+401;-23.5063,15.1044;CV-16;Santa Cruz;Achada Ponta
+296;-23.7184,15.2249;CV-20;Tarrafal;Achada Longueira
+1138;-25.1650,17.1140;CV-07;Ribeira Grande;Garça de Cima
+1071;-23.6680,15.1150;CV-15;Santa Catarina;Boa Entrada
+0;-23.6549,15.0057;CV-14;Praia;Achadinha
+408;-25.1258,17.1365;CV-07;Ribeira Grande;Caibros de Ribeira de Jorge
+1228;-23.5966,15.1925;CV-19;São Miguel;Veneza
+1003;-25.2170,17.1000;CV-21;Porto Novo;Alto Mira
+833;-25.0880,17.1360;CV-07;Ribeira Grande;Corda
+539;-23.6517,15.0439;CV-23;Ribeira Grande de Santiago;Pico Leao
+61;-25.2350,17.1240;CV-21;Porto Novo;Cha de Branquinho
+609;-24.4085,15.0161;CV-18;São Filipe;Campanas de Baixo
+1252;-23.6599,15.1086;CV-15;Santa Catarina;Gil Bispo
+243;-25.2473,17.0900;CV-21;Porto Novo;Martiene
+1164;-23.7024,15.0922;CV-15;Santa Catarina;Cha de Tanque
+472;-24.3664,14.9676;CV-24;Santa Catarina do Fogo;Chã das Caldeiras
+75;-25.2000,17.1500;CV-07;Ribeira Grande;Ribeira Alta
+1086;-23.7053,15.1077;CV-15;Santa Catarina;Ribeirao Manuel
+1025;-23.6180,15.0970;CV-26;São Salvador do Mundo;Achada Leitão
+1841;-23.6777,15.1387;CV-15;Santa Catarina;Achada Lem
+0;-24.3298,14.9288;CV-24;Santa Catarina do Fogo;Tinteira
+102;-23.1049,15.2086;CV-04;Maio;Pilao Cao
+867;-23.6846,14.9509;CV-23;Ribeira Grande de Santiago;Porto Mosquito
+0;-22.9297,16.6056;CV-08;Sal;Ponta Preta
+0;-25.0347,17.1642;CV-07;Ribeira Grande;Ribeira do Bras
+427;-22.9346,16.6780;CV-08;Sal;Murdeira
+0;-25.2548,17.0545;CV-21;Porto Novo;Lombo Queimado
+0;-25.2691,17.0984;CV-21;Porto Novo;Lombo de Figuerrinha
+0;-25.2627,17.0634;CV-21;Porto Novo;Chã do Morro de Vaca
+0;-25.2684,17.0906;CV-21;Porto Novo;Chã de Manuelinho
+0;-25.3145,17.0677;CV-21;Porto Novo;Fonte Pascoal Alves
+0;-25.2998,17.0649;CV-21;Porto Novo;Faisca
+0;-25.3098,17.0704;CV-21;Porto Novo;Chã de Tampa
+0;-25.2785,17.0658;CV-21;Porto Novo;Chã Dura
+0;-25.2519,17.1020;CV-21;Porto Novo;Urgueira
+0;-25.2661,17.0963;CV-21;Porto Novo;Covada de Rufina
+0;-25.2714,17.0867;CV-21;Porto Novo;Chã Fernando
+0;-25.3260,17.0589;CV-21;Porto Novo;Covāozinho de Topim Preto
+0;-25.3109,17.0764;CV-21;Porto Novo;Pascoal Alves
+0;-25.2576,17.0720;CV-21;Porto Novo;Chã de Cruz
+0;-25.2802,17.0965;CV-21;Porto Novo;Chã de Mangação
+0;-25.3030,17.0786;CV-21;Porto Novo;Joāo Caxito
+0;-25.2588,17.0682;CV-21;Porto Novo;Chã Balboa
+0;-25.2933,17.0724;CV-21;Porto Novo;Cabo de Lombo
+0;-25.2604,17.1165;CV-21;Porto Novo;Morrim de Campim Preto
+0;-25.3335,17.0898;CV-21;Porto Novo;Chã de Portinho
+0;-25.2668,17.0730;CV-21;Porto Novo;Monte Alecrim
+0;-25.3150,17.0695;CV-21;Porto Novo;Chão de Matias
+0;-25.3210,17.0286;CV-21;Porto Novo;Ribeira de Cima
+0;-25.2814,17.1018;CV-21;Porto Novo;Chã de Baixo
+0;-25.2795,17.0833;CV-21;Porto Novo;Morro do Chão de Pedro
+0;-25.2691,17.0897;CV-21;Porto Novo;Chã de Menininha
+0;-25.2515,17.0578;CV-21;Porto Novo;Tabuadinho
+0;-25.2706,17.0951;CV-21;Porto Novo;Figueirinha das Aldeias
+0;-25.3267,17.0931;CV-21;Porto Novo;Chã de Domingos Espanhã
+0;-25.2733,17.0766;CV-21;Porto Novo;Cabouco Chiqueiro
+0;-25.2741,17.1077;CV-21;Porto Novo;Borda de Henrique
+0;-25.2952,17.1027;CV-21;Porto Novo;Chã de Tabuleiro
+0;-25.2887,17.0765;CV-21;Porto Novo;Chā de Tope
+0;-25.2559,17.1026;CV-21;Porto Novo;Gudo da Ribeirinha
+0;-25.2956,17.0893;CV-21;Porto Novo;Chã de Lá
+0;-25.2812,17.0881;CV-21;Porto Novo;Chã de Pedro
+0;-25.2749,17.0809;CV-21;Porto Novo;Chã de Cruz
+0;-25.2508,17.0929;CV-21;Porto Novo;Morro Vermelho
+0;-25.3297,17.0683;CV-21;Porto Novo;Figueirinha
+0;-25.3215,17.0797;CV-21;Porto Novo;Chã de Fontinha
+0;-25.2665,17.0487;CV-21;Porto Novo;Chā de Cabouco Preto
+0;-25.3071,17.0875;CV-21;Porto Novo;Chãzinha do Norte
+0;-25.2575,17.0827;CV-21;Porto Novo;Água Amargosa
+0;-25.2639,17.0400;CV-21;Porto Novo;Chã de Morrinho Carneiro
+0;-25.2821,17.0127;CV-21;Porto Novo;Chã de Fonte de Lajedo
+0;-25.2779,17.0871;CV-21;Porto Novo;Chã de Joaquim
+0;-25.2499,17.1101;CV-21;Porto Novo;Pedrinha de Sal
+0;-25.3039,17.0770;CV-21;Porto Novo;Monte de Chã de Carneiro
+0;-25.2607,17.0716;CV-21;Porto Novo;Chã de Lascado
+0;-25.3008,17.0711;CV-21;Porto Novo;Tope de Aleixo
+0;-25.2520,17.1110;CV-21;Porto Novo;Chã de Inácio
+0;-25.2521,17.0935;CV-21;Porto Novo;Covada de Manuel Gordo
+0;-25.2676,17.0978;CV-21;Porto Novo;Chã de Manuelinho
+0;-25.2596,17.1112;CV-21;Porto Novo;Chā de Cima
+0;-25.2502,17.0712;CV-21;Porto Novo;Chã de Fontinha
+0;-25.2548,17.0687;CV-21;Porto Novo;Chã de Burro
+0;-25.2612,17.0654;CV-21;Porto Novo;Chã de Praça Larga
+0;-25.3221,17.0754;CV-21;Porto Novo;Chã da Janela
+0;-25.2492,17.0871;CV-21;Porto Novo;Carvoeirinho
+0;-25.2564,17.1147;CV-21;Porto Novo;Banco de Areia
+0;-25.2483,17.0921;CV-21;Porto Novo;Lombo de Covada
+0;-25.2547,17.0456;CV-21;Porto Novo;Chā de Portal
+0;-25.2523,17.0635;CV-21;Porto Novo;Chã de Feijoal
+0;-25.2753,17.0791;CV-21;Porto Novo;Chã de Cruz de Cima
+0;-25.2785,17.0852;CV-21;Porto Novo;Biquinho
+0;-25.2730,16.9690;CV-21;Porto Novo;Chã Escudela
+0;-25.2832,16.9684;CV-21;Porto Novo;Chã de Cadela
+0;-25.2734,16.9644;CV-21;Porto Novo;Monte Cova da Vassoura
+0;-25.2935,16.9701;CV-21;Porto Novo;João Castiano
+0;-25.2974,16.9658;CV-21;Porto Novo;Zialvo
+26;-25.3030,16.9654;CV-21;Porto Novo;Cabouco de Terafe
+10;-25.3012,16.9638;CV-21;Porto Novo;Lombo de Cal
+0;-25.3043,16.9624;CV-21;Porto Novo;Chã de Preguiça
+0;-25.3025,16.9601;CV-21;Porto Novo;Covão
+36;-25.3044,16.9586;CV-21;Porto Novo;Ladeira
+0;-25.3120,16.9299;CV-21;Porto Novo;Chã da Salina
+0;-25.1287,17.0419;CV-21;Porto Novo;Tampa do Meio
+0;-25.2020,17.0835;CV-21;Porto Novo;Faial
+93;-25.0786,17.1802;CV-07;Ribeira Grande;Afonso Martinho
+90;-25.1796,17.0293;CV-21;Porto Novo;Várzea do Lajedo
+0;-24.9994,17.0853;CV-05;Paul;Queimado
+1;-25.2102,17.0555;CV-21;Porto Novo;Tope de João Dana
+24;-25.1011,17.1531;CV-07;Ribeira Grande;Dagolho
+101;-25.0404,17.1386;CV-05;Paul;Dragoeiro
+0;-25.1820,17.0081;CV-21;Porto Novo;Fundo do Tabuleirinho
+0;-25.1879,17.0985;CV-07;Ribeira Grande;Longueira
+0;-25.0521,17.1597;CV-07;Ribeira Grande;Manuel Antoninho
+37;-25.1674,17.0222;CV-21;Porto Novo;Chã de Sem Comer
+0;-25.1641,17.1270;CV-07;Ribeira Grande;Manta Velha
+0;-25.2103,17.1121;CV-07;Ribeira Grande;Os Lombos
+93;-25.0507,17.1179;CV-05;Paul;Chã de Fazenda
+0;-25.1916,17.0807;CV-21;Porto Novo;Morro Porqueira
+0;-25.0894,17.1302;CV-07;Ribeira Grande;Chã de Saboneta
+0;-25.0835,17.1706;CV-07;Ribeira Grande;Descida de Arouca
+0;-25.1232,17.1069;CV-07;Ribeira Grande;Matinho
+0;-25.1927,17.0492;CV-21;Porto Novo;Lombo Ferrador
+0;-25.1042,17.1458;CV-07;Ribeira Grande;Lombo de Cinza
+0;-25.1005,17.1075;CV-07;Ribeira Grande;Borda dos Agriōe
+0;-25.0806,17.1576;CV-07;Ribeira Grande;Estraga
+37;-25.0358,17.1291;CV-05;Paul;Lombo do Morro
+68;-25.1271,17.1326;CV-07;Ribeira Grande;Lombo de Diogo
+0;-25.0911,17.1541;CV-07;Ribeira Grande;Chã de Rocho
+16;-25.0325,17.1329;CV-05;Paul;Chupadouro
+0;-25.0426,17.0291;CV-21;Porto Novo;Curralete
+0;-25.0358,17.0690;CV-21;Porto Novo;Chã de Quintino
+0;-25.0968,17.1601;CV-07;Ribeira Grande;Palmeira
+0;-25.0805,17.1903;CV-07;Ribeira Grande;Ladeira de Vinha
+0;-25.0820,17.1152;CV-07;Ribeira Grande;Lombo Pelado
+0;-25.1983,17.0836;CV-21;Porto Novo;Chão de Gorado
+0;-25.1125,17.1353;CV-07;Ribeira Grande;Lajedinho
+2;-25.1635,17.0558;CV-21;Porto Novo;Lezardo
+54;-25.0750,17.1533;CV-07;Ribeira Grande;Ribeirinha Curta
+0;-25.0953,17.1007;CV-07;Ribeira Grande;Morro João de Arado
+0;-25.0324,17.0670;CV-21;Porto Novo;Amarradouro
+0;-25.1005,17.1450;CV-07;Ribeira Grande;Tabuleiro
+254;-25.0662,17.1387;CV-07;Ribeira Grande;Xôxô
+0;-25.1507,17.1205;CV-07;Ribeira Grande;Soncha
+53;-25.0443,17.1317;CV-05;Paul;Lombinho
+0;-25.1512,17.1233;CV-07;Ribeira Grande;Chã de Luis
+0;-25.0636,17.1278;CV-07;Ribeira Grande;Estancia Velha
+0;-25.1617,17.1210;CV-07;Ribeira Grande;Lombo de Cruz
+0;-25.2077,17.0000;CV-21;Porto Novo;Ladeira de Seladinha
+32;-25.2149,17.0368;CV-21;Porto Novo;Chã de Cuchete
+0;-25.2179,17.0437;CV-21;Porto Novo;Chã de Igreja
+0;-25.1159,17.0946;CV-07;Ribeira Grande;Tortôlho
+0;-25.0387,17.0998;CV-21;Porto Novo;Selada Vermelha
+0;-25.1616,17.1396;CV-07;Ribeira Grande;Canto de Catarro
+0;-25.1670,17.0531;CV-21;Porto Novo;Lanchã
+0;-25.0625,17.0860;CV-21;Porto Novo;Lombo de Totôlho
+0;-25.1123,17.0857;CV-21;Porto Novo;Ribeira do Enguiço
+42;-25.0869,17.1354;CV-07;Ribeira Grande;Lombo de Áqua dos Bois
+0;-25.2229,17.0807;CV-21;Porto Novo;Chãzinha da Ribeira do Velho
+0;-25.2149,17.0047;CV-21;Porto Novo;Forquinha
+0;-25.0988,17.0826;CV-21;Porto Novo;Lombo Largo
+29;-25.0861,17.1745;CV-07;Ribeira Grande;Fajã
+0;-25.0746,17.1709;CV-07;Ribeira Grande;Lombo de Cruz
+0;-25.0577,17.1771;CV-07;Ribeira Grande;Covoada
+0;-25.1964,17.0871;CV-21;Porto Novo;Lombo de Barra
+0;-25.0577,17.1760;CV-07;Ribeira Grande;Lombo de Covoada
+0;-25.0344,17.1725;CV-07;Ribeira Grande;Tabuleiro
+220;-25.2207,17.0842;CV-21;Porto Novo;Jorge LuÍs
+60;-25.1275,17.1340;CV-07;Ribeira Grande;Chã de Lobinhos
+0;-25.0526,17.1271;CV-05;Paul;Lombo de Laranjeira
+9;-25.1302,17.1470;CV-07;Ribeira Grande;Fajã Tourinho
+0;-25.2136,17.1342;CV-07;Ribeira Grande;Covada de Maguinha
+0;-25.0611,17.1503;CV-07;Ribeira Grande;Chã de Fajãzinha
+0;-25.1849,17.0182;CV-21;Porto Novo;Chã Branca
+0;-25.0634,17.1292;CV-07;Ribeira Grande;Lombo de Sebastião
+0;-25.1326,17.0839;CV-21;Porto Novo;Lombo do Covão da Lagoa
+28;-25.0628,17.1266;CV-07;Ribeira Grande;Água de Rabo Curto
+0;-25.0610,17.1524;CV-07;Ribeira Grande;Ramele
+0;-25.0820,17.1211;CV-07;Ribeira Grande;Chã de Mato
+0;-25.0401,17.0971;CV-21;Porto Novo;Paris
+0;-25.0533,17.1194;CV-05;Paul;Tabuleiro do Paul
+2;-25.2036,17.0003;CV-21;Porto Novo;Seladinha
+0;-25.0624,17.1533;CV-07;Ribeira Grande;Tapume
+278;-25.1864,17.0588;CV-21;Porto Novo;Ribeira dos Bodes
+66;-25.0611,17.1607;CV-07;Ribeira Grande;Tambor
+0;-25.1052,17.1612;CV-07;Ribeira Grande;Fajã do Mato
+0;-25.1616,17.0643;CV-21;Porto Novo;Tapume
+0;-25.1504,17.0785;CV-21;Porto Novo;Chã Branca
+0;-25.1510,17.1025;CV-07;Ribeira Grande;Lombo de Joaninha
+9;-25.0943,17.1509;CV-07;Ribeira Grande;Almeirim
+0;-25.0691,17.1720;CV-07;Ribeira Grande;Água Nascida
+0;-25.1581,17.0513;CV-21;Porto Novo;Chā de Beja
+0;-25.2119,17.1183;CV-07;Ribeira Grande;Gude Merado
+0;-25.1716,17.0220;CV-21;Porto Novo;Covada de Curral de Bicho
+0;-25.0527,17.1258;CV-05;Paul;Fundo Teixeiro
+0;-25.1907,17.0563;CV-21;Porto Novo;Figueira de São João
+0;-25.2061,17.1302;CV-07;Ribeira Grande;Tangque de Vionês
+0;-25.1107,17.1127;CV-07;Ribeira Grande;Chã de Roncador
+52;-25.1293,17.1461;CV-07;Ribeira Grande;Fajã de Mauricie
+93;-25.0690,17.1458;CV-07;Ribeira Grande;Marradouro
+0;-25.0631,17.1260;CV-07;Ribeira Grande;Lombinho
+0;-25.1085,17.1495;CV-07;Ribeira Grande;Chã de Figueiral de Cima
+0;-25.1291,17.0893;CV-21;Porto Novo;Fundão de Lagoa
+0;-25.0892,17.0841;CV-21;Porto Novo;Queimado
+0;-25.2025,17.0907;CV-21;Porto Novo;Chão Cova de Lima
+0;-25.1237,17.1833;CV-07;Ribeira Grande;Chã de Ourincas
+13;-25.1323,17.1521;CV-07;Ribeira Grande;Lombinho Branco
+0;-25.1069,17.1583;CV-07;Ribeira Grande;Fajã do Mato de Cima
+0;-25.0682,17.1474;CV-07;Ribeira Grande;Loberta
+0;-25.1288,17.0779;CV-21;Porto Novo;Chã de Estrêla
+0;-25.0959,17.1677;CV-07;Ribeira Grande;Campinho
+0;-25.1464,17.1394;CV-07;Ribeira Grande;Bica
+0;-25.0408,17.1217;CV-05;Paul;Esperadeiro
+16;-25.0903,17.1347;CV-07;Ribeira Grande;Lombo Largo
+0;-25.0707,17.1495;CV-07;Ribeira Grande;Chã de Henrique
+5;-25.2018,17.0505;CV-21;Porto Novo;Chã de Ribeirãozinho
+11;-25.0646,17.1109;CV-07;Ribeira Grande;Cova
+52;-25.1140,17.1200;CV-07;Ribeira Grande;Bento
+0;-25.0982,17.1417;CV-07;Ribeira Grande;Chã de Fazenda
+0;-25.1281,17.1683;CV-07;Ribeira Grande;Batel
+0;-25.1493,17.0381;CV-21;Porto Novo;Pontinha de Augusto
+13;-25.1606,17.1124;CV-07;Ribeira Grande;Chã de Bento
+0;-25.1235,17.0731;CV-21;Porto Novo;D. Gonçalo
+26;-25.1022,17.1355;CV-07;Ribeira Grande;Gonçalinho
+109;-25.0677,17.1670;CV-07;Ribeira Grande;Ribeirinha do Jorge
+36;-25.0673,17.1368;CV-07;Ribeira Grande;Lombo do Pico
+0;-25.2374,17.1223;CV-21;Porto Novo;Covada Falsa
+0;-25.0850,17.1704;CV-07;Ribeira Grande;Barbinha
+0;-25.2241,17.1303;CV-07;Ribeira Grande;Covada de José Vis
+230;-25.0716,17.1828;CV-07;Ribeira Grande;Santa Bárbara
+0;-25.1424,17.0777;CV-21;Porto Novo;Lombo de Nossa Senhora de Luz
+0;-25.1237,17.0445;CV-21;Porto Novo;Chã de Tope
+0;-25.2000,17.0872;CV-21;Porto Novo;Chão de Fora
+0;-25.0544,17.1041;CV-21;Porto Novo;Tope Verde
+56;-25.0698,17.1588;CV-07;Ribeira Grande;Lombo de Pedranto
+65;-25.1090,17.1154;CV-07;Ribeira Grande;Agriões
+0;-25.0917,17.1471;CV-07;Ribeira Grande;Vista
+123;-25.1644,17.0155;CV-21;Porto Novo;Vascona
+0;-25.0843,17.0424;CV-21;Porto Novo;Chã de  Alecrim
+34;-25.2197,17.0453;CV-21;Porto Novo;Covada Larga
+26;-25.0406,17.1675;CV-07;Ribeira Grande;Ciano
+21;-25.1118,17.1357;CV-07;Ribeira Grande;Chã de Baixo
+133;-25.0403,17.1704;CV-07;Ribeira Grande;Almeirim
+0;-25.0891,17.0913;CV-21;Porto Novo;Figueirinha
+0;-25.0586,17.1438;CV-07;Ribeira Grande;Lombo de Dondana
+0;-25.1500,17.1237;CV-07;Ribeira Grande;Travessado
+0;-25.0392,17.0866;CV-21;Porto Novo;Borracha
+0;-25.2067,17.0916;CV-21;Porto Novo;Chãozinha
+0;-25.1134,17.1477;CV-07;Ribeira Grande;Lombo de Neginho
+0;-25.0992,17.1471;CV-07;Ribeira Grande;Ralhado
+0;-25.0911,17.1250;CV-07;Ribeira Grande;Matinho de João Afonso
+0;-25.0704,17.1300;CV-07;Ribeira Grande;Losnã
+106;-25.0361,17.1381;CV-05;Paul;Lombo Comprido
+0;-25.1332,17.1694;CV-07;Ribeira Grande;Tanque de Aranhas
+76;-25.0957,17.1552;CV-07;Ribeira Grande;Descanso
+0;-25.0349,17.1407;CV-05;Paul;Lombo de Chã Fundo
+0;-25.0748,17.1631;CV-07;Ribeira Grande;Cabouco de Peregrina
+0;-25.0662,17.0759;CV-21;Porto Novo;Chã de Nhã Nica
+0;-25.0609,17.1430;CV-07;Ribeira Grande;Eduardo
+0;-25.0401,17.0916;CV-21;Porto Novo;Paris
+1;-25.0788,17.1768;CV-07;Ribeira Grande;Fachoca
+0;-25.1761,17.0482;CV-21;Porto Novo;Chā da Casa
+0;-25.1214,17.1146;CV-07;Ribeira Grande;Sabidela
+9;-25.0860,17.1105;CV-07;Ribeira Grande;Curral da Russa
+32;-25.0493,17.1557;CV-07;Ribeira Grande;Ribeirão Grande
+0;-25.0062,17.0954;CV-05;Paul;Estância de Pedra
+0;-25.1100,17.1375;CV-07;Ribeira Grande;Chã de Lena
+4;-25.0440,17.1348;CV-05;Paul;Lombo de Joana
+0;-25.1176,17.0866;CV-21;Porto Novo;Cebola
+0;-25.1056,17.1548;CV-07;Ribeira Grande;Furnas de Cima
+0;-25.2453,17.1073;CV-21;Porto Novo;Floupe
+0;-25.0981,17.0803;CV-21;Porto Novo;Morro de Sangue
+0;-25.2092,17.0017;CV-21;Porto Novo;Forca
+0;-25.2159,17.0607;CV-21;Porto Novo;Lombo de Nicolau
+0;-25.1703,17.0410;CV-21;Porto Novo;Poio
+0;-25.2035,17.0088;CV-21;Porto Novo;Chã de Laranjeir
+0;-25.1271,17.1503;CV-07;Ribeira Grande;Chã Luis Marta
+0;-25.1198,17.0954;CV-07;Ribeira Grande;Lagoinha
+87;-25.1055,17.1376;CV-07;Ribeira Grande;Chã de Coelho
+0;-25.1342,17.1111;CV-07;Ribeira Grande;Covada de Esdrougal
+0;-25.0676,17.1384;CV-07;Ribeira Grande;Chãde de Nunarda
+0;-25.0024,17.0977;CV-05;Paul;Covoada Laranjeira
+0;-25.0978,17.1576;CV-07;Ribeira Grande;Vermelha
+0;-25.0850,17.1445;CV-07;Ribeira Grande;Raízes
+0;-25.0347,17.1318;CV-05;Paul;Várzea
+0;-25.1100,17.1196;CV-07;Ribeira Grande;Chã de Fora
+0;-25.1661,17.1454;CV-07;Ribeira Grande;Chã de Igreja de Cima
+510;-25.1724,17.0200;CV-21;Porto Novo;Lajedo
+0;-25.1335,17.0925;CV-21;Porto Novo;Pecanto do Ribeirão Largo
+0;-25.0059,17.0898;CV-05;Paul;Elborto
+0;-25.1640,17.1180;CV-07;Ribeira Grande;Lombo de Endriano
+50;-25.1105,17.1465;CV-07;Ribeira Grande;Lombo de Contina
+34;-25.1426,17.1359;CV-07;Ribeira Grande;Losnas da Ribeira Grande
+0;-25.1374,17.1753;CV-07;Ribeira Grande;Encontro
+0;-25.1120,17.1335;CV-07;Ribeira Grande;Chãzinha
+0;-25.1871,17.1309;CV-07;Ribeira Grande;Cabo da Ribeira
+0;-25.0908,17.1756;CV-07;Ribeira Grande;Flores
+25;-25.1198,17.1896;CV-07;Ribeira Grande;Forminguinhas
+0;-25.1115,17.0975;CV-07;Ribeira Grande;Chã da Companhia
+0;-25.2014,17.0057;CV-21;Porto Novo;Covada de Navio
+0;-25.0054,17.0908;CV-05;Paul;Tope Elborto
+0;-25.1111,17.1188;CV-07;Ribeira Grande;Chãzinha
+0;-25.1076,17.1572;CV-07;Ribeira Grande;Tope de Coruja
+0;-25.1191,17.1020;CV-07;Ribeira Grande;Matinho
+0;-25.2337,17.0908;CV-21;Porto Novo;Rabo de Couco
+0;-25.0992,17.1664;CV-07;Ribeira Grande;Boca do Curral
+0;-25.1612,17.0538;CV-21;Porto Novo;Fonte de Cruz
+0;-25.1053,17.1585;CV-07;Ribeira Grande;Canto de Frede
+0;-24.9930,17.0937;CV-05;Paul;Covada de Baixo
+0;-25.0807,17.1277;CV-07;Ribeira Grande;Bardo de Ferro
+0;-25.0478,17.1148;CV-05;Paul;Chã de Pedro
+0;-25.1507,17.1053;CV-07;Ribeira Grande;Chã de Figueira
+0;-25.0708,17.1772;CV-07;Ribeira Grande;Cruz de Baixo
+0;-25.1417,17.0886;CV-21;Porto Novo;Boca do Ribeirão das Figueiras
+0;-25.1608,17.1094;CV-07;Ribeira Grande;Lombo de João de Patinha
+0;-25.0885,17.1620;CV-07;Ribeira Grande;Meio de Questim
+0;-25.0734,17.0214;CV-21;Porto Novo;Branquinho
+0;-25.0976,17.1167;CV-07;Ribeira Grande;Covoada
+686;-25.0396,17.1337;CV-05;Paul;Camp de Cão
+164;-25.0866,17.1768;CV-07;Ribeira Grande;Boca de Cabouco
+0;-25.1095,17.1659;CV-07;Ribeira Grande;Tarafe do Mosquito
+0;-25.1090,17.0717;CV-21;Porto Novo;Ribeira Larga
+0;-25.1106,17.1478;CV-07;Ribeira Grande;Rocha Diana
+0;-25.0475,17.1199;CV-05;Paul;Ladeira
+0;-25.1531,17.1515;CV-07;Ribeira Grande;Lombo de Clara
+0;-25.0483,17.1210;CV-05;Paul;Chã de Padre
+0;-25.0330,17.1367;CV-05;Paul;Cão de Vinha
+33;-25.2152,17.1326;CV-07;Ribeira Grande;Selada das Chapas
+0;-25.0752,17.1804;CV-07;Ribeira Grande;Moinho João Dias
+0;-25.1776,17.0953;CV-07;Ribeira Grande;Chã de Moroços
+0;-25.1099,17.0136;CV-21;Porto Novo;Casa de Aureleano
+0;-25.0982,17.1483;CV-07;Ribeira Grande;Chã das Travessas
+0;-25.1092,17.0964;CV-07;Ribeira Grande;Morro Atravessado das Veredas
+10;-25.0848,17.1380;CV-07;Ribeira Grande;Quintal
+0;-25.0646,17.1766;CV-07;Ribeira Grande;Chã de Arroz
+0;-25.1141,17.1269;CV-07;Ribeira Grande;Hortinha
+0;-25.0695,17.0363;CV-21;Porto Novo;Casa da Donata
+0;-25.1301,17.1498;CV-07;Ribeira Grande;Tourinho
+15;-25.1157,17.1509;CV-07;Ribeira Grande;Barreiro
+0;-25.0971,17.1121;CV-07;Ribeira Grande;Lombo das Pedras
+0;-25.0624,17.1317;CV-07;Ribeira Grande;Vanento
+62;-25.2239,17.0546;CV-21;Porto Novo;Chã de Alexandre
+0;-25.0009,17.0947;CV-05;Paul;Berbelão
+0;-25.1863,17.0101;CV-21;Porto Novo;Tabuleirinho
+140;-25.1149,17.1284;CV-07;Ribeira Grande;Fajã de Barreira
+0;-25.1029,17.1308;CV-07;Ribeira Grande;Fajã de Parmente
+0;-25.1054,17.1560;CV-07;Ribeira Grande;Furnas de Baixo
+0;-25.0876,17.1388;CV-07;Ribeira Grande;Chã de Cecilia
+594;-25.0715,17.1528;CV-07;Ribeira Grande;Fajã de Domingas Bento
+0;-25.0689,17.1701;CV-07;Ribeira Grande;Lugar de Gem
+0;-25.1643,17.1163;CV-07;Ribeira Grande;Chazinha
+0;-25.2261,17.0853;CV-21;Porto Novo;Lombo Peixinho
+0;-25.0435,17.1596;CV-07;Ribeira Grande;Ribeira das Burras
+86;-25.0409,17.1364;CV-05;Paul;Chã de Erva
+0;-25.1075,17.1537;CV-07;Ribeira Grande;Lombo de Lavrado
+0;-25.0943,17.1961;CV-07;Ribeira Grande;Cruz
+47;-25.0710,17.1610;CV-07;Ribeira Grande;Varzinha
+31;-25.0818,17.1753;CV-07;Ribeira Grande;Lombo de Fachoca
+0;-25.2089,17.0700;CV-21;Porto Novo;Selada do Alto Mira
+0;-25.1182,17.0104;CV-21;Porto Novo;Quilómetro Sete
+0;-25.0657,17.1285;CV-07;Ribeira Grande;Lombo de Joaquina
+0;-25.1659,17.0166;CV-21;Porto Novo;Covada Branca
+0;-25.1481,17.1178;CV-07;Ribeira Grande;Lombo de Manuel
+0;-25.0714,17.0761;CV-21;Porto Novo;Ribeira de Besta
+0;-25.1518,17.1133;CV-07;Ribeira Grande;Diogo
+2;-25.0773,17.1785;CV-07;Ribeira Grande;Entulho
+108;-25.1304,17.1533;CV-07;Ribeira Grande;Boca de Ambas as Ribeiras
+0;-25.1658,17.1483;CV-07;Ribeira Grande;Fundo de Cavalo
+0;-25.0946,17.1719;CV-07;Ribeira Grande;Forrador
+0;-25.2135,17.0994;CV-21;Porto Novo;Chão de Asno
+0;-25.2247,17.1131;CV-21;Porto Novo;Chã Ligeirosa
+0;-25.0696,17.1091;CV-21;Porto Novo;Água das Caldeiras
+0;-25.0755,17.0182;CV-21;Porto Novo;Fundo de Água Doce
+21;-25.0689,17.1410;CV-07;Ribeira Grande;Vinha
+0;-25.2093,17.0066;CV-21;Porto Novo;Covada do Lizardo
+18;-25.1066,17.1471;CV-07;Ribeira Grande;Saida
+0;-25.0514,17.0964;CV-21;Porto Novo;Covadinha
+394;-25.0349,17.1715;CV-07;Ribeira Grande;Lombo Branco
+6;-25.0735,17.1409;CV-07;Ribeira Grande;Fajã de Baixo
+61;-25.0631,17.1669;CV-07;Ribeira Grande;Chão de Barro
+0;-25.2197,17.1037;CV-21;Porto Novo;Chãzinha de Manuel José
+0;-25.2238,17.0352;CV-21;Porto Novo;Chã de Caetano
+0;-25.0519,17.1244;CV-05;Paul;Lombo Teixeiro
+0;-25.1933,17.1459;CV-07;Ribeira Grande;Pé da Vinha
+0;-25.1619,17.1293;CV-07;Ribeira Grande;Horta da Garça
+50;-25.0589,17.1778;CV-07;Ribeira Grande;Selada das Pedras
+0;-25.1695,17.0180;CV-21;Porto Novo;Lombo de Rosa Maria
+41;-25.1090,17.1360;CV-07;Ribeira Grande;Lombinho
+245;-25.1421,17.0831;CV-21;Porto Novo;Lagoa
+0;-25.0320,17.0814;CV-21;Porto Novo;Lambo da Torre
+0;-25.1193,17.1794;CV-07;Ribeira Grande;Ourincas
+0;-25.1423,17.0950;CV-07;Ribeira Grande;Ribeirão Figueira
+66;-25.1058,17.1408;CV-07;Ribeira Grande;Manuel Ribeiro
+0;-25.0873,17.1787;CV-07;Ribeira Grande;Pe dos Òrgãos
+0;-25.1349,17.1064;CV-07;Ribeira Grande;Ribeirinha
+0;-25.2028,17.1064;CV-07;Ribeira Grande;Lombos
+13;-25.0676,17.1750;CV-07;Ribeira Grande;Cabouco D'ongo
+15;-25.0959,17.1643;CV-07;Ribeira Grande;Boca de Figueiral
+0;-25.0477,17.1256;CV-05;Paul;Chã de João Vaz
+0;-25.0554,17.1510;CV-07;Ribeira Grande;Ribeira do Estreito
+29;-25.1164,17.1422;CV-07;Ribeira Grande;Lombo de Sancha
+0;-25.0707,17.1879;CV-07;Ribeira Grande;Tope Quebrado
+0;-25.1924,17.0828;CV-21;Porto Novo;Chã Covada Desenfado
+19;-25.1108,17.1377;CV-07;Ribeira Grande;Lombo de Bruno
+0;-25.0986,17.0178;CV-21;Porto Novo;Covada Branca
+0;-25.1022,17.1629;CV-07;Ribeira Grande;Chã de Banca
+56;-25.1336,17.1342;CV-07;Ribeira Grande;Chã de Tapume
+0;-25.1054,17.1511;CV-07;Ribeira Grande;Lominho de Boa Ventura
+0;-25.1181,17.1429;CV-07;Ribeira Grande;Ribeirão
+17;-25.1606,17.1185;CV-07;Ribeira Grande;Fajã do Mato
+46;-25.0350,17.1298;CV-05;Paul;Lombo de Luzia
+0;-25.2001,17.0890;CV-21;Porto Novo;Lombo de Cavouco de Padre
+119;-25.0972,17.1563;CV-07;Ribeira Grande;Terrinha
+0;-25.0990,17.1272;CV-07;Ribeira Grande;Fajã dos Cumes
+294;-25.0939,17.2002;CV-07;Ribeira Grande;Cabouquinho de Tinta
+0;-25.2454,17.0814;CV-21;Porto Novo;Estâncinha
+0;-25.1454,17.0982;CV-07;Ribeira Grande;Cova de Goteira
+0;-25.0337,17.0895;CV-21;Porto Novo;Chã de Norte
+0;-25.1974,17.0848;CV-21;Porto Novo;Burra
+0;-25.2227,17.1054;CV-21;Porto Novo;Chã da Vinha
+0;-25.0482,17.0826;CV-21;Porto Novo;Lombo de Concha
+47;-25.2038,17.0385;CV-21;Porto Novo;Cavouco Silva
+0;-25.0714,17.0897;CV-21;Porto Novo;Água Nova
+11;-25.0530,17.1131;CV-05;Paul;Covão
+0;-25.1856,17.1361;CV-07;Ribeira Grande;Topes Frade
+0;-25.1779,17.1526;CV-07;Ribeira Grande;Ribeira de Inverno
+0;-25.0385,17.1680;CV-07;Ribeira Grande;Lombo de Santo
+0;-25.1075,17.1595;CV-07;Ribeira Grande;Pedro Moto
+150;-25.1132,17.1245;CV-07;Ribeira Grande;Pia de Cima
+0;-25.0567,17.1537;CV-07;Ribeira Grande;Cedreira
+77;-25.2207,17.0830;CV-21;Porto Novo;Lombo Velho
+0;-25.1001,17.1471;CV-07;Ribeira Grande;Rua Escolástica
+10;-25.1032,17.1475;CV-07;Ribeira Grande;Boa Ventura
+4;-25.0767,17.1332;CV-07;Ribeira Grande;Fajã de Cima
+0;-25.1298,17.1554;CV-07;Ribeira Grande;Ladeira das Canas
+0;-25.1273,17.1452;CV-07;Ribeira Grande;Lombo de Fajãzinha
+0;-25.0997,17.0231;CV-21;Porto Novo;Pedras
+4;-25.0847,17.1329;CV-07;Ribeira Grande;Água dos Bois
+0;-25.1232,17.0886;CV-21;Porto Novo;Monte Lagoinha
+26;-25.1067,17.1458;CV-07;Ribeira Grande;Chã de Papaia
+0;-25.0684,17.0868;CV-21;Porto Novo;Lombo de Castelo
+0;-25.2386,17.0996;CV-21;Porto Novo;Casa de Várzea
+0;-25.0557,17.1522;CV-07;Ribeira Grande;Chã de Ilhéu Palha
+0;-25.1280,17.1301;CV-07;Ribeira Grande;Rochinha
+0;-25.1060,17.1515;CV-07;Ribeira Grande;Tamborim
+3;-25.1268,17.1474;CV-07;Ribeira Grande;Chã de Fusil
+0;-25.0960,17.1306;CV-07;Ribeira Grande;Fajã dos Bois
+0;-25.1265,17.1426;CV-07;Ribeira Grande;Lombo de Manuel Santo
+101;-25.0578,17.1662;CV-07;Ribeira Grande;Cruz
+0;-25.0483,17.1299;CV-05;Paul;Poio de Padre
+0;-25.0915,17.0280;CV-21;Porto Novo;Chã Casa de Pele
+43;-25.0893,17.1746;CV-07;Ribeira Grande;Picoteiro
+0;-25.1627,17.1357;CV-07;Ribeira Grande;Fajã Grande
+0;-25.2133,17.0757;CV-21;Porto Novo;Pau Bonito
+15;-25.2258,17.0873;CV-21;Porto Novo;Seladinha
+0;-25.1912,17.1206;CV-07;Ribeira Grande;Fundas de Cima
+0;-25.0381,17.0820;CV-21;Porto Novo;Estancinho
+0;-25.0332,17.1317;CV-05;Paul;Ribeirão de Água
+2;-25.1467,17.0871;CV-21;Porto Novo;Covoada Funda
+0;-25.1046,17.1006;CV-07;Ribeira Grande;Chã de Branca
+34;-25.0488,17.1154;CV-05;Paul;Chãzinhã
+0;-25.1785,17.0039;CV-21;Porto Novo;Lombo de Pedra
+4;-25.0439,17.1147;CV-05;Paul;Chã de Mato
+17;-25.0371,17.1289;CV-05;Paul;Quintal
+0;-25.2382,17.0661;CV-21;Porto Novo;Curral da Pedra
+0;-25.0588,17.0198;CV-21;Porto Novo;Ponta Pedra Descaida
+0;-25.0874,17.1599;CV-07;Ribeira Grande;Lombo de Marota
+9;-25.0322,17.0854;CV-21;Porto Novo;Água dos Velhos
+29;-25.0395,17.1638;CV-07;Ribeira Grande;Lourenço
+0;-25.1602,17.0067;CV-21;Porto Novo;Morro Lajedo
+0;-25.1608,17.1160;CV-07;Ribeira Grande;Lombo de Nhô
+0;-25.1901,17.0338;CV-21;Porto Novo;Chã de Banca
+0;-25.1335,17.1683;CV-07;Ribeira Grande;Chã de Água
+0;-25.0980,17.1455;CV-07;Ribeira Grande;Travessa
+23;-25.1970,17.0616;CV-21;Porto Novo;Chã João Bento
+0;-25.0912,17.1705;CV-07;Ribeira Grande;Igrejinha
+9;-25.2310,17.1199;CV-21;Porto Novo;Chã Clementino
+0;-25.1921,17.1255;CV-07;Ribeira Grande;Fundas de Cima
+0;-25.1715,17.0240;CV-21;Porto Novo;Chã de Caneca
+144;-25.1153,17.1130;CV-07;Ribeira Grande;Aguada
+0;-25.0354,17.1693;CV-07;Ribeira Grande;Cruz
+0;-25.2000,17.1033;CV-07;Ribeira Grande;Covoada de Beirinha
+0;-25.1928,17.0985;CV-07;Ribeira Grande;Gudo do Salto Preto
+0;-25.1989,17.1169;CV-07;Ribeira Grande;Cabo da Ribeira do Figueiral
+0;-25.2164,17.0295;CV-21;Porto Novo;Braca
+0;-25.1934,17.0161;CV-21;Porto Novo;Mato de Baixo
+24;-25.1145,17.1462;CV-07;Ribeira Grande;Gamboesa
+0;-25.1116,17.1912;CV-07;Ribeira Grande;Manuel Carlos
+31;-25.1051,17.1477;CV-07;Ribeira Grande;Selada de Boa Ventura
+0;-25.1515,17.0988;CV-07;Ribeira Grande;Pilão
+0;-25.0875,17.1228;CV-07;Ribeira Grande;Ribeirão Grande
+0;-25.0382,17.0968;CV-21;Porto Novo;Moradinha
+0;-25.1996,17.0172;CV-21;Porto Novo;Mato de Cima
+0;-25.1964,17.0589;CV-21;Porto Novo;Lombo João de Bento
+43;-25.1123,17.1312;CV-07;Ribeira Grande;Pia de Baixo
+0;-25.1922,17.0892;CV-07;Ribeira Grande;Cavouquinho
+0;-25.0875,17.1244;CV-07;Ribeira Grande;Lajedo Vermelho
+0;-25.1126,17.1260;CV-07;Ribeira Grande;Ladeira
+0;-25.0613,17.1284;CV-07;Ribeira Grande;João G.
+0;-25.1664,17.0359;CV-21;Porto Novo;Chã de Poio
+0;-25.0995,17.1543;CV-07;Ribeira Grande;Tope de Jaques
+0;-25.0446,17.0920;CV-21;Porto Novo;Gudo de Várzea de Ribeira
+0;-25.2003,17.0464;CV-21;Porto Novo;Rodrigo
+7;-25.0599,17.1586;CV-07;Ribeira Grande;Travessia
+0;-25.0818,17.1245;CV-07;Ribeira Grande;Chã do Mato
+0;-25.2085,17.0011;CV-21;Porto Novo;Testa Larga
+0;-25.0737,17.1195;CV-07;Ribeira Grande;Covinha
+6;-25.1997,17.0010;CV-21;Porto Novo;Titono
+0;-25.1340,17.1329;CV-07;Ribeira Grande;Varo
+0;-25.1120,17.1151;CV-07;Ribeira Grande;Pico Agudo
+19;-25.1251,17.1378;CV-07;Ribeira Grande;Alumeiro
+0;-25.0479,17.1670;CV-07;Ribeira Grande;Matinho de Leste
+6;-25.0655,17.1269;CV-07;Ribeira Grande;Topo
+43;-25.0640,17.1328;CV-07;Ribeira Grande;Lombo de Beatriz
+0;-25.0433,17.0889;CV-21;Porto Novo;Joaquim das Dores
+0;-25.0691,17.1630;CV-07;Ribeira Grande;Selada da Ribeirinha do Jorge
+0;-25.1124,17.1289;CV-07;Ribeira Grande;Vargem
+0;-25.2105,17.1170;CV-07;Ribeira Grande;Chã Arredondada
+34;-25.1117,17.1349;CV-07;Ribeira Grande;Tabuleiro
+0;-25.1151,17.1240;CV-07;Ribeira Grande;Mato
+0;-25.1903,17.1369;CV-07;Ribeira Grande;Chã de Beano
+0;-25.2296,17.1076;CV-21;Porto Novo;Chã do Morro Preto
+0;-25.1472,17.0852;CV-21;Porto Novo;Lombo de Covada Funda
+0;-25.0508,17.1747;CV-07;Ribeira Grande;Abóbada
+0;-25.1162,17.1262;CV-07;Ribeira Grande;Lombo do Mato
+0;-25.0733,17.1612;CV-07;Ribeira Grande;Longueira
+0;-25.2451,17.0106;CV-21;Porto Novo;Monte Ribeirinha de Batata
+0;-25.1152,17.0260;CV-21;Porto Novo;Chã de Mamāo
+0;-25.1550,17.1254;CV-07;Ribeira Grande;Ponta de Vento
+0;-25.0893,17.1596;CV-07;Ribeira Grande;Chã de Cima
+0;-25.1505,17.1457;CV-07;Ribeira Grande;Cabo do Mocha
+62;-25.2214,17.0298;CV-21;Porto Novo;Chã de Lagoa
+0;-25.0548,17.0953;CV-21;Porto Novo;Ribeirão Fundo
+0;-25.2197,17.1050;CV-21;Porto Novo;Chã de Bombardeiros
+0;-25.1126,17.1455;CV-07;Ribeira Grande;Fonte de Cercado
+171;-25.0559,17.1157;CV-05;Paul;Chã de Manuel dos Santos
+0;-25.1516,17.1172;CV-07;Ribeira Grande;Gameleiro
+0;-25.1270,17.0373;CV-21;Porto Novo;Tampa de Baixo
+95;-25.2113,17.0957;CV-21;Porto Novo;Dominguinha
+0;-25.1365,17.1785;CV-07;Ribeira Grande;Boca de Covadas
+25;-25.1140,17.1473;CV-07;Ribeira Grande;Esponjeiro
+0;-25.1613,17.1277;CV-07;Ribeira Grande;Portalinho
+0;-25.2217,17.1082;CV-21;Porto Novo;Cabouco do Bufeiro
+0;-25.0544,17.1761;CV-07;Ribeira Grande;Cabo da Ribeira
+0;-25.0932,17.0117;CV-21;Porto Novo;Chã do Brejo
+0;-25.0878,17.1662;CV-07;Ribeira Grande;Meio Ventoso
+0;-25.0885,17.1756;CV-07;Ribeira Grande;Manginha
+0;-25.0721,17.1671;CV-07;Ribeira Grande;Cabouco de Cosco
+0;-24.9894,17.0972;CV-05;Paul;Celada de Topo
+0;-24.9904,17.1125;CV-05;Paul;Entre Topes
+0;-24.9920,17.0961;CV-05;Paul;Curral João Lucas
+0;-24.9739,17.1036;CV-05;Paul;Vela Estendida
+0;-24.9932,17.1099;CV-05;Paul;Chãzinha de Baixo
+0;-24.9930,17.1103;CV-05;Paul;Banda Baixo
+0;-24.9864,17.0925;CV-05;Paul;Aguada
+0;-24.9886,17.0962;CV-05;Paul;Entre Topo
+0;-24.9825,17.0784;CV-05;Paul;Chã das Areias
+0;-24.9841,17.0982;CV-05;Paul;Chã Daguinha
+59;-24.9918,17.1146;CV-05;Paul;Lombo de Canequinha
+0;-24.9935,17.1084;CV-05;Paul;Chãzinha de Cima
+0;-24.1123,16.5897;CV-22;Ribeira Brava;Palhal
+0;-24.1016,16.5876;CV-22;Ribeira Brava;Urzeleiros
+0;-24.1138,16.6078;CV-22;Ribeira Brava;António Carvalho
+0;-24.1007,16.5936;CV-22;Ribeira Brava;Jalunga
+0;-24.1137,16.6101;CV-22;Ribeira Brava;Alta Clara
+0;-24.0958,16.5979;CV-22;Ribeira Brava;Jalunga
+0;-24.0952,16.6115;CV-22;Ribeira Brava;Chã dos Penedos
+0;-25.2388,16.9917;CV-21;Porto Novo;Campo Redondo
+0;-25.1481,16.9785;CV-21;Porto Novo;Chã de Mato
+0;-25.1948,16.9867;CV-21;Porto Novo;Salto de Cavalo
+0;-25.2071,16.9903;CV-21;Porto Novo;Covada de Guilherme
+0;-25.2255,16.9700;CV-21;Porto Novo;Lombo de Pascolim
+0;-25.2076,16.9521;CV-21;Porto Novo;Chã de Passagem
+0;-25.2255,16.9692;CV-21;Porto Novo;Covada de Figueira
+0;-25.2072,16.9699;CV-21;Porto Novo;Chã de Moreira
+0;-25.1600,16.9944;CV-21;Porto Novo;Chã de Mato
+0;-25.1990,16.9887;CV-21;Porto Novo;Vermelho
+0;-25.2064,16.9764;CV-21;Porto Novo;Fundo de Selada
+0;-25.2282,16.9682;CV-21;Porto Novo;Chã de Nha Luisa
+137;-25.1291,16.9952;CV-21;Porto Novo;Casa do Meio
+0;-25.2134,16.9956;CV-21;Porto Novo;Lombo de Bior
+0;-25.2165,16.9794;CV-21;Porto Novo;Coxa
+0;-25.2100,16.9514;CV-21;Porto Novo;Chã de Jerónimo
+0;-25.2073,16.9612;CV-21;Porto Novo;Chã de Leça
+0;-25.2104,16.9771;CV-21;Porto Novo;Covoada
+9;-25.1899,16.9812;CV-21;Porto Novo;Pedra de Jorge
+4;-25.1898,16.9931;CV-21;Porto Novo;Dogoi
+0;-25.2066,16.9790;CV-21;Porto Novo;Escabeçada
+0;-25.2270,16.9634;CV-21;Porto Novo;Manuel Gato
+3;-25.2250,16.9790;CV-21;Porto Novo;Chã de Barteloa
+0;-25.1850,16.9934;CV-21;Porto Novo;Figueira Rasteira
+0;-25.2107,16.9838;CV-21;Porto Novo;Bela Vista
+0;-25.2057,16.9819;CV-21;Porto Novo;Covada de Baixo
+0;-25.2290,16.9130;CV-21;Porto Novo;Canjana
+0;-25.2327,16.9909;CV-21;Porto Novo;Lambo Pelado
+0;-25.2091,16.9741;CV-21;Porto Novo;Lombo de Casinha
+0;-25.2142,16.9645;CV-21;Porto Novo;Chuvinha
+0;-25.1581,16.9894;CV-21;Porto Novo;Chã de Pedra de Água
+18;-25.1944,16.9960;CV-21;Porto Novo;Manuel Lopes
+0;-25.1968,16.9816;CV-21;Porto Novo;Cavouquinho
+0;-25.2043,16.9805;CV-21;Porto Novo;Tampinha
+0;-25.1973,16.9870;CV-21;Porto Novo;Morrinho Vermelho
+9;-25.2115,16.9919;CV-21;Porto Novo;Mato Estreito
+0;-25.2344,16.9721;CV-21;Porto Novo;Chã de Fontinha
+0;-25.2146,16.9914;CV-21;Porto Novo;Lombinho de Figueira
+0;-25.2108,16.9754;CV-21;Porto Novo;Lombo de Pulgueira
+0;-25.1913,16.9780;CV-21;Porto Novo;Covada de Simão
+0;-25.1296,16.9928;CV-21;Porto Novo;Chã do Mato
+0;-25.2184,16.9780;CV-21;Porto Novo;Borda
+0;-25.1502,16.9906;CV-21;Porto Novo;Ponte Sul
+0;-25.2113,16.9950;CV-21;Porto Novo;Covada de John
+3;-25.2329,16.9853;CV-21;Porto Novo;Fundo de Casa Velha
+0;-25.2043,16.9752;CV-21;Porto Novo;Chã de Cancela
+0;-25.2105,16.9867;CV-21;Porto Novo;Covada de Eurico
+0;-25.2073,16.9929;CV-21;Porto Novo;Luis Spencer
+0;-25.2198,16.9688;CV-21;Porto Novo;Chã de Pedra
+0;-25.2293,16.9898;CV-21;Porto Novo;Lombo de Quntal
+0;-25.1640,16.9842;CV-21;Porto Novo;Casa de José Barranco
+0;-25.2065,16.9855;CV-21;Porto Novo;Pedra Ponge
+0;-25.2115,16.9656;CV-21;Porto Novo;Província
+0;-25.1756,16.9764;CV-21;Porto Novo;Casa do Condutor
+0;-25.2347,16.9712;CV-21;Porto Novo;Chã de Cima
+0;-24.9983,16.8678;CV-11;São Vicente;Ponta de Morrinho
+0;-25.0190,16.8027;CV-11;São Vicente;Curralhinho de Cascavelho
+0;-24.9950,16.8665;CV-11;São Vicente;Golf
+11;-25.0705,16.8310;CV-11;São Vicente;Santo André
+0;-25.0398,16.8041;CV-11;São Vicente;Casa de Baleia
+0;-24.7453,16.7462;CV-11;São Vicente;Portinho
+0;-24.9468,16.8752;CV-11;São Vicente;Cruz de Inglés
+0;-24.9609,16.8790;CV-11;São Vicente;Cruz de Joana
+0;-24.9223,16.8833;CV-11;São Vicente;Norte
+0;-24.9391,16.8738;CV-11;São Vicente;Floresta Negra
+10;-24.9272,16.8738;CV-11;São Vicente;Monte Verde
+0;-24.9914,16.8990;CV-11;São Vicente;Matiota
+96;-24.9099,16.9034;CV-11;São Vicente;Baía das Gatas
+0;-24.9550,16.8923;CV-11;São Vicente;Salgadinho
+0;-24.9945,16.9016;CV-11;São Vicente;Bairro de Santa Filomena
+0;-24.9231,16.8880;CV-11;São Vicente;António Gomes
+0;-24.9659,16.8771;CV-11;São Vicente;Craquinha
+0;-24.9167,16.8540;CV-11;São Vicente;Feijoal Preto
+0;-24.9312,16.8608;CV-11;São Vicente;Assomada da Baleia
+0;-24.9688,16.8428;CV-11;São Vicente;Cruz de Maio
+0;-24.9363,16.8653;CV-11;São Vicente;Forca da Baleia
+0;-24.9448,16.8595;CV-11;São Vicente;Montona
+0;-24.9878,16.8680;CV-11;São Vicente;Quinta de Santa Ana
+0;-24.9551,16.8584;CV-11;São Vicente;Seixal
+0;-24.9456,16.8684;CV-11;São Vicente;Morbê
+0;-24.9851,16.8227;CV-11;São Vicente;Alves Martinho
+0;-24.9714,16.7871;CV-11;São Vicente;Tope de Grijinha
+0;-24.9799,16.8504;CV-11;São Vicente;Curral de São João
+0;-24.9216,16.8364;CV-11;São Vicente;Mancage
+0;-24.9278,16.8665;CV-11;São Vicente;Baleia
+0;-24.9327,16.8507;CV-11;São Vicente;Bairro Branco
+0;-24.9913,16.8238;CV-11;São Vicente;Casa do Joni
+0;-24.3807,16.6416;CV-27;Tarrafal de São Nicolau;Olho de Água
+0;-24.3743,16.6676;CV-27;Tarrafal de São Nicolau;Rabil
+0;-24.3188,16.6576;CV-22;Ribeira Brava;Portal Furado
+24;-24.3193,16.6501;CV-22;Ribeira Brava;Chã de Barata
+0;-24.3613,16.6431;CV-27;Tarrafal de São Nicolau;Fragatinha
+0;-24.3458,16.6606;CV-22;Ribeira Brava;Lalai
+0;-24.2951,16.6381;CV-22;Ribeira Brava;Lombo de Cavalo
+26;-24.3635,16.6399;CV-27;Tarrafal de São Nicolau;Cruzinha
+0;-24.3262,16.6316;CV-22;Ribeira Brava;Gamboesa de Água
+0;-24.3277,16.6335;CV-22;Ribeira Brava;Assomada de Gamboesa
+0;-24.3323,16.6329;CV-22;Ribeira Brava;Cruz de Roque
+0;-24.3614,16.6498;CV-27;Tarrafal de São Nicolau;Figueiral
+0;-24.2921,16.6337;CV-22;Ribeira Brava;Lameirão
+0;-24.3139,16.6297;CV-22;Ribeira Brava;Queimada de Cima
+152;-24.3169,16.6539;CV-22;Ribeira Brava;Garçoto
+0;-24.3154,16.6428;CV-22;Ribeira Brava;Queimada de Baixo
+14;-24.3190,16.6615;CV-22;Ribeira Brava;Ladeira Grande
+0;-24.3347,16.6429;CV-22;Ribeira Brava;Fajã de Cima
+33;-24.3403,16.6437;CV-22;Ribeira Brava;Pico Agudo
+10;-24.3238,16.6537;CV-22;Ribeira Brava;Furado
+0;-24.3662,16.6446;CV-27;Tarrafal de São Nicolau;Fragatona
+9;-24.2981,16.6441;CV-22;Ribeira Brava;Ribeirozinho
+0;-24.3342,16.6362;CV-22;Ribeira Brava;Lombo Pelado
+0;-24.3474,16.6655;CV-22;Ribeira Brava;Cinta
+0;-24.3523,16.6429;CV-27;Tarrafal de São Nicolau;Altura
+6;-24.2953,16.6327;CV-22;Ribeira Brava;Boqueirão
+0;-24.3407,16.6704;CV-22;Ribeira Brava;Testa
+10;-24.3630,16.6460;CV-27;Tarrafal de São Nicolau;Jerónimo
+0;-24.3482,16.6293;CV-22;Ribeira Brava;Gamboesa da Silva
+0;-24.3894,16.5879;CV-27;Tarrafal de São Nicolau;Grade
+0;-24.3733,16.6142;CV-27;Tarrafal de São Nicolau;Pedras
+0;-24.3868,16.6191;CV-27;Tarrafal de São Nicolau;Chāzinha
+0;-24.3801,16.5861;CV-27;Tarrafal de São Nicolau;Chã de Portinho
+0;-24.3480,16.5469;CV-27;Tarrafal de São Nicolau;Chã de Cagadim
+18;-24.3087,16.6183;CV-22;Ribeira Brava;Rabona
+0;-24.3622,16.5758;CV-27;Tarrafal de São Nicolau;Comando
+0;-24.2932,16.5908;CV-22;Ribeira Brava;Campo da Preguiça
+0;-24.2697,16.6151;CV-22;Ribeira Brava;Nortinho
+0;-24.3105,16.5898;CV-22;Ribeira Brava;Chã de Portela
+17;-24.3381,16.6222;CV-22;Ribeira Brava;Cruzetinha
+0;-24.2722,16.5657;CV-22;Ribeira Brava;Ponta do Bodegal
+0;-24.3120,16.6122;CV-22;Ribeira Brava;Januário
+0;-24.2604,16.6063;CV-22;Ribeira Brava;Fio de Maria Pinguinha
+0;-24.3189,16.6178;CV-22;Ribeira Brava;Campinho Sul
+0;-24.3046,16.6164;CV-22;Ribeira Brava;Faial
+7;-24.3236,16.6040;CV-27;Tarrafal de São Nicolau;Mato Forte
+0;-24.3526,16.5577;CV-27;Tarrafal de São Nicolau;Chã de Espanaderim
+273;-24.3119,16.6196;CV-22;Ribeira Brava;Talho
+0;-24.2889,16.5706;CV-22;Ribeira Brava;Aguada
+0;-24.2691,16.6101;CV-22;Ribeira Brava;Cabeça de Vaca
+0;-24.3579,16.6134;CV-27;Tarrafal de São Nicolau;Alto de Consolada
+0;-24.3047,16.5992;CV-22;Ribeira Brava;Ladeira
+0;-24.3465,16.6219;CV-22;Ribeira Brava;Caldeirinha
+0;-24.3137,16.6216;CV-22;Ribeira Brava;Cruzeta
+0;-24.2881,16.6207;CV-22;Ribeira Brava;Fronteira de Ribeira Brava
+120;-24.2809,16.6102;CV-22;Ribeira Brava;Morro
+31;-24.3045,16.6180;CV-22;Ribeira Brava;Cigana
+0;-24.2606,16.5964;CV-22;Ribeira Brava;Cruz de Baixo
+34;-24.3048,16.6031;CV-22;Ribeira Brava;Chã
+26;-24.3285,16.6101;CV-27;Tarrafal de São Nicolau;Chã de Caldeira
+19;-24.3179,16.6238;CV-22;Ribeira Brava;Fabateira
+7;-24.2876,16.6058;CV-22;Ribeira Brava;Ribeira Seca
+0;-24.3073,16.6202;CV-22;Ribeira Brava;Ensosso
+0;-24.3192,16.6211;CV-22;Ribeira Brava;Campinho Norte
+0;-24.3097,16.6097;CV-22;Ribeira Brava;Segura de Ribeirāo
+0;-24.3326,16.6014;CV-27;Tarrafal de São Nicolau;Chamiço de Baixo
+0;-24.3386,16.6031;CV-27;Tarrafal de São Nicolau;Chã de Portal
+0;-24.3379,16.6044;CV-27;Tarrafal de São Nicolau;Chã de Palhal
+0;-24.3325,16.6229;CV-22;Ribeira Brava;Senhora do Monte
+0;-24.2606,16.6101;CV-22;Ribeira Brava;Lázaro
+0;-24.3324,16.6066;CV-27;Tarrafal de São Nicolau;Chamiço de Cima
+0;-24.3075,16.6133;CV-22;Ribeira Brava;Fundo de Figueiras
+98;-24.3071,16.6149;CV-22;Ribeira Brava;Pombas
+2;-24.3563,16.6109;CV-27;Tarrafal de São Nicolau;Espigão
+0;-24.3280,16.6198;CV-22;Ribeira Brava;Carrice
+131;-24.3359,16.6311;CV-22;Ribeira Brava;Água das Patas
+0;-24.3043,16.6085;CV-22;Ribeira Brava;Assomada
+0;-24.2766,16.6177;CV-22;Ribeira Brava;Água Amargosa
+0;-24.3020,16.5989;CV-22;Ribeira Brava;Fundo de Manga
+311;-24.2920,16.6199;CV-22;Ribeira Brava;Chãzinha
+2;-24.3037,16.5973;CV-22;Ribeira Brava;Luis Afonso
+0;-24.3141,16.6118;CV-22;Ribeira Brava;Palso
+0;-24.3005,16.5915;CV-22;Ribeira Brava;Monte Luis Afonso
+0;-24.2190,16.6304;CV-22;Ribeira Brava;Belém
+0;-24.1866,16.6287;CV-22;Ribeira Brava;Do Branco
+0;-24.1546,16.6012;CV-22;Ribeira Brava;Manuel Alexandre
+0;-24.2121,16.6165;CV-22;Ribeira Brava;Canal de Carambola
+0;-24.1948,16.6145;CV-22;Ribeira Brava;Chão Bonito
+0;-24.2361,16.6226;CV-22;Ribeira Brava;Coelha
+0;-24.1714,16.6086;CV-22;Ribeira Brava;Chã Branca
+0;-24.2002,16.6234;CV-22;Ribeira Brava;Selada de Papaeira
+0;-24.1980,16.6195;CV-22;Ribeira Brava;Casinhas
+27;-24.1357,16.6131;CV-22;Ribeira Brava;Spencer
+0;-24.1420,16.6106;CV-22;Ribeira Brava;Fortim
+0;-24.1576,16.6080;CV-22;Ribeira Brava;Paiol
+0;-24.2103,16.6274;CV-22;Ribeira Brava;Figueira de Cocho
+0;-24.2036,16.6228;CV-22;Ribeira Brava;Ramalho
+0;-24.2152,16.6125;CV-22;Ribeira Brava;Campo do Porto
+0;-24.2410,16.6177;CV-22;Ribeira Brava;Alto de Coelha
+0;-24.1726,16.6200;CV-22;Ribeira Brava;Dalmida
+0;-24.2017,16.6150;CV-22;Ribeira Brava;Lombo do Meio
+0;-24.2348,16.6200;CV-22;Ribeira Brava;Diligência
+589;-22.9517,16.7917;CV-08;Sal;Terra Boa
+33;-22.9735,16.7541;CV-08;Sal;Vila Verde
+0;-22.9574,16.7753;CV-08;Sal;Lajedo
+407;-22.9763,16.7625;CV-08;Sal;Jardim
+327;-22.9209,16.7604;CV-08;Sal;Alto do Solarinho
+7;-22.9486,16.7807;CV-08;Sal;Valado
+0;-22.9162,16.6344;CV-08;Sal;Nossa Senhora de Fátima
+0;-22.9059,16.6399;CV-08;Sal;Morrinho Branco
+63;-22.9295,16.6343;CV-08;Sal;Algodoeiro
+0;-22.9517,16.6985;CV-08;Sal;Cada do Soldado
+0;-22.9366,16.6815;CV-08;Sal;Cascalho
+0;-22.9758,16.7164;CV-08;Sal;Joaquim Petinha
+0;-22.9240,16.6965;CV-08;Sal;Constâncio
+0;-22.9062,16.7299;CV-08;Sal;Morro da Terra Branca
+0;-22.9349,16.7291;CV-08;Sal;Lajedo dos Espargos
+0;-22.9337,16.6559;CV-08;Sal;Lomba Branca
+0;-22.9395,16.6986;CV-08;Sal;Serapião
+0;-22.8928,16.6855;CV-08;Sal;Lavrador
+0;-22.9756,16.7388;CV-08;Sal;Fontona
+0;-22.9068,16.7383;CV-08;Sal;Parda
+6;-22.9340,16.6943;CV-08;Sal;Madama
+0;-22.9025,16.6870;CV-08;Sal;Senhora do Socorro
+0;-22.6816,16.1358;CV-01;Boa Vista;Casa de Joaquim
+0;-22.7126,16.1551;CV-01;Boa Vista;Bentica
+0;-22.7332,16.1758;CV-01;Boa Vista;Lomba da Fonte de Trás
+0;-22.6788,16.1347;CV-01;Boa Vista;Figura
+0;-22.7413,16.1685;CV-01;Boa Vista;Chã de Velha Jelena
+0;-22.7169,16.1536;CV-01;Boa Vista;Canto Faxina
+0;-22.7273,16.1436;CV-01;Boa Vista;Espinha de Jabe
+0;-22.6982,16.1457;CV-01;Boa Vista;Lajedo de Chã de Arroz
+0;-22.7325,16.1871;CV-01;Boa Vista;Algar de Filipe
+0;-22.7396,16.1576;CV-01;Boa Vista;Chã de Cruz Roque
+0;-22.7323,16.1457;CV-01;Boa Vista;Recanto
+0;-22.7078,16.1868;CV-01;Boa Vista;Canto
+0;-22.7427,16.0889;CV-01;Boa Vista;Furnas
+0;-22.7421,16.0854;CV-01;Boa Vista;Ponta de Lombo
+0;-22.7340,16.0779;CV-01;Boa Vista;Rosa Bacila
+0;-22.7329,16.0660;CV-01;Boa Vista;Cruz de Pé de Forte
+0;-22.7377,16.0477;CV-01;Boa Vista;Fonte de Morro Vermelho
+0;-22.7274,16.0481;CV-01;Boa Vista;Morada de Tarafe
+11;-24.3420,16.6131;CV-27;Tarrafal de São Nicolau;Topo de Palhal
+0;-22.8058,16.1332;CV-01;Boa Vista;Chã de Serrinha
+0;-22.7573,16.1856;CV-01;Boa Vista;Lomba de Curral de Bombardeirona
+0;-22.7695,16.1535;CV-01;Boa Vista;Espargo Grande
+0;-22.7646,16.1318;CV-01;Boa Vista;Reguinho
+0;-22.7539,16.1746;CV-01;Boa Vista;Lomba de Forno de Cal
+0;-22.7626,16.1905;CV-01;Boa Vista;Curralinho de Fora
+0;-22.7919,16.1400;CV-01;Boa Vista;Rochinha
+0;-22.8169,16.1939;CV-01;Boa Vista;Soldado
+0;-22.8499,16.1794;CV-01;Boa Vista;Pré Arriba
+0;-22.7670,16.1771;CV-01;Boa Vista;Horta de Timaco
+0;-22.7794,16.1952;CV-01;Boa Vista;Algar da Beira
+0;-22.7830,16.1626;CV-01;Boa Vista;Casa de João Florencio
+0;-22.8705,16.1420;CV-01;Boa Vista;Rocha de Escriveira
+0;-22.8699,16.1390;CV-01;Boa Vista;Riba de Alto
+0;-22.8476,16.1734;CV-01;Boa Vista;Morro Vermelho
+0;-22.7501,16.1637;CV-01;Boa Vista;Chã de Corveta
+0;-22.7824,16.1484;CV-01;Boa Vista;Alto de Casa de Prisca
+0;-22.7970,16.1605;CV-01;Boa Vista;Campo da Serra
+0;-22.8226,16.1891;CV-01;Boa Vista;Horta de Tomé
+0;-22.7600,16.0369;CV-01;Boa Vista;Fundos Pretos
+0;-22.8048,16.0429;CV-01;Boa Vista;Pássaro Largo
+0;-22.8282,16.0553;CV-01;Boa Vista;Tapada de José Abraão
+0;-22.8683,16.1120;CV-01;Boa Vista;Curralinho Branco
+0;-22.7912,16.0544;CV-01;Boa Vista;Horta do Velho
+0;-22.7606,16.0499;CV-01;Boa Vista;Gruta da Casa de Ceirão
+0;-22.7935,16.0874;CV-01;Boa Vista;Nhã Piripiri
+0;-22.8499,16.0659;CV-01;Boa Vista;Pedregulho de Belmonte
+0;-22.8687,16.0601;CV-01;Boa Vista;Casa de Chica de Roque
+0;-22.8215,16.0150;CV-01;Boa Vista;Baixada dos Morrinhos Pretos
+0;-22.8144,16.0566;CV-01;Boa Vista;Romano
+0;-22.7857,16.0963;CV-01;Boa Vista;Nova Sintra
+0;-22.8106,16.0134;CV-01;Boa Vista;São Domingos
+0;-22.7947,16.0665;CV-01;Boa Vista;António Narciso
+0;-22.8386,16.0718;CV-01;Boa Vista;Providência
+0;-22.8319,16.0140;CV-01;Boa Vista;Maroços de António
+0;-22.7867,16.1111;CV-01;Boa Vista;Chalau
+0;-22.7879,16.1178;CV-01;Boa Vista;Santana
+0;-22.8616,16.0692;CV-01;Boa Vista;Canece Tijaja
+0;-22.8627,16.1104;CV-01;Boa Vista;Ninho de Guincho
+0;-22.8309,16.0718;CV-01;Boa Vista;Bala
+0;-22.8676,16.1002;CV-01;Boa Vista;Pedro Tatuda
+0;-22.7535,16.0236;CV-01;Boa Vista;Ponta do Descarregadeiro
+0;-22.8408,16.0584;CV-01;Boa Vista;São Francisco
+0;-22.8905,16.1603;CV-01;Boa Vista;Lomba de Padre
+0;-22.8898,16.1505;CV-01;Boa Vista;Esgreta
+0;-22.8798,16.1434;CV-01;Boa Vista;Recanto
+0;-22.9009,16.1330;CV-01;Boa Vista;Bandente de Lomba de Chave
+0;-22.9078,16.1890;CV-01;Boa Vista;Pá Velho
+0;-22.8842,16.1400;CV-01;Boa Vista;Chã de Losna
+0;-22.8952,16.1593;CV-01;Boa Vista;Alto de Recria
+554;-22.8751,16.1384;CV-01;Boa Vista;Estância de Baixo
+0;-22.8993,16.1267;CV-01;Boa Vista;Baguincho
+0;-22.8796,16.1617;CV-01;Boa Vista;Hortas de Badanela
+0;-22.8932,16.2070;CV-01;Boa Vista;Poderoso
+0;-22.8779,16.1262;CV-01;Boa Vista;Moradinha
+0;-22.9198,16.1775;CV-01;Boa Vista;Fenaraça
+0;-22.8754,16.1290;CV-01;Boa Vista;Morro Branco
+0;-22.8898,16.1463;CV-01;Boa Vista;Morrinho Baguincho
+0;-22.9182,16.2215;CV-01;Boa Vista;Areia Branca
+0;-22.9081,16.1652;CV-01;Boa Vista;Carrice
+0;-22.8935,16.1308;CV-01;Boa Vista;Maria Clara
+0;-22.8802,16.1574;CV-01;Boa Vista;Chã de Esgreta
+0;-22.8648,15.9974;CV-01;Boa Vista;Monte Curral de João Pati
+0;-22.8872,15.9933;CV-01;Boa Vista;Santa Mónica
+0;-22.8242,15.9958;CV-01;Boa Vista;Salto Mentira
+0;-22.8954,15.9985;CV-01;Boa Vista;Malha Branca
+0;-22.8572,15.9831;CV-01;Boa Vista;Carquejinha
+0;-22.8768,15.9942;CV-01;Boa Vista;Cruz Mimi
+0;-22.8450,15.9901;CV-01;Boa Vista;Curral Mateus
+0;-22.7968,15.9918;CV-01;Boa Vista;Tapume de Curral Velho
+0;-22.8204,15.9793;CV-01;Boa Vista;Curral Catoco
+0;-22.8853,16.1148;CV-01;Boa Vista;Moradinha de Cima
+0;-22.8809,16.1047;CV-01;Boa Vista;Largo Lombinho Nhã Rosa
+0;-22.8914,16.1131;CV-01;Boa Vista;Ribeira Funda
+0;-22.9023,16.0369;CV-01;Boa Vista;Tichica
+0;-22.9419,16.0529;CV-01;Boa Vista;Debaixo de Canto
+0;-22.8854,16.1170;CV-01;Boa Vista;Casa de Esteves
+0;-22.8851,16.1224;CV-01;Boa Vista;Barreiros
+0;-22.8759,16.1020;CV-01;Boa Vista;Lomba Manuel da Luz
+0;-22.9178,16.0591;CV-01;Boa Vista;Monte Claro
+0;-22.8757,16.0409;CV-01;Boa Vista;Chã de Fortinha
+0;-22.8995,16.0583;CV-01;Boa Vista;Quinta de Ana
+0;-22.9090,16.0033;CV-01;Boa Vista;Condinho
+0;-22.8780,16.0301;CV-01;Boa Vista;Quinta de Estevão
+0;-22.8867,16.1123;CV-01;Boa Vista;Moradinha de Baixo
+17;-22.9083,16.1123;CV-01;Boa Vista;Baguincho
+0;-22.8863,16.0247;CV-01;Boa Vista;Morro Morada de Padre
+0;-22.8794,16.0945;CV-01;Boa Vista;Casa de Ti Gomes
+0;-22.8867,16.1200;CV-01;Boa Vista;Baixo de Rocha
+0;-22.8843,16.0477;CV-01;Boa Vista;Curral de Fotne Filipe
+0;-22.8736,16.0926;CV-01;Boa Vista;Horta de Lela
+0;-22.8846,16.1045;CV-01;Boa Vista;Lomba Preta
+0;-22.8805,16.0964;CV-01;Boa Vista;Casa de Tina
+0;-22.8880,16.0507;CV-01;Boa Vista;Lomba de Carreira de Cavalo
+0;-22.8843,16.0322;CV-01;Boa Vista;Chã de Quina de Estevão
+0;-22.8973,16.0355;CV-01;Boa Vista;Manuel Elisa
+0;-22.8939,16.1008;CV-01;Boa Vista;Caminho Cruz João Santos
+0;-23.2283,15.1857;CV-04;Maio;Água Doce
+0;-23.1897,15.1439;CV-04;Maio;Casa Padá
+0;-23.1205,15.1679;CV-04;Maio;Mansapé
+0;-23.1615,15.1739;CV-04;Maio;Godinho
+0;-23.1811,15.1280;CV-04;Maio;Casas
+0;-23.1108,15.2337;CV-04;Maio;Lomba da Mantenha
+0;-23.1497,15.2001;CV-04;Maio;Figueira Cheu
+0;-23.1297,15.1898;CV-04;Maio;Figueira Capada
+0;-23.1014,15.2398;CV-04;Maio;Horta Taja
+0;-23.1192,15.2430;CV-04;Maio;Cruz Grande
+0;-23.1129,15.1463;CV-04;Maio;Pedrinha da Areia
+0;-23.1197,15.1858;CV-04;Maio;Cruz da Graça
+0;-23.2253,15.1909;CV-04;Maio;Calheta da Joana
+0;-23.2112,15.2518;CV-04;Maio;Laje Preta
+0;-23.1340,15.1566;CV-04;Maio;Marcela
+0;-23.1456,15.1456;CV-04;Maio;Figueira da Garça
+0;-23.1718,15.1277;CV-04;Maio;Velhas
+0;-23.2111,15.1543;CV-04;Maio;Campo de Aviaçāo
+0;-23.1556,15.1865;CV-04;Maio;Chã de Estância
+0;-23.1336,15.1728;CV-04;Maio;Recanto
+0;-23.1140,15.2395;CV-04;Maio;Penoso
+0;-23.2080,15.1851;CV-04;Maio;Perdegal
+0;-23.1821,15.1439;CV-04;Maio;Falcão
+4856;-23.7395,15.2555;CV-20;Tarrafal;Chão Bom
+0;-23.7047,15.2563;CV-20;Tarrafal;Muito Vento
+290;-23.7079,15.3124;CV-20;Tarrafal;Ponta Furna
+0;-23.7034,15.3119;CV-20;Tarrafal;Achada Montor
+0;-23.7017,15.3075;CV-20;Tarrafal;Serrado de Angra
+0;-23.7124,15.3082;CV-20;Tarrafal;Ponta do Lobrã
+0;-23.7243,15.3057;CV-20;Tarrafal;Achada Bilim
+0;-23.7253,15.3019;CV-20;Tarrafal;Poço Sengal
+0;-23.6923,15.3030;CV-20;Tarrafal;Angra
+17;-23.7126,15.2986;CV-20;Tarrafal;Achada Igreja
+0;-23.7290,15.3025;CV-20;Tarrafal;Pedra Mesa
+0;-23.7176,15.3029;CV-20;Tarrafal;Assomada
+0;-23.7293,15.2956;CV-20;Tarrafal;Curral de Baixo
+0;-23.7376,15.2816;CV-20;Tarrafal;Achada Tomaz
+0;-23.7147,15.2791;CV-20;Tarrafal;Achada Carreira
+0;-23.7093,15.2776;CV-20;Tarrafal;Pedra Branca
+0;-23.7058,15.2641;CV-20;Tarrafal;Ganxemba
+0;-23.7048,15.2743;CV-20;Tarrafal;Covão Largo
+0;-23.7080,15.2706;CV-20;Tarrafal;Ganxemba de Trás
+0;-23.7378,15.2598;CV-20;Tarrafal;Colhe Bicho
+0;-23.7435,15.2626;CV-20;Tarrafal;Campo de Trabalho de Chão Bom
+0;-23.7539,15.2635;CV-20;Tarrafal;Colonato do Chão Bom
+0;-23.7555,15.2721;CV-20;Tarrafal;Achada do Chão Bom
+0;-23.7465,15.2904;CV-20;Tarrafal;João Vaz
+101;-23.7440,15.3110;CV-20;Tarrafal;Fazenda
+0;-23.7562,15.3158;CV-20;Tarrafal;Fazenda
+0;-23.1740,15.3004;CV-04;Maio;Terras Salgadas
+0;-23.2143,15.2604;CV-04;Maio;Achada de Riba
+0;-23.1718,15.2798;CV-04;Maio;Fonte de Baixo
+0;-23.1223,15.2684;CV-04;Maio;Poi
+0;-23.1415,15.2987;CV-04;Maio;Laje Branca
+37;-23.1140,15.2674;CV-04;Maio;Praia Conçalo
+551;-23.5541,15.1332;CV-16;Santa Cruz;Terra Branca
+0;-23.7323,15.1785;CV-15;Santa Catarina;Covão Baixo
+0;-23.5660,15.1467;CV-16;Santa Cruz;Bassoura
+0;-23.6823,15.1930;CV-19;São Miguel;Fundinho
+0;-23.6583,15.2122;CV-19;São Miguel;Hortelão
+0;-23.5585,15.1473;CV-16;Santa Cruz;Achada de Pau Encostado
+0;-23.6243,15.1725;CV-19;São Miguel;Lem Tavares
+0;-23.6363,15.1322;CV-15;Santa Catarina;Mato Garco
+0;-23.5726,15.1280;CV-16;Santa Cruz;Queimado
+778;-23.6346,15.2083;CV-19;São Miguel;Espinho Branco
+0;-23.6075,15.1536;CV-16;Santa Cruz;Chã Quenta
+0;-23.6038,15.1649;CV-19;São Miguel;Flamengos de Baixo
+47;-23.5989,15.1361;CV-16;Santa Cruz;Cruz de Aguada
+0;-23.6712,15.2013;CV-19;São Miguel;Dalgoeiro
+0;-23.6664,15.1526;CV-15;Santa Catarina;Achada Piloto
+0;-23.6653,15.1657;CV-15;Santa Catarina;Parapeito
+0;-23.6126,15.1673;CV-19;São Miguel;Chão de Tagarra
+1242;-23.6603,15.2475;CV-20;Tarrafal;Achada Tenda
+221;-23.6680,15.1319;CV-15;Santa Catarina;Arribada
+0;-23.6653,15.2250;CV-19;São Miguel;Fonte de Sao João
+0;-23.6277,15.1292;CV-15;Santa Catarina;Matoreal
+0;-23.6293,15.2010;CV-19;São Miguel;Purgueira
+0;-23.7229,15.1850;CV-15;Santa Catarina;Bole
+0;-23.6082,15.1625;CV-19;São Miguel;Tagara
+0;-23.6811,15.2280;CV-20;Tarrafal;Sibinia
+0;-23.6318,15.1567;CV-19;São Miguel;Chão Vaz
+0;-23.6903,15.2318;CV-20;Tarrafal;Mato Brasil
+0;-23.6646,15.1570;CV-15;Santa Catarina;Cutelão
+863;-23.6321,15.1968;CV-19;São Miguel;Pilão Cão
+103;-23.6472,15.2296;CV-19;São Miguel;Ponta Magimã
+0;-23.6244,15.1681;CV-19;São Miguel;Cruz de Poilão
+0;-23.6387,15.1939;CV-19;São Miguel;Lem Mato
+0;-23.6319,15.2221;CV-19;São Miguel;João Gonçalo
+0;-23.6057,15.1672;CV-19;São Miguel;Lem de Santo
+9;-23.7023,15.2459;CV-20;Tarrafal;Ponta Baixo
+59;-23.5596,15.1290;CV-16;Santa Cruz;Portalinho
+0;-23.6356,15.1770;CV-19;São Miguel;Monte Ribeiro
+0;-23.6822,15.2244;CV-20;Tarrafal;Rochona
+0;-23.6289,15.1386;CV-15;Santa Catarina;Chão de Nona
+0;-23.7021,15.2362;CV-20;Tarrafal;Carrasco
+0;-23.6546,15.1505;CV-15;Santa Catarina;Chão de Laranja
+630;-23.6185,15.1632;CV-19;São Miguel;Tagarra
+0;-23.6833,15.1871;CV-19;São Miguel;Covão Riba
+0;-23.7226,15.2146;CV-20;Tarrafal;Espagigalo
+0;-23.6118,15.1523;CV-16;Santa Cruz;Pereira
+0;-23.6015,15.1420;CV-16;Santa Cruz;Uri
+0;-23.6403,15.1755;CV-19;São Miguel;Pé de Rocha
+0;-23.6959,15.1735;CV-15;Santa Catarina;Fortui
+5;-23.7068,15.1509;CV-15;Santa Catarina;Cutelão
+14;-23.6854,15.2112;CV-20;Tarrafal;Achada Lagoa
+0;-23.6777,15.1934;CV-19;São Miguel;Atalaia
+0;-23.7443,15.1931;CV-15;Santa Catarina;Chã de Curral
+0;-23.6380,15.1363;CV-15;Santa Catarina;Pé Sancho
+0;-23.5909,15.1393;CV-16;Santa Cruz;Nhamita
+631;-23.5309,15.1280;CV-16;Santa Cruz;Rocha Lama
+0;-23.5860,15.1357;CV-16;Santa Cruz;Várzea Laranja
+0;-23.6488,15.1410;CV-19;São Miguel;Covão Dentro
+0;-23.6747,15.1697;CV-15;Santa Catarina;Mato
+18;-23.6081,15.1501;CV-16;Santa Cruz;Lem Dias
+0;-23.6811,15.1872;CV-19;São Miguel;Mulona
+0;-23.5970,15.1431;CV-16;Santa Cruz;Cutelo de Salto
+1;-23.6342,15.1376;CV-15;Santa Catarina;Bianga
+0;-23.5409,15.1385;CV-16;Santa Cruz;Achada Cruz
+0;-23.6514,15.1399;CV-19;São Miguel;Fonte Nova
+0;-23.6675,15.1929;CV-19;São Miguel;Chão Grande
+0;-23.6810,15.1910;CV-19;São Miguel;Maton
+0;-23.6450,15.1402;CV-19;São Miguel;Maria Parda
+0;-23.6803,15.1901;CV-19;São Miguel;Martins
+259;-23.6020,15.1308;CV-16;Santa Cruz;Boaventura
+0;-23.7062,15.2489;CV-20;Tarrafal;Ponta da Achada
+0;-23.7350,15.1728;CV-15;Santa Catarina;Lem Martins
+0;-23.6878,15.1893;CV-19;São Miguel;Ribão Fichão
+0;-23.7041,15.2430;CV-20;Tarrafal;Cutelo
+0;-23.6933,15.1942;CV-15;Santa Catarina;Cutelo Lopes
+0;-23.6157,15.2126;CV-19;São Miguel;Achadona
+0;-23.6184,15.2035;CV-19;São Miguel;Casa do Cutelo
+0;-23.6616,15.1992;CV-19;São Miguel;Cutelo Vermelho
+0;-23.6085,15.1567;CV-16;Santa Cruz;Vila Cantor
+0;-23.5957,15.1592;CV-16;Santa Cruz;Cutelo de Salto de Baixo
+34;-23.5889,15.1309;CV-16;Santa Cruz;Pizarra
+0;-23.6286,15.1690;CV-19;São Miguel;Lem de Almeida
+0;-23.6214,15.2228;CV-19;São Miguel;Achada Lem Pereira
+56;-23.5935,15.1568;CV-16;Santa Cruz;Casa Branca
+0;-23.6639,15.2087;CV-19;São Miguel;Pé Serrado
+0;-23.6488,15.1366;CV-19;São Miguel;Pau Cortado
+342;-23.6381,15.2171;CV-19;São Miguel;Monte Pousada
+0;-23.7105,15.2108;CV-20;Tarrafal;Chã de Aguada
+0;-23.6221,15.1749;CV-19;São Miguel;Lem Semedo
+0;-23.6287,15.1893;CV-19;São Miguel;Toril
+0;-23.6761,15.2048;CV-19;São Miguel;Ponta da Ribeira
+0;-23.6231,15.1717;CV-19;São Miguel;Laje
+0;-23.7454,15.2161;CV-20;Tarrafal;Covão de Cruz
+75;-23.7356,15.2242;CV-20;Tarrafal;Cuba de Baixo
+0;-23.6533,15.1280;CV-15;Santa Catarina;Ribeirão Cavalo
+0;-23.5955,15.1478;CV-16;Santa Cruz;Aboboreira
+0;-23.7455,15.1917;CV-15;Santa Catarina;Cutelo Moreira
+0;-23.6694,15.1501;CV-15;Santa Catarina;Lem Lopes
+0;-23.6495,15.1377;CV-19;São Miguel;Chão de Areia
+0;-23.6434,15.1403;CV-19;São Miguel;Flamengos
+0;-23.6361,15.1553;CV-19;São Miguel;Casa Grande
+0;-23.7447,15.1991;CV-20;Tarrafal;Monte Mosca
+0;-23.6943,15.1685;CV-15;Santa Catarina;Sangue Draga
+3;-23.6804,15.1617;CV-15;Santa Catarina;Achada Lazão
+0;-23.7034,15.1308;CV-15;Santa Catarina;Carvoeiro
+0;-23.7005,15.1382;CV-15;Santa Catarina;Fontona
+0;-23.6104,15.1482;CV-16;Santa Cruz;Ribeirão Feijãd
+0;-23.6903,15.1307;CV-15;Santa Catarina;Achada Falcão
+0;-23.6197,15.1469;CV-15;Santa Catarina;Limoeiro
+1604;-23.5320,15.1337;CV-16;Santa Cruz;Salinas
+137;-23.5694,15.1565;CV-16;Santa Cruz;Covão Sanches
+0;-23.6682,15.1395;CV-15;Santa Catarina;Adhadinha
+0;-23.6767,15.2437;CV-20;Tarrafal;Morte de Guincho
+555;-23.6685,15.1511;CV-15;Santa Catarina;João Dias
+0;-23.7029,15.2319;CV-20;Tarrafal;Água de Garça
+0;-23.7332,15.1437;CV-15;Santa Catarina;Manipulo
+0;-23.6714,15.2063;CV-19;São Miguel;Chão Grande
+0;-23.6437,15.1967;CV-19;São Miguel;Fazenda
+0;-23.7290,15.1949;CV-15;Santa Catarina;Achada de Água
+32;-23.6334,15.2060;CV-19;São Miguel;Lem Cardoso
+0;-23.6304,15.1347;CV-15;Santa Catarina;Figueira Ferro
+0;-23.6635,15.2223;CV-19;São Miguel;Ponta da Aguada
+0;-23.6565,15.1309;CV-15;Santa Catarina;Simão Nuno
+0;-23.5506,15.1428;CV-16;Santa Cruz;Via Curta
+0;-23.6250,15.2056;CV-19;São Miguel;Touça
+0;-23.6236,15.1815;CV-19;São Miguel;Cutelo Covado
+0;-23.7300,15.1894;CV-15;Santa Catarina;Aguadinha
+0;-23.6279,15.1756;CV-19;São Miguel;Milho Branco
+78;-23.6796,15.1430;CV-15;Santa Catarina;Alto João Dô
+0;-23.7410,15.2128;CV-20;Tarrafal;Ribão Bandeira
+0;-23.6839,15.1453;CV-15;Santa Catarina;Lem Martim
+0;-23.6838,15.1278;CV-15;Santa Catarina;Fontona
+0;-23.6213,15.1670;CV-19;São Miguel;Ribeirão Velho
+0;-23.6710,15.1330;CV-15;Santa Catarina;Chão de Ferro
+0;-23.6892,15.2432;CV-20;Tarrafal;Cutelo
+0;-23.6520,15.1703;CV-19;São Miguel;Figueira Grande
+10;-23.6442,15.1663;CV-19;São Miguel;Cutelo do Forno
+0;-23.6679,15.1646;CV-15;Santa Catarina;Pedra Parede
+0;-23.5605,15.1411;CV-16;Santa Cruz;Bolanha
+0;-23.6281,15.1835;CV-19;São Miguel;Cutelo de Coco
+0;-23.6199,15.1370;CV-15;Santa Catarina;Da Cruz
+0;-23.6361,15.1497;CV-19;São Miguel;Chocalho
+53;-23.5874,15.1330;CV-16;Santa Cruz;Fornalha
+0;-23.6457,15.2057;CV-19;São Miguel;Ribeirão de Cruz
+0;-23.7372,15.1677;CV-15;Santa Catarina;Cruz do Franco Cheu
+0;-23.6396,15.1300;CV-15;Santa Catarina;Lem da Veiga
+0;-23.6269,15.1648;CV-19;São Miguel;Poilão
+163;-23.6984,15.1649;CV-15;Santa Catarina;Piçarra
+0;-23.6513,15.1497;CV-15;Santa Catarina;Chão Tavares
+0;-23.5896,15.1380;CV-16;Santa Cruz;Géu
+0;-23.6961,15.1965;CV-20;Tarrafal;Pedra Comprida
+45;-23.6476,15.1856;CV-19;São Miguel;Lem Pereira
+0;-23.6450,15.1834;CV-19;São Miguel;Achada Queimada
+0;-23.6913,15.1762;CV-15;Santa Catarina;Pé de Quebrada
+0;-23.6701,15.1556;CV-15;Santa Catarina;Fazenda
+0;-23.7350,15.1952;CV-15;Santa Catarina;Cera Pau
+0;-23.7485,15.1658;CV-15;Santa Catarina;Mamelano
+0;-23.6917,15.1881;CV-15;Santa Catarina;Locotano
+115;-23.6414,15.1857;CV-19;São Miguel;Machado
+0;-23.7460,15.1613;CV-15;Santa Catarina;João Velho
+0;-23.6383,15.1280;CV-15;Santa Catarina;Cutelo de Ribeirão Isabel
+0;-23.6702,15.1608;CV-15;Santa Catarina;Cutelo do Mato
+0;-23.6765,15.2035;CV-19;São Miguel;Jaquetão
+0;-23.6966,15.1891;CV-15;Santa Catarina;Cutelo Gago
+0;-23.6569,15.2454;CV-19;São Miguel;Boca de Ribeira
+0;-23.6972,15.2208;CV-20;Tarrafal;Lapa de Porco
+0;-23.6652,15.1599;CV-15;Santa Catarina;Pótcheu
+0;-23.6185,15.1606;CV-19;São Miguel;Chã Grande
+0;-23.6297,15.1737;CV-19;São Miguel;Fonte de Horta
+192;-23.7036,15.1502;CV-15;Santa Catarina;Águas Podres
+0;-23.6183,15.1573;CV-19;São Miguel;Coqueiro
+0;-23.7315,15.1893;CV-15;Santa Catarina;Feital
+0;-23.6086,15.1668;CV-19;São Miguel;Portal
+0;-23.6697,15.2127;CV-19;São Miguel;Chão Dentro
+0;-23.6352,15.1440;CV-15;Santa Catarina;Cruz do Salto
+0;-23.7078,15.1630;CV-15;Santa Catarina;Passo de Vaca
+0;-23.6384,15.2025;CV-19;São Miguel;Selada
+0;-23.6259,15.1604;CV-19;São Miguel;Chão Freire
+0;-23.7267,15.1890;CV-15;Santa Catarina;Monte Feita
+0;-23.6474,15.1453;CV-19;São Miguel;Lem Mendes
+0;-23.6755,15.2507;CV-20;Tarrafal;Milhafre
+10;-23.5805,15.1406;CV-16;Santa Cruz;Manipo
+0;-23.6871,15.2020;CV-20;Tarrafal;Lagoa
+1;-23.6634,15.1330;CV-15;Santa Catarina;Cativo
+0;-23.6382,15.1416;CV-15;Santa Catarina;Cutelo Mendes
+0;-23.6995,15.1953;CV-15;Santa Catarina;Queimado
+363;-23.6738,15.1345;CV-15;Santa Catarina;Furna
+506;-23.6419,15.1395;CV-15;Santa Catarina;Saltos de Cima
+0;-23.6412,15.1784;CV-19;São Miguel;Limão
+0;-23.6815,15.1945;CV-19;São Miguel;Renque Tapum
+0;-23.6382,15.1852;CV-19;São Miguel;Lem Sancho
+0;-23.6295,15.2001;CV-19;São Miguel;Cutelo Tinta
+0;-23.7059,15.2373;CV-20;Tarrafal;Tamareiro
+0;-23.6434,15.1495;CV-19;São Miguel;Apertado
+0;-23.5848,15.1326;CV-16;Santa Cruz;Ribeirão Égua
+104;-23.7025,15.1426;CV-15;Santa Catarina;Chão de Monte
+0;-23.6614,15.1363;CV-15;Santa Catarina;Cruz do Meio
+0;-23.6468,15.1818;CV-19;São Miguel;Teimada
+0;-23.6760,15.2003;CV-19;São Miguel;Chão de Horta
+0;-23.6623,15.1578;CV-15;Santa Catarina;Cutelo
+0;-23.6483,15.1797;CV-19;São Miguel;Fundo
+3;-23.6901,15.2036;CV-20;Tarrafal;Mato Galo
+0;-23.5982,15.1576;CV-26;São Salvador do Mundo;Coqueiro
+0;-23.7487,15.1580;CV-15;Santa Catarina;Tamareiro
+23;-23.6586,15.1723;CV-19;São Miguel;Aguadinha
+13;-23.6877,15.1738;CV-15;Santa Catarina;Mato Fundura
+0;-23.6466,15.1776;CV-19;São Miguel;Pedra Larga
+65;-23.5383,15.1293;CV-16;Santa Cruz;Lagoa Gil
+0;-23.7416,15.1810;CV-15;Santa Catarina;Figueirona
+0;-23.7151,15.2447;CV-20;Tarrafal;Monte Lopes
+0;-23.6230,15.1768;CV-19;São Miguel;Lem Vaz
+0;-23.6237,15.1399;CV-15;Santa Catarina;Carreiras
+0;-23.6749,15.1374;CV-15;Santa Catarina;Funco
+0;-23.6571,15.2231;CV-19;São Miguel;Cutelo do Meio
+0;-23.7099,15.2425;CV-20;Tarrafal;Belém
+0;-23.7251,15.1833;CV-15;Santa Catarina;Curral Grande
+13;-23.5983,15.1280;CV-16;Santa Cruz;Toril
+0;-23.7421,15.1976;CV-20;Tarrafal;Gem de Bassora
+0;-23.6571,15.1518;CV-15;Santa Catarina;Godinho
+0;-23.6133,15.1612;CV-19;São Miguel;Lem Gomes
+0;-23.6755,15.2473;CV-20;Tarrafal;Pé Topada
+0;-23.6731,15.1620;CV-15;Santa Catarina;Lem Grande
+0;-23.6303,15.1652;CV-19;São Miguel;Cutelo Limão
+0;-23.7027,15.2098;CV-20;Tarrafal;Monte Palha Carga
+0;-23.6739,15.1999;CV-19;São Miguel;Chão Tavares
+697;-23.5622,15.1516;CV-16;Santa Cruz;Achada Abaixo
+0;-23.6839,15.1894;CV-19;São Miguel;Figueirona
+21;-23.6527,15.1649;CV-19;São Miguel;Lagoa
+0;-23.6969,15.2259;CV-20;Tarrafal;Quebrada
+0;-23.6362,15.2002;CV-19;São Miguel;Sarimba
+0;-23.7449,15.1409;CV-15;Santa Catarina;Capela
+0;-23.6472,15.1994;CV-19;São Miguel;Água Boi
+0;-23.7185,15.1861;CV-15;Santa Catarina;Lem Moreira
+39;-23.7074,15.1447;CV-15;Santa Catarina;Ribeirão de Areia
+238;-23.6790,15.1385;CV-15;Santa Catarina;Portal da Furna
+130;-23.7039,15.2269;CV-20;Tarrafal;Mato Mendes
+0;-23.6059,15.1945;CV-19;São Miguel;Achada Benés
+0;-23.6865,15.2488;CV-20;Tarrafal;Fanhosa
+0;-23.6828,15.2110;CV-20;Tarrafal;Monte Fidalgo
+44;-23.7062,15.1558;CV-15;Santa Catarina;Achada de Fora
+95;-23.6375,15.1661;CV-19;São Miguel;Monte Bode
+66;-23.5635,15.1364;CV-16;Santa Cruz;Lem Pereira
+0;-23.6493,15.1712;CV-19;São Miguel;Pai António
+0;-23.6648,15.1971;CV-19;São Miguel;Chão Riba
+98;-23.7289,15.2016;CV-20;Tarrafal;Achada do Meio
+0;-23.6034,15.1294;CV-16;Santa Cruz;Fornalha
+0;-23.6879,15.2468;CV-20;Tarrafal;Renque de Meio
+0;-23.7130,15.1877;CV-15;Santa Catarina;Lugar Velho
+0;-23.7484,15.1942;CV-15;Santa Catarina;Lem Barbosa
+7;-23.6347,15.1969;CV-19;São Miguel;Tambarino
+17;-23.7136,15.2388;CV-20;Tarrafal;Contador
+5;-23.7087,15.1593;CV-15;Santa Catarina;Funco Guarda
+0;-23.7253,15.1803;CV-15;Santa Catarina;Rufeu
+0;-23.6579,15.2292;CV-19;São Miguel;Achada Garçote
+45;-23.5927,15.1335;CV-16;Santa Cruz;Figueira Gorda
+0;-23.6308,15.1581;CV-19;São Miguel;Coco
+0;-23.7202,15.1848;CV-15;Santa Catarina;Lem Semedo
+258;-23.7056,15.2063;CV-20;Tarrafal;Curral Velho
+61;-23.6473,15.1704;CV-19;São Miguel;Achada Barril
+0;-23.7497,15.1953;CV-15;Santa Catarina;Taberna
+0;-23.6937,15.1675;CV-15;Santa Catarina;Sobrado
+0;-23.6712,15.1291;CV-15;Santa Catarina;Quatro Caminhos
+216;-23.6845,15.1327;CV-15;Santa Catarina;Chiqueiro Barbosa
+0;-23.6612,15.2196;CV-19;São Miguel;Pé do Monte
+0;-23.6844,15.2370;CV-20;Tarrafal;Monte Grande
+41;-23.6309,15.1989;CV-19;São Miguel;Carreiras
+489;-23.6496,15.1314;CV-15;Santa Catarina;Pingo de Chuva
+0;-23.6771,15.2208;CV-20;Tarrafal;Rochacinta
+0;-23.6652,15.1542;CV-15;Santa Catarina;Lem Mendes
+0;-23.6442,15.1851;CV-19;São Miguel;Cutelo da Horta
+0;-23.6806,15.1329;CV-15;Santa Catarina;Mancholi
+0;-23.6876,15.1714;CV-15;Santa Catarina;Cutelo Fontes
+0;-23.6929,15.2231;CV-20;Tarrafal;Mato Fava
+0;-23.6904,15.2452;CV-20;Tarrafal;Somba Monte
+0;-23.6863,15.1956;CV-19;São Miguel;Mafafa
+0;-23.6333,15.1443;CV-15;Santa Catarina;Sola
+1;-23.6186,15.1515;CV-15;Santa Catarina;Ribeirão Pereira
+0;-23.6228,15.1423;CV-15;Santa Catarina;Ribeirão Asno
+0;-23.7086,15.2110;CV-20;Tarrafal;Achada Ponciano
+0;-23.6560,15.1669;CV-19;São Miguel;Monte Branco
+0;-23.6766,15.1975;CV-19;São Miguel;Mato Curral
+0;-23.6520,15.1422;CV-19;São Miguel;Maria Parda
+0;-23.7059,15.1760;CV-15;Santa Catarina;Quebrada
+509;-23.6473,15.1634;CV-19;São Miguel;Cutelo Gomes
+0;-23.6094,15.1646;CV-19;São Miguel;Covão da Fonte
+0;-23.5804,15.1275;CV-16;Santa Cruz;Mato
+320;-23.5236,15.1288;CV-16;Santa Cruz;Achada da Igreja
+0;-23.7106,15.2135;CV-20;Tarrafal;Monte Vermelho
+0;-23.7092,15.2324;CV-20;Tarrafal;Farroba
+0;-23.6994,15.1716;CV-15;Santa Catarina;Lapa Grande
+0;-23.7282,15.1465;CV-15;Santa Catarina;Chão Grande
+0;-23.6049,15.1427;CV-16;Santa Cruz;Trás de Montes
+0;-23.7184,15.1824;CV-15;Santa Catarina;Curral de Cabra
+0;-23.6302,15.1503;CV-19;São Miguel;Ribeirão Po
+0;-23.6306,15.1855;CV-19;São Miguel;Casa Branca
+230;-23.6277,15.1578;CV-19;São Miguel;Pedra Barro
+0;-23.6915,15.2390;CV-20;Tarrafal;Chão de Junco
+0;-23.6891,15.2414;CV-20;Tarrafal;Escada
+0;-23.5911,15.1470;CV-16;Santa Cruz;Picarote
+0;-23.6602,15.1295;CV-15;Santa Catarina;Covão Ribeiro
+0;-23.6318,15.1814;CV-19;São Miguel;Selada
+0;-23.6027,15.1484;CV-16;Santa Cruz;Rufeu
+0;-23.6940,15.2263;CV-20;Tarrafal;Chão de Mato
+0;-23.6751,15.2134;CV-19;São Miguel;Cutelo Quebrado
+0;-23.6031,15.1516;CV-16;Santa Cruz;Margosa
+0;-23.6188,15.1932;CV-19;São Miguel;Canto Grande
+0;-23.6913,15.1541;CV-15;Santa Catarina;Volta do Monte
+0;-23.7460,15.1894;CV-15;Santa Catarina;Achada de Água
+0;-23.6031,15.1340;CV-16;Santa Cruz;Covão de Ori
+0;-23.6058,15.1412;CV-16;Santa Cruz;Chāo de Casa
+330;-23.6446,15.1453;CV-19;São Miguel;Pedra Serrado
+0;-23.6103,15.1321;CV-16;Santa Cruz;Pedra Serrado
+0;-23.6238,15.2012;CV-19;São Miguel;Mato Garça
+93;-23.6676,15.1286;CV-15;Santa Catarina;Japluma
+0;-23.6035,15.1799;CV-19;São Miguel;Cerrado
+0;-23.5863,15.1504;CV-16;Santa Cruz;Aguada
+0;-23.6136,15.2213;CV-19;São Miguel;Rui Pereira
+165;-23.7373,15.2029;CV-20;Tarrafal;Figueira Muita
+88;-23.6987,15.1638;CV-15;Santa Catarina;Cavaleiro
+0;-23.6575,15.2026;CV-19;São Miguel;Mourão Grosso
+11;-23.5877,15.1297;CV-16;Santa Cruz;Ribeirão Fundo
+0;-23.6667,15.2184;CV-19;São Miguel;Rua Comprida
+0;-23.6977,15.1387;CV-15;Santa Catarina;Feixo
+0;-23.6815,15.2364;CV-20;Tarrafal;Lagoa Lorem
+0;-23.6886,15.1682;CV-15;Santa Catarina;Chão de Coco
+0;-23.7036,15.2343;CV-20;Tarrafal;Chão de Capela
+0;-23.6792,15.1943;CV-19;São Miguel;Lem Forte
+0;-23.7319,15.1450;CV-15;Santa Catarina;Cruz
+0;-23.6711,15.1484;CV-15;Santa Catarina;Chão de Areia
+0;-23.6744,15.2196;CV-19;São Miguel;Guincho
+121;-23.5643,15.1269;CV-16;Santa Cruz;Chão de Agua
+0;-23.6068,15.1585;CV-26;São Salvador do Mundo;Gége Vermelho
+0;-23.6798,15.1928;CV-19;São Miguel;Horta Grande
+0;-23.6486,15.1764;CV-19;São Miguel;Covão Grande
+0;-23.7054,15.2397;CV-20;Tarrafal;Liberão
+95;-23.6651,15.2008;CV-19;São Miguel;Gongon
+0;-23.6060,15.1746;CV-19;São Miguel;Denga Denga
+77;-23.6439,15.2023;CV-19;São Miguel;Chã Baixo
+19;-23.6884,15.2448;CV-20;Tarrafal;Renque de Trás
+0;-23.6368,15.1394;CV-15;Santa Catarina;Forno
+0;-23.6361,15.2025;CV-19;São Miguel;Covão Demba
+0;-23.7132,15.1779;CV-15;Santa Catarina;Pedra Branca
+0;-23.5979,15.1552;CV-16;Santa Cruz;Chão Grande
+0;-23.6714,15.1624;CV-15;Santa Catarina;Chão de Limão
+23;-23.6886,15.2070;CV-20;Tarrafal;Lagoa
+0;-23.7433,15.1796;CV-15;Santa Catarina;Chã de Garganta
+0;-23.7462,15.1596;CV-15;Santa Catarina;Pedroso
+0;-23.7480,15.1965;CV-15;Santa Catarina;Chã de Cuba
+0;-23.7398,15.1425;CV-15;Santa Catarina;Alto Demba
+0;-23.7408,15.1410;CV-15;Santa Catarina;Covão
+0;-23.6293,15.1565;CV-19;São Miguel;Espinhão Branco
+0;-23.6676,15.2174;CV-19;São Miguel;Cutelo Ronda
+33;-23.6881,15.1298;CV-15;Santa Catarina;Lem Silva
+0;-23.6746,15.2169;CV-19;São Miguel;Mato Boi
+0;-23.7486,15.2019;CV-20;Tarrafal;Pedregal
+0;-23.5981,15.1463;CV-16;Santa Cruz;Cruz Tavares
+0;-23.6663,15.1402;CV-15;Santa Catarina;Chão de Ouro
+0;-23.7311,15.1476;CV-15;Santa Catarina;Ganxemba
+42;-23.6370,15.1945;CV-19;São Miguel;Pilão Cão Riba
+193;-23.6246,15.1716;CV-19;São Miguel;Ribeireta
+0;-23.7255,15.1549;CV-15;Santa Catarina;Aguada
+807;-23.5397,15.1330;CV-16;Santa Cruz;Ponta da Achada
+0;-23.6317,15.1797;CV-19;São Miguel;Mato Dentro
+0;-23.5820,15.1370;CV-16;Santa Cruz;Lem Vieira
+0;-23.6074,15.2101;CV-19;São Miguel;Bacio
+0;-23.5716,15.1319;CV-16;Santa Cruz;Ribeirão Seco
+0;-23.6694,15.2379;CV-20;Tarrafal;Achada Portal
+0;-23.6305,15.1689;CV-19;São Miguel;Sole
+0;-23.7062,15.1798;CV-15;Santa Catarina;Laranjeira
+0;-23.6045,15.1368;CV-16;Santa Cruz;Ori
+25;-23.6268,15.2123;CV-19;São Miguel;Taboleiro
+0;-23.6313,15.1715;CV-19;São Miguel;Achada Cavalo
+0;-23.6786,15.2196;CV-20;Tarrafal;Ribeira Lagoa
+0;-23.7264,15.1752;CV-15;Santa Catarina;Cacheu
+0;-23.5982,15.1489;CV-16;Santa Cruz;Pau Grande
+0;-23.6866,15.1638;CV-15;Santa Catarina;João da Veiga
+0;-23.6672,15.2009;CV-19;São Miguel;Cutelo de Gongon
+144;-23.6823,15.2511;CV-20;Tarrafal;Pedra Ferro
+0;-23.6846,15.1673;CV-15;Santa Catarina;Monte Vermelho
+0;-23.7004,15.2303;CV-20;Tarrafal;Monte Alvão
+0;-23.7372,15.1893;CV-15;Santa Catarina;Chã de Lagoa
+0;-23.6229,15.1352;CV-15;Santa Catarina;Covão Lopes
+95;-23.6212,15.2040;CV-19;São Miguel;Bacio
+0;-23.5769,15.1454;CV-16;Santa Cruz;Ribeirãozinho
+0;-23.6600,15.2282;CV-19;São Miguel;Garçote
+0;-23.6332,15.1781;CV-19;São Miguel;Achadinha
+0;-23.7339,15.1883;CV-15;Santa Catarina;Achada Hilário
+82;-23.6818,15.1311;CV-15;Santa Catarina;Lem Garcia
+0;-23.6339,15.1570;CV-19;São Miguel;Cantada
+0;-23.6607,15.2183;CV-19;São Miguel;Monte Matinho
+649;-23.5755,15.1657;CV-16;Santa Cruz;Achada Laje
+0;-23.7462,15.2001;CV-20;Tarrafal;Lem Landim
+0;-23.6538,15.1706;CV-19;São Miguel;Lem Varela
+0;-23.6561,15.1369;CV-19;São Miguel;Mato Varela
+62;-23.6136,15.1456;CV-16;Santa Cruz;Empena Dor
+0;-23.6642,15.2097;CV-19;São Miguel;Ponta da Ribeira
+0;-23.6470,15.1292;CV-15;Santa Catarina;Pau de Pilao
+0;-23.6903,15.1841;CV-15;Santa Catarina;Chão de Figueira
+0;-23.6617,15.1544;CV-15;Santa Catarina;Chão de Banana
+0;-23.6764,15.1922;CV-19;São Miguel;Mato Galego
+0;-23.6705,15.2066;CV-19;São Miguel;Apertado
+0;-23.6685,15.2158;CV-19;São Miguel;Chão de Nona
+0;-23.6216,15.1774;CV-19;São Miguel;Chã de Brito
+0;-23.6195,15.1444;CV-15;Santa Catarina;Montinho
+82;-23.7282,15.2377;CV-20;Tarrafal;Milho Branco
+0;-23.6709,15.1658;CV-15;Santa Catarina;Saquinho
+0;-23.7431,15.2119;CV-20;Tarrafal;Caldeira de Cutelo Branco
+0;-23.7494,15.2269;CV-20;Tarrafal;Curral de Salina
+0;-23.6677,15.2038;CV-19;São Miguel;Farroba
+0;-23.6204,15.1737;CV-19;São Miguel;Cutelo Mendes
+0;-23.6220,15.1616;CV-19;São Miguel;Lem Lopes
+0;-23.7023,15.1696;CV-15;Santa Catarina;Lem Lopes
+0;-23.6733,15.1590;CV-15;Santa Catarina;Calaca
+0;-23.7369,15.1453;CV-15;Santa Catarina;Cana Fistula
+0;-23.6964,15.1869;CV-15;Santa Catarina;Curral de Asno
+0;-23.6840,15.2258;CV-20;Tarrafal;Cutelo de Portal
+0;-23.6049,15.1489;CV-16;Santa Cruz;Covão Rabo
+0;-23.6539,15.1853;CV-19;São Miguel;Cantada
+0;-23.6608,15.1408;CV-15;Santa Catarina;Sebastião Fernandes
+0;-23.7152,15.2371;CV-20;Tarrafal;Lugar de Fazenda
+40;-23.7054,15.2437;CV-20;Tarrafal;Pé de Monte
+0;-23.6410,15.1821;CV-19;São Miguel;Poilao
+0;-23.6810,15.1980;CV-19;São Miguel;Coruja
+0;-23.6300,15.1411;CV-15;Santa Catarina;Carriçal
+5;-23.6491,15.1669;CV-19;São Miguel;Cutelo Vassoura
+0;-23.6736,15.1363;CV-15;Santa Catarina;Cada Vez
+0;-23.6596,15.2238;CV-19;São Miguel;Ponta Mato
+0;-23.5978,15.1406;CV-16;Santa Cruz;Aguada
+0;-23.7119,15.2194;CV-20;Tarrafal;Casa Choca
+0;-23.7127,15.1350;CV-15;Santa Catarina;Tabugal
+0;-23.6718,15.2152;CV-19;São Miguel;Lem Mendes
+0;-23.7269,15.1777;CV-15;Santa Catarina;Cruz
+0;-23.6870,15.1689;CV-15;Santa Catarina;Achada Fosga
+0;-23.5856,15.1313;CV-16;Santa Cruz;Chão de Limão
+0;-23.6361,15.1536;CV-19;São Miguel;Ribeirão Po
+0;-23.7064,15.2461;CV-20;Tarrafal;Lem Telheiro
+0;-23.7094,15.1770;CV-15;Santa Catarina;Riucuada
+0;-23.6229,15.1789;CV-19;São Miguel;Cutelo de Erva
+0;-23.7420,15.1847;CV-15;Santa Catarina;Cutelo Barreira
+356;-23.6490,15.1847;CV-19;São Miguel;Varanda
+101;-23.6324,15.1914;CV-19;São Miguel;Ponta do Talho
+0;-23.7440,15.2219;CV-20;Tarrafal;Achadinha
+0;-23.7631,15.1778;CV-15;Santa Catarina;Água Doce
+0;-23.7533,15.1661;CV-15;Santa Catarina;Paço Branco
+0;-23.7506,15.1621;CV-15;Santa Catarina;Chão de Luis
+0;-23.7539,15.1592;CV-15;Santa Catarina;Achada Pedroso
+0;-23.7440,15.1395;CV-15;Santa Catarina;Chão do Curral
+0;-23.7613,15.1282;CV-15;Santa Catarina;João Gago
+0;-23.7409,15.0984;CV-15;Santa Catarina;Corre Pedra
+0;-23.7685,15.1007;CV-15;Santa Catarina;Águas Belas
+0;-23.7418,15.1201;CV-15;Santa Catarina;Doucoule
+0;-23.7441,15.1231;CV-15;Santa Catarina;Terra Vermelha
+89;-23.7652,15.1158;CV-15;Santa Catarina;Achada Leite
+0;-23.7221,15.0207;CV-15;Santa Catarina;Ribeirão Porco
+7;-23.7366,15.0706;CV-15;Santa Catarina;Sobrado
+0;-23.7320,15.0716;CV-15;Santa Catarina;Chão de Lima
+0;-23.7290,15.0725;CV-15;Santa Catarina;Passo de Noiva
+0;-23.7027,15.0503;CV-15;Santa Catarina;Entre Picos de Rede
+2;-23.6901,15.0443;CV-15;Santa Catarina;Vasa Corrente
+0;-23.6896,15.0481;CV-15;Santa Catarina;Água de Baixo
+0;-23.7006,15.0472;CV-15;Santa Catarina;Ponta Moreira
+0;-23.6892,15.0520;CV-15;Santa Catarina;Chã de Casa
+0;-23.6938,15.0541;CV-15;Santa Catarina;Cruz Baixo
+0;-23.6955,15.0530;CV-15;Santa Catarina;Ponta do Sol
+0;-23.7080,15.0585;CV-15;Santa Catarina;Ribeira de Lama
+0;-23.6882,15.0698;CV-15;Santa Catarina;Chã de Cruz
+0;-23.6883,15.0714;CV-15;Santa Catarina;Alta Mira de Palha Carga
+269;-23.6912,15.0677;CV-15;Santa Catarina;Chã Lagoa
+0;-23.6959,15.0689;CV-15;Santa Catarina;Chão Semedo
+750;-23.6980,15.0717;CV-15;Santa Catarina;Palha Carga
+47;-23.6983,15.0771;CV-15;Santa Catarina;Ribeira Riba
+0;-23.6885,15.0794;CV-15;Santa Catarina;Chão de Carreira
+0;-23.6880,15.0848;CV-15;Santa Catarina;Travessa
+0;-23.6909,15.0849;CV-15;Santa Catarina;Chão de Riba
+0;-23.6908,15.0864;CV-15;Santa Catarina;Manipo
+0;-23.7027,15.0811;CV-15;Santa Catarina;Roma
+0;-23.7053,15.0847;CV-15;Santa Catarina;Achada Gregório
+0;-23.7109,15.0858;CV-15;Santa Catarina;Freixa
+0;-23.7055,15.0945;CV-15;Santa Catarina;Boavista
+0;-23.7168,15.0915;CV-15;Santa Catarina;Lem Gomes
+0;-23.7188,15.0913;CV-15;Santa Catarina;Salgado
+0;-23.7087,15.0983;CV-15;Santa Catarina;Sangó
+0;-23.7113,15.0994;CV-15;Santa Catarina;Mina de Ouro
+0;-23.7375,15.1010;CV-15;Santa Catarina;Achadinha
+100;-23.7339,15.1007;CV-15;Santa Catarina;Rombado
+0;-23.7308,15.1024;CV-15;Santa Catarina;Coqueiro
+353;-23.7292,15.1030;CV-15;Santa Catarina;Mato Sancho
+0;-23.7267,15.1035;CV-15;Santa Catarina;Tabuqueiro
+17;-23.7287,15.1047;CV-15;Santa Catarina;Chão de Penedo
+0;-23.7257,15.1046;CV-15;Santa Catarina;Amparada
+0;-23.7210,15.1011;CV-15;Santa Catarina;Achada Conde
+0;-23.7215,15.1027;CV-15;Santa Catarina;Cabeça Carreira
+0;-23.7146,15.1004;CV-15;Santa Catarina;Chão de Forro
+0;-23.7158,15.1012;CV-15;Santa Catarina;Chão de Pombal
+0;-23.6900,15.1064;CV-15;Santa Catarina;Ribeirinho
+125;-23.6891,15.1109;CV-15;Santa Catarina;Sedeguma
+79;-23.6993,15.1228;CV-15;Santa Catarina;Achada Pelado
+0;-23.7104,15.1264;CV-15;Santa Catarina;Costa de Achada
+436;-23.7178,15.1067;CV-15;Santa Catarina;Tomba Touro
+0;-23.7293,15.1105;CV-15;Santa Catarina;Bragança
+0;-23.7270,15.1131;CV-15;Santa Catarina;Águas Caídas
+0;-23.7172,15.1156;CV-15;Santa Catarina;Achadinha
+0;-23.7188,15.1143;CV-15;Santa Catarina;Freixo
+0;-23.7349,15.1173;CV-15;Santa Catarina;Mato Fidalgo
+0;-23.7333,15.1159;CV-15;Santa Catarina;Ribeirão Isca
+0;-23.7241,15.1230;CV-15;Santa Catarina;Achada da Banana
+0;-23.7254,15.1169;CV-15;Santa Catarina;Chão de Algodão Freixo
+0;-23.7232,15.1179;CV-15;Santa Catarina;Secadeira
+0;-23.7166,15.1186;CV-15;Santa Catarina;Curral Grande
+0;-23.6273,15.0479;CV-25;São Lourenço dos Órgãos;Mato Forte
+0;-23.6263,15.0550;CV-25;São Lourenço dos Órgãos;Curral
+0;-23.5956,15.0793;CV-25;São Lourenço dos Órgãos;Cutelo Galeão
+0;-23.5824,15.0813;CV-25;São Lourenço dos Órgãos;Chão Coelho
+0;-23.6108,15.1021;CV-26;São Salvador do Mundo;Leitão Baixo
+2498;-23.5191,15.1194;CV-16;Santa Cruz;Achada Fazenda
+0;-23.5451,15.0883;CV-16;Santa Cruz;Lem Jorge
+0;-23.5292,15.0975;CV-16;Santa Cruz;Furna
+0;-23.5364,15.0917;CV-16;Santa Cruz;Chão Formoso
+0;-23.6008,15.0306;CV-17;São Domingos;Sidreira
+0;-23.5950,15.0083;CV-17;São Domingos;Massa Cavalos
+0;-23.5743,15.0175;CV-17;São Domingos;Padjom
+0;-23.5817,15.0323;CV-17;São Domingos;Lem Ferreira
+0;-23.5752,15.0443;CV-17;São Domingos;Mundo Grande
+0;-23.5641,15.0292;CV-17;São Domingos;Figueira Branca
+0;-23.5579,15.0276;CV-17;São Domingos;Colégio
+0;-23.4948,15.0159;CV-17;São Domingos;Figueirão
+0;-23.6260,15.1183;CV-15;Santa Catarina;Romã
+312;-23.6412,15.1262;CV-15;Santa Catarina;Ribeirão Isabel
+0;-23.6764,15.1003;CV-15;Santa Catarina;Achada Camelo
+0;-23.6709,15.1062;CV-15;Santa Catarina;Lem de Telha
+0;-23.6699,15.1092;CV-15;Santa Catarina;Mascarenhas
+0;-23.6687,15.1097;CV-15;Santa Catarina;Carreira
+0;-23.6197,15.1050;CV-26;São Salvador do Mundo;Cutelo Faveta
+0;-23.6348,15.0932;CV-26;São Salvador do Mundo;Manipulo
+499;-23.6431,15.0918;CV-26;São Salvador do Mundo;Pico Freire
+0;-23.6388,15.0795;CV-26;São Salvador do Mundo;Lem da Rua
+5;-23.6011,15.1209;CV-16;Santa Cruz;Cutelo Duarte
+41;-23.5584,15.1125;CV-16;Santa Cruz;Sambacate
+0;-23.5792,15.0935;CV-16;Santa Cruz;Lem Mendes
+0;-23.5209,15.1142;CV-16;Santa Cruz;Zimbrão
+93;-23.5584,15.0887;CV-16;Santa Cruz;Latada
+0;-23.5369,15.0938;CV-16;Santa Cruz;Lem Drigue
+0;-23.5488,15.0763;CV-16;Santa Cruz;Poilão
+0;-23.5345,15.0919;CV-16;Santa Cruz;Chão de Banco
+0;-23.5418,15.0883;CV-16;Santa Cruz;Cutelo Maria
+0;-23.5361,15.0816;CV-16;Santa Cruz;Damasco
+0;-23.5442,15.0660;CV-16;Santa Cruz;Janeiro
+0;-23.6221,15.1186;CV-16;Santa Cruz;Ribão Fundo
+0;-23.5620,15.0579;CV-17;São Domingos;Varzinho
+0;-23.6813,15.1056;CV-15;Santa Catarina;Quintal
+0;-23.6593,15.1086;CV-15;Santa Catarina;Pé de Rocha
+0;-23.6510,15.1193;CV-15;Santa Catarina;Panango
+0;-23.6487,15.1193;CV-15;Santa Catarina;Ponta do Sol
+301;-23.6211,15.1167;CV-26;São Salvador do Mundo;Jalalo Ramos
+0;-23.6241,15.1050;CV-26;São Salvador do Mundo;Cutelo da Curta
+0;-23.6365,15.1009;CV-26;São Salvador do Mundo;Papaia
+0;-23.6476,15.0878;CV-26;São Salvador do Mundo;Cruz dos Picos
+168;-23.6275,15.0787;CV-26;São Salvador do Mundo;Babosa
+0;-23.6189,15.0759;CV-26;São Salvador do Mundo;Mato Ribeiro
+149;-23.6144,15.0662;CV-26;São Salvador do Mundo;João Gotô
+0;-23.6430,15.0778;CV-26;São Salvador do Mundo;Chão Drigo
+341;-23.6302,15.0656;CV-26;São Salvador do Mundo;Leitãozinho
+0;-23.6493,15.0723;CV-26;São Salvador do Mundo;Chão de Amora
+0;-23.6386,15.0718;CV-26;São Salvador do Mundo;Gundão
+0;-23.6216,15.0218;CV-23;Ribeira Grande de Santiago;Chão da Baleeira
+0;-23.5201,15.0234;CV-17;São Domingos;Nossa Senhora da Luz
+54;-23.6032,15.0656;CV-25;São Lourenço dos Órgãos;Mato Lobe
+0;-23.5789,15.0658;CV-25;São Lourenço dos Órgãos;Achadinha
+0;-23.6064,15.0955;CV-25;São Lourenço dos Órgãos;Bur-Bur
+0;-23.6705,15.0391;CV-15;Santa Catarina;Aboberal
+0;-23.6833,15.0550;CV-15;Santa Catarina;Covão de Fonte
+13;-23.6825,15.0570;CV-15;Santa Catarina;Lem Lopes
+0;-23.6748,15.0625;CV-15;Santa Catarina;Chão de Mamelano
+558;-23.6636,15.0788;CV-15;Santa Catarina;Pinha de Engenho
+55;-23.6732,15.0748;CV-15;Santa Catarina;Poilão
+0;-23.6843,15.0800;CV-15;Santa Catarina;Mamona
+0;-23.6835,15.0816;CV-15;Santa Catarina;Anguia
+0;-23.6736,15.0970;CV-15;Santa Catarina;Covão da Ribeira
+0;-23.6487,15.1155;CV-15;Santa Catarina;Chão Andrade
+0;-23.6694,15.0996;CV-15;Santa Catarina;Ponta Belém
+118;-23.5598,15.0494;CV-17;São Domingos;Mendes Faleiro Rendeiro
+0;-23.5574,15.0558;CV-17;São Domingos;Caldeira
+0;-23.5451,15.0483;CV-17;São Domingos;Tambarino
+0;-23.5450,15.0298;CV-17;São Domingos;Costa Nora
+275;-23.4970,15.0267;CV-17;São Domingos;Chão Coqueiro
+0;-23.5004,15.0279;CV-17;São Domingos;Achadinha
+556;-23.5213,15.0268;CV-17;São Domingos;Milho Branco
+0;-23.5328,15.0449;CV-17;São Domingos;Rabola
+165;-23.4883,15.0300;CV-17;São Domingos;Capela
+160;-23.4834,15.0280;CV-17;São Domingos;Portal
+46;-23.5801,15.1081;CV-16;Santa Cruz;São Jacinto
+0;-23.6069,15.0681;CV-25;São Lourenço dos Órgãos;Encontrada
+0;-23.6103,15.0804;CV-25;São Lourenço dos Órgãos;Misericórdia
+0;-23.6039,15.0806;CV-25;São Lourenço dos Órgãos;Monte
+0;-23.6864,15.0404;CV-15;Santa Catarina;Muita Água
+0;-23.6821,15.0578;CV-15;Santa Catarina;Serra de Riba
+53;-23.6695,15.0645;CV-15;Santa Catarina;Ilhéu
+0;-23.6594,15.0698;CV-15;Santa Catarina;João Gotô
+0;-23.6781,15.0716;CV-15;Santa Catarina;Pau de Corvo
+0;-23.6737,15.0834;CV-15;Santa Catarina;Telhal
+0;-23.6592,15.0955;CV-15;Santa Catarina;Viveiro
+850;-23.6289,15.0803;CV-26;São Salvador do Mundo;Achada Igreja
+0;-23.6251,15.0808;CV-26;São Salvador do Mundo;Babosa Baixa
+0;-23.6326,15.0737;CV-26;São Salvador do Mundo;Sansão
+0;-23.6415,15.0736;CV-26;São Salvador do Mundo;Penedihho
+0;-23.6401,15.0727;CV-26;São Salvador do Mundo;Demanda
+0;-23.6397,15.0585;CV-23;Ribeira Grande de Santiago;Fundão
+0;-23.6444,15.0339;CV-23;Ribeira Grande de Santiago;Limão Francês
+0;-23.6439,15.0283;CV-23;Ribeira Grande de Santiago;Ponta Romão
+0;-23.6425,15.0242;CV-23;Ribeira Grande de Santiago;Cutelo Moreira
+0;-23.6562,15.0218;CV-23;Ribeira Grande de Santiago;Chã da Tamara
+0;-23.6506,15.0028;CV-23;Ribeira Grande de Santiago;Covão Vieira
+0;-23.6533,15.0023;CV-23;Ribeira Grande de Santiago;Lem Espinola
+0;-23.6177,15.0653;CV-25;São Lourenço dos Órgãos;Cutelo Tavares
+0;-23.6176,15.0614;CV-25;São Lourenço dos Órgãos;Temerosa
+0;-23.5881,15.0481;CV-25;São Lourenço dos Órgãos;Mato Ferreira
+114;-23.5853,15.0573;CV-25;São Lourenço dos Órgãos;Fundo Bandeira
+0;-23.5734,15.0571;CV-25;São Lourenço dos Órgãos;Assomada
+33;-23.5993,15.0772;CV-25;São Lourenço dos Órgãos;Galeão
+0;-23.5908,15.0840;CV-25;São Lourenço dos Órgãos;Manipolo
+0;-23.5922,15.0921;CV-25;São Lourenço dos Órgãos;Penedo
+0;-23.5947,15.0918;CV-25;São Lourenço dos Órgãos;Rochinha
+0;-23.6116,15.1050;CV-26;São Salvador do Mundo;Majada
+0;-23.5938,15.1098;CV-26;São Salvador do Mundo;Mato Madeira
+0;-23.6092,15.1268;CV-16;Santa Cruz;Apertadinha
+0;-23.5498,15.1224;CV-16;Santa Cruz;Várzea Nova
+0;-23.5615,15.0568;CV-17;São Domingos;Nossa Senhora da Conceição
+0;-23.5899,15.0096;CV-17;São Domingos;Ponta de Açougue
+0;-23.5623,15.0041;CV-17;São Domingos;Olho de Água
+0;-23.5491,15.0049;CV-17;São Domingos;Taberna
+0;-23.5788,15.0483;CV-17;São Domingos;Figueirinha
+0;-23.5446,15.0094;CV-17;São Domingos;Monte
+0;-23.5386,15.0067;CV-17;São Domingos;Ribeirão de Sena
+0;-23.5193,15.0198;CV-17;São Domingos;Limão
+0;-23.4879,15.0692;CV-17;São Domingos;Castelo Grande
+0;-23.4783,15.0712;CV-17;São Domingos;Gamboa
+0;-23.4905,15.0505;CV-17;São Domingos;Guincho
+0;-23.4771,15.0373;CV-17;São Domingos;Rochona
+0;-23.4590,15.0374;CV-17;São Domingos;Covão de Santana
+0;-23.6500,15.0047;CV-23;Ribeira Grande de Santiago;Mato Sanches
+0;-23.6008,15.0378;CV-25;São Lourenço dos Órgãos;Ponta Cruz
+0;-23.6108,15.0491;CV-25;São Lourenço dos Órgãos;Bogaria
+0;-23.6055,15.0569;CV-25;São Lourenço dos Órgãos;Ribão Selvagem
+222;-23.6043,15.0580;CV-25;São Lourenço dos Órgãos;Covada
+0;-23.6056,15.0782;CV-25;São Lourenço dos Órgãos;Moreno
+17;-23.5852,15.0698;CV-25;São Lourenço dos Órgãos;Armazem
+0;-23.5964,15.0847;CV-25;São Lourenço dos Órgãos;Cutelo Fernando
+0;-23.6069,15.1025;CV-26;São Salvador do Mundo;Pau de Guiné
+0;-23.6045,15.1057;CV-26;São Salvador do Mundo;Tombado
+0;-23.6075,15.1122;CV-26;São Salvador do Mundo;Mato Forte
+105;-23.6080,15.1175;CV-16;Santa Cruz;Rebelo
+0;-23.5975,15.1222;CV-16;Santa Cruz;Pema
+66;-23.5545,15.1181;CV-16;Santa Cruz;Fonte Machado
+1211;-23.5523,15.1153;CV-16;Santa Cruz;Chã da Silva
+0;-23.5713,15.1022;CV-16;Santa Cruz;Gudelha
+0;-23.5180,15.1099;CV-16;Santa Cruz;Achada Colaço
+0;-23.5252,15.0903;CV-16;Santa Cruz;Chã de Touca
+135;-23.5403,15.0912;CV-16;Santa Cruz;Taberna
+338;-23.5989,15.0659;CV-25;São Lourenço dos Órgãos;Laje
+0;-23.6097,15.0773;CV-25;São Lourenço dos Órgãos;Rasto
+337;-23.6101,15.0833;CV-25;São Lourenço dos Órgãos;Boca Larga
+59;-23.6847,15.0540;CV-15;Santa Catarina;Aldeia
+46;-23.6826,15.0561;CV-15;Santa Catarina;Mercador
+0;-23.6830,15.0649;CV-15;Santa Catarina;Lem de Engenho
+32;-23.6648,15.0725;CV-15;Santa Catarina;Bica
+0;-23.6788,15.0871;CV-15;Santa Catarina;Engenho
+65;-23.6613,15.0860;CV-15;Santa Catarina;Pedra Vermelha
+840;-23.6593,15.0889;CV-15;Santa Catarina;Fonte Lima
+0;-23.6621,15.0933;CV-15;Santa Catarina;Ponta da Horta
+0;-23.6498,15.1042;CV-15;Santa Catarina;Cutelo da Veiga
+354;-23.6389,15.1151;CV-15;Santa Catarina;Boa Entradinha
+0;-23.6249,15.1227;CV-15;Santa Catarina;Chão Formoso
+0;-23.6450,15.1224;CV-15;Santa Catarina;Lagoa de Tainha
+106;-23.6650,15.0989;CV-15;Santa Catarina;Lem Vieira
+582;-23.6801,15.1016;CV-15;Santa Catarina;Achada Gomes
+0;-23.6719,15.1111;CV-15;Santa Catarina;Galeão
+0;-23.6409,15.1075;CV-15;Santa Catarina;Pinha Doce
+0;-23.6359,15.1058;CV-26;São Salvador do Mundo;Ilhéu
+235;-23.6215,15.1033;CV-26;São Salvador do Mundo;Faveta
+379;-23.6480,15.0970;CV-26;São Salvador do Mundo;Covão Grande
+118;-23.6332,15.0959;CV-26;São Salvador do Mundo;Manhanga
+0;-23.6564,15.0767;CV-15;Santa Catarina;Junco
+0;-23.6228,15.0796;CV-26;São Salvador do Mundo;Sansão
+0;-23.6290,15.0640;CV-26;São Salvador do Mundo;Rebele de Purgueira
+0;-23.6473,15.0695;CV-26;São Salvador do Mundo;Chão Cardosa
+0;-23.6413,15.0606;CV-26;São Salvador do Mundo;Redonda
+0;-23.6399,15.0655;CV-26;São Salvador do Mundo;Malveira
+0;-23.6441,15.0394;CV-23;Ribeira Grande de Santiago;Furna
+0;-23.6238,15.0256;CV-23;Ribeira Grande de Santiago;Hortelão
+0;-23.5550,15.0207;CV-17;São Domingos;Neta Gomes
+268;-23.5441,15.0533;CV-17;São Domingos;Mato Afonso
+0;-23.5648,15.0462;CV-17;São Domingos;Covão
+4;-23.5529,15.0440;CV-17;São Domingos;Chacona
+0;-23.5431,15.0478;CV-17;São Domingos;Mato Martins
+0;-23.5042,15.0239;CV-17;São Domingos;Grazote
+0;-23.5169,15.0197;CV-17;São Domingos;Grazote
+0;-23.5027,15.0276;CV-17;São Domingos;Limeira
+0;-23.5212,15.0358;CV-17;São Domingos;Nazaré
+0;-23.5322,15.0394;CV-17;São Domingos;Furna
+0;-23.5112,15.0393;CV-17;São Domingos;Belém
+307;-23.5628,15.0693;CV-25;São Lourenço dos Órgãos;Levada
+0;-23.5770,15.0887;CV-25;São Lourenço dos Órgãos;Achadona
+0;-23.6550,15.0610;CV-15;Santa Catarina;Água Grande
+0;-23.6709,15.0677;CV-15;Santa Catarina;Pedra Galo
+716;-23.6615,15.0971;CV-15;Santa Catarina;Bolanha
+182;-23.6496,15.1095;CV-15;Santa Catarina;Pata Brava
+0;-23.6345,15.1146;CV-15;Santa Catarina;Fonte Grande
+22;-23.6350,15.1243;CV-15;Santa Catarina;Achadinha
+0;-23.6389,15.1170;CV-15;Santa Catarina;Colarinha
+175;-23.6460,15.1158;CV-15;Santa Catarina;Pau Verde
+0;-23.6870,15.1018;CV-15;Santa Catarina;Chá Moreno
+0;-23.6519,15.1173;CV-15;Santa Catarina;Mato de Onça
+0;-23.6395,15.0846;CV-26;São Salvador do Mundo;Chão de Taberna
+0;-23.6482,15.0788;CV-26;São Salvador do Mundo;Cutelo Fernando
+0;-23.6208,15.0924;CV-26;São Salvador do Mundo;Rochinha
+0;-23.6200,15.0778;CV-26;São Salvador do Mundo;Chão de Reis
+0;-23.5201,15.0713;CV-16;Santa Cruz;Lem Lopes
+46;-23.5308,15.0585;CV-16;Santa Cruz;Lem Barbosa
+0;-23.5372,15.0658;CV-16;Santa Cruz;Mato Basso
+149;-23.5532,15.0598;CV-17;São Domingos;Robão Cal
+0;-23.6097,15.0030;CV-17;São Domingos;Cachorro Mor
+0;-23.5904,15.0331;CV-17;São Domingos;Covão de Horta
+55;-23.5830,15.0388;CV-17;São Domingos;Réma-Réma
+311;-23.5771,15.0419;CV-17;São Domingos;Godim
+0;-23.5696,15.0324;CV-17;São Domingos;Pinha
+0;-23.5686,15.0281;CV-17;São Domingos;Covão do Engenho
+0;-23.5666,15.0442;CV-17;São Domingos;Lem Moreira
+27;-23.5279,15.0168;CV-17;São Domingos;Variante
+0;-23.5083,15.0264;CV-17;São Domingos;Telha
+0;-23.5124,15.0386;CV-17;São Domingos;Dabreu
+0;-23.5517,15.0011;CV-17;São Domingos;Água Panela
+0;-23.4681,15.0547;CV-17;São Domingos;Ilhéu Grande
+0;-23.5802,15.0604;CV-25;São Lourenço dos Órgãos;Covão Dentro
+0;-23.5842,15.0680;CV-25;São Lourenço dos Órgãos;Passal
+0;-23.6235,15.0438;CV-25;São Lourenço dos Órgãos;Mato Moniz
+0;-23.6199,15.0667;CV-25;São Lourenço dos Órgãos;Beco
+0;-23.6305,15.0574;CV-25;São Lourenço dos Órgãos;Palhão
+0;-23.6220,15.0570;CV-25;São Lourenço dos Órgãos;Monte Varela
+0;-23.6301,15.0530;CV-25;São Lourenço dos Órgãos;João Sanches
+0;-23.5779,15.0509;CV-25;São Lourenço dos Órgãos;Orgãos Pequenos
+450;-23.6020,15.0459;CV-25;São Lourenço dos Órgãos;Ribeirão Galinha
+0;-23.6019,15.0514;CV-25;São Lourenço dos Órgãos;Pedra Janela
+0;-23.6044,15.0644;CV-25;São Lourenço dos Órgãos;Covão Varanda
+0;-23.6005,15.0943;CV-25;São Lourenço dos Órgãos;Riucadura
+148;-23.5865,15.0726;CV-25;São Lourenço dos Órgãos;Mato Raia
+0;-23.5907,15.0795;CV-25;São Lourenço dos Órgãos;Bica
+153;-23.6066,15.1072;CV-26;São Salvador do Mundo;Mato Fortes
+228;-23.6069,15.1157;CV-16;Santa Cruz;Serelho
+0;-23.5803,15.1162;CV-16;Santa Cruz;Chão de Abóbora
+0;-23.5602,15.1107;CV-16;Santa Cruz;Sachane
+615;-23.5789,15.1035;CV-16;Santa Cruz;Matinho
+36;-23.5351,15.0998;CV-16;Santa Cruz;Paulado
+5;-23.5235,15.0867;CV-16;Santa Cruz;Vassoura
+0;-23.5408,15.0872;CV-16;Santa Cruz;Benesia
+0;-23.5017,15.0684;CV-16;Santa Cruz;Zimbrão Grande
+0;-23.5372,15.0742;CV-16;Santa Cruz;Lem Cabra
+0;-23.5217,15.0541;CV-16;Santa Cruz;João Gatão
+0;-23.5527,15.0618;CV-17;São Domingos;Ponta Mendes
+0;-23.5970,15.0369;CV-17;São Domingos;Lem Vieira
+0;-23.5805,15.0076;CV-17;São Domingos;Cancelo
+0;-23.5715,15.0115;CV-17;São Domingos;Espinho Cheu
+0;-23.4424,15.0028;CV-17;São Domingos;Porto Lobo
+0;-23.5531,15.0076;CV-17;São Domingos;Fontes Acima
+0;-23.5559,15.0023;CV-17;São Domingos;Chã Cardoso
+0;-23.5674,15.0192;CV-17;São Domingos;São Sebastião
+0;-23.6429,15.0821;CV-26;São Salvador do Mundo;Chão Ladri
+61;-23.5168,15.0242;CV-17;São Domingos;Cabeça de Horta
+0;-23.5109,15.0255;CV-17;São Domingos;Tamarinho
+0;-23.5105,15.0270;CV-17;São Domingos;Cutelo Tavares
+0;-23.5086,15.0281;CV-17;São Domingos;Varanda
+0;-23.5149,15.0405;CV-17;São Domingos;Covada
+752;-23.5139,15.0386;CV-17;São Domingos;Praia Formosa
+0;-23.6856,15.0698;CV-15;Santa Catarina;Alta Mira de Engenho
+0;-23.6763,15.0521;CV-15;Santa Catarina;Covão Vaz
+879;-23.6781,15.0848;CV-15;Santa Catarina;Bombardeiro
+981;-23.6828,15.0934;CV-15;Santa Catarina;Achada Galego
+0;-23.6576,15.0914;CV-15;Santa Catarina;Ponte de Fonte Lima
+0;-23.6627,15.1027;CV-15;Santa Catarina;Ponta Travessa
+0;-23.6789,15.1167;CV-15;Santa Catarina;Cabeça de Carreira
+0;-23.6735,15.1162;CV-15;Santa Catarina;Vilar Cantor
+0;-23.6730,15.1222;CV-15;Santa Catarina;Fonte Leão
+398;-23.6724,15.1243;CV-15;Santa Catarina;Banana Semedo
+59;-23.6449,15.0991;CV-26;São Salvador do Mundo;Lem Jorge
+0;-23.6531,15.1018;CV-26;São Salvador do Mundo;Bica
+0;-23.6474,15.0898;CV-26;São Salvador do Mundo;Goiaba
+0;-23.6394,15.0894;CV-26;São Salvador do Mundo;Goiaba
+0;-23.6195,15.0893;CV-26;São Salvador do Mundo;Ponta Sancho
+0;-23.6494,15.0765;CV-26;São Salvador do Mundo;Cutelo Dias
+0;-23.6443,15.0721;CV-26;São Salvador do Mundo;Fundo Banana
+0;-23.6449,15.0407;CV-23;Ribeira Grande de Santiago;Ribeirão de Erva
+0;-23.6465,15.0358;CV-23;Ribeira Grande de Santiago;Bentreiro
+0;-23.6341,15.0372;CV-23;Ribeira Grande de Santiago;Nha Joana
+0;-23.6510,15.0088;CV-23;Ribeira Grande de Santiago;Mato
+322;-23.6199,15.0495;CV-25;São Lourenço dos Órgãos;Longueira
+0;-23.6184,15.0546;CV-25;São Lourenço dos Órgãos;Cutelo Moreno
+0;-23.6193,15.0590;CV-25;São Lourenço dos Órgãos;Várzea da Mora
+0;-23.5688,15.0644;CV-25;São Lourenço dos Órgãos;Maçaroca
+0;-23.6024,15.0778;CV-25;São Lourenço dos Órgãos;Bica
+0;-23.6052,15.1102;CV-26;São Salvador do Mundo;Cruz de Sougue
+0;-23.5648,15.1231;CV-16;Santa Cruz;Cutelo da Graça
+0;-23.5749,15.1193;CV-16;Santa Cruz;Barreira
+0;-23.5738,15.1090;CV-16;Santa Cruz;Maria Pereira
+0;-23.5803,15.0952;CV-16;Santa Cruz;Achadinha
+0;-23.5599,15.0965;CV-16;Santa Cruz;Caldeira
+3;-23.5249,15.0965;CV-16;Santa Cruz;Guarda Vento
+0;-23.5315,15.0948;CV-16;Santa Cruz;Cutelo Coelho
+0;-23.5169,15.0675;CV-16;Santa Cruz;Ponta Diante
+15;-23.5422,15.0725;CV-16;Santa Cruz;Achada Soares
+0;-23.5298,15.0700;CV-16;Santa Cruz;Cutelo
+0;-23.5260,15.0538;CV-16;Santa Cruz;Achadinha
+25;-23.5306,15.0550;CV-16;Santa Cruz;Pizarra
+0;-23.5318,15.0597;CV-16;Santa Cruz;Cruz do Ribão Gato
+280;-23.5314,15.0615;CV-16;Santa Cruz;Porto Madeira
+0;-23.6021,15.0231;CV-17;São Domingos;Monte Fundo
+0;-23.5530,15.0664;CV-17;São Domingos;Barril
+2;-23.6009,15.0075;CV-17;São Domingos;Guarda Vento
+0;-23.6033,15.0099;CV-17;São Domingos;Palanque
+0;-23.5963,15.0220;CV-17;São Domingos;Monte Leão
+0;-23.5806,15.0108;CV-17;São Domingos;Chão Seco
+72;-23.5769,15.0134;CV-17;São Domingos;Achada Mitra
+0;-23.5709,15.0134;CV-17;São Domingos;Mato Serrado
+0;-23.6093,15.0226;CV-17;São Domingos;Chão Grande
+0;-23.6075,15.0140;CV-17;São Domingos;Congão
+0;-23.5933,15.0309;CV-17;São Domingos;Lem da Veiga
+0;-23.5855,15.0131;CV-17;São Domingos;Barnabé
+0;-23.5563,15.0221;CV-17;São Domingos;Travessa
+135;-23.5303,15.0024;CV-17;São Domingos;Curral Grande
+164;-23.5553,15.0503;CV-17;São Domingos;Banana
+0;-23.5324,15.0488;CV-17;São Domingos;Tagarra
+0;-23.5480,15.0420;CV-17;São Domingos;Covão Vicente
+0;-23.5524,15.0358;CV-17;São Domingos;Campanária
+0;-23.6374,15.0653;CV-26;São Salvador do Mundo;Mundo Grande
+0;-23.6441,15.0738;CV-26;São Salvador do Mundo;Choupana
+0;-23.6451,15.0382;CV-23;Ribeira Grande de Santiago;Bataria
+172;-23.6565,15.0199;CV-23;Ribeira Grande de Santiago;Tronco
+0;-23.6465,15.0253;CV-23;Ribeira Grande de Santiago;Rochinha
+0;-23.6504,15.0102;CV-23;Ribeira Grande de Santiago;Cova
+0;-23.6157,15.0651;CV-25;São Lourenço dos Órgãos;Mato Novo
+0;-23.6076,15.0369;CV-25;São Lourenço dos Órgãos;Gazela
+174;-23.6007,15.0573;CV-25;São Lourenço dos Órgãos;Chã de Vaca
+68;-23.6064,15.1203;CV-16;Santa Cruz;Rebelo de Baixo
+0;-23.5937,15.1238;CV-16;Santa Cruz;Cutelo de Água
+46;-23.5412,15.1251;CV-16;Santa Cruz;Cova Barro
+0;-23.5956,15.1191;CV-16;Santa Cruz;Lapo
+0;-23.5980,15.1022;CV-16;Santa Cruz;Ilhéu
+0;-23.5859,15.0951;CV-16;Santa Cruz;Covado
+0;-23.5831,15.0894;CV-16;Santa Cruz;Casa Grande
+0;-23.5548,15.0926;CV-16;Santa Cruz;Macedo
+0;-23.5496,15.0945;CV-16;Santa Cruz;Cutelinho
+204;-23.5314,15.1037;CV-16;Santa Cruz;Macati
+0;-23.5216,15.0945;CV-16;Santa Cruz;Chão de Nona
+0;-23.5361,15.0836;CV-16;Santa Cruz;Capela
+801;-23.5252,15.0809;CV-16;Santa Cruz;Renque de Purga
+0;-23.5212,15.0815;CV-16;Santa Cruz;Longueira
+0;-23.5257,15.0669;CV-16;Santa Cruz;Grande
+1;-23.5303,15.0521;CV-16;Santa Cruz;Belém
+9;-23.5441,15.0625;CV-16;Santa Cruz;Caiumbra
+0;-23.5400,15.0670;CV-16;Santa Cruz;Lem Gomes
+0;-23.6391,15.0437;CV-23;Ribeira Grande de Santiago;Água de Lanceta
+0;-23.5950,15.0585;CV-25;São Lourenço dos Órgãos;Covão do Cariço
+0;-23.5762,15.0711;CV-25;São Lourenço dos Órgãos;Quinta do Serrado
+0;-23.6055,15.0883;CV-25;São Lourenço dos Órgãos;Cutelo Costa
+0;-23.6058,15.0989;CV-25;São Lourenço dos Órgãos;Matinho
+0;-23.6581,15.0708;CV-15;Santa Catarina;Chão de Carriço
+0;-23.6825,15.0760;CV-15;Santa Catarina;Laranginha
+1006;-23.6685,15.0912;CV-15;Santa Catarina;Cumbem
+0;-23.6503,15.1081;CV-15;Santa Catarina;Geral Cabral
+0;-23.6319,15.1131;CV-15;Santa Catarina;Djabe
+0;-23.6279,15.1169;CV-15;Santa Catarina;Palha Carga
+0;-23.6779,15.1052;CV-15;Santa Catarina;Viuva
+0;-23.6759,15.1180;CV-15;Santa Catarina;Chóróró de Fonte Ana
+0;-23.6386,15.1027;CV-26;São Salvador do Mundo;Campanári
+0;-23.6444,15.0797;CV-26;São Salvador do Mundo;Rocha Belém
+0;-23.6293,15.0864;CV-26;São Salvador do Mundo;Cacheu
+0;-23.6209,15.0812;CV-26;São Salvador do Mundo;Leitõezinhos
+0;-23.6219,15.0725;CV-26;São Salvador do Mundo;Pá de Ribeira
+0;-23.6209,15.0683;CV-26;São Salvador do Mundo;Arriba de Alto
+0;-23.6225,15.0675;CV-26;São Salvador do Mundo;Paredona
+0;-23.6346,15.0626;CV-26;São Salvador do Mundo;Ribeira Grande
+0;-23.6516,15.0712;CV-26;São Salvador do Mundo;Covão Nuno
+1361;-23.6459,15.0749;CV-26;São Salvador do Mundo;Picos Acima
+0;-23.6360,15.0686;CV-26;São Salvador do Mundo;Fonte Mato
+0;-23.4711,15.0203;CV-17;São Domingos;Monte Vermelho
+0;-23.4545,15.0373;CV-17;São Domingos;Nossa Senhora da Luz
+0;-23.6115,15.0557;CV-25;São Lourenço dos Órgãos;Lem de São Jorge
+0;-23.5841,15.0825;CV-25;São Lourenço dos Órgãos;São José
+62;-23.5079,15.0608;CV-16;Santa Cruz;Gelandré
+0;-23.6098,15.0683;CV-25;São Lourenço dos Órgãos;Mato Vaz
+0;-23.5781,15.0643;CV-25;São Lourenço dos Órgãos;Latada
+250;-23.5801,15.0682;CV-25;São Lourenço dos Órgãos;Várzea da Igreja
+147;-23.5665,15.0775;CV-25;São Lourenço dos Órgãos;Achada Costa
+277;-23.5615,15.0878;CV-25;São Lourenço dos Órgãos;Librão
+0;-23.5999,15.0703;CV-25;São Lourenço dos Órgãos;Djobe
+0;-23.5855,15.0373;CV-17;São Domingos;Bonjardim
+0;-23.5775,15.0343;CV-17;São Domingos;Lem Pereira
+0;-23.5716,15.0424;CV-17;São Domingos;Covão Dentro
+0;-23.5458,15.0060;CV-17;São Domingos;Cutelo Barbosa
+78;-23.5611,15.0373;CV-17;São Domingos;Mendes Faleiro Cabral
+0;-23.5549,15.0397;CV-17;São Domingos;Lem Cruz
+62;-23.5452,15.0333;CV-17;São Domingos;Chaminé
+0;-23.4977,15.0452;CV-17;São Domingos;Rochinha
+192;-23.5366,15.0233;CV-17;São Domingos;Pó de Saco
+0;-23.5029,15.0438;CV-17;São Domingos;Faial
+177;-23.4761,15.0325;CV-17;São Domingos;Achada Lama
+0;-23.4736,15.0226;CV-17;São Domingos;Chã da Quinta
+0;-23.6517,15.0811;CV-26;São Salvador do Mundo;Junco Baixo
+0;-23.6191,15.0954;CV-26;São Salvador do Mundo;Bica
+0;-23.6252,15.0852;CV-26;São Salvador do Mundo;Chão de Vinha
+0;-23.6251,15.0698;CV-26;São Salvador do Mundo;Covoada
+0;-23.6343,15.0776;CV-26;São Salvador do Mundo;Pedra Severino
+0;-23.6284,15.0739;CV-26;São Salvador do Mundo;Cutelando
+0;-23.6350,15.0756;CV-26;São Salvador do Mundo;Larangeira
+0;-23.6500,15.0749;CV-26;São Salvador do Mundo;Alegrete
+0;-23.6387,15.0619;CV-26;São Salvador do Mundo;Mato Grande
+0;-23.6683,15.0339;CV-23;Ribeira Grande de Santiago;Jardim
+0;-23.6471,15.0290;CV-23;Ribeira Grande de Santiago;Arraial
+57;-23.6667,15.0167;CV-23;Ribeira Grande de Santiago;Mosquito da Horta
+0;-23.6336,15.0219;CV-23;Ribeira Grande de Santiago;Amargosa
+0;-23.6217,15.0599;CV-25;São Lourenço dos Órgãos;Casa Grande
+0;-23.6302,15.0549;CV-25;São Lourenço dos Órgãos;Curral Velho
+265;-23.5746,15.0626;CV-25;São Lourenço dos Órgãos;Poilão Cabral
+160;-23.6003,15.0547;CV-25;São Lourenço dos Órgãos;João Guela
+0;-23.5470,15.0094;CV-17;São Domingos;Serradinho
+0;-23.5140,15.0046;CV-17;São Domingos;Baza Água
+0;-23.5221,15.0132;CV-17;São Domingos;Doze Vinténs
+0;-23.5459,15.0501;CV-17;São Domingos;Volta Romão
+0;-23.5466,15.0471;CV-17;São Domingos;Cutelo Gomes
+0;-23.5612,15.0475;CV-17;São Domingos;Pombal
+0;-23.5363,15.0468;CV-17;São Domingos;Solé
+0;-23.5288,15.0258;CV-17;São Domingos;Ribeirão Jerónimo
+0;-23.5043,15.0282;CV-17;São Domingos;Cutelo de Jatar
+0;-23.5219,15.0292;CV-17;São Domingos;Sezimbra
+0;-23.5352,15.0401;CV-17;São Domingos;Videla
+0;-23.5518,15.0133;CV-17;São Domingos;Achada Portal
+0;-23.5058,15.0041;CV-17;São Domingos;Vale Coachopo
+0;-23.5428,15.0010;CV-17;São Domingos;Nove Casas
+0;-23.6177,15.0931;CV-26;São Salvador do Mundo;João Nunes
+0;-23.6165,15.0907;CV-26;São Salvador do Mundo;Chão Mendes
+175;-23.6267,15.0677;CV-26;São Salvador do Mundo;Purgueira
+0;-23.6509,15.0738;CV-26;São Salvador do Mundo;Tomba Pilão
+55;-23.6315,15.0714;CV-26;São Salvador do Mundo;Cutelo Rocha
+0;-23.6503,15.0476;CV-23;Ribeira Grande de Santiago;Achada Mula
+0;-23.6449,15.0375;CV-23;Ribeira Grande de Santiago;Sao João
+0;-23.6318,15.0350;CV-23;Ribeira Grande de Santiago;Achada Camparária
+0;-23.6555,15.0040;CV-23;Ribeira Grande de Santiago;Chão Gomes
+0;-23.6362,15.0256;CV-23;Ribeira Grande de Santiago;Chuva Chove
+0;-23.6243,15.0486;CV-25;São Lourenço dos Órgãos;Vaza Água
+0;-23.6222,15.0633;CV-25;São Lourenço dos Órgãos;Laranjeira
+0;-23.6360,15.0580;CV-25;São Lourenço dos Órgãos;Quebrado
+0;-23.5699,15.0590;CV-25;São Lourenço dos Órgãos;Palha Carga
+17;-23.5995,15.0793;CV-25;São Lourenço dos Órgãos;Pampatam
+0;-23.5912,15.0815;CV-25;São Lourenço dos Órgãos;Limão da Veiga
+0;-23.5958,15.0870;CV-25;São Lourenço dos Órgãos;Pedra Tcheu
+0;-23.5990,15.0901;CV-25;São Lourenço dos Órgãos;Cruz de Fundura
+0;-23.6039,15.1084;CV-26;São Salvador do Mundo;Avelão
+0;-23.5990,15.1162;CV-16;Santa Cruz;Covão Socorro
+80;-23.5544,15.1153;CV-16;Santa Cruz;Ilhéu
+0;-23.5795,15.0907;CV-16;Santa Cruz;Mato Correia
+0;-23.5837,15.1007;CV-16;Santa Cruz;Cutelo de Matinho
+0;-23.5616,15.1064;CV-16;Santa Cruz;Boqueirão
+19;-23.5498,15.0980;CV-16;Santa Cruz;Encontrada
+66;-23.5277,15.0728;CV-16;Santa Cruz;Salas
+0;-23.5505,15.0639;CV-16;Santa Cruz;Fornos
+0;-23.5820,15.0172;CV-17;São Domingos;Lagoa de Vaca
+0;-23.5714,15.0029;CV-17;São Domingos;Chã Larga
+0;-23.5909,15.0238;CV-17;São Domingos;Pedra Galinha
+0;-23.5718,15.0297;CV-17;São Domingos;Caiada
+396;-23.5778,15.0238;CV-17;São Domingos;Lagoa
+0;-23.5684,15.0191;CV-17;São Domingos;Pé de Subida
+0;-23.5618,15.0263;CV-17;São Domingos;Tenda
+0;-23.5239,15.0115;CV-17;São Domingos;Terra Vermelha
+28;-23.5581,15.0488;CV-17;São Domingos;Taberna
+0;-23.5682,15.0428;CV-17;São Domingos;Lem Soares
+29;-23.5140,15.0252;CV-17;São Domingos;Chão Cardoso
+0;-23.5049,15.0410;CV-17;São Domingos;Doreda
+0;-23.5054,15.0441;CV-17;São Domingos;Achada Cavalo
+0;-23.6181,15.1147;CV-26;São Salvador do Mundo;Pinha
+0;-23.6190,15.1130;CV-26;São Salvador do Mundo;Cruz de Jalalo
+532;-23.6481,15.0838;CV-26;São Salvador do Mundo;Aboboreiro
+0;-23.5747,15.0604;CV-25;São Lourenço dos Órgãos;Lem Vaz
+0;-23.5693,15.0667;CV-25;São Lourenço dos Órgãos;Achadinha
+0;-23.5634,15.0724;CV-25;São Lourenço dos Órgãos;Bom Pau Ferreira
+0;-23.6081,15.0937;CV-25;São Lourenço dos Órgãos;Cacheira
+0;-23.6834,15.0466;CV-15;Santa Catarina;Mancanha
+339;-23.6814,15.0486;CV-15;Santa Catarina;João Bernardo
+3;-23.6695,15.0655;CV-15;Santa Catarina;Gama Touro
+0;-23.6810,15.0814;CV-15;Santa Catarina;Chão de Cana
+34;-23.6626,15.0848;CV-15;Santa Catarina;Lem de Almeida
+0;-23.6306,15.1209;CV-15;Santa Catarina;Lapa Coruja
+0;-23.6392,15.1223;CV-15;Santa Catarina;Ponta da Achada
+58;-23.6506,15.1248;CV-15;Santa Catarina;Chão Gomes
+0;-23.6621,15.1041;CV-15;Santa Catarina;Caniço
+0;-23.6650,15.1098;CV-15;Santa Catarina;Chóróró
+0;-23.6751,15.1205;CV-15;Santa Catarina;Bica
+0;-23.6706,15.1193;CV-15;Santa Catarina;Fonte Daninha
+0;-23.6017,15.0800;CV-25;São Lourenço dos Órgãos;Lem Brito
+0;-23.5970,15.0818;CV-25;São Lourenço dos Órgãos;Chão de Lagoa
+0;-23.5731,15.0844;CV-25;São Lourenço dos Órgãos;Banana
+0;-23.6073,15.1090;CV-26;São Salvador do Mundo;Choupana
+0;-23.6088,15.1091;CV-26;São Salvador do Mundo;Quintal
+0;-23.6011,15.1194;CV-16;Santa Cruz;Covão Pereira
+0;-23.5974,15.1131;CV-16;Santa Cruz;Cutelo Selado
+27;-23.5579,15.1142;CV-16;Santa Cruz;Chão de Gui
+147;-23.5536,15.1114;CV-16;Santa Cruz;João Toro
+20;-23.5874,15.1024;CV-16;Santa Cruz;Laranjeira
+0;-23.5473,15.1161;CV-16;Santa Cruz;Tamareira
+0;-23.5268,15.1194;CV-16;Santa Cruz;Jaracunda
+175;-23.5414,15.1049;CV-16;Santa Cruz;Ribeirão Almasso
+0;-23.5563,15.0868;CV-16;Santa Cruz;Lem Semedo
+0;-23.5492,15.0856;CV-16;Santa Cruz;Ribeirão Moura
+35;-23.5227,15.0825;CV-16;Santa Cruz;Planeta
+31;-23.5148,15.0511;CV-16;Santa Cruz;Aguada
+44;-23.5318,15.0726;CV-16;Santa Cruz;Telha
+3;-23.5423,15.0629;CV-16;Santa Cruz;Carreira
+0;-23.6128,15.0267;CV-17;São Domingos;Massa Pé
+28;-23.6015,15.0144;CV-17;São Domingos;Dacabalaio
+0;-23.5889,15.0303;CV-17;São Domingos;Ponta Baixo
+0;-23.5560,15.0126;CV-17;São Domingos;Covão Dentro
+943;-23.5817,15.0346;CV-17;São Domingos;Água de Gato
+0;-23.5656,15.0276;CV-17;São Domingos;Covão Lourenço
+0;-23.5664,15.0220;CV-17;São Domingos;João Garrido
+0;-23.5591,15.0289;CV-17;São Domingos;Boa Vista
+0;-23.5571,15.0718;CV-25;São Lourenço dos Órgãos;Mitra
+0;-23.5650,15.0934;CV-25;São Lourenço dos Órgãos;Julangue
+0;-23.6836,15.0574;CV-15;Santa Catarina;Cadabé
+0;-23.6714,15.0630;CV-15;Santa Catarina;Olho de Água
+0;-23.6727,15.0788;CV-15;Santa Catarina;Ponta Lopo
+0;-23.6434,15.1177;CV-15;Santa Catarina;Corno Baixo
+0;-23.6411,15.1126;CV-15;Santa Catarina;Cimo do Monte
+0;-23.6554,15.1145;CV-15;Santa Catarina;Ribeirão Mocho
+0;-23.6693,15.1205;CV-15;Santa Catarina;Julangue
+70;-23.6712,15.1222;CV-15;Santa Catarina;Cova Furtado
+114;-23.6310,15.1043;CV-26;São Salvador do Mundo;Degredo
+0;-23.6504,15.0954;CV-26;São Salvador do Mundo;Monte Afonso
+708;-23.6532,15.0815;CV-26;São Salvador do Mundo;Junco
+0;-23.6528,15.0777;CV-26;São Salvador do Mundo;Chão Grande
+0;-23.6270,15.0911;CV-26;São Salvador do Mundo;Ponta Moreira
+0;-23.4519,15.0357;CV-17;São Domingos;Achada Baixo
+0;-23.4531,15.0342;CV-17;São Domingos;Castelinho
+186;-23.4679,15.0252;CV-17;São Domingos;Dobe
+0;-23.4757,15.0070;CV-17;São Domingos;Cibe
+0;-23.6320,15.1157;CV-15;Santa Catarina;Alentejano
+365;-23.6099,15.0633;CV-25;São Lourenço dos Órgãos;Pedra Molar
+0;-23.5696,14.9971;CV-17;São Domingos;Lacaçã
+0;-23.5519,14.9923;CV-17;São Domingos;Ribeirão Areia
+0;-23.5257,14.9069;CV-14;Praia;Achada de Baixo
+208;-23.5694,14.9509;CV-14;Praia;Matão
+0;-23.5256,14.9612;CV-14;Praia;São Filipe de Cima
+7;-23.5192,14.9986;CV-17;São Domingos;Monte Parada
+133;-23.5828,14.9411;CV-23;Ribeira Grande de Santiago;Bota Rama
+0;-23.5303,14.9647;CV-14;Praia;Laranjo
+0;-23.5672,14.9461;CV-14;Praia;Achada da Cerreira
+0;-23.5687,14.9896;CV-17;São Domingos;Gomes d'Água
+0;-23.5515,14.9897;CV-17;São Domingos;Achada das Pedras
+0;-23.5037,14.9962;CV-17;São Domingos;Baza Água
+0;-23.5710,14.9368;CV-23;Ribeira Grande de Santiago;Sanharre
+2178;-23.5628,14.9453;CV-14;Praia;São Martinho Pequeno
+0;-23.5580,14.9273;CV-14;Praia;Caiada
+0;-23.5759,14.9600;CV-14;Praia;Purga Nova
+0;-23.5689,14.9955;CV-17;São Domingos;Forno
+0;-23.6079,14.9687;CV-23;Ribeira Grande de Santiago;Camade Vaca
+0;-23.6072,14.9275;CV-23;Ribeira Grande de Santiago;Achada do Salineiro
+0;-23.5547,14.9746;CV-14;Praia;João Bom
+168;-23.5377,14.9854;CV-14;Praia;Veneza
+0;-23.5601,14.9956;CV-17;São Domingos;Figueira Valente
+0;-23.5495,14.9945;CV-17;São Domingos;Venteiro
+0;-23.5818,14.9499;CV-23;Ribeira Grande de Santiago;Achada Sabe
+404;-23.5832,14.9580;CV-23;Ribeira Grande de Santiago;João Varela
+0;-23.5587,14.9227;CV-14;Praia;Isabel Lopes
+0;-23.5522,14.9787;CV-14;Praia;Cambujana
+12;-23.5179,14.9860;CV-14;Praia;Pedregal
+0;-23.6251,14.9131;CV-23;Ribeira Grande de Santiago;Pedra Flupo
+0;-23.6227,14.9695;CV-23;Ribeira Grande de Santiago;Delgado
+0;-23.5722,14.9952;CV-17;São Domingos;Achada da Vassoura
+3;-23.5294,14.9968;CV-17;São Domingos;Chã de Cachorro
+1022;-23.6028,14.9377;CV-23;Ribeira Grande de Santiago;Salineiro
+0;-23.5964,14.9380;CV-23;Ribeira Grande de Santiago;Zimbrão
+0;-23.5721,14.9352;CV-23;Ribeira Grande de Santiago;Choupana
+0;-23.5217,14.9623;CV-14;Praia;Figueira de Água
+0;-23.5418,14.9903;CV-17;São Domingos;Quebrada
+376;-23.5959,14.9323;CV-23;Ribeira Grande de Santiago;Calabaceira
+12;-23.5683,14.9169;CV-23;Ribeira Grande de Santiago;Costa da Achada
+290;-23.5720,14.9330;CV-23;Ribeira Grande de Santiago;Lem Dias
+173;-23.5756,14.9410;CV-23;Ribeira Grande de Santiago;Ponta do Sol
+0;-23.5066,14.9881;CV-14;Praia;Maciel Fernando
+0;-23.5119,14.9491;CV-14;Praia;São Filipe de Baixo
+0;-23.5897,14.9960;CV-17;São Domingos;Chiqueirinho
+0;-23.5703,14.9938;CV-17;São Domingos;Fábrica
+0;-23.5728,14.9852;CV-17;São Domingos;Figueira Portugal
+0;-23.5399,14.9971;CV-17;São Domingos;Ponta Ribeira
+0;-23.6042,14.9774;CV-23;Ribeira Grande de Santiago;Lapa Cachorro
+0;-23.5956,14.9365;CV-23;Ribeira Grande de Santiago;Maria Parda
+0;-23.6029,14.9449;CV-23;Ribeira Grande de Santiago;Espinho Principio
+0;-23.5830,14.9543;CV-23;Ribeira Grande de Santiago;Lem Sancho
+0;-23.5356,14.9092;CV-14;Praia;Cova Figueira
+0;-23.4972,14.9873;CV-14;Praia;Ponta Lopes
+0;-23.4955,14.9711;CV-14;Praia;Tanquinho Miranda
+0;-23.4662,14.9808;CV-17;São Domingos;Sambala
+200;-23.4759,14.9543;CV-14;Praia;São Tome
+0;-23.4978,14.9849;CV-14;Praia;Ponta Mendes
+0;-23.4983,14.9798;CV-14;Praia;Redonda
+0;-23.4823,14.9707;CV-14;Praia;Achada da Aguada
+0;-23.4839,14.9631;CV-14;Praia;Achada Bela Costa
+0;-25.2455,17.0728;CV-21;Porto Novo;Branquinho
+247;-25.3309,17.0211;CV-21;Porto Novo;Monte Trigo
+0;-25.2588,17.0568;CV-21;Porto Novo;Queimado
+0;-25.2953,16.9680;CV-21;Porto Novo;Torre
+0;-25.0910,17.1992;CV-07;Ribeira Grande;Chã
+0;-25.1935,17.1032;CV-07;Ribeira Grande;Morrinho
+0;-25.2431,17.0727;CV-21;Porto Novo;Branquinho
+0;-25.1269,17.1395;CV-07;Ribeira Grande;Ponta
+0;-25.2015,17.0874;CV-21;Porto Novo;Praça Larga
+0;-25.1972,17.0824;CV-21;Porto Novo;Chã de Cima
+0;-25.1548,17.1561;CV-07;Ribeira Grande;Curral
+0;-25.1910,17.1384;CV-07;Ribeira Grande;Chã de Santo
+5;-24.9743,17.1047;CV-05;Paul;Chãzinha
+12;-24.9901,17.1189;CV-05;Paul;Fajãzinha
+0;-25.2312,16.9815;CV-21;Porto Novo;Chã de Morro
+0;-25.2318,16.9928;CV-21;Porto Novo;Lombo de Pedra
+0;-23.6609,15.2302;CV-19;São Miguel;Pedra Branca
+0;-23.7328,15.1803;CV-15;Santa Catarina;Achadinha
+0;-23.6708,15.1581;CV-15;Santa Catarina;Massape
+0;-23.6137,15.1523;CV-16;Santa Cruz;Ribeirão
+109;-23.7018,15.1655;CV-15;Santa Catarina;Achada Bel Bel
+0;-23.5794,15.1363;CV-16;Santa Cruz;Ilhéu
+0;-23.7001,15.2367;CV-20;Tarrafal;Ribeirão
+654;-23.5820,15.1466;CV-16;Santa Cruz;Bel Bel
+23;-23.6313,15.1962;CV-19;São Miguel;Montinho
+0;-23.7401,15.2050;CV-20;Tarrafal;Figueira
+0;-23.6412,15.1814;CV-19;São Miguel;Sao Miguel
+1193;-23.6729,15.2032;CV-19;São Miguel;Principal
+0;-23.6432,15.2105;CV-19;São Miguel;Monte
+98;-23.6990,15.2420;CV-20;Tarrafal;Carreira
+0;-23.7538,15.1628;CV-15;Santa Catarina;Chão
+0;-23.7187,15.0922;CV-15;Santa Catarina;Lem Lopes
+0;-23.5909,15.0757;CV-25;São Lourenço dos Órgãos;Nhagar
+2;-23.5755,15.0983;CV-16;Santa Cruz;Cutelo Mendes
+0;-23.6766,15.1134;CV-15;Santa Catarina;Santa Catarina
+0;-23.6243,15.0916;CV-26;São Salvador do Mundo;Chão Vaz
+0;-23.6039,15.0914;CV-25;São Lourenço dos Órgãos;Nona
+0;-23.6752,15.0820;CV-15;Santa Catarina;Casa Grande
+0;-23.6375,15.0598;CV-26;São Salvador do Mundo;Chão de Limão
+205;-23.4794,15.0667;CV-17;São Domingos;Ponta da Achada
+0;-23.6455,15.0724;CV-26;São Salvador do Mundo;Cutelo
+21;-23.5608,15.0857;CV-25;São Lourenço dos Órgãos;Coqueiro
+0;-23.6798,15.0409;CV-15;Santa Catarina;Achadinha
+0;-23.6538,15.1070;CV-15;Santa Catarina;Furna
+0;-23.6207,15.1071;CV-26;São Salvador do Mundo;Covão Dentro
+745;-23.6301,15.0827;CV-26;São Salvador do Mundo;Leitão Grande
+0;-23.6419,15.0702;CV-26;São Salvador do Mundo;Banana
+27;-23.5360,15.0983;CV-16;Santa Cruz;Lem Vieira
+0;-23.5091,15.0407;CV-17;São Domingos;Cruz
+0;-23.6237,15.0662;CV-26;São Salvador do Mundo;Cutelo
+0;-23.6728,15.0269;CV-23;Ribeira Grande de Santiago;Mosquito Grande
+24;-23.5920,15.1184;CV-16;Santa Cruz;Serrado
+0;-23.6457,15.0369;CV-23;Ribeira Grande de Santiago;Leão
+0;-23.6373,15.0723;CV-26;São Salvador do Mundo;Pedra Barro
+78;-23.6427,15.0671;CV-26;São Salvador do Mundo;Mato Limão
+0;-23.5687,15.1236;CV-16;Santa Cruz;Carriçal
+22;-23.5186,15.0739;CV-16;Santa Cruz;Bolanha
+0;-23.5368,15.0783;CV-16;Santa Cruz;Lem Pereira
+53;-23.6651,15.0848;CV-15;Santa Catarina;Banana
+0;-23.6338,15.1180;CV-15;Santa Catarina;Tapum
+0;-23.5864,15.0827;CV-25;São Lourenço dos Órgãos;Várzea
+0;-23.5636,15.0855;CV-25;São Lourenço dos Órgãos;Cutelo
+544;-23.6732,15.0989;CV-15;Santa Catarina;Pedra Barro
+0;-23.6553,15.1088;CV-15;Santa Catarina;Carriçal
+0;-23.6642,15.1124;CV-15;Santa Catarina;Lem Grande
+0;-23.6451,15.1024;CV-26;São Salvador do Mundo;Lem Tavares
+641;-23.6750,15.1089;CV-15;Santa Catarina;Cutelo
+0;-23.5799,14.9970;CV-17;São Domingos;Achadinha
+0;-23.5696,14.9115;CV-23;Ribeira Grande de Santiago;Calheta de São Martinho
+0;-23.6755,14.9982;CV-23;Ribeira Grande de Santiago;Montinho
+0;-23.6372,14.9994;CV-23;Ribeira Grande de Santiago;Achada de Asno
+0;-23.6399,14.9853;CV-23;Ribeira Grande de Santiago;Malhada
+744;-23.6362,14.9912;CV-23;Ribeira Grande de Santiago;Santana
+70;-23.6526,14.9989;CV-23;Ribeira Grande de Santiago;Lem Freire
+0;-23.6738,14.9420;CV-23;Ribeira Grande de Santiago;Covão do Bidião
+0;-23.6644,14.9597;CV-23;Ribeira Grande de Santiago;São Gonçalo
+313;-23.6569,14.9960;CV-23;Ribeira Grande de Santiago;Belém
+0;-23.6552,14.9932;CV-23;Ribeira Grande de Santiago;Julangue
+0;-23.6696,14.9819;CV-17;São Domingos;Cabeceira
+0;-23.6807,14.9477;CV-23;Ribeira Grande de Santiago;Covão Grande
+0;-23.6500,14.9289;CV-23;Ribeira Grande de Santiago;Portinho
+237;-23.6355,14.9874;CV-23;Ribeira Grande de Santiago;Ponta Achada
+0;-23.6400,14.9825;CV-23;Ribeira Grande de Santiago;Erardo
+155;-23.6430,14.9884;CV-23;Ribeira Grande de Santiago;Quebrada
+0;-23.6572,14.9966;CV-23;Ribeira Grande de Santiago;Chãozinho
+0;-23.6690,14.9865;CV-23;Ribeira Grande de Santiago;Casa Branca
+0;-23.6934,14.9558;CV-23;Ribeira Grande de Santiago;Penedo Baleia
+0;-23.6696,14.9434;CV-23;Ribeira Grande de Santiago;Achada Gouveia
+0;-23.6699,14.9736;CV-23;Ribeira Grande de Santiago;Altarroba
+0;-23.6698,14.9693;CV-23;Ribeira Grande de Santiago;Vista Pereira
+0;-23.6518,15.0005;CV-23;Ribeira Grande de Santiago;Santo António
+51;-23.6557,14.9976;CV-23;Ribeira Grande de Santiago;Calabaceira
+0;-23.6419,14.9763;CV-23;Ribeira Grande de Santiago;Laranjeiro
+0;-23.6445,14.9319;CV-23;Ribeira Grande de Santiago;Achada Barnel
+0;-24.7209,14.8790;CV-02;Brava;Figueiral de Baixo
+0;-24.7072,14.8766;CV-02;Brava;Tras da Cova
+3;-24.6985,14.8460;CV-02;Brava;Ladeirado
+5;-24.6913,14.8428;CV-02;Brava;Monte Vermelho
+0;-24.6781,14.8529;CV-02;Brava;Ribeira Grande
+0;-24.6800,14.8558;CV-02;Brava;Lomba Grande
+2;-24.6882,14.8667;CV-02;Brava;Belem
+0;-24.7167,14.8675;CV-02;Brava;Travessa
+0;-24.6974,14.8245;CV-02;Brava;Cabo de Luis
+0;-24.6995,14.8327;CV-02;Brava;Morro Largo
+75;-24.6995,14.8832;CV-02;Brava;Braga
+0;-24.7174,14.8860;CV-02;Brava;Sorno
+0;-24.7009,14.8567;CV-02;Brava;Cova Galinha
+6;-24.7117,14.8525;CV-02;Brava;Cutelo Manuel Cota
+0;-24.7058,14.8419;CV-02;Brava;Cutelo de Fundinho
+0;-24.7072,14.8366;CV-02;Brava;Mamama
+0;-24.6996,14.8288;CV-02;Brava;Gudo de Pomba
+5;-24.7009,14.8856;CV-02;Brava;Boa Esperança
+27;-24.6978,14.8806;CV-02;Brava;Govinha
+0;-24.6994,14.8799;CV-02;Brava;Lugarinho
+0;-24.6996,14.8755;CV-02;Brava;São Pedro
+0;-24.6980,14.8576;CV-02;Brava;Monte Nhã Preta
+18;-24.7241,14.8686;CV-02;Brava;Lagoa
+0;-24.7120,14.8654;CV-02;Brava;Risco Vermelho
+26;-24.7085,14.8556;CV-02;Brava;Lima Doce
+170;-24.7219,14.8488;CV-02;Brava;Campo Baixo
+0;-24.7154,14.8502;CV-02;Brava;Corredor
+0;-24.7343,14.8366;CV-02;Brava;Achada do Poio Preto
+0;-24.6750,14.8451;CV-02;Brava;Chão de Aguada
+0;-24.6876,14.8918;CV-02;Brava;Cruz do Favatal
+0;-24.7133,14.8436;CV-02;Brava;Chã Queimado
+0;-24.7348,14.8404;CV-02;Brava;Achada Figueirinha
+0;-24.7048,14.8463;CV-02;Brava;Fundo Grande
+0;-24.7001,14.8522;CV-02;Brava;Campo das Fontes
+148;-24.7124,14.8636;CV-02;Brava;Cova Joana
+0;-24.7363,14.8447;CV-02;Brava;Portela
+0;-24.7347,14.8428;CV-02;Brava;Vereda
+30;-24.7241,14.8525;CV-02;Brava;Escovinha
+76;-24.7364,14.8364;CV-02;Brava;Pathal
+1;-24.7139,14.8363;CV-02;Brava;Campo da Porca
+0;-24.6795,14.8465;CV-02;Brava;Chão Rachado
+0;-24.6908,14.8256;CV-02;Brava;Chão de Pedra
+27;-24.7181,14.8783;CV-02;Brava;Figueiral
+23;-24.6899,14.8664;CV-02;Brava;Raiz
+0;-24.7233,14.8649;CV-02;Brava;Lavadura
+42;-24.7091,14.8611;CV-02;Brava;Tapume
+414;-24.7051,14.8569;CV-02;Brava;Mato
+0;-24.6766,14.8421;CV-02;Brava;Casa de Eugènio Tavares
+0;-24.7277,14.8792;CV-02;Brava;Espardeiro
+0;-24.6833,14.8652;CV-02;Brava;Amargosa
+0;-24.6964,14.8559;CV-02;Brava;Os Fetos
+235;-24.6892,14.8637;CV-02;Brava;Mato Grande
+0;-24.7094,14.8739;CV-02;Brava;Figueiral de Baixo
+0;-24.7181,14.8729;CV-02;Brava;Lomba Lomba
+0;-24.7223,14.8556;CV-02;Brava;Chão de Sousa
+0;-24.7211,14.8595;CV-02;Brava;Achada da Badanela
+405;-24.7054,14.8701;CV-02;Brava;Cova Rodela
+0;-24.7182,14.8487;CV-02;Brava;Achada da Badanela
+0;-24.7068,14.8443;CV-02;Brava;Fundinho
+0;-24.3223,15.0096;CV-13;Mosteiros;Touril
+0;-24.4471,15.0061;CV-18;São Filipe;Outra Banda
+0;-24.3279,15.0065;CV-13;Mosteiros;Cabeça de Touril
+0;-24.3545,15.0124;CV-13;Mosteiros;Chupadeirão
+0;-24.3125,15.0042;CV-13;Mosteiros;Renque
+0;-24.3714,15.0405;CV-13;Mosteiros;Aldeia
+0;-24.3332,15.0107;CV-13;Mosteiros;Ilhéu Grande
+0;-24.3652,15.0080;CV-13;Mosteiros;Piorno
+0;-24.3514,15.0133;CV-13;Mosteiros;Curral Cutelo
+0;-24.3762,15.0259;CV-13;Mosteiros;Monte Piorro
+260;-24.3229,15.0177;CV-13;Mosteiros;Cutelo Alto
+20;-24.3300,15.0370;CV-13;Mosteiros;Laranjo
+0;-24.3177,15.0100;CV-13;Mosteiros;Cova Lima
+0;-24.3836,15.0233;CV-13;Mosteiros;Achada Mauricio
+0;-24.3295,15.0108;CV-13;Mosteiros;Cova Fortelho
+80;-24.3165,15.0232;CV-13;Mosteiros;Fonsaco
+44;-24.4484,15.0035;CV-18;São Filipe;Ameixoeira
+0;-24.3338,15.0164;CV-13;Mosteiros;Coxo
+34;-24.3192,15.0308;CV-13;Mosteiros;São Miguel
+319;-24.3279,15.0290;CV-13;Mosteiros;Feijoal
+0;-24.3416,15.0063;CV-13;Mosteiros;Janreca
+0;-24.3754,15.0237;CV-13;Mosteiros;Peixopana
+0;-24.3800,15.0210;CV-13;Mosteiros;Lornal
+0;-24.3200,15.0156;CV-13;Mosteiros;Monte Santo Antonio
+0;-24.3338,15.0073;CV-13;Mosteiros;Pedra Aguda
+247;-24.4708,14.9727;CV-18;São Filipe;Achada Mentirosa
+477;-24.4387,14.9762;CV-18;São Filipe;Velho Manuel
+338;-24.4566,14.9592;CV-18;São Filipe;Curral Grande
+0;-24.4526,14.9392;CV-18;São Filipe;São Martinho
+0;-24.4243,14.9124;CV-18;São Filipe;Montado de Lapa Cavalo
+0;-24.4758,14.8952;CV-18;São Filipe;Tomé Centeio
+0;-24.4202,14.8783;CV-18;São Filipe;Curralinho
+0;-24.4317,14.9037;CV-18;São Filipe;Achada Barbosa
+0;-24.4555,14.8955;CV-18;São Filipe;Tamarindo
+0;-24.4046,14.8910;CV-18;São Filipe;Monte de Horta
+0;-24.3961,14.8797;CV-18;São Filipe;Cova Romeira
+99;-24.4530,14.9801;CV-18;São Filipe;Piasco
+25;-24.4698,14.9658;CV-18;São Filipe;Laranjeira
+0;-24.4433,14.9815;CV-18;São Filipe;Ilhéu das Contendas
+0;-24.4282,14.9785;CV-18;São Filipe;Curralta Linda
+121;-24.4407,14.9772;CV-18;São Filipe;Domingos
+0;-24.4384,14.9102;CV-18;São Filipe;Lapa Cavalo
+60;-24.4860,14.9518;CV-18;São Filipe;Alvito
+0;-24.4962,14.9430;CV-18;São Filipe;Achada Malva
+0;-24.4779,14.9378;CV-18;São Filipe;Pombal
+0;-24.4720,14.8829;CV-18;São Filipe;Diogo Nunes
+19;-24.4649,14.9011;CV-18;São Filipe;Monrato
+0;-24.4250,14.9007;CV-18;São Filipe;Zambuda de Cima
+0;-24.4372,14.9925;CV-18;São Filipe;Monte Ripa
+112;-24.4541,14.9908;CV-18;São Filipe;Corôa
+0;-24.4138,14.9166;CV-18;São Filipe;Bambaiam
+0;-24.3812,14.9108;CV-18;São Filipe;Suspensório
+37;-24.4570,14.9499;CV-18;São Filipe;Renque
+0;-24.4500,14.9339;CV-18;São Filipe;São Bras
+0;-24.4540,14.9329;CV-18;São Filipe;Santana
+0;-24.4538,14.9060;CV-18;São Filipe;Vila Dade
+0;-24.4922,14.9418;CV-18;São Filipe;Rui Pereira
+0;-24.4867,14.8934;CV-18;São Filipe;Montinho
+0;-24.3872,14.8924;CV-18;São Filipe;Lapona
+0;-24.4478,14.9934;CV-18;São Filipe;Roqueira
+0;-24.4287,14.9817;CV-18;São Filipe;Curral Lorna
+0;-24.4379,14.9773;CV-18;São Filipe;Ledo
+0;-24.4510,14.9494;CV-18;São Filipe;Zambujeiro
+0;-24.4576,14.9277;CV-18;São Filipe;Cerrado
+10;-24.4247,14.9348;CV-18;São Filipe;Morro Bento Lopes
+540;-24.4804,14.9438;CV-18;São Filipe;Santo António
+98;-24.4832,14.9312;CV-18;São Filipe;Bernardo Gomes
+116;-24.4704,14.9179;CV-18;São Filipe;Cutelo
+0;-24.4011,14.8946;CV-18;São Filipe;Mareiro
+0;-24.4578,14.9270;CV-18;São Filipe;Cerrado Nhô Lixo
+0;-24.4404,14.9302;CV-18;São Filipe;Cisterno
+0;-24.4545,14.9166;CV-18;São Filipe;Cerco Grande
+105;-24.4729,14.9535;CV-18;São Filipe;Pico Gomes
+0;-24.4812,14.9389;CV-18;São Filipe;Tamarindo Nha Lola
+334;-24.4716,14.9317;CV-18;São Filipe;São Domingos
+1423;-24.4892,14.8965;CV-18;São Filipe;Santa Filomena
+0;-24.4805,14.9000;CV-18;São Filipe;Monte Barro
+21;-24.4517,14.9036;CV-18;São Filipe;Brandãozinho
+0;-24.3986,14.8913;CV-18;São Filipe;Cascabulho
+0;-24.4119,14.8964;CV-18;São Filipe;Ilhéu de Lapa
+113;-24.4034,14.8860;CV-18;São Filipe;Boca Larga
+0;-24.3859,14.8847;CV-18;São Filipe;Monte Corno
+108;-24.4202,14.9072;CV-18;São Filipe;Miguel Gonçalves
+0;-24.4321,14.9960;CV-18;São Filipe;Outra Banda de Cima
+526;-24.4314,14.9873;CV-18;São Filipe;Ribeira Filipe
+0;-24.4350,14.9842;CV-18;São Filipe;Monte Luso
+194;-24.4498,14.9903;CV-18;São Filipe;Fontainhas
+130;-24.4618,14.9793;CV-18;São Filipe;Afonso Gil
+83;-24.4425,14.9730;CV-18;São Filipe;Vera Cruz
+224;-24.4437,14.9618;CV-18;São Filipe;Aleixo Gomes
+0;-24.3779,14.9083;CV-18;São Filipe;Raso
+0;-24.4532,14.9302;CV-18;São Filipe;Ilhéu
+48;-24.4290,14.9229;CV-18;São Filipe;Cidreira
+22;-24.4733,14.9553;CV-18;São Filipe;Ribeira Grande
+0;-24.4644,14.9478;CV-18;São Filipe;Congo
+0;-24.4803,14.9148;CV-18;São Filipe;Amargosa
+0;-24.4820,14.8828;CV-18;São Filipe;Grilo
+0;-24.4263,14.8839;CV-18;São Filipe;Zambuda
+0;-24.3989,14.8812;CV-18;São Filipe;Aguada
+398;-24.4746,14.9656;CV-18;São Filipe;As Hortas
+24;-24.4702,14.9926;CV-18;São Filipe;Casa Velha
+0;-24.4533,14.9958;CV-18;São Filipe;Lugar Grande
+0;-24.4492,14.9969;CV-18;São Filipe;Renda
+79;-24.4542,14.9846;CV-18;São Filipe;Boca Larga
+0;-24.4482,14.9798;CV-18;São Filipe;Ribeira Gomes
+11;-24.4504,14.9580;CV-18;São Filipe;Achada Santana
+0;-24.4575,14.9360;CV-18;São Filipe;Orgãos
+0;-24.4355,14.9082;CV-18;São Filipe;Maria Chaves
+129;-24.4673,14.9252;CV-18;São Filipe;Piquinho
+89;-24.4951,14.8872;CV-18;São Filipe;Alto de Santa Luzia
+0;-24.4845,14.8872;CV-18;São Filipe;Pista de Aterragem
+0;-24.4780,14.8819;CV-18;São Filipe;Capela
+0;-24.4665,14.9040;CV-18;São Filipe;Salta Gato
+225;-24.4412,14.8985;CV-18;São Filipe;Curral de Ochô
+0;-24.4586,14.9025;CV-18;São Filipe;Brandão
+0;-24.4128,14.9026;CV-18;São Filipe;Cutelo Capado
+0;-24.3906,14.8924;CV-18;São Filipe;Monte Chica
+0;-24.4898,14.9468;CV-18;São Filipe;Nossa Senhor da Luz
+0;-24.4814,14.9650;CV-18;São Filipe;Achada
+0;-24.4376,14.9957;CV-18;São Filipe;Ramacheu
+0;-24.4390,14.9936;CV-18;São Filipe;Cova Tabua
+1072;-24.4598,14.9820;CV-18;São Filipe;Ponta Verde
+0;-24.4311,14.9674;CV-18;São Filipe;Tamareira
+0;-24.4141,14.9235;CV-18;São Filipe;Arco
+0;-24.4291,14.9387;CV-18;São Filipe;Achada Fora
+0;-24.4526,14.9276;CV-18;São Filipe;Coxo
+0;-24.4173,14.9216;CV-18;São Filipe;Guinda
+167;-24.4583,14.9071;CV-18;São Filipe;Brandão
+0;-24.5000,14.9308;CV-18;São Filipe;Casa de Repouso Betãnia
+2;-24.4683,14.9508;CV-18;São Filipe;Dinis Eanes
+6;-24.4679,14.9072;CV-18;São Filipe;Pedra Branca
+0;-24.4492,14.8979;CV-18;São Filipe;Mãe Maria
+43;-24.4383,14.8887;CV-18;São Filipe;Alfarrobeira
+0;-24.3978,14.8995;CV-18;São Filipe;Monte Endarpo
+0;-24.4158,14.8913;CV-18;São Filipe;Monte Calhau
+0;-24.3210,14.9945;CV-13;Mosteiros;Pé do Monte
+0;-24.3346,14.9001;CV-24;Santa Catarina do Fogo;Monte Mendes
+214;-24.2889,14.8912;CV-18;São Filipe;Domingos Lobo
+356;-24.3196,14.8963;CV-24;Santa Catarina do Fogo;Estãncia Roque
+283;-24.3682,14.9668;CV-18;São Filipe;Portela
+75;-24.3006,14.9390;CV-24;Santa Catarina do Fogo;Cutelo Capado
+122;-24.3123,14.8906;CV-18;São Filipe;Mãe Joana
+0;-24.2899,14.8946;CV-18;São Filipe;Maria da Cruz
+0;-24.2957,14.9735;CV-13;Mosteiros;Queimadinha
+0;-24.3510,14.9082;CV-24;Santa Catarina do Fogo;Ourela
+0;-24.3537,14.9010;CV-24;Santa Catarina do Fogo;Casa Branca
+0;-24.3489,14.9047;CV-24;Santa Catarina do Fogo;Monte Preto
+0;-24.3246,14.8968;CV-24;Santa Catarina do Fogo;Cabeça de Monte de Égua
+0;-24.3539,14.8911;CV-18;São Filipe;Achada Chupadeiro
+0;-24.2836,14.9086;CV-18;São Filipe;Bombardeiro
+0;-24.3582,14.9064;CV-24;Santa Catarina do Fogo;Monte Palha
+0;-24.3247,14.8767;CV-18;São Filipe;Achada Rama
+0;-24.3466,14.8874;CV-18;São Filipe;Chupadeiro
+54;-24.2952,14.9174;CV-24;Santa Catarina do Fogo;Cova Matinho
+403;-24.2960,14.9317;CV-18;São Filipe;Tinteira
+0;-24.3468,14.8974;CV-24;Santa Catarina do Fogo;Rachã Formosa
+26;-24.3077,14.8841;CV-18;São Filipe;Baluarte de Cima
+22;-24.3322,14.8630;CV-18;São Filipe;Monte Escora
+0;-24.3469,14.8604;CV-18;São Filipe;Pondena
+0;-24.3582,14.8570;CV-18;São Filipe;Pé de Furna
+0;-24.4552,14.8526;CV-18;São Filipe;Nossa Senhora do Socorro
+0;-24.4415,14.8629;CV-18;São Filipe;Genebra
+0;-24.4185,14.8712;CV-18;São Filipe;Achada António
+0;-24.4248,14.8659;CV-18;São Filipe;Cutelo Lourenço
+0;-24.4096,14.8672;CV-18;São Filipe;Batente
+0;-24.3910,14.8729;CV-18;São Filipe;Alto do Po
+254;-24.3837,14.8684;CV-18;São Filipe;Monte Largo
+0;-24.3802,14.8708;CV-18;São Filipe;Queimadinha
+0;-24.3735,14.8527;CV-18;São Filipe;Alto da Assomada
+38;-24.3762,14.8498;CV-18;São Filipe;Achada Poio
+0;-24.3854,14.8559;CV-18;São Filipe;Santa Luzia
+125;-24.3904,14.8564;CV-18;São Filipe;Salto
+5;-24.3707,14.8472;CV-18;São Filipe;Pintadinho
+0;-24.3681,14.8651;CV-18;São Filipe;Gudo Nho Simão
+0;-24.3681,14.8460;CV-18;São Filipe;João Carreia
+0;-24.3456,14.8341;CV-18;São Filipe;Rama Seada
+0;-24.3095,14.8483;CV-18;São Filipe;Curral de Guincho
+0;-24.3309,14.8498;CV-18;São Filipe;Pé de Monte
+341;-24.3321,14.8561;CV-18;São Filipe;Roçadas
+0;-24.3378,14.8593;CV-18;São Filipe;Figa Garça
+384;-25.0846,17.1772;CV-07;Ribeira Grande;Tanque
+442;-23.4561,15.0352;CV-17;São Domingos;Baía
+209;-23.4783,15.0356;CV-17;São Domingos;Cancelo
+350;-23.6148,15.0235;CV-17;São Domingos;Achada Loura
+745;-23.5522,15.0007;CV-17;São Domingos;Fontes Almeida
+296;-23.6355,15.1816;CV-19;São Miguel;Igreja
+492;-23.6291,15.0575;CV-25;São Lourenço dos Órgãos;Pico Antonia
+212;-23.6013,15.0777;CV-25;São Lourenço dos Órgãos;Montanhinha
+120;-23.5879,15.0625;CV-25;São Lourenço dos Órgãos;Fundo Marques
+490;-23.6896,15.2589;CV-20;Tarrafal;Biscainhos
+869;-23.6963,15.1299;CV-15;Santa Catarina;Achada Tossa
+919;-23.6724,15.1299;CV-15;Santa Catarina;Cruz Grande
+1008;-23.6768,15.1155;CV-15;Santa Catarina;Fonteana
+238;-23.6837,15.0568;CV-15;Santa Catarina;Librão
+842;-23.6860,15.1326;CV-15;Santa Catarina;Mancholy
+694;-23.6743,15.0696;CV-15;Santa Catarina;Mato Gege
+661;-23.6656,15.0961;CV-15;Santa Catarina;Centro (Cidade)
+2013;-23.6660,15.0918;CV-15;Santa Catarina;Achada Riba
+109;-23.5753,15.1066;CV-16;Santa Cruz;Boca Larga
+528;-23.5184,15.0642;CV-16;Santa Cruz;Monte Negro
+638;-23.5334,15.1015;CV-16;Santa Cruz;Ribeira Seca
+383;-23.6114,15.1475;CV-16;Santa Cruz;Saltos Abaixo
+284;-23.5416,15.0679;CV-16;Santa Cruz;São Cristovão
+1022;-23.5345,15.1385;CV-16;Santa Cruz;Achada Fatima
+164;-23.5321,15.1387;CV-16;Santa Cruz;Porto Acima
+1208;-23.5290,15.1381;CV-19;São Miguel;Cutelinho
+704;-23.5285,15.1397;CV-16;Santa Cruz;Porto Baixo
+1357;-23.5405,15.1364;CV-16;Santa Cruz;Zona Tenda
+1194;-24.3343,15.0413;CV-13;Mosteiros;Queimada Guincho
+100;-24.3571,15.0452;CV-13;Mosteiros;Rocha Fora
+323;-24.4024,15.0037;CV-18;São Filipe;Campanas Cima
+170;-24.4837,14.9603;CV-18;São Filipe;Monte Tabor
+202;-24.4343,14.9293;CV-18;São Filipe;Cabeça do Monte
+1493;-24.4991,14.8954;CV-18;São Filipe;Centro Histórico
+398;-24.4969,14.8943;CV-18;São Filipe;Lem de Meio
+520;-24.4971,14.8957;CV-18;São Filipe;Lem de Cima
+140;-24.4983,14.8937;CV-18;São Filipe;Lem de Baixo
+246;-24.4938,14.8993;CV-18;São Filipe;Cobom
+57;-24.7005,14.8804;CV-02;Brava;Covada
+525;-24.6992,14.8817;CV-02;Brava;Lem Rural
+355;-24.7359,14.8369;CV-02;Brava;Tantum
+573;-24.7264,14.8569;CV-02;Brava;Tomé Barraz
+186;-24.3459,14.9041;CV-24;Santa Catarina do Fogo;Cabeça Fundão
+167;-24.3674,14.9730;CV-24;Santa Catarina do Fogo;Bangaeira
+95;-24.3071,14.8830;CV-24;Santa Catarina do Fogo;Baluarte
+517;-23.2127,15.1438;CV-04;Maio;Fontona
+78;-23.2068,15.1309;CV-04;Maio;Ponta Preta
+120;-23.2102,15.1363;CV-04;Maio;Calhetinha
+443;-22.9163,16.1767;CV-01;Boa Vista;Centro de Sal Rei
+1671;-22.9180,16.1773;CV-01;Boa Vista;Bom Sossego
+1957;-22.9044,16.5987;CV-08;Sal;Santa Maria Centro
+421;-22.8954,16.5969;CV-08;Sal;Praia António Sousa
+115;-22.9208,16.6120;CV-08;Sal;Vila Verde
+3198;-22.9031,16.6025;CV-08;Sal;São Paulo
+1634;-22.9389,16.7581;CV-08;Sal;Hortelã de Baixo
+110;-24.3634,16.6448;CV-27;Tarrafal de São Nicolau;Fragata
+97;-25.0277,16.8844;CV-11;São Vicente;Morro Branco
+820;-24.9871,16.8559;CV-11;São Vicente;Ribeira Julião
+532;-24.9997,16.8618;CV-11;São Vicente;Ribeira da Vinha
+538;-25.0697,17.1687;CV-07;Ribeira Grande;Lugar de Guene
+551;-25.0567,17.1647;CV-07;Ribeira Grande;Pinhão
+179;-25.0834,17.1727;CV-07;Ribeira Grande;Ribeira Duque
+125;-25.1058,17.1449;CV-07;Ribeira Grande;Boca de João Afonso
+1266;-25.1138,17.1257;CV-07;Ribeira Grande;Chã de Pedras
+0;-23.6034,15.1906;CV-19;São Miguel;Achada Veneza
+236;-25.2058,17.1289;CV-07;Ribeira Grande;Figueiras
+162;-25.1376,17.1442;CV-07;Ribeira Grande;Lombo Santa
+380;-25.1039,17.1368;CV-07;Ribeira Grande;João Afonso
+531;-25.0986,17.1559;CV-07;Ribeira Grande;Figueiral
+631;-25.0500,17.1220;CV-05;Paul;Cabo da Ribeira
+162;-25.0351,17.1023;CV-05;Paul;Pico da Cruz
+486;-25.0337,17.1326;CV-05;Paul;Figueiral
+77;-25.0837,17.1089;CV-21;Porto Novo;Morro Vento
+220;-25.2207,17.0340;CV-21;Porto Novo;Lagoa de Catano
+33;-25.2447,17.0155;CV-21;Porto Novo;Bolona

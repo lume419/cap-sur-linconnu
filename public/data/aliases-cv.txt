@@ -1,0 +1,70 @@
+ar;نوفا سينترا;Nova Sintra
+en;Porto Inglês;Vila do Maio
+ar;فيلا دو مايو;Vila do Maio
+ar;ريبيرا برافا;Ribeira Brava
+en;Tarrafal de Sao Nicolau;Tarrafal de São Nicolau
+ar;تارافال دي سان نيقولاو;Tarrafal de São Nicolau
+es;Tarrafal de San Nicolás;Tarrafal de São Nicolau
+fr;Tarrafal de Sao Nicolau;Tarrafal de São Nicolau
+de;Tarrafal de Sao Nicolau;Tarrafal de São Nicolau
+ha;Tarrafal de Sao Nicolau;Tarrafal de São Nicolau
+ar;تارافال;Tarrafal
+pt;Cidade de Mangui;Tarrafal
+pt;Vila de São Filippe;São Filipe
+ar;ساو فيليبي;São Filipe
+es;São Felipe;São Filipe
+fr;Sao Filipe;São Filipe
+de;Sao Filipe;São Filipe
+ha;Sao Filipe;São Filipe
+en;Sao Domingos;São Domingos
+ar;ساو دومينغوس;São Domingos
+fr;Sao Domingos;São Domingos
+de;Sao Domingos;São Domingos
+ha;Sao Domingos;São Domingos
+ar;سال ري;Sal Rei
+pt;Município da Praia;Praia
+pt;Cidade da Praia;Praia
+ar;برايا;Praia
+ar;بورتو نوفو;Porto Novo
+fr;Porto-Novo;Porto Novo
+ar;بومباس;Pombas
+ar;بيكوس;Picos
+ar;مينديلو;Mindelo
+ar;كوفا فيجويرا;Cova Figueira
+ar;سيدادي فيلها;Cidade Velha
+en;Old City;Cidade Velha
+en;Calheta;Calheta de São Miguel
+ar;كالهيتا;Calheta de São Miguel
+es;Calheta;Calheta de São Miguel
+fr;Calheta;Calheta de São Miguel
+de;Calheta;Calheta de São Miguel
+ha;Calheta;Calheta de São Miguel
+pt;Calheta;Calheta de São Miguel
+pt;Cidade de Calheta de São Miguel;Calheta de São Miguel
+pt;Bafureira;Bofareira
+fr;Bofarreira;Bofareira
+es;Bofarreira;Bofareira
+pt;Boaventura;Boa Ventura
+ar;اسومادا;Assomada
+en;Joao Teves;João Teves
+ar;جواو تيفس;João Teves
+fr;Joao Teves;João Teves
+de;Joao Teves;João Teves
+ha;Joao Teves;João Teves
+ar;بيدرا باديجو;Pedra Badejo
+ar;إسباركوس;Espargos
+pt;Fundos Jorge LuÍs;Jorge LuÍs
+pt;Chã de Lobinho;Chã de Lobinhos
+pt;Fajã de Mauricio;Fajã de Mauricie
+pt;Silvão;Bica
+pt;Covoada;Covada de Baixo
+pt;Boca do Cavouco;Boca de Cabouco
+pt;Boca de Ambas Ribeiras;Boca de Ambas as Ribeiras
+pt;Lombo Bruno;Lombo de Bruno
+pt;Fonte Riba;Jardim
+pt;Porto Formoso;Achada Tenda
+pt;Ribeirão Almaço;Ribeirão Almasso
+pt;Palhal;Pathal
+pt;Zona Tenda/Zona Bela Vista;Zona Tenda
+en;Old City Center São Filipe;Centro Histórico
+pt;Lomba Tantum;Tantum

@@ -1,0 +1,698 @@
+19424;-14.8167,11.7333;GW-01;Bafatá;Xitole
+0;-16.5975,12.2872;GW-06;Cacheu;Varela
+0;-16.2531,12.0697;GW-06;Cacheu;Utia
+0;-15.8861,12.2531;GW-06;Cacheu;Utêbado
+0;-16.2500,12.0683;GW-06;Cacheu;Utama
+0;-15.9944,12.2083;GW-06;Cacheu;Untaque
+0;-15.9536,12.1431;GW-06;Cacheu;Untalanque
+0;-16.0353,12.4308;GW-06;Cacheu;Untabualo
+0;-16.1006,12.0775;GW-06;Cacheu;Ungurá
+0;-15.4856,12.0406;GW-04;Oio;Ungro
+0;-15.7483,12.1950;GW-06;Cacheu;Unfotote
+0;-15.3778,12.2461;GW-04;Oio;Unfarim
+0;-15.8883,12.3697;GW-06;Cacheu;Unconche
+0;-15.6231,12.0242;GW-04;Oio;Unche
+0;-16.2017,12.0806;GW-06;Cacheu;Umuã
+0;-15.9422,12.0050;GW-06;Cacheu;Umpacaca
+0;-15.5842,12.1631;GW-04;Oio;Umpabá
+0;-15.5803,12.3025;GW-04;Oio;Ululo
+0;-15.4067,12.4978;GW-04;Oio;Ujeque
+0;-15.3031,12.4828;GW-04;Oio;Ufudé
+0;-15.7353,12.4203;GW-06;Cacheu;Uerechole
+0;-15.2789,12.6317;GW-04;Oio;Uensacó
+0;-15.4281,12.1331;GW-04;Oio;Uenquem
+0;-15.4339,12.4017;GW-04;Oio;Udasse
+0;-15.4483,12.2064;GW-04;Oio;Uatiné
+0;-15.1192,12.6167;GW-04;Oio;Uassadu
+0;-15.1278,12.2250;GW-04;Oio;Uassado
+0;-15.3819,12.0253;GW-04;Oio;Uaque
+0;-15.5997,12.0842;GW-04;Oio;Uápete
+0;-15.7128,12.3533;GW-06;Cacheu;Uanquili
+0;-15.4136,12.1364;GW-04;Oio;Uanquelim
+0;-15.8164,12.4331;GW-06;Cacheu;Uánhal
+0;-15.1078,12.3508;GW-04;Oio;Uália
+0;-15.2467,12.4411;GW-04;Oio;Tungina
+0;-15.8519,12.0708;GW-06;Cacheu;Tímate
+0;-15.7536,12.2111;GW-06;Cacheu;Ticache
+0;-15.0978,12.3833;GW-04;Oio;Tento
+0;-16.6286,12.3447;GW-06;Cacheu;Tenhate
+0;-15.3372,12.4728;GW-04;Oio;Temanto
+0;-15.5025,12.2211;GW-04;Oio;Tehé
+0;-16.0492,12.2658;GW-06;Cacheu;Tecache
+0;-15.6714,12.2169;GW-04;Oio;Tebedè
+0;-15.3822,12.3911;GW-04;Oio;Tancroal
+0;-15.0522,12.4364;GW-04;Oio;Tambicó
+0;-15.2767,12.4258;GW-04;Oio;Tambato Mandinga
+0;-15.2783,12.4825;GW-04;Oio;Tambato
+0;-15.2589,12.2006;GW-04;Oio;Tambato
+0;-15.0078,12.5108;GW-04;Oio;Tambandinto
+0;-15.5783,12.1336;GW-04;Oio;Tama
+0;-15.4722,12.4608;GW-04;Oio;Talicó
+0;-15.2775,12.2114;GW-04;Oio;Talicó
+0;-15.3178,12.4967;GW-04;Oio;Tabandinto
+0;-15.4917,12.4522;GW-06;Cacheu;Tabajã
+0;-16.4744,12.3064;GW-06;Cacheu;Susana
+0;-15.6994,12.3994;GW-06;Cacheu;Suranse
+0;-16.6519,12.3497;GW-06;Cacheu;Sucujaque
+0;-15.1639,12.1922;GW-04;Oio;Suarecunda
+0;-15.4897,12.2408;GW-04;Oio;Sorimone
+0;-16.1325,12.4053;GW-06;Cacheu;Sonco
+2753;-14.4833,12.4000;GW-10;Gabú;Sonaco
+0;-15.3656,12.3403;GW-04;Oio;Solinto Mandinga
+0;-15.2706,12.4019;GW-04;Oio;Solinto
+0;-15.3542,12.0383;GW-04;Oio;Sogume
+0;-15.1206,12.5356;GW-04;Oio;Sobeá
+0;-15.3303,12.1822;GW-04;Oio;Sinre
+0;-15.1956,12.0939;GW-04;Oio;Singa
+0;-15.5089,12.4658;GW-06;Cacheu;Sindina
+0;-15.0578,12.2850;GW-04;Oio;Sinchã Meta
+0;-15.6672,12.4003;GW-06;Cacheu;Sinchã Mamadu
+0;-15.0350,12.0514;GW-04;Oio;Sinchã Madina
+0;-15.4456,12.4336;GW-04;Oio;Simbor
+0;-15.1428,12.3406;GW-04;Oio;Simbor
+0;-15.8056,12.3792;GW-06;Cacheu;Sibana
+0;-15.7078,12.0539;GW-06;Cacheu;Serume
+0;-15.8722,12.1489;GW-06;Cacheu;Sente
+0;-15.5542,12.4625;GW-06;Cacheu;Senquerem
+0;-15.6358,12.2675;GW-04;Oio;Selim
+0;-15.4944,12.4272;GW-06;Cacheu;Sedimenta
+0;-15.9250,12.3975;GW-06;Cacheu;Sedengal
+0;-15.9758,12.3733;GW-06;Cacheu;Secote
+0;-15.8822,12.2275;GW-06;Cacheu;Sebanda
+0;-15.5519,12.2833;GW-04;Oio;Sarubè
+0;-15.0672,12.5386;GW-04;Oio;Sare Tenem
+0;-15.1158,12.4922;GW-04;Oio;Sare Samba Seidi
+0;-15.0558,12.5950;GW-04;Oio;Sare Samba Iafa
+0;-15.0303,12.6344;GW-04;Oio;Sare Samba Fil
+0;-15.0522,12.6031;GW-04;Oio;Sare Quecuta
+0;-15.1403,12.2664;GW-04;Oio;Sare Pate
+0;-15.1033,12.6069;GW-04;Oio;Sare Mancamã
+0;-15.3347,12.5608;GW-04;Oio;Sare Mancamã
+0;-15.0917,12.6061;GW-04;Oio;Sare Leão
+0;-15.1183,12.5756;GW-04;Oio;Sare Lamine
+0;-15.1592,12.2861;GW-04;Oio;Sare Jobo
+0;-15.2331,12.5167;GW-04;Oio;Sare Ioba
+0;-15.0175,12.6658;GW-04;Oio;Sare Demba Taquel
+0;-15.2200,12.6631;GW-04;Oio;Sare Demba Embalô
+0;-15.0767,12.5214;GW-04;Oio;Sare Demba
+0;-15.0097,12.6789;GW-04;Oio;Sare Coli Cebô
+0;-15.1017,12.6331;GW-04;Oio;Sare Bori
+0;-15.0839,12.1339;GW-04;Oio;Sárà
+0;-16.1217,12.3831;GW-06;Cacheu;São Jorge
+6004;-16.2006,12.4019;GW-06;Cacheu;São Domingos
+0;-15.6900,12.1769;GW-06;Cacheu;Santarém
+0;-15.2686,12.3167;GW-04;Oio;Santanto
+0;-15.4178,12.4175;GW-04;Oio;Santancoto
+0;-15.2431,12.2244;GW-04;Oio;Santambato
+0;-15.6917,12.3275;GW-06;Cacheu;Santa Maria
+0;-15.2828,12.1144;GW-04;Oio;Sansanto
+0;-15.3725,12.4264;GW-04;Oio;Sansancutoto
+0;-15.3475,12.2650;GW-04;Oio;Sansabato
+0;-15.6444,12.4383;GW-06;Cacheu;Sano
+0;-15.6206,12.2836;GW-04;Oio;Sano
+0;-15.8306,12.4192;GW-06;Cacheu;Sancoma
+0;-16.4403,12.3308;GW-06;Cacheu;Sancatuto
+0;-15.1989,12.5267;GW-04;Oio;Sancalancó
+0;-15.4786,12.4831;GW-04;Oio;Samoje
+0;-15.1269,12.6400;GW-04;Oio;Samandim
+0;-15.1333,12.6322;GW-04;Oio;Samã
+0;-15.2200,12.4528;GW-04;Oio;Saliquinhédim
+0;-15.2456,12.4761;GW-04;Oio;Saliquinhé
+0;-15.6467,12.4142;GW-06;Cacheu;Saiamcutoto
+0;-15.6400,12.4267;GW-06;Cacheu;Saiamcôtoto
+3193;-15.6500,11.9500;GW-12;Biombo;Safim
+0;-15.7003,12.2172;GW-04;Oio;Sádejar de Naga
+0;-15.6025,12.1350;GW-04;Oio;Sádejar de Binar
+0;-15.2892,12.1267;GW-04;Oio;Sábà
+0;-15.4164,12.0131;GW-04;Oio;Rossum
+44718;-15.6000,11.8500;GW-11;Bissau;Reino de Bandim
+30778;-15.5833,11.9000;GW-11;Bissau;Reino de Antula
+0;-15.5494,12.0703;GW-04;Oio;Quitamo
+0;-15.5758,12.4269;GW-06;Cacheu;Quissir
+0;-15.5353,12.0511;GW-04;Oio;Quissanque
+6602;-15.8556,11.8869;GW-12;Biombo;Quinhámel
+0;-15.5669,12.2956;GW-04;Oio;Quijim
+0;-15.8378,12.1253;GW-06;Cacheu;Quete
+0;-16.1525,12.1978;GW-06;Cacheu;Quesse
+0;-15.6106,12.1078;GW-04;Oio;Quessasse
+0;-15.2731,12.1300;GW-04;Oio;Querene
+0;-15.5594,12.3589;GW-04;Oio;Queré
+0;-15.4633,12.1214;GW-04;Oio;Queré
+0;-15.2167,12.1514;GW-04;Oio;Quenhequenheto
+0;-15.4011,12.5419;GW-04;Oio;Quenhato
+0;-15.7236,12.1975;GW-06;Cacheu;Quenhaque
+0;-15.4228,12.1981;GW-04;Oio;Quenhaque
+0;-15.4369,12.1814;GW-04;Oio;Quenhaque
+0;-15.3528,12.0656;GW-04;Oio;Quenhaque
+0;-15.6444,12.2283;GW-04;Oio;Quenem
+28898;-15.6333,11.8667;GW-11;Bissau;Quelele
+0;-15.8781,12.1206;GW-06;Cacheu;Quedanga
+7072;-14.9333,11.3333;GW-07;Tombali;Quebo
+0;-15.2686,12.6386;GW-04;Oio;Quebacó
+0;-16.0553,12.0781;GW-06;Cacheu;Pupal
+0;-15.8267,12.3053;GW-06;Cacheu;Pundame
+0;-15.8094,12.3022;GW-06;Cacheu;Pundame
+3223;-15.7389,11.8025;GW-12;Biombo;Prábis
+0;-15.8089,12.0667;GW-06;Cacheu;Ponta Tomázia
+0;-16.1108,12.1983;GW-06;Cacheu;Ponta Teixeira
+0;-15.1717,12.4628;GW-04;Oio;Ponta Sinoi
+0;-15.7642,12.2344;GW-06;Cacheu;Ponta São Vicente
+0;-15.7136,12.1858;GW-06;Cacheu;Ponta Penhasse
+0;-15.7581,12.1647;GW-06;Cacheu;Ponta Mátar
+0;-15.7950,12.0400;GW-06;Cacheu;Ponta Luís Cabral
+0;-15.7222,12.0172;GW-06;Cacheu;Ponta Geraldo Landim
+0;-16.1117,12.2539;GW-06;Cacheu;Ponta Costa
+0;-15.7197,12.0781;GW-06;Cacheu;Ponta Bela Vista
+0;-16.1311,12.2647;GW-06;Cacheu;Ponta Baio
+0;-16.2481,12.3772;GW-06;Cacheu;Ponta Augusto Barreto
+0;-15.7400,12.1692;GW-06;Cacheu;Pónate
+0;-16.0906,12.3622;GW-06;Cacheu;Poilão de Leão
+27633;-15.6167,11.8833;GW-11;Bissau;Plaque
+2980;-14.1543,12.6629;GW-10;Gabú;Pirada
+0;-15.8592,12.1281;GW-06;Cacheu;Pieme
+5655;-13.9534,12.3234;GW-10;Gabú;Pitche
+0;-15.6792,12.0875;GW-06;Cacheu;Pete
+0;-15.6739,12.1364;GW-06;Cacheu;Petabe
+0;-15.9078,12.2183;GW-06;Cacheu;Pepantar
+0;-16.0383,12.0125;GW-06;Cacheu;Pendinglo
+0;-15.9544,12.1172;GW-06;Cacheu;Pelundo
+0;-15.7947,12.1264;GW-06;Cacheu;Peconha
+0;-16.2186,12.2231;GW-06;Cacheu;Pechusse
+0;-16.0306,12.1322;GW-06;Cacheu;Pechilal
+0;-16.1844,12.2333;GW-06;Cacheu;Pechife
+0;-16.0725,12.2947;GW-06;Cacheu;Peche
+0;-16.1856,12.2017;GW-06;Cacheu;Pechangali
+0;-15.8067,12.2011;GW-06;Cacheu;Pecé
+0;-15.7586,12.0889;GW-06;Cacheu;Patacã
+0;-15.5786,12.2344;GW-04;Oio;Passe
+0;-15.5339,12.2311;GW-04;Oio;Passe
+0;-15.8133,12.0592;GW-06;Cacheu;Passabe
+0;-15.8953,12.4300;GW-06;Cacheu;Papiá
+0;-15.9114,12.1436;GW-06;Cacheu;Pantufa
+0;-15.8522,12.4172;GW-06;Cacheu;Pantazinho
+0;-15.6350,12.0611;GW-04;Oio;Pache
+0;-16.4192,12.2108;GW-06;Cacheu;Ossor
+0;-15.7611,12.3811;GW-06;Cacheu;Ongoró
+0;-15.3286,12.3197;GW-04;Oio;Olossato
+0;-15.2419,12.1164;GW-04;Oio;Olom
+0;-15.0669,12.6244;GW-04;Oio;Norobanta Mandinga
+0;-15.0528,12.6172;GW-04;Oio;Norobanta Fula
+0;-15.7000,12.1264;GW-06;Cacheu;Nino
+0;-15.4086,12.0975;GW-04;Oio;Nimane
+0;-16.6089,12.3042;GW-06;Cacheu;Nhiquim
+0;-15.1658,12.1606;GW-04;Oio;Nhime
+0;-15.6225,12.0861;GW-04;Oio;Nhenque
+0;-15.6089,12.0692;GW-04;Oio;Nhenque
+0;-15.7372,12.0667;GW-06;Cacheu;Nhenguè
+0;-15.7119,12.0439;GW-06;Cacheu;Nhelem
+0;-16.1125,12.3986;GW-06;Cacheu;Nhatabá
+0;-15.4725,12.3425;GW-04;Oio;Nhanfa
+0;-15.4067,12.3608;GW-04;Oio;Nhané
+0;-15.1850,12.4481;GW-04;Oio;Nhamburã
+0;-16.2908,12.3903;GW-06;Cacheu;Nhambalã
+0;-15.5675,12.0886;GW-04;Oio;Nhamate
+0;-15.9350,12.4378;GW-06;Cacheu;Nhalom
+0;-15.5178,12.2169;GW-04;Oio;Nhaé
+0;-15.3931,12.1267;GW-04;Oio;Nhaé
+1966;-15.5500,11.9667;GW-04;Oio;Nhacra
+0;-15.3014,12.2708;GW-04;Oio;Nemanacó
+0;-15.2286,12.4900;GW-04;Oio;Nema
+0;-16.0878,12.4408;GW-06;Cacheu;Nema
+0;-16.2386,12.3508;GW-06;Cacheu;Napejame
+0;-15.5739,12.3522;GW-04;Oio;Nagate
+0;-15.6994,12.2342;GW-04;Oio;Naga de Baixo
+0;-15.5547,12.3069;GW-04;Oio;Nafula
+0;-15.5847,12.2506;GW-04;Oio;Muno
+0;-15.2756,12.2447;GW-04;Oio;Morés
+0;-15.4578,12.2656;GW-04;Oio;Mone
+0;-15.3408,12.3347;GW-04;Oio;Missirá
+0;-15.4811,12.2322;GW-04;Oio;Missirá
+0;-15.3508,12.2900;GW-04;Oio;Mindodo
+0;-16.1081,12.0483;GW-06;Cacheu;Mijancal
+0;-15.1861,12.4869;GW-04;Oio;Mato Vaz
+0;-16.3994,12.3492;GW-06;Cacheu;Mato de Elia
+0;-16.3233,12.3775;GW-06;Cacheu;Mato Colage
+0;-15.5089,12.3456;GW-04;Oio;Matar
+0;-15.9592,12.3383;GW-06;Cacheu;Mata Galinha
+0;-16.3153,12.1517;GW-06;Cacheu;Mata de Ucó
+0;-15.4028,12.3389;GW-04;Oio;Marecunda
+0;-15.3639,12.3086;GW-04;Oio;Maquèzinho
+0;-15.3883,12.2925;GW-04;Oio;Maqué
+0;-15.0678,12.3033;GW-04;Oio;Mantida
+0;-15.3200,12.1056;GW-04;Oio;Mantefa
+0;-15.1475,12.3089;GW-04;Oio;Mansomine
+0;-15.2156,12.2642;GW-04;Oio;Mansodé
+9422;-15.3189,12.0733;GW-04;Oio;Mansôa
+0;-15.1708,12.2728;GW-04;Oio;Mansasunto
+0;-15.4297,12.4569;GW-04;Oio;Mansalia
+0;-15.4047,12.4594;GW-04;Oio;Mansacunda
+0;-15.6689,12.3725;GW-06;Cacheu;Mansacunda
+0;-15.3847,12.2117;GW-04;Oio;Mansabandim
+0;-15.1972,12.1500;GW-04;Oio;Mansabandim
+5964;-15.1828,12.2919;GW-04;Oio;Mansabá
+0;-15.0864,12.4475;GW-04;Oio;Maninhã
+0;-15.0997,12.2928;GW-04;Oio;Manhau
+0;-16.1722,12.0817;GW-06;Cacheu;Mánhal
+0;-15.9717,12.4297;GW-06;Cacheu;Mangômuca
+0;-15.5619,12.0678;GW-04;Oio;Manga
+0;-15.3436,12.4419;GW-04;Oio;Manecunda
+0;-15.1936,12.1708;GW-04;Oio;Mandingará
+0;-15.3289,12.2456;GW-04;Oio;Manaca
+0;-15.5056,12.4997;GW-06;Cacheu;Mampatás
+0;-15.2011,12.2469;GW-04;Oio;Mamboncò
+0;-16.1481,12.4219;GW-06;Cacheu;Mambaiã
+0;-15.8275,12.3197;GW-06;Cacheu;Malipante
+0;-15.4786,12.4300;GW-04;Oio;Malibolom
+0;-15.3814,12.1744;GW-04;Oio;Malafo
+0;-15.0331,12.0156;GW-04;Oio;Malafo
+0;-15.2875,12.4064;GW-04;Oio;Madina Mandinga
+0;-15.2597,12.3728;GW-04;Oio;Madina Mandinga
+11750;-14.2113,11.7477;GW-10;Gabú;Madina do Boé
+0;-15.1986,12.5089;GW-04;Oio;Madina
+0;-15.3469,12.0244;GW-04;Oio;Madina
+0;-15.3156,12.1939;GW-04;Oio;Madane
+0;-15.7333,12.3125;GW-06;Cacheu;Maca
+0;-15.3283,12.3758;GW-04;Oio;Lubacunda
+0;-15.2683,12.0317;GW-04;Oio;Locher
+0;-15.6064,12.4008;GW-06;Cacheu;Limane
+0;-15.5589,12.2653;GW-04;Oio;Libari
+0;-15.3958,12.3778;GW-04;Oio;Leto
+0;-15.4853,12.2003;GW-04;Oio;Lendene
+0;-15.4472,12.0769;GW-04;Oio;Late
+0;-15.0814,12.2233;GW-04;Oio;Lamoi
+0;-16.4486,12.2494;GW-06;Cacheu;Lala
+0;-15.6556,12.1553;GW-06;Cacheu;Jundum
+0;-15.0939,12.5736;GW-04;Oio;Jumbembem
+0;-16.1650,12.3981;GW-06;Cacheu;Jugul
+0;-16.1608,12.4097;GW-06;Cacheu;Jugul
+0;-15.5175,12.0050;GW-04;Oio;Jugudul Com
+0;-15.3336,12.0469;GW-04;Oio;Jugudul
+0;-16.4358,12.2044;GW-06;Cacheu;Jufunco
+0;-15.9494,12.2494;GW-06;Cacheu;Jopá
+0;-15.8614,12.2244;GW-06;Cacheu;Jolmete
+0;-16.3986,12.2853;GW-06;Cacheu;Jobel
+0;-16.1047,12.3706;GW-06;Cacheu;Joaquim Bor
+0;-16.1881,12.4281;GW-06;Cacheu;Jinhalcunda
+0;-15.3094,12.0261;GW-04;Oio;Jimba
+0;-15.7919,12.3231;GW-06;Cacheu;Jétuntum
+0;-15.8961,12.0067;GW-06;Cacheu;Jete
+0;-15.9233,12.0283;GW-06;Cacheu;Jetã
+0;-16.2153,12.4378;GW-06;Cacheu;Jegue
+0;-16.1047,12.4156;GW-06;Cacheu;Jamossé
+0;-16.0814,12.4619;GW-06;Cacheu;Jambacosse
+0;-15.5894,12.4306;GW-06;Cacheu;Jambã
+0;-15.4383,12.3594;GW-04;Oio;Jagali Balanta
+0;-15.4394,12.3469;GW-04;Oio;Jagali
+0;-15.2708,12.5794;GW-04;Oio;Jabicó
+0;-15.4678,12.3161;GW-04;Oio;Jabel
+0;-15.5369,12.1853;GW-04;Oio;Iusse
+0;-15.3256,12.2586;GW-04;Oio;Iracunda
+0;-15.2378,12.4300;GW-04;Oio;Irabato
+0;-15.5019,12.3072;GW-04;Oio;Iongotô
+0;-15.1500,12.4042;GW-04;Oio;Ionfarim
+0;-16.0731,12.0281;GW-06;Cacheu;Iolabute
+0;-15.6178,12.0372;GW-04;Oio;Intente
+0;-15.7056,12.0325;GW-06;Cacheu;Intatelai
+0;-15.6047,12.2111;GW-04;Oio;Insumeté
+0;-15.4042,12.1517;GW-04;Oio;Insontão
+0;-15.5822,12.1803;GW-04;Oio;Insantaque
+0;-15.5661,12.2019;GW-04;Oio;Inquida
+0;-15.4036,12.1208;GW-04;Oio;Inquida
+0;-15.5300,12.0325;GW-04;Oio;Inquida
+0;-15.7908,12.4278;GW-06;Cacheu;Ingorèzinho
+9189;-15.7975,12.4053;GW-06;Cacheu;Ingoré
+0;-15.3828,12.1072;GW-04;Oio;Infandre
+0;-15.6181,12.1775;GW-04;Oio;Infaide
+0;-15.4825,12.0850;GW-04;Oio;Infaide
+0;-15.3836,12.1878;GW-04;Oio;Indíngarà
+0;-15.5103,12.2881;GW-04;Oio;Indendem
+0;-15.5542,12.4400;GW-06;Cacheu;Indaia
+0;-15.3514,12.1953;GW-04;Oio;Inchula
+0;-15.4961,12.0592;GW-04;Oio;Impasse
+0;-15.4472,12.0869;GW-04;Oio;Imboé
+0;-16.4694,12.2306;GW-06;Cacheu;Igim
+0;-15.3483,12.2297;GW-04;Oio;Iarom
+0;-15.3169,12.2328;GW-04;Oio;Iarom
+0;-15.5158,12.3589;GW-04;Oio;Iarã
+0;-15.5514,12.3378;GW-04;Oio;Ianganã
+0;-15.0783,12.3336;GW-04;Oio;Gussará
+0;-15.7894,12.3111;GW-06;Cacheu;Gunal
+0;-15.4336,12.2458;GW-04;Oio;Gulcunhe
+0;-15.4261,12.5339;GW-04;Oio;Guidaje
+0;-16.1175,12.1519;GW-06;Cacheu;Guebogue
+0;-15.4714,12.1844;GW-04;Oio;Grancutá
+0;-16.1156,12.4292;GW-06;Cacheu;Gondo Grande
+0;-15.3511,12.4567;GW-04;Oio;Genicó
+0;-15.0200,12.4031;GW-04;Oio;Gendo
+0;-16.0272,12.3672;GW-06;Cacheu;Gendem
+0;-15.8386,12.2100;GW-06;Cacheu;Gel
+0;-15.2903,12.4167;GW-04;Oio;Gêbacunda
+0;-15.4333,12.2736;GW-04;Oio;Gã Ualia
+0;-15.5286,12.4142;GW-06;Cacheu;Ganturè
+0;-15.4856,12.3539;GW-04;Oio;Gansambo
+0;-15.4300,12.2942;GW-04;Oio;Ganjogude
+0;-15.4167,12.0561;GW-04;Oio;Gambia
+0;-15.0683,12.6558;GW-04;Oio;Galo Gega
+0;-15.2703,12.1656;GW-04;Oio;Gã Farã
+0;-15.1156,12.4308;GW-04;Oio;Gã Cricó
+0;-15.1181,12.4142;GW-04;Oio;Gã Cricó
+49371;-14.2222,12.2800;GW-10;Gabú;Gabú
+1804;-15.1718,11.7767;GW-02;Quinara;Fulacunda
+0;-15.5092,12.3761;GW-04;Oio;Forol
+0;-15.6608,12.1056;GW-04;Oio;Foncho
+0;-15.5792,12.1103;GW-04;Oio;Flaque Intudé
+0;-15.4972,12.0108;GW-04;Oio;Fatim
+0;-15.5581,12.4500;GW-06;Cacheu;Farroba
+0;-15.2125,12.5922;GW-04;Oio;Farincó Mandinga
+0;-15.2247,12.6006;GW-04;Oio;Farincó Fula
+10207;-15.2217,12.4839;GW-04;Oio;Farim
+0;-15.1556,12.4383;GW-04;Oio;Farandito
+0;-15.4425,12.0342;GW-04;Oio;Fanhe
+0;-15.6972,12.3806;GW-06;Cacheu;Fangor
+0;-15.9325,12.4108;GW-06;Cacheu;Fangasse
+0;-15.1775,12.5972;GW-04;Oio;Fambantã
+0;-15.4000,12.5383;GW-04;Oio;Fajonquito
+0;-15.3208,12.2889;GW-04;Oio;Fajonquito
+0;-15.5742,12.2781;GW-04;Oio;Fagi
+0;-15.4544,12.4867;GW-04;Oio;Facã
+0;-15.6383,12.1131;GW-04;Oio;Fabur
+0;-15.8431,12.3789;GW-06;Cacheu;Endoja
+0;-15.6578,12.1850;GW-04;Oio;Endambe
+0;-15.4383,12.0478;GW-04;Oio;Enchugal
+0;-15.5728,12.0764;GW-04;Oio;Encherte
+0;-15.4700,12.0636;GW-04;Oio;Encheia
+0;-15.4022,12.0783;GW-04;Oio;Enchanque
+0;-15.4983,12.1844;GW-04;Oio;Empanquinhame
+0;-15.4197,12.1592;GW-04;Oio;Embunhe
+0;-15.5328,12.0994;GW-04;Oio;Embande
+0;-16.3936,12.3047;GW-06;Cacheu;Elia
+0;-16.5156,12.3483;GW-06;Cacheu;Ejatem
+0;-15.1878,12.5636;GW-04;Oio;Dutatô
+0;-15.2222,12.3347;GW-04;Oio;Dutató
+0;-15.6500,12.1439;GW-06;Cacheu;Dungor
+0;-15.3433,12.6006;GW-04;Oio;Dungal
+0;-15.6417,12.2194;GW-04;Oio;Dinul
+0;-15.7339,12.1019;GW-06;Cacheu;Dingal
+0;-15.9192,12.0661;GW-06;Cacheu;Dímpel
+0;-15.1681,12.3333;GW-04;Oio;Demba Só
+0;-15.4922,12.1456;GW-04;Oio;Dará
+0;-15.3597,12.2150;GW-04;Oio;Dando
+0;-15.3728,12.0058;GW-04;Oio;Dana
+0;-15.3658,12.1403;GW-04;Oio;Damé
+0;-15.5603,12.3256;GW-04;Oio;Damberá
+0;-15.7414,12.0894;GW-06;Cacheu;Dabatiar
+0;-15.2408,12.1747;GW-04;Oio;Cutiá
+0;-15.4550,12.3308;GW-04;Oio;Cussondome
+0;-15.2883,12.0472;GW-04;Oio;Cussanja
+0;-15.0003,12.6561;GW-04;Oio;Cuntima
+0;-15.6992,12.2686;GW-04;Oio;Cunhoncome
+0;-15.5042,12.4375;GW-06;Cacheu;Cunaiá
+0;-15.4342,12.0950;GW-04;Oio;Cumbule
+0;-15.0689,12.6378;GW-04;Oio;Cumbijã
+0;-15.6656,12.0033;GW-11;Bissau;Cumano
+0;-15.7794,12.3417;GW-06;Cacheu;Cufongul
+0;-15.3842,12.4947;GW-04;Oio;Cufeu
+0;-15.3039,12.0433;GW-04;Oio;Cufar
+0;-15.2575,12.2733;GW-04;Oio;Cudana
+0;-15.1256,12.3208;GW-04;Oio;Cucuto
+0;-15.3503,12.1342;GW-04;Oio;Cubonge
+0;-15.4433,12.1517;GW-04;Oio;Cuboi
+0;-15.5692,12.0353;GW-04;Oio;Cuboi
+0;-15.3708,12.0444;GW-04;Oio;Cuboi
+0;-15.0986,12.2678;GW-04;Oio;Cubane
+0;-15.6656,12.2781;GW-04;Oio;Créscimo
+0;-15.5369,12.2981;GW-04;Oio;Cossicunto
+0;-15.5358,12.3156;GW-04;Oio;Cossiba
+0;-15.7681,12.2944;GW-06;Cacheu;Corombol
+45482;-15.6167,11.8500;GW-11;Bissau;Contumo
+4871;-14.5714,12.3908;GW-01;Bafatá;Contuboel
+0;-15.3817,12.0689;GW-04;Oio;Contubó
+0;-15.6175,12.2469;GW-04;Oio;Contuba
+0;-15.3189,12.5039;GW-04;Oio;Confandinto
+0;-15.4819,12.3706;GW-04;Oio;Concolim
+0;-15.2694,12.3319;GW-04;Oio;Coli Sare
+0;-15.2275,12.4231;GW-04;Oio;Colimansacunda
+0;-16.3267,12.3475;GW-06;Cacheu;Colage
+0;-16.3567,12.3317;GW-06;Cacheu;Colage
+0;-16.0089,12.4258;GW-06;Cacheu;Coitoto
+0;-15.1958,12.3181;GW-04;Oio;Coduco
+0;-15.4994,12.0681;GW-04;Oio;Clonque
+0;-15.5369,12.0794;GW-04;Oio;Claque
+0;-16.0483,12.1358;GW-06;Cacheu;Churobrique
+0;-16.0017,12.2244;GW-06;Cacheu;Chumpia
+0;-15.5181,12.1772;GW-04;Oio;Chumbume
+0;-16.1161,12.1056;GW-06;Cacheu;Chúlame
+0;-15.6475,12.1300;GW-06;Cacheu;Choquemone
+0;-15.6575,12.2322;GW-04;Oio;Chompundo
+0;-15.4275,12.1078;GW-04;Oio;Chombé
+0;-15.6736,12.2039;GW-04;Oio;Chile
+0;-15.8042,12.3897;GW-06;Cacheu;Chapa
+0;-16.1706,12.1050;GW-06;Cacheu;Chanto
+0;-15.4683,12.0094;GW-04;Oio;Changue Bedeta
+0;-15.5825,12.0483;GW-04;Oio;Changue
+0;-15.9467,12.1514;GW-06;Cacheu;Changatene
+0;-15.1972,12.0519;GW-04;Oio;Changalana
+0;-15.5256,12.0478;GW-04;Oio;Chalè
+0;-16.3042,12.3403;GW-06;Cacheu;Causso
+0;-15.3067,12.4506;GW-04;Oio;Caurdim
+0;-15.3175,12.4453;GW-04;Oio;Caurbá
+0;-16.0203,12.2222;GW-06;Cacheu;Catxum
+9898;-15.2547,11.2825;GW-07;Tombali;Catió
+0;-16.0517,12.4061;GW-06;Cacheu;Catel
+0;-15.9783,12.1867;GW-06;Cacheu;Catel
+0;-15.4722,12.1639;GW-04;Oio;Cate
+0;-16.5503,12.2839;GW-06;Cacheu;Catão Joninque
+0;-16.5414,12.2875;GW-06;Cacheu;Catão Cassica
+0;-16.5278,12.2942;GW-06;Cacheu;Catão Calenquim
+0;-16.5361,12.3011;GW-06;Cacheu;Catão Butame
+0;-16.0019,12.1869;GW-06;Cacheu;Catão
+0;-15.8642,12.1556;GW-06;Cacheu;Catafe
+0;-16.2361,12.0817;GW-06;Cacheu;Catáchate
+0;-15.7411,12.1403;GW-06;Cacheu;Cassolape
+0;-15.8972,12.2681;GW-06;Cacheu;Cassícal
+0;-15.8364,12.0497;GW-06;Cacheu;Cassante
+0;-16.5475,12.3325;GW-06;Cacheu;Cassalol Indiame
+0;-16.5522,12.3406;GW-06;Cacheu;Cassalol Catétia
+0;-16.5478,12.3253;GW-06;Cacheu;Cassalol
+0;-15.7508,12.0653;GW-06;Cacheu;Cassà
+0;-15.0125,12.3700;GW-04;Oio;Casa Nova
+0;-15.0986,12.4061;GW-04;Oio;Cã Sanimã
+0;-16.5839,12.3414;GW-06;Cacheu;Caroai
+0;-15.7778,12.3658;GW-06;Cacheu;Carabane Xerife
+0;-15.8003,12.3611;GW-06;Cacheu;Carabanedim
+0;-15.7656,12.3550;GW-06;Cacheu;Carabane Balanta
+0;-15.2358,12.3006;GW-04;Oio;Cã Quebo
+0;-15.2506,12.5044;GW-04;Oio;Capol
+0;-16.1483,12.2228;GW-06;Cacheu;Capó
+0;-15.5872,12.4622;GW-06;Cacheu;Capal
+0;-15.7247,12.1567;GW-06;Cacheu;Capafa
+0;-15.8125,12.0842;GW-06;Cacheu;Cantintãnhã
+0;-15.7675,12.0369;GW-06;Cacheu;Cantelè
+0;-15.3497,12.3678;GW-04;Oio;Cantacó
+0;-15.3022,12.3406;GW-04;Oio;Cansoncó Fula
+0;-15.3067,12.4661;GW-04;Oio;Cansenha
+0;-15.3503,12.3458;GW-04;Oio;Cansambo
+0;-16.0706,12.0836;GW-06;Cacheu;Canobe
+0;-15.7061,12.3928;GW-06;Cacheu;Canjinha
+0;-16.0047,12.4056;GW-06;Cacheu;Canjande
+0;-15.1633,12.5086;GW-04;Oio;Canjanco
+0;-15.0108,12.4856;GW-04;Oio;Canjambari Morocunda
+0;-15.0158,12.4653;GW-04;Oio;Canjambari
+0;-15.2950,12.3931;GW-04;Oio;Canjaja Mandinga
+0;-15.6775,12.3319;GW-06;Cacheu;Canja
+0;-15.2619,12.5222;GW-04;Oio;Canicó Tumaná
+0;-15.2717,12.4556;GW-04;Oio;Canicó
+0;-15.3675,12.2717;GW-04;Oio;Canicó
+0;-15.2867,12.2997;GW-04;Oio;Canfanda
+0;-15.3522,12.3550;GW-04;Oio;Cancuncó
+0;-15.9628,12.0239;GW-06;Cacheu;Cancuncal
+13652;-16.0833,12.4333;GW-06;Cacheu;Canchungo
+6853;-16.0333,12.0672;GW-06;Cacheu;Canchungo
+0;-16.0997,12.4069;GW-06;Cacheu;Campada Namoanta
+0;-16.0797,12.4222;GW-06;Cacheu;Campada Bajogate
+0;-15.8808,12.3881;GW-06;Cacheu;Campada
+0;-15.3194,12.2231;GW-04;Oio;Cambajo
+0;-14.7333,12.2667;GW-01;Bafatá;Gamamudo
+0;-15.0742,12.0514;GW-04;Oio;Cã Mamadu
+0;-15.0225,12.5233;GW-04;Oio;Camalem
+0;-15.4928,12.1147;GW-04;Oio;Camã
+0;-15.7467,12.1319;GW-06;Cacheu;Caluque
+0;-16.4389,12.3475;GW-06;Cacheu;Calupa
+0;-16.2244,12.0697;GW-06;Cacheu;Calequisse
+0;-15.8222,12.2092;GW-06;Cacheu;Calaque
+0;-16.2722,12.0519;GW-06;Cacheu;Cajoque
+0;-15.7744,12.1081;GW-06;Cacheu;Cajágal
+1398;-16.2027,11.9286;GW-06;Cacheu;Caió
+0;-15.2294,12.2519;GW-04;Oio;Cai
+0;-15.9761,12.2306;GW-06;Cacheu;Caguepe
+0;-15.9839,12.1175;GW-06;Cacheu;Cágal
+0;-15.0606,12.2419;GW-04;Oio;Cã Cumba
+1151;-15.0167,11.1167;GW-07;Tombali;Cacine
+0;-16.2228,12.3672;GW-06;Cacheu;Cacheuzinho
+10490;-16.1653,12.2744;GW-06;Cacheu;Cacheu
+0;-16.3181,12.0972;GW-06;Cacheu;Cachalame
+0;-15.9314,12.1800;GW-06;Cacheu;Cachabate
+0;-16.0975,12.0608;GW-06;Cacheu;Cacante
+0;-16.0606,12.0464;GW-06;Cacheu;Cabienque
+0;-15.6689,12.1194;GW-06;Cacheu;Cabame
+0;-16.1517,12.2631;GW-06;Cacheu;Cabaceira
+0;-16.0869,12.2919;GW-06;Cacheu;Caame
+0;-16.2300,12.2333;GW-06;Cacheu;Butame
+0;-15.7069,12.2297;GW-04;Oio;Burume
+0;-16.1097,12.2389;GW-06;Cacheu;Burné
+0;-15.5661,12.0111;GW-04;Oio;Bupe
+0;-15.5403,12.4264;GW-06;Cacheu;Bunquilim
+0;-16.3506,12.3850;GW-06;Cacheu;Bunhaque
+0;-15.9069,12.2428;GW-06;Cacheu;Bumal
+10213;-15.7081,12.1039;GW-06;Cacheu;Bula
+0;-15.8225,12.1731;GW-06;Cacheu;Bugula
+0;-16.4878,12.3469;GW-06;Cacheu;Bugim
+0;-16.1225,12.3672;GW-06;Cacheu;Bugampor
+0;-16.2772,12.3589;GW-06;Cacheu;Bufá
+0;-15.0717,12.2783;GW-04;Oio;Buduco
+0;-15.5308,12.2694;GW-04;Oio;Budo
+0;-15.6233,12.4453;GW-06;Cacheu;Bucaur
+0;-15.4836,12.3200;GW-04;Oio;Bucaur
+0;-15.6122,12.2742;GW-04;Oio;Bucancadi
+0;-16.2067,12.2469;GW-06;Cacheu;Bucãnal
+0;-15.4169,12.4322;GW-04;Oio;Buborim
+9244;-15.8333,11.2833;GW-05;Bolama;Bubaque
+8952;-14.9958,11.5889;GW-02;Quinara;Buba
+0;-15.4586,12.3703;GW-04;Oio;Buará
+0;-15.6647,12.2931;GW-04;Oio;Brufa
+0;-15.1553,12.4889;GW-04;Oio;Bricama
+0;-15.9444,12.4283;GW-06;Cacheu;Brengolau
+0;-15.7747,12.1556;GW-06;Cacheu;Braque
+0;-16.0247,12.4475;GW-06;Cacheu;Branol
+0;-15.3644,12.1042;GW-04;Oio;Braia
+0;-15.7067,12.1503;GW-06;Cacheu;Botê
+0;-16.3006,12.0119;GW-06;Cacheu;Botê
+0;-15.1792,12.5214;GW-04;Oio;Bolumbato
+0;-16.4025,12.2014;GW-06;Cacheu;Bolor
+10769;-15.4761,11.5769;GW-05;Bolama;Bolama
+0;-16.0953,12.0386;GW-06;Cacheu;Boja
+0;-15.6889,12.1561;GW-06;Cacheu;Bôfe
+0;-15.7644,12.2217;GW-06;Cacheu;Bôeme
+0;-15.9839,12.3503;GW-06;Cacheu;Boche
+0;-16.0533,12.0378;GW-06;Cacheu;Blute
+0;-16.0881,12.0044;GW-06;Cacheu;Blute
+0;-15.9658,12.1003;GW-06;Cacheu;Blom
+0;-15.6983,12.0969;GW-06;Cacheu;Blequisse
+0;-15.5047,12.2603;GW-04;Oio;Blassar
+0;-15.7703,12.3294;GW-06;Cacheu;Blansar
+0;-15.4753,12.0525;GW-04;Oio;Blafechuro
+0;-15.6911,12.1425;GW-06;Cacheu;Bissussum
+0;-15.6658,12.2406;GW-04;Oio;Bissum
+12688;-15.4475,12.2231;GW-04;Oio;Bissorã
+11964;-15.4281,12.0400;GW-04;Oio;Bissorã
+439704;-15.5977,11.8636;GW-11;Bissau;Bissau
+0;-15.2222,12.5419;GW-04;Oio;Bissari
+0;-15.2547,12.3228;GW-04;Oio;Bissancage
+0;-15.4022,12.3242;GW-04;Oio;Bissajar
+0;-15.7044,12.4053;GW-06;Cacheu;Bissabur
+0;-15.2022,12.3614;GW-04;Oio;Bironque
+0;-15.1919,12.4286;GW-04;Oio;Biribão
+0;-16.2228,12.1178;GW-06;Cacheu;Bípar
+0;-15.7336,12.1214;GW-06;Cacheu;Biógate
+0;-15.5817,12.4100;GW-06;Cacheu;Binta Mancanha
+0;-15.3181,12.4203;GW-04;Oio;Binta
+0;-15.4014,12.0511;GW-04;Oio;Binibaque
+0;-15.9692,12.2642;GW-06;Cacheu;Binhogo
+0;-16.0133,12.1069;GW-06;Cacheu;Binhante
+0;-15.8217,12.3900;GW-06;Cacheu;Binham
+0;-15.3206,12.5581;GW-04;Oio;Binar
+0;-15.6244,12.0989;GW-04;Oio;Binar
+0;-16.1553,12.2478;GW-06;Cacheu;Bijope
+0;-15.2289,12.2672;GW-04;Oio;Bijine
+0;-15.5883,12.3264;GW-04;Oio;Bija
+0;-15.5417,12.4400;GW-06;Cacheu;Bigene
+0;-15.5233,12.1339;GW-04;Oio;Biambe
+0;-16.0247,12.0417;GW-06;Cacheu;Biacha
+0;-15.7983,12.0489;GW-06;Cacheu;Betume
+0;-16.2142,12.0856;GW-06;Cacheu;Betantá
+0;-15.2397,12.3911;GW-04;Oio;Berecódim
+0;-15.0536,12.4228;GW-04;Oio;Berecobato
+0;-16.1428,12.3858;GW-06;Cacheu;Berebe
+0;-16.2147,12.1111;GW-06;Cacheu;Berame
+0;-15.2108,12.3081;GW-04;Oio;Beracòzinho
+0;-15.6003,12.0431;GW-04;Oio;Bera
+0;-16.0828,12.2753;GW-06;Cacheu;Benja
+0;-15.3361,12.1256;GW-04;Oio;Benifo
+0;-16.0511,12.1053;GW-06;Cacheu;Beniche
+0;-16.1708,12.0625;GW-06;Cacheu;Beni
+0;-15.5161,12.4283;GW-06;Cacheu;Benhifo
+0;-16.1867,12.0922;GW-06;Cacheu;Benau
+0;-15.0106,12.0881;GW-01;Bafatá;Belel
+0;-16.0992,12.1781;GW-06;Cacheu;Bejala
+0;-16.1597,12.3717;GW-06;Cacheu;Begundo
+0;-16.1706,12.4169;GW-06;Cacheu;Beguingue
+0;-15.6728,12.0997;GW-06;Cacheu;Bedasse
+0;-16.2167,12.0528;GW-06;Cacheu;Batau
+0;-16.6067,12.3386;GW-06;Cacheu;Basseor
+0;-16.1858,12.1269;GW-06;Cacheu;Bassarel
+0;-16.2672,12.0669;GW-06;Cacheu;Bassane
+0;-15.6261,12.3892;GW-06;Cacheu;Barro
+0;-16.1683,12.4353;GW-06;Cacheu;Barraca Lugar
+0;-16.0658,12.4397;GW-06;Cacheu;Barraca Cana
+0;-16.1322,12.4483;GW-06;Cacheu;Barraca Begoá
+0;-16.2025,12.4497;GW-06;Cacheu;Barraca Bamboré
+0;-15.9106,12.3294;GW-06;Cacheu;Barraca
+0;-16.1969,12.0572;GW-06;Cacheu;Bariapende
+0;-15.0500,11.9992;GW-04;Oio;Baradoulo
+0;-16.0839,12.0856;GW-06;Cacheu;Bará
+0;-16.0947,12.2181;GW-06;Cacheu;Bapeja
+0;-15.3403,12.3917;GW-04;Oio;Bantasso
+0;-16.2331,12.1892;GW-06;Cacheu;Baniu Pécia
+0;-16.0467,12.1647;GW-06;Cacheu;Banhute
+0;-16.0344,12.2378;GW-06;Cacheu;Banhinda
+0;-15.7394,12.3628;GW-06;Cacheu;Banhima
+0;-16.2731,12.3478;GW-06;Cacheu;Banhima
+0;-15.4361,12.3267;GW-04;Oio;Bancolene
+0;-15.0625,12.4611;GW-04;Oio;Bananto
+0;-15.0669,12.3656;GW-04;Oio;Bambaiá
+7620;-14.8612,12.0234;GW-01;Bafatá;Bambadinca
+0;-16.0536,12.1992;GW-06;Cacheu;Bámal
+0;-16.1186,12.1125;GW-06;Cacheu;Balombe
+0;-16.1292,12.1628;GW-06;Cacheu;Balenguerez
+0;-16.0675,12.0181;GW-06;Cacheu;Bajuaca
+0;-16.2386,12.1142;GW-06;Cacheu;Bajope
+0;-16.0742,12.1000;GW-06;Cacheu;Bajope
+0;-15.9358,12.3656;GW-06;Cacheu;Bajonga
+0;-15.8381,12.0908;GW-06;Cacheu;Bajique
+0;-16.1342,12.2167;GW-06;Cacheu;Bajame
+0;-16.1442,12.1939;GW-06;Cacheu;Bajalã
+0;-15.1681,12.3586;GW-04;Oio;Baite
+0;-15.9403,12.1864;GW-06;Cacheu;Baguendal
+0;-15.9919,12.4425;GW-06;Cacheu;Baguê
+0;-15.1236,12.3775;GW-04;Oio;Bagadage
+0;-15.3489,12.3811;GW-04;Oio;Bafatandim
+0;-15.2003,12.4628;GW-04;Oio;Bafatá
+33502;-14.6617,12.1658;GW-01;Bafatá;Bafatá
+0;-15.8078,12.1839;GW-06;Cacheu;Badâ
+0;-16.0367,12.2853;GW-06;Cacheu;Bachile Fanho
+0;-16.0547,12.1781;GW-06;Cacheu;Bachile
+0;-16.0825,12.0667;GW-06;Cacheu;Bachegue
+0;-16.2289,12.3811;GW-06;Cacheu;Bachamor
+0;-15.8128,12.1356;GW-06;Cacheu;Bácar
+0;-16.1100,12.1747;GW-06;Cacheu;Babol
+0;-16.0325,12.0869;GW-06;Cacheu;Babanda
+0;-16.4342,12.3000;GW-06;Cacheu;Arame
+0;-15.9758,12.4019;GW-06;Cacheu;Aquinchá
+0;-15.9347,12.3461;GW-06;Cacheu;Apilho Balanta
+0;-15.9436,12.3361;GW-06;Cacheu;Apilho
+0;-15.7747,12.2858;GW-06;Cacheu;Antotinhamezinho
+0;-15.7986,12.2808;GW-06;Cacheu;Antotinha
+0;-15.2472,12.0728;GW-04;Oio;Anha Futa-Fula
+0;-15.9478,12.3558;GW-06;Cacheu;Amone
+0;-15.3861,12.3511;GW-04;Oio;Amina Dala
+0;-15.3556,12.4892;GW-04;Oio;Alabato
+0;-15.7819,12.4139;GW-06;Cacheu;Áfia
+0;-15.8881,12.3872;GW-06;Cacheu;Abulzinho
+0;-15.8881,12.3400;GW-06;Cacheu;Abul
+0;-15.2336,12.1683;GW-04;Oio;Serração
+0;-15.4089,12.1606;GW-04;Oio;Assela
+0;-15.9669,12.3622;GW-06;Cacheu;Canchingolo
+0;-15.7831,12.1989;GW-06;Cacheu;Jol
+0;-16.2667,11.5667;GW-05;Bolama;Caravela
+0;-15.7404,11.8040;GW-12;Biombo;Prabis
+0;-15.5982,11.8728;GW-11;Bissau;Granja-Pessube

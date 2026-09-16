@@ -1,0 +1,30 @@
+ar;واترلو، سيراليون;Waterloo
+en;Waribanu;Waribana
+en;Toroko;Toloko
+en;Dar es Salaam;Rogbom
+ar;بورت لوكو;Port Loko
+en;Petema;Kpetema
+en;Manki;Mankene
+en;Manjehun;Manjeihun
+ar;ماكيني;Makeni
+ar;كويدو;Koidu
+ar;كينيما;Kenema
+ar;كابالا;Kabala
+ha;unguwance a kaduna;Kabala
+ar;فريتاون;Freetown
+ar;فريتون;Freetown
+en;Bundobu;Mbundobu
+en;Bumbo;Bumba
+en;Bopan;Bopani
+en;Kpowabu;Boabu
+ar;بو;Bo
+en;Ballo Wharf;Barlo Wharf
+nl;Ballo Wharf;Barlo Wharf
+it;Baiima;Palima
+fr;Baiima;Palima
+nl;Baiima;Palima
+es;Baiima;Palima
+en;Tosu;Tuso
+en;Nyandehun;Shinbekihun
+en;Sieromco Mokanje;Jaiyahun Junction
+en;Mile 30;Mile 30.

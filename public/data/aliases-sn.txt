@@ -1,0 +1,1263 @@
+ar;زيغنشور;Ziguinchor
+fr;Yolma;Yolma Deux
+fr;Yolma 2;Yolma Deux
+fr;Yervago;Yerwago
+fr;Yemguéké;Yenguélé
+fr;Yayem;Yayèm
+fr;Yaye;Yâye
+fr;Yari Gouye;Yâri Gouye
+fr;Yargouye;Yârou Gouye
+fr;Yârgouye;Yârou Gouye
+fr;Yamané;Yamane
+fr;Touba Diaksao;Touba Diaksaw
+en;Yaboyabo;Yabo Yabo
+nl;Yaboyabo;Yabo Yabo
+fr;Wore;Horé
+fr;Vouga;Wogueu
+fr;Vindé;Weyndé
+fr;Vendou Gniwa;Véndou Gniwa
+fr;Véndou Gniva;Véndou Gniwa
+fr;Vélor Sérère;Wélor Sérèr
+fr;Vélor;Wélor Sérèr
+fr;Vang;Wanga
+fr;Touré;Touré Mbond
+fr;Touré;Keur Aliou Touré
+fr;Toune;Toun
+fr;Tougoutye;Tougoutye Un
+fr;Tougoutye 1;Tougoutye Un
+fr;Touba Mouride;Touba Mourid
+wo;Tuubaa;Touba
+fr;Touba 1;Touba Un
+fr;Touba Mandéra;Touba Un
+fr;Tokorag;Tokorak
+fr;Toki;Toki Gare
+fr;Todel;Todél
+fr;Todèl;Todél
+fr;Tivaouane;Tivaouane Léwé
+fr;Tissé;Thissé
+fr;Tyissé;Thissé
+fr;Tyissé;Tissé
+fr;Tip;Darou Salam Tip
+fr;Tioyène;Tioyène Niombato
+fr;Tioundi;Tiondi Berndé
+fr;Tioump;Tioumb Touré
+fr;Tioumbo;Tiwo
+fr;Tivo;Tiwo
+fr;Tioumbé;Tiombé
+fr;Tiofihor;Tiofior
+fr;Tiodio Goye;Tiodiogoye
+fr;Tilmarha;Thilmakha
+fr;Tilé Oundé;Thila Ounté
+fr;Tignol Maoudo;Tyingol
+fr;Tielseldé;Tielsedé
+fr;Tièlsedé;Tielsedé
+fr;Tiep;Tiêp Lambaye
+fr;Tiéo;Tiéwo
+fr;Tiéo;Tièw
+fr;Tiènthie 2;Tiènthie Deux
+fr;Tiengal;Ngoundiane Dior
+fr;Tiénéba;Tiénaba
+fr;Tiénéba;Tiénaba Khabane
+fr;Tiendiègne;Tiéndieng
+fr;Tiélé Patièm;Tièl Patièm
+fr;Tiel;Tièl
+fr;Tiékane;Tièkane
+fr;Tibeli Mael;Bélikaél
+fr;Tiavène;Tiawène
+fr;Tiatiao;Tiatiaw
+fr;Tiarène Matar;Tiarène Santhie
+fr;Ndienguène;Tiarène Babou
+fr;Tiarène Garang;Touba Tiarène
+fr;Tiaré Djilassèm;Tiaré Ngolgui
+fr;Tianda Tyissé;Tianda Thissé
+fr;Thiamène Ndiafori;Tiâmène Wolof
+fr;Thiamène;Tiâmène
+fr;Thiamène Diogo;Tiâmène Diogo
+fr;Tial Gnik;Tialé Gnik
+fr;Tialène;Malém Tialène
+fr;Tialé;Tialé Mabour
+fr;Tièlé;Tialé
+fr;Tiale;Tialé
+fr;Tiélé;Tialé
+fr;Tiahitou;Tiaytou
+fr;Tiabel;Tiabé Sanou
+fr;Tévél Keur Massèye;Téwél Keur Massèye
+fr;Teudi Biti;Teude Biti
+fr;Téourou Kossom;Tewrou Kossam Deux
+fr;Tewrou Kossam 2;Tewrou Kossam Deux
+fr;Tène Fodé;Tèn Fodé
+fr;Téla;Tèla Yar Gouye
+fr;Tek Bang Hadji;Tek
+fr;Tyidi Dièye;Thidi Dièye
+fr;Tissé 2;Tissé Deux
+fr;Tyillène;Tilène
+fr;Tchianmane;Tiangane
+fr;Tchénéké;Keur Tiénéké
+fr;Taourou Gari;Téourou Ngari
+fr;Taoua;Tawa
+fr;Taofèkh;Tawfekh
+fr;Tanda Mboudaye;Tanda
+bm;Tanbakunda;Tanbakounda
+bm;Tanbakunda;Tambakounda
+bm;Tanbakunda;Tambacounda
+bm;Tanbakunda;Tamba Kounda
+ar;تمباكوندا;Tambacounda
+fr;Tallène;Talène
+fr;Taleg;Talègne
+fr;Taïf;Taïf Ndioum
+fr;Taïba Ndao;Taïba Ndaw
+fr;Taïba Dakar;Taïba Dakhar
+fr;Taïba;Taïba Ndiagne
+fr;Taïba;Taïba Tiékène
+fr;Taïba;Taïba Mboro
+fr;Touba Nding;Taba Nding
+fr;Tabakali;Tabakali Wolof
+fr;Soupa;Patar Walo
+fr;Soumbel;Soumbél
+fr;Soukoundou;Nasrou
+fr;Soukoto;Keur Amadi Nguénar
+fr;Soukèm;Soukhèm
+fr;Soudiane Bambara;Soudiane Bala
+fr;Sorsorobougou;Sorobougou
+fr;Keur Mandiaye;Sourang
+fr;Sop;Sob
+fr;Somak;Touba Soma
+fr;Sokanou;Sokano
+fr;Saot;Sival
+fr;Sitoukène;Sitikène
+fr;Sirhane;Sikhane
+fr;Sival;Siwal
+fr;Sintié Belbouk;Santhie Mbelbouk
+fr;Santye Mbelbouk;Santhie Mbelbouk
+fr;Santye Alé Ndao;Santhie Alé Ndaw
+fr;Sinnki;Sing Boyar
+fr;Sinediane;Wakhal Diamm
+fr;Simon Santye;Simong Hamdallaye
+fr;Simon Diéne;Simong Diène
+fr;Sig;Sing
+fr;Sidibougou;Sidi Bougou
+fr;Sibon Moussa;Sam Moussa
+fr;Sibassar;Sibassor
+fr;Lyndiane;Sibassor
+fr;Linndiane;Sibassor
+fr;Sessène;Séssène
+fr;Séo Rhaye;Sèw Khaye
+fr;Séo;Séo Keur Amadou
+fr;Keur Séni Guèye 1;Keur Séni Guèye Un
+fr;Sekhlé Diarga;Sékhla Diarga
+fr;Segueul;Ségueule
+fr;Segré Ségo;Ségré Sékko
+en;Sedhiou;Sédhiou
+ar;سيديو;Sédhiou
+es;Sedhiou;Sédhiou
+de;Sedhiou;Sédhiou
+ha;Sedhiou;Sédhiou
+pt;Sedhiou;Sédhiou
+de;Sébikotane;Sébikhotane
+en;Sébikotane;Sébikhotane
+fr;Sébikotane;Sébikhotane
+nl;Sébikotane Arrondissement;Sébikhotane
+fr;Séane;Louki Séane
+fr;Sate Ouali;Saté Wali
+fr;Sassar Salem;Sas Mak
+fr;Saré Ngadiari;Peul Ngadiari
+fr;Saou;Sao
+fr;Sao;Saw
+fr;Santye Galngone;Santhie Galangone
+fr;Santié Passi;Passi Santhie
+fr;Sanoussi;Ndam Sanossi
+fr;Sanian;Sâgna
+fr;Sassène;Sanghé
+fr;Sangane Ouolof;Sanghane Wolof
+fr;Sangane;Mbambara Chérif
+fr;Sam Sam;Samsam
+fr;Sam;Samé
+fr;Samboulandiang;Sambouladian
+fr;Sambé Guène;Sambé Guént
+fr;Sambé;Sambé Peul
+fr;Samba Rhodia;Keur Samba Khodia
+fr;Samba Nosso;Keur Samba Nosso
+fr;Samba Guèye;Keur Samba Guèye
+fr;Samatite;Samatit
+fr;Samael;Samayél
+fr;Sama;Sama Toucouleur
+fr;Bouligoye;Salo
+fr;Sawkom 1;Sawkom Un
+fr;Sakao;Sakhaw
+fr;Sakhagne 1;Sakhagne Un
+fr;Sakhagne;Sakhagne Un
+es;Saint Louis;Saint-Louis
+ar;سانت لويس;Saint-Louis
+fr;Keur Farba;Sadioga
+fr;Sabassi;Keur Sabassi Tiam
+fr;Sabar;Sabar Deux
+fr;Sabar 2;Sabar Deux
+wo;Tëngéej;Rufisque
+ar;روفسك;Rufisque
+fr;Ro;Roh
+fr;Rasso;Rassa
+fr;Rimbarh;Rimbakh
+fr;Rheul;Ngheul
+fr;Rhaye Bayar;Khaye Mbayar
+fr;Rhayane Bambara;Khayane Bambara
+fr;N'Gape;Ngap
+fr;Rhalambas;Khalambas (Pinlaw)
+fr;Réfane Souf;Réfane
+fr;Réfane Kao;Bokhé
+fr;Poukham 1;Poukham Un
+fr;Poultok;Poultok Diohine
+fr;Poulomak;Poulmak
+en;Polel Diaoube;Polel Diaoubé
+fr;Polek;Polék
+fr;Polam Rok;Palam Rôk
+fr;Ponto;Pointe Sarène
+fr;Pointe-Sarène;Pointe Sarène
+fr;La Pointe;Pointe Sarène
+fr;Pofine;Ngoyé Pofine
+fr;Pétègne;Darou Djadji
+fr;Petche;Péthie
+fr;Payoma;Poyoma
+fr;Paye Mar;Paymar Wolof
+fr;Patièm 2;Patièm Deux
+fr;Patièm II;Patièm Deux
+fr;Passi Ndinderling;Passi Ndénderling
+fr;Pari;Pari Dièye
+fr;Pargui;Parguine Wolof
+fr;Parassel;Parassèl
+fr;Parane;Poram Sérèr
+fr;Pané Amat;Pané Mat
+fr;Panal Ouolof;Panal Wolof
+fr;Pamène;Pamèn Un
+fr;Pamèn 1;Pamèn Un
+fr;Palmarin Nguèdj;Palmarin Nguèthie
+en;Palmarin;Palmarin Facao
+it;Palmarin;Palmarin Facao
+fr;Palmarin;Palmarin Facao
+nl;Palmarin;Palmarin Facao
+fr;Pakala;Darou Pakala
+fr;Païpaï;Paye Paye
+fr;Pâfa 2;Pâfa Deux
+fr;Paffa;Pâfa Un
+fr;Pâfa;Pâfa Un
+fr;Pâfa 1;Pâfa Un
+de;Ourossogui;Ouro Sogui
+it;Ourossogui;Ouro Sogui
+fr;Ourossogui;Ouro Sogui
+es;Ourossogui;Ouro Sogui
+ar;أوروسغي;Ouro Sogui
+fr;Ourkogne;Darou Guèye Un
+fr;Darou Guèye I;Darou Guèye Un
+fr;Darou Guèye 1;Darou Guèye Un
+fr;Ouniak;Woniak
+fr;Ouel Moundaye;Wel Mbandouare
+fr;Oudouvola;Houdolo
+fr;Ouaral Diam;Wakhal Diamm
+fr;Ouandé;Wandé
+fr;Oualalane;Walalane
+fr;Wangarang;Wangaran
+fr;Ouadia;Wadia Dieng
+fr;Ouadène;Wadène
+fr;Ouadène;Gowothie Wadène
+fr;Odioldé;Darou Odioldé
+fr;Noukouyel;Nougouwel
+fr;Noto;Noto Gouye Diama
+fr;Nouto;Noto Gouye Diama
+fr;Noto Gouye Diame;Noto Gouye Diama
+fr;Nobandam;Nobandane
+fr;Nioro Alassane;Nioro Alassane Tal
+fr;Nionbré;Niomré
+fr;Niombré;Niomré
+fr;Ning;Gnigning
+fr;Niayène;Nguérane
+fr;Niambouguèl;Niambouguel
+fr;Niapa Diaye;Niapa Santhie
+fr;Niapa Ndiaye;Niapa Santhie
+fr;Nianguène Ouolof;Nianguène Wolof
+fr;Nianène;Keur Abdou Mam
+fr;Nianane;Nianiane
+fr;Niamaré;Nghamaré
+fr;Niallé;Nialé
+fr;Nguinte;Guènt
+fr;Nguiedj;Nguédj
+fr;Nguéssim;Nguèssine
+fr;Nguer;Nguer Coumba Daya
+fr;Nguèr Koumba;Nguer Coumba Daya
+fr;Nguer Ali;Nguer Babou
+fr;Nguêr Babou;Nguer Babou
+fr;Ngouloul;Ngouloul Peul
+fr;Ngouye;Ngouye Tidiane
+ar;نغور;Ngor
+fr;Ngor;Keur Ngôr
+fr;Ngomène;Ngomène Louli
+fr;Ngolotié;Ngolothie
+fr;Ngolar;Ngolar Sérèr
+fr;Ngokare;Ngokaré
+fr;Ngogom;Maka Bas
+fr;N'Gazobill;Ngazobil
+fr;N'gayokhen;Ngayokhèm
+fr;Ngayorhem;Ngayokhèm
+fr;Ngayène Tiébo;Ngayéne Tiébo
+fr;Ngayène;Nguéyène
+fr;Ngassama;Gassama
+fr;Ngar Guèye;Ngar Amadou Yassine
+fr;Ngalangué;Galangué
+fr;Ngalagna Diaraf;Ngalagne Diaraf
+fr;Ngadj;Ngathie
+fr;Ngabou Fal;Guèb Fal
+fr;Nerane;Nérane
+fr;Néma Ba;Néma Bâ
+fr;Nébé;Nébé Teug
+fr;Ndombout;Ndoumboudj
+fr;Ndorong;Ndorong Wolof
+fr;Ndorhle;Ndokh
+fr;Ndofène;Ngohé
+fr;Ndofène;Ndofane
+fr;Ndofane Latir;Ndofane
+fr;Ndofane;Ndofane Dèm
+fr;Ndofane;Ndofane Bikol
+fr;Ndofane;Ndofane Tanewar
+fr;Ndofane;Ndofane Ndari
+fr;Ndirene;Ndirène
+fr;Ndiobène Rokhi;Ndiobène
+fr;Ndiop;Ndiob
+fr;Ndionguène;Marnane
+fr;Ndione Kad;Ndione Kad Un
+fr;Ndione Kad 1;Ndione Kad Un
+fr;Ndiom Gaye;Ndèm
+fr;Ndiol;Ndiol Khokhane
+fr;N'Dindy;Ndindy
+fr;Sam;Dendey
+fr;Ndindi;Dendey
+fr;Ndiangane Keur Kadié;Diangane Keur Gadji
+fr;Ndiengué;Mbakhé
+fr;N'Ouiélée;Diéleuk Wolof
+fr;Diéleuk Ouolof;Diéleuk Wolof
+fr;Diéleuk;Diéleuk Wolof
+fr;Nguiélée;Diéleuk Wolof
+fr;Ndiélék;Diéleuk Wolof
+fr;Ndiéfèr;Ndiéfer
+fr;Touba Ndiènné;Touba Ndièmé
+fr;Ndiaye Ndiaye Sérère;Ndiaye Ndiaye Sérèr
+fr;Ndiaye Ndiaye Ouolof;Ndiaye Ndiaye Wolof
+fr;Ndiaye Ala 1;Ndiaye Ala Un
+fr;Ndiatiane;Ndiatiang
+fr;Petpal;Ndiassane
+fr;Ndiari;Ndiéré
+fr;Ndiarhaté Ndiassane;Ndiakhaté Ndiassane
+fr;Ndiarhao;Ndiakho
+fr;Ndiaraye;Ndiakhaye
+fr;Ndienguène Modi;Ndiènghène Modi
+fr;Ndiamane;Ndiarmane
+fr;Ndialal;Ndialal Safokine
+fr;Ndiagnène Issoub;Ndiagnène Issoup
+fr;Ndiagué;Ndiakhaté
+fr;Bot Escale;Ndiaganiao
+fr;Ndiagane;Ndia
+fr;N'Diadiane;Ndiadiane
+fr;Ndidiène;Ndiadiane
+fr;Darou;Darou Nianghène
+fr;Ndari;Ndari Palène
+fr;Ndaramé;Ndramé
+fr;Ndam;Ndam Lô
+fr;Ndakar;Ndakhar
+fr;Ndafène;Diop Ndofène
+fr;Ndadafar;Ndadafakh
+fr;Nbissel;Mbissel
+fr;Naye;Nghaye
+fr;Nadioto;Niadioto
+fr;Keur Babou Penda;Darou Ibrahima Sagnane
+fr;Mousladji 2;Mousladji Deux
+fr;Mousladji 1;Mousladji Un
+fr;Missira Dina;Missira Diné
+fr;Met;Mèt
+fr;Mérina;Mérina Sill
+fr;Mérina;Mérina Tiakho
+fr;Méril;Keur Médoune
+fr;Méo Méo;Méw Méw
+fr;Médina Touré;Madina Touré
+fr;Madina Ndavène;Madina Ndoyène
+fr;Médina Fas;Madina Fas
+fr;Médina Bobo;Madina Mbobo
+fr;Médina;Madina
+fr;Médina;Madina Dianké
+fr;Mdogone;Ndong
+fr;Mbousso;Mbousso Ndir
+fr;Mbouror;Mbourokh
+fr;Mboudaye Sèk;Mboudaye
+fr;Mbos Ouadiour;Mbos Wadiour
+fr;Mbos Balla Peul;Mbos Bala Peul
+fr;Mborhodofe;Mbokhéodof
+fr;Mbondane;Ngonine Mbadane
+fr;Mbil;Bil
+fr;Bène Ouolof;Béne Wolof
+fr;Mbèlongout;Mbélongout
+fr;Mbongout;Mbélongout
+fr;Mbelka;Darou Tanzil
+fr;Mbelane;Mbélane
+fr;Mbéfèl;Mbéfél
+fr;Mbédape;Mbédap
+fr;Mbayène 1;Mbayène
+fr;Mbayène;Mbayène Dankh
+fr;Bayé Ndiaye;Baye Ndiaye
+fr;Mbam;Mbane
+fr;Mbaké Salao;Mbaké Saloum
+de;Mbacké;Mbaké
+en;Mbacké;Mbaké
+it;Mbacké;Mbaké
+fr;Mbacké;Mbaké
+nl;Mbacké;Mbaké
+fr;Mbaye Séo;Mbagne Séo
+fr;Bak;Mbadakhoun
+fr;Back;Mbadakhoun
+fr;Maye Landan;Maye Landang
+fr;Magaye;Mayaye
+ar;ماتام;Matam
+fr;Massara;Massaran
+fr;Ma Samba;Darou Ndiaye
+fr;Malème Hodar;Malèm Hodar
+fr;Maléme-Hodar;Malèm Hodar
+fr;Santye Makha;Keur Sarokhi
+fr;Keur Mamadou Koumba;Ndioté Mor Coumba
+fr;Malèm Sérigne;Malém Sérigne
+fr;Maka Bella;Maka Bélal
+fr;Mahmouda II;Mahamouda Deux
+fr;Mahamouda 2;Mahamouda Deux
+fr;Madina Diokoye;Médina Djikoye
+fr;Madiédiam;Madiéda
+fr;Loumbèl Kéli;Loumbél Kéli
+fr;Loumbél;Tissé
+fr;Loumbél Sayé;Loumbé Sayé Sérèr
+fr;Loul Sessène;Loul Séssène
+fr;Louli Niar;Louli Ndia
+ar;لوغا;Louga
+fr;Livé;Léwé
+fr;Lévé;Léwé
+fr;Levé;Léwé
+fr;Leldi;Louldé
+fr;Laffa;Lefeu
+fr;Layène Boumak;Layène
+fr;Latir;Ndofane Latir
+fr;Lanéane;Keur Ngagne
+fr;Lanbanèm;Lambanèm
+fr;Lam Sar;Lamsar
+fr;Lam Lam;Lam-Lam
+fr;Lâmaram;Lâmaram Badiane
+fr;Lalane;Lalane Diokoun
+fr;Koutal Abdou Dramé;Campement Ibou Dramé
+fr;Koutal;Koutal Wolof
+fr;Kouta;Mandé Kouta
+fr;Kounar;Khouna
+fr;Kounakh;Khouna
+fr;Kouli;Keur Kouli Diouf
+fr;Koudôm;Koudom
+fr;Kouak;Keur Wak Dia
+fr;Kortièl;Kortiel
+fr;Keur Momar Khourédia;Darou Keur Mamour Khorédia
+fr;Kora 1;Kora Un
+fr;Ndiogoi;Kop Goyane
+fr;Kopgoyane;Kop Goyane
+fr;Diogoye;Kop Goyane
+fr;Badionkoto Komboli;Komboli
+fr;Kolobane;Colobane Tiombane
+ar;كولدا;Kolda
+fr;Koïlal;Koïlal Moussa Boye
+fr;Koguiane;Kotiane
+fr;Koétiao;Kotiaw
+fr;Kodiéri;Khodjil
+fr;Kobo Toki;Kabatoki
+fr;Kobon Soye Boundao;Kobongoye Deux
+fr;Kobongoye 2;Kobongoye Deux
+fr;Kobon Gaye Boumak;Kobongoye Un
+fr;Kobongoye 1;Kobongoye Un
+fr;Kantimba;Kitimbo
+fr;Kindieng;Thindieng
+fr;Kilométre Six;Sikilo
+fr;Kbombole;Khombole
+fr;Keur Yoro Barou;Keur Yoro Mbarou
+fr;Keur Yoro Assita;Keur Yoro Asta
+fr;Keur Toumba Daga;Keur Koumba Daga
+fr;Keur Tiem Savaré;Tième Souaré
+fr;Keur Soulé Ka;Keur Soulèye
+fr;Keur Sossé;Keur Sossé Koumba
+fr;Keur Socé Sago;Keur Socé
+fr;Keur Sidi Tall;Arwal
+fr;Keur Sérigne Ndar;Keur Serigne Ndar
+fr;Keur Sérigne Batye;Darou Ndiaye
+fr;Keur Sérigne Khodia;Keur Serigne Khodia
+fr;Keur Sérigne Dié;Keur Serigne Dié
+fr;Keur Sérigne Bamba;Keur Serigne Bamba
+fr;Keur Sa Ndao;Keur Sa Ndaw
+fr;Keur Sambaré;Keur Sambéré
+fr;Kâkot;Kâkoth
+fr;Keur Sambadiate;Keur Samba Tiadji
+fr;Ndiakhaté;Ndiakhate
+fr;Keur Samagne;Bane Samane
+fr;Keur Séydou;Keur Seydou
+fr;Keur Rhali Sorhena;Keur Khali Sokhna
+fr;Keur Paté Rhéri;Keur Paté Khéwé
+fr;Keur Pâté Dèm;Keur Paté Dèm
+fr;Keur Oumar Oumi;Keur Omar Oumi
+fr;Keur Omar Koudia;Keur Omar Khoudia
+fr;Keur Oumar Khoudia;Keur Omar Khoudia
+fr;Keur Diamé;Keur Diammé
+fr;Keur Ndene Ndao;Keur Ndèné Koumba Sar
+fr;Keur Nari;Keur Nghari
+fr;Keur Nadiène;Keur Madieng
+fr;Keur Moussa Naye;Fas Moussa Naye
+fr;Keur Mormagat;Darou Mbayène
+fr;Keur Momar Sokhna;Keur Momat Souna
+fr;Keur Mogoram;Keur Magorom Sal
+fr;Keur Miniane;Mandé Keur Miniane
+fr;Mbaïseri;Keur Mbaye Séni
+fr;Keur Mbaye Séri;Keur Mbaye Séni
+fr;Keur Matar Mbaye;Kéré Mbaye
+fr;Keur Matar;Keur Matar Darou Dia
+fr;Keur Massouko;Keur Massouka
+fr;Keur Maridiaye;Keur Mor Ndiaye
+fr;Keur Manyane;Keur Madieng
+fr;Mandoumbé Khari;Keur Mandoumbé Khari
+fr;Keur Madoumbé;Keur Mandoumbé Khari
+fr;Keur Mandiaye;Keur Mandiaye Fatim
+fr;Keur Mandao;Boli Keur Mandaw
+fr;Keur Mamour Lo;Keur Mamour Lô
+fr;Keur Mamaram;Keur Mam Maram
+fr;Keur Makouba Kébé;Keur Makoumba Kébé
+fr;Keur Maïssa;Keur Maïssa Ndiaye
+fr;Keur Magnao Sila;Keur Maniaw
+fr;Keur Magayène Sao;Keur Maguèye Ndaw
+fr;Ngar Madieng;Keur Madieng
+fr;Keur Lahine Socé;Keur Lahine Sossé
+fr;Keur Malahine;Keur Lamine
+fr;Keur Layène Sakho;Keur Lahine Sakho
+fr;Keur Lamine Khorédia;Keur Lahine Khorédia
+fr;Keur Kalo;Keur Galo Diaw
+fr;Keur Kali;Keur Khali Mboup
+fr;Keur Ibou Kani;Bantanding
+fr;Keur Godasam;Keur Ngouda Samb
+fr;Keur Gaye;Keur Gaye Sèye
+fr;Keur Elimane;Keur Élimane
+fr;Keur El Hadji Baké;Keur Aladji Mbaké
+fr;Keur El Hadj Momat;Keur El Hadji Momat
+fr;Keur Diogou;Keur Ndiogou Ndiaye
+fr;Keur Diara;Keur Diara Bambara
+fr;Keur Diang;Keur Ndiang
+fr;Keur Demba Mbakéri;Keur Mary Mbakéri
+fr;Keur Dam;Keur Dame
+fr;Keur Chérif Moulaye;Chérif Moulaye
+fr;Keur Bangou;Keur Mbangou
+fr;Keur Banda Niang;Keur Banda
+fr;Keur Bala;Keur Bala Ndiaye
+fr;Keur Bakar;Keur Baka
+fr;Keur Amat Séydou;Keur Amat Seydou
+fr;Keur Amat Seune;Keur Amat Seun
+fr;Keur Amadou Matar;Keur Matar Wade
+fr;Keur Ali Sar;Keur Alassane Diaw
+fr;Keur Ali Gassam;Keur Ali Bassine
+fr;Keur Ali Dramé;Keur Ali Khadi
+fr;Keur Alé;Keur Alé Baba
+fr;Keur Ayip Kâ;Keur Aïp Ka
+fr;Keur Abdou Diané;Médina Diané
+fr;Keur Abla Diao;Keur Ablaye Diaw
+fr;Keur Abdou Sakor;Touba Ndoga
+fr;Ségré Abdou;Ségré Gatta
+fr;Kéré Ndiaga Ndao;Kéré Ndiaga Ndaw
+fr;Kelkome;Khelcom Diaga
+fr;Khelkom Diaga;Khelcom Diaga
+fr;Kéléwtéw Sérère;Kéléwtéw
+fr;Kélémel;Kélémbéli
+fr;Kélèl;Kélel Diop
+fr;Kélel;Kélel Diop
+en;Kedougou;Kédougou
+ar;كيدوغو;Kédougou
+es;Kedougou;Kédougou
+de;Kedougou;Kédougou
+ha;Kedougou;Kédougou
+pt;Kedougou;Kédougou
+fr;Kédiéo;Gouye Dior
+fr;Kébé Keur Babou;Kébé Keur Badou
+fr;Kayi Alouki;Kaye Alouki
+fr;Kavil;Kawil
+fr;Katinoro Kaégor;Katounor
+fr;Ghadior;Katior
+fr;Mouniane;Kataba Deux
+fr;Kataba II;Kataba Deux
+fr;Kataba 2;Kataba Deux
+fr;Badjikounda;Kataba Un
+fr;Kataba 1;Kataba Un
+fr;Kataba I;Kataba Un
+fr;Karang;Karang Poste
+en;Carabane;Karabane
+ar;كارابان;Karabane
+nl;Carabane;Karabane
+fr;Kaoul;Khaoul Tok Ngol
+fr;Kaossara;Kawssara
+fr;Kaossa;Kawssa
+ar;كاولاك;Kaolack
+fr;Broundène;Kandong
+fr;Kandi Sada;Touba Kaèl
+fr;Touba Kael;Touba Kaèl
+fr;Kandiou;Kandiou Un
+fr;Kandiou 1;Kandiou Un
+fr;Kandé;Khindé
+fr;Kamatane;Kamatane Bambara
+fr;Kaloubaloub;Kaloubalou
+fr;Kalom;Kalom Ndofane
+fr;Kaili;Kayi
+fr;Kaïga;Khaïga
+ar;كافرين;Kaffrine
+fr;Kadiel;Kadiél
+fr;Kadièl;Kadiél
+fr;Kadaodao;Kadawdaw
+fr;Kaba;Kaba Fandène
+fr;Jardin de Linndiane;Lyndiane
+fr;Idaoa;Irada Mbaye Fal
+fr;Irada Mbaye Fall;Irada Mbaye Fal
+fr;Hamdallaï I;Hamdallaye
+fr;Hamdallaï Un;Hamdallaye
+fr;Djinéa Djadjibé;Guinéa Djiadibé
+fr;Djilôr;Djilor
+fr;Guilikhar;Djilékhar
+fr;Djilakoumoun;Djilakoun
+fr;Niaye;Guéssel
+fr;Guerlé Ouolof;Guerlé Wolof
+fr;Guennte Gouye;Guènt Gouye
+fr;Gueb Fal;Map
+fr;Gravadior;Loumène
+fr;Gowane;Gowane Peul
+fr;Govédji;Gowothie Nguéyène
+fr;Gové;Gowé
+fr;Goyé;Gowé
+fr;Gouye Méo;Gouye Méw
+fr;Gouyaré;Gouyar
+fr;Bène Coupe-coupe;Béne Coupe-Coupe
+fr;Ngoundiodj 1;Ngoundiodj Un
+fr;Goudé;Kouré
+fr;Guènt Peul 1;Guènt Peul Un
+fr;Guènt Peul;Guènt Peul Un
+fr;Golou Peul;Guènt Peul Un
+fr;Goria;Keur Ibrahima Mbaye
+es;Isla de Gorea;Gorée
+fr;Île de Gorée;Gorée
+ar;جزيرة غوريه;Gorée
+wo;Beer;Gorée
+fr;Gordjilène;Gordjilène Wilanène
+fr;Ngondiaye;Ndondiaye Peul
+fr;Gokaré Sao;Ngokaré Sow
+fr;N'Goé;Gohé Un
+fr;Gohé 1;Gohé Un
+fr;Rodiel;Ngodiél
+fr;Rhodiel;Ngodiél
+fr;Godjil;Ngodiél
+fr;Darou Fall Godio;Darou Fal Godio
+fr;Godaguène;Godaguèn
+fr;Gnibi Lambaye;Lambaye
+fr;Gnaba;Ngâba
+fr;Gayène;Ngayène
+fr;Gaye Bodé;Bodé Deux
+fr;Bodé Dieng;Bodé Deux
+fr;Bodé Un;Bodé Deux
+fr;Bodé 2;Bodé Deux
+fr;Bodé I;Bodé Deux
+fr;Gavane Djidda;Gavane Djida
+fr;Ngatye Peul;Ngathie Peul
+fr;Gatié;Ngathie
+fr;Gassel;Gassél
+fr;Gangounaye;Ngangouné
+ar;غاندياي;Gandiaye
+fr;Moukhoumé;Gama Moukhoumé
+fr;Galoulé;Madina Kébé
+fr;Gaïma Tapsir;Keur Tamsir
+fr;Gagnabougou;Gania Bougou
+fr;Gadoguène;Godaguèn Dak
+fr;Gadiali;Guédiali
+fr;Gad Escale;Gade Escale
+fr;Gadada;Ngadada
+fr;Gabar;Gabar Diop
+fr;Foulakounda;Kataba Trois
+fr;Kataba 3;Kataba Trois
+fr;Fouial Sinndi;Ouyal Sandé Peul
+fr;Foua 1;Foua Un
+fr;Foua 2;Foua Deux
+fr;Foua;Foua Mbégnar
+fr;Foïloldé;Foïlodé
+fr;Fitio Bâli 1;Fitio Bâli Un
+fr;Fiarine Diana;Tiarène Diamma
+fr;Férala;Féré Alo
+fr;Féré Alla;Féré Alo
+ar;فاتيك;Fatick
+fr;Fass;Fas
+fr;Fas;Fas Sy
+fr;Fas;Fas Matar
+fr;Fao;Faw
+fr;Fanèye;Fanaye
+fr;Faïlar;Faylar Un
+fr;Faylar 1;Faylar Un
+fr;Ndramé Ibra;Ndramé Matar
+fr;Doyonbot;Ndoyombout
+fr;Doumbé;Ndoumbé
+fr;Dougoul;Dougoul Wolof
+fr;Doudame;Doudam
+fr;Ndione Kad 2;Ndione Kad Deux
+fr;Ndoni Ouolof;Ndoni Wolof
+fr;Dondol;Ndondol
+fr;Dom;Tataguine Sérèr
+fr;Dok Bouré;Karé
+fr;Ndoga 1;Ndoga Un
+fr;Dok;Ndok
+fr;Doguène;Khoubé
+fr;Dogadé;Dogade
+fr;Dofaye;Tofaye
+fr;Djondji Dié;Djioundji
+fr;Djinak Bara;Djinak Diatako
+fr;Djilanfari;Djilanfalé
+fr;Guinéa Djilakounda;Djilakounda
+fr;Guigirone;Djiguirone
+fr;Djigoudièr;Djigoyèr
+fr;Ndjigane;Ndjigane Sérèr
+fr;Djidda;Djida
+fr;Djibayala;Djibaya
+fr;Divane;Diwane
+fr;Diourbel Sine;Ndiourbel Sine
+wo;Jurbel;Diourbel
+ar;ديوربل;Diourbel
+fr;Dioud Nguel;Dioud Nguel Un
+fr;Dioud Nguel 1;Dioud Nguel Un
+fr;Dioum Samba Diao;Ndioum Ndiao
+fr;Dioulouf Doundou;Diouroup Ndoundour
+fr;Diouko Essèl;Ndiouk
+fr;Dioudiouf;Ndioudiouf
+fr;Dioundan Kantampor;Dioudian Kantapor
+fr;Dioundan Kaléou;Dioudian Kalou
+fr;Diorhoul;Diokoul
+fr;Diorel;Diôrel
+fr;Diongueul;Diomkhél
+fr;Djongol;Diongol
+fr;Diondiguel;Dioud Nguèl
+fr;Ndiombouring;Ndiomborel
+fr;Ndiongone;Ndiongone Sam
+fr;Diob Ndiafène;Diob
+fr;Dionouar;Dionewar
+fr;Dinnguier;Ndingler
+fr;Dinguiraye;Dinguiraye Marondé
+fr;Dingler;Ndinglèr
+fr;Dimbé Koiki;Ndimb Korki
+fr;Ndillé;Ndilé
+fr;Diguine;Diguine Wolof
+fr;Ndjigueul 1;Ndjigueul Un
+fr;Diéri;Tyikat Diéri
+fr;Diéné Lagane;Ndiéné Lagane
+fr;Ndiènné Lagane;Ndiéné Lagane
+ar;ديمت;Démèt
+ar;ديميت;Démèt
+ar;ديمت تيينل;Démèt
+fr;Diembo;Ndiombo
+fr;Djilankine;Diélinkine
+fr;Ndiayène Vali;Ndiayène Waly
+fr;Ndiaye Ndiaye Santye;Ndiaye Ndiaye
+fr;Diawara Alkali;Ndiawara Alkali
+fr;Diavène;Diawène
+fr;Diamvéli;Diamwéli
+fr;Diavé;Diawé Sérèr
+fr;Diavé Sérère;Diawé Sérèr
+en;Ndiass;D’ias
+fr;Diass;D’ias
+nl;Ndiass;D’ias
+fr;Diarno;Ndiarno
+fr;Diari;Ndiéri
+fr;Diarhao;Diakaw Saloum
+fr;Diakhaw Saloum;Diakaw Saloum
+fr;Diarab;Ndiarop
+fr;Diawré;Diawré Kouta
+fr;Diamvéli Mor;Diamwéli Mor
+fr;Diamvéli Alassane;Diamwéli Alassane
+fr;Dianké Soûf;Dianké Souf
+fr;Dianké Kao;Dianké Kaw
+fr;Diambang;Ndiambang
+fr;Diam Séli;Diamm Séli
+fr;Diamaguene;Diamaguène
+fr;Diama;Diamma
+fr;Dialaba Santié;Dialaba Deux
+fr;Dialaba 2;Dialaba Deux
+fr;Dialaba;Dialaba Un
+fr;Dialaba 1;Dialaba Un
+fr;Diakhanor;Palmarin Diakhanor
+fr;Diakaèl;Diakael
+fr;Ndofongon;Ngohé Ndofongor
+fr;Ndiayène Kadé;Ndiayène Momat
+fr;Diandoumé;Diadiakh
+fr;Diandoum;Diadiakh
+fr;Diadiak;Diadiakh
+fr;Diadiagne;Ndiadiane
+fr;Diaboudior Frontiére;Diaboudior Tangal
+fr;Diâbi;Diabi
+fr;Diabel;Diâbèl
+fr;Diâbél;Diâbèl
+fr;Diabel;Ndiébél
+fr;Dérep;Ndérèp Un
+fr;Ndérèp 1;Ndérèp Un
+fr;Demba Dia;Keur Dieumb Dia
+fr;Déguer;Touba Fal
+fr;Touba Fall;Touba Fal
+fr;Dayam;Nghadior Dayam
+fr;Davène;Ndawène
+fr;Ndavène;Ndawène
+fr;Datyié;Datyilé
+fr;Datel;Dadél
+fr;Dassilamé Socé;Dassilamé Missira
+fr;Darou Samb;Darou Samba
+fr;Darou Sam;Sam
+fr;Darou Salam;Darou Salam Ngaye
+fr;Darou Salam Kaèl;Darou Salam Kohé
+fr;Darou Salam;Darou Salam Un
+fr;Darou Salam I;Darou Salam Un
+fr;Darou Salam 1;Darou Salam Un
+fr;Darou Rhamane;Darou Ngomène
+fr;Darou Rahmane;Darou Rahmâne
+fr;Darou Rahmâne II;Darou Rahmâne
+fr;Darou Rahmâne Deux;Darou Rahmâne
+fr;Darou Ragmane;Darou Rahmâne Un
+fr;Darou Rahmâne 1;Darou Rahmâne Un
+fr;Darou Nguèr;Darou Nguêr
+fr;Darou Naïm;Darou Nahim
+fr;Darou Mbèye;Darou Mbaye
+fr;Darou Mbao;Darou Mbow
+fr;Keur Darou Mbaké;Keur Darou Mbacké
+fr;Keur Sadiouka Sall;Keur Darou Mbacké
+fr;Daroul Khaïri;Daroul Rhaïry
+fr;Daroul Khaïry;Daroul Rhaïry
+fr;Darou Fal;Darhar Mbaye
+fr;Darou Dieng;Darou Dièng
+fr;Darou Mbané;Darou Mbane
+fr;Darou Rahmane 1;Darou Rahmane Un
+fr;Darou Rahmâne;Darou Rahmane Un
+fr;Darou;Darou Diop
+fr;Ndar Ngouye;Ndar Gouye
+fr;Darègne;Baïti Santhie
+fr;Baïti;Baïti Santhie
+fr;Daré Diagal;Darou Khoudos
+fr;Daraye Imbar;Khaybarga
+fr;Téodogne;Khaybarga
+fr;Dara Motar Diop;Dara Matar Diop
+de;Dahra;Dara
+en;Dahra;Dara
+it;Dahra;Dara
+fr;Dahra;Dara
+nl;Dahra;Dara
+fr;Dara;Dara Kalom
+fr;Dara;Dara Diaké
+fr;Daoudé Sisse;Keur Daouda Cissé
+fr;Dangalma;Ndangalma
+fr;Danbangoye;Keur Demba Ngoye
+fr;Dala;Dala Ngabou
+pt;Dacar;Dakar
+wo;Ndakaaru;Dakar
+ar;داكار;Dakar
+fr;Daga Youdoum;Daga Youndoum
+fr;Daga Sangaré;Daga Sambaré
+fr;Dimbéga;Daga Ndoup
+ar;داغانا;Dagana
+fr;Daga Bani Tegue;Daga Bani Wadène
+fr;Daga;Doga
+fr;Daga;Bélel
+fr;Dabel Bara;Dabél Bara
+fr;Dabane;Dabane Wolof
+fr;Camp Peuls;Campements Peuls
+fr;Ngamb;Boye Ngamb
+fr;Boyé;Boyé Un
+fr;Boyé 1;Boyé Un
+fr;Bové;Bowé
+fr;Boutié;Bouthie
+fr;Bouboul;Bouloul
+fr;Bourvaye;Mbourwaye
+fr;Boumbali;Bombali
+fr;Boul Peul;Mboul Peul
+fr;Boulouaye;Boulouwaye
+fr;Boulel;Boulèl Sek
+fr;Boulel;Boulél
+fr;Boulél Ndoukoumane;Boulèl Ndoukoumane
+fr;Boulél;Boulèl
+fr;Bouldiabé;Bouldiabé Boumak
+en;Boulayotte;Boulayot
+fr;Boulayotte;Boulayot
+nl;Boulayotte;Boulayot
+fr;Boucotte;Boukot Ouolof
+fr;Boukot;Boukot Ouolof
+fr;Boudiourguèl;Boudiourguel
+fr;Mboudaye;Mboudaye Sérèr
+fr;Mbossédji Bara;Mbessédji Bara
+fr;Borodène;Mbokhéodane
+fr;Mbomboye 1;Mbomboye Un
+fr;Boliboguel;Béliboguel
+fr;Boliboguél;Béliboguel
+fr;Boliboguèl;Béliboguel
+fr;Bokobof;Bakobof
+fr;Boki-Puits;Boki Puits
+fr;Bohof;Bof Mbalèm
+fr;Bogalar;Keur Mbagne Diop
+fr;Bodé Mamadou Dieng;Bodé Un
+fr;Bodé 1;Bodé Un
+fr;Bodé Deux;Bodé Un
+fr;Bodé II;Bodé Un
+fr;Bobi;Bobi Mbaké
+fr;Bitaène Keur Abdou Diakaté;Mbitéyène Abdou
+fr;Mbitayène Keur Abdou Diakhaté;Mbitéyène Abdou
+fr;Birkamanding I;Birkamanding Un
+fr;Birkamanding 1;Birkamanding Un
+fr;Bidj Nguèl;Bidj Nguél
+fr;Binndiou;Bindiw
+fr;Bindiou;Bindiw
+fr;Béto;Touba Ndiawaldé
+fr;Béri Diagne;Paye Bari Diamm
+fr;Benntingui;Bintinki
+fr;Belrout;Bad
+fr;Bélongui;Mbélonguit
+fr;Belkhor;Mbelkhokh
+fr;Bélél Nélbi;Bélel Niébi
+fr;Bayène Diak;Mbayène Diak
+fr;Bassène Mandouar;Kassane
+fr;Barindondol;Bari Ndondol Un
+fr;Bari Ndondol 1;Bari Ndondol Un
+fr;Barakessé;Barakès
+fr;Baraglou;Mbaraglou
+fr;Baou;Bow
+fr;Baodé;Bawdé
+de;Bambadinka;Bannbadinnka
+en;Bambadinka;Bannbadinnka
+fr;Bambadinka;Bannbadinnka
+nl;Bambadinka;Bannbadinnka
+fr;Bankouma;Mbankouma
+fr;Bangadj Samb;Bangadji Samb
+fr;Bangadj;Bangadji
+fr;Banyadi;Banghadji
+fr;Baniaye;Banghadji
+fr;Bangadj;Banghadji
+fr;Bané;Mbane
+fr;Mbané;Mbane
+fr;Bane;Bane Soutoura
+fr;Bandiokouta;Bandiou Kouta
+fr;Mband;Gori Mband
+fr;Banane;Banane Wagadou
+fr;Banané;Mbanani
+fr;Bam Djigane;Mban Djigane
+fr;Mbam Djigane;Mban Djigane
+fr;Bam Baré;Mamabaré
+fr;Mambaré;Mamabaré
+fr;Bambadala Kontayène;Bambadala Kontèyène
+fr;Ballodji Sérère;Balodji Sérèr
+fr;Baliniane;Balénian
+fr;Balla Ougonor;Bala Ougonor
+fr;Balla Djiring;Bala Guirène
+fr;Balla Ndiaye;Bala Ndiaye
+fr;Balla Bassène;Bala Bassène
+fr;Bakouré;Bakoura
+fr;Mbouki;Digane
+fr;Bak Dior;Bak Samba Dior
+fr;Baïti Sali;Mérina Sal
+fr;Baïti Gueye;Baïti Guèye
+fr;Keur Mbaye Lar;Mbaylar Wolof
+fr;Bagana;Bagana Wolof
+fr;Bagana;Bangana
+de;Bafican;Bafikane
+en;Bafican;Bafikane
+fr;Bafican;Bafikane
+nl;Bafican;Bafikane
+fr;Ngatye Bofel;Ngathie Bofel
+fr;Baé;Bayi
+fr;Badié Kad;Mbadié Kad
+fr;Badam;Paydom
+fr;Babouni;Mbaboumi
+fr;Babou;Ndiéri Mbengue
+fr;Dabel Féra;Dabél Fera
+fr;Baba-Garage;Baba Garage
+fr;Arafa;Arafat
+fr;Anène;Hanène
+fr;Amat Niavel;Amat Niawèl
+en;Ali Gane;Ali Ngane
+fr;Ali Gane;Ali Ngane
+nl;Ali Gane;Ali Ngane
+fr;Ndiompi 1;Ndiompi Un
+fr;Keur Sèt Koumba;Keur Sét Koumba
+fr;Keur Sêt Koumba;Keur Sét Koumba
+fr;Baipoum;Bépeul
+fr;Ngadior;Nghadior
+ar;ديامينياديو;Diamniadio
+fr;Guéthie;Guèthie
+en;Cap Skiring;Cap Skirring
+en;Lake Retba;Lac Rose
+fr;Lac Retba;Lac Rose
+fr;Pakhamkouye 1;Pakhamkouye Un
+fr;Pakhamkouye 2;Pakhamkouye Deux
+fr;Ndérèp 2;Ndérèp Deux
+fr;Sidiane 1;Sidiane Un
+fr;Pabène Nakhnèkh;Nakhnèkh
+fr;Darou Diop 2;Darou Diop Deux
+fr;Ndiané 1;Ndiané Un
+fr;Ndiompi 2;Ndiompi Deux
+fr;Ndiané 2;Ndiané Deux
+fr;Darou Diop 1;Darou Diop Un
+fr;Tiomboli Thissé;Tiomboli
+fr;Ndiompi 3;Ndiompi Trois
+fr;Ndieulbèr 1;Ndieulbèr Un
+fr;Ndiaye Ala 2;Ndiaye Ala Deux
+fr;Ndieulbèr 2;Ndieulbèr Deux
+fr;Goreté 1;Goreté Un
+fr;Guédiali 2;Guédiali Deux
+fr;Ndjigueul 2;Ndjigueul Deux
+fr;Koki Gouye 2;Koki Gouye Deux
+fr;Boyé 2;Boyé Deux
+fr;Diammakheul;Diamakheul
+fr;Ndia 2;Ndia Deux
+fr;Tiènthie 1;Tiènthie Un
+fr;Tialé 2;Tialé Deux
+fr;Keur Massouka 2;Keur Massouka Deux
+fr;Kora 3;Kora Trois
+fr;Pamèn 2;Pamèn Deux
+fr;Ngothie 2;Ngothie Deux
+fr;Mbouloukhtèn Koulouk;Mbouloukhtèn
+fr;Ngothie 1;Ngothie Un
+fr;Mbomboye 2;Mbomboye Deux
+fr;Bari Ndondol 2;Bari Ndondol Deux
+fr;Ngoundiodj 2;Ngoundiodj Deux
+fr;Tewrou Kossam 1;Tewrou Kossam Un
+fr;Diam Bougoum;Diamm Bougoum
+fr;Loumbèl Tiaw;Loumbél Tiaw
+fr;Faylar 2;Faylar Deux
+fr;Nguérane 1;Nguérane Un
+fr;Nguérane 2;Nguérane Deux
+fr;Mbongout Garage;Mbélongout Garage
+fr;Ngoyé Mbougu;Ngoyé Mbouguél
+fr;Sawkom 2;Sawkom Deux
+fr;Mbouma 2;Mbouma Deux
+fr;Poukham 2;Poukham Deux
+fr;Mbouma 1;Mbouma Un
+fr;Ndak 2;Ndak Deux
+fr;Kandiou 2;Kandiou Deux
+fr;Ngardiamm;Ngardiam
+fr;Mbouma 3;Mbouma Trois
+fr;Ndak 1;Ndak Un
+fr;Sabar 1;Sabar Un
+fr;Diat Mourid 2;Diat Mourid Deux
+fr;Diammsène;Diamsène
+fr;Diat Mourid 1;Diat Mourid Un
+fr;Bélèl Gadiali;Bélél Gadiali
+fr;Dakhar;Dakar
+fr;Loumbèl Mbaye;Loumbél Mbaye
+fr;Maka Soumbèl;Maka Soumbél
+fr;Koung Koung;Koung Koung Tialène
+fr;Keur Diafa 2;Keur Diafa Deux
+fr;Ndiafat Gossé;Ndiafat Sossé
+fr;Gohé 2;Gohé Deux
+fr;Diamwéli 2;Diamwéli Deux
+fr;Djibéré Diamvéli;Djibéré Diamwéli
+fr;Boulél Modi;Boulèl Modi
+fr;Loumbi;Colinabé
+fr;Sam Fall;Sam Fal
+fr;Ndavéne;Ndawène
+fr;Diabi 2;Diabi Deux
+fr;Diâbi II;Diabi Deux
+fr;Diâbi Deux;Diabi Deux
+fr;Darou Koudos;Darou Khoudos
+fr;Sourang;Touba Sourang
+fr;Ndiguèl;Ndiguél
+fr;Niraniou;Niaraniou
+fr;Bouliéri;Bouliéri Peul
+fr;Keur Sérigne Soda Guèye;Keur Sérigne Soda Gueye
+fr;Bel Tati;Bel Tati Un
+fr;Bel Tati 1;Bel Tati Un
+fr;Bel Tati 2;Bel Tati Deux
+fr;Abdou Diouf;Touba Oldou
+fr;Bel Tati 3;Bel Tati Trois
+fr;Dara Serigne Mbaké Sokhna Lô;Darou Minam Taif
+fr;Fitio Bâli 2;Fitio Bâli Deux
+fr;Loumbel Doki;Loumbèl Doki
+fr;Guélodé;Guélodé Sowène
+fr;Ndènd;Keur Amadou Bass
+fr;Diâbi;Ndiao
+fr;Tiélé Kayène;Tièlé Kayène
+fr;Gaoubé;Goubé
+fr;Taofèkh Darou;Tawfekh Darou
+fr;Patièm Sérère Un;Patièm Sérèr
+fr;Patièm Sérère I;Patièm Sérèr
+fr;Keur Bara Diènne;Bahdad
+fr;Déguère 1;Keur Ibra Fal
+fr;Déguère Un;Keur Ibra Fal
+fr;Keur Ibra Fall;Keur Ibra Fal
+fr;Édé;Edé
+fr;Déguère 2;Déguère Deux
+fr;Diabi Keur Sérigne Bara;Diabi Keur Serigne Bara
+fr;Dara Numéro Un;Dara Dianatoul Mahwa
+fr;Dara N°1;Dara Dianatoul Mahwa
+fr;Dara Numéro Cinq;Dara Darou Rahmane
+fr;Dara N°5;Dara Darou Rahmane
+fr;Tyilla;Thilla
+fr;Dara N°14;Dara Halimoul Kabir
+fr;Dara Numéro Quatorze;Dara Halimoul Kabir
+fr;Ourour;Darou Baïlé
+fr;Dara N°12;Dara Darou Marnane
+fr;Dara Numéro Douze;Dara Darou Marnane
+fr;Dara N°13;Dara Oumoul Khoura
+fr;Dara Numéro Treize;Dara Oumoul Khoura
+fr;Dara N°11;Dara Darou Minam
+fr;Dara Numéro Onze;Dara Darou Minam
+fr;Dara Numéro Neuf;Dara Touba Khelcom
+fr;Dara N°9;Dara Touba Khelcom
+fr;Khargnit;Khar Ngante
+fr;Dara Numéro Quatre;Dara Darou Mousti
+fr;Dara N°4;Dara Darou Mousti
+fr;Ndiènné Lagane;Lougane
+fr;Dara Numéro Dix;Dara Darou Salam
+fr;Dara N°10;Dara Darou Salam
+fr;Dara N°3;Dara Touba Bélel
+fr;Dara Numéro Trois;Dara Touba Bélel
+fr;Tiéké;Thiéké
+fr;Darou Diop;Darou Diop Un
+fr;Ouadiour Abât;Wadiour Abât
+fr;Dara N°7;Dara Housmoul Mahab
+fr;Dara Numéro Sept;Dara Housmoul Mahab
+fr;Tawfekh;Keur Aliou Ndiaye
+fr;Véndou Boniédji;Wondou Boniédji
+fr;Darou Minam 2;Darou Minam Deux
+fr;Darou Minam;Darou Minam Deux
+fr;Keur Abas Sal;Khaïré Diaga
+fr;Diaga Sérigne Niang;Diaga Keur Sérigne Niang
+fr;Ndiènné;Médina Diamaguène
+fr;Sakhagne 2;Sakhagne Deux
+fr;Sambam Peul;Samban Peul
+fr;Nyipguel;Dara Salam Nyipguel
+fr;Dara Salam Nyipguèl;Dara Salam Nyipguel
+fr;Keur Masamba 2;Keur Masamba Deux
+fr;Ndiélaw;Ndielaw
+fr;Diatmel Saer;Mboulougne Saer
+fr;Véndou Maoundou;Wéndou Mawdou
+fr;Vendou Mawdou;Wéndou Mawdou
+fr;Madina Kaossara;Madina Mbaye
+fr;Tyiki Sérère;Tyiki Sérèr
+fr;Tougoutye 2;Tougoutye Deux
+fr;Mbossédji Mansali;Mbessédji Mansali
+fr;Ndingler Taofèkh;Ndingler Tawfekh
+fr;Véndou Bowdé;Vendou Bowdé
+fr;Ngar Ndia;Ngar Dia
+fr;Dara N°15;Dara Taïba
+fr;Dara Numéro Quinze;Dara Taïba
+fr;Séma Trois;Séma
+fr;Séma 3;Séma
+fr;Yâlal Diaké;Yâlel Diaké
+fr;Sintiou Tiénéba;Vendou Bowdé
+fr;Boki Barga;Boki Borga
+fr;Dioud Nguel 2;Dioud Nguel Deux
+fr;Touba Ouarkéré;Touba Warkéré
+fr;Darou Ndiènné;Darou Ndièné
+fr;Ndioté Djoolofène;Ndioté Djolofène
+fr;Touba Ndiénné;Touba Ndiéné
+fr;Niarguèl;Niarguél
+fr;Santiou Mafaye;Tabakali
+fr;Diakhao Saloum;Diakhaw Saloum
+fr;Bélél Ndindogui;Bélel Ndindogui
+fr;Santye Abas;Santhie Abas
+fr;Touba Taofèkh;Touba Tawfekh
+fr;Puits Dix-Neuf;Madina Tyiyène
+fr;Puits 19;Madina Tyiyène
+fr;Fas Lévé;Fas Léwé
+fr;Darou Saloum 3;Darou Saloum Trois
+fr;Darou Salam III;Darou Saloum Trois
+fr;Keur Abdou Khoullé;Keur Abdou Khoulé
+fr;Darou;Darou Fal
+fr;Keur Ndongo;Keur Ndong
+fr;Kélél Mofèl;Kélél Mofel
+fr;Kélel Mofel;Kélél Mofel
+fr;Hamdallaï;Hamdallaye
+fr;Ngatye Ndiassane;Ngathie Ndiassane
+fr;Bossolel Ouolof;Bossolel Wolof
+fr;Néti;Néf
+fr;Navel;Nawel
+fr;Toun Santhie;Toun Sinthie
+fr;Kayi;Kahi
+fr;Khayra 1;Khayra Un
+fr;Hamdallaï Deux;Hamdallaye
+fr;Hamdallaï II;Hamdallaye
+fr;Guènt Peul 2;Guènt Peul Deux
+fr;Madina Degouye;Madina Dék Gouye
+fr;Khayra 2;Khayra Deux
+fr;Khayra II;Khayra Deux
+fr;Mèo Ndiobène;Méw Ndiobène
+fr;Aïnoumane II;Aïnoumane Deux
+fr;Aïnoumane 2;Aïnoumane Deux
+fr;Darou Thiamène;Darou Tiâmène
+fr;Santhie Mor Aminta;Sinthie Mor Aminta
+fr;Santye Baba Touré;Passi Mbelbouk
+fr;Mèo Ndiobène;Touba Malèm
+fr;Touba Nguéyène;Touba Guéyène
+fr;Darou Salam II;Darou Salam
+fr;Darou Salam Deux;Darou Salam
+fr;Aïnoumane 1;Aïnoumane Un
+fr;Aïnoumane I;Aïnoumane Un
+fr;Madina Ouadène;Wadène
+fr;Keur Malik Ndiaye;Bambougar Malik
+fr;Diamaguene;Diamagueun
+fr;Bangalère;Bangaler
+fr;Keur Sambel;Daga Béra
+fr;Thiamène Satiébou;Tiâmène Satiébo
+fr;Keur Massamba Bambougar;Bambougar Massamba
+fr;Santhie Mbaye Sy;Santhie Mbaye Si
+fr;Ndiao Malik;Ndaw Malik
+fr;Keur Momar Diaw;Keur Momat Diaw
+fr;Bambougar Malik;Bambougar El Hadj
+fr;Kouatine;Ngouye Mari
+fr;Tiakho Malamine;Tiakho Malahine
+fr;Keur Babou Diouf;Keur Badou Diouf
+fr;Keur Sellé Kamara;Keur Sélé Kamara
+fr;Badoudou;Badokh
+fr;Ndiago 1;Ndiago Un
+fr;Ndiagnène;Ndiaguène
+fr;Kao Tiane;Kawitiane
+fr;Keur Modio;Keur Madio
+fr;Thiamène Taba;Tiâmène Taba
+fr;Tioyène Sokone 1;Tioyène Sokone Un
+fr;Thiamène Diogo;Nianène
+fr;Niankha;Ndiankha Ali
+fr;Samba Rokhi;Keur Samba Rakhi
+fr;Tioye Matar;Tioyène Amadi Mala
+fr;Keur Séni Guèye 2;Keur Séni Guèye Deux
+fr;Mbitéyène Darou;Darou Mbitéyène
+fr;Daga Biram 2;Daga Biram Deux
+fr;Daga Birane;Daga Biram Deux
+fr;Keur Tierno;Keur Tierno Touré
+fr;Ndêm;Ndem
+fr;Ndèm;Ndem
+fr;Daga Biram 1;Daga Biram Un
+fr;Keur Sakou Bédi;Keur Sakou Baïdi
+fr;Ndiago 2;Ndiago Deux
+fr;Ndiago II;Ndiago Deux
+fr;Ndiayène;Ndiayène Kad
+fr;Nguêr Ali;Nguer Ali
+fr;Touba 2;Touba Deux
+fr;Ndiobène Tallène;Ndiobène Talène
+fr;Tioyène;Tioyène Matar
+fr;Keur Bano;Keur Bano Wolof
+fr;Tioyène Sokone 2;Tioyène Sokone Deux
+fr;Tioyène;Tioyène Sokone Deux
+fr;Keur Amat;Keur Mat
+fr;Sabouya;Saboya
+fr;Dieng Momar Tiané;Ndiayène Keur Momat Tiané
+fr;Keur Diâbél Soun;Keur Diabel Soun
+fr;Hamdallaï Vilane;Keur Andala
+fr;Keur Wali;Keur Wali Koumba Hane
+fr;Négui;Nidji
+fr;Keur Ndiaga Peul;Keur Birane Ndiopi
+fr;Keur Babou Ndioumba;Passi Babou
+fr;Madina Dafé;Madina Daffé
+fr;Madina II;Madina Daffé
+fr;Diénounkounda;Diénoukounda
+fr;Bani Israrel;Bani Israël
+fr;Ben Israël;Bani Israël
+fr;Madina I;Birassou
+fr;Birkamanding II;Birkamanding Deux
+fr;Birkamanding 2;Birkamanding Deux
+fr;Djiro;Goubo
+fr;Kaéga;Kaïnga
+fr;Bassène Kansana;Bassem Kassana
+fr;Djiragone;Sirantore
+fr;Balla Djifalone;Bala Djifalone
+fr;Guitêt;Guitet
+fr;Ouel Kalir;Wel Kalir
+fr;Diédièl;Diédiel

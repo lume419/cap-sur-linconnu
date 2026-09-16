@@ -1,0 +1,60 @@
+ar;تيمبو;Timbo
+fr;Tangaly;Tangali
+en;Sokourala;Soukourala
+it;Sokourala;Soukourala
+fr;Sokourala;Soukourala
+nl;Sokourala;Soukourala
+es;Sokourala;Soukourala
+en;Beretela;Sedakélen
+fr;Sanguèya;Sanguéya
+en;Sub-prefecture of Samoé;Samoé
+en;Maci;Massi
+it;Maci;Massi
+fr;Maci;Massi
+nl;Maci;Massi
+es;Maci;Massi
+en;Mankountan;Mankouta
+it;Mankountan;Mankouta
+fr;Mankountan;Mankouta
+nl;Mankountan;Mankouta
+es;Mankountan;Mankouta
+fr;Linsansaran;Linsan
+ar;كونكوري;Kouraïa Konkouré
+en;Konkouré;Kouraïa Konkouré
+it;Konkouré;Kouraïa Konkouré
+fr;Konkouré;Kouraïa Konkouré
+nl;Konkouré;Kouraïa Konkouré
+es;Konkouré;Kouraïa Konkouré
+es;Kondianakoro;Koundianakoro
+fr;Korbe;Korbé
+en;Kokota;Kogota
+ak;Kokota;Kogota
+it;Kokota;Kogota
+fr;Kokota;Kogota
+nl;Kokota;Kogota
+es;Kokota;Kogota
+fr;Guéckédou;Gueckedou
+fr;Gama Berema;Gama
+fr;Forecariah;Forécariah
+en;Falessade;Falissadé
+it;Falessade;Falissadé
+fr;Falissade;Falissadé
+nl;Falessade;Falissadé
+es;Falessade;Falissadé
+en;Douprou;Doupourou
+it;Douprou;Doupourou
+fr;Douprou;Doupourou
+nl;Douprou;Doupourou
+es;Douprou;Doupourou
+en;Diguiling;Diguili
+fr;Diassadou;Diassodou
+es;Diassadou;Diassodou
+pt;Conacri;Conakry
+en;Boulan;Bougoulan
+en;Brèla;Béréla
+en;Gbessia;Bassia
+fr;Maferenya;Maférinya
+en;Bonfi;Bonfira
+fr;Donghol Sigon;Donghol-Sigon
+fr;Gbackédou;Gbakedou
+es;Gbackédou;Gbakedou

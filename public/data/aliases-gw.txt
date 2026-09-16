@@ -1,0 +1,5 @@
+pt;Quinhamel;Quinhámel
+ar;مانسوا;Mansôa
+pt;Gabu;Gabú
+es;Bisáu;Bissau
+ar;بيساو;Bissau

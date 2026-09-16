@@ -1,0 +1,22 @@
+en;Serrekunda;Serekunda
+ar;سيريكوندا;Serekunda
+ar;كونتور;Kuntaur
+ar;كينلا;Kanilai
+de;Juffure;Jufureh
+fr;Juffureh;Jufureh
+nl;Juffure;Jufureh
+fr;Jan Jan Bureh;Janjanbureh
+ar;بانسانغ;Bansang
+en;Bathurst;Banjul
+ar;بانجول;Banjul
+fr;Keur Ali Awa;Bali Hali Hawah
+ar;باكاو;Bakau
+de;Bakadaji;Bakadagy
+en;Bakadaji;Bakadagy
+fr;Bakadaji;Bakadagy
+nl;Bakadaji;Bakadagy
+fr;Hamdallaye;Amdallai
+de;Albreda;Albadarr
+en;Albreda;Albadarr
+fr;Albreda;Albadarr
+nl;Albreda;Albadarr

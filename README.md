@@ -1078,6 +1078,74 @@ terrestre est fermée depuis 1994 et l'Algérie a rompu ses relations diplomatiq
 août 2021 — aucun passage civil. Vérifié au tirage : un trajet partant d'Alger visite l'Algérie et la
 Tunisie, jamais le Maroc.
 
+### Afrique de l'Ouest : treize pays d'un coup (septembre 2026)
+
+Mauritanie, Mali, Sénégal, Gambie, Cap-Vert, Guinée, Guinée-Bissau, Sierra Leone, Liberia, Burkina
+Faso, Côte d'Ivoire, Ghana et Togo — **105 373 communes**, le plus gros ajout du projet. Script
+dédié : `scripts/build-westafrica-communes.js`.
+
+**Aucun code postal, pour aucun des treize.** Vérifié un par un : `export/zip/XX.zip` renvoie 404
+pour les treize. C'est le premier lot de cette ampleur sans la moindre source postale, et
+contrairement au Maghreb aucun jeu tiers n'a été retenu : à cette échelle, valider la couverture et
+la fiabilité de treize jeux non officiels aurait demandé autant de travail que le reste du lot pour
+un risque d'erreur silencieuse bien plus élevé. Le champ `cp` porte donc partout une étiquette
+"XX-<code admin1 GeoNames>", **qui n'est PAS un code ISO 3166-2** et c'est délibéré : les codes
+GeoNames coïncident avec l'ISO pour certains pays (Burkina 01-13) mais pas pour d'autres (le Ghana
+utilise des lettres en ISO là où GeoNames numérote). Construire treize tables de correspondance à la
+main aurait multiplié les occasions de se tromper sans rien apporter au visiteur, à qui le NOM de la
+région est montré à côté.
+
+**Lieux sans division administrative : écartés.** Mesuré avant de trancher, pour vérifier que cela ne
+coûtait rien de réel — les lieux concernés n'ont, à une poignée près, aucune population renseignée :
+Mali 1 157 lieux sans admin1 dont 0 avec population, Togo 3 443 dont 0, Guinée-Bissau 3 182 dont 7.
+Partout ailleurs le trou est négligeable (0 à 94 lieux). Ce sont des hameaux, pas des destinations.
+
+**Le Cap-Vert est le premier pays entièrement insulaire du projet.** Neuf îles habitées, chacune sa
+masse terrestre, reliées par huit liaisons de ferry — voir la section "Ferries" pour le détail des
+tarifs, tous officiels. Le rattachement d'une commune à son île se fait par le CODE de concelho et
+jamais par nom (deux concelhos s'appellent presque pareil sur deux îles : Santa Catarina sur
+Santiago, Santa Catarina do Fogo sur Fogo) ni par coordonnées — une anomalie GeoNames a été repérée
+en cours de route, la localité de Ponta Verde étant rattachée au concelho de São Filipe, sur Fogo,
+tout en portant des coordonnées situées sur Santiago.
+
+**Péages : un seul pays sur treize est modélisable.** Le Sénégal a un système FERMÉ sur
+Mbour-Fatick-Kaolack (3 000 FCFA pour 100 km, chiffre de la Société nationale Autoroutes du Sénégal
+du 24 août 2026), recoupé par Dakar-Kaolack (6 500 FCFA / 184 km) et Ila Touba (2 500 FCFA / 113 km).
+Partout ailleurs le péage existe mais il est **forfaitaire par barrière** — 500 FCFA au Togo, 200 au
+Burkina, 500 au Mali, 1 000 sur l'Autoroute du Nord ivoirienne, 20 000 GNF au pont guinéen de Tanéné,
+NLe 10 en Sierra Leone — et le convertir en €/km supposerait de connaître l'espacement réel des
+postes, que personne ne publie. `hasToll:false` avec la raison écrite est préféré à un chiffre dérivé
+d'une hypothèse : le coût réel est donc sous-estimé pour ces pays, et c'est assumé. Cas particulier
+du **Ghana**, où `hasToll:false` décrit la réalité et non un repli : les péages ont été supprimés le
+18 novembre 2021, et la concession électronique approuvée par le Parlement le 31 juillet 2026 n'a
+pas encore de tarif publié.
+
+**Monnaies : sept pour treize pays.** Six utilisent le franc CFA ouest-africain (XOF, parité FIXE de
+655,957 pour 1 EUR, **zéro décimale**) — Mali, Sénégal, Guinée-Bissau, Burkina, Côte d'Ivoire, Togo.
+S'y ajoutent MRU (Mauritanie), GMD (Gambie), CVE (Cap-Vert, parité FIXE de 110,265 depuis l'accord de
+coopération de change avec le Portugal de 1998), GNF (Guinée, **zéro décimale** également), SLE
+(Sierra Leone — le leone redénominé, code SLL retiré de l'ISO en décembre 2023), LRD (Liberia) et GHS
+(Ghana, seule du lot à avoir un vrai symbole Unicode, ₵ U+20B5). Deux cas à connaître : l'ouguiya se
+divise réellement en **5 khoums** alors que l'ISO lui attribue 2 décimales ; et le cifrão capverdien
+s'écrit en **séparateur décimal** (« 2$50 ») sans point de code Unicode propre, d'où l'affichage du
+code ISO plutôt qu'un symbole ambigu.
+
+**Adjacence réelle.** Le bloc ouest-africain ne rejoint le reste du réseau que par un seul point :
+**Guerguerat**, entre la Mauritanie et le Sahara occidental. Deux frontières sont volontairement
+absentes : **Mali-Mauritanie**, que le Mali a FERMÉE en octobre 2025 pour motif sécuritaire, coupant
+2 337 km d'un des principaux axes du Sahel vers l'Atlantique ; et les frontières sahariennes
+**Mauritanie-Algérie** et **Mali-Algérie**, dont l'ouverture effective au trafic civil n'a pas pu être
+établie. Vérifié au tirage : un trajet depuis Bamako visite le Mali et la Côte d'Ivoire, jamais la
+Mauritanie ; un trajet depuis Laâyoune atteint bien le Maroc et la Mauritanie.
+
+**Deux pays sous déconseil formel de voyage**, documentés comme la Libye et l'Azerbaïdjan avant eux.
+Le **Mali** : France Diplomatie classe au 15 septembre 2026 l'ensemble du territoire en zone rouge et
+précise que « les attaques fréquentes sur les axes routiers interdisent toute circulation par la
+route en dehors de Bamako » ; s'y ajoutent un blocus du carburant depuis septembre 2025 et un siège
+de Bamako annoncé fin avril 2026. Le **Burkina Faso** : tout déplacement formellement déconseillé
+(10 septembre 2026), ambassade de France fermée après rupture des relations diplomatiques, et le
+Royaume-Uni déconseille également tout voyage.
+
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
 des coordonnées valides.
@@ -2123,6 +2191,54 @@ préciser la variété, retenu pour la RECHERCHE uniquement et jamais comme lang
 n'affiche pas de famille de langues). Utile surtout pour les noms corrigés vers leur forme locale :
 sans alias, taper "Algiers", "Tangier" ou "Marrakesh" ne trouverait plus ces villes du tout.
 
+### Afrique de l'Ouest : pourquoi aucune langue n'est ajoutée (septembre 2026)
+
+C'est le seul lot du projet où des langues remplissent le critère juridique sans être ajoutées à
+l'interface, et la raison mérite d'être écrite parce qu'elle est inhabituelle : **la plupart de ces
+langues n'ont pas d'orthographe officielle à respecter.**
+
+Ce que le statut juridique donne, pays par pays, après vérification des textes :
+- **Mali** — l'article 31 de la Constitution du 22 juillet 2023 fait des **treize langues nationales
+  les langues officielles** du pays, le français devenant simple « langue de travail ».
+- **Burkina Faso** — la loi n° 045-2023/ALT du 30 décembre 2023 fait de même : les langues nationales
+  officialisées par la loi sont les langues officielles, le français et l'anglais des langues de
+  travail. Mais la loi d'officialisation langue par langue reste à prendre.
+- **Guinée** — l'article 5 de la Constitution du 26 septembre 2025 dispose que « les langues
+  nationales et le français sont les langues officielles ». **Aucun texte en vigueur ne dit
+  lesquelles** : les « huit langues de Sékou Touré » relèvent de décisions administratives de 1965-68
+  jamais retrouvées sous forme de texte numéroté.
+- **Sénégal** — le français est officiel, et la Constitution nomme une catégorie de langues
+  nationales codifiées (dix-sept aujourd'hui).
+- **Mauritanie** — l'article 6 fait du poular, du soninké et du wolof des **langues nationales
+  constitutionnelles**, avec des alphabets latins fixés par le décret 81-072 du 15 juillet 1981.
+- **Gambie, Cap-Vert, Côte d'Ivoire, Ghana, Togo, Guinée-Bissau, Sierra Leone, Liberia** — aucune
+  langue africaine n'y a de statut. Plus surprenant : **ni la Gambie, ni le Ghana, ni la Sierra
+  Leone, ni le Liberia, ni la Guinée-Bissau ne désignent de langue officielle dans leur
+  constitution**, pas même l'anglais ou le portugais, qui n'y sont officiels que de fait. Au Ghana
+  les onze *government-sponsored languages* relèvent du Bureau of Ghana Languages et du programme
+  scolaire, pas d'un texte. Au Togo, l'idée très répandue que l'éwé et le kabiyè seraient « langues
+  nationales » par un texte est contredite : la seule trace est l'article 7 d'une ordonnance de 1975
+  évoquant « les langues nationales et africaines » sans en nommer aucune. Le créole capverdien, lui,
+  a un **alphabet officiel** (ALUPEC, décret-loi 8/2009) mais **pas** le statut de langue officielle —
+  exactement l'inverse du tifinagh marocain.
+
+Le blocage est ailleurs. Écrire une interface exige une norme orthographique, et **aucune n'a pu être
+établie** : en Mauritanie le décret de 1981 fixe des alphabets mais aucun texte ne fixe les règles
+d'orthographe ; en Guinée, l'ordonnance 019/PRG/SGG/89 renvoyait cette fixation à un arrêté du
+Secrétariat d'État à la Recherche scientifique — **supprimé par décret sept jours avant la
+promulgation de l'ordonnance**, et l'arrêté n'a jamais existé ; au Mali et au Burkina les lois
+d'application ne sont pas prises. Rédiger 254 chaînes d'interface reviendrait à inventer une norme
+que l'État lui-même n'a pas arrêtée — précisément ce que ce projet refuse. Ces langues sont donc
+retenues comme langues de RECHERCHE (voir les alias ci-dessous), jamais comme langues d'interface.
+
+**Alias** : script dédié `scripts/build-westafrica-aliases.js`, même méthode que pour le Maghreb —
+il repart du fichier de communes déjà publié et retrouve le geonameid par nom et coordonnées, si bien
+que les alias correspondent par construction à ce qui est réellement servi. 5 165 alias au total, du
+Mali (1 417) et du Ghana (1 297) jusqu'à la Guinée-Bissau (5). Langues de recherche : les quatre
+langues officielles du lot (français, anglais, portugais, arabe) et les grandes langues régionales
+sous lesquelles GeoNames range des noms de lieux — wolof, peul, bambara, soninké, songhay, tamasheq,
+mooré, haoussa, éwé, twi, mandingue, dioula, krio, hassanya.
+
 ## Démarrer en local
 
 ```bash
@@ -2655,6 +2771,51 @@ Bozcaada/Ténédos et Gökçeada/Imbros, bien plus connues. Anomalie GeoNames co
 Gürçeşme...) portent des coordonnées manifestement erronées, placées sur le continent proche plutôt
 que sur l'île elle-même — sans effet pratique réel, aucun n'ayant de population significative.
 
+### Cap-Vert : neuf îles, huit liaisons (septembre 2026)
+
+Premier pays du projet dont **tout** le territoire est insulaire : sans ferry, chacune des neuf îles
+habitées serait un cul-de-sac. C'est aussi, de tout le lot ouest-africain, le **seul** jeu de données
+à satisfaire le critère du projet — un vrai prix par catégorie de véhicule, publié et daté.
+
+Exploitant : **CV Interilhas**, concession de service public de vingt ans signée en 2019 (la seule
+liaison à deux opérateurs est Mindelo-Porto Novo, où Nôs Ferry opère aussi mais ne publie aucun tarif
+véhicule). Base légale des tarifs : **Despacho n.º 01/2024, publié au Boletim Oficial du 11 janvier
+2024**, en vigueur depuis le 1er février 2024. Les matrices île par île ont été lues directement dans
+les grilles PDF de l'exploitant : `tariff_mercadorias.pdf` pour les véhicules et
+`tariff_passageiros.pdf` pour les passagers. **Aucune classe n'est extrapolée** — les quatre du
+projet sont publiées pour les huit liaisons : « automóvel ligeiro » (classe 1), « furgoneta »
+(classe 2), « moto/jetski » (classe 5) et tarif passager national (piéton/vélo). Conversion à la
+parité fixe de 110,265 escudos pour 1 EUR.
+
+| Liaison | Durée | Distance | Voiture |
+|---|---|---|---|
+| Santo Antão ↔ São Vicente | 1 h | 15 km | 31 € |
+| São Vicente ↔ São Nicolau | 5 h | 81 km | 84 € |
+| São Nicolau ↔ Sal | 8 h | 159 km | 147 € |
+| Sal ↔ Boa Vista | 3 h | 69 km | 84 € |
+| Boa Vista ↔ Santiago | 7 h | 154 km | 147 € |
+| Santiago ↔ Maio | 2 h | 39 km | 75 € |
+| Santiago ↔ Fogo | 4 h | 113 km | 96 € |
+| Fogo ↔ Brava | 1 h | 19 km | 37 € |
+
+Ces huit liaisons forment une chaîne qui connecte les neuf îles ; les autres paires de la matrice
+existent aussi au tarif, mais passent par ces mêmes escales. Deux faits qui expliquent l'importance
+du ferry ici : **Santo Antão et Brava n'ont aucun aéroport commercial** — celui de Santo Antão a
+fermé après le crash du vol TACV 5002 en 1999, celui de Brava en 2004 pour vents dangereux — et
+**aucune liaison, même maritime, ne relie le Cap-Vert au continent**.
+
+**Rien d'autre n'est modélisé dans ce lot, et c'est documenté plutôt que passé sous silence.** Trois
+traversées que l'on s'attendrait à trouver ont disparu d'elles-mêmes : le **pont de la Senegambia**
+(21 janvier 2019) a rendu le bac de Banjul-Barra facultatif et fait passer Dakar-Ziguinchor d'une
+journée à cinq heures ; le **pont Nelson Mandela** (2022) a remplacé le bac de Foundiougne ; et
+Freetown-Lungi dispose d'une route de contournement. Les traversées réellement obligatoires qui
+subsistent — Dakar-Ziguinchor, Bissau-Enxudé, Rosso, Bafoulabé, Korioumé vers Tombouctou, le bac de
+Sanouna vers Djenné, les cinq bacs du lac Volta au Ghana, Grand-Lahou en Côte d'Ivoire — **ne
+publient aucun tarif par véhicule**, ou franchissent un lac que l'on peut contourner par la route,
+donc sans séparation de masse terrestre à modéliser. Le **pont de Rosso** entre le Sénégal et la
+Mauritanie n'est pas ouvert (50 % des travaux en mai 2026, inauguration visée mars 2027) : la
+frontière reste franchissable par le barrage de Diama, qui porte une vraie chaussée.
+
 ### Ceuta et Melilla : traversées entre ZONES, et un bug corrigé (septembre 2026)
 
 Jusqu'ici, une liaison ferry se déduisait d'un changement de MASSE TERRESTRE (`landmassOf`, table
@@ -2757,7 +2918,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies/mauritaniennes/maliennes/sénégalaises/gambiennes/capverdiennes/guinéennes/bissau-guinéennes/sierra-léonaises/libériennes/burkinabè/ivoiriennes/ghanéennes/togolaises : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux géorgiens (absents de GeoNames pour ce pays, voir "Pays couverts") : annuaire tiers
   [yell.ge](https://www.yell.ge) — PAS une source officielle ni sous licence ouverte explicite, choix
@@ -2793,6 +2954,12 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   postaux GeoNames marocain ne contient aucune grande ville, démonstration chiffrée dans
   `scripts/build-maghreb-communes.js`), et une étiquette informelle "EH" pour le Sahara occidental,
   dépourvu de toute subdivision exploitable.
+- Les TREIZE pays d'Afrique de l'Ouest (Mauritanie, Mali, Sénégal, Gambie, Cap-Vert, Guinée,
+  Guinée-Bissau, Sierra Leone, Liberia, Burkina Faso, Côte d'Ivoire, Ghana, Togo) : aucun fichier
+  GeoNames de codes postaux, aucun jeu tiers retenu. Le champ affiché est le code de division
+  administrative de GeoNames lui-même, repris tel quel et étiqueté comme informel.
+- Tarifs de ferry capverdiens : grilles officielles de [CV Interilhas](https://www.cvinterilhas.cv/tariffs)
+  (Despacho n.º 01/2024, Boletim Oficial du 11 janvier 2024) — voir "Ferries" ci-dessus.
 - Syrie, Liban, Israël, Palestine, Jordanie, Égypte, Libye : AUCUNE source de codes postaux, ni
   GeoNames ni tierce, n'a été trouvée pour ces sept pays — et la Syrie n'a tout simplement pas de
   système de codes postaux en usage. Le champ `cp` n'y contient donc PAS un code postal mais le code
@@ -2839,7 +3006,10 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   aux 62 km publiés par ADM ; attention, le PDF téléchargeable depuis cette même page est périmé et
   affiche encore les tarifs de janvier 2024, seul le tableau HTML est à jour),
   [Société Tunisie Autoroutes](https://www.tunisieautoroutes.tn) (Tunisie — calculateur officiel,
-  barème du décret du 15 juillet 2025, liaison M'saken-Sfax rapportée aux PK publiés par la STA) —
+  barème du décret du 15 juillet 2025, liaison M'saken-Sfax rapportée aux PK publiés par la STA),
+  [Société nationale Autoroutes du Sénégal](https://autoroutesdusenegal.sn) et [SECAA/Eiffage](https://www.autoroutedelavenir.sn)
+  (Sénégal — tronçon fermé Mbour-Kaolack pour le tarif kilométrique, grille de la gare de Thiaroye
+  pour les rapports entre catégories) —
   voir "Pays couverts" pour la méthode de calcul hors de France (échantillon plus restreint que
   pour la France).
 - Vignettes annuelles : boutiques officielles [via.admin.ch](https://via.admin.ch) (Suisse),

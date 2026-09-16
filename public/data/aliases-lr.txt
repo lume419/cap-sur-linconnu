@@ -1,0 +1,54 @@
+ar;زويدرو;Zwedru
+en;Ziata (2);Ziata
+pt;Yekepa;New Yekepa
+en;Yekepa;New Yekepa
+it;Yekepa;New Yekepa
+fr;Yekepa;New Yekepa
+nl;Yekepa;New Yekepa
+en;Wata;Warta
+ar;فوينجاما;Voinjama
+ar;توبمانبرج;Tubmanburg
+ar;فيش تاون;Fish Town
+ha;Gida Gida;Fish Town
+en;Tapeta;Tapita
+nl;Tapeta;Tapita
+en;Wenshue;Wensue
+en;Sanoyie;Sonoyea
+nl;Sanoyie;Sonoyea
+ar;سانيكويلي;Sanniquellie
+en;St. Pauls Ville;Saint Pauls Ville
+en;Tah;Rock Town
+ar;روبرتسبورت;Robertsport
+ar;ريفر سيس;River Cess
+de;Pleebo;Pleebo City
+en;Pleebo;Pleebo City
+it;Pleebo;Pleebo City
+fr;Pleebo;Pleebo City
+es;Pleebo;Pleebo City
+ar;بليبو;Pleebo City
+nl;Pleebo;Pleebo City
+ar;مونروفيا;Monrovia
+pt;Monróvia;Monrovia
+en;Moglita;Morrista
+en;Mehla;Menla
+nl;Mehla;Menla
+ar;كاكاتا;Kakata
+ar;هاربر;Harper
+ar;جرينفيل;Greenville
+ar;غبارنغا;Gbarnga
+en;Galai;Gailai
+en;Doata;Duaita
+en;Daninai;Daranai
+en;Charlesville (6);Charlesville
+en;Charlesville (5);Charlesville
+en;Charlesville (4);Charlesville
+en;Charlesville (3);Charlesville
+en;Charlesville (2);Charlesville
+ar;بوخانان;Buchanan
+ar;بوبولو;Bopolu
+ar;بنسونفيل;Bensonville
+ar;باركليفيل;Barclayville
+en;Gwin Town;Gwein
+nl;Gwin Town;Gwein
+ar;آرثلينغتون، ليبيريا;Arthington
+en;Tappita;Tappita City

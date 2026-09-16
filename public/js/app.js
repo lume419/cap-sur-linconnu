@@ -179,7 +179,7 @@
   // plutôt qu'un symbole ici, quel que soit le vrai symbole disponible — voir CURRENCY_GLYPH plus bas).
   // Liban/Israël/Jordanie/Égypte/Libye, dernier ajout en date : LBP/ILS/JOD/EGP/LYD suivent la même
   // règle (code ISO ici, quel que soit le vrai symbole — voir CURRENCY_GLYPH plus bas).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL', AMD: 'AMD', AZN: 'AZN', SYP: 'SYP', LBP: 'LBP', ILS: 'ILS', JOD: 'JOD', EGP: 'EGP', LYD: 'LYD' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL', AMD: 'AMD', AZN: 'AZN', SYP: 'SYP', LBP: 'LBP', ILS: 'ILS', JOD: 'JOD', EGP: 'EGP', LYD: 'LYD', MAD: 'MAD', DZD: 'DZD', TND: 'TND', XOF: 'XOF', MRU: 'MRU', GMD: 'GMD', CVE: 'CVE', GNF: 'GNF', SLE: 'SLE', LRD: 'LRD', GHS: 'GHS' };
   // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
   // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
   // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
@@ -230,7 +230,7 @@
   // "livre égyptienne", héritage du français comme "LL" pour le Liban), également courante avec "E£".
   // LYD (dinar libyen) : aucun symbole Unicode dédié — abrégée "ل.د" en arabe (pas de forme latine
   // qui domine clairement d'après les sources consultées, contrairement à JOD/EGP/LBP ci-dessus).
-  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾', AMD: '֏', AZN: '₼', SYP: 'ل.س', LBP: 'LL', ILS: '₪', JOD: 'JD', EGP: 'LE', LYD: 'ل.د' };
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾', AMD: '֏', AZN: '₼', SYP: 'ل.س', LBP: 'LL', ILS: '₪', JOD: 'JD', EGP: 'LE', LYD: 'ل.د', MAD: 'د.م.', DZD: 'د.ج', TND: 'د.ت', XOF: 'F CFA', MRU: 'UM', GMD: 'D', CVE: 'CVE', GNF: 'FG', SLE: 'Le', LRD: 'L$', GHS: '₵' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :

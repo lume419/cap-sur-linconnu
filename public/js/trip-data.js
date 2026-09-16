@@ -489,7 +489,80 @@
       // le naufrage de l'Assalama et n'a jamais rouvert (réouverture encore bloquée en mai 2025,
       // faute de poste d'inspection frontalier). 49 communes, champ "cp" = étiquette informelle "EH"
       // faute de toute subdivision exploitable (voir scripts/build-maghreb-communes.js).
-      EH: { code:'EH', name:'Sahara occidental', file:'communes-eh.txt', hasToll:false, aliasFile:'aliases-eh.txt', currency:'MAD' }
+      EH: { code:'EH', name:'Sahara occidental', file:'communes-eh.txt', hasToll:false, aliasFile:'aliases-eh.txt', currency:'MAD' },
+      // ── LOT AFRIQUE DE L'OUEST : treize pays ────────────────────────────────────────────────
+      // AUCUN des treize n'a de fichier de codes postaux GeoNames (404 vérifié un par un) : le champ
+      // "cp" porte partout une étiquette de région "XX-<code admin1 GeoNames>", informelle et
+      // documentée comme telle — voir scripts/build-westafrica-communes.js.
+      // PÉAGES : seul le Sénégal a un système FERMÉ, donc réellement proportionnel à la distance, et
+      // c'est le seul à recevoir un barème au kilomètre. Partout ailleurs le péage existe bel et bien
+      // mais il est FORFAITAIRE PAR BARRIÈRE (500 FCFA au Togo, 200 au Burkina, 500 au Mali, 1 000 sur
+      // l'Autoroute du Nord ivoirienne, 20 000 GNF au pont guinéen de Tanéné, NLe 10 en Sierra
+      // Leone) : le convertir en €/km supposerait de connaître l'espacement réel des postes, que
+      // personne ne publie. `hasToll:false` avec la raison écrite est préféré à un chiffre dérivé
+      // d'une hypothèse — le coût réel est donc sous-estimé pour ces pays, et c'est assumé.
+      // BUDGET : sauf pour le Cap-Vert, aucune statistique publique de prix hôtelier n'existe (voir
+      // BUDGET_PRICE_MAX plus bas pour le détail pays par pays).
+      MR: { code:'MR', name:'Mauritanie', file:'communes-mr.txt', hasToll:false, aliasFile:'aliases-mr.txt', currency:'MRU' },
+      // **Le Mali** : `hasToll:false` malgré des postes de péage réels (arrêté interministériel du
+      // 7 mai 2021, 250 FCFA par essieu et par passage, soit 500 FCFA pour une voiture) — forfait par
+      // passage, non kilométrique.
+      // LIMITE MAJEURE DOCUMENTÉE : au 15 septembre 2026, France Diplomatie classe **l'ensemble du
+      // territoire en zone rouge** et précise que « les attaques fréquentes sur les axes routiers
+      // interdisent toute circulation par la route en dehors de Bamako ». S'y ajoutent un blocus du
+      // carburant sur les axes vers Dakar, Abidjan et Conakry depuis septembre 2025, et un siège de
+      // Bamako annoncé fin avril 2026 visant toutes les marchandises. Pays ajouté malgré cela, comme
+      // la Libye et l'Azerbaïdjan avant lui, à surveiller plutôt qu'à considérer comme praticable.
+      ML: { code:'ML', name:'Mali', file:'communes-ml.txt', hasToll:false, aliasFile:'aliases-ml.txt', currency:'XOF' },
+      // **Le Sénégal** : `hasToll:true`, SEUL pays du lot dont le péage se rapporte honnêtement à une
+      // distance — voir TOLL_RATE_BY_COUNTRY pour la dérivation.
+      SN: { code:'SN', name:'Sénégal', file:'communes-sn.txt', hasToll:true, aliasFile:'aliases-sn.txt', currency:'XOF' },
+      // **La Gambie** : `hasToll:false`. Le pont de la Senegambia (Farafenni, ouvert le 21 janvier
+      // 2019) est bien à péage, mais aucun tarif officiel n'est publié — la page du ministère des
+      // Transports renvoie une erreur 404 et les montants qui circulent viennent de sources
+      // collaboratives. À noter, ce pont a rendu FACULTATIF le bac de Banjul-Barra : la route
+      // Dakar-Ziguinchor par la Transgambienne est désormais continue.
+      GM: { code:'GM', name:'Gambie', file:'communes-gm.txt', hasToll:false, aliasFile:'aliases-gm.txt', currency:'GMD' },
+      // **Le Cap-Vert** : seul État insulaire du lot, et premier du projet dont TOUT le territoire est
+      // morcelé — neuf îles habitées, chacune sa masse terrestre (voir landmassOf dans
+      // lib/trip-engine.js) reliées par huit liaisons de FERRY_ROUTES. Aucun péage routier trouvé.
+      // Devise `CVE`, à parité FIXE avec l'euro (110,265) depuis l'accord de coopération de change
+      // avec le Portugal de 1998, transposé à l'euro par la décision du Conseil 98/744/CE.
+      // Particularité de formatage : le symbole de l'escudo, le cifrão, s'écrit en SÉPARATEUR
+      // DÉCIMAL (« 2$50 » = 2 escudos 50) et n'a aucun point de code Unicode propre. Le projet
+      // affiche donc le code ISO plutôt qu'un symbole ambigu.
+      CV: { code:'CV', name:'Cap-Vert', file:'communes-cv.txt', hasToll:false, aliasFile:'aliases-cv.txt', currency:'CVE' },
+      // **La Guinée** : `hasToll:false`. Un seul ouvrage à péage en service, le pont de Tanéné
+      // (inauguré le 27 avril 2025, 20 000 GNF pour une voiture), forfaitaire. Devise `GNF`, à
+      // **zéro décimale** selon l'ISO 4217.
+      GN: { code:'GN', name:'Guinée', file:'communes-gn.txt', hasToll:false, aliasFile:'aliases-gn.txt', currency:'GNF' },
+      GW: { code:'GW', name:'Guinée-Bissau', file:'communes-gw.txt', hasToll:false, aliasFile:'aliases-gw.txt', currency:'XOF' },
+      // **La Sierra Leone** : `hasToll:false` malgré la vraie autoroute à péage Wellington-Masiaka
+      // (62 km, trois postes, concession China Railway Seventh Group) — le tarif y est forfaitaire par
+      // poste (NLe 10 pour un SUV/pick-up depuis le 15 mai 2024). Devise `SLE`, le leone redénominé :
+      // le code SLL a été retiré de l'ISO en décembre 2023 et l'ancien leone a cessé d'avoir cours
+      // légal le 1er avril 2023, au taux de 1 000 anciens pour 1 nouveau.
+      SL: { code:'SL', name:'Sierra Leone', file:'communes-sl.txt', hasToll:false, aliasFile:'aliases-sl.txt', currency:'SLE' },
+      LR: { code:'LR', name:'Liberia', file:'communes-lr.txt', hasToll:false, aliasFile:'aliases-lr.txt', currency:'LRD' },
+      // **Le Burkina Faso** : `hasToll:false` (péage réel mais forfaitaire, 200 FCFA par passage
+      // depuis le 24 juillet 2025, Fonds spécial routier du Burkina).
+      // LIMITE MAJEURE DOCUMENTÉE, comme pour le Mali : France Diplomatie déconseille formellement
+      // tout déplacement dans le pays (mise à jour du 10 septembre 2026), l'ambassade de France à
+      // Ouagadougou est fermée après la rupture des relations diplomatiques, et le Royaume-Uni
+      // déconseille également tout voyage.
+      BF: { code:'BF', name:'Burkina Faso', file:'communes-bf.txt', hasToll:false, aliasFile:'aliases-bf.txt', currency:'XOF' },
+      // **La Côte d'Ivoire** : `hasToll:false` alors que le pays a de nombreux ouvrages à péage réels
+      // (pont Henri Konan Bédié 500 FCFA, Attinguié et Singrobo 1 000 FCFA depuis le 10 février 2025,
+      // quatre postes ouverts en février 2025 à 500 FCFA) — tous forfaitaires par barrière, aucun
+      // système fermé, donc aucune distance à laquelle les rapporter.
+      CI: { code:'CI', name:"Côte d'Ivoire", file:'communes-ci.txt', hasToll:false, aliasFile:'aliases-ci.txt', currency:'XOF' },
+      // **Le Ghana** : `hasToll:false`, et ici c'est la situation réelle et non un repli — les péages
+      // ont été SUPPRIMÉS le 18 novembre 2021 (budget 2022). Le Parlement a approuvé le 31 juillet
+      // 2026 une concession de vingt ans avec Rock Africa Limited pour un système électronique sans
+      // barrière sur 66 routes et ponts, visé au quatrième trimestre 2026, mais aucun tarif n'est
+      // publié à ce jour. Devise `GHS`, seule du lot à avoir un vrai symbole Unicode : ₵ (U+20B5).
+      GH: { code:'GH', name:'Ghana', file:'communes-gh.txt', hasToll:false, aliasFile:'aliases-gh.txt', currency:'GHS' },
+      TG: { code:'TG', name:'Togo', file:'communes-tg.txt', hasToll:false, aliasFile:'aliases-tg.txt', currency:'XOF' }
     };
 
     var TRANSPORT = {
@@ -572,7 +645,20 @@
       // -> 0,0268 / 0,0443 / 0,0619 TND/km, convertis à 3,3730 TND pour 1 EUR (Banque Centrale de
       // Tunisie, 14/09/2026). Classe 5 (moto) = classe 1 "véhicules légers" de la STA, qui n'a pas
       // davantage de catégorie moto que le Maroc.
-      TN: { 1: 0.008, 2: 0.013, 5: 0.008 }
+      TN: { 1: 0.008, 2: 0.013, 5: 0.008 },
+      // Sénégal : SEUL pays du lot ouest-africain dont le péage soit proportionnel à la distance.
+      // Le tronçon Mbour-Fatick-Kaolack, ouvert le 22 août 2026, est en système FERMÉ (enregistrement
+      // à l'entrée, paiement à la sortie) : 3 000 FCFA pour un véhicule particulier sur 100 km, soit
+      // 30 FCFA/km, chiffre communiqué par la Société nationale Autoroutes du Sénégal le 24 août 2026
+      // en démentant une rumeur. Deux autres mesures indépendantes concordent : Dakar-Kaolack 6 500
+      // FCFA pour 184 km (35 FCFA/km) et Ila Touba Thiès-Touba 2 500 FCFA pour 113 km (22 FCFA/km).
+      // La valeur basse et la mieux documentée est retenue. Converti à 655,957 FCFA pour 1 EUR
+      // (parité FIXE, BCEAO) : 30 / 655,957 = 0,046 €/km en classe 1.
+      // Classes 2 et 5 : le concessionnaire Eiffage publie, pour la gare de Thiaroye sur
+      // Dakar-AIBD, moto 600 / véhicule léger 1 000 / camionnette 1 500 FCFA — soit 0,6× et 1,5× le
+      // tarif voiture. Ces rapports, propres à l'exploitant sénégalais, sont appliqués au tarif
+      // kilométrique ci-dessus faute de barème kilométrique publié par classe.
+      SN: { 1: 0.046, 2: 0.069, 5: 0.027 }
     };
 
     var TOLL_MIN_DISTANCE_KM = 60;
@@ -903,7 +989,34 @@
       // même source/même taux que Bozcaada ci-dessus. Classe 2/5 estimées au même ratio que Bozcaada
       // (même opérateur, même type de navire), faute de tarif "véhicule moyen" publié séparément pour
       // cette ligne précise.
-      'continental|gokceada': { routeKey:'ferry.route.gokceada', durationH:1.25, distanceKm:30, priceByClass:{1:12, 2:14, 5:5, foot:2} }
+      'continental|gokceada': { routeKey:'ferry.route.gokceada', durationH:1.25, distanceKm:30, priceByClass:{1:12, 2:14, 5:5, foot:2} },
+      // ── CAP-VERT : neuf îles habitées, huit liaisons ────────────────────────────────────────
+      // Premier pays du projet dont TOUT le territoire est insulaire. Sans ces liaisons, chaque île
+      // serait un cul-de-sac. C'est aussi le seul jeu de données de tout le lot ouest-africain à
+      // satisfaire le critère du projet : un vrai prix PAR CATÉGORIE DE VÉHICULE, publié et daté.
+      // Exploitant : CV Interilhas, concession de service public de vingt ans signée en 2019.
+      // Tarifs : grilles officielles de l'exploitant (tariff_mercadorias.pdf et tariff_passageiros.pdf),
+      // base légale **Despacho n.º 01/2024, publié au Boletim Oficial du 11 janvier 2024**, en vigueur
+      // depuis le 1er février 2024, actualisation portuaire du 28 mai 2026. Montants lus dans les
+      // matrices île par île, converties à la parité FIXE de 110,265 escudos pour 1 EUR :
+      //   classe 1 = « automóvel ligeiro » · classe 2 = « furgoneta » · classe 5 = « moto/jetski »
+      //   foot     = tarif passager national
+      // AUCUNE classe n'est extrapolée ici : les quatre sont publiées pour les huit liaisons.
+      // Durées et distances : programmation officielle des voyages de CV Interilhas (fenêtre du
+      // 27 août au 25 novembre 2026) et distances en milles nautiques publiées par l'exploitant.
+      // Les huit liaisons retenues forment une chaîne connectant les neuf îles habitées ; les autres
+      // paires de la matrice existent aussi au tarif mais passent par ces mêmes escales.
+      // À noter, hors modèle : Santo Antão et Brava n'ont AUCUN aéroport commercial (fermés
+      // respectivement après le crash du vol TACV 5002 en 1999 et pour vents dangereux en 2004) —
+      // le ferry y est le seul accès. Et AUCUNE liaison ne relie le Cap-Vert au continent.
+      'santoAntao|saoVicente': { routeKey:'ferry.route.cvSantoAntao', durationH:1, distanceKm:15, priceByClass:{1:31, 2:38, 5:8, foot:9} },
+      'saoNicolau|saoVicente': { routeKey:'ferry.route.cvSaoNicolau', durationH:5, distanceKm:81, priceByClass:{1:84, 2:171, 5:18, foot:17} },
+      'sal|saoNicolau': { routeKey:'ferry.route.cvSalSaoNicolau', durationH:8, distanceKm:159, priceByClass:{1:147, 2:290, 5:33, foot:30} },
+      'boaVista|sal': { routeKey:'ferry.route.cvSalBoaVista', durationH:3, distanceKm:69, priceByClass:{1:84, 2:171, 5:18, foot:15} },
+      'boaVista|santiago': { routeKey:'ferry.route.cvBoaVistaSantiago', durationH:7, distanceKm:154, priceByClass:{1:147, 2:290, 5:33, foot:30} },
+      'maio|santiago': { routeKey:'ferry.route.cvMaio', durationH:2, distanceKm:39, priceByClass:{1:75, 2:146, 5:18, foot:14} },
+      'fogo|santiago': { routeKey:'ferry.route.cvFogo', durationH:4, distanceKm:113, priceByClass:{1:96, 2:171, 5:33, foot:27} },
+      'brava|fogo': { routeKey:'ferry.route.cvBrava', durationH:1, distanceKm:19, priceByClass:{1:37, 2:60, 5:16, foot:9} }
     };
     // Les cinq îles Wadden partagent toutes le même tarif (celui de TESO/Texel, voir "Ferries" du
     // README) : ajoutées par boucle plutôt que répétées cinq fois à la main dans la table ci-dessus.
@@ -940,6 +1053,26 @@
     // le Sinaï, si bien qu'y ouvrir une liaison maritime rendrait aussi possible un trajet ROUTIER
     // fictif à travers la Méditerranée. S'y ajoute que ces lignes sont en tarification dynamique,
     // sans grille par véhicule vérifiable — même motif de non-inclusion que pour Limassol-Le Pirée.
+    // Rattachement de chaque concelho capverdien à son île, par CODE et jamais par nom : deux
+    // concelhos portent un nom presque identique sur deux îles différentes (Santa Catarina sur
+    // Santiago, Santa Catarina do Fogo sur Fogo). Le rattachement par coordonnées a été écarté après
+    // avoir trouvé une anomalie dans GeoNames — la localité de Ponta Verde est rattachée au concelho
+    // de São Filipe, sur Fogo, mais porte des coordonnées situées sur Santiago. Le code admin1 fait
+    // foi, conformément au principe « GeoNames tel quel » du projet.
+    var CV_CONCELHO_TO_ISLAND = {
+      'CV-07': 'santoAntao', 'CV-05': 'santoAntao', 'CV-21': 'santoAntao',
+      'CV-11': 'saoVicente',
+      'CV-22': 'saoNicolau', 'CV-27': 'saoNicolau',
+      'CV-08': 'sal',
+      'CV-01': 'boaVista',
+      'CV-04': 'maio',
+      'CV-20': 'santiago', 'CV-19': 'santiago', 'CV-15': 'santiago', 'CV-16': 'santiago',
+      'CV-26': 'santiago', 'CV-25': 'santiago', 'CV-17': 'santiago', 'CV-23': 'santiago',
+      'CV-14': 'santiago',
+      'CV-13': 'fogo', 'CV-18': 'fogo', 'CV-24': 'fogo',
+      'CV-02': 'brava'
+    };
+
     var SEA_CROSSINGS = {
       'ES|ES-CE': { routeKey:'ferry.route.ceuta', durationH:1.5, distanceKm:31.5, priceByClass:{1:50, 2:99, 5:50, foot:35} },
       'ES|ES-ML': { routeKey:'ferry.route.melilla', durationH:6.5, distanceKm:210, priceByClass:{1:40, 2:40, 5:40, foot:50} }
@@ -1112,7 +1245,38 @@
       // juin 2026), jamais un niveau. Calibré sur un agrégateur commercial (3★ moyenne 294 TND) et
       // sur des fourchettes saisonnières publiées. À nuancer : le taux d'occupation annuel du pays
       // est de 35,3 %, signe d'une saisonnalité très marquée qu'une gamme annuelle unique ne rend pas.
-      TND: { economique: 150, moyen: 300, confortable: 600 }
+      TND: { economique: 150, moyen: 300, confortable: 600 },
+      // ── LOT AFRIQUE DE L'OUEST ──────────────────────────────────────────────────────────────
+      // **Le Cap-Vert est le seul des treize à être calibré sur de VRAIES données de marché.**
+      // Institut national de statistique (INE-CV), « Inventário Anual de Estabelecimentos
+      // Hoteleiros », prix moyen journalier 2025 en escudos, par catégorie d'établissement :
+      // résidences et hébergement complémentaire 4 387-5 154 ; pensions et pousadas 5 263-6 080 ;
+      // chambre double toutes catégories 6 750 (basse saison) à 7 738 (haute) ; hôtels 10 220-12 931 ;
+      // suites 12 481-14 484. Les trois gammes reprennent ces paliers réels.
+      CVE: { economique: 5000, moyen: 7700, confortable: 14500 },
+      // Les DOUZE AUTRES pays n'ont AUCUNE statistique publique de prix hôtelier exploitable, et ce
+      // n'est pas un défaut de recherche : les offices nationaux du Mali et de la Mauritanie ne
+      // produisent tout simplement pas de chapitre tourisme, et le recensement hôtelier sierra-léonais
+      // de 2020 a délibérément exclu toute question tarifaire. Les seuls barèmes couvrant les treize
+      // pays (per diem du Département d'État américain et de la Commission européenne) sont des
+      // PLAFONDS administratifs qui ne décrivent que le haut du marché : en déduire un « économique »
+      // par division serait exactement l'extrapolation que ce projet s'interdit. Deux ancres
+      // officielles existent mais ne sont pas des prix de chambre et datent de 2015-2018 (Sénégal
+      // 25 604 FCFA par touriste et par jour, Burkina ~34 700 FCFA par nuitée-personne).
+      // CHOIX RETENU, explicite : la gamme euro du projet (70 / 130 / 260) convertie au taux officiel
+      // de chaque devise. Ce n'est PAS une observation de marché local, et c'est documenté comme tel.
+      // Taux utilisés : XOF 655,957 (parité fixe, BCEAO) · MRU 46,25 (Banque centrale de Mauritanie,
+      // 15/09/2026) · GMD 84,83 (Central Bank of The Gambia, 16/09/2026) · GNF 10 145,87 (BCRG,
+      // 15/09/2026) · SLE 26,32 (Bank of Sierra Leone, 15/09/2026) · GHS 13,2525 (Bank of Ghana,
+      // 15/09/2026) · LRD 210,74 (taux comptable InforEuro de la Commission européenne, la Banque
+      // centrale du Liberia ne cotant que le dollar américain).
+      XOF: { economique: 45000, moyen: 85000, confortable: 170000 },
+      MRU: { economique: 3200, moyen: 6000, confortable: 12000 },
+      GMD: { economique: 6000, moyen: 11000, confortable: 22000 },
+      GNF: { economique: 710000, moyen: 1320000, confortable: 2640000 },
+      SLE: { economique: 1800, moyen: 3400, confortable: 6800 },
+      GHS: { economique: 930, moyen: 1700, confortable: 3450 },
+      LRD: { economique: 15000, moyen: 27000, confortable: 55000 }
     };
 
   var COUNTRY_LIST = Object.keys(COUNTRIES);
@@ -1124,6 +1288,7 @@
     TOLL_RATE_BY_CLASS: TOLL_RATE_BY_CLASS, TOLL_RATE_BY_COUNTRY: TOLL_RATE_BY_COUNTRY,
     TOLL_MIN_DISTANCE_KM: TOLL_MIN_DISTANCE_KM,
     HR_ISLAND_POSTCODES: HR_ISLAND_POSTCODES, HR_POSTCODE_TO_ISLAND: HR_POSTCODE_TO_ISLAND,
+    CV_CONCELHO_TO_ISLAND: CV_CONCELHO_TO_ISLAND,
     WADDEN_ISLANDS: WADDEN_ISLANDS, SARDINIA_PROVINCES: SARDINIA_PROVINCES, SICILY_PROVINCES: SICILY_PROVINCES,
     GR_POROS_MAINLAND_NAMES: GR_POROS_MAINLAND_NAMES, GR_ISLAND_PATTERNS: GR_ISLAND_PATTERNS,
     FERRY_ROUTES: FERRY_ROUTES, SEA_CROSSINGS: SEA_CROSSINGS, BUDGET_PRICE_MAX: BUDGET_PRICE_MAX

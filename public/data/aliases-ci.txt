@@ -1,0 +1,44 @@
+es;Yamusukro;Yamoussoukro
+ar;ياموسوكرو;Yamoussoukro
+ar;ساساندرا;Sassandra
+es;San Pedro;San-Pédro
+it;San Pédro;San-Pédro
+ar;سان بيدرو;San-Pédro
+en;San-Pedro;San-Pédro
+de;San-Pedro;San-Pédro
+ha;San-Pedro;San-Pédro
+pt;San-Pedro;San-Pédro
+ar;أوديان;Odienné
+es;Odienne;Odienné
+de;Odienne;Odienné
+ha;Odienne;Odienné
+pt;Odienne;Odienné
+en;Marabadiassa;Marabadjassa
+it;Marabadiassa;Marabadjassa
+fr;Marabadiassa;Marabadjassa
+nl;Marabadiassa;Marabadjassa
+ar;مان;Man
+ar;كوروغو;Korhogo
+ar;غانيوا;Gagnoa
+bm;Ferekesedugu;Ferkessédougou
+en;Rocktown Berebi;Dogbalé
+ar;ديمبوكرو;Dimbokro
+ar;دالوا;Daloa
+bm;Bunjali;Boundiali
+ar;بواكي;Bouaké
+ha;Bouake;Bouaké
+ar;بونودوكو;Bondoukou
+en;Yeh;Grand Berebi
+en;Lomokankro;Amonkro
+it;Lomokankro;Amonkro
+fr;Lomokankro;Amonkro
+nl;Lomokankro;Amonkro
+es;Abiyán;Abidjan
+ar;أبيدجان;Abidjan
+ar;أبنقورو;Abengourou
+ar;سيجويلا;Séguéla
+es;Segu;Séguéla
+de;Seguela;Séguéla
+ha;Seguela;Séguéla
+pt;Segu;Séguéla
+bm;Yopugɔn;Yopougon
