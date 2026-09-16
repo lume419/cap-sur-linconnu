@@ -1375,6 +1375,46 @@ Mayen** est recherchable SANS trajet (`NO_TRIP_LANDMASSES`), même choix que pou
 personnel militaire et météorologique seulement, piste fermée aux vols civils, ni port ni hébergement,
 autorisation préalable obligatoire. France Diplomatie : vigilance normale pour le Svalbard.
 
+### Péninsule Arabique, Irak et Iran (septembre 2026)
+
+Arabie saoudite, Bahreïn, Émirats arabes unis, Irak, Iran, Koweït, Oman, Qatar et Yémen — **183 088 lieux**
+(Iran 72 830, Yémen 78 214, Koweït 79) et **168 175 alias**, en grande partie arabes et persans, GeoNames
+rangeant les noms en translittération latine (`scripts/build-golfe-communes.js`). Aucun code postal : le
+seul fichier « postal » GeoNames du lot, celui des Émirats, contient 178 171 numéros d'adresse de bâtiments
+de Dubaï (système Makani), pas des codes postaux — les Émirats n'en ont pas.
+
+**Frontières** (toutes celles qu'une route franchit) : Arabie saoudite avec la Jordanie, l'Irak, le Koweït,
+le Qatar, les Émirats, Oman, le Yémen et Bahreïn (chaussée du roi Fahd) ; Émirats-Oman ; Oman-Yémen ; Irak
+avec la Jordanie, la Syrie, la Turquie, l'Iran et le Koweït ; Iran avec la Turquie, l'Arménie et
+l'Azerbaïdjan. Musandam, exclave omanaise, est reliée au reste d'Oman par la route à travers les Émirats.
+
+**Îles isolées**, boîtes vérifiées contre les lieux publiés : Qeshm, Hormuz, Larak, Kish, Kharg, Lavan et la
+Grande Tomb (Iran), Abou Moussa (rangée sous les Émirats par GeoNames, reprise telle quelle), Socotra, Abd
+al-Kuri et Kamaran (Yémen), Farasan (Arabie saoudite), Failaka (Koweït), Sir Bani Yas (Émirats). Masirah
+(Oman) est reliée par ferry (voir "Ferries").
+
+**Péages : aucun modélisé.** Salik (Dubaï) et Darb (Abou Dhabi) sont des portiques urbains à forfait par
+passage ; la chaussée du roi Fahd un forfait de 35 SAR ; les autoroutes iraniennes un forfait par tronçon
+de l'ordre d'un millième d'euro par kilomètre ; les autres pays n'ont pas de route à péage.
+
+**Monnaies : neuf nouvelles** (SAR, AED, QAR, BHD, OMR, KWD, IQD, IRR, YER), avec les abréviations arabes en
+usage (ر.س, د.إ…) et le signe du rial ﷼ pour l'Iran. Les nouveaux signes dédiés du riyal saoudien (U+20C1,
+Unicode 17.0) et du dirham émirien (U+20C3, Unicode 18.0, publié le jour même de cet ajout) ne sont PAS
+utilisés : encore absents de la plupart des polices système. Budgets : gamme euro convertie au taux
+InforEuro de septembre 2026, contrôlée contre les prix moyens OFFICIELS — GASTAT (Arabie saoudite, T1 2026,
+423 SAR) et NCSI (Oman, T1 2026, 57,5 OMR) tombent dans la tranche "moyen". Montants indicatifs, écrit dans le
+code : rial iranien (taux InforEuro 1,6 million pour 1 €, marché libre ~2,55 millions ; suppression de quatre
+zéros votée en 2025, non appliquée), rial yéménite (deux monnaies de fait, Sanaa et Aden), dinar irakien
+(officiel 1 300 pour 1 USD, parallèle ~1 570).
+
+**Hébergement en Iran** : Booking.com (retiré en 2018) et Airbnb n'y opèrent pas, et les cartes bancaires
+étrangères n'y fonctionnent pas — les liens de réservation générés n'aboutiront pas.
+
+**Zones à tension** (31 règles de plus, voir "Zones à tension et frontières") : Iran et Yémen entièrement en
+rouge ; Irak largement en rouge et orange ; Bahreïn et Koweït entièrement en orange ; bande de 100 km le
+long du Yémen en rouge en Arabie saoudite ; Musandam, Dhofar et frontière yéménite en orange à Oman ; îles
+d'Abou Moussa et des Tomb en rouge ; Qatar sans zone. Contexte : crise du détroit d'Ormuz depuis février 2026.
+
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
 des coordonnées valides.
@@ -1400,7 +1440,7 @@ ouverte ET hors des zones formellement déconseillées par France Diplomatie. D�
   « non retenues » gardent leurs constats (état réel des postes, sources), mais ces frontières sont
   aujourd'hui ouvertes dans le modèle.
 - **Zones à tension** (`TENSION_ZONES`, public/js/trip-data.js, construit par
-  `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **206 règles pour 52 pays**,
+  `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **237 règles pour 60 pays**,
   relevées sur les fiches « Sécurité » de France Diplomatie (mises à jour du 15 septembre 2026) — zones
   **rouges** (« formellement déconseillé ») et **orange** (« déconseillé sauf raison impérative »), le jaune
   étant ignoré. Découpage au plus juste : pays entier quand il est tout rouge (Russie, Ukraine,
@@ -2664,6 +2704,24 @@ injoignables) :
 **Traductions** sans relecture native ; plusieurs termes techniques sont des emprunts au russe, comme
 dans l'usage courant de ces langues. Aucune langue n'est ajoutée pour le Svalbard (norvégien déjà présent).
 
+### Péninsule Arabique, Irak et Iran : persan et kurde sorani (septembre 2026)
+
+L'arabe, seule langue officielle des sept pays arabes du lot, était déjà présent. Deux langues ajoutées
+(107 au total), toutes deux **écrites de droite à gauche** (`RTL_LANGS`) :
+- **Persan** (`fa`, drapeau de l'**Iran**) — langue et écriture officielles (Constitution de 1979, art. 15) ;
+  orthographe « دستور خط فارسی » adoptée par l'Académie de la langue et de la littérature persanes (2001,
+  nouvelle édition 2023). Traduction vérifiée : ی et ک persans, demi-espaces (ZWNJ) là où l'orthographe les exige.
+- **Kurde sorani** (`ckb`, drapeau de la **Région du Kurdistan**) — langue officielle de l'Irak avec l'arabe
+  (Constitution de 2005, art. 4 ; loi n° 7 de 2014) ; orthographe kurde unifiée approuvée à Erbil en 2001 et
+  appliquée par l'Académie kurde. **Retenu avec réserve** : aucun acte rendant cette orthographe obligatoire
+  n'a été trouvé. Le kurde kurmandji en alphabet latin (`ku`) reste une langue distincte.
+
+**Écartées** : turkmène irakien (statut local, mais écrit en turc standard sans orthographe officielle ni
+code ISO propre), syriaque/soureth (statut local sans norme orthographique publique), arménien (droit à
+l'enseignement seulement), langues régionales d'Iran (autorisées sans être nommées par l'art. 15), mehri,
+soqotri et shehri (ni statut ni orthographe), baloutchi et swahili à Oman (aucun statut). Traductions sans
+relecture native.
+
 ## Démarrer en local
 
 ```bash
@@ -3355,6 +3413,16 @@ Conséquence : toutes ces îles sont isolées (voir "Pays couverts"), et les deu
   seulement), bac de la Lena à Iakoutsk (tarif réglementé, mais sa modélisation supposerait de découper le
   réseau routier iakoute, non fait). **Svalbard** : aucune liaison régulière en 2026.
 
+### Péninsule Arabique et Iran : Masirah seulement (septembre 2026)
+
+- **Shannah ↔ Masirah (Oman)** — Mwasalat, grille publiée : voiture 8,400 OMR (≈ 18,70 €), 4x4 10,500 (classe
+  van), moto 4,200, passager 3,600 ; 1 h, 4 départs par jour.
+- **Non modélisées** : Shinas ↔ Khasab (inutile, Musandam étant accessible par la route, et plus d'horaire fixe
+  depuis la crise d'Ormuz) ; Jizan ↔ Farasan (gratuité officielle connue seulement jusqu'en 2024) ; toutes les
+  liaisons iraniennes (tarifs révisés plusieurs fois par an sans grille 2026, suspension le 13 septembre 2026)
+  et Iran-Émirats (commerce suspendu en août 2026) ; Dalma (grille partielle) ; Failaka (grille de 2016) ;
+  Socotra et Kamaran (aucune liaison régulière).
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois
@@ -3409,7 +3477,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies/mauritaniennes/maliennes/sénégalaises/gambiennes/capverdiennes/guinéennes/bissau-guinéennes/sierra-léonaises/libériennes/burkinabè/ivoiriennes/ghanéennes/togolaises/nigériennes/béninoises/nigérianes/tchadiennes/centrafricaines/soudanaises/sud-soudanaises/érythréennes/éthiopiennes/djiboutiennes/somaliennes/kényanes/ougandaises/tanzaniennes/rwandaises/burundaises/congolaises/gabonaises/équato-guinéennes/santoméennes/angolaises/zambiennes/malawites/mozambicaines/zimbabwéennes/botswanaises/namibiennes/sud-africaines/eswatiniennes/lésothiennes/comoriennes/malgaches/mauriciennes/seychelloises/camerounaises, de Sainte-Hélène, d'Ascension, de Tristan da Cunha et des îles Glorieuses et Juan de Nova/russes/du Svalbard et de Jan Mayen : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies/mauritaniennes/maliennes/sénégalaises/gambiennes/capverdiennes/guinéennes/bissau-guinéennes/sierra-léonaises/libériennes/burkinabè/ivoiriennes/ghanéennes/togolaises/nigériennes/béninoises/nigérianes/tchadiennes/centrafricaines/soudanaises/sud-soudanaises/érythréennes/éthiopiennes/djiboutiennes/somaliennes/kényanes/ougandaises/tanzaniennes/rwandaises/burundaises/congolaises/gabonaises/équato-guinéennes/santoméennes/angolaises/zambiennes/malawites/mozambicaines/zimbabwéennes/botswanaises/namibiennes/sud-africaines/eswatiniennes/lésothiennes/comoriennes/malgaches/mauriciennes/seychelloises/camerounaises, de Sainte-Hélène, d'Ascension, de Tristan da Cunha et des îles Glorieuses et Juan de Nova/russes/du Svalbard et de Jan Mayen/saoudiennes/bahreïniennes/émiriennes/irakiennes/iraniennes/koweïtiennes/omanaises/qatariennes/yéménites : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux géorgiens (absents de GeoNames pour ce pays, voir "Pays couverts") : annuaire tiers
   [yell.ge](https://www.yell.ge) — PAS une source officielle ni sous licence ouverte explicite, choix

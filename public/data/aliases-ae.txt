@@ -1,0 +1,249 @@
+ar;ضنحه;Danhah
+ar;ظنحة;Danhah
+ar;عزابات;Azhabat
+ar;‎‫اليفنه‬‎;Yafnah
+en;Warisan;Warīsān
+ar;ورسان;Warīsān
+ru;Варисан;Warīsān
+ar;أم القيوين;Umm Al Quwain City
+ru;Умм-эль-Кайвайн;Umm Al Quwain City
+fr;Oumm al Qaïwaïn;Umm Al Quwain City
+en;Umm al-Quwain;Umm Al Quwain City
+ar;مدينة ام القيوين;Umm Al Quwain City
+de;Umm al Qaywayn;Umm Al Quwain City
+tr;Umm Al Quwain;Umm Al Quwain City
+es;Umm Al Quwain;Umm Al Quwain City
+az;Umm Al Quwain;Umm Al Quwain City
+fa;ام القوین;Umm Al Quwain City
+pt;Umm Al Quwain;Umm Al Quwain City
+ar;صمبريد;Sumbrair
+ar;شوكه;Shawkah
+fa;شوکه;Shawkah
+ar;سكمكم;Sakamkam
+en;Saqamqam;Sakamkam
+fa;سکمکم;Sakamkam
+nl;Saqamqam;Sakamkam
+ar;ديره السل;Dirat as-Sal
+ar;رَأْس ٱلْخَيْمَة;Ras Al Khaimah
+ru;Рас-эль-Хайма;Ras Al Khaimah
+en;Ras al-Khaimah;Ras Al Khaimah
+de;Ra’s al-Chaima;Ras Al Khaimah
+fr;Ras el Khaïmah;Ras Al Khaimah
+en;Ras el-Kheima;Ras Al Khaimah
+en;Ras Al Khaimah City;Ras Al Khaimah
+az;Ras Əl-Xayma;Ras Al Khaimah
+tr;Resü'l-Hayme;Ras Al Khaimah
+fa;رأس الخیمه;Ras Al Khaimah
+ar;رافاق;Rafaq
+fa;رافاق;Rafaq
+fa;القرم;Qurm
+ar;Qūr;Sha'biyyat Al Qor
+en;Qada‘a;Qada‘ah
+en;Kida'ah;Qada‘ah
+en;Kidā'ah;Qada‘ah
+en;Mezaira’a;Muzayri‘
+ru;Музаири;Muzayri‘
+ru;Мирба;Murbaḩ
+ar;المحترقة;Al Muhtarqah
+en;Mukhtaraqah;Al Muhtarqah
+fa;مختاراقاه;Al Muhtarqah
+nl;Mukhtaraqah;Al Muhtarqah
+ar;المديفي;Nedaifi
+en;Muaifi;Nedaifi
+fa;المدیفی;Nedaifi
+nl;Muaifi;Nedaifi
+ar;وادي الحلو;Sha'biyyat Al Qilē'ī
+fa;وادی الحلو;Sha'biyyat Al Qilē'ī
+ar;شعبية ممدوح;Mamdūḩ
+ar;مغربية;Maghribīyah
+ar;مدينة زايد;Zayed City
+de;Madīnat Zāyid;Zayed City
+fa;میداق;Maydaq
+ar;خور خوير;Khawr Khuwayr
+fa;خور خویر;Khawr Khuwayr
+ru;Хор-Факкан;Khawr Fakkān
+en;Khor'fakkan;Khawr Fakkān
+en;Khor Fakkan City;Khawr Fakkān
+ar;مدينة خور فكان;Khawr Fakkān
+ar;خت;Khatt
+fa;خات;Khatt
+ar;الخرا;Ḩarrah
+ar;الغيل;Ghayl
+fa;الغیل;Ghayl
+ar;الفشغا;Fashrah
+fa;فشراه;Fashrah
+ar;فلج المعلا;Falaj al Mu‘allā
+es;Dubái;Dubai
+ar;دبي;Dubai
+fa;دبی;Dubai
+fr;Dubaï;Dubai
+ru;Дубай;Dubai
+ckb;دوبەی;Dubai
+en;Dubai City;Dubai
+az;Dubay;Dubai
+ar;دبا الفجيرة;Dibba Al-Fujairah
+ru;Дибба Аль-Хисн;Dibba Al-Hisn
+fa;وادی مدینه;Daynah
+en;Dahir Al Ya'ad;Zahir al Ya'ad
+en;Ḑāhir Al Ya'ad;Zahir al Ya'ad
+ar;دفتا;Daftah
+fa;دفته;Daftah
+ar;ضدنا;Ḑadnā
+ru;Дадна;Ḑadnā
+en;Dadna;Ḑadnā
+fa;ضدنا;Ḑadnā
+nl;Dadna;Ḑadnā
+de;Schardscha;Sharjah
+es;Sarja;Sharjah
+fr;Charjah;Sharjah
+ar;إمارة الشارقة;Sharjah
+fa;شارجه;Sharjah
+it;Sharja;Sharjah
+ru;Шарджа;Sharjah
+ar;الشارقة;Sharjah
+az;Şarja;Sharjah
+tr;Şarika;Sharjah
+en;Sharjah city;Sharjah
+ar;مدينة الشارقة;Sharjah
+ar;عشاصة;‘Ashashah
+ru;Ар-Руваис;Ar Ruways
+de;Ruwais;Ar Ruways
+pt;Ruwais;Ar Ruways
+en;Ruwais;Ar Ruways
+es;Ruwais;Ar Ruways
+ar;الرويس;Ar Ruways
+fa;الرویس;Ar Ruways
+nl;Ruwais;Ar Ruways
+fa;ال قریاه;Al Qurayyah
+en;Al Jeer;Al Qīr
+en;Al Jir;Al Qīr
+en;Al-Mirfa’;Al Marfa’
+ar;الحمرية;Al Ḩamrīyah
+ar;حتا;Ḩattā
+en;Hatta;Ḩattā
+es;Hatta;Ḩattā
+de;Fudschaira;Fujairah
+ar;فجيرة;Fujairah
+ru;Фуджейра;Fujairah
+ar;الفجيرة;Fujairah
+en;Al Fujairah City;Fujairah
+ar;مدينة الفجيرة;Fujairah
+az;Füceyrə;Fujairah
+tr;Füceyre;Fujairah
+fa;فجیره;Fujairah
+ar;البثنة;Biţnah
+en;Al Ain;Al Ain City
+de;Al-Ain;Al Ain City
+fr;Al-Aïn;Al Ain City
+ar;العين;Al Ain City
+pt;Al Ain;Al Ain City
+ru;Эль-Айн;Al Ain City
+it;Al-Ayn;Al Ain City
+fa;العین;Al Ain City
+ar;مدينة العين;Al Ain City
+en;Ujman;Ajman
+ar;عجمان;Ajman
+en;Ajman City;Ajman
+de;Adschman;Ajman
+az;Əcmən;Ajman
+ru;Аджман;Ajman
+fa;عجمان;Ajman
+tr;Acman;Ajman
+es;Ajmán;Ajman
+pt;Ajmã;Ajman
+ar;الذيد;Adh Dhayd
+ru;Эд-Дайд;Adh Dhayd
+en;Dhaid;Adh Dhayd
+it;Dhaid;Adh Dhayd
+fa;ذید;Adh Dhayd
+nl;Dhaid;Adh Dhayd
+tr;Zeyd;Adh Dhayd
+es;Adh Dhaid;Adh Dhayd
+es;Abu Dabi;Abu Dhabi
+ar;أبوظبي;Abu Dhabi
+fr;Abou Dabi;Abu Dhabi
+pt;Abu Dabi;Abu Dhabi
+ru;Абу-Даби;Abu Dhabi
+tr;Abu Dabi;Abu Dhabi
+az;Əbu-Dabi;Abu Dhabi
+fa;ابوظبی;Abu Dhabi
+ckb;ئەبووزەبی;Abu Dhabi
+lrc;ابوظبی;Abu Dhabi
+mzn;ابوظبی;Abu Dhabi
+en;Abu Dhabi Island and Internal Islands City;Abu Dhabi
+ar;جزيرة أبوظبي وجزر داخلية اخرى;Abu Dhabi
+ar;الشهامة;Ash Shahāmah
+fa;مورد;Mawrid
+ar;ينينير;Yinainir
+en;Dīrat Jārḩi;Dirat Jarhi
+fa;ابو موسیٰ;Abū Mūsá
+ar;الراعفة;Ar Rā‘fah
+ar;سُوَيْحَان;Suwayḩān
+ar;البرشاء;Al Barsha
+en;Palm Jumeirah;The Palm Jumeirah
+ar;نخلة الجميرة;The Palm Jumeirah
+ar;بر دبي;Bur Dubai
+ar;الغزيمرى;Al Ghizaimri
+ar;الجريف;Jareef
+ar;الحزيوة;Al Ḩazaywah
+ar;العذيب;Al ‘Adhīb
+ar;الرملة;Ar Ramlah
+ar;السلمة;As Salamah
+ar;الأبرق;Al Abraq
+ar;السرة;As Surrah
+ar;مهذب;Muhadhdhib
+ar;كابر;Kābir
+ar;اللبسة;Al Labsah
+ar;الراشدية;Ar Rāshidīyah
+ar;مدينة خليفة أ;Khalifah A City
+ar;مدينة خليفة أ/ مطار أبوظبي الدولي;Khalifah A City
+ar;بياتة;Biyātah
+ar;غَـيَـاثِي;Ghayathi
+ar;جبل علي;Jebel Ali
+ru;Джебел Али;Jebel Ali
+ar;العراد;Al ‘Arād
+ar;مدينة بني ياس;Bani Yas City
+en;Musaffah City;Musaffah
+ar;مصفح;Musaffah
+ru;Мусаффа;Musaffah
+ar;مدينة الشامخة;Al Shamkhah City
+ar;ريف الفجيرة;Reef Al Fujairah City
+ar;العراد;Al'Arad
+ar;العراد;Al Araad
+en;Dirat Dafalas;Dafalas
+en;Defels;Dafalas
+en;Sheri;Shairi
+ar;‫اتمار;Atmar
+en;Mak Sikēk;Mak Sikek
+es;Mak Sikēk;Mak Sikek
+en;Deira al Tala;Tala
+en;Dirat al Tala;Tala
+en;Tallah;Tala
+ar;ديرة التلع;Tala
+en;Tila;Tala
+ar;ديرة صباح;Dirat Sabah
+ar;شِدفة;Sidfah
+ar;ديرة البعيبه;Dirat al-Ba'iybah
+ar;شرماتة;Sharmatah
+ar;إصفي‎;Esfai
+ar;الدفين;Al Dafain
+ar;حييله;Al Hayilah
+en;Motor City;Dubai Motor City
+ar;لهباب;Lahbab
+ar;ٱلْمَدَام;Al Madam
+ar;ضبعة;Dab‘ah
+ar;البقيل‬‎;Al Baqil
+ar;صخيبر;Sha'biyyat Sikhе̄bar
+ar;شعبية صخيبر;Sha'biyyat Sikhе̄bar
+ar;كنمت;Kanaan
+ar;المرح;Al Marah
+ar;معيرك;Ma'yrik
+ar;واب صقر;Wab Saqar
+ar;ديره الغيل;Deira Al Ghayl
+ar;حلحل;Halhal
+ar;سلي‬‎;Slai Al-Ghalib
+ar;رفيصه;Ar Rafisah
+ar;شعبية إصفني;Esfini
+ar;اصفني‎;Esfini
+ar;غوب;Ghub
+ar;شعبية الوعب‎;Sha'biyyat Al Wa'ab

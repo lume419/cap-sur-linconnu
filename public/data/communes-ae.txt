@@ -1,0 +1,418 @@
+403;56.1826,24.8081;AE-03;Dubai;Suhaylah
+0;53.2000,23.2833;AE-01;Abu Dhabi;Z̧uwayhir
+0;53.6934,23.1392;AE-01;Abu Dhabi;Z̧uwayhir
+0;56.3597,25.4049;AE-04;Fujairah;Zubārah
+0;56.3233,25.5118;AE-04;Fujairah;Zikt
+0;56.1851,25.5792;AE-04;Fujairah;Danhah
+0;53.7544,23.1273;AE-01;Abu Dhabi;Z̧afīr
+0;56.1337,25.7300;AE-05;Ras Al Khaimah;Azhabat
+0;56.0972,24.9400;AE-05;Ras Al Khaimah;Yaif
+0;56.0992,25.7342;AE-05;Ras Al Khaimah;Yafnah
+108759;55.4071,25.1674;AE-03;Dubai;Warīsān
+0;56.2284,25.6003;AE-04;Fujairah;Wamm
+0;56.3032,24.9090;AE-05;Ras Al Khaimah;Wahala
+0;53.7116,23.1026;AE-01;Abu Dhabi;Wafd
+0;56.0140,25.6252;AE-05;Ras Al Khaimah;Wad Wid
+0;56.3167,25.3500;AE-06;Sharjah;Wādī Shī
+0;54.1333,23.0474;AE-01;Abu Dhabi;Wadhīl
+0;56.1354,25.5705;AE-04;Fujairah;Wa‘bayn
+0;55.4667,24.9333;AE-03;Dubai;‘Urqūb Juwayza
+0;56.3644,25.2830;AE-06;Sharjah;‘Uqayr
+0;53.7167,23.1000;AE-01;Abu Dhabi;Umm al Qurayn
+59098;55.5552,25.5647;AE-07;Umm Al Quwain;Umm Al Quwain City
+0;55.4553,25.0162;AE-03;Dubai;‘Ūd al Bayḑā’
+0;54.0157,23.1109;AE-01;Abu Dhabi;Tharwānīyah
+0;56.1707,25.4123;AE-04;Fujairah;Ţayyibah
+0;56.0767,25.5578;AE-04;Fujairah;Ţawīyayn
+0;56.1514,25.5285;AE-04;Fujairah;Ţarīqat Ja‘d
+51000;56.3312,25.0695;AE-04;Fujairah;Ţarīf Kalbā
+0;53.7635,24.0540;AE-01;Abu Dhabi;Ţarīf
+0;53.6070,23.1166;AE-01;Abu Dhabi;Ţaraq
+0;56.3483,25.0941;AE-06;Sharjah;Şūr
+0;56.2844,25.6008;AE-04;Fujairah;Sumbrair
+0;56.1265,24.8117;AE-02;Ajman;Şufayrī
+0;56.1677,25.5087;AE-04;Fujairah;Sinnah
+0;56.0772,25.2476;AE-05;Ras Al Khaimah;Sījī
+0;56.2455,25.2914;AE-06;Sharjah;Shīs
+0;56.0109,25.8178;AE-05;Ras Al Khaimah;Shimāl
+0;56.0333,25.1000;AE-05;Ras Al Khaimah;Shawkah
+0;56.0815,25.2679;AE-04;Fujairah;Shawīyah
+0;56.3532,25.4708;AE-04;Fujairah;Sharm
+0;56.0333,25.1000;AE-05;Ras Al Khaimah;Sharīyah
+0;56.0986,24.8151;AE-02;Ajman;Sharīyah
+0;56.0833,25.9667;AE-05;Ras Al Khaimah;Shahawāt
+0;53.9165,23.1356;AE-01;Abu Dhabi;Shāh
+0;56.1283,25.8986;AE-05;Ras Al Khaimah;Shāh
+0;56.0000,25.0333;AE-05;Ras Al Khaimah;Shabakah
+0;56.1685,24.8840;AE-05;Ras Al Khaimah;Sayḩ aş Şaqlah
+0;56.0667,25.9333;AE-05;Ras Al Khaimah;Sayḩ
+0;56.3304,25.1747;AE-04;Fujairah;Sakamkam
+0;56.1370,25.6891;AE-05;Ras Al Khaimah;Samarat
+0;56.0922,25.7490;AE-05;Ras Al Khaimah;Dirat as-Sal
+0;55.9908,25.7216;AE-05;Ras Al Khaimah;Şāliḩīyah
+0;56.2420,25.1842;AE-04;Fujairah;Sā’if
+0;56.2994,25.2231;AE-04;Fujairah;Şafad
+0;53.8500,23.3000;AE-01;Abu Dhabi;Sabkhah
+0;53.9818,23.1292;AE-01;Abu Dhabi;Sabkhah
+0;56.3455,25.5548;AE-04;Fujairah;Rūl Ḑadnā
+0;56.3563,25.1055;AE-04;Fujairah;Rughaylāt
+0;56.0584,25.5456;AE-04;Fujairah;Riyāmah
+0;56.1180,25.1678;AE-05;Ras Al Khaimah;Rimá
+351943;55.9432,25.7895;AE-05;Ras Al Khaimah;Ras Al Khaimah
+0;56.0445,25.3598;AE-04;Fujairah;Ramlah
+0;56.2456,24.8747;AE-05;Ras Al Khaimah;Rafaq
+0;56.3501,25.3470;AE-06;Sharjah;Rafā‘
+0;53.7274,23.1097;AE-01;Abu Dhabi;Quţūf
+0;53.8285,23.1196;AE-01;Abu Dhabi;Qurmidah
+0;56.0642,25.9114;AE-05;Ras Al Khaimah;Qurm
+0;56.0957,24.9121;AE-05;Ras Al Khaimah;Sha'biyyat Al Qor
+0;54.2218,22.9941;AE-01;Abu Dhabi;Qu‘aysah
+0;56.0864,25.9850;AE-05;Ras Al Khaimah;Quar Al Qahlish
+0;56.1414,24.7867;AE-03;Dubai;Qimah
+0;56.3635,25.2916;AE-06;Sharjah;Qadfa
+0;55.7557,24.2599;AE-01;Abu Dhabi;Qaţţārah
+0;56.1465,25.7504;AE-05;Ras Al Khaimah;Qada‘ah
+0;56.1230,26.0343;AE-05;Ras Al Khaimah;Qabas
+0;54.0911,23.3002;AE-01;Abu Dhabi;Nuqayrah
+0;56.3624,25.2707;AE-06;Sharjah;Nuhayy
+0;55.5603,24.3764;AE-01;Abu Dhabi;Naqrah
+302;56.2801,25.2682;AE-06;Sharjah;Nahwa
+0;53.7892,23.1039;AE-01;Abu Dhabi;Nafīr
+10000;53.7881,23.1436;AE-01;Abu Dhabi;Muzayri‘
+0;56.1105,25.5084;AE-04;Fujairah;Mu‘tariḑah
+0;56.2216,25.1990;AE-04;Fujairah;Murrah
+2000;56.3626,25.2762;AE-06;Sharjah;Murbaḩ
+0;56.1331,25.3254;AE-04;Fujairah;Murbaḑ
+0;56.0584,25.4003;AE-05;Ras Al Khaimah;Muraytah
+0;55.8000,24.1167;AE-01;Abu Dhabi;Mundafinah
+0;56.1500,24.9514;AE-05;Ras Al Khaimah;Al Munay
+0;56.1307,25.5409;AE-04;Fujairah;Al Muhtarqah
+0;53.6833,23.1167;AE-01;Abu Dhabi;Mūjib
+0;56.3447,25.3617;AE-06;Sharjah;Nedaifi
+0;56.0801,25.1575;AE-05;Ras Al Khaimah;Minhā
+0;56.2107,24.9426;AE-05;Ras Al Khaimah;Sha'biyyat Al Qilē'ī
+0;53.5333,23.0667;AE-01;Abu Dhabi;Milqaţah
+0;54.1545,23.0135;AE-01;Abu Dhabi;Mawşil
+0;55.7412,24.2663;AE-01;Abu Dhabi;Mas‘ūdī
+8988;56.1066,24.8109;AE-02;Ajman;Maşfūţ
+0;56.1649,25.3032;AE-05;Ras Al Khaimah;Māsah
+0;56.1653,25.3013;AE-05;Ras Al Khaimah;Masāfī
+0;56.0306,25.0971;AE-05;Ras Al Khaimah;Marḩāmid
+0;53.3307,24.2946;AE-01;Abu Dhabi;Marawwaḩ
+0;56.1486,26.0350;AE-05;Ras Al Khaimah;Manqashah
+0;56.1333,25.1667;AE-05;Ras Al Khaimah;Mamdūḩ
+0;54.3167,22.9333;AE-01;Abu Dhabi;Maḩḑar Bin ‘Uşayyān
+0;56.0500,25.2000;AE-05;Ras Al Khaimah;Maghribīyah
+63482;53.7052,23.6542;AE-01;Abu Dhabi;Zayed City
+0;56.1049,25.3391;AE-04;Fujairah;Maydaq
+0;56.3546,25.3926;AE-06;Sharjah;Lūlayyah
+0;53.2254,24.2933;AE-01;Abu Dhabi;Liffah
+0;55.3719,25.3540;AE-06;Sharjah;Layyah
+0;56.1189,25.4702;AE-05;Ras Al Khaimah;Kūb
+0;56.1736,25.3812;AE-04;Fujairah;Khulaybīyah
+0;56.0547,25.9658;AE-05;Ras Al Khaimah;Khawr Khuwayr
+40677;56.3420,25.3313;AE-06;Sharjah;Khawr Fakkān
+0;56.0111,25.6173;AE-05;Ras Al Khaimah;Khatt
+0;55.9678,25.7162;AE-05;Ras Al Khaimah;Kharrān
+0;53.6059,23.1009;AE-01;Abu Dhabi;Khannūr
+0;56.0032,25.1901;AE-05;Ras Al Khaimah;Kadrah
+0;56.0938,25.4520;AE-05;Ras Al Khaimah;Khabākhib
+0;53.6854,23.1570;AE-01;Abu Dhabi;Kayyah
+0;56.3623,25.0371;AE-06;Sharjah;Khawr Kalbā
+37545;56.3542,25.0513;AE-06;Sharjah;Kalbā
+0;54.3102,22.9408;AE-01;Abu Dhabi;Jurayrah
+10190;55.8077,25.7091;AE-05;Ras Al Khaimah;Al Jazīrah al Ḩamrā’
+0;53.7000,24.1500;AE-01;Abu Dhabi;Jazīrah
+0;53.7776,23.1579;AE-01;Abu Dhabi;Jayf
+0;54.0672,23.3161;AE-01;Abu Dhabi;Istayhah
+0;55.9948,25.4638;AE-05;Ras Al Khaimah;Adhan
+0;53.9284,23.1190;AE-01;Abu Dhabi;Ḩuwaytayn
+0;56.1737,24.8766;AE-05;Ras Al Khaimah;Huwaylāt
+0;53.8246,23.1520;AE-01;Abu Dhabi;Ḩuwaylah
+0;55.5945,25.1947;AE-03;Dubai;Hunaywah
+0;53.5842,23.0822;AE-01;Abu Dhabi;Ḩumar
+0;56.3477,25.3604;AE-06;Sharjah;Ḩiyāwah
+0;55.7633,24.2847;AE-01;Abu Dhabi;Hillī
+0;56.2442,25.0922;AE-04;Fujairah;Ḩayl
+0;56.1146,24.7892;AE-03;Dubai;Ḩayl
+0;56.3458,25.0581;AE-06;Sharjah;Ḩayāt
+0;56.1446,25.4037;AE-05;Ras Al Khaimah;Ḩatīyah
+0;56.2167,24.9904;AE-06;Sharjah;Ḩarrah
+0;54.2972,22.9581;AE-01;Abu Dhabi;Ḩamīm
+0;53.6071,23.0953;AE-01;Abu Dhabi;Ḩamarūr
+0;53.8453,23.1461;AE-01;Abu Dhabi;Ḩafīf
+0;56.3148,25.0411;AE-04;Fujairah;Ḩafarah
+0;53.5920,23.8260;AE-01;Abu Dhabi;Ḩabshān
+0;56.0044,25.6156;AE-05;Ras Al Khaimah;Ḩabḩab
+0;55.9780,25.4658;AE-05;Ras Al Khaimah;Gragrah
+0;53.2717,24.2874;AE-01;Abu Dhabi;Ghurbah
+0;56.2076,25.2197;AE-04;Fujairah;Ghurah
+0;56.1701,25.2942;AE-05;Ras Al Khaimah;Ghamarah
+0;56.1499,26.0502;AE-05;Ras Al Khaimah;Al Ghābah
+0;56.0681,25.4017;AE-05;Ras Al Khaimah;Ghayl
+0;56.3329,25.0068;AE-06;Sharjah;Ghayl
+0;56.0744,25.9975;AE-05;Ras Al Khaimah;Ghalīlah
+0;56.0667,25.7667;AE-05;Ras Al Khaimah;Ghāghah
+0;56.1741,25.2836;AE-05;Ras Al Khaimah;Ghadf
+0;56.2060,24.9578;AE-05;Ras Al Khaimah;Fayyāḑ
+0;56.1016,25.1707;AE-05;Ras Al Khaimah;Fa’y
+0;56.2053,24.8841;AE-05;Ras Al Khaimah;Fashrah
+0;53.7833,24.0500;AE-01;Abu Dhabi;Farīq Ţarīf
+0;53.5346,24.2006;AE-01;Abu Dhabi;Farīq
+0;56.2224,25.1484;AE-04;Fujairah;Furfār
+0;56.2373,25.1368;AE-04;Fujairah;Far‘ah
+0;56.1370,25.4106;AE-05;Ras Al Khaimah;Fāqī
+0;55.8533,25.3540;AE-07;Umm Al Quwain;Falaj al Mu‘allā
+3790000;55.3093,25.0772;AE-03;Dubai;Dubai
+30000;56.2618,25.5925;AE-04;Fujairah;Dibba Al-Fujairah
+0;55.9654,25.6693;AE-05;Ras Al Khaimah;Diqdāqah
+26395;56.2729,25.6196;AE-04;Fujairah;Dibba Al-Hisn
+0;55.8500,25.6167;AE-07;Umm Al Quwain;Dhad al Arab
+0;56.0089,25.0471;AE-05;Ras Al Khaimah;Daynah
+0;56.0582,25.8878;AE-05;Ras Al Khaimah;Ḑāyah
+0;52.6237,24.2784;AE-01;Abu Dhabi;Da‘sah
+0;56.0572,25.1008;AE-05;Ras Al Khaimah;Dārah
+0;56.1550,25.5334;AE-04;Fujairah;Zahir al Ya'ad
+0;54.0842,23.0773;AE-01;Abu Dhabi;Dāhin
+0;56.1835,25.2723;AE-05;Ras Al Khaimah;Daftah
+0;56.3587,25.5242;AE-04;Fujairah;Ḑadnā
+0;56.1387,25.4825;AE-05;Ras Al Khaimah;Al Jarouf
+0;53.8167,24.2333;AE-01;Abu Dhabi;Bū Līfīyāt
+0;56.2022,25.2239;AE-04;Fujairah;Bulaydah
+0;55.6909,24.4816;AE-01;Abu Dhabi;Bin Aḩmad
+0;55.9719,25.6750;AE-05;Ras Al Khaimah;Bidīyah
+0;55.9771,25.7645;AE-05;Ras Al Khaimah;Bidá
+0;56.0877,25.6891;AE-05;Ras Al Khaimah;Baqal
+0;56.3457,25.4323;AE-04;Fujairah;Badīyah
+0;55.6833,24.0833;AE-01;Abu Dhabi;‘Ayn al Fayḑah
+0;56.0687,25.4400;AE-05;Ras Al Khaimah;‘Ayīm
+0;55.8562,25.3658;AE-07;Umm Al Quwain;‘Uwaynāt
+0;52.5667,24.3000;AE-01;Abu Dhabi;‘Awāfī
+0;53.8811,23.1518;AE-01;Abu Dhabi;‘Aţţāb
+0;56.0962,25.1636;AE-05;Ras Al Khaimah;Athabāt
+0;55.6031,24.2219;AE-01;Abu Dhabi;As Sulaymāt
+0;55.2167,24.1833;AE-01;Abu Dhabi;As Slabeikh
+0;55.7667,24.1500;AE-01;Abu Dhabi;As Sād
+0;51.6500,24.1333;AE-01;Abu Dhabi;Ash Shibhānah
+1800000;55.4122,25.3342;AE-06;Sharjah;Sharjah
+1550;56.0835,26.0279;AE-05;Ras Al Khaimah;Ash Sha‘m
+0;56.1672,25.4598;AE-04;Fujairah;‘Ashashah
+0;56.1507,25.3983;AE-05;Ras Al Khaimah;‘Asamah
+25000;52.7306,24.1103;AE-01;Abu Dhabi;Ar Ruways
+0;56.3228,25.6011;AE-04;Fujairah;Ar Rūl
+0;56.3225,25.3452;AE-06;Sharjah;Ar Rufayşah
+13000;56.0186,25.8766;AE-05;Ras Al Khaimah;Ar Rams
+0;53.4289,22.9923;AE-01;Abu Dhabi;‘Arādah
+0;56.3583,25.4987;AE-04;Fujairah;‘Aqqah
+0;56.2608,24.8659;AE-05;Ras Al Khaimah;Sha‘bīyat Naşlah
+0;54.0363,23.0811;AE-01;Abu Dhabi;An Nashshāsh
+0;54.7078,24.2596;AE-01;Abu Dhabi;Al Wathbah
+0;56.1688,25.4528;AE-04;Fujairah;Al ‘Uyaynah
+0;56.0081,25.6268;AE-05;Ras Al Khaimah;Al Usaylī
+0;56.3613,25.2378;AE-04;Fujairah;Al Qurayyah
+0;56.1044,26.0324;AE-05;Ras Al Khaimah;Al Qīr
+0;55.7458,24.2491;AE-01;Abu Dhabi;Al Qīmī
+0;55.7561,24.5193;AE-01;Abu Dhabi;Al Qaia
+0;55.7000,24.2333;AE-01;Abu Dhabi;Al Muwayqi‘ī
+0;55.7164,24.2017;AE-01;Abu Dhabi;Al Muwayqi‘ī
+0;55.7399,24.2190;AE-01;Abu Dhabi;Al Mu‘taraḑ
+0;53.5384,24.0784;AE-01;Abu Dhabi;Al Mughayrā’
+0;55.9833,25.8333;AE-05;Ras Al Khaimah;Al Matāf
+0;54.0135,23.0765;AE-01;Abu Dhabi;Al Mashrūb
+0;53.5819,23.1027;AE-01;Abu Dhabi;Al Māriyah al Gharbīyah
+0;53.7426,23.1385;AE-01;Abu Dhabi;Al Māriyah
+0;53.4908,24.0991;AE-01;Abu Dhabi;Al Marfa’
+5823;56.0219,25.3299;AE-02;Ajman;Al Manāmah
+0;55.9903,25.6750;AE-05;Ras Al Khaimah;Al Mahamm
+0;56.3047,25.6015;AE-04;Fujairah;Akkamyah
+0;54.1963,23.0085;AE-01;Abu Dhabi;Al Khīs
+0;55.1116,24.1680;AE-01;Abu Dhabi;Al Khaznah
+0;54.8333,24.2000;AE-01;Abu Dhabi;Al Khatim
+0;56.0262,25.0974;AE-05;Ras Al Khaimah;Al Khārī
+0;55.3590,25.3314;AE-06;Sharjah;Al Khān
+0;55.3667,25.3500;AE-06;Sharjah;Al Jazīrah
+0;55.5833,24.2500;AE-01;Abu Dhabi;Al Jaḩr
+0;53.5525,23.0799;AE-01;Abu Dhabi;Al ‘Idd
+0;55.4196,25.3815;AE-06;Sharjah;Al Ḩayrah
+0;56.0853,25.9786;AE-05;Ras Al Khaimah;Al Hayr
+0;55.9870,25.7050;AE-05;Ras Al Khaimah;Ḩayl
+3297;55.5338,25.4782;AE-06;Sharjah;Al Ḩamrīyah
+0;56.1824,25.4774;AE-04;Fujairah;Al Ḩalāh
+15324;56.1273,24.8007;AE-03;Dubai;Ḩattā
+0;53.9953,23.1064;AE-01;Abu Dhabi;Al Ḩādhī
+0;56.0842,25.9961;AE-05;Ras Al Khaimah;Al Jaddah
+0;56.3538,25.1250;AE-04;Fujairah;Al Ghurfah
+0;55.9828,25.7348;AE-05;Ras Al Khaimah;Al Fulayyah
+118933;56.3414,25.1164;AE-04;Fujairah;Fujairah
+0;53.2114,24.2980;AE-01;Abu Dhabi;Al Fīyay
+0;56.0914,26.0214;AE-05;Ras Al Khaimah;Al Fay‘
+0;56.0912,25.4143;AE-05;Ras Al Khaimah;Al Fara‘
+0;55.9675,25.6841;AE-05;Ras Al Khaimah;Al Faḩlayn
+0;56.2352,25.1895;AE-04;Fujairah;Biţnah
+0;56.3158,24.9595;AE-05;Ras Al Khaimah;Al ‘Ayn al Ghumūr
+846747;55.7606,24.1917;AE-01;Abu Dhabi;Al Ain City
+0;56.3092,25.3807;AE-06;Sharjah;Al ‘Awdah
+0;53.7362,23.1626;AE-01;Abu Dhabi;Al Aţīr
+490035;55.4788,25.4018;AE-02;Ajman;Ajman
+20165;55.8816,25.2881;AE-06;Sharjah;Adh Dhayd
+0;55.9333,25.7833;AE-05;Ras Al Khaimah;Adh Dharbānīyah
+1807000;54.3970,24.4512;AE-01;Abu Dhabi;Abu Dhabi
+0;56.1899,25.4535;AE-04;Fujairah;‘Abādilah
+0;56.1300,26.0172;AE-05;Ras Al Khaimah;Ḩārat ‘Awālī
+0;56.0522,25.8856;AE-05;Ras Al Khaimah;Al Ḩulaylah
+0;56.1394,26.0283;AE-05;Ras Al Khaimah;Al Khashfah
+0;56.1211,26.0289;AE-05;Ras Al Khaimah;Wayb Ḩawf
+0;56.1522,26.0328;AE-05;Ras Al Khaimah;Al Ghabām
+0;56.1086,26.0381;AE-05;Ras Al Khaimah;Qaf’ah
+0;56.1081,26.0431;AE-05;Ras Al Khaimah;Sharyāt
+0;54.6076,24.3297;AE-01;Abu Dhabi;Al Mafraq
+0;54.5619,24.2676;AE-01;Abu Dhabi;Al Muqaţţarah
+0;54.7447,24.2321;AE-01;Abu Dhabi;Madīnat an Nahḑah
+0;54.6809,24.5498;AE-01;Abu Dhabi;Ash Shahāmah
+0;56.1146,25.4287;AE-05;Ras Al Khaimah;Mawrid
+0;56.0250,25.8603;AE-05;Ras Al Khaimah;Qārat ad Dum
+0;56.1700,25.9081;AE-05;Ras Al Khaimah;Yinainir
+0;56.1483,25.7933;AE-05;Ras Al Khaimah;Ra’s
+0;56.1506,25.7836;AE-05;Ras Al Khaimah;Magam
+0;56.1765,25.6492;AE-04;Fujairah;Dirat Jarhi
+0;54.6115,24.2695;AE-01;Abu Dhabi;Yāfūr
+0;56.1186,26.0425;AE-05;Ras Al Khaimah;Al Ghashbān
+0;56.1350,26.0428;AE-05;Ras Al Khaimah;Ghubbat Khawrah
+0;55.5491,24.8708;AE-03;Dubai;Qarayţaysah
+1280;55.6255,24.8995;AE-03;Dubai;Margham
+0;55.8163,24.7471;AE-06;Sharjah;Ash Shu‘ayb
+0;55.6218,24.7102;AE-03;Dubai;Al Faq‘
+0;55.7463,24.5897;AE-01;Abu Dhabi;Al Khabb
+0;55.6569,24.1611;AE-01;Abu Dhabi;‘Aqbīyah
+0;55.8425,24.0369;AE-01;Abu Dhabi;Mazyad
+0;56.1500,25.7667;AE-05;Ras Al Khaimah;Athabāt
+0;51.7611,24.0658;AE-01;Abu Dhabi;Majrá al Ghāf
+4213;55.0236,25.8670;AE;;Abū Mūsá
+0;55.9799,25.3273;AE-06;Sharjah;Ḩaşat al Bidīyah
+0;55.5069,23.7183;AE-01;Abu Dhabi;Za‘bah
+0;55.5289,23.7256;AE-01;Abu Dhabi;Ţawī Khadaraq
+0;55.9500,25.6833;AE-05;Ras Al Khaimah;Al Masāfirah
+0;55.9639,25.6861;AE-05;Ras Al Khaimah;Ḩām Ḩām
+0;55.7026,25.6163;AE-07;Umm Al Quwain;Ar Rā‘fah
+0;55.9003,25.6114;AE-05;Ras Al Khaimah;Al Ḩamrānīyah
+0;53.7285,23.6031;AE-01;Abu Dhabi;Bū Rays
+0;53.8431,23.6162;AE-01;Abu Dhabi;Badiyah
+0;53.6205,23.6505;AE-01;Abu Dhabi;Sikkat al Khayl
+2514;55.4753,24.9314;AE-03;Dubai;Al Lusaylī
+5403;55.3372,24.4624;AE-01;Abu Dhabi;Suwayḩān
+0;53.3139,23.5539;AE-01;Abu Dhabi;Bū Ḩaşā
+0;55.2246,25.0897;AE-03;Dubai;Al Barsha
+25500;55.1351,25.1161;AE-03;Dubai;The Palm Jumeirah
+0;54.4465,24.4425;AE-01;Abu Dhabi;Al Raha Corniche
+0;52.6420,24.1651;AE-01;Abu Dhabi;Jebel Dhanna
+0;56.3564,25.4967;AE-04;Fujairah;Al Aqqah
+18698;55.2989,25.2604;AE-03;Dubai;Bur Dubai
+0;56.3421,25.2450;AE-04;Fujairah;Theeb
+0;56.2406,25.1494;AE-04;Fujairah;Al Ghizaimri
+0;56.3543,25.2609;AE-06;Sharjah;Girath
+0;56.3425,25.5997;AE-04;Fujairah;Al Fuqait
+0;56.0719,25.5142;AE-04;Fujairah;Jareef
+0;56.0572,25.4982;AE-04;Fujairah;Sram
+0;56.1550,25.4152;AE-04;Fujairah;Yalah
+0;56.0279,25.3033;AE-04;Fujairah;Thoban
+0;56.0254,25.3509;AE-04;Fujairah;Al Hinya
+0;54.3677,24.4942;AE-01;Abu Dhabi;Al Mariah United Group
+0;55.6627,25.5258;AE-07;Umm Al Quwain;Al Ḩazaywah
+0;55.6680,25.4984;AE-07;Umm Al Quwain;Al ‘Adhīb
+0;55.5810,25.5064;AE-07;Umm Al Quwain;Ar Ramlah
+0;55.5908,25.4924;AE-07;Umm Al Quwain;As Salamah
+0;55.5566,25.5040;AE-07;Umm Al Quwain;Al Abraq
+0;55.6311,25.4457;AE-07;Umm Al Quwain;As Surrah
+0;55.6686,25.4336;AE-07;Umm Al Quwain;Muhadhdhib
+0;55.7051,25.4322;AE-07;Umm Al Quwain;Kābir
+0;55.7300,25.4276;AE-07;Umm Al Quwain;Al Labsah
+0;55.8412,25.3902;AE-07;Umm Al Quwain;Ar Rāshidīyah
+85374;54.6050,24.4259;AE-01;Abu Dhabi;Khalifah A City
+0;56.3050,25.6055;AE-04;Fujairah;Ras Dibba
+0;55.7983,25.4146;AE-07;Umm Al Quwain;Biyātah
+0;55.1458,25.0383;AE-03;Dubai;Discovery Gardens
+0;54.9883,25.0058;AE-01;Abu Dhabi;Palm Jebel Ali
+0;52.8100,23.8425;AE-01;Abu Dhabi;Ghayathi
+0;54.8464,24.8539;AE-01;Abu Dhabi;Ghantoot
+0;55.2319,24.8169;AE-03;Dubai;Bab Al Shams
+210000;55.1081,25.0025;AE-03;Dubai;Jebel Ali
+0;55.5545,23.8721;AE-01;Abu Dhabi;Al ‘Arād
+80498;54.6294,24.3098;AE-01;Abu Dhabi;Bani Yas City
+243341;54.4827,24.3589;AE-01;Abu Dhabi;Musaffah
+61710;54.7078,24.3927;AE-01;Abu Dhabi;Al Shamkhah City
+82310;56.2476,25.1448;AE-04;Fujairah;Reef Al Fujairah City
+0;55.1984,25.1106;AE-03;Dubai;Al Barsha First
+2000;55.3274,23.7536;AE-01;Abu Dhabi;Al Wiqan
+1000;55.5272,23.8472;AE-01;Abu Dhabi;Al'Arad
+1000;55.5234,23.8647;AE-01;Abu Dhabi;Al Araad
+0;56.1494,25.9517;AE-05;Ras Al Khaimah;Dafalas
+2;56.1555,25.9143;AE-05;Ras Al Khaimah;Musaibat
+0;56.1679,25.9678;AE-05;Ras Al Khaimah;Ras Ash
+5;56.1536,25.9294;AE-05;Ras Al Khaimah;Baighit
+6;56.1228,25.7006;AE-05;Ras Al Khaimah;Shairi
+0;56.1570,25.6988;AE-07;Umm Al Quwain;Saliya Al-Baqal
+0;56.0811,25.8606;AE-05;Ras Al Khaimah;Sal Haqil
+0;56.1491,25.9764;AE-05;Ras Al Khaimah;Barut
+0;56.1179,25.8177;AE-05;Ras Al Khaimah;Atmar
+0;56.1299,25.7413;AE-05;Ras Al Khaimah;Silay Al Khatami
+0;56.1171,25.7605;AE-05;Ras Al Khaimah;Mak Sikek
+0;56.1011,25.6755;AE-05;Ras Al Khaimah;Tala
+0;56.0761,25.7590;AE-05;Ras Al Khaimah;Dirat Sabah
+0;56.1805,25.6252;AE-04;Fujairah;Sidfah
+0;56.1402,25.6265;AE-04;Fujairah;Dirat Az Zil
+0;56.1455,25.4034;AE-04;Fujairah;Asimah
+0;56.1462,26.0018;AE-05;Ras Al Khaimah;Harat Al Awalah
+0;56.1352,25.7535;AE-05;Ras Al Khaimah;Danam
+0;56.1294,25.6289;AE-04;Fujairah;Deira Al-Tamba
+0;56.1261,25.7157;AE-05;Ras Al Khaimah;Dirat al-Ba'iybah
+0;56.1512,25.0412;AE-06;Sharjah;Al Ejili
+0;56.1771,25.4608;AE-04;Fujairah;Sharmatah
+0;56.1487,26.0528;AE-05;Ras Al Khaimah;Ra´alat Bani Mihriz
+0;56.0360,24.8307;AE-02;Ajman;Mudayrah
+0;55.9890,24.8770;AE-02;Ajman;Al Subaygha
+0;56.2024,25.1066;AE-04;Fujairah;Saham
+0;56.1961,25.1054;AE-04;Fujairah;Al Manzafah
+0;56.1415,25.1101;AE-05;Ras Al Khaimah;Esfai
+0;55.7391,24.9108;AE-06;Sharjah;Rafadah
+0;55.7796,24.9648;AE-06;Sharjah;Al Dafain
+0;55.8163,25.2326;AE-06;Sharjah;As Saman
+4768;55.8843,25.1352;AE-06;Sharjah;Sha'biyyat Milе̄hah
+0;56.1202,24.9155;AE-05;Ras Al Khaimah;Sha'biyyat Milāḩ
+0;56.1024,25.7981;AE-05;Ras Al Khaimah;Al Hayilah
+8561;55.2410,25.0459;AE-03;Dubai;Dubai Motor City
+8000;55.2528,25.0292;AE-03;Dubai;DAMAC Hills
+19389;55.4216,25.3459;AE-06;Sharjah;Halwan
+53079;55.6321,25.3153;AE-06;Sharjah;Al Sajaah
+53079;55.5913,25.0376;AE-03;Dubai;Lahbab
+8652;55.7778,24.9735;AE-06;Sharjah;Al Madam
+2704;55.6862,25.5507;AE-07;Umm Al Quwain;Al Raafah
+85000;54.5537,24.3479;AE-01;Abu Dhabi;Mohammed Bin Zayed City
+15000;54.6158,24.4321;AE-01;Abu Dhabi;Masdar City
+0;56.1871,25.4145;AE-04;Fujairah;Ghunah
+0;56.0820,25.5067;AE-04;Fujairah;Ar Riwedah
+0;56.1763,25.4949;AE-04;Fujairah;Dab‘ah
+0;56.1592,25.6142;AE-04;Fujairah;Al Baqil
+0;56.1693,24.9268;AE-05;Ras Al Khaimah;Sha'biyyat Sikhе̄bar
+0;55.8378,24.9766;AE-06;Sharjah;Sha'biyyat Al Khawālid
+0;56.1390,24.8834;AE-05;Ras Al Khaimah;As Simsimānīyah
+0;56.2754,25.0229;AE-04;Fujairah;Al Uqdah
+0;56.1461,25.6108;AE-04;Fujairah;Al Sharyah
+0;56.1480,25.5878;AE-04;Fujairah;Shakh
+0;56.1446,25.5972;AE-04;Fujairah;Sawabi
+0;56.1172,25.5648;AE-04;Fujairah;Hiyar
+0;56.1143,25.6070;AE-04;Fujairah;Mayya
+0;56.1269,25.6777;AE-05;Ras Al Khaimah;Kanaan
+0;56.1302,25.6553;AE-05;Ras Al Khaimah;Dardur
+0;56.1172,25.6548;AE-05;Ras Al Khaimah;Al Marah
+0;56.1542,25.6456;AE-04;Fujairah;Ma'yrik
+0;56.1266,25.6610;AE-05;Ras Al Khaimah;Wab Saqar
+0;56.1353,25.7727;AE-05;Ras Al Khaimah;Deira Al Ghayl
+0;56.1056,25.9597;AE-05;Ras Al Khaimah;Halhal
+0;56.1232,25.4787;AE-05;Ras Al Khaimah;Al Yanhah
+0;56.1325,25.4984;AE-04;Fujairah;As Sarm
+0;56.0613,25.7441;AE-05;Ras Al Khaimah;Slai Al-Ghalib
+0;56.0867,25.7467;AE-05;Ras Al Khaimah;Ar Rafisah
+0;56.0254,25.7343;AE-05;Ras Al Khaimah;Rebiyyah
+0;56.0959,25.1703;AE-05;Ras Al Khaimah;Esfini
+0;56.2011,25.5639;AE-04;Fujairah;Ghub
+0;56.1588,24.9286;AE-05;Ras Al Khaimah;Sha'biyyat Al Wa'ab

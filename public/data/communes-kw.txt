@@ -1,0 +1,79 @@
+0;47.6639,29.3158;KW;;‘Ushaysh al Jahrā’
+0;48.1833,28.9000;KW;;‘Urayfijān
+0;48.1656,28.9922;KW;;Umm Qaşbah
+0;48.1506,29.6178;KW-05;Al Jahra Governorate;Shumaymah
+0;48.3728,28.7375;KW-04;Al Aḩmadī;Az Zawr
+0;48.0811,29.1608;KW;;Manīfah
+0;47.9672,28.9667;KW;;Ju‘aydān
+18496;47.9781,29.2692;KW-07;Al Farwaniyah;Janūb as Surrah
+164212;48.0286,29.3328;KW-08;Hawalli;Ḩawallī
+0;48.3992,28.5828;KW-04;Al Aḩmadī;Duwaydāt
+0;48.1111,29.2011;KW-09;Mubārak al Kabīr;Ḑulay‘ Su‘ūd
+0;48.1167,29.1667;KW;;Dant
+5750;48.2747,29.4425;KW-02;Al Asimah;Az Zawr
+0;48.1081,29.1058;KW-04;Al Aḩmadī;Aş Şabāḩīyah
+0;48.1375,29.0411;KW-04;Al Aḩmadī;Ash Shu‘aybah
+0;47.8456,29.2681;KW;;Ash Shadādīyah
+52068;48.0947,29.1458;KW-04;Al Aḩmadī;Ar Riqqah
+0;48.1986,28.9431;KW;;An Nuqayyāt
+0;48.0758,29.2464;KW-09;Mubārak al Kabīr;An Nijfah
+0;48.3644,28.6397;KW;;An Nāmī
+10017;47.9306,28.6392;KW-04;Al Aḩmadī;Al Wafrah
+0;48.0947,29.1778;KW;;Al ‘Uqaylah
+0;47.9667,29.3000;KW;;Al ‘Udaylīyah
+0;48.2747,28.8658;KW;;Al Qulay‘ah
+0;47.7587,29.9834;KW-05;Al Jahra Governorate;Al Qash‘ānīyah
+0;47.9833,29.1667;KW;;Al Maqwa‘
+39025;48.1328,29.0961;KW-04;Al Aḩmadī;Al Manqaf
+18178;48.1303,29.1450;KW-04;Al Aḩmadī;Al Mahbūlah
+0;48.0944,29.7419;KW;;Al Maghāsil
+60064;47.9743,29.3670;KW-02;Al Asimah;Kuwait City
+0;48.3790,28.6630;KW-04;Al Aḩmadī;Al Khīrān
+24281;47.6581,29.3375;KW-05;Al Jahra Governorate;Al Jahrā’
+0;48.1311,29.6547;KW-05;Al Jahra Governorate;Al Ḩujayjah
+1878;48.1017,29.2253;KW-09;Mubārak al Kabīr;Al Funayţīs
+68290;48.1303,29.0825;KW-04;Al Aḩmadī;Al Faḩāḩīl
+23071;48.1211,29.1739;KW-04;Al Aḩmadī;Al Finţās
+86525;47.9586,29.2775;KW-07;Al Farwaniyah;Al Farwānīyah
+0;48.0869,29.3025;KW;;Al Bida‘
+0;47.8333,29.3833;KW;;Al Bhar
+0;47.8667,29.6667;KW;;Bahra
+637411;48.0839,29.0769;KW-04;Al Aḩmadī;Al Aḩmadī
+0;48.2667,28.8167;KW;;Al Ad‘amī
+0;47.7061,29.0425;KW;;Al ‘Abdalīyah
+0;48.1667,28.9333;KW;;Aḑ Ḑibā‘īyah
+0;47.8100,29.3678;KW;;Ad Dawḩah
+17585;48.0014,29.3650;KW-02;Al Asimah;Ad Dasmah
+0;48.1261,29.1322;KW-04;Al Aḩmadī;Abū Ḩulayfah
+0;47.9689,29.2925;KW-07;Al Farwaniyah;Abraq Khayţān
+0;47.9072,28.9786;KW;;Aţ Ţawīl
+0;47.9139,28.8794;KW;;Şubayḩīyah
+0;47.9822,28.9961;KW;;Wārah
+0;48.0531,28.5542;KW;;Al Wafrah
+0;47.7111,29.4033;KW;;Al Khuwaysāt
+0;48.2883,29.4644;KW-02;Al Asimah;Al Khiḑr
+0;48.2814,29.4575;KW;;Al Bulţ
+0;48.2992,29.4317;KW-02;Al Asimah;Ash Shubaykah
+0;48.3139,29.4625;KW-02;Al Asimah;Ad Dasht
+0;48.2997,29.4592;KW-02;Al Asimah;Qullat Shujayr
+0;48.3850,29.4203;KW-02;Al Asimah;Al ‘Awāzim
+0;48.0500,29.2892;KW;;Mishrif
+0;48.0797,29.2619;KW-09;Mubārak al Kabīr;Al Masīlah
+0;47.8422,29.3853;KW-05;Al Jahra Governorate;‘Ashīsh ad Dawḩah
+0;47.6778,29.3172;KW;;‘Ashīsh al Jahrā’
+0;47.8119,29.3144;KW;;Ad Dawḩah
+0;47.9311,29.2503;KW;;Al ‘Abbāsīyah
+0;48.2072,28.9236;KW;;Aḑ Ḑubā‘īyah
+139163;48.0572,29.2572;KW-09;Mubārak al Kabīr;Şabāḩ as Sālim
+0;48.0956,29.7003;KW-05;Al Jahra Governorate;Al ‘Arfajīyah
+0;48.1142,29.6881;KW-05;Al Jahra Governorate;Al ‘Ulaymīyah
+0;47.6518,29.3842;KW;;Highway of Death
+0;48.0726,29.2175;KW-09;Mubārak al Kabīr;Al Quşūr
+0;48.0757,29.2043;KW-09;Mubārak al Kabīr;Al Qurayn
+0;48.0872,29.1898;KW-09;Mubārak al Kabīr;Mubārak al Kabīr
+0;48.0685,29.2327;KW-09;Mubārak al Kabīr;Al ‘Adan
+0;48.0724,29.1708;KW-04;Al Aḩmadī;Jaber Al Ali
+6835;47.7221,30.0422;KW-05;Al Jahra Governorate;Mazāri‘ al ‘Abdalī
+2458;48.0886,29.2393;KW-09;Mubārak al Kabīr;Al-Masayel
+1240;48.1028,29.1975;KW-09;Mubārak al Kabīr;Abu Fatira
+1350;48.1135,29.1908;KW-09;Mubārak al Kabīr;Abu Al Hasaniya

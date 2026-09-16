@@ -1,0 +1,98 @@
+0;50.6111,26.1592;BH-16;Manama;Wādiyān
+0;50.5261,26.0111;BH-17;Southern Governorate;Umm Jidr
+0;50.6558,26.2283;BH-15;Muharraq;Umm ash Shajar
+0;50.5494,26.1869;BH-16;Manama;Tūblī
+0;50.6256,26.1628;BH-16;Manama;Sufālah
+72601;50.6206,26.1547;BH-16;Manama;Sitrah
+0;50.5014,26.0753;BH-19;Northern;Shahrakkān
+6000;50.4819,26.1942;BH-19;Northern;Sār
+0;50.5819,26.1503;BH-16;Manama;Sanad
+6564;50.5508,26.2272;BH-16;Manama;Sanābis
+0;50.6350,26.2800;BH-15;Muharraq;Samāhīj
+0;50.5247,26.1831;BH-19;Northern;Salmābād
+0;50.5386,26.1050;BH-17;Southern Governorate;Şāfirah
+0;50.4897,26.0828;BH-19;Northern;Şadad
+0;50.6333,26.2833;BH-15;Muharraq;Rayyā
+0;50.5167,26.2000;BH-19;Northern;Qubayţ
+0;50.6503,26.2733;BH-15;Muharraq;Qalālī
+0;50.5000,26.2333;BH;;Nūr Juruft
+0;50.6183,26.1642;BH-16;Manama;Marqūbān
+0;50.4875,26.2108;BH-19;Northern;Maqābā
+0;50.5500,26.2167;BH-16;Manama;Manī
+0;50.6261,26.1694;BH-16;Manama;Mahazzah
+38090;50.5478,26.1736;BH-17;Southern Governorate;Madīnat ‘Īsá
+0;50.5000,26.1667;BH-19;Northern;Khuwayş
+0;50.5667,26.1833;BH-16;Manama;Kawrah
+0;50.4819,26.1156;BH-19;Northern;Karzakkān
+0;50.5094,26.2292;BH-19;Northern;Karrānah
+0;50.5294,26.2303;BH-16;Manama;Karbābād
+0;50.5833,26.1833;BH;;Kaflān
+0;50.6000,25.8833;BH-17;Southern Governorate;Jusayrah
+0;50.5753,26.1694;BH-16;Manama;Jurdāb
+66588;50.5478,26.2186;BH-16;Manama;Jidd Ḩafş
+0;50.5603,26.1792;BH-16;Manama;Jidd ‘Alī
+0;50.5000,26.2333;BH;;Jidd al Ḩājj
+0;50.6167,25.9986;BH-17;Southern Governorate;Jaww
+0;50.4947,26.2306;BH-19;Northern;Jannūsān
+0;50.5500,26.2000;BH-16;Manama;Jamālah
+0;50.5275,26.2172;BH-19;Northern;Jabalat Ḩabashī
+0;50.5500,26.2000;BH;;Ḩillat as Sūq
+0;50.5167,26.2214;BH;;Almaqsha
+0;50.5000,26.2333;BH-19;Northern;Harbadīyah
+133550;50.5069,26.1153;BH-19;Northern;Madīnat Ḩamad
+0;50.6333,26.1167;BH-17;Southern Governorate;Ḩālat Umm al Bayḑ
+0;50.6386,26.2428;BH-15;Muharraq;Ḩālat as Sulţah
+0;50.6353,26.2389;BH-15;Muharraq;Ḩālat an Na‘īm
+0;50.6333,26.2500;BH-15;Muharraq;Ḩālat al Khulayfāt
+0;50.6214,26.1733;BH-16;Manama;Ḩālah
+0;50.4811,26.1264;BH-19;Northern;Dumistān
+65466;50.5039,26.0686;BH-17;Southern Governorate;Dār Kulayb
+0;50.4975,26.1514;BH-19;Northern;Būrī
+0;50.5200,26.2047;BH-19;Northern;Bū Qūwah
+0;50.4808,26.2294;BH-19;Northern;Bārbār
+0;50.4597,26.2097;BH-19;Northern;Banī Jamrah
+0;50.6469,26.2553;BH-15;Muharraq;Az Zimmah
+9095;50.4864,26.0475;BH-17;Southern Governorate;Az Zallāq
+0;50.5333,26.2167;BH;;‘Ayn ad Dār
+0;50.5506,26.0844;BH-17;Southern Governorate;‘Awālī
+0;50.5272,26.0625;BH-17;Southern Governorate;Aş Şakhīr
+0;50.6164,26.0572;BH-17;Southern Governorate;‘Askar
+0;50.5069,26.2147;BH-19;Northern;Ash Shākhūrah
+0;50.5000,26.2333;BH;;Ar Ruq‘ah
+0;50.5558,25.9204;BH-17;Southern Governorate;Ar Rumaythah
+0;50.6322,26.2561;BH-15;Muharraq;‘Arād
+0;50.5975,26.1347;BH-17;Southern Governorate;An Nuwaydirāt
+0;50.4750,26.0211;BH-17;Southern Governorate;Al Wasmīyah
+0;50.4628,26.1972;BH-19;Northern;Al Qurayyah
+0;50.5836,26.1828;BH-16;Manama;Al Qaryah
+0;50.6106,26.1722;BH-16;Manama;Al Qaryah
+0;50.5192,26.2156;BH-19;Northern;Al Qadam
+0;50.5589,26.2067;BH-16;Manama;Al Muwaylighah
+0;40.0000,26.0000;BH-16;Manama;Magsha
+176583;50.6119,26.2572;BH-15;Muharraq;Al Muharraq
+0;50.4733,26.2103;BH-19;Northern;Al Markh
+147074;50.5857,26.2279;BH-16;Manama;Manama
+0;50.5194,25.9242;BH-17;Southern Governorate;Al Mamţalah
+0;50.4867,26.0981;BH-19;Northern;Al Mālikīyah
+0;50.6086,26.1333;BH-17;Southern Governorate;Al Ma‘āmīr
+0;50.6047,26.1636;BH-16;Manama;Al Khārijīyah
+0;50.5533,26.1819;BH-16;Manama;Al Jubaylāt
+0;50.4492,26.1622;BH-19;Northern;Al Jasrah
+0;50.4678,26.1900;BH-19;Northern;Al Janabīyah
+0;50.5164,26.1619;BH-19;Northern;‘Ālī
+0;50.5500,26.1833;BH-16;Manama;Al Hujayr
+0;50.4594,26.1433;BH-19;Northern;Al Hamalah
+0;50.5139,26.2111;BH-19;Northern;Al Ḩajar
+12797;50.6542,26.2456;BH-15;Muharraq;Al Ḩadd
+0;50.6078,26.2694;BH-15;Muharraq;Al Busaytīn
+0;50.4500,26.2131;BH-19;Northern;Al Budayyi‘
+0;50.5279,25.9881;BH-17;Southern Governorate;Al ‘Amar
+0;50.6103,26.1431;BH-16;Manama;Al ‘Akr
+0;50.6150,25.9789;BH-17;Southern Governorate;Ad Dūr
+0;50.4706,26.2181;BH-19;Northern;Ad Dirāz
+0;50.6236,26.2842;BH-15;Muharraq;Ad Dayr
+0;50.5069,26.2175;BH-19;Northern;Abū Şaybi‘
+0;50.5442,26.2075;BH-16;Manama;Abū Bahām
+115495;50.5550,26.1300;BH-17;Southern Governorate;Ar Rifā‘
+0;50.5306,25.9808;BH-17;Southern Governorate;Al Qal‘ah
+0;50.5369,26.2397;BH-16;Manama;Seef

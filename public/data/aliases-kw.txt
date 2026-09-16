@@ -1,0 +1,146 @@
+ar;عُشَيْش اَلْجَهْرَاء;‘Ushaysh al Jahrā’
+ar;عُرَيْفِجَان;‘Urayfijān
+ar;أُمّ قَصْبَة;Umm Qaşbah
+ar;شُمَيْمَة;Shumaymah
+ar;اَلزَّوْر;Az Zawr
+ar;مَنِيفَة;Manīfah
+ar;جُعَيْدَان;Ju‘aydān
+ar;جَنُوب اَلسُّرَّة;Janūb as Surrah
+ar;حَوَلِّي;Ḩawallī
+ar;حولي;Ḩawallī
+en;Hawalli;Ḩawallī
+ru;Хавалли;Ḩawallī
+tr;Havalli;Ḩawallī
+es;Hawalli;Ḩawallī
+fr;Hawalli;Ḩawallī
+az;Havalli;Ḩawallī
+de;Hawalli;Ḩawallī
+fa;حولی;Ḩawallī
+pt;Hawalli;Ḩawallī
+ar;دُوَيْدَات;Duwaydāt
+ar;ضُلَيْع سُعُود;Ḑulay‘ Su‘ūd
+ar;دَنْت;Dant
+ar;اَلصَّبَاحِيَّة;Aş Şabāḩīyah
+ar;الصباحية;Aş Şabāḩīyah
+ar;اَلشُّعَيْبَة;Ash Shu‘aybah
+ar;اَلشَّدَادِيَّة;Ash Shadādīyah
+ar;اَلرِّقَّة;Ar Riqqah
+ar;الرقة;Ar Riqqah
+ar;اَلنُّقَيَّات;An Nuqayyāt
+ar;اَلنِّجْفَة;An Nijfah
+ar;اَلنَّامِي;An Nāmī
+ar;اَلْوَفْرَة;Al Wafrah
+ar;اَلْعُقَيْلَة;Al ‘Uqaylah
+ar;اَلْعُدَيْلِيَّة;Al ‘Udaylīyah
+ar;اَلْقُلَيْعَة;Al Qulay‘ah
+ar;اَلْقَشْعَانِيَّة;Al Qash‘ānīyah
+ar;اَلْمَقْوَع;Al Maqwa‘
+ar;اَلْمَنْقَف;Al Manqaf
+ar;المنقف;Al Manqaf
+ar;اَلْمَهْبُولَة;Al Mahbūlah
+ar;المهبولة;Al Mahbūlah
+ar;اَلْمَغَاسِل;Al Maghāsil
+es;Ciudad de Kuwait;Kuwait City
+de;Kuwait-Stadt;Kuwait City
+ar;مدينة الكويت;Kuwait City
+it;Al-Kuwait;Kuwait City
+it;Madinat al-Kuwait;Kuwait City
+nl;Koeweit;Kuwait City
+pt;Kuwait;Kuwait City
+es;Kuwait;Kuwait City
+ru;Эль-Кувейт;Kuwait City
+fr;Koweït;Kuwait City
+ar;اَلْكُوَيْت;Kuwait City
+en;Kuwait;Kuwait City
+ar;اَلْخِيرَان;Al Khīrān
+ar;اَلْجَهْرَاء;Al Jahrā’
+en;Al Jahra;Al Jahrā’
+ru;Эль-Джахра;Al Jahrā’
+tr;El Chra;Al Jahrā’
+es;Al Jahra;Al Jahrā’
+fr;Al Jahra;Al Jahrā’
+az;Əl-Cahra;Al Jahrā’
+de;Al Jahra;Al Jahrā’
+fa;جهرا;Al Jahrā’
+pt;Al Jahra;Al Jahrā’
+ar;اَلْحُجَيْجَة;Al Ḩujayjah
+ar;اَلْفُنَيْطِيس;Al Funayţīs
+ar;الفنيطيس;Al Funayţīs
+ar;اَلْفُحَيْحِيل;Al Faḩāḩīl
+ar;الفحاحيل;Al Faḩāḩīl
+ar;اَلْفِنْطَاس;Al Finţās
+ar;الفنطاس;Al Finţās
+ar;اَلْفَرْوَانِيَّة;Al Farwānīyah
+en;Al Farwaniyah;Al Farwānīyah
+ru;Эль-Фарвания;Al Farwānīyah
+tr;El Farvaniye;Al Farwānīyah
+es;Al Farwaniyah;Al Farwānīyah
+fr;Al Farwaniyah;Al Farwānīyah
+az;Əl-Farvaniya;Al Farwānīyah
+de;Al Farwaniyah;Al Farwānīyah
+fa;فروانیه;Al Farwānīyah
+pt;Al Farwaniyah;Al Farwānīyah
+ar;اَلْبِدَع;Al Bida‘
+ar;اَلْبْهَر;Al Bhar
+ar;اَلْبَحْرَة;Bahra
+ar;اَلأَحْمَدِي;Al Aḩmadī
+ar;الاحمدي;Al Aḩmadī
+en;Al Ahmadi;Al Aḩmadī
+ru;Эль-Ахмади;Al Aḩmadī
+tr;El Ahmedi;Al Aḩmadī
+es;Al Ahmadi;Al Aḩmadī
+fr;Al Ahmadi;Al Aḩmadī
+az;Əl-Ahmadi;Al Aḩmadī
+de;Al Ahmadi;Al Aḩmadī
+fa;احمدی;Al Aḩmadī
+pt;Al Ahmadi;Al Aḩmadī
+ar;اَلأَدْعَمِي;Al Ad‘amī
+ar;اَلْعَبْدَلِيَّة;Al ‘Abdalīyah
+ar;اَلضِّبَاعِيَّة;Aḑ Ḑibā‘īyah
+ar;اَلدَّوْحَة;Ad Dawḩah
+ar;اَلدَّسْمَة;Ad Dasmah
+ar;أَبُو حُلَيْفَة;Abū Ḩulayfah
+ar;ابو حليفة;Abū Ḩulayfah
+ar;أَبْرَق خَيْطَان;Abraq Khayţān
+ar;اَلطَّوِيل;Aţ Ţawīl
+ar;صُبَيْحِيَّة;Şubayḩīyah
+ar;وَارَة;Wārah
+ar;اَلْخُوَيْسَات;Al Khuwaysāt
+ar;اَلْخِضْر;Al Khiḑr
+ar;اَلْبُلْط;Al Bulţ
+ar;اَلشُّبَيْكَة;Ash Shubaykah
+ar;اَلدَّشْت;Ad Dasht
+ar;قُلَّة شُجَيْر;Qullat Shujayr
+ar;اَلْعَوَازِم;Al ‘Awāzim
+ar;مُشْرِف;Mishrif
+ar;مشرف;Mishrif
+ar;اَلْمَسِيلَة;Al Masīlah
+ar;المسيلة;Al Masīlah
+ar;عَشِيش اَلدَّوْحَة;‘Ashīsh ad Dawḩah
+ar;عَشِيش اَلْجَهْرَاء;‘Ashīsh al Jahrā’
+ar;اَلْعَبَّاسِيَّة;Al ‘Abbāsīyah
+ar;اَلضُّبَاعِيَّة;Aḑ Ḑubā‘īyah
+ar;صَبَاح اَلسَّالِم;Şabāḩ as Sālim
+en;Sabah Al Salem;Şabāḩ as Sālim
+ru;Сабах Ас Салим;Şabāḩ as Sālim
+ar;اَلْعَرْفَجِيَّة;Al ‘Arfajīyah
+ar;اَلْعُلَيْمِيَّة;Al ‘Ulaymīyah
+es;Autopista de la muerte;Highway of Death
+it;Autostrada della morte;Highway of Death
+nl;Snelweg des Doods;Highway of Death
+ar;طريق الموت;Highway of Death
+pt;Autoestrada da Morte;Highway of Death
+ru;Шоссе смерти;Highway of Death
+en;Mubarak al Kabir;Mubārak al Kabīr
+ru;Мубарак аль-Кабир;Mubārak al Kabīr
+ar;مبارك الكبير;Mubārak al Kabīr
+tr;Mübarak el Kebir;Mubārak al Kabīr
+es;Mubarak al Kabir;Mubārak al Kabīr
+fr;Mubarak al Kabir;Mubārak al Kabīr
+az;Mubarak al Kabir;Mubārak al Kabīr
+de;Mubarak al Kabir;Mubārak al Kabīr
+fa;مبارک کبیر;Mubārak al Kabīr
+pt;Mubarak al Kabir;Mubārak al Kabīr
+ar;مزارع العبدلي;Mazāri‘ al ‘Abdalī
+en;Al ‘Abdalī Farms;Mazāri‘ al ‘Abdalī
+en;Abdali;Mazāri‘ al ‘Abdalī

@@ -1,0 +1,185 @@
+ar;وَادِيَان;Wādiyān
+ar;أُمّ جِدْر;Umm Jidr
+ar;أُمّ اَلشَّجَر;Umm ash Shajar
+ar;تُوبْلِي;Tūblī
+ar;سُفَالَة;Sufālah
+en;Sufala;Sufālah
+nl;Sufala;Sufālah
+ru;Ситра;Sitrah
+ar;سِتْرَة;Sitrah
+ar;سترة;Sitrah
+fa;ستره;Sitrah
+ar;شَهْرَكَّان;Shahrakkān
+ar;سَار;Sār
+en;Saar;Sār
+en;Sar;Sār
+ar;سَنَد;Sanad
+ar;سَنَابِس;Sanābis
+ar;سَمَاهِيج;Samāhīj
+ar;سَلْمَابَاد;Salmābād
+ar;صَافِرَة;Şāfirah
+ar;صَدَد;Şadad
+ar;رَيَّا;Rayyā
+ar;قُبَيْط;Qubayţ
+ar;قَلاَلِي;Qalālī
+ru;Галали;Qalālī
+en;Galali;Qalālī
+nl;Galali;Qalālī
+ar;نُور جُرُفْت;Nūr Juruft
+ar;مَرْقُوبَان;Marqūbān
+ar;مَقَابَا;Maqābā
+en;Muqaba;Maqābā
+en;Maqabah;Maqābā
+ar;مَنِي;Manī
+ar;مَهَزَّة;Mahazzah
+ar;مَدِينَة عِيسَى;Madīnat ‘Īsá
+de;Madinat Isa;Madīnat ‘Īsá
+ru;Мадинат-Иса;Madīnat ‘Īsá
+pt;Madinat 'Isa;Madīnat ‘Īsá
+fr;Madinat 'Isa;Madīnat ‘Īsá
+en;Isa Town;Madīnat ‘Īsá
+it;Madinat 'Isa;Madīnat ‘Īsá
+es;Madinat 'Isa;Madīnat ‘Īsá
+az;Madinat-İsa;Madīnat ‘Īsá
+fa;شهرک عیسی;Madīnat ‘Īsá
+tr;Medine İsa;Madīnat ‘Īsá
+nl;Isa Town;Madīnat ‘Īsá
+ar;خُوَيْص;Khuwayş
+ar;كَوْرَة;Kawrah
+ar;كَرْزَكَّان;Karzakkān
+ar;كَرَّانَة;Karrānah
+ar;كَرْبَابَاد;Karbābād
+ar;كَفْلاَن;Kaflān
+ar;جُسَيْرَة;Jusayrah
+ar;جُرْدَاب;Jurdāb
+ar;جِدّ حَفْص;Jidd Ḩafş
+ar;جِدّ عَلِي;Jidd ‘Alī
+ar;جِدّ اَلْحَاجّ;Jidd al Ḩājj
+ar;جَوّ;Jaww
+ar;جَنُّوسَان;Jannūsān
+ar;جَمَالَة;Jamālah
+ar;جَبَلَة حَبَشِي;Jabalat Ḩabashī
+ar;حِلَّة اَلسُّوق;Ḩillat as Sūq
+en;Hillat Abdul Saleh;Ḩillat as Sūq
+ar;المقشع;Almaqsha
+ar;هَرْبَدِيَّة;Harbadīyah
+ar;مَدِينَة حَمَد;Madīnat Ḩamad
+ru;Хамад;Madīnat Ḩamad
+pt;Madinat Hamad;Madīnat Ḩamad
+fr;Hamad Town;Madīnat Ḩamad
+en;Hamad Town;Madīnat Ḩamad
+it;Madinat Hamad;Madīnat Ḩamad
+es;Madinat Hamad;Madīnat Ḩamad
+az;Həməd;Madīnat Ḩamad
+fa;مدینه حمد;Madīnat Ḩamad
+nl;Madinat Hamad;Madīnat Ḩamad
+tr;Hamad Town;Madīnat Ḩamad
+ar;حَالَة أُمّ اَلْبَيْض;Ḩālat Umm al Bayḑ
+ar;حَالَة اَلسُّلْطَة;Ḩālat as Sulţah
+ar;حَالَة اَلنَّعِيم;Ḩālat an Na‘īm
+ar;حَالَة اَلْخُلَيْفَات;Ḩālat al Khulayfāt
+ar;حَالَة;Ḩālah
+ar;دُمِسْتَان;Dumistān
+ar;دَار كُلَيْب;Dār Kulayb
+ar;بُورِي;Būrī
+ar;بُو قُووَة;Bū Qūwah
+en;Bu Quwah;Bū Qūwah
+ar;بَارْبَار;Bārbār
+ar;بَنِي جَمْرَة;Banī Jamrah
+ar;اَلزِّمَّة;Az Zimmah
+ar;اَلزَّلاَّق;Az Zallāq
+ru;Эз-Заллак;Az Zallāq
+en;Zallaq;Az Zallāq
+fa;زلاق;Az Zallāq
+tr;Zallak;Az Zallāq
+nl;Zallaq;Az Zallāq
+ar;عَيْن اَلدَّار;‘Ayn ad Dār
+ar;عَوَالِي;‘Awālī
+en;Awali;‘Awālī
+ar;اَلصَّخِير;Aş Şakhīr
+ar;عَسْكَر;‘Askar
+ar;اَلشَّاخُورَة;Ash Shākhūrah
+en;Shakhura;Ash Shākhūrah
+fa;شاخوره;Ash Shākhūrah
+nl;Shakhura;Ash Shākhūrah
+ar;اَلرُّقْعَة;Ar Ruq‘ah
+ar;اَلرُّمَيْثَة;Ar Rumaythah
+ar;الرميثا;Ar Rumaythah
+ar;عَرَاد;‘Arād
+en;Arad;‘Arād
+ar;اَلنُّوَيْدِرَات;An Nuwaydirāt
+pt;Nuwaidrat;An Nuwaydirāt
+en;Nuwaidrat;An Nuwaydirāt
+it;Nuwaidrat;An Nuwaydirāt
+nl;Nuwaidrat;An Nuwaydirāt
+ar;اَلْوَسْمِيَّة;Al Wasmīyah
+ar;اَلْقُرَيَّة;Al Qurayyah
+ar;اَلْقَرْيَة;Al Qaryah
+ar;اَلْقَدَم;Al Qadam
+ar;اَلْمُوَيْلِغَة;Al Muwaylighah
+ar;مقشع اليمن;Magsha
+ar;اَلْمُحَرَّق;Al Muharraq
+de;Muharraq;Al Muharraq
+ar;محرق;Al Muharraq
+ru;Аль-Мухаррак;Al Muharraq
+de;al-Muharraq;Al Muharraq
+ar;اَلْمَرْخ;Al Markh
+ar;المنامة;Manama
+nl;Manamah;Manama
+ru;Манама;Manama
+ar;اَلْمَنَامَة;Manama
+ckb;مەنامە;Manama
+fa;منامه;Manama
+ar;اَلْمَمْطَلَة;Al Mamţalah
+ar;اَلْمَالِكِيَّة;Al Mālikīyah
+ar;اَلْمَعَامِير;Al Ma‘āmīr
+ar;اَلْخَارِجِيَّة;Al Khārijīyah
+ar;اَلْجُبَيْلاَت;Al Jubaylāt
+ar;اَلْجَسْرَة;Al Jasrah
+ru;Джасра;Al Jasrah
+en;Jasra;Al Jasrah
+fa;جسرا;Al Jasrah
+nl;Jasra;Al Jasrah
+ar;اَلْجَنَبِيَّة;Al Janabīyah
+ar;عَالِي;‘Ālī
+ar;اَلْهُجَيْر;Al Hujayr
+ar;اَلْهَمَلَة;Al Hamalah
+ar;اَلْحَجَر;Al Ḩajar
+ar;اَلْحَدّ;Al Ḩadd
+ar;اَلْبُسَيْتِين;Al Busaytīn
+ar;اَلْبُدَيِّع;Al Budayyi‘
+de;Al-Budayyiʿ;Al Budayyi‘
+ru;Эль-Будайи;Al Budayyi‘
+pt;Budaia;Al Budayyi‘
+en;Budaiya;Al Budayyi‘
+it;Al-Budayyi';Al Budayyi‘
+es;Al-Budaiya;Al Budayyi‘
+fa;البدیع;Al Budayyi‘
+nl;Budaiya;Al Budayyi‘
+ar;اَلْعَمَر;Al ‘Amar
+ar;اَلْعَكْر;Al ‘Akr
+ar;اَلدُّور;Ad Dūr
+ar;اَلدِّرَاز;Ad Dirāz
+en;Diraz;Ad Dirāz
+it;Diraz;Ad Dirāz
+fa;الدراز;Ad Dirāz
+fr;Diraz;Ad Dirāz
+nl;Diraz;Ad Dirāz
+ar;اَلدَّيْر;Ad Dayr
+ar;أَبُو صَيْبِع;Abū Şaybi‘
+ar;أَبُو بَهَام;Abū Bahām
+ar;اَلرِّفَاع;Ar Rifā‘
+de;Riffa;Ar Rifā‘
+pt;Ar Rifa';Ar Rifā‘
+en;Riffa;Ar Rifā‘
+it;Riffa;Ar Rifā‘
+es;Riffa;Ar Rifā‘
+az;Ər-Rifa;Ar Rifā‘
+fa;الرفاع;Ar Rifā‘
+nl;Riffa;Ar Rifā‘
+ru;Риффа;Ar Rifā‘
+fr;Riffa;Ar Rifā‘
+tr;Er Rifaa;Ar Rifā‘
+ar;اَلْقَلْعَة;Al Qal‘ah
+ar;ضاحية السيف;Seef
+fa;السیف;Seef

@@ -1,0 +1,180 @@
+0;50.8884,25.3137;QA-14;Al-Shahaniya;‘Ayn az Zughayn
+0;50.8477,25.4853;QA-14;Al-Shahaniya;Bi’r Zikrīt
+0;51.3754,25.4937;QA-09;Umm Salal;Umm ‘Ubayrīyah
+0;51.1761,25.2266;QA-14;Al-Shahaniya;Rawḑat Shamīm
+29391;51.4065,25.4152;QA-09;Umm Salal;Umm Şalāl Muḩammad
+0;51.3975,25.4697;QA-09;Umm Salal;Umm Şalāl ‘Alī
+5769;51.5507,24.9923;QA-10;Al Wakrah;Musay‘īd
+0;51.4989,25.7129;QA-04;Al Khor;Umm Qayn
+0;51.4310,25.5527;QA-13;Al Daayen;Umm Qarn
+0;51.0677,25.8321;QA-04;Al Khor;Umm Juway‘id
+39457;51.1499,25.5872;QA-14;Al-Shahaniya;Umm Ghuwaylīnah
+2500;50.8072,25.2142;QA-06;Baladiyat ar Rayyan;Umm Bāb
+0;51.2782,25.1749;QA-14;Al-Shahaniya;Umm az Zubār ash Sharqīyah
+0;51.4494,25.6480;QA-13;Al Daayen;Umm Suwayyah
+0;51.0782,25.0686;QA-06;Baladiyat ar Rayyan;Umm aş Şuwab
+0;51.2213,25.1639;QA-14;Al-Shahaniya;Umm ash Shubrum
+0;51.4713,25.7670;QA-04;Al Khor;Umm al Quhāb
+0;50.9648,25.4927;QA-14;Al-Shahaniya;Aş Şunay‘
+0;51.2933,25.3741;QA-14;Al-Shahaniya;Umm al Quhāb
+0;51.4369,25.3653;QA-09;Umm Salal;Umm al Qubūr
+0;51.0045,25.3127;QA-14;Al-Shahaniya;Umm al ‘Iz̧ām
+0;51.3977,25.4906;QA-09;Umm Salal;Umm al ‘Amad
+0;51.3336,25.3588;QA-06;Baladiyat ar Rayyan;Umm al Afā‘ī
+0;51.3607,25.4775;QA-09;Umm Salal;Umm al Abāriq
+0;51.4832,25.5782;QA-13;Al Daayen;Sumaysimah
+0;51.6176,25.2040;QA-01;Baladiyat ad Dawhah;Ra’s Abū Finţās
+19975;51.5323,25.2462;QA-01;Baladiyat ad Dawhah;Nu‘ayjah
+0;51.5339,25.1097;QA-10;Al Wakrah;Nabāt al Uşayl
+0;51.0975,25.9591;QA-08;Madinat ash Shamal;Musaykah
+27569;51.3968,25.2617;QA-06;Baladiyat ar Rayyan;Mu‘aydhir Rawḑat Rāshid
+0;51.2107,24.7581;QA-10;Al Wakrah;Turaynah
+5267;51.2009,26.1293;QA-08;Madinat ash Shamal;Madīnat ash Shamāl
+0;51.3526,25.8734;QA-04;Al Khor;Madīnat al Ka‘bān
+0;51.0716,25.9578;QA-08;Madinat ash Shamal;Lishā
+0;50.9679,25.2674;QA-14;Al-Shahaniya;Al Kharsa‘ah
+7250;50.7823,25.4248;QA-14;Al-Shahaniya;Dukhān
+0;50.9509,25.5697;QA-14;Al-Shahaniya;Bi’r al Ḩusayn
+54339;51.4831,25.5774;QA-13;Al Daayen;Az̧ Z̧a‘āyin
+0;51.3294,26.0083;QA-08;Madinat ash Shamal;‘Ayn Sinān
+0;51.1151,26.0315;QA-08;Madinat ash Shamal;Ath Thaqab
+0;51.0183,25.7667;QA-14;Al-Shahaniya;As Suwayḩilīyah
+0;51.1606,25.5601;QA-14;Al-Shahaniya;Mazra‘at aş Şin‘
+0;51.1792,25.8811;QA-04;Al Khor;As Sulaymī Suḩaym Bin Ḩamad
+0;51.2026,25.8680;QA-04;Al Khor;As Sulaymī al Gharbī
+0;51.2024,25.9057;QA-04;Al Khor;Al Jatlāwīyah
+0;51.1647,26.0329;QA-08;Madinat ash Shamal;Makīn al Fatīyah
+0;51.2807,25.3646;QA-14;Al-Shahaniya;As Samrīyah
+0;50.9605,25.3537;QA-14;Al-Shahaniya;As Sulaymīyah
+43;51.3934,24.8267;QA-10;Al Wakrah;Ash Shaqrā’
+8380;51.2226,25.3709;QA-14;Al-Shahaniya;Ash Shīḩānīyah
+0;51.3695,25.6492;QA-04;Al Khor;Ash Shafallaḩīyah
+3334;51.2149,26.1398;QA-08;Madinat ash Shamal;Ar Ruways
+0;50.9741,25.5295;QA-14;Al-Shahaniya;Qaryat ar Rufayq
+272465;51.4244,25.2919;QA-06;Baladiyat ar Rayyan;Ar Rayyān
+0;51.0839,25.8596;QA-08;Madinat ash Shamal;‘Ayn an Nu‘mān
+5146;51.5372,25.1511;QA-10;Al Wakrah;Al Wukayr
+26436;51.6034,25.1715;QA-10;Al Wakrah;Al Wakrah
+0;51.4014,25.3050;QA-06;Baladiyat ar Rayyan;Al Waqbah
+0;51.1733,25.3391;QA-14;Al-Shahaniya;Al Wabrah
+0;51.4632,25.8408;QA-04;Al Khor;Al Wa‘b
+0;50.9582,25.4466;QA-14;Al-Shahaniya;Jaww al ‘Uwaynah
+0;51.3096,25.9395;QA-08;Madinat ash Shamal;Al Muraydah
+0;51.3863,25.8946;QA-04;Al Khor;Al Mashrab
+0;51.0432,25.0111;QA-06;Baladiyat ar Rayyan;Al Kir‘ānah
+0;51.4252,25.3884;QA-09;Umm Salal;Al Khurayţīyāt
+0;51.2202,25.4357;QA-14;Al-Shahaniya;Al Khurayb
+0;51.3399,25.9244;QA-08;Madinat ash Shamal;Al Khīsah
+0;51.4590,25.4164;QA-13;Al Daayen;Al Khīsah
+18923;51.5058,25.6839;QA-04;Al Khor;Al Khawr
+0;50.7876,25.4187;QA-14;Al-Shahaniya;Al Khaţţīyah
+179;51.1758,24.9032;QA-10;Al Wakrah;Al Kharrārah
+0;51.2453,26.0697;QA-08;Madinat ash Shamal;Al Qa‘ābīyah
+1788;51.0911,25.6107;QA-14;Al-Shahaniya;Al Jumaylīyah
+0;51.3477,25.9515;QA-08;Madinat ash Shamal;Al Judhay‘
+0;51.5854,25.7013;QA-04;Al Khor;Al Jubayl
+0;51.2958,25.3398;QA-14;Al-Shahaniya;Al Ḩasanīyah
+2332;51.2457,25.8288;QA-04;Al Khor;Al Ghuwayrīyah
+0;51.3283,25.9851;QA-08;Madinat ash Shamal;Al Ghashshāmīyah
+0;51.3575,26.0800;QA-08;Madinat ash Shamal;Al Ghārīyah
+0;51.0560,25.7165;QA-14;Al-Shahaniya;Al Buşayyir
+0;50.9568,25.4589;QA-14;Al-Shahaniya;Al Buraythāt
+0;51.0569,26.0510;QA-08;Madinat ash Shamal;Al ‘Arīsh
+0;51.3187,26.0515;QA-08;Madinat ash Shamal;‘Adhbah
+0;51.3722,25.5462;QA-09;Umm Salal;Rawḑat al ‘Ajūz
+0;51.5438,25.7320;QA-04;Al Khor;Adh Dhakhīrah
+344939;51.5310,25.2855;QA-01;Baladiyat ad Dawhah;Doha
+0;51.0019,25.7251;QA-14;Al-Shahaniya;Abū Sidrah
+0;51.1815,26.1240;QA-08;Madinat ash Shamal;Abū Z̧ulūf
+0;51.3490,25.3256;QA-06;Baladiyat ar Rayyan;Zar‘ al ‘Atīyah
+0;51.3731,25.2136;QA-06;Baladiyat ar Rayyan;As Saylīyah
+0;51.3304,25.2336;QA-06;Baladiyat ar Rayyan;Umm Qurūn
+0;51.2761,25.0306;QA-10;Al Wakrah;Wādī Jallāl
+938;50.8317,24.7437;QA-06;Baladiyat ar Rayyan;Abū Samrah
+0;51.2260,26.1156;QA-08;Madinat ash Shamal;Al Wa‘b
+0;51.1897,26.1109;QA-08;Madinat ash Shamal;Umm Şabbāḩ
+0;51.2396,26.1078;QA-08;Madinat ash Shamal;Az Zighāb
+0;51.1656,26.0764;QA-08;Madinat ash Shamal;Al ‘Aşmīyah
+0;51.2108,26.0715;QA-08;Madinat ash Shamal;Umm aş Şūf
+0;51.1304,26.0502;QA-08;Madinat ash Shamal;Ar Rakīyāt
+0;51.1639,26.0336;QA-08;Madinat ash Shamal;Sidrīyat Makīn
+0;51.0877,26.0084;QA-08;Madinat ash Shamal;Umm al Qubūr
+0;51.2093,26.0479;QA-08;Madinat ash Shamal;Umm al Kilāb
+0;51.2995,25.9998;QA-08;Madinat ash Shamal;Umm al Ghaylam
+1333;51.3697,26.0256;QA-08;Madinat ash Shamal;Fuwayriţ
+0;51.2197,25.8832;QA-04;Al Khor;As Sulaymī ash Sharqī
+0;51.2058,25.8478;QA-04;Al Khor;As Sulaymī ‘Abd al ‘Azīz Bin Khalīfah
+0;51.1561,25.8224;QA-04;Al Khor;Umm al ‘Iz̧ām
+0;51.0561,25.8094;QA-04;Al Khor;Muḩayriqat Janūb aş Şu‘lūkīyah
+0;51.0209,25.7798;QA-04;Al Khor;Al Ghāfah
+0;51.4651,25.9489;QA-08;Madinat ash Shamal;Al Ḩuwaylah
+0;51.4358,25.8569;QA-04;Al Khor;Al Khurayş
+0;51.2578,25.8727;QA-04;Al Khor;Mazra‘at al Mājidah
+0;51.4048,25.7951;QA-04;Al Khor;Simsimah
+0;51.3913,25.7603;QA-04;Al Khor;Ash Shafallaḩīyah
+0;51.4508,25.7472;QA-04;Al Khor;Umm Birkah
+0;51.1724,25.6683;QA-14;Al-Shahaniya;Al Qā‘īyah
+0;51.2224,25.4913;QA-14;Al-Shahaniya;As Sāmirīyah
+0;51.2597,25.6970;QA-14;Al-Shahaniya;Abū Şuwayy
+0;51.4671,25.6854;QA-04;Al Khor;Al ‘Uqdah
+0;51.4551,25.6273;QA-13;Al Daayen;Al Ghāf
+0;51.4723,25.6112;QA-13;Al Daayen;Tinbak ash Sharqīyah al Qadīmah
+0;51.3048,25.5338;QA-09;Umm Salal;Abū Thaylah
+0;51.0769,25.4070;QA-14;Al-Shahaniya;An Naşrānīyah
+0;51.2047,25.2331;QA-14;Al-Shahaniya;Rawḑat Rāshid
+0;51.0901,25.1701;QA-14;Al-Shahaniya;Umm Wishāḩ
+0;51.1646,25.1618;QA-14;Al-Shahaniya;Sahlat al Markh
+0;51.2178,25.1224;QA-06;Baladiyat ar Rayyan;Mukaynis
+0;51.4081,25.5427;QA-09;Umm Salal;Aş Şanī‘
+0;51.5897,25.7098;QA-04;Al Khor;Abū Kharāb
+0;50.9405,25.4803;QA-14;Al-Shahaniya;Umm aḑ Ḑa‘ah Khawzān
+0;51.0054,25.2990;QA-14;Al-Shahaniya;Umm Qarn
+0;50.9796,25.5006;QA-14;Al-Shahaniya;Umm al Quhāb al Qadīmah
+0;51.2114,25.5129;QA-14;Al-Shahaniya;Al ‘Uţūrīyah
+0;51.1620,25.1778;QA-14;Al-Shahaniya;As Sahlah ash Shamālīyah
+0;50.9369,25.2126;QA-14;Al-Shahaniya;Ash Shabhānah
+0;51.1855,25.1702;QA-14;Al-Shahaniya;Umm al Maqārīn
+0;51.2082,25.1487;QA-14;Al-Shahaniya;Umm Ghuwaylīnah
+0;51.1087,25.1906;QA-14;Al-Shahaniya;Wādī al Jamāl ash Shamālī
+0;51.0670,24.8901;QA-06;Baladiyat ar Rayyan;Umm Ḩawţah
+0;51.0767,24.8216;QA-06;Baladiyat ar Rayyan;Al ‘Āmirīyah
+0;50.9862,24.9722;QA-06;Baladiyat ar Rayyan;Al Wusayl
+0;51.1332,25.0930;QA-06;Baladiyat ar Rayyan;Umm Qarn
+0;51.1530,25.1078;QA-06;Baladiyat ar Rayyan;Jarayān al Baţnah
+0;51.0827,25.6202;QA-14;Al-Shahaniya;Jumaylīyat ash Shahwān
+0;51.0808,25.6341;QA-14;Al-Shahaniya;Jumaylīyat an Na‘īm
+0;51.3989,25.9948;QA-08;Madinat ash Shamal;Al Marrūnah
+0;51.4631,25.6406;QA-13;Al Daayen;Ar Ruḩayyah
+0;51.5886,25.7322;QA-04;Al Khor;Al Masākir ‘Uraydah
+0;51.5316,25.7139;QA-04;Al Khor;Umm ‘Anīq
+0;51.4733,25.4462;QA-13;Al Daayen;Al Ḩammāmah
+0;51.3036,25.5247;QA-09;Umm Salal;Burj Barzān
+0;51.4137,25.4184;QA-09;Umm Salal;Thu‘aylib
+0;51.2698,25.4380;QA-09;Umm Salal;Jarī Ibn ‘Abd al Wahhāb
+0;51.3369,25.3697;QA-06;Baladiyat ar Rayyan;Şin‘ al Ḩumaydī
+0;51.3173,25.1739;QA-14;Al-Shahaniya;Abū Nakhlah
+0;51.4186,25.1283;QA-10;Al Wakrah;Al Bāhiyah
+0;51.5690,25.1753;QA-10;Al Wakrah;Al Mashāf
+0;51.2520,25.1764;QA-14;Al-Shahaniya;Umm az Zubār al Qiblīyah
+0;51.2492,25.3310;QA-14;Al-Shahaniya;‘Ayn ar Rukhayşah
+0;51.2462,25.2384;QA-14;Al-Shahaniya;Gharāfat ar Rayyān
+0;51.3099,25.3413;QA-14;Al-Shahaniya;Laqţah
+0;51.1531,26.0669;QA-08;Madinat ash Shamal;Umm Jāsim
+0;51.3045,26.0710;QA-08;Madinat ash Shamal;‘Adhbah ash Shamālīyah
+0;51.3672,26.0345;QA-08;Madinat ash Shamal;Fuwayriţ al Qadīm
+0;51.3699,25.5340;QA-09;Umm Salal;Abā an Najm
+0;51.3181,25.4805;QA-09;Umm Salal;Al Maşlabah
+0;51.3837,25.5062;QA-09;Umm Salal;Jarī Khabāb
+0;51.3460,25.4308;QA-09;Umm Salal;Abū Qarn
+0;51.2780,25.3257;QA-14;Al-Shahaniya;Umm Aqdīr
+0;51.3464,25.3475;QA-06;Baladiyat ar Rayyan;Jarī az̧ Z̧abī
+0;51.3545,25.3685;QA-06;Baladiyat ar Rayyan;Jarīyān as Sahm
+0;51.3792,25.3566;QA-06;Baladiyat ar Rayyan;Ath Thamīd
+0;51.2640,25.4180;QA-14;Al-Shahaniya;Mu‘aydhir al Mashāf
+0;51.2684,25.3916;QA-14;Al-Shahaniya;Mu‘aydhir ad Dasm
+0;51.2756,25.4562;QA-09;Umm Salal;Abū Aqlīlah
+0;51.3439,25.3974;QA-09;Umm Salal;Umm Asharīn
+0;51.3903,25.6092;QA-04;Al Khor;Umm Qarīn
+0;51.5422,25.1251;QA-10;Al Wakrah;Mu‘aydhar al Wakīr
+0;51.4167,25.5331;QA-13;Al Daayen;Umm al ‘Amad
+198600;51.5075,25.4175;QA-13;Al Daayen;Lusail
