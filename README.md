@@ -1653,7 +1653,7 @@ ouverte ET hors des zones formellement déconseillées par France Diplomatie. D�
   possible : les étapes sont alors cherchées hors zone, plus loin si nécessaire. Si seul le filtre rend le
   tirage impossible, un message dédié le dit (`tensionBlocked`).
 - **Avertissement** : toute étape en zone rouge ou orange, et le point de départ lui-même, affichent un
-  bandeau « Sécurité » coloré, traduit dans les 150 langues, avec un lien vers la fiche officielle.
+  bandeau « Sécurité » coloré, traduit dans les 161 langues, avec un lien vers la fiche officielle.
 
 **Approximations assumées, et écrites dans chaque règle** (champ `label`) : les fiches ne donnent presque
 jamais la largeur des bandes frontalières, estimée sur les cartes ; les limites tracées « entre deux villes »
@@ -2948,7 +2948,8 @@ L'ourdou s'affiche en naskh avec les polices système (le nastaliq demanderait u
 
 **Écartées** :
 - **Yi (nuosu)** : statut (préfecture de Liangshan) et syllabaire standard de 1980 réels, mais la traduction produite
-  n'était pas fiable (surtout des emprunts chinois transcrits) — mieux vaut aucune interface qu'une interface fausse.
+  n'était pas fiable (surtout des emprunts chinois transcrits) — écarté alors, ajouté depuis en traduction tentée (voir
+  « Traductions tentées : onze langues »).
 - **Langues indiennes à l'orthographe non établie par un texte** (vérification ciblée) : kannada, odia, sindhi,
   assamais (non) ; télougou, pendjabi, gujarati, konkani, manipuri (incertain) ; sanskrit, maïthili, bodo, dogri,
   santali, cachemiri (pas d'autorité orthographique).
@@ -2972,8 +2973,8 @@ divehi, zhuang.
   français restant seul officiel) ; Académie tahitienne – Fare Vānaʻa. Traduction jugée fiable à 55-65 % par son auteur :
   **relecture native conseillée**.
 
-**Retenues mais NON ajoutées, faute de traduction utilisable** (mieux vaut aucune interface qu'une interface fausse,
-comme pour le yi) : chamorro (`ch`, Guam et Mariannes du Nord — statut et orthographe réels, traduction estimée à ~50 %),
+**Retenues mais d'abord NON ajoutées, faute de traduction utilisable** (ajoutées depuis en traduction tentée, voir
+« Traductions tentées : onze langues ») : chamorro (`ch`, Guam et Mariannes du Nord — statut et orthographe réels, traduction estimée à ~50 %),
 paluan (`pau`, Palaos, ~15 %), marquisien (`mrq`, Polynésie française, ~20 %), marshallais (`mh`, orthographe fixée par
 la loi P.L. 2010-45, statut indirect, ~20 %). À reprendre avec un traducteur humain.
 
@@ -3004,7 +3005,8 @@ et même exigence de traduction utilisable (seuil de fiabilité ~55 % estimé pa
 
 Toutes les traductions sont à faire relire par des locuteurs natifs.
 
-**Retenues selon le critère mais NON ajoutées, faute de traduction utilisable** : groenlandais (~35-40 %), maya yucatèque
+**Retenues selon le critère mais d'abord NON ajoutées, faute de traduction utilisable** (les six premières ajoutées depuis en
+traduction tentée, voir « Traductions tentées : onze langues ») : groenlandais (~35-40 %), maya yucatèque
 (~45 %), aymara (~45 %), k'iche', kaqchikel et q'eqchi' (20-40 %) ; et, sans tentative de traduction, les 16 autres langues
 du Mexique dotées d'une norme d'écriture de l'INALI (tseltal, tsotsil, ch'ol, otomí…), les 18 autres langues mayas du
 Guatemala (alphabets de l'ALMG, 1987), 9 langues du Venezuela (Ley de Idiomas Indígenas 2008 ; Resolución 83 de 1982) et
@@ -3016,6 +3018,38 @@ langues des Territoires du Nord-Ouest, de l'Alaska, navajo, cherokee, mi'kmaw (o
 aymara (alphabets non vérifiés un par un) ; lakota, langues du Nicaragua, sranan tongo, créole de San Andrés, nheengatu
 et langues co-officielles municipales du Brésil, langues du Chaco argentin, mapudungun (statut ou orthographe manquant) ;
 kriol bélizien, patwa jamaïcain, kwéyòl de Dominique et de Sainte-Lucie (aucun statut).
+
+### Traductions tentées : onze langues (septembre 2026)
+
+Onze langues remplissaient le double critère (statut légal ET orthographe fixée par un texte ou une autorité publique) mais
+avaient été laissées sans interface parce que leur traducteur estimait sa fiabilité sous ~55 %. À la demande de l'utilisateur,
+elles sont désormais **ajoutées quand même**, l'avertissement du pied de page (« l'interface a été traduite dans de nombreuses
+langues et peut contenir des erreurs ») couvrant ce risque. **161 langues au total.** Fiabilité estimée par le traducteur,
+à faire relire par des locuteurs natifs en priorité :
+
+| Langue | Code | Drapeau | Statut et orthographe | Fiabilité |
+|---|---|---|---|---|
+| Yi (nuosu) | `ii` | Chine | préfecture autonome de Liangshan ; syllabaire standard de 1980 | faible (~30 %) |
+| Chamorro | `ch` | Guam | loi de Guam ; Kumisión i Fino' CHamoru | ~50 % |
+| Paluan | `pau` | Palaos | Constitution, art. XIII ; Palau Orthography Committee (1972) | ~30-35 % |
+| Marshallais | `mh` | Îles Marshall | P.L. 2010-45 ; nouvelle orthographe (1976) | ~40 % |
+| Marquisien (Nord) | `mrq` | Polynésie française | Académie marquisienne (Tuhuna ʻEo ʻEnana) | ~35 % |
+| Groenlandais | `kl` | Groenland | loi d'autonomie 2009, §20 ; Oqaasileriffik (1973) | ~55 % |
+| Aymara | `ay` | Bolivie | Constitution 2009, art. 5 ; alphabet unifié (DS 20227, 1984) | ~50 % |
+| Maya yucatèque | `yua` | Mexique | loi générale des droits linguistiques (2003) ; norme INALI (2014) | ~45 % |
+| K'iche' | `quc` | Guatemala | décret 19-2003 ; alphabet ALMG (AG 1046-87) | ~50 % |
+| Kaqchikel | `cak` | Guatemala | idem | ~45 % |
+| Q'eqchi' | `kek` | Guatemala | idem | ~40 % |
+
+**Choix communs** : emprunts adaptés là où la langue n'a pas de terme courant (espagnol pour l'aymara et les langues mayas,
+japonais ou anglais pour le paluan, anglais pour le marshallais) ; apostrophe droite pour la glottalisation de l'aymara, comme
+pour le quechua déjà en ligne ; k'iche' écrit avec cinq voyelles, kaqchikel avec ä ë ï ö ü (normes ALMG en usage). Drapeau
+national pour le maya yucatèque (le drapeau dit « de la République du Yucatán » n'a pas de statut officiel) et chinois pour le
+yi (la préfecture de Liangshan n'a pas de drapeau). **Police** : le syllabaire yi est absent de macOS et d'iOS — Noto Sans Yi
+(~180 ko, SIL OFL 1.1) est hébergée localement et téléchargée seulement pour cette écriture (`unicode-range`).
+
+Restent sans tentative : les autres langues du Mexique dotées d'une norme INALI, les autres langues mayas du Guatemala, les
+langues du Venezuela et les langues amazoniennes du Pérou (ressources trop rares pour une interface même approximative).
 
 ## Démarrer en local
 

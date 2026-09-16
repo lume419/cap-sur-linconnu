@@ -1010,6 +1010,18 @@ html[lang="dv"] body, html[lang="dv"] input, html[lang="dv"] button, html[lang="
   font-family: "Noto Sans Thaana", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
+/* Syllabaire yi (nuosu, ii) — absent de macOS et d'iOS : Noto Sans Yi (~180 ko, SIL OFL 1.1), hébergée localement,
+   téléchargée seulement si la page contient des caractères yi (unicode-range). */
+@font-face {
+  font-family: "Noto Sans Yi";
+  src: url("../fonts/NotoSansYi-Regular.ttf") format("truetype");
+  font-display: swap;
+  unicode-range: U+A000-A4CF, U+3001-3002, U+FF01-FF1F;
+}
+html[lang="ii"] body, html[lang="ii"] input, html[lang="ii"] button, html[lang="ii"] select, html[lang="ii"] textarea {
+  font-family: "Noto Sans Yi", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
 /* Message dans la liste de suggestions (chargement en cours) : non cliquable, discret. */
 .suggest-item.suggest-message{cursor:default; font-style:italic; opacity:.75; justify-content:flex-start;}
 
