@@ -435,7 +435,61 @@
       // Misrata/Benghazi (déconseillées "sauf raison impérative"). Pays toujours divisé de facto entre
       // deux autorités rivales (Government of National Unity à Tripoli, autorité de l'Est sous
       // contrôle Haftar/LNA à l'Est) sans réunification effective à ce jour.
-      LY: { code:'LY', name:'Libye', file:'communes-ly.txt', hasToll:false, aliasFile:'aliases-ly.txt', currency:'LYD' }
+      LY: { code:'LY', name:'Libye', file:'communes-ly.txt', hasToll:false, aliasFile:'aliases-ly.txt', currency:'LYD' },
+      // ── LOT MAGHREB : Maroc, Algérie, Tunisie, Sahara occidental ────────────────────────────
+      // **Le Maroc** : `hasToll:true`, un vrai péage proportionnel à la distance exploité par ADM
+      // (Société Nationale des Autoroutes du Maroc, concessionnaire de l'État depuis 1989, ~1 800 km
+      // de réseau) — voir TOLL_RATE_BY_COUNTRY plus bas pour le barème et sa dérivation. ADM ne
+      // publie que TROIS classes (1 : deux essieux ≤1,30 m de haut ; 2 : deux essieux >1,30 m ou
+      // plus de deux essieux <1,30 m ; 3 : plus de deux essieux >1,30 m) et AUCUNE classe moto —
+      // une motocyclette relève donc de la classe 1 par la définition même d'ADM (deux essieux,
+      // moins de 1,30 m), ce qui est une lecture du barème et non un tarif inventé. Devise `MAD`
+      // (dirham marocain, 2 décimales) ; aucun symbole Unicode dédié n'existe, `CURRENCY_GLYPH`
+      // utilise l'abréviation arabe usuelle "د.م.". 46 020 communes retenues — de loin le plus gros
+      // fichier du lot. ATTENTION, limite documentée : le champ "cp" n'est PAS un code postal mais
+      // le code de RÉGION ISO 3166-2:MA, le fichier de codes postaux GeoNames marocain étant
+      // inutilisable (voir scripts/build-maghreb-communes.js pour la démonstration chiffrée).
+      MA: { code:'MA', name:'Maroc', file:'communes-ma.txt', hasToll:true, aliasFile:'aliases-ma.txt', currency:'MAD' },
+      // **L'Algérie** : `hasToll:false`. L'autoroute Est-Ouest (1 216 km, de la frontière tunisienne
+      // à la frontière marocaine) et l'ensemble du réseau sont GRATUITS. 48 postes de péage ont bien
+      // été construits physiquement vers 2010 mais n'ont jamais été mis en service, et la mise en
+      // péage a été explicitement écartée par le président Tebboune en février 2026 ("il n'y aura pas
+      // de points de péage sur l'autoroute") : traité comme un projet abandonné, pas comme un péage
+      // à venir. Exploitant : Algérienne des Autoroutes (ADA), qui ne publie aucune grille. Devise
+      // `DZD` (dinar algérien, 2 décimales et non 3 — les centimes sont de fait sortis de l'usage) ;
+      // aucun symbole Unicode dédié, abréviation arabe "د.ج". 7 784 communes avec de VRAIS codes
+      // postaux, seul territoire du lot dans ce cas.
+      // RÉSERVE IMPORTANTE SUR LE COÛT AFFICHÉ : l'Algérie a deux taux de change dans les faits. Le
+      // taux officiel de la Banque d'Algérie (~154 DZD pour 1 EUR le 15/09/2026) est celui utilisé
+      // ici, faute de source officielle possible pour l'autre ; le marché parallèle s'échangeait
+      // autour de 276 DZD pour 1 EUR début septembre 2026, soit ~80 % d'écart. Un budget de voyage
+      // converti en euros au taux officiel est donc SURESTIMÉ dans cette proportion.
+      DZ: { code:'DZ', name:'Algérie', file:'communes-dz.txt', hasToll:false, aliasFile:'aliases-dz.txt', currency:'DZD' },
+      // **La Tunisie** : `hasToll:true`, péage réel exploité par la Société Tunisie Autoroutes (STA,
+      // capital détenu à 99,08 % par l'État), concessionnaire des A1/A3/A4, barème révisé par décret
+      // du 15 juillet 2025. Trois classes également (1 : véhicules légers ; 2 : utilitaires et
+      // camping-cars ; 3 : poids lourds et cars à deux essieux), aucune classe moto : même lecture
+      // que pour le Maroc, la moto relève de la classe 1 "véhicules légers". Devise `TND` (dinar
+      // tunisien, **3 décimales** — le millime vaut 1/1000 de dinar, et le calculateur officiel de
+      // la STA affiche bien "3.900 TND") ; aucun symbole Unicode dédié, abréviation arabe "د.ت".
+      // 1 615 communes avec de vrais codes postaux à 4 chiffres, mais issus d'un jeu TIERS SANS
+      // LICENCE faute de source officielle accessible — voir scripts/build-maghreb-communes.js, même
+      // réserve explicite que pour la Géorgie (yell.ge) et le Monténégro.
+      TN: { code:'TN', name:'Tunisie', file:'communes-tn.txt', hasToll:true, aliasFile:'aliases-tn.txt', currency:'TND' },
+      // **Le Sahara occidental** : territoire non autonome selon l'ONU, repris TEL QUEL depuis
+      // GeoNames qui lui attribue un code pays "EH" distinct — même principe de non-retouche que
+      // pour le nord de Chypre, le Kosovo et la Crimée ailleurs dans ce projet, et qui ne constitue
+      // une prise de position d'aucune sorte. `hasToll:false` : la voie express Tiznit-Dakhla
+      // (1 055 km, RN1 dédoublée, rebaptisée en août 2026) relève du ministère de l'Équipement et
+      // non d'ADM, et ne comporte aucun poste de péage ; le réseau concédé ADM s'arrête à Agadir.
+      // Devise `MAD`, la monnaie réellement en circulation et celle qu'ISO 4217 rattache au
+      // territoire (la peseta sahraouie de la RASD est commémorative, sans circulation commerciale).
+      // AUCUN ferry pour véhicule n'existe vers Dakhla, Laâyoune ou Tarfaya, depuis nulle part : la
+      // seule ligne ayant existé, Tarfaya-Fuerteventura, a fonctionné cinq mois en 2007-2008 avant
+      // le naufrage de l'Assalama et n'a jamais rouvert (réouverture encore bloquée en mai 2025,
+      // faute de poste d'inspection frontalier). 49 communes, champ "cp" = étiquette informelle "EH"
+      // faute de toute subdivision exploitable (voir scripts/build-maghreb-communes.js).
+      EH: { code:'EH', name:'Sahara occidental', file:'communes-eh.txt', hasToll:false, aliasFile:'aliases-eh.txt', currency:'MAD' }
     };
 
     var TRANSPORT = {
@@ -491,7 +545,34 @@
       // utilitaire" distinct publié pour la route 6. Précision plus faible que pour la Turquie/la
       // Bosnie-Herzégovine (dont les corridors de référence ont une longueur officiellement publiée) :
       // à corriger si une longueur exacte de route 6 ou un barème €/km officiel est identifié plus tard.
-      IL: { 1: 0.065, 2: 0.101, 5: 0.041 }
+      IL: { 1: 0.065, 2: 0.101, 5: 0.041 },
+      // Maroc : dérivé de la grille tarifaire officielle ADM (tableau HTML de adm.co.ma/fr/
+      // grille-tarifaire-sur-le-reseau, consulté le 16/09/2026 — le PDF téléchargeable depuis cette
+      // même page est PÉRIMÉ, il affiche encore les tarifs de janvier 2024, piège relevé et évité).
+      // Liaison retenue : CASABLANCA-RABAT, 25 / 36 / 43 MAD en classes 1 / 2 / 3, rapportée aux
+      // 62 km publiés par ADM pour cette section (PK Hay Riad 0+879 -> bifurcation Casablanca
+      // 57+580). C'est la seule liaison de la grille dont le tarif ET la distance officielle portent
+      // exactement sur la même section — les autres demanderaient d'additionner des lignes ou de
+      // supposer un PK de départ. Le chiffre de "86 km" très répandu en ligne pour Casa-Rabat
+      // n'apparaît sur aucune source ADM et n'a pas été utilisé.
+      // -> 0,403 / 0,581 / 0,694 MAD/km, convertis à 10,9367 MAD pour 1 EUR (cours de référence
+      // Bank Al-Maghrib du 15/09/2026). La classe 5 du projet (moto) reprend la classe 1 d'ADM, qui
+      // n'a pas de catégorie moto : une motocyclette entre dans sa classe 1 par définition (deux
+      // essieux, hauteur inférieure à 1,30 m).
+      MA: { 1: 0.037, 2: 0.053, 5: 0.037 },
+      // Tunisie : dérivé du calculateur officiel de la Société Tunisie Autoroutes
+      // (tunisieautoroutes.tn/tarif-peages/, consulté le 16/09/2026), barème du décret du
+      // 15 juillet 2025. Liaison retenue : A1 Sud M'SAKEN -> SFAX-NORD, 2,600 / 4,300 / 6,000 TND en
+      // classes 1 / 2 / 3, rapportée à 97 km calculés sur les PK des barrières publiés par la STA
+      // elle-même (M'saken PK 142, Sidi Salah PK 239). Ce tronçon est en péage FERMÉ, donc réellement
+      // proportionnel à la distance — contrairement à l'A1 Nord, en péage ouvert à barrières
+      // forfaitaires, dont le ratio au kilomètre n'aurait aucun sens pour un trajet partiel. Le site
+      // de la STA se contredit par ailleurs sur cette distance (94 km sur sa page Exploitation,
+      // 98 km sur sa page A1 Sud) : les PK ont été préférés aux deux, comme donnée la plus primaire.
+      // -> 0,0268 / 0,0443 / 0,0619 TND/km, convertis à 3,3730 TND pour 1 EUR (Banque Centrale de
+      // Tunisie, 14/09/2026). Classe 5 (moto) = classe 1 "véhicules légers" de la STA, qui n'a pas
+      // davantage de catégorie moto que le Maroc.
+      TN: { 1: 0.008, 2: 0.013, 5: 0.008 }
     };
 
     var TOLL_MIN_DISTANCE_KM = 60;
@@ -830,6 +911,40 @@
       FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:0.33, distanceKm:5, priceByClass:{1:18, 2:27, 5:9, foot:6} };
     });
 
+    // ── TRAVERSÉES ENTRE ZONES (SEA_CROSSINGS) ────────────────────────────────────────────────
+    // FERRY_ROUTES ci-dessus relie deux MASSES TERRESTRES différentes. Ceuta et Melilla ne rentrent
+    // pas dans ce moule : villes espagnoles bâties sur le CONTINENT AFRICAIN, elles sont séparées de
+    // l'Espagne par la mer ET frontalières du Maroc par la terre. Leur donner une masse terrestre
+    // propre aurait fait disparaître la frontière marocaine ; les laisser "continentales" laissait le
+    // moteur traverser le détroit de Gibraltar par la route — un bug réel, mesuré avant correction :
+    // sur 100 trajets tirés depuis Algésiras, l'un passait par Ceuta sans aucun segment de ferry.
+    // D'où cette seconde table, indexée non par masse terrestre mais par ZONE (voir zoneOf() dans
+    // lib/trip-engine.js et app.js) : elle décrit une traversée obligatoire ENTRE DEUX ZONES d'une
+    // même masse terrestre. Ceuta et Melilla gardent donc leur frontière terrestre avec le Maroc,
+    // tout en n'étant atteignables depuis l'Espagne péninsulaire que par ferry.
+    //
+    // Seules DEUX liaisons y figurent, et ce sont précisément les deux seules de toute la
+    // Méditerranée occidentale dont le tarif PAR VÉHICULE soit publié plutôt que dynamique :
+    // - Algésiras-Ceuta : 1h30 en ferry conventionnel (1h en navire rapide), 31,5 km, 10+ départs
+    //   par jour toute l'année, deux opérateurs solides (Baleària et DFDS). Tarifs publiés par
+    //   Baleària : passager 35 €, voiture 50 €, caravane 99 €.
+    // - Málaga-Melilla : 6h30, 210 km, 6 rotations par semaine toute l'année (ligne d'intérêt
+    //   public). Tarifs MAXIMAUX CONTRACTUELS, garantis jusqu'au 31/12/2027 : fauteuil standard
+    //   50 €, véhicule de tourisme jusqu'à 5,5 × 2,2 × 2 m = 40 €.
+    // LIMITE ASSUMÉE, choix explicite de l'utilisateur : aucun opérateur ne publie de tarif MOTO sur
+    // ces deux lignes, ni de tarif utilitaire sur Melilla (le plafond contractuel ne couvre que le
+    // "véhicule de tourisme"). Ces classes reprennent donc le tarif VOITURE — un choix de
+    // modélisation, pas un tarif réel, et dont l'erreur va toujours vers la surestimation.
+    // Les traversées Espagne-Maroc, France/Italie-Tunisie et Europe-Algérie existent bel et bien mais
+    // ne sont PAS modélisées : toute l'Afrique du Nord partage la masse continentale eurasiatique via
+    // le Sinaï, si bien qu'y ouvrir une liaison maritime rendrait aussi possible un trajet ROUTIER
+    // fictif à travers la Méditerranée. S'y ajoute que ces lignes sont en tarification dynamique,
+    // sans grille par véhicule vérifiable — même motif de non-inclusion que pour Limassol-Le Pirée.
+    var SEA_CROSSINGS = {
+      'ES|ES-CE': { routeKey:'ferry.route.ceuta', durationH:1.5, distanceKm:31.5, priceByClass:{1:50, 2:99, 5:50, foot:35} },
+      'ES|ES-ML': { routeKey:'ferry.route.melilla', durationH:6.5, distanceKm:210, priceByClass:{1:40, 2:40, 5:40, foot:50} }
+    };
+
     var BUDGET_PRICE_MAX = {
       EUR: { economique: 70, moyen: 130, confortable: 260 },
       CHF: { economique: 130, moyen: 250, confortable: 480 },
@@ -981,7 +1096,23 @@
       // sécurité documentée dans COUNTRIES.LY) — estimation TRÈS prudente ~30 €/nuit convertie au
       // taux officiel ~6,8 LYD/EUR retenu (~200 LYD, à distinguer du taux de marché parallèle
       // nettement plus faible, voir COUNTRIES.LY.currency).
-      LYD: { economique: 110, moyen: 200, confortable: 400 }
+      LYD: { economique: 110, moyen: 200, confortable: 400 },
+      // Maroc — la calibration la mieux sourcée de tout ce lot, deux jeux indépendants qui
+      // convergent : étude du ministère du Tourisme citée devant le Parlement (nuitée moyenne de
+      // juillet : 3★ 500 MAD, 4★ 1 000 MAD, 5★ 2 100 MAD) et recette moyenne par chambre louée de
+      // l'Observatoire du Tourisme au T1 2026 (1-3★ 508 MAD, 4★ 894 MAD, luxe 2 365 MAD).
+      MAD: { economique: 500, moyen: 1000, confortable: 2300 },
+      // Algérie — AUCUN prix moyen officiel n'existe publiquement : l'ONS ne publie que nuitées et
+      // capacité, jamais de prix, et les agrégateurs internationaux sont inutilisables ici (ils
+      // donnent 3★ et 4★ au même prix, avec des lignes aberrantes). Calibré sur des sources locales
+      // en dinars, concordantes entre elles mais NON statistiques : 2★ 3 000-4 000 DA, 3★ 5 000-8 000,
+      // 4★ 10 000-15 000, 5★ 18 000-25 000. Fiabilité la plus faible du lot, assumée comme telle.
+      DZD: { economique: 4000, moyen: 8000, confortable: 18000 },
+      // Tunisie — l'INS ne publie qu'une VARIATION (prix des services hôteliers +15,4 % sur un an en
+      // juin 2026), jamais un niveau. Calibré sur un agrégateur commercial (3★ moyenne 294 TND) et
+      // sur des fourchettes saisonnières publiées. À nuancer : le taux d'occupation annuel du pays
+      // est de 35,3 %, signe d'une saisonnalité très marquée qu'une gamme annuelle unique ne rend pas.
+      TND: { economique: 150, moyen: 300, confortable: 600 }
     };
 
   var COUNTRY_LIST = Object.keys(COUNTRIES);
@@ -995,6 +1126,6 @@
     HR_ISLAND_POSTCODES: HR_ISLAND_POSTCODES, HR_POSTCODE_TO_ISLAND: HR_POSTCODE_TO_ISLAND,
     WADDEN_ISLANDS: WADDEN_ISLANDS, SARDINIA_PROVINCES: SARDINIA_PROVINCES, SICILY_PROVINCES: SICILY_PROVINCES,
     GR_POROS_MAINLAND_NAMES: GR_POROS_MAINLAND_NAMES, GR_ISLAND_PATTERNS: GR_ISLAND_PATTERNS,
-    FERRY_ROUTES: FERRY_ROUTES, BUDGET_PRICE_MAX: BUDGET_PRICE_MAX
+    FERRY_ROUTES: FERRY_ROUTES, SEA_CROSSINGS: SEA_CROSSINGS, BUDGET_PRICE_MAX: BUDGET_PRICE_MAX
   };
 });

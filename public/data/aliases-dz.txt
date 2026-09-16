@@ -1,0 +1,672 @@
+ru;Бумердес;Boumerdas
+ar;بومرداس;Boumerdas
+ar;مدينة بومرداس;Boumerdas
+ar;بو مرداس;Boumerdas
+ar;أبو مرداس;Boumerdas
+ar;مدينة أبو مرداس;Boumerdas
+ar;مدينة بو مرداس;Boumerdas
+ber;ⵣⵢⴰⵎⴰ ⵍⵎⴰⵏⵚⵧⵔⵉⵢⴰ;Ziama Mansouria
+ar;زيامة منصورية;Ziama Mansouria
+ar;زيامة المنصورية;Ziama Mansouria
+ar;بلدية زيامة منصورية;Ziama Mansouria
+ar;زيامة;Ziama Mansouria
+ar;منصورية;Ziama Mansouria
+ar;الزغامرة;Zerhamra
+fr;Zeghamra;Zerhamra
+ar;زموري;Zemmouri el Bahri
+ber;ⵜⵉⵣⵉ ⵏ ⴰⵜⵀ ⴰ̆ⵉⵛⴰ;Zemmouri el Bahri
+ar;زلفانة;Zelfana
+ar;برج زلفانة;Zelfana
+ar;زاوية كنتة;Zaouiet Kounta
+ar;زاوية دباغ;Zaouiet ed Debarh
+ru;Зауия-Дебаг;Zaouiet ed Debarh
+ar;وادي الشرفاء;Oued Chorfa
+ar;واد الشرفاء;Oued Chorfa
+ar;قرية السد;Oued Chorfa
+ar;بئر صفصاف;Bir Safsaf
+ar;بير صفصاف;Bir Safsaf
+ar;تسابيت;Tsabit
+ar;الطريفاوي;Trifaoui
+ar;تقرت;Touggourt
+ru;Туггурт;Touggourt
+ar;توقرت;Touggourt
+ar;توجة;Toudja
+ru;Толга;Tolga
+es;Tremecén;Tlemcen
+ar;تلمسان;Tlemcen
+tr;Tilimsan;Tlemcen
+ru;Тлемсен;Tlemcen
+fr;Tizi-Ouzou;Tizi Ouzou
+ar;تيزي وزو;Tizi Ouzou
+pt;Tizi-Ouzou;Tizi Ouzou
+ru;Тизи-Узу;Tizi Ouzou
+es;Tizi Uzú;Tizi Ouzou
+ar;تيت;Tit
+ar;تسمسيلت;Tissemsilt
+ar;تيسمسيلت;Tissemsilt
+ru;Тиссемсилт;Tissemsilt
+ar;تيرمتين;Tirmitine
+ar;ثيرميثين;Tirmitine
+ar;ثيرميثين أوفلا;Tirmitine
+ar;تيبازة;Tipasa
+fr;Tipaza;Tipasa
+ru;Типаза;Tipasa
+ar;تيلولين;Tilouline
+es;Tinduf;Tindouf
+ar;تندوف;Tindouf
+ru;Тиндуф;Tindouf
+ar;تيندوف;Tindouf
+de;Tinduf;Tindouf
+ar;تيمقتن;Timokten
+ru;Тимоктен;Timokten
+ru;Тимимун;Timimoun
+ar;تيميمون;Timimoun
+ar;تميمون;Timimoun
+es;Timimún;Timimoun
+pt;Timimun;Timimoun
+ar;تيمقاد;Timgad
+ru;Тимгад;Timgad
+ar;الحد;el hed
+ar;تيميزارت إلماثن;el hed
+ar;إلماثن;el hed
+ar;تيقزيرت;Tigzirt
+ar;تيفرة;Tifra
+ar;ثيفرا;Tifra
+ar;تيطاوين;Tidmaine
+ar;تيشي;Tichi
+ru;Тиарет;Tiaret
+ar;تيارت;Tiaret
+ar;تارقة;Terga
+ar;تافيرت;Teffert
+de;Tebessa;Tébessa
+ar;تبسة;Tébessa
+pt;Tebessa;Tébessa
+ru;Тебесса;Tébessa
+tr;Tebessa;Tébessa
+ar;تاظروك;Tazrouk
+ar;تازروق;Tazrouk
+ar;تاظروق;Tazrouk
+ar;تازروك;Tazrouk
+ar;تازبنت;Tazbent
+ar;برج تازبنت;Tazbent
+ar;تاسقريوت;Taskriout
+ar;تاسكريوت;Taskriout
+ar;تاصفاوت;Tasfaout
+ar;تاسفاوت;Tasfaout
+ar;تامزوغة;Tamzoura
+ar;تامست;Tamest
+ar;تامنطيت;Tamentit
+ar;تملحت;Tamellaht
+ar;تمالوس;Tamalous
+ar;تالة قالة;Tala Gala
+ar;تاهيفت;Tahîfet
+ar;تاهارت;Tahart
+ar;ثاقما;Tagma
+ar;تاغيث;Taghit
+ar;تاجموت;Tadjmout
+ar;تبلبالة;Tabelbala
+ar;ستورا;Stora
+ar;سوق الاثنين;Souk et Tenine
+ar;سوق الإثنين;Souk et Tenine
+ar;سيدي عبد الرحمن;Sidi Abderrahmane
+ar;سوق أهراس;Souk Ahras
+de;Souq Ahras;Souk Ahras
+ru;Сук-Ахрас;Souk Ahras
+kab;Suq Ahras;Souk Ahras
+es;Suk Aharas;Souk Ahras
+ar;ولاية سعيدة;Skikda
+ar;سكيكدة;Skikda
+ru;Скикда;Skikda
+de;Sukaikida;Skikda
+en;Si-Mustapha;Si Mustapha
+ar;سي مصطفى;Si Mustapha
+kab;Ssi Mesṭafa;Si Mustapha
+ar;سيلت;Silet
+ar;سيدي الصافي;Sidi Safi
+ar;سيدي خالد;Sidi Khâled
+ar;سيدي خالد;Sidi Khaled
+ar;سيدي الدع;Sidi ed Daâ
+ar;سيدي داود;Sidi Daoud
+kab;Sidi Dawed;Sidi Daoud
+de;Sidi bel Abbès;Sidi Bel Abbes
+ar;سيدي بلعباس;Sidi Bel Abbes
+ar;ولاية سيدي بلعباس;Sidi Bel Abbes
+fr;Sidi-Bel-Abbès;Sidi Bel Abbes
+nl;Sidi-bel-Abbès;Sidi Bel Abbes
+ru;Сиди-Бель-Аббес;Sidi Bel Abbes
+kab;Sidi Belɛebbas;Sidi Bel Abbes
+tr;Sidi Belabbas;Sidi Bel Abbes
+ru;Сиди-Аисса;Sidi Aïssa
+ar;سيدي عيش;Sidi Aïch
+ar;سفيزف;Sfizef
+ar;سطيف;Sétif
+ar;ولاية سطيف;Sétif
+pt;Setif;Sétif
+tr;Setif;Sétif
+kab;Ṣṭif;Sétif
+ru;Сетиф;Sétif
+es;Setif;Sétif
+ar;سمعون;Semaoune
+ar;سمعون;Semaoun
+ar;سقانة;Seggana
+ar;برج سقانة;Seggana
+ar;صدوق;Seddouk
+ar;السبع;Sbaa
+ar;سالي;Sali
+ru;Сали;Sali
+ar;صالح باي;Salah Bey
+ar;صالح الباي;Salah Bey
+ar;دزيرة;Salah Bey
+de;Saida;Saïda
+ru;Сайда;Saïda
+it;Saida;Saïda
+ar;سعيدة;Saïda
+pt;Saida;Saïda
+ru;Саида;Saïda
+en;Saida;Saïda
+tr;Saida;Saïda
+es;Saida;Saïda
+ar;الرويبة;Rouiba
+ru;Роуиба;Rouiba
+ar;غنات;Rhnet
+ar;الرمشي;Remchi
+ar;ولاية غليزان;Relizane
+ar;غليزان;Relizane
+ru;Релизан;Relizane
+es;Relizán;Relizane
+ar;الرقيبة;Reguiba
+ar;تل رقان;Reggane-Plateau
+ar;رقان;Reggane
+ru;Рас-эль-Уэд;Râs el Oued
+ar;رأس الوادي;Râs el Oued
+ar;رأس الواد;Râs el Oued
+ar;رشقون;Rachgoun
+fr;Pointe-Pescade;Rais Hamidou
+ar;الرئيس حميدو;Rais Hamidou
+ar;بلدية الرئيس حميدو;Rais Hamidou
+ar;الرايس حميدو;Rais Hamidou
+ar;رايس حميدو;Rais Hamidou
+ar;لا بوانت بسكاد;Rais Hamidou
+ar;بوانت بسكاد;Rais Hamidou
+en;Aïn Zaouia;Aïn Zaouïa
+fr;Aïn Zaouia;Aïn Zaouïa
+ar;عين الزاوية;Aïn Zaouïa
+ar;ميناء بوتي;Petit Port
+ar;أم لعجول;Oum Ladjoul
+ar;أم البواقي;Oum el Bouaghi
+ru;Умм-эль-Бувайи;Oum el Bouaghi
+es;Umm el Bawaqui;Oum el Bouaghi
+pt;Umm al-Bawaqui;Oum el Bouaghi
+ar;أولاد نوال;Ouled Neoual
+ar;أولاد جلال;Ouled Djellal
+ru;Улед-Джеллаль;Ouled Djellal
+es;Oulad Djellal;Ouled Djellal
+ar;أولاد يعيش;Ouled Aiche
+ar;أولاد السعيد;Oulad Saïd
+ar;أولاد معمر;Ouled Maamar
+ar;ولاد معمر;Ouled Maamar
+ar;وادي السمار;Oued Smar
+ar;واد السمار;Oued Smar
+ar;الكليتوس;Oued Smar
+ar;وادي سلي;Oued Sly
+ar;واد سلي;Oued Sly
+ar;مالاكف;Oued Sly
+ar;وادي رهيو;Oued Rhiou
+ar;وادي ارهيو;Oued Rhiou
+ar;وادي غير;Oued Ghir
+ar;وادي الفضة;Oued Fodda
+ar;واد فدة;Oued Fodda
+ar;واد الفضة;Oued Fodda
+ar;وادي فدة;Oued Fodda
+ar;وادي الجمعة;Oued el Djemaa
+ar;وادي العنب;Oued el Aneb
+ar;بلدية وادي العنب;Oued el Aneb
+ar;وادي لعنب;Oued el Aneb
+ru;Торки-ле-Дюк;Oued el Abtal
+ar;عمورة;Amoura
+ar;وادي الشرفاء;Amoura
+ar;دلفوسفيل;Amoura
+ar;وادي العثمانية;Oued Athmenia
+ar;ورقلة;Ouargla
+ru;Уаргла;Ouargla
+es;Uargla;Ouargla
+es;Orán;Oran
+ar;وهران;Oran
+it;Orano;Oran
+pt;Orã;Oran
+ar;ولاية وهران;Oran
+ru;Оран;Oran
+kab;Wehran;Oran
+ar;نقاوس;N’Gaous
+ar;النعامة;Naama
+ru;Наама;Naama
+fr;Naâma;Naama
+ar;المسيلة;M'Sila
+ru;Мсила;M'Sila
+ar;مولاي العربي;Moulay Larbi
+ar;مولاي لعربي;Moulay Larbi
+ru;Мостаганем;Mostaganem
+ar;مستغانم;Mostaganem
+ber;Mustɣanem;Mostaganem
+ar;موڤار;Moggar
+ar;مليانة;Miliana
+ar;ميلة;Mila
+ru;Мила;Mila
+ar;المطارفة;Metarfa
+ru;Мессад;Messaad
+ru;Мерс-эль-Кебир;Mers el Kebir
+ar;بلدية المرسى الكبير;Mers el Kebir
+en;Menaâ;Menaa
+ar;منعة;Menaa
+ar;مقلع;Mekla
+ru;Махдия;Mehdia daira de meghila
+ru;Мефтах;Meftah
+ru;Медея;Médéa
+ar;المدية;Médéa
+kab;Lemdiyyet;Médéa
+ru;Медеа;Médéa
+en;Medea;Médéa
+tr;Medea;Médéa
+es;Medea;Médéa
+de;Medea;Médéa
+pt;Medea;Médéa
+ar;مشتة أولاد حمزة;Mechtat Ouled Hamza
+ar;مشطة استاتير;Mechta Statir
+ar;ذراع قلالوش;Draa Klalouche
+ar;مشتة الركادة;Mechta Reggada
+ar;مشتة الرقادة;Mechta Reggada
+ar;مشتة أولاد الهادف;Mechta Ouled el Hadef
+ar;مازر;Mazzer
+ar;معسكر‎;Mascara
+de;Muaskar;Mascara
+es;Muaskar;Mascara
+ar;معسكر;Mascara
+tr;Muaskar;Mascara
+ru;Маскара;Mascara
+ar;مرسى بن مهيدي;Marsa Ben Mehidi
+ar;ماوسة;Maoussa
+ar;ماوسا;Maoussa
+ru;Мансур;Mansourah
+ru;Мансура;Mansoûra
+ar;امحفوظن;Mahfouda
+ar;مقرة;Magra
+ar;برج مقرة;Magra
+ar;ليزيرق;Lizerg
+ar;ليشطا;Lichta
+ru;Ларба;Larbaâ
+ar;الأخضرية;Lakhdaria
+ar;الأخضريه;Lakhdaria
+ar;لخضرية;Lakhdaria
+ar;الأغواط;Laghouat
+ru;Лагуат;Laghouat
+es;Lagouat;Laghouat
+ar;خراطة;Kherrata
+ar;خنشلة;Khenchela
+ru;Хенчела;Khenchela
+es;Jenchela;Khenchela
+fr;Affreville;Khemis Miliana
+ar;خميس مليانة;Khemis Miliana
+ar;الخميس;Khemis Miliana
+ar;الخميس مليانة;Khemis Miliana
+ar;خلـيل;Khelil
+ar;الكركرة;Kerkera
+ar;قالي;Kali
+ar;كالي;Kali
+ar;جيجل;Jijel
+ru;Джиджель;Jijel
+es;Yiyel;Jijel
+ar;إقلي;Igli
+ar;أدلس;Idelès
+ar;إدلس;Idelès
+ru;Хасси-Мессауд;Hassi Messaoud
+ar;حاسي مسعود;Hassi Messaoud
+ar;حوض الحمراء;Haoud el Hamra
+ru;Хаммамет;Hammamet
+ar;حمام أبو حجر;Hammam Bou Hadjar
+ar;حمام بوحجر;Hammam Bou Hadjar
+ar;حمام بو حجار;Hammam Bou Hadjar
+ar;قرزيم;Guerzim
+ar;قالمة;Guelma
+kab;Galma;Guelma
+ru;Гельма;Guelma
+ar;ڤالمة;Guelma
+ar;ڨورايا;Gouraya
+ber;Gurayene;Gouraya
+ar;قوراية;Gouraya
+de;Ghardaia;Ghardaïa
+ar;غرداية;Ghardaïa
+ar;ولاية غرداية;Ghardaïa
+pt;Ghardaia;Ghardaïa
+kab;Taγerdayt;Ghardaïa
+tr;Gardaya;Ghardaïa
+ru;Гардая;Ghardaïa
+es;Ghardaia;Ghardaïa
+ar;قديل;Gdyel
+ar;سان كلو;Gdyel
+ar;فوكة البحرية;Fouka Marine
+ar;فوكة;Fouka
+ar;فرعون;Feraoun
+ar;فنوغيل;Fenoughil
+ar;فاتيس;Fatis
+ru;Фатис;Fatis
+ar;السانية‎;Es Senia
+de;As-Sāniyya;Es Senia
+ar;النديد;Ennedid
+ar;الطارف;El Tarf
+ru;Эль-Тараф;El Tarf
+ar;اﻟﻮادى;El Oued
+ar;الوادي;El Oued
+ru;Эль-Уэд;El Oued
+ar;الواتة;El Ouata
+ar;العقلة;El Ogla
+ar;المنابهة;El Menabha
+en;El M'Ghair;El Meghaïer
+ar;المغير;El Meghaïer
+ru;Эль-Мегайер;El Meghaïer
+tr;El Meghaier;El Meghaïer
+es;El Meghaier;El Meghaïer
+fr;El Meghaier;El Meghaïer
+de;El Meghaier;El Meghaïer
+pt;El Meghaier;El Meghaïer
+ar;المرسى;El Marsa
+ar;جان بار;El Marsa
+ar;المالح;El Malah
+ar;الماين;El Maïn
+en;El-Kseur;El Kseur
+ar;القصر;El Kseur
+kab;Leqṣer;El Kseur
+ru;Эль-Калы;El Kala
+ar;القالة;El Kala
+ar;الهامل;El Hamel
+ar;الهاشمية;El Hachimia
+ar;باراك;El Hachimia
+ar;لا باراك;El Hachimia
+ar;الفلاي;El Felaye
+ar;لفلاي;El Felaye
+ru;Эль-Эулма;El Eulma
+ar;البور;El Bour
+ru;Эль-Аттафом;El Attaf
+ar;الشلف;Chlef
+de;Ech Cheliff;Chlef
+ru;Шлеф;Chlef
+ar;شلف;Chlef
+de;asch-Schalif;Chlef
+en;ash-Shalif;Chlef
+ar;العامرية;El Amria
+ar;اليشير;El Achir
+ru;Ел Ачир;El Achir
+ru;Дра-эль-Мизан;Draa el Mizan
+ar;بلدية دويرة;Douéra
+kab;Ddwira;Douéra
+ar;أولاد العربي;Ouled Larbi
+ar;دوار أولاد العربي;Ouled Larbi
+ar;دوار قرقور;Douar Guergoûr
+ar;دوار بوريش;Douar Bouriche
+ar;بوريش;Douar Bouriche
+ar;صمجان;Djimjane
+de;Djémila;Djemila
+nl;Djémila;Djemila
+pt;Djémila;Djemila
+it;Djémila;Djemila
+ar;جبل العنق;Djebel Onk
+ar;مركز التعدين جبل العنق;Djebel Onk
+ar;جامعة;Djamaa
+ar;دراق;Derrag
+ar;لوتورنو;Derrag
+ar;دَرّاڤ;Derrag
+ar;دلّس;Dellys
+ar;درقينة;Darguinah
+ar;درغينة;Darguinah
+ar;مركز درقينة;Darguinah
+ru;Дар-эль-Бейда;Dar el Beïda
+ar;الدار البيضاء;Dar el Beïda
+ar;قسنطينة;Constantine
+pt;Constantina;Constantine
+es;Constantina;Constantine
+it;Constantina;Constantine
+ru;Константина;Constantine
+ru;Чорфа;Chorfa
+ar;خميستي;Chifalo
+fr;Tefeschoun;Chifalo
+ar;شرشال;Cherchell
+ru;Шаршал;Cherchell
+kab;Cercal;Cherchell
+tr;Şerşel;Cherchell
+ar;الشبلي;Chebli
+ar;بوسعادة;Bou Saada
+ar;بو سعادة;Bou Saada
+ar;بوسعادة;Bou Saâda
+ar;بو سعادة;Bou Saâda
+ar;بلد السعادة;Bou Saâda
+ar;مدينة العظماء;Bou Saâda
+ar;بوابة الصحراء;Bou Saâda
+ru;Бу-Саада;Bou Saâda
+ar;بونورة;Bou Noura
+ar;بنورة;Bou Noura
+ar;بومقر;Boumagueur
+en;Boukhamouza;Boukamouza
+ru;Бу-Кадир;Boukadir
+ar;بوقادير;Boukadir
+ru;Бу-Исмаил;Bou Ismaïl
+ar;البويرة;Bouïra
+ru;Буира;Bouïra
+tr;Bouira;Bouïra
+es;Bouira;Bouïra
+fr;Bouira;Bouïra
+de;Bouira;Bouïra
+pt;Bouira;Bouïra
+ar;بوحمزة;Bou Hamza
+ar;بو حمزة;Bou Hamza
+ar;أبو حمزة;Bou Hamza
+ar;بودواو;Boudouaou
+ar;برج ولتام;Bordj Oultem
+ar;برج أولتام;Bordj Oultem
+ar;برج الكيفان;Bordj el Kiffan
+ru;Бурдж-эль-Киффан;Bordj el Kiffan
+ar;برج البحري;Bordj el Bahri
+ar;رأس ماتيفو;Bordj el Bahri
+ar;كاب ماتيفو;Bordj el Bahri
+ar;ماتيفو;Bordj el Bahri
+fr;Bordj-Bou-Arreridj;Bordj Bou Arreridj
+ar;برج بوعريريج;Bordj Bou Arreridj
+ru;Бордж-Бу-Арреридж;Bordj Bou Arreridj
+ar;بوغني;Boghni
+ar;البليدة;Blida
+tr;Buleyde;Blida
+ru;Блида;Blida
+ar;بسكرة;Biskra
+ar;ولاية بسكرة;Biskra
+ru;Бискра;Biskra
+kab;Tibeskert;Biskra
+ar;بئر العاتر;Bir el Ater
+ar;بير العاتر;Bir el Ater
+ber;Bat'tiwa;Bettioua
+ber;ⴱⵏⵉ ⵙⴰⴼ;Beni Saf
+ar;بني صاف;Beni Saf
+de;Bani Ṣāf;Beni Saf
+en;Béni Ounif;Beni Ounif
+ar;بني ونيف;Beni Ounif
+kab;At Winifen;Beni Ounif
+ar;بني ملوك;Beni Melouk
+ar;آث أملوك;Beni Melouk
+ar;بني مهلال;Beni Mehlal
+ar;آث مهلال;Beni Mehlal
+ar;بني يزقن;Beni Isguen
+ar;قصر بني يزجن;Beni Isguen
+ar;أت يزجن;Beni Isguen
+ar;آت إيزجن;Beni Isguen
+ar;بني يزجن;Beni Isguen
+en;Béni Ikhlef;Beni Ikhlef
+ar;بني يخلف;Beni Ikhlef
+kab;At Ixlef;Beni Ikhlef
+ar;بنى حواء;Beni Haoua
+ar;آيت عريف;Aït Arif
+ber;ⴰⵢⵜ ⵄⵔⵉⴼ;Aït Arif
+ar;بني عريف;Aït Arif
+ar;آيث عريف;Aït Arif
+ar;بني عمران;Beni Amrane
+kab;At Ɛemran;Beni Amrane
+pt;Ait Bélaid;Beni Amrane
+ar;بني عباس;Béni Abbès
+en;Beni Abbes;Béni Abbès
+ru;Бени-Аббес;Béni Abbès
+tr;Beni Abbes;Béni Abbès
+es;Beni Abbes;Béni Abbès
+fr;Beni Abbès;Béni Abbès
+de;Beni Abbes;Béni Abbès
+pt;Beni Abbes;Béni Abbès
+fr;Bougie;Béjaïa
+de;Bejaia;Béjaïa
+ar;بجاية;Béjaïa
+it;Bijaya;Béjaïa
+pt;Bugia;Béjaïa
+es;Bugía;Béjaïa
+ru;Беджая;Béjaïa
+de;Bidschāya;Béjaïa
+en;Bijāya;Béjaïa
+tr;Bejaia;Béjaïa
+de;Bechar;Béchar
+ar;بشار;Béchar
+ru;Бешаре;Béchar
+ru;Бешар;Béchar
+tr;Bechar;Béchar
+pt;Bechar;Béchar
+en;Batna City;Batna
+ar;باتنة;Batna
+ar;ولاية باتنة;Batna
+ru;Батна;Batna
+kab;Tbatent;Batna
+ru;Барика;Barika
+ar;بريكة;Barika
+ar;برباشة;Barbacha
+ar;مرباشة مرباشة;Barbacha
+ar;سوق الثلاثاء;Barbacha
+ar;براقي;Baraki
+ru;Бараки;Baraki
+ar;باب الزوار;Bab Ezzouar
+ru;Баб Еззоуар;Bab Ezzouar
+ar;عزابة;Azzaba
+ru;Аззаба;Azzaba
+ar;أزفون;Azeffoun
+kab;Aẓeffun;Azeffoun
+ru;Азазга;Azazga
+ar;أرزيو;Arzew
+ar;أولف;Aoulef
+ar;أولف العرب;Aoulef
+ar;آولف;Aoulef
+ru;Аугрут;Aougrout
+ar;أوقروت;Aougrout
+ar;أوقاس;Aokas
+ar;رأس أوقاس;Aokas
+ar;اوقاس;Aokas
+ar;وادي المرسى;Aokas
+ar;عنابة;Annaba
+ru;Аннаба;Annaba
+ber;Aânavaen;Annaba
+ar;أميزور;Amizour
+ar;كلمار;Amizour
+ar;كولمار;Amizour
+ar;وادي أميزور;Amizour
+ar;امحفوظن;Amalou
+ar;أمالو;Amalou
+ar;أملو;Amalou
+ar;شاطئ الجزائر;Alger Plage
+es;Argel;Alger
+de;Algier;Alger
+en;Algiers;Alger
+ar;الجزائر;Alger
+it;Algeri;Alger
+nl;Algiers;Alger
+pt;Argel;Alger
+ru;Алжир;Alger
+kab;Zzayer;Alger
+tr;Cezayir;Alger
+ar;الجزائر العاصمة;Alger
+ar;الجزائر (مدينة);Alger
+ar;مدينة الجزائر;Alger
+ar;أقبو;Akbou
+kab;Aqbu;Akbou
+ar;أقبلي;Akabli
+ru;Акабли;Akabli
+ar;آيت إسماعيل;Aït Smaïl
+ar;آيت سماعيل;Aït Smaïl
+ar;ايت اسماعيل;Aït Smaïl
+ar;آث سماعيل;Aït Smaïl
+en;Ait Toudert;Aït Ouhalane
+ar;عين زيا;’Aïn Zia
+ar;عين تموشنت;Aïn Temouchent
+en;Ain Temouchent;Aïn Temouchent
+ru;Эйн-Темушент;Aïn Temouchent
+tr;Ain Temouchent;Aïn Temouchent
+es;Ain Temouchent;Aïn Temouchent
+fr;Aïn Témouchent;Aïn Temouchent
+de;Ain Temouchent;Aïn Temouchent
+pt;Ain Temouchent;Aïn Temouchent
+ar;عين طاية;Aïn Taya
+ar;عين سمارة;Aïn Smara
+ar;عين وسارة;Aïn Oussera
+ar;دائرة عين مران;’Aïn Merane
+ru;Айн-эль-Терк;’Aïn el Turk
+ar;عين الترك;’Aïn el Turk
+ru;Айн-эль-Мельх;’Aïn el Melh
+ru;Айн-эль-Хаммам;’Aïn el Hammam
+ru;Айн-эль-Белла;’Aïn el Bell
+ru;Айн-эль-Арбаа;Aïn el Arbaa
+ar;عين الدفلى‎;Aïn Defla
+ar;عين الدفلى;Aïn Defla
+ar;عين الدفلة;Aïn Defla
+en;Ain Defla;Aïn Defla
+ru;Эйн-Дефла;Aïn Defla
+tr;Ain Defla;Aïn Defla
+es;Ain Defla;Aïn Defla
+de;Ain Defla;Aïn Defla
+pt;Ain Defla;Aïn Defla
+ar;عين بوسيف;’Aïn Boucif
+ar;عين بسام;Aïn Bessem
+fr;Guyoville;’Aïn Benian
+ru;Айн-Бейда;Aïn Beïda
+ar;عين بربر;’Aïn Barbâr
+ru;Айн-Азель;’Aïn Azel
+ar;عين أرنات;Aïn Arnat
+ar;عين العلام;Aïn Allem
+ar;أقمون;Aguemoun
+ar;أڤمون;Aguemoun
+ru;Адрар;Adrar
+ar;أدرار;Adrar
+ar;دائرة أبو الحسن;Abou el Hassan
+ru;Абадла;Abadla
+ar;قجال;Guidjal
+ar;غويجل;Guidjal
+ar;بحيرة الطيور;Lac des Oiseaux
+ar;أولاد سيدي العربي;Ouled Sidi Larbi
+ar;تابوزة;Tabouzza
+ar;دوار أولاد العربي;Douar Ouled Larbi
+ar;دوار أولاد محمد;Douar Ouled Larbi
+ar;بني درقن;Beni Dergoun
+ar;بلدية بني درقن;Beni Dergoun
+ar;بابور;Babor
+ar;بلدية بابور;Babor
+ar;عين صالح;In Salah
+kab;In Ṣaleḥ;In Salah
+ru;Айн-Салах;In Salah
+ar;إن صالح;In Salah
+ar;الصفصاف;Safsaf
+ar;أولاد نوال;Ouled N’Oual
+ar;وادي حربيل;Wādī Ḥarbīl
+de;Wadi Harbil;Wādī Ḥarbīl
+en;Wadi Harbil;Wādī Ḥarbīl
+ar;دوار غريب;Douar Ghrib
+ar;دوار عين قرقور;Douar Ain Guergour
+ar;أولاد العربي;Ouled L’Arbi
+ar;وادي الجمعة;Oued Djemaa
+ar;أبو روبة;Bourouba
+ar;بوروبة;Bourouba
+ar;وادي قريش;Oued Koriche
+ar;واد قريش;Oued Koriche
+ar;بلدية وادي قريش;Oued Koriche
+ar;بلدية واد قريش;Oued Koriche
+ar;الزاوية;Zaouia
+ar;دلدول;Deldoul
+ar;طالمين;Talmine
+ar;بئر لبيض;Bir Labied
+en;Bir Labiadh;Bir Labied

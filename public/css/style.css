@@ -930,3 +930,28 @@
 }
 .load-error.show{display:block;}
 .dash input:disabled{opacity:.55; cursor:progress;}
+
+/* ─────────────────────────────────────────────────────────────────────────────────────────────
+   Police tifinagh — amazighe standard marocain (zgh)
+   Première police embarquée de ce projet. Le tifinagh (U+2D30–U+2D7F) est la graphie OFFICIELLE de
+   l'amazighe au Maroc, fixée par décision royale du 10 février 2003, mais quasiment aucun système
+   d'exploitation ne la fournit : sans cette police, toute l'interface en amazighe s'afficherait en
+   carrés vides. Noto Sans Tifinagh, licence SIL Open Font License 1.1, hébergée localement comme
+   Leaflet et les drapeaux — jamais chargée depuis un service tiers (voir la politique de
+   confidentialité, qui garantit qu'aucune requête ne part vers un tiers sans action du visiteur).
+   Le fichier ne pèse que ~39 ko, et `unicode-range` fait que le navigateur ne le télécharge que
+   s'il a réellement des caractères tifinagh à rendre. L'attribut lang="zgh" est posé par i18n.js.
+   ───────────────────────────────────────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: "Noto Sans Tifinagh";
+  src: url("../fonts/NotoSansTifinagh-Regular.ttf") format("truetype");
+  font-display: swap;
+  unicode-range: U+2D30-2D7F;
+}
+html[lang="zgh"] body,
+html[lang="zgh"] input,
+html[lang="zgh"] button,
+html[lang="zgh"] select,
+html[lang="zgh"] textarea {
+  font-family: "Noto Sans Tifinagh", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}

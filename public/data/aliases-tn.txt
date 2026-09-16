@@ -1,0 +1,279 @@
+ru;Матмата;Matmata
+ar;مطماطة;Matmata
+ber;At Wizru;Zeraoua
+ru;Зана;Zahānah
+ar;زغوان;Zaghouan
+kab;Zaɣwan;Zaghouan
+tr;Zağvan;Zaghouan
+ru;Загуан;Zaghouan
+ar;زعفران;Zaafrane
+ar;وادي مليز;Wadi Maliz
+es;Tunez;Tunis
+es;Túnez;Tunis
+ar;تونس;Tunis
+it;Tunisi;Tunis
+pt;Tunes;Tunis
+ru;Тунис;Tunis
+kab;Tunes tamaneɣt;Tunis
+tr;Tunus;Tunis
+ar;توجان;Toudjane
+ar;تلابت;Thelepte
+ar;تشين;Techine
+ru;Тозер;Tozeur
+ar;توزر;Tozeur
+tr;Tuzer;Tozeur
+ru;Таузар;Tozeur
+kab;Tuzer;Tozeur
+ar;تطاوين;Tataouine
+tr;Tatavin;Tataouine
+ru;Татавин;Tataouine
+ar;تستور;Testour
+ber;At Wawawi Jut;Taoujout
+en;Tamerza;Tamaghzah
+ru;Тамерза;Tamaghzah
+ar;تمغزة;Tamaghzah
+ar;تكرونة;Takrouna
+ar;تبرسق;Tabursuq
+ar;طبربة;Tebourba
+ar;ريج;Teboulba
+ar;طبلبة;Teboulba
+ar;طبرقة;Tabarka
+ru;Табарка;Tabarka
+ar;سوسة;Sousse
+it;Susa;Sousse
+ru;Сусс;Sousse
+ru;Сус;Sousse
+es;Susa;Sousse
+ar;سكرة;Sukrah
+ru;Ла Соукра;Sukrah
+fr;Sbeïtla;Sbeitla
+ar;سبيطلة;Sbeitla
+kab;Sbaytla;Sbeitla
+ru;Сбейтла;Sbeitla
+ar;سيدي داود;Sidi Daoud
+ru;Сиди-Бу-Зид;Sidi Bouzid
+ar;سيدي بوزيد;Sidi Bouzid
+tr;Sidi Bu Zeyd;Sidi Bouzid
+ru;Сиди-Бузид;Sidi Bouzid
+ru;Сиди эль Эни;Sidi el Hani
+ar;سيدي الهاني;Sidi el Hani
+ru;Сиди Бу Саид;Sidi Bou Said
+en;Sidi Bou Saïd;Sidi Bou Said
+ar;سيدي بو سعيد;Sidi Bou Said
+es;Chebica;Chebika
+ru;Чебика;Chebika
+ar;الشبيكة;Chebika
+ru;Сакиет ез Зит;Sakiet ez Zit
+ru;Сакиет Ед Даиер;Sakiet ed Daier
+ar;سلقطة;Salakta
+ar;سجنان;Sejenane
+ar;صفاقس;Sfax
+ru;Сфвкс;Sfax
+tr;Safakes;Sfax
+ru;Сфакс;Sfax
+kab;Ṣfaqes;Sfax
+ar;رادس;Radès
+kab;Rades;Radès
+tr;Rades;Radès
+ru;Радес;Radès
+ar;قصور الساف;Ksour Essaf
+ar;قصيبة المديوني;Ksibet el Mediouni
+ru;Корбус;Korbous
+ar;قُرْبُص;Korbous
+ru;Корба;Korba
+en;Kelibia;Kélibia
+pt;Kelibia;Kélibia
+ru;Келибия;Kélibia
+ar;قليبية;Kélibia
+ar;قبلي;Kebili
+ru;Кебили;Kebili
+fr;Kébili;Kebili
+en;Ksar Ghilane;Ksar Rhilane
+pt;Ksar Guilane;Ksar Rhilane
+ru;Карфаген;Carthage
+ar;الفحص;El Fahs
+en;Gammarth;Qamarţ
+pt;Gammarth;Qamarţ
+ru;Калат-аль-Андалус;Galaat el Andeless
+ar;قعفور;Gafour
+ru;Гафса;Gafsa
+ar;ڤفصة;Gafsa
+ar;قفصة;Gafsa
+ar;ولاية قابس;Gabès
+es;Gabes;Gabès
+ar;قابس;Gabès
+ru;Габес;Gabès
+ar;ڤابس;Gabès
+tr;Gabes;Gabès
+pt;Gabés;Gabès
+ar;نبر;Nibbar
+ru;Нефта;Nefta
+ru;Набул;Nabeul
+ar;نابل;Nabeul
+ru;Мидун;Midoun
+fr;M'saken;Msaken
+en;Masakin;Msaken
+ar;مساكن;Msaken
+ru;Мсакен;Msaken
+ar;مارث;Mareth
+ar;منزل جميل;Menzel Jemil
+ar;منزل بورقيبة;Menzel Bourguiba
+ar;منزل عبد الرحمان;Menzel Abderhaman
+ar;منوبة;Manouba
+tr;Manuba;Manouba
+ru;Мануба;Manouba
+ar;ملولش‎;Melloulèche
+ar;مكثر;Maktar
+ar;مدنين;Medenine
+it;Medenina;Medenine
+kab;Mednin;Medenine
+tr;Medenin;Medenine
+ru;Меденин;Medenine
+fr;Médenine;Medenine
+ar;كسرى;Kesra
+ar;القلعة الخصباء;Kalaat Khasba
+ru;Джендуба;Jendouba
+ar;جندوبة;Jendouba
+ar;جرجيس;Zarzis
+kab;Zerzis;Zarzis
+ru;Зарзис;Zarzis
+ru;Джемна;Jemna
+ru;Джамаль;Djemmal
+ar;جمال;Djemmal
+ar;هيبون;Hiboun
+ar;حومة السوق;Houmt Souk
+ru;Хумт-Сук;Houmt Souk
+en;Houmt El Souk;Houmt Souk
+en;Djerba;Houmt Souk
+pt;Hergla;Harqalah
+en;Hergla;Harqalah
+ar;هرقلة;Harqalah
+ar;هنشير السويطير;Hennchir Souatir
+ru;Хаммам Сус;Hammam Sousse
+ru;Хаммам-Лиф;Hammam-Lif
+ar;حمام الأنف;Hammam-Lif
+it;Goletta;La Goulette
+it;La Goletta;La Goulette
+es;La Goleta;La Goulette
+ar;حلق الوادي;La Goulette
+ru;Хальк-эль-Уэд;La Goulette
+it;Haidra;Haïdra
+ar;حيدرة;Haïdra
+ar;غليسية;Ghelissia
+ar;غليسية;Ghlissia
+ru;Гар-эль-Мела;Rhar el Melah
+ar;رأس زبيب;Rhar el Melah
+ar;غارالملح;Rhar el Melah
+ar;غار الدماء;Ghardimaou
+ar;غنوش;Rhennouch
+ar;فريانة;Feriana
+ru;Дуз;Douz
+ar;دار صالح باي;Dar Salah Bey
+ar;الدهماني;Dahmani
+ar;بوسالم;Bou Salem
+ar;بئر مشارڨة;Bir M’cherga
+ar;بنڤردان;Ben Gardane
+fr;Benguerdene;Ben Gardane
+ar;بن عروس;Ben Arous
+tr;Ben Arus;Ben Arous
+ru;Бен-Арус;Ben Arous
+it;Il Bardo;Le Bardo
+ar;باردو;Le Bardo
+ru;Бардо;Le Bardo
+en;Bizerta;Bizerte
+de;Bizerta;Bizerte
+es;Bizerta;Bizerte
+ar;بنزرت;Bizerte
+it;Biserta;Bizerte
+ru;Бизерта;Bizerte
+ar;بنزرت,;Bizerte
+fr;Bizert;Bizerte
+pt;Bizerta;Bizerte
+ar;بني زلطن;Beni Zelten
+ar;بني خداش;Beni Kheddache
+ru;Беджа;Béja
+de;Beja;Béja
+ar;باجة;Béja
+tr;Bace;Béja
+en;Beja;Béja
+es;Beja;Béja
+pt;Beja;Béja
+ar;ببوش;Babouch
+ar;الزرات;Zarat
+fr;Zéramdine;Zeramedine
+ar;زرمدين;Zeramedine
+ar;عين دراهم;Aïne Draham
+ru;Шхира;Skhira
+ar;الصخيرة;Skhira
+ru;Сиди Хусайн;Sīdī Ḥusayn
+fr;Sayada;Seïada
+ar;صيادة;Seïada
+ar;السند;As Sanad
+ar;أريانة‎;Aryanah
+ar;أريانة;Aryanah
+tr;Aryana;Aryanah
+ru;Арьяна;Aryanah
+ar;اريانة;Aryanah
+fr;Ariana;Aryanah
+de;Ariana;Aryanah
+pt;Ariana;Aryanah
+ar;الرّدَيِّف;Ar Rudayyif
+en;Redeyef;Ar Rudayyif
+fr;Enfida;Enfidha
+ar;النفيضة;Enfidha
+ar;دار البي;Enfidha
+ar;القصور;El Ksour
+de;Qairawān;Kairouan
+ar;القيروان;Kairouan
+it;Qayrawan;Kairouan
+pt;Cairuão;Kairouan
+ru;Кайруан;Kairouan
+tr;Kayravan;Kairouan
+es;Kairuán;Kairouan
+kab;Qayrawan;Kairouan
+ru;Кассерин;Kasserine
+ar;القصرين;Kasserine
+tr;Kassarin;Kasserine
+ar;القنطرة;El Qantara
+ar;المنستير;Monastir
+ar;منستير;Monastir
+ru;Монастир;Monastir
+tr;Munastır;Monastir
+kab;Munastir;Monastir
+ar;متلوي;Metlaoui
+ru;Метлин;Al Matlīn
+ar;المحرس;Mahires
+ar;المهدية;Mahdia
+tr;Mehdiye;Mahdia
+ru;Махдия;Mahdia
+ar;اللوزة;Louza
+ru;Эль-Кеф;El Kef
+ar;الكاف;El Kef
+fr;Le Kef;El Kef
+ar;آل جرف;El Marsa
+ru;Эль Джем;El Jem
+ru;Эль-Хауария;El Haouaria
+ar;الحمامات;Hammamet
+ru;Хаммамет;Hammamet
+ru;Эль-Хамма;El Hamma
+ar;الحامة;El Hamma
+ar;الغريبة‬;Ghraiba
+ar;فرنانة;Fernana
+ar;الفرنانة;Fernana
+ar;البقالطة;Bekalta
+ru;Эль-Алия;El Alia
+ar;أجيم;Ajim
+ar;قمرت;Gamart
+ar;مرسى القنطاوي;Port el Kantaoui
+de;Port El-Kantaoui;Port el Kantaoui
+ru;Порт Эль-Кантауи;Port el Kantaoui
+fr;Port El-Kantaoui;Port el Kantaoui
+tr;Marsa El-Kantavi;Port el Kantaoui
+nl;Kerkuane;Kerkouane
+ar;كركوان;Kerkouane
+pt;Cidade Púnica de Kerkuane e sua Necrópole;Kerkouane
+ru;Керкуан;Kerkouane
+en;Kerkuane;Kerkouane
+ru;Ел Моуроуй;El Mourouj
+ar;حمام بورقيبة;Hammam Bourguiba
+ar;الزراوة;At Wizru

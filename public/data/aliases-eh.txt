@@ -1,0 +1,58 @@
+ar;تفاريتي;Tifariti
+ar;تيفاريتي;Tifariti
+ru;Тифарити;Tifariti
+es;Playa del Aaiun;El Marsa
+es;Playa de Aaiún;El Marsa
+es;Playa del Aaiún;El Marsa
+ar;المرسى;El Marsa
+ar;المحبس;Al Mahbas
+ar;لمسيد;Lemsid
+es;Aaiún;Laâyoune
+es;El Aaiún;Laâyoune
+ar;العيون;Laâyoune
+de;El Aaiún;Laâyoune
+en;El Aaiún;Laâyoune
+it;El Aaiún;Laâyoune
+nl;Al-Ajoen;Laâyoune
+ru;Эль-Аюн;Laâyoune
+it;El Ayun;Laâyoune
+pt;El Aaiún;Laâyoune
+en;Laayoune;Laâyoune
+es;Cabo Bojador;Boujdour
+ar;بوجدور;Boujdour
+ber;ⴱⵓⵊⴷⵓⵔ;Boujdour
+ar;بئر كندوز;Bir Ganduz
+fr;Bir Gandouz;Bir Ganduz
+ar;أغوانيت;Aghwinit
+es;Villa Cisneros;Dakhla
+ru;Дахла;Dakhla
+ar;الداخلة;Dakhla
+es;Dajla;Dakhla
+ar;مجيك‎;Mijek
+ar;فم الواد;Foum el Oued
+ar;دورة;Daoura
+ar;بئر الحلو;Bir Lehlou
+ar;أمگالة;Amgala
+ber;ⴰⵎⴳⴰⵍⴰ;Amgala
+ar;سيدي أحمد العروسي;Sidi Ahmed Laaroussi
+es;Sidi Ahmed Laarosi;Sidi Ahmed Laaroussi
+ar;الكركرات;Guerguerat
+es;Hagunia;El Hagounia
+ar;الحكونية;El Hagounia
+es;Aufist;Aftissat
+ar;أفتيسات;Aftissat
+es;Hasi Hatas;Agti el Ghazi
+ar;أغتي الغازي;Agti el Ghazi
+ar;حوزة;Haouza
+ar;بير تيغیسیت;Bir Tiguisit
+es;Duguech;Dougaj
+ar;دوكاج;Dougaj
+ber;ⴷⵓⴳⴰⵊ;Dougaj
+ar;الفرسية;Farsia
+es;El Farsia;Farsia
+fr;Mehaires;Meharrize
+ar;محيرس;Meharrize
+ar;أم ادريكة‎;Oum Dreyga
+ber;ⵓⵎ ⴷⵔⵉⴳⴰ;Oum Dreyga
+es;Um Dreiga;Oum Dreyga
+ar;الجريفية;Jraifia

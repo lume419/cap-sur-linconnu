@@ -20,6 +20,11 @@ scripts/gr-postal-raw.csv
 scripts/gr-canonical-by-geonameid.json
 scripts/ge-postal-raw.json
 scripts/ge-canonical-by-geonameid.json
+# Lot Maghreb : codes postaux tunisiens (jeu tiers sans licence, voir build-maghreb-communes.js) et
+# table GeoNames des noms de divisions administratives, utilisée pour contrôler la wilaya des points
+# postaux algériens. Sources brutes régénérables en refaisant la collecte documentée dans le script.
+scripts/tn-postal-raw.json
+scripts/admin1CodesASCII.txt
 # Bundles précompilés (texte + gzip + brotli) produits par scripts/build-data-bundles.js — voir
 # son commentaire d'en-tête et server.js ("Bundles /data/") : régénérés automatiquement à chaque
 # déploiement (postinstall dans package.json), jamais commités, comme les dumps GeoNames ci-dessus.

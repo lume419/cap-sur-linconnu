@@ -1,0 +1,338 @@
+ar;السمارة;Smara
+ru;Смара;Smara
+es;Esmara;Smara
+ar;أم ادريكة;Oum Dreyga
+ar;أوسرد;Aousserd
+ar;آوسرد;Aousserd
+ar;الوسرد;Aousserd
+fr;Sti Fadma;Setti Fatma
+ru;Сти-Фадма;Setti Fatma
+ru;Завийя аш Шейх;Zawyat ech Cheïkh
+zgh;ⵣⴰⵢⵢⵓ;Zaïo
+ru;Загора;Zagora
+en;Touissit;Touissite
+it;Touissit;Touissite
+fr;Touissit;Touissite
+ar;تويسيت;Touissite
+nl;Touissit;Touissite
+zgh;ⵜⵓⵢⵙⵉⵜ;Touissite
+ru;Тоуисит;Touissite
+ar;توكانة;Touggana
+ru;Тизнит;Tiznit
+ar;تزنيت;Tiznit
+de;Tinerhir;Tinghir
+es;Tetuán;Tétouan
+ar;تطوان;Tétouan
+tr;Tetuan;Tétouan
+pt;Tetuão;Tétouan
+ru;Тетуан;Tétouan
+ru;Темара;Temara
+ar;تكراكرى;Tegrega
+ru;Таза;Taza
+ar;تازة;Taza
+ru;Тарудант;Taroudant
+de;Taroudannt;Taroudant
+ar;تارودانت;Taroudant
+pt;Tarudante;Taroudant
+ru;Таргвист;Targuist
+ar;طرفاية;Tarfaya
+ru;Тарфая;Tarfaya
+ru;Таурирт;Taourirt
+ru;Таунат;Taounate
+ar;طانطان;Tan-Tan
+ru;Тан-Тан;Tan-Tan
+es;Tánger;Tanger
+en;Tangier;Tanger
+ar;طنجة;Tanger
+pt;Tânger;Tanger
+ru;Танжер;Tanger
+it;Tangeri;Tanger
+tr;Tanca;Tanger
+en;Tamsahelte;Tamsahelt
+ar;تامصلوحت;Tameslouht
+en;Tahnaout;Tahannout
+de;Tahannaout;Tahannout
+zgh;ⵙⴽⵓⵔⴰ ⵎⴷⴰⵣ;Skoura
+ru;Сиди-Слимане;Sidi Slimane
+ar;سدي قاسم;Sidi Kacem
+fr;Ifni;Sidi Ifni
+ar;سيدي إفني;Sidi Ifni
+ru;Сиди Ифни;Sidi Ifni
+ru;Сиди-Ифни;Sidi Ifni
+ar;سطات;Settat
+ru;Сеттат;Settat
+kab;Aẓeṭṭaḍ;Settat
+zgh;ⴱⵍⵡⴰⵏ;Selouane
+zgh;ⴰⵣⵖⴰⵏⵖⴰⵏ;Zeghanghane
+ar;سلا;Salé
+ru;Сале;Salé
+de;Agadir;Salasi
+ru;Саидия;Saidia
+zgh;ⵙⴰⵢⴷⵉⴰ;Saidia
+ar;آسفي;Safi
+pt;Safim;Safi
+es;Safí;Safi
+ru;Сафи;Safi
+ber;ⴰⵙⴼⵉ;Safi
+ru;Рисани;Reçani
+ar;الرقادة;Reggada
+ar;الركادة;Reggada
+ar;الرگادة;Reggada
+zgh;ⵉⵅⴼ ⵏ ⵡⴰⵎⴰⵏ;Ras Kebdana
+ar;رباط;Rabat
+ru;Рабат;Rabat
+ar;الرباط;Rabat
+kab;Rbaṭ;Rabat
+fr;Oulmès;Oulmes
+ru;Ульмес;Oulmes
+ar;ولماس;Oulmes
+ar;أولماس;Oulmes
+ru;Улад Тайиб;Oulad Tayeb
+ar;دوار أولاد نوال;Douar Oulad Nouil
+ar;أولاد نوال;Douar Oulad Nouil
+fr;Oukaïmden;Oukaïmedene
+ru;Укаймден;Oukaïmedene
+ar;وجدة;Oujda
+ru;Уджда;Oujda
+kab;Wejda;Oujda
+tr;Ucda;Oujda
+ar;وجدة-أنكاد;Oujda
+ar;وجدة-أنجاد;Oujda
+zgh;ⵡⴰⵊⴷⴰ;Oujda
+zgh;ⵜⵉⵓⵊⴷ;Oujda
+pt;Ujda;Oujda
+ar;وادي زم;Oued Zem
+ar;واد زم;Oued Zem
+ru;Уэд-Зем;Oued Zem
+ar;وادي لو;Oued Laou
+ar;ورززات;Ouarzazate
+ru;Варзазат;Ouarzazate
+ar;واويزغت;Wawizaght
+en;Ouaouizert;Wawizaght
+nl;Ouaouizert;Wawizaght
+ru;Уалидия;Oualidia
+ar;الناظور;Nador
+ru;Надор;Nador
+kab;Nnaḍur;Nador
+zgh;ⵏⴰⴹⵓⵕ;Nador
+ru;Мохаммедия;Mohammedia
+ar;الهراويين;Mohammedia
+fr;Mohammédia;Mohammedia
+ar;المحمدية;Mohammedia
+tr;Muhammediye;Mohammedia
+ru;Мидар;Midar
+ru;Мерзуга;Marzouga
+de;Merzouga;Marzouga
+pt;Merzouga;Marzouga
+en;Merzouga;Marzouga
+it;Merzouga;Marzouga
+fr;Merzouga;Marzouga
+es;Merzouga;Marzouga
+ar;مرزوكة;Marzouga
+nl;Merzouga;Marzouga
+en;Meknes;Meknès
+ar;مكناس;Meknès
+it;Meknes;Meknès
+nl;Meknes;Meknès
+ru;Мекнес;Meknès
+ber;ⴰⵎⴽⵏⴰⵙ;Meknès
+ru;Мдик;Mdiq
+de;Marrakesch;Marrakech
+ar;مراكش;Marrakech
+nl;Marrakesh;Marrakech
+ru;Марракеш;Marrakech
+pt;Marraquexe;Marrakech
+en;Marrakesh;Marrakech
+ber;ⴰⵎⵓⵔⴰⴽⵓⵛ;Marrakech
+tr;Marakeş;Marrakech
+zgh;ⵎⴰⴷⴰⵖ;Madagh
+ru;Ифран;Ifrane
+ar;العرائش;Larache
+pt;Laraxe;Larache
+ru;Лараша;Larache
+ru;Лараш;Larache
+de;Lalla Takerkoust;Lake Lalla Takerkoust
+it;Lalla Takerkoust;Lake Lalla Takerkoust
+fr;Lalla Takerkoust;Lake Lalla Takerkoust
+ar;للا تكركوست;Lake Lalla Takerkoust
+nl;Lalla Takerkoust;Lake Lalla Takerkoust
+ru;Эль-Ксар-эль-Кебир;Ksar El Kebir
+ar;خريبكة;Khouribga
+ru;Хурибга;Khouribga
+de;Khénifra;Khenifra
+es;Jenifra;Khenifra
+fr;Khénifra;Khenifra
+nl;Khénifra;Khenifra
+ar;خنيفرة;Khenifra
+ru;Хенифра;Khenifra
+kab;Xnifra;Khenifra
+en;Khamlia;Khamliya
+ar;خميس الساحل;Khemis Sahel
+fr;Khémis Sahel;Khemis Sahel
+es;Jemis del Sahel;Khemis Sahel
+de;Kenitra;Kénitra
+en;Kenitra;Kénitra
+es;Kenitra;Kénitra
+nl;Kenitra;Kénitra
+ar;القنيطرة;Kénitra
+ru;Кенитра;Kénitra
+tr;Kenitre;Kénitra
+zgh;ⵇⵕⵢⵜ ⴰⵕⴽⵎⴰⵏ;Kariat Arkmane
+ru;Джерада;Jerada
+zgh;ⵊⴻⵔⴰⴷⴰ;Jerada
+de;Joujouka;Jajouka
+ru;Инезган;Inezgane
+ar;إفران;Ifrane
+kab;Ifran;Ifrane
+ru;Ифран;Zawyat Ifrane
+ar;كلميم;Guelmim
+ru;Гулимин;Guelmim
+ar;ڭلميم;Guelmim
+de;Kulmīm;Guelmim
+ar;كلميمة;Goulmima
+ar;فم زكيد;Foum Zguid
+ru;Фнидек;Fnidek
+ru;Ал Фких Бен Калах;Al Fqih Ben Çalah
+ar;مركز فكيك;Figuig
+es;Fez;Fès
+en;Fes;Fès
+ar;فاس;Fès
+it;Fez;Fès
+nl;Fez;Fès
+pt;Fez;Fès
+ru;Фес;Fès
+tr;Fes;Fès
+fr;Fez;Fès
+es;Esauira;Essaouira
+ar;الصويرة;Essaouira
+ru;Эс-Сувейра;Essaouira
+ru;Эссуэйра;Essaouira
+kab;Amegdul;Essaouira
+tr;Suvayr;Essaouira
+de;as-Ṣawīra;Essaouira
+ru;Эрфуд;Arfoud
+de;Erfoud;Arfoud
+ru;Ел Келаа Дес Срархна;El Kelaa des Srarhna
+ru;Келаат Мгуна;Kelaat Mgouna
+pt;Mazagão;El Jadida
+ar;الجديدة;El Jadida
+ru;Эль-Джадида;El Jadida
+es;El-Yadida;El Jadida
+zgh;ⵍⵄⵢⵓⵏ;El Aïoun
+zgh;ⵍⵄⵢⵓⵏ ⵙⵉⴷⵉ ⵎⵍⵍⵓⴽ;El Aïoun
+en;Douar Doukkara;Douar Lddoukkara
+nl;Douar Doukkara;Douar Lddoukkara
+ar;ديابات;Douar Dyabat
+en;Diabat;Douar Dyabat
+fr;Diabat;Douar Dyabat
+nl;Diabat;Douar Dyabat
+en;Deroua;Ad Darwa
+es;Debdú;Debdou
+ar;دبدو;Debdou
+ru;Дар Боуазза;Dar Bouazza
+zgh;ⵛⵛⵉⵅ ⵄⵍⵉ;Dar Cheikh Ali
+fr;Ville de Chechaouèn;Chefchaouen
+es;Xauen;Chefchaouen
+ar;شفشاون;Chefchaouen
+ru;Шефшауен;Chefchaouen
+ar;الدار البيضاء;Casablanca
+ru;Касабланка;Casablanca
+tr;Kazablanka;Casablanca
+kab;Tigemmi Tamellalt;Casablanca
+ber;ⴰⵏⴼⴰ;Casablanca
+ar;كازابلانكا;Casablanca
+tr;Dâr-ül-Beydâ;Casablanca
+ar;أنفا;Casablanca
+ru;Бузнике;Bouznika
+ru;Боускоура;Bouskoura
+en;Bou Assel;Douar Bou Assal
+nl;Bou Assel;Douar Bou Assal
+fr;Bou Arfa;Bouarfa
+ar;بركان;Berkane
+es;Berkan;Berkane
+ru;Беркан;Berkane
+zgh;ⴱⴻⵔⴽⴰⵏ;Berkane
+fr;Béni Mellal;Beni Mellal
+nl;Béni-Mellal;Beni Mellal
+ar;بني ملال;Beni Mellal
+ru;Бени-Меллаль;Beni Mellal
+de;Beni-Mellal;Beni Mellal
+es;Beni Melal;Beni Mellal
+it;Béni Mellal;Beni Mellal
+kab;Ayt Mellal;Beni Mellal
+pt;Béni Mellal;Beni Mellal
+zgh;ⴱⵏⵉ ⵏⵚⴰⵔ;Beni Enzar
+zgh;ⴱⵏⵉ ⴷⵔⴰⵔ;Bni Drar
+ru;Берречид;Berrechid
+es;Azrú;Azrou
+ar;أزرو;Azrou
+ru;Азру;Azrou
+es;Arcila;Asilah
+ar;صيلة;Asilah
+fr;Assilah;Asilah
+ar;أصيلة;Asilah
+pt;Arzila;Asilah
+ru;Асилах;Asilah
+ru;Асила;Asilah
+it;Assila;Asilah
+ru;Хемиссет;Khemisset
+es;Villa Alhucemas;Al Hoceïma
+es;Villa Sanjurjo;Al Hoceïma
+es;Alhucemas;Al Hoceïma
+fr;Al Hoceima;Al Hoceïma
+en;Al Hoceima;Al Hoceïma
+de;Al-Hoceima;Al Hoceïma
+ar;الحسيمة;Al Hoceïma
+nl;Al Hoceima;Al Hoceïma
+ru;Эль-Хосейма;Al Hoceïma
+en;Ajellidine;Douar Jallidin
+nl;Ajellidine;Douar Jallidin
+es;Axdir;Ajdir
+ar;أجدير;Ajdir
+en;Ait Benhaddou;Aït Ben Haddou
+ru;Айт-Бен-Хадду;Aït Ben Haddou
+zgh;ⴰⵢⵏ ⵄⵕⴳⴳⴰⴷⴰ;Ain Erreggada
+ru;Айн Лёх;Aïn Leuh
+ru;Айн Бни Матар;Aïn Beni Mathar
+zgh;ⴰⵃⴼⵉⵔ;Ahfir
+ar;أكادير;Agadir
+ru;Агадир;Agadir
+ar;أغادير;Agadir
+ar;أݣادير;Agadir
+ar;أگادیر;Agadir
+tr;Ağadir;Agadir
+fr;Beni Chiker;Had Beni Chiker
+zgh;ⴰⴽⵍⵉⵎ;Aklim
+ru;Мхамид;Mhamid
+ar;تيزكي نشرفا;Tizgui n'Chorfa
+fr;Boujniba (MU);Boujniba
+fr;Boujniba (Commune Urbaine);Boujniba
+ar;ابي الجعد (البلدية);Boujniba
+ru;Эр-Рашидия;Errachidia
+ar;الرشيدية‎;Errachidia
+es;Er-Rachidía;Errachidia
+it;Al-Rashidiyya;Errachidia
+ar;الرشيدية;Errachidia
+kab;Imtɣeren;Errachidia
+ar;فالاكلاك;Falaklak
+en;Hassi Labied;Hassilabied
+ru;Хассилабиед;Hassilabied
+ru;Улад Хлифа;Ouled Khlifa
+ru;Аит Меллоул;Ait Melloul
+ber;ⵍⵇⵍⵉⵄⴰ;Lqoliaa
+ar;قرية الفيتنام;Douar Sfari
+zgh;ⵓⵙⵓⵏ ⵏ ⵜⴰⴷⵓⵜ;Douar Tadout
+fr;village de Tadout;Douar Tadout
+ru;Сале Ал Джадида;Salé Al Jadida
+es;Mulay Buzerktun;Moulay Bouzarqtoune
+de;Mulay Buzerktun;Moulay Bouzarqtoune
+ar;مولاي بوزرقطون;Moulay Bouzarqtoune
+es;Mulay Buzerktún;Moulay Bouzarqtoune
+en;Cabo Negro;Cap Negro II
+ru;Кабо Негро;Cap Negro II
+ru;Бни Бояж;Bni Bouayach
+ar;تملحت;Tamellaht
+ar;إمليلي;Imlili
+ar;امليلي;Imlili
+zgh;ⴱⵓⵉⵣⴰⵣⴰⵔⴻⵏ ⵉⵃⴷⴷⴰⴷⵏ;Bouizazarene Ihaddadene
+zgh;ⵙⵉⴷⵙ ⵙⵍⵉⵎⴰⵏ;Sidi Slimane Echcharaa

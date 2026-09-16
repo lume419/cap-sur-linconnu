@@ -983,6 +983,101 @@ départ, jamais après chaque nouvelle étape choisie (contrairement à la masse
 mise à jour) — un trajet Amman -> Syrie -> Israël passait ainsi le second saut avec succès, comparé
 à tort à "Jordanie" (adjacente à Israël) plutôt qu'à "Syrie" (qui, elle, ne l'est pas).
 
+### Maghreb : Maroc, Algérie, Tunisie, Sahara occidental (septembre 2026)
+
+Quatre territoires ajoutés en une fois, chacun avec une stratégie de code postal DIFFÉRENTE — établie
+en inspectant les sources avant d'écrire la moindre ligne, et non en appliquant le pipeline standard
+par défaut. Script dédié : `scripts/build-maghreb-communes.js`, qui porte le détail en commentaire.
+
+**L'Algérie** est la seule des quatre avec un fichier GeoNames de codes postaux réellement
+utilisable : 15 951 entrées, 3 162 codes distincts, toutes géolocalisées, et surtout CONTENANT les
+codes des grandes villes (16000 Alger, 31000 Oran, 25000 Constantine, 09000 Blida — vérifiés un par
+un). Rapprochement par coordonnée la plus proche comme pour la Grèce, avec un garde-fou en plus :
+le point postal retenu doit appartenir à la même WILAYA que le lieu. Sans ce contrôle Blida héritait
+du code 35012 de Boumerdès, le point le plus proche à vol d'oiseau se trouvant de l'autre côté d'une
+limite de wilaya. **Piège majeur rencontré** : les deux fichiers n'utilisent pas le même référentiel
+admin1 malgré une apparence identique — le dump porte le code interne GeoNames ("01" = Alger), le
+fichier postal le numéro officiel de wilaya ("01" = Adrar). La première version comparait les deux
+directement et écartait 7 293 lieux sur 8 139 ; la comparaison se fait donc par NOM de wilaya, via
+`admin1CodesASCII.txt`. Deux exonymes divergents ont demandé un alias explicite (GeoNames écrit
+"Algiers" et "El Tarf" là où le fichier postal écrit "Alger" et "El-Taref"), et les **dix wilayas
+créées par la réforme de 2019** (Timimoun, Bordj Badji Mokhtar, Béni Abbès, In Salah, In Guezzam,
+Djanet, El Menia, Touggourt, El M'Ghair, Ouled Djellal) n'existent pas dans le fichier postal, plus
+ancien : le contrôle de wilaya y est désactivé plutôt que d'affirmer une filiation non sourcée, le
+plafond de 15 km restant seul en vigueur — 360 lieux concernés, tous sahariens, là où les points
+postaux sont de toute façon très espacés. **7 784 communes** retenues, une seule correction de nom
+(Algiers->Alger).
+
+**Le Maroc** a bien un fichier `export/zip/MA.zip`, mais il est INUTILISABLE : 1 325 entrées
+exclusivement rurales, dont AUCUN code de grande ville — 20000 Casablanca, 10000 Rabat, 40000
+Marrakech, 90000 Tanger, 30000 Fès, 80000 Agadir, 50000 Meknès, 14000 Kénitra : tous absents,
+vérifiés un par un. Un rapprochement par coordonnée a été essayé puis abandonné parce qu'il produit
+des codes FAUX exactement là où ça compte (Casablanca ressortait avec 29640, le code de Mediouna ;
+Kénitra avec 12122, celui de Skhirate-Temara). Publier ces codes aurait été une erreur silencieuse.
+Le champ `cp` retombe donc sur le code de RÉGION ISO 3166-2:MA — 12 régions depuis la réforme de
+2015, dont la numérotation GeoNames coïncide exactement avec la numérotation ISO — comme pour
+l'Égypte et les autres pays du lot précédent, et documenté comme n'étant PAS un code postal.
+**46 020 communes**, le plus gros fichier du lot ; quatre lieux isolés portant un admin1 hors plage
+(51, 57, 59 et un vide, un seul lieu chacun) sont écartés faute de correspondance ISO. Cinq
+corrections d'exonymes vérifiées dans les noms alternatifs de chaque entrée : Fes->Fès,
+Tangier->Tanger, Marrakesh->Marrakech, Meknes->Meknès, Kenitra->Kénitra.
+
+**La Tunisie** n'a aucun fichier GeoNames de codes postaux (404), alors qu'elle a un vrai système à
+4 chiffres en usage depuis le 20 mars 1980. La Poste Tunisienne n'est pas joignable en automatisé et
+ne publie pas de jeu ouvert ; l'article Wikipedia ne donne que des PRÉFIXES par gouvernorat, comme
+pour le Kosovo. Un jeu tiers a donc été retenu en dernier recours, exactement comme yell.ge pour la
+Géorgie et postanskibroj pour le Monténégro, et avec la même réserve explicite :
+[mn-youssef/state-municipality-tunisia](https://github.com/mn-youssef/state-municipality-tunisia),
+4 788 localités avec code à 4 chiffres ET coordonnées, couvrant les 24 gouvernorats — **PAS une
+source officielle, AUCUNE licence déclarée sur le dépôt**. Contrôles passés avant adoption : 100 %
+des codes au format 4 chiffres, 0 point hors des limites de la Tunisie, 97 % des lieux GeoNames à
+moins de 15 km d'un point du jeu. **1 615 communes**, aucune correction de nom nécessaire.
+Les **îles Kerkennah** sont exclues par boîte de coordonnées : archipel sans aucune liaison routière
+avec le continent, aucun tarif de ferry par véhicule vérifié pour la ligne de Sfax, et le moteur
+traite toute la Tunisie comme une seule masse continentale — les laisser aurait recréé le bug de la
+traversée maritime "par la route" corrigé pour Ceuta/Melilla dans ce même lot. Djerba, elle, RESTE
+continentale, et c'est correct : elle est reliée à la terre ferme par la chaussée romaine d'El
+Kantara.
+
+**Le Sahara occidental** est un territoire non autonome selon l'ONU, repris TEL QUEL depuis GeoNames
+qui lui attribue un code pays "EH" distinct — même principe de non-retouche que pour le nord de
+Chypre, le Kosovo et la Crimée, et qui ne constitue une prise de position d'aucune sorte. Toujours
+sans retouche : GeoNames répartit lui-même le territoire entre "EH" (49 lieux) et les régions
+marocaines MA-11/MA-12 (12 lieux), les deux sont repris tels qu'ils viennent. Ni codes postaux (404),
+ni subdivision exploitable : le champ admin1 ne contient que "00" (20 lieux), "CE" (1 lieu, Dakhla)
+et du vide (29 lieux, dont Laâyoune la plus peuplée), et EH n'apparaît pas du tout dans
+`admin1CodesASCII`. ISO 3166-2:EH n'a par ailleurs aucune subdivision. Le champ `cp` porte donc une
+étiquette unique "EH", informelle et documentée comme telle — même solution que les étiquettes
+"PS-WBK"/"PS-GZA" du lot précédent. **49 communes**, une correction (Laayoune->Laâyoune).
+
+**Péages** : le Maroc et la Tunisie ont `hasToll:true`, l'Algérie et le Sahara occidental non.
+L'autoroute Est-Ouest algérienne (1 216 km) et tout le réseau sont gratuits : 48 postes de péage ont
+été construits physiquement vers 2010 sans jamais être mis en service, et la mise en péage a été
+explicitement écartée par le président Tebboune en février 2026 — traité comme un projet abandonné,
+pas comme un péage à venir. Au Sahara occidental, la voie express Tiznit-Dakhla relève du ministère
+de l'Équipement et non d'ADM, et le réseau concédé s'arrête à Agadir. Les barèmes marocain et
+tunisien, leur dérivation et les liaisons de référence retenues sont détaillés dans
+`TOLL_RATE_BY_COUNTRY` (`public/js/trip-data.js`). À noter pour les deux : ni ADM ni la STA ne
+publient de classe MOTO — une motocyclette relève de leur classe 1 par la définition même de cette
+classe (deux essieux, moins de 1,30 m pour ADM ; "véhicules légers" pour la STA), ce qui est une
+lecture du barème et non un tarif inventé.
+
+**Devises** : `MAD` (Maroc et Sahara occidental, 2 décimales), `DZD` (Algérie, 2 décimales — et non
+3, les centimes étant sortis de l'usage), `TND` (Tunisie, **3 décimales**, le millime valant 1/1000
+de dinar). Aucune des trois n'a de point de code Unicode dédié : `CURRENCY_GLYPH` utilise les
+abréviations arabes usuelles "د.م." / "د.ج" / "د.ت". **Réserve importante pour l'Algérie** : le taux
+officiel de la Banque d'Algérie (~154 DZD pour 1 EUR le 15/09/2026) est celui utilisé ici, faute de
+source officielle possible pour l'autre, mais le marché parallèle s'échangeait autour de 276 DZD pour
+1 EUR début septembre 2026 — un budget converti en euros au taux officiel est donc surestimé d'environ
+80 %.
+
+**Adjacence réelle** : les quatre territoires rejoignent `NEW_BATCH_COUNTRIES` (voir
+`lib/trip-engine.js`), avec les frontières terrestres Libye-Tunisie, Tunisie-Algérie, Algérie-Libye,
+Maroc-Sahara occidental et Algérie-Sahara occidental. **Maroc-Algérie n'y figure PAS** : la frontière
+terrestre est fermée depuis 1994 et l'Algérie a rompu ses relations diplomatiques avec le Maroc en
+août 2021 — aucun passage civil. Vérifié au tirage : un trajet partant d'Alger visite l'Algérie et la
+Tunisie, jamais le Maroc.
+
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
 des coordonnées valides.
@@ -1961,6 +2056,73 @@ langue d'INTERFACE puisqu'aucune minorité israélienne ne remplit par ailleurs 
 même distinction "recherche vs interface" déjà appliquée au russe pour la Turquie/l'Ukraine avant que
 la Biélorussie n'en fasse aussi une langue d'interface).
 
+### Maghreb : amazighe standard marocain et kabyle (septembre 2026)
+
+L'arabe, déjà couvert depuis la Syrie, est la langue officielle des quatre territoires de ce lot. Deux
+langues amazighes s'y ajoutent, portant l'interface à **77 langues**.
+
+**L'amazighe standard marocain (`zgh`, ⵜⴰⵎⴰⵣⵉⵖⵜ)** remplit le critère du projet sans la moindre
+ambiguïté : il est **langue officielle de l'État** au Maroc depuis l'article 5 de la Constitution de
+2011 ("l'amazigh est également une langue officielle de l'État, en tant que patrimoine commun de tous
+les Marocains sans exception"), avec une loi organique d'application — la loi 26-16, promulguée par
+le dahir du 12 septembre 2019 — qui en fixe les étapes de mise en œuvre. L'État a retenu une forme
+standardisée unique élaborée par l'IRCAM par convergence du tachelhit, du tamazight du Moyen Atlas et
+du tarifit ; son code ISO 639-3 `zgh` a été adopté le 21 novembre 2012. Il n'existe AUCUN code ISO
+639-1 à deux lettres pour le berbère sous quelque forme que ce soit.
+
+**Le tifinagh est la première écriture de ce projet qu'aucun système courant ne sait afficher.** C'est
+la graphie officielle de l'amazighe au Maroc — néo-tifinagh IRCAM à 33 caractères, retenu en février
+2003 par le conseil d'administration de l'IRCAM contre le latin et l'arabe, entériné par le roi le 10
+février 2003 — mais presque aucun système d'exploitation ne fournit de police pour le bloc Unicode
+U+2D30–U+2D7F : sans police embarquée, toute l'interface s'afficherait en carrés vides. D'où la
+PREMIÈRE police web du projet : **Noto Sans Tifinagh** (licence SIL Open Font License 1.1, ~39 ko),
+hébergée localement comme Leaflet et les drapeaux, jamais chargée depuis un service tiers. La règle
+`@font-face` porte un `unicode-range` limité au bloc tifinagh, si bien que le navigateur ne télécharge
+le fichier que s'il a réellement des caractères tifinagh à rendre ; elle se déclenche sur
+`html[lang="zgh"]`, attribut désormais posé par `i18n.js` (`applyDirection`, qui ne posait jusqu'ici
+que `dir`). Nuance sourcée et notée par honnêteté : la loi organique 26-16 ne mentionne PAS le
+tifinagh — la graphie officielle repose sur la décision royale de 2003, pas sur la loi de 2019.
+
+**Le kabyle (`kab`, Taqbaylit)** est le cas le plus délicat de ce lot, et il a fait l'objet d'un
+arbitrage explicite de l'utilisateur. Le tamazight EST bien langue officielle en Algérie — nationale
+depuis la révision constitutionnelle du 10 avril 2002, officielle depuis celle du 6 mars 2016,
+aujourd'hui article 4 de la Constitution de 2020. Mais l'État le désigne de façon **générique**,
+"dans toutes ses variétés linguistiques en usage sur le territoire national", sans en nommer aucune ;
+aucune graphie n'a jamais été fixée par un texte officiel (latin, tifinagh et arabe coexistent, le
+latin dominant dans l'enseignement) ; et il n'existe **aucun code ISO pour un "berbère standard
+algérien"**. Écrire une interface impose pourtant de choisir une variété et une écriture. Le kabyle a
+été retenu comme la variété la plus écrite du pays, en alphabet latin berbère usuel, et il est
+étiqueté honnêtement comme une VARIÉTÉ et non comme le standard d'État — ce qu'aucune source ne
+permettrait d'affirmer. Le choix est documenté ici précisément parce qu'il n'est pas déductible d'un
+texte officiel, contrairement à tous les autres de ce projet.
+
+**Langues explicitement écartées**, chacune pour une raison sourcée : le **hassanya** (cité à
+l'article 5 de la Constitution marocaine, mais comme "composante de l'identité à préserver", pas comme
+langue officielle — et la constitution de la RASD ne le cite pas davantage) ; l'**espagnol** au Sahara
+occidental (largement utilisé dans les faits par l'administration de la RASD et les camps, mais absent
+de sa constitution, qui ne déclare officielle que la langue arabe) ; le **tamazight en Tunisie**
+(aucune mention dans les constitutions de 2014 ni de 2022, aucune loi) ; et le **français**, sans
+statut officiel dans aucun des quatre.
+
+**Drapeau** : les deux langues partagent le **drapeau amazigh** (trois bandes bleu/vert/jaune, yaz
+rouge), absent de circle-flags — 645 drapeaux vérifiés, aucun berbère. Il a été repris depuis
+Wikimedia Commons (`File:Berber flag.svg`, **domaine public**), recadré en cercle comme les autres,
+et sa géométrie n'a pas été redessinée mais simplement mise à l'échelle pour respecter le tracé
+d'origine. Partager un même drapeau entre deux langues suit le comportement déjà en place pour les
+langues sans drapeau régional dédié.
+
+**Alias** : script dédié `scripts/build-maghreb-aliases.js`, les quatre territoires ne passant pas par
+le pipeline standard. Plutôt que de dupliquer leur logique de sélection — et de risquer qu'elle diverge
+silencieusement —, il repart du fichier `communes-xx.txt` DÉJÀ GÉNÉRÉ et retrouve le geonameid de
+chaque commune en la rapprochant du dump par nom + coordonnées arrondies : l'ensemble des alias
+correspond donc, par construction, à ce qui est réellement publié. 338 alias pour le Maroc, 672 pour
+l'Algérie, 279 pour la Tunisie, 58 pour le Sahara occidental. Langues de recherche : les formes
+latines usuelles plus l'arabe, `zgh`, `kab` et `ber` — ce dernier étant le code COLLECTIF ISO
+639-2/639-5 des langues berbères, sous lequel GeoNames range une partie des noms en tifinagh sans
+préciser la variété, retenu pour la RECHERCHE uniquement et jamais comme langue d'interface (le projet
+n'affiche pas de famille de langues). Utile surtout pour les noms corrigés vers leur forme locale :
+sans alias, taper "Algiers", "Tangier" ou "Marrakesh" ne trouverait plus ces villes du tout.
+
 ## Démarrer en local
 
 ```bash
@@ -2493,6 +2655,54 @@ Bozcaada/Ténédos et Gökçeada/Imbros, bien plus connues. Anomalie GeoNames co
 Gürçeşme...) portent des coordonnées manifestement erronées, placées sur le continent proche plutôt
 que sur l'île elle-même — sans effet pratique réel, aucun n'ayant de population significative.
 
+### Ceuta et Melilla : traversées entre ZONES, et un bug corrigé (septembre 2026)
+
+Jusqu'ici, une liaison ferry se déduisait d'un changement de MASSE TERRESTRE (`landmassOf`, table
+`FERRY_ROUTES`). Ceuta et Melilla ne rentrent pas dans ce moule : ce sont des villes espagnoles bâties
+sur le CONTINENT AFRICAIN, séparées de l'Espagne péninsulaire par la mer ET frontalières du Maroc par
+la terre. Leur donner une masse terrestre propre aurait fait disparaître la frontière marocaine ; les
+laisser "continentales" — ce qu'elles étaient — laissait le moteur traverser le détroit de Gibraltar
+par la route.
+
+**C'était un vrai bug, présent avant ce lot et mesuré avant d'être corrigé** : sur 100 trajets tirés
+depuis Algésiras, l'un passait par Ceuta sans le moindre segment de ferry. Même famille que le bug
+chypriote du lot précédent, mais qu'aucun code pays ne pouvait attraper : `reallyAdjacent` renvoie
+vrai quand les deux côtés sont identiques, et Ceuta est espagnole comme Algésiras.
+
+D'où deux ajouts. `zoneOf()` renvoie le code pays pour tout le monde, sauf deux zones dédiées
+détectées par préfixe de code postal (51xxx Ceuta, 52xxx Melilla, exclusifs à ces deux villes
+autonomes) — même méthode de détection que pour Bornholm, Gotland ou l'Irlande du Nord. Et
+`SEA_CROSSINGS` (dans `trip-data.js`) décrit une traversée obligatoire ENTRE DEUX ZONES d'une même
+masse terrestre, consultée avant la logique de masse terrestre partout où une étape est évaluée ou
+un segment finalisé. Tout le contrôle d'adjacence raisonne désormais en zones plutôt qu'en pays.
+
+Résultat vérifié au tirage : depuis Algésiras, plus AUCUNE étape à Ceuta par la route (0 sur 60
+trajets) ; à rayon réduit, 12 étapes à Ceuta sur 120 trajets, **toutes avec leur segment de ferry** ;
+depuis Ceuta sans ferry, uniquement le Maroc par la frontière terrestre ; depuis Ceuta avec ferry, le
+Maroc ET l'Espagne péninsulaire. Les deux liens coexistent, ce qui était le but.
+
+Les deux liaisons retenues sont précisément les seules de toute la Méditerranée occidentale dont le
+tarif PAR VÉHICULE soit publié plutôt que dynamique. **Algésiras-Ceuta** : 1h30 en ferry conventionnel
+(1h en navire rapide), 31,5 km, plus de 10 départs par jour toute l'année, deux opérateurs solides
+(Baleària et DFDS) ; tarifs publiés par Baleària — passager 35 €, voiture 50 €, caravane 99 €.
+**Málaga-Melilla** : 6h30, 210 km, 6 rotations hebdomadaires toute l'année (ligne d'intérêt public) ;
+tarifs MAXIMAUX CONTRACTUELS garantis jusqu'au 31/12/2027 — fauteuil standard 50 €, véhicule de
+tourisme jusqu'à 5,5 × 2,2 × 2 m à 40 €. **Limite assumée, choix explicite de l'utilisateur** : aucun
+opérateur ne publie de tarif moto sur ces deux lignes, ni de tarif utilitaire sur Melilla (le plafond
+contractuel ne couvre que le "véhicule de tourisme") ; ces classes reprennent le tarif voiture — un
+choix de modélisation, pas un tarif réel, dont l'erreur va toujours vers la surestimation.
+
+**Ce qui n'est PAS modélisé, et pourquoi.** Les traversées Espagne-Maroc (Algésiras-Tanger Med est
+l'une des plus fréquentées au monde), France/Italie-Tunisie et Europe-Algérie existent bel et bien.
+Elles ne sont pas ajoutées pour une raison structurelle : toute l'Afrique du Nord partage la masse
+continentale eurasiatique via le Sinaï, si bien qu'y ouvrir une liaison maritime rendrait du même coup
+possible un trajet ROUTIER fictif à travers la Méditerranée. S'y ajoute que ces lignes sont en
+tarification dynamique, sans grille par véhicule vérifiable — même motif de non-inclusion que pour
+Limassol-Le Pirée. Enfin, **aucun ferry pour véhicule n'existe vers le Sahara occidental**, depuis
+nulle part : la seule ligne ayant existé, Tarfaya-Fuerteventura, a fonctionné cinq mois en 2007-2008
+avant le naufrage de l'*Assalama*, et sa réouverture était encore bloquée en mai 2025 faute de poste
+d'inspection frontalier.
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois
@@ -2547,7 +2757,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux géorgiens (absents de GeoNames pour ce pays, voir "Pays couverts") : annuaire tiers
   [yell.ge](https://www.yell.ge) — PAS une source officielle ni sous licence ouverte explicite, choix
@@ -2573,6 +2783,16 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   des 775 bureaux de poste d'[Haypost](https://www.haypost.am), la poste nationale arménienne
   elle-même — source plus directe que yell.ge/postanskibroj ci-dessus, rapprochée par nom des communes
   GeoNames (`scripts/build-am-communes.js`, 458 communes retenues).
+- Codes postaux tunisiens (absents de GeoNames pour ce pays, voir "Pays couverts") : jeu tiers
+  [mn-youssef/state-municipality-tunisia](https://github.com/mn-youssef/state-municipality-tunisia)
+  (4 788 localités AVEC coordonnées, 24 gouvernorats) — PAS une source officielle et AUCUNE licence
+  déclarée sur le dépôt, choix de dernier recours documenté comme tel au même titre que yell.ge et
+  postanskibroj ci-dessus, rapproché par coordonnée la plus proche des communes GeoNames.
+- Maroc et Sahara occidental : le champ affiché n'est PAS un code postal mais le code de RÉGION
+  [ISO 3166-2:MA](https://www.iso.org/iso-3166-country-codes.html) pour le Maroc (le fichier de codes
+  postaux GeoNames marocain ne contient aucune grande ville, démonstration chiffrée dans
+  `scripts/build-maghreb-communes.js`), et une étiquette informelle "EH" pour le Sahara occidental,
+  dépourvu de toute subdivision exploitable.
 - Syrie, Liban, Israël, Palestine, Jordanie, Égypte, Libye : AUCUNE source de codes postaux, ni
   GeoNames ni tierce, n'a été trouvée pour ces sept pays — et la Syrie n'a tout simplement pas de
   système de codes postaux en usage. Le champ `cp` n'y contient donc PAS un code postal mais le code
@@ -2590,7 +2810,14 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
   HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 58 fichiers SVG, dont douze
-  drapeaux RÉGIONAUX) — voir "Langues" ci-dessus.
+  drapeaux RÉGIONAUX) — voir "Langues" ci-dessus. **Exception** : le drapeau amazigh
+  (`amazigh.svg`), absent de circle-flags, vient de
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Berber_flag.svg) (**domaine public**),
+  simplement recadré en cercle sans redessiner sa géométrie.
+- Police tifinagh : [Noto Sans Tifinagh](https://fonts.google.com/noto/specimen/Noto+Sans+Tifinagh)
+  (licence [SIL Open Font License 1.1](https://openfontlicense.org), hébergée localement —
+  `public/fonts/`, ~39 ko), seule police embarquée du projet, nécessaire à l'affichage de l'amazighe
+  standard marocain — voir "Langues" ci-dessus.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /
@@ -2607,7 +2834,12 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   (Azerbaïdjan — barème officiel de l'unique route à péage du pays, la M-1 Bakou-Quba),
   Derech Eretz Highways (Israël — route 6/Kvish Sderot Yisrael, via kvish6.co.il) et Carmelton
   (tunnels du Carmel à Haïfa), ces deux derniers tarifés AU TRONÇON et non au kilomètre, donc
-  convertis en €/km avec une précision plus faible que les autres pays (voir `trip-data.js`) —
+  convertis en €/km avec une précision plus faible que les autres pays (voir `trip-data.js`),
+  [ADM](https://www.adm.co.ma) (Maroc — grille tarifaire en ligne, liaison Casablanca-Rabat rapportée
+  aux 62 km publiés par ADM ; attention, le PDF téléchargeable depuis cette même page est périmé et
+  affiche encore les tarifs de janvier 2024, seul le tableau HTML est à jour),
+  [Société Tunisie Autoroutes](https://www.tunisieautoroutes.tn) (Tunisie — calculateur officiel,
+  barème du décret du 15 juillet 2025, liaison M'saken-Sfax rapportée aux PK publiés par la STA) —
   voir "Pays couverts" pour la méthode de calcul hors de France (échantillon plus restreint que
   pour la France).
 - Vignettes annuelles : boutiques officielles [via.admin.ch](https://via.admin.ch) (Suisse),
