@@ -9,6 +9,7 @@ const express = require('express');
 const compression = require('compression');
 const PDFDocument = require('pdfkit');
 const tripEngine = require('./lib/trip-engine.js');
+const searchIndex = require('./lib/search-index.js');
 const TripDataCountries = require('./public/js/trip-data.js').COUNTRIES;
 
 const app = express();
@@ -1098,11 +1099,25 @@ if(communesBundlePromise === null){
 if(aliasesBundlePromise === null){
   aliasesBundlePromise = getBundlePromise('aliases-bundle', /^aliases-([a-z]{2})\.txt$/, '');
 }
+// Index de recherche précalculé sur disque (lib/search-index.js, construit par scripts/build-search-index.js
+// au déploiement) : s'il correspond aux fichiers de données actuels, il sert la recherche de ville
+// IMMÉDIATEMENT, avant même que le moteur n'ait chargé ses lieux ; sinon (absent, périmé), la recherche en
+// mémoire du moteur prend le relais une fois celui-ci prêt.
+let diskSearchIndex = null;
+try {
+  diskSearchIndex = searchIndex.open(path.join(__dirname, 'cache', 'search-index'), DATA_DIR, tripEngine.internals);
+  console.log(diskSearchIndex
+    ? '[search-index] index sur disque utilisé (' + diskSearchIndex.entries + ' entrées, ' + diskSearchIndex.places + ' lieux).'
+    : '[search-index] index sur disque absent ou périmé — recherche en mémoire après chargement du moteur (lancer npm run build-bundles).');
+} catch(err){
+  console.error('[search-index] ouverture impossible, repli sur la recherche en mémoire :', err.message);
+  diskSearchIndex = null;
+}
 const featuredTextPromise = fs.promises.readFile(path.join(DATA_DIR, 'featured.txt'), 'utf8');
 Promise.all([communesBundlePromise, aliasesBundlePromise, featuredTextPromise])
   .then(function(results){
     var t0 = Date.now();
-    return tripEngine.init(results[0].raw, results[1].raw, results[2]).then(function(){
+    return tripEngine.init(results[0].raw, results[1].raw, results[2], { skipSearchIndex: !!diskSearchIndex }).then(function(){
       console.log('[trip-engine] prêt en ' + (Date.now() - t0) + ' ms.');
     });
   })
@@ -1115,13 +1130,13 @@ app.get('/api/search-city', function(req, res){
   if(!q || q.length > 120){
     return res.status(400).json({ error: 'invalid query', results: [] });
   }
-  if(!tripEngine.isSearchReady()){
+  if(!diskSearchIndex && !tripEngine.isSearchReady()){
     return res.status(503).json({ error: 'not ready', results: [] });
   }
   try {
     var limitRaw = parseInt(req.query.limit, 10);
     var limit = (isFinite(limitRaw) && limitRaw > 0 && limitRaw <= 20) ? limitRaw : 8;
-    res.json({ results: tripEngine.searchCity(q, limit) });
+    res.json({ results: diskSearchIndex ? diskSearchIndex.search(q, limit) : tripEngine.searchCity(q, limit) });
   } catch(err){
     console.warn('[search-city] erreur:', err.message);
     res.status(500).json({ error: 'internal error', results: [] });

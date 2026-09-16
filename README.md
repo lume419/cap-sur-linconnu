@@ -3100,11 +3100,41 @@ aucun message. Corrections :
   tension n'est plus calculé pour tous les lieux au démarrage mais à la première demande, pour les seuls lieux
   examinés par un tirage. Mesure locale : recherche disponible en ~15 s (au lieu de ~45 s), tirages en ~40 s.
 - **Hébergement mutualisé** : Passenger arrête l'application après une période sans visite ; le visiteur suivant
-  repaie tout le démarrage. Une tâche cron cPanel qui interroge le site toutes les 5 minutes (par exemple
-  `curl -s "https://votre-domaine/api/search-city?q=Par" > /dev/null`) évite cet arrêt.
+  repaie le démarrage. Depuis l'index de recherche sur disque (ci-dessous), la recherche de ville n'est plus
+  concernée ; seuls les tirages attendent le chargement des lieux. Une tâche cron ou un service de surveillance
+  externe qui interroge le site toutes les 5 minutes évite quand même cet arrêt, si on le souhaite.
 - **Noms idéographiques de deux caractères** (北京, 東京, 서울) : jamais trouvés jusqu'ici, la recherche exigeant 3
   caractères. Les noms et alias en hanzi/kanji, kana et hangeul sont aussi indexés sous leurs 2 premiers caractères, et
   une saisie de 2 caractères idéographiques est acceptée.
+
+### Index de recherche précalculé sur disque (septembre 2026)
+
+Pour que la recherche de ville réponde **dès le démarrage** du serveur, sans attendre le chargement du moteur, un
+index est construit au déploiement et lu directement sur le disque (`lib/search-index.js`,
+`scripts/build-search-index.js`).
+
+- **Construction** : lancée par `npm install` (postinstall) et `npm run build-bundles`, juste après les bundles. Les
+  lieux et alias sont lus pays par pays, ligne par ligne, avec la même normalisation que le moteur ; les entrées sont
+  réparties dans des fichiers temporaires selon les deux premiers octets de leur clé, triées lot par lot puis
+  assemblées. Mesure locale : 4 035 073 lieux, 13 313 257 entrées (noms, codes postaux, alias), ~95 s, **~640 Mo de
+  mémoire au plus haut** (le script tourne avec `--max-old-space-size=1024`, et a été vérifié sous 700 Mo).
+  Résultat : `cache/search-index/`, ~560 Mo sur le disque, jamais commité (`.gitignore`).
+- **Lecture** : aucune donnée chargée en mémoire. Deux dichotomies sur les clés triées (octets UTF-8) donnent toutes
+  les entrées commençant par la saisie ; les meilleures par population sont sélectionnées (tas), puis les 8 lieux
+  affichés sont lus. Mesure locale : 4 à 12 ms par saisie, y compris pour « san » ou « par ».
+- **Mêmes résultats que la recherche en mémoire** (comparaison sur 124 saisies en 20 écritures : noms, codes postaux,
+  alias chinois, japonais, coréens, arabes, cyrilliques, grecs, thaïs…) : identiques, y compris l'ordre des ex æquo,
+  à une exception assumée — quand plusieurs lieux homonymes partagent le même code de région (« Al Qāhirah » au
+  Yémen), l'ancienne recherche gardait le premier du fichier, souvent un hameau sans habitants ; l'index garde le plus
+  peuplé.
+- **Sécurité** : l'index enregistre la taille et la date de chaque fichier de données. S'il ne correspond plus (pays
+  ajouté sans relancer `npm run build-bundles`, index absent ou construction échouée), le serveur l'ignore et revient
+  à la recherche en mémoire, disponible une fois le moteur chargé (message dans les journaux).
+- **Effet sur le moteur** : quand l'index est utilisé, le moteur ne charge plus les alias ni son propre index de
+  recherche — tirages prêts en ~24 s au lieu de ~40 s en local, et mémoire réduite d'autant.
+
+**Après tout ajout de pays** : `npm run build-bundles` (bundles + index), puis redémarrer le serveur. Sur o2switch,
+« Run NPM Install » le fait automatiquement ; il dure plus longtemps qu'avant (quelques minutes).
 
 ## Photos réelles
 
