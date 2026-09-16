@@ -1102,8 +1102,9 @@ const featuredTextPromise = fs.promises.readFile(path.join(DATA_DIR, 'featured.t
 Promise.all([communesBundlePromise, aliasesBundlePromise, featuredTextPromise])
   .then(function(results){
     var t0 = Date.now();
-    tripEngine.init(results[0].raw, results[1].raw, results[2]);
-    console.log('[trip-engine] prêt en ' + (Date.now() - t0) + ' ms.');
+    return tripEngine.init(results[0].raw, results[1].raw, results[2]).then(function(){
+      console.log('[trip-engine] prêt en ' + (Date.now() - t0) + ' ms.');
+    });
   })
   .catch(function(err){
     console.error('[trip-engine] échec d\'initialisation, /api/search-city et /api/generate-trip resteront indisponibles :', err.message);
@@ -1114,7 +1115,7 @@ app.get('/api/search-city', function(req, res){
   if(!q || q.length > 120){
     return res.status(400).json({ error: 'invalid query', results: [] });
   }
-  if(!tripEngine.isReady()){
+  if(!tripEngine.isSearchReady()){
     return res.status(503).json({ error: 'not ready', results: [] });
   }
   try {

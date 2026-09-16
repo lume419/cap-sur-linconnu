@@ -3092,6 +3092,16 @@ aucun message. Corrections :
   recherche …`. Mesure au repos après correction : ~28 s au total.
 - **Côté navigateur** : pendant le chargement, la liste affiche « Chargement des communes… » (chaîne déjà traduite dans
   les 143 langues) et relance la même recherche toutes les 2 s tant que la saisie ne change pas.
+- **Démarrage progressif (second correctif, même jour)** : sur l'hébergement en ligne, « Chargement des communes… »
+  restait affiché très longtemps après chaque relance du serveur. `init()` renvoie maintenant une promesse et rend la
+  main au serveur entre chaque pays (le serveur répond pendant tout le chargement au lieu de rester figé) ; la
+  recherche est ouverte dès que les noms et codes postaux sont indexés, **avant** la lecture des alias multilingues
+  (ajoutés quelques secondes plus tard) et avant la grille des tirages (`isSearchReady` / `isReady`) ; le niveau de
+  tension n'est plus calculé pour tous les lieux au démarrage mais à la première demande, pour les seuls lieux
+  examinés par un tirage. Mesure locale : recherche disponible en ~15 s (au lieu de ~45 s), tirages en ~40 s.
+- **Hébergement mutualisé** : Passenger arrête l'application après une période sans visite ; le visiteur suivant
+  repaie tout le démarrage. Une tâche cron cPanel qui interroge le site toutes les 5 minutes (par exemple
+  `curl -s "https://votre-domaine/api/search-city?q=Par" > /dev/null`) évite cet arrêt.
 - **Noms idéographiques de deux caractères** (北京, 東京, 서울) : jamais trouvés jusqu'ici, la recherche exigeant 3
   caractères. Les noms et alias en hanzi/kanji, kana et hangeul sont aussi indexés sous leurs 2 premiers caractères, et
   une saisie de 2 caractères idéographiques est acceptée.
