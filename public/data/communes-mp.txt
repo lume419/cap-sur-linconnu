@@ -1,0 +1,40 @@
+0;145.7030,15.1464;96950;Saipan;Chalan Kanoa Village
+0;145.7023,15.1238;96950;Saipan;Koblerville Village
+0;145.7339,15.2111;96950;Saipan;Navy Hill Village
+0;145.2787,14.1885;96951;Rota;Dugi Village
+0;145.7755,15.2489;96950;Saipan;San Roque Village
+0;145.7376,15.1517;96950;Saipan;San Vicente Village
+50;145.7594,18.1254;96950;Northern Islands;Pagan Village
+0;145.2317,14.1661;96951;Rota;Sinapalo Village
+593;145.1411,14.1397;96951;Rota;Songsong
+0;145.7563,15.2421;96950;Saipan;Tanapag Village
+0;145.7340,15.1351;96950;Saipan;Dandan Village
+0;145.7202,15.2055;96950;Saipan;Garapan Village
+0;145.7168,15.1942;96950;Saipan;Gualo Rai Village
+0;145.6972,15.1330;96950;Saipan;San Antonio Village
+0;145.7102,15.1685;96950;Saipan;San Jose Village
+15000;145.6200,14.9682;96952;Tinian;San Jose Village
+0;145.7026,15.1563;96950;Saipan;Susupe Village
+20;145.6530,18.7364;96950;Northern Islands;Agrihan Village
+15;145.8215,17.6125;96950;Northern Islands;Alamagan Village
+48220;145.7545,15.2123;96950;Saipan;Saipan
+979;145.7531,15.2082;96950;Saipan;Capitol Hill Village
+0;145.7806,15.1735;96950;Saipan;Kagman Village
+0;145.7330,15.2197;96950;Saipan;Puerto Rico Village
+0;145.7671,15.2317;96950;Saipan;Achugao Hamlet
+0;145.7238,15.1296;96950;Saipan;As Lito Hamlet
+0;145.7092,15.1339;96950;Saipan;As Perdido Hamlet
+0;145.7191,15.1636;96950;Saipan;Chalan Kiya Hamlet
+0;145.7193,15.1456;96950;Saipan;Fina Sisu Hamlet
+0;145.7860,15.2509;96950;Saipan;Matansa Hamlet
+0;145.7470,15.1736;96950;Saipan;Papago Hamlet
+3096;145.7204,15.2111;96950;Saipan;Garapan
+1087;145.7138,15.1808;96950;Saipan;Chalan Laulau Village
+1338;145.7005,15.1412;96950;Saipan;Chalan Piao village
+1129;145.7282,15.2053;96950;Saipan;Fananganan village
+898;145.7167,15.1935;96950;Saipan;I Liyang
+0;146.0597,16.0209;96950;Northern Islands;Farallon de Medinilla
+0;145.6725,16.3496;96950;Northern Islands;Anatahan
+0;145.7774,16.7046;96950;Northern Islands;Sarigan
+0;145.8424,17.3097;96950;Northern Islands;Guguan
+0;145.4036,19.6918;96950;Northern Islands;Asuncion

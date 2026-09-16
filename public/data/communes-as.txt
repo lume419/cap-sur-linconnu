@@ -1,0 +1,127 @@
+0;-170.7836,-14.3542;96799;Western District;Sogi
+683;-170.6831,-14.2869;96799;Eastern District;Utulei
+0;-170.5792,-14.2794;96799;Eastern District;Aganoa
+0;-170.6239,-14.2800;96799;Eastern District;Afulei
+96;-170.7992,-14.3367;96799;Western District;Afao
+0;-170.7639,-14.3203;96799;Western District;A‘asufou
+425;-170.7583,-14.2975;96799;Western District;Aasu
+527;-170.6508,-14.2642;96799;Eastern District;Āfono
+465;-170.6022,-14.2792;96799;Eastern District;Alofau
+0;-169.6807,-14.1670;96799;Manu'a;Alaufau
+508;-170.5636,-14.2675;96799;Eastern District;Alao
+29;-170.6375,-14.2853;96799;Eastern District;Ālega
+42;-170.8217,-14.3356;96799;Western District;Agugulu
+0;-170.7678,-14.3197;96799;Western District;A‘oloaufou
+247;-170.8294,-14.3300;96799;Western District;‘Āmanave
+163;-170.7911,-14.3383;96799;Western District;Amaluia
+68;-170.6217,-14.2769;96799;Eastern District;Amaua
+261;-170.5825,-14.2781;96799;Eastern District;Āmouli
+0;-170.6628,-14.2886;96799;Eastern District;Anasosopo
+0;-170.7517,-14.3256;96799;Western District;Tafeta
+473;-170.6877,-14.2696;96799;Eastern District;Anua
+157;-170.7956,-14.3356;96799;Western District;Asili
+466;-170.5839,-14.2656;96799;Eastern District;‘Aoa
+236;-170.6854,-14.2693;96799;Eastern District;Atu‘u
+2124;-170.6653,-14.2703;96799;Eastern District;Aūa
+88;-170.5744,-14.2767;96799;Eastern District;Auasi
+966;-170.7700,-14.3197;96799;Western District;Aoloau
+0;-170.7860,-14.3330;96799;Western District;Auma
+176;-170.6467,-14.2919;96799;Eastern District;Aumi
+402;-170.5606,-14.2836;96799;Eastern District;Aunu‘u
+214;-170.6280,-14.2750;96799;Eastern District;Auto
+0;-170.6928,-14.3108;96799;Eastern District;Avau
+0;-170.6975,-14.2789;96799;Eastern District;Autapini
+0;-170.6308,-14.2853;96799;Eastern District;Avaio
+460;-170.6753,-14.2550;96799;Eastern District;Vatia
+0;-170.6861,-14.3056;96799;Eastern District;Vasaaiga
+1436;-170.7380,-14.3526;96799;Western District;Vaitogi
+0;-170.6119,-14.2719;96799;Eastern District;Faga‘itua
+0;-170.7186,-14.2892;96799;Eastern District;Fagalea
+1144;-170.7808,-14.3534;96799;Western District;Vailoatai
+0;-170.8247,-14.3122;96799;Western District;Fagali‘i
+0;-170.8089,-14.3036;96799;Western District;Fagamalo
+0;-170.7786,-14.3461;96799;Western District;Vaiala
+0;-170.6628,-14.2879;96799;Eastern District;Tafananai
+0;-170.6186,-14.2758;96799;Eastern District;Utusia
+0;-170.8106,-14.3306;96799;Western District;Se‘etaga
+0;-170.5964,-14.2622;96799;Eastern District;Sa‘ilele
+0;-170.6922,-14.2712;96799;Eastern District;Satala
+0;-169.4249,-14.2167;96799;Manu'a;Fitiuta
+0;-170.5853,-14.2792;96799;Eastern District;Si‘ufaga
+0;-170.6989,-14.2750;96799;Eastern District;Si‘ufaga
+0;-169.6196,-14.1644;96799;Manu'a;Sili
+0;-169.5117,-14.2408;96799;Manu'a;Si‘ufaga
+0;-170.5683,-14.2758;96799;Eastern District;Utumea East
+0;-170.8172,-14.3342;96799;Western District;Utumea West
+0;-170.5692,-14.2758;96799;Eastern District;Utumea
+0;-170.8139,-14.3336;96799;Western District;Utumea
+0;-170.6172,-14.2644;96799;Eastern District;Utuloa
+370;-170.5642,-14.2581;96799;Eastern District;Tula
+0;-169.6175,-14.1607;96799;Manu'a;Faiava
+0;-170.7592,-14.3194;96799;Western District;Tuaolo
+37;-171.0883,-11.0553;96799;Swains Island;Taulaga
+873;-169.5144,-14.2336;96799;Manu'a;Ta`ū
+741;-170.7731,-14.3603;96799;Western District;Taputimu
+0;-170.7800,-14.3564;96799;Western District;Falili
+0;-170.7308,-14.3292;96799;Western District;Tafunafou
+0;-170.6825,-14.3033;96799;Eastern District;Tagapofu
+7988;-170.7200,-14.3358;96799;Western District;Tāfuna
+0;-170.7719,-14.3447;96799;Western District;Puapua
+0;-170.5892,-14.2669;96799;Eastern District;Faalefu
+3200;-170.7444,-14.3325;96799;Western District;Faleniu
+0;-170.6889,-14.3061;96799;Eastern District;Faganeanea
+0;-169.4550,-14.2178;96799;Manu'a;Faga
+731;-170.6836,-14.2964;96799;Eastern District;Faga‘alu
+0;-170.8050,-14.3361;96799;Western District;Fagamutu
+0;-170.7844,-14.3467;96799;Western District;Fagalele
+1868;-170.6900,-14.2825;96799;Eastern District;Fagatogo
+0;-170.7228,-14.2933;96799;Eastern District;Fagatele
+0;-170.7186,-14.2908;96799;Eastern District;Fagasā
+87;-170.8258,-14.3336;96799;Western District;Failolo
+0;-169.5128,-14.2222;96799;Manu'a;Faleāsao
+72;-170.6790,-14.2970;96799;Eastern District;Fatumafuti
+0;-170.7222,-14.3428;96799;Western District;Fogāgogo
+0;-170.5881,-14.2819;96799;Eastern District;Fogaau
+0;-170.7664,-14.3478;96799;Western District;Itū‘au
+0;-169.5103,-14.2436;96799;Manu'a;Fusi
+0;-170.6036,-14.2861;96799;Eastern District;Fogausa
+0;-170.7003,-14.2789;96799;Eastern District;Fusi
+3073;-170.7469,-14.3517;96799;Western District;Ili‘ili
+0;-170.6953,-14.2753;96799;Eastern District;Lalopua
+0;-170.5686,-14.2544;96799;Eastern District;Lauagae
+0;-170.6528,-14.2917;96799;Eastern District;Lauliituai
+546;-170.6783,-14.2674;96799;Eastern District;Leloaloa
+4050;-170.7850,-14.3439;96799;Western District;Leone
+0;-170.7278,-14.3239;96799;Western District;Lepine
+0;-170.6589,-14.2936;96799;Eastern District;Lauliifou
+0;-170.6531,-14.2922;96799;Eastern District;Lauli‘i
+0;-169.4211,-14.2261;96799;Manu'a;Leusoali‘i
+0;-169.5147,-14.2317;96799;Manu'a;Lumā
+717;-170.7672,-14.3472;96799;Western District;Malaeloa/Ituau
+633;-170.7678,-14.3386;96799;Western District;Malaeloa/Aitulagi
+1261;-170.7339,-14.3228;96799;Western District;Malaeimi
+0;-169.4283,-14.2194;96799;Manu'a;Maia
+0;-170.7672,-14.3442;96799;Western District;Malaeloa
+0;-170.6925,-14.2808;96799;Eastern District;Malaloa
+0;-169.6235,-14.1657;96799;Manu'a;Lalomoana
+0;-170.8147,-14.3094;96799;Western District;Maloata
+1772;-170.7553,-14.3230;96799;Western District;Mapusaga
+2052;-170.7540,-14.3230;96799;Western District;Mapusagafou
+0;-170.6306,-14.2592;96799;Eastern District;Masefau
+0;-170.6042,-14.2647;96799;Eastern District;Masausi
+0;-170.6839,-14.3036;96799;Eastern District;Matu‘u
+552;-170.7471,-14.3233;96799;Western District;Mesepa
+0;-170.8058,-14.3331;96799;Western District;Nua
+5000;-170.6975,-14.3158;96799;Eastern District;Nu‘uuli
+254;-169.6785,-14.1712;96799;Manu'a;Ofu
+0;-170.5778,-14.2539;96799;Eastern District;Ogefao
+0;-169.6242,-14.1770;96799;Manu'a;Olosega
+11500;-170.7025,-14.2781;96799;Eastern District;Pago Pago
+0;-170.6944,-14.3128;96799;Eastern District;Oneoneloa
+0;-170.5797,-14.2567;96799;Eastern District;Onenoa
+0;-170.7297,-14.3347;96799;Western District;Ottoville
+81;-170.6070,-14.2690;96799;Eastern District;Pagai
+682;-170.7542,-14.3533;96799;Western District;Futiga
+130;-170.8331,-14.3147;96799;Western District;Poloa
+0;-170.7508,-14.3408;96799;Western District;Pava‘ia‘i
+4;-168.1659,-14.5431;96799;Rose Island;Motu o Manu

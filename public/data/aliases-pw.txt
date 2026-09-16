@@ -1,0 +1,100 @@
+ko;코로르 주;Koror
+ko;코로르;Koror
+ru;Корор;Koror
+hi;कोरोर;Koror
+ja;コロール;Koror
+ru;Улиманг;Ulimang
+hi;उलिमांग;Ulimang
+ja;ウリマング;Ulimang
+de;Ngriil;Ngriil Hamlet
+en;Ngriil;Ngriil Hamlet
+fr;Ngriil;Ngriil Hamlet
+ru;Деревня Мелекеок;Melekeok Village
+id;Desa Melekeok;Melekeok Village
+ms;Kampung Melekeok;Melekeok Village
+es;Pueblo de Melekeok;Melekeok Village
+fr;Village de Melekeok;Melekeok Village
+hi;मेलेकिओक गांव;Melekeok Village
+de;Dorf Melekeok;Melekeok Village
+ja;メレケオク村;Melekeok Village
+pt;Aldeia de Melekeok;Melekeok Village
+ru;Нгерекламадел;Ngereklmadel
+hi;नगेरेकलमादेल;Ngereklmadel
+ja;ンゲレクルマデル;Ngereklmadel
+ru;Деревушка Имеонг;Imeong Hamlet
+id;Dusun Imeong;Imeong Hamlet
+ms;Kampung Kecil Imeong;Imeong Hamlet
+es;Aldea Imeong;Imeong Hamlet
+fr;Hameau d'Imeong;Imeong Hamlet
+hi;इमिओंग हैमलेट;Imeong Hamlet
+de;Weiler Imeong;Imeong Hamlet
+ja;イメオング集落;Imeong Hamlet
+pt;Aldeia de Imeong;Imeong Hamlet
+de;Elab;Chelab Hamlet
+en;Elab;Chelab Hamlet
+es;Elab;Chelab Hamlet
+nl;Elab;Chelab Hamlet
+ru;Деревушка Нгчесар;Ngchesar Hamlet
+id;Dusun Ngchesar;Ngchesar Hamlet
+ms;Kampung Kecil Ngchesar;Ngchesar Hamlet
+es;Aldea Ngchesar;Ngchesar Hamlet
+fr;Hameau de Ngchesar;Ngchesar Hamlet
+hi;नगचेसर हैमलेट;Ngchesar Hamlet
+de;Weiler Ngchesar;Ngchesar Hamlet
+ja;ンゲチェサル集落;Ngchesar Hamlet
+pt;Aldeia de Ngchesar;Ngchesar Hamlet
+de;Choll;Chol Hamlet
+en;Choll;Chol Hamlet
+es;Chol;Chol Hamlet
+nl;Choll;Chol Hamlet
+ru;Нгеркеаи;Ngerkeai
+hi;नगेरकेआई;Ngerkeai
+ja;ンゲルケアイ;Ngerkeai
+ru;Менгеллан;Mengellang
+hi;मेंगेलांग;Mengellang
+ja;メンゲランガ;Mengellang
+ru;Штат Ангаур;Angaur State
+id;Negara Angaur;Angaur State
+ms;Negeri Angaur;Angaur State
+es;Estado de Angaur;Angaur State
+fr;État d'Angaur;Angaur State
+hi;अंगौर राज्य;Angaur State
+de;Staat Angaur;Angaur State
+ja;アンガウル州;Angaur State
+pt;Estado de Angaur;Angaur State
+ru;Деревня Тоби;Tobi Village
+id;Desa Tobi;Tobi Village
+ms;Kampung Tobi;Tobi Village
+es;Pueblo de Tobi;Tobi Village
+fr;Village de Tobi;Tobi Village
+hi;टोबी गांव;Tobi Village
+de;Dorf Tobi;Tobi Village
+ja;トビ村;Tobi Village
+pt;Aldeia de Tobi;Tobi Village
+pau;Sonsorol;Sonsorol Village
+ru;Деревня Сонсорол;Sonsorol Village
+id;Desa Sonsorol;Sonsorol Village
+ms;Kampung Sonsorol;Sonsorol Village
+es;Pueblo de Sonsorol;Sonsorol Village
+fr;Village de Sonsorol;Sonsorol Village
+hi;सोनसोरोल गांव;Sonsorol Village
+de;Dorf Sonsorol;Sonsorol Village
+ja;ソンソロル村;Sonsorol Village
+pt;Aldeia de Sonsorol;Sonsorol Village
+ru;Каянгел;Kayangel
+hi;कायंगेल;Kayangel
+ja;カヤンゲル;Kayangel
+ru;Клоулклубед;Kloulklubed
+hi;क्लौलक्लुबेड;Kloulklubed
+ja;クロウルクルベド;Kloulklubed
+ru;Нгеткиб;Ngetkib
+hi;नगेटकिब;Ngetkib
+ja;ンゲトキブ;Ngetkib
+ru;Нгчемиангел;Ngchemiangel
+hi;नगचेमिएंगेल;Ngchemiangel
+ja;ンゲチェミアンゲル;Ngchemiangel
+ru;Нгардмау;Ngardmau
+hi;नगार्डमाउ;Ngardmau
+ja;ンガルドマウ;Ngardmau
+ru;Нгерулмуд;Ngerulmud
+ko;응게룰무드;Ngerulmud

@@ -1,0 +1,28 @@
+ru;Янгор;Yangor
+hi;यांगोर;Yangor
+ja;ヤンゴル;Yangor
+ru;Уабое;Uaboe
+hi;उआबोए;Uaboe
+ja;ウアボエ;Uaboe
+en;Baitsi District;Baiti
+ja;バイチ地区;Baiti
+ko;바이티 구;Baiti
+pt;Baitsi;Baiti
+ru;Баити;Baiti
+zh;白帝區;Baiti
+hi;बैती;Baiti
+ru;Ижув;Ijuw
+hi;इजुव;Ijuw
+ja;イジュ;Ijuw
+ru;Анибаре;Anibare
+hi;अनिबारे;Anibare
+ja;アニバレ;Anibare
+ru;Анабар;Anabar
+hi;अनाबार;Anabar
+ja;アナバル;Anabar
+en;Yaren District;Yaren
+ja;ヤレン地区;Yaren
+ko;야렌 구;Yaren
+ru;Ярен;Yaren
+zh;亞倫區;Yaren
+en;The Location;Denigomodu

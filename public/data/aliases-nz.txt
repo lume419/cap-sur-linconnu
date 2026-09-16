@@ -1,0 +1,329 @@
+mi;Whakapirau;Wellsford
+ru;Веллингтон;Wellington
+ty;Whanga-nui-a-Tara;Wellington
+ko;웰링턴;Wellington
+ja;ウェリントン;Wellington
+sm;Ueligitone;Wellington
+hi;वेलिंग्टन;Wellington
+mi;Te Whanga-nui-a-Tara;Wellington
+zh;惠灵顿;Wellington
+ru;Уоркуэрт;Warkworth
+mi;Mahurangi;Warkworth
+ru;Вангануи;Whanganui
+de;Wanganui;Whanganui
+hi;वांगानुई;Whanganui
+it;distretto di Whanganui;Whanganui
+zh;旺阿努伊;Whanganui
+ja;ワンガヌイ;Whanganui
+fr;Wanganui;Whanganui
+ko;왕거누이;Whanganui
+en;Waitakere City;Waitakere
+ru;Вэйтакере;Waitakere
+id;Kota Waitakere;Waitakere
+ja;ワイタケレ;Waitakere
+ko;와이타케레;Waitakere
+ru;Уаитакере;Waitakere
+zh;怀塔克雷;Waitakere
+fr;Wanui beach;Wainui
+nl;Wainui Beach;Wainui
+mi;Tūtira;Tutira
+mi;Te Kaokaoroa;Tokoroa
+mi;Pātetere;Tokoroa
+de;Timaru-Distrikt;Timaru
+mi;Te Tihi-o-Maru;Timaru
+ru;Тимару;Timaru
+it;Distretto di Timaru;Timaru
+ja;ティマルー;Timaru
+ko;팀아루;Timaru
+zh;提馬魯;Timaru
+mi;Taupō-nui-a-Tia;Taupo
+ru;Таупо;Taupo
+zh;陶波;Taupo
+ja;タウポ;Taupo
+ko;타우포;Taupo
+ko;리치먼드;Richmond
+ru;Ричмонд;Richmond
+hi;रिचमंड;Richmond
+ja;リッチモンド;Richmond
+ru;Редклиффс;Redcliffs
+mi;Pūtōrino;Putorino
+ru;Пекеруа-Бэй;Pukerua Bay
+ms;Teluk Pukerua;Pukerua Bay
+zh;普克拉海湾;Pukerua Bay
+ru;Порируа;Porirua
+ko;포리루아;Porirua
+zh;波里魯阿;Porirua
+mi;Pari-ā-Rua;Porirua
+hi;पोरीरुआ;Porirua
+zh-Hans;波里鲁阿;Porirua
+ja;ポリルア市;Porirua
+ja;プリマートン;Plimmerton
+en;Pembroke;Wanaka
+ja;ワナカ;Wanaka
+ko;와나카;Wanaka
+zh;瓦納卡;Wanaka
+zh;帕奈尔;Parnell
+ru;Парапарауму;Paraparaumu
+es;Palmerston Norte;Palmerston North
+mi;Te Papa-i-oea;Palmerston North
+ru;Палмерстон-Норт;Palmerston North
+ja;パーマストンノース;Palmerston North
+ko;파머스턴노스;Palmerston North
+zh;北帕莫斯顿;Palmerston North
+ms;Palmerston Utara;Palmerston North
+en;Palmy;Palmerston North
+hi;पामर्स्टन नॉर्थ;Palmerston North
+mi;Ōtorohanga;Otorohanga
+mi;Ōtākou;Otakou
+zh;奧雷瓦;Orewa
+ja;オラティア;Oratia
+mi;Ōrātia;Oratia
+fr;Ohope;Ohope Beach
+es;Nueva Plymouth;New Plymouth
+ko;뉴플리머스;New Plymouth
+ru;Нью-Плимут;New Plymouth
+it;Distretto di New Plymouth;New Plymouth
+ja;ニュープリマス;New Plymouth
+mi;Ngāmotu;New Plymouth
+zh;新普利茅斯;New Plymouth
+hi;न्यू प्लिमथ;New Plymouth
+ru;Нельсон;Nelson
+ko;넬슨;Nelson
+ja;ネルソン;Nelson
+mi;Whakatū;Nelson
+zh;尼爾遜;Nelson
+hi;नेल्सन;Nelson
+en;Napier City;Napier
+ru;Нейпир;Napier
+ko;네이피어;Napier
+ja;ネーピア;Napier
+hi;नेपियर;Napier
+mi;Ahuriri;Napier
+zh;內皮爾;Napier
+mi;Te Kiekie;Mount Somers
+mi;Piwakawaka;Methven
+mi;Matapōuri;Matapouri
+en;Manukau;Manukau City
+ru;Манукау;Manukau City
+mi;Ōtī;Macraes Flat
+mi;Awakairangi;Lower Hutt
+ko;로어헛;Lower Hutt
+zh;下哈特;Lower Hutt
+ms;Hutt Bawah;Lower Hutt
+ru;Лоуэр-Хатт;Lower Hutt
+mi;Te Awakairangi;Lower Hutt
+hi;लोअर हट;Lower Hutt
+ja;ローワーハット;Lower Hutt
+en;Karere;Longburn
+ja;リンカーン;Lincoln
+ko;링컨;Lincoln
+ru;Линкольн;Lincoln
+es;Lago Tekapo;Lake Tekapo
+ja;ケリケリ;Kerikeri
+ko;케리케리;Kerikeri
+zh;凯里凯里;Kerikeri
+it;Distretto di Kawerau;Kawerau
+zh;卡罗里;Karori
+ja;カロリ;Karori
+ru;Каикоура;Kaikoura
+it;Distretto di Kaikoura;Kaikoura
+ja;カイコウラ;Kaikoura
+ko;카이코우라;Kaikoura
+ms;Daerah Kaikoura;Kaikoura
+zh;凱庫拉;Kaikoura
+mi;Kaihū;Kaihu
+mi;Kāeo;Kaeo
+mi;Waihopai;Invercargill
+ru;Инверкаргилл;Invercargill
+ja;インバーカーギル;Invercargill
+ko;인버카길;Invercargill
+zh;因弗卡吉尔;Invercargill
+hi;इन्वरकार्गिल;Invercargill
+mi;Hōreke;Horeke
+ja;ホマイ;Homai
+ru;Хиткот;Heathcote Valley
+ja;ヒースコート・ヴァリー;Heathcote Valley
+ru;Хейстингс;Hastings
+mi;Heretaunga;Hastings
+ja;ヘイスティングズ;Hastings
+ko;헤이스팅스;Hastings
+ms;Daerah Hastings;Hastings
+ja;ハミルトン;Hamilton
+mi;Kirikiriroa;Hamilton
+ru;Гамильтон;Hamilton
+zh;哈密尔顿;Hamilton
+ko;해밀턴;Hamilton
+hi;हैमिल्टन;Hamilton
+ru;Халсвелл;Halswell
+en;Half Moon Bay;Oban
+ja;グレン・イーデン;Glen Eden
+mi;Waiau;Franz Josef
+en;Franz Josef Glacier;Franz Josef
+zh-Hant;芬達爾頓;Fendalton
+zh;芬达尔顿;Fendalton
+ru;Фендалтон;Fendalton
+mi;Ōtepoti;Dunedin
+zh;但尼丁;Dunedin
+ru;Данидин;Dunedin
+hi;डनेडिन;Dunedin
+ja;ダニーデン;Dunedin
+ru;Даргавилл;Dargaville
+zh;達格維爾;Dargaville
+mi;Takiwira;Dargaville
+mi;Kapanga;Coromandel
+ja;クライストチャーチ;Christchurch
+ko;크라이스트처치;Christchurch
+mi;Ōtautahi;Christchurch
+zh;基督城;Christchurch
+zh;克赖斯特彻奇;Christchurch
+ru;Крайстчёрч;Christchurch
+hi;क्राइस्टचर्च;Christchurch
+ru;Крайстчерч;Christchurch
+ja;キャバーシャム;Caversham
+ru;Каслпоинт;Castlepoint
+zh;坎贝尔斯湾;Campbells Bay
+ja;ブルックリン;Brooklyn
+mi;Purarekanui;Belfast
+ru;Окленд;Auckland
+mi;Tāmaki-makau-rau;Auckland
+hi;ऑक्लैण्ड;Auckland
+ja;オークランド;Auckland
+ko;오클랜드;Auckland
+zh;奧克蘭都會區;Auckland
+tpi;Oklan;Auckland
+mi;Whārite;Ashhurst
+mi;Kōwai;Amberley
+mi;Albany Village;Albany
+ru;Албани;Albany
+ja;ハウェラ;Hawera
+mi;Te Tai-rāwhiti;Gisborne
+ru;Гисборн;Gisborne
+ko;기즈번;Gisborne
+ja;ギズボーン;Gisborne
+hi;गिस्बॉर्न;Gisborne
+zh;吉斯伯恩;Gisborne
+ru;Мастертон;Masterton
+it;Distretto di Masterton;Masterton
+ko;매스터턴;Masterton
+zh;马斯特顿;Masterton
+mi;Whakaoriori;Masterton
+ru;Хокитика;Hokitika
+ko;그레이마우스;Greymouth
+mi;Māwhera;Greymouth
+ja;グレイマウス;Greymouth
+ru;Греймут;Greymouth
+hi;ग्रेमाउथ;Greymouth
+ja;ウエストポート;Westport
+ko;웨스트포트;Westport
+mi;Kawatiri;Westport
+ja;ブルーフ;Bluff
+ko;블러프;Bluff
+zh;布拉夫;Bluff
+ru;Такапуна;Takapuna
+ko;타카푸나;Takapuna
+zh;塔卡普纳;Takapuna
+zh-Hant;塔卡普納;Takapuna
+ja;タカプナ;Takapuna
+ja;タウランガ;Tauranga
+mi;Tauranga-moana;Tauranga
+ru;Тауранга;Tauranga
+ko;타우랑가;Tauranga
+hi;टाइरंगा;Tauranga
+zh;陶朗加;Tauranga
+ru;Маунт Маунгануи;Mount Maunganui
+ms;Gunung Maunganui;Mount Maunganui
+ms;Pelabuhan Chalmers;Port Chalmers
+zh;查尔姆斯港;Port Chalmers
+it;Distretto di Whakatane;Whakatane
+ko;화카타네;Whakatane
+ru;Факатане;Whakatane
+zh;華卡塔尼;Whakatane
+hi;व्हाकाटेन;Whakatane
+ja;ワカタネ;Whakatane
+ru;Темс;Thames
+zh;泰晤士;Thames
+it;Distretto di Gore;Gore
+ko;고어;Gore
+ru;Гор;Gore
+mi;Maruawai;Gore
+ja;クイーンズタウン;Queenstown
+it;Distretto di Queenstown;Queenstown
+ko;퀸스타운;Queenstown
+ru;Квинстаун;Queenstown
+zh;皇后镇;Queenstown
+ru;Эрроутаун;Arrowtown
+ru;Кромвель;Cromwell
+ja;アレクサンドラ;Alexandra
+mi;Manuherikia;Alexandra
+ru;Джералдин;Geraldine
+ja;オマルー;Oamaru
+ru;Оамару;Oamaru
+it;Distretto di Ashburton;Ashburton
+ja;アシュバートン;Ashburton
+ko;애슈버턴;Ashburton
+ru;Ашбертон;Ashburton
+mi;Hakatere;Ashburton
+ko;리틀턴;Lyttelton
+ja;リトルトン;Lyttelton
+ru;Литтелтон;Lyttelton
+zh;利特爾頓;Lyttelton
+mi;Ōhinehou;Lyttelton
+ru;Акароа;Akaroa
+it;Distretto di Stratford;Stratford
+ja;ストラトフォード;Stratford
+mi;Whakaahurangi;Stratford
+ru;Стратфорд;Stratford
+it;Distretto di Carterton;Carterton
+mi;Taratahi;Carterton
+ja;カイタイア;Kaitaia
+ko;카이타이아;Kaitaia
+ru;Каитаиа;Kaitaia
+zh;凱塔亞;Kaitaia
+ru;Вангареи;Whangarei
+it;Distretto di Whangarei;Whangarei
+ja;ファンガレイ;Whangarei
+ko;황아레이;Whangarei
+mi;Whangārei-terenga-paraoa;Whangarei
+ru;Фангареи;Whangarei
+zh;旺阿雷;Whangarei
+hi;वांगरेई;Whangarei
+ja;ニュー・リン;New Lynn
+en;Mt Eden;Mount Eden
+ja;レムエラ;Remuera
+ru;Матамата;Matamata
+ru;Кеймбридж;Cambridge
+mi;Rotorua-nui-a-Kahu;Rotorua
+zh;罗托路亚;Rotorua
+ru;Роторуа;Rotorua
+it;Distretto di Rotorua;Rotorua
+ja;ロトルア;Rotorua
+ko;로토루아;Rotorua
+ru;Пиктон;Picton
+ja;ピクトン;Picton
+ko;픽턴;Picton
+mi;Waitohi;Picton
+ru;Бленхейм;Blenheim
+ko;블레넘;Blenheim
+ja;ブレナム;Blenheim
+ru;Бленем;Blenheim
+zh;布倫亨;Blenheim
+zh;布伦亨;Blenheim
+hi;ब्लेनहाइम;Blenheim
+ja;マウント・ヴィクトリア;Mount Victoria
+mi;Matairangi;Mount Victoria
+zh;維多利亞山;Mount Victoria
+ko;어퍼헛;Upper Hutt
+ru;Аппер-Хатт;Upper Hutt
+ms;Hutt Atas;Upper Hutt
+mi;Te Awa Kairangi ki Uta;Upper Hutt
+hi;ऊपरी हट;Upper Hutt
+zh-Hans;乌伯亨特;Upper Hutt
+zh;烏伯亨特;Upper Hutt
+ja;アッパーハット;Upper Hutt
+mi;Tāmaki-nui-a-Rua;Dannevirke
+de;Wairoa-Distrikt;Wairoa
+it;Distretto di Wairoa;Wairoa
+de;Ngāruawāhia;Ngaruawahia
+zh-Hant;聖殿景;Temple View
+zh;圣殿景;Temple View
+de;Harihari;Hari Hari

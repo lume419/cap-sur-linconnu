@@ -1,0 +1,76 @@
+0;134.6410,7.7001;96940;Ngarchelong;Iebukel Hamlet
+1045;134.5016,7.3398;96940;Koror;Ngermid Hamlet
+0;134.2555,7.0419;96940;Peleliu;Kloulklubed Hamlet
+491;134.4791,7.3445;96940;Koror;Tngeronger Hamlet
+0;134.5803,7.3847;96940;Airai;Ngchesechang Hamlet
+1404;134.4762,7.3325;96940;Koror;Ngerbeched Hamlet
+0;134.5877,7.3719;96940;Airai;Oikull Hamlet
+0;134.4529,7.3466;96940;Koror;Echang Hamlet
+14000;134.4733,7.3398;96940;Koror;Koror
+0;134.6347,7.4997;96940;Melekeok;Ngermelech Hamlet
+0;134.4760,7.4460;96940;Aimeliik;Ngchemiangel Hamlet
+0;134.4469,7.3513;96940;Koror;Echol Hamlet
+537;134.4837,7.3430;96940;Koror;Idid Hamlet
+0;134.4979,7.4207;96940;Aimeliik;Ngerkeai Hamlet
+1376;134.4889,7.3500;96940;Koror;Ngerchemai Hamlet
+0;134.5144,7.3644;96940;Airai;Ngetkib Hamlet
+581;134.6421,7.6242;96940;Ngaraard;Ulimang
+0;134.6141,7.7199;96940;Ngarchelong;Chollei Hamlet
+0;134.6361,7.6903;96940;Ngarchelong;Ngriil Hamlet
+0;134.6148,7.5044;96940;Melekeok;Ertong Hamlet
+0;134.6166,7.4836;96940;Ngchesar;Ngeruikl Hamlet
+0;134.5241,7.3645;96940;Airai;Ngeruluobel Hamlet
+0;134.6037,7.4530;96940;Ngchesar;Ngerngesang Hamlet
+0;134.5027,7.5225;96940;Ngeremlengui;Ngermetengel Hamlet
+0;134.4800,7.4316;96940;Aimeliik;Elechui Hamlet
+637;134.4830,7.3471;96940;Koror;Meketii Hamlet
+693;134.4465,7.3544;96940;Koror;Ngerekebesang Hamlet
+223;134.6361,7.5546;96940;Ngiwal;Ngerkeai
+0;134.4939,7.3500;96940;Koror;Ngerbodel Hamlet
+0;134.6411,7.7029;96940;Ngarchelong;Ngerbau Hamlet
+0;134.6293,7.5076;96940;Melekeok;Ngeburch Hamlet
+320;134.1313,6.9033;96940;Angaur;Angaur
+938;134.4596,7.3538;96940;Koror;Meyungs Hamlet
+271;134.6367,7.4957;96940;Melekeok;Melekeok Village
+0;134.4790,7.4565;96940;Aimeliik;Medorm Hamlet
+0;134.4856,7.4883;96940;Ngatpang;Ngereklmadel
+640;134.4859,7.3493;96940;Koror;Iyebukel Hamlet
+132;134.5271,7.5313;96940;Ngeremlengui;Imeong Hamlet
+0;134.5103,7.3973;96940;Aimeliik;Eimelik Hamlet
+0;134.6388,7.6357;96940;Ngaraard;Chelab Hamlet
+0;134.5595,7.3598;96940;Airai;Airai Hamlet
+300;134.6099,7.4693;96940;Ngchesar;Ngchesar Hamlet
+0;134.6359,7.6706;96940;Ngaraard;Chol Hamlet
+0;134.5062,7.4574;96940;Aimeliik;Elauesachel Hamlet
+0;134.6309,7.4897;96940;Melekeok;Ngerubesang Hamlet
+0;134.2656,7.0397;96940;Peleliu;Imelechol Hamlet
+0;134.6367,7.6989;96940;Ngarchelong;Ngebei Hamlet
+0;134.4848,7.4882;96940;Ngatpang;Ngereklmadel
+0;134.6048,7.4636;96940;Ngchesar;Ngerkesou Hamlet
+639;134.4895,7.3430;96940;Koror;Ngerkeseuaol Hamlet
+0;134.5950,7.4348;96940;Ngchesar;Ngersuul Hamlet
+0;134.5358,7.3541;96940;Airai;Ngersung Hamlet
+0;134.6325,7.5053;96940;Melekeok;Ngeruling Hamlet
+0;134.5297,7.3599;96940;Airai;Ngerusar Hamlet
+0;134.6437,7.6269;96940;Ngaraard;Ngesang
+488;134.6305,7.6957;96940;Ngarchelong;Mengellang
+0;134.6402,7.5930;96940;Ngaraard;Ngkeklau Hamlet
+188;134.1300,6.9060;96940;Angaur;Angaur State
+0;134.5742,7.6099;96940;Ngardmau;Ngardmau Village
+0;134.5457,7.3605;96940;Airai;Yelch - New Village
+44;131.1217,3.0049;96940;Hatohobei;Tobi Village
+30;132.2194,5.3261;96940;Sonsorol;Sonsorol Village
+0;131.9490,4.6540;96940;Sonsorol;Pulo Anna Village
+188;134.7173,8.0823;96940;Kayangel;Kayangel
+702;134.2556,7.0419;96940;Peleliu;Kloulklubed
+0;134.6305,7.6419;96940;Ngaraard;Ngebuked Hamlet
+0;134.5552,7.3811;96940;Airai;Ordomel Hamlet
+62;134.5148,7.3645;96940;Airai;Ngetkib
+270;134.4768,7.4461;96940;Aimeliik;Ngchemiangel
+221;134.5744,7.6099;96940;Ngardmau;Ngardmau
+0;134.6360,7.4920;96940;Melekeok;Ngeremecheluch Hamlet
+12676;134.4789,7.3426;96940;Koror;Koror Town
+0;134.6135,7.4767;96940;Ngchesar;Ngeraus Hamlet
+0;134.6238,7.5008;96940;Melekeok;Ngerulmud
+0;134.5427,7.3618;96940;;Kesebalau
+0;134.2520,7.0353;96940;;Koska

@@ -1,0 +1,51 @@
+45;-157.9262,-8.9587;CK-11695388;Penrhyn;Te Tautua
+180;-158.0531,-8.9798;CK-11695388;Penrhyn;Omoka
+0;-159.7782,-18.8710;CK-11695124;Aitutaki;Vaipae
+0;-161.0102,-10.3752;CK-11695384;Manihiki;Tukao
+0;-159.7587,-21.2713;CK;;Titikaveka
+51;-158.1147,-19.9935;CK-11695126;Atiu;Tengatangi Village
+0;-158.1226,-19.9927;CK-11695126;Atiu;Teenui Village
+69;-161.0340,-10.4236;CK-11695384;Manihiki;Tauhunu
+0;-157.9080,-21.9505;CK-11695127;Mangaia;Tamarua Village
+0;-157.9603,-21.9200;CK;;Oneroa
+0;-157.3667,-20.1333;CK;;Nukuao
+0;-157.7167,-19.8167;CK;;Nukatere
+0;-158.1206,-19.9981;CK-11695126;Atiu;Ngatiarua Village
+0;-157.3433,-20.1528;CK-11695385;Ma'uke;Ngatiarua
+0;-159.7316,-21.2377;CK;;Ngatangiia
+0;-158.1167,-20.0167;CK;;Natikitea
+0;-159.7320,-21.2565;CK-11695425;Rarotonga;Muri
+0;-158.1194,-19.9891;CK-11695126;Atiu;Mapumai Village
+0;-157.8953,-21.9177;CK-11695127;Mangaia;Ivirua Village
+0;-159.7866,-21.2038;CK;;Avatiu
+13373;-159.7755,-21.2075;CK-11695425;Rarotonga;Avarua
+143;-159.7981,-18.8651;CK-11695124;Aitutaki;Arutanga
+0;-158.1161,-19.9993;CK-11695126;Atiu;Areora
+173;-157.3444,-20.1633;CK-11695385;Ma'uke;Areora
+285;-159.7929,-18.8519;CK-11695124;Aitutaki;Amuri
+57;-163.1895,-18.0544;CK-11695387;Palmerston;Palmerston
+0;-157.7167,-19.6972;CK;;Mangarei Village
+0;-157.3565,-20.1437;CK-11695385;Ma'uke;Kimiangatau Village
+0;-157.9021,-21.9078;CK-11695127;Mangaia;Karanga Village
+0;-159.8094,-21.2067;CK;;Nikao
+0;-159.7582,-21.2049;CK;;Pue
+1018;-159.7333,-21.2244;CK-11695425;Rarotonga;Matavera
+0;-159.7854,-18.8744;CK-11695124;Aitutaki;Tautu
+0;-159.7746,-18.8453;CK;;Vaipeka
+0;-159.8007,-18.8712;CK-11695124;Aitutaki;Nikaupara
+0;-159.7992,-18.8680;CK;;Reureu
+0;-159.7917,-21.2571;CK-11695425;Rarotonga;Vaimaanga Tapere
+0;-158.9632,-19.2643;CK;;Vai Toka
+0;-159.8223,-21.2271;CK;;Arerenga Tepere
+0;-159.8196,-21.2357;CK;;Akaoa Tapere
+0;-159.8136,-21.2403;CK;;Vaiakura Tapere
+128;-157.7180,-19.8596;CK-11695386;Mitiaro;Mangarei
+89;-165.8368,-10.9123;CK-11695389;Pukapuka;Motu Koe
+73;-165.8677,-10.8926;CK-11695389;Pukapuka;Moto Kavata
+0;-161.1018,-10.0317;CK-11695390;Rakahanga;Nivano
+0;-161.1013,-10.0314;CK;;Matara
+0;-157.7179,-19.8589;CK;;Auta Village
+0;-157.7186,-19.8576;CK;;Atai Village
+0;-157.7190,-19.8624;CK;;Takaue Village
+0;-159.7969,-18.8616;CK;;Ureia
+0;-157.3456,-20.1527;CK;;Oiretumu Village

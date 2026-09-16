@@ -1,0 +1,2212 @@
+0;177.3936,-17.8087;FJ-05;Western;Yavusania
+0;177.5365,-17.8258;FJ-05;Western;Yavuna
+0;177.5167,-18.1500;FJ-05;Western;Yavulo
+0;179.1484,-17.7861;FJ-02;Eastern;Yavu
+0;178.3160,-19.0076;FJ-02;Eastern;Yavitu
+0;177.5798,-16.7077;FJ-05;Western;Yasawairara
+0;179.6500,-16.4833;FJ-03;Northern;Yasawa
+0;178.7745,-17.6239;FJ-02;Eastern;Arovudi
+0;179.3482,-16.7755;FJ-03;Northern;Yaroi
+0;178.3733,-18.9435;FJ-02;Eastern;Yaro Settlement
+0;177.1756,-17.7357;FJ-05;Western;Yaro
+0;177.9403,-18.2466;FJ-01;Central;Yarawa Settlement
+0;177.0662,-17.5978;FJ-05;Western;Yanuya
+0;177.9948,-18.3841;FJ-01;Central;Yanuca
+0;178.7818,-17.7653;FJ-02;Eastern;Yanuca
+0;178.5951,-16.5958;FJ-03;Northern;Yaqaga
+0;177.4649,-18.1687;FJ-05;Western;Yadua
+0;179.3601,-18.0760;FJ-02;Eastern;Yadua
+0;177.1201,-17.3067;FJ-05;Western;Yalobi
+0;177.6226,-17.6636;FJ-05;Western;Yaloku Settlement
+0;179.2183,-16.4274;FJ-03;Northern;Yalava
+0;177.3352,-17.8624;FJ-05;Western;Yako
+0;178.0446,-19.0724;FJ-02;Eastern;Yakita
+0;176.9277,-17.1277;FJ-05;Western;Yakani
+0;177.1460,-17.2738;FJ-05;Western;Wayalevu
+0;179.5333,-16.6000;FJ-03;Northern;Wavu
+0;178.4333,-18.1000;FJ-01;Central;Warua
+0;179.5170,-16.6431;FJ-03;Northern;Werekaba Settlement
+0;177.7139,-17.8403;FJ-05;Western;Wouosi Settlement
+0;178.1143,-18.1825;FJ-01;Central;Waiyanitu Settlement
+0;177.9833,-18.2500;FJ-01;Central;Waivunu
+0;179.4059,-16.7887;FJ-03;Northern;Waivunia
+0;178.5657,-18.0994;FJ-01;Central;Waivou
+0;178.1783,-18.0332;FJ-01;Central;Waivaka
+0;178.8287,-17.6645;FJ-02;Eastern;Waitovu
+0;179.4263,-17.7947;FJ-02;Eastern;Waitoga
+0;178.4667,-17.8000;FJ-01;Central;Waito
+0;178.6388,-18.0213;FJ-01;Central;Waicoka
+0;179.9743,-16.8286;FJ-03;Northern;Waica Settlement
+0;178.5500,-16.8000;FJ-03;Northern;Waitambu
+0;178.1154,-19.0828;FJ-02;Eastern;Waisomo
+0;178.4768,-18.9227;FJ-02;Eastern;Waisomo
+0;178.1312,-18.3588;FJ-01;Central;Waisomo
+0;178.2084,-17.7288;FJ-01;Central;Waisomo
+0;179.2369,-16.6467;FJ-03;Northern;Waisali
+0;178.3167,-17.8000;FJ-01;Central;Waisa
+0;179.0687,-16.8934;FJ-03;Northern;Waisa
+0;178.2118,-17.6372;FJ-05;Western;Nawairuku
+0;178.1994,-17.7136;FJ-01;Central;Wairuarua
+0;178.6661,-16.9274;FJ-03;Northern;Wairiki
+0;179.9117,-16.9292;FJ-03;Northern;Waioba Estate Settlement
+0;178.0263,-18.2643;FJ-01;Central;Wainiyabia Settlement
+0;178.5667,-17.9333;FJ-01;Central;Wainisikia
+0;179.8189,-16.3192;FJ-03;Northern;Wainigadru
+0;178.0756,-17.9711;FJ-01;Central;Wainimakutu
+0;178.0054,-18.0844;FJ-01;Central;Wainilotulevu
+0;178.4167,-17.9500;FJ-01;Central;Wainikia
+0;179.9248,-16.2095;FJ-03;Northern;Wainika
+0;178.3693,-18.1345;FJ-01;Central;Waiqanake
+0;178.3087,-17.8342;FJ-01;Central;Waidracia
+0;178.7483,-17.6905;FJ-02;Eastern;Waidau Settlement
+0;178.2885,-17.9895;FJ-01;Central;Wainawaqa
+0;178.0144,-18.1101;FJ-01;Central;Wainandiro
+0;178.0093,-18.1168;FJ-01;Central;Waibogi
+0;178.1090,-17.8067;FJ-01;Central;Waibasaga
+0;178.2356,-17.7660;FJ-01;Central;Waibalavu
+0;179.9007,-16.9357;FJ-03;Northern;Waimaqera Settlement
+0;178.4063,-17.7621;FJ-01;Central;Wailotua
+0;178.4241,-18.0897;FJ-01;Central;Wailoku
+0;178.1617,-19.0910;FJ-02;Eastern;Wailevu
+0;178.3357,-17.6830;FJ-01;Central;Wailevu
+0;179.2435,-16.6978;FJ-03;Northern;Wailevu
+0;179.8167,-16.5167;FJ-03;Northern;Wailevu
+0;179.3275,-16.4322;FJ-03;Northern;Wailevu
+0;177.9388,-17.5444;FJ-05;Western;Waikubukubu
+0;178.6066,-18.0485;FJ-01;Central;Waikete
+0;179.2655,-18.0216;FJ-02;Eastern;Nawaikama
+0;179.3500,-16.7833;FJ-03;Northern;Waikama
+0;178.7294,-17.0101;FJ-03;Northern;Vuya
+0;179.4345,-17.8153;FJ-02;Eastern;Vatuni Settlement
+0;178.5913,-18.0853;FJ-01;Central;Vuci
+0;179.7667,-16.5667;FJ-03;Northern;Vusasivo
+0;179.7333,-16.6000;FJ-03;Northern;Vusaratu
+0;177.3197,-18.0806;FJ-05;Western;Vusama Settlement
+0;179.3756,-16.3712;FJ-03;Northern;Vuo
+0;179.9167,-18.5833;FJ;;Vunuku
+0;178.5576,-18.1217;FJ-01;Central;Vunuku
+0;178.1039,-17.5237;FJ-05;Western;Vuniyaumunu Settlement
+0;179.7654,-16.4075;FJ-03;Northern;Vuniwai
+0;179.5137,-16.2943;FJ-03;Northern;Vunivutu
+0;179.5667,-16.5667;FJ-03;Northern;Vunivota
+0;179.2911,-16.6722;FJ-03;Northern;Vunivesi
+0;179.4036,-16.4189;FJ-03;Northern;Vunivau
+0;178.5863,-18.0404;FJ-01;Central;Vunivaivai
+0;178.2833,-18.1667;FJ-01;Central;Vunisotho
+0;178.5772,-18.1128;FJ-01;Central;Vunisinu
+0;178.3321,-17.8105;FJ-01;Central;Vuisiga
+0;178.2753,-18.9812;FJ-02;Eastern;Vunisei
+0;178.5543,-18.0542;FJ-01;Central;Vunisei
+0;178.1629,-19.0478;FJ;;Vunisea
+0;178.1385,-17.4891;FJ-05;Western;Vunisea
+0;178.9165,-16.6067;FJ-03;Northern;Vunisea
+0;178.4929,-18.0199;FJ-01;Central;Vuniniudrovu Settlement
+0;178.2807,-17.8331;FJ-01;Central;Vuniduba Creek
+0;178.0583,-17.3696;FJ-05;Western;Vunitogoloa
+0;179.5023,-16.6700;FJ-03;Northern;Vunidogoloa
+0;178.3211,-17.8245;FJ-01;Central;Vunidawa
+0;179.1606,-16.7356;FJ-03;Northern;Vunindamoli
+0;178.5333,-18.0333;FJ-01;Central;Vunimono
+0;177.3667,-16.9333;FJ-05;Western;Vunimoli
+0;179.3918,-16.4994;FJ-03;Northern;Vunimoli
+0;179.2333,-16.4500;FJ-03;Northern;Vunimoli
+0;178.1466,-18.2573;FJ-01;Central;Vunibau
+0;178.1333,-18.0500;FJ-01;Central;Vunimbau
+0;178.0150,-18.2661;FJ-01;Central;Vunimaqo Settlement
+0;179.6406,-16.7578;FJ-03;Northern;Vunilagi Settlement
+0;179.8608,-16.6766;FJ-03;Northern;Vunikura
+0;178.7934,-17.6904;FJ-02;Eastern;Vuniivisavu
+0;177.6387,-18.1254;FJ-05;Western;Vunayawa
+0;177.4096,-17.8239;FJ-05;Western;Vunayasi
+0;177.5010,-18.1570;FJ-05;Western;Vunavutu
+0;177.4839,-18.0957;FJ-05;Western;Vunatovau
+0;177.8667,-17.9500;FJ-05;Western;Vunatoto
+0;177.8643,-18.2485;FJ-01;Central;Vunaniu
+0;177.6459,-17.9747;FJ-05;Western;Vunaqoru
+0;177.4893,-17.9476;FJ-05;Western;Vunamoli
+0;177.3264,-18.1129;FJ-05;Western;Vunambua
+0;178.8285,-17.6578;FJ-02;Eastern;Vuma
+0;178.3261,-19.0216;FJ-02;Eastern;Vukavu
+0;179.2338,-16.5540;FJ-03;Northern;Vuiraqilai
+0;178.9797,-16.6389;FJ-03;Northern;Vuinaqalutu
+0;179.5500,-16.6000;FJ-03;Northern;Vuinandi
+0;179.3179,-16.5145;FJ-03;Northern;Vunikawakawa Settlement
+0;179.3086,-16.7120;FJ-03;Northern;Vuadomo
+0;177.3420,-16.9664;FJ-05;Western;Vuake
+0;177.4214,-18.1333;FJ-05;Western;Voua
+0;177.6915,-18.2032;FJ-05;Western;Votualailai
+0;177.7100,-18.2084;FJ-05;Western;Votua
+0;177.6655,-17.4903;FJ-05;Western;Votua
+0;178.7208,-16.6689;FJ-03;Northern;Votua
+0;178.4861,-17.6418;FJ-01;Central;Vorovoro
+0;177.4895,-18.1575;FJ-05;Western;Volivoli
+0;177.7138,-17.9643;FJ-05;Western;Volinagerua
+0;178.6159,-17.9397;FJ-01;Central;Viwa
+0;179.3753,-16.7968;FJ-03;Northern;Vivili
+0;177.4956,-17.5922;FJ-05;Western;Vitogo
+0;179.7100,-16.3141;FJ-03;Northern;Vitina
+0;178.1113,-17.3721;FJ-05;Western;Vitawa
+0;178.8056,-17.7271;FJ-02;Eastern;Visoto Settlement
+0;179.6627,-16.2174;FJ-03;Northern;Visoqo
+0;177.4091,-17.6876;FJ-05;Western;Viseisei
+0;178.5768,-18.0531;FJ-01;Central;Visama Settlement
+0;178.5419,-17.9552;FJ-01;Central;Visa Settlement
+0;178.4066,-17.9173;FJ-01;Central;Viria
+0;179.2923,-17.9413;FJ-02;Eastern;Vione
+0;179.5817,-16.7425;FJ-03;Northern;Viani
+0;179.3731,-16.3441;FJ-03;Northern;Vesi
+0;178.3768,-17.5479;FJ-05;Western;Verevere
+0;178.5224,-17.9982;FJ-01;Central;Verata
+0;178.2156,-18.1972;FJ-01;Central;Veivatuloa
+0;178.5471,-17.8427;FJ-01;Central;Veinuqa
+0;178.3371,-17.4818;FJ-05;Western;Veidrala
+0;179.4480,-16.3112;FJ-03;Northern;Vavalagi
+0;179.8667,-18.6167;FJ;;Vaua
+0;178.4392,-18.0261;FJ-01;Central;Navatuvula
+0;179.0602,-16.7320;FJ-03;Northern;Vatuvonu
+0;177.4415,-17.8181;FJ-05;Western;Vatutu
+0;177.7475,-17.4486;FJ-05;Western;Vatutavui Set
+0;179.2782,-16.4273;FJ-03;Northern;Vatutadova
+0;178.1322,-17.3941;FJ-05;Western;Vatusekiyasawa
+0;178.6052,-18.0728;FJ-01;Central;Vaturua
+0;177.8070,-17.8747;FJ-05;Western;Vatumbalavu
+0;179.3333,-16.5000;FJ-03;Northern;Vatulovona
+0;179.3950,-17.2479;FJ-02;Eastern;Vatulele
+0;179.3154,-16.7199;FJ-03;Northern;Vatulele
+0;179.5167,-16.5833;FJ-03;Northern;Vatukutha
+5580;177.8498,-17.5014;FJ-05;Western;Vatukoula
+0;178.0796,-17.4216;FJ-05;Western;Vatukacevaceva
+0;179.7806,-16.3765;FJ-03;Northern;Vatukaroa Settlement
+0;177.6045,-18.1820;FJ-05;Western;Vatukarasa
+0;178.3840,-17.8301;FJ-01;Central;Vatukarasa
+0;178.8205,-17.6429;FJ-02;Eastern;Vatukalo
+0;179.9326,-16.2079;FJ-03;Northern;Vatu
+0;179.9000,-16.7500;FJ-03;Northern;Vatolotolo
+0;178.6336,-18.0012;FJ-01;Central;Vatoa
+0;179.0935,-16.4557;FJ-03;Northern;Vatoa
+0;178.4295,-19.0244;FJ-02;Eastern;Vacaleya
+0;178.6835,-18.0072;FJ-01;Central;Vatani
+0;177.6799,-17.5400;FJ-05;Western;Varoka
+0;179.6333,-16.5000;FJ-03;Northern;Vanuavou
+0;179.3132,-17.9662;FJ-02;Eastern;Vanuaso
+0;178.5883,-18.0798;FJ-01;Central;Vanuadina
+0;178.5704,-18.1029;FJ-01;Central;Vanualevu
+0;177.9546,-17.7397;FJ-05;Western;Vanualevu
+0;178.3533,-17.9553;FJ-01;Central;Vanuakula
+0;178.1484,-17.6151;FJ-05;Western;Vanuakula
+0;177.4500,-17.9833;FJ-05;Western;Vagadra
+0;178.8308,-17.6719;FJ-02;Eastern;Vagadaci
+0;179.8652,-16.7712;FJ-03;Northern;Vagai Settlement
+0;179.3560,-18.1085;FJ;;Vandravandra
+0;177.6967,-17.5112;FJ-05;Western;Vadravadra
+0;178.5462,-17.8205;FJ-01;Central;Vadrakula Settlement
+0;178.6566,-18.0812;FJ-01;Central;Vadrai
+0;179.8500,-18.6000;FJ;;Vandra
+0;178.4759,-18.9213;FJ-02;Eastern;Vabea
+0;179.6424,-16.4235;FJ-03;Northern;Valovoni
+0;179.1238,-16.7408;FJ-03;Northern;Valeni
+0;179.2591,-16.6753;FJ-03;Northern;Vakativa
+0;177.5559,-17.6106;FJ-05;Western;Vakabuli
+0;177.1038,-12.4885;FJ-04;Rotuma;Vairama
+0;178.2442,-17.4104;FJ-05;Western;Vaidoko
+5964;178.1533,-17.3789;FJ-05;Western;Vaileka
+0;177.1325,-12.5209;FJ-04;Rotuma;Ututu
+0;177.1167,-12.5167;FJ-04;Rotuma;Utu
+0;177.4579,-17.9380;FJ-05;Western;Uto
+0;178.6246,-17.8501;FJ-01;Central;Ucunivanua
+0;179.3388,-16.7284;FJ-03;Northern;Urata
+0;177.0334,-12.5081;FJ-04;Rotuma;Upu
+0;178.7618,-17.7860;FJ-02;Eastern;Uluibau
+0;177.1028,-12.5217;FJ-04;Rotuma;Ujia
+0;177.1008,-12.5221;FJ-04;Rotuma;Uanheta
+0;177.7016,-17.9506;FJ-05;Western;Tuvu
+0;177.5970,-17.8623;FJ-05;Western;Tubenasolo
+0;178.5000,-17.9500;FJ-01;Central;Tumbalevu
+0;177.5833,-18.0000;FJ-05;Western;Tumbairata
+0;178.5871,-18.0603;FJ-01;Central;Tumavia
+0;179.8333,-16.6333;FJ-03;Northern;Tukavesi
+0;179.4378,-17.2934;FJ-02;Eastern;Tuatua
+0;177.1167,-12.5167;FJ-04;Rotuma;Tuapona
+0;177.0685,-12.5198;FJ-04;Rotuma;Tuakoi
+0;177.0784,-12.5211;FJ-04;Rotuma;Tuai
+0;178.4361,-17.9656;FJ-01;Central;Tovutovu Settlement
+0;179.4047,-17.8074;FJ-02;Eastern;Tovulailai
+0;177.5667,-17.9500;FJ-05;Western;Tore
+0;177.7115,-17.9624;FJ-05;Western;Tonuve
+0;178.0112,-17.4047;FJ-05;Western;Togovere
+0;177.4181,-18.1046;FJ-05;Western;Togovere
+0;177.7403,-17.6284;FJ-05;Western;Toge
+0;177.6056,-17.9777;FJ-05;Western;Toga
+0;178.2684,-17.6235;FJ-05;Western;Tobu Settlement
+0;178.8248,-17.7206;FJ-02;Eastern;Tokou
+0;177.5882,-17.7874;FJ-05;Western;Toko
+0;178.8228,-17.6477;FJ-02;Eastern;Toki
+0;179.9766,-16.8249;FJ-03;Northern;Natokalau Settlement
+0;179.7618,-19.1194;FJ-02;Eastern;Natokalau
+0;178.3381,-19.0248;FJ-02;Eastern;Jioma
+0;177.4857,-18.0739;FJ-05;Western;Tilivalevu Settlement
+0;178.4523,-18.9668;FJ-02;Eastern;Tiliva
+0;178.6133,-16.8007;FJ-03;Northern;Tiliva
+0;177.0500,-12.5000;FJ;;Tia
+0;177.4300,-18.1466;FJ-05;Western;Cuvu
+0;177.8333,-17.7000;FJ-05;Western;Thuvu
+0;177.9866,-18.2674;FJ-01;Central;Culanuku
+0;178.8987,-16.8275;FJ-03;Northern;Cogea
+0;178.4455,-18.0479;FJ-01;Central;Colo-i-Suva
+0;178.1090,-19.1361;FJ-02;Eastern;Cevai
+0;178.7467,-17.6540;FJ-02;Eastern;Cawatara Settlement
+0;179.8492,-16.2253;FJ-03;Northern;Cawaro
+0;179.6735,-16.2217;FJ-03;Northern;Cawadevo
+0;178.7874,-16.9959;FJ-03;Northern;Nacavaga
+0;178.6234,-17.9962;FJ-01;Central;Cautata
+0;178.4653,-18.1033;FJ-01;Central;Caubati
+0;178.1570,-18.2137;FJ-01;Central;Calia Settlement
+0;179.8833,-18.6333;FJ;;Thakova
+0;177.5189,-16.7919;FJ-05;Western;Teci
+0;178.0213,-19.0975;FJ-02;Eastern;Tawava
+0;177.6207,-17.9808;FJ-05;Western;Natawatawadi
+0;179.8611,-16.2577;FJ-03;Northern;Tawake
+0;178.6464,-16.8855;FJ-03;Northern;Tavulomo
+0;178.1079,-19.0774;FJ-02;Eastern;Tavuki
+0;177.0871,-17.6149;FJ-05;Western;Vula Settlement
+8810;177.8622,-17.4422;FJ-05;Western;Tavua
+0;179.3631,-17.2957;FJ-02;Eastern;Tavua
+0;178.7680,-17.6296;FJ-02;Eastern;Taviya
+0;178.7266,-16.6254;FJ-03;Northern;Tavea
+0;177.6436,-18.5109;FJ-05;Western;Taunovo
+0;178.2937,-17.8267;FJ-01;Central;Taulevu
+0;177.2808,-17.9701;FJ-05;Western;Tau
+0;179.6182,-16.7728;FJ-03;Northern;Tacilevu
+0;179.5833,-16.2000;FJ-03;Northern;Tathilau
+0;178.6004,-18.1124;FJ-01;Central;Taci
+0;177.6575,-18.1960;FJ-05;Western;Tagaqe
+0;177.4489,-16.8411;FJ-05;Western;Tamasua
+0;177.0536,-12.4921;FJ;;Tamura
+0;178.0549,-19.1542;FJ-02;Eastern;Tabuya
+0;177.7731,-17.7540;FJ-05;Western;Tabuquto
+0;179.2455,-16.4585;FJ-03;Northern;Tabia
+0;177.7612,-17.7515;FJ-05;Western;Tabalei
+0;178.4500,-18.1000;FJ-01;Central;Tamavua Heights
+0;177.7056,-17.4986;FJ-05;Western;Talecake Set
+0;178.0063,-19.1067;FJ-02;Eastern;Talaulia
+0;178.7671,-17.7131;FJ-02;Eastern;Tai Settlement
+0;178.4128,-18.1148;FJ-01;Central;Suvavou Village
+0;178.5810,-18.1007;FJ-01;Central;Suvalailai
+77366;178.4253,-18.1368;FJ-01;Central;Suva
+0;177.0961,-12.5221;FJ-04;Rotuma;Sumi
+0;178.1659,-18.3836;FJ-01;Central;Soliyaga
+0;179.3536,-16.5688;FJ-03;Northern;Suweni
+0;178.4965,-17.8758;FJ-01;Central;Sote
+0;178.3207,-19.0123;FJ-02;Eastern;Soso
+0;177.2230,-17.1277;FJ-05;Western;Soso
+0;177.7040,-17.4899;FJ-05;Western;Sorokoba
+0;179.5481,-16.2645;FJ-03;Northern;Sogobiau
+0;179.2414,-18.0104;FJ-02;Eastern;Somosomo
+0;177.2613,-17.1022;FJ-05;Western;Somosomo
+0;178.4243,-18.9786;FJ-02;Eastern;Solotavui
+0;178.1196,-19.0750;FJ-02;Eastern;Solodamu
+0;177.1828,-17.7466;FJ-05;Western;Solevu
+0;178.7667,-17.0000;FJ-03;Northern;Solevu
+0;178.3679,-17.6577;FJ-05;Western;Soa
+0;177.4061,-16.9262;FJ-05;Western;Naisisili
+0;179.4327,-17.3347;FJ-02;Eastern;Sinuvaca
+17622;177.5069,-18.1431;FJ-05;Western;Sigatoka
+0;178.5583,-18.1027;FJ-01;Central;Nasigatoka
+0;179.7302,-16.1978;FJ-03;Northern;Silivakatini Settlement
+0;178.4900,-17.5840;FJ-01;Central;Silana
+0;177.3949,-17.8000;FJ-05;Western;Sikituru
+0;178.8836,-16.5589;FJ-03;Northern;Seseniga Settlement
+0;179.7857,-16.3727;FJ-03;Northern;Sese
+0;177.9240,-18.2752;FJ-01;Central;Serua
+0;178.3007,-17.8492;FJ-01;Central;Serea
+0;177.3749,-18.0823;FJ-05;Western;Semo
+0;179.5500,-16.5000;FJ-03;Northern;Seavathi
+0;177.7826,-17.9039;FJ-05;Western;Saweni
+0;178.1133,-17.8357;FJ-01;Central;Sawanikula
+0;178.4715,-18.0234;FJ-01;Central;Sawani
+0;178.8144,-16.9109;FJ-03;Northern;Sawani
+0;178.5471,-17.7507;FJ-01;Central;Sawakasa
+0;179.2524,-17.9864;FJ-02;Eastern;Sawaieke
+0;178.5893,-17.8306;FJ-01;Central;Sawa
+0;179.2567,-16.5245;FJ-03;Northern;Savusavuitaga
+0;178.2500,-17.5667;FJ-05;Western;Savusavu
+6833;179.3356,-16.7794;FJ-03;Northern;Savusavu
+0;178.7262,-17.7297;FJ-02;Eastern;Savuna
+0;178.4024,-17.9602;FJ-01;Central;Savu
+0;178.5399,-17.9121;FJ-01;Central;Savu
+0;179.3538,-16.7562;FJ-03;Northern;Savarekareka
+0;177.9205,-17.8098;FJ-05;Western;Nasauvakarua
+0;179.1500,-16.4333;FJ-03;Northern;Sautiki
+0;177.6333,-17.9833;FJ-05;Western;Sautambu
+0;178.1351,-18.2495;FJ-01;Central;Sauniveiuto
+0;177.4304,-17.7921;FJ-05;Western;Saunaka
+0;178.2611,-17.7981;FJ-01;Central;Saumakia
+0;177.0873,-12.5225;FJ-04;Rotuma;Saukama
+0;179.4278,-16.5566;FJ-03;Northern;Satulaki
+0;177.7074,-17.4869;FJ-05;Western;Sasa
+0;179.1676,-16.4280;FJ-03;Northern;Sasa
+0;177.6459,-18.1254;FJ-05;Western;Saru
+0;177.4455,-17.6415;FJ-05;Western;Saru Settlement
+0;178.5167,-18.0333;FJ-01;Central;Sarava
+0;178.8584,-16.8737;FJ-03;Northern;Saolo
+0;177.0600,-12.5190;FJ-04;Rotuma;Saolei
+0;179.7167,-16.4667;FJ-03;Northern;Sanggani
+0;178.1344,-18.2479;FJ-01;Central;Sadro
+0;177.3264,-18.1128;FJ-05;Western;Sanasana
+0;178.0724,-18.1126;FJ-01;Central;Sabata
+0;177.0584,-12.4885;FJ-04;Rotuma;Salvaka
+0;178.0728,-18.0245;FJ-01;Central;Saliandrau
+0;179.8500,-16.5167;FJ-03;Northern;Salia
+0;179.6128,-16.1864;FJ-03;Northern;Salevukoso
+0;179.1483,-16.6059;FJ-03;Northern;Saivou
+0;177.4240,-18.1376;FJ-05;Western;Rukurukulevu
+0;178.5667,-18.1000;FJ-01;Central;Rukuruku
+0;178.7559,-17.6425;FJ-02;Eastern;Rukuruku
+0;178.1001,-18.3901;FJ-01;Central;Rukua
+0;178.2603,-17.6365;FJ-05;Western;Rokovuaka
+0;178.0679,-17.7127;FJ-05;Western;Rewasau
+0;178.1803,-17.3956;FJ-05;Western;Rewasa
+0;178.1073,-18.3759;FJ-01;Central;Raviravi
+0;178.1000,-17.5333;FJ-05;Western;Raviravi
+0;178.9893,-16.9109;FJ-03;Northern;Raviravi
+0;178.9350,-16.4755;FJ-03;Northern;Raviravi
+0;179.7140,-16.2917;FJ-03;Northern;Rauriko
+0;177.5500,-17.9667;FJ-05;Western;Rararua
+0;179.4477,-16.3691;FJ-03;Northern;Raranibulubulu
+0;178.4000,-18.9500;FJ;;Rarama
+0;178.5646,-18.0005;FJ-01;Central;Raralevu
+0;177.9411,-17.4339;FJ-05;Western;Rabulu
+0;177.0582,-12.5178;FJ-04;Rotuma;Raksa’a
+0;178.3366,-18.9389;FJ-02;Eastern;Rakiraki
+0;178.1607,-17.3639;FJ-05;Western;Rakiraki
+0;177.5642,-18.0520;FJ-05;Western;Raiwaqa
+0;177.0491,-12.4978;FJ-04;Rotuma;Poiva
+0;177.0821,-12.4827;FJ-04;Rotuma;Pephaua
+0;177.1384,-12.4995;FJ-04;Rotuma;Paptea
+0;177.1103,-12.4900;FJ-04;Rotuma;Pa’olo
+0;178.5987,-17.9882;FJ-01;Central;Ovea
+0;178.1685,-17.6107;FJ-05;Western;Ovalau
+0;177.1250,-12.4888;FJ;;Oinafa
+0;177.1361,-12.4964;FJ-04;Rotuma;Ohu
+0;177.8846,-17.9005;FJ-05;Western;Nubuyanitu
+0;178.7333,-16.6667;FJ-03;Northern;Numbuyani
+0;179.6380,-16.3054;FJ-03;Northern;Nabutubutu
+0;177.9132,-17.7760;FJ-05;Western;Nubutautau
+0;179.4329,-16.5118;FJ-03;Northern;Nubunikavula
+0;178.1497,-17.6494;FJ-05;Western;Nubumakita
+0;179.6289,-16.2912;FJ-03;Northern;Nubu
+0;178.4617,-19.0194;FJ-02;Eastern;Nukuvou
+0;178.5570,-18.1004;FJ-01;Central;Nukutubu
+0;178.7924,-17.7276;FJ-02;Eastern;Nukutocia Settlement
+0;178.0688,-18.1096;FJ-01;Central;Nukusere
+0;179.8794,-16.1893;FJ-03;Northern;Nukusa
+0;178.0923,-19.0806;FJ-02;Eastern;Nukunuku
+0;179.9667,-16.1667;FJ-03;Northern;Nukundamu
+0;179.3148,-16.8153;FJ-03;Northern;Nukubalavu
+0;178.5180,-18.9020;FJ-02;Eastern;Nukubalavu Settlement
+0;179.3000,-18.0529;FJ-02;Eastern;Nukuloa
+0;178.3692,-17.7775;FJ-01;Central;Nukuloa
+0;178.1240,-17.6525;FJ-05;Western;Nukulau
+0;177.8638,-17.8978;FJ-05;Western;Nukuilau
+0;178.5636,-18.1510;FJ-01;Central;Nukui
+0;178.1595,-19.0726;FJ-02;Eastern;Nuku
+0;179.8500,-18.6000;FJ;;Nuku
+0;178.0432,-18.0991;FJ-01;Central;Nuku
+0;178.2058,-17.8062;FJ-01;Central;Nuku
+0;177.3966,-18.1314;FJ-05;Western;Nadaulau Settlement
+0;177.1333,-12.5167;FJ;;Noatau
+0;177.0500,-12.5167;FJ;;Niutoto
+0;178.9699,-16.4771;FJ-03;Northern;Niurua
+0;178.3390,-19.0158;FJ-02;Eastern;Niudua
+0;178.7424,-17.7770;FJ-02;Eastern;Niubasaga
+0;178.3333,-18.1167;FJ-01;Central;Nia Vakamothe
+0;177.9833,-18.2500;FJ-01;Central;Ngusuitoto
+0;177.2444,-17.0881;FJ-05;Western;Gunu
+0;178.5838,-17.6380;FJ-01;Central;Qoma
+0;178.2425,-18.1738;FJ-01;Central;Qilai
+0;179.6174,-16.2556;FJ-03;Northern;Qelewara
+0;178.0975,-17.5870;FJ-05;Western;Naqelecibi
+0;177.2500,-17.1167;FJ-05;Western;Nggeleni
+0;178.5465,-17.9952;FJ-01;Central;Naqeledamu
+0;179.4717,-16.4063;FJ-03;Northern;Qelemumu
+0;178.5498,-17.6284;FJ-01;Central;Qelekuro
+0;179.9611,-16.8708;FJ-03;Northern;Qacavula Settlement
+0;179.8261,-16.2205;FJ-03;Northern;Qaranivai
+0;179.5958,-16.2638;FJ-03;Northern;Qaranisisi Settlement
+0;179.2698,-17.9470;FJ-02;Eastern;Qarani
+0;179.7846,-19.1679;FJ-02;Eastern;Qalikarua
+0;177.9753,-19.1411;FJ-02;Eastern;Qaliira
+0;178.3027,-18.9528;FJ-02;Eastern;Gasele
+0;179.9833,-16.1667;FJ-03;Northern;Ngasauva
+0;178.0023,-18.2593;FJ-01;Central;Galoa
+0;178.6805,-16.6154;FJ-03;Northern;Galoa
+0;178.1814,-19.0793;FJ;;Galoa
+0;178.1614,-19.0043;FJ;;Drue
+0;179.5571,-16.7932;FJ-03;Northern;Dromuninuku
+0;179.9644,-16.8651;FJ-03;Northern;Dromuninuku Settlement
+0;178.6898,-18.0033;FJ-01;Central;Dromuna
+0;178.7212,-16.8847;FJ-03;Northern;Driti
+0;179.4648,-16.4653;FJ-03;Northern;Dreketilailai
+0;179.2588,-16.6964;FJ-03;Northern;Dreketi
+0;178.3708,-17.6972;FJ-01;Central;Drekeniwai Settlement
+0;179.6833,-16.6667;FJ-03;Northern;Ndrekeniwai
+0;178.5651,-18.1101;FJ-01;Central;Drekena
+0;178.2970,-18.9973;FJ-02;Eastern;Dravuwalu
+0;178.5241,-18.7554;FJ-02;Eastern;Dravuni Settlement
+0;178.5765,-17.9114;FJ-01;Central;Dravuni
+0;178.6117,-18.0170;FJ-01;Central;Dravo
+0;178.2167,-17.7500;FJ-01;Central;Ndraunindakua
+0;178.0000,-17.4167;FJ-05;Western;Ndrauniivi
+0;178.5804,-18.0717;FJ-01;Central;Draubuta
+0;177.9003,-17.9231;FJ-05;Western;Draubuta
+0;177.7717,-17.8678;FJ-05;Western;Draimba
+0;178.8356,-17.6952;FJ-02;Eastern;Draiba
+0;177.9239,-18.2669;FJ-01;Central;Dogowale Settlement
+0;179.7674,-16.2346;FJ-03;Northern;Dogotuki Settlement
+0;178.4312,-17.5621;FJ-05;Western;Dogoloa
+0;179.5500,-16.5667;FJ-03;Northern;Ndomokavu
+0;179.8667,-16.6333;FJ-03;Northern;Ndiloi
+0;178.2336,-18.0277;FJ-01;Central;Devoira
+0;178.3213,-16.8051;FJ-03;Northern;Denimanu
+0;178.4519,-17.9474;FJ-01;Central;Deladamanu
+0;178.4853,-17.6249;FJ-01;Central;Delakado
+0;178.4379,-17.5650;FJ-05;Western;Delaiyadua
+0;179.6223,-16.1920;FJ-03;Northern;Delaivadra
+0;178.3125,-17.8262;FJ-01;Central;Delaitoga
+0;178.2036,-18.0018;FJ-01;Central;Delailasakau
+0;178.5023,-17.6124;FJ-01;Central;Dawasamu Settlement
+0;179.0102,-16.7987;FJ-03;Northern;Dawara
+0;179.7167,-16.6000;FJ-03;Northern;Ndawa
+0;177.9994,-19.1407;FJ-02;Eastern;Daviqele
+0;178.8883,-16.8590;FJ-03;Northern;Daria
+0;178.0157,-19.1031;FJ-02;Eastern;Dagai
+0;178.2560,-17.6019;FJ-05;Western;Dama
+0;178.6416,-16.8719;FJ-03;Northern;Dama
+0;178.6135,-16.8001;FJ-03;Northern;Ndalomo
+0;177.5254,-16.7829;FJ-05;Western;Dalomo
+0;179.3994,-17.7998;FJ-02;Eastern;Dalice Settlement
+0;179.8477,-16.7451;FJ-03;Northern;Dakuniba
+0;178.1465,-18.4019;FJ-01;Central;Dakuni
+0;179.5667,-16.5833;FJ-03;Northern;Ndakundaku
+0;178.4331,-17.7793;FJ-01;Central;Dakuivuna
+0;178.5590,-17.7443;FJ-01;Central;Dakuinuku
+0;178.1325,-18.4102;FJ-01;Central;Dakuibeqa
+0;179.7500,-19.1833;FJ;;Ndaku
+0;178.2777,-18.9622;FJ-02;Eastern;Daku
+0;178.6338,-18.0494;FJ-01;Central;Daku
+0;178.7720,-17.7776;FJ-02;Eastern;Daku
+0;177.5104,-18.1439;FJ-05;Western;Nayawa
+0;178.4004,-17.5457;FJ-05;Western;Nayavutoka
+0;178.2977,-17.4399;FJ-05;Western;Nayavuira
+0;178.1167,-17.5064;FJ-05;Western;Nayaulevu
+0;179.5333,-16.4667;FJ-03;Northern;Nayarambale
+0;179.0621,-16.6203;FJ-03;Northern;Nayarailagi
+0;179.8737,-16.6988;FJ-03;Northern;Nawi
+0;179.5755,-16.7999;FJ-03;Northern;Naweni
+0;177.3333,-17.9333;FJ-05;Western;Nawau
+0;178.6587,-16.9033;FJ-03;Northern;Nawaca
+0;177.6631,-17.4800;FJ-05;Western;Nawaqarua Set
+0;177.4365,-17.9290;FJ-05;Western;Nawaqadamu
+0;178.3713,-17.9364;FJ-01;Central;Nawaqabena
+0;177.5446,-18.0969;FJ-05;Western;Nawamagi
+0;178.2500,-17.7833;FJ-01;Central;Nawala
+0;177.4340,-17.8128;FJ-05;Western;Nawaka
+0;177.7938,-17.9407;FJ-05;Western;Nawairabe Settlement
+0;178.7687,-16.9947;FJ-03;Northern;Nawaido
+0;178.6807,-16.7385;FJ-03;Northern;Nawailevu
+0;177.8061,-18.2371;FJ-01;Central;Navutulevu
+0;177.3262,-18.0112;FJ-05;Western;Navutu
+0;178.3827,-17.9047;FJ-01;Central;Navutu
+0;178.7561,-17.7630;FJ-02;Eastern;Navuti
+0;178.5172,-18.0111;FJ-01;Central;Navuso
+0;178.3063,-17.9915;FJ-01;Central;Navurevure
+0;178.2649,-17.7957;FJ-01;Central;Navuniyasi
+0;178.3665,-17.7874;FJ-01;Central;Navuniyaro
+0;178.5276,-17.8121;FJ-01;Central;Navunisole
+0;178.5840,-17.8607;FJ-01;Central;Navunimono
+0;178.0712,-18.0434;FJ-01;Central;Navunikabi
+0;178.1333,-18.0333;FJ-01;Central;Navuniivi
+0;178.2619,-17.4581;FJ-05;Western;Navuniivi
+0;178.5458,-16.8082;FJ-03;Northern;Navunievu
+0;178.7615,-17.7020;FJ-02;Eastern;Navuloa
+0;179.5982,-16.2778;FJ-03;Northern;Navukebuli
+0;179.2608,-17.9568;FJ-02;Eastern;Navukailagi
+0;178.1623,-19.0057;FJ-02;Eastern;Navuatu
+5812;178.1700,-18.2227;FJ-01;Central;Navua
+0;177.4403,-16.8666;FJ-05;Western;Navotua
+0;178.3167,-19.0167;FJ;;Navora
+0;178.3859,-17.8750;FJ-01;Central;Navolau
+0;178.2500,-17.3833;FJ-05;Western;Navolau
+0;177.4973,-17.5892;FJ-05;Western;Naviago
+0;178.2414,-17.5799;FJ-05;Western;Navitilevu
+0;178.5948,-16.6623;FJ-03;Northern;Naviqiri
+0;178.9100,-16.5235;FJ-03;Northern;Navidamu
+0;177.5890,-17.6905;FJ-05;Western;Navilawa
+0;177.6482,-17.9651;FJ-05;Western;Naveyago
+0;179.8333,-16.5167;FJ-03;Northern;Navetau
+0;179.6833,-16.4833;FJ-03;Northern;Navetau
+0;178.3874,-17.7329;FJ-01;Central;Naveicovatu
+0;179.6167,-16.2167;FJ-03;Northern;Naveindrendre
+0;178.3126,-17.9536;FJ-01;Central;Naveimavu Settlement
+0;178.7089,-17.0102;FJ-03;Northern;Navave
+0;178.0607,-18.0938;FJ-01;Central;Navaundra
+0;178.5544,-18.0657;FJ-01;Central;Navatuyaba
+0;178.6481,-16.8489;FJ-03;Northern;Vatureba Settlement
+0;179.9000,-18.6000;FJ;;Navatu
+0;179.0132,-16.9295;FJ-03;Northern;Navatu
+0;179.0167,-16.4833;FJ-03;Northern;Navata
+0;178.3333,-18.1167;FJ-01;Central;Na Vasi
+0;177.7786,-17.8103;FJ-05;Western;Navaga
+0;179.3660,-17.3066;FJ-02;Eastern;Navaga
+0;177.8132,-17.6583;FJ-05;Western;Navala
+0;179.3619,-16.5693;FJ-03;Northern;Navakuru
+0;179.9472,-16.9948;FJ-03;Northern;Navakawau
+0;179.1612,-16.4587;FJ-03;Northern;Navakasobu
+0;178.8833,-16.8000;FJ-03;Northern;Navakasali
+0;179.4700,-16.7208;FJ-03;Northern;Navakaka
+0;178.6026,-18.0847;FJ-01;Central;Navaka
+0;177.9869,-17.6195;FJ-05;Western;Navai
+0;178.3067,-18.9527;FJ-02;Eastern;Nauciwai
+0;178.5306,-18.0313;FJ-01;Central;Nausori
+0;177.6110,-17.8177;FJ-05;Western;Nausori
+0;178.2237,-17.5519;FJ-05;Western;Nausori
+0;178.1388,-17.5999;FJ-05;Western;Nauria
+0;178.8089,-17.6254;FJ-02;Eastern;Nauouo
+0;178.3129,-17.9475;FJ-01;Central;Nauluvatu
+0;178.5262,-18.0682;FJ-01;Central;Naulu
+0;179.6489,-16.2416;FJ-03;Northern;Naua
+0;179.1533,-16.7444;FJ-03;Northern;Natuvu
+0;179.8500,-16.6667;FJ-03;Northern;Natuvu
+0;179.7491,-16.4271;FJ-03;Northern;Natuvu
+0;178.3945,-17.8515;FJ-01;Central;Natuva
+0;177.6761,-17.4792;FJ-05;Western;Natutu
+0;178.4692,-18.8910;FJ-02;Eastern;Naturu
+0;177.7410,-17.4528;FJ-05;Western;Natunuku Settlement
+0;178.1185,-19.0814;FJ-02;Eastern;Natumua
+0;178.4076,-19.0396;FJ-02;Eastern;Natubagunu Settlement
+0;177.7829,-17.8856;FJ-05;Western;Natuatuathoko
+0;179.1581,-16.7273;FJ-03;Northern;Natua
+0;179.1272,-16.5314;FJ-03;Northern;Natua
+0;179.1022,-16.7701;FJ-03;Northern;Natovatu Settlement
+0;178.5730,-18.0618;FJ-01;Central;Natogadravo
+0;178.0680,-19.0756;FJ-02;Eastern;Natokalau
+0;178.4024,-17.7713;FJ-01;Central;Natokalau
+0;178.8220,-17.7275;FJ-02;Eastern;Natokalau
+0;179.0577,-16.9066;FJ-03;Northern;Natokalau
+0;178.4542,-17.9506;FJ-01;Central;Natoaika
+0;178.1910,-17.5047;FJ-05;Western;Nativi
+0;176.9344,-17.1246;FJ-05;Western;Natia
+0;178.5962,-18.1012;FJ-01;Central;Nacuru
+0;177.3988,-16.8918;FJ-05;Western;Nacula
+0;179.6799,-16.4102;FJ-03;Northern;Nacula
+0;178.3506,-19.0483;FJ-02;Eastern;Nacomoto
+0;178.8042,-17.7232;FJ-02;Eastern;Nacobo Settlement
+0;179.5500,-16.2667;FJ-03;Northern;Nathokulati
+0;178.1333,-18.0500;FJ-01;Central;Nathokula
+0;178.4246,-17.9706;FJ-01;Central;Nacokaika
+0;178.1058,-18.4192;FJ-01;Central;Naceva
+0;179.3368,-16.8029;FJ-03;Northern;Nacekoro
+0;179.3292,-17.9857;FJ-02;Eastern;Nacavanadi
+0;179.4698,-16.8000;FJ-03;Northern;Nacavanadi
+0;179.1667,-16.5667;FJ-03;Northern;Nathaurokovi
+0;179.4295,-17.2452;FJ-02;Eastern;Nacamaki
+0;177.6667,-18.1667;FJ-05;Western;Natewa
+0;179.7333,-16.6000;FJ-03;Northern;Natewa
+0;177.6670,-17.7724;FJ-05;Western;Natawa
+0;177.1370,-17.3078;FJ-05;Western;Natawa
+0;178.3828,-17.8395;FJ-01;Central;Nataveya
+0;179.4033,-17.7814;FJ-02;Eastern;Natauloa
+0;177.4394,-17.6448;FJ-05;Western;Natabua Settlement
+0;178.4967,-17.6005;FJ-01;Central;Nataleira
+0;177.4584,-17.7164;FJ-05;Western;Natalau
+0;179.1808,-16.5543;FJ-03;Northern;Nasuva
+0;178.1238,-17.6234;FJ-05;Western;Nasukamai
+0;179.6909,-16.2072;FJ-03;Northern;Nasovivi
+0;177.5072,-18.0216;FJ-05;Western;Nasovatava
+0;178.0052,-18.0842;FJ-01;Central;Nasoqo
+0;178.0799,-17.6732;FJ-01;Central;Nasoqo
+0;177.8667,-17.5333;FJ-05;Western;Nasomo
+0;177.6773,-17.5629;FJ-05;Western;Nasolo
+0;178.7563,-16.9486;FJ-03;Northern;Nasolo
+0;178.3053,-17.8602;FJ-01;Central;Nasoli Settlement
+0;179.9000,-18.6333;FJ;;Nasoki
+0;177.7218,-17.8220;FJ-05;Western;Nasivikoso
+0;178.2434,-18.0230;FJ-01;Central;Nasirotu
+0;178.0787,-17.6925;FJ-01;Central;Nasiriti
+0;178.8319,-17.7135;FJ-02;Eastern;Nasinu
+0;178.4721,-17.5683;FJ-01;Central;Nasinu
+0;179.4840,-16.7721;FJ-03;Northern;Nasinu
+0;178.8928,-16.6406;FJ-03;Northern;Nasigasiga
+0;178.6539,-18.0830;FJ-01;Central;Nasilai
+0;178.3790,-17.8093;FJ-01;Central;Naseva Settlement
+0;178.2116,-18.0094;FJ-01;Central;Naseuvou
+0;178.0000,-18.2667;FJ-01;Central;Nasese
+0;179.7833,-16.5500;FJ-03;Northern;Nasese
+0;178.7488,-17.7566;FJ-02;Eastern;Nasesara
+0;178.0746,-19.1504;FJ-02;Eastern;Nasegai
+0;178.5671,-18.0551;FJ-01;Central;Naselai
+0;179.3605,-16.4379;FJ-03;Northern;Nasekula
+0;179.2412,-16.5597;FJ-03;Northern;Nasealevu
+0;179.0427,-16.4662;FJ-03;Northern;Nasea
+0;179.3667,-16.4167;FJ-03;Northern;Nasea
+0;178.7919,-16.9228;FJ-03;Northern;Nasawana
+0;178.1343,-18.2461;FJ-01;Central;Nasavu
+0;178.3237,-17.8634;FJ-01;Central;Nasavu
+0;178.7803,-16.9602;FJ-03;Northern;Nasavu
+0;178.0810,-17.8845;FJ-01;Central;Nasava
+0;178.7572,-17.7656;FJ-02;Eastern;Nasauvuki
+0;178.0787,-17.8839;FJ-01;Central;Nasauvere
+0;178.3797,-17.7262;FJ-01;Central;Nasautoka
+0;177.6963,-17.8735;FJ-05;Western;Nasaucoko
+0;178.7893,-17.6891;FJ-02;Eastern;Nasaumatua
+0;178.0025,-19.1419;FJ-02;Eastern;Nasau
+0;178.4253,-17.7313;FJ-01;Central;Nasau
+0;178.3167,-17.4500;FJ-05;Western;Nasau
+0;179.4391,-17.3078;FJ-02;Eastern;Nasau
+0;178.6426,-16.8731;FJ-03;Northern;Nasau
+0;178.5807,-16.6717;FJ-03;Northern;Nasau
+0;179.0420,-16.9060;FJ-03;Northern;Nasasaivua
+0;179.5713,-16.3864;FJ-03;Northern;Nasasa
+0;178.8226,-16.6448;FJ-03;Northern;Nasarowaqa
+0;178.7643,-17.7100;FJ-02;Eastern;Nasaga
+0;178.6299,-16.8345;FJ-03;Northern;Nasamu
+0;177.5016,-18.1547;FJ-05;Western;Nasama
+0;178.1667,-17.7667;FJ-01;Central;Nasalia
+0;178.0015,-17.4966;FJ-05;Western;Naseyani
+0;178.3770,-17.6958;FJ-01;Central;Nasaibitu
+0;178.6665,-16.8522;FJ-03;Northern;Naruwai
+0;179.8667,-18.6167;FJ;;Narukua
+0;178.5428,-18.1276;FJ-01;Central;Narocivo
+0;178.6096,-18.0984;FJ-01;Central;Narocake
+0;177.5385,-18.1306;FJ-05;Western;Naroro
+0;178.1042,-17.8514;FJ-01;Central;Narokorokoyawa
+0;179.9500,-18.5667;FJ;;Naroi
+0;178.1078,-17.5963;FJ-05;Western;Nariri
+0;178.5073,-18.9173;FJ-02;Eastern;Narikoso
+0;178.2943,-17.5030;FJ-05;Western;Narikoso
+0;177.5333,-17.9847;FJ-05;Western;Narewa
+0;177.4065,-17.7989;FJ-05;Western;Narewa
+0;178.1000,-17.3718;FJ-05;Western;Narewa
+0;179.0983,-16.6108;FJ-03;Northern;Naravuka
+0;177.5624,-18.0941;FJ-05;Western;Narata
+0;177.5459,-17.9684;FJ-05;Western;Narata
+0;178.1187,-17.5691;FJ-05;Western;Nararavou
+0;178.1414,-17.4236;FJ-05;Western;Narara
+0;178.0686,-17.9629;FJ-01;Central;Naraiyawa
+0;178.3566,-17.5140;FJ-05;Western;Naocobau
+0;179.6926,-16.7406;FJ-03;Northern;Nanuca
+0;178.2295,-17.4507;FJ-05;Western;Nanukuloa
+0;177.6383,-17.6415;FJ-05;Western;Nanuku
+0;178.2163,-17.4116;FJ-05;Western;Nanokonoko
+0;177.8424,-17.7556;FJ-05;Western;Nanoko
+0;179.1634,-16.5235;FJ-03;Northern;Nanenivuda
+0;179.4781,-16.8004;FJ-03;Northern;Nagigi
+0;179.0185,-16.4766;FJ-03;Northern;Naqumu
+0;178.3514,-17.6839;FJ-01;Central;Naqia
+0;178.0826,-17.7119;FJ-05;Western;Naqelewai
+0;178.0782,-17.9814;FJ-01;Central;Naqarawai
+0;179.8000,-16.5333;FJ-03;Northern;Nanggaravutu
+0;178.5931,-18.0946;FJ-01;Central;Naqarani
+0;178.4933,-18.8791;FJ-02;Eastern;Naqara
+0;178.0409,-19.0741;FJ-02;Eastern;Naqalotu
+0;178.3833,-17.9546;FJ-01;Central;Naqali
+0;179.9000,-16.7167;FJ-03;Northern;Naqaiqai Settlement
+0;179.4347,-17.3222;FJ-02;Eastern;Naqaidamu
+0;178.4000,-17.9333;FJ-01;Central;Nangavungavu
+0;177.9273,-17.6844;FJ-05;Western;Nagatagata
+0;178.6724,-16.8778;FJ-03;Northern;Nagadoa
+0;178.1333,-18.0333;FJ-01;Central;Nanduruyasi
+0;178.5713,-18.0288;FJ-01;Central;Naduru
+0;177.5582,-18.0780;FJ-05;Western;Naduri
+0;179.1458,-16.4427;FJ-03;Northern;Naduri
+0;178.3703,-17.9187;FJ-01;Central;Naduna Settlement
+0;178.9118,-16.8143;FJ-03;Northern;Nadua
+0;177.7460,-17.7108;FJ-05;Western;Nadrugu
+0;177.4492,-18.1096;FJ-05;Western;Nadroumai
+0;177.9452,-17.7088;FJ-05;Western;Nadrau
+0;177.5692,-18.1044;FJ-05;Western;Nadrala
+0;178.5862,-18.1172;FJ-01;Central;Nadoria
+0;179.5859,-16.4305;FJ-03;Northern;Nadogo
+0;178.0333,-18.0667;FJ-01;Central;Nandoli
+0;178.5582,-18.1098;FJ-01;Central;Nadoi
+0;179.0193,-16.8766;FJ-03;Northern;Nadivakarua
+42284;177.4162,-17.8031;FJ-05;Western;Nadi
+0;177.7759,-17.8323;FJ-05;Western;Nadevo
+0;177.5667,-17.7333;FJ-05;Western;Nandele
+0;177.8991,-17.5447;FJ-05;Western;Nadelei
+0;178.1667,-17.6167;FJ-05;Western;Nandawa
+0;178.5573,-17.9390;FJ-01;Central;Nadaro
+0;177.9634,-17.5666;FJ-05;Western;Nadarivatu
+0;179.7833,-16.5500;FJ-03;Northern;Nandarathi
+0;178.5461,-18.0367;FJ-01;Central;Nadali
+0;178.2949,-17.9732;FJ-01;Central;Nadakuni
+0;178.5633,-17.7171;FJ-01;Central;Nananu
+0;178.0029,-17.4882;FJ-05;Western;Nananu
+0;178.4405,-17.9616;FJ-01;Central;Naganivatu
+0;178.3331,-17.4717;FJ-05;Western;Namuriwai Settlement
+0;177.4952,-17.8114;FJ-05;Western;Namulomulo
+0;179.7539,-16.2098;FJ-03;Northern;Namukalau
+0;178.5952,-17.9780;FJ-01;Central;Namuka
+0;178.7877,-16.7210;FJ-03;Northern;Namuavoivoi
+0;178.1551,-19.0577;FJ;;Namalata
+0;178.0621,-18.0931;FJ-01;Central;Namuamua
+0;178.2557,-17.4055;FJ-05;Western;Namuaimada
+0;177.4189,-17.7964;FJ-05;Western;Navoci Namotomoto
+0;178.1348,-18.0394;FJ-01;Central;Namosi
+0;178.5614,-18.0343;FJ-01;Central;Namono Settlement
+0;177.8946,-17.8509;FJ-05;Western;Namoli
+0;179.4204,-16.4540;FJ-03;Northern;Namoli
+0;179.8833,-18.6167;FJ;;Namoala
+0;178.4025,-17.8492;FJ-01;Central;Nameka
+0;177.9811,-17.6312;FJ-05;Western;Nabuyasa Settlement
+0;178.5986,-18.1000;FJ-01;Central;Nabudrau
+0;177.8711,-17.4373;FJ-05;Western;Nabuna Set
+0;179.3837,-17.2497;FJ-02;Eastern;Nabuna
+0;179.7363,-16.2171;FJ-03;Northern;Nabuna
+0;179.7127,-16.2005;FJ-03;Northern;Nabubu
+0;178.2838,-17.6621;FJ-01;Central;Nabulini
+0;178.5827,-18.1043;FJ-01;Central;Nabuli
+0;177.4682,-16.8419;FJ-05;Western;Nabukeru
+0;177.9555,-19.1273;FJ-02;Eastern;Nabukelevu
+0;177.8663,-18.1283;FJ-01;Central;Nabukelevu
+0;178.2389,-18.1609;FJ-01;Central;Nabukavesi
+0;178.3921,-17.5421;FJ-05;Western;Nabukadra
+0;179.1112,-16.4447;FJ-03;Northern;Nambukandongo
+0;178.3228,-17.9763;FJ-01;Central;Nabukaluka
+0;178.5609,-18.1078;FJ-01;Central;Nabua
+0;179.4909,-16.6910;FJ-03;Northern;Nabua
+0;177.9472,-17.7083;FJ-05;Western;Nabouwaqa
+0;178.6857,-18.0046;FJ-01;Central;Nabouwalu
+0;178.6908,-16.9975;FJ-03;Northern;Nabouwalu
+0;178.3730,-17.7130;FJ-01;Central;Nabouva
+0;177.8239,-18.2370;FJ-01;Central;Naboutini
+0;177.5066,-17.7285;FJ-05;Western;Boutini Settlement
+0;179.8122,-16.3316;FJ-03;Northern;Naboutini
+0;178.6214,-18.0601;FJ-01;Central;Nabouciwa
+0;179.0926,-16.4518;FJ-03;Northern;Nambouono
+0;178.5946,-18.0654;FJ-01;Central;Nabitu
+0;178.8941,-16.6067;FJ-03;Northern;Nabiti
+0;177.2709,-17.8701;FJ-05;Western;Nabila
+0;178.3162,-17.8220;FJ-01;Central;Nabena
+0;178.8886,-16.5386;FJ-03;Northern;Nabekavu
+0;178.9117,-16.5901;FJ-03;Northern;Nabavatu
+0;179.3500,-16.7667;FJ-03;Northern;Nambauto
+0;177.3761,-18.0789;FJ-05;Western;Nabau
+0;178.7593,-16.9990;FJ-03;Northern;Nabau
+0;179.3595,-16.7352;FJ-03;Northern;Nabaci
+0;179.2557,-16.6638;FJ-03;Northern;Nabalebale
+0;178.1765,-17.5012;FJ-05;Western;Nabalabala
+0;178.3597,-17.8416;FJ-01;Central;Nabaitavo
+0;178.4076,-19.0170;FJ-02;Eastern;Namajiu
+0;179.4331,-17.3346;FJ;;Namacu
+0;179.4333,-17.8500;FJ;;Namatana
+0;177.7850,-18.2292;FJ-05;Western;Namatakula
+0;178.5789,-17.9835;FJ-01;Central;Namata
+0;178.3652,-17.5223;FJ-05;Western;Namarai
+0;178.2278,-19.0330;FJ-02;Eastern;Namara
+0;178.1993,-17.6424;FJ-05;Western;Namara
+0;178.1519,-17.5473;FJ-05;Western;Namara
+0;177.1395,-17.3525;FJ-05;Western;Namara
+0;178.1293,-19.1327;FJ-02;Eastern;Namanusa
+0;177.8322,-18.2526;FJ-01;Central;Namaqumaqua
+0;177.6214,-18.1890;FJ-05;Western;Namada
+0;179.1386,-16.4403;FJ-03;Northern;Namama
+0;179.0092,-16.9174;FJ-03;Northern;Namalata
+0;178.3281,-17.8350;FJ-01;Central;Naluwai
+0;178.0504,-19.0713;FJ-02;Eastern;Nalotu
+0;178.6075,-17.8463;FJ-01;Central;Naloto
+0;177.6075,-17.6408;FJ-05;Western;Nalotawa
+0;179.2609,-16.6812;FJ-03;Northern;Naloaloa
+0;177.6723,-17.9559;FJ-05;Western;Nalebaleba
+0;177.3452,-18.0866;FJ-05;Western;Nalele
+0;177.1125,-17.2760;FJ-05;Western;Nalauwaki
+0;178.5768,-18.1117;FJ-01;Central;Nalase
+0;178.2600,-17.6313;FJ-05;Western;Nalalawa
+0;178.6016,-18.0976;FJ-01;Central;Nakuruwai
+0;179.3833,-16.7667;FJ-03;Northern;Nakula
+0;179.5167,-16.6000;FJ-03;Northern;Nakuku
+0;179.3020,-16.7108;FJ-03;Northern;Nakoso
+0;178.0833,-18.0667;FJ-01;Central;Nakorowaiwai
+0;178.4167,-17.6833;FJ-05;Western;Nakorowaiwai
+0;178.5897,-18.1167;FJ-01;Central;Nakorovou
+0;179.4000,-16.5333;FJ-03;Northern;Nakoroutari
+0;178.8854,-16.8588;FJ-03;Northern;Korotiki
+0;178.3792,-18.9531;FJ-02;Eastern;Nakoronawa
+0;178.2292,-17.3525;FJ-05;Western;Nakorokula
+0;178.5983,-17.9683;FJ-01;Central;Nakoroivau
+0;178.3757,-18.9530;FJ-02;Eastern;Nakoro
+0;177.9018,-17.9501;FJ-05;Western;Nakoro
+0;179.4170,-17.3685;FJ-02;Eastern;Nakodu
+0;179.7559,-16.7286;FJ-03;Northern;Nakobo
+0;178.4426,-17.9648;FJ-01;Central;Nakini
+0;178.5990,-18.0617;FJ-01;Central;Nakelo Landing
+0;179.5881,-16.3284;FJ-03;Northern;Naikelikoso
+0;179.3425,-16.6630;FJ-03;Northern;Nakawaga
+0;179.3265,-16.3448;FJ-03;Northern;Nakawaga
+0;178.8630,-16.8594;FJ-03;Northern;Nakawakawa
+0;178.1052,-18.1907;FJ-01;Central;Nakavu
+0;177.4239,-17.7956;FJ-05;Western;Nakavu
+0;178.0685,-18.0653;FJ-01;Central;Nakavika
+0;178.3786,-18.9523;FJ-02;Eastern;Nakaugasele
+0;179.1975,-16.6981;FJ-03;Northern;Nakasa
+0;179.5667,-16.5500;FJ-03;Northern;Nakarambo
+0;178.9912,-16.5925;FJ-03;Northern;Nakanacagi
+0;179.8667,-16.6167;FJ-03;Northern;Nakanakana
+0;177.5218,-18.1105;FJ-05;Western;Nakabuta
+0;179.3527,-16.4793;FJ-03;Northern;Nakama
+0;178.6006,-17.9309;FJ-01;Central;Nakalawaca
+0;178.5532,-17.8331;FJ-01;Central;Nakalawaca
+0;177.5377,-18.0800;FJ-05;Western;Nakalavo
+0;178.5700,-18.0802;FJ-01;Central;Nakaile
+0;178.0167,-18.0833;FJ-01;Central;Naiyalayala
+0;178.0906,-17.3756;FJ-05;Western;Naivuvuni
+0;178.1039,-17.5263;FJ-05;Western;Naivutu
+0;178.2649,-17.8406;FJ-01;Central;Naivucini
+0;178.6091,-17.8725;FJ-01;Central;Naivuruvuru
+0;178.4333,-17.5833;FJ-05;Western;Naivotho
+0;178.4921,-17.7601;FJ-01;Central;Navicula
+0;178.7667,-17.7167;FJ;;Naiviteitei
+0;178.4052,-19.0345;FJ-02;Eastern;Naivimagimagi Settlement
+0;179.5196,-16.7590;FJ-03;Northern;Naivilacalaca Settlement
+0;178.6080,-18.1035;FJ-01;Central;Navilaca
+0;178.5843,-18.0962;FJ-01;Central;Naivikasara
+0;178.6249,-18.0403;FJ-01;Central;Naivakacau
+0;178.2551,-18.9666;FJ-02;Eastern;Naivakarauniniu
+0;178.5233,-16.6484;FJ-03;Northern;Naivaka
+0;178.5351,-17.8466;FJ-01;Central;Naitutu
+0;178.1667,-18.2333;FJ-01;Central;Naitonitoni
+0;178.7657,-17.7683;FJ-02;Eastern;Naicabecabe
+0;178.2244,-17.8217;FJ-01;Central;Naitauvoli
+0;178.6212,-18.0189;FJ-01;Central;Naisogovau
+0;178.4000,-17.9500;FJ-01;Central;Naisonggo
+0;178.2267,-17.4583;FJ-05;Western;Naiserelangi
+0;178.5889,-17.9476;FJ-01;Central;Naisausau
+0;178.5674,-17.8934;FJ-01;Central;Naisaumua
+0;178.2847,-17.8127;FJ-01;Central;Nairukuruku
+0;178.3500,-18.8333;FJ;;Naioti
+0;179.1181,-16.7489;FJ-03;Northern;Naiqaqi
+0;179.1666,-17.7794;FJ-02;Eastern;Naigani
+0;178.6721,-17.5832;FJ-01;Central;Naigani
+0;177.3667,-18.1333;FJ-05;Western;Naindiri
+0;178.4267,-18.9674;FJ-02;Eastern;Naidiri Settlement
+0;179.3647,-16.7998;FJ-03;Northern;Naidi
+0;178.5626,-17.8934;FJ-01;Central;Naiborebore
+0;178.3027,-17.6628;FJ-01;Central;Naibita
+0;176.9128,-17.1494;FJ-05;Western;Naibalebale
+0;179.5510,-16.7751;FJ-03;Northern;Nabalebale
+0;178.0472,-18.1011;FJ-01;Central;Naimasimasi
+0;178.5600,-17.9147;FJ-01;Central;Naimasimasi
+0;178.6038,-18.0662;FJ-01;Central;Naimalavau
+0;178.1052,-17.5978;FJ-05;Western;Nailuva
+0;179.9000,-16.4833;FJ-03;Northern;Nailou
+0;178.5559,-18.1039;FJ-01;Central;Naililili
+0;178.5528,-17.8207;FJ-01;Central;Nailega
+0;178.3073,-17.6641;FJ-01;Central;Nailega
+0;178.2129,-17.4768;FJ-05;Western;Nailawa
+0;177.6611,-17.5089;FJ-05;Western;Nailaga
+0;178.5866,-18.0228;FJ-01;Central;Naila
+0;178.1997,-18.9798;FJ-02;Eastern;Naikorokoro
+0;178.8338,-17.7012;FJ-02;Eastern;Naikorokoro
+0;178.5811,-17.9235;FJ-01;Central;Naikawaga
+0;177.4422,-18.1520;FJ-05;Western;Naevuevu
+0;179.7500,-19.1333;FJ;;Murimuri
+0;179.4095,-17.3764;FJ-02;Eastern;Mudu
+0;178.2594,-19.0108;FJ-02;Eastern;Muanisolo Settlement
+0;178.0460,-19.1519;FJ-02;Eastern;Muainuku
+0;178.1459,-19.1501;FJ-02;Eastern;Muani
+0;178.5391,-18.1276;FJ-01;Central;Muanaicake
+0;178.5354,-18.1292;FJ-01;Central;Muanaira
+0;178.6558,-18.0652;FJ-01;Central;Muanaira
+0;178.5838,-18.0454;FJ-01;Central;Muana
+0;178.5362,-18.0417;FJ-01;Central;Muana
+0;179.8167,-16.5167;FJ-03;Northern;Muana
+0;178.4303,-17.9263;FJ-01;Central;Namuamua
+0;178.3608,-18.1405;FJ-01;Central;Muaivuso
+0;177.2386,-17.1330;FJ-05;Western;Muaira
+0;179.1480,-17.7923;FJ-02;Eastern;Mua
+0;179.5430,-16.2876;FJ-03;Northern;Mouta
+0;177.0393,-12.5081;FJ-04;Rotuma;Motusa
+0;177.2842,-17.9120;FJ-05;Western;Momi
+0;178.1649,-19.1041;FJ-02;Eastern;Mokoisa
+0;178.6048,-18.0092;FJ-01;Central;Mokani
+0;177.0357,-12.5110;FJ-04;Rotuma;Mofmanu
+0;178.1891,-18.1976;FJ-01;Central;Namelimeli
+0;177.0609,-12.4873;FJ-04;Rotuma;Mea
+0;179.4438,-16.7153;FJ-03;Northern;Bucalevu
+0;179.8500,-16.6500;FJ-03;Northern;Mbutha
+0;178.0725,-19.0767;FJ-02;Eastern;Busa Settlement
+0;178.6183,-18.0503;FJ-01;Central;Buretu
+0;178.5319,-17.7673;FJ-01;Central;Burerua
+0;178.5636,-17.7042;FJ-01;Central;Naburenivalu
+0;178.2313,-17.5285;FJ-05;Western;Burenitu
+0;178.5677,-18.0868;FJ-01;Central;Burebasaga
+0;178.0899,-19.1543;FJ-02;Eastern;Burelevu Settlement
+0;178.5849,-17.6669;FJ-01;Central;Burelevu
+0;178.1476,-17.5468;FJ-05;Western;Burelevu
+0;178.3914,-19.0427;FJ-02;Eastern;Burelevu Settlement
+0;178.5374,-18.0003;FJ-01;Central;Buiduna Settlement
+0;178.5308,-18.8437;FJ-02;Eastern;Bulia
+0;179.4332,-16.4443;FJ-03;Northern;Bulileka
+0;177.7576,-17.7732;FJ-05;Western;Bukuya
+0;177.5534,-16.7598;FJ-05;Western;Bukama
+0;178.6091,-16.7903;FJ-03;Northern;Bua
+0;179.0833,-16.4667;FJ-03;Northern;Mbua
+0;177.6461,-18.5708;FJ-05;Western;Bouwaqa
+0;178.1082,-17.8154;FJ-01;Central;Botenaulu
+0;177.7348,-18.1923;FJ-05;Western;Biausevu
+0;179.3524,-16.6627;FJ-03;Northern;Biaugunu
+0;179.7411,-16.4433;FJ-03;Northern;Biaugunu
+0;178.0554,-18.0941;FJ-01;Central;Beqa Settlement
+0;177.7022,-17.9544;FJ-05;Western;Bemana
+0;177.2833,-17.9500;FJ-05;Western;Mbavu
+0;178.4351,-17.9686;FJ-01;Central;Baulevu Settlement
+0;177.3212,-18.0750;FJ-05;Western;Batiri
+0;179.0354,-16.6059;FJ-03;Northern;Batiri
+0;179.4257,-16.4774;FJ-03;Northern;Batinikama
+0;177.8667,-17.7000;FJ-05;Western;Mbatimaoli
+0;178.2385,-17.4874;FJ-05;Western;Barotu
+0;178.7419,-16.7603;FJ-03;Northern;Banikea
+0;179.2968,-16.6645;FJ-03;Northern;Bagata
+0;179.7261,-16.7167;FJ-03;Northern;Bagasau
+0;177.7217,-17.6478;FJ-05;Western;Balevuto
+0;178.0975,-17.5925;FJ-05;Western;Balesere
+0;177.6219,-18.1646;FJ-05;Western;Balenabelo
+0;178.3298,-17.6734;FJ-05;Western;Balekinaga
+0;178.1090,-19.0854;FJ-02;Eastern;Baidamudamu
+0;177.5498,-18.0185;FJ-05;Western;Mavua
+0;178.5773,-17.9986;FJ-01;Central;Maumi Settlement
+0;178.2333,-18.1833;FJ-01;Central;Mau
+0;177.8472,-17.9888;FJ-05;Western;Matokana
+0;179.0733,-16.4179;FJ-03;Northern;Mathuata-i-Wai
+0;177.3394,-16.9972;FJ-05;Western;Namatalylevu
+0;178.0881,-17.8635;FJ-01;Central;Matawailevu
+0;178.2469,-17.5095;FJ-05;Western;Matawailevu
+0;178.0500,-18.2500;FJ-01;Central;Matavuralevu
+0;178.1945,-17.4889;FJ-05;Western;Mataveikai
+0;178.5667,-17.7667;FJ-01;Central;Matathula
+0;177.3596,-16.9496;FJ-05;Western;Matacawa Levu
+0;178.5786,-17.7872;FJ-01;Central;Matacaucau
+0;178.2490,-19.0119;FJ-02;Eastern;Mataso Settlement
+0;178.4647,-18.9976;FJ-02;Eastern;Matasawalevu
+0;178.1009,-19.1655;FJ-02;Eastern;Matanuku
+0;179.4224,-16.3396;FJ-03;Northern;Mataniwai
+0;177.8631,-17.4925;FJ-05;Western;Matanagata Set
+0;178.5865,-17.9506;FJ-01;Central;Matamaivere
+0;179.4167,-16.5667;FJ-03;Northern;Matalolo
+0;178.3826,-17.8970;FJ-01;Central;Matileka Settlement
+0;178.6162,-18.0544;FJ-01;Central;Matainoco
+0;178.6028,-18.0866;FJ-01;Central;Matainimoli
+0;178.1170,-17.7889;FJ-01;Central;Matainasau
+0;178.4336,-17.5623;FJ-05;Western;Matainananu
+0;178.3091,-17.8191;FJ-01;Central;Matailobau
+0;179.4175,-16.3640;FJ-03;Northern;Matailabasa
+0;178.4000,-17.8833;FJ-01;Central;Matai
+0;177.2565,-17.1207;FJ-05;Western;Marou
+0;177.1391,-12.5026;FJ-04;Rotuma;Marama
+0;178.4701,-18.8895;FJ-02;Eastern;Manuka
+0;179.1734,-17.7927;FJ-02;Eastern;Manuku
+0;178.2878,-17.6575;FJ-01;Central;Manu
+0;177.0543,-12.4921;FJ-04;Rotuma;Malsa’a
+0;177.3579,-18.1237;FJ-05;Western;Malomalo
+0;179.8667,-18.5667;FJ;;Maloku
+0;177.5613,-18.1795;FJ-05;Western;Malevu
+0;177.2473,-17.1262;FJ-05;Western;Malevu
+0;179.3394,-18.0023;FJ-02;Eastern;Malawai
+0;179.3620,-16.3694;FJ-03;Northern;Malau Settlement
+0;178.3887,-17.7411;FJ-01;Central;Malabi Settlement
+0;178.1506,-17.3238;FJ-05;Western;Malake
+0;179.6500,-16.5000;FJ-03;Northern;Malake
+0;177.4145,-16.8917;FJ-05;Western;Malakati
+0;177.5833,-17.7333;FJ-05;Western;Mala
+0;179.2263,-16.4914;FJ-03;Northern;Makomako Settlement
+0;178.7575,-16.9915;FJ-03;Northern;Makolei
+0;177.0309,-12.4981;FJ-04;Rotuma;Maftoa
+0;178.5208,-17.6213;FJ-01;Central;Luvunavuaka
+0;178.5924,-16.7840;FJ-03;Northern;Luvuluvu Settlement
+0;178.9899,-16.6531;FJ-03;Northern;Lutukina
+0;178.3588,-17.7922;FJ-01;Central;Lutu
+0;178.1135,-17.8031;FJ-01;Central;Lutu
+0;179.3271,-18.1136;FJ;;Lovu
+0;179.4833,-16.7667;FJ-03;Northern;Lovoninggai
+0;178.7920,-17.6905;FJ;;Lovoni
+0;177.0106,-12.5105;FJ-04;Rotuma;Losa
+0;177.0285,-12.5015;FJ-04;Rotuma;Lopo
+0;178.5483,-17.9533;FJ-01;Central;Logani
+0;178.5514,-17.7410;FJ-01;Central;Lodoni
+0;177.4333,-17.7022;FJ-05;Western;Lomolomo
+0;178.2006,-18.1733;FJ-01;Central;Lobau
+0;177.2972,-18.0296;FJ-05;Western;Lomawai
+0;179.7542,-19.1642;FJ-02;Eastern;Lomati
+0;178.0004,-19.1078;FJ-02;Eastern;Lomaji
+0;178.3750,-18.9546;FJ-02;Eastern;Lomanikoro
+0;178.5582,-18.1045;FJ-01;Central;Lomanikoro
+0;177.6392,-18.5394;FJ-05;Western;Lomanikaya
+0;178.5936,-18.0695;FJ-01;Central;Lomainasau
+0;178.3375,-17.9671;FJ-01;Central;Lomai
+0;178.5454,-18.0963;FJ-01;Central;Lokia
+0;179.8218,-16.6744;FJ-03;Northern;Loa
+0;179.3498,-16.3439;FJ-03;Northern;Ligaulevu
+0;179.0833,-16.2333;FJ-03;Northern;Lingau
+0;179.3500,-16.3532;FJ-03;Northern;Lidiasiga
+0;179.6333,-16.7000;FJ-03;Northern;Leya
+0;177.9310,-17.6434;FJ-05;Western;Lewa
+0;179.7616,-19.1896;FJ-02;Eastern;Levukaidaku
+0;178.0357,-19.1436;FJ-02;Eastern;Levuka
+0;178.3536,-18.9373;FJ-02;Eastern;Levuka
+0;178.5667,-18.1333;FJ-01;Central;Levuka
+8360;179.3167,-18.0667;FJ-02;Eastern;Levuka
+0;178.8335,-17.6818;FJ-02;Eastern;Levuka
+0;179.4896,-16.4891;FJ-03;Northern;Lekutulevu
+0;179.3093,-17.9515;FJ-02;Eastern;Lekanai
+0;177.5025,-18.1404;FJ-05;Western;Lawaqa
+0;178.4079,-18.9832;FJ-02;Eastern;Lawaki
+0;179.4193,-17.8308;FJ-02;Eastern;Lawaki
+0;178.5774,-17.6498;FJ-01;Central;Lawaki
+0;177.5187,-18.1260;FJ-05;Western;Lawai
+0;178.3167,-19.0167;FJ;;Lauwaki
+0;177.4056,-17.6485;FJ-05;Western;Lauwaki
+52500;177.4505,-17.6169;FJ-05;Western;Lautoka
+0;178.5145,-18.1465;FJ-01;Central;Laucala
+0;179.1231,-16.7476;FJ-03;Northern;Laucala
+0;177.0482,-12.5090;FJ-04;Rotuma;Lau
+0;178.1333,-17.7500;FJ-01;Central;Laselevu
+0;177.5115,-18.1393;FJ-05;Western;Laselase
+0;178.6159,-17.9733;FJ-01;Central;Lasakau
+0;179.8380,-16.2424;FJ-03;Northern;Lagi
+0;178.4986,-18.0837;FJ-01;Central;Laqere
+0;179.3424,-18.0093;FJ-02;Eastern;Lamiti
+24639;178.4094,-18.1109;FJ-01;Central;Lami
+0;178.4000,-17.9333;FJ-01;Central;Lami
+0;179.3667,-16.4167;FJ-03;Northern;Lambasa River
+27949;179.3645,-16.4332;FJ-03;Northern;Labasa
+0;178.1483,-18.3760;FJ-01;Central;Lalati
+0;179.7574,-16.4128;FJ-03;Northern;Lakeba
+0;179.6992,-16.2049;FJ-03;Northern;Lakeba
+0;178.5992,-17.8874;FJ-01;Central;Kumi
+0;177.2969,-18.0270;FJ-05;Western;Kubuna
+0;179.3922,-16.4764;FJ-03;Northern;Korowiri
+0;177.3761,-17.8295;FJ-05;Western;Korovuto
+0;179.1630,-16.4955;FJ-03;Northern;Korovuli
+0;178.0630,-19.0756;FJ-02;Eastern;Korovou
+0;177.9725,-18.2423;FJ-01;Central;Nakorovou
+0;178.0333,-18.0667;FJ-01;Central;Korovou
+0;178.3463,-17.9471;FJ-01;Central;Korovou
+0;177.7985,-17.9181;FJ-05;Western;Korovou Settlement
+0;178.1038,-17.8483;FJ-01;Central;Nakorovou
+0;178.5369,-17.8046;FJ-01;Central;Korovou
+0;178.2194,-17.6429;FJ-05;Western;Korovou
+0;178.2839,-17.4972;FJ-05;Western;Nakorovou
+0;177.8936,-17.4433;FJ-05;Western;Korovou
+0;179.8947,-16.9711;FJ-03;Northern;Nakorovou
+0;179.0256,-16.8278;FJ-03;Northern;Nakorovou
+0;179.1500,-16.4500;FJ-03;Northern;Korovou
+0;177.9731,-18.2434;FJ-01;Central;Korovisilou
+0;178.3239,-17.8287;FJ-01;Central;Korovatu
+0;179.1944,-16.4142;FJ-03;Northern;Korotubu
+0;177.5473,-18.1768;FJ-05;Western;Korotogo, Nadroga-Navosa
+0;178.5500,-18.0000;FJ-01;Central;Korothirithiri
+0;179.5667,-16.5667;FJ-03;Northern;Korotasere
+0;178.2512,-17.7742;FJ-01;Central;Nakorosule
+0;179.4554,-16.7223;FJ-03;Northern;Korosi
+0;177.6279,-17.9725;FJ-05;Western;Koronisagana
+0;177.6463,-17.4859;FJ-05;Western;Koroqaqa
+0;179.5333,-16.6333;FJ-03;Northern;Koronatonga
+0;179.7667,-19.1333;FJ;;Koromathi
+0;178.5892,-17.9442;FJ-01;Central;Korolevu
+0;177.8881,-17.8679;FJ-05;Western;Korolevu
+0;179.4819,-16.7365;FJ-03;Northern;Korolevu
+0;178.4000,-19.0167;FJ-02;Eastern;Korolevu Settlement
+0;177.2726,-17.9808;FJ-05;Western;Korokula Settlement
+0;177.4601,-17.7285;FJ-05;Western;Koroiyaca
+0;179.8833,-16.5667;FJ-03;Northern;Koroivonu
+0;178.5285,-16.7437;FJ-03;Northern;Koroinasolo
+0;177.9072,-17.7086;FJ-05;Western;Koro
+0;177.7584,-18.2203;FJ-05;Western;Komave
+0;178.6791,-18.0551;FJ-01;Central;Kiuva
+0;179.0250,-16.9166;FJ-03;Northern;Kiobo
+0;177.0300,-12.5064;FJ-04;Rotuma;Keua
+0;179.9000,-18.6167;FJ;;Keteira
+0;177.2411,-17.1297;FJ-05;Western;Kese
+0;179.8059,-16.2443;FJ-03;Northern;Kedra
+0;177.7518,-17.8864;FJ-05;Western;Keiyasi
+0;178.7422,-16.7384;FJ-03;Northern;Kavula
+0;178.4137,-18.9696;FJ-02;Eastern;Kavala
+0;178.5242,-17.9718;FJ-01;Central;Kasavu
+0;179.9167,-16.5167;FJ-03;Northern;Karoko
+0;179.3771,-17.3554;FJ-02;Eastern;Kade
+0;178.3808,-19.0368;FJ-02;Eastern;Kadavu
+0;179.8954,-16.9693;FJ-03;Northern;Kanacea
+0;179.4333,-17.7833;FJ;;Kana
+0;177.3706,-18.0580;FJ-05;Western;Kabisi Settlement
+0;178.0294,-19.1425;FJ-02;Eastern;Kabariki
+0;177.1228,-12.5216;FJ-04;Rotuma;Kalvaka
+0;178.3138,-18.1339;FJ-01;Central;Kalokolevu
+0;178.4822,-18.0858;FJ-01;Central;Kalabu
+0;177.0833,-12.5167;FJ;;Juju
+0;177.0509,-12.4961;FJ-04;Rotuma;Jolmea
+0;177.0333,-12.5000;FJ;;Itumuta
+0;177.1018,-12.4882;FJ-04;Rotuma;Hua
+0;177.0688,-12.4817;FJ;;Hafea
+0;177.0822,-12.5220;FJ-04;Rotuma;Haga
+0;177.0556,-12.5148;FJ-04;Rotuma;Feavairere
+0;177.0512,-12.5100;FJ-04;Rotuma;Feavai
+0;177.0250,-12.5157;FJ-04;Rotuma;Fapufa
+0;177.1373,-12.5120;FJ-04;Rotuma;Fafaisina
+0;177.0994,-12.5220;FJ-04;Rotuma;Avave
+0;177.3769,-18.0604;FJ-05;Western;Emuri
+0;177.0536,-12.4921;FJ;;Elsio
+0;177.0870,-12.4846;FJ-04;Rotuma;Else’e
+0;177.6458,-18.5152;FJ-05;Western;Ekubo
+0;177.0500,-12.5167;FJ;;Atopisi
+0;179.7411,-19.1704;FJ-02;Eastern;Raviravi
+0;177.5474,-17.6685;FJ-05;Western;Abaca
+0;177.0500,-12.5000;FJ-04;Rotuma;Ahau
+0;-179.9961,-16.1629;FJ-03;Northern;Yasawa
+0;-179.6918,-16.5030;FJ-03;Northern;Yanuca
+0;-178.7757,-18.1904;FJ-02;Eastern;Yadrana
+0;-179.9417,-16.7330;FJ-03;Northern;Welagi
+0;-178.7844,-18.2401;FJ-02;Eastern;Waciwaci
+0;-178.7731,-18.2358;FJ-02;Eastern;Waitabu
+0;-179.8600,-16.8122;FJ-03;Northern;Waitabu
+0;-178.4875,-18.4447;FJ-02;Eastern;Waiqori
+0;-179.8500,-16.8000;FJ-03;Northern;Vunivuthea
+0;-178.9843,-17.1837;FJ-02;Eastern;Vutuna Settlement
+0;-179.8667,-16.8174;FJ-03;Northern;Vidawa
+0;-179.7167,-16.7833;FJ-03;Northern;Vianutha
+0;-179.9599,-16.7569;FJ-03;Northern;Vatuulo Settlement
+0;-179.7821,-16.7665;FJ-03;Northern;Vatusogosogo Settlement
+0;-178.2514,-19.8221;FJ-02;Eastern;Vatoa
+0;-179.2786,-18.3622;FJ-02;Eastern;Vanuavatu
+0;-178.7922,-18.1784;FJ-02;Eastern;Vakano
+0;-178.9790,-17.2752;FJ-02;Eastern;Uruone
+0;-179.8667,-19.0000;FJ;;Undu
+0;-178.9442,-18.9838;FJ-02;Eastern;Udu
+0;-178.8234,-17.6862;FJ-02;Eastern;Tuvuca
+0;-178.8123,-18.2365;FJ-02;Eastern;Tubou
+0;-179.8167,-18.9500;FJ;;Tovu
+0;-179.7510,-16.7584;FJ-03;Northern;Togo
+0;-178.9724,-18.9304;FJ-02;Eastern;Tokalau
+0;-179.2816,-17.7407;FJ-02;Eastern;Natokalau
+0;-178.7975,-17.2867;FJ-02;Eastern;Cikobia
+0;-179.3292,-17.7243;FJ-02;Eastern;Tarakua
+0;-179.9705,-16.7723;FJ-03;Northern;Somosomo
+0;-179.0312,-17.9791;FJ-02;Eastern;Salia
+0;-179.7975,-16.7842;FJ-03;Northern;Raviravi Settlement
+0;-179.8399,-16.7713;FJ-03;Northern;Pagai Settlement
+0;-178.6833,-20.6667;FJ;;Ono Levu
+0;-178.4102,-19.1595;FJ-02;Eastern;Ogea
+0;-179.7380,-16.7611;FJ-03;Northern;Olosara Settlement
+0;-178.7514,-18.2031;FJ-02;Eastern;Nukunuku
+0;-179.8597,-16.7577;FJ-03;Northern;Qeleni
+0;-179.7489,-16.7777;FJ-03;Northern;Dreketi
+0;-179.8601,-18.9394;FJ;;Ndravuwalu
+0;-178.7221,-20.6361;FJ;;Ndoi
+0;-178.9637,-17.2221;FJ-02;Eastern;Daliconi
+0;-178.9667,-17.2000;FJ;;Ndakuirase
+0;-179.0021,-17.3028;FJ-02;Eastern;Dakuilomaloma
+0;-178.4685,-18.4403;FJ-02;Eastern;Dakuiloa
+0;-178.6009,-19.1230;FJ-02;Eastern;Naividamu
+0;-179.8475,-16.7704;FJ-03;Northern;Navakacoa Settlement
+0;-179.2933,-17.7698;FJ-02;Eastern;Naceva
+0;-179.7833,-16.7833;FJ-03;Northern;Nataria
+0;-179.8679,-16.6979;FJ-03;Northern;Naselesele
+0;-178.4993,-18.6682;FJ-02;Eastern;Nasau
+0;-178.8101,-18.1786;FJ-02;Eastern;Nasaqalau
+0;-179.0427,-17.9643;FJ-02;Eastern;Narocivo
+0;-178.9910,-17.3087;FJ-02;Eastern;Narocivo
+0;-179.9738,-16.7790;FJ-03;Northern;Naqara Settlement
+0;-179.7167,-16.7500;FJ-03;Northern;Nandiondio
+0;-179.7792,-16.7890;FJ-03;Northern;Nadilo
+0;-178.6349,-18.8513;FJ-02;Eastern;Nawatia
+0;-178.9901,-17.3287;FJ-02;Eastern;Namalata
+0;-179.1500,-16.0833;FJ-03;Northern;Nalutu
+0;-178.9667,-17.2500;FJ;;Naleile
+0;-179.7884,-16.7700;FJ-03;Northern;Naiviivi
+0;-178.5840,-19.1519;FJ-02;Eastern;Muanaicake
+0;-178.5923,-19.1532;FJ-02;Eastern;Muanaira
+0;-178.9788,-17.2487;FJ-02;Eastern;Muamua
+0;-178.9395,-17.2411;FJ-02;Eastern;Mualevu
+0;-179.9839,-16.7804;FJ-03;Northern;Bucalevu Settlement
+0;-179.8709,-16.8226;FJ-03;Northern;Mbouma
+0;-178.9448,-17.2549;FJ-02;Eastern;Boitaci
+0;-178.9337,-17.2138;FJ-02;Eastern;Mavana
+0;-178.7167,-20.6833;FJ;;Matokana
+0;-179.3278,-17.7671;FJ-02;Eastern;Mabula
+0;-178.9638,-17.2381;FJ-02;Eastern;Malaka
+0;-179.9811,-16.7824;FJ-03;Northern;Lovonivonu
+0;-178.9789,-18.9420;FJ-02;Eastern;Lomati
+0;-178.9861,-17.2909;FJ-02;Eastern;Lomaloma
+0;-179.2928,-17.7301;FJ-02;Eastern;Lomaji
+0;-179.0639,-17.9887;FJ-02;Eastern;Liku
+0;-178.9728,-17.2676;FJ-02;Eastern;Levukana
+0;-178.8088,-18.2345;FJ-02;Eastern;Levuka
+0;-179.8792,-16.8733;FJ-03;Northern;Lavena
+0;-179.9650,-16.7651;FJ-03;Northern;Lamini
+0;-179.7610,-16.7908;FJ-03;Northern;Kocoma
+0;-178.5006,-18.6694;FJ-02;Eastern;Korotolu
+0;-179.8202,-18.9510;FJ;;Ketei
+0;-178.9133,-17.1945;FJ-02;Eastern;Avea
+0;180.0000,-16.1333;FJ-03;Northern;Vunikondi
+0;179.9969,-16.8069;FJ-03;Northern;Tavuki
+0;179.9937,-16.9684;FJ-03;Northern;Salialevu Settlement
+0;180.0000,-16.1500;FJ-03;Northern;Nambouono
+0;177.4332,-17.7658;FJ-05;Western;Namaka
+14596;177.6741,-17.5343;FJ-05;Western;Ba
+0;-179.8870,-15.7530;FJ-03;Northern;Nalele
+0;-179.9131,-15.7459;FJ-03;Northern;Nautovatu
+0;178.0851,-18.2337;FJ-01;Central;Pacific Harbour
+0;-179.8738,-16.6898;FJ-03;Northern;Matei
+92043;178.5131,-18.0705;FJ-01;Central;Nasinu
+0;177.4167,-17.8000;FJ;;Naidi
+0;178.5789,-17.6561;FJ;;Natovi
+0;178.4912,-18.0392;FJ;;Waila
+0;178.4758,-18.1075;FJ;;Kinoya
+0;177.0812,-12.4823;FJ-04;Rotuma;Vai
+0;177.0800,-12.4819;FJ-04;Rotuma;Farema
+0;177.0788,-12.4815;FJ-04;Rotuma;Solsesei
+0;177.0700,-12.4816;FJ-04;Rotuma;Toga
+0;177.0657,-12.4824;FJ-04;Rotuma;Roupure
+0;177.0546,-12.4909;FJ-04;Rotuma;Katagi
+0;177.0522,-12.4936;FJ-04;Rotuma;Leproa
+0;177.0603,-12.4956;FJ-04;Rotuma;Hapmak
+0;177.0471,-12.5017;FJ-04;Rotuma;Gaol
+0;177.0462,-12.5058;FJ-04;Rotuma;Jumjumi
+0;177.0365,-12.5088;FJ-04;Rotuma;Haroa
+0;177.0296,-12.4996;FJ-04;Rotuma;Savaea
+0;177.0447,-12.5107;FJ-04;Rotuma;Samoa
+0;177.0613,-12.5196;FJ-04;Rotuma;Aro
+0;177.1179,-12.5055;FJ-04;Rotuma;Solaloga
+0;177.1297,-12.4919;FJ-04;Rotuma;Mal’ia
+0;177.1274,-12.4907;FJ-04;Rotuma;Sauhata
+0;177.1088,-12.4895;FJ-04;Rotuma;Vaiea
+0;177.1067,-12.4888;FJ-04;Rotuma;Valta
+0;177.1013,-12.4872;FJ-04;Rotuma;Lopta
+0;177.1001,-12.4861;FJ-04;Rotuma;Ahai
+0;177.5828,-17.8188;FJ;;Waiwai Settlement
+0;177.7309,-18.2066;FJ;;Korolevu
+0;178.0255,-18.1045;FJ;;Melita Settlement
+0;178.0331,-18.1018;FJ;;Masi
+0;178.0541,-18.0818;FJ;;Burotu
+0;178.0528,-18.0725;FJ;;Vunidavo
+0;178.0343,-18.0568;FJ;;Wainiyavu
+0;177.8119,-17.8872;FJ;;Wema
+0;177.8746,-17.4599;FJ-05;Western;Yaladro Settlement
+0;177.8714,-17.4323;FJ-05;Western;Vanuakula Settlement
+0;177.8612,-17.4995;FJ-05;Western;Lomalagi Settlement
+0;177.8560,-17.5102;FJ-05;Western;Korowere Settlement
+0;177.8437,-17.5116;FJ-05;Western;Veiquwawa Settlement
+0;177.8608,-17.5177;FJ-05;Western;Lololevu Settlement
+0;177.8947,-17.5076;FJ-05;Western;Natolevu Settlement
+0;177.8605,-17.5392;FJ-05;Western;Basala Estate Settlement
+0;177.7892,-17.4985;FJ-05;Western;Qara Settlement
+0;177.7429,-17.5281;FJ-05;Western;Veisaru Settlement
+0;177.6888,-17.5018;FJ-05;Western;Togalevu Settlement
+0;177.6681,-17.5348;FJ-05;Western;Vadraulailai Settlement
+0;177.6502,-17.5018;FJ-05;Western;Tamusu Settlement
+0;177.4711,-17.7662;FJ-05;Western;Votualevu Settlement
+0;177.4481,-17.7085;FJ-05;Western;Barara Settlement
+0;177.4058,-17.6598;FJ-05;Western;Tuaniveibona Settlement
+0;177.4607,-17.6358;FJ-05;Western;Tavakubu
+0;177.4248,-17.6435;FJ-05;Western;Velovelo Settlement
+0;177.4229,-17.6271;FJ-05;Western;Taiperia Settlement
+0;177.4281,-17.6222;FJ-05;Western;Navutu Settlement
+0;177.5868,-17.5418;FJ-05;Western;Navaqali Settlement
+0;177.4333,-17.6058;FJ-05;Western;Vio Settlement
+0;177.4724,-17.6268;FJ-05;Western;Tomuka Settlement
+0;177.4724,-17.6139;FJ-05;Western;Vunato Settlement
+0;177.5423,-17.7415;FJ-05;Western;Nagado
+0;177.4358,-17.8033;FJ-05;Western;Kerebula Settlement
+0;177.5538,-17.9510;FJ-05;Western;Dreke Settlement
+0;177.4588,-17.9521;FJ-05;Western;Korohogo Settlement
+0;177.4033,-17.9188;FJ-05;Western;Loqi Settlement
+0;177.4999,-17.8376;FJ-05;Western;Qasiqari Settlement
+0;177.4578,-17.8291;FJ-05;Western;Taci Settlement
+0;177.4459,-17.8466;FJ-05;Western;Togo Settlement
+0;177.4110,-17.8693;FJ-05;Western;Vunayasi Settlement
+0;177.5592,-17.7284;FJ-05;Western;Korobebe
+0;177.4674,-17.7270;FJ-05;Western;Sabeto Settlement
+0;177.5884,-17.4845;FJ-05;Western;Nakavika Settlement
+0;177.6751,-17.5475;FJ-05;Western;Maururu Settlement
+0;177.6917,-17.5655;FJ-05;Western;Soweri Settlement
+0;177.6612,-17.6475;FJ-05;Western;Korovou
+0;177.6721,-17.6317;FJ-05;Western;Cirisobu Settlement
+0;177.6310,-17.6397;FJ-05;Western;Yavava Settlement
+0;177.7126,-17.6616;FJ-05;Western;Cabe Settlement
+0;177.7073,-17.6534;FJ-05;Western;Vatawai Settlement
+0;177.6453,-17.7838;FJ-05;Western;Tubai Settlement
+0;177.6588,-17.7761;FJ-05;Western;Vatubalavu Settlement
+0;177.6948,-17.7657;FJ-05;Western;Diriyaga Settlement
+0;177.6736,-17.7975;FJ-05;Western;Nawavu Settlement
+0;177.6598,-17.7944;FJ-05;Western;Vatumaro Settlement
+0;177.6363,-17.7751;FJ-05;Western;Rerega Settlement
+0;177.6598,-17.7990;FJ-05;Western;Edela Settlement
+0;177.7344,-17.7864;FJ-05;Western;Tokasalu Settlement
+0;177.7079,-17.7817;FJ-05;Western;Nasasa Settlement
+0;177.7326,-17.8062;FJ-05;Western;Raralevu Settlement
+0;177.7411,-17.8037;FJ-05;Western;Vunama Settlement
+0;177.7913,-17.7870;FJ-05;Western;Nakorokilagi Settlement
+0;177.8188,-17.7779;FJ-05;Western;Tuvavatu
+0;177.7765,-17.7485;FJ-05;Western;Naqereqere Settlement
+0;177.7191,-17.7621;FJ-05;Western;Notalolo Settlement
+0;177.7470,-17.7778;FJ-05;Western;Nawaicavu Settlement
+0;177.7441,-17.8007;FJ-05;Western;Lamiti Settlement
+0;177.7499,-17.7945;FJ-05;Western;Betonaqo Settlement
+0;177.7425,-17.7863;FJ-05;Western;Naisewa Settlement
+0;177.7809,-17.7318;FJ-05;Western;Batinatokalau Creek
+0;177.7799,-17.6848;FJ-05;Western;Naruyaruya Settlement
+0;177.7624,-17.6839;FJ-05;Western;Toreituni Settlement
+0;177.7599,-17.6953;FJ-05;Western;Vunatogotogo Settlement
+0;177.7699,-17.6966;FJ-05;Western;Virarara Settlement
+0;177.7851,-17.6693;FJ-05;Western;Navuniyasi Settlement
+0;177.8039,-17.6560;FJ-05;Western;Yaloku Settlement
+0;177.9118,-17.5416;FJ-05;Western;Koro Number One Settlement
+0;177.9652,-17.5894;FJ-05;Western;Vatucere Settlement
+0;177.9715,-17.6117;FJ-05;Western;Nadala
+0;177.9870,-17.6561;FJ-05;Western;Waimoqe Settlement
+0;177.9312,-17.6502;FJ-05;Western;Lokunabaki Settlement
+0;177.9206,-17.6542;FJ-05;Western;Marou Settlement
+0;177.5557,-17.5115;FJ-05;Western;Tavarau Settlement
+0;177.4920,-17.6069;FJ-05;Western;Vatamai Settlement
+0;177.4215,-17.8186;FJ-05;Western;Dratabu
+0;177.3317,-17.9324;FJ-05;Western;Bavu
+0;177.3721,-17.9220;FJ-05;Western;Dakadaka
+0;177.5965,-17.9765;FJ-05;Western;Nahou Settlement
+0;177.5591,-18.0462;FJ-05;Western;Qereqere Settlement
+0;177.5620,-18.0404;FJ-05;Western;Lokia Settlement
+0;177.5691,-17.9972;FJ-05;Western;Vunarewa Settlement
+0;177.5371,-18.0052;FJ-05;Western;Bilalevu Settlement
+0;177.5592,-18.0618;FJ-05;Western;Barara Settlement
+0;177.5657,-18.0689;FJ-05;Western;Halibu Settlement
+0;177.5850,-18.0680;FJ-05;Western;Yalasa Settlement
+0;177.3368,-17.8891;FJ-05;Western;Markaz
+0;177.4478,-18.0662;FJ-05;Western;Vunanea Settlement
+0;177.4308,-18.0450;FJ-05;Western;Niuyoka Settlement
+0;177.3265,-18.0517;FJ-05;Western;Togabula Settlement
+0;177.5507,-17.9997;FJ-05;Western;Nabitu Settlement
+0;177.6103,-18.0914;FJ-05;Western;Navause Settlement
+0;177.6070,-18.0958;FJ-05;Western;Nalidi Settlement
+0;177.5607,-18.0889;FJ-05;Western;Barara Settlement
+0;177.5856,-18.1794;FJ-05;Western;Sabata Settlement
+0;177.5040,-18.1668;FJ-05;Western;Kulukulu
+0;177.4907,-18.1422;FJ-05;Western;Rakirakilevu Settlement
+0;177.4387,-18.1542;FJ-05;Western;Sila
+0;177.4346,-18.1533;FJ-05;Western;Tore
+0;177.4326,-18.1477;FJ-05;Western;Naqeledaniu
+0;177.4480,-18.1318;FJ-05;Western;Navovo Settlement
+0;177.4739,-18.1445;FJ-05;Western;Waibogi Settlement
+0;177.4194,-18.1279;FJ-05;Western;Newtown Settlement
+0;177.3971,-18.1199;FJ-05;Western;Muka Settlement
+0;177.3376,-18.1224;FJ-05;Western;Yagasa Settlement
+0;177.3514,-18.0837;FJ-05;Western;Stable Settlement
+0;177.5967,-18.1733;FJ-05;Western;Sovi Settlement
+0;177.6655,-17.7773;FJ-05;Western;Waibitu Settlement
+0;177.7325,-17.8316;FJ-05;Western;Rabaraba Settlement
+0;177.7734,-17.8385;FJ-05;Western;Salabuli Settlement
+0;177.8881,-17.8105;FJ-05;Western;Nawiwi Settlement
+0;177.6236,-18.0734;FJ-05;Western;Sovi Settlement
+0;177.7044,-18.0140;FJ-05;Western;Yalavou
+0;177.7744,-17.9749;FJ-05;Western;Tukalevu Settlement
+0;177.7279,-17.9909;FJ-05;Western;Lomolomo Settlement
+0;177.6842,-17.8886;FJ-05;Western;Buro Settlement
+0;177.7850,-17.9108;FJ-05;Western;Nabobobo Settlement
+0;177.7820,-17.8973;FJ-05;Western;Vatuyate Settlement
+0;177.8396,-17.8716;FJ-05;Western;Nalili Settlement
+0;177.8384,-17.9229;FJ-05;Western;Waibasaga Settlement
+0;177.8693,-17.8892;FJ-05;Western;Varelobo Settlement
+0;177.8774,-17.8791;FJ-05;Western;Vunavesi Settlement
+0;177.8473,-17.9140;FJ-05;Western;Namacawa Settlement
+0;177.8228,-17.9824;FJ-05;Western;Tubai Settlement
+0;177.8282,-17.9820;FJ-05;Western;Raravou Settlement
+0;177.8346,-17.9790;FJ-05;Western;Lase Settlement
+0;177.8175,-17.9835;FJ-05;Western;Masimasi Settlement
+0;177.8939,-17.8656;FJ-05;Western;Savasava Settlement
+0;177.7749,-17.8709;FJ-05;Western;Natao Settlement
+0;177.7664,-17.8782;FJ-05;Western;Tubarua Settlement
+0;177.7572,-17.8846;FJ-05;Western;Nadurumoli Settlement
+0;177.7555,-17.8797;FJ-05;Western;Vatumali
+0;177.6820,-17.9490;FJ-05;Western;Nakeba Settlement
+0;177.7098,-17.9436;FJ-05;Western;Taunaveiua Settlement
+0;177.7052,-17.9515;FJ-05;Western;Lobau Settlement
+0;177.7280,-17.9656;FJ-05;Western;Nakura Settlement
+0;177.9172,-17.9542;FJ-05;Western;Navitilevu Settlement
+0;177.6345,-17.9682;FJ-05;Western;Nasautabu
+0;177.6404,-17.9566;FJ-05;Western;Rarabahaga Settlement
+0;177.6337,-17.9515;FJ-05;Western;Vunasalato Settlement
+0;177.8456,-17.9179;FJ-05;Western;Nakasayaga Settlement
+0;177.6232,-18.1412;FJ-05;Western;Drauniqili Settlement
+0;177.6277,-18.1397;FJ-05;Western;Vedidi Settlement
+0;177.6302,-18.1374;FJ-05;Western;Virara Settlement
+0;177.7691,-18.2250;FJ-05;Western;Navola Settlement
+0;177.7656,-18.2239;FJ-05;Western;Saumua Settlement
+0;177.6764,-18.2030;FJ-05;Western;Nagasau Settlement
+0;177.7321,-18.2164;FJ-05;Western;Qalito Settlement
+0;177.7327,-18.2138;FJ-05;Western;Nasi Settlement
+0;177.7298,-18.2116;FJ-05;Western;Vuniwai Settlement
+0;177.7152,-18.2107;FJ-05;Western;Vatukulelima Settlement
+0;177.7829,-18.2287;FJ-05;Western;Vucilevu Settlement
+0;177.8861,-18.2474;FJ-05;Western;Deuba
+0;178.0059,-18.2607;FJ-01;Central;Sausaunilaca Settlement
+0;178.0047,-18.2561;FJ-01;Central;Dranikula
+0;177.9993,-18.2254;FJ-01;Central;Tubarua Settlement
+0;177.9780,-18.2566;FJ-01;Central;Taqove Settlement
+0;177.9010,-18.2159;FJ-01;Central;Kuvau Settlement
+0;177.9161,-18.2549;FJ-01;Central;Talenaua Settlement
+0;177.9095,-18.2541;FJ-01;Central;Wainidawa Settlement
+0;177.8663,-18.1335;FJ-01;Central;Naboutolu Set
+0;177.8416,-18.2076;FJ-01;Central;Vunamoli Settlement
+0;177.8376,-18.2262;FJ-01;Central;Mateikadawa Settlement
+0;177.8448,-18.2264;FJ-01;Central;Waibale Settlement
+0;177.8510,-18.2613;FJ-01;Central;Matadradra Settlement
+0;177.8696,-18.2496;FJ-01;Central;Navacau Settlement
+0;177.6841,-18.1974;FJ-05;Western;Midra Settlement
+0;177.6696,-18.1991;FJ-05;Western;Valase Settlement
+0;177.8548,-18.1575;FJ-01;Central;Nacegacega Settlement
+0;178.0258,-18.1066;FJ-01;Central;Wainikai Settlement
+0;177.9024,-17.7714;FJ-05;Western;Vugavugawa
+0;177.8919,-17.7852;FJ-05;Western;Natoka
+0;177.8681,-17.7909;FJ-05;Western;Mare
+0;177.9263,-17.7476;FJ-05;Western;Nabuyalevu Settlement
+0;177.9112,-17.7395;FJ-05;Western;Naduadua Settlement
+0;177.9201,-17.7127;FJ-05;Western;Lutu Settlement
+0;177.9148,-17.6924;FJ-05;Western;Drala
+0;177.9149,-17.6961;FJ-05;Western;Vatutokotoko
+0;177.9279,-17.7085;FJ-05;Western;Nakito Settlement
+0;177.7374,-17.7776;FJ-05;Western;Vatumisini Settlement
+0;177.7568,-17.7900;FJ-05;Western;Nakubuwai Settlement
+0;177.7659,-17.6989;FJ-05;Western;Naqalau Settlement
+0;177.7269,-17.5864;FJ-05;Western;Korovuta Settlement
+0;177.6808,-17.5738;FJ-05;Western;Ketenikulalo Settlement
+0;177.7047,-17.7525;FJ-05;Western;Navunitawa Settlement
+0;177.7212,-17.7468;FJ-05;Western;Sonadradra Settlement
+0;177.6420,-17.6737;FJ-05;Western;Rara
+0;177.9367,-17.6302;FJ-05;Western;Naiyaca
+0;177.7762,-17.7528;FJ-05;Western;Natokaya Settlement
+0;178.1553,-17.3170;FJ-05;Western;Naba Settlement
+0;178.1532,-17.3209;FJ-05;Western;Matasevu Settlement
+0;178.1415,-17.3174;FJ-05;Western;Lomalake Settlement
+0;178.2399,-17.3591;FJ-05;Western;Navolau-2
+0;178.2157,-17.3499;FJ-05;Western;Ellington Settlement
+0;178.0343,-17.4884;FJ-05;Western;Navadili Settlement
+0;178.0490,-17.4775;FJ-05;Western;Loqa Settlement
+0;178.0574,-17.5170;FJ-05;Western;Drekeniwai Settlement
+0;178.0657,-17.5151;FJ-05;Western;Nayawe Settlement
+0;178.1698,-17.3672;FJ-05;Western;Colasi Settlement
+0;178.1452,-17.3729;FJ-05;Western;Wairuku Settlement
+0;178.1803,-17.3807;FJ-05;Western;Tuvavatu Settlement
+0;178.1530,-17.3874;FJ-05;Western;Vatumani Settlement
+0;178.1687,-17.3912;FJ-05;Western;Dranayavutia Settlement
+0;178.1046,-17.5267;FJ-05;Western;Naraviravi
+0;178.2595,-17.4632;FJ-05;Western;Bona Settlement
+0;178.2685,-17.4769;FJ-05;Western;Namunamu Settlement
+0;178.2724,-17.4757;FJ-05;Western;Namunamu Creek
+0;178.2209,-17.4625;FJ-05;Western;Wailevu Settlement
+0;178.3605,-17.5403;FJ-05;Western;Nadavacia Settlement
+0;178.3710,-17.5411;FJ-05;Western;Saioko
+0;178.3003,-17.5230;FJ-05;Western;Sarava Settlement
+0;178.2718,-17.5174;FJ-05;Western;Navesi Settlement
+0;178.2902,-17.5050;FJ-05;Western;Sobasoba Settlement
+0;178.2612,-17.5033;FJ-05;Western;Tova Settlement
+0;178.2083,-17.4957;FJ-05;Western;Taina Settlement
+0;178.2000,-17.4885;FJ-05;Western;Qaqa Settlement
+0;178.2183,-17.5400;FJ-05;Western;Wailevu Settlement
+0;178.2164,-17.5312;FJ-05;Western;Tobulevu Settlement
+0;178.3751,-17.5403;FJ-05;Western;Burenikita Settlement
+0;178.3990,-17.5498;FJ-05;Western;Kavula Settlement
+0;178.3253,-17.4903;FJ-05;Western;Waidele Settlement
+0;178.2233,-17.4959;FJ-05;Western;Rokoroko
+0;178.2005,-17.4857;FJ-05;Western;Roma Settlement
+0;178.2376,-17.4050;FJ-05;Western;Nacokula Settlement
+0;178.2372,-17.4006;FJ-05;Western;Naboutolu
+0;178.0780,-17.4891;FJ-05;Western;Narauyaba Settlement
+0;178.1291,-17.5717;FJ-05;Western;Nasavu
+0;178.1226,-17.5643;FJ-05;Western;Nayavukase Settlement
+0;178.1234,-17.5877;FJ-05;Western;Nakoroyaqona Settlement
+0;178.1260,-17.5907;FJ-05;Western;Navakasere Settlement
+0;178.1246,-17.5906;FJ-05;Western;Naivaka Settlement
+0;178.1310,-17.5945;FJ-05;Western;Naikarua Settlement
+0;178.1556,-17.5892;FJ-05;Western;Nabua Settlement
+0;178.1702,-17.6226;FJ-05;Western;Nasau
+0;178.2227,-17.5859;FJ-05;Western;Dodosi Settlement
+0;178.2996,-17.5823;FJ-05;Western;Draunaleka Settlement
+0;178.2909,-17.5918;FJ-05;Western;Nawailewa Settlement
+0;178.2866,-17.5977;FJ-05;Western;Navunibua Settlement
+0;178.2829,-17.5998;FJ-05;Western;Waimomo Settlement
+0;178.2778,-17.6226;FJ-05;Western;Nawada Settlement
+0;178.3632,-17.6934;FJ-01;Central;Nayavu
+0;178.3690,-17.7058;FJ-01;Central;Waineke Settlement
+0;178.3668,-17.6300;FJ-05;Western;Lauleka Settlement
+0;178.3148,-17.6527;FJ-05;Western;Manumanu Settlement
+0;178.3098,-17.6503;FJ-05;Western;Lomaiviti Settlement
+0;178.2656,-17.6217;FJ-05;Western;Dausiga
+0;178.2750,-17.6570;FJ-05;Western;Delainasau Settlement
+0;178.2152,-17.6475;FJ-05;Western;Koroqele Settlement
+0;178.1026,-17.7324;FJ-01;Central;Nadara Settlement
+0;178.0682,-17.7022;FJ-01;Central;Roma Settlement
+0;178.1285,-17.7604;FJ-01;Central;Kakanayago Settlement
+0;178.1292,-17.7624;FJ-01;Central;Navatukani Settlement
+0;178.3577,-17.8122;FJ-01;Central;Muainanuku Settlement
+0;178.3493,-17.8062;FJ-01;Central;Namatabitu Settlement
+0;178.1868,-17.8044;FJ-01;Central;Nadovu
+0;178.2117,-17.7484;FJ-01;Central;Namaranidrika Settlement
+0;178.6004,-18.0868;FJ-01;Central;Nakawaru
+0;178.5544,-18.1252;FJ-01;Central;Nakaulau
+0;178.5557,-18.1299;FJ-01;Central;Tavuya
+0;178.5529,-18.1370;FJ-01;Central;Naivibita
+0;178.5358,-18.1420;FJ-01;Central;Vunievuevu
+0;178.4483,-18.0868;FJ-01;Central;Tamavua-i-cake
+0;178.4397,-18.0995;FJ-01;Central;Tamavua 2
+0;178.4411,-18.1040;FJ-01;Central;Tamavua-i-wai
+0;178.4254,-18.0946;FJ-01;Central;Bakebuka
+0;178.4224,-18.0948;FJ-01;Central;Marata
+0;178.4272,-18.1073;FJ-01;Central;Nadonumai
+0;178.4226,-18.1121;FJ-01;Central;Vugalei
+0;178.4201,-18.1110;FJ-01;Central;Wainidinu
+0;178.4001,-18.0999;FJ-01;Central;Qauia
+0;178.4058,-18.1020;FJ-01;Central;Matanisivaro
+0;178.4069,-18.1052;FJ-01;Central;Matata
+0;178.4000,-18.1077;FJ-01;Central;Naivikinikini
+0;178.3770,-18.1256;FJ-01;Central;Bilo
+0;178.3753,-18.1086;FJ-01;Central;Namuka-i-Lau
+0;178.4943,-18.0865;FJ-01;Central;Wakanisila
+0;178.4755,-18.0823;FJ-01;Central;Vikoba
+0;178.1815,-17.6363;FJ-05;Western;Sawanivo
+0;178.3827,-17.8043;FJ-01;Central;Naitiqatiqa Settlement
+0;178.1142,-17.8246;FJ-01;Central;Bukunivatu
+0;178.3627,-17.8307;FJ-01;Central;Kabara Settlement
+0;178.3431,-17.8189;FJ-01;Central;Waiuraura Settlement
+0;178.3479,-17.8185;FJ-01;Central;Waidawara Settlement
+0;178.2934,-17.8244;FJ-01;Central;Tai Settlement
+0;178.2046,-17.8276;FJ-01;Central;Wainavau Settlement
+0;178.2934,-17.8341;FJ-01;Central;Namirimiri Settlement
+0;178.2843,-17.8529;FJ-01;Central;Waimalua Settlement
+0;178.2684,-17.8296;FJ-01;Central;Waiqa Settlement
+0;178.3465,-17.8454;FJ-01;Central;Naocosaqa Settlement
+0;178.3163,-17.8906;FJ-01;Central;Naterumai
+0;178.3508,-17.8843;FJ-01;Central;Delaiwaimale
+0;178.0613,-17.8920;FJ-01;Central;Tubarua
+0;178.0428,-18.2600;FJ-01;Central;Taunovo Settlement
+0;178.0980,-18.2369;FJ-01;Central;Waidradra Settlement
+0;178.0549,-18.2574;FJ-01;Central;Lepanoni Settlement
+0;178.1258,-18.2104;FJ-01;Central;Vakabalea Settlement
+0;178.0532,-18.0928;FJ-01;Central;Naqesa Settlement
+0;178.1342,-18.1993;FJ-01;Central;Raiwaqa Settlement
+0;178.1209,-18.1939;FJ-01;Central;Cagilaba Settlement
+0;178.1967,-18.2162;FJ-01;Central;Togoru Settlement
+0;178.1726,-18.2332;FJ-01;Central;Wainiveidio Settlement
+0;178.1996,-18.2020;FJ-01;Central;Naqaributa Settlement
+0;178.3695,-18.1332;FJ-01;Central;Namakala Settlement
+0;178.3716,-18.1335;FJ-01;Central;Naivakacau Settlement
+0;178.3672,-18.1212;FJ-01;Central;Muanaicake Settlement
+0;178.3721,-18.1175;FJ-01;Central;Vuniviivilevu Settlement
+0;178.3647,-18.1129;FJ-01;Central;Veisari Settlement
+0;178.3602,-18.1150;FJ-01;Central;Veisari
+0;178.3683,-18.1224;FJ-01;Central;Borosisi
+0;178.3646,-18.1375;FJ-01;Central;Nabaka Settlement
+0;178.3475,-18.1246;FJ-01;Central;Wainigasau Settlement
+0;178.3536,-18.1188;FJ-01;Central;Tuanuga Settlement
+0;178.3370,-18.1165;FJ-01;Central;Naimataga Settlement
+0;178.3292,-18.1138;FJ-01;Central;Wainawa Settlement
+0;178.3109,-18.1041;FJ-01;Central;Naikorokoro Settlement
+0;178.3191,-18.1245;FJ-01;Central;Togalevu
+0;178.3107,-18.1362;FJ-01;Central;Wainisaqasaqa Settlement
+0;178.3016,-18.1438;FJ-01;Central;Gilbertese Settlement
+0;178.3937,-18.1023;FJ-01;Central;Kalekana
+0;178.2075,-18.1729;FJ-01;Central;Wailoaloa Settlement
+0;178.2372,-18.1360;FJ-01;Central;Kasinara Settlement
+0;178.0689,-18.0455;FJ-01;Central;Wainatava Settlement
+0;178.0833,-18.0162;FJ-01;Central;Wainisarava Settlement
+0;178.1422,-18.0359;FJ-01;Central;Nasigatoka
+0;178.1552,-18.0365;FJ-01;Central;Narukunibua
+0;178.3315,-17.8989;FJ-01;Central;Waisa Settlement
+0;178.2327,-18.0314;FJ-01;Central;Wainakaile Settlement
+0;178.2696,-18.0009;FJ-01;Central;Drauniwalai Settlement
+0;178.3180,-17.9900;FJ-01;Central;Namoka Settlement
+0;178.3510,-17.9462;FJ-01;Central;Vatulili
+0;178.3215,-17.8179;FJ-01;Central;Nagaga
+0;178.3202,-17.8102;FJ-01;Central;Naqara
+0;178.3401,-17.8239;FJ-01;Central;Taivau Settlement
+0;178.1281,-18.4165;FJ-01;Central;Sese Settlement
+0;178.1038,-18.4074;FJ-01;Central;Naiseuseu
+0;178.3616,-17.9120;FJ-01;Central;Waisasavu
+0;178.6668,-18.0446;FJ-01;Central;Kaleli Settlement
+0;178.6421,-18.0337;FJ-01;Central;Anitioki
+0;178.5992,-18.0593;FJ-01;Central;Nauluvatu
+0;178.5694,-18.0681;FJ-01;Central;Wainibokasi
+0;178.5214,-18.0708;FJ-01;Central;Nakasi
+0;178.4887,-18.0798;FJ-01;Central;Tovata
+0;178.5104,-18.0798;FJ-01;Central;Narere
+0;178.5545,-18.0827;FJ-01;Central;Newtown Settlement
+0;178.4985,-18.0726;FJ-01;Central;Makoi
+0;178.4642,-18.0776;FJ-01;Central;Savutalele Settlement
+0;178.4589,-18.0799;FJ-01;Central;Tacirua
+0;178.5191,-18.0280;FJ-01;Central;Waila Settlement
+0;178.5252,-18.0353;FJ-01;Central;Davuilevu Settlement
+0;178.5276,-18.0064;FJ-01;Central;Lakena Settlement
+0;178.5692,-18.0279;FJ-01;Central;Namolituva
+0;178.6150,-17.9706;FJ-01;Central;Soso
+0;178.6148,-17.9722;FJ-01;Central;Bau
+0;178.5734,-17.9847;FJ-01;Central;Matadawa Settlement
+0;178.5117,-17.9745;FJ-01;Central;Naduruloulou
+0;178.4377,-17.7838;FJ-01;Central;Waivora Settlement
+0;178.4457,-17.8061;FJ-01;Central;Vuniyarakuka Settlement
+0;178.4444,-17.8110;FJ-01;Central;Kubulau Settlement
+0;178.4602,-17.7911;FJ-01;Central;Luveidibuna Creek
+0;178.4115,-17.7858;FJ-01;Central;Navunidrala Settlement
+0;178.4134,-17.7837;FJ-01;Central;Namarikutu Settlement
+0;178.4153,-17.7770;FJ-01;Central;Bulagi Settlement
+0;178.4220,-17.7778;FJ-01;Central;Naivua Settlement
+0;178.4502,-17.7862;FJ-01;Central;Vogasau Settlement
+0;178.5021,-17.7980;FJ-01;Central;Waimaro Settlement
+0;178.5317,-17.7891;FJ-01;Central;Wainikavula Settlement
+0;178.5339,-17.7845;FJ-01;Central;Nasarasara Settlement
+0;178.5315,-17.7799;FJ-01;Central;Nairoro Settlement
+0;178.5300,-17.7765;FJ-01;Central;Nukutobici Settlement
+0;178.5298,-17.7741;FJ-01;Central;Nailili Settlement
+0;178.5481,-17.7722;FJ-01;Central;Naituikalawau Creek
+0;178.5566,-17.7977;FJ-01;Central;Naisuvasuva Settlement
+0;178.4195,-17.7693;FJ-01;Central;Nawakanikau Settlement
+0;178.4159,-17.7705;FJ-01;Central;Muaivela Settlement
+0;178.5367,-17.7892;FJ-01;Central;Matacula
+0;178.5486,-17.8124;FJ-01;Central;Namalata Settlement
+0;178.3954,-17.8503;FJ-01;Central;Delainameka
+0;178.5268,-17.8196;FJ-01;Central;Wainikeitinai Settlement
+0;178.5877,-17.8375;FJ-01;Central;Naivitabua Settlement
+0;178.5251,-17.8381;FJ-01;Central;Davetalevu Settlement
+0;178.3972,-17.8639;FJ-01;Central;Nakura Settlement
+0;178.3931,-17.9780;FJ-01;Central;Waitolu
+0;178.6003,-17.8642;FJ-01;Central;Waitaroga Settlement
+0;178.5826,-17.9380;FJ-01;Central;Tubalevu
+0;178.5588,-17.9325;FJ-01;Central;Natobuniqio
+0;178.5547,-17.9212;FJ-01;Central;Naqati Settlement
+0;178.5570,-17.9256;FJ-01;Central;Namulomulo
+0;178.5328,-17.9664;FJ;;Vuniwavuqi Settlement
+0;178.5737,-17.9521;FJ-01;Central;Naciri Settlement
+0;178.5823,-17.9534;FJ-01;Central;Natila Settlement
+0;178.5948,-18.0161;FJ-01;Central;Taranaka Settlement
+0;178.3915,-17.7793;FJ-01;Central;Soqoa Settlement
+0;179.2971,-17.9429;FJ-02;Eastern;Nacosari Seventh Day Adventist Settlement
+0;179.2530,-17.9888;FJ-02;Eastern;Naituvatuva Settlement
+0;179.2538,-17.9908;FJ-02;Eastern;Nalotu Settlement
+0;179.2542,-17.9921;FJ-02;Eastern;Navau
+0;179.2955,-18.0500;FJ-02;Eastern;Lele Seventh Day Adventist Settlement
+0;179.3643,-18.0874;FJ-02;Eastern;Lasea Settlement
+0;179.3646,-18.0952;FJ-02;Eastern;Baravi Settlement
+0;179.3562,-18.0595;FJ-02;Eastern;Waidranu Settlement
+0;179.3527,-18.0560;FJ-02;Eastern;Nasama Settlement
+0;179.3521,-18.0525;FJ-02;Eastern;Urata Settlement
+0;179.3500,-18.0443;FJ-02;Eastern;Waisomo Settlement
+0;179.3514,-18.0363;FJ-02;Eastern;Namokamoka Settlement
+0;179.3509,-18.0308;FJ-02;Eastern;Naovuaka Settlement
+0;178.4848,-18.0501;FJ-01;Central;Delaidogo Settlement
+0;179.4370,-17.8389;FJ-02;Eastern;Waitaletale Settlement
+0;179.4381,-17.8368;FJ-02;Eastern;Nasoata Set
+0;179.4416,-17.8248;FJ-02;Eastern;Lairokona Settlement
+0;179.1608,-17.7930;FJ-02;Eastern;Naibalebale Settlement
+0;178.4460,-17.5663;FJ-05;Western;Namatadamu Settlement
+0;178.3978,-17.5535;FJ-05;Western;Naqele Settlement
+0;178.3848,-17.5495;FJ-05;Western;Vucinivola Settlement
+0;178.3975,-17.5531;FJ-05;Western;Naqele Creek
+0;178.3893,-17.6741;FJ;;Natuvatuvavatu
+0;178.3925,-17.6868;FJ-01;Central;Waivisa Settlement
+0;178.3908,-17.6969;FJ-01;Central;Waisa Settlement
+0;178.3913,-17.6995;FJ-01;Central;Namoka
+0;178.3851,-17.7003;FJ-01;Central;Vunivesi Settlement
+0;178.3825,-17.6988;FJ-01;Central;Veiqoroqoro Settlement
+0;178.3791,-17.6971;FJ-01;Central;Naileqavatu Settlement
+0;178.3818,-17.7179;FJ-01;Central;Uluinavute Settlement
+0;178.3804,-17.7160;FJ-01;Central;Navunidravo Settlement
+0;178.3787,-17.7216;FJ-01;Central;Nukuterea Settlement
+0;178.3819,-17.7201;FJ-01;Central;Namataruku Settlement
+0;178.4232,-17.7342;FJ-01;Central;Buitua Settlement
+0;178.4246,-17.7258;FJ-01;Central;Wainaro Settlement
+0;178.4217,-17.7217;FJ-01;Central;Nadauvatu Settlement
+0;178.4149,-17.7351;FJ-01;Central;Naduatoka Settlement
+0;178.4139,-17.7378;FJ-01;Central;Namuana Settlement
+0;178.4118,-17.7418;FJ-01;Central;Davuilevu Settlement
+0;178.4071,-17.7475;FJ-01;Central;Dovasili Settlement
+0;178.3913,-17.7480;FJ-01;Central;Dreketi Settlement
+0;178.3946,-17.7489;FJ-01;Central;Navunivesi
+0;178.3904,-17.7353;FJ-01;Central;Waitoa Settlement
+0;178.3916,-17.7504;FJ-01;Central;Nabituleka Settlement
+0;178.3930,-17.7633;FJ-01;Central;Bucabuca Settlement
+0;178.3956,-17.7658;FJ-01;Central;Lovoni Settlement
+0;178.4033,-17.7669;FJ-01;Central;Wainivo Settlement
+0;178.3816,-17.7801;FJ-01;Central;Navuso Settlement
+0;178.4202,-17.7678;FJ-01;Central;Bougainville Settlement
+0;178.4242,-17.7656;FJ-01;Central;Wainikalavula Settlement
+0;178.4213,-17.7655;FJ-01;Central;Nabaiva Settlement
+0;178.4278,-17.7645;FJ-01;Central;Namolau Settlement
+0;178.4239,-17.7629;FJ-01;Central;Wainivasavua Settlement
+0;178.4141,-17.7783;FJ-01;Central;Vau Settlement
+0;178.4943,-17.7647;FJ-01;Central;Naqeledravia Settlement
+0;178.4930,-17.5952;FJ-01;Central;Natacileka Settlement
+0;178.5056,-17.6222;FJ-01;Central;Nabuna Settlement
+0;178.4969,-17.6263;FJ-01;Central;Waivula Settlement
+0;178.4943,-17.6279;FJ-01;Central;Veilolo Settlement
+0;178.5365,-17.6236;FJ-01;Central;Matai Settlement
+0;178.5470,-17.6374;FJ-01;Central;Soso Settlement
+0;178.5577,-17.6490;FJ-01;Central;Nabau Settlement
+0;178.5547,-17.6512;FJ-01;Central;Nadrano
+0;178.5652,-17.6413;FJ-01;Central;Veicorocoro Settlement
+0;178.5524,-17.6281;FJ-01;Central;Vatulaco Point
+0;178.5383,-17.6350;FJ-01;Central;Dranu
+0;178.5080,-17.6260;FJ-01;Central;Naqiri Settlement
+0;178.5100,-17.6276;FJ-01;Central;Biribiri Settlement
+0;178.5051,-17.6270;FJ-01;Central;Nabualau
+0;178.4877,-17.6360;FJ-01;Central;Natadradave
+0;178.5756,-17.6613;FJ-01;Central;Navutu Settlement
+0;178.5561,-17.6622;FJ-01;Central;Tabuqau Settlement
+0;178.5513,-17.6607;FJ-01;Central;Vunivesi Settlement
+0;178.5674,-17.7008;FJ-01;Central;Nakanacagi Settlement
+0;178.5676,-17.6983;FJ-01;Central;Wailevoga Settlement
+0;178.5749,-17.6935;FJ-01;Central;Waivola Settlement
+0;178.5718,-17.6867;FJ-01;Central;Waisei Settlement
+0;178.5629,-17.6834;FJ-01;Central;Vunivesi Settlement
+0;178.5478,-17.7121;FJ-01;Central;Wainibau Settlement
+0;178.5523,-17.7282;FJ-01;Central;Saiyaro Settlement
+0;178.5762,-17.6789;FJ-01;Central;Navisarata Settlement
+0;178.5814,-17.6754;FJ-01;Central;Natovi Settlement
+0;178.5175,-17.7561;FJ-01;Central;Navuca Settlement
+0;178.5216,-17.7385;FJ-01;Central;Waidaladalau Settlement
+0;178.5316,-17.7403;FJ-01;Central;Namau Settlement
+0;178.4897,-17.7309;FJ-01;Central;Wailotu Settlement
+0;178.4856,-17.7305;FJ-01;Central;Wainivilimi Settlement
+0;178.5493,-17.7364;FJ-01;Central;Waivou Settlement
+0;178.9844,-17.5990;FJ-02;Eastern;Wakaya Settlement
+0;178.7764,-17.6237;FJ-02;Eastern;Silana Settlement
+0;178.7405,-17.7709;FJ-02;Eastern;Varisi Settlement
+0;178.7432,-17.7736;FJ-02;Eastern;Matadodo Settlement
+0;178.7748,-17.7337;FJ-02;Eastern;Wainaloka Anglican Settlement
+0;178.7751,-17.7435;FJ-02;Eastern;Naqeledamudamu Settlement
+0;178.8071,-17.7292;FJ-02;Eastern;Nubu Settlement
+0;178.8143,-17.7298;FJ-02;Eastern;Namoli Settlement
+0;178.8011,-17.7251;FJ-02;Eastern;Waidra Settlement
+0;178.7969,-17.7254;FJ-02;Eastern;Varo Settlement
+0;178.8023,-17.7224;FJ-02;Eastern;Kutau Settlement
+0;178.7713,-17.7044;FJ-02;Eastern;Vatu Settlement
+0;178.8330,-17.7029;FJ-02;Eastern;Nukuloaloa Settlement
+0;178.8335,-17.7044;FJ-02;Eastern;Natuvu Settlement
+0;178.8328,-17.7060;FJ-02;Eastern;Kavukakuvu Settlement
+0;178.8323,-17.7086;FJ-02;Eastern;Nabuniika Settlement
+0;178.8364,-17.6929;FJ-02;Eastern;Ucuicawaqai Settlement
+0;178.8351,-17.6902;FJ-02;Eastern;Nukumatai Settlement
+0;178.7473,-17.6501;FJ-02;Eastern;Waidradranu Settlement
+0;178.7630,-17.6481;FJ-02;Eastern;Nauluvatu Settlement
+0;178.7468,-17.6804;FJ-02;Eastern;Buresala Settlement
+0;178.7587,-17.7009;FJ-02;Eastern;Tivi Settlement
+0;179.3728,-17.3958;FJ-02;Eastern;Waima Settlement
+0;179.3780,-17.3950;FJ-02;Eastern;Nosonoso Settlement
+0;179.3823,-17.3951;FJ-02;Eastern;Natuvu Settlement
+0;179.4171,-17.3617;FJ-02;Eastern;Loma Seventh Day Adventist Settlement
+0;179.4172,-17.3592;FJ-02;Eastern;Nasomo Settlement
+0;179.4331,-17.3294;FJ-02;Eastern;Yacata Settlement
+0;179.4158,-17.2991;FJ-02;Eastern;Vatusonisoni Settlement
+0;179.4289,-17.3029;FJ-02;Eastern;Naivinivini Settlement
+0;179.4393,-17.2978;FJ-02;Eastern;Naunu Settlement
+0;179.3888,-17.2801;FJ-02;Eastern;Waioula Settlement
+0;179.3932,-17.2754;FJ-02;Eastern;Nasoqoloa Settlement
+0;179.3958,-17.2732;FJ-02;Eastern;Naqala Settlement
+0;179.3899,-17.2644;FJ-02;Eastern;Nagadro Settlement
+0;179.4086,-17.2452;FJ-02;Eastern;Batiri Settlement
+0;179.3877,-17.2517;FJ-02;Eastern;Bunirea Settlement
+0;179.3621,-17.2886;FJ-02;Eastern;Nabasovi
+0;179.4399,-17.3008;FJ-02;Eastern;Makutu Settlement
+0;179.4396,-17.3026;FJ-02;Eastern;Nadovu Settlement
+0;178.7359,-17.7648;FJ-02;Eastern;Wawa
+0;178.8324,-17.6751;FJ-02;Eastern;Korovatu
+0;177.9865,-19.1386;FJ-02;Eastern;Napoidi Settlement
+0;177.9895,-19.1375;FJ-02;Eastern;Tabana Settlement
+0;177.9564,-19.1245;FJ-02;Eastern;Nasoso Settlement
+0;178.0478,-19.1495;FJ-02;Eastern;Vasili Settlement
+0;178.0500,-19.1470;FJ-02;Eastern;Sava Settlement
+0;178.0145,-19.1443;FJ-02;Eastern;Busa Settlement
+0;178.0239,-19.0936;FJ-02;Eastern;Korovou Settlement
+0;177.9996,-19.1208;FJ-02;Eastern;Nabale Settlement
+0;178.0325,-19.0784;FJ-02;Eastern;Muailulu Settlement
+0;178.1326,-19.1295;FJ-02;Eastern;Nautosaca Settlement
+0;178.1420,-19.1172;FJ-02;Eastern;Burelevu Settlement
+0;178.2733,-18.9697;FJ-02;Eastern;Nukudu Settlement
+0;178.2764,-18.9695;FJ-02;Eastern;Muaninuku Settlement
+0;177.9960,-19.1344;FJ-02;Eastern;Tabanasa Settlement
+0;178.4413,-18.9610;FJ-02;Eastern;Solotina Settlement
+0;178.4580,-18.9696;FJ-02;Eastern;Nacovono Settlement
+0;178.4599,-18.9687;FJ-02;Eastern;Nasavu Settlement
+0;178.4634,-18.9683;FJ-02;Eastern;Waikucura Settlement
+0;178.4288,-18.9697;FJ-02;Eastern;Namuanaira Settlement
+0;178.4309,-18.9778;FJ-02;Eastern;Wainikaculoa Settlement
+0;178.4281,-18.9788;FJ-02;Eastern;Nukutubu Settlement
+0;178.4219,-18.9831;FJ-02;Eastern;Vunivaivai Settlement
+0;178.4759,-18.9811;FJ-02;Eastern;Qara Settlement
+0;178.4758,-18.9853;FJ-02;Eastern;Nakoro Settlement
+0;178.4781,-18.9917;FJ-02;Eastern;Drudru Settlement
+0;178.4761,-18.9875;FJ-02;Eastern;Tiroivunivau Settlement
+0;178.4727,-19.0099;FJ-02;Eastern;Matalevu Settlement
+0;178.4475,-19.0126;FJ-02;Eastern;Matavuralevu Settlement
+0;178.4436,-19.0121;FJ-02;Eastern;Sogosevou Settlement
+0;178.4456,-19.0087;FJ-02;Eastern;Waica Settlement
+0;178.4381,-19.0239;FJ-02;Eastern;Wakanivutu Settlement
+0;178.4118,-19.0175;FJ-02;Eastern;Lavidi Settlement
+0;178.2896,-18.9506;FJ-02;Eastern;Dakuni Settlement
+0;178.3299,-18.9335;FJ-02;Eastern;Matari Settlement
+0;178.3356,-18.9376;FJ-02;Eastern;Yale Settlement
+0;178.3443,-18.9380;FJ-02;Eastern;Naioti
+0;178.3258,-19.0269;FJ-02;Eastern;Naituvatuva Settlement
+0;178.3407,-19.0307;FJ-02;Eastern;Raiwaqa Settlement
+0;177.1096,-17.6754;FJ-05;Western;Yarolevu Settlement
+0;177.1016,-17.6718;FJ-05;Western;Vitanive Settlement
+0;177.1319,-17.3318;FJ-05;Western;Yamata Settlement
+0;177.1107,-17.3158;FJ-05;Western;Naseva Settlement
+0;177.1076,-17.2939;FJ-05;Western;Vanuaseva Settlement
+0;177.2491,-17.0937;FJ-05;Western;Nasoqo Settlement
+0;177.5727,-16.7248;FJ-05;Western;Vetua
+0;178.6899,-16.9895;FJ-03;Northern;Wainisevu Settlement
+0;178.6883,-16.9837;FJ-03;Northern;Namulomulo Settlement
+0;178.6806,-16.9745;FJ-03;Northern;Raviravi Settlement
+0;178.6814,-16.9637;FJ-03;Northern;Qereqere Settlement
+0;178.6876,-16.9651;FJ-03;Northern;Kabulu Settlement
+0;178.6753,-16.9609;FJ-03;Northern;Namau Settlement
+0;178.6899,-16.9200;FJ-03;Northern;Nadawata Settlement
+0;178.6594,-16.9169;FJ-03;Northern;Wailele Settlement
+0;178.7544,-16.9452;FJ-03;Northern;Buresivo Settlement
+0;178.7577,-16.9345;FJ-03;Northern;Nadua Settlement
+0;178.7099,-16.8853;FJ-03;Northern;Namara Settlement
+0;178.6919,-16.8778;FJ-03;Northern;Nakoro Settlement
+0;178.6833,-16.8759;FJ-03;Northern;Nalewale Settlement
+0;178.6844,-16.8800;FJ-03;Northern;Buresivo Settlement
+0;178.6999,-16.8826;FJ-03;Northern;Vunibuka Settlement
+0;178.6636,-16.8981;FJ-03;Northern;Bikai Settlement
+0;178.6203,-16.8648;FJ-03;Northern;Koronibelo Settlement
+0;178.6522,-16.8633;FJ-03;Northern;Vanuavou Settlement
+0;178.6331,-16.8217;FJ-03;Northern;Vunivau Settlement
+0;178.6294,-16.8006;FJ-03;Northern;Nakorovou Settlement
+0;178.6040,-16.7926;FJ-03;Northern;Bua Indian Settlement
+0;178.5601,-16.7887;FJ-03;Northern;Vatubogi Settlement
+0;178.5737,-16.7875;FJ-03;Northern;Cubuye Settlement
+0;177.5807,-17.5698;FJ-05;Western;Old Lololo Village
+0;177.5268,-17.5917;FJ-05;Western;Vadraiyawa Settlement
+0;177.5419,-17.6266;FJ-05;Western;Paipai Settlement
+0;177.7760,-17.9139;FJ-05;Western;Yaroso Settlement
+0;177.8353,-17.7974;FJ-05;Western;Waivaruru Settlement
+0;178.5493,-16.7227;FJ-03;Northern;Naqilanimoto Settlement
+0;178.6846,-16.7230;FJ-03;Northern;Vanuavou Settlement
+0;178.7015,-16.6792;FJ-03;Northern;Delainasau Settlement
+0;178.6368,-16.6735;FJ-03;Northern;Lovonidalo Settlement
+0;178.6386,-16.6723;FJ-03;Northern;Bualailai Settlement
+0;178.6243,-16.6686;FJ-03;Northern;Waisili Settlement
+0;178.5838,-16.6684;FJ-03;Northern;Navakasiga Settlement
+0;178.7088,-16.6881;FJ-03;Northern;Nakadrudru Settlement
+0;178.7029,-16.6927;FJ-03;Northern;Nasi Settlement
+0;178.7066,-16.7372;FJ-03;Northern;Vavai Settlement
+0;178.8039,-16.9113;FJ-03;Northern;Nasimasima Settlement
+0;178.7832,-16.9249;FJ-03;Northern;Navere Settlement
+0;178.8471,-16.8741;FJ-03;Northern;Nautovi Settlement
+0;178.9659,-16.9120;FJ-03;Northern;Wailailai Settlement
+0;178.9720,-16.8870;FJ-03;Northern;Wainivesi Settlement
+0;178.9570,-16.9091;FJ-03;Northern;Cora Settlement
+0;178.9184,-16.8579;FJ-03;Northern;Bataniuciwai Settlement
+0;178.8659,-16.8546;FJ-03;Northern;Nabuni Settlement
+0;178.9373,-16.8845;FJ-03;Northern;Nakabuta Settlement
+0;179.0259,-16.8435;FJ-03;Northern;Vatuloaloa Settlement
+0;179.0265,-16.8165;FJ-03;Northern;Kilaka
+0;178.9006,-16.8123;FJ-03;Northern;Tadewa Settlement
+0;178.8555,-16.7961;FJ-03;Northern;Navakasati
+0;178.8791,-16.7973;FJ-03;Northern;Cicia Settlement
+0;178.8914,-16.7999;FJ-03;Northern;Yauvula Settlement
+0;179.0120,-16.7938;FJ-03;Northern;Matanitana Settlement
+0;179.0836,-16.7843;FJ-03;Northern;Dogoro Settlement
+0;179.1166,-16.7563;FJ-03;Northern;Nasavu Settlement
+0;179.1128,-16.7437;FJ-03;Northern;Korokacivi Settlement
+0;179.0959,-16.7649;FJ-03;Northern;Naviavia
+0;179.0694,-16.7655;FJ-03;Northern;Keka Settlement
+0;179.0139,-16.6176;FJ-03;Northern;Voloca Settlement
+0;179.0789,-16.6076;FJ-03;Northern;Waimala Settlement
+0;178.8890,-16.8213;FJ-03;Northern;Nawaisomo Settlement
+0;179.0824,-16.6284;FJ-03;Northern;Vunisikeci Settlement
+0;178.7546,-16.9639;FJ-03;Northern;Mataisolevu Settlement
+0;178.7604,-16.9476;FJ-03;Northern;Batiri Settlement
+0;178.8162,-16.8980;FJ-03;Northern;Nacara Settlement
+0;178.8884,-16.7442;FJ-03;Northern;Tabulotu Settlement
+0;178.8264,-16.6318;FJ-03;Northern;Draunivuga Settlement
+0;178.7643,-16.6224;FJ-03;Northern;Sasake Settlement
+0;178.7677,-16.6177;FJ-03;Northern;Tamavua Settlement
+0;178.7676,-16.6225;FJ-03;Northern;Tomu Settlement
+0;178.7936,-16.6095;FJ-03;Northern;Nakalavo Settlement
+0;178.8893,-16.5972;FJ-03;Northern;Kawakawasomo Settlement
+0;178.8902,-16.6019;FJ-03;Northern;Nalucu Settlement
+0;178.9521,-16.5883;FJ-03;Northern;Naivimoli Settlement
+0;178.9833,-16.6246;FJ-03;Northern;Namatadogo Settlement
+0;178.9912,-16.6430;FJ-03;Northern;Nadrano Settlement
+0;178.9937,-16.6449;FJ-03;Northern;Nainaci Settlement
+0;178.9922,-16.6245;FJ-03;Northern;Natekateka Settlement
+0;178.9851,-16.6443;FJ-03;Northern;Vunimale Settlement
+0;178.9993,-16.6198;FJ-03;Northern;Basaono Settlement
+0;179.0837,-16.5802;FJ-03;Northern;Vunivere Settlement
+0;179.1186,-16.6104;FJ-03;Northern;Nacereyaga
+0;179.1326,-16.5588;FJ-03;Northern;Navesidrua Settlement
+0;179.0522,-16.4580;FJ-03;Northern;Manuduitagi Settlement
+0;178.9260,-16.4776;FJ-03;Northern;Namotuatoga Settlement
+0;178.9293,-16.4894;FJ-03;Northern;Ruaruavesi Settlement
+0;178.9924,-16.4721;FJ-03;Northern;Kadavu Settlement
+0;179.1011,-16.4984;FJ-03;Northern;Buavou
+0;179.0105,-16.5410;FJ-03;Northern;Navai Settlement
+0;178.9568,-16.5876;FJ-03;Northern;Navunicagicagi Settlement
+0;179.5700,-16.7904;FJ-03;Northern;Peceli Settlement
+0;179.7730,-16.7225;FJ-03;Northern;Mataikoro Settlement
+0;179.7768,-16.7243;FJ-03;Northern;Vunisavisavi
+0;179.7613,-16.7273;FJ-03;Northern;Levuka Settlement
+0;179.8519,-16.7682;FJ-03;Northern;Namosi Settlement
+0;179.8496,-16.7564;FJ-03;Northern;Dromuninuku Settlement
+0;179.4766,-16.7364;FJ-03;Northern;Drano Settlement
+0;179.8350,-16.6751;FJ-03;Northern;Vatuvonu Seventh Day Adventist Settlement
+0;179.8256,-16.6625;FJ-03;Northern;Wailoaloa Settlement
+0;179.9424,-16.9691;FJ-03;Northern;Delaivuna Subdivision
+0;179.8889,-16.9636;FJ-03;Northern;Namoli Settlement
+0;179.8987,-16.9433;FJ-03;Northern;Nawainiyako Settlement
+0;179.9320,-16.9537;FJ-03;Northern;Qarawalu Settlement
+0;179.9360,-16.9510;FJ-03;Northern;Mataniwai Settlement
+0;179.9135,-16.9808;FJ-03;Northern;Navatuosooso Settlement
+0;179.9173,-16.9855;FJ-03;Northern;Tabakau Settlement
+0;179.9215,-16.9860;FJ-03;Northern;Vunidilo Settlement
+0;179.9214,-16.9138;FJ-03;Northern;Ura Settlement
+0;179.9999,-16.7976;FJ-03;Northern;Loloi Settlement
+0;179.9927,-16.8051;FJ-03;Northern;Caumudremudre Settlement
+0;179.9913,-16.8032;FJ-03;Northern;Navarada Settlement
+0;179.9939,-16.8074;FJ-03;Northern;Bainiose Settlement
+0;179.9854,-16.8156;FJ-03;Northern;Uducau Settlement
+0;179.9167,-16.9227;FJ-03;Northern;Nabogiono Settlement
+0;179.9158,-17.0048;FJ-03;Northern;Navolivoli Settlement
+0;179.9082,-17.0024;FJ-03;Northern;Rukuruku Settlement
+0;179.9231,-17.0040;FJ-03;Northern;Delaikatoba Settlement
+0;179.9234,-16.7427;FJ-03;Northern;Kamati Settlement
+0;179.9213,-16.7548;FJ-03;Northern;Vanaira Settlement
+0;179.8890,-16.7754;FJ-03;Northern;Nasali Settlement
+0;179.4801,-16.7470;FJ-03;Northern;Wainivula Settlement
+0;179.4658,-16.7569;FJ-03;Northern;Kubuna Settlement
+0;179.4655,-16.7680;FJ-03;Northern;Vunisawana Settlement
+0;179.4668,-16.7647;FJ-03;Northern;Vugalei 2 Settlement
+0;178.9064,-16.4948;FJ-03;Northern;Rewa Settlement
+0;179.8415,-16.7441;FJ-03;Northern;Niuwa Settlement
+0;179.9275,-17.0058;FJ-03;Northern;Qovu Settlement
+0;178.6015,-16.7630;FJ-03;Northern;Dreketi
+0;178.4403,-17.9642;FJ-01;Central;Naganivatu Village
+0;178.9196,-16.5578;FJ-03;Northern;Dreketi
+0;179.7407,-16.4302;FJ-03;Northern;Tubitubi Settlement
+0;179.5247,-16.3994;FJ-03;Northern;Vunisiti Settlement
+0;179.5931,-16.3903;FJ-03;Northern;Tebe Settlement
+0;179.7435,-16.4190;FJ-03;Northern;Petra Settlement
+0;179.7415,-16.4227;FJ-03;Northern;Vunirote Settlement
+0;179.5058,-16.4303;FJ-03;Northern;Lovoniqai Settlement
+0;179.5074,-16.4374;FJ-03;Northern;Namaqala Settlement
+0;179.8129,-16.3290;FJ-03;Northern;Vola Settlement
+0;179.8212,-16.3165;FJ-03;Northern;Vuniveata Settlement
+0;179.8149,-16.2974;FJ-03;Northern;Navateqe Settlement
+0;179.7819,-16.3446;FJ-03;Northern;Mamire Settlement
+0;179.7718,-16.3387;FJ-03;Northern;Bakau Settlement
+0;179.7634,-16.3450;FJ-03;Northern;Loganiota Settlement
+0;179.7801,-16.3518;FJ-03;Northern;Navutu Settlement
+0;179.7973,-16.3528;FJ-03;Northern;Nakura Settlement
+0;179.7915,-16.3669;FJ-03;Northern;Vanuakumi Settlement
+0;179.5983,-16.4347;FJ-03;Northern;Vagani Settlement
+0;179.8415,-16.2356;FJ-03;Northern;Nasinu Settlement
+0;179.8421,-16.2392;FJ-03;Northern;Namoli Settlement
+0;179.8075,-16.2892;FJ-03;Northern;Vuniividamu Settlement
+0;179.8025,-16.2835;FJ-03;Northern;Nukusere Settlement
+0;179.7941,-16.2843;FJ-03;Northern;Kenani Settlement
+0;179.7768,-16.2845;FJ-03;Northern;Iteni Settlement
+0;179.7755,-16.2895;FJ-03;Northern;Vatuvanai Settlement
+0;179.7681,-16.2974;FJ-03;Northern;Vunivia Settlement
+0;179.7561,-16.2973;FJ-03;Northern;New Town Settlement
+0;179.7401,-16.3045;FJ-03;Northern;Saroni Settlement
+0;179.7258,-16.2947;FJ-03;Northern;Nubutu Settlement
+0;179.7098,-16.3030;FJ-03;Northern;Wainiura Settlement
+0;179.6949,-16.3050;FJ-03;Northern;Nayaroyaro Settlement
+0;179.5751,-16.3692;FJ-03;Northern;Bulu Settlement
+0;179.5820,-16.3723;FJ-03;Northern;Naocobele Settlement
+0;179.5425,-16.3423;FJ-03;Northern;Iteni Settlement
+0;179.5840,-16.3276;FJ-03;Northern;Wainidrua Settlement
+0;179.5723,-16.1932;FJ-03;Northern;Kavewa
+0;179.7276,-16.2305;FJ-03;Northern;Naduru Settlement
+0;179.7230,-16.2348;FJ-03;Northern;Valetokoni Settlement
+0;179.6777,-16.2195;FJ-03;Northern;Matainadoi
+0;179.6011,-16.2488;FJ-03;Northern;Vatutekevi Settlement
+0;-178.7535,-21.0098;FJ-02;Eastern;Matavuralevu
+0;-178.8488,-21.0329;FJ-02;Eastern;Tuvana
+0;-178.7211,-20.6612;FJ-02;Eastern;Lovoni
+0;-178.7225,-20.6637;FJ-02;Eastern;Nukuni
+0;-178.9498,-18.9164;FJ-02;Eastern;Naikeleaga
+0;179.5565,-16.2932;FJ-03;Northern;Korowaiwai Settlement
+0;179.6702,-16.2983;FJ-03;Northern;Davoa Settlement
+0;-178.6202,-18.6830;FJ-02;Eastern;Komo Village
+0;177.1090,-17.6757;FJ;;Lautoka
+0;-179.2809,-17.7483;FJ-02;Eastern;Naivakadranu Settlement
+0;-179.9788,-16.1321;FJ-03;Northern;Waisavu
+0;-179.9983,-16.1379;FJ-03;Northern;Vunikodi
+0;-179.9994,-16.1437;FJ-03;Northern;Nayalalevu
+0;-179.9798,-16.1535;FJ-03;Northern;Dociu
+0;-179.7454,-16.7709;FJ-03;Northern;Naivitukituki Settlement
+0;-179.7233,-16.7749;FJ-03;Northern;Vunidrala Settlement
+0;-179.7112,-16.7571;FJ-03;Northern;Vunivesi Settlement
+0;-179.7276,-16.7553;FJ-03;Northern;Veidomoni Settlement
+0;-179.6834,-16.7440;FJ-03;Northern;Nasau Settlement
+0;-179.8959,-16.8704;FJ-03;Northern;Naba Settlement
+0;-179.8812,-16.8255;FJ-03;Northern;Navaka Settlement
+0;-179.8597,-16.8030;FJ-03;Northern;Wai Settlement
+0;-179.8537,-16.7975;FJ-03;Northern;Vunimakita Settlement
+0;-179.8338,-16.7758;FJ-03;Northern;Vunivasa Settlement
+0;-179.8890,-16.7473;FJ-03;Northern;Qeleni Settlement
+0;-179.9034,-16.7535;FJ-03;Northern;Naikatolu Settlement
+0;-179.8628,-16.7477;FJ-03;Northern;Vunitarawau Settlement
+0;-179.8623,-16.7422;FJ-03;Northern;Lomaniba Settlement
+0;-179.8623,-16.7400;FJ-03;Northern;Vuniwaqa Settlement
+0;-179.8600,-16.7381;FJ-03;Northern;Vunimakita Settlement
+0;-179.8601,-16.7355;FJ-03;Northern;Bainiose Settlement
+0;-179.8625,-16.7373;FJ-03;Northern;Vunidawa Settlement
+0;-179.9442,-16.7371;FJ-03;Northern;Nanuku Settlement
+0;-179.9719,-16.7724;FJ-03;Northern;Dreketi Settlement
+0;-179.9717,-16.7896;FJ-03;Northern;Malua Settlement
+0;-179.9871,-16.7904;FJ-03;Northern;Vuniuto Settlement
+0;-179.9823,-16.7926;FJ-03;Northern;Nalaga Settlement
+0;-179.9916,-16.7979;FJ-03;Northern;Vunitarawau Settlement
+0;-179.9113,-16.7083;FJ-03;Northern;Mua Settlement
+0;-179.8935,-16.6973;FJ-03;Northern;Vacala Settlement
+0;-179.8908,-16.6968;FJ;;Saioni Settlement
+0;-179.8661,-16.7020;FJ-03;Northern;Vunidrala Settlement
+0;-179.8774,-16.6922;FJ-03;Northern;Saioni Settlement
+0;-179.8629,-16.7104;FJ-03;Northern;Vetaua Settlement
+0;-179.8629,-16.7140;FJ-03;Northern;Vatudovia Settlement
+0;-179.8625,-16.7170;FJ-03;Northern;Wiwi Settlement
+0;-179.8607,-16.7236;FJ-03;Northern;Matailobau Settlement
+0;-179.9890,-16.5369;FJ-03;Northern;Matantubu
+0;-179.9903,-16.5342;FJ-03;Northern;Buakonikai
+0;-179.9575,-16.5273;FJ-03;Northern;Ntaku
+0;-179.9501,-16.5243;FJ-03;Northern;Nasau
+0;-179.9360,-16.5174;FJ-03;Northern;Utumero
+0;-179.9423,-16.5075;FJ-03;Northern;Anuanrebu
+0;-179.9415,-16.5018;FJ-03;Northern;Niuou
+0;-179.9452,-16.4975;FJ-03;Northern;Kainria
+0;-179.9480,-16.4929;FJ-03;Northern;Mereran
+0;-179.9464,-16.4885;FJ-03;Northern;Watukume
+0;-179.9531,-16.4855;FJ-03;Northern;Rakentai
+0;-179.9542,-16.4799;FJ-03;Northern;Korone
+0;-179.9442,-16.4761;FJ-03;Northern;Rabirabi
+0;-179.9392,-16.4662;FJ-03;Northern;Bani
+0;-179.9331,-16.4667;FJ-03;Northern;Bani Lailai
+0;-179.9278,-16.4714;FJ-03;Northern;Temmama
+0;-179.9246,-16.4665;FJ-03;Northern;Nuku Rekareka
+0;-179.9236,-16.4636;FJ-03;Northern;Nuku Barau
+0;-179.9278,-16.4497;FJ-03;Northern;Rawake
+0;-179.9333,-16.4426;FJ-03;Northern;Tambau
+0;-179.9610,-16.4551;FJ-03;Northern;Tiburaro
+0;-179.9630,-16.4603;FJ-03;Northern;Kibeuri
+0;-179.9665,-16.4671;FJ-03;Northern;Te Bororan
+0;-179.9704,-16.4703;FJ-03;Northern;Eritabeta
+0;-179.9750,-16.4676;FJ-03;Northern;Waimarua
+0;-179.9856,-16.4683;FJ-03;Northern;Batutu
+0;-179.9898,-16.4725;FJ-03;Northern;Tabwewa Mean
+0;-179.9948,-16.4796;FJ-03;Northern;Tabwewa
+0;-179.9962,-16.4838;FJ-03;Northern;Nuku
+0;-179.9995,-16.4851;FJ-03;Northern;Levuka
+0;-179.9962,-16.5251;FJ-03;Northern;Aibong
+0;-179.9933,-16.5236;FJ-03;Northern;Nukudrasi
+0;-179.9864,-16.5199;FJ-03;Northern;Nakoro
+0;-179.1688,-17.4274;FJ-02;Eastern;Marouna Settlement
+0;-179.1532,-17.4453;FJ-02;Eastern;Butoni Settlement
+0;-179.1445,-17.2504;FJ-02;Eastern;Kanacea Settlement
+0;-178.9941,-17.3171;FJ-02;Eastern;Nakama Settlement
+0;-179.0087,-17.1815;FJ-02;Eastern;Nabavatu Settlement
+0;-179.5067,-17.2590;FJ-02;Eastern;Yacata
+0;-179.5220,-17.2465;FJ-02;Eastern;Waisowata Settlement
+0;-178.8179,-18.2329;FJ-02;Eastern;Vaga Settlement
+0;-178.8018,-18.1775;FJ-02;Eastern;Colo Settlement
+0;-178.7794,-18.1918;FJ-02;Eastern;Assembly of God Settlement
+0;-178.7559,-18.2003;FJ-02;Eastern;Kilikali Settlement
+0;-178.7559,-18.2246;FJ-02;Eastern;Potu Settlement
+0;-178.8037,-18.2462;FJ-02;Eastern;Bau Settlement
+0;-178.9590,-17.2523;FJ-02;Eastern;Saqani Settlement
+0;-179.7761,-16.7666;FJ-03;Northern;Waibulu Settlement
+0;-179.7915,-16.7515;FJ-03;Northern;Nukubalavu Settlement
+0;-179.7643,-16.7487;FJ-03;Northern;Lali Settlement
+0;-179.7557,-16.7508;FJ-03;Northern;Niubalavu Settlement
+0;-178.8771,-17.3751;FJ-02;Eastern;Munia Settlement
+0;-178.9496,-17.3433;FJ-02;Eastern;Susui
+0;-178.9606,-17.3518;FJ-02;Eastern;Wainiceva Settlement
+0;-178.9872,-17.2931;FJ-02;Eastern;Sawana
+0;-178.9878,-17.2967;FJ-02;Eastern;Naqara Settlement
+0;-178.9498,-17.2082;FJ-02;Eastern;Masomo Settlement
+0;-178.9484,-17.1892;FJ-02;Eastern;Tota Settlement
+0;179.2885,-16.8142;FJ-03;Northern;Lesiaceva
+0;179.3619,-16.7569;FJ-03;Northern;Lomanibai Settlement
+0;179.3834,-16.7614;FJ-03;Northern;Ketei Settlement
+0;179.3915,-16.7517;FJ-03;Northern;Moliwawa Settlement
+0;179.3546,-16.7333;FJ-03;Northern;Nadamole
+0;179.3569,-16.7339;FJ-03;Northern;Jerusalemi
+0;179.3266,-16.7096;FJ-03;Northern;Bagaraki Settlement
+0;179.1868,-16.6915;FJ-03;Northern;Sarava Settlement
+0;179.2950,-16.6671;FJ-03;Northern;Nabucalevu Settlement
+0;179.2754,-16.6732;FJ-03;Northern;Biula Settlement
+0;179.2902,-16.6780;FJ-03;Northern;Daroko
+0;179.2688,-16.6571;FJ-03;Northern;Levuka
+0;179.4750,-16.6775;FJ-03;Northern;Vutuni Settlement
+0;179.4698,-16.6780;FJ-03;Northern;Vunitiovu Settlement
+0;179.4609,-16.6760;FJ-03;Northern;Vuniqalulu Settlement
+0;179.2839,-16.7009;FJ-03;Northern;Paradise Cove
+0;179.2474,-16.6979;FJ-03;Northern;Korovou
+0;179.2311,-16.6992;FJ-03;Northern;Codreudreu Settlement
+0;179.1754,-16.6194;FJ-03;Northern;Lomaloma Settlement
+0;179.4866,-16.6688;FJ-03;Northern;Tabia
+0;179.3588,-16.5586;FJ-03;Northern;Vatudamu Settlement
+0;179.3820,-16.5494;FJ-03;Northern;Talaleka Settlement
+0;179.3885,-16.5402;FJ-03;Northern;Lawaki Settlement
+0;179.2710,-16.5669;FJ-03;Northern;Navisei Settlement
+0;179.2361,-16.5580;FJ-03;Northern;Nalemo Settlement
+0;179.2914,-16.5504;FJ-03;Northern;Dodotabua Settlement
+0;179.2896,-16.5509;FJ-03;Northern;Wakanilato Settlement
+0;179.2897,-16.5574;FJ-03;Northern;Dogoru
+0;179.3013,-16.5400;FJ-03;Northern;Vunimasimasi Settlement
+0;179.2917,-16.5360;FJ-03;Northern;Nasaqa
+0;179.1946,-16.5215;FJ-03;Northern;Vudibasoga Settlement
+0;179.1928,-16.5149;FJ-03;Northern;Moliyagiwala Settlement
+0;179.1778,-16.5296;FJ-03;Northern;Nakavika
+0;179.1402,-16.5231;FJ-03;Northern;Waivure Settlement
+0;179.2041,-16.5051;FJ-03;Northern;Waiwaqa Settlement
+0;179.3507,-16.5064;FJ-03;Northern;Masiraniqai Settlement
+0;179.2409,-16.4927;FJ-03;Northern;Nasalia Settlement
+0;179.2973,-16.4595;FJ-03;Northern;Bucalevu Settlement
+0;179.3177,-16.4858;FJ-03;Northern;Yaudigi Settlement
+0;179.4162,-16.4937;FJ-03;Northern;Ranivau Settlement
+0;179.4263,-16.4944;FJ-03;Northern;Dramea Settlement
+0;179.4055,-16.5246;FJ-03;Northern;Waigisi Settlement
+0;179.4233,-16.4680;FJ-03;Northern;Galoa Settlement
+0;179.3750,-16.4402;FJ-03;Northern;Naqai Settlement
+0;179.3726,-16.4417;FJ-03;Northern;Nalawa Settlement
+0;179.3708,-16.4465;FJ-03;Northern;Wasavulu
+0;179.3090,-16.4454;FJ-03;Northern;Qaloyaga Settlement
+0;179.3094,-16.4194;FJ-03;Northern;Tubucola
+0;179.1743,-16.4246;FJ-03;Northern;Nainima Settlement
+0;179.3685,-16.4252;FJ-03;Northern;Namara
+0;179.3472,-16.4363;FJ-03;Northern;Tuatua
+0;179.2470,-16.4485;FJ-03;Northern;Soisoi Settlement
+0;179.2476,-16.4395;FJ-03;Northern;Laqere Settlement
+0;179.2363,-16.4172;FJ-03;Northern;Yalava-i-Cake Settlement
+0;179.3838,-16.4183;FJ-03;Northern;Cawa-i-Ra Settlement
+0;179.4497,-16.3912;FJ-03;Northern;Via Kana
+0;179.4547,-16.2993;FJ-03;Northern;Nasealevu Settlement
+0;179.3411,-16.7989;FJ-03;Northern;Nabaka Settlement
+0;179.3256,-16.8084;FJ-03;Northern;Rava Settlement
+0;179.3768,-16.7687;FJ-03;Northern;Savudrodro
+0;179.4373,-16.8089;FJ-03;Northern;Nakutoso
+0;179.4434,-16.7746;FJ-03;Northern;Natakea Settlement
+0;-179.9145,-15.7443;FJ-03;Northern;Nasevula Settlement
+0;177.2032,-17.8581;FJ-05;Western;Tavarua
+0;178.9649,-17.4637;FJ-02;Eastern;Nasau Settlement
+0;178.9539,-17.4435;FJ-02;Eastern;Dalice Settlement
+0;-179.9821,-16.7820;FJ-03;Northern;Waiyero
+0;179.7357,-19.1737;FJ-02;Eastern;Makadru
+0;179.7417,-19.1332;FJ-02;Eastern;Yaroi
+0;-179.9797,-16.7842;FJ-03;Northern;Waiyevo
+0;179.8914,-16.9659;FJ-03;Northern;Vuna
+0;177.0751,-12.4813;FJ-04;Rotuma;Upu
+0;178.5633,-18.1091;FJ-01;Central;Nasilai
+0;178.0328,-18.2622;FJ-01;Central;Wainiyabia
+0;178.5995,-18.0565;FJ-01;Central;Namuka
+0;-178.7462,-20.6644;FJ-02;Eastern;Matokana

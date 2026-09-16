@@ -1,0 +1,12 @@
+ru;Сан Хосе;San Jose Village
+de;San Jose;San Jose Village
+fr;San Jose;San Jose Village
+en;San Jose;San Jose Village
+id;Desa San Jose;San Jose Village
+ms;Kampung San Jose;San Jose Village
+es;Pueblo San Jose;San Jose Village
+hi;सैन जोस गांव;San Jose Village
+ja;サンホセ村;San Jose Village
+pt;Vila San Jose;San Jose Village
+ko;사이판;Saipan
+ru;Сайпан;Saipan

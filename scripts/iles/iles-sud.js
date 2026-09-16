@@ -61,6 +61,8 @@ module.exports = {
       rules: [
         { key: 'samui', match: { box: [[9.40, 9.60, 99.90, 100.12]] }, note: 'Ko Samui (certains lieux étiquetés Nakhon Si Thammarat par erreur).' },
         { key: 'phangan', match: { box: [[9.66, 9.81, 99.94, 100.10]] } },
+        { key: 'kohPhaluai', match: { box: [[9.50, 9.56, 99.65, 99.72]] }, note: 'Ko Phaluai (Mu Ko Ang Thong, Surat Thani) : 4 lieux « Ban Ko Phaluai », vérifiés dans le polygone OSM ; aucun pont. Bac véhicules Raja Ferry depuis Don Sak.' },
+        { key: '*', match: { near: [{ name: 'Ko Som', lat: 9.4719, lon: 99.6696, km: 1 }, { name: 'Ko Wua Chio (Ko Wia Chiu)', lat: 9.4428, lon: 99.6529, km: 0.5 }, { name: 'Ko Nok Taphao', lat: 9.3909, lon: 99.6645, km: 1 }] }, note: 'Îlots au large de Don Sak (lieux vérifiés dans les polygones OSM), sans pont ni bac véhicules : chaque lieu isolé.' },
         { key: 'kohTao', match: { box: [[10.05, 10.14, 99.80, 99.86]] }, note: 'Ko Tao : pas de ferry-auto à tarif publié.' },
         { key: 'kohChang', match: { box: [[11.95, 12.155, 102.25, 102.45]] }, note: 'Ko Chang (le continent — Laem Ngop, Ao Thammachat — commence vers 12,16° N).' },
         { key: 'kohKood', match: { box: [[11.55, 11.72, 102.50, 102.62]] } },
@@ -86,9 +88,10 @@ module.exports = {
           note: "Cát Bà. Cát Hải (à l'ouest, ≤106,93° E) est reliée au continent par le pont Tân Vũ–Lạch Huyện (2017) → continental. Bac Đồng Bài/Gót–Cái Viềng : pas de grille officielle en ligne." },
         { key: 'conDao', match: { box: [[8.60, 8.80, 106.50, 106.70]] }, note: 'Côn Sơn (Côn Đảo), rattachée administrativement à HCMV.' },
         { key: 'lySon', match: { box: [[15.35, 15.45, 109.05, 109.20]] } },
+        { key: 'phuQuy', match: { near: [{ name: 'Phú Quý', lat: 10.5166, lon: 108.9329, km: 8 }] },
+          note: "Phú Quý (Lâm Đồng, ex-Bình Thuận), à ~100 km de Phan Thiết. Liaisons Superdong, Phú Quý Express, Trưng Trắc, Chấn Kha : passagers + motos/fret ; aucun ferry-auto régulier sourcé (cargos mixtes type Hưng Phát 26 sans grille ni preuve officielle d'emport de voitures) → isolée." },
         { key: '*', match: { box: [[20.75, 21.02, 107.38, 107.85]] }, note: 'Bái Tử Long : Bản Sen, Quan Lạn, Minh Châu, Cô Tô… chaque lieu isolé (Cái Bầu/Vân Đồn, reliée par pont, est au nord de 21,02°).' },
         { key: '*', match: { near: [
-          { name: 'Phú Quý', lat: 10.5166, lon: 108.9329, km: 8 },
           { name: 'Bạch Long Vĩ', lat: 20.1315, lon: 107.7308, km: 4 },
           { name: 'Thổ Chu', lat: 9.3031, lon: 103.4755, km: 6 },
           { name: 'Hòn Sơn', lat: 9.80, lon: 104.633, km: 3 },
@@ -131,6 +134,13 @@ module.exports = {
       source: 'https://www.rajaferryport.com/fare (annexe à l\'arrêté de la province de Surat Thani du 6 juin 2565/2022)',
       date: '2026-09-16',
       note: "Palier 8, confirmé par le tarif passager affiché 280 THB. Voiture/van 1 040 THB conducteur inclus → véhicule seul = 1 040 − 280 ; moto 435 − 280. Distance approximative." },
+    { a: 'continental', b: 'kohPhaluai', routeKey: 'donsakKohPhaluai', name: 'Don Sak ↔ Ko Phaluai',
+      operator: 'Raja Ferry Port', durationH: 1.5, distanceKm: 22,
+      priceByClass: { 1: 27.37, 2: 27.37, 5: 7.82, foot: 11.73 },
+      currency: 'THB', original: { car: 1050, van: 1050, moto: 300, foot: 450 },
+      source: 'https://www.rajaferryport.com/fare?route=Donsak-Phaluai (page « อัตราค่าโดยสารตามประกาศจังหวัดสุราษฎร์ธานี ») ; https://www.rajaferryport.com/sailing-schedule?route=sailing-schedule-koh-Phaluai',
+      date: '2026-09-16',
+      note: "Grille fixe affichée le 16/09/2026 (non indexée sur le gazole, contrairement à Samui/Pha Ngan ; l'annexe PDF de l'arrêté provincial du 6/06/2565 ne couvre que Samui/Pha Ngan) : adulte 450, moto ≤ 250 cc et > 250 cc 750, « voiture, jeep, pick-up » 1 500, « van, songthaew » 1 500 THB. Même convention que Don Sak ↔ Samui : prix véhicule supposé conducteur inclus → véhicule seul = 1 500 − 450, moto 750 − 450 (inclusion non écrite sur la grille). Horaires : 2 départs/jour (Don Sak 9:00 et 16:00), traversée 1 h 30. Distance : orthodromie approximative port à port." },
     // Ao Thammachat ↔ Ko Chang NON RETENU : grille (voiture 200 THB, moto 150, passager 90, 10/04/2026) reprise seulement
     // par des sites d'information, pas publiée par l'opérateur ni par une autorité — hors règle stricte.
     { a: 'southAndaman', b: 'middleNorthAndaman', routeKey: 'middleStraitNilambur', name: 'Middle Strait ↔ Nilambur (Baratang)',

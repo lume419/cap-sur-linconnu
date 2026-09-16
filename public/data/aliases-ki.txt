@@ -1,0 +1,67 @@
+de;Tewai;Tewai Village
+fr;Tewai;Tewai Village
+de;Terikiai;Terikiai Village
+en;Terikiai;Terikiai Village
+fr;Terikiai;Terikiai Village
+nl;Terikiai;Terikiai Village
+de;Aiwa;Aiwa Village
+fr;Aiwa;Aiwa Village
+de;Taku;Taku Village
+ja;タク;Taku Village
+fr;Taku;Taku Village
+de;Takarano;Takarano Village
+en;Takarano;Takarano Village
+fr;Takarano;Takarano Village
+nl;Takarano;Takarano Village
+de;Tebiauea;Tabiauea Village
+ru;Тебиауэа;Tabiauea Village
+en;Tabiauea;Tabiauea Village
+fr;Tebiauea;Tabiauea Village
+nl;Tabiauea;Tabiauea Village
+ru;Рунгата;Rungata
+de;Roreti;Roreti Village
+ru;Рорети;Roreti Village
+en;Roreti;Roreti Village
+fr;Roreti;Roreti Village
+nl;Roreti;Roreti Village
+en;Nuka;Nuka Village
+de;Nikutoru;Nikutoru Village
+fr;Nikutoru;Nikutoru Village
+de;Borotiam;Borotiam Village
+en;Borotiam;Borotiam Village
+fr;Borotiam;Borotiam Village
+nl;Borotiam;Borotiam Village
+en;South Tarawa;Tarawa
+fr;Tarawa-Sud;Tarawa
+it;Tarawa Sud;Tarawa
+nl;Zuid-Tarawa;Tarawa
+pt;Tarawa do Sul;Tarawa
+ru;Южная Тарава;Tarawa
+ko;사우스타라와;Tarawa
+de;Süd-Tarawa;Tarawa
+ko;타라와;Tarawa
+ko;남타라와;Tarawa
+en;Autukia;Autukia Village
+de;Antai;Antai Village
+fr;Antai;Antai Village
+de;Paelau;Napia Village
+en;Paelau;Napia Village
+nl;Paelau;Napia Village
+en;Napari;Napari Village
+de;London;London Village
+ru;Лондон;London Village
+pt;London;London Village
+en;London;London Village
+it;London;London Village
+fr;London;London Village
+es;London;London Village
+zh;倫敦;London Village
+ja;ロンドン;London Village
+nl;London;London Village
+de;Tekaman;Tekaman Village
+de;Kabuna;Kabuna Village
+fr;Kabuna;Kabuna Village
+de;Tauma;Tauma Village
+fr;Tauma;Tauma Village
+de;Taungaeaka;Taungaeaka Village
+fr;Taungaeaka;Taungaeaka Village

@@ -1,0 +1,9 @@
+rar;Ngatiarua;Ngatiarua Village
+rar;Mapumai;Mapumai Village
+ja;アバルア;Avarua
+ru;Аваруа;Avarua
+ko;아바루아;Avarua
+zh;阿瓦鲁阿;Avarua
+ru;Арутанга;Arutanga
+ja;アルタンガ;Arutanga
+zh;阿鲁汤加;Arutanga

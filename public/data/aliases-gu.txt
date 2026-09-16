@@ -1,0 +1,16 @@
+en;Santa Rita;Santa Rita Village
+ch;Talo'fo'fo;Talofofo Village
+ch;Humåtak;Umatac Village
+ch;Yo’ ña;Yona Village
+ch;Malesso;Merizo Village
+ch;Inalåhan;Inarajan Village
+en;Inarajan;Inarajan Village
+ch;Tutuhan;Agana Heights Village
+en;Barrigada;Barrigada Village
+ch;Hågat;Agat Village
+ch;Assan;Asan-Maina Village
+es;Agaña;Hagåtña
+ja;ハガニア;Hagåtña
+ko;하갓냐;Hagåtña
+ru;Хагатна;Hagåtña
+zh;阿加尼亚;Hagåtña

@@ -1,0 +1,123 @@
+ja;ウェワク;Wewak
+ko;웨와크;Wewak
+ru;Вевак;Wewak
+zh;韦瓦克;Wewak
+hi;वेवाक;Wewak
+ru;Вабаг;Wabag
+hi;वाबाग;Wabag
+ja;ワバグ;Wabag
+ru;Ванимо;Vanimo
+hi;वानिमो;Vanimo
+ja;ワニモ;Vanimo
+ja;タフィ;Tufi
+zh;托罗基纳;Torokina
+ru;Тари;Tari
+hi;तारी;Tari
+ja;タリ;Tari
+ja;サラマウア;Salamaua
+ru;Саламауа;Salamaua
+zh;薩拉毛亞;Salamaua
+de;Simpson-Hafen;Rabaul
+ja;ラバウル;Rabaul
+ko;라바울;Rabaul
+de;Simpsonhafen;Rabaul
+ru;Рабаул;Rabaul
+zh;拉包爾;Rabaul
+zh-Hans;拉包尔;Rabaul
+es;Puerto Moresby;Port Moresby
+ja;ポートモレスビー;Port Moresby
+ko;포트모르즈비;Port Moresby
+tpi;Pot Mosbi;Port Moresby
+ru;Порт-Морсби;Port Moresby
+hi;पोर्ट मोरेस्बी;Port Moresby
+zh;莫尔兹比港;Port Moresby
+ru;Попондетта;Popondetta
+hi;पोपोंडेट्टा;Popondetta
+ja;ポポンデッタ;Popondetta
+ru;Оро;Oro
+ru;Наматанаи;Namatanai
+zh;納馬塔奈;Namatanai
+zh-Hans;纳马塔奈;Namatanai
+ja;ナマタナイ;Namatanai
+en;Mt Hagen;Mount Hagen
+ru;Маунт-Хаген;Mount Hagen
+hi;माउंट हेगन;Mount Hagen
+ja;マウントハーゲン;Mount Hagen
+ru;Моробе;Morobe
+ru;Менди;Mendi
+hi;मेंडी;Mendi
+ja;メンディ;Mendi
+ru;Маданг;Madang
+hi;मादांग;Madang
+ja;マダン;Madang
+ru;Лоренгау;Lorengau
+hi;लोरेंगाऊ;Lorengau
+ja;ロレンガウ;Lorengau
+en;Logagon;Lugagon
+ru;Лаэ;Lae
+ja;ラエ;Lae
+ko;라에;Lae
+zh;莱城;Lae
+hi;लाई;Lae
+ru;Курумул;Kurumul
+hi;कुरुमुल;Kurumul
+ja;クルムル;Kurumul
+ru;Кундиава;Kundiawa
+hi;कुंडिआवा;Kundiawa
+ja;クンディアワ;Kundiawa
+de;Herbertshöhe;Kokopo
+ru;Кокопо;Kokopo
+hi;कोकोपो;Kokopo
+ja;ココポ;Kokopo
+ru;Кимбе;Kimbe
+zh;金貝;Kimbe
+hi;किम्बे;Kimbe
+ja;キンベ;Kimbe
+ja;キコリ;Kikori
+ru;Керема;Kerema
+hi;केरेमा;Kerema
+ja;ケレマ;Kerema
+de;Kaewieng;Kavieng
+de;Käwieng;Kavieng
+ja;カビエン;Kavieng
+ru;Кавиенг;Kavieng
+zh;卡維恩;Kavieng
+hi;कविएंग;Kavieng
+ko;카이난투;Kainantu
+ru;Каинанту;Kainantu
+ja;カイナントゥ;Kainantu
+zh;凱南圖;Kainantu
+ru;Йалибу;Ialibu
+ja;イアリブ;Ialibu
+zh;亞利布;Ialibu
+ru;Горока;Goroka
+hi;गोरोका;Goroka
+ja;ゴロカ;Goroka
+ru;Финшхафен;Finschhafen
+zh;芬什港;Finschhafen
+ja;フィンシュハーフェン;Finschhafen
+en;Daru Government Station;Daru
+ja;ダル;Daru
+ko;다루;Daru
+ru;Дару;Daru
+zh;達魯;Daru
+hi;दारु;Daru
+zh;貝雷納;Bereina
+ru;Арава;Arawa
+de;Eitape;Aitape
+ru;Аитапе;Aitape
+zh;艾塔佩;Aitape
+ja;アイタペ;Aitape
+ja;サマライ;Samarai
+zh;薩馬賴;Samarai
+ru;Самарай;Samarai
+ru;Алотау;Alotau
+ja;アロタウ;Alotau
+hi;अलोताऊ;Alotau
+ru;Абау;Abau
+zh;塔布比爾;Tabubil
+ru;Бука;Buka
+hi;बुका;Buka
+ja;ブカ;Buka
+en;Matanakiwi;Matanakiwus
+de;Dorfinsel;Teliata

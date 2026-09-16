@@ -1487,6 +1487,55 @@ Ouzbékistan, au Tadjikistan, au Turkménistan, au Cambodge, en Thaïlande, au L
 ouest de Mindanao et archipel de Sulu, est du Sabah, Papouasie indonésienne ; DMZ coréenne en orange ; zone
 interdite de Fukushima-1 en rouge ; ancien polygone de Semipalatinsk en rouge.
 
+### Océanie : vingt-quatre pays et territoires (septembre 2026)
+
+Australie, Nouvelle-Zélande, Papouasie-Nouvelle-Guinée, Îles Salomon, Vanuatu, Fidji, Samoa, Tonga, Tuvalu, Kiribati,
+Nauru, Îles Marshall, États fédérés de Micronésie, Palaos, Niue, Îles Cook, Tokelau, Guam, Îles Mariannes du Nord,
+Samoa américaines, îles mineures éloignées des États-Unis, Pitcairn, île Norfolk, îles Heard-et-MacDonald — **35 618
+lieux** (`scripts/build-oceanie-communes.js`) : Australie 13 409, Papouasie-Nouvelle-Guinée 11 470, Îles Salomon 2 527,
+Nouvelle-Zélande 2 385, Fidji 2 212, Vanuatu 1 905… Pitcairn 1. **~2 800 alias** (`scripts/build-oceanie-aliases.js`),
+notamment en māori, samoan, fidjien et français.
+
+**Codes postaux** (même règle des 90 %) : Australie (90,9 % — les 1 347 lieux sans point postal à moins de 15 km,
+surtout dans l'outback, sont écartés), Nouvelle-Zélande (94,5 %, 140 écartés) et Guam (100 %) ont leurs codes. Codes
+ZIP de l'USPS par île ou par État : Mariannes du Nord (Saipan 96950, Rota 96951, Tinian 96952 ; les Northern Islands
+rangées sous 96950, rattachement non vérifié dans un texte), Micronésie (un code par État), Îles Marshall (Kwajalein
+96970, reste 96960). Code unique : Palaos 96940, Samoa américaines 96799, Niue 9974, Nauru NRU68, Pitcairn PCRN 1ZZ,
+Norfolk 2899, Heard 7151. La ligne unique du fichier GeoNames de Samoa porte le code des Samoa AMÉRICAINES : écartée.
+Ailleurs, étiquette de région (la Papouasie-Nouvelle-Guinée a des codes postaux, absents de GeoNames).
+
+**Heard-et-MacDonald et îles mineures éloignées** : territoires inhabités ou fermés au public (permis de la division
+antarctique australienne ; Midway fermé, Wake sur permis). Heard n'a aucun lieu habité : seules les deux îles
+(GeoNames 1547315 et 1547301) sont reprises. Recherchables ; chaque lieu y étant isolé, aucun trajet n'est proposé.
+
+**Frontière** : une seule dans tout le lot, Papouasie-Nouvelle-Guinée ↔ Indonésie à Wutung–Skouw (route
+Vanimo–Jayapura) ; en Nouvelle-Guinée, la clé de masse `newGuinea` est commune aux deux pays.
+
+**Îles** : chaque pays a ses règles (voir "Ferries") ; aucun lieu d'Océanie n'est rattaché à la masse continentale
+eurasiatique.
+
+**Péages : aucun modélisé.** Aucun barème officiel au kilomètre : Sydney (Westlink M7 et WestConnex, publiés par
+entrée/sortie avec plafond), Melbourne (CityLink, EastLink par zones, West Gate Tunnel), Brisbane (Gateway, Logan,
+Clem7…) et Nouvelle-Zélande (Northern Gateway, Tauranga Eastern Link, Takitimu Drive) sont des forfaits par tronçon
+ou par passage.
+
+**Monnaies : sept nouvelles** — NZD (NZ$), PGK (K), SBD (SI$), VUV (VT, sans subdivision), FJD (FJ$), WST (WS$), TOP
+(T$) ; dollar australien à Tuvalu, Kiribati, Nauru, Norfolk et Heard ; dollar américain en Micronésie, aux Palaos,
+aux Marshall et dans les territoires américains ; dollar néo-zélandais à Niue, Tokelau, Pitcairn et aux Îles Cook (où
+le dollar des îles Cook, sans code ISO, circule à parité). Budgets : gamme euro au taux InforEuro de septembre 2026 ;
+seuls prix moyens officiels trouvés : Victoria (A$213,6 à Melbourne, juillet 2025, Visit Victoria) dans "moyen" et
+Guam (205,93 US$ en 2025, Guam Visitors Bureau) au-dessus.
+
+**Hébergement** : pas d'offre Booking.com à Tuvalu, Tokelau, Pitcairn ni dans les territoires fermés ; offre très
+réduite en Micronésie, aux Samoa américaines, à Niue, aux Marshall et à Nauru (visa difficile). Tokelau n'a ni route
+ni véhicule ; Pitcairn une seule route, sur licence de visiteur.
+
+**Zones à tension** (5 règles) : Papouasie-Nouvelle-Guinée seulement — province d'Enga en rouge ; Hautes-Terres,
+Sepik, bande frontalière avec l'Indonésie et abords de Madang, Lae, Rabaul et Alotau en orange. Australie,
+Nouvelle-Zélande, Fidji, Samoa, Tonga, Salomon, Vanuatu, Cook et Palaos : aucune zone rouge ou orange. Pas de fiche
+France Diplomatie pour Tuvalu, Kiribati, Nauru, Marshall, Micronésie, Niue, Tokelau et les territoires américains,
+australiens et britannique.
+
 ## Zones à tension et frontières (septembre 2026)
 
 **Changement de règle, à la demande de l'utilisateur : les règles politiques ne ferment plus aucune
@@ -1503,7 +1552,7 @@ ouverte ET hors des zones formellement déconseillées par France Diplomatie. D�
   « non retenues » gardent leurs constats (état réel des postes, sources), mais ces frontières sont
   aujourd'hui ouvertes dans le modèle.
 - **Zones à tension** (`TENSION_ZONES`, public/js/trip-data.js, construit par
-  `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **289 règles pour 78 pays**,
+  `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **294 règles pour 79 pays**,
   relevées sur les fiches « Sécurité » de France Diplomatie (mises à jour du 15 septembre 2026) — zones
   **rouges** (« formellement déconseillé ») et **orange** (« déconseillé sauf raison impérative »), le jaune
   étant ignoré. Découpage au plus juste : pays entier quand il est tout rouge (Russie, Ukraine,
@@ -1515,7 +1564,7 @@ ouverte ET hors des zones formellement déconseillées par France Diplomatie. D�
   possible : les étapes sont alors cherchées hors zone, plus loin si nécessaire. Si seul le filtre rend le
   tirage impossible, un message dédié le dit (`tensionBlocked`).
 - **Avertissement** : toute étape en zone rouge ou orange, et le point de départ lui-même, affichent un
-  bandeau « Sécurité » coloré, traduit dans les 140 langues, avec un lien vers la fiche officielle.
+  bandeau « Sécurité » coloré, traduit dans les 143 langues, avec un lien vers la fiche officielle.
 
 **Approximations assumées, et écrites dans chaque règle** (champ `label`) : les fiches ne donnent presque
 jamais la largeur des bandes frontalières, estimée sur les cartes ; les limites tracées « entre deux villes »
@@ -2823,6 +2872,29 @@ L'ourdou s'affiche en naskh avec les polices système (le nastaliq demanderait u
 Traductions sans relecture native ; les moins sûres, signalées par leurs traducteurs : karakalpak, hakka, dzongkha,
 divehi, zhuang.
 
+### Océanie : māori, samoan et tahitien (septembre 2026)
+
+**143 langues au total.** Même double critère (statut légal ET orthographe fixée par un texte ou une autorité publique) :
+- **Māori** (`mi`, drapeau de la **Nouvelle-Zélande**) — Te Ture mō Te Reo Māori 2016, s. 5 (langue officielle depuis
+  1987) ; conventions orthographiques de Te Taura Whiri i te Reo Māori (2012 : macrons, pas de voyelles doublées).
+- **Samoan** (`sm`, drapeau de **Samoa**) — Samoan Language Commission Act 2014, s. 5. **Avec réserve** : aucun acte ne
+  fixe l'orthographe (diacritiques réintroduits par le ministère de l'Éducation en 2012).
+- **Tahitien** (`ty`, drapeau de la **Polynésie française**) — loi organique 2004-192, art. 57 (langue reconnue, le
+  français restant seul officiel) ; Académie tahitienne – Fare Vānaʻa. Traduction jugée fiable à 55-65 % par son auteur :
+  **relecture native conseillée**.
+
+**Retenues mais NON ajoutées, faute de traduction utilisable** (mieux vaut aucune interface qu'une interface fausse,
+comme pour le yi) : chamorro (`ch`, Guam et Mariannes du Nord — statut et orthographe réels, traduction estimée à ~50 %),
+paluan (`pau`, Palaos, ~15 %), marquisien (`mrq`, Polynésie française, ~20 %), marshallais (`mh`, orthographe fixée par
+la loi P.L. 2010-45, statut indirect, ~20 %). À reprendre avec un traducteur humain.
+
+**Écartées** : niuéen, carolinien, fidjien, paumotu et norfuk (statut ou orthographe non vérifiables dans un texte) ;
+langues aborigènes et du détroit de Torres, tok pisin, hiri motu, pijin, tongien, tuvaluan, gilbertin, nauruan,
+tokelauan, pitkern, langues de Yap, langues kanak (reconnues collectivement), wallisien et futunien (aucun texte ne
+leur donne de statut) ; bichelamar, chuuk, pohnpei, kosrae, maori des îles Cook, mangarévien et hindi fidjien (statut
+sans orthographe fixée). Le drapeau Tino Rangatiratanga (`maori.svg` de circle-flags) n'est pas un drapeau d'État :
+non utilisé.
+
 ## Démarrer en local
 
 ```bash
@@ -3370,6 +3442,131 @@ Bozcaada/Ténédos et Gökçeada/Imbros, bien plus connues. Anomalie GeoNames co
 Gürçeşme...) portent des coordonnées manifestement erronées, placées sur le continent proche plutôt
 que sur l'île elle-même — sans effet pratique réel, aucun n'ayant de population significative.
 
+### Liaisons sans tarif fixe publié : 156 lignes ajoutées (septembre 2026)
+
+**Changement de règle, à la demande de l'utilisateur.** Jusqu'ici, une ligne de ferry n'était modélisée que si une grille
+tarifaire officielle fixe était publiée ; les listes « non retenues » des sections précédentes en témoignent. Désormais,
+**toute ligne qui existe en 2026 et transporte des véhicules est modélisée**, avec un avertissement quand son prix n'est
+pas connu :
+- `priceStatus: 'variable'` — prix calculé à la réservation, selon la date ou la demande : « Tarif variable, vérifiez
+  avant votre voyage. »
+- `priceStatus: 'unknown'` — aucun tarif lisible (pas de grille publiée, site derrière une vérification anti-robot non
+  contournée, tarif au fret, portail hors service) : « Tarif non communiqué, renseignez-vous avant votre trajet. »
+
+Même traitement pour une classe de véhicule absente d'une grille par ailleurs publiée (motos sur le MV Manu'atele).
+Affichage : la traversée garde sa durée sans montant, suivie d'un bandeau orange ; le total ferry du récapitulatif ne
+compte que les traversées tarifées et ajoute « N traversée(s) au tarif à vérifier » ; le PDF reprend l'avertissement.
+Les 4 chaînes sont traduites dans les 143 langues (sans relecture native). Restent exclues : les lignes passagers
+seulement, les lignes suspendues en 2026, les simples affrètements et les liaisons entre deux lieux d'une même masse.
+
+Fichiers `scripts/iles/ferries-*.js` (même constructeur `scripts/build-island-rules.js`, qui reconnaît maintenant aussi
+les masses du code historique et refuse une paire déjà écrite à la main) :
+
+| Région | Lignes | Variable | Non communiqué | Grille trouvée |
+|---|---|---|---|---|
+| Europe | 41 | 38 | 3 | 0 |
+| Afrique, Moyen-Orient | 15 | 1 | 14 | 0 |
+| Asie | 76 | 0 | 55 | 21 |
+| Océanie | 24 | 7 | 13 | 4 |
+
+- **Europe** : Rosslare ↔ Cherbourg, Poole ↔ Guernesey et Jersey, Larne ↔ Douglas, Hirtshals ↔ Tórshavn ↔ Seyðisfjörður
+  (Smyril Line : l'Islande et les Féroé sont enfin reliées), Bonifacio ↔ Santa Teresa Gallura, Cagliari ↔ Palerme, Vela
+  Luka ↔ Ubli, Taşucu ↔ Girne (Chypre), Quiberon ↔ Belle-Île et Lorient ↔ Groix (BreizhGo), et 29 liaisons entre îles
+  grecques (Crète–Santorin, Rhodes–Kos, Lesbos–Lemnos, Kavala–Lemnos, Cyclades, Sporades, Ioniennes…). Écartées : Madère
+  et Açores (aucun service en 2026), Ouessant, Molène et Sein (véhicules des résidents seulement), Houat, Hœdic, Hydra.
+- **Afrique et Moyen-Orient** : Mamoudzou ↔ Dzaoudzi (barge du Département), Dar es Salaam ↔ Zanzibar ↔ Pemba (Azam),
+  Ankify ↔ Nosy Be, Port-Louis ↔ Rodrigues, bacs d'Ukerewe, des Ssese, de Mfangano et de Likoma, Malabo ↔ Bata, Bandar
+  Pol ↔ Qeshm, Charak ↔ Kish, Bandar Abbas ↔ Hormuz, Jazan ↔ Farasan, Ras Al Ard ↔ Failaka (ces deux dernières sur des
+  sources plus faibles). Écartées : Mafia (navire en panne depuis mai 2026), Comores, Annobón, São Tomé ↔ Príncipe
+  (service 2026 non confirmé), Sainte-Hélène (cargo), Seychelles, Lamu, Solovki (passagers).
+- **Asie** : grilles officielles trouvées pour Sado, Oki, Tsushima, Iki, Gotō, Yakushima, Tanegashima, Shōdoshima,
+  Rishiri, Rebun, Okushiri, Kumejima, Ulleungdo, Batam ↔ Bintan, Tarakan, Seram, Buru, Phú Quốc ; sans tarif : Wando ↔
+  Jeju, Xuwen ↔ Haikou (Hainan), 25 lignes rouliers philippines (Matnog ↔ Allen, Toledo ↔ San Carlos, Dumaguete ↔
+  Siquijor, Zamboanga ↔ Jolo, Manille ↔ Puerto Princesa… — matrice MARINA de mars 2026, FastCat hors ligne, Montenegro
+  Lines derrière un CAPTCHA), 22 lignes indonésiennes (Weh, Simeulue, Nias, Mentawai, Bengkalis, Rupat, Nusa Penida,
+  Kalimantan, Selayar, Kupang ↔ Flores/Alor/Rote/Sabu…), Menumbok ↔ Labuan, Ko Chang, Ko Lanta, Cát Bà, Bhola, Sandwip.
+- **Océanie** : Geelong ↔ Devonport (Spirit of Tasmania), Wellington ↔ Picton (Interislander : **l'île du Nord et l'île
+  du Sud sont enfin reliées**), Kangaroo Island, Bruny, Magnetic Island (nouvelle masse), Moreton, Stradbroke, K'gari,
+  French Island, Flinders, Curtis, Waiheke, Great Barrier, D'Urville, Viti Levu ↔ Vanua Levu/Ovalau, Vanua Levu ↔
+  Taveuni, Tongatapu ↔ 'Eua/Ha'apai ↔ Vava'u ; grille Betico trouvée pour Nouméa ↔ île des Pins, Maré et Lifou.
+
+**Corrections faites en chemin** : la liaison Pozzallo ↔ La Valette était rangée « continent ↔ Malte » alors que Pozzallo
+est en Sicile (clé corrigée en `malta|sicily`) ; la boîte de l'île d'Ukerewe englobait Kisorya et d'autres villages du
+continent (limite est ramenée à 33,205° E).
+
+**Limites signalées lors de ce passage** : plusieurs îles n'étaient pas des masses séparées (Canaries et Baléares entre
+elles, Açores, Elbe, Hébrides, île de Wight, Saaremaa, Föhr, îles norvégiennes, Marmara, Olkhon, Bijagós, Ko Phaluai…)
+et quelques boîtes étaient fausses (Kupang, Sadai, Liang) — **corrigé dans la section suivante**. Restent isolées lieu
+par lieu, faute de voitures sur place ou de bac à véhicules : Ko Phi Phi (aucune route carrossable) et les petites îles
+des Maldives (ferries publics pour passagers seulement) ; Kerkennah, Dalma et Coron n'ont aucun lieu dans les données.
+
+**Matsu et Phú Quý (correction)** : Matsu était isolée lieu par lieu ; elle a désormais une masse par île ou groupe relié
+par la route — `nangan` (18 lieux), `beigan` (10), `xiju` (6), `dongju` (3), `dongyin` (Dongyin et Xiyin, reliées par
+la chaussée de Zhongzhu). Liaisons ajoutées avec la grille du New Taima (All Ports Navigation, navire roulier de 45
+voitures ; tarifs approuvés par le comté de Lienchiang, publiés par l'agence de l'exploitant) : Keelung ↔ Fu'ao
+(Nangan) et Keelung ↔ Zhongzhu (Dongyin), voiture 2 000 TWD (54,16 €), piéton 630 TWD, sens Keelung → Matsu ; Fu'ao ↔
+Zhongzhu, voiture 640 TWD. Nangan ↔ Beigan et les bateaux de Juguang ne prennent ni voitures ni grosses motos : Beigan,
+Xiju et Dongju restent sans liaison. Phú Quý reçoit sa masse `phuQuy`, sans liaison : les navires depuis Phan Thiết
+(Superdong, Phú Quý Express…) ne prennent que passagers, motos et marchandises.
+
+### Îles d'Europe et corrections : 258 liaisons de plus (septembre 2026)
+
+Jusqu'ici, la logique historique de `landmassOf` ne séparait en Europe que les grandes îles desservies par une ligne
+modélisée : les autres étaient rangées avec leur continent ou avec l'île voisine (Ténérife « roulait » jusqu'à
+Lanzarote, l'île de Wight jusqu'à Londres, Saaremaa jusqu'à Tallinn). Nouveaux fichiers `scripts/iles/iles-sud-europe.js`,
+`iles-atlantique-nord.js`, `iles-baltique.js`, `iles-mediterranee-est.js` et `iles-corrections.js`. Pour les pays à
+logique historique, les règles sont en `fallthrough` : évaluées d'abord, elles laissent les autres lieux à leur
+rangement actuel ; les clés des liaisons existantes gardent leur île (`canary` = Gran Canaria, `balearic` = Majorque,
+`azores` = São Miguel, `madeira` = Madère). Chaque île a été vérifiée contre les lieux publiés (contours
+OpenStreetMap pour la Baltique, la Scandinavie et l'Afrique), ponts, chaussées et tunnels routiers compris.
+
+| Fichier | Liaisons | Grille fixe | Gratuites | Variable | Non communiqué |
+|---|---|---|---|---|---|
+| Espagne, Portugal, Italie, Malte | 36 | 14 | 0 | 16 | 6 |
+| Royaume-Uni, Irlande, Islande, Féroé, Guernesey | 37 | 35 | 0 | 1 | 1 |
+| Danemark, Allemagne, Pays-Bas, Estonie, Lituanie, Finlande, Suède, Norvège | 123 | 33 | 75 | 1 | 14 |
+| Grèce, Croatie, Turquie | 58 | 23 | 0 | 29 | 6 |
+| Corrections hors Europe | 3 | 0 | 1 | 0 | 2 |
+
+- **Espagne** : Canaries île par île (Ténérife, Gran Canaria, Lanzarote, Fuerteventura, La Palma, La Gomera, El Hierro,
+  La Graciosa) et Baléares (Majorque, Minorque, Ibiza, Formentera) reliées par Fred. Olsen, Naviera Armas et Baleària
+  (tarifs variables) ; autorisation obligatoire l'été pour entrer à Formentera ; La Graciosa sans voitures de visiteurs.
+- **Portugal** : Açores île par île, Horta ↔ Madalena et Pico ↔ Velas toute l'année, Terceira l'été (Atlânticoline,
+  tarif non communiqué) ; São Miguel et Santa Maria sans ferry en 2026 ; Funchal ↔ Porto Santo (grille 2026, voiture
+  115,25 € hors surtaxe carburant).
+- **Italie** : Elbe, Giglio, Capraia, Ischia, Procida, Capri, Ponza, îles Éoliennes, Égades, San Pietro, La Maddalena,
+  Tremiti, Lido et Pellestrina (Venise)… ; grilles Caremar, Laziomar, Siremar, Delcomar, ACTV. **Capri et Procida
+  restent isolées** (voitures des non-résidents interdites en saison), comme Panarea, Stromboli et Tremiti ; les
+  restrictions d'Ischia, Lipari, Vulcano, Filicudi et Favignana sont notées dans les fiches. Comino (Malte) isolée.
+- **Royaume-Uni** : île de Wight (Wightlink, tarif variable), Arran, Bute, Cumbrae, Mull, Islay, Jura, Coll, Tiree,
+  Colonsay, Gigha, Lismore, Luing, Raasay, Lewis-Harris, Uist, Barra (grilles CalMac et Argyll & Bute), îles des
+  Orcades et des Shetland (grilles des conseils). Isolées : Scilly, Iona, Kerrera, Small Isles (véhicules sur permis ou
+  passagers seulement). Corrections : Burwick rangé aux Orcades, Drimnin et Bonnavoulin remis sur le continent.
+- **Aurigny, Sercq, Herm** séparées de Guernesey (sans voitures de visiteurs) ; **Islande** : Vestmannaeyjar (Herjólfur,
+  grille 2026), Grímsey (tarif non communiqué), Hrísey isolée ; **Féroé** : Kalsoy et Nólsoy reliées, Skúvoy, Hestur,
+  Svínoy, Fugloy, Mykines et Koltur isolées.
+- **Danemark** : Ærø, Samsø, Læsø, Fanø, Anholt et une vingtaine de petites îles (grilles communales 2026). **Allemagne** :
+  Sylt (train-auto), Pellworm, Borkum, Föhr, Amrum, Norderney ; îles sans voitures isolées (Hiddensee, Juist, Baltrum,
+  Langeoog, Spiekeroog, Wangerooge, Helgoland, Halligen). **Estonie** : Saaremaa-Muhu, Hiiumaa (TS Laevad), Vormsi,
+  Kihnu, Ruhnu. **Lituanie** : isthme de Courlande (bac Klaipėda ↔ Smiltynė). **Finlande** : archipel de Turku (bacs
+  routiers publics gratuits). **Suède** : Fårö, Visingsö, Ven (isolée), Gräsö, Ljusterö, Ornö, Öckerö… (bacs
+  Trafikverket gratuits). **Norvège** : 61 îles reliées par bac routier (grille nationale AutoPASS : Tysnes, Austevoll ;
+  bacs gratuits : Solund, Værøy, Røst, Sørøya…), 162 lieux d'îles sans bac isolés — **relecture conseillée**,
+  plusieurs rattachements reposant sur une vérification incomplète.
+- **Grèce** : 44 lieux remis sur le continent et une soixantaine rangés sur leur vraie île (codes postaux partagés) ;
+  nouvelles masses Salamine, Thasos, Samothrace, Kéa, Kýthnos, Sérifos, Sífnos, Folégandros, Donoúsa, Koufonísia,
+  Paxos, Symi, Tilos, Kastellorizo… ; Samothrace en tarif non communiqué (prix seulement dans un guide local).
+  **Croatie** : Drvenik, Ist, Olib, Premuda, Molat, Iž, Žirje, Šipan… (grilles Jadrolinija 2026) ; Silba, Susak, Unije,
+  Zlarin, Koločep, Lopud isolées ; 15 lieux de l'arrière-pays de Vrgorac retirés de Vis. **Turquie** : Avşa, Marmara,
+  Paşalimanı, Ekinlik (GESTAŞ, 1 400 TRY la voiture) ; îles des Princes isolées (voitures interdites).
+- **Hors Europe** : Olkhon (bac gratuit), Kounachir et Itouroup (Korsakov, tarif non communiqué), Kizhi et Valaam
+  isolées (Russie) ; Bolama, Bubaque (Guinée-Bissau) ; Inhaca, Bazaruto, Ibo, Quirimbas (Mozambique) ; Gorée et îles du
+  Saloum (Sénégal) ; Sherbro et Banana Islands (Sierra Leone) ; îles de Loos (Guinée) ; Ko Phaluai (Raja Ferry) ;
+  boîtes indonésiennes corrigées (Uihainmumu remis sur Timor, Sadai sur Bangka, Liang sur Ambon).
+
+Les bacs gratuits ont un prix de 0 € ; les autres restent affichés avec leur prix ou avec l'avertissement « tarif
+variable » ou « tarif non communiqué ».
+
 ### Cap-Vert : neuf îles, huit liaisons (septembre 2026)
 
 Premier pays du projet dont **tout** le territoire est insulaire : sans ferry, chacune des neuf îles
@@ -3576,6 +3773,51 @@ Menumbok ↔ Labuan ; Ko Chang (grille reprise seulement par des sites d'informa
 seulement) ; ferries publics du Bangladesh (portail BIWTC hors ligne) ; Nagapattinam ↔ Kankesanthurai (passagers
 seulement). Les ferries de la Caspienne (Kazakhstan/Turkménistan ↔ Azerbaïdjan) relient deux points de la masse
 continentale : le modèle ne peut pas les représenter.
+
+### Océanie et collectivités françaises : sept liaisons (septembre 2026)
+
+**Collectivités françaises et îles de métropole — correction.** Jusqu'ici, les lieux de Saint-Pierre-et-Miquelon,
+Saint-Barthélemy, Saint-Martin, Wallis-et-Futuna, de la Polynésie française, de la Nouvelle-Calédonie et de Clipperton
+étaient rangés dans la masse continentale, comme la métropole : un trajet pouvait « rouler » d'une île à l'autre. Ils
+ont désormais leurs masses (règles `FR` avec `fallthrough` dans `scripts/iles/iles-france.js` : les autres lieux
+français gardent la logique existante) : Saint-Pierre, Miquelon, Saint-Barthélemy, Saint-Martin, Wallis, Futuna,
+Tahiti, Moorea, Raiatea, Tahaa, Huahine, Bora-Bora, Maupiti (les autres communes polynésiennes isolées), Grande Terre,
+Lifou, Maré, Ouvéa, île des Pins, Belep, Clipperton. Même correction pour les **dépendances de la Guadeloupe**
+(Marie-Galante, Terre-de-Haut, Terre-de-Bas, La Désirade) et **treize îles de métropole sans pont** : Yeu, Aix,
+Belle-Île, Groix, Houat, Hœdic, Île-aux-Moines, Arz, Ouessant, Molène, Sein, Batz, Bréhat. Les îles reliées par pont
+(Ré, Oléron, Noirmoutier) et les îles de communes dont la mairie est sur le continent (Porquerolles, Chausey, Lérins,
+Frioul…) restent continentales.
+
+**Liaisons retenues** (grille officielle, prix du véhicule en euros) :
+- **Saint-Pierre ↔ Miquelon** — SPM Ferries (Collectivité territoriale) : voiture 40 €, camping-car 70 €, moto 25 €,
+  passager 16 € (grille véhicules au 26 mai 2026 ; prix supposé par traversée).
+- **Papeete ↔ Vaiare (Moorea)** — Aremiti, au 19 juillet 2026 : voiture 5 940 XPF (49,77 €), véhicule long 7 740 XPF,
+  moto 1 480 XPF, adulte 2 350 XPF.
+- **Fromentine ↔ Île d'Yeu** — Yeu Continent, recueil tarifaire 2026 : voiture 344,15 €, camping-car 777,35 €, moto
+  84,50 €, passager 20 € par traversée.
+- **Paynesville ↔ Raymond Island** (Victoria) — East Gippsland Shire Council, au 1er juillet 2026 : 9 AUD par véhicule
+  (5,56 €), moto 2,78 €, piétons gratuits.
+- **Mulifanua ↔ Salelologa** (Upolu ↔ Savai'i) — Samoa Shipping Corporation : voiture 95 WST (30,24 €), van 100 WST,
+  moto 30 WST, passager 10 WST.
+- **Pago Pago ↔ Ta'u** et **Pago Pago ↔ Ofu** (Samoa américaines) — administration portuaire, MV Manu'atele : voiture
+  250 USD, véhicule large 500 USD, adulte 30 USD. **Aucun tarif moto publié : ces deux liaisons ne sont pas proposées à
+  moto** (prix `null` dans la grille ; le moteur ignore une liaison sans prix pour le mode de transport choisi).
+
+**Non retenues** — les îles concernées restent sans trajet par la mer :
+- **Australie** : Spirit of Tasmania (prix selon la demande) ; SeaLink (Kangaroo Island, Bruny, K'gari, Stradbroke) et
+  Manta Ray, sites derrière une vérification anti-robot, non contournée ; Micat, Magnetic Island, French Island,
+  Furneaux (pas de grille véhicules publiée).
+- **Nouvelle-Zélande** : Interislander et Bluebridge (prix seulement à la réservation) — **l'île du Nord et l'île du Sud
+  ne sont donc pas reliées** ; Waiheke, Great Barrier, D'Urville (pas de grille par véhicule) ; Stewart Island et Kawau
+  (passagers seulement).
+- **Mélanésie** : Fidji (la commission de la concurrence fixe des tarifs passagers maximums mais facture les véhicules
+  au fret, à la tonne ou au m³), Papouasie-Nouvelle-Guinée, Vanuatu et Salomon (aucune grille véhicules publiée).
+- **Pacifique** : Tonga, Palaos, Chuuk, Marshall, Kiribati, Tuvalu, Cook, Tokelau (aucune grille véhicules) ; Apia ↔
+  Pago Pago (passagers seulement) ; Saipan ↔ Tinian (pas de ligne régulière).
+- **France** : Belle-Île et Groix (sites BreizhGo derrière une vérification anti-robot), Ouessant (véhicule sur l'île
+  deux mois minimum), Marie-Galante et les Saintes (plus de transport de véhicules publié), îles Loyauté et îles
+  Sous-le-Vent (passagers seulement ou pas de grille véhicules), Tahiti ↔ Moorea par Tauati (une seule liaison par
+  paire : Aremiti retenue).
 
 ## Export PDF
 

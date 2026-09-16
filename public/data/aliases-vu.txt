@@ -1,0 +1,57 @@
+ru;Сола;Sola
+hi;सोला;Sola
+ja;ソラ;Sola
+en;Rewoka Namalachi;Rewoka Namalasi
+en;Rewoka Naboa;Rewoka Napua
+ru;Форари;Forari
+de;Port Vila;Port-Vila
+en;Port Vila;Port-Vila
+es;Port Vila;Port-Vila
+bi;Port Vila;Port-Vila
+it;Port Vila;Port-Vila
+ja;ポートビラ;Port-Vila
+ko;포트빌라;Port-Vila
+nl;Port Vila;Port-Vila
+pt;Port Vila;Port-Vila
+id;Port Vila;Port-Vila
+ru;Порт-Вила;Port-Vila
+en;Péléworéarou;Worearu
+fr;Oulé;Ulei
+en;Nikapa;Ne Kapa
+en;Ngouroua;Ngurua
+fr;Métésari;Metesarig
+en;Méré;Mere
+fr;Mélé;Mele
+en;Mapoua;Mapua
+en;Malaliou;Malaliu
+fr;Mélé Maat;Mele Maat
+en;Luganville Bay;Luganville
+ja;ルーガンビル;Luganville
+ko;루간빌;Luganville
+ru;Люганвиль;Luganville
+zh;卢甘维尔;Luganville
+hi;लुगनविले;Luganville
+fr;Lékoual;Likwal
+en;Laosaké;Laosake
+en;Laonomoa;Launamoa
+ru;Лакаторо;Lakatoro
+hi;लाकातोरो;Lakatoro
+ja;ラカトロ;Lakatoro
+fr;Labarou;Labwaru
+fr;Laboultamat;Labultamata
+ru;Исангел;Isangel
+hi;इसांगेल;Isangel
+ja;イサンゲル;Isangel
+ru;Хог-Харбор;Hog Harbour
+ja;ホッグハーバー;Hog Harbour
+en;Faréalapa;Farealapa
+ru;Фанла;Fanla
+fr;Ataboulou;Atabulu
+fr;Abwatountora;Abwatuntora
+fr;Abatounbouliva;Abwatunbuliva
+fr;Kwakéa;Kwakea
+fr;Wasaka;Wosaga
+fr;Vévérao;Veverao
+ru;Саратамата;Saratamata
+hi;सारातामता;Saratamata
+ja;サラタマタ;Saratamata

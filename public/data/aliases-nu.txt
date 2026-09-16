@@ -1,0 +1,29 @@
+de;Tuapa;Tuapa Village
+ru;Туапа;Tuapa Village
+en;Tuapa;Tuapa Village
+it;Tuapa;Tuapa Village
+fr;Tuapa;Tuapa Village
+es;Tuapa;Tuapa Village
+ja;トゥアパ;Tuapa Village
+nl;Tuapa;Tuapa Village
+niu;Mutalau Village;Mutalau
+ru;Муталау;Mutalau
+ja;ムタラウ;Mutalau
+de;Makefu;Makefu Village
+ru;Макефу;Makefu Village
+en;Makefu;Makefu Village
+it;Makefu;Makefu Village
+fr;Makefu;Makefu Village
+es;Makefu;Makefu Village
+ja;マケフ;Makefu Village
+nl;Makefu;Makefu Village
+ru;Лакепа;Lakepa
+ja;ラケパ;Lakepa
+ru;Хакупу;Hakupu
+zh;哈库普;Hakupu
+zh-Hant;哈庫普;Hakupu
+ja;ハクプ;Hakupu
+ja;アロフィ;Alofi
+ru;Алофи;Alofi
+ko;알로피;Alofi
+zh;阿洛菲;Alofi

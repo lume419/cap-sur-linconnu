@@ -1,0 +1,3 @@
+120;-171.2467,-9.3852;TK-F;Fakaofo;Fale old settlement
+531;-171.8480,-9.2005;TK-N;Nukunonu;Nukunonu
+524;-172.5159,-8.5421;TK-A;Atafu;Atafu Village

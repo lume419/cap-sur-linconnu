@@ -1,0 +1,10 @@
+haw;Kuaihelani;Midway
+haw;Pihemanu;Midway
+to;Mitiuē;Midway
+ru;Мидуэй;Midway
+ko;미드웨이;Midway
+zh;中途;Midway
+ja;ミッドウェ;Midway
+es;San Francisco;Wake
+mh;Ānen Kio;Wake
+to;Ueke;Wake

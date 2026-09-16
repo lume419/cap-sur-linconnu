@@ -1,0 +1,40 @@
+ru;Утулеи;Utulei
+en;Fiti‘uta;Fitiuta
+ru;Таулага;Taulaga
+hi;तौलागा;Taulaga
+ja;タウラガ;Taulaga
+en;Ta'u;Ta`ū
+ru;Та'у;Ta`ū
+id;Ta'u;Ta`ū
+ms;Ta'u;Ta`ū
+es;Ta'u;Ta`ū
+fr;Ta'u;Ta`ū
+hi;ता'उ;Ta`ū
+de;Ta'u;Ta`ū
+ja;タウ;Ta`ū
+pt;Ta'u;Ta`ū
+ru;Тафуна;Tāfuna
+pt;Tafuna;Tāfuna
+ms;Tafuna;Tāfuna
+en;Tafuna;Tāfuna
+it;Tafuna;Tāfuna
+zh;塔富纳;Tāfuna
+es;Tafuna;Tāfuna
+zh-Hant;塔富納;Tāfuna
+ja;タフナ;Tāfuna
+nl;Tafuna;Tāfuna
+ru;Фагатого;Fagatogo
+ja;マラエイミ;Malaeimi
+zh;馬拉埃米;Malaeimi
+ru;Офу;Ofu
+hi;ओफु;Ofu
+ja;オフ;Ofu
+ja;パゴパゴ;Pago Pago
+ru;Пагопаго;Pago Pago
+ko;파고파고;Pago Pago
+sm;PagoPago;Pago Pago
+ru;Паго-Паго;Pago Pago
+zh;帕果帕果;Pago Pago
+ko;파고 파고;Pago Pago
+ko;오토빌;Ottoville
+zh;帕蓋;Pagai

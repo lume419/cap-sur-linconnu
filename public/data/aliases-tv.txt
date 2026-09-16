@@ -1,0 +1,49 @@
+ru;Деревня Тога;Toga Village
+id;Desa Toga;Toga Village
+ms;Kampung Toga;Toga Village
+es;Aldea Toga;Toga Village
+fr;Village de Toga;Toga Village
+hi;टोगा गांव;Toga Village
+de;Dorf Toga;Toga Village
+ja;トガ村;Toga Village
+pt;Aldeia Toga;Toga Village
+ru;Деревня Танраке;Tanrake Village
+id;Desa Tanrake;Tanrake Village
+ms;Kampung Tanrake;Tanrake Village
+es;Aldea Tanrake;Tanrake Village
+fr;Village de Tanrake;Tanrake Village
+hi;टनराके गांव;Tanrake Village
+de;Dorf Tanrake;Tanrake Village
+ja;タンラケ村;Tanrake Village
+pt;Aldeia Tanrake;Tanrake Village
+ru;Деревня Кулиа;Kulia Village
+id;Desa Kulia;Kulia Village
+ms;Kampung Kulia;Kulia Village
+es;Aldea Kulia;Kulia Village
+fr;Village de Kulia;Kulia Village
+hi;कुलिया गांव;Kulia Village
+de;Dorf Kulia;Kulia Village
+ja;クリア村;Kulia Village
+pt;Aldeia Kulia;Kulia Village
+es;Fongafale (atolón de Funafuti);Funafuti
+pt;Fongafale;Funafuti
+ko;푸나푸티;Funafuti
+ru;Деревня Асау;Asau Village
+id;Desa Asau;Asau Village
+ms;Kampung Asau;Asau Village
+es;Aldea Asau;Asau Village
+fr;Village d'Asau;Asau Village
+hi;असाऊ गांव;Asau Village
+de;Dorf Asau;Asau Village
+ja;アサウ村;Asau Village
+pt;Aldeia Asau;Asau Village
+en;Niulakita Village;Niulakita
+ru;Деревня Сававе;Savave Village
+id;Desa Savave;Savave Village
+ms;Kampung Savave;Savave Village
+es;Aldea Savave;Savave Village
+fr;Village de Savave;Savave Village
+hi;सवावे गांव;Savave Village
+de;Dorf Savave;Savave Village
+ja;サバベ村;Savave Village
+pt;Aldeia Savave;Savave Village

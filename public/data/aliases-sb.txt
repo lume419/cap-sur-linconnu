@@ -1,0 +1,36 @@
+ko;툴라기섬;Tulagi
+ru;Тулаги;Tulagi
+hi;तुलागी;Tulagi
+ja;トゥラギ;Tulagi
+ja;レコ;Reko
+en;Chahoga;Piundava
+nl;Chahoga;Piundava
+pis;Munda - Nusa Roviana;Munda
+ja;ホニアラ;Honiara
+ko;호니아라;Honiara
+zh;霍尼亚拉;Honiara
+zh;霍尼亞拉;Honiara
+ru;Хониара;Honiara
+en;Gizo Government Station;Gizo
+ru;Гизо;Gizo
+ja;ギゾ;Gizo
+hi;गिजो;Gizo
+ru;Буала;Buala
+hi;बुआला;Buala
+ja;ブアラ;Buala
+ru;Ауки;Auki
+hi;औकी;Auki
+ja;アウキ;Auki
+ru;Лата;Lata
+hi;लता;Lata
+ja;ラタ;Lata
+ja;キラキラ;Kirakira
+zh;基拉基拉;Kirakira
+ru;Киракира;Kirakira
+hi;किराकिरा;Kirakira
+ru;Тингоа;Tigoa
+zh;提加阿;Tigoa
+ja;ティゴア;Tigoa
+ru;Таро;Taro
+hi;तारो;Taro
+ja;タロ;Taro

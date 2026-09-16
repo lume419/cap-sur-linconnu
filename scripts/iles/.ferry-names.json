@@ -1,5 +1,1285 @@
 [
  {
+  "routeKey": "mamoudzouDzaoudzi",
+  "name": "Mamoudzou ↔ Dzaoudzi"
+ },
+ {
+  "routeKey": "darEsSalaamZanzibar",
+  "name": "Dar es Salaam ↔ Zanzibar"
+ },
+ {
+  "routeKey": "zanzibarMkoani",
+  "name": "Zanzibar ↔ Mkoani (Pemba)"
+ },
+ {
+  "routeKey": "ankifyHellVille",
+  "name": "Ankify ↔ Hell-Ville (Nosy Be)"
+ },
+ {
+  "routeKey": "portLouisPortMathurin",
+  "name": "Port Louis ↔ Port Mathurin"
+ },
+ {
+  "routeKey": "kisoryaRugezi",
+  "name": "Kisorya ↔ Rugezi (Ukerewe)"
+ },
+ {
+  "routeKey": "bukakataLuku",
+  "name": "Bukakata ↔ Luku (Bugala)"
+ },
+ {
+  "routeKey": "mbitaMfangano",
+  "name": "Mbita ↔ Mfangano"
+ },
+ {
+  "routeKey": "nkhataBayLikoma",
+  "name": "Nkhata Bay ↔ Likoma"
+ },
+ {
+  "routeKey": "malaboBata",
+  "name": "Malabo ↔ Bata"
+ },
+ {
+  "routeKey": "bandarPolLaft",
+  "name": "Bandar Pol ↔ Laft (Qeshm)"
+ },
+ {
+  "routeKey": "charakKish",
+  "name": "Charak ↔ Kish"
+ },
+ {
+  "routeKey": "bandarAbbasHormuz",
+  "name": "Bandar Abbas ↔ Hormuz"
+ },
+ {
+  "routeKey": "jazanFarasan",
+  "name": "Jazan ↔ Farasan"
+ },
+ {
+  "routeKey": "rasAlArdFailaka",
+  "name": "Ras Al Ard ↔ Failaka"
+ },
+ {
+  "routeKey": "niigataRyotsu",
+  "name": "Niigata ↔ Ryōtsu"
+ },
+ {
+  "routeKey": "shichiruiSaigo",
+  "name": "Shichirui ↔ Saigō (Dōgo)"
+ },
+ {
+  "routeKey": "hakataIzuhara",
+  "name": "Hakata ↔ Izuhara"
+ },
+ {
+  "routeKey": "karatsuIndoji",
+  "name": "Karatsu ↔ Indōji (Iki)"
+ },
+ {
+  "routeKey": "gonouraIzuhara",
+  "name": "Gōnoura ↔ Izuhara"
+ },
+ {
+  "routeKey": "nagasakiFukue",
+  "name": "Nagasaki ↔ Fukue"
+ },
+ {
+  "routeKey": "saseboArikawa",
+  "name": "Sasebo ↔ Arikawa (Nakadōri)"
+ },
+ {
+  "routeKey": "kagoshimaMiyanoura",
+  "name": "Kagoshima ↔ Miyanoura (Yakushima)"
+ },
+ {
+  "routeKey": "kagoshimaNishinoomote",
+  "name": "Kagoshima ↔ Nishinoomote (Tanegashima)"
+ },
+ {
+  "routeKey": "takamatsuTonosho",
+  "name": "Takamatsu ↔ Tonoshō (Shōdoshima)"
+ },
+ {
+  "routeKey": "wakkanaiOshidomari",
+  "name": "Wakkanai ↔ Oshidomari (Rishiri)"
+ },
+ {
+  "routeKey": "wakkanaiKafuka",
+  "name": "Wakkanai ↔ Kafuka (Rebun)"
+ },
+ {
+  "routeKey": "oshidomariKafuka",
+  "name": "Oshidomari ↔ Kafuka"
+ },
+ {
+  "routeKey": "esashiOkushiri",
+  "name": "Esashi ↔ Okushiri"
+ },
+ {
+  "routeKey": "nahaKanegusuku",
+  "name": "Naha (Tomari) ↔ Kanegusuku (Kumejima)"
+ },
+ {
+  "routeKey": "wandoJeju",
+  "name": "Wando ↔ Jeju"
+ },
+ {
+  "routeKey": "pohangSadong",
+  "name": "Pohang (Yeongilman) ↔ Sadong (Ulleungdo)"
+ },
+ {
+  "routeKey": "xuwenHaikou",
+  "name": "Xuwen ↔ Haikou (Xinhai)"
+ },
+ {
+  "routeKey": "matnogAllen",
+  "name": "Matnog ↔ Allen (Dapdap)"
+ },
+ {
+  "routeKey": "liloanLipata",
+  "name": "Liloan ↔ Lipata"
+ },
+ {
+  "routeKey": "dumangasBanago",
+  "name": "Dumangas ↔ Banago (Bacolod)"
+ },
+ {
+  "routeKey": "toledoSanCarlos",
+  "name": "Toledo ↔ San Carlos"
+ },
+ {
+  "routeKey": "dumagueteSiquijor",
+  "name": "Dumaguete ↔ Siquijor"
+ },
+ {
+  "routeKey": "dumagueteDapitan",
+  "name": "Dumaguete ↔ Dapitan"
+ },
+ {
+  "routeKey": "polambatoPalompon",
+  "name": "Polambato (Bogo) ↔ Palompon"
+ },
+ {
+  "routeKey": "ubayBato",
+  "name": "Ubay ↔ Bato"
+ },
+ {
+  "routeKey": "iloiloJordan",
+  "name": "Iloilo ↔ Jordan (Guimaras)"
+ },
+ {
+  "routeKey": "lucenaBalanacan",
+  "name": "Lucena ↔ Balanacan"
+ },
+ {
+  "routeKey": "tabacoSanAndres",
+  "name": "Tabaco ↔ San Andres"
+ },
+ {
+  "routeKey": "pilarMasbate",
+  "name": "Pilar ↔ Masbate City"
+ },
+ {
+  "routeKey": "danaoConsuelo",
+  "name": "Danao ↔ Consuelo (Camotes)"
+ },
+ {
+  "routeKey": "hagnayaSantaFe",
+  "name": "Hagnaya ↔ Santa Fe (Bantayan)"
+ },
+ {
+  "routeKey": "sasaBabak",
+  "name": "Sasa (Davao) ↔ Babak (Samal)"
+ },
+ {
+  "routeKey": "surigaoSanJose",
+  "name": "Surigao ↔ San Jose (Dinagat)"
+ },
+ {
+  "routeKey": "surigaoDapa",
+  "name": "Surigao ↔ Dapa (Siargao)"
+ },
+ {
+  "routeKey": "zamboangaIsabela",
+  "name": "Zamboanga ↔ Isabela (Basilan)"
+ },
+ {
+  "routeKey": "zamboangaJolo",
+  "name": "Zamboanga ↔ Jolo"
+ },
+ {
+  "routeKey": "batangasOdiongan",
+  "name": "Batangas ↔ Odiongan (Tablas)"
+ },
+ {
+  "routeKey": "manilaTilik",
+  "name": "Manila ↔ Tilik (Lubang)"
+ },
+ {
+  "routeKey": "realPolillo",
+  "name": "Real ↔ Polillo"
+ },
+ {
+  "routeKey": "atimonanAlabat",
+  "name": "Atimonan ↔ Alabat"
+ },
+ {
+  "routeKey": "manilaPuertoPrincesa",
+  "name": "Manila ↔ Puerto Princesa"
+ },
+ {
+  "routeKey": "iloiloPuertoPrincesa",
+  "name": "Iloilo ↔ Puerto Princesa"
+ },
+ {
+  "routeKey": "uleeLheueBalohan",
+  "name": "Ulee Lheue ↔ Balohan (Sabang)"
+ },
+ {
+  "routeKey": "calangSinabang",
+  "name": "Calang ↔ Sinabang"
+ },
+ {
+  "routeKey": "sibolgaGunungsitoli",
+  "name": "Sibolga ↔ Gunungsitoli"
+ },
+ {
+  "routeKey": "bungusSiberut",
+  "name": "Bungus (Padang) ↔ Siberut (Maileppet)"
+ },
+ {
+  "routeKey": "bungusTuaPejat",
+  "name": "Bungus (Padang) ↔ Tua Pejat"
+ },
+ {
+  "routeKey": "bungusSikakap",
+  "name": "Bungus (Padang) ↔ Sikakap"
+ },
+ {
+  "routeKey": "sungaiSelariAirPutih",
+  "name": "Sungai Selari (Pakning) ↔ Air Putih (Bengkalis)"
+ },
+ {
+  "routeKey": "dumaiTanjungKapal",
+  "name": "Dumai ↔ Tanjung Kapal (Rupat)"
+ },
+ {
+  "routeKey": "telagaPunggurTanjungUban",
+  "name": "Telaga Punggur ↔ Tanjung Uban"
+ },
+ {
+  "routeKey": "sadaiTanjungRu",
+  "name": "Sadai ↔ Tanjung Ru"
+ },
+ {
+  "routeKey": "padangbaiSampalan",
+  "name": "Padangbai ↔ Sampalan (Nusa Penida)"
+ },
+ {
+  "routeKey": "surabayaBanjarmasin",
+  "name": "Surabaya ↔ Banjarmasin"
+ },
+ {
+  "routeKey": "batulicinTanjungSerdang",
+  "name": "Batulicin ↔ Tanjung Serdang (Pulau Laut)"
+ },
+ {
+  "routeKey": "batulicinGarongkong",
+  "name": "Batulicin ↔ Garongkong (Barru)"
+ },
+ {
+  "routeKey": "sebawangTarakan",
+  "name": "Sebawang ↔ Tarakan"
+ },
+ {
+  "routeKey": "tarakanNunukan",
+  "name": "Tarakan ↔ Nunukan"
+ },
+ {
+  "routeKey": "biraPamatata",
+  "name": "Bira ↔ Pamatata (Selayar)"
+ },
+ {
+  "routeKey": "torobuluTampo",
+  "name": "Torobulu ↔ Tampo (Muna)"
+ },
+ {
+  "routeKey": "hunimuaWaipirit",
+  "name": "Hunimua ↔ Waipirit"
+ },
+ {
+  "routeKey": "galalaNamlea",
+  "name": "Galala ↔ Namlea"
+ },
+ {
+  "routeKey": "tobeloDaruba",
+  "name": "Tobelo ↔ Daruba (Morotai)"
+ },
+ {
+  "routeKey": "kupangLarantuka",
+  "name": "Kupang (Bolok) ↔ Larantuka"
+ },
+ {
+  "routeKey": "kupangKalabahi",
+  "name": "Kupang (Bolok) ↔ Kalabahi"
+ },
+ {
+  "routeKey": "bolokPantaiBaru",
+  "name": "Bolok (Kupang) ↔ Pantai Baru (Rote)"
+ },
+ {
+  "routeKey": "kupangSeba",
+  "name": "Kupang (Bolok) ↔ Seba (Sabu)"
+ },
+ {
+  "routeKey": "sapeWaikelo",
+  "name": "Sape ↔ Waikelo"
+ },
+ {
+  "routeKey": "menumbokLabuan",
+  "name": "Menumbok ↔ Labuan"
+ },
+ {
+  "routeKey": "aoThammachatSapparot",
+  "name": "Ao Thammachat ↔ Ao Sapparot (Ko Chang)"
+ },
+ {
+  "routeKey": "huaHinKhlongMak",
+  "name": "Ban Hua Hin ↔ Khlong Mak (Ko Lanta Noi)"
+ },
+ {
+  "routeKey": "haTienBaiVong",
+  "name": "Hà Tiên ↔ Bãi Vòng (Phú Quốc)"
+ },
+ {
+  "routeKey": "dongBaiCaiVieng",
+  "name": "Đồng Bài (Cát Hải) ↔ Cái Viềng (Cát Bà)"
+ },
+ {
+  "routeKey": "laharhatVeduria",
+  "name": "Laharhat ↔ Veduria (Bhola)"
+ },
+ {
+  "routeKey": "banshbariaGuptachhara",
+  "name": "Banshbaria ↔ Guptachhara (Sandwip)"
+ },
+ {
+  "routeKey": "rosslareCherbourg",
+  "name": "Rosslare ↔ Cherbourg"
+ },
+ {
+  "routeKey": "pooleGuernsey",
+  "name": "Poole ↔ St Peter Port (Guernesey)"
+ },
+ {
+  "routeKey": "pooleJersey",
+  "name": "Poole ↔ St Helier (Jersey)"
+ },
+ {
+  "routeKey": "larneDouglas",
+  "name": "Larne ↔ Douglas"
+ },
+ {
+  "routeKey": "hirtshalsTorshavn",
+  "name": "Hirtshals ↔ Tórshavn"
+ },
+ {
+  "routeKey": "torshavnSeydisfjordur",
+  "name": "Tórshavn ↔ Seyðisfjörður"
+ },
+ {
+  "routeKey": "bonifacioSantaTeresa",
+  "name": "Bonifacio ↔ Santa Teresa Gallura"
+ },
+ {
+  "routeKey": "cagliariPalermo",
+  "name": "Cagliari ↔ Palermo"
+ },
+ {
+  "routeKey": "velaLukaUbli",
+  "name": "Vela Luka ↔ Ubli (Lastovo)"
+ },
+ {
+  "routeKey": "tasucuGirne",
+  "name": "Taşucu ↔ Girne (Kyrenia)"
+ },
+ {
+  "routeKey": "heraklionSantorini",
+  "name": "Heraklion ↔ Athinios (Santorin)"
+ },
+ {
+  "routeKey": "sitiaKarpathos",
+  "name": "Sitia ↔ Pigadia (Karpathos)"
+ },
+ {
+  "routeKey": "karpathosRhodes",
+  "name": "Pigadia (Karpathos) ↔ Rhodes"
+ },
+ {
+  "routeKey": "kissamosKythira",
+  "name": "Kissamos ↔ Diakofti (Cythère)"
+ },
+ {
+  "routeKey": "kosRhodes",
+  "name": "Kos ↔ Rhodes"
+ },
+ {
+  "routeKey": "mastichariPothia",
+  "name": "Mastichari (Kos) ↔ Pothia (Kalymnos)"
+ },
+ {
+  "routeKey": "kalymnosLeros",
+  "name": "Pothia (Kalymnos) ↔ Lakki (Leros)"
+ },
+ {
+  "routeKey": "lerosPatmos",
+  "name": "Lakki (Leros) ↔ Skala (Patmos)"
+ },
+ {
+  "routeKey": "patmosPythagorio",
+  "name": "Skala (Patmos) ↔ Pythagorio (Samos)"
+ },
+ {
+  "routeKey": "evdilosKarlovasi",
+  "name": "Evdilos (Ikaria) ↔ Karlovasi (Samos)"
+ },
+ {
+  "routeKey": "vathyChios",
+  "name": "Vathy (Samos) ↔ Chios"
+ },
+ {
+  "routeKey": "chiosMytilene",
+  "name": "Chios ↔ Mytilène (Lesbos)"
+ },
+ {
+  "routeKey": "mytileneMyrina",
+  "name": "Mytilène (Lesbos) ↔ Myrina (Lemnos)"
+ },
+ {
+  "routeKey": "kavalaMyrina",
+  "name": "Kavala ↔ Myrina (Lemnos)"
+ },
+ {
+  "routeKey": "evdilosMykonos",
+  "name": "Evdilos (Ikaria) ↔ Mykonos"
+ },
+ {
+  "routeKey": "syrosMykonos",
+  "name": "Syros ↔ Mykonos"
+ },
+ {
+  "routeKey": "tinosMykonos",
+  "name": "Tinos ↔ Mykonos"
+ },
+ {
+  "routeKey": "gavrioTinos",
+  "name": "Gavrio (Andros) ↔ Tinos"
+ },
+ {
+  "routeKey": "syrosTinos",
+  "name": "Syros ↔ Tinos"
+ },
+ {
+  "routeKey": "syrosParos",
+  "name": "Syros ↔ Parikia (Paros)"
+ },
+ {
+  "routeKey": "parosNaxos",
+  "name": "Parikia (Paros) ↔ Naxos"
+ },
+ {
+  "routeKey": "naxosIos",
+  "name": "Naxos ↔ Ios"
+ },
+ {
+  "routeKey": "iosSantorini",
+  "name": "Ios ↔ Athinios (Santorin)"
+ },
+ {
+  "routeKey": "naxosKatapola",
+  "name": "Naxos ↔ Katapola (Amorgos)"
+ },
+ {
+  "routeKey": "skiathosSkopelos",
+  "name": "Skiathos ↔ Skopelos"
+ },
+ {
+  "routeKey": "skopelosAlonissos",
+  "name": "Skopelos ↔ Patitiri (Alonissos)"
+ },
+ {
+  "routeKey": "aeginaPoros",
+  "name": "Égine ↔ Póros"
+ },
+ {
+  "routeKey": "samiPisaetos",
+  "name": "Sami (Céphalonie) ↔ Pisaetos (Ithaque)"
+ },
+ {
+  "routeKey": "pessadaAgiosNikolaos",
+  "name": "Pessada (Céphalonie) ↔ Agios Nikolaos (Zante)"
+ },
+ {
+  "routeKey": "quiberonLePalais",
+  "name": "Quiberon ↔ Le Palais (Belle-Île)"
+ },
+ {
+  "routeKey": "lorientPortTudy",
+  "name": "Lorient ↔ Port-Tudy (Groix)"
+ },
+ {
+  "routeKey": "geelongDevonport",
+  "name": "Geelong ↔ Devonport"
+ },
+ {
+  "routeKey": "capeJervisPenneshaw",
+  "name": "Cape Jervis ↔ Penneshaw"
+ },
+ {
+  "routeKey": "ketteringRobertsPoint",
+  "name": "Kettering ↔ Roberts Point (Bruny Island)"
+ },
+ {
+  "routeKey": "townsvilleNellyBay",
+  "name": "Townsville ↔ Nelly Bay (Magnetic Island)"
+ },
+ {
+  "routeKey": "brisbaneTangalooma",
+  "name": "Port of Brisbane (Lytton) ↔ Tangalooma Wrecks"
+ },
+ {
+  "routeKey": "clevelandDunwich",
+  "name": "Cleveland ↔ Dunwich (North Stradbroke)"
+ },
+ {
+  "routeKey": "inskipPointHookPoint",
+  "name": "Inskip Point ↔ Hook Point (K'gari)"
+ },
+ {
+  "routeKey": "corinellaFrenchIsland",
+  "name": "Corinella ↔ French Island (barge)"
+ },
+ {
+  "routeKey": "bridportLadyBarron",
+  "name": "Bridport ↔ Lady Barron (Flinders Island)"
+ },
+ {
+  "routeKey": "gladstoneSouthend",
+  "name": "Gladstone Marina ↔ South End (Curtis Island)"
+ },
+ {
+  "routeKey": "wellingtonPicton",
+  "name": "Wellington ↔ Picton"
+ },
+ {
+  "routeKey": "halfMoonBayKennedyPoint",
+  "name": "Half Moon Bay ↔ Kennedy Point (Waiheke)"
+ },
+ {
+  "routeKey": "aucklandTryphena",
+  "name": "Auckland (Wynyard Quarter) ↔ Tryphena (Great Barrier)"
+ },
+ {
+  "routeKey": "frenchPassKapowai",
+  "name": "French Pass ↔ Kapowai (D'Urville Island)"
+ },
+ {
+  "routeKey": "natoviNabouwalu",
+  "name": "Natovi ↔ Nabouwalu"
+ },
+ {
+  "routeKey": "natoviBuresala",
+  "name": "Natovi ↔ Buresala (Ovalau)"
+ },
+ {
+  "routeKey": "natuvuTaveuni",
+  "name": "Natuvu (Buca Bay) ↔ Taveuni"
+ },
+ {
+  "routeKey": "nukualofaEua",
+  "name": "Nuku'alofa ↔ 'Ohonua ('Eua)"
+ },
+ {
+  "routeKey": "nukualofaPangai",
+  "name": "Nuku'alofa ↔ Pangai (Ha'apai)"
+ },
+ {
+  "routeKey": "pangaiNeiafu",
+  "name": "Pangai (Ha'apai) ↔ Neiafu (Vava'u)"
+ },
+ {
+  "routeKey": "noumeaIleDesPins",
+  "name": "Nouméa ↔ Kuto (Île des Pins)"
+ },
+ {
+  "routeKey": "noumeaTadine",
+  "name": "Nouméa ↔ Tadine (Maré)"
+ },
+ {
+  "routeKey": "noumeaWe",
+  "name": "Nouméa ↔ Wé (Lifou)"
+ },
+ {
+  "routeKey": "tadineWe",
+  "name": "Tadine (Maré) ↔ Wé (Lifou)"
+ },
+ {
+  "routeKey": "ardrossanBrodick",
+  "name": "Ardrossan ↔ Brodick"
+ },
+ {
+  "routeKey": "wemyssBayRothesay",
+  "name": "Wemyss Bay ↔ Rothesay"
+ },
+ {
+  "routeKey": "largsCumbrae",
+  "name": "Largs ↔ Cumbrae Slip"
+ },
+ {
+  "routeKey": "obanCraignure",
+  "name": "Oban ↔ Craignure"
+ },
+ {
+  "routeKey": "kennacraigIslay",
+  "name": "Kennacraig ↔ Port Askaig / Port Ellen"
+ },
+ {
+  "routeKey": "portAskaigFeolin",
+  "name": "Port Askaig ↔ Feolin"
+ },
+ {
+  "routeKey": "obanColonsay",
+  "name": "Oban ↔ Colonsay"
+ },
+ {
+  "routeKey": "portAskaigColonsay",
+  "name": "Port Askaig ↔ Colonsay"
+ },
+ {
+  "routeKey": "tayinloanGigha",
+  "name": "Tayinloan ↔ Gigha"
+ },
+ {
+  "routeKey": "obanColl",
+  "name": "Oban ↔ Coll"
+ },
+ {
+  "routeKey": "obanTiree",
+  "name": "Oban ↔ Tiree"
+ },
+ {
+  "routeKey": "collTiree",
+  "name": "Coll ↔ Tiree"
+ },
+ {
+  "routeKey": "obanLismore",
+  "name": "Oban ↔ Lismore"
+ },
+ {
+  "routeKey": "cuanLuing",
+  "name": "Cuan ↔ Luing"
+ },
+ {
+  "routeKey": "sconserRaasay",
+  "name": "Sconser ↔ Raasay"
+ },
+ {
+  "routeKey": "ullapoolStornoway",
+  "name": "Ullapool ↔ Stornoway"
+ },
+ {
+  "routeKey": "uigLochmaddy",
+  "name": "Uig ↔ Lochmaddy"
+ },
+ {
+  "routeKey": "bernerayLeverburgh",
+  "name": "Berneray ↔ Leverburgh"
+ },
+ {
+  "routeKey": "ardmhorEriskay",
+  "name": "Ardmhor (Barra) ↔ Eriskay"
+ },
+ {
+  "routeKey": "obanCastlebay",
+  "name": "Oban ↔ Castlebay"
+ },
+ {
+  "routeKey": "portsmouthFishbourne",
+  "name": "Portsmouth ↔ Fishbourne"
+ },
+ {
+  "routeKey": "houtonLyness",
+  "name": "Houton ↔ Lyness"
+ },
+ {
+  "routeKey": "tingwallRousay",
+  "name": "Tingwall ↔ Rousay"
+ },
+ {
+  "routeKey": "kirkwallShapinsay",
+  "name": "Kirkwall ↔ Shapinsay"
+ },
+ {
+  "routeKey": "kirkwallWestray",
+  "name": "Kirkwall ↔ Rapness (Westray)"
+ },
+ {
+  "routeKey": "kirkwallEday",
+  "name": "Kirkwall ↔ Eday"
+ },
+ {
+  "routeKey": "kirkwallSanday",
+  "name": "Kirkwall ↔ Loth (Sanday)"
+ },
+ {
+  "routeKey": "kirkwallStronsay",
+  "name": "Kirkwall ↔ Whitehall (Stronsay)"
+ },
+ {
+  "routeKey": "lerwickBressay",
+  "name": "Lerwick ↔ Bressay"
+ },
+ {
+  "routeKey": "toftUlsta",
+  "name": "Toft ↔ Ulsta"
+ },
+ {
+  "routeKey": "gutcherBelmont",
+  "name": "Gutcher ↔ Belmont"
+ },
+ {
+  "routeKey": "gutcherHamarsNess",
+  "name": "Gutcher ↔ Hamars Ness (Fetlar)"
+ },
+ {
+  "routeKey": "westBurrafirthPapaStour",
+  "name": "West Burrafirth ↔ Papa Stour"
+ },
+ {
+  "routeKey": "landeyjahofnVestmannaeyjar",
+  "name": "Landeyjahöfn ↔ Vestmannaeyjar"
+ },
+ {
+  "routeKey": "dalvikGrimsey",
+  "name": "Dalvík ↔ Grímsey"
+ },
+ {
+  "routeKey": "klaksvikKalsoy",
+  "name": "Klaksvík ↔ Syðradalur (Kalsoy)"
+ },
+ {
+  "routeKey": "torshavnNolsoy",
+  "name": "Tórshavn ↔ Nólsoy"
+ },
+ {
+  "routeKey": "paynesvilleRaymondIsland",
+  "name": "Paynesville ↔ Raymond Island"
+ },
+ {
+  "routeKey": "svendborgAeroeskoebing",
+  "name": "Svendborg ↔ Ærøskøbing (Ærø)"
+ },
+ {
+  "routeKey": "houSaelvig",
+  "name": "Hou ↔ Sælvig (Samsø)"
+ },
+ {
+  "routeKey": "frederikshavnLaesoe",
+  "name": "Frederikshavn ↔ Vesterø Havn (Læsø)"
+ },
+ {
+  "routeKey": "esbjergNordby",
+  "name": "Esbjerg ↔ Nordby (Fanø)"
+ },
+ {
+  "routeKey": "grenaaAnholt",
+  "name": "Grenaa ↔ Anholt"
+ },
+ {
+  "routeKey": "havnsoeSejeroe",
+  "name": "Havnsø ↔ Sejerø"
+ },
+ {
+  "routeKey": "brandenFur",
+  "name": "Branden ↔ Fur"
+ },
+ {
+  "routeKey": "kragenaesFejoe",
+  "name": "Kragenæs ↔ Fejø"
+ },
+ {
+  "routeKey": "kragenaesFemoe",
+  "name": "Kragenæs ↔ Femø"
+ },
+ {
+  "routeKey": "bandholmAskoe",
+  "name": "Bandholm ↔ Askø"
+ },
+ {
+  "routeKey": "snaptunEndelave",
+  "name": "Snaptun ↔ Endelave"
+ },
+ {
+  "routeKey": "holbaekOroe",
+  "name": "Holbæk ↔ Orø"
+ },
+ {
+  "routeKey": "kleppenVenoe",
+  "name": "Kleppen ↔ Venø"
+ },
+ {
+  "routeKey": "stigsnaesAgersoe",
+  "name": "Stigsnæs ↔ Agersø"
+ },
+ {
+  "routeKey": "stigsnaesOmoe",
+  "name": "Stigsnæs ↔ Omø"
+ },
+ {
+  "routeKey": "aalborgEgholm",
+  "name": "Aalborg ↔ Egholm"
+ },
+ {
+  "routeKey": "rudkoebingStrynoe",
+  "name": "Rudkøbing ↔ Strynø"
+ },
+ {
+  "routeKey": "faaborgAvernakoe",
+  "name": "Faaborg ↔ Avernakø"
+ },
+ {
+  "routeKey": "faaborgLyoe",
+  "name": "Faaborg ↔ Lyø"
+ },
+ {
+  "routeKey": "svendborgDrejoe",
+  "name": "Svendborg ↔ Drejø (via Skarø)"
+ },
+ {
+  "routeKey": "svendborgSkaroe",
+  "name": "Svendborg ↔ Skarø"
+ },
+ {
+  "routeKey": "snaptunHjarnoe",
+  "name": "Snaptun ↔ Hjarnø"
+ },
+ {
+  "routeKey": "assensBaagoe",
+  "name": "Assens ↔ Bågø"
+ },
+ {
+  "routeKey": "barsoeLanding",
+  "name": "Barsø Landing ↔ Barsø"
+ },
+ {
+  "routeKey": "niebuellWesterland",
+  "name": "Niebüll ↔ Westerland (Sylt Shuttle)"
+ },
+ {
+  "routeKey": "dagebuellWyk",
+  "name": "Dagebüll ↔ Wyk auf Föhr"
+ },
+ {
+  "routeKey": "dagebuellWittduen",
+  "name": "Dagebüll ↔ Wittdün (Amrum)"
+ },
+ {
+  "routeKey": "wykWittduen",
+  "name": "Wyk (Föhr) ↔ Wittdün (Amrum)"
+ },
+ {
+  "routeKey": "strucklahnungshoernPellworm",
+  "name": "Strucklahnungshörn ↔ Pellworm"
+ },
+ {
+  "routeKey": "emdenBorkum",
+  "name": "Emden ↔ Borkum"
+ },
+ {
+  "routeKey": "norddeichNorderney",
+  "name": "Norddeich ↔ Norderney"
+ },
+ {
+  "routeKey": "virtsuKuivastu",
+  "name": "Virtsu ↔ Kuivastu (Muhu/Saaremaa)"
+ },
+ {
+  "routeKey": "rohukylaHeltermaa",
+  "name": "Rohuküla ↔ Heltermaa (Hiiumaa)"
+ },
+ {
+  "routeKey": "soruTriigi",
+  "name": "Sõru (Hiiumaa) ↔ Triigi (Saaremaa)"
+ },
+ {
+  "routeKey": "rohukylaSviby",
+  "name": "Rohuküla ↔ Sviby (Vormsi)"
+ },
+ {
+  "routeKey": "munalaidKihnu",
+  "name": "Munalaid ↔ Kihnu"
+ },
+ {
+  "routeKey": "parnuRuhnu",
+  "name": "Pärnu ↔ Ruhnu"
+ },
+ {
+  "routeKey": "roomassaareAbruka",
+  "name": "Roomassaare ↔ Abruka"
+ },
+ {
+  "routeKey": "klaipedaSmiltyne",
+  "name": "Klaipėda ↔ Smiltynė (isthme de Courlande)"
+ },
+ {
+  "routeKey": "halhjemVage",
+  "name": "Halhjem ↔ Våge (Tysnes)"
+ },
+ {
+  "routeKey": "krokeideHufthamar",
+  "name": "Krokeide ↔ Hufthamar (Austevoll)"
+ },
+ {
+  "routeKey": "jektevikNordhuglo",
+  "name": "Jektevik ↔ Nordhuglo (Huglo)"
+ },
+ {
+  "routeKey": "gjermundshamnVaraldsoy",
+  "name": "Gjermundshamn ↔ Varaldsøy"
+ },
+ {
+  "routeKey": "sydnesFjelberg",
+  "name": "Sydnes ↔ Fjelberg"
+ },
+ {
+  "routeKey": "mekjarvikKvitsoy",
+  "name": "Mekjarvik ↔ Kvitsøy"
+ },
+ {
+  "routeKey": "haugesundUtsira",
+  "name": "Haugesund ↔ Utsira"
+ },
+ {
+  "routeKey": "ryfylkeferjenOmbo",
+  "name": "Ryfylkeferjen (Ombo)"
+ },
+ {
+  "routeKey": "launesKvellandstrand",
+  "name": "Launes ↔ Kvellandstrand (Hidra)"
+ },
+ {
+  "routeKey": "abelnesAndabeloy",
+  "name": "Abelnes ↔ Andabeløy"
+ },
+ {
+  "routeKey": "krageroSkatoy",
+  "name": "Kragerø ↔ Skåtøy"
+ },
+ {
+  "routeKey": "brevikSandoya",
+  "name": "Brevik ↔ Sandøya"
+ },
+ {
+  "routeKey": "saevroyFedje",
+  "name": "Sævrøy ↔ Fedje"
+ },
+ {
+  "routeKey": "klokkarvikLeroy",
+  "name": "Klokkarvik ↔ Lerøy"
+ },
+ {
+  "routeKey": "mjanesHisaroy",
+  "name": "Mjånes ↔ Hisarøy"
+ },
+ {
+  "routeKey": "rutledalKrakhella",
+  "name": "Rutledal ↔ Krakhella (Solund)"
+ },
+ {
+  "routeKey": "rutledalLosna",
+  "name": "Rysjedalsvika/Rutledal ↔ Losna"
+ },
+ {
+  "routeKey": "askvollVaerlandet",
+  "name": "Askvoll ↔ Værlandet"
+ },
+ {
+  "routeKey": "askvollGjervik",
+  "name": "Askvoll ↔ Gjervik (Atløy)"
+ },
+ {
+  "routeKey": "maloyHusevagoy",
+  "name": "Måløy ↔ Husevågøy"
+ },
+ {
+  "routeKey": "barmsundBarmen",
+  "name": "Barmsund ↔ Barmen"
+ },
+ {
+  "routeKey": "larsnesVoksa",
+  "name": "Larsnes ↔ Voksa (Sandsøya)"
+ },
+ {
+  "routeKey": "smageFinnoya",
+  "name": "Småge ↔ Finnøya"
+ },
+ {
+  "routeKey": "moldeSekken",
+  "name": "Molde ↔ Sekken"
+ },
+ {
+  "routeKey": "brattvagDryna",
+  "name": "Brattvåg ↔ Dryna (Midsund)"
+ },
+ {
+  "routeKey": "hollingsholmenAukra",
+  "name": "Hollingsholmen ↔ Aukra (Gossa)"
+ },
+ {
+  "routeKey": "gartenStorfosna",
+  "name": "Garten ↔ Storfosna"
+ },
+ {
+  "routeKey": "gartenLeksa",
+  "name": "Garten ↔ Leksa"
+ },
+ {
+  "routeKey": "dyroySula",
+  "name": "Dyrøy ↔ Sula (Frøya)"
+ },
+ {
+  "routeKey": "dyroyMausund",
+  "name": "Dyrøy ↔ Mausund"
+ },
+ {
+  "routeKey": "dyroySorburoy",
+  "name": "Dyrøy ↔ Sørburøy"
+ },
+ {
+  "routeKey": "levangerHokstad",
+  "name": "Levanger ↔ Hokstad (Ytterøya)"
+ },
+ {
+  "routeKey": "olhammerenSeierstad",
+  "name": "Ølhammeren ↔ Seierstad (Jøa)"
+ },
+ {
+  "routeKey": "gutvikSkei",
+  "name": "Gutvik ↔ Skei (Leka)"
+ },
+ {
+  "routeKey": "bronnoysundTorget",
+  "name": "Brønnøysund ↔ Sauren/Stortorgnes (Torget)"
+ },
+ {
+  "routeKey": "sandnessjoenDonna",
+  "name": "Sandnessjøen ↔ Dønna"
+ },
+ {
+  "routeKey": "sandnessjoenLokta",
+  "name": "Sandnessjøen ↔ Løkta"
+ },
+ {
+  "routeKey": "solfjellsjoenVandve",
+  "name": "Solfjellsjøen ↔ Vandve"
+ },
+ {
+  "routeKey": "nesnaHugla",
+  "name": "Nesna ↔ Hugla"
+ },
+ {
+  "routeKey": "nesnaTomma",
+  "name": "Nesna ↔ Tomma"
+ },
+ {
+  "routeKey": "stokkvaganOnoy",
+  "name": "Stokkvågen ↔ Onøy"
+ },
+ {
+  "routeKey": "stokkvaganLovund",
+  "name": "Stokkvågen ↔ Lovund"
+ },
+ {
+  "routeKey": "stokkvaganTraena",
+  "name": "Stokkvågen ↔ Træna"
+ },
+ {
+  "routeKey": "kilboghamnNordnesoy",
+  "name": "Kilboghamn ↔ Nordnesøy"
+ },
+ {
+  "routeKey": "ornesMeloysund",
+  "name": "Ørnes ↔ Meløysund"
+ },
+ {
+  "routeKey": "ornesBolga",
+  "name": "Ørnes ↔ Bolga"
+ },
+ {
+  "routeKey": "ornesStott",
+  "name": "Ørnes ↔ Støtt"
+ },
+ {
+  "routeKey": "sundSorarnoy",
+  "name": "Sund ↔ Sørarnøy"
+ },
+ {
+  "routeKey": "bodoVaeroy",
+  "name": "Bodø ↔ Værøy"
+ },
+ {
+  "routeKey": "bodoRost",
+  "name": "Bodø ↔ Røst"
+ },
+ {
+  "routeKey": "bellvikVengsoy",
+  "name": "Bellvik ↔ Vengsøy"
+ },
+ {
+  "routeKey": "mikkelvikBromnes",
+  "name": "Mikkelvik ↔ Bromnes (Rebbenesøy)"
+ },
+ {
+  "routeKey": "hansnesKarlsoy",
+  "name": "Hansnes ↔ Karlsøy"
+ },
+ {
+  "routeKey": "hansnesVannoy",
+  "name": "Hansnes ↔ Vannøy"
+ },
+ {
+  "routeKey": "hansnesReinoy",
+  "name": "Hansnes ↔ Stakkvik (Reinøy)"
+ },
+ {
+  "routeKey": "rotsundHavnnes",
+  "name": "Rotsund ↔ Havnnes (Uløya)"
+ },
+ {
+  "routeKey": "storsteinNikkeby",
+  "name": "Storstein ↔ Nikkeby (Arnøya)"
+ },
+ {
+  "routeKey": "storsteinLauksundskaret",
+  "name": "Storstein ↔ Lauksundskaret (Laukøya)"
+ },
+ {
+  "routeKey": "oksfjordHasvik",
+  "name": "Øksfjord ↔ Hasvik (Sørøya)"
+ },
+ {
+  "routeKey": "farosundsleden",
+  "name": "Fårösund ↔ Fårö (Fårösundsleden)"
+ },
+ {
+  "routeKey": "holmoleden",
+  "name": "Norrfjärden ↔ Holmön (Holmöleden)"
+ },
+ {
+  "routeKey": "ivoleden",
+  "name": "Barum ↔ Ivö (Ivöleden)"
+ },
+ {
+  "routeKey": "grasoleden",
+  "name": "Öregrund ↔ Gräsö (Gräsöleden)"
+ },
+ {
+  "routeKey": "furusundsleden",
+  "name": "Furusund ↔ Yxlan (Furusundsleden)"
+ },
+ {
+  "routeKey": "blidoleden",
+  "name": "Yxlan ↔ Blidö (Blidöleden)"
+ },
+ {
+  "routeKey": "ljusteroleden",
+  "name": "Östanå ↔ Ljusterö (Ljusteröleden)"
+ },
+ {
+  "routeKey": "vaxholmsleden",
+  "name": "Vaxholm ↔ Rindö (Vaxholmsleden)"
+ },
+ {
+  "routeKey": "arnoleden",
+  "name": "Oknön ↔ Arnö (Arnöleden)"
+ },
+ {
+  "routeKey": "honoleden",
+  "name": "Lilla Varholmen ↔ Hönö (Hönöleden)"
+ },
+ {
+  "routeKey": "bjorkoleden",
+  "name": "Lilla Varholmen ↔ Björkö (Björköleden)"
+ },
+ {
+  "routeKey": "nordoleden",
+  "name": "Burö ↔ Knippla/Rörö (Nordöleden)"
+ },
+ {
+  "routeKey": "lyrleden",
+  "name": "Lyresten ↔ Lyr (Lyrleden)"
+ },
+ {
+  "routeKey": "hamburgsundsleden",
+  "name": "Hamburgsund ↔ Hamburgö (Hamburgsundsleden)"
+ },
+ {
+  "routeKey": "bohusMalmonleden",
+  "name": "Tullboden ↔ Bohus-Malmön"
+ },
+ {
+  "routeKey": "visingsoleden",
+  "name": "Gränna ↔ Visingsö (Visingsöleden)"
+ },
+ {
+  "routeKey": "dalaroOrno",
+  "name": "Dalarö ↔ Ornö (Hässelmara)"
+ },
+ {
+  "routeKey": "svartnoHogmarso",
+  "name": "Svartnö ↔ Högmarsö"
+ },
+ {
+  "routeKey": "pargasNagu",
+  "name": "Lillmälö (Pargas) ↔ Prostvik (Nagu)"
+ },
+ {
+  "routeKey": "naguKorpo",
+  "name": "Retais (Nagu) ↔ Pärnäs (Korpo)"
+ },
+ {
+  "routeKey": "korpoHoutskar",
+  "name": "Galtby (Korpo) ↔ Kittuis (Houtskär)"
+ },
+ {
+  "routeKey": "kustaviInio",
+  "name": "Heponiemi (Kustavi) ↔ Kannvik (Iniö)"
+ },
+ {
+  "routeKey": "palvaVelkua",
+  "name": "Palva ↔ Velkuanmaa"
+ },
+ {
+  "routeKey": "mossalaDalen",
+  "name": "Mossala (Houtskär) ↔ Dalen (Iniö)"
+ },
+ {
+  "routeKey": "kasnasRosala",
+  "name": "Kasnäs ↔ Rosala/Hitis"
+ },
+ {
+  "routeKey": "sakhyurtaOlkhon",
+  "name": "Sakhiurta (MRS) ↔ Olkhon"
+ },
+ {
+  "routeKey": "korsakovYuzhnoKurilsk",
+  "name": "Korsakov ↔ Ioujno-Kourilsk"
+ },
+ {
+  "routeKey": "korsakovKurilsk",
+  "name": "Korsakov ↔ Kourilsk (Itouroup)"
+ },
+ {
   "routeKey": "aomoriHakodate",
   "name": "Aomori ↔ Hakodate"
  },
@@ -28,6 +1308,30 @@
   "name": "Kaohsiung ↔ Magong"
  },
  {
+  "routeKey": "keelungFuao",
+  "name": "Keelung ↔ Fu’ao (Nangan)"
+ },
+ {
+  "routeKey": "keelungZhongzhu",
+  "name": "Keelung ↔ Zhongzhu (Dongyin)"
+ },
+ {
+  "routeKey": "fuaoZhongzhu",
+  "name": "Fu’ao (Nangan) ↔ Zhongzhu (Dongyin)"
+ },
+ {
+  "routeKey": "saintPierreMiquelon",
+  "name": "Saint-Pierre ↔ Miquelon"
+ },
+ {
+  "routeKey": "papeeteVaiare",
+  "name": "Papeete ↔ Vaiare (Moorea)"
+ },
+ {
+  "routeKey": "fromentineYeu",
+  "name": "Fromentine ↔ Port-Joinville (Île d'Yeu)"
+ },
+ {
   "routeKey": "merakBakauheni",
   "name": "Merak ↔ Bakauheni"
  },
@@ -54,6 +1358,250 @@
  {
   "routeKey": "kualaPerlisLangkawi",
   "name": "Kuala Perlis ↔ Langkawi (RoRo)"
+ },
+ {
+  "routeKey": "peramaPaloukia",
+  "name": "Pérama ↔ Paloúkia (Salamine)"
+ },
+ {
+  "routeKey": "keramotiThassos",
+  "name": "Keramotí ↔ Limenas (Thasos)"
+ },
+ {
+  "routeKey": "alexandroupoliSamothraki",
+  "name": "Alexandroúpoli ↔ Kamariótissa (Samothrace)"
+ },
+ {
+  "routeKey": "myrinaAgiosEfstratios",
+  "name": "Mýrina (Lemnos) ↔ Ágios Efstrátios"
+ },
+ {
+  "routeKey": "chiosPsara",
+  "name": "Chios ↔ Psara"
+ },
+ {
+  "routeKey": "chiosOinousses",
+  "name": "Chios ↔ Oinousses"
+ },
+ {
+  "routeKey": "agiosKirykosFourni",
+  "name": "Ágios Kírykos (Ikaria) ↔ Fourni"
+ },
+ {
+  "routeKey": "kalymnosLipsi",
+  "name": "Pothiá (Kalymnos) ↔ Leipsoí"
+ },
+ {
+  "routeKey": "pythagorioAgathonisi",
+  "name": "Pythagóreio (Samos) ↔ Agathonísi"
+ },
+ {
+  "routeKey": "piraeusAstypalaia",
+  "name": "Le Pirée ↔ Astypálaia"
+ },
+ {
+  "routeKey": "nisyrosTilos",
+  "name": "Nisyros ↔ Tilos"
+ },
+ {
+  "routeKey": "rhodesTilos",
+  "name": "Rhodes ↔ Tilos"
+ },
+ {
+  "routeKey": "rhodesSymi",
+  "name": "Rhodes ↔ Symi"
+ },
+ {
+  "routeKey": "rhodesChalki",
+  "name": "Rhodes ↔ Chálki"
+ },
+ {
+  "routeKey": "rhodesKastellorizo",
+  "name": "Rhodes ↔ Kastellorizo"
+ },
+ {
+  "routeKey": "karpathosKasos",
+  "name": "Pigádia (Karpathos) ↔ Kasos"
+ },
+ {
+  "routeKey": "lavrioKea",
+  "name": "Lavrio ↔ Korissía (Kéa)"
+ },
+ {
+  "routeKey": "lavrioKythnos",
+  "name": "Lavrio ↔ Mérichas (Kýthnos)"
+ },
+ {
+  "routeKey": "piraeusSerifos",
+  "name": "Le Pirée ↔ Livádi (Sérifos)"
+ },
+ {
+  "routeKey": "piraeusSifnos",
+  "name": "Le Pirée ↔ Kamáres (Sífnos)"
+ },
+ {
+  "routeKey": "piraeusFolegandros",
+  "name": "Le Pirée ↔ Karavostásis (Folégandros)"
+ },
+ {
+  "routeKey": "piraeusSikinos",
+  "name": "Le Pirée ↔ Alopronoia (Síkinos)"
+ },
+ {
+  "routeKey": "santoriniAnafi",
+  "name": "Athiniós (Santorin) ↔ Anáfi"
+ },
+ {
+  "routeKey": "naxosDonoussa",
+  "name": "Naxos ↔ Donoúsa"
+ },
+ {
+  "routeKey": "naxosKoufonisia",
+  "name": "Naxos ↔ Koufonísia"
+ },
+ {
+  "routeKey": "naxosSchinoussa",
+  "name": "Naxos ↔ Schoinoússa"
+ },
+ {
+  "routeKey": "naxosIraklia",
+  "name": "Naxos ↔ Irakleiá"
+ },
+ {
+  "routeKey": "pountaAntiparos",
+  "name": "Poúnta (Paros) ↔ Antiparos"
+ },
+ {
+  "routeKey": "polloniaPsathi",
+  "name": "Pollonia (Milos) ↔ Psathi (Kimolos)"
+ },
+ {
+  "routeKey": "piraeusAngistri",
+  "name": "Le Pirée ↔ Skála (Angistri)"
+ },
+ {
+  "routeKey": "igoumenitsaPaxos",
+  "name": "Igoumenítsa ↔ Gáios (Paxos)"
+ },
+ {
+  "routeKey": "corfuEreikoussa",
+  "name": "Corfou ↔ Ereikoússa"
+ },
+ {
+  "routeKey": "ereikoussaOthonoi",
+  "name": "Ereikoússa ↔ Othonoí"
+ },
+ {
+  "routeKey": "othonoiMathraki",
+  "name": "Othonoí ↔ Mathráki"
+ },
+ {
+  "routeKey": "nydriMeganisi",
+  "name": "Nydrí (Lefkada) ↔ Spiliá (Meganísi)"
+ },
+ {
+  "routeKey": "poudaElafonisos",
+  "name": "Poúda (Laconie) ↔ Elafónisos"
+ },
+ {
+  "routeKey": "tripitiAmmouliani",
+  "name": "Tripití ↔ Ammoulianí"
+ },
+ {
+  "routeKey": "athiniosThirasia",
+  "name": "Athiniós (Santorin) ↔ Ríva (Thirasía)"
+ },
+ {
+  "routeKey": "mastichariPserimos",
+  "name": "Mastichári (Kos) ↔ Psérimos"
+ },
+ {
+  "routeKey": "kissamosAntikythira",
+  "name": "Kíssamos (Crète) ↔ Antikythira"
+ },
+ {
+  "routeKey": "trogirDrvenikVeli",
+  "name": "Trogir (Soline) ↔ Drvenik Veli"
+ },
+ {
+  "routeKey": "trogirDrvenikMali",
+  "name": "Trogir (Soline) ↔ Drvenik Mali"
+ },
+ {
+  "routeKey": "zadarIst",
+  "name": "Zadar (Gaženica) ↔ Ist"
+ },
+ {
+  "routeKey": "zadarOlib",
+  "name": "Zadar (Gaženica) ↔ Olib"
+ },
+ {
+  "routeKey": "zadarPremuda",
+  "name": "Zadar (Gaženica) ↔ Premuda (Krijal)"
+ },
+ {
+  "routeKey": "maliLosinjPremuda",
+  "name": "Mali Lošinj ↔ Premuda (Krijal)"
+ },
+ {
+  "routeKey": "zadarRivanj",
+  "name": "Zadar (Gaženica) ↔ Rivanj"
+ },
+ {
+  "routeKey": "zadarSestrunj",
+  "name": "Zadar (Gaženica) ↔ Sestrunj"
+ },
+ {
+  "routeKey": "zadarZverinac",
+  "name": "Zadar (Gaženica) ↔ Zverinac"
+ },
+ {
+  "routeKey": "zadarMolat",
+  "name": "Zadar (Gaženica) ↔ Molat"
+ },
+ {
+  "routeKey": "zadarRava",
+  "name": "Zadar (Gaženica) ↔ Rava"
+ },
+ {
+  "routeKey": "zadarBrsanj",
+  "name": "Zadar (Gaženica) ↔ Bršanj (Iž)"
+ },
+ {
+  "routeKey": "sibenikZirje",
+  "name": "Šibenik ↔ Žirje"
+ },
+ {
+  "routeKey": "dubrovnikSudurad",
+  "name": "Dubrovnik (Gruž) ↔ Suđurađ (Šipan)"
+ },
+ {
+  "routeKey": "erdekAvsa",
+  "name": "Erdek ↔ Avşa"
+ },
+ {
+  "routeKey": "erdekPasalimani",
+  "name": "Erdek ↔ Balıklı (Paşalimanı)"
+ },
+ {
+  "routeKey": "avsaMarmara",
+  "name": "Avşa ↔ Marmara"
+ },
+ {
+  "routeKey": "avsaEkinlik",
+  "name": "Avşa ↔ Ekinlik"
+ },
+ {
+  "routeKey": "mulifanuaSalelologa",
+  "name": "Mulifanua ↔ Salelologa"
+ },
+ {
+  "routeKey": "pagoPagoTau",
+  "name": "Pago Pago ↔ Faleāsao (Ta'u)"
+ },
+ {
+  "routeKey": "pagoPagoOfu",
+  "name": "Pago Pago ↔ Ofu"
  },
  {
   "routeKey": "batangasCalapan",
@@ -108,12 +1656,160 @@
   "name": "Balingoan ↔ Benoni (Camiguin)"
  },
  {
+  "routeKey": "agaeteSantaCruzTenerife",
+  "name": "Agaete ↔ Santa Cruz de Tenerife"
+ },
+ {
+  "routeKey": "losCristianosSanSebastianGomera",
+  "name": "Los Cristianos ↔ San Sebastián de La Gomera"
+ },
+ {
+  "routeKey": "santaCruzTenerifeSantaCruzLaPalma",
+  "name": "Santa Cruz de Tenerife ↔ Santa Cruz de La Palma"
+ },
+ {
+  "routeKey": "losCristianosLaEstaca",
+  "name": "Los Cristianos ↔ La Estaca (El Hierro)"
+ },
+ {
+  "routeKey": "lasPalmasMorroJable",
+  "name": "Las Palmas ↔ Morro Jable"
+ },
+ {
+  "routeKey": "playaBlancaCorralejo",
+  "name": "Playa Blanca ↔ Corralejo"
+ },
+ {
+  "routeKey": "lasPalmasArrecife",
+  "name": "Las Palmas ↔ Arrecife"
+ },
+ {
+  "routeKey": "huelvaSantaCruzTenerife",
+  "name": "Huelva ↔ Santa Cruz de Tenerife"
+ },
+ {
+  "routeKey": "cadizArrecife",
+  "name": "Cadix ↔ Arrecife"
+ },
+ {
+  "routeKey": "alcudiaCiutadella",
+  "name": "Alcúdia ↔ Ciutadella"
+ },
+ {
+  "routeKey": "palmaIbiza",
+  "name": "Palma ↔ Ibiza"
+ },
+ {
+  "routeKey": "ibizaLaSavina",
+  "name": "Ibiza ↔ La Savina (Formentera)"
+ },
+ {
+  "routeKey": "deniaIbiza",
+  "name": "Dénia ↔ Ibiza"
+ },
+ {
+  "routeKey": "barcelonaCiutadella",
+  "name": "Barcelone ↔ Ciutadella"
+ },
+ {
+  "routeKey": "deniaFormentera",
+  "name": "Dénia ↔ La Savina (Formentera)"
+ },
+ {
+  "routeKey": "funchalPortoSanto",
+  "name": "Funchal ↔ Porto Santo"
+ },
+ {
+  "routeKey": "hortaMadalena",
+  "name": "Horta ↔ Madalena"
+ },
+ {
+  "routeKey": "saoRoqueVelas",
+  "name": "São Roque do Pico / Madalena ↔ Velas"
+ },
+ {
+  "routeKey": "velasPraiaVitoria",
+  "name": "Velas ↔ Praia da Vitória"
+ },
+ {
+  "routeKey": "graciosaPraiaVitoria",
+  "name": "Graciosa ↔ Praia da Vitória"
+ },
+ {
+  "routeKey": "piombinoPortoferraio",
+  "name": "Piombino ↔ Portoferraio"
+ },
+ {
+  "routeKey": "livornoCapraia",
+  "name": "Livourne ↔ Capraia"
+ },
+ {
+  "routeKey": "portoSantoStefanoGiglio",
+  "name": "Porto Santo Stefano ↔ Giglio Porto"
+ },
+ {
+  "routeKey": "pozzuoliIschia",
+  "name": "Pozzuoli ↔ Ischia"
+ },
+ {
+  "routeKey": "formiaPonza",
+  "name": "Formia ↔ Ponza"
+ },
+ {
+  "routeKey": "milazzoVulcano",
+  "name": "Milazzo ↔ Vulcano"
+ },
+ {
+  "routeKey": "milazzoLipari",
+  "name": "Milazzo ↔ Lipari"
+ },
+ {
+  "routeKey": "lipariVulcano",
+  "name": "Lipari ↔ Vulcano"
+ },
+ {
+  "routeKey": "lipariSantaMarinaSalina",
+  "name": "Lipari ↔ Santa Marina Salina"
+ },
+ {
+  "routeKey": "rinellaFilicudi",
+  "name": "Rinella (Salina) ↔ Filicudi"
+ },
+ {
+  "routeKey": "trapaniFavignana",
+  "name": "Trapani ↔ Favignana"
+ },
+ {
+  "routeKey": "trapaniLevanzo",
+  "name": "Trapani ↔ Levanzo"
+ },
+ {
+  "routeKey": "palauLaMaddalena",
+  "name": "Palau ↔ La Maddalena"
+ },
+ {
+  "routeKey": "portovesmeCarloforte",
+  "name": "Portovesme ↔ Carloforte"
+ },
+ {
+  "routeKey": "tronchettoLido",
+  "name": "Tronchetto ↔ Lido (ferry-boat ligne 17)"
+ },
+ {
+  "routeKey": "alberoniSantaMariaDelMare",
+  "name": "Alberoni ↔ Santa Maria del Mare (ferry-boat ligne 11)"
+ },
+ {
   "routeKey": "donsakLipaNoi",
   "name": "Don Sak ↔ Ko Samui (Lipa Noi)"
  },
  {
   "routeKey": "donsakThongSala",
   "name": "Don Sak ↔ Ko Pha Ngan (Thong Sala)"
+ },
+ {
+  "routeKey": "donsakKohPhaluai",
+  "name": "Don Sak ↔ Ko Phaluai"
  },
  {
   "routeKey": "middleStraitNilambur",

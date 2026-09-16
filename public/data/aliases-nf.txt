@@ -1,0 +1,5 @@
+ja;キングストン;Kingston
+ko;킹스턴;Kingston
+ru;Кингстон;Kingston
+hi;किंग्स्टन;Kingston
+zh;金斯敦;Kingston

@@ -1,0 +1,22 @@
+ru;Старое поселение Фале;Fale old settlement
+id;Pemukiman lama Fale;Fale old settlement
+ms;Permukiman lama Fale;Fale old settlement
+es;Antiguo asentamiento de Fale;Fale old settlement
+fr;Ancien établissement de Fale;Fale old settlement
+hi;फाले पुरानी बस्ती;Fale old settlement
+de;Alte Siedlung Fale;Fale old settlement
+ja;ファレ旧集落;Fale old settlement
+pt;Antigo assentamento de Fale;Fale old settlement
+ru;Нукуному;Nukunonu
+hi;नुकुनोनु;Nukunonu
+ja;ヌクノヌ;Nukunonu
+en;Atafu;Atafu Village
+ru;Деревня Атафу;Atafu Village
+id;Desa Atafu;Atafu Village
+ms;Kampung Atafu;Atafu Village
+es;Pueblo de Atafu;Atafu Village
+fr;Village d'Atafu;Atafu Village
+hi;अटाफु गाँव;Atafu Village
+de;Dorf Atafu;Atafu Village
+ja;アタフ村;Atafu Village
+pt;Aldeia de Atafu;Atafu Village

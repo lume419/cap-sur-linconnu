@@ -1,0 +1,7 @@
+0;-176.6185,0.8078;UM-100;Howland Island;Itascatown pre-WW2
+10;-169.5277,16.7314;UM-200;Johnston Atoll;Johnston
+60;-177.3751,28.2122;UM-300;Midway Islands;Midway
+100;166.6361,19.3043;UM-450;Wake Island;Wake
+20;-162.0756,5.8898;UM-400;Palmyra Atoll;Palmyra
+0;-75.0084,18.3970;UM-350;Navassa Island;Navassa II
+0;-162.3673,6.3822;UM-250;Kingman Reef;Kingman

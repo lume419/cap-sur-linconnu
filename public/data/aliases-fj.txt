@@ -1,0 +1,334 @@
+fj;Yaravudi;Arovudi
+fj;Yarovudi;Arovudi
+fj;Yaro;Yaro Settlement
+fj;Yarawa;Yarawa Settlement
+fj;Yanutha;Yanuca
+fj;Yangganga;Yaqaga
+fj;Yalombi;Yalobi
+fj;Yaloku;Yaloku Settlement
+fj;Warikamba;Werekaba Settlement
+fj;Waiyanitu;Waiyanitu Settlement
+fj;Waitha;Waica Settlement
+fj;Wairuku;Nawairuku
+fj;Waiomba;Waioba Estate Settlement
+fj;Wainiyambia;Wainiyabia Settlement
+fj;Wainingandru;Wainigadru
+fj;Waingganaki;Waiqanake
+fj;Waindrathia;Waidracia
+fj;Waindau;Waidau Settlement
+fj;Wainawangga;Wainawaqa
+fj;Waimbongi;Waibogi
+fj;Waimbasanga;Waibasaga
+fj;Waimbalavu;Waibalavu
+fj;Waikama;Nawaikama
+fj;Vuthi;Vuci
+fj;Vunisinga;Vuisiga
+fj;Vuniniundrovu;Vuniniudrovu Settlement
+fj;Vunindumba;Vuniduba Creek
+fj;Vunindongoloa;Vunidogoloa
+fj;Vunimbau;Vunibau
+fj;Vunimanggo;Vunimaqo Settlement
+fj;Vunilangi;Vunilagi Settlement
+fj;Vuiranggilai;Vuiraqilai
+fj;Vuinanggalutu;Vuinaqalutu
+fj;Vuinakawakawa;Vunikawakawa Settlement
+fj;Visama;Visama Settlement
+fj;Visa;Visa Settlement
+fj;Vavalangi;Vavalagi
+fj;Vatutandova;Vatutadova
+fj;Vatuseikiyasawa;Vatusekiyasawa
+ru;Ватукоула;Vatukoula
+ja;バトゥコウラ;Vatukoula
+fj;Vatukathevatheva;Vatukacevaceva
+fj;Vatukaroa;Vatukaroa Settlement
+fj;Vanuandina;Vanuadina
+fj;Vangai;Vagai Settlement
+fj;Vandrakula;Vadrakula Settlement
+fj;Vandrai;Vadrai
+fj;Vaindoko;Vaidoko
+fj;Uthunivanua;Ucunivanua
+fj;Tovutovu;Tovutovu Settlement
+fj;Tombu;Tobu Settlement
+fj;Tokalau;Natokalau Settlement
+fj;Natokalou;Natokalau
+fj;Thongea;Cogea
+fj;Tholoisuva;Colo-i-Suva
+fj;Thawatara;Cawatara Settlement
+fj;Thawandevo;Cawadevo
+fj;Thautata;Cautata
+fj;Thaumbati;Caubati
+fj;Thalia;Calia Settlement
+fj;Tethi;Teci
+fj;Tavua;Vula Settlement
+fj;Tathi;Taci
+fj;Tamusua;Tamasua
+fj;Tambuya;Tabuya
+fj;Tambia;Tabia
+fj;Tai;Tai Settlement
+ja;スバ;Suva
+ko;수바;Suva
+ru;Сува;Suva
+hi;सुवा;Suva
+zh;蘇瓦;Suva
+fj;Sueni;Suweni
+fj;Songombiau;Sogobiau
+fj;Solondamu;Solodamu
+fj;Sisili;Naisisili
+fj;Singatoka;Nasigatoka
+fj;Silivakatani;Silivakatini Settlement
+fj;Seseninga;Seseniga Settlement
+fj;Savusavuitangga;Savusavuitaga
+fj;Sauniviuto;Sauniveiuto
+fj;Naivibuli;Saru
+fj;Saru;Saru Settlement
+fj;Sandro;Sadro
+fj;Sambata;Sabata
+fj;Numbutautau;Nubutautau
+fj;Numbumakita;Nubumakita
+fj;Numbu;Nubu
+fj;Nukutumbu;Nukutubu
+fj;Nukumbalavu;Nukubalavu
+fj;Nukumbalavu;Nukubalavu Settlement
+fj;Niundua;Niudua
+fj;Niumbasanga;Niubasaga
+fj;Ngunu;Gunu
+fj;Nggoma;Qoma
+fj;Nggelewara;Qelewara
+fj;Nggelethimbi;Naqelecibi
+fj;Nggelendamu;Naqeledamu
+fj;Nggelemumu;Qelemumu
+fj;Nggelekuro;Qelekuro
+fj;Nggaranivai;Qaranivai
+fj;Nggaranisisi;Qaranisisi Settlement
+fj;Ngaloa;Galoa
+en;Ngaloa;Galoa
+fj;Ndromuninuku;Dromuninuku Settlement
+fj;Ndromuna;Dromuna
+fj;Ndriti;Driti
+fj;Ndreketilailai;Dreketilailai
+fj;Ndreketi;Dreketi
+fj;Ndrekeniwai;Drekeniwai Settlement
+fj;Ndravuni;Dravuni Settlement
+fj;Ndravo;Dravo
+fj;Ndraumbuta;Draubuta
+fj;Driba;Draiba
+fj;Ndevoira;Devoira
+fj;Ndenimanu;Denimanu
+fj;Ndelakando;Delakado
+fj;Ndelaivandra;Delaivadra
+fj;Ndelaitonga;Delaitoga
+fj;Ndawasamu;Dawasamu Settlement
+fj;Ndawara;Dawara
+fj;Ndaria;Daria
+fj;Ndama;Dama
+fj;Ndalomo;Dalomo
+fj;Ndakunimba;Dakuniba
+fj;Ndakuni;Dakuni
+fj;Ndakuivuna;Dakuivuna
+fj;Ndakuinuku;Dakuinuku
+fj;Ndakuimbengga;Dakuibeqa
+fj;Ndaku;Daku
+fj;Nayarailangi;Nayarailagi
+fj;Nawatha;Nawaca
+fj;Navuto;Navutu
+fj;Navunikambi;Navunikabi
+fj;Navinggiri;Naviqiri
+fj;Naveimavu;Naveimavu Settlement
+fj;Navaturemba;Vatureba Settlement
+fj;Navakasombu;Navakasobu
+fj;Nauthiwai;Nauciwai
+fj;Mbutha;Nauouo
+fj;Natumbangunu;Natubagunu Settlement
+fj;Natovatu;Natovatu Settlement
+fj;Wailotua;Natokalau
+fj;Nathuru;Nacuru
+fj;Nathula;Nacula
+fj;Natheva;Naceva
+fj;Nathavanandi;Nacavanadi
+fj;Nasonggo;Nasoqo
+fj;Nasoli;Nasoli Settlement
+fj;Nasingasinga;Nasigasiga
+fj;Nasengai;Nasegai
+fj;Nasanga;Nasaga
+fj;Nasaimbitu;Nasaibitu
+fj;Narothivo;Narocivo
+fj;Narothake;Narocake
+fj;Naothombau;Naocobau
+fj;Nanivunda;Nanenivuda
+fj;Nangingi;Nagigi
+fj;Nanggia;Naqia
+fj;Nanggelewai;Naqelewai
+fj;Nanggarawai;Naqarawai
+fj;Nanggarani;Naqarani
+fj;Nanggalotu;Naqalotu
+fj;Nanggali;Naqali
+fj;Nanggainggai;Naqaiqai Settlement
+fj;Nanduru;Naduru
+fj;Nanduna;Naduna Settlement
+fj;Nandua;Nadua
+fj;Nandoria;Nadoria
+fj;Nandongo;Nadogo
+fj;Nandoi;Nadoi
+fj;Nandivakarua;Nadivakarua
+ru;Нанди;Nadi
+fj;Nandi;Nadi
+ja;ナンディ;Nadi
+ko;나디;Nadi
+zh;楠迪;Nadi
+ko;난디;Nadi
+fj;Nananivatu;Naganivatu
+en;Namuana;Namalata
+fj;Namuaimanda;Namuaimada
+fj;Namono;Namono Settlement
+fj;Nabuyasa;Nabuyasa Settlement
+fj;Nambundrau;Nabudrau
+fj;Nambuna;Nabuna
+fj;Nambumbu;Nabubu
+fj;Nambulini;Nabulini
+fj;Nambukeru;Nabukeru
+fj;Nambukavesi;Nabukavesi
+fj;Nabukadogo;Nambukandongo
+fj;Nambua;Nabua
+fj;Nambouwalu;Nabouwalu
+fj;Nabouono;Nambouono
+fj;Nambitu;Nabitu
+fj;Nambiti;Nabiti
+fj;Nambena;Nabena
+fj;Nambavatu;Nabavatu
+fj;Nambau;Nabau
+fj;Nambalembale;Nabalebale
+fj;Nambalambala;Nabalabala
+fj;Nambaitavo;Nabaitavo
+fj;Namatiu;Namajiu
+fj;Nakuriwai;Nakuruwai
+fj;Nakorotiki;Korotiki
+fj;Nakombo;Nakobo
+fj;Matainabou;Nakelo Landing
+fj;Nakelikoso;Naikelikoso
+fj;Nakawanga;Nakawaga
+fj;Nakaungasele;Nakaugasele
+fj;Nakanathangi;Nakanacagi
+fj;Nakalawatha;Nakalawaca
+fj;Naivuthini;Naivucini
+fj;Naivithula;Navicula
+fj;Naivi Mangimangi;Naivimagimagi Settlement
+fj;Naivilathalatha;Naivilacalaca Settlement
+fj;Naivilatha;Navilaca
+fj;Naivikisara;Naivikasara
+fj;Naivakathau;Naivakacau
+fj;Naisongovau;Naisogovau
+fj;Naiserelagi;Naiserelangi
+fj;Naingganggi;Naiqaqi
+fj;Naingani;Naigani
+fj;Naindiri;Naidiri Settlement
+fj;Naindi;Naidi
+fj;Naimbita;Naibita
+fj;Naimbalembale;Naibalebale
+fj;Naimbalembale;Nabalebale
+fj;Nailenga;Nailega
+fj;Naikawangga;Naikawaga
+fj;Muanisolo;Muanisolo Settlement
+fj;Melimeli;Namelimeli
+fj;Mbuthalevu;Bucalevu
+fj;Mbusa;Busa Settlement
+fj;Mburerua;Burerua
+fj;Mburenivalu;Naburenivalu
+fj;Mburenitu;Burenitu
+fj;Mburembasanga;Burebasaga
+fj;Mburelevu;Burelevu
+fj;Mburelevu;Burelevu Settlement
+fj;Mbulileka;Bulileka
+fj;Mbua;Bua
+fj;Mbotenaulu;Botenaulu
+fj;Mbiaungunu;Biaugunu
+fj;Mbaulevu;Baulevu Settlement
+fj;Mbatiri;Batiri
+fj;Mbatinikama;Batinikama
+fj;Mbarotu;Barotu
+fj;Mbangata;Bagata
+fj;Mbangasau;Bagasau
+fj;Mbalesere;Balesere
+fj;Mbalekinanga;Balekinaga
+fj;Mbaindamundamu;Baidamudamu
+fj;Maumi;Maumi Settlement
+fj;Matayalevu;Namatalylevu
+fj;Yaqeta;Namatalylevu
+fj;Matathawalevu;Matacawa Levu
+fj;Mataso;Mataso Settlement
+fj;Mataleka;Matileka Settlement
+fj;Mburetu;Matainoco
+fj;Matailambasa;Matailabasa
+fj;Makomako;Makomako Settlement
+fj;Luvuluvu;Luvuluvu Settlement
+fj;Londoni;Lodoni
+fj;Lombau;Lobau
+fj;Koromathi;Lomati
+fj;Karomaci;Lomati
+fj;Lomati;Lomaji
+fj;Lindiasinga;Lidiasiga
+fj;Levukaindaku;Levukaidaku
+ja;レブカ;Levuka
+ko;레부카;Levuka
+ru;Левука;Levuka
+zh;莱武卡;Levuka
+hi;लौतोका;Lautoka
+ja;ラウトカ;Lautoka
+ko;라우토카;Lautoka
+ru;Лаутока;Lautoka
+zh;劳托卡;Lautoka
+fj;Lauthala;Laucala
+fj;Mbau;Lasakau
+fj;Langi;Lagi
+fj;Langgere;Laqere
+fj;Lakemba;Lakeba
+fj;Korovou;Nakorovou
+fj;Korotumbu;Korotubu
+fj;Korosuli;Nakorosule
+fj;Korolevu;Korolevu Settlement
+fj;Kiombo;Kiobo
+fj;Kendra;Kedra
+fj;Kandavu;Kadavu
+fj;Kanathea;Kanacea
+fj;Kalambo;Kalabu
+fj;Arua;Raviravi
+fj;Wathiwathi;Waciwaci
+fj;Waitambu;Waitabu
+fj;Wainggori;Waiqori
+fj;Vuluna;Vutuna Settlement
+fj;Vindawa;Vidawa
+fj;Vatuulo;Vatuulo Settlement
+fj;Vatusongosongo;Vatusogosogo Settlement
+fj;Tuvutha;Tuvuca
+fj;Thikombia;Cikobia
+fj;Raviravi;Raviravi Settlement
+fj;Pangai;Pagai Settlement
+fj;Ongea;Ogea
+fj;Ndatithoni;Daliconi
+fj;Ndakuilomaloma;Dakuilomaloma
+fj;Ndakuiloa;Dakuiloa
+fj;Navakathoa;Navakacoa Settlement
+ko;나사우;Nasau
+fj;Nasanggalau;Nasaqalau
+fj;Nanggara;Naqara Settlement
+fj;Namuka;Nawatia
+fj;Naiiviivi;Naiviivi
+fj;Mbuthalevu;Bucalevu Settlement
+fj;Bouma;Mbouma
+fj;Mboitathi;Boitaci
+fj;Mambula;Mabula
+fj;Kothoma;Kocoma
+fj;Salialevu;Salialevu Settlement
+ja;バ;Ba
+ko;바;Ba
+ru;Мба;Ba
+fj;Natovutovu;Nautovatu
+fj;Koro No. 1 Set;Koro Number One Settlement
+fj;Woinanuku Settlement;Muainanuku Settlement
+fj;Solevu;Vunievuevu
+fj;Vikoba Settlement;Vikoba
+fj;Bau-Lomanikoro;Bau
+en;Mbau;Bau
+fj;Wainaloka;Wainaloka Anglican Settlement
+fj;Utumbero;Utumero
+fj;Nayavu Settlement;Kanacea Settlement
+fj;Makandru;Makadru

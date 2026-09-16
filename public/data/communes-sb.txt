@@ -1,0 +1,2527 @@
+0;157.1325,-7.3421;SB-12;Choiseul Province;Zongga
+0;157.2342,-8.2682;SB-11;Western Province;Ziata
+0;156.5862,-6.8700;SB-12;Choiseul Province;Zavare
+0;157.1149,-7.0322;SB-12;Choiseul Province;Zaru
+0;156.7167,-6.9667;SB-12;Choiseul Province;Zarepe
+0;157.2833,-7.2000;SB;;Zambanarungga
+0;159.2194,-9.0793;SB-10;Central Province;Yandina
+0;161.1241,-9.3445;SB-03;Malaita Province;Wawarioke
+0;161.1627,-9.1562;SB-03;Malaita Province;Waropara
+0;161.0167,-9.2500;SB-03;Malaita Province;Waro’ai
+0;161.4333,-9.4500;SB-03;Malaita Province;Wariatipai
+0;160.7654,-9.7378;SB-06;Guadalcanal Province;Warekau
+0;161.2054,-9.1698;SB-03;Malaita Province;Warakirita
+0;161.1992,-9.1093;SB-03;Malaita Province;Waraata
+0;161.4167,-9.4667;SB-03;Malaita Province;Wanipuru
+0;160.8589,-8.4767;SB-03;Malaita Province;Waloabu
+0;160.6333,-8.4333;SB-03;Malaita Province;Walo
+0;161.5051,-9.5040;SB-03;Malaita Province;Walade
+0;161.1934,-9.2366;SB-03;Malaita Province;Waitete
+0;161.1000,-9.1833;SB-03;Malaita Province;Waitara
+0;161.3817,-9.4236;SB-03;Malaita Province;Waitao
+0;161.2500,-9.4667;SB-03;Malaita Province;Waitani
+0;161.4008,-9.5215;SB-03;Malaita Province;Waisusu
+0;161.1804,-9.2459;SB-03;Malaita Province;Wairaramua
+0;161.1833,-9.0333;SB;;Wairadina
+0;160.6582,-9.6505;SB-06;Guadalcanal Province;Waimbonombono
+0;161.3355,-9.5578;SB-03;Malaita Province;Waimarau
+0;161.1816,-9.0558;SB-03;Malaita Province;Waima’aka
+0;161.4024,-9.6045;SB-03;Malaita Province;Wailulu
+0;161.4000,-9.4167;SB-03;Malaita Province;Wai’iripo
+0;160.8185,-9.8699;SB-06;Guadalcanal Province;Waihusa
+0;161.4933,-9.6465;SB-03;Malaita Province;Waihii
+0;160.7333,-8.8500;SB;;Waibana
+0;161.3991,-9.4471;SB-03;Malaita Province;Waiahaa
+0;160.8165,-9.8159;SB-06;Guadalcanal Province;Wahere
+0;160.3829,-9.1673;SB-10;Central Province;Vuturua
+0;156.7863,-6.7764;SB-12;Choiseul Province;Vuruvuru
+0;157.3193,-7.2642;SB-12;Choiseul Province;Vure
+0;160.6851,-9.9035;SB-06;Guadalcanal Province;Vuravohai
+0;159.5986,-9.3935;SB-06;Guadalcanal Province;Vuratindao
+0;160.3267,-9.1766;SB-10;Central Province;Vuranimala
+0;160.6500,-9.6833;SB-06;Guadalcanal Province;Vuraimosu
+0;159.5979,-9.4404;SB-06;Guadalcanal Province;Vuragha
+0;160.2833,-9.4500;SB-06;Guadalcanal Province;Vura
+0;159.8289,-9.3670;SB-06;Guadalcanal Province;Vura
+0;160.2077,-9.0188;SB-10;Central Province;Vura
+0;158.0268,-8.7542;SB-11;Western Province;Vura
+0;156.9002,-7.1843;SB-12;Choiseul Province;Vura
+0;159.9605,-9.8046;SB-06;Guadalcanal Province;Vunusa
+0;160.2321,-9.1927;SB-10;Central Province;Vunuha
+0;160.5894,-9.7514;SB-06;Guadalcanal Province;Vunjimbuli
+0;156.5333,-6.8000;SB-12;Choiseul Province;Vundutaru
+0;160.3833,-9.4333;SB-06;Guadalcanal Province;Vunanuli
+0;159.7916,-8.5088;SB-07;Isabel Province;Vulavu
+0;160.3333,-9.6000;SB-06;Guadalcanal Province;Vugholonga
+0;160.3000,-9.4167;SB;;Vugholonga
+0;156.8683,-7.1636;SB-12;Choiseul Province;Vughoe
+0;160.6252,-9.6336;SB-06;Guadalcanal Province;Vuavao
+0;156.6500,-6.8833;SB-12;Choiseul Province;Voza
+0;156.5333,-7.9500;SB-11;Western Province;Vori
+0;160.7942,-9.7930;SB-06;Guadalcanal Province;Vonu
+0;160.1833,-9.4000;SB;;Volonavua
+0;160.1474,-9.0791;SB-10;Central Province;Voloa
+0;159.8333,-9.1333;SB-10;Central Province;Volivoli
+0;160.3712,-9.8212;SB-06;Guadalcanal Province;Voliemba
+0;160.2224,-9.4705;SB-06;Guadalcanal Province;Voghavule
+0;156.7803,-6.7717;SB-12;Choiseul Province;Visovaso
+0;160.6730,-9.9126;SB-06;Guadalcanal Province;Visanaoru
+0;157.3333,-8.6000;SB-11;Western Province;Visale
+0;160.1858,-9.8045;SB-06;Guadalcanal Province;Visakiki
+0;157.1756,-7.1476;SB-12;Choiseul Province;Vio
+0;159.7932,-9.3201;SB-06;Guadalcanal Province;Vilu
+0;159.8167,-9.7833;SB-06;Guadalcanal Province;Veuru
+0;160.1448,-9.4488;SB-06;Guadalcanal Province;Veuru
+0;159.6803,-9.2543;SB-06;Guadalcanal Province;Veuru
+0;160.0670,-9.8109;SB-06;Guadalcanal Province;Veravolia
+0;160.8833,-9.7667;SB;;Veravolia
+0;159.8173,-9.7919;SB-06;Guadalcanal Province;Veravasu
+0;160.6472,-9.8903;SB-06;Guadalcanal Province;Veravaolu
+0;159.7959,-9.7527;SB-06;Guadalcanal Province;Veravaolu
+0;160.4133,-9.4600;SB-06;Guadalcanal Province;Veravaolu
+0;159.7069,-9.2512;SB-06;Guadalcanal Province;Veravaolu
+0;159.8667,-9.7167;SB-06;Guadalcanal Province;Veraulia
+0;159.8396,-9.7405;SB-06;Guadalcanal Province;Verasua
+0;160.5713,-9.5502;SB-06;Guadalcanal Province;Verani
+0;160.2797,-9.5696;SB-06;Guadalcanal Province;Veranggono
+0;160.1831,-9.8152;SB-06;Guadalcanal Province;Veramogho
+0;160.2604,-9.6113;SB-06;Guadalcanal Province;Verambou
+0;159.8639,-9.4281;SB-06;Guadalcanal Province;Veramboli
+0;160.2871,-9.8117;SB-06;Guadalcanal Province;Veramambe
+0;160.6628,-9.9164;SB-06;Guadalcanal Province;Veramakuru
+0;160.0167,-9.8000;SB-06;Guadalcanal Province;Veralilighi
+0;159.6429,-9.2807;SB-06;Guadalcanal Province;Veralevuha
+0;159.6000,-9.3943;SB-06;Guadalcanal Province;Veralevugha
+0;160.2833,-9.8000;SB-06;Guadalcanal Province;Veralengga
+0;159.7973,-9.7775;SB-06;Guadalcanal Province;Veralengga
+0;159.5833,-9.5000;SB;;Veralenga
+0;159.9000,-9.4167;SB;;Veralee
+0;160.3369,-9.8130;SB-06;Guadalcanal Province;Veralava
+0;160.6141,-9.7945;SB-06;Guadalcanal Province;Veralava
+0;160.3500,-9.7333;SB-06;Guadalcanal Province;Verakelia
+0;159.9116,-9.7897;SB-06;Guadalcanal Province;Verakauraghinia
+0;160.1855,-9.8020;SB-06;Guadalcanal Province;Verakaria
+0;160.3500,-9.6500;SB-06;Guadalcanal Province;Verahuvia
+0;159.5989,-9.3466;SB-06;Guadalcanal Province;Verahue
+0;159.9092,-9.4282;SB-06;Guadalcanal Province;Verahoai
+0;160.6549,-9.8065;SB-06;Guadalcanal Province;Verahavai
+0;159.6333,-9.5667;SB;;Veraghughula
+0;159.6697,-9.5697;SB-06;Guadalcanal Province;Veraghavai
+0;160.2651,-9.8061;SB-06;Guadalcanal Province;Veraghalea
+0;156.7603,-7.0293;SB-12;Choiseul Province;Vavundu
+0;159.6488,-8.1930;SB-07;Isabel Province;Vavarenitu
+0;160.8000,-9.8667;SB-06;Guadalcanal Province;Vavao
+0;156.9684,-8.0609;SB-11;Western Province;Vavanga
+0;160.7000,-9.7167;SB-06;Guadalcanal Province;Vauvau
+0;159.6000,-9.4000;SB;;Vatuvua
+0;159.7779,-9.7068;SB-06;Guadalcanal Province;Vatuteko
+0;160.0941,-9.7981;SB-06;Guadalcanal Province;Vatutaranggau
+0;159.7913,-9.3326;SB-06;Guadalcanal Province;Vatusii
+0;160.2827,-9.0450;SB-10;Central Province;Vatupura
+0;159.7312,-9.2904;SB-06;Guadalcanal Province;Vatupilei
+0;160.6007,-9.5902;SB-06;Guadalcanal Province;Vatuniura
+0;160.0987,-9.5324;SB-06;Guadalcanal Province;Vatunandi
+0;160.6002,-9.8086;SB-06;Guadalcanal Province;Vatunakuvukuvu
+0;159.6153,-9.4865;SB-06;Guadalcanal Province;Vatumbora
+0;159.7667,-9.7167;SB-06;Guadalcanal Province;Vatumbaghea
+0;160.1160,-9.8166;SB-06;Guadalcanal Province;Vatumanivo
+0;159.7127,-9.2523;SB-06;Guadalcanal Province;Vatulovo
+0;159.9333,-9.8000;SB;;Vatuloki
+0;160.7198,-9.9035;SB-06;Guadalcanal Province;Vatulava
+0;160.1215,-9.8161;SB-06;Guadalcanal Province;Vatukulau
+0;159.9034,-9.4248;SB-06;Guadalcanal Province;Vatukolaa
+0;159.8492,-9.7587;SB-06;Guadalcanal Province;Vatukapicha
+0;159.9294,-9.7976;SB-06;Guadalcanal Province;Vatughai
+0;160.5093,-9.8756;SB-06;Guadalcanal Province;Vatualae
+0;159.8637,-9.4290;SB-06;Guadalcanal Province;Vasavarangge
+0;159.5977,-9.4479;SB-06;Guadalcanal Province;Variana
+0;159.6972,-9.6645;SB-06;Guadalcanal Province;Vaovao
+0;160.3500,-9.4000;SB;;Vanuavaolu
+0;157.3391,-8.6104;SB-11;Western Province;Vanikuva
+0;156.8333,-7.0667;SB-12;Choiseul Province;Vanggoso
+0;156.6833,-6.9000;SB-12;Choiseul Province;Vangavanga
+0;156.7820,-7.0583;SB-12;Choiseul Province;Vanga
+0;160.0547,-9.7854;SB-06;Guadalcanal Province;Valevuru
+0;160.6574,-9.6934;SB-06;Guadalcanal Province;Valevale
+0;160.1142,-9.6823;SB-06;Guadalcanal Province;Valesule
+0;159.8167,-9.1000;SB;;Valesighao
+0;159.9060,-9.7699;SB-06;Guadalcanal Province;Valepombo
+0;160.7483,-9.7918;SB-06;Guadalcanal Province;Valengali
+0;160.2844,-9.7240;SB-06;Guadalcanal Province;Valembolo
+0;160.2000,-9.6667;SB-06;Guadalcanal Province;Valembilombilo
+0;160.4833,-9.7167;SB-06;Guadalcanal Province;Valembakero
+0;160.1301,-9.6766;SB-06;Guadalcanal Province;Valembaimbai
+0;159.8324,-9.1505;SB-10;Central Province;Valemanu
+0;160.4167,-9.6167;SB-06;Guadalcanal Province;Valekeo
+0;159.9266,-9.4551;SB-06;Guadalcanal Province;Valeato
+0;160.0563,-9.7674;SB-06;Guadalcanal Province;Valearanisi
+0;160.5358,-9.6580;SB-06;Guadalcanal Province;Valasi
+0;160.0667,-9.8000;SB-06;Guadalcanal Province;Valangge
+0;160.1770,-9.7995;SB-06;Guadalcanal Province;Valakaro
+0;157.8473,-8.3715;SB-11;Western Province;Vakambo
+0;160.7000,-9.7167;SB-06;Guadalcanal Province;Vaitambu
+0;160.7922,-9.8814;SB-06;Guadalcanal Province;Vaimaia
+0;160.6667,-9.6500;SB;;Vahato
+0;156.7000,-6.9333;SB-12;Choiseul Province;Vaghara
+0;160.4333,-9.4667;SB-06;Guadalcanal Province;Vaenimala
+0;160.3760,-9.4816;SB-06;Guadalcanal Province;Vadhavoka
+0;160.3470,-9.4791;SB-06;Guadalcanal Province;Vadhalutu
+0;156.7027,-7.8913;SB-11;Western Province;Uzamba
+0;160.6028,-8.4097;SB-03;Malaita Province;U’usu
+0;159.6499,-8.1960;SB-07;Isabel Province;U’uri
+0;161.5366,-9.6124;SB-03;Malaita Province;U’unimenu
+0;160.7333,-8.6500;SB-03;Malaita Province;U’ula
+0;160.7695,-8.3092;SB-03;Malaita Province;Utuni
+0;160.9036,-8.5252;SB-03;Malaita Province;Usu’usue
+0;160.7449,-8.3254;SB-03;Malaita Province;Uruuru
+0;159.8807,-9.7560;SB-06;Guadalcanal Province;Uraghai
+0;160.7306,-8.8086;SB-03;Malaita Province;Ura
+0;161.1833,-9.1833;SB-03;Malaita Province;Upu
+0;160.8000,-8.4000;SB-03;Malaita Province;Unusoa
+0;160.3324,-9.4255;SB-06;Guadalcanal Province;Uni
+0;160.3821,-9.4666;SB-06;Guadalcanal Province;Ungalesi
+0;160.2092,-9.8120;SB-06;Guadalcanal Province;Ulusughu
+0;160.6665,-8.4733;SB-03;Malaita Province;Ulungga
+0;160.5109,-9.7379;SB-06;Guadalcanal Province;Ulakuma
+0;160.7833,-8.3667;SB-03;Malaita Province;Ukuuku
+0;161.2894,-9.5198;SB-03;Malaita Province;Uhu
+0;161.1333,-9.1333;SB-03;Malaita Province;Uara
+0;161.1845,-9.0678;SB-03;Malaita Province;Uani
+0;159.5901,-9.5180;SB-06;Guadalcanal Province;Tuvukokichi
+0;159.6377,-9.5691;SB-06;Guadalcanal Province;Tuvu
+0;160.4752,-9.5103;SB-06;Guadalcanal Province;Tuvu
+0;159.7305,-9.2694;SB-06;Guadalcanal Province;Tuvu
+0;159.9565,-9.4544;SB-14;Honiara;Tuvaruhu
+0;160.1178,-9.4361;SB-06;Guadalcanal Province;Tutuva
+0;160.2833,-9.4833;SB-06;Guadalcanal Province;Tutumu
+0;156.7833,-8.0833;SB-11;Western Province;Tutitoto
+0;157.6000,-8.0333;SB;;Tusumine
+0;160.1980,-9.6719;SB-06;Guadalcanal Province;Turi
+0;160.3710,-9.4808;SB-06;Guadalcanal Province;Tupaveke
+0;156.8363,-7.1232;SB-12;Choiseul Province;Tunoe
+0;160.1937,-9.7893;SB-06;Guadalcanal Province;Tundu
+0;160.1815,-9.4215;SB-06;Guadalcanal Province;Tumurora
+0;160.3147,-9.4288;SB-06;Guadalcanal Province;Tumumbosa
+0;160.1506,-9.0133;SB-10;Central Province;Tumulighohu
+0;159.8167,-9.1000;SB;;Tumbuka
+0;160.0721,-8.9914;SB-10;Central Province;Tumbila
+0;160.6014,-9.6094;SB-06;Guadalcanal Province;Tumanggulu
+0;159.6377,-9.5715;SB-06;Guadalcanal Province;Tulaghi
+1750;160.1506,-9.1031;SB-10;Central Province;Tulagi
+0;160.1833,-9.8000;SB-06;Guadalcanal Province;Tuitolu
+0;155.8633,-7.0923;SB-11;Western Province;Tuiai
+0;160.0516,-9.6152;SB-06;Guadalcanal Province;Tuhurutolu
+0;157.0691,-8.1197;SB-11;Western Province;Tughagha
+0;159.4436,-8.3002;SB-07;Isabel Province;Tuarughu
+0;156.0757,-6.9794;SB-11;Western Province;Toumoa
+0;160.6560,-9.6705;SB-06;Guadalcanal Province;Totongo
+0;161.4500,-9.4667;SB-03;Malaita Province;Toriheo
+0;161.1337,-9.1387;SB-03;Malaita Province;Torapora
+0;161.1500,-9.3667;SB;;Torapare’o
+0;161.1381,-9.0840;SB-03;Malaita Province;Tookina
+0;159.8333,-9.4333;SB-06;Guadalcanal Province;Tongona
+0;157.7346,-8.4997;SB-11;Western Province;Tombe
+0;160.2212,-9.4720;SB-06;Guadalcanal Province;Tombakambu
+0;159.6167,-9.5000;SB-06;Guadalcanal Province;Tolughu
+0;159.9138,-9.7937;SB-06;Guadalcanal Province;Toghunaovo
+0;159.6310,-8.2064;SB-07;Isabel Province;Toghasalo
+0;160.3128,-9.6519;SB-06;Guadalcanal Province;Toghasa
+0;160.0885,-9.0421;SB-10;Central Province;Togha
+0;157.3420,-8.5669;SB-11;Western Province;Tōfie
+0;160.3912,-9.1504;SB-10;Central Province;Toa
+0;160.7387,-8.6168;SB-03;Malaita Province;Tiuni
+0;159.9060,-9.7861;SB-06;Guadalcanal Province;Tiua
+0;160.3449,-9.4770;SB-06;Guadalcanal Province;Tiua
+0;156.8154,-8.1070;SB-11;Western Province;Titiana
+0;156.9452,-7.9992;SB-11;Western Province;Titiana
+0;159.5983,-8.1517;SB-07;Isabel Province;Tit’hiro
+0;159.7705,-9.7321;SB-06;Guadalcanal Province;Tirovisi
+0;159.6009,-8.1660;SB-07;Isabel Province;Tirotong’na
+0;159.7313,-8.2462;SB-07;Isabel Province;Tirognuli
+0;159.8136,-9.1007;SB-10;Central Province;Tinovika
+0;160.1357,-9.5874;SB-06;Guadalcanal Province;Tinomeat
+0;159.6996,-8.3626;SB-07;Isabel Province;Tinakle
+0;160.2767,-9.1619;SB-10;Central Province;Tinaindari
+0;160.5833,-9.5500;SB;;Tinahodhi
+0;159.6850,-9.2532;SB-06;Guadalcanal Province;Tina
+0;159.6254,-8.1642;SB-07;Isabel Province;T’holana
+0;160.6041,-8.4170;SB-03;Malaita Province;Thalu
+0;160.3333,-9.7000;SB-06;Guadalcanal Province;Tevua
+0;160.2066,-9.4554;SB-06;Guadalcanal Province;Tetere
+0;157.7259,-8.4994;SB-11;Western Province;Tetemara
+0;159.6081,-9.4044;SB-06;Guadalcanal Province;Tenavutu
+0;160.4550,-9.4931;SB-06;Guadalcanal Province;Tenavunudha
+0;160.1049,-9.4392;SB-06;Guadalcanal Province;Tenavatu
+0;160.3331,-9.6006;SB-06;Guadalcanal Province;Tenatungi
+0;160.3174,-9.6011;SB-06;Guadalcanal Province;Tenatomba
+0;160.3663,-9.4807;SB-06;Guadalcanal Province;Tenatelidhe
+0;160.0733,-9.4443;SB-06;Guadalcanal Province;Tenaru
+0;159.7353,-9.2763;SB-06;Guadalcanal Province;Tenaro
+0;160.5369,-9.5393;SB-06;Guadalcanal Province;Tenandalovi
+0;160.3069,-9.5642;SB-06;Guadalcanal Province;Tenalinggi
+0;160.2333,-9.4500;SB-06;Guadalcanal Province;Tenakoko
+0;160.3369,-9.4345;SB-06;Guadalcanal Province;Tenaghau
+0;160.2955,-9.5925;SB-06;Guadalcanal Province;Tenadhugha
+0;160.6483,-9.8943;SB-06;Guadalcanal Province;Telina
+0;158.0734,-8.5213;SB-11;Western Province;Telina
+0;160.1250,-9.4256;SB-06;Guadalcanal Province;Tearoku
+0;161.1667,-9.1667;SB-03;Malaita Province;Tawapaina
+0;160.8167,-9.7667;SB;;Tawanisitoo
+0;161.4000,-9.6000;SB;;Tawanisisisi
+0;161.3000,-9.3854;SB-03;Malaita Province;Tawanaora
+0;161.3627,-9.5760;SB-03;Malaita Province;Tawairoi
+0;160.9666,-9.2081;SB-03;Malaita Province;Tawai Mare
+0;161.0782,-9.3034;SB-03;Malaita Province;Tawaihuro
+0;161.5075,-9.6619;SB-03;Malaita Province;Tawahaule
+0;161.5121,-9.5177;SB-03;Malaita Province;Tawaaro
+0;160.3182,-9.5671;SB-06;Guadalcanal Province;Tavutisakai
+0;160.6583,-9.6628;SB-06;Guadalcanal Province;Tavulepasa
+0;160.3427,-9.0898;SB-10;Central Province;Tavulea
+0;160.5836,-9.5549;SB-06;Guadalcanal Province;Tavughi
+0;159.8167,-9.3500;SB-06;Guadalcanal Province;Tavavao
+0;160.6138,-9.5907;SB-06;Guadalcanal Province;Tavangaoa
+0;160.7106,-9.9039;SB-06;Guadalcanal Province;Tavala
+0;160.1735,-9.5617;SB-06;Guadalcanal Province;Tausoro
+0;159.7440,-8.2935;SB-07;Isabel Province;Tausese
+0;160.1048,-9.8152;SB-06;Guadalcanal Province;Taupanda
+0;159.6641,-9.2692;SB-06;Guadalcanal Province;Taunavali
+0;159.9167,-9.4333;SB-06;Guadalcanal Province;Taumbaghe
+0;160.6575,-8.4624;SB-03;Malaita Province;Taumamae
+0;160.8500,-8.7667;SB-03;Malaita Province;Taulalamu
+0;161.0667,-8.9167;SB-03;Malaita Province;Tau’ialomae
+0;160.7425,-8.3157;SB-03;Malaita Province;Tauba
+0;160.1853,-9.4428;SB-06;Guadalcanal Province;Tatau
+0;160.3570,-9.5809;SB-06;Guadalcanal Province;Tatatu
+0;158.1274,-8.5686;SB-11;Western Province;Tatambiri
+0;159.8101,-8.3936;SB-07;Isabel Province;Tatamba
+0;156.9218,-7.2071;SB-12;Choiseul Province;Tasure
+0;159.7321,-9.6836;SB-06;Guadalcanal Province;Tasule
+0;159.7885,-8.3020;SB-07;Isabel Province;Tasoe
+0;160.8906,-8.8590;SB-03;Malaita Province;Tasisi
+0;160.8953,-8.5288;SB-03;Malaita Province;Tasisi
+0;159.7833,-9.1167;SB;;Tasimania
+0;159.5954,-9.4125;SB-06;Guadalcanal Province;Tasiloki
+0;159.6127,-8.1402;SB-07;Isabel Province;Tasia
+0;160.0167,-9.5833;SB-06;Guadalcanal Province;Tasi
+0;156.8738,-6.8319;SB-12;Choiseul Province;Taruvana
+0;160.2377,-9.1439;SB-10;Central Province;Taroaniara
+0;161.2013,-9.2239;SB-12;Choiseul Province;Taro’a
+0;161.1667,-9.1167;SB-03;Malaita Province;Tarariu
+0;161.1193,-9.1192;SB-03;Malaita Province;Tarapiri
+0;161.3782,-9.4212;SB-03;Malaita Province;Tarapaina
+0;161.2000,-9.0667;SB;;Tar’aniparu
+0;161.4255,-9.4836;SB-03;Malaita Province;Taramata
+0;160.8120,-8.3327;SB-03;Malaita Province;Taraafada
+0;159.6000,-9.4000;SB;;Tapou
+0;161.4022,-9.4201;SB-03;Malaita Province;Taori
+0;157.4895,-7.4048;SB-12;Choiseul Province;Taora
+0;160.0755,-9.5913;SB-06;Guadalcanal Province;Taombo
+0;159.6741,-9.2606;SB-06;Guadalcanal Province;Tangongote
+0;159.7833,-9.1333;SB;;Tanggonggora
+0;160.0703,-9.5252;SB-06;Guadalcanal Province;Tanggilanggila
+0;159.5833,-9.5000;SB;;Tanged
+0;159.7726,-9.7261;SB-06;Guadalcanal Province;Tangali
+0;159.6000,-9.4167;SB-06;Guadalcanal Province;Tandalo
+0;159.9003,-9.4221;SB-06;Guadalcanal Province;Tanavasa
+0;159.7996,-9.1070;SB-10;Central Province;Tanavalea
+0;159.7275,-9.2880;SB-06;Guadalcanal Province;Tanasali
+0;160.4720,-9.5344;SB-06;Guadalcanal Province;Tanapau
+0;160.1776,-9.6985;SB-06;Guadalcanal Province;Tanamo
+0;160.0338,-9.8213;SB-06;Guadalcanal Province;Tanambora
+0;160.3810,-9.5181;SB-06;Guadalcanal Province;Tanakongga
+0;159.9000,-9.4167;SB;;Tanakombu
+0;159.8300,-9.1141;SB-10;Central Province;Tanakola
+0;159.8036,-9.1047;SB-10;Central Province;Tanakindi
+0;159.9917,-9.8148;SB-06;Guadalcanal Province;Tanakea
+0;159.9144,-9.4272;SB-06;Guadalcanal Province;Tanahai
+0;159.7415,-9.2831;SB-06;Guadalcanal Province;Tanaemba
+0;159.7500,-8.3833;SB-07;Isabel Province;Tanabou
+0;160.3833,-9.4333;SB-06;Guadalcanal Province;Tambunimane
+0;160.4880,-9.8901;SB-06;Guadalcanal Province;Tambunahambu
+0;159.6135,-9.4952;SB-06;Guadalcanal Province;Tambughu
+0;159.8239,-9.3474;SB-06;Guadalcanal Province;Tamboko
+0;160.1167,-9.7833;SB-06;Guadalcanal Province;Tambili
+0;160.1760,-9.5515;SB-06;Guadalcanal Province;Tambelusu
+0;159.6658,-9.2673;SB-06;Guadalcanal Province;Tambea
+0;156.7599,-7.0318;SB-12;Choiseul Province;Tambasaru
+0;157.0375,-6.9110;SB-12;Choiseul Province;Tambarato
+0;159.6010,-9.4964;SB-06;Guadalcanal Province;Tambani
+0;160.1243,-9.6758;SB-06;Guadalcanal Province;Tambalusu
+0;159.7351,-9.2824;SB-06;Guadalcanal Province;Tambalia
+0;160.3393,-9.8144;SB-06;Guadalcanal Province;Tambakolo
+0;160.0154,-9.4247;SB-14;Honiara;Tambakokomu
+0;161.0060,-8.9024;SB-03;Malaita Province;Tamba’au
+0;160.6964,-8.3783;SB-03;Malaita Province;Tambaa
+0;159.9500,-9.4333;SB-14;Honiara;Tamatangga
+0;159.6040,-9.5341;SB-06;Guadalcanal Province;Tamami
+0;159.7697,-9.7248;SB-06;Guadalcanal Province;Taloa
+0;159.6667,-9.6497;SB-06;Guadalcanal Province;Talisemba
+0;159.6272,-8.4702;SB-06;Guadalcanal Province;Talise
+0;160.1458,-9.1052;SB-10;Central Province;Talingavatu
+0;161.5000,-9.5167;SB-03;Malaita Province;Taliatango
+0;160.2833,-9.4000;SB;;Talaura
+0;160.9000,-8.4833;SB;;Talaungwembe
+0;160.7539,-8.8737;SB-03;Malaita Province;Talakali
+0;161.0667,-8.9333;SB-03;Malaita Province;Takwafiru
+0;160.6164,-8.4231;SB-03;Malaita Province;Takwa
+0;160.7924,-8.3695;SB-03;Malaita Province;Takwa
+0;159.6684,-9.6284;SB-06;Guadalcanal Province;Takurakura
+0;159.7556,-9.7307;SB-06;Guadalcanal Province;Takuika
+0;160.7033,-8.3188;SB-03;Malaita Province;Taku
+0;160.2354,-9.1003;SB-10;Central Province;Takopikopi
+0;159.6175,-9.4769;SB-06;Guadalcanal Province;Takongga
+0;159.6833,-9.2500;SB;;Takolenduna
+0;160.0488,-8.9482;SB-10;Central Province;Takola
+0;159.7451,-9.7280;SB-06;Guadalcanal Province;Takokoilo
+0;159.7027,-9.6780;SB-06;Guadalcanal Province;Takoi
+0;161.1833,-9.0500;SB;;Takira
+0;160.1167,-8.9667;SB;;Takavali
+0;159.7167,-9.7000;SB-06;Guadalcanal Province;Takatakati
+0;160.5833,-8.3333;SB-03;Malaita Province;Takaniano
+0;159.7511,-9.2963;SB-06;Guadalcanal Province;Takamboro
+0;161.4363,-9.5696;SB-03;Malaita Province;Taka’ito
+0;160.3391,-9.4136;SB-06;Guadalcanal Province;Taivu
+0;159.6333,-9.2833;SB;;Taitai
+0;160.7435,-8.8489;SB-03;Malaita Province;Tainiu
+0;159.6667,-9.2500;SB;;Tahaimbau
+0;161.1500,-8.9833;SB;;Tahaa
+0;160.2518,-9.0237;SB-10;Central Province;Tagholauna
+0;160.7333,-8.7333;SB-03;Malaita Province;Tagatalau
+0;160.6850,-8.3804;SB-03;Malaita Province;Tafuna’ama
+0;160.8986,-8.5385;SB-03;Malaita Province;Tafukoe
+0;160.3588,-9.4148;SB-06;Guadalcanal Province;Tadhighalagha
+0;160.0032,-8.8812;SB-10;Central Province;Tadhi
+0;159.5892,-8.2466;SB-07;Isabel Province;Tadahadi
+0;160.8578,-8.7693;SB-03;Malaita Province;Tabaa
+0;161.1575,-9.3663;SB-03;Malaita Province;Ta’arutona
+0;160.7500,-8.9000;SB-03;Malaita Province;Ta’alulolo
+0;159.6045,-9.5322;SB-06;Guadalcanal Province;Suva
+0;159.8443,-8.5547;SB-07;Isabel Province;Suva
+0;159.6088,-8.1569;SB-07;Isabel Province;Suva
+0;161.9480,-9.7612;SB-08;Makira-Ulawa Province;Su’utaluhia
+0;161.3849,-9.5947;SB-03;Malaita Province;Su’uri’i
+0;161.2167,-9.2000;SB-03;Malaita Province;Suurawa
+0;160.6926,-8.5695;SB-03;Malaita Province;Suunanila
+0;160.6497,-8.3548;SB-03;Malaita Province;Su’umboko
+0;160.8008,-9.8175;SB-06;Guadalcanal Province;Suumatahu
+0;160.7403,-9.7284;SB-06;Guadalcanal Province;Suu Lava
+0;161.9857,-9.7871;SB-08;Makira-Ulawa Province;Su’uholo
+0;160.8295,-9.8548;SB-06;Guadalcanal Province;Su’u
+0;160.9248,-9.1661;SB-03;Malaita Province;Su’u
+0;156.9035,-6.8417;SB-12;Choiseul Province;Susuka
+0;159.4503,-8.3075;SB-07;Isabel Province;Susubona
+0;160.5639,-9.5482;SB-06;Guadalcanal Province;Susu
+0;161.1866,-9.3175;SB-03;Malaita Province;Suruni’oi
+0;161.2000,-9.0667;SB;;Suruanihonu
+0;160.5989,-9.6777;SB-06;Guadalcanal Province;Surapau
+0;161.1500,-9.2000;SB-03;Malaita Province;Suranani
+0;161.0833,-9.2833;SB-03;Malaita Province;Suramane
+0;161.0799,-9.3140;SB-03;Malaita Province;Sura’iro
+0;160.3084,-9.5883;SB-06;Guadalcanal Province;Suputovu
+0;155.8671,-7.0884;SB-11;Western Province;Supusapuai
+0;156.5952,-7.8578;SB-11;Western Province;Supato
+0;160.0558,-9.5057;SB-06;Guadalcanal Province;Sungina
+0;159.6978,-9.6618;SB-06;Guadalcanal Province;Sunavutu
+0;160.6500,-8.4000;SB-03;Malaita Province;Sunangauli
+0;159.6500,-9.5833;SB-06;Guadalcanal Province;Sunana
+0;160.9167,-8.5333;SB;;Sumbombono
+0;160.3194,-9.4833;SB-06;Guadalcanal Province;Sumbaniu
+0;159.6023,-9.4349;SB-06;Guadalcanal Province;Sumate
+0;159.7011,-8.4373;SB-07;Isabel Province;Suma
+0;155.7504,-7.0992;SB-11;Western Province;Sulukiai
+0;160.9171,-8.5398;SB-03;Malaita Province;Sulofoloa
+0;160.8284,-8.4264;SB-03;Malaita Province;Sulione
+0;157.1905,-8.0392;SB-11;Western Province;Sulimuni
+0;160.7333,-8.9333;SB;;Suliliu
+0;160.7004,-8.3813;SB-03;Malaita Province;Sulanggwalu
+0;160.6092,-9.9366;SB-06;Guadalcanal Province;Sukiki
+0;160.5681,-8.3610;SB-03;Malaita Province;Suindaraa
+0;160.3548,-9.7268;SB-06;Guadalcanal Province;Suilonggolonggo
+0;160.5790,-9.9182;SB-06;Guadalcanal Province;Suhu
+0;160.8212,-9.7865;SB-06;Guadalcanal Province;Suhu
+0;160.8375,-9.8196;SB-06;Guadalcanal Province;Suhairato
+0;160.1665,-9.7961;SB-06;Guadalcanal Province;Sughulonga
+0;160.2746,-9.8107;SB-06;Guadalcanal Province;Sughu
+0;159.7171,-9.6935;SB-06;Guadalcanal Province;Sughu
+0;158.7315,-7.5817;SB-07;Isabel Province;Suavanao
+0;160.2586,-9.4193;SB-06;Guadalcanal Province;Suaghi
+0;160.3719,-9.5374;SB-06;Guadalcanal Province;Soso
+0;160.1961,-9.4559;SB-06;Guadalcanal Province;Soso
+0;160.0260,-8.9078;SB-10;Central Province;Soso
+0;159.5470,-8.1216;SB-07;Isabel Province;Sorusitana
+0;159.6691,-9.6492;SB-06;Guadalcanal Province;Sorovisi
+0;156.9887,-6.8992;SB-12;Choiseul Province;Soranamola
+0;160.1413,-9.4378;SB-06;Guadalcanal Province;Sopapera
+0;160.1667,-9.4000;SB;;Sopanitogha
+0;160.1793,-9.8156;SB-06;Guadalcanal Province;Songgulu
+0;158.2046,-8.7354;SB-11;Western Province;Sombiro
+0;159.8366,-9.1369;SB-10;Central Province;Soghoka
+0;159.7194,-9.5995;SB-06;Guadalcanal Province;Soghati
+0;155.7500,-7.1000;SB-11;Western Province;Sobelia
+0;160.0828,-9.8201;SB-06;Guadalcanal Province;Sivula
+0;160.7359,-8.8175;SB-03;Malaita Province;Sita
+0;160.6997,-8.5114;SB-03;Malaita Province;Sisifiu
+0;160.2333,-9.4667;SB-06;Guadalcanal Province;Sirokakara
+0;160.0734,-8.9849;SB-10;Central Province;Siro
+0;160.3116,-9.0623;SB-10;Central Province;Siota
+0;161.9759,-9.7778;SB-08;Makira-Ulawa Province;Sioduru
+0;160.6667,-9.7000;SB;;Singgilia
+0;160.6478,-8.4550;SB-03;Malaita Province;Sindu
+0;161.0833,-8.8833;SB;;Sinasuu
+0;160.0902,-9.8184;SB-06;Guadalcanal Province;Sinamo
+0;161.0833,-8.8833;SB;;Sinalanggu
+0;160.6607,-9.6411;SB;;Simiu Bank
+0;159.8000,-9.1000;SB;;Simbo
+0;156.6915,-7.6814;SB-11;Western Province;Simbilando
+0;156.3883,-6.6541;SB-12;Choiseul Province;Simbesimbe
+0;160.3111,-9.4256;SB-06;Guadalcanal Province;Simba
+0;160.6724,-8.3694;SB-03;Malaita Province;Silolo
+0;159.6110,-8.2650;SB-07;Isabel Province;Silighodu
+0;161.1667,-9.0167;SB-03;Malaita Province;Siinamuo
+0;161.4380,-9.6571;SB-03;Malaita Province;Sihomwaniwala
+0;159.7833,-9.1000;SB;;Sighosapa
+0;159.8641,-8.5108;SB-07;Isabel Province;Sigana
+0;157.1203,-8.3114;SB-11;Western Province;Sidon
+0;159.8349,-9.1464;SB-10;Central Province;Siata
+0;160.6555,-9.6839;SB-06;Guadalcanal Province;Siarana
+0;160.2225,-9.1819;SB-10;Central Province;Siarana
+0;156.8500,-6.8000;SB;;Sia
+0;160.5672,-9.5511;SB-06;Guadalcanal Province;Seve
+0;159.8293,-9.1515;SB-10;Central Province;Sesepi
+0;159.7571,-8.4807;SB-07;Isabel Province;Sesedo
+0;156.5963,-7.8723;SB-11;Western Province;Serulando
+0;159.8013,-9.1575;SB-10;Central Province;Serighama
+0;159.8305,-8.5529;SB-07;Isabel Province;Sepi
+0;156.8197,-7.1102;SB-12;Choiseul Province;Sepa
+0;159.5946,-8.1472;SB-07;Isabel Province;Seleo
+0;160.2788,-9.4990;SB-06;Guadalcanal Province;Selavana
+0;160.3000,-9.5167;SB-06;Guadalcanal Province;Selatenagho
+0;160.1333,-9.4667;SB-06;Guadalcanal Province;Selaghoghoro
+0;157.8769,-8.5803;SB-11;Western Province;Seghe
+0;159.5928,-8.1585;SB-07;Isabel Province;Seba
+0;161.3955,-9.5266;SB-03;Malaita Province;Sawarokau
+0;159.8460,-9.7942;SB-06;Guadalcanal Province;Savuna
+0;160.5501,-9.6197;SB-06;Guadalcanal Province;Savilu
+0;160.7922,-9.7852;SB-06;Guadalcanal Province;Savekau
+0;160.5833,-9.5500;SB;;Savaolu
+0;159.7009,-9.2523;SB-06;Guadalcanal Province;Savaolu
+0;160.7447,-9.9014;SB-06;Guadalcanal Province;Sava
+0;160.3167,-9.8099;SB-06;Guadalcanal Province;Sauri
+0;161.0167,-8.9167;SB-03;Malaita Province;Saua
+0;159.7744,-8.2836;SB-07;Isabel Province;Sau’a
+0;156.5667,-6.8500;SB-12;Choiseul Province;Saseke
+0;157.3447,-8.3116;SB-11;Western Province;Sasavele
+0;156.7636,-7.0411;SB-12;Choiseul Province;Sasamungga
+0;157.9777,-8.5087;SB-11;Western Province;Sasaghana
+0;156.7942,-7.0685;SB-12;Choiseul Province;Sarivona
+0;160.3611,-9.5036;SB-06;Guadalcanal Province;Sarimera
+0;156.6890,-6.7422;SB-12;Choiseul Province;Sariana
+0;157.0166,-7.0842;SB-12;Choiseul Province;Sarelata
+0;161.4008,-9.5282;SB-03;Malaita Province;Sarawasi
+0;159.7200,-8.3153;SB-07;Isabel Province;Sarase’ele
+0;160.3052,-9.4847;SB-06;Guadalcanal Province;Saranuli
+0;160.6153,-8.4187;SB-03;Malaita Province;Sarananggaule
+0;160.1492,-9.4580;SB-06;Guadalcanal Province;Sape
+0;157.1167,-7.0167;SB;;Sape
+0;160.8043,-8.8060;SB-03;Malaita Province;Saofura
+0;159.6752,-9.6541;SB-06;Guadalcanal Province;Sao
+0;160.5500,-9.5833;SB-06;Guadalcanal Province;Sani Lumu
+0;160.5462,-9.6126;SB-06;Guadalcanal Province;Sani Lae
+0;156.7000,-6.9500;SB-12;Choiseul Province;Sanggighae
+0;160.6937,-9.9043;SB-06;Guadalcanal Province;Sanggasere
+0;160.3000,-9.4167;SB;;Sandikepi
+0;160.3610,-9.4163;SB-06;Guadalcanal Province;Sandeleni
+0;159.7453,-9.6930;SB-06;Guadalcanal Province;Sandato
+0;156.6839,-7.9308;SB-11;Western Province;Sambora
+0;157.0667,-8.1167;SB-11;Western Province;Sambira
+0;160.0030,-8.8762;SB-10;Central Province;Sambani
+0;158.9400,-8.0061;SB-07;Isabel Province;Samasodu
+0;160.8500,-8.5167;SB-03;Malaita Province;Samaria
+0;159.6418,-8.1830;SB-07;Isabel Province;Salio
+0;160.7333,-8.8667;SB;;Sali’au
+0;160.3529,-9.1183;SB-10;Central Province;Salesapa
+0;160.4258,-9.6341;SB-06;Guadalcanal Province;Salatolu
+0;160.2148,-9.7882;SB-06;Guadalcanal Province;Salapuka
+0;160.3632,-9.6751;SB-06;Guadalcanal Province;Salamarao
+0;160.9000,-8.5500;SB-03;Malaita Province;Sakosi
+0;160.3333,-9.4000;SB;;Sakevolo
+0;157.9837,-8.7619;SB-11;Western Province;Saira
+0;160.5764,-9.7174;SB-06;Guadalcanal Province;Sainahando
+0;157.5425,-8.3039;SB-11;Western Province;Saikile
+0;160.0000,-9.8000;SB-06;Guadalcanal Province;Saighilana
+0;161.9479,-9.7591;SB-08;Makira-Ulawa Province;Sahuhu
+0;160.5145,-9.7383;SB-06;Guadalcanal Province;Sahalu
+0;156.7762,-8.0430;SB-11;Western Province;Sagheraghi
+0;161.5770,-9.6888;SB-03;Malaita Province;Sa’a
+0;161.1114,-9.3357;SB-03;Malaita Province;Rutaorea
+0;156.7707,-7.7805;SB-11;Western Province;Ruruvai
+0;157.2979,-7.3766;SB-12;Choiseul Province;Ruruvai
+0;161.4673,-9.5503;SB-03;Malaita Province;Ruru’uhe
+0;158.0463,-8.5239;SB-11;Western Province;Rukutu
+0;159.7995,-9.7406;SB-06;Guadalcanal Province;Rughu
+0;160.7182,-8.5434;SB-03;Malaita Province;Rufoki
+0;160.3902,-9.4475;SB-06;Guadalcanal Province;Ruavatu
+0;159.8373,-9.3449;SB-06;Guadalcanal Province;Ruaniu
+0;160.6528,-8.3543;SB-03;Malaita Province;Ruanggao
+0;160.2143,-9.0825;SB-10;Central Province;Rove
+0;161.5482,-9.7092;SB-03;Malaita Province;Rota
+0;160.6500,-8.4667;SB;;Roso
+0;160.2380,-9.4574;SB-06;Guadalcanal Province;Roroni
+0;161.4788,-9.5471;SB-03;Malaita Province;Rorongo
+0;160.6822,-8.4788;SB-03;Malaita Province;Roroana
+0;160.6333,-8.4333;SB-03;Malaita Province;Rori
+0;161.1284,-8.9825;SB-03;Malaita Province;Ropa
+0;157.2333,-7.2000;SB-12;Choiseul Province;Ropa
+0;161.5494,-9.5787;SB-03;Malaita Province;Roone
+0;160.6567,-9.6728;SB-06;Guadalcanal Province;Rongoninggorunggoru
+0;160.1835,-9.8026;SB-06;Guadalcanal Province;Rongomoli
+0;161.9837,-9.7541;SB-08;Makira-Ulawa Province;Rongoleilei
+0;160.8667,-8.5333;SB-03;Malaita Province;Rongokwere
+0;160.9500,-8.6667;SB-03;Malaita Province;Rongofangaa
+0;161.4393,-9.6545;SB-03;Malaita Province;Rokera
+0;161.1000,-9.3333;SB-03;Malaita Province;Rohinari
+0;161.0538,-9.2345;SB-03;Malaita Province;Roawaisisi
+0;161.5582,-9.6314;SB-03;Malaita Province;Roapu
+0;159.6843,-8.2599;SB-07;Isabel Province;Riusoru
+0;161.9476,-9.7737;SB-08;Makira-Ulawa Province;Ripo
+0;161.2000,-9.2667;SB-03;Malaita Province;Riomara’u’u
+0;161.2191,-9.2163;SB-03;Malaita Province;Riohiasi
+0;161.2392,-9.1849;SB-03;Malaita Province;Rio’ao
+0;160.9925,-9.1848;SB-03;Malaita Province;Riimairuu
+0;161.2167,-9.2167;SB-03;Malaita Province;Rihutarau
+0;160.1548,-9.6516;SB-06;Guadalcanal Province;Rerere
+0;160.6018,-9.5776;SB-06;Guadalcanal Province;Rerembonumbonu
+0;160.8438,-8.4503;SB-03;Malaita Province;Rerede
+0;160.6000,-9.5667;SB;;Rere
+0;159.8078,-9.1615;SB-10;Central Province;Reko
+0;159.8097,-8.3839;SB-07;Isabel Province;Reghi
+0;160.1112,-8.9706;SB-10;Central Province;Ravu Sondu Ulu
+0;160.0976,-8.9625;SB-10;Central Province;Ravu Sondu Kosi
+0;159.7500,-9.7167;SB-06;Guadalcanal Province;Ravu
+0;160.1416,-9.4587;SB-06;Guadalcanal Province;Ravu
+0;159.5989,-9.5238;SB-06;Guadalcanal Province;Rauvalu
+0;160.7992,-8.4171;SB-03;Malaita Province;Raurileko
+0;160.2835,-9.8129;SB-06;Guadalcanal Province;Raurembo
+0;160.3671,-9.5781;SB-06;Guadalcanal Province;Rauramba
+0;160.2963,-9.4311;SB-06;Guadalcanal Province;Raupono
+0;160.8417,-9.8405;SB-06;Guadalcanal Province;Raunitono
+0;160.9000,-8.7500;SB-03;Malaita Province;Raukwao
+0;159.7124,-9.7179;SB-06;Guadalcanal Province;Raukerere
+0;161.2000,-9.3333;SB-03;Malaita Province;Rau’e’eta
+0;161.2367,-9.2254;SB;;Rau’ahu
+0;160.6500,-9.6667;SB-06;Guadalcanal Province;Rate
+0;159.7664,-8.4377;SB-07;Isabel Province;Rasa
+0;157.0137,-8.2034;SB-11;Western Province;Rarumana
+0;161.2329,-9.2242;SB-03;Malaita Province;Raroasi
+0;161.1976,-9.1502;SB-03;Malaita Province;Raria’oa
+0;160.9366,-9.1789;SB-03;Malaita Province;Rarato
+0;161.3790,-9.4251;SB-03;Malaita Province;Rararo
+0;160.6460,-8.3567;SB-03;Malaita Province;Rarande
+0;160.9073,-8.7455;SB-03;Malaita Province;Rarafata
+0;160.2373,-9.0091;SB-10;Central Province;Rara
+0;157.2506,-8.3248;SB-11;Western Province;Rapa
+0;160.7226,-8.8147;SB-03;Malaita Province;Raolo
+0;157.3281,-8.6295;SB-11;Western Province;Rano
+0;159.8000,-9.1000;SB;;Ranja
+0;161.2667,-9.5000;SB;;Ramoma’ini
+0;160.7833,-8.4000;SB-03;Malaita Province;Rame’ai
+0;160.7000,-9.7000;SB;;Rambunggaula
+0;160.8634,-8.4857;SB-03;Malaita Province;Rakuiofu
+0;160.8084,-8.8584;SB-03;Malaita Province;Rako
+0;159.8286,-8.3626;SB-07;Isabel Province;Raja
+0;160.6067,-9.7949;SB-06;Guadalcanal Province;Raisi
+0;161.2667,-9.3500;SB-03;Malaita Province;Raia
+0;161.0066,-9.2497;SB-03;Malaita Province;Raia
+0;160.1315,-9.8162;SB;;Raeavu
+0;160.7254,-8.8215;SB-03;Malaita Province;Radefasu
+0;160.8795,-8.7880;SB-03;Malaita Province;Rabuta
+0;157.2409,-7.3563;SB-12;Choiseul Province;Pututu
+0;159.8496,-8.3407;SB-07;Isabel Province;Putukora
+0;159.8026,-8.3097;SB-07;Isabel Province;Putu
+0;159.5983,-9.5238;SB-06;Guadalcanal Province;Pusuraghi
+0;161.2333,-9.1833;SB-03;Malaita Province;Puriasi
+0;160.3531,-9.8217;SB-06;Guadalcanal Province;Purepure
+0;160.1585,-9.8178;SB-06;Guadalcanal Province;Purapura
+0;160.7422,-9.7886;SB-06;Guadalcanal Province;Puralava
+0;160.7910,-9.8817;SB;;Purakiki
+0;159.8833,-9.7667;SB-06;Guadalcanal Province;Purakechu
+0;160.1494,-9.8140;SB-06;Guadalcanal Province;Purakechau
+0;159.8147,-9.7928;SB-06;Guadalcanal Province;Pura
+0;160.3494,-9.4766;SB-06;Guadalcanal Province;Puputa
+0;156.7680,-6.7737;SB-12;Choiseul Province;Pupuku
+0;160.8167,-9.8000;SB-06;Guadalcanal Province;Pupuanakeni
+0;161.4081,-9.6156;SB-03;Malaita Province;Pululaha
+0;161.4960,-9.5053;SB-03;Malaita Province;Pulu
+0;160.2265,-9.6793;SB-06;Guadalcanal Province;Pukambuti
+0;160.3437,-9.5161;SB-06;Guadalcanal Province;Pui
+0;161.2665,-9.5044;SB-03;Malaita Province;Pourah
+0;160.3667,-9.4667;SB-06;Guadalcanal Province;Pounandi
+0;161.2667,-9.5167;SB;;Pouiramo
+0;161.5000,-9.5333;SB-03;Malaita Province;Po’u
+0;161.3350,-9.4414;SB-03;Malaita Province;Potani’uu
+0;157.2268,-7.3568;SB-12;Choiseul Province;Posarae
+0;156.5500,-6.8333;SB-12;Choiseul Province;Posaposara
+0;156.3973,-6.6614;SB-12;Choiseul Province;Poroporo
+0;160.8135,-9.8426;SB-06;Guadalcanal Province;Porokokore
+0;159.8326,-8.3320;SB-07;Isabel Province;Poro
+0;160.7641,-9.7350;SB-06;Guadalcanal Province;Poposa
+0;156.9413,-7.9884;SB-11;Western Province;Poporo
+0;159.5245,-8.0929;SB-07;Isabel Province;Popoheo
+0;160.2709,-9.0395;SB-10;Central Province;Polomuhu
+0;156.6512,-6.6864;SB-12;Choiseul Province;Polo
+0;156.6121,-8.1522;SB-11;Western Province;Polisongona
+0;160.1667,-9.5667;SB-06;Guadalcanal Province;Poli
+0;156.7833,-8.0833;SB-11;Western Province;Pokimundi
+0;159.8513,-9.7386;SB-06;Guadalcanal Province;Poisughu
+0;159.8500,-9.7500;SB-06;Guadalcanal Province;Poikotogha
+0;160.8076,-9.8764;SB-06;Guadalcanal Province;Poianiho
+0;159.8333,-9.1167;SB;;Pogholauka
+0;159.6926,-9.2514;SB-06;Guadalcanal Province;Piundava
+0;159.9262,-9.7990;SB-06;Guadalcanal Province;Pite
+0;160.1667,-9.7833;SB-06;Guadalcanal Province;Pitakutukutu
+0;155.8870,-7.0966;SB-11;Western Province;Pirumeri
+0;159.7187,-8.4177;SB-07;Isabel Province;Piregha
+0;161.2191,-9.4245;SB-03;Malaita Province;Pipisu
+0;159.6388,-8.2209;SB-07;Isabel Province;Piphirina
+0;160.6233,-9.7237;SB-06;Guadalcanal Province;Pinau
+0;156.5500,-6.8500;SB;;Pimandara
+0;156.5837,-8.0272;SB-11;Western Province;Pienuna
+0;159.6000,-9.5167;SB-06;Guadalcanal Province;Piela
+0;160.5464,-9.8659;SB-06;Guadalcanal Province;Pichahila
+0;161.0962,-9.1168;SB-03;Malaita Province;Piatarau
+0;160.8088,-9.8339;SB-06;Guadalcanal Province;Piapia
+0;159.8000,-9.1000;SB;;Petupetu
+0;160.8333,-9.8167;SB;;Perakauru
+0;156.9607,-8.0479;SB-11;Western Province;Pepele
+0;160.6667,-9.8667;SB-06;Guadalcanal Province;Peonavula
+0;159.8184,-9.7934;SB-06;Guadalcanal Province;Peonamacho
+0;160.6833,-9.8833;SB-06;Guadalcanal Province;Peonakake
+0;160.0237,-9.8140;SB-06;Guadalcanal Province;Peochakuri
+0;158.1365,-8.7693;SB-11;Western Province;Penjuku
+0;160.5983,-9.7971;SB-06;Guadalcanal Province;Pelekea
+0;158.2316,-8.7883;SB-11;Western Province;Peava
+0;157.0000,-7.2167;SB-12;Choiseul Province;Pauru
+0;160.6436,-9.6217;SB-06;Guadalcanal Province;Paupau
+0;159.8167,-9.1500;SB-10;Central Province;Paungga
+0;161.0005,-9.2158;SB-03;Malaita Province;Paunanu’u
+0;161.1544,-9.0831;SB-03;Malaita Province;Paunairo
+0;156.9833,-7.2000;SB-12;Choiseul Province;Patuvendi
+0;157.8859,-8.5632;SB-11;Western Province;Patutiva
+0;160.5238,-9.6434;SB-06;Guadalcanal Province;Patura
+0;156.9399,-7.9642;SB-11;Western Province;Patupaele
+0;157.1114,-7.0231;SB-12;Choiseul Province;Patumbello
+0;160.4534,-9.4960;SB-06;Guadalcanal Province;Patima
+0;159.7170,-9.6906;SB-06;Guadalcanal Province;Pasana
+0;160.8339,-9.8515;SB-06;Guadalcanal Province;Paruru
+0;159.6555,-9.2719;SB-06;Guadalcanal Province;Paru
+0;160.1803,-9.4696;SB-06;Guadalcanal Province;Parisisi
+0;160.3666,-9.5422;SB-06;Guadalcanal Province;Paripao
+0;160.1703,-9.6112;SB-06;Guadalcanal Province;Parina
+0;159.6421,-9.5740;SB-06;Guadalcanal Province;Pare
+0;159.8161,-9.4493;SB-06;Guadalcanal Province;Paravele
+0;156.6526,-7.6333;SB-11;Western Province;Paraso
+0;161.4273,-9.6472;SB-03;Malaita Province;Parasi
+0;156.7500,-6.9833;SB-12;Choiseul Province;Parasana
+0;159.8167,-9.1000;SB;;Parapara
+0;159.8333,-9.7333;SB-06;Guadalcanal Province;Parambauna
+0;156.5478,-7.7407;SB-11;Western Province;Paramata
+0;156.8700,-7.1590;SB-12;Choiseul Province;Papara
+0;160.1775,-9.4098;SB-06;Guadalcanal Province;Papanggu
+0;159.7860,-9.1371;SB-10;Central Province;Papanaka
+0;160.3614,-9.5572;SB-06;Guadalcanal Province;Pao
+0;157.1063,-6.9929;SB-12;Choiseul Province;Panggoe
+0;156.8167,-7.0667;SB-12;Choiseul Province;Pandii
+0;156.7818,-7.0656;SB-12;Choiseul Province;Panarui
+0;160.0524,-8.9563;SB-10;Central Province;Palolu
+0;161.5398,-9.7038;SB-03;Malaita Province;Palasu’u
+0;156.5247,-7.9681;SB-11;Western Province;Palaina
+0;157.1167,-7.0167;SB;;Pakenggosu
+0;159.8387,-9.1271;SB-10;Central Province;Paimbeta
+0;156.7877,-8.0953;SB-11;Western Province;Pailongge
+0;161.1833,-9.0667;SB-03;Malaita Province;Paeraurasu
+0;161.4797,-9.6338;SB-03;Malaita Province;Paeni
+0;156.8945,-7.1758;SB-12;Choiseul Province;Paele
+0;160.1667,-9.7833;SB-06;Guadalcanal Province;Pachipachi
+0;157.2667,-8.6167;SB-11;Western Province;Ou
+0;160.8167,-9.8667;SB-06;Guadalcanal Province;Oterama
+0;161.1703,-9.0937;SB-03;Malaita Province;Oteotea
+0;161.0168,-8.9177;SB-03;Malaita Province;Ote’anggo
+0;161.5450,-9.6172;SB-03;Malaita Province;Ote
+0;160.6500,-9.8833;SB-06;Guadalcanal Province;Osonakaro
+0;160.6833,-8.4833;SB-03;Malaita Province;Orothambeuu
+0;160.5788,-9.5811;SB-06;Guadalcanal Province;Orombina
+0;160.7333,-8.3833;SB-03;Malaita Province;Oroe
+0;160.7333,-9.7167;SB;;Ora
+0;161.1941,-9.2078;SB-03;Malaita Province;Oote
+0;159.8232,-8.3232;SB-07;Isabel Province;O’oroba
+0;160.6040,-8.4144;SB-03;Malaita Province;’Oofu
+0;161.5216,-9.5735;SB-03;Malaita Province;O’o
+0;161.4181,-9.4526;SB-03;Malaita Province;O’o
+0;160.8159,-9.8701;SB-06;Guadalcanal Province;Onitewa
+0;160.9632,-8.8446;SB-03;Malaita Province;’Onggou
+0;159.7175,-9.7190;SB-06;Guadalcanal Province;Onesere
+0;161.0212,-9.2902;SB;;Onepusu
+0;161.0411,-9.3005;SB-03;Malaita Province;Onepara
+0;161.0535,-8.9259;SB-03;Malaita Province;Oneone
+0;160.6786,-8.7289;SB-03;Malaita Province;Onemae
+0;160.5942,-8.4104;SB-03;Malaita Province;Onefolo
+0;160.9000,-8.8333;SB-03;Malaita Province;Onefana
+0;161.0039,-9.2451;SB-03;Malaita Province;One
+0;160.5767,-8.3771;SB-03;Malaita Province;One
+0;160.4325,-9.4661;SB-06;Guadalcanal Province;Omirangia
+0;160.1355,-9.4811;SB-06;Guadalcanal Province;Omba
+0;161.1250,-8.9908;SB-03;Malaita Province;Olomburi
+0;160.6479,-8.4461;SB-03;Malaita Province;Ololo
+0;160.5923,-9.5784;SB-06;Guadalcanal Province;Olokesi
+0;161.5274,-9.6939;SB-03;Malaita Province;Oloha
+0;160.7333,-8.8667;SB;;Olofolo
+0;160.0658,-8.9988;SB-10;Central Province;Olevugha
+0;156.6149,-8.1416;SB-11;Western Province;Olelavata
+0;160.1588,-9.5647;SB-06;Guadalcanal Province;Old Case
+0;160.8168,-8.6988;SB-03;Malaita Province;Okwala
+0;161.4167,-9.4167;SB-03;Malaita Province;Okiani
+0;161.2333,-9.3000;SB-03;Malaita Province;Oitomu
+0;161.1803,-9.0735;SB-03;Malaita Province;Oisi’ini
+0;161.0802,-9.1585;SB-03;Malaita Province;Oirousu
+0;161.1833,-9.2833;SB-03;Malaita Province;Oiraia
+0;161.2333,-9.2167;SB-03;Malaita Province;Oiparuru
+0;161.1333,-9.3500;SB;;O’io
+0;161.2121,-9.0977;SB-03;Malaita Province;Oio
+0;161.1500,-9.1500;SB-03;Malaita Province;Oinihari
+0;161.1122,-9.1725;SB-03;Malaita Province;Oiniha’a
+0;161.2205,-9.1752;SB-03;Malaita Province;Oi’eke
+0;161.1667,-9.3833;SB;;Oi’arai
+0;156.7502,-6.7628;SB-12;Choiseul Province;Ogho
+0;160.7667,-8.4333;SB-03;Malaita Province;Ofio
+0;160.8333,-8.4333;SB;;Ofatambu
+0;160.9291,-8.7002;SB-03;Malaita Province;Ofakwasi
+0;157.3384,-7.4060;SB;;Oesambe
+0;161.3922,-9.4273;SB-03;Malaita Province;Oau
+0;160.7389,-9.9018;SB-06;Guadalcanal Province;Oa
+0;159.5942,-8.1830;SB-07;Isabel Province;Nusu
+0;157.3101,-8.3466;SB-11;Western Province;Nusa Roviana
+0;156.8378,-8.0981;SB-11;Western Province;Nusambaruku
+0;161.0725,-8.9000;SB-03;Malaita Province;Nunumbala
+0;160.8500,-8.6667;SB-03;Malaita Province;Nunulaka
+0;160.4335,-9.5020;SB-06;Guadalcanal Province;Nunughu
+0;161.3500,-9.4667;SB-03;Malaita Province;Nunu’asi
+0;161.1833,-9.1833;SB-03;Malaita Province;Numu
+0;160.3394,-9.5097;SB-06;Guadalcanal Province;Numbu
+0;157.1167,-8.2833;SB;;Numanuma
+0;156.4465,-6.7632;SB-12;Choiseul Province;Nukiki
+0;160.2139,-9.6652;SB-06;Guadalcanal Province;Nuhu
+0;159.5890,-9.3660;SB-06;Guadalcanal Province;Nuhu
+0;155.7961,-7.1042;SB-11;Western Province;Nuhu
+0;160.1249,-9.0369;SB-10;Central Province;Nughu
+0;157.1601,-7.1264;SB-12;Choiseul Province;Nuatambu
+7204;157.1998,-8.2227;SB-11;Western Province;Noro
+0;157.1072,-6.9841;SB-12;Choiseul Province;Nonoropo
+0;157.8167,-8.5667;SB;;Nono
+0;156.7167,-7.8333;SB-11;Western Province;Njoroveto
+0;157.1833,-7.1500;SB;;Njiku
+0;157.1000,-6.9833;SB-12;Choiseul Province;Njenjepele
+0;156.6667,-7.6500;SB-11;Western Province;Njava
+0;160.2736,-9.7820;SB-06;Guadalcanal Province;Njarivonggangga
+0;160.9333,-9.1833;SB-03;Malaita Province;Niutakina
+0;160.4033,-9.4547;SB-06;Guadalcanal Province;Niupote
+0;161.4667,-9.6333;SB-03;Malaita Province;Niu Pilesi
+0;157.0787,-8.1096;SB-11;Western Province;Niupilesi
+0;161.4760,-9.4831;SB-03;Malaita Province;Niumeli
+0;160.7333,-9.7167;SB;;Niuma’uma’u
+0;160.7543,-9.7301;SB-06;Guadalcanal Province;Niukasu
+0;160.1167,-8.9833;SB;;Niughaghalo
+0;161.4420,-9.4252;SB-03;Malaita Province;Nitauhi
+0;156.9727,-6.8646;SB-12;Choiseul Province;Nio
+0;157.9107,-8.7124;SB-11;Western Province;Nineveh
+0;161.1667,-9.2000;SB-03;Malaita Province;Nimatori
+0;161.2852,-9.3943;SB-03;Malaita Province;Nimaniaihura
+0;161.2096,-9.2559;SB-03;Malaita Province;Nimahoro
+0;155.8657,-7.0914;SB-11;Western Province;Nila
+0;157.7762,-7.4769;SB-12;Choiseul Province;Nikomaroro
+0;161.0422,-9.2386;SB-03;Malaita Province;Ni’ina
+0;159.5000,-8.3333;SB-07;Isabel Province;Nifaro
+0;160.1849,-9.7968;SB-06;Guadalcanal Province;Ngutu
+0;157.8167,-8.3167;SB-11;Western Province;Ngurengure
+0;156.9000,-7.1833;SB-12;Choiseul Province;Ngulangana
+0;161.9667,-9.7000;SB;;Ngorangora
+0;160.9411,-8.7770;SB-03;Malaita Province;Ngongosila
+0;160.6000,-8.4167;SB;;Ngongosila
+0;160.9000,-8.4833;SB;;Ngongorefou
+0;160.5933,-8.3450;SB-03;Malaita Province;Nggwauna’ua
+0;160.8000,-8.8500;SB-03;Malaita Province;Nggwaunaloi
+0;160.7329,-8.4354;SB-03;Malaita Province;Nggwaunakafo
+0;161.0667,-8.9500;SB-03;Malaita Province;Nggwaunaire
+0;160.8146,-8.4415;SB-03;Malaita Province;Nggwaunahili
+0;160.6936,-8.4063;SB-03;Malaita Province;Nggwauafa
+0;161.0500,-8.9167;SB-03;Malaita Province;Nggwanggwani’olou
+0;161.0693,-8.9451;SB-03;Malaita Province;Nggwaloa
+0;160.6500,-8.4500;SB-03;Malaita Province;Nggwa’alalamoa
+0;160.6000,-8.3333;SB-03;Malaita Province;Nggwa’ako
+0;160.4560,-9.4911;SB-06;Guadalcanal Province;Nggurambusu
+0;160.2089,-9.0572;SB-10;Central Province;Nggumu
+0;159.8072,-9.7399;SB-06;Guadalcanal Province;Ngguluvoa
+0;160.3657,-9.5015;SB-06;Guadalcanal Province;Nggovu
+0;161.0690,-8.9153;SB-03;Malaita Province;Nggounaambusu
+0;157.1054,-6.9753;SB-12;Choiseul Province;Nggoranaveki
+0;157.0945,-7.3047;SB-12;Choiseul Province;Nggoraembara
+0;159.8333,-9.1000;SB;;Nggononggolua
+0;156.7333,-6.9667;SB-12;Choiseul Province;Nggoma
+0;159.6667,-9.6167;SB;;Nggoinggoi
+0;160.1333,-9.4167;SB;;Nggilutae
+0;160.0984,-9.8149;SB-06;Guadalcanal Province;Nggiluniuna
+0;159.6210,-9.5439;SB-06;Guadalcanal Province;Nggilu
+0;160.3000,-9.4833;SB-06;Guadalcanal Province;Nggilo
+0;159.7493,-9.7272;SB-06;Guadalcanal Province;Nggeu
+0;160.5167,-9.5333;SB;;Nggeu
+0;160.3833,-9.5167;SB-06;Guadalcanal Province;Nggesa
+0;158.0453,-8.5450;SB-11;Western Province;Nggepai
+0;160.9333,-8.9167;SB-03;Malaita Province;Nggaulai’ato’o
+0;159.8348,-9.1478;SB-10;Central Province;Nggareka
+0;160.6071,-8.4121;SB-03;Malaita Province;Ngganggalu
+0;159.6405,-9.2834;SB-06;Guadalcanal Province;Ngautu
+0;156.5667,-6.8500;SB-12;Choiseul Province;Ngaringari
+0;161.0667,-8.9000;SB;;Ngari’alambusi
+0;160.6771,-8.7276;SB-03;Malaita Province;Ngarafata
+0;160.1761,-9.8170;SB-06;Guadalcanal Province;Ngalivuria
+0;159.9167,-9.7833;SB-06;Guadalcanal Province;Ngalivovo
+0;159.5933,-9.5270;SB-06;Guadalcanal Province;Ngalivovo
+0;160.1500,-9.4667;SB-06;Guadalcanal Province;Ngalivovo
+0;160.2833,-9.4333;SB-06;Guadalcanal Province;Ngalivovo
+0;160.3835,-9.4304;SB-06;Guadalcanal Province;Ngalivovo
+0;159.7167,-9.5833;SB-06;Guadalcanal Province;Ngalivouvou
+0;156.4776,-6.5968;SB-12;Choiseul Province;Ngalivoli
+0;160.0000,-9.8000;SB-06;Guadalcanal Province;Ngalivivinua
+0;159.8333,-9.7000;SB-06;Guadalcanal Province;Ngalivasa
+0;160.3887,-9.4335;SB-06;Guadalcanal Province;Ngalivasa
+0;159.8833,-9.7833;SB;;Ngalituturi
+0;160.0636,-9.7961;SB-06;Guadalcanal Province;Ngaliturara
+0;159.8871,-9.7806;SB-06;Guadalcanal Province;Ngalito’o
+0;160.7440,-8.3628;SB-03;Malaita Province;Ngalithakali
+0;160.3129,-9.4307;SB-06;Guadalcanal Province;Ngalitavedhi
+0;159.9500,-9.4500;SB-06;Guadalcanal Province;Ngalitatae
+0;160.1135,-9.5198;SB-06;Guadalcanal Province;Ngalitata
+0;160.6500,-8.4667;SB;;Ngalitalo
+0;160.2280,-9.8092;SB-06;Guadalcanal Province;Ngalitaghaverona
+0;160.7333,-8.5500;SB-03;Malaita Province;Ngalisusure
+0;160.1256,-9.8158;SB-06;Guadalcanal Province;Ngalipeule
+0;160.1321,-9.8152;SB-06;Guadalcanal Province;Ngalipapa
+0;159.8151,-9.7897;SB-06;Guadalcanal Province;Ngalipapa
+0;160.7521,-8.3584;SB-03;Malaita Province;Ngalingwangwao
+0;159.9716,-9.7992;SB-06;Guadalcanal Province;Ngalinggonu
+0;160.1375,-9.4638;SB-06;Guadalcanal Province;Ngalimera
+0;160.1653,-9.7948;SB-06;Guadalcanal Province;Ngalimauvo
+0;159.9333,-9.8000;SB;;Ngalimaremare
+0;160.3031,-9.8095;SB-06;Guadalcanal Province;Ngalimarasa
+0;160.6561,-9.6756;SB-06;Guadalcanal Province;Ngalimakeko
+0;159.6500,-9.6333;SB;;Ngaliluaghe
+0;159.9833,-9.8000;SB-06;Guadalcanal Province;Ngalilambelambe
+0;160.2500,-9.4500;SB-06;Guadalcanal Province;Ngalilalali
+0;160.7371,-8.4194;SB-03;Malaita Province;Ngalikwasi
+0;160.2240,-9.8079;SB-06;Guadalcanal Province;Ngalikovea
+0;160.2860,-9.4196;SB-06;Guadalcanal Province;Ngalikomba
+0;159.8149,-9.7882;SB-06;Guadalcanal Province;Ngalikolia
+0;159.7833,-9.7500;SB-06;Guadalcanal Province;Ngalikoa
+0;160.1167,-9.5167;SB-06;Guadalcanal Province;Ngalikemukemu
+0;159.7949,-9.3214;SB-06;Guadalcanal Province;Ngalikasiu
+0;159.9667,-9.8000;SB-06;Guadalcanal Province;Ngalighaghachogha
+0;160.0902,-9.8178;SB-06;Guadalcanal Province;Ngaliapau
+0;160.6833,-8.4833;SB-03;Malaita Province;Ngalianggwa’iu
+0;160.5167,-9.5333;SB;;Ngaliambina
+0;160.2304,-9.8096;SB-06;Guadalcanal Province;Ngaliambaleo
+0;159.9966,-9.8158;SB-06;Guadalcanal Province;Ngaliamate
+0;160.0051,-9.7964;SB-06;Guadalcanal Province;Ngalialoalo
+0;160.6585,-9.6989;SB-06;Guadalcanal Province;Ngaliae
+0;160.4167,-9.8667;SB-06;Guadalcanal Province;Ngaliachulu
+0;160.7167,-8.6833;SB-03;Malaita Province;Ngaliabu
+0;160.2663,-9.7890;SB-06;Guadalcanal Province;Ngalato
+0;159.6167,-9.5000;SB-06;Guadalcanal Province;Ngaimambulumbu
+0;160.7414,-8.7916;SB-03;Malaita Province;Ngadefiu
+0;160.3734,-9.5103;SB-06;Guadalcanal Province;New Tenambuti
+0;160.4710,-9.6389;SB-06;Guadalcanal Province;New Mbambaraho
+0;160.8001,-9.8110;SB-06;Guadalcanal Province;New Marere
+0;156.8167,-8.1000;SB-11;Western Province;New Manra
+0;160.5069,-9.5366;SB-06;Guadalcanal Province;New Mala
+0;160.2333,-9.4167;SB;;New Mala
+0;159.7913,-9.3174;SB-06;Guadalcanal Province;New Mala
+0;160.0658,-8.9524;SB-10;Central Province;New Mala
+0;157.8256,-8.5666;SB-11;Western Province;Newland
+0;161.4333,-9.6833;SB;;New Lache
+0;157.0985,-8.2718;SB-11;Western Province;New Hatara
+0;159.8167,-9.4333;SB-06;Guadalcanal Province;New Chiri
+0;157.2775,-8.3325;SB-11;Western Province;Ndunde
+0;160.6333,-8.3500;SB-03;Malaita Province;Ndula
+0;160.2123,-9.7986;SB-06;Guadalcanal Province;Ndukuna
+0;159.9594,-9.8027;SB-06;Guadalcanal Province;Nduindui
+0;156.6223,-7.5876;SB-11;Western Province;Ndovele
+0;159.8026,-9.3190;SB-06;Guadalcanal Province;Ndoma
+0;160.6500,-8.3500;SB;;Ndiuku
+0;160.2964,-9.1591;SB-10;Central Province;Ndende
+0;159.7970,-9.1080;SB-10;Central Province;Ndavalaka
+0;160.7974,-9.8057;SB-06;Guadalcanal Province;Ndaulahasi
+0;161.0132,-8.9661;SB-03;Malaita Province;Ndauana
+0;161.0689,-8.9522;SB-03;Malaita Province;Ndarifu’ikwao
+0;161.0270,-8.9555;SB-03;Malaita Province;Ndari’aitolo
+0;160.6225,-8.3463;SB-03;Malaita Province;Ndarangwara’u
+0;156.7714,-7.0586;SB-12;Choiseul Province;Ndara
+0;160.2322,-9.4697;SB-06;Guadalcanal Province;Ndandave
+0;160.2598,-9.1542;SB-10;Central Province;Ndandala
+0;160.2809,-9.5552;SB-06;Guadalcanal Province;Ndandae
+0;160.0926,-9.0372;SB-10;Central Province;Ndala
+0;157.0819,-8.1136;SB-11;Western Province;Ndaimbangara
+0;157.8518,-8.5631;SB-11;Western Province;Nazareth
+0;157.1333,-8.2540;SB-11;Western Province;Nazareth
+0;160.6359,-9.7910;SB-06;Guadalcanal Province;Na Vuravale
+0;160.7142,-9.8202;SB-06;Guadalcanal Province;Na Vura
+0;160.2880,-9.7712;SB-06;Guadalcanal Province;Na Vila
+0;160.2689,-9.7062;SB-06;Guadalcanal Province;Na Vila
+0;160.5654,-9.8851;SB-06;Guadalcanal Province;Na Vatali
+0;160.6452,-9.8996;SB-06;Guadalcanal Province;Na Vasa
+0;160.1643,-9.7882;SB-06;Guadalcanal Province;Na Vasa
+0;157.1155,-8.2949;SB-11;Western Province;Navai
+0;160.6346,-9.7989;SB-06;Guadalcanal Province;Na Uli
+0;161.0622,-8.9259;SB-03;Malaita Province;Naufee
+0;160.3933,-9.8336;SB-06;Guadalcanal Province;Na Tita
+0;160.1833,-9.7833;SB-06;Guadalcanal Province;Nata
+0;160.1833,-9.6833;SB-06;Guadalcanal Province;Nata
+0;160.2192,-9.0914;SB-10;Central Province;Nata
+0;160.6008,-9.5988;SB-06;Guadalcanal Province;Na Sengge
+0;158.3500,-7.6333;SB;;Naruo
+0;159.6117,-9.3036;SB-06;Guadalcanal Province;Naro
+0;161.2000,-9.2667;SB-03;Malaita Province;Nariwarawa
+0;161.4167,-9.4667;SB-03;Malaita Province;Narioriori
+0;161.0656,-8.9199;SB-03;Malaita Province;Narinaasuru
+0;161.2648,-9.4823;SB-03;Malaita Province;Narihasi
+0;161.3333,-9.4500;SB-03;Malaita Province;Nari’eke
+0;161.2500,-9.3167;SB;;Nariasi
+0;159.6214,-8.1570;SB-07;Isabel Province;Nareabu
+0;160.4023,-9.7263;SB-06;Guadalcanal Province;Na Rate
+0;160.6496,-9.8051;SB-06;Guadalcanal Province;Na Pono
+0;160.5684,-9.7809;SB-06;Guadalcanal Province;Na Poli
+0;160.3740,-9.7020;SB-06;Guadalcanal Province;Na Pasa
+0;160.5167,-9.7333;SB-06;Guadalcanal Province;Na Palulu
+0;160.9333,-8.7833;SB-03;Malaita Province;Naonuli
+0;161.0667,-8.8667;SB;;Na’onatala
+0;161.2180,-9.2268;SB-03;Malaita Province;Naonai
+0;160.5745,-8.3685;SB-03;Malaita Province;Na’o
+0;160.3833,-9.8167;SB-06;Guadalcanal Province;Na Njelu
+0;160.5333,-9.6333;SB-06;Guadalcanal Province;Na Niva
+0;160.7000,-9.7667;SB-06;Guadalcanal Province;Na Nggeu
+0;160.6333,-9.6167;SB-06;Guadalcanal Province;Na Ngali
+0;160.2523,-9.8065;SB-06;Guadalcanal Province;Na Ndoa
+0;160.2902,-9.6088;SB-06;Guadalcanal Province;Na Naro
+0;160.7390,-8.8371;SB-03;Malaita Province;Nanao
+0;161.0872,-8.9449;SB-03;Malaita Province;Nanakinimae
+0;159.8084,-9.3610;SB-06;Guadalcanal Province;Namo Valu
+0;160.7666,-8.7625;SB-03;Malaita Province;Namosalabe
+0;159.8151,-9.3554;SB-06;Guadalcanal Province;Namongali
+0;160.2719,-9.6795;SB-06;Guadalcanal Province;Namonambosa
+0;161.1003,-9.2691;SB-03;Malaita Province;Namonahote
+0;160.7139,-8.7223;SB-03;Malaita Province;Namola’ela’e
+0;160.8974,-8.8515;SB-03;Malaita Province;Namo’ia
+0;160.9327,-8.8293;SB-03;Malaita Province;Namo’ere’ere
+0;160.7126,-8.7320;SB-03;Malaita Province;Namoanabaola
+0;156.9500,-7.2167;SB-12;Choiseul Province;Nambusasa Tuzu
+0;156.8461,-7.1301;SB-12;Choiseul Province;Nambusasa
+0;160.6833,-9.7833;SB-06;Guadalcanal Province;Na Mbulonggato
+0;160.7000,-9.8000;SB-06;Guadalcanal Province;Na Mboneta
+0;159.9500,-9.4500;SB-06;Guadalcanal Province;Na Mbo
+0;161.0333,-9.0000;SB-03;Malaita Province;Nambare
+0;160.5895,-9.7400;SB-06;Guadalcanal Province;Na Mbambasa
+0;160.7759,-8.8788;SB-03;Malaita Province;Namarako
+0;160.2685,-9.7854;SB-06;Guadalcanal Province;Na Lagho
+0;160.6559,-9.8097;SB-06;Guadalcanal Province;Na Kuma
+0;160.5083,-9.8774;SB-06;Guadalcanal Province;Na Kongga
+0;160.2563,-9.8060;SB-06;Guadalcanal Province;Na Kondo
+0;160.6043,-9.9343;SB-06;Guadalcanal Province;Na Kili
+0;160.3850,-9.8202;SB-06;Guadalcanal Province;Na Keo
+0;160.5488,-9.9111;SB-06;Guadalcanal Province;Na Kene
+0;160.3735,-9.7000;SB-06;Guadalcanal Province;Na Kambi
+0;161.0364,-8.9147;SB-03;Malaita Province;Naifai
+0;160.5667,-9.9000;SB-06;Guadalcanal Province;Na Homba
+0;160.5037,-9.8935;SB-06;Guadalcanal Province;Naho
+0;160.6436,-9.7782;SB-06;Guadalcanal Province;Na Hau
+0;160.2377,-9.7879;SB-06;Guadalcanal Province;Na Hambusi
+0;159.9650,-8.9143;SB-10;Central Province;Naghotano
+0;160.2722,-9.1606;SB-10;Central Province;Naghonimbalo
+0;160.2667,-9.8000;SB-06;Guadalcanal Province;Naghonangichu
+0;159.8197,-8.4387;SB-07;Isabel Province;Nagholau
+0;160.1090,-9.0452;SB-10;Central Province;Nagho
+0;160.9054,-8.7546;SB-03;Malaita Province;Nafinua
+0;160.7833,-8.3500;SB;;Nadi
+0;161.0042,-8.9344;SB-03;Malaita Province;Naaruu
+0;161.0297,-8.9572;SB-03;Malaita Province;Naanggwai
+0;160.6307,-9.7995;SB-06;Guadalcanal Province;Na Ande
+0;161.0167,-8.9000;SB-03;Malaita Province;Naanau
+0;161.0167,-8.9500;SB-03;Malaita Province;Naamute
+0;161.0062,-8.9397;SB-03;Malaita Province;Naambula
+0;161.0500,-8.9167;SB-03;Malaita Province;Naakwila
+0;161.0136,-8.9337;SB-03;Malaita Province;Naafisi
+0;161.4833,-9.5333;SB-03;Malaita Province;Mweilalapo
+0;161.9624,-9.8114;SB-08;Makira-Ulawa Province;Mwaratja
+0;161.9487,-9.7544;SB-08;Makira-Ulawa Province;Mwadjo’a
+0;160.6244,-8.4262;SB-03;Malaita Province;Musukui
+0;156.5000,-7.6833;SB;;Mundimundi
+3144;157.2665,-8.3280;SB-11;Western Province;Munda
+0;160.6500,-9.6667;SB-06;Guadalcanal Province;Munamanu
+0;157.0892,-6.9842;SB-12;Choiseul Province;Mulusu
+0;159.5571,-8.3293;SB-07;Isabel Province;Muana
+0;161.9667,-9.7500;SB-08;Makira-Ulawa Province;Mouta
+0;161.4167,-9.5833;SB-03;Malaita Province;Mou
+0;161.4333,-9.4167;SB-03;Malaita Province;Mou
+0;160.0500,-9.4167;SB-06;Guadalcanal Province;Motombulu
+0;160.6721,-8.4514;SB-03;Malaita Province;Morondo
+0;159.6637,-9.5718;SB-06;Guadalcanal Province;Mongga
+0;156.9597,-7.9085;SB-11;Western Province;Mongga
+0;156.5892,-6.6467;SB-12;Choiseul Province;Mondomondo
+0;156.5367,-8.0368;SB-11;Western Province;Mondo
+0;160.1833,-9.4567;SB-06;Guadalcanal Province;Momolu
+0;161.9898,-9.7275;SB-06;Guadalcanal Province;Moli
+0;156.5333,-6.8333;SB-12;Choiseul Province;Mole
+0;160.9500,-8.8167;SB;;Moira
+0;159.5454,-8.1148;SB-07;Isabel Province;Mogarege
+0;159.6798,-9.2559;SB-06;Guadalcanal Province;Moela
+0;160.5167,-9.5333;SB;;Misinighau
+0;160.2922,-9.4233;SB-06;Guadalcanal Province;Mimisi
+0;160.0792,-9.0440;SB-10;Central Province;Mereka
+0;160.3500,-9.4833;SB-06;Guadalcanal Province;Menighagha
+0;157.3900,-8.0148;SB-11;Western Province;Menakasapa
+0;160.5240,-9.8490;SB-06;Guadalcanal Province;Mbuturua
+0;160.5833,-9.9167;SB-06;Guadalcanal Province;Mbutovatale
+0;160.2738,-9.1865;SB-10;Central Province;Mburungia
+0;157.3920,-8.4452;SB-11;Western Province;Mburuku
+0;161.1167,-8.9500;SB-03;Malaita Province;Mbu’ombu’o
+0;157.1147,-8.2932;SB-11;Western Province;Mbuni
+0;160.5923,-9.7188;SB-06;Guadalcanal Province;Mbumbutasi
+0;160.3647,-9.6422;SB-06;Guadalcanal Province;Mbumbutasi
+0;160.3833,-9.6333;SB-06;Guadalcanal Province;Mbumbunuhu
+0;160.4615,-9.6397;SB-06;Guadalcanal Province;Mbumbumaraho
+0;160.5942,-9.7622;SB-06;Guadalcanal Province;Mbumbulonga
+0;156.6809,-6.7405;SB-12;Choiseul Province;Mbumbukuana
+0;160.3987,-9.7151;SB-06;Guadalcanal Province;Mbumbukolo
+0;160.4000,-9.6500;SB-06;Guadalcanal Province;Mbumbukembe
+0;160.3250,-9.6042;SB-06;Guadalcanal Province;Mbumbughoro
+0;160.4333,-9.6167;SB-06;Guadalcanal Province;Mbumbualala
+0;160.7540,-8.9655;SB-03;Malaita Province;Mbuma
+0;160.0617,-9.5111;SB-06;Guadalcanal Province;Mbuluminjua
+0;160.6176,-9.5920;SB-06;Guadalcanal Province;Mbulo
+0;159.8382,-9.1324;SB-10;Central Province;Mbulai
+0;157.1167,-8.2833;SB;;Mbukileti
+0;160.7181,-8.3523;SB-03;Malaita Province;Mbuira’ambu
+0;157.9016,-8.4933;SB-11;Western Province;Mbuini Tusu
+0;160.1649,-9.7898;SB-06;Guadalcanal Province;Mbughona
+0;160.5295,-9.6695;SB-06;Guadalcanal Province;Mbughetu
+0;160.2167,-9.7208;SB-06;Guadalcanal Province;Mbuchikora
+0;160.5467,-9.7955;SB-06;Guadalcanal Province;Mbuasavia
+0;159.9167,-9.4167;SB;;Mbuandoko
+0;160.5775,-8.3856;SB-03;Malaita Province;Mbuamena
+0;160.0797,-9.8210;SB-06;Guadalcanal Province;Mbuambua
+0;160.0302,-9.8169;SB-06;Guadalcanal Province;Mboutambu
+0;160.4833,-9.5333;SB-06;Guadalcanal Province;Mbotolo
+0;160.5833,-9.7333;SB-06;Guadalcanal Province;Mborosavila
+0;160.0760,-8.9658;SB-10;Central Province;Mboroni
+0;160.2991,-9.0664;SB-10;Central Province;Mboromole
+0;160.3761,-9.4400;SB-06;Guadalcanal Province;Mborokoko
+0;160.2557,-9.0274;SB-10;Central Province;Mborohinamba
+0;157.4085,-8.4751;SB-11;Western Province;Mboringo
+0;160.4833,-9.7167;SB-06;Guadalcanal Province;Mboranaho
+0;157.8896,-8.6883;SB-11;Western Province;Mbopo
+0;159.8320,-9.1166;SB-10;Central Province;Mbonala
+0;160.8401,-9.1182;SB-03;Malaita Province;Mbona
+0;157.0923,-8.1549;SB-11;Western Province;Mbomboe
+0;160.7167,-8.3333;SB-03;Malaita Province;Mbolaau
+0;160.6480,-9.6254;SB-06;Guadalcanal Province;Mbola
+0;160.2318,-9.1335;SB-10;Central Province;Mbola
+0;160.1547,-9.4316;SB-06;Guadalcanal Province;Mbokolovo
+0;160.2606,-9.6041;SB-06;Guadalcanal Province;Mbokolonga
+0;160.2225,-9.1603;SB-10;Central Province;Mbokolonga
+0;160.6627,-8.3603;SB-03;Malaita Province;Mbokolo
+0;160.6552,-9.6692;SB-06;Guadalcanal Province;Mbokola
+0;159.6400,-9.5622;SB-06;Guadalcanal Province;Mbokochare
+0;160.3762,-9.4203;SB-06;Guadalcanal Province;Mbokoaghau
+0;159.9159,-9.7950;SB-06;Guadalcanal Province;Mboko
+0;160.6582,-9.6476;SB-06;Guadalcanal Province;Mboko
+0;159.7833,-9.1333;SB;;Mbokiaka
+0;160.5358,-9.9079;SB-06;Guadalcanal Province;Mbokasuhu
+0;159.8304,-9.3438;SB-06;Guadalcanal Province;Mbohu
+0;160.4667,-9.5333;SB-06;Guadalcanal Province;Mboeni
+0;157.3758,-7.4002;SB-12;Choiseul Province;Mboemboe
+0;156.8044,-7.0848;SB-12;Choiseul Province;Mboe
+0;157.4283,-8.2640;SB-11;Western Province;Mbiula
+0;159.8990,-9.7855;SB-06;Guadalcanal Province;Mbiti
+0;160.5957,-8.4036;SB-03;Malaita Province;Mbita’ama
+0;158.1026,-8.5319;SB-11;Western Province;Mbisuana
+0;159.8364,-9.1426;SB-10;Central Province;Mbirasu
+0;156.4801,-6.7797;SB-12;Choiseul Province;Mbirambira
+0;160.6481,-8.4482;SB-03;Malaita Province;Mbina
+0;157.1000,-8.1500;SB-11;Western Province;Mbimbisala
+0;156.7000,-7.9333;SB-11;Western Province;Mbilua
+0;160.6871,-9.9040;SB-06;Guadalcanal Province;Mbilimbili
+0;159.7102,-9.6813;SB-06;Guadalcanal Province;Mbilikovu
+0;158.1989,-8.6669;SB-11;Western Province;Mbili
+0;158.1923,-8.8239;SB-11;Western Province;Mbiche
+0;160.3186,-9.6053;SB-06;Guadalcanal Province;Mbetitambu
+0;160.5894,-9.5811;SB-06;Guadalcanal Province;Mbetini
+0;159.9766,-9.5575;SB-06;Guadalcanal Province;Mbetilonga
+0;159.8167,-9.1000;SB;;Mberenigha
+0;160.5326,-9.9063;SB-06;Guadalcanal Province;Mberechoa
+0;157.4074,-8.4908;SB-11;Western Province;Mberapa
+0;159.7500,-9.7167;SB-06;Guadalcanal Province;Mbengena
+0;160.5654,-9.6774;SB-06;Guadalcanal Province;Mbembenamanu
+0;160.2079,-9.8036;SB-06;Guadalcanal Province;Mbembe
+0;160.2979,-9.4284;SB-06;Guadalcanal Province;Mbembe
+0;160.1833,-9.4167;SB-06;Guadalcanal Province;Mbembe
+0;160.6579,-9.6569;SB-06;Guadalcanal Province;Mbele
+0;160.3340,-9.5857;SB-06;Guadalcanal Province;Mbelati
+0;160.5223,-9.9003;SB-06;Guadalcanal Province;Mbelatasi
+0;160.4012,-9.4529;SB-06;Guadalcanal Province;Mbelasara
+0;160.3333,-9.8000;SB-06;Guadalcanal Province;Mbelaitohu
+0;160.0333,-9.4833;SB-06;Guadalcanal Province;Mbelaha
+0;160.3317,-9.5896;SB-06;Guadalcanal Province;Mbelagha
+0;160.3293,-9.0734;SB-10;Central Province;Mbelagha
+0;158.2084,-8.7448;SB-11;Western Province;Mbekambeka
+0;160.2774,-9.5003;SB-06;Guadalcanal Province;Mbeghotadhi
+0;160.3167,-9.4833;SB-06;Guadalcanal Province;Mbea
+0;159.8278,-9.1103;SB-10;Central Province;Mbazo
+0;158.1248,-8.5597;SB-11;Western Province;Mbatuna
+0;157.0720,-6.9900;SB-12;Choiseul Province;Mbatongo
+0;160.6500,-9.6333;SB-06;Guadalcanal Province;Mbasakana
+0;160.0927,-9.8185;SB-06;Guadalcanal Province;Mbariki
+0;157.8188,-8.5734;SB-11;Western Province;Mbareho
+0;157.4147,-8.2977;SB-11;Western Province;Mbaraulu
+0;157.1003,-8.2793;SB-11;Western Province;Mbarasipo
+0;160.5094,-9.5378;SB-06;Guadalcanal Province;Mbara Parilonga
+0;160.6128,-9.6158;SB-06;Guadalcanal Province;Mbaranasia
+0;159.9690,-9.4687;SB-06;Guadalcanal Province;Mbarana
+0;160.1823,-9.4787;SB-06;Guadalcanal Province;Mbarambou
+0;160.6680,-9.9119;SB-06;Guadalcanal Province;Mbarakongga
+0;156.6981,-7.8971;SB-11;Western Province;Mbarakoma
+0;160.0991,-9.6213;SB-06;Guadalcanal Province;Mbaole
+0;157.0978,-8.2661;SB-11;Western Province;Mbanone
+0;156.5893,-6.6601;SB-12;Choiseul Province;Mbanimbani
+0;157.2643,-8.6344;SB-11;Western Province;Mbaniata
+0;157.3382,-8.6041;SB-11;Western Province;Mbangopingo
+0;156.8081,-6.7885;SB-12;Choiseul Province;Mbangara
+0;157.3333,-8.3000;SB-11;Western Province;Mbanga
+0;157.2150,-8.2983;SB-11;Western Province;Mbanga
+0;160.7167,-9.7000;SB;;Mbambasu
+0;160.1064,-9.6749;SB-06;Guadalcanal Province;Mbambandeha
+0;159.8296,-9.7502;SB-06;Guadalcanal Province;Mbambanakira
+0;160.3049,-9.4258;SB-06;Guadalcanal Province;Mbambala
+0;160.4654,-9.4935;SB-06;Guadalcanal Province;Mbaloni
+0;159.8069,-9.1030;SB-10;Central Province;Mbalola
+0;160.6312,-9.9340;SB-06;Guadalcanal Province;Mbalo
+0;160.4918,-9.5356;SB-06;Guadalcanal Province;Mbalo
+0;159.7671,-9.7391;SB-06;Guadalcanal Province;Mbaleokala
+0;159.6377,-9.5730;SB-06;Guadalcanal Province;Mbaleghokoa
+0;160.6491,-9.8989;SB-06;Guadalcanal Province;Mbalanimanu
+0;159.6000,-9.3000;SB;;Mbahi
+0;160.2667,-9.8000;SB-06;Guadalcanal Province;Mbagherau
+0;161.0667,-8.9167;SB-03;Malaita Province;Mba’eniambu
+0;161.0500,-8.9167;SB-03;Malaita Province;Mba’elasurumbe’u
+0;160.8072,-9.0683;SB-03;Malaita Province;Mawa
+0;159.8313,-9.7401;SB-06;Guadalcanal Province;Mavunina
+0;159.7878,-9.1199;SB-10;Central Province;Mavulu
+0;159.6233,-9.2941;SB-06;Guadalcanal Province;Maviru
+0;161.0167,-9.2667;SB-03;Malaita Province;Matoraniwai
+0;160.7593,-9.8923;SB-06;Guadalcanal Province;Matekolukolu
+0;160.3091,-9.5589;SB-06;Guadalcanal Province;Matavati
+0;159.6399,-9.5732;SB-06;Guadalcanal Province;Matasere
+0;160.0673,-9.5026;SB-06;Guadalcanal Province;Mataruka
+0;159.6145,-9.4913;SB-06;Guadalcanal Province;Matapuru
+0;159.6000,-9.5167;SB-06;Guadalcanal Province;Mataninughu
+0;160.7249,-9.7156;SB-06;Guadalcanal Province;Matango
+0;160.2503,-9.6807;SB-06;Guadalcanal Province;Matangga
+0;161.4064,-9.5881;SB-03;Malaita Province;Matangasi
+0;160.8667,-8.4667;SB;;Matanganakafo
+0;159.9000,-9.7667;SB-06;Guadalcanal Province;Matanaso
+0;159.5919,-9.5251;SB-06;Guadalcanal Province;Matananughu
+0;159.8451,-9.7369;SB-06;Guadalcanal Province;Matanambamba
+0;160.7005,-8.3768;SB-03;Malaita Province;Matakwalao
+0;160.7147,-8.3394;SB-03;Malaita Province;Matakwaisuu
+0;159.6628,-9.6485;SB-06;Guadalcanal Province;Matakachi
+0;159.6440,-9.5799;SB-06;Guadalcanal Province;Matachachali
+0;160.5881,-9.9214;SB-06;Guadalcanal Province;Masi
+0;161.1390,-9.3436;SB-03;Malaita Province;Maru’ura
+0;161.2167,-9.2833;SB;;Marupo
+0;159.7709,-9.7344;SB-06;Guadalcanal Province;Marumbo
+0;159.7000,-9.6500;SB-06;Guadalcanal Province;Marumbo
+0;159.6333,-9.5500;SB-06;Guadalcanal Province;Marumbo
+0;159.6706,-9.2641;SB-06;Guadalcanal Province;Marumbo
+0;161.0363,-9.2965;SB-03;Malaita Province;Maruitaro
+0;161.0667,-9.3000;SB-03;Malaita Province;Maruiraru
+0;160.1859,-9.4187;SB-06;Guadalcanal Province;Marui
+0;161.2420,-9.3195;SB-03;Malaita Province;Maro’umasike
+0;161.4616,-9.4604;SB-03;Malaita Province;Marou
+0;160.7225,-8.4077;SB-03;Malaita Province;Marokafo
+0;159.6075,-9.5275;SB-06;Guadalcanal Province;Marindi
+0;159.6359,-9.2849;SB-06;Guadalcanal Province;Maravovo
+0;156.7140,-7.8547;SB-11;Western Province;Maravari
+0;160.7469,-9.7299;SB-06;Guadalcanal Province;Maraunia
+0;160.8500,-9.8167;SB;;Marau
+0;161.2333,-9.3333;SB-03;Malaita Province;Marata
+0;159.7833,-9.7500;SB-06;Guadalcanal Province;Marasa
+0;161.0500,-9.2500;SB-03;Malaita Province;Marararo
+0;161.4202,-9.6341;SB-03;Malaita Province;Marapona
+0;160.1586,-9.8003;SB-06;Guadalcanal Province;Marao
+0;161.1399,-9.3474;SB-03;Malaita Province;Marahu
+0;159.7333,-9.7167;SB-06;Guadalcanal Province;Maraghova
+0;160.5853,-9.9201;SB-06;Guadalcanal Province;Maraeva
+0;161.1738,-9.1721;SB-03;Malaita Province;Maoto
+0;160.7639,-8.8662;SB-03;Malaita Province;Maoro
+0;159.7643,-9.7166;SB-06;Guadalcanal Province;Maokao
+0;160.8324,-8.4431;SB-03;Malaita Province;Manule
+0;160.9731,-8.6104;SB-03;Malaita Province;Manu
+0;160.8667,-9.1333;SB-03;Malaita Province;Manoroti
+0;161.1754,-9.0693;SB-03;Malaita Province;Maniwaro
+0;160.1867,-9.8151;SB-06;Guadalcanal Province;Manivasa
+0;161.1667,-9.0667;SB-03;Malaita Province;Manikiriu
+0;160.8306,-9.8481;SB-06;Guadalcanal Province;Manikaraku
+0;161.2000,-9.2667;SB-03;Malaita Province;Manihouni
+0;160.6858,-8.3263;SB-03;Malaita Province;Manifao
+0;161.2500,-9.2000;SB-03;Malaita Province;Manierate
+0;161.0193,-8.9293;SB-03;Malaita Province;Mania’aa
+0;156.0024,-7.0160;SB-11;Western Province;Mania
+0;157.0811,-7.2898;SB-12;Choiseul Province;Manggo
+0;156.5333,-6.8167;SB-12;Choiseul Province;Manggatarava
+0;159.9204,-9.7971;SB-06;Guadalcanal Province;Manggari
+0;160.1960,-9.4510;SB-06;Guadalcanal Province;Mangautu
+0;159.6435,-9.5757;SB-06;Guadalcanal Province;Manganakao
+0;159.7167,-9.6833;SB-06;Guadalcanal Province;Mangalao
+0;159.5973,-9.3309;SB-06;Guadalcanal Province;Mangakiki
+0;159.7000,-9.6500;SB-06;Guadalcanal Province;Manga
+0;159.5833,-9.5167;SB;;Manga
+0;157.1167,-8.3333;SB-11;Western Province;Mandou
+0;160.2402,-9.8079;SB-06;Guadalcanal Province;Mandekachu
+0;160.6887,-8.5038;SB-03;Malaita Province;Mandalua
+0;161.0151,-8.8817;SB-03;Malaita Province;Manano
+0;158.1115,-8.6255;SB-11;Western Province;Manambusu
+0;160.8167,-9.0667;SB-03;Malaita Province;Manamba
+0;160.5667,-8.3500;SB-03;Malaita Province;Manakwai
+0;160.6124,-8.3417;SB-03;Malaita Province;Manakwai
+0;160.9387,-8.5656;SB-03;Malaita Province;Manabubulu
+0;160.9206,-8.5537;SB-03;Malaita Province;Manaara
+0;160.6265,-8.3500;SB-03;Malaita Province;Manaambu
+0;160.8996,-8.8041;SB-03;Malaita Province;Mamulele
+0;160.2333,-9.6000;SB-06;Guadalcanal Province;Mambulu Na Kake
+0;161.1167,-9.1500;SB-03;Malaita Province;Mamatoa
+0;159.6743,-9.2693;SB-06;Guadalcanal Province;Mamarei
+0;159.8833,-9.4000;SB-06;Guadalcanal Province;Mamara
+0;160.7790,-8.8063;SB-03;Malaita Province;Mamalade
+0;160.6335,-8.3505;SB-03;Malaita Province;Maluu
+0;160.6333,-9.6167;SB-06;Guadalcanal Province;Malumalunimbirisi
+0;160.0297,-9.6293;SB-06;Guadalcanal Province;Malukuna
+0;160.1167,-9.4167;SB;;Maluka
+0;161.1500,-8.9667;SB;;Malou
+0;161.0833,-8.9000;SB-03;Malaita Province;Malo’u
+0;160.3064,-9.6685;SB-06;Guadalcanal Province;Malohu
+0;155.5960,-7.3452;SB-11;Western Province;Maloaini
+0;159.9541,-9.7971;SB-06;Guadalcanal Province;Malisa
+0;160.1333,-9.0667;SB-10;Central Province;Maliali
+0;156.4304,-6.6105;SB-12;Choiseul Province;Malevangga
+0;160.7167,-8.3667;SB;;Malefomuu
+0;155.8447,-7.1079;SB-11;Western Province;Maleai
+0;160.0700,-9.4958;SB-06;Guadalcanal Province;Malatoha
+0;160.6641,-8.3633;SB-03;Malaita Province;Malatawa’a
+0;160.8025,-8.4218;SB-03;Malaita Province;Malatabii
+0;161.4833,-9.5000;SB-03;Malaita Province;Malapau
+0;156.7826,-7.0598;SB-12;Choiseul Province;Malangono
+10532;159.7173,-9.6952;SB-06;Guadalcanal Province;Malango
+0;161.0120,-8.9484;SB-03;Malaita Province;Malalaia
+0;159.7000,-9.6833;SB;;Malaisu
+0;160.8386,-8.7280;SB-03;Malaita Province;Malagwasu
+0;156.6316,-6.6615;SB-12;Choiseul Province;Malaengari
+0;160.7973,-8.3806;SB-03;Malaita Province;Makweunu
+0;160.8113,-9.8404;SB-06;Guadalcanal Province;Makina
+0;159.6176,-9.5388;SB-06;Guadalcanal Province;Makile
+0;160.1382,-9.4203;SB-06;Guadalcanal Province;Makile
+0;160.5510,-9.9159;SB-06;Guadalcanal Province;Makaruka
+0;160.2390,-9.7778;SB-06;Guadalcanal Province;Makaruka
+0;160.5957,-9.7528;SB-06;Guadalcanal Province;Makaruka
+0;160.2805,-9.7334;SB-06;Guadalcanal Province;Makanapeo
+0;160.6269,-9.7694;SB-06;Guadalcanal Province;Makanakolopao
+0;160.5000,-9.7333;SB-06;Guadalcanal Province;Makana
+0;160.3243,-9.6316;SB-06;Guadalcanal Province;Makana
+0;160.3495,-9.7632;SB-06;Guadalcanal Province;Makali
+0;161.3986,-9.5913;SB-03;Malaita Province;Maka
+0;159.7314,-9.7208;SB-06;Guadalcanal Province;Maisu
+0;161.4077,-9.4318;SB-03;Malaita Province;Maira
+0;161.3667,-9.4000;SB;;Mahuto
+0;160.7114,-8.7845;SB-03;Malaita Province;Mage
+0;160.8029,-8.2966;SB-03;Malaita Province;Maeloboa
+0;161.1833,-9.0833;SB-03;Malaita Province;Ma’eanikana
+0;159.5000,-8.3167;SB-07;Isabel Province;Mablosi
+0;161.2357,-9.3644;SB-03;Malaita Province;Maatona
+0;161.2441,-9.2884;SB-03;Malaita Province;Maasupa
+0;161.3833,-9.5000;SB-03;Malaita Province;Maariki
+0;161.1667,-9.3333;SB-03;Malaita Province;Ma’ara’ara
+0;160.6833,-8.4333;SB-03;Malaita Province;Maanafiu
+0;160.6288,-8.4285;SB-03;Malaita Province;Maanafaene
+0;161.0667,-8.9000;SB;;Maamburu
+0;161.0473,-8.9350;SB-03;Malaita Province;Maamalasuala
+0;160.4837,-9.5303;SB-06;Guadalcanal Province;Luvunambuli
+0;156.9821,-7.2356;SB-12;Choiseul Province;Luti
+0;160.0167,-8.8833;SB-10;Central Province;Lungua
+0;160.0301,-9.4260;SB-06;Guadalcanal Province;Lungga
+0;156.5754,-7.7591;SB-11;Western Province;Lungga
+0;160.6520,-9.6347;SB-06;Guadalcanal Province;Lumu
+0;160.5833,-9.7000;SB-06;Guadalcanal Province;Lumarau
+0;159.7437,-9.7267;SB-06;Guadalcanal Province;Lumanaroko
+0;156.5667,-6.6667;SB-12;Choiseul Province;Luluvato
+0;157.1209,-7.0685;SB-12;Choiseul Province;Lulemikilo
+0;157.1167,-8.2833;SB;;Lulambai
+0;157.0649,-6.9337;SB-12;Choiseul Province;Lukuvaru
+0;160.6376,-9.7843;SB-06;Guadalcanal Province;Lughuvasa
+0;156.6000,-7.8167;SB;;Lotiloti
+0;161.0333,-8.9167;SB-03;Malaita Province;Lo’ombola
+0;160.2667,-9.8000;SB-06;Guadalcanal Province;Longguna
+0;160.3333,-9.8000;SB-06;Guadalcanal Province;Longgu
+0;160.6577,-9.6609;SB-06;Guadalcanal Province;Longgu
+0;160.3471,-9.1813;SB-10;Central Province;Longapolo
+0;161.0358,-8.9045;SB-03;Malaita Province;Lombe’esuala
+0;160.9537,-8.5921;SB-03;Malaita Province;Lololo
+0;160.1393,-9.0694;SB-10;Central Province;Lologhana
+0;156.7905,-7.0665;SB-12;Choiseul Province;Lologhae
+0;160.8038,-8.4166;SB-03;Malaita Province;Lolinggi
+0;157.3322,-8.6204;SB-11;Western Province;Lōkuru
+0;159.8500,-8.4667;SB-07;Isabel Province;Lokiha
+0;159.8167,-9.1000;SB;;Lokanipeo
+0;160.6918,-8.3764;SB-03;Malaita Province;Loina
+0;160.3333,-9.4667;SB-06;Guadalcanal Province;Loimboro
+0;156.8425,-8.0927;SB-11;Western Province;Logha
+0;161.4833,-9.5333;SB-03;Malaita Province;Liweliwe
+0;161.4703,-9.6476;SB-03;Malaita Province;Liwe
+0;156.4500,-6.6333;SB-12;Choiseul Province;Liuliu
+0;160.7006,-8.3859;SB-03;Malaita Province;Liufanithauthau
+0;158.8091,-7.9089;SB-07;Isabel Province;Litoghahira
+0;160.6932,-8.7742;SB-03;Malaita Province;Lilisiana
+0;160.8815,-8.4895;SB-03;Malaita Province;Lilifia
+0;159.8139,-8.3748;SB-07;Isabel Province;Lighara
+0;156.6205,-7.5852;SB-11;Western Province;Liangai
+0;156.5333,-6.8000;SB-12;Choiseul Province;Levaleva
+0;157.1476,-7.3529;SB-12;Choiseul Province;Letuni
+0;160.5669,-9.6739;SB-06;Guadalcanal Province;Leovatu
+0;159.7000,-9.2500;SB;;Leosa
+0;160.3330,-9.7073;SB-06;Guadalcanal Province;Leomate
+0;159.6924,-9.2526;SB-06;Guadalcanal Province;Lenggarauna
+0;159.5997,-9.4086;SB-06;Guadalcanal Province;Lenggaloki
+0;160.1333,-9.4167;SB;;Lenggalei
+0;159.9466,-9.4360;SB-06;Guadalcanal Province;Lenggakiki
+0;157.0990,-6.9639;SB-12;Choiseul Province;Lengatura
+0;160.3145,-9.4244;SB-06;Guadalcanal Province;Lengalau
+0;161.9562,-9.7907;SB-08;Makira-Ulawa Province;Lenga
+0;159.5966,-9.4962;SB-06;Guadalcanal Province;Leleona
+0;159.9413,-9.7912;SB-06;Guadalcanal Province;Leleola
+0;159.8969,-9.4151;SB-06;Guadalcanal Province;Lelei
+0;159.6644,-8.3984;SB-07;Isabel Province;Leleghia
+0;160.0757,-9.0159;SB-10;Central Province;Leitongo
+0;161.5567,-9.5996;SB-03;Malaita Province;Leche
+0;159.5946,-9.3205;SB-06;Guadalcanal Province;Lavuro
+0;160.4315,-9.8927;SB-06;Guadalcanal Province;Lauvi
+0;159.7000,-9.6500;SB-06;Guadalcanal Province;Lauta
+0;160.3351,-9.4164;SB-06;Guadalcanal Province;Lauru
+0;160.7377,-8.8761;SB-03;Malaita Province;Laulasi
+0;160.8000,-8.4500;SB-03;Malaita Province;Laula
+0;160.7860,-9.8858;SB-06;Guadalcanal Province;Laukolo
+0;160.7935,-9.8140;SB-06;Guadalcanal Province;Latina
+0;160.3167,-9.4167;SB;;Laso
+0;160.4677,-9.4964;SB-06;Guadalcanal Province;Lasa
+0;161.0500,-8.9000;SB-03;Malaita Province;Laru
+0;160.9000,-8.8333;SB-03;Malaita Province;Larimbaolo
+0;159.6024,-9.3961;SB-06;Guadalcanal Province;Laovundi
+0;159.6445,-9.2794;SB-06;Guadalcanal Province;Laovavasa
+0;159.6101,-9.4979;SB-06;Guadalcanal Province;Laotatau
+0;159.6881,-9.5955;SB-06;Guadalcanal Province;Langumusu
+0;159.7471,-9.7283;SB-06;Guadalcanal Province;Lango
+0;160.8636,-8.4905;SB-03;Malaita Province;Langgoi
+0;160.3416,-9.1729;SB-10;Central Province;Langgo
+0;159.7000,-9.6500;SB-06;Guadalcanal Province;Langanaku
+0;160.6352,-9.6160;SB-06;Guadalcanal Province;Landeni
+0;160.2821,-9.6262;SB-06;Guadalcanal Province;Lame
+0;160.5498,-9.5451;SB-06;Guadalcanal Province;Lambunggaula
+0;159.6971,-9.5991;SB-06;Guadalcanal Province;Lambungasi
+0;159.6000,-9.4167;SB-06;Guadalcanal Province;Lambughue
+0;160.0833,-9.8167;SB-06;Guadalcanal Province;Lambia
+0;160.1921,-9.4147;SB-06;Guadalcanal Province;Lambi
+0;159.6086,-9.4079;SB-06;Guadalcanal Province;Lambi
+0;157.2707,-8.3285;SB-11;Western Province;Lambete
+0;160.3489,-9.8180;SB-06;Guadalcanal Province;Lambeana
+0;160.8500,-8.6833;SB-03;Malaita Province;Lamaa
+0;161.0290,-8.9387;SB-03;Malaita Province;Laloe’efou
+0;160.2447,-9.8085;SB-06;Guadalcanal Province;Laloato
+0;160.2645,-9.5879;SB-06;Guadalcanal Province;Lalao
+0;161.0500,-8.9167;SB-03;Malaita Province;Lalalo
+0;161.0833,-8.9000;SB-03;Malaita Province;Lalalo
+0;160.2000,-9.4500;SB-06;Guadalcanal Province;Laghira
+0;160.6333,-8.3333;SB;;Kwene
+0;160.9250,-9.1699;SB-03;Malaita Province;Kwari’ekwa
+0;160.8855,-8.4988;SB-03;Malaita Province;Kwaoasi
+0;160.9870,-8.8639;SB-03;Malaita Province;Kwalakwala
+0;160.5832,-8.3942;SB-03;Malaita Province;Kwaiorua
+0;160.8167,-8.6333;SB-03;Malaita Province;Kwainangali
+0;160.7000,-8.7833;SB;;Kwainaketo
+0;161.0193,-8.9028;SB-03;Malaita Province;Kwaimbaambaala
+0;160.7062,-8.7523;SB-03;Malaita Province;Kwaimae
+0;160.7744,-8.3590;SB-03;Malaita Province;Kwailibesi
+0;160.7575,-8.3017;SB-03;Malaita Province;Kwaila’abu
+0;160.7105,-8.3985;SB-03;Malaita Province;Kwaifiu
+0;160.9113,-8.8483;SB-03;Malaita Province;Kwaiaroaro
+0;160.5862,-8.3974;SB-03;Malaita Province;Kwaiana
+0;160.6214,-8.4232;SB-03;Malaita Province;Kwaiafaa
+0;160.9476,-8.7723;SB-03;Malaita Province;Kwai
+0;160.7173,-8.3442;SB-03;Malaita Province;Kwaakwadi
+0;160.8000,-9.0167;SB-03;Malaita Province;Kwa’a
+0;160.6199,-9.7080;SB-06;Guadalcanal Province;Kuvamiti
+0;160.3864,-9.7519;SB-06;Guadalcanal Province;Kuva Kei
+0;157.0735,-6.9433;SB-12;Choiseul Province;Kutakana
+0;159.7098,-9.5899;SB-06;Guadalcanal Province;Kusumba
+0;159.8333,-9.1167;SB;;Kusini
+0;160.6557,-9.9083;SB-06;Guadalcanal Province;Kurilaka
+0;160.8545,-9.8387;SB-06;Guadalcanal Province;Kuraisau
+0;160.8028,-8.8562;SB-03;Malaita Province;Kunura
+0;156.7902,-7.0238;SB-12;Choiseul Province;Kunumboko
+0;161.0767,-9.0620;SB-03;Malaita Province;Kunokuno
+0;159.5888,-9.5147;SB-06;Guadalcanal Province;Kunjo
+0;157.0500,-8.1000;SB-11;Western Province;Kunji
+0;156.5333,-8.0901;SB-11;Western Province;Kundu
+0;160.4432,-9.5087;SB-06;Guadalcanal Province;Kumundi
+0;159.7016,-9.6836;SB-06;Guadalcanal Province;Kumotu
+0;156.7657,-7.7092;SB-11;Western Province;Kumbolia
+0;156.5480,-6.6428;SB-12;Choiseul Province;Kumbakale
+0;160.3992,-9.7190;SB-06;Guadalcanal Province;Kumanakati
+0;159.6887,-8.2709;SB-07;Isabel Province;Kuma’ihavi
+0;160.5333,-9.9000;SB-06;Guadalcanal Province;Kuma
+0;160.1000,-9.8167;SB-06;Guadalcanal Province;Kuma
+0;160.3167,-9.4167;SB;;Kulu
+0;160.6170,-8.3602;SB-03;Malaita Province;Kukuruu
+0;160.7386,-8.3202;SB-03;Malaita Province;Kukunu
+0;156.9453,-8.0252;SB-11;Western Province;Kukundu
+0;160.7000,-8.7667;SB-03;Malaita Province;Kukumu
+0;156.5833,-6.8500;SB-12;Choiseul Province;Kuku
+0;156.7667,-7.0167;SB-12;Choiseul Province;Kuki
+0;159.7880,-9.1176;SB-10;Central Province;Kuila
+0;160.2748,-9.0408;SB-10;Central Province;Kuikuila
+0;159.8404,-8.3364;SB-07;Isabel Province;Kuchira
+0;159.5667,-8.1333;SB;;Kubolota
+0;159.6556,-8.2055;SB-07;Isabel Province;Koviloko
+0;159.9167,-9.4167;SB;;Kovare
+0;159.6148,-9.4855;SB-06;Guadalcanal Province;Kotatave
+0;159.5986,-9.3490;SB-06;Guadalcanal Province;Kotaoa
+0;159.6500,-9.6333;SB;;Kosuarangga
+0;159.9970,-9.5349;SB-06;Guadalcanal Province;Koso
+0;159.6218,-8.3522;SB-07;Isabel Province;Kosisi
+0;159.7679,-9.7246;SB-06;Guadalcanal Province;Kosipo
+0;160.2369,-9.7764;SB-06;Guadalcanal Province;Kosikosi
+0;160.7418,-8.3837;SB-03;Malaita Province;Kosifu
+0;159.6167,-9.5167;SB-06;Guadalcanal Province;Kosarara
+0;161.0238,-9.2875;SB-03;Malaita Province;Koruha
+0;155.8642,-7.0794;SB-11;Western Province;Korovou
+0;160.3414,-9.4329;SB-06;Guadalcanal Province;Korove
+0;159.6236,-8.1591;SB-07;Isabel Province;Korogha
+0;160.3111,-9.5648;SB-06;Guadalcanal Province;Korasa
+0;156.4257,-6.6145;SB-12;Choiseul Province;Korasa
+0;160.3450,-9.4122;SB-06;Guadalcanal Province;Korambu
+0;159.7266,-9.7208;SB-06;Guadalcanal Province;Koragha
+0;160.7868,-9.8822;SB-06;Guadalcanal Province;Kopiu
+0;159.5897,-9.5257;SB-06;Guadalcanal Province;Kopau
+0;159.6685,-9.6261;SB-06;Guadalcanal Province;Kopapara
+0;160.7739,-8.4175;SB-03;Malaita Province;Ko’ombaita
+0;159.7000,-9.6500;SB-06;Guadalcanal Province;Konure
+0;156.7920,-6.7775;SB-12;Choiseul Province;Konjonambangaro
+0;160.2833,-9.4333;SB-06;Guadalcanal Province;Konitarake
+0;159.9150,-9.4382;SB-06;Guadalcanal Province;Konggulai
+0;156.7667,-7.0167;SB-12;Choiseul Province;Konggo
+0;159.6033,-9.5219;SB-06;Guadalcanal Province;Konggeva
+0;159.6572,-9.6436;SB-06;Guadalcanal Province;Konggau
+0;160.1150,-9.4884;SB-06;Guadalcanal Province;Kongga
+0;159.7394,-9.2786;SB-06;Guadalcanal Province;Kondovele
+0;160.5909,-9.5634;SB-06;Guadalcanal Province;Kondodhau
+0;159.6856,-9.6534;SB-06;Guadalcanal Province;Konapou
+0;156.6000,-6.8667;SB-12;Choiseul Province;Kona
+0;160.5763,-9.9174;SB-06;Guadalcanal Province;Komuvaolu
+0;160.6328,-9.6020;SB-06;Guadalcanal Province;Komuvaolu
+0;160.2789,-9.5881;SB-06;Guadalcanal Province;Komuvaolu
+0;160.4825,-9.5286;SB-06;Guadalcanal Province;Komuvaolu
+0;160.1833,-9.4333;SB-06;Guadalcanal Province;Komuvaolu
+0;160.2374,-9.4676;SB-06;Guadalcanal Province;Komuvadha
+0;160.6373,-9.6335;SB-06;Guadalcanal Province;Komusondu
+0;160.8016,-9.8139;SB-06;Guadalcanal Province;Komuporo
+0;160.1613,-9.4106;SB-06;Guadalcanal Province;Komuporo
+0;160.8183,-9.8691;SB-06;Guadalcanal Province;Komupau
+0;160.1635,-9.4161;SB-06;Guadalcanal Province;Komunivele
+0;160.6833,-9.9000;SB-06;Guadalcanal Province;Komunitambalolo
+0;160.5242,-9.6460;SB-06;Guadalcanal Province;Komunisambaha
+0;160.4500,-9.4833;SB-06;Guadalcanal Province;Komuninggita
+0;160.7333,-9.7500;SB-06;Guadalcanal Province;Komunimbombolo
+0;160.5259,-9.6427;SB-06;Guadalcanal Province;Komunimbolo
+0;160.7072,-9.7445;SB-06;Guadalcanal Province;Komunimboko
+0;160.4925,-9.5372;SB-06;Guadalcanal Province;Komunimboko
+0;160.5500,-9.6500;SB-06;Guadalcanal Province;Komunimbambasa
+0;160.8244,-9.8581;SB-06;Guadalcanal Province;Komunimbaimbai
+0;160.3833,-9.4333;SB-06;Guadalcanal Province;Komunimatangga
+0;160.3833,-9.4333;SB-06;Guadalcanal Province;Komunimala
+0;160.6564,-9.6607;SB-06;Guadalcanal Province;Komunima’angga
+0;160.8175,-9.8190;SB-06;Guadalcanal Province;Komunikoa
+0;160.7873,-9.8025;SB-06;Guadalcanal Province;Komunihara
+0;161.2500,-9.5000;SB;;Komunihaka
+0;160.3167,-9.5521;SB-06;Guadalcanal Province;Komunighogha
+0;160.4373,-9.4689;SB-06;Guadalcanal Province;Komunidhimbo
+0;160.5990,-9.5881;SB-06;Guadalcanal Province;Komuniato
+0;160.2897,-9.6190;SB-06;Guadalcanal Province;Komuniao
+0;160.3226,-9.6036;SB-06;Guadalcanal Province;Komungelea
+0;160.5593,-9.5464;SB-06;Guadalcanal Province;Komungelea
+0;160.5761,-9.7210;SB-06;Guadalcanal Province;Komuna
+0;160.2333,-9.4167;SB;;Komumbembe
+0;160.0886,-8.9817;SB-10;Central Province;Komumarara
+0;160.6597,-9.6425;SB-06;Guadalcanal Province;Komulevugha
+0;159.6083,-9.5252;SB-06;Guadalcanal Province;Komulevugha
+0;160.2848,-9.5677;SB-06;Guadalcanal Province;Komuliae
+0;160.5963,-9.7305;SB-06;Guadalcanal Province;Komukusua
+0;159.7333,-9.6667;SB-06;Guadalcanal Province;Komukomu
+0;160.2887,-9.4677;SB-06;Guadalcanal Province;Komukea
+0;160.2500,-9.4167;SB;;Komukea
+0;160.2964,-9.5304;SB-06;Guadalcanal Province;Komukama
+0;160.8756,-9.8310;SB-06;Guadalcanal Province;Komu’isia
+0;160.6500,-9.7000;SB-06;Guadalcanal Province;Komoto
+0;160.1853,-9.4404;SB-06;Guadalcanal Province;Komindi
+0;159.6734,-9.2637;SB-06;Guadalcanal Province;Komimbo
+0;157.0441,-6.9205;SB-12;Choiseul Province;Kombokisa
+0;160.5249,-9.5372;SB-06;Guadalcanal Province;Kombito
+0;160.3411,-9.7990;SB-06;Guadalcanal Province;Kombiloko
+0;159.6028,-9.4211;SB-06;Guadalcanal Province;Kombiloko
+0;159.7724,-9.7079;SB-06;Guadalcanal Province;Kombi
+0;160.7824,-8.4468;SB-03;Malaita Province;Kombe’ai
+0;160.3470,-9.1058;SB-10;Central Province;Kombe
+0;159.6700,-9.6224;SB-06;Guadalcanal Province;Kombau
+0;159.7158,-9.6862;SB-06;Guadalcanal Province;Kombalombalo
+0;156.7167,-6.9667;SB-12;Choiseul Province;Kombae
+0;159.8760,-9.7811;SB-06;Guadalcanal Province;Komate
+0;160.1500,-9.4167;SB-06;Guadalcanal Province;Komaru
+0;159.5974,-9.3350;SB-06;Guadalcanal Province;Komambulu
+0;159.9000,-9.4167;SB;;Kolutoha
+0;157.5969,-8.0227;SB-11;Western Province;Kolumbaghea
+0;160.5779,-9.7406;SB-06;Guadalcanal Province;Kolovuluvulu
+0;160.5928,-9.6824;SB-06;Guadalcanal Province;Kolovatuniura
+0;156.5833,-6.8500;SB-12;Choiseul Province;Kolovasari
+0;160.6473,-9.9227;SB-06;Guadalcanal Province;Kolovaolu
+0;156.6000,-6.8667;SB-12;Choiseul Province;Kolovalu
+0;159.5569,-8.3484;SB-07;Isabel Province;Kolotubi
+0;159.7840,-8.4568;SB-07;Isabel Province;Koloteve
+0;159.7466,-8.3076;SB-07;Isabel Province;Kolosigana
+0;160.7409,-9.7500;SB-06;Guadalcanal Province;Kolonjiri
+0;159.6953,-8.2230;SB-07;Isabel Province;Kolomosu
+0;159.5547,-8.2866;SB-07;Isabel Province;Kolomola
+0;159.5359,-8.1349;SB-07;Isabel Province;Kolomola
+0;160.3895,-9.6941;SB-06;Guadalcanal Province;Kolombora
+0;160.1667,-9.7833;SB-06;Guadalcanal Province;Kolombolo
+0;160.7833,-9.8833;SB-06;Guadalcanal Province;Kolombari
+0;156.7833,-8.0833;SB-11;Western Province;Kolombangara
+0;160.3012,-9.7318;SB-06;Guadalcanal Province;Kolombaleho
+0;160.6770,-9.9048;SB-06;Guadalcanal Province;Kololauvi
+0;160.0155,-9.8040;SB-06;Guadalcanal Province;Kolokundukundu
+0;160.3415,-9.8148;SB-06;Guadalcanal Province;Kolokoko
+0;160.5930,-9.9208;SB-06;Guadalcanal Province;Kolokiki
+0;160.1142,-9.8164;SB-06;Guadalcanal Province;Kolokiki
+0;160.3833,-9.6333;SB-06;Guadalcanal Province;Kolokarako
+0;156.9556,-7.2255;SB-12;Choiseul Province;Kolokapasi
+0;160.3387,-9.7484;SB-06;Guadalcanal Province;Kolokapalu
+0;160.5167,-9.8833;SB-06;Guadalcanal Province;Kolohaumbi
+0;160.5245,-9.5968;SB-06;Guadalcanal Province;Kolohambusi
+0;159.8214,-9.7310;SB-06;Guadalcanal Province;Kologhona
+0;159.8448,-8.3457;SB-07;Isabel Province;Kologhavutu
+0;160.1722,-9.8178;SB-06;Guadalcanal Province;Kologhasi
+0;160.1493,-9.8166;SB-06;Guadalcanal Province;Kologhalivei
+0;159.7419,-8.3960;SB-07;Isabel Province;Kologhajogha
+0;160.7500,-8.3667;SB-03;Malaita Province;Kolofi
+0;156.7678,-7.0519;SB-12;Choiseul Province;Koloe
+0;156.9741,-6.8765;SB-12;Choiseul Province;Koloe
+0;160.3058,-9.6208;SB-06;Guadalcanal Province;Kolochulu
+0;159.9823,-9.8071;SB-06;Guadalcanal Province;Kolochiri
+0;159.8500,-9.7500;SB-06;Guadalcanal Province;Kolochimiu
+0;160.5655,-9.6115;SB-06;Guadalcanal Province;Kolochemba
+0;160.0282,-9.8157;SB-06;Guadalcanal Province;Kolochachara
+0;159.9778,-9.8058;SB-06;Guadalcanal Province;Kolina
+0;159.8271,-9.1518;SB-10;Central Province;Kolika
+0;155.8539,-7.0342;SB-11;Western Province;Koliai
+0;160.1813,-9.4108;SB-06;Guadalcanal Province;Koli
+0;156.7167,-6.9667;SB-12;Choiseul Province;Kolenamoa
+0;160.2667,-9.0167;SB;;Koleala
+0;159.8036,-8.5278;SB-07;Isabel Province;Kokote
+0;161.4371,-9.6580;SB-03;Malaita Province;Kokosurisau
+0;159.6305,-9.5578;SB-06;Guadalcanal Province;Kokomuruka
+0;160.1594,-9.8162;SB-06;Guadalcanal Province;Kokomu
+0;159.6000,-9.4667;SB;;Kokomu
+0;160.1833,-9.4500;SB-06;Guadalcanal Province;Kokomu
+0;156.7351,-7.7069;SB-11;Western Province;Kokolope
+0;159.8488,-9.4299;SB-06;Guadalcanal Province;Kokoilo
+0;161.1938,-9.0279;SB-03;Malaita Province;Kokoerata
+0;160.5279,-9.5443;SB-06;Guadalcanal Province;Kokepaku
+0;157.2517,-8.3267;SB-11;Western Province;Kokenggolo
+0;159.6537,-9.2737;SB-06;Guadalcanal Province;Kokamau
+0;160.2445,-9.1911;SB-10;Central Province;Koilovala
+0;160.4084,-9.4572;SB-06;Guadalcanal Province;Koilotumuria
+0;159.7180,-9.6890;SB-06;Guadalcanal Province;Koilosuimomoru
+0;159.6593,-9.5919;SB-06;Guadalcanal Province;Koilonambo
+0;160.6000,-9.5833;SB-06;Guadalcanal Province;Koilambu
+0;159.5934,-8.2740;SB-07;Isabel Province;Koghe
+0;159.7961,-9.7507;SB-06;Guadalcanal Province;Koghambugha
+0;160.8361,-8.4453;SB-03;Malaita Province;Kofiloko
+0;157.3388,-8.6060;SB-11;Western Province;Kofi
+0;160.7019,-9.7197;SB-06;Guadalcanal Province;Koetungi
+0;160.3937,-9.8278;SB-06;Guadalcanal Province;Koepilua
+0;160.3678,-9.4817;SB-06;Guadalcanal Province;Koela
+0;159.7965,-9.1520;SB-10;Central Province;Koela
+0;159.8486,-9.7559;SB-06;Guadalcanal Province;Kochitoa
+0;160.8000,-8.3167;SB-03;Malaita Province;Koburu
+0;160.6920,-8.6886;SB-03;Malaita Province;Koatolo
+0;160.7333,-8.8667;SB;;Koalia
+0;159.7021,-9.6759;SB-06;Guadalcanal Province;Koache
+0;161.0667,-8.9167;SB-03;Malaita Province;Koaa
+0;159.6874,-8.2173;SB-07;Isabel Province;Kmagha
+0;161.0300,-9.2909;SB-03;Malaita Province;Kiu
+0;160.2667,-9.1167;SB-10;Central Province;Kirighi
+0;159.6618,-8.4625;SB-07;Isabel Province;Kirighi
+0;160.6578,-9.6586;SB-06;Guadalcanal Province;Kioramo
+0;156.9381,-7.2183;SB-12;Choiseul Province;Kinoso
+0;160.3278,-9.8109;SB-06;Guadalcanal Province;Kindivoroa
+0;160.7069,-8.7412;SB-03;Malaita Province;Kilusakwalo
+0;160.6893,-8.7432;SB-03;Malaita Province;Kilufi
+0;159.3180,-8.2419;SB-07;Isabel Province;Kilokaka
+0;160.3500,-9.7886;SB-06;Guadalcanal Province;Kililonga
+0;159.9500,-9.4500;SB-06;Guadalcanal Province;Kicho
+0;160.7405,-8.8443;SB-03;Malaita Province;Kibelifolo
+0;158.4405,-7.5635;SB-07;Isabel Province;Kia
+0;157.1168,-8.2961;SB-11;Western Province;Keviani
+0;158.1210,-8.5863;SB-11;Western Province;Ketoketo
+0;160.3921,-9.8505;SB-06;Guadalcanal Province;Kesatamba
+0;159.6585,-9.2660;SB-06;Guadalcanal Province;Kesao
+0;157.6685,-8.1914;SB-11;Western Province;Keru
+0;161.1034,-9.2025;SB-03;Malaita Province;Kerenapisi
+0;160.3656,-9.4177;SB-06;Guadalcanal Province;Kerekoka
+0;161.0167,-9.2500;SB-03;Malaita Province;Kere
+0;160.1417,-9.4278;SB-06;Guadalcanal Province;Keravuru
+0;157.0101,-8.0954;SB-11;Western Province;Kena
+0;159.6851,-9.6017;SB-06;Guadalcanal Province;Kemane
+0;160.7333,-8.7000;SB-03;Malaita Province;Kelomari’i
+0;160.6231,-8.3745;SB-03;Malaita Province;Keloanamusu
+0;160.6728,-8.7395;SB-03;Malaita Province;Kelakwai
+0;160.2991,-9.4857;SB-06;Guadalcanal Province;Kekena
+0;156.5617,-8.1281;SB-11;Western Province;Keara
+0;161.1667,-8.9833;SB;;Ke’ana
+0;157.3007,-7.3871;SB-12;Choiseul Province;Keala
+0;159.5493,-8.3504;SB-07;Isabel Province;Kava
+0;159.6021,-9.4243;SB-06;Guadalcanal Province;Kauvare
+0;159.7744,-9.7312;SB-06;Guadalcanal Province;Kauchupuchupu
+0;159.5925,-9.4976;SB-06;Guadalcanal Province;Kau
+0;156.9055,-7.1962;SB-12;Choiseul Province;Katurasele
+0;161.0719,-8.9268;SB-03;Malaita Province;Kasimburu
+0;161.4068,-9.4693;SB-03;Malaita Province;Karu’uu
+0;160.8022,-9.8775;SB-06;Guadalcanal Province;Karupopora
+0;160.5500,-9.8833;SB-06;Guadalcanal Province;Karukaru
+0;161.1437,-9.1471;SB-03;Malaita Province;Karokaro
+0;159.7151,-9.6957;SB-06;Guadalcanal Province;Karo
+0;161.0667,-9.3167;SB;;Karinara
+0;156.0940,-6.9009;SB-11;Western Province;Kareki
+0;156.6786,-7.6566;SB-11;Western Province;Karaka
+0;157.0923,-6.9571;SB-12;Choiseul Province;Kapika
+0;160.8333,-9.8167;SB;;Kapeu
+0;160.2439,-9.4487;SB-06;Guadalcanal Province;Kaotave
+0;159.6167,-8.1500;SB-07;Isabel Province;Kaori
+0;159.8352,-9.1448;SB-10;Central Province;Kaonggele
+0;160.6833,-9.7000;SB;;Kaoka
+0;157.0019,-6.8922;SB-12;Choiseul Province;Kandova
+0;159.8000,-9.1500;SB-10;Central Province;Kandiavata
+0;160.2349,-9.6946;SB-06;Guadalcanal Province;Kanda
+0;161.1790,-9.0895;SB-03;Malaita Province;Kanata
+0;159.8113,-8.4774;SB-07;Isabel Province;Kamaosi
+0;160.5837,-9.7866;SB-06;Guadalcanal Province;Kamanjikoko
+0;157.0373,-6.9539;SB-12;Choiseul Province;Kamangga
+0;155.7167,-6.9667;SB-11;Western Province;Kamaleai 2
+0;155.7260,-6.9601;SB-11;Western Province;Kamaleai
+0;161.5336,-9.5625;SB-03;Malaita Province;Kalona
+0;159.8040,-8.3117;SB-07;Isabel Province;Kaloka
+0;161.9837,-9.7221;SB-08;Makira-Ulawa Province;Kalimai
+0;160.4162,-9.6595;SB-06;Guadalcanal Province;Kalima
+0;159.8357,-8.5513;SB-07;Isabel Province;Kalenga
+0;160.1798,-9.7921;SB-06;Guadalcanal Province;Kalavaolu
+0;160.7541,-8.8655;SB-03;Malaita Province;Kalanggwata
+0;160.7333,-8.5500;SB-03;Malaita Province;Kalala’ao
+0;159.7940,-9.1499;SB-10;Central Province;Kalaka
+0;160.5333,-9.7333;SB-06;Guadalcanal Province;Kakendakena
+0;157.0101,-7.2502;SB-12;Choiseul Province;Kakaza
+0;159.9903,-9.8055;SB-06;Guadalcanal Province;Kakavovo
+0;160.8389,-9.8393;SB-06;Guadalcanal Province;Kakaru
+0;160.7000,-8.3333;SB;;Kakaru
+0;160.5892,-9.5719;SB-06;Guadalcanal Province;Kakaro
+0;160.6866,-8.5839;SB-03;Malaita Province;Kakara
+0;159.9167,-9.4167;SB;;Kakambona
+0;157.1312,-7.0801;SB-12;Choiseul Province;Kakalokasa
+0;160.2700,-9.5008;SB-06;Guadalcanal Province;Kakalao
+0;160.2099,-9.6735;SB-06;Guadalcanal Province;Kakalambao
+0;159.5973,-9.3527;SB-06;Guadalcanal Province;Kakalaka
+0;160.7637,-8.5513;SB-03;Malaita Province;Kakalaa’ano
+0;160.3045,-9.4266;SB-06;Guadalcanal Province;Kaio
+0;160.9000,-8.8500;SB-03;Malaita Province;Kafulafiu
+0;160.7356,-8.3681;SB-03;Malaita Province;Kafoi’ilo
+0;160.8833,-8.6167;SB-03;Malaita Province;Kafo’elia
+0;160.6333,-8.3500;SB-03;Malaita Province;Kafoambu
+0;156.8167,-6.8167;SB-12;Choiseul Province;Kaekui
+0;159.6000,-8.1333;SB;;Jejevo
+0;159.8269,-8.3274;SB-07;Isabel Province;Jarava
+0;159.7755,-8.4997;SB-07;Isabel Province;Japuana
+0;159.6890,-9.6546;SB-06;Guadalcanal Province;Isunavara
+0;159.9629,-9.8056;SB-06;Guadalcanal Province;Isuna
+0;160.0924,-9.8171;SB-06;Guadalcanal Province;Isuisu
+0;159.9269,-9.7994;SB-06;Guadalcanal Province;Isuisu
+0;160.5203,-9.6443;SB-06;Guadalcanal Province;Isipeni
+0;159.8413,-9.7969;SB-06;Guadalcanal Province;Iruiru
+0;161.0167,-8.8333;SB;;Ironunu
+0;156.9588,-8.0387;SB-11;Western Province;Iriri
+0;156.5179,-7.6068;SB-11;Western Province;Iringgila
+0;160.6502,-8.4576;SB-03;Malaita Province;Irindofe
+0;157.0123,-8.0985;SB-11;Western Province;Ireke
+0;160.8170,-9.8626;SB-06;Guadalcanal Province;Ione
+0;161.0556,-8.9499;SB-03;Malaita Province;Iofana
+0;160.0252,-9.8129;SB-06;Guadalcanal Province;Ina Visa
+0;159.9667,-9.8000;SB-06;Guadalcanal Province;Ina Vindi
+0;160.1748,-9.8007;SB-06;Guadalcanal Province;Ina Ravu
+0;160.0000,-9.8000;SB-06;Guadalcanal Province;Ina Puru
+0;160.2167,-9.7833;SB-06;Guadalcanal Province;Ina Mbombo
+0;160.1600,-9.7928;SB-06;Guadalcanal Province;Ina Kua
+0;160.0406,-9.8205;SB-06;Guadalcanal Province;Inakona
+0;160.1197,-9.8153;SB-06;Guadalcanal Province;Ina Kala
+0;160.0167,-9.8000;SB-06;Guadalcanal Province;Ina Ghoana
+0;159.7000,-9.6667;SB-06;Guadalcanal Province;Imomoru
+0;157.1063,-8.2861;SB-11;Western Province;Imana
+0;160.7167,-8.4500;SB-03;Malaita Province;Iliki
+0;160.6979,-8.6988;SB-03;Malaita Province;Ilikaliana
+0;157.2863,-8.3371;SB-11;Western Province;Ilangana
+0;160.8790,-9.1649;SB-03;Malaita Province;Igwa
+0;160.8291,-9.7899;SB-06;Guadalcanal Province;Hu’umarere
+0;161.1667,-9.2167;SB-03;Malaita Province;Huru
+0;161.2333,-9.1667;SB-03;Malaita Province;Huru
+0;161.3424,-9.4609;SB-03;Malaita Province;Huri’i
+0;160.8021,-9.8755;SB-06;Guadalcanal Province;Hurihasu
+0;159.2183,-8.1989;SB-07;Isabel Province;Hurepelo
+0;161.4000,-9.4667;SB-03;Malaita Province;Hure
+0;160.5902,-9.7111;SB-06;Guadalcanal Province;Huranahai
+0;161.1811,-9.2258;SB-03;Malaita Province;Hunouri
+0;161.1742,-9.0786;SB-03;Malaita Province;Huni’ama
+0;157.0085,-8.0995;SB-11;Western Province;Hunda
+0;161.3545,-9.4718;SB-03;Malaita Province;Hunanaawa
+0;160.1241,-9.5389;SB-06;Guadalcanal Province;Hulina Manukiki
+0;159.7635,-8.3953;SB-07;Isabel Province;Huali
+0;159.5186,-8.1094;SB-07;Isabel Province;Hovukoilo
+0;157.6007,-8.0956;SB-11;Western Province;Hovoro
+0;159.8147,-8.3708;SB-07;Isabel Province;Hovi
+0;161.2167,-9.2333;SB-03;Malaita Province;Houte’ete’e
+0;161.2000,-9.3833;SB-03;Malaita Province;Housuru
+0;161.1410,-8.9939;SB-03;Malaita Province;Houroho
+0;161.2017,-9.2817;SB-03;Malaita Province;Houro’a
+0;161.1167,-9.1833;SB-03;Malaita Province;Houro
+0;161.2667,-9.2000;SB;;Houripipisu
+0;161.0231,-9.2494;SB-03;Malaita Province;Houri
+0;161.2333,-9.2167;SB-03;Malaita Province;Houparoparo
+0;161.1833,-9.3833;SB-03;Malaita Province;Hounasi
+0;161.0317,-9.2940;SB-03;Malaita Province;Houkona
+0;160.6365,-9.8060;SB-06;Guadalcanal Province;Houhouna
+0;161.1833,-9.1000;SB-03;Malaita Province;Houhepa
+0;161.2000,-9.0833;SB;;Hou’ao
+0;161.2399,-9.4017;SB-03;Malaita Province;Houaha
+0;160.7665,-9.7356;SB-06;Guadalcanal Province;Houa
+0;161.4712,-9.5384;SB-03;Malaita Province;Hote
+0;159.8067,-8.4187;SB-07;Isabel Province;Horara
+0;157.1986,-8.5647;SB-11;Western Province;Hopongo
+0;161.2376,-9.1813;SB-03;Malaita Province;Honoa
+56298;159.9500,-9.4333;SB-14;Honiara;Honiara
+0;160.1831,-9.5052;SB-06;Guadalcanal Province;Hombahohoro
+0;160.4023,-9.7924;SB-06;Guadalcanal Province;Homba
+0;159.6471,-8.1929;SB-07;Isabel Province;Hofi
+0;160.7765,-9.8884;SB-06;Guadalcanal Province;Hirihiripopo
+0;161.2667,-9.5167;SB;;Hirihiriasi
+0;158.0333,-8.5333;SB;;Hihiaka Patukae
+0;161.4862,-9.6390;SB-03;Malaita Province;Heupeine
+0;161.4649,-9.5414;SB-03;Malaita Province;Heuhonu
+0;161.3980,-9.4436;SB-03;Malaita Province;Herepa’a
+0;161.1667,-9.3500;SB-03;Malaita Province;Heranihio
+0;161.4879,-9.5153;SB-03;Malaita Province;Heraniesi
+0;161.1668,-9.2931;SB-03;Malaita Province;Hera
+0;160.2667,-9.0359;SB-10;Central Province;Haverughu
+0;161.1833,-9.0500;SB;;Hautonima
+0;160.8283,-9.8611;SB-06;Guadalcanal Province;Hautahe
+0;161.4833,-9.5000;SB-03;Malaita Province;Hauposo
+0;161.0077,-9.2574;SB-03;Malaita Province;Hauporo
+0;160.8078,-9.8535;SB-06;Guadalcanal Province;Haumera
+0;160.9658,-9.2224;SB-03;Malaita Province;Hauhui
+0;161.1667,-9.3000;SB-03;Malaita Province;Hauhato
+0;161.1879,-9.2533;SB-03;Malaita Province;Hauharii
+0;160.8127,-8.3349;SB-03;Malaita Province;Hatodeea
+0;161.1732,-9.2432;SB-03;Malaita Province;Hatakau
+0;160.1153,-9.0252;SB-10;Central Province;Haroro
+0;161.0364,-9.2463;SB-03;Malaita Province;Harisiu
+0;161.2000,-9.2000;SB-03;Malaita Province;Harisiharihari
+0;161.1667,-9.1500;SB-03;Malaita Province;Harisi
+0;155.8599,-7.0526;SB-11;Western Province;Harehare
+0;161.3167,-9.4333;SB-03;Malaita Province;Harea
+0;155.6992,-6.9864;SB-11;Western Province;Harapa
+0;161.9609,-9.7214;SB-08;Makira-Ulawa Province;Hara’ina
+0;157.3500,-8.5500;SB-11;Western Province;Harai
+0;161.0144,-9.2729;SB-03;Malaita Province;Hapai
+0;157.5647,-8.2954;SB-11;Western Province;Hapai
+0;160.3095,-9.0949;SB-10;Central Province;Hanuvaivine
+0;161.1733,-9.3396;SB-03;Malaita Province;Hanua’apa
+0;160.3486,-9.7695;SB-06;Guadalcanal Province;Hanjohapeule
+0;159.8167,-9.1000;SB;;Haninggela
+0;155.8333,-7.0000;SB;;Hang
+0;161.0222,-9.2849;SB-03;Malaita Province;Hana’anaroho
+0;157.1000,-8.2833;SB-11;Western Province;Hamihumanga
+0;156.9479,-8.0138;SB-11;Western Province;Hambere
+0;159.6000,-9.4167;SB-06;Guadalcanal Province;Haliupai
+0;157.8934,-8.6899;SB-11;Western Province;Halisi
+0;160.1111,-9.0975;SB-10;Central Province;Haleta
+0;160.7904,-8.3156;SB-03;Malaita Province;Haleta
+0;160.2069,-9.1093;SB-10;Central Province;Halavo
+0;160.7833,-9.8833;SB-06;Guadalcanal Province;Halahala
+0;160.2928,-9.1316;SB-10;Central Province;Hakama
+0;160.3700,-9.7161;SB-06;Guadalcanal Province;Haitete
+0;160.3562,-9.6749;SB-06;Guadalcanal Province;Haisighinia
+0;160.2381,-9.6268;SB-06;Guadalcanal Province;Haisavoria
+0;160.2167,-9.7000;SB-06;Guadalcanal Province;Haiparia
+0;160.5758,-9.7091;SB-06;Guadalcanal Province;Hainatoha
+0;160.4036,-9.8041;SB-06;Guadalcanal Province;Haimolumolu
+0;160.3333,-9.7000;SB-06;Guadalcanal Province;Haimbau
+0;160.4014,-9.8601;SB-06;Guadalcanal Province;Haimatua
+0;160.4113,-9.8681;SB-06;Guadalcanal Province;Haimarao
+0;160.0595,-9.4737;SB-06;Guadalcanal Province;Hailupa
+0;160.0313,-9.4887;SB-06;Guadalcanal Province;Hailalua
+0;161.4103,-9.4447;SB-03;Malaita Province;Hahietau
+0;159.7360,-8.3556;SB-07;Isabel Province;Hagheulu
+0;160.1785,-9.0927;SB-10;Central Province;Haghalu
+0;161.9517,-9.7785;SB-08;Makira-Ulawa Province;Hadja
+0;160.1667,-9.8000;SB-06;Guadalcanal Province;Hachogha
+0;161.2925,-9.5236;SB-03;Malaita Province;Haarumou
+0;161.0380,-9.2860;SB-03;Malaita Province;Haa’apu
+0;160.1904,-9.0753;SB-10;Central Province;Haa
+0;160.8167,-8.8000;SB-03;Malaita Province;Gwaunatala
+0;160.7303,-8.5564;SB-03;Malaita Province;Gwaunatafu
+0;160.7960,-8.3963;SB-03;Malaita Province;Gwaunasuu
+0;160.6829,-8.7059;SB-03;Malaita Province;Gwaunaruu
+0;160.6851,-8.6750;SB-03;Malaita Province;Gwaunaoa
+0;160.7105,-8.3394;SB-03;Malaita Province;Gwango
+0;160.7833,-8.8000;SB-03;Malaita Province;Gwaitamba’a
+0;160.8167,-8.8167;SB-03;Malaita Province;Gwaisila
+0;160.8000,-8.6500;SB-03;Malaita Province;Gwa’irade
+0;160.6833,-8.7000;SB-03;Malaita Province;Gwaigeo
+0;160.7680,-8.9230;SB-03;Malaita Province;Gwaidingale
+0;160.7096,-8.7360;SB-03;Malaita Province;Gwaidae’dae
+0;160.7722,-8.6855;SB-03;Malaita Province;Gwa’idae
+0;160.7583,-8.3500;SB-03;Malaita Province;Gwaiareko
+0;160.7510,-8.7233;SB-03;Malaita Province;Gwaiako
+0;160.7667,-8.7833;SB-03;Malaita Province;Gwai’akama
+0;159.6157,-8.1704;SB-07;Isabel Province;Gurena
+0;160.7009,-8.3130;SB-03;Malaita Province;Gouulu
+0;156.7667,-7.0167;SB-12;Choiseul Province;Gotazae
+0;160.1272,-9.6059;SB-06;Guadalcanal Province;Gold Ridge
+0;156.8160,-7.1032;SB-12;Choiseul Province;Goe
+0;159.5386,-8.1292;SB-07;Isabel Province;Gnulahaghe
+7177;156.8419,-8.1030;SB-11;Western Province;Gizo
+0;159.7674,-8.2799;SB-07;Isabel Province;Ghurumei
+0;159.6106,-9.5376;SB-06;Guadalcanal Province;Ghumu
+0;160.2619,-9.1838;SB-10;Central Province;Ghumba
+0;159.6018,-9.3953;SB-06;Guadalcanal Province;Ghulavu
+0;159.6381,-9.5592;SB-06;Guadalcanal Province;Ghoverighi
+0;159.4027,-8.0054;SB-07;Isabel Province;Ghoveo
+0;159.5232,-8.3514;SB-07;Isabel Province;Ghove
+0;159.8290,-9.7940;SB-06;Guadalcanal Province;Ghoromala
+0;160.1803,-9.7969;SB-06;Guadalcanal Province;Ghoroghoro
+0;160.0833,-9.8167;SB-06;Guadalcanal Province;Ghoroghavutu
+0;159.9149,-9.7951;SB-06;Guadalcanal Province;Ghorambau
+0;160.2315,-9.4263;SB-06;Guadalcanal Province;Ghorambau
+0;160.4345,-9.5194;SB-06;Guadalcanal Province;Ghombua
+0;159.8330,-9.7687;SB-06;Guadalcanal Province;Ghombaghoghoro
+0;160.3888,-9.1215;SB-10;Central Province;Ghole
+0;160.4302,-9.5023;SB-06;Guadalcanal Province;Gheghende
+0;160.5449,-9.5432;SB-06;Guadalcanal Province;Ghavighanimumu
+0;160.1822,-9.8116;SB-06;Guadalcanal Province;Ghavigha
+0;159.7141,-9.6978;SB-06;Guadalcanal Province;Ghavagha
+0;159.8333,-9.7342;SB-06;Guadalcanal Province;Ghauvalisi
+0;156.9820,-8.0779;SB-11;Western Province;Ghatere
+0;159.5322,-8.3601;SB-07;Isabel Province;Gharufate
+0;155.6431,-7.0640;SB-11;Western Province;Ghaomai
+0;159.6000,-9.4333;SB;;Ghaningangao
+0;159.8276,-9.7914;SB-06;Guadalcanal Province;Ghalimbere
+0;160.0857,-9.8187;SB-06;Guadalcanal Province;Ghaliatu
+0;159.6667,-9.6167;SB;;Ghaivale
+0;160.2633,-9.8071;SB-06;Guadalcanal Province;Ghaisere
+0;160.2850,-9.1082;SB-10;Central Province;Ghairavu
+0;160.1970,-9.7936;SB-06;Guadalcanal Province;Ghaimanggere
+0;160.1439,-9.4129;SB-06;Guadalcanal Province;Ghaimali
+0;157.1171,-7.0551;SB-12;Choiseul Province;Ghaghara
+0;159.5112,-8.2263;SB-07;Isabel Province;Ghaghagra
+0;160.7167,-8.7500;SB-03;Malaita Province;Gegena’ua
+0;156.7667,-7.0167;SB-12;Choiseul Province;Gatakesa
+0;156.9961,-7.2421;SB-12;Choiseul Province;Galovae
+0;160.3646,-9.4770;SB-06;Guadalcanal Province;Galilee
+0;160.9700,-8.6073;SB-03;Malaita Province;Gagalu
+0;160.6833,-8.4667;SB-03;Malaita Province;Furuana
+0;159.0960,-8.1273;SB-07;Isabel Province;Furona
+0;161.0188,-8.9617;SB-03;Malaita Province;Furi’ilai
+0;161.0667,-8.9167;SB-03;Malaita Province;Furii’au
+0;160.7333,-8.4000;SB-03;Malaita Province;Furii
+0;159.5439,-8.1406;SB-07;Isabel Province;Fupukuna
+0;161.0333,-8.9000;SB-03;Malaita Province;Funii’au
+0;161.0333,-8.8667;SB-03;Malaita Province;Funiau
+0;160.8296,-9.0924;SB-03;Malaita Province;Fulo
+0;160.7390,-8.4031;SB-03;Malaita Province;Fulitafe
+0;160.7537,-8.7447;SB-03;Malaita Province;Fulisango
+0;160.8345,-8.7202;SB-03;Malaita Province;Fuligura
+0;160.5790,-8.3319;SB-03;Malaita Province;Fulifo’oe
+0;160.7404,-8.8395;SB-03;Malaita Province;Fuli
+0;161.0654,-8.9488;SB-03;Malaita Province;Fula’ambu
+0;161.1579,-8.9774;SB-03;Malaita Province;Fula
+0;159.6339,-8.1711;SB-07;Isabel Province;Fukha
+0;160.8985,-8.5158;SB-03;Malaita Province;Fuaga
+0;161.0500,-8.9333;SB-03;Malaita Province;Foutoru
+0;161.0667,-8.9167;SB-03;Malaita Province;Fouongge
+0;160.7593,-8.2950;SB-03;Malaita Province;Foumamatoo
+0;161.0365,-8.9168;SB-03;Malaita Province;Foulandasusu
+0;160.7495,-8.3332;SB-03;Malaita Province;Foukwakwaoa
+0;160.8426,-8.4566;SB-03;Malaita Province;Fouia
+0;160.8011,-8.4065;SB-03;Malaita Province;Fouambu
+0;160.9417,-8.8231;SB-03;Malaita Province;Fote
+0;160.6637,-8.6312;SB-03;Malaita Province;Fote
+0;160.6515,-8.4601;SB-03;Malaita Province;Fo’ondo
+0;160.6761,-8.4821;SB-03;Malaita Province;Folotana
+0;160.7651,-8.9128;SB-03;Malaita Province;Fo’au
+0;159.5060,-8.2522;SB-07;Isabel Province;Foafora
+0;160.8563,-8.4888;SB-03;Malaita Province;Fiumbu
+0;160.7042,-8.7242;SB-03;Malaita Province;Fiu
+0;160.5864,-8.3382;SB-03;Malaita Province;Fiti
+0;160.7427,-8.8608;SB-03;Malaita Province;Firifau
+0;158.6525,-7.7927;SB-07;Isabel Province;Filuo
+0;159.5999,-8.3017;SB-07;Isabel Province;Fifihu
+0;160.9500,-8.6833;SB-03;Malaita Province;Ferasimi
+0;160.9238,-8.7602;SB-03;Malaita Province;Ferasi
+0;160.9500,-8.5500;SB;;Feranaso
+0;160.9536,-8.6927;SB-03;Malaita Province;Feranagono
+0;160.9500,-8.6667;SB-03;Malaita Province;Ferafalu
+0;160.7900,-8.2916;SB-03;Malaita Province;Ferafalu
+0;160.7935,-8.8648;SB-03;Malaita Province;Fausindio
+0;161.0019,-8.6561;SB-03;Malaita Province;Faunikari
+0;160.8833,-8.4667;SB;;Faumbaekwa
+0;160.9327,-8.7806;SB-03;Malaita Province;Faumamanu
+0;160.7386,-8.5489;SB-03;Malaita Province;Faulaloia
+0;160.8497,-8.7438;SB-03;Malaita Province;Fauketa
+0;160.7167,-8.7500;SB-03;Malaita Province;Fauiolo
+0;160.7131,-8.3373;SB-03;Malaita Province;Faufanea
+0;161.0167,-8.8333;SB;;Faufalu
+0;160.7376,-8.8688;SB-03;Malaita Province;Faufala
+0;160.8715,-8.7774;SB-03;Malaita Province;Faubala
+0;160.7775,-8.8397;SB-03;Malaita Province;Fauala
+0;160.7447,-8.8220;SB-03;Malaita Province;Fauabu
+0;160.7167,-8.5667;SB;;Fauabu
+0;160.7902,-8.3992;SB-03;Malaita Province;Fata’olo
+0;161.0333,-8.8333;SB;;Farumalaula
+0;161.0667,-8.9000;SB;;Farisi
+0;161.0167,-8.9167;SB-03;Malaita Province;Fanuamba’ita
+0;161.0427,-8.9361;SB-03;Malaita Province;Fanuafalai
+0;161.0091,-8.9689;SB-03;Malaita Province;Fangamboni
+0;161.5512,-9.5595;SB-03;Malaita Province;Fanelei
+0;160.7333,-8.8333;SB;;Falambulu
+0;155.5749,-7.3987;SB-11;Western Province;Falamae
+0;160.6981,-8.7540;SB-03;Malaita Province;Faibubulia
+0;160.7024,-8.7107;SB-03;Malaita Province;Faiako
+0;161.0167,-8.9333;SB-03;Malaita Province;Fafalona
+0;160.9392,-8.6880;SB-03;Malaita Province;Fa’asileta
+0;160.7119,-8.5356;SB-03;Malaita Province;Faasaale
+0;160.7438,-8.8516;SB-03;Malaita Province;Fa’arau
+0;160.7640,-8.4593;SB-03;Malaita Province;Faandile
+0;160.7000,-8.5000;SB-03;Malaita Province;Faalau
+0;161.0167,-8.9500;SB-03;Malaita Province;’Eteala
+0;160.7575,-8.7768;SB-03;Malaita Province;’Ere’eresulu
+0;157.2347,-8.2977;SB-11;Western Province;Engarano
+0;156.6394,-6.6708;SB-12;Choiseul Province;Enara
+0;156.6000,-8.1167;SB-11;Western Province;Ena
+0;161.4078,-9.5201;SB-03;Malaita Province;Eliote
+0;156.7240,-7.8309;SB-11;Western Province;Eleoteve
+0;157.3667,-8.4000;SB;;Eghelo
+0;157.1416,-7.1268;SB-12;Choiseul Province;Dundurava
+0;159.7500,-8.2833;SB-07;Isabel Province;Down Wind
+0;160.9167,-9.1667;SB-03;Malaita Province;Dinare
+0;160.8185,-8.3267;SB-03;Malaita Province;Dikona’ara
+0;160.3731,-9.4814;SB-06;Guadalcanal Province;Dhavoa
+0;159.8004,-8.5265;SB-07;Isabel Province;Dhadhaje
+0;158.8698,-7.9639;SB-07;Isabel Province;Dedeu
+0;161.0599,-8.9525;SB-03;Malaita Province;Dauta’e
+0;160.7500,-8.6333;SB-03;Malaita Province;Dau
+0;160.9167,-8.5333;SB;;Daringali
+0;160.7451,-8.8546;SB-03;Malaita Province;Daolusu
+0;160.6848,-8.5987;SB-03;Malaita Province;Dala
+0;159.1167,-8.1167;SB-07;Isabel Province;Dadale
+0;160.7066,-8.5693;SB-03;Malaita Province;Dadaku’ulua
+0;160.7070,-8.7204;SB-03;Malaita Province;Dada’isalu
+0;160.1833,-9.5000;SB-06;Guadalcanal Province;Chuva
+0;160.3986,-9.8181;SB-06;Guadalcanal Province;Chupuchupu
+0;160.2774,-9.7768;SB-06;Guadalcanal Province;Chuma
+0;157.8928,-8.5123;SB-11;Western Province;Chuchulu
+0;157.9000,-8.7000;SB-11;Western Province;Chombu
+0;159.6500,-9.5833;SB-06;Guadalcanal Province;Chombonavaka
+0;160.4139,-9.5877;SB-06;Guadalcanal Province;Chokare
+0;160.2367,-9.6314;SB-06;Guadalcanal Province;Choha
+0;160.1800,-9.8129;SB-06;Guadalcanal Province;Choghiri
+0;159.6000,-9.5167;SB-06;Guadalcanal Province;Chochokiki
+0;160.1358,-9.8155;SB-06;Guadalcanal Province;Chocho
+0;159.8833,-9.7667;SB-06;Guadalcanal Province;Chocho
+0;156.5500,-6.6333;SB;;Chivoko
+0;156.5512,-6.6475;SB-12;Choiseul Province;Chirovanga
+0;159.8167,-9.4500;SB-06;Guadalcanal Province;Chiri
+50;160.1500,-9.1000;SB;;Chinatown
+0;159.8850,-9.7796;SB-06;Guadalcanal Province;Chimbakoghe
+0;160.4199,-9.5844;SB-06;Guadalcanal Province;Chili
+0;158.0935,-8.5279;SB-11;Western Province;Chemoho
+0;157.9333,-8.5167;SB;;Chemoho
+0;160.2333,-9.8000;SB-06;Guadalcanal Province;Chelu
+0;158.0857,-8.5260;SB-11;Western Province;Cheke
+0;160.3755,-9.8163;SB-06;Guadalcanal Province;Checheche
+0;158.0159,-8.5022;SB-11;Western Province;Chea
+0;159.5979,-9.3504;SB-06;Guadalcanal Province;Chavunggao
+0;159.8796,-9.7129;SB-06;Guadalcanal Province;Chaukandora
+0;160.1167,-9.5333;SB-06;Guadalcanal Province;Chari Ndoke
+0;160.1475,-9.5819;SB-06;Guadalcanal Province;Charihaivati
+0;160.2788,-9.8104;SB-06;Guadalcanal Province;Charavutu
+0;159.8533,-9.7305;SB-06;Guadalcanal Province;Charanimate
+0;160.2376,-9.8090;SB-06;Guadalcanal Province;Charanggao
+0;159.7198,-9.2569;SB-06;Guadalcanal Province;Chapuru
+0;159.7657,-9.7309;SB-06;Guadalcanal Province;Chapunamo
+0;159.7400,-9.7219;SB-06;Guadalcanal Province;Chapana
+0;160.0667,-9.8000;SB-06;Guadalcanal Province;Chalimpale
+0;159.8776,-9.7480;SB-06;Guadalcanal Province;Chakundale
+0;159.6739,-9.6193;SB-06;Guadalcanal Province;Chaghoe
+0;159.7167,-9.6833;SB-06;Guadalcanal Province;Chachara
+0;161.0037,-8.8485;SB-03;Malaita Province;Canaan
+0;160.1628,-9.4102;SB-06;Guadalcanal Province;Caledonia
+0;160.8018,-8.7793;SB-03;Malaita Province;Busuone
+0;160.7333,-8.8833;SB;;Busu
+0;160.9833,-8.6500;SB-03;Malaita Province;Burianiasi
+0;159.6636,-8.5053;SB-07;Isabel Province;Bungusile
+0;160.8167,-8.9500;SB-03;Malaita Province;Buma
+0;160.6863,-8.6905;SB-03;Malaita Province;Buma
+0;160.7441,-8.8998;SB-03;Malaita Province;Bulabu
+0;160.7333,-8.8500;SB;;Bula
+2700;159.5921,-8.1450;SB-07;Isabel Province;Buala
+0;159.7977,-8.3090;SB-07;Isabel Province;Boubosu
+0;159.0197,-7.8498;SB-07;Isabel Province;Bolitei
+0;159.8363,-8.3335;SB-07;Isabel Province;Bokolo
+0;160.9442,-9.1896;SB-03;Malaita Province;Bira
+0;160.6783,-8.6690;SB-03;Malaita Province;Bio
+0;160.7626,-8.9314;SB-03;Malaita Province;Bina
+0;159.4271,-8.2970;SB-07;Isabel Province;Biluro
+0;160.6965,-8.5692;SB-03;Malaita Province;Bifonu
+0;157.1167,-8.3000;SB;;Bethany
+0;160.8590,-9.1400;SB-03;Malaita Province;Baunani
+0;159.6038,-8.1905;SB-07;Isabel Province;Bara
+0;158.7997,-7.6655;SB-07;Isabel Province;Baolo
+0;157.0500,-7.1667;SB-12;Choiseul Province;Balu
+0;161.5500,-9.5667;SB;;Balasu’u
+0;160.7120,-8.5305;SB-03;Malaita Province;Bakofu
+0;159.6642,-8.2069;SB-07;Isabel Province;Baghovu
+0;160.8731,-9.8333;SB-06;Guadalcanal Province;Awanararu
+0;160.3904,-9.8453;SB-06;Guadalcanal Province;Avu Avu
+0;160.3800,-9.8439;SB-06;Guadalcanal Province;Avuavu
+0;159.7366,-9.7200;SB-06;Guadalcanal Province;Avisi
+0;161.1698,-9.0425;SB-03;Malaita Province;Aupono
+0;161.5764,-9.6694;SB-03;Malaita Province;A’ulupeine
+7020;160.6978,-8.7678;SB-03;Malaita Province;Auki
+0;160.8015,-8.5086;SB-03;Malaita Province;Auangisia
+0;159.5526,-8.2781;SB-07;Isabel Province;Au’alu
+0;160.3333,-9.4167;SB-06;Guadalcanal Province;Au
+0;157.2671,-8.6350;SB-11;Western Province;Au
+0;160.5667,-8.3667;SB;;Atuatu
+0;160.9332,-8.7385;SB-03;Malaita Province;Atori
+0;161.0045,-8.8697;SB-03;Malaita Province;Ato’ifi
+0;161.1289,-9.0106;SB-03;Malaita Province;Atohau
+0;160.9005,-8.5069;SB-03;Malaita Province;Ato
+0;160.8717,-9.1587;SB-03;Malaita Province;Asimana
+0;160.8816,-8.7888;SB-03;Malaita Province;Asibonga
+0;160.8480,-8.5873;SB-03;Malaita Province;Asaibala
+0;159.7667,-9.2833;SB;;Aruliho
+0;160.6423,-9.9007;SB-06;Guadalcanal Province;Arovachivi
+0;161.9880,-9.8563;SB-08;Makira-Ulawa Province;Arona
+0;160.0571,-9.4760;SB-06;Guadalcanal Province;Aroaro
+0;160.3268,-9.4194;SB-06;Guadalcanal Province;Aroaro
+0;161.9820,-9.7439;SB-08;Makira-Ulawa Province;Aroaha
+0;159.6068,-9.4035;SB-06;Guadalcanal Province;Aro
+0;159.8667,-9.3667;SB;;Araveu
+0;161.1839,-9.2002;SB-03;Malaita Province;Arasi
+0;159.9373,-9.4532;SB-06;Guadalcanal Province;Araro Puti
+0;161.1833,-9.0833;SB-03;Malaita Province;Ara’ou
+0;160.6793,-8.4948;SB-03;Malaita Province;Arao
+0;161.2333,-9.4667;SB;;Aranimamu
+0;160.9167,-8.5167;SB;;Araki
+0;160.7605,-8.8980;SB-03;Malaita Province;Arabala
+0;161.1833,-9.1833;SB-03;Malaita Province;Apunahunu
+0;161.1849,-9.2840;SB-03;Malaita Province;Apuiraramua
+0;161.4167,-9.4000;SB-03;Malaita Province;Apuara
+0;161.4000,-9.6167;SB;;Apio
+0;161.4833,-9.5000;SB-03;Malaita Province;Aopasi
+0;161.2167,-9.3500;SB-03;Malaita Province;A’opasi
+0;160.0690,-9.8115;SB-06;Guadalcanal Province;Aona
+0;160.4879,-9.5349;SB-06;Guadalcanal Province;Aola
+0;161.1333,-9.3500;SB;;Anutaiasi
+0;161.4357,-9.6593;SB-03;Malaita Province;Anotole
+0;160.9963,-8.6581;SB-03;Malaita Province;Anokwakwale
+0;160.8180,-8.4618;SB-03;Malaita Province;Anoketo
+0;160.7249,-8.6569;SB-03;Malaita Province;Anofalake
+0;160.8856,-8.5796;SB-03;Malaita Province;Anofai
+0;160.7709,-8.9921;SB-03;Malaita Province;Anoano
+0;160.6055,-8.3452;SB-03;Malaita Province;Aniuke
+0;161.5167,-9.5333;SB-03;Malaita Province;Angali
+0;161.4833,-9.5333;SB-03;Malaita Province;Angali
+0;161.0442,-8.9262;SB-03;Malaita Province;Ane’efafako
+0;160.6167,-8.3667;SB-03;Malaita Province;Andi
+0;160.3629,-9.5540;SB-06;Guadalcanal Province;Andevadhu
+0;160.4556,-9.4809;SB-06;Guadalcanal Province;Andeande
+0;160.7362,-8.3988;SB-03;Malaita Province;Anda’ua
+0;160.5882,-8.3339;SB-03;Malaita Province;Andandaiesi
+0;160.7333,-8.5667;SB-03;Malaita Province;Anakelo
+0;160.3667,-9.5500;SB-06;Guadalcanal Province;Ambuporondavi
+0;160.7500,-8.9667;SB-03;Malaita Province;’Ambungali
+0;160.1500,-9.4333;SB-06;Guadalcanal Province;Ambuambili
+0;161.0167,-8.9167;SB-03;Malaita Province;Amboiosi
+0;160.6363,-9.6167;SB-06;Guadalcanal Province;Ama
+0;160.2667,-9.8000;SB-06;Guadalcanal Province;Alundava
+0;160.1314,-9.6840;SB-06;Guadalcanal Province;Alotatahoma
+0;160.1631,-9.7942;SB-06;Guadalcanal Province;Alosolo
+0;159.6058,-9.4029;SB-06;Guadalcanal Province;Alogha
+0;160.0732,-9.4246;SB-06;Guadalcanal Province;Alligator Creek
+0;160.6667,-8.4667;SB-03;Malaita Province;Alite’au
+0;160.7453,-8.7687;SB-03;Malaita Province;Alikata
+0;160.6919,-8.7495;SB-03;Malaita Province;Aligegeo
+0;159.8181,-9.1008;SB-10;Central Province;Alialia
+0;160.9833,-8.6667;SB-03;Malaita Province;Alafe
+0;160.6809,-8.4885;SB-03;Malaita Province;Akwe
+0;160.7504,-8.3383;SB-03;Malaita Province;Akwariri
+0;160.7333,-8.5500;SB-03;Malaita Province;Aisisiki
+0;160.7762,-8.8078;SB-03;Malaita Province;Aisiko
+0;161.0167,-8.9167;SB-03;Malaita Province;’Aisi’ina
+0;160.9426,-8.7083;SB-03;Malaita Province;Aisato
+0;160.8105,-8.6378;SB-03;Malaita Province;Aisasale
+0;161.0333,-8.9500;SB-03;Malaita Province;’Airumu
+0;161.1740,-9.2871;SB-03;Malaita Province;Airaea
+0;161.0500,-8.9000;SB-03;Malaita Province;’Ainimae
+0;161.0167,-8.9000;SB-03;Malaita Province;’Ai Ni Mae
+0;160.7035,-8.7327;SB-03;Malaita Province;’Aimela
+0;160.6940,-8.3287;SB-03;Malaita Province;Aimela
+0;161.0326,-8.9142;SB-03;Malaita Province;’Aimburu
+0;160.7613,-8.9237;SB-03;Malaita Province;Ailau
+0;160.8222,-8.4628;SB-03;Malaita Province;’Ailali
+0;161.0167,-8.9333;SB-03;Malaita Province;Aifiri
+0;161.0533,-8.9370;SB-03;Malaita Province;’Aifaafasu
+0;161.0794,-9.3122;SB-03;Malaita Province;Aiasi
+0;160.7287,-8.5725;SB-03;Malaita Province;Aiasi
+0;161.9628,-9.8240;SB-08;Makira-Ulawa Province;Ahi’a
+0;161.1859,-9.2163;SB-03;Malaita Province;Ahe’ohia
+0;161.4086,-9.5788;SB-03;Malaita Province;Ahenawai
+0;155.7368,-7.1010;SB-11;Western Province;Ahatu
+0;160.8198,-8.6101;SB-03;Malaita Province;Ageraba
+0;160.9502,-9.1922;SB-03;Malaita Province;Afutara
+0;160.7500,-8.3667;SB-03;Malaita Province;Afusalo
+0;160.5622,-8.3490;SB-03;Malaita Province;Afufu
+0;160.7500,-8.5833;SB-03;Malaita Province;Afudodo
+0;161.1976,-9.2989;SB-03;Malaita Province;Aerotoro
+0;160.6411,-8.3574;SB-03;Malaita Province;Aenathaia
+0;161.1167,-9.2000;SB-03;Malaita Province;Aenariki
+0;160.9545,-8.5814;SB-03;Malaita Province;Aenalite
+0;160.6378,-8.4267;SB-03;Malaita Province;Aenaangingi
+0;161.0167,-9.2500;SB-03;Malaita Province;Aena’aiwasi
+0;160.8167,-8.4167;SB-03;Malaita Province;Ae’akwato
+0;160.9333,-9.1833;SB-03;Malaita Province;Abungari
+0;160.7023,-8.7757;SB-03;Malaita Province;Abu
+0;160.9667,-8.6833;SB-03;Malaita Province;Abe
+0;160.7640,-8.9164;SB-03;Malaita Province;Abalolo
+0;160.8318,-9.8318;SB-06;Guadalcanal Province;Aarite
+0;160.9322,-8.8002;SB-03;Malaita Province;A’arai
+0;160.8657,-8.6868;SB-03;Malaita Province;Aanosusura
+0;160.1573,-9.0885;SB-10;Central Province;A’ama
+0;160.6294,-8.3495;SB-03;Malaita Province;A’ama
+0;161.2000,-9.0500;SB;;Aakae
+0;159.8167,-8.4500;SB-07;Isabel Province;Kerepei
+0;159.8302,-8.4601;SB-07;Isabel Province;Lageba
+0;160.1667,-9.0167;SB-10;Central Province;Haghela
+0;156.6167,-8.1167;SB;;Pilopilo
+0;156.5333,-8.0667;SB;;Ranongga
+0;156.6333,-8.0500;SB;;Dai
+0;156.5833,-7.7833;SB;;Oula
+0;156.7672,-7.7919;SB-11;Western Province;Narowai
+0;156.7868,-7.7622;SB-11;Western Province;Biporo
+0;156.5363,-7.7016;SB-11;Western Province;Wataro
+0;156.5000,-7.6917;SB;;Reva
+0;156.7333,-7.6833;SB;;Horaniu
+0;156.6333,-7.5833;SB;;Marisi
+0;156.6333,-7.5667;SB;;Boro
+0;156.5833,-7.5500;SB;;Tambama
+0;157.8167,-8.2667;SB-11;Western Province;Konggu
+0;158.8031,-7.6906;SB-07;Isabel Province;Rongolegu
+0;161.8744,-10.5796;SB-08;Makira-Ulawa Province;Wugiroga
+0;162.0541,-10.4831;SB-08;Makira-Ulawa Province;Werobungia
+0;162.0167,-10.5333;SB-08;Makira-Ulawa Province;Wataro
+0;162.0498,-10.4876;SB-08;Makira-Ulawa Province;Wanione
+0;162.0501,-10.5251;SB-08;Makira-Ulawa Province;Wango
+0;161.5667,-10.3000;SB-08;Makira-Ulawa Province;Wango
+0;161.8500,-10.7667;SB;;Wakora
+0;161.9156,-10.7774;SB-08;Makira-Ulawa Province;Wainaworasi
+0;161.4696,-10.2426;SB-08;Makira-Ulawa Province;Waimarae
+0;161.8165,-10.4497;SB-08;Makira-Ulawa Province;Waimapuru
+0;165.7783,-10.7334;SB-09;Temotu Province;Venga
+0;166.9667,-11.6167;SB-09;Temotu Province;Vanikoro
+0;166.7941,-11.6237;SB-09;Temotu Province;Vana (Lovono)
+0;159.9667,-11.5333;SB-13;Rennell and Bellona Province;’Uvea
+0;161.2760,-10.2700;SB-08;Makira-Ulawa Province;Unawa
+0;161.7066,-10.2481;SB-08;Makira-Ulawa Province;Umara Village
+0;161.3686,-10.1951;SB-08;Makira-Ulawa Province;Ubuna
+0;166.2333,-10.2667;SB;;Tuo
+0;160.4111,-11.7484;SB-13;Rennell and Bellona Province;Tuhungganggo
+0;162.1080,-10.5053;SB-08;Makira-Ulawa Province;Toroa
+0;161.5667,-10.3000;SB-08;Makira-Ulawa Province;Toriowango
+0;162.4500,-10.8833;SB-08;Makira-Ulawa Province;Toghorei
+0;161.4871,-10.4250;SB-08;Makira-Ulawa Province;Tetere
+0;166.9732,-11.7084;SB-09;Temotu Province;Temuo
+0;161.3866,-10.1998;SB-08;Makira-Ulawa Province;Tawatana
+0;161.4333,-10.2167;SB;;Tawasubwe
+0;162.0500,-10.4667;SB;;Tawasu
+0;162.2711,-10.7386;SB-08;Makira-Ulawa Province;Tawarogha
+0;161.7592,-10.2724;SB-08;Makira-Ulawa Province;Tawarodo
+0;161.4333,-10.3500;SB-08;Makira-Ulawa Province;Tawaraha
+0;161.9278,-10.4518;SB-08;Makira-Ulawa Province;Tawani
+0;161.3005,-10.2081;SB-08;Makira-Ulawa Province;Tawaibu
+0;161.3167,-10.2000;SB;;Tarosi
+0;161.9247,-10.4500;SB-08;Makira-Ulawa Province;Taratarau
+0;166.5746,-11.2544;SB-09;Temotu Province;Tanimbili
+0;162.0555,-10.5109;SB-08;Makira-Ulawa Province;Tametame
+0;165.9791,-10.6610;SB-09;Temotu Province;Taepe
+0;161.4156,-10.3505;SB-08;Makira-Ulawa Province;Suruaharau
+0;161.7457,-10.2953;SB-08;Makira-Ulawa Province;Sungasau
+0;161.7330,-10.2205;SB-08;Makira-Ulawa Province;Su’ena
+0;162.1039,-10.4964;SB-08;Makira-Ulawa Province;Rumatari
+0;161.2749,-10.3181;SB-08;Makira-Ulawa Province;Rumahui
+0;162.1138,-10.5160;SB-08;Makira-Ulawa Province;Rongomae
+0;162.0370,-10.5076;SB-08;Makira-Ulawa Province;Rama
+0;162.4455,-10.8854;SB-08;Makira-Ulawa Province;Raghapu
+0;161.8229,-10.7506;SB-08;Makira-Ulawa Province;Raa
+0;166.9569,-11.6332;SB-09;Temotu Province;Puma
+0;161.7324,-10.2789;SB-08;Makira-Ulawa Province;Pawa
+0;162.3594,-10.8438;SB-08;Makira-Ulawa Province;Pasifutogha
+0;161.6833,-10.7000;SB;;Panuhe
+0;161.7503,-10.4111;SB-08;Makira-Ulawa Province;Pamua
+0;166.8376,-11.6877;SB;;Paeu
+0;162.0970,-10.4936;SB-08;Makira-Ulawa Province;Paa
+0;161.3699,-10.3361;SB-08;Makira-Ulawa Province;Oneibia
+0;161.4618,-10.3644;SB-08;Makira-Ulawa Province;Onehatare
+0;161.9116,-10.5594;SB-08;Makira-Ulawa Province;Okeoke
+0;166.9500,-11.6833;SB-09;Temotu Province;Ocili
+0;166.9214,-11.6547;SB-09;Temotu Province;Numbuko
+0;165.9611,-10.6631;SB-09;Temotu Province;Nuela
+0;165.7833,-10.7167;SB;;Nudungi
+0;165.8523,-10.8525;SB-09;Temotu Province;Nööle
+0;165.7833,-10.8167;SB-09;Temotu Province;Nonume
+0;165.8646,-10.8623;SB-09;Temotu Province;Nonea
+0;166.0000,-10.6667;SB-09;Temotu Province;Noka
+0;160.4197,-11.7230;SB-13;Rennell and Bellona Province;Niupani
+0;161.8914,-10.4475;SB-08;Makira-Ulawa Province;Ngorangora
+0;161.3667,-10.3167;SB-08;Makira-Ulawa Province;Ngaria’ura
+0;165.8167,-10.6833;SB-09;Temotu Province;Nevea
+0;166.2500,-10.3167;SB;;Nenbo
+0;165.7833,-10.8167;SB-09;Temotu Province;Nemboe
+0;166.4878,-11.2761;SB-09;Temotu Province;Nembao
+0;165.7534,-10.7856;SB-09;Temotu Province;Nemba
+0;165.7875,-10.7248;SB-09;Temotu Province;Nele
+0;165.7333,-10.8500;SB;;Nefua
+0;165.8333,-10.8500;SB;;Neembuna
+0;165.7833,-10.8333;SB-09;Temotu Province;Nea
+0;161.8000,-10.7333;SB-08;Makira-Ulawa Province;Na Wosi
+0;162.1068,-10.5162;SB-08;Makira-Ulawa Province;Naworihu
+0;162.4813,-10.8398;SB-08;Makira-Ulawa Province;Nataghera
+0;162.2589,-10.7828;SB-08;Makira-Ulawa Province;Nasuraghena
+0;162.2981,-10.8393;SB-08;Makira-Ulawa Province;Naruka
+0;161.8333,-10.7500;SB-08;Makira-Ulawa Province;Narohei
+0;162.1333,-10.5833;SB-08;Makira-Ulawa Province;Narano
+0;162.1504,-10.5986;SB-08;Makira-Ulawa Province;Napurongo
+0;162.1000,-10.8333;SB-08;Makira-Ulawa Province;Napasiwai
+0;162.1363,-10.6460;SB-08;Makira-Ulawa Province;Naparesusu
+0;162.1039,-10.5094;SB-08;Makira-Ulawa Province;Naparenawa
+0;162.4500,-10.8833;SB-08;Makira-Ulawa Province;Naparaomafai
+0;162.1667,-10.6000;SB;;Naparaohau
+0;162.0167,-10.5333;SB-08;Makira-Ulawa Province;Napaghewa
+0;162.1445,-10.6690;SB-08;Makira-Ulawa Province;Nanepe
+0;162.0557,-10.6266;SB-08;Makira-Ulawa Province;Namaturi
+0;162.0474,-10.6262;SB-08;Makira-Ulawa Province;Namasi
+0;162.0412,-10.5098;SB-08;Makira-Ulawa Province;Namarango
+0;166.2500,-10.2667;SB;;Namania
+0;162.0275,-10.5418;SB-08;Makira-Ulawa Province;Namakohigho
+0;166.7833,-11.6167;SB;;Nama
+0;161.8667,-10.4833;SB-08;Makira-Ulawa Province;Nakutei
+0;161.8717,-10.4566;SB-08;Makira-Ulawa Province;Nakuma
+0;162.1593,-10.5841;SB-08;Makira-Ulawa Province;Nakuhu
+0;162.1199,-10.5192;SB-08;Makira-Ulawa Province;Nahahau
+0;162.1501,-10.6028;SB-08;Makira-Ulawa Province;Naghighi
+0;162.1114,-10.5427;SB-08;Makira-Ulawa Province;Naghatare
+0;162.1444,-10.6204;SB-08;Makira-Ulawa Province;Naghania
+0;162.4729,-10.8474;SB-08;Makira-Ulawa Province;Nafinuatogho
+0;162.2025,-10.6719;SB-08;Makira-Ulawa Province;Naana
+0;162.2507,-10.8053;SB-08;Makira-Ulawa Province;Mwareiraro
+0;162.1759,-10.8209;SB-08;Makira-Ulawa Province;Mwaniwowo
+0;161.7566,-10.2869;SB;;Mwanipua
+0;161.8894,-10.4497;SB-08;Makira-Ulawa Province;Mwanimaoru
+0;161.8667,-10.4500;SB;;Mwanihuki
+0;162.2614,-10.6921;SB-08;Makira-Ulawa Province;Mwanibwaghosu
+0;165.8500,-10.6833;SB;;Menelu
+0;165.7333,-10.8500;SB;;Menamini
+0;161.8667,-10.5667;SB-08;Makira-Ulawa Province;Menai
+0;159.7833,-11.2833;SB-13;Rennell and Bellona Province;Matahenua
+0;165.9640,-10.7513;SB-09;Temotu Province;Masoko
+0;161.7771,-10.7250;SB-08;Makira-Ulawa Province;Marunga
+0;161.6539,-10.6145;SB-08;Makira-Ulawa Province;Maroghu
+0;162.0151,-10.7904;SB-08;Makira-Ulawa Province;Maraoni
+0;161.8952,-10.5844;SB-08;Makira-Ulawa Province;Maraone
+0;161.4004,-10.2053;SB-08;Makira-Ulawa Province;Maranu’u
+0;160.4081,-11.6725;SB-13;Rennell and Bellona Province;Manupisu
+0;166.2500,-10.2833;SB-09;Temotu Province;Manuopo
+0;161.2500,-10.3000;SB;;Manuagere
+0;161.8730,-10.4629;SB-08;Makira-Ulawa Province;Manipwena
+0;161.5396,-10.2735;SB-08;Makira-Ulawa Province;Maniora
+0;161.8500,-10.4833;SB-08;Makira-Ulawa Province;Manihinua
+0;161.8836,-10.5447;SB-08;Makira-Ulawa Province;Manighai
+0;161.9009,-10.5888;SB-08;Makira-Ulawa Province;Maniate
+0;162.1404,-10.5514;SB-08;Makira-Ulawa Province;Maniate
+0;162.0447,-10.4972;SB-08;Makira-Ulawa Province;Maniate
+0;159.9808,-11.4745;SB-13;Rennell and Bellona Province;Manggautu
+0;161.9925,-10.4984;SB-08;Makira-Ulawa Province;Manewiriwiri
+0;161.5867,-10.3165;SB-08;Makira-Ulawa Province;Manewaro
+0;161.3667,-10.3000;SB-08;Makira-Ulawa Province;Maneura
+0;162.0667,-10.6167;SB-08;Makira-Ulawa Province;Manegohere
+0;162.0840,-10.5181;SB-08;Makira-Ulawa Province;Manakia
+0;162.3294,-10.8366;SB-08;Makira-Ulawa Province;Mami
+0;165.8167,-10.7000;SB;;Malue
+0;166.5213,-11.2163;SB-09;Temotu Province;Malombo
+0;165.7989,-10.6986;SB-09;Temotu Province;Malo
+0;161.6476,-10.3575;SB-08;Makira-Ulawa Province;Malitawaniuhu
+0;165.7167,-10.8333;SB;;Malemgeulu
+0;166.3060,-10.2213;SB-09;Temotu Province;Malapu
+0;162.2292,-10.8258;SB-08;Makira-Ulawa Province;Makorukoru
+0;161.7629,-10.2578;SB-08;Makira-Ulawa Province;Makia
+0;165.7500,-10.7333;SB;;Lwowa
+0;165.9333,-10.6667;SB-09;Temotu Province;Lueselemba
+0;166.3580,-10.2652;SB-09;Temotu Province;Lipe
+0;160.2802,-11.6560;SB-13;Rennell and Bellona Province;Lavanggu
+0;166.8915,-11.5920;SB-09;Temotu Province;Lavaka
+553;165.7972,-10.7250;SB-09;Temotu Province;Lata
+0;166.7996,-11.6115;SB-09;Temotu Province;Lale
+2107;161.9204,-10.4544;SB-08;Makira-Ulawa Province;Kirakira
+0;161.7328,-10.2821;SB-08;Makira-Ulawa Province;Kerepei
+0;161.7823,-10.4152;SB-08;Makira-Ulawa Province;Kaonasughu
+0;161.6983,-10.3878;SB-08;Makira-Ulawa Province;Kaokaona
+0;160.3187,-11.6853;SB-13;Rennell and Bellona Province;Kanggava
+0;160.1622,-11.6248;SB-13;Rennell and Bellona Province;Kanava’eha
+0;160.0097,-11.5166;SB-13;Rennell and Bellona Province;Kaanggua
+0;162.0401,-10.8051;SB-08;Makira-Ulawa Province;Iaru
+0;161.3574,-10.2630;SB-08;Makira-Ulawa Province;Huro
+0;161.7508,-10.2355;SB-08;Makira-Ulawa Province;Hunuta
+0;161.5376,-10.5610;SB-08;Makira-Ulawa Province;Hunurama
+0;161.5212,-10.4795;SB-08;Makira-Ulawa Province;Hunihu
+0;161.4335,-10.2199;SB-08;Makira-Ulawa Province;Heuru
+0;159.7833,-11.2667;SB;;Henuangoto
+0;161.9676,-10.7851;SB-08;Makira-Ulawa Province;Hauraha
+0;160.0651,-11.5521;SB-13;Rennell and Bellona Province;Tigoa
+0;161.3167,-10.1833;SB;;Hangataru
+0;161.7273,-10.2645;SB-08;Makira-Ulawa Province;Hakanipua
+0;161.9333,-10.8000;SB;;Hagharuhi
+0;161.2811,-10.2495;SB-08;Makira-Ulawa Province;Hada
+0;162.4552,-10.8366;SB-08;Makira-Ulawa Province;Ghupuna
+0;162.2819,-10.8433;SB-08;Makira-Ulawa Province;Gheta
+0;161.7862,-10.7270;SB-08;Makira-Ulawa Province;Gheighei
+0;162.2635,-10.8396;SB-08;Makira-Ulawa Province;Funakumwa
+0;165.8667,-10.6667;SB;;Foa
+0;162.3510,-10.8437;SB-08;Makira-Ulawa Province;Fagheifa
+0;161.6295,-10.3419;SB-08;Makira-Ulawa Province;Fagani
+0;161.8667,-10.5667;SB-08;Makira-Ulawa Province;Bweinaniawarikiapu
+0;161.9173,-10.4605;SB-08;Makira-Ulawa Province;Bwaunasughu
+0;162.0066,-10.5033;SB-08;Makira-Ulawa Province;Bwaroo
+0;162.1166,-10.5392;SB-08;Makira-Ulawa Province;Bwaomarau
+0;161.4942,-10.3801;SB-08;Makira-Ulawa Province;Bia
+0;165.7500,-10.7000;SB;;Bema
+0;162.0381,-10.8150;SB-08;Makira-Ulawa Province;Bagharai
+0;166.4900,-11.2369;SB-09;Temotu Province;Avita
+0;161.4835,-10.2473;SB-08;Makira-Ulawa Province;Asimaenioha
+0;161.9630,-10.4774;SB-08;Makira-Ulawa Province;Arohane
+0;161.7265,-10.6957;SB-08;Makira-Ulawa Province;Apurahe
+0;161.5192,-10.5395;SB-08;Makira-Ulawa Province;Apaora
+0;161.7262,-10.2681;SB-08;Makira-Ulawa Province;Apaone Village
+0;166.4667,-11.3000;SB;;Apakhö
+0;161.3629,-10.3437;SB-08;Makira-Ulawa Province;Anuta
+0;166.8167,-11.6833;SB;;Ngambe (Ambi)
+0;166.4877,-11.2752;SB-09;Temotu Province;Amba
+0;161.7259,-10.2596;SB-08;Makira-Ulawa Province;Alangakaula
+0;161.3333,-10.3333;SB-08;Makira-Ulawa Province;Ai
+0;161.7090,-10.2231;SB-08;Makira-Ulawa Province;Ahi’a
+0;161.3259,-10.2072;SB-08;Makira-Ulawa Province;Ahi’a
+0;160.6559,-11.8338;SB-13;Rennell and Bellona Province;Ahanga
+0;159.7594,-11.2740;SB-13;Rennell and Bellona Province;Ahanga
+0;161.3159,-10.3454;SB-08;Makira-Ulawa Province;Di’una
+0;162.4500,-10.8833;SB-08;Makira-Ulawa Province;Mwamwako
+0;156.5320,-8.2980;SB-11;Western Province;Motusuata
+0;157.1967,-7.1656;SB-12;Choiseul Province;Korasa
+0;157.7352,-7.4621;SB-12;Choiseul Province;Arariki
+0;158.6614,-7.7785;SB-07;Isabel Province;Allardyce
+0;159.5660,-8.3765;SB-07;Isabel Province;Kaevaga
+0;159.7509,-8.2908;SB-07;Isabel Province;Nodana
+0;159.7397,-8.2971;SB-07;Isabel Province;Visena
+0;159.8134,-8.4660;SB-07;Isabel Province;Kasera
+0;159.7549,-11.2698;SB;;Potuhenua
+0;159.1629,-7.9144;SB-07;Isabel Province;Sisiga
+0;159.8362,-11.3137;SB;;Ou’taha
+0;159.7834,-11.2896;SB-13;Rennell and Bellona Province;Pauta
+0;160.1848,-9.5555;SB-06;Guadalcanal Province;Turarane
+0;160.1192,-9.4517;SB-06;Guadalcanal Province;Ilu
+0;160.0746,-9.4490;SB-06;Guadalcanal Province;Masts
+0;160.0250,-8.8890;SB-10;Central Province;Longave
+0;160.4183,-11.7677;SB-13;Rennell and Bellona Province;Te’Nggano
+0;160.7048,-8.7751;SB-03;Malaita Province;Bina
+0;160.8392,-8.4549;SB-03;Malaita Province;Gounatolo
+0;160.9831,-8.6761;SB-03;Malaita Province;Sinali
+0;160.8237,-8.8259;SB-03;Malaita Province;Busurata
+0;160.9674,-8.8895;SB-03;Malaita Province;Afetonombo
+0;160.9699,-9.1075;SB-03;Malaita Province;Aringa Hill
+0;161.1934,-9.1529;SB-03;Malaita Province;Maro’upaina
+0;160.9401,-9.1832;SB-03;Malaita Province;Alelua
+0;161.7648,-10.7048;SB-08;Makira-Ulawa Province;Paregho
+0;161.6631,-10.6235;SB-08;Makira-Ulawa Province;Hutarohaghi
+0;161.6859,-10.3780;SB-08;Makira-Ulawa Province;Waimasi
+0;161.4296,-9.4081;SB-03;Malaita Province;Manuitili
+0;161.3392,-9.3345;SB-03;Malaita Province;Arai Peninsula
+0;162.2725,-10.7342;SB-08;Makira-Ulawa Province;Monitawa
+0;162.2920,-10.8178;SB-08;Makira-Ulawa Province;Ma Mugha
+0;161.9262,-10.5820;SB-08;Makira-Ulawa Province;Mamarunangari
+0;161.9955,-9.7241;SB-08;Makira-Ulawa Province;Ari’o’o
+0;162.9385,-8.4097;SB-03;Malaita Province;Taisalu
+0;165.8791,-10.6679;SB-09;Temotu Province;Matu
+0;166.0512,-10.7818;SB-09;Temotu Province;Nanggu
+0;166.3100,-10.2525;SB;;Ngananumala
+0;166.8882,-11.6896;SB-09;Temotu Province;Numbella
+0;168.8201,-12.3020;SB-09;Temotu Province;Sautafi
+0;156.5323,-8.2762;SB-11;Western Province;Mengge
+0;156.5328,-8.3040;SB-11;Western Province;Ove
+0;156.5360,-8.2455;SB-11;Western Province;Kocho
+0;160.7980,-9.8746;SB-06;Guadalcanal Province;Poingobo
+0;161.7072,-10.2418;SB-08;Makira-Ulawa Province;Pore Village
+0;161.7272,-10.2738;SB-08;Makira-Ulawa Province;Kohu Village
+0;161.7275,-10.2871;SB-08;Makira-Ulawa Province;Ereere Village
+0;161.7278,-10.2993;SB-08;Makira-Ulawa Province;Su'uasi Village
+0;159.1686,-9.1227;SB-10;Central Province;Suun
+0;161.9877,-9.7277;SB-08;Makira-Ulawa Province;Moli Village
+0;156.7860,-8.0946;SB-11;Western Province;Kolombangar
+0;160.7541,-8.8322;SB-03;Malaita Province;Kura
+1053;156.3972,-6.7111;SB-12;Choiseul Province;Taro
+0;157.1290,-8.1137;SB-11;Western Province;Ringgi Cove
+0;166.9001,-11.6499;SB-09;Temotu Province;Banie
+15560;160.0533,-9.4250;SB-06;Guadalcanal Province;Malango
+24592;159.9455,-9.4467;SB-06;Guadalcanal Province;Tandai
+0;161.9909,-9.8139;SB-08;Makira-Ulawa Province;Su'ulopo

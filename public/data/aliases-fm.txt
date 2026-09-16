@@ -1,0 +1,9 @@
+zh;維諾;Weno
+ru;Вено;Weno
+ja;ウェノ;Weno
+ko;웨노;Weno
+ja;パリキール;Palikir
+ko;팔리키르;Palikir
+ru;Паликир;Palikir
+zh;帕利基尔;Palikir
+kos;Utwe Ma;Utwe Village

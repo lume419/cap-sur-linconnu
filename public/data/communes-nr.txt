@@ -1,0 +1,15 @@
+1258;166.9105,-0.5354;NRU68;Aiwo District;Yangor
+330;166.9238,-0.5139;NRU68;Uaboe District;Uaboe
+774;166.9433,-0.5035;NRU68;Anetan District;Ronave
+810;166.9295,-0.5080;NRU68;Baiti District;Baiti
+180;166.9581,-0.5210;NRU68;Ijuw District;Ijuw
+537;166.9323,-0.5049;NRU68;Ewa District;Arubo
+373;166.9525,-0.5279;NRU68;Anibare District;Anibare
+378;166.9533,-0.5084;NRU68;Anabar District;Anabar
+1100;166.9252,-0.5508;NRU68;Yaren District;Yaren
+2381;166.9125,-0.5254;NRU68;Aiwo District;Arijejen
+950;166.9238,-0.5331;NRU68;Buada District;Arenibek
+987;166.9130,-0.5410;NRU68;Boe District;Boe
+1400;166.9487,-0.5454;NRU68;Meneng District;Menen
+571;166.9206,-0.5176;NRU68;Nibok District;Nibok
+1804;166.9126,-0.5257;NRU68;Denigomodu District;Denigomodu

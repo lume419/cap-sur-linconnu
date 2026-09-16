@@ -1,0 +1,19 @@
+287;178.6794,-7.4878;TV-VAI;Vaitupu;Tumaseu Village
+258;176.3147,-6.2876;TV-NMG;Nanumanga;Toga Village
+408;177.1451,-7.2456;TV-NUI;Nui;Tanrake Village
+52;178.6675,-7.4617;TV-VAI;Vaitupu;Temotu Village
+22;179.1007,-8.6297;TV-FUN;Funafuti;Funafala Village
+224;177.3339,-6.1082;TV-NIT;Niutao;Kulia Village
+52;179.1703,-8.4379;TV-FUN;Funafuti;Amatuku Village
+6320;179.1942,-8.5243;TV-FUN;Funafuti;Funafuti
+250;178.6802,-7.4903;TV-VAI;Vaitupu;Asau Village
+35;179.4667,-10.7910;TV-NIT;Niutao;Niulakita
+188;179.8079,-9.3706;TV-NKL;Nukulaelae;Nukualofa Village
+205;179.8092,-9.3732;TV-NKL;Nukulaelae;Pepesala Village
+215;176.1151,-5.6740;TV-NMA;Nanumea;Lolua Village
+181;176.1169,-5.6759;TV-NMA;Nanumea;Hauma Village
+281;176.3153,-6.2854;TV-NMG;Nanumanga;Tokelau Village
+439;177.3352,-6.1101;TV-NIT;Niutao;Teava Village
+127;177.1502,-7.2059;TV-NUI;Nui;Meang Village
+506;178.6926,-7.4900;TV-VAI;Vaitupu;Motufoua School
+586;178.3135,-8.0273;TV-NKF;Nukufetau;Savave Village

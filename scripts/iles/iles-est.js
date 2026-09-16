@@ -148,11 +148,17 @@ module.exports = {
         { key: '*', match: { near: [{ name: 'Dacang', lat: 23.618, lon: 119.568, km: 0.6 }] } },
         { key: 'penghu', match: { box: [[23.515, 23.73, 119.46, 119.70]] }, note: 'Magong + Huxi + Baisha + Xiyu (Grand pont de Penghu) + Zhongtun' },
         { key: 'kinmen', match: { box: [[24.35, 24.56, 118.15, 118.50]] }, note: 'Grand Kinmen + Lieyu (pont de Kinmen, 2022)' },
+        // Matsu (comté de Lienchiang) : aucun pont entre les îles, sauf Dongyin–Xiyin (chaussée de Zhongzhu, 1986).
+        { key: 'nangan', match: { box: [[26.13, 26.185, 119.89, 119.97]] }, note: 'Matsu : Nangan (Fu’ao, Jieshou, Mazu, Jinsha, Ren’ai…). Pas de pont vers Beigan (projet seulement).' },
+        { key: 'beigan', match: { box: [[26.19, 26.27, 119.95, 120.03]] }, note: 'Matsu : Beigan (Tangqi, Baisha, Qiaozai, Qinbi, Houwo…). Traversée Nangan-Beigan : bateau passagers + motos ≤150 cc seulement.' },
+        { key: 'dongju', match: { box: [[25.93, 25.975, 119.955, 120.00]] }, note: 'Matsu : Dongju / Dongquan (Dapu, Daping, Fuzheng). Pas de pont vers Xiju (projet seulement).' },
+        { key: 'xiju', match: { box: [[25.955, 26.00, 119.90, 119.952]] }, note: 'Matsu : Xiju (Qingfan, Tian’ao, Xikun, Caipu…).' },
+        { key: 'dongyin', match: { box: [[26.33, 26.41, 120.44, 120.53]] }, note: 'Matsu : Dongyin + Xiyin, reliées par la chaussée routière de Zhongzhu (中柱堤, 1986, ~500 m) via l’îlot Zhongzhu.' },
         { key: 'lanyu', match: { near: [{ name: 'Lanyu', lat: 22.05, lon: 121.55, km: 8 }] } },
         { key: 'ludao', match: { near: [{ name: 'Ludao', lat: 22.66, lon: 121.49, km: 4 }] } },
         { key: 'xiaoliuqiu', match: { near: [{ name: 'Xiaoliuqiu', lat: 22.34, lon: 120.37, km: 3 }] } },
         { key: '*', match: { box: [[20, 27, 116, 119.9]] }, note: 'autres îles de Penghu (Wang’an, Qimei, Jibei, Hujing, Tongpan, Huayu…), Wuqiu, Pratas' },
-        { key: '*', match: { regions: ['Fukien'] }, note: 'Matsu (Nangan, Beigan, Juguang, Dongyin : pas de pont entre elles)' }
+        { key: '*', match: { regions: ['Fukien'] }, note: 'Filet de sécurité : îlots de Matsu non couverts ci-dessus (Liang, Daqiu, Gaodeng… — aucun lieu au 16/09/2026)' }
       ]
     }
   },
@@ -198,13 +204,33 @@ module.exports = {
       priceByClass: { 1: 60.77, 2: 79.59, 5: 36.45, foot: 23.29 },
       currency: 'TWD', original: { car: 2244, van: 2939, moto: 1346, foot: 860 },
       source: 'https://tnc-kao.com.tw/transport/information', date: '2026-09-16',
-      note: "Grilles de l'opérateur (images datées 20250319), départ Kaohsiung. Voiture ≤2 799 cc NT$2 244 (transport 1 800 + frais fixes 444) ; classe 2 = fourgon ≥6 places ou >2 800 cc NT$2 939 ; moto 151-500 cc accompagnée NT$1 346 ; piéton siège économique NT$860 (https://tnc-kao.com.tw/schedule/ticket). Le fret véhicule n'inclut pas le billet du conducteur. Durée approximative, non relevée ; distance orthodromique." }
+      note: "Grilles de l'opérateur (images datées 20250319), départ Kaohsiung. Voiture ≤2 799 cc NT$2 244 (transport 1 800 + frais fixes 444) ; classe 2 = fourgon ≥6 places ou >2 800 cc NT$2 939 ; moto 151-500 cc accompagnée NT$1 346 ; piéton siège économique NT$860 (https://tnc-kao.com.tw/schedule/ticket). Le fret véhicule n'inclut pas le billet du conducteur. Durée approximative, non relevée ; distance orthodromique." },
+    { a: 'taiwan', b: 'nangan', routeKey: 'keelungFuao', name: 'Keelung ↔ Fu’ao (Nangan)',
+      operator: 'All Ports Navigation (全港通航業) — New Taima / Taima Star', durationH: 9, distanceKm: 213,
+      priceByClass: { 1: 54.16, 2: 86.66, 5: 16.25, foot: 17.06 },
+      currency: 'TWD', original: { car: 2000, van: 3200, moto: 600, foot: 630 },
+      source: 'https://client.matsu.idv.tw/apt/cargo.html ; https://client.matsu.idv.tw/apt/price.html ; https://client.matsu.idv.tw/apt/newtaima.html ; https://matsu-nsa.gov.tw/zh-TW/transport/ferry', date: '2026-09-16',
+      note: "Preuve véhicules : le New Taima (2023) est un RO-RO « 45 voitures ou 18 autocars » ; grille véhicules « 新臺馬車輛及貨物運送價目表（依連江縣政府核定）». Sens Keelung -> Matsu, TVA 5 % incluse. Voiture ≤1 799 cc accompagnée 2 000 NT$ (tarif réduit ; 2 500 si véhicule expédié sans passager) ; classe 2 = voiture ≥3 000 cc 3 200 (4 000 non accompagnée) ; moto 151-500 cc 600 ; piéton siège économique 630. Le fret véhicule n'inclut pas le billet du conducteur. Retour Matsu -> Keelung moins cher (voiture 1 500, piéton 600). Durée 8-10 h (site du Matsu National Scenic Area) ; distance orthodromique." },
+    { a: 'taiwan', b: 'dongyin', routeKey: 'keelungZhongzhu', name: 'Keelung ↔ Zhongzhu (Dongyin)',
+      operator: 'All Ports Navigation (全港通航業) — New Taima / Taima Star', durationH: 8, distanceKm: 186,
+      priceByClass: { 1: 54.16, 2: 86.66, 5: 16.25, foot: 17.06 },
+      currency: 'TWD', original: { car: 2000, van: 3200, moto: 600, foot: 630 },
+      source: 'https://client.matsu.idv.tw/apt/cargo.html ; https://client.matsu.idv.tw/apt/price.html ; https://matsu-nsa.gov.tw/zh-TW/transport/ferry', date: '2026-09-16',
+      note: "Même navire et même grille « Keelung ▶ Matsu » que Keelung-Nangan (pas de tarif distinct pour Dongyin) : voiture ≤1 799 cc accompagnée 2 000, ≥3 000 cc 3 200, moto 151-500 cc 600, piéton siège 630 NT$ (TVA incluse). Rotation Keelung -> Dongyin (8 h) -> Nangan ou Keelung -> Nangan -> Dongyin selon les jours. Distance orthodromique." },
+    { a: 'nangan', b: 'dongyin', routeKey: 'fuaoZhongzhu', name: 'Fu’ao (Nangan) ↔ Zhongzhu (Dongyin)',
+      operator: 'All Ports Navigation (全港通航業) — New Taima / Taima Star', durationH: 2, distanceKm: 59,
+      priceByClass: { 1: 17.33, 2: 32.5, 5: 6.77, foot: 10.83 },
+      currency: 'TWD', original: { car: 640, van: 1200, moto: 250, foot: 400 },
+      source: 'https://client.matsu.idv.tw/apt/cargo.html ; https://client.matsu.idv.tw/apt/price.html', date: '2026-09-16',
+      note: "Tronçon Nangan-Dongyin des navires Taima (colonne « 南竿 ◀▶ 東引 » ; la grille ne précise l'inclusion de la TVA que pour Keelung -> Matsu) : voiture ≤1 799 cc accompagnée 640 NT$ (800 non accompagnée) ; classe 2 = ≥3 000 cc 1 200 ; moto 151-500 cc 250 ; piéton siège 400. Durée 2 h (Matsu NSA) ; distance orthodromique." }
   ],
   // Liaisons examinées mais NON modélisées (pas de grille officielle vérifiable pour véhicules + passagers)
   ferriesRejected: [
     { pair: 'continental|jeju', route: 'Mokpo/Wando ↔ Jeju', reason: "Seaworld Express (seaferry.co.kr) et Hanil Express (hanilexpress.co.kr) : tarifs véhicule servis dynamiquement par le moteur de réservation, aucune grille publiée accessible ; seules des agences (jejube.com) republient des montants sans ligne précise." },
     { pair: 'continental|hainan', route: "Hai'an/Xuwen ↔ Haikou", reason: "Montants trouvés uniquement sur des portails locaux (bendibao) : passager 41,5 CNY, petite voiture 413,5 CNY sortie / 415,5 CNY entrée, conducteur inclus ; aucune grille officielle consultée et rien pour motos ni véhicules longs." },
     { pair: 'honshu|sado, oki, tsushima, iki, gotō, tanegashima, yakushima, shodoshima, rishiri, rebun, okushiri', route: 'Lignes intérieures japonaises', reason: 'Grilles non consultées (budget de recherche) : îles laissées isolées.' },
-    { pair: 'taiwan|kinmen, taiwan|matsu', route: 'Kaohsiung-Kinmen, Keelung-Matsu', reason: 'Non recherchées ; Matsu est en masses isolées (*).' }
+    { pair: 'taiwan|kinmen', route: 'Kaohsiung-Kinmen', reason: 'Non recherchée.' },
+    { pair: 'nangan|beigan', route: 'Fu’ao ↔ Baisha (Nanbei Shipping, 南北海運)', reason: "Bateau passagers ; fret limité aux motos ≤150 cc (300 NT$), « 151CC以上 暫無寄送 », pas de voitures (https://client.matsu.idv.tw/North-South/, 16/09/2026)." },
+    { pair: 'nangan|dongju, nangan|xiju, dongju|xiju', route: 'Bateau de Juguang (Nangan -> Xiju -> Dongju)', reason: "Passagers + motos seulement (300-600 NT$, sous réserve de marée : pas de ponton flottant à Juguang), aucune voiture (même source)." }
   ]
 };

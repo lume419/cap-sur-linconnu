@@ -1,0 +1,5 @@
+ja;アダムスタウン;Adamstown
+ru;Адамстаун;Adamstown
+en;Adams Town;Adamstown
+ko;애덤스타운;Adamstown
+zh;亚当斯敦;Adamstown

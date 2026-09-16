@@ -871,8 +871,14 @@ function buildTripPdf(doc, trip){
     }
     if(leg.ferryInfo){
       const f = leg.ferryInfo;
-      const amountTxt = (Math.round((f.amount || 0) * 10) / 10).toFixed(1).replace('.', ',');
-      pdfBullet(doc, 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ~' + amountTxt + ' €.', contentX, contentWidth2);
+      if(typeof f.amount === 'number'){
+        const amountTxt = (Math.round(f.amount * 10) / 10).toFixed(1).replace('.', ',');
+        pdfBullet(doc, 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ~' + amountTxt + ' €.', contentX, contentWidth2);
+      } else {
+        // Liaison réelle sans tarif fixe publié (voir priceStatus dans lib/trip-engine.js).
+        pdfBullet(doc, 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ' + (f.priceStatus === 'variable'
+          ? 'tarif variable, vérifiez avant votre voyage.' : 'tarif non communiqué, renseignez-vous avant votre trajet.'), contentX, contentWidth2);
+      }
     }
     // Rappel vignette : une seule fois par pays sur tout le PDF, comme côté web (voir
     // shownVignetteCountries plus haut).

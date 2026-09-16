@@ -1,0 +1,1312 @@
+ru;Йорктаун;Yorketown
+ru;Йорк;York
+en;Yericoin;Yerecoin
+ru;Вудинна;Wudinna
+ru;Вумера;Woomera
+en;Woomera Prohibited Area;Woomera
+ja;ウーメラ;Woomera
+pt;Woomera Test Range;Woomera
+ru;Уирулла;Wirrulla
+ru;Уилуна;Wiluna
+ru;Уилмингтон;Wilmington
+ru;Уилланга;Willunga
+ru;Уилльямстаун;Williamstown
+zh;威拿士頓;Willaston
+ru;Уайалла;Whyalla
+ko;화이앨라;Whyalla
+zh;怀阿拉;Whyalla
+hi;व्हायल्ला;Whyalla
+ja;ホイアラ;Whyalla
+ru;Веллингтон;Wellington
+ru;Уонгари;Wangary
+ru;Уоллару;Wallaroo
+ru;Уэйкери;Waikerie
+ru;Виктор-Харбор;Victor Harbor
+ko;빅터하버;Victor Harbor
+zh;维克多港;Victor Harbor
+ru;Ту Веллс;Two Wells
+ru;Тамби-Бей;Tumby Bay
+ru;Труро;Truro
+en;Tinkurrin;Tincurrin
+ru;Теннант-Крик;Tennant Creek
+ru;Таркула;Tarcoola
+ru;Талия;Talia
+ru;Тейлем-Бенд;Tailem Bend
+ru;Саммертаун;Summertown
+ru;Стрики-Бей;Streaky Bay
+ru;Стенхаус-Бей;Stenhouse Bay
+ru;Сполдинг;Spalding
+ru;Соломонтаун;Solomontown
+ru;Сноутаун;Snowtown
+ru;Шерлок;Sherlock
+ja;セリックスヒル;Sellicks Hill
+zh;些力士山;Sellicks Hill
+ru;Седан;Sedan
+ja;ソルズベリー;Salisbury
+zh;梳士巴利;Salisbury
+ru;Рудалл;Rudall
+ru;Рокингем;Rockingham
+hi;रॉकिंघम;Rockingham
+ja;ロッキンガム;Rockingham
+ru;Робертстаун;Robertstown
+ru;Роб;Robe
+ru;Ривертон;Riverton
+zh;令尼拿;Reynella
+ru;Куорн;Quorn
+zh;蒲庶庇;Prospect
+ja;プロスペクト;Prospect
+ru;Проспект;Prospect
+ru;Порт-Уэйкфилд;Port Wakefield
+ru;Порт Винсент;Port Vincent
+ru;Порт-Виктория;Port Victoria
+ru;Порт-Пири;Port Pirie
+ja;ポートピリー;Port Pirie
+ko;포트피리;Port Pirie
+hi;पोर्ट पिरी;Port Pirie
+ru;Порт-Линкольн;Port Lincoln
+ja;ポートリンカーン;Port Lincoln
+ko;포트링컨;Port Lincoln
+zh;林肯港;Port Lincoln
+ja;ポートヘッドランド;Port Hedland
+ko;포트헤들랜드;Port Hedland
+ru;Порт-Хедленд;Port Hedland
+ru;Порт Августа;Port Augusta
+es;Puerto Augusta;Port Augusta
+ko;포트오거스타;Port Augusta
+ja;ポートオーガスタ;Port Augusta
+ru;Порт-Огаста;Port Augusta
+zh;奧古斯塔港;Port Augusta
+hi;पोर्ट अगस्ता;Port Augusta
+zh-Hans;奥古斯塔港;Port Augusta
+ru;Пучера;Poochera
+ru;Джулия Крик;Point Samson
+ru;Пимба;Pimba
+ru;Питерборо;Peterborough
+ja;パース;Perth
+zh;珀斯;Perth
+ru;Перт;Perth
+ko;퍼스;Perth
+hi;पर्थ;Perth
+pih;Pirth;Perth
+tpi;Pet;Perth
+ru;Пенонг;Penong
+ru;Парачилна;Parachilna
+ru;Оррору;Orroroo
+ru;Уднадатта;Oodnadatta
+ru;Норманвилл;Normanville
+ru;Ноннинг;Nonning
+ru;Ньюмен;Newman
+ru;Накара;Nackara
+ru;Марри-Бридж;Murray Bridge
+zh;墨累橋;Murray Bridge
+en;Mungaranie;Mungaranie Station
+ru;Маунт Торренс;Mount Torrens
+ru;Маунт-Плезант;Mount Pleasant
+fr;Mont Isa;Mount Isa
+en;Mt Isa;Mount Isa
+en;Mt. Isa;Mount Isa
+ru;Маунт-Айза;Mount Isa
+zh;伊薩山;Mount Isa
+ko;마운트아이자;Mount Isa
+hi;माउंट आइज़ा;Mount Isa
+ja;マウント・アイザ;Mount Isa
+ru;Маунт-Хоп;Mount Hope
+ru;Маунт Баркер;Mount Barker
+en;Mt Barker;Mount Barker
+ru;Морган;Morgan
+ru;Мура;Moora
+ru;Мунта;Moonta
+ru;Митчем;Mitcham
+hi;मिचम;Mitcham
+ja;ミッチャム;Mitcham
+ru;Миннипа;Minnipa
+ru;Минлатон;Minlaton
+ru;Миланг;Milang
+ru;Менинги;Meningie
+ja;ミニンギー;Meningie
+ru;Мелроз;Melrose
+ru;Микатарра;Meekatharra
+ru;Мидоус;Meadows
+ja;メイランズ;Maylands
+ru;Матаранка;Mataranka
+ru;Марри;Marree
+zh;馬利仁;Marion
+zh;玛格丽特河;Margaret River
+ru;Маргарет;Margaret River
+ru;Маннум;Mannum
+ru;Мандъюра;Mandurah
+ja;マンジュラ;Mandurah
+ko;만두라;Mandurah
+ru;Манджера;Mandurah
+zh;曼杜拉;Mandurah
+hi;मांडुरा;Mandurah
+ru;Маллала;Mallala
+ru;Мейтленд;Maitland
+ru;Линдхерст;Lyndhurst
+ru;Лок;Lock
+en;Little Hampton;Littlehampton
+ru;Леонора;Leonora
+ru;Ли-Крик-Саут;Leigh Creek
+ru;Кайанкатта;Kyancutta
+ru;Куинана;Kwinana
+ru;Кунибба;Koonibba
+ru;Кингстон-Саут-Ист;Kingston South East
+ru;Кингскот;Kingscote
+ko;킹스콧;Kingscote
+ru;Кингунья;Kingoonya
+ru;Кимба;Kimba
+ja;キャサリン;Katherine
+ru;Кэтрин;Katherine
+ru;Карунда;Karoonda
+ru;Капунда;Kapunda
+ru;Капинни;Kapinnie
+ru;Калгурли;Kalgoorlie
+en;Kalgoorlie-Boulder;Kalgoorlie
+de;Kalgoorlie-Boulder;Kalgoorlie
+hi;कालगुर्ली;Kalgoorlie
+ja;カルグーリー;Kalgoorlie
+ko;캘굴리;Kalgoorlie
+zh;卡尔古利;Kalgoorlie
+ru;Кадина;Kadina
+ru;Джеймстаун;Jamestown
+ru;Айрон-Ноб;Iron Knob
+ru;Айрон-Барон;Iron Baron
+zh;雅倫班;Ironbank
+ja;ホートン;Houghton
+zh;賀頓;Houghton
+ru;Хокер;Hawker
+zh;哈維;Harvey
+ru;Хамли-Бридж;Hamley Bridge
+ru;Гамильтон;Hamilton
+ru;Хандорф;Hahndorf
+ru;Гринмаунт;Greenmount
+zh;嘉雲治;Grange
+ru;Глэдстон;Gladstone
+ru;Джералдтон;Geraldton
+ja;ジェラルトン;Geraldton
+ko;제럴턴;Geraldton
+zh;傑拉爾頓;Geraldton
+hi;गेराल्डटन;Geraldton
+ru;Голер;Gawler
+ru;Гоулер;Gawler
+hi;गॉलर;Gawler
+ja;ゴーラー;Gawler
+ru;Фрилинг;Freeling
+ru;Фаулерс-Бей;Fowlers Bay
+ru;Фицрой-Кроссинг;Fitzroy Crossing
+ru;Фарайна;Farina
+ru;Эсперанс;Esperance
+ko;에스퍼런스;Esperance
+ja;エスペランス;Esperance
+ru;Эллистон;Elliston
+zh;伊利沙伯;Elizabeth
+ja;エリザベス;Elizabeth
+ru;Идитберг;Edithburgh
+ru;Эчунга;Echunga
+ru;Двеллингап;Dwellingup
+ru;Дерби;Derby
+ru;Денмарк;Denmark
+en;Port Darwin;Darwin
+ja;ダーウィン;Darwin
+ru;Дарвин;Darwin
+pih;Daarwin;Darwin
+ko;다윈;Darwin
+zh;达尔文;Darwin
+hi;डार्विन;Darwin
+zh;大靈敦;Darlington
+ru;Дампир;Dampier
+ru;Камминс;Cummins
+ru;Кристал-Брук;Crystal Brook
+zh;記力本農場;Craigburn Farm
+zh;嘉佛士;Crafers
+zh;科特斯洛;Cottesloe
+ru;Корни-Пойнт;Corny Point
+ru;Куналпин;Coonalpyn
+zh;觀民督;Coomandook
+ru;Кубер-Педи;Coober Pedy
+ru;Клив;Cleve
+ru;Клэр;Clare
+ru;Седьюна;Ceduna
+ru;Карритон;Carrieton
+ru;Карнарвон;Carnarvon
+hi;कार्नारवन;Carnarvon
+ja;カーナーヴォン;Carnarvon
+ru;Карава;Carawa
+it;Rostrevor;Campbelltown
+zh;金寶城;Campbelltown
+ru;Бассельтон;Busselton
+hi;बसेल्टन;Busselton
+ja;バッセルトン;Busselton
+ru;Барра;Burra
+en;Bunjil;Bunji
+ru;Банбери;Bunbury
+ko;번버리;Bunbury
+ja;バンバリー;Bunbury
+zh;班伯利;Bunbury
+hi;बनबरी;Bunbury
+ru;Баклбу;Buckleboo
+ru;Брум;Broome
+ja;ブルーム;Broome
+ko;브룸;Broome
+zh;布鲁姆;Broome
+zh;寶來頓;Brighton
+ru;Брайтан;Brighton
+ru;Букаби;Bookabie
+ru;Блинмен;Blinman
+ru;Белтана;Beltana
+zh;贝德福德帕克;Bedford Park
+zh-Hant;百福柏;Bedford Park
+zh;巴文治;Beaumont
+ru;Бэтчелор;Batchelor
+ru;Балаклава;Balaklava
+zh;奧古斯塔;Augusta
+ru;Аррино;Arrino
+ru;Арно-Бей;Arno Bay
+ru;Ардроссан;Ardrossan
+ru;Ангастон;Angaston
+ja;アリススプリングス;Alice Springs
+ru;Алис-Спрингс;Alice Springs
+en;Springs;Alice Springs
+en;Alice Springs Region;Alice Springs
+ko;앨리스스프링스;Alice Springs
+zh;愛麗斯泉;Alice Springs
+hi;ऐलिस स्प्रिंग्स;Alice Springs
+ru;Олбани;Albany
+ja;アルバニー;Albany
+ko;올버니;Albany
+ru;Албани;Albany
+zh;奧班尼;Albany
+hi;अल्बानी;Albany
+ru;Аджана;Ajana
+ru;Аделейд-Ривер;Adelaide River
+fr;Adélaïde;Adelaide
+es;Adelaida;Adelaide
+ja;アデレード;Adelaide
+ru;Аделаида;Adelaide
+pih;Edelaid;Adelaide
+ko;애들레이드;Adelaide
+hi;एडिलेड;Adelaide
+zh;阿德莱德;Adelaide
+fr;Adelaïde;Adelaide
+tpi;Adalet;Adelaide
+zh;士記利富;Seacliff
+ru;Хиндмарш;Hindmarsh
+zh;軒馬士;Hindmarsh
+ja;ハインドマーシュ;Hindmarsh
+ru;Ланселин;Lancelin
+ru;Ист-Фримантл;East Fremantle
+zh;東弗里曼特爾;East Fremantle
+ru;Клермонт;Claremont
+zh;克萊蒙;Claremont
+ja;クレアモント;Claremont
+en;Goulburn Island;Goulburn Island Mission
+ru;Сервантес;Cervantes
+zh;朱里恩灣;Jurien Bay
+ru;Зиан;Zeehan
+es;Zeehhan;Zeehan
+zh;齊恩;Zeehan
+zh-Hans;齐恩;Zeehan
+ja;ジーアン;Zeehan
+ru;Йинкани;Yinkanie
+ru;Еппун;Yeppoon
+ja;イア;Yea
+ru;Ясс;Yass
+ru;Ярравонга;Yarrawonga
+ru;Ярраман;Yarraman
+ru;Яррам;Yarram
+ru;Яррагон;Yarragon
+ja;ヤラゴン;Yarragon
+zh;亞拉貢;Yarragon
+ru;Вурабинда;Woorabinda
+en;Woollamia;Woolamia
+ru;Вудсайд;Woodside
+ru;Ууденд;Woodend
+zh;伍登;Woodend
+ja;ウッドエンド;Woodend
+ru;Вудбридж;Woodbridge
+ru;Уонтагги;Wonthaggi
+ru;Волумла;Wolumla
+ru;Вулсли;Wolseley
+ko;워동가;Wodonga
+zh;沃东加;Wodonga
+ru;Уодонга;Wodonga
+hi;वोडोंगा;Wodonga
+ja;ウォドンガ;Wodonga
+ja;ワイズマンズ・フェリー;Wisemans Ferry
+ru;Уиррига;Wirrega
+ru;Уинтон;Winton
+ru;Уиттон;Whitton
+ru;Уайт Клиффс;White Cliffs
+ms;Pantai Whale;Whale Beach
+ja;ホエール・ビーチ;Whale Beach
+ja;ウェスターウェイ;Westerway
+ru;Вестбури;Westbury
+ja;ウェイパ;Weipa
+ko;웨이파;Weipa
+ru;Уэйпа;Weipa
+ru;Уэддерберн;Wedderburn
+ja;ウェダーバーン;Wedderburn
+ru;Вотерфолл;Waterfall
+ja;ウォーターフォール;Waterfall
+zh;瀑布;Waterfall
+ja;ウォリック;Warwick
+ru;Уорик;Warwick
+ru;Уорнамбул;Warrnambool
+ja;ウォーナンブール;Warrnambool
+hi;वॉरनमबूल;Warrnambool
+zh-Hans;華南布爾;Warrnambool
+zh-Hant;華南布林;Warrnambool
+zh;瓦南布爾;Warrnambool
+ko;와람불;Warrnambool
+ru;Уоррагул;Warragul
+ru;Уорракнабил;Warracknabeal
+ru;Уангаратта;Wangaratta
+hi;वांगारट्टा;Wangaratta
+zh;旺加拉塔;Wangaratta
+ja;ワンガラタ;Wangaratta
+ko;왕가라타;Wangaratta
+en;Heathcote Junction;Wandong
+ru;Вамуран;Wamuran
+zh;沃兰;Wallan
+ru;Урана;Urana
+ru;Улверстон;Ulverstone
+ru;Улладулла;Ulladulla
+ru;Туид Хедс;Tweed Heads
+en;Tweed;Tweed Heads
+zh;堤維德岬;Tweed Heads
+ja;ターラマラ;Turramurra
+ru;Тьюмут;Tumut
+ru;Тумбрумба;Tumbarumba
+ru;Таггеранонг;Tuggeranong
+en;Trunkey;Trunkey Creek
+ru;Трайабанна;Triabunna
+ja;トリアブンナ;Triabunna
+ru;Траралгон;Traralgon
+hi;त्रिलागोन;Traralgon
+zh-Hans;特拉拉尔根;Traralgon
+zh;特拉拉爾根;Traralgon
+ja;トラルゴン;Traralgon
+ko;트럴래건;Traralgon
+ru;Трафалгар;Trafalgar
+ja;タウンズビル;Townsville
+ko;타운즈빌;Townsville
+ru;Таунсвилл;Townsville
+zh;汤斯维尔;Townsville
+ru;Торки;Torquay
+ru;Тувумба;Toowoomba
+ja;トゥーンバ;Toowoomba
+ko;터움바;Toowoomba
+zh;图文巴;Toowoomba
+ru;Тура;Toora
+ru;Тунгабби;Toongabbie
+ru;Тинтинара;Tintinara
+ru;Тин Кэн Бэй;Tin Can Bay
+ru;Тимбун;Timboon
+ru;Тиаро;Tiaro
+ru;Тредбо;Thredbo
+ru;Теодоре;Theodore
+ru;Теранг;Terang
+ru;Ти Гарденс;Tea Gardens
+ru;Татура;Tatura
+ru;Татра;Tathra
+ru;Тарпина;Tarpeena
+ru;Тарум;Taroom
+ru;Тари;Taree
+hi;तेरी;Taree
+ko;타레;Taree
+zh;塔瑞;Taree
+ja;タリー;Taree
+ru;Тара;Tara
+ru;Тантанула;Tantanoola
+ru;Тамуорт;Tamworth
+zh;塔姆沃思;Tamworth
+hi;टामवर्थ;Tamworth
+ja;タムワース;Tamworth
+ru;Таллангатта;Tallangatta
+ja;タルボット;Talbot
+ru;Талбинго;Talbingo
+hi;सिडनी;Sydney
+ja;シドニー;Sydney
+ko;시드니;Sydney
+ru;Сидней;Sydney
+zh;悉尼;Sydney
+es;Sídney;Sydney
+en;Sydney City;Sydney
+en;Syd;Sydney
+pih;Sidni;Sydney
+tpi;Sidni;Sydney
+ru;Суифтс-Крик;Swifts Creek
+ru;Свонси;Swansea
+ru;Суонси;Swansea
+ru;Суон-Хилл;Swan Hill
+zh;斯旺希尔;Swan Hill
+ja;スワンヒル;Swan Hill
+ru;Сурат;Surat
+ru;Стрэтфорд;Stratford
+ja;ストラトフォード;Stratford
+ru;Страхан;Strahan
+ja;ストラーン;Strahan
+ru;Стран;Strahan
+zh;斯特拉恩;Strahan
+ru;Стоэлл;Stawell
+ru;Стэнтхорп;Stanthorpe
+ru;Стенли;Stanley
+zh-Hans;斯坦利镇;Stanley
+zh-Hant;斯坦利鎮;Stanley
+ko;스탠리;Stanley
+zh;斯坦利;Stanley
+ja;スタンリー;Stanley
+ru;Стэнли;Stanley
+ru;Сауз Арм;South Arm
+de;South-Arm-Halbinsel;South Arm
+ru;Снъг;Snug
+en;Gladstone;Smithtown
+ru;Смиттон;Smithton
+ru;Скиптон;Skipton
+zh;姐妹溪;Sisters Creek
+ru;Синглтон;Singleton
+ru;Шеппартон;Shepparton
+en;Mooroopna;Shepparton
+hi;शेपार्टन;Shepparton
+zh-Hant;謝珀頓;Shepparton
+zh;谢珀顿;Shepparton
+ja;シェパートン;Shepparton
+ko;셰퍼튼;Shepparton
+en;Shellharbour Village;Shellharbour
+ru;Шелхарбор;Shellharbour
+zh;谢尔哈伯市;Shellharbour
+zh-Hant;夏巴;Shellharbour
+ja;シェルハーバー;Shellharbour
+ru;Шеффилд;Sheffield
+ru;Симор;Seymour
+ja;セイモア;Seymour
+zh-Hant;西摩;Seymour
+ru;Си Лейк;Sea Lake
+ko;스코츠데일;Scottsdale
+zh;斯科茨代爾;Scottsdale
+zh-Hans;斯科茨代尔;Scottsdale
+ja;スコッツデール;Scottsdale
+ja;スカボロー;Scarborough
+zh;斯卡波羅;Scarborough
+ru;Скамандер;Scamander
+ru;Сарина;Sarina
+ru;Сан Ремо;San Remo
+ru;Сейл;Sale
+ko;세일;Sale
+en;Saint Patricks River;St. Patricks River
+ru;Сент-Хеленс;St Helens
+de;St. Helens;St Helens
+en;St George;Saint George
+en;St. George;Saint George
+ru;Сент-Арно;Saint Arnaud
+ru;Ратерглен;Rutherglen
+en;Rossbridge;Ross Bridge
+ru;Росс;Ross
+zh;罗斯;Ross
+ru;Розвуд;Rosewood
+ru;Роздейл;Rosedale
+ru;Розбери;Rosebery
+zh;罗马;Roma
+ru;Рокхемптон;Rockhampton
+ru;Рокгемптон;Rockhampton
+zh;洛坎普頓;Rockhampton
+hi;रॉकहैम्पटन;Rockhampton
+zh-Hans;洛坎普顿;Rockhampton
+ja;ロックハンプトン;Rockhampton
+ko;록햄프턴;Rockhampton
+ru;Рочестер;Rochester
+ja;ロチェスター;Rochester
+en;Riddells Creek;Riddell
+fr;Riddells Creek;Riddell
+nl;Riddells Creek;Riddell
+es;Riddells Creek;Riddell
+ru;Ричмонд;Richmond
+zh;里士满;Richmond
+ja;リッチモンド;Richmond
+ko;리치먼드;Richmond
+zh;里奇蒙;Richmond
+ru;Ренмарк;Renmark
+ru;Ред-Клифс;Red Cliffs
+ru;Квинстаун;Queenstown
+ru;Куинстаун;Queenstown
+ru;Квинсклифф;Queenscliff
+ru;Куинбеян;Queanbeyan
+ru;Куинбиан;Queanbeyan
+zh;昆比恩;Queanbeyan
+hi;कुइआंबयान;Queanbeyan
+ja;クイーンビアン;Queanbeyan
+ko;퀸비언;Queanbeyan
+ru;Пайлонг;Pyalong
+ru;Простон;Proston
+ru;Просерпайн;Proserpine
+zh;普拉瑟潘;Proserpine
+ru;Порт Сорелл;Port Sorell
+ru;Порт Маккуори;Port Macquarie
+zh;麥覺理港;Port Macquarie
+zh-Hans;麦觉理港;Port Macquarie
+ja;ポートマッコリー;Port Macquarie
+ru;Порт-Мак-Доннел;Port MacDonnell
+ru;Портленд;Portland
+ru;Порт-Фэри;Port Fairy
+ru;Порт-Дуглас;Port Douglas
+ru;Порт Дуглас;Port Douglas
+ja;ポートダグラス;Port Douglas
+ko;포트더글라스;Port Douglas
+ru;Порт Кэмпбелл;Port Campbell
+ru;Порт Артур;Port Arthur
+ja;ポート・アーサー;Port Arthur
+ko;포트아서;Port Arthur
+ru;Порт-Артур;Port Arthur
+zh;阿瑟港;Port Arthur
+ru;Портарлингтон;Portarlington
+ru;Порт Альберт;Port Albert
+ru;Пиннару;Pinnaroo
+ru;Пенола;Penola
+ru;Пибинга;Peebinga
+ru;Пик Хилл;Peak Hill
+zh;帕克斯;Parkes
+ru;Оксли;Oxley
+ru;Оуйен;Ouyen
+ru;Уз;Ouse
+ja;ウーズ;Ouse
+ru;Орфорд;Orford
+ru;Орбост;Orbost
+ja;オーボスト;Orbost
+ru;Орандж;Orange
+de;Orange  (State of New South Wales);Orange
+hi;ऑरेंज;Orange
+zh-Hans;奥兰治;Orange
+zh;奧蘭治;Orange
+ja;オレンジ;Orange
+ko;오렌지;Orange
+ru;Опоссум Бэй;Opossum Bay
+ru;Олд Бар;Old Bar
+ru;Олэри;Olary
+ru;Ньюмерка;Numurkah
+zh;努比纳;Nubeena
+ru;Новра;Nowra
+fr;Nowra-Bomaderry;Nowra
+zh;瑙拉;Nowra
+ja;ナウラ;Nowra
+zh;諾曼頓;Normanton
+en;Noosa;Noosa Heads
+ja;ノーサ・ヘッズ;Noosa Heads
+ru;Нурат;Noorat
+ru;Нилл;Nhill
+zh;尼爾;Nhill
+ja;ニューポート;Newport
+ru;Нью-Норфолк;New Norfolk
+zh;新诺福克;New Norfolk
+zh;紐恩斯;Newnes
+ja;ニューカッスル;Newcastle
+ru;Ньюкасл;Newcastle
+ko;뉴캐슬;Newcastle
+zh;纽卡斯尔;Newcastle
+tpi;Niukasel;Newcastle
+hi;न्यूकैसल;Newcastle
+ru;Небо;Nebo
+ru;Натимук;Natimuk
+ru;Наррандера;Narrandera
+zh;纳拉布赖;Narrabri
+ru;Нарума;Narooma
+hi;नरन्ग्ब;Narangba
+ru;Наракорт;Naracoorte
+ru;Мертоа;Murtoa
+en;Murrybong;Murrabang
+en;Harden;Murrumburrah
+ru;Мургон;Murgon
+ru;Мурчисон;Murchison
+ru;Мундуберра;Mundubbera
+ru;Маджи;Mudgee
+fr;Mont Gambier;Mount Gambier
+ru;Маунт-Гамбиер;Mount Gambier
+en;Mt Gambier;Mount Gambier
+en;Mt. Gambier;Mount Gambier
+ja;マウントガンビア;Mount Gambier
+ko;마운트갬비어;Mount Gambier
+ru;Маунт-Гамбир;Mount Gambier
+zh;甘比爾山;Mount Gambier
+hi;माउंट गैंबियर;Mount Gambier
+zh-Hans;芒特甘比尔;Mount Gambier
+ru;Маунт Бурр;Mount Burr
+ru;Моруэлл;Morwell
+ja;モーウェル;Morwell
+ru;Мортлейк;Mortlake
+ru;Мурупна;Mooroopna
+en;Moore Creek;Moore
+ru;Монто;Monto
+ja;モンタギュー;Montagu
+zh;莫纳韦尔;Mona Vale
+zh-Hant;莫納韋爾;Mona Vale
+ja;モナ・ヴェイル;Mona Vale
+ru;Мого;Mogo
+en;Yallourn;Moe
+ru;Мои;Moe
+hi;मो;Moe
+ja;モウィー;Moe
+ru;Митчелл;Mitchell
+ru;Мербу-Норт;Mirboo North
+ru;Мингэри;Mingary
+ru;Минден;Minden
+ru;Милтон;Milton
+ru;Миллмерран;Millmerran
+ru;Миллисент;Millicent
+ja;ミリセント;Millicent
+ru;Милдьюра;Mildura
+ja;ミルデューラ;Mildura
+ko;밀두라;Mildura
+zh;米爾杜拉;Mildura
+ru;Метунг;Metung
+ru;Меримбула;Merimbula
+ru;Мерино;Merino
+ru;Мериба;Meribah
+ru;Мередит;Meredith
+ja;メラ;Mella
+ja;メルボルン;Melbourne
+ko;멜버른;Melbourne
+ru;Мельбурн;Melbourne
+hi;मेलबोर्न;Melbourne
+en;Melbourne City;Melbourne
+ko;멜번;Melbourne
+tpi;Melben;Melbourne
+zh;墨尔本;Melbourne
+en;Greater Melbourne;Melbourne
+ru;Мэрисвилль;Marysville
+zh;瑪麗伯勒;Maryborough
+ru;Мэриборо;Maryborough
+zh-Hans;玛丽伯勒;Maryborough
+zh;马里伯勒;Maryborough
+hi;मैरीबरो;Maryborough
+zh-Hant;瑪麗伯勒;Maryborough
+ja;メアリーバラ;Maryborough
+ko;메리버러;Maryborough
+ru;Марло;Marlo
+ru;Мантанг;Mantung
+ru;Мансфилд;Mansfield
+ru;Маннахилл;Mannahill
+ru;Мангана;Mangana
+ru;Манангатанг;Manangatang
+ru;Маллакута;Mallacoota
+ru;Молдон;Maldon
+ru;Маланда;Malanda
+ru;Мэйтленд;Maitland
+zh;梅特兰;Maitland
+hi;मेटलैंड;Maitland
+ja;メイトランド;Maitland
+ru;Мафра;Maffra
+ru;Макей;Mackay
+ja;マッカイ;Mackay
+ko;매카이;Mackay
+ru;Маккай;Mackay
+zh;麥凱;Mackay
+hi;मैकाय;Mackay
+ja;ルーン・リバー;Lune River
+ru;Лусиндейл;Lucindale
+ru;Локстон;Loxton
+hi;लॉक्सटन;Loxton
+ja;ロクストン;Loxton
+ru;Лорн;Lorne
+en;Lower Longley;Longley Lower
+nl;Lower Longley;Longley Lower
+ru;Ливерпуль;Liverpool
+hi;लिवरपूल;Liverpool
+ja;リヴァプール;Liverpool
+en;South Nobby;Little Burleigh
+ru;Литгоу;Lithgow
+zh;利斯戈;Lithgow
+hi;लिथगो;Lithgow
+ja;リスゴー;Lithgow
+ko;리스고우;Lithgow
+ru;Лизмор;Lismore
+ko;리즈모어;Lismore
+ja;リズモー;Lismore
+ru;Лисмор;Lismore
+zh;利斯莫尔;Lismore
+ru;Линтон;Linton
+ru;Лайтнинг Ридж;Lightning Ridge
+ja;ルーラ;Leura
+ru;Летбридж;Lethbridge
+ru;Леонгата;Leongatha
+ja;リース;Leith
+ru;Литон;Leeton
+ja;ローソン;Lawson
+ru;Лоуренс;Lawrence
+ru;Лонсестон;Launceston
+ja;ローンセストン;Launceston
+ko;론서스턴;Launceston
+zh;朗塞斯顿;Launceston
+hi;लॉन्सेस्टन;Launceston
+ru;Ламеру;Lameroo
+ru;Лейкс-Энтранс;Lakes Entrance
+ru;Лейк Бога;Lake Boga
+ru;Кайнтон;Kyneton
+zh;凱恩頓（維多利亞省）;Kyneton
+zh-Hans;凯恩顿（维多利亚省）;Kyneton
+ru;Куранда;Kuranda
+ru;Корумбурра;Korumburra
+ru;Короит;Koroit
+ru;Кундрук;Koondrook
+ru;Кинглейк;Kinglake
+zh;金格羅伊;Kingaroy
+zh;楷模镇;Kilmore
+ru;Килкиван;Kilkivan
+ru;Килкунда;Kilcunda
+ru;Кеттеринг;Kettering
+ru;Керанг;Kerang
+ru;Кемптон;Kempton
+zh;肯普西;Kempsey
+ru;Кемпси;Kempsey
+hi;केम्पसे;Kempsey
+ja;ケンプシー;Kempsey
+ru;Кит;Keith
+ru;Катумба;Katoomba
+hi;कातूम्बा;Katoomba
+ja;カトゥーンバ;Katoomba
+ru;Карумба;Karumba
+ru;Канайва;Kaniva
+ru;Кенгуру Вэлли;Kangaroo Valley
+ru;Калангаду;Kalangadoo
+ru;Джиндера;Jindera
+en;Jervis Bay Territory;Jervis Bay Village
+es;Territorio de Jervis Bay;Jervis Bay Village
+fr;Territoire de la baie de Jarvis;Jervis Bay Village
+de;Jervis Bay Territory;Jervis Bay Village
+ja;ジャービス湾;Jervis Bay Village
+nl;Jervis Bay Territorium;Jervis Bay Village
+pt;Território da Baía Jervis;Jervis Bay Village
+en;Jervis Bay;Jervis Bay Village
+ru;Джепарит;Jeparit
+ru;Айванхо;Ivanhoe
+ru;Айсисфорд;Isisford
+zh;伊林普爾;Irymple
+en;Irish Town;Irishtown
+ko;입스위치;Ipswich
+ja;イプスウィッチ;Ipswich
+ru;Ипсуич;Ipswich
+zh;伊普斯威奇;Ipswich
+ru;Иннаминка;Innamincka
+ru;Инглвуд;Inglewood
+ru;Ингем;Ingham
+ja;ハスキンソン;Huskisson
+ru;Хуонвилль;Huonville
+ru;Хьюонвилл;Huonville
+ru;Хьюэнден;Hughenden
+ru;Хаулонг;Howlong
+ru;Говард;Howard
+ru;Хоршем;Horsham
+hi;हॉर्शम;Horsham
+ko;호샴;Horsham
+zh;霍舍姆;Horsham
+ja;ホーシャム;Horsham
+ru;Хорнсби;Hornsby
+zh;霍恩斯比;Hornsby
+ja;ホーンズビー;Hornsby
+ru;Холбрук;Holbrook
+ru;Хобарт;Hobart
+tpi;Hobat;Hobart
+hi;होबार्ट;Hobart
+ko;호바트;Hobart
+ja;ホバート;Hobart
+zh;荷巴特;Hobart
+zh-Hant;希爾伍德;Hillwood
+zh;希尔伍德;Hillwood
+ru;Хилл Топ;Hill Top
+ru;Хиллстон;Hillston
+ru;Хейвуд;Heywood
+ru;Хербертон;Herberton
+ru;Хелидон;Helidon
+ru;Хиткот;Heathcote
+ru;Хилсвилл;Healesville
+ru;Хей;Hay
+hi;हे;Hay
+ja;ヘイ;Hay
+ja;ハーフォード;Harford
+ru;Хэмпстед;Hampstead
+ru;Хэмилтон;Hamilton
+ja;ハミルトン;Hamilton
+ko;해밀턴;Hamilton
+ru;Холлс Гэп;Halls Gap
+ru;Холл;Hall
+zh;金皮;Gympie
+ru;Гимпи;Gympie
+ru;Гундару;Gundaroo
+ru;Гриффит;Griffith
+ja;グリフィス;Griffith
+en;Green Ridge;Greenridge
+en;Greenmount West;Greenmount
+ja;グラッシー;Grassy
+ru;Графтон;Grafton
+hi;ग्राफ्टन;Grafton
+zh-Hans;格拉夫顿;Grafton
+zh;格拉夫頓;Grafton
+ja;グラフトン;Grafton
+ko;그래프슨;Grafton
+ru;Гулберн;Goulburn
+ko;골번;Goulburn
+ru;Гоулберн;Goulburn
+zh;古尔本;Goulburn
+zh-Hant;古爾本;Goulburn
+ja;ゴウルバーン;Goulburn
+ru;Гордон;Gordon
+ru;Гундивинди;Goondiwindi
+ja;グンディウィンディ;Goondiwindi
+ru;Гумери;Goomeri
+es;Costa Dorada;Gold Coast
+ja;ゴールドコースト;Gold Coast
+ja;ゴールド・コースト;Gold Coast
+zh;黃金海岸;Gold Coast
+zh;黄金海岸;Gold Coast
+ru;Голд Коуст;Gold Coast
+en;Gold;Gold Coast
+en;Glen Park;Glenpark
+ja;グレンブルック;Glenbrook
+zh;格蘭布魯克;Glenbrook
+ru;Гладстон;Gladstone
+zh;格拉德斯通;Gladstone
+hi;ग्लैडस्टोन;Gladstone
+ja;グラッドストーン;Gladstone
+ja;ギズボーン;Gisborne
+en;Griven;Girvan
+en;Girrel;Girral
+ru;Джордж Таун;George Town
+de;George Town (State of Tasmania);George Town
+ru;Дженоа;Genoa
+ru;Джилонг;Geelong
+ko;절롱;Geelong
+ja;ジーロング;Geelong
+hi;गीलोंग;Geelong
+ru;Джелонг;Geelong
+zh;吉朗;Geelong
+ru;Гаттон;Gatton
+zh;加頓;Gatton
+ru;Гарфилд;Garfield
+ja;ギャルストン;Galston
+ru;Френкстон;Frankston East
+ru;Франсес;Frances
+ru;Фостер;Foster
+ru;Форбс;Forbes
+ru;Юроа;Euroa
+zh-Hans;尤罗亚（维多利亚省）;Euroa
+zh;尤羅亞（維多利亞省）;Euroa
+ru;Эск;Esk
+ru;Эму Парк;Emu Park
+ru;Эмеральд;Emerald
+ru;Эмералд;Emerald
+ru;Эллиотт Хедс;Elliott Heads
+ru;Айлдон;Eildon
+ru;Айдсволд;Eidsvold
+ru;Эденхоп;Edenhope
+ru;Эден;Eden
+ru;Ичука;Echuca
+zh;埃楚卡;Echuca
+ja;エチューカ;Echuca
+ru;Даббо;Dubbo
+hi;दब्बो;Dubbo
+ko;더보;Dubbo
+zh-Hans;达博;Dubbo
+zh-Hant;德寳市;Dubbo
+zh;多寶;Dubbo
+ja;ダボ;Dubbo
+ru;Пиктон;Douglas Park
+ru;Дорриго;Dorrigo
+ru;Доналд;Donald
+ja;ドン;Don
+ru;Дирранбанди;Dirranbandi
+ru;Димбула;Dimboola
+ru;Девонпорт;Devonport
+zh;德文港;Devonport
+hi;डेवोंपोर्ट;Devonport
+ja;デボンポート;Devonport
+ko;데본포트;Devonport
+en;Bushy Park;Derwent
+ja;ダービー;Derby
+ru;Дэлорэйн;Deloraine
+ru;Дипвотер;Deepwater
+ru;Дейлсфорд;Daylesford
+ru;Дартмур;Dartmoor
+ru;Дарнум;Darnum
+ru;Дарлинг Поинт;Darlington Point
+ru;Дарго;Dargo
+ru;Далби;Dalby
+ru;Керри;Currie
+hi;करी;Currie
+ja;カレー;Currie
+ru;Куннамулла;Cunnamulla
+en;Cullendore;Cullendora
+ru;Круквелл;Crookwell
+ja;カウラ;Cowra
+ko;카우라;Cowra
+ru;Каус;Cowes
+ru;Коррийонг;Corryong
+zh;科里揚;Corryong
+zh-Hans;科里扬;Corryong
+zh-Hant;科裏揚;Corryong
+ja;コリヨング;Corryong
+ja;コーンウォール;Cornwall
+ru;Кутамундра;Cootamundra
+ru;Кунабарабран;Coonabarabran
+ru;Кума;Cooma
+ru;Куктаун;Cooktown
+zh;庫克敦;Cooktown
+en;Coles;Coles Bay
+ja;コールズベイ;Coles Bay
+zh;歌斯灣;Coles Bay
+ru;Колрейн;Coleraine
+ru;Колдстрим;Coldstream
+ru;Колак;Colac
+ja;コーラック;Colac
+zh;科拉克;Colac
+ru;Кохьюна;Cohuna
+ru;Кофс-Харбор;Coffs Harbour
+ja;コフス・ハーバー;Coffs Harbour
+ko;코프스하버;Coffs Harbour
+zh;科夫斯港;Coffs Harbour
+hi;कॉफ़्स हार्बर;Coffs Harbour
+en;Moomba;Coen
+ru;Коберн;Cockburn
+ru;Кобрам;Cobram
+ru;Кобден;Cobden
+ru;Кобарго;Cobargo
+ja;クルーンズ;Clunes
+ru;Клонкурри;Cloncurry
+ru;Клонкарри;Cloncurry
+ru;Клифтон Спрингс;Clifton Springs
+ru;Клермонт;Clermont
+ja;クレアヴィル;Clareville
+ru;Вуллонгонг;Wollongong
+ko;울런공;Wollongong
+ja;ウロンゴン;Wollongong
+zh;卧龙岗市;Wollongong
+hi;वोलॉन्गॉन्ग;Wollongong
+ru;Чинчилла;Chinchilla
+zh;奇爾特恩;Chiltern
+zh-Hans;奇尔特恩;Chiltern
+ru;Чилдерс;Childers
+ru;Чартерс-Тауэрс;Charters Towers
+ru;Чарлтон;Charlton
+ru;Сеснок;Cessnock
+zh;塞斯诺克;Cessnock
+hi;सेस्नॉक;Cessnock
+ja;セスノック;Cessnock
+ko;세스녹;Cessnock
+ru;Колфилд;Caulfield
+zh;考菲爾德;Caulfield
+ja;コーフィールド;Caulfield
+ru;Каслмейн;Castlemaine
+zh;卡索曼;Castlemaine
+ja;キャッスルメイン;Castlemaine
+ru;Кастертон;Casterton
+en;Carrs Creek;Carrs Creek Junction
+ru;Кардвел;Cardwell
+ru;Кэптенс Флэт;Captains Flat
+ru;Капелла;Capella
+ru;Канунгра;Canungra
+ru;Канн-Ривер;Cann River
+ru;Кандело;Candelo
+hi;कैनबरा;Canberra
+ja;キャンベラ;Canberra
+ko;캔버라;Canberra
+pt;Camberra;Canberra
+ru;Канберра;Canberra
+zh;堪培拉;Canberra
+es;Camberra;Canberra
+mi;Kānapera;Canberra
+tpi;Kambra;Canberra
+ru;Кампердаун;Camperdown
+ru;Кэмбелл Таун;Campbell Town
+ru;Кэмпбелл-Таун;Campbell Town
+ja;キャンベル・タウン;Campbell Town
+ja;キャンベルタウン;Campbelltown
+en;Cambewarra;Cambewarra Village
+ru;Калундра;Caloundra
+ru;Калаундра;Caloundra
+ru;Кален;Calen
+ja;ケアンズ;Cairns
+ru;Кернс;Cairns
+ko;케언스;Cairns
+ru;Кэрнс;Cairns
+zh;凱恩斯;Cairns
+ko;케언즈;Cairns
+hi;केर्न्स;Cairns
+zh-Hans;凯恩斯;Cairns
+tpi;Kens;Cairns
+ko;바이런베이;Byron Bay
+ru;Байрон-Бей;Byron Bay
+zh;拜倫灣;Byron Bay
+ru;Байфилд;Byfield
+ru;Бакстон;Buxton
+ru;Берни;Burnie
+zh;伯爾尼;Burnie
+hi;बर्नी;Burnie
+ja;バーニー;Burnie
+ru;Барнетт Хедс;Burnett Heads
+ru;Бундалонг;Bundalong
+ru;Бандаберг;Bundaberg
+zh;班德堡;Bundaberg
+ru;Бакан;Buchan
+ja;ブルックリン;Brooklyn
+ja;ブロークンヒル;Broken Hill
+ru;Брокен-Хилл;Broken Hill
+hi;ब्रोकन हिल;Broken Hill
+zh-Hant;布羅肯希爾;Broken Hill
+zh;布罗肯希尔;Broken Hill
+ko;브로큰힐;Broken Hill
+ru;Броадвотер;Broadwater
+ru;Бродфорд;Broadford
+ja;ブリスベン;Brisbane
+ko;브리즈번;Brisbane
+ru;Брисбен;Brisbane
+en;Brisbane City;Brisbane
+hi;ब्रिस्बेन;Brisbane
+pih;Brisbin;Brisbane
+zh;布里斯班;Brisbane
+tpi;Brisbin;Brisbane
+ru;Брайт;Bright
+ru;Бридпорт;Bridport
+ru;Брэкнелл;Bracknell
+ru;Бауэн;Bowen
+hi;बोवेन;Bowen
+ja;ボーウェン;Bowen
+ru;Бордертаун;Bordertown
+ru;Буларра;Boolarra
+ru;Бомбала;Bombala
+ru;Бомадерри;Bomaderry
+zh;博馬德里;Bomaderry
+zh-Hans;博马德里;Bomaderry
+ru;Блэкбатт;Blackbutt
+ru;Берчип;Birchip
+ru;Билоила;Biloela
+ru;Бичено;Bicheno
+ru;Берри;Berry
+ru;Берригэн;Berrigan
+ru;Берри;Berri
+ru;Бендиго;Bendigo
+ja;ベンディゴ;Bendigo
+ko;벤디고;Bendigo
+zh;本迪戈;Bendigo
+hi;बेंडिगो;Bendigo
+ru;Беналла;Benalla
+zh-Hans;贝纳拉;Benalla
+zh;貝納拉;Benalla
+ru;Белл;Bell
+ru;Бега;Bega
+ru;Бичуэрт;Beechworth
+zh;比奇沃斯（維多利亞省）;Beechworth
+zh-Hans;比奇沃斯（维多利亚省）;Beechworth
+ja;ビーチワース;Beechworth
+ru;Бьюти Поинт;Beauty Point
+ru;Бофорт;Beaufort
+ru;Беконсфилд;Beaconsfield
+ru;Бичпорт;Beachport
+ru;Бэтхерст;Bathurst
+ko;배서스트;Bathurst
+ru;Батерст;Bathurst
+zh;巴瑟斯特;Bathurst
+ja;バサースト;Bathurst
+hi;बाथर्स्ट;Bathurst
+ru;Баруга;Barooga
+ru;Бармера;Barmera
+ru;Баргара;Bargara
+ru;Баралаба;Baralaba
+ru;Балларат;Ballarat
+ja;バララット;Ballarat
+ko;밸러랫;Ballarat
+zh;巴拉腊特;Ballarat
+zh-Hant;巴拉瑞特;Ballarat
+tpi;Balarat;Ballarat
+ru;Бэрнсдейл;Bairnsdale
+ru;Багдад;Bagdad
+ru;Баккус-Марш;Bacchus Marsh
+ja;ビクトリア州;Bacchus Marsh
+ru;Бабинда;Babinda
+ru;Авондейл;Avondale
+ru;Авока;Avoca
+ru;Авеню;Avenue
+ru;Авенел;Avenel
+zh;艾文內爾（維多利亞省）;Avenel
+zh-Hans;艾文内尔（维多利亚省）;Avenel
+ru;Атертон;Atherton
+ru;Армидейл;Armidale
+zh;阿米代尔;Armidale
+ja;アーミデイル;Armidale
+hi;आर्मिडेल;Armidale
+zh-Hant;阿米代爾;Armidale
+ko;아미데일;Armidale
+ru;Аратула;Aratula
+ru;Арарат;Ararat
+zh-Hans;亚拉拉特;Ararat
+zh;亞拉拉特;Ararat
+ja;アララト;Ararat
+ru;Арамак;Aramac
+ru;Аппин;Appin
+ru;Аполло Бэй;Apollo Bay
+ru;Энглси;Anglesea
+ru;Анаки;Anakie
+ru;Амиенс;Amiens
+ru;Алфа;Alpha
+ru;Алмаден;Almaden
+ru;Аллора;Allora
+pt;Alfredtown;Alfred Town
+en;Alfredtown;Alfred Town
+nl;Alfredtown;Alfred Town
+ru;Алегзандра;Alexandra
+ru;Олбери;Albury
+ja;オルベリー;Albury
+ko;앨버리;Albury
+zh;奥尔伯里;Albury
+en;Fairhaven;Aireys Inlet
+ru;Аделонг;Adelong
+ru;Адаминаби;Adaminaby
+ru;Абердин;Aberdeen
+ja;モーペス;Morpeth
+zh;莫珀斯;Morpeth
+ja;ニューラムトン;New Lambton
+en;Middle Point;Middlepoint
+en;Lanena;Blackwall
+ja;ブラックウォール;Blackwall
+ru;Систерс Бич;Sisters Beach
+hi;लावेर्तों;Laverton
+ru;Лавертон;Laverton
+zh;莱沃顿;Laverton
+ru;Палмерстон;Palmerston
+zh;帕默斯頓;Palmerston
+ja;パーマストン;Palmerston
+ru;Эирлай Бич;Airlie Beach
+ja;エアリービーチ;Airlie Beach
+ru;Эрли-Бич;Airlie Beach
+zh;埃爾利海灘;Airlie Beach
+ru;Харви-Бей;Hervey Bay
+zh;赫維灣;Hervey Bay
+ru;Моранба;Moranbah
+en;Karatha;Karratha
+ru;Карраста;Karratha
+hi;करराथा;Karratha
+ja;カラータ;Karratha
+zh;錦林息;Klemzig
+ja;クレムジグ;Klemzig
+ru;Агнес Вотер;Agnes Water
+ja;バースウッド;Burswood
+zh;布爾斯伍德;Burswood
+ja;アレクサンドラ・ヘッドランド;Alexandra Headland
+zh;君达乐;Joondalup
+ja;ティエリ;Tieri
+ru;Маунт Булла;Mount Buller
+ru;Маунт-Буллер-Алпайн-Резорт;Mount Buller
+ru;Андамука;Andamooka
+zh;百里亞埠;Blair Athol
+zh;亞埠士頓;Athelstone
+ru;Ателстон;Athelstone
+zh;密甸地;Medindie
+ja;メディンディー;Medindie
+ru;Мединди;Medindie
+zh;柏世;Parkside
+en;Logan;Logan City
+es;Logan;Logan City
+zh;洛根市;Logan City
+it;Città di Logan;Logan City
+ru;Логан;Logan City
+ru;Парраматта;Parramatta
+hi;पैरामट्टा;Parramatta
+ja;パラマッタ;Parramatta
+ja;クーロイ・マウンテン;Cooroy Mountain
+en;Mollymook;Mollymook Beach
+ru;Ялата;Yalata
+ja;バルウィン・ノース;Balwyn North
+zh;博文北;Balwyn North
+ru;Колфилд-Саут;Caulfield South
+en;Saint Albans;St Albans
+en;St. Albans;St Albans
+en;Mt Coolum;Mount Coolum
+en;The Entrance North Peninsula Natural Area;The Entrance North
+en;Arcadia Bay;Arcadia
+en;Arcadia Village;Arcadia
+en;Cunjurong;Cunjurong Point
+en;Wave Hill;Kalkarindji
+en;Peppermint Grove;Peppermint Grove Beach
+en;Perisher Village;Perisher Valley
+en;Garden Point;Pirlangimpi
+en;Lakeland;Lakeland Downs
+ja;ベルモント;Belmont
+pt;Costa Central;Central Coast
+ru;Сентрал Коаст;Central Coast
+en;Bamyili;Barunga
+ja;アグネス・バンクス;Agnes Banks
+en;Angurugu;Angurugu Community, Anindilyakwa
+zh;洛克哈特河;Lockhart River
+en;Snake Bay;Milikapiti
+ru;Натейлия;Nathalia
+ru;Робинвейл;Robinvale
+en;Rottnest;Rottnest Island
+fr;Île Rottnest;Rottnest Island
+ru;Роттнест;Rottnest Island
+zh;羅特尼斯島;Rottnest Island
+ru;Абергаури;Abergowrie
+en;St. Georges Basin;Saint Georges Basin
+ru;Город Кокберн;City of Cockburn
+id;Kota Cockburn;City of Cockburn
+ms;Bandar Cockburn;City of Cockburn
+es;Ciudad de Cockburn;City of Cockburn
+fr;Ville de Cockburn;City of Cockburn
+hi;कॉकबर्न शहर;City of Cockburn
+de;Stadt Cockburn;City of Cockburn
+ja;コックバーン市;City of Cockburn
+pt;Cidade de Cockburn;City of Cockburn
+en;Carpenter's Rocks;Carpenter Rocks
+en;Hume Weir;Lake Hume Village
+en;Eucumbene;Eucumbene Cove
+en;Wybelana;Wybalena
+en;St. Albands;Saint Albands
+en;Njinjilki;Njinjilki, South Wellesley Islands
+en;Silky Oak Creek;Silky Oak
+ru;Глендамбо;Glendambo
+ru;Тевенард;Thevenard
+ru;Андум;Andoom
+en;Murrim Bridge Community;Murrin Bridge Aboriginal Station
+en;Glencalm;Glencairn
+en;Ellavallo;Ellavalloo
+en;Chinaman Well;Chinaman Wells
+en;Thomas Plains;Thomas Plain
+ja;マイポンガビーチ;Myponga Beach
+zh;米邦加灘;Myponga Beach
+en;Bunyip Beach;Bunyip Reach
+en;Wanuarra;Wonuarra
+en;Broadwater Lake;The Broadwater
+en;Lawrence Road;Laurence Road
+en;Palmwood;Palmwoods
+en;Mulka;Mulka Station
+en;Culgowie P.O.;Culgowie
+en;Port Gregory;Gregory
+ru;Крик Кэрролла;Carrolls Creek
+hi;कैरोल्स क्रीक;Carrolls Creek
+ja;キャロルズクリーク;Carrolls Creek
+zh;阿德萊德機場;Adelaide Airport
+zh;立克湖;Lake Leake
+en;Pipe Clay;Pipe Clay Lagoon
+ru;Агнью;Agnew
+ru;Побережье Солнечного берега;Sunshine Coast
+es;Costa de Sunshine;Sunshine Coast
+fr;Côte du Soleil;Sunshine Coast
+hi;सनशाइन कोस्ट;Sunshine Coast
+ja;サンシャインコースト;Sunshine Coast
+pt;Costa do Sunshine;Sunshine Coast
+es;The Artists Principality;Prinipality of Wy
+en;Eunanoreenya;Eunonyhareenyha
+nl;Eunanoreenya;Eunonyhareenyha
+ru;Каламунда;Kalamunda
+hi;कालामुंडा;Kalamunda
+ja;カラムンダ;Kalamunda
+ru;Норт-Госфорд;North Gosford
+zh;北戈斯福德;North Gosford
+en;Mooreville;Sooreville
+ru;Уриарра;Uriarra Village
+ja;ウリアラビレッジ;Uriarra Village
+ja;バニアン;Bunyan
+ru;Саншайн-Бич;Sunshine Beach
+ja;ソーンデイル;Thorndale
+zh;梅里拉;Meryla
+zh;潔蘭;Cleland
+en;Boys Town;Boystown Campus
+en;Eden Dale 2;Eden Dale Two
+en;Grevillia Gorge;The Gorge
+en;Pigtree;Figtree
+en;Saint Andrews Stud;St. Andrews Stud

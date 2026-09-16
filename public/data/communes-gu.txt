@@ -1,0 +1,26 @@
+1666;144.6933,13.4626;96910;Piti;Piti Village
+7500;144.6723,13.3861;96928;Santa Rita;Santa Rita Village
+2853;144.7541,13.4633;96932;Sinajana;Sinajana Village
+3215;144.7584,13.3551;96915;Talofofo;Talofofo Village
+19685;144.7814,13.4877;96921;Tamuning;Tamuning-Tumon-Harmon Village
+903;144.6631,13.2984;96916;Umatac;Umatac Village
+20539;144.8886,13.5360;96929;Yigo;Yigo Village
+6484;144.7770,13.4097;96911;Yona;Yona Village
+2152;144.6691,13.2658;96916;Merizo;Merizo Village
+3052;144.7484,13.2736;96917;Inarajan;Inarajan Village
+3940;144.7480,13.4656;96932;Agana Heights;Agana Heights Village
+6822;144.7590,13.4474;96910;Chalan Pago-Ordot;Chalan Pago-Ordot Village
+8875;144.7990,13.4691;96921;Barrigada;Barrigada Village
+3292;144.6600,13.3830;96928;Agat;Agat Village
+2137;144.7165,13.4721;96932;Asan;Asan-Maina Village
+44943;144.8391,13.5178;96929;Dededo;Dededo Village
+1051;144.7489,13.4757;96932;Hagatna;Hagåtña
+15191;144.8011,13.4476;96921;Mangilao;Mangilao Village
+6825;144.7821,13.4686;96921;Mongmong-Toto-Maite;Mongmong-Toto-Maite Village
+1051;144.7580,13.4728;96932;Hagatna;Hagåtña Village
+3638;144.8447,13.4924;96921;Mangilao;Adacao
+2385;144.9182,13.5289;96929;Yigo;Anao
+2930;144.6525,13.4283;96928;Santa Rita;Apra Harbor
+2524;144.8806,13.5717;96929;Yigo;Chaguian
+0;144.8443,13.5724;96929;Dededo;Finegayan Station
+901;144.7673,13.3537;96915;Talofofo;Ipan

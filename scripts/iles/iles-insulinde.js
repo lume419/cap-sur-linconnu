@@ -26,6 +26,8 @@ module.exports = {
         S([[-0.72, 0.5, 104.05, 105.3]], 'Lingga, Singkep et îlots'),
         S([[0.55, 0.95, 103.3, 103.9], [0.47, 0.55, 103.55, 103.9], [0.95, 1.2, 103.5, 103.85]], 'Kundur, Moro, Sugi, Durai, îlots à l’ouest de Batam'),
         // ---------- Bangka-Belitung ----------
+        { key: 'bangka', match: { box: [[-3.1, -3.0, 106.7, 106.76]] },
+          note: "Pointe sud-est de Bangka (Sadai, port vers Tanjung Ru ; Tokoi, Tepang) : vérifié dans le polygone OSM de l'île de Bangka, à l'ouest du détroit de Lepar (Penutuk, Gunung, Menggu sont sur Lepar)" },
         S([[-3.1, -2.72, 106.7, 107.4]], 'Lepar, Pongok'),
         { key: 'bangka', match: { box: [[-2.7, -1.45, 105.1, 106.9], [-3.2, -2.7, 105.8, 106.7]] } },
         { key: 'belitung', match: { box: [[-3.5, -2.45, 107.45, 108.4]] } },
@@ -67,6 +69,8 @@ module.exports = {
         { key: 'sumba', match: { box: [[-10.45, -9.25, 118.8, 121.0]] } },
         { key: 'sabu', match: { box: [[-10.65, -10.4, 121.7, 122.05]] } },
         { key: 'rote', match: { box: [[-11.05, -10.45, 122.7, 123.45]] } },
+        { key: 'timor', match: { box: [[-10.28, -10.2, 123.485, 123.5]] },
+          note: "Rive timoraise du détroit de Semau au sud de Bolok (Uihainmumu, polygone OSM de Timor) ; les villages de Semau (Hansisi, Kauan, Koblain…) sont au nord de 10,2° S ou à l'ouest de 123,485° E" },
         S([[-10.28, -10.1, 123.28, 123.5], [-10.3, -10.28, 123.28, 123.4], [-10.7, -10.5, 121.45, 121.7]], 'Semau, Raijua'),
         { key: 'timor', match: { box: [[-10.45, -8.9, 123.35, 125.2]] }, note: 'Timor occidental (partagé avec TL)' },
         // ---------- Kalimantan ----------
@@ -98,7 +102,8 @@ module.exports = {
         { key: 'morotai', match: { box: [[1.9, 2.7, 128.15, 128.8]] } },
         { key: 'bacan', match: { box: [[-0.95, -0.3, 127.3, 127.8]] } },
         { key: 'halmahera', match: { box: [[-1.0, 2.6, 127.3, 129.0]] } },
-        { key: 'ambon', match: { box: [[-3.8, -3.52, 127.9, 128.35]] } },
+        { key: 'ambon', match: { box: [[-3.8, -3.52, 127.9, 128.35], [-3.66, -3.49, 128.15, 128.37]] },
+          note: "2e boîte : côte nord-est d'Ambon (Liang, port de Hunimua ; Batudua ; Tengah-Tengah), vérifiée dans le polygone OSM d'Ambon — Haruku commence à 128,41° E, Seram au nord de 3,4° S" },
         S([[-3.75, -3.45, 128.35, 128.85]], 'Haruku, Saparua, Nusa Laut'),
         { key: 'seram', match: { box: [[-3.55, -2.7, 127.8, 130.95]] } },
         { key: 'buru', match: { box: [[-3.95, -3.0, 125.9, 127.3]] } },

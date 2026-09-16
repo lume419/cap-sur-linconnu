@@ -179,7 +179,7 @@
   // plutôt qu'un symbole ici, quel que soit le vrai symbole disponible — voir CURRENCY_GLYPH plus bas).
   // Liban/Israël/Jordanie/Égypte/Libye, dernier ajout en date : LBP/ILS/JOD/EGP/LYD suivent la même
   // règle (code ISO ici, quel que soit le vrai symbole — voir CURRENCY_GLYPH plus bas).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL', AMD: 'AMD', AZN: 'AZN', SYP: 'SYP', LBP: 'LBP', ILS: 'ILS', JOD: 'JOD', EGP: 'EGP', LYD: 'LYD', MAD: 'MAD', DZD: 'DZD', TND: 'TND', XOF: 'XOF', MRU: 'MRU', GMD: 'GMD', CVE: 'CVE', GNF: 'GNF', SLE: 'SLE', LRD: 'LRD', GHS: 'GHS', XAF: 'XAF', NGN: 'NGN', SDG: 'SDG', SSP: 'SSP', ERN: 'ERN', ETB: 'ETB', DJF: 'DJF', SOS: 'SOS', KES: 'KES', UGX: 'UGX', TZS: 'TZS', RWF: 'RWF', BIF: 'BIF', CDF: 'CDF', STN: 'STN', AOA: 'AOA', ZMW: 'ZMW', MWK: 'MWK', MZN: 'MZN', ZWG: 'ZWG', BWP: 'BWP', NAD: 'NAD', ZAR: 'ZAR', SZL: 'SZL', LSL: 'LSL', KMF: 'KMF', MGA: 'MGA', MUR: 'MUR', SCR: 'SCR', SHP: 'SHP', RUB: 'RUB', SAR: 'SAR', AED: 'AED', QAR: 'QAR', BHD: 'BHD', OMR: 'OMR', KWD: 'KWD', IQD: 'IQD', IRR: 'IRR', YER: 'YER', AFN: 'AFN', KZT: 'KZT', KGS: 'KGS', UZS: 'UZS', TJS: 'TJS', TMT: 'TMT', BDT: 'BDT', BTN: 'BTN', INR: 'INR', MVR: 'MVR', NPR: 'NPR', PKR: 'PKR', LKR: 'LKR', USD: 'USD', CNY: 'CNY', HKD: 'HKD', MOP: 'MOP', KPW: 'KPW', KRW: 'KRW', JPY: 'JPY', MNT: 'MNT', TWD: 'TWD', BND: 'BND', KHR: 'KHR', IDR: 'IDR', LAK: 'LAK', MYR: 'MYR', MMK: 'MMK', PHP: 'PHP', SGD: 'SGD', THB: 'THB', VND: 'VND', AUD: 'AUD' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL', AMD: 'AMD', AZN: 'AZN', SYP: 'SYP', LBP: 'LBP', ILS: 'ILS', JOD: 'JOD', EGP: 'EGP', LYD: 'LYD', MAD: 'MAD', DZD: 'DZD', TND: 'TND', XOF: 'XOF', MRU: 'MRU', GMD: 'GMD', CVE: 'CVE', GNF: 'GNF', SLE: 'SLE', LRD: 'LRD', GHS: 'GHS', XAF: 'XAF', NGN: 'NGN', SDG: 'SDG', SSP: 'SSP', ERN: 'ERN', ETB: 'ETB', DJF: 'DJF', SOS: 'SOS', KES: 'KES', UGX: 'UGX', TZS: 'TZS', RWF: 'RWF', BIF: 'BIF', CDF: 'CDF', STN: 'STN', AOA: 'AOA', ZMW: 'ZMW', MWK: 'MWK', MZN: 'MZN', ZWG: 'ZWG', BWP: 'BWP', NAD: 'NAD', ZAR: 'ZAR', SZL: 'SZL', LSL: 'LSL', KMF: 'KMF', MGA: 'MGA', MUR: 'MUR', SCR: 'SCR', SHP: 'SHP', RUB: 'RUB', SAR: 'SAR', AED: 'AED', QAR: 'QAR', BHD: 'BHD', OMR: 'OMR', KWD: 'KWD', IQD: 'IQD', IRR: 'IRR', YER: 'YER', AFN: 'AFN', KZT: 'KZT', KGS: 'KGS', UZS: 'UZS', TJS: 'TJS', TMT: 'TMT', BDT: 'BDT', BTN: 'BTN', INR: 'INR', MVR: 'MVR', NPR: 'NPR', PKR: 'PKR', LKR: 'LKR', USD: 'USD', CNY: 'CNY', HKD: 'HKD', MOP: 'MOP', KPW: 'KPW', KRW: 'KRW', JPY: 'JPY', MNT: 'MNT', TWD: 'TWD', BND: 'BND', KHR: 'KHR', IDR: 'IDR', LAK: 'LAK', MYR: 'MYR', MMK: 'MMK', PHP: 'PHP', SGD: 'SGD', THB: 'THB', VND: 'VND', AUD: 'AUD', NZD: 'NZD', PGK: 'PGK', SBD: 'SBD', VUV: 'VUV', FJD: 'FJD', WST: 'WST', TOP: 'TOP' };
   // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
   // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
   // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
@@ -248,7 +248,7 @@
   // Unicode 17.0, septembre 2025) et du dirham émirien (U+20C3, Unicode 18.0, septembre 2026) ne sont PAS
   // utilisés : encore absents de la plupart des polices système, ils s'afficheraient en carré vide — même
   // raisonnement que pour le nouveau symbole du rouble biélorusse plus haut.
-  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾', AMD: '֏', AZN: '₼', SYP: 'ل.س', LBP: 'LL', ILS: '₪', JOD: 'JD', EGP: 'LE', LYD: 'ل.د', MAD: 'د.م.', DZD: 'د.ج', TND: 'د.ت', XOF: 'F CFA', MRU: 'UM', GMD: 'D', CVE: 'CVE', GNF: 'FG', SLE: 'Le', LRD: 'L$', GHS: '₵', XAF: 'F CFA', NGN: '₦', SDG: 'ج.س.', SSP: 'SSP', ERN: 'Nfk', ETB: 'Br', DJF: 'Fdj', SOS: 'Sh.So.', KES: 'KSh', UGX: 'USh', TZS: 'TSh', RWF: 'FRw', BIF: 'FBu', CDF: 'FC', STN: 'Db', AOA: 'Kz', ZMW: 'K', MWK: 'MK', MZN: 'MT', ZWG: 'ZiG', BWP: 'P', NAD: 'N$', ZAR: 'R', SZL: 'E', LSL: 'L', KMF: 'CF', MGA: 'Ar', MUR: 'Rs', SCR: 'SR', SHP: '£', RUB: '₽', SAR: 'ر.س', AED: 'د.إ', QAR: 'ر.ق', BHD: 'د.ب', OMR: 'ر.ع.', KWD: 'د.ك', IQD: 'د.ع', IRR: '﷼', YER: 'ر.ي', AFN: '؋', KZT: '₸', KGS: 'сом', UZS: 'soʻm', TJS: 'ЅМ', TMT: 'm', BDT: '৳', BTN: 'Nu.', INR: '₹', MVR: 'Rf', NPR: 'रू', PKR: 'Rs', LKR: 'රු', USD: 'US$', CNY: '¥', HKD: 'HK$', MOP: 'MOP$', KPW: '₩', KRW: '₩', JPY: '¥', MNT: '₮', TWD: 'NT$', BND: 'B$', KHR: '៛', IDR: 'Rp', LAK: '₭', MYR: 'RM', MMK: 'K', PHP: '₱', SGD: 'S$', THB: '฿', VND: '₫', AUD: 'A$' };
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾', AMD: '֏', AZN: '₼', SYP: 'ل.س', LBP: 'LL', ILS: '₪', JOD: 'JD', EGP: 'LE', LYD: 'ل.د', MAD: 'د.م.', DZD: 'د.ج', TND: 'د.ت', XOF: 'F CFA', MRU: 'UM', GMD: 'D', CVE: 'CVE', GNF: 'FG', SLE: 'Le', LRD: 'L$', GHS: '₵', XAF: 'F CFA', NGN: '₦', SDG: 'ج.س.', SSP: 'SSP', ERN: 'Nfk', ETB: 'Br', DJF: 'Fdj', SOS: 'Sh.So.', KES: 'KSh', UGX: 'USh', TZS: 'TSh', RWF: 'FRw', BIF: 'FBu', CDF: 'FC', STN: 'Db', AOA: 'Kz', ZMW: 'K', MWK: 'MK', MZN: 'MT', ZWG: 'ZiG', BWP: 'P', NAD: 'N$', ZAR: 'R', SZL: 'E', LSL: 'L', KMF: 'CF', MGA: 'Ar', MUR: 'Rs', SCR: 'SR', SHP: '£', RUB: '₽', SAR: 'ر.س', AED: 'د.إ', QAR: 'ر.ق', BHD: 'د.ب', OMR: 'ر.ع.', KWD: 'د.ك', IQD: 'د.ع', IRR: '﷼', YER: 'ر.ي', AFN: '؋', KZT: '₸', KGS: 'сом', UZS: 'soʻm', TJS: 'ЅМ', TMT: 'm', BDT: '৳', BTN: 'Nu.', INR: '₹', MVR: 'Rf', NPR: 'रू', PKR: 'Rs', LKR: 'රු', USD: 'US$', CNY: '¥', HKD: 'HK$', MOP: 'MOP$', KPW: '₩', KRW: '₩', JPY: '¥', MNT: '₮', TWD: 'NT$', BND: 'B$', KHR: '៛', IDR: 'Rp', LAK: '₭', MYR: 'RM', MMK: 'K', PHP: '₱', SGD: 'S$', THB: '฿', VND: '₫', AUD: 'A$', NZD: 'NZ$', PGK: 'K', SBD: 'SI$', VUV: 'VT', FJD: 'FJ$', WST: 'WS$', TOP: 'T$' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :
@@ -2086,9 +2086,18 @@
         var fi = firstLeg.ferryInfo;
         var ferryRow = document.createElement('div');
         ferryRow.className = 'day-row';
-        var ferryTxt = t('ferry.text', { route: t(fi.routeKey), amount: formatEuro(fi.amount), duration: fmtHours(fi.durationH) });
+        var ferryTxt = fi.amount === null
+          ? t('ferry.textNoPrice', { route: t(fi.routeKey), duration: fmtHours(fi.durationH) })
+          : t('ferry.text', { route: t(fi.routeKey), amount: formatEuro(fi.amount), duration: fmtHours(fi.durationH) });
         ferryRow.innerHTML = icon('ferry') + '<span><span class="lbl">'+t('ferry.label')+'</span>'+ferryTxt+'</span>';
         body.appendChild(ferryRow);
+        // Liaison réelle sans tarif fixe publié : avertissement dans le style des zones à tension (orange).
+        if(fi.amount === null){
+          var ferryWarn = document.createElement('div');
+          ferryWarn.className = 'day-row tension-row tension-orange';
+          ferryWarn.innerHTML = icon('warn') + '<span>'+t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown')+'</span>';
+          body.appendChild(ferryWarn);
+        }
       }
       if(firstLeg.chargeInfo){
         var c = firstLeg.chargeInfo;
@@ -2211,8 +2220,14 @@
     }
     var ferryLegs = legs.filter(function(l){return l.ferryInfo;});
     if(ferryLegs.length){
-      var ferrySum = ferryLegs.reduce(function(s,l){return s+l.ferryInfo.amount;},0);
-      statsHtml += '<span><b>~'+formatEuro(ferrySum)+' €</b> '+t('stats.ferryTotal')+'</span>';
+      var pricedFerries = ferryLegs.filter(function(l){return l.ferryInfo.amount !== null;});
+      if(pricedFerries.length){
+        var ferrySum = pricedFerries.reduce(function(s,l){return s+l.ferryInfo.amount;},0);
+        statsHtml += '<span><b>~'+formatEuro(ferrySum)+' €</b> '+t('stats.ferryTotal')+'</span>';
+      }
+      if(pricedFerries.length < ferryLegs.length){
+        statsHtml += '<span><b>'+(ferryLegs.length - pricedFerries.length)+'</b> '+t('stats.ferryUnpriced')+'</span>';
+      }
     }
     els.timelineStats.innerHTML = statsHtml;
   }
@@ -2402,7 +2417,7 @@
           country: leg.country || null,
           tollInfo: leg.tollInfo || null,
           chargeInfo: leg.chargeInfo || null,
-          ferryInfo: leg.ferryInfo ? { route: t(leg.ferryInfo.routeKey), amount: leg.ferryInfo.amount } : null,
+          ferryInfo: leg.ferryInfo ? { route: t(leg.ferryInfo.routeKey), amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null } : null,
           checkInLabel: leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null,
           lodgingLinks: leg.lodgingLinks || null,
           activities: (leg.activities || []).map(function(opt){
