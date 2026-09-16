@@ -29,3 +29,8 @@ public/data/communes-bundle.txt.br
 public/data/aliases-bundle.txt
 public/data/aliases-bundle.txt.gz
 public/data/aliases-bundle.txt.br
+# Configuration locale de l'outillage de développement (lancement du serveur de prévisualisation par
+# `node server.js` sur le port 3000) : dépend de la machine, ne décrit rien que `npm start` ne dise
+# déjà, jamais commitée. Seul ce fichier est exclu, pas tout `.claude/` — un éventuel réglage de
+# projet ajouté plus tard doit rester versionnable sans avoir à défaire cette ligne.
+.claude/launch.json
