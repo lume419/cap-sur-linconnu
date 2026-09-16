@@ -3359,6 +3359,19 @@ Busuanga approchées par boîtes (baie de Gutob).
 - **Non modélisées** : Coron ↔ Culion (vedettes pour passagers seulement), Coron ↔ San Jose de Mindoro (transport de
   voitures non prouvé), Atienza Interisland (tarif et transport de véhicules non établis).
 
+### Tawau, Long Island et Rum Cay : trois îles mal délimitées (septembre 2026)
+
+Relevées en listant les masses terrestres sans liaison (script de contrôle qui applique `landmassOf` à tous les lieux) :
+- **Tawau (Malaisie, 372 615 hab.)** était rangée sur l'île de **Sebatik** : la boîte de l'île (4,05–4,30 N, 117,76–118,0 E)
+  débordait sur le continent, de l'autre côté de Cowie Harbour, et coupait la ville du reste de Sabah. Deux boîtes suivent
+  désormais la côte nord de Sebatik ; Wallace Bay et Mantadok, bien sur l'île mais auparavant rangés à Bornéo, la rejoignent.
+- **Long Island des Bahamas et Long Island de Papouasie-Nouvelle-Guinée** partageaient la clé `longIsland` et formaient une
+  seule masse terrestre : clés `longIslandBS` et `longIslandPG`.
+- **Rum Cay** : Port Nelson tombait dans la boîte de Long Island (évaluée avant celle de Rum Cay) ; la boîte est scindée.
+
+Contrôle fait à la même occasion : les clés encore communes à plusieurs pays sont toutes voulues (Hispaniola, Timor, Bornéo,
+Sebatik, Nouvelle-Guinée, Terre de Feu, Saint-Martin, Leticia-Tabatinga, Guyane-Oiapoque, continents).
+
 ## Photos réelles
 
 Un artefact Claude ne peut charger aucune image externe (CSP) ; sur ce serveur, cette limite n'existe

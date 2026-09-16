@@ -70,7 +70,11 @@ module.exports = {
       { key: '*', match: { box: [[23.90, 24.20, -76.50, -76.20]] }, note: 'Cayes des Exumas (Little Farmer’s Cay, Black Point/Great Guana Cay).' },
       { key: 'greatExuma', match: { box: [[23.38, 23.75, -76.10, -75.50]] }, note: 'Great Exuma + Little Exuma (pont de The Ferry).' },
       { key: 'catIsland', match: { box: [[24.05, 24.70, -75.75, -75.25]] }, note: 'Cat Island.' },
-      { key: 'longIsland', match: { box: [[22.80, 23.70, -75.35, -74.82]] }, note: 'Long Island.' },
+      // Clé suffixée : « longIsland » servait aussi à Long Island de Papouasie-Nouvelle-Guinée (iles-melanesie.js),
+      // les deux îles formaient une seule masse terrestre.
+      // Deux boîtes : la boîte unique (jusqu'à 23,70 N et -74,82) avalait Port Nelson (23,650 N, -74,842), sur Rum
+      // Cay, évalué plus bas — Rum Cay était rattachée à Long Island. Le nord de Long Island reste à l'ouest de -75,0.
+      { key: 'longIslandBS', match: { box: [[22.80, 23.70, -75.35, -75.0], [22.80, 23.60, -75.0, -74.82]] }, note: 'Long Island.' },
       { key: 'rumCay', match: { box: [[23.62, 23.72, -74.90, -74.78]] }, note: 'Rum Cay (Port Nelson, Port Boyd).' },
       { key: 'sanSalvador', match: { box: [[23.60, 24.15, -74.58, -74.40]] }, note: 'San Salvador (Cockburn Town…; « Sugar Loaf » 23.65, point décalé).' },
       { key: 'crookedIsland', match: { box: [[22.66, 22.90, -74.34, -74.03]] }, note: 'Crooked Island (Colonel Hill, Landrail Point, French Wells…).' },

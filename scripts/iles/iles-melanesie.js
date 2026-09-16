@@ -56,7 +56,8 @@ module.exports = {
         {key: "manam", match: {near: [{name: "Manam", lat: -4.08, lon: 145.04, km: 9}]}, note: "Manam"},
         {key: "karkar", match: {near: [{name: "Karkar", lat: -4.635, lon: 145.965, km: 14}]}, note: "Karkar"},
         {key: "bagabag", match: {near: [{name: "Bagabag", lat: -4.8, lon: 146.22, km: 7}]}, note: "Bagabag"},
-        {key: "longIsland", match: {near: [{name: "Long Island", lat: -5.33, lon: 147.08, km: 17}]}, note: "Long Island"},
+        // Clé suffixée : « longIsland » servait aussi à Long Island des Bahamas (iles-caraibes.js).
+        {key: "longIslandPG", match: {near: [{name: "Long Island", lat: -5.33, lon: 147.08, km: 17}]}, note: "Long Island"},
         {key: "*", match: {box: [[-5.45, -5.05, 146.9, 147], [-5.4, -5.2, 147.5, 147.72], [-5.5, -5.35, 147.95, 148.2]]}, note: "Crown, Tolokiwa, Sakar"},
         {key: "*", match: {near: [{name: "Kranket", lat: -5.1995, lon: 145.8144, km: 0.3}, {name: "Malamal", lat: -5.1266, lon: 145.8064, km: 0.3}, {name: "Kananam", lat: -5.0998, lon: 145.8013, km: 0.3}]}, note: "îlots du lagon de Madang (Kranket, Malamal, Kananam)"},
         {key: "umboi", match: {box: [[-5.95, -5.45, 147.7, 148.15]]}, note: "Umboi (Siassi)"},

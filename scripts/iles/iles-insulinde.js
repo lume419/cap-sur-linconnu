@@ -140,7 +140,13 @@ module.exports = {
         S([[5.26, 5.28, 100.38, 100.4]], 'Pulau Aman (Penang)'),
         S([[2.2, 2.65, 104.05, 104.7]], 'Pulau Sibu, Tinggi, Pemanggil, Aur'),
         { key: 'labuan', match: { box: [[5.15, 5.42, 115.1, 115.3]] } },
-        { key: 'sebatik', match: { box: [[4.05, 4.3, 117.76, 118.0]] } },
+        // Sebatik, partie malaisienne. Deux boîtes suivant la côte nord de l'île : l'ancienne boîte unique
+        // (4,05–4,30 N, 117,76–118,0 E) englobait TAWAU (372 615 hab.), sur le continent en face, de l'autre côté de
+        // Cowie Harbour, et l'isolait du reste de Sabah ; elle laissait en revanche Wallace Bay et Mantadok, bien sur
+        // l'île, dans « borneo ». À l'ouest de 117,80 E la côte nord de Sebatik monte à ~4,27 N (Wallace Bay 4,256) ;
+        // à l'est elle redescend sous 4,21 N, alors que Tawau (4,245) et ses quartiers (Bridger 4,264, Tanjung Batu Laut
+        // 4,272) sont au nord. Vérifié lieu par lieu sur communes-my.txt.
+        { key: 'sebatik', match: { box: [[4.10, 4.27, 117.65, 117.80], [4.10, 4.215, 117.80, 117.93]] } },
         S([[7.05, 7.4, 116.95, 117.35]], 'Banggi, Balambangan, Malawali'),
         S([[4.4, 4.55, 118.625, 118.8], [4.0, 4.4, 118.6, 119.3]], 'Bum Bum, Mabul, Sipadan et îles de Semporna'),
         { key: 'borneo', match: { box: [[-4.5, 7.5, 108.5, 119.5]] } }
