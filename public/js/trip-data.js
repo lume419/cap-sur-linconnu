@@ -562,7 +562,164 @@
       // barrière sur 66 routes et ponts, visé au quatrième trimestre 2026, mais aucun tarif n'est
       // publié à ce jour. Devise `GHS`, seule du lot à avoir un vrai symbole Unicode : ₵ (U+20B5).
       GH: { code:'GH', name:'Ghana', file:'communes-gh.txt', hasToll:false, aliasFile:'aliases-gh.txt', currency:'GHS' },
-      TG: { code:'TG', name:'Togo', file:'communes-tg.txt', hasToll:false, aliasFile:'aliases-tg.txt', currency:'XOF' }
+      TG: { code:'TG', name:'Togo', file:'communes-tg.txt', hasToll:false, aliasFile:'aliases-tg.txt', currency:'XOF' },
+      // ── LOT SAHEL, AFRIQUE CENTRALE ET CORNE DE L'AFRIQUE : onze pays ────────────────────────
+      // Mêmes règles que le lot ouest-africain : aucun code postal GeoNames pour aucun des onze,
+      // champ "cp" = étiquette de division administrative GeoNames informelle
+      // (scripts/build-sahel-corne-communes.js).
+      // PÉAGES : `hasToll:false` pour les onze. Là où un péage existe (Nigeria, Bénin, Niger, Tchad),
+      // il est forfaitaire par barrière — même raisonnement que pour l'Afrique de l'Ouest. Seule
+      // l'Éthiopie a un vrai péage KILOMÉTRIQUE (autoroutes de l'Ethiopian Toll Roads Enterprise) :
+      // mais son dernier barème au kilomètre publié date du 1er mars 2019 (0,77 Br/km en voiture),
+      // la révision d'août 2026 (« 50 à 630 Br » selon catégorie et tronçon) n'est pas détaillée, et
+      // le birr a perdu l'essentiel de sa valeur depuis la libéralisation de juillet 2024. Appliquer
+      // un tarif de 2019 en 2026 serait un faux chiffre : `hasToll:false`, raison écrite.
+      // SÉCURITÉ, lot le plus exposé du projet — voir README. France Diplomatie déconseille
+      // formellement TOUT le territoire du Niger, du Soudan et de la Somalie, et la quasi-totalité de
+      // la Centrafrique et du Soudan du Sud ; zones rouges étendues au Tchad, au Nigeria, au Bénin, en
+      // Éthiopie, en Érythrée et à Djibouti (avis du 15 septembre 2026).
+      NE: { code:'NE', name:'Niger', file:'communes-ne.txt', hasToll:false, aliasFile:'aliases-ne.txt', currency:'XOF' },
+      BJ: { code:'BJ', name:'Bénin', file:'communes-bj.txt', hasToll:false, aliasFile:'aliases-bj.txt', currency:'XOF' },
+      // Nigeria : le plus gros fichier du lot (60 817 communes). Devise NGN, symbole ₦ (U+20A6).
+      NG: { code:'NG', name:'Nigeria', file:'communes-ng.txt', hasToll:false, aliasFile:'aliases-ng.txt', currency:'NGN' },
+      // Tchad et Centrafrique : franc CFA d'Afrique CENTRALE (XAF), distinct du XOF mais à la même
+      // parité fixe de 655,957 pour 1 EUR, zéro décimale.
+      TD: { code:'TD', name:'Tchad', file:'communes-td.txt', hasToll:false, aliasFile:'aliases-td.txt', currency:'XAF' },
+      CF: { code:'CF', name:'République centrafricaine', file:'communes-cf.txt', hasToll:false, aliasFile:'aliases-cf.txt', currency:'XAF' },
+      // Soudan : guerre depuis avril 2023. Le taux officiel de la livre (SDG) et le marché parallèle
+      // divergent fortement (6 350-6 400 SDG pour 1 USD au marché fin août 2026, record) : les
+      // montants en livres sont indicatifs au mieux.
+      SD: { code:'SD', name:'Soudan', file:'communes-sd.txt', hasToll:false, aliasFile:'aliases-sd.txt', currency:'SDG' },
+      SS: { code:'SS', name:'Soudan du Sud', file:'communes-ss.txt', hasToll:false, aliasFile:'aliases-ss.txt', currency:'SSP' },
+      // Érythrée : nakfa (ERN) arrimé à 15 pour 1 USD. TOUTES les frontières terrestres sont fermées
+      // (Soudan, Éthiopie, Djibouti) : le pays est isolé du réseau routier du projet, comme en réalité.
+      ER: { code:'ER', name:'Érythrée', file:'communes-er.txt', hasToll:false, aliasFile:'aliases-er.txt', currency:'ERN' },
+      ET: { code:'ET', name:'Éthiopie', file:'communes-et.txt', hasToll:false, aliasFile:'aliases-et.txt', currency:'ETB' },
+      // Djibouti : franc (DJF) en caisse d'émission, arrimé à 177,721 pour 1 USD, zéro décimale. Seul
+      // pays du lot avec si peu de lieux dans GeoNames : 64 communes.
+      DJ: { code:'DJ', name:'Djibouti', file:'communes-dj.txt', hasToll:false, aliasFile:'aliases-dj.txt', currency:'DJF' },
+      // Somalie : shilling (SOS) au sens de l'ISO, mais l'économie est DOLLARISÉE de fait — aucun billet
+      // imprimé depuis 1991, le dollar domine prix, épargne et paiement mobile. Les montants en
+      // shillings n'ont qu'une valeur indicative. Le Somaliland, indépendant de fait depuis 1991 et
+      // non reconnu, est repris tel que GeoNames le range : sous SO.
+      SO: { code:'SO', name:'Somalie', file:'communes-so.txt', hasToll:false, aliasFile:'aliases-so.txt', currency:'SOS' },
+      // ── LOT AFRIQUE ORIENTALE, CENTRALE ET AUSTRALE, OCÉAN INDIEN : vingt-quatre pays ─────────────
+      // (La Réunion et Mayotte, départements français, restent sous FR — voir landmassOf.)
+      // Données : scripts/build-afrique-australe-communes.js — étiquette "XX-<admin1 GeoNames>" ; les
+      // fichiers postaux kényan, malawite et sud-africain existent mais ont été mesurés et écartés.
+      // PÉAGES : `hasToll:false` pour les vingt-quatre, et la raison diffère de « pas de péage » :
+      // Afrique du Sud (SANRAL et concessionnaires, Gazette n° 54087/54088 du 5 février 2026), Zambie
+      // (NRFA, K20), Zimbabwe (ZINARA, 3-4 USD), Malawi (MK 2 000), Mozambique (30-240 MT), Ouganda
+      // (Entebbe Expressway, UGX 5 000) et Angola (1 500 Kz) ont tous des péages FORFAITAIRES par
+      // barrière, sans prix au kilomètre — même raisonnement que pour l'Afrique de l'Ouest. Le seul
+      // tarif fonction du trajet, la Nairobi Expressway (KSh 170-500), ne couvre que 27 km urbains :
+      // l'étendre à tout le Kenya serait faux. L'e-toll du Gauteng est désactivé depuis le 11 avril
+      // 2024. Eswatini (E150) et Lesotho (R80) perçoivent une taxe d'ENTRÉE des véhicules étrangers à
+      // la frontière, qui n'est pas un péage routier.
+      // SÉCURITÉ (France Diplomatie, avis valides au 15 septembre 2026) : tourisme déconseillé dans
+      // toute la RD Congo (épidémie d'Ebola déclarée mi-mai 2026, 7 provinces touchées ; l'est du pays
+      // tenu par le M23/AFC) ; zones rouges au Cabo Delgado (Mozambique), dans les Lunda et au Cabinda
+      // (Angola), le long de la Somalie (Kenya), des frontières de la RDC (Ouganda, Burundi, Congo) et
+      // du Mozambique (Tanzanie). Voir README.
+      KE: { code:'KE', name:'Kenya', file:'communes-ke.txt', hasToll:false, aliasFile:'aliases-ke.txt', currency:'KES' },
+      UG: { code:'UG', name:'Ouganda', file:'communes-ug.txt', hasToll:false, aliasFile:'aliases-ug.txt', currency:'UGX' },
+      TZ: { code:'TZ', name:'Tanzanie', file:'communes-tz.txt', hasToll:false, aliasFile:'aliases-tz.txt', currency:'TZS' },
+      RW: { code:'RW', name:'Rwanda', file:'communes-rw.txt', hasToll:false, aliasFile:'aliases-rw.txt', currency:'RWF' },
+      BI: { code:'BI', name:'Burundi', file:'communes-bi.txt', hasToll:false, aliasFile:'aliases-bi.txt', currency:'BIF' },
+      // RD Congo : franc congolais (CDF) au sens de l'ISO, mais économie largement dollarisée de fait.
+      CD: { code:'CD', name:'République démocratique du Congo', file:'communes-cd.txt', hasToll:false, aliasFile:'aliases-cd.txt', currency:'CDF' },
+      CG: { code:'CG', name:'République du Congo', file:'communes-cg.txt', hasToll:false, aliasFile:'aliases-cg.txt', currency:'XAF' },
+      GA: { code:'GA', name:'Gabon', file:'communes-ga.txt', hasToll:false, aliasFile:'aliases-ga.txt', currency:'XAF' },
+      // Guinée équatoriale : 1 965 lieux sur 2 045 sans région dans GeoNames, gardés avec l'étiquette
+      // pays seule. Malabo est sur l'île de Bioko, séparée du continent (Río Muni).
+      GQ: { code:'GQ', name:'Guinée équatoriale', file:'communes-gq.txt', hasToll:false, aliasFile:'aliases-gq.txt', currency:'XAF' },
+      // Sao Tomé-et-Principe : dobra (STN) à parité FIXE de 24,5 pour 1 EUR depuis 2010 (redénominé en
+      // 2018, 1 000 STD = 1 STN).
+      ST: { code:'ST', name:'Sao Tomé-et-Principe', file:'communes-st.txt', hasToll:false, aliasFile:'aliases-st.txt', currency:'STN' },
+      AO: { code:'AO', name:'Angola', file:'communes-ao.txt', hasToll:false, aliasFile:'aliases-ao.txt', currency:'AOA' },
+      ZM: { code:'ZM', name:'Zambie', file:'communes-zm.txt', hasToll:false, aliasFile:'aliases-zm.txt', currency:'ZMW' },
+      // Malawi : taux officiel quasi fixe (~1 740 MWK pour 1 USD) contre ~4 000 au marché parallèle en
+      // mai 2026 — les montants en kwachas sont indicatifs.
+      MW: { code:'MW', name:'Malawi', file:'communes-mw.txt', hasToll:false, aliasFile:'aliases-mw.txt', currency:'MWK' },
+      MZ: { code:'MZ', name:'Mozambique', file:'communes-mz.txt', hasToll:false, aliasFile:'aliases-mz.txt', currency:'MZN' },
+      // Zimbabwe : Zimbabwe Gold (ZWG, « ZiG ») depuis avril 2024, seul code de la liste ISO 4217 de
+      // janvier 2026 ; le dollar américain reste d'usage légal et courant (prime parallèle 20-25 %).
+      ZW: { code:'ZW', name:'Zimbabwe', file:'communes-zw.txt', hasToll:false, aliasFile:'aliases-zw.txt', currency:'ZWG' },
+      BW: { code:'BW', name:'Botswana', file:'communes-bw.txt', hasToll:false, aliasFile:'aliases-bw.txt', currency:'BWP' },
+      // Namibie, Eswatini, Lesotho : monnaies à parité 1:1 avec le rand sud-africain (zone monétaire
+      // commune), le rand circulant lui-même légalement dans les trois pays.
+      NA: { code:'NA', name:'Namibie', file:'communes-na.txt', hasToll:false, aliasFile:'aliases-na.txt', currency:'NAD' },
+      ZA: { code:'ZA', name:'Afrique du Sud', file:'communes-za.txt', hasToll:false, aliasFile:'aliases-za.txt', currency:'ZAR' },
+      SZ: { code:'SZ', name:'Eswatini', file:'communes-sz.txt', hasToll:false, aliasFile:'aliases-sz.txt', currency:'SZL' },
+      LS: { code:'LS', name:'Lesotho', file:'communes-ls.txt', hasToll:false, aliasFile:'aliases-ls.txt', currency:'LSL' },
+      // Comores : franc comorien (KMF) à parité FIXE de 491,96775 pour 1 EUR, zéro décimale.
+      KM: { code:'KM', name:'Comores', file:'communes-km.txt', hasToll:false, aliasFile:'aliases-km.txt', currency:'KMF' },
+      MG: { code:'MG', name:'Madagascar', file:'communes-mg.txt', hasToll:false, aliasFile:'aliases-mg.txt', currency:'MGA' },
+      MU: { code:'MU', name:'Maurice', file:'communes-mu.txt', hasToll:false, aliasFile:'aliases-mu.txt', currency:'MUR' },
+      SC: { code:'SC', name:'Seychelles', file:'communes-sc.txt', hasToll:false, aliasFile:'aliases-sc.txt', currency:'SCR' },
+      // ── CAMEROUN, dernier pays du continent africain (septembre 2026) ──────────────────────────────
+      // scripts/build-cameroun-communes.js : aucun fichier postal GeoNames, étiquette "CM-<admin1>".
+      // PÉAGES : `hasToll:false`. Le réseau national est à péage FORFAITAIRE (500 FCFA par passage,
+      // décret n° 93/034/PM du 7 janvier 1993) ; l'autoroute Kribi-Lolabé (38 km) a une grille par
+      // catégorie (1 200 FCFA en voiture, lettre du ministre des Finances du 20 juillet 2022) sans que
+      // la nature du système soit publiée ; les tarifs de Yaoundé-Bibodi et Yaoundé-Nsimalen restent
+      // introuvables. Aucun prix au kilomètre honnête n'en sort.
+      // ADJACENCE : ses six frontières routières sont ouvertes dans le modèle (voir ADJACENT_PAIRS) ; les
+      // zones frontalières déconseillées relèvent de TENSION_ZONES (avertissement et filtre).
+      // SÉCURITÉ (France Diplomatie) : Extrême-Nord, Nord-Ouest, Mayo-Louti, Bakassi, l'ouest de Kumba
+      // et de Mamfe et une bande de 30 km le long du Nigeria, du Tchad et de la Centrafrique en zone
+      // rouge ; escorte militaire sur Yaoundé-Ngaoundéré, Garoua-Moundou et Bertoua-Yokadouma ; conduite
+      // de nuit formellement déconseillée.
+      CM: { code:'CM', name:'Cameroun', file:'communes-cm.txt', hasToll:false, aliasFile:'aliases-cm.txt', currency:'XAF' },
+      // ── SAINTE-HÉLÈNE, ASCENSION ET TRISTAN DA CUNHA ─────────────────────────────────────────────────
+      // Trois îles à des milliers de kilomètres les unes des autres, chacune isolée (voir ISLAND_BOXES).
+      // Le champ "cp" est un VRAI code postal, un par île (STHL 1ZZ, ASCN 1ZZ, TDCU 1ZZ). Livre de
+      // Sainte-Hélène (SHP) à parité 1:1 avec la livre sterling (InforEuro septembre 2026 : 0,8572 pour
+      // 1 EUR, identique à GBP) ; Tristan da Cunha utilise officiellement la livre sterling elle-même, à la
+      // même valeur. Aucun péage. Aucune liaison modélisée : les navires vers Sainte-Hélène (MV Karoline,
+      // MACS) n'ont pas de tarif publié, ceux vers Tristan (tarifs publiés : 500 US$ l'aller au tarif
+      // touriste) ne prennent pas de véhicule et partent du Cap, hors de toute masse terrestre commune.
+      // Accès : permis d'entrée à Sainte-Hélène, e-visa et aucun droit de résidence à Ascension,
+      // autorisation du Conseil de l'île à Tristan (FCDO, 10 septembre 2026).
+      SH: { code:'SH', name:'Sainte-Hélène, Ascension et Tristan da Cunha', file:'communes-sh.txt', hasToll:false, aliasFile:'aliases-sh.txt', currency:'SHP' },
+      // ── ÎLES GLORIEUSES ET JUAN DE NOVA (îles Éparses, TAAF) ─────────────────────────────────────────
+      // Choix explicite de l'utilisateur : recherchables, SANS trajet possible. Aucun habitant permanent,
+      // aucune route, aucun hébergement, tout débarquement soumis à l'autorisation du préfet des TAAF ;
+      // les trois entrées sont les îles elles-mêmes (GeoNames), chacune isolée, population 0 — un départ
+      // y aboutit à « itinéraire impossible ». Glorieuses et Juan de Nova sont revendiquées par
+      // Madagascar (résolution 34/91 de l'Assemblée générale de l'ONU, 1979) : reprises TELLES QUE
+      // GeoNames les range, sous TF. Le code TF couvre ici ces deux îles seulement, pas le reste des TAAF.
+      TF: { code:'TF', name:'Îles Glorieuses et Juan de Nova (TAAF)', file:'communes-tf.txt', hasToll:false, aliasFile:'aliases-tf.txt', currency:'EUR' },
+      // ── RUSSIE (septembre 2026) ─────────────────────────────────────────────────────────────────────
+      // scripts/build-russie-svalbard-communes.js : 173 493 lieux avec leur VRAI code postal (fichier
+      // GeoNames RU, pipeline standard), régions en latin (admin1 GeoNames). 124 199 alias, dont 87 023 en
+      // russe cyrillique — GeoNames range les noms en translittération latine.
+      // SÉCURITÉ : France Diplomatie déconseille FORMELLEMENT tout déplacement dans l'ensemble du pays
+      // (fiche du 10 septembre 2026) : tout le pays est en zone rouge dans TENSION_ZONES (avertissement,
+      // et exclu des tirages quand le filtre est actif). Ses frontières routières restent ouvertes dans le
+      // modèle (voir ADJACENT_PAIRS), y compris celles que des États ont fermées (Finlande depuis 2023…).
+      // HÉBERGEMENT : Booking.com et Airbnb ont cessé toute activité en Russie en 2022, et les cartes Visa
+      // ou Mastercard émises à l'étranger n'y fonctionnent pas — les liens de réservation générés pour
+      // un lieu russe n'aboutiront pas. Limite écrite plutôt que masquée.
+      // PÉAGES : `hasToll:false`, et pas faute de données : les autoroutes d'Avtodor ont une vraie
+      // grille (2 mars 2026 ; M-11 Solnetchnogorsk-Saint-Pétersbourg 3 900 ₽ pour ~625 km, soit
+      // 0,062 €/km ; M-12 0,071 €/km), mais elles ne couvrent qu'~3 600 km, soit ~5 % des routes
+      // fédérales et moins de 0,1 % du réseau : appliquer ce tarif à tout trajet russe, comme le moteur le
+      // fait pour un pays à péage, le surestimerait presque toujours.
+      RU: { code:'RU', name:'Russie', file:'communes-ru.txt', hasToll:false, aliasFile:'aliases-ru.txt', currency:'RUB' },
+      // ── SVALBARD ET JAN MAYEN ────────────────────────────────────────────────────────────────────────
+      // Codes postaux norvégiens réels (9170 Longyearbyen, 9178 Barentsburg, 9173 Ny-Ålesund, 8099 Jan
+      // Mayen). Couronne norvégienne. AUCUNE route ne relie les localités du Svalbard entre elles : chacune
+      // est isolée (voir ISLAND_BOXES), seul le secteur de Longyearbyen (Nybyen, Haugen) forme un
+      // ensemble. Plus aucune liaison régulière vers Barentsburg en 2026 (« No sailings summer 2026 »,
+      // Polar Charter), aucun ferry pour véhicules depuis la Norvège continentale (cargo Bring sur devis).
+      // Prix : le Svalbard est bien plus cher que la moyenne norvégienne sur laquelle sont calés les
+      // plafonds NOK (Statistics Norway, table 14168 : 2 885 NOK par chambre en juillet 2026 contre 1 602
+      // pour la Norvège) — les plafonds NOK, communs aux deux, y sont donc bas.
+      // JAN MAYEN : recherchable, SANS trajet (NO_TRIP_LANDMASSES), même choix que pour les îles Éparses —
+      // aucun habitant hors du personnel militaire et météorologique, piste fermée aux vols civils, ni
+      // port ni hébergement, autorisation préalable obligatoire (Guidelines 2024 de la station).
+      SJ: { code:'SJ', name:'Svalbard et Jan Mayen', file:'communes-sj.txt', hasToll:false, aliasFile:'aliases-sj.txt', currency:'NOK' }
     };
 
     var TRANSPORT = {
@@ -974,7 +1131,30 @@
       // tarif en ligne promotionnel, même logique que le tarif Flex retenu pour Bornholm) 229 DKK,
       // passager 109 DKK (ssl.fo/en/prices/prices-ferries, 2026). Classe 2/5 au même ratio ×1,5/×0,4
       // déjà utilisé pour Bornholm/Gotland (autres lignes danoises de cette table).
-      'continental|suduroy': { routeKey:'ferry.route.suduroy', durationH:2.08, distanceKm:65, priceByClass:{1:229, 2:344, 5:92, foot:109} },
+      // CORRIGÉ en septembre 2026 : les montants étaient saisis en DKK (229/344/92/109) alors que cette
+      // table est en euros (affichage « ~229 € ») — soit un prix environ 7,5 fois trop élevé. Convertis à
+      // la parité fixe de la couronne danoise (1 EUR ≈ 7,46 DKK, voir BUDGET_PRICE_MAX.DKK). Clé
+      // "faroe|suduroy" : le reste de l'archipel est désormais une masse terrestre propre (voir
+      // landmassOf), plus "continental".
+      // Orcades et Shetland (Écosse) — NorthLink Ferries, contrat de service public du gouvernement
+      // écossais, grille officielle « Timetables and Visitor Fares » valable du 1er janvier au
+      // 31 décembre 2026 (northlinkferries.co.uk). Tarif de MOYENNE saison retenu (24 mars-14 juin,
+      // 1er septembre-31 octobre), entre la basse et la haute saison ; prix véhicule SEUL, conducteur en
+      // sus, cabine non comprise ; converti au taux InforEuro de septembre 2026 (1 EUR = 0,8572 GBP).
+      // Le camping-car jusqu'à 6 m paie le prix de la voiture (grille NorthLink), d'où classe 2 = classe 1.
+      // Distances : orthodromies calculées entre les ports, non publiées par l'opérateur.
+      // - Scrabster ↔ Stromness : voiture £74, moto £23,95, adulte £23,95 ; 1 h 30, 2 à 3 rotations/jour.
+      //   Pentland Ferries (Gills Bay ↔ St Margaret's Hope, voiture £55) est une autre traversée réelle,
+      //   non retenue : une seule liaison par paire de masses terrestres dans cette table.
+      'greatBritain|orkney': { routeKey:'ferry.route.orkney', durationH:1.5, distanceKm:42, priceByClass:{1:86.3, 2:86.3, 5:27.9, foot:27.9} },
+      // - Aberdeen ↔ Lerwick : voiture £149, moto £34,50, adulte £37 ; 12 h 30 de nuit en direct, tous les jours.
+      'greatBritain|shetland': { routeKey:'ferry.route.shetland', durationH:12.5, distanceKm:339, priceByClass:{1:173.8, 2:173.8, 5:40.2, foot:43.2} },
+      // - Kirkwall ↔ Lerwick : voiture £98, moto £28, adulte £21,80 ; 5 h 30 à 7 h 45 selon le sens (6,5 h retenues).
+      'orkney|shetland': { routeKey:'ferry.route.orkneyShetland', durationH:6.5, distanceKm:165, priceByClass:{1:114.3, 2:114.3, 5:32.7, foot:25.4} },
+      // Islande et Féroé ↔ continent (Smyril Line, MS Norröna, Hirtshals-Tórshavn-Seyðisfjörður) : NON
+      // modélisé — aucune grille officielle 2026, tarification dynamique selon le remplissage (seules des
+      // offres « à partir de » sont publiées). L'Islande et l'archipel féroïen restent donc sans liaison.
+      'faroe|suduroy': { routeKey:'ferry.route.suduroy', durationH:2.08, distanceKm:65, priceByClass:{1:31, 2:46, 5:12, foot:15} },
       // Turquie, dernier ajout en date : deux vraies traversées pour véhicules dans le détroit des
       // Dardanelles, toutes deux opérées par GESTAŞ (seul opérateur, quasi-monopole historique comme
       // Île de Man Steam Packet/Bornholmslinjen/Destination Gotland déjà rencontrés ci-dessus) — voir
@@ -1015,6 +1195,16 @@
       'boaVista|sal': { routeKey:'ferry.route.cvSalBoaVista', durationH:3, distanceKm:69, priceByClass:{1:84, 2:171, 5:18, foot:15} },
       'boaVista|santiago': { routeKey:'ferry.route.cvBoaVistaSantiago', durationH:7, distanceKm:154, priceByClass:{1:147, 2:290, 5:33, foot:30} },
       'maio|santiago': { routeKey:'ferry.route.cvMaio', durationH:2, distanceKm:39, priceByClass:{1:75, 2:146, 5:18, foot:14} },
+      // Russie — deux liaisons à GRILLE OFFICIELLE en vigueur, prix véhicule SEUL (convention de cette
+      // table), TVA russe de 22 % incluse, convertis au taux InforEuro de septembre 2026 (100,57 ₽/€).
+      // Vanino-Kholmsk (Sakhaline), SASCO : véhicules 6 811,26 ₽/m + arrimage 46,36 ₽/m (grille du
+      // 1er juillet 2026), calculés pour une voiture de 5 m (34 288 ₽ ≈ 341 €) et un van de 6 m
+      // (41 146 ₽ ≈ 409 €) — la longueur est un choix de modélisation, la grille étant au mètre ; moto
+      // 7 776,28 ₽ (≈ 77 €) ; passager en cabine 4 places pont principal 1 432 ₽ (≈ 14 €, tarif du
+      // 1er janvier 2026, disponible toute l'année, contrairement au siège à 759 ₽ réservé à l'été).
+      // 18-20 h de traversée sans horaire fixe ; distance : orthodromie Vanino-Kholmsk calculée (264 km),
+      // non publiée par l'opérateur.
+      'continental|sakhalin': { routeKey:'ferry.route.sakhalin', durationH:19, distanceKm:264, priceByClass:{1:341, 2:409, 5:77, foot:14} },
       'fogo|santiago': { routeKey:'ferry.route.cvFogo', durationH:4, distanceKm:113, priceByClass:{1:96, 2:171, 5:33, foot:27} },
       'brava|fogo': { routeKey:'ferry.route.cvBrava', durationH:1, distanceKm:19, priceByClass:{1:37, 2:60, 5:16, foot:9} }
     };
@@ -1059,6 +1249,256 @@
     // avoir trouvé une anomalie dans GeoNames — la localité de Ponta Verde est rattachée au concelho
     // de São Filipe, sur Fogo, mais porte des coordonnées situées sur Santiago. Le code admin1 fait
     // foi, conformément au principe « GeoNames tel quel » du projet.
+    // Lot Afrique orientale, centrale et australe / océan Indien : îles reconnues par BOÎTE de
+    // coordonnées [clé, latMin, latMax, lonMin, lonMax], complétée par le code de région quand il
+    // suffit (Zanzibar, voir landmassOf). Contrairement au Cap-Vert, les coordonnées sont ici fiables
+    // et le code de région souvent absent (Guinée équatoriale : 1 965 lieux sur 2 045 sans région).
+    // Chaque boîte a été VÉRIFIÉE contre les lieux réellement publiés avant d'être retenue :
+    // - aucun lieu du continent ou d'une île voisine n'y tombe (lieux proches hors boîte relus un à
+    //   un : Mokowe, Ankify, Manompana, Bagamoyo, Cogo… tous correctement exclus) ;
+    // - Zanzibar : les boîtes d'Unguja et de Pemba retrouvent exactement les lieux des régions
+    //   GeoNames TZ-21/22/25 et TZ-13/20, à un îlot près (Move, au large de Pemba).
+    // Limites assumées : Nosy Komba, Manda (archipel de Lamu) et Rusinga (reliée au continent par une
+    // digue) ne sont pas isolées ; dans les pays entièrement insulaires, un lieu hors de toute boîte
+    // (Silhouette et îles extérieures des Seychelles, Agaléga et Saint-Brandon…) est isolé seul.
+    // AUCUNE de ces îles n'a de liaison modélisée : aucune ligne de la zone n'a de grille tarifaire
+    // publiée et vérifiable (voir README, section Ferries) — un trajet qui part d'une île y reste.
+    var ISLAND_BOXES = {
+      TZ: [['mafia', -8.05, -7.60, 39.55, 39.95], ['ukerewe', -2.20, -1.90, 32.85, 33.35]],
+      KE: [['lamu', -2.32, -2.20, 40.875, 40.94], ['mfangano', -0.53, -0.40, 34.00, 34.12]],
+      UG: [['ssese', -0.60, -0.20, 32.05, 32.60]],
+      MW: [['likoma', -12.15, -11.95, 34.68, 34.78], ['chizumulu', -12.05, -11.97, 34.58, 34.66]],
+      CD: [['idjwi', -2.30, -1.90, 29.00, 29.20]],
+      MG: [['nosyBe', -13.45, -13.15, 48.15, 48.37], ['sainteMarie', -17.15, -16.65, 49.78, 50.05]],
+      GQ: [['bioko', 3.10, 3.85, 8.40, 9.00], ['annobon', -1.60, -1.30, 5.50, 5.75], ['corisco', 0.85, 0.97, 9.25, 9.40]],
+      KM: [['grandeComore', -11.95, -11.30, 43.15, 43.55], ['moheli', -12.45, -12.20, 43.60, 43.90], ['anjouan', -12.42, -12.00, 44.15, 44.60]],
+      ST: [['principe', 1.45, 1.80, 7.25, 7.50], ['saoTome', -0.05, 0.45, 6.40, 6.80]],
+      MU: [['mauritius', -20.60, -19.90, 57.25, 57.85], ['rodrigues', -19.85, -19.60, 63.30, 63.55]],
+      SH: [['ascension', -8.00, -7.85, -14.45, -14.28], ['saintHelena', -16.05, -15.88, -5.80, -5.63], ['tristan', -37.15, -37.00, -12.40, -12.20]],
+      TF: [],
+      // Svalbard : aucune route entre localités — seul le secteur de Longyearbyen est un ensemble ; tout
+      // autre lieu est isolé seul (SJ dans ISLAND_ONLY_COUNTRIES). Jan Mayen : sans trajet.
+      SJ: [['longyearbyen', 78.19, 78.24, 15.50, 15.72], ['janMayen', 70.70, 71.20, -9.20, -7.80]],
+      // Russie : zones sans liaison routière avec le reste du réseau (vérifiées contre les lieux publiés).
+      // Norilsk-Doudinka (accès par le fleuve Ienisseï seulement) et les îles Solovetski.
+      RU: [['norilsk', 69.00, 69.90, 85.90, 88.90], ['solovki', 64.95, 65.20, 35.40, 36.30]],
+      SC: [['mahe', -4.85, -4.55, 55.35, 55.56], ['praslin', -4.37, -4.27, 55.65, 55.79], ['laDigue', -4.40, -4.33, 55.81, 55.87]]
+    };
+    var ISLAND_ONLY_COUNTRIES = { KM: true, ST: true, MU: true, SC: true, SH: true, TF: true, SJ: true };
+    // Masses terrestres où aucun trajet n'est proposé, même si plusieurs lieux y existent : accès civil
+    // soumis à autorisation, sans hébergement ni liaison publique (choix de l'utilisateur).
+    var NO_TRIP_LANDMASSES = { janMayen: true };
+
+    // ZONES À TENSION — rempli par scripts/build-tension-zones.js (voir ce script et le README).
+    var TENSION_ZONES = [
+      {"country":"TD","level":"orange","label":"Tout le pays (hors zones rouges)","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"TD","level":"red","label":"Provinces du Tibesti et de l'Ennedi (hors Bardaï, Fada, Amdjarass)","match":{"regions":["Tibesti","Ennedi-Est","Ennedi-Ouest"]},"except":{"near":[{"name":"Bardaï","lat":21.36,"lon":17,"km":15},{"name":"Fada","lat":17.18,"lon":21.58,"km":15},{"name":"Amdjarass","lat":16.07,"lon":22.84,"km":15}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"TD","level":"red","label":"Est de la province du Borkou (approximation par cercle)","match":{"near":[{"name":"Est du Borkou","lat":19.8,"lon":20.8,"km":120}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"TD","level":"red","label":"Province du Lac (hors ville de Bol)","match":{"regions":["Lac"]},"except":{"near":[{"name":"Bol","lat":13.46,"lon":14.71,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"TD","level":"red","label":"Zones frontalières (bande de 30 km, approximation)","match":{"borderKm":30,"with":"LY"},"except":{"near":[{"name":"N'Djamena","lat":12.11,"lon":15.04,"km":20},{"name":"Bongor","lat":10.28,"lon":15.37,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"TD","level":"red","label":"Zones frontalières (bande de 30 km, approximation)","match":{"borderKm":30,"with":"NE"},"except":{"near":[{"name":"N'Djamena","lat":12.11,"lon":15.04,"km":20},{"name":"Bongor","lat":10.28,"lon":15.37,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"TD","level":"red","label":"Zones frontalières (bande de 30 km, approximation)","match":{"borderKm":30,"with":"NG"},"except":{"near":[{"name":"N'Djamena","lat":12.11,"lon":15.04,"km":20},{"name":"Bongor","lat":10.28,"lon":15.37,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"TD","level":"red","label":"Zones frontalières (bande de 30 km, approximation)","match":{"borderKm":30,"with":"CM"},"except":{"near":[{"name":"N'Djamena","lat":12.11,"lon":15.04,"km":20},{"name":"Bongor","lat":10.28,"lon":15.37,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"TD","level":"red","label":"Zones frontalières (bande de 30 km, approximation)","match":{"borderKm":30,"with":"CF"},"except":{"near":[{"name":"N'Djamena","lat":12.11,"lon":15.04,"km":20},{"name":"Bongor","lat":10.28,"lon":15.37,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"TD","level":"red","label":"Zones frontalières (bande de 30 km, approximation)","match":{"borderKm":30,"with":"SD"},"except":{"near":[{"name":"N'Djamena","lat":12.11,"lon":15.04,"km":20},{"name":"Bongor","lat":10.28,"lon":15.37,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tchad/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"CF","level":"red","label":"Tout le pays sauf Bangui et Bimbo","match":{"all":true},"except":{"near":[{"name":"Bangui","lat":4.39,"lon":18.56,"km":12},{"name":"Bimbo","lat":4.26,"lon":18.42,"km":8}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/republique-centrafricaine/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"CF","level":"orange","label":"Bangui et Bimbo","match":{"near":[{"name":"Bangui","lat":4.39,"lon":18.56,"km":12},{"name":"Bimbo","lat":4.26,"lon":18.42,"km":8}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/republique-centrafricaine/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"CM","level":"red","label":"Régions de l'Extrême-Nord et du Nord-Ouest","match":{"regions":["Far North","North-West"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CM","level":"red","label":"Département du Mayo-Louti (approximation par cercle autour de Guider)","match":{"near":[{"name":"Guider (Mayo-Louti)","lat":9.93,"lon":13.95,"km":40}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CM","level":"red","label":"Frontière avec le Nigéria (30 km)","match":{"borderKm":30,"with":"NG"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CM","level":"red","label":"Frontière avec le Tchad (30 km)","match":{"borderKm":30,"with":"TD"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CM","level":"red","label":"Frontière avec la Centrafrique (30 km)","match":{"borderKm":30,"with":"CF"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CM","level":"red","label":"Presqu'île de Bakassi, parc de Korup et ouest de Kumba et Mamfe (approximation par cercles)","match":{"near":[{"name":"Presqu’île de Bakassi","lat":4.7,"lon":8.65,"km":25},{"name":"Parc national de Korup","lat":5.07,"lon":8.85,"km":30},{"name":"Ouest de Kumba","lat":4.85,"lon":9.1,"km":35},{"name":"Ouest de Mamfe","lat":5.75,"lon":9.05,"km":30}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CM","level":"orange","label":"Régions du Nord et du Sud-Ouest","match":{"regions":["North","South-West"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CM","level":"orange","label":"Départements de la Vina et du Mbéré (Adamaoua, approximation par cercles)","match":{"near":[{"name":"Ngaoundéré (Vina)","lat":7.32,"lon":13.58,"km":60},{"name":"Meiganga (Mbéré)","lat":6.52,"lon":14.29,"km":60}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CM","level":"orange","label":"Ouest : zones frontalières du Nord-Ouest/Sud-Ouest et abords du lac Bamendjing (approximation par cercles)","match":{"near":[{"name":"Santchou","lat":5.27,"lon":9.97,"km":15},{"name":"Dschang","lat":5.45,"lon":10.05,"km":20},{"name":"Mbouda","lat":5.63,"lon":10.25,"km":20},{"name":"Lac Bamendjing (+20 km)","lat":5.8,"lon":10.5,"km":35},{"name":"Magba","lat":5.97,"lon":11.22,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CM","level":"orange","label":"Est : bande frontalière avec la Centrafrique au-delà des 30 km rouges (d'après la carte, ~60 km)","match":{"borderKm":60,"with":"CF"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cameroun/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"SD","level":"red","label":"Tout le pays (y compris Khartoum et Port-Soudan)","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/soudan/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"SS","level":"red","label":"Tout le pays sauf Djouba, Wau, Yambio et Aweil","match":{"all":true},"except":{"near":[{"name":"Djouba","lat":4.85,"lon":31.58,"km":12},{"name":"Wau","lat":7.7,"lon":27.99,"km":10},{"name":"Yambio","lat":4.57,"lon":28.4,"km":10},{"name":"Aweil","lat":8.77,"lon":27.4,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/soudan-du-sud/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"SS","level":"orange","label":"Djouba, Wau, Yambio et Aweil (accès par voie aérienne uniquement)","match":{"near":[{"name":"Djouba","lat":4.85,"lon":31.58,"km":12},{"name":"Wau","lat":7.7,"lon":27.99,"km":10},{"name":"Yambio","lat":4.57,"lon":28.4,"km":10},{"name":"Aweil","lat":8.77,"lon":27.4,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/soudan-du-sud/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"ER","level":"orange","label":"Tout le pays en dehors d'Asmara (et de Massaoua)","match":{"all":true},"except":{"near":[{"name":"Asmara","lat":15.33,"lon":38.93,"km":12},{"name":"Massaoua","lat":15.61,"lon":39.45,"km":8}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/erythree/conseils-aux-voyageurs-securite","date":"2026-07-10"},
+      {"country":"ER","level":"red","label":"Région de la mer Rouge du Sud (d'après la carte)","match":{"regions":["Southern Red Sea"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/erythree/conseils-aux-voyageurs-securite","date":"2026-07-10"},
+      {"country":"ER","level":"red","label":"Frontière avec l'Éthiopie (bande ~25 km d'après la carte)","match":{"borderKm":25,"with":"ET"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/erythree/conseils-aux-voyageurs-securite","date":"2026-07-10"},
+      {"country":"ER","level":"red","label":"Frontière avec le Soudan (bande ~25 km d'après la carte)","match":{"borderKm":25,"with":"SD"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/erythree/conseils-aux-voyageurs-securite","date":"2026-07-10"},
+      {"country":"ET","level":"red","label":"Régions Amhara, Tigré et Gambela","match":{"regions":["Amhara","Tigray","Gambela"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"red","label":"Frontière avec l'Érythrée (bande ~30 km)","match":{"borderKm":30,"with":"ER"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"red","label":"Frontière avec le Soudan (bande ~30 km)","match":{"borderKm":30,"with":"SD"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"red","label":"Frontière avec le Soudan du Sud (bande ~30 km)","match":{"borderKm":30,"with":"SS"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"red","label":"Frontière avec le Kenya (bande ~30 km, hors Moyale)","match":{"borderKm":30,"with":"KE"},"except":{"near":[{"name":"Moyale","lat":3.53,"lon":39.05,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"red","label":"Frontière avec la Somalie (Ogaden oriental, bande ~80 km d'après la carte)","match":{"borderKm":80,"with":"SO"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"red","label":"Ouest Oromia : Wellega Ouest et Est, Horo Guduru, Shewa Ouest/Nord à l'ouest d'Ambo–Fitche (approximation par cercles)","match":{"near":[{"name":"Gimbi (Wellega Ouest)","lat":9.17,"lon":35.83,"km":80},{"name":"Nekemte (Wellega Est)","lat":9.09,"lon":36.55,"km":70},{"name":"Shambu (Horo Guduru)","lat":9.57,"lon":37.1,"km":50},{"name":"Shewa Ouest (ouest Ambo–Fitche)","lat":9.35,"lon":37.95,"km":55},{"name":"Fitche","lat":9.8,"lon":38.73,"km":40}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"orange","label":"Région Somali (ouest de l'Ogaden)","match":{"regions":["Somali"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"orange","label":"Région Benishangul-Gumuz (Metekel, Kamashi)","match":{"regions":["Bīnshangul Gumuz"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"orange","label":"Afar : frontière avec Djibouti (bande ~30 km)","match":{"borderKm":30,"with":"DJ"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"orange","label":"Afar : zone frontalière avec le Tigré (approximation par cercle autour d'Abala)","match":{"near":[{"name":"Abala","lat":13.36,"lon":39.75,"km":60}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"ET","level":"orange","label":"Oromia : ouest, nord (Shewa), axe Adama–Mieso, Arsi, Guji, Gedeo, Amaro, Burji, Moyale (approximation par cercles)","match":{"near":[{"name":"Ouest Oromia (Wellega/Illubabor)","lat":9.17,"lon":35.83,"km":150},{"name":"Nord Shewa (Oromia)","lat":9.7,"lon":38.75,"km":70},{"name":"Adama","lat":8.54,"lon":39.27,"km":15},{"name":"Axe Adama–Metehara","lat":8.72,"lon":39.6,"km":15},{"name":"Metehara","lat":8.9,"lon":39.92,"km":15},{"name":"Awash","lat":8.98,"lon":40.17,"km":15},{"name":"Axe Awash–Mieso","lat":9.1,"lon":40.45,"km":15},{"name":"Mieso","lat":9.23,"lon":40.75,"km":15},{"name":"Arsi","lat":7.6,"lon":39.6,"km":90},{"name":"Guji (Negele)","lat":5.33,"lon":39.58,"km":80},{"name":"Gedeo (Dilla)","lat":6.41,"lon":38.31,"km":25},{"name":"Amaro","lat":5.83,"lon":37.97,"km":25},{"name":"Burji","lat":5.47,"lon":37.9,"km":20},{"name":"Moyale","lat":3.53,"lon":39.05,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ethiopie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"DJ","level":"red","label":"Zone frontalière avec l'Érythrée (bande ~15 km d'après la carte)","match":{"borderKm":15,"with":"ER"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/djibouti/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"DJ","level":"red","label":"Zone frontalière avec la Somalie/Somaliland (route de Loyada, bande ~5 km)","match":{"borderKm":5,"with":"SO"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/djibouti/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"DJ","level":"red","label":"Archipel des Sept-Frères (Sawabi) hors excursions organisées","match":{"near":[{"name":"Archipel des Sept-Frères","lat":12.47,"lon":43.43,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/djibouti/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"SO","level":"red","label":"Tout le pays sauf Hargeisa, Berbera et l'axe qui les relie","match":{"all":true},"except":{"near":[{"name":"Hargeisa","lat":9.56,"lon":44.06,"km":15},{"name":"Axe Hargeisa–Berbera","lat":9.8,"lon":44.35,"km":10},{"name":"Axe Hargeisa–Berbera","lat":10.05,"lon":44.65,"km":10},{"name":"Axe Hargeisa–Berbera","lat":10.25,"lon":44.85,"km":10},{"name":"Berbera","lat":10.44,"lon":45.01,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/somalie/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"SO","level":"orange","label":"Hargeisa, Berbera et l'axe qui les relie (axe approximé par cercles)","match":{"near":[{"name":"Hargeisa","lat":9.56,"lon":44.06,"km":15},{"name":"Axe Hargeisa–Berbera","lat":9.8,"lon":44.35,"km":10},{"name":"Axe Hargeisa–Berbera","lat":10.05,"lon":44.65,"km":10},{"name":"Axe Hargeisa–Berbera","lat":10.25,"lon":44.85,"km":10},{"name":"Berbera","lat":10.44,"lon":45.01,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/somalie/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"CG","level":"orange","label":"Frontière avec la Centrafrique (bande de 30 km)","match":{"borderKm":30,"with":"CF"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/congo/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CG","level":"orange","label":"Frontière avec le Cabinda (Angola) (bande de 10 km)","match":{"borderKm":10,"with":"AO"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/congo/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CG","level":"orange","label":"Frontière sud avec la RDC (bande de 10 km ; Brazzaville et fleuve au nord exclus)","match":{"borderKm":10,"with":"CD"},"except":{"regions":["Brazzaville","Plateaux","Cuvette","Likouala","Sangha"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/congo/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"CD","level":"orange","label":"Tout le pays (hors zones rouges)","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/republique-democratique-du-congo/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"CD","level":"red","label":"Est du pays : Nord-Kivu, Sud-Kivu, Ituri, Haut-Uele, Tanganyika","match":{"regions":["North Kivu","South Kivu","Ituri","Haut-Uele","Tanganyika"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/republique-democratique-du-congo/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"CD","level":"red","label":"Provinces du Kwilu et du Kwango","match":{"regions":["Kwilu","Kwango"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/republique-democratique-du-congo/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"CD","level":"red","label":"Territoire de Kwamouth (Mai-Ndombe), Bandundu, plateaux des Bateke et parc de Bombo-Lumene (approximation par cercles)","match":{"near":[{"name":"Kwamouth","lat":-3.18,"lon":16.19,"km":70},{"name":"Bandundu","lat":-3.32,"lon":17.38,"km":20},{"name":"Plateaux Bateke / Bombo-Lumene","lat":-4.42,"lon":16.22,"km":50}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/republique-democratique-du-congo/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"UA","level":"red","label":"Ukraine : tout le pays (guerre en cours)","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ukraine/conseils-aux-voyageurs-securite","date":"2026-03-13"},
+      {"country":"BY","level":"red","label":"Biélorussie : tout le pays","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/bielorussie/conseils-aux-voyageurs-securite","date":"2026-05-27"},
+      {"country":"RU","level":"red","label":"Russie : tout le pays","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/russie/conseils-aux-voyageurs-securite","date":"2026-03-12"},
+      {"country":"MD","level":"orange","label":"Transnistrie (rive gauche du Dniestr et Bender)","match":{"regions":["Camenca Tr.","Ribnita Tr.","Dubasari Tr.","Grigoriopol Tr.","Slobozia Tr.","Tiraspol Tr.","Bender Tr."]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/moldavie/conseils-aux-voyageurs-securite","date":"2026-03-11"},
+      {"country":"GE","level":"red","label":"Abkhazie et abords (approximation par cercles)","match":{"near":[{"name":"Gagra","lat":43.33,"lon":40.27,"km":25},{"name":"Haute vallée de la Bzyb","lat":43.45,"lon":40.55,"km":20},{"name":"Goudaouta","lat":43.1,"lon":40.62,"km":22},{"name":"Soukhoumi","lat":43,"lon":41.02,"km":25},{"name":"Abkhazie centre","lat":43.25,"lon":41.05,"km":25},{"name":"Haute Kodori ouest","lat":43.2,"lon":41.45,"km":22},{"name":"Haute Kodori est","lat":43.1,"lon":41.85,"km":22},{"name":"Otchamtchire","lat":42.71,"lon":41.46,"km":20},{"name":"Tkvartcheli","lat":42.85,"lon":41.68,"km":18},{"name":"Gali","lat":42.63,"lon":41.73,"km":12},{"name":"Basse Ingouri","lat":42.52,"lon":41.6,"km":9}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/georgie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"GE","level":"red","label":"Ossétie du Sud (région de Tskhinvali) et abords (approximation par cercles)","match":{"near":[{"name":"Tskhinvali","lat":42.23,"lon":43.96,"km":14},{"name":"Java","lat":42.4,"lon":43.93,"km":15},{"name":"Kvaisa","lat":42.51,"lon":43.66,"km":12},{"name":"Znaouri","lat":42.37,"lon":43.73,"km":10},{"name":"Ossétie du Sud nord-est","lat":42.53,"lon":44.12,"km":12},{"name":"Akhalgori","lat":42.13,"lon":44.48,"km":12},{"name":"Ossétie du Sud est","lat":42.3,"lon":44.25,"km":12}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/georgie/conseils-aux-voyageurs-securite","date":"2026-03-05"},
+      {"country":"AM","level":"orange","label":"Province du Syunik (Goris, Kapan, Sissian, Meghri)","match":{"cpPrefix":["32","33","34","35"]},"except":{"near":[{"name":"Yeghvard (code postal 3313 erroné dans les données)","lat":40.323,"lon":44.484,"km":3}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/armenie/conseils-aux-voyageurs-securite","date":"2026-03-04"},
+      {"country":"AM","level":"red","label":"Zones frontalières avec l'Azerbaïdjan (bande ~12 km)","match":{"borderKm":12,"with":"AZ"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/armenie/conseils-aux-voyageurs-securite","date":"2026-03-04"},
+      {"country":"AM","level":"red","label":"Zones frontalières avec le Nakhitchevan (bande ~9 km)","match":{"near":[{"name":"Frontière Nakhitchevan 1","lat":39.78,"lon":44.78,"km":9},{"name":"Frontière Nakhitchevan 2","lat":39.75,"lon":44.89,"km":9},{"name":"Frontière Nakhitchevan 3","lat":39.72,"lon":45,"km":9},{"name":"Frontière Nakhitchevan 4","lat":39.67,"lon":45.09,"km":9},{"name":"Frontière Nakhitchevan 5","lat":39.62,"lon":45.18,"km":9},{"name":"Frontière Nakhitchevan 6","lat":39.58,"lon":45.28,"km":9},{"name":"Frontière Nakhitchevan 7","lat":39.54,"lon":45.38,"km":9},{"name":"Frontière Nakhitchevan 8","lat":39.51,"lon":45.453,"km":9},{"name":"Frontière Nakhitchevan 9","lat":39.48,"lon":45.527,"km":9},{"name":"Frontière Nakhitchevan 10","lat":39.45,"lon":45.6,"km":9},{"name":"Frontière Nakhitchevan 11","lat":39.417,"lon":45.667,"km":9},{"name":"Frontière Nakhitchevan 12","lat":39.383,"lon":45.733,"km":9},{"name":"Frontière Nakhitchevan 13","lat":39.35,"lon":45.8,"km":9},{"name":"Frontière Nakhitchevan 14","lat":39.3,"lon":45.875,"km":9},{"name":"Frontière Nakhitchevan 15","lat":39.25,"lon":45.95,"km":9},{"name":"Frontière Nakhitchevan 16","lat":39.175,"lon":45.985,"km":9},{"name":"Frontière Nakhitchevan 17","lat":39.1,"lon":46.02,"km":9},{"name":"Frontière Nakhitchevan 18","lat":39.04,"lon":46.045,"km":9},{"name":"Frontière Nakhitchevan 19","lat":38.98,"lon":46.07,"km":9},{"name":"Frontière Nakhitchevan 20","lat":38.925,"lon":46.105,"km":9},{"name":"Frontière Nakhitchevan 21","lat":38.87,"lon":46.14,"km":9}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/armenie/conseils-aux-voyageurs-securite","date":"2026-03-04"},
+      {"country":"AZ","level":"orange","label":"Azerbaïdjan : majeure partie du territoire (dont Bakou)","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/azerbaidjan/conseils-aux-voyageurs-securite","date":"2026-03-06"},
+      {"country":"AZ","level":"red","label":"Ancien Haut-Karabagh et anciens districts adjacents","match":{"regions":["Xankəndi","Xocali","Xocavənd","Şuşa","Kəlbəcər","Laçin","Qubadli","Zəngilan","Ağdam","Füzuli"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/azerbaidjan/conseils-aux-voyageurs-securite","date":"2026-03-06"},
+      {"country":"AZ","level":"red","label":"Ancien Haut-Karabagh : secteurs de Djebraïl et d'Ağdərə","match":{"near":[{"name":"Cəbrayıl","lat":39.4,"lon":47.03,"km":18},{"name":"Ağdərə (Martakert)","lat":40.21,"lon":46.82,"km":15}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/azerbaidjan/conseils-aux-voyageurs-securite","date":"2026-03-06"},
+      {"country":"AZ","level":"red","label":"Zones frontalières avec l'Arménie (bande ~15 km)","match":{"borderKm":15,"with":"AM"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/azerbaidjan/conseils-aux-voyageurs-securite","date":"2026-03-06"},
+      {"country":"TR","level":"orange","label":"Départements du Hatay, Kilis, Gaziantep, Şanlıurfa, Mardin, Diyarbakır et Batman","match":{"cpPrefix":["31","79","27","63","47","21","72"]},"except":{"near":[{"name":"Antalya (code postal 27500 erroné dans les données)","lat":36.908,"lon":30.696,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/turquie/conseils-aux-voyageurs-securite","date":"2026-03-23"},
+      {"country":"TR","level":"red","label":"Abords immédiats de la frontière syrienne (bande ~12 km)","match":{"near":[{"name":"Frontière syrienne 1","lat":35.92,"lon":35.92,"km":12},{"name":"Frontière syrienne 2","lat":35.87,"lon":36.035,"km":12},{"name":"Frontière syrienne 3","lat":35.82,"lon":36.15,"km":12},{"name":"Frontière syrienne 4","lat":35.91,"lon":36.26,"km":12},{"name":"Frontière syrienne 5","lat":36,"lon":36.37,"km":12},{"name":"Frontière syrienne 6","lat":36.1,"lon":36.465,"km":12},{"name":"Frontière syrienne 7","lat":36.2,"lon":36.56,"km":12},{"name":"Frontière syrienne 8","lat":36.325,"lon":36.565,"km":12},{"name":"Frontière syrienne 9","lat":36.45,"lon":36.57,"km":12},{"name":"Frontière syrienne 10","lat":36.55,"lon":36.6,"km":12},{"name":"Frontière syrienne 11","lat":36.65,"lon":36.63,"km":12},{"name":"Frontière syrienne 12","lat":36.735,"lon":36.655,"km":12},{"name":"Frontière syrienne 13","lat":36.82,"lon":36.68,"km":12},{"name":"Frontière syrienne 14","lat":36.76,"lon":36.815,"km":12},{"name":"Frontière syrienne 15","lat":36.7,"lon":36.95,"km":12},{"name":"Frontière syrienne 16","lat":36.64,"lon":37.1,"km":12},{"name":"Frontière syrienne 17","lat":36.647,"lon":37.233,"km":12},{"name":"Frontière syrienne 18","lat":36.653,"lon":37.367,"km":12},{"name":"Frontière syrienne 19","lat":36.66,"lon":37.5,"km":12},{"name":"Frontière syrienne 20","lat":36.703,"lon":37.625,"km":12},{"name":"Frontière syrienne 21","lat":36.745,"lon":37.75,"km":12},{"name":"Frontière syrienne 22","lat":36.787,"lon":37.875,"km":12},{"name":"Frontière syrienne 23","lat":36.83,"lon":38,"km":12},{"name":"Frontière syrienne 24","lat":36.847,"lon":38.133,"km":12},{"name":"Frontière syrienne 25","lat":36.863,"lon":38.267,"km":12},{"name":"Frontière syrienne 26","lat":36.88,"lon":38.4,"km":12},{"name":"Frontière syrienne 27","lat":36.835,"lon":38.538,"km":12},{"name":"Frontière syrienne 28","lat":36.79,"lon":38.675,"km":12},{"name":"Frontière syrienne 29","lat":36.745,"lon":38.813,"km":12},{"name":"Frontière syrienne 30","lat":36.7,"lon":38.95,"km":12},{"name":"Frontière syrienne 31","lat":36.725,"lon":39.113,"km":12},{"name":"Frontière syrienne 32","lat":36.75,"lon":39.275,"km":12},{"name":"Frontière syrienne 33","lat":36.775,"lon":39.438,"km":12},{"name":"Frontière syrienne 34","lat":36.8,"lon":39.6,"km":12},{"name":"Frontière syrienne 35","lat":36.817,"lon":39.757,"km":12},{"name":"Frontière syrienne 36","lat":36.833,"lon":39.913,"km":12},{"name":"Frontière syrienne 37","lat":36.85,"lon":40.07,"km":12},{"name":"Frontière syrienne 38","lat":36.888,"lon":40.203,"km":12},{"name":"Frontière syrienne 39","lat":36.925,"lon":40.335,"km":12},{"name":"Frontière syrienne 40","lat":36.962,"lon":40.468,"km":12},{"name":"Frontière syrienne 41","lat":37,"lon":40.6,"km":12},{"name":"Frontière syrienne 42","lat":37.017,"lon":40.75,"km":12},{"name":"Frontière syrienne 43","lat":37.035,"lon":40.9,"km":12},{"name":"Frontière syrienne 44","lat":37.053,"lon":41.05,"km":12},{"name":"Frontière syrienne 45","lat":37.07,"lon":41.2,"km":12},{"name":"Frontière syrienne 46","lat":37.078,"lon":41.35,"km":12},{"name":"Frontière syrienne 47","lat":37.085,"lon":41.5,"km":12},{"name":"Frontière syrienne 48","lat":37.093,"lon":41.65,"km":12},{"name":"Frontière syrienne 49","lat":37.1,"lon":41.8,"km":12},{"name":"Frontière syrienne 50","lat":37.105,"lon":41.938,"km":12},{"name":"Frontière syrienne 51","lat":37.11,"lon":42.075,"km":12},{"name":"Frontière syrienne 52","lat":37.115,"lon":42.212,"km":12},{"name":"Frontière syrienne 53","lat":37.12,"lon":42.35,"km":12}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/turquie/conseils-aux-voyageurs-securite","date":"2026-03-23"},
+      {"country":"TR","level":"red","label":"Hatay frontalier (Reyhanlı, Kırıkhan, Altınözü, Yayladağı)","match":{"near":[{"name":"Reyhanlı","lat":36.27,"lon":36.57,"km":12},{"name":"Kırıkhan","lat":36.5,"lon":36.36,"km":10},{"name":"Altınözü","lat":36.12,"lon":36.25,"km":10},{"name":"Yayladağı","lat":35.9,"lon":36.06,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/turquie/conseils-aux-voyageurs-securite","date":"2026-03-23"},
+      {"country":"TR","level":"red","label":"Frontière irakienne : provinces de Şırnak, Hakkari et Siirt","match":{"cpPrefix":["73","30","56"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/turquie/conseils-aux-voyageurs-securite","date":"2026-03-23"},
+      {"country":"SY","level":"red","label":"Tout le pays","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/syrie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"LB","level":"red","label":"Akkar (nord de la route Abdeh–Mechmech), plaine de la Béqaa (Baalbek, Anjar, Zahlé), Nabatieh","match":{"all":true},"except":{"cpPrefix":["LB-BA","LB-JL","LB-AS","LB-JA"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/liban/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"LB","level":"red","label":"Sud-Liban au sud de Saïda (axe Saïda–Jezzine–Machghara, Tyr, Naqoura)","match":{"cpPrefix":["LB-JA"]},"except":{"near":[{"name":"Saïda","lat":33.5575,"lon":35.3715,"km":3}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/liban/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"LB","level":"orange","label":"Centre du pays de Tripoli à Saïda (Beyrouth, Mont-Liban, Liban-Nord)","match":{"cpPrefix":["LB-BA","LB-JL","LB-AS"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/liban/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"LB","level":"orange","label":"Ville de Saïda","match":{"near":[{"name":"Saïda","lat":33.5575,"lon":35.3715,"km":3}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/liban/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"IL","level":"orange","label":"Israël (ensemble du pays)","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/israel-palestine/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"IL","level":"red","label":"Frontière avec le Liban","match":{"borderKm":8,"with":"LB"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/israel-palestine/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"IL","level":"red","label":"Plateau du Golan","match":{"near":[{"name":"Golan nord (Majdal Shams / Mas’ade)","lat":33.15,"lon":35.8,"km":12},{"name":"Golan sud (Katzrin / Hispin)","lat":32.9,"lon":35.78,"km":14}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/israel-palestine/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"IL","level":"red","label":"Zone autour de la bande de Gaza","match":{"near":[{"name":"Sderot","lat":31.525,"lon":34.597,"km":7},{"name":"Be’eri / Nahal Oz","lat":31.44,"lon":34.49,"km":7},{"name":"Kissufim / Nir Oz","lat":31.33,"lon":34.4,"km":8},{"name":"Kerem Shalom","lat":31.23,"lon":34.29,"km":8}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/israel-palestine/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"PS","level":"red","label":"Bande de Gaza","match":{"cpPrefix":["PS-GZA"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/israel-palestine/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"PS","level":"orange","label":"Cisjordanie (y compris Jérusalem-Est)","match":{"cpPrefix":["PS-WBK"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/israel-palestine/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"JO","level":"red","label":"Frontière avec la Syrie","match":{"borderKm":12,"with":"SY"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/jordanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"JO","level":"red","label":"Frontière avec l'Irak (secteur Rukban / Ruwaished-Est)","match":{"near":[{"name":"Rukban (confins Syrie–Irak)","lat":33.31,"lon":38.7,"km":30}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/jordanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"JO","level":"orange","label":"Bande de territoire aux abords de la frontière syrienne (Ramtha, Irbid…)","match":{"borderKm":30,"with":"SY"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/jordanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"JO","level":"orange","label":"Nord-est du pays (gouvernorat de Mafraq)","match":{"cpPrefix":["JO-MA"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/jordanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"JO","level":"orange","label":"Zone frontalière avec les territoires palestiniens (vallée du Jourdain)","match":{"borderKm":15,"with":"PS"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/jordanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"JO","level":"orange","label":"Aqaba et ses environs ; ville de Ma'an","match":{"near":[{"name":"Aqaba","lat":29.53,"lon":35.01,"km":25},{"name":"Ma'an","lat":30.196,"lon":35.734,"km":8}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/jordanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"EG","level":"red","label":"Nord du Sinaï (au nord de la ligne Suez–Taba)","match":{"cpPrefix":["EG-SIN"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/egypte/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"EG","level":"red","label":"Désert occidental vers la frontière libyenne (Salloum)","match":{"borderKm":40,"with":"LY"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/egypte/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"EG","level":"red","label":"Zone frontalière avec le Soudan (route au sud d'Abou Simbel)","match":{"borderKm":30,"with":"SD"},"except":{"near":[{"name":"Abou Simbel","lat":22.3457,"lon":31.6162,"km":5}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/egypte/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"EG","level":"red","label":"Triangle de Halayeb (frontière soudanaise)","match":{"near":[{"name":"Hala'ib","lat":22.2227,"lon":36.6468,"km":40}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/egypte/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"EG","level":"orange","label":"Désert à l'ouest de Marsa Matrouh (Sidi Barrani, oasis de Siwa)","match":{"borderKm":170,"with":"LY"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/egypte/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"EG","level":"orange","label":"Oasis de Dakhla (hors triangle Le Caire–Farafra–El Kharga, approximation)","match":{"near":[{"name":"Mout (Dakhla)","lat":25.4874,"lon":28.9792,"km":40}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/egypte/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"LY","level":"red","label":"Tout le pays, y compris Tripoli (sauf Benghazi et Misrata)","match":{"all":true},"except":{"near":[{"name":"Benghazi","lat":32.115,"lon":20.07,"km":20},{"name":"Misrata","lat":32.375,"lon":15.09,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/libye/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"LY","level":"orange","label":"Villes de Benghazi et Misrata","match":{"near":[{"name":"Benghazi","lat":32.115,"lon":20.07,"km":20},{"name":"Misrata","lat":32.375,"lon":15.09,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/libye/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TN","level":"red","label":"Monts Chambi, Semmama, Selloum, Mghila et Orbata","match":{"near":[{"name":"Mont Chambi","lat":35.2,"lon":8.67,"km":8},{"name":"Mont Semmama","lat":35.31,"lon":8.93,"km":6},{"name":"Mont Selloum","lat":35.08,"lon":8.73,"km":6},{"name":"Mont Mghila","lat":35.4,"lon":9.25,"km":7},{"name":"Mont Orbata","lat":34.36,"lon":9.05,"km":7}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TN","level":"red","label":"Zone militaire saharienne proche des frontières libyenne et algérienne (Dehiba, poste frontière)","match":{"near":[{"name":"Dehiba (frontière libyenne)","lat":32.008,"lon":10.7013,"km":3}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TN","level":"orange","label":"Désert au sud et à l'est de la ligne Rjim Maatoug–Borj Bourguiba–Ben Guerdane (Remada, Dehiba, Ksar Ghilane)","match":{"near":[{"name":"Remada","lat":32.3166,"lon":10.3955,"km":25},{"name":"Dehiba","lat":32.008,"lon":10.7013,"km":20},{"name":"Ksar Ghilane","lat":32.9807,"lon":9.6363,"km":15},{"name":"Frontière Ras Jedir (est de Ben Guerdane)","lat":33.14,"lon":11.46,"km":12}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TN","level":"orange","label":"Secteur entre les monts Chambi, Semmama et Mghila, sud du mont Selloum, abords du mont Orbata","match":{"near":[{"name":"Entre Chambi, Semmama et Mghila","lat":35.28,"lon":8.95,"km":22},{"name":"Sud du mont Selloum","lat":34.98,"lon":8.72,"km":12},{"name":"Abords du mont Orbata","lat":34.36,"lon":9.05,"km":18}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TN","level":"orange","label":"Moins de 5 km de la frontière algérienne (Jendouba, Le Kef)","match":{"borderKm":5,"with":"DZ"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"DZ","level":"red","label":"Frontière tunisienne à partir et au sud de Tébessa","match":{"borderKm":60,"with":"TN"},"except":{"near":[{"name":"Nord de Tébessa (Ouenza, Souk Ahras, El Tarf)","lat":36.3,"lon":8.1,"km":95}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/algerie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"DZ","level":"red","label":"Frontière libyenne (In Amenas)","match":{"near":[{"name":"In Amenas / Zarzaïtine","lat":28.06,"lon":9.65,"km":60}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/algerie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"DZ","level":"red","label":"Frontière marocaine","match":{"borderKm":20,"with":"MA"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/algerie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"DZ","level":"orange","label":"Abords de la frontière marocaine","match":{"borderKm":35,"with":"MA"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/algerie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"DZ","level":"orange","label":"Wilayas d'Aïn Defla, Batna, Sétif et de Tindouf","match":{"regions":["Ain-Defla","Batna","Setif","Tindouf"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/algerie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"DZ","level":"orange","label":"Massif des Aurès, massif de Chréa, région de Hassi Messaoud","match":{"near":[{"name":"Massif des Aurès","lat":35.25,"lon":6.55,"km":45},{"name":"Massif de Chréa","lat":36.42,"lon":2.88,"km":12},{"name":"Hassi Messaoud","lat":31.68,"lon":6.07,"km":50}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/algerie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MA","level":"red","label":"Le long de la frontière avec la Mauritanie","match":{"borderKm":30,"with":"MR"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/maroc/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"EH","level":"red","label":"Le long de la frontière avec la Mauritanie (hors poste de Guerguerat sur la route côtière)","match":{"borderKm":30,"with":"MR"},"except":{"near":[{"name":"Guerguerat","lat":21.4271,"lon":-16.9599,"km":3}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/maroc/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MR","level":"red","label":"Bande frontalière avec le Mali","match":{"borderKm":50,"with":"ML"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MR","level":"red","label":"Hodh Ech Chargui et Hodh El Gharbi (sud-est de la ligne Akreijit–Kankossa, approx. par wilayas)","match":{"regions":["Hodh Ech Chargi","Hodh El Gharbi"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MR","level":"red","label":"Nord-est : au nord de Zouérate et au nord-est de la ligne Zouérate–Ghallaouia (approx. : Tiris Zemmour hors Zouérate/F'Dérik)","match":{"regions":["Tiris Zemmour"]},"except":{"near":[{"name":"Zouérate","lat":22.735,"lon":-12.471,"km":25},{"name":"F'Dérik","lat":22.679,"lon":-12.708,"km":15}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MR","level":"orange","label":"Zouérate et F'Dérik (au nord de la ligne Choum–Aghouedir)","match":{"near":[{"name":"Zouérate","lat":22.735,"lon":-12.471,"km":25},{"name":"F'Dérik","lat":22.679,"lon":-12.708,"km":15}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MR","level":"orange","label":"Zone frontalière avec le Sahara occidental de Nouadhibou à Zouérate (hors ville de Nouadhibou)","match":{"borderKm":25,"with":"EH"},"except":{"near":[{"name":"Nouadhibou","lat":20.94,"lon":-17.04,"km":15}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MR","level":"orange","label":"Assaba, Gorgol et Guidimakha (sud-est de la ligne Tichit–Kaédi)","match":{"regions":["Assaba","Gorgol","Guidimaka"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MR","level":"orange","label":"Adrar et Tagant à l'est de la ligne Aghouedir–Tichit (approx. : wilayas hors Atar, Chinguetti, Aoujeft, Tidjikja, Moudjéria)","match":{"regions":["Adrar","Tagant"]},"except":{"near":[{"name":"Atar","lat":20.517,"lon":-13.049,"km":50},{"name":"Chinguetti","lat":20.463,"lon":-12.364,"km":25},{"name":"Aoujeft","lat":20.03,"lon":-13.05,"km":25},{"name":"Tidjikja","lat":18.556,"lon":-11.427,"km":50},{"name":"Moudjéria","lat":17.88,"lon":-12.33,"km":40}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"ML","level":"red","label":"Ensemble du territoire","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mali/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"SN","level":"orange","label":"Zone frontalière avec le Mali","match":{"borderKm":30,"with":"ML"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/senegal/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"SN","level":"orange","label":"Frontière avec la Mauritanie dans la région de Matam","match":{"borderKm":20,"with":"MR"},"except":{"regions":["Saint-Louis","Louga","Tambacounda"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/senegal/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"SN","level":"orange","label":"Casamance : frontière avec la Gambie (hors axes routiers principaux)","match":{"borderKm":10,"with":"GM"},"except":{"regions":["Fatick","Kaolack","Kaffrine","Tambacounda"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/senegal/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"SN","level":"orange","label":"Casamance : bande frontalière avec la Guinée-Bissau au sud de Ziguinchor (hors axe Ziguinchor–frontière)","match":{"borderKm":10,"with":"GW"},"except":{"regions":["Sédhiou","Kolda"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/senegal/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GN","level":"orange","label":"Zone frontalière avec le Mali (dont Siguiri et Mandiana)","match":{"borderKm":50,"with":"ML"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GN","level":"orange","label":"Zone frontalière avec la Côte d'Ivoire (dont réserve naturelle de Kankan)","match":{"borderKm":50,"with":"CI"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GN","level":"orange","label":"Villes de Siguiri et Mandiana","match":{"near":[{"name":"Siguiri","lat":11.42,"lon":-9.17,"km":15},{"name":"Mandiana","lat":10.63,"lon":-8.69,"km":15}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GW","level":"orange","label":"Zone frontalière avec le Sénégal","match":{"borderKm":20,"with":"SN"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"SL","level":"orange","label":"Zone frontalière avec le Liberia","match":{"borderKm":25,"with":"LR"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/sierra-leone/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"LR","level":"orange","label":"Zones frontalières avec la Sierra Leone (Grand Cape Mount, Gbarpolu, Lofa)","match":{"borderKm":20,"with":"SL"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/liberia/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"LR","level":"orange","label":"Zones frontalières avec la Côte d'Ivoire (Nimba au sud de Buutuo, Grand Gedeh, River Gee, Maryland)","match":{"borderKm":20,"with":"CI"},"except":{"near":[{"name":"Nimba nord (au nord de Buutuo)","lat":7.25,"lon":-8.45,"km":40}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/liberia/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BF","level":"red","label":"Ensemble du territoire","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/burkina-faso/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"CI","level":"red","label":"Zone frontalière avec le Mali","match":{"borderKm":30,"with":"ML"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cote-d-ivoire/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"CI","level":"red","label":"Zone frontalière avec le Burkina Faso","match":{"borderKm":30,"with":"BF"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cote-d-ivoire/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"CI","level":"red","label":"Nord du Zanzan, est des Savanes et parc national de la Comoé (approx. par cercles)","match":{"near":[{"name":"Parc national de la Comoé","lat":8.8,"lon":-3.8,"km":65},{"name":"Bouna (nord Zanzan)","lat":9.27,"lon":-3,"km":50},{"name":"Kong (est Savanes)","lat":9.15,"lon":-4.61,"km":40},{"name":"Ferkessédougou (est Savanes)","lat":9.59,"lon":-5.19,"km":30}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cote-d-ivoire/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"CI","level":"orange","label":"Zone frontalière avec le Liberia (dont Tabou, Taï, Grabo)","match":{"borderKm":30,"with":"LR"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cote-d-ivoire/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"CI","level":"orange","label":"Villes de Tabou, Taï et Grabo","match":{"near":[{"name":"Tabou","lat":4.42,"lon":-7.35,"km":10},{"name":"Taï","lat":5.87,"lon":-7.45,"km":10},{"name":"Grabo","lat":4.92,"lon":-7.5,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/cote-d-ivoire/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GH","level":"red","label":"Frontière nord avec le Burkina Faso (dont Tumu, Navrongo, Bawku)","match":{"borderKm":25,"with":"BF"},"except":{"regions":["Upper West","Savannah"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ghana/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GH","level":"red","label":"Tumu, Navrongo et Bawku","match":{"near":[{"name":"Tumu","lat":10.88,"lon":-1.98,"km":30},{"name":"Navrongo","lat":10.89,"lon":-1.09,"km":10},{"name":"Bawku","lat":11.06,"lon":-0.24,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ghana/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GH","level":"orange","label":"Frontière ouest avec le Burkina Faso","match":{"borderKm":25,"with":"BF"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ghana/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GH","level":"orange","label":"Parc (réserve) de Gbelé et ses environs","match":{"near":[{"name":"Gbele Resource Reserve","lat":10.52,"lon":-2.22,"km":25}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ghana/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GH","level":"orange","label":"Partie nord-ouest de la frontière avec la Côte d'Ivoire","match":{"borderKm":25,"with":"CI"},"except":{"regions":["Western","Western North","Ahafo"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ghana/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GH","level":"orange","label":"Frontière avec le Togo du nord-est de Gambaga au sud de Chunbawso (bande de 5 à 10 km)","match":{"borderKm":10,"with":"TG"},"except":{"regions":["Upper East","Oti","Volta"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ghana/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"GH","level":"orange","label":"Zone entre Bimbilla et la frontière togolaise (approx. par cercle)","match":{"near":[{"name":"Bimbilla – frontière togolaise","lat":8.95,"lon":0.2,"km":30}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ghana/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TG","level":"red","label":"Zone des triples frontières (Burkina/Togo/Ghana et Burkina/Togo/Bénin), passages de Sinkassé et Mandouri","match":{"near":[{"name":"Triple frontière BF/TG/GH – Sinkassé","lat":11.1,"lon":0,"km":25},{"name":"Triple frontière BF/TG/BJ","lat":11,"lon":0.92,"km":25},{"name":"Mandouri","lat":10.85,"lon":0.82,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/togo/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TG","level":"orange","label":"Région des Savanes (dont Dapaong)","match":{"regions":["Savanes"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/togo/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BJ","level":"red","label":"Zone frontalière du Burkina Faso","match":{"borderKm":30,"with":"BF"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/benin/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BJ","level":"red","label":"Zone frontalière du Niger","match":{"borderKm":30,"with":"NE"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/benin/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BJ","level":"red","label":"Parcs de la Pendjari et du W et zones mitoyennes, Banikoara","match":{"near":[{"name":"Parc national de la Pendjari","lat":11.1,"lon":1.5,"km":45},{"name":"Parc national du W (Bénin)","lat":11.9,"lon":2.6,"km":60},{"name":"Banikoara","lat":11.3,"lon":2.44,"km":15}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/benin/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BJ","level":"red","label":"Frontière nord-ouest avec le Togo (Atakora)","match":{"borderKm":30,"with":"TG"},"except":{"regions":["Donga","Collines","Plateau","Zou","Kouffo","Mono","Atlantique","Littoral"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/benin/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BJ","level":"red","label":"Frontière nord-est avec le Nigeria jusqu'aux environs de Nikki","match":{"borderKm":30,"with":"NG"},"except":{"regions":["Borgou","Collines","Plateau","Ouémé","Zou","Atlantique","Littoral"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/benin/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BJ","level":"red","label":"Frontière nord-est avec le Nigeria, partie Borgou au nord de Nikki (approx. par cercle)","match":{"near":[{"name":"Kalalé – frontière","lat":10.3,"lon":3.45,"km":35}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/benin/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BJ","level":"orange","label":"Atakora (Tanguiéta, Natitingou, Boukoumbé, Kouandé)","match":{"regions":["Atakora"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/benin/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BJ","level":"orange","label":"Bande Kandi–Tchaourou incluant Nikki (approx. par cercles)","match":{"near":[{"name":"Kandi","lat":11.13,"lon":2.94,"km":30},{"name":"Kandi–Nikki","lat":10.55,"lon":3,"km":30},{"name":"Nikki","lat":9.94,"lon":3.21,"km":30},{"name":"Nikki–Tchaourou","lat":9.4,"lon":2.95,"km":30},{"name":"Tchaourou","lat":8.89,"lon":2.6,"km":25}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/benin/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NE","level":"red","label":"Ensemble du territoire","match":{"all":true},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/niger/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"red","label":"Nord-Est et Nord-Ouest : États de Borno, Yobe, Gombe, Bauchi, Jigawa, Kebbi, Zamfara, Katsina, Sokoto","match":{"regions":["Borno State","Yobe State","Gombe State","Bauchi","Jigawa State","Kebbi","Zamfara State","Katsina State","Sokoto"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"red","label":"États de Kano et Kaduna (hors villes de Kano et Kaduna)","match":{"regions":["Kano State","Kaduna State"]},"except":{"near":[{"name":"Kano","lat":12,"lon":8.52,"km":20},{"name":"Kaduna","lat":10.52,"lon":7.44,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"red","label":"Sud-Est : États de Bayelsa, Rivers (hors Port Harcourt), Delta et Akwa Ibom","match":{"regions":["Bayelsa State","Rivers State","Delta","Akwa Ibom State"]},"except":{"near":[{"name":"Port Harcourt","lat":4.82,"lon":7.03,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"red","label":"Adamawa au nord de la Bénoué (approx. par cercles)","match":{"near":[{"name":"Mubi","lat":10.27,"lon":13.27,"km":60},{"name":"Gombi","lat":10.17,"lon":12.74,"km":35},{"name":"Song","lat":9.83,"lon":12.63,"km":30},{"name":"Guyuk","lat":9.9,"lon":11.94,"km":30}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"red","label":"Zone frontalière avec le Niger","match":{"borderKm":50,"with":"NE"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"red","label":"Zone frontalière avec le Bénin (hors Ogun et Lagos)","match":{"borderKm":30,"with":"BJ"},"except":{"regions":["Ogun State","Lagos"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"red","label":"Zone frontalière avec le Cameroun","match":{"borderKm":50,"with":"CM"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"red","label":"Ouest de l'État de Niger, nord et ouest du Kwara (approx. par cercles)","match":{"near":[{"name":"New Bussa / Kainji","lat":9.88,"lon":4.52,"km":70},{"name":"Niger State nord-ouest","lat":10.9,"lon":4.9,"km":60},{"name":"Kaiama","lat":9.61,"lon":3.94,"km":60},{"name":"Okuta (Baruten)","lat":9.22,"lon":3.18,"km":40}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"red","label":"Nord-ouest de l'État d'Oyo, dont le parc national d'Old Oyo (approx. par cercles)","match":{"near":[{"name":"Parc national d'Old Oyo","lat":8.62,"lon":4.14,"km":50},{"name":"Saki","lat":8.67,"lon":3.39,"km":40}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"orange","label":"Villes de Kano, Kaduna et Port Harcourt","match":{"near":[{"name":"Kano","lat":12,"lon":8.52,"km":20},{"name":"Kaduna","lat":10.52,"lon":7.44,"km":20},{"name":"Port Harcourt","lat":4.82,"lon":7.03,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"orange","label":"Middle Belt : Benue, Nasarawa, Kogi, Plateau, Taraba, est du Niger, sud et est du Kwara, Adamawa au sud de la Bénoué","match":{"regions":["Benue State","Nasarawa State","Kogi State","Plateau State","Taraba State","Niger State","Kwara State","Adamawa"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"orange","label":"Sud : États d'Ekiti, Ondo, Edo, Enugu, Anambra, Imo, Abia, Ebonyi et Cross River","match":{"regions":["Ekiti State","Ondo State","Edo State","Enugu State","Anambra","Imo State","Abia State","Ebonyi State","Cross River State"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"orange","label":"Territoire de la capitale fédérale (FCT), sauf la ville d'Abuja","match":{"regions":["FCT"]},"except":{"near":[{"name":"Abuja","lat":9.06,"lon":7.49,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"NG","level":"orange","label":"Sud-Ouest : États d'Ogun, Osun et Oyo (sauf Ibadan et Abeokuta)","match":{"regions":["Ogun State","Osun State","Oyo State"]},"except":{"near":[{"name":"Ibadan","lat":7.38,"lon":3.93,"km":20},{"name":"Abeokuta","lat":7.16,"lon":3.35,"km":12}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/nigeria/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"red","label":"Frontière somalienne (bande de 100 km : Mandera, El Wak, Dadaab, Liboi…)","match":{"borderKm":100,"with":"SO"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"red","label":"Garissa et route Garissa–Dadaab","match":{"near":[{"name":"Garissa","lat":-0.456,"lon":39.658,"km":12},{"name":"Route Garissa–Dadaab (tronçon ouest)","lat":-0.3,"lon":39.83,"km":15},{"name":"Route Garissa–Dadaab (tronçon est)","lat":-0.12,"lon":40.07,"km":15}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"red","label":"Partie continentale du comté de Lamu","match":{"regions":["Lamu"]},"except":{"near":[{"name":"Île de Lamu","lat":-2.28,"lon":40.88,"km":5},{"name":"Île de Manda","lat":-2.25,"lon":40.96,"km":4},{"name":"Île de Pate","lat":-2.1,"lon":41.02,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"orange","label":"Archipel de Lamu (accès par voie aérienne uniquement)","match":{"near":[{"name":"Île de Lamu","lat":-2.28,"lon":40.88,"km":5},{"name":"Île de Manda","lat":-2.25,"lon":40.96,"km":4},{"name":"Île de Pate","lat":-2.1,"lon":41.02,"km":10}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"red","label":"Frontière avec le Soudan du Sud (triangle d'Ilemi)","match":{"borderKm":30,"with":"SS"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"red","label":"Frontière avec l'Éthiopie","match":{"borderKm":20,"with":"ET"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"orange","label":"Nord de la Turkana et de Marsabit (bande frontalière Soudan du Sud)","match":{"borderKm":60,"with":"SS"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"orange","label":"Nord de Marsabit et Moyale (bande frontalière Éthiopie)","match":{"borderKm":45,"with":"ET"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"orange","label":"Comtés de Mandera, Wajir et Garissa (hors zone rouge)","match":{"regions":["Mandera County","Wajir County","Garissa County"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"orange","label":"Est du comté de Marsabit (régions excentrées)","match":{"near":[{"name":"Est Marsabit (Kargi–Dukana)","lat":2.3,"lon":38.3,"km":80},{"name":"Nord-est Marsabit","lat":3.2,"lon":38.6,"km":60}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"orange","label":"Est du comté d'Isiolo (Merti, Mado Gashi, Garbatulla)","match":{"regions":["Isiolo County"]},"except":{"near":[{"name":"Isiolo / Archer's Post","lat":0.354,"lon":37.582,"km":50}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"orange","label":"Zones frontalières de l'Ouganda (West Pokot et Turkana)","match":{"near":[{"name":"Kacheliba","lat":1.55,"lon":35,"km":25},{"name":"Alale","lat":2.05,"lon":34.95,"km":25},{"name":"Frontière Turkana sud","lat":2.55,"lon":34.95,"km":25},{"name":"Lokiriama","lat":3.05,"lon":34.85,"km":25},{"name":"Frontière Turkana centre","lat":3.55,"lon":34.5,"km":25},{"name":"Frontière Turkana nord","lat":4,"lon":34.15,"km":25}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"orange","label":"Côte au nord de Malindi (jusqu'au comté de Lamu)","match":{"near":[{"name":"Ngomeni / Marafa","lat":-2.95,"lon":40.2,"km":20},{"name":"Kipini / delta de la Tana","lat":-2.55,"lon":40.45,"km":25}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"KE","level":"orange","label":"Nairobi : quartiers d'Eastleigh, Pangani, Kibera et Mathare","match":{"near":[{"name":"Eastleigh","lat":-1.275,"lon":36.85,"km":2},{"name":"Pangani","lat":-1.268,"lon":36.835,"km":1},{"name":"Kibera","lat":-1.313,"lon":36.787,"km":1.8},{"name":"Mathare","lat":-1.26,"lon":36.86,"km":1.2}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/kenya/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"UG","level":"red","label":"Frontière avec la RDC (hors parcs nationaux)","match":{"borderKm":8,"with":"CD"},"except":{"near":[{"name":"Arua","lat":3.02,"lon":30.91,"km":6},{"name":"Kisoro","lat":-1.285,"lon":29.685,"km":4}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ouganda/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"UG","level":"red","label":"Bwera et ses alentours","match":{"near":[{"name":"Bwera","lat":0.035,"lon":29.77,"km":15}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ouganda/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"UG","level":"red","label":"Frontière avec le Soudan du Sud","match":{"borderKm":8,"with":"SS"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ouganda/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"UG","level":"orange","label":"Parc national de Semuliki","match":{"near":[{"name":"Parc national de Semuliki","lat":0.83,"lon":30.1,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ouganda/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"UG","level":"orange","label":"Karamoja (est, le long de la frontière kényane, de Kidepo à Amudat)","match":{"near":[{"name":"Parc national de Kidepo","lat":3.8,"lon":33.85,"km":30},{"name":"Kaabong","lat":3.52,"lon":34.12,"km":35},{"name":"Est Kotido","lat":3,"lon":34.45,"km":30},{"name":"Moroto","lat":2.53,"lon":34.66,"km":30},{"name":"Nakapiripirit","lat":1.9,"lon":34.75,"km":25},{"name":"Amudat","lat":1.95,"lon":34.95,"km":25}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/ouganda/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TZ","level":"red","label":"Région de Mtwara","match":{"regions":["Mtwara"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tanzanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TZ","level":"red","label":"Bande frontalière avec le Mozambique","match":{"borderKm":15,"with":"MZ"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tanzanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TZ","level":"orange","label":"Kagera et Kigoma : zones frontalières du Burundi","match":{"borderKm":30,"with":"BI"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tanzanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"TZ","level":"orange","label":"Sud-est des régions de Lindi et Ruvuma","match":{"near":[{"name":"Sud Lindi (Lindi, Nachingwea)","lat":-10.2,"lon":39.3,"km":90},{"name":"Est Ruvuma (Tunduru)","lat":-10.8,"lon":37.9,"km":70}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/tanzanie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BI","level":"red","label":"Frontière avec la RDC (entre la frontière et la RN5, chaussée d'Uvira/Gatumba)","match":{"borderKm":10,"with":"CD"},"except":{"near":[{"name":"Bujumbura","lat":-3.38,"lon":29.36,"km":7},{"name":"Cibitoke","lat":-2.887,"lon":29.12,"km":3},{"name":"Rugombo","lat":-2.84,"lon":29.07,"km":3}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/burundi/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BI","level":"red","label":"Nord du parc de la Kibira et frontière rwandaise au nord de la RN10","match":{"near":[{"name":"Mabayi","lat":-2.71,"lon":29.25,"km":12},{"name":"Nord Kibira","lat":-2.75,"lon":29.36,"km":10},{"name":"Nord-est Kibira","lat":-2.74,"lon":29.48,"km":9}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/burundi/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BI","level":"orange","label":"Provinces de Cibitoke et Bubanza (entre la Kibira et la RDC)","match":{"regions":["Cibitoke","Bubanza"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/burundi/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BI","level":"orange","label":"Centre de la forêt de la Kibira (au nord du mont Teza)","match":{"near":[{"name":"Kibira centrale","lat":-3,"lon":29.45,"km":12}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/burundi/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"BI","level":"orange","label":"Zone frontalière avec le Rwanda","match":{"borderKm":20,"with":"RW"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/burundi/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"AO","level":"orange","label":"Provinces de Lunda Norte, Lunda Sul et Cabinda","match":{"regions":["Luanda Norte","Lunda Sul","Cabinda"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/angola/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"ZM","level":"orange","label":"Frontière avec la RDC (Nord-Ouest et Copperbelt)","match":{"borderKm":10,"with":"CD"},"except":{"regions":["Luapula Province","Northern Province"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/zambie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"ZM","level":"orange","label":"Frontière angolaise au nord de Chavuma","match":{"borderKm":10,"with":"AO"},"except":{"regions":["Western Province"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/zambie/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MZ","level":"red","label":"Province du Cabo Delgado (y compris Pemba, Ibo et Quirimbas)","match":{"regions":["Cabo Delgado Province"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mozambique/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MZ","level":"red","label":"Province du Cabo Delgado (y compris Pemba, Ibo et Quirimbas)","match":{"near":[{"name":"Nangade / Palma","lat":-10.9,"lon":39.3,"km":60},{"name":"Mocímboa da Praia / Palma","lat":-10.9,"lon":40.3,"km":60},{"name":"Mueda","lat":-11.7,"lon":38.8,"km":60},{"name":"Muidumbe / Macomia","lat":-11.7,"lon":39.8,"km":60},{"name":"Côte Macomia–Quissanga","lat":-11.8,"lon":40.5,"km":45},{"name":"Ibo / Quirimbas","lat":-12.4,"lon":40.55,"km":30},{"name":"Montepuez","lat":-12.5,"lon":38.8,"km":60},{"name":"Ancuabe / Meluco","lat":-12.5,"lon":39.9,"km":60},{"name":"Pemba","lat":-12.9,"lon":40.5,"km":30},{"name":"Balama / Namuno","lat":-13.2,"lon":39,"km":60},{"name":"Chiúre / Mecúfi","lat":-13.2,"lon":40,"km":60}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mozambique/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MZ","level":"red","label":"Tiers est de la province du Niassa","match":{"near":[{"name":"Mecula / réserve du Niassa","lat":-11.8,"lon":37.8,"km":55},{"name":"Marrupa nord","lat":-12.6,"lon":37.8,"km":55},{"name":"Marrupa / Nipepe","lat":-13.4,"lon":37.9,"km":50}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mozambique/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MZ","level":"red","label":"Frontière avec la Tanzanie (Rovuma), jusqu'au Malawi","match":{"borderKm":15,"with":"TZ"},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mozambique/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MZ","level":"red","label":"Nord de la province de Nampula (Memba, Eráti, Mecubúri, Lalaua, Nacarôa, nord de Nampula/Monapo/Meconta/Nacala)","match":{"near":[{"name":"Lalaua","lat":-14.35,"lon":38,"km":40},{"name":"Mecubúri","lat":-14.35,"lon":38.7,"km":40},{"name":"Nord Nampula / Muecate sud","lat":-14.35,"lon":39.4,"km":40},{"name":"Eráti / Nacarôa","lat":-14.35,"lon":40.1,"km":40},{"name":"Memba","lat":-14.17,"lon":40.52,"km":30}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mozambique/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MZ","level":"orange","label":"Ouest de la province du Niassa (Lichinga, Cuamba)","match":{"regions":["Niassa Province"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mozambique/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MZ","level":"orange","label":"Ouest de la province du Niassa (Lichinga, Cuamba)","match":{"near":[{"name":"Rive du lac Malawi nord","lat":-12,"lon":35.6,"km":60},{"name":"Muembe / Mavago","lat":-12,"lon":36.6,"km":60},{"name":"Lichinga","lat":-13,"lon":35.3,"km":60},{"name":"Majune","lat":-13,"lon":36.5,"km":60},{"name":"Ngauma / Mandimba nord","lat":-13.9,"lon":35.7,"km":50},{"name":"Maúa / Metarica","lat":-13.9,"lon":36.6,"km":50},{"name":"Cuamba","lat":-14.7,"lon":36.3,"km":40},{"name":"Mandimba","lat":-14.7,"lon":35.6,"km":35}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mozambique/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"MZ","level":"orange","label":"Province de Nampula : villes de Nampula et Nacala, sud de Nacala/Monapo/Nampula, Mossuril, nord de Muecate, Ribáuè, Malema","match":{"near":[{"name":"Nampula","lat":-15.12,"lon":39.27,"km":25},{"name":"Nacala","lat":-14.56,"lon":40.68,"km":20},{"name":"Monapo","lat":-14.92,"lon":40.3,"km":20},{"name":"Mossuril","lat":-14.85,"lon":40.62,"km":15},{"name":"Muecate","lat":-14.9,"lon":39.62,"km":15},{"name":"Ribáuè","lat":-14.97,"lon":38.28,"km":35},{"name":"Entre Ribáuè et Nampula","lat":-15,"lon":38.8,"km":25},{"name":"Malema","lat":-14.95,"lon":37.41,"km":35}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/mozambique/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"ZW","level":"orange","label":"Champs diamantifères de Marange","match":{"near":[{"name":"Marange (Chiadzwa)","lat":-19.65,"lon":32.36,"km":20}]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/zimbabwe/conseils-aux-voyageurs-securite","date":"2026-09-15"},
+      {"country":"ZW","level":"orange","label":"Frontière nord avec le Mozambique (mines antipersonnel)","match":{"borderKm":10,"with":"MZ"},"except":{"regions":["Manicaland","Masvingo Province"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/zimbabwe/conseils-aux-voyageurs-securite","date":"2026-09-15"}
+    ];
+
     var CV_CONCELHO_TO_ISLAND = {
       'CV-07': 'santoAntao', 'CV-05': 'santoAntao', 'CV-21': 'santoAntao',
       'CV-11': 'saoVicente',
@@ -1074,6 +1514,15 @@
     };
 
     var SEA_CROSSINGS = {
+      // Oust-Louga-Baltiïsk (Kaliningrad), Oboronlogistika, ordre n° 219 du 8 juillet 2026 en vigueur
+      // depuis le 10 juillet 2026, prix hors TVA majorés de la TVA de 22 % : voiture jusqu'à 5 m 27 040 ₽
+      // (32 989 ₽ ≈ 328 €), minibus ou utilitaire jusqu'à 6 m 31 930 ₽ (≈ 387 €), moto 8 000 ₽ (≈ 97 €),
+      // passager en cabine avec repas 9 420 ₽ (≈ 114 € ; aucune place sans cabine). Hors surcharge
+      // carburant mensuelle (90 à 1 360 ₽ par mètre de véhicule), variable et non modélisée. ~38 h de
+      // traversée ; distance : orthodromie calculée (757 km), la route maritime n'étant pas publiée.
+      // Traversée entre ZONES (comme Ceuta) : Kaliningrad partage la masse continentale européenne, mais
+      // la traversée reste proposée en plus des routes par la Lituanie et la Pologne.
+      'RU|RU-KGD': { routeKey:'ferry.route.kaliningrad', durationH:38, distanceKm:757, priceByClass:{1:328, 2:387, 5:97, foot:114} },
       'ES|ES-CE': { routeKey:'ferry.route.ceuta', durationH:1.5, distanceKm:31.5, priceByClass:{1:50, 2:99, 5:50, foot:35} },
       'ES|ES-ML': { routeKey:'ferry.route.melilla', durationH:6.5, distanceKm:210, priceByClass:{1:40, 2:40, 5:40, foot:50} }
     };
@@ -1276,7 +1725,61 @@
       GNF: { economique: 710000, moyen: 1320000, confortable: 2640000 },
       SLE: { economique: 1800, moyen: 3400, confortable: 6800 },
       GHS: { economique: 930, moyen: 1700, confortable: 3450 },
-      LRD: { economique: 15000, moyen: 27000, confortable: 55000 }
+      LRD: { economique: 15000, moyen: 27000, confortable: 55000 },
+      // Lot Sahel / Corne : AUCUNE statistique publique de prix hôtelier trouvée pour les onze pays.
+      // Même choix documenté que pour l'Afrique de l'Ouest — gamme euro (70 / 130 / 260) convertie au
+      // taux comptable officiel InforEuro de la Commission européenne de septembre 2026, les banques
+      // centrales concernées ne publiant pas de cours lisible : XAF 655,957 (parité fixe) ·
+      // NGN 1 567,85 · SDG 4 302,47 · SSP 6 561,37 · ERN 17,55 · ETB 189,03 · DJF 207,33 · SOS 665,95.
+      // Ce n'est PAS une observation de marché local.
+      XAF: { economique: 45000, moyen: 85000, confortable: 170000 },
+      NGN: { economique: 110000, moyen: 204000, confortable: 408000 },
+      SDG: { economique: 301000, moyen: 559000, confortable: 1119000 },
+      SSP: { economique: 459000, moyen: 853000, confortable: 1706000 },
+      ERN: { economique: 1230, moyen: 2280, confortable: 4560 },
+      ETB: { economique: 13200, moyen: 24600, confortable: 49100 },
+      DJF: { economique: 14500, moyen: 27000, confortable: 53900 },
+      SOS: { economique: 46600, moyen: 86600, confortable: 173100 },
+      // Lot Afrique orientale, centrale et australe / océan Indien. Même méthode : gamme euro (70 / 130
+      // / 260) convertie au taux InforEuro de septembre 2026 (1 EUR = KES 150,785 · UGX 4 375,5 ·
+      // TZS 3 085 · RWF 1 713,64 · BIF 3 486,5 · CDF 2 674,25 · STN 24,5 · AOA 1 071,57 · ZMW 22,17 ·
+      // MWK 2 020,16 · MZN 74,11 · ZWG 30,85 · BWP 15,57 · ZAR/NAD/SZL/LSL 18,63 · MGA 5 047,5 ·
+      // MUR 54,54 · SCR 17,18), et à la parité fixe officielle pour le franc comorien (491,96775).
+      // UN SEUL pays du lot publie une statistique officielle de prix hôtelier : l'Afrique du Sud (Stats
+      // SA, P6410, juin 2026, publiée le 25 août 2026) — revenu moyen par nuitée vendue R1 446,7 à
+      // l'hôtel, R1 670,9 tous hébergements. Ce chiffre tombe dans la tranche "moyen" ci-dessous
+      // (R1 300-2 420) : la conversion est cohérente avec le marché réel, sans retouche.
+      KES: { economique: 10600, moyen: 19600, confortable: 39200 },
+      UGX: { economique: 306000, moyen: 569000, confortable: 1138000 },
+      TZS: { economique: 216000, moyen: 401000, confortable: 802000 },
+      RWF: { economique: 120000, moyen: 223000, confortable: 446000 },
+      BIF: { economique: 244000, moyen: 453000, confortable: 906000 },
+      CDF: { economique: 187000, moyen: 348000, confortable: 695000 },
+      STN: { economique: 1715, moyen: 3185, confortable: 6370 },
+      AOA: { economique: 75000, moyen: 139000, confortable: 279000 },
+      ZMW: { economique: 1550, moyen: 2880, confortable: 5760 },
+      MWK: { economique: 141000, moyen: 263000, confortable: 525000 },
+      MZN: { economique: 5190, moyen: 9630, confortable: 19270 },
+      ZWG: { economique: 2160, moyen: 4010, confortable: 8020 },
+      BWP: { economique: 1090, moyen: 2020, confortable: 4050 },
+      NAD: { economique: 1300, moyen: 2420, confortable: 4840 },
+      ZAR: { economique: 1300, moyen: 2420, confortable: 4840 },
+      SZL: { economique: 1300, moyen: 2420, confortable: 4840 },
+      LSL: { economique: 1300, moyen: 2420, confortable: 4840 },
+      KMF: { economique: 34400, moyen: 64000, confortable: 127900 },
+      MGA: { economique: 353000, moyen: 656000, confortable: 1312000 },
+      MUR: { economique: 3820, moyen: 7090, confortable: 14180 },
+      SCR: { economique: 1200, moyen: 2230, confortable: 4470 },
+      // Livre de Sainte-Hélène : gamme euro × 0,8572 (InforEuro septembre 2026, parité avec la livre
+      // sterling). Aucune statistique officielle de prix par nuitée (le seul chiffre publié, en 2018, est
+      // une dépense moyenne par visiteur, pas un prix de chambre).
+      SHP: { economique: 60, moyen: 110, confortable: 220 },
+      // Rouble : calé sur la statistique OFFICIELLE Rosstat des prix moyens à la consommation (août 2026,
+      // prix par PERSONNE et par nuit) — hôtel 1* 1 867,97 ₽, 3* 2 665,48 ₽, 4-5* 4 088,59 ₽ —, doublée
+      // pour 2 adultes : une chambre 3* (~5 330 ₽) tient dans "economique", une 4-5* (~8 180 ₽) dans
+      // "moyen". Nettement sous la conversion de la gamme euro (InforEuro septembre 2026 : 100,57 ₽ pour
+      // 1 €, soit 7 040 / 13 070 / 26 150 ₽), la Russie étant moins chère que la zone euro.
+      RUB: { economique: 5400, moyen: 8200, confortable: 16400 }
     };
 
   var COUNTRY_LIST = Object.keys(COUNTRIES);
@@ -1289,6 +1792,10 @@
     TOLL_MIN_DISTANCE_KM: TOLL_MIN_DISTANCE_KM,
     HR_ISLAND_POSTCODES: HR_ISLAND_POSTCODES, HR_POSTCODE_TO_ISLAND: HR_POSTCODE_TO_ISLAND,
     CV_CONCELHO_TO_ISLAND: CV_CONCELHO_TO_ISLAND,
+    ISLAND_BOXES: ISLAND_BOXES,
+    ISLAND_ONLY_COUNTRIES: ISLAND_ONLY_COUNTRIES,
+    NO_TRIP_LANDMASSES: NO_TRIP_LANDMASSES,
+    TENSION_ZONES: TENSION_ZONES,
     WADDEN_ISLANDS: WADDEN_ISLANDS, SARDINIA_PROVINCES: SARDINIA_PROVINCES, SICILY_PROVINCES: SICILY_PROVINCES,
     GR_POROS_MAINLAND_NAMES: GR_POROS_MAINLAND_NAMES, GR_ISLAND_PATTERNS: GR_ISLAND_PATTERNS,
     FERRY_ROUTES: FERRY_ROUTES, SEA_CROSSINGS: SEA_CROSSINGS, BUDGET_PRICE_MAX: BUDGET_PRICE_MAX

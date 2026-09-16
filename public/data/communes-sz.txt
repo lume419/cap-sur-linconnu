@@ -1,0 +1,701 @@
+0;31.9333,-26.8667;SZ;;Von Wissel
+0;31.4000,-26.8500;SZ;;Verdun
+0;31.1833,-26.5833;SZ;;Usutu
+1899;31.7274,-25.9576;SZ-02;Lubombo Region;Thunzini
+0;31.1333,-26.7833;SZ;;Stylkloof
+0;31.3378,-26.3860;SZ-03;Manzini Region;Sigombeni
+0;31.5932,-26.8796;SZ-02;Lubombo Region;Sithobela
+6152;31.9472,-26.4525;SZ-02;Lubombo Region;Siteki
+0;31.6873,-26.6778;SZ-02;Lubombo Region;Siphofaneni
+0;31.5657,-26.7800;SZ-02;Lubombo Region;Sinceni
+1746;31.4202,-26.6282;SZ-03;Manzini Region;Sidvokodvo
+0;30.9377,-26.8452;SZ-04;Shiselweni;Sicunusa
+0;30.7833,-26.5667;SZ-03;Manzini Region;Sandlane
+0;31.6971,-26.8844;SZ-02;Lubombo Region;Rondspring
+0;31.2837,-25.9461;SZ-01;Hhohho Region;Rocklands
+5750;31.2467,-25.9608;SZ-01;Hhohho Region;Piggs Peak
+0;31.0833,-26.7500;SZ;;Nyabe
+1175;31.9419,-27.0292;SZ-02;Lubombo Region;Nsoko
+0;31.9167,-26.1333;SZ;;Nokwane
+0;32.0476,-26.7564;SZ-02;Lubombo Region;Nkonjane
+0;31.2176,-26.4539;SZ-01;Hhohho Region;Nkanini
+9016;31.1983,-27.1122;SZ-04;Shiselweni;Nhlangano
+0;31.3833,-25.7667;SZ;;Ngonini
+0;31.5794,-26.7386;SZ-02;Lubombo Region;Mvangatini
+0;31.4741,-26.9653;SZ-04;Shiselweni;Mooihoek
+0;31.5836,-26.2397;SZ-03;Manzini Region;Mliba
+0;31.9833,-26.1833;SZ;;Mlawula
+0;32.0823,-26.2574;SZ;;Mhlumeni
+8652;31.8142,-26.0261;SZ-02;Lubombo Region;Mhlume
+0;31.3957,-27.1893;SZ-04;Shiselweni;Mhlosheni
+2886;31.0525,-26.4517;SZ-03;Manzini Region;Mhlambanyatsi
+0;31.1122,-26.8250;SZ-03;Manzini Region;Mgamane
+0;31.5167,-26.3500;SZ;;Mbuluzana
+76218;31.1333,-26.3167;SZ-01;Hhohho Region;Mbabane
+0;31.3080,-26.5025;SZ-03;Manzini Region;Matsapha
+110537;31.3800,-26.4988;SZ-03;Manzini Region;Manzini
+0;31.0649,-26.6684;SZ;;Mankayane
+0;31.6536,-27.0033;SZ-02;Lubombo Region;Maloma
+9724;31.1919,-26.5287;SZ-03;Manzini Region;Malkerns
+0;31.2833,-26.5000;SZ;;Mahlanya
+0;31.0792,-27.0967;SZ-04;Shiselweni;Mahamba
+0;31.8393,-26.5659;SZ-02;Lubombo Region;Magomba
+0;31.5492,-26.0877;SZ-01;Hhohho Region;Madlangempisi
+0;31.5885,-26.3651;SZ-03;Manzini Region;Macnab
+0;31.2333,-26.5333;SZ;;Luyengo
+0;31.9050,-27.0169;SZ-02;Lubombo Region;Lubuli
+0;31.3500,-25.8167;SZ;;Lomati
+0;31.9940,-26.0010;SZ-02;Lubombo Region;Lomahasha
+4557;31.2000,-26.4667;SZ-01;Hhohho Region;Lobamba
+0;31.9277,-27.1277;SZ-02;Lubombo Region;Lismore
+2000;31.8920,-27.3101;SZ-04;Shiselweni;Lavumisa
+3395;31.3327,-26.4767;SZ-03;Manzini Region;Kwaluseni
+2038;31.4810,-26.8803;SZ-04;Shiselweni;Kubuta
+0;31.2167,-25.9000;SZ;;Kobolondo Heights
+0;31.9529,-26.5291;SZ-02;Lubombo Region;Inyetane
+0;32.0081,-26.5331;SZ-02;Lubombo Region;Inyetane
+0;31.4167,-25.7500;SZ;;Horo
+0;31.8522,-26.6973;SZ-02;Lubombo Region;Holobela
+6763;31.5868,-27.2210;SZ-04;Shiselweni;Hluti
+2748;31.3257,-26.9799;SZ-04;Shiselweni;Hlathikhulu
+0;31.4951,-25.8451;SZ;;Herefords
+0;31.1333,-25.9500;SZ;;Havelock
+0;31.2933,-26.9336;SZ-04;Shiselweni;Grand Valley
+0;31.0092,-26.9664;SZ-04;Shiselweni;Gege
+0;31.1010,-26.1723;SZ;;Forbes Reef
+2661;31.1667,-26.4000;SZ-02;Lubombo Region;Ezulwini
+0;30.9000,-26.3833;SZ;;Etjanine
+0;31.2667,-27.1667;SZ;;Dwaleni
+1281;31.0333,-26.2333;SZ-01;Hhohho Region;Darkton
+0;31.5749,-26.1971;SZ-03;Manzini Region;Croydon
+0;31.2377,-26.3368;SZ-01;Hhohho Region;Commissie Nek
+2260;31.1272,-25.9539;SZ-01;Hhohho Region;Bulembu
+3046;31.0118,-26.5385;SZ-03;Manzini Region;Bhunya
+0;31.5206,-25.9534;SZ;;Bennetts Store
+0;31.5667,-26.1000;SZ;;Balegane
+0;32.1333,-26.8333;SZ;;Abercorn
+4155;31.8767,-26.0743;SZ-02;Lubombo Region;Vuvulane
+842;31.0393,-26.2279;SZ-02;Lubombo Region;Ngwenya
+0;31.3273,-25.8266;SZ-01;Hhohho Region;Ntfonjeni
+0;31.9884,-26.1413;SZ-02;Lubombo Region;Maphiveni
+0;31.3612,-26.4866;SZ-03;Manzini Region;Fairview North
+0;31.6333,-25.9333;SZ-01;Hhohho Region;Mhlangatane
+0;31.8690,-26.5550;SZ-02;Lubombo Region;Mpolonjeni
+0;31.5281,-26.3875;SZ-03;Manzini Region;Ekukhanyeni
+0;31.1116,-26.2932;SZ-01;Hhohho Region;Mbangweni
+0;31.9189,-26.2089;SZ-02;Lubombo Region;Simunye
+0;31.5700,-27.2100;SZ-04;Shiselweni;Hluthi
+0;30.9490,-26.7960;SZ-04;Shiselweni;Mgazini
+0;31.5200,-26.4400;SZ-03;Manzini Region;Mafutseni
+0;31.6667,-26.0500;SZ-01;Hhohho Region;Nkambeni
+0;31.2934,-25.9752;SZ-01;Hhohho Region;Ndzingeni
+0;31.2481,-26.7814;SZ-03;Manzini Region;Mahlangatja
+0;31.1147,-26.3050;SZ-01;Hhohho Region;Mhlangatane
+0;31.7532,-26.4029;SZ-02;Lubombo Region;Malindza
+0;31.4492,-26.1140;SZ-01;Hhohho Region;Nyonyane
+0;31.3756,-25.8671;SZ-01;Hhohho Region;Vusweni
+0;31.7800,-26.4120;SZ-02;Lubombo Region;Mpaka
+0;31.5888,-26.1604;SZ-01;Hhohho Region;Dvokolwako
+0;31.3863,-26.4276;SZ-03;Manzini Region;Mkhulamini
+0;31.4560,-26.4880;SZ-03;Manzini Region;Hhelehhele
+0;31.3909,-25.8284;SZ-01;Hhohho Region;Mbasheni
+0;31.1440,-26.3386;SZ-01;Hhohho Region;Mangwaneni
+0;31.9539,-26.9465;SZ-02;Lubombo Region;Ndzevane
+0;32.0340,-26.7680;SZ-02;Lubombo Region;Mambane
+0;31.3252,-26.9748;SZ-04;Shiselweni;Hlatsi
+0;31.1932,-27.0875;SZ-04;Shiselweni;Nsongweni
+0;31.4825,-26.5470;SZ-03;Manzini Region;Ngculwini
+0;30.8580,-26.4548;SZ-03;Manzini Region;Lundzi
+0;31.4717,-26.4978;SZ-03;Manzini Region;Mthongwaneni
+0;31.1965,-27.0954;SZ-04;Shiselweni;Mathendele
+0;31.3114,-27.0757;SZ-04;Shiselweni;Mahlalini
+0;31.5097,-25.9214;SZ-01;Hhohho Region;Buhleni
+0;31.4645,-25.7510;SZ-01;Hhohho Region;Matsamo Border Post
+0;31.2708,-25.9330;SZ-01;Hhohho Region;Emoyeni
+0;31.4961,-25.8558;SZ-01;Hhohho Region;Nkhundia
+0;31.3546,-25.8840;SZ-01;Hhohho Region;Mnigeleli
+0;31.3434,-25.8700;SZ-01;Hhohho Region;Mshinande
+0;31.3682,-25.9386;SZ-01;Hhohho Region;Mzimnene
+0;31.4613,-25.9230;SZ-01;Hhohho Region;Jeke
+0;31.3464,-25.8789;SZ-01;Hhohho Region;Mshingishingini
+0;31.3154,-25.8551;SZ-01;Hhohho Region;Mhlekwa
+0;31.3731,-25.8107;SZ-01;Hhohho Region;Siblela
+0;31.4120,-25.9757;SZ-01;Hhohho Region;Mnikwa
+0;31.3545,-25.7840;SZ-01;Hhohho Region;Sidwashini
+0;31.3165,-25.8221;SZ-01;Hhohho Region;Lomshiyo
+0;31.4593,-25.7939;SZ-01;Hhohho Region;Ndlalambi
+0;31.4601,-25.9126;SZ-01;Hhohho Region;Jacks
+0;31.4073,-25.7626;SZ-01;Hhohho Region;Emvembili
+0;31.4379,-25.7749;SZ-01;Hhohho Region;Wosheni
+0;31.4487,-25.9951;SZ-01;Hhohho Region;Heleba
+0;31.3974,-25.8722;SZ-01;Hhohho Region;Mgobodzi
+0;31.3048,-25.9150;SZ-01;Hhohho Region;Boshimela
+0;31.3513,-25.8171;SZ-01;Hhohho Region;Mgecelwe
+0;31.3792,-25.8501;SZ-01;Hhohho Region;Magutulela
+0;31.4272,-25.7949;SZ-01;Hhohho Region;Msahweni
+0;31.3302,-25.8490;SZ-01;Hhohho Region;Cumasana
+0;31.3971,-25.9793;SZ-01;Hhohho Region;Kekela
+0;31.3151,-25.8750;SZ-01;Hhohho Region;Mkhiweni
+0;31.3747,-25.8391;SZ-01;Hhohho Region;Yihomu
+0;31.3843,-25.7962;SZ-01;Hhohho Region;Msuduga
+0;31.2920,-25.9779;SZ-01;Hhohho Region;Ekuthuleni
+0;31.3657,-25.9490;SZ-01;Hhohho Region;Unlo
+0;31.2921,-25.8257;SZ-01;Hhohho Region;Gomba
+0;31.4245,-25.7445;SZ-01;Hhohho Region;Daisy Mine
+0;31.4783,-25.8217;SZ-01;Hhohho Region;Mayiwane
+0;31.3413,-25.7945;SZ-01;Hhohho Region;Ntintinyane
+0;31.7619,-25.9334;SZ-02;Lubombo Region;Bordergate
+0;31.7851,-25.9875;SZ-02;Lubombo Region;Sukasambe
+0;31.9884,-25.9869;SZ-02;Lubombo Region;Nkhundla
+0;31.2472,-25.9580;SZ-01;Hhohho Region;Nkhundla
+0;31.5958,-25.8463;SZ-01;Hhohho Region;Sihehle
+0;31.6527,-25.8969;SZ-01;Hhohho Region;Zanyane
+0;31.5276,-25.8321;SZ-01;Hhohho Region;Mquaba
+0;31.5039,-25.8586;SZ-01;Hhohho Region;Mgunungu
+0;31.5101,-25.8930;SZ-01;Hhohho Region;Nkundla
+0;31.5174,-25.8411;SZ-01;Hhohho Region;Mavula
+0;31.6217,-25.9735;SZ-01;Hhohho Region;Sihhoye
+0;31.7188,-25.9169;SZ-01;Hhohho Region;Shumi
+0;31.6331,-25.9962;SZ-01;Hhohho Region;Katshasa
+0;31.6611,-25.9222;SZ-01;Hhohho Region;Mangwen
+0;31.7002,-25.9096;SZ-01;Hhohho Region;Nhlanguyavuka
+0;31.7261,-25.9223;SZ-01;Hhohho Region;Tubha
+0;31.5233,-25.8940;SZ-01;Hhohho Region;Mkhuzweni
+0;30.9947,-26.2299;SZ-01;Hhohho Region;Droxford
+0;30.9882,-26.2145;SZ-01;Hhohho Region;Oshoek Border Post
+0;30.9925,-26.2115;SZ-01;Hhohho Region;Ngwenya Border Post
+0;31.0549,-26.2494;SZ-01;Hhohho Region;Motjane
+0;31.0953,-26.2269;SZ-01;Hhohho Region;Hawane
+0;31.1856,-26.2304;SZ-01;Hhohho Region;Mbuluzi
+0;31.2040,-26.2339;SZ-01;Hhohho Region;Museni
+0;31.2069,-26.2275;SZ-01;Hhohho Region;Thembelihle
+0;31.2164,-26.2187;SZ-01;Hhohho Region;Mbuluzi
+0;31.2417,-26.1902;SZ-01;Hhohho Region;Masilela
+0;31.1885,-26.1905;SZ-01;Hhohho Region;Jubukweni
+0;31.1317,-26.2001;SZ-01;Hhohho Region;Mhlosheni
+0;31.1978,-26.1449;SZ-01;Hhohho Region;Mnyokane
+0;31.2223,-26.0874;SZ-01;Hhohho Region;Nkomanzi
+0;31.2217,-26.0758;SZ-01;Hhohho Region;Nkomazi
+0;31.2278,-26.0190;SZ-01;Hhohho Region;Mpalatane
+0;31.2173,-26.0287;SZ-01;Hhohho Region;Mphalatane
+0;31.2014,-26.0369;SZ-01;Hhohho Region;Hlangotsini
+0;31.1900,-26.0151;SZ-01;Hhohho Region;Mkhumbane
+0;31.1551,-26.0600;SZ-01;Hhohho Region;Kufika
+0;31.1443,-26.1482;SZ-01;Hhohho Region;Nkhaba
+0;31.1591,-26.1427;SZ-01;Hhohho Region;Nkhundla
+0;31.1336,-26.1642;SZ-01;Hhohho Region;Nkhaba
+0;31.2912,-26.2374;SZ-01;Hhohho Region;Nasilela
+0;31.3519,-26.2333;SZ-01;Hhohho Region;Nsingweni
+0;31.3745,-26.2389;SZ-01;Hhohho Region;Nsingwenl Nkhundla
+0;31.3818,-26.2295;SZ-01;Hhohho Region;Lomagewaba
+0;31.4001,-26.1996;SZ-01;Hhohho Region;Ngudlula
+0;31.2947,-26.1937;SZ-01;Hhohho Region;Giba
+0;31.2904,-26.1607;SZ-01;Hhohho Region;Maphalaleni
+0;31.2784,-26.1206;SZ-01;Hhohho Region;Malandezela
+0;31.2667,-26.0197;SZ-01;Hhohho Region;Nginamadolo
+0;31.2978,-26.0165;SZ-01;Hhohho Region;Mbeni
+0;31.3031,-26.0579;SZ-01;Hhohho Region;Mbuyaze
+0;31.3425,-26.1072;SZ-01;Hhohho Region;Melete
+0;31.3097,-26.0459;SZ-01;Hhohho Region;Nsangwini
+0;31.3700,-26.0168;SZ-01;Hhohho Region;Nkhundla
+0;31.3732,-26.0349;SZ-01;Hhohho Region;Somtsewu
+0;31.3484,-26.0675;SZ-01;Hhohho Region;Ngowane
+0;31.3491,-26.0454;SZ-01;Hhohho Region;Nduna
+0;31.4338,-26.0110;SZ-01;Hhohho Region;Sokhonzaphi
+0;31.4346,-26.0353;SZ-01;Hhohho Region;Sidzindzini
+0;31.4790,-26.0085;SZ-01;Hhohho Region;Nkamanzi
+0;31.4605,-26.0548;SZ-01;Hhohho Region;Dinane
+0;31.5485,-26.0249;SZ-01;Hhohho Region;Mansengu
+0;31.5598,-26.0378;SZ-01;Hhohho Region;Deliwe
+0;31.5510,-26.0897;SZ-01;Hhohho Region;Nkhundla
+0;31.6370,-26.0517;SZ-01;Hhohho Region;Shumehill
+0;31.6452,-26.0500;SZ-01;Hhohho Region;Nomgayi
+0;31.6601,-26.0464;SZ-01;Hhohho Region;Njakeni
+0;31.5565,-26.0993;SZ-01;Hhohho Region;Mbhamuza
+0;31.5209,-26.1489;SZ-01;Hhohho Region;Zandondo
+0;31.5705,-26.1360;SZ-01;Hhohho Region;Masinda
+0;31.5878,-26.1616;SZ-01;Hhohho Region;Black Mbuluzi
+0;31.6765,-26.1976;SZ-03;Manzini Region;Warren Wood
+0;31.6797,-26.2265;SZ-03;Manzini Region;Isilele
+0;31.6303,-26.1743;SZ-03;Manzini Region;Sherwood Ranch
+0;31.5504,-26.2181;SZ-03;Manzini Region;Mthonga
+0;31.5835,-26.1742;SZ-03;Manzini Region;Buckham
+0;31.5978,-26.1778;SZ-03;Manzini Region;Sukumbili
+0;31.6193,-26.2259;SZ-03;Manzini Region;Mliba Ranch
+0;31.6350,-26.2490;SZ-03;Manzini Region;Khuphuka
+0;32.0759,-26.1476;SZ-02;Lubombo Region;Makwenya
+0;32.0818,-26.1451;SZ-02;Lubombo Region;Ngwenya Kop
+0;32.0446,-26.0736;SZ-02;Lubombo Region;Ekuthuleni
+0;32.0553,-26.1334;SZ-02;Lubombo Region;Shewula
+0;32.0536,-26.1121;SZ-02;Lubombo Region;Majembeni
+0;31.9237,-26.1420;SZ-02;Lubombo Region;Khayeni
+0;31.9106,-26.0727;SZ-02;Lubombo Region;Phahleni
+0;31.9217,-26.1040;SZ-02;Lubombo Region;Thabankulu Estate
+0;31.9398,-26.0546;SZ-02;Lubombo Region;Mafucula
+0;31.8159,-26.1988;SZ-02;Lubombo Region;Ngomane
+0;31.9022,-26.1605;SZ-02;Lubombo Region;Stinini
+0;31.7552,-26.0043;SZ-02;Lubombo Region;Thandanani
+0;31.9389,-26.1030;SZ-02;Lubombo Region;Enyokeni
+0;31.8768,-26.0726;SZ-02;Lubombo Region;Mhlume Nkhundla
+0;31.9413,-26.1249;SZ-02;Lubombo Region;Mahlelesakeni
+0;31.9496,-26.0188;SZ-02;Lubombo Region;Nkalashane
+0;31.8799,-26.0967;SZ-02;Lubombo Region;Lomkehle
+0;31.9172,-26.1161;SZ-02;Lubombo Region;Ngwenya
+0;31.9521,-26.1427;SZ-02;Lubombo Region;Ngwenyameni
+0;31.9330,-26.1362;SZ-02;Lubombo Region;Mbuluzi Estates
+0;31.9097,-26.1029;SZ-02;Lubombo Region;Shonalanga
+0;30.9143,-26.4683;SZ-02;Lubombo Region;Velabatfu
+0;30.9814,-26.3503;SZ-02;Lubombo Region;Sigangeni
+0;30.8907,-26.3289;SZ-02;Lubombo Region;Lundzi
+0;30.9075,-26.4961;SZ-02;Lubombo Region;Ngotjane
+0;30.9865,-26.4692;SZ-02;Lubombo Region;Thembisa
+0;30.9850,-26.2860;SZ-02;Lubombo Region;Langeni
+0;30.9250,-26.3230;SZ-02;Lubombo Region;Luhlendlweni
+0;30.8960,-26.3713;SZ-02;Lubombo Region;Lundzi
+0;30.8972,-26.3322;SZ-02;Lubombo Region;Fyfes
+0;30.9125,-26.3884;SZ-02;Lubombo Region;Tjaneni
+0;31.2551,-26.3988;SZ-01;Hhohho Region;Mafanyana
+0;31.3881,-26.2618;SZ-01;Hhohho Region;Makalane
+0;31.4286,-26.4809;SZ-03;Manzini Region;Lugaganeni
+0;31.4029,-26.3039;SZ-03;Manzini Region;Nkiliji
+0;31.4223,-26.3817;SZ-03;Manzini Region;Nyakeni
+0;31.3715,-26.4744;SZ-03;Manzini Region;Dlamini
+0;31.4025,-26.3169;SZ-03;Manzini Region;Mgudlula
+0;31.2604,-26.4701;SZ-03;Manzini Region;Lozitha
+0;31.4254,-26.3287;SZ-03;Manzini Region;Bhekinkosi
+0;31.3664,-26.3204;SZ-03;Manzini Region;Sankolweni
+0;31.4724,-26.2933;SZ-03;Manzini Region;Kutsimuleni
+0;31.4032,-26.3458;SZ-03;Manzini Region;Kukhanyeni
+0;31.4225,-26.2663;SZ-01;Hhohho Region;Dikude
+0;31.4404,-26.3230;SZ-03;Manzini Region;Mlomo
+0;31.2649,-26.3350;SZ-01;Hhohho Region;Dlangeni
+0;31.4178,-26.3970;SZ-03;Manzini Region;Nyakeni
+0;31.4007,-26.3564;SZ-03;Manzini Region;Ekukhanyeni
+0;31.4445,-26.2903;SZ-03;Manzini Region;Kutsimuleni
+0;31.4714,-26.3050;SZ-03;Manzini Region;Mkhiweni Nkhundla
+0;31.2863,-26.4067;SZ-03;Manzini Region;Gija
+0;31.4599,-26.4852;SZ-03;Manzini Region;Helehele
+0;31.2815,-26.4424;SZ-03;Manzini Region;Zombodze
+0;31.4595,-26.3635;SZ-03;Manzini Region;Mahlabatsini
+0;31.4045,-26.3927;SZ-03;Manzini Region;Jokovu
+0;31.3239,-26.3000;SZ-01;Hhohho Region;Vusweni
+0;31.4059,-26.4544;SZ-03;Manzini Region;Maliyaduma
+0;31.3188,-26.4277;SZ-03;Manzini Region;Mbekelweni
+0;31.3660,-26.4864;SZ-03;Manzini Region;Gaberones
+0;31.2815,-26.4549;SZ-03;Manzini Region;Lobombi
+0;31.4829,-26.3220;SZ-03;Manzini Region;Luve
+0;31.3922,-26.2769;SZ-01;Hhohho Region;Nhlosana
+0;31.2720,-26.4508;SZ-03;Manzini Region;Didini
+0;31.3734,-26.3337;SZ-03;Manzini Region;Zanzana
+0;31.2824,-26.4203;SZ-03;Manzini Region;Zombodze
+0;31.2755,-26.4610;SZ-03;Manzini Region;Zabeni
+0;31.2854,-26.3949;SZ-03;Manzini Region;Mfukuka
+0;31.5146,-26.3474;SZ-03;Manzini Region;Scotts Ranch
+0;31.7081,-26.3184;SZ-02;Lubombo Region;Sikhuphe
+0;31.7020,-26.4101;SZ-02;Lubombo Region;Sicusha
+0;31.6761,-26.2585;SZ-03;Manzini Region;Glenanil
+0;31.5982,-26.3115;SZ-03;Manzini Region;Mpangela Ranch
+0;31.5503,-26.4367;SZ-03;Manzini Region;Mogobi
+0;31.6203,-26.4536;SZ-03;Manzini Region;Kabhudla
+0;31.5519,-26.3679;SZ-03;Manzini Region;Dinedor
+0;31.5223,-26.3769;SZ-03;Manzini Region;Killarney
+0;31.6647,-26.4730;SZ-02;Lubombo Region;Mdumezulu
+0;31.5214,-26.4869;SZ-03;Manzini Region;Thulwane
+0;31.6373,-26.4183;SZ-02;Lubombo Region;Bhadlana
+0;31.5344,-26.2910;SZ-03;Manzini Region;Mbanjwa
+0;31.5977,-26.4142;SZ-03;Manzini Region;Engogola
+0;31.5152,-26.3180;SZ-03;Manzini Region;Sijula
+0;30.7952,-26.5665;SZ-03;Manzini Region;Malutha
+0;30.8287,-26.5479;SZ-03;Manzini Region;Mangcongco
+0;30.8876,-26.5086;SZ-03;Manzini Region;Mpuluzi
+0;30.9763,-26.5373;SZ-03;Manzini Region;Zondwako
+0;30.9519,-26.5334;SZ-03;Manzini Region;Ngcamane
+0;30.9723,-26.5955;SZ-03;Manzini Region;Thandanani
+0;30.8198,-26.6720;SZ-03;Manzini Region;Dosi
+0;30.9943,-26.7194;SZ-03;Manzini Region;Bhadzeni
+0;30.9041,-26.7113;SZ-03;Manzini Region;Mponono
+0;30.9527,-26.6788;SZ-03;Manzini Region;Mbeka
+0;31.0105,-26.7374;SZ-03;Manzini Region;Nkundla
+0;31.0354,-26.5320;SZ-03;Manzini Region;Luhleko
+0;31.0702,-26.5775;SZ-03;Manzini Region;Mbovana
+0;31.0375,-26.6143;SZ-03;Manzini Region;Mfukama
+0;31.0695,-26.6171;SZ-03;Manzini Region;Dudusini
+0;31.0841,-26.6154;SZ-03;Manzini Region;Mapanga
+0;31.1269,-26.6114;SZ-03;Manzini Region;Noabaneni
+0;31.0999,-26.6977;SZ-03;Manzini Region;Mboziawa
+0;31.0727,-26.7201;SZ-03;Manzini Region;Mancubeni
+0;31.1507,-26.7448;SZ-03;Manzini Region;Umsaman
+0;31.1801,-26.7689;SZ-03;Manzini Region;Ngumane
+0;31.1735,-26.7316;SZ-03;Manzini Region;Umtshezwa
+0;31.2568,-26.7552;SZ-03;Manzini Region;Nyatsini
+0;31.2180,-26.6728;SZ-03;Manzini Region;Etjebovu
+0;31.1865,-26.6807;SZ-03;Manzini Region;Mgwadla
+0;31.1365,-26.6627;SZ-03;Manzini Region;Mtimane
+0;31.1816,-26.5746;SZ-03;Manzini Region;Uniswa
+0;31.2075,-26.6121;SZ-03;Manzini Region;Masuku
+0;31.2005,-26.6118;SZ-03;Manzini Region;Nkhundla
+0;31.2588,-26.5977;SZ-03;Manzini Region;Kandinda
+0;31.2675,-26.5201;SZ-03;Manzini Region;Nokwane
+0;31.1925,-26.5183;SZ-03;Manzini Region;Libby
+0;31.0115,-26.6680;SZ-03;Manzini Region;Macudvulwini
+0;31.2403,-26.6371;SZ-03;Manzini Region;Sibanyoni
+0;31.4103,-26.5462;SZ-03;Manzini Region;Lwandle
+0;31.2961,-26.7336;SZ-03;Manzini Region;Sigcineni
+0;31.3845,-26.5890;SZ-03;Manzini Region;Malunge
+0;31.5170,-26.7660;SZ-02;Lubombo Region;Phunga
+0;31.4344,-26.7175;SZ-03;Manzini Region;Mashila
+0;31.3364,-26.5416;SZ-03;Manzini Region;Tubungu
+0;31.4555,-26.7729;SZ-04;Shiselweni;Goedetrou
+0;31.4306,-26.5710;SZ-03;Manzini Region;Gundvwini
+0;31.4757,-26.6818;SZ-03;Manzini Region;Kagwebu
+0;31.4486,-26.6321;SZ-03;Manzini Region;Peebles South
+0;31.2907,-26.6047;SZ-03;Manzini Region;Gidiyeni
+0;31.3029,-26.6055;SZ-03;Manzini Region;Emphini
+0;31.2699,-26.5195;SZ-03;Manzini Region;Nokwane Township
+0;31.3481,-26.5517;SZ-03;Manzini Region;Masundvwini
+0;31.4866,-26.5779;SZ-03;Manzini Region;Gundvwini
+0;31.3444,-26.6345;SZ-03;Manzini Region;Mfelafutsi
+0;31.3806,-26.5798;SZ-03;Manzini Region;Nhlambeni
+0;31.3166,-26.5839;SZ-03;Manzini Region;Dwaleni
+0;31.3507,-26.5414;SZ-03;Manzini Region;Belloch
+0;31.9322,-26.7692;SZ-02;Lubombo Region;Mayaluka
+0;31.7628,-26.7378;SZ-02;Lubombo Region;Tambuti
+0;32.0319,-26.6494;SZ-02;Lubombo Region;Mnga Fula
+0;31.9594,-26.6600;SZ-02;Lubombo Region;Sivunga
+0;31.8457,-26.5168;SZ-02;Lubombo Region;Mtindzekwa
+0;31.7718,-26.7441;SZ-02;Lubombo Region;Steenkamp
+0;31.9373,-26.7749;SZ-02;Lubombo Region;Mabhulohwani
+0;31.9316,-26.7220;SZ-02;Lubombo Region;Emaphaylphini
+0;32.0241,-26.5453;SZ-02;Lubombo Region;Zondwako
+0;31.9895,-26.6438;SZ-02;Lubombo Region;Sivunga
+0;31.7776,-26.7388;SZ-02;Lubombo Region;Mgababa
+0;31.7946,-26.7549;SZ-02;Lubombo Region;Mapobeni
+0;31.9523,-26.7454;SZ-02;Lubombo Region;Sangwaluma
+0;31.7711,-26.7412;SZ-02;Lubombo Region;Buhlenl
+0;31.8941,-26.5792;SZ-02;Lubombo Region;Mbabayi
+0;31.8933,-26.5184;SZ-02;Lubombo Region;Jabhane Dube
+0;31.8856,-26.6766;SZ-02;Lubombo Region;Bar Circle
+0;31.9903,-26.7541;SZ-02;Lubombo Region;Sihosha
+0;31.8648,-26.6166;SZ-02;Lubombo Region;Sibengwane
+0;31.9835,-26.5935;SZ-02;Lubombo Region;Mphundle
+0;31.9464,-26.7027;SZ-02;Lubombo Region;Khayelihke
+0;31.9610,-26.7230;SZ-02;Lubombo Region;Majomba
+0;31.9174,-26.6230;SZ-02;Lubombo Region;Vundla
+0;31.5319,-26.5238;SZ-03;Manzini Region;Umgebisa
+0;31.5542,-26.5163;SZ-03;Manzini Region;Endlandlameni
+0;31.6436,-26.7277;SZ-02;Lubombo Region;Maphilingo
+0;31.5860,-26.7147;SZ-02;Lubombo Region;Syringa
+0;31.5945,-26.6922;SZ-02;Lubombo Region;Madvuma
+0;31.5809,-26.6680;SZ-02;Lubombo Region;Holomi
+0;31.5805,-26.6538;SZ-02;Lubombo Region;Hlawulen
+0;31.6408,-26.5978;SZ-02;Lubombo Region;Vikizijula
+0;31.6381,-26.6227;SZ-02;Lubombo Region;Phonjwane
+0;31.7007,-26.5233;SZ-02;Lubombo Region;Masinane
+0;31.7322,-26.5145;SZ-02;Lubombo Region;Bangindaba
+0;31.7257,-26.5418;SZ-02;Lubombo Region;Esigcaweni
+0;31.6788,-26.6276;SZ-02;Lubombo Region;Duze
+0;31.6679,-26.6942;SZ-02;Lubombo Region;Sikhotseni
+0;31.7356,-26.7257;SZ-02;Lubombo Region;Babile
+0;31.5943,-26.7766;SZ-02;Lubombo Region;Sikhunyane
+0;31.7495,-26.7661;SZ-02;Lubombo Region;Indanya
+0;31.5217,-26.6611;SZ-03;Manzini Region;Lesibovu
+0;31.5690,-26.6291;SZ-03;Manzini Region;Hlano
+0;31.5528,-26.6149;SZ-03;Manzini Region;Kamkhweli
+0;31.5361,-26.6136;SZ-03;Manzini Region;Nyumbane
+0;31.5741,-26.5626;SZ-03;Manzini Region;Sikhunyane
+0;31.5322,-26.5399;SZ-03;Manzini Region;Kuphileni
+0;31.5743,-26.5057;SZ-03;Manzini Region;Thulwane
+0;32.0333,-26.5751;SZ-02;Lubombo Region;Maphungwane
+0;32.0373,-26.5843;SZ-02;Lubombo Region;Mubalati
+0;32.0620,-26.6252;SZ-02;Lubombo Region;Tikhuba
+0;32.0616,-26.6663;SZ-02;Lubombo Region;Lukhetseni
+0;32.0448,-26.7517;SZ-02;Lubombo Region;Mvimbi
+0;32.0296,-26.7285;SZ-02;Lubombo Region;Eluchachweni
+0;32.0449,-26.7710;SZ-02;Lubombo Region;Mambana
+0;30.8797,-26.7893;SZ-03;Manzini Region;Lushikishini
+0;30.9624,-26.7776;SZ-03;Manzini Region;Tsawela
+0;30.8974,-26.7559;SZ-03;Manzini Region;Nkanyezini
+0;30.9882,-26.9515;SZ-04;Shiselweni;Holfontein
+0;31.2015,-26.4609;SZ-01;Hhohho Region;Ludzidzini
+0;31.0660,-26.3312;SZ-01;Hhohho Region;Mpolonjeni
+0;31.1367,-26.3289;SZ-01;Hhohho Region;Nkhundla
+0;31.0625,-26.2972;SZ-01;Hhohho Region;Mpolonjeni
+0;31.0799,-26.3886;SZ-01;Hhohho Region;Mazandini
+0;31.0090,-26.3569;SZ-01;Hhohho Region;Sigangeni
+0;31.0512,-26.2576;SZ-01;Hhohho Region;Nduma
+0;31.0894,-26.3938;SZ-01;Hhohho Region;Nkhundla
+0;31.0813,-26.2745;SZ-01;Hhohho Region;Lilomuli
+0;31.0179,-26.2755;SZ-01;Hhohho Region;Ndlovula
+0;31.0628,-26.2900;SZ-01;Hhohho Region;Jabhane's Kraal
+0;31.0112,-26.3398;SZ-01;Hhohho Region;Maloya
+0;31.1831,-26.4714;SZ-03;Manzini Region;Sitsheni
+0;31.0788,-26.3198;SZ-01;Hhohho Region;Jabhane Duba
+0;31.2183,-26.2771;SZ-01;Hhohho Region;Zulangangani
+0;31.2321,-26.4404;SZ-01;Hhohho Region;Langeni
+0;31.1293,-26.2976;SZ-01;Hhohho Region;Dalriach
+0;31.2257,-26.2869;SZ-01;Hhohho Region;Dinabantu
+0;31.0426,-26.9401;SZ-04;Shiselweni;Mahlabatsini
+0;31.1404,-26.8956;SZ-04;Shiselweni;Ngcakane
+0;31.2778,-26.9726;SZ-01;Hhohho Region;Emkhltini
+0;31.2068,-26.9263;SZ-04;Shiselweni;Mkhitsini
+0;31.0736,-26.8190;SZ-03;Manzini Region;Sibovu
+0;31.0747,-26.7938;SZ-03;Manzini Region;Ngcoseni
+0;31.0998,-26.9980;SZ-04;Shiselweni;Mshengu
+0;31.1791,-26.8516;SZ-04;Shiselweni;Mgomfelweni
+0;31.2785,-26.8851;SZ-01;Hhohho Region;Riceland
+0;31.1426,-26.9599;SZ-04;Shiselweni;Lagubhu
+0;31.2786,-26.9893;SZ-01;Hhohho Region;Foxhill
+0;31.0595,-26.8184;SZ-03;Manzini Region;Mtungulube
+0;31.0473,-26.9681;SZ-04;Shiselweni;Makholwa
+0;31.0740,-26.8432;SZ-03;Manzini Region;Ngodvwane
+0;31.1123,-26.8119;SZ-03;Manzini Region;Makubulando
+0;31.0050,-26.8375;SZ-04;Shiselweni;Sidwala
+0;31.1349,-26.8108;SZ-03;Manzini Region;Umkobo
+0;31.4166,-26.8801;SZ-04;Shiselweni;Pbelindaba
+0;31.4077,-26.9997;SZ-04;Shiselweni;Kontshingila
+0;31.3672,-27.0252;SZ-04;Shiselweni;Kontshingila
+0;31.2867,-27.0138;SZ-04;Shiselweni;Madulini
+0;31.4703,-26.8318;SZ-04;Shiselweni;Zishinani
+0;31.4127,-26.8733;SZ-04;Shiselweni;Pypklin
+0;31.3111,-26.8828;SZ-04;Shiselweni;Nkwene
+0;31.3762,-26.9416;SZ-04;Shiselweni;Mtsambame Nkhundla
+0;31.4895,-26.8266;SZ-04;Shiselweni;Toakoms
+0;31.4751,-26.8685;SZ-04;Shiselweni;Terrasse
+0;31.3265,-26.8356;SZ-04;Shiselweni;Nkwene Nkhundla
+0;31.2980,-26.9464;SZ-04;Shiselweni;Singwane
+0;31.2853,-26.9593;SZ-04;Shiselweni;Crystal Fountain
+0;31.4473,-26.8311;SZ-04;Shiselweni;Kandlovu
+0;31.4585,-27.0237;SZ-04;Shiselweni;Ekuvukeni
+0;31.3348,-26.9684;SZ-04;Shiselweni;Kahlatsi
+0;31.3606,-26.8039;SZ-04;Shiselweni;Nyanyali
+0;31.4977,-26.8017;SZ-04;Shiselweni;Kuphumleni
+0;31.3544,-26.9435;SZ-04;Shiselweni;Kwendzeni
+0;31.4198,-26.8940;SZ-04;Shiselweni;Rosendal
+0;31.3734,-26.9412;SZ-04;Shiselweni;Lugaje
+0;31.4051,-26.8517;SZ-04;Shiselweni;Simamuva
+0;31.4618,-26.9391;SZ-04;Shiselweni;Kambhokwe
+0;31.4800,-26.9123;SZ-02;Lubombo Region;Angloswazi
+0;31.3838,-26.8693;SZ-04;Shiselweni;Glenavis
+0;31.3067,-26.8009;SZ-03;Manzini Region;Brahwini
+0;31.4476,-26.8433;SZ-04;Shiselweni;Dukumbane
+0;31.3339,-26.9247;SZ-04;Shiselweni;Magele
+0;31.3943,-26.9267;SZ-04;Shiselweni;Lobuya
+0;31.4496,-26.9581;SZ-04;Shiselweni;Teylsa
+0;31.3346,-26.9128;SZ-04;Shiselweni;Madarp
+0;31.4080,-26.8431;SZ-04;Shiselweni;Ekuphakamen
+0;31.3141,-26.8946;SZ-04;Shiselweni;Jabulani
+0;31.4899,-26.9417;SZ-04;Shiselweni;Satugahe
+0;31.3925,-26.8984;SZ-04;Shiselweni;Endleni
+0;31.3842,-26.8779;SZ-04;Shiselweni;Bananadraal
+0;31.3942,-26.7825;SZ-04;Shiselweni;Cibo
+0;31.2964,-26.9702;SZ-04;Shiselweni;Helena
+0;31.4098,-26.8354;SZ-04;Shiselweni;Nkhundla
+0;31.3758,-26.9097;SZ-04;Shiselweni;Sismane
+0;31.4209,-26.8675;SZ-04;Shiselweni;Zaaihoek
+0;31.2911,-26.9211;SZ-04;Shiselweni;Abundance
+0;31.4445,-26.8951;SZ-04;Shiselweni;Menziwa
+0;31.4247,-26.7862;SZ-04;Shiselweni;Sikhunyane
+0;31.4813,-26.7905;SZ-04;Shiselweni;Kaphunga
+0;31.3875,-26.8699;SZ-04;Shiselweni;Siguqa
+0;31.4846,-26.9906;SZ-04;Shiselweni;Kanyew
+0;31.3392,-26.9502;SZ-04;Shiselweni;Mbotsheni
+0;31.3135,-26.8435;SZ-04;Shiselweni;Buseleni
+0;31.3938,-26.9697;SZ-04;Shiselweni;Mthonjeni Wengwavuma
+0;31.4743,-26.9815;SZ-04;Shiselweni;Rastfontein
+0;31.7171,-27.0666;SZ-04;Shiselweni;Nkalondze
+0;31.6643,-27.1696;SZ-04;Shiselweni;Makhava
+0;31.5581,-27.2289;SZ-04;Shiselweni;Gundvwini
+0;31.7750,-27.1651;SZ-04;Shiselweni;Mdlebeni
+0;31.5726,-27.0799;SZ-04;Shiselweni;Ntjanini
+0;31.7327,-27.1082;SZ-04;Shiselweni;Qomintaba
+0;31.5750,-27.2140;SZ-04;Shiselweni;Weltevrede
+0;31.5443,-27.2046;SZ-04;Shiselweni;Thrings Post
+0;31.5489,-27.3023;SZ-04;Shiselweni;Mkhwahkweni
+0;31.5834,-27.1916;SZ-04;Shiselweni;Lushop
+0;31.5824,-27.1786;SZ-04;Shiselweni;Ensingizini
+0;31.7672,-27.2920;SZ-04;Shiselweni;Mgampondo
+0;31.7335,-27.2372;SZ-04;Shiselweni;Matsanjeni
+0;31.7255,-27.1369;SZ-04;Shiselweni;Ekukhanyeni
+0;31.6840,-27.1139;SZ-04;Shiselweni;Sigwe
+0;31.7470,-27.2552;SZ-04;Shiselweni;Nkhundla
+0;31.6451,-27.2389;SZ-04;Shiselweni;Oslo
+0;31.6461,-27.1147;SZ-04;Shiselweni;Sigwe Nkhundla
+0;31.5643,-27.1710;SZ-04;Shiselweni;Sigumbili
+0;31.6388,-27.2021;SZ-04;Shiselweni;Hlushwana
+0;31.5498,-27.0645;SZ-04;Shiselweni;Lusitini
+0;31.3082,-27.2026;SZ-04;Shiselweni;Makhonza
+0;31.2113,-27.1420;SZ-04;Shiselweni;Upper Nyamane
+0;31.1459,-27.1605;SZ-04;Shiselweni;Matimatima
+0;31.2251,-27.0679;SZ-04;Shiselweni;Nyakenye
+0;31.1295,-27.1516;SZ-04;Shiselweni;Mahlandle
+0;31.1022,-27.1005;SZ-04;Shiselweni;Tfokotani
+0;31.2998,-27.2215;SZ-04;Shiselweni;Chibide
+0;31.1145,-27.1072;SZ-04;Shiselweni;Vusweni
+0;31.2087,-27.1731;SZ-04;Shiselweni;Mashobeni
+0;31.3050,-27.0452;SZ-04;Shiselweni;Ntabantu
+0;31.1328,-27.0851;SZ-04;Shiselweni;Mabhudlweni
+0;31.1851,-27.1039;SZ-04;Shiselweni;Priberi
+0;31.1206,-27.0596;SZ-04;Shiselweni;Ndukuzibovu
+0;31.2005,-27.0703;SZ-04;Shiselweni;Makhatsatweni
+0;31.3025,-27.2418;SZ-04;Shiselweni;Zombodze
+0;31.1237,-27.0951;SZ-04;Shiselweni;Mlambo
+0;31.1349,-27.1418;SZ-04;Shiselweni;Ndlela
+0;31.2225,-27.1923;SZ-04;Shiselweni;Lower Nyamane
+0;31.1865,-27.1935;SZ-04;Shiselweni;Makhosini
+0;31.1985,-27.1884;SZ-04;Shiselweni;Nzama
+0;31.1440,-27.1122;SZ-04;Shiselweni;Maseyisini
+0;31.4645,-27.0596;SZ-04;Shiselweni;Luqolweni
+0;31.3215,-27.0533;SZ-04;Shiselweni;Memeza
+0;31.3252,-27.1262;SZ-04;Shiselweni;Sibovu
+0;31.4898,-27.1992;SZ-04;Shiselweni;Msila
+0;31.4327,-27.2237;SZ-04;Shiselweni;Kamsizi
+0;31.4899,-27.0501;SZ-04;Shiselweni;Velebantfu
+0;31.4602,-27.1055;SZ-04;Shiselweni;Kalomshiyo
+0;31.3934,-27.1487;SZ-04;Shiselweni;Nhlanhle
+0;31.4139,-27.2766;SZ-04;Shiselweni;Sivule
+0;31.4927,-27.2558;SZ-04;Shiselweni;Masiphula
+0;31.4480,-27.2762;SZ-04;Shiselweni;Manyandzeni
+0;31.4295,-27.0566;SZ-04;Shiselweni;Mbulungwane
+0;31.4082,-27.2141;SZ-04;Shiselweni;Gubuda
+0;31.4481,-27.1770;SZ-04;Shiselweni;Mahanga
+0;31.4044,-27.1305;SZ-04;Shiselweni;Nhkungwini
+0;31.4210,-27.1580;SZ-04;Shiselweni;Zibondeni
+0;31.3602,-27.2469;SZ-04;Shiselweni;Mzinsangu
+0;31.3137,-27.1445;SZ-04;Shiselweni;Mthombe
+0;31.4802,-27.0810;SZ-04;Shiselweni;Mlotshwa
+0;31.4505,-27.2007;SZ-04;Shiselweni;Paradys
+0;31.4302,-27.2508;SZ-04;Shiselweni;Mantambe
+0;31.7643,-26.9559;SZ-02;Lubombo Region;Terblanche
+0;31.5320,-26.9460;SZ-02;Lubombo Region;Mbhoke
+0;31.7493,-26.8542;SZ-02;Lubombo Region;Charmay
+0;31.7563,-26.9712;SZ-02;Lubombo Region;Mcathuzane
+0;31.7432,-26.8712;SZ-02;Lubombo Region;Shanse
+0;31.6202,-26.8584;SZ-02;Lubombo Region;Mhambi
+0;31.6655,-26.8886;SZ-02;Lubombo Region;Madubeni
+0;31.5641,-26.9369;SZ-02;Lubombo Region;Makhwekhweti
+0;31.7745,-26.9074;SZ-02;Lubombo Region;Baxter
+0;31.5444,-27.0316;SZ-04;Shiselweni;Elubaneni
+0;31.5407,-26.8958;SZ-02;Lubombo Region;Mpompotha
+0;31.5595,-26.9561;SZ-02;Lubombo Region;Makhwekhweti Hills
+0;31.5938,-26.9805;SZ-04;Shiselweni;Nhlupheko
+0;31.7600,-26.7833;SZ-02;Lubombo Region;Umshikashika
+0;31.5541,-26.8316;SZ-02;Lubombo Region;Simoyi
+0;31.7350,-26.9016;SZ-02;Lubombo Region;Lochner
+0;31.6759,-27.0426;SZ-04;Shiselweni;Nhloya
+0;31.5960,-26.8050;SZ-01;Hhohho Region;Nkonjane
+0;31.6743,-27.0552;SZ-04;Shiselweni;Ndabazezwe
+0;31.7027,-26.7894;SZ-02;Lubombo Region;Magongolweni
+0;31.7501,-26.9336;SZ-02;Lubombo Region;Mtsambotsi
+0;31.6334,-26.9037;SZ-02;Lubombo Region;Makhobeni
+0;31.6861,-27.0335;SZ-02;Lubombo Region;Keswick
+0;31.7692,-26.8068;SZ-02;Lubombo Region;Logoba
+0;31.5955,-26.9997;SZ-04;Shiselweni;Ngudzeni
+0;31.5974,-26.8768;SZ-02;Lubombo Region;Nkundla
+0;31.6687,-26.7980;SZ-02;Lubombo Region;Guquka
+0;31.7791,-26.7868;SZ-02;Lubombo Region;Ngujane
+0;31.6309,-26.9283;SZ-02;Lubombo Region;Nkonjwa
+0;31.7777,-26.9331;SZ-02;Lubombo Region;Mdumezulu
+0;31.7780,-26.7803;SZ-02;Lubombo Region;Mhawu
+0;31.7551,-26.9866;SZ-02;Lubombo Region;Mbungeni
+0;31.7669,-26.8309;SZ-02;Lubombo Region;Locela
+0;31.8817,-26.8273;SZ-02;Lubombo Region;Ekukhanyeni
+0;31.8367,-26.9137;SZ-02;Lubombo Region;Mekanduva
+0;31.9297,-26.8157;SZ-02;Lubombo Region;Ebholi
+0;31.9723,-26.8492;SZ-02;Lubombo Region;Picardy
+0;31.8002,-26.8349;SZ-02;Lubombo Region;Kugwane
+0;31.8480,-26.9967;SZ-02;Lubombo Region;Ntambo
+0;31.8327,-26.9025;SZ-02;Lubombo Region;Nkhanini
+0;31.8176,-26.8657;SZ-02;Lubombo Region;Malibe
+0;31.8431,-26.9817;SZ-02;Lubombo Region;Nkunge
+0;31.8092,-26.7871;SZ-02;Lubombo Region;Ngcamphalala
+0;31.9822,-26.9015;SZ-02;Lubombo Region;Matsenjwa
+0;31.8844,-26.9794;SZ-02;Lubombo Region;Zombizwe
+0;31.8758,-26.9249;SZ-02;Lubombo Region;Ematsinyo
+0;31.9806,-26.8085;SZ-02;Lubombo Region;Lushikishini
+0;31.8725,-26.8362;SZ-02;Lubombo Region;Ematsheni
+0;31.9844,-26.7895;SZ-02;Lubombo Region;Poortzicht
+0;31.8149,-27.0356;SZ-02;Lubombo Region;Ntuthwakazi
+0;31.8290,-26.9557;SZ-02;Lubombo Region;Malwelwe
+0;31.8871,-26.8692;SZ-02;Lubombo Region;Mndobandoba
+0;31.8105,-26.8447;SZ-02;Lubombo Region;Hlunyane
+0;31.9884,-26.8330;SZ-02;Lubombo Region;Sauolla
+0;31.9403,-26.7938;SZ-02;Lubombo Region;Ookwane
+0;31.9200,-26.8827;SZ-02;Lubombo Region;Makosane
+0;31.8987,-26.8637;SZ-02;Lubombo Region;Rasheni
+0;31.8084,-26.9232;SZ-02;Lubombo Region;Emadlozini
+0;31.9755,-26.8258;SZ-02;Lubombo Region;Twinridge
+0;31.8812,-26.9530;SZ-02;Lubombo Region;Eludlodlweni
+0;31.9628,-26.8845;SZ-02;Lubombo Region;Kamchoza
+0;31.8317,-26.9453;SZ-02;Lubombo Region;Mavimbeni
+0;31.8798,-26.8504;SZ-02;Lubombo Region;Vimvane
+0;31.9050,-26.9811;SZ-02;Lubombo Region;Ingcotu
+0;31.8443,-26.9757;SZ-02;Lubombo Region;Kotten
+0;31.9768,-26.8572;SZ-02;Lubombo Region;Gamula
+0;31.9224,-26.8669;SZ-02;Lubombo Region;Mateta
+0;31.9525,-26.8688;SZ-02;Lubombo Region;Mablobane
+0;31.8993,-26.8684;SZ-02;Lubombo Region;Dumisa
+0;31.8845,-26.9878;SZ-02;Lubombo Region;Wltboomlaagte
+0;31.9315,-26.7920;SZ-02;Lubombo Region;Nkhundla
+0;31.9287,-26.8521;SZ-02;Lubombo Region;Mkhiweni
+0;31.8645,-26.8475;SZ-02;Lubombo Region;Geja
+0;31.8759,-26.9725;SZ-02;Lubombo Region;Fotogaku
+0;31.8301,-26.9376;SZ-02;Lubombo Region;Mhadlo
+0;31.8101,-26.9085;SZ-02;Lubombo Region;Katwyk
+0;31.8073,-27.2195;SZ-04;Shiselweni;Mlindazwe
+0;31.9262,-27.0781;SZ-02;Lubombo Region;Mbutu
+0;31.8661,-27.0796;SZ-02;Lubombo Region;Mhlabeni
+0;31.9237,-27.1063;SZ-02;Lubombo Region;Mbutfu
+0;31.9565,-27.1515;SZ-02;Lubombo Region;Nsubane
+0;31.8784,-27.1154;SZ-02;Lubombo Region;Mkhayeni
+0;31.7980,-27.1129;SZ-04;Shiselweni;Ezindwendweni
+0;31.8288,-27.2758;SZ-04;Shiselweni;Somntongo Nkundla
+0;32.0457,-26.4016;SZ-02;Lubombo Region;Mbobo
+0;32.0432,-26.4171;SZ-02;Lubombo Region;Mbehla
+0;32.0417,-26.3999;SZ-02;Lubombo Region;Mhobeni
+0;32.0631,-26.4165;SZ-02;Lubombo Region;Mhosi
+0;32.0288,-26.3862;SZ-02;Lubombo Region;Mashicaka
+0;31.8492,-26.4698;SZ-02;Lubombo Region;Lubilweni
+0;31.7849,-26.4637;SZ-02;Lubombo Region;Makhandza
+0;31.8951,-26.4399;SZ-02;Lubombo Region;Mantanta
+0;31.7820,-26.2520;SZ-02;Lubombo Region;Hlane Nkhundla
+0;31.9432,-26.4328;SZ-02;Lubombo Region;Flame
+0;31.9428,-26.4240;SZ-02;Lubombo Region;Notcliffe
+0;31.9713,-26.3433;SZ-02;Lubombo Region;Groenpan
+0;31.8481,-26.4505;SZ-02;Lubombo Region;Kalanga
+0;31.9155,-26.4028;SZ-02;Lubombo Region;Mahuku
+0;31.9704,-26.4307;SZ-02;Lubombo Region;Moveni
+0;31.9206,-26.4401;SZ-02;Lubombo Region;Siboteleni
+0;31.9131,-26.4126;SZ-02;Lubombo Region;Lukhula
+0;31.9922,-26.3174;SZ-02;Lubombo Region;Cyrildene
+0;31.8916,-26.4827;SZ-02;Lubombo Region;Lokayisa
+0;31.9463,-26.3933;SZ-02;Lubombo Region;Lugongolweni Nkhundla
+0;31.8566,-26.4008;SZ-02;Lubombo Region;Lonhlupheko
+0;31.7760,-26.2523;SZ-02;Lubombo Region;Hlane
+0;31.9199,-26.4506;SZ-02;Lubombo Region;Ngwane
+0;31.7867,-26.4925;SZ-02;Lubombo Region;Lubhuku
+0;31.9026,-26.4604;SZ-02;Lubombo Region;Khalakahle
+0;31.9695,-26.3932;SZ-02;Lubombo Region;Tengwasi
+0;31.8471,-26.4654;SZ-02;Lubombo Region;Hamula
+0;31.8872,-26.4943;SZ-02;Lubombo Region;Mkutshane
+0;31.8920,-26.4224;SZ-02;Lubombo Region;Lukhula
+0;31.4663,-25.8948;SZ-01;Hhohho Region;Herefords
+0;31.4187,-25.8672;SZ-01;Hhohho Region;Vusweni
+0;31.3720,-25.7884;SZ-01;Hhohho Region;Hhohho
+0;31.4396,-25.8506;SZ-01;Hhohho Region;Vusweni
+0;31.7609,-25.9977;SZ-02;Lubombo Region;Tshaneni
+0;31.3665,-26.0191;SZ-01;Hhohho Region;Ndzingeni
+0;31.5972,-26.0785;SZ-01;Hhohho Region;Madlangempisi
+0;31.6062,-26.0382;SZ-01;Hhohho Region;Nkambeni
+0;31.7175,-26.4248;SZ-02;Lubombo Region;Malindza
+0;31.7313,-26.4206;SZ-02;Lubombo Region;Mpaka
+0;31.1802,-26.5792;SZ-03;Manzini Region;Luyengo
+0;31.2218,-26.5128;SZ-03;Manzini Region;Malkerns
+0;31.8786,-26.5858;SZ-02;Lubombo Region;Mpolonjeni
+0;31.1596,-26.3153;SZ-01;Hhohho Region;Mbabane
+0;31.2406,-26.4868;SZ-03;Manzini Region;Mahlanya
+0;31.0884,-26.4542;SZ-03;Manzini Region;Mhlambanyatsi
+0;31.0397,-26.7815;SZ-04;Shiselweni;Tsawela
+0;31.4892,-26.8108;SZ-04;Shiselweni;Sinceni
+0;31.2587,-27.0811;SZ-04;Shiselweni;Nsongweni
+0;32.0201,-26.2822;SZ-02;Lubombo Region;Mhlumeni
+6433;31.9374,-26.7905;SZ-02;Lubombo Region;Big Bend

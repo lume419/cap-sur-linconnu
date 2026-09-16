@@ -1,0 +1,145 @@
+ar;زولا;Zula
+ar;طيعوا;Tio
+en;Tiyo;Tio
+nl;Tiyo;Tio
+ar;تيرامني;Tera-Emnī
+ti;ሰንዓፈ;Sen‘afe
+ar;سغنيتي;Segheneytī
+ar;سخناتي;Segheneytī
+ar;أم هاجر;Omhājer
+en;Umm Hājar;Omhājer
+de;Umm Hādschar;Omhājer
+ar;نفاسيت;Nefasīt
+ti;ናቐፋ;Nak’fa
+ar;نقفا;Nak’fa
+ar;نقفة‎;Nak’fa
+ar;النقفة‎;Nak’fa
+ar;ناغفا;Nak’fa
+ar;ناكفا;Nak’fa
+fr;Massaoua;Massawa
+it;Massaua;Massawa
+ti;ምጽዋ;Massawa
+ti;Mits’iwa;Massawa
+ar;مصوع;Massawa
+ti;ምጽዋዕ;Massawa
+am;ምጽዋ;Massawa
+pt;Maçuá;Massawa
+ti;Mĭts’ĭwwa;Massawa
+ar;مسكول‎‎;Mescul
+ti;Mersa Tehlay;Mersa Tek’lay
+ti;መርሳ ጉልቡብ;Mersa Gulbub
+ti;መርሳ ፋጥማ;Mersa Fat’ma
+ar;مرسى فاطمة;Mersa Fat’ma
+ar;مارسا فاطما;Mersa Fat’ma
+ar;مرسا فاطمة;Mersa Fat’ma
+de;Marsa Fatima;Mersa Fat’ma
+en;Marsa Fatima;Mersa Fat’ma
+ar;ماء آتعل;May Āt’al
+ar;شامبيكو;Shambiko
+it;Cululli;Kulul
+ar;كرن;Keren
+ti;ከረን;Keren
+ar;كَرَن;Keren
+ar;إمبرمي;Emberemi
+ar;حمبرتي;Himbirtī
+ar;هاكوتا;Haykota
+ti;ሕርጊጎ;Hirgīgo
+ar;حرقيقو;Hirgīgo
+de;Hirgigo;Hirgīgo
+en;Arkiko;Hirgīgo
+fr;Arkiko;Hirgīgo
+nl;Arkiko;Hirgīgo
+ar;حقاز;Hagaz
+ar;حقّاز;Hagaz
+ti;ጐለጅ;Gwelej
+ti;ጐሊጅ;Gwelej
+ti;ጐሉጅ;Gwelej
+ar;جوني;Gogne
+ti;ጊንዳዕ;Ghinda’e
+ti;Gīnda‘;Ghinda’e
+de;Ghinda;Ghinda’e
+pt;Ghinda;Ghinda’e
+en;Ghinda;Ghinda’e
+it;Ghinda;Ghinda’e
+es;Ghinda;Ghinda’e
+ar;جندع;Ghinda’e
+nl;Ghinda;Ghinda’e
+fr;Ghinda;Ghinda’e
+it;Dembe;Gahtielay
+ar;فلفل;Filfil
+ar;علابرعد‎‎;Ela Beridi
+ti;‘Idī;Edd
+ar;إد;Edd
+ar;إدي;Edd
+ar;أد;Edd
+ar;عدي;Edd
+de;Iddi;Edd
+fr;Édd;Edd
+ar;جوندت;Dogalī
+it;Dicsa;Digsa
+ar;دباروا;Dbarwa
+de;Debarwa;Dbarwa
+en;Debarwa;Dbarwa
+fr;Debarwa;Dbarwa
+es;Debarwa;Dbarwa
+nl;Debarwa;Dbarwa
+ti;ደቀምሓረ;Dek’emhāre
+ar;دقمحري;Dek’emhāre
+ar;دهلك كبير;Dehalak’ Kebīr
+it;Grande Dahlac;Dehalak’ Kebīr
+ar;ديغا;Dega
+ar;داعرو كونعات;Da’ero-Kun’at
+ar;دماس;Damas
+it;Biscia;Bīsha
+ar;نشيا;Bīsha
+ar;بيلول;Bēylul
+de;Baylul;Bēylul
+en;Beilul;Bēylul
+it;Beylul;Bēylul
+fr;Beylul;Bēylul
+es;Beilul;Bēylul
+ti;በይሉል;Bēylul
+nl;Beilul;Bēylul
+ar;بلزا;Beleza
+ar;بيليزا;Beleza
+ti;ባረንቱ;Barentu
+ar;بارنتو;Barentu
+en;Mai Nefhi;May-Nefhī
+ar;ماي نفحي;May-Nefhī
+ar;أسماط;Asmat
+ti;Asmera;Asmara
+ar;أسمرة;Asmara
+am;አስመራ;Asmara
+ti;ኣስመራ;Asmara
+ar;عصب;Assab
+it;Baia di Assab;Assab
+ti;ዓስብ;Assab
+ti;‘Aseb;Assab
+ti;ኣቆርዳት;Ak’ordat
+ti;ኣቁርደት;Ak’ordat
+ar;أغوردات;Ak’ordat
+de;Agordat;Ak’ordat
+pt;Agordat;Ak’ordat
+fr;Agordat;Ak’ordat
+en;Agordat;Ak’ordat
+it;Agordat;Ak’ordat
+es;Agordat;Ak’ordat
+nl;Agordat;Ak’ordat
+ar;أفتا;Afta
+ti;መንደፈራ;Mendefera
+ar;مندفرا;Mendefera
+ar;منديفيرا;Mendefera
+ar;عدي أوغري;Mendefera
+ar;عدي تكليزان;Ādī-Teklezan
+ar;عدي تيكلزان;Ādī-Teklezan
+ar;عدي نعامن;Ādī-Ne’amn
+ar;عدي خوالا;Ādī-Quala
+ar;عدي كوالا;Ādī-Quala
+ar;عدي قيح;Adi Keyh
+ar;عدي بارو;Ādībara
+ar;سيريجاكا;Serejeka
+ar;فورو;Foro
+it;Enda Gaber Cocobai;Kokobay
+ti;ባድመ;Badme
+ti;ዓዲ ባሓይላይ;Adi Bahailai (Adi Bahailay)
+ar;ماء ديما;May Dima

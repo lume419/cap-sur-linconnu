@@ -1,0 +1,785 @@
+en;Zugurma;Zuguruma
+ar;زاريا;Zaria
+ha;Zariya;Zaria
+en;Zora;Zara
+en;Zango;Zango-Kara
+en;Zakka;Zaka
+en;Yumoa;Yimoa
+ar;يولا;Yola
+am;ዮላ;Yola
+en;Yiko;Guduikko
+ar;ينагوا;Yenagoa
+am;ዬናጓ;Yenagoa
+en;Yelwa Kahum;Yelwa
+en;Sote;Yaran Sote
+en;Yanga;Ungwar Bisa
+en;Orere;Yanagho
+en;Yolo;Yalo
+en;Wuro Tella;Wuro Talla
+en;Wuro Hausa;Wuro-Hausa
+en;Wurabinji;Wuro Bongu
+en;Wuro Bayo;Wuro-Bayo
+ar;واري;Warri
+en;Iwareki;Warrake
+en;Vera;Venra
+ar;أويو;Uyo
+am;ኡዮ;Uyo
+en;Otoduma;Utoduma
+en;Ote Ogbeji;Uteogbeje
+en;Ute Okpo;Uteh-Okpu
+en;Usomehe;Urhomehen
+en;Umtonu;Umutonu
+en;Umuoja-Obosi;Amuawta
+en;Umuaja-Obosi;Amuawta
+en;Umuiua-Obiogba;Umulua-Obiogba
+en;Umuleri;Nneyi-Umuleri
+en;Umuleri;Umuotulu Umuleri
+en;Umuinya;Umunya
+en;Umuenwelu;Umuenwelum
+ar;أوموأهيا;Umuahia
+am;ኡሙአሂያ;Umuahia
+fr;Umabu;Umumbo
+fr;Water Town Umabu;Umumbo
+en;Uku-Nzu;Ukwu-Nzu
+en;Ukpo-Akpu;Ukpo
+en;Ukun;Ukhun
+en;Uhro;Urho
+en;Ugu-Ozalla;Ogu-Ozella
+en;Ugu Ozala;Ogu-Ozella
+en;Ugun;Ugun-Agadaga
+en;Ugu;Ugun-Agadaga
+en;Ogun;Ugun
+en;Ujiogba;Ugiogba
+en;Ojogba;Ugiogba
+en;Ugianmuen;Ugianmwen
+en;Ugiamen;Ugianmwen
+en;Ugiame;Ugianmwen
+en;Ugbo-Wunagweh;Ugbuwague
+en;Ugbobigan;Ugbovbighan
+en;Ugbobiga;Ugbovbighan
+en;Ugbogbudu;Ugbodudu
+en;Ogbodu;Ugbodu
+en;Ubodu;Ugbodu
+en;Ugbeza;Ugbeze
+en;Ugbeje;Ugbeze
+en;Ugbemisi;Uvbemisi
+en;Oki II;Oki Two
+en;Ugbeka;Oki Two
+en;Ugbegun;Eguare-Ugbegun
+en;Ugbegun;Ugbegun-Ebudin
+en;Ugbaro;Ugbalo
+en;Uburubu;Ubulubu
+en;Uburu-Uku;Ubulu-Uku
+en;Ubuluku;Ubulu-Uku
+en;Uburukiti;Ubulo-Okiti
+en;Uba Oke;Ubaoke
+en;Tumpure;Tumpere
+en;Tuinpega;Tipama
+en;Dugbagbene;Tipama
+en;Tebu;Tebu II
+en;Olugbogbene;Tebidaba
+en;Tibitaba;Tebidaba
+en;Tau;Tua
+en;Jakan;Tua
+en;Tuinpega;Tangagbene
+en;Tugwa;Takworiki
+en;Takwa;Tagwar
+en;Tungan Garda;Tafingarda
+en;Sunkari;Sunkani
+en;Zoll;Sol
+yo;Sókótó;Sokoto
+ar;سوكوتو;Sokoto
+am;ሶኮቶ;Sokoto
+en;Shuga;Shugu
+en;Sheratu;Suletu
+en;Shenge Shenge;Shenge-Shenge
+en;Shefan Abakwa;Shafan-Abakwa
+en;Sharifuri;Sherifuri
+en;Sherfuri;Sherifuri
+en;Sagamu;Shagamu
+en;Kurutie;Setorun
+en;Anjodo;Senge
+en;Sarkin Baka;Murum Salla
+en;Sarkin Bakar;Murum Salla
+en;Zara;Sara
+en;Sangama;Sengana
+en;Sabon Layi;Sabon-Layi
+ar;بورت هاركورت;Port Harcourt
+ig;Ugwu Ọcha;Port Harcourt
+am;ፖርት ሃርኮርት;Port Harcourt
+en;Pari Pundu;Pari-Pundu
+en;Pangurum;Panguru
+en;Pako;Onipako
+en;Ozara;Ozarra
+en;Ozala;Ozalla
+en;Ojieko;Oyoko
+pt;Oió;Oyo
+en;Owika;Ovbieka
+ig;Owẹrrẹ;Owerri
+ar;أويري;Owerri
+am;ኦወሪ;Owerri
+en;Owegi;Awoji
+en;Owa Oyiebu;Owa-Oyibu
+en;Owa Aledimma;Owa-Alidima
+en;Oviriokpe;Oviri-Okpe
+en;Otuocha Aguleri;Otuocha
+en;Ojulu;Otulu
+en;Otobaye II;Otobaye Two
+en;Otobayo;Otobaye Two
+de;Oshogbo;Osogbo
+ar;أوسوجبو;Osogbo
+am;ኦሶግቦ;Osogbo
+en;Urowa;Orowa
+en;Onoma;Oroma Etiti
+en;Anam;Oroma Etiti
+en;Oroghe;Ologhe
+en;Orania-Otu;Oronia-Utu
+en;Oroma Otu;Oronia-Utu
+en;Ajatiton;Opuraja
+en;Opaji;Opoji
+en;Onyadega;Onyedega
+en;Onitsha-Ugbo;Onicha-Ugbo
+ig;Onịchạ;Onitsha
+en;Omo Alao;Omo-Alao
+en;Omashi;Omasi Agu
+en;Olotu;Olote
+en;Olili;Olihlin
+en;Oligi;Oligie
+en;Okuidiemoo;Okuidiemo
+en;Okuloho;Okuno
+en;Okubio;Okubie
+en;Okpotuwan;Okpotuwari
+en;Okporoporo;Okporporo
+en;Oko Ode;Oko-Ode
+en;Oko Erin;Osin-Okete
+en;Oko;Oko Camp
+en;Oko Anara;Oko-Anala
+en;Oko-Amakom;Oko-Amako
+en;Okiomekpo;Okitimekpo
+en;Okie-Agbie;Oki-Agbie
+en;Okia;Ukya
+en;Okhuokhuo;Okhuokho
+en;Okwessan;Okhuessan
+en;Eyogbe I;Okerenghigho
+en;Oke Oyi;Oke-Oyi
+en;Okemuen;Okemue
+en;Okemwa;Okemue
+en;Okemu;Okemue
+en;Ohordua;Uokhuelen-Ohordua
+en;Ohordwa;Uokhuelen-Ohordua
+en;Ogwashi-Olo;Ogwashi-Olor
+en;Ogodo;Ogo
+en;Ogid;Ogidi
+en;Ogheye;Oghene
+en;Ogbirnike;Ogbunike
+en;Ogbombiri;Ogbomabiri
+en;Ogada;Oghada
+en;Odo Eku;Odo-Eku
+en;Odigie;Odige
+en;Odigi;Odige
+en;Odidu;Odida
+en;Odi;Ubeji
+en;Odegume;Odegune
+en;Ochankie;Ochonkie
+en;Obogoro;Ogbogoro
+en;Obor;Obior
+en;Obbio;Obior
+en;Obi-Iduhan;Obi-Iduhon
+en;Obieroumu;Ubierumu
+en;Uberomu;Ubierumu
+en;Obazogbon;Obazagbon-Nugu
+en;Nzuruwei;Kadamti
+en;Owagala;Nwajala
+en;Nogu;Norgu
+en;Nnabi;Nnobi
+en;Nobi;Nnobi
+en;Nkwele;Nkwelle
+en;Mkpor;Nkpor
+en;Ngegu;Ngegwu
+en;Ngbolung;Bolon
+en;Ngaruwa;Ngorowa
+en;Nafuta;Nahuta
+ar;مينا;Minna
+am;ሚና;Minna
+en;Michaga;Mosagon
+en;Mayo Kordo Keremi;Mayo-Kordo-Keremi
+en;Maio-Butale;Mayo Butale
+en;Marabi;Ungwar Jarau
+en;Manya;Munya
+en;Mannang;Mana-Lakware
+ar;ماكوردي;Makurdi
+am;ማኩርዲ;Makurdi
+en;Mai Fula;Mai-Fula
+ar;مايدوغوري;Maiduguri
+ar;ميدغري;Maiduguri
+ar;مايدوجوري;Maiduguri
+ar;مايدوگورو;Maiduguri
+am;ማይዱጉሪ;Maiduguri
+en;Mudo;Modo
+en;Mado;Modo
+en;Lowi;Loyi
+ar;لوكوجا;Lokoja
+am;ሎኮጃ;Lokoja
+en;Ligwai;Barwa
+en;Ligri;Ligiri
+en;Lele Ye Saba Basa;Lele-Ye-Saba-Basa
+en;Legabarudu;Lamurde
+en;Laji Sapati;Laji-Sapati
+ar;لاغوس;Lagos
+yo;Èkó;Lagos
+am;ሌጎስ;Lagos
+en;Lafia;Lafiya
+ar;لافيا;Lafia
+am;ላፊያ;Lafia
+en;Kwoliar;Kolayang-Jauro Bending
+en;Kwaku;Kpako
+en;Kunginbar;Kungibar
+en;Koluama I;Kulama
+en;Kujakwa;Kujekpa
+en;Kombani Sarki;Kombani
+en;Kolmani;Kolmani Gaji Mari
+en;Kalagbene;Kolagbene
+en;Kode Kassa;Kwade
+en;Kode Samma;Kode
+en;Kociyel;Kochiyel
+en;Kirfin Kasa;Kirfi
+en;Kirifi;Kirfi
+en;Kelu;Gidan-Maikarfi
+en;Katagbene;Keleigbene
+en;Kafin-Shanu;Kaffin-Sanu
+en;Yelwa;Keffi
+en;Kantu;Katun
+yo;Kàtsínà;Katsina
+ar;كاتسينا;Katsina
+am;ካትሲና;Katsina
+en;Kasama;Kassama
+en;Karmi Lamido;Karim Lamido
+en;Karfel;Kafyel
+en;Karewa Mallamre;Karewa
+en;Karagari;Kauragari
+en;Karabana;Karbona
+en;Kan Salla;Garba Yashe
+ar;كانو;Kano
+yo;Kánò;Kano
+am;ካኖ;Kano
+en;Kamabiama;Keme-Ebiama
+en;Kaltungo;Kaltongo
+en;Kaltonga;Kaltongo
+en;Okurugbene;Kalawarigbene
+en;Ikebiri II;Kalawarigbene
+en;Kolawarigbene;Kalawarigbene
+en;Kakuri;Duna
+en;Kafin Lyal;Kafin Iyal
+en;Kadunung;Kadunu
+en;Kaduna;Kadunu
+ar;كادونا;Kaduna
+yo;Kàdúná;Kaduna
+am;ካዱና;Kaduna
+en;Kadolli;Kadoli
+en;Kadol;Kadoli
+ar;جوس;Jos
+am;ጆስ;Jos
+en;Jumbo;Jombo
+en;Pitago;Jero
+en;Garin Jukun;Jenue
+en;Jegan Maunde;Wuro Husa
+en;Jauro Papa;Jauro-Papa
+en;Jalla;Ehoroke
+ar;جالينجو;Jalingo
+am;ጃሊንጎ;Jalingo
+en;Jakpa;Ugogegin
+en;Isogen;Izogeri
+en;Izogen;Izogeri
+en;Izogem;Izogeri
+en;Iyiowa-Odekpa;Iyiowa Odek
+en;Oyiowa Odekpa;Iyiowa Odek
+en;Ivune;Ivue
+ig;Obiangwu;Isuobiangwu
+en;Issele Asaba;Issele-Azagba
+ff;Isoniin;Isonyin
+yo;Isanlu Isin;Isanlu-Isin
+en;Isanlu Isin;Isanlu-Isin
+nl;Isanlu Isin;Isanlu-Isin
+en;Itukpen;Iruekpen
+en;Iguelaba;Iguelebu
+en;Inaja Maliki;Inaja-Maliki
+en;Inaja Alaro;Inaja-Olomi
+ar;إيلورين;Ilorin
+am;ኢሎሪን;Ilorin
+en;Allah;Illah Waterside
+en;Allah;Illah
+en;Ile;Ileh
+en;Ikeresa;Ugbosien Waterside
+en;Ikenga;Ikenga-Ogidi
+en;Ikelleo;Ikeken
+ar;إيكيجا;Ikeja
+am;ኢከጃ;Ikeja
+de;Ijebu-Ode;Ijebu Ode
+ff;Ijar;Ijare
+en;Iguazogbar;Izikhiri
+en;Iguozogbar;Izikhiri
+en;Igheghudu;Ugieghudu
+en;Igeghudu;Ugieghudu
+pt;Igbo Ukwu;Igbo-Ukwu
+en;Igbogilli;Igbogili
+en;Igbo Aran;Igbo-Aran
+en;Igbamam;Igbariam
+en;Igbaki;Igbanke
+en;Ighaku;Igbakwu
+en;Igbaku;Igbakwu
+en;Iyekhara;Ivbiakhara
+en;Iyakala;Ivbiakhara
+en;Igakhara;Ivbiakhara
+en;Ifute;Ifite-Ogwari
+en;Iduviga;Evbobewen Two
+en;Idumwvago-Ugbeka;Idumwuogo-Ugbeka
+en;Idumodi;Idumuodi
+en;Idumujuno;Idumuje-Uno
+en;Idumeje-Ugboko;Idumuje-Ugboko
+en;Idumujugboko;Idumuje-Ugboko
+en;Idumesa;Idumuesah
+en;Idon Kasa;Idon Basa
+en;Idon Bisa;Idon Basa
+en;Idomeza;Idumoza
+en;Igomersi;Idumoza
+en;Idua;Idoa
+en;Idogun;Idegun
+en;Iddo Oro;Iddo-Oro
+en;Ichida;Ichuda
+en;Ibore;Ibhole
+ar;إبادان;Ibadan
+ar;إيبادان;Ibadan
+es;Ibadán;Ibadan
+yo;Ìbàdàn;Ibadan
+am;ኢባዳን;Ibadan
+en;Hashidu Habe;Hashidu
+en;Hamari;Hammari
+en;Gwolo;Gwole
+ar;جوساو;Gusau
+am;ጉሳው;Gusau
+en;Guntu;Goto
+en;Gumau;Gumau Pelu
+en;Gorra;Gosta
+ar;جومبي;Gombe
+am;ጓምቤ;Gombe
+en;Gogwasa;Gunki
+en;Gidan Usmanu;Gidan Usuman
+en;Usmanu;Gidan Usuman
+en;Gbaikho;Kamafun
+en;Garin Kunini;Gada
+en;Garin Kanawa;Kanawa
+en;Garfatu Abbas;Abbas
+en;Garam;Garram
+en;Gar Kangere;Gar
+en;Gano;Gonu
+en;Ganjua;Ganjuwa
+en;Gang Pokani;Gang-Pokani
+en;Gangani;Gangami
+en;Gamo Oko;Gamo-Oko
+en;Gojogula;Gajigala
+en;Gabciyari;Gabeiyari
+en;Gabchari;Gabeiyari
+en;Fufu;Fofuru
+en;Foropa;Forupa
+en;Fafan Fulani;Fanfan Fulani
+en;Fafan Bare Bari;Fanfan Bare Bari
+en;Ezoiwelle;Eziowelle
+en;Ezeotu;Ezetu
+en;Ewu;Ewuh
+en;Evbomede I;Evbomede One
+en;Ewotedo;Evbomede One
+en;Eworra;Ewora
+en;Eworan Ote;Ewora
+en;Ewoiki;Ewoki
+en;Awoiki;Ewoki
+en;Ewalto;Eguare-Ewatto
+en;Ewassa;Eguare-Ewatto
+en;Ewatto;Eguare-Ewatto
+en;Ewari;Eware
+en;Ewohigha;Evbohighae
+en;Eubodobian;Evbodobian
+ig;Enúgwu;Enugu
+yo;Ẹnúgu;Enugu
+ar;إنوغو;Enugu
+am;ኢኑጉ;Enugu
+en;Amurhu;Emuhu
+en;Emu;Emu-Eguare
+en;Emiworogi-Nda-Tsadu;Emiworogi Nda-Tsadu
+en;Elesin Fufu;Elesin-Fufu
+en;Ekum Osadegbe;Umusa-Dege
+en;Ekpo;Ekpon
+en;Ekopapoyagi;Ekopapo Yagi
+en;Ekeresa;Ajasolo
+en;Ehikeni;Ekenie
+en;Ekene;Ekenie
+en;Akeke;Ekeke
+en;Ekekhen;Ekehen
+en;Ijemma Unor;Ejeme Unor
+en;Ijema;Ejeme Unor
+en;Ejeme Uno;Ejeme Unor
+en;Eguroe;Eguro
+en;Evbokabua II;Evbokabua Two
+en;Egunkabua;Evbokabua Two
+en;Eguare-Egoro;Eguare-Amede
+en;Egoro;Eguare-Amede
+en;Egua Holor;Egua-Eholor
+en;Egoro;Egoro-Naoka
+en;Amede;Egoro-Amede
+en;Egolgwe;Ego-Igwe
+en;Egi Oyopo;Egi-Oyopo
+en;Ifadion;Efandion
+en;Efahdion;Efandion
+en;Ebuen;Ebulen
+en;Uzua;Ebu
+en;Ebele;Ebelle
+ar;دوتسي;Dutse
+am;ዱትሰ;Dutse
+en;Zailani;Darofoi
+en;Dan Hausa;Hausawa
+ar;داماتورو;Damaturu
+am;ዳማቱሩ;Damaturu
+en;Dalam;Delman
+en;Dadin Kowa;Dakin Kowa
+en;Dabore;Danbore
+ff;Chokocho;Chokoche
+pt;Chococho;Chokoche
+yo;Chokocho;Chokoche
+en;Chokocho;Chokoche
+ha;Chokocho;Chokoche
+nl;Chokocho;Chokoche
+ar;كالابار;Calabar
+am;ካላባር;Calabar
+en;Bwanabe;Banikota
+en;Bori;Buri
+en;Burat;Bwarat
+en;Bunduru;Bundura
+en;Bumanda;Bomanda
+en;Bulu;Bulo
+en;Bulmari;Gulmari
+en;Bula;Bulla
+en;Bujim;Wushaku
+en;Budo Soto;Budo-Soto
+en;Budo Ode;Logun
+en;Budo Ilorin;Budo-Ilorin
+en;Budo Aro;Budo-Aro
+en;Bude;Buda
+en;Babu;Bubu
+en;Boduba;Bubila
+en;Boborokun;Babakoro
+ar;بيرنين كيبي;Birnin Kebbi
+am;ቢርኒን ከቢ;Birnin Kebbi
+en;Biribiri;Beriben
+de;Benin-Stadt;Benin City
+ar;بنين;Benin City
+pt;Benim;Benin City
+yo;Ìlú Benin;Benin City
+es;Ciudad de Benín;Benin City
+am;በንዝ ሲቲ;Benin City
+om;Magaalaa Benin;Benin City
+so;Magaalada Benin;Benin City
+en;Banikrukru;Benikrukru
+en;Bawan Dado;Bawan Dodo
+ar;باوتشي;Bauchi
+am;ባውቺ;Bauchi
+en;Bashama;Bachama
+en;Banyam;Bamyam
+en;Bang;Kukawa
+en;Bamga;Mnbamnga-Ardido
+en;Bamby;Bambur
+en;Bambo;Gbanbo
+en;Balchumbi;Andami
+en;Bakwari;Bakureji
+en;Birnin Kogi;Bakin Kogi
+en;Bar Kogi;Barkogi
+en;Bakin Diwe;Njendure
+en;Badugu;Dere-Bassa
+en;Budawaire;Badawari
+en;Asaba-Ogwashi;Azagba-Ogwashi
+ig;Óká;Awka
+ar;أوكا;Awka
+es;Avka;Awka
+fr;Avka;Awka
+am;አውካ;Awka
+de;Avka;Awka
+pt;Avka;Awka
+en;Atuma;Atumo
+en;Atuar;Atuar-Etiti
+en;Ashama;Asama
+ar;أساба;Asaba
+am;አሳባ;Asaba
+en;Arnado Debb;Arnado-Debb0
+en;Arabishi;Ara
+en;Apawa Samga;Wuro Bako
+en;Apawa;Apowa-Shangel Area
+en;Inoma;Anioma
+en;Anioma;Ogbo-Obi
+en;Anifuma;Ani-Efume
+en;Ungwan Mallam Alkali;Anguwan Mallam Alkali
+en;Angwan Malam Alkali;Anguwan Mallam Alkali
+en;Anguwan Kutari;Angawan Kutari
+en;Ungwan Kutari;Angawan Kutari
+en;Amedokai;Amendhoklan
+en;Amendhokian;Amendhoklan
+en;Amaru;Amalu
+en;Amaho;Amahor
+en;Amahor Southwest;Amahor
+en;Aluje;Ani-Ujeh
+en;Ahijo;Ani-Ujeh
+en;Alkalere;Alkaleri
+en;Alisitue;Akisimie One
+en;Alisitne;Akisimie One
+en;Alisime;Alijemisi
+en;Alihagu;Alihagun
+en;Aledimma;Alidima
+en;Alihagwu;Aliagwai-Agbor
+en;Aleru;Owa-Alero
+en;Alero;Owa-Alero
+en;Alegbetta;Alegbette
+en;Akwukwu;Akwukwu-Igbo
+yo;Àkúrẹ́;Akure
+ar;أكوري;Akure
+fr;Akuré;Akure
+am;አኩሬ;Akure
+en;Akuku-Akumazi;Akwukwu-Akumazi
+en;Akuku;Akwukwu-Akumazi
+en;Akuku-Agbo;Ekuku-Agbor
+en;Akugbe;Akughe
+en;Ako;Akko
+en;Akarine;Akarino
+en;Akahia;Uhiele
+en;Akhia;Uhiele
+en;Akadimon;Okuokpokpo
+en;Ajegunle Jankiri;Ajegunle-Jankiri
+en;Opuraja;Ajatition
+en;Oporoza;Ajatition
+en;Ajafiton;Ajatiton
+en;Obanakhoro;Ajagolo
+en;Aho Igbada;Aho-Igbada
+en;Abgonta;Agbor-Nta
+en;Agbor-BoIIboji;Agbor
+en;Agbo;Agbor
+en;Agbagi;Abunya
+en;Aga;Agara
+en;Afuje;Afuze
+en;Afuji;Afuze
+ar;أدو إكيتي;Ado-Ekiti
+am;ሊድየት ሊሳኖ;Ado-Ekiti
+en;Adaigievbe;Isievbie
+en;Achaca-Ezi;Achala-Ezi
+en;Aburu;Avbhupu
+en;Abure;Abore
+en;Ubulu-Uku;UBULU UKU ( Ubulu Ezemu)
+en;Abuluku;UBULU UKU ( Ubulu Ezemu)
+es;Abuya;Abuja
+am;አቡጃ;Abuja
+ar;أبوجا;Abuja
+yo;Abùjá;Abuja
+en;Abuba-Nando;Abube-Nando
+en;Aboto Afa;Aboto-Afa
+es;Pueblo abiriba;Abiriba
+yo;Abẹ́òkúta;Abeokuta
+ar;أبيوكوتا;Abeokuta
+am;አቤዖኩታ;Abeokuta
+en;Abuvo;Abavo
+en;Abare;Kishou
+ar;أبكاليكي;Abakaliki
+am;አባካሊኪ;Abakaliki
+ig;Abá;Aba
+yo;Abá;Aba
+ar;آبا;Aba
+en;Degema;Degema Hulk
+en;Chiji;Ahachi
+en;Warifi;Oghareki
+en;Obromudu;Otumara
+en;Ogharefe;Oghara
+en;Oghara Town;Oghara
+en;Omolomo;Molume
+en;Okwode Omoniyi;Okwode
+en;Omoniyi;Okwode
+en;Oherel;Okwode
+en;Igbomaja Island;Igbomaja Inland
+en;Ajakaketiewe;Ajakaketie
+en;Obagboro;Okogho
+en;Benin River;German I
+en;Tebu;Tebu I
+en;Okweirhe;Okuechi
+en;Ovu;Ekpan
+en;Okwumude;Okumude
+en;Odjedi;Ogirisen
+en;Okwokpokpo;Okuitaire
+en;Okunu;Okovwavwa
+en;Okwighele;Okuighele
+en;Madagho-Ajeda;Madagho
+en;Aja Pepe;Ajapepe
+en;Atamba;Ajapepe
+en;Uvwrughelli;Oghwrughelli
+en;Ovwiammuge;Uvwiamuge
+en;Ovwiama;Uvwiama
+en;Opete Camp;Ugbolokposo
+en;Tori;Ekpan
+en;Frankagbene;Fiankagbene
+en;Amatu-Ijaw;Amatu
+en;Deleoketa;Daleketa
+en;Ugbegungun;Ugbegugun
+en;Amabulu;Amabilou
+en;Amabulou;Amabilou
+en;Babatoriagbene;Babatonagbene
+en;Beyenturugbene;Beyentorugbene
+en;Koluama II;Kulama II
+en;Kulama;Kulama II
+en;Dubagbene;Gbelegbene
+en;Portharcourtgbene;Port Harcourtgbene
+en;Hitlergbene;Hitlargbene
+en;Perewarigbene;Periwarigbene
+en;Kalaragbene;Kalarogbene
+en;Onduku;Onduku Camp
+en;Blackman;Blackman Camp
+en;Peretorugbene;Peretoregbene
+en;Kalabari;Kalabari Camp
+en;Akpan;Akpan Camp
+en;Ufort;Ufort Camp
+en;Omo;Omo Camp
+en;Clarks-Camp;Orubou
+en;Tomogbene;Tamogbene
+en;Ayama;Tamogbene
+en;Norgbene;Nogbene
+en;Ebikagbene;Ebikogbene
+en;Egbemangalabiri;Ebeziba
+en;Egbemo-Angalabri;Ebeziba
+en;Egbidiama;Egbidiama-Market
+en;Egbemangalabiri-Market;Egbidiama-Market
+en;Egbemangalabiri;Egbemo Angalabri
+en;Egbemangalabiri-Market;Egbemo Angalabri
+en;Egbidiama-Market;Egbemo Angalabri
+en;Peruyale;Peruyale Camp
+en;Okon;Okon Camp
+en;Ime;Ime Camp
+en;Macus;Macus Camp
+en;Friday;Friday Camp
+en;Etebregbene;Turu
+en;Alaru;Alaru Camp
+en;Akosi;Akosi Camp
+en;Oboitubo;Kanbo
+en;Raya;Raya Camp
+en;Okparatubo;Ukpatatube
+en;Gbaran;Gbaran-Market
+en;Biriemigbeni;Birieigbene
+en;Bokumogbene;Bokamgbene
+en;Loinbirikiri;Loinbirikibi
+en;Lafamagbene;Lofamagbene
+en;Sonomadungbene;Sonamadingbene
+en;Urhobo Settlement;Ofalubagbene
+en;Dankorugbene;Dankarogbene
+en;Jituagbene;Rituagbene
+en;Otonfiewegbene;Otomiegbene
+en;Oputugbene;Putugbene
+en;Ke wetgbene;Keleweigbene
+en;Amatafagbene;Amatafugbene
+en;Sangogbene;Sangagbene
+en;Ogboitagbene;Ogboiditagbene
+en;Yedorgbene;Yedogbene
+en;Bendicgbene;Alagbene
+en;Agengbene;Alagbene
+en;Izanzagbene;Izonogbene
+en;Angbakore;Ngbokoro
+en;Komotorufagbene;Komoforufagbene
+en;Cousinigbene;Cousingbene
+en;Etukegbene;Eturegbene
+en;Beterland;Betterland
+en;Sagbarugbene;Sabarugbene
+en;Sagbatorugbene;Sabarugbene
+en;Welson Kinbogbene;Welsenkingbogbene
+en;Tebitabator;Tebitubator
+en;Ogele;Eteye
+en;Eybiamen;Ogute-Okpa
+en;Egono;Egeuno Camp
+en;Bidenu;Eidenu
+en;Eideru;Eidenu
+en;Eko;Eko-Ewuh
+en;Ihumudum;Ihumudumu
+en;Urpene;Ukpenu
+en;Ugbenolhua;Ughenodua
+en;Iluwozi;Unmwaze
+en;Ekana;Oriakhi Camp
+en;Echengwa;Echonga
+en;Igbado-Igboko;Igbodo-Igboko
+en;Ditah;Otta
+en;Owerre;Owerre Olubor
+en;Owa-Ekel;Owa-Eke
+en;Ighedu;Ibhiedu
+en;Ozonogogo;Uvbe
+en;Odekpu;Odekpe
+en;Okpaga Farm Settlement;Okpaga
+en;Alisimie II;Alisimie Two
+en;Evbomede II;Evbomede Two
+en;Kubur-Jibje;Kubur Jibje
+en;Futu-Les Clan;Futu Les Clan
+en;Jadamari;Khaddamari
+en;Saradan;Saraden
+en;Forcadogbene;Focadosgbene
+en;Ileweigbene;Heweigbene
+en;Kanam;Kanan
+en;Dwam;Dwan
+en;Gabadaya One;Gabadaya
+en;Damsare;Demsare
+en;Laide Gokra;Lainde Gokra
+en;Bisali;Basali
+en;Boilire;Boillire
+en;Douyelel;Douyolel
+en;Kalanjanga Dumshi;Kalajanga Dumshi
+en;Batahi;Bantahi
+en;Nambali;Dafa
+en;Jauro Jingeni;Jauro Jingeru
+en;Diri;Biri
+en;Tudun Wada;Badara
+en;Kaisu;Keso
+en;Garin Hamza;Garin Hamse
+en;Hamza;Garin Hamse
+en;Gidan Jauro Hamma;Jauro Hamma
+en;Gidan Jauro Gano;Jauro Gani
+en;Kolkwol;Kwolkwol
+en;Yolo;Jubajo
+en;Balede;Chakamaderi
+en;Jenge;Zange
+en;Gilo;Gila
+en;Yalon Garuza;Yolon Garuza
+en;Yelwan Akalere;Alkaleri
+en;Sabon Yaki Mallam;Sarkin Yaki Mala
+en;Murtala;Murtalan Jeji
+en;Marsala;Murtala
+en;Bohga;Wuro Bogga
+en;Yelwa;Yalwa
+en;Amache;Amechi
+en;Duguri;Digare
+en;Jeman;Jemau
+fr;Dan Dela;Sarki Toudou Saboua
+en;Ago Malu;Ago-Malu
+en;Lale-Bale;Lale Bale
+en;Bayero;Agberun
+en;Chikanji;Gidar Sana
+en;Wuro Garuji;Wuro-Garuji
+en;Wuro Modibbo;Wuro-Modibbo
+en;Jauro Sambo;Jauro-Sambo
+en;Dagana Baba;Dagana-Baba
+en;Yolde Bubbi;Yolde Dubbi
+en;Kwandanggo;Kwandango
+en;River Bokile;Bokile
+en;Chukko;Chukkol
+en;Bichchel;Bich'chel
+en;Sapati-Oko;Igboyeye
+en;Alapako Etile;Alapako-Etile
+en;Akatakuga;Akata Kuga
+en;Folawiyo;Fola-wiyo
+en;Oke Alufa;Oke-Alufa
+en;Oke Suna;Oke-Suna
+en;Akanbi;Akabi
+en;Azanya;Gbazani
+en;Gbezeje;Bezeji
+en;Ainasa;Amasa
+en;Gede;Tika
+en;Gwari;Tika
+en;Tor Gwari;Takushira
+en;Cheche;Sherat
+en;Ajagbene;Azagbene
+en;Ngalirde;Ngolirde
+en;Labisi;Asipa

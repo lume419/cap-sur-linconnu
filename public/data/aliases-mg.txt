@@ -1,0 +1,172 @@
+ar;توماسينا;Toamasina
+fr;Tamatave;Toamasina
+en;Vohitrambo;Vohitromby
+mg;Vohitrambo;Vohitromby
+it;Vohitrambo;Vohitromby
+fr;Vohitrambo;Vohitromby
+nl;Vohitrambo;Vohitromby
+ar;فاننو;Vanono
+ar;تسيروانومانديدي;Tsiroanomandidy
+en;Tsararova;Tsaravova
+mg;Tsararova;Tsaravova
+it;Tsararova;Tsaravova
+fr;Tsararova;Tsaravova
+nl;Tsararova;Tsaravova
+pt;Tsiafahy;Tsararivotra
+en;Tsiafahy;Tsararivotra
+mg;Tsiafahy;Tsararivotra
+it;Tsiafahy;Tsararivotra
+fr;Tsiafahy;Tsararivotra
+nl;Tsiafahy;Tsararivotra
+fr;Tuléar;Toliara
+ar;توليارا;Toliara
+ar;تولاناروا;Tôlanaro
+es;Tolanaro;Tôlanaro
+de;Tolanaro;Tôlanaro
+pt;Tolanaro;Tôlanaro
+sw;Tolanaro;Tôlanaro
+fr;Fort-Dauphin;Tôlanaro
+ar;سوافيناندريانا;Soavinandriana
+ar;سانييرانا ايفونجو;Soanierana Ivongo
+ar;سافانا;Savana
+ar;سامبافا;Sambava
+it;Nosy-Varika;Nosy Varika
+ar;موروندافا;Morondava
+ar;مورومبي;Morombe
+en;Mosorolava;Misorolava
+mg;Mosorolava;Misorolava
+it;Mosorolava;Misorolava
+fr;Mosorolava;Misorolava
+nl;Mosorolava;Misorolava
+ar;مياريناريفو;Miarinarivo
+ar;ماروفواي;Marovoay
+ar;ماروفانتازا;Marovantaza
+pt;Idéias obscuras;Maroteza
+it;Moroteza;Maroteza
+nl;Moroteza;Maroteza
+en;Manjakatompo;Manjakatompo-Firaisana
+mg;Manjakatompo;Manjakatompo-Firaisana
+it;Manjakatompo;Manjakatompo-Firaisana
+fr;Manjakatompo;Manjakatompo-Firaisana
+nl;Manjakatompo;Manjakatompo-Firaisana
+en;Manambotra Sud;Manambotra Atsimo
+mg;Manambotra Sud;Manambotra Atsimo
+it;Manambotra Sud;Manambotra Atsimo
+fr;Manambotra Sud;Manambotra Atsimo
+nl;Manambotra Sud;Manambotra Atsimo
+ar;مانakارا;Manakara
+ar;مينتيرانو;Maintirano
+ar;ماهامبو;Mahambo
+ar;ماجنكا;Mahajanga
+ar;مايفاتانانا;Maevatanana
+en;Imongy;Imongy Atsinanana
+mg;Imongy;Imongy Atsinanana
+it;Imongy;Imongy Atsinanana
+fr;Imongy;Imongy Atsinanana
+nl;Imongy;Imongy Atsinanana
+ar;إهوسي;Ihosy
+ar;فيانارانتسوا;Fianarantsoa
+ar;فينواريفو اتسينانانا;Fenoarivo Atsinanana
+ar;فارافانجانا;Farafangana
+ar;دارينا;Daraina
+en;Faux Cap;Betanty
+mg;Faux Cap;Betanty
+it;Faux-Cap;Betanty
+fr;Faux Cap;Betanty
+nl;Faux Cap;Betanty
+ar;بيتافو;Betafo
+ar;بيسالامبي;Besalampy
+en;Beroboka;Beroboka Atsimo
+mg;Beroboka;Beroboka Atsimo
+it;Beroboka;Beroboka Atsimo
+fr;Beroboka;Beroboka Atsimo
+nl;Beroboka;Beroboka Atsimo
+en;Berenty;Berenty-Betsileo
+mg;Berenty;Berenty-Betsileo
+it;Berenty;Berenty-Betsileo
+fr;Berenty;Berenty-Betsileo
+nl;Berenty;Berenty-Betsileo
+en;Belon'i Tsiribihina;Belo sur Tsiribihina
+en;Belo - Tsiribihina;Belo sur Tsiribihina
+ar;بيكيلي;Bekily
+en;Bekatra;Bekatra Maromiandra
+mg;Bekatra;Bekatra Maromiandra
+it;Bekatra;Bekatra Maromiandra
+fr;Bekatra;Bekatra Maromiandra
+nl;Bekatra;Bekatra Maromiandra
+it;Bekaraoky;Bekaraoka
+en;Behisatra;Behisatse
+mg;Behisatra;Behisatse
+it;Behisatra;Behisatse
+fr;Behisatra;Behisatse
+nl;Behisatra;Behisatse
+es;Behisatra;Behisatse
+it;Beharogna;Beharona
+ar;انتسوهيهي;Antsohihy
+ar;انتسيرانانا;Antsiranana
+fr;Diego-Suarez;Antsiranana
+ar;أنتسيرابي;Antsirabe
+en;Antsalaka;Antsalaka Atsimo
+mg;Antsalaka;Antsalaka Atsimo
+it;Antsalaka;Antsalaka Atsimo
+fr;Antsalaka;Antsalaka Atsimo
+nl;Antsalaka;Antsalaka Atsimo
+en;Antranokarany;Antranonkarany
+mg;Antranokarany;Antranonkarany
+it;Antranokarany;Antranonkarany
+fr;Antranokarany;Antranonkarany
+nl;Antranokarany;Antranonkarany
+mg;Antevamena;Ántevamena
+ar;أنتاناناريفو;Antananarivo
+fr;Tananarive;Antananarivo
+ar;أنتاناميبي;Antanambe
+en;Anivorano Nord;Anivorano Avaratra
+mg;Anivorano Nord;Anivorano Avaratra
+it;Anivorano Nord;Anivorano Avaratra
+fr;Anivorano Nord;Anivorano Avaratra
+nl;Anivorano Nord;Anivorano Avaratra
+de;Andoany;Hell-Ville
+pt;Andoany;Hell-Ville
+en;Andoany;Hell-Ville
+it;Andoany;Hell-Ville
+ar;أندواني;Hell-Ville
+zu;Andoany;Hell-Ville
+nl;Andoany;Hell-Ville
+es;Distrito de Andapa;Andapa
+de;Andaingo;Andaingo Gara
+pt;Andaingo;Andaingo Gara
+en;Andaingo;Andaingo Gara
+mg;Andaingo;Andaingo Gara
+fr;Andaingo;Andaingo Gara
+nl;Andaingo;Andaingo Gara
+en;Ampitsikinana;Ampisikinana
+nl;Ampitsikinana;Ampisikinana
+pt;Brickaville;Ampasimanolotra
+en;Brickaville;Ampasimanolotra
+it;Brickaville;Ampasimanolotra
+fr;Vohibinany;Ampasimanolotra
+mg;Vohibinany;Ampasimanolotra
+zu;Brickaville;Ampasimanolotra
+nl;Brickaville;Ampasimanolotra
+ar;امبوفومبي;Ambovombe
+ar;امبوسيترا;Ambositra
+mg;Ambohitrandrimanitra;Ambohitrandriamanitra
+it;Ambohitrandrimanitra;Ambohitrandriamanitra
+en;Antambolo;Amboasary-Antambolo
+mg;Antambolo;Amboasary-Antambolo
+fr;Antambolo;Amboasary-Antambolo
+nl;Antambolo;Amboasary-Antambolo
+en;Amboangibe;Amboahangibe
+mg;Amboangibe;Amboahangibe
+it;Amboangibe;Amboahangibe
+fr;Amboangibe;Amboahangibe
+nl;Amboangibe;Amboahangibe
+it;Ambatovola Gara;Ambatovola
+ar;امباتوندرازاكا;Ambatondrazaka
+de;Ambarikorano;Ambariokorano
+en;Ambarikorano;Ambariokorano
+mg;Ambarikorano;Ambariokorano
+it;Ambarikorano;Ambariokorano
+fr;Ambarikorano;Ambariokorano
+nl;Ambarikorano;Ambariokorano
+it;Ambahitrazo;Ambahatrazo

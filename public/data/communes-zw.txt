@@ -1,0 +1,1809 @@
+0;30.7030,-16.6575;ZW-03;Mashonaland Central;Guruve
+0;32.7411,-18.2159;ZW-01;Manicaland;Nyanga
+59717;30.0665,-20.3267;ZW-08;Masvingo Province;Zvishavane
+0;27.9333,-20.0333;ZW-06;Matabeleland North;Zuzumba
+0;30.9167,-20.2667;ZW-08;Masvingo Province;Zimbabwe
+0;27.9581,-18.2031;ZW-06;Matabeleland North;Zikamanas Village
+0;27.4753,-19.2084;ZW-06;Matabeleland North;Ziga
+0;27.6119,-19.6659;ZW-06;Matabeleland North;Zibunkululu
+0;27.4667,-19.8333;ZW-06;Matabeleland North;Zibalonkwe
+0;27.5021,-19.4183;ZW-06;Matabeleland North;Zemandana
+0;27.5104,-19.4493;ZW-06;Matabeleland North;Zemanda
+0;27.5552,-19.4298;ZW-06;Matabeleland North;Zemalapala
+0;31.8167,-17.5500;ZW-04;Mashonaland East Province;Zanyika
+0;27.4767,-19.1769;ZW-06;Matabeleland North;Zandile
+0;31.4636,-20.3368;ZW-08;Masvingo Province;Zaka
+0;27.7403,-19.5842;ZW-06;Matabeleland North;Zabagwadi
+0;27.5322,-19.2979;ZW-06;Matabeleland North;Xojeni
+0;27.4437,-19.4716;ZW-06;Matabeleland North;Xanixani
+0;31.1172,-17.7183;ZW-10;Harare;Winchendon
+0;31.8126,-18.4177;ZW-04;Mashonaland East Province;Wilton
+0;30.0167,-19.3667;ZW-02;Midlands Province;Wha Wha
+0;29.3667,-21.0667;ZW-07;Matabeleland South Province;West Nicholson
+0;31.5736,-18.6173;ZW-04;Mashonaland East Province;Wedza
+0;32.6391,-18.6819;ZW-01;Manicaland;Watsomba
+0;27.3242,-19.2691;ZW-06;Matabeleland North;Vulashaba
+0;30.2833,-18.9500;ZW-02;Midlands Province;Vrede
+0;27.5226,-19.1299;ZW-06;Matabeleland North;Vozheka
+0;31.0500,-17.2667;ZW-03;Mashonaland Central;Villa Franca
+35215;25.8307,-17.9328;ZW-06;Matabeleland North;Victoria Falls
+0;31.0667,-17.2833;ZW-03;Mashonaland Central;Verona
+0;32.1010,-18.5376;ZW-01;Manicaland;Vengere
+0;31.2333,-18.1667;ZW-04;Mashonaland East Province;Ushewokunze
+0;28.2264,-20.3863;ZW-07;Matabeleland South Province;Usher Institute
+0;29.8167,-18.4500;ZW-05;Mashonaland West;Umsweswe
+0;28.7953,-19.7100;ZW-06;Matabeleland North;Turk Mine
+0;31.3167,-18.0333;ZW-04;Mashonaland East Province;Tullichewan
+0;29.2000,-21.9167;ZW-07;Matabeleland South Province;Tuli
+0;27.2074,-19.5415;ZW-06;Matabeleland North;Tulamila
+0;27.7651,-19.7556;ZW-06;Matabeleland North;Tsholotsho
+0;27.0188,-19.4427;ZW-06;Matabeleland North;Tshiyakwakiwe
+0;30.7833,-22.2000;ZW-07;Matabeleland South Province;Tshiturapadsi
+0;27.4382,-19.6876;ZW-06;Matabeleland North;Tshitatshawa
+0;27.6165,-19.4009;ZW-06;Matabeleland North;Tshinu
+0;27.2831,-19.5201;ZW-06;Matabeleland North;Tshibizina
+0;27.5764,-19.1610;ZW-06;Matabeleland North;Tshefu Tshefu
+0;27.7081,-19.4458;ZW-06;Matabeleland North;Tshayile
+0;27.6038,-19.2594;ZW-06;Matabeleland North;Tshakapika
+0;27.9000,-20.1167;ZW-06;Matabeleland North;Tshabanda
+0;27.1404,-19.6639;ZW-06;Matabeleland North;Tsetseri
+0;31.4500,-21.0333;ZW-08;Masvingo Province;Triangle
+0;30.4500,-17.5333;ZW-05;Mashonaland West;Trelawney
+0;29.9000,-21.4333;ZW-07;Matabeleland South Province;Towla
+0;29.7333,-19.0167;ZW-02;Midlands Province;Torwood
+0;27.5869,-19.2568;ZW-06;Matabeleland North;Tshayakuhle
+0;32.9333,-17.4000;ZW-01;Manicaland;Tizoras
+0;31.6877,-18.1636;ZW-04;Mashonaland East Province;Theydon
+0;31.0346,-19.0092;ZW-04;Mashonaland East Province;The Range
+0;27.0346,-19.6881;ZW-06;Matabeleland North;Tembili
+0;27.0691,-19.6251;ZW-06;Matabeleland North;Tankahukwe
+0;32.8000,-19.6000;ZW-01;Manicaland;Tandai
+0;27.6833,-19.3167;ZW-06;Matabeleland North;Tamhla
+0;32.4005,-17.1541;ZW-04;Mashonaland East Province;Suskwe Township
+0;27.6558,-19.6346;ZW-06;Matabeleland North;Susumani
+0;32.8000,-18.7333;ZW-01;Manicaland;Stapleford
+0;27.7928,-19.8244;ZW-06;Matabeleland North;Spingwini
+0;31.2222,-19.4687;ZW-08;Masvingo Province;Soti Source
+0;31.4667,-20.0167;ZW-08;Masvingo Province;Sosera
+0;27.6416,-19.7671;ZW-06;Matabeleland North;Sontamba
+0;27.6864,-19.6918;ZW-06;Matabeleland North;Somqibe
+0;27.4249,-19.5517;ZW-06;Matabeleland North;Somlota
+0;27.6135,-19.1912;ZW-06;Matabeleland North;Somkaya
+0;29.6667,-19.7000;ZW-02;Midlands Province;Somabhula
+0;27.0705,-19.5571;ZW-06;Matabeleland North;Solonkwe
+0;27.0833,-19.4000;ZW-06;Matabeleland North;Sodaka
+0;27.7667,-20.0333;ZW-06;Matabeleland North;Siyangiya
+0;27.7187,-19.7301;ZW-06;Matabeleland North;Siwila
+0;29.5333,-21.5167;ZW-07;Matabeleland South Province;Sitauzis
+0;27.5098,-19.1632;ZW-06;Matabeleland North;Sitambala
+0;27.3667,-19.9167;ZW-07;Matabeleland South Province;Siringa
+0;27.7184,-19.2399;ZW-06;Matabeleland North;Sipongweni
+0;30.3500,-22.2000;ZW-07;Matabeleland South Province;Sinyoni
+0;26.3167,-18.5833;ZW-06;Matabeleland North;Sinamatila Camp
+0;27.8833,-17.4833;ZW-06;Matabeleland North;Simchembo
+0;29.2899,-18.9685;ZW-02;Midlands Province;Silobela
+0;27.3000,-20.2333;ZW-07;Matabeleland South Province;Silisi
+0;27.2882,-19.7739;ZW-06;Matabeleland North;Sikente
+0;27.1973,-19.4021;ZW-06;Matabeleland North;Sihazela
+0;27.0721,-19.4512;ZW-06;Matabeleland North;Siqwini
+0;27.4085,-19.3537;ZW-06;Matabeleland North;Sibanjiba
+0;28.0500,-17.4667;ZW-06;Matabeleland North;Siabuwa
+23304;30.0059,-19.6702;ZW-02;Midlands Province;Shurugwi
+0;29.3667,-21.9667;ZW-07;Matabeleland South Province;Shoteli
+0;27.7089,-21.0955;ZW-07;Matabeleland South Province;Sheleni
+0;27.2833,-20.2167;ZW-07;Matabeleland South Province;Shawila
+3835;29.3667,-19.7833;ZW-02;Midlands Province;Shangani
+10317;31.5756,-17.3116;ZW-03;Mashonaland Central;Shamva
+0;27.7667,-20.0500;ZW-06;Matabeleland North;Shaba
+0;27.5139,-19.1866;ZW-06;Matabeleland North;Sewela
+0;30.6667,-22.1333;ZW-07;Matabeleland South Province;Setana
+0;29.7500,-19.5000;ZW-02;Midlands Province;Senka
+0;27.1926,-19.4846;ZW-06;Matabeleland North;Semawuru
+0;30.4436,-18.0690;ZW-05;Mashonaland West;Selous
+0;31.1000,-18.0167;ZW-10;Harare;Seki Township
+0;31.1000,-18.0333;ZW-10;Harare;Seki African Township
+0;31.1667,-18.1000;ZW-04;Mashonaland East Province;Seki
+0;28.0464,-19.5818;ZW-06;Matabeleland North;Sawmills
+0;30.2667,-20.9667;ZW-02;Midlands Province;Sawa Sawa
+0;32.5997,-18.3612;ZW-01;Manicaland;Sanyatwe
+0;31.6804,-22.0694;ZW;;Sango
+0;27.3845,-19.6718;ZW-06;Matabeleland North;Sandawana
+0;27.0535,-19.5436;ZW-06;Matabeleland North;Salankomo
+0;29.4167,-18.4833;ZW-02;Midlands Province;Salagushle
+0;32.6431,-18.9857;ZW-01;Manicaland;Sakubva
+0;31.0667,-17.9833;ZW-10;Harare;Saint Marys
+0;27.1076,-19.6340;ZW-06;Matabeleland North;Sahlupeka
+0;31.2833,-18.9000;ZW-04;Mashonaland East Province;Sadza
+0;28.9653,-20.9194;ZW-07;Matabeleland South Province;Sablevale
+0;27.1333,-18.0167;ZW-06;Matabeleland North;Saba
+94083;31.2447,-17.8897;ZW-04;Mashonaland East Province;Ruwa
+0;30.7277,-21.2344;ZW-08;Masvingo Province;Rutenga
+37906;32.1284,-18.5279;ZW-01;Manicaland;Rusape
+0;32.3994,-20.3601;ZW-01;Manicaland;Rupise
+0;30.6667,-19.7333;ZW-02;Midlands Province;Rupepwe
+0;32.6167,-19.1667;ZW-01;Manicaland;Rowa
+0;29.5667,-19.3667;ZW-02;Midlands Province;Rosmalind
+0;31.1333,-18.3167;ZW-04;Mashonaland East Province;Rocky Spruit
+0;29.8833,-18.3500;ZW-05;Mashonaland West;Rimuka
+41526;29.7833,-19.0333;ZW-02;Midlands Province;Redcliff
+1957;30.4333,-17.0333;ZW-05;Mashonaland West;Raffingora
+0;28.7383,-19.8101;ZW-06;Matabeleland North;Queens Mine
+0;27.4430,-19.2625;ZW-06;Matabeleland North;Qedajaha
+0;28.4733,-20.1444;ZW-09;Bulawayo;Pumula
+0;27.1241,-19.6172;ZW-06;Matabeleland North;Pumula
+0;27.5361,-19.3361;ZW-06;Matabeleland North;Pumula
+0;31.0333,-17.3333;ZW-03;Mashonaland Central;Protea
+0;31.4000,-18.1833;ZW-04;Mashonaland East Province;Poomula
+0;27.6671,-19.5805;ZW-06;Matabeleland North;Pondo
+14460;27.8167,-20.4833;ZW-07;Matabeleland South Province;Plumtree
+0;30.1333,-18.1333;ZW-05;Mashonaland West;Pfupajena
+7681;32.6978,-18.8911;ZW-01;Manicaland;Penhalonga
+0;28.3333,-20.2333;ZW-06;Matabeleland North;Pendennis
+0;27.2667,-19.9333;ZW-07;Matabeleland South Province;Pembe
+0;26.9167,-19.5333;ZW-06;Matabeleland North;Pelendaba
+0;27.1575,-19.6476;ZW-06;Matabeleland North;Pelela
+0;30.9500,-17.6333;ZW-03;Mashonaland Central;Pearson Settlement
+0;27.0513,-19.6421;ZW-06;Matabeleland North;Patalika
+0;27.4092,-18.2128;ZW-06;Matabeleland North;Pashu
+0;29.7086,-20.4272;ZW-07;Matabeleland South Province;Pambuka
+0;28.5500,-19.0167;ZW-06;Matabeleland North;Pakana
+3438;32.4056,-18.9617;ZW-01;Manicaland;Odzi
+0;31.7822,-16.7335;ZW-03;Mashonaland Central;Nykasikana
+2110;32.1680,-18.7059;ZW-01;Manicaland;Nyazura
+0;32.4167,-19.7667;ZW-01;Manicaland;Nyanyadzi
+0;30.5833,-18.3167;ZW-05;Mashonaland West;Nyangwene
+0;27.1535,-19.4971;ZW-06;Matabeleland North;Nyanganyuni
+4852;32.7500,-18.2167;ZW-01;Manicaland;Nyanga
+0;32.9833,-17.3667;ZW-01;Manicaland;Nyandoros
+0;32.3394,-17.0981;ZW-04;Mashonaland East Province;Nyamkoho Township
+0;32.8667,-16.9667;ZW;;Nyamapande
+0;28.2703,-19.8579;ZW-06;Matabeleland North;Nyamandhlovu
+0;27.7833,-19.8500;ZW-06;Matabeleland North;Nyakatha
+0;27.0743,-19.4976;ZW-06;Matabeleland North;Nyadzi
+0;30.8000,-17.6667;ZW-05;Mashonaland West;Nyabira
+0;27.4092,-19.2951;ZW-06;Matabeleland North;Nxabamude
+0;27.6311,-19.2708;ZW-06;Matabeleland North;Ntumbuwamai
+0;27.5024,-19.3235;ZW-06;Matabeleland North;Ntulula
+0;27.2732,-19.3964;ZW-06;Matabeleland North;Ntakwa
+0;28.8333,-20.0117;ZW-06;Matabeleland North;Ntabazinduna
+0;29.6000,-19.3833;ZW-02;Midlands Province;Nsukumini
+0;28.3833,-20.6000;ZW-07;Matabeleland South Province;Npuma
+87039;30.7000,-17.8833;ZW-05;Mashonaland West;Norton
+0;27.7466,-19.5474;ZW-06;Matabeleland North;Nkwizhu
+0;27.2649,-19.4375;ZW-06;Matabeleland North;Nkosikazi
+0;28.8983,-18.9992;ZW-06;Matabeleland North;Nkayi
+0;30.5167,-17.3167;ZW-05;Mashonaland West;Nkarakati
+0;27.3620,-19.4692;ZW-06;Matabeleland North;Nizhou
+0;27.1000,-19.5333;ZW-06;Matabeleland North;Nintili
+0;27.1941,-19.4639;ZW-06;Matabeleland North;Ningombenonzi
+0;27.1628,-19.5453;ZW-06;Matabeleland North;Ningombeneshango
+0;30.8020,-20.7937;ZW-08;Masvingo Province;Ngundu Halt
+0;27.0833,-19.7000;ZW-06;Matabeleland North;Ngulalikashi
+0;30.7333,-20.4333;ZW-08;Masvingo Province;Ngomahuru
+0;27.5177,-19.6027;ZW-06;Matabeleland North;Ngoma
+0;27.5093,-19.6864;ZW-06;Matabeleland North;Ngoku
+0;28.4667,-19.3500;ZW-06;Matabeleland North;Ngiki
+0;30.4147,-20.5675;ZW-02;Midlands Province;Ngezi
+0;29.8667,-18.3833;ZW-05;Mashonaland West;Ngesi
+0;29.9000,-18.1000;ZW-05;Mashonaland West;Newbiggin
+0;30.5333,-18.5333;ZW-05;Mashonaland West;Neuso Business Centre
+0;28.2667,-17.4500;ZW-02;Midlands Province;Nenyuka
+0;29.0167,-17.6833;ZW-02;Midlands Province;Nembudzia
+0;27.7063,-19.6589;ZW-06;Matabeleland North;Nembe
+0;27.4833,-20.1000;ZW-07;Matabeleland South Province;Ndolwane
+0;27.3333,-19.9500;ZW-07;Matabeleland South Province;Ndolwane
+0;31.3250,-20.1773;ZW-08;Masvingo Province;Ndanga
+0;28.4000,-17.0833;ZW-05;Mashonaland West;Nbira
+0;31.1633,-19.0724;ZW-04;Mashonaland East Province;Nharira
+0;27.6000,-20.1667;ZW-07;Matabeleland South Province;Napemando
+0;31.7333,-20.9667;ZW-08;Masvingo Province;Nandi Mill
+0;27.2492,-19.5038;ZW-06;Matabeleland North;Nakabindana
+0;27.1426,-19.5786;ZW-06;Matabeleland North;Mzilikazi
+0;27.0523,-19.4892;ZW-06;Matabeleland North;Mzenzi
+0;30.7248,-21.4193;ZW-08;Masvingo Province;Mwenezi
+0;29.7769,-16.6676;ZW-05;Mashonaland West;Mwami
+15646;30.8500,-17.0333;ZW-03;Mashonaland Central;Mvurwi
+4331;30.5283,-19.2792;ZW-02;Midlands Province;Mvuma
+0;27.7883,-19.7889;ZW-06;Matabeleland North;Vundlana
+0;30.6667,-17.1500;ZW-05;Mashonaland West;Mutorashanga
+12336;32.2268,-17.3970;ZW-04;Mashonaland East Province;Mutoko
+0;31.3224,-16.9454;ZW-03;Mashonaland Central;Mutepatepa
+224802;32.6709,-18.9707;ZW-01;Manicaland;Mutare
+0;32.6563,-19.5530;ZW-01;Manicaland;Mutambara
+0;30.7133,-18.3949;ZW-05;Mashonaland West;Musonza
+0;31.0667,-17.2667;ZW-03;Mashonaland Central;Muri Pumbi
+11750;31.7840,-17.6432;ZW-04;Mashonaland East Province;Murewa
+0;29.7846,-18.6578;ZW-02;Midlands Province;Sanyati
+0;30.0500,-20.6167;ZW-02;Midlands Province;Munene
+0;30.8167,-20.0833;ZW-08;Masvingo Province;Mucheke Township
+0;30.6000,-18.3167;ZW-05;Mashonaland West;Mubayira Township Reserve
+0;30.5929,-18.3147;ZW-05;Mashonaland West;Mubayira
+0;27.4167,-19.9667;ZW-07;Matabeleland South Province;Mtsuli
+0;27.3361,-19.3056;ZW-06;Matabeleland North;Mtshayeli
+0;27.5229,-18.9486;ZW-06;Matabeleland North;Mtawalos
+0;27.3628,-19.4902;ZW-06;Matabeleland North;Mtampane
+0;30.9000,-17.1333;ZW-03;Mashonaland Central;Msonedi
+0;29.4167,-16.9000;ZW-05;Mashonaland West;Mrazor
+0;27.6471,-19.1174;ZW-06;Matabeleland North;Mpinjwana
+0;26.9667,-19.6667;ZW-06;Matabeleland North;Mpilo
+0;27.8500,-21.2000;ZW-07;Matabeleland South Province;Mphoengs
+0;28.4000,-20.6167;ZW-07;Matabeleland South Province;Mpate
+0;27.6081,-19.4863;ZW-06;Matabeleland North;Moyeni
+0;27.4528,-19.4875;ZW-06;Matabeleland North;Monema
+6349;31.5838,-16.7725;ZW-03;Mashonaland Central;Mount Darwin
+0;29.8833,-16.7333;ZW-05;Mashonaland West;Mormon Hill
+0;27.6844,-19.6255;ZW-06;Matabeleland North;Mkubazi
+0;27.7240,-19.6264;ZW-06;Matabeleland North;Mkombo
+0;29.7667,-19.4667;ZW-02;Midlands Province;Mkoba
+0;29.7500,-19.4667;ZW-02;Midlands Province;Mkoba
+0;27.6663,-19.2791;ZW-06;Matabeleland North;Mketwa
+0;27.0724,-19.5632;ZW-06;Matabeleland North;Mkauzaan
+0;32.2724,-20.6602;ZW-01;Manicaland;Makaza
+0;27.7047,-19.2080;ZW-06;Matabeleland North;Mjumi
+0;28.3372,-20.2048;ZW-06;Matabeleland North;Millievale
+0;29.9167,-18.1333;ZW-05;Mashonaland West;Milan
+6503;30.1683,-16.8939;ZW-05;Mashonaland West;Mhangura
+0;27.3072,-19.7544;ZW-06;Matabeleland North;Mgodi Masili
+0;31.7167,-16.9333;ZW-03;Mashonaland Central;Mgadzi
+0;29.9333,-18.1000;ZW-05;Mashonaland West;Melton
+0;32.6482,-19.5305;ZW-01;Manicaland;Melsetter Junction
+0;27.6090,-19.3363;ZW-06;Matabeleland North;Mcetshwa
+0;28.0262,-18.4071;ZW-02;Midlands Province;Mbungu Settlement
+0;29.8498,-18.9051;ZW-02;Midlands Province;Mbizo African Township
+0;28.8667,-21.5167;ZW-07;Matabeleland South Province;Mbizo
+0;27.5147,-19.2108;ZW-06;Matabeleland North;Mbizo I
+0;31.0143,-21.3859;ZW-08;Masvingo Province;Mbizi
+0;27.2571,-19.6649;ZW-06;Matabeleland North;Mbiriya
+0;29.9085,-20.4772;ZW-02;Midlands Province;Mberengwa
+0;27.6549,-19.3286;ZW-06;Matabeleland North;Mbanyana
+0;27.7794,-19.9133;ZW-06;Matabeleland North;Mbamba
+0;29.0482,-20.4410;ZW-07;Matabeleland South Province;Mbalabala
+0;29.8667,-21.7333;ZW-07;Matabeleland South Province;Mazunga
+9966;30.9739,-17.5040;ZW-03;Mashonaland Central;Mazowe
+0;27.1611,-19.4074;ZW-06;Matabeleland North;Mazilingana
+0;27.3203,-19.4693;ZW-06;Matabeleland North;Mazibulala
+0;27.6333,-19.3333;ZW-06;Matabeleland North;Mazanzi
+0;27.6545,-19.6984;ZW-06;Matabeleland North;Mazabisa
+0;27.1667,-18.6167;ZW-06;Matabeleland North;Mavele
+0;27.7059,-19.4219;ZW-06;Matabeleland North;Chief Matapula
+0;30.6980,-18.1779;ZW-05;Mashonaland West;Matswaire
+0;27.6098,-19.7676;ZW-06;Matabeleland North;Matswaheni
+0;28.6333,-20.1833;ZW-09;Bulawayo;Matsheumhlope Lots
+0;28.4778,-20.4089;ZW-07;Matabeleland South Province;Matopos
+0;27.8500,-20.6000;ZW-07;Matabeleland South Province;Matole
+0;27.5488,-19.6445;ZW-06;Matabeleland North;Matole
+0;27.4000,-19.9667;ZW-07;Matabeleland South Province;Matiwaza
+0;27.9833,-17.4833;ZW-06;Matabeleland North;Matinka
+0;31.3167,-21.6833;ZW-08;Masvingo Province;Matibis
+0;30.6500,-22.0833;ZW-07;Matabeleland South Province;Matibi
+0;27.6295,-19.3476;ZW-06;Matabeleland North;Matemawule
+0;27.4736,-19.4582;ZW-06;Matabeleland North;Matemaganyu
+0;30.2000,-20.8451;ZW-02;Midlands Province;Mataka
+0;27.5080,-19.2978;ZW-06;Matabeleland North;Mazwi
+90286;30.8277,-20.0637;ZW-08;Masvingo Province;Masvingo
+0;29.4000,-21.8500;ZW-07;Matabeleland South Province;Masole
+0;27.3877,-19.3414;ZW-06;Matabeleland North;Mashula
+12994;30.4823,-20.0367;ZW-08;Masvingo Province;Mashava
+0;28.8000,-17.0667;ZW-05;Mashonaland West;Mashami
+0;28.9333,-21.6500;ZW-07;Matabeleland South Province;Mashaba
+0;30.4833,-17.6500;ZW-05;Mashonaland West;Maryland Junction
+0;31.0500,-18.5667;ZW-04;Mashonaland East Province;Marshbrook
+0;31.5333,-16.2333;ZW-03;Mashonaland Central;Marongwe
+66204;31.5519,-18.1853;ZW-04;Mashonaland East Province;Marondera
+0;29.3667,-22.0167;ZW-07;Matabeleland South Province;Maramani
+0;27.7463,-19.6730;ZW-06;Matabeleland North;Mapulubusi
+0;28.0833,-21.5000;ZW-07;Matabeleland South Province;Mapolisa
+0;27.7167,-19.4167;ZW-06;Matabeleland North;Mapili
+0;27.4296,-19.3636;ZW-06;Matabeleland North;Mapengula
+0;27.8088,-19.7603;ZW-06;Matabeleland North;Manzamahle
+0;27.6426,-19.4267;ZW-06;Matabeleland North;Manzamahle
+0;29.9833,-16.5167;ZW-05;Mashonaland West;Manyati
+0;27.2881,-19.4828;ZW-06;Matabeleland North;Manondweni
+0;27.5560,-19.4780;ZW-06;Matabeleland North;Mankonekazi
+0;27.3710,-19.2676;ZW-06;Matabeleland North;Manjelengwa
+0;31.3500,-18.3833;ZW-04;Mashonaland East Province;Mangwendi
+0;28.0667,-20.7000;ZW-07;Matabeleland South Province;Mangwe
+0;27.6952,-19.1746;ZW-06;Matabeleland North;Mangwatu
+0;27.3367,-19.4117;ZW-06;Matabeleland North;Manguta
+0;30.3667,-20.1167;ZW-08;Masvingo Province;Mandamambwe
+0;27.8349,-19.8077;ZW-06;Matabeleland North;Mananzwa
+0;26.9833,-19.3667;ZW-06;Matabeleland North;Manala
+0;30.6833,-18.3000;ZW-05;Mashonaland West;Malube
+0;27.6308,-19.3023;ZW-06;Matabeleland North;Maloba
+0;27.6557,-19.5176;ZW-06;Matabeleland North;Malindi
+0;27.6780,-19.1896;ZW-06;Matabeleland North;Malila
+0;32.2500,-20.3833;ZW-08;Masvingo Province;Malhera
+0;31.4167,-22.0667;ZW-08;Masvingo Province;Malapati
+0;27.6333,-19.8333;ZW-06;Matabeleland North;Malanda
+0;30.4333,-17.9667;ZW-05;Mashonaland West;Makwiro
+0;27.2333,-19.9333;ZW-07;Matabeleland South Province;Makvlela
+0;29.2519,-16.3165;ZW-05;Mashonaland West;Makuti
+0;27.6103,-19.7279;ZW-06;Matabeleland North;Makulukusa
+0;32.7167,-17.2167;ZW-04;Mashonaland East Province;Makose
+0;32.4735,-17.2724;ZW-04;Mashonaland East Province;Makosa Township
+0;31.9833,-18.7167;ZW-01;Manicaland;Makonis
+0;27.6702,-19.4618;ZW-06;Matabeleland North;Mako
+0;27.7000,-20.1500;ZW-07;Matabeleland South Province;Makhaza
+0;27.6500,-19.9333;ZW-06;Matabeleland North;Makhaza
+0;32.6167,-17.2833;ZW-04;Mashonaland East Province;Makaha
+0;29.5833,-21.9667;ZW-07;Matabeleland South Province;Makado
+0;27.5000,-19.4333;ZW-06;Matabeleland North;Majabani
+0;27.4667,-19.3833;ZW-06;Matabeleland North;Majabane
+0;31.2000,-18.3167;ZW-04;Mashonaland East Province;Mahusekwa Township
+0;31.1983,-18.3040;ZW-04;Mashonaland East Province;Mahusekwa
+0;27.6672,-19.3895;ZW-06;Matabeleland North;Mahlosi
+0;27.0124,-19.3458;ZW-06;Matabeleland North;Mahlalayedwa
+0;29.4145,-16.8341;ZW-05;Mashonaland West;Magunje
+0;28.5333,-19.0167;ZW-06;Matabeleland North;Magazi
+0;32.7667,-16.7167;ZW-04;Mashonaland East Province;Mafuto
+0;27.6149,-19.8783;ZW-06;Matabeleland North;Mafusini
+0;28.4000,-19.4000;ZW-06;Matabeleland North;Mafayfa
+527;31.5333,-16.9167;ZW-03;Mashonaland Central;Madziwa
+0;27.3833,-19.8500;ZW-07;Matabeleland South Province;Madubus
+0;29.3667,-21.9167;ZW-07;Matabeleland South Province;Madonga
+0;27.7680,-19.7410;ZW-06;Matabeleland North;Madona
+0;32.7667,-17.8167;ZW-01;Manicaland;Madioma
+0;29.7500,-16.9000;ZW-05;Mashonaland West;Madadzi
+0;31.1833,-16.5167;ZW-03;Mashonaland Central;Maclear
+0;30.4000,-17.7667;ZW-05;Mashonaland West;Machiroli
+0;28.9333,-17.3333;ZW-02;Midlands Province;Machihiri
+0;31.5833,-21.4667;ZW-08;Masvingo Province;Machendu
+3642;31.8493,-18.1390;ZW-04;Mashonaland East Province;Macheke
+0;29.3500,-21.8500;ZW-07;Matabeleland South Province;Machachuta
+0;27.4249,-19.6561;ZW-06;Matabeleland North;Mabele
+0;28.7167,-19.0833;ZW-06;Matabeleland North;Mabaye
+0;27.4167,-19.8500;ZW-07;Matabeleland South Province;Mabalanas
+0;28.5000,-20.1000;ZW-09;Bulawayo;Luveve
+0;28.6000,-19.0333;ZW-06;Matabeleland North;Lutsha
+0;30.1500,-22.0833;ZW-07;Matabeleland South Province;Lutombe
+0;27.8348,-18.0638;ZW-06;Matabeleland North;Lusulu
+0;27.2382,-19.4827;ZW-06;Matabeleland North;Lupondo
+0;27.7916,-19.7460;ZW-06;Matabeleland North;Lupindi
+2211;27.8070,-18.9315;ZW-06;Matabeleland North;Lupane
+0;32.6500,-20.3167;ZW-01;Manicaland;Luipaards Vlei
+0;27.7519,-19.5177;ZW-06;Matabeleland North;Luhonja
+0;27.7333,-19.5000;ZW-06;Matabeleland North;Lucu
+0;27.1933,-19.6211;ZW-06;Matabeleland North;Lubesi
+0;29.2500,-19.2333;ZW-02;Midlands Province;Lower Gwelo
+0;28.7470,-19.5017;ZW-06;Matabeleland North;Lonely Mine
+0;30.0333,-17.2667;ZW-05;Mashonaland West;Lions Den
+0;31.0500,-17.2833;ZW-03;Mashonaland Central;Limbeck
+0;28.5333,-21.4167;ZW-07;Matabeleland South Province;Legion
+0;29.2970,-20.2177;ZW-07;Matabeleland South Province;Lancaster
+1390;30.1777,-19.3322;ZW-02;Midlands Province;Lalapanzi
+119863;29.8149,-18.9281;ZW-02;Midlands Province;Kwekwe
+0;31.9667,-16.7000;ZW-03;Mashonaland Central;Kudjwara
+0;31.8882,-19.7946;ZW-08;Masvingo Province;Kubiku
+0;26.9167,-19.3833;ZW-06;Matabeleland North;Korodziba
+0;30.5338,-20.0885;ZW-08;Masvingo Province;King Mine
+0;28.4709,-20.9113;ZW-07;Matabeleland South Province;Kezi
+0;29.6167,-19.2833;ZW-02;Midlands Province;Keynshamburg
+0;28.9500,-19.4333;ZW-06;Matabeleland North;Kenilworth Estates
+0;29.8721,-16.5289;ZW-05;Mashonaland West;Kazangarare
+0;27.6500,-19.8500;ZW-06;Matabeleland North;Kayisa
+0;30.1667,-17.4167;ZW-05;Mashonaland West;Kawahove
+37564;29.6925,-16.8099;ZW-05;Mashonaland West;Karoi
+0;31.5841,-16.5639;ZW-03;Mashonaland Central;Karoyi
+0;27.5000,-17.9667;ZW-06;Matabeleland North;Kariyangwe
+27600;28.8000,-16.5167;ZW-05;Mashonaland West;Kariba
+0;28.4000,-17.1000;ZW-05;Mashonaland West;Kapoka
+0;32.1000,-21.6333;ZW-08;Masvingo Province;Kapateni
+0;27.5186,-19.2511;ZW-06;Matabeleland North;Kapane
+0;29.2000,-17.1333;ZW-05;Mashonaland West;Kanyonga Camp
+0;30.3167,-15.7000;ZW-03;Mashonaland Central;Kanyemba
+0;27.7667,-20.2167;ZW-07;Matabeleland South Province;Kandana
+1575;27.0573,-18.3156;ZW-06;Matabeleland North;Kamativi Mine
+0;27.4649,-18.9012;ZW-06;Matabeleland North;Kalugus
+0;27.3382,-19.6698;ZW-06;Matabeleland North;Kalane
+117381;29.9153,-18.3333;ZW-05;Mashonaland West;Kadoma
+0;27.4463,-18.8664;ZW-06;Matabeleland North;Kadelas
+0;32.7970,-20.1589;ZW-01;Manicaland;Junction Gate
+0;30.9167,-17.4667;ZW-03;Mashonaland Central;Jumbo
+0;32.6608,-18.3582;ZW-01;Manicaland;Juliasdale
+0;27.5865,-19.5886;ZW-06;Matabeleland North;Jowa
+0;27.4283,-18.9572;ZW-06;Matabeleland North;Jojos
+0;27.9667,-19.1000;ZW-06;Matabeleland North;Jissi
+0;31.1000,-18.2667;ZW-04;Mashonaland East Province;Jirira
+0;27.7406,-19.4897;ZW-06;Matabeleland North;Jimila
+0;27.4460,-19.2840;ZW-06;Matabeleland North;Janiza
+0;27.3000,-17.9000;ZW-06;Matabeleland North;James
+0;27.3846,-19.7693;ZW-06;Matabeleland North;Jolume
+0;27.5547,-19.2523;ZW-06;Matabeleland North;Jakalazi
+0;32.6000,-20.3667;ZW-01;Manicaland;Ivorie
+0;32.5833,-18.9333;ZW-01;Manicaland;Irene
+8402;28.8469,-19.6756;ZW-06;Matabeleland North;Inyati
+2645;29.2000,-19.7833;ZW-07;Matabeleland South Province;Insiza
+0;31.5167,-18.4667;ZW-04;Mashonaland East Province;Inoro
+0;27.0745,-19.4735;ZW-06;Matabeleland North;Ingwe
+0;27.7167,-17.6167;ZW-06;Matabeleland North;Impampa
+0;27.6500,-20.1167;ZW-07;Matabeleland South Province;Ilunkubo
+39750;26.4988,-18.3645;ZW-06;Matabeleland North;Hwange
+0;29.2000,-21.7000;ZW-07;Matabeleland South Province;Hwali
+0;28.7667,-19.7667;ZW-06;Matabeleland North;Hunts Road Halt
+0;29.8000,-19.1500;ZW-02;Midlands Province;Hunters Road
+0;32.0448,-17.5910;ZW-04;Mashonaland East Province;Hoyuyu
+0;31.0000,-17.2333;ZW-03;Mashonaland Central;Howard Institute
+0;32.4667,-19.6500;ZW-01;Manicaland;Hot Springs
+0;27.4000,-19.8333;ZW-07;Matabeleland South Province;Hlananisas
+0;31.5500,-21.1667;ZW-08;Masvingo Province;Hippo Valley
+0;27.3000,-20.1500;ZW-07;Matabeleland South Province;Hingwe
+0;27.6524,-19.8012;ZW-06;Matabeleland North;Hewu
+0;28.7753,-20.0784;ZW-06;Matabeleland North;Nkulumane Junction
+1728;32.0515,-18.2773;ZW-01;Manicaland;Headlands
+1542813;31.0534,-17.8277;ZW-10;Harare;Harare
+0;27.5318,-19.5048;ZW-06;Matabeleland North;Hangapu
+0;31.1000,-17.3667;ZW-03;Mashonaland Central;Hamilton
+0;28.4167,-20.6833;ZW-07;Matabeleland South Province;Halale
+0;27.2517,-19.4424;ZW-06;Matabeleland North;Gxobonolo
+0;27.7077,-19.9349;ZW-06;Matabeleland North;Gwese
+158200;29.8167,-19.4500;ZW-02;Midlands Province;Gweru
+0;27.4081,-19.2496;ZW-06;Matabeleland North;Gwembgwa
+0;28.7245,-18.6572;ZW-06;Matabeleland North;Gwelutshena
+0;31.0833,-17.6833;ZW-03;Mashonaland Central;Gwangwari
+26700;29.0070,-20.9362;ZW-07;Matabeleland South Province;Gwanda
+0;27.6500,-19.2833;ZW-06;Matabeleland North;Gwaai
+0;31.1517,-19.6445;ZW-08;Masvingo Province;Gutu
+0;27.0630,-19.7016;ZW-06;Matabeleland North;Gulalikabili
+0;29.9333,-19.5333;ZW-02;Midlands Province;Guinea Fowl
+0;31.0536,-17.7683;ZW-10;Harare;Groombridge
+0;29.4921,-20.1180;ZW-07;Matabeleland South Province;Greystone
+0;31.3793,-17.8547;ZW-04;Mashonaland East Province;Goromonzi
+0;28.9000,-17.8500;ZW-02;Midlands Province;Gorodema
+33073;28.9349,-18.2048;ZW-02;Midlands Province;Gokwe
+0;31.0833,-20.1667;ZW-08;Masvingo Province;Glenlivet
+0;29.8500,-18.1167;ZW-05;Mashonaland West;Glenearn
+9798;31.0672,-17.3551;ZW-03;Mashonaland Central;Glendale
+0;31.4260,-19.9708;ZW-08;Masvingo Province;GlenClova
+0;26.9667,-19.4000;ZW-06;Matabeleland North;Gibixegu
+0;29.9167,-18.2000;ZW-05;Mashonaland West;Georgia
+0;27.6667,-20.1000;ZW-07;Matabeleland South Province;Gempo
+0;30.5063,-20.0127;ZW-08;Masvingo Province;Gaths Mine
+0;28.4233,-18.8135;ZW-06;Matabeleland North;Gampagalale
+0;29.6000,-18.1333;ZW-05;Mashonaland West;Gambisa
+0;30.1597,-18.0422;ZW-05;Mashonaland West;Gadzema
+0;27.5968,-19.1727;ZW-06;Matabeleland North;Funda
+0;27.5524,-19.2032;ZW-06;Matabeleland North;Fumabatshena
+0;29.3116,-20.5075;ZW-07;Matabeleland South Province;Fred Mine
+0;28.5899,-20.4137;ZW-07;Matabeleland South Province;Fort Usher
+0;29.2628,-20.0110;ZW-07;Matabeleland South Province;Fort Rixon
+0;32.9833,-17.3333;ZW-01;Manicaland;Fombe
+0;27.1656,-19.5910;ZW-06;Matabeleland North;Folosi
+0;32.0333,-21.4333;ZW-08;Masvingo Province;Fishan
+0;27.4246,-18.8872;ZW-06;Matabeleland North;Filimons
+1756;29.2850,-20.5333;ZW-07;Matabeleland South Province;Filabusi
+0;28.3257,-20.3686;ZW-07;Matabeleland South Province;Figtree
+0;30.7833,-19.4833;ZW-08;Masvingo Province;Felixburg
+0;30.8418,-19.4301;ZW-08;Masvingo Province;Felixburg
+0;30.8334,-18.7105;ZW-04;Mashonaland East Province;Featherstone
+0;27.0299,-19.4037;ZW-06;Matabeleland North;Ezanquweni
+0;27.4021,-19.4274;ZW-06;Matabeleland North;Esinangeni
+2228;28.9226,-20.2898;ZW-07;Matabeleland South Province;Esigodini
+0;28.8917,-20.3971;ZW-07;Matabeleland South Province;Esibomvu
+0;27.4767,-19.7022;ZW-06;Matabeleland North;Ensedhlwini
+0;27.8777,-19.8434;ZW-06;Matabeleland North;Enhlangano
+0;27.5393,-19.2026;ZW-06;Matabeleland North;Emvana
+0;29.4427,-18.4577;ZW-02;Midlands Province;Empress Mine
+0;27.1415,-19.5244;ZW-06;Matabeleland North;Empisini
+0;27.5961,-19.7090;ZW-06;Matabeleland North;Empafeni
+0;27.5719,-19.6594;ZW-06;Matabeleland North;Emkayeni
+0;27.5894,-19.2400;ZW-06;Matabeleland North;Emgolweni
+0;27.0660,-19.3936;ZW-06;Matabeleland North;Ematetshaneni
+0;27.1294,-19.3965;ZW-06;Matabeleland North;Emafengwini
+0;27.0210,-19.3705;ZW-06;Matabeleland North;Emanaleni
+0;30.2333,-17.3500;ZW-05;Mashonaland West;Eldorado
+0;27.0382,-19.4680;ZW-06;Matabeleland North;Elangeni
+0;29.9934,-18.2886;ZW-05;Mashonaland West;Eiffel Flats
+0;27.7179,-19.8386;ZW-06;Matabeleland North;Ehampeni
+0;27.0417,-19.6070;ZW-06;Matabeleland North;Egomeni
+0;27.0540,-19.3708;ZW-06;Matabeleland North;Egagwini
+0;27.6850,-19.8145;ZW-06;Matabeleland North;Ebizeni
+0;27.1322,-19.5617;ZW-06;Matabeleland North;Ebabeni
+0;28.5638,-19.4881;ZW-06;Matabeleland North;Eastnor
+0;32.7333,-20.3167;ZW-01;Manicaland;Dzorora
+0;28.4144,-20.1815;ZW-06;Matabeleland North;Dunkirk
+0;30.2167,-18.3000;ZW-05;Mashonaland West;Duchess Hill
+1676;31.7500,-19.0667;ZW-01;Manicaland;Dorowa Mining Lease
+0;31.1363,-17.6013;ZW-04;Mashonaland East Province;Domboshawa
+0;27.7588,-19.7062;ZW-06;Matabeleland North;Dombo
+0;30.2333,-16.7500;ZW-05;Mashonaland West;Doma
+0;30.7000,-16.9167;ZW-03;Mashonaland Central;Disi
+0;27.0813,-19.6384;ZW-06;Matabeleland North;Dingandawo
+0;27.3990,-19.4938;ZW-06;Matabeleland North;Dhlamini
+0;27.4894,-19.5127;ZW-06;Matabeleland North;Dhlakaniya
+2993;26.8667,-18.6167;ZW-06;Matabeleland North;Dete
+0;31.2184,-18.0667;ZW-04;Mashonaland East Province;Dema
+0;30.5500,-17.7167;ZW-05;Mashonaland West;Darwendale
+0;32.5833,-19.0000;ZW-01;Manicaland;Dangamvura
+0;29.5000,-19.7167;ZW-02;Midlands Province;Daisyfield
+0;27.1667,-18.6167;ZW-06;Matabeleland North;Dahlia
+0;28.6720,-18.7901;ZW-06;Matabeleland North;Dagamela
+0;28.4500,-19.4000;ZW-06;Matabeleland North;Dabula
+0;29.3381,-20.5593;ZW-07;Matabeleland South Province;Croft Mine
+0;32.4833,-20.4333;ZW-01;Manicaland;Craigmore
+0;31.0333,-17.3167;ZW-03;Mashonaland Central;Craigengower
+0;29.8167,-19.2000;ZW-02;Midlands Province;Connemara
+0;28.3703,-20.2242;ZW-06;Matabeleland North;Connemara
+4983;30.9500,-17.3833;ZW-03;Mashonaland Central;Concession
+0;29.2167,-21.0000;ZW-07;Matabeleland South Province;Colleen Bawn
+0;30.8000,-20.0500;ZW-08;Masvingo Province;Clovelly
+0;31.4000,-18.1833;ZW-04;Mashonaland East Province;Chomwedzi
+0;29.3000,-16.9500;ZW-05;Mashonaland West;Chiwakanyama
+12958;30.8922,-19.0211;ZW-04;Mashonaland East Province;Chivhu
+0;30.5667,-18.2667;ZW-05;Mashonaland West;Chiva
+0;32.0674,-16.9300;ZW-04;Mashonaland East Province;Chief Chitsungo
+0;30.5333,-20.5500;ZW-08;Masvingo Province;Chitofa
+0;31.3167,-20.5500;ZW-08;Masvingo Province;Chiso
+1911;28.8500,-16.0333;ZW-05;Mashonaland West;Chirundu
+40100;31.6667,-21.0500;ZW-08;Masvingo Province;Chiredzi
+0;30.9333,-22.2333;ZW-07;Matabeleland South Province;Chipise
+34959;32.6236,-20.1883;ZW-01;Manicaland;Chipinge
+0;31.5833,-16.2000;ZW-03;Mashonaland Central;Chipimfwe
+90800;30.2000,-17.3667;ZW-05;Mashonaland West;Chinhoyi
+0;30.5000,-16.9500;ZW-05;Mashonaland West;Chinex
+0;32.9833,-17.4333;ZW-01;Manicaland;Chimsasa
+0;31.5167,-16.2500;ZW-03;Mashonaland Central;Chimbango
+2752;32.8667,-19.8000;ZW-01;Manicaland;Chimanimani
+0;30.7452,-19.5821;ZW-08;Masvingo Province;Chilimanzi
+0;32.4937,-20.4358;ZW-01;Manicaland;Chikore Mission
+0;30.0500,-19.9167;ZW-02;Midlands Province;Chikomo
+0;31.2500,-21.5833;ZW-08;Masvingo Province;Chikombu
+0;28.3312,-18.7906;ZW-06;Matabeleland North;Chief Sivalo
+0;27.0793,-19.5174;ZW-06;Matabeleland North;Chief Siposo
+0;27.5674,-17.9535;ZW-06;Matabeleland North;Chief Siansali
+0;27.9034,-17.5397;ZW-06;Matabeleland North;Chief Sinasenkwe
+0;28.1167,-17.1500;ZW-06;Matabeleland North;Chief Sinangatenkes Village
+0;27.9512,-17.4815;ZW-06;Matabeleland North;Chief Sinampande
+0;28.0721,-17.1949;ZW-06;Matabeleland North;Chief Simupa
+0;28.4937,-18.7576;ZW-06;Matabeleland North;Chief Sikobokobo
+0;28.3810,-18.1481;ZW-02;Midlands Province;Chief Sai
+0;27.1540,-18.0046;ZW-06;Matabeleland North;Chief Saba
+0;28.6697,-18.8002;ZW-06;Matabeleland North;Chief Myinga
+0;27.4865,-19.5842;ZW-06;Matabeleland North;Chief Mswigana
+0;27.6547,-19.3443;ZW-06;Matabeleland North;Chief Mahlaba
+0;28.8165,-18.7373;ZW-06;Matabeleland North;Chief Madliwa
+0;27.5441,-18.7080;ZW-06;Matabeleland North;Chief Mabikwa
+0;27.4500,-18.1167;ZW-06;Matabeleland North;Chief Dabola
+0;32.1024,-20.4078;ZW-08;Masvingo Province;Chichindwi Homestead
+0;32.3970,-20.5417;ZW-01;Manicaland;Chibunje
+0;30.5102,-20.3073;ZW-08;Masvingo Province;Chivi
+0;28.6000,-17.5500;ZW-02;Midlands Province;Chereya
+0;31.5628,-17.6869;ZW-04;Mashonaland East Province;Chemhondoro
+65800;30.1407,-18.1302;ZW-05;Mashonaland West;Chegutu
+0;30.8375,-19.6266;ZW-08;Masvingo Province;Chatsworth
+0;28.9518,-16.5498;ZW-05;Mashonaland West;Charara
+0;30.0667,-22.1167;ZW-07;Matabeleland South Province;Chamnanga
+6472;29.8925,-18.0629;ZW-05;Mashonaland West;Chakari
+0;30.6983,-18.4659;ZW-05;Mashonaland West;Chikara
+0;30.1667,-22.0167;ZW-07;Matabeleland South Province;Chafutchi
+0;30.6333,-22.1500;ZW-07;Matabeleland South Province;Chabili
+0;30.1667,-17.7667;ZW-05;Mashonaland West;Chababomera
+3388;31.1146,-16.7229;ZW-03;Mashonaland Central;Centenary
+0;28.6876,-20.1075;ZW-06;Matabeleland North;Cement
+0;27.0162,-19.6794;ZW-06;Matabeleland North;Cawunajena
+0;32.7833,-19.5500;ZW-01;Manicaland;Cashel
+0;27.2233,-19.7607;ZW-06;Matabeleland North;Butabubili
+0;28.9129,-20.2205;ZW-07;Matabeleland South Province;Bushtick
+0;28.3500,-16.8167;ZW-05;Mashonaland West;Bumi Hills
+665952;28.5833,-20.1500;ZW-09;Bulawayo;Bulawayo
+0;27.6248,-19.7981;ZW-06;Matabeleland North;Bulate
+0;31.4396,-19.3208;ZW-01;Manicaland;Buhera
+0;28.6667,-19.1500;ZW-06;Matabeleland North;Bubu
+0;31.3431,-18.0686;ZW-04;Mashonaland East Province;Bromley
+0;31.0333,-17.3833;ZW-03;Mashonaland Central;Brawlands
+0;31.4592,-17.0164;ZW-03;Mashonaland Central;Bradley Institute
+0;32.6167,-18.6500;ZW-01;Manicaland;Bonzo
+0;27.1570,-19.4613;ZW-06;Matabeleland North;Bonkwe
+0;27.3736,-19.3167;ZW-06;Matabeleland North;Bonke
+0;31.4833,-21.5333;ZW-08;Masvingo Province;Boli
+0;29.4500,-18.4500;ZW-02;Midlands Province;Blue Gum
+0;31.2833,-21.1500;ZW-08;Masvingo Province;Bivis
+0;32.3333,-19.9667;ZW-01;Manicaland;Birchenough Bridge
+4327;27.3414,-17.6203;ZW-06;Matabeleland North;Binga
+50400;31.3306,-17.3019;ZW-03;Mashonaland Central;Bindura
+0;31.6232,-20.0821;ZW-08;Masvingo Province;Bikita
+0;28.4333,-17.4167;ZW-02;Midlands Province;Bikeni Nyemba
+0;27.7667,-20.2000;ZW-07;Matabeleland South Province;Bezha
+0;32.5000,-20.3333;ZW-01;Manicaland;Beswota
+0;30.1000,-18.9833;ZW-02;Midlands Province;Bemthree
+0;28.9333,-20.0000;ZW-06;Matabeleland North;Bembezi
+0;27.2785,-19.4455;ZW-06;Matabeleland North;Bemba
+58574;30.0000,-22.2167;ZW-07;Matabeleland South Province;Beitbridge
+1647;30.8473,-18.2528;ZW-04;Mashonaland East Province;Beatrice
+0;27.6787,-19.1184;ZW-06;Matabeleland North;Bayi Bayi
+0;31.0333,-17.3667;ZW-03;Mashonaland Central;Bauhinia
+0;29.8333,-18.6000;ZW-05;Mashonaland West;Battlefields
+9845;30.4000,-17.3833;ZW-05;Mashonaland West;Banket
+0;27.6572,-19.3632;ZW-06;Matabeleland North;Bangamakuni
+0;27.9500,-20.1000;ZW-07;Matabeleland South Province;Balule
+0;32.6167,-20.3000;ZW-01;Manicaland;Babblespruit
+0;29.5333,-20.8000;ZW-07;Matabeleland South Province;Avoca
+0;31.3313,-17.7827;ZW-04;Mashonaland East Province;Arcturus
+0;29.0333,-20.9833;ZW-07;Matabeleland South Province;Antenior
+0;28.4500,-21.0500;ZW-07;Matabeleland South Province;Antelope Mine
+0;30.9500,-17.3667;ZW-03;Mashonaland Central;Amandas
+0;30.9553,-17.7356;ZW-05;Mashonaland West;Good Hope
+0;30.9153,-17.7353;ZW-05;Mashonaland West;Teneriffe
+0;31.0269,-17.7483;ZW-10;Harare;Strathmore
+0;31.0481,-17.7331;ZW-03;Mashonaland Central;Bothashof
+0;31.0917,-17.7492;ZW-10;Harare;Glenavon Est
+0;31.0933,-17.7450;ZW-10;Harare;Mon Abri
+0;31.1000,-17.7506;ZW-10;Harare;Mtendere
+0;31.1361,-17.7411;ZW-10;Harare;Wallace Block
+0;30.9367,-17.7536;ZW-05;Mashonaland West;Haydon
+0;30.9656,-17.7978;ZW-10;Harare;Stortford
+0;30.9158,-17.8383;ZW-10;Harare;Parkridge Estate
+0;30.9456,-17.8464;ZW-10;Harare;Crawborough
+0;31.0106,-17.7589;ZW-10;Harare;Zizalisari
+0;31.1025,-17.7569;ZW-10;Harare;Kingsmead
+0;31.0931,-17.7564;ZW-10;Harare;Dungarven
+0;31.1228,-17.8303;ZW-10;Harare;Bingley
+0;31.0517,-17.7525;ZW-10;Harare;Stubbington Park
+0;31.0419,-17.7567;ZW-10;Harare;Mount Pleasant Park
+0;31.0436,-17.7686;ZW-10;Harare;Comet Rise
+0;31.0475,-17.7681;ZW-10;Harare;Tudeley
+0;31.1411,-17.7981;ZW-10;Harare;Downlands Park
+0;30.9500,-17.8586;ZW-10;Harare;Salisbury Park
+0;30.9053,-17.8658;ZW-05;Mashonaland West;Gleneagles
+0;30.9297,-17.9325;ZW-05;Mashonaland West;Chulu
+0;30.9583,-17.9389;ZW-10;Harare;Barrington
+0;30.9775,-17.9442;ZW-10;Harare;Hartlands
+0;30.9744,-17.9336;ZW-10;Harare;Inkubusi
+0;31.1289,-17.8489;ZW-10;Harare;Lorelei
+0;31.1167,-17.8914;ZW-10;Harare;Dunowen
+0;31.0106,-17.9344;ZW-10;Harare;Derbyshire Township
+0;30.7289,-21.4239;ZW-08;Masvingo Province;Nuanetsi
+0;31.5708,-21.8153;ZW-08;Masvingo Province;Tswiza
+0;28.2564,-20.2400;ZW-07;Matabeleland South Province;Springfontein
+0;28.2694,-20.0511;ZW-06;Matabeleland North;Miasi
+0;28.4067,-20.0758;ZW-06;Matabeleland North;Kame
+0;28.4294,-20.0778;ZW-09;Bulawayo;Hyde Park
+0;28.4976,-20.1159;ZW-09;Bulawayo;Hyde Park Estate
+0;28.4750,-20.1033;ZW-09;Bulawayo;Hyde Park
+0;28.4989,-20.1083;ZW-09;Bulawayo;Gwabalanda
+0;28.4956,-20.1225;ZW-09;Bulawayo;Magwegwe North
+0;28.4947,-20.1317;ZW-09;Bulawayo;Magwegwe West
+0;28.4858,-20.1375;ZW-09;Bulawayo;Pumula North
+0;28.4569,-20.1367;ZW-09;Bulawayo;Robert Sinyoka
+0;28.4922,-20.1469;ZW-09;Bulawayo;Pumula East
+0;28.5444,-20.1053;ZW-09;Bulawayo;Trenance
+0;28.5886,-20.0519;ZW-06;Matabeleland North;Umvutcha A
+0;28.7219,-20.0883;ZW-06;Matabeleland North;Cathleen
+0;28.7061,-20.1006;ZW-06;Matabeleland North;Fairstar
+0;28.6734,-20.0997;ZW-06;Matabeleland North;Montgomery
+0;28.6606,-20.1058;ZW-06;Matabeleland North;Delmore
+0;28.6606,-20.0939;ZW-06;Matabeleland North;Chancit
+0;28.6528,-20.1064;ZW-09;Bulawayo;Woodville Park
+0;28.6528,-20.1006;ZW-09;Bulawayo;Woodville South
+0;28.6453,-20.1014;ZW-09;Bulawayo;Northlea
+0;28.6383,-20.1000;ZW-09;Bulawayo;Jacaranda
+0;28.6583,-20.0800;ZW-06;Matabeleland North;Woodville
+0;28.6447,-20.1192;ZW-09;Bulawayo;Marvel
+0;28.6508,-20.1369;ZW-09;Bulawayo;Marvel A
+0;28.6506,-20.1339;ZW-09;Bulawayo;Killarney
+0;28.6311,-20.1283;ZW-09;Bulawayo;Glengarry
+0;28.6517,-20.1883;ZW-09;Bulawayo;Riverside Estates
+0;28.5078,-20.1708;ZW-09;Bulawayo;Bellevue
+0;28.6097,-20.2069;ZW-09;Bulawayo;White Star
+0;28.7025,-20.2244;ZW-06;Matabeleland North;Fairland
+0;28.7467,-20.2336;ZW-07;Matabeleland South Province;Worringham
+0;28.7461,-20.2372;ZW-07;Matabeleland South Province;Fresnaye
+0;29.8714,-20.0223;ZW-07;Matabeleland South Province;Kashambi
+0;29.8990,-20.2784;ZW-07;Matabeleland South Province;Bannockburn
+0;29.4417,-20.9278;ZW-07;Matabeleland South Province;Mabuze
+0;30.8361,-20.1778;ZW-07;Matabeleland South Province;Ngadza
+0;31.9639,-20.4194;ZW-07;Matabeleland South Province;Angus Ranch
+0;31.1139,-20.6139;ZW-07;Matabeleland South Province;Mucibwa
+0;31.4056,-20.5649;ZW-08;Masvingo Province;Chief Bota
+0;28.8556,-21.4333;ZW-07;Matabeleland South Province;Makokwe
+0;29.1247,-21.6669;ZW-07;Matabeleland South Province;Seboza
+0;30.0272,-21.9172;ZW-07;Matabeleland South Province;Tongwe
+0;31.6278,-21.9447;ZW-07;Matabeleland South Province;Nyala
+0;29.6917,-19.9111;ZW-07;Matabeleland South Province;Muhlonga
+0;30.7583,-19.8944;ZW-08;Masvingo Province;Matoba
+0;31.6361,-19.9361;ZW-08;Masvingo Province;Muvuti
+0;31.4768,-17.6806;ZW-04;Mashonaland East Province;Juru
+0;31.0486,-17.1352;ZW-03;Mashonaland Central;Rosa
+0;31.4956,-17.3300;ZW-03;Mashonaland Central;Poorte River
+0;31.4096,-17.5922;ZW-03;Mashonaland Central;Guwa
+0;31.3564,-17.5975;ZW-03;Mashonaland Central;Mashambahaka School
+371246;31.0755,-18.0127;ZW-10;Harare;Chitungwiza
+0;31.3194,-17.9953;ZW-04;Mashonaland East Province;Melfort
+0;31.5203,-17.2547;ZW-03;Mashonaland Central;Nyamwanga
+0;29.0409,-20.9852;ZW-07;Matabeleland South Province;Koodoovale
+0;28.9167,-19.0056;ZW-06;Matabeleland North;Chief Tshugulu
+0;28.9481,-19.0438;ZW-06;Matabeleland North;Chief Nkalakata
+0;29.1037,-19.0069;ZW-02;Midlands Province;Mali
+0;29.1244,-19.0371;ZW-02;Midlands Province;Sanengeta
+0;28.8206,-19.9933;ZW-06;Matabeleland North;Kayisa
+0;30.3575,-16.0527;ZW-03;Mashonaland Central;Chief Chisunga
+0;30.4437,-16.2602;ZW-03;Mashonaland Central;Chief Chitsungo
+0;30.4462,-16.2799;ZW-03;Mashonaland Central;Chitsungo Mission
+0;30.9090,-16.3034;ZW-03;Mashonaland Central;Chief Matsiwo
+0;30.6462,-16.8395;ZW-03;Mashonaland Central;Chief Bepura
+0;30.1359,-21.8382;ZW-07;Matabeleland South Province;Foromela
+0;31.0475,-17.0804;ZW-03;Mashonaland Central;Nzvimbo
+0;31.1179,-17.1362;ZW-03;Mashonaland Central;Muringai
+0;31.0279,-17.1159;ZW-03;Mashonaland Central;Chief Negomo
+0;31.0452,-17.2084;ZW-03;Mashonaland Central;Nyota
+0;31.5742,-17.2065;ZW-03;Mashonaland Central;Chief Bushu
+0;31.9544,-17.3585;ZW-04;Mashonaland East Province;Chief Nyajima
+0;31.3665,-17.5523;ZW-03;Mashonaland Central;Nyawa
+0;31.5749,-17.5047;ZW-04;Mashonaland East Province;Gahani
+0;31.5312,-17.7119;ZW-04;Mashonaland East Province;Mutoko
+0;31.5191,-17.7760;ZW-04;Mashonaland East Province;Muchato
+0;31.9902,-17.7959;ZW-04;Mashonaland East Province;Chief Mangwende
+0;31.5463,-17.8877;ZW-04;Mashonaland East Province;Nhema
+0;31.9196,-20.0402;ZW-08;Masvingo Province;Chief Budzi
+0;32.8476,-20.0360;ZW-01;Manicaland;Chief Ngorima
+0;31.5898,-20.2538;ZW-08;Masvingo Province;Chief Nhema
+0;32.7027,-20.3910;ZW-01;Manicaland;Chief Mapungwana
+0;31.6904,-16.1976;ZW-03;Mashonaland Central;Mukumbura
+0;31.1225,-16.8834;ZW-03;Mashonaland Central;Chiweshe
+0;31.5072,-16.8805;ZW-03;Mashonaland Central;Chikonye
+0;31.5162,-16.8823;ZW-03;Mashonaland Central;Mukunga
+0;31.5178,-16.8852;ZW-03;Mashonaland Central;Chinhanga
+0;31.5688,-16.9004;ZW-03;Mashonaland Central;Vambe
+0;31.5397,-16.9225;ZW-03;Mashonaland Central;Manyika
+0;31.5571,-16.9191;ZW-03;Mashonaland Central;Nyamupfukudza
+0;31.5636,-16.9256;ZW-03;Mashonaland Central;Muserepu
+0;31.5603,-16.9840;ZW-03;Mashonaland Central;Gumbo
+0;31.5412,-16.9933;ZW-03;Mashonaland Central;Musokwa
+0;31.5407,-16.9736;ZW-03;Mashonaland Central;Kachambwa
+0;31.5268,-16.9894;ZW-03;Mashonaland Central;Bvumbe
+0;31.5119,-16.9477;ZW-03;Mashonaland Central;Mugando
+0;31.5227,-16.9512;ZW-03;Mashonaland Central;Nyambudzi
+0;31.5211,-16.9534;ZW-03;Mashonaland Central;Marimira
+0;31.5241,-16.9603;ZW-03;Mashonaland Central;Dzetiye
+0;31.5196,-16.9900;ZW-03;Mashonaland Central;Changata
+0;31.5168,-16.9960;ZW-03;Mashonaland Central;Kariwo
+0;31.5573,-16.9387;ZW-03;Mashonaland Central;Chikwenengere
+0;31.5417,-16.9622;ZW-03;Mashonaland Central;Mushowani
+0;29.7365,-16.0644;ZW-05;Mashonaland West;Masikote
+0;29.5755,-16.1455;ZW-05;Mashonaland West;Mazunga
+0;32.6653,-20.5085;ZW-01;Manicaland;Mapangwe Mission
+0;32.4618,-20.5342;ZW-01;Manicaland;Chief Musikavanhu
+0;29.7857,-16.3288;ZW-05;Mashonaland West;Matsikita
+0;29.6598,-16.3081;ZW-05;Mashonaland West;Mapaima
+0;29.9719,-16.4246;ZW-05;Mashonaland West;Micher
+0;29.7661,-16.3720;ZW-05;Mashonaland West;Robson
+0;29.7577,-16.3804;ZW-05;Mashonaland West;Johannes
+0;29.7257,-16.3734;ZW-05;Mashonaland West;James
+0;29.7142,-16.3968;ZW-05;Mashonaland West;Peter
+0;29.7500,-16.3566;ZW-05;Mashonaland West;Lazarus
+0;29.6926,-16.3920;ZW-05;Mashonaland West;Rice
+0;29.7272,-16.3583;ZW-05;Mashonaland West;Nvaguwe
+0;29.7210,-16.3646;ZW-05;Mashonaland West;Makara
+0;29.6917,-16.3987;ZW-05;Mashonaland West;Gatora
+0;29.6969,-16.4021;ZW-05;Mashonaland West;Tunganbora
+0;29.6971,-16.4056;ZW-05;Mashonaland West;Tegwe
+0;29.7039,-16.3985;ZW-05;Mashonaland West;Naison
+0;29.7076,-16.3870;ZW-05;Mashonaland West;Mahau
+0;29.6935,-16.3695;ZW-05;Mashonaland West;Chundu
+0;29.6664,-16.3644;ZW-05;Mashonaland West;Peter
+0;29.6505,-16.3726;ZW-05;Mashonaland West;Adam
+0;29.6476,-16.3797;ZW-05;Mashonaland West;Chitindiva
+0;29.6460,-16.3828;ZW-05;Mashonaland West;Kakoma
+0;29.6575,-16.4727;ZW-05;Mashonaland West;Mpakati
+0;29.6792,-16.4539;ZW-05;Mashonaland West;Logan
+0;29.6704,-16.4627;ZW-05;Mashonaland West;Mpagari
+0;29.6505,-16.4498;ZW-05;Mashonaland West;Dick
+0;29.8489,-16.4828;ZW-05;Mashonaland West;Zinyemba
+0;29.8614,-16.5250;ZW-05;Mashonaland West;Kazunga
+0;29.8697,-16.4951;ZW-05;Mashonaland West;Chikowe
+0;29.8755,-16.4829;ZW-05;Mashonaland West;Bihkausara
+0;29.8769,-16.4755;ZW-05;Mashonaland West;Mafungautsi
+0;29.9355,-16.6007;ZW-05;Mashonaland West;Makuni
+0;29.9398,-16.6170;ZW-05;Mashonaland West;Vagonda
+0;29.8486,-16.5836;ZW-05;Mashonaland West;Mushaikwa
+0;29.8449,-16.5749;ZW-05;Mashonaland West;Vereta
+0;29.7800,-16.5721;ZW-05;Mashonaland West;Mukambi
+0;29.8175,-16.5366;ZW-05;Mashonaland West;Kadunga
+0;29.8211,-16.5461;ZW-05;Mashonaland West;Kazangare
+0;29.8187,-16.5582;ZW-05;Mashonaland West;Dondo
+0;29.8409,-16.5603;ZW-05;Mashonaland West;Matesanwa
+0;29.8258,-16.5726;ZW-05;Mashonaland West;Dondoro
+0;29.7818,-16.5577;ZW-05;Mashonaland West;Chimawmaka
+0;29.8493,-16.5552;ZW-05;Mashonaland West;Mapungantsi
+0;29.8604,-16.5653;ZW-05;Mashonaland West;Washayanyika
+0;29.8738,-16.5534;ZW-05;Mashonaland West;Kachidza
+0;29.8843,-16.6369;ZW-05;Mashonaland West;Kanyoka
+0;29.9471,-16.6204;ZW-05;Mashonaland West;Rabata
+0;29.4268,-16.7461;ZW-05;Mashonaland West;Maplanka
+0;29.4347,-16.7522;ZW-05;Mashonaland West;Muchororinga
+0;29.4359,-16.7667;ZW-05;Mashonaland West;Chimyemhere
+0;29.4412,-16.7738;ZW-05;Mashonaland West;Kunaka
+0;29.4031,-16.7702;ZW-05;Mashonaland West;Chinyangwe
+0;29.4304,-16.7805;ZW-05;Mashonaland West;Hondo
+0;29.3924,-16.7573;ZW-05;Mashonaland West;Chivere
+0;29.4288,-16.7568;ZW-05;Mashonaland West;Wenera
+0;29.3828,-16.7597;ZW-05;Mashonaland West;Mukumbirofa
+0;29.3819,-16.7638;ZW-05;Mashonaland West;Magumbura
+0;29.3738,-16.7720;ZW-05;Mashonaland West;Murodza
+0;29.3505,-16.7498;ZW-05;Mashonaland West;Mashayamambe
+0;29.3445,-16.7693;ZW-05;Mashonaland West;Ndirazepatswa
+0;29.3095,-16.7033;ZW-05;Mashonaland West;Zuzenika
+0;29.3465,-16.7123;ZW-05;Mashonaland West;Gawa
+0;29.2442,-16.7308;ZW-05;Mashonaland West;Neruwembo
+0;29.2455,-16.7097;ZW-05;Mashonaland West;Nyikadzino
+0;29.2071,-16.7332;ZW-05;Mashonaland West;Kamhali
+0;28.9537,-16.7067;ZW-05;Mashonaland West;Gachegache
+0;29.2626,-16.8304;ZW-05;Mashonaland West;Nyarumwe
+0;29.2820,-16.8166;ZW-05;Mashonaland West;Paratema
+0;29.2689,-16.8422;ZW-05;Mashonaland West;Matimba
+0;29.2974,-16.8411;ZW-05;Mashonaland West;Nyamasoka
+0;29.3283,-16.8284;ZW-05;Mashonaland West;Navimadzanwa
+0;29.3469,-16.8397;ZW-05;Mashonaland West;Kajamatimba
+0;29.3743,-16.8287;ZW-05;Mashonaland West;Chambati
+0;29.3669,-16.8425;ZW-05;Mashonaland West;Muchidzagora
+0;29.3266,-16.8438;ZW-05;Mashonaland West;Samasuro Bunda II
+0;29.3758,-16.8226;ZW-05;Mashonaland West;Chitau
+0;29.4399,-16.7868;ZW-05;Mashonaland West;Makanyaire
+0;29.4451,-16.8011;ZW-05;Mashonaland West;Makumbi
+0;29.4783,-16.8405;ZW-05;Mashonaland West;Mudema
+0;29.4685,-16.8518;ZW-05;Mashonaland West;Mazrimbakupa
+0;29.4619,-16.8111;ZW-05;Mashonaland West;Nzunguchewa
+0;32.1055,-20.9442;ZW-08;Masvingo Province;Chief Towani
+0;32.1638,-20.9305;ZW-10;Harare;Veneka Business Centre
+0;32.4413,-20.9426;ZW-01;Manicaland;Chief Garahwa
+0;32.4421,-20.9712;ZW-01;Manicaland;Chief Mpungu
+0;29.4738,-16.9065;ZW-05;Mashonaland West;Bopofo
+0;29.4667,-16.9198;ZW-05;Mashonaland West;Matamba
+0;29.4600,-16.9229;ZW-05;Mashonaland West;Gasura
+0;29.4309,-16.9227;ZW-05;Mashonaland West;Makumba
+0;29.4397,-16.8877;ZW-05;Mashonaland West;Njoga
+0;29.4473,-16.8960;ZW-05;Mashonaland West;Wenzera
+0;29.4264,-16.8954;ZW-05;Mashonaland West;Kapire
+0;29.4332,-16.8871;ZW-05;Mashonaland West;Chivanga
+0;29.4642,-16.8625;ZW-05;Mashonaland West;Mberero
+0;29.4861,-16.8640;ZW-05;Mashonaland West;Matsika
+0;29.4639,-16.8670;ZW-05;Mashonaland West;Kangausaru
+0;29.4332,-16.8562;ZW-05;Mashonaland West;Chitehere
+0;29.4158,-16.8935;ZW-05;Mashonaland West;Machona
+0;29.3764,-16.8837;ZW-05;Mashonaland West;Nyahuma
+0;29.3594,-16.8943;ZW-05;Mashonaland West;Chendamora
+0;29.3641,-16.8994;ZW-05;Mashonaland West;Nazvaure
+0;29.3978,-16.9114;ZW-05;Mashonaland West;Dombo
+0;29.4171,-16.9371;ZW-05;Mashonaland West;Hondoma
+0;29.3899,-16.9037;ZW-05;Mashonaland West;Chaparanganda
+0;29.3781,-16.8731;ZW-05;Mashonaland West;Majinjiwa
+0;29.3557,-16.8693;ZW-05;Mashonaland West;Mujona
+0;29.3354,-16.9304;ZW-05;Mashonaland West;Jera
+0;29.3277,-16.8656;ZW-05;Mashonaland West;Mjikachi
+0;29.3503,-16.8648;ZW-05;Mashonaland West;Makuwerere
+0;29.2791,-16.8701;ZW-05;Mashonaland West;Marova
+0;29.2644,-16.9104;ZW-05;Mashonaland West;Mtinha
+0;29.2609,-16.9268;ZW-05;Mashonaland West;Kapambara
+0;29.3372,-16.9151;ZW-05;Mashonaland West;Mazindora
+0;29.1800,-16.9072;ZW-05;Mashonaland West;Nyamunga
+0;29.2257,-16.9844;ZW-05;Mashonaland West;Zvipani
+0;29.2415,-16.9720;ZW-05;Mashonaland West;Makota
+0;29.2751,-16.9729;ZW-05;Mashonaland West;Zinhu
+0;29.2939,-16.9922;ZW-05;Mashonaland West;Shavereshongwe
+0;29.3226,-16.9913;ZW-05;Mashonaland West;Nyamupinga
+0;29.3093,-16.9861;ZW-05;Mashonaland West;Kapesa
+0;29.2687,-16.9542;ZW-05;Mashonaland West;Kachamaenza
+0;29.2891,-16.9508;ZW-05;Mashonaland West;Mandina
+0;29.2927,-16.9558;ZW-05;Mashonaland West;Chabera
+0;29.3157,-16.9666;ZW-05;Mashonaland West;Chiwara
+0;29.3232,-16.9484;ZW-05;Mashonaland West;Ruzarde
+0;29.2736,-16.9348;ZW-05;Mashonaland West;Kanyurira
+0;29.2790,-16.9445;ZW-05;Mashonaland West;Chasauka
+0;29.3327,-16.9451;ZW-05;Mashonaland West;Nbewedzebonde
+0;29.2800,-16.9678;ZW-05;Mashonaland West;Katemanyoka
+0;29.3323,-16.9489;ZW-05;Mashonaland West;Hodzi
+0;29.3293,-16.9573;ZW-05;Mashonaland West;Makanyaire
+0;29.3155,-16.9717;ZW-05;Mashonaland West;Murimbika
+0;29.3617,-16.9706;ZW-05;Mashonaland West;Madimba
+0;29.3294,-16.9647;ZW-05;Mashonaland West;Mangwaira
+0;29.3617,-16.9809;ZW-05;Mashonaland West;Kamutsamombe
+0;29.3958,-16.9445;ZW-05;Mashonaland West;Maziza
+0;29.3641,-16.9861;ZW-05;Mashonaland West;Masanga
+0;29.3796,-16.9541;ZW-05;Mashonaland West;Gumiremhete
+0;29.4273,-16.9480;ZW-05;Mashonaland West;Tichona
+0;29.4503,-16.9876;ZW-05;Mashonaland West;Ndhlumhi
+0;29.4782,-16.9478;ZW-05;Mashonaland West;Kandororo
+0;29.4946,-16.9733;ZW-05;Mashonaland West;Chisiri
+0;29.4544,-16.7909;ZW-05;Mashonaland West;Mapfurutva
+0;30.3042,-20.5190;ZW-02;Midlands Province;Mapedza Mission
+0;31.0554,-20.6644;ZW-08;Masvingo Province;Chief Nyajena
+0;30.0570,-20.7844;ZW-02;Midlands Province;Don Bosco Mission
+0;28.0065,-17.1123;ZW-06;Matabeleland North;Chief Sinamsanga
+0;28.0144,-17.2462;ZW-06;Matabeleland North;Chief Sinamwenda
+0;28.0416,-17.4753;ZW-06;Matabeleland North;Chief Siabuwa
+0;27.2375,-17.7227;ZW-06;Matabeleland North;Kabulawo
+0;27.4153,-17.7573;ZW-06;Matabeleland North;Chief Binga
+0;27.4069,-17.7420;ZW-06;Matabeleland North;Chief Sikalenke
+0;27.3869,-17.7230;ZW-06;Matabeleland North;Chief Sigalenke
+0;27.6340,-17.6864;ZW-06;Matabeleland North;Chief Sinakoma
+0;27.2359,-17.8880;ZW-06;Matabeleland North;Gaza
+0;27.2950,-17.9003;ZW-06;Matabeleland North;Chief Siachilaba
+0;27.8867,-17.9739;ZW-06;Matabeleland North;Chief Sinamagonde
+0;30.7598,-20.9019;ZW-08;Masvingo Province;Chief Chitanga
+0;32.2246,-17.2132;ZW-04;Mashonaland East Province;Masenda Township
+0;32.3803,-17.1712;ZW-04;Mashonaland East Province;Chief Nyamokoho
+0;32.7375,-17.2278;ZW-04;Mashonaland East Province;Chief Chikwizu
+0;32.0211,-17.6127;ZW-04;Mashonaland East Province;Hoyuyu Township
+0;30.6527,-19.5357;ZW-02;Midlands Province;Chief Chilimanzi
+0;30.1209,-19.7887;ZW-02;Midlands Province;Donga
+0;29.0900,-18.2948;ZW-02;Midlands Province;Chief Njelele
+0;29.3481,-18.8404;ZW-02;Midlands Province;Chief Ntabeni
+0;29.7905,-18.9686;ZW-02;Midlands Province;Naseby Township
+0;30.7808,-18.0586;ZW-05;Mashonaland West;Shirichena
+0;30.7633,-18.0591;ZW-05;Mashonaland West;Hiya
+0;30.7494,-18.0638;ZW-05;Mashonaland West;Chibamu
+0;31.0526,-18.0171;ZW-10;Harare;Kaseke
+0;31.0652,-18.0134;ZW-10;Harare;Zengeza
+0;31.0778,-18.0509;ZW-04;Mashonaland East Province;Vera
+0;31.1202,-18.0165;ZW-10;Harare;Seke North
+0;31.1617,-18.0755;ZW-04;Mashonaland East Province;Kahiya
+0;31.3106,-18.1690;ZW-04;Mashonaland East Province;Mbefara
+0;31.3748,-18.1765;ZW-04;Mashonaland East Province;Manana
+0;31.2262,-18.1630;ZW-04;Mashonaland East Province;Zhangira
+0;31.1980,-18.1431;ZW-04;Mashonaland East Province;Chief Seki
+0;30.7108,-18.1453;ZW-05;Mashonaland West;Gukwe
+0;30.6277,-18.1464;ZW-05;Mashonaland West;Shoko
+0;30.6184,-18.1551;ZW-05;Mashonaland West;Gan’a
+0;30.1215,-18.1095;ZW-05;Mashonaland West;Chegutu Pfupajena Township
+0;30.4694,-18.2438;ZW-05;Mashonaland West;Mugaba
+0;30.6194,-18.2405;ZW-05;Mashonaland West;Mutongwizo
+0;30.6374,-18.1837;ZW-05;Mashonaland West;Nyandebvu
+0;30.6768,-18.2430;ZW-05;Mashonaland West;Mazivakufa
+0;30.6862,-18.2270;ZW-05;Mashonaland West;Chief Nyamweda
+0;31.3299,-18.1914;ZW-04;Mashonaland East Province;Mushangwe
+0;31.2369,-18.3544;ZW-04;Mashonaland East Province;Chief Nenguo
+0;30.7430,-18.4829;ZW-05;Mashonaland West;Karanda
+0;30.7082,-18.5019;ZW-05;Mashonaland West;Chinemhute
+0;30.6571,-18.5160;ZW-05;Mashonaland West;Muzhazhe
+0;30.5760,-18.4372;ZW-05;Mashonaland West;Mudzingwa
+0;30.5868,-18.5132;ZW-05;Mashonaland West;Takawira
+0;30.5537,-18.4947;ZW-05;Mashonaland West;Chief Mupawose
+0;30.5829,-18.4689;ZW-05;Mashonaland West;Rutize
+0;30.4967,-18.4860;ZW-05;Mashonaland West;Chivima
+0;31.0029,-18.7801;ZW-04;Mashonaland East Province;Tandayi
+0;30.9888,-18.8196;ZW-04;Mashonaland East Province;Chirara
+0;31.4220,-18.7436;ZW-04;Mashonaland East Province;Nhamburwa
+0;31.4540,-18.7717;ZW-04;Mashonaland East Province;Zimondi
+0;31.4859,-18.8113;ZW-04;Mashonaland East Province;Tichavaka
+0;31.4230,-18.8771;ZW-04;Mashonaland East Province;Gave
+0;31.3703,-18.8403;ZW-04;Mashonaland East Province;Masoka
+0;31.0417,-18.8208;ZW-04;Mashonaland East Province;Tanyanyiwa
+0;30.9688,-18.8870;ZW-04;Mashonaland East Province;Manjonjo
+0;31.0499,-18.8904;ZW-04;Mashonaland East Province;Gondo
+0;31.4389,-18.9742;ZW-04;Mashonaland East Province;Mkumbi
+0;31.4821,-18.9241;ZW-04;Mashonaland East Province;Mtoredzanwe
+0;31.7369,-18.3298;ZW-04;Mashonaland East Province;Gomo
+0;31.7442,-18.3360;ZW-04;Mashonaland East Province;Kwaramba
+0;31.6562,-18.2879;ZW-04;Mashonaland East Province;Gore
+0;32.8237,-18.5497;ZW-01;Manicaland;Mpotedzi
+0;32.8624,-18.5773;ZW-01;Manicaland;Mukwindidza
+0;32.8135,-18.6075;ZW-01;Manicaland;Saumani
+0;32.8522,-18.6190;ZW-01;Manicaland;Chikuku
+0;32.7887,-18.5596;ZW-01;Manicaland;Ragu
+0;32.7739,-18.5992;ZW-01;Manicaland;Ngwende
+0;32.4411,-18.6607;ZW-01;Manicaland;Gandanzara
+0;32.5361,-18.8036;ZW-01;Manicaland;Kudiwa
+0;31.5165,-18.7947;ZW-04;Mashonaland East Province;Makuvaza
+0;31.5574,-18.8463;ZW-04;Mashonaland East Province;Maware
+0;31.5702,-18.8717;ZW-04;Mashonaland East Province;Chisangano School
+0;31.5253,-18.8717;ZW-04;Mashonaland East Province;Muchineripi
+0;31.5231,-18.8616;ZW-04;Mashonaland East Province;Gwavava
+0;32.6636,-18.9510;ZW-01;Manicaland;Murambi
+0;32.6944,-18.9556;ZW-01;Manicaland;Morningside
+0;32.6740,-18.9680;ZW-01;Manicaland;Palmerston
+0;32.6690,-18.9676;ZW-01;Manicaland;Yeovil
+0;32.6790,-18.9809;ZW-01;Manicaland;Darlington
+0;31.5173,-18.9235;ZW-04;Mashonaland East Province;Manyere
+0;31.6142,-19.0236;ZW-01;Manicaland;Makono
+0;31.6194,-19.0311;ZW-01;Manicaland;Tazviwana
+0;31.6226,-19.0470;ZW-01;Manicaland;Guveya
+0;31.6490,-19.0484;ZW-01;Manicaland;Nganga
+0;31.6313,-19.0702;ZW-01;Manicaland;Ndengu
+0;31.6005,-19.0524;ZW-01;Manicaland;Gunguwu
+0;31.5921,-19.0522;ZW-04;Mashonaland East Province;Shoniwa
+0;31.5764,-19.0637;ZW-04;Mashonaland East Province;Magarasadza
+0;31.6129,-19.0665;ZW-01;Manicaland;Chapxania
+0;31.5507,-19.0895;ZW-04;Mashonaland East Province;Madzinga
+0;31.5691,-19.1612;ZW-01;Manicaland;Mashingaidze
+0;31.5429,-19.1443;ZW-04;Mashonaland East Province;Manyere
+0;31.5110,-19.1386;ZW-04;Mashonaland East Province;Mugweni-Zanje
+0;31.6021,-19.0984;ZW-01;Manicaland;Muchena
+0;31.6055,-19.0916;ZW-01;Manicaland;Denya
+0;31.5889,-19.1085;ZW-01;Manicaland;Chigowe
+0;31.6155,-19.1107;ZW-01;Manicaland;Takundwa
+0;31.5846,-19.1428;ZW-01;Manicaland;Tagarira
+0;31.6225,-19.1451;ZW-01;Manicaland;Rambanapasi
+0;31.6148,-19.1521;ZW-01;Manicaland;Handikori
+0;31.6161,-19.1613;ZW-01;Manicaland;Nehonde
+0;31.6507,-19.1461;ZW-01;Manicaland;Tagu
+0;31.5321,-19.1590;ZW-04;Mashonaland East Province;Chikwava
+0;31.7379,-19.1018;ZW-01;Manicaland;Mutawurwa
+0;31.7502,-19.0877;ZW-01;Manicaland;Muzili
+0;31.7112,-19.0970;ZW-01;Manicaland;Manjengwa
+0;31.6223,-19.0775;ZW-01;Manicaland;Chief Chitsunge
+0;31.5989,-19.0794;ZW-01;Manicaland;Tikiza
+0;31.7087,-19.0402;ZW-01;Manicaland;Chitsunge
+0;31.7401,-19.0360;ZW-01;Manicaland;Gaza
+0;31.7166,-19.0535;ZW-01;Manicaland;Chinoda
+0;31.7003,-19.0565;ZW-01;Manicaland;Parwaringira
+0;31.7344,-19.0754;ZW-01;Manicaland;Chitando
+0;31.7322,-19.1272;ZW-01;Manicaland;Karimba
+0;31.7079,-19.1544;ZW-01;Manicaland;Baswi
+0;31.6771,-19.1642;ZW-01;Manicaland;Tumbare
+0;31.7432,-19.0751;ZW-01;Manicaland;Zvinavashe
+0;31.7673,-19.0786;ZW-01;Manicaland;Mahembe
+0;31.7100,-19.1650;ZW-01;Manicaland;Makamure
+0;31.7279,-19.0913;ZW-01;Manicaland;Mhizha
+0;31.6803,-19.0986;ZW-01;Manicaland;Chirinda
+0;31.6715,-19.1226;ZW-01;Manicaland;Muzavazi
+0;31.3970,-19.2176;ZW-01;Manicaland;Chief Fish
+0;31.7274,-19.1636;ZW-01;Manicaland;Ngano
+0;31.7532,-19.1585;ZW-01;Manicaland;Chivaku
+0;31.6778,-19.1699;ZW-01;Manicaland;Tivalire
+0;31.5071,-19.1963;ZW-01;Manicaland;Sujini
+0;31.5434,-19.1971;ZW-01;Manicaland;Muchiriri-Zenda
+0;31.5245,-19.1845;ZW-01;Manicaland;Makombe
+0;31.5220,-19.1760;ZW-01;Manicaland;Chinyangwa
+0;31.5388,-19.1744;ZW-01;Manicaland;Matinyanga
+0;31.5646,-19.1896;ZW-01;Manicaland;Pfupajena
+0;31.5858,-19.1938;ZW-01;Manicaland;Rwodzi
+0;31.5903,-19.2093;ZW-01;Manicaland;Gudo
+0;31.6562,-19.1904;ZW-01;Manicaland;Gwakava
+0;31.6646,-19.1893;ZW-01;Manicaland;Mutendera
+0;31.6606,-19.1939;ZW-01;Manicaland;Chimhawu
+0;31.6308,-19.2033;ZW-01;Manicaland;Kachembere
+0;31.6675,-19.2058;ZW-01;Manicaland;Gona
+0;31.6545,-19.2115;ZW-01;Manicaland;Ganga
+0;31.6271,-19.1955;ZW-01;Manicaland;Munyimi
+0;31.5639,-19.2136;ZW-01;Manicaland;Mukamba
+0;31.5161,-19.2171;ZW-01;Manicaland;Mandongwe
+0;31.6727,-19.1860;ZW-01;Manicaland;Mavairi
+0;31.6738,-19.1782;ZW-01;Manicaland;Rusere
+0;31.6926,-19.1706;ZW-01;Manicaland;Shambamuto
+0;31.6862,-19.1753;ZW-01;Manicaland;Marume
+0;31.7463,-19.1704;ZW-01;Manicaland;Svova
+0;31.7466,-19.1745;ZW-01;Manicaland;Mashinya
+0;31.7062,-19.2365;ZW-01;Manicaland;Chinyanga
+0;31.7529,-19.1882;ZW-01;Manicaland;Machinyanga
+0;31.7604,-19.1698;ZW-01;Manicaland;Madya
+0;31.7448,-19.1906;ZW-01;Manicaland;Chinzou
+0;31.7501,-19.2653;ZW-01;Manicaland;Kwarire
+0;31.7848,-19.2535;ZW-01;Manicaland;Sundirai
+0;31.8095,-19.2552;ZW-01;Manicaland;Makufa
+0;31.7494,-19.2190;ZW-01;Manicaland;Zvavamwena
+0;31.8273,-19.2695;ZW-01;Manicaland;Weehuma
+0;31.7933,-19.2908;ZW-01;Manicaland;Mahove
+0;31.7842,-19.2898;ZW-01;Manicaland;Mazungunye
+0;31.7688,-19.3024;ZW-01;Manicaland;Chingozhoro
+0;31.7796,-19.2971;ZW-01;Manicaland;Mahove
+0;31.7628,-19.2983;ZW-01;Manicaland;Muguti
+0;31.8349,-19.2905;ZW-01;Manicaland;Gwemende
+0;31.8109,-19.3086;ZW-01;Manicaland;Mavuka
+0;31.7747,-19.1895;ZW-01;Manicaland;Madume
+0;31.8743,-19.2632;ZW-01;Manicaland;Rukweza
+0;31.9019,-19.2638;ZW-01;Manicaland;Mberikanashe
+0;31.9564,-19.2711;ZW-01;Manicaland;Chiporiro
+0;31.9384,-19.3057;ZW-01;Manicaland;Muyambirwi
+0;31.9715,-19.3099;ZW-01;Manicaland;Mateverere
+0;31.8774,-19.3194;ZW-01;Manicaland;Ruzvidzo
+0;31.9052,-19.2833;ZW-01;Manicaland;Duvaduve
+0;31.9610,-19.3308;ZW-01;Manicaland;Vengayi
+0;31.9864,-19.3634;ZW-01;Manicaland;Betera
+0;31.9326,-19.3397;ZW-01;Manicaland;Ngohlo
+0;31.9040,-19.3943;ZW-01;Manicaland;Gudo
+0;31.9843,-19.4210;ZW-01;Manicaland;Mutezo
+0;32.0029,-19.3921;ZW-01;Manicaland;Mhereyenyoka
+0;31.9221,-19.3605;ZW-01;Manicaland;Chirimudombo
+0;31.9167,-19.3551;ZW-01;Manicaland;Njinja
+0;31.8941,-19.4110;ZW-01;Manicaland;Kwenda
+0;31.9294,-19.4274;ZW-01;Manicaland;Chapinga
+0;31.9210,-19.4333;ZW-01;Manicaland;Tasaranarwo
+0;31.9588,-19.4660;ZW-01;Manicaland;Tarume
+0;31.9135,-19.4560;ZW-01;Manicaland;Mafuratidze
+0;31.8886,-19.4734;ZW-01;Manicaland;Rashamira
+0;31.9135,-19.4630;ZW-01;Manicaland;Chizema
+0;31.9243,-19.4064;ZW-01;Manicaland;Zimbande
+0;31.8736,-19.4093;ZW-01;Manicaland;Masvingo
+0;31.8469,-19.3202;ZW-01;Manicaland;Mukutukutu
+0;31.7982,-19.3259;ZW-01;Manicaland;Mudziti
+0;31.8563,-19.3508;ZW-01;Manicaland;Madume
+0;31.8786,-19.3642;ZW-01;Manicaland;Mugumbate
+0;31.8555,-19.3550;ZW-01;Manicaland;Chidiro
+0;31.8611,-19.4326;ZW-01;Manicaland;Dzapasi
+0;31.7829,-19.3421;ZW-01;Manicaland;Mutunho
+0;31.8257,-19.3863;ZW-01;Manicaland;Hukuimwe
+0;31.8141,-19.4005;ZW-01;Manicaland;Hadzizi
+0;31.7953,-19.3943;ZW-01;Manicaland;Nheya
+0;31.7960,-19.4485;ZW-01;Manicaland;Utete
+0;31.7693,-19.4318;ZW-01;Manicaland;Matombomaviri
+0;31.7850,-19.4476;ZW-01;Manicaland;Mataswa
+0;31.7799,-19.3742;ZW-01;Manicaland;Wadzenenga
+0;31.7925,-19.3632;ZW-01;Manicaland;Hatinahama
+0;31.7561,-19.3924;ZW-01;Manicaland;Viriri
+0;31.7559,-19.4005;ZW-01;Manicaland;Gudo
+0;31.7536,-19.4028;ZW-01;Manicaland;Mangoma
+0;31.7607,-19.4650;ZW-01;Manicaland;Mashandu
+0;31.7539,-19.4740;ZW-01;Manicaland;Mapfungautsi
+0;31.8252,-19.3443;ZW-01;Manicaland;Magondo
+0;31.7620,-19.4085;ZW-01;Manicaland;Chinouya
+0;31.7067,-19.3975;ZW-01;Manicaland;Chief Nyashanu
+0;31.8325,-19.4407;ZW-01;Manicaland;Hodero
+0;31.5177,-19.3953;ZW-08;Masvingo Province;Fuve
+0;31.5059,-19.4334;ZW-08;Masvingo Province;Chitupa
+0;31.5433,-19.4307;ZW-08;Masvingo Province;Mudadi
+0;31.5433,-19.4355;ZW-08;Masvingo Province;Nuyai
+0;31.5188,-19.4153;ZW-08;Masvingo Province;Rongo
+0;31.5248,-19.4537;ZW-08;Masvingo Province;Chikutuva
+0;31.5221,-19.4623;ZW-08;Masvingo Province;Chingwetu
+0;31.5239,-19.4396;ZW-08;Masvingo Province;Mujawo
+0;31.5144,-19.4387;ZW-08;Masvingo Province;Munyikwa
+0;31.5056,-19.4620;ZW-08;Masvingo Province;Gweme
+0;31.5439,-19.4603;ZW-08;Masvingo Province;Mutero
+0;31.1622,-19.5532;ZW-08;Masvingo Province;Chief Gutu
+0;31.5695,-19.4633;ZW-08;Masvingo Province;Murebwa
+0;31.5261,-19.4876;ZW-08;Masvingo Province;Kadivirire
+0;31.5101,-19.4917;ZW-08;Masvingo Province;Maramwidze
+0;31.5487,-19.4938;ZW-08;Masvingo Province;Gudo
+0;31.5526,-19.4947;ZW-08;Masvingo Province;Kefas
+0;31.5555,-19.4889;ZW-08;Masvingo Province;Chivasa
+0;31.5310,-19.4987;ZW-08;Masvingo Province;Zambara
+0;31.5058,-19.5022;ZW-08;Masvingo Province;Mukweshe
+0;31.5391,-19.5022;ZW-08;Masvingo Province;Muchaparawa
+0;31.5458,-19.5089;ZW-08;Masvingo Province;Tarwirei
+0;31.5129,-19.5216;ZW-08;Masvingo Province;Chebundo
+0;31.5153,-19.5170;ZW-08;Masvingo Province;Livisoni
+0;31.5258,-19.5211;ZW-08;Masvingo Province;Vutete
+0;31.5449,-19.5330;ZW-08;Masvingo Province;Chitakira
+0;31.5256,-19.5398;ZW-08;Masvingo Province;Takavinga
+0;31.5093,-19.5340;ZW-08;Masvingo Province;Mufahore
+0;31.5293,-19.5433;ZW-08;Masvingo Province;Ndisavaka
+0;31.6055,-19.4808;ZW-08;Masvingo Province;Musara
+0;31.5971,-19.4750;ZW-08;Masvingo Province;Bubaiwa
+0;31.6457,-19.4709;ZW-08;Masvingo Province;Mabika
+0;31.5755,-19.5058;ZW-08;Masvingo Province;Mudyiwa
+0;31.6349,-19.5071;ZW-08;Masvingo Province;Whititi
+0;31.6456,-19.4817;ZW-08;Masvingo Province;Tarupiwa
+0;31.6249,-19.4862;ZW-08;Masvingo Province;Magombedze
+0;31.6394,-19.5008;ZW-08;Masvingo Province;Mutare
+0;31.6468,-19.5078;ZW-08;Masvingo Province;Tizeyi
+0;31.5927,-19.5213;ZW-08;Masvingo Province;Munhowei
+0;31.5763,-19.5235;ZW-08;Masvingo Province;Mukundu
+0;31.6697,-19.5084;ZW-08;Masvingo Province;Mapfumo
+0;31.6405,-19.5241;ZW-08;Masvingo Province;Tavura
+0;31.5625,-19.5470;ZW-08;Masvingo Province;Makuvaza
+0;31.5441,-19.5600;ZW-08;Masvingo Province;Zvorushe
+0;31.5347,-19.5538;ZW-08;Masvingo Province;Chivenge
+0;31.5083,-19.5554;ZW-08;Masvingo Province;Hwingwiri
+0;31.5088,-19.5861;ZW-08;Masvingo Province;Zibaiwa
+0;31.5326,-19.5789;ZW-08;Masvingo Province;Tazivei
+0;31.5132,-19.6156;ZW-08;Masvingo Province;Sundire
+0;31.5547,-19.5957;ZW-08;Masvingo Province;Madzimure
+0;31.5426,-19.5915;ZW-08;Masvingo Province;Musevenzo
+0;31.5696,-19.5565;ZW-08;Masvingo Province;Chindito
+0;31.5480,-19.6110;ZW-08;Masvingo Province;Muchemwa
+0;31.5569,-19.6061;ZW-08;Masvingo Province;Machovo
+0;31.6303,-19.5354;ZW-08;Masvingo Province;Mufari
+0;31.5803,-19.5432;ZW-08;Masvingo Province;Tinarwo
+0;31.5693,-19.5737;ZW-08;Masvingo Province;Zimunhu
+0;31.5593,-19.5853;ZW-08;Masvingo Province;Tarubuda
+0;31.5822,-19.5946;ZW-08;Masvingo Province;Mangoro
+0;31.6022,-19.5873;ZW-08;Masvingo Province;Dire
+0;31.6352,-19.5471;ZW-08;Masvingo Province;Manangwa
+0;31.6403,-19.5556;ZW-08;Masvingo Province;Munechisvo
+0;31.5839,-19.5538;ZW-08;Masvingo Province;Mazhawidza
+0;31.6281,-19.5630;ZW-08;Masvingo Province;Panganai
+0;31.5841,-19.5651;ZW-08;Masvingo Province;Whekwete
+0;31.5936,-19.5718;ZW-08;Masvingo Province;Muchinapo
+0;31.6173,-19.5591;ZW-08;Masvingo Province;Mutare
+0;31.6591,-19.5722;ZW-08;Masvingo Province;Chiwara
+0;31.6187,-19.5803;ZW-08;Masvingo Province;Musimudzwa
+0;31.6286,-19.5743;ZW-08;Masvingo Province;Matambo
+0;31.6516,-19.5787;ZW-08;Masvingo Province;Chikara
+0;31.6567,-19.5897;ZW-08;Masvingo Province;Kwengi
+0;31.6473,-19.6100;ZW-08;Masvingo Province;Mushava
+0;31.5917,-19.6059;ZW-08;Masvingo Province;Tafundu
+0;31.6138,-19.6142;ZW-08;Masvingo Province;Utete
+0;31.8071,-19.4665;ZW-01;Manicaland;Mhaka
+0;31.8020,-19.4704;ZW-01;Manicaland;Chifadza
+0;31.8303,-19.4709;ZW-01;Manicaland;Mapfumo
+0;31.8327,-19.4881;ZW-01;Manicaland;Kuvengwa
+0;31.8374,-19.5017;ZW-01;Manicaland;Matereke
+0;31.6729,-19.5436;ZW-08;Masvingo Province;Mukungu
+0;31.7018,-19.5436;ZW-08;Masvingo Province;Gava
+0;31.7027,-19.5503;ZW-08;Masvingo Province;Ganda
+0;31.6873,-19.5548;ZW-08;Masvingo Province;Mukozho
+0;31.6992,-19.5540;ZW-08;Masvingo Province;Zvoushe
+0;31.6662,-19.5452;ZW-08;Masvingo Province;Chinefu
+0;31.6795,-19.5765;ZW-08;Masvingo Province;Chawunga
+0;31.6856,-19.5748;ZW-08;Masvingo Province;Panchavo
+0;31.6875,-19.6183;ZW-08;Masvingo Province;Munyayi
+0;31.7000,-19.6115;ZW-08;Masvingo Province;Manyengwa
+0;31.7139,-19.5999;ZW-08;Masvingo Province;Dzivakwi
+0;31.7221,-19.5881;ZW-08;Masvingo Province;Shumbanhete
+0;31.7431,-19.5981;ZW-08;Masvingo Province;Chinatsire
+0;31.6827,-19.5934;ZW-08;Masvingo Province;Panganai
+0;31.7378,-19.6099;ZW-08;Masvingo Province;Ushe
+0;31.7412,-19.6150;ZW-08;Masvingo Province;Toga
+0;31.7815,-19.6004;ZW-08;Masvingo Province;Mumwe
+0;31.7601,-19.6188;ZW-08;Masvingo Province;Musungwa
+0;31.7837,-19.6086;ZW-08;Masvingo Province;Dzivakwi
+0;31.7837,-19.6124;ZW-08;Masvingo Province;Musungo
+0;31.7823,-19.6158;ZW-08;Masvingo Province;Kugura
+0;31.7745,-19.4720;ZW-01;Manicaland;Mawire
+0;31.9218,-19.4792;ZW-01;Manicaland;Zariro
+0;31.9929,-19.4763;ZW-01;Manicaland;Chavahera
+0;31.9573,-19.4903;ZW-01;Manicaland;Marambanyika
+0;31.8705,-19.7127;ZW-08;Masvingo Province;Tafirenyika
+0;31.9033,-19.7266;ZW-08;Masvingo Province;Kwaipa
+0;31.8643,-19.7260;ZW-08;Masvingo Province;Mutumbwi
+0;31.8779,-19.7500;ZW-08;Masvingo Province;Ganyiwa
+0;31.9046,-19.7532;ZW-08;Masvingo Province;Machimbiro
+0;31.9057,-19.7579;ZW-08;Masvingo Province;Mamvura
+0;31.8862,-19.7716;ZW-08;Masvingo Province;Muvavarirwa
+0;31.8500,-19.7562;ZW-08;Masvingo Province;Nyika
+0;31.7013,-19.6186;ZW-08;Masvingo Province;Gotore
+0;27.6627,-19.0151;ZW-06;Matabeleland North;Dulini
+0;27.6578,-19.0314;ZW-06;Matabeleland North;Mabude
+0;27.6772,-19.0365;ZW-06;Matabeleland North;Matule
+0;27.6825,-19.0506;ZW-06;Matabeleland North;Sibaba
+0;27.6675,-19.0748;ZW-06;Matabeleland North;Dingant
+0;27.6652,-19.0795;ZW-06;Matabeleland North;Taffila
+0;27.6617,-19.1072;ZW-06;Matabeleland North;Emapanini
+0;27.6692,-19.4104;ZW-06;Matabeleland North;Manyenge
+0;27.4412,-19.5096;ZW-06;Matabeleland North;Emhlabeni
+0;27.3216,-19.5039;ZW-06;Matabeleland North;Ganga
+0;27.1813,-19.5197;ZW-06;Matabeleland North;Cuseculu
+0;27.1432,-19.4792;ZW-06;Matabeleland North;Mandau
+0;27.1065,-19.4917;ZW-06;Matabeleland North;Tshampeni
+0;27.0380,-19.5770;ZW-06;Matabeleland North;Ndawana
+0;27.1263,-19.6656;ZW-06;Matabeleland North;Danda
+0;27.8806,-19.9817;ZW-06;Matabeleland North;Mahambe
+0;27.8647,-19.9503;ZW-06;Matabeleland North;Gotshane
+0;27.6835,-19.1513;ZW-06;Matabeleland North;Emabandeni
+0;27.4806,-19.2497;ZW-06;Matabeleland North;Kapanyana
+0;27.5098,-19.2365;ZW-06;Matabeleland North;Mbizo II
+0;27.6458,-19.2452;ZW-06;Matabeleland North;Egeekeni
+0;27.7147,-19.2267;ZW-06;Matabeleland North;Mashake
+0;27.6964,-19.2472;ZW-06;Matabeleland North;Sikale
+0;27.7143,-19.3028;ZW-06;Matabeleland North;Regina Mundi Mission
+0;27.6266,-19.3229;ZW-06;Matabeleland North;Bonyonko
+0;27.6173,-19.3161;ZW-06;Matabeleland North;Silombopoka
+0;27.6390,-19.2745;ZW-06;Matabeleland North;Capuka
+0;27.6404,-19.2663;ZW-06;Matabeleland North;Luwilili
+0;27.5718,-19.2766;ZW-06;Matabeleland North;Sipepa II
+0;27.4857,-19.2880;ZW-06;Matabeleland North;Ekoneni
+0;27.4720,-19.3077;ZW-06;Matabeleland North;Nyelesi
+0;27.4065,-19.2989;ZW-06;Matabeleland North;Mahula
+0;27.2916,-19.3496;ZW-06;Matabeleland North;Lombajana
+0;27.2805,-19.3076;ZW-06;Matabeleland North;Nhobatshipadanka
+0;27.1189,-19.3436;ZW-06;Matabeleland North;Sihume
+0;27.1183,-19.3367;ZW-06;Matabeleland North;Gwande I
+0;27.0892,-19.3391;ZW-06;Matabeleland North;Gwande II
+0;27.2186,-19.3755;ZW-06;Matabeleland North;Makeni
+0;27.3501,-19.3836;ZW-06;Matabeleland North;Mangutana
+0;27.4390,-19.4119;ZW-06;Matabeleland North;Tshayisani
+0;27.4823,-19.4023;ZW-06;Matabeleland North;Mpandamanzi
+0;27.4727,-19.3556;ZW-06;Matabeleland North;Nsukamini
+0;27.5381,-19.4039;ZW-06;Matabeleland North;Tabagwa
+0;27.5217,-19.4209;ZW-06;Matabeleland North;Tshiyakwaklwe
+0;27.5955,-19.3658;ZW-06;Matabeleland North;Manyika
+0;27.7154,-19.4043;ZW-06;Matabeleland North;Mapilibomvu
+0;27.6030,-19.5296;ZW-06;Matabeleland North;Maqetuka
+0;27.0355,-19.4747;ZW-06;Matabeleland North;Elangeni School
+0;27.2938,-19.5690;ZW-06;Matabeleland North;Tshakabanda
+0;27.3591,-19.5358;ZW-06;Matabeleland North;Dandamjena
+0;27.3865,-19.5548;ZW-06;Matabeleland North;Hangamwe
+0;27.7099,-19.5484;ZW-06;Matabeleland North;Luhonjana
+0;27.7679,-19.6237;ZW-06;Matabeleland North;Madziba
+0;27.8194,-19.5663;ZW-06;Matabeleland North;Chief Thomas
+0;27.7405,-19.6503;ZW-06;Matabeleland North;Madziba
+0;27.4785,-19.6632;ZW-06;Matabeleland North;Mhlatshwa
+0;27.2925,-19.6746;ZW-06;Matabeleland North;Bumbu
+0;27.2683,-19.7104;ZW-06;Matabeleland North;Tshomwina
+0;27.2254,-19.6391;ZW-06;Matabeleland North;Nxuma
+0;27.2370,-19.7125;ZW-06;Matabeleland North;Dzokotze
+0;27.2162,-19.6626;ZW-06;Matabeleland North;Butshena
+0;27.1575,-19.6909;ZW-06;Matabeleland North;Bushman Diwa
+0;27.0886,-19.6907;ZW-06;Matabeleland North;Muziomutsha
+0;27.7410,-19.7761;ZW-06;Matabeleland North;Mbute
+0;27.7254,-19.7971;ZW-06;Matabeleland North;Lutiba
+0;27.6944,-19.7746;ZW-06;Matabeleland North;Bayane
+0;27.6557,-19.7490;ZW-06;Matabeleland North;Bule II
+0;27.6464,-19.7264;ZW-06;Matabeleland North;Mloyi
+0;27.5770,-19.7414;ZW-06;Matabeleland North;Kautsheka
+0;27.5744,-19.7838;ZW-06;Matabeleland North;Manyanda
+0;27.5101,-19.7758;ZW-06;Matabeleland North;Gewalangamate
+0;27.4651,-19.7570;ZW-06;Matabeleland North;Ntulula
+0;27.4482,-19.7264;ZW-06;Matabeleland North;Enkalange
+0;27.4622,-19.7435;ZW-06;Matabeleland North;Menyezwa II
+0;27.4117,-19.7688;ZW-06;Matabeleland North;Manzamnyama
+0;27.4853,-19.7670;ZW-06;Matabeleland North;Halangamate
+0;27.4386,-19.8099;ZW-06;Matabeleland North;Mapane
+0;27.3770,-19.7926;ZW-06;Matabeleland North;Mpaniwenyama
+0;27.3447,-19.7633;ZW-06;Matabeleland North;Budhli
+0;27.2053,-19.7621;ZW-06;Matabeleland North;Gariya
+0;27.4729,-19.8229;ZW-06;Matabeleland North;Sifapawakwa
+0;27.5142,-19.8187;ZW-06;Matabeleland North;Mahlamombe
+0;27.5273,-19.8466;ZW-06;Matabeleland North;Mayeza
+0;27.6288,-19.8753;ZW-06;Matabeleland North;Elulwane
+0;27.7294,-19.8065;ZW-06;Matabeleland North;Emambanjeni
+0;27.7501,-19.8600;ZW-06;Matabeleland North;Dikili
+0;27.6825,-19.8544;ZW-06;Matabeleland North;Chief Gambo
+0;27.7226,-19.8779;ZW-06;Matabeleland North;Nqaye
+0;27.7867,-19.8557;ZW-06;Matabeleland North;Mehlobamyo
+0;27.7572,-19.8662;ZW-06;Matabeleland North;Matula
+0;27.7109,-19.8595;ZW-06;Matabeleland North;Masekesa
+0;27.7261,-19.8826;ZW-06;Matabeleland North;Emloteni
+0;27.7982,-19.8455;ZW-06;Matabeleland North;Mehlobomvo
+0;27.8115,-19.9267;ZW-06;Matabeleland North;Soluswe
+0;27.7893,-19.9493;ZW-06;Matabeleland North;Tshetshisa
+0;27.7986,-19.9640;ZW-06;Matabeleland North;Segogo
+0;27.8050,-19.9791;ZW-06;Matabeleland North;Guswini
+0;27.7686,-19.9556;ZW-06;Matabeleland North;Makala
+0;27.7586,-19.9645;ZW-06;Matabeleland North;Getshenge
+0;27.7872,-19.9206;ZW-06;Matabeleland North;Mbambo
+0;27.8332,-19.8753;ZW-06;Matabeleland North;Mbowani
+0;27.7233,-19.9064;ZW-06;Matabeleland North;Sigaqana
+0;27.6876,-19.9271;ZW-06;Matabeleland North;Maputata
+0;27.6563,-19.9714;ZW-06;Matabeleland North;Nkomombili
+0;27.6130,-19.9614;ZW-06;Matabeleland North;Mamima
+0;29.3447,-20.0738;ZW-07;Matabeleland South Province;Mount Royal
+0;29.6738,-20.4007;ZW-07;Matabeleland South Province;Gwatemba
+0;29.6037,-20.5093;ZW-07;Matabeleland South Province;Malole
+0;31.8168,-19.6618;ZW-08;Masvingo Province;Mabika
+0;31.8176,-19.6820;ZW-08;Masvingo Province;Chimire
+0;31.7815,-19.6339;ZW-08;Masvingo Province;Diki
+0;31.7998,-19.6750;ZW-08;Masvingo Province;Takaidzwa
+0;31.7930,-19.6817;ZW-08;Masvingo Province;Mafukidze
+0;31.7939,-19.6882;ZW-08;Masvingo Province;Javangwe
+0;31.7666,-19.7039;ZW-08;Masvingo Province;Mahope
+0;31.8203,-19.7076;ZW-08;Masvingo Province;Mashizha
+0;31.8028,-19.6383;ZW-08;Masvingo Province;Njube
+0;31.8011,-19.6305;ZW-08;Masvingo Province;Nemaparo
+0;31.8252,-19.6255;ZW-01;Manicaland;Matendere
+0;31.8265,-19.6737;ZW-08;Masvingo Province;Nechibvuri
+0;31.7771,-19.6583;ZW-08;Masvingo Province;Chavunda
+0;31.7656,-19.6691;ZW-08;Masvingo Province;Matamba
+0;31.7874,-19.7101;ZW-08;Masvingo Province;Maduku
+0;31.7675,-19.6826;ZW-08;Masvingo Province;Machindu
+0;31.7602,-19.6264;ZW-08;Masvingo Province;Munoda
+0;31.7745,-19.7125;ZW-08;Masvingo Province;Mamvura
+0;31.7383,-19.6272;ZW-08;Masvingo Province;Chiwara
+0;31.7129,-19.6242;ZW-08;Masvingo Province;Makuvise
+0;31.6699,-19.6229;ZW-08;Masvingo Province;Mamvura
+0;31.7893,-19.7236;ZW-08;Masvingo Province;Mudite
+0;31.7887,-19.7292;ZW-08;Masvingo Province;Sakurai
+0;31.8258,-19.7252;ZW-08;Masvingo Province;Chinyai
+0;31.8281,-19.7154;ZW-08;Masvingo Province;Ngome
+0;31.8082,-19.7436;ZW-08;Masvingo Province;Mangonono
+0;31.7158,-19.6655;ZW-08;Masvingo Province;Tarusenga
+0;31.7120,-19.6690;ZW-08;Masvingo Province;Makufa
+0;31.7201,-19.6483;ZW-08;Masvingo Province;Dabwa
+0;31.7134,-19.6520;ZW-08;Masvingo Province;Munguri
+0;31.7105,-19.7026;ZW-08;Masvingo Province;Chindito
+0;31.6767,-19.6471;ZW-08;Masvingo Province;Kwangare
+0;31.6819,-19.6525;ZW-08;Masvingo Province;Makonese
+0;31.7431,-19.7040;ZW-08;Masvingo Province;Ruzive
+0;31.6810,-19.7080;ZW-08;Masvingo Province;Chibhamu
+0;31.7100,-19.6918;ZW-08;Masvingo Province;Sonono
+0;31.7945,-19.6510;ZW-08;Masvingo Province;Guzha
+0;31.6821,-19.6661;ZW-08;Masvingo Province;Zvenidza
+0;31.6832,-19.6823;ZW-08;Masvingo Province;Govo
+0;31.6795,-19.6960;ZW-08;Masvingo Province;Mafudze
+0;31.6919,-19.6791;ZW-08;Masvingo Province;Maibire
+0;31.7256,-19.6764;ZW-08;Masvingo Province;Urayayi
+0;31.8469,-19.7420;ZW-08;Masvingo Province;Ziso
+0;31.7875,-19.7838;ZW-08;Masvingo Province;Mutongiwa
+0;31.7936,-19.7449;ZW-08;Masvingo Province;Machakadze
+0;31.8174,-19.7644;ZW-08;Masvingo Province;Mangwiro
+0;31.7769,-19.7981;ZW-08;Masvingo Province;Rangarirai
+0;31.8007,-19.7641;ZW-08;Masvingo Province;Vurayai
+0;31.7415,-19.7217;ZW-08;Masvingo Province;Mapfumo
+0;31.7431,-19.7277;ZW-08;Masvingo Province;Tarugarira
+0;31.7574,-19.7727;ZW-08;Masvingo Province;Zivanai
+0;31.6913,-19.7125;ZW-08;Masvingo Province;Mugwagwa
+0;31.6784,-19.7265;ZW-08;Masvingo Province;Muswayi
+0;31.6699,-19.7387;ZW-08;Masvingo Province;Jerera
+0;31.7096,-19.7533;ZW-08;Masvingo Province;Mudodo
+0;31.7091,-19.7600;ZW-08;Masvingo Province;Mupatsi
+0;31.6678,-19.7330;ZW-08;Masvingo Province;Mutubuki
+0;31.7334,-19.7376;ZW-08;Masvingo Province;Muchabaiwa
+0;31.6878,-19.7746;ZW-08;Masvingo Province;Mabuvo
+0;31.6811,-19.7524;ZW-08;Masvingo Province;Muchakata
+0;31.6692,-19.7932;ZW-08;Masvingo Province;Zinjera
+0;31.7080,-19.7913;ZW-08;Masvingo Province;Nzara
+0;31.7237,-19.7949;ZW-08;Masvingo Province;Mutsakatira
+0;31.6991,-19.7679;ZW-08;Masvingo Province;David
+0;31.7108,-19.7641;ZW-08;Masvingo Province;Mutukwa
+0;31.7162,-19.7838;ZW-08;Masvingo Province;Chivhuro
+0;31.7159,-19.7736;ZW-08;Masvingo Province;Murwiri
+0;31.7579,-19.7991;ZW-08;Masvingo Province;Musundire
+0;31.7450,-19.7956;ZW-08;Masvingo Province;Tarupuwa
+0;31.6560,-19.7568;ZW-08;Masvingo Province;Chivasa
+0;31.6503,-19.7524;ZW-08;Masvingo Province;Tokwe
+0;31.6173,-19.7368;ZW-08;Masvingo Province;Chikuvire
+0;31.6406,-19.7247;ZW-08;Masvingo Province;Mudedye
+0;31.6289,-19.7247;ZW-08;Masvingo Province;Hapanyengwi
+0;31.6127,-19.7239;ZW-08;Masvingo Province;Chimwana
+0;31.6038,-19.7144;ZW-08;Masvingo Province;Chikwiro
+0;31.5693,-19.7131;ZW-08;Masvingo Province;Gotora
+0;31.6481,-19.7782;ZW-08;Masvingo Province;Zvenyika
+0;31.6325,-19.6386;ZW-08;Masvingo Province;Sanangurai
+0;31.5958,-19.6456;ZW-08;Masvingo Province;Rutave
+0;31.5879,-19.6439;ZW-08;Masvingo Province;Ringisai
+0;31.6251,-19.6677;ZW-08;Masvingo Province;Ndimba
+0;31.6567,-19.6706;ZW-08;Masvingo Province;Mudakureva
+0;31.6143,-19.6710;ZW-08;Masvingo Province;Basera
+0;31.6341,-19.6891;ZW-08;Masvingo Province;Ndakaripei
+0;31.5860,-19.6974;ZW-08;Masvingo Province;Mutihero
+0;31.5744,-19.6812;ZW-08;Masvingo Province;Munyaka
+0;31.6189,-19.6887;ZW-08;Masvingo Province;Tirarami
+0;31.6587,-19.6640;ZW-08;Masvingo Province;Marodze
+0;31.6498,-19.6345;ZW-08;Masvingo Province;Jereswa
+0;31.6568,-19.6415;ZW-08;Masvingo Province;Zvirevo
+0;31.6381,-19.6529;ZW-08;Masvingo Province;Charumbira
+0;31.6192,-19.6659;ZW-08;Masvingo Province;Mharadze
+0;31.6640,-19.6915;ZW-08;Masvingo Province;Znichi
+0;31.6425,-19.7006;ZW-08;Masvingo Province;Chigweremba
+0;31.6610,-19.7019;ZW-08;Masvingo Province;Miraikumwe
+0;31.6038,-19.7047;ZW-08;Masvingo Province;Mugariwa
+0;31.5816,-19.6815;ZW-08;Masvingo Province;Masiyandima
+0;31.5906,-19.6666;ZW-08;Masvingo Province;Rife
+0;31.6046,-19.6578;ZW-08;Masvingo Province;Chikonye
+0;31.5868,-19.6547;ZW-08;Masvingo Province;Chauruka
+0;31.5768,-19.6404;ZW-08;Masvingo Province;Tafuma
+0;31.6173,-19.6218;ZW-08;Masvingo Province;Chidya
+0;31.5646,-19.6251;ZW-08;Masvingo Province;Gwamure
+0;31.5520,-19.6240;ZW-08;Masvingo Province;Zeka
+0;31.5504,-19.6329;ZW-08;Masvingo Province;Tsaurai
+0;31.5355,-19.6348;ZW-08;Masvingo Province;Dzivakwi
+0;31.5202,-19.6459;ZW-08;Masvingo Province;Zvidzai
+0;31.5218,-19.6631;ZW-08;Masvingo Province;Chakona
+0;31.5067,-19.6539;ZW-08;Masvingo Province;Mutondoro
+0;31.5091,-19.6807;ZW-08;Masvingo Province;Hudson
+0;31.5104,-19.6695;ZW-08;Masvingo Province;Chinganga
+0;31.5314,-19.6928;ZW-08;Masvingo Province;Chagonda
+0;31.5220,-19.6974;ZW-08;Masvingo Province;Zambeza
+0;31.5560,-19.6776;ZW-08;Masvingo Province;Gogode
+0;31.5520,-19.6440;ZW-08;Masvingo Province;Chaminuka
+0;31.5585,-19.6891;ZW-08;Masvingo Province;Zano
+0;31.5703,-19.7036;ZW-08;Masvingo Province;Musiiwa
+0;31.5755,-19.6588;ZW-08;Masvingo Province;Shumba
+0;31.5474,-19.6510;ZW-08;Masvingo Province;Mangwena
+0;31.5542,-19.7176;ZW-08;Masvingo Province;Chibaya
+0;31.5675,-19.7244;ZW-08;Masvingo Province;Pambayi
+0;31.5283,-19.7268;ZW-08;Masvingo Province;Beni
+0;31.5202,-19.7331;ZW-08;Masvingo Province;Muzorori
+0;31.5423,-19.7193;ZW-08;Masvingo Province;Machikiche
+0;31.5383,-19.7139;ZW-08;Masvingo Province;Abraham
+0;31.1932,-19.9088;ZW-08;Masvingo Province;Chief Makore
+0;31.5377,-19.9206;ZW-08;Masvingo Province;Mungesi
+0;31.5627,-19.9134;ZW-08;Masvingo Province;Gawa
+0;31.5646,-19.8937;ZW-08;Masvingo Province;Chidakwa
+0;31.5596,-19.9001;ZW-08;Masvingo Province;Machawira
+0;31.5337,-19.9325;ZW-08;Masvingo Province;Muchenga
+0;31.5503,-19.9525;ZW-08;Masvingo Province;Chamisa
+0;31.5225,-19.9493;ZW-08;Masvingo Province;Mupandaguta
+0;31.5085,-19.9738;ZW-08;Masvingo Province;Zindinda
+0;31.5255,-19.9707;ZW-08;Masvingo Province;Rinashe
+0;31.5692,-19.9728;ZW-08;Masvingo Province;Majaya
+0;31.5425,-19.9590;ZW-08;Masvingo Province;Rambakudzihwa
+0;31.6044,-19.8874;ZW-08;Masvingo Province;Chimwango
+0;31.6049,-19.8770;ZW-08;Masvingo Province;Chikerema
+0;31.5995,-19.8759;ZW-08;Masvingo Province;Panganai
+0;31.6155,-19.8704;ZW-08;Masvingo Province;Mushirivindi
+0;31.6278,-19.8650;ZW-08;Masvingo Province;Dzambi
+0;31.6333,-19.8721;ZW-08;Masvingo Province;Matingwadza
+0;31.6476,-19.8489;ZW-08;Masvingo Province;Taruvinga
+0;31.6359,-19.8853;ZW-08;Masvingo Province;Nhambu
+0;31.6510,-19.8863;ZW-08;Masvingo Province;Munyindi
+0;31.6522,-19.8788;ZW-08;Masvingo Province;Gahadzikwa
+0;31.6686,-19.8794;ZW-08;Masvingo Province;Chahata
+0;31.6643,-19.8383;ZW-08;Masvingo Province;Mashako
+0;31.6478,-19.8375;ZW-08;Masvingo Province;Machokoto
+0;31.6727,-19.8432;ZW-08;Masvingo Province;Sengai
+0;31.6713,-19.8332;ZW-08;Masvingo Province;Mudawu
+0;31.6583,-19.8556;ZW-08;Masvingo Province;Chapwanya
+0;31.6641,-19.8559;ZW-08;Masvingo Province;Magwiro
+0;31.6681,-19.8527;ZW-08;Masvingo Province;Muderedzwa
+0;31.6006,-19.8936;ZW-08;Masvingo Province;Mauto
+0;31.5685,-19.9101;ZW-08;Masvingo Province;Chivuna
+0;31.6105,-19.8980;ZW-08;Masvingo Province;Gwiznimbi
+0;31.6259,-19.8966;ZW-08;Masvingo Province;Zizima
+0;31.5695,-19.9256;ZW-08;Masvingo Province;Makufa
+0;31.5904,-19.9233;ZW-08;Masvingo Province;Mukoriro
+0;31.5942,-19.9287;ZW-08;Masvingo Province;Kwangwa I
+0;31.5901,-19.9315;ZW-08;Masvingo Province;Tokura
+0;31.5855,-19.9333;ZW-08;Masvingo Province;Kizito
+0;31.6365,-19.9225;ZW-08;Masvingo Province;Gwaza
+0;31.6349,-19.9309;ZW-08;Masvingo Province;Chinaka
+0;31.5858,-19.9415;ZW-08;Masvingo Province;Kwangwa III
+0;31.5730,-19.9474;ZW-08;Masvingo Province;Njerere
+0;31.5860,-19.9606;ZW-08;Masvingo Province;Viyai
+0;31.5822,-19.9681;ZW-08;Masvingo Province;Zvariruka
+0;31.5976,-19.9750;ZW-08;Masvingo Province;Mugadza
+0;31.5893,-19.9650;ZW-08;Masvingo Province;Chiriga
+0;31.6087,-19.9520;ZW-08;Masvingo Province;Jani
+0;31.6119,-19.9485;ZW-08;Masvingo Province;Rashayi
+0;31.6225,-19.9182;ZW-08;Masvingo Province;Payarira
+0;31.6324,-19.9390;ZW-08;Masvingo Province;Tavuya
+0;31.6427,-19.9428;ZW-08;Masvingo Province;Dzingirai
+0;31.6513,-19.9511;ZW-08;Masvingo Province;Rumurai
+0;31.6352,-19.9696;ZW-08;Masvingo Province;Mapfumo
+0;31.6077,-19.9736;ZW-08;Masvingo Province;Vanhukwavo
+0;31.6124,-19.9779;ZW-08;Masvingo Province;Tofaraseyi
+0;31.6595,-19.9252;ZW-08;Masvingo Province;Mazambara
+0;31.6514,-19.8977;ZW-08;Masvingo Province;Matorere II
+0;31.6413,-19.9115;ZW-08;Masvingo Province;Mafinyor
+0;31.6027,-19.9104;ZW-08;Masvingo Province;Musarira
+0;31.6722,-19.9601;ZW-08;Masvingo Province;Fundikai
+0;31.6700,-19.9657;ZW-08;Masvingo Province;Chaurura
+0;31.6835,-19.9750;ZW-08;Masvingo Province;Rufu
+0;31.6151,-19.9568;ZW-08;Masvingo Province;Zvidzayi
+0;31.6572,-19.9056;ZW-08;Masvingo Province;Boyi
+0;31.6816,-19.8121;ZW-08;Masvingo Province;Mupuwi
+0;31.6991,-19.8162;ZW-08;Masvingo Province;Mhakore
+0;31.7091,-19.8183;ZW-08;Masvingo Province;Mudzwiti
+0;31.7212,-19.8073;ZW-08;Masvingo Province;Kanjera
+0;31.7116,-19.8044;ZW-08;Masvingo Province;Muptukidzwa
+0;31.7586,-19.8087;ZW-08;Masvingo Province;Ndisengei
+0;31.7278,-19.8161;ZW-08;Masvingo Province;Mawindo
+0;31.6754,-19.8294;ZW-08;Masvingo Province;Nemashakwe
+0;31.6859,-19.8303;ZW-08;Masvingo Province;Mukosi
+0;31.6786,-19.8416;ZW-08;Masvingo Province;Mari
+0;31.6738,-19.8651;ZW-08;Masvingo Province;Vangarirai
+0;31.6896,-19.8756;ZW-08;Masvingo Province;Hokoyo
+0;31.6845,-19.8785;ZW-08;Masvingo Province;Mandaba
+0;31.6854,-19.8872;ZW-08;Masvingo Province;Wilson
+0;31.7213,-19.8516;ZW-08;Masvingo Province;Machako
+0;31.7228,-19.8434;ZW-08;Masvingo Province;Chokuda
+0;31.7439,-19.8446;ZW-08;Masvingo Province;Itayi
+0;31.7412,-19.8235;ZW-08;Masvingo Province;Muradzi
+0;31.7385,-19.8575;ZW-08;Masvingo Province;Busvumani
+0;31.7583,-19.8486;ZW-08;Masvingo Province;Tumbe
+0;31.7491,-19.8402;ZW-08;Masvingo Province;Gore
+0;31.7629,-19.8257;ZW-08;Masvingo Province;Chadyeni
+0;31.7404,-19.8650;ZW-08;Masvingo Province;Chihenhamo
+0;31.7232,-19.8831;ZW-08;Masvingo Province;Murinda
+0;31.7350,-19.8837;ZW-08;Masvingo Province;Manyadza
+0;31.7105,-19.8886;ZW-08;Masvingo Province;Tomasi
+0;31.7588,-19.8176;ZW-08;Masvingo Province;Mudzimbabwe
+0;31.7066,-19.8478;ZW-08;Masvingo Province;Mufunda
+0;31.6891,-19.9015;ZW-08;Masvingo Province;Tadiosi
+0;31.7166,-19.9009;ZW-08;Masvingo Province;Nhamo
+0;31.7342,-19.9045;ZW-08;Masvingo Province;Pavari
+0;31.7566,-19.8943;ZW-08;Masvingo Province;Guchu
+0;31.7073,-19.9060;ZW-08;Masvingo Province;Tarwirei
+0;31.6718,-19.9159;ZW-08;Masvingo Province;Jecha
+0;31.6926,-19.9099;ZW-08;Masvingo Province;Tanda
+0;31.6992,-19.9256;ZW-08;Masvingo Province;Rugare
+0;31.6715,-19.9383;ZW-08;Masvingo Province;Tabva
+0;31.7340,-19.9326;ZW-08;Masvingo Province;Chomunorwa
+0;31.7170,-19.9241;ZW-08;Masvingo Province;Chigavade
+0;31.6992,-19.9741;ZW-08;Masvingo Province;Madzivire
+0;31.7162,-19.9519;ZW-08;Masvingo Province;Zibhache
+0;31.7129,-19.9592;ZW-08;Masvingo Province;Tarwira
+0;31.7477,-19.9288;ZW-08;Masvingo Province;Mugeji
+0;31.7510,-19.9415;ZW-08;Masvingo Province;Chandida
+0;31.7066,-19.9330;ZW-08;Masvingo Province;Regedzai
+0;31.6930,-19.9603;ZW-08;Masvingo Province;Mutamire
+0;31.7593,-19.9796;ZW-08;Masvingo Province;Mubako
+0;31.7436,-19.9168;ZW-08;Masvingo Province;Mapxere
+0;31.7180,-19.9195;ZW-08;Masvingo Province;Mazano
+0;31.7671,-19.8030;ZW-08;Masvingo Province;Chigomo
+0;31.6321,-19.9827;ZW-08;Masvingo Province;Manyanye
+0;31.6351,-19.9947;ZW-08;Masvingo Province;Pisayi
+0;31.6198,-19.9823;ZW-08;Masvingo Province;Muneri
+0;31.5538,-19.9854;ZW-08;Masvingo Province;Ngundu
+0;31.5104,-19.9876;ZW-08;Masvingo Province;Urayai
+0;31.8053,-19.8353;ZW-08;Masvingo Province;Mhuru
+0;31.8071,-19.8620;ZW-08;Masvingo Province;Dapi
+0;31.7980,-19.8705;ZW-08;Masvingo Province;Chinyati
+0;31.7833,-19.8808;ZW-08;Masvingo Province;Chimunhu
+0;31.7621,-19.8844;ZW-08;Masvingo Province;Mhazvo
+0;31.7734,-19.8539;ZW-08;Masvingo Province;Rwambiwa
+0;31.7864,-19.8461;ZW-08;Masvingo Province;Pavaida
+0;31.8031,-19.8184;ZW-08;Masvingo Province;Mutambesere
+0;31.8670,-19.8262;ZW-08;Masvingo Province;Pirikisi
+0;31.8455,-19.8203;ZW-08;Masvingo Province;Toringepi
+0;31.8546,-19.8815;ZW-08;Masvingo Province;Mupunga
+0;31.8427,-19.8081;ZW-08;Masvingo Province;Munhanga
+0;31.8366,-19.8049;ZW-08;Masvingo Province;Zvavarundwi
+0;31.8290,-19.8026;ZW-08;Masvingo Province;Mupfudze
+0;31.8209,-19.8680;ZW-08;Masvingo Province;Matotote
+0;31.7729,-19.8318;ZW-08;Masvingo Province;Takarindwa
+0;31.8241,-19.8964;ZW-08;Masvingo Province;Mafuka
+0;31.8298,-19.8986;ZW-08;Masvingo Province;Machinga
+0;31.8112,-19.9007;ZW-08;Masvingo Province;Ganda
+0;31.7985,-19.9051;ZW-08;Masvingo Province;Tangano
+0;31.7709,-19.8975;ZW-08;Masvingo Province;Chidonitofaraseyi
+0;31.7758,-19.9260;ZW-08;Masvingo Province;Gonye
+0;31.7744,-19.9166;ZW-08;Masvingo Province;Nhengo
+0;31.7625,-19.9201;ZW-08;Masvingo Province;Chaita
+0;31.8045,-19.9169;ZW-08;Masvingo Province;Muganhiri
+0;31.8257,-19.9271;ZW-08;Masvingo Province;Mufudza
+0;31.7815,-19.9485;ZW-08;Masvingo Province;Ziromba
+0;31.7961,-19.9528;ZW-08;Masvingo Province;Marima
+0;31.8153,-19.9293;ZW-08;Masvingo Province;Zunde
+0;31.7774,-19.9650;ZW-08;Masvingo Province;Rukweza
+0;31.7648,-19.9765;ZW-08;Masvingo Province;Guni
+0;31.7923,-19.9687;ZW-08;Masvingo Province;Tokonyai
+0;31.8171,-19.9536;ZW-08;Masvingo Province;Gwema
+0;31.8249,-19.9627;ZW-08;Masvingo Province;Panichi
+0;31.8296,-19.9623;ZW-08;Masvingo Province;Chokufa
+0;31.8157,-19.9491;ZW-08;Masvingo Province;Chowe
+0;31.8396,-19.9352;ZW-08;Masvingo Province;Zvawanda
+0;31.8409,-19.9188;ZW-08;Masvingo Province;Mandaza
+0;31.8442,-19.9309;ZW-08;Masvingo Province;Mberi
+0;31.8269,-19.9534;ZW-08;Masvingo Province;Mazvimba
+0;31.8476,-19.9707;ZW-08;Masvingo Province;Chimene
+0;31.8382,-19.9466;ZW-08;Masvingo Province;Mhazo
+0;31.8547,-19.9339;ZW-08;Masvingo Province;Madanyika
+0;31.8579,-19.9430;ZW-08;Masvingo Province;Janje
+0;31.8884,-19.8033;ZW-08;Masvingo Province;Chagwiza
+0;31.9100,-19.8168;ZW-08;Masvingo Province;Rukato
+0;31.9100,-19.8137;ZW-08;Masvingo Province;Dege
+0;31.8968,-19.8364;ZW-08;Masvingo Province;Nyaiwa
+0;31.8746,-19.8340;ZW-08;Masvingo Province;Chitadu
+0;31.8790,-19.8613;ZW-08;Masvingo Province;Mabunu
+0;31.8733,-19.8777;ZW-08;Masvingo Province;Resoro
+0;31.8929,-19.8683;ZW-08;Masvingo Province;Muruzi
+0;31.8935,-19.8761;ZW-08;Masvingo Province;Chireya
+0;31.9146,-19.8808;ZW-08;Masvingo Province;Nechirorwe
+0;31.9011,-19.8592;ZW-08;Masvingo Province;Muchadeharna
+0;31.8662,-19.9040;ZW-08;Masvingo Province;Chapungu
+0;31.9102,-19.8975;ZW-08;Masvingo Province;Zinamo
+0;31.9121,-19.9004;ZW-08;Masvingo Province;Runesu
+0;31.8555,-19.9129;ZW-08;Masvingo Province;Makinhiwa
+0;31.8662,-19.9179;ZW-08;Masvingo Province;Mubungare
+0;31.8960,-19.9221;ZW-08;Masvingo Province;Mapfume
+0;31.8964,-19.9288;ZW-08;Masvingo Province;Rwauya
+0;31.8794,-19.9317;ZW-08;Masvingo Province;Maperezano
+0;31.9396,-19.9283;ZW-08;Masvingo Province;Nyamadzavo
+0;31.8859,-19.9423;ZW-08;Masvingo Province;Mundityi
+0;31.8687,-19.9490;ZW-08;Masvingo Province;Mhedzano
+0;31.8779,-19.9585;ZW-08;Masvingo Province;Ranches
+0;31.8520,-19.9604;ZW-08;Masvingo Province;Zimunhu
+0;31.8565,-19.9638;ZW-08;Masvingo Province;Mamutse
+0;31.8743,-19.9793;ZW-08;Masvingo Province;Banga
+0;31.8884,-19.9707;ZW-08;Masvingo Province;Nyasha
+0;31.9195,-19.9611;ZW-08;Masvingo Province;Tavafumisa
+0;31.9208,-19.9717;ZW-08;Masvingo Province;Matunzeni
+0;31.9249,-19.9658;ZW-08;Masvingo Province;Nyika
+0;31.9681,-19.8388;ZW-08;Masvingo Province;Pamire
+0;31.9672,-19.8432;ZW-08;Masvingo Province;Tsvangirayi
+0;31.9661,-19.8513;ZW-08;Masvingo Province;Mandivenga
+0;31.9486,-19.8755;ZW-08;Masvingo Province;Takaendesa
+0;31.9783,-19.8675;ZW-08;Masvingo Province;Pomerayi
+0;31.9634,-19.8867;ZW-08;Masvingo Province;Dzinokuvara
+0;31.9488,-19.8901;ZW-08;Masvingo Province;Mutema
+0;31.9772,-19.8978;ZW-08;Masvingo Province;Mandivengereyi
+0;31.9870,-19.9083;ZW-08;Masvingo Province;Hore
+0;31.9632,-19.9309;ZW-08;Masvingo Province;Radzikayi
+0;31.9583,-19.9140;ZW-08;Masvingo Province;Ngwadzavi
+0;31.9646,-19.9420;ZW-08;Masvingo Province;Dahwa
+0;31.9678,-19.9582;ZW-08;Masvingo Province;Gambakwa
+0;31.9511,-19.9715;ZW-08;Masvingo Province;Muduma
+0;31.8935,-19.9935;ZW-08;Masvingo Province;Havadi
+0;31.8763,-19.9847;ZW-08;Masvingo Province;Tasera II
+0;31.8552,-19.9908;ZW-08;Masvingo Province;Mufari
+0;31.8160,-19.9944;ZW-08;Masvingo Province;Gondowe
+0;31.8179,-19.9874;ZW-08;Masvingo Province;Soruka
+0;31.8019,-19.9849;ZW-08;Masvingo Province;Maptumo
+0;31.7907,-19.9801;ZW-08;Masvingo Province;Mondo
+0;31.7305,-19.9908;ZW-08;Masvingo Province;Kubvoruro
+0;31.6923,-19.9936;ZW-08;Masvingo Province;Ngwangwani
+0;31.7108,-19.9858;ZW-08;Masvingo Province;Nhidza
+0;31.7509,-19.9789;ZW-08;Masvingo Province;Nyangari
+0;31.6595,-19.9827;ZW-08;Masvingo Province;Zival
+0;27.6896,-19.1322;ZW-06;Matabeleland North;Mlagisa
+0;27.4692,-19.1443;ZW-06;Matabeleland North;Nganyana
+0;27.5731,-19.4620;ZW-06;Matabeleland North;Mpanedziba
+0;27.5390,-19.4696;ZW-06;Matabeleland North;Garigari
+0;27.2376,-19.4607;ZW-06;Matabeleland North;Nengondzwana
+0;27.0918,-19.6069;ZW-06;Matabeleland North;Deleleni
+0;27.1309,-19.4337;ZW-06;Matabeleland North;Dzimidza
+0;27.5644,-19.6020;ZW-06;Matabeleland North;Ngadzi
+0;27.5281,-19.7200;ZW-06;Matabeleland North;Sasedza
+0;27.0160,-19.8105;ZW-06;Matabeleland North;Lagisa
+0;27.6002,-19.8487;ZW-06;Matabeleland North;Nanda
+0;27.8441,-19.8392;ZW-06;Matabeleland North;Godzo
+0;27.6733,-19.0748;ZW-06;Matabeleland North;Dingani
+0;27.9754,-19.1038;ZW-06;Matabeleland North;Kenmaur
+0;27.6947,-19.2635;ZW-06;Matabeleland North;Nkwalini
+0;28.4762,-19.3330;ZW-06;Matabeleland North;Siganda
+0;27.6604,-19.2811;ZW-06;Matabeleland North;Sipepa
+0;28.3916,-19.6210;ZW-06;Matabeleland North;Maraposa
+0;27.5170,-19.6995;ZW-06;Matabeleland North;Mbahulana
+0;27.5526,-19.7801;ZW-06;Matabeleland North;Matonjeka
+0;27.8008,-19.8162;ZW-06;Matabeleland North;Chief Nqoya
+0;27.8284,-19.9009;ZW-06;Matabeleland North;Silande
+0;28.2749,-20.9672;ZW-07;Matabeleland South Province;Semukwe
+0;31.1502,-17.0632;ZW-03;Mashonaland Central;Shutu
+0;31.4774,-17.5358;ZW-03;Mashonaland Central;Rutope
+0;31.8900,-17.5476;ZW-04;Mashonaland East Province;Chitowa
+0;31.3385,-17.8262;ZW-04;Mashonaland East Province;Chinyika
+0;31.5477,-17.9385;ZW-04;Mashonaland East Province;Shangure
+0;31.5315,-16.6925;ZW-03;Mashonaland Central;Karuyana
+0;32.3129,-20.4566;ZW-01;Manicaland;Chibuwe
+0;29.1637,-16.2202;ZW-05;Mashonaland West;Marongora
+0;29.4595,-16.4833;ZW-05;Mashonaland West;Vuti
+0;29.3040,-16.9590;ZW-05;Mashonaland West;Chehoko
+0;29.7603,-16.9002;ZW-05;Mashonaland West;Buffalo Downs
+0;30.3383,-20.5536;ZW-02;Midlands Province;Mukwakwe
+0;31.2291,-20.6917;ZW-08;Masvingo Province;Bangala
+0;27.3066,-18.4708;ZW-06;Matabeleland North;Lubimbi
+0;30.5069,-19.4897;ZW-02;Midlands Province;Mapiravana
+0;32.0070,-18.9261;ZW-01;Manicaland;Chiduku
+0;31.5540,-19.1458;ZW-01;Manicaland;Ndawana
+0;31.7144,-19.1191;ZW-01;Manicaland;Chinoro
+0;31.7369,-19.1559;ZW-01;Manicaland;Munyanyi
+0;31.7007,-19.1364;ZW-01;Manicaland;Machacha
+0;31.6779,-19.1104;ZW-01;Manicaland;Chiturike
+0;31.6608,-19.1731;ZW-01;Manicaland;Mukondomi
+0;31.7591,-19.2112;ZW-01;Manicaland;Masocha
+0;31.7204,-19.2277;ZW-01;Manicaland;Neshava
+0;31.8077,-19.2654;ZW-01;Manicaland;Ndongwe
+0;31.9451,-19.2762;ZW-01;Manicaland;Mutauto
+0;31.8182,-19.3234;ZW-01;Manicaland;Mabvuragudo
+0;31.8288,-19.4547;ZW-01;Manicaland;Masenda
+0;31.5585,-19.4441;ZW-08;Masvingo Province;Mondo
+0;31.6440,-19.5984;ZW-08;Masvingo Province;Gomba
+0;31.7157,-19.5760;ZW-08;Masvingo Province;Gudza
+0;31.8082,-19.6166;ZW-08;Masvingo Province;Gudo
+0;31.8827,-19.5025;ZW-01;Manicaland;Muchuchu
+0;31.8100,-19.7077;ZW-08;Masvingo Province;Matombo
+0;31.7680,-19.6569;ZW-08;Masvingo Province;Mataruse
+0;31.7675,-19.6621;ZW-08;Masvingo Province;Mushangwe
+0;31.6687,-19.6747;ZW-08;Masvingo Province;Makamure
+0;31.8265,-19.7671;ZW-08;Masvingo Province;Kurai
+0;31.7723,-19.7709;ZW-08;Masvingo Province;Mudodiwa
+0;31.7018,-19.7404;ZW-08;Masvingo Province;Soro
+0;31.5769,-19.7200;ZW-08;Masvingo Province;Gumindoga
+0;31.6335,-19.6443;ZW-08;Masvingo Province;Mutasa
+0;31.5374,-19.6285;ZW-08;Masvingo Province;Makuvise
+0;31.5901,-19.8952;ZW-08;Masvingo Province;Dungu
+0;31.6605,-19.9734;ZW-08;Masvingo Province;Charamba
+0;31.6934,-19.9506;ZW-08;Masvingo Province;Masarire
+0;31.9064,-19.9458;ZW-08;Masvingo Province;Mutsinzwa
+0;31.6349,-19.9897;ZW-08;Masvingo Province;Mupakwa
+0;32.0798,-19.7015;ZW-01;Manicaland;Baruru
+0;29.9014,-17.6505;ZW-05;Mashonaland West;Zimbara
+0;31.8431,-19.7438;ZW-08;Masvingo Province;Nyika-Kurai
+0;27.8224,-19.8578;ZW-06;Matabeleland North;Nhlangano
+0;30.8273,-20.2708;ZW-08;Masvingo Province;Barapate
+0;30.9554,-17.8228;ZW-04;Mashonaland East Province;Dzivarasekwa
+0;31.2000,-17.7333;ZW-04;Mashonaland East Province;Rumbabvu
+0;31.5536,-18.1972;ZW-04;Mashonaland East Province;Marowa
+0;30.0606,-20.3179;ZW-02;Midlands Province;Maglas
+0;30.8664,-20.3996;ZW-08;Masvingo Province;Mapanzure
+0;29.8000,-18.2167;ZW-05;Mashonaland West;Golden Valley
+0;30.8407,-20.0849;ZW-08;Masvingo Province;Rujeko
+0;31.6496,-19.2729;ZW-01;Manicaland;Murambinda
+0;29.4983,-17.3716;ZW-05;Mashonaland West;Garwe
+0;32.6230,-19.1010;ZW-01;Manicaland;Zimunya
+0;29.8383,-18.6834;ZW-05;Mashonaland West;St. Killians
+0;32.1370,-16.6341;ZW-03;Mashonaland Central;Chimhanda
+0;31.1332,-19.9773;ZW-08;Masvingo Province;Mapako
+0;28.5239,-17.6310;ZW-02;Midlands Province;Madzivazvido
+0;31.0973,-17.7664;ZW-04;Mashonaland East Province;Westgate
+0;29.3407,-18.6770;ZW-02;Midlands Province;Zhombe
+0;31.3786,-20.7721;ZW-08;Masvingo Province;17
+0;29.2677,-18.2064;ZW-02;Midlands Province;Siamwanja
+0;32.5994,-19.0187;ZW-01;Manicaland;Mutekairi Dangamvura
+0;31.0107,-17.8679;ZW-04;Mashonaland East Province;Bexley Circle
+0;31.0377,-17.8143;ZW-04;Mashonaland East Province;Montagu Centre
+0;31.1497,-16.9929;ZW-03;Mashonaland Central;Mhombera Estate
+0;31.7135,-19.3184;ZW-01;Manicaland;Madzivire
+0;31.6621,-19.2267;ZW-01;Manicaland;Muchuweni
+0;31.7159,-19.3756;ZW-01;Manicaland;Mudanda
+0;31.7623,-19.5340;ZW-01;Manicaland;Bangure
+0;31.7045,-19.4929;ZW-01;Manicaland;Njarima
+0;32.5168,-19.5506;ZW-01;Manicaland;Chakohwa
+0;32.5319,-19.5067;ZW-01;Manicaland;Wengezi
+0;32.4053,-19.8603;ZW-01;Manicaland;Gudyanga
+0;30.1971,-17.7007;ZW-05;Mashonaland West;Murombedzi
+0;32.6674,-16.9965;ZW-04;Mashonaland East Province;Kotwa
+15556;30.8767,-17.8415;ZW-05;Mashonaland West;Harare Western Suburbs
+2930;30.1590,-16.8920;ZW-05;Mashonaland West;Mhangura Mine
+0;29.4373,-16.8826;ZW-05;Mashonaland West;Magunje
+50;29.3526,-20.9500;ZW-07;Matabeleland South Province;Khumalo

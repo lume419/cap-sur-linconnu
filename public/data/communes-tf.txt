@@ -1,0 +1,3 @@
+0;47.2970,-11.5794;TF-05;Îles Éparses;Île Glorieuse
+0;47.3767,-11.5163;TF-05;Îles Éparses;Île du Lys
+0;42.7248,-17.0545;TF-05;Îles Éparses;Île Juan de Nova

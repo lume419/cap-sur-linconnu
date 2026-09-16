@@ -37,7 +37,7 @@ for(const country of COUNTRIES){
   fs.readFileSync(communesPath, 'utf8').split('\n').filter(Boolean).forEach(line => {
     const parts = line.split(';');
     const lonlat = parts[1].split(',');
-    const key = norm(parts[4]) + '|' + parseFloat(lonlat[1]).toFixed(2) + '|' + parseFloat(lonlat[0]).toFixed(2);
+    const key = norm(parts[4]) + '|' + parseFloat(lonlat[1]).toFixed(4) + '|' + parseFloat(lonlat[0]).toFixed(4);
     published.set(key, parts[4]);
   });
 
@@ -52,13 +52,13 @@ for(const country of COUNTRIES){
       // le nom publié peut être une correction d'exonyme : on teste le nom du dump ET, à défaut,
       // la seule entrée publiée aux mêmes coordonnées
       for(const candidate of [c[1]]){
-        const key = norm(candidate) + '|' + lat.toFixed(2) + '|' + lon.toFixed(2);
+        const key = norm(candidate) + '|' + lat.toFixed(4) + '|' + lon.toFixed(4);
         if(published.has(key)){ canonicalByGeonameId.set(c[0], published.get(key)); return; }
       }
       // exonyme corrigé : mêmes coordonnées, nom différent
       for(const [key, name] of published){
         const bits = key.split('|');
-        if(bits[1] === lat.toFixed(2) && bits[2] === lon.toFixed(2)){
+        if(bits[1] === lat.toFixed(4) && bits[2] === lon.toFixed(4)){
           canonicalByGeonameId.set(c[0], name);
           return;
         }

@@ -1,0 +1,1358 @@
+0;39.6690,15.2457;ER-06;Northern Red Sea;Zula
+0;38.3787,15.0233;ER-04;Gash-Barka;Tsibuk Grat
+0;38.9933,15.2189;ER-05;Maekel;Zigib
+0;38.8158,14.8592;ER-02;Debub;Ziban Una
+0;38.5378,14.7586;ER-02;Debub;Zeban Debri
+0;38.8012,15.3506;ER-05;Maekel;Tse’azega
+0;38.7647,15.1881;ER-02;Debub;Zawl
+0;40.3124,14.4868;ER-06;Northern Red Sea;Zariga
+0;38.8602,15.4913;ER-05;Maekel;Zahaflam
+0;38.8971,15.5396;ER-05;Maekel;Zagr
+0;39.4000,15.6000;ER-06;Northern Red Sea;Zaga
+0;38.6053,15.7294;ER-01;Anseba;Yigi’ār
+0;39.3162,15.8228;ER-06;Northern Red Sea;Wek’iro
+0;39.0053,15.1484;ER-02;Debub;Wekertī
+0;38.8797,15.3675;ER-05;Maekel;Wek Diba
+0;38.4069,17.0994;ER-02;Debub;Wedegiba
+0;42.6333,12.6500;ER-03;Southern Red Sea;Vann
+0;38.6000,17.3333;ER-06;Northern Red Sea;Uodgan
+0;38.8311,15.4497;ER-05;Maekel;Una Lanalay
+0;37.4411,14.8244;ER-04;Gash-Barka;Awgaro
+0;37.8272,14.7525;ER-04;Gash-Barka;Udibi
+0;38.5000,15.9167;ER-01;Anseba;Uasentet
+0;38.7783,15.6163;ER-01;Anseba;Uara
+0;38.3983,14.8639;ER-02;Debub;Tzada Addi
+0;38.2444,14.7969;ER-04;Gash-Barka;Tkul
+0;38.9664,15.2796;ER-05;Maekel;Ts’elot
+0;39.0250,15.0314;ER-02;Debub;Ts’egwaro
+0;38.8586,15.3103;ER-05;Maekel;Ts’e’āda
+0;38.3491,15.8612;ER-06;Northern Red Sea;Trongo
+0;39.0297,15.2556;ER-05;Maekel;Embela
+0;36.9369,14.6308;ER-04;Gash-Barka;Tolesuca
+0;37.7975,15.0008;ER-04;Gash-Barka;Tole
+0;37.7553,14.9611;ER-04;Gash-Barka;Tole
+0;37.4197,16.1731;ER-01;Anseba;Tognuf
+0;38.2170,16.5141;ER-06;Northern Red Sea;Tof Alaba
+0;40.9588,14.6897;ER-03;Southern Red Sea;Tio
+0;42.7428,13.0272;ER-03;Southern Red Sea;Tinishu Assab
+0;38.8617,14.6531;ER-02;Debub;Time’ī
+0;38.6283,16.6344;ER-06;Northern Red Sea;Ticse
+0;38.3430,16.1110;ER-06;Northern Red Sea;Tetafil
+0;38.8266,15.0096;ER-02;Debub;Tera-Emnī
+0;39.3467,14.8144;ER-02;Debub;Tegheren
+0;37.4868,15.1783;ER-04;Gash-Barka;Tauda
+0;39.5200,15.3992;ER-06;Northern Red Sea;Tarua
+0;42.4000,12.6500;ER-03;Southern Red Sea;Targhan
+0;38.4614,15.7955;ER-06;Northern Red Sea;Tantarua
+0;38.8000,15.0000;ER-02;Debub;Takīta
+0;38.1833,16.5667;ER-01;Anseba;Tahara
+0;39.1296,15.4715;ER-06;Northern Red Sea;Dengolo Tahtay
+0;38.8139,15.4600;ER-05;Maekel;T’a’āreshī
+0;41.0963,14.2776;ER-03;Southern Red Sea;Suwa
+0;39.5037,15.0675;ER-06;Northern Red Sea;Suru Superiore
+0;39.5333,15.1000;ER-06;Northern Red Sea;Suru Inferiore
+0;38.5204,15.6720;ER-01;Anseba;Surto
+0;36.9167,16.0167;ER-04;Gash-Barka;Sorbetit
+0;37.3509,14.4071;ER-04;Gash-Barka;Sitona
+0;38.7853,14.7464;ER-02;Debub;Sibi’ā
+0;38.7335,15.4909;ER-04;Gash-Barka;Shīmangus-Tahtay
+0;38.8483,15.4750;ER-05;Maekel;Shīma Nigus La‘ilay
+0;38.8621,15.1515;ER-05;Maekel;Shiketī
+0;38.9919,15.3667;ER-05;Maekel;Shigirnī
+0;38.8100,14.9619;ER-02;Debub;Sheka Wedī Bisrat
+0;39.2500,16.0333;ER-06;Northern Red Sea;Sheib
+0;39.4781,15.6234;ER-06;Northern Red Sea;Shēh Ābdel K’adir
+0;38.6728,15.6800;ER-01;Anseba;Shegilet Wedī Merīr
+0;41.4633,14.2667;ER-03;Southern Red Sea;Sheburur
+0;42.1838,13.2820;ER-03;Southern Red Sea;Seud Buij
+0;39.6894,14.8648;ER-06;Northern Red Sea;Sessaghede
+0;39.0178,15.1128;ER-02;Debub;Sesah
+0;39.4223,14.7001;ER-02;Debub;Sen‘afe
+0;38.8758,15.2053;ER-05;Maekel;Saladaro
+0;38.6686,15.7448;ER-01;Anseba;Selaba She’īb
+0;39.1872,15.0528;ER-02;Debub;Segheneytī
+0;38.9013,15.3421;ER-05;Maekel;Segdo
+0;36.6500,15.4500;ER-04;Gash-Barka;Sebderat
+0;38.5000,16.5833;ER-06;Northern Red Sea;Sciumagalle
+0;36.9009,14.3937;ER-04;Gash-Barka;Scisci
+0;37.7544,15.0721;ER-04;Gash-Barka;Scipitale
+0;39.4892,15.4050;ER-06;Northern Red Sea;Scillichi
+0;41.0333,14.6167;ER-03;Southern Red Sea;Sciec Alilo
+0;38.0500,15.4167;ER-04;Gash-Barka;Sciacchen
+0;39.0498,15.6996;ER-06;Northern Red Sea;Shibah
+0;37.8254,16.6317;ER-06;Northern Red Sea;Sherit
+0;40.0167,15.8000;ER-06;Northern Red Sea;Sceic Abdo Raama
+0;39.0500,15.1167;ER-02;Debub;Sasah
+0;39.0433,15.1142;ER-02;Debub;Sesah
+0;41.2954,14.5093;ER-03;Southern Red Sea;Saroyta
+0;40.5324,14.3197;ER-03;Southern Red Sea;Sanda
+0;40.0619,14.7069;ER-06;Northern Red Sea;Samoti
+0;37.7167,15.2000;ER-04;Gash-Barka;Samero
+0;40.8286,14.7249;ER-03;Southern Red Sea;Sahlī
+0;36.8167,14.6064;ER-04;Gash-Barka;Sahlat
+0;38.7781,14.5203;ER-02;Debub;Ksad-Ika
+0;39.5245,15.1208;ER-06;Northern Red Sea;Sacatare
+0;42.7667,12.5167;ER-03;Southern Red Sea;Sacalatta
+0;37.3894,16.5301;ER-01;Anseba;Saatta
+0;39.2560,15.5793;ER-06;Northern Red Sea;Saati
+0;39.9890,14.4572;ER-02;Debub;Randakoma
+0;43.0834,12.7285;ER-03;Southern Red Sea;Raheita
+0;38.5579,17.9754;ER-06;Northern Red Sea;Ras Kasar
+0;40.3777,14.9717;ER-06;Northern Red Sea;Rasa
+0;38.2097,16.0549;ER-06;Northern Red Sea;Rahei
+0;40.1312,14.5507;ER-06;Northern Red Sea;Ragali
+0;40.7681,14.6243;ER-03;Southern Red Sea;Raa
+0;38.5167,15.4500;ER-04;Gash-Barka;Queddaelli
+0;40.0000,15.5401;ER-06;Northern Red Sea;Port Smyth
+0;37.4667,16.9833;ER-01;Anseba;Per Tokar
+0;38.9089,14.6611;ER-02;Debub;Ona Gabien
+0;39.2186,14.7542;ER-02;Debub;Una-Andom
+0;40.9605,14.5577;ER-03;Southern Red Sea;Ona
+0;36.6444,14.3276;ER-04;Gash-Barka;Omhājer
+0;39.1904,16.2556;ER-02;Debub;Obellet
+0;38.9424,16.1402;ER-02;Debub;Obellet
+0;42.0526,13.2677;ER-03;Southern Red Sea;Oasi
+0;39.9378,15.7044;ER-06;Northern Red Sea;Nokra
+0;39.0592,15.3233;ER-06;Northern Red Sea;Nefasīt
+0;39.5135,15.5148;ER-06;Northern Red Sea;Nauret
+0;36.9356,14.5969;ER-04;Gash-Barka;Narcaba
+0;38.4765,16.6673;ER-06;Northern Red Sea;Nak’fa
+0;42.9167,12.6333;ER-03;Southern Red Sea;Nacta
+0;38.5012,15.8337;ER-01;Anseba;Muscia
+0;41.9000,13.1000;ER-03;Southern Red Sea;Musa Ela
+0;37.3306,14.8683;ER-04;Gash-Barka;Moso
+0;40.6854,14.8835;ER-03;Southern Red Sea;Mora
+0;38.2194,16.0184;ER-06;Northern Red Sea;Melebso
+0;38.6409,15.4664;ER-04;Gash-Barka;Molazenai
+0;37.5570,15.2742;ER-04;Gash-Barka;Mogolo
+0;39.9068,15.1961;ER-06;Northern Red Sea;Mogile
+0;40.0442,14.7638;ER-06;Northern Red Sea;Mocolba
+23100;39.4746,15.6081;ER-06;Northern Red Sea;Massawa
+0;37.6333,14.9333;ER-04;Gash-Barka;Missione Svedese
+0;38.8328,15.3053;ER-05;Maekel;Misgwag
+0;38.8325,14.7767;ER-02;Debub;Mikrem
+0;40.7776,14.7289;ER-03;Southern Red Sea;M’edr
+0;38.8314,14.7383;ER-02;Debub;Mihiyaw
+0;39.0555,15.0753;ER-02;Debub;Mets’alu
+0;39.5333,14.5000;ER-02;Debub;Metich
+0;39.0576,15.2753;ER-06;Northern Red Sea;Mestamer
+0;37.5000,15.3000;ER-04;Gash-Barka;Mescul
+0;38.8218,17.5564;ER-06;Northern Red Sea;Mersa Tek’lay
+0;39.1562,16.4175;ER-02;Debub;Mersa Gulbub
+0;40.3136,14.9008;ER-06;Northern Red Sea;Mersa Fat’ma
+0;38.9238,15.2613;ER-05;Maekel;Merhano
+0;42.7441,12.9006;ER-03;Southern Red Sea;Mērgēbla
+0;38.9670,15.6874;ER-06;Northern Red Sea;Menuetet
+0;38.2603,15.4797;ER-04;Gash-Barka;Mensura
+0;38.4791,15.8561;ER-01;Anseba;Mendad
+0;39.9717,15.7642;ER-06;Northern Red Sea;Melīl
+0;38.9042,15.4986;ER-05;Maekel;Mek’erka
+0;38.8501,15.4652;ER-05;Maekel;Mek’erka
+0;42.6730,13.0543;ER-03;Southern Red Sea;Meka’ika
+0;38.7503,15.7487;ER-01;Anseba;Mihlab
+0;39.3142,15.6152;ER-06;Northern Red Sea;Mehātel Jebal
+0;38.4086,15.7844;ER-06;Northern Red Sea;Megarih
+0;38.8378,14.8153;ER-02;Debub;Mefalso
+0;38.3833,16.9667;ER-06;Northern Red Sea;Medruriet
+0;39.7500,14.6000;ER-06;Northern Red Sea;Medere
+0;38.8203,15.5095;ER-05;Maekel;Mebasīt
+0;38.8503,14.6144;ER-02;Debub;May Mech’ek’at
+0;38.7992,14.9303;ER-02;Debub;May Libus
+0;39.0622,15.2944;ER-06;Northern Red Sea;May-Hābar
+0;39.0635,15.2932;ER-06;Northern Red Sea;Mai Hābar
+0;39.1125,14.9865;ER-02;Debub;Mayhā
+0;39.2397,15.5689;ER-06;Northern Red Sea;May Āt’al
+0;39.2722,14.5403;ER-02;Debub;Matara
+0;39.3890,15.7501;ER-06;Northern Red Sea;Mass Ali
+0;39.3714,14.7422;ER-02;Debub;Marta
+0;37.3781,15.3363;ER-04;Gash-Barka;Markaughe
+0;37.8347,14.9186;ER-04;Gash-Barka;Shambiko
+0;39.2516,15.2529;ER-06;Northern Red Sea;Mara
+0;38.2667,15.8500;ER-01;Anseba;Mansciua
+0;39.3239,14.9103;ER-02;Debub;Mandafara
+0;38.0900,16.5502;ER-06;Northern Red Sea;Malhas
+0;39.3825,14.5947;ER-02;Debub;Mai Tzagla
+0;39.4092,14.8117;ER-02;Debub;Mai Turab
+0;42.2355,12.9994;ER-03;Southern Red Sea;Mai-ti
+0;36.8430,14.3846;ER-04;Gash-Barka;Mai Teb
+0;39.1480,15.0393;ER-02;Debub;Ma’ereba
+0;39.3989,15.0098;ER-02;Debub;Mahio
+0;38.2675,14.9867;ER-04;Gash-Barka;May-Mefals
+0;38.4286,14.5161;ER-02;Debub;Mai Gorzo
+0;39.0539,14.9897;ER-02;Debub;Mai Edaga
+0;36.9447,14.5217;ER-04;Gash-Barka;Mai Chele
+0;38.4794,14.8983;ER-02;Debub;Mai Cehu
+0;38.4542,14.5944;ER-02;Debub;Mai Assa
+0;39.5250,14.9360;ER-02;Debub;Maiam
+0;38.5044,15.1241;ER-02;Debub;Albo
+0;39.0994,14.8053;ER-02;Debub;Mai Aini
+0;38.8460,16.1743;ER-02;Debub;Maho
+0;36.9178,14.5550;ER-04;Gash-Barka;Magala
+0;39.8051,15.2936;ER-06;Northern Red Sea;Meka’enile
+0;39.0428,15.3428;ER-06;Northern Red Sea;Lēsa
+0;39.1219,15.4506;ER-06;Northern Red Sea;Dengolo
+0;39.8104,15.3672;ER-06;Northern Red Sea;Lammagadi
+0;39.4615,15.3532;ER-06;Northern Red Sea;Lalenta
+0;38.7355,15.1917;ER-02;Debub;La‘ilay Ādī Kefelet
+0;38.8407,15.2253;ER-05;Maekel;Laguyen
+0;41.4003,13.8154;ER-03;Southern Red Sea;Lafofle
+0;38.3506,16.3333;ER-06;Northern Red Sea;Laba
+0;38.8325,14.6619;ER-02;Debub;Kutur
+0;38.8684,15.3190;ER-05;Maekel;K’ushut
+0;40.3515,14.3747;ER-06;Northern Red Sea;Kulul
+0;38.8489,14.8692;ER-02;Debub;Kudo-Felasī
+0;38.6411,16.3498;ER-02;Debub;Kubkub
+0;38.9653,15.0541;ER-02;Debub;Querbarya
+0;38.8272,15.2583;ER-05;Maekel;Kitmo Āwlī’i
+0;38.8428,14.7969;ER-02;Debub;K’ine Hāyela
+0;39.0597,15.0999;ER-02;Debub;K’eyih Kor
+0;37.2058,15.6272;ER-04;Gash-Barka;Kieru
+0;37.4018,16.2876;ER-01;Anseba;Kerkebet
+74800;38.4511,15.7779;ER-01;Anseba;Keren
+0;38.7358,15.6889;ER-01;Anseba;K’erech’a
+0;38.6972,16.3894;ER-02;Debub;Kemechiwa
+0;38.9167,16.0667;ER-06;Northern Red Sea;Kelmet
+0;41.6249,14.0541;ER-03;Southern Red Sea;Krum
+0;39.9549,15.7474;ER-06;Northern Red Sea;Jīmhīl
+0;38.8261,14.7172;ER-02;Debub;Īyamo
+0;38.3619,16.1756;ER-06;Northern Red Sea;It Atba
+0;39.8819,15.4681;ER-06;Northern Red Sea;Inghel
+0;38.6133,14.5775;ER-02;Debub;Inda Īyesus
+0;38.8986,15.4342;ER-05;Maekel;Emba-Derho
+0;38.8550,14.7297;ER-02;Debub;Inabta
+0;38.6999,15.0211;ER-02;Debub;Emnī-Tselīm
+0;38.9086,15.1389;ER-02;Debub;Imk’ats’a
+0;38.8961,15.1748;ER-05;Maekel;Embeyto
+0;39.4197,15.7184;ER-06;Northern Red Sea;Emberemi
+0;39.0763,15.3986;ER-06;Northern Red Sea;Embatkala
+0;39.4530,15.0661;ER-06;Northern Red Sea;Illauit
+0;39.3823,15.2043;ER-06;Northern Red Sea;Illalia
+0;40.5938,14.3828;ER-03;Southern Red Sea;Illabadan
+0;37.4505,15.0628;ER-04;Gash-Barka;Ili
+0;38.8067,14.8139;ER-02;Debub;Igrī Mekel
+0;40.3215,14.6006;ER-06;Northern Red Sea;Lemarugle
+0;37.4497,14.8069;ER-04;Gash-Barka;Idabi
+0;38.5442,15.6321;ER-01;Anseba;Iaholluf
+0;38.3282,15.7422;ER-06;Northern Red Sea;Hummet
+0;40.7244,14.8104;ER-03;Southern Red Sea;Horena
+0;38.3380,15.5504;ER-04;Gash-Barka;Homed Issa
+0;38.3333,16.3500;ER-01;Anseba;Hoho
+0;38.7102,15.6946;ER-01;Anseba;Hodīt
+0;39.4043,15.6138;ER-06;Northern Red Sea;Hit’ublo
+0;39.4213,15.6251;ER-06;Northern Red Sea;Hit’imlo
+0;38.9831,15.3483;ER-05;Maekel;Hinzī
+46100;36.6060,14.3043;ER-04;Gash-Barka;Himora
+0;38.6967,15.6764;ER-01;Anseba;Himeret
+0;38.7343,15.2598;ER-06;Northern Red Sea;Himbirtī
+0;39.2647,15.0549;ER-02;Debub;Hībo
+0;37.0829,15.1860;ER-04;Gash-Barka;Haykota
+0;38.7136,15.6628;ER-01;Anseba;Hayelo
+0;38.8425,15.5325;ER-05;Maekel;Hayelo
+0;41.3138,14.4806;ER-03;Southern Red Sea;Hāwra
+0;38.6156,14.8997;ER-02;Debub;Hatsina
+0;38.1000,16.9667;ER-06;Northern Red Sea;Hasta
+0;38.4793,15.7677;ER-01;Anseba;Hashela
+0;39.2485,14.4686;ER-02;Debub;Hashaso
+0;38.8483,14.9739;ER-02;Debub;Haserlibo
+0;42.7565,12.8390;ER-03;Southern Red Sea;Harsile
+0;38.6682,15.0337;ER-02;Debub;Hernet
+0;38.6808,15.6458;ER-01;Anseba;Harkuhuya
+0;38.9219,15.0322;ER-02;Debub;Hariyen
+0;39.4529,15.5377;ER-06;Northern Red Sea;Hirgīgo
+0;42.5698,12.6192;ER-03;Southern Red Sea;Hancul
+0;42.0796,13.6674;ER-03;Southern Red Sea;Hanainef
+0;41.0719,14.4158;ER-03;Southern Red Sea;Hallol
+0;39.0836,14.9686;ER-02;Debub;Halibo
+0;38.8367,15.0558;ER-02;Debub;Halhale
+0;38.2355,15.9255;ER-01;Anseba;Halhal
+0;39.3283,14.9986;ER-02;Debub;Halay
+0;41.7949,13.9215;ER-03;Southern Red Sea;Hālaba
+0;38.2681,15.7074;ER-06;Northern Red Sea;Hagaz
+0;38.5472,15.7426;ER-01;Anseba;Halīb-Mentel
+0;40.0500,14.7667;ER-06;Northern Red Sea;Haddohalle
+0;39.0405,15.0827;ER-02;Debub;Hādamu
+0;37.5500,17.1667;ER-01;Anseba;Hacal Todaro
+0;39.6018,15.4947;ER-06;Northern Red Sea;Habrenta
+0;38.7239,15.6445;ER-01;Anseba;Habran K’ak’a
+0;38.5420,15.2679;ER-04;Gash-Barka;Habela
+0;39.0792,14.7964;ER-02;Debub;Habenat
+0;38.8438,15.5467;ER-05;Maekel;Gurītat
+0;39.3608,14.6608;ER-02;Debub;Gurgur
+0;39.0602,15.0151;ER-02;Debub;Gura’e
+0;41.1818,13.8766;ER-03;Southern Red Sea;Gun Gum
+0;38.7558,14.5544;ER-02;Debub;Enda-Ghergis
+0;39.3906,14.5463;ER-02;Debub;Guna-Guna
+0;39.1378,15.6144;ER-06;Northern Red Sea;Gumhod
+0;36.7192,14.7431;ER-04;Gash-Barka;Gwelej
+0;38.7908,15.5817;ER-01;Anseba;Gulgul
+0;38.8208,14.9936;ER-02;Debub;Gudela
+0;38.6413,15.2092;ER-02;Debub;Grar Gabru
+0;37.3391,15.1224;ER-04;Gash-Barka;Gogne
+0;39.3107,15.4401;ER-06;Northern Red Sea;Gohoreli
+0;37.4019,15.0850;ER-04;Gash-Barka;Gogne
+0;38.9287,15.3066;ER-05;Maekel;Godaif
+0;39.0886,15.4492;ER-06;Northern Red Sea;Ghinda’e
+0;38.8167,14.9500;ER-02;Debub;Gina Bala
+0;38.3676,15.8744;ER-06;Northern Red Sea;Giangheren
+0;36.8847,14.9969;ER-04;Gash-Barka;Giamal Biscia
+0;38.1444,16.4584;ER-06;Northern Red Sea;Ghirghir
+0;40.3000,14.9000;ER-06;Northern Red Sea;Gherzaliguli
+0;38.8937,15.0028;ER-02;Debub;Gherghera
+0;38.2908,16.1621;ER-06;Northern Red Sea;Gher
+0;39.2725,14.7053;ER-02;Debub;Ghinzebo
+0;39.0706,14.8531;ER-02;Debub;Gheniseba
+0;38.7440,15.8210;ER-01;Anseba;Gheleb
+0;38.8156,14.5686;ER-02;Debub;Geza Keren
+0;38.8857,15.4728;ER-05;Maekel;Gereme
+0;36.8169,14.8669;ER-04;Gash-Barka;Geniti
+0;42.0725,13.2354;ER-03;Southern Red Sea;Gahare
+0;38.8206,15.5258;ER-05;Maekel;Gashī Nashīm
+0;40.7219,14.2393;ER-03;Southern Red Sea;Garbanna
+0;40.0500,14.8000;ER-06;Northern Red Sea;Ganraito
+0;39.8833,15.4167;ER-06;Northern Red Sea;Gandeli
+0;40.7892,14.3699;ER-03;Southern Red Sea;Gambed Buij
+0;39.1750,15.3016;ER-06;Northern Red Sea;Galata
+0;39.1521,15.5218;ER-06;Northern Red Sea;Gahtielay
+0;38.3833,17.5500;ER-06;Northern Red Sea;Gaghet
+0;40.9060,14.2790;ER-03;Southern Red Sea;Gadmaita
+0;38.4669,15.9266;ER-06;Northern Red Sea;Gabena Gonfalon
+0;41.3406,13.5610;ER-03;Southern Red Sea;Fura
+0;38.1000,14.8333;ER-04;Gash-Barka;Fortino Ilma
+0;39.9179,15.4278;ER-06;Northern Red Sea;Follocle
+0;37.5786,14.9150;ER-04;Gash-Barka;Fode
+0;40.7392,14.6425;ER-03;Southern Red Sea;Firidello
+0;38.9372,15.6344;ER-06;Northern Red Sea;Filfil
+0;38.0461,16.6535;ER-06;Northern Red Sea;Felhit
+0;38.3934,16.0229;ER-06;Northern Red Sea;Felfele
+0;40.7001,14.8619;ER-03;Southern Red Sea;Pharon
+0;38.5027,17.3239;ER-02;Debub;Ab Anrafa
+0;37.3758,15.0639;ER-04;Gash-Barka;Eshili
+0;37.9254,16.2309;ER-06;Northern Red Sea;Eroto
+0;38.0167,16.0833;ER-01;Anseba;Era
+0;38.3649,16.0370;ER-06;Northern Red Sea;En Harris
+0;38.0181,15.5214;ER-04;Gash-Barka;Engherne
+0;38.4714,14.5433;ER-02;Debub;Enda Abba Ionas
+0;39.1164,14.9033;ER-02;Debub;Embeito
+0;37.0461,15.2383;ER-04;Gash-Barka;Ielit
+0;37.5920,16.8779;ER-06;Northern Red Sea;Ela Tina
+0;40.1167,14.8667;ER-06;Northern Red Sea;Ela Cantubba
+0;38.6167,15.6667;ER-01;Anseba;Ela Beridi
+11259;41.6938,13.9309;ER-03;Southern Red Sea;Edd
+0;37.8333,15.0333;ER-04;Gash-Barka;Durna
+0;38.7986,14.7567;ER-02;Debub;Dirko
+0;39.9842,15.4000;ER-06;Northern Red Sea;Dluh
+0;37.4736,14.7836;ER-04;Gash-Barka;Tokombiya
+0;39.1885,15.2173;ER-02;Debub;Dub Dubaria
+0;39.3017,15.5975;ER-06;Northern Red Sea;Dogalī
+0;42.4819,12.7519;ER-03;Southern Red Sea;Dochtumo
+0;39.2562,15.0871;ER-02;Debub;Doburra
+0;40.6264,14.9088;ER-03;Southern Red Sea;Dīwalu
+0;39.7548,15.4778;ER-06;Northern Red Sea;Dissei
+0;39.8927,15.4939;ER-06;Northern Red Sea;Dilemmi
+0;38.7180,15.6190;ER-01;Anseba;Dildil
+0;39.2281,14.9880;ER-02;Debub;Digsa
+0;39.2098,15.0233;ER-02;Debub;Digra
+0;38.7675,15.5839;ER-01;Anseba;Digdig
+0;40.6195,14.4694;ER-03;Southern Red Sea;Didib
+0;41.7809,13.6809;ER-03;Southern Red Sea;Diddale
+0;39.9500,15.3833;ER-06;Northern Red Sea;Dichicai
+0;38.7894,14.8433;ER-02;Debub;Dibibtī
+4902;38.8333,15.0968;ER-02;Debub;Dbarwa
+0;39.3289,15.6606;ER-06;Northern Red Sea;Desēt
+0;38.6601,15.5563;ER-04;Gash-Barka;Dersenei
+0;38.5211,15.7814;ER-01;Anseba;Dermush
+0;38.8633,14.8489;ER-02;Debub;Dera’ālto
+0;39.3375,14.9522;ER-02;Debub;Dera
+0;38.8433,14.6997;ER-02;Debub;Dengolo
+0;38.9657,15.1062;ER-02;Debub;Dengel
+0;37.7608,14.6644;ER-04;Gash-Barka;Denbe Bengul
+0;39.3428,14.6919;ER-02;Debub;Denagul
+0;38.7507,15.4869;ER-05;Maekel;Dem Sebai
+0;38.6333,15.0833;ER-02;Debub;Dembe Toccolu
+0;39.1505,15.5241;ER-06;Northern Red Sea;Dembe
+0;39.0138,15.2266;ER-05;Maekel;Demba Carmet
+0;38.9047,15.1187;ER-02;Debub;Damba
+0;38.8027,15.5437;ER-05;Maekel;Dek’ī Zer‘u
+0;38.7807,15.5982;ER-01;Anseba;Dek’ī Gebru
+0;38.8165,15.5807;ER-01;Anseba;Dek’emhāre Hāmasēn
+10959;39.0475,15.0700;ER-02;Debub;Dek’emhāre
+2500;40.0167,15.6833;ER-06;Northern Red Sea;Dehalak’ Kebīr
+0;39.3212,15.6428;ER-06;Northern Red Sea;Degol
+0;37.9160,15.5642;ER-04;Gash-Barka;Dega
+0;37.5928,15.2429;ER-04;Gash-Barka;Dedda
+0;38.6801,15.2973;ER-04;Gash-Barka;Deda
+0;38.6103,14.9386;ER-02;Debub;Decorassi
+0;38.6988,15.3863;ER-04;Gash-Barka;Deca Dascim
+0;38.7051,15.7487;ER-01;Anseba;Debresīna
+0;38.3936,14.7419;ER-02;Debub;Debri-Slasie
+0;38.3700,14.6439;ER-02;Debub;Debre Maryam
+0;38.5619,15.0119;ER-02;Debub;Debre-Menkoryos
+0;40.1167,15.7436;ER-06;Northern Red Sea;Debe’āluwa
+0;41.3571,14.3778;ER-03;Southern Red Sea;Debba
+0;42.3449,12.7001;ER-03;Southern Red Sea;Deba-Sima
+0;38.6411,15.7119;ER-01;Anseba;Debalk’o
+0;42.1759,12.8176;ER-03;Southern Red Sea;Daui Rori
+0;38.2114,15.6902;ER-06;Northern Red Sea;Darotai
+0;38.8017,14.6125;ER-02;Debub;Da’ero-Kun’at
+0;38.5321,15.7418;ER-01;Anseba;Darok’
+0;39.3615,15.3283;ER-06;Northern Red Sea;Darmeli
+0;41.1168,14.1462;ER-03;Southern Red Sea;Dara
+0;40.3410,14.6343;ER-06;Northern Red Sea;Dangal
+0;38.8106,14.6389;ER-02;Debub;Damba
+0;39.2087,15.4726;ER-06;Northern Red Sea;Damas
+0;39.1505,15.4007;ER-06;Northern Red Sea;Dalaulo
+0;38.8684,15.2779;ER-05;Maekel;Da’iro P’awlos
+0;38.8490,15.3317;ER-05;Maekel;Tsa’edakristyan
+0;37.5814,14.9881;ER-04;Gash-Barka;Daghilo
+0;38.5258,15.6974;ER-01;Anseba;Dagaiso
+0;40.0547,15.0942;ER-06;Northern Red Sea;Ghela’elo
+0;42.0698,13.1806;ER-03;Southern Red Sea;Dasbudī
+0;42.0500,12.9667;ER-03;Southern Red Sea;Dabu
+0;38.5569,14.5867;ER-02;Debub;Dabre
+0;39.1497,14.9081;ER-02;Debub;Daber
+0;42.0653,13.0516;ER-03;Southern Red Sea;Daadatu
+0;38.7761,15.7220;ER-01;Anseba;Curoh
+0;39.9939,15.8113;ER-06;Northern Red Sea;Cumbeiba
+0;37.6394,14.9589;ER-04;Gash-Barka;Kuluku
+0;38.7750,14.5978;ER-02;Debub;Cudombascia
+0;39.1858,14.6033;ER-02;Debub;Cudo Hoiva
+0;39.8167,15.4333;ER-06;Northern Red Sea;Croto
+0;37.6525,15.0190;ER-04;Gash-Barka;Cona
+0;38.6467,14.4969;ER-02;Debub;Kuhli-Zbi
+0;39.4589,14.6614;ER-02;Debub;Cieffa
+0;38.4833,15.8782;ER-01;Anseba;Ciandelga
+0;38.3000,16.3333;ER-01;Anseba;Ciagghene
+0;39.0167,16.0500;ER-06;Northern Red Sea;Ciabbub Areddu
+0;38.7015,15.0556;ER-02;Debub;Ciaat
+0;38.4205,16.1827;ER-06;Northern Red Sea;Chi-Nasce
+0;36.7285,14.4107;ER-04;Gash-Barka;Chichi
+0;37.6167,15.2833;ER-04;Gash-Barka;Chibabo
+0;38.7453,14.9936;ER-02;Debub;Chessad Dahrē
+0;39.6333,15.0667;ER-06;Northern Red Sea;Chenanadole
+0;39.0222,14.7864;ER-02;Debub;Knafna
+0;37.6928,15.1439;ER-04;Gash-Barka;Chega
+0;38.3989,16.1087;ER-06;Northern Red Sea;Carobel
+0;40.0072,15.3695;ER-06;Northern Red Sea;Burteli
+0;41.3311,13.7868;ER-03;Southern Red Sea;Bel’ebuy
+0;39.8368,14.8232;ER-06;Northern Red Sea;Buya
+0;38.6450,14.7853;ER-02;Debub;Buhunena
+0;38.6440,15.5937;ER-04;Gash-Barka;Buc Savino
+0;37.9122,14.9494;ER-04;Gash-Barka;Bushuka
+0;39.2981,14.4765;ER-02;Debub;Bok’lo
+0;40.0661,15.1604;ER-06;Northern Red Sea;Boholo
+0;37.2124,14.4436;ER-04;Gash-Barka;Biyakundi
+0;36.8667,15.3000;ER-04;Gash-Barka;Bitama
+0;37.5334,15.4859;ER-04;Gash-Barka;Bīsha
+0;42.3087,13.2428;ER-03;Southern Red Sea;Bīhdē
+0;38.8881,14.6286;ER-02;Debub;Biet Gabriel
+0;37.7528,14.9642;ER-04;Gash-Barka;Bibinna
+0;37.3032,14.4482;ER-04;Gash-Barka;Biaghela
+0;42.3350,13.2643;ER-03;Southern Red Sea;Bēylul
+0;37.8716,15.5297;ER-04;Gash-Barka;Bet Mahala
+0;38.8433,14.5650;ER-02;Debub;Bēte Ts’iyon
+0;39.5233,15.3582;ER-06;Northern Red Sea;Betalifuru
+0;38.7764,14.8528;ER-02;Debub;Berak
+0;42.1474,13.6469;ER-03;Southern Red Sea;Bera’esoli
+0;38.9255,15.4255;ER-05;Maekel;Beleza
+0;40.1491,14.5810;ER-06;Northern Red Sea;Belessua
+0;40.6310,14.5244;ER-03;Southern Red Sea;Bilieta
+0;39.0611,15.1711;ER-02;Debub;Belec
+0;42.0647,13.6998;ER-03;Southern Red Sea;Bahliya
+0;39.4111,14.5967;ER-02;Debub;Behat
+0;38.4333,16.4333;ER-06;Northern Red Sea;Ba Sciare
+15891;37.5907,15.1058;ER-04;Gash-Barka;Barentu
+0;39.9111,15.1544;ER-06;Northern Red Sea;Bordele
+0;38.7412,15.2335;ER-05;Maekel;May-Nefhī
+0;38.4333,15.9000;ER-01;Anseba;Barakantiyan
+0;39.4392,14.6047;ER-02;Debub;Barachit
+0;38.6945,15.1895;ER-02;Debub;Bambuco
+0;37.5111,14.7239;ER-04;Gash-Barka;Baio
+0;37.9694,16.9255;ER-06;Northern Red Sea;Badn
+0;40.5310,14.9783;ER-03;Southern Red Sea;Badeda
+0;41.2219,14.5613;ER-03;Southern Red Sea;Babaiu
+0;38.7173,15.3673;ER-04;Gash-Barka;Hazega
+0;38.4219,15.5968;ER-06;Northern Red Sea;Azmat Uold
+0;38.0478,16.2474;ER-06;Northern Red Sea;Azmat Adai
+0;38.0741,16.1688;ER-06;Northern Red Sea;Asmat
+0;38.9331,15.1275;ER-02;Debub;Āzayeke
+0;38.5069,14.8464;ER-02;Debub;Azait
+0;42.6920,13.0481;ER-03;Southern Red Sea;Āyror
+0;42.7805,12.8336;ER-03;Southern Red Sea;Aylu
+0;39.1389,15.5764;ER-06;Northern Red Sea;Āylet
+0;38.7383,14.5433;ER-02;Debub;Āyla
+0;37.1922,15.7446;ER-04;Gash-Barka;Hawashayt
+0;41.4333,13.5833;ER-03;Southern Red Sea;Aura
+0;37.7167,15.2000;ER-04;Gash-Barka;Aula
+0;37.6405,15.1502;ER-04;Gash-Barka;Augana
+0;37.5919,15.3597;ER-04;Gash-Barka;Attai
+0;38.6845,15.8112;ER-01;Anseba;At Faid
+0;39.1170,15.6629;ER-06;Northern Red Sea;Asus
+0;41.5490,14.1278;ER-03;Southern Red Sea;Assa Ela
+563930;38.9318,15.3381;ER-05;Maekel;Asmara
+0;37.7310,15.1820;ER-04;Gash-Barka;Asitti
+0;37.5464,14.8550;ER-04;Gash-Barka;Asiti
+21300;42.7394,13.0092;ER-03;Southern Red Sea;Assab
+0;38.3943,15.7509;ER-06;Northern Red Sea;Ascidira
+0;42.6531,12.7200;ER-03;Southern Red Sea;Asbol
+0;41.1246,13.9237;ER-03;Southern Red Sea;Asbagu
+0;38.9924,15.0882;ER-02;Debub;Ār‘uts’eru
+0;38.6679,16.2423;ER-02;Debub;Aruaddin
+0;39.4886,14.6328;ER-02;Debub;Aromo
+0;38.7464,14.7450;ER-02;Debub;Arghezana
+4774;38.5658,14.9269;ER-02;Debub;Āreza
+0;37.6487,15.2646;ER-04;Gash-Barka;Aredda
+0;38.3768,15.4616;ER-04;Gash-Barka;Are Adriss
+0;36.8425,14.9147;ER-04;Gash-Barka;Arcugi
+0;38.9834,15.0584;ER-02;Debub;Ārato
+0;39.9812,15.7686;ER-06;Northern Red Sea;Aranat
+0;41.7415,13.7137;ER-03;Southern Red Sea;Araiu
+0;39.7422,15.0788;ER-06;Northern Red Sea;Irafayle
+0;37.1600,14.5175;ER-04;Gash-Barka;Antore
+0;38.4833,15.4500;ER-04;Gash-Barka;Antit Are
+0;39.0936,15.3590;ER-06;Northern Red Sea;Anteca
+0;37.2657,15.2239;ER-04;Gash-Barka;Antalla
+0;38.7203,15.5861;ER-04;Gash-Barka;Ānseba
+0;40.9462,14.6535;ER-03;Southern Red Sea;Anrata
+0;36.8306,14.7733;ER-04;Gash-Barka;Angulei
+0;38.6849,15.4174;ER-04;Gash-Barka;Angheb
+0;38.5606,16.5366;ER-06;Northern Red Sea;Angaba
+0;38.8828,14.7197;ER-02;Debub;Hananit
+0;38.6167,16.3500;ER-06;Northern Red Sea;Anaghit
+0;42.8000,12.4667;ER-03;Southern Red Sea;Amotalale
+0;39.0219,15.0524;ER-02;Debub;Āmhuru
+0;36.9353,14.7933;ER-04;Gash-Barka;Ameli
+0;39.2583,14.8506;ER-02;Debub;Ambacocat
+0;39.4514,15.6078;ER-06;Northern Red Sea;Āmatere
+0;38.7528,15.0983;ER-02;Debub;Amadir
+0;37.7000,15.1000;ER-04;Gash-Barka;Allumnu
+0;36.4833,15.1167;ER-04;Gash-Barka;Aligider
+0;39.7833,15.3667;ER-06;Northern Red Sea;Alibarate
+0;37.8417,15.5501;ER-04;Gash-Barka;Algheden
+0;37.1291,15.4894;ER-04;Gash-Barka;Algheden
+0;38.5174,17.3295;ER-02;Debub;Alghiena
+0;37.3075,14.8158;ER-04;Gash-Barka;Alescifa
+0;42.7313,12.9762;ER-03;Southern Red Sea;Ālēla
+0;37.4751,15.0876;ER-04;Gash-Barka;Alegada
+0;40.6064,14.4217;ER-03;Southern Red Sea;Alas
+0;38.2727,15.9658;ER-06;Northern Red Sea;Al-Al
+0;39.0375,15.1797;ER-02;Debub;Āla
+0;39.0367,15.1851;ER-02;Debub;Āla
+8857;37.8829,15.5480;ER-04;Gash-Barka;Ak’ordat
+0;39.2466,15.2876;ER-06;Northern Red Sea;Aigherre
+0;38.7427,15.5821;ER-01;Anseba;Āgutrī
+0;42.6791,12.9023;ER-03;Southern Red Sea;Agurto
+0;38.4167,17.0167;ER-06;Northern Red Sea;Āgra’ī
+0;39.3071,15.5700;ER-06;Northern Red Sea;Agbalo
+0;39.3005,15.3716;ER-06;Northern Red Sea;Agametta
+0;39.6451,15.2807;ER-06;Northern Red Sea;Afta
+0;38.8067,14.5969;ER-02;Debub;Āf May
+0;39.4478,14.6392;ER-02;Debub;Affesi
+0;39.0993,15.0635;ER-02;Debub;Āfelba
+0;38.4143,17.0702;ER-02;Debub;Afchewa
+0;41.6333,13.6000;ER-03;Southern Red Sea;Āfambo
+0;41.2358,14.4784;ER-03;Southern Red Sea;Āfahanī
+35673;38.6873,16.1883;ER-02;Debub;Af’abet
+0;38.7467,14.7819;ER-02;Debub;Ad Zeban Sebao
+0;38.2500,15.7500;ER-01;Anseba;Ad Ulual
+0;38.3367,14.9678;ER-04;Gash-Barka;Ad Tzatzer
+0;38.2423,15.5115;ER-04;Gash-Barka;Ad Taulet
+0;38.3804,15.4044;ER-04;Gash-Barka;Ad Taula
+0;38.1647,15.4737;ER-04;Gash-Barka;Ad Sulet
+0;39.0885,15.6047;ER-06;Northern Red Sea;Ādī Shuma
+0;38.2714,15.4457;ER-04;Gash-Barka;Ad Scec Hammed
+0;38.1037,15.7556;ER-04;Gash-Barka;Ad Scec
+0;38.0333,15.3833;ER-04;Gash-Barka;Ad Sata
+0;38.1542,15.3941;ER-04;Gash-Barka;Ad Sala
+0;38.0406,15.5497;ER-06;Northern Red Sea;Ad Saidna Mustafa
+0;38.2763,15.5517;ER-04;Gash-Barka;Ad Said Mustafa
+0;39.4033,14.5528;ER-02;Debub;Ad Refai
+0;37.8093,15.5780;ER-04;Gash-Barka;Ad Omar
+0;38.8953,14.6994;ER-02;Debub;Ad Nefas
+0;38.8329,15.3063;ER-05;Maekel;Ad Mussa
+0;39.0539,14.8878;ER-02;Debub;Ad Mocada
+0;38.2833,15.0333;ER-04;Gash-Barka;Ad Messian
+0;38.1918,15.7261;ER-06;Northern Red Sea;Ad Manna
+0;38.8364,14.9283;ER-02;Debub;Ādī Zarna
+0;38.8211,14.6775;ER-02;Debub;Ādī Wederkī
+17781;38.8153,14.8872;ER-02;Debub;Mendefera
+0;38.7597,15.3140;ER-05;Maekel;Ad Teclai
+0;38.7777,15.5696;ER-01;Anseba;Ādī-Teklezan
+0;38.8939,14.7081;ER-02;Debub;Adi Tafa
+0;38.5500,14.5167;ER-02;Debub;Adi Shum Tombosa
+0;38.7814,14.9950;ER-02;Debub;Ādī Shum Haftī
+0;38.7283,14.9572;ER-02;Debub;Adi Scimandui
+0;38.0577,16.3839;ER-06;Northern Red Sea;Adi Sciaba
+0;38.0898,16.2937;ER-06;Northern Red Sea;Adi Sceca
+0;38.8042,14.5619;ER-02;Debub;Ādīs ‘Alem
+0;38.8956,15.1639;ER-02;Debub;Ādī Sahlay
+0;38.8345,15.2476;ER-05;Maekel;Ad Rassi
+0;38.8936,15.0439;ER-02;Debub;Ādī Ra’isī
+0;38.9411,15.4011;ER-05;Maekel;Az Nefas
+0;38.9105,15.0436;ER-02;Debub;Ādī Nifas
+0;38.6920,15.4915;ER-04;Gash-Barka;Ādī-Ne’amn
+0;38.4669,14.4383;ER-02;Debub;Adi Moaghe
+0;38.7867,14.9111;ER-02;Debub;Ādī Mengodtī
+0;38.7150,14.7056;ER-02;Debub;Adi Mai Laam
+0;38.3333,14.6333;ER-02;Debub;Adi Mahari Cristos
+0;38.6750,14.6628;ER-02;Debub;Adi Macambia
+0;38.7475,14.6781;ER-02;Debub;Adi Lubso
+0;38.8472,14.6725;ER-02;Debub;Ādilges
+0;38.8995,15.2163;ER-02;Debub;Ādī Lamza
+0;38.8342,14.6353;ER-02;Debub;Ādī-Quala
+0;38.8783,15.1458;ER-02;Debub;Ādī Kubulo
+0;38.8506,14.7517;ER-02;Debub;Ādī K’orē
+13061;39.3772,14.8444;ER-02;Debub;Adi Keyh
+0;38.8139,14.6653;ER-02;Debub;Ādī K’eshī
+0;38.7692,15.1958;ER-05;Maekel;Ādī Kelkaltī
+0;38.7352,15.1926;ER-02;Debub;Ādī Kefelet
+0;38.8986,15.2361;ER-05;Maekel;Ādīk’e
+0;38.7853,14.9731;ER-02;Debub;Ādī K’ano
+0;38.8478,15.2464;ER-05;Maekel;Ādī Imneger
+0;38.7886,14.7350;ER-02;Debub;Ādī Hurwa
+0;38.8567,14.5872;ER-02;Debub;Ādī Huduk
+0;38.7818,15.0190;ER-02;Debub;Ādī Hizba
+0;38.5522,15.7494;ER-01;Anseba;Ādī Hidrum
+0;38.9729,15.2350;ER-05;Maekel;Ādī Hawesha
+0;38.8428,15.2339;ER-05;Maekel;Ādī Hamushte
+0;38.9300,15.2190;ER-05;Maekel;Ādī Hakefa
+0;39.2281,14.9508;ER-02;Debub;Ādī Hadīd
+0;38.8647,14.6014;ER-02;Debub;Ādī Hābir
+0;38.8980,15.2631;ER-05;Maekel;Ādī Gwa’idad
+0;38.7661,14.5497;ER-02;Debub;Ādī Gu’ur
+0;38.5469,14.8492;ER-02;Debub;Adi Guagual
+0;38.6722,14.9219;ER-02;Debub;Ādī-Gureto
+0;38.8588,15.2203;ER-05;Maekel;Ādī Gombolo
+0;39.0456,15.0266;ER-02;Debub;Ādī Golgol
+0;38.7875,14.9561;ER-02;Debub;Ādī Goda’itī
+0;38.4518,14.4545;ER-04;Gash-Barka;Adi-Ghela’e
+0;38.8067,15.1014;ER-02;Debub;Ādī Geda
+0;38.8128,15.0778;ER-02;Debub;Ādī Geda
+0;38.7685,15.3320;ER-05;Maekel;Ādī Gebru
+0;38.7364,15.2114;ER-05;Maekel;Ādī Gebray
+0;38.8000,14.8500;ER-02;Debub;Ādī Gahād
+0;39.1750,14.7889;ER-02;Debub;Adi Gaad
+0;38.7867,14.6356;ER-02;Debub;Ādī Fini’i
+0;38.5278,14.7911;ER-02;Debub;Adi Essaha
+0;37.7496,15.1381;ER-04;Gash-Barka;Adi Culli
+0;38.8298,15.3602;ER-05;Maekel;Adi Contzi
+0;38.4986,14.5383;ER-02;Debub;Adi-Ketina
+0;38.8369,14.9014;ER-02;Debub;Ādī Bilay
+0;38.6717,14.8519;ER-02;Debub;Adi-Bigdi
+0;38.7839,15.1399;ER-02;Debub;Ādībara
+0;39.1164,15.0160;ER-02;Debub;Ādība’ikel
+0;38.8719,14.6614;ER-02;Debub;Ādī Bahro
+0;38.8756,14.7608;ER-02;Debub;Gudba-Badm
+0;38.3067,14.7817;ER-04;Gash-Barka;Adi Atei
+0;38.9962,15.1924;ER-05;Maekel;Ādī Ār‘ada
+0;38.8603,14.9108;ER-02;Debub;Ādī Āmanu’ēl
+0;38.3693,15.6143;ER-06;Northern Red Sea;Adi Ali Bakit
+0;37.5567,15.6094;ER-04;Gash-Barka;Adi Ali Bakit
+0;38.9814,15.1386;ER-02;Debub;Ādī Āhiderom
+0;38.8228,14.7928;ER-02;Debub;Ādī Āgwa
+0;38.8000,15.1361;ER-02;Debub;Ādī Āgbay
+0;38.8617,14.8353;ER-02;Debub;Ādī Āda
+0;38.7231,14.5500;ER-02;Debub;Ādī Āba Ri’isom
+0;38.2400,15.7711;ER-06;Northern Red Sea;Ad Gander Gabei
+0;40.8833,14.6167;ER-03;Southern Red Sea;Ad Gaban
+0;38.9333,14.9481;ER-02;Debub;Ad Finne
+0;38.1585,15.6453;ER-06;Northern Red Sea;Ad Faghi
+0;37.7308,15.5620;ER-04;Gash-Barka;Ad Faghi
+0;38.2274,15.5360;ER-04;Gash-Barka;Ad Errei
+0;37.0433,16.0779;ER-04;Gash-Barka;Aderdeb
+0;38.0580,15.6280;ER-04;Gash-Barka;Aderde
+0;38.1333,15.6500;ER-04;Gash-Barka;Aderde
+0;38.7498,15.4570;ER-04;Gash-Barka;Adenna
+0;39.1904,15.0372;ER-02;Debub;Ādengefom
+0;37.0033,15.0999;ER-04;Gash-Barka;Adendema
+0;38.7753,14.8728;ER-02;Debub;Ādek’e Ginet
+0;39.1388,15.0592;ER-02;Debub;Ādebu‘ur
+0;38.4247,14.9100;ER-02;Debub;Addi Toqualu
+0;38.6167,15.6667;ER-01;Anseba;Addisc Addi
+0;39.0681,14.7678;ER-02;Debub;Addisc Addi
+0;38.7986,14.7567;ER-02;Debub;Ad Dirco
+0;39.0497,14.9053;ER-02;Debub;Adi-Nebri
+0;39.3786,14.6244;ER-02;Debub;Addi Messahal
+0;38.3158,14.7383;ER-04;Gash-Barka;Ad Dechita
+0;37.2745,15.3933;ER-04;Gash-Barka;Ad Casub
+0;38.2454,15.6329;ER-01;Anseba;Ad Bili
+0;38.4111,14.7994;ER-04;Gash-Barka;Ad Asmaru
+0;42.1424,13.2905;ER-03;Southern Red Sea;Adarte
+0;38.3102,15.8251;ER-01;Anseba;Ad Amer
+0;38.5000,15.5667;ER-01;Anseba;Ad Amer
+0;37.2042,15.3064;ER-04;Gash-Barka;Adal
+0;40.3715,14.7225;ER-06;Northern Red Sea;Adaito
+0;40.8533,14.4774;ER-03;Southern Red Sea;Adailo
+0;38.4000,15.0500;ER-04;Gash-Barka;Ad Aguale
+0;41.6198,13.8547;ER-03;Southern Red Sea;Ada Ela
+0;38.7086,14.8386;ER-02;Debub;Ad Abiscia
+0;38.2141,15.9146;ER-06;Northern Red Sea;Ad Abi
+0;38.9140,15.3766;ER-05;Maekel;Ad Abeito
+0;38.4392,14.8422;ER-02;Debub;Ad Abbai
+0;39.2349,15.0797;ER-02;Debub;Akrur
+0;39.4011,15.2200;ER-06;Northern Red Sea;Acoma
+0;39.8197,14.8543;ER-06;Northern Red Sea;Acca
+0;39.0219,15.2128;ER-05;Maekel;Gadien
+0;38.1669,15.8153;ER-06;Northern Red Sea;Abruim
+0;38.7279,15.5189;ER-04;Gash-Barka;Abrascico
+0;38.7500,15.8833;ER-06;Northern Red Sea;Abna
+0;42.7500,12.4333;ER-03;Southern Red Sea;Abhi
+0;42.4000,12.7000;ER-03;Southern Red Sea;Ābdī
+0;38.7447,14.9056;ER-02;Debub;Abbi Adi
+0;37.5787,15.4073;ER-04;Gash-Barka;Abaredda
+0;41.4885,14.1948;ER-03;Southern Red Sea;Abacheri
+0;39.3689,15.2904;ER-06;Northern Red Sea;Ad Daudi
+0;39.9667,15.7667;ER-06;Northern Red Sea;Sed Daaf
+0;40.1544,14.9953;ER-06;Northern Red Sea;Akilo
+0;39.0767,14.6542;ER-02;Debub;Ayba
+0;39.2003,14.6253;ER-02;Debub;Tsorena
+0;39.1706,14.9550;ER-02;Debub;Berakit-Abay
+0;39.4103,14.8617;ER-02;Debub;Safira
+0;39.2222,14.8169;ER-02;Debub;Qua’atit
+0;39.2269,14.5181;ER-02;Debub;Koloburdo
+0;39.2411,14.4447;ER-02;Debub;Kinto
+0;39.4114,14.5969;ER-02;Debub;Zigfet
+0;42.0571,12.9729;ER-03;Southern Red Sea;Dabu
+0;36.7000,15.5667;ER-04;Gash-Barka;Ghirmayka
+0;37.3570,15.3931;ER-04;Gash-Barka;Hambok
+0;38.2013,15.3590;ER-04;Gash-Barka;Dluk
+0;37.9734,15.0697;ER-04;Gash-Barka;Ambori
+0;38.7042,15.1292;ER-02;Debub;Ādī-Felesti
+0;38.7335,15.1429;ER-02;Debub;Tala
+0;38.6347,15.2075;ER-04;Gash-Barka;Liban
+0;38.4179,15.4201;ER-04;Gash-Barka;Ghergher
+0;38.8596,15.4872;ER-05;Maekel;Serejeka
+0;38.8746,15.6891;ER-06;Northern Red Sea;Mrara
+0;38.6834,15.9400;ER-06;Northern Red Sea;Mefalk
+0;38.4704,15.7970;ER-01;Anseba;Fredarb
+0;38.6293,15.6987;ER-01;Anseba;Ieden
+0;39.2760,15.1259;ER-06;Northern Red Sea;Kumheyle
+0;39.5305,15.1799;ER-06;Northern Red Sea;Hadish
+0;39.7000,15.0167;ER-06;Northern Red Sea;Wasena
+0;39.2053,15.4817;ER-06;Northern Red Sea;Agambusa/Tobo
+0;39.1831,15.3986;ER-06;Northern Red Sea;Tseret
+0;39.6207,15.2634;ER-06;Northern Red Sea;Foro
+0;39.5137,15.3061;ER-06;Northern Red Sea;Wi’a
+0;39.4741,15.3291;ER-06;Northern Red Sea;Hidele
+0;39.5487,15.4863;ER-06;Northern Red Sea;Ghedem
+0;39.3863,15.8072;ER-06;Northern Red Sea;Wedi-ledo
+0;39.0471,15.7677;ER-06;Northern Red Sea;Ghedghed/Debret
+0;39.0485,15.8531;ER-06;Northern Red Sea;Sh’eb/Mensheb
+0;39.9408,15.0847;ER-06;Northern Red Sea;Asa’ila
+0;41.1837,14.2209;ER-03;Southern Red Sea;Ighiroli
+0;41.6494,13.8357;ER-03;Southern Red Sea;Irble
+0;41.8833,13.3333;ER-03;Southern Red Sea;Muri
+0;41.8667,13.1833;ER-03;Southern Red Sea;Wade
+0;41.5485,13.7478;ER-03;Southern Red Sea;Irble
+0;41.4389,13.6708;ER-03;Southern Red Sea;Abe
+0;41.3000,13.6167;ER-03;Southern Red Sea;Mureym
+0;41.2023,13.7676;ER-03;Southern Red Sea;Ferer
+0;38.5668,14.4667;ER-02;Debub;Adi-Atsida
+0;38.2417,14.7539;ER-04;Gash-Barka;Enda-Aba-Simeon
+0;38.3817,14.8239;ER-02;Debub;Adi-W’ala
+0;39.3072,14.5158;ER-02;Debub;Ham
+0;39.2956,14.5897;ER-02;Debub;Sarda
+0;39.3764,14.7314;ER-02;Debub;Keshe’at
+0;39.4050,14.5333;ER-02;Debub;Kokobay
+1563;37.8031,14.7275;ER-04;Gash-Barka;Badme
+0;37.4436,14.9494;ER-04;Gash-Barka;Carrbi
+0;37.3328,14.9828;ER-04;Gash-Barka;Shaffidi
+0;37.4400,14.8781;ER-04;Gash-Barka;Ausibi
+0;37.5069,14.9067;ER-04;Gash-Barka;Markosudi
+0;37.5317,14.9628;ER-04;Gash-Barka;Delli
+0;37.6200,14.9722;ER-04;Gash-Barka;Demona
+0;37.6411,14.9839;ER-04;Gash-Barka;Kufitale
+0;37.6814,14.9792;ER-04;Gash-Barka;Ludada
+0;37.7725,14.9589;ER-04;Gash-Barka;Fafaro
+0;37.8536,14.9794;ER-04;Gash-Barka;Durni
+0;37.9319,14.9283;ER-04;Gash-Barka;Leyda
+0;38.3253,14.6553;ER-02;Debub;Dahro Mahabera
+0;38.4519,14.6239;ER-02;Debub;A. Kodada
+0;38.3994,14.5425;ER-02;Debub;Moroho
+0;38.3011,14.9553;ER-04;Gash-Barka;Keman Koba
+0;38.2333,14.8061;ER-04;Gash-Barka;Mis Chanu
+0;38.3781,14.7569;ER-04;Gash-Barka;Addi Lamsay
+0;38.3853,14.7692;ER-04;Gash-Barka;Addi Kuazien
+0;38.3883,14.7656;ER-04;Gash-Barka;Ad Dembela
+0;38.4147,14.7883;ER-02;Debub;Ad Jakaray
+0;38.3719,14.7875;ER-04;Gash-Barka;Ona Zerit
+0;38.3075,14.7647;ER-04;Gash-Barka;Adi Mashela
+0;38.3406,14.7778;ER-04;Gash-Barka;Addi Gemiya
+0;38.3586,14.7850;ER-04;Gash-Barka;Addi Gaba
+0;38.3417,14.7844;ER-04;Gash-Barka;Addi Alamo
+0;38.3128,14.7883;ER-04;Gash-Barka;Adi Tzalo
+0;38.3506,14.8558;ER-04;Gash-Barka;Addi Feton Siga
+0;38.3486,14.8111;ER-04;Gash-Barka;Addi Kuaho
+0;38.3286,14.7994;ER-04;Gash-Barka;Adi Gullina
+0;38.3325,14.7961;ER-04;Gash-Barka;Ad Sebera
+0;38.3881,14.8200;ER-02;Debub;Addi Gebsus
+0;38.4578,14.8117;ER-02;Debub;Adi Bal
+0;38.4100,14.8950;ER-02;Debub;Debra Sahali
+0;38.4253,14.8736;ER-02;Debub;Addi Nommik
+0;38.4089,14.8550;ER-02;Debub;Addi Mage
+0;38.4136,14.8514;ER-02;Debub;Ad Sherokay
+0;38.4269,14.8478;ER-02;Debub;Addi Sabeu
+0;38.4450,14.8728;ER-02;Debub;Addi Nefas
+0;38.4722,14.8386;ER-02;Debub;Dambettardi
+0;38.4756,14.8758;ER-02;Debub;Adi Guba
+0;38.4644,14.9161;ER-02;Debub;Melad Manta
+0;38.4800,14.9186;ER-02;Debub;Adi Maharna
+0;38.4800,14.9339;ER-02;Debub;Dembe Shivinni
+0;38.3903,14.9764;ER-04;Gash-Barka;Gember Gobay
+0;38.3567,14.9883;ER-04;Gash-Barka;Addi Finne
+0;38.4386,14.9925;ER-02;Debub;Dalek
+0;38.4853,14.9972;ER-02;Debub;Aychegevna
+0;38.5175,14.6281;ER-02;Debub;Dekdekkabo
+0;38.5022,14.5561;ER-02;Debub;Adi Katina
+0;38.6889,14.5125;ER-02;Debub;Adi Barresso
+0;38.7586,14.5611;ER-02;Debub;Geza Adaba
+0;38.7956,14.5617;ER-02;Debub;Adi Scium Ascale
+0;38.8506,14.5706;ER-02;Debub;Bet Ansian
+0;38.8736,14.5969;ER-02;Debub;Adi Edug
+0;38.8639,14.6650;ER-02;Debub;Adi Engana
+0;38.5267,14.7378;ER-02;Debub;Adi Tesfa Leul
+0;38.5311,14.7419;ER-02;Debub;Adi Guebo
+0;38.5044,14.8081;ER-02;Debub;May Osa
+0;38.5414,14.7839;ER-02;Debub;Adi Essaha
+0;38.5411,14.8331;ER-02;Debub;Palay Adi
+0;38.5511,14.8408;ER-02;Debub;Adi Felleho
+0;38.5694,14.8203;ER-02;Debub;Mahakuk
+0;38.5956,14.7256;ER-02;Debub;Hantsetse
+0;38.6261,14.7108;ER-02;Debub;Ena Uoddi Monko
+0;38.5758,14.8450;ER-02;Debub;Dugub
+0;38.6161,14.8183;ER-02;Debub;Adi Adenay
+0;38.6128,14.8422;ER-02;Debub;Adi Kuoshet
+0;38.5617,14.8297;ER-02;Debub;Kesad Adi
+0;38.5475,14.8658;ER-02;Debub;Samharo
+0;38.5478,14.8919;ER-02;Debub;Adi Kelkel
+0;38.5950,14.8961;ER-02;Debub;Adi Beyani
+0;38.6150,14.8542;ER-02;Debub;Adi Assaba
+0;38.6272,14.8397;ER-02;Debub;Adi Kobasa
+0;38.6311,14.7569;ER-02;Debub;Adi Lagen
+0;38.6628,14.7306;ER-02;Debub;Adi Assernat
+0;38.6594,14.6697;ER-02;Debub;Adi Eur
+0;38.7222,14.7056;ER-02;Debub;Geza Tsellimo
+0;38.7331,14.7189;ER-02;Debub;Adi Terke
+0;38.7328,14.6950;ER-02;Debub;Adi Shumakele
+0;38.7300,14.6833;ER-02;Debub;Adi Aloat
+0;38.7542,14.6858;ER-02;Debub;Adi Yakemu
+0;38.7669,14.6906;ER-02;Debub;Adi Auya
+0;38.7625,14.6961;ER-02;Debub;Adi Garfa
+0;38.7831,14.6931;ER-02;Debub;Enda Abba Boruk
+0;38.7606,14.7181;ER-02;Debub;Adi Eys
+0;38.7736,14.7119;ER-02;Debub;Adi Shilomun
+0;38.7717,14.7178;ER-02;Debub;Adi Makada
+0;38.8008,14.7086;ER-02;Debub;Adi Gunfay
+0;38.8022,14.7022;ER-02;Debub;Dembergudi
+0;38.8314,14.6806;ER-02;Debub;Adi Selloo
+0;38.8361,14.7050;ER-02;Debub;Adi Derar Ayni
+0;38.8600,14.7128;ER-02;Debub;Adi Andil
+0;38.8397,14.6978;ER-02;Debub;Kosma
+0;38.8719,14.6903;ER-02;Debub;Adi Arkay
+0;38.8972,14.6789;ER-02;Debub;Adi Marau
+0;38.8728,14.7972;ER-02;Debub;Adi Assaharti
+0;38.9403,14.7764;ER-02;Debub;Ho Ho
+0;38.9844,14.7831;ER-02;Debub;Assoguaguy
+0;38.6625,14.8250;ER-02;Debub;Adi Sagla
+0;38.6456,14.8094;ER-02;Debub;Adi Jimel
+0;38.6797,14.7208;ER-02;Debub;Adi Bahailai (Adi Bahailay)
+0;38.6889,14.7250;ER-02;Debub;Enda Gergis
+0;38.7050,14.7367;ER-02;Debub;Adi Yohanneso
+0;38.6964,14.7383;ER-02;Debub;Adise Adi
+0;38.7044,14.7419;ER-02;Debub;Sere Nebraan
+0;38.7167,14.7339;ER-02;Debub;Adi Madiya
+0;38.7175,14.7428;ER-02;Debub;Adi Goday
+0;38.7258,14.7458;ER-02;Debub;Adi Gosse
+0;38.7300,14.7292;ER-02;Debub;Adi Kabba
+0;38.7325,14.7239;ER-02;Debub;Kudo Baur
+0;38.7181,14.7267;ER-02;Debub;Adekkabun
+0;38.7375,14.7261;ER-02;Debub;Adi Chalkuy
+0;38.7547,14.7511;ER-02;Debub;Adi Abagat
+0;38.7611,14.7469;ER-02;Debub;Adi Gabru
+0;38.7769,14.7569;ER-02;Debub;Adi Shumaale
+0;38.7733,14.7411;ER-02;Debub;Adi Markagiya
+0;38.7708,14.7386;ER-02;Debub;Maragus
+0;38.7758,14.7397;ER-02;Debub;Adi Gunguay
+0;38.7694,14.7681;ER-02;Debub;Adi Assero
+0;38.7867,14.7586;ER-02;Debub;Maryam Medhanit
+0;38.7789,14.7897;ER-02;Debub;Deka Arbaa
+0;38.7706,14.8014;ER-02;Debub;Adi Assabehta
+0;38.7656,14.8133;ER-02;Debub;Adi Sahallab
+0;38.6967,14.7506;ER-02;Debub;Adi Guaguat
+0;38.8722,14.8083;ER-02;Debub;Mahado
+0;38.8786,14.8333;ER-02;Debub;Debesana
+0;38.9397,14.8278;ER-02;Debub;Debri Annenas
+0;38.9531,14.8925;ER-02;Debub;Nueh Zeban
+0;38.8019,14.8950;ER-02;Debub;Adi Harre
+0;38.8003,14.8867;ER-02;Debub;Karran Kudo
+0;38.7717,14.8778;ER-02;Debub;Dander
+0;38.7617,14.8342;ER-02;Debub;Adi Hiabu
+0;38.6494,14.8447;ER-02;Debub;Adi Harkam
+0;38.6389,14.8542;ER-02;Debub;Dekmomiet
+0;38.6528,14.8606;ER-02;Debub;Lahlayaddi
+0;38.7417,14.8875;ER-02;Debub;Zedan Nue
+0;38.7342,14.8775;ER-02;Debub;Adi Abbado
+0;38.7292,14.9436;ER-02;Debub;Adi Gomoro
+0;38.7775,14.9264;ER-02;Debub;Addekemene
+0;38.7472,14.9244;ER-02;Debub;Adi Itay
+0;38.7322,14.9317;ER-02;Debub;Adi Gabul
+0;38.7472,14.9403;ER-02;Debub;Endabbatte
+0;38.7686,14.9361;ER-02;Debub;Adi Tsadi
+0;38.7775,14.9447;ER-02;Debub;May Armaz
+0;38.8075,14.9386;ER-02;Debub;Adi Kesaemti
+0;38.7997,14.9172;ER-02;Debub;Azernahadis
+0;38.8603,14.9103;ER-02;Debub;Enda Matiel
+0;38.9511,14.9289;ER-02;Debub;Siaha
+0;38.9339,14.9772;ER-02;Debub;Kokuat
+0;38.8439,14.9539;ER-02;Debub;Kebta
+0;38.7989,14.9972;ER-02;Debub;May Taranbelay
+0;38.7636,14.9850;ER-02;Debub;Ad Mana
+0;38.7233,14.9928;ER-02;Debub;Samassen
+0;38.7583,14.9603;ER-02;Debub;Adi Guhebo
+0;38.6828,14.9819;ER-02;Debub;Badunkul
+0;38.6886,14.9731;ER-02;Debub;Adi Uatot
+0;38.7253,14.9631;ER-02;Debub;Damba Mik
+0;38.6536,14.8806;ER-02;Debub;Adi Neduk
+0;38.6464,14.8919;ER-02;Debub;Adi Finne
+0;38.6433,14.9097;ER-02;Debub;Adi Bardu
+0;38.5194,14.9558;ER-02;Debub;Dembe Amukusti
+0;38.5544,14.9203;ER-02;Debub;Adi Mamen
+0;38.5878,14.9219;ER-02;Debub;Adi Gurda
+0;38.6378,14.9314;ER-02;Debub;Aykobettu
+0;38.6256,14.9522;ER-02;Debub;Zerbien
+0;38.6719,14.9475;ER-02;Debub;Kushet
+0;38.6286,14.9594;ER-02;Debub;Adi Addebeza
+0;38.6369,14.9819;ER-02;Debub;Adi Goduf
+0;38.6772,14.9583;ER-02;Debub;Gesa Edru
+0;38.5881,14.9972;ER-05;Maekel;Adi Gutti
+0;38.5647,14.9742;ER-02;Debub;Adi Sebaa
+0;38.5842,14.9781;ER-02;Debub;Adi Samra
+0;38.5722,14.9847;ER-02;Debub;Ad Deki Mensho
+0;38.5778,14.9900;ER-02;Debub;Adi Seb Shire
+0;38.5153,14.9819;ER-02;Debub;Gesa Restu
+0;38.5089,14.9956;ER-02;Debub;May Harish
+0;39.0778,14.8444;ER-02;Debub;Maakeno
+0;39.0325,14.9136;ER-02;Debub;Kor Chokomte
+0;39.0231,14.9694;ER-02;Debub;Gudal’ti
+0;39.1117,14.9867;ER-02;Debub;May Aha
+0;39.1044,14.9622;ER-02;Debub;Tauro
+0;39.0764,14.9014;ER-02;Debub;Enda Yohannes
+0;39.1314,14.8294;ER-02;Debub;Mebred
+0;39.2517,14.7161;ER-02;Debub;Abaa
+0;39.3353,14.6825;ER-02;Debub;Zeban-Abuh
+0;39.4144,14.6842;ER-02;Debub;Matara
+0;39.4578,14.6978;ER-02;Debub;Giassehe
+0;39.4578,14.6894;ER-02;Debub;Hayli
+0;39.4783,14.6675;ER-02;Debub;Ksad Emba
+0;39.2567,14.7814;ER-02;Debub;Ashira
+0;39.1894,14.7956;ER-02;Debub;Addokayez
+0;39.2236,14.8075;ER-02;Debub;Merra Nahayne
+0;39.2486,14.8250;ER-02;Debub;Adi Auey
+0;39.2136,14.8397;ER-02;Debub;Adi Etket
+0;39.2158,14.8261;ER-02;Debub;Adi Ferti
+0;39.2422,14.8397;ER-02;Debub;Maadoruba
+0;39.2417,14.8439;ER-02;Debub;Merkats
+0;39.3078,14.8964;ER-02;Debub;Adi Kanta
+0;39.2572,14.8928;ER-02;Debub;N’yul’to
+0;39.2883,14.9192;ER-02;Debub;Enda Ekkise
+0;39.2125,14.9319;ER-02;Debub;Adi Beke
+0;39.2158,14.9611;ER-02;Debub;May Maho
+0;39.1872,14.9988;ER-02;Debub;Euanet
+0;39.1939,14.9786;ER-02;Debub;Ad Auki
+0;39.1992,14.9600;ER-02;Debub;Adish Addi
+0;39.1333,14.9333;ER-02;Debub;Ngela
+0;39.1328,14.8986;ER-02;Debub;Zaare
+0;39.1164,14.9256;ER-02;Debub;Ona Foroho
+0;39.5277,14.9171;ER-02;Debub;Galline Faraone
+0;39.6074,14.9327;ER-06;Northern Red Sea;Eduk
+0;39.5905,14.9317;ER-06;Northern Red Sea;Ferkala
+0;39.6069,14.9250;ER-06;Northern Red Sea;Argentu
+0;39.6023,14.9170;ER-06;Northern Red Sea;Ezeerto
+0;39.9991,14.7579;ER-06;Northern Red Sea;50 km.] [ROAD DESTINATION: Irafayle
+0;36.5512,14.2842;ER-04;Gash-Barka;El Hufeyra
+0;36.9379,14.4488;ER-04;Gash-Barka;Scisci
+0;41.3178,13.7754;ER-03;Southern Red Sea;Datoi Sima
+0;40.6250,14.4515;ER-03;Southern Red Sea;Merbaro
+0;40.8979,14.3388;ER-03;Southern Red Sea;Salita Adarrabera
+0;38.5282,14.4470;ER-02;Debub;Ādī Moage
+1000;38.8783,15.5091;ER-05;Maekel;Quandeba
+0;40.2147,14.9440;ER-06;Northern Red Sea;Fiok
+0;42.1217,12.9050;ER-03;Southern Red Sea;Faroddy
+0;42.3803,12.9615;ER-03;Southern Red Sea;Darmale
+0;42.7398,12.6389;ER-03;Southern Red Sea;Andale
+0;42.8704,12.8206;ER-03;Southern Red Sea;Chiloma
+0;42.9556,12.7825;ER-03;Southern Red Sea;Kiloma
+0;42.7968,12.8307;ER-03;Southern Red Sea;Abo
+0;42.5764,12.8683;ER-03;Southern Red Sea;Ghibdo
+0;40.9080,14.6416;ER-03;Southern Red Sea;Daraivo
+0;42.3035,13.4888;ER-03;Southern Red Sea;Saline
+0;40.9192,14.0292;ER-03;Southern Red Sea;Ayumen
+0;42.0254,13.1156;ER-03;Southern Red Sea;Uaddi
+0;42.2785,13.2472;ER-03;Southern Red Sea;Hlelika
+0;40.0897,15.8374;ER-03;Southern Red Sea;Kubbani
+0;40.2945,15.8550;ER-03;Southern Red Sea;Dahrat Dyl’ke
+0;40.1569,15.6755;ER-03;Southern Red Sea;Derbushet
+0;40.4026,15.6283;ER-03;Southern Red Sea;Memla
+0;40.1328,15.6141;ER-03;Southern Red Sea;Amareg
+0;40.0166,15.6151;ER-06;Northern Red Sea;Dahlak-Kebir
+0;39.1257,15.4936;ER-06;Northern Red Sea;Sebar Guma
+0;38.4409,16.9805;ER-02;Debub;Madror’yet
+0;38.4927,16.4989;ER-06;Northern Red Sea;Ba Share
+0;37.3321,15.5686;ER-04;Gash-Barka;Ad-Nureyt
+0;37.4408,15.6282;ER-04;Gash-Barka;Bakhar
+0;38.1959,17.1082;ER-02;Debub;Itaro
+0;38.3230,17.1540;ER-02;Debub;Hishkib
+0;38.3381,17.2301;ER-02;Debub;Amberbeb
+0;38.4055,17.2499;ER-02;Debub;Keber We’et
+0;39.0865,15.0169;ER-02;Debub;Hadokko
+0;39.1246,15.0397;ER-02;Debub;Degera Mereto
+0;39.0710,15.0449;ER-02;Debub;Adi Kharem
+0;38.4838,17.3013;ER-02;Debub;Alghiena
+0;38.3713,17.3418;ER-02;Debub;Gherghir
+0;38.2574,17.4176;ER-02;Debub;Arag
+0;38.2006,17.4978;ER-02;Debub;Ghile’e La’elay
+0;38.1058,17.2540;ER-02;Debub;Ila Babu
+0;38.1128,17.2681;ER-02;Debub;Bal’tat
+0;38.4147,16.4275;ER-02;Debub;Khokho
+0;38.2894,16.3990;ER-06;Northern Red Sea;Alga’eta
+0;38.3837,16.4343;ER-02;Debub;Endlal
+0;38.4050,16.2436;ER-06;Northern Red Sea;Cheweni
+0;38.4166,16.2036;ER-06;Northern Red Sea;Et’andelet
+0;38.3328,16.2342;ER-06;Northern Red Sea;Etharawyatat
+0;38.3040,16.0680;ER-06;Northern Red Sea;Arotay
+0;37.3408,15.4754;ER-04;Gash-Barka;Aderfeney
+0;37.3227,15.4557;ER-04;Gash-Barka;Addembay
+0;37.3598,15.4447;ER-04;Gash-Barka;Ibrakhim-Gub
+0;37.4068,15.3829;ER-04;Gash-Barka;Avadab
+0;37.3585,15.2962;ER-04;Gash-Barka;Bambene
+0;37.4029,15.3059;ER-04;Gash-Barka;Ad-Maad
+0;37.4139,15.2950;ER-04;Gash-Barka;Kobetago
+0;38.5793,16.0797;ER-02;Debub;Kelhamet
+0;38.9011,16.0988;ER-02;Debub;Gademhalib
+0;38.9276,16.0527;ER-02;Debub;Abarara
+0;37.4376,15.2995;ER-04;Gash-Barka;Kofisio
+0;37.4614,15.2844;ER-04;Gash-Barka;Des
+0;37.4611,15.2576;ER-04;Gash-Barka;Beshii
+0;37.4472,15.1744;ER-04;Gash-Barka;Logodat
+0;37.3564,15.2568;ER-04;Gash-Barka;Armara
+0;37.3766,15.1517;ER-04;Gash-Barka;Mokoro
+0;37.4290,15.1615;ER-04;Gash-Barka;Eymasa
+0;37.4462,15.0507;ER-04;Gash-Barka;Gukki
+0;37.1369,15.0084;ER-04;Gash-Barka;Brebana
+0;37.5886,15.1901;ER-04;Gash-Barka;Shiderda
+0;37.5663,15.2063;ER-04;Gash-Barka;Kekeda
+0;40.0150,15.3244;ER-06;Northern Red Sea;Khaskhakkar
+0;40.0587,15.2917;ER-06;Northern Red Sea;Dagabta
+0;37.5264,15.3129;ER-04;Gash-Barka;Kerda
+0;37.5671,15.3104;ER-04;Gash-Barka;Arnedda
+0;37.6431,15.0050;ER-04;Gash-Barka;Katenda
+0;40.0226,15.3529;ER-06;Northern Red Sea;Daka
+0;40.0259,15.3425;ER-06;Northern Red Sea;Enda Daka
+0;37.7285,15.1188;ER-04;Gash-Barka;Shashi
+0;40.0295,15.3349;ER-06;Northern Red Sea;Gamayrotali
+0;37.7379,15.2201;ER-04;Gash-Barka;Buddoda
+0;37.7106,15.2378;ER-04;Gash-Barka;Dedda Baza
+0;37.2428,15.0463;ER-04;Gash-Barka;Lama
+0;37.5990,15.4198;ER-04;Gash-Barka;Tabonseneb
+0;37.9202,16.1662;ER-06;Northern Red Sea;Orota
+0;37.8730,16.4639;ER-06;Northern Red Sea;Zara
+0;37.9413,15.5641;ER-04;Gash-Barka;Sabderat
+0;38.2041,15.6661;ER-06;Northern Red Sea;Ad Issa
+0;38.2751,15.5003;ER-04;Gash-Barka;Ad Asberre
+0;38.2758,15.5336;ER-04;Gash-Barka;Ad Abbakit
+0;39.4782,16.0670;ER-03;Southern Red Sea;D’yurrum Segir
+0;39.0305,16.3605;ER-02;Debub;M’etr
+0;38.3348,15.5029;ER-04;Gash-Barka;Addi Fagammer
+0;38.3422,15.5089;ER-04;Gash-Barka;Ad Amiyey
+0;38.3141,15.5250;ER-04;Gash-Barka;Ad Nureyn
+0;38.3531,15.6212;ER-06;Northern Red Sea;Zamat
+0;38.4569,15.6276;ER-06;Northern Red Sea;Ad Arey
+0;38.4449,15.5706;ER-01;Anseba;Fellekhito
+0;38.6333,17.4487;ER-02;Debub;Mahmimet
+0;38.4854,15.5897;ER-01;Anseba;Az Seles
+0;38.0811,15.8579;ER-06;Northern Red Sea;Ad Melin
+0;38.1210,15.7808;ER-06;Northern Red Sea;May Afide
+0;38.1467,15.7841;ER-06;Northern Red Sea;Ad Maamed Amer
+0;38.1594,15.7834;ER-06;Northern Red Sea;Ad Maamed Elemi
+0;38.1458,15.7026;ER-04;Gash-Barka;Assambra
+0;38.2288,15.7202;ER-06;Northern Red Sea;Ad Amed Selim
+0;38.2353,15.4723;ER-04;Gash-Barka;Ad-Derbush
+0;38.3397,15.4935;ER-04;Gash-Barka;Ad-Alli
+0;38.2842,15.8785;ER-06;Northern Red Sea;Adel’
+0;38.2276,15.9007;ER-06;Northern Red Sea;Marke
+0;38.2908,15.9714;ER-06;Northern Red Sea;Debessa
+0;38.3465,15.9032;ER-06;Northern Red Sea;Elos
+0;38.3617,15.8948;ER-06;Northern Red Sea;Kafa
+0;38.3649,15.8972;ER-06;Northern Red Sea;Aforum
+0;38.3356,15.8771;ER-06;Northern Red Sea;Ad Gubsha
+0;38.3431,15.4647;ER-04;Gash-Barka;Takle
+0;38.3395,15.8551;ER-06;Northern Red Sea;Arbira
+0;38.4251,15.4848;ER-04;Gash-Barka;Toduan
+0;38.4513,15.4321;ER-04;Gash-Barka;Uash
+0;38.3916,15.4680;ER-04;Gash-Barka;Uash-Adris-Adera
+0;38.4699,15.6723;ER-01;Anseba;Derkano
+0;38.4686,15.7509;ER-06;Northern Red Sea;Zelale
+0;38.4600,15.7584;ER-06;Northern Red Sea;Dzhinfa
+0;38.4596,15.7967;ER-06;Northern Red Sea;Ona
+0;38.3859,15.8248;ER-06;Northern Red Sea;Shinnara
+0;38.4637,15.8579;ER-06;Northern Red Sea;Adi Cutur
+0;38.4628,15.8723;ER-06;Northern Red Sea;Basheri
+0;38.4041,15.8758;ER-06;Northern Red Sea;Addar Itubub
+0;38.1660,15.4237;ER-04;Gash-Barka;Afney
+0;38.4841,15.8205;ER-01;Anseba;Adi Dzhel’
+0;38.4843,15.7894;ER-01;Anseba;Bambi
+0;38.4887,15.7580;ER-01;Anseba;Degki
+0;38.1766,15.3675;ER-04;Gash-Barka;Addi-Sala
+0;38.2009,15.3433;ER-04;Gash-Barka;Frudit-Kaamli
+0;38.4507,15.3534;ER-04;Gash-Barka;Sharobia
+0;38.4187,15.4129;ER-04;Gash-Barka;Uash
+0;38.4157,15.3911;ER-04;Gash-Barka;Tkoret
+0;38.4709,15.3675;ER-04;Gash-Barka;Tadoy
+0;38.5691,15.0471;ER-02;Debub;Addi-Nedi
+0;38.5803,15.0290;ER-02;Debub;Addi-Bel’sey
+0;38.5944,15.0057;ER-02;Debub;Addi-Chando
+0;38.7271,15.0485;ER-02;Debub;Sonoto
+0;38.7350,15.0739;ER-02;Debub;Arbo
+0;38.7135,15.0321;ER-02;Debub;Zeban Khayli
+0;38.7226,15.0264;ER-02;Debub;Adibus
+0;38.7135,15.0226;ER-02;Debub;Ad Deka Takla
+0;38.7285,15.0200;ER-02;Debub;Zuab
+0;38.7186,15.0138;ER-02;Debub;Aschaba
+0;39.9863,15.2948;ER-06;Northern Red Sea;Uakari Ton
+0;39.8551,15.2747;ER-06;Northern Red Sea;Dekhebina
+0;39.8522,15.2453;ER-06;Northern Red Sea;Suudita
+0;39.8662,15.2313;ER-06;Northern Red Sea;Falalo
+0;39.9344,15.1646;ER-06;Northern Red Sea;Galakhatoli
+0;39.9252,15.1750;ER-06;Northern Red Sea;Khambile
+0;39.9155,15.1681;ER-06;Northern Red Sea;Gakhatele
+0;38.7380,15.0116;ER-02;Debub;Gerdetti
+0;38.7447,15.0335;ER-02;Debub;Zemmer
+0;38.7693,15.0415;ER-02;Debub;Zdi-Nokha
+0;38.7630,15.0060;ER-02;Debub;End Abba Mata
+0;38.7672,15.0582;ER-02;Debub;Addi Bezakhanays
+0;38.9124,15.0138;ER-02;Debub;Fogayakhe
+0;38.9261,15.0175;ER-02;Debub;Geddele
+0;38.9362,15.0790;ER-02;Debub;Addi Kina
+0;38.9523,15.0983;ER-02;Debub;Addi Saddi
+0;38.9017,15.0694;ER-02;Debub;Torat
+0;39.9055,15.1772;ER-06;Northern Red Sea;Abbake Bara
+0;38.8368,15.0898;ER-02;Debub;Beza-Slam
+0;38.7814,15.0831;ER-02;Debub;Addi Gered
+0;38.7498,15.0849;ER-02;Debub;Addegena
+0;38.6565,15.0945;ER-02;Debub;Addi Keli
+0;38.5903,15.1494;ER-02;Debub;Ad Sarkhit
+0;38.6061,15.1619;ER-02;Debub;Ugub
+0;38.6345,15.1452;ER-02;Debub;Maraf Tobot
+0;38.6361,15.1303;ER-02;Debub;Gerakhu Tala
+0;38.6437,15.1263;ER-02;Debub;An Zala
+0;38.7498,15.1120;ER-02;Debub;Orguk
+0;38.7733,15.1600;ER-02;Debub;Ad Kaketba
+0;38.7704,15.1513;ER-02;Debub;Addi Bzage
+0;38.7890,15.1760;ER-02;Debub;Az Selayl’
+0;37.3660,16.0693;ER-01;Anseba;Kerkebet Amalayt
+0;37.0488,16.1869;ER-04;Gash-Barka;Olef
+0;38.8306,15.1746;ER-02;Debub;Skrofoto
+0;39.3829,15.7287;ER-06;Northern Red Sea;Guayra
+0;38.8946,15.1634;ER-05;Maekel;Goorbaati
+0;38.9080,15.1373;ER-05;Maekel;Addi Ferre
+0;38.9371,15.1278;ER-05;Maekel;Addi Kares
+0;38.9811,15.1385;ER-05;Maekel;Ziban Angeb
+0;38.9849,15.1282;ER-02;Debub;Azzamer
+0;38.9440,15.2288;ER-05;Maekel;Ad Doshe
+0;39.1602,15.3652;ER-06;Northern Red Sea;Atbay
+0;39.2248,15.3697;ER-06;Northern Red Sea;Tabo
+0;39.1815,15.4001;ER-06;Northern Red Sea;Maderto
+0;38.9655,15.1888;ER-05;Maekel;Adda Dero
+0;38.9145,15.2206;ER-05;Maekel;Lamze
+0;38.9130,15.1964;ER-05;Maekel;Ad Doye
+0;38.9077,15.1949;ER-05;Maekel;Ad Desonaf
+0;38.8323,15.1882;ER-05;Maekel;Ad Desonay
+0;38.7837,15.1926;ER-02;Debub;Addi Saut
+0;38.6352,15.2291;ER-04;Gash-Barka;Mare
+0;38.6123,15.1888;ER-04;Gash-Barka;Demba Golom
+0;38.6043,15.2072;ER-04;Gash-Barka;Silashagi
+0;39.3529,15.3886;ER-06;Northern Red Sea;Rarodetta
+0;39.2742,15.4467;ER-06;Northern Red Sea;Adzhun
+0;39.8722,15.1703;ER-06;Northern Red Sea;Rakhsim Kabara
+0;39.8825,15.1693;ER-06;Northern Red Sea;Al’ Elu
+0;38.6812,15.2415;ER-04;Gash-Barka;Vogeriko
+0;38.6819,15.5295;ER-04;Gash-Barka;Mal’gava
+0;38.6681,15.6244;ER-01;Anseba;Barkutu
+0;38.7933,15.2499;ER-05;Maekel;Redoy
+0;38.8268,15.2555;ER-05;Maekel;Tate Maule
+0;38.8501,15.2759;ER-05;Maekel;Ad Kaukoy
+0;38.8821,15.2577;ER-05;Maekel;May Melegen
+0;38.7272,15.5296;ER-04;Gash-Barka;Kalo
+0;38.6878,15.5632;ER-04;Gash-Barka;Khaderu
+0;38.7760,15.5326;ER-05;Maekel;Grat Katin
+0;38.7301,15.5518;ER-01;Anseba;Khek May
+0;38.8591,15.5012;ER-05;Maekel;Afdeyu
+0;38.8867,15.5328;ER-05;Maekel;Dersep
+0;38.8780,15.5090;ER-05;Maekel;Kuantebba
+0;38.9044,15.5033;ER-05;Maekel;Addi Shaga
+0;38.9038,15.5192;ER-05;Maekel;Deffere
+0;38.9640,15.5261;ER-06;Northern Red Sea;Anzala
+0;38.9625,15.5821;ER-06;Northern Red Sea;Kodo
+0;38.9710,15.2408;ER-05;Maekel;Barantanti
+0;38.8573,15.3103;ER-05;Maekel;Sadamba
+0;38.7101,15.3337;ER-04;Gash-Barka;Zelale
+0;38.6060,15.6089;ER-01;Anseba;Shaka
+0;38.6134,15.6161;ER-01;Anseba;Avarekha
+0;38.5919,15.6275;ER-01;Anseba;Dobur
+0;38.6486,15.6116;ER-01;Anseba;Matare
+0;39.8358,15.2735;ER-06;Northern Red Sea;Bukhrali
+0;39.7985,15.2540;ER-06;Northern Red Sea;Nasirakurra
+0;38.6473,15.4071;ER-04;Gash-Barka;Svan
+0;38.6832,15.4051;ER-04;Gash-Barka;Ad Tibdis
+0;38.6921,15.4115;ER-04;Gash-Barka;Ad Khaylit
+0;38.6945,15.4052;ER-04;Gash-Barka;Ad Agay
+0;38.7293,15.3999;ER-04;Gash-Barka;Adi Ionnes
+0;38.7138,15.3967;ER-04;Gash-Barka;Al’gata
+0;39.4036,15.2687;ER-06;Northern Red Sea;Sabsobal’
+0;38.7055,15.3684;ER-04;Gash-Barka;Abi Gul’gul’
+0;38.7416,15.3738;ER-04;Gash-Barka;May Makhan
+0;38.8231,15.3860;ER-05;Maekel;Adi Yakob
+0;38.8422,15.3858;ER-05;Maekel;Adi Merani
+0;38.8768,15.3893;ER-05;Maekel;Adi Apsulus
+0;38.8667,15.4068;ER-05;Maekel;Sium Dzhumnuk
+0;38.8416,15.4244;ER-05;Maekel;Daro
+0;38.8624,15.4316;ER-05;Maekel;Khamesi
+0;38.8723,15.4208;ER-05;Maekel;Medrisen
+0;39.3508,15.2948;ER-06;Northern Red Sea;Sum Khaya
+0;39.3494,15.3061;ER-06;Northern Red Sea;Kharusof
+0;39.4024,15.2023;ER-06;Northern Red Sea;Kergera
+0;39.4075,15.1811;ER-06;Northern Red Sea;Ganga
+0;39.4199,15.2127;ER-06;Northern Red Sea;Bakayti
+0;39.4695,15.2059;ER-06;Northern Red Sea;Kaktakar
+0;39.5397,15.1197;ER-06;Northern Red Sea;Koba
+0;38.8004,15.4358;ER-05;Maekel;Addi Bidel’
+0;38.8737,15.4568;ER-05;Maekel;Medpi Saul’
+0;38.7733,15.4215;ER-05;Maekel;Abar
+0;38.6705,15.4410;ER-04;Gash-Barka;Moga Meray
+0;38.6829,15.4530;ER-04;Gash-Barka;Conkordoba
+0;38.6300,15.4371;ER-04;Gash-Barka;Adi Nebri
+0;38.6499,15.4254;ER-04;Gash-Barka;Gaza Zelemin
+0;38.6572,15.4189;ER-04;Gash-Barka;Dembe Shetol’
+0;39.5560,15.0978;ER-06;Northern Red Sea;Byra
+0;38.6719,15.4766;ER-04;Gash-Barka;Ag’yaf
+0;38.7704,15.4906;ER-05;Maekel;Znebadzhu
+0;38.7604,15.4770;ER-05;Maekel;Aiti Aber
+0;38.8937,15.4862;ER-05;Maekel;Addi Shaga
+0;38.9170,15.4731;ER-05;Maekel;Koaznen
+0;39.2143,15.3059;ER-06;Northern Red Sea;Sezla
+0;39.2247,15.2851;ER-06;Northern Red Sea;Khanfur
+0;39.2862,15.2744;ER-06;Northern Red Sea;Khobale
+0;39.1664,15.3047;ER-06;Northern Red Sea;Kukub
+0;39.0853,15.3290;ER-06;Northern Red Sea;Bizione
+0;39.2664,15.2133;ER-06;Northern Red Sea;Gorsaf Agele
+0;39.3290,15.1484;ER-06;Northern Red Sea;Kaber Kabre
+0;39.3258,15.1660;ER-06;Northern Red Sea;Kesat Rore
+0;39.3503,15.1348;ER-06;Northern Red Sea;Git Git
+0;39.4002,15.1260;ER-06;Northern Red Sea;Gur Guri
+0;39.3982,15.1503;ER-06;Northern Red Sea;Tukul’ Okhera
+0;39.4511,15.1556;ER-06;Northern Red Sea;Tukul’ Addakora
+0;39.4711,15.1575;ER-06;Northern Red Sea;Tukul’ Enta Arta
+0;39.4682,15.1453;ER-06;Northern Red Sea;Tukul’ Kuvet
+0;39.4800,15.1358;ER-06;Northern Red Sea;Tukul’ Massaylale
+0;39.4678,15.1271;ER-06;Northern Red Sea;Tukul’ Embayle
+0;39.5070,15.1489;ER-06;Northern Red Sea;Delleta
+0;39.4142,15.1100;ER-06;Northern Red Sea;Gabale
+0;39.4594,15.1029;ER-06;Northern Red Sea;Tukul’ Shum Omar
+0;39.4277,15.1017;ER-06;Northern Red Sea;Tukul’ Aligle
+0;39.4476,15.0886;ER-06;Northern Red Sea;Tukul’ Billal’
+0;39.4389,15.0854;ER-06;Northern Red Sea;Tukul’ Tinle
+0;39.4728,15.0813;ER-06;Northern Red Sea;Tukul’ Ederta
+0;39.4056,15.0787;ER-06;Northern Red Sea;Agokha
+0;39.4500,15.0595;ER-06;Northern Red Sea;Tukul’ Mellabado
+0;39.4447,15.0191;ER-06;Northern Red Sea;Afuma
+0;39.3656,15.0392;ER-02;Debub;Tukul’ Tobolo
+0;39.3933,15.0507;ER-02;Debub;Tafo
+0;39.0598,15.3290;ER-06;Northern Red Sea;Uarare
+0;39.0474,15.2612;ER-06;Northern Red Sea;Makadakotelekh
+0;39.0377,15.2600;ER-05;Maekel;Makabirungida
+0;39.0225,15.2476;ER-05;Maekel;Madaraba
+0;39.0613,15.2254;ER-02;Debub;Ara Ado
+0;39.3436,15.0670;ER-02;Debub;Tukul’ Omar
+0;39.2669,15.0766;ER-02;Debub;Addi Konney
+0;39.2820,15.0832;ER-02;Debub;Adi May Ela
+0;38.4650,15.0246;ER-04;Gash-Barka;Kesa-Kalati
+0;38.4376,15.0136;ER-04;Gash-Barka;Kal’kay
+0;39.0380,15.1702;ER-02;Debub;Semanit
+0;39.0229,15.1045;ER-02;Debub;Dekamaso
+0;39.1520,15.2282;ER-02;Debub;Anvaytaro
+0;39.1777,15.2426;ER-06;Northern Red Sea;Ingal’
+0;39.1205,15.0289;ER-02;Debub;Adi Assakha
+0;39.1280,15.0204;ER-02;Debub;Adi Keyikh
+0;39.0907,15.0724;ER-02;Debub;Dekabadru
+0;39.1471,15.0199;ER-02;Debub;Adi Anesti
+0;39.2526,15.0823;ER-02;Debub;Addi Finne
+0;39.1915,15.1030;ER-02;Debub;Tukul’ Salet
+0;39.2584,15.1899;ER-02;Debub;Engeritta
+0;39.2800,15.0032;ER-02;Debub;May Kharasat
+0;39.5981,15.1512;ER-06;Northern Red Sea;Rareyta
+0;39.5286,15.2405;ER-06;Northern Red Sea;Marakhano
+0;39.5362,15.2267;ER-06;Northern Red Sea;Bukara
+0;38.4539,15.0079;ER-02;Debub;At-Mennay
+0;38.2175,15.0154;ER-02;Debub;Adi-Karmet
+0;38.4030,15.0139;ER-02;Debub;Ziban-Tala
+0;38.8077,15.1003;ER-02;Debub;Addi Ledzhe
+0;38.7942,15.0672;ER-02;Debub;Addi Teda
+0;38.4129,15.0298;ER-02;Debub;Agvali
+0;38.3152,15.0037;ER-02;Debub;Adi-Liban
+0;38.9449,15.6248;ER-06;Northern Red Sea;Msedakey
+0;38.5795,15.6652;ER-01;Anseba;Az Damba
+0;38.6314,15.6761;ER-01;Anseba;Dreagum
+0;38.6255,15.6926;ER-01;Anseba;Adi Agos
+0;38.6712,15.6372;ER-01;Anseba;Khanki
+0;38.6238,15.6824;ER-01;Anseba;Ad Gergush
+0;38.7857,15.6959;ER-01;Anseba;Rebel’
+0;38.5546,15.7000;ER-01;Anseba;Khasen
+0;38.5542,15.7242;ER-01;Anseba;Shariekhi
+0;38.5244,15.7476;ER-01;Anseba;Ad Dredi
+0;38.5694,15.7691;ER-01;Anseba;Ad Ben’yu
+0;38.5319,15.7705;ER-01;Anseba;Konnu
+0;38.5046,15.8038;ER-01;Anseba;Abre
+0;38.5187,15.7821;ER-01;Anseba;Adrar
+0;38.5932,15.7721;ER-01;Anseba;Azafa
+0;38.7679,15.7484;ER-01;Anseba;Nuret
+0;38.9415,15.7951;ER-06;Northern Red Sea;Khizhiny
+0;38.7847,15.8313;ER-01;Anseba;Geleb
+0;38.8788,15.7480;ER-06;Northern Red Sea;Kaber Sari
+0;38.9220,15.7597;ER-06;Northern Red Sea;Al’gata
+0;38.8821,15.7518;ER-06;Northern Red Sea;Ambadzhagat
+0;38.5107,15.8603;ER-01;Anseba;Fornache
+0;38.5440,15.8483;ER-01;Anseba;Adi Koken
+0;38.7551,15.8247;ER-01;Anseba;Abia
+0;38.7606,15.8313;ER-01;Anseba;Setni Atbaka
+0;38.7532,15.8741;ER-06;Northern Red Sea;Kayafo
+0;38.7620,15.8731;ER-06;Northern Red Sea;Madersaga
+0;38.7661,15.8597;ER-06;Northern Red Sea;Marakabet
+0;38.7825,15.8352;ER-01;Anseba;Madaynus
+0;38.7549,15.8826;ER-06;Northern Red Sea;Geten
+0;38.5529,15.6790;ER-01;Anseba;Khembel’
+0;38.6091,15.6692;ER-01;Anseba;Gusk
+0;38.7474,15.6843;ER-01;Anseba;Ira
+0;38.7330,15.6897;ER-01;Anseba;Dangrigba
+0;38.8822,15.5548;ER-05;Maekel;Uoki
+0;38.6462,15.2809;ER-04;Gash-Barka;Khabela
+0;38.8298,15.3984;ER-05;Maekel;Azzega
+0;38.1249,16.9314;ER-02;Debub;Khasta
+0;38.7798,15.0416;ER-02;Debub;Emni Tsellim
+0;39.3333,14.5000;ER-02;Debub;Gulomakeda
+0;39.3333,14.5000;ER-02;Debub;Gulomahda
+0;39.4400,14.5400;ER-02;Debub;Gulomahda
+0;39.4319,14.7225;ER-02;Debub;Tisha
+0;39.4202,14.7087;ER-02;Debub;Awliee Hahayle
+0;38.9954,15.0106;ER-02;Debub;Gura’e
+0;38.5029,14.5544;ER-02;Debub;Mai-Mne
+0;38.4620,14.8984;ER-02;Debub;May Dima
+0;42.7070,12.9557;ER-03;Southern Red Sea;Margable
+0;41.1223,14.2568;ER-03;Southern Red Sea;Amarti
+0;37.9512,15.5033;ER-04;Gash-Barka;Engherne
+0;37.4632,15.4508;ER-04;Gash-Barka;Bisha
+0;38.6211,15.1125;ER-02;Debub;Adi Felesti
+0;38.6780,15.0816;ER-02;Debub;Amadr
+0;38.9720,15.1726;ER-02;Debub;Gadien
+0;38.9558,15.1486;ER-02;Debub;Damba
+0;38.9658,15.2099;ER-05;Maekel;Embeyto
+0;38.7987,15.2554;ER-05;Maekel;Abarda
+0;38.5150,15.4278;ER-04;Gash-Barka;Antit Are

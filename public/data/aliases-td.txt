@@ -1,0 +1,415 @@
+fr;Yawada;Yaouada
+fr;Wabéné;Ouabéné
+fr;Troka;Troké
+fr;Troatoua;Troa Toua
+fr;Tourgési;Tourguéssi
+fr;Torbosoulé;Torbossoulé
+fr;Tomboulou;Toumbouloum
+ar;ترتي;Tirti
+fr;Téwel;Teouel
+ar;تاتيني;Tatiné
+fr;Ţulayḩah;Talha
+fr;Tafok Barra;Tafok Bara
+ar;سيرا;Sira
+ar;أونيانقا كبير;Ounianga Kébir
+it;Ounianga-Kebir;Ounianga Kébir
+ar;واسير;Ouasir
+ar;وارا;Ouara
+fr;Omona;Oména
+fr;Okwa;Okua
+ar;نوركاني;Nourkani
+ar;نيوفوتو;Nioufoutou
+fr;N'Gada;Ngoidé II
+fr;Ngaïdé;Ngoidé II
+fr;Naidon;Naydon
+fr;Monlouyouk;Montouyouk
+fr;Mondjigin;Mondjiguin
+fr;Moha;Mona
+fr;Méser;Méssér
+fr;Ménéwéré;Ménéouéré
+fr;Médiégésé;Médiéguéssé
+fr;Massèmbagne;Masembagn
+fr;Malagi;Malagui
+fr;Magilbé;Maguilbé
+fr;Magar;Mogar
+fr;Louné;Loumé I
+ar;ليرا;Lira
+fr;Koursigé;Koursigué
+fr;Kourniéla;Kourniala
+fr;Koulalangé;Koulalangué
+fr;Koukourbé;Koulourbé
+ar;كوكو أنغرانا;Koukou Angarana
+fr;Koudigi;Koudigui
+fr;Korombaital;Korombaytal
+fr;Kondjigin;Kondjiguin
+fr;Kiougéré;Kiouguéré
+fr;Kiligen;Kiliguen
+fr;Kidégin;Kidéguin
+fr;Kembila;Kèmbita
+fr;Kéligé;Kéligué
+fr;Kasara;Kassara
+fr;Kadkali;Kad Kali
+ar;إريبا;Iriba
+fr;Iningwa;Inigoua
+fr;Iringoua;Inigoua
+fr;Iningé;Iningué
+fr;Inginé;Inguiné
+ar;هاجر حديد;Hadjer Hadid
+ar;هدجر حديد;Hadjer Hadid
+ar;حاجر حديد;Hadjer Hadid
+fr;Goz Togoula;Goz Togoula II
+ar;قوز مالك;Goz Malik
+en;Goz Beida;Goz Béïda
+ar;قوز بيضة;Goz Béïda
+ar;قوز ألبيض;Goz Béïda
+ar;قوز بيدا;Goz Béïda
+ar;قوز بيضة;Goz Beida
+ar;قوز ألبيض;Goz Beida
+ar;قوز بيدا;Goz Beida
+ar;قوزبيضة;Goz Beida
+fr;Goz-Beida;Goz Beida
+am;ጎዝ ቤይዳ;Goz Beida
+fr;Girnit;Guirnit
+fr;Girindik;Guirindik
+fr;Ginedilé;Guinedilé
+fr;Gindikaïn;Guindikaïn
+fr;Gilin;Guilin
+fr;Gifélé;Guifélé
+fr;Geringa;Gueringa
+fr;Gérédi;Guérédi
+fr;Géderné;Guéderné
+ar;قسيري;Gasiré
+ar;غسيري;Gasiré
+fr;Fort de Fada;Fada
+ar;فدا;Fada
+am;ፋዳ;Fada
+fr;Ernimek;Erminek
+fr;Erdingi;Erdingui
+fr;Elilengé;Elilèngué
+ar;دولا;Doula
+fr;Doukousa;Doukoussa
+ar;دوجوري;Dodjoré
+ar;دقدوري;Dodjoré
+fr;Djéler;Léler
+fr;Dingilérou;Dinguilérou
+ar;ديكتا;Dikta
+ar;ديكلا;Dikta
+ar;داقيسا;Dagésa
+ar;داغسا‎;Dagésa
+ar;داقسا;Dagésa
+ar;داقيسة;Dagésa
+ar;أم ديريما;Dagésa
+fr;Bir Téré;Téré
+ar;بلتن;Biltine
+am;ቢልቲን;Biltine
+ar;بريجين;Bérédjang
+ar;بيريجنك;Bérédjang
+fr;Bargad;Barganyeu
+fr;Baikon;Baykon
+fr;Arounbougin;Arounbouguin
+ar;أركوم;Arkoum
+fr;Aringé;Aringué
+fr;Aougin;Aouguin
+fr;Anourgin;Anourguin
+fr;Angioro;Anguioro
+fr;Anagourf;Anagourt
+ar;أم التيمان;Am Timan
+fr;Am-Timan;Am Timan
+am;አም ቲማን;Am Timan
+fr;Amgin;Amguin
+ar;أم دام تولوك;Am Dam Toulouke
+ar;أم دام;Am Dam
+fr;Am Dagik;Am Daguik
+fr;Algileb;Alguileb
+fr;Agilé;Aguilé
+fr;Agek;Aguek
+ar;أدري;Adré
+fr;Adait;Adayt
+ar;أبشي;Abéché
+ar;أبيشي;Abéché
+ar;ابيشي;Abéché
+am;አበሸ;Abéché
+ha;Abeche;Abéché
+om;Abeche;Abéché
+pt;Abechê;Abéché
+so;Abeche;Abéché
+fr;Yri;Iri
+ar;طوال;Toual
+ar;طوم مورفين;Tom Morfain
+ar;توم مريفيني;Tom Morfain
+fr;Tilo;Tilo II
+fr;Tola;Tilo II
+fr;Si-Nbangra;Sibangra
+ar;صارح;Sarh
+ar;ساره;Sarh
+ar;سار;Sarh
+ar;سارة;Sarh
+am;ሳር;Sarh
+ar;رونيان;Ronian
+fr;Polo;Peleu
+fr;Pé;Pié
+ar;بالا;Pala
+am;ፓላ;Pala
+ar;أم هاجر;Umm Hājar
+de;Umm Hādschar;Umm Hājar
+fr;Djoko Sako;Njoko Sako
+fr;N'Djoko;Njokoko
+fr;Ndioko;Njokoko
+fr;Ngoun;Ngouri
+fr;Gô;Ngo
+fr;Ngara;Ngata
+fr;Gara;Ngara
+en;Nébék;Nibek
+fr;Du;Ndou
+fr;Dou;Ndou
+de;N’Djamena;N'Djamena
+ar;أنجمينا;N'Djamena
+fr;Ndjamena;N'Djamena
+nl;Ndjamena;N'Djamena
+es;Yamena;N'Djamena
+am;ንጃሜና;N'Djamena
+ar;انجمينا;N'Djamena
+ar;نجامينا;N'Djamena
+ar;إنجامينا;N'Djamena
+de;Indschamina;N'Djamena
+fr;Niassa;Nassian
+fr;Nazia;Nassian
+fr;Nasian;Nassian
+fr;Nasia;Nassian
+fr;Nankasi;Nankéssé
+fr;Nakasse;Nankéssé
+fr;Nangkassa;Nakassa
+fr;Nangda;Nandga
+ar;موتناك;Moutenak
+ar;موسورو;Moussoro
+am;ሙሶሮ;Moussoro
+fr;Moraï;Mouray
+ar;موندو;Moundou
+ar;ماوندو;Moundou
+ar;مندو;Moundou
+am;ሙንዱ;Moundou
+fr;Mordounoum;Mourdouni
+ar;مونقو;Mongo
+ar;مونكو;Mongo
+ar;مونجو;Mongo
+ar;منقو;Mongo
+am;ሞንጎ;Mongo
+ar;قرية مويسالا;Moïssala Village
+ar;قرية مواسالا;Moïssala Village
+ar;مواسالا;Moïssala
+ar;مويسالا;Moïssala
+fr;Miladi Kobo;Miladi
+ar;امبورسو ليري;Mboursou Léré
+fr;Mban;Mbann
+fr;Mballa;Mbala
+ar;ماسنيا;Massenya
+am;ማሰኛ;Massenya
+ar;مسكوري;Massakory
+am;ማስሳኮሪ;Massakory
+ar;مساقط;Massaguet
+ar;ماو;Mao
+am;ማኦ;Mao
+ar;ملومري;Maloumri
+fr;Mankou;Makou
+fr;Maikoro;Baïkoro
+fr;Mbaïkoro;Baïkoro
+ar;مائقانا;Maïgana
+ar;مائقانا;Maigana
+fr;Maïbo Mbaye;Maybo Mbay
+fr;Mbaï;Maybo Mbay
+en;Mahad el Khel;Mahadel Khel
+ar;مغيلكا;Maguilka
+ar;مفيندي;Korweï-Mafende
+fr;Madana;Madéna
+ar;ليري;Léré
+fr;Lel;Lélé
+fr;Larkaye;Larkay
+ar;لاي;Laï
+es;Lai;Laï
+am;ላይ;Laï
+de;Lai;Laï
+ha;Lai;Laï
+om;Lai;Laï
+pt;Lai;Laï
+so;Lai;Laï
+fr;Kouyabéné;Kouyabani
+fr;Koutou;Koutoutou
+fr;Koutoukouma;Koutou Kouma
+fr;Koutou;Koutoukaybiki
+fr;Koutou;Koutou-Bétar
+fr;Kutu;Koutou-Bétar
+fr;Béboto;Kourangati
+fr;Koura;Kéira
+ar;كُمرا;Koumra
+am;ኮምራ;Koumra
+fr;Koumatou;Koumati
+fr;Kulu;Kouloulou
+fr;Kudu;Kouloulou
+fr;Koulou;Kouloulou
+fr;Koulon;Kouloulou
+fr;Koudou;Kouloulou
+fr;Kondou;Koundou
+fr;Komié;Komé
+ar;كسيري;Kisrae
+fr;Keïkagué;Keykagué
+ar;كنقالم;Kangalom
+ar;قائمقامية كنقالم;Kangalom
+ar;كانكالم;Kangalom
+ar;قائمقامية كانكالم;Kangalom
+fr;Kaïra II;Kayra II
+fr;Kaïra I;Kayra I
+ar;كغوري;Kagouri
+fr;Kagopaï;Kagopal
+fr;Kagopa;Kagopal
+fr;Kaga;Kaga III
+ar;كبالي;Kabalei
+ar;حراز;Haraz
+ar;حراز جمبو;Haraz
+ar;حراز هداد;Haraz
+ar;غيغو;Guegou
+ar;قيقو;Guegou
+ar;قيكو;Guegou
+ar;جيكو;Guegou
+ar;قائمقامية غيغو;Guegou
+ar;قرمتجو;Gourmadjo
+ar;قرماجو;Gourmadjo
+ar;غرماجو;Gourmadjo
+ar;غرمتجو;Gourmadjo
+ar;غوري;Goré
+ar;جوري;Goré
+ar;غوري 1;Goré I
+en;Girbé;Guirbé
+ar;قيلو;Guélo
+ar;غيلو;Guélo
+ar;جيلو;Guélo
+fr;Gadjibiam;Gadjibian
+ar;فيانكا;Fianga
+en;Faya;Faya-Largeau
+it;Faya Largeau;Faya-Largeau
+ar;فايا لارجو;Faya-Largeau
+am;ፋያ-ላርጆ;Faya-Largeau
+ar;الأربعة;El Arba
+ar;لاربا;El Arba
+fr;Dougandy;Doungandi
+fr;Dingoba;Doungabo
+fr;Donya;Donia
+fr;Dokoula;Dokoura
+ar;دوقيري مويسالا;Doguéré Moïssala
+ar;دوبا;Doba
+am;ዶባ;Doba
+ar;جرمايا;Djermaya
+ar;جيرمايا;Djermaya
+ar;دجيرمايا;Djermaya
+ar;دجرمايا;Djermaya
+ar;جرماية;Djermaya
+ar;جنين;Djeneine
+fr;Djangdjaye;Djagzay
+fr;Dildo;Ndildo
+fr;Dido;Ndildo
+ar;ديريا;Deraïa
+fr;Dégui Gona;Dagigona
+ar;بوسو;Bousso
+ar;بورو;Bourou
+fr;Boroyé;Boroy
+fr;Boroï;Boroy
+ar;بنقور;Bongor
+am;ቦንጎር;Bongor
+ar;بول;Bol
+am;ቦል;Bol
+ar;بوكورو;Bokoro
+fr;Bobinda;Bébïnda
+ar;بتكين;Bitkine
+fr;Bitenda;Bitanda
+ar;أجودول;Bir Barka
+en;Adjodol;Bir Barka
+nl;Adjodol;Bir Barka
+ar;بئر العرب;Bir al Arab
+ar;بير العرب;Bir al Arab
+fr;Beyer;Béyéré
+fr;Bepi;Béti
+fr;Bétédjé;Bétéjé
+fr;Besseye;Béssey
+ar;بيساو;Béssao
+fr;Besey II;Béssey II
+fr;Besseye II;Béssey II
+fr;Besaje;Béssey II
+fr;Besaïe;Béssey II
+ar;بيساو 3;Bessao III
+ar;بيساو 2;Bessao III
+ar;بيساو 1;Bessao I
+fr;Béribo;Benibo
+fr;Beri;Békiri
+fr;Bénoye;Benoy
+fr;Bengo Yon;Bégon
+fr;Bendji;Dèndji
+fr;Bendjamou;Bendjiamonn
+fr;Bembaïda;Bèmbaïda
+fr;Bembaïda;Bémbaïda I
+fr;Bémala;Bomala
+fr;Belaschi;Béladjia
+fr;Belachi;Béladjia
+fr;Bekor-Daga;Bekor-Daba
+fr;Bekondjio;Békondjo
+fr;Békondjio;Békondjo
+fr;Bekon;Bekonn
+fr;Bekamna;Békamna I
+fr;Béïto;Béïdo
+fr;Bégoudoubé;Bogoudoubé
+fr;Bedial;Bédjal
+fr;Bédua;Bédia
+fr;Bédoua;Bédia
+fr;Bédou;Bédia
+fr;Bédan;Bédann
+fr;Bédane;Bédann
+fr;Béboye;Béboy
+fr;Bébougaï;Bébongay
+fr;Bebiya;Bébédja
+fr;Bebeidjia;Bébédja
+fr;Bebeidja;Bébédja
+fr;Bembal;Bébalèm
+fr;Bebal;Bébala
+fr;Bebaïda;Bèmbaïda II
+fr;Béabo;Biabo
+fr;Béabé;Biabo
+ar;باتنة‎;Batna
+ar;برداي;Bardaï
+en;Bardai;Bardaï
+es;Bardai;Bardaï
+am;ባርዳይ;Bardaï
+de;Bardai;Bardaï
+ha;Bardai;Bardaï
+om;Bardai;Bardaï
+pt;Bardai;Bardaï
+so;Bardai;Bardaï
+fr;Bao;Bao I
+fr;Bange;Banga
+fr;Balkabra;Mbalkabra
+fr;Baïtomou;Baytomou
+ar;بغاشي;Bagachi
+ar;آتيا;Ati
+am;አቲ;Ati
+ar;أسيني;Asnet
+ar;قائمقامية أسيني;Asnet
+ar;أسين;Asnet
+ar;قائمقامية أسين;Asnet
+ar;أوزو;Aozou
+ar;أم بونق;Am Boung
+en;Amalget;Amalgueit
+ar;أقار;Agar
+ar;أغار;Agar
+ar;أقّار;Agar
+ar;أبلا;Maïgana
+ar;مائقانة;Maïgana
+ar;مايقانا;Maïgana
+ar;مايغانا;Maïgana
+ar;قوز بيضة;Goz Beïda
+ar;قوز ألبيض;Goz Beïda
+ar;قوز بيدا;Goz Beïda
+ar;ديركو;Dirkou
+ar;غوري 2;Goré II
+ar;ماتا ليري;Matta Léré
+ar;أم جرس;Amdjarass
+am;አምጃራስ;Amdjarass
+fr;Am Gifi;Am Guifi
+fr;Gésé;Guésé
+en;Amdoback;Am Doback

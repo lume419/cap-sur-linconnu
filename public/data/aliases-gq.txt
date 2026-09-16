@@ -1,0 +1,11 @@
+ar;مبيني;Mbini
+es;Ciudad de Malabo;Malabo
+es;Santa Isabel;Malabo
+ar;مالابو;Malabo
+ar;باتا;Bata
+en;Añisok;Añisoc
+es;Añisok;Añisoc
+fr;Akalayong;Acalayong
+es;Asalayeng;Acalayong
+ar;سيوداد دي لا باز;Ciudad de la Paz
+pt;Cidade da Paz;Ciudad de la Paz

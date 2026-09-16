@@ -1,0 +1,393 @@
+0;28.4833,-30.0500;LS;;White Hill
+0;27.1093,-29.7555;LS;;Van Rooyens Gate
+0;27.5120,-29.5089;LS;;Upper Qeme
+0;27.0985,-29.7071;LS;;Tsupane Gate
+0;27.3599,-30.0133;LS;;Tsoloane
+0;28.6972,-30.0326;LS;;Tsoelike
+0;28.6667,-30.0167;LS;;Tsoelike
+0;28.4161,-28.7883;LS;;Tsime
+0;27.9962,-28.8938;LS;;Tsikoane
+0;27.4583,-29.3885;LS;;Tsiame
+0;27.5098,-29.4123;LS;;Tseka
+0;27.7833,-29.3167;LS;;Tsehlo
+2688;27.1516,-29.6692;LS;;Tsa Kholo
+0;27.9147,-30.3359;LS;;Tosing
+0;27.4681,-29.6445;LS;;Toloane
+0;28.8000,-29.7167;LS;;Tlhakanelo
+0;27.7195,-29.5880;LS;;Tlalis
+0;27.4623,-29.3566;LS;;Tikoe
+0;27.2601,-29.5891;LS;;Thulo
+0;28.5151,-29.0419;LS;;Tholo
+0;27.7731,-29.0297;LS;;Thokoa
+0;27.7667,-29.4167;LS;;Theko
+0;27.9000,-29.7167;LS;;Theetsoa
+0;28.6500,-28.7500;LS;;Thakabannas Cattle Post
+0;28.4644,-28.6157;LS;;Thakabannas
+0;28.0609,-29.5937;LS;;Thaba Putsoa
+0;27.5000,-29.8167;LS;;Thabaneng
+5970;27.4204,-29.9601;LS;;Thabana Morena
+0;27.6713,-29.3451;LS;;Thaba Bosigo
+27272;27.7490,-29.1472;LS-10;Berea;Teyateyaneng
+0;27.8810,-29.9685;LS;;Teba
+0;28.1833,-29.0167;LS;;Tau
+0;27.4834,-29.7106;LS;;Tajane
+0;27.8193,-28.9619;LS;;Tabola
+0;27.7333,-30.5667;LS;;Sinxondo
+0;27.2829,-29.9541;LS;;Siloe
+0;27.8201,-29.8963;LS;;Sibi Sibi
+0;27.9517,-29.1684;LS;;Seutloali
+0;27.7875,-29.6640;LS;;Setleketseng
+0;28.0000,-29.6000;LS;;Setleketseng
+0;27.9667,-29.0333;LS;;Seshophe
+0;28.2994,-28.7291;LS;;Serutle
+0;27.2131,-29.9541;LS;;Sephapos Gate
+0;27.3653,-29.7963;LS;;Sepechele
+0;27.7277,-29.2554;LS;;Ha Senekane
+0;28.3433,-28.7755;LS;;Selomas
+0;27.4667,-29.4333;LS;;Sekoala
+2443;28.3500,-30.0000;LS;;Sekake
+2234;28.7975,-29.7783;LS-19;Thaba-Tseka;Sehonghong
+1985;29.0519,-29.8751;LS;;Sehlabathebe
+0;28.2479,-30.0525;LS-18;Quthing;Seforong
+5119;27.8076,-29.2789;LS-10;Berea;Sefikeng
+0;28.1752,-28.9003;LS;;Seetsas
+0;27.5000,-30.3000;LS;;Schoolplaats
+0;27.7249,-29.4613;LS;;Roma
+14259;27.7081,-29.4467;LS-14;Maseru District;Roma
+0;27.3333,-30.0167;LS;;Riet Vlei
+0;27.6167,-29.8833;LS;;Richard
+0;27.6627,-29.8442;LS;;Ribaneng
+0;27.4152,-29.6320;LS;;Reisi
+0;27.7346,-29.3611;LS;;Ratau
+0;28.3500,-28.7500;LS;;Rasekilas
+0;27.7500,-29.8500;LS;;Rasebetsane
+0;27.2387,-29.5671;LS;;Ranko
+0;27.5245,-29.9078;LS;;Ramosoeu
+0;28.9332,-30.0496;LS;;Ramatseliso
+0;28.1491,-28.9900;LS;;Ramapepe
+0;27.1500,-29.7500;LS;;Ramahleas
+0;27.7167,-29.7333;LS;;Ramabitsa
+0;27.7003,-29.6796;LS;;Raleqheka
+0;28.5515,-29.0274;LS;;Rakotoane
+0;29.0068,-29.3480;LS;;Rafolatsane
+33910;27.7003,-30.4000;LS-18;Quthing;Quthing
+0;27.7333,-30.4333;LS;;Qomoqomong
+0;27.6829,-29.3512;LS-14;Maseru District;Qiloane
+0;27.4090,-29.7847;LS;;Qamako
+0;27.6621,-29.2129;LS;;Qalaheng
+25573;28.6894,-30.1154;LS-17;Qacha's Nek District;Qacha’s Nek
+0;27.5915,-29.8590;LS;;Qaba
+6486;28.2133,-29.0070;LS-12;Leribe;Pitseng
+0;27.8110,-29.0623;LS;;Phoofolo
+8402;27.8014,-30.2481;LS-15;Mohale's Hoek District;Phamong
+0;27.6775,-29.8058;LS;;Phafoli
+0;27.7500,-28.9681;LS;;Peka
+5937;27.7626,-28.9688;LS-12;Leribe;Peka
+0;27.7441,-29.5261;LS;;Patrick
+0;27.4755,-30.1073;LS;;Old Mohales Hoek
+0;28.2399,-29.5810;LS;;Nyane
+0;27.7732,-29.5252;LS;;Nyakosoba
+0;28.9667,-29.0500;LS;;Numolani
+0;27.7637,-29.4002;LS;;Ntsi
+0;27.8082,-29.5142;LS;;Ntsane
+0;27.8754,-29.1744;LS;;Ntlamas
+0;27.2833,-29.9667;LS;;Ntilane
+0;27.7500,-30.4833;LS;;Nthodimonate
+0;27.9167,-29.9833;LS;;Nthamaha
+0;28.3500,-30.2000;LS;;Neni
+13146;27.7667,-29.6167;LS-14;Maseru District;Nako
+0;28.4500,-28.8167;LS;;Mutlanyane
+0;27.8034,-29.7782;LS;;Mpobong
+0;28.6208,-30.0746;LS;;Mpite
+0;27.5892,-29.4454;LS;;Mphoto
+2181;27.5500,-30.0167;LS;;Mpharane
+0;27.6833,-30.4167;LS;;Moyeni Camp
+0;27.7333,-30.3667;LS;;Moyeni Camp
+6992;27.8708,-30.2731;LS-18;Quthing;Mount Moorosi
+0;28.2831,-29.9201;LS;;Motsie
+0;27.4344,-29.7010;LS;;Motsekuoa
+0;27.6500,-29.3224;LS;;Motloang
+0;27.7500,-30.3333;LS;;Mosetlas
+0;27.5571,-29.7298;LS;;Mosala
+4541;27.5333,-29.8311;LS;;Morunyaneng
+5160;27.5135,-29.6298;LS-14;Maseru District;Morija
+0;27.4038,-30.3025;LS;;Morifi
+0;27.7257,-29.0800;LS;;Morameng
+0;27.3395,-29.9772;LS;;Monyake
+0;28.6333,-28.5667;LS;;Monantsa
+0;27.7167,-29.8667;LS;;Monaheng
+0;28.9893,-29.3255;LS;;Molumong
+0;27.4841,-29.7160;LS;;Molomos Hoek
+0;28.0500,-28.9500;LS;;Moliboeas
+0;28.1000,-28.9000;LS;;Moliboeas
+0;28.0500,-29.1667;LS;;Moletsanes
+0;27.3142,-29.9274;LS;;Moletsane
+0;28.2833,-28.7667;LS;;Molefis
+0;27.2148,-29.9237;LS;;Mokoroane
+0;27.8587,-29.2883;LS;;Mokonyane
+0;28.5451,-28.9964;LS;;Mokomane
+0;28.9012,-29.2408;LS;;Mokoeng
+14461;29.0675,-29.2894;LS-16;Mokhotlong District;Mokhotlong
+0;27.9500,-29.1167;LS;;Mokhathis
+0;27.3667,-29.4833;LS;;Mokhalinyane
+0;27.6500,-29.4667;LS;;Mokema
+0;27.8881,-29.5487;LS;;Mojela
+0;27.7667,-29.5833;LS;;Moitsupelis
+0;27.2078,-29.7388;LS;;Mohlehli
+0;28.6696,-29.5931;LS;;Mohlanapeng
+0;27.9394,-30.2179;LS;;Mohlakoanas
+0;27.8667,-29.0333;LS;;Mohlafateng
+46593;27.4769,-30.1514;LS-15;Mohale's Hoek District;Mohale's Hoek
+0;27.5968,-29.5060;LS;;Mofokas
+0;27.7834,-29.3438;LS;;Metolong
+0;27.4878,-30.2914;LS;;Mekaling
+12713;27.5689,-29.4190;LS-14;Maseru District;Mazenod
+4197;27.5664,-29.6171;LS;;Matsieng
+0;27.5333,-29.6000;LS;;Matsieng
+0;28.7758,-29.8187;LS;;Matsaile
+0;27.7526,-29.6597;LS;;Matsaba
+0;28.0278,-28.9725;LS;;Mathokoane
+0;27.7676,-29.3750;LS;;Matela
+0;27.8833,-29.2333;LS;;Mateka
+0;27.5772,-29.5307;LS;;Massabiella
+0;27.6456,-30.4040;LS;;Masitise
+0;27.4891,-29.5884;LS;;Masite Nek
+0;28.8092,-29.6451;LS;;Mashai
+359753;27.4833,-29.3167;LS-14;Maseru District;Maseru
+1659;28.1415,-29.5450;LS-19;Thaba-Tseka;Marakabeis
+61916;27.8991,-28.8866;LS-12;Leribe;Maputsoe
+0;27.2251,-29.6397;LS;;Mapotu
+14161;27.9741,-29.1098;LS-10;Berea;Mapoteng
+0;27.5167,-30.2167;LS;;Maphutseng
+9216;27.5167,-29.4833;LS;;Mantsebo
+0;27.8380,-29.6558;LS;;Mantsa
+0;27.9000,-29.1500;LS;;Mantoetsi
+0;27.3500,-29.8500;LS;;Mankimane
+8058;27.8336,-29.1264;LS;;Mamathes
+0;27.9358,-30.2489;LS;;Malibe
+0;27.5667,-29.8500;LS;;Malealea
+0;27.3358,-29.6525;LS;;Malaleng
+0;28.0576,-30.2880;LS;;Makuaes
+0;27.7333,-29.9333;LS;;Makojang
+0;27.5998,-29.3499;LS;;Makhoathi
+0;28.1335,-28.9639;LS;;Makhoas
+0;27.3500,-30.1500;LS;;Makhinas
+0;27.9000,-29.5167;LS;;Makhaleng
+0;27.6174,-29.4087;LS;;Makhalanyane
+0;27.7574,-29.0018;LS;;Makhaketsa
+0;27.5513,-29.5689;LS;;Mahloenyeng
+0;27.9833,-29.2167;LS;;Mahlatsas Nek
+0;27.8418,-29.2085;LS;;Mahatlanes
+0;27.3956,-30.1576;LS;;Maghalleen
+45287;27.2374,-29.8230;LS-13;Mafeteng District;Mafeteng
+0;27.5450,-29.4353;LS;;Machekoaneng
+0;27.0672,-29.6435;LS;;Mabotse
+0;27.4955,-29.5324;LS;;Lower Qeme
+0;27.7036,-29.2226;LS;;Litsilong
+0;27.9333,-29.4500;LS;;Lirahalibonoe
+0;27.4335,-30.0394;LS;;Liphateng
+0;28.3648,-28.7279;LS;;Liphakoeng
+0;27.2879,-29.7649;LS;;Likupa
+0;27.2949,-29.8069;LS;;Likhoele
+0;27.3195,-29.6214;LS;;Likhakeng
+0;28.5710,-28.6244;LS;;Libono
+0;27.5163,-29.5369;LS;;Leutsoa
+0;28.4229,-28.6650;LS;;Letsikas
+0;28.3833,-28.6333;LS;;Letsikas
+0;27.3167,-29.8333;LS;;Letsie
+0;28.8167,-28.9167;LS;;Letseng-la-Terae
+0;28.1000,-29.0333;LS;;Lersuelas
+43967;28.0450,-28.8718;LS-12;Leribe;Hlotse
+0;27.6900,-29.1643;LS;;Lekokoaneng
+0;27.4276,-29.9086;LS;;Lekoatsa
+0;27.9167,-29.9000;LS;;Lekhooa
+2178;28.4881,-29.1085;LS;;Lejone
+0;28.9000,-28.9167;LS;;Lebingwanas Cattle Post
+0;28.5167,-29.0333;LS;;Laoti
+0;28.0079,-29.0747;LS;;Kueneng
+0;28.0198,-30.0940;LS;;Kubung
+0;27.6333,-29.5000;LS;;Koro-Koro
+3989;27.7331,-29.0651;LS;;Kolonyama
+0;27.3483,-29.5932;LS;;Kolo
+0;27.9083,-29.3052;LS;;Kokolia
+0;28.0167,-29.0667;LS;;Koeneng
+0;28.0000,-29.0333;LS;;Koeneng
+0;27.7667,-29.2048;LS;;Koali
+0;28.4167,-28.7167;LS;;Khukuhune
+0;27.9354,-29.0611;LS;;Khotsi
+0;27.4139,-30.0921;LS;;Khitsane
+0;28.1667,-28.9167;LS;;Khetisas
+0;27.7333,-29.3500;LS;;Khamolane
+0;28.2333,-28.8333;LS;;Khabos
+0;27.7720,-29.1565;LS;;Kepi
+0;27.6500,-29.7667;LS;;Kena
+0;27.8047,-29.7448;LS;;Kelechane
+0;27.6409,-29.9556;LS;;Kaphe
+0;28.3333,-28.7167;LS;;Kala
+0;28.1066,-28.8016;LS;;Jonathans
+0;28.2833,-28.7000;LS;;Joels Drift
+0;27.8739,-29.4569;LS;;Jaele
+0;27.9667,-29.1167;LS;;Hobsons
+0;28.0751,-28.8829;LS;;Hlotse Camp
+0;28.4368,-28.7123;LS;;Hlakametsas
+0;28.8062,-30.0536;LS;;Hill Top
+0;27.1119,-29.7253;LS;;Hermon
+0;28.4045,-28.6293;LS;;Hendriks
+0;27.4000,-29.8667;LS;;Helspoort
+0;27.5000,-29.9833;LS;;Helehehle
+0;27.8538,-30.0537;LS;;Ha Nohana
+0;27.5667,-29.2000;LS;;Hangers Drift
+0;27.9500,-29.2500;LS;;George
+0;27.5667,-29.2667;LS;;Foso
+0;27.8667,-29.4333;LS;;Fosi
+0;27.7500,-30.3333;LS;;Fort Hartley
+0;27.8060,-29.2824;LS;;Fako
+0;27.5500,-29.7667;LS;;Emmaus
+0;28.5167,-28.6167;LS;;Dinkung
+0;27.6702,-30.5270;LS;;Dilli Dilli
+0;27.7500,-30.2667;LS;;Cutting Camp
+0;27.9833,-28.9833;LS;;Corn Exchange
+0;27.1700,-29.6023;LS;;Chere
+0;27.8351,-29.1091;LS;;Cana
+40599;28.2494,-28.7666;LS-11;Butha-Buthe;Butha-Buthe
+0;27.4345,-30.2418;LS;;Brakfontein
+0;27.5167,-29.2667;LS;;Botsabelo
+0;27.5885,-29.3549;LS;;Boqate
+0;27.6026,-30.4418;LS;;Bolepeletsa
+0;28.4609,-29.3359;LS;;Bokong
+0;27.5288,-30.3395;LS;;Blue Gums
+0;27.6541,-29.8956;LS;;Berente
+0;27.6103,-29.2691;LS;;Berea Hills
+0;27.3500,-29.7167;LS;;Baroaneng
+0;27.6207,-30.3944;LS;;Alwyns Kop
+0;27.6769,-29.6398;LS;;Abele
+16765;28.6084,-29.5220;LS-19;Thaba-Tseka;Thaba-Tseka
+0;28.3589,-29.7578;LS-19;Thaba-Tseka;Lesobeng
+0;28.6274,-29.0158;LS-11;Butha-Buthe;Kao
+0;28.5987,-28.9876;LS-16;Mokhotlong District;Liqhobong
+0;28.4561,-28.6273;LS-11;Butha-Buthe;Makhunoane
+0;27.8704,-28.9290;LS-12;Leribe;Hleoheng
+1971;27.7870,-29.6673;LS-14;Maseru District;Ramabanta
+0;27.4634,-29.3535;LS-14;Maseru District;Ha Tsolo
+0;28.1716,-30.0212;LS-15;Mohale's Hoek District;Mokopung
+0;27.9168,-28.9041;LS-12;Leribe;Ha Nyenye
+0;28.0356,-29.1588;LS-10;Berea;ha Makhoroana
+5965;28.2699,-29.5332;LS-19;Thaba-Tseka;Mantsonyane
+0;28.7440,-29.4050;LS-19;Thaba-Tseka;Ha Thoso
+0;27.5669,-29.3844;LS-14;Maseru District;Ha Mpesi
+0;27.4769,-30.1347;LS-15;Mohale's Hoek District;Qalakheng
+0;27.5570,-29.2968;LS-10;Berea;Koalabata
+0;27.5451,-29.4174;LS-14;Maseru District;Taung
+0;27.6133,-30.3650;LS-18;Quthing;Taung
+0;27.4153,-30.2220;LS-15;Mohale's Hoek District;Phahameng
+0;27.5524,-29.4302;LS-14;Maseru District;Motse-Mocha
+0;27.7290,-29.1536;LS-10;Berea;Ha Molemane
+0;27.5081,-29.3713;LS-14;Maseru District;Ha-Seoli
+0;27.4753,-29.3270;LS-14;Maseru District;Hills View
+0;28.4953,-29.3733;LS-19;Thaba-Tseka;Letlapeng
+0;27.3970,-29.4738;LS-14;Maseru District;Tikathole
+0;27.5605,-29.3779;LS-14;Maseru District;Ha Nelese
+0;28.0991,-28.8652;LS-12;Leribe;Ha Lejone
+0;28.0420,-28.8784;LS-12;Leribe;Lisemeng 1
+0;27.7138,-29.4535;LS-14;Maseru District;Mafikeng
+38047;27.5242,-29.2786;LS-10;Berea;Mabote
+0;28.5450,-29.2510;LS-12;Leribe;Ha Ntsooa
+0;27.4936,-29.3552;LS-14;Maseru District;Ha Ratsoana
+0;27.7536,-29.3347;LS-10;Berea;Ha Khabele
+0;28.1068,-29.9581;LS-15;Mohale's Hoek District;Ha Sekhebetlele
+0;27.1064,-29.6846;LS-13;Mafeteng District;Ha Mphobe
+0;27.9010,-28.9628;LS-12;Leribe;Ha Mokati
+0;27.5559,-29.4103;LS-14;Maseru District;Ha Paki
+0;27.7172,-29.3157;LS-10;Berea;Ha Khohlooa
+0;27.4059,-30.1690;LS-15;Mohale's Hoek District;Ha Sankatana
+0;27.3358,-29.3346;LS-14;Maseru District;Ha Petje
+0;28.5724,-29.3556;LS-19;Thaba-Tseka;Ha Leaoa
+0;27.7669,-30.2930;LS-15;Mohale's Hoek District;Ha Seleitara
+0;27.6438,-30.3884;LS-18;Quthing;Ha Malibe
+0;27.5128,-29.3305;LS-14;Maseru District;Upper Thamae
+0;28.7849,-29.5297;LS-16;Mokhotlong District;Linakeng Ha Mphosi
+0;28.3131,-28.7189;LS-11;Butha-Buthe;Qalo
+0;27.5444,-29.2803;LS-10;Berea;Sekamaneng
+0;27.7483,-29.1433;LS-10;Berea;Ha Motjoka
+0;28.0815,-28.8925;LS-12;Leribe;Ha Kotsane
+0;27.2326,-29.8292;LS-13;Mafeteng District;Phahameng
+0;27.5326,-29.3567;LS-14;Maseru District;Ha Keiso
+0;27.4706,-29.5954;LS-14;Maseru District;Ha Tlhakanenlo
+0;27.7693,-30.3838;LS-18;Quthing;Manekoleng
+0;28.2001,-30.0331;LS-18;Quthing;Nkaus
+0;27.6039,-29.4629;LS-14;Maseru District;Ha Katu
+0;27.8168,-29.1624;LS-10;Berea;Ha Lethokonyana
+0;27.9999,-29.0174;LS-10;Berea;Tuke
+0;27.5432,-29.3755;LS-14;Maseru District;Ha Matala
+0;27.5211,-29.3625;LS-14;Maseru District;Lower Seoli
+0;28.2642,-28.9337;LS-12;Leribe;Ha Makuka
+0;28.5579,-28.9500;LS-11;Butha-Buthe;Ha Lehloara
+0;27.7417,-29.1514;LS-10;Berea;Ha Ramonaheng
+0;28.0863,-29.1139;LS-10;Berea;Ha Maqotoane
+0;28.4650,-28.7820;LS-11;Butha-Buthe;Boinyatso
+0;28.8132,-29.6780;LS-19;Thaba-Tseka;Ha Setala
+0;27.3472,-29.7477;LS-13;Mafeteng District;Ha-Ramokoatsi
+0;27.7436,-29.0425;LS-12;Leribe;Tsoilitsoili
+0;27.4890,-29.3310;LS-14;Maseru District;Katlehong
+0;27.2360,-29.8210;LS-13;Mafeteng District;Matlapaneng
+0;27.3402,-29.6919;LS-13;Mafeteng District;Ha Mafeto
+0;27.2402,-29.6784;LS-13;Mafeteng District;Ha Majake
+0;27.6600,-29.1190;LS-10;Berea;Ha Nepe
+0;27.4820,-30.1480;LS-15;Mohale's Hoek District;Likhutlong
+0;27.7690,-30.5720;LS-18;Quthing;Ha Motsapi
+0;28.5050,-29.6950;LS-19;Thaba-Tseka;Ha Mohau
+0;27.8540,-30.4070;LS-18;Quthing;Ha Sejakhosi
+0;29.0412,-29.2895;LS-16;Mokhotlong District;Mangaung
+0;27.6301,-29.5152;LS-14;Maseru District;Ha Phohleli
+0;27.4650,-29.9190;LS-13;Mafeteng District;Ha Sebaki
+0;27.6081,-29.6800;LS-14;Maseru District;Ha Moima
+0;28.5027,-28.7632;LS-11;Butha-Buthe;Phelandaba
+0;28.0760,-28.9360;LS-12;Leribe;Ha Hoki
+0;27.5387,-29.3092;LS-10;Berea;Ts'enola
+0;28.4807,-29.1702;LS-12;Leribe;Ha Thibeli
+0;28.1619,-28.9540;LS-12;Leribe;Ha Khojane
+0;27.7414,-29.1376;LS-10;Berea;Ha Ntjabane
+0;27.5440,-30.1740;LS-15;Mohale's Hoek District;Ha Mafethe
+0;28.6169,-29.5720;LS-19;Thaba-Tseka;Ha Ramalapi
+0;28.6016,-29.5292;LS-19;Thaba-Tseka;Live-Stock
+0;27.7006,-30.3991;LS-18;Quthing;Ha Sikara
+0;27.5245,-29.3070;LS-10;Berea;Phopholetsa
+0;28.2841,-30.0528;LS-18;Quthing;Ha Mosi
+0;27.4796,-30.1282;LS-15;Mohale's Hoek District;Ha Lekhema
+0;27.8690,-29.2280;LS-10;Berea;Ha Matjotjo
+0;27.5250,-29.9080;LS-13;Mafeteng District;Ha Ramosoeu
+0;27.8710,-29.0919;LS-10;Berea;Ha Ntsabane
+0;28.8845,-30.0317;LS-17;Qacha's Nek District;Ha Apeal Makhoareng
+0;27.5418,-29.4057;LS-14;Maseru District;Ha Jimisi
+0;28.5931,-29.5091;LS-19;Thaba-Tseka;Thabong I
+0;27.5420,-30.2945;LS-15;Mohale's Hoek District;Ha-Nkhetheleng
+0;27.3130,-29.8210;LS-13;Mafeteng District;Makeneng
+0;27.4626,-29.3397;LS-14;Maseru District;Ha Thetsane
+0;28.4712,-28.7462;LS-11;Butha-Buthe;Ha Molapo
+0;27.9137,-30.1516;LS-18;Quthing;Ha Machakela
+0;27.5283,-29.7851;LS-13;Mafeteng District;Ha Khotlela
+0;28.1089,-28.7999;LS-12;Leribe;Leribe Moreneng
+0;27.7770,-29.5500;LS-14;Maseru District;Ha Macheli
+0;28.6200,-29.4240;LS-19;Thaba-Tseka;Ha Leoka
+0;27.8000,-30.2359;LS-15;Mohale's Hoek District;Ha Putsoane
+0;28.2493,-28.7768;LS-11;Butha-Buthe;Ha Kamoho
+0;27.4417,-30.1017;LS-15;Mohale's Hoek District;Ha Nchoba
+0;27.8183,-30.4344;LS-18;Quthing;Ha Raphera
+0;27.9947,-30.1188;LS-18;Quthing;Ha Majara
+0;27.4349,-29.4534;LS-14;Maseru District;Ha Tsautse
+0;27.8318,-30.2079;LS-15;Mohale's Hoek District;Ha Malephane
+0;28.5118,-29.9440;LS-17;Qacha's Nek District;Ha Fou
+0;27.8141,-30.2187;LS-15;Mohale's Hoek District;Ha Qacha
+0;27.6151,-29.4057;LS-14;Maseru District;Ha Makhalanyane
+0;28.0404,-28.8687;LS-12;Leribe;Mankoaneng
+0;27.5697,-29.2612;LS-10;Berea;Ha Foso
+1932;28.0571,-29.4791;LS-19;Thaba-Tseka;Mohale
+1978;28.1297,-30.1940;LS-18;Quthing;Mphaki
+8636;28.0504,-29.8433;LS-14;Maseru District;Semonkong
+1858;28.5495,-29.2710;LS-12;Leribe;Seshote
+2870;28.4800,-29.3353;LS-19;Thaba-Tseka;Katse
+1908;27.8588,-30.0730;LS-15;Mohale's Hoek District;Ketane
+5233;27.6875,-29.6888;LS-14;Maseru District;Kolo
+2486;27.5434,-29.7566;LS-13;Mafeteng District;Makhakhe
+3739;28.8680,-29.2003;LS-16;Mokhotlong District;Mapholaneng
+4879;27.4604,-29.5724;LS-14;Maseru District;Rothe

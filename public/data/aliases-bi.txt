@@ -1,0 +1,22 @@
+ar;ماكامبا;Makamba
+ar;بوروري;Bururi
+ar;رومونجي;Rumonge
+fr;Région naturelle de Mugamba;Mugamba
+ar;إيسالي;Isale
+es;Buyumbura;Bujumbura
+ar;بوجومبورا;Bujumbura
+ln;Bujumbúra;Bujumbura
+ar;رويجي;Ruyigi
+ar;جانكوزو;Cankuzo
+en;Karuzi;Karusi
+it;Karuzi;Karusi
+ar;بوبانزا;Bubanza
+ar;سيبيتوكي;Cibitoke
+ar;نقوزي;Ngozi
+ar;كايانزا;Kayanza
+ar;موينقا;Muyinga
+ar;كيرندو;Kirundo
+en;Vumbi;Vumbi-Bukuba
+rn;Vumbi;Vumbi-Bukuba
+nl;Vumbi;Vumbi-Bukuba
+ar;روتانا;Rutana

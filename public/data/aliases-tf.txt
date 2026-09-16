@@ -1,0 +1,20 @@
+fr;Saint Christophe;Île Juan de Nova
+en;Juan de Nova Island;Île Juan de Nova
+fr;Juan de Nova;Île Juan de Nova
+es;Isla Juan de Nova;Île Juan de Nova
+de;Juan de Nova;Île Juan de Nova
+it;Juan de Nova;Île Juan de Nova
+nl;Juan de Nova;Île Juan de Nova
+pt;Ilha de João da Nova;Île Juan de Nova
+mg;Nosy Juan de Nova;Île Juan de Nova
+fr;Glorieuse;Île Glorieuse
+fr;Grande Glorieuse;Île Glorieuse
+en;Glorioso Islands;Île Glorieuse
+en;Glorieuses Islands;Île Glorieuse
+fr;Îles Glorieuses;Île Glorieuse
+es;Islas Gloriosas;Île Glorieuse
+de;Îles Glorieuses;Île Glorieuse
+nl;Glorieuzen;Île Glorieuse
+pt;Ilhas Gloriosas;Île Glorieuse
+fr;Le Lys;Île du Lys
+fr;Ile du Lise;Île du Lys

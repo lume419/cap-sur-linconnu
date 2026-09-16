@@ -1,0 +1,246 @@
+pt;Ialá;Yala
+en;Buholo;Uholo
+nl;Buholo;Uholo
+en;Karuris;Tuthu
+nl;Karuris;Tuthu
+en;Tekwa Ruins;Takwa Milinga
+sw;Horr Kusini;South Horr
+pt;Siacago;Siakago
+en;Nyangoso;Nyangusu
+nl;Nyangoso;Nyangusu
+ar;نياهورورو;Nyahururu
+en;Nnundu;Ndundu
+nl;Nnundu;Ndundu
+en;Nchimwani;Nthwani
+nl;Nchimwani;Nthwani
+sw;Horr Kaskazini;North Horr
+zu;North Horr Constituency;North Horr
+en;Ngwena;Malindi ya Ngwena
+nl;Ngwena;Malindi ya Ngwena
+en;Ngia;Ngiya
+nl;Ngia;Ngiya
+sw;Ndulele;Ntulelei
+en;Ndulele;Ntulelei
+nl;Ndulele;Ntulelei
+en;Namiaso;Namyoso
+nl;Namiaso;Namyoso
+ar;نايفاشا;Naivasha
+ar;نيروبي;Nairobi
+pt;Nairóbi;Nairobi
+sw;Nairagie Ngare;Nairagi Enkare
+en;Nairagie Ngare;Nairagi Enkare
+nl;Nairagie Ngare;Nairagi Enkare
+pt;Mueiga;Mweiga
+en;Marongo;Mwarongo
+nl;Marongo;Mwarongo
+en;Mwangareme;Mwangarimwe
+nl;Mwangareme;Mwangarimwe
+en;Mwanathumba;Mwanathamba
+nl;Mwanathumba;Mwanathamba
+en;Manamare;Mwanamare
+nl;Manamare;Mwanamare
+en;Mwambani;Nambani
+it;Mwambani;Nambani
+nl;Mwambani;Nambani
+en;Mwachirunje ya Pwani;Mwakirunge ya Pwani
+nl;Mwachirunje ya Pwani;Mwakirunge ya Pwani
+en;Mwachirunge Bomu;Mwakirunge Kuu
+nl;Mwachirunge Bomu;Mwakirunge Kuu
+sw;Muyaka bin Hajji;Muyaka
+en;Mutune;Mutuni
+nl;Mutune;Mutuni
+en;Muthuthini;Muthuthiini
+nl;Muthuthini;Muthuthiini
+en;Murabara;Murubara
+nl;Murabara;Murubara
+en;Mununca;Mununga
+nl;Mununca;Mununga
+en;Mugomoini;Mugumoini
+nl;Mugomoini;Mugumoini
+en;Muchumo;Machumo
+nl;Muchumo;Machumo
+en;Muchiene;Muchene
+nl;Muchiene;Muchene
+en;Msangatifu;Mtsangatifu
+nl;Msangatifu;Mtsangatifu
+en;Mrugua;Mragua
+nl;Mrugua;Mragua
+ar;مومباسا;Mombasa
+nl;Mombassa;Mombasa
+pt;Mombaça;Mombasa
+ln;Mombása;Mombasa
+en;Mnazinia;Mnazini
+nl;Mnazinia;Mnazini
+en;Mienzeni;Miguneni
+nl;Mienzeni;Miguneni
+en;Mgange;Mgenge
+nl;Mgange;Mgenge
+en;Melewa;Malewa
+nl;Melewa;Malewa
+sw;Mbirikani;Makutano
+en;Mbirikani;Makutano
+nl;Mbirikani;Makutano
+en;Matayos;Matayo
+nl;Matayos;Matayo
+ar;ماسينو;Maseno
+pt;Massalani;Masalani
+en;Marinde;Marindi
+nl;Marinde;Marindi
+en;Mariira;Mareira
+nl;Mariira;Mareira
+pt;Melinde;Malindi
+ar;ماليندي;Malindi
+de;Singapur;Malaba
+pt;Quenol;Makuyu
+sw;Maji Mata;Maji Moto
+en;Maji Mata;Maji Moto
+nl;Maji Mata;Maji Moto
+en;Mai Maharo;Mai Mahoro
+nl;Mai Maharo;Mai Mahoro
+en;Madunguni;Madungoni
+nl;Madunguni;Madungoni
+en;Lwei;Lwero
+nl;Lwei;Lwero
+en;Lumbwa;Kipkelion
+nl;Lumbwa;Kipkelion
+ar;لوندياني;Londiani
+sw;Lolnguswa;Lorngosua
+en;Lolnguswa;Lorngosua
+nl;Lolnguswa;Lorngosua
+en;Lokwakangole;Lokwa Kangole
+nl;Lokwakangole;Lokwa Kangole
+en;Lokichogio;Lokichokio
+ar;لامو;Lamu
+pt;Antiga Cidade de Lamu;Lamu
+ar;كيزيمو;Kisumu
+en;Mbwara Maganga;Kimara Maganga
+nl;Mbwara Maganga;Kimara Maganga
+sw;Clema Dui;Kilema Dui
+en;Clema Dui;Kilema Dui
+nl;Clema Dui;Kilema Dui
+pt;Quiganjo;Kiganjo
+en;Karisa;Kiaritha
+nl;Karisa;Kiaritha
+ar;خليج كندو;Kendu Bay
+en;Katothia;Katothya
+nl;Katothia;Katothya
+en;Katelembu;Katelembo
+nl;Katelembu;Katelembo
+en;Karuruma;Karurumo
+nl;Karuruma;Karurumo
+en;Karugya;Karugia
+nl;Karugya;Karugia
+en;Karinga;Kiringa
+nl;Karinga;Kiringa
+pt;Caratina;Karatina
+sw;Kapchorewe;Kapchorwa
+en;Kapchorewe;Kapchorwa
+nl;Kapchorewe;Kapchorwa
+en;Kanyekine;Kanyakine
+nl;Kanyekine;Kanyakine
+sw;Mto Kaningo;Kaningo
+pt;Cangema;Kangema
+en;Kamisinga;Kamusinga
+nl;Kamisinga;Kamusinga
+en;Kamunga;Kamungu
+nl;Kamunga;Kamungu
+en;Kampi ya Kerengenzi;Kampi ya Kerenzeni
+nl;Kampi ya Kerengenzi;Kampi ya Kerenzeni
+sw;Kamar;Kamarr
+en;Kamando;Kamondo
+nl;Kamando;Kamondo
+en;Makinya;Kalawa
+nl;Makinya;Kalawa
+en;Kaitui;Koituiy
+nl;Kaitui;Koituiy
+en;Kagarumo;Kagurumo
+nl;Kagarumo;Kagurumo
+en;Kagumaini;Kagumoini
+nl;Kagumaini;Kagumoini
+pt;Cagio;Kagio
+en;Kadenge;Kadengi
+nl;Kadenge;Kadengi
+sw;Kabungwa;Kabongwa
+en;Kabungwa;Kabongwa
+nl;Kabungwa;Kabongwa
+en;Ithirameru;Ituramiro
+nl;Ithirameru;Ituramiro
+en;Hithe;Ihithe
+nl;Hithe;Ihithe
+en;Galole;Hola
+en;Gogoni;Gongoni
+nl;Gogoni;Gongoni
+en;Gituge;Gitugi
+nl;Gituge;Gitugi
+en;Githuva;Githuya
+nl;Githuva;Githuya
+en;Githunguru;Githunguchu
+nl;Githunguru;Githunguchu
+en;Gitembe;Githembe
+nl;Gitembe;Githembe
+en;Gakui;Gikui
+nl;Gakui;Gikui
+en;Gakoi;Gikoe
+nl;Gakoi;Gikoe
+en;Gifyonzo;Kifyonzo
+nl;Gifyonzo;Kifyonzo
+en;Gethemu;Githimu
+nl;Gethemu;Githimu
+en;Gekuuri;Gikuuri
+nl;Gekuuri;Gikuuri
+en;Gekandu;Gikandu
+nl;Gekandu;Gikandu
+en;Gasi;Gazi
+nl;Gasi;Gazi
+ar;غاتوياني;Gatuyaini
+en;Gatundori;Gatunduri
+nl;Gatundori;Gatunduri
+en;Gatiani;Gatiaini
+nl;Gatiani;Gatiaini
+en;Gatakani;Gatakaini
+nl;Gatakani;Gatakaini
+ar;غاريسا;Garissa
+en;Gaithece;Gaithege
+nl;Gaithece;Gaithege
+en;Gacaraigu;Gacharaigu
+nl;Gacaraigu;Gacharaigu
+sw;Entasekera;Olosodan Entasekera
+en;Entasekera;Olosodan Entasekera
+nl;Entasekera;Olosodan Entasekera
+pt;Endaraxa;Endarasha
+sw;Enangiperi;Enengipire
+en;Enangiperi;Enengipire
+nl;Enangiperi;Enengipire
+ar;إلداما رافين;Eldama Ravine
+sw;Waduruma;Duruma
+ar;دداب;Dadaab
+ar;داداب;Dadaab
+en;Chororget;Choroget
+nl;Chororget;Choroget
+en;Chonye;Chonyi
+nl;Chonye;Chonyi
+en;Chiananda;Chiamanda
+nl;Chiananda;Chiamanda
+en;Chesakaki;Chesikaki
+nl;Chesakaki;Chesikaki
+sw;Chemuswa;Chemuswo
+en;Chemuswa;Chemuswo
+nl;Chemuswa;Chemuswo
+sw;Chathoro;Handarako
+en;Chathoro;Handarako
+nl;Chathoro;Handarako
+en;Butsotse;Butsotso
+nl;Butsotse;Butsotso
+en;Bunyala;Port Victoria
+nl;Bunyala;Port Victoria
+ar;بومت;Bomet
+sw;Benane;Banane
+en;Benane;Banane
+nl;Benane;Banane
+sw;Barwessa;Barwesa
+en;Amboseli;Amboseli Safari Camp
+ar;سيايا;Siaya
+en;Kavoko;Mataka
+pt;Mucurueini;Mukurwe-ini
+ar;أول كالو;Ol Kalou
+ar;كاثوانا;Kathwana

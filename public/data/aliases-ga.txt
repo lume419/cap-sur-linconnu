@@ -1,0 +1,13 @@
+ar;بورت جنتيل;Port-Gentil
+en;Nkan;Ntoum
+fr;Nkan;Ntoum
+ar;موندو;Moundou
+ar;مواندا;Moanda
+kg;Muanda;Moanda
+en;Mayibout;Mayébout
+ar;ليبرفيل;Libreville
+ar;فرانسفيل;Franceville
+kg;Masuku;Franceville
+en;Bikelé;Bikélé
+fr;Bikele;Bikélé
+nl;Bikelé;Bikélé

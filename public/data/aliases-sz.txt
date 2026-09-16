@@ -1,0 +1,17 @@
+de;Tshaneni;Thunzini
+pt;Tjaneni;Thunzini
+en;Tshaneni;Thunzini
+fr;Tshaneni;Thunzini
+nl;Tshaneni;Thunzini
+ar;سيتيكي;Siteki
+ar;بيجز بيك;Piggs Peak
+zu;INsoko;Nsoko
+ar;نهلانجانو;Nhlangano
+zu;EMhlambanyatsi;Mhlambanyatsi
+ar;مبابان;Mbabane
+ss;Embabane;Mbabane
+ar;مانزيني;Manzini
+ar;لوبامبا;Lobamba
+es;Hlatikulu;Hlathikhulu
+en;Hlatikulu;Hlathikhulu
+zu;ISimunye;Simunye

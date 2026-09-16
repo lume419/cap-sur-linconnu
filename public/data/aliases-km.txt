@@ -1,0 +1,61 @@
+ar;واناني;Ouanani
+en;Wanani;Ouanani
+nl;Wanani;Ouanani
+en;Vassi;Vassy
+nl;Vassi;Vassy
+ar;فانامبويني;Vanambouani
+en;Vanamboini;Vanambouani
+nl;Vanamboini;Vanambouani
+ar;صيمبيهو;Tsimbeo
+de;Tsembéhou;Tsimbeo
+fr;Tsembéhou;Tsimbeo
+nl;Tsémbehou;Tsimbeo
+ar;سيما;Sima
+en;Patsy;Patsi
+fr;Patsy;Patsi
+nl;Patsy;Patsi
+en;Ousivo;Oussivo
+nl;Ousivo;Oussivo
+ar;أواني;Ouani
+ar;والله;Ouallah
+de;Ongojou;Ongoujou
+fr;Ongodjou;Ongoujou
+ar;أونجوني;Ongoni
+ar;شاوني;Chaouéni
+ar;موتسامودو;Moutsamoudou
+ar;موروني;Moroni
+ar;ميرينكوني;Miringoni
+ar;إمبيني;Mbéni
+ar;ماراهاري;Maraharé
+ar;كوني جوجو;Koni-Djodjo
+ar;كوني;Koni-Djodjo
+de;Koni Djodjo;Koni-Djodjo
+ar;جيميليم;Jimilimé
+fr;Jamilimé;Jimilimé
+de;Itsandra Mdjini;Itsandra
+fr;Itsandra Mdjini;Itsandra
+ar;هواني;Hoani
+fr;Hahaïa;Hahaya
+fr;Hahaïa-Aéroport;Hahaya
+en;Hahaya-Aeroport;Hahaya
+ar;فومبوني;Fomboni
+ar;دزياني;Dziani
+ar;دوموني;Domoni
+ar;تشيرونكامبا;Chironkamba
+ar;بيمبيني;Bimbini
+ar;بازيميني;Bazimini
+ar;أسيمباو;Assimpao
+ar;أنتساهي;Antsahé
+ar;ندروندروني;Ndrondroni
+ar;زيروداني;Ziroudani
+ar;شتروني;Chitrouni
+ar;سلاماني;Salamani
+ar;هارمبو;Harembo
+ar;ميرونتسي;Mirontsi
+ar;ليمبي;Limbi
+ar;لينكني;Lingoni
+ar;ماجناسيني نيندري;Magnassini-Nindri
+ar;أدا دويني;Adda-Douéni
+fr;Adda Daouéni;Adda-Douéni
+fr;Nkourani Sima;Nkourani
+fr;Batsa Itsandra;Batsa

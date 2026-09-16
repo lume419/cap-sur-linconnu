@@ -1,0 +1,49 @@
+es;Xai Xai;Xai-Xai
+ar;خاي-خاي;Xai-Xai
+en;Vilanculos;Vilankulo
+pt;Vilanculos;Vilankulo
+sw;Vilanculo;Vilankulo
+af;Vilanculos;Vilankulo
+en;Maganja da Costa;Maganja
+pt;Vila-de-Santiago-Maior;Tete
+ar;تيتي;Tete
+ar;كويليمان;Quelimane
+ar;بيمبا;Pemba
+ar;بالما;Palma
+pt;Ofice;Once
+ar;نامبولا;Nampula
+en;Cidade de Nacala;Nacala
+en;Nacala-Porto;Nacala
+it;Distretto di Montepuez;Montepuez
+ar;مونتيبويز;Montepuez
+pt;Metècuza;Metècuxa
+ar;ماكسيكسي;Maxixe
+ar;ماتولا;Matola
+pt;Gocha;Massala
+ar;مابوتو;Maputo
+pt;Mafusse;Mafussi
+pt;Macuiane;Macuiana
+ar;ليتشينجا;Lichinga
+ar;إنهامبان;Inhambane
+de;Gurué;Gurúè
+pt;Gurué;Gurúè
+sw;Gurué;Gurúè
+es;Gurué;Gurúè
+pt;Spungabera;Espungabera
+pt;Spumgabera;Espungabera
+de;Cobué;Cobue
+pt;Cobué;Cobue
+pt;Chuanza;Chuanxa
+pt;Chókwè;Chokwé
+pt;Mucumbura;Chissico
+pt;Mecumbura;Chissico
+pt;Vundura;Chimpêto
+ar;تشيموايو;Chimoio
+pt;Cachio;Cachia
+pt;Makato;Bufana
+ar;بيرا;Beira
+ar;أنغوتشي;Angoche
+pt;Algueirão;Inhacufera
+fr;Maganda;Cabo Maganda
+en;25 de Junho ”A”;Bairro 25 de Junho A
+en;25 de Junho ”B”;Bairro 25 de Junho B

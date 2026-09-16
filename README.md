@@ -1146,6 +1146,235 @@ de Bamako annoncé fin avril 2026. Le **Burkina Faso** : tout déplacement forme
 (10 septembre 2026), ambassade de France fermée après rupture des relations diplomatiques, et le
 Royaume-Uni déconseille également tout voyage.
 
+### Sahel, Afrique centrale et Corne de l'Afrique : onze pays (septembre 2026)
+
+Niger, Bénin, Nigeria, Tchad, République centrafricaine, Soudan, Soudan du Sud, Érythrée, Éthiopie,
+Djibouti et Somalie — **125 381 communes**, nouveau plus gros ajout du projet (Nigeria à lui seul :
+60 817 ; Djibouti : 64). Script dédié : `scripts/build-sahel-corne-communes.js`, même méthode que le
+lot ouest-africain.
+
+**Aucun code postal, pour aucun des onze** (`export/zip/XX.zip` renvoie 404 partout) : le champ `cp`
+porte l'étiquette informelle "XX-<code admin1 GeoNames>", jamais présentée comme un code ISO.
+**GeoNames est repris tel quel, y compris quand il retarde sur la réalité administrative** — c'est
+écrit dans l'en-tête du script plutôt que corrigé à la main : l'Éthiopie y garde un ancien découpage
+(les régions Sidama, South West Ethiopia, Central Ethiopia et South Ethiopia issues des réformes de
+2020, 2021 et 2023 n'y existent pas) ; le Soudan y garde des codes d'États antérieurs ; le Somaliland,
+indépendant de fait depuis 1991 et non reconnu, reste rangé sous la Somalie, comme GeoNames le fait.
+
+**Péages : aucun modélisable.** Nigeria, Bénin, Niger et Tchad ont des péages **forfaitaires par
+barrière** (500 ₦ par barrière fédérale au Nigeria, 300 à 1 000 FCFA au Bénin), même raisonnement que
+pour l'Afrique de l'Ouest. L'**Éthiopie** est le seul vrai péage kilométrique du lot, mais son dernier
+barème au kilomètre publié date de 2019 (0,77 Br/km) : la révision d'août 2026 n'est pas détaillée et
+le birr a perdu l'essentiel de sa valeur depuis la libéralisation du change de juillet 2024.
+Appliquer le tarif de 2019 serait un faux chiffre — `hasToll:false`, raison écrite.
+
+**Monnaies : huit nouvelles.** XAF (franc CFA d'Afrique centrale, Tchad et Centrafrique — distinct du
+XOF mais même parité fixe de 655,957 pour 1 EUR, zéro décimale), NGN (₦), SDG, SSP, ERN (nakfa arrimé
+à 15 pour 1 USD), ETB, DJF (caisse d'émission à 177,721 pour 1 USD, zéro décimale) et SOS ; le Niger
+et le Bénin utilisent le XOF déjà présent. Les plafonds de budget sont la gamme euro convertie au taux
+comptable InforEuro de septembre 2026 — **aucune statistique publique de prix hôtelier n'existe pour
+aucun des onze pays**. Deux devises n'ont qu'une valeur indicative, et c'est écrit dans le code : la
+**livre soudanaise**, dont le marché parallèle (6 350-6 400 SDG pour 1 USD fin août 2026) s'écarte
+fortement du cours officiel ; et le **shilling somalien**, dans une économie dollarisée de fait où
+aucun billet n'a été imprimé depuis 1991.
+
+**Adjacence : le lot le plus fermé du projet.** Seules cinq frontières sont DOCUMENTÉES comme ouvertes
+au passage civil et retenues : **Niger-Nigeria** (rouverte en mars 2024), **Bénin-Togo**
+(Hillacondji), **Bénin-Nigeria** (Sèmè-Kraké), **Éthiopie-Djibouti** (Galafi) et **Soudan-Égypte**
+(Argeen, entièrement routier par la rive ouest du lac Nasser). Tout le reste est écarté, avec la
+raison dans `lib/trip-engine.js` :
+- **fermées** — Niger-Bénin (par le Niger depuis 2023), Tchad-Soudan (23 février 2026, Adré rouvert
+  pour l'humanitaire seulement), Centrafrique-Soudan (juillet 2026), Tchad-Libye (zone militaire
+  depuis 2017), et **toutes** les frontières de l'Érythrée ;
+- **sans poste routier** — Nigeria-Tchad (la frontière commune est dans le lac Tchad) ;
+- **ouverture non établie** — Niger avec Mali, Burkina, Algérie, Libye et Tchad ; Tchad-Centrafrique ;
+  Centrafrique-Soudan du Sud ; Soudan avec Libye, Soudan du Sud et Éthiopie ; Soudan du Sud-Éthiopie ;
+  Éthiopie-Somalie ; Djibouti-Somalie. Dans des zones de conflit, « aucune fermeture trouvée » n'est
+  pas une preuve d'ouverture.
+
+Conséquence visible et voulue : **le Tchad, la Centrafrique, le Soudan du Sud, l'Érythrée et la
+Somalie sont des îlots** — un trajet qui en part y reste. Vérifié au tirage (6 trajets de 7 jours,
+rayon 1 500 km, par capitale) : Niamey visite Niger, Nigeria et Bénin ; Cotonou Bénin, Togo et Nigeria ;
+Khartoum Soudan et Égypte ; Addis-Abeba et Djibouti l'Éthiopie et Djibouti ; N'Djamena, Bangui, Juba,
+Asmara et Mogadiscio ne quittent jamais leur pays. Aucun ferry n'est nécessaire (voir "Ferries").
+
+**Sécurité : le lot le plus exposé du projet**, documenté comme le Mali et le Burkina avant lui. Au 15
+septembre 2026, France Diplomatie déconseille formellement **tout le territoire** du Niger, du Soudan
+(en guerre depuis avril 2023) et de la Somalie, Somaliland compris ; en Centrafrique seule
+l'agglomération de Bangui-Bimbo échappe à la zone rouge, et le Soudan du Sud est de fait entièrement
+déconseillé. Le Tchad, le Nigeria (nord-est et nord-ouest), le Bénin (nord), l'Éthiopie (Tigré,
+Amhara, une large part de l'Oromia et des régions frontalières), l'Érythrée et Djibouti ont des zones
+rouges étendues. L'application tire des lieux réels ; elle ne dit pas qu'y aller est raisonnable.
+
+### Afrique orientale, centrale et australe, océan Indien : vingt-quatre pays (septembre 2026)
+
+Kenya, Ouganda, Tanzanie, Rwanda, Burundi, RD Congo, Congo, Gabon, Guinée équatoriale, Sao Tomé-et-
+Principe, Angola, Zambie, Malawi, Mozambique, Zimbabwe, Botswana, Namibie, Afrique du Sud, Eswatini,
+Lesotho, Comores, Madagascar, Maurice et Seychelles — **198 287 lieux**, le plus gros ajout du projet
+(RD Congo 37 126, Madagascar 24 112 ; Seychelles 45). Script : `scripts/build-afrique-australe-communes.js`.
+**La Réunion et Mayotte**, également demandées, sont des départements français : leurs communes
+étaient déjà servies par geo.api.gouv.fr avec leurs vrais codes postaux (974xx, 976xx) et le restent.
+
+**Codes postaux : trois fichiers GeoNames existent, tous trois mesurés puis écartés.** L'Afrique du
+Sud en a 3 920, mais pour seulement 906 coordonnées distinctes (les 135 codes de Johannesburg
+partagent un même point) : rattacher un lieu au « code le plus proche » serait un tirage arbitraire,
+et 6 171 lieux sur 12 613 n'ont aucun point postal à moins de 15 km. Ceux du Kenya (890) et du Malawi
+(491) sont des codes de bureaux de poste. Le champ `cp` suit donc partout la règle des lots africains
+précédents : étiquette informelle "XX-<code admin1 GeoNames>".
+
+**Lieux sans région : gardés cette fois**, avec l'étiquette pays seule et une région vide, comme le
+Sahara occidental. Les écarter aurait vidé des pays entiers — mesuré : Guinée équatoriale 1 965 lieux
+sur 2 045 (il en serait resté 80), Lesotho 239 sur 393 dont des bourgs de 5 000 à 9 000 habitants.
+
+**Îles : toutes isolées, aucune liaison maritime ni lacustre modélisée.** Aucune ligne de la zone n'a
+de grille tarifaire publiée et vérifiable (voir "Ferries"). Les îles sont reconnues par boîte de
+coordonnées (`ISLAND_BOXES` dans `trip-data.js`), chaque boîte vérifiée contre les lieux réellement
+publiés : Unguja et Pemba (Zanzibar, qui coïncident exactement avec les régions GeoNames), Mafia,
+Ukerewe, Lamu, Mfangano, les Ssese, Likoma, Chizumulu, Idjwi, Nosy Be, Sainte-Marie, Bioko, Annobón,
+Corisco, les trois îles des Comores, São Tomé et Príncipe, Maurice et Rodrigues, Mahé, Praslin et La
+Digue. **L'enclave angolaise de Cabinda** est traitée de la même façon : aucune route ne la relie au
+reste de l'Angola sans traverser la RD Congo. Au départ d'une très petite île (Petite-Terre à Mayotte,
+Likoma, Rodrigues), le trajet se limite à quelques kilomètres grâce au dernier recours ajouté avec le
+lot suivant (voir ci-dessous) ; La Digue, dont les lieux sont à moins de 2 km, reste sans trajet.
+
+**Deux bugs corrigés en chemin, antérieurs à ce lot :**
+- Les départements d'outre-mer étaient tous rangés dans la masse terrestre "continental", comme la
+  métropole. Invisible tant qu'aucun voisin n'était couvert ; faux dès que Maurice (220 km de La
+  Réunion) et les Comores (70 km de Mayotte) arrivent. Chaque DOM a désormais la sienne, et
+  Petite-Terre est séparée de Grande-Terre. Au passage, **le péage kilométrique de la métropole était
+  appliqué aux trajets de La Réunion et de Mayotte**, qui n'ont aucune autoroute à péage (`tollCountryOf`).
+- **`/api/pois` refusait tout lieu hors d'une boîte européenne** (lat. 35,7-61, long. -10,5-24,2),
+  élargie pays par pays au fil des ajouts européens mais jamais au-delà. L'Islande, les Féroé, la
+  Turquie, le Caucase, le Proche-Orient, le Maghreb et toute l'Afrique recevaient un 400 silencieux,
+  donc **aucune activité réelle**, sans erreur visible. Découvert en testant un trajet kényan dans le
+  navigateur ; le contrôle porte désormais sur le code pays couvert et la validité des coordonnées.
+
+**Péages : aucun modélisable.** Afrique du Sud (SANRAL et concessionnaires, Government Gazette
+n° 54087/54088 du 5 février 2026), Zambie, Zimbabwe, Malawi, Mozambique, Ouganda et Angola ont des
+péages FORFAITAIRES par barrière. Le seul tarif fonction du trajet, la Nairobi Expressway, ne couvre
+que 27 km urbains. L'e-toll du Gauteng est désactivé depuis le 11 avril 2024. Eswatini (E150) et le
+Lesotho (R80) perçoivent une taxe d'entrée des véhicules étrangers, qui n'est pas un péage routier.
+
+**Monnaies : vingt et une nouvelles** (KES, UGX, TZS, RWF, BIF, CDF, STN, AOA, ZMW, MWK, MZN, ZWG, BWP,
+NAD, ZAR, SZL, LSL, KMF, MGA, MUR, SCR ; XAF et EUR déjà présents). Aucune n'a de symbole Unicode
+dédié : abréviations d'usage (KSh, FRw, Kz, ZiG, N$, Ar…). Budgets : gamme euro convertie au taux
+InforEuro de septembre 2026, parité officielle pour le franc comorien (491,96775). **L'Afrique du Sud
+est le seul pays du lot à publier un prix hôtelier officiel** (Stats SA, P6410, juin 2026 : R1 446,7
+par nuitée à l'hôtel) — il tombe dans la tranche "moyen" issue de la conversion, qui n'a donc pas été
+retouchée. Indicatifs seulement, et écrit dans le code : le kwacha malawite (≈ 1 740 MWK/USD officiel
+contre ≈ 4 000 au marché parallèle en mai 2026), le ZiG zimbabwéen (dollar d'usage courant) et le
+franc congolais (économie dollarisée).
+
+**Frontières : 26 retenues.** Règle : poste documenté comme en service par une source datée de moins
+de deux ans, aucune fermeture signalée, hors zone formellement déconseillée. Une vérification ciblée
+a été faite pour les postes d'Afrique australe d'abord classés « ouverts présumés » (BMA, ZIMRA,
+MINICOM, presse 2026). Exclues, avec leur raison dans `lib/trip-engine.js` : **fermées** — Ouganda-RDC
+(Ebola, 27 mai 2026), Rwanda-Burundi (depuis janvier 2024), Kenya-Somalie ; **sans route** —
+Kinshasa-Brazzaville (le fleuve, pont prévu pour 2028), Zongo-Bangui, Tanzanie-RDC (lac Tanganyika) ;
+**zones rouges** — frontières orientales de la RDC (M23/AFC, Ebola), Cabinda, Unity Bridge vers le
+Cabo Delgado, Moyale, frontières du Soudan du Sud ; **non établies** — Congo-Gabon, Gabon-Guinée
+équatoriale, Angola-Zambie. Le Congo, le Gabon et la Guinée équatoriale sont donc des îlots routiers,
+la RD Congo n'est reliée qu'à la Zambie et l'Angola qu'à la Namibie. Vérifié au tirage (8 trajets de 7
+jours par capitale) : Nairobi visite Kenya, Ouganda, Tanzanie ; Lusaka Zambie, RDC, Zimbabwe, Mozambique,
+Botswana ; Brazzaville, Libreville, Malabo, Moroni, Antananarivo, Port-Louis, Victoria, Saint-Denis et
+Mamoudzou ne quittent jamais leur territoire ; aucun péage à La Réunion ni à Mayotte.
+
+**Sécurité** (France Diplomatie, avis valides au 15 septembre 2026) : tourisme déconseillé dans toute
+la RD Congo, où une épidémie d'Ebola (souche Bundibugyo) touche sept provinces depuis mi-mai 2026 et
+où Goma et Bukavu sont tenues par le M23/AFC ; zones rouges au Cabo Delgado et dans l'est du Niassa
+(Mozambique), dans les Lunda et au Cabinda (Angola), le long de la Somalie et des frontières du Soudan
+du Sud et de l'Éthiopie (Kenya), des frontières de la RDC (Ouganda, Burundi, Congo), et à Mtwara
+(Tanzanie). Mayotte, sans fiche France Diplomatie, reste marquée par la reconstruction lente après le
+cyclone Chido et les coupures d'eau.
+
+### Cameroun, Sainte-Hélène/Ascension/Tristan da Cunha, îles Glorieuses et Juan de Nova (septembre 2026)
+
+**Cameroun** — 14 314 lieux, 269 alias (`scripts/build-cameroun-communes.js`, même règle que le lot
+précédent : pas de fichier postal GeoNames, étiquette "CM-<admin1>"). **Aucune frontière retenue** :
+tous les postes vers le Nigeria, le Tchad et la Centrafrique sont dans la zone formellement déconseillée
+par France Diplomatie (bande de 30 km, Extrême-Nord et Nord-Ouest entiers, Garoua-Boulaï et Touboro
+nommés) — y compris Ekok-Mfum, pourtant en service ; vers le Congo, le Gabon et la Guinée équatoriale,
+aucune source de moins de deux ans sur le passage des voyageurs, et le pont Campo-Río Campo n'est pas
+signalé en service. Le Cameroun est donc un îlot routier. Péages forfaitaires (500 FCFA par passage,
+décret 93/034/PM ; Kribi-Lolabé 1 200 FCFA en voiture) : `hasToll:false`. Monnaie : XAF, déjà présent.
+Aucun prix hôtelier officiel publié (l'annuaire statistique du tourisme 2020 de l'INS est introuvable,
+celui de 2016 n'a pas de tableau de prix).
+
+**Sainte-Hélène, Ascension et Tristan da Cunha** — 20 lieux habités GeoNames, et pour la première fois
+depuis les communes françaises un **vrai code postal** dans le champ `cp` : un par île, STHL 1ZZ (fiche
+UPU de la Royal Mail, 2005), ASCN 1ZZ (sources secondaires seulement, signalé), TDCU 1ZZ (bureau de
+poste de Tristan). Trois îles séparées par des milliers de kilomètres, chacune isolée. Nouvelle monnaie
+**SHP** (livre de Sainte-Hélène, symbole £), à parité avec la livre sterling — InforEuro de septembre
+2026 donne 0,8572 pour les deux ; Tristan utilise la livre sterling elle-même. Aucune liaison modélisée :
+le cargo mixte vers Sainte-Hélène (MV Karoline) n'a pas de tarif publié, les navires vers Tristan (tarifs
+publiés, 500 US$ l'aller au tarif touriste) ne prennent pas de véhicule et partent du Cap. Accès réel :
+permis d'entrée à Sainte-Hélène, e-visa et aucun droit de résidence à Ascension, autorisation du Conseil
+de l'île à Tristan (FCDO, 10 septembre 2026).
+
+**Îles Glorieuses et Juan de Nova** — **recherchables, sans trajet possible**, choix explicite de
+l'utilisateur. Aucun habitant permanent (un gendarme et quatorze militaires par île, relevés par avion
+militaire), aucune route, aucun hébergement, débarquement soumis à l'autorisation du préfet des TAAF, et
+réserve naturelle nationale aux Glorieuses (décret 2021-734). GeoNames n'y recense aucun lieu habité :
+les trois entrées sont les îles elles-mêmes (Île Glorieuse, Île du Lys, Île Juan de Nova), population 0,
+avec 20 alias tirés des noms alternatifs GeoNames pour qu'on les trouve en tapant « Juan de Nova » ou
+« Glorieuses ». Revendiquées par Madagascar (résolution 34/91 de l'Assemblée générale de l'ONU, 1979) :
+reprises telles que GeoNames les range, sous TF.
+
+**Petites îles : dernier recours ajouté au moteur.** La première étape d'un trajet exigeait au moins 15 km,
+si bien que tout départ d'une île plus petite (Sainte-Hélène, Brava, Petite-Terre, Likoma, Rodrigues…)
+répondait « itinéraire impossible » alors que d'autres lieux réels existaient à quelques kilomètres. Un
+troisième essai, tenté seulement quand les deux premiers échouent, accepte désormais une étape dès 2 km.
+Restent sans trajet les îles qui n'ont qu'un lieu, ou des lieux à moins de 2 km les uns des autres
+(Tristan da Cunha, La Digue, les îles Éparses).
+
+### Russie, Svalbard et Jan Mayen (septembre 2026)
+
+**Russie — 173 493 lieux, retour au pipeline standard** : GeoNames publie un vrai fichier de codes
+postaux russes (43 538 codes), chaque lieu reçoit celui du point postal le plus proche à moins de 15 km
+(`scripts/build-russie-svalbard-communes.js`). Mesures faites avant de trancher, et écrites dans le
+script : 16 529 points postaux ne sont qu'estimés (précision GeoNames 1) mais les garder ne change
+presque rien ; 16 villes de plus de 10 000 habitants restaient sans point à moins de 15 km — un
+rapprochement par nom russe exact, à moins de 60 km, en rattache 4 (dont Noïabrsk, 110 000 hab.),
+les 12 autres (Kogalym, Monchegorsk, Nadym…) sont absentes du fichier postal ou géolocalisées à plus de
+60 km de leur position réelle et restent écartées. Régions en latin (admin1 GeoNames), pour ne pas
+mélanger les écritures avec les noms de lieux translittérés. **124 199 alias**, dont 87 023 en russe
+cyrillique : sans eux, taper « Москва » ne trouvait rien. Crimée : quelques lieux et Sébastopol que
+GeoNames range sous RU sont repris tels quels.
+
+**Aucune frontière routière retenue.** France Diplomatie déconseille formellement tout déplacement
+dans l'ensemble de la Russie (fiche du 10 septembre 2026) : toutes ses frontières tombent sous la règle
+« zone formellement déconseillée », quel que soit leur état — Finlande fermée depuis décembre 2023,
+Narva ouverte aux seuls piétons, Ukraine fermée, Azerbaïdjan fermée à l'entrée ; Norvège, Estonie,
+Lettonie, Lituanie, Pologne, Biélorussie et Géorgie ouvertes sous restrictions (voitures immatriculées
+en Russie interdites dans l'UE et en Norvège). La Russie est un réseau fermé ; vérifié au tirage : aucun
+trajet depuis Helsinki, Tallinn, Vilnius ou Minsk n'y entre.
+
+**Kaliningrad** est une ZONE à part (comme Ceuta et Melilla), reliée au reste de la Russie par la
+seule traversée **Oust-Louga-Baltiïsk**, et **Sakhaline** une masse terrestre reliée par
+**Vanino-Kholmsk** — les deux avec grille officielle, voir "Ferries". Isolés, faute de route : le
+**Kamtchatka**, la **Tchoukotka**, **Norilsk-Doudinka**, les **îles Solovetski**, les **Kouriles**, les
+îles du Commandeur et la Nouvelle-Zemble. Limites écrites : Iakoutsk (rive gauche de la Lena, sans pont
+avant 2028 ; bac à tarif réglementé non modélisé), Vorkouta et Naryan-Mar restent rattachées au réseau.
+
+**Péages** : `hasToll:false`, et pas faute de données — la grille Avtodor du 2 mars 2026 donne 0,062 €/km
+sur la M-11 et 0,071 €/km sur la M-12, mais les ~3 600 km d'autoroutes à péage représentent ~5 % des
+routes fédérales : appliquer ce tarif à tout trajet russe le surestimerait presque toujours.
+**Monnaie : RUB (₽).** Budgets calés sur la statistique OFFICIELLE Rosstat (prix moyens août 2026 :
+hôtel 3* 2 665,48 ₽ par personne et par nuit, 4-5* 4 088,59 ₽), doublée pour deux adultes.
+**Hébergement : limite majeure, écrite dans le code** — Booking.com et Airbnb ont cessé toute activité
+en Russie en 2022 et les cartes Visa ou Mastercard étrangères n'y fonctionnent pas : les liens de
+réservation générés pour un lieu russe n'aboutiront pas.
+
+**Svalbard et Jan Mayen** — 8 lieux avec leurs vrais codes postaux norvégiens (9170 Longyearbyen, 9178
+Barentsburg, 9173 Ny-Ålesund, 8099 Jan Mayen). **Aucune route ne relie les localités du Svalbard** :
+seul le secteur de Longyearbyen (Nybyen, Haugen) permet un trajet, les autres lieux sont isolés ;
+aucune liaison régulière vers Barentsburg en 2026, aucun ferry pour véhicules depuis le continent.
+Couronne norvégienne ; le Svalbard est bien plus cher que la moyenne norvégienne sur laquelle sont calés
+les plafonds NOK (Statistics Norway : 2 885 NOK par chambre en juillet 2026 contre 1 602). **Jan
+Mayen** est recherchable SANS trajet (`NO_TRIP_LANDMASSES`), même choix que pour les îles Éparses :
+personnel militaire et météorologique seulement, piste fermée aux vols civils, ni port ni hébergement,
+autorisation préalable obligatoire. France Diplomatie : vigilance normale pour le Svalbard.
+
 La carte du parcours (Leaflet + tuiles OpenStreetMap, voir plus bas) n'a besoin d'aucun réglage par
 pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvelles communes aient
 des coordonnées valides.
@@ -1154,6 +1383,48 @@ Optionnel : **des alias multilingues** pour saisir une ville dans une autre lang
 local (voir "Langues" ci-dessous, `scripts/build-aliases.js`) — non disponible pour la France (ses
 communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun identifiant commun pour les relier aux
 noms alternatifs GeoNames).
+
+## Zones à tension et frontières (septembre 2026)
+
+**Changement de règle, à la demande de l'utilisateur : les règles politiques ne ferment plus aucune
+frontière.** Jusqu'ici, une frontière n'était franchie par un trajet que si elle était documentée comme
+ouverte ET hors des zones formellement déconseillées par France Diplomatie. Désormais :
+
+- **Frontières** (`ADJACENT_PAIRS`, lib/trip-engine.js) : une paire est ouverte dès qu'une ROUTE franchit
+  physiquement la frontière. Les fermetures décidées par un État (Finlande-Russie, Maroc-Algérie,
+  Rwanda-Burundi, Azerbaïdjan à l'entrée, Ouganda-RDC pour Ebola…), les avis de sécurité et les frontières
+  dont l'ouverture n'était « pas établie » faute de source récente ne ferment plus rien. Restent fermées les
+  seules frontières sans route : RD Congo-Congo (fleuve Congo), RD Congo-Centrafrique (Oubangui),
+  Tanzanie-RD Congo (lac Tanganyika), Nigeria-Tchad (lac Tchad). L'isolement de l'enclave de Cabinda, qui ne
+  venait que des exclusions, est supprimé. Les sections par pays ci-dessus qui décrivent des frontières
+  « non retenues » gardent leurs constats (état réel des postes, sources), mais ces frontières sont
+  aujourd'hui ouvertes dans le modèle.
+- **Zones à tension** (`TENSION_ZONES`, public/js/trip-data.js, construit par
+  `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **206 règles pour 52 pays**,
+  relevées sur les fiches « Sécurité » de France Diplomatie (mises à jour du 15 septembre 2026) — zones
+  **rouges** (« formellement déconseillé ») et **orange** (« déconseillé sauf raison impérative »), le jaune
+  étant ignoré. Découpage au plus juste : pays entier quand il est tout rouge (Russie, Ukraine,
+  Biélorussie, Syrie, Soudan, Mali, Niger, Burkina Faso), sinon régions administratives, codes ISO de
+  gouvernorat, bandes frontalières (`borderKm` : lieux à moins de N km d'un lieu du pays voisin) ou
+  cercles autour de villes et de parcs. Chaque règle porte sa source et sa date.
+- **Filtre** : « Exclure les zones déconseillées », **coché par défaut**. Il écarte des tirages tout lieu
+  rouge ou orange ; décoché, ces lieux peuvent être tirés. Un départ situé dans une telle zone reste
+  possible : les étapes sont alors cherchées hors zone, plus loin si nécessaire. Si seul le filtre rend le
+  tirage impossible, un message dédié le dit (`tensionBlocked`).
+- **Avertissement** : toute étape en zone rouge ou orange, et le point de départ lui-même, affichent un
+  bandeau « Sécurité » coloré, traduit dans les 105 langues, avec un lien vers la fiche officielle.
+
+**Approximations assumées, et écrites dans chaque règle** (champ `label`) : les fiches ne donnent presque
+jamais la largeur des bandes frontalières, estimée sur les cartes ; les limites tracées « entre deux villes »
+ou par district sont rendues par des régions entières ou des cercles ; `borderKm` mesure la distance au
+lieu voisin le plus proche, pas à la ligne de frontière, ce qui la rend imprécise dans les déserts
+(Algérie-Mali et Algérie-Niger ne sont pas couvertes faute de lieux proches) ; les camps palestiniens au
+Liban et les zones maritimes (piraterie) ne correspondent à aucun lieu. Deux codes postaux faux repérés en
+chemin (Antalya classée sous Gaziantep, Yeghvard sous le Syunik) sont neutralisés par une exception.
+Pas de fiche France Diplomatie : France, La Réunion, Mayotte, Liechtenstein, Vatican, dépendances de la
+Couronne, Gibraltar, Féroé, Åland, Svalbard et Jan Mayen, Sainte-Hélène, îles Éparses.
+**À relancer** à chaque mise à jour des fiches : éditer `scripts/tension-zones/*.js`, puis
+`node scripts/build-tension-zones.js` (qui vérifie chaque région et chaque préfixe) et redémarrer le serveur.
 
 ## Langues
 
@@ -2183,8 +2454,8 @@ langues sans drapeau régional dédié.
 le pipeline standard. Plutôt que de dupliquer leur logique de sélection — et de risquer qu'elle diverge
 silencieusement —, il repart du fichier `communes-xx.txt` DÉJÀ GÉNÉRÉ et retrouve le geonameid de
 chaque commune en la rapprochant du dump par nom + coordonnées arrondies : l'ensemble des alias
-correspond donc, par construction, à ce qui est réellement publié. 338 alias pour le Maroc, 672 pour
-l'Algérie, 279 pour la Tunisie, 58 pour le Sahara occidental. Langues de recherche : les formes
+correspond donc, par construction, à ce qui est réellement publié. 339 alias pour le Maroc, 674 pour
+l'Algérie, 281 pour la Tunisie, 60 pour le Sahara occidental. Langues de recherche : les formes
 latines usuelles plus l'arabe, `zgh`, `kab` et `ber` — ce dernier étant le code COLLECTIF ISO
 639-2/639-5 des langues berbères, sous lequel GeoNames range une partie des noms en tifinagh sans
 préciser la variété, retenu pour la RECHERCHE uniquement et jamais comme langue d'interface (le projet
@@ -2233,11 +2504,165 @@ retenues comme langues de RECHERCHE (voir les alias ci-dessous), jamais comme la
 
 **Alias** : script dédié `scripts/build-westafrica-aliases.js`, même méthode que pour le Maghreb —
 il repart du fichier de communes déjà publié et retrouve le geonameid par nom et coordonnées, si bien
-que les alias correspondent par construction à ce qui est réellement servi. 5 165 alias au total, du
-Mali (1 417) et du Ghana (1 297) jusqu'à la Guinée-Bissau (5). Langues de recherche : les quatre
+que les alias correspondent par construction à ce qui est réellement servi. 5 200 alias au total, du
+Mali (1 426) et du Ghana (1 308) jusqu'à la Guinée-Bissau (5). Langues de recherche : les quatre
 langues officielles du lot (français, anglais, portugais, arabe) et les grandes langues régionales
 sous lesquelles GeoNames range des noms de lieux — wolof, peul, bambara, soninké, songhay, tamasheq,
 mooré, haoussa, éwé, twi, mandingue, dioula, krio, hassanya.
+
+### Sahel et Corne de l'Afrique : six langues ajoutées (septembre 2026)
+
+Contrairement au lot ouest-africain, ici le critère du projet — **statut juridique réel ET
+orthographe officielle utilisable** — est rempli par six langues, ajoutées à l'interface avec toutes
+leurs chaînes (83 langues au total) :
+- **Haoussa** (`ha`, drapeau du **Niger**) — langue nationale du Niger (charte de la refondation du 26
+  mars 2025, art. 12), orthographe fixée par l'arrêté n° 0212/MEN/SP-CNRE d'octobre 1999.
+- **Sango** (`sg`, drapeau de la **Centrafrique**) — langue co-officielle avec le français
+  (Constitution du 30 août 2023, art. 1), orthographe officielle du décret 84-025 rectifié par le
+  décret 85-004.
+- **Somali** (`so`, drapeau de la **Somalie**) — langue officielle (Constitution provisoire de 2012,
+  art. 5), alphabet latin officiel depuis le 21 octobre 1972.
+- **Amharique** (`am`, drapeau de l'**Éthiopie**) — langue de travail fédérale (Constitution de 1995,
+  art. 5), écriture guèze.
+- **Oromo** (`om`, drapeau RÉGIONAL de l'**Oromia**) — langue de travail de l'État régional d'Oromia,
+  alphabet latin *Qubee* adopté en 1991. L'annonce de 2020 d'en faire une langue de travail fédérale
+  n'a pas été suivie d'effet juridique : le statut retenu est le statut régional, d'où le drapeau.
+- **Tigrinya** (`ti`, drapeau RÉGIONAL du **Tigré**) — langue de travail de l'État régional du Tigré,
+  écriture guèze. Langue nationale de fait en Érythrée, mais l'Érythrée n'a aucune langue officielle
+  constitutionnelle : le statut juridique vient d'Éthiopie.
+
+**Deuxième police embarquée : Noto Sans Ethiopic** (SIL OFL 1.1, ~377 ko), pour l'écriture guèze de
+l'amharique et du tigrinya — Windows, Android et la plupart des Linux ne fournissent aucune police
+couvrant ce bloc par défaut. Même dispositif que pour le tifinagh : hébergée localement,
+`unicode-range` limité aux blocs éthiopiens (U+1200–139F, U+2D80–2DDF, U+AB00–AB2F), activée par
+`html[lang="am"]` et `html[lang="ti"]`.
+
+**Écartées, avec leur raison :**
+- **Yoruba, igbo** (Nigeria) — la Constitution de 1999 (s. 55) ne les cite que comme langues possibles
+  des débats de l'Assemblée nationale « quand les dispositions nécessaires auront été prises » ;
+  aucun texte n'en fixe l'orthographe. Le haoussa du Nigeria est couvert par l'entrée nigérienne.
+- **Zarma, peul, kanouri, tamasheq** (Niger) — une orthographe officielle existe (même arrêté de 1999),
+  mais la charte de 2025 ne leur laisse que le rang de « langues parlées » ; seul le haoussa est
+  nommé langue nationale.
+- **Afar** (Éthiopie, Djibouti, Érythrée) — langue de travail de l'État régional Afar, mais aucune
+  orthographe officielle retrouvée sous forme de texte.
+- **Djibouti** — la Constitution cite des langues nationales sans les nommer ; **Érythrée** — aucune
+  langue officielle ; **Bénin, Tchad, Soudan, Soudan du Sud** — seuls le français, l'arabe ou l'anglais
+  (déjà présents) ont un statut officiel.
+
+**Alias** : `scripts/build-sahel-corne-aliases.js`, même méthode que les deux lots précédents —
+2 344 alias, du Nigeria (785) au Niger (31). Langues de recherche : français, anglais, arabe et les
+langues sous lesquelles GeoNames range des noms de lieux du lot (amharique, tigrinya, oromo, somali,
+afar, haoussa, yoruba, igbo, kanouri, peul, sango, zarma, guèze). On peut ainsi taper « አዲስ አበባ » pour
+trouver Addis-Abeba.
+
+**Bug corrigé au passage, commun aux trois scripts d'alias africains** (Maghreb, Afrique de l'Ouest,
+ce lot). Le rapprochement commune-dump se faisait sur des coordonnées arrondies à 2 décimales — mais
+les deux côtés n'arrondissaient pas la même valeur : 9,0250 (déjà arrondi à 4 décimales dans le
+fichier publié) donne 9,03, alors que 9,02497 (valeur brute du dump) donne 9,02. Addis-Abeba perdait
+ainsi ses 68 noms alternatifs, sans aucune erreur. Pire, dans l'autre sens, l'arrondi à 2 décimales
+confondait parfois deux lieux voisins de noms différents (au Liberia, « Wari Village Number One »
+renvoyait vers « Wari Village Number Two »). La clé utilise désormais 4 décimales, la précision
+exacte du fichier publié : **79 alias retrouvés et 4 fausses correspondances supprimées** sur les
+trois lots, les comptes ci-dessus étant à jour.
+
+### Afrique orientale et australe, océan Indien : quinze langues ajoutées (septembre 2026)
+
+Quinze langues remplissent le critère **statut juridique réel ET orthographe officielle** (98 langues
+au total) :
+- **Kiswahili** (`sw`, drapeau de la **Tanzanie**) — officiel ou national au Kenya (Constitution de
+  2010, art. 7), en Ouganda (art. 6), au Rwanda (loi organique 02/2017), en RDC (art. 1) et en Tanzanie ;
+  mais seule la Tanzanie a une autorité d'orthographe créée par la loi (BAKITA, loi n° 27 de 1967) et
+  en a fait la langue des lois et des tribunaux (loi n° 1 de 2021). Le conseil kényan (BAKIKE) n'existe
+  toujours pas juridiquement, le projet ougandais a été retiré en octobre 2024.
+- **Ikinyarwanda** (`rw`, **Rwanda**) — Constitution, art. 8 ; orthographe fixée par les Instructions
+  du Ministre n° 001/2014 du 8 octobre 2014 (JO n° 41 bis).
+- **Malagasy** (`mg`, **Madagascar**) — Constitution du 11 décembre 2010, art. 4 ; norme de l'Akademia
+  Malagasy.
+- **Kreol Seselwa** (`crs`, **Seychelles**) — langue nationale (Constitution de 1993, art. 4) ;
+  orthographe gouvernementale de 1981, gérée par Lenstiti Kreol (Creole Institute of Seychelles Act 2014).
+- **Les dix langues officielles sud-africaines autres que l'anglais** (drapeau de l'**Afrique du Sud**) :
+  afrikaans (`af`), isiZulu (`zu`), isiXhosa (`xh`), Sepedi (`nso`), Sesotho (`st`), Setswana
+  (`tn`), isiNdebele du Sud (`nr`), Tshivenḓa (`ve`), Xitsonga (`ts`) — Constitution, s. 6 ; règles
+  d'orthographe du PanSALB, rendues contraignantes pour l'État par la Board Notice 464 de 2023
+  (Government Gazette n° 49028) ; pour l'afrikaans, l'AWS 2017 de la Taalkommissie. Deux choix
+  explicites : le **sesotho** suit l'orthographe SUD-AFRICAINE (« dumela », « setjhaba »), celle du
+  Lesotho — d'origine missionnaire — n'étant fixée par aucun texte ; le **setswana** porte le drapeau
+  sud-africain, le Botswana ne lui donnant aucun statut constitutionnel.
+- **siSwati** (`ss`, drapeau d'**Eswatini**) — langue officielle d'Eswatini (Constitution de 2005,
+  s. 3) et d'Afrique du Sud, à l'orthographe identique (règles PanSALB de 2024).
+- **chiShona** (`sn`, **Zimbabwe**) — langue officielle (Constitution de 2013, s. 6) ; orthographe
+  standard de 1967 approuvée par le gouvernement.
+
+**Écartées, avec leur raison :**
+- **Kirundi** — statut réel (Constitution de 2018, loi n° 1/31 de 2014) et Académie rundi restructurée
+  en 2021, mais aucune norme orthographique publiée n'a été trouvée.
+- **Lingala, kikongo, tshiluba** (RDC) et **lingala, kituba** (Congo) — nommés par les constitutions,
+  mais la seule orthographe est celle d'un séminaire de linguistes (Lubumbashi, 1974), jamais officialisée.
+- **Ndébélé du Nord** (Zimbabwe) — règles de 1970 connues par une seule source secondaire.
+- **Chichewa** (Malawi : statut seulement politique), **langues de Zambie, du Mozambique, de Namibie,
+  d'Angola, du Gabon et de Guinée équatoriale** (constitutions qui ne les nomment pas — la loi
+  angolaise sur les langues de 2025 n'est pas adoptée), **créoles de São Tomé** (alphabet officiel
+  ALUSTP de 2013, mais aucun statut).
+- **Comorien** — langue officielle (Constitution de 2018) mais orthographe de 2009 introuvable, et
+  quatre variétés sans code commun.
+- **Créole mauricien** — orthographe officielle de 2011, mais aucun statut : la Constitution (s. 49)
+  ne connaît que l'anglais et le français, un comité parlementaire examine la question en septembre 2026.
+- **Créole réunionnais, shimaore, kibushi** — aucun n'est nommé par un texte de droit français ;
+  l'alphabet mahorais adopté par le Conseil départemental en 2020 ne suffit pas au critère juridique.
+
+**Traductions** : produites sans relecture par des locuteurs natifs. Plusieurs termes sans équivalent
+établi (vignette, yourte, péage à flux libre) sont rendus par périphrase ; une relecture native reste
+souhaitable, en particulier pour l'isiNdebele, le siSwati et le Tshivenḓa.
+
+**Alias** : `scripts/build-afrique-australe-aliases.js`, 1 771 alias (Kenya 246, Afrique du Sud 190,
+Madagascar 172…), dans les langues ci-dessus et les langues régionales sous lesquelles GeoNames range
+des noms de lieux (luganda, lingala, kikongo, chichewa, kikuyu, tumbuka, ndébélé du Nord…).
+
+### Cameroun, Sainte-Hélène, îles Éparses : aucune langue ajoutée (septembre 2026)
+
+- **Cameroun** — la Constitution (art. 1er) et la loi n° 2019/019 ne nomment que le français et l'anglais,
+  déjà présents. Les « langues nationales » sont protégées sans être désignées (Constitution, loi
+  d'orientation de l'éducation de 1998, Code des collectivités de 2019, dont le statut spécial du
+  Nord-Ouest et du Sud-Ouest ne nomme aucune langue). L'Alphabet général des langues camerounaises (1979)
+  est une norme universitaire, adoptée par aucun texte. Fulfulde, ewondo, duala, basaa, pidgin camerounais
+  et camfranglais : écartés.
+- **Sainte-Hélène, Ascension, Tristan da Cunha** — anglais seulement ; les parlers locaux n'ont ni statut
+  ni orthographe.
+- **Îles Éparses** — aucune population.
+
+### Russie : sept langues d'État ajoutées (septembre 2026)
+
+Le russe était déjà présent. Parmi les langues d'État des républiques de la Fédération, sept ont à la
+fois un statut constitutionnel ET un acte officiel identifié fixant leur orthographe (105 langues au
+total), chacune avec le drapeau de sa république :
+- **Tatar** (`tt`, **Tatarstan**) — loi n° 1-ЗРТ du 12 janvier 2013 (alphabet cyrillique, normes
+  approuvées par le Cabinet des ministres, décret n° 833 du 1er novembre 2014).
+- **Bachkir** (`ba`, **Bachkortostan**) — orthographe fixée en 1981 par le Présidium du Soviet suprême de
+  la RSSA bachkire, jamais remplacée ; **retenu avec réserve**, l'acte n'ayant pu être lu.
+- **Iakoute** (`sah`, **Sakha**) — règles d'orthographe et de ponctuation, décret du gouvernement
+  n° 501 du 22 décembre 2015.
+- **Tchétchène** (`ce`, **Tchétchénie**) — Свод основных орфографических правил, указ n° 83 du 29 avril
+  2020 ; palotchka (Ӏ) vérifiée dans toutes les chaînes.
+- **Erzya** (`myv`) et **moksha** (`mdf`), drapeau de la **Mordovie** — normes du mordve littéraire,
+  décret n° 422 du 1er novembre 2010.
+- **Oudmourte** (`udm`, **Oudmourtie**) — règles approuvées par le gouvernement en mai 2025 (numéro de
+  l'acte non retrouvé).
+
+Les drapeaux de Sakha et de Mordovie, absents de circle-flags, sont recadrés en cercle depuis Wikimedia
+Commons (domaine public), sans modifier leur tracé.
+
+**Écartées, avec leur raison** (deux recherches successives, plusieurs portails juridiques russes
+injoignables) :
+- **Orthographe officielle non établie** : tchouvache (acte de 1994 connu seulement par résumé), ossète
+  iron et digor, kabarde-tcherkesse, karatchaï-balkar, ingouche, abaza, nogaï, kalmouk (réforme de 2000
+  rejetée), bouriate (procédure confiée au gouvernement, décret introuvable), touvain, khakasse, altaï,
+  mari des prairies et des montagnes, komi (oukase de 1938 cité mais non lu), langues du Nord en Iakoutie.
+- **Aucun statut** : langues du Daghestan (la Constitution de 2003 ne les nomme pas), carélien et vepse
+  (le russe est la seule langue d'État de Carélie), komi-permiak, yiddish, nénètse.
+
+**Traductions** sans relecture native ; plusieurs termes techniques sont des emprunts au russe, comme
+dans l'usage courant de ces langues. Aucune langue n'est ajoutée pour le Svalbard (norvégien déjà présent).
 
 ## Démarrer en local
 
@@ -2670,11 +3095,22 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   — seule liaison actuelle pour véhicules, **Tórshavn ↔ Tvøroyri** (SSL/Strandfaraskip Landsins,
   opérateur public unique — la même société qui gère aussi les tunnels à péage ci-dessus —, ligne 7,
   ~2h05, tarifs officiels non promotionnels 2026 : voiture 229 DKK, camping-car/van 344 DKK, moto
-  92 DKK, piéton 109 DKK, ssl.fo/prices). Identifiée par le préfixe de code postal féroïen `8`/`9`
+  92 DKK, piéton 109 DKK, ssl.fo/prices — **convertis en euros en septembre 2026** (31 / 46 / 12 / 15 €) :
+  ces montants étaient jusque-là saisis tels quels en DKK dans une table en euros, et s'affichaient donc
+  « ~229 € », environ 7,5 fois trop cher). Identifiée par le préfixe de code postal féroïen `8`/`9`
   (800-970, exclusif à Suðuroy, vérifié exhaustivement sur les 180 communes de `communes-fo.txt`) —
   avec un piège de nom évité : une autre localité s'appelle elle aussi "Vágur", mais au nord de
   l'archipel (code 700, sur Eysturoy) ; la détection par PRÉFIXE de code postal, pas par nom, l'écarte
-  correctement de Suðuroy sans ambiguïté. **Islande** : AUCUNE ligne modélisée non plus — le pays
+  correctement de Suðuroy sans ambiguïté. **Isolement corrigé en septembre 2026** : l'Islande et le reste
+  de l'archipel féroïen étaient rangés dans la masse terrestre "continental" — un trajet depuis Reykjavík
+  ou Tórshavn pouvait « rouler » jusqu'au Royaume-Uni ou au continent (mesuré : 25 étapes hors d'Islande et
+  57 hors des Féroé sur 15 tirages chacun). Chacun a désormais sa masse terrestre ("iceland", "faroe"),
+  et la ligne Smyril Line (Hirtshals-Tórshavn-Seyðisfjörður) n'est PAS modélisée : aucune grille
+  officielle 2026, tarification dynamique selon le remplissage. **Même correction pour les Orcades et les
+  Shetland** (codes postaux KW15-17 et ZE), qui étaient rattachées à la Grande-Bretagne par la route —
+  elles sont maintenant reliées par les vraies traversées NorthLink Ferries (grille officielle 2026,
+  moyenne saison, prix véhicule seul convertis à 0,8572 GBP/€) : Scrabster ↔ Stromness (voiture £74),
+  Aberdeen ↔ Lerwick (£149, 12 h 30) et Kirkwall ↔ Lerwick (£98). **Islande** : AUCUNE ligne modélisée non plus — le pays
   entier forme une seule masse continentale reliée par la route (Ring Road/Route 1), sans île
   périphérique habitée nécessitant un vrai ferry-voiture pour ce genre de trajet (Vestmannaeyjar,
   la plus notable, reste desservie mais hors du périmètre volontairement retenu ici, comme les
@@ -2864,6 +3300,61 @@ nulle part : la seule ligne ayant existé, Tarfaya-Fuerteventura, a fonctionné 
 avant le naufrage de l'*Assalama*, et sa réouverture était encore bloquée en mai 2025 faute de poste
 d'inspection frontalier.
 
+### Sahel et Corne de l'Afrique : aucun ferry nécessaire (septembre 2026)
+
+Vérifié plutôt que supposé : les onze pays sont continentaux, et les trois traversées d'eau qui
+auraient pu compter ont toutes une alternative routière. Le ferry du lac Nasser (Wadi Halfa-Assouan)
+est contourné par la route d'Argeen, sur la rive ouest ; ceux du golfe de Tadjourah à Djibouti par les
+routes nationales RN9 et RN14 ; le Niger et le Chari sont franchis par des ponts à Niamey et à
+N'Djamena. Aucune île habitée de ces pays n'a de liaison régulière à tarif publié qui justifierait
+une masse terrestre séparée.
+
+### Afrique orientale, centrale et australe, océan Indien : aucune liaison modélisable (septembre 2026)
+
+Une vingtaine de liaisons examinées, **aucune n'a de grille tarifaire publiée et vérifiable** :
+- **Kinshasa-Brazzaville** : pas de pont (projet route-rail visé pour 2028), canots et bac sans grille
+  officielle. **Zongo-Bangui** : pirogues et bac irrégulier.
+- **Mayotte, barge Mamoudzou-Dzaoudzi** : tarif piéton connu (1 € depuis le 20 août 2026), mais tarifs
+  véhicules contradictoires selon la presse et aucune délibération trouvée. **Mayotte-Anjouan** : passagers
+  seulement, sans grille. **Comores inter-îles** : vedettes et kwassa-kwassa, sans grille.
+- **Maurice-Rodrigues** (MSCL) : départs publiés, tarifs non ; véhicules en fret sur devis.
+  **Maurice-La Réunion** : plus de passagers, fret seulement.
+- **Seychelles** : catamarans pour piétons, prix visibles seulement dans le moteur de réservation.
+- **Zanzibar** : tarifs résidents rapportés par la presse, véhicules sur devis ; bac de **Mafia** hors
+  service depuis le 12 mai 2026. **Lamu** : piétons, sans grille.
+- **Madagascar** (Nosy Be, Sainte-Marie), **Malabo-Bata**, **São Tomé-Príncipe** : chiffres de presse
+  ou anciens, service 2026 non confirmé.
+- **Lacs** : Ukerewe et Ssese sans grille officielle (la gratuité de Bukakata-Luku arrivait à échéance
+  en juillet 2026), MV Ilala et MV Liemba sans tarif véhicule, Mbita-Mfangano avec une grille d'opérateur
+  non datée et contredite par la presse.
+- **Inutiles**, une route existe : Likoni (contournement de Dongo Kundu depuis 2024), Kazungula (pont,
+  2021), Kigongo-Busisi (pont JP Magufuli, 2025), Kigamboni, Maputo-Catembe, Mohembo, Sendelingsdrift
+  (pont d'Alexander Bay).
+
+Conséquence : toutes ces îles sont isolées (voir "Pays couverts"), et les deux Congo ne sont pas reliés.
+
+### Cameroun, Sainte-Hélène : aucune liaison modélisable (septembre 2026)
+
+- **Calabar-Limbe** (SeaExpress Transit, reprise fin mai 2026) : piétons seulement, tarif affiché
+  incohérent. **Idenau-Oron** : bateaux informels. **Douala-Malabo** (Viteoca, 2024) : tarifs passagers de
+  2024, activité 2025-2026 non confirmée, aucun tarif véhicule. **Manoka** : pirogues sans opérateur.
+- **Sainte-Hélène** : MV Karoline (MACS) sans tarif publié ; **Tristan da Cunha** : tarifs publiés mais
+  aucun véhicule, départ du Cap. **Îles Éparses** : aucune liaison civile.
+
+### Russie : deux traversées officielles (septembre 2026)
+
+- **Oust-Louga ↔ Baltiïsk (Kaliningrad)** — Oboronlogistika, ordre n° 219 du 8 juillet 2026 : voiture
+  jusqu'à 5 m 27 040 ₽ HT, utilitaire jusqu'à 6 m 31 930 ₽, moto 8 000 ₽, passager en cabine 9 420 ₽,
+  TVA de 22 % ajoutée (≈ 328 / 387 / 97 / 114 €). ~38 h. Traversée entre ZONES (`SEA_CROSSINGS`), comme
+  Ceuta. Surcharge carburant mensuelle non modélisée.
+- **Vanino ↔ Kholmsk (Sakhaline)** — SASCO : 6 811,26 ₽ par mètre de véhicule plus l'arrimage (grille du
+  1er juillet 2026), calculé pour une voiture de 5 m (≈ 341 €) et un van de 6 m (≈ 409 €) — la longueur est
+  un choix de modélisation ; moto 7 776,28 ₽ (≈ 77 €) ; passager en cabine 1 432 ₽ (≈ 14 €). 18-20 h.
+- Distances non publiées par les opérateurs : orthodromies calculées (757 et 264 km).
+- **Non modélisées** : Korsakov-Kouriles (grilles inaccessibles, zone frontière), Kem-Solovetski (passagers
+  seulement), bac de la Lena à Iakoutsk (tarif réglementé, mais sa modélisation supposerait de découper le
+  réseau routier iakoute, non fait). **Svalbard** : aucune liaison régulière en 2026.
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois
@@ -2918,7 +3409,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies/mauritaniennes/maliennes/sénégalaises/gambiennes/capverdiennes/guinéennes/bissau-guinéennes/sierra-léonaises/libériennes/burkinabè/ivoiriennes/ghanéennes/togolaises : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies/mauritaniennes/maliennes/sénégalaises/gambiennes/capverdiennes/guinéennes/bissau-guinéennes/sierra-léonaises/libériennes/burkinabè/ivoiriennes/ghanéennes/togolaises/nigériennes/béninoises/nigérianes/tchadiennes/centrafricaines/soudanaises/sud-soudanaises/érythréennes/éthiopiennes/djiboutiennes/somaliennes/kényanes/ougandaises/tanzaniennes/rwandaises/burundaises/congolaises/gabonaises/équato-guinéennes/santoméennes/angolaises/zambiennes/malawites/mozambicaines/zimbabwéennes/botswanaises/namibiennes/sud-africaines/eswatiniennes/lésothiennes/comoriennes/malgaches/mauriciennes/seychelloises/camerounaises, de Sainte-Hélène, d'Ascension, de Tristan da Cunha et des îles Glorieuses et Juan de Nova/russes/du Svalbard et de Jan Mayen : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux géorgiens (absents de GeoNames pour ce pays, voir "Pays couverts") : annuaire tiers
   [yell.ge](https://www.yell.ge) — PAS une source officielle ni sous licence ouverte explicite, choix
@@ -2958,6 +3449,20 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   Guinée-Bissau, Sierra Leone, Liberia, Burkina Faso, Côte d'Ivoire, Ghana, Togo) : aucun fichier
   GeoNames de codes postaux, aucun jeu tiers retenu. Le champ affiché est le code de division
   administrative de GeoNames lui-même, repris tel quel et étiqueté comme informel.
+- Les ONZE pays du Sahel, d'Afrique centrale et de la Corne (Niger, Bénin, Nigeria, Tchad,
+  Centrafrique, Soudan, Soudan du Sud, Érythrée, Éthiopie, Djibouti, Somalie) : même situation, même
+  choix — code de division administrative GeoNames, repris tel quel, y compris là où il retarde sur
+  les réformes territoriales récentes (Éthiopie, Soudan).
+- Les VINGT-QUATRE pays d'Afrique orientale, centrale et australe et de l'océan Indien : même règle.
+  Les fichiers postaux GeoNames du Kenya, du Malawi et d'Afrique du Sud existent mais ont été mesurés et
+  écartés (codes superposés, bureaux de poste) — voir "Pays couverts".
+- Cameroun : même règle. Sainte-Hélène, Ascension, Tristan da Cunha : VRAIS codes postaux, un par île —
+  STHL 1ZZ et TDCU 1ZZ ([fiches UPU](https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/shnEn.pdf),
+  [poste de Tristan](https://www.tristandc.com/postoffice.php)), ASCN 1ZZ (sources secondaires).
+- Russie, Svalbard et Jan Mayen : fichiers de codes postaux GeoNames (pipeline standard), voir "Pays couverts".
+- Prix hôteliers russes : [Rosstat, prix moyens à la consommation](https://rosstat.gov.ru/statistics/price) (août 2026).
+- Tarifs de ferry russes : [Oboronlogistika](https://obl.ru/services/sea/parom/) (Oust-Louga-Baltiïsk), [SASCO](https://www.sasco.ru/service/ferry/) (Vanino-Kholmsk).
+- Prix hôtelier sud-africain de contrôle : [Stats SA, Tourist accommodation P6410](https://www.statssa.gov.za/publications/P6410/P6410June2026.pdf) (juin 2026).
 - Tarifs de ferry capverdiens : grilles officielles de [CV Interilhas](https://www.cvinterilhas.cv/tariffs)
   (Despacho n.º 01/2024, Boletim Oficial du 11 janvier 2024) — voir "Ferries" ci-dessus.
 - Syrie, Liban, Israël, Palestine, Jordanie, Égypte, Libye : AUCUNE source de codes postaux, ni
@@ -2976,15 +3481,21 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 58 fichiers SVG, dont douze
-  drapeaux RÉGIONAUX) — voir "Langues" ci-dessus. **Exception** : le drapeau amazigh
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 78 fichiers SVG, dont dix-neuf
+  drapeaux RÉGIONAUX — Tatarstan, Bachkortostan, Sakha, Tchétchénie, Mordovie et Oudmourtie ajoutés en dernier) — voir "Langues" ci-dessus. **Exception** : le drapeau amazigh
   (`amazigh.svg`), absent de circle-flags, vient de
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Berber_flag.svg) (**domaine public**),
-  simplement recadré en cercle sans redessiner sa géométrie.
+  simplement recadré en cercle sans redessiner sa géométrie. Même traitement pour les drapeaux de
+  [Sakha](https://commons.wikimedia.org/wiki/File:Flag_of_Sakha.svg) et de
+  [Mordovie](https://commons.wikimedia.org/wiki/File:Flag_of_Mordovia.svg) (`ru-sa.svg`, `ru-mo.svg`,
+  domaine public sur Commons).
 - Police tifinagh : [Noto Sans Tifinagh](https://fonts.google.com/noto/specimen/Noto+Sans+Tifinagh)
   (licence [SIL Open Font License 1.1](https://openfontlicense.org), hébergée localement —
-  `public/fonts/`, ~39 ko), seule police embarquée du projet, nécessaire à l'affichage de l'amazighe
-  standard marocain — voir "Langues" ci-dessus.
+  `public/fonts/`, ~39 ko), nécessaire à l'affichage de l'amazighe standard marocain — voir "Langues"
+  ci-dessus.
+- Police guèze : [Noto Sans Ethiopic](https://fonts.google.com/noto/specimen/Noto+Sans+Ethiopic)
+  (même licence SIL OFL 1.1, hébergée localement, ~377 ko), nécessaire à l'affichage
+  de l'amharique et du tigrinya.
 - Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /

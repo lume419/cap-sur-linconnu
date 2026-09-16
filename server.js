@@ -9,6 +9,7 @@ const express = require('express');
 const compression = require('compression');
 const PDFDocument = require('pdfkit');
 const tripEngine = require('./lib/trip-engine.js');
+const TripDataCountries = require('./public/js/trip-data.js').COUNTRIES;
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -608,47 +609,19 @@ app.get('/api/pois', async (req, res) => {
   const name = String(req.query.name || '').trim();
   const dept = String(req.query.dept || '').trim();
   const country = String(req.query.country || '').trim().toUpperCase();
-  // Englobe la France, l'Andorre, l'Espagne, le Portugal (mainland), la Belgique, les Pays-Bas, le
-  // Luxembourg, la Suisse, l'Allemagne et l'Italie — pas seulement la France : la borne d'origine
-  // (lat 40-52) rejetait à tort le sud de l'Espagne/Portugal (Andalousie, Algarve, jusqu'à ~36°N).
-  // La Belgique (lat ~49,5-51,5 / lon ~2,5-6,4) tenait déjà dans cette boîte, mais les Pays-Bas
-  // débordent au nord : Schiermonnikoog et les îles Wadden montent jusqu'à ~53,5°N, au-delà de
-  // l'ancienne borne à 52° — élargie à 54° pour les couvrir avec une marge. La Suisse déborde à
-  // l'est : la vallée de Müstair (Grisons) monte jusqu'à ~10,46°E, au-delà de l'ancienne borne à
-  // 10° — élargie à 11° pour la couvrir avec une marge (avec le Luxembourg, entièrement dans la
-  // boîte d'origine, sans ajustement nécessaire). L'Allemagne déborde des deux côtés à la fois :
-  // Sylt (Schleswig-Holstein) monte jusqu'à ~55,05°N, au-delà de la borne à 54° héritée des
-  // Pays-Bas — élargie à 56° ; et Görlitz (frontière polonaise) va jusqu'à ~15,03°E, bien au-delà de
-  // la borne à 11° héritée de la Suisse — élargie à 16°, avec une marge dans les deux cas. L'Italie
-  // déborde encore un peu plus à l'est : le Salento (talon de la botte, Pouilles) va jusqu'à
-  // ~18,49°E, au-delà de la borne à 16° héritée de l'Allemagne — élargie à 19°. Aucun ajustement au
-  // sud pour l'Italie elle-même (lat min italienne ~36,7°N, dans la boîte d'origine grâce à
-  // l'Andalousie/l'Algarve). Saint-Marin, le Liechtenstein et Monaco tiennent déjà largement dans
-  // cette boîte, sans ajustement. Malte, elle, déborde bel et bien au sud : son point le plus
-  // méridional (Ħal Far, sud de l'île principale) descend jusqu'à ~35,82°N, sous la borne à 36°
-  // héritée de l'Espagne/Portugal — élargie à 35,7° pour la couvrir avec une marge (Gozo, plus au
-  // nord, tenait déjà dans la boîte). Guernesey/Jersey (lat ~49,2-49,5°N, lon ~-2,7 à -1,9°E) et la
-  // République tchèque (lat ~48,5-51,1°N, lon ~12,1-18,9°E) tenaient déjà largement dans la boîte
-  // d'origine, sans ajustement. La Pologne, elle, déborde nettement à l'est : son point le plus
-  // oriental (près de Zosin, Lubelskie, frontière ukraino-biélorusse) va jusqu'à ~24,15°E, bien
-  // au-delà de la borne à 19° héritée de l'Italie — élargie à 24,2° pour la couvrir avec une marge
-  // (le nord et le sud du pays, lat ~49-54,9°N, tenaient déjà dans la boîte). La Slovaquie (lat
-  // ~47,7-49,6°N, lon ~16,8-22,6°E), la Hongrie (lat ~45,7-48,6°N, lon ~16,1-22,9°E) et la Slovénie
-  // (lat ~45,4-46,9°N, lon ~13,4-16,6°E) tenaient toutes les trois déjà largement dans la boîte
-  // élargie pour la Pologne, sans ajustement supplémentaire. La Croatie (lat ~42,4-46,5°N, lon
-  // ~13,5-19,4°E, îles couvertes incluses) tient elle aussi largement dans cette même boîte. La
-  // Bosnie-Herzégovine (lat ~42,6-45,3°N, lon ~15,7-19,6°E) y tient tout aussi largement. Le
-  // Royaume-Uni, lui, déborde nettement au nord : les Shetland montent jusqu'à ~60,82°N (vérifié sur
-  // communes-gb.txt), bien au-delà de la borne à 56° héritée de l'Allemagne — élargie à 61° pour les
-  // couvrir avec une marge (l'Écosse continentale seule culminerait à ~58,7°N, déjà au-delà de 56°
-  // aussi). Le reste du Royaume-Uni (lat min ~49,89°N aux Scilly, lon ~-8,09 à 1,75°E en Irlande du
-  // Nord/Est-Anglie) tient largement dans la boîte déjà élargie pour la Pologne, sans autre
-  // ajustement. L'Irlande, elle, déborde à l'ouest : sa pointe la plus occidentale (péninsule de
-  // Dingle/Dunmore Head, Co. Kerry) descend jusqu'à ~-10,35°E, au-delà de la borne à -10° héritée du
-  // Royaume-Uni — élargie à -10,5° pour la couvrir avec une marge (lat ~51,47-55,07°N, déjà dans la
-  // boîte élargie pour le Royaume-Uni, sans ajustement supplémentaire).
-  if(!isFinite(lat) || !isFinite(lon) || lat < 35.7 || lat > 61 || lon < -10.5 || lon > 24.2){
+  // Garde-fou contre l'usage de ce point d'accès comme relais Overpass générique. Jusqu'en septembre
+  // 2026, c'était une BOÎTE de coordonnées élargie pays par pays à chaque ajout européen (Andalousie,
+  // Wadden, Sylt, Salento, Malte, Shetland, Dingle…) — mais jamais au-delà de lat 35,7-61 / lon
+  // -10,5-24,2. Tous les pays ajoutés ensuite hors de cette boîte (Islande, Féroé, Turquie, Caucase,
+  // Proche-Orient, Maghreb, toute l'Afrique) recevaient donc un 400 silencieux : aucune activité
+  // réelle, sans la moindre erreur visible — le client affiche une liste vide dans ce cas. Découvert en
+  // testant un trajet kényan. Remplacé par un contrôle qui ne dépend plus de la géographie : code pays
+  // réellement couvert par l'application (COUNTRIES de trip-data.js) et coordonnées valides.
+  if(!isFinite(lat) || !isFinite(lon) || lat < -90 || lat > 90 || lon < -180 || lon > 180){
     return res.status(400).json({ error: 'invalid coordinates', pois: [] });
+  }
+  if(!TripDataCountries[country]){
+    return res.status(400).json({ error: 'unknown country', pois: [] });
   }
   if(name.length > 120){
     return res.status(400).json({ error: 'invalid name', pois: [] });

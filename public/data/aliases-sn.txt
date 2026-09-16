@@ -39,6 +39,7 @@ fr;Tyissé;Thissé
 fr;Tyissé;Tissé
 fr;Tip;Darou Salam Tip
 fr;Tioyène;Tioyène Niombato
+fr;Tioupane;Tioupane Ndiakanèm
 fr;Tioundi;Tiondi Berndé
 fr;Tioump;Tioumb Touré
 fr;Tioumbo;Tiwo
@@ -90,6 +91,8 @@ fr;Téla;Tèla Yar Gouye
 fr;Tek Bang Hadji;Tek
 fr;Tyidi Dièye;Thidi Dièye
 fr;Tissé 2;Tissé Deux
+fr;Tchinngue;Thingué
+fr;Tyingué;Thingué
 fr;Tyillène;Tilène
 fr;Tchianmane;Tiangane
 fr;Tchénéké;Keur Tiénéké
@@ -158,6 +161,7 @@ en;Sébikotane;Sébikhotane
 fr;Sébikotane;Sébikhotane
 nl;Sébikotane Arrondissement;Sébikhotane
 fr;Séane;Louki Séane
+fr;Savila;Sawéla Keur Wourwa
 fr;Sate Ouali;Saté Wali
 fr;Sassar Salem;Sas Mak
 fr;Saré Ngadiari;Peul Ngadiari
@@ -535,6 +539,7 @@ fr;Keur Kali;Keur Khali Mboup
 fr;Keur Ibou Kani;Bantanding
 fr;Keur Godasam;Keur Ngouda Samb
 fr;Keur Gaye;Keur Gaye Sèye
+fr;Keur Galadio;Fas Guéladio
 fr;Keur Elimane;Keur Élimane
 fr;Keur El Hadji Baké;Keur Aladji Mbaké
 fr;Keur El Hadj Momat;Keur El Hadji Momat
@@ -827,6 +832,7 @@ fr;Daroul Khaïri;Daroul Rhaïry
 fr;Daroul Khaïry;Daroul Rhaïry
 fr;Darou Fal;Darhar Mbaye
 fr;Darou Dieng;Darou Dièng
+fr;Darou Cissé;Darou Diéné
 fr;Darou Mbané;Darou Mbane
 fr;Darou Rahmane 1;Darou Rahmane Un
 fr;Darou Rahmâne;Darou Rahmane Un
@@ -893,6 +899,8 @@ fr;Boliboguèl;Béliboguel
 fr;Bokobof;Bakobof
 fr;Boki-Puits;Boki Puits
 fr;Bohof;Bof Mbalèm
+fr;Boguel;Boguèl
+fr;Boguél;Boguèl
 fr;Bogalar;Keur Mbagne Diop
 fr;Bodé Mamadou Dieng;Bodé Un
 fr;Bodé 1;Bodé Un
@@ -914,6 +922,7 @@ fr;Bélongui;Mbélonguit
 fr;Belkhor;Mbelkhokh
 fr;Bélél Nélbi;Bélel Niébi
 fr;Bayène Diak;Mbayène Diak
+fr;Bayène;Mbayène Missira
 fr;Bassène Mandouar;Kassane
 fr;Barindondol;Bari Ndondol Un
 fr;Bari Ndondol 1;Bari Ndondol Un
@@ -1208,6 +1217,7 @@ fr;Keur Babou Diouf;Keur Badou Diouf
 fr;Keur Sellé Kamara;Keur Sélé Kamara
 fr;Badoudou;Badokh
 fr;Ndiago 1;Ndiago Un
+fr;Samakou Bambara;Samako
 fr;Ndiagnène;Ndiaguène
 fr;Kao Tiane;Kawitiane
 fr;Keur Modio;Keur Madio

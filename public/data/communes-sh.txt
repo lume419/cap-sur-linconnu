@@ -1,0 +1,20 @@
+110;-14.4167,-7.9333;ASCN 1ZZ;Ascension;Thornton
+5012;-14.4119,-7.9286;ASCN 1ZZ;Ascension;Georgetown
+110;-14.3708,-7.9447;ASCN 1ZZ;Ascension;Two Boats Village
+0;-5.6833,-15.9667;STHL 1ZZ;Saint Helena;Taglate
+2860;-12.3116,-37.0676;TDCU 1ZZ;Tristan da Cunha;Edinburgh of the Seven Seas
+0;-5.7249,-15.9439;STHL 1ZZ;Saint Helena;New Ground
+765;-5.6857,-15.9492;STHL 1ZZ;Saint Helena;Longwood
+342;-5.6833,-15.9667;STHL 1ZZ;Saint Helena;Levelwood
+637;-5.7182,-15.9249;STHL 1ZZ;Saint Helena;Jamestown
+0;-5.7000,-15.9667;STHL 1ZZ;Saint Helena;Hutts Gate
+1034;-5.7200,-15.9372;STHL 1ZZ;Saint Helena;Half Tree Hollow
+0;-5.6833,-15.9333;STHL 1ZZ;Saint Helena;Deadwood
+0;-5.7500,-15.9803;STHL 1ZZ;Saint Helena;Barren Ground
+394;-5.7052,-15.9437;STHL 1ZZ;Saint Helena;Alarm Forest
+174;-5.7467,-15.9793;STHL 1ZZ;Saint Helena;Blue Hill
+210;-14.4074,-7.9512;ASCN 1ZZ;Ascension;Cat Hill US Military Base
+177;-5.7129,-15.9773;STHL 1ZZ;Saint Helena;Sandy Bay
+928;-5.7247,-15.9445;STHL 1ZZ;Saint Helena;St. Paul's
+44;-14.3511,-7.9493;ASCN 1ZZ;Ascension;The Residency
+170;-14.3725,-7.9443;ASCN 1ZZ;Ascension;Traveller's Hill Royal Air Force Base

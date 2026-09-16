@@ -1,0 +1,18 @@
+ar;فيكتوريا;Victoria
+ar;تاكاماكا;Takamaka
+ar;بورت جلود;Port Glaud
+ar;كاسكاد;Cascade
+ar;بيل أومبر;Bel Ombre
+ar;بو فالون;Beau Vallon
+ar;أنس رويال;Anse Royale
+ar;أنس بويلو;Anse Boileau
+de;Silhouette;Silhouette Island
+ar;لا باس;La Passe
+fr;La Roche;Roche Caïman
+en;Red Cayman;Roche Caïman
+fr;La Roche Caïman;Roche Caïman
+fr;Caïman;Roche Caïman
+fr;Île du Nord;North Island
+fr;La Rivière Anglaise;English River
+fr;Île Platte;Platte Island
+fr;Île de l'Assomption;Assumption

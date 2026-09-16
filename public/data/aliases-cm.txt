@@ -1,0 +1,269 @@
+es;Yaundé;Yaoundé
+ar;ياوندي;Yaoundé
+fr;Touala;Fontsa Toula
+fr;So;Ssa
+fr;Sa;Ssa
+fr;Pomdimoun;Pondimoun
+ar;أوسادا;Oussada
+fr;Nkagnam;Nka'nyam
+fr;Njingouo;Njingwèt
+fr;Njikatnkie;Njiketnkié
+fr;Bandja;Nja’
+fr;Bangouo;Ngouo
+fr;Ngouenjingoumbe;Njimgbèt
+fr;Ngwen Njingoumbé;Njimgbèt
+ar;نقاوندري;Ngaoundéré
+es;Ngaundere;Ngaoundéré
+de;Ngaoundere;Ngaoundéré
+ha;Ngaundere;Ngaoundéré
+pt;Ngaundere;Ngaoundéré
+fr;Ngangout-Koufomloum;Nkoufomloum
+fr;Néfo;Banefo
+fr;Ndoumkain;Nkougham-Ndoumnken
+fr;Ndoumnken;Nkougham-Ndoumnken
+fr;Mounja;Moudjo
+fr;Moundjo;Moudjo
+fr;Mfohouon;Mfewouon
+fr;Mbagnam;Mangoum
+fr;Mayakoué;Mayaakwé
+fr;Mayakwé;Mayaakwé
+ar;مارووا;Maroua
+ha;Marua;Maroua
+fr;Maripa;Mferipa
+fr;Mansouen Mambain;Manswen Mambeng
+fr;Bandeng;Mankon
+fr;Bande;Mankon
+fr;Mankembouot;Mankembwot
+fr;Manjibo;Mandjibo
+fr;Manscha;Mancha
+fr;Mamegnam;Mamenyam
+fr;Mambain;Mamben
+fr;Maloa;Maloua
+fr;Makouopchichi;Makwopchichi
+fr;Maka;Mako
+fr;Lolabe;Lolabé
+fr;Limbé;Limbe
+fr;Levoni;Levongli
+fr;Levonli;Levongli
+fr;Kouti;Nkoutie
+fr;Koutchankap;Nkounchankap
+fr;Koutaba;Nkoutaba
+pt;Kousseri;Kousséri
+ar;القصور‎;Kousséri
+ar;قصور;Kousséri
+ar;كوسيري;Kousséri
+fr;Koussam;Nkoussam
+fr;Kourom;Nkourom
+fr;Kouoptamo;Kouoptame
+fr;Kouomboum;Nkou'omboum
+fr;Kounou;Chwinou
+fr;Koundoum;Nkoundem
+fr;Koundja;Nkounja
+fr;Kounja;Nkounja
+fr;Kounden;Nkounden
+fr;Koumenké;Nkoupamenké
+fr;Koumélap;Nkoumelap
+fr;Kouhouat;Nkwat
+fr;Kougham Njitapon;Ngon Njitapon
+fr;Kouffen;Nkoufen
+fr;Koufen;Nkoufen
+fr;Kouénmonka;Kwetmenka'
+de;Idenau;Idenao
+pt;Idenau;Idenao
+fr;Idenau;Idenao
+en;Idenau;Idenao
+it;Idenau;Idenao
+es;Idenau;Idenao
+nl;Idenau;Idenao
+fr;Gouonteu;Ngonlé
+ar;غاروا;Garoua
+ha;Garua;Garoua
+fr;Foumbat;Foumbot
+fr;Fumban;Foumban
+fr;Foumbam;Foumban
+fr;Foutouni;Fotouni
+fr;Fokouni;Fotouni
+fr;Fossette;Mfesset
+fr;Foléké Tsang;Foreké Dschang
+fr;Fopouanga;Fopwanga
+fr;Fontsinga;Fostinga
+fr;Fo Nou Saamaya;Saamaya
+fr;Fonjomekwet;Fondjomékwet
+fr;Fomépéa;Fomopéa
+fr;Folessing;Fotsemlesseng
+fr;Fotsemlessing;Fotsemlesseng
+fr;Folap;Mfelap
+fr;Fokwé;Fokoué
+fr;Édéa;Edéa
+it;Édéa;Edéa
+ar;إديا;Edéa
+en;Ebolowa;Ébolowa
+ar;إبولووا;Ébolowa
+es;Ebolowa;Ébolowa
+de;Ebolowa;Ébolowa
+ha;Ebolova;Ébolowa
+pt;Ebolowa;Ébolowa
+fr;Tchang;Dschang
+fr;Djang;Dschang
+fr;Dchang;Dschang
+fr;Chang;Dschang
+ar;جان;Dschang
+fr;Doumbouo;Doumbwo
+fr;Ndoumbwo;Doumbwo
+es;Duala;Douala
+ar;دوالا;Douala
+ha;Duala;Douala
+fr;Djuttitsa;Ntsuétetsa
+fr;Djutittsa;Ntsuétetsa
+fr;Djenkwo;Djiongwo
+fr;Denkwop;Ndenkwop
+fr;Choua;Batchua
+fr;Buéa;Buea
+nl;Buéa;Buea
+pt;Buéa;Buea
+it;Buéa;Buea
+ar;بويا;Buea
+ar;بيرتوا;Bertoua
+ha;Bertua;Bertoua
+fr;Batoufam;Tefam
+fr;Bapoungé;Poungué
+fr;Bapa;Pa
+fr;Bantoum I;Bantoum
+fr;Bangoum;Mfenguem
+fr;Bangum;Mfenguem
+fr;Bangoulap;Ngoulap
+fr;Bangou;Ngou
+fr;Banjou;Ngou
+fr;Banganté;Bangangté
+it;Bangangte;Bangangté
+fr;Bangang;Ngang
+fr;Bangam;Ngam
+fr;Banga Fondje;Ngang Fondji
+fr;Bandoumka;Badoumka
+fr;Bandoumgia;Bandoumdja
+fr;Bandenkop;Ndenkop
+fr;Ramunka;Ndop
+fr;Bamunka;Ndop
+fr;Bamessing;Bamessingoe
+fr;Bamenjo;Bamendjeu
+fr;Bamendjo;Bamendjeu
+fr;Bamindjin;Bamendjing
+fr;Baminjinda;Bamendjinda
+ar;بامندا;Bamenda
+fr;Bambuluwé;Awing Bambuluwe
+fr;Bamale;Bamali
+fr;Baloum;Baloun
+fr;Balessing;Lessing
+fr;Balatchi;La’tchuè
+fr;Bakassa;Baka'sa
+fr;Baïgom;Pètghom
+fr;Petgom;Pètghom
+fr;Baïgam;Pètghom
+fr;Bangam;Bagam
+fr;Befoussam;Bafoussam
+fr;Bafusam;Bafoussam
+fr;Bafousam;Bafoussam
+ar;بافوسام;Bafoussam
+ha;Bafussam;Bafoussam
+fr;Bafani;Bafanji
+fr;Baboutcha Fongam;Boutcha Fongam
+fr;Baboutcha;Boutcheu
+fr;Babouankou;Babwantou
+fr;Baboné;Boné
+en;Aboudjali;Abou Djali
+ar;ملومري;Maloumri
+fr;Ngwamesso;Ngwanesso
+fr;Mandètkane;Mandèkane
+fr;Nkouchounsen;Nkouchou’nsén
+fr;Marom;Mârom
+fr;Nkengou;Nkéngou
+fr;Lepwo;Lepouo
+fr;Tsimbé;Tsingbé
+fr;Tsimfou;Tsingfou
+fr;Bamendou II;Bamendou
+fr;Bototcha;Totcha
+fr;Zinto;Zengto
+fr;Leghong;Leghon
+fr;Bamendou I;Bamendou
+fr;Nzimba;Ntse’
+fr;Nzinden;Zideng
+fr;Legang;Lefang
+en;Mmuock Leteh;Fotang
+fr;Bachiché;Chichie
+fr;Tchoumsi;Tchounsi
+fr;Tchuélekwe;Tchuélekwe I
+fr;Baghang;Boughang
+fr;Balena;Lena
+fr;Balouo;Louo
+fr;Bawa;Wa
+fr;Bamélo;Melo
+fr;Balépo;Lépo
+fr;Darmagnac Plantation;Darmagnac Ferme
+fr;Batsela;Tsela’
+fr;Ndjekou;Njekou
+en;Batchum;Tchum
+fr;La'ngou;La’angou
+fr;Famgoum I;Famgoum
+fr;Famgoum II;Famgoum
+fr;Banom;Nom
+fr;Bapi;Pi
+fr;Balou;Lou
+fr;Kafo;Ka’afo
+fr;Tcha've;Tcha’ave
+fr;Bandang;Ndang
+fr;Bamèndou;Mèndou
+fr;Bamang;Mang
+fr;Ba'so'nkeng;So’nkeng
+fr;Ndjeghang;Njeghang
+fr;Ndjéleng I;Njeleng
+fr;Bamesseng;Mèsseng
+fr;Ndjunang Metè;Njunang Métè
+fr;Banéghang;Neghang
+fr;Bapepa;Pepa
+fr;Bambie;Bambi I
+fr;Bamenka;Bamenka I
+fr;Batcho;Tcho
+fr;Letsi;Baletsi
+fr;Nso;Banso
+fr;Wang;Wouang II
+fr;Batsela;Batsela II
+fr;Bamendou;Mendou
+fr;Bafomgba;Fomgha
+fr;Bamétéa;Meta
+fr;Kobou;Kombou
+fr;Sa'mba;Bassamba
+fr;Kofen;Ka’fen
+fr;Tangwa;Ndia’nse
+fr;Ndjinga;Njinga
+fr;Batoukop;Toukop
+fr;Ndembou Menjo;Ndenbou Menjo
+fr;Tse Ngo;Tségo
+fr;Ndjeleng II;Djeleng
+fr;Fo Negom;Fonegom
+fr;Sé Ndembom;Tsé Ndembom
+fr;Famta;Famla’
+fr;Wong;Wouong II
+fr;Kamkop;Kamkop I
+fr;Ndjassa;Njassa
+fr;Ndoumbem;Ndoumbèn
+fr;Bajinso;Bandjisso II
+fr;Koptchou;Koptchou II
+fr;Tchanda;Tchanda I
+fr;Néfoloum;Nefoloum
+fr;Nkajou;Bankadjou
+fr;Ngossong;Ngossong II
+fr;Mantoung;Maloung
+fr;Mankouya;Mankoya
+fr;Bambit;Mambit
+fr;Njimbouot;Njimbouot I
+fr;Taillandier;Tayandi
+fr;Toulâden;Toulaanden
+fr;Njindaré;Njindare
+fr;Kiliom;Bakiliom
+fr;Nkiéneghang;Nkiénéghang
+fr;Mevobo;Mévobo
+fr;Tassé Yeyep;Tassé-Yéyep
+fr;Mbehuc;Mbéhuè
+fr;Mbenzate;Mbenzaté
+en;Mandoum One;Mandoum Un
+en;Djombi Two;Djombi Deux

@@ -1,0 +1,168 @@
+de;Sansibar-Stadt;Zanzibar
+es;Zanzíbar;Zanzibar
+ar;مدينة زنجبار;Zanzibar
+en;Wino;Mwino
+ar;ويتي;Wete
+ar;فوافا;Vwawa
+en;Usevya;Usevia
+de;Udschidschi;Ujiji
+af;Oedjidji;Ujiji
+en;Udokwa;Udekwa
+ar;تنجا;Tanga
+en;Tambamagulu;Tambanagulu
+ar;تابورا;Tabora
+ar;سومباوانجا;Sumbawanga
+en;Samanga Fungu;Somanga Funga
+en;Samanga;Somanga
+en;Safu;Sofu
+ar;سينجيدا;Singida
+en;Sikitico;Sikitiko
+en;Saungubweni;Shungubweni
+ar;شينيانجا;Shinyanga
+en;Shikurufumi;Chkurufumi
+en;Chikarafumi;Chkurufumi
+en;Chigarafumi;Chkurufumi
+en;Sanje;Sonjo
+en;Pungatini;Pungutini
+en;Namuage;Nyamwage
+en;Nyamanzi;Nyamansi
+en;Nyakitasi;Nyakatasi
+en;Nkugwi;Nkungwi
+en;Kungwe;Nkungwi
+en;Ikonde;Nkonde
+ar;نجومبي;Njombe
+en;Niangandu;Nyangandu
+ar;نغارة;Ngara
+en;Ndundatawa;Ndundu Tawa
+en;Ndundu Rufiji;Ndundu
+en;Mdene;Ndene
+en;Naiwangaa;Naiwanga
+en;Mwanzagala;Mwanzaga
+ar;موانزا;Mwanza
+ar;موسوما;Musoma
+en;Muruwani;Maruwani
+en;Munsalla;Munsalya
+en;Munsalia;Munsalya
+en;Mtondo;Mtunda
+en;Ntara;Mtera
+en;Msonga;Msanga
+en;Msomene;Msomeni
+en;Sandazi;Msindaji
+en;Msanga II;Msanga Visiga
+en;Msonga;Msanga Visiga
+en;Msanga I;Msanga
+en;Maharaka;Mruaraka
+en;Mnali;Mrali
+ar;مبندا;Mpanda
+ar;موشي;Moshi
+sw;Mkoa wa Morogoro;Morogoro
+ar;موروغورو;Morogoro
+en;Mokobye;Mukobye
+en;Mulundi;Mlundi
+en;Mkwanga;Mkuranga
+ar;مكوكوتوني;Mkokotoni
+sw;Wilaya ya Mkoani;Mkoani
+en;Mkalinju;Mkalinzu
+en;Mitumba;Milumba
+en;Migo;Migu
+en;Mhanha;Mbamba
+en;Mgwevu;Mgwewu
+en;Mchungo;Mchungu
+en;Mbuni;Mbumi
+en;Mbongora;Mbogora
+en;Mboganzoya;Mboga
+ar;مبيا;Mbeya
+en;Mtapatapa;Matapatapa
+en;Masangania;Masanganya
+en;Malumba;Malambo
+en;Mkutubora;Makatapora
+en;Mahenge;Mahe
+en;Magomani;Magemani
+en;Mgambo;Magambo
+en;Mafizi;Mafisi
+en;Aukanga;Lukanga
+en;Sakamaganga;Lukamanga
+en;Lukumanga;Lukamanga
+en;Lukmanga;Lukamanga
+en;Luvubu;Lufubu
+en;Lumango;Lomango
+en;Lukoma;Lokoma
+en;Logeloge;Roge Roge
+en;Lofia;Lofi
+en;Lingaura;Lingaula
+en;Uleleng’ombe;Ledingombe
+en;Lagosa;Lagossa
+en;Kototo;Kokoto
+en;Kobogo;Kabogo
+ar;كواني;Koani
+en;Kisingire;Kisangire
+en;Kissaki;Kisaki
+en;Kisaki Fort;Kisaki
+en;Kipapura;Kipapu
+en;Kiombani;Kiomboni
+en;Masoko;Kilwa Masoko
+ar;أسواق كيلوا;Kilwa Masoko
+en;Kilwa-Kiwindsche;Kilwa Kivinje
+en;Kilwa-Kiwindje;Kilwa Kivinje
+en;Kilwa;Kilwa Kivinje
+ar;كيلوزا;Kilosa
+en;Kilanzi;Kilanze
+sw;Kigoma-Ujiji;Kigoma
+ar;كيغوما;Kigoma
+en;Kiachuru;Kiechuru
+en;Kidayi;Kidai
+en;Kibwesi;Kibwesa
+ar;كيبها;Kibaha
+en;Kiassi;Kiasi
+en;Kizimzumbi;Kazimzumbwi
+en;Katoa;Katoba
+ar;كاسولو;Kasulu
+en;Kasoje;Kasoge
+en;Kasikesi;Kasacasia
+en;Kalungu;Karungu
+de;Karatu;Kiratu
+en;Kapapa;Kapapa, Mpanda
+en;Kalambu;Kalambo
+ar;كاهاما;Kahama
+en;Kabungo;Kabungu
+en;Jumbo;Jimbo
+en;Dyimbo;Jimbo
+en;Itindakusia;Itindakusya
+en;Iranda;Irondo
+en;Ipera;Irondo
+ar;إيرينغا;Iringa
+en;Imagi;Image
+en;Ikamba;Nkamba
+en;Kamba;Nkamba
+ar;جيتا;Geita
+ar;دودوما;Dodoma
+de;Daressalam;Dar es Salaam
+es;Dar es-Salam;Dar es Salaam
+ar;دار السلام;Dar es Salaam
+fr;Dar es Salam;Dar es Salaam
+af;Dar-es-Salaam;Dar es Salaam
+mg;Dar es Salam;Dar es Salaam
+en;Chongo;Shongo
+en;Chole;Chole Samvula
+ar;تشاكي تشاكي;Chake Chake
+en;Bueni;Bweni
+en;Bweju;Bwejuu
+en;Buuni Village;Buyuni
+en;Mbuyuni;Buyuni
+ar;بوكوبا;Bukoba
+en;Bosa;Boza
+ar;محافظة بيهارامولو;Biharamulo
+ar;باجامويو;Bagamoyo
+sw;Babati Mjini;Babati
+ar;بابتي;Babati
+ar;أروشا;Arusha
+ar;سونجيا;Songea
+ar;نداندا;Ndanda
+ar;متوارا;Mtwara
+de;Sphinxhafen;Liuli
+ar;ليندي;Lindi
+en;Kimbarambara;Kimberambana
+en;Kambakwe;Kamba
+en;Sembetwa;Msambatwa
+en;Nyakawangala;Nyakawanga
+en;Idahi;Idayi

@@ -182,6 +182,7 @@ ru;Джерада;Jerada
 zgh;ⵊⴻⵔⴰⴷⴰ;Jerada
 de;Joujouka;Jajouka
 ru;Инезган;Inezgane
+ru;Ифран;Douar Ifrane
 ar;إفران;Ifrane
 kab;Ifran;Ifrane
 ru;Ифран;Zawyat Ifrane

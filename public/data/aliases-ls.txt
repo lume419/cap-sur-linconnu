@@ -1,0 +1,14 @@
+ar;تيايتيانeng;Teyateyaneng
+ar;قوتينج;Quthing
+en;Qacha's Nek;Qacha’s Nek
+pt;Qacha's Nek;Qacha’s Nek
+ar;موخوتلونج;Mokhotlong
+ar;مهالي هوك;Mohale's Hoek
+ar;ماسيرو;Maseru
+de;Marakabei;Marakabeis
+en;Marakabei;Marakabeis
+nl;Marakabei;Marakabeis
+ar;مافيتينج;Mafeteng
+ar;هلوتسي;Hlotse
+ar;بوثا بوثي;Butha-Buthe
+ar;ثابا تسيكا;Thaba-Tseka

@@ -1,0 +1,28 @@
+ar;تشابونج;Tshabong
+ar;سيروي;Serowe
+it;Selebi Pikwe;Selebi-Phikwe
+ar;راموتسوا;Ramotswa
+ar;مولبولول;Molepolole
+ar;موتشودي;Mochudi
+ar;ماون;Maun
+en;Khutse;Khutswe
+ar;كاسان;Kasane
+ar;كانيي;Kanye
+tn;Motsana wa Hukuntsi;Hukuntsi
+ar;غانزي;Ghanzi
+zu;IGaborone;Gaborone
+ar;جابورون;Gaborone
+ar;فرانسيستاون;Francistown
+tn;Motsana wa Matsitama;Matsitama
+sw;Dikgonnye;Dikgonye
+pt;Dikgonnye;Dikgonye
+en;Dikgonnye;Dikgonye
+it;Dikgonnye;Dikgonye
+fr;Dikgonnye;Dikgonye
+mg;Dikgonnye;Dikgonye
+tn;Dikgonnye;Dikgonye
+nl;Dikgonnye;Dikgonye
+en;Jwaneng Township Area;Jwaneng
+ar;جوانينج;Jwaneng
+tn;Motse wa Mmanoko;Mmanoko
+en;Khwai;Khwai River Lodge

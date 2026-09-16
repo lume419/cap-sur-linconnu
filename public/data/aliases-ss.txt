@@ -1,0 +1,57 @@
+ar;ييرول;Yirol
+ar;ياي;Yei
+ar;يامبيو;Yambio
+am;ያምቢዮ;Yambio
+en;Wunrock;Wun Rog
+de;Waw;Wau
+ar;واو;Wau
+ar;Wāw;Wau
+it;Wāw;Wau
+am;ዋው;Wau
+ar;أويل;Aweil
+am;አወል;Aweil
+ar;توريت;Torit
+am;ቶሪት;Torit
+ar;تونج;Tonj
+de;Rumbik;Rumbek
+ar;رمبيك;Rumbek
+am;ሩምቤክ;Rumbek
+en;Raga;Raja
+ar;بيبور;Pibor
+ar;نيمول;Nimule
+en;Multhiang;Mathiang
+ar;مشرع الراق;Mashra‘ ar Raqq
+ar;مشرع الرّاق;Mashra‘ ar Raqq
+ar;ماريدي;Maridi
+ar;ميلوت;Melut
+ar;ملكال;Malakal
+am;ማላካል;Malakal
+ar;ليير;Leer
+ar;لافون;Lafon
+ar;كواجوك;Kuacjok
+am;ኩአችጆክ;Kuacjok
+en;Kiro;Keiro
+nl;Kiro;Keiro
+ar;كافيا كنجي;Kafia Kingi
+fr;Djouba;Juba
+de;Dschuba;Juba
+ar;جوبا;Juba
+pt;Ikotos;Ikoto
+en;Ikotos;Ikoto
+fr;Ikotos;Ikoto
+nl;Ikotos;Ikoto
+ar;غندكرو;Gondokoro
+ar;قوقريال;Gogrial
+ar;جيلو;Gilo
+en;Parjok;Pajok
+nl;Parjok;Pajok
+en;Ban Jeila;Dudu
+ar;بور;Bor
+am;ቦር;Bor
+ar;بانتيو;Bentiu
+am;በንቲዩ;Bentiu
+ar;الرنك;Renk
+ar;واراب;Warab
+en;Debbat Abu Sabika;Debbat Abu Sarika
+en;War-Awar;War-a-War
+ar;قمروك;Gumuruk

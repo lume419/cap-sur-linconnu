@@ -1,0 +1,283 @@
+de;Dunqula;Dongola
+ar;دنقلا;Dongola
+am;ዶንጎላ;Dongola
+en;Zalingei;Zalinjay
+ar;زالنجي (مدينة);Zalinjay
+ar;زالنجي;Zalinjay
+en;Zalinguei;Zalinjay
+de;Zalingi;Zalinjay
+am;ዛሊንጃይ;Zalinjay
+de;Wad Madani;Wad Medani
+en;Wad Madani;Wad Medani
+fr;Wad Madani;Wad Medani
+es;Wad Madani;Wad Medani
+am;ወድ መዳኒ;Wad Medani
+ar;وادي حلفا;Wadi Halfa
+pt;Uádi Halfa;Wadi Halfa
+fr;Ouadi-Halfa;Wadi Halfa
+ar;ود حامد;Wad Ḩāmid
+en;Wad Hamid;Wad Ḩāmid
+nl;Wad Hamid;Wad Ḩāmid
+ar;ود الحليوة;Wad al Ḩulaywah
+en;Umm Dukhn;Tirti um Dukhn
+en;Umm Tissa;Um Tiser Gainggar
+ar;أم روابة;Umm Ruwaba
+en;Umm Keddada;Umm Kaddadah
+nl;Umm Keddada;Umm Kaddadah
+ar;ام الاندرابه;Umm Andaraba
+ar;ام قرفه;Umm Gerif
+fr;Omdourman;Omdurman
+es;Omdurmán;Omdurman
+ar;أم درمان;Omdurman
+ar;أم دم;Umm Dam
+ar;ام برو;Ambro
+ar;اوم باروو;Ambro
+en;Ulang;Urang
+en;Tosi;Tozi
+en;Tirti;Tirti Dodata
+ar;ترتي;Tirti Dodata
+en;Tirti;Tirtu
+ar;طوكر;Tokār
+de;Taukar;Tokār
+ar;تلودي;Talodi
+ar;سنجة;Singa
+de;Sindscha;Singa
+am;ሲንጋ;Singa
+de;Schandi;Shendi
+fr;Chendi;Shendi
+ar;شندي;Shendi
+de;Sawakin;Suakin
+pt;Suaquém;Suakin
+ar;سواكن;Suakin
+nl;Sawakin;Suakin
+en;Sarat;Sere
+en;Alsiragiya;Saragia
+en;Saraga;Saragia
+en;El Soraji;Saragia
+ar;السراجيه;Saragia
+en;Sinnar;Sennar
+de;Sannar;Sennar
+en;Sannar;Sennar
+ar;سنار;Sennar
+ar;ربك;Rabak
+am;ራባክ;Rabak
+en;Al Qardud;Qardud
+en;Nyelli;Nyeltita
+ar;نيالا;Nyala
+pt;Niala;Nyala
+am;ንያላ;Nyala
+en;Murli;Mulli
+ar;Mā‘ūn;Maun
+de;Kusti;Kosti
+ar;ربك;Kosti
+en;Kūstī;Kosti
+de;Kurti;Kūrtī
+ar;كورتي;Kūrtī
+en;Korti;Kūrtī
+nl;Korti;Kūrtī
+es;Korti;Kūrtī
+en;Kondoli;Kondoli Basita
+ar;خشم القربة;Khashm al Qirbah
+en;Khashm El Girba;Khashm al Qirbah
+it;Khashm El Girba;Khashm al Qirbah
+fr;Khashm El Girba;Khashm al Qirbah
+nl;Khashm El Girba;Khashm al Qirbah
+ar;كسل;Kassala
+ar;كسلا;Kassala
+am;ካሳላ;Kassala
+de;Karkaudsch;Karkoj
+ar;كركوج;Karkoj
+en;Kalogi;Kaloqi
+ar;الكلاكلة;Al Kalakla
+de;Kaduqli;Kadugli
+en;Kaduqli;Kadugli
+ar;كادقلى;Kadugli
+ar;كادقلي;Kadugli
+fr;Kadougli;Kadugli
+am;ካዱግሊ;Kadugli
+ar;جبيت;Jubayt
+ar;حلفا الجديدة;New Halfa
+ar;غبيش;Ghabish
+en;Geri;Saraf
+ar;جريجخ;Gereigih
+ar;فورو برنج;Forbranga
+ar;فور برنج;Forbranga
+ar;الليري;Eiri
+en;Dudei;Dodata
+ar;دلقو;Dalqū
+pt;Delgo;Dalqū
+en;Delgo;Dalqū
+nl;Delgo;Dalqū
+ar;الدبيبات;Dabbat ‘Ubayd
+en;Daballa;Kurti Hile Saidna
+de;Bur Sudan;Port Sudan
+es;Puerto Sudán;Port Sudan
+ar;بورتسودان;Port Sudan
+ar;بور سودان;Port Sudan
+fr;Port-Soudan;Port Sudan
+it;Porto Sudan;Port Sudan
+pt;Porto Sudão;Port Sudan
+am;ፖርት ሱዳን;Port Sudan
+ar;بري الدرايسة;Burri Al Drayssah
+ar;عطبرة;Atbara
+nl;Atbarah;Atbara
+ar;الصبابي;Sababi
+ar;السعاته شنبول;As Sa‘ata
+ar;أروالا;Arwala
+en;Arawala;Arwala
+fr;Arawala;Arwala
+nl;Arawala;Arwala
+ar;الروصيرص;Er Roseires
+ar;الرهد;Ar Rahad
+es;Er Rahad;Ar Rahad
+ar;النهود;An Nuhūd
+de;An-Nahud;An Nuhūd
+pt;En Nahud;An Nuhūd
+fr;En Nahud;An Nuhūd
+en;En Nahud;An Nuhūd
+it;En Nahud;An Nuhūd
+es;En Nahud;An Nuhūd
+nl;En Nahud;An Nuhūd
+de;Al-Ubayyid;El Obeid
+en;Al-Ubayyid;El Obeid
+ar;الأبي;El Obeid
+am;ኤል ኦቤድ;El Obeid
+de;Al-Qadarif;Al Qadarif
+ar;القضارف;Al Qadarif
+en;Gedaref;Al Qadarif
+es;Gadarif;Al Qadarif
+fr;Al-Qadarif;Al Qadarif
+it;Gadaref;Al Qadarif
+nl;Al-Qadarif;Al Qadarif
+am;አል ቃዳሪፍ;Al Qadarif
+ar;الميرم;Al Malamm
+ar;بحري;Khartoum North
+en;Bahri;Khartoum North
+ar;الخرطوم بحري;Khartoum North
+de;Bahri;Khartoum North
+de;Khartum Nord;Khartoum North
+fr;Bahri;Khartoum North
+fr;Khartoum Nord;Khartoum North
+es;Jartum Norte;Khartoum North
+es;Jartum;Khartoum
+de;Khartum;Khartoum
+ar;خرطوم;Khartoum
+it;Khartum;Khartoum
+nl;Khartoem;Khartoum
+pt;Cartum;Khartoum
+am;ካርቱም;Khartoum
+ar;ااالخرطوم;Khartoum
+en;El Khandaq;Al Khandaq
+nl;El Khandaq;Al Khandaq
+en;El Geneina;Al-Junaynah
+en;Al Junaynah;Al-Junaynah
+en;Geneina;Al-Junaynah
+ar;الجنينة;Al-Junaynah
+de;Al-Dschunaina;Al-Junaynah
+fr;El-Geneina;Al-Junaynah
+am;አል-ጁናይናህ;Al-Junaynah
+en;El Jabalein;Aj Jabalen
+ar;الجبلين;Aj Jabalen
+it;El Jebelein;Aj Jabalen
+nl;Al Jabalayn;Aj Jabalen
+es;Al Jabalayn;Aj Jabalen
+en;Al Hamra;Al Ḩamrā’
+de;Al-Fula;Al Fūlah
+en;Al-Fashir;El Fasher
+nl;Al-Fashir;El Fasher
+de;Al-Faschir;El Fasher
+ar;الفاشر;El Fasher
+am;ኤል ፋሼር;El Fasher
+ar;الحاج اللين;Al Elain
+ar;البحريه;Al Baḩrīyah
+ar;الدويم (مدينة);Ad Douiem
+en;Ed Dueim;Ad Douiem
+en;Al Dewaym;Ad Douiem
+en;Dewaim;Ad Douiem
+en;Ad Duwaym;Ad Douiem
+ar;الدبيبات;Ad Dubaybāt
+en;Ed Daein;El Daein
+ar;الضعين;El Daein
+en;Ad Du'ayn;El Daein
+de;Ad-Du’ain;El Daein
+am;ኤል ዳይን;El Daein
+en;Ed Damer;Ad-Damir
+en;Al-Damir;Ad-Damir
+ar;الدامر;Ad-Damir
+am;አድ-ዳሚር;Ad-Damir
+ar;الدمازين;Ad-Damazin
+am;አድ-ዳማዚን;Ad-Damazin
+de;Ad-Dabba;Ad Dabbah
+pt;Al Dabbah;Ad Dabbah
+fr;Al Dabbah;Ad Dabbah
+en;Al Dabbah;Ad Dabbah
+it;Al Dabbah;Ad Dabbah
+es;Al Dabbah;Ad Dabbah
+ar;الدبة;Ad Dabbah
+nl;Al Dabbah;Ad Dabbah
+en;Adaluta;Adalata
+fr;Abiyé;Abyei
+ar;أبيي;Abyei
+ar;ابو نواره;Abu Nuweira
+ar;ابو كرشولا;Abū Kershola
+ar;أبو ديس;Abū Dīs
+ar;الكويك;Al Kiwēk
+en;Al Makhada;Al Makhāda
+ar;المخادة;Al Makhāda
+ar;بري الشريف;Burri Al Shreef
+ar;امتداد ناصر;Nasir Extension
+ar;ناصر;Nasir Extension
+ar;المنشية;Al Manshiya
+ar;قرية نجرو;Najaru
+ar;Ţōris;Gardud el Badry
+en;Al Warad;Al Warrād
+ar;الوراد;Al Warrād
+en;Al Ganaa’;Al Qanā‘a
+en;Al Ganaa;Al Qanā‘a
+ar;القناعة;Al Qanā‘a
+en;May‘a ed Dubeiba;Maya ed Dubeyba
+en;Kololdai;Kololdio
+en;Heyinga;Hajilija
+en;Aramta;Alfege Arenji
+en;Dambarita;Dombarita
+en;Reydug;Zebda
+en;Baro;Jimeza Taiba
+ar;قريضة;Gereida
+ar;بري اللاماب;Burri Al Lamab
+en;El Fula;Al-Fulah
+ar;الفولة;Al-Fulah
+de;Al-Fula;Al-Fulah
+am;አል-ፉላህ;Al-Fulah
+ar;بري المحس;Burri Al Mahas
+ar;الرياض;Riyadh
+ar;الطائف;ِAl Taif
+ar;جاردن سيتي;Garden City
+ar;قاردن سيتي;Garden City
+ar;حمرة الوز;Hamrat El Wiz
+ar;برنو;Barno
+ar;دميك;Dameik
+ar;الفرشايه;Alfarshaya
+ar;قريضه;Garid
+ar;التضامن;Eliri
+ar;قدير;Gadeer
+ar;القوز;Algooz
+ar;الدبب;Eldebab
+ar;السنط;Alsunut
+ar;الاوضة;Al Warad
+ar;العائدين جودة;Al Aideen Joda
+ar;جودة كيلو-4;Joda Kilo-4
+ar;ابو فريوة;Abu Frewa
+ar;الشوافة الأحامدة;Al Shawafa Al Ahamda
+ar;التبرات;Al Tabarat
+ar;ابوكدروس;Abu Kardoos
+ar;القردود;Al Gardood
+ar;الزعفاية;Al Zaafia
+ar;اولاد جماع;Awalad Gamaa'
+ar;الرديس المدرسة;Al Redes Al Madrasa
+ar;الرديس البحر;Al Redes Al Baha
+ar;ام صنقور;Um Sangoor
+en;Al Ruat;Alrawat
+en;Al Rawat;Alrawat
+ar;بريديك;Bridik
+ar;الزرق;az-Zurq
+ar;كرنوي;Karnoi

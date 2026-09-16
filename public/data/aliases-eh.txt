@@ -43,6 +43,8 @@ es;Aufist;Aftissat
 ar;أفتيسات;Aftissat
 es;Hasi Hatas;Agti el Ghazi
 ar;أغتي الغازي;Agti el Ghazi
+ar;اجديرية;Jdiriya
+es;El Jeriuia;Jdiriya
 ar;حوزة;Haouza
 ar;بير تيغیسیت;Bir Tiguisit
 es;Duguech;Dougaj

@@ -1,0 +1,67 @@
+// Alias multilingues pour les onze pays du Sahel, d'Afrique centrale et de la Corne de l'Afrique
+// traités par build-sahel-corne-communes.js. Même principe que build-maghreb-aliases.js : plutôt que de
+// dupliquer la logique de sélection des communes — et de risquer qu'elle diverge silencieusement —
+// ce script repart du fichier public/data/communes-xx.txt DÉJÀ GÉNÉRÉ et retrouve le geonameid de
+// chaque commune en la rapprochant du dump par nom + coordonnées arrondies. L'ensemble des alias
+// correspond donc, par construction, à ce qui est réellement publié.
+const fs = require('fs');
+const path = require('path');
+
+const COUNTRIES = ['NE', 'BJ', 'NG', 'TD', 'CF', 'SD', 'SS', 'ER', 'ET', 'DJ', 'SO'];
+const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
+function norm(s){ return String(s || '').trim().toLowerCase().replace(/\s+/g, ' '); }
+
+// Langues retenues pour la RECHERCHE uniquement : les langues officielles ou de travail du lot
+// (français, anglais, arabe) et les grandes langues sous lesquelles GeoNames range des noms de lieux
+// de ces onze pays — amharique et tigrinya (écriture guèze), oromo, somali, afar, haoussa, yoruba,
+// igbo, kanouri, peul, sango, zarma. Qu'une langue serve à la recherche ne préjuge pas de son
+// ajout à l'interface, décidé pays par pays selon le statut juridique et l'orthographe (README).
+const SUPPORTED_LANGS = new Set([
+  'fr', 'en', 'ar', 'de', 'it', 'es', 'pt', 'nl',
+  'am', 'ti', 'om', 'so', 'aa', 'ha', 'yo', 'ig', 'kr', 'ff', 'sg', 'dje', 'gez'
+]);
+
+for(const country of COUNTRIES){
+  // 1. communes réellement publiées -> clé "nom|lat|lon"
+  const communesPath = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
+  const published = new Map();
+  fs.readFileSync(communesPath, 'utf8').split('\n').filter(Boolean).forEach(line => {
+    const parts = line.split(';');
+    const lonlat = parts[1].split(',');
+    const key = norm(parts[4]) + '|' + parseFloat(lonlat[1]).toFixed(4) + '|' + parseFloat(lonlat[0]).toFixed(4);
+    published.set(key, parts[4]);
+  });
+
+  // 2. dump -> geonameid des lieux publiés
+  const canonicalByGeonameId = new Map();
+  fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8')
+    .split('\n').filter(Boolean).map(l => l.split('\t'))
+    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
+    .forEach(c => {
+      const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
+      if(isNaN(lat) || isNaN(lon)) return;
+      const key = norm(c[1]) + '|' + lat.toFixed(4) + '|' + lon.toFixed(4);
+      if(published.has(key)) canonicalByGeonameId.set(c[0], published.get(key));
+    });
+
+  // 3. noms alternatifs
+  const altPath = path.join(__dirname, 'altnames', country + '.txt');
+  const out = [];
+  const seenAlias = new Set();
+  if(fs.existsSync(altPath)){
+    fs.readFileSync(altPath, 'utf8').split('\n').filter(Boolean).map(l => l.split('\t')).forEach(c => {
+      const geonameid = c[1], lang = c[2], alt = c[3], isHistoric = c[7];
+      if(!SUPPORTED_LANGS.has(lang) || isHistoric === '1' || !alt) return;
+      const canonical = canonicalByGeonameId.get(geonameid);
+      if(!canonical || norm(alt) === norm(canonical)) return;
+      const k = lang + '|' + norm(alt) + '|' + canonical;
+      if(seenAlias.has(k)) return;
+      seenAlias.add(k);
+      out.push(`${lang};${alt};${canonical}`);
+    });
+  }
+  const outPath = path.join(__dirname, '..', 'public', 'data', 'aliases-' + country.toLowerCase() + '.txt');
+  fs.writeFileSync(outPath, out.join('\n') + (out.length ? '\n' : ''), 'utf8');
+  console.log(country + ' : ' + published.size + ' communes publiées, ' + canonicalByGeonameId.size +
+    ' geonameid retrouvés -> ' + out.length + ' alias');
+}

@@ -1,0 +1,61 @@
+ar;وع;Ouê‘a
+nl;Tadjourah;Tadjoura
+fr;Tadjourah;Tadjoura
+pt;Tadjourah;Tadjoura
+ar;تاجورة;Tadjoura
+ar;تجرة;Tadjoura
+am;ታጁራ;Tadjoura
+ar;رندة;Randa
+ar;أوبوك;Obock
+ar;أبخ;Obock
+am;ኦቦክ;Obock
+ar;مودو;Moudo
+en;Mouddo;Moudo
+fr;Mouddo;Moudo
+nl;Mouddo;Moudo
+ar;لويادا;Loyada
+ar;لويعدا;Loyada
+ar;لاوياعادو;Loyada
+ar;أمبولي;Ambouli
+ar;حلحول‎;Holhol
+ar;هلهول;Holhol
+ar;درة;Dorra
+es;Yibuti;Djibouti
+de;Dschibuti;Djibouti
+it;Gibuti;Djibouti
+ar;جيبوتي;Djibouti
+so;Jabuuti;Djibouti
+yo;Ìlú Djibouti;Djibouti
+ar;دخيل;Dikhil
+am;ዲክሂል;Dikhil
+ar;بالهو;Balho
+ar;أرتا;Arta
+ar;عرتا;Arta
+am;አርታ;Arta
+fr;Ali Sabieh;Ali Sabih
+ar;علي صبيح;Ali Sabih
+am;ዓሊ ሳቢህ;Ali Sabih
+ar;علي أدي;‘Ali ‘Addé
+ar;علي ادي;‘Ali ‘Addé
+ar;علي عدي;‘Ali ‘Addé
+ar;أدي علي;‘Ali ‘Addé
+ar;ادي علي;‘Ali ‘Addé
+ar;عدي علي;‘Ali ‘Addé
+ar;وع‎;Ouê‘a
+ar;غالافي;Gâlâfi
+ar;بلبالا;Balbala
+ar;بالبالا;Balbala
+ar;غورابو;Gorabous
+ar;عنابة‎;Anaba
+ar;أسا هوغود‎;Assa Hougoud
+ar;غيراري;Guirrari
+ar;فغال;Fagal
+ar;إغالو;Egahlou
+ar;بلول دودوب;Doudoub Bolole
+ar;ديبن;Debne
+ar;داسبييو;Dasbiyo
+ar;داودوغا;Daoudaouga
+ar;لأسا;La`assa
+ar;مدغول;Madgoul
+ar;وادي أويعا;Oued Ouea
+ar;ريتبا;Ribta

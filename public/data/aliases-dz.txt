@@ -433,6 +433,7 @@ ru;Шаршал;Cherchell
 kab;Cercal;Cherchell
 tr;Şerşel;Cherchell
 ar;الشبلي;Chebli
+ar;شروين;Charouine
 ar;بوسعادة;Bou Saada
 ar;بو سعادة;Bou Saada
 ar;بوسعادة;Bou Saâda
@@ -478,6 +479,7 @@ ar;بسكرة;Biskra
 ar;ولاية بسكرة;Biskra
 ru;Бискра;Biskra
 kab;Tibeskert;Biskra
+ar;بئر خادم;Birkhadem
 ar;بئر العاتر;Bir el Ater
 ar;بير العاتر;Bir el Ater
 ber;Bat'tiwa;Bettioua

@@ -41,9 +41,7 @@ en;Doata;Duaita
 en;Daninai;Daranai
 en;Charlesville (6);Charlesville
 en;Charlesville (5);Charlesville
-en;Charlesville (4);Charlesville
 en;Charlesville (3);Charlesville
-en;Charlesville (2);Charlesville
 ar;بوخانان;Buchanan
 ar;بوبولو;Bopolu
 ar;بنسونفيل;Bensonville

@@ -179,7 +179,7 @@
   // plutôt qu'un symbole ici, quel que soit le vrai symbole disponible — voir CURRENCY_GLYPH plus bas).
   // Liban/Israël/Jordanie/Égypte/Libye, dernier ajout en date : LBP/ILS/JOD/EGP/LYD suivent la même
   // règle (code ISO ici, quel que soit le vrai symbole — voir CURRENCY_GLYPH plus bas).
-  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL', AMD: 'AMD', AZN: 'AZN', SYP: 'SYP', LBP: 'LBP', ILS: 'ILS', JOD: 'JOD', EGP: 'EGP', LYD: 'LYD', MAD: 'MAD', DZD: 'DZD', TND: 'TND', XOF: 'XOF', MRU: 'MRU', GMD: 'GMD', CVE: 'CVE', GNF: 'GNF', SLE: 'SLE', LRD: 'LRD', GHS: 'GHS' };
+  var CURRENCY_SYMBOL = { EUR: '€', CHF: 'CHF', GBP: 'GBP', CZK: 'CZK', PLN: 'PLN', HUF: 'HUF', BAM: 'KM', DKK: 'DKK', NOK: 'NOK', SEK: 'SEK', ALL: 'ALL', RSD: 'RSD', MKD: 'MKD', RON: 'RON', ISK: 'ISK', GIP: 'GIP', MDL: 'MDL', BYN: 'BYN', UAH: 'UAH', TRY: 'TRY', GEL: 'GEL', AMD: 'AMD', AZN: 'AZN', SYP: 'SYP', LBP: 'LBP', ILS: 'ILS', JOD: 'JOD', EGP: 'EGP', LYD: 'LYD', MAD: 'MAD', DZD: 'DZD', TND: 'TND', XOF: 'XOF', MRU: 'MRU', GMD: 'GMD', CVE: 'CVE', GNF: 'GNF', SLE: 'SLE', LRD: 'LRD', GHS: 'GHS', XAF: 'XAF', NGN: 'NGN', SDG: 'SDG', SSP: 'SSP', ERN: 'ERN', ETB: 'ETB', DJF: 'DJF', SOS: 'SOS', KES: 'KES', UGX: 'UGX', TZS: 'TZS', RWF: 'RWF', BIF: 'BIF', CDF: 'CDF', STN: 'STN', AOA: 'AOA', ZMW: 'ZMW', MWK: 'MWK', MZN: 'MZN', ZWG: 'ZWG', BWP: 'BWP', NAD: 'NAD', ZAR: 'ZAR', SZL: 'SZL', LSL: 'LSL', KMF: 'KMF', MGA: 'MGA', MUR: 'MUR', SCR: 'SCR', SHP: 'SHP', RUB: 'RUB' };
   // Vrai symbole/abréviation d'usage courant de chaque devise — UNIQUEMENT pour l'affichage du
   // sélecteur de devise (bouton + liste, voir plus bas "SÉLECTEUR DE DEVISE"), jamais pour le
   // montant affiché dans le formulaire (CURRENCY_SYMBOL ci-dessus, volontairement resté au code ISO
@@ -230,7 +230,20 @@
   // "livre égyptienne", héritage du français comme "LL" pour le Liban), également courante avec "E£".
   // LYD (dinar libyen) : aucun symbole Unicode dédié — abrégée "ل.د" en arabe (pas de forme latine
   // qui domine clairement d'après les sources consultées, contrairement à JOD/EGP/LBP ci-dessus).
-  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾', AMD: '֏', AZN: '₼', SYP: 'ل.س', LBP: 'LL', ILS: '₪', JOD: 'JD', EGP: 'LE', LYD: 'ل.د', MAD: 'د.م.', DZD: 'د.ج', TND: 'د.ت', XOF: 'F CFA', MRU: 'UM', GMD: 'D', CVE: 'CVE', GNF: 'FG', SLE: 'Le', LRD: 'L$', GHS: '₵' };
+  // Lot Sahel / Corne. XAF : "F CFA", même abréviation que XOF — deux francs CFA distincts (BEAC et
+  // BCEAO) mais même parité et même nom d'usage ; le code affiché à côté les distingue. NGN : vrai
+  // symbole "₦" (U+20A6 NAIRA SIGN, Unicode 1.1, 1993). ETB : "Br", abréviation du birr — même
+  // lettres que BYN, toujours affichée avec son code. SDG "ج.س." et ERN "Nfk" : abréviations
+  // réellement utilisées localement, aucun symbole Unicode dédié. DJF "Fdj" et SOS "Sh.So." : idem.
+  // SSP : aucune abréviation ne domine ("SSP" ou "SS£" selon les sources) — le code ISO, comme CVE.
+  // Lot Afrique orientale, centrale et australe / océan Indien : AUCUNE de ces vingt et une devises
+  // n'a de point de code Unicode dédié — abréviations réellement en usage : KSh, USh, TSh (shillings
+  // kényan, ougandais, tanzanien), FRw et FBu (francs rwandais et burundais), FC (franc congolais),
+  // Db (dobra), Kz (kwanza), K et MK (kwachas zambien et malawite), MT (metical), ZiG (Zimbabwe
+  // Gold), P (pula), N$ (dollar namibien), R (rand), E (lilangeni), L (loti, pluriel maloti « M »),
+  // CF (franc comorien), Ar (ariary), Rs (roupie mauricienne) et SR (roupie seychelloise). Plusieurs
+  // lettres isolées (K, L, E, P, R) sont ambiguës seules : toujours affichées avec leur code.
+  var CURRENCY_GLYPH = { EUR: '€', CHF: 'Fr.', GBP: '£', CZK: 'Kč', PLN: 'zł', HUF: 'Ft', BAM: 'KM', DKK: 'kr', NOK: 'kr', SEK: 'kr', ALL: 'L', RSD: 'дин.', MKD: 'ден', RON: 'lei', ISK: 'kr', GIP: '£', MDL: 'L', BYN: 'Br', UAH: '₴', TRY: '₺', GEL: '₾', AMD: '֏', AZN: '₼', SYP: 'ل.س', LBP: 'LL', ILS: '₪', JOD: 'JD', EGP: 'LE', LYD: 'ل.د', MAD: 'د.م.', DZD: 'د.ج', TND: 'د.ت', XOF: 'F CFA', MRU: 'UM', GMD: 'D', CVE: 'CVE', GNF: 'FG', SLE: 'Le', LRD: 'L$', GHS: '₵', XAF: 'F CFA', NGN: '₦', SDG: 'ج.س.', SSP: 'SSP', ERN: 'Nfk', ETB: 'Br', DJF: 'Fdj', SOS: 'Sh.So.', KES: 'KSh', UGX: 'USh', TZS: 'TSh', RWF: 'FRw', BIF: 'FBu', CDF: 'FC', STN: 'Db', AOA: 'Kz', ZMW: 'K', MWK: 'MK', MZN: 'MT', ZWG: 'ZiG', BWP: 'P', NAD: 'N$', ZAR: 'R', SZL: 'E', LSL: 'L', KMF: 'CF', MGA: 'Ar', MUR: 'Rs', SCR: 'SR', SHP: '£', RUB: '₽' };
   // Devise choisie MANUELLEMENT par le visiteur (sélecteur de devise dans l'en-tête, voir plus bas
   // "SÉLECTEUR DE DEVISE") — null tant qu'il n'a rien choisi, ce qui laisse `countryCurrency`
   // continuer à suivre le pays de chaque commune comme avant (voir son commentaire juste après :
@@ -420,6 +433,7 @@
     clock:'<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
     plug:'<path d="M9 7V3M15 7V3M7 7h10v3a5 5 0 0 1-5 5 5 5 0 0 1-5-5V7Z"/><path d="M12 15v3M9 21h6"/>',
     toll:'<path d="M4 21V6a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v15M20 21V6a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v15"/><path d="M7 12l10-5M4 21h16"/>',
+    warn:'<path d="M12 3.5 2.5 20h19L12 3.5Z"/><path d="M12 10v4.5M12 17.2v.1"/>',
     ferry:'<path d="M4 18.5c1.4 1 2.9 1 4.3 0s2.9-1 4.3 0 2.9 1 4.3 0 2.9-1 4.3 0"/><path d="M5.2 18 6.5 11h9L19 18"/><path d="M12 11V4M12 4.5h3.5L13 7.5"/>',
     search:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
     check:'<path d="M5 12.5l4.5 4.5L19 7.5"/>',
@@ -984,7 +998,8 @@
     againBtn: document.getElementById('again-btn'),
     launchBtn: document.getElementById('launch-btn'),
     tollToggle: document.getElementById('toll-toggle'),
-    ferryToggle: document.getElementById('ferry-toggle')
+    ferryToggle: document.getElementById('ferry-toggle'),
+    tensionToggle: document.getElementById('tension-toggle')
   };
 
   // Une commune réelle différente à chaque chargement de la page plutôt qu'un exemple toujours
@@ -1910,8 +1925,24 @@
   }
 
   /* ---------- RENDER: DAYS ---------- */
+  // Niveau de tension du point de départ du dernier tirage (voir departureTension dans
+  // /api/generate-trip) — conservé ici pour que renderDays le réaffiche au changement de langue.
+  var lastDepartureTension = null;
+  // Avertissement « zone à tension » (France Diplomatie) : rouge = formellement déconseillé, orange =
+  // déconseillé sauf raison impérative. Le libellé est traduit ; le lien mène à la fiche officielle.
+  function tensionRowHtml(tension, textKey){
+    var link = tension.source ? ' <a href="'+tension.source+'" target="_blank" rel="noopener">'+t('tension.link')+'</a>' : '';
+    return icon('warn') + '<span><span class="lbl">'+t('tension.label')+'</span>'+t(textKey)+link+'</span>';
+  }
+
   function renderDays(legs, city){
     els.days.innerHTML = '';
+    if(lastDepartureTension){
+      var depWarn = document.createElement('div');
+      depWarn.className = 'day-row tension-row tension-' + lastDepartureTension.level;
+      depWarn.innerHTML = tensionRowHtml(lastDepartureTension, 'tension.departure');
+      els.days.appendChild(depWarn);
+    }
     var totalKm = 0;
     legs.forEach(function(leg){ totalKm += leg.distanceKm || 0; });
     // Un seul rappel de vignette PAR PAYS pour tout l'itinéraire (pas à chaque jour/étape qui y
@@ -2039,6 +2070,12 @@
         var tollTxt = t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: amountTxt, barrier: barrierTxt, min: ti.savedMin});
         tollRow.innerHTML = icon('toll') + '<span><span class="lbl">'+t('toll.label')+'</span>'+tollTxt+'</span>';
         body.appendChild(tollRow);
+      }
+      if(firstLeg.tension && !firstLeg.isReturn){
+        var tensionRow = document.createElement('div');
+        tensionRow.className = 'day-row tension-row tension-' + firstLeg.tension.level;
+        tensionRow.innerHTML = tensionRowHtml(firstLeg.tension, firstLeg.tension.level === 'red' ? 'tension.red' : 'tension.orange');
+        body.appendChild(tensionRow);
       }
       if(firstLeg.ferryInfo){
         var fi = firstLeg.ferryInfo;
@@ -2447,6 +2484,7 @@
           departureCity: { name: selectedCity.name, cp: selectedCity.cp, allCps: selectedCity.allCps, lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept, country: selectedCity.country },
           days: days, budgetKey: budgetKey, transportKey: transportKey,
           tollEnabled: tollEnabled, ferryEnabled: ferryEnabled, avoidTent: avoidTent,
+          avoidTension: els.tensionToggle.checked,
           tripStart: els.dateStart.value, maxRadiusKm: maxRadiusKm, avoidNorm: lastNorm,
           minDistanceKm: minDistanceKm, maxDistanceKm: maxDistanceKm,
           minDaysPerCity: minDaysPerCity, maxDaysPerCity: maxDaysPerCity,
@@ -2459,6 +2497,11 @@
       }
       var data = await resp.json();
       legs = data.legs || [];
+      lastDepartureTension = data.departureTension || null;
+      if(legs.length === 0 && data.tensionBlocked){
+        showCityError(t('error.tensionBlocked'));
+        return;
+      }
     } catch(err){
       showCityError(t('error.routeImpossible'));
       return;

@@ -1,0 +1,20 @@
+ar;سيبيتي;Sibiti
+ar;بوانت نوار;Pointe-Noire
+ar;أوواندو;Owando
+en;Ouésso;Ouesso
+pt;Ouésso;Ouesso
+fr;Ouésso;Ouesso
+ar;أويسو;Ouesso
+ar;مادينغو;Madingou
+kg;Dolizi;Dolisie
+ar;دوليسي;Dolisie
+ar;لوانغو;Loango
+ar;كينكالا;Kinkala
+ar;إمبفوندو;Impfondo
+ar;إيوو;Ewo
+ar;أتومبي;Etoumbi
+ar;جامبالا;Djambala
+fr;Divenie;Divenié
+fr;Divénié;Divenié
+ar;برازافيل;Brazzaville
+kg;Braza;Brazzaville

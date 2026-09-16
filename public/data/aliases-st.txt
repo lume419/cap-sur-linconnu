@@ -1,0 +1,123 @@
+pt;Vila Coneição;Vila Conceição
+pt;Val Carmo;Vale Carmo
+pt;Ubabudo;Ubabudo Praia
+pt;Ubabúdo;Ubabudo Praia
+pt;Uba Budo Praia;Ubabudo Praia
+es;Santo Tomé;São Tomé
+nl;Sao Tomé;São Tomé
+sw;Sao Tome;São Tomé
+ar;ساو تومي;São Tomé
+kg;Sao Tome;São Tomé
+pt;São Paolo;São Paulo
+pt;Sao Manuel;São Manuel
+pt;Sao Luis;São Luís
+pt;São Luis;São Luís
+pt;São José;Vila José
+ar;سانتو أنطونيو;Santo António
+es;Santo Antonio;Santo António
+pt;Santo Antonio;Santo António
+sw;Santo Antonio;Santo António
+pt;Santarém Catanhede;Santo André
+pt;Sant’Elmo;Santelmo
+pt;Sant Elmo;Santelmo
+pt;Santarem;Santarém
+pt;Aragão;Santarém
+pt;Santa Iréne;Santa Irene
+pt;Santa Irene;Vila Irene
+pt;Santa Clotilde;Vila Clotilde
+pt;Cecilia;Santa Cecília
+pt;Rio Leca;Rio Leça
+pt;Rio do Ouro;Agostinho Neto
+pt;Quingué;Alenquer
+pt;Quimpo I;Quimpo Um
+pt;Platô Café;Plateau
+pt;Plancas I;Plancas
+pt;Plancas Um;Plancas
+pt;Perseveranca;Perseverança
+pt;N'xumbí;Zumbi
+pt;Novo Braxil;Novo Brasil
+pt;Nova Ceilao;Nova Ceilão
+pt;Nova Celão;Nova Ceilão
+pt;Nazaré;Praia Nazaré
+pt;M. Vilela;Morro Vilela
+pt;Mulondo;Mulundo
+pt;M. Peixe;Morro Peixe
+pt;Montes Herminios;Montes Hermínios
+pt;Montes Herminos;Montes Hermínios
+pt;Monteforte;Monte Forte
+pt;Montebelo;Monte Belo
+pt;Matocana;Mato Cana
+pt;Madalenna;Madalena
+pt;Lemba;Lembá
+pt;Guégue Novo;Monserrate
+pt;Guayaquil;Guaiaquil
+pt;Bratidao;Gratidão
+pt;F. Mantero;Francisco Mantero
+pt;Dona Eugènia;Dona Eugénia
+pt;Dona Eugenia;Dona Eugénia
+pt;Chamico;Chamiço
+pt;Caldeira;Caldeiras
+pt;Cadao;Cadão
+pt;Uba Budo;Ubabudo
+pt;Bombon;Bombom
+pt;Bom Bom;Bombom
+pt;Binda;Bindá
+pt;B. Faro;Bernardo Faro
+pt;Benfica;Bemfica
+pt;António Dias;São Lourenço
+pt;Amparo II;Amparo Dois
+pt;Amparo Um;Amparo
+pt;Amparo I;Amparo
+pt;Aguã Ize;Água Izé
+pt;Agua Ize;Água Izé
+pt;A. Andrade;Anselmo Andrade
+pt;Oquê Daniel;Oquê-Daniel
+pt;Sao Oscar;São Oscar
+pt;Jose Luis;José Luís
+pt;Agua Sampaio;Água Sampaio
+pt;Aguã Sampaio;Água Sampaio
+pt;Antonio Morais;António Morais
+pt;Praia da Ribeira Palma;Ribeira Palma Praia
+pt;Nunes de Oliveiro;Nunes de Oliveira
+pt;Cachoeiro;Cachoeira
+pt;Monte Mario;Monte Mário
+pt;Wily;Willy
+pt;Praia de Monte Mario;Praia de Monte Mário
+pt;Maria Luisa;Maria Luiza
+pt;Aguã Belas;Águas Belas
+pt;Manuel Carroca;Manuel Caroça
+pt;Aguã João;Água João
+pt;Água Tomé;Vila Celeste
+pt;Casteloo;Castelo
+pt;Budo-Budo;Budo Budo
+pt;Marlene;Marilene
+pt;Clara Dia;Clara Dias
+pt;Santo António II;Santo António Dois
+pt;Roca Nova;Roça Nova
+pt;Alianca;Aliança
+pt;Rosario;Rosário
+pt;Água Casada Praia;Água Casada
+pt;Uba Cabra;Ubacabra
+pt;Mulembu;Mulembú
+pt;Bomretiro;Bom Retiro
+pt;Monco;Mongo
+pt;Larangeiras;Laranjeiras
+pt;Ubamelade;Ubametade
+pt;Mulembu;Tenda Grande
+pt;Vale Prazeres;Vale de Prazeres
+pt;Santa Luísa;Santa Luzia
+pt;Santa Izabel;Santa Isabel
+pt;Oquê Delrei;Oqué-del-Rei
+pt;Uba Budo Velho;Ubabudo Velho
+pt;Vale Flore;Vale Flor
+pt;Quilemba;Quilembá
+pt;Victoria Quilemba;Quilembá
+pt;Praia Melao;Praia Melão
+pt;Quimpo II;Quimpo Dois
+pt;Frederico;São Frederico
+pt;Mateus Sampao;Mateus Sampaio
+pt;Ubá;Uba
+pt;Sao Joao;São João
+pt;Sao Pedro;São Pedro
+pt;Guegue Velho;Guegue
+pt;Plancas II;Plancas Dois

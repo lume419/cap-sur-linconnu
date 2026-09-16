@@ -1,0 +1,28 @@
+ar;تمارين;Tamarin
+ar;سويلاك;Souillac
+ar;روز بيل;Rose Belle
+en;Riviere du Rempart;Rivière du Rempart
+ar;ريفيير دو رمبار;Rivière du Rempart
+es;Riviere du Rempart;Rivière du Rempart
+fr;Riviere du Rempart;Rivière du Rempart
+de;Riviere du Rempart;Rivière du Rempart
+pt;Riviere du Rempart;Rivière du Rempart
+sw;Riviere du Rempart;Rivière du Rempart
+ar;كوارتير ميليتير;Quartier Militaire
+fr;Port-Louis;Port Louis
+es;Puerto Louis;Port Louis
+ar;بور لويس;Port Louis
+ar;بامبلموس;Pamplemousses
+pt;Mahebourg;Mahébourg
+af;Grand-Baie;Grand Baie
+ar;غراند باي;Grand Baie
+ar;كوريبيب;Curepipe
+ar;مركز دي فلاك;Centre de Flacq
+fr;Villes sœurs;Beau Bassin-Rose Hill
+ar;بو باسين - روز هيل;Beau Bassin-Rose Hill
+ar;بامبوس;Bambous
+en;Ebene CyberCity;Ebene
+en;Ebene City;Ebene
+ar;بورت ماثورين;Port Mathurin
+ar;كارجادوس كاراخوس;Cargados Carajos
+ar;فينت سينك;Vingt Cinq

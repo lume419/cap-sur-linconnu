@@ -1,0 +1,45 @@
+22881;55.4550,-4.6200;SC-26;La Rivière Anglaise;Victoria
+2580;55.5000,-4.7667;SC-23;Takamaka;Takamaka
+3243;55.4184,-4.6626;SC-27;Port Glaud;Port Glaud
+4140;55.4667,-4.6667;SC-24;Grand Anse Mahe;Grand'Anse
+0;55.4457,-4.5652;SC-12;Glacis;Machabee
+0;55.4833,-4.7167;SC-02;Anse Boileau;L’Espérance
+3934;55.8353,-4.3554;SC-25;La Digue and Inner Islands;La Digue
+0;55.4569,-4.6026;SC-03;Anse Etoile;De Quincey Village
+7263;55.4995,-4.6692;SC-11;Cascade;Cascade
+4163;55.4167,-4.6167;SC-10;Bel Ombre;Bel Ombre
+4142;55.4301,-4.6209;SC-08;Beau Vallon;Beau Vallon
+0;55.7333,-4.3167;SC-07;Baie Sainte Anne;Anse Volbert Village
+3818;55.5167,-4.7333;SC-05;Anse Royale;Anse Royale
+4183;55.4833,-4.7167;SC-02;Anse Boileau;Anse Boileau
+5063;55.7534,-4.3200;SC-07;Baie Sainte Anne;Baie Sainte Anne
+149;55.6845,-4.3052;SC-14;Grand Anse Praslin;Anse Kerlan
+4344;55.7221,-4.3311;SC-14;Grand Anse Praslin;Grand'Anse
+200;55.2526,-4.4860;SC-11876017;Outer Islands;Silhouette Island
+4685;55.5220,-4.6860;SC-01;Anse-aux-Pins;Anse aux Pins
+3750;55.5131,-4.6732;SC-20;Pointe La Rue;Pointe La Rue
+4795;55.4754,-4.7497;SC-06;Baie Lazare;Baie Lazare
+0;55.5101,-4.7787;SC-23;Takamaka;Quatre Bornes de Takamaka
+0;55.5242,-4.7283;SC-28;Au Cap;Pointe Au Sel
+0;55.8327,-4.3481;SC-25;La Digue and Inner Islands;La Passe
+60;55.4928,-4.6311;SC-18;Mont Fleuri;Ile au Cerf
+0;55.5211,-4.6808;SC;;Pointe La Rue
+4496;55.4368,-4.5758;SC-12;Glacis;Glacis
+0;55.4462,-4.5909;SC-03;Anse Etoile;La Gouge
+15;55.4522,-4.5909;SC-03;Anse Etoile;Maldive Village
+210;55.7025,-4.2958;SC-07;Baie Sainte Anne;Anse Lazio
+0;55.7601,-4.3304;SC-07;Baie Sainte Anne;Cap Samy
+8;53.3167,-5.7667;SC-29;Les Mamelles;Poivre Nord
+0;55.5034,-4.6394;SC-18;Mont Fleuri;South Point
+0;55.4643,-4.6588;SC-19;Plaisance;Fairview
+3828;55.4688,-4.6401;SC-30;Roche Caiman;Roche Caïman
+152;55.2441,-4.3934;SC-11876017;Outer Islands;North Island
+6209;55.4643,-4.6044;SC;;Perseverance
+4236;55.4547,-4.6136;SC-26;La Rivière Anglaise;English River
+60;53.6709,-5.6903;SC-02;Anse Boileau;Desroches
+4;55.3833,-5.8635;SC-10;Bel Ombre;Platte Island
+12;46.4720,-9.4228;SC;;Aldabra
+20;46.5128,-9.7346;SC;;Assumption
+0;51.1620,-10.1216;SC;;Farquhar
+0;56.2727,-7.1355;SC-11876017;Outer Islands;Coetivy
+0;55.4321,-4.5917;SC-08;Beau Vallon;Victoria - Mahe

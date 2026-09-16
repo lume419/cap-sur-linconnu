@@ -1,0 +1,47 @@
+en;Waigala;Waiga
+en;Tira;Tiira
+en;Sukulu;Osukuru
+en;Peta;Petta
+en;Puranga;Putanga
+nl;Puranga;Putanga
+en;Nyambogo;Nambogo
+en;Njokero;Ndhokelo
+en;Nakirimira;Nakimira
+en;Najembe;Najjembe
+en;Naja;Najja
+en;Nabulesa;Namulesa
+en;Mubumba;Mutumba
+ar;مبارارا;Mbarara
+en;Makutu;Makuutu
+en;Lwankoli;Lwangoli
+en;Lwangosia;Lwangosya
+en;Luwala;Luwala Estate
+en;Lugalambo Estate;Lugalambo
+en;Kyanyunja;Syanyunja
+en;Kiyunga;Kiyanga
+en;Kiyonga;Kiyanga
+lg;Kisiizi;Kisizi
+en;Kirewe;Kiriwe
+sw;Kihiihi;Kihihi
+lg;Kihiihi;Kihihi
+pt;Campala;Kampala
+ar;كامبالا;Kampala
+xh;IKampala;Kampala
+ar;كمبالا;Kampala
+ar;جينجا;Jinja
+ar;جولو;Gulu
+en;Gangu;Ggangu
+ar;إنتيبي;Entebbe
+en;Emerikit;Merikit
+en;Buluba;Buluuba
+en;Bukulubya;Bukaleba
+en;Biemba;Buyemba
+en;Apoli;Papoli
+en;Abwel;Abweli
+en;Mubango Estate;Mubango
+en;Arua;Abarua
+fr;Arua;Abarua
+de;Arua;Abarua
+en;Lweza;Lweeza
+en;Kabarega Falls;Murchison Falls
+ar;بونيامويرا;Bunyamwera

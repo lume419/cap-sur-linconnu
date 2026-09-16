@@ -1,0 +1,130 @@
+ar;يانغامبي;Yangambi
+fr;Wali;Walu
+fr;Tshumbi;Tsumbi
+ar;تشيكابا;Tshikapa
+fr;Tokoleko;Tokoleku
+fr;Takumandala;Takumandza
+fr;Sudjiabu;Sudjiabo
+fr;Peteka;Peleka
+fr;Ofay;Ofai
+fr;Atunukve;Ofai
+fr;Nzabi;Nzebi
+fr;Nyakunde;Niakunde
+fr;Ngeleza;Ngelesa
+fr;Mongbwalu;Mangbwalu
+fr;Mongbwala;Mangbwalu
+en;Moba;Baudhuinville
+en;Virungu;Baudhuinville
+en;Baudouinville;Baudhuinville
+ar;مبوجي ماي;Mbuji-Mayi
+fr;Marabu;Mayaribu
+fr;Mambafifi;Manhafifi
+ar;لوسامبو;Lusambo
+fr;Luengba;Luengbe
+fr;Lowa;Lolwa
+en;Lingomo;Lingomo Deuxième
+nl;Lingomo;Lingomo Deuxième
+fr;Lilenga Deuxième;Lilenga II
+fr;Lilenga Première;Lilenga
+fr;Kundala;Kundalakundala
+fr;Komande;Komanda
+ln;Kisangáni;Kisangani
+ar;كيسانجاني;Kisangani
+ar;كيندو;Kindu
+en;Kingalata;Kimbalata
+sw;Kanyabayonga;Kanyobagonga
+en;Kanyabayonga;Kanyobagonga
+zu;Kanyabayonga;Kanyobagonga
+fr;Kanyabayonga;Kanyobagonga
+nl;Kanyabayonga;Kanyobagonga
+en;Kaniama;Kanyama
+ar;كانانغا;Kananga
+ar;كامينا;Kamina
+ar;كابيندا;Kabinda
+ar;إيزيرو;Isiro
+ar;غوما;Goma
+ar;جبادوليت;Gbadolite
+fr;Dwana-Nzuri;Dwana
+en;Djokupunda;Ndjoko-Punda
+fr;Djokupunda;Ndjoko-Punda
+nl;Djokupunda;Ndjoko-Punda
+fr;Daini II;Dani II
+fr;Daini I;Dani Première
+fr;Dain;Dani Première
+ar;بوتا;Buta
+ln;Búnya;Bunia
+ar;بونيا;Bunia
+ar;بومبا;Bumba
+ar;بوكافو;Bukavu
+ar;بويندي;Boende
+ar;أنكورو;Ankoro
+ln;Akétí;Aketi
+ar;أكيتي;Aketi
+ar;لوبومباشي;Lubumbashi
+nl;Jadotstad;Likasi
+ar;ليكاسي;Likasi
+ar;كيبوشي;Kipushi
+en;Katanga Province;Katanga
+it;Provincia del Katanga;Katanga
+ar;مقاطعة كاتانغا;Katanga
+fr;Sombo;Gombo
+fr;Gele;Ngele
+fr;Ngbwanda;Nguwanda
+ar;موشي;Mushie
+fr;Moniongo;Maniongo
+fr;Milombo;Milombe
+ln;Mbándáká;Mbandaka
+ar;مباندكا;Mbandaka
+ln;Matádi;Matadi
+ar;ماتادي;Matadi
+fr;Likaw III;Likaw
+fr;Likaw Deuxième;Likaw
+fr;Likaw I;Likaw Première
+fr;Likaw;Likaw Première
+fr;Libodi;Libobi
+ln;Líbɛngɛ;Libenge
+ar;ليبنغي;Libenge
+es;Kinsasa;Kinshasa
+kg;Kinsasa;Kinshasa
+pt;Quinxassa;Kinshasa
+ln;Kinsásá;Kinshasa
+ar;كينشاسا;Kinshasa
+ar;كيكويت;Kikwit
+fr;Jeba;Modjeba
+ar;إينونجو;Inongo
+ar;جيمينا;Gemena
+fr;Boso-Nganza;Busu-Nganza
+fr;Busu-Mopea;Busu-Mopia
+fr;Busu-Masuka;Masuka
+fr;Bopeke;Bopeka-Rive
+fr;Bopeka;Bopeka-Rive
+fr;Bongo I;Bongo Première
+fr;Bodangania;Bondangania
+fr;Bondania;Bondama
+kg;Mboma;Boma
+ln;Bóma;Boma
+ar;بوما;Boma
+fr;Bolambu;Bolumba
+fr;Bolemo II;Bolemo Deuxième
+fr;Bogbulunu;Bogbulumu
+fr;Bodiawa;Bodiewa
+fr;Batanga;Batangu
+ar;باسنكوسو;Basankusu
+fr;Bangabula;Bangabola
+fr;Bandundu;Bandundu Province
+kg;Bandundu;Bandundu Province
+nl;Bandundu;Bandundu Province
+it;Provincia di Bandundu;Bandundu Province
+ar;بانداندو;Bandundu Province
+es;Provincia de Bandundu;Bandundu Province
+de;Provinz Bandundu;Bandundu Province
+pt;Província de Bandundu;Bandundu Province
+sw;Mkoa wa Bandundu;Bandundu Province
+sw;Kintoni;Kinfoni
+en;Kintoni;Kinfoni
+fr;Kintoni;Kinfoni
+nl;Kintoni;Kinfoni
+fr;Bowafio II;Bowafio Deuxième
+fr;Busu-Gwandi I;Busu-Gwandi Première
+fr;Yamangele Première;Yamangele
+fr;Yamangele Deuxième;Yamangele II

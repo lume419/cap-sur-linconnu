@@ -29,7 +29,7 @@ for(const country of COUNTRIES){
   fs.readFileSync(communesPath, 'utf8').split('\n').filter(Boolean).forEach(line => {
     const parts = line.split(';');
     const lonlat = parts[1].split(',');
-    const key = norm(parts[4]) + '|' + parseFloat(lonlat[1]).toFixed(2) + '|' + parseFloat(lonlat[0]).toFixed(2);
+    const key = norm(parts[4]) + '|' + parseFloat(lonlat[1]).toFixed(4) + '|' + parseFloat(lonlat[0]).toFixed(4);
     published.set(key, parts[4]);
   });
 
@@ -41,7 +41,7 @@ for(const country of COUNTRIES){
     .forEach(c => {
       const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
       if(isNaN(lat) || isNaN(lon)) return;
-      const key = norm(c[1]) + '|' + lat.toFixed(2) + '|' + lon.toFixed(2);
+      const key = norm(c[1]) + '|' + lat.toFixed(4) + '|' + lon.toFixed(4);
       if(published.has(key)) canonicalByGeonameId.set(c[0], published.get(key));
     });
 

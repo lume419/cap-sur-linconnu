@@ -203,6 +203,7 @@ ak;Mankessim;Mankesim
 fr;Mankessim;Mankesim
 nl;Mankessim;Mankesim
 es;Mankessim;Mankesim
+en;Manesuso;Kofigyamekurom
 en;Mamponso;Mammposo
 en;Mampong;Mampon
 en;Mampehia;Maampehia
@@ -331,6 +332,7 @@ en;Domeabra;Domiabra
 nl;Domeabra;Domiabra
 en;Domiabra;Domeabra
 en;Dom;Dome
+en;Doborogonno;Doblogonno
 en;Diawuoso;Diewieso
 en;Datan;Okrakurom
 ha;Dadieso;Dadeeso
@@ -397,6 +399,10 @@ en;Badowa Number 1;Badowa Number One
 en;Bababra;Koforidua
 en;Ayensua Fufuo;Ayensuafufuo
 en;Ayaso;Ayasu
+tw;Ayanfuri;Ayamfor
+ha;Ayanfuri;Ayamfor
+ak;Ayanfuri;Ayamfor
+nl;Ayanfuri;Ayamfor
 en;Tutuma;Atuntuma
 en;Atuna;Nkyekyemamu
 en;Atrakaso;Adrekezo
@@ -530,6 +536,7 @@ ar;أكرا;Accra
 ak;Nkran;Accra
 en;Abrikaso;Abibireso
 en;Abrekuma;Ablekuma
+en;Abrodziuram;Abrawdiwurem
 en;Aboabo Duana;Aboabo Number Three
 en;Aduana;Aboabo Number Three
 en;Aboabo Number 3;Aboabo Number Three
@@ -682,6 +689,7 @@ en;Fifikrom;Ofirikurom
 en;Mofranfajwin;Oforikurom
 en;Kasadufri;Kasayeadifuoe
 en;Nkrommakurom Number 1;Nkrommakurom Number One
+en;Nkrommakurom Number 2;Nkrommakurom Number Two
 en;Nyamebekyere Number 2;Nyamebekyere Number Two
 en;Mradani;Mmeredane
 en;Obookurom Number 1;Obookurom Number One
@@ -737,6 +745,7 @@ en;Kakawakrom;Kakokrom
 en;Dompem Number 2;Dompem Number Two
 en;Kumasi;Kumase
 en;Asem Asa Number 2;Asem Asa Number Two
+en;Poano;Epawano
 en;Bronyikrom;Boronyikrom
 en;Daboase Nkwanta Number 1;Daboase Nkwanta Number One
 en;Sekundi;Sekondi
@@ -764,6 +773,8 @@ en;Nyamso;Apitikokoo
 en;Kofiwikrom;Kofiwikurom
 en;Kwabrafaso;Kwiabrafoso
 en;Asasi;Feti
+en;Adiemmra Number 1;Adiemmra Number One
+en;Adiembra;Adiemmra Number One
 en;Apitiso Number 1;Apitiso Number One
 en;Apitiso;Apitiso Number One
 en;Mensakurom Number 1;Mensakurom Number One
@@ -888,8 +899,6 @@ en;Anoanamasa;Enumasa
 en;Wari Village Number 2;Wari Village Number Two
 en;Afutu;Efutu
 en;Abuabo;Aboabo
-en;Wari Village Number One;Wari Village Number Two
-en;Wari Village Number 1;Wari Village Number Two
 en;Sradookrom;Ahinkrom
 en;Papakrom;Pepekrom
 en;Ajakamado;Ajankamado
@@ -1050,6 +1059,7 @@ en;Bikyeme;Bichem
 en;Nkwanta Number 2;Nkwanta Number Two
 en;Pebease Number 2;Pebease Number Two
 en;Pebasi;Pebease Number Two
+en;Bodeekrom;Domeabra
 en;Boadikrom;Tumeantu
 en;Kwesi Ponkrom;Poaso
 en;Pasro Number 2;Pasro Number Two
@@ -1269,6 +1279,7 @@ en;Mile Three Number 2;Mile Three Number Two
 en;Mile Three Number 1;Mile Three Number One
 en;Manhyia Number 2;Manhyia Number Two
 en;Beposo Number 2;Beposo Number Two
+en;Beposo Number 1;Beposo Number One
 en;Kuabenampekrom;Asukese
 en;Wamano Two;Kwasikonto
 en;Aponaponoso Number 1;Aponaponoso Number One

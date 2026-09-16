@@ -1,0 +1,64 @@
+3147;42.1064,11.5114;DJ-06;Dikhil;Yoboki
+3879;42.8553,11.5031;DJ-07;Djibouti;Ouê‘a
+0;42.0572,11.4383;DJ-06;Dikhil;Tew‘o
+19533;42.8822,11.7878;DJ-05;Tadjourah;Tadjoura
+0;43.1890,12.3622;DJ-04;Obock;Sêdorre
+2055;42.6606,11.8469;DJ-05;Tadjourah;Randa
+15429;43.2884,11.9669;DJ-04;Obock;Obock
+0;42.4333,12.3000;DJ-05;Tadjourah;Moudo
+4000;43.0261,11.9731;DJ-04;Obock;Médého
+1646;43.2528,11.4611;DJ-07;Djibouti;Loyada
+3500;43.3347,12.3872;DJ-04;Obock;Khôr Angar
+0;43.1367,11.5694;DJ-07;Djibouti;Ambouli
+3519;42.9294,11.3103;DJ-01;Ali Sabieh;Holhol
+0;42.9833,11.4167;DJ-01;Ali Sabieh;Goubéto
+1873;42.4762,12.1503;DJ-05;Tadjourah;Dorra
+626512;43.1450,11.5890;DJ-07;Djibouti;Djibouti
+32801;42.3697,11.1045;DJ-06;Dikhil;Dikhil
+300;42.9333,11.1833;DJ-01;Ali Sabieh;Ḏânan
+0;42.7105,12.3793;DJ-04;Obock;Dadda’to
+0;42.6736,11.8228;DJ-05;Tadjourah;Bankoualé
+0;42.1955,12.0579;DJ-05;Tadjourah;Balho
+5173;42.1025,11.0036;DJ-06;Dikhil;‘As ‘Êla
+17477;42.8519,11.5264;DJ-08;Arta;Arta
+50006;42.7125,11.1558;DJ-01;Ali Sabieh;Ali Sabih
+3700;42.8858,11.1333;DJ-01;Ali Sabieh;‘Ali ‘Addé
+1023;42.6519,11.7703;DJ-05;Tadjourah;Airolaf
+0;42.6867,11.6906;DJ-05;Tadjourah;Ouê‘a
+0;42.8144,11.7511;DJ-05;Tadjourah;Ambabbo
+0;42.9733,12.6450;DJ-04;Obock;Bissîdiro
+1456;42.8956,12.4217;DJ-04;Obock;Alaïli Ḏaḏḏa‘
+5115;43.1872,11.4856;DJ-07;Djibouti;Damêrdjôg
+2003;43.0003,11.4239;DJ-01;Ali Sabieh;Goubétto
+1849;41.8361,11.7158;DJ-06;Dikhil;Gâlâfi
+0;42.8533,11.2975;DJ-01;Ali Sabieh;Ḏigri
+0;43.3556,12.2869;DJ-04;Obock;Gaherré
+0;43.2000,12.5917;DJ-04;Obock;Moulhoulé
+1161;41.9619,11.0161;DJ-06;Dikhil;Koûta Boûyya
+554350;43.1067,11.5619;DJ-07;Djibouti;Balbala
+3500;42.9264,12.3544;DJ-04;Obock;Waddi
+930;42.2170,11.3043;DJ-06;Dikhil;Gorabous
+0;42.8413,10.9891;DJ-01;Ali Sabieh;Vasama
+0;42.5000,11.1667;DJ-06;Dikhil;Mouloud
+720;43.0753,11.4895;DJ-01;Ali Sabieh;Chabelley
+867;42.9053,11.9519;DJ-05;Tadjourah;Adailou
+501;43.1415,11.3915;DJ-01;Ali Sabieh;Ali Oune
+0;42.9867,12.4840;DJ-04;Obock;Andali
+0;42.6479,11.9584;DJ-05;Tadjourah;Adoyla
+363;42.9418,11.3527;DJ-01;Ali Sabieh;Anaba
+672;42.8280,11.3853;DJ-01;Ali Sabieh;Assa Hougoud
+230;42.3634,12.3680;DJ-05;Tadjourah;Bouyya
+170;42.4063,11.5229;DJ-06;Dikhil;Koussour Koussour
+0;42.7854,12.0490;DJ-05;Tadjourah;Guirrari
+0;43.3022,12.4535;DJ-04;Obock;Fagal
+1512;42.9374,12.1248;DJ-04;Obock;Egahlou
+153;42.6582,11.2139;DJ-06;Dikhil;Doudoub Bolole
+0;42.4021,11.5736;DJ-06;Dikhil;Debne
+1750;42.7988,11.2527;DJ-01;Ali Sabieh;Dasbiyo
+0;42.1536,11.7583;DJ-06;Dikhil;Daoudaouga
+0;42.1158,11.5449;DJ-06;Dikhil;Dagguirou
+0;43.1434,12.3651;DJ-04;Obock;La`assa
+0;42.4763,12.3550;DJ-05;Tadjourah;Madgoul
+0;42.2098,12.0989;DJ-05;Tadjourah;Malaho
+0;42.6899,11.6800;DJ-05;Tadjourah;Oued Ouea
+0;42.8478,12.4575;DJ-04;Obock;Ribta

@@ -1,0 +1,8 @@
+300;16.7201,77.9003;9175;Svalbard;Sveagruva
+113;15.5912,78.2018;9170;Svalbard;Nybyen
+2368;15.6469,78.2233;9170;Svalbard;Longyearbyen
+0;15.6298,78.2143;9170;Svalbard;Haugen
+297;14.2117,78.0644;9178;Svalbard;Barentsburg
+0;-8.6380,70.9498;8099;Jan Mayen;Jan Mayen
+14;-8.7187,70.9221;8099;Jan Mayen;Olonkinbyen
+35;11.9250,78.9237;9173;Svalbard;Ny-Ålesund

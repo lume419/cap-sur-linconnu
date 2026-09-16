@@ -1,0 +1,554 @@
+0;6.6760,0.3189;ST-02;São Tomé Island;Vista Alegre
+0;6.5490,0.1255;ST-02;São Tomé Island;Vila Verde
+0;6.5857,0.3405;ST-02;São Tomé Island;Vila Sara
+0;7.4218,1.6746;ST-01;Príncipe;Vila Rosa
+0;6.6848,0.2962;ST-02;São Tomé Island;Vila Moura
+0;6.5531,0.0529;ST-02;São Tomé Island;Vila Conceição
+0;6.6211,0.1626;ST-02;São Tomé Island;Vale Carmo
+0;6.6773,0.1783;ST-02;São Tomé Island;Urzelina
+0;6.7482,0.2692;ST-02;São Tomé Island;Ubabudo Praia
+0;7.3791,1.6302;ST-01;Príncipe;Uba
+0;6.6802,0.4037;ST-02;São Tomé Island;Triunfo
+0;6.6814,0.2967;ST-02;São Tomé Island;Trindade
+0;6.6015,0.2628;ST-02;São Tomé Island;Tras-os-Montes
+0;7.4604,1.6776;ST-01;Príncipe;Terra Firme
+468;7.3835,1.6683;ST-01;Príncipe;Sundi
+0;6.6345,0.1309;ST-02;São Tomé Island;Soledade
+0;7.3801,1.6378;ST-01;Príncipe;Sequeira
+0;6.6362,0.2888;ST-02;São Tomé Island;Saudade
+53300;6.7299,0.3376;ST-02;São Tomé Island;São Tomé
+0;6.6917,0.2830;ST-02;São Tomé Island;São Pedro
+0;6.6438,0.2061;ST-02;São Tomé Island;São Paulo
+118;6.6254,0.2801;ST-02;São Tomé Island;São Nicolau
+3;6.4871,0.1332;ST-02;São Tomé Island;São Miguel
+0;7.4026,1.6326;ST-01;Príncipe;São Mateus
+44;6.4822,0.2688;ST-02;São Tomé Island;São Manuel
+0;6.6078,0.3077;ST-02;São Tomé Island;São Luís
+0;7.3980,1.6349;ST-01;Príncipe;São José Picaté
+98;6.4989,0.2230;ST-02;São Tomé Island;São José
+0;6.5883,0.1192;ST-02;São Tomé Island;Vila José
+0;7.4023,1.6647;ST-01;Príncipe;São Jorge
+93;7.3770,1.6206;ST-01;Príncipe;São Joaquim
+0;7.4312,1.6440;ST-01;Príncipe;São João
+58;6.4825,0.2561;ST-02;São Tomé Island;São João
+0;6.6494,0.1342;ST-02;São Tomé Island;São João dos Angolares
+0;6.5424,0.0819;ST-02;São Tomé Island;São João
+0;7.3769,1.6732;ST-01;Príncipe;São Jerónimo
+0;6.6714,0.1999;ST-02;São Tomé Island;São Jerónimo
+0;6.6659,0.2498;ST-02;São Tomé Island;São Januário
+0;6.6418,0.3116;ST-02;São Tomé Island;São Francisco
+0;6.6502,0.1972;ST-02;São Tomé Island;São Francisco
+0;7.3855,1.6083;ST-01;Príncipe;São Carlos do Fundão
+0;7.4317,1.6249;ST-01;Príncipe;Santo Cristo
+1156;7.4195,1.6394;ST-01;Príncipe;Santo António
+0;7.4232,1.6475;ST-01;Príncipe;Santo António
+0;6.7262,0.2354;ST-02;São Tomé Island;Santo António
+0;6.6901,0.3332;ST-02;São Tomé Island;Santo André
+1063;6.6886,0.3657;ST-02;São Tomé Island;Santo Amaro
+0;6.6172,0.2064;ST-02;São Tomé Island;Santelmo
+278;7.3913,1.6197;ST-01;Príncipe;Santa Trindade
+0;7.4112,1.6736;ST-01;Príncipe;Santa Rita
+18;6.6849,0.3424;ST-02;São Tomé Island;Santarém
+0;7.4371,1.6643;ST-01;Príncipe;Santana
+0;6.7414,0.2542;ST-02;São Tomé Island;Santana
+17;6.5977,0.3425;ST-02;São Tomé Island;Santa Maria
+78;6.6580,0.3232;ST-02;São Tomé Island;Santa Margarida
+0;6.6201,0.3638;ST-02;São Tomé Island;Santa Luzia
+17;6.5286,0.0720;ST-02;São Tomé Island;Santa Josefina
+0;7.4039,1.6112;ST-01;Príncipe;Santa Joaquina
+0;7.4153,1.6482;ST-01;Príncipe;Santa Isabel
+0;6.5091,0.2186;ST-02;São Tomé Island;Santa Irene
+0;6.5864,0.0974;ST-02;São Tomé Island;Vila Irene
+0;6.6388,0.2714;ST-02;São Tomé Island;Santa Elvira
+191;6.6543,0.3340;ST-02;São Tomé Island;Santa Cruz
+0;6.6500,0.1333;ST-02;São Tomé Island;Santa Cruz
+91;6.4945,0.3035;ST-02;São Tomé Island;Santa Clotilde
+112;6.6898,0.2531;ST-02;São Tomé Island;Santa Clotilde
+0;6.5981,0.1106;ST-02;São Tomé Island;Vila Clotilde
+286;6.6164,0.3524;ST-02;São Tomé Island;Santa Clara
+0;6.6904,0.1863;ST-02;São Tomé Island;Santa Cecília
+169;6.4724,0.2716;ST-02;São Tomé Island;Santa Catarina
+0;6.6439,0.2682;ST-02;São Tomé Island;Santa Adelaide
+0;7.3884,1.6400;ST-01;Príncipe;Salomão
+2587;6.5695,0.3509;ST-02;São Tomé Island;Rosema
+0;6.6975,0.3252;ST-02;São Tomé Island;Rio Vouga
+27;6.5511,0.3484;ST-02;São Tomé Island;Rio Leça
+992;6.6440,0.3677;ST-02;São Tomé Island;Agostinho Neto
+12;6.4995,0.2657;ST-02;São Tomé Island;Rio Ave
+98;6.5748,0.3522;ST-02;São Tomé Island;Ribeira Palma
+0;7.4005,1.6830;ST-01;Príncipe;Ribeira Izé
+282;6.5775,0.3694;ST-02;São Tomé Island;Ribeira Funda
+0;7.4241,1.5890;ST-01;Príncipe;Ribeira Fria
+1300;6.7010,0.1960;ST-02;São Tomé Island;Ribeira Afonso
+0;6.6529,0.2852;ST-02;São Tomé Island;Alenquer
+0;6.7128,0.2501;ST-02;São Tomé Island;Quimpo Um
+0;6.6453,0.3350;ST-02;São Tomé Island;Queluz
+128;7.4279,1.6629;ST-01;Príncipe;Praia Inhame
+0;6.5765,0.0875;ST-02;São Tomé Island;Praia Grande
+6;6.6121,0.3779;ST-02;São Tomé Island;Praia das Conchas
+0;6.5591,0.3570;ST-02;São Tomé Island;Praia da Rosema
+795;6.5340,0.0345;ST-02;São Tomé Island;Porto Alegre
+0;6.5199,0.0769;ST-02;São Tomé Island;Portinho
+71;6.4772,0.2353;ST-02;São Tomé Island;Ponta Furada
+0;7.4219,1.6593;ST-01;Príncipe;Ponta Forte
+615;6.5438,0.3455;ST-02;São Tomé Island;Ponta Figo
+0;7.3807,1.6496;ST-01;Príncipe;Ponta do Sol
+0;6.6091,0.3278;ST-02;São Tomé Island;Poiso Alto
+0;6.6555,0.2690;ST-02;São Tomé Island;Plateau
+0;6.6058,0.3973;ST-02;São Tomé Island;Planca Segunda
+182;6.5955,0.3697;ST-02;São Tomé Island;Plancas
+0;6.6007,0.3931;ST-02;São Tomé Island;Planca Primeira
+0;6.7180,0.2872;ST-02;São Tomé Island;Pinheira
+0;7.4374,1.6348;ST-01;Príncipe;Piedade
+0;6.6143,0.0903;ST-02;São Tomé Island;Perseverança
+0;7.4213,1.6063;ST-01;Príncipe;Periquito
+0;7.4126,1.6785;ST-01;Príncipe;Paufita
+0;7.3798,1.6417;ST-01;Príncipe;Pau Cavalo
+0;7.4321,1.6716;ST-01;Príncipe;Paciencia
+0;7.4007,1.6434;ST-01;Príncipe;Oquê Três
+0;7.4160,1.6453;ST-01;Príncipe;Oquê Rosário
+0;7.4125,1.6469;ST-01;Príncipe;Oquê Gaspar
+0;6.5445,0.0663;ST-02;São Tomé Island;Zumbi
+168;6.6271,0.3209;ST-02;São Tomé Island;Novo Destino
+0;6.5578,0.0818;ST-02;São Tomé Island;Novo Brasil
+107;6.7333,0.2407;ST-02;São Tomé Island;Nova Olinda
+125;6.6330,0.2876;ST-02;São Tomé Island;Nova Moca
+222;7.4314,1.6186;ST-01;Príncipe;Nova Estrela
+0;7.4081,1.6390;ST-01;Príncipe;Nova Cuba
+0;7.4172,1.6075;ST-01;Príncipe;Nitreira
+0;7.3972,1.5494;ST-01;Príncipe;Neves Ferreira
+8391;6.5490,0.3567;ST-02;São Tomé Island;Neves
+0;6.5935,0.2724;ST-02;São Tomé Island;Nova Ceilão
+0;6.7118,0.3704;ST-02;São Tomé Island;Praia Nazaré
+0;6.5586,0.2867;ST-02;São Tomé Island;Morro Vilela
+0;6.5070,0.3063;ST-02;São Tomé Island;Mulundo
+0;6.6394,0.4026;ST-02;São Tomé Island;Morro Peixe
+0;6.5951,0.3238;ST-02;São Tomé Island;Morro Vigia
+0;6.6962,0.2423;ST-02;São Tomé Island;Montes Hermínios
+0;6.5167,0.1333;ST-02;São Tomé Island;Monte Rosa
+0;6.6682,0.2097;ST-02;São Tomé Island;Monte Raul
+0;7.4282,1.6150;ST-01;Príncipe;Monte Pedra
+87;6.5308,0.3397;ST-02;São Tomé Island;Monte Forte
+59;6.6011,0.3361;ST-02;São Tomé Island;Monte Carmo
+0;6.4943,0.2962;ST-02;São Tomé Island;Monte Carmo
+0;6.5791,0.1449;ST-02;São Tomé Island;Monte Carmo
+684;6.6398,0.3004;ST-02;São Tomé Island;Monte Café
+0;6.7041,0.2225;ST-02;São Tomé Island;Monte Belo
+0;7.4136,1.6656;ST-01;Príncipe;Montalvão
+0;7.3886,1.6332;ST-01;Príncipe;Montalegre
+0;6.6000,0.3333;ST-02;São Tomé Island;Mirante
+0;6.4992,0.2452;ST-02;São Tomé Island;Mirante
+463;6.6603,0.2796;ST-02;São Tomé Island;Milagrosa
+0;6.7018,0.2328;ST-02;São Tomé Island;Mato Cana
+0;7.3813,1.6354;ST-01;Príncipe;Máquina
+0;7.3830,1.6327;ST-01;Príncipe;Manuel Gomes
+0;7.3532,1.5988;ST-01;Príncipe;Mantero
+44;6.5231,0.0685;ST-02;São Tomé Island;Monte Alice
+220;6.6657,0.3293;ST-02;São Tomé Island;Madalena
+0;6.6224,0.2633;ST-02;São Tomé Island;Zampalma Velha
+1136;6.6985,0.2992;ST-02;São Tomé Island;Lemos
+395;6.4666,0.2500;ST-02;São Tomé Island;Lembá
+127;6.7018,0.2854;ST-02;São Tomé Island;Laura
+19;6.6518,0.2618;ST-02;São Tomé Island;Java
+0;7.3730,1.6409;ST-01;Príncipe;Iola
+0;6.6192,0.2150;ST-02;São Tomé Island;Ió Grande
+0;7.4122,1.5675;ST-01;Príncipe;Infante Dom Henrique
+0;6.5451,0.0519;ST-02;São Tomé Island;Monte Henrique
+0;6.5344,0.0728;ST-02;São Tomé Island;Gumbela
+104;6.7075,0.2728;ST-02;São Tomé Island;Monserrate
+0;6.6185,0.1961;ST-02;São Tomé Island;Guaiaquil
+0;6.5920,0.3466;ST-02;São Tomé Island;Guarda
+0;6.6375,0.3792;ST-02;São Tomé Island;Guadalupe
+5;6.6800,0.3305;ST-02;São Tomé Island;Gratidão
+0;6.6252,0.1429;ST-02;São Tomé Island;Granja
+58;6.6438,0.2998;ST-02;São Tomé Island;Quinta da Graça
+0;6.4810,0.2488;ST-02;São Tomé Island;Graça
+0;7.3780,1.6366;ST-01;Príncipe;Germinia Antónia
+0;7.4257,1.5711;ST-01;Príncipe;General Fonseca
+0;7.4271,1.6736;ST-01;Príncipe;Futuro
+0;6.4682,0.2459;ST-02;São Tomé Island;Formiga
+0;6.7042,0.2435;ST-02;São Tomé Island;Francisco Mantero
+456;6.6734,0.4066;ST-02;São Tomé Island;Fernão Dias
+80;6.5173,0.3316;ST-02;São Tomé Island;Esprainha
+0;7.4050,1.6236;ST-01;Príncipe;Esperança
+0;6.5750,0.1316;ST-02;São Tomé Island;Ermelinda
+0;6.5149,0.0379;ST-02;São Tomé Island;Enjále
+3605;6.6112,0.1398;ST-02;São Tomé Island;Dona Eugénia
+166;6.6254,0.1072;ST-02;São Tomé Island;Dona Augusta
+632;6.4985,0.3171;ST-02;São Tomé Island;Diogo Vaz
+15;6.6851,0.3252;ST-02;São Tomé Island;Diana
+0;7.3479,1.5595;ST-01;Príncipe;Costa e Silva
+0;6.6854,0.1865;ST-02;São Tomé Island;Colónia Açoreana
+3;6.5990,0.3182;ST-02;São Tomé Island;Chamiço
+0;6.6566,0.2499;ST-02;São Tomé Island;Catumbela
+0;7.4150,1.6823;ST-01;Príncipe;Cascalheira
+0;6.6950,0.1893;ST-02;São Tomé Island;Caridade
+0;6.6707,0.2176;ST-02;São Tomé Island;Cantagalo
+407;6.6555,0.3890;ST-02;São Tomé Island;Canavial
+0;7.4291,1.6807;ST-01;Príncipe;Campainha
+231;6.6301,0.3473;ST-02;São Tomé Island;Caldeiras
+373;6.7086,0.2979;ST-02;São Tomé Island;Caixão Grande
+0;6.5253,0.3288;ST-02;São Tomé Island;Cadão
+468;6.7022,0.2620;ST-02;São Tomé Island;Ubabudo
+1754;6.7282,0.3108;ST-01;Príncipe;Bombom
+18;6.6328,0.2457;ST-02;São Tomé Island;Bombaim
+97;6.6250,0.3312;ST-02;São Tomé Island;Boa Esperança
+738;6.6632,0.3517;ST-02;São Tomé Island;Boa Entrada
+19;6.7167,0.3167;ST-02;São Tomé Island;Blublu
+28;6.4667,0.2186;ST-02;São Tomé Island;Bindá
+0;6.6670,0.2344;ST-02;São Tomé Island;Bernardo Faro
+0;6.6218,0.3095;ST-02;São Tomé Island;Bemposta
+20;6.6505,0.3239;ST-02;São Tomé Island;Bemfica
+75;7.4413,1.6791;ST-01;Príncipe;Belo Monte
+0;6.6446,0.3289;ST-02;São Tomé Island;Belmonte
+0;7.4135,1.6178;ST-01;Príncipe;Bela Vista
+517;6.6893,0.3593;ST-02;São Tomé Island;Bela Vista
+0;7.4025,1.6411;ST-01;Príncipe;Babudo
+0;7.4469,1.6176;ST-01;Príncipe;Atalaia
+0;6.6677,0.1972;ST-02;São Tomé Island;São Lourenço
+0;7.3658,1.6043;ST-01;Príncipe;Anselmo de Andrade
+105;6.7133,0.3123;ST-02;São Tomé Island;Amparo Dois
+0;6.6624,0.1860;ST-02;São Tomé Island;Amparo
+0;6.7034,0.1998;ST-02;São Tomé Island;Alto Douro
+0;6.5278,0.0552;ST-02;São Tomé Island;Alto Douro
+7445;6.7278,0.2195;ST-02;São Tomé Island;Água Izé
+795;6.5192,0.0474;ST-02;São Tomé Island;Água-Côco
+0;7.4571,1.6248;ST-01;Príncipe;Abade
+294;6.6895,0.2334;ST-02;São Tomé Island;Anselmo Andrade
+0;6.5335,0.0345;ST-02;São Tomé Island;Porto Algere
+0;6.7295,0.3237;ST-02;São Tomé Island;Agua Bobo
+0;6.6781,0.2903;ST-02;São Tomé Island;Cruzeiro
+0;6.7389,0.3311;ST-02;São Tomé Island;Vila Maria
+6685;6.6840,0.2840;ST-02;São Tomé Island;Folha Fede
+1591;6.7167,0.3167;ST-02;São Tomé Island;Almeirim
+4640;6.7232,0.3352;ST-02;São Tomé Island;Riboque
+0;6.7199,0.3399;ST-02;São Tomé Island;Boa Morte
+1404;6.6886,0.4031;ST-02;São Tomé Island;Micolo
+448;6.5482,0.3474;ST-02;São Tomé Island;Generosa
+0;6.6789,0.2946;ST-02;São Tomé Island;Uba Flor
+0;6.6642,0.3762;ST-02;São Tomé Island;Conde
+1001;6.7369,0.2475;ST-02;São Tomé Island;Riboque Santana
+0;6.7197,0.3315;ST-02;São Tomé Island;Fundação Popular
+296;7.4015,1.6247;ST-01;Príncipe;Porto Real
+0;6.6440,0.3674;ST-02;São Tomé Island;Roça Agostinho Neto
+4601;6.7447,0.2991;ST-02;São Tomé Island;Almas
+909;6.6603,0.3006;ST-02;São Tomé Island;Batepá
+932;6.6742,0.3015;ST-02;São Tomé Island;Belém
+761;6.6800,0.3066;ST-02;São Tomé Island;Capela
+1224;6.6866,0.3498;ST-02;São Tomé Island;Changra
+1026;6.7383,0.3150;ST-02;São Tomé Island;Cova Barro
+656;6.6709,0.3562;ST-02;São Tomé Island;Desejada
+703;6.6943,0.3147;ST-02;São Tomé Island;Diogo Simão
+749;6.6742,0.3492;ST-02;São Tomé Island;Maianço
+645;6.5377,0.0485;ST-02;São Tomé Island;Malanza
+775;6.7166,0.3025;ST-02;São Tomé Island;Margarida Manuel
+1022;6.6773,0.1712;ST-02;São Tomé Island;Micondo
+913;6.7229,0.3029;ST-02;São Tomé Island;Monta Alegre
+795;6.6894,0.3202;ST-02;São Tomé Island;Obo Izaquente
+835;6.6932,0.2900;ST-02;São Tomé Island;Obolongo
+686;6.6632,0.3178;ST-02;São Tomé Island;Ototó
+3977;6.7435,0.3150;ST-02;São Tomé Island;Pantufo
+606;6.7396,0.3009;ST-02;São Tomé Island;Pété-Pété
+685;6.6385,0.4055;ST-02;São Tomé Island;Praia Morro Peixe
+590;6.6156,0.0904;ST-02;São Tomé Island;Ribeira Peixe
+585;6.6963,0.3073;ST-02;São Tomé Island;Torres Dias
+0;7.4193,1.6705;ST-01;Príncipe;Aguiã
+0;7.3931,1.6372;ST-01;Príncipe;Budo-Cabra
+0;7.3867,1.6377;ST-01;Príncipe;Pôtó
+0;7.3726,1.6611;ST-01;Príncipe;Oquê-Daniel
+0;7.3950,1.6403;ST-01;Príncipe;Carolina
+0;7.4027,1.6925;ST-01;Príncipe;Bom-Bom
+0;7.4342,1.6833;ST-01;Príncipe;Praia das Burras
+0;7.4214,1.6114;ST-01;Príncipe;Terreiro Velho
+0;7.4169,1.6603;ST-01;Príncipe;Tracia
+0;7.4372,1.6317;ST-01;Príncipe;Portinho
+0;7.3895,1.6414;ST-01;Príncipe;Cêlú
+0;7.4287,1.6734;ST-01;Príncipe;Malaca
+0;7.4462,1.6743;ST-01;Príncipe;Yancouco
+0;7.4266,1.6394;ST-01;Príncipe;Santa Madalena
+0;7.4275,1.6508;ST-01;Príncipe;Novo Destino
+0;7.4317,1.6658;ST-01;Príncipe;Picão
+0;7.4487,1.6771;ST-01;Príncipe;Terreiro Velho
+0;7.4030,1.6397;ST-01;Príncipe;Mato Mutandé
+0;6.5314,0.3170;ST-02;São Tomé Island;São Oscar
+67;6.4864,0.2854;ST-02;São Tomé Island;Paga Fogo
+0;6.5179,0.3226;ST-02;São Tomé Island;Jose Luis Campo
+0;6.5834,0.3554;ST-02;São Tomé Island;Emilia
+1;6.5707,0.3211;ST-02;São Tomé Island;Fortunato
+0;6.5346,0.3259;ST-02;São Tomé Island;Paulo Cancela
+0;6.5496,0.3193;ST-02;São Tomé Island;Mendes Leite
+0;6.5263,0.3139;ST-02;São Tomé Island;José Luís
+0;6.6013,0.3054;ST-02;São Tomé Island;May
+0;6.5739,0.2881;ST-02;São Tomé Island;João Paulo
+297;6.5535,0.3544;ST-02;São Tomé Island;Bom Sucesso
+0;6.5603,0.3345;ST-02;São Tomé Island;Emilia
+0;6.5854,0.3549;ST-02;São Tomé Island;Maquengo
+146;6.6036,0.3509;ST-02;São Tomé Island;Água Sampaio
+0;6.5674,0.3041;ST-02;São Tomé Island;António Morais
+0;6.5968,0.3884;ST-02;São Tomé Island;Praia das Plancas
+0;6.5648,0.2968;ST-02;São Tomé Island;Rebordelo
+0;6.4889,0.2925;ST-02;São Tomé Island;Santa Jenny Quatro Caminhos
+0;6.4988,0.2862;ST-02;São Tomé Island;Santa Jenny
+74;6.5149,0.3011;ST-02;São Tomé Island;Arribana
+0;6.5130,0.3235;ST-02;São Tomé Island;Maria Luisa Campo
+122;6.5725,0.3632;ST-02;São Tomé Island;Ribeira Palma Praia
+0;6.5675,0.3432;ST-02;São Tomé Island;Santa Teresa
+0;6.5461,0.3036;ST-02;São Tomé Island;Monte Castro
+0;6.5431,0.3146;ST-02;São Tomé Island;Maria Emilia
+0;6.5039,0.2703;ST-02;São Tomé Island;Paga Fogo
+0;6.5565,0.3140;ST-02;São Tomé Island;Manuel Morais
+0;6.5512,0.3251;ST-02;São Tomé Island;Santa Laura
+0;6.5590,0.3000;ST-02;São Tomé Island;Cascata
+0;6.5081,0.2813;ST-02;São Tomé Island;Morro das Quinas
+0;6.5504,0.3534;ST-02;São Tomé Island;Moinho
+0;6.5182,0.3067;ST-02;São Tomé Island;Maria Luisa
+0;6.5778,0.3292;ST-02;São Tomé Island;Tôrre
+0;6.5630,0.3173;ST-02;São Tomé Island;Roça Nova
+0;6.5583,0.3293;ST-02;São Tomé Island;Costa Santos
+0;6.5731,0.1104;ST-02;São Tomé Island;Anette
+0;6.5192,0.0649;ST-02;São Tomé Island;Monte Laura
+0;6.5636,0.1086;ST-02;São Tomé Island;Borgia
+0;6.6139,0.1085;ST-02;São Tomé Island;Nunes de Oliveira
+0;6.5761,0.0943;ST-02;São Tomé Island;Aldeamento
+0;6.6510,0.1136;ST-02;São Tomé Island;Roça Nova
+0;6.5309,0.0515;ST-02;São Tomé Island;Cachoeira
+0;6.5105,0.0520;ST-02;São Tomé Island;Vá-Inhá
+0;6.5551,0.0595;ST-02;São Tomé Island;Monte Mário
+0;6.5624,0.0718;ST-02;São Tomé Island;Mesquita
+0;6.5940,0.0903;ST-02;São Tomé Island;Vila Aida
+0;6.5153,0.1032;ST-02;São Tomé Island;Santo António
+0;6.6212,0.0992;ST-02;São Tomé Island;Pesqueira
+0;6.5401,0.0621;ST-02;São Tomé Island;Monte Belo
+0;6.5034,0.1159;ST-02;São Tomé Island;Jou
+0;6.5238,0.0006;ST-02;São Tomé Island;Rolas
+0;6.5481,0.0379;ST-02;São Tomé Island;Ponta Baleia
+0;6.5425,0.1056;ST-02;São Tomé Island;São Luis
+0;6.5929,0.0808;ST-02;São Tomé Island;Celeste
+0;6.5690,0.0959;ST-02;São Tomé Island;Cabral Metelo
+0;6.5426,0.0988;ST-02;São Tomé Island;George
+0;6.5302,0.0986;ST-02;São Tomé Island;Alexandra
+0;6.5225,0.0839;ST-02;São Tomé Island;Willy
+0;6.5630,0.0698;ST-02;São Tomé Island;Praia de Monte Mário
+0;6.5902,0.1080;ST-02;São Tomé Island;Emolve
+0;6.5502,0.0963;ST-02;São Tomé Island;Brion
+0;6.7340,0.2550;ST-02;São Tomé Island;Zandrigo
+0;6.6333,0.1948;ST-02;São Tomé Island;Fronteira
+0;6.7035,0.2545;ST-02;São Tomé Island;Maria Luiza
+0;6.6791,0.2419;ST-02;São Tomé Island;Ponta das Palmeiras
+129;6.6504,0.2547;ST-02;São Tomé Island;Abade
+0;6.6125,0.1887;ST-02;São Tomé Island;Vieira Machado
+0;6.6232,0.1700;ST-02;São Tomé Island;Ermida
+0;6.6526,0.2387;ST-02;São Tomé Island;Claudino Faro
+0;6.7313,0.2511;ST-02;São Tomé Island;Mestre António
+0;6.6208,0.2550;ST-02;São Tomé Island;Águas Belas
+0;6.6286,0.1191;ST-02;São Tomé Island;Manuel Caroça
+0;6.6485,0.2206;ST-02;São Tomé Island;Ana Dias
+0;6.6551,0.1768;ST-02;São Tomé Island;Água João
+0;6.6395,0.1220;ST-02;São Tomé Island;Fraternidade
+0;6.6684,0.2554;ST-02;São Tomé Island;Valeparaizo
+0;6.6688,0.2599;ST-02;São Tomé Island;Campo Livre
+0;6.6369,0.1471;ST-02;São Tomé Island;Boa Vista
+0;6.6715,0.2509;ST-02;São Tomé Island;Vila Celeste
+0;6.6409,0.2191;ST-02;São Tomé Island;Santa Luísa
+0;6.6267,0.1879;ST-02;São Tomé Island;Cruzeiro
+0;6.6411,0.2418;ST-02;São Tomé Island;Vale Formoso
+0;6.7362,0.2447;ST-02;São Tomé Island;Esperança
+0;6.6997,0.2114;ST-02;São Tomé Island;Castelo
+0;6.6770,0.1627;ST-02;São Tomé Island;Cavalete
+0;6.7214,0.2559;ST-02;São Tomé Island;Budo Budo
+0;6.6395,0.1801;ST-02;São Tomé Island;Estrela
+0;6.6669,0.1476;ST-02;São Tomé Island;Angobó
+0;6.6472,0.1920;ST-02;São Tomé Island;Marilene
+0;6.6731,0.2537;ST-02;São Tomé Island;Apolonha
+0;6.6896,0.2206;ST-02;São Tomé Island;Mendes da Silva
+0;6.6759,0.2284;ST-02;São Tomé Island;Olivares Marim
+3;6.6287,0.2577;ST-02;São Tomé Island;Carcavelos
+0;6.6691,0.1645;ST-02;São Tomé Island;Alice
+0;6.6910,0.2594;ST-02;São Tomé Island;Clara Dias
+0;6.6879,0.1989;ST-02;São Tomé Island;Henrisantos
+0;6.6319,0.2158;ST-02;São Tomé Island;São Manuel
+0;6.7160,0.2408;ST-02;São Tomé Island;Santo António Dois
+0;6.6686,0.2625;ST-02;São Tomé Island;Famosa
+0;6.6385,0.2517;ST-02;São Tomé Island;Roça Nova
+0;6.6561,0.1503;ST-02;São Tomé Island;Coimbra
+0;6.6619,0.1567;ST-02;São Tomé Island;Aliança
+0;6.6176,0.1780;ST-02;São Tomé Island;Rosário
+0;6.6855,0.2056;ST-02;São Tomé Island;Alto Vouga
+0;6.6821,0.1782;ST-02;São Tomé Island;Secador
+0;6.6632,0.1611;ST-02;São Tomé Island;Angra Toldo
+0;6.6793,0.2079;ST-02;São Tomé Island;Duas Pedras
+0;6.6444,0.2533;ST-02;São Tomé Island;Maria
+0;6.6708,0.2102;ST-02;São Tomé Island;Beira
+35;6.7236,0.3166;ST-02;São Tomé Island;Palha
+0;6.6950,0.2844;ST-02;São Tomé Island;Cabeça Água
+0;6.7209,0.2947;ST-02;São Tomé Island;Santa Maria
+0;6.7469,0.3001;ST-02;São Tomé Island;Paquete
+0;6.6192,0.3819;ST-02;São Tomé Island;Mato Amoreira
+0;6.7213,0.2919;ST-02;São Tomé Island;Santa Fenícia
+0;6.6532,0.2922;ST-02;São Tomé Island;Fuge Fala
+0;6.6635,0.3063;ST-02;São Tomé Island;Linda Vista
+0;6.7288,0.2936;ST-02;São Tomé Island;Montalvão
+0;6.7414,0.2802;ST-02;São Tomé Island;Freiriz
+190;6.6930,0.3963;ST-02;São Tomé Island;Água Casada
+40;6.6236,0.3774;ST-02;São Tomé Island;Vila Braga
+0;6.6179,0.3039;ST-02;São Tomé Island;Campo Grande
+14;6.6823,0.2849;ST-02;São Tomé Island;Monte Alegre
+0;6.7063,0.3372;ST-02;São Tomé Island;Palmar
+0;6.6131,0.3017;ST-02;São Tomé Island;Claudina
+0;6.7121,0.3820;ST-02;São Tomé Island;Praia Cruz
+0;6.6387,0.3371;ST-02;São Tomé Island;Alto Potó
+0;6.6903,0.3070;ST-02;São Tomé Island;Quinta das Palmeiras
+0;6.6638,0.2683;ST-02;São Tomé Island;São José
+240;6.6944,0.3450;ST-02;São Tomé Island;Ubacabra
+0;6.6789,0.3003;ST-02;São Tomé Island;Zampile
+0;6.6168,0.2818;ST-02;São Tomé Island;Famalicão
+0;6.6571,0.3301;ST-02;São Tomé Island;Alto Pótó
+0;6.6326,0.2989;ST-02;São Tomé Island;São José
+66;6.6705,0.3069;ST-02;São Tomé Island;Mulembú
+656;6.7122,0.3065;ST-02;São Tomé Island;Melhorada
+280;6.7229,0.3100;ST-02;São Tomé Island;Cabeça Cal
+0;6.6737,0.2718;ST-02;São Tomé Island;Monte Castro
+0;6.6555,0.3118;ST-02;São Tomé Island;Conselho
+336;6.7142,0.3083;ST-02;São Tomé Island;Água Lama
+0;6.6689,0.3300;ST-02;São Tomé Island;Prado
+0;6.6657,0.2907;ST-02;São Tomé Island;Clarisse
+0;6.6957,0.3233;ST-02;São Tomé Island;Quinta das Dores
+0;6.7352,0.2947;ST-02;São Tomé Island;Riba Mato
+0;6.7568,0.2955;ST-02;São Tomé Island;Praia de Algés
+2;6.6483,0.3414;ST-02;São Tomé Island;Moinho
+31;6.6406,0.3404;ST-02;São Tomé Island;Bom Retiro
+0;6.7256,0.3294;ST-02;São Tomé Island;Vila Loures
+0;6.6513,0.3175;ST-02;São Tomé Island;Mongo
+0;6.6121,0.3046;ST-02;São Tomé Island;Arribana
+0;6.7307,0.2716;ST-02;São Tomé Island;Horta Velha
+0;6.7208,0.3271;ST-02;São Tomé Island;Madre de Deus
+0;6.6804,0.3255;ST-02;São Tomé Island;Quinta da Alegria
+0;6.7317,0.3255;ST-02;São Tomé Island;Quinta de Santo António
+47;6.6790,0.3647;ST-02;São Tomé Island;Laranjeiras
+0;6.6758,0.2718;ST-02;São Tomé Island;Ubametade
+0;6.6685,0.2900;ST-02;São Tomé Island;Santy
+0;6.6813,0.2725;ST-02;São Tomé Island;Monte Estoril
+0;6.7389,0.2964;ST-02;São Tomé Island;Moreira Santos
+0;6.6696,0.3216;ST-02;São Tomé Island;São José
+0;6.7115,0.3658;ST-02;São Tomé Island;Praia Lagarto
+243;6.6649,0.3375;ST-02;São Tomé Island;Água Telha
+197;6.6571,0.3021;ST-02;São Tomé Island;Margão
+132;6.7024,0.3622;ST-02;São Tomé Island;Ferreira Governo
+0;6.6950,0.2721;ST-02;São Tomé Island;Pedroma
+0;6.6332,0.3328;ST-02;São Tomé Island;Pentecostes
+0;6.6651,0.3069;ST-02;São Tomé Island;Tenda Grande
+0;6.7167,0.3588;ST-02;São Tomé Island;Maria Emilia
+0;6.6833,0.3172;ST-02;São Tomé Island;Santo António
+0;6.7179,0.2930;ST-02;São Tomé Island;Ubaquime
+0;6.6582,0.3753;ST-02;São Tomé Island;Cruz Grande
+0;6.6391,0.3518;ST-02;São Tomé Island;Taí
+0;6.6494,0.3087;ST-02;São Tomé Island;Judite
+0;6.6625,0.2996;ST-02;São Tomé Island;Bom Jesus
+153;6.6821,0.2877;ST-02;São Tomé Island;Água Dagô
+0;6.6583,0.3424;ST-02;São Tomé Island;Pedra Maria
+339;6.6890,0.3027;ST-02;São Tomé Island;Favorita
+0;6.6773,0.2735;ST-02;São Tomé Island;Almada
+372;6.6762,0.3688;ST-02;São Tomé Island;Ilhéu
+65;6.6806,0.3679;ST-02;São Tomé Island;Vila Mendes
+0;6.6722,0.3744;ST-02;São Tomé Island;Água Casada
+0;6.6509,0.3371;ST-02;São Tomé Island;Boa Nova
+7;6.6770,0.3087;ST-02;São Tomé Island;Água Tanque
+0;6.6871,0.2755;ST-02;São Tomé Island;Pian Pian
+241;6.6726,0.2883;ST-02;São Tomé Island;Cangá
+0;6.6975,0.3133;ST-02;São Tomé Island;Vila Rosário
+260;6.6583,0.2951;ST-02;São Tomé Island;Galo Cantá
+68;6.6877,0.3472;ST-02;São Tomé Island;Vale de Prazeres
+0;6.6529,0.2751;ST-02;São Tomé Island;Santa Luzia
+10;6.6824,0.3599;ST-02;São Tomé Island;Santa Teresa
+0;6.7261,0.3074;ST-02;São Tomé Island;Uba Nova
+0;6.7003,0.3864;ST-02;São Tomé Island;Praia Diogo Nunes
+0;6.6956,0.2873;ST-02;São Tomé Island;Amélia
+16;6.6477,0.3045;ST-02;São Tomé Island;Albertina
+0;6.6746,0.2853;ST-02;São Tomé Island;Santa Fé
+0;6.6150,0.3658;ST-02;São Tomé Island;Saltado
+0;6.6473,0.2841;ST-02;São Tomé Island;Quinta das Flores
+0;6.6364,0.3373;ST-02;São Tomé Island;Santa Isabel
+292;6.7006,0.3189;ST-02;São Tomé Island;Bóbó Cativo
+0;6.6891,0.3208;ST-02;São Tomé Island;Feliz Destino
+0;6.6569,0.2984;ST-02;São Tomé Island;Vanguarda
+1408;6.6642,0.2958;ST-02;São Tomé Island;Piedade
+125;6.7186,0.2966;ST-02;São Tomé Island;Pedro Paiva
+0;6.6805,0.3539;ST-02;São Tomé Island;Nova Sintra
+203;6.6921,0.3104;ST-02;São Tomé Island;Água Crioula
+0;6.6708,0.3529;ST-02;São Tomé Island;Santa Isabel
+3;6.6273,0.3273;ST-02;São Tomé Island;Formosa
+0;6.6613,0.3345;ST-02;São Tomé Island;Vila Graciosa
+0;6.6695,0.3576;ST-02;São Tomé Island;Vila Amélia
+85;6.6560,0.3503;ST-02;São Tomé Island;Potó Valão
+0;6.7122,0.3504;ST-02;São Tomé Island;Oqué-del-Rei
+0;6.6211,0.2994;ST-02;São Tomé Island;São Carlos
+26;6.6710,0.3113;ST-02;São Tomé Island;Obó Coelho
+158;6.6861,0.3046;ST-02;São Tomé Island;António Vaz
+288;6.6518,0.3460;ST-02;São Tomé Island;Monte Macaco
+72;6.6120,0.3389;ST-02;São Tomé Island;Água Coimbra
+0;6.6117,0.3174;ST-02;São Tomé Island;Vale do Rio
+0;6.7263,0.2672;ST-02;São Tomé Island;Ubabudo Velho
+44;6.6524,0.3124;ST-02;São Tomé Island;Alice
+0;6.6432,0.3286;ST-02;São Tomé Island;Santa Hilária
+265;6.6981,0.3381;ST-02;São Tomé Island;Mesquita
+187;6.6620,0.3136;ST-02;São Tomé Island;António Soares
+414;6.7017,0.3070;ST-02;São Tomé Island;Filipina
+0;6.6922,0.3437;ST-02;São Tomé Island;Ubajaca
+0;6.7103,0.3531;ST-02;São Tomé Island;Aldeamento da Bela Vista
+6;6.6728,0.3367;ST-02;São Tomé Island;Vale Flor
+0;6.6921,0.3188;ST-02;São Tomé Island;Florinda
+0;6.7169,0.3016;ST-02;São Tomé Island;Margarida Malé
+0;6.7356,0.2920;ST-02;São Tomé Island;Canavial
+0;6.7145,0.2899;ST-02;São Tomé Island;Quilembá
+0;6.7500,0.3044;ST-02;São Tomé Island;Praia Melão
+0;6.6348,0.3298;ST-02;São Tomé Island;Casa Nova
+0;6.6526,0.3029;ST-02;São Tomé Island;Ocá Oco
+0;6.7126,0.2900;ST-02;São Tomé Island;Victória
+5;6.6570,0.4065;ST-02;São Tomé Island;São Carlos
+0;6.6336,0.3361;ST-02;São Tomé Island;Rio Mondego
+0;6.6853,0.3140;ST-02;São Tomé Island;Rio Lima
+0;6.6568,0.2907;ST-02;São Tomé Island;Rodia
+0;6.7098,0.2388;ST-02;São Tomé Island;Quimpo Dois
+0;6.4988,0.2311;ST-02;São Tomé Island;São Frederico
+302;6.4712,0.2599;ST-02;São Tomé Island;Brigoma
+0;6.6020,0.1207;ST-02;São Tomé Island;Mateus Sampaio
+0;6.5568,0.2614;ST-02;São Tomé Island;Estação Sousa
+0;6.5245,0.1238;ST-02;São Tomé Island;Bacelar
+0;6.5924,0.2648;ST-02;São Tomé Island;Calvário
+0;6.4720,0.2026;ST-02;São Tomé Island;Juliana de Sousa
+0;6.5017,0.1237;ST-02;São Tomé Island;Quija
+0;6.4919,0.2402;ST-02;São Tomé Island;Claudina
+0;6.5264,0.1328;ST-02;São Tomé Island;Freitas
+0;6.4795,0.1463;ST-02;São Tomé Island;Plantier
+10;6.4640,0.2446;ST-02;São Tomé Island;Boca Bela
+0;6.5056,0.2515;ST-02;São Tomé Island;Dona Amélia
+0;6.4802,0.1728;ST-02;São Tomé Island;Burnay
+0;6.5704,0.1261;ST-02;São Tomé Island;Levy
+0;6.5868,0.1476;ST-02;São Tomé Island;Vila António
+0;6.6083,0.1382;ST-02;São Tomé Island;Serraria
+0;7.4394,1.6273;ST-01;Príncipe;Paufita
+0;7.4252,1.6305;ST-01;Príncipe;Uba
+0;6.5443,0.3583;ST-02;São Tomé Island;Praia
+0;6.5942,0.3634;ST-02;São Tomé Island;Maria
+0;6.5008,0.2942;ST-02;São Tomé Island;São José
+0;6.5399,0.1134;ST-02;São Tomé Island;São João
+0;6.5451,0.0803;ST-02;São Tomé Island;São Pedro
+0;6.6628,0.2044;ST-02;São Tomé Island;São Vicente
+0;6.6202,0.2430;ST-02;São Tomé Island;São Paulo
+0;6.6447,0.1610;ST-02;São Tomé Island;Santo António
+0;6.6568,0.2113;ST-02;São Tomé Island;Ribeira Afonso
+0;6.7418,0.2528;ST-02;São Tomé Island;Riboque
+0;6.6680,0.2800;ST-02;São Tomé Island;Santa Clara
+0;6.6243,0.2938;ST-02;São Tomé Island;São João
+0;6.7062,0.2793;ST-02;São Tomé Island;Guegue
+0;6.6743,0.3125;ST-02;São Tomé Island;Laura
+0;6.6191,0.3193;ST-02;São Tomé Island;Santo António
+0;6.6750,0.2924;ST-02;São Tomé Island;Ubabudo
+0;6.6121,0.2886;ST-02;São Tomé Island;Bom Sucesso
+0;6.6962,0.3056;ST-02;São Tomé Island;São Vicente
+0;6.7238,0.2795;ST-02;São Tomé Island;Nova Olinda
+0;6.6778,0.2883;ST-02;São Tomé Island;Bemfica
+0;6.6656,0.2924;ST-02;São Tomé Island;Santa Cruz
+0;6.6057,0.2641;ST-02;São Tomé Island;Zampalma
+0;6.4890,0.2244;ST-02;São Tomé Island;Santa Clotilde
+0;6.6065,0.3706;ST-02;São Tomé Island;Plancas Dois

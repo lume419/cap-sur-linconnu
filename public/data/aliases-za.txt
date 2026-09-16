@@ -1,0 +1,190 @@
+ar;روديبورت;Roodepoort
+tn;Rodipoto;Roodepoort
+zu;IZwelitsha;Zwelitsha
+nl;Witte Els Bosch;Witelsbos
+ar;فيرولام;Verulam
+zu;IVerulam;Verulam
+ar;فيرينخن;Vereeniging
+ar;فيرينجنغ;Vereeniging
+ar;فاندربيجلبارك;Vanderbijlpark
+ss;Umlazi;eMlaza
+de;Umlazi;eMlaza
+af;Umlazi;eMlaza
+en;Umlazi;eMlaza
+it;Umlazi;eMlaza
+nso;Umlazi;eMlaza
+fr;Umlazi;eMlaza
+es;Umlazi;eMlaza
+zu;Umlazi;eMlaza
+en;Umhlanga Rocks;Umhlanga
+en;Uitenhage;Kariega
+af;Uitenhage;Kariega
+nl;Uitenhage;Kariega
+pt;Uitenhage;Kariega
+nso;Uitenhage;Kariega
+fr;Uitenhage;Kariega
+mg;Uitenhage;Kariega
+st;Uitenhage;Kariega
+sw;Uitenhage;Kariega
+it;Uitenhage;Kariega
+es;Uitenhage;Kariega
+ar;يوتينهاغ;Kariega
+zu;Uitenhage;Kariega
+zu;ITongaat;Tongaat
+ve;Thohoyanḓou;Thohoyandou
+ar;سويتو;Soweto
+af;Sidi-Barani;Sidi Barrani
+en;St Lucia;Saint Lucia
+en;St. Lucia;Saint Lucia
+pt;Rustemburgo;Rustenburg
+ar;روستنبرغ;Rustenburg
+ar;راندبورغ;Randburg
+nso;Ga-Ramakgaphola;Ramakgaphola
+xh;EKomani;Queenstown
+pt;Pretória;Pretoria
+ar;بريتوريا;Pretoria
+ss;IPitoli;Pretoria
+zu;IPitoli;Pretoria
+xh;E-Pitoli;Pretoria
+nso;Pitori;Pretoria
+ts;Pitori;Pretoria
+en;Port St. Johns;Port Saint John’s
+en;Port Saint Johns;Port Saint John’s
+de;Port Elizabeth;Gqeberha
+en;Port Elizabeth;Gqeberha
+es;Puerto Elizabeth;Gqeberha
+af;die Baai;Gqeberha
+fr;Port Elizabeth;Gqeberha
+nl;Port Elizabeth;Gqeberha
+pt;Porto Elizabeth;Gqeberha
+it;Port Elizabeth;Gqeberha
+ar;بورت إليزابيث;Gqeberha
+zu;Ibhayi;Gqeberha
+xh;IBhayi;Gqeberha
+en;Plettenberg;Plettenberg Bay
+af;Pietersburg;Polokwane
+ar;بولوكوان;Polokwane
+ar;بيترماريتزبرغ;Pietermaritzburg
+st;Mokokotlofo;Pietermaritzburg
+zu;IPhoenix;Phoenix
+pt;Orânia;Orania
+de;Oesterbaai;Oyster Bay
+ar;نيلسبرويت;Mbombela
+ve;Naspoti;Mbombela
+fr;Epumalanga;Mpumalanga
+nl;Epumalanga;Mpumalanga
+ar;مدلبورخ;Middelburg
+en;Mahikeng;Mafikeng
+de;Mahikeng;Mafikeng
+af;Mahikeng;Mafikeng
+nl;Mahikeng;Mafikeng
+es;Mahikeng;Mafikeng
+tn;Mahikeng;Mafikeng
+ar;مافيكينج;Mafikeng
+de;Mashishing;Lydenburg
+zu;ILenasia;Lenasia
+ar;كنيسنا;Knysna
+ar;كيمبرلي;Kimberley
+af;Kemptonpark;Kempton Park
+es;Johannesburgo;Johannesburg
+ar;جوهانسبرغ;Johannesburg
+pt;Joanesburgo;Johannesburg
+en;Jo'anna;Johannesburg
+zu;EGoli;Johannesburg
+zu;IGoli;Johannesburg
+fr;Johannesbourg;Johannesburg
+pt;Johannesburgo;Johannesburg
+ss;IJohannesburg;Johannesburg
+xh;EGoli;Johannesburg
+af;Jeffreysbaai;Jeffreys Bay
+en;Illovo;Illovo Beach
+nso;42nd Hill;Harrismith
+fr;Makhanda;Grahamstown
+de;Makhanda;Grahamstown
+af;Makhanda;Grahamstown
+xh;IRhini;Grahamstown
+en;Makhanda;Grahamstown
+fr;Graaff-Reinet;Graaff Reinet
+de;Graaff-Reinet;Graaff Reinet
+af;Graaff-Reinet;Graaff Reinet
+de;Germinston;Germiston
+zu;kwaDukathole;Germiston
+fr;Germinston;Germiston
+en;Four Ways;Fourways
+fr;KuGompo City;East London
+af;KuGompo City;East London
+nl;KuGompo City;East London
+en;Buffalo City;East London
+ar;إيست لندن;East London
+xh;EMonti;East London
+de;KuGompo City;East London
+zu;ITheku;Durban
+ar;ديربان;Durban
+st;Thekong;Durban
+xh;EThekwini;Durban
+zu;ICopperton;Copperton
+zu;IBloemfontein;Bloemfontein
+ar;بلومفونتين;Bloemfontein
+st;Mangaung;Bloemfontein
+xh;EBloemfontein;Bloemfontein
+de;Bisho;Bhisho
+es;Bisho;Bhisho
+fr;Bisho;Bhisho
+af;Bisho;Bhisho
+nl;Bisho;Bhisho
+pt;Bisho;Bhisho
+ar;بيشو;Bhisho
+ar;بينوني;Benoni
+en;L’Agulhas;Agulhas
+ar;فوبرتال;Wuppertal
+de;Wupperthal;Wuppertal
+en;Wupperthal;Wuppertal
+en;Tableview;Table View
+af;Tafelsig;Table View
+nl;Tafelzicht;Table View
+af;Stellenbos;Stellenbosch
+af;Mitchells Plein;Mitchells Plain
+af;Kuilsrivier;Kuils River
+ar;كوميتي;Kommetjie
+en;Kleinsee;Kleinzee
+af;Kuboes;Khubus
+ar;كايليتشا;Khayelitsha
+en;Kalk Bay;Kalkbaai
+de;Kalk Bay;Kalkbaai
+it;Kalk Bay;Kalkbaai
+nso;Kalk Bay;Kalkbaai
+fr;Kalk Bay;Kalkbaai
+xh;Kalk Bay;Kalkbaai
+zu;Kalk Bay;Kalkbaai
+nl;Kalk Bay;Kalkbaai
+zu;IKalbaskraal;Kalbaskraal
+af;Houtbaai;Hout Bay
+ar;غودة;Gouda
+ar;غودا;Gouda
+zu;I-Elgin;Elgin
+fr;Vallée d'Elgin;Elgin
+de;Kapstadt;Cape Town
+es;Ciudad del Cabo;Cape Town
+af;Kaapstad;Cape Town
+fr;Le Cap;Cape Town
+it;Città del Capo;Cape Town
+nl;Kaapstad;Cape Town
+pt;Cidade do Cabo;Cape Town
+es;El Cabo;Cape Town
+ar;كيب تاون;Cape Town
+zu;iKapa;Cape Town
+xh;IKapa;Cape Town
+en;Blaauwbergstrand;Bloubergstrand
+zu;I-Atlantis;Atlantis
+af;Somerset-Wes;Somerset West
+af;Vishoek;Fish Hoek
+af;Nuweland;Newlands
+it;Nuweland;Newlands
+nl;Nuweland;Newlands
+en;Ellisras;Lephalale
+ar;بو كيب;Bo-Kaap
+en;Moreleta Park;Moreletapark
+en;Moreletta Park;Moreletapark
+fr;Messina;Musina
+af;Rondebosch-Oos;Rondebosch East
+de;Gariep-Damm;Gariep Dam

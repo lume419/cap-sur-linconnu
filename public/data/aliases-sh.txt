@@ -1,0 +1,11 @@
+ar;جورجتاون;Georgetown
+es;Dos Barcos;Two Boats Village
+es;Edimburgo de los Siete Mares;Edinburgh of the Seven Seas
+nl;Edinburgh-of-the-Seven-Seas;Edinburgh of the Seven Seas
+pt;Edimburgo dos Sete Mares;Edinburgh of the Seven Seas
+ar;إدنبرة السبعة بحار;Edinburgh of the Seven Seas
+fr;Édimbourg des Sept Mers;Edinburgh of the Seven Seas
+de;Edinburgh der Sieben Meere;Edinburgh of the Seven Seas
+ha;Edinburgh na Bakin Ruwa Bakwai;Edinburgh of the Seven Seas
+ar;جيمس تاون;Jamestown
+es;Planta Árida;Barren Ground

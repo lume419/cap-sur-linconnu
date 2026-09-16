@@ -1,0 +1,29 @@
+ru;Нюбюен;Nybyen
+az;Lonqyirbyuen;Longyearbyen
+lt;Longjyrbienas;Longyearbyen
+uk;Лонгїр;Longyearbyen
+be;Лонгйір;Longyearbyen
+ka;ლონგირი;Longyearbyen
+lv;Longjērbīene;Longyearbyen
+os;Лонгйир;Longyearbyen
+cv;Лонгьир;Longyearbyen
+ru;Лонгйир;Longyearbyen
+myv;Лонгйирбюен ош;Longyearbyen
+nl;Barentszburg;Barentsburg
+ru;Баренцбург;Barentsburg
+ka;ბარენცბურგი;Barentsburg
+lt;Barencburgas;Barentsburg
+os;Баренцбург;Barentsburg
+uk;Баренцбург;Barentsburg
+be;Барэнцбург;Barentsburg
+lv;Barencburga;Barentsburg
+en;Olonkin City;Olonkinbyen
+nl;Olonkinstad;Olonkinbyen
+ru;Олонкинбюэн;Olonkinbyen
+lt;Olonkinbienas;Olonkinbyen
+lv;Olonkinbīene;Olonkinbyen
+kk;Олонкинбюен;Olonkinbyen
+tt;Олонкинбүэн;Olonkinbyen
+lt;Niu Olesiundas;Ny-Ålesund
+uk;Ню-Олесунн;Ny-Ålesund
+ru;Ню-Олесунн;Ny-Ålesund

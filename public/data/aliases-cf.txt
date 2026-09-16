@@ -1,0 +1,87 @@
+fr;Zémio;Zemio
+de;Zémio;Zemio
+en;Yambala;Yambala Magonda
+nl;Yambala;Yambala Magonda
+fr;Sulemaka;Soulémaka
+fr;Uanda Jale;Ouanda Djallé
+fr;Ouanda Djane;Ouanda Djallé
+fr;Ouanda-Djalé;Ouanda Djallé
+fr;Uadda;Ouadda
+fr;Quadda;Ouadda
+ar;اوادا;Ouadda
+ar;أوبو;Obo
+am;ኦቦ;Obo
+en;Ndele;Ndélé
+ar;نديلي;Ndélé
+es;Ndele;Ndélé
+fr;Ndele;Ndélé
+am;ንደሌ;Ndélé
+de;Ndele;Ndélé
+ha;Ndele;Ndélé
+om;Ndele;Ndélé
+pt;Ndele;Ndélé
+so;Ndele;Ndélé
+ar;موبايي;Mobaye
+am;ሞባዬ;Mobaye
+de;Kovongo Mia;Kovogomea
+en;Kovongo Mia;Kovogomea
+fr;Kovongo Mia;Kovogomea
+nl;Kovongo Mia;Kovogomea
+fr;Gordil III;Gordil
+ar;بريا;Bria
+am;ብሪያ;Bria
+ar;بيراو;Birao
+am;ቢራዎ;Birao
+ar;بانقاسو;Bangassou
+am;ባንጋሱ;Bangassou
+ar;بامباري;Bambari
+am;ባምባሪ;Bambari
+fr;Zemongo;Ancien Zémongo
+ar;قوز بيضة;Goz Beïda
+ar;قوز ألبيض;Goz Beïda
+ar;قوز بيدا;Goz Beïda
+ar;سيبوت;Sibut
+am;ሲቡት;Sibut
+ar;باوا;Paoua
+am;ፓውዋ;Paoua
+ar;نولا;Nola
+am;ኖላ;Nola
+de;Mbaiki;Mbaïki
+ar;مبايكي;Mbaïki
+es;Mbaiki;Mbaïki
+am;ሙቤኪ;Mbaïki
+ha;Mbaiki;Mbaïki
+om;Mbaiki;Mbaïki
+pt;Mbaiki;Mbaïki
+so;Mbaiki;Mbaïki
+ar;كاغا باندورو;Kaga-Bandoro
+am;ካጋ-ባንዶሮ;Kaga-Bandoro
+fr;Golongoso;Golongosso
+fr;Gaïta Maïnda;Gata Maïnda
+en;Fort de Possel;Possel
+nl;Fort de Possel;Possel
+ar;كارنو;Carnot
+am;ካርኖ;Carnot
+fr;Campement de Mialouto;Mialouto
+ar;بوزوم;Bozoum
+am;ቦዞም;Bozoum
+sg;Buka;Bouca
+sg;Buâra;Bouar
+ar;بوار;Bouar
+am;ቦዋር;Bouar
+ar;بوسانقوا;Bossangoa
+am;ቦሳንጎዋ;Bossangoa
+sg;Bokaranga;Bocaranga
+ar;بوكارانغا;Bocaranga
+ar;بيمبو;Bimbo
+am;ቢምቦ;Bimbo
+ar;بربيراتي;Berbérati
+fr;Berberati;Berbérati
+am;በርበራቲ;Berbérati
+ha;Berberati;Berbérati
+om;Berberati;Berbérati
+pt;Berberati;Berbérati
+so;Berberati;Berbérati
+ar;باتانقافو;Batangafo
+am;ባታንጋፎ;Batangafo
+am;ባንጊ;Bangui

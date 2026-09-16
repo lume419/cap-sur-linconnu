@@ -41,10 +41,12 @@ ha;Selibaby;Sélibaby
 pt;Selibaby;Sélibaby
 ar;احسي عمر;Hsey Amar
 ar;سد المَ;Sed Elma
+ar;صمبا كانجي;Şambā Kānjī
 ar;سونتو;Sounetou
 ar;الشلخه الدخنه;Chelkha Edakhna
 ar;شلخه بالي;Chalkha Balé
 ar;سابوسيري;Saboussiré
+ar;روصو;Rosso
 ar;ريندياو;Rindiaw
 ar;بمباجيل;Pempédiel
 ar;باتوكون 1;Patoukone Un
@@ -134,6 +136,7 @@ ar;فولي;Foulé
 ar;فاربا 1;Farba Un
 ar;ادياريبي;Diarébé
 ar;كورل آداما;Gourel Adama
+ar;اﯖريجمه;Greijouma
 ar;كوديول 1;Koudiol Un
 ar;ﯖارلي;Garli
 ar;ﯖانكي 1;Ganki Un
@@ -222,6 +225,7 @@ ar;سنبوكر;Sambokar
 ar;كوب الدمجه;Kowb Edemja
 ar;البرباره;Elberbara
 ar;فوندي بيلل;Fondé Bélel
+ar;إديبين;Ideibine
 ar;باشات الدخله;Bachatt Edakhla
 ar;اجريكايه ابـلـﯖطاطي;Ajreikaya Blegtati
 ar;باشات ولد بقرو;Bachatt Ould Beghrou
@@ -405,6 +409,7 @@ ar;بوكل تيلي;Boguel Thiéli
 ar;وورو جيبي ألفا;Wouro Djibi Alfa
 ar;اكراع الفيله اتوابير;Krae Elvila Touabir
 ar;ول الرامي 1;Ould Erami Un
+ar;هارونا مامادو سنبا باليجو;Harouna Mamadou Samba Balédio
 ar;آبو سولي;Abou Soulé
 ar;أهل العيل;Ehel Eliyel
 ar;سنتيو طيبه;Sinthiou Taiba
@@ -507,6 +512,7 @@ ar;امبيسان 2;Mbaissane Deux
 ar;يرو;Yéro
 ar;كلو;Kelou
 ar;امصب انحل;Msab Enhal
+ar;بوقربه بجقير;Bou Guerba Bejegheir
 ar;تبال 3;Tabal Trois
 ar;افريع الكتان;Vréa Elkitane
 ar;غلالا;Galala
@@ -602,6 +608,7 @@ ar;لكنيبه;Legneiba
 ar;كورل سولي;Gourel Soulé
 ar;كاديل الكرفه;Gadil Elgarva
 ar;دبيا;Debya
+ar;تونكل;Tounguel
 ar;احسي إفلان;Hsey Ivoulane
 ar;عين لكواص;Aine Legwass
 ar;الإسلام;Lislam

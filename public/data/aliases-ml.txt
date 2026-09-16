@@ -9,6 +9,7 @@ fr;Dempiéla;Zampiéla
 bm;Zeguwa;Zégoua
 fr;Zansona;Zazouna
 bm;Zancɛbugu;Zantiébougou
+pt;Zanssoni;Zansoni
 bm;Zankɛbugu;Zankèbougou
 fr;Zangouala;Zangoula
 fr;Ravina;Zanfina
@@ -371,6 +372,7 @@ bm;Sabusire;Saboussiré Madigata
 bm;Sabusire;Saboussiré
 fr;Saboussire;Saboussiré
 fr;Karéwal;Sabéré Mami
+fr;Sabatéganda;Sabatéguéda
 bm;Sábalibugu;Sabalibougou
 fr;Pityola;Pitiola
 bm;Npeserebugu;Mpéssérébougou
@@ -580,6 +582,7 @@ fr;Mpéridiola;Mbérédyoula
 bm;Masigi;Massigui
 fr;Massaransama;Masaransama
 fr;Nasaransama;Masaransama
+bm;Masantɔla;Massantola
 bm;Masala;Massala
 fr;Massala;Masala
 fr;Massakoni;Masakoni
@@ -897,6 +900,7 @@ fr;Faraka;Farako
 fr;Faradiguinndato;Faradiguindato
 fr;Faradala;Faroto
 bm;Farabanna;Farabana
+fr;Fantérita;Fantérila
 fr;Fantabougou;Sababougou
 bm;Fangaso;Fangasso
 fr;Fandiala;Findiala
@@ -969,6 +973,9 @@ fr;Don;Doun
 fr;Doumeba;Douméba
 fr;Douméba;Tamaratinti
 fr;Dougouninkara;Dougounikoro
+fr;Dougoukolombougou;Dougoukolobougou
+fr;Dougoukalobougou;Dougoukolobougou
+fr;Dougoukalabougou;Dougoukolobougou
 fr;Dougouibarakaya;Dougouibarakaïa
 bm;Dùguba;Dougouba
 bm;Dúwanzà;Douentza
@@ -1310,6 +1317,7 @@ bm;Másina;Macina
 bm;Ɲàni Wɛrɛ;Gnani Were
 bm;Láfìyábugu;Lafiabougou
 bm;Kɔnsɔfɔn;Konsofon
+bm;Sebekɔrɔ;Sèbèkoro
 fr;Kokana;Kokéné
 fr;Déala;Déla
 fr;Mokoula;Noukoula
@@ -1329,6 +1337,7 @@ fr;Dyalado;Dialado
 fr;Nonba;Nomba
 fr;Ndyegéla;Ndyeguéla
 fr;Ndyégébougou;Ndyéguébougou
+fr;Ndyabougoula;Diabougoula
 fr;Ntyobougou;Mbéguésso
 fr;Dyana;Diana
 fr;Nyola;Niola

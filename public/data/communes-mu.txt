@@ -1,0 +1,512 @@
+0;57.4006,-20.3350;MU-12;Black River;Yemen
+0;57.6558,-20.4678;MU-14;Grand Port;Virginia
+0;57.5039,-20.0939;MU-16;Pamplemousses;Ville Valio
+0;57.5631,-20.3364;MU-17;Plaines Wilhems;Ville d’Apray
+0;57.6211,-20.1447;MU-16;Pamplemousses;Ville Bague
+0;57.7190,-20.3744;MU-14;Grand Port;Vieux Grand Port
+2208;57.5548,-20.2342;MU-15;Moka;Verdun
+0;57.5704,-20.1559;MU-16;Pamplemousses;Valton
+0;57.5654,-20.2566;MU-15;Moka;Valetta
+115289;57.4783,-20.2981;MU-17;Plaines Wilhems;Vacoas
+0;57.6550,-20.4439;MU-14;Grand Port;Union Vale
+0;57.6308,-20.0192;MU-19;Rivière du Rempart;Réunion Maurel
+0;57.7945,-20.2340;MU-13;Flacq;Trou d’Eau Douce
+14706;57.5503,-20.0330;MU-16;Pamplemousses;Trou aux Biches
+0;57.7381,-20.2667;MU-13;Flacq;Trois Îlots
+24361;57.5502,-20.0576;MU-16;Pamplemousses;Triolet
+0;57.5350,-20.0475;MU-16;Pamplemousses;Trio
+0;57.4942,-20.2558;MU-17;Plaines Wilhems;Trianon
+3707;57.6022,-20.0302;MU-19;Rivière du Rempart;The Vale
+0;57.6022,-20.1114;MU-16;Pamplemousses;The Mount
+11210;57.5312,-20.1283;MU-16;Pamplemousses;Terre Rouge
+4371;57.3706,-20.3256;MU-12;Black River;Tamarin
+10621;57.5053,-20.5097;MU-20;Savanne;Surinam
+0;57.4167,-20.3167;MU-12;Black River;Suase
+4434;57.5167,-20.5167;MU-20;Savanne;Souillac
+0;57.6389,-20.4817;MU-14;Grand Port;Souffleur
+0;57.5722,-20.0208;MU;;Sottise
+0;57.5463,-20.0778;MU-16;Pamplemousses;Solitude
+361;57.4672,-20.2908;MU-17;Plaines Wilhems;Solférino
+5745;57.6878,-20.2907;MU-13;Flacq;Sebastopol
+0;57.6656,-20.0806;MU-19;Rivière du Rempart;Schoenfeld
+0;57.6331,-20.4744;MU-14;Grand Port;Savinia
+0;57.6089,-20.4850;MU-20;Savanne;Savannah
+0;57.6514,-20.2958;MU;;Sans Souci
+0;57.4417,-20.1714;MU-12;Black River;Mare Samson
+16704;57.5343,-20.2215;MU-15;Moka;Saint Pierre
+0;57.3883,-20.4964;MU-20;Savanne;Saint Martin
+3188;57.6760,-20.2080;MU-13;Flacq;Saint Julien
+4170;57.6383,-20.3642;MU-14;Grand Port;Saint Hubert
+0;57.6342,-20.0044;MU-19;Rivière du Rempart;Saint François
+0;57.5664,-20.4867;MU-20;Savanne;Saint Félix
+0;57.4250,-20.4836;MU-20;Savanne;Frederica
+0;57.6342,-20.1478;MU-16;Pamplemousses;Saint Cloud
+1659;57.5500,-20.4960;MU-20;Savanne;Saint Aubin
+0;57.6536,-20.0417;MU-19;Rivière du Rempart;Saint Antoine
+6150;57.5683,-20.0720;MU-16;Pamplemousses;Morcellement Saint André
+0;57.3833,-20.4833;MU-20;Savanne;Ruisseau Créole
+0;57.6572,-20.4186;MU-14;Grand Port;Ruisseau Copeaux
+10760;57.5683,-20.0433;MU-16;Pamplemousses;Rouge Terre
+12619;57.5967,-20.4003;MU-14;Grand Port;Rose Belle
+3199;57.6447,-20.0186;MU-19;Rivière du Rempart;Roche Terre
+5733;57.7122,-20.1111;MU-19;Rivière du Rempart;Roches Noire
+2361;57.3661,-20.3603;MU-12;Black River;Grande Rivière Noire
+10825;57.6847,-20.1031;MU-19;Rivière du Rempart;Rivière du Rempart
+2170;57.5669,-20.4242;MU-20;Savanne;Rivière du Poste
+0;57.5600,-20.4461;MU-20;Savanne;Rivière Dragon
+9927;57.5630,-20.4930;MU-20;Savanne;Rivière des Anguilles
+0;57.6966,-20.3901;MU-14;Grand Port;Rivière des Creoles
+0;57.5357,-20.2097;MU-15;Moka;Rivière Baptiste
+0;57.5766,-20.1977;MU-15;Moka;Ripailles
+0;57.6658,-20.2089;MU-13;Flacq;Rich Fund
+0;57.5000,-20.1167;MU-16;Pamplemousses;Richeterre
+0;57.6556,-20.3847;MU-14;Grand Port;Riche en Eau
+0;57.5769,-20.4564;MU-20;Savanne;Riche Bois
+0;57.4881,-20.3092;MU-17;Plaines Wilhems;Réunion
+0;57.6833,-20.1000;MU-19;Rivière du Rempart;Ravin
+3025;57.7075,-20.2200;MU-13;Flacq;Queen Victoria
+3515;57.7706,-20.2992;MU-13;Flacq;Quatre Soeurs
+77308;57.4791,-20.2638;MU-17;Plaines Wilhems;Quatre Bornes
+6424;57.5974,-20.2479;MU-15;Moka;Quartier Militaire
+3126;57.6122,-20.2447;MU-15;Moka;Providence
+2373;57.6767,-20.0600;MU-19;Rivière du Rempart;Poudre d’Or
+8659;57.7306,-20.1631;MU-13;Flacq;Poste de Flacq
+0;56.7000,-10.4833;MU-21;Agalega Islands;Port Sainte Rita
+155226;57.4989,-20.1619;MU-18;Port Louis;Port Louis
+0;57.6325,-20.1494;MU-16;Pamplemousses;Pont Praslin
+0;57.5581,-20.3828;MU-14;Grand Port;Pont Colville
+0;57.7044,-20.1667;MU-13;Flacq;Pont Blanc
+0;57.5600,-20.0083;MU-16;Pamplemousses;Pointe aux Canonniers
+0;57.6610,-20.4303;MU-14;Grand Port;Plaisance
+10778;57.6697,-20.4297;MU-14;Grand Port;Plaine Magnien
+7925;57.5725,-20.0650;MU-16;Pamplemousses;Plaine des Papayes
+0;57.5022,-20.2867;MU-17;Plaines Wilhems;Phoenix
+0;57.5257,-20.2163;MU-15;Moka;Petit Verger
+9410;57.6230,-20.0202;MU-19;Rivière du Rempart;Petit Raffray
+0;57.6292,-20.0014;MU-19;Rivière du Rempart;Petit Paquet
+0;57.4336,-20.1756;MU-12;Black River;Petit Verger
+5331;57.4459,-20.1955;MU-12;Black River;Petite Rivière
+1525;57.3710,-20.4040;MU-12;Black River;Petite Case Noyale
+0;57.7175,-20.3711;MU-14;Grand Port;Pavillon du Grand Port
+9682;57.5703,-20.1039;MU-16;Pamplemousses;Pamplemousses
+0;57.3844,-20.2822;MU-12;Black River;Palmyre
+0;57.4442,-20.2792;MU;;Palma
+10622;57.4883,-20.1927;MU-15;Moka;Pailles
+3980;57.7310,-20.2878;MU-13;Flacq;Olivia
+7238;57.5611,-20.3706;MU-14;Grand Port;Nouvelle France
+3959;57.5597,-20.1430;MU-16;Pamplemousses;Notre Dame
+11023;57.6136,-20.4086;MU-14;Grand Port;New Grove
+0;57.4900,-20.2172;MU-15;Moka;Mount Ory
+0;57.4000,-20.3000;MU-12;Black River;Mon Vallon
+5909;57.6303,-20.0903;MU-19;Rivière du Rempart;Piton
+0;57.6308,-20.2389;MU;;Mont Ida
+0;57.4744,-20.4789;MU-20;Savanne;Mont Blanc
+9440;57.6587,-20.2854;MU;;Montagne Blanche
+0;57.5739,-20.0906;MU-16;Pamplemousses;Mon Rocher
+0;57.6244,-20.0892;MU-19;Rivière du Rempart;Mon Piton
+0;57.6192,-20.0328;MU-18;Port Louis;Mon Loisir
+0;57.5897,-20.1175;MU-16;Pamplemousses;Mon Goût
+0;57.5353,-20.2263;MU-15;Moka;Mon Désert
+0;57.3544,-20.4478;MU-12;Black River;Moka
+9364;57.5108,-20.2190;MU-15;Moka;Moka
+0;57.5136,-20.2403;MU-15;Moka;Minissy
+4546;57.5670,-20.3380;MU-17;Plaines Wilhems;Midlands
+0;57.6744,-20.0194;MU-19;Rivière du Rempart;Melville
+2002;57.6319,-20.2697;MU-15;Moka;Melrose
+0;57.3889,-20.2603;MU-12;Black River;Médine
+0;57.6425,-20.2422;MU-13;Flacq;Médine
+0;57.5886,-20.4358;MU-14;Grand Port;Mare Tabac
+0;57.6764,-20.2478;MU-13;Flacq;Mare Jacot
+0;57.6320,-20.4240;MU-14;Grand Port;Mare d’Albert
+0;57.5747,-20.1081;MU-16;Pamplemousses;Maison Blanche
+17042;57.7000,-20.4081;MU-14;Grand Port;Mahébourg
+0;57.6672,-20.2328;MU-13;Flacq;L’Unité
+0;57.5386,-20.5050;MU-20;Savanne;L’Union
+0;57.4667,-20.5000;MU;;L’Union
+0;57.4500,-20.4667;MU-20;Savanne;Luchon
+7775;57.5730,-20.1510;MU-16;Pamplemousses;Long Mountain
+0;57.6586,-20.4733;MU-14;Grand Port;Ligne Barrin
+0;57.6208,-20.3547;MU-14;Grand Port;Le Val
+0;57.7031,-20.3044;MU-13;Flacq;L’Étoile
+0;57.6750,-20.2894;MU-13;Flacq;Lesur
+7899;57.6122,-20.4700;MU-14;Grand Port;L’Escalier
+0;57.5822,-20.1900;MU-15;Moka;L’Escalier
+0;57.4939,-20.2344;MU-15;Moka;Réduit
+0;57.5975,-20.1147;MU-16;Pamplemousses;Le Plessis
+0;57.4972,-20.1136;MU-16;Pamplemousses;Léonbourg
+0;57.4681,-20.4253;MU-20;Savanne;Le Marres
+0;57.6986,-20.4447;MU-14;Grand Port;Le Chaland
+0;57.3561,-20.4425;MU-12;Black River;Lavilléon
+0;57.5967,-20.2436;MU-15;Moka;La Russie
+0;57.4667,-20.2000;MU;;La Rotraite
+0;57.6169,-20.4136;MU-14;Grand Port;La Rosa
+0;57.6317,-20.4258;MU-14;Grand Port;La Rampe - Le Moirt
+0;57.7381,-20.2872;MU-13;Flacq;La Nourrice
+0;57.6500,-20.1333;MU-19;Rivière du Rempart;La Morue
+0;57.3894,-20.2486;MU-12;Black River;La Mecque
+0;57.6419,-20.1567;MU-13;Flacq;La Marre
+0;57.4850,-20.3350;MU-17;Plaines Wilhems;La Marie
+0;57.7356,-20.2597;MU-13;Flacq;La Lucie
+10641;57.6611,-20.1897;MU-13;Flacq;Lalmatie
+0;57.5518,-20.2031;MU-15;Moka;La Laura
+0;57.7244,-20.2136;MU-13;Flacq;La Gaiété
+7468;57.5619,-20.2448;MU-15;Moka;Dagotière
+0;57.4783,-20.3186;MU-17;Plaines Wilhems;La Croisée
+0;57.3794,-20.4194;MU-12;Black River;La Crete
+0;57.5016,-20.1316;MU-16;Pamplemousses;La Cocoterie
+0;57.6100,-20.0683;MU-19;Rivière du Rempart;Labourdonnais
+0;57.3167,-20.4333;MU-12;Black River;Labonté
+0;57.5253,-20.1133;MU-16;Pamplemousses;La Bergerie
+0;57.6194,-20.4669;MU-14;Grand Port;La Barraque
+0;57.5800,-20.4411;MU-14;Grand Port;Joli Bois
+0;57.6803,-20.0742;MU-19;Rivière du Rempart;Île d’Ambre
+0;57.6000,-20.2667;MU-15;Moka;Hervé
+0;57.7025,-20.2608;MU-13;Flacq;Hermitage
+0;57.5391,-20.2759;MU-15;Moka;Hermitage
+0;57.5500,-20.2500;MU-15;Moka;Hermitage
+0;57.4664,-20.3356;MU-17;Plaines Wilhems;Henrietta
+0;57.5181,-20.2222;MU-15;Moka;Helvétia
+0;57.6981,-20.0969;MU-19;Rivière du Rempart;Haute Rive
+0;57.6681,-20.2028;MU-13;Flacq;Haut de Flacq
+0;57.6072,-20.4378;MU-14;Grand Port;Gros Bois
+0;57.6031,-20.4164;MU-14;Grand Port;Gros Billot
+2208;57.7644,-20.3142;MU-14;Grand Port;Grand Sable
+0;57.4765,-20.1779;MU-18;Port Louis;Grand River North West
+0;57.6047,-20.1314;MU-16;Pamplemousses;Grande Rosalie
+2472;57.7758,-20.2861;MU-13;Flacq;Grande Rivière Sud Est
+0;57.6767,-20.1656;MU-13;Flacq;Grande Retraite
+7706;57.6608,-20.0064;MU-19;Rivière du Rempart;Grand Gaube
+0;57.3693,-20.4135;MU-12;Black River;Grande Case Noyale
+12173;57.5802,-20.0182;MU-19;Rivière du Rempart;Grand Baie
+7804;57.5442,-20.4189;MU-20;Savanne;Grand Bois
+21063;57.6506,-20.0384;MU-19;Rivière du Rempart;Goodlands
+0;57.6469,-20.1042;MU-19;Rivière du Rempart;Gokoola
+0;57.6258,-20.0644;MU-19;Rivière du Rempart;Forbach
+5796;57.5840,-20.0473;MU-16;Pamplemousses;Fond du Sac
+0;57.5008,-20.3094;MU-17;Plaines Wilhems;Floréal
+2010;57.3720,-20.2780;MU-12;Black River;Flic en Flac
+2323;57.6419,-20.0697;MU-19;Rivière du Rempart;Espérance Trébuchet
+0;57.5471,-20.3429;MU-17;Plaines Wilhems;Seizième Mille
+0;57.6236,-20.3736;MU-14;Grand Port;Eau Bleue
+0;57.6311,-20.4014;MU-14;Grand Port;Deux Bras
+0;57.7328,-20.2792;MU-13;Flacq;Deep River
+0;57.6853,-20.3972;MU-14;Grand Port;Dalais
+78618;57.5259,-20.3163;MU-17;Plaines Wilhems;Curepipe
+3097;57.5633,-20.1935;MU-16;Pamplemousses;Crève Coeur
+0;57.5356,-20.2494;MU-15;Moka;Côte d’Or
+0;57.3545,-20.4347;MU-12;Black River;Coteau Raffin
+0;57.6381,-20.2378;MU-13;Flacq;Coquinbourg
+0;57.7086,-20.1778;MU-13;Flacq;Constance
+1835;57.7061,-20.2639;MU-13;Flacq;Clémencia
+0;57.3925,-20.2978;MU-12;Black River;Clarence
+0;57.5432,-20.2224;MU-15;Moka;Circonstance
+0;57.3731,-20.4794;MU-20;Savanne;Choisy
+12457;57.4656,-20.4872;MU-20;Savanne;Chemin Grenier
+0;57.4580,-20.2030;MU-17;Plaines Wilhems;Chébel
+0;57.5201,-20.2171;MU-15;Moka;Chantenay
+4913;57.4661,-20.4822;MU-20;Savanne;Chamouny
+723;57.3839,-20.4225;MU-12;Black River;Chamarel
+17710;57.7144,-20.1897;MU-13;Flacq;Centre de Flacq
+0;57.6447,-20.3717;MU-14;Grand Port;Cent Gaulettes
+0;57.3947,-20.2947;MU-12;Black River;Cazela
+2613;57.4072,-20.2869;MU-12;Black River;Cascavelle
+4803;57.6142,-19.9842;MU-19;Rivière du Rempart;Cap Malheureux
+2299;57.6161,-20.2147;MU-15;Moka;Camp Thorel
+0;57.6667,-20.2333;MU-13;Flacq;Camp Sonah
+0;57.4017,-20.3300;MU-12;Black River;Camp Malgache
+0;57.5211,-20.2869;MU-17;Plaines Wilhems;Camp Fouquereaux
+5082;57.5789,-20.4628;MU-20;Savanne;Camp Diable
+2721;57.6760,-20.2360;MU-13;Flacq;Camp de Masque
+0;57.5933,-20.1328;MU-16;Pamplemousses;Camp Créole
+0;57.6611,-20.4639;MU-14;Grand Port;Camp Accacia
+0;57.3831,-20.4289;MU-12;Black River;Cachette
+7696;57.6467,-20.1639;MU-13;Flacq;Brisée Verdière
+0;57.6697,-20.4650;MU-14;Grand Port;Le Bouchon
+0;57.5878,-20.2381;MU-15;Moka;Bonne Veine
+0;57.7122,-20.2006;MU-13;Flacq;Camp Garreau
+0;57.6203,-20.0861;MU-19;Rivière du Rempart;Bon Espoir
+0;57.4175,-20.4836;MU-20;Savanne;Bon Courage
+0;57.5619,-20.0619;MU-16;Pamplemousses;Bon Air
+6553;57.6720,-20.1750;MU-13;Flacq;Bon Accueil
+0;57.5103,-20.4414;MU-20;Savanne;Bois Sec
+0;57.5831,-20.0814;MU-16;Pamplemousses;Bois Rouge
+0;57.5331,-20.1233;MU-16;Pamplemousses;Bois Marchand
+0;57.5825,-20.0642;MU-16;Pamplemousses;Bois Mangue
+0;57.6000,-20.4131;MU-14;Grand Port;Bois d’Oiseaux
+0;57.7350,-20.2978;MU-13;Flacq;Bois d’Oiseaux
+0;57.6850,-20.1625;MU-13;Flacq;Bois d’Oiseaux
+1986;57.7311,-20.3631;MU-14;Grand Port;Bois des Amourettes
+0;57.5325,-20.4194;MU-20;Savanne;Bois Chéri
+0;57.5831,-20.4969;MU-20;Savanne;Bénarès
+0;57.6639,-20.1961;MU-13;Flacq;Belvédère
+2417;57.4061,-20.5022;MU-20;Savanne;Bel Ombre
+0;57.6586,-20.0450;MU-19;Rivière du Rempart;Belmont
+4518;57.5836,-20.0549;MU-16;Pamplemousses;Belle Vue Pilot
+7607;57.5942,-20.0658;MU-16;Pamplemousses;Belle Vue Harel
+0;57.7222,-20.3692;MU-14;Grand Port;Belle Vue
+0;57.4117,-20.1950;MU-12;Black River;Belle Vue
+7607;57.6636,-20.1203;MU-19;Rivière du Rempart;Belle Vue Maurel
+0;57.7264,-20.2617;MU-13;Flacq;Belle Rose
+0;57.5183,-20.2150;MU-15;Moka;Belle Rose
+0;57.7274,-20.3111;MU-13;Flacq;Belle Rive
+0;57.3833,-20.2500;MU-12;Black River;Belle Isle
+0;57.6564,-20.2397;MU-13;Flacq;Bel Étang
+0;57.5706,-20.5006;MU-20;Savanne;Bel Air
+0;57.6801,-20.4094;MU-14;Grand Port;Grand Bel Air
+18036;57.7498,-20.2578;MU-13;Flacq;Bel Air Rivière Sèche
+7016;57.7035,-20.4232;MU-14;Grand Port;Beau Vallon
+0;57.6633,-20.3678;MU-14;Grand Port;Beau Site
+0;57.6286,-20.0947;MU;;Beau Séjour
+0;57.5683,-20.0942;MU-16;Pamplemousses;Beau Plan
+0;57.6011,-19.9839;MU-19;Rivière du Rempart;Beau Manguier
+0;57.6433,-20.4450;MU-14;Grand Port;Beau Fond
+0;57.4336,-20.4981;MU-20;Savanne;Beau Champ
+0;57.7664,-20.2714;MU-13;Flacq;Beau Champ
+0;57.5661,-20.2077;MU-15;Moka;Beau Bois
+111355;57.4661,-20.2333;MU-17;Plaines Wilhems;Beau Bassin-Rose Hill
+0;57.5675,-20.4814;MU-20;Savanne;Batimarais
+0;57.5693,-20.1729;MU-16;Pamplemousses;Robinson
+0;57.5751,-20.2370;MU-15;Moka;Bar le Duc
+0;57.3731,-20.3203;MU-12;Black River;Barachois
+17818;57.4061,-20.2567;MU-12;Black River;Bambous
+0;57.7300,-20.2914;MU-13;Flacq;Baie Mannioc
+0;57.5205,-20.2554;MU-17;Plaines Wilhems;Bagatelle
+0;57.4938,-20.2215;MU-15;Moka;Bagatelle
+0;57.6289,-20.3908;MU-14;Grand Port;Astroea
+0;57.7294,-20.1981;MU-13;Flacq;Argy
+0;57.6342,-20.1217;MU-19;Rivière du Rempart;Antoinette
+0;57.5667,-20.1500;MU-16;Pamplemousses;Amitié
+0;57.6639,-20.1094;MU-19;Rivière du Rempart;Amitié
+0;57.5746,-20.2409;MU-15;Moka;Alma
+3254;57.4077,-20.2081;MU-12;Black River;Albion
+6171;57.6767,-20.1458;MU-13;Flacq;Laventure
+0;57.3706,-20.4883;MU-20;Savanne;Baie du Cap
+0;57.6717,-20.4475;MU-14;Grand Port;Mon Trésor - Mon Désert
+1629;57.6039,-20.3669;MU-14;Grand Port;Cluny
+0;57.7364,-20.3550;MU-14;Grand Port;Providence
+0;57.6025,-20.1203;MU-16;Pamplemousses;Petite Rosalie
+0;57.5875,-20.1119;MU-16;Pamplemousses;Madame Cayeux
+0;57.5703,-20.1147;MU-16;Pamplemousses;Camp des Embrevades
+0;57.6356,-20.0864;MU-19;Rivière du Rempart;L’Espérance
+0;57.6478,-20.0769;MU-19;Rivière du Rempart;Poudre d’Or Hamlet
+3646;57.6292,-20.0597;MU-19;Rivière du Rempart;Cottage
+0;57.6664,-20.0158;MU-19;Rivière du Rempart;Germain
+0;57.6611,-20.0300;MU-19;Rivière du Rempart;Madame Azor
+0;57.6497,-20.0303;MU-19;Rivière du Rempart;Mamzelle Jeanne
+0;57.6089,-19.9897;MU-19;Rivière du Rempart;Pavillon
+5000;57.5885,-19.9988;MU-19;Rivière du Rempart;Péreybère
+0;57.5214,-20.0536;MU-16;Pamplemousses;Camp Bestel
+7556;57.5235,-20.0649;MU-16;Pamplemousses;Pointe aux Piments
+0;57.5175,-20.1039;MU-16;Pamplemousses;Petit Gamin
+15301;57.4914,-20.1194;MU-16;Pamplemousses;Baie du Tombeau
+0;57.5446,-20.1324;MU-16;Pamplemousses;Bois Pignolet
+0;57.5714,-20.1473;MU-16;Pamplemousses;Baillache
+0;57.5749,-20.1565;MU-16;Pamplemousses;Ruisseau Rose
+0;57.5833,-20.1483;MU-16;Pamplemousses;Belvédère
+1956;57.5908,-20.1489;MU-16;Pamplemousses;Congomah
+0;57.5836,-20.1642;MU-16;Pamplemousses;Les Mariannes
+0;57.5725,-20.1300;MU-16;Pamplemousses;Îlot
+0;57.5892,-20.1269;MU-16;Pamplemousses;D’Epinay
+0;57.6183,-20.1386;MU-16;Pamplemousses;Petite Julie
+0;57.6344,-20.1361;MU-19;Rivière du Rempart;Mon Songe
+0;57.6478,-20.1242;MU-19;Rivière du Rempart;Barlow
+0;57.6650,-20.1358;MU;;Bois Jacot
+2912;57.6592,-20.1308;MU-19;Rivière du Rempart;Amaury
+4218;57.6908,-20.1117;MU-19;Rivière du Rempart;Plaines des Roches
+0;57.6406,-20.1528;MU-13;Flacq;Mare d’Australia
+0;57.6764,-20.1028;MU-19;Rivière du Rempart;La Clémence
+0;57.6847,-20.0811;MU-19;Rivière du Rempart;Hermitage
+0;57.7253,-20.1675;MU-13;Flacq;Camp Poorun
+0;57.7281,-20.1789;MU-13;Flacq;Providence
+0;57.7322,-20.1886;MU-13;Flacq;Camp Bouillon
+2058;57.7494,-20.1981;MU-13;Flacq;Mare La Chaux
+0;57.7786,-20.1996;MU-13;Flacq;Belle Mare
+5724;57.7745,-20.2015;MU-13;Flacq;Quatre Cocos
+0;57.7481,-20.2078;MU-13;Flacq;Isidore Rose
+4401;57.7456,-20.2158;MU-13;Flacq;Camp Ithier
+0;57.7306,-20.2097;MU-13;Flacq;Bramsthan
+0;57.7119,-20.1872;MU-13;Flacq;Saint Remy
+0;57.7899,-20.2110;MU-13;Flacq;Palmar
+0;57.7208,-20.3083;MU-13;Flacq;La Commune
+0;57.6961,-20.2089;MU-13;Flacq;Camp Bonnemère
+5952;57.7361,-20.2261;MU-13;Flacq;Ecroignard
+0;57.7550,-20.2414;MU-13;Flacq;Petit Bois
+0;57.7467,-20.2458;MU-13;Flacq;La Caroline
+0;57.7592,-20.2642;MU-13;Flacq;Ernest Florent
+0;57.7608,-20.3039;MU-13;Flacq;Marie Jeanne
+0;57.7733,-20.3058;MU-13;Flacq;Pointe aux Feuilles
+0;57.7711,-20.2867;MU-13;Flacq;Deux Frères
+0;57.6978,-20.2986;MU-13;Flacq;Clavet
+0;57.6792,-20.2775;MU-13;Flacq;Pellegrin
+0;57.6689,-20.2519;MU-13;Flacq;Petite Cabane
+0;57.6830,-20.2500;MU-13;Flacq;Camp de Masque Pave
+0;57.6856,-20.2044;MU-13;Flacq;Union Flacq
+0;57.6986,-20.1883;MU-13;Flacq;Belle Vue Allendy
+0;57.6667,-20.1811;MU-13;Flacq;Grand dans Fond
+0;57.6596,-20.1785;MU-13;Flacq;Belvédère
+0;57.7625,-20.3233;MU-14;Grand Port;Pointe aux Roches
+0;57.7600,-20.3286;MU-14;Grand Port;Petit Sable
+1540;57.7575,-20.3428;MU-14;Grand Port;Bambous Virieux
+0;57.7453,-20.3475;MU-14;Grand Port;Anse Jonchée
+0;57.6978,-20.3681;MU-14;Grand Port;Ferney
+0;57.6825,-20.3619;MU-14;Grand Port;Le Vallon
+0;57.6556,-20.3881;MU-14;Grand Port;Camp Jardin
+1000;57.6951,-20.3999;MU-14;Grand Port;Petit Bel Air
+0;57.6962,-20.4083;MU-14;Grand Port;Ville Noire
+0;57.7269,-20.4304;MU-14;Grand Port;Pointe d’Esny
+0;57.6708,-20.4575;MU-14;Grand Port;Camp Carol
+0;57.6411,-20.4489;MU-14;Grand Port;Trois Boutiques
+0;57.6211,-20.4575;MU-14;Grand Port;Plein Bois
+0;57.6128,-20.4783;MU-14;Grand Port;La Sourdine
+0;57.5736,-20.3864;MU-14;Grand Port;Union Park
+0;57.5819,-20.3928;MU-14;Grand Port;Balisson
+0;57.5881,-20.3961;MU-14;Grand Port;Marie Jeanie
+0;57.5864,-20.3728;MU-14;Grand Port;Bémanique
+0;57.6408,-20.3736;MU-14;Grand Port;Saint Hilaire
+0;57.6342,-20.3606;MU-14;Grand Port;Sainte Madeleine
+0;57.5575,-20.4503;MU-20;Savanne;Britannia
+0;57.5508,-20.4375;MU-20;Savanne;Saint Avold
+0;57.5519,-20.4425;MU-20;Savanne;Camp Berthaud
+0;57.5500,-20.5011;MU-20;Savanne;Senneville
+0;57.5369,-20.4606;MU-20;Savanne;Beau Bois
+0;57.5519,-20.4761;MU-20;Savanne;Tyack
+0;57.5144,-20.5061;MU-20;Savanne;Terracine
+0;57.5000,-20.5150;MU-20;Savanne;Riambel
+0;57.4803,-20.5094;MU-20;Savanne;Pomponnette
+0;57.5353,-20.4986;MU-20;Savanne;Fontenelle
+0;57.4606,-20.5017;MU-20;Savanne;Saint Felix
+0;57.4367,-20.4581;MU-20;Savanne;Valruche
+0;57.4583,-20.4908;MU-20;Savanne;Valentina
+0;57.3364,-20.4642;MU-12;Black River;L’Embrasure
+0;57.3608,-20.4279;MU-12;Black River;La Gaulette
+0;57.5536,-20.4103;MU-20;Savanne;La Flora
+652;57.5886,-20.3467;MU-14;Grand Port;Bananes
+0;57.5375,-20.3296;MU-17;Plaines Wilhems;Forest Side
+0;57.5186,-20.2992;MU-17;Plaines Wilhems;Engrais Cathan
+0;57.5094,-20.3003;MU-17;Plaines Wilhems;Engrais Martial
+0;57.5117,-20.2903;MU-17;Plaines Wilhems;Mesnil
+0;57.5239,-20.2814;MU-17;Plaines Wilhems;Saint Antoine
+0;57.5278,-20.2694;MU-17;Plaines Wilhems;Belle Terre
+0;57.5309,-20.2710;MU-17;Plaines Wilhems;Cinq Arpents
+0;57.4975,-20.2698;MU-17;Plaines Wilhems;Petit Camp
+0;57.5019,-20.3200;MU-17;Plaines Wilhems;Camp Caval
+0;57.4653,-20.3322;MU-17;Plaines Wilhems;Camp Mapou
+0;57.4686,-20.3250;MU-17;Plaines Wilhems;Camp La Savanne
+0;57.4678,-20.3219;MU-17;Plaines Wilhems;Camp Roches
+0;57.4783,-20.3211;MU-17;Plaines Wilhems;Glen Park
+0;57.4675,-20.3097;MU-17;Plaines Wilhems;Holyrood
+0;57.4986,-20.3261;MU-17;Plaines Wilhems;Les Casernes
+0;57.4764,-20.2806;MU-17;Plaines Wilhems;Carreau La Liane
+0;57.4625,-20.2711;MU-17;Plaines Wilhems;La Source
+0;57.4597,-20.2503;MU-17;Plaines Wilhems;Stanley
+1001;57.4916,-20.2449;MU-17;Plaines Wilhems;Ebene
+0;57.4609,-20.2421;MU-17;Plaines Wilhems;Plaisance
+0;57.4705,-20.2047;MU-17;Plaines Wilhems;Belle Étoile
+0;57.4194,-20.2781;MU-12;Black River;Beaux Songes
+0;57.4119,-20.2589;MU-12;Black River;Eau Bonne
+0;57.3567,-20.3414;MU-12;Black River;La Mivoie
+0;57.3722,-20.3897;MU-12;Black River;Petite Rivière Noire
+0;57.4217,-20.2175;MU-12;Black River;Canot
+0;57.4089,-20.2044;MU-12;Black River;Camp Créoles
+3361;57.4300,-20.2072;MU-12;Black River;Gros Cailloux
+0;57.5660,-20.1894;MU-16;Pamplemousses;Melotte
+0;57.5669,-20.1824;MU-16;Pamplemousses;Caroline
+1288;57.6014,-20.0758;MU-19;Rivière du Rempart;Mapou
+0;57.5819,-20.1872;MU-15;Moka;Nouvelle Découverte
+0;57.6100,-20.1744;MU-15;Moka;Salazie
+0;57.5528,-20.2183;MU-15;Moka;L’Avenir
+0;57.5061,-20.2290;MU-15;Moka;Telfair
+0;57.5542,-20.2516;MU-15;Moka;L’Assurance
+0;57.5958,-20.2308;MU-15;Moka;Espérance
+0;57.5847,-20.2550;MU-15;Moka;Vuillemin
+0;57.6553,-20.2747;MU-15;Moka;Petit Paquet
+2726;57.5986,-20.3013;MU-15;Moka;Dubreuil
+0;57.5346,-20.2415;MU-15;Moka;Camp Auguste
+0;57.5247,-20.3092;MU-17;Plaines Wilhems;Malherbes
+0;57.5175,-20.3042;MU-17;Plaines Wilhems;Eaux Coulée
+0;57.4756,-20.2878;MU-17;Plaines Wilhems;Bonne Terre
+0;57.4905,-20.2594;MU-17;Plaines Wilhems;Pellegrin
+0;57.4494,-20.2203;MU-17;Plaines Wilhems;Barkly
+0;57.4797,-20.1632;MU-18;Port Louis;Bain des Dames
+15662;57.5301,-20.1386;MU-16;Pamplemousses;Le Hochet
+0;57.5475,-20.1206;MU-16;Pamplemousses;Khoyratty
+4648;57.5539,-20.1117;MU-16;Pamplemousses;Calebasses
+0;57.5497,-20.1111;MU-16;Pamplemousses;L’Espoir
+2599;57.5353,-20.1056;MU-16;Pamplemousses;Arsenal
+0;57.5106,-20.1008;MU-16;Pamplemousses;Le Goulet
+0;57.4684,-20.1934;MU-17;Plaines Wilhems;Coromandel
+0;57.4967,-20.2775;MU-17;Plaines Wilhems;River Side
+0;57.5044,-20.2878;MU-17;Plaines Wilhems;Saint Paul
+0;57.3783,-20.2650;MU-12;Black River;Anna
+0;63.4667,-19.6667;MU;;Vainqueur
+0;63.4667,-19.6833;MU;;Trèfles
+0;63.4333,-19.7000;MU-23;Rodrigues;Saint Gabriel
+0;63.4000,-19.7000;MU-23;Rodrigues;Quatre Vents
+0;63.4500,-19.7500;MU-23;Rodrigues;Port Sud-Est
+8350;63.4167,-19.6833;MU-23;Rodrigues;Port Mathurin
+0;63.4167,-19.7167;MU-23;Rodrigues;Petit Gabriel
+0;63.4625,-19.7111;MU-23;Rodrigues;Petit Brûlé
+0;63.4500,-19.6833;MU;;Paves
+0;63.4694,-19.7111;MU-23;Rodrigues;Nouvelle Découverte
+0;63.4472,-19.7139;MU-23;Rodrigues;Lataniers
+0;63.3833,-19.7000;MU-23;Rodrigues;La Ferme
+0;63.4306,-19.6806;MU-23;Rodrigues;Crève Coeur
+0;63.4750,-19.7139;MU-23;Rodrigues;Coromandel
+0;63.4500,-19.6833;MU;;Bambou
+0;63.3819,-19.7389;MU-23;Rodrigues;La Fouche
+0;63.3833,-19.7500;MU-23;Rodrigues;Petite Butte
+0;63.4111,-19.7403;MU-23;Rodrigues;Rivière Cocos
+0;63.3917,-19.7167;MU-23;Rodrigues;Mangue
+2500;63.4083,-19.6944;MU-23;Rodrigues;Baie aux Huîtres
+0;63.3944,-19.7333;MU-23;Rodrigues;Maréchal
+0;63.4486,-19.6778;MU-23;Rodrigues;Grand Baie
+0;63.4306,-19.6750;MU-23;Rodrigues;Anse aux Anglais
+0;63.4708,-19.6917;MU-23;Rodrigues;Roche Bon Dieu
+0;63.4667,-19.7125;MU-23;Rodrigues;Grande Montagne
+0;63.4833,-19.7000;MU-23;Rodrigues;Patate Théophile
+0;63.4833,-19.7278;MU-23;Rodrigues;Petit Gravier
+0;63.4417,-19.7000;MU-23;Rodrigues;Citronelle
+0;63.4417,-19.7083;MU-23;Rodrigues;Mont Lubin
+0;63.3598,-19.7539;MU-23;Rodrigues;Plaine Corail
+0;63.4167,-19.7292;MU-23;Rodrigues;Citron Donis
+0;63.3611,-19.7292;MU-23;Rodrigues;Baie Topaze
+0;63.4250,-19.6889;MU-23;Rodrigues;Camp du Roi
+0;63.4542,-19.7028;MU-23;Rodrigues;Chameaux
+0;63.4667,-19.7028;MU-23;Rodrigues;Brûlé
+0;63.4542,-19.7111;MU-23;Rodrigues;Palissade Ternel
+0;63.4750,-19.7167;MU-23;Rodrigues;Saint Louis
+0;63.4222,-19.7319;MU-23;Rodrigues;Eau Vannée
+0;63.4417,-19.7389;MU-23;Rodrigues;Songe
+0;63.4667,-19.7361;MU-23;Rodrigues;Bassin Cabri
+0;63.4375,-19.6861;MU-23;Rodrigues;Solitude
+0;63.4292,-19.7056;MU-23;Rodrigues;Soupir
+0;57.5157,-20.0833;MU;;Balaclava
+0;57.3262,-20.4449;MU-12;Black River;Le Morne
+63;59.6585,-16.6033;MU-22;Cargados Carajos;Cargados Carajos
+0;57.6170,-20.1576;MU;;La Nicoliere
+0;57.5524,-20.3479;MU;;Belle Rive
+0;57.5232,-20.3202;MU;;Saint-Joseph
+0;57.7191,-20.4410;MU;;Blue bay
+0;57.4855,-20.2062;MU;;Soreze
+0;57.7521,-20.1382;MU;;Poste Lafayette
+0;57.6062,-19.9877;MU;;Bain Boeuf
+6252;57.6425,-20.0022;MU-19;Rivière du Rempart;Calodyne
+6060;57.6320,-19.9906;MU;;Anse La Raye
+0;57.4464,-20.2339;MU;;Mont Roches
+0;57.3985,-20.5066;MU;;St Martin
+0;63.3653,-19.7473;MU;;Cascade Jean Louis
+11910;57.5802,-20.0184;MU;;Lallmatie
+0;57.5513,-20.2829;MU-15;Moka;Belle Rive
+0;57.5193,-20.2739;MU;;Morcellement Lonrho
+0;57.4659,-20.2061;MU;;Camp Levieux
+250;56.6180,-10.3880;MU-21;Agalega Islands;Vingt Cinq
+0;57.5247,-20.1331;MU-16;Pamplemousses;Riche Terre
+0;57.5722,-20.1676;MU-16;Pamplemousses;Boulingrin
+0;57.5627,-20.1729;MU-16;Pamplemousses;Thomassin
+0;57.5634,-20.1897;MU-16;Pamplemousses;Tosca
+0;57.5604,-20.1997;MU-15;Moka;Malenga
+9178;57.4595,-20.1932;MU-12;Black River;Richelieu
+0;57.5050,-20.2212;MU-15;Moka;Camp Samy
+0;57.5164,-20.2191;MU-15;Moka;Bois Chéri
+0;57.5122,-20.2254;MU-15;Moka;Gentilly
+0;57.4986,-20.2303;MU-15;Moka;Martindale

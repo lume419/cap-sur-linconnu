@@ -1,0 +1,33 @@
+en;Nchumbe;Sikana
+en;Nkhoma;Nkoma
+en;Nambera;Nambela
+ar;مزوزو;Mzuzu
+en;Belele;Mzamu
+en;Msampa;Msampha
+en;Mduku;Mduka
+en;Mchereka;Mcheleka
+en;Maji Kapotwe;Majikapotwe
+en;Maglas;Magalasi
+es;Lilongüe;Lilongwe
+ar;ليلونغوي;Lilongwe
+en;Kunundura;Kanyindula
+en;Kunjawa;Kumbuyo
+en;Folotia;Folotiya
+en;Chipezi;Chiphesi
+es;Cabo Maclear;Cape Maclear
+ar;بلانتاير;Blantyre
+en;Barton Mzima;Barton Nzima
+en;Mwenechipwela I;Mwenechipwela One
+en;Timothy Kaira I;Timothy Kaira One
+en;Timothy Kaira II;Timothy Kaira Two
+en;Mvumo II;Mvumo Two
+en;Mvumo I;Mvumo One
+en;Mwenewenya III;Mwenewenya Three
+en;Mwenewenya II;Mwenewenya Two
+en;Saint Pauls;St. Pauls
+en;St. Ann’s;Saint Ann’s
+en;Kambanda 1;Kambanda One
+en;Chabvunga II;Chabvunga Two
+en;M’zuma II;M’zuma Two
+en;Sankhani III;Sankhani Three
+en;M’dzuwadzuwa;Dzuwadzuwa

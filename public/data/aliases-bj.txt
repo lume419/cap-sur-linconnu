@@ -1,0 +1,52 @@
+fr;Tchatingou;Tiatingou
+fr;Séri;Siri
+de;Porto Novo;Porto-Novo
+es;Porto Novo;Porto-Novo
+fr;Porto Novo;Porto-Novo
+am;ፖርቶ ኖቮ;Porto-Novo
+ar;بورتو نوفو;Porto-Novo
+so;Borto-Novo;Porto-Novo
+ar;باراكو;Parakou
+am;ፓራኩ;Parakou
+nl;São João Baptista de Ajudá;Ouidah
+pt;Fortaleza de São João Baptista de Ajudá;Ouidah
+ar;ناتيتينغو;Natitingou
+am;ናቲቲንጉ;Natitingou
+ar;لوكوسا;Lokossa
+am;ሎኮሳ;Lokossa
+ar;كاندي;Kandi
+am;ካንዲ;Kandi
+ar;جوجو;Djougou
+am;ጁጉ;Djougou
+en;Dassa-Zoume;Dassa-Zoumè
+ar;دسا-زومة;Dassa-Zoumè
+es;Dassa-Zoume;Dassa-Zoumè
+fr;Dassa-Zoumé;Dassa-Zoumè
+am;ዳሳ-ዙሜ;Dassa-Zoumè
+de;Dassa-Zoume;Dassa-Zoumè
+ha;Dassa-Zoume;Dassa-Zoumè
+om;Dassa-Zoume;Dassa-Zoumè
+pt;Dassa-Zoume;Dassa-Zoumè
+so;Dassa-Zoume;Dassa-Zoumè
+es;Cotonú;Cotonou
+ar;كوتونو;Cotonou
+yo;Kútọnu;Cotonou
+en;Atokou;Akatakou
+nl;Atokou;Akatakou
+fr;Ponto Arhan;Arlan
+en;Aplahoue;Aplahoué
+ar;أبلاهو;Aplahoué
+es;Aplahoue;Aplahoué
+am;አፕላሆ;Aplahoué
+de;Aplahoue;Aplahoué
+ha;Aplahoue;Aplahoué
+om;Aplahoue;Aplahoué
+pt;Aplahoue;Aplahoué
+so;Aplahoue;Aplahoué
+ar;ألادا;Allada
+am;አላዳ;Allada
+en;Krake;Akraké
+pt;Abomei;Abomey
+pt;Palácios Reais de Abomei;Abomey
+ar;أبوميي;Abomey
+am;አቦሜይ;Abomey

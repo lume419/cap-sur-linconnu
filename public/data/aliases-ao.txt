@@ -1,0 +1,122 @@
+ar;سأوريمو;Saurimo
+ar;دوندو;Dundo
+pt;Lóvua;Lóvua do Zambeze
+pt;Lóvua Leste;Lóvua do Zambeze
+ar;ويغ;Uíge
+es;Uige;Uíge
+fr;Uige;Uíge
+de;Uige;Uíge
+pt;Uige;Uíge
+sw;Uige;Uíge
+pt;Buenga-Sul;Quimbianda
+pt;Ambrizette;N'zeto
+ar;ندالاتاندو;N'dalatando
+pt;Ndalatando;N'dalatando
+pt;Muvuluege;Muvulege
+de;Musseque;Muceques
+en;Musseques;Muceques
+fr;Musseque;Muceques
+nl;Musseques;Muceques
+en;Mbanza Congo;Mbanza Kongo
+ar;مبانزا كونغو;Mbanza Kongo
+ar;مالانجي;Malanje
+pt;Nadinba;Madimba
+ln;Lwanda;Luanda
+kg;Lwanda;Luanda
+ar;لواندا;Luanda
+en;Dondo;Mataba
+pt;Cuango;Cuango-Luzamba
+en;Cuango;Cuango-Luzamba
+en;Luzamba;Cuango-Luzamba
+pt;São José das Matas;Coxe
+ar;كاشيتو;Caxito
+pt;Caculo Camuiza;Canhoca
+ar;كابيندا;Cabinda
+pt;Quimbianda;Buenga-Sul
+pt;Corimba;Mussulo
+pt;Cambaxi;Cambaxe
+en;Waco-Kungo;Waku Kungo
+en;Waku-Kungo;Waku Kungo
+en;Uacu Cungo;Waku Kungo
+pt;Tômbwa;Tômbua
+sw;Techamutete;Chamutete
+pt;Chicala;Chicala Choloanga
+ar;سومبي;Sumbe
+pt;Lito;Rito
+pt;Benguella Velha;Porto Amboim
+pt;Porto Hmboim;Porto Amboim
+es;Amboim;Porto Amboim
+en;Port Amboim;Porto Amboim
+pt;Benguela Velha;Porto Amboim
+pt;Benguela-a-Velha;Porto Amboim
+ar;أوندجيفا;Ondjiva
+pt;Nharea;Nharêa
+pt;Omuvandje;Nehone
+ar;موسامديس;Mossamedes
+pt;Moçâmedes;Mossamedes
+ar;مينونجي;Menongue
+pt;Mavué;Maué
+ar;لوينا;Luena
+ar;لوبانغو;Lubango
+kg;Lubitu;Lobito
+ar;وبيتو;Lobito
+de;Kuito;Cuíto
+en;Cuito;Cuíto
+ar;كويتو;Cuíto
+es;Cuito;Cuíto
+fr;Cuito;Cuíto
+sw;Cuito;Cuíto
+pt;Cachiungo;Catchiungo
+pt;Yona;Iona
+ar;هوامبو;Huambo
+pt;Ecunha;Ecunna
+pt;Chongorói;Chongoroi
+pt;Kassinga;Cassinga
+pt;Caieie;Caiei
+pt;Caíla;Bondo Caíla
+ar;بنغيلا;Benguela
+pt;Camboso;Cuilo Camboso
+pt;Cuilo;Cuilo Camboso
+en;Nzagi Andrada;Nzaji
+pt;Nzagi;Nzaji
+pt;Nizage;Nzaji
+pt;Uando;Uando Mucaba
+pt;Fronteira;Cabaca
+pt;Muceque Sequele;Sequele
+pt;Musseque Sequele;Sequele
+pt;Quicolo;Kikolo
+pt;Quixinge Novo;Quixinge
+pt;Muanguegi;Muangueji
+pt;Ngunga Palanga;Cunga Palanga
+pt;Lumbala Guimbo;Lumbala Nguimbo
+pt;Lumbala;Lumbala Nguimbo
+pt;Ukuma;Ucuma
+ar;تشينجينجي;Chinjenje
+pt;Kilamba Kiaxi;Kilamba
+pt;Camuíne;Camuine
+pt;Uaha Baixo;Uaba
+pt;Viti-Vivali;Viti Vivali
+pt;Santo Antonio da Muinha;Muinha
+pt;Sacamo;Petecusso
+pt;Mbawe;Mbave
+pt;Bave;Mbave
+pt;Administração Municipal dos Navegantes;Navegantes
+pt;Cueio;Jamba Cueio
+pt;Kueio;Jamba Cueio
+pt;Jamba-Cueio;Jamba Cueio
+pt;Chipundo;Xipundo
+pt;Quima Quieza;Kima Kieza
+pt;Administração de Mussungue;Mussungue
+pt;Simporo;Tchimporo-Yonde
+pt;Chimpolo-Oximolo;Tchimporo-Yonde
+pt;Quibala-Norte;Quibala Norte
+pt;Kibala Norte;Quibala Norte
+pt;Kibala-Norte;Quibala Norte
+pt;Loge-Quibala;Quibala Norte
+pt;Quibala-Loge;Quibala Norte
+pt;Loge-Kibala;Quibala Norte
+pt;Kibala-Loje;Quibala Norte
+pt;Panguila;Panguíla
+pt;Kaxikane;Caxicane
+pt;Kaxicane;Caxicane
+pt;Kunje;Cunje

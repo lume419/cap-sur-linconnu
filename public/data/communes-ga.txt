@@ -1,0 +1,3926 @@
+0;12.3847,-1.6494;GA-07;Ogooué-Lolo;Zoungui
+0;10.1667,0.2333;GA-01;Estuaire;Zoulameyong
+0;14.0552,1.0966;GA-06;Ogooué-Ivindo;Zoula
+0;13.1000,-1.0333;GA-07;Ogooué-Lolo;Zougouani
+0;11.4940,1.1818;GA-09;Woleu-Ntem;Zoua
+0;10.4130,0.7796;GA-09;Woleu-Ntem;Zorengone
+0;13.2877,0.7553;GA-06;Ogooué-Ivindo;Zoolendé
+0;13.4459,0.2614;GA-06;Ogooué-Ivindo;Zoolendé
+0;13.1000,0.6833;GA-06;Ogooué-Ivindo;Zokosoa
+0;13.3500,0.7833;GA-06;Ogooué-Ivindo;Zokoma
+0;13.6167,0.8667;GA-06;Ogooué-Ivindo;Zokokota
+0;11.8664,2.2110;GA-09;Woleu-Ntem;Zoguéloumou
+0;11.1495,0.9235;GA-09;Woleu-Ntem;Zogomitang
+0;11.5145,1.5629;GA-09;Woleu-Ntem;Zogogone
+0;11.5602,1.7757;GA-09;Woleu-Ntem;Zobeté
+0;10.5833,0.9000;GA-09;Woleu-Ntem;Zobermitang
+0;11.6833,-0.0667;GA-06;Ogooué-Ivindo;Zoanki
+0;12.3603,-1.4638;GA-07;Ogooué-Lolo;Zindzélé
+0;9.7500,-1.6667;GA-08;Ogooué-Maritime;Zilmac
+0;10.8172,-3.5483;GA-05;Nyanga;Zembi-Zanza
+0;10.1989,-2.8705;GA-05;Nyanga;Zangui Mamba
+0;10.7500,0.9500;GA-09;Woleu-Ntem;Zangame
+0;11.5790,1.3697;GA-09;Woleu-Ntem;Zanangoué
+0;11.6333,1.8500;GA-09;Woleu-Ntem;Zamelen II
+0;11.6464,1.8230;GA-09;Woleu-Ntem;Zamelen I
+0;9.4167,-1.6833;GA-08;Ogooué-Maritime;Zambounié
+0;10.6997,-3.4193;GA-05;Nyanga;Zambi Zanza
+0;10.8833,-0.1167;GA-03;Moyen-Ogooué;Zamata
+0;10.1833,0.1000;GA-01;Estuaire;Zamanéné
+0;12.4420,-0.5483;GA-07;Ogooué-Lolo;Zalakouka
+0;11.0927,-3.6810;GA-05;Nyanga;Yoyo
+0;12.6833,-0.9500;GA-07;Ogooué-Lolo;Younga-Younga
+0;11.3039,-3.1405;GA-05;Nyanga;Youmbou
+0;13.9290,-0.8427;GA-02;Haut-Ogooué;Youma
+0;13.7792,-1.7770;GA-02;Haut-Ogooué;Youlou
+0;13.1500,-1.5333;GA-02;Haut-Ogooué;Youlou
+0;12.9000,-1.1000;GA-07;Ogooué-Lolo;Youlou
+0;12.4866,-1.1086;GA-07;Ogooué-Lolo;Youlou
+0;12.6479,-0.8811;GA-07;Ogooué-Lolo;Youlou
+0;12.8267,-1.0114;GA-07;Ogooué-Lolo;Youlandzambi
+0;12.6448,0.7116;GA-06;Ogooué-Ivindo;Youko
+0;9.4167,-1.9000;GA-08;Ogooué-Maritime;Yougou
+0;11.6064,2.0764;GA-09;Woleu-Ntem;Yossé
+0;11.4667,1.8333;GA-09;Woleu-Ntem;Yoss II
+0;11.4819,1.8132;GA-09;Woleu-Ntem;Yoss I
+0;11.7333,-2.1500;GA-04;Ngouni;Yongulssa
+0;9.6932,-0.9837;GA-08;Ogooué-Maritime;Yongodoulongo
+0;11.7000,-3.1000;GA-05;Nyanga;Yongo
+0;11.4167,-2.6167;GA-05;Nyanga;Yongo
+0;9.8500,0.8167;GA-01;Estuaire;Yong
+0;11.9000,-2.2333;GA-04;Ngouni;Yombi
+0;10.6285,-1.4090;GA-04;Ngouni;Yombi
+0;9.4333,-0.9667;GA-08;Ogooué-Maritime;Yombé II
+0;9.4269,-0.9655;GA-08;Ogooué-Maritime;Yombé I
+0;9.4964,-1.9221;GA-08;Ogooué-Maritime;Yombé
+0;8.8931,-0.7456;GA-08;Ogooué-Maritime;Yombé
+0;9.4833,0.6000;GA-01;Estuaire;Yombé
+0;13.8833,0.9833;GA-06;Ogooué-Ivindo;Yoko
+0;12.9008,0.5393;GA-06;Ogooué-Ivindo;Yoko
+0;12.8714,-1.0336;GA-07;Ogooué-Lolo;Yobomamba
+0;11.1764,0.9342;GA-09;Woleu-Ntem;Yinassessogo
+0;11.4333,0.8667;GA-09;Woleu-Ntem;Yinanessogo
+0;11.3741,0.8469;GA-09;Woleu-Ntem;Yianamassok
+0;11.4000,0.8167;GA-09;Woleu-Ntem;Yianamassok
+0;10.4315,-3.0329;GA-05;Nyanga;Yeyena
+0;13.4033,-1.4998;GA-02;Haut-Ogooué;Yéyé
+0;10.6880,-2.1601;GA-04;Ngouni;Yetsou II
+0;10.6978,-2.1421;GA-04;Ngouni;Yetsou I
+0;10.7118,-2.1457;GA-04;Ngouni;Yetsou
+0;9.3423,-1.3447;GA-08;Ogooué-Maritime;Yéno
+0;11.4912,-1.6799;GA-04;Ngouni;Yeno
+0;11.3000,-1.9833;GA-04;Ngouni;Yengui
+0;11.2667,-2.2333;GA-04;Ngouni;Yengué
+0;11.6062,0.3252;GA-06;Ogooué-Ivindo;Yeng
+0;13.5675,-1.6510;GA-02;Haut-Ogooué;Yéné
+0;10.0667,-2.8167;GA-05;Nyanga;Yendji
+0;11.7000,0.9000;GA-09;Woleu-Ntem;Yen
+0;11.3667,-2.6000;GA-05;Nyanga;Yelo
+0;11.2333,-2.4000;GA-04;Ngouni;Yello
+0;10.5000,-0.2333;GA-03;Moyen-Ogooué;Yaraka
+0;11.5167,0.4833;GA-09;Woleu-Ntem;Yanibour
+0;12.1333,2.1667;GA-09;Woleu-Ntem;Yanébot
+0;11.2303,-3.0892;GA-05;Nyanga;Yandji
+0;10.5833,0.0500;GA-01;Estuaire;Yameyang
+0;11.6217,2.0642;GA-09;Woleu-Ntem;Yamemvé
+0;11.6000,2.0833;GA-09;Woleu-Ntem;Yamemvé
+0;11.7000,-1.9667;GA-04;Ngouni;Yamba Boualou
+0;10.9167,-1.8167;GA-04;Ngouni;Yamba III
+0;10.9167,-1.8167;GA-04;Ngouni;Yamba II
+0;13.6500,-2.0667;GA-02;Haut-Ogooué;Yamba
+0;13.7167,-2.0167;GA-02;Haut-Ogooué;Yamba
+0;10.8833,-1.8167;GA-04;Ngouni;Yamba
+0;11.5040,1.6322;GA-09;Woleu-Ntem;Yaffa
+0;11.2667,-2.8500;GA-05;Nyanga;Yabala
+0;11.6634,2.1894;GA-09;Woleu-Ntem;Woumou
+0;11.6500,2.1667;GA-09;Woleu-Ntem;Woumou
+0;13.3667,-1.6333;GA-02;Haut-Ogooué;Wéllé
+0;11.7333,-2.3500;GA-04;Ngouni;Vouvi
+0;12.2549,-2.3366;GA-04;Ngouni;Vouvi
+0;11.1160,-1.2828;GA-04;Ngouni;Vouta
+0;11.7327,-3.2371;GA-05;Nyanga;Voumvou
+0;11.1333,-2.6333;GA-05;Nyanga;Voulougandou
+0;9.6333,0.3333;GA-01;Estuaire;Vonmozel
+0;9.5783,0.9575;GA-01;Estuaire;Vombié
+0;12.1500,0.9167;GA-09;Woleu-Ntem;Vivane
+0;12.4177,0.4693;GA-06;Ogooué-Ivindo;Viong
+0;12.1333,-1.7000;GA-07;Ogooué-Lolo;Ville
+0;10.2333,-0.6000;GA-03;Moyen-Ogooué;Viafé
+0;11.4262,0.3352;GA-09;Woleu-Ntem;Viafé
+0;9.7167,-0.9667;GA-08;Ogooué-Maritime;Veyrié
+0;10.1217,-2.6115;GA-08;Ogooué-Maritime;Véra
+0;13.1000,-1.5500;GA-02;Haut-Ogooué;Vengué
+0;13.9667,1.0167;GA-06;Ogooué-Ivindo;Venelle
+0;12.0167,2.0667;GA-09;Woleu-Ntem;Véma
+0;11.7833,-1.4000;GA-04;Ngouni;Vedi
+0;9.5500,-1.1167;GA-08;Ogooué-Maritime;Vanguenengué
+0;9.5167,-1.6500;GA-08;Ogooué-Maritime;Vandaréne Pahouin
+0;9.5783,-1.6618;GA-08;Ogooué-Maritime;Vandaréne Echira
+0;10.1167,0.2667;GA-01;Estuaire;Vanayémé
+0;11.9833,2.0667;GA-09;Woleu-Ntem;Vama
+0;11.6167,-2.1333;GA-04;Ngouni;Tsoumbi
+0;11.0500,-2.3333;GA-05;Nyanga;Tsouka
+0;12.8667,-1.4500;GA-07;Ogooué-Lolo;Tsotonzala
+0;10.1408,-2.1031;GA-08;Ogooué-Maritime;Tsongo Malongo
+0;10.4681,-3.0448;GA-05;Nyanga;Tsogui
+13725;10.1606,-2.8037;GA-05;Nyanga;Tsogni
+0;12.7167,-0.8667;GA-07;Ogooué-Lolo;Tsingué
+0;12.0833,0.9500;GA-09;Woleu-Ntem;Tsimbili
+0;10.5333,-1.5000;GA-04;Ngouni;Tsifala
+0;10.6841,-1.5047;GA-04;Ngouni;Tsiengui Panga
+0;10.6569,-1.5931;GA-04;Ngouni;Tsienguifala
+0;11.8500,-1.3000;GA-04;Ngouni;Tsengui
+0;12.7855,-1.6308;GA-07;Ogooué-Lolo;Tsenguenabela
+0;11.1167,-2.7667;GA-05;Nyanga;Tsegnou Bila
+0;12.8798,-1.0397;GA-07;Ogooué-Lolo;Tsati
+0;11.2667,-2.4667;GA-04;Ngouni;Tsangui
+0;13.7500,-1.7333;GA-02;Haut-Ogooué;Tsanga
+0;12.5167,-1.0667;GA-07;Ogooué-Lolo;Tsandi
+0;12.8500,-0.9500;GA-07;Ogooué-Lolo;Tsanda
+0;11.8667,-1.2667;GA-04;Ngouni;Tsambou
+0;12.0500,-1.0167;GA-07;Ogooué-Lolo;Tsambalingué
+0;12.1167,-1.2500;GA-07;Ogooué-Lolo;Tsamba
+0;11.6833,-1.1500;GA-04;Ngouni;Tsamba
+0;12.6167,-0.9167;GA-07;Ogooué-Lolo;Tsamba
+0;11.4667,-2.2667;GA-04;Ngouni;Tsade
+0;13.5190,0.2174;GA-06;Ogooué-Ivindo;Tourouvaya
+0;11.9424,1.5769;GA-09;Woleu-Ntem;Tourounessol
+0;11.9000,1.5667;GA-09;Woleu-Ntem;Tourounessol
+0;9.4167,-1.5667;GA-08;Ogooué-Maritime;Toungounamba II
+0;9.4296,-1.5634;GA-08;Ogooué-Maritime;Toungounamba I
+0;14.1129,1.1650;GA-06;Ogooué-Ivindo;Toumbi II
+0;14.0760,1.1165;GA-06;Ogooué-Ivindo;Toumbi I
+0;11.6667,-2.8667;GA-05;Nyanga;Toumba
+0;11.1667,-2.5500;GA-05;Nyanga;Toumba
+0;10.7235,-2.6944;GA-05;Nyanga;Toulougaba
+0;12.8667,0.6667;GA-06;Ogooué-Ivindo;Toulo
+0;13.1833,0.7167;GA-06;Ogooué-Ivindo;Toukoué
+0;10.4500,-1.5333;GA-04;Ngouni;Toubaghengui
+0;10.9441,-1.6893;GA-04;Ngouni;Toubaganga
+0;11.9667,-1.2167;GA-07;Ogooué-Lolo;Touassi
+0;9.9667,0.0333;GA-01;Estuaire;Tornebeim
+0;11.3833,-2.7000;GA-05;Nyanga;Tono Sangana
+0;10.6533,-2.6636;GA-05;Nyanga;Tonokamba
+0;10.8265,-3.0748;GA-05;Nyanga;Tono
+0;11.4532,1.0497;GA-09;Woleu-Ntem;Tomassi
+0;11.7484,1.7744;GA-09;Woleu-Ntem;Tom
+0;11.4995,2.0056;GA-09;Woleu-Ntem;Tok
+0;11.0239,-3.7591;GA-05;Nyanga;Toco Tsiala
+0;12.4172,-2.1330;GA-04;Ngouni;Tinga-Tsengé
+0;13.0284,0.4509;GA-06;Ogooué-Ivindo;Tiétié
+0;10.9584,-3.6266;GA-05;Nyanga;Tia
+0;10.4749,-0.3274;GA-03;Moyen-Ogooué;Tol
+0;11.6360,1.9093;GA-09;Woleu-Ntem;Tho
+0;11.3667,2.1333;GA-09;Woleu-Ntem;Tha
+0;10.9500,-1.2500;GA-04;Ngouni;Téndi
+0;9.9000,-0.1000;GA-01;Estuaire;Tem
+0;10.6167,-0.2500;GA-03;Moyen-Ogooué;Tégha
+0;13.7167,-0.1833;GA-02;Haut-Ogooué;Tébé II
+0;13.6633,-0.0166;GA-02;Haut-Ogooué;Tébé I
+0;13.8000,-0.0833;GA-02;Haut-Ogooué;Tébé
+0;9.3231,-1.9112;GA-08;Ogooué-Maritime;Tchongorové
+0;10.3578,-0.7340;GA-03;Moyen-Ogooué;Tchouka
+0;11.1382,-3.8977;GA-05;Nyanga;Tchitendé
+0;11.6667,-2.1167;GA-04;Ngouni;Tchioumbi II
+0;11.6833,-2.1000;GA-04;Ngouni;Tchioumbi I
+0;10.8167,-3.5167;GA-05;Nyanga;Tchingondo
+0;11.0192,-3.8107;GA-05;Nyanga;Tchimbia
+0;11.5404,2.0013;GA-09;Woleu-Ntem;Tchimazok
+0;11.5333,2.0000;GA-09;Woleu-Ntem;Tchimazok
+0;11.0409,-3.7255;GA-05;Nyanga;Tchigana
+36108;10.9818,-2.9332;GA-05;Nyanga;Tchibanga
+0;9.5639,-1.1330;GA-08;Ogooué-Maritime;Tchibanga
+0;10.6320,-2.0722;GA-04;Ngouni;Tchengué-Paga
+0;11.9833,-1.6500;GA-04;Ngouni;Tchengué
+0;9.4667,-1.9500;GA-08;Ogooué-Maritime;Tchatamba
+0;9.4860,-1.5213;GA-08;Ogooué-Maritime;Tchangonivi
+0;9.6602,-0.9905;GA-08;Ogooué-Maritime;Tchangombini
+0;10.4525,-0.9115;GA-03;Moyen-Ogooué;Tchad
+0;9.4352,-2.0817;GA-08;Ogooué-Maritime;Tassi
+0;11.5667,0.4333;GA-09;Woleu-Ntem;Tarangone
+0;10.9757,-1.8368;GA-04;Ngouni;Tandou Filou
+0;11.1167,-2.7500;GA-05;Nyanga;Tando Filou
+0;11.7667,-1.5500;GA-04;Ngouni;Tamba
+0;11.5167,-1.5500;GA-04;Ngouni;Taki
+0;11.9158,-1.9288;GA-04;Ngouni;Takamondzikou
+0;10.2500,0.0833;GA-01;Estuaire;Sounga-Milaré
+0;9.7256,-2.4099;GA-08;Ogooué-Maritime;Sounga
+0;11.9500,-1.9000;GA-04;Ngouni;Sounga
+0;10.6167,0.1167;GA-03;Moyen-Ogooué;Soulfane
+0;11.0167,-2.3667;GA-05;Nyanga;Soukila
+0;11.6000,-2.5500;GA-04;Ngouni;Souka
+0;12.8526,-0.8231;GA-07;Ogooué-Lolo;Souka
+0;11.6500,1.7667;GA-09;Woleu-Ntem;Sougoudzap
+0;11.6500,1.7333;GA-09;Woleu-Ntem;Sougoudzap
+0;11.9916,0.2987;GA-06;Ogooué-Ivindo;Sougalam-Fekele
+0;14.1032,-1.5152;GA-02;Haut-Ogooué;Soubba
+0;12.6143,-0.9530;GA-07;Ogooué-Lolo;Sosotsanda
+0;11.8000,2.2000;GA-09;Woleu-Ntem;Song
+0;12.6197,-1.5753;GA-07;Ogooué-Lolo;Sola
+0;11.5500,-1.2333;GA-04;Ngouni;Soga II
+0;11.7667,-1.5833;GA-04;Ngouni;Soga
+0;10.5999,-2.4895;GA-05;Nyanga;Soangui
+0;10.9970,-2.4342;GA-05;Nyanga;Soangui
+0;11.4667,-2.2833;GA-04;Ngouni;Soangui
+0;9.6333,0.2833;GA-01;Estuaire;Sizakang
+0;10.1833,0.1167;GA-01;Estuaire;Sizakang
+0;9.7167,-0.7000;GA-03;Moyen-Ogooué;Siran-Zangou
+0;11.1833,-2.9000;GA-05;Nyanga;Singna
+0;10.8399,-3.0489;GA-05;Nyanga;Singa Plaine
+0;10.6595,-1.0361;GA-04;Ngouni;Sindara
+0;12.7816,0.5689;GA-06;Ogooué-Ivindo;Simintang
+0;8.9472,-0.6949;GA-08;Ogooué-Maritime;Simani
+0;12.1333,2.2167;GA-09;Woleu-Ntem;Silakout
+0;9.4215,0.5865;GA-01;Estuaire;Sifala
+0;13.6833,-1.7000;GA-02;Haut-Ogooué;Sibi
+0;13.5667,-1.8667;GA-02;Haut-Ogooué;Sibbi
+0;9.5051,0.4189;GA-01;Estuaire;Sibang
+0;11.9000,-2.1333;GA-04;Ngouni;Siba
+0;11.7333,2.1667;GA-09;Woleu-Ntem;Seylang
+0;11.7000,2.2000;GA-09;Woleu-Ntem;Seyland
+0;11.7167,2.1000;GA-09;Woleu-Ntem;Seyiang
+0;10.8231,-1.7214;GA-04;Ngouni;Setté-Cama
+0;9.7539,-2.5257;GA-08;Ogooué-Maritime;Setté Cama
+0;11.0386,-3.8303;GA-05;Nyanga;Sétté Banda
+0;11.7667,-2.1667;GA-04;Ngouni;Sengui
+0;11.8917,1.5445;GA-09;Woleu-Ntem;Semé
+0;11.8500,1.5500;GA-09;Woleu-Ntem;Semé
+0;12.1167,2.2167;GA-09;Woleu-Ntem;Sélé
+0;14.1774,-1.7542;GA-02;Haut-Ogooué;Saye
+0;12.0357,-2.1954;GA-04;Ngouni;Sapina-Wata
+0;10.1957,-2.1604;GA-08;Ogooué-Maritime;Sangourouma
+0;10.1819,-2.1387;GA-08;Ogooué-Maritime;Sangouronda
+0;13.5833,-1.8000;GA-02;Haut-Ogooué;Sangoué
+0;10.1500,-0.8333;GA-03;Moyen-Ogooué;Sangoua Boma
+0;12.2000,0.3833;GA-06;Ogooué-Ivindo;Sanghalam
+0;11.1833,-2.1333;GA-04;Ngouni;Sangha
+0;9.2527,-0.4841;GA-08;Ogooué-Maritime;Sangatanga
+0;10.7500,-0.2000;GA-03;Moyen-Ogooué;Sangatane
+0;10.9821,-2.9698;GA-05;Nyanga;Sanga-Plaine
+0;10.4000,-1.7000;GA-04;Ngouni;Sangala
+0;10.8195,-3.0981;GA-05;Nyanga;Sanga Forêt
+0;11.1167,-2.1500;GA-04;Ngouni;Sanga II
+0;11.1338,-2.2045;GA-04;Ngouni;Sanga I
+0;10.8749,-2.9941;GA-05;Nyanga;Sanga
+0;12.5000,-0.7000;GA-07;Ogooué-Lolo;Sandoundou
+0;11.0167,-2.3667;GA-05;Nyanga;Sanda
+0;10.2500,-1.7500;GA-04;Ngouni;Samouganga
+0;10.4522,-0.4048;GA-03;Moyen-Ogooué;Samkita
+0;9.3497,-1.3642;GA-08;Ogooué-Maritime;Sambinanga
+0;10.6933,-1.0404;GA-04;Ngouni;Samba
+0;11.2639,0.9757;GA-09;Woleu-Ntem;Sam II
+0;11.2570,0.9875;GA-09;Woleu-Ntem;Sam
+0;11.5667,0.8667;GA-09;Woleu-Ntem;Sam
+0;14.0389,0.8997;GA-06;Ogooué-Ivindo;Salo
+0;9.4936,-1.5668;GA-08;Ogooué-Maritime;Sallanou
+0;10.0000,-1.9000;GA-08;Ogooué-Maritime;Salanou
+0;10.3167,-1.5500;GA-04;Ngouni;Salano
+0;10.0317,-0.9050;GA-03;Moyen-Ogooué;Salangoué
+0;10.7524,-1.9596;GA-04;Ngouni;Salamou
+0;10.0833,-1.5833;GA-04;Ngouni;Salamou
+0;10.1667,-1.9333;GA-08;Ogooué-Maritime;Salaganga
+0;11.5045,0.7417;GA-09;Woleu-Ntem;Sake II
+0;11.5212,0.7481;GA-09;Woleu-Ntem;Sake I
+0;12.7500,-1.0333;GA-07;Ogooué-Lolo;Sakamikanda
+0;9.7814,-0.8705;GA-03;Moyen-Ogooué;Saïra
+0;10.1949,-2.1534;GA-08;Ogooué-Maritime;Saint-Thomas
+0;9.7410,-0.7003;GA-03;Moyen-Ogooué;Saint Paul
+0;10.0134,-1.1286;GA-03;Moyen-Ogooué;Saint-Louis
+0;10.7667,-0.1833;GA-03;Moyen-Ogooué;Saint Jean
+0;9.6952,-0.7571;GA-03;Moyen-Ogooué;Saint-François
+0;11.0186,-3.7949;GA-05;Nyanga;Sainte-Marie
+0;10.3000,-0.5500;GA-03;Moyen-Ogooué;Sainte-Croix
+0;10.1667,-0.8333;GA-03;Moyen-Ogooué;Sainte Benoit
+0;9.3500,-1.6000;GA-08;Ogooué-Maritime;Saille
+0;9.3333,0.6167;GA-01;Estuaire;Sahoué
+0;10.2048,-2.1895;GA-08;Ogooué-Maritime;Saguinanga
+0;12.2139,-1.0220;GA-07;Ogooué-Lolo;Roungassa
+0;12.5351,-1.0090;GA-07;Ogooué-Lolo;Roungassa
+0;10.8165,-2.7568;GA-05;Nyanga;Riranzala
+0;11.7027,-3.1123;GA-05;Nyanga;Rinanzala
+0;10.0000,-0.7000;GA-03;Moyen-Ogooué;Rinanzala
+0;10.9757,-2.4721;GA-05;Nyanga;Rima Nzala
+0;9.5833,0.3167;GA-01;Estuaire;Rigoho
+0;11.6667,2.0667;GA-09;Woleu-Ntem;Ribé
+0;9.6333,1.0167;GA-01;Estuaire;Regnault
+0;9.8167,0.1667;GA-01;Estuaire;Regnault
+0;10.4000,-0.6833;GA-03;Moyen-Ogooué;Rechenman
+0;10.9717,-2.9838;GA-05;Nyanga;Randi II
+0;10.9588,-2.9865;GA-05;Nyanga;Randi I
+0;11.8983,-1.0762;GA-07;Ogooué-Lolo;Ramba
+0;9.4333,0.4000;GA-01;Estuaire;Quaben
+0;11.4950,-3.2230;GA-05;Nyanga;Povo
+0;12.4241,-1.3388;GA-07;Ogooué-Lolo;Poupa
+0;11.6008,-1.6158;GA-04;Ngouni;Poungui
+0;10.5667,-1.5167;GA-04;Ngouni;Poungou II
+0;10.6854,-1.5891;GA-04;Ngouni;Poungou I
+0;11.5333,-2.2000;GA-04;Ngouni;Poungou
+0;12.2940,-1.6046;GA-07;Ogooué-Lolo;Poungou
+0;12.0383,-1.2046;GA-07;Ogooué-Lolo;Poungou
+0;12.0333,-1.2167;GA-07;Ogooué-Lolo;Poungou
+0;12.3000,-1.6167;GA-07;Ogooué-Lolo;Poungo
+0;12.8144,-0.9653;GA-07;Ogooué-Lolo;Poungi
+0;10.8796,-2.9808;GA-05;Nyanga;Pounga-Nganda
+0;11.3909,-1.5501;GA-04;Ngouni;Pounga
+0;11.9209,-1.3364;GA-04;Ngouni;Pounga
+0;11.5000,-1.5000;GA-04;Ngouni;Poumbou
+0;11.6519,-3.0945;GA-05;Nyanga;Poudi
+0;11.6333,-2.0333;GA-04;Ngouni;Poudi
+0;13.0301,-1.2859;GA-07;Ogooué-Lolo;Poubi
+0;13.7500,-1.5667;GA-02;Haut-Ogooué;Posso
+164018;8.7815,-0.7193;GA-08;Ogooué-Maritime;Port-Gentil
+0;11.6167,-2.5667;GA-04;Ngouni;Porro
+0;10.7193,-2.4095;GA-05;Nyanga;Porro
+0;12.3045,-1.6010;GA-07;Ogooué-Lolo;Popa
+0;10.2167,-1.4167;GA-04;Ngouni;Poloumbia
+0;10.9830,-2.4624;GA-05;Nyanga;Polombya
+0;10.9155,-2.1354;GA-04;Ngouni;Polo Mbya
+0;11.3167,-2.9333;GA-05;Nyanga;Poka
+0;10.0539,-0.9776;GA-03;Moyen-Ogooué;Pointe-Noire
+0;9.4707,-2.0092;GA-08;Ogooué-Maritime;Pointe Claire
+0;9.7475,-0.7560;GA-03;Moyen-Ogooué;Plus Tard
+0;11.2820,-1.7156;GA-04;Ngouni;Piti Massango
+0;12.1167,-1.5333;GA-07;Ogooué-Lolo;Pingou
+0;11.1086,-1.2665;GA-04;Ngouni;Pingou
+0;11.6833,-1.2000;GA-04;Ngouni;Pingou
+0;10.9167,-1.3167;GA-04;Ngouni;Pingo
+0;10.2333,-0.7167;GA-03;Moyen-Ogooué;Petit Paris
+0;12.7000,-0.5000;GA-07;Ogooué-Lolo;Petit Ndambi
+0;11.6833,-1.4000;GA-04;Ngouni;Petit Mobigou
+0;11.3000,-1.5500;GA-04;Ngouni;Petit Masango
+0;13.0519,-1.3165;GA-07;Ogooué-Lolo;Petit Mapfoungui
+0;10.6185,-1.2893;GA-04;Ngouni;Petit Mandilou
+0;9.5815,-2.2585;GA-08;Ogooué-Maritime;Petit Loango
+0;9.7333,-0.6667;GA-03;Moyen-Ogooué;Petite Silang
+0;9.9395,-0.8067;GA-03;Moyen-Ogooué;Petite Elise
+0;11.0000,-1.2000;GA-04;Ngouni;Petit Dondo
+0;9.3833,0.2333;GA-01;Estuaire;Petit-Denis
+0;13.8500,0.7000;GA-06;Ogooué-Ivindo;Pétialongo
+0;11.6833,-2.2333;GA-04;Ngouni;Peti
+0;11.1506,-2.7641;GA-05;Nyanga;Peni Gnoundou
+0;11.3634,-3.1813;GA-05;Nyanga;Pemo
+0;11.2667,-3.1061;GA-05;Nyanga;Pemo
+0;12.4782,-1.1445;GA-07;Ogooué-Lolo;Pembimbé
+0;10.6914,-3.2885;GA-05;Nyanga;Pembi
+0;9.4500,-1.9000;GA-08;Ogooué-Maritime;Pemba-Niambé
+0;11.7167,-2.1833;GA-04;Ngouni;Pekié
+0;10.8194,-2.0420;GA-04;Ngouni;Pegny-Sampana
+0;10.8420,-2.0297;GA-04;Ngouni;Pegny Ivolo
+0;11.7572,-0.9907;GA-07;Ogooué-Lolo;Pata
+0;10.0440,-2.7650;GA-05;Nyanga;Passeur
+0;12.4192,-1.3067;GA-07;Ogooué-Lolo;Paris
+0;10.3000,-0.6667;GA-03;Moyen-Ogooué;Paris
+0;10.0000,-0.5667;GA-03;Moyen-Ogooué;Paris
+0;12.6667,-1.6667;GA-07;Ogooué-Lolo;Papatségué
+0;12.4421,-1.2153;GA-07;Ogooué-Lolo;Pangani
+0;10.5604,-3.2293;GA-05;Nyanga;Panga
+0;11.4667,-2.3833;GA-04;Ngouni;Panga
+0;10.1667,-1.9833;GA-08;Ogooué-Maritime;Panépo
+0;9.7629,-1.6717;GA-08;Ogooué-Maritime;Panépo
+0;11.1368,-3.0277;GA-05;Nyanga;Pananga
+1897;12.6303,-1.6716;GA-07;Ogooué-Lolo;Pana
+0;10.8806,-2.7631;GA-05;Nyanga;Pahouzambi
+0;12.7167,-0.8000;GA-07;Ogooué-Lolo;Pahou-Youngou
+0;12.7333,-0.8000;GA-07;Ogooué-Lolo;Pahon-Pira
+0;11.0176,-2.8075;GA-05;Nyanga;Pahilou
+0;9.5331,-1.1784;GA-08;Ogooué-Maritime;Paguilou
+0;10.2968,-1.5488;GA-04;Ngouni;Paguignambi
+0;10.6177,-1.3135;GA-04;Ngouni;Paga-Dianzi
+0;10.7215,-1.9656;GA-04;Ngouni;Paga
+0;10.6810,-1.5949;GA-04;Ngouni;Paga
+0;10.3637,-0.7419;GA-03;Moyen-Ogooué;Paga
+0;10.8479,-2.4961;GA-05;Nyanga;Pabo Nzambi
+0;8.9010,-1.0182;GA-08;Ogooué-Maritime;Ozouri
+0;8.8756,-0.7568;GA-08;Ogooué-Maritime;Ozomboua
+0;11.4916,2.2285;GA-09;Woleu-Ntem;Ozakong
+0;13.6115,-1.6277;GA-02;Haut-Ogooué;Oyouma
+0;13.4833,0.8333;GA-06;Ogooué-Ivindo;Oyouma
+0;13.5292,-1.3439;GA-02;Haut-Ogooué;Oyouga
+0;13.7750,-1.3525;GA-02;Haut-Ogooué;Oyou
+0;9.6738,-0.8123;GA-03;Moyen-Ogooué;Oyingo
+0;13.7323,-0.7113;GA-02;Haut-Ogooué;Oyendzé
+0;11.4248,1.8923;GA-09;Woleu-Ntem;Oyem
+72939;11.5793,1.5995;GA-09;Woleu-Ntem;Oyem
+0;13.9814,-0.8523;GA-02;Haut-Ogooué;Oyanza
+0;9.3427,-0.1681;GA-01;Estuaire;Oyan
+0;10.3212,-0.0020;GA-01;Estuaire;Oyan
+30100;10.6833,-0.2000;GA-03;Moyen-Ogooué;Oyam
+0;13.6739,-1.6123;GA-02;Haut-Ogooué;Oyali
+0;13.8758,-1.1811;GA-02;Haut-Ogooué;Oyabi
+0;13.8983,-0.6266;GA-02;Haut-Ogooué;Oyabi
+0;13.9167,0.7333;GA-06;Ogooué-Ivindo;Oyabe
+95313;9.5046,0.2912;GA-01;Estuaire;Owendo
+0;12.0333,2.1000;GA-09;Woleu-Ntem;Ovon
+0;9.5167,0.3167;GA-01;Estuaire;Ovolondzam
+0;9.9167,0.3667;GA-01;Estuaire;Ovok-Sone
+0;11.4053,1.3967;GA-09;Woleu-Ntem;Ovine
+0;11.4674,0.3857;GA-09;Woleu-Ntem;Oveng-Mendong
+0;11.4177,1.2917;GA-09;Woleu-Ntem;Oveng Abé II
+0;11.4057,1.3884;GA-09;Woleu-Ntem;Oveng Abe
+0;11.4000,1.3833;GA-09;Woleu-Ntem;Oveng Abe
+0;11.9701,1.9475;GA-09;Woleu-Ntem;Oveng I
+0;11.4225,2.1193;GA-09;Woleu-Ntem;Oveng
+0;11.3333,0.6833;GA-09;Woleu-Ntem;Oveng
+0;11.1667,0.5833;GA-09;Woleu-Ntem;Oveng
+0;9.4374,0.0953;GA-01;Estuaire;Oveng
+0;10.8500,-0.2833;GA-03;Moyen-Ogooué;Ovéna
+0;10.3833,0.1000;GA-01;Estuaire;Ovel Kol
+0;11.9148,1.9181;GA-09;Woleu-Ntem;Ovang
+0;10.5667,0.6167;GA-01;Estuaire;Ovane Bibang
+0;12.9500,0.8500;GA-06;Ogooué-Ivindo;Ovan
+4064;12.1824,0.3110;GA-06;Ogooué-Ivindo;Ovan
+0;11.6500,-1.9833;GA-04;Ngouni;Outavou
+0;10.1000,0.4167;GA-01;Estuaire;Oussourfan
+0;9.9833,-0.8333;GA-03;Moyen-Ogooué;Ouongué
+0;11.2116,0.9654;GA-09;Woleu-Ntem;Ouol
+0;10.9500,0.9167;GA-09;Woleu-Ntem;Ouo II
+0;13.1333,-1.1000;GA-07;Ogooué-Lolo;Ouniongo
+0;13.1333,-1.1167;GA-07;Ogooué-Lolo;Oukoussa
+0;10.4795,-2.8548;GA-05;Nyanga;Oueligha
+0;11.3833,-2.7167;GA-05;Nyanga;Oueliga
+0;10.9090,-2.1444;GA-04;Ngouni;Oueliga
+0;10.9000,-0.1167;GA-03;Moyen-Ogooué;Oucha
+0;12.1500,-1.4833;GA-07;Ogooué-Lolo;Oubendji
+0;11.7500,2.2167;GA-09;Woleu-Ntem;Ouassi
+0;13.7427,-2.0817;GA-02;Haut-Ogooué;Oualla
+0;13.7333,-2.0667;GA-02;Haut-Ogooué;Oualla
+0;11.5333,-1.9667;GA-04;Ngouni;Ouaka
+0;11.2882,0.2410;GA-09;Woleu-Ntem;Ottouma
+0;13.5702,-0.7840;GA-02;Haut-Ogooué;Otoundou
+0;13.0167,0.9000;GA-06;Ogooué-Ivindo;Otouma
+0;13.7545,-0.4871;GA-02;Haut-Ogooué;Otcouandjoko
+0;10.0833,-0.6500;GA-03;Moyen-Ogooué;Otanda
+0;14.3448,-2.0431;GA-02;Haut-Ogooué;Otana
+0;13.8286,-1.0145;GA-02;Haut-Ogooué;Otala
+0;14.3704,-1.0886;GA-02;Haut-Ogooué;Ossouélé
+0;10.4833,-0.4000;GA-03;Moyen-Ogooué;Osso
+0;13.7466,-0.6405;GA-02;Haut-Ogooué;Ossinga II
+0;13.6880,-0.6288;GA-02;Haut-Ogooué;Ossiandjobo
+0;13.5765,-1.0363;GA-02;Haut-Ogooué;Ossélé
+0;13.8713,-1.1087;GA-02;Haut-Ogooué;Ossélé
+0;13.5729,-1.0383;GA-02;Haut-Ogooué;Ossélé
+0;13.5500,-1.0333;GA-02;Haut-Ogooué;Ossélé
+0;13.5500,-0.9500;GA-02;Haut-Ogooué;Ossélé
+0;11.4109,1.3444;GA-09;Woleu-Ntem;Ossas
+0;11.4167,1.3333;GA-09;Woleu-Ntem;Ossas
+0;9.7446,-0.9449;GA-08;Ogooué-Maritime;Ossamoudembou
+0;13.6333,-1.5500;GA-02;Haut-Ogooué;Ossala
+0;14.1833,-1.7667;GA-02;Haut-Ogooué;Ossagui
+0;10.5333,-0.3167;GA-03;Moyen-Ogooué;Ossa
+0;9.9807,-0.8350;GA-03;Moyen-Ogooué;Oronga
+0;9.3667,-1.8000;GA-08;Ogooué-Maritime;Orali
+0;13.8346,-0.8404;GA-02;Haut-Ogooué;Opoungou
+0;13.7000,-0.3667;GA-02;Haut-Ogooué;Opinda
+0;13.8667,-0.3333;GA-02;Haut-Ogooué;Opakellé
+0;13.8250,-1.7900;GA-02;Haut-Ogooué;Onkoua
+0;14.0645,-1.4908;GA-02;Haut-Ogooué;Onkara
+0;12.1167,2.2167;GA-09;Woleu-Ntem;Onié
+0;13.5500,-0.9667;GA-02;Haut-Ogooué;Onia
+0;13.8665,-1.0580;GA-02;Haut-Ogooué;Onguia
+0;9.7692,-2.5341;GA-08;Ogooué-Maritime;Onguendjo
+0;9.0812,-1.3784;GA-08;Ogooué-Maritime;Ongouendjo
+0;13.8023,-0.8065;GA-02;Haut-Ogooué;Ongouangoubou
+0;11.6973,1.1572;GA-09;Woleu-Ntem;Ongongo
+0;11.6500,2.2333;GA-09;Woleu-Ntem;Ongo
+0;9.6575,0.6415;GA-01;Estuaire;Ongam
+0;13.5891,-0.7390;GA-02;Haut-Ogooué;Ondzéyé
+0;13.5833,-1.6333;GA-02;Haut-Ogooué;Ondwo
+0;9.2833,-1.4500;GA-08;Ogooué-Maritime;Ondouma
+0;13.6000,-1.6500;GA-02;Haut-Ogooué;Ondouama
+0;13.5667,-1.6500;GA-02;Haut-Ogooué;Ondouama
+0;11.5953,1.5064;GA-09;Woleu-Ntem;Ondondo
+0;13.7731,-1.5648;GA-02;Haut-Ogooué;Ondili
+0;13.7089,-0.5938;GA-02;Haut-Ogooué;Ondili
+0;13.6833,-1.5167;GA-02;Haut-Ogooué;Ondama
+0;10.6147,0.6334;GA-01;Estuaire;Omvane
+0;14.2530,-1.5800;GA-02;Haut-Ogooué;Ompouyi
+0;10.1674,-0.8416;GA-03;Moyen-Ogooué;Ompomouena
+0;13.1222,-1.3411;GA-02;Haut-Ogooué;Omoï II
+0;13.1494,-1.3679;GA-02;Haut-Ogooué;Omoï I
+0;13.7760,-1.3357;GA-02;Haut-Ogooué;Omoï
+0;13.0500,-1.3500;GA-02;Haut-Ogooué;Omoï
+0;13.1020,-1.3315;GA-02;Haut-Ogooué;Omoï
+0;13.7667,-1.3000;GA-02;Haut-Ogooué;Omoï
+0;13.7000,-0.3500;GA-02;Haut-Ogooué;Omoana
+0;9.9694,-1.5788;GA-08;Ogooué-Maritime;Omengo
+2414;9.2618,-1.5746;GA-08;Ogooué-Maritime;Omboué
+0;13.4500,-1.5667;GA-02;Haut-Ogooué;Ombou
+0;13.7667,-1.5333;GA-02;Haut-Ogooué;Ombili
+0;13.7167,-1.5167;GA-02;Haut-Ogooué;Ombili
+0;11.2500,-2.8000;GA-05;Nyanga;Ombila
+0;13.6195,-1.6165;GA-02;Haut-Ogooué;Ombellé
+0;11.9333,-0.1167;GA-06;Ogooué-Ivindo;Ombala
+0;13.5667,-1.7000;GA-02;Haut-Ogooué;Omanga
+0;13.9167,-1.1333;GA-02;Haut-Ogooué;Oma
+0;13.5415,-1.1835;GA-02;Haut-Ogooué;Olounga-Omvouri
+0;13.5405,-1.1690;GA-02;Haut-Ogooué;Olounga
+0;13.8278,-0.8931;GA-02;Haut-Ogooué;Olounga
+0;10.0462,-1.5758;GA-04;Ngouni;Oloumi
+0;14.0000,-0.5833;GA-02;Haut-Ogooué;Olongo II
+0;13.8776,-0.6166;GA-02;Haut-Ogooué;Olongo
+0;11.4049,1.3765;GA-09;Woleu-Ntem;Olong
+0;14.2942,-1.6024;GA-02;Haut-Ogooué;Olina
+0;9.4464,-1.5503;GA-08;Ogooué-Maritime;Olango
+0;11.3667,2.1167;GA-09;Woleu-Ntem;Olam-Nzé
+0;9.5275,-1.1680;GA-08;Ogooué-Maritime;Olamba
+0;13.7609,-0.7321;GA-02;Haut-Ogooué;Okoumbi
+0;13.5333,-1.2000;GA-02;Haut-Ogooué;Okouma
+0;13.6167,-1.2667;GA-02;Haut-Ogooué;Okouba II
+0;13.5833,-1.2500;GA-02;Haut-Ogooué;Okouba I
+0;13.7514,-1.3934;GA-02;Haut-Ogooué;Okouba
+0;11.1242,-1.3008;GA-04;Ngouni;Okondja
+0;11.6733,2.1040;GA-09;Woleu-Ntem;Okok
+12962;13.6753,-0.6549;GA-02;Haut-Ogooué;Okondja
+0;9.5515,-0.9170;GA-08;Ogooué-Maritime;Okolo
+0;10.0073,0.8174;GA-01;Estuaire;Okola
+0;11.1333,0.9167;GA-09;Woleu-Ntem;Okogayo
+0;13.5736,-1.0658;GA-02;Haut-Ogooué;Okila
+0;13.7532,-1.3901;GA-02;Haut-Ogooué;Okara
+0;11.8731,-0.0478;GA-06;Ogooué-Ivindo;Okano
+0;10.0222,0.6873;GA-01;Estuaire;Okan
+0;14.3599,-1.7160;GA-02;Haut-Ogooué;Okala
+0;11.6563,1.0300;GA-09;Woleu-Ntem;Okala
+0;11.6667,1.0333;GA-09;Woleu-Ntem;Okala
+0;9.7167,-0.7167;GA-03;Moyen-Ogooué;Ogoumalanga
+0;9.3720,-1.8479;GA-08;Ogooué-Maritime;Ogoga
+0;11.6513,1.8577;GA-09;Woleu-Ntem;Offos
+0;13.7778,-0.3347;GA-02;Haut-Ogooué;Odzala
+0;8.9600,-1.0026;GA-08;Ogooué-Maritime;Odowwenga
+0;9.5052,-1.6513;GA-08;Ogooué-Maritime;Odowo
+0;11.9451,2.1837;GA-09;Woleu-Ntem;Odjingoto
+0;9.5560,-2.0302;GA-08;Ogooué-Maritime;Odimba
+0;10.0046,-1.1389;GA-03;Moyen-Ogooué;Odimba
+0;9.3775,-1.6543;GA-08;Ogooué-Maritime;Odende
+0;13.8773,-1.2044;GA-02;Haut-Ogooué;Obwo
+0;11.5667,1.7167;GA-09;Woleu-Ntem;Obout III
+0;11.5833,1.7167;GA-09;Woleu-Ntem;Obout II
+0;11.5736,1.7083;GA-09;Woleu-Ntem;Obout I
+0;9.8167,0.9000;GA-01;Estuaire;Obour
+0;10.9576,0.9754;GA-09;Woleu-Ntem;Oboui
+0;13.5510,-1.3754;GA-02;Haut-Ogooué;Obori-Lekoussa
+0;13.7333,-1.7167;GA-02;Haut-Ogooué;Obori
+0;13.7871,-1.2445;GA-02;Haut-Ogooué;Obori
+0;11.3167,-1.3000;GA-04;Ngouni;Oboï
+0;9.4871,-1.9803;GA-08;Ogooué-Maritime;Obiro
+0;10.7000,0.4333;GA-01;Estuaire;Obinamboum
+0;14.0833,-0.8167;GA-02;Haut-Ogooué;Obili
+0;13.6960,-0.6662;GA-02;Haut-Ogooué;Obili
+0;11.7500,-0.3500;GA-06;Ogooué-Ivindo;Obidi
+0;13.8000,-1.5167;GA-02;Haut-Ogooué;Obia II
+0;13.8277,-1.2127;GA-02;Haut-Ogooué;Obia II
+0;13.9167,-1.2667;GA-02;Haut-Ogooué;Obia I
+0;10.8035,-1.0671;GA-04;Ngouni;Obeye
+0;9.7333,-0.6333;GA-03;Moyen-Ogooué;Oberting
+0;9.7667,-0.3667;GA-03;Moyen-Ogooué;Oberting
+0;10.3667,-0.8833;GA-03;Moyen-Ogooué;Obenzi II
+0;10.3500,-0.8167;GA-03;Moyen-Ogooué;Obenzi I
+0;9.4167,0.1167;GA-01;Estuaire;Obelo
+0;13.9333,-1.1333;GA-02;Haut-Ogooué;Obégué II
+0;13.9011,-1.1478;GA-02;Haut-Ogooué;Obégué I
+0;12.0667,2.2667;GA-09;Woleu-Ntem;Obang
+0;9.2747,-1.1097;GA-08;Ogooué-Maritime;Obando
+0;14.4230,-1.4849;GA-02;Haut-Ogooué;Obana
+0;13.7833,-1.1333;GA-02;Haut-Ogooué;Obala
+0;11.4667,0.8500;GA-09;Woleu-Ntem;Nzourk
+0;10.9667,0.9167;GA-09;Woleu-Ntem;Nzoumou
+0;12.3167,0.4500;GA-06;Ogooué-Ivindo;Nzoum
+0;12.3371,-2.3297;GA-04;Ngouni;Nzoudi
+0;11.0706,0.9754;GA-09;Woleu-Ntem;Nzoua
+0;10.3500,0.3500;GA-01;Estuaire;Nzoua
+0;10.1000,0.4500;GA-01;Estuaire;Nzoro Mitang
+0;11.5333,0.4500;GA-09;Woleu-Ntem;Nzoro Bissone
+0;10.0667,0.4167;GA-01;Estuaire;Nzoro Bindzene
+0;11.5579,0.8006;GA-09;Woleu-Ntem;Nzork Angonenye
+0;11.5833,0.8000;GA-09;Woleu-Ntem;Nzork
+0;11.5667,0.8000;GA-09;Woleu-Ntem;Nzork
+0;10.0167,0.3000;GA-01;Estuaire;Nzork
+0;11.7388,0.8737;GA-09;Woleu-Ntem;Nzorengone
+0;9.8833,0.3833;GA-01;Estuaire;Nzong Zeme
+0;9.8526,0.6919;GA-01;Estuaire;Nzonguebourg
+0;10.2167,-1.0500;GA-03;Moyen-Ogooué;Nzongomintangui
+0;10.2667,0.1000;GA-01;Estuaire;Nzong-Meyond
+0;9.6500,0.3667;GA-01;Estuaire;Nzong Bour
+0;9.4748,0.4293;GA-01;Estuaire;Nzeng Ayong
+0;9.8833,0.3833;GA-01;Estuaire;Nzong
+0;10.6167,-0.2167;GA-03;Moyen-Ogooué;Nzomé
+0;9.6135,0.3959;GA-01;Estuaire;Nzog-Mitang
+0;9.3833,0.5167;GA-01;Estuaire;Nzogobeyork
+0;10.3120,-0.6075;GA-03;Moyen-Ogooué;Nzogué Mintang
+0;10.8333,0.9667;GA-09;Woleu-Ntem;Nzogmitang
+0;10.1333,0.1833;GA-01;Estuaire;Nzogmitang
+0;10.3654,0.7173;GA-09;Woleu-Ntem;Nzogmayong
+0;10.0892,0.2079;GA-01;Estuaire;Nzogomintang
+0;10.0167,-0.5333;GA-03;Moyen-Ogooué;Nzoghi
+0;9.9729,0.7542;GA-01;Estuaire;Nzoghengone
+0;12.6833,0.5667;GA-06;Ogooué-Ivindo;Nzoghengone
+0;11.0000,0.0167;GA-03;Moyen-Ogooué;Nzoghengom
+0;9.7167,0.5833;GA-01;Estuaire;Nzoghe-Mintang
+0;9.6468,0.7256;GA-01;Estuaire;Nzoghebour
+0;11.6333,-2.2667;GA-04;Ngouni;Nzingui
+0;12.8467,0.5732;GA-06;Ogooué-Ivindo;Nzingmeyong
+0;9.6833,0.6167;GA-01;Estuaire;Nzingayong
+0;11.6000,-2.9833;GA-05;Nyanga;Nzinga Tchi
+0;12.8934,-1.0848;GA-07;Ogooué-Lolo;Nzinga-Nzinga
+0;11.5667,-2.9667;GA-05;Nyanga;Nzinga
+0;12.3917,-1.3842;GA-07;Ogooué-Lolo;Nzinga
+0;12.3167,0.8167;GA-06;Ogooué-Ivindo;Nzinga
+0;10.3333,0.6667;GA-01;Estuaire;Nzimayong
+0;11.8167,-2.0833;GA-04;Ngouni;Nzila-Kala
+0;13.9500,0.9833;GA-06;Ogooué-Ivindo;Nzibobouya
+0;10.9963,-2.7582;GA-05;Nyanga;Nzenzila
+0;11.6953,-2.2469;GA-04;Ngouni;Nzenzélé
+0;12.3605,-1.4639;GA-07;Ogooué-Lolo;Nzenzélé
+0;9.9000,0.3667;GA-01;Estuaire;Nzeng-Miana
+0;10.0463,0.2867;GA-01;Estuaire;Nzing Meyong
+0;10.1833,0.1167;GA-01;Estuaire;Nzeng-Meyong
+0;10.2333,0.0833;GA-01;Estuaire;Nzeng-Bour
+0;10.5333,-0.2500;GA-03;Moyen-Ogooué;Nzeng-Boun
+0;11.8500,-2.2500;GA-04;Ngouni;Nzembi
+0;12.5908,-1.4323;GA-07;Ogooué-Lolo;Nzéla
+0;12.5947,-0.9562;GA-07;Ogooué-Lolo;Nzéla
+0;13.9333,0.7667;GA-06;Ogooué-Ivindo;Nzéla
+0;11.3000,0.9000;GA-09;Woleu-Ntem;Nzeik II
+0;11.2861,0.9182;GA-09;Woleu-Ntem;Nzeik I
+0;11.6755,1.3430;GA-09;Woleu-Ntem;Nzeguebegne
+0;11.2860,0.9182;GA-09;Woleu-Ntem;Nzeck
+0;10.6167,-0.2333;GA-03;Moyen-Ogooué;Nzeck
+0;10.5000,-0.3167;GA-03;Moyen-Ogooué;Nzeberré
+0;9.7833,-0.0167;GA-01;Estuaire;Nzébéré
+0;11.7123,1.2133;GA-09;Woleu-Ntem;Nzebene
+0;10.3167,-0.6000;GA-03;Moyen-Ogooué;Nzébé
+0;11.7333,-1.9167;GA-04;Ngouni;Nzao
+0;11.4167,-2.7333;GA-05;Nyanga;Nzanza
+0;9.7167,0.5333;GA-01;Estuaire;Nzang-Ayong
+0;9.8333,0.2167;GA-01;Estuaire;Nzamou
+0;9.6667,-0.8833;GA-08;Ogooué-Maritime;Nzamené
+0;11.7426,-1.9568;GA-04;Ngouni;Nzambi-Minongo
+0;11.7167,-2.2500;GA-04;Ngouni;Nzambi
+0;10.8210,-2.1524;GA-04;Ngouni;Nzambi
+0;10.7589,-2.1377;GA-04;Ngouni;Nzambi
+0;10.7855,-2.1442;GA-04;Ngouni;Nzambi
+0;13.6441,-2.0988;GA-02;Haut-Ogooué;Nzambi
+0;12.3343,-1.4871;GA-07;Ogooué-Lolo;Nzambi
+0;13.0833,0.7000;GA-06;Ogooué-Ivindo;Nzamba
+0;10.1231,-0.9976;GA-03;Moyen-Ogooué;Nzamata
+0;9.7140,-0.7873;GA-03;Moyen-Ogooué;Nzamata
+0;9.4000,0.5000;GA-01;Estuaire;Nzamata
+0;10.4500,-0.4667;GA-03;Moyen-Ogooué;Nzamata
+0;10.2500,0.2833;GA-01;Estuaire;Nzamanéné
+0;10.2258,0.3072;GA-01;Estuaire;Nzamaligue
+0;9.7678,0.3090;GA-01;Estuaire;Nzamaligué
+0;9.4951,0.0499;GA-01;Estuaire;Nzamaligué
+0;10.4833,-0.4167;GA-03;Moyen-Ogooué;Nzamakéléné
+0;11.1167,-1.9333;GA-04;Ngouni;Nzakoumenga
+0;11.1167,-2.1833;GA-04;Ngouni;Nzaï
+0;10.7667,-0.1333;GA-03;Moyen-Ogooué;Nzagobibéré
+0;10.7333,-0.1833;GA-03;Moyen-Ogooué;Nzagha
+0;11.8885,0.0662;GA-06;Ogooué-Ivindo;Nzafieng
+0;11.1667,-1.4500;GA-04;Ngouni;Nyoungou
+0;11.5833,-1.9667;GA-04;Ngouni;Nyembo
+0;10.6997,-2.6285;GA-05;Nyanga;Nyanga-Vembe
+0;11.3833,-1.9000;GA-04;Ngouni;Nyanga Moubighou
+0;11.7333,-2.0000;GA-04;Ngouni;Nyanga II
+0;10.2896,-2.9810;GA-05;Nyanga;Nyanga
+0;11.6500,-2.3000;GA-04;Ngouni;Nyanga
+0;11.4500,-2.2500;GA-04;Ngouni;Nyanga
+0;11.4667,-2.2333;GA-04;Ngouni;Nyanga
+0;9.0456,-1.1020;GA-08;Ogooué-Maritime;Nyanga
+0;11.6500,-1.6333;GA-04;Ngouni;Nyamo
+0;11.5667,1.7500;GA-09;Woleu-Ntem;Nyamegong
+0;10.1333,-1.6000;GA-04;Ngouni;Nyambipanga
+0;11.1500,-2.7167;GA-05;Nyanga;Nvounda
+0;9.5167,0.3667;GA-01;Estuaire;Nvanayémé
+0;9.8500,0.3167;GA-01;Estuaire;Nvanayem
+0;12.9822,0.9132;GA-06;Ogooué-Ivindo;Ntyeng
+0;9.5243,0.5946;GA-01;Estuaire;Ntsini
+0;12.7719,0.5751;GA-06;Ogooué-Ivindo;Ntsibelong
+0;10.4667,-0.4333;GA-03;Moyen-Ogooué;Ntsap
+0;10.3500,-0.7500;GA-03;Moyen-Ogooué;Ntsangou-Dimbou
+0;11.3915,2.2582;GA-09;Woleu-Ntem;Ntourandia Essabey
+0;10.4673,0.8055;GA-09;Woleu-Ntem;Ntoum
+0;10.8000,0.6167;GA-01;Estuaire;Ntoum
+62445;9.7610,0.3905;GA-01;Estuaire;Ntoum
+0;11.9558,-0.0690;GA-06;Ogooué-Ivindo;Ntoua
+0;11.4026,1.3562;GA-09;Woleu-Ntem;Ntong
+0;11.6655,1.2477;GA-09;Woleu-Ntem;Ntom II
+0;11.6587,1.2508;GA-09;Woleu-Ntem;Ntom I
+0;11.5646,1.8387;GA-09;Woleu-Ntem;Nto
+0;11.4915,1.8427;GA-09;Woleu-Ntem;Nto
+0;11.5833,1.8667;GA-09;Woleu-Ntem;Nto
+0;9.3759,0.3040;GA-01;Estuaire;Ntchogo
+0;8.8193,-0.8062;GA-08;Ogooué-Maritime;Ntchengué
+0;10.1198,-0.8258;GA-03;Moyen-Ogooué;Ntchatanga
+0;12.4875,0.8229;GA-06;Ogooué-Ivindo;Ntanha-Télé
+0;10.1380,-1.0270;GA-03;Moyen-Ogooué;Ntambé
+0;12.4333,-1.6500;GA-07;Ogooué-Lolo;Nsiono
+0;11.3665,2.1317;GA-09;Woleu-Ntem;Nsimi
+0;9.5000,0.4167;GA-01;Estuaire;Nseng-Mitang
+0;11.1667,0.9167;GA-09;Woleu-Ntem;Nseng-Mitang
+0;10.1667,0.1167;GA-01;Estuaire;Nseng-Afoun
+0;10.1266,0.1550;GA-01;Estuaire;Kafele
+0;11.6184,0.8983;GA-09;Woleu-Ntem;Nsang
+0;10.3592,-2.0498;GA-08;Ogooué-Maritime;Nsakalano
+0;12.0667,2.2833;GA-09;Woleu-Ntem;Nsak
+0;12.0667,2.1333;GA-09;Woleu-Ntem;Nsak
+0;10.8303,-2.5512;GA-05;Nyanga;Noumbou
+0;11.9500,-1.0667;GA-07;Ogooué-Lolo;Noumbou
+0;10.5500,0.3500;GA-01;Estuaire;Nouako
+0;11.0667,0.9000;GA-09;Woleu-Ntem;Nongzork
+0;9.5124,-2.1562;GA-08;Ogooué-Maritime;Nombo
+0;9.4986,0.3411;GA-01;Estuaire;Nomba
+0;9.6833,0.7333;GA-01;Estuaire;Noayong
+0;11.9731,1.9794;GA-09;Woleu-Ntem;Noanatoute
+0;10.7833,0.9667;GA-09;Woleu-Ntem;Nnifala
+0;10.7752,0.9966;GA-09;Woleu-Ntem;Nnangbeng
+0;9.9833,-1.0667;GA-03;Moyen-Ogooué;Nlovila
+0;9.6333,-0.0167;GA-01;Estuaire;Nlang-Mbeng
+0;11.6000,2.2667;GA-09;Woleu-Ntem;Nlan
+0;13.2833,0.2500;GA-06;Ogooué-Ivindo;Nkouta
+0;11.6891,1.3086;GA-09;Woleu-Ntem;Nkout
+0;9.8384,0.5450;GA-01;Estuaire;Nkourou
+0;9.9167,0.5667;GA-01;Estuaire;Nkourneki
+0;11.6685,1.9873;GA-09;Woleu-Ntem;Nkoung
+0;10.2667,-0.5167;GA-03;Moyen-Ogooué;Nkoumiti
+0;10.5167,0.3500;GA-01;Estuaire;Nkouméti
+0;11.3958,2.1535;GA-09;Woleu-Ntem;Nkoumédoum
+0;9.7500,0.5167;GA-01;Estuaire;Nkoumazza
+0;10.7667,-0.2000;GA-03;Moyen-Ogooué;Nkoumazo
+0;11.9167,2.0333;GA-09;Woleu-Ntem;Nkoumadza
+0;12.0500,2.2000;GA-09;Woleu-Ntem;Nkoum
+0;11.9036,1.5585;GA-09;Woleu-Ntem;Nkoum
+0;9.7831,0.8256;GA-01;Estuaire;Nkoulengong
+0;10.4833,-0.4000;GA-03;Moyen-Ogooué;Nkoulé
+0;9.7767,0.9219;GA-01;Estuaire;Nkoulamvan
+0;11.6840,1.0639;GA-09;Woleu-Ntem;Nkougou
+0;11.5012,1.1988;GA-09;Woleu-Ntem;Nkouara
+0;10.1500,0.2667;GA-01;Estuaire;Nkoua
+0;10.1167,0.2333;GA-01;Estuaire;Nkoua
+0;11.8167,1.8667;GA-09;Woleu-Ntem;Nkoto II
+0;11.8413,1.8404;GA-09;Woleu-Ntem;Nkoto I
+0;10.6000,0.4500;GA-01;Estuaire;Nkong
+0;11.5238,1.8547;GA-09;Woleu-Ntem;Nkomo
+0;11.5500,1.8833;GA-09;Woleu-Ntem;Nkomo
+0;10.2667,0.3667;GA-01;Estuaire;Nkomi
+0;11.7570,1.5612;GA-09;Woleu-Ntem;Nkomelene
+0;11.7333,1.5667;GA-09;Woleu-Ntem;Nkomelene
+0;11.6842,1.2751;GA-09;Woleu-Ntem;Nkomelene
+0;9.5895,-2.0580;GA-08;Ogooué-Maritime;Nkombeguinoguia
+0;11.9203,1.9044;GA-09;Woleu-Ntem;Nkolvem
+0;9.6835,0.3797;GA-01;Estuaire;Nkoltang
+0;9.7000,0.3500;GA-01;Estuaire;Nkoltang
+0;11.5648,1.9652;GA-09;Woleu-Ntem;Nkolmessas
+0;11.4924,2.2393;GA-09;Woleu-Ntem;Nkolmengoa
+0;11.3843,2.1606;GA-09;Woleu-Ntem;Nkolessong
+0;11.4990,2.1564;GA-09;Woleu-Ntem;Nkolayop
+0;11.6167,1.9167;GA-09;Woleu-Ntem;Nkolayop
+0;11.3833,1.9128;GA-09;Woleu-Ntem;Nkolayop
+0;11.5863,1.5271;GA-09;Woleu-Ntem;Nkolayop
+0;11.4982,1.5139;GA-09;Woleu-Ntem;Nkolayop
+0;11.5092,1.2163;GA-09;Woleu-Ntem;Nkolayop
+0;11.7048,1.2195;GA-09;Woleu-Ntem;Nkolabona
+0;11.6333,1.9000;GA-09;Woleu-Ntem;Nkoksi
+0;11.3500,0.7000;GA-09;Woleu-Ntem;Nkok Ngem
+0;11.4772,2.2195;GA-09;Woleu-Ntem;Nkok-Loé
+0;9.6345,0.3787;GA-01;Estuaire;Nkok
+0;10.4367,-0.2738;GA-03;Moyen-Ogooué;Akok
+0;11.5566,2.2648;GA-09;Woleu-Ntem;Nkoguébé
+0;12.0167,2.1833;GA-09;Woleu-Ntem;Nkogomang
+0;11.9283,1.9120;GA-09;Woleu-Ntem;Nkogomesseng
+0;11.6500,0.8500;GA-09;Woleu-Ntem;Nkogo-Bessek
+0;9.4833,0.4333;GA-01;Estuaire;Nkog Ebel
+0;12.0000,2.0833;GA-09;Woleu-Ntem;Nkogassié
+0;11.9833,2.0667;GA-09;Woleu-Ntem;Nkogassié
+0;12.0000,2.1167;GA-09;Woleu-Ntem;Nkogalène
+0;12.1333,2.1833;GA-09;Woleu-Ntem;Nkogakom
+0;11.3833,2.2000;GA-09;Woleu-Ntem;Nkodzoé
+0;11.4000,0.8833;GA-09;Woleu-Ntem;Nko II
+0;11.3603,0.8806;GA-09;Woleu-Ntem;Nko I
+0;11.6500,2.0333;GA-09;Woleu-Ntem;Nko
+0;11.5655,1.8660;GA-09;Woleu-Ntem;Nko
+0;11.5667,1.9000;GA-09;Woleu-Ntem;Nko
+0;11.4941,1.2510;GA-09;Woleu-Ntem;Nko
+0;12.3500,0.8333;GA-06;Ogooué-Ivindo;Nkin
+0;10.6842,0.9647;GA-09;Woleu-Ntem;Nkimen
+0;14.2701,-1.8269;GA-02;Haut-Ogooué;Nkiga
+0;11.7667,1.8500;GA-09;Woleu-Ntem;Nkié
+0;11.6937,1.1419;GA-09;Woleu-Ntem;Nkey
+0;10.0333,-0.9833;GA-03;Moyen-Ogooué;Nkenga-Mbya
+0;12.2000,0.3333;GA-06;Ogooué-Ivindo;Nkaretom
+0;11.7500,1.5719;GA-09;Woleu-Ntem;Nkarenzork
+0;11.5605,0.8324;GA-09;Woleu-Ntem;Nkar II
+0;11.5508,0.8255;GA-09;Woleu-Ntem;Nkar I
+0;10.0203,-0.8762;GA-03;Moyen-Ogooué;Nkangué
+0;11.6914,1.5890;GA-09;Woleu-Ntem;Nkang
+0;11.1912,0.9499;GA-09;Woleu-Ntem;Nkane
+0;9.6343,0.7034;GA-01;Estuaire;Nkan
+0;11.0333,0.9000;GA-09;Woleu-Ntem;Nkamenvi
+0;11.3667,2.1333;GA-09;Woleu-Ntem;Nka
+0;12.4500,-1.3833;GA-07;Ogooué-Lolo;Njoukou
+0;12.1131,-1.2305;GA-07;Ogooué-Lolo;Njolé
+0;12.0000,-0.1167;GA-06;Ogooué-Ivindo;Njolé
+0;9.7667,0.3833;GA-01;Estuaire;Njobermitang
+0;9.6602,-2.1878;GA-08;Ogooué-Maritime;Nioungou Goumbi
+0;9.7186,-2.2818;GA-08;Ogooué-Maritime;Nioungou
+0;11.3407,-1.3814;GA-04;Ngouni;Niongui
+0;11.5833,-1.6167;GA-04;Ngouni;Niongué
+0;9.7561,-2.5112;GA-08;Ogooué-Maritime;Niongo
+0;8.9505,-0.8596;GA-08;Ogooué-Maritime;Niolokoué
+0;11.5167,-1.0333;GA-04;Ngouni;Niolé
+0;10.7333,-0.1833;GA-03;Moyen-Ogooué;Nintouma
+0;9.0236,-1.3215;GA-08;Ogooué-Maritime;Ningoranga
+0;10.3333,0.6333;GA-01;Estuaire;Niffangou Nkam
+0;11.0186,-3.7736;GA-05;Nyanga;Nienzi Mogne
+0;11.3833,-2.9000;GA-05;Nyanga;Niengo
+0;12.1000,-1.5000;GA-07;Ogooué-Lolo;Niendzé
+0;10.6333,-1.6000;GA-04;Ngouni;Niembipanga
+0;10.7321,-2.1337;GA-04;Ngouni;Nieguianou
+0;12.8333,-0.9500;GA-07;Ogooué-Lolo;Niavangina
+0;13.5833,0.8500;GA-06;Ogooué-Ivindo;Niatazokou
+0;11.6833,-1.9833;GA-04;Ngouni;Nianga
+0;10.0711,0.2706;GA-01;Estuaire;Nianam
+0;9.6167,0.9500;GA-01;Estuaire;Nianam II
+0;9.5755,0.9294;GA-01;Estuaire;Nianam I
+0;10.0000,0.5833;GA-01;Estuaire;Nianam
+0;10.1500,0.2833;GA-01;Estuaire;Nianam
+0;12.5946,-0.2485;GA-06;Ogooué-Ivindo;Niamigodi
+0;12.0667,-1.0000;GA-07;Ogooué-Lolo;Niamba
+0;11.7569,-0.4356;GA-06;Ogooué-Ivindo;Niamanbaye
+0;11.9461,0.2153;GA-06;Ogooué-Ivindo;Niallabe
+0;11.5333,-2.4167;GA-04;Ngouni;Niali
+2691;13.7925,-1.5002;GA-02;Haut-Ogooué;Ngwoni
+0;9.0667,-1.0167;GA-08;Ogooué-Maritime;Nguiabeta
+0;10.6333,-1.6000;GA-04;Ngouni;Nguenza
+0;11.1833,-2.4667;GA-05;Nyanga;Nguenda Pahilo
+0;11.4833,-2.3833;GA-04;Ngouni;Nguenda
+0;12.7667,-0.2500;GA-07;Ogooué-Lolo;Ngueké
+0;11.4693,1.9480;GA-09;Woleu-Ntem;Ngozok
+0;11.4333,-2.4000;GA-04;Ngouni;Ngoyo
+0;11.1167,-3.0000;GA-05;Nyanga;Ngoussou
+0;11.4167,-2.3833;GA-04;Ngouni;Ngoussou
+0;11.8833,-2.1500;GA-04;Ngouni;Ngoungui
+0;10.9171,-2.5227;GA-05;Nyanga;Ngoungou
+0;12.3183,-1.5312;GA-07;Ogooué-Lolo;Ngoungou
+0;11.4667,-2.2333;GA-04;Ngouni;Ngoundzi
+0;11.4866,-2.2910;GA-04;Ngouni;Ngoundou
+0;10.9667,-1.7500;GA-04;Ngouni;Ngoundou
+0;13.5833,-1.8833;GA-02;Haut-Ogooué;Ngounda
+0;11.2833,-2.5000;GA-04;Ngouni;Ngoumou
+0;10.3857,-1.6365;GA-04;Ngouni;Ngoumou
+0;10.8568,-1.7419;GA-04;Ngouni;Ngoumou
+0;10.3167,-1.6500;GA-04;Ngouni;Ngoumou
+0;11.2000,-1.9000;GA-04;Ngouni;Ngoumbi II
+0;11.2167,-1.9000;GA-04;Ngouni;Ngoumbi I
+0;9.6482,-2.1763;GA-08;Ogooué-Maritime;Ngoumbi
+0;9.4613,-1.3683;GA-08;Ogooué-Maritime;Ngoumbi
+0;9.6012,-0.9427;GA-08;Ogooué-Maritime;Ngoumbi
+0;11.2833,0.6667;GA-09;Woleu-Ntem;Ngoum
+0;10.4500,0.5667;GA-01;Estuaire;Ngoulemve
+0;9.3500,-1.8167;GA-08;Ogooué-Maritime;Ngoulabona
+0;11.4500,-2.9500;GA-05;Nyanga;Ngoula
+0;13.5167,0.8333;GA-06;Ogooué-Ivindo;Ngouengoué
+0;11.5720,1.5778;GA-09;Woleu-Ntem;Ngouema
+0;10.0167,-1.5667;GA-04;Ngouni;Ngoudou
+0;11.9167,-2.2667;GA-04;Ngouni;Ngoubounambougou
+0;11.3167,0.9000;GA-09;Woleu-Ntem;Ngoubessi
+0;9.3767,-1.1062;GA-08;Ogooué-Maritime;Ngouaviri
+0;11.5167,-1.4500;GA-04;Ngouni;Ngouassa Mabounda
+0;11.3667,-1.2667;GA-04;Ngouni;Ngouassa
+0;9.7000,0.5500;GA-01;Estuaire;Ngouanié
+0;10.4505,-0.3581;GA-03;Moyen-Ogooué;Ngouabilag
+0;11.1333,-1.9167;GA-04;Ngouni;Ngoua Bikoka
+0;11.4461,1.4819;GA-09;Woleu-Ntem;Ngou
+0;10.8167,0.6333;GA-01;Estuaire;Ngou
+0;12.7667,-0.2667;GA-07;Ogooué-Lolo;Ngota
+0;13.1167,0.7000;GA-06;Ogooué-Ivindo;Ngosso
+0;11.5000,-2.1667;GA-04;Ngouni;Ngossi
+0;10.3667,-0.5000;GA-03;Moyen-Ogooué;Ngoss
+0;10.3000,0.3833;GA-01;Estuaire;Ngorondzaye
+0;12.1932,0.3118;GA-06;Ogooué-Ivindo;Ngoreki
+0;13.5333,-1.6333;GA-02;Haut-Ogooué;Ngongo
+0;12.6667,-0.8333;GA-07;Ogooué-Lolo;Ngonga
+0;10.6749,0.9576;GA-09;Woleu-Ntem;Ngoneki
+0;11.6241,0.9284;GA-09;Woleu-Ntem;Ngone
+0;11.4500,-2.2667;GA-04;Ngouni;Ngondzi
+0;11.8833,-1.5000;GA-04;Ngouni;Ngondo
+0;10.7028,-3.3469;GA-05;Nyanga;Ngondi
+0;12.0553,2.1629;GA-09;Woleu-Ntem;Ngon
+0;12.1667,2.1333;GA-09;Woleu-Ntem;Ngon
+0;11.6167,-1.9833;GA-04;Ngouni;Ngomo Boulango
+0;11.6333,-1.9833;GA-04;Ngouni;Ngomo
+0;9.9819,-0.8393;GA-03;Moyen-Ogooué;Ngomo
+0;11.1853,0.1858;GA-03;Moyen-Ogooué;Ngonbon
+0;11.6408,1.0011;GA-09;Woleu-Ntem;Ngomessi
+0;10.9000,-1.6167;GA-04;Ngouni;Ngombi
+0;11.9000,2.1667;GA-09;Woleu-Ntem;Ngomane-Sélé
+0;11.9344,2.1818;GA-09;Woleu-Ntem;Ngomane
+0;11.5833,-2.5333;GA-04;Ngouni;Ngoma
+0;13.8162,-1.0215;GA-02;Haut-Ogooué;Ngoma
+0;12.7167,-0.9833;GA-07;Ogooué-Lolo;Ngoma
+0;13.7509,-0.4911;GA-02;Haut-Ogooué;Ngoma
+0;10.7667,-0.1333;GA-03;Moyen-Ogooué;Ngoma
+0;10.0702,-0.8341;GA-03;Moyen-Ogooué;Ngolé
+0;11.5948,0.8665;GA-09;Woleu-Ntem;Ngola II
+0;11.5831,0.8617;GA-09;Woleu-Ntem;Ngola I
+0;9.0541,-0.9756;GA-08;Ogooué-Maritime;Ngola
+0;11.0000,-1.8167;GA-04;Ngouni;Ngoguina II
+0;11.0000,-1.8333;GA-04;Ngouni;Ngoguina I
+0;12.0500,2.1167;GA-09;Woleu-Ntem;Ngogalen
+0;13.5833,-1.6333;GA-02;Haut-Ogooué;Ngobounda
+0;11.9833,-1.3000;GA-07;Ogooué-Lolo;Ngoasso
+0;11.8500,1.8833;GA-09;Woleu-Ntem;Ngo
+0;11.1333,-2.2667;GA-04;Ngouni;Nganga
+0;14.0468,1.0774;GA-06;Ogooué-Ivindo;Ngando
+0;10.7960,-2.0495;GA-04;Ngouni;Nganda
+0;13.5833,-1.7667;GA-02;Haut-Ogooué;Nganda
+0;11.6500,0.7333;GA-09;Woleu-Ntem;Ngamemzorek
+0;13.4333,0.2000;GA-06;Ogooué-Ivindo;Ngalipana
+0;13.7000,-0.4833;GA-02;Haut-Ogooué;Ngaina
+0;9.7167,0.2167;GA-01;Estuaire;Nfoulameyong
+0;10.9251,-2.5550;GA-05;Nyanga;Nfigou
+0;11.5516,1.8706;GA-09;Woleu-Ntem;Nfagne
+0;10.0449,-0.9251;GA-03;Moyen-Ogooué;Neumbedouma
+0;10.5833,-1.1667;GA-04;Ngouni;Nengué Dioni
+0;9.4221,-1.9462;GA-08;Ogooué-Maritime;Nenga Bembe
+0;9.7323,-0.9413;GA-08;Ogooué-Maritime;Nendja
+0;9.9333,-0.5833;GA-03;Moyen-Ogooué;Nendja
+0;11.1088,-2.9278;GA-05;Nyanga;Ndendé
+7238;11.3581,-2.4008;GA-04;Ngouni;Ndendé
+0;13.8288,-1.7962;GA-02;Haut-Ogooué;Ndounou
+0;11.5667,-1.3667;GA-04;Ngouni;Ndoungou
+0;13.7333,0.9333;GA-06;Ogooué-Ivindo;Ndoundouma
+0;12.5500,-1.1833;GA-07;Ogooué-Lolo;Ndoumbou
+0;12.7102,-0.8088;GA-07;Ogooué-Lolo;Ndoumbou
+0;9.6018,-0.9728;GA-08;Ogooué-Maritime;Ndoumba
+0;10.2995,-0.5836;GA-03;Moyen-Ogooué;Ndouma Ntang
+0;12.2000,0.3667;GA-06;Ogooué-Ivindo;Ndoumala
+0;11.5500,-2.3500;GA-04;Ngouni;Ndouma
+0;11.5000,-1.9833;GA-04;Ngouni;Ndougou
+0;9.6659,-1.6560;GA-08;Ogooué-Maritime;Ndougou
+0;11.6019,-2.0797;GA-04;Ngouni;Ndoubi
+0;11.6167,-2.0667;GA-04;Ngouni;Ndoubi
+0;13.7488,-1.7540;GA-02;Haut-Ogooué;Ndoubi
+0;11.8833,-1.6000;GA-04;Ngouni;Ndoubi
+0;11.7167,-1.5333;GA-04;Ngouni;Ndoubi
+0;13.0890,-1.3082;GA-02;Haut-Ogooué;Ndoubi
+0;9.6629,-2.2245;GA-08;Ogooué-Maritime;Ndouani
+0;10.1442,-2.1210;GA-08;Ogooué-Maritime;Ndouani
+0;10.3180,-2.0755;GA-08;Ogooué-Maritime;Ndouani
+0;10.4000,0.3500;GA-01;Estuaire;Ndoua
+0;10.8000,-0.1500;GA-03;Moyen-Ogooué;Ndong-Guéma
+0;10.1847,-0.7044;GA-03;Moyen-Ogooué;Ngong
+0;12.7833,-0.3167;GA-07;Ogooué-Lolo;Ndondzi
+0;9.5546,0.9342;GA-01;Estuaire;Ndombo
+0;10.5667,-0.3000;GA-03;Moyen-Ogooué;Ndoiny
+0;11.6500,-1.2333;GA-04;Ngouni;Ndogo
+0;12.2902,-1.2833;GA-07;Ogooué-Lolo;Ndjouli
+0;9.3833,0.2500;GA-01;Estuaire;Ndjoué
+0;10.6805,-1.4903;GA-04;Ngouni;Ndjolé
+0;9.4054,-1.5816;GA-08;Ogooué-Maritime;Ndjolé
+8265;10.7649,-0.1783;GA-03;Moyen-Ogooué;Ndjolé
+0;13.8558,-1.0660;GA-02;Haut-Ogooué;Ndjanga
+0;10.1833,-0.8333;GA-03;Moyen-Ogooué;Ndjambalika
+0;12.5332,-1.0144;GA-07;Ogooué-Lolo;Ndjakonamoyé
+0;11.8481,-1.8001;GA-04;Ngouni;Ndingui
+0;11.7333,-1.0833;GA-04;Ngouni;Ndingui
+0;11.8158,-1.2184;GA-04;Ngouni;Ndinghi
+0;11.7500,-2.1500;GA-04;Ngouni;Ndinga Lebala
+1334;12.0200,-1.7610;GA-04;Ngouni;Ndindi
+0;11.7500,2.2167;GA-09;Woleu-Ntem;Ndes
+0;12.9667,0.6167;GA-06;Ogooué-Ivindo;Ndengoué
+0;10.3500,-0.8000;GA-03;Moyen-Ogooué;Ndendi Gabon
+0;11.7194,-3.1739;GA-05;Nyanga;Ndendi
+0;10.7825,-2.4980;GA-05;Nyanga;Ndendé
+0;11.7167,2.1333;GA-09;Woleu-Ntem;Ndangang
+0;12.1159,-1.2449;GA-07;Ogooué-Lolo;Ndanda
+0;11.6000,0.4500;GA-09;Woleu-Ntem;Ndamé-Béné
+0;12.6667,-0.5333;GA-07;Ogooué-Lolo;Ndambi
+0;14.0045,-1.8526;GA-02;Haut-Ogooué;Nchoulou
+0;10.3000,-0.5333;GA-03;Moyen-Ogooué;Nazareth
+0;9.7333,0.1000;GA-01;Estuaire;Nango
+0;11.2187,-2.1902;GA-04;Ngouni;Nangha
+0;10.9333,-1.7167;GA-04;Ngouni;Namba
+0;9.5167,-1.1833;GA-08;Ogooué-Maritime;Nabigou
+0;11.6584,0.8210;GA-09;Woleu-Ntem;Na
+0;10.7667,-0.1667;GA-03;Moyen-Ogooué;Mzalé
+0;11.9133,-1.9936;GA-04;Ngouni;Myanga
+0;9.7667,0.8500;GA-01;Estuaire;Myang
+0;11.2419,0.2344;GA-09;Woleu-Ntem;Mianga
+0;12.8667,0.5667;GA-06;Ogooué-Ivindo;Mvoungha
+0;10.6333,-0.2333;GA-03;Moyen-Ogooué;Mvoulié
+0;11.1500,0.6833;GA-09;Woleu-Ntem;Mvoulessi
+0;9.8287,0.7325;GA-01;Estuaire;Mvoulenzogh
+0;10.6333,-0.2500;GA-03;Moyen-Ogooué;Mvoubingomé
+0;11.5500,0.6167;GA-09;Woleu-Ntem;Mvoua Mitana
+0;9.5685,0.9195;GA-01;Estuaire;Mvone
+0;10.6333,0.5500;GA-01;Estuaire;Mvomo
+0;9.8078,0.7750;GA-01;Estuaire;Mvomenzogh
+0;11.5833,1.5333;GA-09;Woleu-Ntem;Mvomayop III
+0;11.6000,1.5167;GA-09;Woleu-Ntem;Mvomayop II
+0;11.5952,1.4993;GA-09;Woleu-Ntem;Mvomayop
+0;12.0047,2.0629;GA-09;Woleu-Ntem;Mvolo
+0;10.7167,-0.2000;GA-03;Moyen-Ogooué;Mveyassi
+0;13.4193,-1.6569;GA-02;Haut-Ogooué;Mvengué
+0;11.4679,0.8269;GA-09;Woleu-Ntem;Mveng
+0;11.0000,0.6667;GA-09;Woleu-Ntem;Mveng
+0;11.6667,2.0667;GA-09;Woleu-Ntem;Mvémézok
+0;11.7500,1.0167;GA-09;Woleu-Ntem;Mvé Métol
+0;10.6638,0.9595;GA-09;Woleu-Ntem;Mveign
+0;10.1776,-0.8911;GA-03;Moyen-Ogooué;Mvanzama
+0;11.8167,0.8500;GA-09;Woleu-Ntem;Mvanha
+0;9.8833,-0.0167;GA-01;Estuaire;Mvang-Ayong
+0;9.9167,0.8000;GA-01;Estuaire;Mvang
+0;9.8140,0.7997;GA-01;Estuaire;Mvang
+0;10.5000,-0.3000;GA-03;Moyen-Ogooué;Mvang
+0;11.4500,1.7667;GA-09;Woleu-Ntem;Mvane II
+0;11.4500,1.7500;GA-09;Woleu-Ntem;Mvane I
+0;11.6774,1.3352;GA-09;Woleu-Ntem;Mvane
+0;10.0000,0.6833;GA-01;Estuaire;Mvanayong
+0;10.1479,0.4926;GA-01;Estuaire;Mvanayong
+0;10.1333,0.6000;GA-01;Estuaire;Mvanayème
+0;10.5333,-0.2667;GA-03;Moyen-Ogooué;Mvanayémé
+0;9.9502,0.8000;GA-01;Estuaire;Mvanayem
+0;11.4094,1.8667;GA-09;Woleu-Ntem;Mvan
+0;9.6575,-0.2235;GA-01;Estuaire;Mvam
+0;11.4798,1.5443;GA-09;Woleu-Ntem;Mvagne
+0;13.1854,1.2116;GA-06;Ogooué-Ivindo;Mvadi
+0;10.4833,-0.3000;GA-03;Moyen-Ogooué;Mtom
+0;13.1333,0.7000;GA-06;Ogooué-Ivindo;Mpouma
+0;9.6833,0.4500;GA-01;Estuaire;Mpilou
+0;10.9627,0.6976;GA-01;Estuaire;Mpiala
+0;14.3167,-2.0000;GA-02;Haut-Ogooué;Mpfoubi
+0;9.6987,-1.6763;GA-08;Ogooué-Maritime;Mpéré
+0;9.1167,-0.6167;GA-08;Ogooué-Maritime;Mpembé
+0;9.2517,-1.6770;GA-08;Ogooué-Maritime;Mpando
+0;9.8000,-1.6833;GA-08;Ogooué-Maritime;Mpaga
+0;9.4488,-0.9442;GA-08;Ogooué-Maritime;Mpaga
+0;10.3067,-1.5442;GA-04;Ngouni;Moyenou
+0;13.5833,-1.9000;GA-02;Haut-Ogooué;Moyabi II
+0;13.5667,-1.9000;GA-02;Haut-Ogooué;Moyabi I
+0;13.2667,-1.6394;GA-02;Haut-Ogooué;Moyabi
+0;11.9167,2.1833;GA-09;Woleu-Ntem;Movous II
+0;11.9639,2.1805;GA-09;Woleu-Ntem;Movous I
+0;11.0500,-2.0667;GA-04;Ngouni;Mouzoumé
+0;10.7540,-3.1905;GA-05;Nyanga;Mouyoungou
+0;11.8833,-1.5667;GA-04;Ngouni;Mouyoumbi
+0;11.4000,-2.3500;GA-04;Ngouni;Mouyondzi
+0;10.1183,-2.5044;GA-08;Ogooué-Maritime;Mouyomfi
+0;10.8164,-2.5401;GA-05;Nyanga;Mouyombi-Tali
+0;11.6833,-2.3500;GA-04;Ngouni;Mouyombi
+0;11.6167,-2.6167;GA-04;Ngouni;Mouyiamba
+0;10.7031,-3.3331;GA-05;Nyanga;Mouyamba
+0;9.8667,-2.5000;GA-08;Ogooué-Maritime;Mouyamba
+0;11.6833,-2.1833;GA-04;Ngouni;Mouyamba
+0;11.4491,-2.0888;GA-04;Ngouni;Mouyamba
+0;11.7500,-1.8167;GA-04;Ngouni;Mouyamba
+0;13.5852,-2.2409;GA-02;Haut-Ogooué;Mouyabi
+0;11.7500,-1.9833;GA-04;Ngouni;Mouvindou
+0;11.8619,-1.8186;GA-04;Ngouni;Mouvindou
+0;11.9000,-1.8167;GA-04;Ngouni;Mouvindou
+0;12.6191,-1.6185;GA-07;Ogooué-Lolo;Mouvangué
+0;10.6592,-2.5878;GA-05;Nyanga;Mouvanga-Panza
+0;10.8500,-3.0167;GA-05;Nyanga;Mouvanga
+0;11.1833,-1.9833;GA-04;Ngouni;Moutsima
+0;10.9687,-2.4341;GA-05;Nyanga;Moutoungou
+0;11.0043,-2.4173;GA-05;Nyanga;Moutoumba
+0;11.0132,-2.4078;GA-05;Nyanga;Moutoumba
+0;10.3000,-1.4667;GA-04;Ngouni;Moutéti
+0;10.3676,-0.7717;GA-03;Moyen-Ogooué;Moutéti
+0;11.0388,-2.0582;GA-04;Ngouni;Moutassou
+0;10.6667,-1.3000;GA-04;Ngouni;Moutambi
+0;10.7668,-2.0505;GA-04;Ngouni;Moussoudou
+0;11.4667,-2.3667;GA-04;Ngouni;Moussonga
+0;11.6833,-2.2000;GA-04;Ngouni;Moussombi
+0;11.4667,-2.8000;GA-05;Nyanga;Moussitoulela
+0;10.8206,-3.0890;GA-05;Nyanga;Moussitou
+0;10.8516,-2.4880;GA-05;Nyanga;Moussitou
+0;11.5000,-2.1333;GA-04;Ngouni;Moussitou
+0;11.7500,-1.4667;GA-04;Ngouni;Moussima
+0;11.3500,-1.7167;GA-04;Ngouni;Moussigué
+0;12.0667,-1.5000;GA-07;Ogooué-Lolo;Moussemo
+0;10.6822,-2.6113;GA-05;Nyanga;Moussangala
+0;11.5935,-3.2726;GA-05;Nyanga;Moussamou Ygoyo
+0;10.2145,-0.6653;GA-03;Moyen-Ogooué;Moussa-Moukougou
+0;10.2167,-0.6500;GA-03;Moyen-Ogooué;Moussa-Moukougou
+0;10.9836,-2.4222;GA-05;Nyanga;Moussamou Kougou
+0;9.4868,-1.1625;GA-08;Ogooué-Maritime;Moussamoukogo
+0;9.8567,-1.6861;GA-04;Ngouni;Moussamou
+0;10.1500,-1.5667;GA-04;Ngouni;Moussamou
+0;10.0799,-2.7848;GA-05;Nyanga;Moussamo Niambi
+0;11.4125,-2.2623;GA-04;Ngouni;Moussambo
+0;11.0833,-2.1000;GA-04;Ngouni;Moussambo
+0;11.7167,-2.9500;GA-05;Nyanga;Moussamba
+0;11.3333,-2.1667;GA-04;Ngouni;Moussamba
+0;12.6667,-1.2167;GA-07;Ogooué-Lolo;Moussakoumou Lékala
+0;13.2500,0.2667;GA-06;Ogooué-Ivindo;Mouseye
+0;11.8500,-2.2000;GA-04;Ngouni;Mouroussi
+0;11.7126,-3.2884;GA-05;Nyanga;Mouroungouya
+0;11.1167,-2.7500;GA-05;Nyanga;Mouringa Issenguele
+0;11.4303,-2.3125;GA-04;Ngouni;Mourimbo
+0;11.0333,-2.6667;GA-05;Nyanga;Mourima
+0;10.9863,-2.7430;GA-05;Nyanga;Mourambo Kata
+0;11.6304,-3.3534;GA-05;Nyanga;Mouralou
+0;11.8833,-1.2000;GA-07;Ogooué-Lolo;Moupoupa
+0;10.7167,-1.0667;GA-04;Ngouni;Moupoupa
+0;11.8333,-2.1333;GA-04;Ngouni;Moupoungou
+0;11.8167,-2.3667;GA-04;Ngouni;Moupoundi
+0;10.3954,-1.6511;GA-04;Ngouni;Moupossi
+0;10.6284,-1.3707;GA-04;Ngouni;Mouponou
+0;12.8907,-1.0756;GA-07;Ogooué-Lolo;Moupeyou
+0;12.0000,-2.3167;GA-04;Ngouni;Moupata
+0;12.4279,-1.3323;GA-07;Ogooué-Lolo;Moupata
+0;11.3833,-1.2833;GA-04;Ngouni;Moupaka
+0;11.8833,-1.3000;GA-04;Ngouni;Mounongo
+0;11.9154,-1.2173;GA-07;Ogooué-Lolo;Mounongo
+0;11.1298,-2.2187;GA-04;Ngouni;Mouniegou
+0;10.9500,-1.7167;GA-04;Ngouni;Mouniegou
+0;11.1167,-2.1667;GA-04;Ngouni;Mounianga
+0;11.9193,-1.9167;GA-04;Ngouni;Mounguembi
+0;11.4167,-2.9500;GA-05;Nyanga;Moungoundi
+0;11.2934,-2.5741;GA-04;Ngouni;Moungale
+0;11.4667,-1.9333;GA-04;Ngouni;Mounenga
+0;10.6333,-0.9833;GA-04;Ngouni;Moundounga
+0;10.6917,-1.5221;GA-04;Ngouni;Moundouma
+0;11.0500,-1.4167;GA-04;Ngouni;Moundou
+0;10.9415,-2.9931;GA-05;Nyanga;Mounanga
+0;11.3667,-2.7000;GA-05;Nyanga;Mounanga
+0;11.3000,-1.9167;GA-04;Ngouni;Mounanga
+0;12.9667,-1.6000;GA-02;Haut-Ogooué;Mounana II
+0;12.9500,-1.6167;GA-02;Haut-Ogooué;Mounana I
+8780;13.1586,-1.4085;GA-02;Haut-Ogooué;Mounana
+0;10.7000,-3.3500;GA-05;Nyanga;Moumou Boumba
+0;11.4890,-1.7228;GA-04;Ngouni;Moumbou
+0;10.3902,-1.6434;GA-04;Ngouni;Moumbou
+0;11.2333,-2.2000;GA-04;Ngouni;Moumba
+0;11.5571,-1.3672;GA-04;Ngouni;Moumba
+0;11.6833,-1.1667;GA-04;Ngouni;Moumba
+0;12.7833,-1.1500;GA-07;Ogooué-Lolo;Mouloundou
+0;12.1000,-1.0167;GA-07;Ogooué-Lolo;Mouloundou
+0;12.0180,-1.9936;GA-04;Ngouni;Moulounda
+0;13.4667,-1.8667;GA-02;Haut-Ogooué;Moulongo II
+0;13.5406,-1.7757;GA-02;Haut-Ogooué;Moulongo I
+0;10.4302,-3.0702;GA-05;Nyanga;Moulondo
+0;11.2667,-2.5833;GA-05;Nyanga;Moulonda
+0;12.7500,-0.3667;GA-07;Ogooué-Lolo;Moulombo
+0;12.3088,-1.2729;GA-07;Ogooué-Lolo;Moulobi
+0;11.3167,-2.1833;GA-04;Ngouni;Mouliangoula
+0;12.7500,-0.8833;GA-07;Ogooué-Lolo;Moulessi
+0;10.1667,-1.9500;GA-08;Ogooué-Maritime;Moulemba
+0;11.0623,-1.9803;GA-04;Ngouni;Moulandou Fouala
+0;11.1333,-2.6167;GA-05;Nyanga;Moulandou
+0;11.0076,-2.6647;GA-05;Nyanga;Moulamba
+0;10.6833,-1.0333;GA-04;Ngouni;Moulamba
+0;10.7099,-2.6701;GA-05;Nyanga;Moulagasiala
+0;11.2333,-2.1833;GA-04;Ngouni;Moulaba
+0;11.7333,-2.2667;GA-04;Ngouni;Moukoundza
+0;11.5693,-2.1930;GA-04;Ngouni;Moukoundou
+0;12.4000,-1.6667;GA-07;Ogooué-Lolo;Moukounangoyé
+0;9.8834,-1.6688;GA-04;Ngouni;Moukouna
+0;12.0336,-2.2245;GA-04;Ngouni;Moukoumou-Nangadi
+0;11.7833,-1.5000;GA-04;Ngouni;Moukoumou
+0;12.8833,-1.2167;GA-07;Ogooué-Lolo;Moukoumbi
+0;11.8833,-2.2167;GA-04;Ngouni;Moukoumamadi
+0;11.0667,-1.2167;GA-04;Ngouni;Moukoubango
+0;12.3144,-2.2991;GA-04;Ngouni;Moukouanga
+0;11.6167,-2.1333;GA-04;Ngouni;Moukouagna
+0;11.6667,-2.0833;GA-04;Ngouni;Moukouagna
+0;11.6500,-1.9833;GA-04;Ngouni;Moukouagna I
+0;12.1833,-1.9167;GA-04;Ngouni;Moukouagna
+0;12.7048,-1.7924;GA-07;Ogooué-Lolo;Moukouagna
+0;12.3833,-1.4333;GA-07;Ogooué-Lolo;Moukouagna
+0;12.5531,-1.3625;GA-07;Ogooué-Lolo;Moukouagna
+0;12.1500,-1.2333;GA-07;Ogooué-Lolo;Moukouagna
+0;12.4492,-1.1964;GA-07;Ogooué-Lolo;Moukouagna
+0;11.5000,-2.1000;GA-04;Ngouni;Moukoua
+0;11.5498,-2.5629;GA-04;Ngouni;Moukoro
+0;10.2659,-2.8649;GA-05;Nyanga;Moukongo Ndendé
+0;10.4746,-3.0388;GA-05;Nyanga;Moukondo
+0;12.1833,-1.9000;GA-04;Ngouni;Moukombo
+0;12.1278,-1.6786;GA-07;Ogooué-Lolo;Moukoko Mayani
+0;11.7333,-1.4833;GA-04;Ngouni;Moukinga
+0;12.4000,-1.9667;GA-04;Ngouni;Moukimbi
+0;10.9869,-2.1125;GA-04;Ngouni;Moukidi
+0;10.8667,-1.9833;GA-04;Ngouni;Moukiba II
+0;11.2000,-2.5167;GA-05;Nyanga;Moukenja
+0;11.6000,-2.2000;GA-04;Ngouni;Moukanza
+0;10.4882,-2.8890;GA-05;Nyanga;Moukangi
+0;11.8521,-1.4764;GA-04;Ngouni;Moukandi
+0;11.6309,-3.0793;GA-05;Nyanga;Moukambo
+0;12.0516,-2.1385;GA-04;Ngouni;Moukamba
+0;11.3833,-2.6167;GA-05;Nyanga;Moukakala
+0;11.6790,-1.6225;GA-04;Ngouni;Moukabou
+0;10.6225,-1.5708;GA-04;Ngouni;Moukabou
+0;10.1414,-1.6079;GA-04;Ngouni;Moukabou
+0;10.9500,-2.4432;GA-05;Nyanga;Moukaba Neny
+0;12.1767,-1.6178;GA-07;Ogooué-Lolo;Moukaba
+0;10.6062,-1.2603;GA-04;Ngouni;Moukaba
+0;13.3576,-1.6680;GA-02;Haut-Ogooué;Mouinga
+43342;11.0559,-1.8685;GA-04;Ngouni;Mouila
+0;12.1942,-1.3285;GA-07;Ogooué-Lolo;Mouila
+0;12.2500,-1.3167;GA-07;Ogooué-Lolo;Mouila
+0;10.6543,-2.2485;GA-04;Ngouni;Mougounda
+0;11.7500,-1.0333;GA-04;Ngouni;Mougoumou
+0;10.6557,-2.3499;GA-05;Nyanga;Mougouma
+0;10.7255,-2.7182;GA-05;Nyanga;Mougoudi
+0;12.0409,-1.2107;GA-07;Ogooué-Lolo;Mougoubou
+0;13.6345,-2.0506;GA-02;Haut-Ogooué;Mougouango II
+0;13.6148,-2.0107;GA-02;Haut-Ogooué;Mougouango
+0;12.1000,-1.2667;GA-07;Ogooué-Lolo;Mougonzo
+0;12.1479,-1.3957;GA-07;Ogooué-Lolo;Mougongo
+0;11.6333,-2.0167;GA-04;Ngouni;Mougonga
+0;12.0333,-1.3500;GA-07;Ogooué-Lolo;Mougomou
+0;12.4137,-2.1570;GA-04;Ngouni;Mougomibo
+0;12.0171,-1.1940;GA-07;Ogooué-Lolo;Mougombo
+0;11.8833,-1.8667;GA-04;Ngouni;Mougoko
+0;10.8833,-1.2833;GA-04;Ngouni;Mougoko
+0;11.7667,-1.6000;GA-04;Ngouni;Mougnygou
+0;10.7868,-3.1251;GA-05;Nyanga;Mougnimbou
+0;11.6000,-2.8833;GA-05;Nyanga;Mougnigou II
+0;11.6333,-2.9000;GA-05;Nyanga;Mougnigou
+0;10.3500,-0.7833;GA-03;Moyen-Ogooué;Mougnigou
+0;11.7833,-1.3000;GA-04;Ngouni;Mougnegou
+0;11.6667,-1.9333;GA-04;Ngouni;Moughiba
+0;10.9962,-2.7775;GA-05;Nyanga;Mougandza
+0;10.9225,-2.7792;GA-05;Nyanga;Mougando Dimbo
+0;11.5000,-2.1333;GA-04;Ngouni;Mougambi
+0;11.1667,-2.6500;GA-05;Nyanga;Mouetji
+0;10.5135,-2.9156;GA-05;Nyanga;Mouenda
+0;11.5667,-2.5167;GA-04;Ngouni;Mouellé
+0;12.1283,-2.3644;GA-04;Ngouni;Moueké
+0;12.7833,-0.8667;GA-07;Ogooué-Lolo;Moudoungou
+0;12.0546,-1.7342;GA-04;Ngouni;Moudouma
+0;12.0000,-1.4221;GA-07;Ogooué-Lolo;Moudouma
+0;11.4500,-2.4000;GA-04;Ngouni;Moudjina
+0;11.4667,-2.2667;GA-04;Ngouni;Moudiombi
+0;10.3500,-1.6667;GA-04;Ngouni;Moudimba
+0;11.5000,-2.2167;GA-04;Ngouni;Moudiapoula
+0;11.3000,-1.6667;GA-04;Ngouni;Moucouna
+0;12.4492,-1.1968;GA-07;Ogooué-Lolo;Moucouagna
+0;11.2000,-1.5500;GA-04;Ngouni;Mouboungou
+0;11.8167,-2.2667;GA-04;Ngouni;Mouboumboulou
+0;11.7167,-2.2500;GA-04;Ngouni;Mouboumboulou
+0;11.4667,-2.3000;GA-04;Ngouni;Mouboukou
+0;10.6204,-2.5304;GA-05;Nyanga;Moubou
+0;13.0661,-0.9493;GA-07;Ogooué-Lolo;Moubili
+0;11.0839,-1.8778;GA-04;Ngouni;Moubigou
+0;10.8667,-1.2000;GA-04;Ngouni;Moubigou
+0;12.7667,-0.7833;GA-07;Ogooué-Lolo;Moubidou
+0;12.7333,-0.9500;GA-07;Ogooué-Lolo;Moubassi
+0;11.7000,-1.8833;GA-04;Ngouni;Moubana
+0;10.4000,-1.7667;GA-04;Ngouni;Moubaga
+0;11.5333,-2.4667;GA-04;Ngouni;Mouamba
+0;13.4667,-1.3000;GA-02;Haut-Ogooué;Motobo II
+0;13.5519,-1.5370;GA-02;Haut-Ogooué;Motobo I
+0;13.5500,-1.5000;GA-02;Haut-Ogooué;Motobo
+0;13.6084,-2.2292;GA-02;Haut-Ogooué;Mossété
+0;13.3494,-1.6745;GA-02;Haut-Ogooué;Mossété
+0;10.1057,-2.7937;GA-05;Nyanga;Mossamala
+0;10.2500,-0.9833;GA-03;Moyen-Ogooué;Mora
+0;13.5833,-1.8167;GA-02;Haut-Ogooué;Mopounga II
+0;13.5833,-1.8167;GA-02;Haut-Ogooué;Mopounga I
+0;13.8329,-1.7951;GA-02;Haut-Ogooué;Mopounga
+0;10.9333,-1.1833;GA-04;Ngouni;Mopounga
+0;12.0333,-1.1333;GA-07;Ogooué-Lolo;Mopoumba
+0;13.5833,-1.8333;GA-02;Haut-Ogooué;Mopia II
+0;13.6057,-1.8144;GA-02;Haut-Ogooué;Mopia
+0;13.7818,-1.7741;GA-02;Haut-Ogooué;Mopata
+0;13.2269,0.3121;GA-06;Ogooué-Ivindo;Mooba
+0;9.8500,0.3000;GA-01;Estuaire;Monzogh
+0;12.8901,-1.6903;GA-02;Haut-Ogooué;Monkendjoko
+0;11.5667,-2.5167;GA-04;Ngouni;Mongoungou
+0;11.5018,2.0326;GA-09;Woleu-Ntem;Mongos
+0;10.4833,-3.0500;GA-05;Nyanga;Mongo Milando
+0;11.9833,-1.2500;GA-07;Ogooué-Lolo;Mongadi
+0;13.3272,-1.4845;GA-02;Haut-Ogooué;Mondzéyé
+0;11.5000,-2.1500;GA-04;Ngouni;Mondou
+0;8.9604,-0.8986;GA-08;Ogooué-Maritime;Mondorobé
+0;11.8000,2.2000;GA-09;Woleu-Ntem;Mondok
+0;10.9833,-1.7833;GA-04;Ngouni;Mondo II
+0;11.5402,-0.0649;GA-06;Ogooué-Ivindo;Mondo
+0;9.8333,0.2833;GA-01;Estuaire;Monda
+0;11.8197,1.8281;GA-09;Woleu-Ntem;Momo
+0;12.2333,-1.9500;GA-04;Ngouni;Mombi
+0;13.2500,0.7500;GA-06;Ogooué-Ivindo;Mombaza
+0;13.5833,-1.7167;GA-02;Haut-Ogooué;Momanga
+0;13.5500,-1.6833;GA-02;Haut-Ogooué;Molongo
+0;11.4998,-3.2748;GA-05;Nyanga;Molito
+0;12.8320,-1.0199;GA-07;Ogooué-Lolo;Molessi-Lekegni
+0;11.7333,1.7833;GA-09;Woleu-Ntem;Mokomo-Sanvogo
+0;11.8167,2.2000;GA-09;Woleu-Ntem;Mokoga
+0;13.3499,-1.4668;GA-02;Haut-Ogooué;Mokaba-Ngaou
+0;11.3513,-1.4015;GA-04;Ngouni;Mogoumou
+0;12.1333,-1.5167;GA-07;Ogooué-Lolo;Mogoudi
+0;11.8059,-0.9246;GA-07;Ogooué-Lolo;Mogondzo
+0;12.4365,-1.2330;GA-07;Ogooué-Lolo;Mogombofala
+0;11.0833,-2.7833;GA-05;Nyanga;Mogno Souka
+0;12.2724,-1.0391;GA-07;Ogooué-Lolo;Mogabo
+0;14.0500,0.8000;GA-06;Ogooué-Ivindo;Modjoko
+0;10.9325,-1.6576;GA-04;Ngouni;Mobouka
+0;11.2667,-1.8000;GA-04;Ngouni;Mobigou
+0;11.5896,-1.3948;GA-04;Ngouni;Mobigou
+71099;13.1987,-1.5665;GA-02;Haut-Ogooué;Moanda
+0;11.1333,-2.8833;GA-05;Nyanga;Moabi-Tsao
+0;11.2833,-2.5667;GA-05;Nyanga;Moabi Koudou
+4108;11.0007,-2.4224;GA-05;Nyanga;Moabi
+0;11.8000,-1.2500;GA-04;Ngouni;Miyoumba
+0;11.7667,-2.1833;GA-04;Ngouni;Miyanga
+0;11.4500,1.6000;GA-09;Woleu-Ntem;Mivoué
+0;11.0667,-2.8000;GA-05;Nyanga;Mivoka
+0;11.2833,-2.7833;GA-05;Nyanga;Mivengui
+0;11.0500,-2.3500;GA-05;Nyanga;Mivangiri
+10522;11.5490,0.7821;GA-09;Woleu-Ntem;Mitzic
+0;10.2184,-0.6382;GA-03;Moyen-Ogooué;Mintoné
+0;10.2167,-0.6167;GA-03;Moyen-Ogooué;Mittoné
+0;11.6833,-2.1667;GA-04;Ngouni;Mitsiengui
+0;10.5667,-1.4833;GA-04;Ngouni;Mitsangui
+0;11.8000,-2.3500;GA-04;Ngouni;Mitsangou
+0;12.5500,0.7667;GA-06;Ogooué-Ivindo;Mitsang
+0;12.3000,-2.2500;GA-04;Ngouni;Mitsandzalé le Grand
+0;11.8833,-0.0500;GA-06;Ogooué-Ivindo;Mitsaga
+0;12.7852,-1.7279;GA-07;Ogooué-Lolo;Mitoungou
+0;12.1333,-1.8833;GA-04;Ngouni;Mitoundoulou
+0;11.4833,-1.9500;GA-04;Ngouni;Mitingou
+0;11.4393,-1.8484;GA-04;Ngouni;Mitingou
+0;11.6924,-0.6485;GA-06;Ogooué-Ivindo;Mitendé
+0;11.8000,-2.9667;GA-05;Nyanga;Missouli
+0;10.7926,-2.5093;GA-05;Nyanga;Missoti
+0;9.3981,-1.6442;GA-08;Ogooué-Maritime;Mission Sainte-Anne
+0;11.1500,-2.7167;GA-05;Nyanga;Missigou
+0;11.6000,-2.1833;GA-04;Ngouni;Missigou
+0;11.4667,2.0833;GA-09;Woleu-Ntem;Missélé
+0;11.6000,1.9167;GA-09;Woleu-Ntem;Missele
+0;11.7667,0.7833;GA-09;Woleu-Ntem;Missele
+0;10.1667,0.1667;GA-01;Estuaire;Misseghé
+0;11.1833,-2.4500;GA-05;Nyanga;Missassa
+0;12.2333,-1.3500;GA-07;Ogooué-Lolo;Missala
+0;12.7180,-0.8620;GA-07;Ogooué-Lolo;Missala
+0;12.3893,-2.3559;GA-04;Ngouni;Misonyi
+0;10.6781,-3.2660;GA-05;Nyanga;Mirendi
+0;13.0291,-1.7808;GA-02;Haut-Ogooué;Mipoundi III
+0;13.1500,-1.7833;GA-02;Haut-Ogooué;Mipoundi II
+0;13.0253,-1.7776;GA-02;Haut-Ogooué;Mipoundi I
+0;13.0400,-1.7750;GA-02;Haut-Ogooué;Mipoundi
+0;12.7833,-0.9333;GA-07;Ogooué-Lolo;Miporapoussa
+0;11.4667,-1.9167;GA-04;Ngouni;Miongo
+0;11.4333,1.9500;GA-09;Woleu-Ntem;Minzimitome
+0;10.8981,-2.7708;GA-05;Nyanga;Minziandzi
+4469;12.1320,2.1516;GA-09;Woleu-Ntem;Minvoul
+0;12.2683,0.4198;GA-06;Ogooué-Ivindo;Mintoum
+0;12.1333,2.1667;GA-09;Woleu-Ntem;Mintébé
+0;12.3833,0.4667;GA-06;Ogooué-Ivindo;Minté
+0;11.9833,2.1000;GA-09;Woleu-Ntem;Minkone
+0;11.6099,0.8853;GA-09;Woleu-Ntem;Minko Mibé
+0;11.7333,2.2333;GA-09;Woleu-Ntem;Minkokmisseng
+0;12.0500,2.1000;GA-09;Woleu-Ntem;Minkéné
+0;12.8501,1.7452;GA-09;Woleu-Ntem;Minkébé
+0;10.8329,-3.0614;GA-05;Nyanga;Minguengué
+0;13.5667,-1.6833;GA-02;Haut-Ogooué;Mingouni
+0;13.4219,-0.7258;GA-02;Haut-Ogooué;Mingondza
+0;10.9198,-2.1304;GA-04;Ngouni;Mingola
+0;13.5641,-1.6334;GA-02;Haut-Ogooué;Mingara
+0;13.5000,-1.6333;GA-02;Haut-Ogooué;Mingara
+0;11.3058,-2.5180;GA-04;Ngouni;Minganga
+0;11.4667,0.5667;GA-09;Woleu-Ntem;Mindzi
+0;12.1333,2.2000;GA-09;Woleu-Ntem;Mindoumou
+0;11.4500,-2.6500;GA-05;Nyanga;Mindoubi
+0;9.5000,0.3667;GA-01;Estuaire;Mindoube
+0;11.9667,2.0667;GA-09;Woleu-Ntem;Mindomo
+0;13.4500,-1.4667;GA-02;Haut-Ogooué;Mindili-Elébé
+0;14.1463,0.6946;GA-06;Ogooué-Ivindo;Mindemba
+0;10.7833,-0.2667;GA-03;Moyen-Ogooué;Mindara
+0;11.4333,-2.3000;GA-04;Ngouni;Mindala
+0;12.5667,-0.8500;GA-07;Ogooué-Lolo;Mina-Mina
+0;13.3000,0.7667;GA-06;Ogooué-Ivindo;Mina
+0;13.7695,-0.3881;GA-02;Haut-Ogooué;Mina
+0;11.9000,-0.0500;GA-06;Ogooué-Ivindo;Mimvoul
+0;12.3500,-1.4667;GA-07;Ogooué-Lolo;Mimongo et Kembélé
+3307;11.6067,-1.6195;GA-04;Ngouni;Mimongo
+0;10.9174,-1.7711;GA-04;Ngouni;Mimongo
+0;11.1667,0.6667;GA-09;Woleu-Ntem;Mimbong
+0;10.7000,0.5833;GA-01;Estuaire;Mimbi
+0;12.1333,2.1833;GA-09;Woleu-Ntem;Mimbang
+0;11.5008,2.1386;GA-09;Woleu-Ntem;Mimbang
+0;12.0500,2.1500;GA-09;Woleu-Ntem;Mimbang
+0;10.5878,-0.9162;GA-04;Ngouni;Mimbanda
+0;10.1500,-0.8833;GA-03;Moyen-Ogooué;Mimbalimbé
+0;10.5301,-0.2234;GA-03;Moyen-Ogooué;Mimbal Mibé
+0;11.5667,-2.0000;GA-04;Ngouni;Mimba
+0;10.8744,-2.9892;GA-05;Nyanga;Milolo
+0;9.6436,0.6662;GA-01;Estuaire;Milembié
+0;12.8000,-0.8333;GA-07;Ogooué-Lolo;Miledi
+0;10.4715,-3.0399;GA-05;Nyanga;Milandou
+0;10.7057,-2.6523;GA-05;Nyanga;Milando
+0;12.6670,-0.8824;GA-07;Ogooué-Lolo;Mikouya
+0;12.0333,-1.7667;GA-04;Ngouni;Mikoumou
+0;12.7561,-0.9096;GA-07;Ogooué-Lolo;Mikouma
+0;12.9500,-0.0500;GA-07;Ogooué-Lolo;Mikouka
+0;12.2333,-1.9500;GA-04;Ngouni;Mikouandza le Petit
+0;12.2167,-1.9167;GA-04;Ngouni;Mikouandza II
+0;13.1489,-1.6094;GA-02;Haut-Ogooué;Mikouagni
+0;12.9667,-1.5667;GA-02;Haut-Ogooué;Mikouagni
+0;11.0167,0.0333;GA-03;Moyen-Ogooué;Mikoro Missong
+0;11.5500,0.8500;GA-09;Woleu-Ntem;Mikonibé
+0;11.7522,-0.3622;GA-06;Ogooué-Ivindo;Mikongo
+0;9.6447,0.7286;GA-01;Estuaire;Mikolongo
+0;10.8193,-2.4852;GA-05;Nyanga;Mikoko
+0;11.5333,-2.3500;GA-04;Ngouni;Mikidou
+0;11.6000,-1.6500;GA-04;Ngouni;Mikengué
+0;12.8941,-0.8280;GA-07;Ogooué-Lolo;Mikengué
+0;11.3500,-2.7333;GA-05;Nyanga;Mikanga
+0;11.6833,-2.9167;GA-05;Nyanga;Mikanda
+0;11.5200,1.5383;GA-09;Woleu-Ntem;Mikaga
+0;11.3333,-2.3167;GA-04;Ngouni;Mihoumbi
+0;10.8333,-3.0333;GA-05;Nyanga;Miguengui
+0;11.0377,-2.8776;GA-05;Nyanga;Migoma
+0;10.8446,-2.1527;GA-04;Ngouni;Migola
+0;11.4882,1.6840;GA-09;Woleu-Ntem;Migelé
+0;11.4667,1.7167;GA-09;Woleu-Ntem;Migelé
+0;11.1833,-2.5333;GA-05;Nyanga;Migamba
+0;12.3617,-1.4475;GA-07;Ogooué-Lolo;Midouma et Ngouassa
+0;11.4333,-2.7500;GA-05;Nyanga;Midouma
+0;12.4333,-1.1833;GA-07;Ogooué-Lolo;Midimba
+0;12.7333,-1.0000;GA-07;Ogooué-Lolo;Micoungala
+0;11.7833,-2.1000;GA-04;Ngouni;Micouma
+0;12.8833,-1.0333;GA-07;Ogooué-Lolo;Micouca
+0;11.9167,-2.2667;GA-04;Ngouni;Mibouka
+0;11.4062,1.5536;GA-09;Woleu-Ntem;Miboué
+0;12.4000,-1.1333;GA-07;Ogooué-Lolo;Miboko
+0;11.2500,-2.9333;GA-05;Nyanga;Mibili
+0;12.7833,-0.8167;GA-07;Ogooué-Lolo;Mibengué
+0;11.6802,1.3215;GA-09;Woleu-Ntem;Mibeng
+0;11.6960,1.2970;GA-09;Woleu-Ntem;Mibene
+0;11.5787,1.2629;GA-09;Woleu-Ntem;Mibang II
+0;11.5764,1.2827;GA-09;Woleu-Ntem;Mibang I
+0;12.3521,-1.0974;GA-07;Ogooué-Lolo;Mibaka
+0;11.4663,0.4508;GA-09;Woleu-Ntem;Miare
+0;11.5153,0.9541;GA-09;Woleu-Ntem;Mful II
+0;11.5072,0.9474;GA-09;Woleu-Ntem;Mful I
+0;11.3833,2.1667;GA-09;Woleu-Ntem;Mfoumou II
+0;11.3646,2.1814;GA-09;Woleu-Ntem;Mfoumou I
+0;10.7167,-0.1833;GA-03;Moyen-Ogooué;Mfoumé
+0;10.2167,0.4167;GA-01;Estuaire;Mfoul Mengoma
+0;9.5981,-0.0490;GA-01;Estuaire;Nfoulenzem
+0;9.9333,0.5167;GA-01;Estuaire;Mfoulayong
+0;11.8535,1.8526;GA-09;Woleu-Ntem;Mfoul
+0;11.5837,1.5562;GA-09;Woleu-Ntem;Mfoul
+0;10.8543,-2.5700;GA-05;Nyanga;Mfoukoualou
+0;11.9000,-1.7333;GA-04;Ngouni;Mfoubou
+0;10.0167,0.2833;GA-01;Estuaire;Mfoua-Avebé
+0;10.4667,-0.3667;GA-03;Moyen-Ogooué;Mfoua
+0;10.2167,0.3667;GA-01;Estuaire;Mfoa-Arebe
+0;10.3000,0.4000;GA-01;Estuaire;Mfoa
+0;10.1667,0.1167;GA-01;Estuaire;Mfémé
+0;11.2333,0.7000;GA-09;Woleu-Ntem;Mfaye
+0;10.0648,0.2776;GA-01;Estuaire;Mfang
+0;11.8500,1.9000;GA-09;Woleu-Ntem;Mfagne II
+0;11.9076,1.8770;GA-09;Woleu-Ntem;Mfagne I
+0;11.7891,2.2115;GA-09;Woleu-Ntem;Mézata
+0;11.9833,2.1833;GA-09;Woleu-Ntem;Meyos II
+0;11.9167,2.0000;GA-09;Woleu-Ntem;Meyos II
+0;11.9833,2.1667;GA-09;Woleu-Ntem;Meyos I
+0;11.9712,2.0007;GA-09;Woleu-Ntem;Meyos I
+0;10.8500,-0.1000;GA-03;Moyen-Ogooué;Méyong
+0;11.3679,2.1740;GA-09;Woleu-Ntem;Meyo-Kyé
+0;11.5964,2.2773;GA-09;Woleu-Ntem;Meyo Eba
+0;11.6167,2.2500;GA-09;Woleu-Ntem;Meyo II
+0;11.6000,2.2500;GA-09;Woleu-Ntem;Meyo I
+0;11.8081,2.2081;GA-09;Woleu-Ntem;Meyo
+0;11.0728,0.0808;GA-03;Moyen-Ogooué;Mevang
+0;13.3500,0.7667;GA-06;Ogooué-Ivindo;Metunga
+0;11.3792,2.0502;GA-09;Woleu-Ntem;Métui
+0;12.1500,2.1167;GA-09;Woleu-Ntem;Métou
+0;11.5667,1.7167;GA-09;Woleu-Ntem;Metomo III
+0;11.5667,1.7167;GA-09;Woleu-Ntem;Metomo II
+0;11.5589,1.6815;GA-09;Woleu-Ntem;Metomo I
+0;11.5907,1.4904;GA-09;Woleu-Ntem;Methui
+0;13.5833,-1.6333;GA-02;Haut-Ogooué;Metéo
+0;9.6667,1.0333;GA-01;Estuaire;Métala
+0;10.0000,0.4167;GA-01;Estuaire;Messoum
+0;11.3737,2.2031;GA-09;Woleu-Ntem;Messon Effak
+0;11.4101,2.0682;GA-09;Woleu-Ntem;Messang
+0;11.4833,2.0500;GA-09;Woleu-Ntem;Messang
+0;10.2500,0.2667;GA-01;Estuaire;Messang
+0;10.1333,-1.5833;GA-04;Ngouni;Messana
+0;13.6457,-2.1321;GA-02;Haut-Ogooué;Messami II
+0;13.6947,-2.1595;GA-02;Haut-Ogooué;Messami I
+0;11.4934,1.9953;GA-09;Woleu-Ntem;Messama
+0;10.3167,-0.5167;GA-03;Moyen-Ogooué;Mesonkoré
+0;11.7000,0.9167;GA-09;Woleu-Ntem;Menoue
+0;11.6333,2.2333;GA-09;Woleu-Ntem;Menkoga
+0;10.1667,-1.9667;GA-08;Ogooué-Maritime;Mengui
+0;12.9167,-1.2500;GA-07;Ogooué-Lolo;Mengue-Miloba
+0;9.5124,-1.9983;GA-08;Ogooué-Maritime;Menguele
+0;11.7500,1.8500;GA-09;Woleu-Ntem;Mengang II
+0;11.7875,1.8154;GA-09;Woleu-Ntem;Mengang I
+0;12.8833,-0.9167;GA-07;Ogooué-Lolo;Menenga
+0;11.5681,1.7506;GA-09;Woleu-Ntem;Mendoung
+0;11.6028,1.3892;GA-09;Woleu-Ntem;Mendoum
+0;10.1000,0.6333;GA-01;Estuaire;Mendouga
+0;11.4163,1.9684;GA-09;Woleu-Ntem;Mendomo
+0;11.4594,1.5531;GA-09;Woleu-Ntem;Mendock
+0;13.6355,-1.6271;GA-02;Haut-Ogooué;Menaï
+0;10.6167,-0.2667;GA-03;Moyen-Ogooué;Memvéme
+0;11.8843,1.8470;GA-09;Woleu-Ntem;Memveme
+0;10.1333,-0.8333;GA-03;Moyen-Ogooué;Mempolo
+0;11.7833,1.0667;GA-09;Woleu-Ntem;Memboum
+0;11.4948,2.0647;GA-09;Woleu-Ntem;Membang
+0;11.4583,-2.1543;GA-04;Ngouni;Memba
+0;11.2890,-1.3491;GA-04;Ngouni;Memba
+0;13.8833,0.7167;GA-06;Ogooué-Ivindo;Mélongo
+0;12.6333,-0.6500;GA-07;Ogooué-Lolo;Mélolé
+0;10.3906,-1.6784;GA-04;Ngouni;Mèli
+0;11.4776,2.2702;GA-09;Woleu-Ntem;Melep
+0;11.7500,1.8333;GA-09;Woleu-Ntem;Melene II
+0;11.7647,1.8108;GA-09;Woleu-Ntem;Melene I
+0;11.3695,2.0689;GA-09;Woleu-Ntem;Mélène
+0;11.5588,1.9942;GA-09;Woleu-Ntem;Mélène
+0;11.5132,1.5526;GA-09;Woleu-Ntem;Melène
+0;11.3981,1.5618;GA-09;Woleu-Ntem;Melène
+0;12.0500,2.0833;GA-09;Woleu-Ntem;Mélen
+0;11.6121,1.9904;GA-09;Woleu-Ntem;Melen
+0;10.0667,0.2167;GA-01;Estuaire;Melen
+0;11.6347,1.9306;GA-09;Woleu-Ntem;Meleme
+0;12.0364,0.3322;GA-06;Ogooué-Ivindo;Melané
+0;11.7092,-0.5189;GA-06;Ogooué-Ivindo;Mélagni
+0;11.5000,2.2333;GA-09;Woleu-Ntem;Mékoué
+0;11.6312,0.9519;GA-09;Woleu-Ntem;Mékongo
+0;11.8500,1.8833;GA-09;Woleu-Ntem;Mekone
+0;9.7456,0.3871;GA-01;Estuaire;Mékonanam
+0;11.3842,2.2397;GA-09;Woleu-Ntem;Mékomo Esseng
+0;11.3833,2.1833;GA-09;Woleu-Ntem;Mékomo Esseng
+0;11.4000,2.2167;GA-09;Woleu-Ntem;Mékomo III
+0;11.4000,2.2167;GA-09;Woleu-Ntem;Mékomo II
+0;11.4000,2.2333;GA-09;Woleu-Ntem;Mékomo I
+0;11.4098,2.1490;GA-09;Woleu-Ntem;Mékomo
+0;11.4167,2.1500;GA-09;Woleu-Ntem;Mékomo
+0;12.0500,2.0833;GA-09;Woleu-Ntem;Mékomo
+0;12.0000,2.0833;GA-09;Woleu-Ntem;Mékomo
+0;11.4265,1.7979;GA-09;Woleu-Ntem;Mèkomo
+0;11.4333,1.8333;GA-09;Woleu-Ntem;Mekomo
+0;11.6426,1.9642;GA-09;Woleu-Ntem;Mekome
+0;11.5031,1.8025;GA-09;Woleu-Ntem;Mekok
+0;11.4833,1.7833;GA-09;Woleu-Ntem;Mekok
+0;11.4563,1.8211;GA-09;Woleu-Ntem;Mekoga
+0;12.9193,0.6944;GA-06;Ogooué-Ivindo;Mékob
+0;13.5520,0.8540;GA-06;Ogooué-Ivindo;Meko
+0;9.6667,1.0167;GA-01;Estuaire;Mékina
+0;10.6833,-0.1833;GA-03;Moyen-Ogooué;Meke-Meke
+0;9.6036,0.8227;GA-01;Estuaire;Mekamenzogh
+8105;13.9594,1.0065;GA-06;Ogooué-Ivindo;Mékambo
+0;11.6667,2.0833;GA-09;Woleu-Ntem;Mékak
+0;11.5542,2.0704;GA-09;Woleu-Ntem;Mékak
+0;11.5167,2.0833;GA-09;Woleu-Ntem;Mékak
+0;11.5614,1.5953;GA-09;Woleu-Ntem;Mekaga
+0;11.1833,0.5500;GA-09;Woleu-Ntem;Meka
+0;9.6833,0.8000;GA-01;Estuaire;Méfia
+0;11.5968,1.5110;GA-09;Woleu-Ntem;Mefana
+0;11.5167,0.7500;GA-09;Woleu-Ntem;Medzui
+0;11.4500,1.4667;GA-09;Woleu-Ntem;Medzem II
+0;11.4622,1.4523;GA-09;Woleu-Ntem;Medzem I
+0;11.6333,2.0333;GA-09;Woleu-Ntem;Médoung
+3001;10.7960,1.0162;GA-09;Woleu-Ntem;Médouneu
+0;11.6333,1.7833;GA-09;Woleu-Ntem;Medoumou III
+0;11.6333,1.7667;GA-09;Woleu-Ntem;Medoumou II
+0;11.6375,1.7370;GA-09;Woleu-Ntem;Medoumou I
+0;11.4017,2.0570;GA-09;Woleu-Ntem;Médoumou
+0;11.5125,1.9194;GA-09;Woleu-Ntem;Medoumou
+0;12.1000,2.1500;GA-09;Woleu-Ntem;Medjong
+0;10.1262,0.6143;GA-01;Estuaire;Médégué
+0;13.5667,0.1167;GA-06;Ogooué-Ivindo;Méconga
+0;10.5167,0.6167;GA-01;Estuaire;Mechui
+0;11.0599,0.9655;GA-09;Woleu-Ntem;Mébolo II
+0;11.9405,1.9448;GA-09;Woleu-Ntem;Mebolo
+0;11.0455,0.9613;GA-09;Woleu-Ntem;Mébolo
+0;11.3667,2.1667;GA-09;Woleu-Ntem;Méboko
+0;11.5000,0.6333;GA-09;Woleu-Ntem;Mebeu
+0;12.1500,2.1333;GA-09;Woleu-Ntem;Mében II
+0;12.1500,2.1333;GA-09;Woleu-Ntem;Mében I
+0;9.7833,0.4333;GA-01;Estuaire;Mebba II
+0;9.7579,0.4440;GA-01;Estuaire;Méba
+0;11.4200,2.0372;GA-09;Woleu-Ntem;Mébaza
+0;12.1406,0.3282;GA-06;Ogooué-Ivindo;Mebang
+0;11.7167,2.2167;GA-09;Woleu-Ntem;Mébana
+0;11.7000,2.1000;GA-09;Woleu-Ntem;Mébama
+0;10.1117,-2.0833;GA-08;Ogooué-Maritime;Mbourandou
+0;11.1500,-2.0833;GA-04;Ngouni;Mboungou
+0;13.5695,-0.9013;GA-02;Haut-Ogooué;Mbounga
+0;13.0715,0.4067;GA-06;Ogooué-Ivindo;Mboundou
+0;9.6147,-0.9028;GA-08;Ogooué-Maritime;Mboumba
+0;11.6500,0.7667;GA-09;Woleu-Ntem;Mboum
+0;14.1265,1.2122;GA-06;Ogooué-Ivindo;Mboulet
+0;10.6274,-2.6943;GA-05;Nyanga;Mboula
+0;12.8486,0.5804;GA-06;Ogooué-Ivindo;Mboula
+0;10.7576,-2.4608;GA-05;Nyanga;Mboukou
+0;10.9254,-2.1251;GA-04;Ngouni;Mboukou
+0;10.8123,-1.7157;GA-04;Ngouni;Mboukou
+0;10.6862,-3.2779;GA-05;Nyanga;Mbouissi
+0;11.9167,-1.0833;GA-07;Ogooué-Lolo;Mbougou
+0;9.1167,-0.6333;GA-08;Ogooué-Maritime;Mboudou
+0;11.4500,-2.2500;GA-04;Ngouni;Mbouda II
+0;11.6000,-2.2833;GA-04;Ngouni;Mbouda
+0;13.7282,-2.1357;GA-02;Haut-Ogooué;Mboua
+0;12.6911,-0.8447;GA-07;Ogooué-Lolo;Mbonha
+0;11.8333,1.5333;GA-09;Woleu-Ntem;Mbong-Elé
+0;9.8000,0.5833;GA-01;Estuaire;Mbone
+0;11.6994,0.2942;GA-06;Ogooué-Ivindo;Mbondo Malonge
+0;13.0582,-0.0445;GA-07;Ogooué-Lolo;Mbondo
+0;8.7000,-0.6333;GA-08;Ogooué-Maritime;Mbondé
+0;11.9500,2.0667;GA-09;Woleu-Ntem;Mbomo II
+0;11.9960,2.0578;GA-09;Woleu-Ntem;Mbomo I
+0;11.4905,1.8195;GA-09;Woleu-Ntem;Mbomo
+0;11.5000,1.8500;GA-09;Woleu-Ntem;Mbomo
+0;11.4833,1.8333;GA-09;Woleu-Ntem;Mbomo
+0;12.5000,-1.6500;GA-07;Ogooué-Lolo;Mbomo
+0;12.8333,-0.8333;GA-07;Ogooué-Lolo;Mbomo
+0;13.7000,-0.3167;GA-02;Haut-Ogooué;Mbomo
+0;11.5500,0.3167;GA-06;Ogooué-Ivindo;Mbomo
+0;11.4901,0.3342;GA-06;Ogooué-Ivindo;Mbomao
+0;13.3503,-1.4697;GA-02;Haut-Ogooué;Mboma-Makama
+0;10.8516,-3.0247;GA-05;Nyanga;Mboma
+0;14.0869,-1.7875;GA-02;Haut-Ogooué;Mboma
+0;11.5910,1.3752;GA-09;Woleu-Ntem;Mboma
+0;11.5833,1.3833;GA-09;Woleu-Ntem;Mboma
+0;11.4613,0.3268;GA-06;Ogooué-Ivindo;Mboma
+0;11.4596,1.4743;GA-09;Woleu-Ntem;Mbolonzok
+0;11.1167,0.6500;GA-09;Woleu-Ntem;Mbolenzo
+0;9.7500,0.1833;GA-01;Estuaire;Mbolen-Nzork
+0;11.2723,0.9286;GA-09;Woleu-Ntem;Mbolendzork
+0;13.6507,-2.0736;GA-02;Haut-Ogooué;Mboki
+0;11.7333,-2.0500;GA-04;Ngouni;Mbojo
+0;9.9333,0.1833;GA-01;Estuaire;Mbogha
+0;9.3802,-0.9920;GA-08;Ogooué-Maritime;Mboga
+0;12.7000,0.5833;GA-06;Ogooué-Ivindo;Mboa
+0;11.3667,2.0167;GA-09;Woleu-Ntem;Mbo
+0;14.1667,0.6667;GA-06;Ogooué-Ivindo;Mbizo
+0;10.3863,-2.9250;GA-05;Nyanga;Mbissi
+0;10.9833,0.6833;GA-09;Woleu-Ntem;Mbissa
+0;10.2737,-2.1040;GA-08;Ogooué-Maritime;Mbira II
+0;10.2655,-2.1409;GA-08;Ogooué-Maritime;Mbira I
+0;11.9333,-0.9833;GA-07;Ogooué-Lolo;Mbingal
+0;11.8167,-1.9333;GA-04;Ngouni;Mbinga
+0;9.0789,-1.0070;GA-08;Ogooué-Maritime;Mbinda
+0;11.6500,-2.3167;GA-04;Ngouni;Mbina Letembe
+0;12.2175,-2.2416;GA-04;Ngouni;Mbimba
+0;11.7604,-1.9612;GA-04;Ngouni;Mbimba
+0;10.4949,-0.3068;GA-03;Moyen-Ogooué;Mbilatèn
+0;10.1034,-1.5884;GA-04;Ngouni;Mbila Nzambi
+0;11.5000,-2.1167;GA-04;Ngouni;Mbigou
+7069;11.9060,-1.9005;GA-04;Ngouni;Mbigou
+0;10.7214,-1.6500;GA-04;Ngouni;Mbigou
+0;12.3789,-1.4135;GA-07;Ogooué-Lolo;Mbigou
+0;11.9500,-1.1000;GA-07;Ogooué-Lolo;Mbigou
+0;10.4254,-0.8951;GA-03;Moyen-Ogooué;Mbigou
+0;14.2000,-1.8500;GA-02;Haut-Ogooué;Mbié
+0;11.3500,-2.6667;GA-05;Nyanga;Mbidiga
+0;14.2373,-1.1958;GA-02;Haut-Ogooué;Mbia
+0;12.9105,0.5880;GA-06;Ogooué-Ivindo;Mbéza
+0;13.8333,0.6833;GA-06;Ogooué-Ivindo;Mbey
+0;10.0617,-2.0566;GA-08;Ogooué-Maritime;Mbengui
+0;11.1451,-2.0439;GA-04;Ngouni;Mbengué
+0;11.9500,-0.0833;GA-06;Ogooué-Ivindo;Mbembam
+0;11.3528,1.9430;GA-09;Woleu-Ntem;Mbeligui
+0;14.1000,0.6833;GA-06;Ogooué-Ivindo;Mbélé
+0;11.3236,0.8967;GA-09;Woleu-Ntem;Mbelatem
+0;13.9023,0.9819;GA-06;Ogooué-Ivindo;Mbéla
+0;11.7196,-3.0375;GA-05;Nyanga;Mbékila
+0;12.7500,0.5833;GA-06;Ogooué-Ivindo;Mbebengui
+0;10.5667,0.9000;GA-09;Woleu-Ntem;Mbé Ayo
+0;11.4833,-1.9167;GA-04;Ngouni;Mbaya
+0;12.0833,2.1500;GA-09;Woleu-Ntem;Mbas
+0;11.4833,2.1333;GA-09;Woleu-Ntem;Mbang-Elé
+0;9.7833,0.5500;GA-01;Estuaire;Mbamayong
+0;11.9667,-1.9000;GA-04;Ngouni;Mbama
+0;11.6437,1.3639;GA-09;Woleu-Ntem;Mbam
+0;11.6602,1.3610;GA-09;Woleu-Ntem;Mbam
+0;10.0784,0.4368;GA-01;Estuaire;Mbèl Alen
+0;11.5000,2.0833;GA-09;Woleu-Ntem;Mbafane
+0;9.6667,0.6167;GA-01;Estuaire;Mbafan
+0;10.9167,-1.1667;GA-04;Ngouni;Mbadi
+0;11.5159,1.7627;GA-09;Woleu-Ntem;Mba
+0;11.5121,1.7871;GA-09;Woleu-Ntem;Mba
+0;11.5000,1.7500;GA-09;Woleu-Ntem;Mba
+0;12.2257,-2.4016;GA-04;Ngouni;Mazinga
+0;11.9000,-2.3167;GA-04;Ngouni;Mayumba et Lebé
+6274;10.6554,-3.4320;GA-05;Nyanga;Mayumba
+0;10.8341,-2.7489;GA-05;Nyanga;Mayombo
+0;12.7641,-0.8001;GA-07;Ogooué-Lolo;Mayoba
+0;11.8418,-1.2311;GA-07;Ogooué-Lolo;Mayingue
+0;12.8102,0.5585;GA-06;Ogooué-Ivindo;Mayiga
+0;12.8347,-1.4954;GA-07;Ogooué-Lolo;Mayenguelé
+0;11.8167,-1.2833;GA-04;Ngouni;Mayengué
+0;10.3534,-0.7269;GA-03;Moyen-Ogooué;Mayèngué
+0;10.3167,0.1167;GA-01;Estuaire;Mayengone
+0;11.4667,-2.2333;GA-04;Ngouni;Mayenga
+0;11.8976,0.0050;GA-06;Ogooué-Ivindo;Mayené II
+0;10.7667,-0.1500;GA-03;Moyen-Ogooué;Mayéné
+0;12.8080,-0.9569;GA-07;Ogooué-Lolo;Mayemba
+0;10.3000,-0.7333;GA-03;Moyen-Ogooué;Mayeliga
+0;12.8167,-0.8667;GA-07;Ogooué-Lolo;Mayela
+0;13.0984,1.1054;GA-06;Ogooué-Ivindo;Mayébout
+0;13.9667,0.9000;GA-06;Ogooué-Ivindo;Mayazaïpépa
+0;9.5833,0.3000;GA-01;Estuaire;Mayaya
+0;11.8500,-1.6833;GA-04;Ngouni;Mayani
+0;10.5837,-2.9757;GA-05;Nyanga;Mayamba
+0;12.6667,-1.2500;GA-07;Ogooué-Lolo;Mayamba
+0;11.9833,-1.1000;GA-07;Ogooué-Lolo;Mayabi
+0;11.4167,-2.4000;GA-04;Ngouni;Mavoula
+0;9.7667,-0.0167;GA-01;Estuaire;Mavoul
+0;13.5667,-1.6000;GA-02;Haut-Ogooué;Mavouama
+0;10.0333,-1.5667;GA-04;Ngouni;Mavou
+0;13.2000,-1.5500;GA-02;Haut-Ogooué;Mavindji-Posso
+0;11.9500,-0.1000;GA-06;Ogooué-Ivindo;Mavéné
+0;11.3000,-1.2833;GA-04;Ngouni;Mavaco
+0;11.5020,-3.2388;GA-05;Nyanga;Matsoumba
+0;11.9167,-2.0333;GA-04;Ngouni;Matsioumba
+0;11.8833,-2.2833;GA-04;Ngouni;Matsingou
+0;11.6012,-3.0634;GA-05;Nyanga;Matsanfou
+0;11.3667,-2.6833;GA-05;Nyanga;Matoungou
+0;12.4383,-1.2584;GA-07;Ogooué-Lolo;Matoumba
+0;10.5333,-0.2500;GA-03;Moyen-Ogooué;Matoulou
+0;13.5333,0.8500;GA-06;Ogooué-Ivindo;Matoté II
+0;13.5122,0.8445;GA-06;Ogooué-Ivindo;Matoté I
+0;13.0366,-0.9260;GA-07;Ogooué-Lolo;Matoro
+0;11.7219,0.2701;GA-06;Ogooué-Ivindo;Matora
+0;12.6000,-1.2167;GA-07;Ogooué-Lolo;Matongo
+0;10.5167,-0.2833;GA-03;Moyen-Ogooué;Matété
+0;12.7612,-0.8035;GA-07;Ogooué-Lolo;Matemo
+0;11.7333,-2.3667;GA-04;Ngouni;Matembelé
+0;10.6980,-3.4477;GA-05;Nyanga;Matchiti
+0;12.1500,-1.0000;GA-07;Ogooué-Lolo;Matchinamana
+0;12.0324,-1.4162;GA-07;Ogooué-Lolo;Massoukou
+0;12.8833,-1.2000;GA-07;Ogooué-Lolo;Massoukou
+0;9.9333,-1.6167;GA-04;Ngouni;Massouka
+0;10.2500,-0.7000;GA-03;Moyen-Ogooué;Massouka
+0;12.7167,-0.4167;GA-07;Ogooué-Lolo;Massoukou
+0;10.9171,-2.5337;GA-05;Nyanga;Massoti
+0;11.2000,-2.4833;GA-05;Nyanga;Massoti
+0;10.6000,0.5667;GA-01;Estuaire;Massoro
+0;14.0979,1.3200;GA-06;Ogooué-Ivindo;Massombo
+0;11.1333,-2.7333;GA-05;Nyanga;Massoli Oubala
+0;11.9500,-1.0167;GA-07;Ogooué-Lolo;Massiya
+0;10.2333,-1.4500;GA-04;Ngouni;Massimbou
+0;12.7833,-0.3500;GA-07;Ogooué-Lolo;Massi-Massi
+0;12.8833,-0.7333;GA-07;Ogooué-Lolo;Massimangouandja
+0;11.5939,-1.4348;GA-04;Ngouni;Massima
+0;11.5500,-2.3333;GA-04;Ngouni;Massika
+0;12.0032,-1.9746;GA-04;Ngouni;Massika
+0;11.4383,-1.8408;GA-04;Ngouni;Massika
+0;10.3707,-0.8224;GA-03;Moyen-Ogooué;Massika
+0;13.1500,-1.4167;GA-02;Haut-Ogooué;Massengo III
+0;13.1837,-1.4733;GA-02;Haut-Ogooué;Massengo II
+0;13.1623,-1.4228;GA-02;Haut-Ogooué;Massengo I
+0;14.0859,1.3603;GA-06;Ogooué-Ivindo;Massenéga
+0;11.9333,-1.6833;GA-04;Ngouni;Massendjo
+0;11.4477,-2.0471;GA-04;Ngouni;Massegué
+0;12.9104,0.6234;GA-06;Ogooué-Ivindo;Masseb
+0;9.8167,0.9333;GA-01;Estuaire;Massé
+0;12.0798,0.3326;GA-06;Ogooué-Ivindo;Massé
+0;10.1512,-2.1259;GA-08;Ogooué-Maritime;Massayi
+0;10.8714,-2.1441;GA-04;Ngouni;Massaya
+0;11.0500,-2.8333;GA-05;Nyanga;Massanga IV
+0;11.0333,-2.8333;GA-05;Nyanga;Massanga III
+0;11.0500,-2.8333;GA-05;Nyanga;Massanga II
+0;11.0500,-2.8333;GA-05;Nyanga;Massanga I
+0;11.3167,-2.6500;GA-05;Nyanga;Massanga
+0;10.4667,-0.4500;GA-03;Moyen-Ogooué;Massanga
+0;11.4672,0.4805;GA-09;Woleu-Ntem;Massane
+0;11.8167,-1.7667;GA-04;Ngouni;Massandzé
+0;10.1422,-1.5977;GA-04;Ngouni;Massana
+0;11.4727,0.4396;GA-09;Woleu-Ntem;Massama
+0;11.9512,-0.0562;GA-06;Ogooué-Ivindo;Massako
+0;9.7783,0.9759;GA-01;Estuaire;Massaï
+0;13.0333,0.6667;GA-06;Ogooué-Ivindo;Massaba II
+0;13.1965,0.7349;GA-06;Ogooué-Ivindo;Massaa
+0;9.8773,-1.7040;GA-08;Ogooué-Maritime;Massa
+0;12.7333,-0.8667;GA-07;Ogooué-Lolo;Masoukou
+0;11.5382,-1.3341;GA-04;Ngouni;Masoui
+0;11.6965,-1.9985;GA-04;Ngouni;Maremba
+0;12.6254,-1.7767;GA-07;Ogooué-Lolo;Maranda
+0;10.4667,-0.4667;GA-03;Moyen-Ogooué;Mapouti
+0;12.9000,-1.3167;GA-07;Ogooué-Lolo;Mapinga-Vouvou
+0;12.8833,-1.4333;GA-07;Ogooué-Lolo;Mapika
+0;13.0804,-1.2893;GA-07;Ogooué-Lolo;Mapfongui
+0;12.6121,-1.6300;GA-07;Ogooué-Lolo;Mapapa
+0;11.5000,-2.2167;GA-04;Ngouni;Mapanga
+0;10.8455,-2.5604;GA-05;Nyanga;Maoumba
+0;11.9000,-0.0667;GA-06;Ogooué-Ivindo;Maoukafan
+0;9.8509,-1.7944;GA-08;Ogooué-Maritime;Manzilo
+0;12.9834,0.9866;GA-06;Ogooué-Ivindo;Manyal
+0;11.8021,-0.0925;GA-06;Ogooué-Ivindo;Mantoua
+0;13.3667,-1.5000;GA-02;Haut-Ogooué;Manogo
+0;10.9833,-0.0333;GA-03;Moyen-Ogooué;Manioc
+0;12.8667,-1.0167;GA-07;Ogooué-Lolo;Manin-Manin
+0;10.5167,-0.3333;GA-03;Moyen-Ogooué;Manguikoumé
+0;10.5837,-0.1895;GA-03;Moyen-Ogooué;Menguègn
+0;10.6000,-0.2000;GA-03;Moyen-Ogooué;Manguéné
+0;13.6212,-1.6516;GA-02;Haut-Ogooué;Mangoungou
+0;11.0833,-2.4333;GA-05;Nyanga;Mangounga
+0;9.8988,-1.6626;GA-04;Ngouni;Mangoumbou I
+0;12.3344,-2.0743;GA-04;Ngouni;Mangoubou
+0;9.5785,0.8920;GA-01;Estuaire;Mangono
+0;13.3333,0.2333;GA-06;Ogooué-Ivindo;Mangoma
+0;12.5333,-0.8000;GA-07;Ogooué-Lolo;Mangara
+0;10.7333,-0.2000;GA-03;Moyen-Ogooué;Mangama
+0;9.5738,0.9786;GA-01;Estuaire;Mangala
+0;13.1139,-0.9676;GA-07;Ogooué-Lolo;Manenga
+0;10.1168,-2.0898;GA-08;Ogooué-Maritime;Manega
+0;12.3322,-2.0371;GA-04;Ngouni;Mandzi
+0;13.5222,0.8504;GA-06;Ogooué-Ivindo;Mandombo
+0;14.2546,0.6744;GA-06;Ogooué-Ivindo;Mandombo
+0;14.2333,0.6500;GA-06;Ogooué-Ivindo;Mandombo
+0;10.3496,-1.5798;GA-04;Ngouni;Mandji-Kili
+0;11.5760,-2.1184;GA-04;Ngouni;Mandji
+0;10.9376,-2.1081;GA-04;Ngouni;Mandji
+0;9.8390,-2.0758;GA-08;Ogooué-Maritime;Mandji
+0;11.8940,-1.8811;GA-04;Ngouni;Mandji
+0;10.9500,-1.7333;GA-04;Ngouni;Mandji
+0;10.2102,-1.7432;GA-04;Ngouni;Mandji
+0;10.3885,-1.7051;GA-04;Ngouni;Mandji
+0;11.7500,-1.6333;GA-04;Ngouni;Mandji
+0;11.7167,-1.5833;GA-04;Ngouni;Mandji
+0;10.6333,-1.4167;GA-04;Ngouni;Mandji
+0;12.1167,-1.3000;GA-07;Ogooué-Lolo;Mandji
+0;12.3606,-1.0887;GA-07;Ogooué-Lolo;Mandji
+0;12.5174,-1.0191;GA-07;Ogooué-Lolo;Mandji
+0;11.8902,-0.9898;GA-07;Ogooué-Lolo;Mandji
+0;12.7167,-0.8000;GA-07;Ogooué-Lolo;Mandji
+0;9.9820,-0.6873;GA-03;Moyen-Ogooué;Mandji
+0;11.9500,-0.1000;GA-06;Ogooué-Ivindo;Mandji
+0;10.6112,-1.2741;GA-04;Ngouni;Mandilou
+0;10.9833,-1.2667;GA-04;Ngouni;Mandi
+0;9.3399,-1.3821;GA-08;Ogooué-Maritime;Mandaganga
+0;12.6696,-0.8937;GA-07;Ogooué-Lolo;Mamondo
+0;10.5000,-0.2667;GA-03;Moyen-Ogooué;Mamogo
+0;13.0667,-1.5333;GA-02;Haut-Ogooué;Mamidi
+0;12.9833,-0.9167;GA-07;Ogooué-Lolo;Mamidi
+0;13.3167,-0.7833;GA-07;Ogooué-Lolo;Mamidi
+0;11.5000,2.2000;GA-09;Woleu-Ntem;Maméni II
+0;11.4833,2.2167;GA-09;Woleu-Ntem;Maméni I
+0;11.9333,-1.9333;GA-04;Ngouni;Mamboungou
+0;12.3167,-1.9833;GA-04;Ngouni;Mambounga
+0;10.2333,-1.3500;GA-04;Ngouni;Mamboukou
+0;10.1167,-1.6000;GA-04;Ngouni;Mambi
+0;12.7333,-0.7833;GA-07;Ogooué-Lolo;Mambelo
+0;13.9333,0.7500;GA-06;Ogooué-Ivindo;Mambaza
+0;12.1414,-2.0415;GA-04;Ngouni;Mamaososi
+0;11.5333,-1.7500;GA-04;Ngouni;Mamania
+0;11.8000,-1.2667;GA-04;Ngouni;Mamania
+0;11.8500,-1.1333;GA-04;Ngouni;Mamagnia
+0;10.4289,-1.5160;GA-04;Ngouni;Malongo-Mobéi
+0;12.1888,-1.6081;GA-07;Ogooué-Lolo;Malongo
+0;12.1167,-1.5667;GA-07;Ogooué-Lolo;Malongo
+0;13.9667,0.9167;GA-06;Ogooué-Ivindo;Malondo
+0;10.8699,-2.4720;GA-05;Nyanga;Malolo
+0;10.8592,-2.4832;GA-05;Nyanga;Malolo
+0;10.8870,-2.4641;GA-05;Nyanga;Malolo
+0;13.3400,-1.6735;GA-02;Haut-Ogooué;Mallima
+0;10.8439,-3.5661;GA-05;Nyanga;Mallembé
+0;11.2667,-1.2000;GA-07;Ogooué-Lolo;Mallébé
+1382;12.2229,-2.4181;GA-04;Ngouni;Malinga
+0;11.6205,-3.0854;GA-05;Nyanga;Malimba
+0;11.0500,-2.6833;GA-05;Nyanga;Malimba
+0;11.5333,-2.4333;GA-04;Ngouni;Malimba
+0;10.6959,-2.0696;GA-04;Ngouni;Malimba
+0;10.8406,-1.7260;GA-04;Ngouni;Malimba
+0;10.3667,-0.8500;GA-03;Moyen-Ogooué;Malimba
+0;11.8833,-2.2000;GA-04;Ngouni;Malessi
+0;13.3167,0.7500;GA-06;Ogooué-Ivindo;Malenzi
+0;10.4500,-0.3000;GA-03;Moyen-Ogooué;Malène Bibolo
+0;11.9833,0.9833;GA-09;Woleu-Ntem;Maléne
+0;12.5000,-0.8000;GA-07;Ogooué-Lolo;Malendé
+0;12.4500,-1.4167;GA-07;Ogooué-Lolo;Malembo
+0;12.6689,-0.8888;GA-07;Ogooué-Lolo;Malembé
+0;13.3333,0.7667;GA-06;Ogooué-Ivindo;Malembé
+0;14.1333,0.6833;GA-06;Ogooué-Ivindo;Maleba
+0;10.5500,-0.3167;GA-03;Moyen-Ogooué;Maleba
+0;10.2703,-0.6287;GA-03;Moyen-Ogooué;Melari II
+0;10.3000,-0.5167;GA-03;Moyen-Ogooué;Malari
+0;12.0667,-0.1167;GA-06;Ogooué-Ivindo;Malaré
+0;11.8918,-0.0595;GA-06;Ogooué-Ivindo;Malaré
+0;11.4361,-3.1569;GA-05;Nyanga;Malanga
+0;12.2575,-2.3751;GA-04;Ngouni;Malanga
+0;12.9316,-1.1287;GA-07;Ogooué-Lolo;Malanga
+0;11.5333,-2.7500;GA-05;Nyanga;Malabilila
+0;11.0667,-2.3333;GA-05;Nyanga;Malaba
+0;11.1000,-1.9167;GA-04;Ngouni;Malaba
+0;10.2619,0.5925;GA-01;Estuaire;Mala
+0;11.6436,-3.3631;GA-05;Nyanga;Makounou
+0;12.8500,-1.1833;GA-07;Ogooué-Lolo;Makoungoulou
+0;12.3094,-0.2202;GA-06;Ogooué-Ivindo;Makoui
+0;11.9667,-0.0500;GA-06;Ogooué-Ivindo;Makoubou
+0;11.7667,-2.3000;GA-04;Ngouni;Makondzi
+0;11.5000,-2.2167;GA-04;Ngouni;Makombo
+0;10.4055,-0.4772;GA-03;Moyen-Ogooué;Makokoué
+24823;12.8642,0.5738;GA-06;Ogooué-Ivindo;Makokou
+0;12.5336,-1.3326;GA-07;Ogooué-Lolo;Makoko
+0;9.6141,-0.0403;GA-01;Estuaire;Foulenzem
+0;11.6415,-3.3572;GA-05;Nyanga;Makina-Bouissi
+0;10.6833,-3.3500;GA-05;Nyanga;Makiena
+0;11.8833,-2.1000;GA-04;Ngouni;Makegni
+0;14.1030,1.2994;GA-06;Ogooué-Ivindo;Makebé
+0;13.6333,0.0667;GA-06;Ogooué-Ivindo;Makebe
+0;13.7000,-0.2833;GA-02;Haut-Ogooué;Makatamagoye
+0;13.2167,0.7333;GA-06;Ogooué-Ivindo;Makao
+0;11.4833,-1.9167;GA-04;Ngouni;Makangonio
+0;11.4660,-3.2204;GA-05;Nyanga;Makanga
+0;11.9833,2.1833;GA-09;Woleu-Ntem;Makanga
+0;11.4333,0.5333;GA-09;Woleu-Ntem;Makaneni
+0;11.1037,-3.8704;GA-05;Nyanga;Makanda
+0;11.3455,-3.1735;GA-05;Nyanga;Makanda
+0;11.3395,-3.1276;GA-05;Nyanga;Makanda
+3252;10.9772,-1.9543;GA-04;Ngouni;Makanda
+0;11.7000,-2.9333;GA-05;Nyanga;Makanana
+0;13.5502,-1.6360;GA-02;Haut-Ogooué;Makana
+0;10.2000,-1.4333;GA-04;Ngouni;Makana
+0;13.9833,0.8833;GA-06;Ogooué-Ivindo;Makana
+0;10.7667,-0.1833;GA-03;Moyen-Ogooué;Makala
+0;12.2000,-0.1833;GA-06;Ogooué-Ivindo;Makakou
+0;11.9500,2.0833;GA-09;Woleu-Ntem;Makaga
+0;10.8167,-3.0667;GA-05;Nyanga;Makaba Ndilo
+0;11.2848,-3.1301;GA-05;Nyanga;Makabana
+0;11.5833,-2.9167;GA-05;Nyanga;Makabana
+0;11.0912,-2.8179;GA-05;Nyanga;Makabana
+0;10.9222,-2.5130;GA-05;Nyanga;Makabana
+0;11.4667,-2.2667;GA-04;Ngouni;Makabana
+0;11.4500,-2.2500;GA-04;Ngouni;Makabana
+0;12.0333,2.2000;GA-09;Woleu-Ntem;Makaa
+0;13.3333,-1.4000;GA-02;Haut-Ogooué;Maïla
+0;11.3333,-2.3333;GA-04;Ngouni;Mahounga
+0;11.5667,-2.2000;GA-04;Ngouni;Mahounda
+0;12.3054,-1.5637;GA-07;Ogooué-Lolo;Mahounda
+0;12.1167,-1.3833;GA-07;Ogooué-Lolo;Mahounda
+0;12.6752,-0.8620;GA-07;Ogooué-Lolo;Mahouna
+0;13.5000,0.1667;GA-06;Ogooué-Ivindo;Mahinda
+0;11.9167,-0.0667;GA-06;Ogooué-Ivindo;Mahiboré
+0;13.4000,0.7833;GA-06;Ogooué-Ivindo;Mahengyédi II
+0;11.4667,-2.3000;GA-04;Ngouni;Maguidou
+0;11.4167,-2.3167;GA-04;Ngouni;Magueni
+0;11.7500,-1.8500;GA-04;Ngouni;Magounga
+0;11.3000,-1.7833;GA-04;Ngouni;Magounga
+0;11.7333,-1.5500;GA-04;Ngouni;Magounga
+0;11.0500,-2.3500;GA-05;Nyanga;Magoumba
+0;11.6167,-2.1500;GA-04;Ngouni;Magouanga
+0;11.7140,-3.2842;GA-05;Nyanga;Magonga
+0;12.6474,-1.8055;GA-07;Ogooué-Lolo;Magombolala
+0;12.9500,0.7333;GA-06;Ogooué-Ivindo;Magnon
+0;10.7000,-0.1833;GA-03;Moyen-Ogooué;Magnon
+0;11.6917,-0.4914;GA-06;Ogooué-Ivindo;Magnimba
+0;12.9023,-1.6363;GA-02;Haut-Ogooué;Magnima
+0;13.0400,-0.9430;GA-07;Ogooué-Lolo;Magnigma-Mbomo
+0;11.6667,2.1000;GA-09;Woleu-Ntem;Magnamé
+0;11.0667,-2.8167;GA-05;Nyanga;Magassiala
+0;13.4427,-1.6218;GA-02;Haut-Ogooué;Magama
+0;11.6500,-1.6500;GA-04;Ngouni;Magagana
+0;10.8600,-2.5908;GA-05;Nyanga;Magabika
+0;10.9705,-2.8127;GA-05;Nyanga;Magabiga
+0;11.6000,-2.5667;GA-04;Ngouni;Magabiga
+0;11.3667,-2.9167;GA-05;Nyanga;Magabica
+0;13.9500,0.9833;GA-06;Ogooué-Ivindo;Mafouka II
+0;13.5000,0.8333;GA-06;Ogooué-Ivindo;Mafouka I
+0;12.9667,0.7667;GA-06;Ogooué-Ivindo;Mafouka
+0;10.0120,0.1904;GA-01;Estuaire;Mafou
+0;11.7529,1.7609;GA-09;Woleu-Ntem;Mafak
+0;13.2877,-1.6601;GA-02;Haut-Ogooué;Madzaya
+0;10.9388,-2.4863;GA-05;Nyanga;Madonga
+0;14.0845,1.3721;GA-06;Ogooué-Ivindo;Madjingo
+0;13.0167,-1.1500;GA-07;Ogooué-Lolo;Madjayé
+0;11.6167,-2.1500;GA-04;Ngouni;Madioumba
+0;12.7833,-0.3000;GA-07;Ogooué-Lolo;Madinga
+0;10.0902,-1.5892;GA-04;Ngouni;Madiela
+0;12.4391,-2.2517;GA-04;Ngouni;Madiba
+0;12.3450,-2.2464;GA-04;Ngouni;Madiba
+0;13.5500,-1.9667;GA-02;Haut-Ogooué;Madiba
+0;12.5833,-0.8667;GA-07;Ogooué-Lolo;Madianza
+0;9.6167,0.8000;GA-01;Estuaire;Madekélé
+0;10.3000,-0.5333;GA-03;Moyen-Ogooué;Madankogo
+0;10.6167,-1.2167;GA-04;Ngouni;Madangou
+0;10.0667,0.2833;GA-01;Estuaire;Madaga
+0;11.7667,-2.0500;GA-04;Ngouni;Macouti
+0;11.9122,-1.9497;GA-04;Ngouni;Macouti
+0;12.7333,-1.2167;GA-07;Ogooué-Lolo;Macoungouloa
+0;9.5333,0.3833;GA-01;Estuaire;Macouma
+0;13.6500,0.0500;GA-06;Ogooué-Ivindo;Macouzca
+0;12.4167,-0.5667;GA-07;Ogooué-Lolo;Macadium
+0;12.3667,-0.3167;GA-06;Ogooué-Ivindo;Macadium
+0;12.6833,-1.8500;GA-07;Ogooué-Lolo;Macadioum
+0;13.5833,-1.8167;GA-02;Haut-Ogooué;Mabvounoungou
+0;12.5000,-1.4667;GA-07;Ogooué-Lolo;Mabouya
+0;11.7167,-2.9833;GA-05;Nyanga;Maboussou
+0;11.0982,-2.8128;GA-05;Nyanga;Mabouriga
+0;11.0167,-2.8667;GA-05;Nyanga;Mabounga
+0;12.3333,-1.3333;GA-07;Ogooué-Lolo;Mabounda
+0;11.0184,-2.7245;GA-05;Nyanga;Mabouma
+0;11.5175,-3.0125;GA-05;Nyanga;Mabou
+0;12.8340,-1.0093;GA-07;Ogooué-Lolo;Mabonkori
+0;10.7060,-3.3392;GA-05;Nyanga;Maboka
+0;13.2011,-1.5129;GA-02;Haut-Ogooué;Mabinga
+0;11.5438,-3.2680;GA-05;Nyanga;Mabili
+0;11.5697,-3.2727;GA-05;Nyanga;Mabili
+0;11.2167,-2.3667;GA-04;Ngouni;Mabengo
+0;11.5167,-2.1833;GA-04;Ngouni;Mabengo
+0;10.9667,-1.9500;GA-04;Ngouni;Mabengo
+0;12.0667,-1.4000;GA-07;Ogooué-Lolo;Mabengo
+0;9.7833,0.9667;GA-01;Estuaire;Mabendj
+0;12.8167,-1.6167;GA-07;Ogooué-Lolo;Mabenda
+0;13.9500,0.9500;GA-06;Ogooué-Ivindo;Mabémandouma
+0;10.5167,-0.4500;GA-03;Moyen-Ogooué;Mabélé
+0;11.7671,-1.5196;GA-04;Ngouni;Mabangui
+0;11.2667,-2.4500;GA-04;Ngouni;Mabanga
+0;11.7333,1.8167;GA-09;Woleu-Ntem;Mabang II
+0;11.7463,1.7944;GA-09;Woleu-Ntem;Mabang I
+0;11.9007,1.8532;GA-09;Woleu-Ntem;Mabang
+0;11.2000,-2.5000;GA-05;Nyanga;Mabala
+0;11.0833,-2.3500;GA-05;Nyanga;Mabala
+0;10.7000,-3.3500;GA-05;Nyanga;Mabagou
+0;13.5544,-1.6502;GA-02;Haut-Ogooué;Maba
+0;11.9667,-0.1167;GA-06;Ogooué-Ivindo;Lyodia
+0;11.0331,-3.7503;GA-05;Nyanga;Loungou Zambi
+0;13.8667,0.7167;GA-06;Ogooué-Ivindo;Lounga
+0;11.7500,-2.1500;GA-04;Ngouni;Loundzou
+0;11.5500,-1.1333;GA-04;Ngouni;Lounalou
+0;11.7500,-2.2333;GA-04;Ngouni;Loulou
+0;11.7167,-2.2167;GA-04;Ngouni;Loulou
+0;11.8056,-1.9220;GA-04;Ngouni;Loulou
+0;11.5833,-2.2167;GA-04;Ngouni;Loukila
+0;11.1500,-1.9667;GA-04;Ngouni;Loukaba
+0;9.4333,0.4167;GA-01;Estuaire;Louis
+0;12.1767,-2.3928;GA-04;Ngouni;Louba
+0;11.8833,-2.2333;GA-04;Ngouni;Louba
+0;12.0833,-1.5500;GA-07;Ogooué-Lolo;Louba
+0;11.3230,-3.1450;GA-05;Nyanga;Louangou
+0;10.9193,-2.6477;GA-05;Nyanga;Louango
+0;11.1667,-1.9833;GA-04;Ngouni;Louango
+0;9.8177,-0.7107;GA-03;Moyen-Ogooué;Longoué
+0;13.7424,-0.2466;GA-02;Haut-Ogooué;Longa
+0;12.8072,-0.9394;GA-07;Ogooué-Lolo;Londo
+0;10.4500,-0.4667;GA-03;Moyen-Ogooué;Londen
+0;9.4167,-1.7167;GA-08;Ogooué-Maritime;Londe
+0;12.0833,0.3500;GA-06;Ogooué-Ivindo;Lobo
+0;10.8167,-0.1167;GA-03;Moyen-Ogooué;Loandou
+0;9.0101,-0.9183;GA-08;Ogooué-Maritime;Loanda
+0;12.8333,-1.1833;GA-07;Ogooué-Lolo;Liyembi
+0;13.3333,-1.4500;GA-02;Haut-Ogooué;Liyami
+0;11.9333,-1.9000;GA-04;Ngouni;Livikou
+0;12.6399,-0.9312;GA-07;Ogooué-Lolo;Litségué
+0;12.6000,-0.9500;GA-07;Ogooué-Lolo;Litsegué
+0;11.3667,-2.3833;GA-04;Ngouni;Litouga
+0;12.7167,-1.1000;GA-07;Ogooué-Lolo;Lissouka
+0;12.7667,-1.0667;GA-07;Ogooué-Lolo;Lissoka-Micouca
+0;12.8833,-1.4167;GA-07;Ogooué-Lolo;Lissoka-Mabeka
+0;12.8333,-1.1667;GA-07;Ogooué-Lolo;Lipopa
+0;11.9697,-0.0986;GA-06;Ogooué-Ivindo;Linzé
+0;11.8728,-1.9007;GA-04;Ngouni;Lingoye
+0;12.7145,-0.8491;GA-07;Ogooué-Lolo;Lingoye
+0;12.8000,-1.1667;GA-07;Ogooué-Lolo;Lingoy
+0;12.6833,-0.8167;GA-07;Ogooué-Lolo;Lingomo
+0;12.7859,-0.8018;GA-07;Ogooué-Lolo;Lingara
+0;12.1676,-1.6321;GA-07;Ogooué-Lolo;Lindémbé
+0;13.1167,-1.2000;GA-07;Ogooué-Lolo;Lindéba-Sika
+0;13.0833,-1.2167;GA-07;Ogooué-Lolo;Lindeba-Combi
+0;12.7401,-0.8272;GA-07;Ogooué-Lolo;Limbenga
+0;11.9167,-2.0833;GA-04;Ngouni;Likoye
+0;12.7000,-0.8000;GA-07;Ogooué-Lolo;Likouala
+0;12.8000,-0.2000;GA-07;Ogooué-Lolo;Likokou
+0;10.5925,-0.8594;GA-04;Ngouni;Likila
+0;12.9833,-1.1833;GA-07;Ogooué-Lolo;Likéka-Paoumandja
+0;12.8500,-0.8833;GA-07;Ogooué-Lolo;Lihouvima
+0;12.7833,-0.8000;GA-07;Ogooué-Lolo;Lihouma
+0;13.1317,-0.9795;GA-07;Ogooué-Lolo;Lifouta
+0;10.8506,-2.1429;GA-04;Ngouni;Liembo Douma
+0;11.9186,1.5756;GA-09;Woleu-Ntem;Lieben
+0;11.4833,-0.9667;GA-04;Ngouni;Lidiembo
+0;12.7833,-1.1333;GA-07;Ogooué-Lolo;Lidiata
+0;12.2333,-1.4000;GA-07;Ogooué-Lolo;Lidiambou
+0;12.8833,-1.4000;GA-07;Ogooué-Lolo;Licoko-Kaliakali
+0;13.1840,-0.7718;GA-07;Ogooué-Lolo;Licocodjiba
+846090;9.4536,0.3924;GA-01;Estuaire;Libreville
+0;12.5956,-0.8247;GA-07;Ogooué-Lolo;Libena
+0;12.3641,-1.6278;GA-07;Ogooué-Lolo;Libéla
+0;12.1667,-1.2333;GA-07;Ogooué-Lolo;Libamba
+0;13.1418,-0.7455;GA-07;Ogooué-Lolo;Libaladouba
+0;13.4080,-0.7302;GA-07;Ogooué-Lolo;Liandza
+0;12.2325,-2.1526;GA-04;Ngouni;Leyounga
+0;12.6333,-1.4833;GA-07;Ogooué-Lolo;Leyimba
+0;12.5000,-1.2667;GA-07;Ogooué-Lolo;Leyassa
+0;14.1323,-1.7785;GA-02;Haut-Ogooué;Léwou
+0;13.8333,-1.5167;GA-02;Haut-Ogooué;Lewaï
+0;12.1882,-1.9833;GA-04;Ngouni;Levinda
+0;12.5664,-1.4867;GA-07;Ogooué-Lolo;Levika
+0;11.6167,-2.1167;GA-04;Ngouni;Leveve
+0;11.9000,-1.7667;GA-04;Ngouni;Levayou
+0;12.6667,-1.8333;GA-07;Ogooué-Lolo;Levata
+0;11.6500,-2.3333;GA-04;Ngouni;Levama
+0;13.7000,-0.3833;GA-02;Haut-Ogooué;Letoubou
+0;11.6833,-2.1500;GA-04;Ngouni;Letembé
+0;12.3901,-1.3656;GA-07;Ogooué-Lolo;Létamba
+0;11.9890,-0.9960;GA-07;Ogooué-Lolo;Lessasso
+0;11.9333,-1.8833;GA-04;Ngouni;Lessabou
+0;12.7663,-1.5442;GA-07;Ogooué-Lolo;Lesoka
+0;9.5500,0.4333;GA-01;Estuaire;Les Bambous
+0;13.4000,-1.5500;GA-02;Haut-Ogooué;Lepouya
+0;12.2135,-2.1771;GA-04;Ngouni;Lépépé
+0;11.6167,-2.2500;GA-04;Ngouni;Lepepe
+0;13.5728,-1.6772;GA-02;Haut-Ogooué;Lépaka
+0;13.7667,-0.6500;GA-02;Haut-Ogooué;Léoinga II
+0;11.6333,-2.0500;GA-04;Ngouni;Lenzongo
+0;13.7000,-1.8500;GA-02;Haut-Ogooué;Léniombi II
+0;13.7000,-1.8667;GA-02;Haut-Ogooué;Léniombi I
+0;13.0000,-1.4500;GA-02;Haut-Ogooué;Lengounga
+0;13.6933,-1.6126;GA-02;Haut-Ogooué;Lengori
+0;13.6334,-2.1627;GA-02;Haut-Ogooué;Lendoundoungou
+0;13.6372,-2.1942;GA-02;Haut-Ogooué;Lendoundoungou
+0;13.6500,-2.1500;GA-02;Haut-Ogooué;Lendoundoungou
+0;10.0667,0.2000;GA-01;Estuaire;Lendama
+0;11.7500,-2.3667;GA-04;Ngouni;Lendabengui
+0;12.5730,-1.4689;GA-07;Ogooué-Lolo;Lemingué
+0;9.5766,0.9683;GA-01;Estuaire;Lemé
+0;11.5500,-2.2000;GA-04;Ngouni;Lemboumbou
+0;10.3935,-1.7182;GA-04;Ngouni;Lemboudouma
+0;10.7890,-1.7101;GA-04;Ngouni;Lemboudouma
+0;10.2061,-1.4936;GA-04;Ngouni;Lembodouma
+0;11.1866,-3.0822;GA-05;Nyanga;Lembe
+0;11.1500,-2.3167;GA-04;Ngouni;Lembayoungou
+0;12.3236,-2.0025;GA-04;Ngouni;Lemba
+0;12.3213,-2.1236;GA-04;Ngouni;Lémanga
+0;12.6667,-1.2667;GA-07;Ogooué-Lolo;Lémagna
+0;11.8500,-2.1667;GA-04;Ngouni;Lelongo
+0;12.1500,-2.0500;GA-04;Ngouni;Lelendé
+0;13.5667,-1.4500;GA-02;Haut-Ogooué;Lekoussaga
+0;13.5333,-1.4000;GA-02;Haut-Ogooué;Lekoussaga
+0;13.5369,-1.4256;GA-02;Haut-Ogooué;Lékoussaga
+0;13.0000,-1.4667;GA-02;Haut-Ogooué;Lekoumba
+0;14.4331,-1.2536;GA-02;Haut-Ogooué;Lékori
+0;14.1333,-0.8333;GA-02;Haut-Ogooué;Lekori
+0;13.2000,-1.6167;GA-02;Haut-Ogooué;Lékolo
+0;13.2417,-1.5839;GA-02;Haut-Ogooué;Lékolo
+0;12.6667,-1.8333;GA-07;Ogooué-Lolo;Lekoka
+0;11.8000,-2.2833;GA-04;Ngouni;Lekindou
+0;11.6333,-2.3167;GA-04;Ngouni;Lekimbou
+0;11.6167,-2.3000;GA-04;Ngouni;Lekimbou
+0;13.8080,-0.9822;GA-02;Haut-Ogooué;Lékila
+0;10.6500,-1.0000;GA-04;Ngouni;Lékengué
+0;13.8833,-1.4833;GA-02;Haut-Ogooué;Lekeï III
+0;13.8958,-1.4772;GA-02;Haut-Ogooué;Lekeï II
+0;13.9657,-1.4876;GA-02;Haut-Ogooué;Lekeï I
+0;12.5000,-1.5000;GA-07;Ogooué-Lolo;Lékégni
+0;12.9667,-1.3000;GA-07;Ogooué-Lolo;Lékamba
+0;13.0192,-1.8618;GA-02;Haut-Ogooué;Lekamba
+0;13.0167,-1.5167;GA-02;Haut-Ogooué;Lekamba
+0;12.3167,-1.9833;GA-04;Ngouni;Lekala
+0;12.6143,-1.5431;GA-07;Ogooué-Lolo;Lekala
+0;14.0500,-0.5500;GA-02;Haut-Ogooué;Lekadouba
+0;12.6181,-1.6098;GA-07;Ogooué-Lolo;Lékaba
+0;12.7333,-1.3833;GA-07;Ogooué-Lolo;Lekaba
+0;12.7167,-0.8000;GA-07;Ogooué-Lolo;Leka
+0;11.8500,-2.1833;GA-04;Ngouni;Legala
+0;12.2833,-1.6833;GA-07;Ogooué-Lolo;Ledoumou
+8810;14.2591,-1.5843;GA-02;Haut-Ogooué;Lékoni
+0;12.7833,-1.1333;GA-07;Ogooué-Lolo;Lecolé
+0;13.0500,-1.2000;GA-07;Ogooué-Lolo;Lecagna
+0;12.4975,-1.0932;GA-07;Ogooué-Lolo;Lebongui
+0;13.8040,-0.9582;GA-02;Haut-Ogooué;Lebiri
+0;13.7000,-1.8167;GA-02;Haut-Ogooué;Lebingué
+0;13.7833,-0.6833;GA-02;Haut-Ogooué;Lebinga I
+0;12.2252,-1.6214;GA-07;Ogooué-Lolo;Lèbiayou
+0;11.8500,-2.0667;GA-04;Ngouni;Lebengo
+0;14.2667,-1.7167;GA-02;Haut-Ogooué;Lebba III
+0;14.2833,-1.7167;GA-02;Haut-Ogooué;Lebba II
+0;14.1822,-1.7227;GA-02;Haut-Ogooué;Lebba
+0;13.7667,-1.7333;GA-02;Haut-Ogooué;Lebaye
+0;12.0586,-2.4086;GA-04;Ngouni;Lebasa
+9287;11.4698,-2.2121;GA-04;Ngouni;Lébamba
+0;13.7624,-0.7275;GA-02;Haut-Ogooué;Lébaladouba
+0;12.1667,-1.8833;GA-04;Ngouni;Lebagny
+0;11.9333,-1.8167;GA-04;Ngouni;Lebagny
+0;11.9378,-1.7946;GA-04;Ngouni;Lebagny
+0;12.5562,-1.3771;GA-07;Ogooué-Lolo;Lebagni
+0;11.9000,-2.3333;GA-04;Ngouni;Leba
+0;11.2000,-2.5167;GA-05;Nyanga;Latsa
+0;10.6667,-1.4667;GA-04;Ngouni;Latanda
+0;12.8833,0.5667;GA-06;Ogooué-Ivindo;Latanamitaga
+0;12.9833,0.6333;GA-06;Ogooué-Ivindo;Lata-Bengoué
+14411;12.7082,-0.8174;GA-07;Ogooué-Lolo;Lastoursville
+0;9.4284,-1.6673;GA-08;Ogooué-Maritime;Lassonie
+0;9.4276,-1.6859;GA-08;Ogooué-Maritime;Lasiko
+0;11.4569,0.3622;GA-09;Woleu-Ntem;Lalara
+0;11.4667,-0.0833;GA-06;Ogooué-Ivindo;Lambassi
+0;9.4272,-1.6965;GA-08;Ogooué-Maritime;Lambaréné
+0;12.4823,-1.2096;GA-07;Ogooué-Lolo;Lambaréné
+0;11.7333,-1.1000;GA-04;Ngouni;Lambaréné
+46605;10.2406,-0.7001;GA-03;Moyen-Ogooué;Lambaréné
+0;13.0333,0.6500;GA-06;Ogooué-Ivindo;Lambaréné
+0;10.1833,0.2167;GA-01;Estuaire;Lamba
+0;9.8333,0.2000;GA-01;Estuaire;Lama
+0;9.4709,0.3690;GA-01;Estuaire;Lalala
+0;10.1833,0.1500;GA-01;Estuaire;Lafond
+0;11.5468,0.3119;GA-06;Ogooué-Ivindo;Laboka
+0;10.2692,-1.5386;GA-04;Ngouni;Kroussou
+0;9.4167,0.4167;GA-01;Estuaire;Kringer
+0;11.7500,-2.3833;GA-04;Ngouni;Kouya
+0;12.2500,-1.3333;GA-07;Ogooué-Lolo;Kouta
+0;12.2518,-2.3951;GA-04;Ngouni;Kousou
+0;11.6250,-3.3432;GA-05;Nyanga;Kouri
+0;10.2341,-0.5197;GA-03;Moyen-Ogooué;Koungoulé
+0;11.2167,-1.0833;GA-04;Ngouni;Koungou
+0;10.9333,-1.2000;GA-04;Ngouni;Koundou
+0;9.2362,-1.4474;GA-08;Ogooué-Maritime;Koundakoua
+0;13.1663,-1.5786;GA-02;Haut-Ogooué;Kounda
+0;14.0833,0.7000;GA-06;Ogooué-Ivindo;Kounamoutou
+0;12.3833,-1.4333;GA-07;Ogooué-Lolo;Kounadembé
+0;10.9731,-2.8218;GA-05;Nyanga;Koumougari
+0;11.0667,-2.3167;GA-05;Nyanga;Koumougani
+0;9.6332,-1.6278;GA-08;Ogooué-Maritime;Koumoué
+0;12.7333,-1.6333;GA-07;Ogooué-Lolo;Koumou
+0;10.5500,0.1167;GA-01;Estuaire;Koumiki
+0;10.7000,0.9333;GA-09;Woleu-Ntem;Koume
+0;10.6401,-2.1107;GA-04;Ngouni;Koumbanou
+0;11.9833,-1.8000;GA-04;Ngouni;Koumba
+0;10.9174,0.9956;GA-09;Woleu-Ntem;Koumatza
+0;11.6177,1.8159;GA-09;Woleu-Ntem;Koumassi
+0;14.0500,0.8500;GA-06;Ogooué-Ivindo;Koumaniabé
+0;11.8645,0.2017;GA-06;Ogooué-Ivindo;Koumameyong
+0;12.3951,-1.4163;GA-07;Ogooué-Lolo;Koumamala
+0;12.0000,-1.7833;GA-04;Ngouni;Koumala
+0;11.8167,0.2000;GA-06;Ogooué-Ivindo;Koula-Okak
+30830;12.4640,-1.1367;GA-07;Ogooué-Lolo;Koulamoutou
+0;10.2500,-0.7167;GA-03;Moyen-Ogooué;Koula-Moutou
+0;11.5333,-2.4500;GA-04;Ngouni;Kougouri
+0;9.8903,0.4036;GA-01;Estuaire;Kougouleu
+0;12.2333,-1.3667;GA-07;Ogooué-Lolo;Koubala
+0;12.2833,-1.3000;GA-07;Ogooué-Lolo;Kouanou
+0;11.7500,-2.3167;GA-04;Ngouni;Kouangou
+0;11.1333,-2.0667;GA-04;Ngouni;Kouangou
+0;11.0000,-2.6500;GA-05;Nyanga;Kouango
+0;10.7674,-2.4876;GA-05;Nyanga;Kouango
+0;14.0333,0.8667;GA-06;Ogooué-Ivindo;Kouangata
+0;10.0770,0.1893;GA-01;Estuaire;Kouame
+0;11.6381,1.3983;GA-09;Woleu-Ntem;Koualessis
+0;10.7551,1.0167;GA-09;Woleu-Ntem;Kouala
+0;11.5333,-2.2500;GA-04;Ngouni;Kouagna
+0;11.5000,-2.2333;GA-04;Ngouni;Kouagna
+0;10.3500,-0.7333;GA-03;Moyen-Ogooué;Kouagna
+0;12.1833,-1.0000;GA-07;Ogooué-Lolo;Kouadembé
+0;11.9053,-2.0991;GA-04;Ngouni;Kotto
+0;13.9500,0.9333;GA-06;Ogooué-Ivindo;Koto
+0;13.0500,0.7000;GA-06;Ogooué-Ivindo;Koto
+0;11.3833,1.7333;GA-09;Woleu-Ntem;Kos
+0;11.6447,1.8389;GA-09;Woleu-Ntem;Kono
+0;12.6667,-1.6833;GA-07;Ogooué-Lolo;Kongou
+0;12.6333,-0.9167;GA-07;Ogooué-Lolo;Kongo-Godafala
+0;11.5033,-0.0823;GA-06;Ogooué-Ivindo;Kongo Boumba
+0;11.7333,2.2333;GA-09;Woleu-Ntem;Kong
+0;10.6934,-2.3939;GA-05;Nyanga;Kondzi
+0;11.6000,-2.2167;GA-04;Ngouni;Kondiri
+0;12.2685,-1.6165;GA-07;Ogooué-Lolo;Kondakoko
+0;12.6833,-1.3167;GA-07;Ogooué-Lolo;Konda
+0;12.8667,-1.2000;GA-07;Ogooué-Lolo;Konda
+0;12.6833,-1.3500;GA-07;Ogooué-Lolo;Konanadembé
+0;12.1833,-1.0000;GA-07;Ogooué-Lolo;Konanadembé
+0;9.7812,-1.6969;GA-08;Ogooué-Maritime;Konako
+0;10.8140,-1.0596;GA-04;Ngouni;Komi
+0;12.3667,-0.3333;GA-06;Ogooué-Ivindo;Kombo
+0;9.9073,-1.6037;GA-04;Ngouni;Kombitoumba
+0;12.1983,0.3246;GA-06;Ogooué-Ivindo;Kombani
+0;10.5500,-0.8500;GA-03;Moyen-Ogooué;Komadéké
+0;11.1500,-2.0667;GA-04;Ngouni;Koma
+0;10.5897,-0.9116;GA-04;Ngouni;Kolimboung
+0;12.9398,-0.7551;GA-07;Ogooué-Lolo;Kokominghéli
+0;11.0180,-2.0812;GA-04;Ngouni;Koko Maguema
+0;11.2667,-2.5833;GA-05;Nyanga;Koko Magoma
+0;10.7500,-1.7000;GA-04;Ngouni;Kokolo
+0;13.9656,0.9909;GA-06;Ogooué-Ivindo;Koko
+0;10.3000,-0.4833;GA-03;Moyen-Ogooué;Koho-Bono
+0;9.9667,0.6500;GA-01;Estuaire;Kogh-Ebélé
+0;9.3480,-0.0267;GA-01;Estuaire;Kobékobé
+0;10.8000,0.6167;GA-01;Estuaire;Kimene
+0;10.1500,-1.6333;GA-04;Ngouni;Kiagui
+0;13.9000,-1.8333;GA-02;Haut-Ogooué;Kéwaga
+0;12.7855,-0.9051;GA-07;Ogooué-Lolo;Kessipougou
+0;12.6667,-1.4167;GA-07;Ogooué-Lolo;Kessetchi
+0;13.9018,-1.8693;GA-02;Haut-Ogooué;Késsala
+0;13.7247,-2.1726;GA-02;Haut-Ogooué;Kessala
+0;13.9333,-1.8167;GA-02;Haut-Ogooué;Kessala
+0;9.9333,-0.6167;GA-03;Moyen-Ogooué;Kéryé
+0;11.0640,-2.8501;GA-05;Nyanga;Keri Nzambi
+0;10.6281,-2.0447;GA-04;Ngouni;Keri II
+0;11.0333,-1.9833;GA-04;Ngouni;Keri II
+0;10.9526,-2.4794;GA-05;Nyanga;Kéri
+0;10.3682,-0.7514;GA-03;Moyen-Ogooué;Kéri
+0;11.0522,-1.9538;GA-04;Ngouni;Keri
+0;12.6500,-0.8667;GA-07;Ogooué-Lolo;Kera-Kera
+0;9.1456,-1.0394;GA-08;Ogooué-Maritime;Képa
+0;11.7000,-2.0833;GA-04;Ngouni;Kenzo
+0;11.7167,-2.0667;GA-04;Ngouni;Kenzo
+0;11.4833,-1.9333;GA-04;Ngouni;Kenzé
+0;9.9000,-1.7333;GA-08;Ogooué-Maritime;Kéno
+0;10.5000,-0.9833;GA-04;Ngouni;Kenibeï
+0;11.5807,1.5847;GA-09;Woleu-Ntem;Keng-Akok
+0;11.5833,1.6000;GA-09;Woleu-Ntem;Keng-Akok
+0;11.9833,-0.1000;GA-06;Ogooué-Ivindo;Kendo
+0;9.1500,-0.8167;GA-08;Ogooué-Maritime;Kendjé
+0;11.3785,-1.7143;GA-04;Ngouni;Kembélé
+0;13.7167,-1.6000;GA-02;Haut-Ogooué;Kellé II
+0;13.7728,-1.6024;GA-02;Haut-Ogooué;Kellé I
+0;11.1833,-2.6500;GA-05;Nyanga;Kelili
+0;10.0968,-2.7896;GA-05;Nyanga;Keleba
+0;11.9589,-0.0624;GA-06;Ogooué-Ivindo;Kékélé
+0;10.6167,-1.9833;GA-04;Ngouni;Kédi
+0;11.6167,-2.8833;GA-05;Nyanga;Kebili
+0;9.6169,-0.9212;GA-08;Ogooué-Maritime;Kazé
+0;11.0364,-3.7352;GA-05;Nyanga;Kayes Congo
+0;13.4667,-1.5333;GA-02;Haut-Ogooué;Kaya-Kaya
+0;14.0436,0.9032;GA-06;Ogooué-Ivindo;Katamoba
+0;13.9000,-1.3000;GA-02;Haut-Ogooué;Kassiami II
+0;13.8167,-1.5167;GA-02;Haut-Ogooué;Kassiami I
+0;13.9000,-1.2833;GA-02;Haut-Ogooué;Kassiami I
+0;10.2833,0.1500;GA-01;Estuaire;Karamaïen
+0;13.8500,-1.0000;GA-02;Haut-Ogooué;Kara
+0;14.3333,-1.7167;GA-02;Haut-Ogooué;Kantsaga
+0;12.1500,-0.1500;GA-06;Ogooué-Ivindo;Kan-Kan
+5734;10.1090,0.1718;GA-01;Estuaire;Kango
+0;14.1833,0.6667;GA-06;Ogooué-Ivindo;Kangala
+0;11.6167,-2.3000;GA-04;Ngouni;Kanga
+0;14.1333,-1.5500;GA-02;Haut-Ogooué;Kandouo
+0;11.7333,-0.1167;GA-06;Ogooué-Ivindo;Kandjama Simba
+0;11.7797,-0.2436;GA-06;Ogooué-Ivindo;Kandjama Bika
+0;11.7116,-0.0884;GA-06;Ogooué-Ivindo;Kandjama Bika
+0;11.5057,-2.2083;GA-04;Ngouni;Kanda
+0;11.7307,-1.9772;GA-04;Ngouni;Kanda
+0;11.4587,-1.8010;GA-04;Ngouni;Kanda
+0;11.9333,-1.4667;GA-04;Ngouni;Kanda
+0;11.2500,-2.6000;GA-05;Nyanga;Kanapo
+0;11.3167,-2.7667;GA-05;Nyanga;Kambala
+0;11.3500,-2.3500;GA-04;Ngouni;Kamba I
+0;11.7226,-3.1200;GA-05;Nyanga;Kamba
+0;11.3333,-2.3500;GA-04;Ngouni;Kamba
+0;11.4500,-2.2500;GA-04;Ngouni;Kamba
+0;11.7713,-0.7193;GA-04;Ngouni;Kamalété
+0;10.6167,0.4167;GA-01;Estuaire;Kam
+0;10.6167,-0.9500;GA-04;Ngouni;Kalingoué
+0;10.7167,0.3333;GA-01;Estuaire;Kaleton
+0;14.0167,-1.8167;GA-02;Haut-Ogooué;Kalami
+0;13.9833,-1.8167;GA-02;Haut-Ogooué;Kalami
+0;11.0333,-2.9333;GA-05;Nyanga;Kaki
+0;10.9657,-2.4769;GA-05;Nyanga;Kaka
+0;11.3500,-2.4000;GA-04;Ngouni;Kaga II
+0;11.3500,-2.4167;GA-04;Ngouni;Kaga I
+0;11.5167,-2.7333;GA-05;Nyanga;Kabo Nzambi
+0;11.0495,-3.0723;GA-05;Nyanga;Kabi
+0;11.1000,-2.9833;GA-05;Nyanga;Kabi
+0;14.4263,-1.6713;GA-02;Haut-Ogooué;Kabala
+0;13.9167,-1.3833;GA-02;Haut-Ogooué;Kabaga II
+0;13.9171,-1.3642;GA-02;Haut-Ogooué;Kabaga I
+0;11.1460,-0.0617;GA-03;Moyen-Ogooué;Junckville
+0;10.1043,-0.8355;GA-03;Moyen-Ogooué;Joctane
+0;11.1170,-3.0026;GA-05;Nyanga;Iyantzi
+0;11.3167,-1.9833;GA-04;Ngouni;Ivouta
+0;11.4833,-1.9667;GA-04;Ngouni;Ivouta
+0;11.5000,-2.9000;GA-05;Nyanga;Ivoundou
+0;11.0667,-2.8167;GA-05;Nyanga;Ivoumounou
+0;12.1833,-1.5500;GA-07;Ogooué-Lolo;Ivicou
+0;11.9335,-1.1699;GA-07;Ogooué-Lolo;Ivicou
+0;12.6168,-1.5533;GA-07;Ogooué-Lolo;Iveté
+0;9.9833,-1.5333;GA-04;Ngouni;Ivanga
+0;12.4500,-1.6500;GA-07;Ogooué-Lolo;Itsouadi
+0;11.8333,-2.2167;GA-04;Ngouni;Itsila
+0;11.5667,-1.7167;GA-04;Ngouni;Itsigou
+0;11.7147,-1.6512;GA-04;Ngouni;Itsango
+0;11.7333,-1.6167;GA-04;Ngouni;Itsanga
+0;11.5500,-1.7500;GA-04;Ngouni;Itougui
+0;11.5000,-2.0000;GA-04;Ngouni;Itougou
+0;11.5086,-1.2631;GA-04;Ngouni;Itoughi
+0;13.0167,-1.4167;GA-02;Haut-Ogooué;Itoko
+0;11.5167,-2.1833;GA-04;Ngouni;Itogo
+0;11.6832,-0.4296;GA-06;Ogooué-Ivindo;Itéké
+0;13.5833,0.8667;GA-06;Ogooué-Ivindo;Itébé III
+0;13.5500,0.8500;GA-06;Ogooué-Ivindo;Itébé II
+0;13.5637,0.8506;GA-06;Ogooué-Ivindo;Itébé I
+0;12.0340,-2.0094;GA-04;Ngouni;Itava
+0;12.4276,-1.3162;GA-07;Ogooué-Lolo;Italatala
+0;10.8333,-1.9000;GA-04;Ngouni;Itala
+0;11.5000,-2.1167;GA-04;Ngouni;Itaba
+0;10.7833,-0.1167;GA-03;Moyen-Ogooué;Issoung II
+0;10.7963,-0.1296;GA-03;Moyen-Ogooué;Éssong
+0;9.9779,-0.8272;GA-03;Moyen-Ogooué;Issoloué
+0;11.4908,0.8304;GA-09;Woleu-Ntem;Issohingon
+0;11.3485,-1.7161;GA-04;Ngouni;Issinga
+0;9.5266,-1.1529;GA-08;Ogooué-Maritime;Issinga
+0;10.4376,-0.8890;GA-03;Moyen-Ogooué;Issinga
+0;11.2333,-2.8500;GA-05;Nyanga;Issigou
+0;11.6411,-3.0492;GA-05;Nyanga;Issibou
+0;11.1667,-2.7000;GA-05;Nyanga;Issibou
+0;10.1396,-2.1109;GA-08;Ogooué-Maritime;Issiari Mandifou
+0;11.6833,-2.3667;GA-04;Ngouni;Issiapi
+0;11.8500,-1.8500;GA-04;Ngouni;Issiamboula
+0;10.3667,0.3500;GA-01;Estuaire;Issangafoum
+0;11.6619,-2.0097;GA-04;Ngouni;Issala
+0;11.7167,1.7833;GA-09;Woleu-Ntem;Issadoumongo-Ignizok
+0;11.7147,1.7307;GA-09;Woleu-Ntem;Issadoumongo
+0;9.9727,-0.5101;GA-03;Moyen-Ogooué;Issac
+0;10.9293,-2.5015;GA-05;Nyanga;Isogni Salou
+0;11.6667,-2.9167;GA-05;Nyanga;Iroungou
+0;11.4500,-2.2333;GA-04;Ngouni;Irougou
+0;11.4167,-2.3833;GA-04;Ngouni;Irogo
+0;9.4333,-1.5500;GA-08;Ogooué-Maritime;Iréva
+0;11.0833,-2.7167;GA-05;Nyanga;Irendou
+0;11.6167,-2.5833;GA-04;Ngouni;Irendi
+0;11.7167,-3.1962;GA-05;Nyanga;Irandou
+0;11.6333,-2.6167;GA-04;Ngouni;Irandou
+0;11.6500,-1.9667;GA-04;Ngouni;Ipoungou
+0;12.0895,-1.4021;GA-04;Ngouni;Ipoungou
+0;12.1333,-1.3667;GA-07;Ogooué-Lolo;Ipoungou
+0;9.3371,-1.3925;GA-08;Ogooué-Maritime;Ipedie
+0;11.4095,-1.9147;GA-04;Ngouni;Ipamboua
+0;12.4557,-2.0508;GA-04;Ngouni;Iouatsi
+0;12.3167,-1.6000;GA-07;Ogooué-Lolo;Iouatchi
+0;11.8000,-1.0000;GA-07;Ogooué-Lolo;Iouatchi
+0;11.9333,-1.0333;GA-07;Ogooué-Lolo;Iouasso II
+0;11.9333,-1.0500;GA-07;Ogooué-Lolo;Iouasso I
+0;11.9500,-1.0667;GA-07;Ogooué-Lolo;Inzombo
+0;13.3263,0.7667;GA-06;Ogooué-Ivindo;Inzé
+0;11.8000,-1.0000;GA-07;Ogooué-Lolo;Inzambo
+0;12.1167,-1.0167;GA-07;Ogooué-Lolo;Inzamba
+0;13.7667,-1.1833;GA-02;Haut-Ogooué;Intogo
+0;9.3689,-1.3856;GA-08;Ogooué-Maritime;Inongo-Aïlé
+0;9.4333,-1.5333;GA-08;Ogooué-Maritime;Inongo
+0;11.4833,-2.8500;GA-05;Nyanga;Inominomio
+0;10.3893,-1.7290;GA-04;Ngouni;Iniounga
+0;11.6167,-2.6333;GA-04;Ngouni;Inguelé
+0;11.4833,0.8167;GA-09;Woleu-Ntem;Ingueï
+0;11.8500,-2.3167;GA-04;Ngouni;Ingounda
+0;11.3827,1.5748;GA-09;Woleu-Ntem;Ingong
+0;13.9667,0.8167;GA-06;Ogooué-Ivindo;Ingonda
+0;13.6000,0.8500;GA-06;Ogooué-Ivindo;Ingolandjondjo II
+0;13.6114,0.8810;GA-06;Ogooué-Ivindo;Ingolandjondjo I
+0;11.4408,1.6217;GA-09;Woleu-Ntem;Ingasse
+0;11.1167,-2.4000;GA-05;Nyanga;Ineni Magno
+0;11.9833,-0.1000;GA-06;Ogooué-Ivindo;Indzanza
+0;11.0333,0.6500;GA-09;Woleu-Ntem;Indoume
+0;13.7167,0.9333;GA-06;Ogooué-Ivindo;Indoué
+0;13.8500,0.6833;GA-06;Ogooué-Ivindo;Indombo
+0;13.1391,0.3474;GA-06;Ogooué-Ivindo;Indombo
+0;11.6833,-1.2000;GA-04;Ngouni;Indimba
+0;10.7333,-1.1333;GA-04;Ngouni;Indéndé
+0;11.3333,-1.0167;GA-04;Ngouni;Indamba
+0;9.2833,-1.5500;GA-08;Ogooué-Maritime;Inanie
+0;10.3215,-2.8134;GA-05;Nyanga;Inanga
+0;10.3500,-1.7167;GA-04;Ngouni;Inanga
+0;12.7833,-0.3000;GA-07;Ogooué-Lolo;Imono
+0;11.8486,-1.6943;GA-04;Ngouni;Iméno-Mbila
+0;11.5167,-2.2000;GA-04;Ngouni;Iméno
+0;11.9500,-1.5833;GA-04;Ngouni;Iméno
+0;12.3290,-1.5064;GA-07;Ogooué-Lolo;Iméno
+0;11.8833,0.9833;GA-07;Ogooué-Lolo;Iméno
+0;13.9963,1.0382;GA-06;Ogooué-Ivindo;Imbong
+0;11.0833,-2.9667;GA-05;Nyanga;Imboko
+0;11.0833,-2.8000;GA-05;Nyanga;Iloumi Ilongo Dibora
+0;9.5167,0.3833;GA-01;Estuaire;Ilou
+0;9.3667,-1.8000;GA-08;Ogooué-Maritime;Ilongo
+0;9.4833,0.5833;GA-01;Estuaire;Iloneyon-Sekioni
+0;11.1667,-2.6833;GA-05;Nyanga;Ilogo
+0;11.1000,-2.4500;GA-05;Nyanga;Iloga Magounga
+0;11.2167,-2.6333;GA-05;Nyanga;Iloba Songui
+0;10.8907,-2.1518;GA-04;Ngouni;Ilendou
+0;11.5281,-3.2688;GA-05;Nyanga;Ilendo
+0;11.5033,-3.0997;GA-05;Nyanga;Ilendo
+0;11.1333,-1.9667;GA-04;Ngouni;Ilendo
+0;11.3333,-2.4500;GA-04;Ngouni;Ilelo
+0;10.9922,-2.4436;GA-05;Nyanga;Iléka
+0;9.5500,-1.5833;GA-08;Ogooué-Maritime;Ilandé
+0;11.3000,-2.2833;GA-04;Ngouni;Ilala
+0;11.3000,-2.2667;GA-04;Ngouni;Ilala
+0;11.5833,-2.2167;GA-04;Ngouni;Ikoya
+0;10.5667,-0.2167;GA-03;Moyen-Ogooué;Ikoulam-Vam
+0;11.5000,-2.1167;GA-04;Ngouni;Ikouka
+0;9.0197,-1.3000;GA-08;Ogooué-Maritime;Ikoré
+0;9.6500,-1.6500;GA-08;Ogooué-Maritime;Ikongo
+0;11.6333,-2.2667;GA-04;Ngouni;Ikone
+0;11.3392,-3.1346;GA-05;Nyanga;Ikoli
+0;13.6500,0.9000;GA-06;Ogooué-Ivindo;Iko
+0;11.8833,-1.6667;GA-04;Ngouni;Ikika
+0;13.6833,0.9167;GA-06;Ogooué-Ivindo;Ikié
+0;11.0833,-2.7833;GA-05;Nyanga;Ikeri Issiana
+0;9.0217,-1.2120;GA-08;Ogooué-Maritime;Ikéoué
+0;9.4766,-1.5136;GA-08;Ogooué-Maritime;Ikengué
+0;12.0667,-1.0167;GA-07;Ogooué-Lolo;Ikembélé
+0;11.7500,-1.0167;GA-04;Ngouni;Ikembelé
+0;9.7201,-0.9498;GA-08;Ogooué-Maritime;Ikassa
+0;11.8833,-1.1000;GA-07;Ogooué-Lolo;Ikanga
+0;9.2762,-1.4865;GA-08;Ogooué-Maritime;Iguéné
+0;9.8319,-0.8416;GA-03;Moyen-Ogooué;Iguendjo
+0;9.3167,-1.9167;GA-08;Ogooué-Maritime;Iguéla
+0;11.0854,-1.8850;GA-04;Ngouni;Igouna
+0;11.8500,-1.1000;GA-07;Ogooué-Lolo;Igoumbi
+0;11.8167,-1.0000;GA-07;Ogooué-Lolo;Igouma
+0;11.2333,-2.3833;GA-04;Ngouni;Igoudi
+0;11.5500,-1.6667;GA-04;Ngouni;Igouba
+0;10.2000,-1.4333;GA-04;Ngouni;Igolani
+0;11.4333,0.9167;GA-09;Woleu-Ntem;Ignol
+0;9.4167,0.4833;GA-01;Estuaire;Igning-Méléne
+0;11.3000,-2.5667;GA-05;Nyanga;Igala
+0;11.5833,-2.0000;GA-04;Ngouni;Idounda
+0;11.2000,-1.9833;GA-04;Ngouni;Idoumi
+0;10.6167,-1.3833;GA-04;Ngouni;Idoumi
+0;10.7220,-2.0510;GA-04;Ngouni;Idouma
+0;10.9405,-1.9028;GA-04;Ngouni;Idouma
+0;9.9667,0.8000;GA-01;Estuaire;Idolo
+0;9.3085,0.5814;GA-01;Estuaire;Idokogo
+0;11.9000,-1.0833;GA-07;Ogooué-Lolo;Idimba
+0;12.9690,-1.1854;GA-07;Ogooué-Lolo;Idiba
+0;11.5667,-2.0167;GA-04;Ngouni;Idiata
+0;11.6833,-2.2167;GA-04;Ngouni;Idembé
+0;12.5167,-1.6000;GA-07;Ogooué-Lolo;Idembé
+0;11.5833,-1.5667;GA-04;Ngouni;Idemba II
+0;11.5833,-1.5667;GA-04;Ngouni;Idemba I
+0;10.7000,-3.3500;GA-05;Nyanga;Idemba
+0;12.1770,-2.0708;GA-04;Ngouni;Idemba
+0;11.6333,-2.6333;GA-04;Ngouni;Idemba
+0;10.9234,-1.8696;GA-04;Ngouni;Idemba
+0;11.5833,-1.5667;GA-04;Ngouni;Idemba
+0;11.7833,-1.3667;GA-04;Ngouni;Idemba
+0;12.8833,-1.3333;GA-07;Ogooué-Lolo;Idamba
+0;11.1667,-1.9000;GA-04;Ngouni;Icoumba
+0;11.9500,-1.4500;GA-04;Ngouni;Iboundji
+2123;9.5864,0.8699;GA-01;Estuaire;Iboundji
+0;11.4281,-0.0919;GA-06;Ogooué-Ivindo;Ibomo
+0;13.0503,0.6857;GA-06;Ogooué-Ivindo;Ibinga
+0;11.6500,-1.8833;GA-04;Ngouni;Ibembo
+0;14.1000,0.6833;GA-06;Ogooué-Ivindo;Ibéla
+0;9.2875,-1.3939;GA-08;Ogooué-Maritime;Ibega
+0;11.3167,-2.9500;GA-05;Nyanga;Ibanga
+0;11.2667,-2.7833;GA-05;Nyanga;Ibanga
+0;10.7438,-2.7454;GA-05;Nyanga;Ibanga
+0;11.1167,-2.2333;GA-04;Ngouni;Ibamba
+0;12.5667,-1.0000;GA-07;Ogooué-Lolo;Ibamba
+0;12.2667,-1.7000;GA-07;Ogooué-Lolo;Ibala
+0;11.9333,-0.0667;GA-06;Ogooué-Ivindo;Ibakodia
+0;11.5833,-2.2000;GA-04;Ngouni;Ibaga
+0;11.7343,-1.6634;GA-04;Ngouni;Ibaga
+0;11.3153,-3.1480;GA-05;Nyanga;Iantsi
+0;11.4661,0.5131;GA-09;Woleu-Ntem;Huy II
+0;11.4684,0.5413;GA-09;Woleu-Ntem;Huy I
+0;9.5333,-1.6167;GA-08;Ogooué-Maritime;Hublin
+0;10.2667,-1.6333;GA-04;Ngouni;Guisse
+0;11.6833,-2.3500;GA-04;Ngouni;Guilingono
+0;13.8167,0.9500;GA-06;Ogooué-Ivindo;Guiéssébé
+0;10.6959,-1.6185;GA-04;Ngouni;Guidouma
+0;11.2667,-1.2167;GA-04;Ngouni;Guidiba
+0;11.3833,-1.0500;GA-04;Ngouni;Guiabeta
+0;13.2167,-1.1333;GA-07;Ogooué-Lolo;Guéme
+0;10.7500,-0.1667;GA-03;Moyen-Ogooué;Grand Village
+0;11.5777,-1.4451;GA-04;Ngouni;Grand Mobigou
+0;13.1500,-1.3833;GA-02;Haut-Ogooué;Grand Massengo
+0;12.3333,-1.0667;GA-07;Ogooué-Lolo;Goungui
+0;9.7772,-0.6910;GA-03;Moyen-Ogooué;Goundimori
+0;13.6500,-2.1333;GA-02;Haut-Ogooué;Gounda
+0;10.7502,-3.2078;GA-05;Nyanga;Goumbou
+0;10.7500,-3.1833;GA-05;Nyanga;Goumbou
+0;10.5574,-2.1137;GA-04;Ngouni;Goulougaï
+0;9.9613,-1.3498;GA-08;Ogooué-Maritime;Goudoumayou
+0;10.3221,-0.7146;GA-03;Moyen-Ogooué;Ngoudoufala
+0;12.0062,-1.4169;GA-07;Ogooué-Lolo;Gouassa
+0;12.6833,-0.8000;GA-07;Ogooué-Lolo;Gouamba
+0;10.0167,0.9167;GA-01;Estuaire;Goualé
+0;9.2211,-0.5322;GA-08;Ogooué-Maritime;Gongoué
+0;11.5167,-2.9667;GA-05;Nyanga;Gondzi
+0;10.4500,-3.0333;GA-05;Nyanga;Gobini
+0;12.1833,-1.6500;GA-07;Ogooué-Lolo;Gnienzi
+0;11.6500,2.1667;GA-09;Woleu-Ntem;Gnazang
+0;11.3833,2.2000;GA-09;Woleu-Ntem;Gnanamé
+0;11.2979,-2.6032;GA-05;Nyanga;Gnali
+0;10.6833,-1.2000;GA-04;Ngouni;Gikiba
+0;13.1667,0.7167;GA-06;Ogooué-Ivindo;Gazo
+0;13.1333,0.7000;GA-06;Ogooué-Ivindo;Ganzi
+12565;10.0000,-2.6500;GA-08;Ogooué-Maritime;Gamba
+0;10.8000,-1.0833;GA-04;Ngouni;Galoua
+0;10.2167,-1.0333;GA-03;Moyen-Ogooué;Gabéta
+132895;13.5836,-1.6333;GA-02;Haut-Ogooué;Franceville
+0;11.5333,-2.2000;GA-04;Ngouni;Fouroumanga
+0;10.6358,-1.1078;GA-04;Ngouni;Fouramouanga
+0;10.9886,-2.4527;GA-05;Nyanga;Foundou Nzambi
+0;10.0365,-2.6376;GA-08;Ogooué-Maritime;Foundou
+0;11.4833,1.0500;GA-09;Woleu-Ntem;Foulebeng II
+0;11.4671,1.0601;GA-09;Woleu-Ntem;Foulebeng I
+0;9.8868,0.8568;GA-01;Estuaire;Foulayong
+0;11.4754,0.8241;GA-09;Woleu-Ntem;Foulassi
+0;10.3361,-0.4990;GA-03;Moyen-Ogooué;Foulameyong
+0;9.5213,-1.1941;GA-08;Ogooué-Maritime;Foulamayong
+0;11.7833,0.2000;GA-06;Ogooué-Ivindo;Foula Fieng
+0;11.4167,0.9500;GA-09;Woleu-Ntem;Foula
+0;9.9000,0.8500;GA-01;Estuaire;Foula
+0;10.0500,0.6667;GA-01;Estuaire;Foula
+0;10.2333,0.2167;GA-01;Estuaire;Foula
+8629;10.5838,-1.2154;GA-04;Ngouni;Fougamou
+0;11.1167,-2.1833;GA-04;Ngouni;Fouelou
+0;11.9752,0.2652;GA-06;Ogooué-Ivindo;Foubenzok
+0;11.9500,0.2333;GA-06;Ogooué-Ivindo;Foubenzok
+0;10.5167,0.2500;GA-01;Estuaire;Fouanga
+0;12.8167,-0.9833;GA-07;Ogooué-Lolo;Fouala
+0;11.6133,1.4199;GA-09;Woleu-Ntem;Fone
+0;12.2423,0.9003;GA-06;Ogooué-Ivindo;Foloe
+0;10.4624,-0.4183;GA-03;Moyen-Ogooué;Fernan Vaz
+0;11.3038,-2.3279;GA-04;Ngouni;Fera
+0;11.3490,1.9501;GA-09;Woleu-Ntem;Feng
+0;11.5000,2.2000;GA-09;Woleu-Ntem;Fémé
+0;11.8294,1.5424;GA-09;Woleu-Ntem;Fébezok
+0;10.3500,-0.6000;GA-03;Moyen-Ogooué;Fala-Nzamata
+0;9.0874,-1.0258;GA-08;Ogooué-Maritime;Falaba
+0;10.6167,-0.9500;GA-04;Ngouni;Fala
+0;9.3351,-1.9379;GA-08;Ogooué-Maritime;Ezango
+0;11.6963,1.2672;GA-09;Woleu-Ntem;Ezamkang
+0;11.4500,-1.2833;GA-04;Ngouni;Eyoumbi
+0;13.6969,-1.6185;GA-02;Haut-Ogooué;Eyouga II
+0;13.7780,-1.5593;GA-02;Haut-Ogooué;Eyouga
+0;11.5175,0.9732;GA-09;Woleu-Ntem;Eyinané
+0;11.5833,0.8500;GA-09;Woleu-Ntem;Eyéné
+0;11.8883,0.1444;GA-06;Ogooué-Ivindo;Eyene
+0;10.2333,0.2833;GA-01;Estuaire;Eyemé
+0;11.4333,-1.2833;GA-04;Ngouni;Eya Nioy
+0;11.5636,0.8501;GA-09;Woleu-Ntem;Eyané
+0;9.9833,0.7667;GA-01;Estuaire;Eyameyong
+0;12.6210,0.5642;GA-06;Ogooué-Ivindo;Eyameyong
+0;11.7667,0.2167;GA-06;Ogooué-Ivindo;Eyameyong
+0;10.3500,0.1833;GA-01;Estuaire;Eyameyong
+0;11.2167,0.8833;GA-09;Woleu-Ntem;Eyaméyéne
+0;10.8167,0.9500;GA-09;Woleu-Ntem;Eyamayong
+0;10.9000,0.6667;GA-01;Estuaire;Eyamayong
+0;9.6167,-0.1500;GA-01;Estuaire;Ex-case Boyer
+0;11.4879,2.1250;GA-09;Woleu-Ntem;Ewémé
+0;11.3167,-1.2500;GA-04;Ngouni;Evouta II
+0;11.7000,-1.1167;GA-04;Ngouni;Evouta
+0;10.4500,-0.3667;GA-03;Moyen-Ogooué;Evoung-Voung
+0;9.8167,0.1000;GA-01;Estuaire;Evoula
+0;11.8700,0.0830;GA-06;Ogooué-Ivindo;Evormitok
+0;12.0500,2.1167;GA-09;Woleu-Ntem;Évormbilé
+0;11.5846,1.5433;GA-09;Woleu-Ntem;Evormakok
+0;11.7308,0.8392;GA-09;Woleu-Ntem;Evormakok
+0;10.2000,0.3000;GA-01;Estuaire;Evormakok
+0;9.8167,0.3500;GA-01;Estuaire;Evorédouleux
+0;9.9657,0.7232;GA-01;Estuaire;Evorédoulé
+0;10.1167,0.1667;GA-01;Estuaire;Evoredoule
+0;11.8135,1.5510;GA-09;Woleu-Ntem;Evone
+0;9.8333,0.3500;GA-01;Estuaire;Evinayong
+0;10.0500,0.2833;GA-01;Estuaire;Evinayong
+0;9.4667,0.5833;GA-01;Estuaire;Eviéname
+0;12.1553,2.1108;GA-09;Woleu-Ntem;Éveula
+0;11.7667,1.8500;GA-09;Woleu-Ntem;Eves
+0;11.6167,1.8500;GA-09;Woleu-Ntem;Eves
+0;10.4333,-0.3000;GA-03;Moyen-Ogooué;Eves
+0;10.4500,-0.4500;GA-03;Moyen-Ogooué;Evameyonga
+0;9.7167,0.9333;GA-01;Estuaire;Evamba
+0;10.3971,0.7718;GA-09;Woleu-Ntem;Etsamé I
+0;11.4005,0.8178;GA-09;Woleu-Ntem;Etouk
+0;11.4333,0.8000;GA-09;Woleu-Ntem;Etouk
+0;9.9972,-0.4938;GA-03;Moyen-Ogooué;Etouk
+0;12.0333,2.1833;GA-09;Woleu-Ntem;Étogou
+0;13.9167,0.7333;GA-06;Ogooué-Ivindo;Etiala
+0;11.4796,-1.4978;GA-04;Ngouni;Étéké
+0;10.7000,-0.1833;GA-03;Moyen-Ogooué;Eteing
+0;13.5333,-1.1833;GA-02;Haut-Ogooué;Etchougou
+0;12.1333,2.2000;GA-09;Woleu-Ntem;Étamétang
+0;9.6323,0.2460;GA-01;Estuaire;Étaméyong
+0;12.9559,0.5340;GA-06;Ogooué-Ivindo;Etakaniabé
+0;13.9667,1.0167;GA-06;Ogooué-Ivindo;Etakangaï
+0;11.4849,-1.7626;GA-04;Ngouni;Etaba
+0;11.4500,0.9667;GA-09;Woleu-Ntem;Essoun-Alem
+0;11.3182,-1.3688;GA-04;Ngouni;Essoukou
+0;9.9057,0.9433;GA-01;Estuaire;Essoua
+0;11.4850,1.6515;GA-09;Woleu-Ntem;Essono
+0;11.6167,0.6333;GA-09;Woleu-Ntem;Essonia
+0;11.4184,1.3236;GA-09;Woleu-Ntem;Essong Abam III
+0;11.4174,1.3310;GA-09;Woleu-Ntem;Essong Abam I
+0;11.4500,0.8167;GA-09;Woleu-Ntem;Essong II
+0;11.4348,0.8245;GA-09;Woleu-Ntem;Essong I
+0;11.7333,2.2167;GA-09;Woleu-Ntem;Essong
+0;11.5517,1.6057;GA-09;Woleu-Ntem;Essong
+0;11.4085,1.5473;GA-09;Woleu-Ntem;Essong
+0;11.5333,2.2667;GA-09;Woleu-Ntem;Essone Bizang
+0;11.9103,1.8897;GA-09;Woleu-Ntem;Essone
+0;11.2333,0.8167;GA-09;Woleu-Ntem;Essoné
+0;11.2500,0.6500;GA-09;Woleu-Ntem;Essone
+0;11.6667,2.0500;GA-09;Woleu-Ntem;Essomilang
+0;11.3667,0.7167;GA-09;Woleu-Ntem;Essogongone
+0;11.7808,1.8314;GA-09;Woleu-Ntem;Essendjoum
+0;10.5500,-0.3000;GA-03;Moyen-Ogooué;Essanvougha
+0;11.4000,2.1500;GA-09;Woleu-Ntem;Essangui
+0;9.4333,0.0500;GA-01;Estuaire;Essanang
+0;9.6000,-0.0333;GA-01;Estuaire;Essamvégne
+0;11.7833,1.8667;GA-09;Woleu-Ntem;Essa
+0;12.0333,2.1000;GA-09;Woleu-Ntem;Ésong
+0;10.2333,0.2167;GA-01;Estuaire;Esissié
+0;9.5906,-0.9231;GA-08;Ogooué-Maritime;Esende
+0;8.7167,-0.6500;GA-08;Ogooué-Maritime;Erogoué
+0;9.3165,-0.2022;GA-01;Estuaire;Ékouata
+0;10.1494,-0.6643;GA-03;Moyen-Ogooué;Épanga
+0;11.6333,0.5500;GA-09;Woleu-Ntem;Eourouzork
+0;9.3746,-0.9983;GA-08;Ogooué-Maritime;Enyonga
+0;13.8891,-1.1577;GA-02;Haut-Ogooué;Entsaka
+0;13.6167,-1.2667;GA-02;Haut-Ogooué;Enkassa
+0;10.3735,0.7335;GA-09;Woleu-Ntem;Enientang
+0;10.8667,0.9667;GA-09;Woleu-Ntem;Eniengméléné II
+0;10.8505,1.0227;GA-09;Woleu-Ntem;Eniengméléné I
+0;11.4433,1.6855;GA-09;Woleu-Ntem;Enieng
+0;11.7012,1.1769;GA-09;Woleu-Ntem;Enieng
+0;10.0000,0.6833;GA-01;Estuaire;Enguengang-Medzim
+0;9.7667,0.7667;GA-01;Estuaire;Engoung
+0;13.7312,-0.6883;GA-02;Haut-Ogooué;Engoumou
+0;11.6792,1.3483;GA-09;Woleu-Ntem;Engong
+0;10.1000,0.6000;GA-01;Estuaire;Engong
+0;11.5167,1.5833;GA-09;Woleu-Ntem;Engogone
+0;11.4833,2.2667;GA-09;Woleu-Ntem;Engo Effak
+0;11.4529,2.2775;GA-09;Woleu-Ntem;Engo
+0;11.6500,0.9167;GA-09;Woleu-Ntem;Engeng
+0;11.8970,1.8681;GA-09;Woleu-Ntem;Engasse
+0;11.5361,1.6583;GA-09;Woleu-Ntem;Engang
+0;11.5667,1.6833;GA-09;Woleu-Ntem;Endome II
+0;11.5626,1.6448;GA-09;Woleu-Ntem;Endome I
+0;11.6190,1.6103;GA-09;Woleu-Ntem;Endome
+0;11.6500,1.6167;GA-09;Woleu-Ntem;Endome
+0;11.4767,1.5977;GA-09;Woleu-Ntem;Endoma
+0;13.1631,-1.5838;GA-02;Haut-Ogooué;Endjoumou
+0;9.4167,0.0833;GA-01;Estuaire;Endendang
+0;11.5651,1.9729;GA-09;Woleu-Ntem;Endama
+0;9.9833,-1.1000;GA-03;Moyen-Ogooué;Emvouhna
+0;10.2167,-0.7167;GA-03;Moyen-Ogooué;Emvouhna
+0;13.7928,-1.2405;GA-02;Haut-Ogooué;Empoussa
+0;9.5949,0.8338;GA-01;Estuaire;Emone
+0;11.9833,-0.1000;GA-06;Ogooué-Ivindo;Embadaga
+0;9.1499,-0.7145;GA-08;Ogooué-Maritime;Emanagouga
+0;12.7833,-0.2167;GA-07;Ogooué-Lolo;Elouzanzoko
+0;14.0050,0.8721;GA-06;Ogooué-Ivindo;Elouma
+0;10.0333,-1.1167;GA-03;Moyen-Ogooué;Eloum
+0;11.6098,1.4377;GA-09;Woleu-Ntem;Elope
+0;10.7333,0.9667;GA-09;Woleu-Ntem;Elong-Eko
+0;9.9921,-0.5290;GA-03;Moyen-Ogooué;Elong-Eko
+0;10.2333,0.3500;GA-01;Estuaire;Elong-Eko
+0;9.9500,0.3167;GA-01;Estuaire;Elong-Eko
+0;10.5000,-0.2500;GA-03;Moyen-Ogooué;Elong-Eko
+0;9.7760,0.2296;GA-01;Estuaire;Élong Éko
+0;10.5167,-0.2000;GA-03;Moyen-Ogooué;Elong-Eko
+0;10.9000,0.5667;GA-01;Estuaire;Elong Eko
+0;9.9615,-0.8095;GA-03;Moyen-Ogooué;Elombé
+0;9.3474,-1.4302;GA-08;Ogooué-Maritime;Elomba
+0;11.7055,1.2061;GA-09;Woleu-Ntem;Ellem
+0;10.9833,0.9000;GA-09;Woleu-Ntem;Ellélem
+0;13.7833,0.9500;GA-06;Ogooué-Ivindo;Elléla
+0;8.9667,-0.7333;GA-08;Ogooué-Maritime;Eliva
+0;12.4466,0.8197;GA-06;Ogooué-Ivindo;Elibéré
+0;10.6667,0.4667;GA-01;Estuaire;Elelem
+0;10.6167,0.0167;GA-03;Moyen-Ogooué;Elelem
+0;13.7167,-0.2667;GA-02;Haut-Ogooué;Eleko
+0;13.4667,-1.4833;GA-02;Haut-Ogooué;Elébé
+0;12.1995,0.3415;GA-06;Ogooué-Ivindo;Elata Bakota
+0;12.1333,2.1667;GA-09;Woleu-Ntem;Élarmitang
+0;11.4624,0.4820;GA-09;Woleu-Ntem;Elarmilon
+0;12.6861,0.6109;GA-06;Ogooué-Ivindo;Elanh-Bemvoum
+0;9.6167,0.3500;GA-01;Estuaire;Elane
+0;14.0594,-1.7960;GA-02;Haut-Ogooué;Ekwy
+0;12.8012,0.5723;GA-06;Ogooué-Ivindo;Ekowong
+0;13.6962,-1.3095;GA-02;Haut-Ogooué;Ekoungou
+0;11.4000,1.4167;GA-09;Woleu-Ntem;Ekoumevong
+0;9.8500,0.3167;GA-01;Estuaire;Ekoum-Ebel
+0;13.0000,0.6333;GA-06;Ogooué-Ivindo;Ekoumaniambi
+0;11.5561,1.9804;GA-09;Woleu-Ntem;Ekoui
+0;11.6709,1.2314;GA-09;Woleu-Ntem;Ekouass
+0;13.0441,1.0635;GA-06;Ogooué-Ivindo;Ekoua
+0;10.5183,-0.2413;GA-03;Moyen-Ogooué;Ekorodo
+0;11.6500,2.1333;GA-09;Woleu-Ntem;Ekorékié
+0;10.1642,-0.6660;GA-03;Moyen-Ogooué;Ékorédo
+0;11.3667,2.0333;GA-09;Woleu-Ntem;Ekoniédoumé
+0;11.4523,1.7419;GA-09;Woleu-Ntem;Ekong
+0;14.0894,1.3455;GA-06;Ogooué-Ivindo;Ekok
+0;11.5031,2.0554;GA-09;Woleu-Ntem;Ekohong
+0;9.9424,0.9218;GA-01;Estuaire;Ekododo
+0;11.7333,-1.0667;GA-04;Ngouni;Ekika
+0;9.1405,-0.7332;GA-08;Ogooué-Maritime;Ekwa
+0;11.0846,-1.2254;GA-04;Ngouni;Ekéngue
+0;11.7833,-1.5167;GA-04;Ngouni;Ekeka
+0;13.8215,-1.0224;GA-02;Haut-Ogooué;Ekaye
+0;14.3104,0.6835;GA-06;Ogooué-Ivindo;Ekata
+0;11.8902,0.2145;GA-06;Ogooué-Ivindo;Ekarélong
+0;11.4903,0.5909;GA-09;Woleu-Ntem;Ekarelon
+0;11.6000,0.6833;GA-09;Woleu-Ntem;Ekan
+0;14.0280,-1.4495;GA-02;Haut-Ogooué;Ekalla
+0;13.6468,-0.6904;GA-02;Haut-Ogooué;Ékala
+0;11.4829,2.2552;GA-09;Woleu-Ntem;Ehong
+0;11.4833,2.2500;GA-09;Woleu-Ntem;Ehong
+0;13.6517,0.8749;GA-06;Ogooué-Ivindo;Ehanzo
+0;11.4385,-1.8363;GA-04;Ngouni;Egoumbi
+0;14.1237,1.2497;GA-06;Ogooué-Ivindo;Ego
+0;10.9060,-1.5641;GA-04;Ngouni;Egnounga
+0;11.2500,-1.8833;GA-04;Ngouni;Egmounga
+0;11.6667,2.0333;GA-09;Woleu-Ntem;Efoulane
+0;10.7601,1.0019;GA-09;Woleu-Ntem;Efoulana
+0;10.9018,1.0062;GA-09;Woleu-Ntem;Efot
+0;14.1000,1.3000;GA-06;Ogooué-Ivindo;Effandé
+0;10.4667,-0.3833;GA-03;Moyen-Ogooué;Edzedzen II
+0;12.7333,0.6000;GA-06;Ogooué-Ivindo;Edzamangen
+0;11.5068,0.8055;GA-09;Woleu-Ntem;Edoung Alangha
+0;11.6510,2.1280;GA-09;Woleu-Ntem;Edoumé
+0;11.6667,2.1333;GA-09;Woleu-Ntem;Edoumé
+0;10.6482,0.9447;GA-09;Woleu-Ntem;Edoumé
+0;9.4333,0.4500;GA-01;Estuaire;Edouangani II
+0;9.4167,0.4667;GA-01;Estuaire;Edouangani I
+0;12.8833,0.5667;GA-06;Ogooué-Ivindo;Edok
+0;11.9152,0.2094;GA-06;Ogooué-Ivindo;Edabour
+0;11.8870,2.2014;GA-09;Woleu-Ntem;Eda
+0;11.5500,1.6500;GA-09;Woleu-Ntem;Econe
+0;11.5379,1.6303;GA-09;Woleu-Ntem;Econe
+0;9.4085,-0.9746;GA-08;Ogooué-Maritime;Echira
+0;12.7184,0.5959;GA-06;Ogooué-Ivindo;Ebyegn
+0;10.7167,0.9333;GA-09;Woleu-Ntem;Ebsame II
+0;11.4000,0.7167;GA-09;Woleu-Ntem;Ebounfaga
+0;11.4829,-1.2350;GA-04;Ngouni;Eboundji
+0;11.3667,1.8000;GA-09;Woleu-Ntem;Ebot
+0;11.4512,2.2864;GA-09;Woleu-Ntem;Eboro
+0;13.6000,-1.5667;GA-02;Haut-Ogooué;Ebori
+0;11.5167,0.7000;GA-09;Woleu-Ntem;Ebor
+0;11.3042,0.9017;GA-09;Woleu-Ntem;Ebon
+0;12.0667,2.1667;GA-09;Woleu-Ntem;Éboman
+0;13.9000,0.7167;GA-06;Ogooué-Ivindo;Ebolahon
+0;11.9780,1.5891;GA-09;Woleu-Ntem;Ebobogo
+0;11.9333,1.5833;GA-09;Woleu-Ntem;Ebobogo
+0;11.5070,1.5267;GA-09;Woleu-Ntem;Ebiani
+0;11.6706,1.0404;GA-09;Woleu-Ntem;Ebiane
+0;10.6667,0.5667;GA-01;Estuaire;Ebiane
+0;11.5691,1.8077;GA-09;Woleu-Ntem;Ebengone
+0;11.5667,1.8167;GA-09;Woleu-Ntem;Ebengone
+0;11.6833,2.2167;GA-09;Woleu-Ntem;Ebengon
+0;11.5667,0.6667;GA-09;Woleu-Ntem;Ebéneyong II
+0;11.6167,0.6500;GA-09;Woleu-Ntem;Ebéneyong I
+0;10.4815,-0.2762;GA-03;Moyen-Ogooué;Ébel Abanga
+0;11.1055,0.1205;GA-03;Moyen-Ogooué;Ebél
+0;11.5971,1.4657;GA-09;Woleu-Ntem;Ebeigne
+0;11.4841,1.1620;GA-09;Woleu-Ntem;Ebeï
+0;9.6948,0.7917;GA-01;Estuaire;Ebégnakok
+0;12.5333,0.5500;GA-06;Ogooué-Ivindo;Ebea-Akork
+0;10.5667,-0.2167;GA-03;Moyen-Ogooué;Ebéa
+0;11.6667,1.0167;GA-09;Woleu-Ntem;Ebea
+0;11.4000,0.7333;GA-09;Woleu-Ntem;Ebea
+0;10.0167,0.2833;GA-01;Estuaire;Ebé
+0;11.6863,0.3082;GA-06;Ogooué-Ivindo;Ebaredo
+0;11.6775,2.2345;GA-09;Woleu-Ntem;Ebango
+0;12.0667,2.1833;GA-09;Woleu-Ntem;Ébang
+0;11.4193,2.1364;GA-09;Woleu-Ntem;Ebang
+0;11.4167,2.1167;GA-09;Woleu-Ntem;Ebang
+0;11.5833,-1.5833;GA-04;Ngouni;Ebando
+0;13.0028,1.0273;GA-06;Ogooué-Ivindo;Ebandaga
+0;12.9667,0.6000;GA-06;Ogooué-Ivindo;Ebandaga
+0;12.4833,0.5500;GA-06;Ogooué-Ivindo;Ebandaga
+0;10.4667,0.3500;GA-01;Estuaire;Ebamou
+0;9.7500,0.5000;GA-01;Estuaire;Ebamayong
+0;9.7333,0.3667;GA-01;Estuaire;Ebamayong
+0;9.7167,0.3667;GA-01;Estuaire;Ebamayong
+0;10.6000,0.1333;GA-01;Estuaire;Dzoguengone
+0;9.8333,0.2333;GA-01;Estuaire;Dzibé
+0;11.6144,1.6329;GA-09;Woleu-Ntem;Dzamossi
+0;10.0333,-0.9667;GA-03;Moyen-Ogooué;Dyelessi
+0;11.7389,-1.5167;GA-04;Ngouni;Dyanga
+0;11.9167,-0.0333;GA-06;Ogooué-Ivindo;Duradzoma
+0;10.1500,0.2000;GA-01;Estuaire;Duma
+0;11.8772,-1.0314;GA-07;Ogooué-Lolo;Dubendji
+0;11.1232,-3.0145;GA-05;Nyanga;Dovoyi
+0;11.5667,-2.7667;GA-05;Nyanga;Douzanza
+0;11.1667,-2.6833;GA-05;Nyanga;Doussoundzi
+0;11.6277,-2.6440;GA-04;Ngouni;Doussala
+0;12.0000,0.0500;GA-06;Ogooué-Ivindo;Douradzum
+0;10.7449,-3.3563;GA-05;Nyanga;Dounvou
+0;11.5000,-2.7000;GA-05;Nyanga;Dounguila
+0;13.4667,0.8167;GA-06;Ogooué-Ivindo;Doungounéné
+0;10.4333,-2.7761;GA-05;Nyanga;Doungou
+0;12.9630,-0.8464;GA-07;Ogooué-Lolo;Doumé
+0;12.3577,-1.2312;GA-07;Ogooué-Lolo;Doumboukombi
+0;12.4167,-1.2167;GA-07;Ogooué-Lolo;Doumatsengué
+0;11.5000,2.2500;GA-09;Woleu-Ntem;Doumassi
+0;11.0833,0.6333;GA-09;Woleu-Ntem;Doumanzo
+0;11.1343,0.9499;GA-09;Woleu-Ntem;Doumandzou
+0;12.9333,-0.0333;GA-07;Ogooué-Lolo;Doumamango
+0;13.5976,-2.2729;GA-02;Haut-Ogooué;Doumaï
+0;13.5779,-2.2454;GA-02;Haut-Ogooué;Doumai
+0;13.1713,-1.5737;GA-02;Haut-Ogooué;Doumaï
+0;11.5068,0.8269;GA-09;Woleu-Ntem;Doum
+0;11.6405,-3.2930;GA-05;Nyanga;Douli
+0;11.1500,-2.9000;GA-05;Nyanga;Doukoumou
+0;11.0667,-2.3000;GA-05;Nyanga;Doukendema
+0;11.8333,-2.9167;GA-05;Nyanga;Doukanga
+0;11.3333,-2.5833;GA-05;Nyanga;Doukanga
+0;11.1833,-2.1333;GA-04;Ngouni;Doukanga
+0;11.0167,-2.9167;GA-05;Nyanga;Doukaki
+0;10.7547,-3.1833;GA-05;Nyanga;Douigny
+0;10.4881,-2.9314;GA-05;Nyanga;Dougou Mamba
+0;10.9320,-2.1217;GA-04;Ngouni;Dougayi
+0;10.9642,-2.7248;GA-05;Nyanga;Dougandou II
+0;10.9705,-2.7327;GA-05;Nyanga;Dougandou I
+0;11.7198,-3.1323;GA-05;Nyanga;Dougalou
+0;11.0225,-2.3988;GA-05;Nyanga;Doufouma
+0;10.5333,-3.2167;GA-05;Nyanga;Douboumo
+0;11.0500,-2.8167;GA-05;Nyanga;Doubogno
+0;11.7500,-1.6500;GA-04;Ngouni;Doubi
+0;11.0667,-1.8833;GA-04;Ngouni;Doubani
+0;10.9000,-1.9667;GA-04;Ngouni;Doubambi
+0;10.8466,-2.7509;GA-05;Nyanga;Doubagni
+0;11.4667,-2.2667;GA-04;Ngouni;Doubagni
+0;10.0252,0.3023;GA-01;Estuaire;Ndouaniang
+0;10.3833,-3.0000;GA-05;Nyanga;Douanga
+0;11.4147,1.4091;GA-09;Woleu-Ntem;Doua
+0;9.7492,0.2074;GA-01;Estuaire;Donguila
+0;11.0500,-1.2000;GA-04;Ngouni;Dondo I
+0;11.5500,-1.4667;GA-04;Ngouni;Dondo
+0;11.9240,-0.9985;GA-07;Ogooué-Lolo;Domassi
+0;11.7348,-0.0974;GA-06;Ogooué-Ivindo;Dolle
+0;10.6000,-3.0833;GA-05;Nyanga;Dola
+0;11.5737,2.2802;GA-09;Woleu-Ntem;Doan
+0;13.2968,-1.6758;GA-02;Haut-Ogooué;Djoutou
+0;12.1500,2.1333;GA-09;Woleu-Ntem;Djoum II
+0;12.0621,2.2771;GA-09;Woleu-Ntem;Djoum
+0;13.5833,-1.7500;GA-02;Haut-Ogooué;Djoukou
+0;12.5167,-1.5167;GA-07;Ogooué-Lolo;Djongo II
+0;12.5000,-1.5833;GA-07;Ogooué-Lolo;Djongo
+0;12.7333,-0.8833;GA-07;Ogooué-Lolo;Djondi
+0;14.0108,0.9110;GA-06;Ogooué-Ivindo;Djokossana
+0;13.2107,-1.5266;GA-02;Haut-Ogooué;Djokoroundja
+0;12.2833,-1.0500;GA-07;Ogooué-Lolo;Djokonamoyo
+0;12.3000,-0.2833;GA-06;Ogooué-Ivindo;Djokonamoi
+0;14.0667,0.7333;GA-06;Ogooué-Ivindo;Djokoloudja II
+0;14.0500,0.7500;GA-06;Ogooué-Ivindo;Djokoloudja I
+0;12.7167,-0.8167;GA-07;Ogooué-Lolo;Djokala
+0;10.1667,0.1667;GA-01;Estuaire;Djogeboat
+0;12.7500,-0.7833;GA-07;Ogooué-Lolo;Djoconamoye
+0;13.7000,-1.7000;GA-02;Haut-Ogooué;Djoakaye II
+0;13.7205,-1.7340;GA-02;Haut-Ogooué;Djoakaye I
+0;12.9646,-1.6797;GA-02;Haut-Ogooué;Djima
+0;13.1500,-1.3667;GA-02;Haut-Ogooué;Djiba II
+0;13.1500,-1.3500;GA-02;Haut-Ogooué;Djiba I
+0;13.1500,-1.3333;GA-02;Haut-Ogooué;Djiba
+0;10.3554,-2.9371;GA-05;Nyanga;Djema
+0;13.5833,0.8500;GA-06;Ogooué-Ivindo;Djassone
+0;11.4500,-2.8833;GA-05;Nyanga;Djaouri
+0;13.0900,-1.6903;GA-02;Haut-Ogooué;Djangatébé
+0;13.6667,-1.5667;GA-02;Haut-Ogooué;Djamiti
+0;14.0239,0.8875;GA-06;Ogooué-Ivindo;Djabéta
+0;10.9795,-2.6184;GA-05;Nyanga;Divoko
+0;10.1044,-2.0670;GA-08;Ogooué-Maritime;Divinou
+0;11.4317,-1.1532;GA-04;Ngouni;Divindé
+0;11.9104,-1.3026;GA-07;Ogooué-Lolo;Divinda
+0;11.7167,-1.1000;GA-04;Ngouni;Divinda
+0;10.9342,-2.4927;GA-05;Nyanga;Divina
+0;11.1667,-2.5667;GA-05;Nyanga;Diveya
+0;11.7833,-2.9833;GA-05;Nyanga;Divévi
+0;11.2833,-2.2333;GA-04;Ngouni;Divévi
+0;11.8167,-1.6500;GA-04;Ngouni;Divélo
+0;11.1500,-2.7167;GA-05;Nyanga;Divangui
+0;9.9937,-1.9425;GA-08;Ogooué-Maritime;Divangui
+0;10.5767,-1.1711;GA-04;Ngouni;Divangui
+0;10.7779,-1.7039;GA-04;Ngouni;Ditounga
+0;10.6838,-3.2709;GA-05;Nyanga;Ditoumba Nzambi
+0;11.6667,-1.8500;GA-04;Ngouni;Ditadi
+0;11.0833,-2.3167;GA-05;Nyanga;Dissiala
+0;10.8333,-1.9833;GA-04;Ngouni;Dissengui
+0;10.8497,-2.0218;GA-04;Ngouni;Dissegui
+0;10.7500,-1.1500;GA-04;Ngouni;Dissango
+0;10.6338,-2.3230;GA-05;Nyanga;Dissala
+0;10.4851,-2.8820;GA-05;Nyanga;Disofou
+0;11.7667,-1.6807;GA-04;Ngouni;Dirembo
+0;11.9333,-1.4500;GA-04;Ngouni;Dipouya
+0;10.9000,-1.6333;GA-04;Ngouni;Diombi
+0;10.8833,-1.6000;GA-04;Ngouni;Diombi
+0;11.4678,-2.4274;GA-04;Ngouni;Diolo
+0;11.1256,-2.6548;GA-05;Nyanga;Dinguilila
+0;11.8500,-1.2000;GA-07;Ogooué-Lolo;Dingui
+0;12.8500,-0.9833;GA-07;Ogooué-Lolo;Dingui
+0;11.8333,-0.9167;GA-07;Ogooué-Lolo;Dingui
+0;10.3333,-0.6000;GA-03;Moyen-Ogooué;Dingui
+0;11.0000,-1.9333;GA-04;Ngouni;Dimina
+0;11.8667,-1.4833;GA-04;Ngouni;Dimbou
+0;11.9667,-1.0833;GA-07;Ogooué-Lolo;Dimbou
+0;10.1667,-1.5500;GA-04;Ngouni;Dimbougui
+0;11.6167,-2.2333;GA-04;Ngouni;Dimba
+0;11.6167,-2.0333;GA-04;Ngouni;Dilolo
+0;10.4158,-2.7600;GA-05;Nyanga;Diliénga
+0;10.8347,-3.0574;GA-05;Nyanga;Dilemba
+0;12.0420,-1.4237;GA-07;Ogooué-Lolo;Dilanda
+0;11.1167,-1.9500;GA-04;Ngouni;Dilalou
+0;9.8902,-1.6199;GA-08;Ogooué-Maritime;Dilalou
+0;11.0500,-2.2667;GA-05;Nyanga;Dikouta
+0;11.1466,-3.0457;GA-05;Nyanga;Dikoundou
+0;11.2000,-3.0000;GA-05;Nyanga;Dikoundou
+0;11.1833,-2.6667;GA-05;Nyanga;Dikoulou Dimossi
+0;11.6333,-1.6500;GA-04;Ngouni;Dikouka
+0;11.0333,-1.4000;GA-04;Ngouni;Dikouka
+0;11.6333,-1.2000;GA-04;Ngouni;Dikouka
+0;11.1833,-1.9000;GA-04;Ngouni;Dikoka
+0;11.6000,-2.8500;GA-05;Nyanga;Dikassa I
+0;10.1000,-1.5833;GA-04;Ngouni;Diguela
+0;10.6317,-2.8558;GA-05;Nyanga;Digoungou
+0;11.8833,-1.6333;GA-04;Ngouni;Digoumbi
+0;10.5824,-2.9893;GA-05;Nyanga;Digongo
+0;11.0833,-2.8667;GA-05;Nyanga;Digondji
+0;10.3773,-2.7681;GA-05;Nyanga;Digoba
+0;10.5727,-1.4621;GA-04;Ngouni;Dignïétoumba
+0;10.9440,-2.5788;GA-05;Nyanga;Digayi
+0;11.7833,-1.8667;GA-04;Ngouni;Digambo
+0;11.2500,-2.0000;GA-04;Ngouni;Digaba
+0;10.8370,-3.0375;GA-05;Nyanga;Difounda
+0;13.9652,-1.4907;GA-02;Haut-Ogooué;Diéré
+0;12.1167,-1.9167;GA-04;Ngouni;Diengué
+0;12.6756,-1.8496;GA-07;Ogooué-Lolo;Dienga
+0;10.1469,-2.3705;GA-08;Ogooué-Maritime;Diéla Vievi
+0;10.5000,-1.5667;GA-04;Ngouni;Diékoké
+0;10.2431,-0.9928;GA-03;Moyen-Ogooué;Diboussou
+0;11.6167,-2.2500;GA-04;Ngouni;Diboundi
+0;11.4667,-2.2333;GA-04;Ngouni;Diboundi
+0;11.7667,-1.4333;GA-04;Ngouni;Diboundi
+0;10.9366,-2.6910;GA-05;Nyanga;Diboumba
+0;11.4500,-2.3000;GA-04;Ngouni;Diboumba
+0;12.2154,-1.3173;GA-07;Ogooué-Lolo;Dibouka
+0;10.5319,-2.9230;GA-05;Nyanga;Diboufou
+0;11.4167,-2.7167;GA-05;Nyanga;Diboueta
+0;12.0833,-1.5333;GA-07;Ogooué-Lolo;Dibouengui
+0;9.9309,-1.3165;GA-08;Ogooué-Maritime;Dibouatinafala
+0;11.5764,-2.1051;GA-04;Ngouni;Dibouangui
+0;11.9500,-1.6667;GA-04;Ngouni;Dibouangni
+0;9.9646,-1.6105;GA-04;Ngouni;Dibotinéfata
+0;10.6833,-1.5333;GA-04;Ngouni;Dibimba
+0;13.0814,-0.9667;GA-07;Ogooué-Lolo;Dibangama
+0;11.7341,-1.5949;GA-04;Ngouni;Dibandi
+0;11.7333,-1.2500;GA-04;Ngouni;Dibandi
+0;11.7835,-1.5102;GA-04;Ngouni;Dibamba
+0;11.8500,-1.5000;GA-04;Ngouni;Dibamba
+0;11.6833,-1.1333;GA-04;Ngouni;Dibamba
+0;11.9167,-1.5333;GA-04;Ngouni;Dibagni
+0;12.4544,-2.3082;GA-04;Ngouni;Dianza
+0;10.3963,-1.6610;GA-04;Ngouni;Diangui
+0;11.6000,-1.9667;GA-04;Ngouni;Dianga
+0;9.8393,-1.7257;GA-08;Ogooué-Maritime;Diamongo
+0;9.9680,-1.5065;GA-08;Ogooué-Maritime;Diabéta
+0;9.2000,-1.2833;GA-08;Ogooué-Maritime;Diaba
+0;9.7833,-0.6667;GA-03;Moyen-Ogooué;Dessima
+0;9.3653,0.3291;GA-01;Estuaire;Denis
+0;11.1488,-3.7723;GA-05;Nyanga;Dendé
+0;10.6029,-3.2802;GA-05;Nyanga;Dendé
+0;12.9091,-0.7768;GA-07;Ogooué-Lolo;Dekabalandji
+0;10.8609,-2.1391;GA-04;Ngouni;Deguéri
+0;10.7609,-1.6975;GA-04;Ngouni;Dégueli
+0;12.5167,0.5500;GA-06;Ogooué-Ivindo;Debiang
+0;10.9167,-1.7000;GA-04;Ngouni;Dangui
+0;10.0582,0.2804;GA-01;Estuaire;Dameu
+0;12.5333,-0.7833;GA-07;Ogooué-Lolo;Dambo
+0;13.2091,-0.7658;GA-07;Ogooué-Lolo;Dambi
+0;10.0131,-1.1367;GA-03;Moyen-Ogooué;Dakar
+0;10.2167,-0.7000;GA-03;Moyen-Ogooué;Dakar
+0;9.7386,-0.7061;GA-03;Moyen-Ogooué;Dakar
+0;11.8500,-1.6667;GA-04;Ngouni;Cougny
+0;11.6167,-2.0500;GA-04;Ngouni;Cougni
+0;9.5333,0.2667;GA-01;Estuaire;Coniquet
+0;9.5167,0.3000;GA-01;Estuaire;Conicoué
+0;9.4500,-1.6500;GA-08;Ogooué-Maritime;Condafala
+0;12.8333,-0.8333;GA-07;Ogooué-Lolo;Commanda
+0;13.2366,-1.5415;GA-02;Haut-Ogooué;Comilog
+0;12.1333,-1.4167;GA-07;Ogooué-Lolo;Comi
+0;11.3000,-1.2667;GA-04;Ngouni;Comi
+0;11.8292,-0.9611;GA-07;Ogooué-Lolo;Comi
+0;12.8500,-0.8333;GA-07;Ogooué-Lolo;Comi
+0;13.5833,0.1167;GA-06;Ogooué-Ivindo;Cocomacala
+0;13.7667,0.9500;GA-06;Ogooué-Ivindo;Cocofili
+3114;9.5823,1.0002;GA-01;Estuaire;Cocobeach
+0;9.8833,-0.8333;GA-03;Moyen-Ogooué;Clainbanégo
+0;9.8094,0.0149;GA-01;Estuaire;Chinchoua
+0;11.5000,-2.9167;GA-05;Nyanga;Caye
+0;11.7500,-1.2667;GA-04;Ngouni;Canda
+0;12.6333,-0.7167;GA-07;Ogooué-Lolo;Campement Bakiesso
+0;11.5000,-1.5167;GA-04;Ngouni;Camp de Obaka
+0;11.6000,-1.4667;GA-04;Ngouni;Camp de Mouramda
+0;11.6833,-1.3833;GA-04;Ngouni;Camp de Moumba
+0;11.4833,-1.5000;GA-04;Ngouni;Camp de Ekoua
+0;11.6016,-1.3889;GA-04;Ngouni;Camp de Doungo
+0;11.7333,-1.4167;GA-04;Ngouni;Camp de Banga
+0;10.5500,-1.5333;GA-04;Ngouni;Cameroun
+0;12.1111,-1.9092;GA-04;Ngouni;Camba Mongo
+0;10.5500,-0.3000;GA-03;Moyen-Ogooué;Byéné
+0;11.5145,1.7761;GA-09;Woleu-Ntem;Byemane
+0;11.4833,1.7667;GA-09;Woleu-Ntem;Byemane
+0;9.9833,0.1667;GA-01;Estuaire;Bumba
+0;11.4167,0.7500;GA-09;Woleu-Ntem;Buey
+0;12.2167,-1.4000;GA-07;Ogooué-Lolo;Bouyangoula
+0;11.2333,-2.6167;GA-05;Nyanga;Bouyanga
+0;12.2000,-1.0333;GA-07;Ogooué-Lolo;Bouvinga
+0;11.5000,-2.0833;GA-04;Ngouni;Boutombi
+0;11.9638,-1.4473;GA-04;Ngouni;Boutombi
+0;11.2500,-1.0833;GA-04;Ngouni;Boutijobo
+0;9.6630,1.0566;GA-01;Estuaire;Boutica
+0;12.5333,-0.7667;GA-07;Ogooué-Lolo;Boutemba
+0;12.9544,-0.8506;GA-07;Ogooué-Lolo;Boutala
+0;12.6167,-1.2333;GA-07;Ogooué-Lolo;Boussouniabamba
+0;11.0833,-1.2333;GA-04;Ngouni;Boussouka
+0;12.5833,-1.1833;GA-07;Ogooué-Lolo;Boussoka
+0;12.1326,-1.3711;GA-07;Ogooué-Lolo;Boussimbi
+0;12.4167,-0.5500;GA-07;Ogooué-Lolo;Boussa
+0;11.5500,-2.2000;GA-04;Ngouni;Bouroumba
+0;11.9089,-1.2845;GA-07;Ogooué-Lolo;Boupounza
+0;12.9190,-1.1237;GA-07;Ogooué-Lolo;Bounzoukou
+0;10.4881,-1.5061;GA-04;Ngouni;Boungounga
+0;11.7333,-2.1667;GA-04;Ngouni;Boungoumana
+0;11.1167,-2.7500;GA-05;Nyanga;Boungou Bouliba
+0;11.8000,-2.0167;GA-04;Ngouni;Boungou
+0;10.5333,-1.8500;GA-04;Ngouni;Boungou
+0;12.5167,-1.8167;GA-07;Ogooué-Lolo;Boungou
+0;11.4611,-2.2387;GA-04;Ngouni;Boungolo
+0;13.5667,0.8500;GA-06;Ogooué-Ivindo;Boungaloundou
+0;11.3000,-2.8500;GA-05;Nyanga;Bouneni
+0;11.9667,-1.6500;GA-04;Ngouni;Boundzoukou
+0;12.3797,-1.4179;GA-07;Ogooué-Lolo;Boundji
+0;12.5774,-0.8001;GA-07;Ogooué-Lolo;Boundji
+0;11.8636,-0.9937;GA-07;Ogooué-Lolo;Boundgi
+0;13.0198,0.6801;GA-06;Ogooué-Ivindo;Bounbinda
+0;12.1119,-2.3033;GA-04;Ngouni;Boumi
+0;13.4833,0.8333;GA-06;Ogooué-Ivindo;Boumbazokou II
+0;13.4500,0.8000;GA-06;Ogooué-Ivindo;Boumbazokou
+0;12.3833,-0.3667;GA-06;Ogooué-Ivindo;Boumbakari
+1316;13.6143,-2.2268;GA-02;Haut-Ogooué;Boumango
+0;13.5000,-1.5500;GA-02;Haut-Ogooué;Bouma-Makaya
+0;12.4423,-2.3553;GA-04;Ngouni;Boumaga
+0;13.0318,-0.9181;GA-07;Ogooué-Lolo;Boumabango
+0;10.2333,0.2167;GA-01;Estuaire;Bouma
+0;11.8000,-1.9167;GA-04;Ngouni;Bouloulou
+0;11.8000,-2.2333;GA-04;Ngouni;Bouloula
+0;10.1833,-1.5167;GA-04;Ngouni;Boulongo-Bouangani
+0;12.0000,-1.4333;GA-04;Ngouni;Boulembo
+0;10.8881,-2.6187;GA-05;Nyanga;Boulembi
+0;13.1333,-1.0833;GA-07;Ogooué-Lolo;Boulemba
+0;11.9167,-2.3000;GA-04;Ngouni;Boulamboula
+0;11.9000,-2.2500;GA-04;Ngouni;Boulamba
+0;10.2167,-1.4167;GA-04;Ngouni;Boukou
+0;11.0208,-3.7671;GA-05;Nyanga;Boukena Boumounou
+0;11.5167,-2.1667;GA-04;Ngouni;Boukandi
+0;11.4272,-3.2075;GA-05;Nyanga;Boukagni
+0;13.6000,-1.6833;GA-02;Haut-Ogooué;Bouimi
+0;11.1833,-2.1167;GA-04;Ngouni;Bouhoulou
+0;10.7573,-2.4680;GA-05;Nyanga;Bougoulou
+0;11.2058,-3.7504;GA-05;Nyanga;Bouggou
+0;12.5715,-1.4086;GA-07;Ogooué-Lolo;Boueka
+0;13.0167,-0.7167;GA-07;Ogooué-Lolo;Boudzoumba
+0;12.7832,-0.8071;GA-07;Ogooué-Lolo;Boudoumbou
+0;12.1500,-1.1833;GA-07;Ogooué-Lolo;Boudouga
+0;11.6242,-3.0861;GA-05;Nyanga;Boudiombi
+0;11.6167,-2.0167;GA-04;Ngouni;Boudianguila
+0;12.0014,-1.0070;GA-07;Ogooué-Lolo;Boudéla
+0;10.3161,-2.8268;GA-05;Nyanga;Bouda
+0;10.6500,-1.9167;GA-04;Ngouni;Boucanga
+0;12.9000,-1.3667;GA-07;Ogooué-Lolo;Boucama
+0;11.8167,-1.9833;GA-04;Ngouni;Bouboulou
+0;11.9833,-1.6500;GA-04;Ngouni;Bouatou
+0;11.8167,-1.5167;GA-04;Ngouni;Bouali
+0;10.1205,-0.7501;GA-03;Moyen-Ogooué;Boualé
+0;13.9026,-0.8238;GA-02;Haut-Ogooué;Bouala
+0;10.5099,-1.5047;GA-04;Ngouni;Bordou
+0;13.6274,-1.6696;GA-02;Haut-Ogooué;Bordeaux
+0;10.1836,-0.8284;GA-03;Moyen-Ogooué;Bordeaux
+7259;11.9385,-0.0921;GA-06;Ogooué-Ivindo;Booué
+0;12.0500,2.0667;GA-09;Woleu-Ntem;Bonneville
+0;10.0000,-0.5833;GA-03;Moyen-Ogooué;Bonneville
+0;13.2958,-1.2176;GA-02;Haut-Ogooué;Bongo-Badouma
+0;10.2063,-2.1652;GA-08;Ogooué-Maritime;Bongo
+0;13.4333,-1.6500;GA-02;Haut-Ogooué;Bongo
+0;10.0097,-0.8685;GA-03;Moyen-Ogooué;Bongo
+0;13.5500,-0.8000;GA-02;Haut-Ogooué;Bomo Komo II
+0;13.6167,-0.7833;GA-02;Haut-Ogooué;Bomo Komo I
+0;13.3464,-1.6705;GA-02;Haut-Ogooué;Boma
+0;13.5729,-1.5712;GA-02;Haut-Ogooué;Boma
+0;12.0544,-2.3242;GA-04;Ngouni;Bolobilembé
+0;9.7667,0.1833;GA-01;Estuaire;Bolendjo
+0;12.2279,0.9487;GA-06;Ogooué-Ivindo;Boléko
+0;11.7081,-0.0824;GA-06;Ogooué-Ivindo;Boléko
+0;12.2000,-1.9167;GA-04;Ngouni;Bola-Pessou
+0;12.4657,-1.1595;GA-07;Ogooué-Lolo;Bola Pessou
+0;10.1645,-2.6241;GA-08;Ogooué-Maritime;Bokolo
+0;13.6500,0.8667;GA-06;Ogooué-Ivindo;Bokaboka
+0;9.4333,-1.7167;GA-08;Ogooué-Maritime;Boka
+0;9.7000,0.7500;GA-01;Estuaire;Bogotang
+0;9.6000,1.0000;GA-01;Estuaire;Bogofala
+0;11.6500,0.5500;GA-09;Woleu-Ntem;Bogno Beazini
+0;10.2000,-1.5000;GA-04;Ngouni;Boali
+0;9.5500,0.3833;GA-01;Estuaire;Bizango-Bibéré
+0;11.5428,2.2631;GA-09;Woleu-Ntem;Bizang
+0;11.0861,0.9689;GA-09;Woleu-Ntem;Biyenè
+0;11.6423,1.8674;GA-09;Woleu-Ntem;Biyen
+0;11.5500,0.9167;GA-09;Woleu-Ntem;Biyemane
+0;12.1833,-1.1667;GA-07;Ogooué-Lolo;Bivindé
+0;11.5167,1.7167;GA-09;Woleu-Ntem;Bivène IV
+0;11.5167,1.7167;GA-09;Woleu-Ntem;Bivène III
+0;11.5167,1.7333;GA-09;Woleu-Ntem;Bivène II
+0;11.5200,1.7246;GA-09;Woleu-Ntem;Bivène I
+0;9.5333,0.0000;GA-01;Estuaire;Bivebinzogh
+0;11.1333,-2.8833;GA-05;Nyanga;Bivanga
+0;12.6333,-1.8167;GA-07;Ogooué-Lolo;Bittolo
+0;12.7707,-1.5900;GA-07;Ogooué-Lolo;Bitsambanga
+0;12.0500,2.1333;GA-09;Woleu-Ntem;Bitouga
+0;13.6179,-1.7335;GA-02;Haut-Ogooué;Bitono
+0;13.5833,-1.7167;GA-02;Haut-Ogooué;Bitono
+0;11.6333,0.7167;GA-09;Woleu-Ntem;Bitom
+33561;11.5007,2.0760;GA-09;Woleu-Ntem;Bitam
+0;10.5333,-0.2667;GA-03;Moyen-Ogooué;Bissoubinlam
+0;10.3667,-0.6167;GA-03;Moyen-Ogooué;Bissoubilam
+0;11.9094,-0.0158;GA-06;Ogooué-Ivindo;Bissoubilam
+0;11.1333,0.5667;GA-09;Woleu-Ntem;Bissominam
+0;11.5538,1.2588;GA-09;Woleu-Ntem;Bissok II
+0;11.5626,1.2583;GA-09;Woleu-Ntem;Bissok I
+0;9.6014,0.3959;GA-01;Estuaire;Bissobinam
+0;9.7500,0.3667;GA-01;Estuaire;Bissobiname
+0;9.5813,0.9425;GA-01;Estuaire;Bissobinam
+0;11.5794,0.8043;GA-09;Woleu-Ntem;Bissobinam
+0;11.4333,0.7833;GA-09;Woleu-Ntem;Bissobinam
+0;9.6367,0.6911;GA-01;Estuaire;Bissobinam
+0;10.5663,0.4640;GA-01;Estuaire;Bissobinam
+0;10.3167,0.2500;GA-01;Estuaire;Bissobinam
+0;10.6833,0.1333;GA-03;Moyen-Ogooué;Bissobinam
+0;12.4417,0.4919;GA-06;Ogooué-Ivindo;Bissobilan
+0;11.9682,1.9649;GA-09;Woleu-Ntem;Bissobilam
+0;9.9667,-0.6000;GA-03;Moyen-Ogooué;Bissobilam
+0;10.5167,-0.3167;GA-03;Moyen-Ogooué;Bissobilam
+0;9.8333,0.2833;GA-01;Estuaire;Bissobilam
+0;11.0500,0.0500;GA-03;Moyen-Ogooué;Bissobilam
+0;12.2667,-1.7000;GA-07;Ogooué-Lolo;Bissiba
+0;13.5500,-1.6667;GA-02;Haut-Ogooué;Bissassa
+0;11.0500,0.6500;GA-09;Woleu-Ntem;Bissaninane
+0;11.1167,0.6000;GA-09;Woleu-Ntem;Bissam
+0;12.1167,2.1500;GA-09;Woleu-Ntem;Bisono
+0;12.0833,2.2667;GA-09;Woleu-Ntem;Bisobilam
+0;11.0500,-2.4333;GA-05;Nyanga;Birouki
+0;10.8733,-2.6047;GA-05;Nyanga;Birenki
+0;10.7833,-1.1333;GA-04;Ngouni;Biogou
+0;12.3060,0.4248;GA-06;Ogooué-Ivindo;Binong
+0;12.0333,2.0667;GA-09;Woleu-Ntem;Binok
+0;11.0833,-2.0000;GA-04;Ngouni;Binienzi
+0;10.3833,0.8167;GA-09;Woleu-Ntem;Binguilinguen
+0;10.9833,-0.3833;GA-03;Moyen-Ogooué;Bingoungou
+0;9.7333,0.3667;GA-01;Estuaire;Bingong
+0;10.7667,-0.1667;GA-03;Moyen-Ogooué;Bingamingami I
+0;10.8167,-0.1833;GA-03;Moyen-Ogooué;Bingamingami
+0;10.3833,-0.2667;GA-01;Estuaire;Bine
+0;11.5087,2.0169;GA-09;Woleu-Ntem;Bindoumessang
+0;12.0000,2.0667;GA-09;Woleu-Ntem;Bindomo
+0;10.2167,-1.6167;GA-04;Ngouni;Bindéli
+0;11.9500,1.0000;GA-09;Woleu-Ntem;Bindama
+0;11.9667,-0.1167;GA-06;Ogooué-Ivindo;Bindaba
+0;10.7000,-1.1500;GA-04;Ngouni;Binda
+0;12.9500,-0.8667;GA-07;Ogooué-Lolo;Binanga
+0;12.0434,-2.1444;GA-04;Ngouni;Binambi
+0;11.4758,1.1506;GA-09;Woleu-Ntem;Bimvème
+0;10.3485,-1.5298;GA-04;Ngouni;Bimogon
+0;10.2333,-1.0000;GA-03;Moyen-Ogooué;Bimbiolé
+0;11.4667,2.1167;GA-09;Woleu-Ntem;Bimbin
+0;11.5873,2.0727;GA-09;Woleu-Ntem;Bilossi
+0;11.4608,1.7290;GA-09;Woleu-Ntem;Bilossi
+0;11.4500,1.7667;GA-09;Woleu-Ntem;Bilossi
+0;11.0167,-2.2500;GA-05;Nyanga;Bilombika Keri
+0;11.2500,-2.9167;GA-05;Nyanga;Bilombi
+0;11.5907,-2.0829;GA-04;Ngouni;Bilolo
+0;12.0667,2.2667;GA-09;Woleu-Ntem;Bilo
+0;12.0667,2.1333;GA-09;Woleu-Ntem;Bilo
+0;11.4833,2.1167;GA-09;Woleu-Ntem;Billy III
+0;11.4833,2.1167;GA-09;Woleu-Ntem;Billy II
+0;11.4833,2.1167;GA-09;Woleu-Ntem;Billy I
+0;10.9333,-1.8333;GA-04;Ngouni;Billengui III
+0;10.7167,-1.9833;GA-04;Ngouni;Billengui II
+0;10.9667,-1.8500;GA-04;Ngouni;Billengui II
+0;10.9833,-1.8667;GA-04;Ngouni;Billengui I
+0;10.6333,-1.9500;GA-04;Ngouni;Billengui
+0;11.4103,-1.9617;GA-04;Ngouni;Billengué
+0;12.1000,-1.4167;GA-07;Ogooué-Lolo;Billanda
+0;10.0333,0.9500;GA-01;Estuaire;Biliba
+0;10.4964,-2.8970;GA-05;Nyanga;Bilengui
+0;10.7403,-2.4445;GA-05;Nyanga;Bilengui
+0;11.3000,-2.6167;GA-05;Nyanga;Bilemba
+0;11.4442,1.9155;GA-09;Woleu-Ntem;Bilebidoua
+0;9.1465,-0.8704;GA-08;Ogooué-Maritime;Bilape-Saint-Pierre
+0;10.1833,-1.7500;GA-04;Ngouni;Bilanzambi
+0;10.6910,-3.3595;GA-05;Nyanga;Bilanga
+0;12.0715,-2.3669;GA-04;Ngouni;Bilamba
+0;11.0333,-2.3667;GA-05;Nyanga;Bila Gouambi
+0;11.6753,1.3317;GA-09;Woleu-Ntem;Bikoumou
+0;11.4167,0.7667;GA-09;Woleu-Ntem;Bikoumou
+0;11.6345,1.9481;GA-09;Woleu-Ntem;Bikougou
+0;11.7833,0.8667;GA-09;Woleu-Ntem;Bikougou
+0;12.4019,-1.1000;GA-07;Ogooué-Lolo;Bikouala
+0;11.5000,0.6167;GA-09;Woleu-Ntem;Bikoromama
+0;11.7355,2.2229;GA-09;Woleu-Ntem;Bikondomo
+0;11.5987,1.5162;GA-09;Woleu-Ntem;Bikogo
+0;13.3833,-1.5333;GA-02;Haut-Ogooué;Bikogo
+0;11.7976,2.2059;GA-09;Woleu-Ntem;Bikobizork
+0;11.1000,-2.6667;GA-05;Nyanga;Bikendzi
+0;9.5688,0.4086;GA-01;Estuaire;Bikélé
+0;11.4333,2.2833;GA-09;Woleu-Ntem;Bikas Esseng
+0;11.3833,2.2000;GA-09;Woleu-Ntem;Bikas Essangui
+0;11.4167,2.2833;GA-09;Woleu-Ntem;Bikas Effek
+0;11.6360,1.9386;GA-09;Woleu-Ntem;Bikang
+0;10.6987,-3.3493;GA-05;Nyanga;Bikamba
+0;11.1833,-2.5500;GA-05;Nyanga;Bihindou
+0;10.3500,-0.8500;GA-03;Moyen-Ogooué;Bigouenya
+0;10.9743,-2.4279;GA-05;Nyanga;Bignendzi
+0;10.4121,-0.2525;GA-03;Moyen-Ogooué;Bifoun
+0;11.9167,0.9833;GA-09;Woleu-Ntem;Bifame II
+0;11.8833,0.9833;GA-09;Woleu-Ntem;Bifame I
+0;11.7019,1.2383;GA-09;Woleu-Ntem;Biezok
+0;9.6479,0.6520;GA-01;Estuaire;Bienam
+0;11.3386,-3.1567;GA-05;Nyanga;Biello
+0;11.5732,1.3180;GA-09;Woleu-Ntem;Bidzima
+0;12.5167,-1.2833;GA-07;Ogooué-Lolo;Bidiabiki
+0;11.4333,-1.0167;GA-04;Ngouni;Bichouin
+0;10.6000,-0.2833;GA-03;Moyen-Ogooué;Biboulman
+0;11.4434,-3.2153;GA-05;Nyanga;Bibora
+0;11.4135,-3.1948;GA-05;Nyanga;Bibonga
+0;10.1948,-2.8050;GA-05;Nyanga;Bibonga
+0;11.8000,0.9667;GA-09;Woleu-Ntem;Bibolo
+0;10.8333,0.6333;GA-01;Estuaire;Bibolo
+0;12.3667,0.8167;GA-06;Ogooué-Ivindo;Bibioe
+0;10.6333,0.2833;GA-01;Estuaire;Bibiara
+0;11.6167,2.2333;GA-09;Woleu-Ntem;Bibé
+0;11.6333,2.0333;GA-09;Woleu-Ntem;Bibé
+0;11.4333,2.0167;GA-09;Woleu-Ntem;Bibé
+0;9.8167,0.9167;GA-01;Estuaire;Bibé
+0;11.6142,1.4179;GA-09;Woleu-Ntem;Bibassé
+0;13.6320,-1.6684;GA-02;Haut-Ogooué;Bibassa I
+0;12.1333,2.2000;GA-09;Woleu-Ntem;Bibamvié
+0;11.9813,2.0400;GA-09;Woleu-Ntem;Biba Mélène
+0;12.1167,2.2333;GA-09;Woleu-Ntem;Bibaga
+0;11.8333,0.8500;GA-09;Woleu-Ntem;Biba
+0;10.6667,-1.8833;GA-04;Ngouni;Biamani
+0;10.2833,-0.7333;GA-03;Moyen-Ogooué;Béré
+0;13.6000,-1.6167;GA-02;Haut-Ogooué;Bépila
+0;11.8000,0.9500;GA-09;Woleu-Ntem;Benzork
+0;11.6333,-2.0333;GA-04;Ngouni;Benzo
+0;11.0000,-1.8000;GA-04;Ngouni;Benzé
+0;11.5000,-2.1500;GA-04;Ngouni;Benza
+0;10.7167,-0.1667;GA-03;Moyen-Ogooué;Benvoghe
+0;10.9897,-0.3594;GA-03;Moyen-Ogooué;Benvélé
+0;10.7833,-0.1500;GA-03;Moyen-Ogooué;Benvelle
+0;11.5167,-0.0500;GA-06;Ogooué-Ivindo;Benvaga
+0;12.0333,2.1167;GA-09;Woleu-Ntem;Benjiaga
+0;13.6337,-1.6739;GA-02;Haut-Ogooué;Beniomi II
+0;13.6752,-1.6956;GA-02;Haut-Ogooué;Beniomi I
+0;10.2869,-2.8502;GA-05;Nyanga;Beni Bantou
+0;10.1500,-1.9000;GA-08;Ogooué-Maritime;Bengui
+0;11.0000,0.9000;GA-09;Woleu-Ntem;Bengui
+0;11.4465,1.7081;GA-09;Woleu-Ntem;Bengoye II
+0;12.9667,0.6167;GA-06;Ogooué-Ivindo;Bengoué
+0;9.2001,-0.9632;GA-08;Ogooué-Maritime;Bengoué
+0;12.6833,0.6500;GA-06;Ogooué-Ivindo;Bengiyoe
+0;11.9833,2.1167;GA-09;Woleu-Ntem;Bengiaga
+0;11.5333,-2.9167;GA-05;Nyanga;Benga
+0;11.6611,1.5967;GA-09;Woleu-Ntem;Benga
+0;11.3560,0.2933;GA-09;Woleu-Ntem;Bendjé
+0;13.4667,-1.5667;GA-02;Haut-Ogooué;Bendia
+0;10.7937,-3.5324;GA-05;Nyanga;Bendé Passi Mogno
+0;11.4580,0.3513;GA-09;Woleu-Ntem;Bemvé
+0;9.6667,-0.7333;GA-03;Moyen-Ogooué;Bembélié
+0;11.1000,0.6500;GA-09;Woleu-Ntem;Belliessi
+0;10.3951,-0.6133;GA-03;Moyen-Ogooué;Bellevue
+0;11.0333,0.0333;GA-03;Moyen-Ogooué;Belleville
+0;13.1997,1.0890;GA-06;Ogooué-Ivindo;Bélinga
+0;11.9939,-0.1072;GA-06;Ogooué-Ivindo;Belem
+0;13.5167,0.8500;GA-06;Ogooué-Ivindo;Belé
+0;13.9309,1.0100;GA-06;Ogooué-Ivindo;Belakembe
+0;13.4833,0.8167;GA-06;Ogooué-Ivindo;Békouyé
+0;12.2086,0.3698;GA-06;Ogooué-Ivindo;Bekou-Bekou
+0;12.8964,-1.6837;GA-02;Haut-Ogooué;Bekomi
+0;13.7333,-1.7333;GA-02;Haut-Ogooué;Bekemi
+0;13.5789,-1.9539;GA-02;Haut-Ogooué;Béka-Béka
+0;12.8000,-0.7667;GA-07;Ogooué-Lolo;Békaba-Landji
+0;10.6324,-0.1950;GA-03;Moyen-Ogooué;Befie
+0;13.9667,0.8333;GA-06;Ogooué-Ivindo;Bédounou
+0;13.5667,-1.6167;GA-02;Haut-Ogooué;Bedira
+0;11.0000,-1.8500;GA-04;Ngouni;Beau Village
+0;10.7129,0.9893;GA-09;Woleu-Ntem;Bé
+0;11.9760,-1.9144;GA-04;Ngouni;Bayoukou
+0;11.3888,-3.1901;GA-05;Nyanga;Bayadi
+0;11.3245,-3.1357;GA-05;Nyanga;Bayadi
+0;13.5324,-1.6326;GA-02;Haut-Ogooué;Baya
+0;13.9000,0.9833;GA-06;Ogooué-Ivindo;Baya
+0;13.4359,0.8035;GA-06;Ogooué-Ivindo;Batoala
+0;9.6555,-1.6418;GA-08;Ogooué-Maritime;Batanga
+0;9.9823,-0.8498;GA-03;Moyen-Ogooué;Batanga
+0;9.3136,-0.3419;GA-08;Ogooué-Maritime;Batanga
+0;13.0333,0.4500;GA-06;Ogooué-Ivindo;Bassitobalangoye
+0;12.8140,-0.8161;GA-07;Ogooué-Lolo;Bassegua
+0;12.1167,-1.3167;GA-07;Ogooué-Lolo;Bassaki
+0;9.6833,0.6333;GA-01;Estuaire;Baraka
+0;12.6000,-0.9500;GA-07;Ogooué-Lolo;Bapouno
+0;13.0517,-0.7439;GA-07;Ogooué-Lolo;Baposso
+0;12.1852,-2.1022;GA-04;Ngouni;Baposo
+0;11.2456,-1.8421;GA-04;Ngouni;Banoï
+0;12.2011,-1.0044;GA-07;Ogooué-Lolo;Baniati
+0;13.5667,-1.6167;GA-02;Haut-Ogooué;Bangwegne
+0;11.8167,-0.0667;GA-06;Ogooué-Ivindo;Bangou
+0;12.0417,-2.1761;GA-04;Ngouni;Bangondzi-Badouma
+0;12.4500,-1.4000;GA-07;Ogooué-Lolo;Bangondo
+0;11.7333,-2.1167;GA-04;Ngouni;Bangondji
+0;11.2000,-2.4333;GA-04;Ngouni;Bangola
+0;13.4167,0.2000;GA-06;Ogooué-Ivindo;Bangodecahoye
+0;9.3215,-1.8492;GA-08;Ogooué-Maritime;Bango
+0;12.4648,-2.3276;GA-04;Ngouni;Banginga
+0;13.4833,-1.6333;GA-02;Haut-Ogooué;Bangené
+0;13.2023,-1.5522;GA-02;Haut-Ogooué;Bangassou
+0;12.6500,-0.9500;GA-07;Ogooué-Lolo;Bangassou
+0;12.9667,0.6167;GA-06;Ogooué-Ivindo;Bangakié
+0;12.9833,-1.1667;GA-07;Ogooué-Lolo;Bangadi
+0;11.8167,2.2000;GA-09;Woleu-Ntem;Bang
+0;11.7000,-2.4000;GA-04;Ngouni;Bandoungou
+0;13.3500,-1.3500;GA-02;Haut-Ogooué;Bandégué
+0;13.5500,-1.0833;GA-02;Haut-Ogooué;Bandégué
+0;12.5667,-1.3333;GA-07;Ogooué-Lolo;Bandangala
+0;11.7054,-3.1047;GA-05;Nyanga;Banda Namba
+0;10.6796,-3.4520;GA-05;Nyanga;Bana
+0;10.9108,-0.1197;GA-03;Moyen-Ogooué;Bemvom
+0;10.5167,0.8333;GA-09;Woleu-Ntem;Bamé
+0;9.3667,-1.7500;GA-08;Ogooué-Maritime;Bambous
+0;12.7040,-0.8218;GA-07;Ogooué-Lolo;Bambora
+0;13.6667,0.9000;GA-06;Ogooué-Ivindo;Bambo
+0;11.7686,-0.2815;GA-06;Ogooué-Ivindo;Bambila
+0;12.9863,-1.1246;GA-07;Ogooué-Lolo;Bambera-Biyoko
+0;12.8047,-0.9597;GA-07;Ogooué-Lolo;Bambecan
+0;13.4667,0.8167;GA-06;Ogooué-Ivindo;Bambaza I
+0;10.6167,-1.5500;GA-04;Ngouni;Bambari
+0;11.8833,-2.1500;GA-04;Ngouni;Bama
+0;11.8846,0.0998;GA-06;Ogooué-Ivindo;Balemba II
+0;11.8900,0.1284;GA-06;Ogooué-Ivindo;Balemba I
+0;12.1994,-2.3132;GA-04;Ngouni;Balamboula
+0;10.2249,-2.1480;GA-08;Ogooué-Maritime;Bakoli
+0;10.1297,-2.0907;GA-08;Ogooué-Maritime;Bakoli
+0;12.2629,-2.3134;GA-04;Ngouni;Bakamba
+0;10.2000,-1.6167;GA-04;Ngouni;Bakalé
+0;13.9667,-1.4167;GA-02;Haut-Ogooué;Baï
+0;11.8167,-1.8833;GA-04;Ngouni;Bagny
+0;13.5959,-2.3079;GA-02;Haut-Ogooué;Bafounou II
+0;13.5796,-2.2390;GA-02;Haut-Ogooué;Bafounou I
+0;13.5833,-2.2500;GA-02;Haut-Ogooué;Bafounou
+0;12.8972,-0.7779;GA-07;Ogooué-Lolo;Badouma
+0;12.2833,-1.6833;GA-07;Ogooué-Lolo;Badiabiki
+0;12.9000,0.5500;GA-06;Ogooué-Ivindo;Badi
+0;13.2167,0.3000;GA-06;Ogooué-Ivindo;Badi
+0;11.4667,-0.9833;GA-04;Ngouni;Babini
+0;13.5167,-0.7833;GA-02;Haut-Ogooué;Babili
+0;12.8333,-0.8667;GA-07;Ogooué-Lolo;Babaousa
+0;11.7029,1.1944;GA-09;Woleu-Ntem;Azongho
+0;11.8500,1.9000;GA-09;Woleu-Ntem;Azongbeu
+0;10.1667,-0.8500;GA-03;Moyen-Ogooué;Azo II
+0;10.1500,-0.8167;GA-03;Moyen-Ogooué;Azo I
+0;10.1500,-0.9833;GA-03;Moyen-Ogooué;Azériba
+0;9.5167,-1.1500;GA-08;Ogooué-Maritime;Azegué
+0;9.5000,0.0000;GA-01;Estuaire;Azébé
+0;11.5500,0.7500;GA-09;Woleu-Ntem;Azap
+0;11.2333,-1.8833;GA-04;Ngouni;Ayoumbi
+0;11.3167,-1.7333;GA-04;Ngouni;Ayoumba
+0;10.8333,-1.3333;GA-04;Ngouni;Ayoumba
+0;10.3833,-0.8667;GA-03;Moyen-Ogooué;Ayoumba
+0;11.0167,0.6500;GA-09;Woleu-Ntem;Ayong
+0;11.3628,0.8712;GA-09;Woleu-Ntem;Ayol
+0;12.3845,0.8145;GA-06;Ogooué-Ivindo;Ayoeroebé
+0;11.7500,2.2167;GA-09;Woleu-Ntem;Ayenguening
+0;11.5090,0.9238;GA-09;Woleu-Ntem;Ayengueni
+0;9.9000,0.6000;GA-01;Estuaire;Ayenabour
+0;10.0000,0.5667;GA-01;Estuaire;Ayémé
+0;10.2167,0.5000;GA-01;Estuaire;Ayémé
+0;10.2411,0.0570;GA-01;Estuaire;Ayeme
+0;10.2833,0.0333;GA-01;Estuaire;Ayémé
+0;9.6667,0.8000;GA-01;Estuaire;Ayem
+0;9.6747,0.3003;GA-01;Estuaire;Ayémé
+0;11.3646,-0.1111;GA-06;Ogooué-Ivindo;Ayem
+0;11.8667,1.9500;GA-09;Woleu-Ntem;Ayeguening II
+0;11.9466,1.9292;GA-09;Woleu-Ntem;Ayeguening
+0;9.4500,0.5667;GA-01;Estuaire;Ayeguening
+0;9.7333,0.5500;GA-01;Estuaire;Ayeguening
+0;12.5826,0.5607;GA-06;Ogooué-Ivindo;Ayeghening
+0;10.4833,-0.3500;GA-03;Moyen-Ogooué;Ayéghélé-Mindock
+0;10.2833,0.3833;GA-01;Estuaire;Ayéghé
+0;10.6152,-0.2244;GA-03;Moyen-Ogooué;Ayebe
+0;11.6870,1.2866;GA-09;Woleu-Ntem;Ayang
+0;11.6910,1.2716;GA-09;Woleu-Ntem;Ayane
+0;10.5167,-0.2667;GA-03;Moyen-Ogooué;Ayambi
+0;11.5167,2.0167;GA-09;Woleu-Ntem;Awégane
+0;10.8167,-0.1167;GA-03;Moyen-Ogooué;Avormitok
+0;9.4029,0.4990;GA-01;Estuaire;Avorbam
+0;10.0500,0.9667;GA-01;Estuaire;Avora
+0;11.3351,0.2732;GA-09;Woleu-Ntem;Avom
+0;11.4610,1.1323;GA-09;Woleu-Ntem;Avo
+0;11.4621,1.1081;GA-09;Woleu-Ntem;Avo
+0;12.8833,0.5667;GA-06;Ogooué-Ivindo;Avil-Chicago
+0;12.8667,0.5333;GA-06;Ogooué-Ivindo;Avil-Boumba
+0;9.3167,0.6000;GA-01;Estuaire;Averoma
+0;11.2500,0.7833;GA-09;Woleu-Ntem;Aveng
+0;9.8853,0.8155;GA-01;Estuaire;Avélayong
+0;9.3526,-1.4022;GA-08;Ogooué-Maritime;Avégoumbiri
+0;9.7251,-0.9499;GA-08;Ogooué-Maritime;Avegombori
+0;9.8833,0.0167;GA-01;Estuaire;Avang-Biloug
+0;11.6954,1.1292;GA-09;Woleu-Ntem;Avang
+0;10.5704,0.9038;GA-09;Woleu-Ntem;Avane
+0;12.8667,0.6833;GA-06;Ogooué-Ivindo;Atyglam
+0;11.9541,-0.1037;GA-06;Ogooué-Ivindo;Atsombial
+0;10.7806,1.0009;GA-09;Woleu-Ntem;Atoute
+0;11.0000,0.9000;GA-09;Woleu-Ntem;Atoumassi
+0;10.2833,0.1833;GA-01;Estuaire;Atoum
+0;11.5354,0.7929;GA-09;Woleu-Ntem;Atouk
+0;9.4833,0.4167;GA-01;Estuaire;Atouda-Simba
+0;9.3744,-1.5969;GA-08;Ogooué-Maritime;Atongoouania
+0;13.7838,-0.7522;GA-02;Haut-Ogooué;Atongo
+0;9.4667,0.4000;GA-01;Estuaire;Atonda-Simba
+0;9.9333,-0.6833;GA-03;Moyen-Ogooué;Atengamé
+0;11.1667,0.6667;GA-09;Woleu-Ntem;Aténé
+0;9.5167,0.3000;GA-01;Estuaire;Atenda-Simba
+0;9.6179,0.6114;GA-01;Estuaire;Atem
+0;9.3667,0.1500;GA-01;Estuaire;Atale Eloun
+0;10.2167,-0.6833;GA-03;Moyen-Ogooué;Atadi
+0;11.4352,0.8193;GA-09;Woleu-Ntem;Assue
+0;10.3500,0.2167;GA-01;Estuaire;Assoum Mabiala
+0;9.4833,0.4167;GA-01;Estuaire;Assougoula Emo
+0;9.8000,0.3667;GA-01;Estuaire;Assore
+0;9.7167,0.7333;GA-01;Estuaire;Assora-Massona
+0;11.8500,0.9500;GA-09;Woleu-Ntem;Assongnivé
+0;11.6042,1.9054;GA-09;Woleu-Ntem;Assok-Seng
+0;11.4833,1.7000;GA-09;Woleu-Ntem;Assok-Nyé
+0;11.5033,1.6691;GA-09;Woleu-Ntem;Assok-Nyé
+0;11.6446,1.6901;GA-09;Woleu-Ntem;Assok-Ngoum II
+0;11.6500,1.7500;GA-09;Woleu-Ntem;Assok-Ngoum I
+0;11.6500,1.7500;GA-09;Woleu-Ntem;Assok-Ngoum
+0;11.7623,2.1292;GA-09;Woleu-Ntem;Assok-Boleu
+0;11.6722,1.0466;GA-09;Woleu-Ntem;Assok-Bégué
+0;10.6833,0.5667;GA-01;Estuaire;Assoka
+0;11.9150,2.2021;GA-09;Woleu-Ntem;Assok
+0;11.3667,1.7000;GA-09;Woleu-Ntem;Assok
+0;11.3667,1.6833;GA-09;Woleu-Ntem;Assok
+0;11.6833,0.8167;GA-09;Woleu-Ntem;Asso
+0;9.9690,-1.3995;GA-04;Ngouni;Assibouka
+0;11.7167,1.0000;GA-09;Woleu-Ntem;Assia
+0;11.0393,0.9522;GA-09;Woleu-Ntem;Assi
+0;9.4898,-1.5414;GA-08;Ogooué-Maritime;Asseve
+0;11.0904,0.9590;GA-09;Woleu-Ntem;Assengassi
+0;10.9667,0.9167;GA-09;Woleu-Ntem;Assengassi
+0;11.9833,2.0833;GA-09;Woleu-Ntem;Assengasi
+0;11.6337,1.3779;GA-09;Woleu-Ntem;Assengama
+0;11.1574,0.1605;GA-03;Moyen-Ogooué;Asseng II
+0;11.1384,0.1415;GA-03;Moyen-Ogooué;Asseng I
+0;11.0185,0.9489;GA-09;Woleu-Ntem;Assen
+0;11.7667,1.5500;GA-09;Woleu-Ntem;Assas
+0;11.6000,0.4667;GA-09;Woleu-Ntem;Assan
+0;10.0167,-0.8167;GA-03;Moyen-Ogooué;Aromba
+0;8.8818,-0.8387;GA-08;Ogooué-Maritime;Aranga
+0;9.0111,-0.6403;GA-08;Ogooué-Maritime;Apomandé
+0;9.6979,-0.9235;GA-08;Ogooué-Maritime;Apari
+0;9.4694,-1.5937;GA-08;Ogooué-Maritime;Aouta
+0;11.1500,0.9167;GA-09;Woleu-Ntem;Aouela
+0;11.5098,0.7164;GA-09;Woleu-Ntem;Aouega
+0;11.6274,1.8825;GA-09;Woleu-Ntem;Aoua
+0;11.6167,1.9000;GA-09;Woleu-Ntem;Aoua
+0;11.6000,0.5333;GA-09;Woleu-Ntem;Anzogobe
+0;10.5000,0.6000;GA-01;Estuaire;Anzem
+0;11.5987,1.4590;GA-09;Woleu-Ntem;Anubi
+0;9.4000,0.4500;GA-01;Estuaire;Anongomiani
+0;10.5167,-0.2667;GA-03;Moyen-Ogooué;Anonébéré
+0;9.5794,-2.0947;GA-08;Ogooué-Maritime;Aningué
+0;11.7394,1.7329;GA-09;Woleu-Ntem;Aniezork
+0;11.4497,1.6651;GA-09;Woleu-Ntem;Aniezok
+0;11.4333,1.4500;GA-09;Woleu-Ntem;Aniane II
+0;11.4509,1.4211;GA-09;Woleu-Ntem;Aniane I
+0;11.6667,0.6667;GA-09;Woleu-Ntem;Aniane
+0;11.4090,1.6176;GA-09;Woleu-Ntem;Anguié
+0;11.5424,1.2517;GA-09;Woleu-Ntem;Angounesiste
+0;9.8667,0.2500;GA-01;Estuaire;Angoune
+0;11.0046,0.9462;GA-09;Woleu-Ntem;Angouma
+0;12.8833,0.6500;GA-06;Ogooué-Ivindo;Angouma
+0;11.3844,1.0108;GA-09;Woleu-Ntem;Angoum
+0;11.3833,1.0000;GA-09;Woleu-Ntem;Angouane
+0;11.4333,0.9333;GA-09;Woleu-Ntem;Angoss
+0;13.5245,-1.3275;GA-02;Haut-Ogooué;Angonogo
+0;10.3167,0.2167;GA-01;Estuaire;Angonenzork
+0;11.6167,0.6333;GA-09;Woleu-Ntem;Angone Efira
+0;11.6167,1.6500;GA-09;Woleu-Ntem;Angone III
+0;11.6000,1.6500;GA-09;Woleu-Ntem;Angone II
+0;11.6024,1.6206;GA-09;Woleu-Ntem;Angone I
+0;12.1000,0.9167;GA-09;Woleu-Ntem;Angone
+0;11.1667,0.6000;GA-09;Woleu-Ntem;Angone
+0;13.1167,-1.0833;GA-07;Ogooué-Lolo;Angondé
+0;10.7667,0.6167;GA-01;Estuaire;Ango
+0;10.2167,0.2333;GA-01;Estuaire;Angaré
+0;12.2000,0.8667;GA-09;Woleu-Ntem;Angané
+0;11.7167,0.9833;GA-09;Woleu-Ntem;Angale
+0;9.5167,0.3000;GA-01;Estuaire;Anelakici
+0;11.4340,1.4210;GA-09;Woleu-Ntem;Andoumezé
+0;10.6000,0.4333;GA-01;Estuaire;Andoume
+0;10.7667,0.6167;GA-01;Estuaire;Andouako
+0;11.8000,2.2000;GA-09;Woleu-Ntem;Andon
+0;11.8000,1.8667;GA-09;Woleu-Ntem;Andome II
+0;11.8173,1.8329;GA-09;Woleu-Ntem;Andome I
+0;12.0000,2.1333;GA-09;Woleu-Ntem;Andome
+0;11.7000,1.7500;GA-09;Woleu-Ntem;Andoma III
+0;11.6833,1.7500;GA-09;Woleu-Ntem;Andoma II
+0;11.6833,1.7500;GA-09;Woleu-Ntem;Andoma I
+0;12.1000,2.2500;GA-09;Woleu-Ntem;Andom II
+0;12.1167,2.2500;GA-09;Woleu-Ntem;Andom I
+0;12.0500,2.1167;GA-09;Woleu-Ntem;Andom
+0;11.5707,1.7378;GA-08;Ogooué-Maritime;Andom
+0;10.0500,0.1167;GA-01;Estuaire;Andokh Nfang
+0;12.0500,2.0833;GA-09;Woleu-Ntem;Andokasi
+0;12.0000,2.1000;GA-09;Woleu-Ntem;Andokas
+0;10.5833,-0.2833;GA-03;Moyen-Ogooué;Andoka
+0;11.6167,2.2333;GA-09;Woleu-Ntem;Andok
+0;11.6887,1.6964;GA-09;Woleu-Ntem;Andok
+0;12.8693,0.5984;GA-06;Ogooué-Ivindo;Andok
+0;10.8500,-0.3500;GA-03;Moyen-Ogooué;Andock
+0;10.6333,-0.2500;GA-03;Moyen-Ogooué;Andock
+0;13.5355,-1.2634;GA-02;Haut-Ogooué;Andjogo
+0;10.0000,0.3000;GA-01;Estuaire;Andemé
+0;10.6289,-0.1843;GA-03;Moyen-Ogooué;Andèm III
+0;10.6566,-0.1819;GA-03;Moyen-Ogooué;Andèm II
+0;10.6694,-0.1714;GA-03;Moyen-Ogooué;Andèm I
+0;9.9654,0.3229;GA-01;Estuaire;Andem
+0;10.0027,-0.5747;GA-03;Moyen-Ogooué;Andagne
+0;11.2167,-0.0833;GA-03;Moyen-Ogooué;Ancien Poste des Apindji
+0;11.5608,-0.6808;GA-06;Ogooué-Ivindo;Ancien Okaka
+0;10.9500,0.8833;GA-09;Woleu-Ntem;Ancien Métark
+0;11.4500,-0.9333;GA-04;Ngouni;Ancien Matica
+0;11.7429,-0.1867;GA-06;Ogooué-Ivindo;Ancien Kandjama
+0;11.3812,-0.4080;GA-03;Moyen-Ogooué;Ancien Founa
+0;11.3639,-0.3186;GA-03;Moyen-Ogooué;Ancien Andok
+0;10.3833,-0.4833;GA-03;Moyen-Ogooué;Anameyong
+0;12.8667,0.5833;GA-06;Ogooué-Ivindo;Amyéré
+0;11.3812,0.2888;GA-09;Woleu-Ntem;Amvémé
+0;11.5500,0.6833;GA-09;Woleu-Ntem;Amvani
+0;11.5448,1.5830;GA-09;Woleu-Ntem;Amvame
+0;11.4389,1.0506;GA-09;Woleu-Ntem;Amvam
+0;14.1667,-0.8500;GA-02;Haut-Ogooué;Amposso
+0;9.6333,0.7167;GA-01;Estuaire;Amoin
+0;9.9162,-0.8125;GA-03;Moyen-Ogooué;Amengouingani
+0;9.6638,-0.9801;GA-08;Ogooué-Maritime;Amengamona
+0;9.2893,-1.5813;GA-08;Ogooué-Maritime;Amendjé
+0;9.4333,-1.5833;GA-08;Ogooué-Maritime;Ambroise
+0;9.4500,0.4333;GA-01;Estuaire;Ambowé
+0;13.7333,-1.7333;GA-02;Haut-Ogooué;Amboumi
+0;8.9704,-0.8967;GA-08;Ogooué-Maritime;Amboki
+0;9.9892,-0.8397;GA-03;Moyen-Ogooué;Amboki
+0;14.1000,-0.4500;GA-02;Haut-Ogooué;Ambinda
+0;11.6667,2.0833;GA-09;Woleu-Ntem;Alouné
+0;10.4167,-0.4833;GA-03;Moyen-Ogooué;Aloun
+0;11.3553,2.0793;GA-09;Woleu-Ntem;Aloumé
+0;13.7627,-0.4258;GA-02;Haut-Ogooué;Alouma
+0;9.8833,0.8667;GA-01;Estuaire;Aloum
+0;9.8833,0.5833;GA-01;Estuaire;Aloum
+0;10.6000,0.4833;GA-01;Estuaire;Aloum
+0;9.9077,0.1909;GA-01;Estuaire;Aloum
+0;9.7667,-0.0333;GA-01;Estuaire;Aloum
+0;9.6238,0.6552;GA-01;Estuaire;Alos
+0;10.3833,0.3500;GA-01;Estuaire;Alos
+0;10.4833,-0.3667;GA-03;Moyen-Ogooué;Alonha
+0;9.9167,-0.6333;GA-03;Moyen-Ogooué;Along
+0;10.0833,0.1500;GA-01;Estuaire;Alona
+0;10.2347,-1.0159;GA-03;Moyen-Ogooué;Alomba
+0;10.2000,-1.0167;GA-03;Moyen-Ogooué;Alomba
+0;11.5678,1.2677;GA-09;Woleu-Ntem;Allum
+0;11.5265,1.5703;GA-09;Woleu-Ntem;Alleum
+0;11.5162,1.2368;GA-09;Woleu-Ntem;Allem III
+0;11.5210,1.2460;GA-09;Woleu-Ntem;Allem II
+0;11.5353,1.2495;GA-09;Woleu-Ntem;Allem I
+0;13.7908,-1.2457;GA-02;Haut-Ogooué;Allelé
+0;9.6506,-0.8138;GA-08;Ogooué-Maritime;Allego
+0;12.1167,0.3500;GA-06;Ogooué-Ivindo;Allar Mourkevock
+0;14.1456,-1.7716;GA-02;Haut-Ogooué;Alieme
+0;10.0667,0.2833;GA-01;Estuaire;Alen Nkok-Aza
+0;10.1500,0.3000;GA-01;Estuaire;Alen Nkogadza
+0;11.3966,2.2902;GA-09;Woleu-Ntem;Alen Esseng
+0;10.2500,0.3167;GA-01;Estuaire;Alène Makora
+0;10.1333,0.3167;GA-01;Estuaire;Aléne Koraza
+0;11.3688,2.2260;GA-09;Woleu-Ntem;Alen Effak
+0;11.5046,0.6556;GA-09;Woleu-Ntem;Alene Bissouma
+0;11.9833,2.0833;GA-09;Woleu-Ntem;Aléné
+0;11.5068,0.6709;GA-09;Woleu-Ntem;Aléné
+0;10.6500,-0.2000;GA-03;Moyen-Ogooué;Aléné
+0;11.5046,1.9742;GA-09;Woleu-Ntem;Alène
+0;11.4799,1.5054;GA-09;Woleu-Ntem;Alène
+0;11.4245,1.5038;GA-09;Woleu-Ntem;Alène
+0;11.5973,1.4798;GA-09;Woleu-Ntem;Alène
+0;11.7056,1.1864;GA-09;Woleu-Ntem;Alène
+0;12.9167,0.6667;GA-06;Ogooué-Ivindo;Alène
+0;11.7119,1.1763;GA-09;Woleu-Ntem;Alene
+0;10.0833,0.6000;GA-01;Estuaire;Alene
+0;10.2000,0.2000;GA-01;Estuaire;Alen-Como
+0;11.4548,0.8223;GA-09;Woleu-Ntem;Alénassi
+0;11.1417,0.9332;GA-09;Woleu-Ntem;Alenass
+0;10.0833,0.5667;GA-01;Estuaire;Alénakiri
+0;10.1833,0.2000;GA-01;Estuaire;Alen-Abanga
+0;12.0667,2.1833;GA-09;Woleu-Ntem;Alen
+0;12.0333,2.0667;GA-09;Woleu-Ntem;Alen
+0;9.8167,0.2500;GA-01;Estuaire;Alen
+0;9.0388,-1.2537;GA-08;Ogooué-Maritime;Alembétogo
+0;10.9570,-0.0811;GA-03;Moyen-Ogooué;Alèmbé
+0;11.7052,1.2453;GA-09;Woleu-Ntem;Alat
+0;10.7000,0.1667;GA-01;Estuaire;Alat
+0;11.1582,0.9231;GA-09;Woleu-Ntem;Alarmitang
+0;9.7667,0.3667;GA-01;Estuaire;Alarmitang
+0;12.8321,0.5613;GA-06;Ogooué-Ivindo;Alarmintang
+0;10.5667,0.0333;GA-01;Estuaire;Alarmakeï
+0;10.0500,0.1500;GA-01;Estuaire;Alarmaké
+0;9.4167,0.0833;GA-01;Estuaire;Alarmaké
+0;13.8667,-0.8167;GA-02;Haut-Ogooué;Alanga II
+0;13.7857,-0.7623;GA-02;Haut-Ogooué;Alanga I
+0;11.9774,1.5961;GA-09;Woleu-Ntem;Alang
+0;9.5069,0.3402;GA-01;Estuaire;Akournam
+0;11.1833,0.7000;GA-09;Woleu-Ntem;Akourmar
+0;10.2500,0.0833;GA-01;Estuaire;Akourmané
+0;10.2500,0.3000;GA-01;Estuaire;Akourmane
+0;11.1833,0.6500;GA-09;Woleu-Ntem;Akourman
+0;9.8667,0.0833;GA-01;Estuaire;Akourman
+0;11.2333,0.6500;GA-09;Woleu-Ntem;Akour-Kok
+0;10.0474,-0.9384;GA-03;Moyen-Ogooué;Akountam
+0;9.9243,0.7927;GA-01;Estuaire;Akounilen
+0;9.3500,-1.6667;GA-08;Ogooué-Maritime;Akoumounou
+0;9.1613,-0.9905;GA-08;Ogooué-Maritime;Akoumouno
+0;11.4647,1.0887;GA-09;Woleu-Ntem;Akoumassi
+0;10.2333,0.1500;GA-01;Estuaire;Akoumar
+0;11.4773,1.4982;GA-09;Woleu-Ntem;Akoum
+0;11.9858,2.1888;GA-09;Woleu-Ntem;Akoulazork
+0;11.8339,1.5322;GA-09;Woleu-Ntem;Akoul
+0;12.7833,0.5667;GA-06;Ogooué-Ivindo;Akougoubilyé
+0;13.7715,-1.3400;GA-02;Haut-Ogooué;Akouata
+0;13.7000,-0.4000;GA-02;Haut-Ogooué;Akouaka
+0;11.9055,1.8714;GA-09;Woleu-Ntem;Akou
+0;10.5333,-0.1333;GA-03;Moyen-Ogooué;Akorriyen
+0;12.4667,0.5167;GA-06;Ogooué-Ivindo;Akork
+0;10.2833,-0.4667;GA-03;Moyen-Ogooué;Akoré
+0;9.9607,-0.2016;GA-01;Estuaire;Akondjo
+0;9.9232,0.3592;GA-01;Estuaire;Asseng
+0;11.5214,1.6720;GA-09;Woleu-Ntem;Akonadem
+0;11.5000,2.1667;GA-09;Woleu-Ntem;Akom Essakotam
+0;11.5120,2.2672;GA-09;Woleu-Ntem;Akomé II
+0;11.8333,1.8833;GA-09;Woleu-Ntem;Akome II
+0;11.8708,1.8539;GA-09;Woleu-Ntem;Akome I
+0;11.6427,2.0065;GA-09;Woleu-Ntem;Akomé
+0;9.6771,-0.8306;GA-03;Moyen-Ogooué;Akomba
+0;11.4978,2.1711;GA-09;Woleu-Ntem;Akom
+0;11.6333,2.0333;GA-09;Woleu-Ntem;Akom
+0;11.5109,2.0194;GA-09;Woleu-Ntem;Akom
+0;11.6151,1.8926;GA-09;Woleu-Ntem;Akom
+0;13.7833,-0.7000;GA-02;Haut-Ogooué;Akoki
+0;11.7851,2.2189;GA-09;Woleu-Ntem;Akok
+0;11.9815,2.0295;GA-09;Woleu-Ntem;Akok
+0;11.9333,2.0333;GA-09;Woleu-Ntem;Akok
+0;11.5088,1.8685;GA-09;Woleu-Ntem;Akok
+0;11.6080,1.6373;GA-09;Woleu-Ntem;Akok
+0;9.7427,0.5121;GA-01;Estuaire;Akok
+0;10.6833,-0.1833;GA-03;Moyen-Ogooué;Akoghe
+0;11.8560,1.5350;GA-09;Woleu-Ntem;Akog-Avop
+0;11.6929,0.8086;GA-09;Woleu-Ntem;Akoga
+0;10.4890,0.8656;GA-09;Woleu-Ntem;Akoga
+0;10.0000,-0.5500;GA-03;Moyen-Ogooué;Akobié
+0;11.8955,0.0201;GA-06;Ogooué-Ivindo;Akoba
+0;11.3702,1.5810;GA-09;Woleu-Ntem;Akinitom
+0;11.2333,0.6167;GA-09;Woleu-Ntem;Akineyon
+0;9.7333,0.5667;GA-01;Estuaire;Akigname
+0;11.9482,-0.0534;GA-06;Ogooué-Ivindo;Akighilam
+0;10.4500,-0.3000;GA-03;Moyen-Ogooué;Akighe Nlam
+8241;13.8756,-1.1745;GA-02;Haut-Ogooué;Akiéni
+0;9.8667,0.3333;GA-01;Estuaire;Akernengoule
+0;10.5246,0.8627;GA-09;Woleu-Ntem;Akelayong
+0;9.7000,0.5833;GA-01;Estuaire;Akélayong
+0;13.8202,-1.0192;GA-02;Haut-Ogooué;Akaraba
+0;11.3534,1.9322;GA-09;Woleu-Ntem;Akane
+0;11.4513,1.7558;GA-09;Woleu-Ntem;Akane
+0;9.8600,0.6372;GA-01;Estuaire;Akanabour
+0;9.6500,0.6667;GA-01;Estuaire;Akanabour
+0;9.9333,0.3500;GA-01;Estuaire;Akana-Bour
+0;12.3709,0.4502;GA-06;Ogooué-Ivindo;Akana
+0;10.8833,0.9667;GA-09;Woleu-Ntem;Akan
+0;11.3914,2.2688;GA-09;Woleu-Ntem;Akamsi-Effak
+0;11.4320,1.2759;GA-09;Woleu-Ntem;Akam III
+0;11.4692,1.0788;GA-09;Woleu-Ntem;Akam II
+0;11.4655,1.1406;GA-09;Woleu-Ntem;Akam I
+0;11.6667,2.2167;GA-09;Woleu-Ntem;Akam
+0;11.5927,1.9146;GA-09;Woleu-Ntem;Akam
+0;11.5833,1.9333;GA-09;Woleu-Ntem;Akam
+0;11.4300,1.8077;GA-09;Woleu-Ntem;Akam
+0;11.7667,1.8500;GA-09;Woleu-Ntem;Akaktane
+0;11.8167,2.2000;GA-09;Woleu-Ntem;Akako Mékak
+0;9.6735,-2.2302;GA-08;Ogooué-Maritime;Akaka
+0;11.4043,1.3724;GA-09;Woleu-Ntem;Akak
+0;9.7333,0.3667;GA-01;Estuaire;Akagakoa
+0;13.8798,-1.1632;GA-02;Haut-Ogooué;Akaga
+0;10.2209,0.3827;GA-01;Estuaire;Andok Foula
+0;10.1872,-1.5414;GA-04;Ngouni;Agouma
+0;9.6833,0.1000;GA-01;Estuaire;Agouma
+0;9.8955,0.0809;GA-01;Estuaire;Agonzork
+0;9.2570,-1.5295;GA-08;Ogooué-Maritime;Agonga
+0;9.8833,0.3500;GA-01;Estuaire;Afrik
+0;11.3833,0.4000;GA-09;Woleu-Ntem;Afouni
+0;12.3895,0.4600;GA-06;Ogooué-Ivindo;Afouma-adzo
+0;10.4517,-0.2691;GA-03;Moyen-Ogooué;Afog Bidzi
+0;11.7006,1.0875;GA-09;Woleu-Ntem;Afia
+0;11.4985,1.5798;GA-09;Woleu-Ntem;Aféma
+0;11.1167,0.6667;GA-09;Woleu-Ntem;Afavenzock Mouelza
+0;10.1500,0.3667;GA-01;Estuaire;Afan Nzogh
+0;9.6167,-0.8667;GA-08;Ogooué-Maritime;Afangombona
+0;9.4833,0.4000;GA-01;Estuaire;Afane-Mendone
+0;11.4957,1.5065;GA-09;Woleu-Ntem;Afak-Medzim
+0;9.8284,0.2629;GA-01;Estuaire;Afakma
+0;9.9667,-0.0167;GA-01;Estuaire;Afakma
+0;11.3115,0.9000;GA-09;Woleu-Ntem;Afakazock
+0;9.7667,0.4833;GA-01;Estuaire;Afagenzork
+0;9.7333,0.5000;GA-01;Estuaire;Afagayong
+0;12.6667,0.5833;GA-06;Ogooué-Ivindo;Adzo
+0;11.6667,1.6167;GA-09;Woleu-Ntem;Adzebe II
+0;11.6356,1.5895;GA-09;Woleu-Ntem;Adzebe I
+0;9.6000,0.8667;GA-01;Estuaire;Adzébé
+0;9.7667,0.5333;GA-01;Estuaire;Adzébé
+0;9.4667,0.4000;GA-01;Estuaire;Adzébé
+0;11.5000,2.1833;GA-09;Woleu-Ntem;Adzap II
+0;11.4333,1.8000;GA-09;Woleu-Ntem;Adzap II
+0;11.4964,2.1837;GA-09;Woleu-Ntem;Adzap I
+0;11.4365,1.7831;GA-09;Woleu-Ntem;Adzap I
+0;11.4333,2.0833;GA-09;Woleu-Ntem;Adzap
+0;11.6179,1.7962;GA-09;Woleu-Ntem;Adzap
+0;11.5000,1.5232;GA-09;Woleu-Ntem;Adzap
+0;11.6960,1.2614;GA-09;Woleu-Ntem;Adzap
+0;10.6833,0.2000;GA-01;Estuaire;Adzak
+0;11.3435,1.9821;GA-09;Woleu-Ntem;Adzabilone
+0;11.9412,1.9410;GA-09;Woleu-Ntem;Adzabilone
+0;11.5777,1.5717;GA-09;Woleu-Ntem;Adzabilone
+0;11.2303,0.9769;GA-09;Woleu-Ntem;Adzabilone
+0;10.5667,0.3500;GA-01;Estuaire;Adzabilone
+0;11.6167,1.6833;GA-09;Woleu-Ntem;Adzabikat III
+0;11.6333,1.7000;GA-09;Woleu-Ntem;Adzabikat II
+0;11.6246,1.6550;GA-09;Woleu-Ntem;Adzabikat I
+0;11.7181,1.7279;GA-09;Woleu-Ntem;Adzabassi
+0;9.7630,0.6465;GA-01;Estuaire;Adza
+0;10.2333,0.3333;GA-01;Estuaire;Adza
+0;10.5000,-0.3167;GA-03;Moyen-Ogooué;Adoumé
+0;10.2175,-0.6746;GA-03;Moyen-Ogooué;Adouma
+0;12.5691,0.5342;GA-06;Ogooué-Ivindo;Adoué
+0;9.9667,-0.6833;GA-03;Moyen-Ogooué;Adolé
+0;11.7878,2.0604;GA-09;Woleu-Ntem;Adjouma
+0;10.2642,-0.5122;GA-03;Moyen-Ogooué;Adané
+0;10.7333,0.6000;GA-01;Estuaire;Adamenzork
+0;10.5667,-0.3000;GA-03;Moyen-Ogooué;Ackok
+0;9.5176,-1.0335;GA-08;Ogooué-Maritime;Achouka
+0;9.7472,-0.8749;GA-03;Moyen-Ogooué;Achouka
+0;11.7792,-0.0959;GA-06;Ogooué-Ivindo;Achouka
+0;9.0286,-1.2162;GA-08;Ogooué-Maritime;Achanga
+0;14.2327,-1.5863;GA-02;Haut-Ogooué;Abouyi
+0;9.1000,-0.7000;GA-08;Ogooué-Maritime;Abounaviri
+0;9.6167,0.2500;GA-01;Estuaire;Abouna
+0;9.8416,0.8562;GA-01;Estuaire;Aboumé
+0;11.4500,-1.0000;GA-04;Ngouni;Aboukoua
+0;13.9333,-0.7833;GA-02;Haut-Ogooué;Aboto
+0;10.3500,-0.6000;GA-03;Moyen-Ogooué;Abor-Tikamé
+0;12.9752,0.8254;GA-06;Ogooué-Ivindo;Abor
+0;11.5667,0.8833;GA-09;Woleu-Ntem;Abong-Miang II
+0;11.5500,0.9000;GA-09;Woleu-Ntem;Abong-Miang I
+0;11.6500,0.9833;GA-09;Woleu-Ntem;Abong Ahoun
+0;10.7472,1.0028;GA-09;Woleu-Ntem;Abogotom
+0;10.0667,0.2333;GA-01;Estuaire;Abian Minfakh
+0;11.5960,1.5235;GA-09;Woleu-Ntem;Abiane
+0;11.2167,0.6500;GA-09;Woleu-Ntem;Abiane
+0;11.3667,0.4167;GA-09;Woleu-Ntem;Abiane
+0;11.0833,0.6000;GA-09;Woleu-Ntem;Abenilam
+0;12.0000,0.3333;GA-06;Ogooué-Ivindo;Abeng
+0;10.0833,0.6333;GA-01;Estuaire;Abénélang
+0;9.6333,0.6167;GA-01;Estuaire;Abénélang
+0;10.4667,-0.3833;GA-03;Moyen-Ogooué;Abénélang
+0;9.8333,0.2500;GA-01;Estuaire;Abénélang
+0;10.0667,0.2333;GA-01;Estuaire;Abénélang
+0;10.6167,0.5833;GA-01;Estuaire;Abenelan
+0;13.1167,-1.1000;GA-07;Ogooué-Lolo;Abéna
+0;11.4554,1.9333;GA-09;Woleu-Ntem;Abeme
+0;9.4718,-0.9272;GA-08;Ogooué-Maritime;Abelago
+0;9.4624,-0.9189;GA-08;Ogooué-Maritime;Abelago
+0;11.0667,0.6500;GA-09;Woleu-Ntem;Abel
+0;11.5000,2.0333;GA-09;Woleu-Ntem;Abéga
+0;11.1611,0.1747;GA-03;Moyen-Ogooué;Abébéa
+0;11.5303,2.2713;GA-09;Woleu-Ntem;Abé
+0;9.7892,0.9676;GA-01;Estuaire;Abas
+0;11.5725,1.9508;GA-09;Woleu-Ntem;Abang-Si
+0;12.0500,0.9667;GA-09;Woleu-Ntem;Abang-Melem
+0;10.9560,0.9794;GA-09;Woleu-Ntem;Abang-Ayo
+0;11.6333,1.8000;GA-09;Woleu-Ntem;Abang III
+0;11.6333,1.7833;GA-09;Woleu-Ntem;Abang II
+0;11.6196,1.7739;GA-09;Woleu-Ntem;Abang I
+0;11.7667,2.2167;GA-09;Woleu-Ntem;Abang
+0;11.6333,2.0167;GA-09;Woleu-Ntem;Abang
+0;11.2667,0.6667;GA-09;Woleu-Ntem;Abang
+0;10.5000,-0.2667;GA-03;Moyen-Ogooué;Abandou
+0;11.4230,1.4928;GA-09;Woleu-Ntem;Abana
+0;11.6687,1.6957;GA-09;Woleu-Ntem;Abame
+0;11.4180,1.5384;GA-09;Woleu-Ntem;Abame
+0;11.3667,1.6333;GA-09;Woleu-Ntem;Abam
+0;11.7015,1.1062;GA-09;Woleu-Ntem;Abam
+0;9.3667,0.5667;GA-01;Estuaire;Abaga
+0;10.4667,1.0833;GA-01;Estuaire;Abenilang
+0;13.5333,0.6667;GA-06;Ogooué-Ivindo;Kemboma
+0;12.4167,1.2500;GA-06;Ogooué-Ivindo;Angouma
+0;11.2720,0.9317;GA-09;Woleu-Ntem;Mikonga
+4861;13.0205,-1.8270;GA-02;Haut-Ogooué;Bakoumba
+0;13.2892,-1.6621;GA-02;Haut-Ogooué;Mandjaye
+0;13.7465,-0.4948;GA-02;Haut-Ogooué;Odjala
+51;9.4833,0.0167;GA-01;Estuaire;Ndzome
+0;9.4425,0.3942;GA-01;Estuaire;Akebe Ville
+41524;9.3293,0.6073;GA-01;Estuaire;Akanda
+3164;13.8633,-1.6472;GA-02;Haut-Ogooué;Bongoville
+1137;14.3057,-0.7599;GA-02;Haut-Ogooué;Onga
+1050;14.1383,-0.6552;GA-02;Haut-Ogooué;Aboumi
+0;12.8904,0.5822;GA-06;Ogooué-Ivindo;Idung
+0;13.4205,-1.6280;GA-02;Haut-Ogooué;Dikuba
+0;10.2384,-0.5968;GA-03;Moyen-Ogooué;Mangi

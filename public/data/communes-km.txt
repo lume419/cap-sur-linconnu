@@ -1,0 +1,386 @@
+1917;43.7975,-12.3375;KM-03;Mohéli;Ouanani
+2513;44.3744,-12.2442;KM-01;Anjouan;Vouani
+944;44.3425,-12.2319;KM-01;Anjouan;Vassy
+1654;43.2531,-11.6114;KM-02;Grande Comore;Vanambouani
+12590;44.4647,-12.2058;KM-01;Anjouan;Tsimbeo
+2309;43.3173,-11.8478;KM-02;Grande Comore;Singani
+8737;44.2767,-12.1956;KM-01;Anjouan;Sima
+0;44.3328,-12.1903;KM-01;Anjouan;Sanadani
+24;43.7961,-12.3669;KM-03;Mohéli;Sambia
+93;43.3981,-11.6653;KM-02;Grande Comore;Samba-Madi
+1662;43.2682,-11.8115;KM-02;Grande Comore;Salimani
+0;44.4089,-12.2800;KM-01;Anjouan;Pomoni
+0;43.4519,-11.7643;KM-02;Grande Comore;Pidjani
+1498;44.4372,-12.1556;KM-01;Anjouan;Patsi
+899;43.3931,-11.8748;KM-02;Grande Comore;Panda
+1886;44.4797,-12.2672;KM-01;Anjouan;Ouzini
+0;44.5050,-12.2653;KM-01;Anjouan;Ajaho
+1708;43.2672,-11.5850;KM-02;Grande Comore;Oussivo
+1419;43.4980,-11.9138;KM-02;Grande Comore;Ourovéni
+426;43.3253,-11.3803;KM-02;Grande Comore;Ouémani
+5478;43.3319,-11.3903;KM-02;Grande Comore;Ouellah
+10073;44.4249,-12.1355;KM-01;Anjouan;Ouani
+0;43.6633,-12.3256;KM-03;Mohéli;Ouallah
+0;44.5139,-12.3100;KM-01;Anjouan;Ongoujou
+2058;44.5069,-12.1703;KM-01;Anjouan;Ongoni
+315;44.5028,-12.3464;KM-01;Anjouan;Nounga
+3559;43.2716,-11.6608;KM-02;Grande Comore;Ntsoudjini
+0;44.2500,-12.1667;KM;;Ntsazou
+2760;43.2628,-11.4658;KM-02;Grande Comore;Ntsaouéni
+0;43.2972,-11.7992;KM-02;Grande Comore;Nioumbadjou
+0;44.5012,-12.3534;KM-01;Anjouan;Chaouéni
+0;43.4547,-11.8394;KM-02;Grande Comore;Nioumadzaha Mvoumbari
+2687;43.7153,-12.3614;KM-03;Mohéli;Nioumachoua
+2209;44.5192,-12.3322;KM-01;Anjouan;Kyo
+0;43.2669,-11.4061;KM-02;Grande Comore;Ndzaouze
+26313;44.3994,-12.1667;KM-01;Anjouan;Moutsamoudou
+1171;43.3806,-11.6069;KM-02;Grande Comore;Mtsamdou
+5470;44.4986,-12.3083;KM-01;Anjouan;Mrémani
+5126;44.5286,-12.3464;KM-01;Anjouan;Mramani
+7529;44.4368,-12.3097;KM-01;Anjouan;Moya
+0;44.3167,-12.2000;KM;;Mouroumouli
+0;44.4833,-12.1500;KM;;Moujou
+74749;43.2551,-11.7022;KM-02;Grande Comore;Moroni
+0;43.7808,-12.3617;KM-03;Mohéli;Mouahani
+2014;43.4544,-11.8270;KM-02;Grande Comore;Mohoro
+3114;44.3703,-12.1917;KM-01;Anjouan;Mjimandra
+1490;44.3100,-12.1936;KM-01;Anjouan;Mjamaoué
+3129;43.2804,-11.8121;KM-02;Grande Comore;Mitsoudjé
+4811;43.2844,-11.3847;KM-02;Grande Comore;Mitsamiouli
+0;44.5211,-12.3222;KM-01;Anjouan;Mirondoni
+834;43.6353,-12.2967;KM-03;Mohéli;Miringoni
+0;43.4081,-11.6903;KM-02;Grande Comore;Miréréni
+729;43.2976,-11.5549;KM-02;Grande Comore;Milévani
+0;43.6292,-12.2639;KM-03;Mohéli;Mifoni
+0;43.4331,-11.7739;KM-02;Grande Comore;Membéni
+957;43.3139,-11.8364;KM-02;Grande Comore;Mdjoyézi
+0;43.4667,-11.7167;KM;;Mdjoizema
+0;43.2406,-11.7361;KM-02;Grande Comore;Mdé
+0;43.4197,-11.6942;KM-02;Grande Comore;Mboudé
+5128;43.3775,-11.5014;KM-02;Grande Comore;Mbéni
+0;43.6978,-12.2594;KM-03;Mohéli;Mbatsé
+0;43.2382,-11.7472;KM-02;Grande Comore;Mbachilé
+0;44.4931,-12.3319;KM-01;Anjouan;Mrijou
+1415;44.3133,-12.2308;KM-01;Anjouan;Maraharé
+0;43.7833,-12.3500;KM;;Malhani
+0;43.4975,-11.8842;KM-02;Grande Comore;Male
+0;43.4228,-11.7283;KM-02;Grande Comore;Madjoumadjou
+0;44.4167,-12.2500;KM;;Longoni
+0;43.3167,-11.6000;KM;;La Grotte
+0;43.3333,-11.4500;KM;;La Grille
+0;43.8167,-12.3167;KM;;Labanda
+432;43.3872,-11.5675;KM-02;Grande Comore;Kouhani
+8109;44.4817,-12.2297;KM-01;Anjouan;Koni-Djodjo
+3288;44.4800,-12.2158;KM-01;Anjouan;Koni-Ngani
+0;44.4472,-12.1686;KM-01;Anjouan;Kondroni
+0;43.4733,-11.8558;KM-02;Grande Comore;Kouambani
+4929;44.4417,-12.1714;KM-01;Anjouan;Koki
+2054;43.3567,-11.6231;KM-02;Grande Comore;Koimbani
+856;43.8200,-12.3428;KM-03;Mohéli;Kangani
+3711;44.4727,-12.3210;KM-01;Anjouan;Kangani
+0;43.7833,-12.3167;KM;;Jiroudain
+0;44.4642,-12.0971;KM-01;Anjouan;Jimilimé
+1317;43.3945,-11.3916;KM-02;Grande Comore;Ivouani
+0;43.3181,-11.4778;KM-02;Grande Comore;Ivembeni
+0;43.4167,-11.4167;KM;;Itsoadjou
+0;43.3758,-11.5836;KM-02;Grande Comore;Itsikoudi
+2684;43.2647,-11.6764;KM-02;Grande Comore;Itsandra
+611;43.8678,-12.3642;KM-03;Mohéli;Itsamia
+1463;43.3797,-11.5439;KM-02;Grande Comore;Héroumbili
+0;43.4122,-11.9003;KM-02;Grande Comore;Ifoundihé Chambouani
+356;43.3767,-11.5344;KM-02;Grande Comore;Ifoundihé
+0;43.4139,-11.7106;KM-02;Grande Comore;Idjikoundzi
+1114;43.6747,-12.2508;KM-03;Mohéli;Hoani
+785;43.3158,-11.8447;KM-02;Grande Comore;Hetsa
+0;43.3050,-11.4367;KM-02;Grande Comore;Helendjé
+0;43.4167,-12.4333;KM;;Hantzinzi
+0;43.3833,-11.5833;KM;;Hambo
+0;43.2721,-11.5622;KM-02;Grande Comore;Hahaya
+0;43.8500,-12.3167;KM;;Hagniamada
+0;43.4167,-11.4500;KM;;Hadjambo
+0;43.6833,-12.2500;KM;;Guamarumbo
+3386;43.4953,-11.8654;KM-02;Grande Comore;Foumbouni
+0;43.6500,-12.2500;KM;;Fongapepo
+17291;43.7434,-12.2876;KM-03;Mohéli;Fomboni
+0;44.3000,-12.1833;KM;;Fombani
+1754;44.4833,-12.1833;KM-01;Anjouan;Dziani
+0;43.4444,-11.9078;KM-02;Grande Comore;Dzahadjou
+2000;43.3499,-11.8529;KM-02;Grande Comore;Dzahadjou
+12262;44.5295,-12.2607;KM-01;Anjouan;Domoni
+309;43.6422,-12.2519;KM-03;Mohéli;Domoni
+0;43.2692,-11.4869;KM-02;Grande Comore;Domoni
+0;43.2667,-11.7500;KM;;Djoumbe
+0;43.7500,-12.2833;KM;;Djoumadounia
+0;43.2594,-11.4303;KM-02;Grande Comore;Djomani
+2096;43.7743,-12.3059;KM-03;Mohéli;Djoyézi
+0;44.4525,-12.2100;KM-01;Anjouan;Dindi
+0;43.3144,-11.5569;KM-02;Grande Comore;Dibouani
+0;43.7500,-12.3833;KM;;Demeani
+2657;43.3978,-11.8736;KM-02;Grande Comore;Dembéni
+0;43.6500,-12.3000;KM;;Damou
+0;43.3197,-11.7550;KM-02;Grande Comore;La Convalescence
+807;43.3858,-11.6431;KM-02;Grande Comore;Chomoni
+2391;44.3525,-12.1911;KM-01;Anjouan;Chironkamba
+1471;43.4911,-11.9233;KM-02;Grande Comore;Chindini
+2322;43.3963,-11.4314;KM-02;Grande Comore;Chezani
+5645;44.4647,-12.1950;KM-01;Anjouan;Chandra
+2615;43.2943,-11.8233;KM-02;Grande Comore;Chouani
+0;43.7167,-12.3333;KM;;Buanitonque
+1104;43.3883,-11.4869;KM-02;Grande Comore;Bouni
+2465;44.2994,-12.2056;KM-01;Anjouan;Boungouéni
+0;44.5117,-12.3489;KM-01;Anjouan;Bouéjou
+105;43.2803,-11.7525;KM-02;Grande Comore;Boboni
+2052;44.2356,-12.1883;KM-01;Anjouan;Bimbini
+0;44.4489,-12.1792;KM-01;Anjouan;Bazimini
+0;43.4167,-11.8333;KM;;Barakani
+0;43.7514,-12.2839;KM-03;Mohéli;Bangoma
+0;43.3528,-11.3675;KM-02;Grande Comore;Bangoua Kouni
+0;43.3000,-11.8167;KM;;Bangoi
+0;43.8167,-12.3333;KM;;Bandani
+0;44.3856,-12.2447;KM-01;Anjouan;Bandani-Vouani
+2699;44.5164,-12.2033;KM-01;Anjouan;Bambao
+0;43.8000,-12.3000;KM;;Babani
+1112;44.3197,-12.2331;KM-01;Anjouan;Assimpao
+1180;44.5225,-12.3564;KM-01;Anjouan;Antsahé
+0;43.6342,-12.2681;KM-03;Mohéli;Kobela
+585;43.6319,-12.2744;KM-03;Mohéli;Hamba
+0;43.6317,-12.2858;KM-03;Mohéli;Chikoni
+0;43.6597,-12.3211;KM-03;Mohéli;Miréréni
+0;43.6683,-12.3397;KM-03;Mohéli;Mirémani
+0;43.6822,-12.3428;KM-03;Mohéli;Ndrondroni
+316;43.6731,-12.2617;KM-03;Mohéli;Ngamaroumbo
+0;43.6692,-12.2508;KM-03;Mohéli;Gnambo Yamaoré
+1410;43.7036,-12.2611;KM-03;Mohéli;Mtakoudja
+0;43.7585,-12.2985;KM-03;Mohéli;Bandaressalam
+147;43.7519,-12.3508;KM-03;Mohéli;Ndréméani
+0;43.7675,-12.3583;KM-03;Mohéli;Mihoungouni
+0;43.7806,-12.3342;KM-03;Mohéli;Siri
+1197;43.7775,-12.3325;KM-03;Mohéli;Ziroudani
+0;43.7781,-12.3006;KM-03;Mohéli;Gnombéni
+0;43.8114,-12.3314;KM-03;Mohéli;Mlabanda
+0;43.8308,-12.3750;KM-03;Mohéli;Hagnengélé
+0;43.8314,-12.3397;KM-03;Mohéli;Mouhou
+778;43.8383,-12.3731;KM-03;Mohéli;Hamavouna
+0;43.8425,-12.3333;KM-03;Mohéli;Hagnamouada
+0;44.2228,-12.1686;KM-01;Anjouan;Ntakoudja
+0;44.2264,-12.1714;KM-01;Anjouan;Bangouélamvouéra
+0;44.2367,-12.1778;KM-01;Anjouan;Ntsajou
+0;44.2458,-12.1956;KM-01;Anjouan;Souni
+882;44.2525,-12.1906;KM-01;Anjouan;Mirongani
+885;44.2639,-12.1981;KM-01;Anjouan;Milembéni
+2160;44.2694,-12.1919;KM-01;Anjouan;Kavani
+0;44.2747,-12.1858;KM-01;Anjouan;Majouani
+0;44.2578,-12.1811;KM-01;Anjouan;Mtsangamléni
+1816;44.2869,-12.1917;KM-01;Anjouan;Bandajou
+0;44.2894,-12.2189;KM-01;Anjouan;Lamboué
+0;44.3011,-12.2183;KM-01;Anjouan;Iméré
+0;44.3031,-12.2250;KM-01;Anjouan;Mro Mouhouli
+0;44.3103,-12.2292;KM-01;Anjouan;Mitréni
+148;44.3231,-12.2356;KM-01;Anjouan;Chitsangachélé
+0;44.3097,-12.2072;KM-01;Anjouan;Vindjajou
+0;44.3178,-12.1944;KM-01;Anjouan;Mkirijou
+0;44.3206,-12.1922;KM-01;Anjouan;Sombé
+0;44.3186,-12.1906;KM-01;Anjouan;Chongochahari
+1081;44.3356,-12.1858;KM-01;Anjouan;Chitrouni
+16;44.3311,-12.2364;KM-01;Anjouan;Hadongo
+0;44.3619,-12.2350;KM-01;Anjouan;Dzindri Mtsangani
+320;44.3622,-12.2328;KM-01;Anjouan;Salamani
+0;44.3536,-12.2303;KM-01;Anjouan;Dzindri
+0;44.3419,-12.1894;KM-01;Anjouan;Bandani Mtsangani
+0;44.3447,-12.1961;KM-01;Anjouan;Maouéni
+0;44.3617,-12.1933;KM-01;Anjouan;Ankibani
+0;44.3669,-12.2389;KM-01;Anjouan;Marontronii
+0;44.3678,-12.2361;KM-01;Anjouan;Iméré
+1059;44.3881,-12.2508;KM-01;Anjouan;Dar Salam
+0;44.3969,-12.2519;KM-01;Anjouan;Choungoui
+0;44.4811,-12.0767;KM-01;Anjouan;Banda Mtsanga
+2505;44.4888,-12.1243;KM-01;Anjouan;Hajoho
+0;44.4942,-12.1192;KM-01;Anjouan;Ndrangani
+0;44.4366,-12.1389;KM-01;Anjouan;Gnantranga
+1698;44.4983,-12.1511;KM-01;Anjouan;Harembo
+0;44.4989,-12.1472;KM-01;Anjouan;Lamahalé
+11955;44.4099,-12.1604;KM-01;Anjouan;Mirontsi
+0;44.4014,-12.1692;KM-01;Anjouan;Hombo
+0;44.4067,-12.1733;KM-01;Anjouan;Sangani
+1894;44.3881,-12.1697;KM-01;Anjouan;Pajé
+0;44.3875,-12.1744;KM-01;Anjouan;Moujimouvia
+0;44.3783,-12.1800;KM-01;Anjouan;Mouamoua
+0;44.5106,-12.2036;KM-01;Anjouan;Mromagi
+0;44.5225,-12.2233;KM-01;Anjouan;Jéjé
+1037;44.5053,-12.2394;KM-01;Anjouan;Limbi
+3583;44.4183,-12.2558;KM-01;Anjouan;Lingoni
+0;44.3978,-12.2656;KM-01;Anjouan;Hamamboua
+0;44.5264,-12.2744;KM-01;Anjouan;Mbouéladoungou
+489;44.4978,-12.2786;KM-01;Anjouan;Outsa
+2213;44.4158,-12.2781;KM-01;Anjouan;Magnassini-Nindri
+0;44.4194,-12.2822;KM-01;Anjouan;Koué
+0;44.4394,-12.2889;KM-01;Anjouan;Nkozini
+10858;44.4972,-12.2925;KM-01;Anjouan;Adda-Douéni
+0;44.4972,-12.2992;KM-01;Anjouan;Jandza
+0;44.4956,-12.3131;KM-01;Anjouan;Bandracouni
+0;44.5200,-12.3622;KM-01;Anjouan;Bandamaji
+0;44.5019,-12.3425;KM-01;Anjouan;Mnazichoumoué
+2676;44.4886,-12.3258;KM-01;Anjouan;Daji
+0;44.4631,-12.3169;KM-01;Anjouan;Chindrini
+0;44.4569,-12.3195;KM-01;Anjouan;Maouéni
+0;44.5031,-12.3564;KM-01;Anjouan;Bouijou
+0;44.5069,-12.3711;KM-01;Anjouan;Salapouani
+0;43.3050,-11.3772;KM-02;Grande Comore;Trou du Prophète
+0;43.3067,-11.3806;KM-02;Grande Comore;Memboua Bouani
+10000;43.2881,-11.3897;KM-02;Grande Comore;Nkourani
+409;43.2908,-11.3922;KM-02;Grande Comore;Songomani
+0;43.2939,-11.3964;KM-02;Grande Comore;Bangouamafsakoa
+0;43.2847,-11.3986;KM-02;Grande Comore;Ntsadjéni
+490;43.2681,-11.3986;KM-02;Grande Comore;Fâssi
+1930;43.2822,-11.4050;KM-02;Grande Comore;Ouhozi
+0;43.2878,-11.4119;KM-02;Grande Comore;Founga
+0;43.2953,-11.4108;KM-02;Grande Comore;Anihani
+0;43.3053,-11.4053;KM-02;Grande Comore;Toyifa
+0;43.3136,-11.4003;KM-02;Grande Comore;Membouadjou
+0;43.3383,-11.4022;KM-02;Grande Comore;Koua
+0;43.3721,-11.3980;KM-02;Grande Comore;Balsa
+0;43.3757,-11.4036;KM-02;Grande Comore;Ouzio
+0;43.4092,-11.4214;KM-02;Grande Comore;Ndroudé
+0;43.3806,-11.4133;KM-02;Grande Comore;Mrouadjou
+0;43.3828,-11.4183;KM-02;Grande Comore;Massihini
+0;43.3831,-11.4200;KM-02;Grande Comore;Salimani
+374;43.3822,-11.4183;KM-02;Grande Comore;Bandamadji
+0;43.3842,-11.4211;KM-02;Grande Comore;Maoré
+1602;43.2953,-11.4181;KM-02;Grande Comore;Mandza
+1778;43.2889,-11.4211;KM-02;Grande Comore;Douniani
+1391;43.3471,-11.4051;KM-02;Grande Comore;Koua
+0;43.2678,-11.4303;KM-02;Grande Comore;Mchénazi
+0;43.2983,-11.4300;KM-02;Grande Comore;Zouda
+0;43.2936,-11.4422;KM-02;Grande Comore;Haïgnandrama
+2004;43.4110,-11.4318;KM-02;Grande Comore;Hantsindzi
+0;43.4048,-11.4430;KM-02;Grande Comore;Nioumamilina
+0;43.3017,-11.4417;KM-02;Grande Comore;Minoungouni
+0;43.2919,-11.4497;KM-02;Grande Comore;Manda
+0;43.2769,-11.4475;KM-02;Grande Comore;Miréréni
+0;43.2669,-11.4447;KM-02;Grande Comore;Chamle
+0;43.2778,-11.4636;KM-02;Grande Comore;Djoengoé
+0;43.2778,-11.4681;KM-02;Grande Comore;Simboussa
+0;43.2869,-11.4681;KM-02;Grande Comore;Mouadja
+0;43.2950,-11.4719;KM-02;Grande Comore;Founga
+0;43.3161,-11.4633;KM-02;Grande Comore;Maouéni
+0;43.3644,-11.4736;KM-02;Grande Comore;Dimadjou
+123;43.3917,-11.4567;KM-02;Grande Comore;Mbatsé
+0;43.3792,-11.4633;KM-02;Grande Comore;Mouadja
+306;43.3881,-11.4653;KM-02;Grande Comore;Ngolé
+0;43.3767,-11.4678;KM-02;Grande Comore;Niadoumbouéni
+1382;43.3844,-11.4728;KM-02;Grande Comore;Itsandzéni
+0;43.3928,-11.4750;KM-02;Grande Comore;Ouéla
+1355;43.3772,-11.4786;KM-02;Grande Comore;Bambadjani
+0;43.3733,-11.4839;KM-02;Grande Comore;Mdjibari
+0;43.2778,-11.4836;KM-02;Grande Comore;Domoni Adjou
+562;43.3575,-11.4986;KM-02;Grande Comore;Batou
+0;43.3683,-11.4936;KM-02;Grande Comore;Kourani
+0;43.3717,-11.4956;KM-02;Grande Comore;Sada Mouamboua
+0;43.3903,-11.4994;KM-02;Grande Comore;Séléyani
+0;43.3778,-11.5086;KM-02;Grande Comore;Salémani
+551;43.3761,-11.5094;KM-02;Grande Comore;Sada-Chihoué
+1013;43.3739,-11.5178;KM-02;Grande Comore;Mnoungou
+137;43.2742,-11.5500;KM-02;Grande Comore;Mbaléni
+0;43.3886,-11.5381;KM-02;Grande Comore;Kangalinda
+0;43.3117,-11.5528;KM-02;Grande Comore;Dzahadjou
+0;43.2873,-11.5657;KM-02;Grande Comore;Bouenindi
+733;43.2878,-11.5792;KM-02;Grande Comore;Bibavou
+0;43.2792,-11.5800;KM-02;Grande Comore;Bangahani
+0;43.3625,-11.5825;KM-02;Grande Comore;Dzaheni
+0;43.2622,-11.6108;KM-02;Grande Comore;Vounambadani
+1830;43.2761,-11.6075;KM-02;Grande Comore;Vanadjou
+417;43.3822,-11.6178;KM-02;Grande Comore;Hassendjé
+0;43.3703,-11.6100;KM-02;Grande Comore;Sima
+692;43.2600,-11.6283;KM-02;Grande Comore;Batsa
+0;43.2747,-11.6264;KM-02;Grande Comore;Dzahadjou
+0;43.3525,-11.6308;KM-02;Grande Comore;Bouéni
+185;43.3578,-11.6319;KM-02;Grande Comore;Sada
+0;43.3522,-11.6331;KM-02;Grande Comore;Irouhé
+0;43.3597,-11.6458;KM-02;Grande Comore;Dzahadjou
+1272;43.2842,-11.6397;KM-02;Grande Comore;Bahani
+0;43.2836,-11.6450;KM-02;Grande Comore;Sima
+976;43.2658,-11.6458;KM-02;Grande Comore;Zivandani
+0;43.2544,-11.6369;KM-02;Grande Comore;Vouadjou
+0;43.2736,-11.6481;KM-02;Grande Comore;Sambakouni
+0;43.2567,-11.6536;KM-02;Grande Comore;Gouni
+0;43.2657,-11.6639;KM-02;Grande Comore;Hantsambou
+790;43.2664,-11.6617;KM-02;Grande Comore;Milembéni
+0;43.2603,-11.6661;KM-02;Grande Comore;Bandamadji
+0;43.2689,-11.6683;KM-02;Grande Comore;Samba
+0;43.2733,-11.6628;KM-02;Grande Comore;Minassini
+523;43.2756,-11.6572;KM-02;Grande Comore;Dzahani
+1000;43.2806,-11.6536;KM-02;Grande Comore;Wela
+0;43.3914,-11.6544;KM-02;Grande Comore;Chamro
+555;43.4050,-11.6714;KM-02;Grande Comore;Sidjou
+476;43.4050,-11.6867;KM-02;Grande Comore;Ntsoralé
+0;43.2739,-11.6717;KM-02;Grande Comore;Mdé
+0;43.2753,-11.6731;KM-02;Grande Comore;Dimadjou
+0;43.2636,-11.6786;KM-02;Grande Comore;Itsambouni
+0;43.2750,-11.6842;KM-02;Grande Comore;Salimani
+4600;43.2706,-11.7014;KM-02;Grande Comore;Tsidjé
+0;43.4242,-11.7058;KM-02;Grande Comore;Foumboudzivouni
+0;43.4250,-11.7150;KM-02;Grande Comore;Tsangadjou
+0;43.4267,-11.7219;KM-02;Grande Comore;Idjouandradja
+4791;43.2752,-11.7196;KM-02;Grande Comore;Mvouni
+0;43.2514,-11.7125;KM-02;Grande Comore;Daché
+1390;43.2623,-11.7195;KM-02;Grande Comore;Mavingouni
+0;43.2553,-11.7258;KM-02;Grande Comore;Itsambouni
+0;43.2436,-11.7297;KM-02;Grande Comore;Sahani
+0;43.2662,-11.7341;KM-02;Grande Comore;Mkazi
+0;43.2786,-11.7572;KM-02;Grande Comore;Djitaché
+311;43.2433,-11.7500;KM-02;Grande Comore;Vouvouni
+5474;43.2371,-11.7449;KM-02;Grande Comore;Ikoni
+407;43.2347,-11.7564;KM-02;Grande Comore;Séréhini
+0;43.2535,-11.7675;KM-02;Grande Comore;Ndroini
+0;43.2437,-11.7749;KM-02;Grande Comore;Mouandzaza Ambouani
+308;43.2636,-11.7675;KM-02;Grande Comore;Daouéni
+0;43.2650,-11.7714;KM-02;Grande Comore;Boudé-Adjou
+0;43.2647,-11.7771;KM-02;Grande Comore;Mouandzaza Djoumbé
+765;43.4361,-11.7544;KM-02;Grande Comore;Oungoni
+0;43.4386,-11.7725;KM-02;Grande Comore;Banda Daouéni
+0;43.4247,-11.7872;KM-02;Grande Comore;Mahavani
+1662;43.2704,-11.7876;KM-02;Grande Comore;Séléa
+0;43.2760,-11.7945;KM-02;Grande Comore;Nioumadzaha
+0;43.4355,-11.7971;KM-02;Grande Comore;Tsinimouapanga
+0;43.4261,-11.7956;KM-02;Grande Comore;Mrondadjou
+0;43.4428,-11.8103;KM-02;Grande Comore;Itsangoué
+0;43.2808,-11.8072;KM-02;Grande Comore;Komioni
+0;43.2951,-11.8098;KM-02;Grande Comore;Djoumouachongo
+0;43.2850,-11.8011;KM-02;Grande Comore;Magaridjou
+0;43.2692,-11.8022;KM-02;Grande Comore;Zikaledjou
+1320;43.2781,-11.8217;KM-02;Grande Comore;Madjeouéni
+0;43.2844,-11.8314;KM-02;Grande Comore;Hamsaoua
+1068;43.4461,-11.8546;KM-02;Grande Comore;Nioumamilima
+0;43.4262,-11.8507;KM-02;Grande Comore;Kourani
+0;43.3886,-11.8556;KM-02;Grande Comore;Mdjoua Hahia
+0;43.3916,-11.8590;KM-02;Grande Comore;Kanzilé
+0;43.3788,-11.8499;KM-02;Grande Comore;Tsinimouachongo
+137;43.3583,-11.8511;KM-02;Grande Comore;Makorani
+0;43.3575,-11.8492;KM-02;Grande Comore;Djivani
+521;43.3416,-11.8524;KM-02;Grande Comore;Mbambani
+0;43.3294,-11.8472;KM-02;Grande Comore;Samba
+0;43.2923,-11.8422;KM-02;Grande Comore;Bangoua
+0;43.4039,-11.8789;KM-02;Grande Comore;Mdji Diakagnoa
+0;43.4189,-11.8787;KM-02;Grande Comore;Domoni
+0;43.4222,-11.8769;KM-02;Grande Comore;Dzouadjou
+352;43.4233,-11.8586;KM-02;Grande Comore;Famaré
+0;43.4589,-11.8653;KM-02;Grande Comore;Mlalouankoudjou
+0;43.4703,-11.8525;KM-02;Grande Comore;Missouiri
+690;43.4722,-11.8758;KM-02;Grande Comore;Kové
+0;43.4522,-11.8794;KM-02;Grande Comore;Simboussa
+0;43.3892,-11.8800;KM-02;Grande Comore;Mindralou
+0;43.3925,-11.8811;KM-02;Grande Comore;Ourondroni
+497;43.3967,-11.8839;KM-02;Grande Comore;Mandzissani
+0;43.3989,-11.8853;KM-02;Grande Comore;Mlimani
+0;43.4153,-11.8886;KM-02;Grande Comore;Ouziouani
+698;43.4108,-11.8864;KM-02;Grande Comore;Dima
+0;43.4442,-11.8867;KM-02;Grande Comore;Kourani-Mkanga
+0;43.4611,-11.8925;KM-02;Grande Comore;Bandamadji
+0;43.4661,-11.8878;KM-02;Grande Comore;Inané
+0;43.4706,-11.8944;KM-02;Grande Comore;Ngnambéni
+490;43.4811,-11.8808;KM-02;Grande Comore;Didjoni
+160;43.4772,-11.9014;KM-02;Grande Comore;Ndzouani
+426;43.4849,-11.9125;KM-02;Grande Comore;Midjendjéni
+0;43.4617,-11.9156;KM-02;Grande Comore;Sima Ambouani
+0;43.4528,-11.9097;KM-02;Grande Comore;Hada-Haïa
+0;43.3808,-11.6143;KM;;Sima Oichili

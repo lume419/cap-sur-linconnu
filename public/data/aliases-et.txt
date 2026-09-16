@@ -1,0 +1,213 @@
+de;Irgalem;Yirga ‘Alem
+pt;Irgalem;Yirga ‘Alem
+en;Irgalem;Yirga ‘Alem
+it;Irgalem;Yirga ‘Alem
+am;ይርጋለም;Yirga ‘Alem
+fr;Yirgalem;Yirga ‘Alem
+es;Irgalem;Yirga ‘Alem
+ar;إرغالم;Yirga ‘Alem
+nl;Irgalem;Yirga ‘Alem
+en;Wuchale;Wich’alē
+it;Uccialli;Wich’alē
+fr;Wuchale;Wich’alē
+nl;Wuchale;Wich’alē
+en;Wereta;Werota
+it;Wereta;Werota
+fr;Wereta;Werota
+am;ወረታ;Werota
+nl;Wereta;Werota
+it;Ualdia;Weldiya
+am;ወልደያ;Weldiya
+ar;ولديا;Weldiya
+en;Wur;Uor
+en;Wumbaro;Umbeiro
+en;Washa Waha;Uesca Ueca
+de;Sheikh Hussein;Shēh Husēn
+en;Sheikh Hussein;Shēh Husēn
+it;Scec Hussèn;Shēh Husēn
+fr;Frisörprogrammet. Målsättningen;Shēh Husēn
+am;ሼክ ሁሴን;Shēh Husēn
+nl;Sheikh Hussein;Shēh Husēn
+de;Shashemene;Shashamane
+fr;Shashamané;Shashamane
+am;ሻሸመኔ;Shashamane
+en;Shasha Post;Shasha
+en;Robe;Bale Robe
+en;Mizan Teferi;Mīzan Teferī
+en;Metemma Yohannes;Metemma
+en;Genda Wuha;Metemma
+de;Metahara;Metahāra
+en;Metehara;Metahāra
+it;Metehara;Metahāra
+fr;Metehara;Metahāra
+nl;Metehara;Metahāra
+de;Mek’ele;Mek'ele
+it;Macallè;Mek'ele
+am;መቀሌ;Mek'ele
+ti;መቐለ;Mek'ele
+en;Mashi;Machi
+en;Omorate;Lobuni
+am;ላሊበላ;Lalibela
+ar;لاليبيلا;Lalibela
+om;Laalibalaa;Lalibela
+en;Keraniyo;K’eranyo
+nl;Keraniyo;K’eranyo
+am;ኮምቦልቻ;Kombolcha
+ar;كومبولشا;Kombolcha
+so;Qabridahare;Kebri Dahar
+pt;Jima;Jimma
+it;Gimma;Jimma
+am;ጅማ;Jimma
+es;Jima;Jimma
+ar;جيما;Jimma
+fr;Djidjiga;Jijiga
+am;ጅጅጋ;Jijiga
+pt;Djidjiga;Jijiga
+de;Dschidschiga;Jijiga
+so;Jigjiga;Jijiga
+en;Djamu;Jemu
+en;Himora;Humera
+fr;Hawzen;Hawzēn
+ar;هوزن;Hawzēn
+de;Hawzen;Hawzēn
+en;Hawzen;Hawzēn
+nl;Hawzen;Hawzēn
+es;Hawzen;Hawzēn
+so;Xarshin;Harshin
+am;ሐረር;Harar
+es;Harar Jugol;Harar
+ar;هرر;Harar
+so;Ceel Baxay;El Bahay
+so;Ceel Bahay;El Bahay
+en;Gurafarda;Guraferda
+en;Gulushi;Gulusci
+en;Gondar;Gonder
+fr;Gondar;Gonder
+nl;Gondar;Gonder
+pt;Gondar;Gonder
+it;Gondar;Gonder
+am;ጎንደር ከተማ;Gonder
+es;Gondar;Gonder
+so;Godey;Gode
+en;Gobe;Gobi
+en;Ginir;Ghinnir
+en;Ghimbi;Gimbi
+en;Jana;Giana
+en;Galkam;Ghelcam
+en;Gatama;Getema
+fr;Gatama;Getema
+nl;Gatama;Getema
+it;Ghelemsò;Gelemso
+en;Faki;Fachi
+it;Goluin;Golwayn
+en;Golwane;Golwayn
+so;Golweyn;Golwayn
+ar;البجاية;El Begaiya
+ar;دوكم;Dukem
+en;Dollo Addo;Dolo Odo
+am;ድሬዳዋ;Dire Dawa
+ar;ديرة داوا;Dire Dawa
+de;Dese;Dessie
+it;Dessiè;Dessie
+am;ደሴ;Dessie
+es;Dese;Dessie
+ar;ديسي;Dessie
+ar;دنجل بر;Dengel Ber
+so;Dhagaxbuur;Degeh Bur
+am;ደገሃቡር;Degeh Bur
+nl;Dejahabur;Degeh Bur
+en;Degehabur;Degeh Bur
+it;Dedèr;Deder
+am;ደብረ ታቦር;Debre Tabor
+ar;ديبري تابور;Debre Tabor
+de;Debre Berhan;Debre Birhan
+fr;Debre Berhan;Debre Birhan
+en;Debre Berhan;Debre Birhan
+it;Debre Berhan;Debre Birhan
+am;ደብረ ብርሃን;Debre Birhan
+es;Debre Berhan;Debre Birhan
+ar;ديبري بيرهان;Debre Birhan
+nl;Debre Berhan;Debre Birhan
+ar;دابات;Dabat
+en;Kolu;Colu
+en;Maji Kella;Chella
+en;Kanta;Canta
+en;Burture;Burtura
+ar;بوري;Burē
+en;Barhan;Brahan
+en;Birbirsa Negeya;Birbiasa Negeya
+en;Bennesha;Benesso
+am;ባሌ ሀዋሳ;Bale Hawassa
+pt;Bedessa;Bedēsa
+en;Bedessa;Bedēsa
+it;Bedessa;Bedēsa
+fr;Bedessa;Bedēsa
+es;Bedessa;Bedēsa
+nl;Bedessa;Bedēsa
+de;Bahar Dar;Bahir Dar
+fr;Baher Dar;Bahir Dar
+am;ባሕር-ዳር;Bahir Dar
+ar;بحر دار;Bahir Dar
+en;Ayikel;Āykel
+fr;Aykel;Āykel
+nl;Ayikel;Āykel
+de;Awassa;Awasa
+am;ሀዋሳ;Awasa
+fr;Assayta;Asaita
+es;Asayita;Asaita
+nl;Asayita;Asaita
+am;አርባ ምንጭ;Arba Minch
+om;Haramaya;‘Alemaya
+en;Axum;Aksum
+am;አክሱም;Aksum
+ar;أكسوم;Aksum
+fr;Aksoum;Aksum
+it;Axum;Aksum
+de;Afdem;Āfdem
+fr;Adoua;Adwa
+am;አድዋ;Adwa
+it;Adua;Adwa
+es;Adua;Adwa
+ti;ዓድዋ;Adwa
+en;Addis Zemen;Ādīs Zemen
+it;Addis Zemen;Ādīs Zemen
+fr;Addis Zemen;Ādīs Zemen
+am;አዲስ ዘመን;Ādīs Zemen
+nl;Addis Zemen;Ādīs Zemen
+am;Ādīs Ābeba;Addis Ababa
+de;Addis Abeba;Addis Ababa
+es;Addis Abeba;Addis Ababa
+am;አዲስ አበባ;Addis Ababa
+ar;أديس أبابا;Addis Ababa
+fr;Addis-Abeba;Addis Ababa
+it;Addis Abeba;Addis Ababa
+nl;Addis Abeba;Addis Ababa
+pt;Adis Abeba;Addis Ababa
+es;Adís Abeba;Addis Ababa
+en;Addikas;Adicas
+de;Adama;Ādama
+en;Koraf;Qorof
+en;Corof;Qorof
+so;Qorrof;Qorof
+so;Ceel Dibir;El Dibir
+so;Laasacaano;Lasoano
+so;Laasocaanood;Lasoano
+am;Semera;Samara
+en;Semera;Samara
+fr;Semera;Samara
+am;ሰመራ;Samara
+om;Nageellee Arsii;Arsi Negele
+ar;سانكال;Sankal
+am;ዲምቱ;Dimtu
+am;በዴሳ;Badessa
+am;ጉኑኖ;Gununo
+am;ሃላሌ;Halale
+am;በቅሎ ሰኞ;Baqulo Sanyo
+am;ላሾ;Lasho
+am;ጠበላ;Tebela
+en;Tabala;Tebela
+am;ሆቢቻ ባዳ;Hobicha Bada
+am;ቀርጨጬ;Kercheche
+am;ኤዶ;Edo
+am;አንካ ሮብ;Anka Oruwa
+en;Oromitu;Alemitu

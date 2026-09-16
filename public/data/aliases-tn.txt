@@ -50,6 +50,8 @@ fr;Sbeïtla;Sbeitla
 ar;سبيطلة;Sbeitla
 kab;Sbaytla;Sbeitla
 ru;Сбейтла;Sbeitla
+ru;Силиана;Siliana
+ar;سليانة;Siliana
 ar;سيدي داود;Sidi Daoud
 ru;Сиди-Бу-Зид;Sidi Bouzid
 ar;سيدي بوزيد;Sidi Bouzid

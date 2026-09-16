@@ -1,0 +1,41 @@
+de;Sibinda;Sibbinda
+en;Sibinda;Sibbinda
+fr;Sibinda;Sibbinda
+es;Sibinda;Sibbinda
+nl;Sibinda;Sibbinda
+en;Kapupahedi;Ncogco
+ar;كاتيما مولিلو;Katima Mulilo
+en;Diyogha;Dryogha
+zu;Diyogha;Dryogha
+nl;Diyogha;Dryogha
+ar;ويندهوك;Windhoek
+pt;Vinduque;Windhoek
+ar;سواكوبموند;Swakopmund
+ar;رونdu;Rundu
+ar;ريهوبوث;Rehoboth
+ar;أوتجيوارونغو;Otjiwarongo
+ar;أوشيكانغو;Oshikango
+ar;أوشاكاتي;Oshakati
+ar;أوبوو;Opuwo
+ar;أوموثيا;Omuthiya
+en;Omaazonga;Omaazongaku
+de;Okongo;Ekongo
+en;Okongo;Ekongo
+zu;Okongo;Ekongo
+nl;Okongo;Ekongo
+ar;نكورنكورو;Nkurenkuru
+ar;ماريينتال;Mariental
+ar;لودريتز;Lüderitz
+ar;كيتمانشوب;Keetmanshoop
+ar;كارازبورغ;Karasburg
+en;Halali Rest Camp;Halali
+en;Halali Ruskamp;Halali
+ar;غوبابيس;Gobabis
+ar;إينهانا;Eenhana
+en;Ababis Guest Farm;Ababis
+af;Walvisbaai;Walvis Bay
+nl;Walvisbaai;Walvis Bay
+ar;ولفس بي;Walvis Bay
+ar;أوتابي;Outapi
+en;Lafrenz;Lafrenz Township
+en;Kamagams;Kalk Oond

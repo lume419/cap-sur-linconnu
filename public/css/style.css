@@ -8,6 +8,8 @@
     --ink-soft:#55645A;
     --ink-faint:#8A8F7E;
     --accent:#D9541F;
+    --tension-red:#B3261E;
+    --tension-orange:#B25E00;
     --accent-hover:#C24815;
     --accent-ink:#FFF3E9;
     --accent-2:#B8891C;
@@ -33,6 +35,8 @@
       --ink-soft:#AEB3A2;
       --ink-faint:#71786C;
       --accent:#FF7A3D;
+      --tension-red:#FF8A80;
+      --tension-orange:#FFB74D;
       --accent-hover:#FF9257;
       --accent-ink:#241005;
       --accent-2:#E3BE52;
@@ -53,6 +57,8 @@
     --ink-soft:#AEB3A2;
     --ink-faint:#71786C;
     --accent:#FF7A3D;
+    --tension-red:#FF8A80;
+    --tension-orange:#FFB74D;
     --accent-hover:#FF9257;
     --accent-ink:#241005;
     --accent-2:#E3BE52;
@@ -955,3 +961,32 @@ html[lang="zgh"] select,
 html[lang="zgh"] textarea {
   font-family: "Noto Sans Tifinagh", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
+
+/* ─────────────────────────────────────────────────────────────────────────────────────────────
+   Police éthiopienne (guèze) — amharique (am) et tigrinya (ti)
+   Deuxième police embarquée du projet après le tifinagh. L'écriture guèze (bloc Unicode
+   U+1200–U+139F et ses extensions) n'est pas garantie sur tous les systèmes. Noto Sans Ethiopic,
+   licence SIL Open Font License 1.1, hébergée localement. Plus lourde que la police tifinagh
+   (~377 ko, l'écriture comptant plusieurs centaines de syllabes), mais le `unicode-range` fait
+   que le navigateur ne la télécharge QUE s'il a réellement des caractères guèzes à afficher —
+   un visiteur qui n'affiche jamais l'amharique ou le tigrinya ne la charge jamais.
+   ───────────────────────────────────────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: "Noto Sans Ethiopic";
+  src: url("../fonts/NotoSansEthiopic-Regular.ttf") format("truetype");
+  font-display: swap;
+  unicode-range: U+1200-139F, U+2D80-2DDF, U+AB00-AB2F;
+}
+html[lang="am"] body, html[lang="am"] input, html[lang="am"] button, html[lang="am"] select, html[lang="am"] textarea,
+html[lang="ti"] body, html[lang="ti"] input, html[lang="ti"] button, html[lang="ti"] select, html[lang="ti"] textarea {
+  font-family: "Noto Sans Ethiopic", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Zones à tension (France Diplomatie) : avertissement sur une étape ou sur le point de départ. */
+.tension-row{border-left:3px solid currentColor; padding:.35rem .6rem; border-radius:6px; background:color-mix(in srgb, currentColor 8%, transparent);}
+.tension-row.tension-red{color:var(--tension-red);}
+.tension-row.tension-orange{color:var(--tension-orange);}
+.tension-row svg{color:currentColor;}
+.tension-row .lbl{color:currentColor;}
+.tension-row a{color:currentColor; text-decoration:underline;}
+#days > .tension-row{margin-bottom:1rem;}

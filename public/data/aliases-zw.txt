@@ -1,0 +1,94 @@
+en;Guruwe;Guruve
+en;Sipolilo;Guruve
+en;Chipuriro;Guruve
+en;Chiporiro;Guruve
+en;Zikamanus;Zikamanas Village
+en;Ziyakamanas;Zikamanas Village
+fr;Chutes Victoria;Victoria Falls
+de;Thuli;Tuli
+tn;Motse wa Tuli;Tuli
+en;Tandaai;Tandai
+nl;Tandaai;Tandai
+en;Tsamvi;Shamva
+en;Tsambvi;Shamva
+en;St. Marys;Saint Marys
+en;Sava;Saba
+en;Rupisi;Rupise
+en;Pashus;Pashu
+en;Pambuka African Township;Pambuka
+de;Nyamapanda;Nyamapande
+en;Nyamapanda;Nyamapande
+zu;Nyamapanda;Nyamapande
+nl;Nyamapanda;Nyamapande
+en;Ngezi Siding;Ngezi
+en;Ngesi;Ngezi
+en;Ingezi;Ngezi
+en;Ingesi;Ngezi
+en;Nuanetsi;Mwenezi
+en;Miami;Mwami
+en;Maimi;Mwami
+en;Mtepatepa;Mutepatepa
+ar;موتاري;Mutare
+en;Murehwa;Murewa
+en;Mrewa;Murewa
+en;Munyati;Sanyati
+zu;Munyati;Sanyati
+nl;Munyati;Sanyati
+en;Mtawalos Village;Mtawalos
+en;Mount Fura;Mount Darwin
+en;Darwin;Mount Darwin
+en;Mkasa;Makaza
+en;Mangula;Mhangura
+en;Belingwe;Mberengwa
+en;Balla Balla;Mbalabala
+en;Balabala;Mbalabala
+en;Mataga;Mataka
+ar;ماسفينجو;Masvingo
+ar;مارونديرا;Marondera
+en;Magunge;Magunje
+en;Lusulu Settlement;Lusulu
+ar;لوبان;Lupane
+en;Mazhula;Lonely Mine
+en;Kubiko;Kubiku
+en;Karoyi;Karoi
+en;Karoi;Karoyi
+ar;كاريبا;Kariba
+en;Kamativi;Kamativi Mine
+en;Kamitivi;Kamativi Mine
+en;Kalugus Village;Kalugus
+en;Kadelas Village;Kadelas
+en;Jojos Village;Jojos
+en;Jojo;Jojos
+en;Impampas;Impampa
+ar;هوانج;Hwange
+ar;هراري;Harare
+ar;جويرو;Gweru
+ar;جوندا;Gwanda
+en;Glencova;GlenClova
+en;Filimons Village;Filimons
+en;Emfelabuso;Filabusi
+en;Esimbomvu;Esibomvu
+zu;Esimbomvu;Esibomvu
+nl;Esimbomvu;Esibomvu
+en;Dorowa;Dorowa Mining Lease
+nl;Dorowa;Dorowa Mining Lease
+en;Dombosnawa;Domboshawa
+de;Domboshava;Domboshawa
+pt;Domboshava;Domboshawa
+en;Dagamella;Dagamela
+en;Chipinga;Chipinge
+ar;تشينهوي;Chinhoyi
+en;Chief Sinsalis Village;Chief Siansali
+en;Chief Simupas Village;Chief Simupa
+en;Chief Madhliwa;Chief Madliwa
+en;Chief Mabigwa;Chief Mabikwa
+fr;Dabolas;Chief Dabola
+en;Chichindwe;Chichindwi Homestead
+en;Chibuwe;Chibunje
+en;Chibi;Chivi
+ar;بولاوايو;Bulawayo
+ar;بيندورا;Bindura
+af;Beitbrug;Beitbridge
+ar;بيتبريدج;Beitbridge
+en;Arcturas;Arcturus
+en;Bota;Chief Bota

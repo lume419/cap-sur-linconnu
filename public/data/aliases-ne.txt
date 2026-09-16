@@ -1,0 +1,31 @@
+ar;زيندر;Zinder
+am;ዚንደር;Zinder
+ar;تين داوين;Ti-n-Daouine
+ar;تيلابيري;Tillabéri
+es;Tillaberi;Tillabéri
+am;ቲላበሪ;Tillabéri
+ha;Tillaberi;Tillabéri
+om;Tillaberi;Tillabéri
+pt;Tillaberi;Tillabéri
+so;Tillaberi;Tillabéri
+ar;تاهوا;Tahoua
+am;ታሁዋ;Tahoua
+ar;اوباندوك مكين;Oubandawaki Makiani
+am;ኒያሜ;Niamey
+ar;نيامي;Niamey
+ar;مرادي;Maradi
+am;ማራዲ;Maradi
+ar;دوسو;Dosso
+am;ዶሶ;Dosso
+ar;ديفا;Diffa
+am;ዲፋ;Diffa
+ar;بيلما;Bilma
+ar;أرليت;Arlit
+fr;Anaye;Aney
+fr;Anay;Aney
+pt;Agadèz;Agadez
+ar;أغاديس;Agadez
+am;አጋዴዝ;Agadez
+ar;أفسا;Afassa
+ar;تين تبوراك;Ti-n-Taboûrak
+ar;ديركو;Dirkou

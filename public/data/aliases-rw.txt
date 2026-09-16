@@ -1,0 +1,42 @@
+ar;رواماغانا;Rwamagana
+es;Ruhengeri;Musanze
+fr;Ruhengeri;Musanze
+en;Ruhengeri;Musanze
+pt;Ruhengeri;Musanze
+fr;Plateau Ngarama;Ngarama
+en;Ngarama Plateau;Ngarama
+fr;Plateau Kipuye;Kivuye
+en;Kipuye Plateau;Kivuye
+fr;Plateau Kaniga;Kizinga
+en;Kaniga Plateau;Kizinga
+fr;Plateau Chyuru;Cyuru
+en;Chyuru Plateau;Cyuru
+fr;Mont Ndjari;Jali
+fr;Mont Jari;Jali
+en;Mount Jali;Jali
+en;Mount Jari;Jali
+en;Mount Ndjari;Jali
+ar;كيغالي;Kigali
+ar;كيبويي;Kibuye
+fr;Mission Ruhanga;Ruhanga
+en;Ruhanga Mission;Ruhanga
+en;Muramba Hill;Colline Muramba
+fr;Gosenyi;Gisenyi
+ar;جيسايني;Gisenyi
+ar;بيومبا;Byumba
+en;Butare-Town;Butare-Ville
+ar;نيانزا;Nyanza
+en;Settlement Scheme C;Paysannat C
+en;Settlement Scheme E;Paysannat E
+en;Settlement Scheme B;Paysannat B
+en;Settlement Scheme A;Paysannat A
+en;Settlement Scheme M;Paysannat M
+en;Settlement Scheme L;Paysannat L
+en;Settlement Scheme K;Paysannat K
+en;Settlement Scheme G;Paysannat G
+en;Settlement Scheme H;Paysannat H
+fr;Extraction de gaz Rurembo;Rurembo
+en;Rurembo Gas Extraction Plant;Rurembo
+fr;Centre de Négoce KAJAGARI;Kajagari Trading Centre
+fr;Centre de Négoce RUHIMBI;Ruhimbi Trading Centre
+fr;Centre de Negoce KAJEVUBA;Kajevuba Trading Centre
