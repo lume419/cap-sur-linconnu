@@ -16,15 +16,14 @@
 // 22 juillet 2020), et tout débarquement exige une autorisation du préfet des TAAF. Les seuls points
 // repris sont donc les ÎLES elles-mêmes telles que GeoNames les décrit (classe T, entrées 1024032
 // Île Glorieuse, 1024034 Île du Lys, 1024028 Île Juan de Nova), population 0, sous la division
-// GeoNames TF.05 « Îles Éparses ». Les autres îles Éparses (Europa, Bassas da India, Tromelin) et le
-// reste des TAAF ne sont pas demandés et ne sont pas ajoutés.
+// GeoNames TF.05 « Îles Éparses ». Depuis septembre 2026, tout TF (îles Éparses complètes, Kerguelen, Crozet,
+// Saint-Paul-et-Amsterdam, Terre-Adélie) est produit par scripts/build-antarctique-communes.js.
 
 const fs = require('fs');
 const path = require('path');
 
 const SH_POSTCODES = { '01': 'ASCN 1ZZ', '02': 'STHL 1ZZ', '03': 'TDCU 1ZZ' };
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
-const TF_ISLAND_IDS = ['1024032', '1024034', '1024028'];
 
 function readAdmin1Names(){
   const map = new Map();
@@ -56,37 +55,4 @@ function write(cc, lines){
 }
 
 // ── ÎLES GLORIEUSES ET JUAN DE NOVA ───────────────────────────────────────────────────────────────
-{
-  const byId = new Map(rows('TF').map(c => [c[0], c]));
-  const lines = TF_ISLAND_IDS.map(id => {
-    const c = byId.get(id);
-    if(!c) throw new Error('entrée GeoNames absente : ' + id);
-    const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
-    return `0;${lon.toFixed(4)},${lat.toFixed(4)};TF-05;${admin1Names.get('TF.05')};${c[1]}`;
-  });
-  write('TF', lines);
-}
-
-// ── Alias des îles Éparses ────────────────────────────────────────────────────────────────────────
-// Le nom GeoNames commence par « Île » : sans alias, taper « Juan de Nova » ou « Glorieuses » ne
-// trouvait rien (la recherche porte sur le début du nom). Alias repris des noms alternatifs GeoNames
-// de chaque île, plus ceux de l'ARCHIPEL des Glorieuses (entrée 1024033, « Îles Glorieuses »,
-// « Glorioso Islands »…) rattachés à Grande Glorieuse, son île principale — seule entrée qui les
-// porte n'étant pas un lieu mais l'archipel lui-même.
-{
-  const LANGS = new Set(['', 'fr', 'en', 'es', 'pt', 'de', 'it', 'nl', 'mg']);
-  const TARGET = { '1024028': 'Île Juan de Nova', '1024032': 'Île Glorieuse', '1024033': 'Île Glorieuse', '1024034': 'Île du Lys' };
-  const seen = new Set(), out = [];
-  fs.readFileSync(path.join(__dirname, 'altnames', 'TF.txt'), 'utf8').split('\n').filter(Boolean).map(l => l.split('\t')).forEach(c => {
-    const canonical = TARGET[c[1]], lang = c[2], alt = c[3];
-    if(!canonical || !LANGS.has(lang) || !alt || c[7] === '1') return;
-    if(alt.toLowerCase() === canonical.toLowerCase()) return;
-    const k = (lang || 'fr') + '|' + alt.toLowerCase() + '|' + canonical;
-    if(seen.has(k)) return;
-    seen.add(k);
-    out.push(`${lang || 'fr'};${alt};${canonical}`);
-  });
-  const outPath = path.join(__dirname, '..', 'public', 'data', 'aliases-tf.txt');
-  fs.writeFileSync(outPath, out.join('\n') + '\n', 'utf8');
-  console.log('TF : ' + out.length + ' alias -> ' + outPath);
-}
+// Déplacé (septembre 2026) dans scripts/build-antarctique-communes.js, qui produit désormais toutes les TAAF.

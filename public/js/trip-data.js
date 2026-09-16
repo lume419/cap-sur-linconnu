@@ -688,8 +688,12 @@
       // les trois entrées sont les îles elles-mêmes (GeoNames), chacune isolée, population 0 — un départ
       // y aboutit à « itinéraire impossible ». Glorieuses et Juan de Nova sont revendiquées par
       // Madagascar (résolution 34/91 de l'Assemblée générale de l'ONU, 1979) : reprises TELLES QUE
-      // GeoNames les range, sous TF. Le code TF couvre ici ces deux îles seulement, pas le reste des TAAF.
-      TF: { code:'TF', name:'Îles Glorieuses et Juan de Nova (TAAF)', file:'communes-tf.txt', hasToll:false, aliasFile:'aliases-tf.txt', currency:'EUR' },
+      // GeoNames les range, sous TF.
+      // Septembre 2026, à la demande de l'utilisateur : TOUTES les TAAF (scripts/build-antarctique-communes.js), même
+      // règle — îles Éparses Europa, Bassas da India et Tromelin (les îles elles-mêmes), bases de Port-aux-Français
+      // (Kerguelen), Alfred Faure (Crozet), Martin-de-Viviès (Amsterdam) et Dumont d'Urville (Terre-Adélie), chacune
+      // isolée. Tromelin est revendiquée par Maurice : reprise sous TF comme GeoNames.
+      TF: { code:'TF', name:'Terres australes et antarctiques françaises', file:'communes-tf.txt', hasToll:false, aliasFile:'aliases-tf.txt', currency:'EUR' },
       // ── RUSSIE (septembre 2026) ─────────────────────────────────────────────────────────────────────
       // scripts/build-russie-svalbard-communes.js : 173 493 lieux avec leur VRAI code postal (fichier
       // GeoNames RU, pipeline standard), régions en latin (admin1 GeoNames). 124 199 alias, dont 87 023 en
@@ -893,7 +897,16 @@
       AR: { code:'AR', name:"Argentine", file:'communes-ar.txt', hasToll:false, aliasFile:'aliases-ar.txt', currency:'ARS' },
       CL: { code:'CL', name:"Chili", file:'communes-cl.txt', hasToll:false, aliasFile:'aliases-cl.txt', currency:'CLP' },
       FK: { code:'FK', name:"Îles Malouines", file:'communes-fk.txt', hasToll:false, aliasFile:'aliases-fk.txt', currency:'FKP' },
-      GS: { code:'GS', name:"Géorgie du Sud-et-les îles Sandwich du Sud", file:'communes-gs.txt', hasToll:false, aliasFile:'aliases-gs.txt', currency:'GBP' }
+      GS: { code:'GS', name:"Géorgie du Sud-et-les îles Sandwich du Sud", file:'communes-gs.txt', hasToll:false, aliasFile:'aliases-gs.txt', currency:'GBP' },
+      // ── ANTARCTIQUE ET ÎLE BOUVET (septembre 2026) ────────────────────────────────────────────────────
+      // Ajoutés « quand même » à la demande de l'utilisateur : RECHERCHABLES, SANS TRAJET (ISLAND_ONLY_COUNTRIES,
+      // chaque lieu isolé). scripts/build-antarctique-communes.js : 88 bases scientifiques et lieux habités GeoNames
+      // (doublons fusionnés), aucun habitant permanent, aucune route vers un autre continent, aucun hébergement public ;
+      // Bouvet : l'île elle-même, inhabitée (réserve naturelle norvégienne, débarquement sur autorisation).
+      // MONNAIE : l'Antarctique n'en a aucune (traité sur l'Antarctique, aucune souveraineté) — EUR, monnaie de
+      // référence de l'application, sans effet puisqu'aucun budget n'y est calculé. Bouvet : NOK (dépendance norvégienne).
+      AQ: { code:'AQ', name:"Antarctique", file:'communes-aq.txt', hasToll:false, aliasFile:'aliases-aq.txt', currency:'EUR' },
+      BV: { code:'BV', name:"Île Bouvet", file:'communes-bv.txt', hasToll:false, aliasFile:'aliases-bv.txt', currency:'NOK' }
     };
 
     var TRANSPORT = {
@@ -2709,6 +2722,11 @@
       MU: [['mauritius', -20.60, -19.90, 57.25, 57.85], ['rodrigues', -19.85, -19.60, 63.30, 63.55]],
       SH: [['ascension', -8.00, -7.85, -14.45, -14.28], ['saintHelena', -16.05, -15.88, -5.80, -5.63], ['tristan', -37.15, -37.00, -12.40, -12.20]],
       TF: [],
+      // Antarctique et Bouvet : listes vides OBLIGATOIRES — landmassOf ne consulte ISLAND_ONLY_COUNTRIES que pour un pays
+      // présent ici ; sans elles, les 88 bases antarctiques formaient une seule masse « continentale » et des trajets
+      // (McMurdo → Qinling, 389 km sur la banquise) étaient proposés.
+      AQ: [],
+      BV: [],
       // Péninsule Arabique et Iran : îles habitées sans pont ni route, chaque boîte vérifiée contre les lieux
       // publiés (les lieux proches hors boîte relus un à un : Bandar Pol, Bandar Abbas, Aş Şalīf, Shannah…
       // tous continentaux, correctement exclus). Qeshm en deux boîtes : sa côte nord-est (Qeshm, Ţūlā) monte
@@ -2730,7 +2748,7 @@
       RU: [['norilsk', 69.00, 69.90, 85.90, 88.90], ['solovki', 64.95, 65.20, 35.40, 36.30]],
       SC: [['mahe', -4.85, -4.55, 55.35, 55.56], ['praslin', -4.37, -4.27, 55.65, 55.79], ['laDigue', -4.40, -4.33, 55.81, 55.87]]
     };
-    var ISLAND_ONLY_COUNTRIES = { KM: true, ST: true, MU: true, SC: true, SH: true, TF: true, SJ: true };
+    var ISLAND_ONLY_COUNTRIES = { KM: true, ST: true, MU: true, SC: true, SH: true, TF: true, SJ: true, AQ: true, BV: true };
     // Masses terrestres où aucun trajet n'est proposé, même si plusieurs lieux y existent : accès civil
     // soumis à autorisation, sans hébergement ni liaison publique (choix de l'utilisateur).
     var NO_TRIP_LANDMASSES = { janMayen: true };

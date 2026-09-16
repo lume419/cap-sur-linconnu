@@ -1,20 +1,192 @@
+fr;Îles Glorieuses;Île Glorieuse
+fr;Europa Island;Île Europa
+fr;Tromelin Island;Île Tromelin
+fr;Îles Kerguelen;Port-aux-Français
+fr;Île Kerguelen;Port-aux-Français
+fr;Archipel des Kerguelen;Port-aux-Français
+fr;Base Alfred Faure;Alfred Faure
+fr;Îles Crozet;Alfred Faure
+fr;Archipel des Crozet;Alfred Faure
+fr;Île de la Possession;Alfred Faure
+fr;Île Amsterdam;Martin-de-Viviès
+fr;Îles Saint-Paul et Nouvelle-Amsterdam;Martin-de-Viviès
+fr;La Terre-Adélie;Dumont d'Urville Station
+fr;Ile de Sable;Île Tromelin
+fr;Tromelin;Île Tromelin
+fr;Sandy Island;Île Tromelin
+en;Tromelin Island;Île Tromelin
+es;Isla Tromelin;Île Tromelin
+de;Tromelin;Île Tromelin
+ca;Illa de Tromelin;Île Tromelin
+cs;Tromelin;Île Tromelin
+et;Tromelin;Île Tromelin
+it;Tromelin;Île Tromelin
+ja;トロメリン島;Île Tromelin
+nl;Tromelin;Île Tromelin
+pt;Tromelin;Île Tromelin
+sk;Tromelin;Île Tromelin
+eo;Tromelino;Île Tromelin
+ro;Insula Tromelin;Île Tromelin
+no;Tromelinøya;Île Tromelin
+en;Europa Island;Île Europa
+pl;Europa;Île Europa
+es;Isla Europa;Île Europa
+de;Europainsel;Île Europa
+eo;Eŭropinsulo;Île Europa
+it;Europa;Île Europa
+ja;ユローパ島;Île Europa
+nl;Europa-eiland;Île Europa
+no;Europaøya;Île Europa
+pt;Ilha Europa;Île Europa
+tr;Europe Adası;Île Europa
+uk;Європа;Île Europa
+cs;Ostrov Europa;Île Europa
+ast;Europa;Île Europa
+hr;Europa;Île Europa
+ru;Европа;Île Europa
+ro;Insula Europa;Île Europa
+sk;Europa;Île Europa
+sv;Europa;Île Europa
+fr;Baxos da India;Bassas da India
+fr;Baixo da Judia;Bassas da India
+fr;Récifs Bassas da India;Bassas da India
+fr;Europa Rocks;Bassas da India
+fr;Basse de Judie;Bassas da India
+fr;Bassas-de- India;Bassas da India
+ja;バサス・ダ・インディア;Bassas da India
+pt;Bassas da Índia;Bassas da India
+fr;Île de la Prise de Possession;Alfred Faure
+fr;Possession Island;Alfred Faure
+fr;Île du Roi Charles;Alfred Faure
+fr;Île Possession;Alfred Faure
+fr;Prise de Possession Island;Alfred Faure
+fr;Crozet Islands;Alfred Faure
+fr;Crozet;Alfred Faure
+fr;Archipel Crozet;Alfred Faure
+fr;Port Alfred;Alfred Faure
+de;Alfred-Faure-Station;Alfred Faure
+ru;Альфред Фор;Alfred Faure
+lv;Alfredfora;Alfred Faure
+it;Base Alfred Faure;Alfred Faure
+fr;base Alfred-Faure;Alfred Faure
+es;Base Alfred Faure;Alfred Faure
+ar;ألفريد فور;Alfred Faure
+uk;Альфред Фор;Alfred Faure
+ja;アルフレッド・フォール基地;Alfred Faure
+az;Alfred Fo;Alfred Faure
+fa;آلفرد فوره;Alfred Faure
+mk;Алфред-Фор;Alfred Faure
 fr;Saint Christophe;Île Juan de Nova
 en;Juan de Nova Island;Île Juan de Nova
+pl;Juan de Nova;Île Juan de Nova
 fr;Juan de Nova;Île Juan de Nova
 es;Isla Juan de Nova;Île Juan de Nova
 de;Juan de Nova;Île Juan de Nova
+cs;Juan da Nova;Île Juan de Nova
+gl;Illa Juan de Nova;Île Juan de Nova
 it;Juan de Nova;Île Juan de Nova
 nl;Juan de Nova;Île Juan de Nova
 pt;Ilha de João da Nova;Île Juan de Nova
+ro;Juan de Nova;Île Juan de Nova
+ru;Жуан-ди-Нова;Île Juan de Nova
+sk;Juan de Nova;Île Juan de Nova
+hi;जुआन दे नोवा द्वीप;Île Juan de Nova
+ast;Islla Juan de Nova;Île Juan de Nova
+lt;Žuan de Novos sala;Île Juan de Nova
+hr;Juan de Nova;Île Juan de Nova
+lv;Žuana da Novas sala;Île Juan de Nova
+lij;Isoa Gioan de Nova;Île Juan de Nova
+hu;Juan de Nova;Île Juan de Nova
+zh-Hant;新胡安島;Île Juan de Nova
+uk;Жуан-ді-Нова;Île Juan de Nova
 mg;Nosy Juan de Nova;Île Juan de Nova
+id;Pulau Juan de Nova;Île Juan de Nova
+ur;جزیرہ جوان ڈے نووا;Île Juan de Nova
+mk;Хуан де Нова;Île Juan de Nova
+el;Νήσος Χουάν ντε Νόβα;Île Juan de Nova
+eo;Ĵuan-de-la-Nova Insulo;Île Juan de Nova
+zh;新胡安岛;Île Juan de Nova
+eu;Juan de Nova uhartea;Île Juan de Nova
+ar;جزيرة جوان دي نوفا;Île Juan de Nova
+vi;Juan de Nova;Île Juan de Nova
+nb;Juan de Nova;Île Juan de Nova
+ja;フアン・デ・ノヴァ島;Île Juan de Nova
+hbs;Otok Juan de Nova;Île Juan de Nova
+az;Xuan de Nova adası;Île Juan de Nova
+fa;ژوان دو نوا;Île Juan de Nova
+be;Жуан дэ Нова;Île Juan de Nova
+fi;Juan de Nova;Île Juan de Nova
+oc;Illa Juan de Nova;Île Juan de Nova
+ka;ჟუან-დი-ნოვა;Île Juan de Nova
+sl;Juan de Nova;Île Juan de Nova
+ca;Illa Juan de Nova;Île Juan de Nova
+sr;Хуан де Нова;Île Juan de Nova
+sv;Juan de Nova;Île Juan de Nova
+ko;주앙데노바섬;Île Juan de Nova
+zh-HK;新胡安島;Île Juan de Nova
+arz;جزيره جوان دى نوفا;Île Juan de Nova
+ky;Хуан де Ноба;Île Juan de Nova
+he;ז'ואן דה נובה;Île Juan de Nova
+tr;Juan De Nova Adası;Île Juan de Nova
+ts;Juan de Nova Island;Île Juan de Nova
 fr;Glorieuse;Île Glorieuse
 fr;Grande Glorieuse;Île Glorieuse
 en;Glorioso Islands;Île Glorieuse
 en;Glorieuses Islands;Île Glorieuse
-fr;Îles Glorieuses;Île Glorieuse
 es;Islas Gloriosas;Île Glorieuse
 de;Îles Glorieuses;Île Glorieuse
+cs;Glorieuses;Île Glorieuse
+hr;Otočje Glorieuses;Île Glorieuse
+ja;グロリオソ諸島;Île Glorieuse
 nl;Glorieuzen;Île Glorieuse
+no;Glorieusesøyene;Île Glorieuse
 pt;Ilhas Gloriosas;Île Glorieuse
+sk;Glorieuses;Île Glorieuse
+ro;Insulele Glorioase;Île Glorieuse
+sv;Glorieuses;Île Glorieuse
 fr;Le Lys;Île du Lys
 fr;Ile du Lise;Île du Lys
+ru;Порт-о-Франсэ;Port-aux-Français
+ja;ポルトーフランセ;Port-aux-Français
+lt;Port o Fransė;Port-aux-Français
+lv;Portofransē;Port-aux-Français
+os;Порт-о-Франсэ;Port-aux-Français
+th;ปอโรฟร็องแซ;Port-aux-Français
+uk;Порт-о-Франсе;Port-aux-Français
+zh;法兰西港;Port-aux-Français
+ru;Порт-о-Франсе;Port-aux-Français
+ko;포르토프랑셰;Port-aux-Français
+fr;La Roche Godon;Martin-de-Viviès
+fr;Camp Heurtin;Martin-de-Viviès
+fr;Kerguelen Islands;Port-aux-Français
+fr;Desolation Islands;Port-aux-Français
+fr;Kerguelen Island;Port-aux-Français
+fr;La grande île de Kerguelen;Port-aux-Français
+fr;Desolation Island;Port-aux-Français
+fr;Kerguelen;Port-aux-Français
+fr;Amsterdan;Martin-de-Viviès
+fr;Nouvelle Amsterdam;Martin-de-Viviès
+fr;Amsterdam;Martin-de-Viviès
+fr;Amsterdam Island;Martin-de-Viviès
+de;Amsterdam;Martin-de-Viviès
+es;Islas Saint-Paul y Amsterdam;Martin-de-Viviès
+fr;Îles Saint-Paul et Amsterdam;Martin-de-Viviès
+en;Île Amsterdam;Martin-de-Viviès
+af;Amsterdameiland;Martin-de-Viviès
+ja;アムステルダム島;Martin-de-Viviès
+nl;Amsterdam;Martin-de-Viviès
+ro;Insula Amsterdam;Martin-de-Viviès
+ru;Амстердам;Martin-de-Viviès
+sk;Nový Amsterdam;Martin-de-Viviès
+sv;Amsterdam;Martin-de-Viviès
+sv;Amsterdamön;Martin-de-Viviès
+zh;阿姆斯特丹岛;Martin-de-Viviès
+no;Amsterdamøya;Martin-de-Viviès
+fr;Saint-Paul-et-Amsterdam;Martin-de-Viviès
+en;Dumont d'Urville Station (France);Dumont d'Urville Station
+no;Dumont d'Urville-stasjonen (Frankrike);Dumont d'Urville Station
+no;Dumont d’Urville;Dumont d'Urville Station
+fr;Dumont d'Urville, Base;Dumont d'Urville Station
+fr;Dumont d'Urville /Fr./;Dumont d'Urville Station
+fr;Terre-Adélie;Dumont d'Urville Station
+en;Port Alfred;Alfred Faure

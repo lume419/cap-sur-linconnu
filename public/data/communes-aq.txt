@@ -1,0 +1,88 @@
+1035;-44.7333,-60.7333;AQ;;Orcadas Base
+170;39.5818,-69.0041;AQ;;Showa Station
+160;-68.1258,-67.5684;AQ;;Rothera Research Station
+153;166.7527,-77.8411;AQ;;McMurdo Station
+150;139.2729,-89.9976;AQ;;Amundsen-Scott South Pole Station
+150;-58.9611,-62.2000;AQ;;Villa Las Estrellas
+110;-58.9783,-62.1950;AQ;;Base Presidente Eduardo Frei Montalva
+110;-2.8286,-71.6736;AQ;;SANAE IV Station
+100;-56.9989,-63.3971;AQ;;Esperanza Base
+99;110.5279,-66.2823;AQ;;Casey Station
+91;77.9692,-68.5764;AQ;;Davis Station
+90;-58.7833,-62.2200;AQ;;King Sejong Station
+80;163.7153,-74.9343;AQ;;Qinling Station
+76;166.7662,-77.8489;AQ;;Scott
+70;11.8239,-70.7769;AQ;;Novolazarevskaya Station
+62;164.2288,-74.6240;AQ;;Jang Bogo Station
+60;-58.6767,-62.2367;AQ;;Jubany
+60;-8.2742,-70.6744;AQ;;Neumayer Station III
+60;76.3717,-69.3736;AQ;;Zhongshan Station
+53;62.8737,-67.6028;AQ;;Mawson Station
+52;-57.9001,-63.3209;AQ;;Base General Bernardo O'Higgins Riquelme
+50;-26.2090,-75.6046;AQ;;Halley Research Station
+50;93.0097,-66.5531;AQ;;Mirny Station
+50;76.3903,-69.3808;AQ;;Progress Station
+46;76.1902,-69.4066;AQ;;Bharati Antarctic Station
+46;-64.0527,-64.7742;AQ;;Palmer Station
+45;11.7319,-70.7667;AQ;;Maitri Station
+45;2.5351,-72.0117;AQ;;Troll Research Station
+30;-58.4699,-62.0915;AQ;;Machu Picchu Base
+30;106.8373,-78.4644;AQ;;Vostok Station
+26;77.1161,-80.4171;AQ;;Kunlun Station
+15;-62.8571,-64.8239;AQ;;González Videla Antarctic Base
+15;45.8416,-67.6658;AQ;;Molodyozhnaya Station
+13;-13.4073,-73.0423;AQ;;Aboa Station
+13;123.3446,-75.0996;AQ;;Concordia Station
+13;76.3808,-69.3886;AQ;;Law-Racoviță-Negoiță Station
+8;100.6032,-66.2498;AQ;;Edgeworth David Base
+7;46.1585,-67.6579;AQ;;Vechernyaya Base
+6;-58.8518,-62.1692;AQ;;Collins Station
+6;0.0668,-75.0019;AQ;;Kohnen Station
+6;-71.5868,-74.8563;AQ;;Sky Blu
+5;44.3167,-70.6833;AQ;;Mizuho Station
+0;-64.2557,-65.2456;AQ;;Akademik Vernadsky Station
+0;-62.8679,-64.8958;AQ;;Almirante Brown Antarctic Base
+0;-58.8617,-62.1750;AQ;;Artigas
+0;-81.3078,-80.3183;AQ;;Arturo Parodi Station
+0;24.1367,-71.5217;AQ;;Asuka Camp
+0;-63.5839,-64.8759;AQ;;Base Yelcho
+0;-34.6167,-77.8667;AQ;;Belgrano II
+0;-58.9500,-62.1833;AQ;;Bellingshausen Station
+0;-3.7965,-72.9651;AQ;;Borga
+0;163.9136,-74.6228;AQ;;Browning Pass Station
+0;-119.5333,-80.0167;AQ;;Byrd Station
+0;-59.6636,-62.4787;AQ;;Captain Arturo Prat base
+0;131.0167,-69.3750;AQ;;Charcot, Station
+0;-58.3922,-62.0869;AQ;;Comandante Ferraz Brazilian Antarctic Base
+0;100.7500,-66.2750;AQ;;Dobrowolski Station (A.B.)
+0;39.7033,-77.3169;AQ;;Dome Fuji Station
+0;73.7000,-69.7333;AQ;;Druzhnaya 4 Station
+0;164.0414,-74.7133;AQ;;Enigma Lake Station
+0;-56.8488,-63.0332;AQ;;Esperanza
+0;-82.9072,-79.7694;AQ;;Estación Polar Científica Conjunta Glaciar Unión
+0;-60.6833,-62.9667;AQ;;Gabriel de Castilla Spanish Antarctic Station
+0;-8.3667,-70.6167;AQ;;Georg von Neumayer Station
+0;-58.9619,-62.2161;AQ;;Great Wall Station
+0;-58.4817,-62.1533;AQ;;Henryk Arctowski Polish Antarctic Station
+0;-57.8667,-63.8000;AQ;;J.G. Mendel Czech Antarctic Station
+0;25.7500,-70.4000;AQ;;Jinnah Antarctic Station
+0;-60.3833,-62.6500;AQ;;Juan Carlos I Spanish Antarctic Station
+0;76.0250,-69.4200;AQ;;Kunlun Qundao
+0;12.9167,-69.9667;AQ;;Lazarev
+0;159.3890,-69.5017;AQ;;Leningradskaya Station
+0;-59.7422,-62.4492;AQ;;Maldonado Station
+0;-56.6259,-64.2421;AQ;;Marambio Station
+0;164.1167,-74.7000;AQ;;Mario Zucchelli Station
+0;145.8186,-75.5406;AQ;;Mid Point Station
+0;159.9667,-76.6500;AQ;;Odell Glacier Station
+0;23.2000,-71.5700;AQ;;Princess Elisabeth Base
+0;-58.9750,-62.2050;AQ;;Professor Julio Escudero base
+0;-136.8667,-74.7667;AQ;;Russkaya Station
+0;-67.1017,-68.1301;AQ;;San Martín Station
+0;-2.8074,-72.0309;AQ;;Sarie Marais
+0;34.9805,-83.8864;AQ;;Serre Che
+0;-149.0667,-81.6500;AQ;;Siple Dome Camp
+0;-60.3500,-62.6333;AQ;;St. Kliment Ohridski Base
+0;-11.2167,-74.5833;AQ;;Svea
+0;-58.3667,-62.1333;AQ;;Vicente Station
+0;-13.4167,-73.0500;AQ;;Wasa Station

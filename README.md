@@ -1587,6 +1587,44 @@ Pérou (VRAEM), Brésil (frontière vénézuélienne rouge, bandes frontalières
 Nicaragua (Bluefields), Jamaïque (Spanish Town), Trinité-et-Tobago. États-Unis, Canada, Argentine, Chili, Uruguay et la
 plupart des Petites Antilles : aucune zone rouge ou orange.
 
+### Antarctique, île Bouvet et toutes les TAAF (septembre 2026)
+
+Ajoutés « quand même », à la demande de l'utilisateur, alors qu'aucun n'a d'habitant permanent ni de route : **recherchables,
+sans trajet possible** (`ISLAND_ONLY_COUNTRIES` : chaque lieu est une masse terrestre à lui seul, un départ y aboutit à
+« itinéraire impossible »). Script : `scripts/build-antarctique-communes.js`. Aucun fichier postal GeoNames pour AQ, BV et TF :
+le champ `cp` porte une étiquette (`TF-0x` = division GeoNames, `AQ`, `BV`), jamais un code postal.
+
+**Antarctique (AQ)** — **88 lieux, 784 alias**. GeoNames n'y range presque rien en classe P : les bases sont des stations
+scientifiques (STNB) ou, dans ses entrées récentes, des PPL/PPLL. Sont repris toutes les PPL/PPLL (dont Villa Las Estrellas,
+seul village où vivent des familles) et toutes les STNB, sauf celles que GeoNames marque historiques (« (historical) »,
+suffixes « /USA/ », « /Brit./ », « /SSSR/ »). Écartés : Port-Martin (PPLQ, base détruite en 1952), un refuge détruit (PPLW),
+les stations météo automatiques (STNM), sauf Jubany (base Carlini, seule entrée de cette base habitée). **Doublons** : une
+même base apparaît souvent deux ou trois fois ; deux entrées sont fusionnées si elles sont à moins de 3 km ET partagent un
+mot du nom, ou à moins de 100 m (Faraday = Vernadsky). La distance seule ne suffit pas : Progress, Zhongshan, Bharati et
+Law-Racoviță sont quatre bases distinctes à moins de 3 km l'une de l'autre. 26 fusions ; les noms des entrées fusionnées
+deviennent des alias. **Limite** : GeoNames ne signale pas toutes les bases fermées ou saisonnières (Byrd, Svea, Wasa…), reprises
+telles quelles, avec la population GeoNames (effectif d'hivernage ou d'été, selon l'entrée). **Monnaie** : aucune (traité sur
+l'Antarctique, aucune souveraineté reconnue) — EUR, monnaie de référence de l'application, sans effet puisqu'aucun budget n'y est
+calculé.
+
+**Île Bouvet (BV)** — inhabitée, aucune entrée de classe P : seule l'île elle-même (Bouvetøya), 40 alias. Réserve naturelle
+norvégienne, débarquement sur autorisation. Monnaie : NOK, déjà présente.
+
+**Terres australes et antarctiques françaises (TF)** — le code TF couvrait jusqu'ici les seules îles Glorieuses et Juan de Nova ;
+il couvre désormais tout le territoire, **10 lieux, 192 alias** : les îles Éparses Europa, Bassas da India et Tromelin (les îles
+elles-mêmes, population 0 — postes militaires ou météo, aucun habitant permanent ; Tromelin, rangée « 00 » par GeoNames, est
+rattachée aux îles Éparses par sa division de second niveau), et une base par district : **Port-aux-Français** (Kerguelen),
+**Alfred Faure** (Crozet), **Martin-de-Viviès** (Saint-Paul-et-Amsterdam) et **Dumont d'Urville** (Terre-Adélie, sans division
+dans GeoNames, rattachée par sa longitude). Les noms des archipels, des îles et des districts sont des alias de leur base : taper
+« Kerguelen », « Crozet », « Amsterdam » ou « Terre Adélie » la trouve. Saint-Paul (inhabitée, sans base) n'a pas d'entrée propre.
+Tromelin est revendiquée par Maurice, les Glorieuses, Juan de Nova, Europa et Bassas da India par Madagascar : reprises sous TF,
+comme GeoNames. Le script des îles Glorieuses et Juan de Nova (`build-sainte-helene-eparses-communes.js`) ne produit plus que
+Sainte-Hélène.
+
+**Langues** : aucune à ajouter. L'Antarctique n'a aucune langue officielle ; le français (TAAF) et le norvégien (Bouvet) sont
+déjà gérés, et aucune langue régionale n'y a de statut. **Zones à tension** : aucune fiche France Diplomatie. **Ferries** : aucun
+(voir la section Ferries).
+
 ## Zones à tension et frontières (septembre 2026)
 
 **Changement de règle, à la demande de l'utilisateur : les règles politiques ne ferment plus aucune
@@ -4050,6 +4088,14 @@ frontaliers (`ADJACENT_PAIRS`) pour qu'un trajet passe de l'un à l'autre, **mê
 (Corée ↔ Japon) n'était donc jamais proposé. Une liaison ferry entre deux masses terrestres suffit désormais ; la liste
 des frontières ne vaut plus que pour la route.
 
+### Antarctique, Bouvet et TAAF : aucune liaison modélisable (septembre 2026)
+
+Aucun ferry pour véhicules. Le **Marion Dufresne** ravitaille Crozet, Kerguelen et Amsterdam depuis La Réunion et embarque
+quelques passagers par rotation, sans véhicule ; **L'Astrolabe** dessert Dumont d'Urville depuis Hobart pour le personnel des
+expéditions ; les îles Éparses sont relevées par avion ou bâtiment militaire ; les croisières antarctiques (Ushuaïa, Punta
+Arenas) ne prennent pas de voiture et ne desservent pas les bases ; Bouvet n'a aucune desserte. Aucune route ne relie une base
+à une autre. D'où aucune entrée dans `FERRY_ROUTES`, et aucun trajet (voir « Antarctique, île Bouvet et toutes les TAAF »).
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois
@@ -4104,7 +4150,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies/mauritaniennes/maliennes/sénégalaises/gambiennes/capverdiennes/guinéennes/bissau-guinéennes/sierra-léonaises/libériennes/burkinabè/ivoiriennes/ghanéennes/togolaises/nigériennes/béninoises/nigérianes/tchadiennes/centrafricaines/soudanaises/sud-soudanaises/érythréennes/éthiopiennes/djiboutiennes/somaliennes/kényanes/ougandaises/tanzaniennes/rwandaises/burundaises/congolaises/gabonaises/équato-guinéennes/santoméennes/angolaises/zambiennes/malawites/mozambicaines/zimbabwéennes/botswanaises/namibiennes/sud-africaines/eswatiniennes/lésothiennes/comoriennes/malgaches/mauriciennes/seychelloises/camerounaises, de Sainte-Hélène, d'Ascension, de Tristan da Cunha et des îles Glorieuses et Juan de Nova/russes/du Svalbard et de Jan Mayen/saoudiennes/bahreïniennes/émiriennes/irakiennes/iraniennes/koweïtiennes/omanaises/qatariennes/yéménites : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies/mauritaniennes/maliennes/sénégalaises/gambiennes/capverdiennes/guinéennes/bissau-guinéennes/sierra-léonaises/libériennes/burkinabè/ivoiriennes/ghanéennes/togolaises/nigériennes/béninoises/nigérianes/tchadiennes/centrafricaines/soudanaises/sud-soudanaises/érythréennes/éthiopiennes/djiboutiennes/somaliennes/kényanes/ougandaises/tanzaniennes/rwandaises/burundaises/congolaises/gabonaises/équato-guinéennes/santoméennes/angolaises/zambiennes/malawites/mozambicaines/zimbabwéennes/botswanaises/namibiennes/sud-africaines/eswatiniennes/lésothiennes/comoriennes/malgaches/mauriciennes/seychelloises/camerounaises, de Sainte-Hélène, d'Ascension, de Tristan da Cunha et des Terres australes et antarctiques françaises/russes/du Svalbard et de Jan Mayen/saoudiennes/bahreïniennes/émiriennes/irakiennes/iraniennes/koweïtiennes/omanaises/qatariennes/yéménites : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux géorgiens (absents de GeoNames pour ce pays, voir "Pays couverts") : annuaire tiers
   [yell.ge](https://www.yell.ge) — PAS une source officielle ni sous licence ouverte explicite, choix

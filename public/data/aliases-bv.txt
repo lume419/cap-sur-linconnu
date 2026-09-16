@@ -1,0 +1,40 @@
+fr;Bouvet Island;Bouvetøya
+fr;Bouvet;Bouvetøya
+en;Bouvet Island;Bouvetøya
+de;Bouvetinsel;Bouvetøya
+es;Isla Bouvet;Bouvetøya
+af;Bouvet;Bouvetøya
+bg;Буве;Bouvetøya
+ca;Bouvet;Bouvetøya
+cs;Bouvetův ostrov;Bouvetøya
+da;Bouvetøen;Bouvetøya
+el;Μπουβέ;Bouvetøya
+eo;Buvetinsulo;Bouvetøya
+fi;Bouvet'nsaari;Bouvetøya
+fr;Île Bouvet;Bouvetøya
+he;בובה;Bouvetøya
+hu;Bouvet-sziget;Bouvetøya
+id;Pulau Bouvet;Bouvetøya
+is;Bouveteyja;Bouvetøya
+it;Isola Bouvet;Bouvetøya
+ja;ブーベ島;Bouvetøya
+ko;부베 섬;Bouvetøya
+lt;Buvė;Bouvetøya
+lv;Buvē sala;Bouvetøya
+nl;Bouvet;Bouvetøya
+pl;Wyspa Bouveta;Bouvetøya
+pt;Bouvet;Bouvetøya
+ru;Буве;Bouvetøya
+hbs;Otok Bouvet;Bouvetøya
+sl;Otok Bouvet;Bouvetøya
+sv;Bouvetön;Bouvetøya
+tr;Bouvet Adası;Bouvetøya
+zh;布韦岛;Bouvetøya
+et;Bouvet' saar;Bouvetøya
+hr;Otok Bouvet;Bouvetøya
+sl;Bouvetov otok;Bouvetøya
+uk;Буве;Bouvetøya
+cy;Ynys Bouvet;Bouvetøya
+sk;Bouvetov ostrov;Bouvetøya
+sr;Острво Буве;Bouvetøya
+se;Bouvetsuolu;Bouvetøya

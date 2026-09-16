@@ -1,0 +1,784 @@
+fr;SANAE IV;SANAE IV Station
+fr;Neumayer Station;Neumayer Station III
+fr;O Higgins;Base General Bernardo O'Higgins Riquelme
+fr;GARS-O'Higgins;Base General Bernardo O'Higgins Riquelme
+fr;Bernardo O'Higgins Station;Base General Bernardo O'Higgins Riquelme
+fr;Progress 2 Station;Progress Station
+fr;Palmer;Palmer Station
+fr;Machu Picchu Research Station;Machu Picchu Base
+fr;Macchu Picchu Station;Machu Picchu Base
+fr;Gonzalez Videla Station;González Videla Antarctic Base
+fr;Aboa;Aboa Station
+fr;Law-Racovita Station;Law-Racoviță-Negoiță Station
+fr;Law - Racovita Station;Law-Racoviță-Negoiță Station
+fr;Faraday;Akademik Vernadsky Station
+fr;Vernadsky Station;Akademik Vernadsky Station
+fr;Commandante Ferraz Station;Comandante Ferraz Brazilian Antarctic Base
+fr;Escudero Station;Professor Julio Escudero base
+de;Amundsen-Scott-Südpolstation;Amundsen-Scott South Pole Station
+es;Base Amundsen-Scott;Amundsen-Scott South Pole Station
+pl;Amundsen-Scott;Amundsen-Scott South Pole Station
+fr;Amundsen-Scott;Amundsen-Scott South Pole Station
+fi;Amundsen-Scott;Amundsen-Scott South Pole Station
+it;Amundsen-Scott;Amundsen-Scott South Pole Station
+ja;アムンゼン・スコット基地;Amundsen-Scott South Pole Station
+ka;ამუნდსენ-სკოტის სადგური;Amundsen-Scott South Pole Station
+nl;Zuidpoolstation Amundsen-Scott;Amundsen-Scott South Pole Station
+pt;Estação Pólo Sul Amundsen-Scott;Amundsen-Scott South Pole Station
+ru;Амундсен-Скотт;Amundsen-Scott South Pole Station
+no;Amundsen-Scott Sydpolstasjon;Amundsen-Scott South Pole Station
+en;Troll research station (Norway);Troll Research Station
+no;Troll feltstasjon;Troll Research Station
+no;Troll;Troll Research Station
+no;Troll Forskningsstasjon;Troll Research Station
+en;Aboa (Finland);Aboa Station
+en;Aboa;Aboa Station
+no;Aboa-stasjonen (Finland);Aboa Station
+no;Aboa-stasjonen;Aboa Station
+nn;Aboa i Antarktis;Aboa Station
+ceb;Aboa;Aboa Station
+fi;Aboa;Aboa Station
+ru;Абоа;Aboa Station
+pt;Aboa;Aboa Station
+lv;Aboa;Aboa Station
+fr;base antarctique Aboa;Aboa Station
+zh-Hant;奧布站;Aboa Station
+uk;Абоа;Aboa Station
+mk;Абоа;Aboa Station
+sv;Aboa;Aboa Station
+it;Stazione di ricerca antartica finlandese Aboa;Aboa Station
+es;Base Aboa;Aboa Station
+zh;奥布站;Aboa Station
+ar;محطة أبوا;Aboa Station
+nb;Aboa;Aboa Station
+ja;アボア基地;Aboa Station
+az;Aboa;Aboa Station
+pl;Aboa;Aboa Station
+da;Aboa;Aboa Station
+nl;Aboa;Aboa Station
+tr;Aboa Araştırma İstasyonu;Aboa Station
+en;Akademik Vernadsky Station (Ukraine);Akademik Vernadsky Station
+no;Akademik Vernadskij-stasjonen (Ukraina);Akademik Vernadsky Station
+no;Akademik Vernadskij-stasjonen;Akademik Vernadsky Station
+en;Almirante Brown Antarctic Base (Argentina);Almirante Brown Antarctic Base
+no;Almirante Brown-basen (Argentina);Almirante Brown Antarctic Base
+no;Almirante Brown-basen;Almirante Brown Antarctic Base
+en;Artigas Base (Uruguay);Artigas
+en;Artigas Base;Artigas
+no;Artigas-basen (Uruguay);Artigas
+no;Artigas-basen;Artigas
+en;Belgrano II (Argentina);Belgrano II
+no;Belgrano II-stasjonen (Argentina);Belgrano II
+en;Bellingshausen Station (Russia);Bellingshausen Station
+no;Bellingshausen-stasjonen (Russland);Bellingshausen Station
+no;Bellingshausen-stasjonen;Bellingshausen Station
+en;Bernardo O'Higgins Station (Chile);Base General Bernardo O'Higgins Riquelme
+en;Bernardo O'Higgins Station;Base General Bernardo O'Higgins Riquelme
+no;Bernardo O'Higgins-stasjonen (Chile);Base General Bernardo O'Higgins Riquelme
+no;Bernardo O'Higgins-stasjonen;Base General Bernardo O'Higgins Riquelme
+en;Byrd Station (United States);Byrd Station
+no;Byrd (USA);Byrd Station
+no;Byrd;Byrd Station
+nn;Byrd-stasjonen;Byrd Station
+de;Byrd-Station;Byrd Station
+ru;Бэрд;Byrd Station
+fi;Byrdin asema;Byrd Station
+pt;Estação Byrd;Byrd Station
+lt;Berdo stotis;Byrd Station
+lv;Bērda;Byrd Station
+it;stazione Byrd;Byrd Station
+fr;Station Byrd;Byrd Station
+es;Base Byrd;Byrd Station
+zh;伯德站;Byrd Station
+ja;バード基地;Byrd Station
+pl;Byrd;Byrd Station
+en;Captain Arturo Prat base (Chile);Captain Arturo Prat base
+no;Captain Arturo Prat-basen (Chile);Captain Arturo Prat base
+no;Captain Arturo Prat-basen;Captain Arturo Prat base
+es;Base naval Capitán Arturo Prat;Captain Arturo Prat base
+nn;Arturo Prat-basen;Captain Arturo Prat base
+de;Arturo-Prat-Station;Captain Arturo Prat base
+fi;Arturo Pratin asema;Captain Arturo Prat base
+sv;Arturo Prat;Captain Arturo Prat base
+ru;Капитан-Артуро-Прат;Captain Arturo Prat base
+pt;Base Capitão Arturo Prat;Captain Arturo Prat base
+lv;Arturoprata;Captain Arturo Prat base
+it;Base navale capitano Arturo Prat;Captain Arturo Prat base
+fr;base navale Capitán-Arturo-Prat;Captain Arturo Prat base
+zh;阿图罗·普拉特舰长站;Captain Arturo Prat base
+ar;محطة الكابتن أرتورو برات;Captain Arturo Prat base
+zh-Hant;阿圖羅·普拉特艦長站;Captain Arturo Prat base
+nb;Arturo Prat;Captain Arturo Prat base
+uk;Капітан Артуро Прат;Captain Arturo Prat base
+ja;Captain Arturo Prat基地;Captain Arturo Prat base
+pl;Capitán Arturo Prat;Captain Arturo Prat base
+nl;Captain Arturo Prat Basis;Captain Arturo Prat base
+ca;Base Naval Capità Arturo Prat;Captain Arturo Prat base
+mk;База „Капетан Артуро Прат“;Captain Arturo Prat base
+en;Casey Station (Australia);Casey Station
+no;Casey-stasjonen (Australia);Casey Station
+no;Casey;Casey Station
+fr;Casey /Austral./;Casey Station
+fr;Casey;Casey Station
+nn;Casey-stasjonen;Casey Station
+de;Casey-Station;Casey Station
+sv;Casey;Casey Station
+ru;Кейси;Casey Station
+ast;Base Casey;Casey Station
+lt;Keisio stotis;Casey Station
+lv;Keisi;Casey Station
+it;Stazione Casey;Casey Station
+fr;base antarctique Casey;Casey Station
+zh;凯西站;Casey Station
+es;Base Casey;Casey Station
+ar;محطة كاسي;Casey Station
+min;Taksiun Casey;Casey Station
+nb;Casey;Casey Station
+uk;Кейсі;Casey Station
+ja;ケーシー基地;Casey Station
+id;Stasiun Casey;Casey Station
+pl;Casey;Casey Station
+he;תחנת קייסי;Casey Station
+tr;Casey İstasyonu;Casey Station
+en;Comandante Ferraz Brazilian Antarctic Base (Brazil);Comandante Ferraz Brazilian Antarctic Base
+no;Kommandant Ferraz-basen (Brasil);Comandante Ferraz Brazilian Antarctic Base
+no;Kommandant Ferraz-basen;Comandante Ferraz Brazilian Antarctic Base
+pt;Estação Antártica Comandante Ferraz;Comandante Ferraz Brazilian Antarctic Base
+en;Concordia Station (France and Italy);Concordia Station
+no;Concordia (Frankrike og Italia);Concordia Station
+no;Concordia;Concordia Station
+en;Davis Station (Australia);Davis Station
+no;Davis (Australia);Davis Station
+no;Davis;Davis Station
+fr;Davis /Austral./;Davis Station
+fr;Davis;Davis Station
+de;Davis-Station;Davis Station
+es;Base Davis;Davis Station
+fr;base antarctique Davis;Davis Station
+it;Stazione Davis;Davis Station
+uk;Девіс;Davis Station
+lt;Deiviso stotis;Davis Station
+lv;Deivisa;Davis Station
+ru;Дейвис;Davis Station
+zh;戴维斯站;Davis Station
+nn;Davis-stasjonen;Davis Station
+ast;Base Davis;Davis Station
+ar;محطة ديفيس;Davis Station
+vi;Trạm Davis;Davis Station
+nb;Davis;Davis Station
+ja;デービス基地;Davis Station
+pl;Davis;Davis Station
+he;תחנת דייוויס;Davis Station
+tr;Davis İstasyonu;Davis Station
+mk;Дејвис;Davis Station
+en;Eduardo Frei Montalva (Chile);Base Presidente Eduardo Frei Montalva
+en;Eduardo Frei Montalva;Base Presidente Eduardo Frei Montalva
+no;Eduardo Frei Montalva (Chile);Base Presidente Eduardo Frei Montalva
+no;Eduardo Frei Montalva;Base Presidente Eduardo Frei Montalva
+nl;Presidente Eduardo Frei Montalva Station;Base Presidente Eduardo Frei Montalva
+ca;Base Frei;Base Presidente Eduardo Frei Montalva
+fa;پایگاه رئیس‌جمهور ادواردو فری مونتالوا;Base Presidente Eduardo Frei Montalva
+ja;エドゥアルド・フレイ・モンタルバ基地;Base Presidente Eduardo Frei Montalva
+ko;에두아르도 프레이 몬탈바 기지;Base Presidente Eduardo Frei Montalva
+lv;Eduardofreja;Base Presidente Eduardo Frei Montalva
+no;Eduardo Frei;Base Presidente Eduardo Frei Montalva
+tg;Пойгоҳи раес‌ҷумҳури идворду фар мунтолуо;Base Presidente Eduardo Frei Montalva
+uk;Фрей;Base Presidente Eduardo Frei Montalva
+pl;Presidente Eduardo Frei Montalva;Base Presidente Eduardo Frei Montalva
+ru;Президент Эдуардо Фрей Монталва;Base Presidente Eduardo Frei Montalva
+sv;Eduardo Frei;Base Presidente Eduardo Frei Montalva
+zh;爱德华多·弗雷·蒙塔尔瓦总统基地;Base Presidente Eduardo Frei Montalva
+en;Esperanza Base (Argentina);Esperanza Base
+no;Esperanza-basen (Argentina);Esperanza Base
+no;Esperanza-basen;Esperanza Base
+en;Gabriel de Castilla Spanish Antarctic Station (Spain);Gabriel de Castilla Spanish Antarctic Station
+no;Gabriel de Castilla-stasjonen (Spania);Gabriel de Castilla Spanish Antarctic Station
+no;Gabriel de Castilla-stasjonen;Gabriel de Castilla Spanish Antarctic Station
+en;Georg von Neumayer Station (Germany);Georg von Neumayer Station
+no;Georg von Neumayer-stasjonen (Tyskland);Georg von Neumayer Station
+no;Georg von Neumayer-stasjonen;Georg von Neumayer Station
+en;Gonzalez Videla Station (Chile);González Videla Antarctic Base
+en;Gonzalez Videla Station;González Videla Antarctic Base
+no;Gonzalez Videla-stasjonen (Chile);González Videla Antarctic Base
+no;Gonzalez Videla-stasjonen;González Videla Antarctic Base
+en;Halley Research Station (United Kingdom);Halley Research Station
+no;Halley forskingsstasjon (Storbritannia);Halley Research Station
+no;Halley forskingsstasjon;Halley Research Station
+en;Halley;Halley Research Station
+en;Halley Station;Halley Research Station
+ar;محطة أبحاث هالي;Halley Research Station
+fa;ایستگاه پژوهشی هالی;Halley Research Station
+zh-CN;哈雷研究站;Halley Research Station
+he;תחנת מחקר האלי;Halley Research Station
+es;Base Halley;Halley Research Station
+eo;Sciencostacio Halley;Halley Research Station
+fr;Base Antarctique Halley;Halley Research Station
+pt;Estação Halley;Halley Research Station
+mk;Халеј;Halley Research Station
+mk;Истражувачка станица Халеј;Halley Research Station
+fi;Halleyn tutkimusasema;Halley Research Station
+ru;Халли;Halley Research Station
+uk;Галлей;Halley Research Station
+lv;Haleja;Halley Research Station
+lt;Heilio stotis;Halley Research Station
+nn;Halley-stasjonen;Halley Research Station
+tr;Halley Araştırma İstasyonu;Halley Research Station
+ja;ハリ;Halley Research Station
+en;Henryk Arctowski Polish Antarctic Station (Poland);Henryk Arctowski Polish Antarctic Station
+no;Henryk Arctowski-stasjonen (Polen);Henryk Arctowski Polish Antarctic Station
+no;Henryk Arctowski-stasjonen;Henryk Arctowski Polish Antarctic Station
+fr;Arctowski Station;Henryk Arctowski Polish Antarctic Station
+fr;Arctowski /Pol./;Henryk Arctowski Polish Antarctic Station
+en;Jinnah Antarctic Station (Pakistan);Jinnah Antarctic Station
+no;Jinnah-stasjonen (Pakistan);Jinnah Antarctic Station
+no;Jinnah;Jinnah Antarctic Station
+nn;Jinnah-stasjonen;Jinnah Antarctic Station
+sv;Jinnah;Jinnah Antarctic Station
+pt;Estação Antártica Jinnah;Jinnah Antarctic Station
+pnb;جناح انٹارکٹیکا اسٹیشن;Jinnah Antarctic Station
+lv;Džinna;Jinnah Antarctic Station
+eo;Antarkta Stacio Ĝina;Jinnah Antarctic Station
+es;Base Antártica Jinnah;Jinnah Antarctic Station
+zh;真纳站;Jinnah Antarctic Station
+ar;محطة جناه;Jinnah Antarctic Station
+zh-Hant;真納站;Jinnah Antarctic Station
+nb;Jinnah;Jinnah Antarctic Station
+uk;Джинна;Jinnah Antarctic Station
+ja;Jinnah Antarctic基地;Jinnah Antarctic Station
+id;Stasiun Antarktika Jinnah;Jinnah Antarctic Station
+pl;Jinnah;Jinnah Antarctic Station
+ur;جناح انٹارکٹیکا اسٹیشن;Jinnah Antarctic Station
+tr;Cinnah Antarktika İstasyonu;Jinnah Antarctic Station
+en;Juan Carlos I Spanish Antarctic Station (Spain);Juan Carlos I Spanish Antarctic Station
+no;Juan Carlos I-stasjonen (Spain);Juan Carlos I Spanish Antarctic Station
+no;Juan Carlos I-stasjonen;Juan Carlos I Spanish Antarctic Station
+en;Jubany (Argentina);Jubany
+no;Jubany (Argentina);Jubany
+en;King Sejong Station (South Korea);King Sejong Station
+no;Kong Sejong-stasjonen (Sør-Korea);King Sejong Station
+no;Kong Sejong-stasjonen;King Sejong Station
+en;Law-Racovita Station (Romania);Law-Racoviță-Negoiță Station
+en;Law-Racovita Station;Law-Racoviță-Negoiță Station
+no;Law-Racovita-stasjonen (Romania);Law-Racoviță-Negoiță Station
+no;Law-Racovita-stasjonen;Law-Racoviță-Negoiță Station
+en;Leningradskaya Station (Russia);Leningradskaya Station
+no;Leningradskaja-stasjonen (Russland);Leningradskaya Station
+no;Leningradskaja;Leningradskaya Station
+fr;Leningradskaja, nauchnaja stancija /SSSR/;Leningradskaya Station
+fr;Leningradskaya;Leningradskaya Station
+en;Machu Picchu Research Station (Peru);Machu Picchu Base
+en;Machu Picchu Research Station;Machu Picchu Base
+no;Machu Picchu forskingsstasjon (Peru);Machu Picchu Base
+no;Machu Picchu forskingsstasjon;Machu Picchu Base
+en;Maitri Station (India);Maitri Station
+no;Maitri-stasjonen (India);Maitri Station
+no;Maitri;Maitri Station
+en;Mario Zucchelli Station (Italy);Mario Zucchelli Station
+no;Mario Zucchelli-stasjonen (Italia);Mario Zucchelli Station
+no;Mario Zucchelli-stasjonen;Mario Zucchelli Station
+en;Mendel Polar Station (Czech Republic);J.G. Mendel Czech Antarctic Station
+en;Mendel Polar Station;J.G. Mendel Czech Antarctic Station
+no;Mendel polarstasjon (Tsjekkia);J.G. Mendel Czech Antarctic Station
+no;Mendel polarstasjon;J.G. Mendel Czech Antarctic Station
+en;Mirny Station (Russia);Mirny Station
+no;Mirny-stasjonen (Russland);Mirny Station
+no;Mirny;Mirny Station
+fr;Mirny;Mirny Station
+fr;Mirnyj, nauchnaja stancija /SSSR/;Mirny Station
+en;Mizuho Station (Japan);Mizuho Station
+no;Mizuho-stasjonen (Japan);Mizuho Station
+no;Mizuho;Mizuho Station
+fr;Mizuho /Nip./;Mizuho Station
+en;Neumayer Station (Germany);Neumayer Station III
+en;Neumayer Station;Neumayer Station III
+no;Neumayer-stasjonen (Tyskland);Neumayer Station III
+no;Neumayer-stasjonen;Neumayer Station III
+en;Novolazarevskaya Station (Russia);Novolazarevskaya Station
+no;Novolazarevskaya-stasjonen (Russland);Novolazarevskaya Station
+no;Novolazarevskaya-stasjonen;Novolazarevskaya Station
+fr;Novolazarevskaja;Novolazarevskaya Station
+fr;Novolazarevskaja, nauchnaja stancija /SSSR/;Novolazarevskaya Station
+en;Orcadas Base (Argentina);Orcadas Base
+no;Orcadas-basen (Argentina);Orcadas Base
+no;Orcadas-basen;Orcadas Base
+en;Palmer Station (United States);Palmer Station
+no;Palmer-stasjonen (USA);Palmer Station
+no;Palmer-stasjonen;Palmer Station
+fr;Palmer /USA/;Palmer Station
+de;Palmer-Station;Palmer Station
+es;Base Palmer;Palmer Station
+fr;Base antarctique Palmer;Palmer Station
+fa;پایگاه هوایی پالمر;Palmer Station
+lv;Pālmera;Palmer Station
+uk;Палмер;Palmer Station
+ru;Палмер;Palmer Station
+zh;帕尔默站;Palmer Station
+nn;Palmer-stasjonen;Palmer Station
+pl;Palmer;Palmer Station
+en;Princess Elisabeth Base (Belgium);Princess Elisabeth Base
+no;Prinsesse Elisabeth-basen (Belgia);Princess Elisabeth Base
+no;Prinsesse Elisabeth-basen;Princess Elisabeth Base
+en;Professor Julio Escudero base (Chile);Professor Julio Escudero base
+no;Julio Escudero-basen (Chile);Professor Julio Escudero base
+no;Julio Escudero-basen;Professor Julio Escudero base
+en;Progress Station (Russia);Progress Station
+no;Framskrittsstasjonen (Russland);Progress Station
+no;Framskrittsstasjonen;Progress Station
+en;Rothera Research Station (United Kingdom);Rothera Research Station
+no;Rothera forskingsstasjon (Storbritannia);Rothera Research Station
+no;Rothera forskingsstasjon;Rothera Research Station
+en;Rothera;Rothera Research Station
+fr;Rothera /Brit./;Rothera Research Station
+en;Russkaya Station (Russia);Russkaya Station
+no;Russkaja-stasjonen (Russland);Russkaya Station
+no;Russkaja;Russkaya Station
+nn;Russkaya-stasjonen;Russkaya Station
+ru;Русская;Russkaya Station
+pt;Estação Russkaya;Russkaya Station
+zh-HK;俄羅斯站;Russkaya Station
+lv;Ruskaja;Russkaya Station
+es;Base Rússkaya;Russkaya Station
+zh;俄罗斯站;Russkaya Station
+zh-Hant;俄羅斯站;Russkaya Station
+pl;Russkaja;Russkaya Station
+he;תחנת רוסקאיה;Russkaya Station
+mk;Рускаја;Russkaya Station
+en;San Martín Station (Argentina);San Martín Station
+no;San Martín-stasjonen (Argentina);San Martín Station
+no;San Martín-stasjonen;San Martín Station
+en;SANAE IV (South Africa);SANAE IV Station
+en;SANAE IV;SANAE IV Station
+no;SANAE IV (Sør-Afrika);SANAE IV Station
+no;SANAE IV;SANAE IV Station
+fr;SANAE;SANAE IV Station
+fr;SANAE /S.Afr./;SANAE IV Station
+es;Base SANAE IV;SANAE IV Station
+en;St. Kliment Ohridski Base (Bulgaria);St. Kliment Ohridski Base
+no;St. Kliment Ohridski-basen (Bulgaria);St. Kliment Ohridski Base
+no;St. Kliment Ohridski-basen;St. Kliment Ohridski Base
+en;Saint Kliment Ohridski Base;St. Kliment Ohridski Base
+en;Scott Base (New Zealand);Scott
+en;Scott Base;Scott
+no;Scott (NZ);Scott
+fr;Scott Base;Scott
+fr;Scott Base /N.Z./;Scott
+en;Showa Station (Japan);Showa Station
+no;Showa-stasjonen (Japan);Showa Station
+no;Showa;Showa Station
+fr;Syowa /Nip./;Showa Station
+fr;Syowa;Showa Station
+en;Svea (Sweden);Svea
+no;Svea (Sverige);Svea
+en;Wasa Station (Sweden);Wasa Station
+no;Wasa (Sverige);Wasa Station
+no;Wasa;Wasa Station
+en;Vostok Station (Russia);Vostok Station
+no;Vostok (Russland);Vostok Station
+no;Vostok;Vostok Station
+en;Zhongshan Station (China);Zhongshan Station
+no;Zhongshan-stasjonen (Kina);Zhongshan Station
+no;Zhongshan;Zhongshan Station
+nn;Zhongshan-stasjonen;Zhongshan Station
+de;Zhongshan-Station;Zhongshan Station
+ru;Чжуншань;Zhongshan Station
+sv;Zhongshan;Zhongshan Station
+pt;Estação Antártica Zhongshan;Zhongshan Station
+lv;Džunšaņa;Zhongshan Station
+it;Base antartica cinese Zhongshan;Zhongshan Station
+fr;base antarctique Zhongshan;Zhongshan Station
+zh;中国南极中山站;Zhongshan Station
+es;Base Zhongshan;Zhongshan Station
+ar;محطة زهونغشان;Zhongshan Station
+nb;Zhongshan;Zhongshan Station
+uk;Чжуншань;Zhongshan Station
+ja;中山基地;Zhongshan Station
+pl;Zhongshan;Zhongshan Station
+nl;Antarctic Zhongshan Station;Zhongshan Station
+en;Kohnen Station (Germany);Kohnen Station
+no;Kohnen-stasjonen (Tyskland);Kohnen Station
+no;Kohnen;Kohnen Station
+es;Hope, Isla;Esperanza
+en;Hope Island;Esperanza
+es;Esperanza, isla;Esperanza
+fr;Hope Island;Esperanza
+zh-CN;昆仑群島;Kunlun Qundao
+fr;Charcot /Fr./;Charcot, Station
+fr;Dobrowolski /Pol./;Dobrowolski Station (A.B.)
+pl;Stacja polarna im. A.B. Dobrowolskiego;Dobrowolski Station (A.B.)
+pl;Stacja im. A.B. Dobrowolskiego;Dobrowolski Station (A.B.)
+pl;Stacja im. Antoniego Bolesława Dobrowolskiego;Dobrowolski Station (A.B.)
+en;A. B. Dobrowolski;Dobrowolski Station (A.B.)
+en;Dobrowolski;Dobrowolski Station (A.B.)
+mk;А.Б. Доброволски;Dobrowolski Station (A.B.)
+mk;Доброволски;Dobrowolski Station (A.B.)
+ru;Станция имени Антона Болеслава Добровольского;Dobrowolski Station (A.B.)
+ru;Добровольского;Dobrowolski Station (A.B.)
+el;Πολικός Σταθμός Α.Μ. Ντομπροβόλσκι;Dobrowolski Station (A.B.)
+el;Ντομπροβόλσκι;Dobrowolski Station (A.B.)
+es;Base A. B. Dobrowolski;Dobrowolski Station (A.B.)
+lv;Dobrovolska;Dobrowolski Station (A.B.)
+en;Faraday;Akademik Vernadsky Station
+fr;Faraday /Brit./;Akademik Vernadsky Station
+fr;Lazarev, nauchnaja stancija /SSSR/;Lazarev
+ru;Лазарев;Lazarev
+de;McMurdo-Station;McMurdo Station
+es;Base McMurdo;McMurdo Station
+fr;Base antarctique McMurdo;McMurdo Station
+it;Stazione McMurdo;McMurdo Station
+nl;Station McMurdo;McMurdo Station
+ar;قاعدة ماك موردو;McMurdo Station
+ca;Estació McMurdo;McMurdo Station
+cs;Polární stanice McMurdo;McMurdo Station
+eo;Polusa stacio McMurdo;McMurdo Station
+eu;McMurdo basea;McMurdo Station
+fi;McMurdo;McMurdo Station
+he;תחנת מק-מרדו;McMurdo Station
+ja;マクマード基地;McMurdo Station
+ko;맥머도 기지;McMurdo Station
+lv;Makmerdo;McMurdo Station
+mn;Макмөрдо;McMurdo Station
+nds;McMurdo Statschoon;McMurdo Station
+nn;McMurdo-stasjonen;McMurdo Station
+ro;McMurdo;McMurdo Station
+uk;Мак-Мердо;McMurdo Station
+pl;McMurdo;McMurdo Station
+pt;Estação McMurdo;McMurdo Station
+ru;Мак-Мердо;McMurdo Station
+zh;麥克默多站;McMurdo Station
+en;Bernardo O'Higgins;Base General Bernardo O'Higgins Riquelme
+nn;Great Wall-stasjonen;Great Wall Station
+de;Große-Mauer-Station;Great Wall Station
+ru;Чанчэн;Great Wall Station
+pt;Estação Antártica da Grande Muralha;Great Wall Station
+lv;Čančena;Great Wall Station
+fr;base antarctique Grande Muraille;Great Wall Station
+zh-Hant;中國南極長城站;Great Wall Station
+uk;Велика стіна;Great Wall Station
+mk;Станица „Антарктички Голем Ѕид“;Great Wall Station
+sv;Great Wall;Great Wall Station
+ko;장성 기지;Great Wall Station
+it;Stazione grande muraglia;Great Wall Station
+ta;அண்டார்க்டிக்கா பெருஞ்சுவர் ஆய்வுக்கூடம்;Great Wall Station
+zh;中国南极长城站;Great Wall Station
+es;Base Gran Muralla;Great Wall Station
+ar;محطة السور العظيم;Great Wall Station
+vi;Trạm Trường Thành;Great Wall Station
+nb;Great Wall;Great Wall Station
+ja;長城基地;Great Wall Station
+az;Böyük sədd;Great Wall Station
+pl;Wielki Mur;Great Wall Station
+nl;Antarctic Great Wall Station;Great Wall Station
+tr;Çin Seddi İstasyonu;Great Wall Station
+es;Base Marambio;Marambio Station
+es;Base Aérea Vicecomodoro Marambio;Marambio Station
+ja;ビジャ・ラス・エストレージャス;Villa Las Estrellas
+lv;Vilja las Estreljasa;Villa Las Estrellas
+en;The Stars Village;Villa Las Estrellas
+es;Base Presidente Eduardo Frei Montalva;Villa Las Estrellas
+es;Eduardo Frei;Villa Las Estrellas
+es;Villa Las Estrellas & Presidente Eduardo Frei Montalva;Villa Las Estrellas
+mk;Виља Лас Естрељас;Villa Las Estrellas
+ru;Вилья-лас-Эстрельяс;Villa Las Estrellas
+uk;Вілья-лас-Естрельяс;Villa Las Estrellas
+el;Βίλα Λας Εστρέγιας;Villa Las Estrellas
+lt;Vilja Las Estreljasas;Villa Las Estrellas
+ur;ولا لاس استریلاس;Villa Las Estrellas
+ar;فيلا لاس إستريلاس;Villa Las Estrellas
+ar;فيلا لاس استريلاس;Villa Las Estrellas
+fr;Union Glacier Station;Estación Polar Científica Conjunta Glaciar Unión
+fr;Base Glaciar Unión;Estación Polar Científica Conjunta Glaciar Unión
+fr;Estación Glaciar Unión;Estación Polar Científica Conjunta Glaciar Unión
+en;Scientific Polar Station Joint Union Glacier;Estación Polar Científica Conjunta Glaciar Unión
+fr;Sub base Yelcho;Base Yelcho
+en;Bharati Station;Bharati Antarctic Station
+en;Bharathi;Bharati Antarctic Station
+en;Bharti;Bharati Antarctic Station
+it;Base Bharati;Bharati Antarctic Station
+mk;Бхарати;Bharati Antarctic Station
+nn;Bharati-Basen;Bharati Antarctic Station
+nn;Bharatistationen;Bharati Antarctic Station
+hi;भारती;Bharati Antarctic Station
+ta;பாரதி;Bharati Antarctic Station
+te;భారతి;Bharati Antarctic Station
+ml;ഭാരതി;Bharati Antarctic Station
+en;Bharati;Bharati Antarctic Station
+zh-CN;凯西站;Casey Station
+en;Casey;Casey Station
+zh-CN;戴维斯站;Davis Station
+uk;Дейвіс;Davis Station
+lv;Deiviso Stotis;Davis Station
+en;Davis;Davis Station
+en;Gars;Base General Bernardo O'Higgins Riquelme
+en;German Antarctic Receiving Station;Base General Bernardo O'Higgins Riquelme
+de;Deutsche Antarktis-Empfangsstation;Base General Bernardo O'Higgins Riquelme
+de;DAE-O'Higgins;Base General Bernardo O'Higgins Riquelme
+es;Base Libertador General Bernardo O'Higgins Riquelme;Base General Bernardo O'Higgins Riquelme
+en;O'Higgins Station;Base General Bernardo O'Higgins Riquelme
+zh-CN;貝納爾多·奧希金斯將軍站;Base General Bernardo O'Higgins Riquelme
+zh-CN;貝納爾多;Base General Bernardo O'Higgins Riquelme
+de;Bernardo-O’Higgins-Station;Base General Bernardo O'Higgins Riquelme
+ar;قاعدة الجنرال برناردو أوهيغينز ريكيلم;Base General Bernardo O'Higgins Riquelme
+fa;پایگاه ژنرال برناردو اوخیگینس ریکوالمه;Base General Bernardo O'Higgins Riquelme
+mk;Генерал Бернардо О’Хигинс Рикелме;Base General Bernardo O'Higgins Riquelme
+mk;База Генерал Бернардо О’Хигинс Рикелме;Base General Bernardo O'Higgins Riquelme
+ru;Хенераль-Бернардо-О’Хиггинс;Base General Bernardo O'Higgins Riquelme
+uk;Генерал Бернардо О'Гіґґінс;Base General Bernardo O'Higgins Riquelme
+uk;Бернардо О'Гіґґінс;Base General Bernardo O'Higgins Riquelme
+it;Base Generale Bernardo O'Higgins;Base General Bernardo O'Higgins Riquelme
+lv;Henerala Bernardo O'Higinsa;Base General Bernardo O'Higgins Riquelme
+lv;Bernardo O'Higinsa;Base General Bernardo O'Higgins Riquelme
+lv;Puertokovadonga;Base General Bernardo O'Higgins Riquelme
+lt;Generolo Bernardo O'Higinso bazė;Base General Bernardo O'Higgins Riquelme
+lt;Bernardo O'Higinso bazė;Base General Bernardo O'Higgins Riquelme
+pl;Basis General Bernardo O'Higgins;Base General Bernardo O'Higgins Riquelme
+tr;General Bernardo O'Higgins Üssü;Base General Bernardo O'Higgins Riquelme
+he;בסיס חנרל ברנרדו אוהיגינס ריקלמה;Base General Bernardo O'Higgins Riquelme
+ja;昭和基地;Showa Station
+en;Syowa Station;Showa Station
+ja;Shōwa Kichi;Showa Station
+zh-CN;昭和基地;Showa Station
+ko;쇼와 기지;Showa Station
+de;Showa-Station;Showa Station
+es;Base Showa;Showa Station
+ar;محطة شوا;Showa Station
+fa;ایستگاه شووا;Showa Station
+ru;Сёва;Showa Station
+uk;Сьова;Showa Station
+az;Şova;Showa Station
+eo;Stacio Showa;Showa Station
+fr;Base Antarctique Showa;Showa Station
+it;Stazione Showa;Showa Station
+lv;Šova;Showa Station
+en;Syowa;Showa Station
+nn;Showa-stasjonen;Showa Station
+pt;Estação Showa;Showa Station
+tr;Shōwa İstasyonu;Showa Station
+en;Showa;Showa Station
+ko;장보고과학기지;Jang Bogo Station
+ko;張保皐科學基地;Jang Bogo Station
+ru;Чан Бого;Jang Bogo Station
+uk;Чан Бого;Jang Bogo Station
+de;Jang-Bogo-Station;Jang Bogo Station
+en;Jang Bogo;Jang Bogo Station
+es;Base Jang Bogo;Jang Bogo Station
+it;Stazione Jang Bogo;Jang Bogo Station
+lv;Čanpogo;Jang Bogo Station
+nn;Jang Bogo-stasjonen;Jang Bogo Station
+vi;Trạm Jang Bogo;Jang Bogo Station
+en;South African National Antarctic Expedition IV;SANAE IV Station
+mk;ЈАНАЕ IV;SANAE IV Station
+ru;САНАЭ IV;SANAE IV Station
+de;SANAE-IV-Station;SANAE IV Station
+ru;САНАЕ IV;SANAE IV Station
+zh-CN;中国南极秦岭站;Qinling Station
+de;Qinling-Station;Qinling Station
+lv;Cjiņlina;Qinling Station
+en;Qinling;Qinling Station
+zh-CN;中山站;Zhongshan Station
+en;Zhongshan;Zhongshan Station
+ko;중샨 기지;Zhongshan Station
+ur;ماؤسن سٹیشن;Mawson Station
+zh-CN;莫森站;Mawson Station
+mk;Мосон;Mawson Station
+fr;Mawson;Mawson Station
+ru;Моусон;Mawson Station
+lt;Mausono;Mawson Station
+lt;Mausono Stotis;Mawson Station
+es;Base Mawson;Mawson Station
+de;Mawson-Station;Mawson Station
+fr;Base Antarctique Mawson;Mawson Station
+nn;Mawson-Stasjonen;Mawson Station
+lv;Mosona;Mawson Station
+lb;Mawson-Statioun;Mawson Station
+tr;Mawson İstasyonu;Mawson Station
+he;תחנת מוסון;Mawson Station
+xmf;მოუსონი;Mawson Station
+ka;მოუსონი;Mawson Station
+en;Troll Station;Troll Research Station
+en;Troll;Troll Research Station
+fr;Base Antarctique Troll;Troll Research Station
+mk;Трол;Troll Research Station
+ru;Тролль;Troll Research Station
+uk;Троль;Troll Research Station
+lv;Trolla;Troll Research Station
+es;Base Troll;Troll Research Station
+eu;Troll Basea;Troll Research Station
+hu;Troll kutatóállomás;Troll Research Station
+nn;Troll-stasjonen;Troll Research Station
+en;Edgeworth David Camp;Edgeworth David Base
+es;Base Edgeworth David;Edgeworth David Base
+lv;Edžvērtdeivida;Edgeworth David Base
+ar;محطة بالمر;Palmer Station
+fa;پایگاه پالمر;Palmer Station
+zh-CN;帕尔默站;Palmer Station
+mk;Палмер;Palmer Station
+mk;Станица Палмер;Palmer Station
+lv;Palmera;Palmer Station
+ms;Lapangan Terbang Palmer Station;Palmer Station
+en;Palmer Base;Palmer Station
+en;Palmer;Palmer Station
+he;תחנת פאלמר;Palmer Station
+en;Progress;Progress Station
+ru;Прогресс;Progress Station
+zh-CN;进度站;Progress Station
+mk;Прогрес;Progress Station
+lv;Progresa;Progress Station
+tr;Progress İstasyonu;Progress Station
+it;Stazione Progress-2;Progress Station
+es;Base Progress;Progress Station
+ko;프로그레스 기지;Progress Station
+pt;Estação Progress;Progress Station
+en;Progress II;Progress Station
+de;Progress-Station;Progress Station
+fr;Base Antarctique Progress;Progress Station
+nn;Progress-stasjonen;Progress Station
+en;Vostok;Vostok Station
+ar;محطة فوستوك;Vostok Station
+ru;станция Восток;Vostok Station
+ru;Восток;Vostok Station
+fa;پایگاه وستوک;Vostok Station
+he;ווסטוק;Vostok Station
+ka;ვოსტოკის სადგური;Vostok Station
+vi;Trạm Vostok;Vostok Station
+fr;Base Antarctique Vostok;Vostok Station
+es;Base Vostok;Vostok Station
+ur;ووسٹوک اسٹیشن;Vostok Station
+pt;Estação Vostok;Vostok Station
+tr;Vostok İstasyonu;Vostok Station
+ja;ボストーク;Vostok Station
+ko;보스토크 기지;Vostok Station
+id;Stasiun Vostok;Vostok Station
+nl;Vostokstation;Vostok Station
+bs;Stanica Vostok;Vostok Station
+de;Wostok-station;Vostok Station
+la;Vostok Statio;Vostok Station
+lv;Vostoka;Vostok Station
+lt;Vostoko Stotis;Vostok Station
+nn;Vostok-stasjonen;Vostok Station
+oc;Basa antartica Vostok;Vostok Station
+pl;Wostok;Vostok Station
+ro;Stația Vostok;Vostok Station
+hy;Վոստոկ;Vostok Station
+ml;വോസ്ടോക് സ്റ്റേഷൻ;Vostok Station
+th;สถานีวอสตอค;Vostok Station
+uz;Vostok stansiyasi;Vostok Station
+en;Neumayer III;Neumayer Station III
+en;Neumayer 3;Neumayer Station III
+ar;محطة نيوماير 3;Neumayer Station III
+zh-CN;诺伊迈尔三号站;Neumayer Station III
+ru;Ноймайер III;Neumayer Station III
+de;Neumayer-Station III;Neumayer Station III
+es;Base Neumayer III;Neumayer Station III
+fr;Base Antarctique Neumayer III;Neumayer Station III
+it;Stazione Neumayer III;Neumayer Station III
+lv;Neimaijiere III;Neumayer Station III
+nn;Neumayer III-stasjonen;Neumayer Station III
+ndu;Neumayer-Statschoon III;Neumayer Station III
+lv;Skaiblu;Sky Blu
+en;Novolazarevskaya;Novolazarevskaya Station
+ru;Станция Новолазаревская;Novolazarevskaya Station
+ru;Новолазаревская;Novolazarevskaya Station
+mk;Новолазаревскаја;Novolazarevskaya Station
+mk;Новолазаревскаја станица;Novolazarevskaya Station
+uk;Новолазарєвська;Novolazarevskaya Station
+es;Base Novolazarevskaya;Novolazarevskaya Station
+fr;Base Antarctique Novolazarevskaya;Novolazarevskaya Station
+lv;Novolazarevska;Novolazarevskaya Station
+nn;Novolazarevskaja-stasjonen;Novolazarevskaya Station
+it;Stazione Novolazarevskaja;Novolazarevskaya Station
+pl;Nowołazariewskaja;Novolazarevskaya Station
+cs;Novolazarevská stanice;Novolazarevskaya Station
+cs;Novolazarevská;Novolazarevskaya Station
+cv;Новолазаревская;Novolazarevskaya Station
+no;Novolazarevskaja forskningsstasjon;Novolazarevskaya Station
+fi;Novolazarevskaja;Novolazarevskaya Station
+en;Maitri;Maitri Station
+de;Maitri-Station;Maitri Station
+es;Base Maitri;Maitri Station
+fr;Base Antarctique Maitri;Maitri Station
+pt;Estação Maitri;Maitri Station
+uk;Майтрі;Maitri Station
+ru;Маитри;Maitri Station
+hi;मैत्री अनुसंधान केन्द्र;Maitri Station
+pa;ਮੈਤਰੀ;Maitri Station
+te;మైత్రి;Maitri Station
+ml;മൈത്രി;Maitri Station
+ml;മൈത്രി ഗവേഷണകേന്ദ്രം;Maitri Station
+en;Mirny;Mirny Station
+ru;Мирный;Mirny Station
+zh-CN;米爾尼站;Mirny Station
+ja;ミールヌイ;Mirny Station
+uk;Мирний;Mirny Station
+az;Mirnı;Mirny Station
+es;Base Mirni;Mirny Station
+fr;Base Antarctique Mirni;Mirny Station
+pt;Estação Mirny;Mirny Station
+mk;Мирни;Mirny Station
+lv;Mirnija;Mirny Station
+tr;Mirnıy İstasyonu;Mirny Station
+it;Mirnyj;Mirny Station
+et;Mirnõi polaarjaam;Mirny Station
+et;Mirnõi;Mirny Station
+hu;Mirnij kutatóállomás;Mirny Station
+hu;Mirnij;Mirny Station
+de;Mirny-station;Mirny Station
+nn;Mirny-stasjonen;Mirny Station
+ro;Stația Mirnîi;Mirny Station
+ro;Mirnîi;Mirny Station
+fi;Mirnyi;Mirny Station
+hy;Միրնի;Mirny Station
+ka;მირნის სადგური;Mirny Station
+ja;アボア;Aboa Station
+nn;Aboa forskingsstasjon;Aboa Station
+en;Collins Base;Collins Station
+en;Collins;Collins Station
+es;Base Collins;Collins Station
+fr;Base Antarctique Collins;Collins Station
+nn;Collins-basen;Collins Station
+lv;Kollinss;Collins Station
+en;González Videla;González Videla Antarctic Base
+de;González-Videla-Antarktis-Station;González Videla Antarctic Base
+es;Base Presidente Gabriel González Videla;González Videla Antarctic Base
+lv;Gabrjela Gonsalesa Videla;González Videla Antarctic Base
+nn;González Videla-basen;González Videla Antarctic Base
+en;Kohnen;Kohnen Station
+de;Kohnen-Station;Kohnen Station
+es;Estación Kohnen;Kohnen Station
+fr;Base Antarctique Kohnen;Kohnen Station
+lv;Konene;Kohnen Station
+ru;Конен;Kohnen Station
+nn;Kohnen-stasjonen;Kohnen Station
+pt;Estação Kohnen;Kohnen Station
+zh-CN;昆仑站;Kunlun Station
+en;Kunlun;Kunlun Station
+ru;Куньлунь;Kunlun Station
+de;Kunlun-Station;Kunlun Station
+es;Base Kunlun;Kunlun Station
+pt;Estação Antártica Kunlun;Kunlun Station
+ar;محطة كونلون;Kunlun Station
+ja;崑崙基地;Kunlun Station
+ko;쿤룬 기지;Kunlun Station
+ko;쿤룬;Kunlun Station
+uk;Куньлунь;Kunlun Station
+lv;Kunluna;Kunlun Station
+nn;Kunlun-stasjonen;Kunlun Station
+ro;Stația Law-Racoviță-Negoiță;Law-Racoviță-Negoiță Station
+en;Law-Racoviță-Negoiță;Law-Racoviță-Negoiță Station
+uk;Лоу-Раковиці;Law-Racoviță-Negoiță Station
+en;Law-Racoviță;Law-Racoviță-Negoiță Station
+es;Base Law-Racovita;Law-Racoviță-Negoiță Station
+fr;Base antarctique de Law-Racoviță;Law-Racoviță-Negoiță Station
+lv;Lo-Rakovice;Law-Racoviță-Negoiță Station
+hu;Law–Racoviță kutatóállomás;Law-Racoviță-Negoiță Station
+nn;Law-Racoviță-Negoiță-stasjonen;Law-Racoviță-Negoiță Station
+en;Machu Picchu;Machu Picchu Base
+mk;Мачу Пикчу;Machu Picchu Base
+es;Base Machu Picchu;Machu Picchu Base
+de;Machu-Picchu-Station;Machu Picchu Base
+fr;Base antarctique Machu Picchu;Machu Picchu Base
+lv;Mačupikču;Machu Picchu Base
+nn;Machu Picchu-basen;Machu Picchu Base
+pt;Estação de Pesquisas Machu Picchu;Machu Picchu Base
+fr;Concordia;Concordia Station
+fr;Base Antarctique Concordia;Concordia Station
+de;Station Dome Concordia;Concordia Station

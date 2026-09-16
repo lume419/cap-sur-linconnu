@@ -1,3 +1,10 @@
 0;47.2970,-11.5794;TF-05;Îles Éparses;Île Glorieuse
 0;47.3767,-11.5163;TF-05;Îles Éparses;Île du Lys
 0;42.7248,-17.0545;TF-05;Îles Éparses;Île Juan de Nova
+0;40.3595,-22.3504;TF-05;Îles Éparses;Île Europa
+0;39.6802,-21.4777;TF-05;Îles Éparses;Bassas da India
+0;54.5232,-15.8920;TF-05;Îles Éparses;Île Tromelin
+45;70.2194,-49.3492;TF-03;Kerguelen;Port-aux-Français
+45;51.8576,-46.4325;TF-02;Crozet;Alfred Faure
+28;77.5717,-37.7951;TF-01;Saint-Paul-et-Amsterdam;Martin-de-Viviès
+30;140.0000,-66.6667;TF-04;Terre-Adélie;Dumont d'Urville Station
