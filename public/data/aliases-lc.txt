@@ -42,3 +42,98 @@ ru;Анс-ла-Рэ;Anse La Raye
 ar;أنس لا راي;Anse La Raye
 hi;एंस ला रे;Anse La Raye
 ja;アンスラレイ;Anse La Raye
+kk;Вьё-Фор;Vieux Fort
+ky;Вьё-Фор;Vieux Fort
+bn;ভিয়াক্স ফোর্ট;Vieux Fort
+ur;ویو فورٹ;Vieux Fort
+am;ቪዩ ፎርት;Vieux Fort
+fa;ویو فور;Vieux Fort
+pa;ਵਿਓ ਫੋਰਟ;Vieux Fort
+ps;ویو فورت;Vieux Fort
+tg;Вьё-Фор;Vieux Fort
+kk;Суфриер;Soufrière
+ky;Суфриер;Soufrière
+bn;সুফ্রিয়ের;Soufrière
+ur;سوفریئر;Soufrière
+am;ሱፍሪየር;Soufrière
+fa;سوفریر;Soufrière
+pa;ਸੋਫ਼੍ਰਿਅਰ;Soufrière
+ps;سوفریر;Soufrière
+tg;Суфриер;Soufrière
+kk;Микуд;Micoud
+ky;Микуд;Micoud
+bn;মিকুড;Micoud
+ur;میکوڈ;Micoud
+am;ሚኩድ;Micoud
+fa;میکود;Micoud
+pa;ਮਿਕੋਡ;Micoud
+ps;میکود;Micoud
+tg;Микуд;Micoud
+kk;Лабори;Laborie
+ky;Лабори;Laborie
+bn;লাবরি;Laborie
+ur;لابوری;Laborie
+am;ላቦሪ;Laborie
+fa;لابوری;Laborie
+pa;ਲਾਬੋਰੀ;Laborie
+ps;لابوری;Laborie
+tg;Лабори;Laborie
+el;Νησίδα Γκρος;Gros Islet
+he;גרו איסלט;Gros Islet
+kk;Гро-Изле;Gros Islet
+ky;Гро-Изле;Gros Islet
+bn;গ্রস ইসলেট;Gros Islet
+ur;گروس آئسلٹ;Gros Islet
+am;ግሮስ ኢስሌት;Gros Islet
+fa;گروس ایسلت;Gros Islet
+pa;ਗ੍ਰੋਸ ਇਸਲੇਟ;Gros Islet
+ps;گروس ایسلیٹ;Gros Islet
+tg;Гро-Изле;Gros Islet
+kk;Денери;Dennery
+ky;Денери;Dennery
+bn;ডেনারি;Dennery
+ur;ڈینری;Dennery
+am;ዴኔሪ;Dennery
+fa;دنری;Dennery
+pa;ਡੇਨਰੀ;Dennery
+ps;دینری;Dennery
+tg;Денери;Dennery
+kk;Шуазель;Choiseul
+ky;Шуазель;Choiseul
+bn;চোইসিউল;Choiseul
+ur;چوازول;Choiseul
+am;ቾዋይሴል;Choiseul
+fa;شوازول;Choiseul
+pa;ਚੋਇਸਿਉਲ;Choiseul
+ps;شوازول;Choiseul
+tg;Шуазель;Choiseul
+el;Κάστρις;Castries
+he;קסטריז;Castries
+am;ካስትሪስ;Castries
+lt;Kastris;Castries
+az;Kastris;Castries
+be;Кастры;Castries
+bg;Кастрийс;Castries
+bo;ཁ་སི་ཐྲིས།;Castries
+ce;Кастри;Castries
+fa;کاستریس;Castries
+ka;კასტრი;Castries
+lv;Kastri;Castries
+mk;Кастри;Castries
+mr;कॅस्ट्रीझ;Castries
+pa;ਕਾਸਤਰੀਸ;Castries
+sah;Кастрис;Castries
+sr;Кастри;Castries
+ta;காஸ்ட்ரீஸ்;Castries
+th;แคสตรีส์;Castries
+uk;Кастрі;Castries
+ur;کاستریس;Castries
+kk;Анс-ла-Рэ;Anse La Raye
+ky;Анс-ла-Рэ;Anse La Raye
+bn;অ্যান্স লা রে;Anse La Raye
+ur;اینس لا رے;Anse La Raye
+am;ሪእስ ላ ራዩ;Anse La Raye
+fa;انس لا ری;Anse La Raye
+pa;ਅਨਸੇ ਲਾ ਰੇ;Anse La Raye
+ps;اینس لا ری;Anse La Raye
+tg;Анс-ла-Рэ;Anse La Raye

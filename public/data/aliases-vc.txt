@@ -47,3 +47,86 @@ zh;卡利亞夸;Calliaqua
 zh;罗斯班克;Rose Bank
 en;McIntyre Village;Lowmans
 en;Lot 14;Lot Fourteen
+fa;تروماکا;Troumaka
+ur;ٹروماکا;Troumaka
+kk;Порт-Элизабет;Port Elizabeth
+ky;Порт-Элизабет;Port Elizabeth
+bn;পোর্ট এলিজাবেথ;Port Elizabeth
+ur;پورٹ الزبتھ;Port Elizabeth
+am;ፖርት ኤሊዛቤዝ;Port Elizabeth
+fa;پورت الیزابت;Port Elizabeth
+pa;ਪੋਰਟ ਐਲਿਜ਼ਾਬੇਥ;Port Elizabeth
+ps;پورټ الزابت;Port Elizabeth
+tg;Порт-Элизабет;Port Elizabeth
+tt;Порт-Элизабет;Port Elizabeth
+kk;Лайу;Layou
+ky;Лайу;Layou
+bn;লায়ু;Layou
+ur;لیاؤ;Layou
+am;ላዩ;Layou
+fa;لایو;Layou
+pa;ਲਾਯੋ;Layou
+ps;لايو;Layou
+tg;Лайу;Layou
+tt;Лайу;Layou
+lt;Kingstaunas;Kingstown
+el;Κινγκστάουν;Kingstown
+tg;Кингстаун;Kingstown
+am;ኪንግስታውን;Kingstown
+he;קינגסטאון;Kingstown
+az;Kinqstaun;Kingstown
+be;Кінгстаўн;Kingstown
+bg;Кингстаун;Kingstown
+bo;ཁིན་སི་ཐོན།;Kingstown
+ce;Кингстаун;Kingstown
+fa;کینگزتاون;Kingstown
+ka;კინგსტაუნი;Kingstown
+lv;Kingstauna;Kingstown
+mk;Кингстаун;Kingstown
+mr;किंग्सटाउन;Kingstown
+pa;ਕਿੰਗਸਟਾਊਨ;Kingstown
+sah;Киҥстаун;Kingstown
+sr;Кингстаун;Kingstown
+th;คิงส์ทาวน์;Kingstown
+uk;Кінгстаун;Kingstown
+ur;کنگز ٹاؤن;Kingstown
+ta;கிங்சுடவுன்;Kingstown
+uz;Kingstaun;Kingstown
+vep;Kingstaun;Kingstown
+kk;Джорджтаун;Georgetown
+ky;Джорджтаун;Georgetown
+bn;জর্জটাউন;Georgetown
+ur;جارج ٹاؤن;Georgetown
+am;ጆርጅታውን;Georgetown
+fa;جورجتاون;Georgetown
+pa;ਜਾਰਜਟਾਉਨ;Georgetown
+ps;جارج ټاون;Georgetown
+tg;Джорджтаун;Georgetown
+tt;Джорджтаун;Georgetown
+el;Κολοναρί;Colonarie
+kk;Шатобелэр;Chateaubelair
+ky;Шатобелэр;Chateaubelair
+bn;চ্যাটোবেলায়ার;Chateaubelair
+ur;شاٹو بیلیر;Chateaubelair
+am;ቻቴውቤላይር;Chateaubelair
+fa;شاتوبلر;Chateaubelair
+pa;ਚੈਟੋਬੇਲਿਅਰ;Chateaubelair
+ps;شاتوبلر;Chateaubelair
+tg;Шатобелэр;Chateaubelair
+tt;Шатобелэр;Chateaubelair
+lt;Bjera Vilidžas;Byera Village
+ur;بائرا گاؤں;Byera Village
+bg;Биабоу;Biabou
+lt;Biabu;Biabou
+fa;بیابو;Biabou
+kk;Баррукалли;Barrouallie
+ky;Баррукалли;Barrouallie
+bn;ব্যারুয়ালি;Barrouallie
+ur;بروالی;Barrouallie
+am;ባሮዋሊ;Barrouallie
+fa;باروالی;Barrouallie
+pa;ਬੈਰੌਲੀ;Barrouallie
+ps;بروالی;Barrouallie
+tg;Баррукалли;Barrouallie
+tt;Баррукалли;Barrouallie
+fa;کالیاکوآ;Calliaqua

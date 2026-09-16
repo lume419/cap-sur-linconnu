@@ -356,3 +356,227 @@ es;La Ñoca;Barrio La Ñoca
 es;San Francisco;Barrio La Ñoca
 es;Villa Álvarez;Colonia Villa Álvarez
 es;El Corocito;Colonia El Corocito
+be;Самота;Somoto
+ka;სომოტო;Somoto
+lt;Somotas;Somoto
+os;Сомото;Somoto
+ur;سوموتو، مادریس;Somoto
+kk;Сомото;Somoto
+ky;Сомото;Somoto
+bn;সোমোটো;Somoto
+am;ሶሞቶ;Somoto
+fa;سوموتو;Somoto
+pa;ਸੋਮੋਟੋ;Somoto
+ps;سوموتو;Somoto
+tg;Сомото;Somoto
+tt;Сомото;Somoto
+ka;სან-კარლოსი;San Carlos
+lt;San Karlosas;San Carlos
+os;Сан-Карлос;San Carlos
+ur;سان کارلوس، ریو سان خوان;San Carlos
+kk;Сан-Карлос;San Carlos
+uz;San Karlos;San Carlos
+ky;Сан-Карлос;San Carlos
+bn;সান কার্লোস;San Carlos
+am;ሳን ካርሎስ;San Carlos
+az;San Karlos;San Carlos
+fa;سان کارلوس;San Carlos
+pa;ਸੈਨ ਕਾਰਲੋਸ;San Carlos
+ps;سان کارلوس;San Carlos
+tg;Сан-Карлос;San Carlos
+tt;Сан-Карлос;San Carlos
+kk;Ривас;Rivas
+ky;Ривас;Rivas
+bn;রিভাস;Rivas
+ur;ریواس;Rivas
+am;ሪቫስ;Rivas
+fa;ریواس;Rivas
+pa;ਰਿਵਾਸ;Rivas
+ps;ریواس;Rivas
+tg;Ривас;Rivas
+tt;Ривас;Rivas
+kk;Пуэрто-Кабесас;Puerto Cabezas
+uz;Puerto Kabezas;Puerto Cabezas
+ky;Пуэрто-Кабесас;Puerto Cabezas
+bn;পুয়ের্তো কাবেজাস;Puerto Cabezas
+ur;پویرٹو کابیزاس;Puerto Cabezas
+am;ፐወርቶ ካቤዛስ;Puerto Cabezas
+az;Puerto Kabezas;Puerto Cabezas
+fa;پویرتو کابزاس;Puerto Cabezas
+pa;ਪਿਊਰਟੋ ਕਾਬੇਜ਼ਾਸ;Puerto Cabezas
+ps;پویرټو کابیزاس;Puerto Cabezas
+tg;Пуэрто-Кабесас;Puerto Cabezas
+tt;Пуэрто-Кабесас;Puerto Cabezas
+kk;Окотал;Ocotal
+uz;Okotal;Ocotal
+ky;Окотал;Ocotal
+bn;ওকোটাল;Ocotal
+ur;اوکوتال;Ocotal
+am;ኦኮታል;Ocotal
+az;Okotal;Ocotal
+fa;اکوتال;Ocotal
+pa;ਓਕੋਟਲ;Ocotal
+ps;اوکوتال;Ocotal
+tg;Окотал;Ocotal
+tt;Окотал;Ocotal
+kk;Матагальпа;Matagalpa
+ky;Матагальпа;Matagalpa
+bn;ম্যাটাগালপা;Matagalpa
+ur;ماتاگالپا;Matagalpa
+am;ማታጋልፓ;Matagalpa
+fa;ماتاگالپا;Matagalpa
+pa;ਮਾਤਾਗਲਪਾ;Matagalpa
+ps;ماتاګالپا;Matagalpa
+tg;Матагальпа;Matagalpa
+tt;Матагальпа;Matagalpa
+ka;მასაია;Masaya
+lt;Masaja;Masaya
+th;มาซายา;Masaya
+kk;Масая;Masaya
+ky;Масая;Masaya
+bn;মাসায়া;Masaya
+ur;ماسایا;Masaya
+am;ማሳያ;Masaya
+fa;ماسایا;Masaya
+pa;ਮਸਾਯਾ;Masaya
+ps;ماسایا;Masaya
+tg;Масая;Masaya
+tt;Масая;Masaya
+el;Μανάγκουα;Managua
+am;ማናጓ;Managua
+bg;Манагуа;Managua
+fa;ماناگوآ;Managua
+he;מנגואה;Managua
+lt;Managva;Managua
+mk;Манагва;Managua
+th;มานากัว;Managua
+zh-TW;馬拿瓜;Managua
+mn;Манагуа;Managua
+sr;Манагва;Managua
+lv;Managva;Managua
+uk;Манагуа;Managua
+ur;ماناگوا;Managua
+sah;Манагуа;Managua
+ug;ماناگۇئا;Managua
+ka;მანაგუა;Managua
+az;Manaqua;Managua
+ta;மனாகுவா;Managua
+be;Манагуа;Managua
+pa;ਮਾਨਾਗੁਆ;Managua
+os;Манагуæ;Managua
+hy;Մանագուա;Managua
+bo;མ་ན་གུ་འ།;Managua
+mr;मानाग्वा;Managua
+is;Managva;Managua
+ce;Манагуа;Managua
+el;Μανάγουα;Managua
+he;לאון;León
+be;Леон;León
+el;Λεόν;León
+ka;ლეონი;León
+lt;Leonas;León
+mk;Леон;León
+os;Леон;León
+sr;Леон;León
+uk;Леон;León
+ky;Леон;León
+ur;لیون، نکاراگوا;León
+kk;Леон;León
+bn;লিওন;León
+am;ሊዖን;León
+fa;لئون;León
+pa;ਲੇਓਨ;León
+ps;لیون;León
+tg;Леон;León
+tt;Леон;León
+kk;Хуигальпа;Juigalpa
+ky;Хуигальпа;Juigalpa
+bn;জুইগালপা;Juigalpa
+ur;جویگلپا;Juigalpa
+am;ጁይጋልፓ;Juigalpa
+fa;جویگالپا;Juigalpa
+pa;ਜੁਇਗਲਪਾ;Juigalpa
+ps;جویګالپا;Juigalpa
+tg;Хуигальпа;Juigalpa
+tt;Хуигальпа;Juigalpa
+kk;Хинотепе;Jinotepe
+ky;Хинотепе;Jinotepe
+bn;জিনোটেপে;Jinotepe
+ur;جنوٹیپے;Jinotepe
+am;ጂኖቴፔ;Jinotepe
+fa;جینوتپه;Jinotepe
+pa;ਜਿਨੋਟੇਪੇ;Jinotepe
+ps;جنوټپې;Jinotepe
+tg;Хинотепе;Jinotepe
+tt;Хинотепе;Jinotepe
+kk;Хинотега;Jinotega
+ky;Хинотега;Jinotega
+bn;জিনোটেগা;Jinotega
+ur;جنوٹیگا;Jinotega
+am;ጂኖቴጋ;Jinotega
+fa;جینوتگا;Jinotega
+pa;ਜਿਨੋਟੇਗਾ;Jinotega
+ps;جنوټیګا;Jinotega
+tg;Хинотега;Jinotega
+tt;Хинотега;Jinotega
+be;Гранада;Granada
+bg;Гранада;Granada
+el;Γρανάδα;Granada
+ka;გრანადა;Granada
+os;Гранадæ;Granada
+uk;Гранада;Granada
+ur;گرینادا، نکاراگوا;Granada
+kk;Гранада;Granada
+ky;Гранада;Granada
+bn;গ্রানাডা;Granada
+am;ግራናዳ;Granada
+fa;گرناطه;Granada
+pa;ਗ੍ਰਾਨਾਡਾ;Granada
+ps;ګرناډا;Granada
+tg;Гранада;Granada
+tt;Гранада;Granada
+ka;ესტელი;Estelí
+el;Εστελί;Estelí
+ur;ایستالی;Estelí
+kk;Эстели;Estelí
+ky;Эстели;Estelí
+bn;এস্টেলি;Estelí
+am;እስተሊ;Estelí
+fa;استلی;Estelí
+pa;ਐਸਟੇਲੀ;Estelí
+ps;استیلي;Estelí
+tg;Эстели;Estelí
+tt;Эстели;Estelí
+kk;Чинандега;Chinandega
+ky;Чинандега;Chinandega
+bn;চিনান্দেগা;Chinandega
+ur;چنانڈیگا;Chinandega
+am;ቺናንዴጋ;Chinandega
+fa;چینان‌دگا;Chinandega
+pa;ਚਿਨਾਂਦੇਗਾ;Chinandega
+ps;چنانډیګا;Chinandega
+tg;Чинандега;Chinandega
+tt;Чинандега;Chinandega
+kk;Боако;Boaco
+uz;Boako;Boaco
+ky;Боако;Boaco
+bn;বোয়াকো;Boaco
+ur;بواکو;Boaco
+am;ቦአኮ;Boaco
+az;Boako;Boaco
+fa;بوآکو;Boaco
+pa;ਬੋਆਕੋ;Boaco
+ps;بواکو;Boaco
+tg;Боако;Boaco
+tt;Боако;Boaco
+he;בלופילדס;Bluefields
+kk;Блюфилдс;Bluefields
+ky;Блюфилдс;Bluefields
+bn;ব্লুফিল্ডস;Bluefields
+ur;بلیو فیلڈز;Bluefields
+am;ብሉፊልድስ;Bluefields
+fa;بلوفیلدز;Bluefields
+pa;ਬਲੂਫੀਲਡਜ਼;Bluefields
+ps;بلوفیلډز;Bluefields
+tg;Блюфилдс;Bluefields
+tt;Блюфилдс;Bluefields

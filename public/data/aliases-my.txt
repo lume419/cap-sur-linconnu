@@ -1854,3 +1854,168 @@ ms;Kampung Parit Jawaa;Kampung Parit Jawa
 ms;Taman Sri Sulong;Taman Seri Sulong
 ms;Taman Sri Sulung;Taman Seri Sulong
 ms;Kampung Parit Hilir;Kampung Parit Kassim Hilir
+sv;Kuala Kubu Bharu;Kuala Kubu Baharu
+da;Kuala Kubu Bharu;Kuala Kubu Baharu
+sv;Johor Baharu;Johor Bahru
+lt;Džohor Baru;Johor Bahru
+bg;Джохор Бахру;Johor Bahru
+uk;Джохор-Бару;Johor Bahru
+mk;Џохор Бахру;Johor Bahru
+hak;Sîn-sân-sṳ;Johor Bahru
+he;גוהור באהרו;Johor Bahru
+am;ጆሆር ባህሩ;Johor Bahru
+mk;Шах Алам;Shah Alam
+bg;Шах Алам;Shah Alam
+uk;Шах-Алам;Shah Alam
+lt;Šach Alamas;Shah Alam
+lv;Šahalama;Shah Alam
+el;Σα Αλάμ;Shah Alam
+ka;შაჰ-ალამი;Shah Alam
+he;שה אלם;Shah Alam
+az;Klanq;Klang
+bg;Кланг;Klang
+ce;Кланг;Klang
+lt;Klangas;Klang
+uk;Кланг;Klang
+be;Кланг;Klang
+ca;Kelang;Klang
+pl;Kelang;Klang
+he;קלנג;Klang
+am;ኮታ ኪናባሉ;Kota Kinabalu
+bg;Донгонгон;Donggongon
+bg;Кинарут;Kinarut
+nb;Kunak;Kampung Kunak
+am;ላቡዋን;Labuan
+hak;Sân-tá-kîn;Sandakan
+bg;Сандакан;Sandakan
+sr;Сандакан;Sandakan
+lt;Keningas;Keningau
+lv;Keninga;Keningau
+uk;Кенінгау;Keningau
+el;Κένινγκαου;Keningau
+bg;Тавау;Tawau
+bg;Кертих;Kertih
+pl;Kerteh;Kertih
+lt;Kuala Kangsaro apskritis;Kuala Kangsar
+lv;Kualakangsara;Kuala Kangsar
+uk;Куала-Кангсар;Kuala Kangsar
+el;Κουάλα Κανγκσάρ;Kuala Kangsar
+bg;Ипох;Ipoh
+lt;Ipohas;Ipoh
+mk;Ипох;Ipoh
+hak;Yî-pó-sṳ;Ipoh
+he;איפוה;Ipoh
+lv;Ipoha;Ipoh
+uk;Іпох;Ipoh
+am;ኢፖህ;Ipoh
+pl;Ipoh;Menglembu
+fi;Ipoh;Menglembu
+sv;Ipoh;Menglembu
+lt;Kvala Terenganu;Kuala Terengganu
+bg;Куала Теренггану;Kuala Terengganu
+mk;Куала Теренгану;Kuala Terengganu
+uk;Куала-Тренггану;Kuala Terengganu
+am;ኩዋላ ተሬንጋኑ;Kuala Terengganu
+gl;Malaca;Malacca
+lb;Malakka;Malacca
+pl;Malakka;Malacca
+ca;Malaca;Malacca
+fi;Malakka;Malacca
+no;Malakka;Malacca
+am;ማላካ;Malacca
+az;Malakka;Malacca
+ha;Malakka;Malacca
+om;Malakka;Malacca
+so;Malakka;Malacca
+sw;Malakka;Malacca
+tt;Malakka;Malacca
+he;בנגי;Bangi
+be;Серэмбан;Seremban
+bg;Серембан;Seremban
+hak;Fû-yûng-sṳ;Seremban
+mk;Серембан;Seremban
+uk;Серембан;Seremban
+am;ሰረምባን;Seremban
+bg;Ментекаб;Mentakab
+lt;Batervortas;Butterworth
+lt;Bukit Mertadžamas;Bukit Mertajam
+lv;Bukita Mertadžama;Bukit Mertajam
+uk;Букіт-Мертаджам;Bukit Mertajam
+el;Μπουκίτ Μερτατζάμ;Bukit Mertajam
+lt;Nibong Tebalas;Nibong Tebal
+lv;Nibongtebala;Nibong Tebal
+uk;Нібонг-Тебал;Nibong Tebal
+el;Νιμπόνγκ Τεμπάλ;Nibong Tebal
+nb;Nibon Tebal;Nibong Tebal
+mk;Џорџ Таун;George Town
+ka;ჯორჯტაუნი;George Town
+uk;Джорджтаун;George Town
+hak;Khiâu-chhṳ-sṳ;George Town
+he;גורג טאון;George Town
+lt;Džordžtaunas;George Town
+lv;Džordžtauna;George Town
+am;ጆርጅ ታውን;George Town
+bg;Петалинг Джая;Petaling Jaya
+bg;Куала Лумпур;Kuala Lumpur
+he;קואלה לומפור;Kuala Lumpur
+el;Κουάλα Λουμπούρ;Kuala Lumpur
+ka;კუალა-ლუმპური;Kuala Lumpur
+lv;Kualalumpūra;Kuala Lumpur
+am;ኩዋላ ሉምፑር;Kuala Lumpur
+lt;Kvala Lumpūras;Kuala Lumpur
+os;Куалæ-Лумпур;Kuala Lumpur
+sah;Куала Лумпур;Kuala Lumpur
+ckb;کوالالومپور;Kuala Lumpur
+hy;Կուալա Լումպուր;Kuala Lumpur
+uk;Куала-Лумпур;Kuala Lumpur
+mk;Куала Лумпур;Kuala Lumpur
+be;Куала-Лумпур;Kuala Lumpur
+sr;Куала Лумпур;Kuala Lumpur
+ht;Kouala Loumpou;Kuala Lumpur
+bg;Куантан;Kuantan
+uk;Куантан;Kuantan
+mk;Куантан;Kuantan
+hak;Kôan-tan-sṳ;Kuantan
+am;ኩዋንታን;Kuantan
+lt;Kučingas;Kuching
+uk;Кучинг;Kuching
+mk;Кучинг;Kuching
+bg;Кучинг;Kuching
+he;קוצינג;Kuching
+am;ኩቺንግ;Kuching
+bg;Сибу;Sibu
+mk;Кангар;Kangar
+uk;Кангар;Kangar
+bg;Кангар;Kangar
+am;ካንጋር;Kangar
+he;אראו;Arau
+uk;Куала-Кедах;Kuala Kedah
+el;Κουάλα Κεντάχ;Kuala Kedah
+uk;Алор-Стар;Alor Setar
+lt;Alor Setaras;Alor Setar
+mk;Алор Стар;Alor Setar
+am;አሎር ሴታር;Alor Setar
+pl;Wakaf Bharu;Wakaf Baharu
+pl;Kota Bahru;Kota Bharu
+bg;Кота Бару;Kota Bharu
+uk;Кота-Бару;Kota Bharu
+mk;Кота Бару;Kota Bharu
+hak;Kô-tá-ha̍p-lû-sṳ;Kota Bharu
+am;ኮታ ባሩ;Kota Bharu
+bg;Телипок;Telipok
+uk;Сараток;Saratok
+lt;Betongas;Betong
+lv;Betonga;Betong
+uk;Бетонг;Betong
+el;Μπετόνγκ;Betong
+bg;Бинтулу;Bintulu
+bg;Мири;Miri
+ka;მირი;Miri
+bg;Керапа;Kerapa
+nb;Menumbok;Kampong Menumbok
+sv;Lenggongdalen;Lenggong
+he;עמק לנגונג;Lenggong
+hak;Tsiâu-lai;Cheras
+bg;Бембан;Bemban
+az;Saybercaya;Cyberjaya
+he;לינגי;Linggi

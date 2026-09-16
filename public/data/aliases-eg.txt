@@ -552,3 +552,552 @@ ru;Ад-Давахий;Aḍ-Ḍawāḥy
 ar;الزهور;Az-Zuhūr
 en;Al Zohur;Az-Zuhūr
 ru;Аз-Зухур;Az-Zuhūr
+ceb;Toukh;Ţūkh
+sv;Toukh;Ţūkh
+bg;Тоукх;Ţūkh
+ja;トゥーク;Ţūkh
+mg;Toukh;Ţūkh
+fa;طوخ;Ţūkh
+zu;Toukh;Ţūkh
+pl;Tuch;Ţūkh
+fa;سوهاج;Sohag
+ka;სუჰაგი;Sohag
+ko;소하그;Sohag
+lt;Sohagas;Sohag
+sr;Сохаг;Sohag
+uk;Согаґ;Sohag
+pl;Sauhadż;Sohag
+zh;索哈傑;Sohag
+th;ชัรบีน;Shirbīn
+uk;Ширбін;Shirbīn
+fa;شربین;Shirbīn
+zu;Sherbin;Shirbīn
+pl;Szirbin;Shirbīn
+ur;شربین، مصر;Shirbīn
+zh;沙姆沙伊赫;Sharm el-Sheikh
+ja;シャルム・エル・シェイク;Sharm el-Sheikh
+ko;샤름엘셰이크;Sharm el-Sheikh
+fa;شرم‌الشیخ;Sharm el-Sheikh
+hr;Šarm eš Šejh;Sharm el-Sheikh
+bg;Танис;Şān al Ḩajar al Qiblīyah
+ca;Tanis;Şān al Ḩajar al Qiblīyah
+pl;Tanis;Şān al Ḩajar al Qiblīyah
+hr;Tanis;Şān al Ḩajar al Qiblīyah
+id;Rasyid;Rosetta
+bg;Розета;Rosetta
+et;Rashīd;Rosetta
+fa;رشید;Rosetta
+ja;ロゼッタ;Rosetta
+ka;რაშიდი;Rosetta
+ko;로제타;Rosetta
+sk;Ar-Rašíd;Rosetta
+sr;Розета;Rosetta
+zh;羅塞塔;Rosetta
+hr;Rozeta;Rosetta
+uk;Рашид;Rosetta
+zh-Hans;罗塞塔;Rosetta
+ur;رشيد;Rosetta
+ms;Rasyid;Rosetta
+th;กุวัยส์นา;Quwaysinā
+fa;قویسنا;Quwaysinā
+zu;Quesna;Quwaysinā
+pl;Kuweisna;Quwaysinā
+fa;استان قنا;Qina
+sv;Nuweiba;Nuwaybi‘a
+ja;ナグ・ハマディ;Nag Hammâdi
+zh-TW;拿戈瑪第;Nag Hammâdi
+ceb;Minūf;Munūf
+sv;Minuf;Munūf
+fi;Minuf;Munūf
+nb;Menouf;Munūf
+uk;Мінуф;Munūf
+fa;منوف;Munūf
+zu;Menouf;Munūf
+pl;Minuf;Munūf
+hi;टेंथ ऑफ़ रमादान सिटी;Al ‘Āshir min Ramaḑān
+lt;10-asis Ramadanas;Al ‘Āshir min Ramaḑān
+lv;10. Ramadāna;Al ‘Āshir min Ramaḑān
+zh-Hans;斋月市第十;Al ‘Āshir min Ramaḑān
+uk;Ель-Ашир-мін-Рамадан;Al ‘Āshir min Ramaḑān
+id;Kota 10 Ramadan;Al ‘Āshir min Ramaḑān
+ur;10 رمضان شہر;Al ‘Āshir min Ramaḑān
+mr;रमजान शहरातील १० वा;Al ‘Āshir min Ramaḑān
+ms;10th of Ramadan City;Al ‘Āshir min Ramaḑān
+zh;斋月十日城;Al ‘Āshir min Ramaḑān
+vi;Thành phố 10th of Ramadan;Al ‘Āshir min Ramaḑān
+nb;10ende Ramadan By;Al ‘Āshir min Ramaḑān
+ja;ラマダーン10日シティ;Al ‘Āshir min Ramaḑān
+fa;عاشر من رمضان;Al ‘Āshir min Ramaḑān
+zu;10th of Ramadan;Al ‘Āshir min Ramaḑān
+fi;10th of Ramadan City;Al ‘Āshir min Ramaḑān
+bn;১০ম রামাদান শহর;Al ‘Āshir min Ramaḑān
+si;දසවන රාමදාන් නගරය;Al ‘Āshir min Ramaḑān
+sr;Ел Ашер;Al ‘Āshir min Ramaḑān
+kk;Эль-Ашир-мин-Рамадан;Al ‘Āshir min Ramaḑān
+sv;Madinat al-Ashir min Ramadân;Al ‘Āshir min Ramaḑān
+kn;ರಮದಾನ್ ೧೦ ನೇ ದಿನದ ನಗರ;Al ‘Āshir min Ramaḑān
+ko;라마단 10일시;Al ‘Āshir min Ramaḑān
+ta;10வது ராமதான் நகரம்;Al ‘Āshir min Ramaḑān
+gu;ટેન્થ ઓફ રમાદાન શહેર;Al ‘Āshir min Ramaḑān
+te;10 వ రమదాన్ నగరం;Al ‘Āshir min Ramaḑān
+th;เนปยีดอ;Al ‘Āshir min Ramaḑān
+pl;Madinat Al Ashir min Ramadan;Al ‘Āshir min Ramaḑān
+da;10th of Ramadan City;Al ‘Āshir min Ramaḑān
+ja;コム・オンボ;Kom Ombo
+kk;Кафр-аз-Зият қаласы;Kafr az Zayyāt
+lt;Kafr ez Zejatas;Kafr az Zayyāt
+fa;کفر الزیات;Kafr az Zayyāt
+pl;Kafr az-Zajjat;Kafr az Zayyāt
+no;Ezbet el-Burg;‘Izbat al Burj
+bg;Едфу;Edfu
+ja;エドフ;Edfu
+sv;Idfu;Edfu
+hy;Իդֆու;Edfu
+uk;Едфу;Edfu
+mg;Idfū;Edfu
+ur;ادفو;Edfu
+am;ኤድፉ;Edfu
+zh;埃德富;Edfu
+nb;Idfu;Edfu
+az;İdfu;Edfu
+fa;ادفو;Edfu
+ceb;Idfū;Edfu
+oc;Edfó;Edfu
+ga;Idfu;Edfu
+sr;Едфу;Edfu
+kk;Эдфу;Edfu
+ko;에드푸;Edfu
+tg;Идфу;Edfu
+ceb;Fuwah;Fuwwah
+sv;Fuwah;Fuwwah
+uz;Fuvva;Fuwwah
+fa;فوه;Fuwwah
+pl;Fuwwa;Fuwwah
+af;Doemjat;Damietta
+bg;Дамиета;Damietta
+ca;Damieta;Damietta
+fa;دمیاط;Damietta
+hy;Դամիետա;Damietta
+id;Dimyath;Damietta
+ja;ディムヤート;Damietta
+ka;დუმიატი;Damietta
+ko;다미에타;Damietta
+lt;Dumjatas;Damietta
+lv;Dumjāta;Damietta
+pa;ਦਮੀਆਤ;Damietta
+sk;Dumját;Damietta
+sr;Дамијета;Damietta
+th;ดาเมียตตา;Damietta
+uk;Думят;Damietta
+ur;دمیاط;Damietta
+zh;杜姆亚特;Damietta
+ceb;Markaz Dikirnis;Dikirnis
+bg;Дикирнис;Dikirnis
+uk;Дікірніс;Dikirnis
+ur;دکرنس;Dikirnis
+kk;Дикирнис қаласы;Dikirnis
+sv;Markaz Dikirnis;Dikirnis
+fa;دکرنس;Dikirnis
+zu;Dekernes;Dikirnis
+lt;Dahabas;Dahab
+et;Dhahab;Dahab
+uk;Дахаб;Dahab
+da;Port Said;Bur Sa'id
+et;Port Said;Bur Sa'id
+hr;Port Said;Bur Sa'id
+id;Port Said;Bur Sa'id
+is;Port Saíd;Bur Sa'id
+no;Port Said;Bur Sa'id
+pl;Port Said;Bur Sa'id
+sv;Port Said;Bur Sa'id
+id;Bursaid;Bur Sa'id
+zh;塞德港;Bur Sa'id
+lt;Port Saidas;Bur Sa'id
+fi;Port Said;Bur Sa'id
+hy;Պորտ Սաիդ;Bur Sa'id
+pl;Safadża;Safaga
+zh;塞法杰;Safaga
+uk;Сафага;Safaga
+fa;سفاجا;Safaga
+hi;सफागा;Safaga
+hu;Szafaga;Safaga
+hy;Սաֆագա;Safaga
+ur;سفگا;Safaga
+sco;Port Safaga;Safaga
+mr;सेफागा;Safaga
+et;Būr Safājah;Safaga
+ja;サファガ;Safaga
+az;safaga haqqinda;Safaga
+ro;Port Safaga;Safaga
+ceb;Būr Safājah;Safaga
+bg;Порт Сафага;Safaga
+bn;সাফাজা;Safaga
+ka;ბურ-საფაგა;Safaga
+si;සෆාගා;Safaga
+kk;Сафага қаласы;Safaga
+sv;Būr Safājah;Safaga
+kn;ಸಫಾಗ;Safaga
+ko;사파가;Safaga
+ta;சபாகா;Safaga
+gu;સફાગા;Safaga
+te;సఫాగా;Safaga
+th;ซาฟาก้า;Safaga
+fa;بیلا;Biyalā
+pl;Bijala;Biyalā
+lv;Bilbeisa;Bilbeis
+hu;Bilbeisz;Bilbeis
+hy;Բիլբեյս;Bilbeis
+uk;Більбейс;Bilbeis
+mg;Bilbays;Bilbeis
+ur;بلبیس;Bilbeis
+zh;比勒拜斯;Bilbeis
+nb;Bilbays;Bilbeis
+ja;ビルベース;Bilbeis
+fa;بلبیس;Bilbeis
+ceb;Bilbays;Bilbeis
+fi;Bilbays;Bilbeis
+bg;Билбайс;Bilbeis
+sr;Билбејс;Bilbeis
+kk;Бильбейс;Bilbeis
+sv;Bilbays;Bilbeis
+ko;빌베이스;Bilbeis
+cs;Bilbajs;Bilbeis
+pl;Bilbajs;Bilbeis
+zh;宰加济格;Zagazig
+ko;자가지그;Zagazig
+ca;Assuan;Aswān
+cs;Asuán;Aswān
+gl;Asuán;Aswān
+ja;アスワン;Aswān
+lt;Asuanas;Aswān
+pl;Asuan;Aswān
+sv;Assuan;Aswān
+bg;Асуан;Aswān
+fi;Assuan;Aswān
+ro;Assuan;Aswān
+uk;Асуан;Aswān
+be;Асуан;Aswān
+bs;Asuan;Aswān
+fa;اسوان;Aswān
+hr;Asuan;Aswān
+hu;Asszuán;Aswān
+ka;ასუანი;Aswān
+ko;아스완;Aswān
+ku;Eswan;Aswān
+mr;आस्वान;Aswān
+sr;Асуан;Aswān
+ur;اسوان;Aswān
+yue;阿斯旺;Aswān
+zh;阿斯旺;Aswān
+pl;Suez;As Suways
+cs;Suez;As Suways
+da;Suez;As Suways
+et;Suess;As Suways
+fi;Suez;As Suways
+id;Suez;As Suways
+is;Súes;As Suways
+ja;スエズ;As Suways
+ko;수에즈;As Suways
+lt;Suecas;As Suways
+ro;Suez;As Suways
+sv;Suez;As Suways
+oc;Suèz;As Suways
+fa;سوئز;As Suways
+ka;სუეცი;As Suways
+jv;Suèz;As Suways
+sr;Суец;As Suways
+hy;Սուեզ;As Suways
+hu;Szuez;As Suways
+ga;Suais;As Suways
+bg;Суец;As Suways
+be;Суэц;As Suways
+bs;Suec;As Suways
+uk;Суец;As Suways
+zh;苏伊士;As Suways
+ce;Сувайс;As Suways
+yue;蘇伊士;As Suways
+mr;सुएझ;As Suways
+sq;Suezi;As Suways
+ur;سوئیز;As Suways
+fa;وقف;Al Waqf
+zu;El Waqf;Al Waqf
+pl;Al-Wakf;Al Waqf
+ca;Luxor;Al Uqsur
+da;Luxor;Al Uqsur
+fi;Luxor;Al Uqsur
+gl;Luxor;Al Uqsur
+id;Luxor;Al Uqsur
+ka;ლუქსორი;Al Uqsur
+no;Luxor;Al Uqsur
+pl;Luksor;Al Uqsur
+sl;Luksor;Al Uqsur
+sv;Luxor;Al Uqsur
+zh;樂蜀;Al Uqsur
+lt;Luksoras;Al Uqsur
+fa;اقصر;Al Uqsur
+gl;Luxor- الأقصر;Al Uqsur
+oc;Loxòr;Al Uqsur
+ga;Lucsar;Al Uqsur
+be;Луксор;Al Uqsur
+ta;அல்-உக்சுர்;Al Uqsur
+ko;룩소르;Al Uqsur
+ur;اقصر;Al Uqsur
+bg;Луксор;Al Uqsur
+uk;Луксор;Al Uqsur
+sr;Луксор;Al Uqsur
+ja;ルクソール;Al Uqsur
+lv;Luksora;Al Uqsur
+pa;ਲਕਸਰ;Al Uqsur
+th;ลักซอร์;Al Uqsur
+yue;樂蜀;Al Uqsur
+hi;लक्सर;Al Uqsur
+hy;Լուքսոր;Al Uqsur
+ky;Луксор шаары;Al Uqsur
+mk;Луксор;Al Uqsur
+mr;लुक्सोर;Al Uqsur
+sv;El Quseir;Al Quşayr
+fa;قصاصین;Al Qaşşāşīn
+af;Kaïro;Al Qahirah
+bg;Кайро;Al Qahirah
+ca;El Caire;Al Qahirah
+cs;Káhira;Al Qahirah
+da;Kairo;Al Qahirah
+et;Kairo;Al Qahirah
+eu;Kairo;Al Qahirah
+fa;قاهره;Al Qahirah
+fi;Kairo;Al Qahirah
+gl;O Cairo;Al Qahirah
+hr;Kairo;Al Qahirah
+hu;Kairó;Al Qahirah
+id;Kairo;Al Qahirah
+is;Kaíró;Al Qahirah
+ja;カイロ;Al Qahirah
+jv;Kairo;Al Qahirah
+ka;ქაირო;Al Qahirah
+ko;카이로;Al Qahirah
+lt;Kairas;Al Qahirah
+mk;Каиро;Al Qahirah
+ms;Kaherah;Al Qahirah
+nn;Kairo;Al Qahirah
+no;Kairo;Al Qahirah
+pl;Kair;Al Qahirah
+ro;Cairo;Al Qahirah
+sk;Káhira;Al Qahirah
+sl;Kairo;Al Qahirah
+sr;Каиро;Al Qahirah
+sv;Kairo;Al Qahirah
+th;ไคโร;Al Qahirah
+tl;Cairo;Al Qahirah
+ta;கெய்ரோ;Al Qahirah
+az;Qahirə;Al Qahirah
+lv;Kaira;Al Qahirah
+os;Каир;Al Qahirah
+sw;Kairo;Al Qahirah
+tl;Lungsod ng Cairo;Al Qahirah
+ug;قاھىرە;Al Qahirah
+am;ካይሮ;Al Qahirah
+bs;Kairo;Al Qahirah
+ur;قاہرہ;Al Qahirah
+bo;ཁ་ཡི་རོ;Al Qahirah
+ceb;Caire;Al Qahirah
+uk;Каїр;Al Qahirah
+vi;Cairo;Al Qahirah
+ug;Kayro;Al Qahirah
+bn;কায়রো;Al Qahirah
+tpi;Kairo;Al Qahirah
+zh-TW;開羅;Al Qahirah
+yue;開羅;Al Qahirah
+hy;Կահիրե;Al Qahirah
+pl;Mansura;Al Mansurah
+fa;منصوره;Al Mansurah
+br;Gizah;Giza
+ca;Gizeh;Giza
+ja;ギーザ;Giza
+fa;جیزه;Giza
+ceb;Al Jamālīyah;Al Jammālīyah
+sv;Al Jamālīyah;Al Jammālīyah
+pl;Al-Dżamalijja;Al Jammālīyah
+be;Ісмаілія;Ismailia
+bg;Исмаилия;Ismailia
+cs;Ismáílíja;Ismailia
+et;Al-Ismā’īlīyah;Ismailia
+fa;اسماعیلیه;Ismailia
+ja;イスマイリア;Ismailia
+ka;ისმაილია;Ismailia
+ko;이스마일리아;Ismailia
+lt;Ismailija;Ismailia
+sr;Исмаилија;Ismailia
+th;อิสเมอิลีอา;Ismailia
+uk;Ісмаїлія;Ismailia
+zh;伊斯梅利亚;Ismailia
+hi;इस्माइलिया;Ismailia
+hu;Iszmáilija;Ismailia
+hy;Իսմայիլիա;Ismailia
+ur;اسماعیلیہ;Ismailia
+uz;Ismoiliya;Ismailia
+bg;Александрия;Al Iskandariyah
+bs;Aleksandrija;Al Iskandariyah
+ca;Alexandria;Al Iskandariyah
+cs;Alexandrie;Al Iskandariyah
+da;Alexandria;Al Iskandariyah
+eu;Alexandria;Al Iskandariyah
+fa;اسکندریه;Al Iskandariyah
+fi;Aleksandria;Al Iskandariyah
+gl;Alexandría;Al Iskandariyah
+hu;Alexandria;Al Iskandariyah
+id;Iskandariyah;Al Iskandariyah
+is;Alexandría;Al Iskandariyah
+ja;アレクサンドリア;Al Iskandariyah
+ka;ალექსანდრია;Al Iskandariyah
+lt;Aleksandrija;Al Iskandariyah
+nn;Alexandria;Al Iskandariyah
+no;Alexandria;Al Iskandariyah
+pl;Aleksandria;Al Iskandariyah
+ro;Alexandria;Al Iskandariyah
+sl;Aleksandrija;Al Iskandariyah
+sr;Александрија;Al Iskandariyah
+sv;Alexandria;Al Iskandariyah
+uk;Александрія;Al Iskandariyah
+zh;亞歷山卓;Al Iskandariyah
+zh;亚历山大港;Al Iskandariyah
+br;Aleksandria;Al Iskandariyah
+hr;Aleksandrija;Al Iskandariyah
+lv;Aleksandrija;Al Iskandariyah
+sk;Alexandria;Al Iskandariyah
+tw;Aleksandria;Al Iskandariyah
+vi;Alexandria;Al Iskandariyah
+bn;আলেকজান্দ্রিয়া;Al Iskandariyah
+ckb;ئەسکەندەریە;Al Iskandariyah
+kv;Ӧльӧксандрия;Al Iskandariyah
+qu;Iskandariya;Al Iskandariyah
+ko;알렉산드리아;Al Iskandariyah
+kn;ಅಲೆಕ್ಸಾಂಡ್ರಿಯ;Al Iskandariyah
+kk;Александрия;Al Iskandariyah
+koi;Ӧльӧксандрия;Al Iskandariyah
+wo;Alegsàndiri;Al Iskandariyah
+os;Александрия;Al Iskandariyah
+ur;اسکندریہ;Al Iskandariyah
+oc;Alexàndria;Al Iskandariyah
+hy;Ալեքսանդրիա;Al Iskandariyah
+bo;ཡ་ལི་ཧྲན་ད;Al Iskandariyah
+be;Александрыя;Al Iskandariyah
+hi;सिकन्दरिया;Al Iskandariyah
+tl;Alehandriya;Al Iskandariyah
+az;İsgəndəriyyə;Al Iskandariyah
+th;อะเล็กซานเดรีย;Al Iskandariyah
+tg;Александрия;Al Iskandariyah
+te;అలెగ్జాండ్రియా;Al Iskandariyah
+ta;அலெக்சாந்திரியா;Al Iskandariyah
+gu;એલેક્ઝાન્ડ્રિયા;Al Iskandariyah
+ms;Iskandariah;Al Iskandariyah
+mr;अलेक्झांड्रिया;Al Iskandariyah
+sw;Aleksandria;Al Iskandariyah
+af;Alexandrië;Al Iskandariyah
+mn;Александрия;Al Iskandariyah
+ml;അലക്സാണ്ട്രിയ;Al Iskandariyah
+sq;Aleksandria;Al Iskandariyah
+mk;Александрија;Al Iskandariyah
+ga;Cathair Alastair;Al Iskandariyah
+sc;Lisàndria dEgittu;Al Iskandariyah
+et;Aleksandria;Al Iskandariyah
+mhr;Александрий;Al Iskandariyah
+am;እስክንድርያ;Al Iskandariyah
+my;အလက်ဇန္ဒရီးယားမြို့;Al Iskandariyah
+ba;Искәндәриә;Al Iskandariyah
+ce;Искандри;Al Iskandariyah
+pa;ਸਿਕੰਦਰੀਆ;Al Iskandariyah
+uz;Aleksandriya;Al Iskandariyah
+yue;亞歷山大港;Al Iskandariyah
+kab;Taskendrit;Al Iskandariyah
+ky;Александрия;Al Iskandariyah
+vep;Aleksandrii;Al Iskandariyah
+fa;غردقه;Hurghada
+lt;Hurgada;Hurghada
+sk;Hurgada;Hurghada
+zh-TW;洪加達;Hurghada
+be;Хургада;Hurghada
+bg;Хургада;Hurghada
+hu;Gurdaka;Hurghada
+ja;フルガダ;Hurghada
+ka;ელ-გურდაკა;Hurghada
+ko;후르가다;Hurghada
+mhr;Хургаде;Hurghada
+mk;Хургада;Hurghada
+sr;Хургада;Hurghada
+uk;Хургада;Hurghada
+yue;洪加達;Hurghada
+zh;洪加達;Hurghada
+hy;Հուրգադա;Hurghada
+ur;غردقہ;Hurghada
+pl;Fajum;Al Fayyum
+ca;Faium;Al Fayyum
+ca;Madinat al-Fayyum;Al Fayyum
+fa;استان فیوم;Al Fayyum
+sv;Faijum;Al Fayyum
+uz;Al-Fashan;Al Fashn
+fa;الفشن;Al Fashn
+zu;El Fashn;Al Fashn
+pl;Al-Faszn;Al Fashn
+bg;Ариш;Arīsh
+ca;Al-Arix;Arīsh
+cs;Aríš;Arīsh
+et;Al-‘Arīsh;Arīsh
+fa;عریش;Arīsh
+id;El Arish;Arīsh
+ja;アリーシュ;Arīsh
+jv;Al Arish;Arīsh
+ka;ელ-არიში;Arīsh
+kk;Эль-Ариш;Arīsh
+ko;아리시;Arīsh
+lt;Arišas;Arīsh
+sr;Ариш;Arīsh
+uk;Ель-Аріш;Arīsh
+pl;Al-Arisz;Arīsh
+sv;Al-Arish;Arīsh
+zh;阿里什;Arīsh
+pl;Al-Alamajn;Al ‘Alamayn
+da;El-Alamein;Al ‘Alamayn
+fi;El Alamein;Al ‘Alamayn
+hr;El Alamein;Al ‘Alamayn
+no;El Alamein;Al ‘Alamayn
+sv;El-Alamein;Al ‘Alamayn
+zh;阿莱曼;Al ‘Alamayn
+sr;Ел Аламејн;Al ‘Alamayn
+pl;Abu Kir;Abū Qīr
+da;Abukir;Abū Qīr
+ro;Abukir;Abū Qīr
+sv;Abukir;Abū Qīr
+fi;Abukir;Abū Qīr
+nn;Abukir;Abū Qīr
+bg;Абу Кир;Abū Qīr
+lt;Abu Kiras;Abū Qīr
+bn;আবু কির;Abū Qīr
+oc;Abokir;Abū Qīr
+sk;Abú Kír;Abū Qīr
+ca;Abukir;Abū Qīr
+mr;अबु किर;Abū Qīr
+zh;阿布基爾;Abū Qīr
+eu;Abukir;Abū Qīr
+cs;Abúkir;Abū Qīr
+nb;Abukir;Abū Qīr
+ja;アブキール;Abū Qīr
+fa;ابو قیر;Abū Qīr
+uk;Макаді Бей;Makadi Bay
+lt;Makadi Bei;Makadi Bay
+hi;शलतेन;Shalateen
+lt;Šalatynas;Shalateen
+lv;Šalatina;Shalateen
+bn;শালাতিন;Shalateen
+uk;Шалатін;Shalateen
+si;ශලටීන්;Shalateen
+ur;شالاتین;Shalateen
+kn;ಷಲೇಟೆನ್;Shalateen
+ko;샬라틴;Shalateen
+mr;शलटीन;Shalateen
+ta;சாலட்டின்;Shalateen
+gu;શાલાટીન;Shalateen
+zh;沙拉丁;Shalateen
+te;షలతీన్;Shalateen
+ja;シャラティーン;Shalateen
+fa;شلاتین;Shalateen
+pl;Bir Szalatin;Shalateen

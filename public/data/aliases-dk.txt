@@ -35,26 +35,24 @@ csb;Naestved;Næstved
 da;Nr. Herlev;Nørre Herlev
 en;Laesoe;Læsø
 da;Løgumkloster Sogn;Løgumkloster
-da;København;Copenhagen
-es;Copenhague;Copenhagen
-de;Kopenhagen;Copenhagen
-br;Kopenhagen;Copenhagen
-ca;Copenhaguen;Copenhagen
-csb;Kòpenhaga;Copenhagen
-eu;Kopenage;Copenhagen
-eu;Kopenhage;Copenhagen
-fr;Copenhague;Copenhagen
-ga;Cóbanhávan;Copenhagen
-gl;Copenhague;Copenhagen
-it;Copenaghen;Copenhagen
-lb;Kopenhagen;Copenhagen
-nds;Kopenhagen;Copenhagen
-nl;Kopenhagen;Copenhagen
-pt;Copenhaga;Copenhagen
-oc;Copenaga;Copenhagen
-oc;København;Copenhagen
-lij;Copenaghen;Copenhagen
-sc;Copenaghen;Copenhagen
+es;Copenhague;København
+de;Kopenhagen;København
+br;Kopenhagen;København
+ca;Copenhaguen;København
+csb;Kòpenhaga;København
+eu;Kopenage;København
+eu;Kopenhage;København
+fr;Copenhague;København
+ga;Cóbanhávan;København
+gl;Copenhague;København
+it;Copenaghen;København
+lb;Kopenhagen;København
+nds;Kopenhagen;København
+nl;Kopenhagen;København
+pt;Copenhaga;København
+oc;Copenaga;København
+lij;Copenaghen;København
+sc;Copenaghen;København
 en;Tommerup;Knarreborg
 de;Kettingholz;Kettingskov
 en;Midtjylland;Karup
@@ -110,9 +108,6 @@ de;Atzerballigholz;Asserballeskov
 da;Adserballe;Asserballe
 de;Atzerballig;Asserballe
 it;Års;Aars
-en;Aarhus;Århus
-da;Aarhus;Århus
-de;Aarhus;Århus
 it;Aalsgaarde;Ålsgårde
 de;Allerød Kommune;Allerød
 en;Allerød Municipality;Allerød
@@ -135,3 +130,787 @@ fr;Åbenrå;Aabenraa
 nl;Åbenrå;Aabenraa
 pt;Åbenrå;Aabenraa
 en;Old Virum;Gammel Virum
+ru;Вордингборг;Vordingborg
+ru;Ворбассе;Vorbasse
+ru;Вирум;Virum
+zh;防卫地;Virum
+zh-Hant;防衛地;Virum
+uk;Вірум;Virum
+sv;Videbäk;Videbæk
+ml;വിബി ജെ;Viby
+ru;Виборг;Viborg
+lt;Viborgas;Viborg
+ka;ვიბორგი;Viborg
+uk;Віборг;Viborg
+ja;ヴィボー;Viborg
+sr;Виборг;Viborg
+el;Βίμποργκ;Viborg
+mk;Виборг;Viborg
+ko;비보르;Viborg
+zh;維堡;Viborg
+bg;Вибор;Viborg
+lv;Viborga;Viborg
+sah;Виборг;Viborg
+ur;ویبو، ڈنمارک;Viborg
+ar;فيبورج;Viborg
+kk;Вибург;Viborg
+ky;Виборг;Viborg
+hi;विबोर्ग;Viborg
+bn;ভিবোর্গ;Viborg
+am;ቪቦርግ;Viborg
+fa;ویبورگ;Viborg
+pa;ਵਿਬੋਰਗ;Viborg
+ps;ویبورګ;Viborg
+tg;Виборг;Viborg
+tt;Виборг;Viborg
+ru;Вайле;Vejle
+sr;Вејле;Vejle
+mk;Вајле;Vejle
+ja;ヴァイレ;Vejle
+lt;Vailė;Vejle
+fa;وایله;Vejle
+ko;바일레;Vejle
+th;ไวเล;Vejle
+bg;Вайле;Vejle
+ka;ვაილე;Vejle
+zh;瓦埃勒;Vejle
+ar;فيلي;Vejle
+kk;Вейле;Vejle
+ky;Вейле;Vejle
+hi;वेजले;Vejle
+bn;ভেজলে;Vejle
+ur;ویجلے;Vejle
+am;ቬጅለ;Vejle
+pa;ਵੇਜਲੇ;Vejle
+ps;ویجله;Vejle
+tg;Вейле;Vejle
+tt;Вейле;Vejle
+nb;Vejgaard;Vejgård
+tr;Vejgaard;Vejgård
+ru;Вайерсстранн;Vejers Strand
+no;Vejen kommune;Vejen
+fi;Vejenin kunta;Vejen
+hy;Վայեն;Vejen
+id;Munisipalitas Vejen;Vejen
+ka;ვეიენის მუნიციპალიტეტი;Vejen
+ro;Comuna Vejen;Vejen
+zh;瓦伊恩自治市;Vejen
+ru;Варде;Varde
+sr;Варде;Varde
+ru;Транбьерг;Tranbjerg
+ja;トゥナー;Tønder
+ko;퇴네르;Tønder
+ru;Тённер;Tønder
+fa;تندر، دانمارک;Tønder
+sr;Тендер;Tønder
+ru;Тильст;Tilst
+zh;齐尔斯特;Tilst
+ru;Тааструп;Taastrup
+ka;ტორნბი;Tårnby
+ru;Торнбю;Tårnby
+ru;Свеннборге;Svendborg
+ka;სვენბორგი;Svendborg
+mk;Свендборг;Svendborg
+sr;Свендборг;Svendborg
+no;Struer kommune;Struer
+ro;Comuna Struer;Struer
+ru;Струэр;Struer
+ceb;Struer Kommune;Struer
+fi;Struerin kunta;Struer
+id;Munisipalitas Struer;Struer
+ru;Струер;Struer
+zh;斯楚厄自治市;Struer
+ru;Стриб;Strib
+bg;Ставтруп;Stavtrup
+ru;Ставтруп;Stavtrup
+ja;ソレ;Sorø
+ko;소뢰;Sorø
+lt;Sorė;Sorø
+mk;Соре;Sorø
+os;Сорё;Sorø
+sr;Соре;Sorø
+ru;Сорё;Sorø
+zh;索勒;Sorø
+is;Sórey;Sorø
+uk;Соро;Sorø
+ar;سوروا;Sorø
+kk;Сорё;Sorø
+ky;Сорё;Sorø
+hi;सोरो;Sorø
+bn;সোরো;Sorø
+ur;سورو;Sorø
+am;ሶሮ;Sorø
+fa;سورو;Sorø
+pa;ਸੋਰੋ;Sorø
+ps;سورو;Sorø
+tg;Сорё;Sorø
+tt;Сорё;Sorø
+ru;Сённенборг;Sønderborg
+ka;სენერბორგი;Sønderborg
+ko;쇠네르보르;Sønderborg
+sr;Сендерборг;Sønderborg
+ja;セナボー;Sønderborg
+lt;Sionderborgas;Sønderborg
+mk;Сендерборг;Sønderborg
+ru;Сённерборг;Sønderborg
+id;Munisipalitas Sønderborg;Sønderborg
+pl;Gmina Søllerød;Søllerød
+uk;Соборг;Søborg
+pl;Gmina Slangerup;Slangerup
+ru;Слагельсе;Slagelse
+be;Слагельсэ;Slagelse
+ka;სლაგელსე;Slagelse
+zh;斯拉厄爾瑟自治市;Slagelse
+pl;Gmina Skævinge;Skævinge
+no;Skærbæk;Skaerbaek
+pl;Gmina Skørping;Skørping
+sv;Skörping;Skørping
+pl;Gmina Skjern;Skjern
+ru;Скиве;Skive
+mk;Скиве;Skive
+sr;Скиве;Skive
+zh;斯凱比;Skejby
+ru;Скаген;Skagen
+lt;Skagenas;Skagen
+fa;اسکاگن;Skagen
+be;Скаген;Skagen
+uk;Скаген;Skagen
+bg;Скаген;Skagen
+os;Скаген;Skagen
+zh;斯卡恩;Skagen
+ar;سكاجن;Skagen
+pl;Gmina Sindal;Sindal
+ru;Силькеборг;Silkeborg
+ka;სილკებორგი;Silkeborg
+mk;Силкеборг;Silkeborg
+ja;シルケボー;Silkeborg
+lt;Silkeborgas;Silkeborg
+bg;Силкеборг;Silkeborg
+ko;실케보르;Silkeborg
+zh;锡尔克堡;Silkeborg
+ar;سيلكيبورج;Silkeborg
+sr;Силкеборг;Silkeborg
+uk;Сількеборг;Silkeborg
+pl;Gmina Sejlflod;Sejlflod
+pl;Gmina Sakskøbing;Sakskøbing
+pl;Gmina Ryslinge;Ryslinge
+ru;Рунгстед;Rungsted
+he;רונגסטד;Rungsted
+zh;龙斯泰兹;Rungsted
+pl;Gmina Rudbjerg;Rudbjerg
+ja;ロスキレ;Roskilde
+is;Hróarskelda;Roskilde
+ru;Роскилле;Roskilde
+cv;Роскильде;Roskilde
+ka;როსკილე;Roskilde
+th;รอสกิลด์;Roskilde
+ko;로스킬레;Roskilde
+uk;Роскілле;Roskilde
+mk;Роскилде;Roskilde
+sr;Роскилде;Roskilde
+zh;罗斯基勒;Roskilde
+be;Роскіле;Roskilde
+bg;Роскиле;Roskilde
+fa;راسکیله;Roskilde
+hy;Ռոսկիլդե;Roskilde
+ur;راسکیلے;Roskilde
+pl;Gmina Rønnede;Rønnede
+os;Рённе;Rønne
+lt;Rionė;Rønne
+be;Ронэ;Rønne
+sr;Рене;Rønne
+ru;Рённе;Rønne
+ja;レネ;Rønne
+lv;Renne;Rønne
+ru;Рёдвиг;Rødvig
+fi;Rødovren kunta;Rødovre
+hu;Rødovre község;Rødovre
+id;Munisipalitas Rødovre;Rødovre
+nn;Rødovre kommune;Rødovre
+ro;Comuna Rødovre;Rødovre
+uk;Редовре;Rødovre
+zh;勒藻勒自治市;Rødovre
+ru;Редовре;Rødovre
+pl;Gmina Rødekro;Rødekro
+pl;Gmina Rødby;Rødby
+zh;勒兹比;Rødby
+ru;Риссков;Risskov
+be;Рыскаў;Risskov
+fa;ریسکو، دانمارک;Risskov
+ru;Рингстед;Ringsted
+ka;რინგსტედი;Ringsted
+zh;灵斯泰兹;Ringsted
+mk;Рингстед;Ringsted
+sr;Рингстед;Ringsted
+lt;Ringkiobingas;Ringkøbing
+ru;Ринге;Ringe
+ru;Рибе;Ribe
+fa;ریبه;Ribe
+ja;リーベ;Ribe
+ko;리베;Ribe
+zh;里伯;Ribe
+is;Rípar;Ribe
+uk;Рібе;Ribe
+ru;Ранум;Ranum
+ru;Рандерс;Randers
+el;Ράντερς;Randers
+fa;راندرس;Randers
+ja;ラナース;Randers
+ka;რანერსი;Randers
+ko;라네르스;Randers
+lt;Randersas;Randers
+lv;Randersa;Randers
+sr;Рандерс;Randers
+th;ราเนอส์;Randers
+uk;Раннерс;Randers
+ru;Раннерс;Randers
+zh;蘭訥斯;Randers
+ar;راندرس;Randers
+bg;Ранерс;Randers
+pl;Gmina Præstø;Præstø
+pl;Gmina Pandrup;Pandrup
+ru;Падборг;Padborg
+ru;Оструп;Ostrup
+pl;Gmina Ølgod;Ølgod
+sv;Ölgod;Ølgod
+ar;أودنسه;Odense
+bg;Оденсе;Odense
+he;אודנזה;Odense
+ja;オーデンセ;Odense
+ko;오덴세;Odense
+ru;Оденсе;Odense
+hy;Օդենսե;Odense
+be;Одэнсэ;Odense
+el;Όντενσε;Odense
+ka;ოდენსე;Odense
+sr;Оденсе;Odense
+mk;Оденсе;Odense
+is;Óðinsvé;Odense
+fa;ادنسه;Odense
+os;Оденсе;Odense
+uk;Оденсе;Odense
+zh;欧登塞;Odense
+ce;Оденсе;Odense
+th;โอเดนเซ;Odense
+hi;ओडिन्से;Odense
+kk;Оденсе;Odense
+ky;Оденсе;Odense
+ur;اودنسے;Odense
+ru;Оддер;Odder
+ja;ニュークビン・ファルスター;Nykøbing Falster
+uk;Нюкебінґ Фальстер;Nykøbing Falster
+lt;Niukiobingas;Nykøbing Falster
+sr;Никебинг Фалстер;Nykøbing Falster
+ru;Нюкёбинг;Nykøbing Falster
+ru;Нюборг;Nyborg
+zh;尼堡自治市;Nyborg
+sr;Ниборг;Nyborg
+uk;Нюборг;Nyborg
+ru;Нествед;Næstved
+mk;Нествед;Næstved
+sr;Нествед;Næstved
+ka;ნესტვედი;Næstved
+ko;네스트베드;Næstved
+ja;ネストヴェズ;Næstved
+lt;Nestvedas;Næstved
+zh;奈斯特韦兹;Næstved
+ja;ネールム;Nærum
+zh;奈鲁姆;Nærum
+pl;Gmina Nordborg;Nordborg
+ka;ნერესუნბიუ;Nørresundby
+zh-Hant;諾勒鬆比;Nørresundby
+zh;诺勒松比;Nørresundby
+ar;نوسونبي;Nørresundby
+ja;ナアアソンビュー;Nørresundby
+fa;نورسوندبی;Nørresundby
+pl;Gmina Nørre Alslev;Nørre Alslev
+ru;Нибе;Nibe
+ru;Наксков;Nakskov
+lt;Nakskovas;Nakskov
+sr;Наксков;Nakskov
+uk;Наксков;Nakskov
+bg;Наксков;Nakskov
+hy;Նակսկով;Nakskov
+zh;纳克斯考;Nakskov
+mdf;Наксков;Nakskov
+fa;ناکسکف;Nakskov
+he;נקסקוב;Nakskov
+ru;Миддельфарт;Middelfart
+ru;Марсталь;Marstal
+ru;Марибо;Maribo
+uk;Марібо;Maribo
+pl;Gmina Mariager;Mariager
+ru;Мариагер;Mariager
+pl;Gmina Lundtoft;Lundtoft
+zh;勒斯寧;Løsning
+ru;Лёккен;Løkken
+pl;Gmina Løgumkloster;Løgumkloster
+sv;Lögumkloster;Løgumkloster
+pl;Gmina Løgstør;Løgstør
+sv;Lögstör;Løgstør
+ru;Лемвиг;Lemvig
+pl;Gmina Langebæk;Langebæk
+be;Корсёр;Korsør
+sr;Корсер;Korsør
+ru;Корсёр;Korsør
+zh-Hans;科雪尔;Korsør
+zh-Hant;科雪爾;Korsør
+ko;코르쇠르;Korsør
+is;Krosseyri;Korsør
+zh;科瑟;Korsør
+ar;كورسور;Korsør
+ja;コアセー;Korsør
+fa;کورسور;Korsør
+ja;キューゲ;Køge
+ru;Кеге;Køge
+ka;კეგე;Køge
+ko;코이에;Køge
+lt;Kiogė;Køge
+mk;Кеге;Køge
+sr;Кеје;Køge
+zh;克厄;Køge
+sv;Köpenhamn;København
+en;Copenhagen;København
+ar;كوبنهاغن;København
+be;Капэнгаген;København
+bg;Копенхаген;København
+bs;Kopenhagen;København
+cs;Kodaň;København
+cv;Копенгаген;København
+el;Κοπεγχάγη;København
+et;Kopenhaagen;København
+fi;Kööpenhamina;København
+fo;Keypmannahavn;København
+he;קופנהאגן;København
+he;קופנהגן;København
+hr;Kopenhagen;København
+hu;Koppenhága;København
+id;Kopenhagen;København
+is;Kaupmannahöfn;København
+ja;コペンハーゲン;København
+ka;კოპენჰაგენი;København
+ko;코펜하겐;København
+lt;Kopenhaga;København
+lv;Kopenhāgena;København
+pl;Kopenhaga;København
+ro;Copenhaga;København
+ru;Копенгаген;København
+sk;Kodaň;København
+sl;Kobenhaven;København
+sr;Копенхаген;København
+zh;哥本哈根;København
+th;โคเปนเฮเกน;København
+tr;Kopenhag;København
+af;Kopenhagen;København
+ug;كوپېنھاگېن;København
+am;ኮፕንሀግ;København
+am;ኮፐንሀገን;København
+bn;কোপেনহাগেন;København
+hy;Կոպենհագեն;København
+bn;কোপেনহেগেন;København
+bo;ཀའོ་པེན་ཧ་ཀེན;København
+sl;Köbenhavn;København
+sw;Kopenhagen;København
+uk;Копенгаген;København
+nn;Kjøpenhamn;København
+lv;Koldinga;Kolding
+ru;Колдинг;Kolding
+ka;კოლინგი;Kolding
+ko;콜링;Kolding
+ja;コリング;Kolding
+sr;Колдинг;Kolding
+mk;Колдинг;Kolding
+lt;Koldingas;Kolding
+fa;کولدینگ;Kolding
+ru;Коллинг;Kolding
+zh;科靈;Kolding
+th;คอเลง;Kolding
+uk;Кольдинг;Kolding
+ar;كولدنغ;Kolding
+be;Кольдынг;Kolding
+ru;Коккедаль;Kokkedal
+ru;Клампенборг;Klampenborg
+zh;卡拉姆堡;Klampenborg
+ru;Каструп;Kastrup
+zh;凯什楚普;Kastrup
+zh-Hant;凱什楚普;Kastrup
+ja;カストラップ;Kastrup
+fa;کاستروپ;Kastrup
+ru;Каруп;Karup
+pl;Gmina Karlebo;Karlebo
+pl;Gmina Jægerspris;Jægerspris
+ru;Еллинг;Jelling
+sv;Gravhögarna;Jelling
+be;Елінг;Jelling
+he;יילין;Jelling
+ja;イェリング;Jelling
+zh;耶靈;Jelling
+ru;Хвидовре;Hvidovre
+pl;Gmina Hundested;Hundested
+ru;Хорсенс;Horsens
+ar;هورسينس;Horsens
+bg;Хорсенс;Horsens
+fa;هورزنس;Horsens
+ja;ホーセンス;Horsens
+ka;ჰორსენსი;Horsens
+kk;Хорсенс;Horsens
+ko;호르센스;Horsens
+lt;Horsensas;Horsens
+mk;Хорсенс;Horsens
+sr;Хорсенс;Horsens
+th;ฮอร์เซนส์;Horsens
+zh;霍尔森斯;Horsens
+ru;Херсхольм;Hørsholm
+ka;ჰერსჰოლმი;Hørsholm
+lt;Hiorsholmas;Hørsholm
+pl;Gmina Høng;Høng
+pl;Gmina Højreby;Højreby
+pl;Gmina Højer;Højer
+sv;Höjer;Højer
+fa;هاجبرگ;Højbjerg
+ru;Хольстебро;Holstebro
+ka;ჰოლსტებრო;Holstebro
+mk;Холтесбро;Holstebro
+sr;Холстебро;Holstebro
+zh;霍爾斯特布羅;Holstebro
+pl;Gmina Holeby;Holeby
+ru;Хольбек;Holbæk
+ka;ჰოლბეკი;Holbæk
+lt;Holbekas;Holbæk
+mk;Холбек;Holbæk
+sr;Холбек;Holbæk
+ru;Хобро;Hobro
+ar;هوبرو;Hobro
+sr;Хобро;Hobro
+sv;Hjörring;Hjørring
+ka;იერინგი;Hjørring
+mk;Хјоринг;Hjørring
+sr;Јеринг;Hjørring
+ru;Хиртсхальс;Hirtshals
+zh;希茨海尔斯;Hirtshals
+pl;Gmina Hinnerup;Hinnerup
+ru;Хиннеруп;Hinnerup
+he;הילרוד;Hillerød
+ru;Хиллерод;Hillerød
+ar;هيليرود;Hillerød
+kk;Хиллерөд;Hillerød
+ky;Хиллерөд;Hillerød
+hi;हिलेरॉड;Hillerød
+bn;হিলেরোড;Hillerød
+ur;ہیلروڈ;Hillerød
+am;ሂለሮድ;Hillerød
+fa;هیلرود;Hillerød
+ja;ヒレロード;Hillerød
+pa;ਹਿਲੇਰੌਡ;Hillerød
+ps;هیلروډ;Hillerød
+tg;Хиллерёд;Hillerød
+tt;Хиллерёд;Hillerød
+ru;Хернинг;Herning
+ka;ჰერნინგი;Herning
+uk;Гернінг;Herning
+id;Munisipalitas Herning;Herning
+lt;Herningas;Herning
+ms;Munisipaliti Herning;Herning
+sr;Хернинг;Herning
+mk;Хернинг;Herning
+zh;海宁;Herning
+ja;ヘアニング;Herning
+kk;Хернинг;Herning
+ru;Хельсингёр;Helsingør
+sv;Helsingör;Helsingør
+th;เฮลซิงเงอร์;Helsingør
+ka;ჰელსინგერი;Helsingør
+sr;Хелсингер;Helsingør
+mk;Хелсингер;Helsingør
+lt;Helsingioras;Helsingør
+is;Helsingjaeyri;Helsingør
+ja;ヘルシンゲル;Helsingør
+ko;헬싱외르;Helsingør
+uk;Гельсінгер;Helsingør
+zh;赫爾辛格;Helsingør
+ar;هيليسينكور;Helsingør
+be;Хельсінгёр;Helsingør
+yue;希星加;Helsingør
+ru;Хельсинге;Helsinge
+ru;Хавнебю;Havneby
+ru;Хассерис;Hasseris
+he;הסריס;Hasseris
+ru;Хаслев;Haslev
+pl;Gmina Hanstholm;Hanstholm
+pl;Gmina Hammel;Hammel
+ja;フンメル;Hammel
+pl;Gmina Hadsund;Hadsund
+ka;ჰადსუნი;Hadsund
+kk;Хадсунн;Hadsund
+lt;Hadsundas;Hadsund
+mk;Хадсунн;Hadsund
+sr;Хадсунд;Hadsund
+yue;乞信;Hadsund
+ru;Хадсунн;Hadsund
+zh;乞信;Hadsund
+ru;Хадстен;Hadsten
+ru;Хадерслев;Haderslev
+mk;Хадерслев;Haderslev
+lt;Haderslevas;Haderslev
+ka;ჰადერსლევი;Haderslev
+sr;Хадерслев;Haderslev
+be;Хадэрслеў;Haderslev
+uk;Хадерслев;Haderslev
+pl;Gmina Gudme;Gudme
+fi;Grenå;Grenaa
+sv;Grenå;Grenaa
+ru;Грено;Green
+pl;Gmina Gråsten;Gråsten
+pl;Gmina Gørlev;Gørlev
+ceb;Glostrup Kommune;Glostrup
+fi;Glostrupin kunta;Glostrup
+fo;Glostrup kommuna;Glostrup
+hu;Glostrup község;Glostrup
+hy;Գլոստրուպ;Glostrup
+id;Munisipalitas Glostrup;Glostrup
+ka;გლოსტრუპი;Glostrup
+nn;Glostrup kommune;Glostrup
+no;Glostrup kommune;Glostrup
+ro;Comuna Glostrup;Glostrup
+pl;Gmina Glostrup;Glostrup
+ru;Глоструп;Glostrup
+sv;Glostrups kommun;Glostrup
+zh;格洛斯楚普自治市;Glostrup
+pl;Gmina Glamsbjerg;Glamsbjerg
+pl;Gmina Gladsaxe;Gladsaxe
+pl;Gmina Gjern;Gjern
+sv;Gellerup;Gjellerup
+et;Gellerup;Gjellerup
+pl;Gmina Gentofte;Gentofte
+no;Gentofte kommune;Gentofte
+ru;Гентофте;Gentofte
+et;Gentofte vald;Gentofte
+fi;Gentoften kunta;Gentofte
+hu;Gentofte község;Gentofte
+hy;Գենտոֆտե;Gentofte
+id;Munisipalitas Gentofte;Gentofte
+ja;ゲントフテ;Gentofte
+ka;გენტოფტე;Gentofte
+nn;Gentofte kommune;Gentofte
+uk;Гентофте;Gentofte
+zh;根措夫特自治市;Gentofte
+pl;Gmina Gedved;Gedved
+ru;Гедсер;Gedser
+uk;Гедсер;Gedser
+pl;Gmina Fuglebjerg;Fuglebjerg
+sr;Фредериксунд;Frederikssund
+ru;Фредерикссунн;Frederikssund
+ru;Фредериксхавн;Frederikshavn
+ka;ფრედერიქსჰავნი;Frederikshavn
+mk;Фредериксхавн;Frederikshavn
+fo;Frederikshavn kommuna;Frederikshavn
+lt;Frederikshaunas;Frederikshavn
+ko;프레데릭스하운;Frederikshavn
+ja;フレゼリクスハウン;Frederikshavn
+sr;Фредериксхавн;Frederikshavn
+sv;Fredrikshamn;Frederikshavn
+zh;腓特烈港;Frederikshavn
+ru;Фредериксберг;Frederiksberg
+sr;Фредериксберг;Frederiksberg
+ka;ფრედერიკსბერგი;Frederiksberg
+zh;腓特烈斯贝;Frederiksberg
+ko;프레데릭스베르;Frederiksberg
+ar;فريدريكسبرغ;Frederiksberg
+el;Φρέντερικσμπεργκ;Frederiksberg
+fi;Frederiksbergin kunta;Frederiksberg
+mk;Фредериксберг;Frederiksberg
+uk;Фредеріксберг;Frederiksberg
+ru;Фредерисия;Fredericia
+ja;フレゼリシア;Fredericia
+ka;ფრედერისია;Fredericia
+kk;Фредерисия;Fredericia
+ko;프레데리시아;Fredericia
+lt;Frederisija;Fredericia
+mk;Фредериција;Fredericia
+sr;Фредериција;Fredericia
+pl;Gmina Fjerritslev;Fjerritslev
+ru;Фьерритслев;Ferritslev
+ru;Фарум;Farum
+pl;Gmina Farsø;Farsø
+sv;Farsö;Farsø
+pl;Gmina Fakse;Faxe
+fo;Fakse;Faxe
+no;Fakse;Faxe
+ro;Fakse;Faxe
+sv;Fakse;Faxe
+ru;Факсе;Faxe
+ru;Фоборг;Faaborg
+bg;Фаборг;Faaborg
+lv;Foborga;Faaborg
+hy;Ֆոբորգ;Faaborg
+id;Fåborg;Faaborg
+sv;Fåborg;Faaborg
+ko;포보르;Faaborg
+zh;福堡;Faaborg
+fa;فابورگ;Faaborg
+ru;Эсбьерг;Esbjerg
+lv;Esbjerga;Esbjerg
+mk;Есбјерг;Esbjerg
+th;เอสบีเยร์;Esbjerg
+sr;Есбјерг;Esbjerg
+bg;Есбер;Esbjerg
+fa;اسبیرگ;Esbjerg
+lt;Esbjergas;Esbjerg
+uk;Есбєрг;Esbjerg
+os;Эсбьерг;Esbjerg
+ka;ესბიერი;Esbjerg
+ja;エスビャウ;Esbjerg
+ko;에스비에르;Esbjerg
+zh;埃斯比约;Esbjerg
+he;אסביירג;Esbjerg
+ar;إيسبيرغ;Esbjerg
+az;Esbyerq;Esbjerg
+zh;艾比;Ejby
+pl;Gmina Egtved;Egtved
+ru;Эбельтофт;Ebeltoft
+no;Ebeltoft kommune;Ebeltoft
+pl;Gmina Dronninglund;Dronninglund
+sv;Dragör;Dragør
+ru;Драгёр;Dragør
+zh;德拉厄自治市;Dragør
+pl;Gmina Christiansfeld;Christiansfeld
+pl;Gmina Brovst;Brovst
+pl;Gmina Broager;Broager
+pl;Gmina Bredebro;Bredebro
+zh;布雷德;Brede
+zh-Hant;佈雷德;Brede
+he;ברדה;Brede
+pl;Gmina Brande;Brande
+pl;Gmina Bramming;Bramming
+ru;Богенсе;Bogense
+pl;Gmina Bjergsted;Bjergsted
+zh-Hant;比克勒鎮;Birkerød
+zh;比克勒镇;Birkerød
+ja;ビアゲレズ;Birkerød
+fa;بیرکرید;Birkerød
+ru;Биркерёд;Birkerød
+os;Биркерёд;Birkerød
+pl;Gmina Billund;Billund
+el;Μπιλούντ;Billund
+ka;ბილუნდი;Billund
+ko;빌룬;Billund
+lt;Bilundas;Billund
+lv;Billunda;Billund
+ru;Биллунн;Billund
+zh;比隆;Billund
+ru;Бедер;Beder
+fo;Balleru;Ballerup
+no;Ballerup kommune;Ballerup
+tr;Ballerup Belediyesi;Ballerup
+fi;Ballerupin kunta;Ballerup
+hu;Ballerup község;Ballerup
+hy;Բալերուպ;Ballerup
+id;Munisipalitas Ballerup;Ballerup
+ms;Munisipaliti Ballerup;Ballerup
+nn;Ballerup kommune;Ballerup
+ro;Comuna Ballerup;Ballerup
+zh;巴勒魯普自治市;Ballerup
+ru;Багсвэрд;Bagsværd
+uk;Багсверд;Bagsværd
+pl;Gmina Augustenborg;Augustenborg
+ru;Аугустенборг;Augustenborg
+ru;Ассенс;Assens
+pl;Gmina Aars;Aars
+ja;アース;Aars
+de;Århus;Aarhus
+es;Århus;Aarhus
+fr;Århus;Aarhus
+bg;Орхус;Aarhus
+cs;Århus;Aarhus
+et;Århus;Aarhus
+fi;Århus;Aarhus
+gl;Århus;Aarhus
+he;אורהוס;Aarhus
+it;Århus;Aarhus
+ja;オーフス;Aarhus
+lv;Orhūsa;Aarhus
+nl;Århus;Aarhus
+no;Århus;Aarhus
+ro;Århus;Aarhus
+sr;Орхус;Aarhus
+sv;Århus;Aarhus
+tr;Århus;Aarhus
+is;Árósar;Aarhus
+ru;Орхус;Aarhus
+el;Άρχους;Aarhus
+fa;شهر الیراد;Allerød
+fi;Allerødin kunta;Allerød
+fo;Allerød kommuna;Allerød
+hu;Allerød község;Allerød
+hy;Ալերյոդ;Allerød
+id;Munisipalitas Allerød;Allerød
+ms;Munisipaliti Allerød;Allerød
+nn;Allerød kommune;Allerød
+no;Allerød kommune;Allerød
+ro;Comuna Allerød;Allerød
+pl;Gmina Allerød;Allerød
+ru;Аллерёд;Allerød
+sv;Allerøds kommun;Allerød
+zh;阿勒勒自治市;Allerød
+bg;Олбор;Aalborg
+hu;Ålborg;Aalborg
+id;Ålborg;Aalborg
+ja;オールボー;Aalborg
+lv;Olborga;Aalborg
+no;Ålborg;Aalborg
+ru;Ольборг;Aalborg
+sv;Ålborg;Aalborg
+is;Álaborg;Aalborg
+sr;Олборг;Aalborg
+lt;Olborgas;Aalborg
+os;Ольборг;Aalborg
+ko;올보르;Aalborg
+he;אולבורג;Aalborg
+th;ออลบอร์;Aalborg
+ka;ოლბორგი;Aalborg
+uk;Ольборг;Aalborg
+hy;Օլբորգ;Aalborg
+el;Άλμποργκ;Aalborg
+fa;آلبورگ;Aalborg
+ar;آلبورغ;Aalborg
+zh;奥尔堡;Aalborg
+kk;Ольборг;Aalborg
+mk;Олборг;Aalborg
+be;Ольбарг;Aalborg
+ur;آلبو;Aalborg
+uz;Olborg;Aalborg
+ky;Алборг;Aalborg
+hi;अलबोर्ग;Aalborg
+bn;আলবর্গ;Aalborg
+am;አልቦርግ;Aalborg
+pa;ਅਾਲਬਰਗ;Aalborg
+ps;البورګ;Aalborg
+tg;Алборг;Aalborg
+tt;Алборг;Aalborg
+pl;Gmina Albertslund;Albertslund
+no;Albertslund kommune;Albertslund
+ru;Альбертслунн;Albertslund
+fa;شهر البرتس‌لاند;Albertslund
+fi;Albertslundin kunta;Albertslund
+hu;Albertslund község;Albertslund
+hy;Ալբերտսլուն;Albertslund
+id;Munisipalitas Albertslund;Albertslund
+ms;Munisipaliti Albertslund;Albertslund
+nn;Albertslund kommune;Albertslund
+ro;Comuna Albertslund;Albertslund
+zh;阿爾貝特斯隆自治市;Albertslund
+pl;Gmina Aabybro;Åbybro
+fo;Aabybro;Åbybro
+no;Aabybro;Åbybro
+sv;Aabybro;Åbybro
+et;Åbenrå;Aabenraa
+fi;Aabenrå;Aabenraa
+no;Åbenrå;Aabenraa
+sv;Åbenrå;Aabenraa
+ko;오벤로;Aabenraa
+ja;オーベンロー;Aabenraa
+sk;Åbenrå;Aabenraa
+sr;Обенро;Aabenraa
+lt;Obenro;Aabenraa
+zh;奥本罗;Aabenraa
+kab;Abenra;Aabenraa

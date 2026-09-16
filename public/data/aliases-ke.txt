@@ -244,3 +244,514 @@ en;Kavoko;Mataka
 pt;Mucurueini;Mukurwe-ini
 ar;أول كالو;Ol Kalou
 ar;كاثوانا;Kathwana
+zh;瓦塔穆;Watamu
+ka;უატამუ;Watamu
+ja;ワタム;Watamu
+ja;ワンバ;Wamba
+bg;Уаджир;Wajir
+fa;واجیر، کنیا;Wajir
+ja;ワジール;Wajir
+ka;ვაჯირი;Wajir
+lt;Vadžiras;Wajir
+so;Wajeer;Wajir
+ur;واجیر;Wajir
+ru;Ваджир;Wajir
+zh;瓦吉爾;Wajir
+ja;ボイ;Voi
+ka;ვოი;Voi
+ur;ووی;Voi
+ru;Вои;Voi
+ru;Тик;Thika
+bg;Такаунгу;Takaungu
+zh;塔卡溫古;Takaungu
+zh-Hans;塔卡温古;Takaungu
+ru;Такаунгу;Takaungu
+zh-Hant;蘇丹哈茂德;Sultan Hamud
+zh;苏丹哈茂德;Sultan Hamud
+ja;サウス・ホル;South Horr
+zh;希莫尼;Shimoni
+ja;サムリ;Samuli
+ja;サガナ;Sagana
+fa;رویرو، کنیا;Ruiru
+ka;რუირუ;Ruiru
+ur;رویرو;Ruiru
+ru;Руиру;Ruiru
+zh;魯依魯;Ruiru
+uk;Руїру;Ruiru
+ja;ルイル;Ruiru
+he;רואירו;Ruiru
+ja;ニエリ;Nyeri
+fa;نیری، کنیا;Nyeri
+ka;ნიერი;Nyeri
+ko;니에리;Nyeri
+lt;Njeris;Nyeri
+sr;Њери;Nyeri
+ru;Ньери;Nyeri
+zh;尼耶利;Nyeri
+ur;نیئری;Nyeri
+ja;ニャウィタ区;Nyawita
+ur;میابوگی;Myabogi
+zh;尼亞胡魯魯;Nyahururu
+ka;ნიაჰურურუ;Nyahururu
+ja;ニャフルル;Nyahururu
+fa;نیاهورورو، کنیا;Nyahururu
+ur;نیاہورورو;Nyahururu
+he;ניהורורו;Nyahururu
+ru;Нгонг;Ngong
+zh;納羅莫魯;Naro Moru
+zh-Hans;纳罗莫鲁;Naro Moru
+ka;ნარო-მორუ;Naro Moru
+fa;نانیوکی، کنیا;Nanyuki
+ka;ნანიუკი;Nanyuki
+ur;نانیوکی;Nanyuki
+ru;Нанюки;Nanyuki
+zh;納紐基;Nanyuki
+bg;Нангина;Nangina
+ru;Накуру;Nakuru
+be;Накуру;Nakuru
+fa;ناکورو، کنیا;Nakuru
+ja;ナクル;Nakuru
+ka;ნაკურუ;Nakuru
+ko;나쿠루;Nakuru
+sr;Накуру;Nakuru
+uk;Накуру;Nakuru
+zh;纳库鲁;Nakuru
+ur;ناکورو;Nakuru
+ru;Найваша;Naivasha
+fa;نایواشا، کنیا;Naivasha
+ka;ნაივაშა;Naivasha
+lt;Naivaša;Naivasha
+zh;奈瓦沙;Naivasha
+bg;Наиваша;Naivasha
+uk;Найваша;Naivasha
+ur;نایواشا;Naivasha
+ja;ナイバシャ;Naivasha
+he;ניירובי;Nairobi
+ja;ナイロビ;Nairobi
+ko;나이로비;Nairobi
+lt;Nairobis;Nairobi
+mk;Најроби;Nairobi
+zh;奈洛比;Nairobi
+ru;Найроби;Nairobi
+el;Ναϊρόμπι;Nairobi
+bg;Найроби;Nairobi
+am;ናይሮቢ;Nairobi
+fa;نایروبی;Nairobi
+sr;Најроби;Nairobi
+th;ไนโรบี;Nairobi
+ka;ნაირობი;Nairobi
+sah;Найроби;Nairobi
+ml;നയ്റോബി;Nairobi
+ur;نیروبی;Nairobi
+os;Найроби;Nairobi
+pa;ਨੈਰੋਬੀ;Nairobi
+bn;নাইরোবি;Nairobi
+ht;Nayrobi;Nairobi
+uk;Найробі;Nairobi
+bo;ནའི་རོ་བི།;Nairobi
+hy;Նայրոբի;Nairobi
+ug;نايروبى;Nairobi
+mrj;Найроби;Nairobi
+udm;Найроби;Nairobi
+tg;Найроби;Nairobi
+be;Найробі;Nairobi
+tt;Найроби;Nairobi
+lez;Найроби;Nairobi
+az;Nayrobi;Nairobi
+tk;Naýrobi;Nairobi
+ta;நைரோபி;Nairobi
+my;နိုင်ရိုဘီမြို့;Nairobi
+mr;नैरोबी;Nairobi
+mn;Найроби;Nairobi
+kk;Найроби;Nairobi
+so;Nayroobi;Nairobi
+rue;Найробі;Nairobi
+ky;Найроби;Nairobi
+kn;ನೈರೋಬಿ;Nairobi
+ckb;نایرۆبی;Nairobi
+ps;نایروبی;Nairobi
+zh-Hans;内罗毕;Nairobi
+mhr;Найроби;Nairobi
+ba;Найроби;Nairobi
+myv;Найроби ош;Nairobi
+si;නයිරෝබි;Nairobi
+mzn;نایروبی;Nairobi
+ce;Найроби;Nairobi
+te;నైరోబి;Nairobi
+hak;Nai-lo̍k-pí;Nairobi
+sgs;Nairobis;Nairobi
+uz;Nayrobi;Nairobi
+ady;Найроби;Nairobi
+yue;賴羅比;Nairobi
+zgh;ⵏⴰⵢⵔⵓⴱⵉ;Nairobi
+bxr;Найроби;Nairobi
+zh-HK;內羅比;Nairobi
+gn;Nairóvi;Nairobi
+gu;નૈરોબી;Nairobi
+hi;नैरोबी;Nairobi
+mdf;Найроби;Nairobi
+ne;नैरोबी;Nairobi
+nv;Tó Sikʼaz;Nairobi
+kaa;Nayrobi;Nairobi
+inh;Найроби;Nairobi
+ur;موموٹو;Mwimuto
+ur;مویوے;Mwewe
+ur;مویگا;Mweiga
+ur;موازی;Mwazi
+ur;مواتھائنی;Mwathaini
+ur;مواراکایا;Mwarakaya
+ur;موانیورا;Mwanyora
+ur;موانگولو;Mwangulu
+ur;موانگاریم;Mwangarimwe
+ur;موانڈیمو;Mwandimu
+ur;مواناتھمبا;Mwanathamba
+ur;موانا مونگا;Mwana Mwinga
+ur;مومبیری;Mwambiri
+ur;مومباتھانا;Mwambathana
+ur;مومبانی;Nambani
+ur;موالوونگا;Mwaluvanga
+ur;موالیلی;Mwalili
+ru;Муала;Mwala
+ur;مواک والا;Mwakwala
+ur;مواکونڈے;Mwakunde
+ur;مواچیرونجے یا پوانی;Mwakirunge ya Pwani
+ur;مواچیرونگے بومو;Mwakirunge Kuu
+ur;مواکیرونگے;Mwakirunge
+ur;موابایا;Mwabaya Nyundo
+ur;موابنی;Mwabani
+ur;موولینی;Mvuleni
+ur;موتومو;Mutomo
+bg;Мумиас;Mumias
+zh-Hans;穆米亚斯;Mumias
+ka;მუმიასი;Mumias
+ur;مومیاس;Mumias
+zh;穆米亞斯;Mumias
+ja;ムミアス;Mumias
+fa;مومیاس، کنیا;Mumias
+ro;Mumia's;Mumias
+ru;Мумиас;Mumias
+ja;ムホロニ;Muhoroni
+ja;ムティト・アンディ;Mtito Andei
+ur;متیتو اندئی;Mtito Andei
+zh;姆蒂托安代;Mtito Andei
+zh;摩亞雷;Moyale
+ja;モヤレ;Moyale
+ko;모얄레;Moyale
+he;מומבסה;Mombasa
+ja;モンバサ;Mombasa
+bg;Момбаса;Mombasa
+sr;Момбаса;Mombasa
+mr;मोम्बासा;Mombasa
+so;Mombaaso;Mombasa
+mn;Момбаса;Mombasa
+mk;Момбаса;Mombasa
+uk;Момбаса;Mombasa
+ur;ممباسا;Mombasa
+ko;몸바사;Mombasa
+fa;مومباسا;Mombasa
+be;Мамбаса;Mombasa
+ka;მომბასა;Mombasa
+ru;Момбаса;Mombasa
+zh;蒙巴萨;Mombasa
+el;Μομπάσα;Mombasa
+ru;Моло;Molo
+ja;モロ;Molo
+ja;モイベン;Moiben
+fa;کیبانتا;Miti ya Hunter
+bg;Мигунени;Miguneni
+ru;Меры;Meru
+ja;マウア;Maua
+ru;Матуга;Matuga
+ru;Масено;Maseno
+bg;Масено;Maseno
+zh;馬西諾;Maseno
+ja;マセノ;Maseno
+ja;マサラニ;Masalani
+ja;マリガット;Marigat
+bg;Мариакани;Mariakani
+zh;马里亚卡尼;Mariakani
+zh-Hant;馬里亞卡尼;Mariakani
+ja;マリアカニ;Mariakani
+ru;Мариакани;Mariakani
+fa;ماراشونی;Marashoni
+ru;Мандере;Mandera
+uk;Мандера;Mandera
+ja;マリンディ;Malindi
+sr;Малинди;Malindi
+fa;مالیندی، کنیا;Malindi
+gl;Melinde;Malindi
+ka;მალინდი;Malindi
+ko;말린디;Malindi
+lt;Malindis;Malindi
+uk;Малінді;Malindi
+ru;Малинди;Malindi
+zh;馬林迪;Malindi
+ur;مالیندی;Malindi
+hi;मलिंदी;Malindi
+hy;Մալինդի;Malindi
+zh-Hans;马林迪;Malindi
+mr;मालिंदी;Malindi
+el;Μαλίντι;Malindi
+bn;মালিনডি;Malindi
+si;මලින්ඩි;Malindi
+kn;ಮಲಿಂಡಿ;Malindi
+ta;மாலிண்டி;Malindi
+gu;માલિન્દી;Malindi
+te;మిలిందీ;Malindi
+th;มาลินดี;Malindi
+ru;Макинду;Makindu
+el;Μακίντου;Makindu
+ta;மகிண்டு;Makindu
+zh;马金杜;Makindu
+zh-Hant;馬金杜;Makindu
+ja;マキンドゥ;Makindu
+ur;ماکیندو;Makindu
+fa;ماجی‌ماتا;Maji Moto
+ru;Маджи я Чумви;Maji ya Chumvi
+zh;馬欣加;Mahinga
+ur;میڈونگونی;Madungoni
+ur;میڈو گاشی;Mado Gashi
+ur;میڈابوگو;Madabogo
+ur;ماچیگی;Machege
+ru;Мачакосский;Machakos
+fa;ماچاکوس، کنیا;Machakos
+ja;マチャコス;Machakos
+ka;მაჩაკოსი;Machakos
+ko;마차코스;Machakos
+sr;Махакос;Machakos
+ru;Мачакос;Machakos
+zh;马查科斯;Machakos
+ur;ماچاکوس;Machakos
+ur;ماباٹانی;Mabatani
+bg;Кипкелион;Kipkelion
+ru;Кипкелион;Kipkelion
+ja;ロキタウン;Lokitaung
+fa;لوکیچار;Lokichar
+ru;Лодвар;Lodwar
+ka;ლოდვარი;Lodwar
+lt;Lodvaras;Lodwar
+mk;Лодвар;Lodwar
+sr;Лодвар;Lodwar
+ur;لودوار;Lodwar
+zh;洛德瓦爾;Lodwar
+ru;Литеин;Litein
+bg;Литеин;Litein
+zh;利穆魯;Limuru
+ka;ლიმურუ;Limuru
+ja;リムル;Limuru
+ur;لیمورو;Limuru
+ru;Лимуру;Limuru
+ja;リコニ;Likoni
+fa;لایکونی;Likoni
+ru;Онгата Ронгаи;Ongata Rongai
+ru;Лама;Lamu
+be;Ламу;Lamu
+he;לאמו;Lamu
+ja;ラム;Lamu
+ka;ლამუ;Lamu
+ko;라무;Lamu
+sr;Ламу;Lamu
+ru;Ламу;Lamu
+zh;拉穆;Lamu
+ur;لائنی;Laini
+zh;夸勒;Kwale
+ru;Китале;Kitale
+fa;کیتاله، کنیا;Kitale
+ja;キタレ;Kitale
+ka;კიტალე;Kitale
+ur;کیتالے;Kitale
+zh;基塔萊;Kitale
+sr;Кисуму;Kisumu
+ko;키수무;Kisumu
+ja;キスム;Kisumu
+be;Кісуму;Kisumu
+uk;Кісуму;Kisumu
+ka;კისუმუ;Kisumu
+fa;کیسومو، کنیا;Kisumu
+ru;Кисуму;Kisumu
+zh;基蘇木;Kisumu
+ca;Kisii town;Kisii
+fa;کیسی، کنیا;Kisii
+ka;კისიი;Kisii
+ur;کیسیی، کینیا;Kisii
+zh;基西;Kisii
+ru;Кисии;Kisii
+bg;Кипини;Kipini
+zh;基皮尼;Kipini
+ru;Кипини;Kipini
+ja;キムウォーター;Kimwarer
+ja;キミリリ;Kimilili
+fa;کیمیلیلی;Kimilili
+ru;Килифи;Kilifi
+fa;کیلیفی، کنیا;Kilifi
+ka;კილიფი;Kilifi
+ur;کیلیفی;Kilifi
+zh;基利菲;Kilifi
+ru;Кикую;Kikuyu
+lv;Kikuju;Kikuyu
+uk;Кікую;Kikuyu
+ja;キクユ;Kikuyu
+ur;کیکویو، کینیا;Kikuyu
+ru;Кибиригви;Kibirigwi
+ru;Киамбу;Kiambu
+ru;Хуисеро;Khwisero
+ru;Кенду-Бей;Kendu Bay
+fa;کسیدی;Kasidi
+ru;Карури;Karuri
+mr;करिया;Karia
+zh;卡拉蒂納;Karatina
+zh-Hans;卡拉蒂纳;Karatina
+fa;کاپتاما;Kaptama
+fi;Kamiriithu;Kamirithu
+he;קמיריתו;Kamirithu
+zh;卡米里圖;Kamirithu
+ru;Камарр;Kamarr
+ru;Какамеге;Kakamega
+fa;کاکامگا، کنیا;Kakamega
+ka;კაკამეგა;Kakamega
+sr;Какамега;Kakamega
+ru;Какамега;Kakamega
+zh;卡卡梅加;Kakamega
+ru;Джомву;Jomvu
+ur;جمبے;Jambe
+ru;Исиоло;Isiolo
+fa;ایرانگی;Irangi
+ja;ハバスウェイン;Habaswein
+ur;حبس وائن;Habaswein
+be;Гатуяіні;Gatuyaini
+el;Γκατουγάινι;Gatuyaini
+he;גאטויאיני;Gatuyaini
+ja;ガルセン;Garsen
+sr;Гариса;Garissa
+fa;گاریسا، کنیا;Garissa
+he;גאריסה;Garissa
+ja;ガリッサ;Garissa
+ka;გარისა;Garissa
+ko;가리사;Garissa
+lt;Garisa;Garissa
+so;Gaarisa;Garissa
+uk;Гарісса;Garissa
+ur;گاریسا;Garissa
+ru;Гарисса;Garissa
+zh;加里萨;Garissa
+ja;ガルバ・トゥラ;Garba Tula
+ur;فافسولا;Fafsula
+fa;اساگری;Esageri
+fa;انتونتول;Entontol
+fa;انتاسکرا;Olosodan Entasekera
+fa;انکوریکا;Enkorika
+fa;انداراشا;Endarasha
+fa;امدین;Emdin
+ru;Эмба;Embu
+fa;امبو، کنیا;Embu
+ka;ემბუ;Embu
+sr;Ембу;Embu
+ur;عمبو، کینیا;Embu
+ru;Эмбу;Embu
+zh;恩布;Embu
+ru;Эмбакаси;Embakasi
+uk;Ембакасі;Embakasi
+ja;エンバカシ;Embakasi
+zh-Hans;埃马利;Emali
+zh-Hant;埃馬利;Emali
+ru;Элдорет;Eldoret
+fa;الدورت، کنیا;Eldoret
+ja;エルドレット;Eldoret
+ka;ელდორეტი;Eldoret
+ko;엘도레트;Eldoret
+lt;Eldoretas;Eldoret
+sr;Елдорет;Eldoret
+th;เอลโดเรต;Eldoret
+zh;埃爾多雷特;Eldoret
+ur;الدورت;Eldoret
+ja;エルダマ峡谷;Eldama Ravine
+ja;エルブルゴン;Elburgon
+fa;دیانگا;Dianga
+fa;دداب;Dadaab
+ur;دداب;Dadaab
+fa;داداب;Dadaab
+ur;دادااب;Dadaab
+fa;دبیدا;Dabida
+ceb;Port Bunyala;Port Victoria
+sv;Port Bunyala;Port Victoria
+ru;Бунгома;Bungoma
+pa;ਬੁੰਗੋਮਾ;Bungoma
+ps;بنګوما;Bungoma
+tg;Бунгома;Bungoma
+tt;Бунгома;Bungoma
+ru;Бомет;Bomet
+kk;Бомет;Bomet
+ky;Бомет;Bomet
+hi;बोमेट;Bomet
+bn;বোমেট;Bomet
+ur;بومیٹ;Bomet
+am;ቦሜት;Bomet
+fa;بومت;Bomet
+ja;ボメット;Bomet
+pa;ਬੋਮੇਟ;Bomet
+ps;بومیٹ;Bomet
+tg;Бомет;Bomet
+tt;Бомет;Bomet
+ja;ビビトリ;Bibitoli
+ceb;Benane;Banane
+sv;Benane;Banane
+fa;باروسا;Barwesa
+fa;بارتولیمو;Bartolimo
+fa;بارتیمارو;Bartimaro
+zh;巴拉戈伊;Baragoi
+ka;ბარაგოი;Baragoi
+uk;Бараґой;Baragoi
+fa;باراگولی;Baragoi
+ur;باراگوئی;Baragoi
+ja;バンブリ;Bamburi
+fa;آیوگیس;Ayugis
+fa;آواچ تند;Awach Tende
+fa;آنیکا;Anyieka
+fa;آمبیرا;Ambira
+fa;آیناموی;Ainamoi
+fa;اچیوا;Achivwa
+ru;Сиая;Siaya
+kk;Сиая;Siaya
+ky;Сиая;Siaya
+hi;सियाया;Siaya
+bn;সিয়ায়া;Siaya
+ur;سیایا;Siaya
+am;ስያያ;Siaya
+fa;سیایا;Siaya
+ja;シアヤ;Siaya
+pa;ਸਿਆਯਾ;Siaya
+ps;سیایا;Siaya
+tg;Сиая;Siaya
+tt;Сиая;Siaya
+ur;جاب دمتو;Jaba Dimtu
+ru;Кориджуб;Koridzhub
+ru;Ол-Калоу;Ol Kalou
+kk;Өл-Калоу;Ol Kalou
+ky;Өл-Калоу;Ol Kalou
+hi;ओल कलौ;Ol Kalou
+bn;ওল কালৌ;Ol Kalou
+ur;اول کالو;Ol Kalou
+am;ኦል ካሉ;Ol Kalou
+fa;اول کالو;Ol Kalou
+ja;オルカロウ;Ol Kalou
+pa;ਓਲ ਕਾਲੌ;Ol Kalou
+ps;اول کالو;Ol Kalou
+tg;Ол-Калоу;Ol Kalou
+tt;Ол-Калоу;Ol Kalou
+ru;Китенгела;Kitengela
+ru;Джуя;Juja
+ru;Млолонго;Mlolongo
+ru;Катвана;Kathwana
+kk;Қатвана;Kathwana
+ky;Катвана;Kathwana
+hi;कथवाना;Kathwana
+bn;কাথওয়ানা;Kathwana
+ur;کتھوانا;Kathwana
+am;ካትዋና;Kathwana
+az;Kathvana;Kathwana
+fa;کاتوانا;Kathwana
+ja;カトワナ;Kathwana
+pa;ਕਥਵਾਨਾ;Kathwana
+ps;کتھوانا;Kathwana
+tg;Қатвана;Kathwana
+tt;Катвана;Kathwana

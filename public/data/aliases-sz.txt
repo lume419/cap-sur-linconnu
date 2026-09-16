@@ -15,3 +15,116 @@ ar;لوبامبا;Lobamba
 es;Hlatikulu;Hlathikhulu
 en;Hlatikulu;Hlathikhulu
 zu;ISimunye;Simunye
+ceb;Tshaneni;Thunzini
+vi;Tshaneni;Thunzini
+ru;Ситеки;Siteki
+kk;Ситеки;Siteki
+ky;Ситеки;Siteki
+hi;सितेकी;Siteki
+bn;সিটেকি;Siteki
+ur;سیٹیکی;Siteki
+am;ስቴኪ;Siteki
+fa;سیتکی;Siteki
+ja;シテキ;Siteki
+pa;ਸਿਟੇਕੀ;Siteki
+ps;سیتیکي;Siteki
+tg;Ситеки;Siteki
+tt;Ситеки;Siteki
+ru;Пиггс-Пик;Piggs Peak
+kk;Піггс-Пик;Piggs Peak
+ky;Піггс-Пик;Piggs Peak
+hi;पिग्स पीक;Piggs Peak
+bn;পিগস পিক;Piggs Peak
+ur;پگس پیک;Piggs Peak
+am;ፒግስ ፒክ;Piggs Peak
+fa;پیگز پیک;Piggs Peak
+ja;ピッグスピーク;Piggs Peak
+pa;ਪਿਗਸ ਪੀਕ;Piggs Peak
+ps;پيگس پيک;Piggs Peak
+tg;Пиггс-Пик;Piggs Peak
+tt;Пиггс-Пик;Piggs Peak
+zh;恩索科;Nsoko
+ru;Нхланганo;Nhlangano
+kk;Нхланганo;Nhlangano
+ky;Нхланганo;Nhlangano
+hi;नहलांगानो;Nhlangano
+bn;নহলাঙ্গানো;Nhlangano
+ur;نہلانگانو;Nhlangano
+am;ንህላንጋኖ;Nhlangano
+fa;نهلانگانو;Nhlangano
+ja;ンランガーノ;Nhlangano
+pa;ਨਹਲਾਂਗਾਨੋ;Nhlangano
+ps;نهلانګانو;Nhlangano
+tg;Нхланганo;Nhlangano
+tt;Нхланганo;Nhlangano
+bg;Мхламбаняци;Mhlambanyatsi
+uk;Мхламбаньятсі;Mhlambanyatsi
+ru;Мхламбаняци;Mhlambanyatsi
+bg;Мбабане;Mbabane
+ja;ムババーネ;Mbabane
+sr;Мбабане;Mbabane
+mk;Мбабане;Mbabane
+ru;Мбабане;Mbabane
+zh;墨巴本;Mbabane
+el;Μπαμπάνε;Mbabane
+he;מבבנה;Mbabane
+ko;음바바네;Mbabane
+am;ምባባኔ;Mbabane
+be;Мбабанэ;Mbabane
+bo;མ་པ་པན།;Mbabane
+ce;Мбабане;Mbabane
+ckb;مبابانێ;Mbabane
+fa;مبابانه;Mbabane
+ht;Mbabàn;Mbabane
+hy;Մբաբանե;Mbabane
+ka;მბაბანე;Mbabane
+ky;Мбабане;Mbabane
+mr;अंबाबाने;Mbabane
+pa;ਅੰਬਾਬਾਨੇ;Mbabane
+so;Mabane;Mbabane
+tg;Мбабане;Mbabane
+th;อัมบาบาเน;Mbabane
+udm;Мбабане;Mbabane
+uk;Мбабане;Mbabane
+ur;امبابانی;Mbabane
+ta;இம்பபான்;Mbabane
+yue;墨巴本;Mbabane
+sr;Манзини;Manzini
+el;Μανζίνι;Manzini
+he;מנזיני;Manzini
+ja;マンジニ;Manzini
+ko;만지니;Manzini
+lt;Manzinis;Manzini
+uk;Манзіні;Manzini
+ru;Манзини;Manzini
+zh;曼齐尼;Manzini
+kk;Манзини;Manzini
+ky;Манзини;Manzini
+hi;मंजिनी;Manzini
+bn;মানজিনি;Manzini
+ur;منزینی;Manzini
+am;ማንዚኒ;Manzini
+fa;مانزینی;Manzini
+pa;ਮਾਨਜ਼ਿਨੀ;Manzini
+ps;منزيني;Manzini
+tg;Манзини;Manzini
+tt;Манзини;Manzini
+he;לובמבה;Lobamba
+sr;Лобамба;Lobamba
+be;Лабамба;Lobamba
+bg;Лобамба;Lobamba
+ckb;لۆبامبا;Lobamba
+fa;لوبامبا;Lobamba
+ja;ロバンバ;Lobamba
+ka;ლობამბა;Lobamba
+ko;로밤바;Lobamba
+uk;Лобамба;Lobamba
+ur;لوبامبا;Lobamba
+ru;Лобамба;Lobamba
+zh;洛班巴;Lobamba
+yue;洛班巴;Lobamba
+sv;Hlatikulu;Hlathikhulu
+ru;Симунье;Simunye
+zh;錫穆涅;Simunye
+zh-Hans;锡穆涅;Simunye
+sr;Симунје;Simunye

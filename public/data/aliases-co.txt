@@ -664,3 +664,596 @@ es;Inspección de Policía Nueva Granada;Nueva Granada
 es;Los Terrones;San Miguel
 es;Yapu;Yapú
 es;Centro Poblado Yapu;Yapú
+bg;Сипакира;Zipaquirá
+fa;سیپاگیرا;Zipaquirá
+ka;სიპაკირა;Zipaquirá
+lt;Jopalis;Yopal
+sgs;Juopalės;Yopal
+fa;یوپال;Yopal
+ur;یوپال;Yopal
+kk;Йопаль;Yopal
+ky;Йопаль;Yopal
+bn;ইউপাল;Yopal
+am;ዮፓል;Yopal
+pa;ਯੋਪਾਲ;Yopal
+ps;یوپال;Yopal
+tg;Йопаль;Yopal
+tt;Йопаль;Yopal
+bg;Вилявисенсио;Villavicencio
+lt;Viljavisensijas;Villavicencio
+uk;Віявісенсіо;Villavicencio
+ka;ვილიავისენსიო;Villavicencio
+kk;Вильявисенсио;Villavicencio
+ky;Вильявисенсио;Villavicencio
+bn;ভিল্লাভিসেনসিও;Villavicencio
+ur;ویلاویسینسیو;Villavicencio
+am;ቪላቪሴንሲዮ;Villavicencio
+fa;ویلاویسنسیو;Villavicencio
+pa;ਵਿਲਾਵਿਸੇਨਸੀਓ;Villavicencio
+ps;ویلاویسنسیو;Villavicencio
+tg;Вильявисенсио;Villavicencio
+tt;Вильявисенсио;Villavicencio
+bg;Валедупар;Valledupar
+lt;Valjeduparas;Valledupar
+ka;ვალიედუპარი;Valledupar
+kk;Вальедупар;Valledupar
+ky;Вальедупар;Valledupar
+bn;ভ্যালেদুপার;Valledupar
+ur;ویلے ڈوپار;Valledupar
+am;ቫለዱፓር;Valledupar
+fa;والدوپار;Valledupar
+pa;ਵੇਲੇਦੁਪਾਰ;Valledupar
+ps;والدوپار;Valledupar
+tg;Вальедупар;Valledupar
+tt;Вальедупар;Valledupar
+bg;Тунха;Tunja
+el;Τούνχα;Tunja
+lt;Tuncha;Tunja
+kk;Туньха;Tunja
+ky;Туньха;Tunja
+bn;তুনজা;Tunja
+ur;تنجہ;Tunja
+am;ቱንጃ;Tunja
+fa;تونخا;Tunja
+pa;ਤੁਂਜਾ;Tunja
+ps;تونجا;Tunja
+tg;Туньха;Tunja
+tt;Туньха;Tunja
+lt;Tumakas;Tumaco
+bg;Тулуа;Tuluá
+fa;تولوآ;Tuluá
+ka;ტულუა;Tuluá
+ur;تولوآ;Tuluá
+ka;ტოპაიპი;Topaipí
+fa;تولو;Santiago de Tolú
+ka;ტოლუ;Santiago de Tolú
+lt;Tolu;Santiago de Tolú
+fa;توکانسیپا;Tocancipá
+ka;ტოკანსიპა;Tocancipá
+fa;تامه;Tame
+ka;ტამე;Tame
+ka;სუტატენსა;Sutatenza
+lt;Sogamosas;Sogamoso
+lt;Sinselechas;Sincelejo
+fa;سینسلخو;Sincelejo
+ka;სინსელეხო;Sincelejo
+ur;سنسیلخو;Sincelejo
+kk;Синселехо;Sincelejo
+ky;Синселехо;Sincelejo
+bn;সিনসেলেজো;Sincelejo
+am;ሲንሴሌጆ;Sincelejo
+pa;ਸਿਨਸੇਲੇਜੋ;Sincelejo
+ps;سنسیلیجو;Sincelejo
+tg;Синселехо;Sincelejo
+tt;Синселехо;Sincelejo
+fa;سان ویسنته دل کاگوان;San Vicente del Caguán
+fa;سانتا روسا ده روسوس;Santa Rosa de Osos
+ka;სანტა-როსა-დე-ოსოსი;Santa Rosa de Osos
+uk;Санта-Роса-де-Осос;Santa Rosa de Osos
+sr;Санта Марта;Santa Marta
+he;סנטה מרתה;Santa Marta
+fa;سانتا مارتا;Santa Marta
+kk;Санта-Марта;Santa Marta
+ky;Санта-Марта;Santa Marta
+bn;সান্তা মার্তা;Santa Marta
+ur;سانتا مارتا;Santa Marta
+am;ሳንታ ማርታ;Santa Marta
+pa;ਸਾਂਤਾ ਮਾਰਤਾ;Santa Marta
+ps;سانتا مارتا;Santa Marta
+tg;Санта-Марта;Santa Marta
+tt;Санта-Марта;Santa Marta
+fa;سانتا باربارا;Santa Bárbara
+ka;სანტა-ბარბარა;Santa Bárbara
+ka;სან-ლუის-დე-პალენკე;San Luis de Palenque
+ka;სან-ხოსე-დე-სუატია;San José de Suaita
+tl;Suaita;San José de Suaita
+sgs;San Chilis;San Gil
+fa;سان خیل;San Gil
+ka;სან-ხილი;San Gil
+lt;San Chilis;San Gil
+kk;Сан-Андрес;San Andrés
+ky;Сан-Андрес;San Andrés
+bn;সান আন্দ্রেস;San Andrés
+ur;سان اندریس;San Andrés
+am;ሳን አንድሬስ;San Andrés
+fa;سان اندریس;San Andrés
+pa;ਸੈਨ ਐਂਡਰਿਸ;San Andrés
+ps;سان اندریس;San Andrés
+tg;Сан-Андрес;San Andrés
+tt;Сан-Андрес;San Andrés
+el;Ριονέγρο;Rionegro
+fa;ریونگرو;Rionegro
+ka;რიონეგრო;Rionegro
+kk;Риоача;Riohacha
+ky;Риоача;Riohacha
+bn;রিওহাচা;Riohacha
+ur;ریوہاچہ;Riohacha
+am;ሪዮሃቻ;Riohacha
+fa;ریوهاچا;Riohacha
+pa;ਰੀਓਹਾਚਾ;Riohacha
+ps;ریوهاچه;Riohacha
+tg;Риоача;Riohacha
+tt;Риоача;Riohacha
+fa;رمدیوس;Remedios
+ka;რემედიოსი;Remedios
+lt;Kibdo;Quibdó
+th;กิบโด;Quibdó
+el;Κιμπδό;Quibdó
+fa;کیبدو;Quibdó
+he;קיבדו;Quibdó
+ur;قیبدو;Quibdó
+kk;Кибдо;Quibdó
+ky;Кибдо;Quibdó
+bn;কুইবদো;Quibdó
+am;ኩብዶ;Quibdó
+pa;ਕੁਇਬਦੋ;Quibdó
+ps;کویبدو;Quibdó
+tg;Кибдо;Quibdó
+tt;Кибдо;Quibdó
+lt;Puerto Inirida;Inírida
+ur;اینیریدا، گواینیا;Inírida
+kk;Иниридá;Inírida
+ky;Иниридá;Inírida
+bn;ইনিরিডা;Inírida
+am;ኢኒሪዳ;Inírida
+fa;اینیریدا;Inírida
+pa;ਇਨਿਰਿਡਾ;Inírida
+ps;انیریدا;Inírida
+tg;Иниридá;Inírida
+tt;Иниридá;Inírida
+kk;Пуэрто-Каррeño;Puerto Carreño
+ky;Пуэрто-Каррeño;Puerto Carreño
+bn;পুয়ের্তো ক্যারেনো;Puerto Carreño
+ur;پويرٹو کیرینو;Puerto Carreño
+am;ፕዌርቶ ካሬኖ;Puerto Carreño
+fa;پورتو کاریینو;Puerto Carreño
+pa;ਪੁਏਰਟੋ ਕੈਰਿਨੋ;Puerto Carreño
+ps;پویرتو کاریینو;Puerto Carreño
+tg;Пуэрто-Каррeño;Puerto Carreño
+tt;Пуэрто-Каррeño;Puerto Carreño
+uk;Попаян;Popayán
+bg;Попаян;Popayán
+lt;Popajanas;Popayán
+fa;پوپایان;Popayán
+ur;پوپایان;Popayán
+kk;Попайáн;Popayán
+ky;Попайáн;Popayán
+bn;পপায়ান;Popayán
+am;ፖፓያን;Popayán
+pa;ਪੋਪਾਯਾਨ;Popayán
+ps;پوپايان;Popayán
+tg;Попайáн;Popayán
+tt;Попайáн;Popayán
+ka;პიტალიტო;Pitalito
+lt;Pitalitas;Pitalito
+kk;Перейра;Pereira
+ky;Перейра;Pereira
+bn;পেরেইরা;Pereira
+ur;پیریرا;Pereira
+am;ፐሬራ;Pereira
+fa;پریرا;Pereira
+pa;ਪੇਰੇਰਾ;Pereira
+ps;پیریرا;Pereira
+tg;Перейра;Pereira
+tt;Перейра;Pereira
+lt;Pastas;Pasto
+bg;Пасто;Pasto
+kk;Пасто;Pasto
+ky;Пасто;Pasto
+bn;পাস্তো;Pasto
+ur;پاسٹو;Pasto
+am;ፓስቶ;Pasto
+fa;پاستو;Pasto
+pa;ਪਾਸਤੋ;Pasto
+ps;پاستو;Pasto
+tg;Пасто;Pasto
+tt;Пасто;Pasto
+lt;Okanja;Ocaña
+fa;اوکانیا;Ocaña
+ka;ოკანია;Ocaña
+kk;Нейва;Neiva
+ky;Нейва;Neiva
+bn;নেইভা;Neiva
+ur;نیوا;Neiva
+am;ኔይቫ;Neiva
+fa;نیوا;Neiva
+pa;ਨੇਇਵਾ;Neiva
+ps;نیوا;Neiva
+tg;Нейва;Neiva
+tt;Нейва;Neiva
+bg;Монтерия;Montería
+lt;Monterija;Montería
+kk;Монтерía;Montería
+ky;Монтерía;Montería
+bn;মন্টেরিয়া;Montería
+ur;مونٹیریا;Montería
+am;ሞንቴሪያ;Montería
+fa;مونتریا;Montería
+pa;ਮੋਨਟੇਰਿਆ;Montería
+ps;مونتیریا;Montería
+tg;Монтерía;Montería
+tt;Монтерía;Montería
+ka;მოკოა;Mocoa
+lt;Mokoa;Mocoa
+fa;موکوآ;Mocoa
+ur;موکوا;Mocoa
+kk;Мокоа;Mocoa
+ky;Мокоа;Mocoa
+bn;মোকোয়া;Mocoa
+am;ሞኮያ;Mocoa
+pa;ਮੋਕੋਆ;Mocoa
+ps;موکوا;Mocoa
+tg;Мокоа;Mocoa
+tt;Мокоа;Mocoa
+kk;Митú;Mitú
+ky;Митú;Mitú
+bn;মিটু;Mitú
+ur;میتو;Mitú
+am;ሚቱ;Mitú
+fa;میتو;Mitú
+pa;ਮਿਤੁ;Mitú
+ps;میتو;Mitú
+tg;Митú;Mitú
+tt;Митú;Mitú
+lt;Medeljinas;Medellín
+bg;Меделин;Medellín
+uk;Медельїн;Medellín
+bn;মেদেয়িন;Medellín
+el;Μεδεγίν;Medellín
+km;ទីក្រុងមេឌេយីណ;Medellín
+be;Медэльін;Medellín
+he;מדיין;Medellín
+os;Медельин;Medellín
+fa;مدلین;Medellín
+lv;Medeljina;Medellín
+th;เมเดยิน;Medellín
+sr;Медељин;Medellín
+mr;मेदेयीन;Medellín
+ce;Медельин;Medellín
+ka;მედელინი;Medellín
+mn;Медельин;Medellín
+pa;ਮੇਦੇਯੀਨ;Medellín
+ta;மெதெயின்;Medellín
+kk;Медельín;Medellín
+ky;Медельín;Medellín
+ur;میڈیلن;Medellín
+am;ሜዴሊን;Medellín
+ps;میډیلن;Medellín
+tg;Медельín;Medellín
+tt;Медельín;Medellín
+lt;Manisalesas;Manizales
+bg;Манисалес;Manizales
+uk;Манісалес;Manizales
+ka;მანისალესი;Manizales
+kk;Манисалес;Manizales
+ky;Манисалес;Manizales
+bn;মানিজালেস;Manizales
+ur;مانزیلیس;Manizales
+am;ማኒዛለስ;Manizales
+fa;مانیسالس;Manizales
+pa;ਮਾਨਿਜ਼ਾਲੇਸ;Manizales
+ps;مانزیلیس;Manizales
+tg;Манисалес;Manizales
+tt;Манисалес;Manizales
+ka;მაგანგე;Magangué
+lt;Magangė;Magangué
+lt;Letisija;Leticia
+he;לטיסיה;Leticia
+os;Летиси;Leticia
+fa;لتیسیا;Leticia
+ur;لیتیسیا، ایمازوناس;Leticia
+kk;Летисиа;Leticia
+ky;Летисиа;Leticia
+bn;লেটিশিয়া;Leticia
+am;ሌቲሺያ;Leticia
+pa;ਲੈਟੀਸ਼ੀਆ;Leticia
+ps;لیتیشیا;Leticia
+tg;Летисиа;Leticia
+tt;Летисиа;Leticia
+ka;ლა-პინტადა;La Pintada
+ur;لا پینٹاڈا، کولومبیا;La Pintada
+el;Ιταγουί;Itagüí
+fa;ایتاگویی;Itagüí
+ur;اتاگوی;Itagüí
+be;Іпіялес;Ipiales
+lt;Ipjalesas;Ipiales
+uk;Ібаге;Ibagué
+lt;Ibagė;Ibagué
+bg;Ибаге;Ibagué
+be;Ібагэ;Ibagué
+ka;იბაგე;Ibagué
+kk;Ибагуé;Ibagué
+ky;Ибагуé;Ibagué
+bn;ইবাগু;Ibagué
+ur;ابیگے;Ibagué
+am;ኢባጌ;Ibagué
+fa;ایباگوئه;Ibagué
+pa;ਇਬਾਗੂਏ;Ibagué
+ps;ابیگے;Ibagué
+tg;Ибагуé;Ibagué
+tt;Ибагуé;Ibagué
+ka;გრამალოტე;Gramalote
+ka;გარაგოა;Garagoa
+kk;Флоренсия;Florencia
+ky;Флоренсия;Florencia
+bn;ফ্লোরেনশিয়া;Florencia
+ur;فلورنشیا;Florencia
+am;ፍሎረንሲያ;Florencia
+fa;فلورانسیا;Florencia
+pa;ਫ਼ਲੋਰੇਨਸ਼ੀਆ;Florencia
+ps;فلورنشیا;Florencia
+tg;Флоренсия;Florencia
+tt;Флоренсия;Florencia
+el;Φακατατιβά;Facatativá
+fa;فاکاتاتیوا;Facatativá
+ka;ფაკატატივა;Facatativá
+ur;فیکاٹیٹوا;Facatativá
+el;Ενβιγάδο;Envigado
+lt;Envigadas;Envigado
+bg;Енвигадо;Envigado
+fa;انویگادو;Envigado
+ur;ایمبیگادو;Envigado
+fa;ال باگره;El Bagre
+ka;ელ-ბაგრე;El Bagre
+el;Δουιτάμα;Duitama
+id;Kukuta;Cúcuta
+bg;Кукута;Cúcuta
+lt;Kukuta;Cúcuta
+uk;Кукута;Cúcuta
+be;Кукута;Cúcuta
+ka;კუკუტა;Cúcuta
+th;กูกูตา;Cúcuta
+fa;کوکوتا;Cúcuta
+hu;San José de Cúcuta;Cúcuta
+ur;کوکوتا;Cúcuta
+uz;Kukuta;Cúcuta
+kk;Кукутá;Cúcuta
+ky;Кукутá;Cúcuta
+bn;কুকুটা;Cúcuta
+am;ኩኩታ;Cúcuta
+pa;ਕੁਕੁਟਾ;Cúcuta
+ps;کوکوتا;Cúcuta
+tg;Кукутá;Cúcuta
+tt;Кукутá;Cúcuta
+fa;کونکوردیا;Concordia
+ka;კონკორდია;Concordia
+ka;სიენეგა;Ciénega
+fa;کاوکاسیا;Caucasia
+ka;კაუკასია;Caucasia
+pl;Cartagena de Indias;Cartagena
+bg;Картахена;Cartagena
+gl;Cartaxena de Indias;Cartagena
+lt;Kartachena;Cartagena
+jv;Cartagena de Indias;Cartagena
+ca;Cartagena de Indias;Cartagena
+ro;Cartagena de Indias;Cartagena
+uk;Картахена;Cartagena
+fa;کارتاگینا;Cartagena
+he;קרטחנה;Cartagena
+ka;კარტახენა;Cartagena
+sr;Картахена де Индијас;Cartagena
+gd;Cartagena de Indias;Cartagena
+da;Cartagena de Indias;Cartagena
+id;Cartagena de Indias;Cartagena
+eu;Cartagena de Indias;Cartagena
+br;Cartagena de Indias;Cartagena
+hr;Cartagena de Indias;Cartagena
+kk;Картахена;Cartagena
+ky;Картахена;Cartagena
+bn;কার্তাহেনা;Cartagena
+ur;کارٹاجینا;Cartagena
+am;ካርታሄና;Cartagena
+pa;ਕਾਰਟਾਜੇਨਾ;Cartagena
+ps;کارتاخنا;Cartagena
+tg;Картахена;Cartagena
+tt;Картахена;Cartagena
+fa;ال کارمن ده ویوورال;Carmen de Viboral
+ka;კარმენ-დე-ვიბორალი;Carmen de Viboral
+vi;El Carmen de Viboral;Carmen de Viboral
+lt;Kalis;Cali
+sr;Кали;Cali
+bg;Кали;Cali
+lv;Kali;Cali
+th;กาลี;Cali
+az;Kali;Cali
+uk;Калі;Cali
+fa;کالی;Cali
+he;סנטיאגו דה קאלי;Cali
+be;Калі;Cali
+kk;Кали;Cali
+ky;Кали;Cali
+bn;কালি;Cali
+ur;کالی;Cali
+am;ካሊ;Cali
+pa;ਕਾਲੀ;Cali
+ps;کالی;Cali
+tg;Кали;Cali
+tt;Кали;Cali
+el;Κάλδας;Caldas
+fa;کالداس;Caldas
+ka;კალდასი;Caldas
+fa;بوگا;Guadalajara de Buga
+ka;ბუგა;Guadalajara de Buga
+bg;Буенавентура;Buenaventura
+ka;ბუენავენტურა;Buenaventura
+fa;بوئناونتورا;Buenaventura
+ur;بوئناونتورا، ویے دیل کاؤکا;Buenaventura
+lt;Bukaramanga;Bucaramanga
+bg;Букараманга;Bucaramanga
+lv;Bukaramanga;Bucaramanga
+uk;Букараманґа;Bucaramanga
+fa;بوکارامانگا;Bucaramanga
+sgs;Bukaramanga;Bucaramanga
+be;Букараманга;Bucaramanga
+ka;ბუკარამანგა;Bucaramanga
+kk;Букараманга;Bucaramanga
+ky;Букараманга;Bucaramanga
+bn;বুকারামাঙ্গা;Bucaramanga
+ur;بوکارامنگا;Bucaramanga
+am;ቡካራማንጋ;Bucaramanga
+pa;ਬੁਕਾਰਾਮਾਂਗਾ;Bucaramanga
+ps;بوکارامنګا;Bucaramanga
+tg;Букараманга;Bucaramanga
+tt;Букараманга;Bucaramanga
+el;Μπογκοτά;Bogotá
+am;ቦጎታ;Bogotá
+bg;Богота;Bogotá
+bo;པོ་གོ་ཏ;Bogotá
+fa;بوگوتا;Bogotá
+he;בוגוטה;Bogotá
+sr;Богота;Bogotá
+th;โบโกตา;Bogotá
+kn;ಬೊಗೋಟ;Bogotá
+az;Boqota;Bogotá
+bn;বোগোতা;Bogotá
+ml;ബൊഗോട്ട;Bogotá
+km;ទីក្រុងបូកូតា;Bogotá
+ka;ბოგოტა;Bogotá
+mk;Богота;Bogotá
+os;Богота;Bogotá
+kk;Богота;Bogotá
+uk;Богота;Bogotá
+ta;பொகோட்டா;Bogotá
+be;Багата;Bogotá
+mr;बोगोता;Bogotá
+ur;بوگوتا;Bogotá
+hy;Բոգոտա;Bogotá
+rue;Боґота;Bogotá
+mhr;Богота;Bogotá
+my;ဘိုဂိုတာမြို့;Bogotá
+ba;Богота;Bogotá
+or;ବୋଗୋଟା;Bogotá
+pa;ਬੋਗੋਤਾ;Bogotá
+sgs;Buoguota;Bogotá
+bxr;Богота;Bogotá
+ce;Богота;Bogotá
+ckb;بۆگۆتا;Bogotá
+lez;Богота;Bogotá
+lrc;بوگوتا;Bogotá
+mn;Богота;Bogotá
+mzn;بوگوتا;Bogotá
+sah;Богота;Bogotá
+tt;Богота;Bogotá
+vep;Bogot;Bogotá
+yue;波哥大;Bogotá
+zh-TW;波哥大;Bogotá
+el;Μπέγιο;Bello
+ka;ბელიო;Bello
+lt;Beljas;Bello
+bg;Бейо;Bello
+fa;بییو;Bello
+ur;بییو، انتیوکیا;Bello
+bg;Баранкиля;Barranquilla
+he;ברנקייה;Barranquilla
+lt;Barankilija;Barranquilla
+sr;Баранкиља;Barranquilla
+be;Баранкілья;Barranquilla
+uk;Барранкілья;Barranquilla
+os;Барранкилья;Barranquilla
+el;Μπαρρανκίγια;Barranquilla
+th;บาร์รังกียา;Barranquilla
+ne;ब्यारेन्क्विला;Barranquilla
+ce;Барранкилья;Barranquilla
+ka;ბარანკილია;Barranquilla
+pa;ਬਾਰਾਙਕੀਯਾ;Barranquilla
+uz;Barrankilya;Barranquilla
+yue;巴冷基也;Barranquilla
+kk;Барранкилья;Barranquilla
+ky;Барранкилья;Barranquilla
+bn;বারানকুইলা;Barranquilla
+ur;بارانکویلا;Barranquilla
+am;ባራንኪላ;Barranquilla
+fa;باراکویلا;Barranquilla
+ps;باراکویلا;Barranquilla
+tg;Барранкилья;Barranquilla
+tt;Барранкилья;Barranquilla
+lt;Barankabermecha;Barrancabermeja
+uk;Барранкабермеха;Barrancabermeja
+sgs;Barankabermecha;Barrancabermeja
+ka;ბარანკაბერმეხა;Barrancabermeja
+fa;بابوسا;Barbosa
+ka;ბარბოსა;Barbosa
+kk;Армения;Armenia
+tr;Ermenistan;Armenia
+uz;Armeniya;Armenia
+ky;Армения;Armenia
+bn;আর্মেনিয়া;Armenia
+ur;آرمینیا;Armenia
+am;አርሜኒያ;Armenia
+az;Ermənistan;Armenia
+fa;ارمنستان;Armenia
+om;Arminia;Armenia
+pa;ਆਰਮੀਨੀਆ;Armenia
+ps;ارمنستان;Armenia
+tg;Армения;Armenia
+tt;Армения;Armenia
+lt;Arauka;Arauca
+fa;آرائوکا;Arauca
+ka;არაუკა;Arauca
+ur;آراوکا، آراوکا;Arauca
+kk;Арауса;Arauca
+ky;Арауса;Arauca
+bn;আরাউকা;Arauca
+am;አራውካ;Arauca
+pa;ਅਰਾਉਕਾ;Arauca
+ps;اراوکا;Arauca
+tg;Арауса;Arauca
+tt;Арауса;Arauca
+ce;Аракатака;Aracataca
+ckb;ئارکاتاکا;Aracataca
+fa;آراکاتاکا;Aracataca
+ka;არაკატაკა;Aracataca
+lt;Arakataka;Aracataca
+sr;Arakataka;Aracataca
+uk;Аракатака;Aracataca
+uz;Arakataka;Aracataca
+ka;ანოლაიმა;Anolaima
+fa;انداگویا;Andagoya
+fa;اگوازول;Aguazul
+ka;აგუასული;Aguazul
+ur;اگوازول;Aguazul
+fa;اگوا دو دایوز;Agua de Dios
+ka;აგუა-დე-დიოსი;Agua de Dios
+ur;اگوا د دایوس;Agua de Dios
+fa;اگوستین کودازی;Agustín Codazzi
+ka;კოდასი;Agustín Codazzi
+ms;Codazzi;Agustín Codazzi
+tl;Codazzi;Agustín Codazzi
+ur;آگستن کودازی;Agustín Codazzi
+kk;Сан-Хосе-дель-Гуавиаре;San José del Guaviare
+ky;Сан-Хосе-дель-Гуавиаре;San José del Guaviare
+bn;সান হোসে দেল গুয়াভিয়ার;San José del Guaviare
+ur;سان جوزے ڈیل گوویار;San José del Guaviare
+am;ሳን ሆሴ ዴል ጓቪያር;San José del Guaviare
+az;San Xose del Quavyare;San José del Guaviare
+fa;سان خوزه دل گوویار;San José del Guaviare
+pa;ਸੈਨ ਜੋਸੇ ਡੇਲ ਗੁਆਵਿਆਰੇ;San José del Guaviare
+ps;سان خوسيه ديل گوافيار;San José del Guaviare
+tg;Сан-Хосе-дель-Гуавиаре;San José del Guaviare
+tt;Сан-Хосе-дель-Гуавиаре;San José del Guaviare
+ca;Mare de Déu de la Candela;La Candelaria
+be;Санта-Марта;Santa Marta
+bg;Санта Марта;Santa Marta
+th;ซานตามาร์ตา;Santa Marta
+uk;Санта-Марта;Santa Marta
+ka;სანტა-მარტა;Santa Marta

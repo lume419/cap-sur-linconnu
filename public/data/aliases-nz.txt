@@ -327,3 +327,477 @@ de;Ngāruawāhia;Ngaruawahia
 zh-Hant;聖殿景;Temple View
 zh;圣殿景;Temple View
 de;Harihari;Hari Hari
+el;Ουέλλιγκτον;Wellington
+bo;ཝེ་ལིང་ཐོན།;Wellington
+bn;ওয়েলিংটন;Wellington
+he;ולינגטון;Wellington
+bg;Уелингтън;Wellington
+ht;Welintòn;Wellington
+gu;વેલિંગ્ટન;Wellington
+hy;Վելինգտոն;Wellington
+ar;ويلينغتون;Wellington
+th;เวลลิงตัน;Wellington
+os;Веллингтон;Wellington
+ta;வெலிங்டன்;Wellington
+az;Vellinqton;Wellington
+el;Ουέλλινγκτον;Wellington
+kn;ವೆಲ್ಲಿಂಗ್ಟನ್;Wellington
+ka;უელინგტონი;Wellington
+lt;Velingtonas;Wellington
+lv;Velingtona;Wellington
+cv;Веллингтон;Wellington
+ur;ویلنگٹن;Wellington
+fa;ولینگتون;Wellington
+am;ዌሊንግተን;Wellington
+mr;वेलिंग्टन;Wellington
+uk;Веллінгтон;Wellington
+be;Велінгтан;Wellington
+my;ဝယ်လင်တန်မြို့;Wellington
+sr;Велингтон;Wellington
+mk;Велингтон;Wellington
+mn;Веллингтон;Wellington
+ug;ۋېللىنگتون;Wellington
+ce;Веллингтон;Wellington
+ml;വെല്ലിംഗ്ടൺ;Wellington
+pa;ਵੈਲਿੰਗਟਨ;Wellington
+yue;威靈頓;Wellington
+ba;Веллингтон;Wellington
+kk;Веллингтон;Wellington
+ky;Веллингтон;Wellington
+ne;वेलिङ्गटन;Wellington
+uz;Vellington;Wellington
+vep;Vellington;Wellington
+nn;Warkworth på New Zealand;Warkworth
+lt;Vanganujis;Whanganui
+lv;Vanaganuja;Whanganui
+uk;Вангануї;Whanganui
+mg;Wanganui;Whanganui
+ur;وحانجانوی;Whanganui
+mk;Фангануи;Whanganui
+mr;वांगानुई;Whanganui
+el;Γουανγκανούι;Whanganui
+ar;وانجانوي;Whanganui
+ro;Wanganui;Whanganui
+ceb;Wanganui;Whanganui
+be;Уангануі;Whanganui
+bn;ওয়েঙ্গানাই;Whanganui
+ka;უონგანუი;Whanganui
+si;වන්ගනුයි;Whanganui
+sl;Wanganui;Whanganui
+ca;Wanganui;Whanganui
+sr;Вангануи;Whanganui
+kn;ವ್ಯಾಂಗನ್ಯು;Whanganui
+ta;வான்கான்நுயீ;Whanganui
+gu;વ્હાન્ગાંઈ;Whanganui
+te;వాంగానూయి;Whanganui
+th;วังกานุย;Whanganui
+pl;Wanganui;Whanganui
+he;וואנגנוי;Whanganui
+fa;ولکویل;Wallaceville
+el;Γουαϊτακέρε;Waitakere
+lt;Vaitakerė;Waitakere
+tr;Wainui Beach;Wainui
+ka;ტოკოროა;Tokoroa
+uk;Тімару;Timaru
+ka;ტიმარუ;Timaru
+mk;Таупо;Taupo
+ka;ტაუპო;Taupo
+en;German Bay;Takamatua Bay
+ka;რიჩმონდი;Richmond
+ur;رچمنڈ، نیوزی لینڈ;Richmond
+ar;ريتشموند;Richmond
+kk;Ричмонд;Richmond
+ky;Ричмонд;Richmond
+bn;রিচমন্ড;Richmond
+am;ሪችመንድ;Richmond
+fa;ریچموند;Richmond
+pa;ਰਿਚਮੰਡ;Richmond
+ps;ریچمنډ;Richmond
+tg;Ричмонд;Richmond
+tt;Ричмонд;Richmond
+be;Пекеруа-Бэй;Pukerua Bay
+he;פוקרואה ביי;Pukerua Bay
+ka;პორირუა;Porirua
+uk;Поріруа;Porirua
+ur;پوریروا;Porirua
+mr;पोरुरूआ;Porirua
+el;Πορίρουα;Porirua
+ar;بوريريوا;Porirua
+yue;波里魯阿;Porirua
+bn;পরিরুয়া;Porirua
+si;පොරිරුවා;Porirua
+kn;ಪೋರಿರುವಾ;Porirua
+ta;போரிருஆ;Porirua
+gu;પોરુરુઆ;Porirua
+te;పోరీరువా;Porirua
+th;โปริรูอา;Porirua
+he;פורירואה;Porirua
+he;פלימרטון;Plimmerton
+he;ואנקה;Wanaka
+lt;Palmerston Nortas;Palmerston North
+ka;პალმერსტონ-ნორთი;Palmerston North
+sr;Палмерстон Норт;Palmerston North
+fa;پالمرستون نورث;Palmerston North
+uk;Палмерстон-Норт;Palmerston North
+ur;پامرسٹن نارتھ;Palmerston North
+ar;بالمرستون نورث;Palmerston North
+kk;Палмерстон-Норт;Palmerston North
+ky;Палмерстон-Норт;Palmerston North
+bn;পামার্সটন নর্থ;Palmerston North
+am;ፓልመርስተን ሰሜን;Palmerston North
+pa;ਪਾਲਮਰਸਟਨ ਨਾਰਥ;Palmerston North
+ps;پالمرسټن نورث;Palmerston North
+tg;Палмерстон-Норт;Palmerston North
+tt;Палмерстон-Норт;Palmerston North
+kw;Aberplymm Nowydh;New Plymouth
+sr;Њу Плимут;New Plymouth
+uk;Нью-Плімут;New Plymouth
+lt;Naujasis Plimutas;New Plymouth
+ka;ნიუ-პლიმუთი;New Plymouth
+af;Nieu-Plymouth;New Plymouth
+sah;Нью Плимут;New Plymouth
+ar;نيو بليموث;New Plymouth
+kk;Нью-Плимут;New Plymouth
+ky;Нью-Плимут;New Plymouth
+bn;নিউ প্লিমাউথ;New Plymouth
+ur;نیو پلیموتھ;New Plymouth
+am;ኒው ፕሊማውዝ;New Plymouth
+fa;نیو پلیموث;New Plymouth
+pa;ਨਿਊ ਪਲਿਮਥ;New Plymouth
+ps;نيو پليموت;New Plymouth
+tg;Нью-Плимут;New Plymouth
+tt;Нью-Плимут;New Plymouth
+nn;Nelson på New Zealand;Nelson
+bg;Нелсън;Nelson
+lt;Nelsonas;Nelson
+be;Нельсан;Nelson
+ka;ნელსონი;Nelson
+sr;Нелсон;Nelson
+mn;Нелсон;Nelson
+eu;Nelson eskualdea;Nelson
+he;נלסון;Nelson
+ar;نيلسون;Nelson
+fa;نلسون، نیوزلند;Nelson
+ml;നെൽസൺ;Nelson
+mr;नेल्सन;Nelson
+ta;நெல்சன்;Nelson
+uk;Нельсон;Nelson
+ur;نیلسن، نیوزی لینڈ;Nelson
+kk;Нельсон;Nelson
+ky;Нельсон;Nelson
+bn;নেলসন;Nelson
+am;ኔልሰን;Nelson
+pa;ਨੈਲਸਨ;Nelson
+ps;نيلسن;Nelson
+tg;Нельсон;Nelson
+tt;Нельсон;Nelson
+nn;Napier på New Zealand;Napier
+ka;ნეიპირი;Napier
+lt;Neipiras;Napier
+sr;Нејпијер;Napier
+te;నేపియర్;Napier
+mr;नेपियर;Napier
+ml;നേപ്പിയർ;Napier
+fa;نیپیر;Napier
+ta;நேப்பியர்;Napier
+uk;Нейпір;Napier
+ur;نیپئر، نیوزی لینڈ;Napier
+ar;نابيير;Napier
+kk;Напье;Napier
+ky;Напье;Napier
+bn;নেপিয়ার;Napier
+am;ናፒየር;Napier
+pa;ਨੈਪੀਅਰ;Napier
+ps;نيپير;Napier
+tg;Напье;Napier
+tt;Напье;Napier
+ka;ლოუერ-ჰატი;Lower Hutt
+lt;Louer Hatas;Lower Hutt
+tt;Ловер-Һатт;Lower Hutt
+lv;Loverhata;Lower Hutt
+uk;Ловер-Гатт;Lower Hutt
+ur;لوور حوتت;Lower Hutt
+mk;Долен Хат;Lower Hutt
+mr;लोअर हट;Lower Hutt
+el;Λόουερ Χατ;Lower Hutt
+ar;لور هوت;Lower Hutt
+vi;Hạ Hutt;Lower Hutt
+fa;لور هوت;Lower Hutt
+yue;下哈特;Lower Hutt
+bn;লোয়ার হাট;Lower Hutt
+si;ලෝවර් හට්;Lower Hutt
+kn;ಲೋಯೆರ್ ಹಟ್ಟ್;Lower Hutt
+ta;லோயர் ஹட்;Lower Hutt
+gu;લોવર હટ્ટ;Lower Hutt
+te;లోవర్ హట్;Lower Hutt
+th;โลเวอร์ฮัท;Lower Hutt
+ur;لنکن، نیوزی لینڈ;Lincoln
+ru;Кавау;Kawau Island
+it;isola di Kawau;Kawau Island
+fr;île Kawau;Kawau Island
+zh;卡沃島;Kawau Island
+ka;კავაუ;Kawau Island
+ja;カワウ島;Kawau Island
+pl;Kawau;Kawau Island
+mi;Kawau;Kawau Island
+hy;Կառորի;Karori
+ka;კაიკურა;Kaikoura
+lt;Inverkargilas;Invercargill
+ar;إنفركارجل;Invercargill
+ka;ინვერკარგილი;Invercargill
+th;อินเวอร์คาร์กิลล์;Invercargill
+fa;اینورکارگیل;Invercargill
+uk;Інверкаргілл;Invercargill
+gd;Inbhir Chargaill;Invercargill
+he;אינברקרגיל;Invercargill
+ur;انورکارگل;Invercargill
+kk;Инвергаргилл;Invercargill
+ky;Инвергаргилл;Invercargill
+bn;ইনভারকার্গিল;Invercargill
+am;ኢንቬርካርጊል;Invercargill
+pa;ਇਨਵਰਕਾਰਗਿਲ;Invercargill
+ps;انورکارګل;Invercargill
+tg;Инвергаргилл;Invercargill
+tt;Инвергаргилл;Invercargill
+ar;هاستينجس;Hastings
+nn;Hastings på New Zealand;Hastings
+sr;Хејстингс;Hastings
+ka;ჰეისტინგსი;Hastings
+bg;Хамилтън;Hamilton
+sr;Хамилтон;Hamilton
+lt;Hamiltonas;Hamilton
+ar;هاميلتون;Hamilton
+be;Гамільтан;Hamilton
+fa;هامیلتون;Hamilton
+uk;Гамільтон;Hamilton
+ka;ჰამილტონი;Hamilton
+nn;Hamilton på New Zealand;Hamilton
+mr;हॅमिल्टन;Hamilton
+ml;ഹാമിൽടൺ;Hamilton
+pa;ਹੈਮਿਲਟਨ;Hamilton
+ta;ஆமில்டன்;Hamilton
+ur;ہیملٹن، نیوزی لینڈ;Hamilton
+kk;Гамильтон;Hamilton
+ky;Гамильтон;Hamilton
+bn;হ্যামিলটন;Hamilton
+am;ሃሚልተን;Hamilton
+ps;هاملتن;Hamilton
+tg;Гамильтон;Hamilton
+tt;Гамильтон;Hamilton
+bg;Фендалтон;Fendalton
+bg;Дънидин;Dunedin
+mk;Данидн;Dunedin
+ar;دنيدين;Dunedin
+kk;Данидин;Dunedin
+ky;Данидин;Dunedin
+bn;ডানেডিন;Dunedin
+ur;ڈنیڈن;Dunedin
+am;ዱንედን;Dunedin
+fa;دانیدین;Dunedin
+pa;ਡਨੇਡਿਨ;Dunedin
+ps;ډنډن;Dunedin
+tg;Данидин;Dunedin
+tt;Данидин;Dunedin
+fa;کرایست‌چرچ;Christchurch
+he;קרייסטצרץ;Christchurch
+mr;क्राइस्टचर्च;Christchurch
+uk;Крайстчерч;Christchurch
+ka;კრაისტჩერჩი;Christchurch
+lv;Kraistčērča;Christchurch
+os;Крайстчёрч;Christchurch
+ta;கிறைஸ்ட்சேர்ச்;Christchurch
+my;ခရစ်ချပ်ချ်မြို့;Christchurch
+sr;Крајстчерч;Christchurch
+ar;كرايستشرش;Christchurch
+be;Крайстчэрч;Christchurch
+bg;Крайстчърч;Christchurch
+lt;Kraistčerčas;Christchurch
+th;ไครสต์เชิร์ช;Christchurch
+el;Κράισττσερτς;Christchurch
+az;Kraysçörç;Christchurch
+bn;ক্রাইস্টচার্চ;Christchurch
+ml;ക്രൈസ്റ്റ്‌ചർച്ച്‍;Christchurch
+ur;کرائسٹ چرچ;Christchurch
+uz;Kraystcherch;Christchurch
+mk;Крајстчерч;Christchurch
+kk;Крайстчёрч;Christchurch
+ky;Крайстчёрч;Christchurch
+am;ክራይስትቹርች;Christchurch
+pa;ਕ੍ਰਾਈਸਟਚਰਚ;Christchurch
+ps;کرایسټ چرچ;Christchurch
+tg;Крайстчёрч;Christchurch
+tt;Крайстчёрч;Christchurch
+hy;Քավերշամ;Caversham
+ur;بروکلن، نیوزی لینڈ;Brooklyn
+mk;Окленд;Auckland
+lt;Oklandas;Auckland
+el;Ώκλαντ;Auckland
+he;אוקלנד;Auckland
+ar;أوكلاند;Auckland
+te;ఆక్లాండ్;Auckland
+gu;ઓકલેન્ડ;Auckland
+lv;Oklenda;Auckland
+ug;ئاۋكلاند;Auckland
+ta;ஆக்லன்ட்;Auckland
+my;အော့ကလန်မြို့;Auckland
+hy;Օկլենդ;Auckland
+qu;Awklanda;Auckland
+kv;Окленд;Auckland
+ka;ოკლენდი;Auckland
+kn;ಆಕ್ಲೆಂಡ್‌;Auckland
+fa;آوکلند;Auckland
+bg;Окланд;Auckland
+os;Окленд;Auckland
+uk;Окленд;Auckland
+th;โอคแลนด์;Auckland
+ml;ഓക്‌ലൻഡ്;Auckland
+mn;Окленд;Auckland
+sr;Окланд;Auckland
+mr;ऑकलंड;Auckland
+be;Окленд;Auckland
+bn;অকল্যান্ড;Auckland
+kk;Окленд;Auckland
+ky;Окленд;Auckland
+ur;آکلینڈ;Auckland
+am;ኦክላንድ;Auckland
+pa;ਆਕਲੈਂਡ;Auckland
+ps;آکلند;Auckland
+tg;Окленд;Auckland
+tt;Окленд;Auckland
+el;Όλμπανι;Albany
+ur;البانی، نیوزی لینڈ;Albany
+mk;Албани;Albany
+ka;ჰავერა;Hawera
+he;גיזברן;Gisborne
+hu;East Cape;Gisborne
+ka;გიზბორნი;Gisborne
+eu;Gisborne eskualdea;Gisborne
+ur;گسبورن، نیوزی لینڈ;Gisborne
+ar;جيسبورن;Gisborne
+kk;Гисборн;Gisborne
+ky;Гисборн;Gisborne
+bn;গিসবর্ন;Gisborne
+am;ግስቦርን;Gisborne
+fa;گیزبورن;Gisborne
+pa;ਗਿਸਬੋਰਨ;Gisborne
+ps;ګسبورن;Gisborne
+tg;Гисборн;Gisborne
+tt;Гисборн;Gisborne
+ka;მასტერტონი;Masterton
+fa;مسترتن;Masterton
+ar;جريماوث;Greymouth
+kk;Грейсмут;Greymouth
+ky;Грейсмут;Greymouth
+bn;গ্রেমাউথ;Greymouth
+ur;گریماؤتھ;Greymouth
+am;ግሬማውዝ;Greymouth
+fa;گریماوت;Greymouth
+pa;ਗ੍ਰੇਮਾؤਥ;Greymouth
+ps;گريماوت;Greymouth
+tg;Грейсмут;Greymouth
+tt;Грейсмут;Greymouth
+ka;უესტპორტი;Westport
+ar;تاكابونا;Takapuna
+fa;تاکاپونا;Takapuna
+he;טקפונה;Takapuna
+ur;تکاپونا;Takapuna
+bg;Тауранга;Tauranga
+fa;تائورانگا;Tauranga
+sr;Тауранга;Tauranga
+ka;ტაურანგა;Tauranga
+uk;Тауранга;Tauranga
+he;טאורנגה;Tauranga
+ml;ടൗരാംഗ;Tauranga
+mk;Тауранга;Tauranga
+gd;Baile Chluaidh;Balclutha
+ka;ფაკატანე;Whakatane
+ur;فاکاتانی;Whakatane
+ar;وهاكاتان;Whakatane
+kk;Вакатане;Whakatane
+ky;Вакатане;Whakatane
+bn;হোয়াকাটান;Whakatane
+am;ዋካታኔ;Whakatane
+fa;وهاکاتان;Whakatane
+pa;ਵ੍ਹਾਕਾਟੇਨ;Whakatane
+ps;وهاکاتان;Whakatane
+tg;Вакатане;Whakatane
+tt;Вакатане;Whakatane
+nn;Thames på New Zealand;Thames
+nn;Gore på New Zealand;Gore
+mk;Квинстаун;Queenstown
+nn;Queenstown på New Zealand;Queenstown
+he;קווינסטאון;Queenstown
+fa;کویینزتاون، نیوزیلند;Queenstown
+ml;ക്വീൻസ്ടൗൺ;Queenstown
+uk;Квінстаун;Queenstown
+ka;კრომველი;Cromwell
+ka;ალექსანდრა;Alexandra
+ka;ოამარუ;Oamaru
+nn;Ashburton på New Zealand;Ashburton
+nn;Lyttelton på New Zealand;Lyttelton
+bg;Стратфорд;Stratford
+nn;Stratford på New Zealand;Stratford
+ka;სტრატფორდი;Stratford
+ur;سٹریٹفرڈ، نیوزی لینڈ;Stratford
+nn;Carterton på New Zealand;Carterton
+ka;ვუდვილი;Woodville
+ka;უანგარეი;Whangarei
+lt;Vangarėjus;Whangarei
+sr;Фангареј;Whangarei
+ur;فانارئی;Whangarei
+ar;وهانجاراي;Whangarei
+kk;Вангарей;Whangarei
+ky;Вангарей;Whangarei
+bn;হোয়াঙ্গারেই;Whangarei
+am;ዋንጋሪ;Whangarei
+fa;وانگاری;Whangarei
+pa;ਵ੍ਹਾਂਗਰੇਈ;Whangarei
+ps;وهانجاراي;Whangarei
+tg;Вангарей;Whangarei
+tt;Вангарей;Whangarei
+he;רמוארה;Remuera
+ar;مطماطة;Matamata
+kk;Матамата;Matamata
+nn;Cambridge på New Zealand;Cambridge
+ur;کیمبرج، نیوزی لینڈ;Cambridge
+bg;Роторуа;Rotorua
+he;רוטורואה;Rotorua
+ka;როტორუა;Rotorua
+sr;Роторуа;Rotorua
+ar;روتوروا;Rotorua
+uk;Роторуа;Rotorua
+mk;Пиктон;Picton
+ur;بلینہائم، نیوزی لینڈ;Blenheim
+ar;بلينهايم;Blenheim
+kk;Бленхайм;Blenheim
+ky;Бленхайм;Blenheim
+bn;ব্লেনহেইম;Blenheim
+am;ብሌንሃይም;Blenheim
+fa;بلنهایم;Blenheim
+pa;ਬਲੇਨਹਾਈਮ;Blenheim
+ps;بلين هايم;Blenheim
+tg;Бленхайм;Blenheim
+tt;Бленхайм;Blenheim
+nn;Mount Victoria i Wellington;Mount Victoria
+ka;აპერ-ჰატი;Upper Hutt
+lt;Aper-Hatas;Upper Hutt
+lv;Aperhuta;Upper Hutt
+uk;Аппер Хатт;Upper Hutt
+ur;اپر حوتت;Upper Hutt
+mk;Горен Хат;Upper Hutt
+mr;अप्पर हट;Upper Hutt
+el;Άπερ Χατ;Upper Hutt
+ar;هوت العليا;Upper Hutt
+vi;Thượng Hutt;Upper Hutt
+be;Апер-Хат;Upper Hutt
+yue;上哈特;Upper Hutt
+bn;আপার হাট;Upper Hutt
+si;අපර් හට;Upper Hutt
+kn;ಅಪ್ಪರ್  ಹಟ್ಟ್;Upper Hutt
+ta;அப்பர் ஹட்;Upper Hutt
+gu;અપર હટ;Upper Hutt
+te;ఉప్పెర్ హాట్;Upper Hutt
+th;อัพเปอร์ ฮัท;Upper Hutt
+he;אפר האט;Upper Hutt
+nn;Dannevirke på New Zealand;Dannevirke
+ca;Harihari;Hari Hari

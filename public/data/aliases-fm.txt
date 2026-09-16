@@ -7,3 +7,12 @@ ko;팔리키르;Palikir
 ru;Паликир;Palikir
 zh;帕利基尔;Palikir
 kos;Utwe Ma;Utwe Village
+th;เวโน;Weno
+lv;Tofola;Tofol
+da;Palakir;Palikir
+el;Παλιρίκ;Palikir
+he;פליקיר;Palikir
+hy;Պալիկիր;Palikir
+th;ปาลีกีร์;Palikir
+am;ፓሊኪር;Palikir
+lt;Palikyras;Palikir

@@ -3063,3 +3063,566 @@ ar;الازاهرة;Al Azāhirah
 ar;الأمير عبد الاله بن عبد العزيز;Al Amīr ’Abd al Ilah Bin ’Abd al Azīz
 ar;خباش;Khubāsh
 ar;ذهبان;Dhahabān
+zh;歐奈宰;Unaizah
+uk;Унайза;Unaizah
+zh;圖賴夫;Turaif
+he;תבוכ;Tabuk
+ja;タブーク;Tabuk
+kk;Табук;Tabuk
+ko;타부크;Tabuk
+lt;Tabukas;Tabuk
+ml;തബൂക്ക്;Tabuk
+sr;Табук;Tabuk
+uk;Табук;Tabuk
+ur;تبوک، سعودی عرب;Tabuk
+zh;塔布克;Tabuk
+ky;Табук;Tabuk
+hi;तबूक;Tabuk
+bn;তাবুক;Tabuk
+am;ታቡክ;Tabuk
+om;Tabuuk;Tabuk
+pa;ਤਬੂਕ;Tabuk
+ps;تبوك;Tabuk
+tg;Табук;Tabuk
+tt;Табук;Tabuk
+zh;塞卡凱;Sakakah
+pa;ਸਕਾਕਾ;Sakakah
+ja;サカーカ;Sakakah
+ml;സകാക;Sakakah
+ko;사카카;Sakakah
+kk;Сакака;Sakakah
+uz;Sakaka;Sakakah
+ky;Сакака;Sakakah
+hi;सकाकाह;Sakakah
+bn;সাকাকাহ;Sakakah
+ur;سکاکہ;Sakakah
+am;ሳካካህ;Sakakah
+ps;سکاکه;Sakakah
+tg;Сакака;Sakakah
+tt;Сакака;Sakakah
+uk;Рас-Таннура;Ras Tanura
+ur;راس تنورہ;Ras Tanura
+zh;拉斯坦努拉;Ras Tanura
+hi;रास तनुरा;Ras Tanura
+bn;রাস তানোরা;Ras Tanura
+si;රස් ටනුර;Ras Tanura
+ca;Ras Tannura;Ras Tanura
+ml;രാസ് തനൂറ;Ras Tanura
+kn;ರಾಸ್ ತನುರಾ;Ras Tanura
+ko;라스 타누라;Ras Tanura
+mr;रास तनुरा;Ras Tanura
+el;Ρας Τανούρα;Ras Tanura
+ta;ராஸ்  தணுரா;Ras Tanura
+gu;રાસ તાનુરા;Ras Tanura
+te;రాస్ తనురా;Ras Tanura
+th;ราส ทานูรา;Ras Tanura
+ja;ラアス・タンヌーラ;Ras Tanura
+he;ראס תנורה;Ras Tanura
+zh;拉夫哈;Rafha
+bn;রাফা;Rafha
+ja;ラフハー;Rafha
+ur;رفحاء;Rafha
+ur;نجیل;Nujayl
+kk;Наджран;Najrān
+ky;Наджран;Najrān
+hi;नजरान;Najrān
+bn;নাজরান;Najrān
+ur;نجران;Najrān
+am;ናጅራን;Najrān
+ja;ナジュラン;Najrān
+om;Najraan;Najrān
+pa;ਨਜਰਾਨ;Najrān
+ps;نجران;Najrān
+tg;Наджран;Najrān
+tt;Наджран;Najrān
+uz;Mavarah;Mawarah
+ur;ماوراہ;Mawarah
+pl;Mekka;Makkah
+bg;Мека;Makkah
+bo;མ་ཁ།;Makkah
+bs;Mekka;Makkah
+ca;La Meca;Makkah
+cs;Mekka;Makkah
+cy;Mecca;Makkah
+da;Mekka;Makkah
+el;Μέκκα;Makkah
+et;Meka;Makkah
+eu;Meka;Makkah
+fi;Mekka;Makkah
+ga;Meice;Makkah
+gl;A Meca;Makkah
+haw;Meka;Makkah
+he;מכה;Makkah
+hr;Meka;Makkah
+id;Mekkah;Makkah
+is;Mekka;Makkah
+ja;メッカ;Makkah
+ka;მექა;Makkah
+ko;메카;Makkah
+lt;Meka;Makkah
+ms;Makkah al-Mukarramah;Makkah
+nn;Mekka;Makkah
+no;Mekka;Makkah
+ro;Mecca;Makkah
+sk;Mekka;Makkah
+sl;Meka;Makkah
+sr;Мека;Makkah
+sv;Mecka;Makkah
+th;มักกะฮ์;Makkah
+ur;مکہ;Makkah
+zh-TW;麥加;Makkah
+bn;মক্কা;Makkah
+uk;Мекка;Makkah
+be;Мекка;Makkah
+kk;Мекке;Makkah
+uz;Makka;Makkah
+ky;Мекке;Makkah
+hi;मक्का;Makkah
+am;መካ;Makkah
+ha;Makka;Makkah
+om;Makka;Makkah
+pa;ਮੱਕਾ;Makkah
+ps;مكه;Makkah
+so;Makka;Makkah
+sw;Makka;Makkah
+tg;Мекка;Makkah
+tt;Мәккә;Makkah
+uz;Hushaym;Khushaym
+ca;Khamis Mushayt;Khamis Mushait
+he;ח'מיס מושייט;Khamis Mushait
+ja;ハミース・ムシャイト;Khamis Mushait
+kk;Хамис-Мушаит;Khamis Mushait
+ko;하미스무샤이트;Khamis Mushait
+lt;Chamis Mušaitas;Khamis Mushait
+ml;ഖമീസ് മുശൈത്ത്;Khamis Mushait
+sr;Хамис Мушаит;Khamis Mushait
+ta;கமீசு முசைத்;Khamis Mushait
+uk;Хаміс-Мушайт;Khamis Mushait
+ur;خمیس مشیط;Khamis Mushait
+pl;Chamis Muszajt;Khamis Mushait
+zh;海米斯穆谢特;Khamis Mushait
+nn;Khamis Mushayt;Khamis Mushait
+hi;खमीस-मुशैथ;Khamis Mushait
+fi;Khamis Mushayt;Khamis Mushait
+bn;খামিস মুশাইত;Khamis Mushait
+zh-Hant;海米斯穆謝特;Khamis Mushait
+zh-HK;海米斯穆謝特;Khamis Mushait
+uz;Halfah;Khalfah
+kk;Джизан;Jizan
+uz;Jizon;Jizan
+ky;Джизан;Jizan
+hi;जीजान;Jizan
+bn;জিজান;Jizan
+ur;جیزان;Jizan
+am;ጂዛን;Jizan
+ja;ジザン;Jizan
+pa;ਜੀਜ਼ਾਨ;Jizan
+ps;جيزان;Jizan
+tg;Джизан;Jizan
+tt;Джизан;Jizan
+et;Jiddah;Jeddah
+he;גדה;Jeddah
+lt;Džida;Jeddah
+pl;Dżudda;Jeddah
+ja;ジッダ;Jeddah
+bg;Джида;Jeddah
+ca;Gidda;Jeddah
+fi;Jedda;Jeddah
+sv;Jidda;Jeddah
+bs;Džedda;Jeddah
+lv;Džida;Jeddah
+hi;जेद्दाह;Jeddah
+cs;Džidda;Jeddah
+ta;ஜித்தா;Jeddah
+el;Τζέντα;Jeddah
+sr;Џеда;Jeddah
+ur;جدہ;Jeddah
+os;Джиддæ;Jeddah
+hy;Ջիդդա;Jeddah
+af;Djedda;Jeddah
+uk;Джидда;Jeddah
+mk;Џеда;Jeddah
+ln;Cidda;Jeddah
+dv;ޖިއްދާ;Jeddah
+kk;Жидда;Jeddah
+be;Джыда;Jeddah
+mr;जेद्दाह;Jeddah
+ko;지다;Jeddah
+hu;Dzsidda;Jeddah
+ka;ჯიდა;Jeddah
+hr;Džeda;Jeddah
+th;ญิดดะฮ์;Jeddah
+ps;جده;Jeddah
+ml;ജിദ്ദ;Jeddah
+zh;吉达;Jeddah
+bn;জেদ্দা;Jeddah
+ce;Джиддат;Jeddah
+mhr;Джидде;Jeddah
+pa;ਜੱਦਾ;Jeddah
+ro;Djedda;Jeddah
+sk;Džidda;Jeddah
+av;Жидда;Jeddah
+ky;Жидда;Jeddah
+vep;Džidd;Jeddah
+yue;吉達;Jeddah
+ko;제다;Jeddah
+nn;Haradh;Ḩaraḑ
+ja;ハラド;Ḩaraḑ
+no;al Haql;Ḩaql
+kk;Хаиль;Ha'il
+uz;Hail;Ha'il
+ky;Хаиль;Ha'il
+ms;Hail;Ha'il
+hi;हैल;Ha'il
+bn;হায়েল;Ha'il
+ur;حائل;Ha'il
+am;ሃይል;Ha'il
+ha;Hail;Ha'il
+ja;ハイル;Ha'il
+jv;Hail;Ha'il
+om;Hail;Ha'il
+pa;ਹੈਲ;Ha'il
+ps;حائل;Ha'il
+so;Hail;Ha'il
+sw;Hail;Ha'il
+tg;Хаиль;Ha'il
+tt;Хаиль;Ha'il
+pl;Burajda;Buraydah
+uk;Бурайда;Buraydah
+kk;Бурайда;Buraydah
+uz;Burayda;Buraydah
+ky;Бурайда;Buraydah
+hi;बुरैदह;Buraydah
+bn;বুরাইদাহ;Buraydah
+ur;بریدہ;Buraydah
+am;ቡራይዳ;Buraydah
+ja;ブライダ;Buraydah
+pa;ਬੁਰੈਦਾ;Buraydah
+ps;بريده;Buraydah
+tg;Бурайда;Buraydah
+tt;Бурайда;Buraydah
+hy;Աբքայք;Abqaiq
+lt;Abkaikas;Abqaiq
+uk;Абкайк;Abqaiq
+ur;بقیق;Abqaiq
+zh;布蓋格;Abqaiq
+ka;აბკაიკი;Abqaiq
+ca;Abqayq;Abqaiq
+ko;아브카이크;Abqaiq
+uz;Abkayk;Abqaiq
+et;Buqayq;Abqaiq
+ja;アブカイク;Abqaiq
+pl;Bukajk;Abqaiq
+he;אבקאיק;Abqaiq
+su;Zhahran;Dhahran
+el;Νταχράν;Dhahran
+ko;다란;Dhahran
+hr;Dahran;Dhahran
+ur;ظہران;Dhahran
+sk;Dahrán;Dhahran
+ja;ダーラン;Dhahran
+he;דהראן;Dhahran
+ml;ദഹ്റാൻ;Dhahran
+zh;宰赫兰;Dhahran
+be;Дахран;Dhahran
+ka;დაჰრანი;Dhahran
+uk;Дахран;Dhahran
+yue;扎哈蘭;Dhahran
+bg;Таиф;Ta’if
+pl;At-Ta’if;Ta’if
+hi;ताइफ़;Ta’if
+lt;Taifas;Ta’if
+lv;Tāifa;Ta’if
+hy;Էթ Թաիֆ;Ta’if
+uk;Таїф;Ta’if
+ur;طائف;Ta’if
+sco;Taif;Ta’if
+ml;താഇഫ്;Ta’if
+uz;Toif;Ta’if
+mr;ताइफ;Ta’if
+af;Taif;Ta’if
+ms;Taif;Ta’if
+el;Ταΐφ;Ta’if
+zh;塔伊夫;Ta’if
+nb;Taif;Ta’if
+av;АтӀ-ТӀаиф;Ta’if
+ja;ターイフ;Ta’if
+fi;Taif;Ta’if
+bn;তাইফ;Ta’if
+si;ටායිෆ්;Ta’if
+sl;Taif;Ta’if
+so;Daa'if;Ta’if
+ca;Taïf;Ta’if
+sr;Taif;Ta’if
+kk;Таиф;Ta’if
+ce;Эт-Таиф;Ta’if
+sv;Taif;Ta’if
+kn;ತಾಯಿಫ್;Ta’if
+ko;타이프;Ta’if
+os;Таиф;Ta’if
+ta;டைப்;Ta’if
+gu;તૈફ;Ta’if
+cs;Táif;Ta’if
+pa;ਤਾਇਫ਼;Ta’if
+te;తాయిఫ్;Ta’if
+tg;Тоиф;Ta’if
+th;อัฏฏออิฟ;Ta’if
+tl;Taif;Ta’if
+he;טאיף;Ta’if
+bg;Рияд;Riyadh
+ca;Al-Riyad;Riyadh
+cs;Rijád;Riyadh
+et;Ar-Riyāḑ;Riyadh
+fi;Riad;Riyadh
+he;ריאד;Riyadh
+ja;リヤド;Riyadh
+ko;리야드;Riyadh
+lt;Rijadas;Riyadh
+pl;Rijad;Riyadh
+sk;Rijád;Riyadh
+sq;Riadi;Riyadh
+zh;利雅德;Riyadh
+bn;রিয়াদ;Riyadh
+mk;Ријад;Riyadh
+el;Ριάντ;Riyadh
+bs;Rijad;Riyadh
+lv;Rijāda;Riyadh
+tg;Эр-Рияд;Riyadh
+ur;ریاض;Riyadh
+am;ሪያድ;Riyadh
+mr;रियाध;Riyadh
+th;ริยาด;Riyadh
+uz;Ar-Riyod;Riyadh
+is;Ríad;Riyadh
+os;Эр-Рияд;Riyadh
+or;ରିଆଦ;Riyadh
+hi;रियाद;Riyadh
+hy;Ալ-Ռիադ;Riyadh
+uk;Ер-Ріяд;Riyadh
+ug;رىياد;Riyadh
+be;Эр-Рыяд;Riyadh
+hu;Rijád;Riyadh
+bo;རིས་ཡག;Riyadh
+sr;Ријад;Riyadh
+ne;रियाद;Riyadh
+ta;ரியாத்;Riyadh
+af;Riaad;Riyadh
+ml;റിയാദ്;Riyadh
+pa;ਰਿਆਧ;Riyadh
+ky;Эр-Рияд;Riyadh
+ka;ერ-რიადი;Riyadh
+kk;Эр-Рияд;Riyadh
+kn;ರಿಯಾಧ್;Riyadh
+mhr;Эр-Рияд;Riyadh
+ps;رياض;Riyadh
+hr;Rijad;Riyadh
+ce;Эр-Рияд;Riyadh
+yue;利雅得;Riyadh
+as;ৰিয়াধ;Riyadh
+av;Ар-Рияд;Riyadh
+kaa;Er-riyad;Riyadh
+kab;Riyaḍ;Riyadh
+vep;Rijad;Riyadh
+sl;Rijad;Riyadh
+hi;अर रास;Ar Rass
+lt;Ar Rasas;Ar Rass
+lv;Ar Rasa;Ar Rass
+bn;আর রাস;Ar Rass
+si;ආර් රස්;Ar Rass
+uk;Ар-Рас;Ar Rass
+ur;الرس;Ar Rass
+ml;അൽ റാസ്;Ar Rass
+kn;ಆರ್ ರಾಸ್;Ar Rass
+ko;알 라스;Ar Rass
+mr;आर रास;Ar Rass
+el;Αρ Πας;Ar Rass
+ta;ஆர் ராஸ்;Ar Rass
+gu;આર રાસ;Ar Rass
+zh;拉斯;Ar Rass
+te;అర్ రాస్;Ar Rass
+th;อา ราส;Ar Rass
+ja;アラス;Ar Rass
+kk;Арар;Arar
+ky;Арар;Arar
+hi;अरार;Arar
+bn;আরার;Arar
+ur;عرعر;Arar
+am;አራር;Arar
+ja;アラル;Arar
+pa;ਅਰਾਰ;Arar
+ps;عرعر;Arar
+tg;Арар;Arar
+tt;Арар;Arar
+zh;歐拉;Al-`Ula
+ur;عضیلیہ;Udhailiyah
+ceb;Al Qayşūmah;Qaisumah
+zh;盖苏迈;Qaisumah
+ja;カイスーマ;Qaisumah
+pl;Al-Kajsuma;Qaisumah
+ur;قیوصومہ;Qaisumah
+he;קייסומה;Qaisumah
+nn;Muwassam;Al Muwassam
+uz;Muvassam;Al Muwassam
+ca;Muwassam;Al Muwassam
+ur;الملتاسا;Al Multasa
+ur;المالبانہ;Al Malbanah
+zh;邁季邁阿;Al Majma‘ah
+cs;Medína;Madinah
+cy;Medina;Madinah
+da;Medina;Madinah
+et;Mediina;Madinah
+fi;Medina;Madinah
+gl;Medina;Madinah
+he;אל-מדינה;Madinah
+hi;मदीना;Madinah
+hu;Medina;Madinah
+ja;マディーナ;Madinah
+ka;მედინა;Madinah
+lt;Medina;Madinah
+ms;Madinah al-Munawwarah;Madinah
+nn;Medina;Madinah
+no;Medina;Madinah
+pl;Medyna;Madinah
+sv;Medina;Madinah
+sl;Medina;Madinah
+bg;Медина;Madinah
+ur;مدینہ منورہ;Madinah
+te;మదీనా;Madinah
+sw;Madina;Madinah
+bn;মদিনা;Madinah
+tt;Мәдинә;Madinah
+ne;मदिना;Madinah
+be;Медзіна;Madinah
+dv;މަދީނާ;Madinah
+ta;மதீனா;Madinah
+mr;मदीना;Madinah
+gu;મદીના;Madinah
+el;Μεδίνα;Madinah
+mk;Медина;Madinah
+lv;Medīna;Madinah
+th;มะดีนะฮ์;Madinah
+uz;Madina;Madinah
+os;Мединæ;Madinah
+uk;Медіна;Madinah
+sr;Медина;Madinah
+kk;Медине;Madinah
+ml;മദീന;Madinah
+ko;메디나;Madinah
+zh;麦地那;Madinah
+am;መዲና;Madinah
+av;Мадина;Madinah
+ce;Мадинат;Madinah
+hy;Մադինա;Madinah
+kaa;Madina;Madinah
+ky;Медина;Madinah
+pa;ਮਦੀਨਾ;Madinah
+qu;Madina;Madinah
+tg;Мадина;Madinah
+vep;Medin;Madinah
+yue;麥地那;Madinah
+om;Madina;Madinah
+ps;مدينه;Madinah
+so;Madina;Madinah
+ca;Al-Khobar;Khobar
+fi;Al-Khobar;Khobar
+ja;アル・コバール;Khobar
+kk;Әл-Хубар;Khobar
+ko;코바르;Khobar
+ml;ഖോബാർ;Khobar
+ur;الخبر;Khobar
+pl;Al-Chubar;Khobar
+hi;अल-खोबर;Khobar
+nn;Al-Khobar;Khobar
+uk;Ель-Хубар;Khobar
+hr;Hubar;Khobar
+he;ח'ובאר;Khobar
+sl;Hubar;Khobar
+hr;Džubail;Al Jubayl
+he;ג'ובייל;Al Jubayl
+pl;Al-Dżubajl;Al Jubayl
+uk;Джубаїль;Al Jubayl
+uz;Al Jirba;Al Jirbah
+he;הופוף;Al Hufūf
+hr;Hufuf;Al Hufūf
+uk;Ель-Хуфуф;Al Hufūf
+sl;Hufuf;Al Hufūf
+zh;巴哈;Al Bahah
+ko;바하;Al Bahah
+kk;Аль-Баха;Al Bahah
+uz;Baha;Al Bahah
+ky;Аль-Баха;Al Bahah
+hi;अल बहा;Al Bahah
+bn;আল বাহা;Al Bahah
+ur;البہاح;Al Bahah
+am;አል ባህ;Al Bahah
+ja;アルバハ;Al Bahah
+pa;ਅਲ ਬਾਹਾ;Al Bahah
+ps;الباحه;Al Bahah
+tg;Аль-Баха;Al Bahah
+tt;Аль-Баха;Al Bahah
+pl;Ad-Dammam;Dammam
+ja;ダンマーム;Dammam
+kk;Даммам;Dammam
+uk;Даммам;Dammam
+ka;დამამი;Dammam
+te;డమ్మామ్;Dammam
+hi;दम्माम;Dammam
+sr;Дамам;Dammam
+mr;दम्मम;Dammam
+ml;ദമാം;Dammam
+ko;담맘;Dammam
+he;דמאם;Dammam
+lt;Damamas;Dammam
+ur;دمام;Dammam
+th;อัดดัมมาม;Dammam
+el;Νταμάμ;Dammam
+bg;Дамам;Dammam
+zh;达曼;Dammam
+eu;Ad-Damman;Dammam
+pa;ਦਮਾਮ;Dammam
+hr;Damam;Dammam
+ky;Даммам;Dammam
+bn;দাম্মাম;Dammam
+am;ዳማም;Dammam
+ps;دمام;Dammam
+tg;Даммам;Dammam
+tt;Даммам;Dammam
+ja;アブハー;Abha
+kk;Абха;Abha
+ko;아브하;Abha
+ml;അബഹ;Abha
+sr;Абха;Abha
+uk;Абха;Abha
+ur;ابھا;Abha
+vep;Abh;Abha
+zh;艾卜哈;Abha
+bg;Абха;Abha
+uk;Абга;Abha
+ky;Абха;Abha
+hi;अबहा;Abha
+bn;আবহা;Abha
+am;አብሃ;Abha
+pa;ਅਬਾ;Abha
+ps;ابها;Abha
+tg;Абха;Abha
+tt;Абха;Abha
+uk;Аба-ед-Дуд;Abā ad Dūd
+uk;Абу-ер-Руват;Abā ar Ruwāth
+ur;الفريش;Al Furaysh
+nn;Al Qahab;Qahbat Āl ‘Īthī
+ceb;Al Qahab;Qahbat Āl ‘Īthī
+nn;Al Jawah;Al Jawwah
+uz;Al Javah;Al Jawwah
+ur;المندسہ;Al Mundassah
+el;Αλ Μαγάλ;Al Maghal
+nn;Al Mudawwarah;Um Doha
+uz;Al Mudawwarah;Um Doha
+uz;Al-Burayka;Al Buraykah
+el;Μασκάρ;Maskar
+mk;маскар;Maskar
+sr;Маскар;Maskar
+el;Αλ Μουκρ;Al Muqr
+uk;Аба-ед-Дуд;Aba Ad Dud
+he;ניאום;Neom
+hi;नियोम;Neom
+zh;新未來城;Neom

@@ -3538,3 +3538,242 @@ id;Ibu Kota Negara Nusantara;Nusantara
 id;IKN Nusantara;Nusantara
 zh;努山塔拉;Nusantara
 ru;Нусантара;Nusantara
+be;Сабанг;Sabang
+lt;Sabangas;Sabang
+mg;Kota Sabang;Sabang
+bg;Медан;Medan
+lt;Medanas;Medan
+lv;Medana;Medan
+el;Μεντάν;Medan
+be;Медан;Medan
+mg;Kota Medan;Medan
+sr;Медан;Medan
+uk;Медан;Medan
+ce;Медан;Medan
+lt;Banda Ačehas;Banda Aceh
+el;Μπάντα Άτσεχ;Banda Aceh
+bg;Банда Ачех;Banda Aceh
+mg;Kota Banda Aceh;Banda Aceh
+os;Банда-Ачех;Banda Aceh
+lv;Banda Ačeha;Banda Aceh
+uk;Банда-Ачех;Banda Aceh
+el;Γιογκιακάρτα;Yogyakarta
+ka;ჯოკიაკარტა;Yogyakarta
+lt;Džogjakarta;Yogyakarta
+sr;Џогџакарта;Yogyakarta
+uk;Джокякарта;Yogyakarta
+uk;Джоджакарта;Yogyakarta
+lt;Makasaras;Makassar
+pl;Makasar;Makassar
+ka;ტეგალი;Tegal
+mg;Kota Tegal;Tegal
+mg;Kota Tarakan;Tarakan
+mg;Kota Tanjungpinang;Tanjung Pinang
+be;Тангеранг;Tangerang
+bg;Тангеранг;Tangerang
+ce;Тангеранг;Tangerang
+ka;ტანგერანგი;Tangerang
+lt;Tangerangas;Tangerang
+mg;Kota Tangerang;Tangerang
+sr;Тангеранг;Tangerang
+az;Tanqeranq;Tangerang
+he;טאנגראנג;Tangerang
+uk;Тангеранг;Tangerang
+el;Σουρακάρτα;Surakarta
+be;Суракарта;Surakarta
+bg;Суракарта;Surakarta
+ka;სურაკარტა;Surakarta
+mg;Kota Surakarta;Surakarta
+pl;Surabaja;Surabaya
+lt;Surabaja;Surabaya
+sv;Surabaja;Surabaya
+ka;სურაბაია;Surabaya
+uk;Сурабая;Surabaya
+he;סורביה;Surabaya
+be;Сурабая;Surabaya
+mg;Kota Surabaya;Surabaya
+sr;Сурабаја;Surabaya
+sah;Сурабайа;Surabaya
+bg;Сурабая;Surabaya
+el;Σουραμπάγια;Surabaya
+ce;Сурабая;Surabaya
+sl;Surabaja;Surabaya
+ka;სუკაბუმი;Sukabumi
+mg;Kota Sukabumi;Sukabumi
+uk;Сукабумі;Sukabumi
+uk;Сое;Soe
+bg;Семаранг;Semarang
+lt;Semarangas;Semarang
+be;Семаранг;Semarang
+uk;Семаранг;Semarang
+mg;Kota Semarang;Semarang
+el;Σεμαράνγκ;Semarang
+ka;სემარანგი;Semarang
+ce;Семаранг;Semarang
+az;Semaranq;Semarang
+he;סמראנג;Semarang
+sr;Семаранг;Semarang
+be;Самарында;Samarinda
+mg;Kota Samarinda;Samarinda
+bg;Понтианак;Pontianak
+lt;Pontianakas;Pontianak
+mg;Kota Pontianak;Pontianak
+he;פונטיאנק;Pontianak
+uk;Понтіанак;Pontianak
+af;Pekanbaroe;Pekanbaru
+az;پکانبارو;Pekanbaru
+bg;Пеканбару;Pekanbaru
+mg;Kota Pekanbaru;Pekanbaru
+lt;Palembangas;Palembang
+sr;Палембанг;Palembang
+uk;Палембанг;Palembang
+bg;Палембанг;Palembang
+el;Παλεμπάνγκ;Palembang
+be;Палембанг;Palembang
+ce;Палембанг;Palembang
+az;Palembanq;Palembang
+he;פלמבאנג;Palembang
+no;Palangka Raya;Palangkaraya
+az;پادانگ;Padang
+be;Паданг;Padang
+bg;Паданг;Padang
+lt;Padangas;Padang
+mg;Kota Padang;Padang
+sah;Паданг;Padang
+ka;მატარამი;Mataram
+lt;Mataramas;Mataram
+mg;Kota Mataram;Mataram
+uk;Матарам;Mataram
+bg;Маноквари;Manokwari
+lt;Manokvaris;Manokwari
+ka;მანოკვარი;Manokwari
+sr;Манадо;Manado
+mg;Kota Manado;Manado
+uk;Манадо;Manado
+lt;Manadas;Manado
+be;Мамуджу;Mamuju
+lt;Mamudžu;Mamuju
+mg;Kota Malang;Malang
+bg;Маланг;Malang
+ka;მალანგი;Malang
+ce;Маланг;Malang
+ka;მაგელანგი;Magelang
+mg;Kota Magelang;Magelang
+bg;Комодо;Komodo
+lt;Komodo sala;Komodo
+lt;Kendaris;Kendari
+mg;Kota Kendari;Kendari
+ka;კედირი;Kediri
+mg;Kota Kediri;Kediri
+pl;Jambi;Jambi City
+no;Jambi;Jambi City
+sv;Jambi;Jambi City
+bg;Джакарта;Jakarta
+gl;Iacarta;Jakarta
+he;ג'קרטה;Jakarta
+lt;Džakarta;Jakarta
+lv;Džakarta;Jakarta
+pl;Dżakarta;Jakarta
+sr;Џакарта;Jakarta
+el;Τζακάρτα;Jakarta
+am;ጃካርታ;Jakarta
+bs;Džakarta;Jakarta
+is;Djakarta;Jakarta
+sq;Xhakarta;Jakarta
+hak;Ngâ-kâ-tha̍t Sú-tû Thi̍t-khî;Jakarta
+rue;Джакарта;Jakarta
+az;Cakarta;Jakarta
+hy;Ջակարտա;Jakarta
+uk;Джакарта;Jakarta
+be;Джакарта;Jakarta
+nah;Yakarta;Jakarta
+af;Djakarta;Jakarta
+ckb;جاکارتا;Jakarta
+mhr;Джакарта;Jakarta
+ku;Cakarta;Jakarta
+mk;Џакарта;Jakarta
+ga;Iacárta;Jakarta
+sah;Дьакарта;Jakarta
+sl;Džakarta;Jakarta
+ka;ჯაკარტა;Jakarta
+mzn;جاکارتا;Jakarta
+os;Джакартæ;Jakarta
+ba;Джакарта;Jakarta
+tpi;Sakata;Jakarta
+lt;Depokas;Depok
+be;Дэпак;Depok
+he;דפוק;Depok
+hy;Դեպոկ;Depok
+sr;Депок;Depok
+uk;Депок;Depok
+ro;Dempasar;Denpasar
+be;Дэнпасар;Denpasar
+bg;Денпасар;Denpasar
+el;Ντενπασάρ;Denpasar
+he;דנפסאר;Denpasar
+ka;დენპასარი;Denpasar
+lt;Denpasaras;Denpasar
+mg;Kota Denpasar;Denpasar
+uk;Денпасар;Denpasar
+ka;ჩირებონი;Cirebon
+mg;Kota Cirebon;Cirebon
+uk;Чиребон;Cirebon
+ka;ჩიანჯური;Cianjur
+mg;Kota Bukittinggi;Bukittinggi
+bg;Богор;Bogor
+ka;ბოგორი;Bogor
+mg;Kota Bogor;Bogor
+uk;Богор;Bogor
+lt;Benkulu;Bengkulu
+mg;Kota Bengkulu;Bengkulu
+lt;Bekasis;Bekasi
+be;Бекасі;Bekasi
+bg;Бекаси;Bekasi
+ce;Бекаси;Bekasi
+chr;ᎠᎴᏂ;Bekasi
+he;בקאסי;Bekasi
+ka;ბეკასი;Bekasi
+mg;Kota Bekasi;Bekasi
+mk;Бекаси;Bekasi
+sr;Бекаси;Bekasi
+el;Μπεκάσι;Bekasi
+uk;Бекасі;Bekasi
+lt;Bandungas;Bandung
+uk;Бандунг;Bandung
+ka;ბანდუნგი;Bandung
+he;באנדונג;Bandung
+bg;Бандунг;Bandung
+sr;Бандунг;Bandung
+mg;Kota Bandung;Bandung
+hy;Բանդունգ;Bandung
+el;Μπαντούνγκ;Bandung
+be;Бандунг;Bandung
+ce;Бандунг;Bandung
+lv;Banduna;Bandung
+az;Bandunq;Bandung
+mg;Kota Balikpapan;Balikpapan
+lt;Balikpapanas;Balikpapan
+ka;ბალიკპაპანი;Balikpapan
+be;Амбон;Ambon
+lt;Ambonas;Ambon
+mg;Kota Ambon;Ambon
+uk;Амбон;Ambon
+mk;Купанг;Kupang
+bg;Купанг;Kupang
+mg;Kota Kupang;Kupang
+az;Kupanq;Kupang
+be;Купанг;Kupang
+sr;Купанг;Kupang
+uk;Купанг;Kupang
+lt;Kupangas;Kupang
+br;Port Numbay;Jayapura
+af;Djajapoera;Jayapura
+lt;Džajapura;Jayapura
+lv;Džajapura;Jayapura
+mg;Kota Jayapura;Jayapura
+no;Jaya Pura;Jayapura
+sr;Џајапура;Jayapura
+uk;Порт-Нумбай;Jayapura
+be;Батам;Batam
+bg;Батам;Batam
+mg;Kota Batam;Batam

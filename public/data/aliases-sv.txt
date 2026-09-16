@@ -103,3 +103,201 @@ hi;अहुचपान;Ahuachapán
 de;Ahuachapan;Ahuachapán
 ja;アウアチャパン;Ahuachapán
 ru;Акахутла;Acajutla
+kk;Сакатеколука;Zacatecoluca
+uz;Zakatekoluka;Zacatecoluca
+ky;Сакатеколука;Zacatecoluca
+bn;জাকাটেকোলুকা;Zacatecoluca
+ur;ساکاتیکولوکا;Zacatecoluca
+am;ዛካቴኮሉካ;Zacatecoluca
+az;Sakatekoluka;Zacatecoluca
+fa;ساکاتهکولوکا;Zacatecoluca
+pa;ਜ਼ਾਕਾਟੇਕੋਲੁਕਾ;Zacatecoluca
+ps;ساکاتیکولوکا;Zacatecoluca
+tg;Сакатеколука;Zacatecoluca
+tt;Сакатеколука;Zacatecoluca
+el;Ουσουλουτάν;Usulután
+he;אוסולוטאן;Usulután
+lt;Usulutanas;Usulután
+sr;Усулутан;Usulután
+ur;اوسولوتآن;Usulután
+kk;Усулутан;Usulután
+ky;Усулутан;Usulután
+bn;উসুলুতান;Usulután
+am;ኡሱሉታን;Usulután
+fa;اسولوتان;Usulután
+pa;ਉਸੁਲੁਤਾਨ;Usulután
+ps;اسولوتان;Usulután
+tg;Усулутан;Usulután
+tt;Усулутан;Usulután
+bg;Сояпанго;Soyapango
+lt;Sojapangas;Soyapango
+sr;Сојапанго;Soyapango
+ur;سویاپانگو;Soyapango
+el;Σονσονάτε;Sonsonate
+fa;سنسناته;Sonsonate
+he;סונסונטה;Sonsonate
+sr;Сонсонате;Sonsonate
+ur;سونسوناتے، ایل سیلواڈور;Sonsonate
+kk;Сонсонате;Sonsonate
+ky;Сонсонате;Sonsonate
+bn;সনসোনাত;Sonsonate
+am;ሶንሶናተ;Sonsonate
+pa;ਸੋਂਸੋਨਾਤੇ;Sonsonate
+ps;سونسونات;Sonsonate
+tg;Сонсонате;Sonsonate
+tt;Сонсонате;Sonsonate
+kk;Сенсунтепеке;Sensuntepeque
+ky;Сенсунтепеке;Sensuntepeque
+bn;সেনসুন্তেপেক;Sensuntepeque
+ur;سنسونتیپیک;Sensuntepeque
+am;ሴንሱንቴፔቁ;Sensuntepeque
+fa;سنسونتپیک;Sensuntepeque
+pa;ਸੇਨਸੁਂਤੇਪੇਕ;Sensuntepeque
+ps;سنسونتیپیک;Sensuntepeque
+tg;Сенсунтепеке;Sensuntepeque
+tt;Сенсунтепеке;Sensuntepeque
+kk;Сан-Висенте;San Vicente
+uz;San Visente;San Vicente
+ky;Сан-Висенте;San Vicente
+bn;সান ভিসেন্তে;San Vicente
+ur;سان ویسنتے;San Vicente
+am;ሳን ቪሴንቴ;San Vicente
+az;San Visente;San Vicente
+fa;سان ویسنته;San Vicente
+pa;ਸਾਨ ਵਿਸੇਂਤੇ;San Vicente
+ps;سان ویسنتے;San Vicente
+tg;Сан-Висенте;San Vicente
+tt;Сан-Висенте;San Vicente
+lv;Santaana;Santa Ana
+be;Санта-Ана;Santa Ana
+el;Σάντα Άνα;Santa Ana
+bg;Санта Ана;Santa Ana
+he;סנטה אנה;Santa Ana
+hy;Սանտա Անա;Santa Ana
+sr;Санта Ана;Santa Ana
+ur;سانتا آنا، ایل سیلواڈور;Santa Ana
+kk;Санта-Ана;Santa Ana
+ky;Санта-Ана;Santa Ana
+bn;সান্তা আনা;Santa Ana
+am;ሳንታ አና;Santa Ana
+fa;سانتا انا;Santa Ana
+pa;ਸਾਂਤਾ ਅਨਾ;Santa Ana
+ps;سانتا انا;Santa Ana
+tg;Санта-Ана;Santa Ana
+tt;Санта-Ана;Santa Ana
+el;Σαν Σαλβαδόρ;San Salvador
+he;סן סלוודור;San Salvador
+pl;San Salwador;San Salvador
+zh-TW;聖薩爾瓦多;San Salvador
+fa;سان سالوادور;San Salvador
+am;ሳን ሳልቫዶር;San Salvador
+lt;San Salvadoras;San Salvador
+th;ซันซัลวาดอร์;San Salvador
+ta;சான் சல்வடோர்;San Salvador
+mr;सान साल्व्हाडोर;San Salvador
+sr;Сан Салвадор;San Salvador
+mk;Сан Салвадор;San Salvador
+sq;San Salvadori;San Salvador
+lv;Sansalvadora;San Salvador
+ka;სან-სალვადორი;San Salvador
+sah;Сан Салвадор;San Salvador
+pa;ਸਾਨ ਸਾਲਵਾਦੋਰ;San Salvador
+bg;Сан Салвадор;San Salvador
+os;Сан-Сальвадор;San Salvador
+ug;سان سالۋادور;San Salvador
+ur;سان سلواڈور;San Salvador
+hy;Սան Սալվադոր;San Salvador
+uk;Сан-Сальвадор;San Salvador
+be;Сан-Сальвадор;San Salvador
+bo;སན་སལ་ཝ་ཌོར།;San Salvador
+ce;Сан-Сальвадор;San Salvador
+yue;聖薩爾瓦多;San Salvador
+kk;Сан-Мигель;San Miguel
+ky;Сан-Мигель;San Miguel
+bn;সান মিগুয়েল;San Miguel
+ur;سان میگویل;San Miguel
+am;ሳን ሚጋኤል;San Miguel
+fa;سان میگوئل;San Miguel
+pa;ਸਾਨ ਮਿਗੁਏਲ;San Miguel
+ps;سان میگویل;San Miguel
+tg;Сан-Мигель;San Miguel
+tt;Сан-Мигель;San Miguel
+kk;Сан-Францisko;San Francisco
+uz;San Fransisko;San Francisco
+ky;Сан-Францisko;San Francisco
+bn;সান ফ্রান্সিস্কো;San Francisco
+ur;سان فرانسسکو;San Francisco
+am;ሳን ፍራንሲስኮ;San Francisco
+az;San Fransisko;San Francisco
+fa;سان فرانسیسکو;San Francisco
+pa;ਸਾਨ ਫ੍ਰਾਂਸਿਸਕੋ;San Francisco
+ps;سان فرانسسکو;San Francisco
+tg;Сан-Францisko;San Francisco
+tt;Сан-Францisko;San Francisco
+el;Σάντα Τέκλα;Santa Tecla
+lt;Santa Tekla;Santa Tecla
+sr;Санта Текла;Santa Tecla
+ur;سانتا تکلا، ایل سیلواڈور;Santa Tecla
+kk;Санта-Текла;Santa Tecla
+uz;Santa Tekla;Santa Tecla
+ky;Санта-Текла;Santa Tecla
+bn;সান্তা টেকলা;Santa Tecla
+am;ሳንታ ቴክላ;Santa Tecla
+az;Santa Tekla;Santa Tecla
+fa;سانتا تکلا;Santa Tecla
+pa;ਸਾਂਤਾ ਟੇਕਲਾ;Santa Tecla
+ps;سانتا ٹیکلا;Santa Tecla
+tg;Санта-Текла;Santa Tecla
+tt;Санта-Текла;Santa Tecla
+sr;Метапан;Metapán
+ur;میتاپان;Metapán
+kk;Ла-Унион;La Unión
+ky;Ла-Унион;La Unión
+bn;লা ইউনিয়ন;La Unión
+ur;لا یونین;La Unión
+am;ላ ዩንየን;La Unión
+fa;لا یونیون;La Unión
+pa;ਲਾ ਯੂਨੀਅਨ;La Unión
+ps;لا یونین;La Unión
+tg;Ла-Унион;La Unión
+tt;Ла-Унион;La Unión
+be;Ісалька;Izalco
+sr;Изалко;Izalco
+ur;ہاسئندےاتالیا;Hacienda Atalaya
+kk;Кохутепеке;Cojutepeque
+uz;Kojutepeque;Cojutepeque
+ky;Кохутепеке;Cojutepeque
+bn;কোজুতেপেক;Cojutepeque
+ur;کوجوتیپیک;Cojutepeque
+am;ኮጁቴፔቁ;Cojutepeque
+az;Kojutepeque;Cojutepeque
+fa;کوجوتپیک;Cojutepeque
+pa;ਕੋਜੁਤੇਪੇਕ;Cojutepeque
+ps;کوجوتیپیک;Cojutepeque
+tg;Кохутепеке;Cojutepeque
+tt;Кохутепеке;Cojutepeque
+be;Чалатэнанга;Chalatenango
+el;Τσαλατενάνγκο;Chalatenango
+lt;Čalatenangas;Chalatenango
+uk;Чалатенанго;Chalatenango
+ur;شالاتنانگو، شالاتنانگو;Chalatenango
+kk;Чалатенанго;Chalatenango
+ky;Чалатенанго;Chalatenango
+bn;চালাতেনাঙ্গো;Chalatenango
+am;ቻላቴናንጎ;Chalatenango
+fa;چالاتنانگو;Chalatenango
+pa;ਚਾਲਾਤੇਨਾਂਗੋ;Chalatenango
+ps;چالاتینانگو;Chalatenango
+tg;Чалатенанго;Chalatenango
+tt;Чалатенанго;Chalatenango
+ur;انتیگؤ کوسکاتلان;Antiguo Cuscatlán
+kk;Ауачапан;Ahuachapán
+ky;Ауачапан;Ahuachapán
+bn;আহুয়াচাপান;Ahuachapán
+ur;اہواچاپان;Ahuachapán
+am;አሁዋቻፓን;Ahuachapán
+fa;اهواچاپان;Ahuachapán
+pa;ਅਹੁਆਚਾਪਾਨ;Ahuachapán
+ps;اہواچاپان;Ahuachapán
+tg;Ауачапан;Ahuachapán
+tt;Ауачапан;Ahuachapán

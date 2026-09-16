@@ -4862,3 +4862,91 @@ km;Phum Pring;Pring
 km;Prasat Andêt;Chan Sar
 km;ប្រាសាទអណ្ដែត;Chan Sar
 km;ភូមិ ត្រពាំងឫស្សី;Phum Trâpeăng Rŭssei
+he;פנום פן;Phnom Penh
+lt;Pnompenis;Phnom Penh
+cs;Phnompenh;Phnom Penh
+el;Πνομ Πενχ;Phnom Penh
+am;ፕኖም ፔን;Phnom Penh
+sr;Пном Пен;Phnom Penh
+uk;Пномпень;Phnom Penh
+mk;Пном Пен;Phnom Penh
+sah;Пном Пэнь;Phnom Penh
+os;Пномпень;Phnom Penh
+ka;პნომპენი;Phnom Penh
+hu;Phnompen;Phnom Penh
+hy;Պնոմպեն;Phnom Penh
+lv;Pnompeņa;Phnom Penh
+ckb;پنۆم پێن;Phnom Penh
+bg;Пном Пен;Phnom Penh
+be;Пнампень;Phnom Penh
+az;Pnompen;Phnom Penh
+am;ታ ክማው;Ta Khmau
+tt;та Кмау;Ta Khmau
+am;ታኬዮ;Takeo
+tt;Такео;Takeo
+am;ስቬይ ሪየንግ;Svay Rieng
+tt;Свай Риенг;Svay Rieng
+am;ሱዖንግ;Suong
+tt;Суонг;Suong
+am;ስቱንግ ትሬንግ;Stung Treng
+tt;Стунг Тренг;Stung Treng
+am;ሲሶፎን;Sisophon
+tt;Сисофон;Sisophon
+pl;Siĕm Réab;Siem Reap
+fi;Siĕm Réab;Siem Reap
+lt;Siemreabas;Siem Reap
+et;Siĕm Réab;Siem Reap
+sr;Сијем Реап;Siem Reap
+hu;Sziemreap;Siem Reap
+uk;Сіемреап;Siem Reap
+am;ሲም ሪፑ;Siem Reap
+tt;Сиемреап;Siem Reap
+am;ሴን ሞኖሮም;Sen Monorom
+tt;Сен Монором;Sen Monorom
+am;ፕሬይ ቬንግ;Prey Veng
+tt;Прей Венг;Prey Veng
+am;ፑርሳት;Pursat
+tt;Пурсат;Pursat
+am;ሳምራዖንግ;Samraong
+tt;Самраонг;Samraong
+am;ትቤንግ ሚያንቼ;Tbeng Meanchey
+tt;Тбенг Меанчей;Tbeng Meanchey
+am;ፓይሊን;Pailin
+tt;Паилин;Pailin
+sv;Oudong;Ŏdŏngk
+be;Удонг;Ŏdŏngk
+cs;Udong;Ŏdŏngk
+uk;Удонг;Ŏdŏngk
+da;Udong;Ŏdŏngk
+ca;Ciutat d'Udong;Ŏdŏngk
+am;ኬፕ;Kep
+tt;Кеп;Kep
+am;ኮህ ኮንግ;Koh Kong
+tt;Кохконг;Koh Kong
+am;ክራቲ;Kratié
+tt;Кратие;Kratié
+nb;Lovek;Longveaek
+oc;Lovek;Longveaek
+lt;Kampotas;Kampot
+am;ካምፖት;Kampot
+tt;Кампот;Kampot
+am;ካምፖንግ ቶም;Kampong Thom
+tt;Кампонг Том;Kampong Thom
+am;ካምፖንግ ስፑ;Kampong Speu
+tt;Кампонг Спеу;Kampong Speu
+am;ሲሃኑክቪል;Sihanoukville
+az;Sihanukville;Sihanoukville
+tt;Сиануквиль;Sihanoukville
+am;ካምፖንግ ችሃናንግ;Kampong Chhnang
+tt;Кампонг Чхнанг;Kampong Chhnang
+am;ካምፖንግ ቻም;Kampong Cham
+tt;Кампонг Чам;Kampong Cham
+am;ባንሉንግ;Banlung
+tt;Банлунг;Banlung
+bg;Батамбанг;Battambang
+el;Μπατταμπάνγκ;Battambang
+fi;Băt Dâmbâng;Battambang
+lt;Batambangas;Battambang
+sr;Батамбанг;Battambang
+am;ባትታምባንግ;Battambang
+tt;Баттамбанг;Battambang

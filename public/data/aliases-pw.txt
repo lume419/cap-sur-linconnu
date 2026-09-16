@@ -98,3 +98,232 @@ hi;नगार्डमाउ;Ngardmau
 ja;ンガルドマウ;Ngardmau
 ru;Нгерулмуд;Ngerulmud
 ko;응게룰무드;Ngerulmud
+th;คอรอร์;Koror
+uk;Корор;Koror
+ar;كورور;Koror
+kk;Корор;Koror
+ky;Корор;Koror
+bn;কোরোর;Koror
+ur;کورور;Koror
+am;ኮሮር;Koror
+fa;کورور;Koror
+pa;ਕੋਰੋਰ;Koror
+ps;کورور;Koror
+tg;Корор;Koror
+tt;Корор;Koror
+ar;أوليمانج;Ulimang
+kk;Улиманг;Ulimang
+ky;Улиманг;Ulimang
+bn;উলিমাং;Ulimang
+ur;الیمنگ;Ulimang
+am;ኡሊማንግ;Ulimang
+fa;الیمنگ;Ulimang
+pa;ਉਲਿਮਾਂਗ;Ulimang
+ps;الیمنگ;Ulimang
+tg;Улиманг;Ulimang
+tt;Улиманг;Ulimang
+ar;قرية ملكيوك;Melekeok Village
+kk;Мелекеок ауылы;Melekeok Village
+tr;Melekeok Köyü;Melekeok Village
+uz;Melekeok qishloqi;Melekeok Village
+ky;Мелекеок айылы;Melekeok Village
+bn;মেলেকিওক গ্রাম;Melekeok Village
+ur;میلیکیوک گاؤں;Melekeok Village
+am;የመለኬኦክ ገጠር;Melekeok Village
+az;Melekeok kəndi;Melekeok Village
+fa;روستای ملکیوک;Melekeok Village
+ha;Garin Melekeok;Melekeok Village
+jv;Desa Melekeok;Melekeok Village
+om;Tuulo Melekeok;Melekeok Village
+pa;ਮੇਲੇਕੀਓਕ ਪਿੰਡ;Melekeok Village
+ps;میلیکیوک کلي;Melekeok Village
+so;Magaalada Melekeok;Melekeok Village
+sw;Kijiji cha Melekeok;Melekeok Village
+tg;Қишлоқи Мелекеок;Melekeok Village
+tt;Мелекеок авылы;Melekeok Village
+ar;نجيريكلمادل;Ngereklmadel
+kk;Нгерекламадел;Ngereklmadel
+ky;Нгерекламадел;Ngereklmadel
+bn;নগেরেকলমাদেল;Ngereklmadel
+ur;نجیریکلمادل;Ngereklmadel
+am;ንጌረክልማደል;Ngereklmadel
+fa;نجریکلمادل;Ngereklmadel
+pa;ਨਗੇਰੇਕਲਮਾਦੇਲ;Ngereklmadel
+ps;نجیریکلمادل;Ngereklmadel
+tg;Нгерекламадел;Ngereklmadel
+tt;Нгерекламадел;Ngereklmadel
+ar;قرية إيميونج الصغيرة;Imeong Hamlet
+kk;Имеонг ауылшасы;Imeong Hamlet
+tr;Imeong Köyü;Imeong Hamlet
+uz;Imeong qishloqi;Imeong Hamlet
+ky;Имеонг айылчасы;Imeong Hamlet
+bn;ইমিওং হ্যামলেট;Imeong Hamlet
+ur;ایمیونگ ہیملیٹ;Imeong Hamlet
+am;የኢሜኦንግ ገጠር;Imeong Hamlet
+az;Imeong kəndcəsi;Imeong Hamlet
+fa;روستچه ایمیونگ;Imeong Hamlet
+ha;Garin Imeong;Imeong Hamlet
+jv;Dusun Imeong;Imeong Hamlet
+om;Tuulo Imeong;Imeong Hamlet
+pa;ਇਮਿਓਂਗ ਹੈਮਲੇਟ;Imeong Hamlet
+ps;ایمیونگ کلي;Imeong Hamlet
+so;Tuulo Imeong;Imeong Hamlet
+sw;Kijiji cha Imeong;Imeong Hamlet
+tg;Қишлоқи Имеонг;Imeong Hamlet
+tt;Имеонг авылы;Imeong Hamlet
+fa;الاب;Chelab Hamlet
+mk;Елаб;Chelab Hamlet
+ar;قرية نجشيسار الصغيرة;Ngchesar Hamlet
+kk;Нгчесар ауылшасы;Ngchesar Hamlet
+tr;Ngchesar Köyü;Ngchesar Hamlet
+uz;Ngchesar qishloqi;Ngchesar Hamlet
+ky;Нгчесар айылчасы;Ngchesar Hamlet
+bn;নগচেসার হ্যামলেট;Ngchesar Hamlet
+ur;نگچیسار ہیملیٹ;Ngchesar Hamlet
+am;የንቹሳር ገጠር;Ngchesar Hamlet
+az;Ngchesar kəndcəsi;Ngchesar Hamlet
+fa;روستچه نگچسار;Ngchesar Hamlet
+ha;Garin Ngchesar;Ngchesar Hamlet
+jv;Dusun Ngchesar;Ngchesar Hamlet
+om;Tuulo Ngchesar;Ngchesar Hamlet
+pa;ਨਗਚੇਸਾਰ ਹੈਮਲੇਟ;Ngchesar Hamlet
+ps;نگچیسار کلي;Ngchesar Hamlet
+so;Tuulo Ngchesar;Ngchesar Hamlet
+sw;Kijiji cha Ngchesar;Ngchesar Hamlet
+tg;Қишлоқи Нгчесар;Ngchesar Hamlet
+tt;Нгчесар авылы;Ngchesar Hamlet
+fa;چول;Chol Hamlet
+ar;نجيركياي;Ngerkeai
+kk;Нгеркеаи;Ngerkeai
+ky;Нгеркеаи;Ngerkeai
+bn;নগেরকেআই;Ngerkeai
+ur;نجیرکیائی;Ngerkeai
+am;ንግርክያይ;Ngerkeai
+fa;نجرکیائی;Ngerkeai
+pa;ਨਗੇਰਕੇਆਈ;Ngerkeai
+ps;نجیرکیائی;Ngerkeai
+tg;Нгеркеаи;Ngerkeai
+tt;Нгеркеаи;Ngerkeai
+ar;منجيلانج;Mengellang
+kk;Менгеллан;Mengellang
+ky;Менгеллан;Mengellang
+bn;মেংগেলাং;Mengellang
+ur;منجیلنگ;Mengellang
+am;መንገላንግ;Mengellang
+fa;منجیلنگ;Mengellang
+pa;ਮੇਂਗੇਲਾਂਗ;Mengellang
+ps;منجیلنگ;Mengellang
+tg;Менгеллан;Mengellang
+tt;Менгеллан;Mengellang
+ar;ولاية أنجاور;Angaur State
+kk;Ангаур штаты;Angaur State
+tr;Angaur Eyaleti;Angaur State
+uz;Angaur Shtati;Angaur State
+ky;Ангаур Штаты;Angaur State
+bn;অ্যাঙ্গাউর রাষ্ট্র;Angaur State
+ur;انگاؤر ریاست;Angaur State
+am;የአንጋውር ክልል;Angaur State
+az;Angaur Штаты;Angaur State
+fa;ایالت انگاور;Angaur State
+ha;Jihar Angaur;Angaur State
+jv;Negara Angaur;Angaur State
+om;Mootummaa Angaur;Angaur State
+pa;ਅੰਗਾਉਰ ਰਾਜ;Angaur State
+ps;انگاؤر ایالت;Angaur State
+so;Gobolka Angaur;Angaur State
+sw;Jimbo la Angaur;Angaur State
+tg;Штати Ангаур;Angaur State
+tt;Ангаур штаты;Angaur State
+ar;قرية توبي;Tobi Village
+kk;Тоби ауылы;Tobi Village
+tr;Tobi Köyü;Tobi Village
+uz;Tobi qishloqi;Tobi Village
+ky;Тоби айылы;Tobi Village
+bn;টোবি গ্রাম;Tobi Village
+ur;ٹوبی گاؤں;Tobi Village
+am;የቶቢ ገጠር;Tobi Village
+az;Tobi kəndi;Tobi Village
+fa;روستای توبی;Tobi Village
+ha;Garin Tobi;Tobi Village
+jv;Desa Tobi;Tobi Village
+om;Tuulo Tobi;Tobi Village
+pa;ਟੋਬੀ ਪਿੰਡ;Tobi Village
+ps;ټوبي کلي;Tobi Village
+so;Magaalada Tobi;Tobi Village
+sw;Kijiji cha Tobi;Tobi Village
+tg;Қишлоқи Тоби;Tobi Village
+tt;Тоби авылы;Tobi Village
+ar;قرية سونسورول;Sonsorol Village
+kk;Сонсорол ауылы;Sonsorol Village
+tr;Sonsorol Köyü;Sonsorol Village
+uz;Sonsorol qishloqi;Sonsorol Village
+ky;Сонсорол айылы;Sonsorol Village
+bn;সনসোরোল গ্রাম;Sonsorol Village
+ur;سونسوروں گاؤں;Sonsorol Village
+am;የሶንሶሮል ገጠር;Sonsorol Village
+az;Sonsorol kəndi;Sonsorol Village
+fa;روستای سونسورول;Sonsorol Village
+ha;Garin Sonsorol;Sonsorol Village
+jv;Desa Sonsorol;Sonsorol Village
+om;Tuulo Sonsorol;Sonsorol Village
+pa;ਸੋਨਸੋਰੋਲ ਪਿੰਡ;Sonsorol Village
+ps;سونسورول کلي;Sonsorol Village
+so;Magaalada Sonsorol;Sonsorol Village
+sw;Kijiji cha Sonsorol;Sonsorol Village
+tg;Қишлоқи Сонсорол;Sonsorol Village
+tt;Сонсорол авылы;Sonsorol Village
+ar;كايانجل;Kayangel
+kk;Каянгел;Kayangel
+ky;Каянгел;Kayangel
+bn;কায়াংগেল;Kayangel
+ur;کایانگیل;Kayangel
+am;ካያንገል;Kayangel
+fa;کایانجل;Kayangel
+pa;ਕਾਇਆਂਗੇਲ;Kayangel
+ps;کایانگیل;Kayangel
+tg;Каянгел;Kayangel
+tt;Каянгел;Kayangel
+ar;كلولكلوبيد;Kloulklubed
+kk;Клоулклубед;Kloulklubed
+ky;Клоулклубед;Kloulklubed
+bn;ক্লৌলক্লুবেড;Kloulklubed
+ur;کلولکلوبیڈ;Kloulklubed
+am;ክሎልክሉቤድ;Kloulklubed
+fa;کلولکلوبد;Kloulklubed
+pa;ਕਲੌਲਕਲੁਬੇਡ;Kloulklubed
+ps;کلولکلوبیڈ;Kloulklubed
+tg;Клоулклубед;Kloulklubed
+tt;Клоулклубед;Kloulklubed
+ar;نجيتكيب;Ngetkib
+kk;Нгеткиб;Ngetkib
+ky;Нгеткиб;Ngetkib
+bn;নগেটকিব;Ngetkib
+ur;نجیتکیب;Ngetkib
+am;ንግትክብ;Ngetkib
+fa;نجتکیب;Ngetkib
+pa;ਨਗੇਟਕਿਬ;Ngetkib
+ps;نجیتکیب;Ngetkib
+tg;Нгеткиб;Ngetkib
+tt;Нгеткиб;Ngetkib
+ar;نجشيميانجل;Ngchemiangel
+kk;Нгчемиангел;Ngchemiangel
+ky;Нгчемиангел;Ngchemiangel
+bn;নগচেমিএংগেল;Ngchemiangel
+ur;نگچیمیانجیل;Ngchemiangel
+am;ንጌሚአንገል;Ngchemiangel
+fa;نگچمیانجل;Ngchemiangel
+pa;ਨਗਚੇਮਿਏਂਗੇਲ;Ngchemiangel
+ps;نگچیمیانجیل;Ngchemiangel
+tg;Нгчемиангел;Ngchemiangel
+tt;Нгчемиангел;Ngchemiangel
+ar;نجاردماو;Ngardmau
+kk;Нгардмау;Ngardmau
+ky;Нгардмау;Ngardmau
+bn;নগার্ডমাউ;Ngardmau
+ur;نگاردمو;Ngardmau
+am;ንግር ዋው;Ngardmau
+fa;نگاردمو;Ngardmau
+pa;ਨਗਾਰਡਮਾਉ;Ngardmau
+ps;نگاردمو;Ngardmau
+tg;Нгардмау;Ngardmau
+tt;Нгардмау;Ngardmau

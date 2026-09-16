@@ -23,3 +23,254 @@ fr;Montegiardino;Monte Giardino
 it;Montegiardino;Monte Giardino
 nl;Montegiardino;Monte Giardino
 pt;Montegiardino;Monte Giardino
+ru;Серравалле;Serravalle
+ar;سيرافاللي;Serravalle
+fa;سرواله;Serravalle
+he;סראוואלה;Serravalle
+ja;セラヴァッレ;Serravalle
+ko;세라발레;Serravalle
+lt;Seravalė;Serravalle
+os;Серравалле;Serravalle
+sr;Серавале;Serravalle
+uk;Серравалле;Serravalle
+zh;塞拉瓦莱;Serravalle
+kk;Серравалле;Serravalle
+ky;Серравалле;Serravalle
+hi;सेराविले;Serravalle
+bn;সেরাভাল;Serravalle
+ur;سیرافالے;Serravalle
+am;ሰራቫለ;Serravalle
+pa;ਸੈਰਾਵਾਲੇ;Serravalle
+ps;سیرافاله;Serravalle
+tg;Серравалле;Serravalle
+tt;Серравалле;Serravalle
+ar;سان مارينو المدينة;San Marino
+br;Kêr San Marino;San Marino
+ca;Ciutat de San Marino;San Marino
+he;סן מרינו;San Marino
+ja;サンマリノ市;San Marino
+ja;サンマリノ;San Marino
+ko;산마리노;San Marino
+lt;San Marinas;San Marino
+no;San Marino by;San Marino
+ro;Orașul San Marino;San Marino
+ru;Сан-Марино;San Marino
+am;ሳን ማሪኖ;San Marino
+sgs;San Marins;San Marino
+be;Сан-Марына;San Marino
+bg;Сан Марино;San Marino
+bo;སན་མ་རི་ནོ།;San Marino
+ce;Сан-Марино;San Marino
+ckb;سان مارینۆ;San Marino
+cv;Сан-Марино;San Marino
+cy;Dinas San Marino;San Marino
+el;Άγιος Μαρίνος;San Marino
+fa;سن مارینو;San Marino
+ga;Cathair San Mairíne;San Marino
+gl;Cidade de San Marino;San Marino
+ht;Sen Maren;San Marino
+hy;Սան Մարինո;San Marino
+ka;სან-მარინო;San Marino
+kk;Сан-Марино;San Marino
+lv;Sanmarīno;San Marino
+mk;Сан Марино;San Marino
+nah;Altepetl San Marino;San Marino
+nn;San Marino i San Marino;San Marino
+oc;Sant Marin;San Marino
+os;Сан-Марино;San Marino
+sco;Ceety o San Marino;San Marino
+sn;City of San Marino;San Marino
+sr;Сан Марино;San Marino
+th;ซานมารีโน;San Marino
+tr;San Marino şehri;San Marino
+udm;Сан-Марино;San Marino
+uk;Сан-Марино;San Marino
+ur;سان مارینو شہر;San Marino
+vi;Thành phố San Marino;San Marino
+yo;Ìlú San Màrínò;San Marino
+zh;聖馬力諾;San Marino
+ky;Сан-Марино;San Marino
+rn;Ville de Saint-Marin;San Marino
+ta;செயின்ட் மரினோ நகரம்;San Marino
+yue;聖馬連奴城;San Marino
+uk;Поджіо К'єзануова;Poggio di Chiesanuova
+ca;Chiesanuova;Poggio di Chiesanuova
+cs;Chiesanuova;Poggio di Chiesanuova
+eu;Chiesanuova;Poggio di Chiesanuova
+gl;Chiesanuova;Poggio di Chiesanuova
+id;Chiesanuova;Poggio di Chiesanuova
+rn;Chiesanuova;Poggio di Chiesanuova
+hu;Chiesanuova;Poggio di Chiesanuova
+no;Chiesanuova;Poggio di Chiesanuova
+nn;Chiesanuova;Poggio di Chiesanuova
+pl;Chiesanuova;Poggio di Chiesanuova
+ro;Chiesanuova;Poggio di Chiesanuova
+sco;Chiesanuova;Poggio di Chiesanuova
+sk;Chiesanuova;Poggio di Chiesanuova
+fi;Chiesanuova;Poggio di Chiesanuova
+sv;Chiesanuova;Poggio di Chiesanuova
+be;К’езануова;Poggio di Chiesanuova
+fa;کیزانووا;Poggio di Chiesanuova
+ko;키에사누오바;Poggio di Chiesanuova
+hy;Կիեզանուովա;Poggio di Chiesanuova
+he;קייזאנואובה;Poggio di Chiesanuova
+lt;Kjezanuova;Poggio di Chiesanuova
+ja;キエザヌオーヴァ;Poggio di Chiesanuova
+ru;Кьезануова;Poggio di Chiesanuova
+sr;Кјезануова;Poggio di Chiesanuova
+uk;К'єзануова;Poggio di Chiesanuova
+ur;کیئزانووا;Poggio di Chiesanuova
+zh;基埃萨努欧瓦;Poggio di Chiesanuova
+ar;بوجيو دي كييزانوفا;Poggio di Chiesanuova
+kk;Поджо ди Кьезануова;Poggio di Chiesanuova
+ky;Поджо ди Кьезануова;Poggio di Chiesanuova
+hi;पोग्गियो डि चिएसानुओवा;Poggio di Chiesanuova
+bn;পোজিও দি চিয়েসানুওভা;Poggio di Chiesanuova
+am;ፖጊዮ ዲ ቺዬሳኑወቫ;Poggio di Chiesanuova
+pa;ਪੋਜੀਓ ਡੀ ਚੀਏਸਾਨੁਓਵਾ;Poggio di Chiesanuova
+ps;پوجیو دی چیزانویا;Poggio di Chiesanuova
+tg;Поджо ди Кьезануова;Poggio di Chiesanuova
+tt;Поджо ди Кьезануова;Poggio di Chiesanuova
+be;Монтэджардына;Monte Giardino
+ca;Montegiardino;Monte Giardino
+cs;Montegiardino;Monte Giardino
+eu;Montegiardino;Monte Giardino
+fa;مونته‌جیاردینو;Monte Giardino
+fi;Montegiardino;Monte Giardino
+gl;Montegiardino;Monte Giardino
+he;מונטג'ארדינו;Monte Giardino
+hu;Montegiardino;Monte Giardino
+hy;Մոնտեջարդինո;Monte Giardino
+id;Montegiardino;Monte Giardino
+ja;モンテジャルディーノ;Monte Giardino
+ko;몬테자르디노;Monte Giardino
+lt;Montedžardinas;Monte Giardino
+nn;Montegiardino;Monte Giardino
+no;Montegiardino;Monte Giardino
+pl;Montegiardino;Monte Giardino
+rn;Montegiardino;Monte Giardino
+ro;Montegiardino;Monte Giardino
+sco;Montegiardino;Monte Giardino
+ru;Монтеджардино;Monte Giardino
+sk;Montegiardino;Monte Giardino
+sr;Монтеђардино;Monte Giardino
+sv;Montegiardino;Monte Giardino
+tr;Montegiardino;Monte Giardino
+uk;Монтеджардіно;Monte Giardino
+ur;مونتےجاردینو;Monte Giardino
+zh;蒙泰吉阿迪诺;Monte Giardino
+ar;مونتي جياردينو;Monte Giardino
+kk;Монте Джардино;Monte Giardino
+ky;Монте Джардино;Monte Giardino
+hi;मोंटे गियार्दीनो;Monte Giardino
+bn;মন্তে গিয়ার্দিনো;Monte Giardino
+am;ሞንተ ጂያርዲኖ;Monte Giardino
+pa;ਮੋਂਟੇ ਗਿਆਰਦੀਨੋ;Monte Giardino
+ps;مونټې جیاردینو;Monte Giardino
+tg;Монте Джардино;Monte Giardino
+tt;Монте Джардино;Monte Giardino
+ru;Фьорентино;Fiorentino
+hy;Ֆիորենտինո;Fiorentino
+sr;Фјорентино;Fiorentino
+be;Ф’ёрэнтына;Fiorentino
+fa;فیورنتینو;Fiorentino
+ko;피오렌티노;Fiorentino
+he;פיורנטינו;Fiorentino
+lt;Fiorentinas;Fiorentino
+ja;フィオレンティーノ;Fiorentino
+uk;Фйорентіно;Fiorentino
+ur;فیورنتینو;Fiorentino
+zh;菲奥伦蒂诺;Fiorentino
+ar;فيورنتينو;Fiorentino
+kk;Фиорентино;Fiorentino
+ky;Фиорентино;Fiorentino
+hi;फियोरेंटिनो;Fiorentino
+bn;ফিওরেন্তিনো;Fiorentino
+am;ፊዮረንቲኖ;Fiorentino
+pa;ਫਿਓਰੰਟੀਨੋ;Fiorentino
+ps;فیورنتینو;Fiorentino
+tg;Фиорентино;Fiorentino
+tt;Фиорентино;Fiorentino
+lt;Falčianas;Falciano
+uk;Фальчано;Falciano
+ur;فالکیانو;Falciano
+ru;Фальчано;Falciano
+ru;Фаэтано;Faetano
+sr;Фаетано;Faetano
+uk;Фаетано;Faetano
+ur;فیٹانو;Faetano
+zh;法尔齐亚诺;Faetano
+fa;فائتانو;Faetano
+ko;파에타노;Faetano
+hy;Ֆաետանո;Faetano
+he;פאטאנו;Faetano
+kk;Фаэтано;Faetano
+lt;Faetanas;Faetano
+ja;ファエターノ;Faetano
+be;Фаэтана;Faetano
+ar;فايتانو;Faetano
+ky;Фаэтано;Faetano
+hi;फाएटानो;Faetano
+bn;ফায়েতানো;Faetano
+am;ፋዬታኖ;Faetano
+pa;ਫਾਏਤਾਨੋ;Faetano
+ps;فائیتانو;Faetano
+tg;Фаэтано;Faetano
+tt;Фаэтано;Faetano
+ru;Доманьяно;Domagnano
+ar;دوماجنانو;Domagnano
+kk;Доманьяно;Domagnano
+ky;Доманьяно;Domagnano
+hi;डोमग्नानो;Domagnano
+bn;ডোমাগনানো;Domagnano
+ur;ڈومگنانو;Domagnano
+am;ዶማኛኖ;Domagnano
+fa;دومانیانو;Domagnano
+ja;ドマニャーノ;Domagnano
+pa;ਡੋਮਾਨਿਆਨੋ;Domagnano
+ps;ډوماگنانو;Domagnano
+tg;Доманьяно;Domagnano
+tt;Доманьяно;Domagnano
+el;Ντογκάνα;Dogana
+th;โดกานา;Dogana
+ug;دوگانا;Dogana
+uk;Догана;Dogana
+ru;Догана;Dogana
+ru;Борго-Маджоре;Borgo Maggiore
+be;Борга-Маджорэ;Borgo Maggiore
+fa;بورگو ماجیوره;Borgo Maggiore
+ko;보르고마조레;Borgo Maggiore
+he;בורגו מג'ורה;Borgo Maggiore
+kk;Борго-Маджоре;Borgo Maggiore
+lt;Borgo Madžorė;Borgo Maggiore
+ja;ボルゴ・マッジョーレ;Borgo Maggiore
+sr;Борго Мађоре;Borgo Maggiore
+uk;Борго-Маджоре;Borgo Maggiore
+zh;博尔戈·马吉欧雷;Borgo Maggiore
+ar;بورجو ماجيوري;Borgo Maggiore
+ky;Борго Маджоре;Borgo Maggiore
+hi;बोर्गो मैगिओरे;Borgo Maggiore
+bn;বোর্গো মাজিওরে;Borgo Maggiore
+ur;بورگو ماجیورے;Borgo Maggiore
+am;ቦርጎ ማጂሪ;Borgo Maggiore
+pa;ਬੋਰਗੋ ਮੈਜੀਓਰੇ;Borgo Maggiore
+ps;بورګو ماجیورې;Borgo Maggiore
+tg;Борго Маджоре;Borgo Maggiore
+tt;Борго Маджоре;Borgo Maggiore
+ru;Аккваввива;Acquaviva
+ar;أكوافيفا;Acquaviva
+kk;Аккваввива;Acquaviva
+ky;Аккваввива;Acquaviva
+hi;एक्वाविवा;Acquaviva
+bn;আকুয়াভিভা;Acquaviva
+ur;اکوویوا;Acquaviva
+am;አክዋቪቫ;Acquaviva
+fa;اکوویوا;Acquaviva
+ja;アックアヴィーヴァ;Acquaviva
+pa;ਅਕਵਾਵਿਵਾ;Acquaviva
+ps;اکوویوا;Acquaviva
+tg;Аккваввива;Acquaviva
+tt;Аккваввива;Acquaviva
+ru;Мурата;Murata
+uk;Торрачія;Torraccia
+ru;Торрачия;Torraccia

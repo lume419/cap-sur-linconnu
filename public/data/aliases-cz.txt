@@ -815,3 +815,2589 @@ de;Gerstenfeld;Ječmeniště
 de;Langendorf;Dlouhá Loučka
 en;Brno-South;Brno-jih
 de;Rossrein;Rozhraní
+be;Двур-Кралавэ-над-Лабэм;Dvůr Králové nad Labem
+kk;Двур-Кралове;Dvůr Králové nad Labem
+ru;Двур-Кралове-над-Лабем;Dvůr Králové nad Labem
+zh;拉貝河畔皇宮鎮;Dvůr Králové nad Labem
+lt;Dvūr Kralovė prie Labės;Dvůr Králové nad Labem
+sr;Двур Кралове на Лаби;Dvůr Králové nad Labem
+uk;Двур-Кралове-над-Лабем;Dvůr Králové nad Labem
+ru;Зволе;Zvole
+ka;ზვიკოვის ციხე-დარბაზი;Zvíkov
+vi;Lâu đài Zvíkov;Zvíkov
+ru;Звиков;Zvíkov
+bg;Звиков;Zvíkov
+ps;زويکوف کلا;Zvíkov
+sr;Жулова;Žulová
+zh;茹洛瓦;Žulová
+ru;Жулова;Žulová
+ru;Зноймо;Znojmo
+ja;ズノイモ;Znojmo
+ko;즈노이모;Znojmo
+tr;Znaym;Znojmo
+sr;Знојмо;Znojmo
+fa;زنیمو;Znojmo
+uk;Зноймо;Znojmo
+zh;茲諾伊莫;Znojmo
+be;Знойма;Znojmo
+kk;Зноймо;Znojmo
+ar;زنويمو;Znojmo
+bg;Зноймо;Znojmo
+lt;Znoimas;Znojmo
+ru;Жлутице;Žlutice
+zh;日盧季采;Žlutice
+sr;Жлутице;Žlutice
+ru;Злив;Zliv
+sr;Злив;Zliv
+zh;茲利夫;Zliv
+be;Зьлін;Zlín
+el;Ζλιν;Zlín
+ru;Злин;Zlín
+sr;Злин;Zlín
+ar;زلين;Zlín
+kk;Злин;Zlín
+ky;Злин;Zlín
+hi;ज़्लिन;Zlín
+bn;জ্লিন;Zlín
+ur;زلین;Zlín
+am;ዝሊን;Zlín
+fa;زلین;Zlín
+ja;ズリン;Zlín
+pa;ਜ਼ਲਿਨ;Zlín
+ps;زلین;Zlín
+tg;Злин;Zlín
+tt;Злин;Zlín
+lt;Zlate Horai;Zlaté Hory
+lv;Zlate Hori;Zlaté Hory
+sr;Злате Хори;Zlaté Hory
+ru;Злате-Гори;Zlaté Hory
+sr;Жихопце;Žihobce
+zh;日德洛霍維采;Židlochovice
+lv;Židlohovice;Židlochovice
+sr;Жидлоховице;Židlochovice
+ru;Жидлоховице;Židlochovice
+cs;Brno-Židenice;Židenice
+sr;Жиховице;Žichovice
+cs;Zhoř (Skuteč);Zhoř
+bg;Железна Руда;Železná Ruda
+sr;Железна Руда;Železná Ruda
+ru;Железна-Руда;Železná Ruda
+zh;鐵礦鎮;Železná Ruda
+sr;Железна;Železná
+sr;Жехуњ;Žehuň
+cs;Brno-Žebětín;Žebětín
+ru;Здиков;Zdíkov
+sr;Здице;Zdice
+ru;Здице;Zdice
+zh;茲迪采;Zdice
+fa;ژدار ناد سازاوو;Žďár nad Sázavou
+lt;Ždiaras prie Sazavos;Žďár nad Sázavou
+sr;Ждјар на Сазави;Žďár nad Sázavou
+uk;Ждяр-над-Сазавою;Žďár nad Sázavou
+pl;Zdziar nad Sazawą;Žďár nad Sázavou
+ru;Ждяр-над-Сазавоу;Žďár nad Sázavou
+zh;薩扎瓦河畔日賈爾;Žďár nad Sázavou
+ar;جديار ناد سازافو;Žďár nad Sázavou
+lv;Ždjāra pie Sāzavas;Žďár nad Sázavou
+zh;日達尼采;Ždánice
+sr;Ждањице;Ždánice
+ru;Жданице;Ždánice
+lv;Zbīšova;Zbýšov
+sr;Збишов;Zbýšov
+zh;茲比紹夫;Zbýšov
+ru;Збишов;Zbýšov
+ru;Збраслав;Zbraslav
+ru;Збирог;Zbiroh
+zh;茲比羅赫;Zbiroh
+sr;Збирох;Zbiroh
+pl;Zawada;Závada
+ru;Затор;Zátor
+ja;ジャテツ;Žatec
+ru;Жатец;Žatec
+sr;Жатец;Žatec
+zh;扎泰茨;Žatec
+kk;Жатец;Žatec
+ru;Заставка;Zastávka
+ko;잠베르크;Žamberk
+lv;Žamberka;Žamberk
+ru;Жамберк;Žamberk
+zh;然貝爾克;Žamberk
+sr;Жамберк;Žamberk
+sgs;Zaječē;Zaječí
+sr;Зајечи;Zaječí
+sr;Жацлерж;Žacléř
+zh;扎茨萊日;Žacléř
+ru;Жацлерж;Žacléř
+lv;Zābržeha;Zábřeh
+sr;Забрех;Zábřeh
+zh;扎布熱赫;Zábřeh
+bg;Забржех;Zábřeh
+ru;Забржег;Zábřeh
+cs;Brno-Žabovřesky;Žabovřesky
+tt;Заблати;Záblatí
+ce;Заблати;Záblatí
+pl;Zabłocie;Záblatí
+ru;Вишши-Брод;Vyšší Brod
+zh;上布罗德;Vyšší Brod
+sr;Виши Брод;Vyšší Brod
+bg;Високо Мито;Vysoké Mýto
+ka;ვისოკე-მიტო;Vysoké Mýto
+lv;Visoke Mīto;Vysoké Mýto
+sr;Високе Мито;Vysoké Mýto
+uk;Високе Мито;Vysoké Mýto
+ru;Високе-Мито;Vysoké Mýto
+zh;上米托;Vysoké Mýto
+sr;Висока Пец;Vysoká Pec
+sr;Вислуњи;Výsluní
+ru;Вислуни;Výsluní
+ru;Вышков;Vyškov
+ru;Всетин;Vsetín
+sr;Всетин;Vsetín
+uk;Всетін;Vsetín
+tg;Всетин;Vsetín
+fa;وستین;Vsetín
+zh;弗塞廷;Vsetín
+kk;Всетин;Vsetín
+ar;فسيتين;Vsetín
+lt;Vsetynas;Vsetín
+lv;Vsetīna;Vsetín
+sr;Врхлаби;Vrchlabí
+zh;弗爾赫拉比;Vrchlabí
+lt;Vrchlabis;Vrchlabí
+ru;Врхлаби;Vrchlabí
+lv;Vrbno pie Pradēda;Vrbno pod Pradědem
+sr;Врбно под Прадједом;Vrbno pod Pradědem
+ru;Врбно-под-Прадедем;Vrbno pod Pradědem
+cs;Vrbice (Bohumín);Vrbice
+tt;Врбице;Vrbice
+ce;Врбице;Vrbice
+ru;Врбице;Vrbice
+pl;Wierzbica;Vrbice
+ru;Вратиславице;Vratislavice nad Nisou
+mr;व्राटिस्लाविस नॅड निसाऊ;Vratislavice nad Nisou
+hr;Vratislavice;Vratislavice nad Nisou
+ja;マッフェルスドルフ;Vratislavice nad Nisou
+he;וראטיסלביצ'ה;Vratislavice nad Nisou
+ru;Вратимов;Vratimov
+am;ቭራሆቪቸ;Vrahovice
+ar;فارهوفيس;Vrahovice
+el;Βραχόβιτσε;Vrahovice
+fa;وراهوویتسه;Vrahovice
+he;ורהוביצה;Vrahovice
+ja;ヴラホヴィツェ;Vrahovice
+ko;브라호보체;Vrahovice
+mk;Враговице;Vrahovice
+sr;Враховице;Vrahovice
+uk;Враговице;Vrahovice
+ru;Враговице;Vrahovice
+zh;華賀維治;Vrahovice
+be;Враговіцы;Vrahovice
+bg;Враховице;Vrahovice
+yue;華賀維治;Vrahovice
+zh;沃利內;Volyně
+sr;Волиње;Volyně
+ru;Волары;Volary
+sr;Волари;Volary
+ru;Волари;Volary
+zh;沃拉里;Volary
+zh;沃德尼亞尼;Vodňany
+sr;Водњани;Vodňany
+sr;Влчице;Vlčice
+sr;Влашим;Vlašim
+ru;Влашим;Vlašim
+zh;弗拉希姆;Vlašim
+ru;Владислав;Vladislav
+sr;Влахово Брези;Vlachovo Březí
+ru;Влахово Брези;Vlachovo Březí
+zh;維佐維采;Vizovice
+sr;Визовице;Vizovice
+ru;Визовице;Vizovice
+ru;Витков;Vítkov
+ru;Вимперк;Vimperk
+zh;溫佩爾克;Vimperk
+sr;Вимперк;Vimperk
+ru;Вилемов;Vilémov
+sr;Виднава;Vidnava
+zh;維德納瓦;Vidnava
+ru;Виднава;Vidnava
+sr;Веверска Битишка;Veverská Bítýška
+ru;Веверска Битишка;Veverská Bítýška
+sr;Весели на Морави;Veselí nad Moravou
+uk;Веселі-над-Моравою;Veselí nad Moravou
+zh;摩拉瓦河畔韋塞利;Veselí nad Moravou
+ko;베셀리나트모라보우;Veselí nad Moravou
+lv;Veseli pie Morāvas;Veselí nad Moravou
+ru;Весели На Морави;Veselí nad Moravou
+zh;盧日尼采河畔韋塞利;Veselí nad Lužnicí
+sr;Весели на Лужњици;Veselí nad Lužnicí
+sr;Веселичко;Veselíčko
+fa;ورنریک;Verneřice
+sr;Вернержице;Verneřice
+ru;Вернержице;Verneřice
+fa;ولکی یوجزد;Velký Újezd
+sr;Велки Ујезд;Velký Újezd
+fa;ولکی ارژخوف;Velký Ořechov
+fa;ولک پریلپی;Velké Přílepy
+sr;Велке Прилепи;Velké Přílepy
+ru;Вельке-Пршилепи;Velké Přílepy
+ru;Велке Поповице;Velké Popovice
+sgs;Velkė Pavluovėcē;Velké Pavlovice
+sr;Велке Павловице;Velké Pavlovice
+zh;大帕夫洛維采;Velké Pavlovice
+ru;Велке Павловице;Velké Pavlovice
+bg;Велке Опатовице;Velké Opatovice
+fa;ولکه اوپاتوویتسه;Velké Opatovice
+sr;Велке Опатовице;Velké Opatovice
+zh;大奧帕托維采;Velké Opatovice
+ru;Велке Опатовице;Velké Opatovice
+lv;Velke Meziržīči;Velké Meziříčí
+sr;Велики Мезиричи;Velké Meziříčí
+ru;Вельке-Мезиржичи;Velké Meziříčí
+zh;大梅濟日奇;Velké Meziříčí
+fa;ولک لسینی;Velké Losiny
+mk;Велке Лосини;Velké Losiny
+sr;Велке Лосини;Velké Losiny
+ru;Велке Лосини;Velké Losiny
+fa;ولکا کرش;Velká Kraš
+sr;Велка Краш;Velká Kraš
+fa;ولکا بیستریک;Velká Bystřice
+lv;Velka Bistršice;Velká Bystřice
+sr;Велка Бистрица;Velká Bystřice
+zh;大比斯特日采;Velká Bystřice
+ru;Велка Бистрица;Velká Bystřice
+zh;大比泰什;Velká Bíteš
+lv;Velka Bīteša;Velká Bíteš
+sr;Велка Битеш;Velká Bíteš
+ru;Велка Битеш;Velká Bíteš
+ru;Велим;Velim
+fa;ولیچوکی;Velichovky
+sr;Велиховки;Velichovky
+sr;Велхартице;Velhartice
+sr;Велешин;Velešín
+zh;韋萊欣;Velešín
+ru;Велешин;Velešín
+ru;Велемин;Velemín
+sr;Вејпрти;Vejprty
+ru;Вейпрти;Vejprty
+zh;韋伊普爾蒂;Vejprty
+sr;Варнсдорф;Varnsdorf
+ru;Варнсдорф;Varnsdorf
+zh;瓦恩斯多夫;Varnsdorf
+bg;Варнсдорф;Varnsdorf
+ru;Вапенна;Vápenná
+ru;Вамберк;Vamberk
+ja;ヴァルチツェ;Valtice
+sgs;Valtėcē;Valtice
+be;Вальціцы;Valtice
+ru;Вальтице;Valtice
+zh;瓦爾季采;Valtice
+bg;Валтице;Valtice
+ko;발티체;Valtice
+sr;Валтице;Valtice
+ru;Мезиржичи;Valašské Meziříčí
+ar;فالاشسكي ميزيريتشي;Valašské Meziříčí
+fa;والاشسکه مزیرژیچی;Valašské Meziříčí
+lt;Valašske Meziržyčiai;Valašské Meziříčí
+sr;Валашки Мезиричи;Valašské Meziříčí
+ru;Валашске-Мезиржичи;Valašské Meziříčí
+zh;瓦拉什斯凱梅濟日奇;Valašské Meziříčí
+bg;Валашке Мезиржичи;Valašské Meziříčí
+lv;Valašske Meziržīči;Valašské Meziříčí
+mk;Валашки Мезиричи;Valašské Meziříčí
+zh;瓦拉什斯凱克洛博烏基;Valašské Klobouky
+lv;Valašske Klobouki;Valašské Klobouky
+sr;Валашке Клобоуки;Valašské Klobouky
+ru;Валашске-Клобоуки;Valašské Klobouky
+sr;Валашка Поланка;Valašská Polanka
+ru;Валашка Поланка;Valašská Polanka
+cs;Brno-Útěchov;Útěchov
+kk;Усти-над-Орлици;Ústí nad Orlicí
+lv;Ūsti pie Orlices;Ústí nad Orlicí
+sr;Усти на Орлици;Ústí nad Orlicí
+pl;Uście nad Orlicą;Ústí nad Orlicí
+ru;Усти-над-Орлици;Ústí nad Orlicí
+zh;奧爾利采河畔烏斯季;Ústí nad Orlicí
+ar;أوستي ناد أورليتسي;Ústí nad Orlicí
+ka;უსტი-ნად-ორლიცი;Ústí nad Orlicí
+ru;Усти-над-Лабем;Ústí nad Labem
+sr;Усти над Лабом;Ústí nad Labem
+ar;أوستي ناد لابيم;Ústí nad Labem
+kk;Усти-над-Лабем;Ústí nad Labem
+ky;Устиби-над-Лабем;Ústí nad Labem
+hi;उस्ती नाड लाबेम;Ústí nad Labem
+bn;উস্তী নাদ লাবেম;Ústí nad Labem
+ur;اسٹی ناڈ لابیم;Ústí nad Labem
+am;ኡስቲ ናድ ላቤም;Ústí nad Labem
+fa;اوستی ناد لابم;Ústí nad Labem
+ja;ウスチー・ナド・ラベム;Ústí nad Labem
+pa;ਉਸਤੀ ਨਾਡ ਲਾਬੇਮ;Ústí nad Labem
+ps;اسټی ناد لابیم;Ústí nad Labem
+tg;Устиби-над-Лабем;Ústí nad Labem
+tt;Усти-над-Лабем;Ústí nad Labem
+sr;Уштјек;Úštěk
+ru;Уштек;Úštěk
+zh;烏什捷克;Úštěk
+bg;Усов;Úsov
+lv;Ūsova;Úsov
+zh;烏索夫;Úsov
+sr;Усов;Úsov
+ru;Усов;Úsov
+sr;Упице;Úpice
+ru;Упице;Úpice
+zh;烏皮采;Úpice
+lv;Uničova;Uničov
+sr;Уњичов;Uničov
+zh;烏尼喬夫;Uničov
+ru;Уничов;Uničov
+sr;Унхошт;Unhošť
+zh;翁霍什季;Unhošť
+ru;Унхошт;Unhošť
+ru;Унанов;Únanov
+hu;Magyarsárvár;Uherský Ostroh
+ru;Угерски-Острог;Uherský Ostroh
+lv;Uherski Ostroha;Uherský Ostroh
+sr;Ухерски Острох;Uherský Ostroh
+hu;Magyarbród;Uherský Brod
+lt;Uhersky Brodas;Uherský Brod
+sr;Ухерски Брод;Uherský Brod
+uk;Угерський Брод;Uherský Brod
+ru;Угерски-Брод;Uherský Brod
+zh;烏赫爾布羅德;Uherský Brod
+lv;Uherski Broda;Uherský Brod
+hu;Magyarhradis;Uherské Hradiště
+ja;ウヘルスケー・フラジシチェ;Uherské Hradiště
+ru;Угерске-Градиште;Uherské Hradiště
+sr;Угарско Градиште;Uherské Hradiště
+zh;伏爾塔瓦河畔蒂恩;Týn nad Vltavou
+sr;Тин на Влтави;Týn nad Vltavou
+ru;Тин На Влтави;Týn nad Vltavou
+ru;Тварожна;Tvarožná
+bg;Турнов;Turnov
+ko;투르노프;Turnov
+lt;Turnovas;Turnov
+sr;Турнов;Turnov
+uk;Турнов;Turnov
+ru;Турнов;Turnov
+zh;图尔诺夫;Turnov
+cs;Brno-Tuřany;Tuřany
+ru;Трутнов;Trutnov
+sr;Трутнов;Trutnov
+tg;Трутнов;Trutnov
+ar;ترتنوف;Trutnov
+bg;Трутнов;Trutnov
+fa;تروتنو;Trutnov
+uk;Трутнов;Trutnov
+zh;特魯特諾夫;Trutnov
+be;Трутнаў;Trutnov
+lt;Trutnovas;Trutnov
+fa;ترشیسه;Tršice
+sr;Тршице;Tršice
+ru;Тршице;Tršice
+sr;Троубелице;Troubelice
+ru;Троубелице;Troubelice
+ru;Трнава;Trnava
+ru;Тршинец;Třinec
+sr;Тринец;Třinec
+fa;ترژینتس;Třinec
+zh;特日內茨;Třinec
+kk;Тршинец;Třinec
+lt;Tršinecas;Třinec
+lv;Tršineca;Třinec
+uk;Тршінец;Třinec
+sr;Трхове Свини;Trhové Sviny
+ru;Тргове-Свини;Trhové Sviny
+zh;特爾霍韋斯維尼;Trhové Sviny
+kk;Тржебонь;Třeboň
+pl;Trzeboń;Třeboň
+ru;Тршебонь;Třeboň
+zh;特熱邦;Třeboň
+sr;Требоњ;Třeboň
+ja;トシェビーチ;Třebíč
+ru;Тршебич;Třebíč
+sr;Требењице;Třebenice
+ru;Тршебенице;Třebenice
+zh;特熱貝尼采;Třebenice
+lv;Tovačova;Tovačov
+sr;Товачов;Tovačov
+ru;Товачов;Tovačov
+zh;托瓦喬夫;Tovačov
+sr;Тоужим;Toužim
+ru;Тоужим;Toužim
+zh;托烏日姆;Toužim
+ru;Тополна;Topolná
+cs;Topol (Chrudim);Topol
+zh;季什諾夫;Tišnov
+bg;Тишнов;Tišnov
+lv;Tišnova;Tišnov
+sr;Тишнов;Tišnov
+ru;Тишнов;Tišnov
+ja;テレジーン;Terezín
+ko;테레친;Terezín
+bg;Терезин;Terezín
+uk;Терезін;Terezín
+ru;Терезин;Terezín
+zh;泰雷津;Terezín
+kk;Терезин;Terezín
+sr;Терезин;Terezín
+pl;Cieplice;Teplice
+ru;Теплице;Teplice
+tg;Теплитсе;Teplice
+ka;ტეპლიცე;Teplice
+uk;Тепліце;Teplice
+he;טפליצה;Teplice
+bg;Теплице;Teplice
+sr;Теплице;Teplice
+fa;تپلیتسه;Teplice
+ko;테플리체;Teplice
+ja;テプリツェ;Teplice
+ar;تبليتسه;Teplice
+zh;特普利采;Teplice
+kk;Теплице;Teplice
+ru;Телнице;Telnice
+bg;Телч;Telč
+he;טלץ;Telč
+ja;テルチ;Telč
+ka;ტელჩი;Telč
+kk;Телч;Telč
+ko;텔치;Telč
+lt;Telčas;Telč
+sr;Телч;Telč
+uk;Тельч;Telč
+pl;Telcz;Telč
+ru;Тельч;Telč
+zh;泰尔奇;Telč
+be;Тэльч;Telč
+lv;Telča;Telč
+sr;Танвалд;Tanvald
+zh;坦瓦爾德;Tanvald
+ru;Танвалд;Tanvald
+el;Τάχοφ;Tachov
+lt;Tachovas;Tachov
+lv;Tahova;Tachov
+sr;Тахов;Tachov
+uk;Тахов;Tachov
+ru;Тахов;Tachov
+zh;塔霍夫;Tachov
+kk;Тахов;Tachov
+ar;تاخوف;Tachov
+be;Тахаў;Tachov
+ja;ターボル;Tábor
+ru;Табор;Tábor
+be;Табар;Tábor
+bg;Табор;Tábor
+fa;تابور;Tábor
+kk;Табор;Tábor
+ko;타보르;Tábor
+lt;Taboras;Tábor
+sr;Табор;Tábor
+tg;Табор;Tábor
+uk;Табор;Tábor
+zh;塔博尔;Tábor
+ar;تابور;Tábor
+hy;Տաբոր;Tábor
+ru;Сихров;Sychrov
+sr;Свратка;Svratka
+zh;斯夫拉特卡;Svratka
+ru;Свратка;Svratka
+sr;Својетин;Svojetín
+sr;Свитави;Svitavy
+ru;Свитави;Svitavy
+zh;斯維塔維;Svitavy
+kk;Свитави;Svitavy
+lv;Svitavi;Svitavy
+ru;Свитавка;Svitávka
+ru;Свинов;Svinov
+ja;スヴィノフ;Svinov
+cs;Švihov u Klatov;Švihov
+sr;Швихов;Švihov
+ru;Швигов;Švihov
+zh;什維霍夫;Švihov
+lv;Svetla pie Sāzavas;Světlá nad Sázavou
+sr;Свјетла на Сазави;Světlá nad Sázavou
+ru;Светла-над-Сазавоу;Světlá nad Sázavou
+zh;薩扎瓦河畔斯韋特拉;Světlá nad Sázavou
+ru;Сватый-Томаш;Svatý Tomáš
+sr;Свати Јан под Скалом;Svatý Jan pod Skalou
+ru;Сватава;Svatava
+ko;수시체;Sušice
+sr;Сушице;Sušice
+ru;Сушице;Sušice
+zh;蘇希采;Sušice
+ru;Шумперк;Šumperk
+tg;Шумперк;Šumperk
+ja;シュムペルク;Šumperk
+sr;Шумперк;Šumperk
+fa;شومپرک;Šumperk
+zh;順佩爾克;Šumperk
+kk;Шумперк;Šumperk
+lv;Šumperka;Šumperk
+ar;شومبيرك;Šumperk
+ko;슘페르크;Šumperk
+lt;Šumperkas;Šumperk
+cs;Sudoměřice;Sudoměřice u Tábora
+ru;Судков;Sudkov
+ru;Студенка;Studénka
+ru;Студена;Studená
+ru;Стрмилов;Strmilov
+uk;Штрібро;Stříbro
+ru;Стршибро;Stříbro
+zh;斯特日布羅;Stříbro
+sr;Стрибро;Stříbro
+sr;Страж под Ралском;Stráž pod Ralskem
+ru;Страж-под-Ральскем;Stráž pod Ralskem
+zh;斯特拉日尼采;Strážnice
+bg;Стражнице;Strážnice
+ko;스트라주니체;Strážnice
+sr;Стражњице;Strážnice
+ru;Стражнице;Strážnice
+sr;Страж на Нежарки;Stráž nad Nežárkou
+zh;內扎爾卡河畔斯特拉日;Stráž nad Nežárkou
+sr;Страшин;Strašín
+ru;Страни;Strání
+ru;Страконице;Strakonice
+fa;ستراکنیتسه;Strakonice
+kk;Страконице;Strakonice
+sr;Стракоњице;Strakonice
+tg;Страконитсе;Strakonice
+uk;Страконице;Strakonice
+zh;斯特拉科尼采;Strakonice
+ru;Стонава;Stonava
+sr;Штоки;Štoky
+ru;Штоки;Štoky
+sr;Стод;Stod
+ru;Стод;Stod
+zh;斯托德;Stod
+lv;Štīti;Štíty
+sr;Штити;Štíty
+zh;什蒂蒂;Štíty
+ru;Штити;Štíty
+tt;Штернов;Šternov
+ce;Штернов;Šternov
+sr;Штернберк;Šternberk
+zh;施滕貝克;Šternberk
+lv;Šternberka;Šternberk
+ru;Штернберк;Šternberk
+sr;Штјекењ;Štěkeň
+sr;Штјеховице;Štěchovice
+ru;Штеховице;Štěchovice
+sr;Статењице;Statenice
+ru;Статенице;Statenice
+sr;Стари Плзенец;Starý Plzenec
+ru;Стари-Пльзенец;Starý Plzenec
+zh;舊普爾澤內茨;Starý Plzenec
+sr;Старе Мјесто;Staré Město
+pl;Staré Město pod Sněžníkem;Staré Město
+zh;斯塔雷梅斯托;Staré Město
+ru;Старе-Место;Staré Město
+cs;Staré Kestřany;Kestřany
+sr;Стара Пака;Stará Paka
+ru;Стара Пака;Stará Paka
+cs;Dobev;Stará Dobev
+sr;Стањков;Staňkov
+ru;Станьков;Staňkov
+zh;斯塔尼科夫;Staňkov
+pl;Stanisłowice;Stanislavice
+sr;Штјахлави;Šťáhlavy
+sr;Срњи;Srní
+sr;Српска Камењица;Srbská Kamenice
+sr;Србеч;Srbeč
+pl;Szpindlerowy Młyn;Špindlerův Mlýn
+he;שפינדלרוב מלין;Špindlerův Mlýn
+ko;슈핀들레루프믈린;Špindlerův Mlýn
+lt;Špindlerūv Mlynas;Špindlerův Mlýn
+rue;Шпіндлерув Млин;Špindlerův Mlýn
+sr;Шпиндлерув Млин;Špindlerův Mlýn
+ru;Шпиндлерув-Млин;Špindlerův Mlýn
+zh;什平德萊魯夫姆林;Špindlerův Mlýn
+ko;소콜로프;Sokolov
+ru;Соколов;Sokolov
+fa;سکلو;Sokolov
+bg;Соколов;Sokolov
+sr;Соколов;Sokolov
+be;Сокалаў;Sokolov
+tg;Соколов;Sokolov
+zh;索科洛夫;Sokolov
+kk;Соколов;Sokolov
+uk;Соколов;Sokolov
+ar;سوكولوف;Sokolov
+lt;Sokolovas;Sokolov
+ru;Соботка;Sobotka
+sr;Соботин;Sobotín
+ru;Соботин;Sobotín
+tt;Собетухи;Sobětuchy
+ce;Собетухи;Sobětuchy
+ru;Собеслав;Soběslav
+zh;索別斯拉夫;Soběslav
+sr;Собјеслав;Soběslav
+sr;Смиржице;Smiřice
+zh;斯米日采;Smiřice
+ru;Смиржице;Smiřice
+sr;Слушовице;Slušovice
+zh;斯盧紹維采;Slušovice
+ru;Слушовице;Slušovice
+sr;Шлукнов;Šluknov
+ru;Шлукнов;Šluknov
+zh;什盧克諾夫;Šluknov
+lv;Morkovice-Slīžani;Morkovice-Slížany
+sr;Морковице-Слижани;Morkovice-Slížany
+ru;Морковице-Слижани;Morkovice-Slížany
+zh;斯拉沃尼采;Slavonice
+lt;Slavonicės;Slavonice
+sr;Славоњице;Slavonice
+pl;Sławków;Slavkov u Brna
+he;סלאוקוב;Slavkov u Brna
+no;Austerlitz;Slavkov u Brna
+sv;Austerlitz;Slavkov u Brna
+ru;Славков-у-Брна;Slavkov u Brna
+lt;Slavkovas prie Brno;Slavkov u Brna
+sr;Славков у Брна;Slavkov u Brna
+ko;슬라브코프우브르나;Slavkov u Brna
+ja;スラフコフ・ウ・ブルナ;Slavkov u Brna
+bg;Славков край Бърно;Slavkov u Brna
+uk;Славков-у-Брна;Slavkov u Brna
+zh;布尔诺附近斯拉夫科夫;Slavkov u Brna
+kk;Славков-у-Брна;Slavkov u Brna
+lv;Slavkova pie Brno;Slavkov u Brna
+ru;Славков;Slavkov
+zh;斯拉維欽;Slavičín
+lv;Slavičīna;Slavičín
+sr;Славичин;Slavičín
+ru;Славичин;Slavičín
+cs;Brno-Slatina;Slatina
+ru;Слатина;Slatina
+sr;Слапи;Slapy
+ru;Шлапанице;Šlapanice
+bg;Шлапанице;Šlapanice
+sr;Шлапањице;Šlapanice
+zh;什拉帕尼采;Šlapanice
+sr;Слани;Slaný
+ru;Слани;Slaný
+sr;Слапце;Slabce
+lv;Skuteča;Skuteč
+sr;Скутеч;Skuteč
+ru;Скутеч;Skuteč
+zh;斯庫泰奇;Skuteč
+ru;Скална;Skalná
+ru;Сепеков;Sepekov
+ru;Седлец;Sedlec
+uk;Седліце;Sedlec
+ru;Седльчани;Sedlčany
+zh;塞德爾恰尼;Sedlčany
+sr;Седлчани;Sedlčany
+ru;Сазава;Sázava
+sr;Садска;Sadská
+zh;薩德斯卡;Sadská
+ru;Садска;Sadská
+sr;Садова;Sadová
+pl;Sadowa;Sadová
+ru;Садова;Sadová
+zh;萨多瓦;Sadová
+ru;Садов;Sadov
+lv;Rīmaržova;Rýmařov
+sr;Римаржов;Rýmařov
+zh;里馬若夫;Rýmařov
+ru;Римаржов;Rýmařov
+tt;Ржихтаржов;Rychtářov
+ce;Ржихтаржов;Rychtářov
+ru;Рыхтаржов;Rychtářov
+sr;Рихнов на Књежној;Rychnov nad Kněžnou
+ru;Рихнов-над-Кнежноу;Rychnov nad Kněžnou
+ar;ريخنوف ناد كنيجنو;Rychnov nad Kněžnou
+lt;Richnovas prie Knežnos;Rychnov nad Kněžnou
+sr;Ружова;Růžová
+sr;Румбурк;Rumburk
+ru;Румбурк;Rumburk
+zh;倫布爾克;Rumburk
+sr;Рудолфов;Rudolfov
+zh;魯多爾福夫;Rudolfov
+ru;Рудолфов;Rudolfov
+sr;Рудњик;Rudník
+ru;Рудник;Rudník
+ru;Рудна;Rudná
+sr;Ростоки;Roztoky
+ru;Розтоки;Roztoky
+zh;羅茲托基;Roztoky
+sr;Рожнов под Радхоштјем;Rožnov pod Radhoštěm
+ru;Рожнов-под-Радгоштем;Rožnov pod Radhoštěm
+lv;Rožnova pie Radhoštja;Rožnov pod Radhoštěm
+zh;羅烏西諾夫;Rousínov
+bg;Роусинов;Rousínov
+lv;Rousīnova;Rousínov
+sr;Роусинов;Rousínov
+ru;Роусинов;Rousínov
+kk;Роуднице-над-Лабем;Roudnice nad Labem
+sr;Роудњице на Лаби;Roudnice nad Labem
+ru;Роуднице-над-Лабем;Roudnice nad Labem
+zh;拉貝河畔羅烏德尼采;Roudnice nad Labem
+ru;Ротава;Rotava
+rue;Росіце;Rosice
+ru;Росице;Rosice
+zh;羅西采;Rosice
+bg;Росице;Rosice
+sr;Росице;Rosice
+sr;Рокицани;Rokycany
+ru;Рокицани;Rokycany
+zh;羅基察尼;Rokycany
+kk;Рокицани;Rokycany
+ar;روكيتساني;Rokycany
+lt;Rokicanai;Rokycany
+sr;Ричани;Říčany
+ru;Ржичани;Říčany
+zh;日恰尼;Říčany
+cs;Říčany u Brna;Říčany
+cs;Brno-Řečkovice a Mokrá Hora;Řečkovice
+sr;Распенава;Raspenava
+ru;Распенава;Raspenava
+zh;拉斯佩納瓦;Raspenava
+sr;Рапотин;Rapotín
+ru;Рапотин;Rapotín
+ru;Раковник;Rakovník
+lv;Rajhrada;Rajhrad
+sr;Рајхрад;Rajhrad
+zh;賴赫拉德;Rajhrad
+lv;Rājeca-Jestršebi;Rájec-Jestřebí
+sr;Рајец-Јестреби;Rájec-Jestřebí
+zh;拉耶茨-耶斯特熱比;Rájec-Jestřebí
+ru;Радвановце;Radvánovice
+ru;Радслав;Radslav
+ru;Радотин;Radotín
+sr;Радомишл;Radomyšl
+ru;Радомишл;Radomyšl
+sr;Радњице;Radnice
+ru;Раднице;Radnice
+zh;拉德尼采;Radnice
+cs;Radčice (Skuteč);Radčice
+sr;Раби;Rabí
+zh;拉比城堡;Rabí
+tt;Пудлов;Pudlov
+ce;Пудлов;Pudlov
+uk;Пудлов;Pudlov
+pl;Pudłów;Pudlov
+ru;Птени;Ptení
+sr;Пшов;Pšov
+sr;Противин;Protivín
+ru;Противин;Protivín
+zh;普羅蒂溫;Protivín
+ru;Противанов;Protivanov
+pl;Prościejów;Prostějov
+ru;Простейов;Prostějov
+ko;프로스테요프;Prostějov
+sr;Простјејов;Prostějov
+lt;Prostejovas;Prostějov
+uk;Простейов;Prostějov
+fa;پرستیه‌یو;Prostějov
+he;פרוסטיוב;Prostějov
+ru;Простеёв;Prostějov
+zh;普羅斯捷約夫;Prostějov
+ja;プロスチェヨフ;Prostějov
+kk;Простеёв;Prostějov
+lv;Prostejova;Prostějov
+th;ปรอสเตียยอฟ;Prostějov
+ar;بروستيوف;Prostějov
+ur;پروستیو;Prostějov
+sr;Примда;Přimda
+ru;Пршимда;Přimda
+zh;普日姆達;Přimda
+lv;Pršibislava;Přibyslav
+sr;Прибислав;Přibyslav
+tg;Пршибислав;Přibyslav
+ru;Пршибислав;Přibyslav
+zh;普日比斯拉夫;Přibyslav
+pl;Przybram;Příbram
+ru;Пршибрам;Příbram
+uk;Пршибрам;Příbram
+sr;Пшибрам;Příbram
+lt;Pršybramas;Příbram
+tg;Пршибрам;Příbram
+fa;پرژیبرام;Příbram
+zh;普日布拉姆;Příbram
+kk;Пршибрам;Příbram
+ko;프르지브람;Příbram
+ar;بشيبرام;Příbram
+be;Пршыбар;Příbor
+bg;Пршибор;Příbor
+el;Πρίμπορ;Příbor
+lv;Pršībora;Příbor
+sr;Прибор;Příbor
+ru;Пршибор;Příbor
+zh;普日博尔;Příbor
+sr;Прештице;Přeštice
+ru;Пршештице;Přeštice
+zh;普熱什季采;Přeštice
+sr;Преров на Лаби;Přerov nad Labem
+tg;Пршеров над Лабем;Přerov nad Labem
+ru;Пршеров-над-Лабем;Přerov nad Labem
+pl;Przerów;Přerov
+ru;Преров;Přerov
+bg;Пршеров;Přerov
+fa;پرژرو;Přerov
+ja;プルジェロフ;Přerov
+ka;პრშეროვი;Přerov
+kk;Пршеров;Přerov
+ko;프르제로프;Přerov
+lv;Pršerova;Přerov
+sr;Пшеров;Přerov
+uk;Пршеров;Přerov
+ru;Пршеров;Přerov
+zh;普熱羅夫;Přerov
+ar;برشيروف;Přerov
+lt;Pršerovas;Přerov
+ur;پژیرو;Přerov
+sr;Пребуз;Přebuz
+ru;Пршебуз;Přebuz
+sr;Прашили;Prášily
+ar;براغ;Praha
+be;Прага;Praha
+bg;Прага;Praha
+bs;Prag;Praha
+ca;Praga;Praha
+csb;Praga;Praha
+cy;Prâg;Praha
+da;Prag;Praha
+eu;Praga;Praha
+ga;Prág;Praha
+gl;Praga;Praha
+he;פראג;Praha
+hr;Prag;Praha
+hu;Prága;Praha
+is;Prag;Praha
+ka;პრაღა;Praha
+ko;프라하;Praha
+lv;Prāga;Praha
+os;Прагæ;Praha
+pl;Praga;Praha
+ro;Praga;Praha
+ru;Прага;Praha
+sl;Praga;Praha
+sr;Праг;Praha
+sv;Prag;Praha
+tl;Prague;Praha
+tr;Prag;Praha
+uk;Прага;Praha
+zh;布拉格;Praha
+ja;プラハ;Praha
+el;Πράγα;Praha
+fa;پراگ;Praha
+ug;پراگا;Praha
+gd;Pràg;Praha
+oc;Praga;Praha
+sq;Praga;Praha
+tg;Прага;Praha
+th;ปราก;Praha
+am;ፕራግ;Praha
+bo;པུ་ལ་ཁེ;Praha
+ku;Prag;Praha
+bn;প্রাগ;Praha
+hy;Պրահա;Praha
+sr;Прахатице;Prachatice
+ru;Прахатице;Prachatice
+zh;普拉哈季采;Prachatice
+ar;براخاتيتسه;Prachatice
+be;Прахаціцы;Prachatice
+ru;Праце;Prace
+sr;Позоржице;Pozořice
+ru;Позоржице;Pozořice
+sr;Позловице;Pozlovice
+ru;Позловице;Pozlovice
+sr;Потштејн;Potštejn
+lv;Potštāta;Potštát
+zh;波特施塔特;Potštát
+sr;Потштат;Potštát
+ru;Потштат;Potštát
+sr;Постреков;Postřekov
+ru;Постреков;Postřekov
+ru;Постолопрти;Postoloprty
+zh;波斯托洛普蒂;Postoloprty
+sr;Постолопрти;Postoloprty
+ru;Поникла;Poniklá
+sr;Помези на Охри;Pomezí nad Ohří
+ru;Помези;Pomezí
+ru;Польна;Polná
+zh;波爾納;Polná
+sr;Полна;Polná
+zh;波利奇卡;Polička
+sr;Поличка;Polička
+ru;Поличка;Polička
+uk;Поліце-над-Метуї;Police nad Metují
+zh;梅圖耶河畔波利采;Police nad Metují
+sr;Полице на Метуји;Police nad Metují
+zh;波霍熱利采;Pohořelice
+lv;Pohorželice;Pohořelice
+sr;Похоржелице;Pohořelice
+ru;Погоржелице;Pohořelice
+ru;Подоли;Podolí
+ru;Подивин;Podivín
+lt;Podebradai;Poděbrady
+sr;Подјебради;Poděbrady
+uk;Подєбради;Poděbrady
+pl;Podiebrady;Poděbrady
+ru;Подебрады;Poděbrady
+zh;波傑布拉迪;Poděbrady
+kk;Подебради;Poděbrady
+hy;Պոդեբրադի;Poděbrady
+ru;Подборжани;Podbořany
+zh;波德博扎尼;Podbořany
+sr;Подборжани;Podbořany
+lv;Počātki;Počátky
+sr;Початки;Počátky
+ru;Початки;Počátky
+zh;波恰特基;Počátky
+ru;Побежовице;Poběžovice
+zh;波別若維采;Poběžovice
+sr;Побјежовице;Poběžovice
+ar;بلزن;Plzeň
+bg;Пилзен;Plzeň
+ja;プルゼニ;Plzeň
+ko;플젠;Plzeň
+lt;Pilzenas;Plzeň
+pl;Pilzno;Plzeň
+sr;Плзен;Plzeň
+ru;Пльзень;Plzeň
+el;Πίλσεν;Plzeň
+be;Пльзень;Plzeň
+el;Πίλζεν;Plzeň
+lv;Plzeņa;Plzeň
+sr;Плзењ;Plzeň
+th;เปิลเซน;Plzeň
+he;פילזן;Plzeň
+uk;Пльзень;Plzeň
+eu;Pilsen;Plzeň
+ka;პლზენი;Plzeň
+fa;پلزن;Plzeň
+tg;Плзен;Plzeň
+mr;पेलजाईन;Plzeň
+jv;Pilzno;Plzeň
+ps;پلزن;Plzeň
+mk;П’лзењ;Plzeň
+vi;Pilsen;Plzeň
+zh;比尔森;Plzeň
+ce;Пльзень;Plzeň
+kk;Пльзень;Plzeň
+tr;Pilsen;Plzeň
+uz;Pilsen;Plzeň
+ky;Пильзень;Plzeň
+ms;Pilsen;Plzeň
+hi;पिल्सन;Plzeň
+bn;পিলসেন;Plzeň
+ur;پلسن;Plzeň
+am;ፒልሰን;Plzeň
+ha;Pilsen;Plzeň
+om;Pilsen;Plzeň
+pa;ਪਿਲਸੇਨ;Plzeň
+so;Pilsen;Plzeň
+sw;Pilsen;Plzeň
+tt;Пильзень;Plzeň
+ru;Плумлов;Plumlov
+ru;Плесна;Plesná
+sr;Пласи;Plasy
+ru;Пласи;Plasy
+zh;普拉西;Plasy
+sr;Плањице;Plánice
+ru;Планице;Plánice
+zh;普拉尼采;Plánice
+ru;Плана;Planá
+zh;普拉納;Planá
+sr;Плана;Planá
+ru;Писек;Písek
+fa;پیسک;Písek
+sr;Писек;Písek
+ja;ピーセク;Písek
+ko;피세크;Písek
+uk;Пісек;Písek
+bg;Писек;Písek
+zh;皮塞克;Písek
+kk;Писек;Písek
+lt;Pysekas;Písek
+ar;بيسك;Písek
+ru;Пилников;Pilníkov
+pl;Piotrowice koło Karwiny;Petrovice u Karviné
+ru;Петров;Petrov
+sr;Петрохрад;Petrohrad
+lt;Pec pod Snežkovas;Pec pod Sněžkou
+sr;Пец под Сњешком;Pec pod Sněžkou
+sr;Павловице у Прерову;Pavlovice u Přerova
+ru;Павлов;Pavlov
+sgs;Pavluovs;Pavlov
+sr;Павлов;Pavlov
+sr;Павликов;Pavlíkov
+ru;Павликов;Pavlíkov
+ru;Пасков;Paskov
+ru;Пасека;Paseka
+sr;Пардубице;Pardubice
+el;Παρντούμπιτσε;Pardubice
+ru;Пардубице;Pardubice
+lt;Pardubicės;Pardubice
+ja;パルドゥビツェ;Pardubice
+ko;파르두비체;Pardubice
+mk;Пардубице;Pardubice
+fa;پاردوبیتسه;Pardubice
+uk;Пардубице;Pardubice
+bg;Пардубице;Pardubice
+ka;პარდუბიცე;Pardubice
+tg;Пардубитсе;Pardubice
+az;Pardubitse;Pardubice
+ar;باردوبيتسه;Pardubice
+zh;帕尔杜比采;Pardubice
+ce;Пардубице;Pardubice
+he;פרדוביצה;Pardubice
+kk;Пардубице;Pardubice
+th;ปาร์ดูบีตเซ;Pardubice
+ur;پاردوبیتسے;Pardubice
+ky;Пардубице;Pardubice
+hi;पर्दुबिस;Pardubice
+bn;পার্ডুবিস;Pardubice
+am;ፓርዱቢሰ;Pardubice
+pa;ਪਾਰਡੂਬਿਸ;Pardubice
+ps;پاردوبیس;Pardubice
+tt;Пардубице;Pardubice
+sr;Паноши Ујезд;Panoší Újezd
+ru;Пацов;Pacov
+zh;帕佐夫;Pacov
+lv;Pacova;Pacov
+sr;Пацов;Pacov
+tt;Отриби;Otryby
+ce;Отриби;Otryby
+ru;Отрыбы;Otryby
+sr;Отроковице;Otrokovice
+zh;奧特羅科維采;Otrokovice
+ko;오트로코비체;Otrokovice
+ru;Отроковице;Otrokovice
+zh;奧斯拉瓦河畔奧斯特羅夫;Ostrov nad Oslavou
+sr;Островачице;Ostrovačice
+bg;Остров;Ostrov
+sr;Остров;Ostrov
+ru;Остров;Ostrov
+zh;奧斯特羅夫;Ostrov
+lt;Ostrovas;Ostrov
+ar;أوسترافا;Ostrava
+bg;Острава;Ostrava
+he;אוסטרבה;Ostrava
+ja;オストラヴァ;Ostrava
+ko;오스트라바;Ostrava
+pl;Ostrawa;Ostrava
+zh;俄斯特拉發;Ostrava
+sr;Острава;Ostrava
+el;Οστράβα;Ostrava
+ru;Острава;Ostrava
+zh;奥斯特拉瓦;Ostrava
+kk;Острава;Ostrava
+ky;Острава;Ostrava
+hi;ओस्त्रावा;Ostrava
+bn;ওস্ট্রাভা;Ostrava
+ur;اسٹراوا;Ostrava
+am;ኦስትራቫ;Ostrava
+fa;اوسترავا;Ostrava
+pa;ਓਸਤ੍ਰਾਵਾ;Ostrava
+ps;استرافا;Ostrava
+tg;Острава;Ostrava
+tt;Острава;Ostrava
+sr;Особлаха;Osoblaha
+pl;Osobłoga;Osoblaha
+ru;Особлага;Osoblaha
+zh;奧索布拉哈;Osoblaha
+bg;Ославани;Oslavany
+lv;Oslavani;Oslavany
+sr;Ославани;Oslavany
+zh;奧斯拉瓦尼;Oslavany
+ru;Ославани;Oslavany
+ru;Оскава;Oskava
+ru;Осик;Osík
+ru;Осек;Osek
+zh;奧塞克;Osek
+sr;Осек;Osek
+sr;Осечна;Osečná
+zh;奧塞奇納;Osečná
+ru;Осечна;Osečná
+sr;Орловице;Orlovice
+ru;Орлова;Orlová
+bg;Орлова;Orlová
+fa;ارلوا;Orlová
+sr;Орлова;Orlová
+zh;奧爾洛瓦;Orlová
+cs;Brno-Ořešín;Ořešín
+sr;Опочно;Opočno
+zh;奧波奇諾;Opočno
+ru;Опочно;Opočno
+pl;Opawa;Opava
+ru;Опава;Opava
+be;Опава;Opava
+mn;Опава;Opava
+uk;Опава;Opava
+tg;Опава;Opava
+ka;ოპავა;Opava
+sr;Опава;Opava
+ja;オパヴァ;Opava
+bg;Опава;Opava
+fa;اوپاوا;Opava
+ko;오파바;Opava
+zh;奥帕瓦;Opava
+kk;Опава;Opava
+ar;أوبافا;Opava
+tt;Опава;Opava
+ur;اوپاوا;Opava
+ru;Опатов;Opatov
+ru;Олови;Oloví
+ar;أولوموتس;Olomouc
+bg;Оломоуц;Olomouc
+ja;オロモウツ;Olomouc
+lt;Olomoucas;Olomouc
+pl;Ołomuniec;Olomouc
+ru;Оломоуц;Olomouc
+zh;奧洛穆克;Olomouc
+sr;Оломоуц;Olomouc
+hu;Olmütz;Olomouc
+lv;Olomouca;Olomouc
+mk;Оломоуц;Olomouc
+ka;ოლომოუცი;Olomouc
+th;ออลอโมตซ์;Olomouc
+ps;اولوموڅ;Olomouc
+ko;올로모우츠;Olomouc
+el;Όλομουτς;Olomouc
+be;Оламаўц;Olomouc
+fa;اولوموتس;Olomouc
+hi;ओलोमौक;Olomouc
+he;אולומואוץ;Olomouc
+uk;Оломоуц;Olomouc
+az;Olomouts;Olomouc
+tg;Оломоутс;Olomouc
+ce;Оломоуц;Olomouc
+kk;Оломоуц;Olomouc
+ur;اولوموک;Olomouc
+ky;Оломоуц;Olomouc
+bn;ওলোমোউক;Olomouc
+am;ኦሎሞውክ;Olomouc
+pa;ਓਲੋਮੋਉਕ;Olomouc
+tt;Оломоуц;Olomouc
+sr;Олешњице в Орлицких хорах;Olešnice v Orlických horách
+bg;Олешнице;Olešnice
+zh;奧萊什尼采;Olešnice
+sr;Олешњице;Olešnice
+ru;Олешнице;Olešnice
+pl;Oldrzyszów;Oldřišov
+sr;Нирско;Nýrsko
+ru;Нирско;Nýrsko
+zh;尼爾斯科;Nýrsko
+ru;Нимбурк;Nymburk
+hy;Նիմբուրկ;Nymburk
+kk;Нимбурк;Nymburk
+sr;Нимбурк;Nymburk
+zh;寧布爾克;Nymburk
+ar;نيمبورك;Nymburk
+cs;Brno-Nový Lískovec;Nový Lískovec
+sr;Нови Књин;Nový Knín
+zh;新克寧;Nový Knín
+sr;Нови Јахимов;Nový Jáchymov
+zh;新比焦夫;Nový Bydžov
+sr;Нови Биџов;Nový Bydžov
+lt;Novy Boras;Nový Bor
+sr;Нови Бор;Nový Bor
+ru;Нови-Бор;Nový Bor
+zh;新博爾;Nový Bor
+zh;新韋塞利;Nové Veselí
+ru;Нове-Страшеци;Nové Strašecí
+zh;新斯特拉謝齊;Nové Strašecí
+sr;Нове Страшеци;Nové Strašecí
+sr;Нове Мјесто под Смрком;Nové Město pod Smrkem
+ru;Нове-Место-под-Смркем;Nové Město pod Smrkem
+zh;斯姆爾克山麓新城;Nové Město pod Smrkem
+pl;Nowe Miasto nad Metują;Nové Město nad Metují
+zh;梅圖耶河畔新城;Nové Město nad Metují
+lt;Nove Mestas prie Metujės;Nové Město nad Metují
+sr;Нове Мјесто на Метуји;Nové Město nad Metují
+zh;新赫拉迪;Nové Hrady
+sr;Нове Хради;Nové Hrady
+ru;Нове-Гради;Nové Hrady
+sr;Нова Пака;Nová Paka
+ru;Нова-Пака;Nová Paka
+zh;新帕卡;Nová Paka
+zh;新比斯特日采;Nová Bystřice
+sr;Нова Бистрица;Nová Bystřice
+ru;Нова Бистрица;Nová Bystřice
+ru;Носислав;Nosislav
+ru;Невеклов;Neveklov
+zh;內托利采;Netolice
+sr;Нетолице;Netolice
+ru;Нетолице;Netolice
+sr;Несовице;Nesovice
+ru;Несовице;Nesovice
+sr;Нератовице;Neratovice
+zh;內拉托維采;Neratovice
+ru;Нератовице;Neratovice
+ru;Непомук;Nepomuk
+zh;内波穆克;Nepomuk
+be;Непамук;Nepomuk
+ko;네포무크;Nepomuk
+lt;Nepomukas;Nepomuk
+sr;Непомук;Nepomuk
+ru;Неначовице;Nenačovice
+el;Νελαχόζεβες;Nelahozeves
+sr;Нелахозевес;Nelahozeves
+ru;Нелагозевес;Nelahozeves
+ru;Нейдек;Nejdek
+zh;內代克;Nejdek
+sr;Нејдек;Nejdek
+lt;Nechanicės;Nechanice
+sr;Нехањице;Nechanice
+zh;內哈尼采;Nechanice
+ru;Навси;Návsí
+zh;納帕耶德拉;Napajedla
+sr;Напаједла;Napajedla
+ru;Накло;Náklo
+sr;Мутјејовице;Mutějovice
+pl;Muglinów;Muglinov
+sr;Мшецке Жехровице;Mšecké Žehrovice
+sr;Мшец;Mšec
+ru;Мратин;Mratín
+ru;Мраков;Mrákov
+cs;Mosty;Mosty u Českého Těšína
+pl;Mosty koło Cieszyna;Mosty u Českého Těšína
+ru;Мостек;Mostek
+ru;Мост;Most
+bg;Моравски Крумлов;Moravský Krumlov
+lv;Moravski Krumlova;Moravský Krumlov
+sr;Моравски Крумлов;Moravský Krumlov
+ru;Моравски-Крумлов;Moravský Krumlov
+lv;Moravski Berouna;Moravský Beroun
+sr;Моравски Бероун;Moravský Beroun
+zh;摩拉瓦貝龍;Moravský Beroun
+ru;Моравски Бероун;Moravský Beroun
+ko;모라프스케부데요비체;Moravské Budějovice
+sr;Моравске Будјејовице;Moravské Budějovice
+pl;Morawskie Budziejowice;Moravské Budějovice
+ru;Моравске-Будеёвице;Moravské Budějovice
+zh;摩拉瓦布傑約維采;Moravské Budějovice
+lv;Moravska Tršebova;Moravská Třebová
+sr;Моравска Требова;Moravská Třebová
+ru;Моравска-Тршебова;Moravská Třebová
+zh;摩拉瓦特熱博瓦;Moravská Třebová
+be;Мораўска-Тршэбава;Moravská Třebová
+ru;Моравка;Morávka
+sr;Молдава;Moldava
+zh;莫海爾尼采;Mohelnice
+sr;Мохелњице;Mohelnice
+lv;Modržice;Modřice
+sr;Модрице;Modřice
+zh;莫德日采;Modřice
+ru;Модрице;Modřice
+sr;Модрава;Modrava
+sr;Мњишек под Брдом;Mníšek pod Brdy
+ru;Мнишек-под-Брди;Mníšek pod Brdy
+ja;ムニホヴォ・フラジシチェ;Mnichovo Hradiště
+ru;Мнихово-Градиште;Mnichovo Hradiště
+kk;Мнихово Градиште;Mnichovo Hradiště
+zh;慕尼黑城堡;Mnichovo Hradiště
+sr;Мњихово Храдиште;Mnichovo Hradiště
+ru;Млада-Болеслав;Mladá Boleslav
+pl;Mizerów;Mizerov
+ru;Мировице;Mirovice
+zh;米羅維采;Mirovice
+sr;Мировице;Mirovice
+sr;Миротице;Mirotice
+ru;Миротице;Mirotice
+zh;米羅季采;Mirotice
+ru;Мирослав;Miroslav
+sr;Мимоњ;Mimoň
+uk;Мімонь;Mimoň
+ru;Мимонь;Mimoň
+zh;米蒙;Mimoň
+ru;Милин;Milín
+ru;Миликов;Milíkov
+ru;Милевско;Milevsko
+zh;米萊夫斯科;Milevsko
+sr;Милевско;Milevsko
+lt;Miletynas;Miletín
+sr;Милетин;Miletín
+zh;米萊廷;Miletín
+hu;Nikolsburg;Mikulov
+ja;ミクロフ;Mikulov
+uk;Мікулов;Mikulov
+tr;Nikolsburg;Mikulov
+he;מיקולוב;Mikulov
+bg;Микулов;Mikulov
+ru;Микулов;Mikulov
+zh;米庫洛夫;Mikulov
+sgs;Mėkoluovs;Mikulov
+lv;Mikulova;Mikulov
+sr;Микулов;Mikulov
+zh;梅濟梅斯季;Meziměstí
+sr;Мезимјести;Meziměstí
+cs;Městys Bílá Voda;Bílá Voda
+sr;Мјесто Тоушков;Město Touškov
+ru;Место-Тоушков;Město Touškov
+zh;托烏什科夫城;Město Touškov
+ru;Тепла;Teplá
+sr;Мјестец Кралове;Městec Králové
+ru;Мерклин;Merklín
+fa;ملنیک;Mělník
+ru;Мельник;Mělník
+ru;Медлов;Medlov
+cs;Brno-Medlánky;Medlánky
+pl;Marcinów;Martinov
+pl;Mariańskie Łaźnie;Mariánské Lázně
+ja;マリアーンスケー・ラーズニェ;Mariánské Lázně
+ko;마리안스케라즈네;Mariánské Lázně
+sr;Маријанске Лазње;Mariánské Lázně
+uk;Маріанські Лазні;Mariánské Lázně
+ru;Марианске-Лазне;Mariánské Lázně
+zh;玛丽亚温泉市;Mariánské Lázně
+he;מריאנסקה לאזנייה;Mariánské Lázně
+kk;Марианске-Лазне;Mariánské Lázně
+hy;Մարիանսկե Լազնե;Mariánské Lázně
+lt;Marianske Laznės;Mariánské Lázně
+ru;Манетин;Manětín
+zh;馬涅廷;Manětín
+sr;Мањетин;Manětín
+cs;Brno-Maloměřice a Obřany;Maloměřice
+sr;Мала Морава;Malá Morava
+sr;Лисице;Lysice
+ru;Лисице;Lysice
+ru;Лиса-над-Лабем;Lysá nad Labem
+zh;拉貝河畔利薩;Lysá nad Labem
+sr;Лиса на Лаби;Lysá nad Labem
+ru;Лутин;Lutín
+sr;Лулеч;Luleč
+ru;Лулеч;Luleč
+ru;Луков;Lukov
+kk;Лугачовице;Luhačovice
+ru;Лугачовице;Luhačovice
+zh;盧哈喬維采;Luhačovice
+sr;Лухачовице;Luhačovice
+ru;Луби;Luby
+zh;盧比;Luby
+sr;Луби;Luby
+ja;ロヴォシツェ;Lovosice
+ru;Ловосице;Lovosice
+zh;洛沃西采;Lovosice
+sr;Ловосице;Lovosice
+kk;Лоуни;Louny
+sr;Лоуни;Louny
+ru;Лоуни;Louny
+zh;洛烏尼;Louny
+ar;لوني;Louny
+pl;Łąki;Louky
+ru;Лосина;Losiná
+ru;Лом;Lom
+sr;Ломњице;Lomnice
+ru;Локет;Loket
+zh;洛克特;Loket
+sr;Локет;Loket
+ru;Литвинов;Litvínov
+fa;لیتوینو;Litvínov
+lt;Litvynovas;Litvínov
+sr;Литвинов;Litvínov
+zh;利特威諾夫;Litvínov
+lv;Litovela;Litovel
+zh;利托韋爾;Litovel
+sr;Литовел;Litovel
+ru;Литовел;Litovel
+ja;リトミシュル;Litomyšl
+ka;ლიტომიშლი;Litomyšl
+kk;Литомышль;Litomyšl
+lt;Litomišlas;Litomyšl
+lv;Litomišla;Litomyšl
+sr;Litomišl;Litomyšl
+ru;Литомишль;Litomyšl
+zh;利托米什爾;Litomyšl
+fa;لیتومیشل;Litomyšl
+ko;리토미슐;Litomyšl
+pl;Litomierzyce;Litoměřice
+ru;Литомержице;Litoměřice
+ko;리토메르지체;Litoměřice
+ja;リトムニェジツェ;Litoměřice
+uk;Літомержіце;Litoměřice
+fa;لیتمیه‌رژیتسه;Litoměřice
+sr;Литомјержице;Litoměřice
+zh;利托梅日采;Litoměřice
+kk;Литомержице;Litoměřice
+ar;ليتوميريتسه;Litoměřice
+be;Літамержыцы;Litoměřice
+bg;Литомержице;Litoměřice
+lt;Litomeržicės;Litoměřice
+tt;Литице над Орлици;Litice nad Orlicí
+ce;Литице над Орлици;Litice nad Orlicí
+sr;Лишов;Lišov
+ru;Лишов;Lišov
+zh;利紹夫;Lišov
+cs;Brno-Starý Lískovec;Starý Lískovec
+cs;Brno-Líšeň;Líšeň
+ru;Липувка;Lipůvka
+ru;Липтал;Liptál
+ru;Липов;Lipov
+lv;Lipnīka pie Bečvas;Lipník nad Bečvou
+ru;Липник-над-Бечвоу;Lipník nad Bečvou
+zh;貝奇瓦河畔利普尼克;Lipník nad Bečvou
+he;ליפניק על הבצווה;Lipník nad Bečvou
+sr;Липњик на Бечви;Lipník nad Bečvou
+be;Ліпаны;Lipany
+ja;リパニ;Lipany
+ru;Липа;Lípa
+he;לידיצה;Lidice
+ru;Лидице;Lidice
+zh;利迪策;Lidice
+ar;ليديتشي;Lidice
+bg;Лидице;Lidice
+ja;リディツェ;Lidice
+ko;리디체;Lidice
+sr;Лидице;Lidice
+uk;Лідице;Lidice
+uz;Liditse;Lidice
+ru;Либоховице;Libochovice
+zh;利博霍維采;Libochovice
+bg;Либоховице;Libochovice
+sr;Либоховице;Libochovice
+lt;Libicė prie Cidlinos;Libice nad Cidlinou
+sr;Либице на Цидлини;Libice nad Cidlinou
+ru;Либице-над-Цидлиноу;Libice nad Cidlinou
+zh;齊德利納河畔利比采;Libice nad Cidlinou
+ar;ليبيريتس;Liberec
+bg;Либерец;Liberec
+lt;Liberecas;Liberec
+ru;Либерец;Liberec
+sr;Либерец;Liberec
+ka;ლიბერეცი;Liberec
+mk;Либерец;Liberec
+el;Λίμπερετς;Liberec
+ko;리베레츠;Liberec
+be;Ліберац;Liberec
+lv;Libereca;Liberec
+ja;リベレツ;Liberec
+az;Liberets;Liberec
+tg;Либеретс;Liberec
+uk;Ліберець;Liberec
+fa;لیبرتس;Liberec
+zh;利贝雷茨;Liberec
+ce;Либерец;Liberec
+he;ליברץ;Liberec
+kk;Либерец;Liberec
+uz;Liberets;Liberec
+hy;Լիբերեց;Liberec
+ur;لیبرتس;Liberec
+ky;Либерец;Liberec
+hi;लिबरेक;Liberec
+bn;লিবারেক;Liberec
+am;ሊበረክ;Liberec
+pa;ਲਿਬਰੇਕ;Liberec
+ps;لبریک;Liberec
+tt;Либерец;Liberec
+sr;Либа;Libá
+bg;Летовице;Letovice
+ru;Летовице;Letovice
+zh;萊托維采;Letovice
+sr;Летовице;Letovice
+ru;Летоград;Letohrad
+sr;Лешна;Lešná
+ru;Лешна;Lešná
+cs;Lešany (Skuteč);Lešany
+sgs;Lednėcē;Lednice
+be;Ледніцы;Lednice
+ky;Леднице;Lednice
+ru;Леднице;Lednice
+ko;레드니체;Lednice
+sr;Ледњице;Lednice
+zh;萊德尼采;Lednice
+lv;Ledeča pie Sāzavas;Ledeč nad Sázavou
+sr;Ледеч на Сазави;Ledeč nad Sázavou
+zh;薩扎瓦河畔萊代奇;Ledeč nad Sázavou
+ru;Ледеч На Сазави;Ledeč nad Sázavou
+sr;Лазње Кинжварт;Lázně Kynžvart
+uk;Лазне-Кінжварт;Lázně Kynžvart
+ru;Лазне-Кинжварт;Lázně Kynžvart
+zh;金日瓦特礦泉鎮;Lázně Kynžvart
+cs;Lažany (Skuteč);Lažany
+kk;Ланшкроун;Lanškroun
+lv;Lanškrouna;Lanškroun
+sr;Ланшкроун;Lanškroun
+ru;Ланшкроун;Lanškroun
+zh;蘭什克龍;Lanškroun
+ru;Лаговице;Lahovice
+ru;Ладна;Ladná
+sr;Киншперк на Охри;Kynšperk nad Ohří
+ru;Киншперк-над-Огржи;Kynšperk nad Ohří
+zh;奧赫熱河畔金什佩爾克;Kynšperk nad Ohří
+sr;Кијов;Kyjov
+uk;Кийов;Kyjov
+zh;基約夫;Kyjov
+lv;Kijova;Kyjov
+ko;쿠트나호라;Kutná Hora
+ru;Кутна-Гора;Kutná Hora
+zh;库特纳霍拉;Kutná Hora
+sr;Кутна Гора;Kutná Hora
+uk;Кутна Гора;Kutná Hora
+fa;کوتنا هرا;Kutná Hora
+bg;Кутна Хора;Kutná Hora
+he;קוטנה הורה;Kutná Hora
+ka;კუტნა-ჰორა;Kutná Hora
+ja;クトナー・ホラ;Kutná Hora
+kk;Кутна-Гора;Kutná Hora
+ar;كوتنا هورا;Kutná Hora
+be;Кутна-Гора;Kutná Hora
+sr;Куржим;Kuřim
+zh;庫日姆;Kuřim
+lv;Kuržima;Kuřim
+ru;Куржим;Kuřim
+sgs;Kurdejuovs;Kurdějov
+sr;Курдјејов;Kurdějov
+ru;Кунвалд;Kunvald
+bg;Кунщат;Kunštát
+zh;昆什塔特;Kunštát
+lv;Kunštāta;Kunštát
+sr;Кунштат;Kunštát
+sr;Куновице;Kunovice
+ru;Куновице;Kunovice
+zh;庫諾維采;Kunovice
+ru;Кунин;Kunín
+pl;Kończyce Wielkie;Kunčice
+ru;Крушовице;Krušovice
+sr;Крушовице;Krušovice
+be;Крупка;Krupka
+sr;Крупка;Krupka
+ru;Крупка;Krupka
+zh;克魯普卡;Krupka
+sr;Кртомил;Křtomil
+sr;Кртини;Křtiny
+ru;Крштины;Křtiny
+pl;Kromieryż;Kroměříž
+lt;Kromeržyžas;Kroměříž
+ru;Кромнержиж;Kroměříž
+sr;Кромјержиж;Kroměříž
+fa;کرمیه‌رژیژ;Kroměříž
+ko;크로메르지시;Kroměříž
+ru;Кромержиж;Kroměříž
+zh;克罗梅日什;Kroměříž
+ar;كروميشريش;Kroměříž
+ky;Кромержиж;Kroměříž
+lv;Kromeržīža;Kroměříž
+uk;Кромержиж;Kroměříž
+ru;Крнов;Krnov
+sr;Крнов;Krnov
+tg;Крнов;Krnov
+ko;크르노프;Krnov
+fa;کرنو;Krnov
+pl;Karniów;Krnov
+zh;克爾諾夫;Krnov
+lv;Krnova;Krnov
+bg;Кърнов;Krnov
+lt;Krnovas;Krnov
+uk;Крнов;Krnov
+ru;Крмелин;Krmelín
+ru;Кршивоклат;Křivoklát
+sr;Кривоклат;Křivoklát
+sr;Кринец;Křinec
+ru;Кринец;Křinec
+sr;Кримов;Křimov
+sr;Красни Двур;Krásný Dvůr
+sr;Красна Липа;Krásná Lípa
+ru;Красна-Липа;Krásná Lípa
+sr;Красна;Krásná
+bg;Краслице;Kraslice
+ru;Краслице;Kraslice
+zh;克拉斯利采;Kraslice
+sr;Краслице;Kraslice
+zh;王宮村;Králův Dvůr
+sr;Кралув Двур;Králův Dvůr
+ru;Кралув-Двур;Králův Dvůr
+kk;Кралупи;Kralupy nad Vltavou
+ko;크랄루피나트블타보우;Kralupy nad Vltavou
+sr;Кралупи на Влтави;Kralupy nad Vltavou
+uk;Кралупи-на-Влтаві;Kralupy nad Vltavou
+pl;Kralupy nad Wełtawą;Kralupy nad Vltavou
+ru;Кралупи-над-Влтавоу;Kralupy nad Vltavou
+cs;Brno-Královo Pole;Královo Pole
+ru;Краловице;Kralovice
+zh;克拉洛維采;Kralovice
+sr;Краловице;Kralovice
+sr;Краловец;Královec
+lv;Krālīki;Králíky
+ru;Кралики;Králíky
+zh;克拉利基;Králíky
+sr;Кралики;Králíky
+bg;Кожлани;Kožlany
+sr;Кожлани;Kožlany
+ru;Кожлани;Kožlany
+zh;科日拉尼;Kožlany
+ru;Коваловице;Kovalovice
+sr;Коунов;Kounov
+sr;Костелец на Орлици;Kostelec nad Orlicí
+ru;Костелец-над-Орлици;Kostelec nad Orlicí
+zh;奧爾利采河畔科斯泰萊茨;Kostelec nad Orlicí
+sr;Космоноси;Kosmonosy
+ru;Космоноси;Kosmonosy
+zh;科斯莫諾西;Kosmonosy
+lv;Koričani;Koryčany
+sr;Коричани;Koryčany
+zh;科日恰尼;Koryčany
+ru;Коричани;Koryčany
+ru;Корнице;Kornice
+uk;Корніце;Kornice
+ru;Копршивницах;Kopřivnice
+bg;Копршивнице;Kopřivnice
+fa;کپرژیونیتسه;Kopřivnice
+ko;코프르지브니체;Kopřivnice
+lt;Kopršivnicės;Kopřivnice
+lv;Kopršivnice;Kopřivnice
+sr;Копривњице;Kopřivnice
+uk;Копрживніце;Kopřivnice
+ru;Копршивнице;Kopřivnice
+zh;科普日夫尼采;Kopřivnice
+sr;Копидлно;Kopidlno
+zh;科皮德爾諾;Kopidlno
+ru;Копидлно;Kopidlno
+ru;Конописте;Konopiště
+ru;Конопиште;Konopiště
+ru;Конепрусы;Koněprusy
+cs;Brno-Komín;Komín
+ru;Комин;Komín
+ru;Комаров;Komárov
+sr;Коловеч;Koloveč
+sr;Колинец;Kolinec
+ru;Колинец;Kolinec
+ru;Колин;Kolín
+ja;コリーン;Kolín
+tg;Колин;Kolín
+sr;Колин;Kolín
+ar;كولين;Kolín
+fa;کلین;Kolín
+ko;콜린;Kolín
+zh;科林;Kolín
+kk;Колин;Kolín
+lt;Kolynas;Kolín
+bg;Колин;Kolín
+sr;Колешовице;Kolešovice
+uk;Койковіце;Kojkovice
+pl;Kojkowice;Kojkovice
+lv;Kojetīna;Kojetín
+ru;Коетин;Kojetín
+zh;科耶廷;Kojetín
+sr;Којетин;Kojetín
+cs;Brno-Kohoutovice;Kohoutovice
+sgs;Kuobīlē;Kobylí
+sr;Кобили;Kobylí
+ru;Кобили;Kobylí
+cs;Brno-Kníničky;Kníničky
+zh-Hant;寫作村;Kněžice
+sr;Клини;Klíny
+ru;Клатовы;Klatovy
+sr;Клатови;Klatovy
+fa;کلاتوی;Klatovy
+ru;Клатови;Klatovy
+zh;克拉托維;Klatovy
+ar;كلاتوفي;Klatovy
+lt;Klatovai;Klatovy
+sr;Клаштерец на Охри;Klášterec nad Ohří
+ru;Клаштерец-над-Огржи;Klášterec nad Ohří
+el;Κλάντνο;Kladno
+ru;Кладно;Kladno
+bg;Кладно;Kladno
+fa;کلادنو;Kladno
+ja;クラドノ;Kladno
+ka;კლადნო;Kladno
+kk;Кладно;Kladno
+ko;클라드노;Kladno
+lt;Kladnas;Kladno
+sr;Кладно;Kladno
+tg;Кладно;Kladno
+th;กลาดโน;Kladno
+uk;Кладно;Kladno
+zh;克拉德诺;Kladno
+ar;كلادنو;Kladno
+be;Кладна;Kladno
+ur;کلاندو;Kladno
+ru;Кельч;Kelč
+zh;凱爾奇;Kelč
+lv;Kelča;Kelč
+sr;Келч;Kelč
+sr;Кдиње;Kdyně
+ru;Кдине;Kdyně
+zh;克迪涅;Kdyně
+sr;Катовице;Katovice
+ru;Катовице;Katovice
+ka;კაშპერსკე-ჰორი;Kašperské Hory
+sr;Кашперске Хори;Kašperské Hory
+uk;Кашперське Гори;Kašperské Hory
+ru;Кашперске-Гори;Kašperské Hory
+zh;卡什佩尔斯凯霍里;Kašperské Hory
+ru;Карвина;Karviná
+sv;Fryštát;Karviná
+el;Φριστάτ;Karviná
+cs;Fryštát;Karviná
+sk;Fryštát;Karviná
+pl;Frysztat;Karviná
+ca;Fryštát;Karviná
+ru;Каролинка;Karolinka
+ru;Карлштейн;Karlštejn
+he;קרלובי וארי;Karlovy Vary
+ja;カルロヴィ・ヴァリ;Karlovy Vary
+ko;카를로비바리;Karlovy Vary
+lt;Karlovi Varai;Karlovy Vary
+pl;Karlowe Wary;Karlovy Vary
+ro;Karlsbad;Karlovy Vary
+sr;Карлови Вари;Karlovy Vary
+ru;Карловы Вары;Karlovy Vary
+sr;Карлове Вари;Karlovy Vary
+el;Κάρλοβι Βάρι;Karlovy Vary
+sk;Karlove Vary;Karlovy Vary
+tr;Karlsbad;Karlovy Vary
+uk;Карлові Вари;Karlovy Vary
+no;Karlsbad;Karlovy Vary
+az;Karlovı Varı;Karlovy Vary
+mk;Карлови Вари;Karlovy Vary
+ka;კარლოვი-ვარი;Karlovy Vary
+ps;کارلوی واری;Karlovy Vary
+be;Карлавы Вары;Karlovy Vary
+tg;Карлови Вари;Karlovy Vary
+fa;کارلووی واری;Karlovy Vary
+bg;Карлови Вари;Karlovy Vary
+zh;卡罗维发利;Karlovy Vary
+ar;كارلوفي فاري;Karlovy Vary
+ce;Карловы Вары;Karlovy Vary
+kk;Карлови-Вари;Karlovy Vary
+csb;Karlowé Warë;Karlovy Vary
+hy;Կառլովի Վարի;Karlovy Vary
+lv;Karlovi Vari;Karlovy Vary
+ur;کارلووی واری;Karlovy Vary
+ky;Карлови Вары;Karlovy Vary
+hi;कार्लोवी वेरी;Karlovy Vary
+bn;কার্লভি ভেরি;Karlovy Vary
+am;ካርሎቪ ቫሪ;Karlovy Vary
+pa;ਕਾਰਲੋਵੀ ਵੇਰੀ;Karlovy Vary
+tt;Карловы Вары;Karlovy Vary
+sr;Кардашова Речица;Kardašova Řečice
+ru;Кардашова-Ржечице;Kardašova Řečice
+zh;卡爾達紹瓦熱奇采;Kardašova Řečice
+sr;Каплице;Kaplice
+zh;卡普利采;Kaplice
+ru;Каплице;Kaplice
+zh;利帕河畔卡梅尼采;Kamenice nad Lipou
+lv;Kamenice Nadlipova;Kamenice nad Lipou
+sr;Камењице на Липи;Kamenice nad Lipou
+ru;Камен;Kámen
+sr;Камен;Kámen
+sr;Калек;Kalek
+ru;Кадань;Kadaň
+sr;Кадањ;Kadaň
+cs;Brno-Jundrov;Jundrov
+sr;Јивова;Jívová
+fa;ییرکو;Jirkov
+sr;Јирков;Jirkov
+ru;Йирков;Jirkov
+zh;伊尔科夫;Jirkov
+lt;Jirkovas;Jirkov
+sr;Јиржиков;Jiříkov
+ru;Йиржиков;Jiříkov
+zh;伊日科夫;Jiříkov
+sr;Јиржетин под Једловом;Jiřetín pod Jedlovou
+fa;ییندرژیخوو هرادتس;Jindřichův Hradec
+sr;Јиндрихов Градац;Jindřichův Hradec
+ru;Йиндржихув-Градец;Jindřichův Hradec
+zh;因德日赫城堡;Jindřichův Hradec
+kk;Йиндржихув Градец;Jindřichův Hradec
+ar;يندريخوف هرادتس;Jindřichův Hradec
+be;Йіндржыхуў-Градзец;Jindřichův Hradec
+bg;Индржихув Храдец;Jindřichův Hradec
+lt;Jindržichūv Hradecas;Jindřichův Hradec
+uk;Їндржихув-Градец;Jindřichův Hradec
+sr;Јиндриховице под Смрком;Jindřichovice pod Smrkem
+zh;伊姆拉莫夫;Jimramov
+sr;Јилемњице;Jilemnice
+ru;Йилемнице;Jilemnice
+zh;伊萊姆尼采;Jilemnice
+ru;Йиглава;Jihlava
+sr;Јиглава;Jihlava
+ar;جيهلافا;Jihlava
+kk;Йихлава;Jihlava
+ky;Йихлава;Jihlava
+hi;जिहलावा;Jihlava
+bn;জিহলাভা;Jihlava
+ur;جہلاوا;Jihlava
+am;ጂህላቫ;Jihlava
+fa;جیهلاوا;Jihlava
+ja;ジフラヴァ;Jihlava
+pa;ਜਿਹਲਾਵਾ;Jihlava
+ps;جہلاوا;Jihlava
+tg;Йихлава;Jihlava
+tt;Йихлава;Jihlava
+pl;Jiczyn;Jičín
+ru;Йичин;Jičín
+ja;イチーン;Jičín
+ko;이친;Jičín
+sr;Јичин;Jičín
+zh;伊钦;Jičín
+kk;Йичин;Jičín
+sr;Јевишовице;Jevišovice
+zh;耶維紹維采;Jevišovice
+zh;耶維奇科;Jevíčko
+sr;Јевичко;Jevíčko
+el;Γέσενι;Jesení
+sr;Јемњице;Jemnice
+ru;Емнице;Jemnice
+zh;耶姆尼采;Jemnice
+cs;Brno-Jehnice;Jehnice
+sr;Једовњице;Jedovnice
+lv;Javornīka;Javorník
+zh;亞沃爾尼克;Javorník
+sr;Јаворњик;Javorník
+lv;Jaromeržice pie Rokitnas;Jaroměřice nad Rokytnou
+sr;Јаромјержице на Рокитни;Jaroměřice nad Rokytnou
+zh;羅基特納河畔亞羅梅日采;Jaroměřice nad Rokytnou
+sr;Јаромјерж;Jaroměř
+ru;Яромерж;Jaroměř
+zh;亞羅梅日;Jaroměř
+lt;Jaromeržas;Jaroměř
+sr;Јанске Лазње;Janské Lázně
+pl;Jańskie Łaźnie;Janské Lázně
+ru;Янске-Лазне;Janské Lázně
+zh;揚斯凱拉茲涅;Janské Lázně
+sr;Јановице на Ухлави;Janovice nad Úhlavou
+zh;烏赫拉瓦河畔亞諾維采;Janovice nad Úhlavou
+uk;Яхимів;Jáchymov
+pl;Jachymów;Jáchymov
+ru;Яхимов;Jáchymov
+zh;亞希莫夫;Jáchymov
+ja;ヤーヒモフ;Jáchymov
+sr;Јахимов;Jáchymov
+bg;Яблунков;Jablunkov
+lv;Jablunkova;Jablunkov
+ru;Яблунков;Jablunkov
+zh;亞布倫科夫;Jablunkov
+sr;Јаблунков;Jablunkov
+ur;جبلنکوو;Jablunkov
+sr;Јаблоне в Подјештједи;Jablonné v Podještědí
+uk;Яблонне-в-Подєштеді;Jablonné v Podještědí
+ru;Яблонне-в-Подьештеди;Jablonné v Podještědí
+zh;耶什捷德山麓亞布隆內;Jablonné v Podještědí
+pl;Jablonec nad Nysą;Jablonec nad Nisou
+ko;야블로네츠나트니소우;Jablonec nad Nisou
+ru;Яблонец;Jablonec nad Nisou
+lt;Jablonecas prie Nisos;Jablonec nad Nisou
+cs;Brno-Ivanovice;Ivanovice
+bg;Ивановице на Хана;Ivanovice na Hané
+lv;Ivanovice pie Hanas;Ivanovice na Hané
+sr;Ивановице на Хани;Ivanovice na Hané
+bg;Иванчице;Ivančice
+zh;伊萬契采;Ivančice
+mk;Иванчице;Ivančice
+sr;Иванчице;Ivančice
+ru;Иванчице;Ivančice
+be;Гінчыцы;Hynčice
+ru;Гинчице;Hynčice
+hy;Հինչիգե;Hynčice
+zh-Hant;亨奇採;Hynčice
+ka;ჰინჩიცე;Hynčice
+zh;亨奇采;Hynčice
+ja;ヒンチツェ;Hynčice
+fa;هاینزندرف بای اودراو;Hynčice
+he;הינצ'יצה;Hynčice
+zh;胡斯托佩切;Hustopeče
+sgs;Hostuopečē;Hustopeče
+sr;Хустопече;Hustopeče
+ru;Хустопече;Hustopeče
+ru;Гурка;Hůrka
+sr;Хумполец;Humpolec
+zh;洪波萊茨;Humpolec
+lv;Humpoleca;Humpolec
+ru;Гумполец;Humpolec
+zh;胡林;Hulín
+lv;Hulīna;Hulín
+sr;Хулин;Hulín
+ru;Гулин;Hulín
+lv;Hrušovani pie Jevišovkas;Hrušovany nad Jevišovkou
+sr;Хрушовани на Јевишовки;Hrušovany nad Jevišovkou
+zh;耶維紹夫卡河畔赫魯紹瓦尼;Hrušovany nad Jevišovkou
+ru;Грушов;Hrušov
+pl;Gruszów;Hrušov
+zh-Hant;粗巖鎮;Hrubá Skála
+sr;Хренско;Hřensko
+ja;フラニツェ・ナ・モラヴィェ;Hranice
+uk;Границе;Hranice
+sr;Храњице;Hranice
+ru;Границе;Hranice
+zh;赫拉尼采;Hranice
+ko;흐라니체;Hranice
+lt;Hranicės;Hranice
+cs;Hradiště u Kasejovice;Hradiště
+pl;Gródek nad Nysą;Hrádek nad Nisou
+zh;尼斯河畔赫拉德克;Hrádek nad Nisou
+sr;Храдек на Ниси;Hrádek nad Nisou
+ru;Храдек На Ниси;Hrádek nad Nisou
+sr;Градац Кралове;Hradec Králové
+el;Χράντετς Κράλοβε;Hradec Králové
+ru;Градец Кралове;Hradec Králové
+ka;ჰრადეც-კრალოვე;Hradec Králové
+tg;Градетс-Кралове;Hradec Králové
+ko;흐라데츠크랄로베;Hradec Králové
+bg;Храдец Кралове;Hradec Králové
+uk;Градець-Кралове;Hradec Králové
+mk;Храдец Кралове;Hradec Králové
+th;ฮราเดตส์กราลอเว;Hradec Králové
+fa;هرادتس کرالووه;Hradec Králové
+ja;フラデツ・クラーロヴェー;Hradec Králové
+zh;赫拉德茨-克拉洛韦;Hradec Králové
+ce;Градец-Кралове;Hradec Králové
+kk;Градец-Кралове;Hradec Králové
+ar;هرادتس كرالوفه;Hradec Králové
+be;Градзец-Кралаве;Hradec Králové
+he;הראדץ קראלובה;Hradec Králové
+tt;Һрадец-Кралове;Hradec Králové
+ur;ہاردک کارلوف;Hradec Králové
+ky;Градец Кралове;Hradec Králové
+hi;हराडेक क्राओलवे;Hradec Králové
+bn;হ্রাডেক ক্রালোভে;Hradec Králové
+am;ሃራደክ ክራሎቬ;Hradec Králové
+pa;ਹ੍ਰਾਡੇਕ ਕ੍ਰਾਲੋਵੇ;Hradec Králové
+ps;ہریڈیک کراولو;Hradec Králové
+tt;Гостовице;Hostovice
+ce;Гостовице;Hostovice
+zh;霍斯廷內;Hostinné
+sr;Хостине;Hostinné
+ru;Гостинне;Hostinné
+ru;Горшовски-Тин;Horšovský Týn
+sr;Хоршовски Тин;Horšovský Týn
+sr;Хоржовички;Hořovičky
+fa;هورویتز;Hořovice
+he;הורוביץ;Hořovice
+sr;Хоржовице;Hořovice
+ru;Горжовице;Hořovice
+zh;霍若維采;Hořovice
+pl;Górne Cierlicko;Horní Těrlicko
+sr;Хорњи Суха;Horní Suchá
+pl;Sucha Górna;Horní Suchá
+sr;Хорњи Славков;Horní Slavkov
+ru;Горни-Славков;Horní Slavkov
+zh;上斯拉夫科夫;Horní Slavkov
+sr;Хорњи Плана;Horní Planá
+zh;上普拉納;Horní Planá
+sr;Хорњи Лидеч;Horní Lideč
+sr;Хорњи Јиржетин;Horní Jiřetín
+ru;Горни-Йиржетин;Horní Jiřetín
+zh;上伊熱廷;Horní Jiřetín
+lv;Horni Cerekeva;Horní Cerekev
+sr;Хорњи Церекев;Horní Cerekev
+zh;上采雷凱夫;Horní Cerekev
+sr;Хорњи Блатна;Horní Blatná
+ru;Горни-Блатна;Horní Blatná
+zh;上布拉特納;Horní Blatná
+sr;Хоржињевес;Hořiněves
+sr;Хоржички;Hořičky
+bg;Хоржице;Hořice
+lt;Horžicės;Hořice
+zh;霍日采;Hořice
+sr;Хоржице;Hořice
+ru;Хоржице;Hořice
+ru;Гораждёвице;Horažďovice
+zh;霍拉日焦維采;Horažďovice
+sr;Хораждјовице;Horažďovice
+sr;Хора Свате Катержини;Hora Svaté Kateřiny
+ru;Гора-Свате-Катержини;Hora Svaté Kateřiny
+sr;Хора Сватехо Шебестијана;Hora Svatého Šebestiána
+sr;Холишов;Holýšov
+ru;Голишов;Holýšov
+zh;霍利紹夫;Holýšov
+sr;Холешов;Holešov
+uk;Голешов;Holešov
+zh;霍萊紹夫;Holešov
+lv;Holešova;Holešov
+be;Голашавіцы;Holašovice
+bg;Холашовице;Holašovice
+he;הולשוביצה;Holašovice
+ja;ホラショヴィツェ;Holašovice
+ka;ჰოლაშოვიცე;Holašovice
+pl;Holaszowice;Holašovice
+ru;Голашовице;Holašovice
+zh;霍拉舍維采;Holašovice
+ru;Годонин;Hodonín
+lv;Hluka;Hluk
+sr;Хлук;Hluk
+ru;Глук;Hluk
+zh;赫盧克;Hluk
+bg;Хлучин;Hlučín
+lv;Hlučīna;Hlučín
+sr;Хлучин;Hlučín
+ru;Глучин;Hlučín
+zh;赫盧欽;Hlučín
+ru;Глубока-над-Влтавой;Hluboká nad Vltavou
+be;Глубока-над-Влтавай;Hluboká nad Vltavou
+zh;伏爾塔瓦河畔赫盧博卡;Hluboká nad Vltavou
+sr;Хлубока на Влтави;Hluboká nad Vltavou
+ru;Глубока-над-Влтавоу;Hluboká nad Vltavou
+sr;Хлубочки;Hlubočky
+ru;Хлубочки;Hlubočky
+sr;Хлинско;Hlinsko
+ru;Глинско;Hlinsko
+zh;赫林斯科;Hlinsko
+pl;Herzmanice;Heřmanice
+ru;Хельвиковице;Helvíkovice
+sr;Хазлов;Hazlov
+ru;Хазлов;Hazlov
+ru;Гавличкув-Брод;Havlíčkův Brod
+sr;Гавличков Брод;Havlíčkův Brod
+pl;Hawierzów;Havířov
+uk;Гавіршов;Havířov
+ru;Гавиржов;Havířov
+be;Гавіржаў;Havířov
+bg;Хавиржов;Havířov
+fa;هاویرژو;Havířov
+ja;ハヴィジョフ;Havířov
+ka;ჰავირჟოვი;Havířov
+kk;Гавиржов;Havířov
+ko;하비르조프;Havířov
+lt;Haviržovas;Havířov
+lv;Havīržova;Havířov
+sr;Хавиржов;Havířov
+th;ฮาเวียชอฟ;Havířov
+uk;Гавіржов;Havířov
+zh;哈维若夫;Havířov
+ar;هافروف;Havířov
+el;Χάβιροβ;Havířov
+ur;ہاوہروف;Havířov
+ko;하라호프;Harrachov
+lt;Harachovas;Harrachov
+ru;Гаррахов;Harrachov
+zh;哈拉霍夫;Harrachov
+sr;Харахов;Harrachov
+zh;哈努紹維采;Hanušovice
+sr;Ханушовице;Hanušovice
+ru;Ханушовице;Hanušovice
+el;Χάλζε;Halže
+et;Halže vald;Halže
+bg;Халже;Halže
+sr;Халже;Halže
+sr;Хабровани;Habrovany
+ru;Габартице;Habartice
+sk;Hrad Grabštejn;Grabštejn
+sr;Грабштејн;Grabštejn
+ru;Грабштейн;Grabštejn
+lv;Fulneka;Fulnek
+sr;Фулнек;Fulnek
+tg;Фулнек;Fulnek
+uk;Фульнек;Fulnek
+ru;Фульнек;Fulnek
+zh;富爾內克;Fulnek
+lv;Frištāka;Fryšták
+sr;Фриштак;Fryšták
+zh;弗里什塔克;Fryšták
+ru;Фриштак;Fryšták
+sr;Фримбурк;Frymburk
+ru;Фримбурк;Frymburk
+be;Фрыдлант-на-Остравіцы;Frýdlant nad Ostravicí
+lv;Frīdlanta pie Ostravices;Frýdlant nad Ostravicí
+sr;Фридлант на Остравици;Frýdlant nad Ostravicí
+pl;Frydlant nad Ostrawicą;Frýdlant nad Ostravicí
+ru;Фридлант-над-Остравици;Frýdlant nad Ostravicí
+zh;奧斯特拉維采河畔弗里德蘭特;Frýdlant nad Ostravicí
+kk;Фридлант;Frýdlant
+ru;Фридлант;Frýdlant
+sv;Frýdlant v Čechách;Frýdlant
+zh;弗里德蘭特;Frýdlant
+ka;ფრიდლანტი;Frýdlant
+sr;Фридлант;Frýdlant
+az;Fridek-Mistek;Frýdek-Místek
+bg;Фридек-Мистек;Frýdek-Místek
+fa;فریدک-میستک;Frýdek-Místek
+ja;フリーデク＝ミーステク;Frýdek-Místek
+ka;ფრიდეკ-მისტეკი;Frýdek-Místek
+kk;Фридек-Мистек;Frýdek-Místek
+ko;프리데크미스테크;Frýdek-Místek
+lt;Frydek Mystekas;Frýdek-Místek
+lv;Frīdekmīsteka;Frýdek-Místek
+sr;Фридек-Мистек;Frýdek-Místek
+th;ฟรีเดก-มีสเตก;Frýdek-Místek
+uk;Фрідек-Містек;Frýdek-Místek
+ru;Фридек-Мистек;Frýdek-Místek
+zh;弗里代克-米斯泰克;Frýdek-Místek
+ar;فريدك-ميستك;Frýdek-Místek
+be;Фрыдак-Містак;Frýdek-Místek
+tt;Фридек-Мистек;Frýdek-Místek
+ur;فریدک-میستک;Frýdek-Místek
+sr;Димокури;Dymokury
+ja;ドゥフツォフ;Duchcov
+ar;دشكوف;Duchcov
+ko;두호초프;Duchcov
+ru;Духцов;Duchcov
+zh;杜赫佐夫;Duchcov
+sr;Духцов;Duchcov
+ru;Дубне;Dubné
+ja;ドゥビー;Dubí
+ko;두비;Dubí
+sr;Дуби;Dubí
+ru;Дуби;Dubí
+zh;杜比;Dubí
+ru;Дуба;Dubá
+sr;Држов;Držov
+sgs;Drnhuolecos;Drnholec
+sr;Дрнхолец;Drnholec
+ru;Дрнхолец;Drnholec
+cs;Dřínov u Kroměříže;Dřínov
+sr;Древохостице;Dřevohostice
+ru;Древохостице;Dřevohostice
+ru;Драсов;Drásov
+sr;Доубравњик;Doubravník
+sr;Доубравице на Свитави;Doubravice nad Svitavou
+ru;Доубравице На Свитави;Doubravice nad Svitavou
+sr;Домашов на Бистрици;Domašov nad Bystřicí
+ru;Доманин;Domanín
+ko;돌니베스토니체;Dolní Věstonice
+sr;Долњи Вјестоњице;Dolní Věstonice
+sr;Долњи Расњице;Dolní Řasnice
+sr;Долњи Олешњице;Dolní Olešnice
+pl;Marklowice Dolne;Dolní Marklovice
+sr;Долњи Коуњице;Dolní Kounice
+zh;下科烏尼采;Dolní Kounice
+sr;Долњи Буковско;Dolní Bukovsko
+sr;Докси;Doksy
+ru;Доксы;Doksy
+zh;多克西;Doksy
+ru;Добронин;Dobronín
+sr;Добриш;Dobříš
+ru;Добржиш;Dobříš
+zh;多布日什;Dobříš
+sr;Добриховице;Dobřichovice
+ru;Добржиховице;Dobřichovice
+zh;多布日霍維采;Dobřichovice
+sr;Добрани;Dobřany
+ru;Добржани;Dobřany
+zh;多布扎尼;Dobřany
+ru;Добра;Dobrá
+cs;Dlouhá Lhota u Dobříše;Dlouhá Lhota
+pl;Dziećmorowice;Dětmarovice
+ru;Детенице;Dětenice
+ru;Десна;Desná
+sr;Дјеков;Děkov
+lt;Dečynas;Děčín
+ru;Дечин;Děčín
+sr;Дјечин;Děčín
+fa;دییچین;Děčín
+tg;Дечин;Děčín
+bg;Дечин;Děčín
+uk;Дечин;Děčín
+kk;Дечин;Děčín
+ja;ジェチーン;Děčín
+ka;დეჩინი;Děčín
+ko;데친;Děčín
+zh;杰钦;Děčín
+ar;ديتشين;Děčín
+be;Дзечын;Děčín
+lv;Dečīna;Děčín
+tt;Дечин;Děčín
+ur;دیچین;Děčín
+sr;Деблин;Deblín
+ru;Давле;Davle
+cs;Lázně Darkov;Darkov
+sk;Lázně Darkov;Darkov
+pl;Darków;Darkov
+ru;Дачице;Dačice
+zh;達奇采;Dačice
+sr;Дачице;Dačice
+sr;Цвиков;Cvikov
+ru;Цвиков;Cvikov
+zh;茨維科夫;Cvikov
+sr;Цитолиби;Cítoliby
+mk;Хинов;Chýnov
+sr;Хинов;Chýnov
+ru;Хинов;Chýnov
+zh;希諾夫;Chýnov
+sr;Хињава;Chyňava
+sr;Худењице;Chudenice
+sr;Хрустењице;Chrustenice
+bg;Хрудим;Chrudim
+fa;خرودیم;Chrudim
+kk;Хрудим;Chrudim
+lv;Hrudima;Chrudim
+sr;Хрудим;Chrudim
+ru;Хрудим;Chrudim
+zh;赫魯迪姆;Chrudim
+ar;خروديم;Chrudim
+be;Хрудзім;Chrudim
+lt;Chrudimas;Chrudim
+lv;Hropiņe;Chropyně
+sr;Хропиње;Chropyně
+ru;Хропине;Chropyně
+zh;赫羅皮涅;Chropyně
+cs;Brno-Chrlice;Chrlice
+sr;Хрич;Chříč
+ru;Храстава;Chrastava
+zh;赫拉斯塔瓦;Chrastava
+sr;Храстава;Chrastava
+pl;Kocobędz;Chotěbuz
+ar;تشوتبور;Chotěboř
+fa;چوتبور;Chotěboř
+lv;Hoteborža;Chotěboř
+sr;Хотјеборж;Chotěboř
+zh;霍捷博日;Chotěboř
+ja;ホムトフ;Chomutov
+ru;Хомутов;Chomutov
+ko;호무토프;Chomutov
+bg;Хомутов;Chomutov
+tg;Хомутов;Chomutov
+ka;ხომუტოვი;Chomutov
+sr;Хомутов;Chomutov
+fa;خموتو;Chomutov
+zh;霍穆托夫;Chomutov
+kk;Хомутов;Chomutov
+lt;Chomutovas;Chomutov
+uk;Хомутов;Chomutov
+ar;خوموتوف;Chomutov
+tt;Хомутов;Chomutov
+ur;خومتو;Chomutov
+ja;ホドフ;Chodov
+ko;호도프;Chodov
+lt;Chodovas;Chodov
+sr;Ходов;Chodov
+ru;Ходов;Chodov
+zh;霍多夫;Chodov
+lv;Hoceņa;Choceň
+ru;Хоцень;Choceň
+zh;霍采尼;Choceň
+sr;Хоцењ;Choceň
+ru;Хлумец-над-Цидлиноу;Chlumec nad Cidlinou
+zh;齊德利納河畔赫盧梅茨;Chlumec nad Cidlinou
+lt;Chlumecas prie Cidlinos;Chlumec nad Cidlinou
+sr;Хлумец на Цидлини;Chlumec nad Cidlinou
+ja;ヘプ;Cheb
+lt;Chebas;Cheb
+ru;Хеб;Cheb
+fa;خپ;Cheb
+sr;Хеб;Cheb
+ko;헤프;Cheb
+bg;Хеб;Cheb
+ar;خب;Cheb
+uk;Хеб;Cheb
+zh;海布;Cheb
+kk;Хеб;Cheb
+be;Хеб;Cheb
+sr;Честице;Čestice
+pl;Czeski Cieszyn;Český Těšín
+ru;Чески-Тешин;Český Těšín
+sr;Češki Tješin;Český Těšín
+sr;Чешки Тјешин;Český Těšín
+fa;چسکی تیه‌شین;Český Těšín
+ja;チェスキー・チェシーン;Český Těšín
+ko;체스키테신;Český Těšín
+ar;تشيسكي تشين;Český Těšín
+uk;Чеський Тешин;Český Těšín
+zh;捷克捷欣;Český Těšín
+kk;Чески-Тешин;Český Těšín
+lv;Česki Tešīna;Český Těšín
+be;Чэскі-Цешын;Český Těšín
+lt;Česky Tešynas;Český Těšín
+ru;Чески-Штернберк;Český Šternberk
+el;Τσέσκι Κρούμλοβ;Český Krumlov
+zh;捷克克鲁姆洛夫;Český Krumlov
+ru;Чески Крумлов;Český Krumlov
+ja;チェスキー・クルムロフ;Český Krumlov
+mk;Чешки Крумлов;Český Krumlov
+sr;Чешки Крумлов;Český Krumlov
+he;צסקי קרומלוב;Český Krumlov
+be;Чэскі-Крумлаў;Český Krumlov
+ko;체스키크룸로프;Český Krumlov
+bg;Чески Крумлов;Český Krumlov
+th;เชสกีกรุมลอฟ;Český Krumlov
+ka;ჩესკი-კრუმლოვი;Český Krumlov
+uk;Чеський Крумлов;Český Krumlov
+kk;Чески-Крумлов;Český Krumlov
+lt;Česky Krumlovas;Český Krumlov
+ar;تشيسكي كروملوف;Český Krumlov
+az;Çeski Krumlov;Český Krumlov
+zh;捷克杜布;Český Dub
+ru;Чески-Дуб;Český Dub
+sr;Чешки Дуб;Český Dub
+zh;捷克布羅德;Český Brod
+sr;Чешки Брод;Český Brod
+ru;Чешки Брод;Český Brod
+sr;Чешке Велењице;České Velenice
+ru;Ческе-Веленице;České Velenice
+zh;捷克韋萊尼采;České Velenice
+bg;Ческе Будейовице;České Budějovice
+lt;Česke Budejovicai;České Budějovice
+pl;Czeskie Budziejowice;České Budějovice
+sr;Чешке Буђејовице;České Budějovice
+el;Τσέσκε Μπουντεγιόβιτσε;České Budějovice
+ru;Ческе-Будеёвице;České Budějovice
+sr;Чешке Будјејовице;České Budějovice
+ar;تشيسكيه بوديوفيتسه;České Budějovice
+kk;Чески-Будеёвице;České Budějovice
+ky;Чески-Будеёвице;České Budějovice
+hi;सेस्के बुदेजोविसे;České Budějovice
+bn;সেস্কে বুডেজোভিস;České Budějovice
+ur;سیسکے بودیجوویس;České Budějovice
+am;ሴስከ ቡዴጆቪሰ;České Budějovice
+fa;چسکه بودیجوویتسه;České Budějovice
+ja;チェスケー・ブデヨヴィツェ;České Budějovice
+pa;ਸੇਸਕੇ ਬੁਡੇਜੋਵਿਸ;České Budějovice
+ps;سیسکے بودیجوویس;České Budějovice
+tg;Чески-Будеёвице;České Budějovice
+tt;Чески-Будеёвице;České Budějovice
+lv;Česka Tršebova;Česká Třebová
+sr;Чешка Требова;Česká Třebová
+ru;Ческа-Тршебова;Česká Třebová
+zh;捷克特熱博瓦;Česká Třebová
+ka;ჩესკა-ტრშებოვა;Česká Třebová
+zh;捷克斯卡利采;Česká Skalice
+sr;Чешка Скалица;Česká Skalice
+ru;Чешка Скалица;Česká Skalice
+pl;Czeska Lipa;Česká Lípa
+ru;Ческа-Липа;Česká Lípa
+bg;Ческа Липа;Česká Lípa
+fa;چسکا لیپا;Česká Lípa
+sr;Чешка Липа;Česká Lípa
+zh;捷克利帕;Česká Lípa
+ru;Ческа-Каменице;Česká Kamenice
+zh;捷克卡梅尼采;Česká Kamenice
+sr;Чешка Камењица;Česká Kamenice
+sr;Червени Костелец;Červený Kostelec
+zh;切爾韋尼科斯泰萊茨;Červený Kostelec
+ru;Червени Костелец;Červený Kostelec
+sr;Червенка;Červenka
+ru;Червенка;Červenka
+sr;Червена Вода;Červená Voda
+ru;Червена-Вода;Červená Voda
+ru;Червена-Ржечице;Červená Řečice
+zh;切爾韋納熱奇采;Červená Řečice
+lv;Červena Ržečice;Červená Řečice
+sr;Червена Речица;Červená Řečice
+sr;Черни Дул;Černý Důl
+cs;Brno-Černovice;Černovice
+sr;Черновице;Černovice
+zh;切爾諾維采;Černovice
+ru;Черновице;Černovice
+sr;Черњиков;Černíkov
+ru;Черна;Černá v Pošumaví
+bg;Черна Хора;Černá Hora
+ru;Черна Гора;Černá Hora
+sr;Черна Хора;Černá Hora
+ja;チェクフヴキ;Čechůvky
+pl;Czechówki;Čechůvky
+sr;Часлав;Čáslav
+ru;Часлав;Čáslav
+zh;恰斯拉夫;Čáslav
+be;Часлаў;Čáslav
+uk;Часлав;Čáslav
+lv;Bzeneca;Bzenec
+sr;Бзенец;Bzenec
+zh;布澤涅茨;Bzenec
+ru;Бзенец;Bzenec
+lv;Bistršice pie Hostīna;Bystřice pod Hostýnem
+sr;Бистрице под Хостином;Bystřice pod Hostýnem
+ru;Бистрице Под Хостином;Bystřice pod Hostýnem
+lv;Bistršice pie Pernštejnas;Bystřice nad Pernštejnem
+sr;Бистрице на Пернштејну;Bystřice nad Pernštejnem
+lv;Bistre;Bystré
+sr;Бистре;Bystré
+zh;比斯特雷;Bystré
+ru;Бистре;Bystré
+cs;Brno-Bystrc;Bystrc
+sr;Буштјехрад;Buštěhrad
+uk;Буштєград;Buštěhrad
+zh;布什捷赫拉德;Buštěhrad
+ru;Бук;Buk
+sr;Будиње на Охри;Budyně nad Ohří
+sr;Будјетице;Budětice
+cs;Budeč u Dačic;Budeč
+zh;布喬維采;Bučovice
+bg;Бучовице;Bučovice
+sr;Бучовице;Bučovice
+ru;Бучовице;Bučovice
+ku;Buxlovîtse;Buchlovice
+sr;Бухловице;Buchlovice
+ru;Бухловице;Buchlovice
+ru;Брунтал;Bruntál
+bg;Брътнице;Brtnice
+sr;Бртњице;Brtnice
+ru;Бртнице;Brtnice
+zh;布爾特尼采;Brtnice
+ru;Броумов;Broumov
+zh;布劳莫夫;Broumov
+bg;Броумов;Broumov
+sr;Броумов;Broumov
+ar;برنو;Brno
+bg;Бърно;Brno
+ja;ブルノ;Brno
+ko;브르노;Brno
+ru;Брно;Brno
+zh-TW;布爾諾;Brno
+sr;Брно;Brno
+el;Μπρνο;Brno
+be;Брно;Brno
+he;ברנו;Brno
+hu;Brünn;Brno
+ky;Брно;Brno
+ps;برنو;Brno
+uk;Брно;Brno
+th;เบอร์โน;Brno
+ka;ბრნო;Brno
+fa;برنو;Brno
+os;Брно;Brno
+tg;Брно;Brno
+mr;ब्रनो;Brno
+mk;Брно;Brno
+zh;布爾諾;Brno
+ce;Брно;Brno
+kk;Брно;Brno
+mn;Брно;Brno
+hy;Բռնո;Brno
+myv;Брно ош;Brno
+ur;برنو;Brno
+hi;ब्रनो;Brno
+bn;ব্রনো;Brno
+am;ብርኖ;Brno
+pa;ਬਰਨੋ;Brno
+tt;Брно;Brno
+sr;Брњичко;Brníčko
+cs;Brná;Brná nad Labem
+ru;Бржезнице;Březnice
+zh;布熱茲尼采;Březnice
+sr;Брезњице;Březnice
+pl;Brzecław;Břeclav
+ja;ブジェツラフ;Břeclav
+ru;Бржецлав;Břeclav
+ko;브르제츨라프;Břeclav
+uk;Бржецлав;Břeclav
+fa;برژتسلاو;Břeclav
+sr;Брецлав;Břeclav
+zh;布熱茨拉夫;Břeclav
+sgs;Bržeclavs;Břeclav
+ar;بريتسلاف;Břeclav
+lt;Bržeclavas;Břeclav
+lv;Bržeclava;Břeclav
+sr;Брана;Branná
+sr;Брандис на Лаби-Стара Болеслав;Brandýs nad Labem-Stará Boleslav
+uk;Брандіс-над-Лабем-Стара-Болеслав;Brandýs nad Labem-Stará Boleslav
+ru;Брандис-над-Лабем-Стара-Болеслав;Brandýs nad Labem-Stará Boleslav
+bg;Божи Дар;Boží Dar
+sr;Божи Дар;Boží Dar
+ru;Божи-Дар;Boží Dar
+zh;博日達爾;Boží Dar
+cs;Brno-Bosonohy;Bosonohy
+bg;Босковице;Boskovice
+sr;Босковице;Boskovice
+ru;Босковице;Boskovice
+zh;博斯科維采;Boskovice
+sr;Боровани;Borovany
+ru;Боровани;Borovany
+zh;博羅瓦尼;Borovany
+ru;Борек;Borek
+sr;Бор;Bor
+ru;Бор;Bor
+zh;博爾;Bor
+sr;Болеборж;Boleboř
+sr;Бојковице;Bojkovice
+ru;Бойковице;Bojkovice
+zh;博伊科維采;Bojkovice
+cs;Brno-Bohunice;Bohunice
+fa;بهومین;Bohumín
+sr;Бохумин;Bohumín
+pl;Bogumin;Bohumín
+ru;Богумин;Bohumín
+lv;Bohumīna;Bohumín
+bg;Бохумин;Bohumín
+lt;Bohumynas;Bohumín
+sr;Блудов;Bludov
+ru;Блудов;Bludov
+ru;Блшаны-у-Лоун;Blšany u Loun
+ru;Бльшани-у-Лоун;Blšany u Loun
+ru;Блшаны;Blšany
+sr;Бловице;Blovice
+ru;Бловице;Blovice
+zh;布洛維采;Blovice
+sr;Блатно;Blatno
+ru;Блатна;Blatná
+zh;布拉特納;Blatná
+sr;Блатна;Blatná
+ru;Бланско;Blansko
+lv;Bīloveca;Bílovec
+sr;Биловец;Bílovec
+zh;比洛韋茨;Bílovec
+ru;Биловец;Bílovec
+sr;Билина;Bílina
+ru;Билина;Bílina
+zh;比利纳;Bílina
+sr;Безухов;Bezuchov
+ru;Бездез;Bezděz
+kk;Бероун;Beroun
+sr;Бероун;Beroun
+ru;Бероун;Beroun
+zh;貝龍;Beroun
+ar;بيرون;Beroun
+ab;Бенетице;Benetice
+ar;بنتيتسه، سفيلتا ناد سازانفو;Benetice
+az;Benetise;Benetice
+be;Вёска Бенеціцэ;Benetice
+bg;Бенетице;Benetice
+el;Μπενετίτσε;Benetice
+fa;بنتیتسه;Benetice
+ja;ベネティツェ;Benetice
+ka;ბენეტიცე;Benetice
+ko;베네티체;Benetice
+mhr;Бенетице;Benetice
+mrj;Бенетице;Benetice
+nn;Benetice ved Světlá nad Sázavou;Benetice
+os;Бенетице;Benetice
+sah;Бенетице;Benetice
+sr;Бенетице;Benetice
+tg;Бенетице;Benetice
+th;เบเนตีตเซ;Benetice
+tk;Benetitse;Benetice
+tt;Бенетице;Benetice
+udm;Бенетице;Benetice
+uk;Бенетіце;Benetice
+uz;Benetitse;Benetice
+ru;Бенетице;Benetice
+zh;贝内蒂采;Benetice
+myv;Бенетице;Benetice
+kk;Бенетице;Benetice
+ce;Бенетице;Benetice
+yue;貝內蒂采;Benetice
+he;בנטיצה;Benetice
+he;בנשוב על הפלואוצניצה;Benešov nad Ploučnicí
+zh;普洛烏奇尼采河畔貝內紹夫;Benešov nad Ploučnicí
+sr;Бенешов на Плоучњици;Benešov nad Ploučnicí
+fa;بنشوف;Benešov
+ja;ベネショフ;Benešov
+kk;Бенешов;Benešov
+ko;베네쇼프;Benešov
+lt;Benešovas;Benešov
+sr;Бенешов;Benešov
+tg;Бенешов;Benešov
+uk;Бенешов;Benešov
+ru;Бенешов;Benešov
+zh;貝內紹夫;Benešov
+ar;بينيشوف;Benešov
+bg;Бенешов;Benešov
+ko;베나트키나트이제로우;Benátky nad Jizerou
+sr;Бенатки на Јизери;Benátky nad Jizerou
+ru;Бенатки-над-Йизероу;Benátky nad Jizerou
+zh;伊澤拉河畔貝納特基;Benátky nad Jizerou
+sr;Бјелотин;Bělotín
+ru;Бела-под-Бездезем;Bělá pod Bezdězem
+sr;Бјела на Радбузи;Bělá nad Radbuzou
+zh;拉德布扎河畔別拉;Bělá nad Radbuzou
+ru;Бечов-над-Теплоу;Bečov nad Teplou
+zh;泰普拉河畔貝喬夫;Bečov nad Teplou
+sr;Бечов на Тепли;Bečov nad Teplou
+ru;Бехине;Bechyně
+zh;貝希涅;Bechyně
+sr;Бехиње;Bechyně
+zh;巴沃羅夫;Bavorov
+sr;Баворов;Bavorov
+ru;Баворов;Bavorov
+ru;Бателов;Batelov
+pl;Bartowice;Bartovice
+ru;Банов;Bánov
+bg;Аш;Aš
+sr;Аш;Aš
+ja;アシュ;Aš
+ru;Аш;Aš
+zh;阿什;Aš
+kk;Аш;Aš
+ko;아시;Aš
+bg;Адамов;Adamov
+ka;ადამოვი;Adamov
+lv;Adamova;Adamov
+sr;Адамов;Adamov
+ru;Адамов;Adamov
+zh;阿達莫夫;Adamov
+sr;Свата;Svatá
+cs;Brno-Vinohrady;Vinohrady
+ru;Солань;Soláň
+ru;Ралско;Ralsko
+ru;Либина;Libina
+ru;Ланов;Lánov

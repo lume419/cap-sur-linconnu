@@ -1221,7 +1221,12 @@ app.get('/api/search-city', function(req, res){
   try {
     var limitRaw = parseInt(req.query.limit, 10);
     var limit = (isFinite(limitRaw) && limitRaw > 0 && limitRaw <= 20) ? limitRaw : 8;
-    res.json({ results: diskSearchIndex ? diskSearchIndex.search(q, limit) : tripEngine.searchCity(q, limit) });
+    // Pays prioritaire (celui de la langue d'interface) : ses lieux passent avant tous les autres, triés entre eux
+    // par population comme le reste.
+    var country = /^[A-Z]{2}$/.test(String(req.query.country || '')) ? String(req.query.country) : '';
+    // lang : langue d'interface, pour choisir le nom alternatif affiché entre parenthèses.
+    var lang = /^[a-zA-Z]{2,3}(-[a-zA-Z]{2,4})?$/.test(String(req.query.lang || '')) ? String(req.query.lang) : '';
+    res.json({ results: diskSearchIndex ? diskSearchIndex.search(q, limit, country, lang) : tripEngine.searchCity(q, limit, country, lang) });
   } catch(err){
     console.warn('[search-city] erreur:', err.message);
     res.status(500).json({ error: 'internal error', results: [] });

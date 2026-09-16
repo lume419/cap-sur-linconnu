@@ -10,3 +10,22 @@ zh-Hans;布雷芬加特;Brievengat
 zh-Hant;佈雷芬加特;Brievengat
 zh;布里文加特;Brievengat
 en;Boca St. Michiel;St. Michiel
+bg;Вилемстад;Willemstad
+he;וילמסטאד;Willemstad
+ur;ویلمسٹیڈ;Willemstad
+th;วิลเลมสตัด;Willemstad
+lt;Vilemstadas;Willemstad
+os;Виллемстад;Willemstad
+uk;Віллемстад;Willemstad
+el;Βίλλεμσταντ;Willemstad
+sr;Вилемстад;Willemstad
+be;Вілемстад;Willemstad
+ka;ვილემსტადი;Willemstad
+mr;विलेमश्टाड;Willemstad
+az;Villemştad;Willemstad
+fa;ویلمستاد;Willemstad
+ky;Виллемстад;Willemstad
+lv;Vilemstade;Willemstad
+ta;வில்லெம்ஸ்டாடு;Willemstad
+uz;Villemstad;Willemstad
+lt;Brievengatas;Brievengat

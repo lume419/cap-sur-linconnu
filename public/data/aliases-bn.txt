@@ -148,3 +148,33 @@ ms;Sungai Kelugos;Kampung Sungai Kelugos
 ms;Sungai Kelugus;Kampung Sungai Kelugos
 ms;Kg. Luagan Timbaran;Kampung Luagan Timbaran
 ms;Luagan Timbaran;Kampung Luagan Timbaran
+am;ቱቶንግ;Tutong
+tt;Тутонг;Tutong
+lt;Serija;Seria
+lt;Kvala Belaitas;Kuala Belait
+he;קואלה בלייט;Kuala Belait
+am;ኩዋላ ቤላይት;Kuala Belait
+tt;Куала-Белаит;Kuala Belait
+am;ባንጋር;Bangar
+tt;Бангар;Bangar
+he;בנדר סרי בגוואן;Bandar Seri Begawan
+lt;Bandar Seri Begavanas;Bandar Seri Begawan
+uk;Бандар-Сері-Бегаван;Bandar Seri Begawan
+el;Μπαντάρ Σερί Μπεγκαβάν;Bandar Seri Begawan
+am;ባንዳር ሰሪ ቤጋዋን;Bandar Seri Begawan
+be;Бандар-Серы-Бегаван;Bandar Seri Begawan
+lv;Bandarseribegavana;Bandar Seri Begawan
+mk;Бандар Сери Бегаван;Bandar Seri Begawan
+bg;Бандар Сери Бегаван;Bandar Seri Begawan
+tt;Бандар-Сери-Бегаван;Bandar Seri Begawan
+os;Бандар-Сери-Бегаван;Bandar Seri Begawan
+sr;Бандар Сери Бегаван;Bandar Seri Begawan
+ckb;بەندەر سێری بێگاوان;Bandar Seri Begawan
+az;Bandar Seri Begavan;Bandar Seri Begawan
+ka;ბანდარ-სერი-ბეგავანი;Bandar Seri Begawan
+hy;Բանդար Սերի Բեգավան;Bandar Seri Begawan
+ht;Banda Seri;Bandar Seri Begawan
+ce;Бандар-Сери-Бегаван;Bandar Seri Begawan
+lrc;سری بگاوان;Bandar Seri Begawan
+sq;Bandar Seri Begauan;Bandar Seri Begawan
+vep;Bandar Seri Begavan;Bandar Seri Begawan

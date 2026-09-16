@@ -155,3 +155,296 @@ de;Abraham's Bay;Abraham’s Bay
 ja;アブラハムズベイ;Abraham’s Bay
 pt;Baía de Abraham;Abraham’s Bay
 ja;トレジャー・カイ;Treasure Cay
+kk;Батыс Ұшы;West End
+tr;Batı Ucu;West End
+ky;Батыш Чокусу;West End
+bn;ওয়েস্ট এন্ড;West End
+ur;ویسٹ اینڈ;West End
+am;ወስት ኤንድ;West End
+fa;وست اند;West End
+pa;ਵੈਸਟ ਐਂਡ;West End
+ps;ویسټ اینډ;West End
+tg;Қуллаи Ғарб;West End
+kk;Испан Құдықтары;Spanish Wells
+tr;İspanyol Kuyuları;Spanish Wells
+uz;Ispaniyaning Quduqlari;Spanish Wells
+ky;Испан Құндуктары;Spanish Wells
+id;Sumur Spanyol;Spanish Wells
+ms;Telaga Sepanyol;Spanish Wells
+bn;স্প্যানিশ কূপ;Spanish Wells
+ur;ہسپانوی کنویں;Spanish Wells
+am;ስፓኒሽ ጉድጓድ;Spanish Wells
+az;İspan Quyuları;Spanish Wells
+fa;چاههای اسپانیایی;Spanish Wells
+jv;Sumur Spanyol;Spanish Wells
+pa;ਸਪੇਨਿਸ਼ ਕੁਆਂ;Spanish Wells
+ps;ہسپانوی کنویں;Spanish Wells
+tg;Чахҳои Испаниё;Spanish Wells
+kk;Сан-Андрос;San Andros
+ky;Сан-Андрос;San Andros
+bn;সান অ্যান্ড্রোস;San Andros
+ur;سان اینڈروس;San Andros
+am;ሳን አንድሮስ;San Andros
+fa;سان آندروس;San Andros
+pa;ਸੈਨ ਆਂਡ੍ਰੋਸ;San Andros
+ps;سان اندروس;San Andros
+tg;Сан Андрос;San Andros
+kk;Нельсон Лиманы;Port Nelson
+ky;Нельсон Портусу;Port Nelson
+bn;পোর্ট নেলসন;Port Nelson
+ur;پورٹ نیلسن;Port Nelson
+am;ፖርት ኔልሰን;Port Nelson
+fa;پورت نلسون;Port Nelson
+pa;ਪੋਰਟ ਨੈਲਸਨ;Port Nelson
+ps;پورٹ نیلسن;Port Nelson
+tg;Бандари Нельсон;Port Nelson
+fa;نیکولز تاون;Nicholls Town
+ur;نیکولز ٹاؤن;Nicholls Town
+he;נסאו;Nassau
+el;Νασσάου;Nassau
+am;ናሶ;Nassau
+lt;Nasau;Nassau
+ka;ნასაუ;Nassau
+fa;ناسائو;Nassau
+ce;Нассау;Nassau
+nn;Nassau på Bahamas;Nassau
+be;Насау;Nassau
+bg;Насау;Nassau
+uk;Нассау;Nassau
+ur;نساؤ;Nassau
+hy;Նասաու;Nassau
+bo;ན་སའོ།;Nassau
+th;แนสซอ;Nassau
+mr;नासाउ;Nassau
+sr;Насау;Nassau
+mk;Насау;Nassau
+ml;നാസോ;Nassau
+lv;Naso;Nassau
+sah;Нассау;Nassau
+os;Нассау;Nassau
+pa;ਨਸਾਊ;Nassau
+bn;নাসাউ;Nassau
+ky;Нассау;Nassau
+ta;நேசோ;Nassau
+yue;拿騷;Nassau
+kk;Мэтью Қаласы;Matthew Town
+uz;Matthew Shahri;Matthew Town
+ky;Мэтью Шаары;Matthew Town
+id;Kota Matthew;Matthew Town
+ms;Bandar Matthew;Matthew Town
+bn;ম্যাথিউ শহর;Matthew Town
+ur;میتھیو ٹاؤن;Matthew Town
+am;ማቲዩ ከተማ;Matthew Town
+az;Matthew Şəhəri;Matthew Town
+fa;شهر متیو;Matthew Town
+jv;Kutha Matthew;Matthew Town
+pa;ਮੈਥਿਊ ਟਾਊਨ;Matthew Town
+ps;میتیو ښار;Matthew Town
+tg;Шахри Матфей;Matthew Town
+kk;Мейсонс Құлығы;Masons Bay
+uz;Masons Xalifi;Masons Bay
+ky;Мейсонс Чокусу;Masons Bay
+id;Teluk Masons;Masons Bay
+ms;Teluk Masons;Masons Bay
+bn;মেসন্স বে;Masons Bay
+ur;میسنز بے;Masons Bay
+am;ሜሶንስ ባይ;Masons Bay
+az;Masons Körfəzi;Masons Bay
+fa;خلیج میسونز;Masons Bay
+jv;Teluk Masons;Masons Bay
+pa;ਮੇਸਨਜ਼ ਬੇ;Masons Bay
+ps;میسنز بے;Masons Bay
+tg;Халиҷи Мейсонз;Masons Bay
+kk;Марш Лиманы;Marsh Harbour
+uz;Marsh Bandari;Marsh Harbour
+ky;Марш Портусу;Marsh Harbour
+id;Pelabuhan Marsh;Marsh Harbour
+ms;Pelabuhan Marsh;Marsh Harbour
+bn;মার্শ হার্বার;Marsh Harbour
+ur;مارش ہاربر;Marsh Harbour
+am;ማርሽ ሓርቦር;Marsh Harbour
+az;Marsh Limanı;Marsh Harbour
+fa;بندر مارش;Marsh Harbour
+jv;Pelabuhan Marsh;Marsh Harbour
+pa;ਮਾਰਸ਼ ਹਾਰਬਰ;Marsh Harbour
+ps;مارش هاربر;Marsh Harbour
+tg;Бандари Марш;Marsh Harbour
+kk;Жоғарғы Тас;High Rock
+uz;Yuqori Tosh;High Rock
+ky;Жогорку Чокусу;High Rock
+id;Batu Tinggi;High Rock
+ms;Batu Tinggi;High Rock
+bn;হাই রক;High Rock
+ur;ہائی راک;High Rock
+am;ከፍተኛ ዐለት;High Rock
+fa;صخره بالا;High Rock
+jv;Batu Dhuwur;High Rock
+pa;ਹਾਈ ਰਾਕ;High Rock
+ps;لوړ ډبره;High Rock
+tg;Сенги Баланд;High Rock
+kk;Қиын Келісім;Hard Bargain
+uz;Qiyin Shartnoma;Hard Bargain
+ky;Кыйын Макулдашуу;Hard Bargain
+bn;হার্ড বার্গেইন;Hard Bargain
+ur;سخت سودا;Hard Bargain
+am;ከባድ ስምምነት;Hard Bargain
+fa;معامله دشوار;Hard Bargain
+pa;ਮੁਸ਼ਕਲ ਸੌਦਾ;Hard Bargain
+ps;سخت معامله;Hard Bargain
+tg;Шарти Душвор;Hard Bargain
+kk;Губернатор Лиманы;Governor’s Harbour
+tr;Vali Limanı;Governor’s Harbour
+uz;Gubernator Bandari;Governor’s Harbour
+ky;Губернатор Портусу;Governor’s Harbour
+id;Pelabuhan Gubernur;Governor’s Harbour
+ms;Pelabuhan Gabenor;Governor’s Harbour
+bn;গভর্নরের বন্দর;Governor’s Harbour
+ur;گورنر کا ہاربر;Governor’s Harbour
+am;የመንግስት ሓርቦር;Governor’s Harbour
+az;Vali Limanı;Governor’s Harbour
+fa;بندر فرماندار;Governor’s Harbour
+jv;Pelabuhan Gubernur;Governor’s Harbour
+pa;ਗਵਰਨਰ ਹਾਰਬਰ;Governor’s Harbour
+ps;والي بندر;Governor’s Harbour
+tg;Бандари Фарманравои;Governor’s Harbour
+kk;Джордж Қаласы;George Town
+uz;Jorj Shahri;George Town
+ky;Джордж Шаары;George Town
+id;Kota George;George Town
+ms;Bandar George;George Town
+bn;জর্জ টাউন;George Town
+ur;جارج ٹاؤن;George Town
+am;ጆርጅ ከተማ;George Town
+az;George Şəhəri;George Town
+fa;شهر جرج;George Town
+jv;Kutha George;George Town
+pa;ਜੋਰਜ ਟਾਊਨ;George Town
+ps;جورج ښار;George Town
+tg;Шахри Ҷуҷ;George Town
+kk;Еркін Лиман;Freeport
+uz;Erkin Port;Freeport
+ky;Эркин Порт;Freeport
+id;Pelabuhan Bebas;Freeport
+ms;Pelabuhan Bebas;Freeport
+bn;ফ্রিপোর্ট;Freeport
+ur;فری پورٹ;Freeport
+am;ነጻ ወደብ;Freeport
+az;Azad Limanı;Freeport
+fa;بندر آزاد;Freeport
+jv;Pelabuhan Mardika;Freeport
+pa;ਫ੍ਰੀ ਪੋਰਟ;Freeport
+ps;آزاد بندر;Freeport
+tg;Бандари Озод;Freeport
+kk;Дункан Қаласы;Duncan Town
+uz;Dunkan Shahri;Duncan Town
+ky;Дункан Шаары;Duncan Town
+id;Kota Duncan;Duncan Town
+ms;Bandar Duncan;Duncan Town
+bn;ডানকান টাউন;Duncan Town
+ur;ڈنکن ٹاؤن;Duncan Town
+am;ዱንካን ከተማ;Duncan Town
+az;Duncan Şəhəri;Duncan Town
+fa;شهر دانکن;Duncan Town
+jv;Kutha Duncan;Duncan Town
+pa;ਡੰਕਨ ਟਾਊਨ;Duncan Town
+ps;دانکن ښار;Duncan Town
+tg;Шахри Дункан;Duncan Town
+kk;Полковник Көтеңгесі;Colonel Hill
+uz;Polkovnik Tepaligi;Colonel Hill
+ky;Полковник Чокусу;Colonel Hill
+id;Bukit Kolonel;Colonel Hill
+ms;Bukit Kolonel;Colonel Hill
+bn;কর্নেল হিল;Colonel Hill
+ur;کرنل ہل;Colonel Hill
+am;ተዋክብ ተራ;Colonel Hill
+az;Polkovnik Təpəsi;Colonel Hill
+fa;تپه سرهنگ;Colonel Hill
+jv;Bukit Kolonel;Colonel Hill
+pa;ਕਰਨਲ ਹਿਲ;Colonel Hill
+ps;کرنل ډومه;Colonel Hill
+tg;Қуллаи Полковник;Colonel Hill
+kk;Кокберн Қаласы;Cockburn Town
+uz;Kokburn Shahri;Cockburn Town
+ky;Кокберн Шаары;Cockburn Town
+id;Kota Cockburn;Cockburn Town
+ms;Bandar Cockburn;Cockburn Town
+bn;ককবার্ন টাউন;Cockburn Town
+ur;کاکبرن ٹاؤن;Cockburn Town
+am;ኮክበርን ከተማ;Cockburn Town
+az;Cockburn Şəhəri;Cockburn Town
+fa;شهر کاکبرن;Cockburn Town
+jv;Kutha Cockburn;Cockburn Town
+pa;ਕੌਕਬਰਨ ਟਾਊਨ;Cockburn Town
+ps;کاکبرن ښار;Cockburn Town
+tg;Шахри Коберн;Cockburn Town
+kk;Кларенс Қаласы;Clarence Town
+uz;Klarnens Shahri;Clarence Town
+ky;Кларенс Шаары;Clarence Town
+id;Kota Clarence;Clarence Town
+ms;Bandar Clarence;Clarence Town
+bn;ক্লারেন্স টাউন;Clarence Town
+ur;کلارنس ٹاؤن;Clarence Town
+am;ክላረንስ ከተማ;Clarence Town
+az;Clarence Şəhəri;Clarence Town
+fa;شهر کلارنس;Clarence Town
+jv;Kutha Clarence;Clarence Town
+pa;ਕਲੇਰਸ ਟਾਊਨ;Clarence Town
+ps;کلارنس ښار;Clarence Town
+tg;Шахри Кларенс;Clarence Town
+kk;Қара Нүкте;Black Point
+tr;Siyah Nokta;Black Point
+uz;Qora Nuqta;Black Point
+ky;Кара Чекит;Black Point
+id;Titik Hitam;Black Point
+ms;Titik Hitam;Black Point
+bn;ব্ল্যাক পয়েন্ট;Black Point
+ur;بلیک پوائنٹ;Black Point
+am;ጥቁር ነጥብ;Black Point
+az;Qara Nöqtə;Black Point
+fa;نقطه سیاه;Black Point
+jv;Titik Ireng;Black Point
+pa;ਬਲੈਕ ਪੁਆਇੰਟ;Black Point
+ps;تور نقطه;Black Point
+tg;Нуқтаи Сиёҳ;Black Point
+kk;Артур Қаласы;Arthur’s Town
+uz;Artur Shahri;Arthur’s Town
+ky;Артур Шаары;Arthur’s Town
+id;Kota Arthur;Arthur’s Town
+ms;Bandar Arthur;Arthur’s Town
+bn;আর্থার টাউন;Arthur’s Town
+ur;آرتھر ٹاؤن;Arthur’s Town
+am;አርተር ከተማ;Arthur’s Town
+az;Artur Şəhəri;Arthur’s Town
+fa;شهر آرتور;Arthur’s Town
+jv;Kutha Arthur;Arthur’s Town
+pa;ਅਰਥਰ ਟਾਊਨ;Arthur’s Town
+ps;آرتر ښار;Arthur’s Town
+tg;Шахри Артур;Arthur’s Town
+kk;Алис Қаласы;Alice Town
+uz;Alisa Shahri;Alice Town
+ky;Алис Шаары;Alice Town
+id;Kota Alice;Alice Town
+ms;Bandar Alice;Alice Town
+bn;অ্যালিস টাউন;Alice Town
+ur;ایلس ٹاؤن;Alice Town
+am;አሊስ ከተማ;Alice Town
+az;Alice Şəhəri;Alice Town
+fa;شهر الیس;Alice Town
+jv;Kutha Alice;Alice Town
+pa;ਐਲਿਸ ਟਾਊਨ;Alice Town
+ps;الس ښار;Alice Town
+tg;Шахри Алис;Alice Town
+kk;Авраам Құлығы;Abraham’s Bay
+uz;Ibrahimning Xalifi;Abraham’s Bay
+ky;Авраам Чокусу;Abraham’s Bay
+id;Teluk Abraham;Abraham’s Bay
+ms;Teluk Abraham;Abraham’s Bay
+bn;অ্যাব্রাহাম বে;Abraham’s Bay
+ur;ابراہیم کی خلیج;Abraham’s Bay
+am;የአብርሃም ጤለተ;Abraham’s Bay
+az;Abraham Körfəzi;Abraham’s Bay
+fa;خلیج ابراهیم;Abraham’s Bay
+jv;Teluk Abraham;Abraham’s Bay
+pa;ਅਬ੍ਰਾਹਮ ਬੇ;Abraham’s Bay
+ps;ابراهيم بے;Abraham’s Bay
+tg;Халиҷи Ибрахим;Abraham’s Bay

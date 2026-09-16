@@ -800,3 +800,95 @@ ne;Gajmatpur;Rātāmāṭā
 ne;Upum;Bheḍākhor
 ne;देउखुरी;Deukhurī
 ne;Millī;Milli̇̄
+pl;Shipanagar;Siwānagar
+nb;Pipara Simara;Simarā
+pl;Pipara Simara;Simarā
+uk;Сімікот;Simikoṭ
+et;Lumbinī;Rummin-dei
+bg;Рукумкот;Rukumkoṭ
+he;פוקארה;Pokhara
+lt;Pokara;Pokhara
+uk;Покхара;Pokhara
+el;Ποκάρα;Pokhara
+am;ፖክሓራ;Pokhara
+tt;Похара;Pokhara
+lt;Namče Bazaras;Namche Bazaar
+hy;Նամչե Բազար;Namche Bazaar
+uk;Намче-Базар;Namche Bazaar
+cs;Namče Bazar;Namche Bazaar
+ckb;نامچی بازاڕ;Namche Bazaar
+pl;Namcze Bazar;Namche Bazaar
+he;מוסטנג;Mustāng
+lt;Manangas;Manang
+uk;Мананґ;Manang
+he;לוקלה;Lukla
+bg;Лукла;Lukla
+uk;Лангтанг;Langtang
+ka;ლანგტანგი;Langtang
+he;לנגטאנג;Langtang
+ca;Katmandú;Kathmandu
+da;Katmandu;Kathmandu
+et;Katmandu;Kathmandu
+gl;Katmandú;Kathmandu
+he;קטמנדו;Kathmandu
+lb;Katmandu;Kathmandu
+lv;Katmandu;Kathmandu
+no;Katmandu;Kathmandu
+pl;Katmandu;Kathmandu
+sv;Katmandu;Kathmandu
+lt;Katmandu;Kathmandu
+el;Κατμαντού;Kathmandu
+bs;Katmandu;Kathmandu
+am;ካትማንዱ;Kathmandu
+af;Katmandoe;Kathmandu
+sgs;Katmandū;Kathmandu
+be;Катманду;Kathmandu
+bg;Катманду;Kathmandu
+ce;Катманду;Kathmandu
+ckb;کاتماندوو;Kathmandu
+gn;Katemandu;Kathmandu
+ht;Katmandou;Kathmandu
+hy;Կատմանդու;Kathmandu
+is;Katmandú;Kathmandu
+ka;კატმანდუ;Kathmandu
+mk;Катманду;Kathmandu
+oc;Katmandó;Kathmandu
+os;Катманду;Kathmandu
+sr;Катманду;Kathmandu
+uk;Катманду;Kathmandu
+hr;Katmandu;Kathmandu
+lrc;کاتماندو;Kathmandu
+mzn;کاتماندو;Kathmandu
+lt;Džiri;Jiri
+lt;Džanakpuras;Janakpur
+am;ጃናክፑር;Janakpur
+tt;Жанакпур;Janakpur
+pl;Tamghas;Gulmi̇̄ Tamghās
+lt;Diktelis;Diktel Bajār
+ku;Rupakot Majhuwagadhi;Diktel Bajār
+uk;Діктел;Diktel Bajār
+pl;Diktel;Diktel Bajār
+am;ዲሃንኩታ;Dhankutā
+tt;Данкута;Dhankutā
+am;ቡትዋል;Butwāl
+tt;Бутвал;Butwāl
+lt;Baratpuras;Bharatpur
+lv;Baratpura;Bharatpur
+uk;Бхаратпур;Bharatpur
+el;Μπχαρατπούρ;Bharatpur
+he;בהרטפור;Bharatpur
+bg;Бхактапур;Bhaktapur
+lt;Bhaktapuras;Bhaktapur
+uk;Бактапур;Bhaktapur
+tt;Бетени;Beteni̇̄
+sah;Банепа;Banepā
+pl;Amlekhganj;Amalekhgañj
+ca;Amlekhganj;Amalekhgañj
+pl;Birendra Nagar;Birendranagar
+am;ብረንድራናጋር;Birendranagar
+tt;Биренdranagar;Birendranagar
+am;ዲፓያል;Dipayal
+tt;Дипаял;Dipayal
+eu;Kakarvitta;Kakarbhitta
+uk;Феріче;Pheriche
+pl;Thimi;Madhyapur Thimi

@@ -14,3 +14,45 @@ zh;莫恩朗格;Morne Longue
 de;L'Anse Aux Epines;Lance aux Épines
 ja;カリヴィニー;Calivigny
 zh;卡利維尼;Calivigny
+el;Άνω Πέρλες;Upper Pearls
+fa;آپر پرلز;Upper Pearls
+el;Άνω Λα Ταντ;Upper La Tante
+fa;آپر لا تانت;Upper La Tante
+el;Άνω Καπιτόλ;Upper Capitol
+fa;آپر کپیتول;Upper Capitol
+el;Τιβολί;Tivoli
+fa;تیوولی، گرنادا;Tivoli
+fi;St. George's;Saint George's
+he;סנט ג'ורג';Saint George's
+id;St. George's;Saint George's
+lt;Sent Džordžas;Saint George's
+el;Σεντ Τζόρτζες;Saint George's
+el;Παράδεισος;Paradise
+fa;پارادایس، گرنادا;Paradise
+ur;پيراڈائز، گریناڈا;Paradise
+el;Μάουντ Κραβέν;Mount Craven
+fa;مونت کراون;Mount Craven
+el;Μορν Λονγκ;Morne Longue
+fa;مورن لانگ;Morne Longue
+el;Μορν Ζαλού Ριτζ;Morne Jaloux Ridge
+fa;مورن جالو ریج;Morne Jaloux Ridge
+el;Μορν Ντοκτέρ;Morne Docteur
+fa;مورن داکتر;Morne Docteur
+el;Μωλτί;Maulti
+fa;مولتی;Maulti
+el;Μάμα Καν;Mamma Cannes
+fa;ماما کن;Mamma Cannes
+el;Κα-φε Μπω;Ka-fe Beau
+fa;کا-فه بو;Ka-fe Beau
+el;Έλη Χωλ;Elie Hall
+fa;الی هال;Elie Hall
+el;Κλαμπονύ;Clabony
+fa;کلابونی;Clabony
+el;Σουτζ;Chutz
+fa;چاز;Chutz
+el;Καλιβινύ;Calivigny
+fa;کالیونی;Calivigny
+el;Μπογκλέ;Bogles
+fa;بوگولس;Bogles
+el;Μπεκ Μουί;Becke Moui
+fa;بک مویی;Becke Moui

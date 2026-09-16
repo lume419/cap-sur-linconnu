@@ -10343,3 +10343,169 @@ ru;Новый Тайбэй;New Taipei City
 tr;Yeni Taipei;New Taipei City
 zh;林湖村;Linhu
 zh;安美;Anmei
+hak;Téu-liuk-sṳ;Douliu
+cs;Tou-liou;Douliu
+hak;Yún-không-khî;Yongkang
+hak;Yîn-kô-khî;Yingge
+lt;Jingė;Yingge
+uk;Інге;Yingge
+gl;Yingge Distrito;Yingge
+hak;Yòng-mìn-sân Koet-kâ Kûng-yèn;Yangmingshan
+hak;Yông-muì-khî;Yangmei
+lt;Jangmėjus;Yangmei
+hak;Vû-lòi-khî;Wulai
+lt;Vulajus;Wulai
+uk;Улай;Wulai
+he;מחוז וולאי;Wulai
+hak;Ńg-kú-khî;Wugu
+lt;Vugu;Wugu
+hak;Vú-fûng-hiông;Wufeng
+hak;Thèu-sàng-tsṳ́n;Toucheng
+hak;Thai-thùng-hiông;Datong
+cs;Tchaj-tung;Taitung
+he;טאיפי;Taipei
+lt;Taibėjus;Taipei
+pl;Tajpej;Taipei
+sk;Tchaj-pej;Taipei
+he;טאיפיי;Taipei
+sr;Тајпеј;Taipei
+el;Ταϊπέι;Taipei
+bg;Тайпей;Taipei
+am;ታይፔ;Taipei
+cs;Tchaj-pej;Taipei
+lt;Taipėjus;Taipei
+az;Taypey;Taipei
+sl;Tajpej;Taipei
+be;Тайбэй;Taipei
+hu;Tajpej;Taipei
+hy;Թայպեյ;Taipei
+uk;Тайбей;Taipei
+cs;Tchaj-pao;Taibao
+hak;Thai-pó-sṳ;Taibao
+cs;Sin-jing;Xinying
+hak;Sîn-yàng-khî;Xinying
+be;Тайнань;Tainan
+hak;Thòi-nàm-sṳ;Tainan
+cs;Tchaj-nan;Tainan
+hu;Tajnan;Tainan
+qu;Taynam;Tainan
+he;טאינאן;Tainan
+lt;Tainanas;Tainan
+uk;Тайнань;Tainan
+sl;Tajnan;Tainan
+sr;Тајнан;Tainan
+lt;Taičungas;Taichung
+hak;Thòi-chûng-sṳ;Taichung
+cs;Tchaj-čung;Taichung
+pl;Taizhong;Taichung
+ce;Тайчжун;Taichung
+qu;Taychun;Taichung
+hak;Su-nà-khî;Shulin
+lt;Šulinas;Shulin
+hak;Sa̍k-tàng-khî;Shiding
+lt;Šidingas;Shiding
+uk;Шідін;Shiding
+hak;Sa̍k-mùn-khî;Shimen
+lt;Šimenas;Shimen
+sco;Shimen Destrict;Shimen
+hak;Chhṳ̂m-hâng-khî;Shenkeng
+lt;Šenkengas;Shenkeng
+uk;Шенькен;Shenkeng
+hak;Sâm-hia̍p-khî;Sanxia
+lt;Sansija;Sanxia
+uk;Санься;Sanxia
+mk;Саншјиа;Sanxia
+eu;San-Ch´ung;Sanchong
+hak;Sâm-chhùng-khî;Sanchong
+lt;Sančongas;Sanchong
+uk;Саньчун;Sanchong
+hak;Sâm-chṳ-khî;Sanzhi
+lt;Sandži;Sanzhi
+sco;Sanzhi Destrict;Sanzhi
+hak;Phû-lî-tsṳ́n;Puli
+he;פולי;Puli
+cs;Pching-tung;Pingtung
+hak;Phìn-tûng-sṳ;Pingtung
+lt;Pingdongas;Pingtung
+hak;Phiâng-lìm-khî;Pinglin
+lt;Pinglinas;Pinglin
+hak;Pet-thèu-khî;Beitou
+hak;Pat-tet-khî;Bade
+hak;Nui-fù-khî;Neihu
+cs;Nan-tchou;Nantou
+hak;Nàm-thèu-sṳ;Nantou
+nn;Nantou by;Nantou
+hak;Nàm-o-hiông;Nan’ao
+uk;Наньао;Nan’ao
+hak;Mâ-kûng-sṳ;Magong
+hak;Liùng-thâm-khî;Longtan
+lt;Longtanas;Longtan
+hak;Lò-tûng-tsṳ́n;Luodong
+hak;Nà-khiéu-khî;Linkou
+hak;Kung-liàu-khî;Gongliao
+cs;Feng-šan;Fengshan
+hak;Fung-sân-khî;Fengshan
+lt;Fengšanas;Fengshan
+sr;Каошанг;Kaohsiung
+uk;Гаосюн;Kaohsiung
+am;ካኦሂስዩንግ;Kaohsiung
+tt;Каосюн;Kaohsiung
+hak;Lui-fông-khî;Ruifang
+lt;Žuifangas;Ruifang
+hak;Ngì-làn-sṳ;Yilan
+lt;Jilanas;Yilan
+hak;Sîn-tiam-khî;Xindian
+lt;Sindianas;Xindian
+hak;Sîn-chông-khî;Xinzhuang
+lt;Sindžuangas;Xinzhuang
+uk;Сіньчжуан;Xinzhuang
+ga;Ceantar Xinzhuang;Xinzhuang
+el;Σινσουάνγκ;Xinzhuang
+nb;Xinzhuang Distrikt;Xinzhuang
+cy;Ardal Xinzhuang;Xinzhuang
+da;Xinzhuang Distrikt;Xinzhuang
+cs;Sin-ču;Hsinchu
+hak;Sîn-chuk-sṳ;Hsinchu
+pl;Xinzhu;Hsinchu
+hak;Sip-chṳ-khî;Xizhi
+lt;Sidži;Xizhi
+hu;Hszicse;Xizhi
+uk;Січжі;Xizhi
+hak;Hèn-tshûn-tsṳ́n;Hengchun
+hak;Tsuk-pet-sṳ;Zhubei
+cs;Ču-pej;Zhubei
+hu;Csungli;Zhongli
+hak;Chûng-la̍k-khî;Zhongli
+lt;Džongli;Zhongli
+lt;Dziufenas;Jiufen
+am;ጂንቸንግ;Jincheng
+tt;Цзиньчэн;Jincheng
+sv;Chilung;Keelung
+no;Chilung;Keelung
+hak;Kî-lùng-sṳ;Keelung
+cs;Ťi-lung;Keelung
+hak;Tsiâu-hâi-hiông;Jiaoxi
+hak;Phìn-tsṳ́n-sṳ;Pingzhen
+lt;Pingdženas;Pingzhen
+bg;Пингжен;Pingzhen
+hak;Sâm-sên-hiông;Sanxing
+sr;Таојуан;Taoyuan
+uk;Таоюань;Taoyuan
+am;ዞንግሺንግ ኔው ቪሌጅ;Zhongxing New Village
+az;Zhongxing Yeni Kənd;Zhongxing New Village
+ha;Zhongxing Sabuwar Gida;Zhongxing New Village
+om;Zhongxing Baayina Giddugaleessa;Zhongxing New Village
+so;Zhongxing Tuulo Cusub;Zhongxing New Village
+sw;Kijiji Kipya cha Zhongxing;Zhongxing New Village
+tt;Чжунсин Яңа авылы;Zhongxing New Village
+en;Shangqi;Shangqi Village
+zh;上岐村;Shangqi Village
+en;Xikou;Xikou Village
+zh;西口村;Xikou Village
+cs;Nová Tchaj-pej;New Taipei City
+el;Νέα Ταϊπέι;New Taipei City
+hr;Novi Taipei;New Taipei City
+pl;Nowe Tajpej;New Taipei City
+sr;Нови Тајпеј;New Taipei City
+uk;Новий Тайбей;New Taipei City
+sl;Novi Tajpej;New Taipei City

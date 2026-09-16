@@ -24,3 +24,70 @@ ru;Малый Кайман;Little Cayman
 ar;كايمان الصغرى;Little Cayman
 hi;लिटिल केमैन;Little Cayman
 ja;リトルケイマン;Little Cayman
+kk;Батыс Бөлігі;West Bay
+ky;Чыгыш Чокусу;West Bay
+bn;ওয়েস্ট বে;West Bay
+ur;ویسٹ بے;West Bay
+am;ምዕራብ ባህር;West Bay
+fa;خلیج غرب;West Bay
+pa;ਵੈਸਟ ਬੇ;West Bay
+ps;ويسټ بے;West Bay
+tg;Халичи Ғарб;West Bay
+kk;Түндік Жақ;North Side
+uz;Shimol Tomoni;North Side
+ky;Түндүк Жагы;North Side
+bn;নর্থ সাইড;North Side
+ur;شمالی جانب;North Side
+am;ሰሜን ጎን;North Side
+fa;سمت شمالی;North Side
+pa;ਉਤਰੀ ਪਾਸੇ;North Side
+ps;شمالی طرف;North Side
+tg;Ҷанби Шимол;North Side
+pl;Georgetown;George Town
+he;גורג טאון;George Town
+zh-TW;喬治敦;George Town
+af;Georgetown;George Town
+az;Corctaun;George Town
+be;Джорджтаўн;George Town
+bg;Джордж Таун;George Town
+el;Τζωρτζ Τάουν;George Town
+ka;ჯორჯტაუნი;George Town
+lt;Džordžtaunas;George Town
+mk;Џорџ Таун;George Town
+mr;जॉर्जटाउन;George Town
+nn;George Town på Caymanøyane;George Town
+sr;Џорџтаун;George Town
+th;จอร์จทาวน์;George Town
+uk;Джорджтаун;George Town
+ur;جارج ٹاؤن، جزائر کیمین;George Town
+fa;جرج‌تاون، جزایر کیمن;George Town
+ta;ஜார்ஜ் டவுன்;George Town
+kk;Шығыс Шеті;East End
+uz;Sharq Uchi;East End
+ky;Чыгыш Учу;East End
+bn;ইস্ট এন্ড;East End
+ur;مشرقی سرے;East End
+am;ምስራቅ መጨረሻ;East End
+fa;سمت شرقی;East End
+pa;ਪੂਰਬੀ ਸਿਰਾ;East End
+ps;ختيځ پای;East End
+tg;Ҷанби Шарқ;East End
+kk;Боддентаун;Bodden Town
+ky;Боддентаун;Bodden Town
+bn;বোডেন টাউন;Bodden Town
+ur;بوڈن ٹاؤن;Bodden Town
+am;ቦደን ከተማ;Bodden Town
+fa;بادن تاون;Bodden Town
+pa;ਬੋਡਨ ਟਾਉਨ;Bodden Town
+ps;بودن ټاون;Bodden Town
+tg;Шахри Боддан;Bodden Town
+kk;Кіші Кайман;Little Cayman
+uz;Kichik Kayman;Little Cayman
+ky;Кичүүчүк Кайман;Little Cayman
+bn;লিটেল কেম্যান;Little Cayman
+ur;چھوٹا کیمن;Little Cayman
+am;ትንሽ ካይማን;Little Cayman
+fa;کایمن کوچک;Little Cayman
+pa;ਲਿਟਲ ਕੇਮੈਨ;Little Cayman
+ps;کوچنی کیمن;Little Cayman
+tg;Каймани Хурд;Little Cayman

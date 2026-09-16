@@ -16,3 +16,146 @@ fr;Île du Nord;North Island
 fr;La Rivière Anglaise;English River
 fr;Île Platte;Platte Island
 fr;Île de l'Assomption;Assumption
+ja;ヴィクトリア;Victoria
+ko;빅토리아;Victoria
+ru;Виктория;Victoria
+lt;Viktorija;Victoria
+el;Βικτόρια;Victoria
+am;ቪክቶሪያ፥ ሲሸልስ;Victoria
+ur;وکٹوریا;Victoria
+be;Вікторыя;Victoria
+bg;Виктория;Victoria
+bo;ཝིག་ཐོ་རི་ཡ།;Victoria
+ce;Виктори;Victoria
+ckb;ڤیکتۆریا، سیشێل;Victoria
+cv;Виктори;Victoria
+el;Βικτώρια;Victoria
+fa;ویکتوریا;Victoria
+he;ויקטוריה;Victoria
+ht;Viktorya;Victoria
+hy;Վիկտորիա;Victoria
+ka;ვიქტორია;Victoria
+lv;Viktorija;Victoria
+mk;Викторија;Victoria
+mr;व्हिक्टोरिया;Victoria
+nn;Victoria på Seychellane;Victoria
+os;Виктори;Victoria
+pa;ਵਿਕਟੋਰੀਆ;Victoria
+sl;Viktorija;Victoria
+so;Fiktoria;Victoria
+sr;Викторија;Victoria
+th;วิกตอเรีย;Victoria
+udm;Виктория;Victoria
+uk;Вікторія;Victoria
+wo;Wiktoria;Victoria
+zh;维多利亚;Victoria
+ky;Виктория;Victoria
+ta;விக்டோரியா;Victoria
+uz;Viktoriya;Victoria
+vep;Viktorii;Victoria
+yue;維多利亞;Victoria
+ru;Такамака;Takamaka
+kk;Такамака;Takamaka
+ky;Такамака;Takamaka
+hi;तकामाका;Takamaka
+bn;তাকামাকা;Takamaka
+ur;تاکاماکا;Takamaka
+am;ታካማካ;Takamaka
+fa;تاکاماکا;Takamaka
+ja;タカマカ;Takamaka
+pa;ਤਕਾਮਾਕਾ;Takamaka
+ps;تاکاماکا;Takamaka
+tg;Такамака;Takamaka
+tt;Такамака;Takamaka
+ru;Порт-Глод;Port Glaud
+kk;Порт-Глод;Port Glaud
+ky;Порт-Глод;Port Glaud
+hi;पोर्ट ग्लॉड;Port Glaud
+bn;পোর্ট গ্লড;Port Glaud
+ur;پورٹ گلاڈ;Port Glaud
+am;ፖርት ግላድ;Port Glaud
+fa;پورت گلود;Port Glaud
+ja;ポートグロー;Port Glaud
+pa;ਪੋਰਟ ਗਲਾਡ;Port Glaud
+ps;پورت گلاډ;Port Glaud
+tg;Порт-Глод;Port Glaud
+tt;Порт-Глод;Port Glaud
+uk;Ла-Діґ;La Digue
+uk;Ла-Діг;La Digue
+uk;Діґ;La Digue
+uk;Діг;La Digue
+uk;La-Dig;La Digue
+uk;Dig;La Digue
+uk;La-Dih;La Digue
+uk;Dih;La Digue
+th;แคสเคด;Cascade
+uk;Каскад;Cascade
+uk;Kaskad;Cascade
+ru;Каскад;Cascade
+kk;Каскад;Cascade
+ky;Каскад;Cascade
+hi;कैस्केड;Cascade
+bn;ক্যাসকেড;Cascade
+ur;کیسکیڈ;Cascade
+am;ካስካድ;Cascade
+fa;کاسکاد;Cascade
+ja;カスケード;Cascade
+pa;ਕੈਸਕੇਡ;Cascade
+ps;کاسکیډ;Cascade
+tg;Каскад;Cascade
+tt;Каскад;Cascade
+ru;Бель-Омбр;Bel Ombre
+kk;Бель-Омбр;Bel Ombre
+ky;Бель-Омбр;Bel Ombre
+hi;बेल ओम्ब्रे;Bel Ombre
+bn;বেল অম্ব্রে;Bel Ombre
+ur;بیل امبر;Bel Ombre
+am;በል ኦምብሪ;Bel Ombre
+fa;بل امبر;Bel Ombre
+ja;ベルオンブル;Bel Ombre
+pa;ਬੇਲ ਓਂਬਰੇ;Bel Ombre
+ps;بیل امبر;Bel Ombre
+tg;Бель-Омбр;Bel Ombre
+tt;Бель-Омбр;Bel Ombre
+ru;Бо-Валлон;Beau Vallon
+kk;Бо-Валлон;Beau Vallon
+ky;Бо-Валлон;Beau Vallon
+hi;बो वलोन;Beau Vallon
+bn;বোভ্যালন;Beau Vallon
+ur;بو ویلن;Beau Vallon
+am;ቦ ቫሎን;Beau Vallon
+fa;بو والن;Beau Vallon
+ja;ボーヴァロン;Beau Vallon
+pa;ਬੋ ਵੈਲੋਨ;Beau Vallon
+ps;بو ویلن;Beau Vallon
+tg;Бо-Валлон;Beau Vallon
+tt;Бо-Валлон;Beau Vallon
+ru;Анс-Буало;Anse Boileau
+kk;Анс-Буало;Anse Boileau
+ky;Анс-Буало;Anse Boileau
+hi;एन्स बोइलो;Anse Boileau
+bn;এনস বয়েলো;Anse Boileau
+ur;ینس بویلو;Anse Boileau
+am;አንስ ቦይሎ;Anse Boileau
+fa;انس بویلو;Anse Boileau
+ja;アンスボワロー;Anse Boileau
+pa;ਐਨਸ ਬੋਈਲੋ;Anse Boileau
+ps;ینس بویلو;Anse Boileau
+tg;Анс-Буало;Anse Boileau
+tt;Анс-Буало;Anse Boileau
+ru;Ла-Пас;La Passe
+kk;Ла-Пас;La Passe
+ky;Ла-Пас;La Passe
+hi;ला पास;La Passe
+bn;লা পাস;La Passe
+ur;لا پاس;La Passe
+am;ላ ፓስ;La Passe
+fa;لا پاس;La Passe
+ja;ラパス;La Passe
+pa;ਲਾ ਪਾਸ;La Passe
+ps;لا پاس;La Passe
+tg;Ла-Пас;La Passe
+tt;Ла-Пас;La Passe
+uk;Персеверанс;Perseverance
+ru;Персеверанс;Perseverance
+th;อิงลิชริเวอร์;English River

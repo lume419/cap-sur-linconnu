@@ -768,3 +768,239 @@ ar;نيومل باروبي;Niomel Barobé
 ar;لكليبية;Lekleibiya
 ar;الشرفاء;Chorfa
 fr;Fondé Diéri;Fondé Elimane
+pl;Zuwirat;Zouérat
+ja;ズエラット;Zouérat
+lt;Zueratas;Zouérat
+ru;Зуэрат;Zouérat
+kk;Зуэрат;Zouérat
+ky;Зуэрат;Zouérat
+hi;जूएरात;Zouérat
+bn;জুয়েরাত;Zouérat
+ur;زویرات;Zouérat
+am;ዙዌራት;Zouérat
+fa;زویرات;Zouérat
+pa;ਜੂਏਰਾਤ;Zouérat
+ps;زویرات;Zouérat
+tg;Зуэрат;Zouérat
+tt;Зуэрат;Zouérat
+ru;Тидждикджа;Tidjikja
+kk;Тидждикджа;Tidjikja
+ky;Тидждикджа;Tidjikja
+hi;तिजिकजा;Tidjikja
+bn;তিজিকজা;Tidjikja
+ur;تیجیکجا;Tidjikja
+am;ቲድጂክጃ;Tidjikja
+fa;تیجیکجا;Tidjikja
+ja;ティジクジャ;Tidjikja
+pa;ਤਿਜਿਕਜਾ;Tidjikja
+ps;تیجیکجا;Tidjikja
+tg;Тидждикджа;Tidjikja
+tt;Тидждикджа;Tidjikja
+ru;Селиба;Sélibaby
+kk;Селиба;Sélibaby
+ky;Селиба;Sélibaby
+hi;सेलिबाबी;Sélibaby
+bn;সেলিবাবি;Sélibaby
+ur;سیلیبابی;Sélibaby
+am;ሴሊባቢ;Sélibaby
+fa;سیلیبابی;Sélibaby
+ja;セリバビ;Sélibaby
+pa;ਸੇਲਿਬਾਬੀ;Sélibaby
+ps;سیلیبابی;Sélibaby
+tg;Селиба;Sélibaby
+tt;Селиба;Sélibaby
+be;Роса;Rosso
+fa;روسو;Rosso
+ja;ロッソ;Rosso
+kk;Росо қаласы;Rosso
+ko;로소;Rosso
+lt;Rosas;Rosso
+ur;روصو;Rosso
+vep;Roso;Rosso
+ru;Росо;Rosso
+zh;羅索;Rosso
+ky;Россо;Rosso
+hi;रॉसो;Rosso
+bn;রসো;Rosso
+am;ሮሶ;Rosso
+pa;ਰੱਸੋ;Rosso
+ps;روسو;Rosso
+tg;Россо;Rosso
+tt;Россо;Rosso
+pl;Nawazibu;Nouadhibou
+he;נואדיבו;Nouadhibou
+mk;Нуадибу;Nouadhibou
+ru;Нуадибу;Nouadhibou
+kk;Нуадибу;Nouadhibou
+ky;Нуадибу;Nouadhibou
+hi;नुआधिबु;Nouadhibou
+bn;নুয়াধিবু;Nouadhibou
+ur;نوادھیبو;Nouadhibou
+am;ኑዋዲቡ;Nouadhibou
+fa;نوادیبو;Nouadhibou
+ja;ヌアディブ;Nouadhibou
+pa;ਨੁਆਧਿਬੂ;Nouadhibou
+ps;نوادھیبو;Nouadhibou
+tg;Нуадибу;Nouadhibou
+tt;Нуадибу;Nouadhibou
+ru;Нема;Néma
+kk;Нема;Néma
+ky;Нема;Néma
+hi;नेमा;Néma
+bn;নেমা;Néma
+ur;نیما;Néma
+am;ነማ;Néma
+fa;نیما;Néma
+ja;ネマ;Néma
+pa;ਨੇਮਾ;Néma
+ps;نیما;Néma
+tg;Нема;Néma
+tt;Нема;Néma
+ru;Киффа;Kiffa
+be;Кіфа;Kiffa
+et;Kifa;Kiffa
+ja;キファ;Kiffa
+kk;Киффа қаласы;Kiffa
+ko;키파;Kiffa
+lt;Kifa;Kiffa
+lv;Kīfa;Kiffa
+ur;کیفہ;Kiffa
+vep;Kiff;Kiffa
+pl;Kifa;Kiffa
+zh;基法;Kiffa
+ky;Киффа;Kiffa
+hi;किफ्फा;Kiffa
+bn;কিফ্ফা;Kiffa
+am;ኪፋ;Kiffa
+fa;کیفا;Kiffa
+pa;ਕਿਫ਼ਾ;Kiffa
+ps;کفہ;Kiffa
+tg;Киффа;Kiffa
+tt;Киффа;Kiffa
+he;קאדי;Kaédi
+ja;カエディ;Kaédi
+kk;Каэди қаласы;Kaédi
+ko;카에디;Kaédi
+lt;Kaedis;Kaédi
+ur;کیھیدی;Kaédi
+pl;Kajhajdi;Kaédi
+ru;Каэди;Kaédi
+zh;卡埃迪;Kaédi
+ky;Каэди;Kaédi
+hi;कायदी;Kaédi
+bn;কায়েদি;Kaédi
+am;ካዔዲ;Kaédi
+fa;کاعدی;Kaédi
+pa;ਕਾਏਦੀ;Kaédi
+ps;کاعدی;Kaédi
+tg;Каэди;Kaédi
+tt;Каэди;Kaédi
+pl;Fdajrik;Fderîck
+ru;Чингетти;Chingueṭṭi
+lt;Šingetis;Chingueṭṭi
+kab;Cengiṭ;Chingueṭṭi
+uk;Шинґетті;Chingueṭṭi
+ka;შინგეტი;Chingueṭṭi
+ur;شنقیط;Chingueṭṭi
+ca;Chinguiti;Chingueṭṭi
+kk;Шингетти қаласы;Chingueṭṭi
+zh;欣蓋提;Chingueṭṭi
+ja;シンゲッティ;Chingueṭṭi
+ne;चिङ्गुएति;Chingueṭṭi
+fa;شنقیط;Chingueṭṭi
+pl;Szinkit;Chingueṭṭi
+he;שינגטי;Chingueṭṭi
+zh;坎萨多;Cansado
+ur;بوغی;Bogué
+ru;Аюн-эль-Атрус;Ayoun El Atrous
+kk;Айун-эль-Атрус;Ayoun El Atrous
+ky;Айун-эль-Атрус;Ayoun El Atrous
+hi;अयौन एल अत्रौस;Ayoun El Atrous
+bn;আয়ুন এল আত্রুস;Ayoun El Atrous
+ur;عیون الاترس;Ayoun El Atrous
+am;አዮን ኤል ሐጋር;Ayoun El Atrous
+fa;عیون الاترس;Ayoun El Atrous
+ja;アユン・エル・アトルース;Ayoun El Atrous
+pa;ਅਯੌਨ ਅਲ ਅਤ್ਰੋਸ;Ayoun El Atrous
+ps;عیون الاترس;Ayoun El Atrous
+tg;Айун-эль-Атрус;Ayoun El Atrous
+tt;Айун-эль-Атрус;Ayoun El Atrous
+be;Атар;Atar
+fa;اطار;Atar
+ja;アタール;Atar
+ko;아타르;Atar
+lt;Ataras;Atar
+lv;Atāra;Atar
+ru;Атар;Atar
+zh;阿塔爾;Atar
+kk;Атар;Atar
+ky;Атар;Atar
+hi;अतार;Atar
+bn;আতার;Atar
+ur;آتار;Atar
+am;አታር;Atar
+pa;ਅਤਾਰ;Atar
+ps;آتار;Atar
+tg;Атар;Atar
+tt;Атар;Atar
+ru;Алег;Aleg
+kk;Алег;Aleg
+ky;Алег;Aleg
+hi;अलेग;Aleg
+bn;অ্যালেগ;Aleg
+ur;الیگ;Aleg
+am;ኤሌግ;Aleg
+fa;الیگ;Aleg
+ja;アレグ;Aleg
+pa;ਅਲੇਗ;Aleg
+ps;الیگ;Aleg
+tg;Алег;Aleg
+tt;Алег;Aleg
+pl;Akdżawadżat;Akjoujt
+ru;Акджуджт;Akjoujt
+kk;Акджуджт;Akjoujt
+ky;Акджуджт;Akjoujt
+hi;अकजौजत;Akjoujt
+bn;আকজৌজত;Akjoujt
+ur;اکجوجت;Akjoujt
+am;ኦክጁጅት;Akjoujt
+fa;اکجوجت;Akjoujt
+ja;アクジューグト;Akjoujt
+pa;ਅਕਜੌਜਤ;Akjoujt
+ps;اکجوجت;Akjoujt
+tg;Акджуджт;Akjoujt
+tt;Акджуджт;Akjoujt
+ru;Айн-Бен-Тили;Ain Ben Tili
+ru;Арафат;Arafat
+fr;Araffat;Arafat
+zh;阿拉法特;Arafat
+ja;アラファト;Arafat
+fa;عرفات;Arafat
+ro;Araffat;Arafat
+he;ערפאת;Arafat
+ru;Тевраг-Зейна;Tevragh Zeina
+kk;Тевраг-Зейна;Tevragh Zeina
+ky;Тевраг-Зейна;Tevragh Zeina
+hi;तेवराग जेना;Tevragh Zeina
+bn;তেভ্রাগ জেইনা;Tevragh Zeina
+ur;تفراغ زینہ;Tevragh Zeina
+am;ተቭራግ ዘይና;Tevragh Zeina
+fa;تفراغ زینه;Tevragh Zeina
+ja;テヴラグ・ゼイナ;Tevragh Zeina
+pa;ਤੇਵਰਾਘ ਜੇਨਾ;Tevragh Zeina
+ps;تفراغ زینه;Tevragh Zeina
+tg;Тевраг-Зейна;Tevragh Zeina
+tt;Тевраг-Зейна;Tevragh Zeina
+ru;Дар-Наим;Dar Naim
+kk;Дар-Наим;Dar Naim
+ky;Дар-Наим;Dar Naim
+hi;दार नैम;Dar Naim
+bn;দার নায়েম;Dar Naim
+ur;دار النعیم;Dar Naim
+am;ዳር ናይም;Dar Naim
+fa;دار النعیم;Dar Naim
+ja;ダル・ナイム;Dar Naim
+pa;ਦਾਰ ਨਾਈਮ;Dar Naim
+ps;دار النعیم;Dar Naim
+tg;Дар-Наим;Dar Naim
+tt;Дар-Наим;Dar Naim

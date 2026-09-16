@@ -10,3 +10,22 @@ ja;サンホセ村;San Jose Village
 pt;Vila San Jose;San Jose Village
 ko;사이판;Saipan
 ru;Сайпан;Saipan
+ar;قرية سان خوسيه;San Jose Village
+kk;Сан-Хосе ауылы;San Jose Village
+tr;San Jose Köyü;San Jose Village
+uz;San Jose qishlog'i;San Jose Village
+ky;Сан-Хосе айылы;San Jose Village
+bn;সান জোসে গ্রাম;San Jose Village
+ur;سان جوسے گاؤں;San Jose Village
+am;ሳን ሆሴ መንደር;San Jose Village
+az;San Jose kəndü;San Jose Village
+fa;روستای سان خوزه;San Jose Village
+ha;San Jose Gida;San Jose Village
+jv;Desa San Jose;San Jose Village
+om;Gandaa San Jose;San Jose Village
+pa;ਸੈਨ ਜੋਸ ਪਿੰਡ;San Jose Village
+ps;سان جوسې کلي;San Jose Village
+so;Tuulo San Jose;San Jose Village
+sw;Kijiji cha San Jose;San Jose Village
+tg;Деҳаи Сан Хосе;San Jose Village
+tt;Сан Хосе авылы;San Jose Village

@@ -3,3 +3,19 @@ ko;코번타운;Cockburn Town
 ru;Коберн-Таун;Cockburn Town
 zh;科伯恩城;Cockburn Town
 en;Provo;Providenciales
+az;Kobərn Taun;Cockburn Town
+be;Коберн-Таўн;Cockburn Town
+bg;Кокбърн Таун;Cockburn Town
+cv;Коберн-Таун;Cockburn Town
+el;Κόκμπερν Τάουν;Cockburn Town
+fa;کوک برن تاون، باهاما;Cockburn Town
+he;קוקבורן טאון;Cockburn Town
+ka;კოკბერნ-ტაუნი;Cockburn Town
+lt;Kobern Taunas;Cockburn Town
+mr;कॉकबर्न टाउन;Cockburn Town
+sr;Коберн Таун;Cockburn Town
+th;ค็อกเบิร์นทาวน์;Cockburn Town
+uk;Коберн-Таун;Cockburn Town
+ur;کاک برن ٹاؤن;Cockburn Town
+mk;Коберн Таун;Cockburn Town
+ta;காக்பேர்ண் நகரம்;Cockburn Town

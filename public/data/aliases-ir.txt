@@ -90562,3 +90562,963 @@ fa;کوج خاتک;Kūj Khātak
 fa;کچک خاتک;Kūj Khātak
 fa;انبارک پایین;Anbārak-e Pā’īn
 fa;انبارک;Anbārak-e Pā’īn
+ceb;Sefīdestān;Sepīdestān
+sv;Sefīdestān;Sepīdestān
+ms;Tazeh Kand-e Khusheh Mehr;Tāzeh Kand-e Zavāraq
+ceb;Galleh Kolā;Gīleh Kolā
+sv;Galleh Kolā;Gīleh Kolā
+ms;Kia Kalayeh;Kīā Kolāyeh
+uk;Кія-Калає;Kīā Kolāyeh
+ceb;Qarah Chaman;Qī Chaman
+sv;Qarah Chaman;Qī Chaman
+ms;Qayeh Chaman;Qī Chaman
+ms;Khalifeh Kandi-ye Hatam;Khalīfeh Kandī
+ceb;Kamanbān;Kahbanān
+sv;Kamanbān;Kahbanān
+ms;Kohban;Kahbanān
+ceb;Yārān Qār;Barānqār
+sv;Yārān Qār;Barānqār
+pl;Aghbal;Āqbāl
+ms;Aghasur;Āqā Sūr
+uk;Афтабру;Qeshlāq-e Āftāb Rū
+ms;Shurabeh Khuran;Shūrābeh Taran
+ur;لاشیکان;Lāshekan
+ceb;Shūr Sū;Shīrīnsū
+sv;Shūr Sū;Shīrīnsū
+ur;یزدو;Yazdū
+ur;توچہ;Tūchāhī
+bg;Варзан;Varzan
+uk;Колаксар;Kolāksar
+uk;Абдоллагабад;‘Abdollāhābād
+uk;Ясан;Yasan
+ur;یسن;Yasan
+uk;Лашкан;Lashkān
+ur;لاشکان;Lashkān
+ms;Khvodkavand;Khowdkāvand
+uk;Кешмеш;Keshmesh
+zh;凱什梅什村;Keshmesh
+ms;Jaliseh;Jalīseh-ye Pā’īn
+uk;Джалісе;Jalīseh-ye Pā’īn
+ur;جلسہ;Jalīseh-ye Pā’īn
+ms;Espahabdan;Esbābzel
+uk;Еспагабдан;Esbābzel
+bg;Ангех;Angeh
+ceb;Ahūrāk;Aḩvārāk
+sv;Ahūrāk;Aḩvārāk
+ur;آبندانکش;Āb Bandān Kash
+ceb;Vejenī;Vījīnī
+sv;Vejenī;Vījīnī
+ms;Vejeni;Vījīnī
+hy;Պիճան;Vījīnī
+ms;Tarancheh;Tūrāncheh
+ms;Tavileh-ye Shami;Ţavīleh-ye Shāhī
+ms;Shirbit;Sharbīt
+ms;Parijan;Abūreyḩān
+ms;Pireh Yusefian-e Sofla;Pīr Yūsefīān-e Pā’īn
+ms;Noqadi;Naqdī
+ms;Joghanab-e Sofla;Joqanāb-e Soflá
+ms;Ilkadeh;Īlkeh Deh
+ms;Chungenesh;Cogun Gunes
+ceb;Chayaqān;Chāpāghān
+sv;Chayaqān;Chāpāghān
+ms;Chapaqan;Chāpāghān
+ms;Balu Qayah;Bālū Qīyeh
+ms;Zaglik-e Kurbolagh;Kalak-e Kūrbolāgh
+ur;زگلک-اکربولاغ;Kalak-e Kūrbolāgh
+ur;یغ بسطلو;Yāgh Bastlū
+ms;Vizanab;Mīzānū
+ms;Vieq;Vīyeq
+ms;Tumar Darrahsi-ye Sofla;Tūmār Darrehsī-ye Pā’īn
+ms;Sutat;Sūtūt
+ms;Shureh Nab;Shūrnāb
+ms;Seyyed Javadlu;Seyyed Javādlī
+ur;سچلو;Sāchlū
+ms;Samsam Kandi;Şamşām
+ms;Safi Khanlu;Yūseflū
+ur;صفی خنلو;Yūseflū
+ms;Qeshlaq-e Zakhor;Zākhūr-e Qeshlāqī
+ms;Qeshlaq-e Najaf Khanlu;Damīr Tappeh
+ms;Qarah Jelu;Qarājehlū
+ms;Ojaq Qeshlaqi;Manţaqeh-ye Ojāq Qeshlāqī
+ur;لاچین ڈاریہسی;Lachīn Darrehsī
+uz;Khvoy Narud;Khowy Narūd
+ms;Khvoy Narud;Khowy Narūd
+uz;Xarabeh-ye Qaderlu;Qāderlū
+ms;Kharabeh-ye Qaderlu;Qāderlū
+ur;جوان شیخ;Javān Sheykh
+uz;Haybat-e Sofla;Heybat-e Pā’īn
+ms;Heybat-e Sofla;Heybat-e Pā’īn
+ms;Hesar-e Seyyedlar;Ḩeşār
+ms;Gurom Daraq;Gūrowm Daraq
+ms;Gerdah Sang;Gerdeh Sang
+ms;Galasan Gurasan;Golsan-e Gūrasan
+ms;Jamush Olan-e Sofla;Jāmūsh Owlan-e Soflá
+ur;جمش ولن-سفلی;Jāmūsh Owlan-e Soflá
+ceb;Eslām Kandī;Qūrtlū
+sv;Eslām Kandī;Qūrtlū
+ms;Eslam Kandi;Qūrtlū
+ms;Deylamshah;Deylam Shāh
+ms;Dizaj-e Jalu;Dīzaj-e Chālū
+ms;Dikdaraq;Dīg Daraq
+ms;Charmeh Dash;Garmeh Dāsh
+ms;Beneh Lar;Banehlar
+ms;Benahdiq;Bandarīq
+ms;Anbaq-e Hajjikhan;Anbāq-e ‘Olyā
+ur;احد بیگلو;Aḩad Beyglū
+hy;Աբալան;Āvālān
+ms;Aqdaraq-e Qadim;Āq Daraq-e Qadīm
+ms;Aqdaraq-e Jadid;Āq Daraq-e Jadīd
+ms;Ampar;Ānpār
+ms;Alpavit;Ālpāvet
+ms;Adam Darrehsi-ye Sofla;Ādam Darrehsī-ye Pā’īn
+hy;Ալաջաչայ;‘Alīreẕā Chā’ī
+uk;Афшджерд;Afshanjeh
+hy;Աբուլ-Ալիքյանդի;‘Abd ol ‘Alī Kandī
+hy;Աբասքենդի;‘Abbās Kandī
+ur;جوذر;Javzar
+uk;Занджіран;Zanjīrān
+ceb;Farvar;Farvaz
+sv;Farvar;Farvaz
+ceb;Dorūdgarān;Dowrūdgarān
+sv;Dorūdgarān;Dowrūdgarān
+ms;Lakarabad-e Sofla;Lakarābād-e Pā’īn
+ur;لاکارآباد سفلی;Lakarābād-e Pā’īn
+ur;لامونو;Lamūnū
+ms;Qutur Bolagh;Qoţūr Bolāgh
+ms;Qushchi Bayram Khvajeh;Qayah Bāsh Bāyrām Khūyeh
+ms;Yeli-ye Sofla;Yelī
+ur;یلی-سفلی;Yelī
+ms;Malqeshlaqi;Māl Qeshlāq
+ms;Lalan-e Sofla;Lālān-e Pā’īnī
+ur;لالان سفلی;Lālān-e Pā’īnī
+ms;Mohammad Hasanlu;Moḩammad Ḩasanī
+ms;Gerdeh Zaylu;Gerdvānlī
+ms;Gavahan;Kāvāhīn
+ms;Mirverdi Kandi;Mehdī Kandī
+ms;Kabolabad;Kābol
+ms;Qayah Dibi;Qayah Debī
+ms;Qayah Bashi-ye Bozorg;Qayah Bāshī
+ms;Qatar-e Sofla;Qaţār Qeshlāq
+ms;Qeshlaq-e Gowmir Chinlu-ye Owrtadagh;Qeshlāq-e Owrtādāgh
+ms;Qeshlaq-e Jeda;Jedā Qeshlāq
+ms;Qeshlaq Amir Khanlu-ye Moharramabad;Qeshlāq-e Amīr Khānī
+ms;Qeshlaq-e Agh Laqan;Āghlāqān
+ms;Qarah Qayah-ye Shakarlu;Qarah Qayah
+ms;Qarah Vanlu;Qarah Bāghlū
+ms;Qarah Daraq-e Vosta;Owrtā Qarah Darreh
+ms;Qanlu;Qāneh
+ms;Qarlujeh;Qārūjeh
+ur;میڈینیہ قیشلاقی;Madīneh Qeshlāqī
+uz;Shayxlon-e Sofla;Sheykhlān-e Pā’īn
+ms;Sheykhlan-e Sofla;Sheykhlān-e Pā’īn
+ms;Shur Daraq-e Sofla;Shūr Daraq-e Pā’īn
+ms;Shamlu-ye Kuchak;Shāmlū-ye Bālā
+ms;Seqehsay;Seqesāy
+ms;Khan Mohammadlu;Khān Moḩammad
+ms;Hajji Nowrush Kandi;Ḩājjī Norūsh Kandī
+ms;Gechi Qeshlaq-e Sofla;Gechī Qeshlāq-e Pā’īn
+ms;Hajj Ahmad Kandi;Ḩājjī Aḩmad
+ms;Chanaq;Ḩānākh
+ur;جاناں لو;Jānān Lū
+uz;Pirlar-e Sofla;Pīrlar-e Pā’īn
+ms;Pirlar-e Sofla;Pīrlar-e Pā’īn
+ms;Baqer Owghli;Bāqer Owghlū
+ms;Aznab-e Khaleseh;Shekarlū Khāleşeh
+ms;Ojaq Qeshlaq-e Khoruslu;Ojāq Qeshlāq
+ms;Aq Qabaq-e Vosta;Āq Qabāq
+ms;Yengikand-e Khusheh Mehr;Yengī Kand
+ur;ینگکنڈ-خشیہ مہر;Yengī Kand
+ms;Yengikand-e Khaneh-ye Barq;Banājūy-e Shomālī
+ur;ینگکنڈ-خانۂ-برق;Banājūy-e Shomālī
+ms;Shalilvand;Shalīvand
+ms;Shirvan Shahlu;Shīravān Shāmnū
+ms;Ravesht-e Kuchek;Ravesht-e Kūchak
+ms;Qurijan;Qūrūjān
+ms;Qeshlaq-e Piazi;Qeshlāq
+pl;Ghermez Chalife-je Sofla;Qermez Khalīfeh-ye Soflá
+pl;Ghare Papagh;Qareh Pāpāq
+pl;Moradchanlu;Morādkhānlū
+ms;Hurilar;Khowrīlar
+ms;Khaneh-ye Barq-e Jadid;Khāneh-ye Barq-e Mojarlū
+ms;Khanamir;Khān Amīr
+ms;Gowy Daraq-e Sofla;Gowy Daraq-e Pā’īn
+hy;Կերտապատ;Garūābād
+hy;Գյարդաբադ;Garūābād
+ms;Esfehanjiq;Eşfahānjūq
+pl;Dawahczi;Davahchī
+ms;Cheraghil;Jerāghīl
+uz;Chavan-e Sofla;Chavān-e Pā’īn
+ms;Chavan-e Sofla;Chavān-e Pā’īn
+ms;Chavan Bagh;Chavān
+ms;Chay Baghi;Chahār Bāghī
+ms;Banayem;Banā’em
+ms;Ashestan;Āshīstān
+ur;جہانگیر کنڈی;Jahāngīr Kandī
+hy;Աբաջալի;Abājalū-ye ‘Olyā
+hy;Ալիյաբադ;‘Alīābād
+ceb;Tak-e Āb Band;Tagāband
+sv;Tak-e Āb Band;Tagāband
+ceb;Khūnīk-e Tajen;Khūnīk-e Tajan
+sv;Khūnīk-e Tajen;Khūnīk-e Tajan
+sco;Shams-e Bala;Kalāt-e Shams
+ceb;Kalāteh-ye Malek;Kalāt-e Malek
+sv;Kalāteh-ye Malek;Kalāt-e Malek
+bg;Ташванд;Tashvand
+ceb;Hamech;Hamej
+sv;Hamech;Hamej
+bg;Хамеч;Hamej
+bg;Ваканд;Vakand
+ms;Qarehjah Qayah;Qarājah Qayā
+ms;Qarah Kalak;Qareh Kalak
+ms;Goleytar;Goleytār Bolāghī
+bg;Есфангарех;Esfangareh
+bg;Шалех;Shaleh
+bg;Негарех;Negareh
+uz;Negare;Negareh
+ceb;Owrjak;Ūrjak
+sv;Owrjak;Ūrjak
+bg;Манбар;Manbar
+pl;Berendże;Berenjeh
+uk;Фаштаке;Fashtakeh
+uk;Дошман-Корде;Doshman Kordeh
+bg;Аргхеш;Arghesh
+hy;Ալամդար;Hādīshahr
+hy;Ալամդալ;Hādīshahr
+hy;Ալամդամ;Hādīshahr
+hy;Ալեդար;Hādīshahr
+hy;Հադիշահր;Hādīshahr
+ms;Karkasheh;Kargasheh
+fa;تت بالو;Tappehlū
+ceb;Khojeh Darreh;Khajedarreh
+sv;Khojeh Darreh;Khajedarreh
+ms;Khojeh Darreh;Khajedarreh
+uk;Ходже-Даре;Khajedarreh
+uk;Когне-Ке;Kohneh Keh
+ms;Kalamar;Asbī Row
+uk;Каламар;Asbī Row
+ceb;Denyā Chāl;Ābūyār
+sv;Denyā Chāl;Ābūyār
+ms;Dinachal;Ābūyār
+uk;Діначал;Ābūyār
+uk;Овлом;Owlom
+ms;Tarkeh Deh;Tarkdeh
+ceb;Alangesh;‘Alam Kesh
+sv;Alangesh;‘Alam Kesh
+bg;Алангеш;‘Alam Kesh
+ms;Alankash;‘Alam Kesh
+ms;Aski Shahr;Ask Shahr
+fa;Dīmū;Dey Mū
+fa;ديموئيه;Dey Mū
+ceb;Qareh Tappeh-ye Sheykh;Qarah Tappeh-ye Sheykh
+sv;Qareh Tappeh-ye Sheykh;Qarah Tappeh-ye Sheykh
+ms;Qareh Tappeh-ye Sheykh;Qarah Tappeh-ye Sheykh
+hy;Ալասուրըմ;Al Sormeh
+hy;Գուլիզան;Gol‘oz̄ān
+hy;Աիրիբուջաղ;Agrī Būjāq
+hy;Ադյաման;Koshkzar
+hy;Աբաթեյ;Ābātī
+hy;Աբասբուլաղ;‘Abbās Bolāgh
+hy;Ազափ;‘Az̄āb
+ms;Zazeh;Zazzeh
+uk;Аббасабад;‘Abbāsābād
+uk;Баріє;Baryeh
+ms;Yord-e Khalaf;Yūrd-e Khalaf
+ur;یورد-خلاف;Yūrd-e Khalaf
+cs;Jásúdž;Yasuj
+hr;Jasudž;Yasuj
+ja;ヤースージュ;Yasuj
+ko;야수즈;Yasuj
+tg;Ёсӯҷ;Yasuj
+uk;Ясудж;Yasuj
+pl;Jasudż;Yasuj
+zh;亞蘇季;Yasuj
+hi;यासूज;Yasuj
+hy;Յասուջ;Yasuj
+ur;یاسوج;Yasuj
+ceb;Kharfeh Kol;Kharfekol Bālā
+sv;Kharfeh Kol;Kharfekol Bālā
+ms;Kharfakol;Kharfekol Bālā
+uk;Харфаколь;Kharfekol Bālā
+hr;Zandžan;Zanjan
+bg;Йеклех;Yekleh
+ur;یکلہ;Yekleh
+pl;Jazd;Yazd
+he;יזד;Yazd
+ka;იეზდი;Yazd
+hy;Յազդ;Yazd
+ur;یزد;Yazd
+tg;Язд;Yazd
+ja;ヤズド;Yazd
+sr;Јазд;Yazd
+ceb;Dakbayan sa Yazd;Yazd
+cs;Jazd;Yazd
+lt;Jezdas;Yazd
+uk;Язд;Yazd
+kk;Язд;Yazd
+hr;Jazd;Yazd
+hu;Jazd;Yazd
+ko;야즈드;Yazd
+el;Γιαζντ;Yazd
+zh;亚兹德;Yazd
+hi;यज़्द;Yazd
+ur;یہں;Yahn
+bg;Варчанд;Varchand
+uk;Варчанд;Varchand
+ms;Oshdalaq;Ūshdelaq
+bs;Teheran;Tehran
+ca;Teheran;Tehran
+cs;Teherán;Tehran
+cv;Тегеран;Tehran
+da;Teheran;Tehran
+et;Teheran;Tehran
+fi;Teheran;Tehran
+gl;Teherán;Tehran
+he;טהרן;Tehran
+hi;तेहरान;Tehran
+hr;Teheran;Tehran
+hy;Թեհրան;Tehran
+id;Teheran;Tehran
+ja;テヘラン;Tehran
+ko;테헤란;Tehran
+lt;Teheranas;Tehran
+nn;Teheran;Tehran
+no;Teheran;Tehran
+os;Тæхран;Tehran
+pl;Teheran;Tehran
+ro;Teheran;Tehran
+sk;Teherán;Tehran
+sr;Техеран;Tehran
+sv;Teheran;Tehran
+ur;تہران;Tehran
+th;เตหะราน;Tehran
+mk;Техеран;Tehran
+ta;தெஹ்ரான்;Tehran
+el;Τεχεράνη;Tehran
+bn;তেহরান;Tehran
+ka;თეირანი;Tehran
+lv;Teherāna;Tehran
+tg;Теҳрон;Tehran
+am;ቴህራን;Tehran
+bo;ཏེ་ཧི་རན​།;Tehran
+eu;Teheran;Tehran
+he;טהראן;Tehran
+hu;Teherán;Tehran
+mr;तेहरान;Tehran
+zh-TW;德黑蘭;Tehran
+yue;德黑蘭;Tehran
+zh;德黑蘭;Tehran
+zh;德黑兰;Tehran
+sl;Teheran;Tehran
+uk;Абаде-Тешк;Ābādeh Ţashk
+uk;Абаде́-йе-Ташк;Ābādeh Ţashk
+uk;Абаді-Тошк;Ābādeh Ţashk
+uk;Абаде́-і-Ташк;Ābādeh Ţashk
+uk;Ташк;Ābādeh Ţashk
+ur;آبادہ طشک;Ābādeh Ţashk
+zh;阿巴代赫塔什克;Ābādeh Ţashk
+zh-HK;阿巴代赫塔什克;Ābādeh Ţashk
+zh-TW;阿巴代赫塔什克;Ābādeh Ţashk
+ja;タブリーズ;Tabriz
+af;Tabris;Tabriz
+be;Тэбрыз;Tabriz
+bg;Тебриз;Tabriz
+bo;ཊ་བི་རི་ཛ།;Tabriz
+ce;Тебриз;Tabriz
+el;Ταμπρίζ;Tabriz
+he;תבריז;Tabriz
+hi;तबरेज़;Tabriz
+hy;Թավրիզ;Tabriz
+ka;თავრიზი;Tabriz
+kk;Тебриз;Tabriz
+ko;타브리즈;Tabriz
+ky;Тебриз;Tabriz
+lt;Tebrizas;Tabriz
+lv;Tebrīza;Tabriz
+ml;ടാബ്രിസ്;Tabriz
+os;Тебриз;Tabriz
+pa;ਤਬਰੀਜ਼;Tabriz
+sr;Табриз;Tabriz
+tg;Табрез;Tabriz
+th;ตาบริซ;Tabriz
+tt;Тәбриз;Tabriz
+tyv;Тебриз;Tabriz
+uk;Тебриз;Tabriz
+ur;تبریز;Tabriz
+zh;大不里士;Tabriz
+zh;塔巴斯;Tabas
+ca;Tabas Gilaki;Tabas
+ur;طبس;Tabas
+hi;सीरजान;Sirjan
+tg;Серҷон;Sirjan
+pl;Sirdżan;Sirjan
+zh;錫爾詹;Sirjan
+pl;Suza;Shūsh
+ca;Susa;Shūsh
+cs;Súsy;Shūsh
+fi;Susa;Shūsh
+ja;スーサ;Shūsh
+no;Susa;Shūsh
+sk;Súsy;Shūsh
+sv;Susa;Shūsh
+zh;設拉子;Shiraz
+ko;시라즈;Shiraz
+ja;シーラーズ;Shiraz
+af;Sjiraz;Shiraz
+be;Шыраз;Shiraz
+bg;Шираз;Shiraz
+ca;Xiraz;Shiraz
+ce;Шираз;Shiraz
+cs;Šíráz;Shiraz
+el;Σιράζ;Shiraz
+eu;Xiraz;Shiraz
+fi;Šīrāz;Shiraz
+he;שיראז;Shiraz
+hr;Širaz;Shiraz
+hu;Siráz;Shiraz
+hy;Շիրազ;Shiraz
+ka;შირაზი;Shiraz
+kk;Шираз;Shiraz
+lt;Širazas;Shiraz
+lv;Šīrāza;Shiraz
+os;Шираз;Shiraz
+sl;Širaz;Shiraz
+sr;Шираз;Shiraz
+tg;Шероз;Shiraz
+th;ชีราซ;Shiraz
+uk;Шираз;Shiraz
+ur;شیراز;Shiraz
+pl;Sziraz;Shiraz
+ceb;Shevengan;Shūngān
+sv;Shevengan;Shūngān
+bg;Шевенган;Shūngān
+ceb;Sevah;Seveh
+sv;Sevah;Seveh
+bg;Севах;Seveh
+ms;Sevah;Seveh
+uk;Сос-Кондар;Sabz Kandar
+ms;Sekal;Seh Gel
+bg;Сахк;Sahk
+el;Σάρι;Sari
+hu;Szári;Sari
+ja;サーリー;Sari
+nn;Sari i Iran;Sari
+zh;薩里市;Sari
+bg;Сари;Sari
+hi;सारी;Sari
+ka;სარი;Sari
+ko;사리;Sari
+lt;Saris;Sari
+os;Сари;Sari
+sr;Сари;Sari
+tg;Сорӣ;Sari
+uk;Сарі;Sari
+hy;Սարի;Sari
+ur;ساری، ایران;Sari
+ca;Sakkiz;Saqqez
+hi;सक्केज;Saqqez
+tg;Саққиз;Saqqez
+ur;سقز;Saqqez
+pl;Saghghez;Saqqez
+zh;薩蓋茲;Saqqez
+ms;Saghandel;Saqam Del
+ur;سغنڈل;Saqam Del
+pl;Sanandadż;Sanandaj
+tg;Санандаҷ;Sanandaj
+be;Сенендэдж;Sanandaj
+bg;Сенендедж;Sanandaj
+cs;Sanandadž;Sanandaj
+hr;Sanandadž;Sanandaj
+hy;Սանանդաջ;Sanandaj
+ko;사난다지;Sanandaj
+lt;Senendedžas;Sanandaj
+sr;Санандаџ;Sanandaj
+uk;Сенендедж;Sanandaj
+zh;萨南达季;Sanandaj
+hi;सनंदज;Sanandaj
+mr;सनंदाज;Sanandaj
+tt;Сәнәндәҗ;Sanandaj
+ja;ラームサル;Rāmsar
+bg;Сабзевар;Sabzevar
+hi;सब्ज़ेवार;Sabzevar
+tg;Сабзивор;Sabzevar
+th;ซับซีวาร์;Sabzevar
+pl;Sabzewar;Sabzevar
+zh;薩卜澤瓦爾;Sabzevar
+uk;Рудбар;Khalīlābād
+bg;Раздонбал;Razdonbal
+cs;Rašt;Rasht
+pl;Raszt;Rasht
+zh;拉什特;Rasht
+bg;Рещ;Rasht
+fi;Rašt;Rasht
+he;ראשת;Rasht
+hi;रश्त;Rasht
+hr;Rašt;Rasht
+ja;ラシュト;Rasht
+ka;რეშთი;Rasht
+kk;Решт;Rasht
+ko;라슈트;Rasht
+lt;Reštas;Rasht
+os;Решт;Rasht
+sr;Рашт;Rasht
+tg;Рашт;Rasht
+th;แรชต์;Rasht
+uk;Решт;Rasht
+ca;Raixt;Rasht
+hy;Ռեշտ;Rasht
+tt;Рәшт;Rasht
+bg;Рахвард;Rahvard
+ceb;Qopor;Qoppoz
+sv;Qopor;Qoppoz
+pl;Kom;Qom
+ja;ゴム;Qom
+tg;Қум;Qom
+he;קום;Qom
+bg;Кум;Qom
+hr;Kom;Qom
+ko;쿰;Qom
+uk;Кум;Qom
+sr;Ком;Qom
+lt;Kumas;Qom
+ceb;Dakbayan sa Qom;Qom
+zh;库姆;Qom
+kk;Кум;Qom
+be;Кум;Qom
+hi;कोम;Qom
+hu;Kom;Qom
+ky;Кум шаары;Qom
+ps;قم;Qom
+ta;குவோம்;Qom
+ur;قم;Qom
+ms;Qeynar;Qanīr
+pl;Kazwin;Qazvin
+ja;ガズヴィーン;Qazvin
+cs;Kazvín;Qazvin
+lt;Kazvinas;Qazvin
+os;Казвин;Qazvin
+ceb;Dakbayan sa Qazvin;Qazvin
+ur;قزوین;Qazvin
+uk;Казвін;Qazvin
+hy;Ղազվին;Qazvin
+bg;Казвин;Qazvin
+ko;카즈빈;Qazvin
+sr;Казвин;Qazvin
+ka;ყაზვინი;Qazvin
+tg;Қазвин;Qazvin
+th;กอซวีน;Qazvin
+zh;加兹温;Qazvin
+kk;Казвин;Qazvin
+ce;Къазвин;Qazvin
+hi;कज़्वीन;Qazvin
+bg;Покхт;Pokht
+af;Piransjahr;Piranshahr
+ca;Piranxahr;Piranshahr
+hr;Piranšaher;Piranshahr
+ja;ピーラーンシャフル;Piranshahr
+lv;Piranšāra;Piranshahr
+sk;Piranšahr;Piranshahr
+tg;Пероншаҳр;Piranshahr
+uk;Піраншерх;Piranshahr
+ur;پیرانشھر;Piranshahr
+pl;Piranszahr;Piranshahr
+zh;皮兰沙赫尔;Piranshahr
+bg;Аварнех;Avarneh
+ceb;Owj;Mazra‘eh-ye Owj
+sv;Owj;Mazra‘eh-ye Owj
+uk;Ошновіє;Oshnavīyeh
+ca;Urmia;Orūmīyeh
+sv;Urmia;Orūmīyeh
+tg;Урумия;Orūmīyeh
+he;אורמיה;Orūmīyeh
+hr;Urmija;Orūmīyeh
+ms;Nowjeh Deh Daraq;Tūrān Now Deh
+fo;Tāzeh Noşratābād;Noşratābād
+af;Nishapur;Neyshābūr
+bg;Нишапур;Neyshābūr
+cy;Nishapur;Neyshābūr
+ja;ニシャプー;Neyshābūr
+tg;Нишопур;Neyshābūr
+ur;نیشاپور;Neyshābūr
+bg;Нейнех;Neyneh
+uk;Нейне;Neyneh
+bg;Нешар;Neshar
+el;Ναχαβάντ;Nahāvand
+ja;ニハーヴァンド;Nahāvand
+ceb;Monavvar Tappeh;Shahīd Bahmanī
+sv;Monavvar Tappeh;Shahīd Bahmanī
+ms;Monavvar Tappeh;Shahīd Bahmanī
+bg;Монавар;Monavvar
+ceb;Mayvaleh;Meyvaleh
+sv;Mayvaleh;Meyvaleh
+bg;Майвалех;Meyvaleh
+uk;Мозвар;Mozvar
+ms;Mashnaq;Eslāmābād-e Mashnaq
+fi;Mašhad;Mashhad
+he;משהד;Mashhad
+pl;Meszhed;Mashhad
+id;Masyhad;Mashhad
+ja;マシュハド;Mashhad
+sk;Mašhad;Mashhad
+tg;Машҳад;Mashhad
+zh-TW;馬什哈德;Mashhad
+lv;Mešheda;Mashhad
+th;มัชฮัด;Mashhad
+ca;Meixad;Mashhad
+uk;Мешхед;Mashhad
+cs;Mašhad;Mashhad
+sr;Мешхед;Mashhad
+ur;مشہد;Mashhad
+lt;Mešhedas;Mashhad
+bg;Машхад;Mashhad
+ko;마슈하드;Mashhad
+ka;მეშჰედი;Mashhad
+ro;Mașhad;Mashhad
+os;Мешхед;Mashhad
+mr;मशहद;Mashhad
+hr;Mašhad;Mashhad
+hi;मशहद;Mashhad
+ml;മശ്‌ഹദ്;Mashhad
+zh;馬什哈德;Mashhad
+be;Мешхед;Mashhad
+ce;МешхӀед;Mashhad
+ceb;Mašhad;Mashhad
+el;Μασάντ;Mashhad
+eu;Maxhad;Mashhad
+bn;মাশহাদ;Mashhad
+bs;Mašhad;Mashhad
+hy;Մաշհադ;Mashhad
+kk;Мешһед;Mashhad
+ky;Мешхед;Mashhad
+pa;ਮਸ਼ਹਦ;Mashhad
+ta;மசுகாத்;Mashhad
+tt;Мәшһәд;Mashhad
+sl;Mašhad;Mashhad
+bg;Марзех;Marzeh
+zh;馬庫;Maku
+uk;Маку;Maku
+hy;Մակու;Maku
+ms;Kohneh Shahr;Gazrīz
+ur;خشک، خراسان جنوبی;Khoshk
+ca;Khorramxahr;Khorramshahr
+cs;Chorramšahr;Khorramshahr
+hr;Horamšaher;Khorramshahr
+ja;ホッラムシャフル;Khorramshahr
+lt;Choremšehras;Khorramshahr
+sk;Chorramšahr;Khorramshahr
+sr;Корамшар;Khorramshahr
+tg;Хуррамшаҳр;Khorramshahr
+ur;خرمشھر;Khorramshahr
+pl;Chorramszahr;Khorramshahr
+zh;霍拉姆沙赫尔;Khorramshahr
+hi;खुर्रमशहर;Khorramshahr
+tg;Хуррамобод;Khorramabad
+ceb;Kharmenj;Faẕlābād
+sv;Kharmenj;Faẕlābād
+bg;Кейварех;Keyvareh
+ja;ケルマーンシャー;Kermanshah
+tg;Кирмоншоҳ;Kermanshah
+tg;Устони Кирмоншоҳ;Kermanshah
+zh;克尔曼沙赫;Kermanshah
+hr;Kermanšah;Kermanshah
+ja;ケルマーン;Kerman
+tg;Кирмон;Kerman
+be;Керман;Kerman
+bg;Керман;Kerman
+ceb;Dakbayan sa Kermān;Kerman
+he;כרמאן;Kerman
+hi;कर्मान;Kerman
+hy;Կերման;Kerman
+ka;ქერმანი;Kerman
+ko;케르만;Kerman
+ky;Керман;Kerman
+lt;Kermanas;Kerman
+sr;Керман;Kerman
+uk;Керман;Kerman
+uz;Kermon;Kerman
+zh;克尔曼;Kerman
+ce;Кередж;Karaj
+cs;Karadž;Karaj
+he;כאראג;Karaj
+hr;Karadž;Karaj
+ja;キャラジ;Karaj
+ka;ქარაჯი;Karaj
+kk;Кередж;Karaj
+ko;카라지;Karaj
+lt;Keredžas;Karaj
+os;Кередж;Karaj
+sr;Караџ;Karaj
+tg;Караҷ;Karaj
+uk;Кередж;Karaj
+pl;Karadż;Karaj
+zh;卡拉季;Karaj
+el;Καράτζ;Karaj
+hi;कैरैज;Karaj
+hu;Karadzs;Karaj
+ky;Кереж;Karaj
+ta;கராஜ்;Karaj
+th;คาราจ;Karaj
+ms;Kand Halan;Kandelān
+ms;Gamand;Kamand
+bg;Команд;Komand
+bg;Калкалех;Kalkaleh
+ceb;Kahbā;Kahyā
+sv;Kahbā;Kahyā
+ms;Jegher;Jeghīr
+zh;查夫坦;Jazvanaq
+uk;Джазанак;Jazanaq
+bg;Ейданак;Eydanak
+tg;Гургон;Gorgān
+ceb;Gongak;Gangak
+sv;Gongak;Gangak
+bg;Гонгак;Gangak
+ms;Gonbar;Gonbarf
+hy;Գիշնիգան;Geshnīzjān
+bg;Газнешк;Gazneshk
+ja;フェルドゥース;Ferdows
+tg;Фирдавс;Ferdows
+pl;Ferdous;Ferdows
+zh;費爾道斯;Ferdows
+pl;Faszand;Fashand
+bg;Естарбанд;Estarband
+bg;Ейпак;Eypak
+uk;До-Джофт;Do Joft
+zh;迪茲富勒;Dezful
+th;เดซฟูล;Dezful
+hi;देज़फूल;Dezful
+ms;Dehang;Deh-e Hang
+fa;ده کاظم آهنگر;Deh-e Kāz̧emūngarī
+bg;Дарзех;Darzeh
+hy;Դարեհ շահր;Darreh Shahr
+tg;Даррашаҳр;Darreh Shahr
+pl;Darre Szahr;Darreh Shahr
+bg;Даркеш;Darkesh
+ceb;Cheshmeh Rīj;Cheshmeh Raj
+sv;Cheshmeh Rīj;Cheshmeh Raj
+bg;Чаргар;Chargar
+fi;Būšehr;Bushehr
+tg;Бӯшеҳр;Bushehr
+tg;Бӯшиҳр;Bushehr
+bg;Бошгаз;Boshgaz
+bg;Барзанех;Barzaneh
+sv;Buj;Bowj
+uk;Бон-е Гонбад;Bon Gonbad
+tg;Бӣрҷанд;Bīrjand
+ms;Beik Baghi;Beg Bāgh
+bg;Бейк;Beyk
+bg;Бедащ;Bedasht
+bg;Баргард;Bargard
+bg;Барфех;Barfeh
+ceb;Bardeh Sar;Bardeh Sareh
+sv;Bardeh Sar;Bardeh Sareh
+bn;বারদাস্কান;Bardaskan
+hy;Բարդասքան;Bardaskan
+sr;Бардаскан;Bardaskan
+ur;بردسکن;Bardaskan
+zh;巴爾達斯坎;Bardaskan
+ja;バンダレ・アッバース;Bandar Abbas
+tg;Бандар-Аббос;Bandar Abbas
+zh;阿巴斯港;Bandar Abbas
+pl;Bandar-e Abbas;Bandar Abbas
+uk;Бендер-Аббас;Bandar Abbas
+th;บันดาร์อับบาส;Bandar Abbas
+he;בנדר עבאס;Bandar Abbas
+hi;बंदर-ए-अब्बास;Bandar Abbas
+ko;반다르아바스;Bandar Abbas
+el;Μπαντάρ Αμπάς;Bandar Abbas
+be;Бендэр-Абас;Bandar Abbas
+bn;বন্দর আব্বাস;Bandar Abbas
+hr;Bandar Abas;Bandar Abbas
+hu;Bandar-Abbász;Bandar Abbas
+hy;Բանդեր Աբբաս;Bandar Abbas
+ka;ბენდერ-აბასი;Bandar Abbas
+lt;Bandare Abasas;Bandar Abbas
+os;Бендер-Аббас;Bandar Abbas
+sr;Бендер Абас;Bandar Abbas
+ur;بندر عباس;Bandar Abbas
+ja;バム;Bam
+bg;Бахлгерд;Bahlgerd
+hy;Աթաշթրև;Ātash Khosrow
+bg;Арйех;Āryeh
+gl;Ardebil;Ardabīl
+pl;Ardebil;Ardabīl
+tg;Ардабел;Ardabīl
+hy;Արդաբիլ;Ardabīl
+tg;Арок;Arāk
+bg;Ангощех;Angoshteh
+hy;Ալիաբադ;‘Alīābād
+ceb;Alarj;Alraj
+sv;Alarj;Alraj
+uk;Алардж;Alraj
+hy;Ալավի;‘Alavīq
+pl;Ahwaz;Ahvaz
+ja;アフヴァーズ;Ahvaz
+zh;阿瓦士;Ahvaz
+tg;Аҳвоз;Ahvaz
+be;Ахваз;Ahvaz
+bg;Ахваз;Ahvaz
+bo;ཨཱ་ཝཛ།;Ahvaz
+ca;Ahwaz;Ahvaz
+ce;Ахваз;Ahvaz
+eu;Ahwaz;Ahvaz
+he;אהוואז;Ahvaz
+ka;აჰვაზი;Ahvaz
+ko;아바즈;Ahvaz
+lt;Ahvazas;Ahvaz
+os;Ахваз;Ahvaz
+pa;ਅਹਵਾਜ਼;Ahvaz
+sr;Ахваз;Ahvaz
+uk;Ахваз;Ahvaz
+bn;আহবাজ;Ahvaz
+hi;अहवाज़;Ahvaz
+hy;Ախվազ;Ahvaz
+kaa;Axvaz;Ahvaz
+kk;Ахваз;Ahvaz
+ky;Ахваз шаары;Ahvaz
+lv;Ahvāza;Ahvaz
+ta;ஆக்வாசு;Ahvaz
+ur;اہواز;Ahvaz
+uz;Ahvoz;Ahvaz
+hi;अहार;Ahar
+ko;아하르;Ahar
+tg;Аҳар;Ahar
+ur;اہر;Ahar
+zh;阿哈尔;Ahar
+bg;Афшорд;Afshord
+hy;Ադա;Ādeh-ye Bozorg
+hy;Աբելլա;Ablū
+hy;Աբբելլա;Ablū
+uk;Абдоллагабат;‘Abdollāhābād
+uk;Абданан;Ābdānān
+hi;अबदानन;Ābdānān
+zh;阿卜達南;Ābdānān
+zh-HK;阿卜達南;Ābdānān
+zh-TW;阿卜達南;Ābdānān
+hy;Աբասաբադ;‘Abbāsābād
+ja;アバダーン;Abadan
+uk;Абадан;Abadan
+zh;阿巴丹;Abadan
+ja;アーバーダーン;Abadan
+sr;Абадан;Abadan
+be;Абадан;Abadan
+bg;Абадан;Abadan
+cv;Абадан;Abadan
+el;Αμπαντάν;Abadan
+he;אבאדאן;Abadan
+hy;Աբադան;Abadan
+ka;აბადანი;Abadan
+ko;아바단;Abadan
+lt;Abadanas;Abadan
+lv;Ābadāna;Abadan
+pa;ਆਬਾਦਾਨ;Abadan
+tg;Ободон;Abadan
+ur;آبادان;Abadan
+hi;अबादान;Abadan
+uz;Obodon;Abadan
+hy;Աբդուլքենդ;‘Abdollāh Kand
+hy;Աբուլքենդ;‘Abdollāh Kand
+hy;Ազիմ-Քյանդը;‘Az̧īm Kandī
+hy;Աբաշի;Ḩabashī
+tg;Дараке;Darakeh
+uk;Метеш;Metesh
+bg;Дорафшех;Dorafsheh
+uk;Дорафше;Dorafsheh
+ms;Zardeh Lajeh;Zard-e Lajeh
+uk;Зард-е-Ладже;Zard-e Lajeh
+hy;Նոր Ջուղա;New Julfa
+be;Ісфахан;Isfahan
+bg;Исфахан;Isfahan
+bn;এসফাহন;Isfahan
+ce;Исфахан;Isfahan
+ceb;Dakbayan sa Esfahān;Isfahan
+el;Ισφαχάν;Isfahan
+fi;Esfahan;Isfahan
+he;אספהאן;Isfahan
+hi;इस्फ़हान;Isfahan
+hu;Iszfahán;Isfahan
+hy;Սպահան;Isfahan
+id;Kota Isfahan;Isfahan
+ja;エスファハーン;Isfahan
+ka;ისპაანი;Isfahan
+kk;Исфаһан;Isfahan
+ko;이스파한;Isfahan
+lt;Isfahanas;Isfahan
+lv;Isfahāna;Isfahan
+mr;इस्फहान;Isfahan
+os;Исфахан;Isfahan
+sr;Исфахан;Isfahan
+tg;Исфаҳон;Isfahan
+th;อิสฟาฮาน;Isfahan
+tl;Esfahān;Isfahan
+uk;Ісфахан;Isfahan
+ur;اصفہان;Isfahan
+sv;Esfahan;Isfahan
+zh;伊斯法罕;Isfahan
+ky;Исфахан;Isfahan
+pa;ਇਸਫ਼ਹਾਨ;Isfahan
+ta;இசுபகான்;Isfahan
+uz;Isfahon;Isfahan
+hr;Eslamšaher;Eslamshahr
+bg;Кхорамак;Khorramak
+fa;ابراهیم ملک داد;Ebrāhīm Malek
+be;Захедан;Zahedan
+bg;Захедан;Zahedan
+bn;জহেদন;Zahedan
+hi;ज़ाहेदान;Zahedan
+ja;ザーヘダーン;Zahedan
+ka;ზაჰედანი;Zahedan
+kk;Захедан;Zahedan
+ko;자헤단;Zahedan
+lt;Zahedanas;Zahedan
+os;Захедан;Zahedan
+sr;Захедан;Zahedan
+tg;Зоҳидон;Zahedan
+uk;Захедан;Zahedan
+zh;扎黑丹;Zahedan
+hy;Զահեդան;Zahedan
+ta;சாகிதன்;Zahedan
+ur;زاہدان;Zahedan
+bg;Маркех;Markeh
+bg;Гозокхт;Gozokht
+cs;Čáhbahár;Chabahar
+hi;चाबहार;Chabahar
+mg;Chah Bahar;Chabahar
+pa;ਚਾਬਹਾਰ;Chabahar
+tg;Чҳобаҳор;Chabahar
+ur;چابہار;Chabahar
+pl;Czabahar;Chabahar
+zh;恰赫巴哈爾;Chabahar
+ceb;Astalak;Saţlak
+sv;Astalak;Saţlak
+bg;Асталак;Saţlak
+hy;Աիզլը;Āyozlū
+ms;Bejushan;Bajūshīn
+ms;Tazeh Kand-e Loqmanabad;Tāzeh Kand
+zh;霍梅尼港;Bandar-e Emam Khomeyni
+ja;バンダレ・エマーム・ホメイニー;Bandar-e Emam Khomeyni
+da;Bandar Imam;Bandar-e Emam Khomeyni
+hi;बंदर-ए-इमाम खुमेयनी;Bandar-e Emam Khomeyni
+hr;Bandar-e Homeini;Bandar-e Emam Khomeyni
+ko;반다르에에맘호메이니;Bandar-e Emam Khomeyni
+lt;Bandare Chomeinis;Bandar-e Emam Khomeyni
+ro;Bandar Imam;Bandar-e Emam Khomeyni
+uk;Бендер-Імам-Хомейні;Bandar-e Emam Khomeyni
+ur;بندر امام خمینی;Bandar-e Emam Khomeyni
+pl;Bandar-e Chomejni;Bandar-e Emam Khomeyni
+uk;Чегель-Раз;Chehel Raz
+be;Рэй;Rey
+bg;Рей;Rey
+ca;Rayy;Rey
+el;Ρέι;Rey
+hr;Raj;Rey
+id;Ray;Rey
+kk;Рей;Rey
+lt;Rėjus;Rey
+ms;Rayy;Rey
+no;Rayy;Rey
+ro;Ray;Rey
+sl;Raj;Rey
+ur;ری;Rey
+uz;Ray;Rey
+pl;Rej;Rey
+sv;Rayy;Rey
+zh;雷伊;Rey

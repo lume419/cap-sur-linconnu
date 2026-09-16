@@ -437,3 +437,867 @@ ar;ياوكو;Yauco
 hi;याउको;Yauco
 ja;ヤウコ;Yauco
 en;Roosevelt Roads;Roosevelt Roads Comunidad
+kk;Адхунтас;Adjuntas
+ky;Адхунтас;Adjuntas
+bn;অ্যাডজুন্টাস;Adjuntas
+ur;ایڈجنٹاس;Adjuntas
+am;አድጁንታስ;Adjuntas
+fa;ادجونتاس;Adjuntas
+pa;ਅਡਜੁੰਟਾਸ;Adjuntas
+ps;ادجونتاس;Adjuntas
+tg;Адхунтас;Adjuntas
+tt;Адхунтас;Adjuntas
+uk;Агуада;Aguada
+sr;Агвада;Aguada
+fa;اگوادا، پوئرتو ریکو;Aguada
+ur;اگوادا، پورٹو ریکو;Aguada
+kk;Агуада;Aguada
+ky;Агуада;Aguada
+bn;আগুয়াডা;Aguada
+am;አጓዳ;Aguada
+pa;ਅਗੁਆਡਾ;Aguada
+ps;اګوادا;Aguada
+tg;Агуада;Aguada
+tt;Агуада;Aguada
+uk;Агуаділья;Aguadilla
+sr;Агвадиља;Aguadilla
+fa;اگوادیلا، پویرتو ریکو;Aguadilla
+kk;Агуадилья;Aguadilla
+ur;اگوادیلا، پورٹو ریکو;Aguadilla
+ky;Агуадилья;Aguadilla
+bn;আগুয়াডিলা;Aguadilla
+am;አጓዲላ;Aguadilla
+pa;ਅਗੁਆਡਿੱਲਾ;Aguadilla
+ps;اګوادیلا;Aguadilla
+tg;Агуадилья;Aguadilla
+tt;Агуадилья;Aguadilla
+kk;Агуас-Буэнас;Aguas Buenas
+ky;Агуас-Буэнас;Aguas Buenas
+bn;আগুয়াস বুয়েনাস;Aguas Buenas
+ur;اگواس بوینس;Aguas Buenas
+am;አጓስ ቡዌናስ;Aguas Buenas
+fa;آگوآس بوئناس;Aguas Buenas
+pa;ਅਗੁਆਸ ਬੁਏਨਾਸ;Aguas Buenas
+ps;اګواس بوینس;Aguas Buenas
+tg;Агуас-Буэнас;Aguas Buenas
+tt;Агуас-Буэнас;Aguas Buenas
+kk;Айбонито;Aibonito
+ky;Айбонито;Aibonito
+bn;আইবোনিটো;Aibonito
+ur;ائی بونیٹو;Aibonito
+am;አይቦኒቶ;Aibonito
+fa;ایبونیتو;Aibonito
+pa;ਐਬੋਨੀਟੋ;Aibonito
+ps;ايبونيتو;Aibonito
+tg;Айбонито;Aibonito
+tt;Айбонито;Aibonito
+uk;Аньяско;Añasco
+sr;Ањаско;Añasco
+kk;Ананско;Añasco
+ky;Ананско;Añasco
+bn;আনাস্কো;Añasco
+ur;اناسکو;Añasco
+am;አናስኮ;Añasco
+fa;آناسکو;Añasco
+pa;ਅਨਾਸਕੋ;Añasco
+ps;اناسکو;Añasco
+tg;Ананско;Añasco
+tt;Ананско;Añasco
+kk;Арресибо;Arecibo
+ky;Арресибо;Arecibo
+bn;আরেসিবো;Arecibo
+ur;اریسیبو;Arecibo
+am;አሬሲቦ;Arecibo
+fa;آرسیبو;Arecibo
+pa;ਅਰੇਸੀਬੋ;Arecibo
+ps;اريسيبو;Arecibo
+tg;Арресибо;Arecibo
+tt;Арресибо;Arecibo
+kk;Арройо;Arroyo
+ky;Арройо;Arroyo
+bn;আররোয়ো;Arroyo
+ur;ارویو;Arroyo
+am;አሮዮ;Arroyo
+fa;آروئیو;Arroyo
+pa;ਅਰੋਯੋ;Arroyo
+ps;اروى;Arroyo
+tg;Арройо;Arroyo
+tt;Арройо;Arroyo
+kk;Барселонета;Barceloneta
+ky;Барселонета;Barceloneta
+bn;বার্সেলোনেটা;Barceloneta
+ur;برسلونیٹا;Barceloneta
+am;ባርሴሎኔታ;Barceloneta
+fa;بارسلونتا;Barceloneta
+pa;ਬਾਰਸੀਲੋਨੇਟਾ;Barceloneta
+ps;برسلونيتا;Barceloneta
+tg;Барселонета;Barceloneta
+tt;Барселонета;Barceloneta
+sr;Баранкитас;Barranquitas
+uk;Барранкітас;Barranquitas
+ur;بارانکیتاس، پورٹو ریکو;Barranquitas
+kk;Барранкитас;Barranquitas
+ky;Барранкитас;Barranquitas
+bn;বারানকিটাস;Barranquitas
+am;ባራንኪታስ;Barranquitas
+fa;باران کیتاس;Barranquitas
+pa;ਬਾਰਾਨਕਿਟਾਸ;Barranquitas
+ps;باررانكيتاس;Barranquitas
+tg;Барранкитас;Barranquitas
+bg;Баямон;Bayamón
+mk;Бајамон;Bayamón
+uk;Баямон;Bayamón
+lt;Bajamonas;Bayamón
+kk;Баямон;Bayamón
+ky;Баямон;Bayamón
+bn;বায়ামন;Bayamón
+ur;بایامون;Bayamón
+am;ባያሞን;Bayamón
+fa;بایامون;Bayamón
+pa;ਬਾਯਾਮੋਨ;Bayamón
+ps;بايامون;Bayamón
+tg;Баямон;Bayamón
+tt;Баямон;Bayamón
+uk;Кабо-Рохо;Cabo Rojo
+sr;Кабо Рохо;Cabo Rojo
+kk;Кабо-Рохо;Cabo Rojo
+ky;Кабо-Рохо;Cabo Rojo
+bn;কাবো রোজো;Cabo Rojo
+ur;کابو روجو;Cabo Rojo
+am;ካቦ ሮሆ;Cabo Rojo
+fa;کابو روخو;Cabo Rojo
+pa;ਕਾਬੋ ਰੋਜੋ;Cabo Rojo
+ps;كابو روخو;Cabo Rojo
+tg;Кабо-Рохо;Cabo Rojo
+tt;Кабо-Рохо;Cabo Rojo
+lt;Kaguasas;Caguas
+mk;Кагуас;Caguas
+sr;Кагвас;Caguas
+uk;Кагуас;Caguas
+he;קגואס;Caguas
+kk;Кагуас;Caguas
+ur;کاگواس، پورٹو ریکو;Caguas
+ky;Кагуас;Caguas
+bn;কাগুয়াস;Caguas
+am;ካጓአስ;Caguas
+fa;کاگوآس;Caguas
+pa;ਕਾਗੁਆਸ;Caguas
+ps;کاغواس;Caguas
+tg;Кагуас;Caguas
+tt;Кагуас;Caguas
+uk;Камуй;Camuy
+sr;Камуј;Camuy
+kk;Камуй;Camuy
+ky;Камуй;Camuy
+bn;ক্যামুই;Camuy
+ur;کامو;Camuy
+am;ካሙይ;Camuy
+fa;کامی;Camuy
+pa;ਕਾਮੁਇ;Camuy
+ps;کاموي;Camuy
+tg;Камуй;Camuy
+tt;Камуй;Camuy
+kk;Канованнас;Canovanas
+ky;Канованнас;Canovanas
+bn;ক্যানোভানাস;Canovanas
+ur;کانوانس;Canovanas
+am;ካኖቫናስ;Canovanas
+fa;کانوفانس;Canovanas
+pa;ਕਾਨੋਵਾਨਾਸ;Canovanas
+ps;کانوفانا;Canovanas
+tg;Канованнас;Canovanas
+tt;Канованнас;Canovanas
+kk;Каролина;Carolina
+ky;Каролина;Carolina
+bn;ক্যারোলিনা;Carolina
+ur;کیرولینا;Carolina
+am;ካሮላይና;Carolina
+az;Karolina;Carolina
+fa;کارولینا;Carolina
+pa;ਕੈਰੋਲੀਨਾ;Carolina
+ps;کارولينا;Carolina
+tg;Каролина;Carolina
+tt;Каролина;Carolina
+kk;Катано;Cataño
+ky;Катано;Cataño
+bn;ক্যাটানো;Cataño
+ur;کاتانو;Cataño
+am;ካታኖ;Cataño
+az;Katano;Cataño
+fa;کاتانو;Cataño
+pa;ਕਾਤਾਨੋ;Cataño
+ps;کاتانو;Cataño
+tg;Катано;Cataño
+tt;Катано;Cataño
+kk;Каей;Cayey
+ky;Каей;Cayey
+bn;কায়ে;Cayey
+ur;کائے;Cayey
+am;ካየይ;Cayey
+az;Kayey;Cayey
+fa;کایی;Cayey
+pa;ਕਾਈ;Cayey
+ps;کایی;Cayey
+tg;Каей;Cayey
+tt;Каей;Cayey
+sr;Сеиба;Ceiba
+uk;Сейба;Ceiba
+ur;سئیبا، پورٹو ریکو;Ceiba
+kk;Сейба;Ceiba
+ky;Сейба;Ceiba
+bn;সেইবা;Ceiba
+am;ሴይባ;Ceiba
+az;Seiba;Ceiba
+fa;سیبا;Ceiba
+pa;ਸੇਬਾ;Ceiba
+ps;سيبا;Ceiba
+tg;Сейба;Ceiba
+tt;Сейба;Ceiba
+sr;Сијалес;Ciales
+uk;Сіалес;Ciales
+ur;سیالیس، پورٹو ریکو;Ciales
+kk;Сиалес;Ciales
+ky;Сиалес;Ciales
+bn;সিয়ালস;Ciales
+am;ሲያለስ;Ciales
+az;Siales;Ciales
+fa;سیالس;Ciales
+pa;ਸਿਆਲਸ;Ciales
+ps;سيالس;Ciales
+tg;Сиалес;Ciales
+tt;Сиалес;Ciales
+kk;Сидра;Cidra
+ky;Сидра;Cidra
+bn;সিদ্রা;Cidra
+ur;سدرہ;Cidra
+am;ሲድራ;Cidra
+az;Sidra;Cidra
+fa;سیدرا;Cidra
+pa;ਸਿਦਰਾ;Cidra
+ps;سيدرا;Cidra
+tg;Сидра;Cidra
+tt;Сидра;Cidra
+uk;Коамо;Coamo
+sr;Коамо;Coamo
+ur;کوامو، پورٹو ریکو;Coamo
+kk;Коамо;Coamo
+ky;Коамо;Coamo
+bn;কোয়ামো;Coamo
+am;ኮአሞ;Coamo
+az;Koamo;Coamo
+fa;کوامو;Coamo
+pa;ਕੋਆਮੋ;Coamo
+ps;کوامو;Coamo
+tg;Коамо;Coamo
+tt;Коамо;Coamo
+kk;Комерио;Comerío
+ky;Комерио;Comerío
+bn;কোমেরিও;Comerío
+ur;کومیریو;Comerío
+am;ኮመሪዮ;Comerío
+az;Komerio;Comerío
+fa;کومریو;Comerío
+pa;ਕੋਮੇਰੀਓ;Comerío
+ps;کوميريو;Comerío
+tg;Комерио;Comerío
+tt;Комерио;Comerío
+kk;Коросаль;Corozal
+ky;Коросаль;Corozal
+bn;কোরোজাল;Corozal
+ur;کوروزل;Corozal
+am;ኮሮዛል;Corozal
+az;Korozal;Corozal
+fa;کوروزال;Corozal
+pa;ਕੋਰੋਜ਼ਲ;Corozal
+ps;کوروزال;Corozal
+tg;Коросаль;Corozal
+tt;Коросаль;Corozal
+kk;Кулебра;Culebra
+ky;Кулебра;Culebra
+bn;কুলেব্রা;Culebra
+ur;کولیبرا;Culebra
+am;ኩሌብራ;Culebra
+az;Kulebra;Culebra
+fa;کولبرا;Culebra
+pa;ਕੁਲੇਬਰਾ;Culebra
+ps;کوليبرا;Culebra
+tg;Кулебра;Culebra
+tt;Кулебра;Culebra
+sr;Дорадо;Dorado
+uk;Дорадо;Dorado
+ur;دورادو، پورٹو ریکو;Dorado
+kk;Дорадо;Dorado
+ky;Дорадо;Dorado
+bn;ডোরাডো;Dorado
+am;ዶራዶ;Dorado
+fa;دورادو;Dorado
+pa;ਡੋਰਾਡੋ;Dorado
+ps;دورادو;Dorado
+tg;Дорадо;Dorado
+tt;Дорадо;Dorado
+sr;Фахардо;Fajardo
+uk;Фахардо;Fajardo
+ur;فاجارڈو، پویرٹو ریکو;Fajardo
+kk;Фахардо;Fajardo
+ky;Фахардо;Fajardo
+bn;ফাজার্দো;Fajardo
+am;ፋጃርዶ;Fajardo
+fa;فاخاردو;Fajardo
+pa;ਫਾਜਾਰਡੋ;Fajardo
+ps;فاخاردو;Fajardo
+tg;Фахардо;Fajardo
+tt;Фахардо;Fajardo
+kk;Флорида;Florida
+ky;Флорида;Florida
+bn;ফ্লোরিডা;Florida
+ur;فلوریڈا;Florida
+am;ፍሎሪዳ;Florida
+fa;فلوریدا;Florida
+pa;ਫਲੋਰਿਡਾ;Florida
+ps;فلوريدا;Florida
+tg;Флорида;Florida
+tt;Флорида;Florida
+sr;Гваника;Guánica
+uk;Гваніка;Guánica
+ur;گوانیکا، پورٹو ریکو;Guánica
+kk;Гуаника;Guánica
+ky;Гуаника;Guánica
+bn;গুয়ানিকা;Guánica
+am;ጋዋኒካ;Guánica
+az;Guanika;Guánica
+fa;گوانیکا;Guánica
+pa;ਗੁਆਨਿਕਾ;Guánica
+ps;غوانيكا;Guánica
+tg;Гуаника;Guánica
+tt;Гуаника;Guánica
+uk;Гваяма;Guayama
+sr;Гвајама;Guayama
+ur;گوایاما، پورٹو ریکو;Guayama
+kk;Гуаяма;Guayama
+ky;Гуаяма;Guayama
+bn;গুয়ায়ামা;Guayama
+am;ጋወያማ;Guayama
+az;Quayama;Guayama
+fa;گوایاما;Guayama
+pa;ਗੁਆਯਾਮਾ;Guayama
+ps;غوايامة;Guayama
+tg;Гуаяма;Guayama
+tt;Гуаяма;Guayama
+kk;Гуаянилья;Guayanilla
+ky;Гуаянилья;Guayanilla
+bn;গুয়াইয়ানিলা;Guayanilla
+ur;گوایانیلا;Guayanilla
+am;ጉዋያኒላ;Guayanilla
+fa;گوایانیلا;Guayanilla
+pa;ਗੁਆਯਾਨਿਲਾ;Guayanilla
+ps;ګواینیلا;Guayanilla
+tg;Гуаянилля;Guayanilla
+kk;Гуайнабо;Guaynabo
+ky;Гуайнабо;Guaynabo
+bn;গুয়াইনাবো;Guaynabo
+ur;گوینابو;Guaynabo
+am;ጉዋይናቦ;Guaynabo
+fa;گوینابو;Guaynabo
+pa;ਗੁਆਯਨਾਬੋ;Guaynabo
+ps;ګوینابو;Guaynabo
+tg;Гуайнабо;Guaynabo
+sr;Гурабо;Gurabo
+uk;Гурабо;Gurabo
+ur;گورابو، پورٹو ریکو;Gurabo
+kk;Гурабо;Gurabo
+ky;Гурабо;Gurabo
+bn;গুরাবো;Gurabo
+am;ጉራቦ;Gurabo
+fa;گرابو;Gurabo
+pa;ਗੁਰਾਬੋ;Gurabo
+ps;گرابو;Gurabo
+tg;Гурабо;Gurabo
+sr;Атиљо;Hatillo
+uk;Атільйо;Hatillo
+ur;اتیلو، پورٹو ریکو;Hatillo
+kk;Атилло;Hatillo
+ky;Атилло;Hatillo
+bn;হাতিলো;Hatillo
+am;ሃቲሎ;Hatillo
+fa;هاتیلو;Hatillo
+pa;ਹਟਿਲੋ;Hatillo
+ps;هاتیلو;Hatillo
+tg;Атилло;Hatillo
+sr;Ормигерос;Hormigueros
+uk;Ормігерос;Hormigueros
+ur;اورمیگیروس، پورٹو ریکو;Hormigueros
+kk;Ормигеро;Hormigueros
+ky;Ормигеро;Hormigueros
+bn;হরমিগুয়েরোস;Hormigueros
+am;ሆርሚጌሮስ;Hormigueros
+fa;هورمیگویروس;Hormigueros
+pa;ਹੋਰਮਿਗੁਏਰੋਸ;Hormigueros
+ps;هورمیگویروس;Hormigueros
+tg;Ормигеро;Hormigueros
+uk;Умакао;Humacao
+sr;Умакао;Humacao
+ur;اوماکاو، پورٹو ریکو;Humacao
+kk;Умакао;Humacao
+ky;Умакао;Humacao
+bn;হুমাকাও;Humacao
+am;ሁማካኦ;Humacao
+fa;هوماکاو;Humacao
+pa;ਹੁਮਾਕਾਓ;Humacao
+ps;هوماکاو;Humacao
+tg;Умакао;Humacao
+kk;Изабела;Isabela
+ky;Изабела;Isabela
+bn;ইসাবেলা;Isabela
+ur;ازابیلا;Isabela
+am;ኢሳቤላ;Isabela
+fa;ایزابلا;Isabela
+pa;ਇਸਾਬੇਲਾ;Isabela
+ps;ازابیلا;Isabela
+tg;Изабела;Isabela
+kk;Джайуйя;Jayuya
+ky;Джайуйя;Jayuya
+bn;জায়ুয়া;Jayuya
+ur;جایویا;Jayuya
+am;ጃዩያ;Jayuya
+fa;جایویا;Jayuya
+pa;ਜਯੁਆ;Jayuya
+ps;جایویا;Jayuya
+tg;Джайуйя;Jayuya
+uk;Хуана-Діас;Juana Díaz
+sr;Хуана Дијаз;Juana Díaz
+ur;خوانا دیاز، پورٹو ریکو;Juana Díaz
+kk;Хуана Диас;Juana Díaz
+ky;Хуана Диас;Juana Díaz
+bn;জুয়ানা দিয়াজ;Juana Díaz
+am;ጁዋና ዲያዝ;Juana Díaz
+fa;خوانا دیاز;Juana Díaz
+pa;ਜੁਆਨਾ ਡੀਆਜ਼;Juana Díaz
+ps;جوانا ډیاز;Juana Díaz
+tg;Хуана Диас;Juana Díaz
+kk;Хункос;Juncos
+ky;Хункос;Juncos
+bn;জুনকোস;Juncos
+ur;جنکوس;Juncos
+am;ጁንኮስ;Juncos
+fa;جونکوس;Juncos
+pa;ਜੁਨਕੋਸ;Juncos
+ps;جنکوس;Juncos
+tg;Хункос;Juncos
+sr;Лахас;Lajas
+uk;Лахас;Lajas
+ur;لاخاس، پورٹو ریکو;Lajas
+kk;Лахас;Lajas
+ky;Лахас;Lajas
+bn;লাহাস;Lajas
+am;ላሃስ;Lajas
+fa;لاخاس;Lajas
+pa;ਲਾਹਾਸ;Lajas
+ps;لاهاس;Lajas
+tg;Лахас;Lajas
+sr;Ларес;Lares
+uk;Ларес;Lares
+ur;لاریس، پورٹو ریکو;Lares
+kk;Ларес;Lares
+ky;Ларес;Lares
+bn;লারেস;Lares
+am;ላሬስ;Lares
+fa;لاریس;Lares
+pa;ਲਾਰੇਸ;Lares
+ps;لاریس;Lares
+tg;Ларес;Lares
+sr;Лас Маријас;Las Marías
+uk;Лас-Маріас;Las Marías
+kk;Лас Мариас;Las Marías
+ky;Лас Мариас;Las Marías
+bn;লাস মারিয়াস;Las Marías
+ur;لاس ماریاس;Las Marías
+am;ላስ ማሪያስ;Las Marías
+fa;لاس ماریاس;Las Marías
+pa;ਲਾਸ ਮਾਰੀਆਸ;Las Marías
+ps;لاس ماریاس;Las Marías
+tg;Лас Мариас;Las Marías
+kk;Лас Пьедрас;Las Piedras
+ky;Лас Пьедрас;Las Piedras
+bn;লাস পিয়েদ্রাস;Las Piedras
+ur;لاس پیڈراس;Las Piedras
+am;ላስ ፒዩድራስ;Las Piedras
+fa;لاس پیدراس;Las Piedras
+pa;ਲਾਸ ਪਿਏਦਰਾਸ;Las Piedras
+ps;لاس پیدراس;Las Piedras
+tg;Лас Пьедрас;Las Piedras
+sr;Левитаун;Levittown
+sr;Лоиза;Loíza
+uk;Лоїса;Loíza
+ur;لویسا، پورٹو ریکو;Loíza
+kk;Лойза;Loíza
+ky;Лойза;Loíza
+bn;লোইজা;Loíza
+am;ሎይዛ;Loíza
+fa;لویزا;Loíza
+pa;ਲੋਇਜ਼ਾ;Loíza
+ps;لویزا;Loíza
+tg;Лойза;Loíza
+kk;Лукильо;Luquillo
+ky;Лукильо;Luquillo
+bn;লুকিলো;Luquillo
+ur;لوکیلو;Luquillo
+am;ሉኪሎ;Luquillo
+fa;لوکیلو;Luquillo
+pa;ਲੁਕਿਲੋ;Luquillo
+ps;لوکیلو;Luquillo
+tg;Лукильо;Luquillo
+kk;Манати;Manatí
+ky;Манати;Manatí
+bn;মানাতি;Manatí
+ur;مناتی;Manatí
+am;ማናቲ;Manatí
+fa;مناتی;Manatí
+pa;ਮਾਨਾਤੀ;Manatí
+ps;مناتي;Manatí
+tg;Манати;Manatí
+sr;Марикао;Maricao
+uk;Марікао;Maricao
+ur;ماریکاو، پورٹو ریکو;Maricao
+kk;Марикао;Maricao
+ky;Марикао;Maricao
+bn;মারিকাও;Maricao
+am;ማሪካኦ;Maricao
+fa;ماریکاو;Maricao
+pa;ਮਾਰਿਕਾਓ;Maricao
+ps;ماریکاو;Maricao
+tg;Марикао;Maricao
+kk;Мауна́бо;Maunabo
+ky;Мауна́бо;Maunabo
+bn;মৌনাবো;Maunabo
+ur;مونابو;Maunabo
+am;ማውናቦ;Maunabo
+fa;مونابو;Maunabo
+pa;ਮੌਨਾਬੋ;Maunabo
+ps;مونابو;Maunabo
+tg;Мауна́бо;Maunabo
+sr;Мока;Moca
+uk;Мока;Moca
+ur;موکا، پورٹو ریکو;Moca
+kk;Мока;Moca
+ky;Мока;Moca
+bn;মোকা;Moca
+am;ሞካ;Moca
+fa;موکا;Moca
+pa;ਮੋਕਾ;Moca
+ps;موکا;Moca
+tg;Мока;Moca
+kk;Моровис;Morovis
+ky;Моровис;Morovis
+bn;মোরোভিস;Morovis
+ur;موروویس;Morovis
+am;ሞሮቪስ;Morovis
+fa;موروویس;Morovis
+pa;ਮੋਰੋਵਿਸ;Morovis
+ps;موروویس;Morovis
+tg;Моровис;Morovis
+lt;Majaguesas;Mayagüez
+mr;मायाग्वेझ;Mayagüez
+uk;Маягуес;Mayagüez
+sr;Мајагвез;Mayagüez
+bg;Маягуес;Mayagüez
+el;Μαγιαγουές;Mayagüez
+he;מאיאגואס;Mayagüez
+ur;مایاگویس، پورٹو ریکو;Mayagüez
+kk;Майагуэс;Mayagüez
+ky;Майагуэс;Mayagüez
+bn;মায়াগুয়েজ;Mayagüez
+am;ማያጓዬዝ;Mayagüez
+fa;مایاگویز;Mayagüez
+pa;ਮਾਇਆਗਯੂਜ਼;Mayagüez
+ps;مایاگویز;Mayagüez
+tg;Майагуэс;Mayagüez
+sr;Нагвабо;Naguabo
+uk;Нагуабо;Naguabo
+ur;ناگوابو، پورٹو ریکو;Naguabo
+kk;Нагуабо;Naguabo
+ky;Нагуабо;Naguabo
+bn;নাগুয়াবো;Naguabo
+am;ናጓአቦ;Naguabo
+fa;ناگوابو;Naguabo
+pa;ਨਾਗੁਆਬੋ;Naguabo
+ps;ناگوابو;Naguabo
+tg;Нагуабо;Naguabo
+sr;Наранхито;Naranjito
+uk;Наранхіто;Naranjito
+ur;نارانخیتو، پورٹو ریکو;Naranjito
+kk;Наранхито;Naranjito
+ky;Наранхито;Naranjito
+bn;নারানজিতো;Naranjito
+am;ናራንጂቶ;Naranjito
+fa;ناراخیتو;Naranjito
+pa;ਨਾਰਾਂਜ਼ੀਟੋ;Naranjito
+ps;ناراخیتو;Naranjito
+tg;Наранхито;Naranjito
+kk;Орокови́с;Orocovis
+ky;Орокови́с;Orocovis
+bn;ওরোকোভিস;Orocovis
+ur;اوروکوویس;Orocovis
+am;ኦሮኮቪስ;Orocovis
+fa;اوروکوویس;Orocovis
+pa;ਓਰੋਕੋਵਿਸ;Orocovis
+ps;اوروکوویس;Orocovis
+tg;Орокови́с;Orocovis
+uk;Патільяс;Patillas
+sr;Патиљас;Patillas
+ur;پاتیلاس، پورٹو ریکو;Patillas
+kk;Патильяс;Patillas
+ky;Патильяс;Patillas
+bn;প্যাটিলাস;Patillas
+am;ፓቲያስ;Patillas
+fa;پاتیلاس;Patillas
+pa;ਪਾਤਿਲਾਸ;Patillas
+ps;پاتیلاس;Patillas
+tg;Патильяс;Patillas
+kk;Пеньуэлас;Peñuelas
+ky;Пеньуэлас;Peñuelas
+bn;পেনুয়েলাস;Peñuelas
+ur;پینویلاس;Peñuelas
+am;ፔኛዌላስ;Peñuelas
+fa;پینویلاس;Peñuelas
+pa;ਪੇਨੁਏਲਾਸ;Peñuelas
+ps;پینویلاس;Peñuelas
+tg;Пеньуэлас;Peñuelas
+bg;Понсе;Ponce
+lt;Ponsė;Ponce
+mk;Понсе;Ponce
+uk;Понсе;Ponce
+kk;Понсе;Ponce
+ky;Понсе;Ponce
+bn;পন্স;Ponce
+ur;پونسے;Ponce
+am;ፖንሰ;Ponce
+fa;پونسه;Ponce
+pa;ਪੋਨਸੇ;Ponce
+ps;پونسې;Ponce
+tg;Понсе;Ponce
+sr;Кебрадиљас;Quebradillas
+uk;Кебрадільяс;Quebradillas
+ur;کیبرادیلاس، پورٹو ریکو;Quebradillas
+kk;Кебрадильяс;Quebradillas
+ky;Кебрадильяс;Quebradillas
+bn;কেব্রাডিলাস;Quebradillas
+am;ኬብራዲያስ;Quebradillas
+fa;کویبراادیلاس;Quebradillas
+pa;ਕੇਬਰਾਡੀਲਾਸ;Quebradillas
+ps;کویبراڈیلاس;Quebradillas
+tg;Кебрадильяс;Quebradillas
+kk;Ринкон;Rincón
+ky;Ринкон;Rincón
+bn;রিনকন;Rincón
+ur;رنکن;Rincón
+am;ሪንኮን;Rincón
+az;Rinkon;Rincón
+fa;رینکون;Rincón
+pa;ਰਿਨਕੌਨ;Rincón
+ps;رنکون;Rincón
+tg;Ринкон;Rincón
+tt;Ринкон;Rincón
+sr;Рио Гранде;Río Grande
+uk;Ріо-Гранде;Río Grande
+ur;ریو گرینڈے، پورٹو ریکو;Río Grande
+kk;Рио-Гранде;Río Grande
+ky;Рио-Гранде;Río Grande
+bn;রিও গ্রান্ডে;Río Grande
+am;ሪዮ ግራንዴ;Río Grande
+fa;ریو گرانده;Río Grande
+pa;ਰਿਓ ਗ੍ਰਾਂਡੇ;Río Grande
+ps;ریو گرانډ;Río Grande
+tg;Рио-Гранде;Río Grande
+tt;Рио-Гранде;Río Grande
+sr;Сабана Гранде;Sabana Grande
+uk;Сабана-Гранде;Sabana Grande
+ur;سبانہ گراندے، پورٹو ریکو;Sabana Grande
+kk;Сабана-Гранде;Sabana Grande
+ky;Сабана-Гранде;Sabana Grande
+bn;সাবানা গ্রান্ডে;Sabana Grande
+am;ሳባና ግራንዴ;Sabana Grande
+fa;سابانا گرانده;Sabana Grande
+pa;ਸਾਬਾਨਾ ਗ੍ਰਾਂਡੇ;Sabana Grande
+ps;سابانا گرانډ;Sabana Grande
+tg;Сабана-Гранде;Sabana Grande
+tt;Сабана-Гранде;Sabana Grande
+kk;Салинас;Salinas
+ky;Салинас;Salinas
+bn;সালিনাস;Salinas
+ur;سالناس;Salinas
+am;ሳሊናስ;Salinas
+fa;سالیناس;Salinas
+pa;ਸਾਲਿਨਾਸ;Salinas
+ps;سالاناس;Salinas
+tg;Салинас;Salinas
+tt;Салинас;Salinas
+sr;Сан Антонио;San Antonio
+uk;Сан-Херман;San Germán
+sr;Сан Херман;San Germán
+ur;سان خیرمان، پورٹو ریکو;San Germán
+kk;Сан-Жермен;San Germán
+ky;Сан-Жермен;San Germán
+bn;সান জার্মান;San Germán
+am;ሳን ጀርማን;San Germán
+az;San Herman;San Germán
+fa;سان جرمان;San Germán
+pa;ਸੈਨ ਜਰਮਨ;San Germán
+ps;سان جرمن;San Germán
+tg;Сан-Жермен;San Germán
+tt;Сан-Жермен;San Germán
+mk;Сан Хуан;San Juan
+lt;San Chuanas;San Juan
+ta;சான் வான்;San Juan
+he;סן חואן;San Juan
+os;Сан-Хуан;San Juan
+th;ซานฮวน;San Juan
+uk;Сан-Хуан;San Juan
+ka;სან-ხუანი;San Juan
+fa;سان خوآن;San Juan
+gl;San Xoán;San Juan
+sr;Сан Хуан;San Juan
+el;Σαν Χουάν;San Juan
+bg;Сан Хуан;San Juan
+mr;सान हुआन;San Juan
+be;Сан-Хуан;San Juan
+hy;Սան Խուան;San Juan
+eu;San Juan de Puerto Rico;San Juan
+ur;سان خوآن;San Juan
+lv;Sanhuana;San Juan
+az;San Xuan;San Juan
+pa;ਸਾਨ ਹੁਆਨ;San Juan
+vep;San Huan;San Juan
+kk;Сан-Лоренцо;San Lorenzo
+ky;Сан-Лоренцо;San Lorenzo
+bn;সান লোরেঞ্জো;San Lorenzo
+ur;سان لورینزو;San Lorenzo
+am;ሳን ሎሬንዞ;San Lorenzo
+fa;سان لورنزو;San Lorenzo
+pa;ਸੈਨ ਲੋਰੇਂਜ਼ੋ;San Lorenzo
+ps;سان لورنزو;San Lorenzo
+tg;Сан-Лоренцо;San Lorenzo
+tt;Сан-Лоренцо;San Lorenzo
+kk;Сан-Себастьян;San Sebastián
+ky;Сан-Себастьян;San Sebastián
+bn;সান সেবাস্টিয়ান;San Sebastián
+ur;سان سیباسچن;San Sebastián
+am;ሳን ሴባስቲያን;San Sebastián
+fa;سان سباستیان;San Sebastián
+pa;ਸੈਨ ਸੇਬਾਸਟਿਆਨ;San Sebastián
+ps;سان سباستيان;San Sebastián
+tg;Сан-Себастьян;San Sebastián
+tt;Сан-Себастьян;San Sebastián
+kk;Санта-Исабель;Santa Isabel
+ky;Санта-Исабель;Santa Isabel
+bn;সান্তা ইসাবেল;Santa Isabel
+ur;سانتا ازابیل;Santa Isabel
+am;ሳንታ ኢሳቤል;Santa Isabel
+fa;سانتا ایزابل;Santa Isabel
+pa;ਸਾਂਤਾ ਈਜ਼ਾਬੇਲ;Santa Isabel
+ps;سانتا ازابیل;Santa Isabel
+tg;Санта-Исабель;Santa Isabel
+tt;Санта-Исабель;Santa Isabel
+sr;Таљабоа;Tallaboa
+sr;Тоа Алта;Toa Alta
+uk;Тоа-Альта;Toa Alta
+ur;توا التا، پورٹو ریکو;Toa Alta
+kk;Тоа-Альта;Toa Alta
+ky;Тоа-Альта;Toa Alta
+bn;তোয়া আলতা;Toa Alta
+am;ቶዋ ኣልታ;Toa Alta
+fa;توا آلتا;Toa Alta
+pa;ਤੋਆ ਅਲਤਾ;Toa Alta
+ps;توا التا;Toa Alta
+tg;Тоа-Альта;Toa Alta
+tt;Тоа-Альта;Toa Alta
+kk;Тоа-Баха;Toa Baja
+ky;Тоа-Баха;Toa Baja
+bn;তোয়া বাজা;Toa Baja
+ur;توا باجا;Toa Baja
+am;ቶዋ ባጃ;Toa Baja
+fa;توا باخا;Toa Baja
+pa;ਤੋਆ ਬਾਜਾ;Toa Baja
+ps;توا باجا;Toa Baja
+tg;Тоа-Баха;Toa Baja
+tt;Тоа-Баха;Toa Baja
+fa;تروژیلو آلتو، پورتوریکو;Trujillo Alto
+sr;Трухиљо Алто;Trujillo Alto
+uk;Трухільйо-Альто;Trujillo Alto
+ur;تروخیلو التو، پورٹو ریکو;Trujillo Alto
+kk;Трухильо-Альто;Trujillo Alto
+ky;Трухильо-Альто;Trujillo Alto
+bn;ত্রুজিলো আলতো;Trujillo Alto
+am;ትሩሂሎ ኣልቶ;Trujillo Alto
+pa;ਟਰੁਜਿਲੋ ਅਲਤੋ;Trujillo Alto
+ps;تروخيلو التو;Trujillo Alto
+tg;Трухильо-Альто;Trujillo Alto
+tt;Трухильо-Альто;Trujillo Alto
+uk;Утуадо;Utuado
+sr;Утуадо;Utuado
+ur;اوتوادو، پورٹو ریکو;Utuado
+kk;Утуадо;Utuado
+ky;Утуадо;Utuado
+bn;উতুয়াদো;Utuado
+am;ኡቱዓዶ;Utuado
+fa;اوتوادو;Utuado
+pa;ਉਤੁਆਦੋ;Utuado
+ps;اوتوادو;Utuado
+tg;Утуадо;Utuado
+tt;Утуадо;Utuado
+fa;وگا آلتا، پورتوریکو;Vega Alta
+sr;Вега Алта;Vega Alta
+uk;Вега-Альта;Vega Alta
+ur;بیگا التا، پورٹو ریکو;Vega Alta
+kk;Вега-Альта;Vega Alta
+ky;Вега-Альта;Vega Alta
+bn;ভেগা আলতা;Vega Alta
+am;ቬጋ ኣልታ;Vega Alta
+pa;ਵੇਗਾ ਅਲਤਾ;Vega Alta
+ps;ویګا التا;Vega Alta
+tg;Вега-Альта;Vega Alta
+tt;Вега-Альта;Vega Alta
+uk;Вега-Баха;Vega Baja
+sr;Вега Баха;Vega Baja
+fa;وگا باجا، پورتوریکو;Vega Baja
+ur;بیگا باخا، پورٹو ریکو;Vega Baja
+kk;Вега-Баха;Vega Baja
+ky;Вега-Баха;Vega Baja
+bn;ভেগা বাজা;Vega Baja
+am;ቬጋ ባጃ;Vega Baja
+pa;ਵੇਗਾ ਬਾਜਾ;Vega Baja
+ps;ویګا باجا;Vega Baja
+tg;Вега-Баха;Vega Baja
+tt;Вега-Баха;Vega Baja
+kk;Вильяльба;Villalba
+ky;Вильяльба;Villalba
+bn;ভিলালবা;Villalba
+ur;ویلالبا;Villalba
+am;ቪላልባ;Villalba
+fa;ویلالبا;Villalba
+pa;ਵਿਲਾਲਬਾ;Villalba
+ps;ویلالبا;Villalba
+tg;Вильяльба;Villalba
+tt;Вильяльба;Villalba
+kk;Ябукоа;Yabucoa
+ky;Ябукоа;Yabucoa
+bn;ইয়াবুকোয়া;Yabucoa
+ur;یابوکوا;Yabucoa
+am;ያቡኮዋ;Yabucoa
+fa;یابوکوا;Yabucoa
+pa;ਯਾਬੂਕੋਆ;Yabucoa
+ps;یابوکوا;Yabucoa
+tg;Ябукоа;Yabucoa
+tt;Ябукоа;Yabucoa
+uk;Яуко;Yauco
+sr;Јауко;Yauco
+ur;یاوکو، پورٹو ریکو;Yauco
+kk;Яуко;Yauco
+ky;Яуко;Yauco
+bn;ইয়াউকো;Yauco
+am;ያውኮ;Yauco
+az;Yauko;Yauco
+fa;یاوکو;Yauco
+pa;ਯਾਉਕੋ;Yauco
+ps;یاوکو;Yauco
+tg;Яуко;Yauco
+tt;Яуко;Yauco

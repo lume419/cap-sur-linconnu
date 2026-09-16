@@ -1,1 +1,5 @@
 lij;Mùnegu;Monaco
+el;Μονακό;Monaco
+is;Mónakó;Monaco
+ru;Монако;Monaco
+ko;모나코;Monaco

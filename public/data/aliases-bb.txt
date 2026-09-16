@@ -45,3 +45,117 @@ ar;باثشيبا;Bathsheba
 hi;बाथशेबा;Bathsheba
 ja;バスシーバ;Bathsheba
 en;The Gap;Saint Lawrence Gap
+kk;Велчман Холл;Welchman Hall
+uz;Velchman Hall;Welchman Hall
+ky;Велчман Холл;Welchman Hall
+bn;ওয়েলচম্যান হল;Welchman Hall
+ur;ویلچمین ہال;Welchman Hall
+am;ወልችማን ሆል;Welchman Hall
+az;Velçmen Holl;Welchman Hall
+fa;ولچمن هال;Welchman Hall
+pa;ਵੇਲਚਮੈਨ ਹਾਲ;Welchman Hall
+ps;ویلچمن هال;Welchman Hall
+tg;Велчман Холл;Welchman Hall
+tt;Велчман Холл;Welchman Hall
+kk;Крейн;Crane
+uz;Kren;Crane
+ky;Крейн;Crane
+bn;ক্রেন;Crane
+ur;کرین;Crane
+am;ክራን;Crane
+az;Krayn;Crane
+fa;کرین;Crane
+pa;ਕ੍ਰੇਨ;Crane
+ps;کرین;Crane
+tg;Крейн;Crane
+tt;Крейн;Crane
+kk;Спейтстаун;Speightstown
+uz;Speytstaun;Speightstown
+ky;Спейтстаун;Speightstown
+bn;স্পেইটস্টাউন;Speightstown
+ur;سپیٹس ٹاؤن;Speightstown
+am;ስፔይትስታውን;Speightstown
+az;Speytstaun;Speightstown
+fa;اسپیتزتاون;Speightstown
+pa;ਸਪੇਇਟਸਟਾਊਨ;Speightstown
+ps;سپیتس ټاون;Speightstown
+tg;Спейтстаун;Speightstown
+tt;Спейтстаун;Speightstown
+kk;Ойстинс;Oistins
+uz;Oyistins;Oistins
+ky;Ойстинс;Oistins
+bn;ওইস্টিনস;Oistins
+ur;اویسٹنز;Oistins
+am;ኦይስቲንስ;Oistins
+az;Oyistins;Oistins
+fa;اویستینز;Oistins
+pa;ਓਇਸਟਿਨਸ;Oistins
+ps;اویستنز;Oistins
+tg;Ойстинс;Oistins
+tt;Ойстинс;Oistins
+kk;Холтаун;Holetown
+uz;Holltaun;Holetown
+ky;Холтаун;Holetown
+bn;হোলটাউন;Holetown
+ur;ہول ٹاؤن;Holetown
+am;ሆልታውን;Holetown
+az;Holtaun;Holetown
+fa;هول تاون;Holetown
+pa;ਹੋਲਟਾਊਨ;Holetown
+ps;هول ټاون;Holetown
+tg;Холтаун;Holetown
+tt;Холтаун;Holetown
+kk;Гринленд;Greenland
+uz;Grenlandiya;Greenland
+ky;Гринленд;Greenland
+bn;গ্রীনল্যান্ড;Greenland
+ur;گرین لینڈ;Greenland
+am;ግሪንላንድ;Greenland
+az;Qrenlandiya;Greenland
+fa;گرینلند;Greenland
+pa;ਗ੍ਰੀਨਲੈਂਡ;Greenland
+ps;ګرینلنډ;Greenland
+tg;Гринленд;Greenland
+tt;Гринленд;Greenland
+kk;Фор Кросс Роудс;Four Cross Roads
+uz;For Kross Roadz;Four Cross Roads
+ky;Фор Кросс Роудс;Four Cross Roads
+bn;ফোর ক্রস রোডস;Four Cross Roads
+ur;فور کراس روڈز;Four Cross Roads
+am;ፎር ክሮስ ሮድስ;Four Cross Roads
+az;For Kross Roadz;Four Cross Roads
+fa;فور کراس رودز;Four Cross Roads
+pa;ਫੋਰ ਕਰਾਸ ਰੋਡਸ;Four Cross Roads
+ps;فور کراس روډز;Four Cross Roads
+tg;Фор Кросс Роудс;Four Cross Roads
+tt;Фор Кросс Роудс;Four Cross Roads
+kk;Чекер Холл;Checker Hall
+uz;Cheker Hall;Checker Hall
+ky;Чекер Холл;Checker Hall
+bn;চেকার হল;Checker Hall
+ur;چیکر ہال;Checker Hall
+am;ቼከር ሆል;Checker Hall
+az;Çeker Holl;Checker Hall
+fa;چکر هال;Checker Hall
+pa;ਚੈਕਰ ਹਾਲ;Checker Hall
+ps;چکر هال;Checker Hall
+tg;Чекер Холл;Checker Hall
+tt;Чекер Холл;Checker Hall
+he;ברידג'טאון;Bridgetown
+lt;Bridžtaunas;Bridgetown
+mk;Бриџтаун;Bridgetown
+am;ብርጅታውን;Bridgetown
+el;Μπελπλαίν;Belleplaine
+ur;بیلیپلین;Belleplaine
+kk;Батшеба;Bathsheba
+uz;Batsheba;Bathsheba
+ky;Батшеба;Bathsheba
+bn;বাথশেবা;Bathsheba
+ur;بت شیبا;Bathsheba
+am;ባትሽባ;Bathsheba
+az;Batşeba;Bathsheba
+fa;باتشبا;Bathsheba
+pa;ਬਾਥਸ਼ੇਬਾ;Bathsheba
+ps;بت شیبا;Bathsheba
+tg;Батшеба;Bathsheba
+tt;Батшеба;Bathsheba

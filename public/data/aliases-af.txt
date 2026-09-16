@@ -16809,3 +16809,862 @@ fa;مازاد;Mazad
 bal;ملا صالح محمد;Mullā Sālēh Mohammad
 pa;شهرک رهایشی خواجه رواش;Khwaja Rawash Residential town
 fa;اروکی;Aṟukī
+am;ዞር ኮት;Zōr Kōṯ
+tt;Зор Кот;Zōr Kōṯ
+am;ውለስዋሊ ቢህሱድ;Wulêswālī Bihsūd
+tt;Вулесвали Бихсуд;Wulêswālī Bihsūd
+am;ኩህሳን;Kuhsān
+tt;Кухсан;Kuhsān
+am;ላሽ;Lāsh
+tt;Лаш;Lāsh
+am;ቱክዛር;Tukzār
+tt;Тукзар;Tukzār
+am;ባቲ;Bati
+tt;Бати;Bati
+am;ሚራይ;Mīray
+tt;Мирай;Mīray
+am;አቅ ኩፕሩክ;Āq Kupruk
+tt;Ак Кипрук;Āq Kupruk
+am;ዙርማት;Zurmat
+tt;Зурмат;Zurmat
+am;ዛይባክ;Zaybāk
+tt;Зайбак;Zaybāk
+am;ዚያራት-ኢ ሻህ ማቅሱድ;Zīārat-e Shāh Maqşūd
+tt;Зиарат-е Шах Макьсуд;Zīārat-e Shāh Maqşūd
+am;ዚንዳህ ጃን;Zindah Jān
+tt;Зиндах Жан;Zindah Jān
+lt;Zarandžas;Zaranj
+ro;Sarandsch;Zaranj
+pl;Zarandż;Zaranj
+az;Zərənc;Zaranj
+am;ዛራንጅ;Zaranj
+tt;Заранж;Zaranj
+am;ዛምቶ ከላይ;Zamtō Kêlay
+tt;Замто Келай;Zamtō Kêlay
+sv;Yaqubi;Ya‘qūbī
+am;ይሕያ ኸል;Yaḩyá Khēl
+tt;Яхья Хель;Yaḩyá Khēl
+he;ווסאן;Wusan
+am;ዋሸር;Wāshēr
+tt;Вашер;Wāshēr
+el;Βαχσάκ;Wakhshak
+am;ቶርማይ;Tōrmay
+tt;Тормай;Tōrmay
+am;ቱላክ;Tūlak
+tt;Тулак;Tūlak
+sv;Tojg;Tujg
+am;ታይታን;Tītān
+tt;Титан;Tītān
+am;ታይዋራህ;Taywarah
+tt;Тайвара;Taywarah
+am;ባዛር-ኢ ታሽካን;Bāzār-e Tashkān
+tt;Базар-е Ташкан;Bāzār-e Tashkān
+am;ታሪንኮት;Tarinkot
+tt;Таринкот;Tarinkot
+pl;Talukan;Taloqan
+bg;Талукан;Taloqan
+ca;Talukan;Taloqan
+ka;თალიკანი;Taloqan
+lt;Talukanas;Taloqan
+uk;Талукан;Taloqan
+pl;Talokan;Taloqan
+am;ታሎቃን;Taloqan
+ha;Talokan;Taloqan
+om;Talokan;Taloqan
+so;Talokan;Taloqan
+sw;Talokan;Taloqan
+tt;Талокан;Taloqan
+am;ማርካዝ-ኢ ሁኩማት-ኢ ሱልታን-ኢ ባክዋህ;Markaz-e Ḩukūmat-e Sulţān-e Bakwāh
+tt;Марказ-е Һәгүмәт-е Сүлтән-е Бакуа;Markaz-e Ḩukūmat-e Sulţān-e Bakwāh
+am;ስፒን ቦልዳክ;Spīn Bōldak
+tt;Спин Болдак;Spīn Bōldak
+am;ስጴራ;Spērah
+tt;Спера;Spērah
+am;ሶዝማህ ቃልዓህ;Sōzmah Qal‘ah
+az;Sozmah Qal'ah;Sōzmah Qal‘ah
+ha;Sozmah Qal'ah;Sōzmah Qal‘ah
+om;Sozmah Qal'ah;Sōzmah Qal‘ah
+so;Sozmah Qal'ah;Sōzmah Qal‘ah
+sw;Sozmah Qal'ah;Sōzmah Qal‘ah
+tt;Сёзма Кала;Sōzmah Qal‘ah
+am;ሲያህግርድ;Siyāhgird
+tt;Сияхгирд;Siyāhgird
+am;ሸዋህ;S̲h̲ēwah
+tt;Шева;S̲h̲ēwah
+am;ሽንዳንድ;Shīnḏanḏ
+tt;Шиндан;Shīnḏanḏ
+am;ሻይክ አሚር ከላይ;Shaykh Amīr Kêlay
+tt;Шайх Амир Келай;Shaykh Amīr Kêlay
+am;ቃሽቃል;Qāshqāl
+tt;Кашкаль;Qāshqāl
+am;ሽብርጋን;Shibirghān
+az;Şibircən;Shibirghān
+tt;Шибирган;Shibirghān
+am;ሽዋክ;Shwāk
+tt;Шуак;Shwāk
+am;ሻሕር-ኢ ሳፋ;Shahr-e Şafā
+az;Şəhr-i Safa;Shahr-e Şafā
+tt;Шахр-е Сафа;Shahr-e Şafā
+am;ሻሕራን;Shahrān
+az;Şahran;Shahrān
+tt;Шахран;Shahrān
+am;ሻሕራክ;Shahrak
+az;Şahrak;Shahrak
+tt;Шахрак;Shahrak
+am;አላቃህዳሪ ሻህ ጆይ;‘Alāqahdārī Shāh Jōy
+az;Alaqahdari Şah Joy;‘Alāqahdārī Shāh Jōy
+ha;'Alaqahdari Shah Joy;‘Alāqahdārī Shāh Jōy
+om;'Alaqahdari Shah Joy;‘Alāqahdārī Shāh Jōy
+so;'Alaqahdari Shah Joy;‘Alāqahdārī Shāh Jōy
+sw;'Alaqahdari Shah Joy;‘Alāqahdārī Shāh Jōy
+tt;Алакадари Шах Джой;‘Alāqahdārī Shāh Jōy
+am;ዉሌስዋሊ ሳይዪድ ካራም;Wulêswālī Sayyid Karam
+az;Wuleswali Seyyid Karam;Wulêswālī Sayyid Karam
+tt;Вулесвали Сайид Карам;Wulêswālī Sayyid Karam
+am;መርካዝ-ኢ ሳይዪዳባድ;Markaz-e Sayyidābād
+az;Merkez-i Seyyidabad;Markaz-e Sayyidābād
+tt;Марказ-е Сайидабад;Markaz-e Sayyidābād
+am;ሳያድ;Şayād
+tt;Саяд;Şayād
+am;ሲድቃባድ;Sidqābād
+az;Sidkabad;Sidqābād
+ha;Sidkabad;Sidqābād
+om;Sidkabad;Sidqābād
+so;Sidkabad;Sidqābād
+sw;Sidkabad;Sidqābād
+tt;Сидкабад;Sidqābād
+am;ሳያጋዝ;Sāyagaz
+tt;Саягаз;Sāyagaz
+am;ሳር-ኢ ታይጋን;Sar-e Tayghān
+az;Sar-ı Tayghan;Sar-e Tayghān
+tt;Сар-е Тайган;Sar-e Tayghān
+am;ሳሮቢ;Sarōbī
+tt;Саробі;Sarōbī
+am;ሳር ካኒ;Sar Kāṉī
+tt;Сар Кани;Sar Kāṉī
+am;ሳርፊራዝ ካላ;Sarfirāz Kalā
+tt;Сарфираз Кала;Sarfirāz Kalā
+am;ሳር-ዩ ፑል;Sar-e Pul
+tt;Сари-Пуль;Sar-e Pul
+am;ሳር ቻካን;Sar Chakān
+az;Sar Çakan;Sar Chakān
+tt;Сар Чакан;Sar Chakān
+am;ሳንጊን;Sangīn
+tt;Сангин;Sangīn
+am;ሳንግ-ኢ ማሻህ;Sang-e Māshah
+az;Sang-ı Mashah;Sang-e Māshah
+tt;Санг-е Машах;Sang-e Māshah
+am;ሳንግ ዓተሽ;Sang Atesh
+az;Sang Ateş;Sang Atesh
+tt;Санг Атеш;Sang Atesh
+am;ሳንጋር ሳራይ;Sangar Sarāy
+tt;Сангар Сарай;Sangar Sarāy
+am;አይባክ;Aībak
+az;Aybak;Aībak
+tt;Айбак;Aībak
+am;ሩ-ዬ ሳንግ;Rū-ye Sang
+tt;Ру-йе Санг;Rū-ye Sang
+am;ሩስታቅ;Rustāq
+tt;Рустак;Rustāq
+am;ራባት-ኢ ሳንጊ-ዬ ፓ'ኢን;Rabāţ-e Sangī-ye Pā’īn
+az;Rabat-ı Sangi-ye Pa'in;Rabāţ-e Sangī-ye Pā’īn
+tt;Рабат-е Санги-йе Па'ин;Rabāţ-e Sangī-ye Pā’īn
+am;ራማክ;Rāmak
+tt;Рамак;Rāmak
+zu;IQowland;Quland
+am;ቁርጋን;Qurghān
+az;Qurğan;Qurghān
+tt;Кургхан;Qurghān
+am;ቁቻንግሂ;Quchanghī
+tt;Кучанги;Quchanghī
+am;ቃይሳር;Qaīşār
+az;Kaisar;Qaīşār
+tt;Кайсар;Qaīşār
+am;ቃርቅን;Qarqīn
+az;Qarqın;Qarqīn
+tt;Каркин;Qarqīn
+am;ቃርጋህ'ይ;Qarghah’ī
+az;Qarğahı;Qarghah’ī
+tt;Каргахи;Qarghah’ī
+am;ቃራህ ባግ;Qarah Bāgh
+az;Qara Bağ;Qarah Bāgh
+tt;Каро Баг;Qarah Bāgh
+am;ቋላ ኢ ናው;Qala i Naw
+tt;Кала-и-Нау;Qala i Naw
+am;ቃል'ህ-ዬ ኩፍ;Qal‘ah-ye Kūf
+az;Qalah-ye Kuf;Qal‘ah-ye Kūf
+ha;Qal'ah-ye Kuf;Qal‘ah-ye Kūf
+om;Qal'ah-ye Kuf;Qal‘ah-ye Kūf
+so;Qal'ah-ye Kuf;Qal‘ah-ye Kūf
+sw;Qal'ah-ye Kuf;Qal‘ah-ye Kūf
+tt;Кала-йе Куф;Qal‘ah-ye Kūf
+am;ቃል'ህ-ዬ ኩህናህ;Qal‘ah-ye Kuhnah
+az;Qalah-ye Kuhnə;Qal‘ah-ye Kuhnah
+ha;Qal'ah-ye Kuhnah;Qal‘ah-ye Kuhnah
+om;Qal'ah-ye Kuhnah;Qal‘ah-ye Kuhnah
+so;Qal'ah-ye Kuhnah;Qal‘ah-ye Kuhnah
+sw;Qal'ah-ye Kuhnah;Qal‘ah-ye Kuhnah
+tt;Кала-йе Кухна;Qal‘ah-ye Kuhnah
+am;ቋላት;Qalāt
+tt;Калат;Qalāt
+am;ቅላህ-ዬ ሻሂ;Qal‘ah-ye Shāhī
+az;Qalai-Şahi;Qal‘ah-ye Shāhī
+ha;Qal'ah-ye Shahi;Qal‘ah-ye Shāhī
+om;Qal'ah-ye Shahi;Qal‘ah-ye Shāhī
+so;Qal'ah-ye Shahi;Qal‘ah-ye Shāhī
+sw;Qal'ah-ye Shahi;Qal‘ah-ye Shāhī
+tt;Калаи-Шахи;Qal‘ah-ye Shāhī
+am;ቃዲስ;Qādis
+tt;Кадис;Qādis
+am;ፓሩን;Pārūn
+tt;Парун;Pārūn
+am;ፑል-ኢ ክሙሪ;Pul-e Khumrī
+tt;Пуль-и-Хумри;Pul-e Khumrī
+am;ፑል-ዩ ዓላም;Pul-e ‘Alam
+az;Pul-e Alam;Pul-e ‘Alam
+ha;Pul-e Alam;Pul-e ‘Alam
+om;Pul-e Alam;Pul-e ‘Alam
+so;Pul-e Alam;Pul-e ‘Alam
+sw;Pul-e Alam;Pul-e ‘Alam
+tt;Пуль-и-Алам;Pul-e ‘Alam
+am;ፓስናይ;Pasnay
+tt;Паснай;Pasnay
+am;ፓሽሙል;Pāshmūl
+tt;Пашмул;Pāshmūl
+am;ፓሳባንድ;Pasāband
+tt;Пасабанд;Pasāband
+uk;Перваре;Parwarah
+af;Panj Deh-e Muḩammad  ‘Az̧īm Khān;Panj Deh-e Muhammad 'Azim Khan
+am;ፓንጃብ;Panjāb
+az;Pəncab;Panjāb
+tt;Панджаб;Panjāb
+am;ኦምናህ;Ōmnah
+tt;Омнах;Ōmnah
+am;ኦበህ;Ōbêh
+tt;Обех;Ōbêh
+am;ኡርጉን;Urgun
+tt;Ургун;Urgun
+am;ኑሳይ;Nūsay
+tt;Нусей;Nūsay
+am;ኑርጋል;Nūrgal
+tt;Нургал;Nūrgal
+am;ናው ዛድ;Now Zād
+tt;Наузад;Now Zād
+am;ኒሊ;Nīlī
+tt;Нили;Nīlī
+am;ናያክ;Nayak
+tt;Наяк;Nayak
+am;ናያክ;Nāyak
+tt;Наяк;Nāyak
+am;ናው ዳሃናክ;Now Dahānak
+tt;Нау-Даханак;Now Dahānak
+am;ኦካክ;Ōkak
+tt;Окак;Ōkak
+am;ናራይ;Nāṟay
+tt;Наерай;Nāṟay
+am;ናራንግ;Narang
+tt;Наранг;Narang
+am;ኒከህ;Nīkêh
+tt;Никех;Nīkêh
+am;ናህሪን;Nahrīn
+tt;Нахрин;Nahrīn
+am;ሁኩማት-ኢ ናድ ዓሊ;Ḩukūmat-e Nād ‘Alī
+az;Hukumat-e Nad 'Ali;Ḩukūmat-e Nād ‘Alī
+ha;Hukumat-e Nad 'Ali;Ḩukūmat-e Nād ‘Alī
+om;Hukumat-e Nad 'Ali;Ḩukūmat-e Nād ‘Alī
+so;Hukumat-e Nad 'Ali;Ḩukūmat-e Nād ‘Alī
+sw;Hukumat-e Nad 'Ali;Ḩukūmat-e Nād ‘Alī
+tt;Хукумат-и Над-Әли;Ḩukūmat-e Nād ‘Alī
+am;ሙሳ ቅላህ;Mūsá Qal‘ah
+az;Musa Qal'ah;Mūsá Qal‘ah
+ha;Musa Qal'ah;Mūsá Qal‘ah
+om;Musa Qal'ah;Mūsá Qal‘ah
+so;Musa Qal'ah;Mūsá Qal‘ah
+sw;Musa Qal'ah;Mūsá Qal‘ah
+tt;Муса-Қала;Mūsá Qal‘ah
+am;ባላ ሙርጋብ;Bala Murghab
+az;Bala Murğab;Bala Murghab
+tt;Бала-Мургаб;Bala Murghab
+am;ሙቀር;Muqêr
+tt;Мукер;Muqêr
+am;ሙሐመድ አግህ ወሉስዋሊ;Muḩammad Āghah Wuluswālī
+az;Məhəmmə Ağa Vulosvali;Muḩammad Āghah Wuluswālī
+tt;Мухаммад-Ага Волосвали;Muḩammad Āghah Wuluswālī
+am;ሚዛን ዓላቃህደሪ;Mīzān ‘Alāqahdārī
+az;Mizan Alaqahdari;Mīzān ‘Alāqahdārī
+ha;Mizan 'Alaqahdari;Mīzān ‘Alāqahdārī
+om;Mizan 'Alaqahdari;Mīzān ‘Alāqahdārī
+so;Mizan 'Alaqahdari;Mīzān ‘Alāqahdārī
+sw;Mizan 'Alaqahdari;Mīzān ‘Alāqahdārī
+tt;Мизан-Алакадари;Mīzān ‘Alāqahdārī
+am;ሚር ባጫህ ኮት;Mīr Bachah Kōṯ
+az;Mir Bağa Kot;Mīr Bachah Kōṯ
+tt;Мир-Бача-Кот;Mīr Bachah Kōṯ
+am;ሚራን;Mīrān
+tt;Миран;Mīrān
+no;Meymaneh;Maymana
+cs;Majmana;Maymana
+da;Meymaneh;Maymana
+et;Meymaneh;Maymana
+fi;Meimana;Maymana
+uk;Меймене;Maymana
+pl;Majmana;Maymana
+sv;Meymaneh;Maymana
+am;ማይማና;Maymana
+tt;Майманa;Maymana
+am;ማይዳን ኁላህ;Maīdān Khūlah
+az;Maydan Hulah;Maīdān Khūlah
+tt;Майдан-Хула;Maīdān Khūlah
+am;ሚንጋጅክ;Mingajik
+az;Mingacık;Mingajik
+tt;Мингаджик;Mingajik
+am;መህታር ላም;Mehtar Lām
+tt;Мехтар-Лам;Mehtar Lām
+pl;Mazar-i Szarif;Mazār-e Sharīf
+sl;Mazar-e Šarif;Mazār-e Sharīf
+am;ማዛር-ኦ ሻሪፍ;Mazār-e Sharīf
+az;Mazar-e Şərif;Mazār-e Sharīf
+tt;Мазари-Шариф;Mazār-e Sharīf
+am;ማይማይ;Māymay
+tt;Майман;Māymay
+am;ሙታ ካን;Mutā Khān
+tt;Мута-хан;Mutā Khān
+am;ማሽሃድ;Mashhad
+az;Meşhed;Mashhad
+tt;Мешхед;Mashhad
+am;ማርዲያን;Mardīān
+tt;Мардиан;Mardīān
+am;ማንዶል;Mandōl
+tt;Мандол;Mandōl
+am;ማማ ኸል;Māmā Khēl
+tt;Мама-хель;Māmā Khēl
+am;ላስካር ጋህ;Lashkar Gāh
+tt;Лашкаргах;Lashkar Gāh
+am;ላሽ-ኢ ጁዋይን;Lāsh-e Juwayn
+tt;Лаш-э-Джувайн;Lāsh-e Juwayn
+am;ላል;La‘l
+az;La'l;La‘l
+ha;La'l;La‘l
+om;La'l;La‘l
+so;La'l;La‘l
+sw;La'l;La‘l
+tt;Лал;La‘l
+am;ኮቶዋል;Kōṯowāl
+tt;Котовал;Kōṯowāl
+am;ኩሽክ-ኢ ኩህና;Kushk-e Kuhnah
+tt;Кушк-э-Кухна;Kushk-e Kuhnah
+am;ኩራን ወ ሙንጃን;Kuran wa Munjan
+tt;Куран һәм Мунджан;Kuran wa Munjan
+fi;Qunduz;Kunduz
+bg;Кундуз;Kunduz
+ka;ყუნდუზი;Kunduz
+lt;Kundūzas;Kunduz
+nds;Kundus;Kunduz
+ro;Kundus;Kunduz
+uk;Кундуз;Kunduz
+am;ኩንዱዝ;Kunduz
+tt;Кундуз;Kunduz
+am;ኮሺ;Khōshī
+tt;Хоши;Khōshī
+am;ኮሻማንድ;Khōshāmand
+tt;Хошамунд;Khōshāmand
+am;ኽዋጃህ ጋር;Khwājah Ghār
+tt;Хваджа-гар;Khwājah Ghār
+am;ኽዋጃህ ዱ ኮህ;Khwājah Dū Kōh
+tt;Хваджа-ду-кох;Khwājah Dū Kōh
+am;ደህ ኽዋሃን;Deh Khwāhān
+tt;Деканан;Deh Khwāhān
+am;ኩልቢሳት;Khulbisāt
+tt;Кульбисат;Khulbisāt
+am;ኩግያኒ;Khūgyāṉī
+tt;Кугяни;Khūgyāṉī
+am;ክሆስት;Khōst
+az;Xost;Khōst
+tt;Хост;Khōst
+am;ኩልም;Khulm
+tt;Кулм;Khulm
+am;ኩዳይዳድ ኸል;Khudāydād Khēl
+tt;Худайдад-хель;Khudāydād Khēl
+am;ኺንጃን;Khinjān
+tt;Хинджан;Khinjān
+am;ኺንጅ;Khinj
+tt;Хинж;Khinj
+am;ካን ነሺን;Khān Neshīn
+tt;Хан-Нешин;Khān Neshīn
+am;ካናካህ;Khānaqāh
+tt;Ханака;Khānaqāh
+am;ቻሀር ባግ;Chahār Bāgh
+tt;Чахар-баг;Chahār Bāgh
+am;ካንዱድ;Khandūd
+tt;Хандуд;Khandūd
+am;ካናባድ;Khanabad
+tt;Ханабад;Khanabad
+am;ካሙያብ;Khamyāb
+tt;Хамиаб;Khamyāb
+am;ካኪራን;Khākirān
+tt;Хакиран;Khākirān
+am;ካዛህ;Kaz̲h̲ah
+tt;Каҗа;Kaz̲h̲ah
+am;ክሽክ-ኢ ናኁድ;Kishk-e Nakhūd
+tt;Кишк-е Нахуд;Kishk-e Nakhūd
+am;ካሩክ;Karukh
+tt;Карух;Karukh
+am;ካንዳይ;Kanḏay
+tt;Кандай;Kanḏay
+be;Кандагар;Kandahār
+he;קנדהאר;Kandahār
+am;ቃንዳሃር;Kandahār
+az;Qəndəhər;Kandahār
+tt;Кандагар;Kandahār
+am;ካላን ደህ;Kalān Deh
+tt;Қалан Деh;Kalān Deh
+am;ካላካን;Kalakān
+tt;Қалақан;Kalakān
+am;ካላፍጋን;Kalafgān
+tt;Калафган;Kalafgān
+am;ካጅራን;Kajrān
+tt;Кажран;Kajrān
+am;ካኢ;Kā’ī
+tt;Каи;Kā’ī
+bg;Кабул;Kabul
+cv;Кабул;Kabul
+gl;Cabul;Kabul
+he;קאבול;Kabul
+ka;ქაბული;Kabul
+lt;Kabulas;Kabul
+ro;Кабул;Kabul
+sq;Kabuli;Kabul
+sr;Кабул;Kabul
+uk;Кабул;Kabul
+mk;Кабул;Kabul
+el;Καμπούλ;Kabul
+ga;Cabúl;Kabul
+hy;Քաբուլ;Kabul
+am;ካቡል;Kabul
+be;Кабул;Kabul
+lv;Kabula;Kabul
+ckb;کابول;Kabul
+mhr;Кабул;Kabul
+os;Кабул;Kabul
+ce;Кабул;Kabul
+oc;Kabol;Kabul
+tt;Кабул;Kabul
+az;Kabil;Kabul
+mdf;Кабул;Kabul
+af;Kaboel;Kabul
+am;ጁርም;Jurm
+tt;Журм;Jurm
+am;ጃዋንድ;Jawand
+az;Javand;Jawand
+tt;Жаванд;Jawand
+am;ጃኒ ኸል;Jānī Khēl
+tt;Жани-Хель;Jānī Khēl
+am;ጃልሬዝ;Jalrēz
+tt;Жалрез;Jalrēz
+pl;Dżalalabad;Jalālābād
+am;ጃላላባድ;Jalālābād
+az;Cəlalabad;Jalālābād
+tt;Джалалабад;Jalālābād
+am;ጃባል ኦስ ሳራጅ;Jabal os Saraj
+tt;Җабал ос Сараж;Jabal os Saraj
+am;ሁኩማት-ኢ ሺንካይ;Ḩukūmat-e Shīnkaī
+tt;Хукумат-е Шинкай;Ḩukūmat-e Shīnkaī
+bg;Херат;Herāt
+cv;Герат;Herāt
+be;Герат;Herāt
+sr;Херат;Herāt
+am;ሄራት;Herāt
+tt;Герат;Herāt
+am;ሃጂ ኸል;Ḩājī Khēl
+tt;Хажи-Хель;Ḩājī Khēl
+am;ሃፊዝ ሞግል;Ḩāfiz̧ Moghul
+tt;Хафиз-Мөгүл;Ḩāfiz̧ Moghul
+am;ሃፊዛን;Ḩāfiz̧ān
+tt;Хафизан;Ḩāfiz̧ān
+am;ጉዛራህ;Guz̄arah
+tt;Гүзара;Guz̄arah
+am;ጉሽታህ;Gōshtah
+tt;Гошта;Gōshtah
+am;ጎማል ኬላይ;Gōmal Kêlay
+tt;Гомал-Келай;Gōmal Kêlay
+am;'ዓላቃህዳሪ ገላን;‘Alāqahdārī Gēlān
+az;'Alaqahdari Gelan;‘Alāqahdārī Gēlān
+ha;'Alaqahdari Gelan;‘Alāqahdārī Gēlān
+om;'Alaqahdari Gelan;‘Alāqahdārī Gēlān
+so;'Alaqahdari Gelan;‘Alāqahdārī Gēlān
+sw;'Alaqahdari Gelan;‘Alāqahdārī Gēlān
+tt;'Алакадари-Гелан;‘Alāqahdārī Gēlān
+am;ጋሪያን;Ghōriyān
+tt;Ғориян;Ghōriyān
+am;ጋርማች;Ghormach
+tt;Ғормач;Ghormach
+am;ጋራይድ ጋራሜ;Ghurayd Gharamē
+tt;Ғурайд-Ғараме;Ghurayd Gharamē
+sr;Газни;Ghazni
+am;ጋዝኒ;Ghazni
+az;Qazni;Ghazni
+tt;Газни;Ghazni
+am;ገረሽክ;Gereshk
+tt;Герешк;Gereshk
+no;Gardiz;Gardez
+am;ጋርደዝ;Gardez
+az;Gardiz;Gardez
+tt;Гардез;Gardez
+am;ፋይዛባድ;Fayzabad
+tt;Файзабад;Fayzabad
+am;ፈይዛባድ;Faīẕābād
+tt;Файзабад;Faīẕābād
+am;ፈይዛባድ;Fayẕābād
+tt;Файзабад;Fayẕābād
+am;ቃላህ-ዪ ፋርሲ;Qal‘ah-ye Fārsī
+az;Qal'ah-ye Farsi;Qal‘ah-ye Fārsī
+ha;Qal'ah-ye Farsi;Qal‘ah-ye Fārsī
+om;Qal'ah-ye Farsi;Qal‘ah-ye Fārsī
+so;Qal'ah-ye Farsi;Qal‘ah-ye Fārsī
+sw;Qal'ah-ye Farsi;Qal‘ah-ye Fārsī
+tt;Қалъа-йе Фарси;Qal‘ah-ye Fārsī
+am;ፋርኻር;Farkhār
+tt;Фарихар;Farkhār
+lt;Farahas;Farah
+uk;Фарах;Farah
+am;ፋራህ;Farah
+tt;Фарах;Farah
+am;ኢስታሊፍ;Istālif
+tt;Исталиф;Istālif
+am;እንጂል;Injīl
+az;İncil;Injīl
+tt;Инжил;Injīl
+am;ኢማም ሳህብ;Imām Şāḩib
+tt;Имам Сахиб;Imām Şāḩib
+el;Ίλμπακ;Ilbak
+am;ዶሺ;Dōshī
+az;Doşi;Dōshī
+tt;Доши;Dōshī
+am;ዶውላትያር;Dowlatyār
+az;Devletiyar;Dowlatyār
+tt;Доулатьяр;Dowlatyār
+am;ዶውላት ሻህ;Dowlat Shāh
+az;Devlet Şah;Dowlat Shāh
+tt;Доулат-шах;Dowlat Shāh
+am;ዶውላታባድ;Dowlatābād
+az;Devletabad;Dowlatābād
+tt;Доулатабад;Dowlatābād
+am;ዱ ቃላህ;Dū Qal‘ah
+az;Du Qal'ah;Dū Qal‘ah
+ha;Du Qal'ah;Dū Qal‘ah
+om;Du Qal'ah;Dū Qal‘ah
+so;Du Qal'ah;Dū Qal‘ah
+sw;Du Qal'ah;Dū Qal‘ah
+tt;Ду-Кала;Dū Qal‘ah
+am;ዱዓብ;Dūāb
+tt;Дуаб;Dūāb
+am;ዴ ናርኸል ከላይ;Dê Nārkhēl Kêlay
+tt;Де-Нарахель-Келай;Dê Nārkhēl Kêlay
+am;ደሂ;Dehī
+tt;Деhи;Dehī
+am;ደህ-ኢ ሳላህ;Deh-e Şalāḩ
+tt;Дех-е-Салах;Deh-e Şalāḩ
+am;ደህ-ኢ ኖው;Deh-e Now
+tt;Дех-е-Ноу;Deh-e Now
+am;ደህዳዲ;Dehdādī
+tt;Дехдади;Dehdādī
+am;ድዋህ ማንዳይ;Dwah Manḏay
+tt;Двах-Мандай;Dwah Manḏay
+am;ዳሽተ ቃላህ;Dasht-e Qal‘ah
+az;Dasht-e Qal'ah;Dasht-e Qal‘ah
+ha;Dasht-e Qal'ah;Dasht-e Qal‘ah
+om;Dasht-e Qal'ah;Dasht-e Qal‘ah
+so;Dasht-e Qal'ah;Dasht-e Qal‘ah
+sw;Dasht-e Qal'ah;Dasht-e Qal‘ah
+tt;Дашт-е-Кала;Dasht-e Qal‘ah
+am;ዳርዛብ;Darzāb
+tt;Дарзаб;Darzāb
+am;ዳርቃድ;Darqad
+tt;Дарқад;Darqad
+am;ዳራይም;Darāyim
+tt;Дарайім;Darāyim
+am;ዳንጋም;Dāngām
+tt;Дангам;Dāngām
+am;ዳንዳር;Ḏanḏar
+tt;Дандар;Ḏanḏar
+am;ሁኩማቲ ዳሃናህ-ዬ ጓሪ;Ḩukūmatī Dahanah-ye Ghōrī
+tt;Хукумати Даханах-йе Гури;Ḩukūmatī Dahanah-ye Ghōrī
+am;ጾውከይ;Tsowkêy
+tt;Цоукей;Tsowkêy
+am;ቺሽተ ሻሪፍ;Chisht-e Sharīf
+tt;Чишт-е-Шариф;Chisht-e Sharīf
+am;ቺናር;Chinār
+az;Çınar;Chinār
+tt;Чинар;Chinār
+am;ቺምታል;Chimtāl
+tt;Чимтал;Chimtāl
+am;ችርኽ;Charkh
+tt;Чарх;Charkh
+ka;ჩარიქარი;Charikar
+lt;Čarikaras;Charikar
+pl;Czarikar;Charikar
+am;ቻሪካር;Charikar
+az;Çarikar;Charikar
+tt;Чарикар;Charikar
+am;ዶውር-ኢ ራባት;Dowr-e Rabāţ
+tt;Доур-е-Рабат;Dowr-e Rabāţ
+am;ፀፃራይ;Tsapêraī
+tt;Цапарай;Tsapêraī
+am;ፀማካኒ;Tsamkanī
+tt;Цамкани;Tsamkanī
+am;ቻካራይ;Chakaray
+tt;Чакарай;Chakaray
+am;ቻካራን;Chākarān
+tt;Чакаран;Chākarān
+am;ቻሃር ቃላህ;Chahār Qal‘ah
+az;Chahar Qal'ah;Chahār Qal‘ah
+ha;Chahar Qal'ah;Chahār Qal‘ah
+om;Chahar Qal'ah;Chahār Qal‘ah
+so;Chahar Qal'ah;Chahār Qal‘ah
+sw;Chahar Qal'ah;Chahār Qal‘ah
+tt;Чахар Кала;Chahār Qal‘ah
+am;ቻህ አብ;Chāh Āb
+tt;Чах Аб;Chāh Āb
+am;ፋይሮዝ ኮህ;Fayrōz Kōh
+az;Fayruz Koh;Fayrōz Kōh
+tt;Фейруз-Кохи;Fayrōz Kōh
+am;ቡሎላህ;Bulōlah
+tt;Булола;Bulōlah
+am;ባል ቺራግ;Bal Chirāgh
+tt;Бал Чираг;Bal Chirāgh
+am;ባዛር-ለ ጣላህ;Bāzār-e Tālah
+tt;Базар-е Талаһ;Bāzār-e Tālah
+am;ሙሙንድ ዳራ;Muhmand Dara
+tt;Мухманд Дара;Muhmand Dara
+am;ቡርካህ;Būrkah
+tt;Бурка;Būrkah
+am;ባርግ-ለ ማታል;Barg-e Matāl
+tt;Барге Матал;Barg-e Matāl
+am;ባራኪ ባራክ;Baraki Barak
+tt;Бараки Барак;Baraki Barak
+am;ባኑ;Banū
+tt;Бану;Banū
+am;ባሚያን;Bāmyān
+tt;Бамиан;Bāmyān
+bg;Балх;Balkh
+pl;Balch;Balkh
+sk;Balch;Balkh
+cs;Balch;Balkh
+el;Μπαλχ;Balkh
+hy;Բալխ;Balkh
+ku;Belx;Balkh
+lt;Balchas;Balkh
+ro;Balch;Balkh
+uk;Балх;Balkh
+bs;Belh;Balkh
+he;בלך;Balkh
+am;ባልክ;Balkh
+tt;Балх;Balkh
+am;ባሃራክ;Bahārak
+tt;Бахарак;Bahārak
+am;ባግራሚ;Bagrāmī
+tt;Бағрами;Bagrāmī
+cv;Баглан;Baghlān
+am;ባግላን;Baghlān
+tt;Бағлан;Baghlān
+am;ሁኩማቲ አዝራ;Ḩukūmatī Azrah
+tt;Һукумати Азра;Ḩukūmatī Azrah
+am;'ዓላቃህዳሪ አትግሓር;‘Alāqahdārī Aṯghar
+az;'Alaqahdari Atghar;‘Alāqahdārī Aṯghar
+ha;'Alaqahdari Atghar;‘Alāqahdārī Aṯghar
+om;'Alaqahdari Atghar;‘Alāqahdārī Aṯghar
+so;'Alaqahdari Atghar;‘Alāqahdārī Aṯghar
+sw;'Alaqahdari Atghar;‘Alāqahdārī Aṯghar
+tt;Алақаһдари Атғар;‘Alāqahdārī Aṯghar
+am;አስማር;Āsmār
+tt;Асмар;Āsmār
+lt;Asadabadas;Asadābād
+lv;Asadabada;Asadābād
+am;አሳዳባድ;Asadābād
+az;Əsədabad;Asadābād
+tt;Асадабад;Asadābād
+am;አቅቻህ;Aqcha
+az;Aqchah;Aqcha
+ha;Aqchah;Aqcha
+om;Aqchah;Aqcha
+so;Aqchah;Aqcha
+sw;Aqchah;Aqcha
+tt;Ақча;Aqcha
+am;አንድሖይ;Andkhoy
+tt;Андхой;Andkhoy
+am;'ዖናባህ;’Unābah
+tt;Ұнаба;’Unābah
+am;አናር ዳራ;Anār Darah
+tt;Анар Дара;Anār Darah
+am;አማንዚ;Amānzī
+tt;Амази;Amānzī
+am;'ዓላቃህዳሪ-የ ዓልማር;‘Alāqahdārī-ye Almār
+az;'Alaqahdari-ye Almar;‘Alāqahdārī-ye Almār
+ha;'Alaqahdari-ye Almar;‘Alāqahdārī-ye Almār
+om;'Alaqahdari-ye Almar;‘Alāqahdārī-ye Almār
+so;'Alaqahdari-ye Almar;‘Alāqahdārī-ye Almār
+sw;'Alaqahdari-ye Almar;‘Alāqahdārī-ye Almār
+tt;Алақаһдари-йе Алмар;‘Alāqahdārī-ye Almār
+am;'ዓሊ ሸር 'ዓላቃህዳሪ;‘Alī Shēr ‘Alāqahdārī
+az;'Ali Sher 'Alaqahdari;‘Alī Shēr ‘Alāqahdārī
+ha;'Ali Sher 'Alaqahdari;‘Alī Shēr ‘Alāqahdārī
+om;'Ali Sher 'Alaqahdari;‘Alī Shēr ‘Alāqahdārī
+so;'Ali Sher 'Alaqahdari;‘Alī Shēr ‘Alāqahdārī
+sw;'Ali Sher 'Alaqahdari;‘Alī Shēr ‘Alāqahdārī
+tt;'Әли Шер 'Алақаһдари;‘Alī Shēr ‘Alāqahdārī
+am;ዉሉስዋሊ 'ዓሊንጋር;Wuluswālī ‘Alīngār
+az;Wuluswali 'Alingar;Wuluswālī ‘Alīngār
+ha;Wuluswali 'Alingar;Wuluswālī ‘Alīngār
+om;Wuluswali 'Alingar;Wuluswālī ‘Alīngār
+so;Wuluswali 'Alingar;Wuluswālī ‘Alīngār
+sw;Wuluswali 'Alingar;Wuluswālī ‘Alīngār
+tt;Волусвали 'Алингар;Wuluswālī ‘Alīngār
+am;'ዓሊ ኀል;‘Alī Khēl
+az;'Ali Khel;‘Alī Khēl
+ha;'Ali Khel;‘Alī Khēl
+om;'Ali Khel;‘Alī Khēl
+so;'Ali Khel;‘Alī Khēl
+sw;'Ali Khel;‘Alī Khēl
+tt;'Әли Хел;‘Alī Khēl
+am;አላቃህዳሪ ዮሱፍ ክሄል;‘Alāqahdārī Yōsuf Khēl
+az;Alaqahdari Yosuf Khel;‘Alāqahdārī Yōsuf Khēl
+ha;Alaqahdari Yosuf Khel;‘Alāqahdārī Yōsuf Khēl
+om;Alaqahdari Yosuf Khel;‘Alāqahdārī Yōsuf Khēl
+so;Alaqahdari Yosuf Khel;‘Alāqahdārī Yōsuf Khēl
+sw;Alaqahdari Yosuf Khel;‘Alāqahdārī Yōsuf Khēl
+tt;Алакахдари Йосуф Хель;‘Alāqahdārī Yōsuf Khēl
+am;አላቃህዳሪ ዲሹ;‘Alāqahdārī Dīshū
+az;Alaqahdari Dishu;‘Alāqahdārī Dīshū
+ha;Alaqahdari Dishu;‘Alāqahdārī Dīshū
+om;Alaqahdari Dishu;‘Alāqahdārī Dīshū
+so;Alaqahdari Dishu;‘Alāqahdārī Dīshū
+sw;Alaqahdari Dishu;‘Alāqahdārī Dīshū
+tt;Алакахдари Дишу;‘Alāqahdārī Dīshū
+am;አላህ ሳይ;Alah Sāy
+tt;Алах Сай;Alah Sāy
+am;ፓቺር ዋ አጋም;Pachīr wa Āgām
+tt;Пачир ва Агам;Pachīr wa Āgām
+am;አፋቂ;Āfāqī
+tt;Афаки;Āfāqī
+am;አድራስካን;Adraskan
+tt;Адрасхан;Adraskan
+am;አብ-ዌ ካማሪ;Āb-e Kamarī
+tt;Абе Камари;Āb-e Kamarī
+am;ካዲር;Khadīr
+az;Xadir;Khadīr
+tt;Хадир;Khadīr
+am;ጉላም ዓሊ;Ghulām ‘Alī
+az;Qulam Əli;Ghulām ‘Alī
+ha;Ghulam Ali;Ghulām ‘Alī
+om;Ghulam Ali;Ghulām ‘Alī
+so;Ghulam Ali;Ghulām ‘Alī
+sw;Ghulam Ali;Ghulām ‘Alī
+tt;Гулам Али;Ghulām ‘Alī
+am;ቃራህ ባግ ባዛር;Qarah Bāgh Bāzār
+az;Qarabağ Bazarı;Qarah Bāgh Bāzār
+tt;Кара Баг Базар;Qarah Bāgh Bāzār
+am;ዛርጋራን;Zargarān
+tt;Заргаран;Zargarān
+am;ሱርክህ ቢላንዲ;Surkh Bilandī
+tt;Сурх Билнди;Surkh Bilandī
+am;ፑል-ዌ ሳንጊ;Pul-e Sangī
+tt;Пул-е Санги;Pul-e Sangī
+am;ላንጋር;Langar
+tt;Лангар;Langar
+am;ባግ-ዌ ማይዳን;Bāgh-e Maīdān
+tt;Баг-е Майдан;Bāgh-e Maīdān
+am;ኢብራሂም ካን;Ibrāhīm Khān
+az;İbrahim Xan;Ibrāhīm Khān
+tt;Ибрахим Хан;Ibrāhīm Khān
+am;ቃራንጉ ቶግሃይ;Qaranghū Tōghaī
+az;Qaranqu Toğay;Qaranghū Tōghaī
+tt;Карангу Тогай;Qaranghū Tōghaī
+am;ባዛራክ;Bāzārak
+tt;Базарак;Bāzārak
+am;ሸርዋኒ-ዩ ባላ;Shērwānī-ye Bālā
+az;Şirvan-ı Bala;Shērwānī-ye Bālā
+tt;Шервани-е Бала;Shērwānī-ye Bālā
+am;ክራማን;Kirāmān
+tt;Кирамон;Kirāmān
+am;አላቃህዳሪ ሳሮቢ;‘Alāqahdārī Saṟōbī
+az;Alaqahdari Sarobi;‘Alāqahdārī Saṟōbī
+ha;Alaqahdari Sarobi;‘Alāqahdārī Saṟōbī
+om;Alaqahdari Sarobi;‘Alāqahdārī Saṟōbī
+so;Alaqahdari Sarobi;‘Alāqahdārī Saṟōbī
+sw;Alaqahdari Sarobi;‘Alāqahdārī Saṟōbī
+tt;Алакахдари Саробе;‘Alāqahdārī Saṟōbī
+am;ዚሩክ አላቃህዳሪ;Zīṟūk ‘Alāqahdārī
+az;Ziruk Alaqahdari;Zīṟūk ‘Alāqahdārī
+ha;Ziruk Alaqahdari;Zīṟūk ‘Alāqahdārī
+om;Ziruk Alaqahdari;Zīṟūk ‘Alāqahdārī
+so;Ziruk Alaqahdari;Zīṟūk ‘Alāqahdārī
+sw;Ziruk Alaqahdari;Zīṟūk ‘Alāqahdārī
+tt;Зирук Алакахдари;Zīṟūk ‘Alāqahdārī
+af;Muḩammad ‘Omar;Muhammad 'Omar
+af;Muḩammad ‘Omar Khān;Muhammad 'Omar Khan
+af;Muḩammad  ‘Alam Khān;Muhammad 'Alam Khan
+af;Mīrzā Muḩammad Sa‘īd;Mirza Muhammad Sa'id
+af;Ḩājī Muḩammad A‘z̧am;Haji Muhammad A'zam
+am;ኩሻክ;Kushkak
+az;Kuşkak;Kushkak
+tt;Кушкак;Kushkak
+am;ካይር ኮት;Khayr Kōṯ
+az;Xayr Kot;Khayr Kōṯ
+tt;Хайр Кот;Khayr Kōṯ
+am;ቾውኔይ;Chowṉêy
+az;Çovni;Chowṉêy
+tt;Чоуни;Chowṉêy
+am;ውታህፑር;Wuṯahpūr
+az;Vutahpur;Wuṯahpūr
+tt;Вутахпур;Wuṯahpūr
+am;ካርቦሪ;Karbōṟī
+tt;Карбори;Karbōṟī
+am;ሱልጣንፑር-ዌ ዑልያ;Sulţānpūr-e ‘Ulyā
+az;Sultanpur-e Ulya;Sulţānpūr-e ‘Ulyā
+ha;Sultanpur-e Ulya;Sulţānpūr-e ‘Ulyā
+om;Sultanpur-e Ulya;Sulţānpūr-e ‘Ulyā
+so;Sultanpur-e Ulya;Sulţānpūr-e ‘Ulyā
+sw;Sultanpur-e Ulya;Sulţānpūr-e ‘Ulyā
+tt;Сүлтәнпур-е Уля;Sulţānpūr-e ‘Ulyā
+am;ባባ ሳህብ;Bābā Şāḩib
+tt;Баба Сахиб;Bābā Şāḩib
+am;ቻንዳል ባይ;Chandal Bā’ī
+az;Çandal Bayi;Chandal Bā’ī
+ha;Chandal Bai;Chandal Bā’ī
+om;Chandal Bai;Chandal Bā’ī
+so;Chandal Bai;Chandal Bā’ī
+sw;Chandal Bai;Chandal Bā’ī
+tt;Чандал Баи;Chandal Bā’ī
+am;ዳሃን-ዌ ጃርፍ;Dahan-e Jarf
+az;Dahan-e Carf;Dahan-e Jarf
+tt;Дахан-е Жаф;Dahan-e Jarf
+am;ማይዳንሻህር;Maydanshakhr
+tt;Майданшахр;Maydanshakhr
+am;ዱ ላይናህ;Dū Laīnah
+af;Muḩammad  Ya‘qūb;Muhammad Ya'qub
+am;ቃራም ቆል;Qaram Qōl
+am;ፑል-ኢ ሂሳር;Pul-e Ḩişār
+am;ታቅቻህ ხანህ;Ţāqchah Khānah
+am;ማርች;March
+am;ዚራኪ;Zīrakī
+am;ዓሊአባድ;‘Alīābād
+az;Aliabad;‘Alīābād
+ha;Aliabad;‘Alīābād
+om;Aliabad;‘Alīābād
+so;Aliabad;‘Alīābād
+sw;Aliabad;‘Alīābād
+tt;Aliabad;‘Alīābād
+am;ፓስ ፑል;Pas Pul
+am;ቅላህ-የ ናዒም;Qal‘ah-ye Na‘īm
+az;Qal'ah-ye Na'im;Qal‘ah-ye Na‘īm
+ha;Qal'ah-ye Na'im;Qal‘ah-ye Na‘īm
+om;Qal'ah-ye Na'im;Qal‘ah-ye Na‘īm
+so;Qal'ah-ye Na'im;Qal‘ah-ye Na‘īm
+sw;Qal'ah-ye Na'im;Qal‘ah-ye Na‘īm
+tt;Qal'ah-ye Na'im;Qal‘ah-ye Na‘īm
+am;ማኖጋይ;Māṉōgay
+am;ስቴር ጊያን;Stêr Giyān
+am;ሻራን;Sharan
+az;Şaran;Sharan
+tt;Шаран;Sharan
+am;ሳላም ኸል;Salām Khēl

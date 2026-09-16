@@ -413,3 +413,364 @@ am;አምጃራስ;Amdjarass
 fr;Am Gifi;Am Guifi
 fr;Gésé;Guésé
 en;Amdoback;Am Doback
+ru;Унианга-Кебир;Ounianga Kébir
+ja;ウニアンガ;Ounianga Kébir
+ur;اونیانگا کبیر;Ounianga Kébir
+ru;Уара;Ouara
+ur;اوارا;Ouara
+ja;クク・アンガラナ;Koukou Angarana
+ur;کؤکؤ انگارانا;Koukou Angarana
+ru;Ириба;Iriba
+bg;Ириба;Iriba
+ja;イリバ;Iriba
+fa;هریبا;Iriba
+ur;ہریبا;Iriba
+ru;Гоз-Бейда;Goz Beida
+kk;Гоз-Бейда;Goz Beida
+ky;Гоз-Бейда;Goz Beida
+hi;गोज़ बेईदा;Goz Beida
+bn;গোজ বেইডা;Goz Beida
+ur;گوز بیڈا;Goz Beida
+fa;گوز بیدا;Goz Beida
+ja;ゴズ・ベイダ;Goz Beida
+pa;ਗੋਜ਼ ਬੇਈਦਾ;Goz Beida
+ps;گوز بیدا;Goz Beida
+tg;Гоз-Бейда;Goz Beida
+tt;Гоз-Бейда;Goz Beida
+ru;Фада;Fada
+kk;Фада;Fada
+ky;Фада;Fada
+hi;फाडा;Fada
+bn;ফাদা;Fada
+ur;فادہ;Fada
+fa;فادا;Fada
+ja;ファダ;Fada
+pa;ਫਾਡਾ;Fada
+ps;فادا;Fada
+tg;Фада;Fada
+tt;Фада;Fada
+ru;Бир Тауи;Bir Taouil
+ru;Билтин;Biltine
+kk;Билтин;Biltine
+ky;Билтин;Biltine
+hi;बिल्टिन;Biltine
+bn;বিলটিন;Biltine
+ur;بلٹین;Biltine
+fa;بیلتین;Biltine
+ja;ビルティーヌ;Biltine
+pa;ਬਿਲਟੀਨ;Biltine
+ps;بلتین;Biltine
+tg;Билтин;Biltine
+tt;Билтин;Biltine
+ru;Ам-Тиман;Am Timan
+kk;Ам-Тиман;Am Timan
+ky;Ам-Тиман;Am Timan
+hi;अम तिमान;Am Timan
+bn;আম তিমান;Am Timan
+ur;ام تیمان;Am Timan
+fa;ام تیمان;Am Timan
+ja;アム・ティマン;Am Timan
+pa;ਅਮ ਤਿਮਾਨ;Am Timan
+ps;ام تیمان;Am Timan
+tg;Ам-Тиман;Am Timan
+tt;Ам-Тиман;Am Timan
+ur;ادرے;Adré
+ko;아베셰;Abéché
+ru;Абеше;Abéché
+bg;Абеше;Abéché
+ja;アベシェ;Abéché
+lt;Abešė;Abéché
+mrj;Абеше;Abéché
+uk;Абеше;Abéché
+zh;阿贝歇;Abéché
+az;Abeşe;Abéché
+be;Абешэ;Abéché
+fa;ابشی;Abéché
+ur;ابےچے;Abéché
+kk;Абеше;Abéché
+ky;Абеше;Abéché
+hi;अबेशे;Abéché
+bn;আবেশে;Abéché
+pa;ਅਬੇਸ਼ੇ;Abéché
+ps;ابیشے;Abéché
+tg;Абеше;Abéché
+tt;Абеше;Abéché
+ru;Сарх;Sarh
+kk;Сарх;Sarh
+ky;Сарх;Sarh
+hi;सार;Sarh
+bn;সার;Sarh
+ur;سارہ;Sarh
+fa;سارح;Sarh
+ja;サール;Sarh
+pa;ਸਾਰ;Sarh
+ps;سارح;Sarh
+tg;Сарх;Sarh
+tt;Сарх;Sarh
+ru;Пала;Pala
+kk;Пала;Pala
+ky;Пала;Pala
+hi;पाला;Pala
+bn;পালা;Pala
+ur;پالا;Pala
+fa;پالا;Pala
+ja;パラ;Pala
+pa;ਪਾਲਾ;Pala
+ps;پالا;Pala
+tg;Пала;Pala
+tt;Пала;Pala
+ur;ام ہاجر;Umm Hājar
+bg;Нджамена;N'Djamena
+br;Ndjamena;N'Djamena
+he;נג'מנה;N'Djamena
+ja;ンジャメナ;N'Djamena
+ko;은자메나;N'Djamena
+pl;Ndżamena;N'Djamena
+ru;Нджамена;N'Djamena
+zh-TW;恩賈梅納;N'Djamena
+da;Ndjamena;N'Djamena
+el;Τζαμένα;N'Djamena
+lt;Ndžamena;N'Djamena
+ckb;نجامێنا;N'Djamena
+fa;انجامنا;N'Djamena
+ur;نجامینا;N'Djamena
+ru;Мусоро;Moussoro
+kk;Мусоро;Moussoro
+ky;Мусоро;Moussoro
+hi;मुस्सोरो;Moussoro
+bn;মুসোরো;Moussoro
+ur;موسورو;Moussoro
+fa;موسورو;Moussoro
+ja;ムッソロ;Moussoro
+pa;ਮੁਸੋਰੋ;Moussoro
+ps;موسورو;Moussoro
+tg;Мусоро;Moussoro
+tt;Мусоро;Moussoro
+ru;Мунду;Moundou
+az;Mundu;Moundou
+be;Мунду;Moundou
+bg;Мунду;Moundou
+ja;ムンドゥ;Moundou
+kk;Мунду;Moundou
+ko;문두;Moundou
+lt;Mundu;Moundou
+mrj;Мунду;Moundou
+th;มูนดู;Moundou
+uk;Мунду;Moundou
+ur;مؤندؤ;Moundou
+vep;Mundu;Moundou
+zh;蒙杜;Moundou
+fa;موندو;Moundou
+fa;مووندوو;Moundou
+ky;Мундю;Moundou
+hi;मुंडु;Moundou
+bn;মুন্ডু;Moundou
+pa;ਮੁਂਡੂ;Moundou
+ps;مندو;Moundou
+tg;Мундю;Moundou
+tt;Мундю;Moundou
+ru;Монго;Mongo
+fa;مونگو;Mongo
+ur;مونگو;Mongo
+kk;Монго;Mongo
+ky;Монго;Mongo
+hi;मोंगो;Mongo
+bn;মঙ্গো;Mongo
+ja;モンゴ;Mongo
+pa;ਮੋਂਗੋ;Mongo
+ps;مونګو;Mongo
+tg;Монго;Mongo
+tt;Монго;Mongo
+ur;مویسالا;Moïssala
+hi;मोइसाला;Moïssala
+ru;Моисала;Moïssala
+lt;Moisala;Moïssala
+lv;Moisala;Moïssala
+bn;মইসালা;Moïssala
+zh-Hans;莫埃萨拉;Moïssala
+si;මොයිස්සලා;Moïssala
+uk;Моїсала;Moïssala
+kn;ಮೋಸ್ಸಾಲಾ;Moïssala
+ko;모이살사;Moïssala
+mr;मोइस्लाला;Moïssala
+el;Μοϊσάλα;Moïssala
+ta;மொய்சாலா;Moïssala
+gu;મોઇસાલા;Moïssala
+te;మొయిస్సాల;Moïssala
+th;มัวซัค;Moïssala
+ja;モイサラ;Moïssala
+ru;Массения;Massenya
+kk;Массения;Massenya
+ky;Массения;Massenya
+hi;मासेन्या;Massenya
+bn;ম্যাসেনিয়া;Massenya
+ur;ماسینیا;Massenya
+fa;ماسنیا;Massenya
+ja;マセニャ;Massenya
+pa;ਮਾਸੇਨਿਆ;Massenya
+ps;ماسینیا;Massenya
+tg;Массения;Massenya
+tt;Массения;Massenya
+ru;Массакори;Massakory
+kk;Массакори;Massakory
+ky;Массакори;Massakory
+hi;मस्साकोरी;Massakory
+bn;মাসাকোরি;Massakory
+ur;ماسکوری;Massakory
+fa;ماسکوری;Massakory
+ja;マサコリ;Massakory
+pa;ਮਾਸਾਕੋਰੀ;Massakory
+ps;ماسکوری;Massakory
+tg;Массакори;Massakory
+tt;Массакори;Massakory
+ur;ماساگویٹ;Massaguet
+ru;Мао;Mao
+kk;Мао;Mao
+ky;Мао;Mao
+hi;माओ;Mao
+bn;মাও;Mao
+ur;ماؤ;Mao
+fa;ماو;Mao
+ja;マオ;Mao
+pa;ਮਾਓ;Mao
+ps;ماؤ;Mao
+tg;Мао;Mao
+tt;Мао;Mao
+ru;Лаи;Laï
+kk;Лаи;Laï
+ky;Лаи;Laï
+hi;लाई;Laï
+bn;লাই;Laï
+ur;لائی;Laï
+fa;لای;Laï
+ja;ライ;Laï
+pa;ਲਾਈ;Laï
+ps;لائی;Laï
+tg;Лаи;Laï
+tt;Лаи;Laï
+ru;Коумра;Koumra
+kk;Коумра;Koumra
+ky;Коумра;Koumra
+hi;कोउमरा;Koumra
+bn;কোমরা;Koumra
+ur;کومرا;Koumra
+fa;کومرا;Koumra
+ja;クムラ;Koumra
+pa;ਕੋਮਰਾ;Koumra
+ps;کومرا;Koumra
+tg;Коумра;Koumra
+tt;Коумра;Koumra
+ru;Кел;Kelo
+ru;Фианга;Fianga
+bg;Фианга;Fianga
+zh;菲昂加;Fianga
+ja;フィアンガ;Fianga
+ur;فیانگا;Fianga
+bg;Фая-Ларжо;Faya-Largeau
+ja;ファヤ・ラルジョー;Faya-Largeau
+lt;Faja Laržo;Faya-Largeau
+mrj;Файя-Ларжо;Faya-Largeau
+uk;Файя-Ларжо;Faya-Largeau
+ur;فایا-لارگیاو;Faya-Largeau
+ru;Файя-Ларжо;Faya-Largeau
+zh;法亞-拉若;Faya-Largeau
+kk;Фая-Ларжо;Faya-Largeau
+ky;Фая-Ларжо;Faya-Largeau
+hi;फायल-लार्गो;Faya-Largeau
+bn;ফায়া-লার্জু;Faya-Largeau
+fa;فایا لارجو;Faya-Largeau
+pa;ਫਾਇਆ-ਲਾਰਜੋ;Faya-Largeau
+ps;فایا لارجو;Faya-Largeau
+tg;Фая-Ларжо;Faya-Largeau
+tt;Фая-Ларжо;Faya-Largeau
+ru;Доба;Doba
+kk;Доба;Doba
+ky;Доба;Doba
+hi;डोबा;Doba
+bn;ডোবা;Doba
+ur;ڈوبا;Doba
+fa;دوبا;Doba
+ja;ドバ;Doba
+pa;ਡੋਬਾ;Doba
+ps;ډوبا;Doba
+tg;Доба;Doba
+tt;Доба;Doba
+ru;Бусо;Bousso
+bg;Боусо;Bousso
+zh;布索;Bousso
+ja;ブソー;Bousso
+ur;بؤسو;Bousso
+ru;Бонгор;Bongor
+kk;Бонгор;Bongor
+ky;Бонгор;Bongor
+hi;बोंगोर;Bongor
+bn;বোঙ্গর;Bongor
+ur;بونگور;Bongor
+fa;بونگور;Bongor
+ja;ボンゴル;Bongor
+pa;ਬੋਂਗੋਰ;Bongor
+ps;بونګور;Bongor
+tg;Бонгор;Bongor
+tt;Бонгор;Bongor
+ur;بول;Bol
+ru;Боль;Bol
+kk;Боль;Bol
+ky;Боль;Bol
+hi;बोल;Bol
+bn;বোল;Bol
+fa;بول;Bol
+ja;ボル;Bol
+pa;ਬੋਲ;Bol
+ps;بول;Bol
+tg;Боль;Bol
+tt;Боль;Bol
+ru;Бокоро;Bokoro
+zh;博科羅;Bokoro
+ja;ボコロ;Bokoro
+fa;بوکورو;Bokoro
+ur;بوکورو;Bokoro
+hi;बीतकीन;Bitkine
+ru;Биткине;Bitkine
+bg;Биткине;Bitkine
+ja;ビトキン;Bitkine
+ur;بٹکینے;Bitkine
+fa;اجادول;Bir Barka
+ur;اجودول;Bir Barka
+ru;Бебото;Béboto
+ru;Бардаи;Bardaï
+kk;Бардаи;Bardaï
+ky;Бардаи;Bardaï
+hi;बरदाई;Bardaï
+bn;বারদাই;Bardaï
+ur;بردائی;Bardaï
+fa;باردای;Bardaï
+ja;バルダイ;Bardaï
+pa;ਬਰਦਾਈ;Bardaï
+ps;بردائی;Bardaï
+tg;Бардаи;Bardaï
+tt;Бардаи;Bardaï
+ru;Ати;Ati
+kk;Ати;Ati
+ky;Ати;Ati
+hi;अति;Ati
+bn;আতি;Ati
+ur;اتی;Ati
+fa;اتی;Ati
+ja;アティ;Ati
+pa;ਅਤੀ;Ati
+ps;اتی;Ati
+tg;Ати;Ati
+tt;Ати;Ati
+ur;اوزو;Aozou
+ru;Амджарасс;Amdjarass
+kk;Амджарасс;Amdjarass
+ky;Амджарасс;Amdjarass
+hi;अमजारस;Amdjarass
+bn;আমজারাস;Amdjarass
+ur;امجراس;Amdjarass
+fa;امجراس;Amdjarass
+ja;アムジャラス;Amdjarass
+pa;ਅਮਜਾਰਾਸ;Amdjarass
+ps;امجراس;Amdjarass
+tg;Амджарасс;Amdjarass
+tt;Амджарасс;Amdjarass

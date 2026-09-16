@@ -59,3 +59,170 @@ ar;لأسا;La`assa
 ar;مدغول;Madgoul
 ar;وادي أويعا;Oued Ouea
 ar;ريتبا;Ribta
+fa;وع;Ouê‘a
+ur;وع;Ouê‘a
+pl;Tadżura;Tadjoura
+ru;Таджура;Tadjoura
+be;Таджура;Tadjoura
+el;Ταντζουρά;Tadjoura
+fa;تاجوره;Tadjoura
+hy;Թաջուրա;Tadjoura
+id;Tadjourah;Tadjoura
+ja;タジュラ;Tadjoura
+ko;타주라;Tadjoura
+ro;Tadjourah;Tadjoura
+tr;Tadjourah;Tadjoura
+sv;Tadjourah;Tadjoura
+zh;塔朱拉;Tadjoura
+ka;ტაჯურა;Tadjoura
+lt;Tadžura;Tadjoura
+ur;تاجورہ;Tadjoura
+kk;Тадджура;Tadjoura
+ky;Тадджура;Tadjoura
+hi;ताज़ोरा;Tadjoura
+bn;তাদজোরা;Tadjoura
+pa;ਤਾਜੌਰਾ;Tadjoura
+ps;تاجورا;Tadjoura
+tg;Тадҷура;Tadjoura
+tt;Тадджура;Tadjoura
+ru;Ранда;Randa
+fa;راندا، جیبوتی;Randa
+ur;راندا، جبوتی;Randa
+be;Абок;Obock
+el;Ομπόκ;Obock
+fa;اوبوک;Obock
+ja;オボック;Obock
+ka;ობოკი;Obock
+ko;오보크;Obock
+lt;Obokas;Obock
+tr;Obuk;Obock
+ur;اوبوک;Obock
+ru;Обок;Obock
+zh;奧博克;Obock
+kk;Обок;Obock
+ky;Обок;Obock
+hi;ओबॉक;Obock
+bn;ওবক;Obock
+pa;ਓਬੌਕ;Obock
+ps;اوبوک;Obock
+tg;Обок;Obock
+tt;Обок;Obock
+ur;مؤدو;Moudo
+fa;لویعدا;Loyada
+ur;لویعدا;Loyada
+fa;لویادا;Loyada
+ur;لویادا;Loyada
+ru;Холхол;Holhol
+zh;霍勒霍勒;Holhol
+hy;Հոլհոլ;Holhol
+ja;オロル;Holhol
+fa;هلهول;Holhol
+ur;حلحول;Holhol
+kk;Дорра;Dorra
+ru;Дорра;Dorra
+ja;ドラ;Dorra
+fa;دره، جیبوتی;Dorra
+ur;درہ، جبوتی;Dorra
+el;Τζιμπουτί;Djibouti
+pl;Dżibuti;Djibouti
+fa;جیبوتی;Djibouti
+he;גיבוטי;Djibouti
+ja;ジブチ市;Djibouti
+ko;지부티;Djibouti
+lt;Džibutis;Djibouti
+ru;Джибути;Djibouti
+sk;Džibuti;Djibouti
+sl;Džibuti;Djibouti
+sw;Jibuti;Djibouti
+tr;Cibuti;Djibouti
+ur;جبوتی علاقہ;Djibouti
+zh;吉布地市;Djibouti
+af;Djiboeti;Djibouti
+az;Cibuti;Djibouti
+be;Джыбуці;Djibouti
+bg;Джибути;Djibouti
+bn;জিবুতি;Djibouti
+bo;ཇི་བའོ་ཊི།;Djibouti
+ce;Джибути;Djibouti
+ckb;جیبووتی;Djibouti
+cs;Džíbútí;Djibouti
+cy;Dinas Jibwti;Djibouti
+ga;Diobúití;Djibouti
+gl;Xibutí;Djibouti
+hu;Dzsibuti;Djibouti
+hy;Ջիբութի;Djibouti
+ka;ჯიბუტი;Djibouti
+kw;Sita Jibouti;Djibouti
+ky;Жибути шаары;Djibouti
+lb;Dschibuti;Djibouti
+lv;Džibuti;Djibouti
+mk;Џибути;Djibouti
+mr;जिबूती;Djibouti
+mrj;Джибути;Djibouti
+nn;Byen Djibouti;Djibouti
+oc;Jiboti;Djibouti
+pa;ਜਿਬੂਤੀ;Djibouti
+sr;Џибути;Djibouti
+tg;Ҷибути;Djibouti
+th;จิบูตี;Djibouti
+tl;Lungsod ng Djibouti;Djibouti
+udm;Джибути;Djibouti
+uk;Джибуті;Djibouti
+kg;Mbanza ya Djibuti;Djibouti
+ta;சீபூத்தீ;Djibouti
+vep;Džibuti;Djibouti
+yue;吉布提城;Djibouti
+be;Дыхіл;Dikhil
+el;Ντικίλ;Dikhil
+fa;دخیل;Dikhil
+ja;ディキル;Dikhil
+ka;დიკილი;Dikhil
+ko;디크힐;Dikhil
+lt;Dikilis;Dikhil
+ur;دخیل;Dikhil
+ru;Дикиль;Dikhil
+zh;迪基勒;Dikhil
+kk;Дикхиль;Dikhil
+ky;Дикхиль;Dikhil
+hi;दिखिल;Dikhil
+bn;দিখিল;Dikhil
+pa;ਦਿਖਿਲ;Dikhil
+ps;دیخیل;Dikhil
+tg;Дикхиль;Dikhil
+tt;Дикхиль;Dikhil
+ru;Балхо;Balho
+ja;バロ;Balho
+ur;بالہو;Balho
+ru;Арта;Arta
+kk;Арта;Arta
+ky;Арта;Arta
+hi;आर्ता;Arta
+bn;আর্তা;Arta
+ur;آرتہ;Arta
+fa;آرتا;Arta
+ja;アルタ;Arta
+pa;ਆਰਤਾ;Arta
+ps;آرتا;Arta
+tg;Арта;Arta
+tt;Арта;Arta
+ru;Али-Сабие;Ali Sabih
+kk;Али-Сабих;Ali Sabih
+ky;Али-Сабих;Ali Sabih
+hi;अली साबिह;Ali Sabih
+bn;আলি সাবিহ;Ali Sabih
+ur;علی صابح;Ali Sabih
+fa;علی صابح;Ali Sabih
+ja;アリ・サビハ;Ali Sabih
+pa;ਅਲੀ ਸਾਬਿਹ;Ali Sabih
+ps;علی صابح;Ali Sabih
+tg;Али Сабих;Ali Sabih
+tt;Али Сабих;Ali Sabih
+fa;ایرولاف;Airolaf
+ur;ایرولاف;Airolaf
+fa;امبابو;Ambabbo
+ur;امبابو;Ambabbo
+ja;バルバラ;Balbala
+fa;بالبالا;Balbala
+ru;Балбала;Balbala
+fa;گورابوس;Gorabous
+ur;جورابؤس;Gorabous

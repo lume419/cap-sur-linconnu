@@ -2072,3 +2072,586 @@ es;Coarita;Paratía
 es;Hayna;Ayna
 es;Isoqasa;Isoccasa
 es;Miraflores;San Juan de Miraflores
+be;Тумбес;Tumbes
+bg;Тумбес;Tumbes
+ka;ტუმბესი;Tumbes
+lt;Tumbesas;Tumbes
+fa;تومبس;Tumbes
+uk;Тумбес;Tumbes
+ur;تومبیس، پیرو;Tumbes
+kk;Түмбес;Tumbes
+ky;Түмбес;Tumbes
+bn;তুম্বেস;Tumbes
+am;ቱምቤስ;Tumbes
+pa;ਤੁਮਬੇਸ;Tumbes
+ps;ټومبس;Tumbes
+tg;Тумбес;Tumbes
+tt;Түмбес;Tumbes
+bg;Трухильо;Trujillo
+ka;ტრუხილიო;Trujillo
+be;Трухільё;Trujillo
+he;טרוחיו;Trujillo
+mk;Трухилјо;Trujillo
+fa;تروخیو;Trujillo
+lt;Truchiljas;Trujillo
+uk;Трухійо;Trujillo
+kk;Трухилло;Trujillo
+ky;Трухилло;Trujillo
+bn;ত্রুজিলো;Trujillo
+ur;ٹروجیلو;Trujillo
+am;ትሩሂዮ;Trujillo
+pa;ਟ੍ਰੁਜਿਲੋ;Trujillo
+ps;ټروجيلو;Trujillo
+tg;Трухилло;Trujillo
+tt;Трухилло;Trujillo
+fa;تینگو ماریا;Tingo María
+bg;Тарапото;Tarapoto
+ka;ტარაპოტო;Tarapoto
+lt;Tarapotas;Tarapoto
+fa;تاراپوتو;Tarapoto
+ur;تاراپوتو;Tarapoto
+ka;ტალარა;Talara
+mk;Талара;Talara
+fa;تالارا;Talara
+uk;Талара;Talara
+mk;Суљана;Sullana
+ka;სულიანა;Sullana
+fa;سویانا;Sullana
+uk;Сан Педро де Йок;San Pedro de Lloc
+ka;პუკალიპა;Pucallpa
+lt;Pukalpa;Pucallpa
+mk;Пукалпа;Pucallpa
+os;Пукальпæ;Pucallpa
+fa;پوکایپا;Pucallpa
+th;ปูไกปา;Pucallpa
+uk;Пукальпа;Pucallpa
+ur;پوکاایپا;Pucallpa
+kk;Пукалпа;Pucallpa
+ky;Пукалпа;Pucallpa
+bn;পুকাল্পা;Pucallpa
+am;ፑካልፓ;Pucallpa
+pa;ਪੁਕਾਲਪਾ;Pucallpa
+ps;پوکالپا;Pucallpa
+tg;Пукалпа;Pucallpa
+tt;Пукалпа;Pucallpa
+bg;Пиура;Piura
+ka;პიურა;Piura
+uk;Піура;Piura
+mk;Пиура;Piura
+th;ปิวรา;Piura
+be;Пюра;Piura
+fa;پیورا;Piura
+he;פיורה;Piura
+ur;پیورا;Piura
+kk;Пиура;Piura
+ky;Пиура;Piura
+bn;পিউরা;Piura
+am;ፒውራ;Piura
+pa;ਪਿਉਰਾ;Piura
+ps;پیورا;Piura
+tg;Пиура;Piura
+tt;Пиура;Piura
+fa;پایتا;Paita
+uk;Пайта;Paita
+be;Маябамба;Moyobamba
+ka;მოიობამბა;Moyobamba
+lt;Mojobamba;Moyobamba
+fa;مویوبامبا;Moyobamba
+ur;موجوبامبا;Moyobamba
+kk;Мойобамба;Moyobamba
+ky;Мойобамба;Moyobamba
+bn;মোয়োবাম্বা;Moyobamba
+am;ሞዮባምባ;Moyobamba
+pa;ਮੋਯੋਬੰਬਾ;Moyobamba
+ps;مویوبمبا;Moyobamba
+tg;Мойобамба;Moyobamba
+tt;Мойобамба;Moyobamba
+fa;لامبایکه، پرو;Lambayeque
+lt;Chumbilija;Jumbilla
+uk;Хумбілья;Jumbilla
+fa;خومبیا;Jumbilla
+sr;Хумбиља;Jumbilla
+lt;Chuanchui;Juanjuí
+uk;Хуанхуї;Juanjuí
+mdf;Хуанхуи;Juanjuí
+cv;Хуанхуи;Juanjuí
+fa;خوانخوی;Juanjuí
+lt;Ikitosas;Iquitos
+he;איקיטוס;Iquitos
+uk;Ікітос;Iquitos
+os;Икитос;Iquitos
+mk;Икитос;Iquitos
+ka;იკიტოსი;Iquitos
+be;Ікітас;Iquitos
+th;อีกีโตส;Iquitos
+fa;ایکیتوس;Iquitos
+ur;اکیتوس;Iquitos
+uz;Ikitos;Iquitos
+kk;Икитос;Iquitos
+ky;Икитос;Iquitos
+bn;ইকিটোস;Iquitos
+am;ኢኪቶስ;Iquitos
+az;İkitos;Iquitos
+pa;ਇਕਿਟੋਸ;Iquitos
+ps;اکيتوس;Iquitos
+tg;Икитос;Iquitos
+tt;Икитос;Iquitos
+mk;Уараз;Huaraz
+uk;Уарас;Huaraz
+he;ואראס;Huaraz
+lt;Huarasas;Huaraz
+ka;უარასი;Huaraz
+be;Гуарас;Huaraz
+fa;اواراز;Huaraz
+ur;واراس;Huaraz
+kk;Уарас;Huaraz
+ky;Уарас;Huaraz
+bn;হুয়ারাজ;Huaraz
+am;ሁዋራዝ;Huaraz
+pa;ਹੁਆਰਾਜ਼;Huaraz
+ps;هوراز;Huaraz
+tg;Уарас;Huaraz
+tt;Уарас;Huaraz
+ka;უანუკო;Huánuco
+mk;Уануко;Huánuco
+lt;Huanukas;Huánuco
+fa;اوانوکو;Huánuco
+uk;Уануко;Huánuco
+ur;وانوکو;Huánuco
+kk;Уануко;Huánuco
+ky;Уануко;Huánuco
+bn;হুয়ানুকো;Huánuco
+am;ሁዋኑኮ;Huánuco
+pa;ਹੁਆਨੂਕੋ;Huánuco
+ps;هوانوکو;Huánuco
+tg;Уануко;Huánuco
+tt;Уануко;Huánuco
+fa;کونتومازا;Contumazá
+mk;Чимботе;Chimbote
+ka;ჩიმბოტე;Chimbote
+uk;Чімботе;Chimbote
+lt;Čimbotė;Chimbote
+bg;Чимботе;Chimbote
+fa;چیمبوته;Chimbote
+lt;Čiklajus;Chiclayo
+mk;Чиклајо;Chiclayo
+bg;Чиклайо;Chiclayo
+ka;ჩიკლაიო;Chiclayo
+uk;Чіклайо;Chiclayo
+be;Чыклая;Chiclayo
+fa;چیکلایو;Chiclayo
+he;ציקלאיו;Chiclayo
+ur;چیکلایو;Chiclayo
+kk;Чиклайо;Chiclayo
+ky;Чиклайо;Chiclayo
+bn;চিক্লায়ো;Chiclayo
+am;ቺክላዮ;Chiclayo
+pa;ਚਿਕਲਾਯੋ;Chiclayo
+ps;چکلايو;Chiclayo
+tg;Чиклайо;Chiclayo
+tt;Чиклайо;Chiclayo
+fa;چه‌پن;Chepén
+pl;Kultura Chavín;Chavín de Huantar
+fi;Chavin;Chavín de Huantar
+nn;Chavín;Chavín de Huantar
+sv;Chavin;Chavín de Huantar
+uk;Чавин культура;Chavín de Huantar
+ka;ჩაჩაპოიასი;Chachapoyas
+lt;Čačapojasas;Chachapoyas
+sr;Чачапојас;Chachapoyas
+fa;چاچاپویاس;Chachapoyas
+uk;Чачапояс;Chachapoyas
+ur;چاچاپویاس، پیرو;Chachapoyas
+kk;Чачапояс;Chachapoyas
+ky;Чачапояс;Chachapoyas
+bn;চাচাপোয়াস;Chachapoyas
+am;ቻቻፖያስ;Chachapoyas
+pa;ਚਾਚਾਪੋਯਾਸ;Chachapoyas
+ps;چاچاپویاس;Chachapoyas
+tg;Чачапояс;Chachapoyas
+tt;Чачапояс;Chachapoyas
+lt;Čakasas;Chacas
+fa;سلندین;Celendín
+ceb;Carás;Caraz
+be;Карас;Caraz
+lt;Karasas;Caraz
+ka;კარასი;Caraz
+fa;کاراز;Caraz
+lt;Kachamarka;Cajamarca
+uk;Кахамарка;Cajamarca
+ka;კახამარკა;Cajamarca
+mk;Кахамарка;Cajamarca
+bg;Кахамарка;Cajamarca
+th;กาฮามาร์กา;Cajamarca
+be;Кахамарка;Cajamarca
+fa;کاخامارکا;Cajamarca
+ur;کاخامارکا;Cajamarca
+kk;Кахамарка;Cajamarca
+ky;Кахамарка;Cajamarca
+bn;কাজামার্কা;Cajamarca
+am;ካጃማርካ;Cajamarca
+az;Kajamarka;Cajamarca
+pa;ਕਾਜਾਮਾਰਕਾ;Cajamarca
+ps;کاجامارکا;Cajamarca
+tg;Кахамарка;Cajamarca
+tt;Кахамарка;Cajamarca
+be;Багуа;Bagua
+fa;باگوآ، پرو;Bagua
+ka;ბაგვა;Bagua
+lt;Bagva;Bagua
+sr;Багва;Bagua
+fa;تارما;Tarma
+lt;Takna;Tacna
+th;ตักนา;Tacna
+ka;ტაკნა;Tacna
+mk;Такна;Tacna
+be;Такна;Tacna
+fa;تاکنا;Tacna
+he;טאקנה;Tacna
+hy;Տակնա;Tacna
+uk;Такна;Tacna
+ur;تاکنا;Tacna
+kk;Такна;Tacna
+ky;Такна;Tacna
+bn;ট্যাকনা;Tacna
+am;ታክና;Tacna
+az;Takna;Tacna
+pa;ਤਾਕਨਾ;Tacna
+ps;تاکنا;Tacna
+tg;Такна;Tacna
+tt;Такна;Tacna
+lt;Punas;Puno
+el;Πούνο;Puno
+hy;Պունո;Puno
+bg;Пуно;Puno
+uk;Пуно;Puno
+ka;პუნო;Puno
+mk;Пуно;Puno
+ca;San Carlos de Puno;Puno
+be;Пуна;Puno
+th;ปูโน;Puno
+kk;Пуно;Puno
+ky;Пуно;Puno
+bn;পুনো;Puno
+ur;پونو;Puno
+am;ፑኖ;Puno
+fa;پونو;Puno
+pa;ਪੂਨੋ;Puno
+ps;پونو;Puno
+tg;Пуно;Puno
+tt;Пуно;Puno
+be;Пуэрта-Мальданада;Puerto Maldonado
+bg;Пуерто Малдонадо;Puerto Maldonado
+fa;پوئرتو مالدونادو;Puerto Maldonado
+he;פוארטו מלדונדו;Puerto Maldonado
+ka;პუერტო-მალდონადო;Puerto Maldonado
+lt;Puerto Maldonadas;Puerto Maldonado
+sr;Пуерто Малдонадо;Puerto Maldonado
+uk;Пуерто-Мальдонадо;Puerto Maldonado
+ur;پوریتو مالدونادو;Puerto Maldonado
+kk;Пуэрто-Мальдонадо;Puerto Maldonado
+ky;Пуэрто-Мальдонадо;Puerto Maldonado
+bn;পুয়ের্তো মালদোনাদো;Puerto Maldonado
+am;ፖርቶ ማልዶናዶ;Puerto Maldonado
+pa;ਪੁਏਰਤੋ ਮਾਲਡੋਨਾਡੋ;Puerto Maldonado
+ps;پويرتو مالدوناډو;Puerto Maldonado
+tg;Пуэрто-Мальдонадо;Puerto Maldonado
+tt;Пуэрто-Мальдонадо;Puerto Maldonado
+ka;პისკო;Pisco
+lt;Piskas;Pisco
+nn;Byen Pisco;Pisco
+lt;Pampasas;Pampas
+sr;Pačakamak;Pachacamac
+mk;Пачакамак;Pachacamac
+uk;Пачакамак;Pachacamac
+ka;ოლიანტაიტამბო;Ollantaytambo
+lt;Oljantaintambas;Ollantaytambo
+mk;Олантајтамбо;Ollantaytambo
+uk;Ольянтайтамбо;Ollantaytambo
+pl;Płaskowyż Nazca;Nazca
+bg;Наска;Nazca
+fi;Nasca;Nazca
+sv;Nasca;Nazca
+ka;ნასკა;Nazca
+lt;Naska;Nazca
+mk;Наска;Nazca
+ka;მოკეგუა;Moquegua
+be;Макегуа;Moquegua
+lt;Mokegva;Moquegua
+fa;موکگوا;Moquegua
+uk;Мокеґуа;Moquegua
+ur;موکیگوا;Moquegua
+kk;Мокегуа;Moquegua
+ky;Мокегуа;Moquegua
+bn;মোকেগুয়া;Moquegua
+am;ሞቀጓ;Moquegua
+pa;ਮੋਕੇਗੁਆ;Moquegua
+ps;موکيگوا;Moquegua
+tg;Мокегуа;Moquegua
+tt;Мокегуа;Moquegua
+lt;Moljendas;Mollendo
+fa;ماتارانی;Matarani
+sv;Machu Picchu;Machupicchu
+el;Λίμα;Lima
+am;ሊማ;Lima
+be;Ліма;Lima
+bg;Лима;Lima
+cv;Лима;Lima
+fa;لیما;Lima
+he;לימה;Lima
+sr;Лима;Lima
+th;ลิมา;Lima
+ka;ლიმა;Lima
+ml;ലിമ;Lima
+mk;Лима;Lima
+mhr;Лиме;Lima
+ga;Líoma;Lima
+hy;Լիմա;Lima
+ug;لىما;Lima
+os;Лимæ;Lima
+uk;Ліма;Lima
+bo;ལི་མ།;Lima
+ab;Лима;Lima
+bn;লিমা;Lima
+krc;Лима;Lima
+tl;Lungsod ng Lima;Lima
+mr;लिमा;Lima
+ta;லிமா;Lima
+ur;لیما;Lima
+pa;ਲੀਮਾ;Lima
+or;ଲିମା;Lima
+ce;Лима;Lima
+lij;Lìmma;Lima
+tt;Лима;Lima
+yue;利馬;Lima
+kk;Лима;Lima
+ky;Лима;Lima
+vep;Lim;Lima
+lt;La Oroja;La Oroya
+ka;ხულიაკა;Juliaca
+mk;Хулијака;Juliaca
+uk;Хульяка;Juliaca
+fa;خولیاکا;Juliaca
+ka;ილო;Ilo
+lt;Ilas;Ilo
+uk;Іло;Ilo
+be;Іка;Ica
+bg;Ика;Ica
+ka;იკა;Ica
+lt;Ika;Ica
+mk;Ика;Ica
+uk;Іка;Ica
+fa;ایکا، پرو;Ica
+ur;اکا، پیرو;Ica
+kk;Ика;Ica
+uz;Ika;Ica
+ky;Ика;Ica
+id;Ika;Ica
+ms;Ika;Ica
+bn;ইকা;Ica
+am;ኢካ;Ica
+az;İka;Ica
+jv;Ika;Ica
+om;Ika;Ica
+pa;ਈਕਾ;Ica
+ps;ايکا;Ica
+tg;Ика;Ica
+tt;Ика;Ica
+fa;اوارال;Huaral
+fa;اوانتا;Huanta
+lt;Huankajus;Huancayo
+mk;Уанкајо;Huancayo
+bg;Уанкайо;Huancayo
+uk;Уанкайо;Huancayo
+ka;უანკაიო;Huancayo
+be;Гуанкаё;Huancayo
+th;อวงไกย์โอ;Huancayo
+fa;اوانکایو;Huancayo
+ur;وانکایو;Huancayo
+kk;Уанкайо;Huancayo
+ky;Уанкайо;Huancayo
+bn;হুয়ান্কায়ো;Huancayo
+am;ሁዋንካዮ;Huancayo
+pa;ਹੁਆਂਕਾਓ;Huancayo
+ps;هوانکایو;Huancayo
+tg;Уанкайо;Huancayo
+tt;Уанкайо;Huancayo
+ka;უანკაველიკა;Huancavelica
+lt;Huankavelika;Huancavelica
+fa;اوانکاولیکا;Huancavelica
+uk;Уанкавеліка;Huancavelica
+ur;وانکابیلیکا;Huancavelica
+kk;Уанкавелика;Huancavelica
+ky;Уанкавелика;Huancavelica
+bn;হুয়ানকাভেলিকা;Huancavelica
+am;ሁዋንካቬሊካ;Huancavelica
+pa;ਹੁਆਂਕਾਵੇਲਿਕਾ;Huancavelica
+ps;هوانکاویلیکا;Huancavelica
+tg;Уанкавелика;Huancavelica
+tt;Уанкавелика;Huancavelica
+ka;უაჩო;Huacho
+fa;اواچو;Huacho
+uk;Уачо;Huacho
+ur;واچو;Huacho
+kk;Уачо;Huacho
+ky;Уачо;Huacho
+bn;হুয়াচো;Huacho
+am;ሁዋቾ;Huacho
+pa;ਹੁਆਚੋ;Huacho
+ps;هواچو;Huacho
+tg;Уачо;Huacho
+tt;Уачо;Huacho
+bg;Куско;Cusco
+he;קוסקו;Cusco
+hu;Cuzco;Cusco
+id;Cuzco;Cusco
+nn;Cuzco;Cusco
+pl;Cuzco;Cusco
+zh-TW;庫斯科;Cusco
+fa;کوزکو;Cusco
+lt;Kuskas;Cusco
+sr;Куско;Cusco
+cs;Cuzco;Cusco
+bn;কোস্কো;Cusco
+ta;குசுக்கோ;Cusco
+ka;კუსკო;Cusco
+os;Куско;Cusco
+uk;Куско;Cusco
+br;Qusqu;Cusco
+be;Куска;Cusco
+lv;Kusko;Cusco
+mr;कुस्को;Cusco
+th;กุสโก;Cusco
+el;Κούσκο;Cusco
+mk;Куско;Cusco
+hy;Կուսկո;Cusco
+co;Cuscu;Cusco
+ur;کوزکو;Cusco
+uz;Kusko;Cusco
+kk;Куско;Cusco
+ky;Куско;Cusco
+am;ኩስኮ;Cusco
+az;Kusko;Cusco
+pa;ਕੁਸਕੋ;Cusco
+ps;کسکو;Cusco
+tg;Куско;Cusco
+tt;Куско;Cusco
+lt;Konsepsjonas;Concepción
+fa;کانسپشن;Concepción
+bg;Чокекирао;Choquequirao
+ka;ჩოკეკირაო;Choquequirao
+mk;Чокекирао;Choquequirao
+uk;Чокекірао;Choquequirao
+lt;Čikijanas;Chiquián
+fa;چیکیان;Chiquián
+he;צ'יקיאן;Chiquián
+fa;چینچا آلتا;Chincha Alta
+ka;ჩინჩა-ალტა;Chincha Alta
+lt;Činča Alta;Chincha Alta
+mk;Чинча Алта;Chincha Alta
+fa;کرو ده پاسکو;Cerro de Pasco
+ka;სერო-დე-პასკო;Cerro de Pasco
+lt;Sero de Paskas;Cerro de Pasco
+uk;Серро-де-Паско;Cerro de Pasco
+ur;سیرو دے پاسکو;Cerro de Pasco
+kk;Серро-де-Паско;Cerro de Pasco
+ky;Серро-де-Паско;Cerro de Pasco
+bn;সেরো ডি পাস্কো;Cerro de Pasco
+am;ሴሮ ደ ፓስኮ;Cerro de Pasco
+az;Serro de Pasko;Cerro de Pasco
+pa;ਸੇਰੋ ਡੀ ਪਾਸਕੋ;Cerro de Pasco
+ps;سيرو دې پاسکو;Cerro de Pasco
+tg;Серро-де-Паско;Cerro de Pasco
+tt;Серро-де-Паско;Cerro de Pasco
+lt;Karavelis;Caravelí
+fa;کاراولی;Caravelí
+bg;Каляо;Callao
+ca;Regió de Callao;Callao
+lt;Kaljao;Callao
+zh-TW;卡亞俄;Callao
+gd;El Callao;Callao
+mk;Каљао;Callao
+uk;Каяо;Callao
+sr;Каљао;Callao
+ka;კალიაო;Callao
+be;Кальяа;Callao
+hy;Կալյաո;Callao
+fa;کایائو;Callao
+ky;Кальяо;Callao
+ur;کایاو;Callao
+uz;Kalyao;Callao
+kk;Кальяо;Callao
+bn;ক্যালাও;Callao
+am;ካላዎ;Callao
+az;Kallao;Callao
+pa;ਕਾਲਾਓ;Callao
+ps;کالاو;Callao
+tg;Кальяо;Callao
+tt;Кальяо;Callao
+bg;Кахатамбо;Cajatambo
+he;קאחאטאמבו;Cajatambo
+cv;Асангаро;Azángaro
+uk;Аякучо;Ayacucho
+bg;Аякучо;Ayacucho
+lt;Ajakučas;Ayacucho
+ka;აიაკუჩო;Ayacucho
+be;Аякуча;Ayacucho
+fa;آیاکوچو;Ayacucho
+ur;ایاکوچو;Ayacucho
+kk;Аякучо;Ayacucho
+ky;Аякучо;Ayacucho
+bn;আয়াকুচো;Ayacucho
+am;አያኩቾ;Ayacucho
+az;Ayakuço;Ayacucho
+pa;ਅਯਾਕੂਚੋ;Ayacucho
+ps;ايا کوچو;Ayacucho
+tg;Аякучо;Ayacucho
+tt;Аякучо;Ayacucho
+lt;Arekipa;Arequipa
+lv;Arekipa;Arequipa
+bg;Арекипа;Arequipa
+he;ארקיפה;Arequipa
+uk;Арекіпа;Arequipa
+ka;არეკიპა;Arequipa
+mr;अरेकिपा;Arequipa
+el;Αρεκίπα;Arequipa
+az;Arekipa;Arequipa
+ta;அரேக்கிப்பா;Arequipa
+th;อาเรกีปา;Arequipa
+be;Арэкіпа;Arequipa
+sr;Арекипа;Arequipa
+fa;ارکیپا;Arequipa
+ur;اریکیپا;Arequipa
+vep;Arekip;Arequipa
+kk;Арекипа;Arequipa
+ky;Арекипа;Arequipa
+bn;আরেকিপা;Arequipa
+am;አረኩይፓ;Arequipa
+pa;ਅਰੇਕਿਪਾ;Arequipa
+ps;اريکيپا;Arequipa
+tg;Арекипа;Arequipa
+tt;Арекипа;Arequipa
+fa;انداهوایلاس;Andahuaylas
+ka;ანდაუაილასი;Andahuaylas
+lt;Andahuailasas;Andahuaylas
+fa;اکاین;Acain
+be;Абанкай;Abancay
+ka;აბანკაი;Abancay
+lt;Abankajus;Abancay
+uk;Абанкай;Abancay
+el;Αβανκάι;Abancay
+fa;آبانکای;Abancay
+ur;اوانکائی;Abancay
+kk;Абанкай;Abancay
+ky;Абанкай;Abancay
+bn;আবানকাই;Abancay
+am;አባንካይ;Abancay
+az;Abankay;Abancay
+pa;ਅਬਾਂਕਾਈ;Abancay
+ps;ابانکای;Abancay
+tg;Абанкай;Abancay
+tt;Абанкай;Abancay
+br;Machu Picchu Pueblo;Aguas Calientes
+ka;აგუას-კალიენტესი;Aguas Calientes
+ur;ماچوپیکچو، پیرو;Aguas Calientes
+he;אגואס קליינטס;Aguas Calientes

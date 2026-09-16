@@ -27535,3 +27535,351 @@ ku;Şoriş;Shūrash
 ar;شورش;Shūrash
 en;Shorsh;Shūrash
 ru;Абу Ал-Кахсиб;Abū al-Kahṣīb
+bg;Тикрит;Tikrīt
+he;תיכרית;Tikrīt
+ja;ティクリート;Tikrīt
+lt;Tikritas;Tikrīt
+sr;Тикрит;Tikrīt
+ur;تکریت;Tikrīt
+cs;Tal Afar;Tall ‘Afar
+he;תלעפר;Tall ‘Afar
+hr;Tal Afar;Tall ‘Afar
+sl;Tal Afar;Tall ‘Afar
+sr;Тал Афар;Tall ‘Afar
+uk;Таль-Афар;Tall ‘Afar
+cs;Al-Káim;Al Qā’im
+he;אל-קאאם;Al Qā’im
+hr;Al Kaim;Al Qā’im
+sl;Al Kaim;Al Qā’im
+sr;Ел Каим;Al Qā’im
+uk;Ель-Кайм;Al Qā’im
+ja;キルクーク;Kirkuk
+sr;Киркук;Kirkuk
+ko;키르쿠크;Kirkuk
+he;כירכוכ;Kirkuk
+th;คีร์คูก;Kirkuk
+kk;Киркук;Kirkuk
+bg;Киркук;Kirkuk
+sk;Karkúk;Kirkuk
+hy;Քիրքուք;Kirkuk
+ur;کرکوک;Kirkuk
+zh;基爾庫克;Kirkuk
+el;Κιρκούκ;Kirkuk
+uk;Кіркук;Kirkuk
+af;Kirkoek;Kirkuk
+ka;კირკუკი;Kirkuk
+lt;Kirkukas;Kirkuk
+ml;കിർകുക്ക്;Kirkuk
+tt;Кәркүк;Kirkuk
+he;כרבלא;Karbala
+sr;Карбала;Karbala
+ug;كةربالا;Karbala
+bg;Кербала;Karbala
+ja;カルバラー;Karbala
+tg;Вилояти Карбало;Karbala
+ml;കർബല;Karbala
+hi;करबला;Karbala
+uk;Кербела;Karbala
+ur;کربلا;Karbala
+ko;카르발라;Karbala
+be;Кербела;Karbala
+zh;卡爾巴拉;Karbala
+bn;কারবালা;Karbala
+el;Καρμπάλα;Karbala
+hy;Քերբելա;Karbala
+ka;ქარბალა;Karbala
+ky;Кербела;Karbala
+pa;ਕਰਬਲਾ;Karbala
+sd;ڪربلا;Karbala
+sq;Qerbelaja;Karbala
+ta;கர்பலா;Karbala
+uz;Karbalo;Karbala
+pl;Irbil;Erbil
+bg;Арбил;Erbil
+he;ארביל;Erbil
+ja;アルビール県;Erbil
+tg;Вилояти Арбӣл;Erbil
+zh-TW;埃爾比勒省;Erbil
+be;Эрбіль;Erbil
+cs;Irbíl;Erbil
+el;Ερμπίλ;Erbil
+hy;Էրբիլ;Erbil
+sr;Ербил;Erbil
+uk;Ербіль;Erbil
+cs;Halabdža;Halabja
+he;חלבג'ה;Halabja
+hr;Halabdža;Halabja
+sl;Halabdža;Halabja
+sr;Халабџа;Halabja
+uk;Халабджа;Halabja
+bg;Дахук;Dihok
+no;Duhok;Dihok
+sv;Duhok;Dihok
+pl;Duhok;Dihok
+cs;Dahúk;Dihok
+el;Ντοχούκ;Dihok
+he;דהוק;Dihok
+hr;Dahuk;Dihok
+hy;Դուհոկ;Dihok
+pl;Dahuk;Dihok
+sl;Dahuk;Dihok
+sr;Дахук;Dihok
+uk;Дахук;Dihok
+zh;達霍克;Dihok
+ja;バティックファ;Batifa
+uz;Barzinja;Barzinjah
+ja;バルジンジャ;Barzinjah
+pl;Bakuba;Baqubah
+bg;Бакуба;Baqubah
+da;Baquba;Baqubah
+zh;巴古拜;Baqubah
+hr;Bakuba;Baqubah
+cs;Bakúba;Baqubah
+he;בעקובה;Baqubah
+sl;Bakuba;Baqubah
+sr;Бакуба;Baqubah
+uk;Бакуба;Baqubah
+uz;Bahzani;Qaryat Baḩzānī
+bg;Багдад;Baghdad
+bs;Bagdad;Baghdad
+ca;Bagdad;Baghdad
+cs;Bagdád;Baghdad
+da;Bagdad;Baghdad
+fi;Bagdad;Baghdad
+he;בגדאד;Baghdad
+hr;Bagdad;Baghdad
+hu;Bagdad;Baghdad
+id;Bagdad;Baghdad
+is;Bagdad;Baghdad
+ja;バグダード;Baghdad
+ko;바그다드;Baghdad
+lt;Bagdadas;Baghdad
+mr;बगदाद;Baghdad
+nds;Bagdad;Baghdad
+nn;Bagdad;Baghdad
+no;Bagdad;Baghdad
+pl;Bagdad;Baghdad
+ro;Bagdad;Baghdad
+sk;Bagdad;Baghdad
+sl;Bagdad;Baghdad
+sr;Багдад;Baghdad
+sv;Bagdad;Baghdad
+uk;Багдад;Baghdad
+gl;Bagdad;Baghdad
+mk;Багдад;Baghdad
+ta;பக்தாத்;Baghdad
+tl;Lungsod ng Baghdad;Baghdad
+el;Βαγδάτη;Baghdad
+bo;པ་ག་ཏ;Baghdad
+et;Bagdad;Baghdad
+hy;Բաղդադ;Baghdad
+tg;Бағдод;Baghdad
+am;ባግዳድ;Baghdad
+oc;Bagdad;Baghdad
+ur;بغداد;Baghdad
+bn;বাগদাদ;Baghdad
+tpi;Bagdad;Baghdad
+zh-TW;巴格達;Baghdad
+ki;بادليان;Badlyan
+no;Suleimania;Sulaymaniyah
+sv;Sulaymaniyya;Sulaymaniyah
+pl;As-Sulajmanijja;Sulaymaniyah
+hr;Sulejmanija;Sulaymaniyah
+sr;Сулејманија;Sulaymaniyah
+be;Сулейманія;Sulaymaniyah
+cs;Sulejmánie;Sulaymaniyah
+he;סולימניה;Sulaymaniyah
+hy;Սուլեյմանիա;Sulaymaniyah
+sl;Sulejmanija;Sulaymaniyah
+uk;Сулейманія;Sulaymaniyah
+he;א-סמאווה;As Samawah
+hr;Samava;As Samawah
+sl;Samava;As Samawah
+cs;Samáwa;As Samawah
+sr;Самава;As Samawah
+uk;Ес-Самава;As Samawah
+bg;Рамади;Ramadi
+da;Al-Rumadi;Ramadi
+pl;Ar-Ramadi;Ramadi
+et;Ar-Ramādī;Ramadi
+he;רמאדי;Ramadi
+ja;ラマーディー;Ramadi
+kk;Эр-Рамади;Ramadi
+ko;라마디;Ramadi
+ro;Ar Ramadi;Ramadi
+uk;Ер-Рамаді;Ramadi
+ur;رمادی;Ramadi
+sv;Al-Ramadi;Ramadi
+zh;拉馬迪;Ramadi
+el;Ραμάντι;Ramadi
+ka;რამადი;Ramadi
+ml;റമാദി;Ramadi
+no;Al-Ramadi;Ramadi
+pa;ਰਮਾਦੀ;Ramadi
+sr;Рамади;Ramadi
+zh;安努克海卜;An Nukhayb
+ja;ナーシリーヤ;Nasiriyah
+sv;An-Nasiriya;Nasiriyah
+pl;Nasirijja;Nasiriyah
+hr;Nasirija;Nasiriyah
+bg;Наджаф;Najaf
+et;An-Najaf;Najaf
+he;נגף;Najaf
+ja;ナジャフ;Najaf
+sr;Наџаф;Najaf
+pl;An-Nadżaf;Najaf
+zh;納杰夫;Najaf
+cs;Nadžaf;Najaf
+el;Νατζάφ;Najaf
+hi;नजफ़;Najaf
+hu;Nedzsef;Najaf
+ka;ნაჯაფი;Najaf
+ko;나자프;Najaf
+lt;Nadžafas;Najaf
+ml;നജഫ്‌;Najaf
+ta;நஜாப்;Najaf
+uk;Ан-Наджаф;Najaf
+ur;نجف;Najaf
+hr;Nadžaf;Najaf
+nn;Alqosh;Al Qūsh
+zh-Hans;亚勒辜须;Al Qūsh
+ca;Alqosh;Al Qūsh
+sv;Alqosh;Al Qūsh
+zh;亞勒辜須;Al Qūsh
+nb;Alqosh;Al Qūsh
+ja;エルコシュ;Al Qūsh
+pl;Alkusz;Al Qūsh
+he;אלקוש;Al Qūsh
+bg;Мосул;Mosul
+ca;Mossul;Mosul
+ja;モースル;Mosul
+sr;Мосул;Mosul
+ko;모술;Mosul
+he;מוסול;Mosul
+lv;Mosula;Mosul
+af;Mosoel;Mosul
+el;Μοσούλη;Mosul
+hu;Moszul;Mosul
+kk;Мосул;Mosul
+hi;मोसुल;Mosul
+lt;Mosulas;Mosul
+uk;Мосул;Mosul
+ur;موصل;Mosul
+mr;मोसुल;Mosul
+mhr;Мосул;Mosul
+zh;摩苏尔;Mosul
+ce;Мосул;Mosul
+mn;Мосул хот;Mosul
+pa;ਮੋਸਲ;Mosul
+hy;Մոսուլ;Mosul
+ka;მოსული;Mosul
+ky;Мосeл;Mosul
+ml;മൊസൂൾ;Mosul
+ta;மோசுல்;Mosul
+th;โมซูล;Mosul
+yue;摩蘇爾;Mosul
+be;Масул;Mosul
+bg;Кут;Al-Kut
+be;Кут;Al-Kut
+cs;Kút;Al-Kut
+he;אל-כות;Al-Kut
+hr;Kut;Al-Kut
+sl;Kut;Al-Kut
+sr;Кут;Al-Kut
+uk;Ель-Кут;Al-Kut
+da;Kufah;Kufa
+he;כופה;Kufa
+id;Kufah;Kufa
+ms;Kufah;Kufa
+sr;Куфа;Kufa
+be;Эль-Куфа;Kufa
+dv;ކޫފާ;Kufa
+el;Κούφα;Kufa
+et;Al-Kūfah;Kufa
+hi;कूफ़ा;Kufa
+ja;クーファ;Kufa
+ko;쿠파;Kufa
+ml;കൂഫ;Kufa
+su;Kufah;Kufa
+uk;Куфа;Kufa
+ur;کوفہ;Kufa
+pl;Al-Kufa;Kufa
+zh;库费;Kufa
+bn;কুফা;Kufa
+ka;კუფა;Kufa
+pa;ਕੂਫ਼ਾ;Kufa
+da;Hilla;Al Hillah
+fi;Hilla;Al Hillah
+pl;Al Hilla;Al Hillah
+hr;Hila;Al Hillah
+sr;Хила;Al Hillah
+cs;Hilla;Al Hillah
+el;Χίλλα;Al Hillah
+he;אל הילה;Al Hillah
+ja;ヒッラ;Al Hillah
+ko;힐라;Al Hillah
+sl;Hila;Al Hillah
+zh;希拉;Al Hillah
+bg;Фалуджа;Al Fallūjah
+da;Fallujah;Al Fallūjah
+fi;Falluja;Al Fallūjah
+ja;ファルージャ;Al Fallūjah
+no;Fallujah;Al Fallūjah
+pl;Al-Falludża;Al Fallūjah
+sr;Фалуџа;Al Fallūjah
+sv;Al-Falluja;Al Fallūjah
+hr;Faludža;Al Fallūjah
+be;Эль-Фалуджа;Al Fallūjah
+cs;Fallúdža;Al Fallūjah
+he;פלוג'ה;Al Fallūjah
+sl;Faludža;Al Fallūjah
+uk;Фаллуджа;Al Fallūjah
+bg;Басра;Basrah
+da;Basra;Basrah
+fi;Basra;Basrah
+ja;バスラ;Basrah
+no;Basra;Basrah
+pl;Al-Basra;Basrah
+sv;Basra;Basrah
+uk;Басра;Basrah
+zh;巴士拉;Basrah
+zh;巴斯拉;Basrah
+he;בצרה;Basrah
+cs;Basra;Basrah
+id;Basra;Basrah
+lt;Basra;Basrah
+bn;বসরা;Basrah
+hr;Basra;Basrah
+sl;Basra;Basrah
+sr;Басра;Basrah
+be;Басра;Basrah
+el;Βασόρα;Basrah
+hr;Amara;Al ‘Amārah
+uk;Ель-Амара;Al ‘Amārah
+id;Dujail;Ad Dujayl
+ja;ドゥジャイル;Ad Dujayl
+sl;Dudžail;Ad Dujayl
+sv;Dujail;Ad Dujayl
+cs;Díváníja;Al Diwaniyah
+he;אל דיוואניה;Al Diwaniyah
+hr;Divanija;Al Diwaniyah
+sl;Divanija;Al Diwaniyah
+sr;Диванија;Al Diwaniyah
+uk;Ед-Діванія;Al Diwaniyah
+da;Abu Ghraib;Abū Ghurayb
+gl;Abu Ghraib;Abū Ghurayb
+he;אבו גרייב;Abū Ghurayb
+ur;ابو غریب;Abū Ghurayb
+uk;Абд-Аллах;‘Abd Allāh
+sv;Bardarash;Bardah Rashsh aş Şaghīr
+pl;Bardarasz;Bardah Rashsh aş Şaghīr
+cs;Sindžár;Sinjār
+el;Σιντζάρ;Sinjār
+he;סינג'אר;Sinjār
+hr;Sindžar;Sinjār
+hy;Սինջար;Sinjār
+pl;Sindżar;Sinjār
+sl;Sindžar;Sinjār
+sr;Синџар;Sinjār
+uk;Синджар;Sinjār
+as;سفاح محمد;Safāḩ Muḩammad

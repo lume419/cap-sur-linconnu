@@ -337,3 +337,55 @@ ht;Site Solèy;Cité Soleil
 ru;Ките Солеил;Cité Soleil
 ht;Kafou;Carrefour
 ru;Каррефур;Carrefour
+uk;Пор-де-Пе;Port-de-Paix
+ur;پورت دے پئے;Port-de-Paix
+bg;Порт о Пренс;Port-au-Prince
+he;פורט או פרינס;Port-au-Prince
+ka;პორტ-ო-პრენსი;Port-au-Prince
+lt;Port o Prensas;Port-au-Prince
+fa;پورتو پرنس;Port-au-Prince
+mk;Порт о Пренс;Port-au-Prince
+el;Πορτ-ο-Πρενς;Port-au-Prince
+lv;Portoprensa;Port-au-Prince
+am;ፖርቶፕሪንስ;Port-au-Prince
+he;פורט-או-פרנס;Port-au-Prince
+uk;Порт-о-Пренс;Port-au-Prince
+ur;پورٹ او پرنس;Port-au-Prince
+os;Порт-о-Пренс;Port-au-Prince
+hy;Պորտ-օ-Պրենս;Port-au-Prince
+sah;Порт-о-Пренс;Port-au-Prince
+bn;পোর্ট-অ-প্রিন্স;Port-au-Prince
+bo;པོ་རོ་ཊི་ཨའུ་པི་རིན་སི།;Port-au-Prince
+be;Порт-о-Прэнс;Port-au-Prince
+th;ปอร์โตแปรงซ์;Port-au-Prince
+az;Port-o-Prins;Port-au-Prince
+tg;Порт-о-Пренс;Port-au-Prince
+ta;போர்ட்-ஓ-பிரின்ஸ்;Port-au-Prince
+mr;पोर्ट-औ-प्रिन्स;Port-au-Prince
+sr;Порт о Пренс;Port-au-Prince
+gl;Porto Príncipe;Port-au-Prince
+pa;ਪੋਰਤ-ਓ-ਪ੍ਰੈਂਸ;Port-au-Prince
+ce;Порт-о-Пренс;Port-au-Prince
+yue;太子港;Port-au-Prince
+ky;Порт-о-Пренс;Port-au-Prince
+lrc;پورتوپرنس;Port-au-Prince
+ml;പോർട്ട്-ഔ-പ്രിൻസ്;Port-au-Prince
+vep;Port-o-Prens;Port-au-Prince
+ur;لافیٹو;Lafiteau
+he;לאפיטו;Lafiteau
+he;זרמי;Jérémie
+uk;Жеремі;Jérémie
+ur;جیریمی;Jérémie
+he;זאקמל;Jacmel
+uk;Жакмель;Jacmel
+ce;Жакмель;Jacmel
+ur;جکمل;Jacmel
+uk;Енш;Hinche
+ur;اینشے;Hinche
+el;Φον-ντε-Μπλαν;Fond des Blancs
+lt;Le Kajus;Les Cayes
+uk;Ле-Ке;Les Cayes
+ur;لے سائیس;Les Cayes
+uk;Кап-Аїтьєн;Cap-Haïtien
+fa;کاپ-هائیتین;Cap-Haïtien
+el;Καπ-Αϊτιέν;Cap-Haïtien

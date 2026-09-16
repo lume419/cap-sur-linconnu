@@ -510,3 +510,114 @@ ru;Зуунмод;Zuunmod
 mn;Хархорин;Kharkhorin
 ru;Хархорин;Kharkhorin
 mn;Баянцогт;Bayantsogt
+uk;Уліастай;Uliastay
+ka;ულიასუტაი;Uliastay
+am;ኡሊያስተይ;Uliastay
+az;Uliasutay;Uliastay
+tt;Улиасутай;Uliastay
+am;ኡላአንጎም;Ulaangom
+tt;Улаангом;Ulaangom
+am;ኦልጊ;Ölgii
+az;Öлгий;Ölgii
+tt;Өлгий;Ölgii
+am;ኮቭድ;Khovd
+az;Xovd;Khovd
+tt;Ховд;Khovd
+am;አልታይ;Altai
+az;Altay;Altai
+tt;Алтай;Altai
+el;Ουλάν Μπατόρ;Ulan Bator
+pl;Ułan Bator;Ulan Bator
+am;ኡላዓን ባዓታር;Ulan Bator
+bg;Улан Батор;Ulan Bator
+cs;Ulánbátar;Ulan Bator
+et;Ulaanbaatar;Ulan Bator
+fi;Ulaanbaatar;Ulan Bator
+he;אולן בטור;Ulan Bator
+hu;Ulánbátor;Ulan Bator
+lt;Ulan Batoras;Ulan Bator
+nn;Ulaanbaatar;Ulan Bator
+no;Ulaanbaatar;Ulan Bator
+os;Улан-Батор;Ulan Bator
+ro;Ulaanbaatar;Ulan Bator
+sk;Ulanbátar;Ulan Bator
+sv;Ulaanbaatar;Ulan Bator
+sw;Ulaanbaatar;Ulan Bator
+tt;Ulaanbaatar;Ulan Bator
+hr;Ulaanbaatar;Ulan Bator
+sr;Улан Батор;Ulan Bator
+sr;Уланбатар;Ulan Bator
+uk;Улан-Батор;Ulan Bator
+cs;Cecerleg;Tsetserleg
+hu;Cecerleg;Tsetserleg
+lt;Cecerlegas;Tsetserleg
+mk;Цецерлег;Tsetserleg
+sr;Цецерлег;Tsetserleg
+pl;Cecerleg;Tsetserleg
+am;ፀፀርሌግ;Tsetserleg
+tt;Цэцэрлэг;Tsetserleg
+am;ሱክባታር;Sühbaatar
+az;Sukhbaatar;Sühbaatar
+ha;Sükhbaatar;Sühbaatar
+om;Sükhbaatar;Sühbaatar
+so;Sükhbaatar;Sühbaatar
+sw;Sükhbaatar;Sühbaatar
+tt;Сүхбаатар;Sühbaatar
+am;ኡንዱርካን;Undurkhaan
+tt;Ундурхаан;Undurkhaan
+uk;Мурен;Mörön
+am;ሞሮን;Mörön
+tt;Мөрөн;Mörön
+am;ማንዳልጎቪ;Mandalgovi
+tt;Мандалгови;Mandalgovi
+he;ארדנט;Erdenet
+be;Эрдэнэт;Erdenet
+bg;Ерденет;Erdenet
+ce;Эрдэнэт;Erdenet
+lez;Эрдэнэт;Erdenet
+lt;Erdenetas;Erdenet
+mk;Ерденет;Erdenet
+uk;Ерденет;Erdenet
+am;ኢርደኔት;Erdenet
+tt;Эрдэнэт;Erdenet
+am;ድዙንሞድ;Dzuunmod
+tt;Дзуунмод;Dzuunmod
+he;דרחאן;Darhan
+sv;Darchan;Darhan
+pl;Darchan;Darhan
+uk;Дархан;Darhan
+am;ዳርሃን;Darhan
+tt;Дарhан;Darhan
+am;ዳላንዛድጋድ;Dalandzadgad
+az;Dalanzadgad;Dalandzadgad
+tt;Даланзадгад;Dalandzadgad
+am;ቾይር;Choyr
+az;Çoyr;Choyr
+tt;Чойр;Choyr
+uk;Чойбалсан;Choibalsan
+hr;Čojbalsan;Choibalsan
+am;ቾይባልሳን;Choibalsan
+az;Çoybalsan;Choibalsan
+tt;Чойбалсан;Choibalsan
+am;ሳይንሻንድ;Saynshand
+tt;Сайншанд;Saynshand
+bg;Булган;Bulgan
+ka;ბულგანი;Bulgan
+lt;Bulganas;Bulgan
+mk;Булган;Bulgan
+uk;Булган;Bulgan
+am;ቡልጋን;Bulgan
+tt;Булган;Bulgan
+el;Μπερχ;Berh
+am;ባያንሆንጎር;Bayanhongor
+tt;Баянhонгор;Bayanhongor
+bg;Барун Урт;Baruun-Urt
+ka;ბარუუნ-ურტი;Baruun-Urt
+lt;Barun Urtas;Baruun-Urt
+mk;Барун-Урт;Baruun-Urt
+uk;Баруун-Урт;Baruun-Urt
+am;ባሩን-ኡርት;Baruun-Urt
+tt;Баруун-Урт;Baruun-Urt
+am;አርቫይሄር;Arvayheer
+tt;Арвайhээр;Arvayheer
+lv;Argalanta;Argalant

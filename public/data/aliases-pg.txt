@@ -121,3 +121,284 @@ hi;बुका;Buka
 ja;ブカ;Buka
 en;Matanakiwi;Matanakiwus
 de;Dorfinsel;Teliata
+fa;وواک;Wewak
+lt;Vevakas;Wewak
+uk;Вевак;Wewak
+ar;ويواك;Wewak
+kk;Уевак;Wewak
+ky;Веваk;Wewak
+bn;ওয়েওয়াক;Wewak
+ur;ویواک;Wewak
+am;ወውዋክ;Wewak
+pa;ਵੇਵਾਕ;Wewak
+ps;ویواک;Wewak
+tg;Вевак;Wewak
+tt;Вевак;Wewak
+ar;وابج;Wabag
+kk;Вабаг;Wabag
+ky;Вабаг;Wabag
+bn;ওয়াবাগ;Wabag
+ur;وابیگ;Wabag
+am;ዋባግ;Wabag
+fa;وابگ;Wabag
+pa;ਵਾਬਾਗ;Wabag
+ps;وابیگ;Wabag
+tg;Вабаг;Wabag
+tt;Вабаг;Wabag
+ar;فانيمو;Vanimo
+kk;Ванимо;Vanimo
+ky;Ванимо;Vanimo
+bn;ভানিমো;Vanimo
+ur;وانیمو;Vanimo
+am;ቫኒሞ;Vanimo
+fa;وانیمو;Vanimo
+pa;ਵਾਨਿਮੋ;Vanimo
+ps;وانیمو;Vanimo
+tg;Ванимо;Vanimo
+tt;Ванимо;Vanimo
+fa;توروکینا;Torokina
+ar;تاري;Tari
+kk;Тари;Tari
+ky;Тари;Tari
+bn;তারি;Tari
+ur;تاری;Tari
+am;ታሪ;Tari
+fa;تاری;Tari
+pa;ਤਾਰੀ;Tari
+ps;تاری;Tari
+tg;Тари;Tari
+tt;Тари;Tari
+fa;سالامائوآ;Salamaua
+zh-TW;拉包爾;Rabaul
+be;Рабаул;Rabaul
+mr;रबौल;Rabaul
+he;רבאול;Rabaul
+fa;رابائول;Rabaul
+uk;Рабаул;Rabaul
+lt;Rabaulas;Rabaul
+yue;笠包;Rabaul
+hy;Ռաբաուլ;Rabaul
+ar;رابول;Rabaul
+bg;Рабаул;Rabaul
+ka;რაბაული;Rabaul
+sr;Рабаул;Rabaul
+he;פורט מורסבי;Port Moresby
+lt;Port Morsbis;Port Moresby
+sr;Порт Морсби;Port Moresby
+el;Πορτ Μόρεσμπι;Port Moresby
+fa;پورت مورسبی;Port Moresby
+am;ፖርት ሞርስቢ;Port Moresby
+ar;بورت مورسبي;Port Moresby
+az;Port Morsbi;Port Moresby
+be;Порт-Морсбі;Port Moresby
+bg;Порт Морсби;Port Moresby
+bo;པོ་རོ་ཊི་མོ་རེ་སི་བི།;Port Moresby
+ckb;پۆرت مۆرسبی;Port Moresby
+ht;Pò Moresbi;Port Moresby
+hy;Պորտ Մորսբի;Port Moresby
+ka;პორტ-მორზბი;Port Moresby
+lv;Portmorsbi;Port Moresby
+mk;Порт Морсби;Port Moresby
+mr;पोर्ट मॉरेस्बी;Port Moresby
+mrj;Порт-Морсби;Port Moresby
+pa;ਪੋਰਟ ਮੋਰੈਸਬੀ;Port Moresby
+sah;Порт Морсби;Port Moresby
+th;พอร์ตมอร์สบี;Port Moresby
+ug;مورېسبى پورتى;Port Moresby
+uk;Порт-Морсбі;Port Moresby
+ur;پورٹ مورسبی;Port Moresby
+ar;بوبونديتا;Popondetta
+kk;Попондетта;Popondetta
+ky;Попондетта;Popondetta
+bn;পোপোন্ডেট্টা;Popondetta
+ur;پوپونڈیٹا;Popondetta
+am;ፖፖንደታ;Popondetta
+fa;پوپوندتا;Popondetta
+pa;ਪੋਪੋਂਡੇਟਾ;Popondetta
+ps;پوپونډیتا;Popondetta
+tg;Попондетта;Popondetta
+tt;Попондетта;Popondetta
+uk;Наматанаї;Namatanai
+fa;ناماتانائی;Namatanai
+ar;جبل هاجن;Mount Hagen
+kk;Маунт-Хаген;Mount Hagen
+ky;Маунт-Хаген;Mount Hagen
+bn;মাউন্ট হেগেন;Mount Hagen
+ur;ماؤنٹ ہیگن;Mount Hagen
+am;ሞውንት ሃገን;Mount Hagen
+fa;مونت هیجن;Mount Hagen
+pa;ਮਾਉਂਟ ਹੇਗਨ;Mount Hagen
+ps;ماونټ هیجن;Mount Hagen
+tg;Маунт-Хаген;Mount Hagen
+tt;Маунт-Хаген;Mount Hagen
+ar;ميندي;Mendi
+kk;Менди;Mendi
+ky;Менди;Mendi
+bn;মেন্ডি;Mendi
+ur;مینڈی;Mendi
+am;ሜንዲ;Mendi
+fa;مندی;Mendi
+pa;ਮੇਂਡੀ;Mendi
+ps;مندي;Mendi
+tg;Менди;Mendi
+ar;مادانج;Madang
+kk;Маданг;Madang
+ky;Маданг;Madang
+bn;মাদাং;Madang
+ur;مادانگ;Madang
+am;ማዳንግ;Madang
+fa;مادانگ;Madang
+pa;ਮਾਦਾਂਗ;Madang
+ps;مادانگ;Madang
+tg;Маданг;Madang
+tt;Маданг;Madang
+ar;لورينجاو;Lorengau
+kk;Лоренгау;Lorengau
+ky;Лоренгау;Lorengau
+bn;লোরেনগাউ;Lorengau
+ur;لورینگاؤ;Lorengau
+am;ሎሬንጋው;Lorengau
+fa;لورنگاو;Lorengau
+pa;ਲੋਰੇਂਗਾਉ;Lorengau
+ps;لورنګاو;Lorengau
+tg;Лоренгау;Lorengau
+tt;Лоренгау;Lorengau
+fa;لائه;Lae
+uk;Лае;Lae
+he;לאה;Lae
+ky;Лаэ шаары;Lae
+ur;لائے;Lae
+ar;لاي;Lae
+kk;Лаэ;Lae
+bn;লাই;Lae
+am;ላይ;Lae
+pa;ਲਾਏ;Lae
+ps;لائے;Lae
+tg;Лаэ;Lae
+tt;Лаэ;Lae
+ar;كورومول;Kurumul
+kk;Курумул;Kurumul
+ky;Курумул;Kurumul
+bn;কুরুমুল;Kurumul
+ur;کرومول;Kurumul
+am;ኩሩሙል;Kurumul
+fa;کرومول;Kurumul
+pa;ਕੁਰੁਮੁਲ;Kurumul
+ps;کرومول;Kurumul
+tg;Курумул;Kurumul
+tt;Курумул;Kurumul
+ar;كونديوا;Kundiawa
+kk;Кундиава;Kundiawa
+ky;Кундиава;Kundiawa
+bn;কুন্ডিআওয়া;Kundiawa
+ur;کندیاوا;Kundiawa
+am;ኩንዲአዋ;Kundiawa
+fa;کندیاوا;Kundiawa
+pa;ਕੁਂਡਿਆਵਾ;Kundiawa
+ps;کندياوا;Kundiawa
+tg;Кундиава;Kundiawa
+tt;Кундиава;Kundiawa
+ar;كوكوبو;Kokopo
+kk;Кокопо;Kokopo
+ky;Кокопо;Kokopo
+bn;কোকোপো;Kokopo
+ur;کوکوپو;Kokopo
+am;ኮኮፖ;Kokopo
+fa;کوکوپو;Kokopo
+pa;ਕੋਕੋਪੋ;Kokopo
+ps;کوکوپو;Kokopo
+tg;Кокопо;Kokopo
+tt;Кокопо;Kokopo
+fa;کیمبه;Kimbe
+ur;کمبے;Kimbe
+ar;كيمبي;Kimbe
+kk;Кимбе;Kimbe
+ky;Кимбе;Kimbe
+bn;কিম্বে;Kimbe
+am;ኪምቤ;Kimbe
+pa;ਕਿਮਬੇ;Kimbe
+ps;کمبې;Kimbe
+tg;Кимбе;Kimbe
+tt;Кимбе;Kimbe
+fa;کیکوری;Kikori
+ar;كيريما;Kerema
+kk;Керема;Kerema
+ky;Керема;Kerema
+bn;কেরেমা;Kerema
+ur;کیریمہ;Kerema
+am;ከረማ;Kerema
+fa;کریما;Kerema
+pa;ਕੇਰੇਮਾ;Kerema
+ps;کیریما;Kerema
+tg;Керема;Kerema
+tt;Керема;Kerema
+fa;کاوینگ;Kavieng
+uk;Кавіенг;Kavieng
+ur;کاوینگ;Kavieng
+ar;كافينج;Kavieng
+kk;Кавиенг;Kavieng
+ky;Кавиенг;Kavieng
+bn;কাভিয়েং;Kavieng
+am;ካቪየንግ;Kavieng
+pa;ਕਾਵਿਏਂਗ;Kavieng
+ps;کاویانګ;Kavieng
+tg;Кавиенг;Kavieng
+tt;Кавиенг;Kavieng
+fa;کائینانتو;Kainantu
+uk;Каінанту;Kainantu
+uk;Іалібу;Ialibu
+fa;یالیبو;Ialibu
+ar;هانو;Hanau
+ar;هَانَو;Hanau
+ar;جوروكا;Goroka
+kk;Горока;Goroka
+ky;Горока;Goroka
+bn;গোরোকা;Goroka
+ur;گوروکا;Goroka
+am;ጎሮካ;Goroka
+fa;گوروکا;Goroka
+pa;ਗੋਰੋਕਾ;Goroka
+ps;گوروکا;Goroka
+tg;Горока;Goroka
+tt;Горока;Goroka
+uk;Фіншгафен;Finschhafen
+fa;فینشهافن;Finschhafen
+fa;دارو;Daru
+uk;Дару;Daru
+ur;دارو;Daru
+ar;دارو;Daru
+kk;Дару;Daru
+ky;Дару;Daru
+bn;দারু;Daru
+am;ዳሩ;Daru
+pa;ਦਾਰੂ;Daru
+ps;دارو;Daru
+tg;Дару;Daru
+tt;Дару;Daru
+fa;برئینا;Bereina
+bg;Аитапе;Aitape
+uk;Айтапе;Aitape
+fa;آئیتاپه;Aitape
+uk;Самарай;Samarai
+fa;آلوتائو;Alotau
+ar;ألوتاو;Alotau
+kk;Алотау;Alotau
+ky;Алотау;Alotau
+bn;অলোটাউ;Alotau
+ur;الوتاؤ;Alotau
+am;አሎታው;Alotau
+pa;ਅਲੋਤਾਉ;Alotau
+ps;الوتاؤ;Alotau
+tg;Алотау;Alotau
+tt;Алотау;Alotau
+ar;بوكا;Buka
+kk;Бука;Buka
+ky;Бука;Buka
+bn;বুকা;Buka
+ur;بوکا;Buka
+am;ቡካ;Buka
+fa;بوکا;Buka
+pa;ਬੁਕਾ;Buka
+ps;بوکا;Buka
+tg;Бука;Buka
+tt;Бука;Buka

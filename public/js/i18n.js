@@ -149351,10 +149351,24 @@
     return (localeCache[code] = 'fr-FR');
   }
 
+  // Pays associé à une langue d'interface (code des pays de trip-data.js), d'après son drapeau : 'de' -> DE,
+  // 'ca' (es-ct) -> ES, 'haw' (us-hi) -> US. Les collectivités françaises d'outre-mer sont rangées sous FR dans les
+  // données (marquisien, tahitien : drapeau pf -> FR) ; drapeaux sans pays : occitan -> FR, amazighe -> MA.
+  // Sert à faire passer les villes de ce pays en tête des suggestions de ville de départ.
+  var FLAG_COUNTRY = { occitania: 'FR', amazigh: 'MA', gp: 'FR', mq: 'FR', gf: 'FR', re: 'FR', yt: 'FR', nc: 'FR',
+    pf: 'FR', wf: 'FR', pm: 'FR', bl: 'FR', mf: 'FR' };
+  function langCountry(code){
+    var flag = LANG_FLAGS[code || lang] || '';
+    if(FLAG_COUNTRY[flag]) return FLAG_COUNTRY[flag];
+    var m = flag.match(/^([a-z]{2})(-|$)/);
+    return m ? m[1].toUpperCase() : '';
+  }
+
   window.I18N = {
     SUPPORTED: SUPPORTED,
     LANG_NAMES: LANG_NAMES,
     localeTag: localeTag,
+    country: langCountry,
     current: function(){ return lang; },
     set: setLang,
     t: t,

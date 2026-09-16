@@ -9,3 +9,100 @@ fr;Akalayong;Acalayong
 es;Asalayeng;Acalayong
 ar;سيوداد دي لا باز;Ciudad de la Paz
 pt;Cidade da Paz;Ciudad de la Paz
+et;Pagalu;San Antonio de Palé
+ja;サンアントニオ・デ・パレ;San Antonio de Palé
+pl;Pagalu;San Antonio de Palé
+uk;Сан-Антоніо-де-Пале;San Antonio de Palé
+ru;Сан-Антонио-де-Пале;San Antonio de Palé
+he;סן אנטוניו דה פאלה;San Antonio de Palé
+ko;산안토니오데팔레;San Antonio de Palé
+ja;リオ・カンポ;Río Campo
+ru;Ребола;Rebola
+ru;Нсок;Nsok
+bg;Нкими;Nkimi
+zh;恩基米;Nkimi
+ja;ンキミ;Nkimi
+fa;انکیمی;Nkimi
+ru;Мока;Moca
+uk;Мбіні;Mbini
+ko;음비니;Mbini
+zh;姆比尼;Mbini
+th;อึมบีนี;Mbini
+ja;ンビニ;Mbini
+ru;Мбини;Mbini
+uk;Ебебіїн;Ebebiyin
+ja;エベビイン;Ebebiyin
+ko;에베비인;Ebebiyin
+lt;Ebebijinas;Ebebiyin
+ka;ებებიინი;Ebebiyin
+ru;Эбебьин;Ebebiyin
+zh;埃贝比因;Ebebiyin
+ru;Кого;Cogo
+he;מלאבו;Malabo
+ja;マラボ;Malabo
+ko;말라보;Malabo
+fa;مالابو;Malabo
+ru;Малабо;Malabo
+zh-TW;馬拉博;Malabo
+el;Μαλάμπο;Malabo
+am;ማላቦ;Malabo
+lt;Malabas;Malabo
+th;มาลาโบ;Malabo
+uk;Малабо;Malabo
+udm;Малабо;Malabo
+mrj;Малабо;Malabo
+hy;Մալաբո;Malabo
+bo;མ་ལ་བོ།;Malabo
+bg;Малабо;Malabo
+be;Малаба;Malabo
+ur;ملابو;Malabo
+ky;Малабо;Malabo
+ka;მალაბო;Malabo
+mr;मलाबो;Malabo
+tg;Малабо;Malabo
+mk;Малабо;Malabo
+sr;Малабо;Malabo
+ckb;مالابۆ;Malabo
+pa;ਮਲਾਬੋ;Malabo
+zh;馬拉博;Malabo
+ce;Малабо;Malabo
+yue;馬拉博;Malabo
+ta;மலாபோ;Malabo
+bg;Луба;Luba
+ja;ルバ;Luba
+ko;루바;Luba
+ru;Луба;Luba
+zh;盧巴;Luba
+zh;蒙戈梅因;Mengomeyén
+ja;バタ;Bata
+zh;巴塔;Bata
+ru;Бата;Bata
+be;Бата;Bata
+bg;Бата;Bata
+he;באטה;Bata
+ka;ბატა;Bata
+ko;바타;Bata
+uk;Бата;Bata
+kk;Бата;Bata
+sr;Бата;Bata
+ru;Анисок;Añisoc
+ca;Añisok;Añisoc
+zh;阿尼索克;Añisoc
+cy;Añisok;Añisoc
+ja;アニソク;Añisoc
+az;Anisok;Añisoc
+fa;آشیسوک;Añisoc
+zh;阿卡拉永;Acalayong
+ja;アカラヨング;Acalayong
+fa;اکالایانگ;Acalayong
+be;Сьюдад-дэ-ла-Пас;Ciudad de la Paz
+bg;Сиудад де ла Пас;Ciudad de la Paz
+el;Θιουδάδ ντε λα Παθ;Ciudad de la Paz
+fa;سیوداد دلاپاز;Ciudad de la Paz
+he;סיודאד דה לה פאס;Ciudad de la Paz
+hy;Սյուդադ դե լա Պաս;Ciudad de la Paz
+ru;Сьюдад-де-ла-Пас;Ciudad de la Paz
+sr;Сијудад де ла Паз;Ciudad de la Paz
+sl;Ciudad de le Paz;Ciudad de la Paz
+uk;Сьюдад-де-ла-Пас;Ciudad de la Paz
+zh;拉巴斯城;Ciudad de la Paz

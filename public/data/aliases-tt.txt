@@ -79,3 +79,164 @@ ru;Арима;Arima
 ar;أريما;Arima
 hi;अरीमा;Arima
 ja;アリマ;Arima
+kk;Тунапуна;Tunapuna
+ky;Тунапуна;Tunapuna
+bn;তুনাপুনা;Tunapuna
+ur;تونابونا;Tunapuna
+am;ቱናፑና;Tunapuna
+fa;تونابونا;Tunapuna
+pa;ਤੁਨਾਪੁਨਾ;Tunapuna
+ps;تونابونا;Tunapuna
+tg;Тунапуна;Tunapuna
+kk;Сипария;Siparia
+ky;Сипария;Siparia
+bn;সিপারিয়া;Siparia
+ur;سپاریہ;Siparia
+am;ስፓርያ;Siparia
+fa;سیپاریا;Siparia
+pa;ਸਿਪਾਰਿਆ;Siparia
+ps;سيپاريا;Siparia
+tg;Сипария;Siparia
+lt;Skarboras;Scarborough
+kk;Скарборо;Scarborough
+ky;Скарборо;Scarborough
+bn;স্কারবারো;Scarborough
+ur;سکاربورو;Scarborough
+am;ስካርቦሮ;Scarborough
+fa;اسکاربورو;Scarborough
+pa;ਸਕਾਰਬਰੋ;Scarborough
+ps;سکاربرو;Scarborough
+tg;Скарборо;Scarborough
+kk;Сангре-Гранде;Sangre Grande
+ky;Сангре-Гранде;Sangre Grande
+bn;সাঙ্গ্রে গ্রান্ডে;Sangre Grande
+ur;سانگری گرینڈے;Sangre Grande
+am;ሳንግሬ ግራንደ;Sangre Grande
+fa;سانگره گراندِ;Sangre Grande
+pa;ਸੈਂਗ੍ਰੇ ਗ੍ਰਾਂਡੇ;Sangre Grande
+ps;سانجري جراندي;Sangre Grande
+tg;Сангре-Гранде;Sangre Grande
+kk;Сан-Фернандо;San Fernando
+ky;Сан-Фернандо;San Fernando
+bn;সান ফার্নান্ডো;San Fernando
+ur;سان فرنانڈو;San Fernando
+am;ሳን ፌርናንዶ;San Fernando
+fa;سان فرناندو;San Fernando
+pa;ਸੈਨ ਫਰਨਾਂਡੋ;San Fernando
+ps;سان فرناندو;San Fernando
+tg;Сан-Фернандо;San Fernando
+kk;Рио-Кларо;Rio Claro
+ky;Рио-Кларо;Rio Claro
+bn;রিও ক্লারো;Rio Claro
+ur;ریو کلارو;Rio Claro
+am;ሪዮ ክላሮ;Rio Claro
+fa;ریو کلارو;Rio Claro
+pa;ਰਿਓ ਕਲਾਰੋ;Rio Claro
+ps;ريو كلارو;Rio Claro
+tg;Рио-Кларо;Rio Claro
+kk;Принцес-Таун;Princes Town
+ky;Принцес-Таун;Princes Town
+bn;প্রিন্সেস টাউন;Princes Town
+ur;پرنسز ٹاؤن;Princes Town
+am;ፕሪንሲስ ታውን;Princes Town
+fa;پرینسز تاون;Princes Town
+pa;ਪ੍ਰਿੰਸੇਸ ਟਾਊਨ;Princes Town
+ps;پرنسز ټاون;Princes Town
+tg;Принцес-Таун;Princes Town
+he;פורט אוף ספיין;Port of Spain
+mk;Порт оф Спејн;Port of Spain
+el;Πορτ οφ Σπέιν;Port of Spain
+am;ፖርት ኦፍ ስፔን;Port of Spain
+lt;Port of Speinas;Port of Spain
+az;Port of Speyn;Port of Spain
+be;Порт-оф-Спейн;Port of Spain
+bg;Порт ъф Спейн;Port of Spain
+bn;পোর্ট অব স্পেন;Port of Spain
+bo;པོ་རོ་ཊི་ཨོཕ་སི་པེ་ན།;Port of Spain
+ce;Порт-оф-Спейн;Port of Spain
+fa;پرت آو اسپاین;Port of Spain
+gl;Porto España;Port of Spain
+ka;პორტ-ოვ-სპეინი;Port of Spain
+kk;Порт-оф-Спейн;Port of Spain
+ky;Порт-Оф-Спейн;Port of Spain
+lrc;پرت آو اسپاین;Port of Spain
+lv;Portofspeina;Port of Spain
+ml;പോർട്ട് ഓഫ് സ്പെയിൻ;Port of Spain
+mr;पोर्ट ऑफ स्पेन;Port of Spain
+os;Порт-оф-Спейн;Port of Spain
+pa;ਪੋਰਟ ਆਫ਼ ਸਪੇਨ;Port of Spain
+sah;Порт оф Спейн;Port of Spain
+sr;Порт ов Спејн;Port of Spain
+ta;போர்ட் ஆஃப் ஸ்பெய்ன்;Port of Spain
+th;พอร์ต-ออฟ-สเปน;Port of Spain
+uk;Порт-оф-Спейн;Port of Spain
+ur;پورٹ آف اسپین;Port of Spain
+uz;Port-of-speyn;Port of Spain
+vep;Port of Spein;Port of Spain
+cy;Porthladd Sbaen;Port of Spain
+kk;Пойнт-Фортин;Point Fortin
+ky;Пойнт-Фортин;Point Fortin
+bn;পয়েন্ট ফর্টিন;Point Fortin
+ur;پوائنٹ فورٹن;Point Fortin
+am;ፓይንት ፎርቲን;Point Fortin
+fa;پوئنت فورتن;Point Fortin
+pa;ਪੁਆਇੰਟ ਫੋਰਟਿਨ;Point Fortin
+ps;پوائنټ فورتين;Point Fortin
+tg;Пойнт-Фортин;Point Fortin
+kk;Пенал;Peñal
+ky;Пенал;Peñal
+bn;পেনাল;Peñal
+ur;پینل;Peñal
+am;ፔናል;Peñal
+fa;پنال;Peñal
+pa;ਪੇਨਲ;Peñal
+ps;پينال;Peñal
+tg;Пенал;Peñal
+bg;Марабела;Marabella
+fa;مارابلا;Marabella
+sr;Марабела;Marabella
+kk;Лавентилль;Laventille
+ky;Лавентилль;Laventille
+bn;লাভেন্টিল;Laventille
+ur;لاونٹیل;Laventille
+am;ላቬንቲል;Laventille
+fa;لاونتیل;Laventille
+pa;ਲਾਵੇਂਟਿਲ;Laventille
+ps;لاونتيل;Laventille
+tg;Лавентилль;Laventille
+kk;Диего-Мартин;Diego Martin
+ky;Диего-Мартин;Diego Martin
+bn;ডিয়েগো মার্টিন;Diego Martin
+ur;ڈیاگو مارٹن;Diego Martin
+am;ዲያጎ ማርቲን;Diego Martin
+fa;دیاگو مارتین;Diego Martin
+pa;ਡਿਏਗੋ ਮਾਰਟਿਨ;Diego Martin
+ps;ډيګو مارتين;Diego Martin
+tg;Диего-Мартин;Diego Martin
+fa;کووا;Couva
+ur;کؤوا;Couva
+kk;Куэва;Couva
+ky;Куэва;Couva
+bn;কুভা;Couva
+am;ኩቫ;Couva
+pa;ਕੂਵਾ;Couva
+ps;کویوا;Couva
+tg;Куэва;Couva
+kk;Чагуанас;Chaguanas
+ky;Чагуанас;Chaguanas
+bn;চাগুয়ানাস;Chaguanas
+ur;چاگوانس;Chaguanas
+am;ቻጓናስ;Chaguanas
+fa;چاگوانس;Chaguanas
+pa;ਚਾਗੁਆਨਾਸ;Chaguanas
+ps;چاگوانس;Chaguanas
+tg;Чагуанас;Chaguanas
+kk;Арима;Arima
+ky;Арима;Arima
+bn;আরিমা;Arima
+ur;اریما;Arima
+am;አሪማ;Arima
+fa;اریما;Arima
+pa;ਅਰੀਮਾ;Arima
+ps;اريما;Arima
+tg;Арима;Arima

@@ -486,3 +486,309 @@ ar;الجفتلك;Al Jiftlik
 ar;خرسا;Khursā
 he;איתמר;Itamar
 he;גני מודיעין;Ganei Modi'in
+ca;Ràfia;Rafaḩ
+sr;Рафа;Rafaḩ
+zh;拉法市;Rafaḩ
+no;Khan Younis;Khān Yūnis
+no;Jabalia;Jabālyā
+bg;Газа;Gaza
+ja;ガザ;Gaza
+nn;Gaza by;Gaza
+zh;加沙;Gaza
+sr;Газа;Gaza
+zh;加薩;Gaza
+ckb;غەززە;Gaza
+os;Газæ;Gaza
+ur;غزہ;Gaza
+hy;Ղազա;Gaza
+fa;غزه;Gaza
+uk;Газа;Gaza
+gd;Gàsa;Gaza
+bn;গাজা সিটি;Gaza
+tt;Газзә;Gaza
+hi;ग़ज़ा;Gaza
+az;Qəzza;Gaza
+ceb;Dakbayan sa Gaza;Gaza
+ko;가자;Gaza
+vep;Gaz;Gaza
+mr;गाझा;Gaza
+af;Gasa;Gaza
+ku;Xeze;Gaza
+ta;காசா;Gaza
+ce;Газа;Gaza
+ky;Газa;Gaza
+mk;Газа;Gaza
+ne;गाजा शहर;Gaza
+pa;ਗ਼ਜ਼ਾ ਸ਼ਹਿਰ;Gaza
+yue;加沙;Gaza
+kk;Газа;Gaza
+am;ጋዛ;Gaza
+om;Gaaza;Gaza
+ps;غزه;Gaza
+tg;Ғазза;Gaza
+no;Deir el-Balah;Dayr al Balaḩ
+nn;Deir el-Balah;Dayr al Balaḩ
+no;Beit Lahia;Bayt Lāhyā
+nn;Beit Lahia;Bayt Lāhyā
+nn;Beit Hanoun;Bayt Ḩānūn
+fi;Beit Hanoun;Bayt Ḩānūn
+lv;Beit Hānūna;Bayt Ḩānūn
+oc;Beit Hanoun;Bayt Ḩānūn
+uk;Бейт-Ханун;Bayt Ḩānūn
+id;Beit Hanoun;Bayt Ḩānūn
+ur;بیت حانون;Bayt Ḩānūn
+sco;Beit Hanoun;Bayt Ḩānūn
+ca;Beit Hanoun;Bayt Ḩānūn
+sv;Beit Hanun;Bayt Ḩānūn
+zh;拜特哈嫩;Bayt Ḩānūn
+eu;Beit Hanoun;Bayt Ḩānūn
+cs;Bajt Hánún;Bayt Ḩānūn
+nb;Beit Hanoun;Bayt Ḩānūn
+cy;Beit Hanoun;Bayt Ḩānūn
+ja;ベイト・ハヌーン;Bayt Ḩānūn
+fa;بیت‌حانون;Bayt Ḩānūn
+pl;Bajt Hanun;Bayt Ḩānūn
+da;Beit Hanoun;Bayt Ḩānūn
+nn;Bani Suheila;Banī Suhaylā
+eu;Bani Suheila;Banī Suhaylā
+cs;Baní Suhajla;Banī Suhaylā
+nb;Bani Suheila;Banī Suhaylā
+cy;Bani Suheila;Banī Suhaylā
+ja;バニ・スヘイラ;Banī Suhaylā
+fa;بنی سهیلا;Banī Suhaylā
+pl;Bani Suhajla;Banī Suhaylā
+ur;بنی سہیلہ;Banī Suhaylā
+sco;Bani Suheila;Banī Suhaylā
+ca;Bani Suheila;Banī Suhaylā
+no;Jatta;Yaţţā
+pl;Jatta;Yaţţā
+no;Tulkarem;Ţūlkarm
+be;Тулькарм;Ţūlkarm
+lt;Tulkarmas;Ţūlkarm
+bn;তুলকারেম;Ţūlkarm
+zh-Hant;圖勒凱爾姆;Ţūlkarm
+uk;Тулькарм;Ţūlkarm
+sk;Túlkarim;Ţūlkarm
+ur;طولکرم;Ţūlkarm
+ca;Tulkarem;Ţūlkarm
+sr;Тулкарм;Ţūlkarm
+ko;툴카름;Ţūlkarm
+zh;图勒凯尔姆;Ţūlkarm
+eu;Tulkarem;Ţūlkarm
+cs;Túlkarim;Ţūlkarm
+nb;Tulkarem;Ţūlkarm
+ja;トゥルカーム;Ţūlkarm
+fa;طولکرم;Ţūlkarm
+nn;Surif;Surif City
+ceb;Şūrīf;Surif City
+fi;Surif;Surif City
+cs;Súríf;Surif City
+nb;Surif;Surif City
+ga;Surif;Surif City
+pl;Surif;Surif City
+ca;Surif;Surif City
+bg;Рамала;Ramallah
+et;Rām Allāh;Ramallah
+fa;رام‌الله;Ramallah
+ro;Рамаллах;Ramallah
+zh;拉姆安拉;Ramallah
+ja;ラマッラー;Ramallah
+ko;라말라;Ramallah
+sr;Рамала;Ramallah
+gl;Ramala;Ramallah
+os;Рамаллæ;Ramallah
+hy;Ռամալա;Ramallah
+ca;Ramal·lah;Ramallah
+ur;رام اللہ;Ramallah
+ckb;ڕامەڵا;Ramallah
+cs;Rámaláh;Ramallah
+lv;Rāmalla;Ramallah
+th;รอมัลลอฮ์;Ramallah
+uk;Рамалла;Ramallah
+hr;Ramala;Ramallah
+be;Рамала;Ramallah
+av;Рамаллагь;Ramallah
+ta;ரம்லா;Ramallah
+ba;Рамаллаһ;Ramallah
+ce;РамаллахӀ;Ramallah
+ku;Ramella;Ramallah
+ky;Рамалла;Ramallah
+lt;Ramala;Ramallah
+sl;Ramala;Ramallah
+vep;Ramall;Ramallah
+yue;拉姆安拉;Ramallah
+hi;रामल्ला;Ramallah
+ps;رام الله;Ramallah
+bn;রামাল্লাহ;Ramallah
+ka;რამალა;Ramallah
+si;රමල්ලා;Ramallah
+kk;Рамалла;Ramallah
+mzn;رام‌الله;Ramallah
+kn;ರಾಮಾಲ್ಲಾ;Ramallah
+te;రామల్ల;Ramallah
+tg;Рамаллоҳ;Ramallah
+mk;Рамала;Ramallah
+ml;റാമല്ല;Ramallah
+mr;रामाल्ला;Ramallah
+uz;Ramalla;Ramallah
+ne;रामल्ला;Ramallah
+gn;Ramala;Ramallah
+gu;રામાલાહ;Ramallah
+pa;ਰਾਮੱਲਾ;Ramallah
+pl;Sychem;Nablus
+ko;나블루스;Nablus
+ja;ナーブルス;Nablus
+uk;Наблус;Nablus
+lt;Nablusas;Nablus
+fa;نابلوس;Nablus
+os;Наблус;Nablus
+bg;Наблус;Nablus
+zh;納布盧斯;Nablus
+hu;Náblusz;Nablus
+aa;الجلمة;Al Jalamah
+nn;Iktaba;Iktābah
+pl;Iktaba;Iktābah
+ca;Iktaba;Iktābah
+nn;Deir Sharaf;Dayr Sharaf
+ca;Deir Sharaf;Dayr Sharaf
+nn;Bir Zeit;Bīr Zayt
+sl;Bir Zeit;Bīr Zayt
+id;Birzeit;Bīr Zayt
+ca;Bir Zeit;Bīr Zayt
+zh;比尔宰特;Bīr Zayt
+eu;Bir Zeit;Bīr Zayt
+nb;Bir Zeit;Bīr Zayt
+cy;Bir Zait;Bīr Zayt
+ja;ビルゼイト;Bīr Zayt
+pl;Bir Zajt;Bīr Zayt
+nn;Beitunia;Baytūnyā
+fi;Beitunia;Baytūnyā
+eu;Beitunia;Baytūnyā
+fa;بیتونیا;Baytūnyā
+pl;Bajtunija;Baytūnyā
+ur;بیتونیا;Baytūnyā
+ca;Beitunia;Baytūnyā
+sr;Бетунија;Baytūnyā
+ca;Betlem;Bethlehem
+da;Betlehem;Bethlehem
+fi;Betlehem;Bethlehem
+ht;Bètleyèm;Bethlehem
+hu;Betlehem;Bethlehem
+id;Betlehem;Bethlehem
+ja;ベツレヘム;Bethlehem
+ko;베들레헴;Bethlehem
+lb;Betlehem;Bethlehem
+nn;Betlehem;Bethlehem
+pl;Betlejem;Bethlehem
+ro;Bethleem Efrata;Bethlehem
+sv;Betlehem;Bethlehem
+tl;Belén;Bethlehem
+zh-TW;伯利恆;Bethlehem
+ka;ბეით-ლაჰმი;Bethlehem
+ga;Beitheal;Bethlehem
+hr;Betlehem;Bethlehem
+sk;Betlehem;Bethlehem
+uk;Віфлеєм;Bethlehem
+no;Betlehem;Bethlehem
+ckb;بەیت لەحم;Bethlehem
+fa;بیت‌لحم;Bethlehem
+ur;بیت لحم;Bethlehem
+ps;بیت لحم;Bethlehem
+ug;بېتلېخېم;Bethlehem
+hy;Բեթղեհեմ;Bethlehem
+nn;As-Samu;As Samū‘
+fi;As Samu';As Samū‘
+jv;Es Samu;As Samū‘
+eu;As-Samu;As Samū‘
+nb;As-Samu;As Samū‘
+ja;アス・サム;As Samū‘
+id;Es Samu;As Samū‘
+fa;السموع;As Samū‘
+pl;As-Samu;As Samū‘
+ur;السموع;As Samū‘
+ca;As-Samu;As Samū‘
+bg;Йерихон;Jericho
+bs;Jerihon;Jericho
+fa;اریحا;Jericho
+fi;Jeriko;Jericho
+ja;エリコ;Jericho
+lt;Jerichas;Jericho
+pl;Jerycho;Jericho
+sv;Jeriko;Jericho
+ca;Jericó;Jericho
+hr;Jerihon;Jericho
+da;Jeriko;Jericho
+lv;Jērika;Jericho
+uk;Єрихон;Jericho
+am;ኢያሪኮ;Jericho
+be;Іерыхон;Jericho
+br;Jeriko;Jericho
+cv;Иерихон;Jericho
+et;Jeeriko;Jericho
+eu;Jeriko;Jericho
+fo;Jeriko;Jericho
+ga;Ireachó;Jericho
+gl;Xericó;Jericho
+hu;Jerikó;Jericho
+id;Yerikho;Jericho
+ka;იერიქონი;Jericho
+ko;예리코;Jericho
+nn;Jeriko;Jericho
+no;Jeriko;Jericho
+os;Иерихон;Jericho
+ro;Ierihon;Jericho
+sr;Јерихон;Jericho
+sw;Yeriko;Jericho
+ta;எரிக்கோ;Jericho
+ur;اریحا;Jericho
+zh;杰里科;Jericho
+kk;Иерихон;Jericho
+uz;Arihon;Jericho
+ky;Иерихон;Jericho
+ms;Yerikho;Jericho
+hi;येरिको;Jericho
+bn;জেরিকো;Jericho
+az;Arişa;Jericho
+ha;Arihon;Jericho
+jv;Yerikho;Jericho
+om;Arihoon;Jericho
+pa;ਜੇਰੀਕੋ;Jericho
+ps;اريحا;Jericho
+so;Arihoo;Jericho
+tg;Арайҳо;Jericho
+tt;Иерихон;Jericho
+da;Hebron;Al Khalil
+hu;Hebron;Al Khalil
+ja;ヘブロン;Al Khalil
+no;Hebron;Al Khalil
+pl;Hebron;Al Khalil
+sv;Hebron;Al Khalil
+ca;Hebron;Al Khalil
+id;Hebron;Al Khalil
+sq;Hebroni;Al Khalil
+be;Хеўрон;Al Khalil
+os;Хеврон;Al Khalil
+fa;الخلیل;Al Khalil
+kk;Әл-Халил;Al Khalil
+bg;Хеброн;Al Khalil
+th;ฮีบรอน;Al Khalil
+az;Əl Xəlil;Al Khalil
+mr;हेब्रॉन;Al Khalil
+sr;Хеброн;Al Khalil
+lt;Hebronas;Al Khalil
+uk;Хеврон;Al Khalil
+ko;헤브론;Al Khalil
+zh;希伯仑;Al Khalil
+am;ኬብሮን;Al Khalil
+bn;হেবরন;Al Khalil
+ce;Халиль;Al Khalil
+ta;எபிரோன்;Al Khalil
+ur;الخلیل;Al Khalil
+sv;Betania (Lasaros);Al ‘Ayzarīyah
+cs;Betánie (Lazar);Al ‘Ayzarīyah
+hu;Betánia (Lázár);Al ‘Ayzarīyah
+hr;Al-Karara;Al Qarārah
+sr;Ел-Карара;Al Qarārah
+ceb;Ḩuwwārah;Huwara
+cs;Huvára;Huwara
+ja;フワラ;Huwara

@@ -1631,3 +1631,38 @@ en;Oi Man;Oi Man Estate
 en;Lower Wong Tai Sin Estate;Lower Wong Tai Sin Estate (I & II)
 zh;大窩;Tai Wo
 zh;大窝;Tai Wo
+sr;Туен Мун;Tuen Mun
+sv;Tsin Shui Wan;Repulse Bay
+ca;Badia Repulse;Repulse Bay
+el;Τσιμ Σα Τσούι;Tsim Sha Tsui
+he;צים שא צוי;Tsim Sha Tsui
+sr;Тај По;Tai Po
+he;טאי או;Tai O
+hak;Pet-thâm-yúng;Pak Tam Chung
+hak;Lo̍k-mâ-chû;Lok Ma Chau
+hak;Li-kó-teu;Lai Chi Wo
+da;Victoria;Hong Kong
+uk;Гонконг;Hong Kong
+tt;Һоң Коң;Hong Kong
+ckb;ھۆنگ کۆنگ;Hong Kong
+sk;Hongkong;Hong Kong
+no;Hongkong;Hong Kong
+mzn;هونگ کونگ;Hong Kong
+mk;Хонгконг;Hong Kong
+hu;Hongkong;Hong Kong
+lrc;ھونگ کونگ;Hong Kong
+ka;ჰონგ-კონგი;Hong Kong
+he;הונג קונג;Hong Kong
+hy;Հոնկոնգ;Hong Kong
+el;Χονγκ Κονγκ;Hong Kong
+bg;Хонконг;Hong Kong
+be;Ганконг;Hong Kong
+ab;Гонконг;Hong Kong
+am;ሆንግ ኮንግ;Hong Kong
+da;Hongkong;Hong Kong
+no;Aberdeen Harbour;Aberdeen
+bg;Абърдийн;Aberdeen
+uk;Абердін;Aberdeen
+nb;Aberdeen Harbour;Aberdeen
+hak;Yî-kín-vân;Discovery Bay
+he;סנטרל;Central

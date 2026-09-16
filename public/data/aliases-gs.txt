@@ -10,3 +10,25 @@ ko;그리트비켄;Grytviken
 en;Bird;Bird Research Station
 en;Bird Station;Bird Research Station
 es;Base Isla Pájaro;Bird Research Station
+lt;King Edvard Pointas;King Edward Point
+lv;Kingedvardpointa;King Edward Point
+uk;Кінг-Едвард-Пойнт;King Edward Point
+ur;کنگ ایڈورڈ پوائنٹ;King Edward Point
+sr;Кинг Едвард Појнт;King Edward Point
+el;Κίνγκ Έντουαρντ Πόιντ;King Edward Point
+ta;கிங் எட்வர்டு பாய்ன்ட்;King Edward Point
+th;คิงเอดเวิร์ดพ็อยนต์;King Edward Point
+fa;کینگ ادوارد پوینت;King Edward Point
+ckb;ترۆپکی شا ئێدوارد;King Edward Point
+he;קינג אדוארד פוינט;King Edward Point
+bg;Грютвикен;Grytviken
+be;Грутвікен;Grytviken
+mr;ग्रिटविकेन;Grytviken
+lt;Griutvikenas;Grytviken
+sr;Грутвикен;Grytviken
+uk;Грютвікен;Grytviken
+th;กริตวีเคน;Grytviken
+os;Грютвикен;Grytviken
+az;Qryotviken;Grytviken
+he;גריטוויקן;Grytviken
+kbd;Грютвикен;Grytviken

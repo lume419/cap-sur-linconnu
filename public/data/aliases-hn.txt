@@ -89,3 +89,52 @@ es;La Lagunita Número 1;La Lagunita Número Uno
 es;Sabanas del Toro;El Jute
 es;El Amatillo Número 1;El Amatillo Número Uno
 es;Planes;Los Canales
+bg;Трухильо;Trujillo
+fa;تروخیو، کولون;Trujillo
+lt;Truchiljas;Trujillo
+uk;Трухільйо;Trujillo
+ur;تروخیو;Trujillo
+bg;Тегусигалпа;Tegucigalpa
+eu;Teguzigalpa;Tegucigalpa
+he;טגוסיגלפה;Tegucigalpa
+lt;Tegusigalpa;Tegucigalpa
+fa;تگوسیگالپا;Tegucigalpa
+mk;Тегусигалпа;Tegucigalpa
+el;Τεγκουσιγκάλπα;Tegucigalpa
+sr;Тегусигалпа;Tegucigalpa
+am;ቴጉሲጋልፓ;Tegucigalpa
+th;เตกูซิกัลปา;Tegucigalpa
+uk;Тегусігальпа;Tegucigalpa
+bo;ཐེ་གུ་སི་གེ་པ།;Tegucigalpa
+ka;ტეგუსიგალპა;Tegucigalpa
+sah;Тегусигалпа;Tegucigalpa
+hy;Տեգուսիգալպա;Tegucigalpa
+be;Тэгусігальпа;Tegucigalpa
+udm;Тегусигальпа;Tegucigalpa
+az;Tequsiqalpa;Tegucigalpa
+mr;तेगुसिगल्पा;Tegucigalpa
+lv;Tegusigalpa;Tegucigalpa
+ur;ٹیگوسیگلپا;Tegucigalpa
+ml;ടെഗൂസിഗാൽപ;Tegucigalpa
+pa;ਤੇਗੂਸੀਗਾਲਪਾ;Tegucigalpa
+ce;Тегусигальпа;Tegucigalpa
+el;Τεγουσιγάλπα;Tegucigalpa
+bn;তেগুসিগালপা;Tegucigalpa
+ky;Тегусигальпа;Tegucigalpa
+ta;டெகுசிகல்பா;Tegucigalpa
+vep;Tegusigalp;Tegucigalpa
+yue;特古西加爾巴;Tegucigalpa
+bg;Санта Роса де Копан;Santa Rosa de Copán
+lt;Santa Rosa de Kopanas;Santa Rosa de Copán
+be;Сан-Педра-Сула;San Pedro Sula
+bg;Сан Педро Сула;San Pedro Sula
+th;ซานเปโดรซูลา;San Pedro Sula
+ur;سان پیڈرو سولا;San Pedro Sula
+bg;Ла Ентрада;La Entrada
+ur;لا ینٹراڈا;La Entrada
+lt;La Seiba;La Ceiba
+bg;Ла Сейба;La Ceiba
+lt;Grasjasas;Gracias
+uk;Грасіас;Gracias
+ur;گراسیاس;Gracias
+uk;Ла-Сейба;La Ceiba

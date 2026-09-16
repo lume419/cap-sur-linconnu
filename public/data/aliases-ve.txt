@@ -512,3 +512,485 @@ ja;サン・フェルナンド・デ・アプーレ;San Fernando de Apure
 es;Los Fermines;Las Fermines
 es;Guaruguaja;Piedras Negras
 es;Guamachal;Las Lares
+kk;Ла-Асунсион;La Asunción
+ky;Ла-Асунсион;La Asunción
+bn;লা আসুনসিয়ন;La Asunción
+ur;لا اسونسیون;La Asunción
+am;ላ አሱንሲዮን;La Asunción
+fa;لا آسونسیون;La Asunción
+pa;ਲਾ ਅਸੁਨਸਿਓਨ;La Asunción
+ps;لا اسونسيون;La Asunción
+tg;Ла-Асунсион;La Asunción
+tt;Ла-Асунсион;La Asunción
+ka;ვალერა;Valera
+be;Валенсія;Valencia
+bg;Валенсия;Valencia
+eu;Valentzia;Valencia
+fa;والنسیا، ونزوئلا;Valencia
+he;ולנסיה;Valencia
+hy;Վալենսիա;Valencia
+ka;ვალენსია;Valencia
+ky;Валенсия;Valencia
+lt;Valensija;Valencia
+mn;Валенс;Valencia
+os;Валенси;Valencia
+pa;ਬਾਲੈਂਸੀਆ;Valencia
+sr;Валенсија;Valencia
+uk;Валенсія;Valencia
+ur;والیںسیا، کارابوبو;Valencia
+uz;Valensiya;Valencia
+vep;Valensii;Valencia
+kk;Валенсия;Valencia
+bn;ভ্যালেন্সিয়া;Valencia
+am;ቫለንሲያ;Valencia
+az;Valensiya;Valencia
+ps;والنسيا;Valencia
+tg;Валенсия;Valencia
+tt;Валенсия;Valencia
+bg;Турмеро;Turmero
+fa;ترمرو;Turmero
+ka;ტურმერო;Turmero
+lt;Turmeras;Turmero
+uk;Турмеро;Turmero
+ur;ترمرو;Turmero
+kk;Тукупита;Tucupita
+uz;Tukupita;Tucupita
+ky;Тукупита;Tucupita
+bn;টুকুপিটা;Tucupita
+ur;توکوپیٹا;Tucupita
+am;ቱኩፒታ;Tucupita
+az;Tukupita;Tucupita
+fa;توکوپیتا;Tucupita
+pa;ਤੁਕੁਪਿਟਾ;Tucupita
+ps;توکوپيتا;Tucupita
+tg;Тукупита;Tucupita
+tt;Тукупита;Tucupita
+fa;تروخیو، تروخیو;Trujillo
+ka;ტრუხილიო;Trujillo
+lt;Truchiljas;Trujillo
+ur;تروخیو، تروخیو;Trujillo
+kk;Трухильо;Trujillo
+uz;Truxillo;Trujillo
+ky;Трухильо;Trujillo
+bn;ট্রুজিলো;Trujillo
+am;ትሩሂሎ;Trujillo
+az;Truxillo;Trujillo
+pa;ਤਰੁਜਿਲੋ;Trujillo
+ps;تروخيللو;Trujillo
+tg;Трухильо;Trujillo
+tt;Трухильо;Trujillo
+af;Colonia Tovar;Tovar
+sv;Colonia Tovar;Tovar
+kk;Сан-Хуан-де-лос-Моррос;San Juan de los Morros
+ky;Сан-Хуан-де-лос-Моррос;San Juan de los Morros
+bn;সান জুয়ান ডি লস মোরোস;San Juan de los Morros
+ur;سان جوان ڈی لوس موروس;San Juan de los Morros
+am;ሳን ዋን ዲ ሎስ ሞሮስ;San Juan de los Morros
+fa;سان خوان دی لوس موروس;San Juan de los Morros
+pa;ਸੈਨ ਜੁਆਨ ਡੀ ਲੋਸ ਮੋਰੋਸ;San Juan de los Morros
+ps;سان خوان دي لوس موروس;San Juan de los Morros
+tg;Сан-Хуан-де-лос-Моррос;San Juan de los Morros
+tt;Сан-Хуан-де-лос-Моррос;San Juan de los Morros
+ka;სან-ფელიპე;San Felipe
+uk;Сан-Феліпе;San Felipe
+ur;سان فیلیپے، جاراکوئی;San Felipe
+kk;Сан-Фелипе;San Felipe
+ky;Сан-Фелипе;San Felipe
+bn;সান ফেলিপে;San Felipe
+am;ሳን ፌሊፔ;San Felipe
+fa;سان فلیپه;San Felipe
+pa;ਸੈਨ ਫੇਲਿਪੇ;San Felipe
+ps;سان فيليب;San Felipe
+tg;Сан-Фелипе;San Felipe
+tt;Сан-Фелипе;San Felipe
+bg;Сан Кристобал;San Cristóbal
+be;Сан-Крыстобаль;San Cristóbal
+os;Сан-Кристобаль;San Cristóbal
+lt;San Kristobalis;San Cristóbal
+ka;სან-კრისტობალი;San Cristóbal
+uk;Сан-Крістобаль;San Cristóbal
+ur;سان کریستوبال، تاچیرا;San Cristóbal
+vep;San Kristobal;San Cristóbal
+kk;Сан-Кристобаль;San Cristóbal
+uz;San-Kristobal;San Cristóbal
+ky;Сан-Кристобаль;San Cristóbal
+bn;সান ক্রিস্টোবাল;San Cristóbal
+am;ሳን ክርስቶባል;San Cristóbal
+az;San-Kristobal;San Cristóbal
+fa;سان کریستوبال;San Cristóbal
+pa;ਸੈਨ ਕ੍ਰਿਸਟੋਬਾਲ;San Cristóbal
+ps;سان کريستوبال;San Cristóbal
+tg;Сан-Кристобаль;San Cristóbal
+tt;Сан-Кристобаль;San Cristóbal
+ka;სან-კარლოსი;San Carlos
+lt;San Karlosas;San Carlos
+ur;سان کارلوس، کوخیدیس;San Carlos
+kk;Сан-Карлос;San Carlos
+uz;San-Karlos;San Carlos
+ky;Сан-Карлос;San Carlos
+bn;সান কার্লোস;San Carlos
+am;ሳን ካርሎስ;San Carlos
+az;San-Karlos;San Carlos
+fa;سان کارلوس;San Carlos
+pa;ਸੈਨ ਕਾਰਲੋਸ;San Carlos
+ps;سان کارلوس;San Carlos
+tg;Сан-Карлос;San Carlos
+tt;Сан-Карлос;San Carlos
+ka;პუნტო-ფიხო;Punto Fijo
+bg;Пуерто Ла Крус;Puerto La Cruz
+ka;პუერტო-ლა-კრუსი;Puerto La Cruz
+lt;Puerto la Krusas;Puerto La Cruz
+uk;Пуерто-Кабельйо;Puerto Cabello
+ka;პუერტო-კაბელიო;Puerto Cabello
+lt;Puerto Kabeljas;Puerto Cabello
+el;Πουέρτο Αγιακούτσο;Puerto Ayacucho
+ka;პუერტო-აიაკუჩო;Puerto Ayacucho
+lt;Puerto Ajakučas;Puerto Ayacucho
+th;ปวยร์โตไออากูโช;Puerto Ayacucho
+ur;پویرتو اجاکوچو;Puerto Ayacucho
+kk;Пуэрто-Аякучо;Puerto Ayacucho
+uz;Puerto-Ayakucho;Puerto Ayacucho
+ky;Пуэрто-Аякучо;Puerto Ayacucho
+bn;পুয়ের্তো আয়াকুচো;Puerto Ayacucho
+am;ፑዌርቶ አያኩቾ;Puerto Ayacucho
+az;Puerto-Ayakucho;Puerto Ayacucho
+fa;پویرتو آیاکوچو;Puerto Ayacucho
+pa;ਪੁਏਰਟੋ ਅਯਾਕੁਚੋ;Puerto Ayacucho
+ps;بويرتو أياكوتشو;Puerto Ayacucho
+tg;Пуэрто-Аякучо;Puerto Ayacucho
+tt;Пуэрто-Аякучо;Puerto Ayacucho
+ka;პორლამარი;Porlamar
+lt;Porlamaras;Porlamar
+ka;პეტარე;Petare
+uk;Петаре;Petare
+he;מרידה;Mérida
+ab;Мерида;Mérida
+bg;Мерида;Mérida
+br;Santiago de los Caballeros de Mérida;Mérida
+ka;მერიდა;Mérida
+el;Μέριδα;Mérida
+be;Мерыда;Mérida
+fa;مریدا;Mérida
+ba;Мерида;Mérida
+bi;Santiago de los Caballeros de Mérida;Mérida
+am;ሜሪዳ፣ ቬኔዝዌላ;Mérida
+mdf;Мерида;Mérida
+mk;Мерида;Mérida
+cv;Мерида;Mérida
+kk;Мерида;Mérida
+tt;Мерида;Mérida
+hy;Մերիդա;Mérida
+os;Меридæ;Mérida
+sr;Мерида;Mérida
+uk;Меріда;Mérida
+yue;梅里達市;Mérida
+ur;میریدا، میریدا;Mérida
+ky;Мерида;Mérida
+bn;মেরিডা;Mérida
+pa;ਮੇਰੀਡਾ;Mérida
+ps;ميريدا;Mérida
+tg;Мерида;Mérida
+lt;Marakajus;Maracay
+bg;Маракай;Maracay
+mdf;Маракай;Maracay
+ka;მარაკაი;Maracay
+uk;Маракай;Maracay
+os;Маракай;Maracay
+el;Μαρακάι;Maracay
+ur;ماراکای;Maracay
+vep;Marakai;Maracay
+kk;Маракай;Maracay
+uz;Marakay;Maracay
+ky;Маракай;Maracay
+bn;মারাকাই;Maracay
+am;ማራካይ;Maracay
+az;Marakay;Maracay
+fa;ماراکای;Maracay
+pa;ਮਾਰਾਕਾਈ;Maracay
+ps;ماراكاي;Maracay
+tg;Маракай;Maracay
+tt;Маракай;Maracay
+bg;Маракайбо;Maracaibo
+uk;Маракайбо;Maracaibo
+lt;Marakaibas;Maracaibo
+os;Маракайбо;Maracaibo
+th;มาราไกโบ;Maracaibo
+sr;Маракаибо;Maracaibo
+ka;მარაკაიბო;Maracaibo
+mr;माराकाईबो;Maracaibo
+el;Μαρακάιμπο;Maracaibo
+be;Маракайба;Maracaibo
+ce;Маракайбо;Maracaibo
+he;מרקאיבו;Maracaibo
+hy;Մարակայբո;Maracaibo
+mn;Маракайбо;Maracaibo
+pa;ਮਾਰਾਕਾਈਬੋ;Maracaibo
+az;Marakaybo;Maracaibo
+kk;Маракайбо;Maracaibo
+uz;Marakaybo;Maracaibo
+ky;Маракайбо;Maracaibo
+bn;মারাকাইবো;Maracaibo
+ur;ماراکائیبو;Maracaibo
+am;ማራካይቦ;Maracaibo
+fa;ماراکایبو;Maracaibo
+ps;ماراكايبو;Maracaibo
+tg;Маракайбо;Maracaibo
+tt;Маракайбо;Maracaibo
+bg;Лос Текес;Los Teques
+el;Λος Τέκες;Los Teques
+ka;ლოს-ტეკესი;Los Teques
+lt;Los Tekesas;Los Teques
+uk;Лос-Текес;Los Teques
+ur;لوس تیکیس;Los Teques
+kk;Лос-Текес;Los Teques
+uz;Los-Tekes;Los Teques
+ky;Лос-Текес;Los Teques
+bn;লস টেকেস;Los Teques
+am;ሎስ ቴከስ;Los Teques
+az;Los-Tekes;Los Teques
+fa;لوس تکس;Los Teques
+pa;ਲੋਸ ਟੇਕਸ;Los Teques
+ps;لوس تيكيس;Los Teques
+tg;Лос-Текес;Los Teques
+tt;Лос-Текес;Los Teques
+ka;ლა-ვიქტორია;La Victoria
+lt;La Viktorija;La Victoria
+ur;لا ویکتوریا، اراگوا;La Victoria
+ka;ლა-გუაირა;La Guaira
+lt;La Gvaira;La Guaira
+uk;Ла-Гуайра;La Guaira
+ur;لا گوایرا;La Guaira
+kk;Ла-Гуайра;La Guaira
+uz;La-Guayra;La Guaira
+ky;Ла-Гуайра;La Guaira
+bn;লা গুয়াইরা;La Guaira
+am;ላ ጓይራ;La Guaira
+az;La-Guayra;La Guaira
+fa;لا گوئیرا;La Guaira
+pa;ਲਾ ਗੁਆਇਰਾ;La Guaira
+ps;لا غويرا;La Guaira
+tg;Ла-Гуайра;La Guaira
+tt;Ла-Гуайра;La Guaira
+bg;Гуатире;Guatire
+ka;გუატირე;Guatire
+uk;Гуатіре;Guatire
+ka;გუანარე;Guanare
+lt;Gvanarė;Guanare
+uk;Гуанаре;Guanare
+ur;گوانارے;Guanare
+kk;Гуанаре;Guanare
+ky;Гуанаре;Guanare
+bn;গুয়ানারে;Guanare
+am;ጓናሬ;Guanare
+fa;گوانارا;Guanare
+pa;ਗੁਆਨਾਰੇ;Guanare
+ps;غوانار;Guanare
+tg;Гуанаре;Guanare
+tt;Гуанаре;Guanare
+uk;Ель-Токуйо;El Tocuyo
+ka;ელ-ტიგრე;El Tigre
+th;เอลตีเกร;El Tigre
+ka;ელ-ლიმონი;El Limón
+lt;El Limonas;El Limón
+ka;ელ-ატილიოს მუნიციპალიტეტი;El Hatillo
+be;Кумана;Cumaná
+bg;Кумана;Cumaná
+ka;კუმანა;Cumaná
+lt;Kumana;Cumaná
+th;กูมานา;Cumaná
+uk;Кумана;Cumaná
+ur;کومانا;Cumaná
+kk;Кумана;Cumaná
+uz;Kumana;Cumaná
+ky;Кумана;Cumaná
+bn;কুমানা;Cumaná
+am;ኩማና;Cumaná
+az;Kumana;Cumaná
+fa;کومانا;Cumaná
+pa;ਕੁਮਾਨਾ;Cumaná
+ps;کومانا;Cumaná
+tg;Кумана;Cumaná
+tt;Кумана;Cumaná
+lt;Santa Ana de Koras;Coro
+he;קורו;Coro
+ka;სანტა-ანა-დე-კორო;Coro
+uk;Санта-Ана-де-Коро;Coro
+ky;Коро шаары;Coro
+ur;سانتا آنا دے کورو;Coro
+kk;Коро;Coro
+uz;Koro;Coro
+bn;কোরো;Coro
+am;ኮሮ;Coro
+az;Koro;Coro
+fa;کورو;Coro
+pa;ਕੋਰੋ;Coro
+ps;کورو;Coro
+tg;Коро;Coro
+tt;Коро;Coro
+ka;სიუდად-ოხედა;Ciudad Ojeda
+lt;Siudad Ocheda;Ciudad Ojeda
+sv;Guayana;Ciudad Guayana
+bg;Сиудад Гуаяна;Ciudad Guayana
+ka;სიუდად-გუაიანა;Ciudad Guayana
+lt;Siudad Guajana;Ciudad Guayana
+sr;Сијудад Гвајана;Ciudad Guayana
+he;סיודד גואיאנה;Ciudad Guayana
+vep;Sjudad Guajan;Ciudad Guayana
+bg;Сиудад Боливар;Ciudad Bolívar
+be;Сьюдад-Балівар;Ciudad Bolívar
+fa;سیوداد بولیوار;Ciudad Bolívar
+lt;Siudad Bolivaras;Ciudad Bolívar
+ka;სიუდად-ბოლივარი;Ciudad Bolívar
+os;Сьюдад-Боливар;Ciudad Bolívar
+uk;Сьюдад-Болівар;Ciudad Bolívar
+kk;Сьюдад-Боливар;Ciudad Bolívar
+uz;Syudad-Bolivar;Ciudad Bolívar
+ky;Сьюдад-Боливар;Ciudad Bolívar
+bn;সিউদাদ বলিভার;Ciudad Bolívar
+ur;سیوڈاد بولیور;Ciudad Bolívar
+am;ሲዋዳድ ቦሊቫር;Ciudad Bolívar
+az;Syudad-Bolivar;Ciudad Bolívar
+pa;ਸਿਊਦਾਦ ਬੋਲੀਵਰ;Ciudad Bolívar
+ps;سيوداد بوليفار;Ciudad Bolívar
+tg;Сьюдад-Боливар;Ciudad Bolívar
+tt;Сьюдад-Боливар;Ciudad Bolívar
+bg;Чуспа;Chuspa
+ka;ჩაკაოს მუნიციპალიტეტი;Chacao
+ka;კარუპანო;Carúpano
+lt;Karupanas;Carúpano
+bg;Каракас;Caracas
+he;קראקס;Caracas
+lt;Karakasas;Caracas
+tr;Karakas;Caracas
+fa;کاراکاس;Caracas
+ug;Karakas;Caracas
+el;Καράκας;Caracas
+bn;কারাকাস;Caracas
+bo;ཁ་ར་ཁ་སི;Caracas
+am;ካራካስ;Caracas
+kn;ಕರಾಕಸ್;Caracas
+lv;Karakasa;Caracas
+sr;Каракас;Caracas
+th;การากัส;Caracas
+tet;Karakas;Caracas
+is;Karakas;Caracas
+ur;کاراکاس;Caracas
+os;Каракас;Caracas
+uk;Каракас;Caracas
+be;Каракас;Caracas
+gu;કારાકાસ;Caracas
+mr;काराकास;Caracas
+mk;Каракас;Caracas
+sq;Karakas;Caracas
+ka;კარაკასი;Caracas
+hy;Կարակաս;Caracas
+ab;Каракас;Caracas
+az;Karakas;Caracas
+ta;கரகஸ்;Caracas
+my;ကရာကက်စ်မြို့;Caracas
+or;କାରାକାସ;Caracas
+pa;ਕਾਰਾਕਾਸ;Caracas
+tt;Каракас;Caracas
+ce;Каракас;Caracas
+ml;കാരക്കാസ്;Caracas
+mn;Каракас;Caracas
+yue;卡拉卡斯;Caracas
+kaa;Karakas;Caracas
+lrc;کاراکاس;Caracas
+uz;Karakas;Caracas
+vep;Karakas;Caracas
+tpi;Karakas;Caracas
+zh-TW;卡拉卡斯;Caracas
+lt;Kalabosas;Calabozo
+ka;კალაბოსო;Calabozo
+bg;Кабимас;Cabimas
+ka;კაბიმასი;Cabimas
+lt;Kabimasas;Cabimas
+be;Баркісімета;Barquisimeto
+bg;Баркисимето;Barquisimeto
+lt;Barkisimetas;Barquisimeto
+uk;Баркісімето;Barquisimeto
+ka;ბარკისიმეტო;Barquisimeto
+mk;Баркисимето;Barquisimeto
+ce;Баркисимето;Barquisimeto
+mn;Баркисимето;Barquisimeto
+he;ברקיסימטו;Barquisimeto
+ur;بارکیسیمتو;Barquisimeto
+vep;Barkisimeto;Barquisimeto
+kk;Баркизимето;Barquisimeto
+uz;Barkisimeto;Barquisimeto
+ky;Баркизимето;Barquisimeto
+bn;বার্কিসিমেটো;Barquisimeto
+am;ባርኪሲሜቶ;Barquisimeto
+az;Barkisimeto;Barquisimeto
+fa;باركیسیمتو;Barquisimeto
+pa;ਬਾਰਕਿਸਿਮੇਟੋ;Barquisimeto
+ps;باركيسيميتو;Barquisimeto
+tg;Баркизимето;Barquisimeto
+tt;Баркизимето;Barquisimeto
+bg;Баринас;Barinas
+ka;ბარინასი;Barinas
+lt;Barinasas;Barinas
+tg;Иёлоти Баринас;Barinas
+uk;Барінас;Barinas
+el;Μπαρίνας;Barinas
+ur;باریناس، باریناس;Barinas
+kk;Барина;Barinas
+ky;Барина;Barinas
+bn;বারিনা;Barinas
+am;ባሪና;Barinas
+fa;بارینا;Barinas
+pa;ਬਾਰਿਨਾ;Barinas
+ps;بارينا;Barinas
+tt;Барина;Barinas
+be;Барселона;Barcelona
+bg;Барселона;Barcelona
+ka;ბარსელონა;Barcelona
+lt;Barselona;Barcelona
+el;Βαρκελώνη;Barcelona
+fa;بارسلونا، ونزوئلا;Barcelona
+lv;Barselona;Barcelona
+my;ဘာစီလိုနာမြို့၊ ဗင်နီဇွဲလား;Barcelona
+ur;بارسلونا، وینیزویلا;Barcelona
+kk;Барселона;Barcelona
+tr;Barselona;Barcelona
+uz;Barselona;Barcelona
+ky;Барселона;Barcelona
+bn;বার্সেলোনা;Barcelona
+am;ባርሴሎና;Barcelona
+az;Barselona;Barcelona
+pa;ਬਾਰਸਿਲੋਨਾ;Barcelona
+ps;برشلونة;Barcelona
+tg;Барселона;Barcelona
+tt;Барселона;Barcelona
+lt;Amuajus;Amuay
+fa;اموای;Amuay
+ka;აკარიგუა;Acarigua
+lt;Akarigva;Acarigua
+uk;Акарігуа;Acarigua
+fa;اکاریگوا;Acarigua
+lt;Maturinas;Maturín
+bg;Матурин;Maturín
+ka;მატურინი;Maturín
+uk;Матурін;Maturín
+ur;ماتورین;Maturín
+kk;Матурин;Maturín
+ky;Матурин;Maturín
+bn;ম্যাতুরিন;Maturín
+am;ማቱሪን;Maturín
+fa;ماتورین;Maturín
+pa;ਮੈਟੁਰਿਨ;Maturín
+ps;ماتورين;Maturín
+tg;Матурин;Maturín
+tt;Матурин;Maturín
+ur;لا گریتا;La Grita
+kk;Сан-Фернандо-де-Апуре;San Fernando de Apure
+ky;Сан-Фернандо-де-Апуре;San Fernando de Apure
+bn;সান ফার্নান্দো ডি অ্যাপুয়ার;San Fernando de Apure
+ur;سان فرناندو ڈی اپیور;San Fernando de Apure
+am;ሳን ፌርናንዶ ዲ አፑሬ;San Fernando de Apure
+fa;سان فرناندو دی آپوره;San Fernando de Apure
+pa;ਸੈਨ ਫਰਨਾਂਡੋ ਡੀ ਅਪੁਰੇ;San Fernando de Apure
+ps;سان فرناندو دي أبوري;San Fernando de Apure
+tg;Сан-Фернандо-де-Апуре;San Fernando de Apure
+tt;Сан-Фернандо-де-Апуре;San Fernando de Apure

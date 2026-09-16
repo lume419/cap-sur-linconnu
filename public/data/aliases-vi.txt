@@ -22,3 +22,45 @@ ja;セント・クロイ;Saint Croix
 pt;Santa Cruz;Saint Croix
 en;St John Island;Saint John
 en;St John;Saint John
+ur;کنعان، امریکی جزائر ورجن;Canaan
+sr;Шарлота Амалија;Charlotte Amalie
+he;שרלוט אמאלי;Charlotte Amalie
+nn;Charlotte Amalie på Dei amerikanske Jomfruøyane;Charlotte Amalie
+ka;შარლოტა-ამალია;Charlotte Amalie
+az;Şarlotta Amaliya;Charlotte Amalie
+mr;शार्लट आमेली;Charlotte Amalie
+mk;Шарлота Амалија;Charlotte Amalie
+el;Σαρλότ Αμαλί;Charlotte Amalie
+bg;Шарлот Амали;Charlotte Amalie
+lt;Šarlotė Amalija;Charlotte Amalie
+ur;شارلٹ ایملی;Charlotte Amalie
+uk;Шарлотта-Амалія;Charlotte Amalie
+be;Шарлота-Амалія;Charlotte Amalie
+fa;شارلوت آمالی;Charlotte Amalie
+th;ชาร์ลอตต์อะมาลี;Charlotte Amalie
+el;Κρίστιανστεντ;Christiansted
+he;כריסטיאנסטד;Christiansted
+sr;Кристијанстед;Christiansted
+kk;Круз Бей;Cruz Bay
+uz;Kruз Bay;Cruz Bay
+ky;Круз Бей;Cruz Bay
+bn;ক্রুজ বে;Cruz Bay
+ur;کروز بے;Cruz Bay
+am;ክሩዝ ቤ;Cruz Bay
+az;Kruz Buyu;Cruz Bay
+fa;کروز بی;Cruz Bay
+pa;ਕਰੂਜ਼ ਬੇ;Cruz Bay
+ps;کروز بې;Cruz Bay
+tg;Круз Бей;Cruz Bay
+tt;Круз Бей;Cruz Bay
+kk;Сент-Крой;Saint Croix
+ky;Сент-Крой;Saint Croix
+bn;সেন্ট ক্রয়;Saint Croix
+ur;سینٹ کروا;Saint Croix
+am;ሴንት ክሩክስ;Saint Croix
+az;Sənt Krua;Saint Croix
+fa;سنت کروا;Saint Croix
+pa;ਸੇਂਟ ਕ੍ਰੌਈਕਸ;Saint Croix
+ps;سینټ کروا;Saint Croix
+tg;Сент-Крой;Saint Croix
+tt;Сент-Крой;Saint Croix

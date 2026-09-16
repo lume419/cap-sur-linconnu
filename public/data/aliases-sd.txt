@@ -281,3 +281,581 @@ en;Al Rawat;Alrawat
 ar;بريديك;Bridik
 ar;الزرق;az-Zurq
 ar;كرنوي;Karnoi
+ca;Ciutat de Dongola;Dongola
+fa;دنقلا;Dongola
+be;Дангола;Dongola
+el;Ντόνγκολα;Dongola
+ja;ドンゴラ;Dongola
+ko;동골라;Dongola
+mr;डोंगोला;Dongola
+uk;Донгола;Dongola
+ru;Донгола;Dongola
+zh;棟古拉;Dongola
+kk;Донгола;Dongola
+ky;Донгола;Dongola
+hi;डोंगोला;Dongola
+bn;ডোঙ্গোলা;Dongola
+ur;ڈونگولا;Dongola
+pa;ਡੋਂਗੋਲਾ;Dongola
+ps;ډونګولا;Dongola
+tg;Донгола;Dongola
+tt;Донгола;Dongola
+ru;Залингее;Zalinjay
+hr;Zalindži;Zalinjay
+pl;Zalindżi;Zalinjay
+sr;Залинџи;Zalinjay
+kk;Залинджай;Zalinjay
+ky;Залинджай;Zalinjay
+hi;ज़ालिंजय;Zalinjay
+bn;জালিনজয়;Zalinjay
+ur;زالنجے;Zalinjay
+fa;زالنجای;Zalinjay
+ja;ザリンジャイ;Zalinjay
+pa;ਜ਼ਾਲਿਨਜੇ;Zalinjay
+ps;زالنجے;Zalinjay
+tg;Залинджай;Zalinjay
+tt;Залинджай;Zalinjay
+pl;Wad Madani;Wad Medani
+hr;Vad Madani;Wad Medani
+sl;Vad Madani;Wad Medani
+ru;Вад-Медани;Wad Medani
+sr;Вад Медани;Wad Medani
+tr;Vad Medeni;Wad Medani
+uk;Вад-Медані;Wad Medani
+kk;Вад-Медани;Wad Medani
+ky;Вад-Медани;Wad Medani
+hi;वाद मदानी;Wad Medani
+bn;ওয়াদ মাদানি;Wad Medani
+ur;وادمدنی;Wad Medani
+fa;واد مدنی;Wad Medani
+ja;ワドメダニ;Wad Medani
+pa;ਵਾਦ ਮਦਾਨੀ;Wad Medani
+ps;ود مدني;Wad Medani
+tg;Вад-Медани;Wad Medani
+tt;Вад-Медани;Wad Medani
+ru;Вади-Хальфа;Wadi Halfa
+ja;ワジハルファ;Wadi Halfa
+ko;와디할파;Wadi Halfa
+he;ואדי חאלפה;Wadi Halfa
+lt;Vadi Halfa;Wadi Halfa
+sr;Вади Халфа;Wadi Halfa
+zh;瓦迪哈勒法;Wadi Halfa
+cs;Vádí Halfa;Wadi Halfa
+hu;Vádi-Halfa;Wadi Halfa
+uk;Ваді-Хальфа;Wadi Halfa
+hi;वाडी हल्फा;Wadi Halfa
+lv;Vadi Halfa;Wadi Halfa
+ur;وادی حالفا;Wadi Halfa
+mr;वाडी हल्फा;Wadi Halfa
+el;Βάντι Χάλφα;Wadi Halfa
+fa;وادی حلفا;Wadi Halfa
+bn;বাদি হালফা;Wadi Halfa
+si;වාඩි හල්ෆා;Wadi Halfa
+sl;Vadi Halfa;Wadi Halfa
+kn;ವಾಡಿ ಹಲ್ಫ್ಫ;Wadi Halfa
+ta;வாடி ஹாலிபா;Wadi Halfa
+gu;વાડી હલ્ફા;Wadi Halfa
+te;వాడి హల్ఫా;Wadi Halfa
+th;วาดีฮาฟา;Wadi Halfa
+ru;Вад-Хамид;Wad Ḩāmid
+fa;ود حامد;Wad Ḩāmid
+ru;Умм-Руваба;Umm Ruwaba
+fa;ام روابه;Umm Ruwaba
+ru;Умм-Кеддада;Umm Kaddadah
+fa;ام کداده;Umm Kaddadah
+ja;オムドゥルマン;Omdurman
+lt;Omdurmanas;Omdurman
+ru;Омдурман;Omdurman
+et;Umm Durmān;Omdurman
+lv;Omdurmāna;Omdurman
+af;Omdoerman;Omdurman
+bg;Омдурман;Omdurman
+ce;Омдурман;Omdurman
+fa;ام درمان;Omdurman
+he;אומדורמאן;Omdurman
+kk;Омдурман қаласы;Omdurman
+ko;옴두르만;Omdurman
+no;Umm Durmān;Omdurman
+pa;ਅਮ ਦਰਮਾਨ;Omdurman
+sk;Umm Durmán;Omdurman
+sr;Омдурман;Omdurman
+th;ออมเดอร์มาน;Omdurman
+uk;Омдурман;Omdurman
+zh;恩图曼;Omdurman
+ka;ომდურმანი;Omdurman
+ky;Омдурман;Omdurman
+ur;ام درمان;Omdurman
+ru;Умм-Дам;Umm Dam
+fa;ام دم;Umm Dam
+ru;Умм-Бель;Umm Bel
+fa;ام بل;Umm Bel
+hi;तलोदी;Talodi
+ru;Талоди;Talodi
+bg;Талоди;Talodi
+lt;Talodis;Talodi
+bn;তালোদি;Talodi
+zh-Hant;塔羅蒂;Talodi
+si;ටලොඩි;Talodi
+uk;Талоді;Talodi
+ur;تالودی;Talodi
+kn;ತಲೋಡಿ;Talodi
+ko;탈오디;Talodi
+mr;तळोडी;Talodi
+el;Ταλόντι;Talodi
+ta;டலோடி;Talodi
+gu;તલોડી;Talodi
+zh;塔罗蒂;Talodi
+te;తలోడి;Talodi
+th;ธาโลดิ;Talodi
+ja;タロディ;Talodi
+fa;تلودی;Talodi
+hr;Sindža;Singa
+sl;Sindža;Singa
+pl;Sindża;Singa
+sr;Синџа;Singa
+ru;Синга;Singa
+kk;Синга;Singa
+ky;Синга;Singa
+hi;सिंगा;Singa
+bn;সিঙ্গা;Singa
+ur;سنگہ;Singa
+fa;سینگا;Singa
+ja;シンガ;Singa
+pa;ਸਿੰਗਾ;Singa
+ps;سنگه;Singa
+tg;Синга;Singa
+tt;Синга;Singa
+hi;शेंडी;Shendi
+ru;Шенди;Shendi
+be;Шэндзі;Shendi
+lt;Šendis;Shendi
+lv;Šendi;Shendi
+bn;শেন্ডি;Shendi
+zh-Hans;沉迪;Shendi
+si;ෂෙන්ඩි;Shendi
+uk;Шенді;Shendi
+ur;شندی;Shendi
+ca;Xendi;Shendi
+sr;Шенди;Shendi
+kn;ಶೆಂಡಿ;Shendi
+ko;셴디;Shendi
+mr;शेंडी;Shendi
+el;Σέντι;Shendi
+ta;செண்டி;Shendi
+gu;શેંડી;Shendi
+te;షిన్డి;Shendi
+th;เชนดิ;Shendi
+ja;シェンディ;Shendi
+fa;شندی;Shendi
+pl;Szandi;Shendi
+ro;Shandi;Shendi
+ru;Савакине;Suakin
+ceb;Sawākin;Suakin
+hi;सुआकीं;Suakin
+lt;Suakinas;Suakin
+lv;Suakina;Suakin
+bn;সাকিন;Suakin
+hy;Սուակին;Suakin
+uk;Суакін;Suakin
+si;සුඅකින්;Suakin
+ur;سواکین;Suakin
+kk;Суакин қаласы;Suakin
+sv;Sawakin;Suakin
+kn;ಸುವಾಕಿನ್;Suakin
+ko;수아킨;Suakin
+mr;सुकिन;Suakin
+el;Σουακίν;Suakin
+ta;சுவாகின்;Suakin
+zh;萨瓦金;Suakin
+gu;સુકિન;Suakin
+te;సౌకిన్;Suakin
+th;ซัวคิน;Suakin
+ja;スアキン;Suakin
+fa;سواکن;Suakin
+he;סואכין;Suakin
+tr;Sevakin;Suakin
+hr;Senar;Sennar
+sl;Senar;Sennar
+pl;Sannar;Sennar
+ru;Сеннар;Sennar
+sr;Сенар;Sennar
+uk;Сеннар;Sennar
+ru;Рабак;Rabak
+sr;Рабак;Rabak
+uk;Рабак;Rabak
+kk;Рабак;Rabak
+ky;Рабак;Rabak
+hi;रबक;Rabak
+bn;রাবাক;Rabak
+ur;ربک;Rabak
+fa;رباک;Rabak
+ja;ラバク;Rabak
+pa;ਰਾਬਾਕ;Rabak
+ps;ربك;Rabak
+tg;Рабак;Rabak
+tt;Рабак;Rabak
+ru;Кадим;Qadīm
+fa;نیاله;Nyala
+ja;ニャラ;Nyala
+ko;니알라;Nyala
+lt;Njala;Nyala
+uk;Ньяла;Nyala
+pl;Nijala;Nyala
+ru;Ньяла;Nyala
+zh;尼亚拉;Nyala
+hr;Nijala;Nyala
+sr;Нијала;Nyala
+he;ניאלה;Nyala
+kk;Ньяла;Nyala
+ky;Ньяла;Nyala
+hi;न्याला;Nyala
+bn;নিয়ালা;Nyala
+ur;نیالا;Nyala
+pa;ਨਿਆਲਾ;Nyala
+ps;نيالا;Nyala
+tg;Ньяла;Nyala
+tt;Ньяла;Nyala
+ru;Кусти;Kosti
+ru;Корти;Kūrtī
+fa;کورتی، سودان;Kūrtī
+ur;کورتی;Kūrtī
+ca;Korti;Kūrtī
+ja;コッベイ;Kobbei
+fa;کوبئی;Kobbei
+ru;Хашм-эль-Кирба;Khashm al Qirbah
+ja;カシム・エル・ジルバ;Khashm al Qirbah
+fa;خشم القربه;Khashm al Qirbah
+pl;Chaszm al-Kirba;Khashm al Qirbah
+zh;海什姆吉尔拜;Khashm al Qirbah
+ru;Кассале;Kassala
+fa;کسلا;Kassala
+ja;カッサラ;Kassala
+ko;카살라;Kassala
+ro;Statul Kassala;Kassala
+ru;Кассала;Kassala
+zh;卡薩拉;Kassala
+hu;Kaszala;Kassala
+uk;Кассала;Kassala
+ur;کسلا;Kassala
+hr;Kasala;Kassala
+sl;Kasala;Kassala
+sr;Касала;Kassala
+ty;ከሰላ;Kassala
+kk;Кассала;Kassala
+ky;Кассала;Kassala
+hi;कस्साला;Kassala
+bn;কাসালা;Kassala
+pa;ਕਸਾਲਾ;Kassala
+ps;کسالہ;Kassala
+tg;Кассала;Kassala
+tt;Кассала;Kassala
+ru;Каркаудж;Karkoj
+fa;کرکوج;Karkoj
+ru;Кадугли;Kadugli
+sr;Кадугли;Kadugli
+uk;Кадуглі;Kadugli
+kk;Кадугли;Kadugli
+ky;Кадугли;Kadugli
+hi;कादुग्ली;Kadugli
+bn;কাদুগলি;Kadugli
+ur;کادوگلی;Kadugli
+fa;کادوگلی;Kadugli
+ja;カドゥグリ;Kadugli
+pa;ਕਾਦੁਗਲੀ;Kadugli
+ps;کادوقلي;Kadugli
+tg;Кадугли;Kadugli
+tt;Кадугли;Kadugli
+ru;Гебейт;Jubayt
+fa;جبیت;Jubayt
+pl;Dżubajt;Jubayt
+ru;Гибартулла;Gubartullah
+ru;Хальфа-эль-Джадида;New Halfa
+ru;Диллинг;Dilling
+ru;Дельго;Dalqū
+ja;デルゴ;Dalqū
+fa;دلقو;Dalqū
+zu;Delgo;Dalqū
+ro;Delgo;Dalqū
+ja;ポートスーダン;Port Sudan
+ru;Порт-Судан;Port Sudan
+be;Порт-Судан;Port Sudan
+bg;Порт Судан;Port Sudan
+fa;بور سودان;Port Sudan
+he;פורט סודאן;Port Sudan
+hu;Port Szudán;Port Sudan
+hy;Պորտ Սուդան;Port Sudan
+kk;Порт-Судан;Port Sudan
+ko;포트수단;Port Sudan
+lt;Port Sudanas;Port Sudan
+oc;Pòrt Sodan;Port Sudan
+sr;Порт Судан;Port Sudan
+th;พอร์ตซูดาน;Port Sudan
+uk;Порт-Судан;Port Sudan
+ur;پورٹ سوڈان;Port Sudan
+zh;苏丹港;Port Sudan
+ky;Порт-Судан;Port Sudan
+hi;पोर्ट सूडान;Port Sudan
+bn;পোর্ট সুডান;Port Sudan
+pa;ਪੋਰਟ ਸੂਡਾਨ;Port Sudan
+ps;پورت سودان;Port Sudan
+tg;Порт-Судан;Port Sudan
+tt;Порт-Судан;Port Sudan
+ru;Bul’gar;Bulgar
+ru;Атбаре;Atbara
+fa;عطبره;Atbara
+ja;アトバラ;Atbara
+sr;Атбара;Atbara
+uk;Атбара;Atbara
+ru;Атбара;Atbara
+zh;阿特巴拉;Atbara
+fa;اروالا;Arwala
+ceb;Ar Ruseris;Er Roseires
+ru;Эр-Росейрес;Er Roseires
+zh;罗赛雷斯;Er Roseires
+zh-Hant;羅賽雷斯;Er Roseires
+fa;الروصیرص;Er Roseires
+pl;Ar-Rusajris;Er Roseires
+ru;Эр-Рахад;Ar Rahad
+fa;الرهد، سودان;Ar Rahad
+zu;Er Rahad;Ar Rahad
+hi;एन नऊद;An Nuhūd
+ru;Эн-Нухуд;An Nuhūd
+fi;En Nahud;An Nuhūd
+lt;En Nahudas;An Nuhūd
+lv;Ennahuda;An Nuhūd
+bn;এন নাহুদ;An Nuhūd
+zh-Hans;恩纳胡德;An Nuhūd
+si;එන් නාහුඩ්;An Nuhūd
+uk;Ен-Нахуд;An Nuhūd
+id;En Nahud;An Nuhūd
+ur;النہود;An Nuhūd
+sv;En Nahud;An Nuhūd
+kn;ಎನ್ ನಹುದ್;An Nuhūd
+ko;엔 나후드;An Nuhūd
+mr;एन नहूड;An Nuhūd
+ms;En Nahud;An Nuhūd
+el;Εν Ναχούντ;An Nuhūd
+ta;என் நஹுட்;An Nuhūd
+gu;એન નહુદ;An Nuhūd
+te;ఎన్ నహూద్;An Nuhūd
+vi;En Nahud;An Nuhūd
+nb;En Nahud;An Nuhūd
+th;เอ็น นาฮัด;An Nuhūd
+ja;ナフド;An Nuhūd
+fa;النهود;An Nuhūd
+zu;En Nahud;An Nuhūd
+da;En Nahud;An Nuhūd
+tr;En Nahud;An Nuhūd
+sr;Ел Обеид;El Obeid
+no;Al-Ubayyid;El Obeid
+ru;Эль-Обейд;El Obeid
+kk;Эль-Обейд;El Obeid
+ky;Эль-Обейд;El Obeid
+hi;एल ओबेद;El Obeid
+bn;এল ওবেইদ;El Obeid
+ur;الابیض;El Obeid
+fa;الابیض;El Obeid
+ja;エルオベイド;El Obeid
+pa;ਅਲ ਓਬੇਦ;El Obeid
+ps;الابيض;El Obeid
+tg;Эль-Обейд;El Obeid
+tt;Эль-Обейд;El Obeid
+bg;Гедареф;Al Qadarif
+fa;القضارف;Al Qadarif
+he;אל-קדריף;Al Qadarif
+tr;El-Gadarif;Al Qadarif
+uk;Гедареф;Al Qadarif
+pl;Al-Kadarif;Al Qadarif
+ru;Гедареф;Al Qadarif
+zh;加达里夫;Al Qadarif
+hr;Al Kadarif;Al Qadarif
+sl;Al Kadarif;Al Qadarif
+sr;Ел Кадариф;Al Qadarif
+kk;Эль-Кадариф;Al Qadarif
+ky;Эль-Кадариф;Al Qadarif
+hi;अल कदारीफ;Al Qadarif
+bn;আল কাদারীফ;Al Qadarif
+ur;القضارف;Al Qadarif
+ja;アルカダリフ;Al Qadarif
+pa;ਅਲ ਕਦਾਰਿਫ;Al Qadarif
+ps;القضارف;Al Qadarif
+tg;Эль-Кадариф;Al Qadarif
+tt;Эль-Кадариф;Al Qadarif
+ru;Эль-Менакил;Al Manāqil
+hr;Bahri;Khartoum North
+hr;Sjeverni Kartum;Khartoum North
+sr;Северни Картум;Khartoum North
+sr;Бархи;Khartoum North
+ru;Северный Хартум;Khartoum North
+uk;Північний Хартум;Khartoum North
+cs;Bahrí;Khartoum North
+bg;Хартум;Khartoum
+ca;Khartum;Khartoum
+cs;Chartúm;Khartoum
+et;Hartum;Khartoum
+fi;Khartum;Khartoum
+gl;Khartún;Khartoum
+he;חרטום;Khartoum
+hu;Kartúm;Khartoum
+is;Kartúm;Khartoum
+ja;ハルツーム;Khartoum
+ko;하르툼;Khartoum
+lt;Chartumas;Khartoum
+os;Хартум;Khartoum
+pl;Chartum;Khartoum
+ru;Хартум;Khartoum
+sk;Chartúm;Khartoum
+sr;Картум;Khartoum
+zh;喀土穆;Khartoum
+fa;خارطوم;Khartoum
+el;Χαρτούμ;Khartoum
+ta;கார்த்தௌம்;Khartoum
+tr;Hartum;Khartoum
+bo;ཁར་ཏུམ;Khartoum
+ga;Cartúm;Khartoum
+ur;خرطوم;Khartoum
+hr;Kartum;Khartoum
+az;Xartum;Khartoum
+sl;Kartum;Khartoum
+be;Хартум;Khartoum
+hy;Խարթում;Khartoum
+ku;Xartûm;Khartoum
+uk;Хартум;Khartoum
+fa;الخندق;Al Khandaq
+ru;Ел Генеина Форт;El Geneina Fort
+hr;Al-Džunajna;Al-Junaynah
+sr;Ел Џунајна;Al-Junaynah
+pl;Al-Dżunajna;Al-Junaynah
+ru;Аль-Джунайна;Al-Junaynah
+kk;Аль-Джунайна;Al-Junaynah
+ky;Аль-Джунайна;Al-Junaynah
+hi;अल-जुनैना;Al-Junaynah
+bn;আল-জুনাইনাহ;Al-Junaynah
+ur;الجنینہ;Al-Junaynah
+fa;الجنینه;Al-Junaynah
+ja;アルジュナイナ;Al-Junaynah
+pa;ਅਲ-ਜੁਨੈਨਾ;Al-Junaynah
+ps;الجنينة;Al-Junaynah
+tg;Аль-Джунайна;Al-Junaynah
+tt;Аль-Джунайна;Al-Junaynah
+ru;Эль-Джебелейн;Aj Jabalen
+vi;Al Jabalayn;Aj Jabalen
+fa;ال جبلیان;Aj Jabalen
+ru;Эль-Фашир;El Fasher
+hr;Al-Fašir;El Fasher
+sr;Ел Фашер;El Fasher
+az;Əl-Faşər;El Fasher
+uk;Ель-Фашир;El Fasher
+kk;Эль-Фашер;El Fasher
+ky;Эль-Фашер;El Fasher
+hi;एल फाशर;El Fasher
+bn;এল ফাশের;El Fasher
+ur;الفاشر;El Fasher
+fa;الفاشر;El Fasher
+ja;エルファシャー;El Fasher
+pa;ਅਲ ਫਾਸ਼ਰ;El Fasher
+ps;الفاشر;El Fasher
+tg;Эль-Фашер;El Fasher
+tt;Эль-Фашер;El Fasher
+fa;الدویم;Ad Douiem
+ru;Эд-Дуэйм;Ad Douiem
+fa;الضعین;El Daein
+hr;Ad Duajn;El Daein
+pl;Ad-Duajn;El Daein
+ru;Эль-Дейн;El Daein
+kk;Эль-Дейн;El Daein
+ky;Эль-Дейн;El Daein
+hi;एल दैन;El Daein
+bn;এল ডেইন;El Daein
+ur;الدعین;El Daein
+ja;エルダイン;El Daein
+pa;ਅਲ ਦੈਨ;El Daein
+ps;الدعين;El Daein
+tg;Эль-Дейн;El Daein
+tt;Эль-Дейн;El Daein
+ru;Эд-Дамер;Ad-Damir
+sr;Ед Дамир;Ad-Damir
+uk;Ед-Дамер;Ad-Damir
+tr;Ed Damir;Ad-Damir
+kk;Ад-Дамир;Ad-Damir
+ky;Ад-Дамир;Ad-Damir
+hi;अद-दामिर;Ad-Damir
+bn;আদ-দামির;Ad-Damir
+ur;الدامر;Ad-Damir
+fa;الدامر;Ad-Damir
+ja;アッダミール;Ad-Damir
+pa;ਅਦ-ਦਾਮਿਰ;Ad-Damir
+ps;الدامر;Ad-Damir
+tg;Ад-Дамир;Ad-Damir
+tt;Ад-Дамир;Ad-Damir
+sr;Ед Дамазин;Ad-Damazin
+ru;Эд-Дамазин;Ad-Damazin
+tr;Damazin;Ad-Damazin
+uk;Ед-Дамазін;Ad-Damazin
+kk;Ад-Дамазин;Ad-Damazin
+ky;Ад-Дамазин;Ad-Damazin
+hi;अद-दमाजिन;Ad-Damazin
+bn;আদ-দামাজিন;Ad-Damazin
+ur;الدمازین;Ad-Damazin
+fa;الدمازین;Ad-Damazin
+ja;アッダマジン;Ad-Damazin
+pa;ਅਦ-ਦਮਾਜਿਨ;Ad-Damazin
+ps;الدمازين;Ad-Damazin
+tg;Ад-Дамазин;Ad-Damazin
+tt;Ад-Дамазин;Ad-Damazin
+hi;अल डब्बाह;Ad Dabbah
+ru;Эд-Дебба;Ad Dabbah
+fi;Al Dabbah;Ad Dabbah
+lt;Al Dabachas;Ad Dabbah
+lv;Aldabaha;Ad Dabbah
+bn;আল ডাবা;Ad Dabbah
+zh-Hans;阿尔达巴;Ad Dabbah
+si;අල් දබාහ්;Ad Dabbah
+uk;Ед-Дебба;Ad Dabbah
+id;Al Dabbah;Ad Dabbah
+ur;ال دابباح;Ad Dabbah
+sv;Al Dabbah;Ad Dabbah
+kn;ಅಲ್ ದಬ್ಬ್ಹ;Ad Dabbah
+ko;알 다바하;Ad Dabbah
+mr;अल डब्बाह;Ad Dabbah
+ms;Al Dabbah;Ad Dabbah
+el;Αλ Ντάμπα;Ad Dabbah
+ta;அல் டப்பாஹ்;Ad Dabbah
+gu;અલ ડબ્બાહ;Ad Dabbah
+te;అల్ దబ్బా;Ad Dabbah
+vi;Al Dabbah;Ad Dabbah
+nb;Al Daddah;Ad Dabbah
+th;อัล ดับบาฆ;Ad Dabbah
+ja;アル・ダッバ;Ad Dabbah
+fa;الدبة;Ad Dabbah
+pl;Ad-Dabba;Ad Dabbah
+da;Al Dabbah;Ad Dabbah
+tr;Al Dabbah;Ad Dabbah
+ja;アビエイ;Abyei
+ko;아비에이;Abyei
+uk;Аб'єй;Abyei
+sr;Абјеј;Abyei
+ru;Абьей;Abyei
+zh;阿卜耶伊;Abyei
+az;Abyey;Abyei
+hr;Abjej;Abyei
+ru;Абри;Abri
+ru;Kolol’day;Dombarita
+ru;Герейда;Gereida
+bg;Гереида;Gereida
+fa;قریضه;Gereida
+hr;Al-Fula;Al-Fulah
+sr;Ел Фула;Al-Fulah
+ru;Эль-Фула;Al-Fulah
+uk;Ель-Фула;Al-Fulah
+kk;Аль-Фула;Al-Fulah
+ky;Аль-Фула;Al-Fulah
+hi;अल-फुलाह;Al-Fulah
+bn;আল-ফুলাহ;Al-Fulah
+ur;الفولہ;Al-Fulah
+fa;الفولہ;Al-Fulah
+ja;アルフラ;Al-Fulah
+pa;ਅਲ-ਫੁਲਾਹ;Al-Fulah
+ps;الفولة;Al-Fulah
+tg;Аль-Фула;Al-Fulah
+tt;Аль-Фула;Al-Fulah

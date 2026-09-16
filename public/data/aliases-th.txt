@@ -44824,3 +44824,252 @@ th;เกาะกูด;Ko Kood
 en;Koh Kood;Ko Kood
 en;Koh Kut;Ko Kood
 en;Ko Kut;Ko Kood
+am;ፌችቦሪ;Phetchaburi
+az;Fetçaburi;Phetchaburi
+tt;Фетчабури;Phetchaburi
+am;ትራንግ;Trang
+az;Tran;Trang
+tt;Тран;Trang
+lt;Takas;Tak
+am;ታክ;Tak
+tt;Так;Tak
+he;סוראט טהאני;Surat Thani
+hu;Szuratthani;Surat Thani
+lt;Surathanis;Surat Thani
+am;ሱራት ታኒ;Surat Thani
+az;Surat Tani;Surat Thani
+tt;Сурат-Тани;Surat Thani
+cs;Sukhothaj;Sukhothai
+lt;Sukotajus;Sukhothai
+uk;Сукхотхай;Sukhothai
+am;ሱኾታይ;Sukhothai
+az;Sukhotay;Sukhothai
+tt;Сукхотай;Sukhothai
+el;สะเมิง;Samoeng
+am;ራቻቡሪ;Ratchaburi
+az;Raçaburi;Ratchaburi
+tt;Рачабури;Ratchaburi
+am;ራኖንግ;Ranong
+az;Ranonq;Ranong
+tt;Ранонг;Ranong
+am;ፕራቹአፕ ኪሪ ካን;Prachuap Khiri Khan
+az;Praçuap Kiri Han;Prachuap Khiri Khan
+tt;Прачуап-Кхири-Хан;Prachuap Khiri Khan
+uk;Пхукет;Phuket
+he;פוקט;Phuket
+az;Pxuket;Phuket
+lt;Phuketas;Phuket
+am;ፉኬት;Phuket
+tt;Пхукет;Phuket
+am;ፋያው;Phayao
+az;Fayao;Phayao
+tt;Фаяо;Phayao
+am;ፋንግ ንጋ;Phang Nga
+az;Fan Nqa;Phang Nga
+tt;Пханг-Нга;Phang Nga
+he;נאקון סי טמרט;Nakhon Si Thammarat
+hu;Nakhon Szi Thammarat;Nakhon Si Thammarat
+am;ናኞን ሲ ታማራት;Nakhon Si Thammarat
+az;Naxon Si Tamarat;Nakhon Si Thammarat
+tt;Накхон-Си-Тхаммарат;Nakhon Si Thammarat
+lt;Mehongsonas;Mae Hong Son
+am;ሜ ሆንግ ሳን;Mae Hong Son
+az;Mə Hong San;Mae Hong Son
+tt;Мэ-Хонг-Сон;Mae Hong Son
+am;ላምፉን;Lamphun
+az;Lamfun;Lamphun
+tt;Лампхун;Lamphun
+lt;Lampangas;Lampang
+am;ላምፓንግ;Lampang
+az;Lampanq;Lampang
+tt;Лампанг;Lampang
+el;Κράμπι;Krabi
+am;ክራቢ;Krabi
+tt;Крабі;Krabi
+sv;Koh Lanta;Ko Lanta
+hu;Kancsanaburi;Kanchanaburi
+he;קנצנבורי;Kanchanaburi
+am;ካንቻናቡሪ;Kanchanaburi
+az;Kançanaburi;Kanchanaburi
+tt;Канчанабурі;Kanchanaburi
+am;ካምፌንግ ፔት;Kamphaeng Phet
+az;Kamfenq Pet;Kamphaeng Phet
+tt;Кампхенг-Пхет;Kamphaeng Phet
+hu;Huahin;Hua Hin
+uk;Хуахін;Hua Hin
+sr;Хуа Хин;Hua Hin
+lt;Čumphonas;Chumphon
+hu;Csumphon;Chumphon
+am;ቹምፎን;Chumphon
+az;Çumfon;Chumphon
+tt;Чумпхон;Chumphon
+he;ציאנג ראי;Chiang Rai
+pl;Cziang Raj;Chiang Rai
+lt;Čiangrajus;Chiang Rai
+am;ቺያንግ ራይ;Chiang Rai
+az;Çian Ray;Chiang Rai
+tt;Чіанг-Раї;Chiang Rai
+he;צ'אנג מאי;Chiang Mai
+pl;Cziang Maj;Chiang Mai
+he;צ'יאנג מאי;Chiang Mai
+am;ቺያንግ ማይ;Chiang Mai
+az;Çian May;Chiang Mai
+tt;Чіанг-Май;Chiang Mai
+sv;Khao Lak;Ban Khao Lak
+sv;Kamala Beach;Ban Kamala
+sv;Ao Nang;Ban Ao Nang
+he;קו פה נגאן;Ko Pha Ngan
+am;ያሶቶን;Yasothon
+az;Yasotxon;Yasothon
+tt;Ясотхон;Yasothon
+am;ያላ;Yala
+tt;Ялa;Yala
+lt;Utaraditas;Uttaradit
+am;ኡትታራዲት;Uttaradit
+az;Uttardit;Uttaradit
+tt;Уттарадіт;Uttaradit
+am;ኡተይ ታኒ;Uthai Thani
+az;Utay Tani;Uthai Thani
+tt;Утхай-Тхані;Uthai Thani
+lt;Udonthanis;Udon Thani
+he;אודון תאני;Udon Thani
+hu;Udonthani;Udon Thani
+sr;Удон Тани;Udon Thani
+am;ኡዶን ታኒ;Udon Thani
+az;Udon Tani;Udon Thani
+tt;Удон-Тхані;Udon Thani
+pl;Ubon Ratczathani;Ubon Ratchathani
+lt;Ubonratčathanis;Ubon Ratchathani
+uk;Убон Рачатані;Ubon Ratchathani
+am;ኡቦን ራቻታኒ;Ubon Ratchathani
+az;Ubon Raçatani;Ubon Ratchathani
+tt;Убон-Рачатхані;Ubon Ratchathani
+am;ትራት;Trat
+tt;Трат;Trat
+am;ሱሪን;Surin
+tt;Сурин;Surin
+am;ሱፋን ቡሪ;Suphan Buri
+tt;Супхан-Бурі;Suphan Buri
+uk;Сонгкхла;Songkhla
+am;ሶንግክላ;Songkhla
+am;ሲ ሳ ከት;Si Sa Ket
+nb;Singburi;Sing Buri
+no;Singburi;Sing Buri
+am;ሲንግ ቡሪ;Sing Buri
+am;ሳቱን;Satun
+am;ሳራቡሪ;Saraburi
+am;ሳሙት ሶንግክራም;Samut Songkhram
+am;ሳሙት ሳኆን;Samut Sakhon
+am;ሳሙት ፕራካን;Samut Prakan
+nb;Sakhon Nakhon;Sakon Nakhon
+no;Sakhon Nakhon;Sakon Nakhon
+am;ሳኮን ናኆን;Sakon Nakhon
+am;ሳ ካኤዖ;Sa Kaeo
+am;ሮይ ኤት;Roi Et
+am;ራዮንግ;Rayong
+am;ፕራቺን ቡሪ;Prachin Buri
+da;Ayutthaya;Phra Nakhon Si Ayutthaya
+gl;Ayutthaya;Phra Nakhon Si Ayutthaya
+no;Ayutthaya;Phra Nakhon Si Ayutthaya
+sl;Ajuthaja;Phra Nakhon Si Ayutthaya
+fi;Ayutthaya;Phra Nakhon Si Ayutthaya
+am;ፍራ ናኆን ሲ አዩትhያ;Phra Nakhon Si Ayutthaya
+am;ፍሬ;Phrae
+hu;Phitszanulok;Phitsanulok
+lt;Phitsanulokas;Phitsanulok
+am;ፊጣሳኑሎክ;Phitsanulok
+am;ፊቺት;Phichit
+am;ፌጣባን;Phetchabun
+am;ፋቴሉንግ;Phatthalung
+am;ፓታኒ;Pattani
+am;ፓቱም ታኒ;Pathum Thani
+am;ሙዋንግ ኖንታቡሪ;Mueang Nonthaburi
+am;ኖንግ ኃይ;Nong Khai
+am;ኖንግ ቡዋ ላምፉ;Nong Bua Lamphu
+am;ናራቲዋት;Narathiwat
+lt;Nanas;Nan
+am;ናን;Nan
+lt;Nakhonsavanas;Nakhon Sawan
+am;ናኆን ሳዋን;Nakhon Sawan
+pl;Nakhon Ratczasima;Nakhon Ratchasima
+kl;Nakhon Ratchasim;Nakhon Ratchasima
+cs;Nakhon Ratčasima;Nakhon Ratchasima
+hu;Nakhon Ratcsaszima;Nakhon Ratchasima
+lt;Nakhonratčasima;Nakhon Ratchasima
+vep;Nakhonratčasim;Nakhon Ratchasima
+am;ናኆን ራጫሲማ;Nakhon Ratchasima
+am;ናኆን ፋኖም;Nakhon Phanom
+am;ናኆን ፓቶም;Nakhon Pathom
+am;ናኮን ናዮክ;Nakhon Nayok
+tt;Нахон Найок;Nakhon Nayok
+am;ሙክዳሃን;Mukdahan
+tt;Мукдахан;Mukdahan
+am;ማሃ ሳራካም;Maha Sarakham
+tt;Маха Сарахам;Maha Sarakham
+nb;Lopburi;Lop Buri
+no;Lopburi;Lop Buri
+am;ሎፕ ቡሪ;Lop Buri
+tt;Лоп Бури;Lop Buri
+am;ሎይ;Loei
+tt;Лоей;Loei
+bg;Банкок;Bangkok
+he;בנגקוק;Bangkok
+lt;Bankokas;Bangkok
+lv;Bangkoka;Bangkok
+sr;Бангкок;Bangkok
+uk;Бангкок;Bangkok
+ga;Bancác;Bangkok
+ka;ბანგკოკი;Bangkok
+am;ባንኮክ;Bangkok
+be;Бангкок;Bangkok
+mk;Бангкок;Bangkok
+mhr;Бангкок;Bangkok
+sah;Баҥкок;Bangkok
+koi;Бангкок;Bangkok
+mwl;Banguecoque;Bangkok
+cv;Бангкок;Bangkok
+hak;Màn-kuk;Bangkok
+hy;Բանգկոկ;Bangkok
+os;Бангкок;Bangkok
+ckb;بانکۆک;Bangkok
+az;Banqkok;Bangkok
+rue;Банкок;Bangkok
+el;Μπανγκόκ;Bangkok
+he;קון קאן;Khon Kaen
+hu;Khonken;Khon Kaen
+lt;Khonkenas;Khon Kaen
+am;ኮን ካኢን;Khon Kaen
+tt;Хон Каен;Khon Kaen
+am;ካላሲን;Kalasin
+tt;Қаласин;Kalasin
+lt;Hatjajus;Hat Yai
+hu;Hatjaj;Hat Yai
+sr;Хат Јаи;Hat Yai
+he;האד-יאי;Hat Yai
+am;ቾን ቡሪ;Chon Buri
+tt;Чон Бури;Chon Buri
+lt;Čanthaburis;Chanthaburi
+am;ቻንታቡሪ;Chanthaburi
+tt;Чантхабури;Chanthaburi
+am;ቻይያፉም;Chaiyaphum
+tt;Чайяфум;Chaiyaphum
+no;Chainat;Chai Nat
+am;ቻይ ናት;Chai Nat
+tt;Чай Нат;Chai Nat
+am;ቻቾዖንግሳዎ;Chachoengsao
+tt;Чачоенгсао;Chachoengsao
+nb;Buriram;Buri Ram
+no;Buriram;Buri Ram
+he;בורי ראם;Buri Ram
+am;ቡሪ ራም;Buri Ram
+tt;Бури Рам;Buri Ram
+am;ቡዖንግ ካን;Bueng Kan
+tt;Бөнг Қан;Bueng Kan
+bg;Патая;Pattaya
+th;เขตบางรัก;Bang Rak
+am;ኣንግ ቶንግ;Ang Thong
+tt;Анг Тонг;Ang Thong
+am;አምናት ቻሮዖን;Amnat Charoen
+tt;Амнат Чарөен;Amnat Charoen
+sv;Koh Lipe;Ban Ko Li Pe
+no;Koh Lipe;Ban Ko Li Pe

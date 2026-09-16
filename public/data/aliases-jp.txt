@@ -61155,3 +61155,1502 @@ ja;くまうしげんや;Kumaushigen’ya
 ja;クマウシゲンヤ;Kumaushigen’ya
 ja;新しき村;Atarashiki-mura
 zh;新村;Atarashiki-mura
+mzn;شینگو، واکایاما;Shingū
+uk;Сінґу;Shingū
+bg;Ацуги;Atsugi
+mzn;آتسوگی، کاناگاوا;Atsugi
+sk;Acugi;Atsugi
+sr;Ацуги;Atsugi
+uk;Ацуґі;Atsugi
+cs;Acugi;Atsugi
+bg;Акаши;Akashi
+lt;Akašis;Akashi
+mzn;آکاشی، هیوگو;Akashi
+sr;Акаши;Akashi
+uk;Акаші;Akashi
+az;Akaşi;Akashi
+mzn;زاما، کاناگاوا;Zama
+sr;Зама;Zama
+uk;Дзама;Zama
+uk;Юдзава;Yuzawa
+az;Qero;Gero
+mzn;گرو، گیفو;Gero
+uk;Ґеро;Gero
+mzn;یوکوهاشی، فوکوئوکا;Yukuhashi
+uk;Юкухаші;Yukuhashi
+mzn;یوکی، ایباراکی;Yūki
+uk;Юкі;Yūki
+bg;Йонаго;Yonago
+ka;იონაგო;Yonago
+lt;Jonagas;Yonago
+mzn;یوناگو، توتوری;Yonago
+sr;Јонаго;Yonago
+uk;Йонаґо;Yonago
+ka;იოკოსუკა;Yokosuka
+sk;Jokosuka;Yokosuka
+sr;Јокосука;Yokosuka
+cs;Jokosuka;Yokosuka
+mzn;یوکوسوکا، کاناگاوا;Yokosuka
+bg;Йокосука;Yokosuka
+bs;Jokosuka;Yokosuka
+uk;Йокосука;Yokosuka
+be;Іакосука;Yokosuka
+he;יוקוסוקה;Yokosuka
+pl;Jokohama;Yokohama
+cs;Jokohama;Yokohama
+fi;Jokohama;Yokohama
+he;יוקוהמה;Yokohama
+ka;იოკოჰამა;Yokohama
+lt;Jokohama;Yokohama
+lv;Jokohama;Yokohama
+sk;Jokohama;Yokohama
+sr;Јокохама;Yokohama
+hr;Jokohama;Yokohama
+be;Якагама;Yokohama
+bg;Йокохама;Yokohama
+hu;Jokohama;Yokohama
+sl;Jokohama;Yokohama
+be;Ёкаіці;Yokkaichi
+bg;Йокаичи;Yokkaichi
+mzn;یوکای‌ایچی، میه;Yokkaichi
+sr;Јокаичи;Yokkaichi
+uk;Йоккаїті;Yokkaichi
+az;Yavata;Yawata
+ka;იავატა;Yawata
+lt;Javata;Yawata
+mzn;یاواتا، کیوتو;Yawata
+cs;Jacuširo;Honmachi
+ka;იაცუსირო;Honmachi
+mzn;یاتسوشیرو، کوماموتو;Honmachi
+sr;Јацуширо;Honmachi
+uk;Яцушіро;Honmachi
+mzn;یاناگاوا، فوکوئوکا;Yanagawa
+uk;Янаґава;Yanagawa
+uk;Ямакіта;Yamakita
+cs;Jamaguči;Yamaguchi
+sr;Јамагући;Yamaguchi
+cs;Jamaga;Yamaga
+mzn;یاماگا، کوماموتو;Yamaga
+uk;Ямаґа;Yamaga
+mzn;یایزو، شیزوئوکا;Yaizu
+sr;Јаизу;Yaizu
+uk;Яйдзу;Yaizu
+mzn;یایتا، توچیگی;Yaita
+uk;Яїта;Yaita
+mzn;واجیما، ایشیکاوا;Wajima
+uk;Вадзіма;Wajima
+sr;Вађима;Wajima
+cs;Ucunomija;Utsunomiya
+mzn;اوسوکی، اوئیتا;Usuki
+uk;Усукі;Usuki
+mzn;اورایاسو، چیبا;Urayasu
+sr;Урајасу;Urayasu
+uk;Ураясу;Urayasu
+hy;Ուոձու;Uozu
+mzn;اوئوزو، تویاما;Uozu
+uk;Уодзу;Uozu
+cs;Udži;Uji
+lt;Udžis;Uji
+mzn;اوجی، کیوتو;Uji
+sr;Уђи;Uji
+uk;Уджі;Uji
+hy;Ուենոհարա;Uenohara
+mzn;اوئنوهارا، یاماناشی;Uenohara
+uk;Уенохара;Uenohara
+hy;Ուեդա;Ueda
+mzn;اوئدا، ناگانو;Ueda
+sr;Уеда;Ueda
+uk;Уеда;Ueda
+mzn;اوبه، یاماگوچی;Ube
+sr;Убе;Ube
+uk;Убе;Ube
+mzn;تسویاما، اوکایاما;Tsuyama
+sr;Цујама;Tsuyama
+uk;Цуяма;Tsuyama
+mzn;تسورواوکا، یاماگاتا;Tsuruoka
+sr;Цуруока;Tsuruoka
+uk;Цуруока;Tsuruoka
+mzn;تسوروگا، فوکوئی;Tsuruga
+uk;Цуруґа;Tsuruga
+mzn;تسوبامه، نیگاتا;Tsubame
+sr;Цубаме;Tsubame
+uk;Цубаме;Tsubame
+cs;Cu;Tsu
+bg;Тойота;Toyota
+cs;Tojota;Toyota
+mzn;تویوتا، آیچی;Toyota
+nn;Toyota i Aichi;Toyota
+sr;Тојота;Toyota
+uk;Тойота;Toyota
+lt;Tojota;Toyota
+bg;Тойока;Toyooka
+he;טויואוקה;Toyooka
+mzn;تویواوکا، هیوگو;Toyooka
+pl;Toyo'oka;Toyooka
+sr;Тојокава;Toyokawa
+uk;Тойокава;Toyokawa
+mzn;تویوکاوا، آیچی;Toyokawa
+az;Toyohaşi;Toyohashi
+bg;Тойохаши;Toyohashi
+mzn;تویوهاشی، آیچی;Toyohashi
+sr;Тојохаши;Toyohashi
+uk;Тойохасі;Toyohashi
+hak;Tottori-sṳ;Tottori-shi
+hr;Toturi;Tottori-shi
+lt;Totoris;Tottori-shi
+mzn;توتوری;Tottori-shi
+sr;Тотори;Tottori-shi
+uk;Тотторі;Tottori-shi
+mzn;توسو، ساگا;Tosu
+uk;Тосу;Tosu
+mzn;تومی‌اوکا، گونما;Tomioka
+uk;Томіока;Tomioka
+el;Τόκιο;Tokyo
+fi;Tokio;Tokyo
+pl;Tokio;Tokyo
+bg;Токио;Tokyo
+ca;Tòquio;Tokyo
+cs;Tokio;Tokyo
+eu;Tokio;Tokyo
+gl;Toquio;Tokyo
+he;טוקיו;Tokyo
+hr;Tokio;Tokyo
+hu;Tokió;Tokyo
+hy;Տոկիո;Tokyo
+ka;ტოკიო;Tokyo
+lt;Tokijas;Tokyo
+lv;Tokija;Tokyo
+mk;Токио;Tokyo
+nds;Tokio;Tokyo
+oc;Tòquio;Tokyo
+os;Токио;Tokyo
+ro;Tokio;Tokyo
+sk;Tokio;Tokyo
+sl;Tokio;Tokyo
+sr;Токио;Tokyo
+uk;Токіо;Tokyo
+cs;Tokušima;Tokushima
+bg;Токородзава;Tokorozawa
+mzn;توکوروزاوا، سایتاما;Tokorozawa
+sr;Токорозава;Tokorozawa
+uk;Токородзава;Tokorozawa
+el;Τοκοροζάβα;Tokorozawa
+mzn;توکونامه، آیچی;Tokoname
+uk;Токонаме;Tokoname
+mzn;توکی، گیفو;Toki
+uk;Токі;Toki
+cs;Haguši;Toguchi
+uk;Тотіґі;Tochigi
+mzn;تنری، نارا;Tenri
+uk;Тенрі;Tenri
+mzn;تاتیاما، چیبا;Tateyama
+uk;Татеяма;Tateyama
+mzn;تاته‌بایاشی، گونما;Tatebayashi
+uk;Татебаясі;Tatebayashi
+mzn;تانابه، واکایاما;Tanabe
+uk;Танабе;Tanabe
+mzn;تامانو، اوکایاما;Tamano
+uk;Тамано;Tamano
+mzn;تامانا، کوماموتو;Tamana
+uk;Тамана;Tamana
+mzn;تاکه‌ئو، ساگا;Takeo
+uk;Такео;Takeo
+mzn;تاکه‌هارا، هیروشیما;Takehara
+uk;Такехара;Takehara
+mzn;تاکایاما، گیفو;Takayama
+uk;Такаяма;Takayama
+hu;Takajama;Takayama
+bg;Такасаки;Takasaki
+ka;ტაკასაკი;Takasaki
+mzn;تاکاساکی، گونما;Takasaki
+sr;Такасаки;Takasaki
+uk;Такасакі;Takasaki
+bg;Такарадзука;Takarazuka
+lt;Takaradzuka;Takarazuka
+mzn;تاکارازوکا، هیوگو;Takarazuka
+sr;Такаразука;Takarazuka
+mzn;تاکائوکا، تویاما;Takaoka
+sr;Такаока;Takaoka
+uk;Такаока;Takaoka
+cs;Takamacu;Takamatsu
+be;Такамацу;Takamatsu
+bg;Такамацу;Takamatsu
+hu;Takamacu;Takamatsu
+ka;ტაკამაცუ;Takamatsu
+mzn;تاکاماتسو، کاگاوا;Takamatsu
+sr;Такамацу;Takamatsu
+uk;Такамацу;Takamatsu
+mzn;تاکاهاشی، اوکایاما;Takahashi
+uk;Такахаші;Takahashi
+mzn;تاجیمی، گیفو;Tajimi
+sr;Тађими;Tajimi
+uk;Тадзімі;Tajimi
+uk;Тайдзі;Taiji
+mzn;تاهارا، آیچی;Tahara
+uk;Тахара;Tahara
+mzn;تاگاوا، فوکوئوکا;Tagawa
+uk;Таґава;Tagawa
+bg;Судзука;Suzuka
+lt;Sudzuka;Suzuka
+mzn;سوزوکا، میه;Suzuka
+sr;Сузука;Suzuka
+uk;Судзука;Suzuka
+hy;Սուվա;Suwa
+mzn;سووا، ناگانو;Suwa
+uk;Сува;Suwa
+bg;Суита;Suita
+mzn;سوئیتا، اوساکا;Suita
+sr;Суита;Suita
+uk;Суйта;Suita
+mzn;شوبارا، هیروشیما;Shōbara
+uk;Сьобара;Shōbara
+cs;Šizuoka;Shizuoka
+az;Şizuoka;Shizuoka
+be;Сідзуока;Shizuoka
+bg;Шидзуока;Shizuoka
+he;שיזואוקה;Shizuoka
+lt;Šidzuoka;Shizuoka
+mzn;شیزوئوکا;Shizuoka
+sk;Šizuoka;Shizuoka
+sr;Шизуока;Shizuoka
+uk;Сідзуока;Shizuoka
+vep;Sidzuok;Shizuoka
+mzn;شیوجیری، ناگانو;Shiojiri
+uk;Сіодзірі;Shiojiri
+hy;Սիոձիրի;Shiojiri
+mzn;شینشیرو، آیچی;Shinshiro
+uk;Сінсіро;Shinshiro
+az;Şimonoseki;Shimonoseki
+be;Сіманасекі;Shimonoseki
+bg;Шимоносеки;Shimonoseki
+hy;Սիմոնոսեկի;Shimonoseki
+mzn;شیمونوسکی، یاماگوچی;Shimonoseki
+sr;Шимоносеки;Shimonoseki
+uk;Сімоносекі;Shimonoseki
+mzn;شیمودا، شیزوئوکا;Shimoda
+uk;Сімода;Shimoda
+az;Şimoda;Shimoda
+mzn;شیمادا، شیزوئوکا;Shimada
+uk;Сімада;Shimada
+mzn;شیمابارا، ناگازاکی;Shimabara
+uk;Шімабара;Shimabara
+cs;Šibuši;Shibushi
+mzn;شیبوشی، کاگوشیما;Shibushi
+uk;Шібуші;Shibushi
+cs;Šibukawa;Shibukawa
+mzn;شیبوکاوا، گونما;Shibukawa
+uk;Сібукава;Shibukawa
+mzn;شیباتا، نیگاتا;Shibata
+sr;Шибата;Shibata
+uk;Сібата;Shibata
+mzn;ستو، آیچی;Seto
+sr;Сето;Seto
+uk;Сето;Seto
+lt;Sendajus;Sendai
+sr;Сацумасендај;Sendai
+mzn;ساتسوماسندای، کاگوشیما;Sendai
+uk;Сацума-Сендай;Sendai
+be;Сасеба;Sasebo
+bg;Сасебо;Sasebo
+mzn;ساسه‌بو، ناگازاکی;Sasebo
+sr;Сасебо;Sasebo
+uk;Сасебо;Sasebo
+he;ססבו;Sasebo
+mzn;ساسایاما، هیوگو;Sasayama
+mzn;سانو، توچیگی;Sano
+sr;Сано;Sano
+uk;Сано;Sano
+mzn;سانجو، نیگاتا;Sanjō
+sr;Санђо;Sanjō
+uk;Сандзьо;Sanjō
+mzn;ساکورای، نارا;Sakurai
+uk;Сакурай;Sakurai
+mzn;ساکو، ناگانو;Saku
+sr;Саку;Saku
+uk;Саку;Saku
+hy;Սակու;Saku
+mzn;ساکاتا، یاماگاتا;Sakata
+sr;Саката;Sakata
+uk;Саката;Sakata
+lt;Sakaiminatas;Sakaiminato
+mzn;ساکای‌میناتو، توتوری;Sakaiminato
+uk;Сакай-Мінато;Sakaiminato
+mzn;ساکادو، سایتاما;Sakado
+uk;Сакадо;Sakado
+mzn;سایکی، اوئیتا;Saiki
+sr;Саики;Saiki
+uk;Саїкі;Saiki
+mzn;اویاما، توچیگی;Oyama
+sr;Ојама;Oyama
+uk;Ояма;Oyama
+cs;Ojama;Oyama
+hu;Ócuki;Ōtsuki
+hy;Օցուկի;Ōtsuki
+mzn;اوتسوکی، یاماناشی;Ōtsuki
+uk;Оцукі;Ōtsuki
+cs;Ócu;Ōtsu
+be;Оцу;Ōtsu
+bg;Оцу;Ōtsu
+lt;Ocu;Ōtsu
+mzn;اتسو، شیگا;Ōtsu
+sr;Оцу;Ōtsu
+uk;Оцу;Ōtsu
+mzn;اوتا، گونما;Ōta
+sr;Ота;Ōta
+uk;Ота;Ōta
+gl;Osaca;Osaka
+ka;ოსაკა;Osaka
+sr;Осака;Osaka
+bg;Осака;Osaka
+he;אוסקה;Osaka
+hu;Oszaka;Osaka
+uk;Осака;Osaka
+cs;Onomiči;Onomichi
+mzn;اونومیچی، هیروشیما;Onomichi
+sr;Ономичи;Onomichi
+uk;Ономіті;Onomichi
+mzn;اونو، هیوگو;Ono
+uk;Онна;Onna
+mzn;اوموتا، فوکوئوکا;Ōmuta
+sr;Омута;Ōmuta
+uk;Омута;Ōmuta
+mzn;اومورا، ناگازاکی;Ōmura
+uk;Омура;Ōmura
+bg;Оме;Ōme
+eu;Oume;Ōme
+hy;Օմե;Ōme
+mzn;اومه، توکیو;Ōme
+sr;Оме;Ōme
+uk;Оме;Ōme
+hy;Օմատի;Ōmachi
+mzn;اوماچی، ناگانو;Ōmachi
+uk;Оматі;Ōmachi
+bg;Окадзаки;Okazaki
+uk;Окадзакі;Okazaki
+mzn;اوکازاکی، آیچی;Okazaki
+sr;Оказаки;Okazaki
+cs;Okajama;Okayama
+mzn;اوگاکی، گیفو;Ōgaki
+sr;Огаки;Ōgaki
+uk;Оґакі;Ōgaki
+hu;Odavara;Odawara
+el;Ονταγουάρα;Odawara
+hr;Odavara;Odawara
+mzn;اوداوارا، کاناگاوا;Odawara
+uk;Одавара;Odawara
+sr;Одавара;Odawara
+lt;Odavara;Odawara
+mzn;اوبو، آیچی;Ōbu
+uk;Обу;Ōbu
+he;אובמה;Obama
+mzn;اوباما، فوکوئی;Obama
+uk;Обама;Obama
+bg;Нумадзу;Numazu
+mzn;نومازو، شیزوئوکا;Numazu
+sr;Нумазу;Numazu
+uk;Нумадзу;Numazu
+mzn;نوماتا، گونما;Numata
+uk;Нумата;Numata
+mzn;نودا، چیبا;Noda
+sr;Нода;Noda
+uk;Нода;Noda
+mzn;نوبه‌اوکا، میازاکی;Nobeoka
+sr;Нобеока;Nobeoka
+uk;Нобеока;Nobeoka
+mzn;نیشیو، آیچی;Nishio
+sr;Нишио;Nishio
+uk;Нісіо;Nishio
+cs;Nišinoomote;Nishinoomote
+mzn;نیشینواوموته، کاگوشیما;Nishinoomote
+uk;Нішіноомоте;Nishinoomote
+he;ניקו;Nikkō
+lt;Niko;Nikkō
+mzn;نیکو، توچیگی;Nikkō
+uk;Нікко;Nikkō
+lt;Nijihama;Niihama
+mzn;نی‌ایهاما، اهیمه;Niihama
+sr;Нихама;Niihama
+uk;Ніїхама;Niihama
+mzn;نیچینان، میازاکی;Nichinan
+uk;Нічінан;Nichinan
+pl;Nara;Nara-shi
+cs;Nara;Nara-shi
+fi;Nara;Nara-shi
+sk;Nara;Nara-shi
+sr;Нара;Nara-shi
+sv;Nara;Nara-shi
+uk;Нара;Nara-shi
+mzn;نانائو، ایشیکاوا;Nanao
+uk;Нанао;Nanao
+mzn;نامه‌ریکاوا، تویاما;Namerikawa
+uk;Намерікава;Namerikawa
+mzn;ناکاتسوگاوا، گیفو;Nakatsugawa
+uk;Накацуґава;Nakatsugawa
+mzn;ناکاتسو، اوئیتا;Nakatsu
+uk;Накацу;Nakatsu
+mzn;ناکامه، فوکوئوکا;Nakama
+uk;Накама;Nakama
+he;נהה;Naha
+pl;Nagoja;Nagoya
+cs;Nagoja;Nagoya
+gl;Nagoia;Nagoya
+hr;Nagoja;Nagoya
+lt;Nagoja;Nagoya
+az;Naqoya;Nagoya
+be;Нагоя;Nagoya
+he;נגויה;Nagoya
+uk;Нагоя;Nagoya
+sl;Nagoja;Nagoya
+sr;Нагоја;Nagoya
+hy;Նագոյա;Nagoya
+he;נאגו;Nago
+mzn;ناگو، اوکیناوا;Nago
+uk;Наґо;Nago
+he;נגסאקי;Nagasaki
+hu;Nagaszaki;Nagasaki
+sr;Нагасаки;Nagasaki
+ka;ნაგასაკი;Nagasaki
+lt;Nagasakis;Nagasaki
+mzn;ناگاریاما، چیبا;Nagareyama
+sr;Нагарејама;Nagareyama
+uk;Наґареяма;Nagareyama
+be;Нагаока;Nagaoka
+bg;Нагаока;Nagaoka
+mzn;ناگائوکا، نیگاتا;Nagaoka
+sr;Нагаока;Nagaoka
+uk;Наґаока;Nagaoka
+ka;ნაგაოკა;Nagaoka
+bg;Мусашино;Musashino
+he;מוסאשינו;Musashino
+lt;Musašinas;Musashino
+mzn;موساشینو، توکیو;Musashino
+sr;Мусашино;Musashino
+uk;Мусасіно;Musashino
+hy;Մուսասինո;Musashino
+mzn;موراکامی، نیگاتا;Murakami
+uk;Муракамі;Murakami
+mzn;موریگوچی، اوساکا;Moriguchi
+sr;Моригучи;Moriguchi
+uk;Моріґучі;Moriguchi
+mzn;میزونامی، گیفو;Mizunami
+uk;Мідзунамі;Mizunami
+mzn;میوشی، هیروشیما;Miyoshi
+uk;Мійосі;Miyoshi
+lt;Mijadzu;Miyazu
+mzn;میازو، کیوتو;Miyazu
+uk;Міядзу;Miyazu
+mzn;میاکونوجو، میازاکی;Miyakonojō
+sr;Мијаконођо;Miyakonojō
+uk;Міяконоджьо;Miyakonojō
+he;מיטסושימה;Mitsushima
+mzn;میشیما، شیزوئوکا;Mishima
+sr;Мишима;Mishima
+uk;Місіма;Mishima
+az;Mişima;Mishima
+mzn;میناماتا، کوماموتو;Minamata
+uk;Мінамата;Minamata
+mzn;میکی، هیوگو;Miki
+uk;Мікі;Miki
+mzn;میهارا، هیروشیما;Mihara
+sr;Михара;Mihara
+uk;Міхара;Mihara
+uk;Мібу;Mibu
+sr;Мацумото;Matsumoto
+bg;Мацумото;Matsumoto
+uk;Мацумото;Matsumoto
+mzn;ماتسوموتو، ناگانو;Matsumoto
+cs;Macumoto;Matsumoto
+hy;Մացումոտո;Matsumoto
+bg;Мацуе;Matsue
+cs;Macue;Matsue
+hak;Matsue-sṳ;Matsue
+lt;Macujė;Matsue
+mzn;ماتسوئه;Matsue
+sr;Мацуе;Matsue
+uk;Мацуе;Matsue
+bg;Мацудо;Matsudo
+mzn;ماتسودو، چیبا;Matsudo
+sr;Мацудо;Matsudo
+uk;Мацудо;Matsudo
+bg;Масуда;Masuda
+hu;Maszuda;Masuda
+mzn;ماسودا، شیمانه;Masuda
+uk;Масуда;Masuda
+mzn;ماروگامه، کاگاوا;Marugame
+sr;Маругаме;Marugame
+uk;Маруґаме;Marugame
+az;Maruqame;Marugame
+lt;Maidzuru;Maizuru
+mzn;مایزورو، کیوتو;Maizuru
+uk;Майдзуру;Maizuru
+mzn;مایبارا، شیگا;Maibara
+uk;Майбара;Maibara
+cs;Maebaši;Maebashi
+bg;Мачида;Machida
+hy;Մատիդա;Machida
+lt;Mačida;Machida
+mzn;ماچیدا، توکیو;Machida
+sr;Мачида;Machida
+uk;Матіда;Machida
+cs;Kjóto;Kyoto
+el;Κιότο;Kyoto
+eu;Kioto;Kyoto
+fi;Kioto;Kyoto
+gl;Quioto;Kyoto
+ka;კიოტო;Kyoto
+lt;Kiotas;Kyoto
+os;Киото;Kyoto
+pl;Kioto;Kyoto
+sl;Kjoto;Kyoto
+sr;Кјото;Kyoto
+bg;Киото;Kyoto
+he;קיוטו;Kyoto
+uk;Кіото;Kyoto
+mk;Кјото;Kyoto
+sk;Kjóto;Kyoto
+mzn;کیوتو;Kyoto
+hy;Կիոտո;Kyoto
+hu;Kiotó;Kyoto
+be;Кіёта;Kyoto
+sgs;Kėjuots;Kyoto
+ce;Киото;Kyoto
+sah;Киото;Kyoto
+bxr;Киото;Kyoto
+uk;Кусімото;Kushimoto
+cs;Kusacu;Kusatsu
+uk;Кусацу;Kusatsu
+bg;Куруме;Kurume
+mzn;کورومه، فوکوئوکا;Kurume
+sr;Куруме;Kurume
+uk;Куруме;Kurume
+bg;Куре;Kure
+he;קורה;Kure
+mzn;کوره، هیروشیما;Kure
+sr;Куре;Kure
+uk;Куре;Kure
+lt;Kurajošis;Kurayoshi
+mzn;کورایوشی، توتوری;Kurayoshi
+uk;Курайоші;Kurayoshi
+az;Kuraşiki;Kurashiki
+bg;Курашики;Kurashiki
+mzn;کوراشیکی، اوکایاما;Kurashiki
+sr;Курашики;Kurashiki
+uk;Курасікі;Kurashiki
+sr;Кумамото;Kumamoto
+bg;Кумагая;Kumagaya
+mzn;کوماگایا، سایتاما;Kumagaya
+sr;Кумагаја;Kumagaya
+uk;Кумаґая;Kumagaya
+bg;Кошигая;Koshigaya
+mzn;کوشیگایا، سایتاما;Koshigaya
+sr;Кошигаја;Koshigaya
+uk;Косіґая;Koshigaya
+hy;Կոմորո;Komoro
+mzn;کومورو، ناگانو;Komoro
+uk;Коморо;Komoro
+mzn;کوماتسو، ایشیکاوا;Komatsu
+sr;Комацу;Komatsu
+uk;Комацу;Komatsu
+mzn;کوماکی، آیچی;Komaki
+sr;Комаки;Komaki
+uk;Комакі;Komaki
+hy;Կոկուբունձի;Kokubunji
+lt;Kokubundžis;Kokubunji
+mzn;کوکوبونجی، توکیو;Kokubunji
+sr;Кокубунџи;Kokubunji
+uk;Кокубундзі;Kokubunji
+mzn;کوگا، ایباراکی;Koga
+sr;Кога;Koga
+uk;Коґа;Koga
+bg;Кофу;Kofu
+he;קופו;Kofu
+hy;Կոֆու;Kofu
+mzn;کوفو، یاماناشی;Kofu
+sr;Кофу;Kofu
+uk;Кофу;Kofu
+sr;Коћи;Kochi
+he;קובה;Kobe
+be;Кобэ;Kobe
+bg;Кобе;Kobe
+ce;Кобе;Kobe
+el;Κόμπε;Kobe
+hy;Կոբե;Kobe
+ka;კობე;Kobe
+sr;Кобе;Kobe
+uk;Кобе;Kobe
+lt;Kijosu;Kiyosu
+mzn;کیوسو، آیچی;Kiyosu
+uk;Кійосу;Kiyosu
+cs;Kitakjúšú;Kitakyushu
+hu;Kitakjúsú;Kitakyushu
+sr;Китакјушу;Kitakyushu
+az;Kitakyüşü;Kitakyushu
+bg;Китакюшу;Kitakyushu
+hy;Կիտակյուսյու;Kitakyushu
+lt;Kitakiūšiū;Kitakyushu
+mzn;کیتاکیوشو، فوکوئوکا;Kitakyushu
+sk;Kitakjúšú;Kitakyushu
+uk;Кіта-Кюшю;Kitakyushu
+mzn;کیتاکاتا، فوکوشیما;Kitakata
+uk;Кітаката;Kitakata
+mzn;کیسارازو، چیبا;Kisarazu
+uk;Кісарадзу;Kisarazu
+sr;Кисаразу;Kisarazu
+bg;Кирю;Kiryū
+mzn;کیریو، گونما;Kiryū
+sr;Кирју;Kiryū
+uk;Кірю;Kiryū
+mzn;کیکوچی، کوماموتو;Kikuchi
+uk;Кікучі;Kikuchi
+mzn;کازو، سایتاما;Kazo
+uk;Кадзо;Kazo
+lt;Kavasakis;Kawasaki
+el;Καβασάκι;Kawasaki
+hu;Kavaszaki;Kawasaki
+sr;Кавасаки;Kawasaki
+he;קווסאקי;Kawasaki
+bg;Кавасаки;Kawasaki
+mzn;کاواساکی، کاناگاوا;Kawasaki
+uk;Кавасакі;Kawasaki
+be;Кавасакі;Kawasaki
+ce;Кавасаки;Kawasaki
+sah;Кавасаки;Kawasaki
+hy;Կավասակի;Kawasaki
+lv;Kavasaki;Kawasaki
+mk;Кавасаки;Kawasaki
+mzn;کاوانیشی، هیوگو;Kawanishi
+sr;Каваниши;Kawanishi
+uk;Каваніші;Kawanishi
+az;Kavaquçi;Kawaguchi
+ka;კავაგუტი;Kawaguchi
+lt;Kavagučis;Kawaguchi
+mzn;کاواگوچی، سایتاما;Kawaguchi
+sr;Кавагучи;Kawaguchi
+uk;Каваґуті;Kawaguchi
+bg;Кавагое;Kawagoe
+ka;კავაგოე;Kawagoe
+mzn;کاواگوئه، سایتاما;Kawagoe
+sr;Кавагое;Kawagoe
+uk;Каваґое;Kawagoe
+mzn;کاتسویاما، فوکوئی;Katsuyama
+uk;Кацуяма;Katsuyama
+bg;Касукабе;Kasukabe
+mzn;کاسوکابه، سایتاما;Kasukabe
+sr;Касукабе;Kasukabe
+uk;Касукабе;Kasukabe
+bg;Касугаи;Kasugai
+mzn;کاسوگای، آیچی;Kasugai
+sr;Касугај;Kasugai
+uk;Касуґай;Kasugai
+mzn;کاشیوازاکی، نیگاتا;Kashiwazaki
+uk;Касівадзакі;Kashiwazaki
+az;Kaşiva;Kashiwa
+bg;Кашива;Kashiwa
+mzn;کاشیوا، چیبا;Kashiwa
+sr;Кашива;Kashiwa
+uk;Касіва;Kashiwa
+mzn;کاشیما، ساگا;Kashima
+uk;Кашіма;Kashima
+lt;Karija;Kariya
+mzn;کاریا، آیچی;Kariya
+sr;Карија;Kariya
+uk;Карія;Kariya
+mzn;کاراتسو، ساگا;Karatsu
+sr;Карацу;Karatsu
+uk;Карацу;Karatsu
+mzn;کانوما، توچیگی;Kanuma
+sr;Канума;Kanuma
+uk;Канума;Kanuma
+mzn;کانویا، کاگوشیما;Kanoya
+sr;Каноја;Kanoya
+uk;Каноя;Kanoya
+mzn;کامه‌اوکا، کیوتو;Kameoka
+uk;Камеока;Kameoka
+sr;Камакура;Kamakura
+uk;Камакура;Kamakura
+mzn;کاماکورا، کاناگاوا;Kamakura
+be;Камакура;Kamakura
+mzn;کاکه‌گاوا، شیزوئوکا;Kakegawa
+sr;Какегава;Kakegawa
+uk;Какеґава;Kakegawa
+mzn;کاکامیگاهارا، گیفو;Kakamigahara
+sr;Какамигахара;Kakamigahara
+uk;Какаміґахара;Kakamigahara
+mzn;کاینان، واکایاما;Kainan
+uk;Кайнан;Kainan
+cs;Kagošima;Kagoshima
+sr;Кагошима;Kagoshima
+mzn;کادوما، اوساکا;Kadoma
+sr;Кадома;Kadoma
+uk;Кадома;Kadoma
+pl;Jūsō;Jūsō-honmachi
+sr;Изумо;Izumo
+uk;Ідзумо;Izumo
+mzn;ایواتا، شیزوئوکا;Iwata
+sr;Ивата;Iwata
+uk;Івата;Iwata
+az;İvata;Iwata
+he;איוואקוני;Iwakuni
+ka;ივაკუნი;Iwakuni
+mzn;ایواکونی، یاماگوچی;Iwakuni
+sr;Ивакуни;Iwakuni
+uk;Івакуні;Iwakuni
+hak;Ngàm-koet-sṳ;Iwakuni
+mzn;ایتویی‌گاوا، نیگاتا;Itoigawa
+uk;Ітоїґава;Itoigawa
+lt;Itas;Itō
+mzn;ایتو، شیزوئوکا;Itō
+uk;Іто;Itō
+mzn;ایتامی، هیوگو;Itami
+sr;Итами;Itami
+uk;Ітамі;Itami
+lt;Išigakis;Ishigaki
+mzn;ایشیگاکی، اوکیناوا;Ishigaki
+uk;Ішіґакі;Ishigaki
+bg;Исесаки;Isesaki
+hr;Iseaki;Isesaki
+mzn;ایسه‌ساکی، گونما;Isesaki
+sr;Исесаки;Isesaki
+uk;Ісесакі;Isesaki
+uk;Ісе;Ise
+ka;ისე;Ise
+mzn;ایسه، میه;Ise
+sr;Исе;Ise
+mzn;ایساهایا، ناگازاکی;Isahaya
+sr;Исахаја;Isahaya
+uk;Ісахая;Isahaya
+mzn;اینویاما، آیچی;Inuyama
+uk;Інуяма;Inuyama
+mzn;اینازاوا، آیچی;Inazawa
+sr;Иназава;Inazawa
+uk;Інадзава;Inazawa
+hy;Ինա;Ina
+mzn;اینا، ناگانو;Ina
+uk;Іна;Ina
+mzn;ایکوما، نارا;Ikoma
+sr;Икома;Ikoma
+uk;Ікома;Ikoma
+hr;Izuka;Iizuka
+lt;Iidzuka;Iizuka
+mzn;ایزوکا، فوکوئوکا;Iizuka
+sr;Изука;Iizuka
+uk;Іїдзука;Iizuka
+hy;Իիդա;Iida
+mzn;ایدا، ناگانو;Iida
+sr;Ида;Iida
+uk;Іїда;Iida
+az;İtinomiya;Ichinomiya
+bg;Ичиномия;Ichinomiya
+ka;იტინომია;Ichinomiya
+mzn;ایچینومیا، آیچی;Ichinomiya
+sr;Ичиномија;Ichinomiya
+uk;Ітіномія;Ichinomiya
+mzn;ایبوسوکی، کاگوشیما;Ibusuki
+uk;Ібусукі;Ibusuki
+ka;იბარაკი;Ibaraki
+mzn;ایباراکی، اوساکا;Ibaraki
+sr;Ибараки;Ibaraki
+uk;Ібаракі;Ibaraki
+mzn;ایبارا، اوکایاما;Ibara
+uk;Ібара;Ibara
+mzn;هونجو، سایتاما;Honjō
+uk;Хондзьо;Honjō
+mzn;هیتویوشی، کوماموتو;Hitoyoshi
+uk;Хітойоші;Hitoyoshi
+mzn;هیتا، اوئیتا;Hita
+uk;Хіта;Hita
+bg;Хирошима;Hiroshima
+cs;Hirošima;Hiroshima
+gl;Hiroxima;Hiroshima
+he;הירושימה;Hiroshima
+ka;ჰიროშიმა;Hiroshima
+pl;Hiroszima;Hiroshima
+ka;ჰიროსიმა;Hiroshima
+el;Χιροσίμα;Hiroshima
+ro;Hiroșima;Hiroshima
+uk;Хіросіма;Hiroshima
+hr;Hirošima;Hiroshima
+lt;Hirošima;Hiroshima
+bg;Хирацука;Hiratsuka
+lt;Hiracuka;Hiratsuka
+mzn;هیراتسوکا، کاناگاوا;Hiratsuka
+sr;Хирацука;Hiratsuka
+uk;Хірацука;Hiratsuka
+ka;ჰირაცუკა;Hiratsuka
+he;היראדו;Hirado
+mzn;هیرادو، ناگازاکی;Hirado
+uk;Хірадо;Hirado
+mzn;هیوکی، کاگوشیما;Hioki
+uk;Хіокі;Hioki
+bg;Хино;Hino
+hy;Հինո;Hino
+lt;Hinas;Hino
+mzn;هینو، توکیو;Hino
+sr;Хино;Hino
+uk;Хіно;Hino
+az;Himeci;Himeji
+be;Хімедзі;Himeji
+bg;Химеджи;Himeji
+he;הימגי;Himeji
+mzn;هیمه‌جی، هیوگو;Himeji
+sr;Химеђи;Himeji
+uk;Хімедзі;Himeji
+mzn;هکینان، آیچی;Hekinan
+uk;Хекінан;Hekinan
+mzn;هاتسوکاایچی، هیروشیما;Hatsukaichi
+sr;Хацукаичи;Hatsukaichi
+uk;Хацукаїті;Hatsukaichi
+mzn;هاشیموتو، واکایاما;Hashimoto
+uk;Хасімото;Hashimoto
+mzn;هانیو، سایتاما;Hanyū
+uk;Ханю;Hanyū
+el;Χάννο;Hannō
+mzn;هان‌نو، سایتاما;Hannō
+uk;Ханно;Hannō
+mzn;هاندا، آیچی;Handa
+sr;Ханда;Handa
+uk;Ханда;Handa
+lt;Hamamacu;Hamamatsu
+sr;Хамамацу;Hamamatsu
+uk;Хамамацу;Hamamatsu
+mzn;هاماماتسو، شیزوئوکا;Hamamatsu
+sk;Hamamacu;Hamamatsu
+bg;Хамамацу;Hamamatsu
+cs;Hamamacu;Hamamatsu
+bg;Хамада;Hamada
+mzn;هامادا، شیمانه;Hamada
+uk;Хамада;Hamada
+uk;Хаконе;Hakone
+hy;Հագի;Hagi
+mzn;هاگی، یاماگوچی;Hagi
+uk;Хаґі;Hagi
+mzn;هادانو، کاناگاوا;Hadano
+sr;Хадано;Hadano
+uk;Хадано;Hadano
+bg;Хачиоджи;Hachiōji
+da;Hachiouji;Hachiōji
+lt;Hačiodžis;Hachiōji
+mzn;هاچی‌اوجی، توکیو;Hachiōji
+sr;Хачиоџи;Hachiōji
+uk;Хатіодзі;Hachiōji
+mzn;اومیهاچیمان، شیگا;Ōmihachiman
+uk;Омі-Хачіман;Ōmihachiman
+mzn;گیودا، سایتاما;Gyōda
+uk;Ґьода;Gyōda
+mzn;گوسه، نارا;Gose
+uk;Ґосе;Gose
+mzn;گوجو، نارا;Gojō
+uk;Ґодзьо;Gojō
+mzn;گوبو، واکایاما;Gobō
+uk;Ґобо;Gobō
+mzn;گاماگوری، آیچی;Gamagōri
+uk;Ґамаґорі;Gamagōri
+mzn;فوتسو، چیبا;Futtsu
+uk;Фуццу;Futtsu
+bg;Фукуяма;Fukuyama
+lt;Fukujama;Fukuyama
+mzn;فوکویاما، هیروشیما;Fukuyama
+sr;Фукујама;Fukuyama
+uk;Фукуяма;Fukuyama
+mzn;فوکورویی، شیزوئوکا;Fukuroi
+uk;Фукурой;Fukuroi
+be;Фукуока;Fukuoka
+he;פוקואוקה;Fukuoka
+sr;Фукуока;Fukuoka
+uk;Фукуока;Fukuoka
+he;פוקושיאמה;Fukuchiyama
+lt;Fukučijama;Fukuchiyama
+mzn;فوکوچی‌یاما، کیوتو;Fukuchiyama
+uk;Фукучіяма;Fukuchiyama
+mzn;فوجیساوا، کاناگاوا;Fujisawa
+uk;Фудзісава;Fujisawa
+sr;Фуџисава;Fujisawa
+bg;Фуджисава;Fujisawa
+be;Фудзісава;Fujisawa
+lt;Fudžisava;Fujisawa
+mzn;فوجی‌اوکا، گونما;Fujioka
+uk;Фудзіока;Fujioka
+lt;Fudžinomija;Fujinomiya
+mzn;فوجی‌نومیا، شیزوئوکا;Fujinomiya
+sr;Фуџиномија;Fujinomiya
+uk;Фудзіномія;Fujinomiya
+bg;Фуджи;Fuji
+cs;Fudži;Fuji
+el;Φούτζι;Fuji
+lt;Fudžis;Fuji
+mzn;فوجی، شیزوئوکا;Fuji
+sr;Фуџи;Fuji
+uk;Фудзі;Fuji
+uk;Тідзу;Chizu
+hu;Csirjú;Chiryū
+mzn;چیرو، آیچی;Chiryū
+uk;Тірю;Chiryū
+hy;Տինո;Chino
+mzn;چینو، ناگانو;Chino
+uk;Тіно;Chino
+bg;Чигасаки;Chigasaki
+lt;Čigasakis;Chigasaki
+mzn;چیگاساکی، کاناگاوا;Chigasaki
+sr;Чигасаки;Chigasaki
+uk;Тіґасакі;Chigasaki
+lt;Čičibu;Chichibu
+mzn;چیچیبو، سایتاما;Chichibu
+uk;Тітібу;Chichibu
+ka;ბეპუ;Beppu
+lt;Bepu;Beppu
+mzn;بپو، اوئیتا;Beppu
+sr;Бепу;Beppu
+uk;Беппу;Beppu
+lv;Bepu;Beppu
+he;איאבה;Ayabe
+lt;Ajabė;Ayabe
+mzn;آیابه، کیوتو;Ayabe
+uk;Аябе;Ayabe
+mzn;آوارا، فوکوئی;Awara
+uk;Авара;Awara
+lt;Atamis;Atami
+mzn;آتامی، شیزوئوکا;Atami
+uk;Атамі;Atami
+uk;Асука;Asuka
+az;Aşiya;Ashiya
+mzn;آشیا، هیوگو;Ashiya
+uk;Ашія;Ashiya
+lt;Ašikaga;Ashikaga
+mzn;آشیکاگا، توچیگی;Ashikaga
+sr;Ашикага;Ashikaga
+uk;Асікаґа;Ashikaga
+mzn;آنناکا، گونما;Annaka
+uk;Аннака;Annaka
+hu;Andzsó;Anjō
+lt;Andžijas;Anjō
+mzn;آنجو، آیچی;Anjō
+sr;Анџо;Anjō
+uk;Андзьо;Anjō
+mzn;آنان، توکوشیما;Anan
+uk;Анан;Anan
+mzn;آکی، کوچی;Aki
+sr;Аки;Aki
+uk;Акі;Aki
+mzn;اوکیناوا;Okinawa
+sr;Окинава;Okinawa
+uk;Окінава;Okinawa
+mzn;کوشیما، میازاکی;Kushima
+uk;Кушіма;Kushima
+mzn;هیکاری، یاماگوچی;Hikari
+uk;Хікарі;Hikari
+hak;Chhòng-mùn-sṳ;Nagato
+mzn;ناگاتو، یاماگوچی;Nagato
+uk;Наґато;Nagato
+bg;Саяма;Sayama
+mzn;سایاما، سایتاما;Sayama
+sr;Сајама;Sayama
+uk;Саяма;Sayama
+hy;Ֆուսա;Fussa
+lt;Fusa;Fussa
+mzn;فوسا، توکیو;Fussa
+uk;Фусса;Fussa
+bg;Асака;Asaka
+mzn;آساکا، سایتاما;Asaka
+sr;Асака;Asaka
+uk;Асака;Asaka
+mzn;کیمیتسو، چیبا;Kimitsu
+uk;Кіміцу;Kimitsu
+mzn;میورا، کاناگاوا;Miura
+uk;Міура;Miura
+mzn;ایو، اهیمه;Iyo
+uk;Ійо;Iyo
+mzn;اواجیما، اهیمه;Uwajima
+uk;Уваджіма;Uwajima
+sr;Увађима;Uwajima
+mzn;سایجو، اهیمه;Saijō
+sr;Саиџо;Saijō
+uk;Сайджьо;Saijō
+mzn;اوزو، اهیمه;Ōzu
+uk;Одзу;Ōzu
+cs;Macujama;Matsuyama
+bg;Мацуяма;Matsuyama
+hu;Macujama;Matsuyama
+lt;Macujama;Matsuyama
+mzn;ماتسویاما، اهیمه;Matsuyama
+sr;Мацујама;Matsuyama
+uk;Мацуяма;Matsuyama
+he;מצויאמה;Matsuyama
+ka;ფუკაურა;Fukaura
+uk;Фукаура;Fukaura
+mzn;یوزاوا، آکیتا;Yuzawa
+ka;იონეძავა;Yonezawa
+mzn;یونه‌زاوا، یاماگاتا;Yonezawa
+uk;Йонедзава;Yonezawa
+mzn;یاچیماتا، چیبا;Yachimata
+uk;Ятімата;Yachimata
+mzn;اوشیکو، ایباراکی;Ushiku
+uk;Усіку;Ushiku
+be;Цукуба;Tsukuba
+bg;Цукуба;Tsukuba
+cs;Cukuba;Tsukuba
+mzn;تسوکوبا، ایباراکی;Tsukuba
+sr;Цукуба;Tsukuba
+uk;Цукуба;Tsukuba
+mzn;توریده، ایباراکی;Toride
+sr;Ториде;Toride
+uk;Торіде;Toride
+lt;Tonas;Tōno
+mzn;تونو، ایواته;Tōno
+uk;Тоно;Tōno
+mzn;توگانه، چیبا;Tōgane
+uk;Тоґане;Tōgane
+mzn;تاکاهاگی، ایباراکی;Takahagi
+uk;Такахаґі;Takahagi
+mzn;شیروی، چیبا;Shiroi
+uk;Сірой;Shiroi
+sr;Шинђо;Shinjō
+mzn;ساکورا، چیبا;Sakura
+sr;Сакура;Sakura
+uk;Сакура;Sakura
+mzn;ساگائه، یاماگاتا;Sagae
+uk;Саґае;Sagae
+mzn;ریوگاساکی، ایباراکی;Ryūgasaki
+uk;Рюґасакі;Ryūgasaki
+mzn;اوتاوارا، توچیگی;Ōtawara
+uk;Отавара;Ōtawara
+uk;Отакі;Ōtaki
+lt;Ofunatas;Ōfunato
+mzn;اوفوناتو، ایواته;Ōfunato
+uk;Офунато;Ōfunato
+mzn;اوبانازاوا، یاماگاتا;Obanazawa
+uk;Обанадзава;Obanazawa
+mzn;ناریتا، چیبا;Narita
+sr;Нарита;Narita
+uk;Наріта;Narita
+mzn;ناگای، یاماگاتا;Nagai
+uk;Наґай;Nagai
+mzn;موتومیا، فوکوشیما;Motomiya
+uk;Мотомія;Motomiya
+mzn;موریا، ایباراکی;Moriya
+uk;Морія;Moriya
+bg;Мориока;Morioka
+he;מוריאוקה;Morioka
+mzn;موریوکا، ایواته;Morioka
+sr;Мориока;Morioka
+uk;Моріока;Morioka
+mzn;موکا، توچیگی;Mooka
+uk;Моока;Mooka
+mzn;موبارا، چیبا;Mobara
+uk;Мобара;Mobara
+lt;Mijakas;Miyako
+mzn;میاکو، ایواته;Miyako
+uk;Міяко;Miyako
+bg;Корияма;Kōriyama
+mzn;کورییاما، فوکوشیما;Kōriyama
+sr;Коријама;Kōriyama
+uk;Коріяма;Kōriyama
+lt;Kitakamis;Kitakami
+mzn;کیتاکامی، ایواته;Kitakami
+uk;Кітакамі;Kitakami
+mzn;کیتاایباراکی، ایباراکی;Kitaibaraki
+uk;Кіта-Ібаракі;Kitaibaraki
+bg;Кесенума;Kesennuma
+mzn;کسن‌نوما، میاگی;Kesennuma
+uk;Кесен-Нума;Kesennuma
+mzn;کاتوسورا، چیبا;Katsuura
+uk;Кацуура;Katsuura
+mzn;کاساما، ایباراکی;Kasama
+uk;Касама;Kasama
+mzn;کامینویاما، یاماگاتا;Kaminoyama
+uk;Камінояма;Kaminoyama
+cs;Kamaiši;Kamaishi
+lt;Kamaišis;Kamaishi
+mzn;کاماایشی، ایواته;Kamaishi
+uk;Камаїсі;Kamaishi
+mzn;کاکودا، میاگی;Kakuda
+uk;Какуда;Kakuda
+bg;Иваки;Iwaki
+uk;Івакі;Iwaki
+mzn;ایواکی، فوکوشیما;Iwaki
+sr;Иваки;Iwaki
+uk;Іваїдзумі;Iwaizumi
+mzn;ایتاکو، ایباراکی;Itako
+uk;Ітако;Itako
+mzn;ایشی‌اوکا، ایباراکی;Ishioka
+uk;Ісіока;Ishioka
+mzn;ایشینوماکی، میاگی;Ishinomaki
+sr;Ишиномаки;Ishinomaki
+uk;Ісіномакі;Ishinomaki
+lt;Ičinosekis;Ichinoseki
+mzn;ایچینوسکی، ایواته;Ichinoseki
+sr;Ићиносеки;Ichinoseki
+uk;Ітіносекі;Ichinoseki
+bg;Ичихара;Ichihara
+ka;იტიჰარა;Ichihara
+mzn;ایچیهارا، چیبا;Ichihara
+sr;Ичихара;Ichihara
+uk;Ітіхара;Ichihara
+mzn;هوکوتا، ایباراکی;Hokota
+uk;Хокота;Hokota
+ka;ჰიტატი;Hitachi
+mzn;هیتاچی، ایباراکی;Hitachi
+sr;Хитачи;Hitachi
+uk;Хітаті;Hitachi
+mzn;هیگاشینه، یاماگاتا;Higashine
+uk;Хіґасіне;Higashine
+lt;Hanamakis;Hanamaki
+mzn;هاناماکی، ایواته;Hanamaki
+sr;Ханамаки;Hanamaki
+uk;Ханамакі;Hanamaki
+cs;Čiba;Chiba
+sk;Čiba;Chiba
+sr;Ћиба;Chiba
+mzn;آساهی، چیبا;Asahi
+uk;Асахі;Asahi
+sr;Абико;Abiko
+uk;Абіко;Abiko
+ka;აბიკო;Abiko
+mzn;یوباری، هوکایدو;Yūbari
+uk;Юбарі;Yūbari
+hu;Vakkanai;Wakkanai
+be;Ваканай;Wakkanai
+mzn;واکانای، هوکایدو;Wakkanai
+uk;Вакканай;Wakkanai
+az;Vakkanai;Wakkanai
+az;Utaşinai;Utashinai
+mzn;اوتاشینای، هوکایدو;Utashinai
+uk;Утасінай;Utashinai
+mzn;توماکومای، هوکایدو;Tomakomai
+sr;Томакомај;Tomakomai
+uk;Томакомай;Tomakomai
+ka;მუცუ;Mutsu
+lt;Mucu;Mutsu
+mzn;موتسو، آئوموری;Mutsu
+uk;Муцу;Mutsu
+az;Sunaqava;Sunagawa
+mzn;سوناگاوا، هوکایدو;Sunagawa
+uk;Сунаґава;Sunagawa
+sr;Шибећа;Shibecha
+ka;საპორო;Sapporo
+lt;Saporas;Sapporo
+sl;Saporo;Sapporo
+sr;Сапоро;Sapporo
+ba;Саппоро;Sapporo
+be;Сапара;Sapporo
+bg;Сапоро;Sapporo
+ce;Саппоро;Sapporo
+el;Σαππόρο;Sapporo
+he;סאפורו;Sapporo
+hu;Szapporo;Sapporo
+hy;Սապորո;Sapporo
+lv;Saporo;Sapporo
+mzn;ساپورو;Sapporo
+os;Саппоро;Sapporo
+sah;Саппоро;Sapporo
+uk;Саппоро;Sapporo
+mzn;روموی، هوکایدو;Rumoi
+uk;Румой;Rumoi
+bg;Отару;Otaru
+mzn;اوتارو، هوکایدو;Otaru
+sr;Отару;Otaru
+uk;Отару;Otaru
+mzn;اوداته، آکیتا;Ōdate
+uk;Одате;Ōdate
+mzn;اوبیهیرو، هوکایدو;Obihiro
+sr;Обихиро;Obihiro
+uk;Обіхіро;Obihiro
+mzn;نوبوریبتسو، هوکایدو;Noboribetsu
+uk;Ноборібецу;Noboribetsu
+lt;Nemuras;Nemuro
+mzn;نمورو، هوکایدو;Nemuro
+uk;Немуро;Nemuro
+mzn;نایورو، هوکایدو;Nayoro
+uk;Найоро;Nayoro
+mzn;موروران، هوکایدو;Muroran
+uk;Муроран;Muroran
+ka;მისავა;Misawa
+mzn;میساوا، آئوموری;Misawa
+uk;Місава;Misawa
+sr;Куширо;Kushiro
+cs;Kuširo;Kushiro
+lt;Kuširas;Kushiro
+mzn;کوشیرو، هوکایدو;Kushiro
+uk;Кусіро;Kushiro
+az;Kuşiro;Kushiro
+he;קושירו;Kushiro
+ro;Kushiro, Hokkaidō;Kushiro
+ka;კუროისი;Kuroishi
+mzn;کوروایشی، آئوموری;Kuroishi
+uk;Куроїсі;Kuroishi
+sr;Куђи;Kuji
+lt;Kitamis;Kitami
+mzn;کیتامی، هوکایدو;Kitami
+sr;Китами;Kitami
+uk;Кітамі;Kitami
+az;İvamizava;Iwamizawa
+mzn;ایوامیزاوا، هوکایدو;Iwamizawa
+uk;Івамідзава;Iwamizawa
+az;İşikari;Ishikari
+mzn;ایشیکاری، هوکایدو;Ishikari
+uk;Ісікарі;Ishikari
+az;Kitahiroşima;Kitahiroshima
+mzn;کیتاهیروشیما، هوکایدو;Kitahiroshima
+uk;Кітахіросіма;Kitahiroshima
+ka;ჰიროსაკი;Hirosaki
+mzn;هیروزاکی، آئوموری;Hirosaki
+uk;Хіросакі;Hirosaki
+sr;Хиросаки;Hirosaki
+hu;Hiroszaki;Hirosaki
+mzn;کازونو، آکیتا;Hanawa
+uk;Кадзуно;Hanawa
+sr;Хакодате;Hakodate
+bg;Хакодате;Hakodate
+mzn;هاکوداته، هوکایدو;Hakodate
+uk;Хакодате;Hakodate
+he;הקודאטה;Hakodate
+ka;ჰაკოდატე;Hakodate
+sr;Хаћинохе;Hachinohe
+bg;Хачинохе;Hachinohe
+ka;ჰატინოჰე;Hachinohe
+mzn;هاچینوهه، آئوموری;Hachinohe
+uk;Хатінохе;Hachinohe
+sr;Хачинохе;Hachinohe
+cs;Hačinohe;Hachinohe
+mzn;فورانو، هوکایدو;Furano
+uk;Фурано;Furano
+az;Fukaqava;Fukagawa
+mzn;فوکاگاوا، هوکایدو;Fukagawa
+uk;Фукаґава;Fukagawa
+mzn;ابتسو، هوکایدو;Ebetsu
+sr;Ебецу;Ebetsu
+uk;Ебецу;Ebetsu
+az;Çitose;Chitose
+mzn;چیتوسه، هوکایدو;Chitose
+uk;Тітосе;Chitose
+mzn;بیبای، هوکایدو;Bibai
+uk;Бібай;Bibai
+az;Aşibetsu;Ashibetsu
+mzn;آشی‌بتسو، هوکایدو;Ashibetsu
+uk;Асібецу;Ashibetsu
+az;Asahikava;Asahikawa
+be;Асахікава;Asahikawa
+bg;Асахикава;Asahikawa
+lt;Asahikava;Asahikawa
+mzn;آساهیکاوا، هوکایدو;Asahikawa
+sr;Асахикава;Asahikawa
+uk;Асахікава;Asahikawa
+he;אסהיקאווה;Asahikawa
+uk;Акабіра;Akabira
+ka;აძიგასავა;Ajigasawa
+uk;Адзіґасава;Ajigasawa
+az;Abaşiri;Abashiri
+ka;აბასირი;Abashiri
+lt;Abaširis;Abashiri
+mzn;آباشیری، هوکایدو;Abashiri
+uk;Абасірі;Abashiri
+uk;Абашірі;Abashiri
+ka;გოსიოგავარა;Goshogawara
+mzn;گوشوگاوارا، آئوموری;Goshogawara
+uk;Ґосьоґавара;Goshogawara
+bg;Гошогавара;Goshogawara
+cs;Kója;Kōya
+uk;Коя;Kōya
+he;נאמבה;Namba
+ca;Nanba;Namba
+mzn;چیکوسی، ایباراکی;Chikusei
+sr;Чикусеј;Chikusei
+uk;Тікусей;Chikusei
+mzn;کاسومیگائورا، ایباراکی;Kasumigaura
+uk;Касуміґаура;Kasumigaura
+mzn;تسوکوبامیرای، ایباراکی;Tsukubamirai
+uk;Цукуба-Мірай;Tsukubamirai
+mzn;کامیسو، ایباراکی;Kamisu
+uk;Камісу;Kamisu
+mzn;ساکوراگاوا، ایباراکی;Sakuragawa
+uk;Сакураґава;Sakuragawa
+mzn;ایناشیکی، ایباراکی;Inashiki
+uk;Інасікі;Inashiki
+hy;Տիկումա;Chikuma
+mzn;چیکوما، ناگانو;Chikuma
+uk;Тікума;Chikuma
+mzn;مینامی‌آشیگارا، کاناگاوا;Minamiashigara
+uk;Мінамі-Асіґара;Minamiashigara
+pl;Minami-Ashigara;Minamiashigara
+mzn;تاکاشیما، شیگا;Takashima
+uk;Такасіма;Takashima
+mzn;کوکا، شیگا;Kōka
+uk;Кока;Kōka
+mzn;کاتسوراگی، نارا;Katsuragi
+uk;Кацураґі;Katsuragi
+mzn;کاشیبا، نارا;Kashiba
+uk;Касіба;Kashiba
+mzn;نانتو، تویاما;Nanto
+uk;Нанто;Nanto
+mzn;ابینا، کاناگاوا;Ebina
+sr;Ебина;Ebina
+uk;Ебіна;Ebina
+bg;Тама;Tama
+hy;Տամա;Tama
+mzn;تاما، توکیو;Tama
+sr;Тама;Tama
+uk;Тама;Tama
+hy;Մուսասիմուրայամա;Musashimurayama
+lt;Musašimurajama;Musashimurayama
+mzn;موساشی‌مورایاما، توکیو;Musashimurayama
+uk;Мусасі-Мураяма;Musashimurayama
+hy;Ակիսիմա;Akishima
+lt;Akišima;Akishima
+mzn;آکیشیما، توکیو;Akishima
+sr;Акишима;Akishima
+uk;Акісіма;Akishima
+hy;Համուրա;Hamura
+mzn;هامورا، توکیو;Hamura
+uk;Хамура;Hamura
+hy;Հիկասիյամատո;Higashiyamato
+lt;Higašijamatas;Higashiyamato
+mzn;هیگاشی‌یاماتو، توکیو;Higashiyamato
+uk;Хіґасі-Ямато;Higashiyamato
+bg;Мисато;Misato, Saitama
+mzn;میساتو، سایتاما;Misato, Saitama
+sr;Мисато;Misato, Saitama
+uk;Місато;Misato, Saitama
+bg;Ниидза;Niiza
+mzn;نی‌ایزا، سایتاما;Niiza
+sr;Низа;Niiza
+uk;Ніїдза;Niiza
+mzn;کاهوکو، ایشیکاوا;Kahoku
+uk;Кахоку;Kahoku
+mzn;سوزو، ایشیکاوا;Suzu
+uk;Судзу;Suzu
+mzn;ماتسوئورا، ناگازاکی;Matsuura
+uk;Мацуура;Matsuura
+cs;Ónodžó;Ōnojō
+hy;Օնոձյո;Ōnojō
+mzn;اونوجو، فوکوئوکا;Ōnojō
+uk;Оноджьо;Ōnojō
+mzn;کاسوگا، فوکوئوکا;Kasuga
+sr;Касуга;Kasuga
+uk;Касуґа;Kasuga
+mzn;اوروما، اوکیناوا;Uruma
+sr;Урума;Uruma
+uk;Урума;Uruma
+mzn;میدوری، گونما;Midori
+uk;Мідорі;Midori
+uk;Тарама;Tarama
+he;מיאקוגימה;Miyakojima
+mzn;میاکوجیما، اوکیناوا;Miyakojima
+uk;Міякоджіма;Miyakojima
+mzn;هیداکه، سایتاما;Hidaka
+uk;Хідака;Hidaka
+bg;Ирума;Iruma
+mzn;ایروما، سایتاما;Iruma
+sr;Ирума;Iruma
+uk;Ірума;Iruma
+mzn;سوسا، چیبا;Sōsa
+uk;Соса;Sōsa
+mzn;سان‌مو، چیبا;Sanmu
+uk;Самму;Sanmu
+mzn;تامورا، فوکوشیما;Tamura
+uk;Тамура;Tamura
+lt;Kinokava;Kinokawa
+mzn;کینوکاوا، واکایاما;Kinokawa
+uk;Кінокава;Kinokawa
+mzn;ناسوشیوبارا، توچیگی;Nasushiobara
+sr;Насушиобара;Nasushiobara
+uk;Насу-Сіобара;Nasushiobara
+mzn;شیموتسوکه، توچیگی;Shimotsuke
+uk;Сімоцуке;Shimotsuke
+mzn;ناسوکاراسویاما، توچیگی;Nasukarasuyama
+uk;Насу-Карасуяма;Nasukarasuyama
+hy;Կոմագենե;Komagane
+mzn;کوماگانه، ناگانو;Komagane
+uk;Комаґане;Komagane
+mzn;اینزای، چیبا;Inzai
+uk;Індзай;Inzai
+mzn;ایسومی، چیبا;Isumi
+uk;Ісумі;Isumi
+hy;Իսումի;Isumi
+mzn;یاشیو، چیبا;Yachiyo
+sr;Јачијо;Yachiyo
+uk;Ятійо;Yachiyo
+mzn;تومیساتو، چیبا;Tomisato
+uk;Томісато;Tomisato
+cs;Óšú;Ōshū
+lt;Ošiū;Ōshū
+mzn;اوشو، ایواته;Ōshū
+sr;Ошу;Ōshū
+uk;Осю;Ōshū
+cs;Hačimantai;Hachimantai
+lt;Hačimantajus;Hachimantai
+mzn;هاچیمانتای، ایواته;Hachimantai
+uk;Хатімантай;Hachimantai
+mzn;اوساکی، میاگی;Ōsaki
+sr;Осаки;Ōsaki
+uk;Осакі;Ōsaki
+lt;Idzu;Izu
+mzn;ایزو، شیزوئوکا;Izu
+uk;Ідзу;Izu
+mzn;سوسونو، شیزوئوکا;Susono
+uk;Сусоно;Susono
+mzn;اومائه‌زاکی، شیزوئوکا;Omaezaki
+uk;Омаедзакі;Omaezaki
+mzn;نیکاهو، آکیتا;Nikaho
+uk;Нікахо;Nikaho
+mzn;دایسن، آکیتا;Daisen
+uk;Дайсен;Daisen
+mzn;اوگا، آکیتا;Oga
+uk;Оґа;Oga
+hu;Jurihondzsó;Yurihonjō
+mzn;یوریهونجو، آکیتا;Yurihonjō
+uk;Юрі-Хондзьо;Yurihonjō
+sr;Јурихонђо;Yurihonjō
+ka;ცუგარუ;Tsugaru
+mzn;تسوگارو، آئوموری;Tsugaru
+uk;Цуґару;Tsugaru
+ka;ჰირაკავა;Hirakawa
+mzn;هیراکاوا، آئوموری;Hirakawa
+uk;Хіракава;Hirakawa
+ka;ტოვადა;Towada
+mzn;توادا، آئوموری;Towada
+uk;Товада;Towada
+mzn;نیسشین، آیچی;Nisshin
+uk;Ніссін;Nisshin
+mzn;چیتا، آیچی;Chita
+uk;Тіта;Chita
+hu;Aiszai;Aisai
+ka;აისაი;Aisai
+lt;Aisajus;Aisai
+mzn;آیسای، آیچی;Aisai
+uk;Айсай;Aisai
+az;Haşima;Hashima
+lt;Hašima;Hashima
+mzn;هاشیما، گیفو;Hashima
+uk;Хасіма;Hashima
+mzn;کانی، گیفو;Kani
+uk;Кані;Kani
+mzn;مینوکامو، گیفو;Minokamo
+uk;Міно-Камо;Minokamo
+mzn;موتوسو، گیفو;Motosu
+uk;Мотосу;Motosu
+mzn;گوجو، گیفو;Gujō
+uk;Ґудзьо;Gujō
+az;Gudzyo;Gujō
+mzn;انا، گیفو;Ena
+uk;Ена;Ena
+bg;Йоецу;Jōetsu
+mzn;جوئتسو، نیگاتا;Jōetsu
+sr;Ђоецу;Jōetsu
+uk;Дзьоецу;Jōetsu
+mzn;اوئونوما، نیگاتا;Uonuma
+uk;Уонума;Uonuma
+mzn;هابی‌کینو، اوساکا;Habikino
+sr;Хабикино;Habikino
+uk;Хабікіно;Habikino
+mzn;هوکوتو، هوکایدو;Hokuto
+uk;Хокуто;Hokuto
+hu;Fudzsikavagucsiko;Fujikawaguchiko
+hy;Ֆուձիկավագուտիկո;Fujikawaguchiko
+mk;Фуџикавагучико;Fujikawaguchiko
+uk;Фудзі-Каваґутіко;Fujikawaguchiko
+mzn;دازایفو، فوکوئوکا;Dazaifu
+uk;Дадзайфу;Dazaifu
+uk;Хакуба;Hakuba
+ka;ნაკანო;Nakano
+lt;Nakanas;Nakano
+uk;Район Накано;Nakano
+ha;萩野;Hagino

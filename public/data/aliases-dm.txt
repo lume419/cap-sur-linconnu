@@ -87,3 +87,145 @@ zh;巴塔卡;Bataka
 ru;Кейнфилд;Canefield
 zh;坎菲尔德;Canefield
 ja;ケインフィールド;Canefield
+el;Γούντφορντ Χιλ;Woodford Hill
+kk;Уэсли;Wesley
+ky;Уэсли;Wesley
+bn;ওয়েসলি;Wesley
+ur;وسلے;Wesley
+am;ዌስሊ;Wesley
+fa;وسلی;Wesley
+pa;ਵੇਸਲੀ;Wesley
+ps;ويسلي;Wesley
+tg;Уэсли;Wesley
+tt;Уэсли;Wesley
+kk;Суфриер;Soufrière
+ky;Суфриер;Soufrière
+bn;সোফ্রিয়ের;Soufrière
+ur;سوفریئر;Soufrière
+am;ሶፍሪየር;Soufrière
+az;Sufriye;Soufrière
+fa;سوفریر;Soufrière
+pa;ਸੋਫ੍ਰਿਯੇਰ;Soufrière
+ps;سوفرير;Soufrière
+tg;Суфриер;Soufrière
+tt;Суфриер;Soufrière
+el;Σαλισμπουρί;Salisbury
+lt;Solsberis;Salisbury
+fa;سالیسبوری;Salisbury
+ro;Barroui;Salisbury
+kk;Сент-Джозеф;Saint Joseph
+ky;Сент-Джозеф;Saint Joseph
+bn;সেন্ট জোসেফ;Saint Joseph
+ur;سینٹ جوزف;Saint Joseph
+am;ሴንት ጆሴፍ;Saint Joseph
+az;Sent Cosef;Saint Joseph
+fa;سن جوزف;Saint Joseph
+pa;ਸੰਤ ਜੋਸੇਫ;Saint Joseph
+ps;سینټ جوزف;Saint Joseph
+tg;Сент-Джозеф;Saint Joseph
+tt;Сент-Джозеф;Saint Joseph
+he;רוזו;Roseau
+lt;Rozo;Roseau
+el;Ροζό;Roseau
+fa;روسو;Roseau
+zh-TW;羅索;Roseau
+am;ሮዞ;Roseau
+pa;ਰੋਜ਼ੋ;Roseau
+hy;Ռոզո;Roseau
+os;Розо;Roseau
+ur;روسو;Roseau
+sr;Розо;Roseau
+ka;როზო;Roseau
+lv;Rozo;Roseau
+mk;Розо;Roseau
+mr;रुसाउ;Roseau
+th;โรโซ;Roseau
+uk;Розо;Roseau
+bo;རུ་ཟོ།;Roseau
+sah;Розо;Roseau
+be;Разо;Roseau
+bg;Розо;Roseau
+az;Rozo;Roseau
+ce;Розо;Roseau
+ky;Розо;Roseau
+ta;உறொசோ;Roseau
+uz;Rozo;Roseau
+vep;Rozo;Roseau
+kk;Розали;Rosalie
+ky;Розали;Rosalie
+bn;রোজালি;Rosalie
+ur;روزیلی;Rosalie
+am;ሮሳሊ;Rosalie
+az;Rozali;Rosalie
+fa;روزالی;Rosalie
+pa;ਰੋਜ਼ਾਲੀ;Rosalie
+ps;روزالي;Rosalie
+tg;Розали;Rosalie
+tt;Розали;Rosalie
+kk;Портсмут;Portsmouth
+ky;Портсмут;Portsmouth
+bn;পোর্টসমাউথ;Portsmouth
+ur;پورٹسماؤتھ;Portsmouth
+am;ፖርትስማውት;Portsmouth
+az;Portsmut;Portsmouth
+fa;پورتسموت;Portsmouth
+pa;ਪੋਰਟਸਮਾਊਥ;Portsmouth
+ps;پورتسموت;Portsmouth
+tg;Портсмут;Portsmouth
+tt;Портсмут;Portsmouth
+kk;Пон-Кассе;Pont Cassé
+ky;Пон-Кассе;Pont Cassé
+bn;পন্ট ক্যাসে;Pont Cassé
+ur;پونٹ کیس;Pont Cassé
+am;ፖንት ካሰ;Pont Cassé
+az;Pont Kasse;Pont Cassé
+fa;پن کاسه;Pont Cassé
+pa;ਪੋਂਟ ਕੈਸ;Pont Cassé
+ps;پونت کاسه;Pont Cassé
+tg;Пон-Кассе;Pont Cassé
+tt;Пон-Кассе;Pont Cassé
+kk;Пуэнт-Мишель;Pointe Michel
+ky;Пуэнт-Мишель;Pointe Michel
+bn;পয়েন্টে মিশেল;Pointe Michel
+ur;پوانٹے میشل;Pointe Michel
+am;ፖይንተ ሚቼል;Pointe Michel
+az;Poynt Mikel;Pointe Michel
+fa;پوانت میشل;Pointe Michel
+pa;ਪੋਏਂਟ ਮਿਸ਼ੇਲ;Pointe Michel
+ps;پوانته ميشل;Pointe Michel
+tg;Пуэнт-Мишель;Pointe Michel
+tt;Пуэнт-Мишель;Pointe Michel
+ga;Petite Savanne;Petite Savane
+ro;Petite Savanne;Petite Savane
+ca;Petite Savanne;Petite Savane
+el;Παι Μπους;Paix Bouche
+fa;په پوش;Paix Bouche
+bg;Махаут;Mahaut
+el;Μαώ;Mahaut
+lt;Mao;Mahaut
+el;Λωντά;Laudat
+el;Γκαλιόν;Galion
+el;Ντυμπλάν;Dublanc
+fa;دابلانک;Dublanc
+ur;ڈوبلانک;Dublanc
+kk;Колиго;Colihaut
+ky;Колиго;Colihaut
+bn;কোলিহাউট;Colihaut
+ur;کولیہاؤٹ;Colihaut
+am;ኮሊሃውት;Colihaut
+az;Koliho;Colihaut
+fa;کولیهاوت;Colihaut
+pa;ਕੋਲੀਹਾਉਟ;Colihaut
+ps;کولیهاوت;Colihaut
+tg;Колиго;Colihaut
+tt;Колиго;Colihaut
+kk;Берекуа;Berekua
+ky;Берекуа;Berekua
+bn;বেরেকুয়া;Berekua
+ur;بیریکوا;Berekua
+am;በረኩዋ;Berekua
+fa;بریکوا;Berekua
+pa;ਬੇਰੇਕੁਆ;Berekua
+ps;بيريكوا;Berekua
+tg;Берекуа;Berekua
+tt;Берекуа;Berekua

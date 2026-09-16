@@ -3,3 +3,18 @@ ko;킹스턴;Kingston
 ru;Кингстон;Kingston
 hi;किंग्स्टन;Kingston
 zh;金斯敦;Kingston
+az;Kinqston;Kingston
+be;Пасёлак Кінгстан;Kingston
+bg;Кингстън;Kingston
+fa;کینگستون;Kingston
+ka;კინგსტონი;Kingston
+lt;Kingstonas;Kingston
+lv;Kingstona;Kingston
+mk;Кингстон;Kingston
+nn;Kingston på Norfolkøya;Kingston
+sr;Кингстон;Kingston
+th;คิงส์ตัน;Kingston
+uk;Кінгстон;Kingston
+ur;کنگسٹن;Kingston
+ar;كينغستون;Kingston
+ta;கிங்சுடன்;Kingston

@@ -8,3 +8,17 @@ ko;로드타운;Road Town
 ru;Род-Таун;Road Town
 zh;罗德城;Road Town
 en;Nottingham;Nottingham Estate
+ur;سپینش ٹاؤن، برطانوی جزائر ورجن;Spanish Town
+he;רואוד טאון;Road Town
+az;Roud Taun;Road Town
+be;Род-Таўн;Road Town
+bg;Роуд Таун;Road Town
+el;Ρόουντ Τάουν;Road Town
+ka;როუდ-ტაუნი;Road Town
+lt;Rod Taunas;Road Town
+sr;Роуд Таун;Road Town
+uk;Род-Таун;Road Town
+ur;روڈ ٹاون;Road Town
+ce;Род-Таун;Road Town
+fa;رود تاون;Road Town
+ta;ரோடு டவுன்;Road Town

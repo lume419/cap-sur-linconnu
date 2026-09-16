@@ -783,3 +783,813 @@ en;Cheche;Sherat
 en;Ajagbene;Azagbene
 en;Ngalirde;Ngolirde
 en;Labisi;Asipa
+zh;宗盖鲁;Zungeru
+ja;ズンゲル;Zungeru
+ru;Зунгеру;Zungeru
+bg;Зунгеру;Zungeru
+he;זונגרו;Zungeru
+ru;Заря;Zaria
+ja;ザリア;Zaria
+ko;자리아;Zaria
+lt;Zarija;Zaria
+pa;ਜ਼ਾਰੀਆ;Zaria
+ru;Зариа;Zaria
+zh;扎里亚;Zaria
+ur;زداوا;Zadawa
+ru;Йола;Yola
+fa;یولا، نیجریه;Yola
+ja;ヨラ;Yola
+ko;욜라;Yola
+uk;Йола;Yola
+ur;یولا، نائجیریا;Yola
+zh;約拉;Yola
+kk;Йола;Yola
+ky;Йола;Yola
+hi;योला;Yola
+bn;ইয়োলা;Yola
+pa;ਯੋਲਾ;Yola
+ps;یولا;Yola
+tg;Йола;Yola
+tt;Йола;Yola
+ru;Йенагоа;Yenagoa
+kk;Йенагоа;Yenagoa
+ky;Йенагоа;Yenagoa
+hi;येनागोआ;Yenagoa
+bn;ইয়েনাগোয়া;Yenagoa
+ur;یناگوا;Yenagoa
+az;Yenaqoa;Yenagoa
+fa;یناگوا;Yenagoa
+ja;イェナゴア;Yenagoa
+pa;ਯੇਨਾਗੋਆ;Yenagoa
+ps;یناګوا;Yenagoa
+tg;Йенагоа;Yenagoa
+tt;Йенагоа;Yenagoa
+ru;Варри;Warri
+ce;Варри;Warri
+fa;واری;Warri
+ja;ワリ;Warri
+ko;와리;Warri
+ky;Bаppи;Warri
+zh;瓦里;Warri
+ru;Уйо;Uyo
+kk;Уйо;Uyo
+ky;Уйо;Uyo
+hi;उयो;Uyo
+bn;উয়ো;Uyo
+ur;یوو;Uyo
+az;Uyо;Uyo
+fa;ایو;Uyo
+ja;ウヨ;Uyo
+pa;ਯੂਯੋ;Uyo
+ps;اویو;Uyo
+tg;Uyо;Uyo
+tt;Уйо;Uyo
+ru;Уроми;Uromi
+bg;Уроми;Uromi
+zh;乌罗米;Uromi
+ja;ウムディケ;Umudike
+ko;우무아히아;Umuahia
+uk;Умуахія;Umuahia
+ur;اومواہیا;Umuahia
+ru;Умуахия;Umuahia
+zh;乌穆阿希亚;Umuahia
+kk;Умуахиа;Umuahia
+ky;Умуахиа;Umuahia
+hi;उमुआहिया;Umuahia
+bn;উমুআহিয়া;Umuahia
+fa;اموآهیا;Umuahia
+ja;ウムアヒア;Umuahia
+pa;ਉਮੁਆਹੀਆ;Umuahia
+ps;اموهيا;Umuahia
+tg;Умуахиа;Umuahia
+tt;Умуахиа;Umuahia
+ru;Уготон;Ughoton
+uk;Уготон;Ughoton
+ru;Угеп;Ugep
+ja;ウボミリ;Ubomiri
+ru;Сурулере;Surulere
+ru;Абуджа;Suleja
+mk;Сокото;Sokoto
+af;Sokoto stad;Sokoto
+ja;ソコト;Sokoto
+ka;სოკოტო;Sokoto
+ko;소코토;Sokoto
+ru;Сокото;Sokoto
+zh;索科托;Sokoto
+lt;Sokotas;Sokoto
+uk;Сокото;Sokoto
+kk;Сокото;Sokoto
+ky;Сокото;Sokoto
+hi;सोकोटो;Sokoto
+bn;সোকোটো;Sokoto
+ur;سوکوٹو;Sokoto
+fa;سوکوتو;Sokoto
+pa;ਸੋਕੋਟੋ;Sokoto
+ps;سوکوتو;Sokoto
+tg;Сокото;Sokoto
+tt;Сокото;Sokoto
+ru;Шомолу;Shomolu
+ru;Саки;Saki
+ru;Шагаму;Shagamu
+ru;Сапеле;Sapele
+ru;Саминака;Saminaka
+ja;ポートハーコート;Port Harcourt
+mk;Порт Харкурт;Port Harcourt
+lt;Port Harkortas;Port Harcourt
+ko;포트하커트;Port Harcourt
+bg;Порт Харкурт;Port Harcourt
+be;Порт-Харкорт;Port Harcourt
+uk;Порт-Харкорт;Port Harcourt
+ru;Порт-Харкорт;Port Harcourt
+zh;哈科特港;Port Harcourt
+he;פורט הרקורט;Port Harcourt
+kk;Порт-Харкорт;Port Harcourt
+uz;Port Xarcourt;Port Harcourt
+ky;Порт-Харкорт;Port Harcourt
+hi;पोर्ट हारकोर्ट;Port Harcourt
+bn;পোর্ট হারকোর্ট;Port Harcourt
+ur;پورٹ ہارکورٹ;Port Harcourt
+az;Port Harkurt;Port Harcourt
+fa;پورت هاركورت;Port Harcourt
+pa;ਪੋਰਟ ਹਾਰਕੋਰਟ;Port Harcourt
+ps;پورت هاركورت;Port Harcourt
+tg;Порт-Харкорт;Port Harcourt
+tt;Порт-Харкорт;Port Harcourt
+ru;Пиндига;Pindiga
+ru;Ойо;Oyo
+ru;Ово;Owo
+ru;Оверри;Owerri
+sr;Овери;Owerri
+zh;奧韋里;Owerri
+ko;오웨리;Owerri
+ur;اوویری;Owerri
+kk;Оверри;Owerri
+ky;Оверри;Owerri
+hi;ओवेरी;Owerri
+bn;ওয়েরি;Owerri
+fa;اوری;Owerri
+ja;オウェリ;Owerri
+pa;ਓਵੇਰੀ;Owerri
+ps;اویری;Owerri
+tg;Оверри;Owerri
+tt;Оверри;Owerri
+ru;Ота;Ota
+pl;Oshogbo;Osogbo
+ru;Осогбо;Osogbo
+kk;Осогбо;Osogbo
+ky;Осогбо;Osogbo
+hi;ओसोग्बो;Osogbo
+bn;ওসোগবো;Osogbo
+ur;اوسوگبو;Osogbo
+fa;اسوگبو;Osogbo
+ja;オソグボ;Osogbo
+pa;ਓਸੋਗਬੋ;Osogbo
+ps;اسوګبو;Osogbo
+tg;Осогбо;Osogbo
+tt;Осогбо;Osogbo
+ru;Ошоди;Oshodi
+bg;Ородо;Orodo
+ru;Ородо;Orodo
+ru;Онича;Onitsha
+bg;Онитша;Onitsha
+ja;オニチャ;Onitsha
+ko;오니차;Onitsha
+uk;Оніча;Onitsha
+zh;奧尼查;Onitsha
+ru;Ондо;Ondo
+el;Ολοϊμπίρι;Oloibiri
+ru;Окрика;Okrika
+bg;Окпогхо;Okpogho
+ru;Окигуе;Okigwe
+ru;Окене;Okene
+ru;Огваши-Уку;Ogwashi-Uku
+ru;Огбомошо;Ogbomoso
+ru;Оффа;Offa
+ru;Ода;Ode
+ru;Нсукка;Nsukka
+ru;Ннюви;Nnewi
+bg;Нкпор;Nkpor
+ru;Нкпор;Nkpor
+ru;Нгуру;Nguru
+ru;Нассарава;Nasarawa
+ru;Мушин (Нигерия);Mushin
+ru;Муби;Mubi
+ru;Модакеке;Modakeke
+ru;Минна;Minna
+ko;민나;Minna
+uk;Мінна;Minna
+ur;مینا، نائجیریا;Minna
+zh;明納;Minna
+kk;Минна;Minna
+ky;Минна;Minna
+hi;मिन्ना;Minna
+bn;মিন্না;Minna
+fa;مینا;Minna
+ja;ミンナ;Minna
+pa;ਮਿੰਨਾ;Minna
+ps;منا;Minna
+tg;Минна;Minna
+tt;Минна;Minna
+ru;Макурди;Makurdi
+ko;마쿠르디;Makurdi
+uk;Макурді;Makurdi
+ur;ماکوردی;Makurdi
+zh;马库尔迪;Makurdi
+kk;Макурди;Makurdi
+ky;Макурди;Makurdi
+hi;मकुर्दी;Makurdi
+bn;মাকুর্দি;Makurdi
+fa;ماکوردی;Makurdi
+ja;マクルディ;Makurdi
+pa;ਮਕੁਰਦੀ;Makurdi
+ps;ماکوردي;Makurdi
+tg;Макурди;Makurdi
+tt;Макурди;Makurdi
+lt;Maiduguris;Maiduguri
+mk;Маидугури;Maiduguri
+bg;Майдугури;Maiduguri
+ce;Майдугури;Maiduguri
+he;מידוגורי;Maiduguri
+ja;マイドゥグリ;Maiduguri
+ko;마이두구리;Maiduguri
+uk;Майдугурі;Maiduguri
+ru;Майдугури;Maiduguri
+zh;邁杜古里;Maiduguri
+kk;Майдугури;Maiduguri
+ky;Майдугури;Maiduguri
+hi;मैदुगुरी;Maiduguri
+bn;মাইডুগুরি;Maiduguri
+ur;مائیدوگری;Maiduguri
+fa;مایدوگوری;Maiduguri
+pa;ਮੈਦੁਗੁਰੀ;Maiduguri
+ps;مايدوګري;Maiduguri
+tg;Майдугури;Maiduguri
+tt;Майдугури;Maiduguri
+ru;Локоджа;Lokoja
+kk;Локоджа;Lokoja
+ky;Локоджа;Lokoja
+hi;लोकोजा;Lokoja
+bn;লোকোজা;Lokoja
+ur;لوکوجا;Lokoja
+fa;لوکوجا;Lokoja
+ja;ロコジャ;Lokoja
+pa;ਲੋਕੋਜਾ;Lokoja
+ps;لوکوجا;Lokoja
+tg;Локоджа;Lokoja
+tt;Локоджа;Lokoja
+ru;Лера;Lere
+ur;لامینگا;Laminga
+hi;लागोस;Lagos
+ja;ラゴス;Lagos
+ko;라고스;Lagos
+lt;Lagosas;Lagos
+lv;Lagosa;Lagos
+th;เลกอส;Lagos
+zh;拉哥斯;Lagos
+he;לאגוס;Lagos
+mk;Лагос;Lagos
+bg;Лагос;Lagos
+ru;Лагос;Lagos
+fa;لاگوس;Lagos
+te;లాగోస్;Lagos
+rue;Лаґос;Lagos
+az;Laqos;Lagos
+my;လေးဂို့စ်မြို့;Lagos
+ta;லாகோஸ்;Lagos
+ka;ლაგოსი;Lagos
+hy;Լագոս;Lagos
+mr;लागोस;Lagos
+bn;লেগোস;Lagos
+ml;ലാഗോസ്;Lagos
+sr;Лагос;Lagos
+be;Лагас;Lagos
+mhr;Лагос;Lagos
+el;Λάγος;Lagos
+gu;લાગોસ;Lagos
+ur;لاگوس;Lagos
+tg;Лагос;Lagos
+uk;Лагос;Lagos
+sah;Лагос;Lagos
+kk;Лагос;Lagos
+kn;ಲಾಗೊಸ್;Lagos
+ba;Лагос;Lagos
+sgs;Laguosos;Lagos
+ce;Лагос;Lagos
+ckb;لاگۆس;Lagos
+pa;ਲਾਗੋਸ;Lagos
+yue;拉哥斯;Lagos
+bxr;Лагос;Lagos
+ky;Лагос шаары;Lagos
+mzn;لاگوس;Lagos
+ko;라구스;Lagos
+ru;Лафиаги;Lafiagi
+ru;Лафия;Lafia
+kk;Лафия;Lafia
+ky;Лафия;Lafia
+hi;लाफिया;Lafia
+bn;লাফিয়া;Lafia
+ur;لافیا;Lafia
+fa;لافیا;Lafia
+ja;ラフィア;Lafia
+pa;ਲਾਫੀਆ;Lafia
+ps;لافيا;Lafia
+tg;Лафия;Lafia
+tt;Лафия;Lafia
+ru;Киси;Kisi
+ru;Катсина;Katsina
+bg;Катсина;Katsina
+ko;카치나;Katsina
+lt;Kacina;Katsina
+zh;卡齐纳;Katsina
+kk;Катсина;Katsina
+ky;Катсина;Katsina
+hi;कत्सीना;Katsina
+bn;কাতসিনা;Katsina
+ur;کتسینا;Katsina
+fa;کتسینا;Katsina
+ja;カツィーナ;Katsina
+pa;ਕਤਸੀਨਾ;Katsina
+ps;کتسينا;Katsina
+tg;Катсина;Katsina
+tt;Катсина;Katsina
+ja;カノ;Kano
+lt;Kanas;Kano
+mk;Кано;Kano
+nn;Byen Kano;Kano
+ru;Кано;Kano
+be;Кано;Kano
+he;קנו;Kano
+sr;Кано;Kano
+bg;Кано;Kano
+ko;카노;Kano
+uk;Кано;Kano
+zh;卡諾;Kano
+ce;Кано;Kano
+pa;ਕਾਨੋ;Kano
+fa;کانو، نیجریه;Kano
+ky;Кано;Kano
+mr;कानो;Kano
+ta;கனோ;Kano
+ur;کانو;Kano
+kk;Кано;Kano
+hi;कानो;Kano
+bn;কানো;Kano
+ps;کانو;Kano
+tg;Кано;Kano
+tt;Кано;Kano
+ru;Камба;Kamba
+zh;卡戈羅;Kagoro
+ru;Кадуна;Kaduna
+be;Кадуна;Kaduna
+bg;Кадуна;Kaduna
+he;קדונה;Kaduna
+ja;カドゥナ;Kaduna
+ko;카두나;Kaduna
+pa;ਕਾਦੂਨਾ;Kaduna
+zh;卡杜納;Kaduna
+fa;کادونا;Kaduna
+ky;Кадуна;Kaduna
+uk;Кадуна;Kaduna
+ur;کادونا;Kaduna
+vep;Kadun;Kaduna
+kk;Кадуна;Kaduna
+hi;कादुना;Kaduna
+bn;কাডুনা;Kaduna
+ps;کادونا;Kaduna
+tg;Кадуна;Kaduna
+tt;Кадуна;Kaduna
+ru;Йос;Jos
+ja;ジョス;Jos
+sr;Џос;Jos
+uk;Джос;Jos
+ko;조스;Jos
+pl;Dżos;Jos
+ru;Джос;Jos
+zh;乔斯;Jos
+ur;جوس، نائجیریا;Jos
+kk;Джос;Jos
+ky;Джос;Jos
+hi;जोस;Jos
+bn;জস;Jos
+az;Cos;Jos
+fa;جاس;Jos
+pa;ਜੋਸ;Jos
+ps;جوس;Jos
+tg;Джос;Jos
+tt;Джос;Jos
+ru;Джимета;Jimeta
+ru;Джалинго;Jalingo
+kk;Джалинго;Jalingo
+ky;Джалинго;Jalingo
+hi;जालिंगो;Jalingo
+bn;জালিঙ্গো;Jalingo
+ur;جالنگو;Jalingo
+fa;جالینگو;Jalingo
+ja;ジャリンゴ;Jalingo
+pa;ਜਾਲਿੰਗੋ;Jalingo
+ps;جالنګو;Jalingo
+tg;Джалинго;Jalingo
+tt;Джалинго;Jalingo
+ru;Иво;Iwo
+ru;Исейин;Iseyin
+ru;Исе-Екити;Ise-Ekiti
+ru;Ирьюе;Irewe
+ru;Иниса;Inisa
+ru;Имо-Ривер;Imo River
+be;Ілорын;Ilorin
+he;אילורין;Ilorin
+ja;イロリン;Ilorin
+ko;일로린;Ilorin
+lt;Ilorinas;Ilorin
+ur;الورن;Ilorin
+ru;Илорин;Ilorin
+zh;伊洛林;Ilorin
+kk;Илорин;Ilorin
+ky;Илорин;Ilorin
+hi;इलोरिन;Ilorin
+bn;ইলোরিন;Ilorin
+fa;الورین;Ilorin
+pa;ਇਲੋਰਿਨ;Ilorin
+ps;الورین;Ilorin
+tg;Илорин;Ilorin
+tt;Илорин;Ilorin
+ru;Илобу;Ilobu
+ru;Илло;Illo
+zh;伊洛;Illo
+ja;イラ;Illah
+zh;安拉;Illah
+ru;Илеша;Ilesa
+ru;Ила-Орангун;Ila Orangun
+ru;Икот Екпене;Ikot Ekpene
+ru;Икирун;Ikirun
+ru;Икире;Ikire
+ru;Икере-Екити;Ikere-Ekiti
+ru;Икеджа;Ikeja
+kk;Икеджа;Ikeja
+ky;Икеджа;Ikeja
+hi;इकेजा;Ikeja
+bn;ইকেজা;Ikeja
+ur;اکیجا;Ikeja
+fa;اکجا;Ikeja
+ja;イケジャ;Ikeja
+pa;ਇਕੇਜਾ;Ikeja
+ps;اکیجا;Ikeja
+tg;Икеджа;Ikeja
+tt;Икеджа;Ikeja
+ru;Икаре;Ikare
+ru;Ийеро-Екити;Ijero-Ekiti
+ru;Иджебу-Оде;Ijebu Ode
+ru;Иджебу-Игбо;Ijebu-Igbo
+ja;イヒアグワ;Ihiagwa
+ru;Игбо-Укву;Igbo-Ukwu
+ja;イボ＝ウクゥ;Igbo-Ukwu
+ru;Игбохо;Igboho
+ru;Ифе;Ile-Ife
+ru;Ибадан;Ibadan
+ja;イバダン;Ibadan
+mk;Ибадан;Ibadan
+lv;Ibadana;Ibadan
+lt;Ibadanas;Ibadan
+ur;ابادان;Ibadan
+fa;ابادان;Ibadan
+he;איבדאן;Ibadan
+bg;Ибадан;Ibadan
+uk;Ібадан;Ibadan
+sr;Ибадан;Ibadan
+ko;이바단;Ibadan
+be;Ібадан;Ibadan
+zh;伊巴丹;Ibadan
+ce;Ибадан;Ibadan
+pa;ਇਬਾਦਾਨ;Ibadan
+ky;Ибадан шаары;Ibadan
+el;Ιμπαντάν;Ibadan
+hy;Իբադան;Ibadan
+kk;Ибадан;Ibadan
+hi;इबादान;Ibadan
+bn;ইবাদান;Ibadan
+ps;ابادان;Ibadan
+tg;Ибадан;Ibadan
+tt;Ибадан;Ibadan
+ru;Хадеджия;Hadejia
+ru;Гусау;Gusau
+kk;Гусау;Gusau
+ky;Гусау;Gusau
+hi;गुसाऊ;Gusau
+bn;গুসাউ;Gusau
+ur;گوسائو;Gusau
+fa;گوسائو;Gusau
+ja;グサウ;Gusau
+pa;ਗੁਸਾਉ;Gusau
+ps;ګوساو;Gusau
+tg;Гусау;Gusau
+tt;Гусау;Gusau
+ru;Кунми;Gummi
+ru;Гомбе;Gombe
+kk;Гомбе;Gombe
+ky;Гомбе;Gombe
+hi;गोम्बे;Gombe
+bn;গোম্বে;Gombe
+ur;گومبے;Gombe
+fa;گومبه;Gombe
+ja;ゴンベ;Gombe
+pa;ਗੋਮਬੇ;Gombe
+ps;ګومبی;Gombe
+tg;Гомбе;Gombe
+tt;Гомбе;Gombe
+ru;Гбонган;Gbongan
+ru;Гбоко;Gboko
+ru;Гашуа;Gashua
+ru;Фунтуа;Funtua
+ru;Есук Орон;Esuk Oron
+ru;Эпе;Epe
+bg;Енугу;Enugu
+ko;에누구;Enugu
+ja;エヌグ;Enugu
+ru;Энугу;Enugu
+zh;埃努古;Enugu
+ur;انوگو;Enugu
+kk;Энугу;Enugu
+ky;Энугу;Enugu
+hi;एनुगु;Enugu
+bn;এনুগু;Enugu
+fa;انوگو;Enugu
+pa;ਏਨੁਗੁ;Enugu
+ps;اینوګو;Enugu
+tg;Энугу;Enugu
+tt;Энугу;Enugu
+ru;Эджигбо;Ejigbo
+bg;Егбе;Egbe
+ru;Егбе;Egbe
+ru;Ефон-Алаае;Efon-Alaaye
+bg;Ефиум;Effium
+ru;Ефиум;Effium
+ru;Еде;Ede
+ru;Икороду;Ebute Ikorodu
+ru;Дутсе;Dutse
+kk;Дутсе;Dutse
+ky;Дутсе;Dutse
+hi;दुत्से;Dutse
+bn;দুত্সে;Dutse
+ur;ڈوتسے;Dutse
+fa;دوتسه;Dutse
+ja;ドゥツェ;Dutse
+pa;ਡੁਤਸੇ;Dutse
+ps;ډوتسې;Dutse
+tg;Дутсе;Dutse
+tt;Дутсе;Dutse
+bg;Дисина;Disina
+ru;Дисина;Disina
+ru;Даура;Daura
+ru;Даматуру;Damaturu
+kk;Даматуру;Damaturu
+ky;Даматуру;Damaturu
+hi;दामातुरु;Damaturu
+bn;দামাতুরু;Damaturu
+ur;داماتورو;Damaturu
+fa;داماتورو;Damaturu
+ja;ダマトゥル;Damaturu
+pa;ਦਾਮਾਤੁਰੁ;Damaturu
+ps;داماتورو;Damaturu
+tg;Даматуру;Damaturu
+tt;Даматуру;Damaturu
+ru;Калабар;Calabar
+bg;Калабар;Calabar
+lt;Kalabaras;Calabar
+zh;卡拉巴尔;Calabar
+ko;칼라바르;Calabar
+uk;Калабар;Calabar
+ur;کالابار;Calabar
+kk;Калабар;Calabar
+ky;Калабар;Calabar
+hi;कलाबार;Calabar
+bn;কালাবার;Calabar
+az;Kalabar;Calabar
+fa;کالابار;Calabar
+ja;カラバル;Calabar
+pa;ਕਲਾਬਾਰ;Calabar
+ps;کالابار;Calabar
+tg;Калабар;Calabar
+tt;Калабар;Calabar
+ru;Бугума;Buguma
+ru;Бирнин Кебби;Birnin Kebbi
+kk;Бирнин Кебби;Birnin Kebbi
+ky;Бирнин Кебби;Birnin Kebbi
+hi;बिरनिन केब्बी;Birnin Kebbi
+bn;বিরনিন কেব্বি;Birnin Kebbi
+ur;برنن کبی;Birnin Kebbi
+fa;بیرنین کبی;Birnin Kebbi
+ja;ビルニン・ケッビ;Birnin Kebbi
+pa;ਬਿਰਨਿਨ ਕੇਬੀ;Birnin Kebbi
+ps;برنن کبی;Birnin Kebbi
+tg;Бирнин Кебби;Birnin Kebbi
+tt;Бирнин Кебби;Birnin Kebbi
+ru;Бида;Bida
+pl;Benin;Benin City
+lt;Beninas;Benin City
+ru;Бенин-Сити;Benin City
+no;Benin by;Benin City
+af;Benin-stad;Benin City
+bg;Бенин;Benin City
+fa;بنین;Benin City
+ja;ベニンシティ;Benin City
+ko;베닌시티;Benin City
+mr;बेनिन सिटी;Benin City
+pa;ਬੇਨਿਨ ਸ਼ਹਿਰ;Benin City
+th;เบนินซิตี;Benin City
+vi;Thành phố Benin;Benin City
+zh;贝宁城;Benin City
+id;Kota Benin;Benin City
+is;Benínborg;Benin City
+uk;Бенін-Сіті;Benin City
+ur;بینن شہر;Benin City
+vep;Benin Siti;Benin City
+be;Бенін-Сіці;Benin City
+he;בנין סיטי;Benin City
+sr;Бенин Сити;Benin City
+kk;Бенин-Сити;Benin City
+ky;Бенин-Сити;Benin City
+hi;बेनिन सिटी;Benin City
+bn;বেনিন সিটি;Benin City
+az;Benin Şəhəri;Benin City
+ps;بنن ښار;Benin City
+tg;Шахри Бенин;Benin City
+tt;Бенин-Сити;Benin City
+pl;Bauczi;Bauchi
+ru;Баучи;Bauchi
+lt;Baučis;Bauchi
+zh;包奇;Bauchi
+kk;Бауши;Bauchi
+ky;Бауши;Bauchi
+hi;बाउची;Bauchi
+bn;বাউচি;Bauchi
+ur;باؤچی;Bauchi
+fa;باوچی;Bauchi
+ja;バウチ;Bauchi
+pa;ਬਾਉਚੀ;Bauchi
+ps;باوچی;Bauchi
+tg;Бауши;Bauchi
+tt;Бауши;Bauchi
+ru;Баро;Baro
+ru;Бама;Bama
+ru;Азаре;Azare
+lt;Avka;Awka
+ru;Авка;Awka
+zh;奧卡;Awka
+ko;아우카;Awka
+ur;اوکا;Awka
+kk;Авка;Awka
+tr;Avka;Awka
+uz;Avka;Awka
+ky;Авка;Awka
+hi;अवका;Awka
+bn;আওকা;Awka
+az;Avka;Awka
+fa;اوکا;Awka
+ja;アウカ;Awka
+pa;ਅਵਕਾ;Awka
+ps;اوکا;Awka
+tg;Авка;Awka
+tt;Авка;Awka
+ru;Атани;Atani
+ru;Асаба;Asaba
+kk;Асаба;Asaba
+ky;Асаба;Asaba
+hi;असाबा;Asaba
+bn;আসাবা;Asaba
+ur;اسابا;Asaba
+fa;اسابا;Asaba
+ja;アサバ;Asaba
+pa;ਅਸਾਬਾ;Asaba
+ps;اسابا;Asaba
+tg;Асаба;Asaba
+tt;Асаба;Asaba
+bg;Амаигбо;Amaigbo
+ja;アマイグボ;Amaigbo
+fa;امایگبو;Amaigbo
+ru;Амаигбо;Amaigbo
+ru;Алиаябиагба;Aliayabiagba
+ru;Аласиа;Alasia
+ru;Аквете;Akwete
+uk;Акуре;Akure
+ru;Акуре;Akure
+zh;阿庫雷;Akure
+ko;아쿠레;Akure
+ur;اکورے;Akure
+kk;Акуре;Akure
+ky;Акуре;Akure
+hi;अकुरे;Akure
+bn;আকুরে;Akure
+fa;اکوره;Akure
+ja;アクレ;Akure
+pa;ਅਕੁਰੇ;Akure
+ps;اکوره;Akure
+tg;Акуре;Akure
+tt;Акуре;Akure
+fa;اگولری;Aguleri
+ur;اگولری;Aguleri
+ru;Агеге;Agege
+ru;Агбор;Agbor
+hi;अडो-एकिती;Ado-Ekiti
+bn;আডো-একিতি;Ado-Ekiti
+ur;ادو-ایکتی;Ado-Ekiti
+fa;ادو اکیتی;Ado-Ekiti
+ja;アド・エキティ;Ado-Ekiti
+pa;ਅਡੋ-ਏਕਿਤੀ;Ado-Ekiti
+ps;ادو-ایکتی;Ado-Ekiti
+ru;Адо-Экити;Ado-Ekiti
+ru;Абуджа;Abuja
+he;אבוגה;Abuja
+ja;アブジャ;Abuja
+ko;아부자;Abuja
+lt;Abudža;Abuja
+os;Абуджа;Abuja
+pl;Abudża;Abuja
+uk;Абуджа;Abuja
+mk;Абуџа;Abuja
+el;Αμπούζα;Abuja
+bg;Абуджа;Abuja
+hy;Աբուջա;Abuja
+fa;آبوجا;Abuja
+lv;Abudža;Abuja
+ur;ابوجا;Abuja
+ckb;ئەبووجا;Abuja
+kk;Абуджа;Abuja
+or;ଅବୁଜା;Abuja
+ka;აბუჯა;Abuja
+cv;Абуджа;Abuja
+pa;ਅਬੁਜਾ;Abuja
+th;อาบูจา;Abuja
+ht;Abouja;Abuja
+bo;ཨ་པུ་ཅ།;Abuja
+bn;আবুজা;Abuja
+az;Abuca;Abuja
+mrj;Абуджа;Abuja
+udm;Абуджа;Abuja
+be;Абуджа;Abuja
+tg;Абуҷа;Abuja
+ta;அபுஜா;Abuja
+my;အဘူဂျာမြို့;Abuja
+mr;अबुजा;Abuja
+ml;അബുജ;Abuja
+sr;Абуџа;Abuja
+ky;Абужа;Abuja
+zh;阿布贾;Abuja
+sgs;Abodža;Abuja
+ce;Абуджа;Abuja
+hi;अबुजा;Abuja
+mn;Абужа;Abuja
+mzn;آبوجا;Abuja
+yue;阿布賈;Abuja
+nah;Abuya;Abuja
+ne;अबुजा;Abuja
+vep;Abudž;Abuja
+fa;ابیریبا;Abiriba
+zh;阿比里巴;Abiriba
+ru;Абеокута;Abeokuta
+he;אבאוקוטה;Abeokuta
+ja;アベオクタ;Abeokuta
+ko;아베오쿠타;Abeokuta
+sr;Абеокута;Abeokuta
+uk;Абеокута;Abeokuta
+zh;阿贝奥库塔;Abeokuta
+fa;ابوکاتا;Abeokuta
+kk;Абеокута;Abeokuta
+ur;ابیوکوتا;Abeokuta
+ky;Абеокута;Abeokuta
+hi;अबेओकुटा;Abeokuta
+bn;আবেওকুটা;Abeokuta
+pa;ਅਬੇਓਕੁਟਾ;Abeokuta
+ps;ابیوکوتا;Abeokuta
+tg;Абеокута;Abeokuta
+tt;Абеокута;Abeokuta
+zh;阿巴卡利基;Abakaliki
+ru;Абакалики;Abakaliki
+kk;Абакалики;Abakaliki
+ky;Абакалики;Abakaliki
+hi;अबाकलिकी;Abakaliki
+bn;আবাকালিকি;Abakaliki
+ur;ابکالکی;Abakaliki
+fa;ابکالیکی;Abakaliki
+ja;アバカリキ;Abakaliki
+pa;ਅਬਾਕਲਿਕੀ;Abakaliki
+ps;ابکالکی;Abakaliki
+tg;Абакалики;Abakaliki
+tt;Абакалики;Abakaliki
+ru;Аба;Aba
+zh;阿巴;Aba
+he;אבה;Aba
+hy;Աբա;Aba
+ja;アバ;Aba
+ka;აბა;Aba
+ko;아바;Aba
+nn;Aba i Nigeria;Aba
+uk;Аба;Aba
+ur;آبا;Aba
+fa;آبا، ابیا;Aba
+ru;Обаленде;Obalende
+ru;Айегунле;Ajegunle
+ru;Алимошо;Alimosho
+ru;Акоуонийо;Akowonjo
+ja;オバズ;Obazu
+ru;Лекки;Lekki
+ru;Кхакуама;Chakwama

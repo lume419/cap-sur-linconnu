@@ -144,3 +144,82 @@ pt;Mubarak al Kabir;Mubārak al Kabīr
 ar;مزارع العبدلي;Mazāri‘ al ‘Abdalī
 en;Al ‘Abdalī Farms;Mazāri‘ al ‘Abdalī
 en;Abdali;Mazāri‘ al ‘Abdalī
+kk;Хавалли;Ḩawallī
+uz;Havalli;Ḩawallī
+ky;Хавалли;Ḩawallī
+hi;हवल्ली;Ḩawallī
+bn;হাওয়ালি;Ḩawallī
+ur;ہاولی;Ḩawallī
+am;ሃዋሊ;Ḩawallī
+ja;ハワリ;Ḩawallī
+pa;ਹਾਵਲੀ;Ḩawallī
+ps;حولي;Ḩawallī
+tg;Ҳавалли;Ḩawallī
+tt;Хавалли;Ḩawallī
+fi;Kuwait;Kuwait City
+he;כווית סיטי;Kuwait City
+ja;クウェート市;Kuwait City
+ko;쿠웨이트;Kuwait City
+nn;Kuwait by;Kuwait City
+pl;Kuwejt;Kuwait City
+sk;Kuvajt;Kuwait City
+sv;Kuwait Stad;Kuwait City
+zh;科威特市;Kuwait City
+da;Kuwait;Kuwait City
+el;Πόλη του Κουβέιτ;Kuwait City
+id;Kota Kuwait;Kuwait City
+lt;Kuveitas;Kuwait City
+ro;Kuweit;Kuwait City
+th;คูเวตซิตี;Kuwait City
+ko;쿠웨이트시티;Kuwait City
+kk;Әл-Джахра;Al Jahrā’
+ky;Әл-Джахра;Al Jahrā’
+hi;अल जहरा;Al Jahrā’
+bn;আল জাহরা;Al Jahrā’
+ur;الجہرا;Al Jahrā’
+am;አል ጃህራ;Al Jahrā’
+ja;アルジャフラ;Al Jahrā’
+pa;ਅਲ ਜਾਹਰਾ;Al Jahrā’
+ps;الجهراء;Al Jahrā’
+tg;Әл-Јахра;Al Jahrā’
+tt;Әл-Джахра;Al Jahrā’
+kk;Әл-Фарваниә;Al Farwānīyah
+uz;Al Farvaniya;Al Farwānīyah
+ky;Әл-Фарваниә;Al Farwānīyah
+hi;अल फरवानिया;Al Farwānīyah
+bn;আল ফারওয়ানিয়াহ;Al Farwānīyah
+ur;الفروانیہ;Al Farwānīyah
+am;አል ፋርዋኒያ;Al Farwānīyah
+ja;アルファルワニーヤ;Al Farwānīyah
+pa;ਅਲ ਫਰਵਾਨੀਆ;Al Farwānīyah
+ps;الفروانية;Al Farwānīyah
+tg;Әл-Фарваниә;Al Farwānīyah
+tt;Әл-Фарваниә;Al Farwānīyah
+kk;Әл-Ахмади;Al Aḩmadī
+ky;Әл-Ахмади;Al Aḩmadī
+hi;अल अहमदी;Al Aḩmadī
+bn;আল আহমাদি;Al Aḩmadī
+ur;الاحمدی;Al Aḩmadī
+am;አል አህማዲ;Al Aḩmadī
+ja;アルアハマディ;Al Aḩmadī
+pa;ਅਲ ਅਹਮਦੀ;Al Aḩmadī
+ps;الأحمدي;Al Aḩmadī
+tg;Әл-Ахмади;Al Aḩmadī
+tt;Әл-Ахмади;Al Aḩmadī
+fi;Kuoleman moottoritie;Highway of Death
+hr;Autocesta smrti;Highway of Death
+ja;死のハイウェイ;Highway of Death
+lt;Mirties greitkelis;Highway of Death
+sr;Ауто-пут смрти;Highway of Death
+sv;Dödens motorväg;Highway of Death
+kk;Мубарак аль-Кабир;Mubārak al Kabīr
+ky;Мубарак аль-Кабир;Mubārak al Kabīr
+hi;मुबारक अल कबीर;Mubārak al Kabīr
+bn;মুবারক আল কাবির;Mubārak al Kabīr
+ur;مبارک الکبیر;Mubārak al Kabīr
+am;ሙባረክ አል ካቢር;Mubārak al Kabīr
+ja;ムバラク・アル・カビール;Mubārak al Kabīr
+pa;ਮੁਬਾਰਕ ਅਲ ਕਬੀਰ;Mubārak al Kabīr
+ps;مبارك الكبير;Mubārak al Kabīr
+tg;Мубарак аль-Кабир;Mubārak al Kabīr
+tt;Мубарак аль-Кабир;Mubārak al Kabīr

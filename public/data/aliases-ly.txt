@@ -295,3 +295,554 @@ he;קסר אבו האדי;Qasr Abu Hadi
 ar;تازربو;Tāzirbū
 ar;الرحيبات;Ar-Raḥaībāt
 ar;مسلاتة;Msalātah
+ber;ⵍⴱⵔⴷⵢⴰ;Al Bardīyah
+ja;メキリ;Mukhaylá
+fa;مخیلی;Mukhaylá
+pl;Al-Machili;Mukhaylá
+da;Mechili;Mukhaylá
+ca;Mechili;Mukhaylá
+ber;ⵍⵎⵅⵉⵍⵉ;Mukhaylá
+ber;ⵓⵎ ⵍⵔⵣⵎ;Umm ar Rizam
+fi;Tobruk;Tubruq
+no;Tobruch;Tubruq
+pl;Tobruk;Tubruq
+sv;Tobruk;Tubruq
+ja;トブルク;Tubruq
+sl;Tobruk;Tubruq
+id;Thubruq;Tubruq
+sr;Тобрук;Tubruq
+lt;Tubrukas;Tubruq
+uk;Тобрук;Tubruq
+bg;Тобрук;Tubruq
+ko;투브루크;Tubruq
+ka;ტობრუკი;Tubruq
+ta;துப்ருக்;Tubruq
+mr;टोब्रुक;Tubruq
+af;Tobroek;Tubruq
+zh;图卜鲁格;Tubruq
+cs;Tobrúk;Tubruq
+cy;Tobruch;Tubruq
+be;Табрук;Tubruq
+kk;Тобрук;Tubruq
+uz;Tobruk;Tubruq
+ky;Тобрук;Tubruq
+ms;Tobruk;Tubruq
+hi;टोब्रुक;Tubruq
+bn;টোব্রুক;Tubruq
+ur;طبرق;Tubruq
+am;ቶብሩክ;Tubruq
+az;Tobruk;Tubruq
+fa;طبرق;Tubruq
+ha;Tobruk;Tubruq
+jv;Tobruk;Tubruq
+om;Tobruuk;Tubruq
+pa;ਟੋਬਰੁਕ;Tubruq
+ps;طبرق;Tubruq
+so;Tobruk;Tubruq
+sw;Tobruk;Tubruq
+tg;Тобрук;Tubruq
+tt;Тобрук;Tubruq
+ber;ⵙⵓⵙⴰ;Sūsah
+ber;ⵙⵍⵓⵇ;Qaryat Sulūq
+ber;ⵄⵎⵔ ⵍⵎⵅⵜⴰⵔ;Qaryat ‘Umar al Mukhtār
+ber;ⵇⵏⴷⵓⵍⴰ;Qandūlah
+ber;ⵇⵎⵉⵏⵙ;Qamīnis
+ber;ⵎⵙⴰ;Massah
+ber;ⵎⵔⵜⵓⴱⴰ;Martūbah
+ber;ⴽⵎⴱⵓⵜ;Kambūt
+ber;ⵊⵔⴷⵙ ⵍⵄⴱⵉⴷ;Jardas al ‘Abīd
+ber;ⴷⵔⵢⴰⵏⴰ;Daryānah
+kk;Дарна;Darnah
+uz;Darna;Darnah
+ky;Дарна;Darnah
+hi;दर्नाह;Darnah
+bn;ডারনাহ;Darnah
+ur;درنہ;Darnah
+am;ዳርናህ;Darnah
+az;Darna;Darnah
+fa;درنه;Darnah
+ha;Darna;Darnah
+ja;ダルナ;Darnah
+om;Darnaa;Darnah
+pa;ਦਰਨਾ;Darnah
+ps;درنه;Darnah
+so;Darna;Darnah
+tg;Дарна;Darnah
+tt;Дарна;Darnah
+ber;ⴷⵔⵏⴰ;Darnah
+bg;Бенгази;Banghazi
+fa;بنغازی;Banghazi
+fi;Bengasi;Banghazi
+id;Benghazi;Banghazi
+pl;Bengazi;Banghazi
+lt;Bengazis;Banghazi
+zh;班加西;Banghazi
+az;Benqazi;Banghazi
+be;Бенгазі;Banghazi
+cs;Benghází;Banghazi
+hu;Bengázi;Banghazi
+hy;Բենղազի;Banghazi
+ja;ベンガジ;Banghazi
+ka;ბენღაზი;Banghazi
+kk;Бенгази;Banghazi
+ko;벵가지;Banghazi
+lv;Bengāzī;Banghazi
+mr;बेनगाझी;Banghazi
+pa;ਬਨਗ਼ਾਜ਼ੀ;Banghazi
+sk;Bengázi;Banghazi
+sr;Бенгази;Banghazi
+ta;பங்காசி;Banghazi
+tg;Вилояти Бенғази;Banghazi
+th;เบนกาซี;Banghazi
+uk;Бенгазі;Banghazi
+ur;بنغازی;Banghazi
+yue;班加西;Banghazi
+uz;Benghazi;Banghazi
+ber;ⴱⵏⵖⴰⵣⵉ;Banghazi
+ber;ⵍⵣⵡⵉⵜⵉⵏⴰ;Az Zuwaytīnah
+ber;ⴰⵡⵊⵍⴰ;Awjilah
+ber;ⵜⵓⴽⵔⴰ;Tūkrah
+ber;ⵍⵇⴱⴰ;Al Qubbah
+kk;Әл-Марж;Al Marj
+ky;Әл-Марж;Al Marj
+hi;अल मर्ज;Al Marj
+bn;আল মার্জ;Al Marj
+ur;المرج;Al Marj
+am;ኣል ማርጅ;Al Marj
+fa;المرج;Al Marj
+ja;アル・マルジ;Al Marj
+pa;ਅਲ ਮਾਰਜ;Al Marj
+ps;المرج;Al Marj
+tg;Эль-Марж;Al Marj
+tt;Әл-Марж;Al Marj
+ber;ⵍⵎⵔⵊ;Al Marj
+ja;ジャウフ;Al Jawf
+ko;알자우프;Al Jawf
+ber;ⵍⵊⵡⴼ;Al Jawf
+ber;ⵍⴱⵢⴰⴹⴰ;Qaryat al Bayyāḑah
+kk;Әл-Байда;Al Bayḑā’
+ky;Әл-Байда;Al Bayḑā’
+hi;अल बयदा;Al Bayḑā’
+bn;আল বায়দা;Al Bayḑā’
+ur;البيضاء;Al Bayḑā’
+am;ኣል ባይዳ;Al Bayḑā’
+fa;البیضاء;Al Bayḑā’
+ja;アル・バイダ;Al Bayḑā’
+pa;ਅਲ ਬਯਦਾ;Al Bayḑā’
+ps;البيضاء;Al Bayḑā’
+tg;Эль-Байда;Al Bayḑā’
+tt;Әл-Байда;Al Bayḑā’
+ber;ⵍⴱⵉⴹⴰ;Al Bayḑā’
+ber;ⵍⴰⴱⵔⵇ;Al Abraq
+pl;Adżdabija;Ajdabiya
+lt;Adždabija;Ajdabiya
+be;Адждабія;Ajdabiya
+bg;Адждабия;Ajdabiya
+cs;Adžedábíja;Ajdabiya
+fa;اجدابیا;Ajdabiya
+hu;Adzsdábija;Ajdabiya
+ja;アジュダービヤー;Ajdabiya
+ka;აჯდაბია;Ajdabiya
+ko;아지다비야;Ajdabiya
+sr;Аџдабија;Ajdabiya
+zh;艾季达比耶;Ajdabiya
+sk;Adžedábíja;Ajdabiya
+uk;Адждабія;Ajdabiya
+kk;Аждабия;Ajdabiya
+ky;Аждабия;Ajdabiya
+hi;अजदबिया;Ajdabiya
+bn;আজদাবিয়া;Ajdabiya
+ur;اجدابیا;Ajdabiya
+am;ኣጅዳቢያ;Ajdabiya
+az;Ağcabədiya;Ajdabiya
+om;Ajdabiyaa;Ajdabiya
+pa;ਅਜਦਾਬੀਆ;Ajdabiya
+ps;اجدابيا;Ajdabiya
+tg;Адждабия;Ajdabiya
+tt;Аждабия;Ajdabiya
+ber;ⴰⵊⴷⴰⴱⵉⵢⴰ;Ajdabiya
+uk;Зуара;Zuwarah
+zh;祖瓦拉;Zuwarah
+ko;주와라;Zuwarah
+fa;زواره;Zuwarah
+kk;Зувара;Zuwarah
+ky;Зувара;Zuwarah
+hi;ज़ुवारा;Zuwarah
+bn;জুওয়ারাহ;Zuwarah
+ur;زوارہ;Zuwarah
+am;ዙዋራህ;Zuwarah
+az;Zuara;Zuwarah
+ja;ズワラ;Zuwarah
+om;Zuwaraa;Zuwarah
+pa;ਜ਼ੁਵਾਰਾ;Zuwarah
+ps;زوارة;Zuwarah
+tg;Зувара;Zuwarah
+tt;Зувара;Zuwarah
+ber;ⵜⴰⵎⵓⵔⵜ ⵏ ⵡⴰⵜ ⵡⵉⵍⵍⵓⵍ;Zuwarah
+zh;兹利坦;Zliten
+ja;ズリテン;Zliten
+ko;즐리텐;Zliten
+cs;Zlitán;Zliten
+fa;زلیتن;Zliten
+ka;ზლიტენი;Zliten
+lt;Zlitenas;Zliten
+sr;Злитен;Zliten
+uk;Злітен;Zliten
+ur;زلیتن;Zliten
+pl;Zalitan;Zliten
+ber;ⵣⵍⵉⵜⵏ;Zliten
+ka;ზილა;Zillah
+zu;Zella;Zillah
+fa;زله;Zillah
+ber;ⵣⵍⴰ;Zillah
+ber;ⵣⵡⵉⵍⴰ;Zawīlah
+ber;ⵣⵍⵟⵏ;Zalţan
+ber;ⵢⴼⵔⵏ;Yafran
+ber;ⵡⴰⵣⵉⵏ;Wāzin
+ber;ⵓⵎ ⵍⴰⵔⴰⵏⴱ;Umm al Arānib
+ber;ⵜⵉⵊⵉ;Tījī
+ber;ⵜⵔⴰⵖⵏ;Tarāghin
+da;Tripoli;Tarabulus
+fi;Tripoli;Tarabulus
+sv;Tripoli;Tarabulus
+no;Tripoli;Tarabulus
+ta;திரிப்பொலி;Tarabulus
+hi;ताराबूलस;Tarabulus
+ckb;تەرابلوس;Tarabulus
+mr;त्रिपोली;Tarabulus
+be;Трыпалі;Tarabulus
+th;ตริโปลี;Tarabulus
+tg;Триполи;Tarabulus
+am;ትሪፖሊ;Tarabulus
+ml;ട്രിപ്പോളി;Tarabulus
+frr;Tripolis;Tarabulus
+hsb;Tripolis;Tarabulus
+ku;Trablûs;Tarabulus
+ka;ტრიპოლი;Tarabulus
+ko;트리폴리;Tarabulus
+sr;Триполи;Tarabulus
+cs;Tripolis;Tarabulus
+mn;Триполи;Tarabulus
+ps;ترابلس;Tarabulus
+gl;Trípoli;Tarabulus
+ja;トリポリ;Tarabulus
+lv;Tripole;Tarabulus
+is;Trípólí;Tarabulus
+bg;Триполи;Tarabulus
+uk;Триполі;Tarabulus
+os;Триполи;Tarabulus
+ga;Tripilí;Tarabulus
+so;Triboli;Tarabulus
+mk;Триполи;Tarabulus
+sk;Tripolis;Tarabulus
+kk;Триполи;Tarabulus
+ca;Trípoli;Tarabulus
+ur;طرابلس، لیبیا;Tarabulus
+lt;Tripolis;Tarabulus
+ky;Триполи;Tarabulus
+bo;ཐི་རི་ཕོ་ལི;Tarabulus
+oc;Trípol;Tarabulus
+ug;ترىپولى;Tarabulus
+hy;Տրիպոլի;Tarabulus
+mrj;Триполи;Tarabulus
+fa;طرابلس;Tarabulus
+udm;Триполи;Tarabulus
+bn;ত্রিপোলি;Tarabulus
+lb;Tripolis;Tarabulus
+pa;ਤਰਾਬਲਸ;Tarabulus
+pl;Trypolis;Tarabulus
+zh;的黎波里;Tarabulus
+ce;Триполи;Tarabulus
+kab;Ṭrables;Tarabulus
+yue;的黎波里;Tarabulus
+ber;ⵟⵔⴰⴱⵍⵙ;Tarabulus
+pl;Syrta;Sirte
+zh;苏尔特;Sirte
+zh;蘇特;Sirte
+fa;سرت;Sirte
+os;Сирт;Sirte
+tg;Вилояти Сурт;Sirte
+bg;Сирт;Sirte
+hi;सिर्त;Sirte
+ja;スルト;Sirte
+sr;Сирт;Sirte
+sk;Syrta;Sirte
+ka;სურთი;Sirte
+be;Сірт;Sirte
+ko;시르테;Sirte
+lt;Surtas;Sirte
+cs;Syrta;Sirte
+hu;Szurt;Sirte
+kk;Сирт;Sirte
+uk;Сирт;Sirte
+ur;سرت;Sirte
+yue;蘇爾特;Sirte
+lv;Sirta;Sirte
+ky;Сирт;Sirte
+bn;সিরটে;Sirte
+am;ስርተ;Sirte
+om;Siirtee;Sirte
+pa;ਸਿਰਟੇ;Sirte
+ps;سرت;Sirte
+tt;Сирт;Sirte
+ber;ⵙⵔⵜ;Sirte
+ber;ⵚⵔⵎⴰⵏ;Şurmān
+ber;ⵙⵡⴽⵏⴰ;Sūknah
+ber;ⵙⵉⵏⴰⵡⵉⵏ;Sīnāwin
+ber;ⵙⵎⵏⵡ;Samnū
+ber;ⵚⴱⵔⴰⵜⴰ;Şabrātah
+fa;سبها;Sabha
+hy;Սաբհա;Sabha
+kk;Сабха;Sabha
+ky;Сабха;Sabha
+hi;साभा;Sabha
+bn;সাবহা;Sabha
+ur;سبھا;Sabha
+am;ሳብሃ;Sabha
+ja;サブハ;Sabha
+om;Sabhaa;Sabha
+pa;ਸਾਭਾ;Sabha
+ps;سبها;Sabha
+tg;Сабха;Sabha
+tt;Сабха;Sabha
+ber;ⵙⴱⵀⴰ;Sabha
+ber;ⵇⵉⵔⴰ;Qīrah
+kk;Налут;Nālūt
+ky;Налут;Nālūt
+hi;नालुत;Nālūt
+bn;নালুত;Nālūt
+ur;نالوت;Nālūt
+am;ናሉት;Nālūt
+fa;نالوت;Nālūt
+ja;ナルート;Nālūt
+om;Naalut;Nālūt
+pa;ਨਾਲੁਤ;Nālūt
+ps;نالوت;Nālūt
+tg;Налут;Nālūt
+tt;Налут;Nālūt
+ber;ⵏⴰⵍⵓⵜ;Nālūt
+pl;Murzuq;Murzuk
+kk;Мурзук;Murzuk
+ky;Мурзук;Murzuk
+hi;मुरजुक;Murzuk
+bn;মুরজুক;Murzuk
+ur;مرزق;Murzuk
+am;ሙርዙክ;Murzuk
+fa;مرزق;Murzuk
+ja;ムルズク;Murzuk
+om;Murzuuk;Murzuk
+pa;ਮੁਰਜ਼ੁਕ;Murzuk
+ps;مرزق;Murzuk
+tg;Мурзук;Murzuk
+tt;Мурзук;Murzuk
+ber;ⵎⵣⴷⴰ;Mizdah
+fa;مصراته;Misratah
+fi;Al Misratah;Misratah
+kk;Мисрата;Misratah
+ky;Мисрата;Misratah
+hi;मिसराता;Misratah
+bn;মিসরাতাহ;Misratah
+ur;مصراتہ;Misratah
+am;ሚስራታህ;Misratah
+az;Misrata;Misratah
+ha;Misrata;Misratah
+ja;ミスラタ;Misratah
+om;Misrataa;Misratah
+pa;ਮਿਸਰਾਤਾ;Misratah
+ps;مصراتة;Misratah
+so;Misrata;Misratah
+tg;Мисрата;Misratah
+tt;Мисрата;Misratah
+ber;ⵎⵔⵙⴰ ⵍⴱⵔⵉⵇⴰ;Al Burayqah
+ber;ⴽⴰⴱⴰⵡ;Kābāw
+ber;ⵊⵏⵣⵓⵔ;Janzūr
+ber;ⵊⴰⴷⵓ;Jādū
+kk;Хун;Hūn
+ky;Хун;Hūn
+hi;हून;Hūn
+bn;হুন;Hūn
+ur;ہون;Hūn
+am;ሁን;Hūn
+fa;هون;Hūn
+ja;フン;Hūn
+om;Huun;Hūn
+pa;ਹੁਨ;Hūn
+ps;هون;Hūn
+tg;Хун;Hūn
+tt;Хун;Hūn
+ber;ⵀⵡⵏ;Hūn
+kk;Гат;Ghat
+ky;Гат;Ghat
+hi;घाट;Ghat
+bn;ঘাট;Ghat
+ur;غات;Ghat
+am;ጋት;Ghat
+fa;غات;Ghat
+ja;ガット;Ghat
+om;Ghaat;Ghat
+pa;ਘਾਟ;Ghat
+ps;غات;Ghat
+tg;Гат;Ghat
+tt;Гат;Ghat
+kk;Гарян;Gharyan
+ky;Гарян;Gharyan
+hi;घारियान;Gharyan
+bn;গারিয়ান;Gharyan
+ur;غریان;Gharyan
+am;ጋርያን;Gharyan
+az;Qaryan;Gharyan
+fa;غریان;Gharyan
+ja;ガリヤン;Gharyan
+om;Gaariyaan;Gharyan
+pa;ਘਾਰਿਆਨ;Gharyan
+ps;غريان;Gharyan
+tg;Гарян;Gharyan
+tt;Гарян;Gharyan
+ber;ⵖⵔⵢⴰⵏ;Gharyan
+ber;ⵖⴷⴰⵎⵙ;Ghadames
+ber;ⴷⵔⵊ;Daraj
+ber;ⴱⵉⵔ ⵍⵖⵏⵎ;Bi’r al Ghanam
+ko;비라크;Brak
+hi;बराक;Brak
+lt;Brakas;Brak
+lv;Braka;Brak
+uk;Бірак;Brak
+ur;براک، لیبیا;Brak
+mr;ब्रॅक;Brak
+zh;比拉克;Brak
+ja;ブラーク;Brak
+fa;براک;Brak
+ro;Birak;Brak
+bn;বার্ক;Brak
+ka;ბრაქი;Brak
+si;බ්‍රාක්;Brak
+ca;Birak;Brak
+kn;ಬ್ರೇಕ್;Brak
+ta;ப்ராக்;Brak
+gu;બ્રાક;Brak
+te;బ్రాక్;Brak
+th;บราค;Brak
+lb;Birak;Brak
+pl;Birak;Brak
+ber;ⴱⵔⴰⴽ ⵍⵛⴰⵟⵉ;Brak
+ber;ⴱⵏ ⵊⵡⴰⴷ;Bin Jawwād
+ber;ⴱⵔⵇⵏ;Barqin
+zh;拜尼沃利德;Bani Walid
+uk;Бені-Валід;Bani Walid
+ja;バニワリード;Bani Walid
+ko;바니왈리드;Bani Walid
+fa;بنی‌ولید;Bani Walid
+be;Бені-Валід;Bani Walid
+bg;Бани Уалид;Bani Walid
+hu;Bani Valíd;Bani Walid
+id;Beni Ulid;Bani Walid
+ka;ბანი-ვალიდი;Bani Walid
+lt;Bani Validas;Bani Walid
+sr;Бани Валид;Bani Walid
+ur;بنی ولید;Bani Walid
+ber;ⵇⵚⵔ ⵍⵉⴱⵢⴰ;Bani Walid
+fa;الزنتان، لیبی;Zintan
+ber;ⵜⴰⵖⵔⵎⵉⵏ;Zintan
+kk;Әз-Завия;Az Zāwīyah
+ky;Әз-Завия;Az Zāwīyah
+hi;अज़ ज़वियाह;Az Zāwīyah
+bn;আজ জাউইয়াহ;Az Zāwīyah
+ur;الزاویہ;Az Zāwīyah
+am;ኣዝ ዛዊያህ;Az Zāwīyah
+az;Az Zawiya;Az Zāwīyah
+fa;الزاویه;Az Zāwīyah
+ja;アズ・ザウィヤ;Az Zāwīyah
+pa;ਅਜ਼ ਜ਼ਾਵਿਆ;Az Zāwīyah
+ps;الزاویه;Az Zāwīyah
+tg;Эз-Завия;Az Zāwīyah
+tt;Әз-Завия;Az Zāwīyah
+ber;ⵍⵣⴰⵡⵉⵢⴰ;Az Zāwīyah
+kk;Убари;Ubari
+ky;Убари;Ubari
+hi;उबारी;Ubari
+bn;উবারি;Ubari
+ur;اوباری;Ubari
+am;ኡባሪ;Ubari
+fa;اوباری;Ubari
+ja;ウバリ;Ubari
+om;Ubarii;Ubari
+pa;ਉਬਾਰੀ;Ubari
+ps;اوباري;Ubari
+tg;Убари;Ubari
+tt;Убари;Ubari
+ber;ⴰⵔⵊⴱⴰⵏ;Ar Rujbān
+ber;ⴰⵇⴰⵔ;Āqār
+ber;ⵍⵄⵊⵉⵍⴰⵜ;Al Ajaylat
+ber;ⵍⵇⵟⵔⵡⵏ;Al Qaţrūn
+ber;ⵍⵎⴰⵢⴰ;Al Māyah
+be;Аль-Хумс;Al Khums
+bg;Хумс;Al Khums
+eu;Khums;Al Khums
+fa;الخمس، لیبی;Al Khums
+ja;フムス;Al Khums
+ka;ელ-ხუმსი;Al Khums
+ko;훔스;Al Khums
+lt;Humsas;Al Khums
+uk;Хомс;Al Khums
+ur;خمس، لیبیا;Al Khums
+pl;Al-Chums;Al Khums
+zh;胡姆斯;Al Khums
+kk;Әл-Хумс;Al Khums
+ky;Әл-Хумс;Al Khums
+hi;अल खुम्स;Al Khums
+bn;আল খুমস;Al Khums
+am;ኣል ኩምስ;Al Khums
+az;El Xums;Al Khums
+pa;ਅਲ ਖੁਮਸ;Al Khums
+ps;الخمس;Al Khums
+tg;Эль-Хумс;Al Khums
+tt;Әл-Хумс;Al Khums
+ber;ⵍⵎⵔⵇⴱ;Al Khums
+ber;ⵍⵊⵎⵉⵍ;Al Jumayl
+ber;ⵍⵊⴷⵉⴷ;Al Jadīd
+ber;ⵍⵃⵔⵛⴰ;Al Ḩurshah
+kk;Әл-Азизия;Al ‘Azīzīyah
+uz;Al Aziziyah;Al ‘Azīzīyah
+ky;Әл-Азизия;Al ‘Azīzīyah
+id;Al Aziziyah;Al ‘Azīzīyah
+ms;Al Aziziyah;Al ‘Azīzīyah
+hi;अल अज़ीज़िया;Al ‘Azīzīyah
+bn;আল আজিজিয়াহ;Al ‘Azīzīyah
+ur;العزیزیہ;Al ‘Azīzīyah
+am;ኣል ዐዚዝያህ;Al ‘Azīzīyah
+az;Al Aziziya;Al ‘Azīzīyah
+fa;العزیزیه;Al ‘Azīzīyah
+ha;Al Aziziyah;Al ‘Azīzīyah
+ja;アル・アジジヤ;Al ‘Azīzīyah
+jv;Al Aziziyah;Al ‘Azīzīyah
+om;Al Aziziyah;Al ‘Azīzīyah
+pa;ਅਲ ਅਜ਼ੀਜ਼ਿਆ;Al ‘Azīzīyah
+ps;العزيزية;Al ‘Azīzīyah
+so;Al Aziziyah;Al ‘Azīzīyah
+sw;Al Aziziyah;Al ‘Azīzīyah
+tg;Эль-Азизия;Al ‘Azīzīyah
+tt;Әл-Азизия;Al ‘Azīzīyah
+kk;Идри;Idrī
+ky;Идри;Idrī
+hi;इद्री;Idrī
+bn;ইদরি;Idrī
+ur;ادری;Idrī
+am;ኢድሪ;Idrī
+fa;ادری;Idrī
+ja;イドリ;Idrī
+om;Idrii;Idrī
+pa;ਇਦਰੀ;Idrī
+ps;إدري;Idrī
+tg;Идри;Idrī
+tt;Идри;Idrī
+ber;ⵉⴷⵔⵉ;Idrī
+ka;შახატი;Shahhat
+be;Каср Абу-Хадзі;Qasr Abu Hadi
+hy;Քասր Աբու Հադի;Qasr Abu Hadi
+ka;ქასრ-აბუ-ჰადი;Qasr Abu Hadi
+az;Qəsr Əbu-Hadi;Qasr Abu Hadi
+fa;قصر ابو هادی;Qasr Abu Hadi
+pl;Kasr Abu Hadi;Qasr Abu Hadi
+ur;قصر ابو ہادی;Qasr Abu Hadi
+ber;ⵜⴰⵣⵔⴱⵡ;Tāzirbū
+ber;ⵎⵙⵍⴰⵜⴰ;Msalātah

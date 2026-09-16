@@ -1223,3 +1223,1816 @@ ga;Ráth an Mhuilinn;Rathmullen
 ga;Súmhai;Sooey
 ga;Baile an Dúin;Ballindoon
 ga;Craobh Mhártain;Cremartin
+bg;Йол;Youghal
+gv;Yoal;Youghal
+ru;Йол;Youghal
+ka;იოლი;Youghal
+ur;یوغل;Youghal
+lt;Joulas;Youghal
+zh-Hant;約爾;Youghal
+sr;Јол;Youghal
+zh;雅各哈;Youghal
+ja;ヨール;Youghal
+he;יוגל;Youghal
+ru;Вуденбридж;Woodenbridge
+ru;Полстаун;Paulstown
+ru;Уайтгейт;Whitegate
+gv;Caair ny Mart;Westport
+bg;Уестпорт;Westport
+ru;Уэстпорт;Westport
+ka;უესტპორტი;Westport
+ja;ウェストポート;Westport
+ko;웨스트포트;Westport
+ur;ویسٹپورت، کاؤنٹی میو;Westport
+ru;Уотервилл;Waterville
+zh;沃特維爾;Waterville
+ja;ウォータービル;Waterville
+ja;ウォーターフォード;Waterford
+ru;Уотерфорд;Waterford
+lt;Voterfordas;Waterford
+gd;Port Làirge;Waterford
+bg;Уотърфорд;Waterford
+gv;Purt Largey;Waterford
+sr;Вотерфорд;Waterford
+cy;Port Láirge;Waterford
+uk;Вотерфорд;Waterford
+ko;워터퍼드;Waterford
+fa;واترفورد;Waterford
+ka;უოტერფორდი;Waterford
+zh;沃特福德;Waterford
+ur;واٹرفرڈ;Waterford
+ru;Тиррелспасс;Tyrrellspass
+bg;Тйрелспас;Tyrrellspass
+fa;تیرلسپاس;Tyrrellspass
+ru;Таллиаллен;Tullyallen
+bg;Тулялен;Tullyallen
+ja;タリーアレン;Tullyallen
+ru;Талларон;Tullaroan
+gd;Tulach Mhór;Tullamore
+sr;Таламор;Tullamore
+lt;Talamoras;Tullamore
+fa;تولامور;Tullamore
+ja;タラモア;Tullamore
+th;ทูลลามอร์;Tullamore
+bg;Тъламор;Tullamore
+ru;Талламор;Tullamore
+ka;ტალამორი;Tullamore
+ko;털러모어;Tullamore
+uk;Талламор;Tullamore
+ur;ٹولامور;Tullamore
+zh;塔拉莫尔;Tullamore
+ru;Таллахан;Tullaghan
+bg;Тулагхан;Tullaghan
+ka;ტულახანი;Tullaghan
+ja;チュアム;Tuam
+gd;Tuaim;Tuam
+bg;Туъм;Tuam
+ru;Туам;Tuam
+ka;ჩუმი;Tuam
+ko;퇌;Tuam
+ur;ٹیویم;Tuam
+lt;Tuamas;Tuam
+zh-Hans;图尔姆;Tuam
+zh-Hant;圖爾姆;Tuam
+mk;Туам;Tuam
+sr;Чум;Tuam
+zh;徒安;Tuam
+ar;توام;Tuam
+bg;Трим;Trim
+gv;Baile Átha Troim;Trim
+ka;ტრიმი;Trim
+ru;Трим;Trim
+ur;ٹرم، کاؤنٹی میدھ;Trim
+lt;Trimas;Trim
+lv;Trima;Trim
+sr;Трим;Trim
+zh;特里姆;Trim
+ja;トリム;Trim
+ru;Трамор;Tramore
+bg;Трамор;Tramore
+lt;Tramoras;Tramore
+zh-Hans;特拉莫尔;Tramore
+ur;ٹریمور;Tramore
+sr;Трамор;Tramore
+zh;特拉莫爾;Tramore
+ar;ترامور;Tramore
+ja;トラモア;Tramore
+he;טראמור;Tramore
+ja;トラリー;Tralee
+bg;Трали;Tralee
+lt;Trali;Tralee
+gv;Traie Lee;Tralee
+sr;Трали;Tralee
+fa;ترالی;Tralee
+ru;Трали;Tralee
+ka;ტრალი;Tralee
+ko;트럴리;Tralee
+uk;Тралі;Tralee
+ur;ٹریلی;Tralee
+zh;特拉利;Tralee
+ko;티퍼레리;Tipperary
+bg;Типърари;Tipperary
+ru;Типперэри;Tipperary
+ur;ٹپاریری;Tipperary
+zh;蒂珀雷里;Tipperary
+lt;Tiperaris;Tipperary
+zh-Hant;蒂珀雷里國際和平獎;Tipperary
+sr;Типерари;Tipperary
+ar;تيبيراري;Tipperary
+cy;Tiobraid Árann;Tipperary
+ja;ティペラリー;Tipperary
+he;טיפררי;Tipperary
+ru;Таймолин;Timolin
+ru;Тимолиг;Timoleague
+bg;Тимолеагуе;Timoleague
+ru;Тимахо;Timahoe
+bg;Тимахое;Timahoe
+lt;Timaho;Timahoe
+ko;털레스;Thurles
+bg;Търлес;Thurles
+ru;Тёрлс;Thurles
+ka;თურლსი;Thurles
+zh;瑟勒斯;Thurles
+lt;Terlsas;Thurles
+sr;Терлс;Thurles
+el;Τέρλας;Thurles
+ar;ثورلز;Thurles
+ja;サーレス;Thurles
+ru;Термонфекин;Termonfeckin
+lv;Termonfekina;Termonfeckin
+zh;特蒙費金;Termonfeckin
+uk;Термонфекін;Termonfeckin
+ja;ターモンフェキン;Termonfeckin
+fa;ترمونفکین;Termonfeckin
+he;טרמונפקין;Termonfeckin
+ru;Тереньюр;Terenure
+bg;Теренуре;Terenure
+ja;テレニュア;Terenure
+gd;Tír an Iúir;Terenure
+bg;Темплетуохй;Templetuohy
+bg;Темпълмор;Templemore
+ru;Темплмор;Templemore
+ru;Талланстаун;Tallanstown
+sr;Талат;Tallaght
+fa;تلا;Tallaght
+lt;Talagtas;Tallaght
+ru;Талла;Tallaght
+ko;탈라;Tallaght
+uk;Таллахт;Tallaght
+zh;塔拉;Tallaght
+ru;Тамон;Taghmon
+bg;Тагхмон;Taghmon
+cy;Sord Cholmcille;Swords
+bg;Суордс;Swords
+lt;Sordsas;Swords
+fa;اسوردز;Swords
+sr;Сордс;Swords
+ru;Сордс;Swords
+zh;斯沃司;Swords
+he;סוורדס;Swords
+ko;스워즈;Swords
+uk;Сордз;Swords
+ur;سورڈز، ڈبلن;Swords
+ru;Страффан;Straffan
+ru;Страдбалли;Stradbally
+lt;Stradbalis;Stradbally
+zh;斯特拉德巴利;Stradbally
+ru;Степасайд;Stepaside
+gd;An Chéim;Stepaside
+ar;سميثبورو;Smithborough
+ru;Смитборо;Smithborough
+bg;Смитхбороугх;Smithborough
+ja;スライゴ;Sligo
+bg;Слайгоу;Sligo
+lt;Slaigo;Sligo
+os;Слайго;Sligo
+uk;Слайго;Sligo
+fa;اسلایگو;Sligo
+ko;슬라이고;Sligo
+ar;سليجو;Sligo
+gd;Sligeach;Sligo
+sr;Слајго;Sligo
+gv;Shliggagh;Sligo
+ru;Слайго;Sligo
+ru;Скибберин;Skibbereen
+bg;Скерийс;Skerries
+ru;Скеррис;Skerries
+ru;Сиксмайлбридж;Sixmilebridge
+ja;シックスマイルブリッジ;Sixmilebridge
+ru;Шаннон-Харбер;Shannon Harbour
+ru;Шанкилл;Shankill
+bg;Шанкил;Shankill
+lt;Šankilis;Shankill
+zh;香基尔;Shankill
+fa;شنکیل;Shankill
+ur;شینکل، ڈبلن;Shankill
+ru;Шанбаллимор;Shanballymore
+bg;Шанбалйморе;Shanballymore
+ja;シャンボールイモア;Shanballymore
+ru;Шанбалли;Shanbally
+bg;Шанбалй;Shanbally
+ru;Скотсхаус;Scotstown
+ru;Сантри;Santry
+lt;Santris;Santry
+gd;Seantrabh;Santry
+ru;Саллибрук;Sallybrook
+ru;Саллинс;Sallins
+bg;Салинс;Sallins
+ja;サリンズ;Sallins
+ru;Патриксуэлл;Patrickswell
+bg;Патриксуел;Patrickswell
+lt;Patriksvelas;Patrickswell
+ru;Саггарт;Saggart
+bg;Сагарт;Saggart
+zh;赛格尔;Saggart
+zh-Hant;賽格爾;Saggart
+ka;საგარტი;Saggart
+ur;سگگارٹ;Saggart
+gd;Teach Sagard;Saggart
+ru;Рилейн;Rylane Cross
+sv;Rylane;Rylane Cross
+ru;Рашбрук;Rushbrooke
+zh;羅西斯波因特;Rosses Point
+ja;ロッセス・ポイント;Rosses Point
+ru;Россес-Пойнт;Rosses Point
+ka;როსის პოინტი;Rosses Point
+gv;An Ros;Rosses Point
+ru;Розеналлис;Rosenallis
+bg;Роскрей;Roscrea
+ru;Роскрей;Roscrea
+bg;Роскомън;Roscommon
+el;Ροσκόμον;Roscommon
+ka;როსკომონი;Roscommon
+lt;Roskomonas;Roscommon
+sr;Роскомон;Roscommon
+ru;Роскоммон;Roscommon
+ko;로스커먼;Roscommon
+uk;Роскоммон;Roscommon
+zh;罗斯康芒;Roscommon
+ru;Руски;Roosky
+bg;Роскй;Roosky
+ka;რუსკი;Roosky
+gd;Rúscaigh;Roosky
+he;רוסקי;Roosky
+ru;Рокмилс;Rockmills
+ru;Роккори;Rockcorry
+ru;Рочфортбридж;Rochfortbridge
+bg;Рочфортбридге;Rochfortbridge
+lt;Ročfortbridžas;Rochfortbridge
+ru;Риверстаун;Riverstown
+ka;რივერსტაუნი;Riverstown
+ru;Риверчапел;Riverchapel
+ru;Рингаскидди;Ringaskiddy
+bg;Рингаскидй;Ringaskiddy
+ru;Редкросс;Redcross
+cy;An Chrois Dhearg;Redcross
+ru;Ратот;Ratoath
+bg;Ратоут;Ratoath
+gv;Ráth Tó;Ratoath
+ru;Ратнью;Rathnew
+ru;Рамелтон;Ramelton
+bg;Рамелтън;Ramelton
+zh;拉梅爾頓;Ramelton
+gv;Ráth Mealtáin;Ramelton
+zh-Hans;拉梅尔顿;Ramelton
+ka;რამელტონი;Ramelton
+ja;ラメルトン;Ramelton
+he;רמלטון;Ramelton
+ko;라스판햄;Rathfarnham
+fa;راتفارنهام;Rathfarnham
+ru;Ратфарнем;Rathfarnham
+bg;Ратхфарнхам;Rathfarnham
+lt;Ratfarnemas;Rathfarnham
+zh;拉斯法奈姆;Rathfarnham
+ar;راذفرانهام;Rathfarnham
+ja;ラスファーナム;Rathfarnham
+he;רת'פרנהם;Rathfarnham
+ur;ریتھفارنہم;Rathfarnham
+ru;Раткормак;Rathcormac
+lt;Ratkormakas;Rathcormac
+ru;Раткул;Rathcoole
+lt;Ratkulas;Rathcoole
+ka;რატკული;Rathcoole
+he;ראת'קול;Rathcoole
+mk;Раткул;Rathcoole
+bg;Рафоу;Raphoe
+gv;Ráth Bhoth;Raphoe
+ru;Рафо;Raphoe
+uk;Рахені;Raheny
+ru;Рахени;Raheny
+gd;Ráth Eanaigh;Raheny
+be;Рахені;Raheny
+bg;Рахенй;Raheny
+lt;Rahenis;Raheny
+zh;拉赫尼;Raheny
+ja;ラセニー;Raheny
+ru;Просперес;Prosperous
+bg;Просперъс;Prosperous
+ru;Портро;Portroe
+bg;Портрое;Portroe
+ru;Портмарнок;Portmarnock
+bg;Портмарнък;Portmarnock
+zh;波特马诺克;Portmarnock
+ar;بورتمارنوك;Portmarnock
+zh-Hant;波特馬諾克;Portmarnock
+ja;ポートマーノック;Portmarnock
+ur;پورٹمرنوک;Portmarnock
+ru;Портло;Portlaw
+bg;Портарлингтън;Portarlington
+ur;پورٹارلینٹن، کاؤنٹی لیش;Portarlington
+ru;Портарлингтон;Portarlington
+ru;Пилтаун;Piltown
+bg;Пасидж Уест;Passage West
+ur;پیسج ویسٹ;Passage West
+ru;Пассидж-Уэст;Passage West
+lt;Pasaž Vestas;Passage West
+ru;Пассидж-Ист;Passage East
+bg;Партрй;Partry
+ka;პარტრი;Partry
+ru;Палласкенри;Pallaskenry
+bg;Паласкенрй;Pallaskenry
+ru;Оранмор;Oranmore
+bg;Оранмор;Oranmore
+ka;ორანმორი;Oranmore
+ja;オーランモア;Oranmore
+ru;Ула;Oola
+ja;オオラ;Oola
+ru;Нёрни;Nurney
+ka;ნერნი;Nurney
+bg;Ню Рос;New Ross
+ru;Нью-Росс;New Ross
+ur;نیو راس;New Ross
+be;Нью-Рос;New Ross
+lt;Niu Rosas;New Ross
+uk;Нью-Росс;New Ross
+sr;Њу Рос;New Ross
+zh;新羅斯;New Ross
+ja;ニュー・ロス;New Ross
+ru;Ньюмаркет-он-Фергус;Newmarket on Fergus
+ja;ニューマーケット＝オン＝ファーガス;Newmarket on Fergus
+ru;Ньюсестаун;Newcestown
+zh;紐塞鎮;Newcestown
+ru;Ньюкасл;Newcastle
+ka;ნიუკასლი;Newcastle
+gd;An Caisleán Nua;Newcastle
+bg;Нюкасъл Уест;Newcastle West
+ur;نیو کیسل ویسٹ;Newcastle West
+ru;Ньюкасл-Уэст;Newcastle West
+lt;Niukasl Vestas;Newcastle West
+zh;西紐卡斯爾;Newcastle West
+zh-Hans;西纽卡斯尔;Newcastle West
+ja;ニューカッスル・ウェスト;Newcastle West
+fa;نیوکاسل غربی;Newcastle West
+ru;Ньюблисс;Newbliss
+bg;Нина;Nenagh
+lt;Nina;Nenagh
+sr;Нина;Nenagh
+ru;Нина;Nenagh
+ka;ნინა;Nenagh
+ko;니나;Nenagh
+uk;Ніна;Nenagh
+ur;نینا;Nenagh
+zh;尼纳;Nenagh
+lt;Navanas;Navan
+gv;Yn Ooive;Navan
+mk;Наван;Navan
+sr;Наван;Navan
+ko;내번;Navan
+ja;ナヴァン;Navan
+bg;Наван;Navan
+ka;ნავანი;Navan
+ru;Ан-Уавь;Navan
+zh;納文;Navan
+he;נאבאן;Navan
+uk;Наван;Navan
+ur;ناوین;Navan
+ru;Нол;Naul
+bg;Нейс;Naas
+fa;نیس;Naas
+gd;Nás na Ríogh;Naas
+he;נאס;Naas
+ka;ნეისი;Naas
+ko;네이스;Naas
+lt;Neisas;Naas
+sr;Нејс;Naas
+uk;Нейс;Naas
+ur;نئس;Naas
+ru;Нейс;Naas
+zh;内斯;Naas
+ru;Маллинават;Mullinavat
+bg;Мулинават;Mullinavat
+ru;Маллахмор;Mullaghmore
+zh;马勒莫;Mullaghmore
+gv;An Mullach Mór;Mullaghmore
+zh-Hant;馬拉莫爾;Mullaghmore
+ka;მულახმორი;Mullaghmore
+ja;マラモア;Mullaghmore
+he;מאלהמור;Mullaghmore
+ru;Мойналти;Moynalty
+gv;Maigh nEalta;Moynalty
+ru;Маунтмеллик;Mountmellick
+bg;Маунтмелик;Mountmellick
+lt;Mauntmelikas;Mountmellick
+zh;芒特梅利克;Mountmellick
+ur;ماؤنٹمیلک;Mountmellick
+ru;Маунтболес;Mountbolus
+ru;Мотел;Mothel
+ru;Мун;Moone
+bg;Моне;Moone
+ru;Мункойн;Mooncoin
+ru;Монивей;Monivea
+bg;Монивеа;Monivea
+ka;მონივეი;Monivea
+ja;モニヴィア;Monivea
+ru;Монастеревин;Monasterevin
+ru;Монасид;Monaseed
+ru;Монамолин;Monamolin
+lt;Monachanas;Monaghan
+sr;Монахан;Monaghan
+bg;Монахан;Monaghan
+ru;Монахан;Monaghan
+ja;モナハン;Monaghan
+ka;მონაჰანი;Monaghan
+bg;Мичълстаун;Mitchelstown
+ru;Митчелстаун;Mitchelstown
+lt;Mitčelstaunas;Mitchelstown
+zh;米切尔斯敦;Mitchelstown
+zh-Hant;米切爾斯敦;Mitchelstown
+ja;ミッチェルスタウン;Mitchelstown
+fa;میچلستون;Mitchelstown
+ru;Милтаунпасс;Milltownpass
+ru;Милтаун-Малбей;Miltown Malbay
+tg;Пойгоҳи ҳавоӣ милтовн молидн‌бе;Miltown Malbay
+cy;Milltown Malbay;Miltown Malbay
+ja;ミルタウン・マーベイ;Miltown Malbay
+fa;پایگاه هوایی میلتاون مال‌بی;Miltown Malbay
+he;מילטאון מאלביי;Miltown Malbay
+bg;Мидълтън;Midleton
+sr;Мидлтон;Midleton
+ur;مڈلٹن;Midleton
+ru;Мидлтон;Midleton
+zh;米德勒頓;Midleton
+lt;Midltonas;Midleton
+zh-Hans;米德勒顿;Midleton
+ja;ミッドルトン;Midleton
+bg;Мейнут;Maynooth
+fa;منوث;Maynooth
+he;מיינות';Maynooth
+ja;メイヌース;Maynooth
+ru;Мейнут;Maynooth
+lt;Meinutas;Maynooth
+ur;مینوتھ;Maynooth
+zh;梅努斯;Maynooth
+uk;Мейнут;Maynooth
+cy;Maigh Nuad;Maynooth
+bg;Малоу;Mallow
+lt;Malovas;Mallow
+sr;Малоу;Mallow
+ru;Маллоу;Mallow
+ur;مالوو، کاؤنٹی کورک;Mallow
+zh;馬羅;Mallow
+hy;Մալլոու;Mallow
+zh-Hans;马罗;Mallow
+ko;맬로;Mallow
+ar;مالو;Mallow
+cy;Mala;Mallow
+ja;マロー;Mallow
+he;מלו;Mallow
+bg;Малахайд;Malahide
+fa;مالاهاید;Malahide
+ru;Малахайд;Malahide
+lt;Malahaidas;Malahide
+ur;مالاہائڈ;Malahide
+zh;馬拉海德;Malahide
+hi;मलाहाइड;Malahide
+zh-Hans;马拉海德;Malahide
+ja;マラハイド;Malahide
+he;מאלאהייד;Malahide
+ru;Макуна;Mahoonagh
+bg;Макрум;Macroom
+ru;Макрум;Macroom
+ur;میکروم;Macroom
+lt;Makrumas;Macroom
+zh-Hans;马克隆;Macroom
+uk;Макрум;Macroom
+zh;馬克隆;Macroom
+cy;Maigh Chromtha;Macroom
+ja;マクルーム;Macroom
+ru;Ласк;Lusk
+bg;Лъск;Lusk
+lt;Luskas;Lusk
+zh;卢斯克;Lusk
+ja;ラスク;Lusk
+ur;لسک، ڈبلن;Lusk
+ru;Лукан;Lucan
+lt;Lucanas;Lucan
+zh;卢肯;Lucan
+zh-Hant;盧肯;Lucan
+ja;ルーカン;Lucan
+fa;لوکان;Lucan
+ur;لوکن، ڈبلن;Lucan
+bg;Лохрей;Loughrea
+ka;ლოხრეი;Loughrea
+ur;لوخرے;Loughrea
+ru;Лохрей;Loughrea
+uk;Лохрей;Loughrea
+ja;ロッホリー;Loughrea
+sr;Локреј;Loughrea
+ru;Лохлинстаун;Loughlinstown
+gd;Baile Uí Lachnáin;Loughlinstown
+hi;लाँगफ़र्ड;Longford
+sr;Лонгфорд;Longford
+ko;롱퍼드;Longford
+bg;Лонгфорд;Longford
+lt;Longfordas;Longford
+cy;An Longfort;Longford
+ru;Лонгфорд;Longford
+ja;ロングフォード;Longford
+ka;ლონგფორდი;Longford
+uk;Лонгфорд;Longford
+ur;لونگفرڈ;Longford
+zh;朗福德;Longford
+gd;Lios Tuathail;Listowel
+bg;Листоуъл;Listowel
+ru;Листоуэл;Listowel
+ko;리스토웰;Listowel
+ur;لیسٹول;Listowel
+zh;利斯托尔;Listowel
+ru;Лисселтон;Lisselton
+ru;Лисрона;Lisronagh
+bg;Лисронагх;Lisronagh
+da;Limereick;Limerick
+ru;Лимерик;Limerick
+lv;Limerika;Limerick
+ja;リムリック;Limerick
+lt;Limerikas;Limerick
+bg;Лимерик;Limerick
+he;לימריק;Limerick
+sr;Летеркени;Letterkenny
+bg;Летъркени;Letterkenny
+gv;Littyr Kennain;Letterkenny
+ru;Леттеркенни;Letterkenny
+lt;Leterkenis;Letterkenny
+ur;لیٹرکینی;Letterkenny
+zh;萊特肯尼;Letterkenny
+ru;Леттерфрак;Letterfrack
+ka;ლეტერფრაკი;Letterfrack
+ja;レターフラック;Letterfrack
+bg;Лийкслип;Leixlip
+fa;لیکسلیپ;Leixlip
+sr;Ликслип;Leixlip
+ru;Лейкслип;Leixlip
+lt;Leikslipas;Leixlip
+ur;لیکسلیپ;Leixlip
+zh;萊克斯利普;Leixlip
+ru;Лохлинбридж;Leighlinbridge
+bg;Леигхлинбридге;Leighlinbridge
+zh;莱林桥;Leighlinbridge
+ka;ლოხლინბრიჯი;Leighlinbridge
+ja;ローホリンブリッジ;Leighlinbridge
+ru;Лехинч;Lehinch
+sv;Lahinch;Lehinch
+nb;Lahinch;Lehinch
+pl;Lahinch;Lehinch
+ur;لاہینچ;Lehinch
+ru;Лейтаун;Laytown
+bg;Лейтаун;Laytown
+lt;Leitaunas;Laytown
+gv;An Inse;Laytown
+ru;Ларгидоннелл;Largydonnell
+ka;ლარგიდონელი;Largydonnell
+ur;لارگیڈونیل;Largydonnell
+ru;Страндхилл;Strandhill
+bg;Страндхил;Strandhill
+gv;An Leathros;Strandhill
+ka;სტრანდჰილი;Strandhill
+ru;Нокраха;Knockraha
+ru;Нок Бриде;Knockbridge
+ru;Ноканор;Knockanore
+ru;Нокадерри;Knockaderry
+gv;Kione Sailley;Kinsale
+gd;Cionn tSáile;Kinsale
+bg;Кинсейл;Kinsale
+he;קינסייל;Kinsale
+lt;Kinseilis;Kinsale
+ru;Кинсейл;Kinsale
+ur;کنسیئل;Kinsale
+ru;Кинлох;Kinlough
+bg;Кинлоугх;Kinlough
+ka;კინლოხი;Kinlough
+ja;キンラウ;Kinlough
+ru;Кингскорт;Kingscourt
+cy;Dún na Rí;Kingscourt
+gd;Dún an Rí;Kingscourt
+ru;Килтормер;Kiltormer
+ru;Килтил;Kilteel
+bg;Килтел;Kilteel
+ru;Килтили;Kiltealy
+ru;Килтама;Kiltamagh
+bg;Килтамагх;Kiltamagh
+ka;კილტიმა;Kiltamagh
+cy;Kiltimagh;Kiltamagh
+he;קילמייגה;Kiltamagh
+ru;Килтейл;Kiltale
+gv;Cill Táile;Kiltale
+ja;キルスケア;Kilskeer
+ru;Килшилан;Kilsheelan
+bg;Килшелан;Kilsheelan
+fa;کیل‌شیلن;Kilsheelan
+ru;Килшанхо;Kilshanchoe
+ru;Килраш;Kilrush
+bg;Килруш;Kilrush
+zh;基尔拉什;Kilrush
+ja;キルラッシュ;Kilrush
+ru;Килрейн;Kilrane
+bg;Килране;Kilrane
+ru;Килналек;Kilnaleck
+lt;Kilnalekas;Kilnaleck
+gd;Cill na Leice;Kilnaleck
+ru;Килмови;Kilmovee
+bg;Килмове;Kilmovee
+ru;Килмейн;Kilmaine
+bg;Килмаине;Kilmaine
+ka;კილმენი;Kilmaine
+ru;Килмакренан;Kilmacrenan
+lt;Kilmakrenanas;Kilmacrenan
+gd;Cill Mhic Réanáin;Kilmacrenan
+ru;Киллини;Killiney
+bg;Килини;Killiney
+uk;Киллини;Killiney
+ja;キリニー;Killiney
+he;קיליני;Killiney
+ru;Киллешин;Killeshin
+el;Κιλλεσιν;Killeshin
+ar;كليشن;Killeshin
+ru;Килли;Killeagh
+bg;Килеагх;Killeagh
+lt;Kileagas;Killeagh
+ru;Киллаваллен;Killavullen
+bg;Килавулен;Killavullen
+ja;キラバレン;Killavullen
+ru;Киллаши;Killashee
+bg;Килаше;Killashee
+ru;Киллешандра;Killeshandra
+bg;Килешандра;Killeshandra
+gd;Cill na Seanrátha;Killeshandra
+ka;კილალა;Killala
+ru;Киллала;Killala
+bg;Килала;Killala
+zh;基拉拉;Killala
+ja;キララ;Killala
+mk;Килала;Killala
+ru;Килл;Kill
+ja;キルケニー;Kilkenny
+lt;Kilkenis;Kilkenny
+ru;Килкенни;Kilkenny
+kk;Килкенни;Kilkenny
+gv;Keeill Chennee;Kilkenny
+ko;킬케니;Kilkenny
+bg;Килкени;Kilkenny
+sr;Килкени;Kilkenny
+ru;Килкелли;Kilkelly
+bg;Килкелй;Kilkelly
+ka;კილკელი;Kilkelly
+ru;Килки;Kilkee
+bg;Килке;Kilkee
+lt;Kilkė;Kilkee
+zh;基爾基;Kilkee
+ja;キルキー;Kilkee
+ru;Килфлинн;Kilflynn
+bg;Килфлйн;Kilflynn
+ru;Килдоррери;Kildorrery
+bg;Килдорерй;Kildorrery
+ja;キルドラリ;Kildorrery
+bg;Килдеър;Kildare
+gd;Cill Dara;Kildare
+lt;Kilderas;Kildare
+gv;Keeill Darey;Kildare
+ru;Килдэр;Kildare
+ur;کلڈیئر;Kildare
+ru;Килдалки;Kildalkey
+bg;Килдалкей;Kildalkey
+gv;Cill Dealga;Kildalkey
+ru;Килкаллен;Kilcullen
+ru;Килкул;Kilcoole
+bg;Килкул;Kilcoole
+ur;کلکول;Kilcoole
+bg;Килкък;Kilcock
+ur;کلکوک;Kilcock
+ru;Килкок;Kilcock
+lt;Kilkokas;Kilcock
+he;קילקוק;Kilcock
+ru;Килбриттен;Kilbrittain
+bg;Килбритаин;Kilbrittain
+ru;Килбегган;Kilbeggan
+bg;Килбеган;Kilbeggan
+lt;Kilbeganas;Kilbeggan
+ja;キルベガン;Kilbeggan
+ru;Кенмэр;Kenmare
+bg;Келс;Kells
+uk;Келлс;Kells
+ru;Келс;Kells
+ur;کیلز، کاؤنٹی میدھ;Kells
+be;Келс;Kells
+lt;Kelsas;Kells
+lv;Kelsa;Kells
+zh-Hant;凱爾斯;Kells
+sr;Келс;Kells
+zh;凯尔斯;Kells
+gv;Ceanannas;Kells
+ar;كيلز، مقاطعة ميث;Kells
+ja;ケルズ;Kells
+he;קלס;Kells
+ru;Кина;Keenagh
+bg;Кенагх;Keenagh
+ru;Килкилл;Kealkill
+ru;Джулианстаун;Julianstown
+gv;Baile Iúiliáin;Julianstown
+ja;ジュリアンズタウン;Julianstown
+ru;Джонсуэлл;Johnswell
+ru;Джонстаун;Johnstown
+ja;ジョンズタウン;Johnstown
+ru;Инишкин;Inniskeen
+bg;Инискен;Inniskeen
+pl;Inishkeen;Inniskeen
+ru;Инишаннон;Innishannon
+bg;Инишанон;Innishannon
+bg;Хоут;Howth
+gv;Binn Éadair;Howth
+ko;호스;Howth
+ru;Хоут;Howth
+ru;Хорс-энд-Джоки;Horse and Jockey
+ru;Холикросс;Holycross
+ru;Холлифорт;Hollyfort
+bg;Грейстоунс;Greystones
+ka;გრეისტოუნსი;Greystones
+sr;Грејстонс;Greystones
+ru;Грейстонс;Greystones
+ko;그레이스톤스;Greystones
+lt;Greistonsas;Greystones
+ur;گرےسٹونز;Greystones
+zh;格雷斯通;Greystones
+uk;Грейстонс;Greystones
+ja;グレイストーンズ;Greystones
+fa;گریستونز;Greystones
+bg;Гренагх;Grenagh
+ru;Гортин;Gorteen
+bg;Гортен;Gorteen
+ka;გორტინი;Gorteen
+ja;ゴーティーン;Gorteen
+bg;Гори;Gorey
+ka;გორი;Gorey
+ru;Гори;Gorey
+ur;گؤری;Gorey
+lt;Goris;Gorey
+uk;Горі;Gorey
+sr;Гори;Gorey
+zh;哥里;Gorey
+ja;ゴーリー;Gorey
+ru;Голден;Golden
+ur;گولڈن، کاؤنٹی ٹیپیراری;Golden
+ml;ഗോൾഡൻ;Golden
+ru;Гленгарифф;Glengarriff
+bg;Гленгариф;Glengarriff
+zh;格伦加里夫;Glengarriff
+zh-Hant;格倫加里夫;Glengarriff
+ja;グレンギャリフ;Glengarriff
+fa;گلنگاریف;Glengarriff
+ru;Гласневин;Glasnevin
+gd;Glas Naíon;Glasnevin
+ru;Гласло;Glaslough
+bg;Гласлоугх;Glaslough
+ja;グラスロー;Glaslough
+ru;Глануэрт;Glanworth
+lt;Kilvortas;Glanworth
+bg;Голуей;Galway
+ja;ゴールウェイ;Galway
+lt;Golvėjus;Galway
+lv;Golveja;Galway
+ru;Голуэй;Galway
+ru;Финадж;Finuge
+fa;فینگلس;Finglas
+gd;Fionnghlas;Finglas
+ru;Финглас;Finglas
+bg;Финглас;Finglas
+lt;Finglasas;Finglas
+ja;フィングラス;Finglas
+ur;فینگلس;Finglas
+ru;Феррибанк;Ferrybank
+lt;Feribankas;Ferrybank
+ru;Фернс;Ferns
+bg;Фърнс;Ferns
+zh;弗恩斯;Ferns
+he;פרמס;Ferns
+bg;Фърмой;Fermoy
+gv;Mannishter 'er Maigh;Fermoy
+ja;ファーモイ;Fermoy
+ru;Фермой;Fermoy
+ur;فرموئے;Fermoy
+lt;Fermojus;Fermoy
+sr;Фермој;Fermoy
+el;Φέρμοϊ;Fermoy
+zh;佛摩伊;Fermoy
+ru;Фёханах;Feohanagh
+ru;Эррил;Errill
+bg;Ерил;Errill
+ru;Эннистимон;Ennistimon
+bg;Енистимон;Ennistimon
+lt;Enistimonas;Ennistimon
+et;Ennistymon;Ennistimon
+ja;エニスティモン;Ennistimon
+ru;Эннискерри;Enniskerry
+bg;Енискерй;Enniskerry
+lt;Eniskeris;Enniskerry
+zh;恩尼斯凱里;Enniskerry
+ja;エニスケリー;Enniskerry
+he;אניסקרי;Enniskerry
+ur;انیسکیری;Enniskerry
+ru;Эннискорти;Enniscorthy
+bg;Енискорти;Enniscorthy
+lt;Eniskortis;Enniscorthy
+hy;Էնիսքորթի;Enniscorthy
+ka;ენისკორტი;Enniscorthy
+uk;Енніскорті;Enniscorthy
+sr;Енискорти;Enniscorthy
+zh;恩尼斯科西;Enniscorthy
+ar;إنيسكورثي;Enniscorthy
+ja;エニスコーシー;Enniscorthy
+he;אניסקורתי;Enniscorthy
+ru;Эмо;Emo
+lt;Imas;Emo
+uk;Емо;Emo
+ja;イモ;Emo
+ru;Эмли;Emly
+bg;Емлй;Emly
+ja;エムリー;Emly
+bg;Идъндери;Edenderry
+ka;ედენდერი;Edenderry
+ru;Идендерри;Edenderry
+ru;Даррус;Durrus
+bg;Дурус;Durrus
+ja;ダンシンク;Dunsink
+zh;丹辛克;Dunsink
+ru;Дуншаулин;Dunshaughlin
+bg;Дъншоклин;Dunshaughlin
+lt;Dunšaulinas;Dunshaughlin
+gv;Dún Seachlainn;Dunshaughlin
+ru;Данмануи;Dunmanway
+ru;Дун-Лэаре;Dún Laoghaire
+fa;دانلیری;Dún Laoghaire
+sr;Дан Лири;Dún Laoghaire
+ja;ダン・レアリー;Dún Laoghaire
+lt;Dan Lerė;Dún Laoghaire
+th;ดูนเลเร;Dún Laoghaire
+he;דן לירי;Dún Laoghaire
+ko;던레러;Dún Laoghaire
+uk;Дан Лері;Dún Laoghaire
+ur;ڈون لاری;Dún Laoghaire
+zh;邓莱里;Dún Laoghaire
+ru;Данлавин;Dunlavin
+bg;Дунлавин;Dunlavin
+ru;Данхилл;Dunhill
+bg;Дунхил;Dunhill
+ru;Дангорни;Dungourney
+bg;Дънгарван;Dungarvan
+ka;დანგარვანი;Dungarvan
+sr;Дангарван;Dungarvan
+ru;Дангарван;Dungarvan
+ko;던가번;Dungarvan
+ur;ڈنگارون;Dungarvan
+zh;邓加文;Dungarvan
+ru;Дандрум;Dundrum
+lt;Dundrumas;Dundrum
+zh;邓德拉姆;Dundrum
+fa;داندرام;Dundrum
+gd;Dún Droma;Dundrum
+ur;ڈنڈرم، ڈبلن;Dundrum
+ru;Дандрам;Dundrum
+ja;ダンドラム;Dundrum
+bg;Дъндолк;Dundalk
+lt;Dandolkas;Dundalk
+gd;Dún Dealgan;Dundalk
+uk;Дандолк;Dundalk
+ja;ダンドーク;Dundalk
+gv;Doon Jialgan;Dundalk
+fa;دانداک;Dundalk
+sr;Дандалк;Dundalk
+ka;დანდოლკი;Dundalk
+ru;Дандолк;Dundalk
+zh;邓多克;Dundalk
+ko;던도크;Dundalk
+ur;ڈونڈوک;Dundalk
+bg;Дънбойн;Dunboyne
+gd;Dún Búinne;Dunboyne
+gv;Dún Búinne;Dunboyne
+ur;ڈنبوئن;Dunboyne
+ru;Данбойн;Dunboyne
+ru;Дулик;Duleek
+bg;Дулийк;Duleek
+lt;Dulikas;Duleek
+gv;Damhliag;Duleek
+ja;デュリーク;Duleek
+ur;ڈولیک;Duleek
+ar;دبلن;Dublin
+be;Дублін;Dublin
+bg;Дъблин;Dublin
+cy;Dulyn;Dublin
+he;דבלין;Dublin
+is;Dyflinn;Dublin
+ja;ダブリン;Dublin
+ko;더블린;Dublin
+kw;Dulyn;Dublin
+lt;Dublinas;Dublin
+lv;Dublina;Dublin
+ru;Дублин;Dublin
+sr;Даблин;Dublin
+th;ดับลิน;Dublin
+zh;都柏林;Dublin
+fa;دوبلین;Dublin
+ug;دۇبلىن;Dublin
+el;Δουβλίνο;Dublin
+am;ደብሊን;Dublin
+ka;დუბლინი;Dublin
+sq;Dublini;Dublin
+ta;டப்லின்;Dublin
+tg;Дублин;Dublin
+ur;ڈبلن;Dublin
+mr;डब्लिन;Dublin
+uk;Дублін;Dublin
+ps;ډبلن;Dublin
+mn;Дублин;Dublin
+ckb;دوبلین;Dublin
+gd;Baile Átha Cliath;Dublin
+mk;Даблин;Dublin
+kn;ಡಬ್ಲಿನ್;Dublin
+ml;ഡബ്ലിൻ;Dublin
+sah;Дублин;Dublin
+kk;Дублин;Dublin
+udm;Дублин;Dublin
+cv;Дублин;Dublin
+mrj;Дублин;Dublin
+ht;Diblin;Dublin
+bn;ডাবলিন;Dublin
+bo;དུབ་ལིན།;Dublin
+hy;Դուբլին;Dublin
+tt;Дублин;Dublin
+krc;Дублин;Dublin
+my;ဒပ်ဗလင်မြို့;Dublin
+gv;Divlyn;Dublin
+os;Дублин;Dublin
+pa;ਡਬਲਿਨ;Dublin
+tpi;Dablin;Dublin
+zh-TW;都柏林;Dublin
+ru;Да;Duagh
+bg;Дуагх;Duagh
+ru;Драмсна;Drumsna
+bg;Друмсна;Drumsna
+ka;დრამსნა;Drumsna
+ru;Драмлиш;Drumlish
+bg;Друмлиш;Drumlish
+ru;Драмклифф;Drumcliff
+be;Драмкліф;Drumcliff
+hu;Drumcliffe;Drumcliff
+ka;დრამკლიფი;Drumcliff
+uk;Драмкліфф;Drumcliff
+gd;Druim Chliabh;Drumcliff
+zh;鼓崖;Drumcliff
+gv;Droim Chliabh;Drumcliff
+pl;Drumcliffe;Drumcliff
+he;דרמקליף;Drumcliff
+ru;Дроминир;Dromineer
+bg;Дроида;Drogheda
+sr;Дрогеда;Drogheda
+gv;Droghad Aah;Drogheda
+ja;ドロヘダ;Drogheda
+lt;Droeda;Drogheda
+fa;دراهیدا;Drogheda
+ru;Дроэда;Drogheda
+zh;德羅赫達;Drogheda
+ko;드로이다;Drogheda
+ur;ڈراہیڈا;Drogheda
+tt;Дроеда;Drogheda
+lv;Droheda;Drogheda
+hy;Դրոեդա;Drogheda
+zh-Hans;德罗赫达;Drogheda
+uk;Дроеда;Drogheda
+el;Ντρόεντε;Drogheda
+mdf;Дроэда;Drogheda
+ar;دروهيدا;Drogheda
+az;Droheda;Drogheda
+be;Дроэда;Drogheda
+he;דרוהדה;Drogheda
+ru;Дрипси;Dripsey
+ru;Дуглас;Douglas
+be;Дуглас;Douglas
+hy;Դուգլաս;Douglas
+el;Ντάγκλας;Douglas
+zh;道格拉斯;Douglas
+ar;دوغلاس;Douglas
+az;Duqlas;Douglas
+fa;داگلاس;Douglas
+he;דאגלס;Douglas
+ru;Дунбег;Doonbeg
+bg;Донбег;Doonbeg
+ja;ドンベッグ;Doonbeg
+ru;Донамор;Donoughmore
+ja;ドノヒル;Donohill
+ru;Доннибрук;Donnybrook
+lt;Donibrukas;Donnybrook
+ar;دونيبروك;Donnybrook
+cy;Domhnach Broc;Donnybrook
+gd;Domhnach Broc;Donnybrook
+ru;Донерейл;Doneraile
+bg;Донераиле;Doneraile
+ja;ドナラル;Doneraile
+ru;Донакарни;Donacarney
+gv;Domhnach Cairnigh;Donacarney
+bg;Доунабейт;Donabate
+gd;Domhnach Bat;Donabate
+ur;ڈونابیٹ;Donabate
+ru;Донабейт;Donabate
+ru;Доллимаунт;Dollymount
+bg;Долймоунт;Dollymount
+gd;Cnocán Doirinne;Dollymount
+ru;Долки;Dalkey
+ru;Кроссмолина;Crossmolina
+ka;კროსმოლინა;Crossmolina
+ja;クロスモリーナ;Crossmolina
+ru;Кросхейвен;Crosshaven
+lt;Kroshavenas;Crosshaven
+ru;Кросс-Барри;Cross Barry
+ru;Кроссабег;Crossabeg
+ja;クロッサベグ;Crossabeg
+ru;Кринкилл;Crinkill
+ru;Креггс;Creggs
+ru;Крахуэлл;Craughwell
+ka;კრახუელი;Craughwell
+ja;クローウェル;Craughwell
+ru;Кратло;Cratloe
+ja;クラットロー;Cratloe
+ru;Кранфорд;Craanford
+ru;Кортаун;Courtown
+lt;Kortaunas;Courtown
+ru;Кортмакшерри;Courtmacsherry
+mk;Кортмакшери;Courtmacsherry
+ru;Корнофулла;Cornafulla
+ka;კორნაფულა;Cornafulla
+ar;كورك;Cork
+bg;Корк;Cork
+he;קורק;Cork
+ja;コーク;Cork
+lt;Korkas;Cork
+lv;Korka;Cork
+ru;Корк;Cork
+os;Корк;Cork
+ka;კორკი;Cork
+be;Корк;Cork
+ko;코크;Cork
+gd;Corcaigh;Cork
+fa;کورک;Cork
+mr;कॉर्क;Cork
+uk;Корк;Cork
+el;Κορκ;Cork
+sr;Корк;Cork
+gv;Corkee;Cork
+cy;Corc;Cork
+th;คอร์ก;Cork
+zh;科克;Cork
+ce;Корк;Cork
+hy;Կորկ;Cork
+ur;کورک;Cork
+yue;科克;Cork
+ka;კუტჰოლი;Cootehall
+ru;Кулграни;Coolgreany
+ru;Кулани;Coolaney
+ka;კულანი;Coolaney
+ru;Коллуни;Collooney
+lt;Kolunis;Collooney
+gv;Cúil Mhuine;Collooney
+ka;კოლუნი;Collooney
+ja;コルーニー;Collooney
+bg;Коув;Cobh
+ar;كوف;Cobh
+ja;コーヴ;Cobh
+lt;Kovas;Cobh
+sr;Коув;Cobh
+ru;Ков;Cobh
+zh;科芙;Cobh
+ur;کوہوہ;Cobh
+uk;Ков;Cobh
+os;Ков;Cobh
+ko;코브;Cobh
+el;Κομπ;Cobh
+th;โคฟ;Cobh
+fa;کبه;Cobh
+ru;Кочфорд;Coachford
+ru;Клунфад;Cloonfad
+ka;კლუნფადი;Cloonfad
+ru;Клундара;Cloondara
+ru;Клонтибрет;Clontibret
+ja;クロンティブレット;Clontibret
+zh;克伦蒂布拉德;Clontibret
+ru;Клонтарф;Clontarf
+gd;Cluain Tarbh;Clontarf
+lt;Klontarfas;Clontarf
+ka;კლონტარფი;Clontarf
+ur;کلونٹارف، ڈبلن;Clontarf
+el;Κλοντάρφ;Clontarf
+zh;克朗塔夫（愛爾蘭）;Clontarf
+ja;クロンターフ;Clontarf
+fa;کلونتارف;Clontarf
+he;דבלין;Clontarf
+ru;Клонсилла;Clonsilla
+gd;Cluain Saileach;Clonsilla
+ru;Клонроч;Clonroche
+ru;Клоноулти;Clonoulty
+ru;Клонс;Clones
+ru;Клони;Clonee
+gv;Cluain Aodha;Clonee
+ru;Клондалейн;Clondulane
+fa;کلاندالکین;Clondalkin
+ka;კლონდოლკინი;Clondalkin
+ru;Клондолкин;Clondalkin
+gd;Cluain Dolcáin;Clondalkin
+bg;Клоунакилти;Clonakilty
+gd;Cloich na Coillte;Clonakilty
+ru;Клонакилти;Clonakilty
+ur;کلونیکیلی;Clonakilty
+ru;Клифден;Clifden
+ka;კლიფდენი;Clifden
+ru;Клегган;Cleggan
+ka;კლეგანი;Cleggan
+ja;クレガン;Cleggan
+ru;Клашмор;Clashmore
+bg;Клеърморис;Claremorris
+ka;კლერმორისი;Claremorris
+ru;Клэрморрис;Claremorris
+ru;Клэрголуэй;Claregalway
+ka;კლერგოლუეი;Claregalway
+ja;クレアゴールウェイ;Claregalway
+ru;Кларин;Clareen
+ru;Клэркасл;Clarecastle
+ja;クレアキャッスル;Clarecastle
+ar;كلارا;Clara
+ru;Клара;Clara
+zh;克拉拉;Clara
+bg;Клейн;Clane
+ur;کلئین;Clane
+ru;Клейн;Clane
+hy;Կլադդախ;Claddagh
+ru;Кладдах;Claddagh
+ja;クラダ;Claddagh
+zh;克拉達;Claddagh
+ru;Чёрчтаун;Churchtown
+ru;Чейплизод;Chapelizod
+bg;Чапелизод;Chapelizod
+zh;恰佩利佐德;Chapelizod
+ja;チャペリゾッド;Chapelizod
+gd;Séipéal Iosóid;Chapelizod
+bg;Селбридж;Celbridge
+fa;سلبریج;Celbridge
+ru;Селбридж;Celbridge
+lt;Selbridžas;Celbridge
+zh;塞爾布里奇;Celbridge
+bg;Каван;Cavan
+gv;Yn Cavan;Cavan
+sr;Каван;Cavan
+ja;キャバン;Cavan
+lt;Kavanas;Cavan
+ru;Каван;Cavan
+zh;卡文;Cavan
+ka;კავანი;Cavan
+gd;An Cabhán;Cavan
+ko;캐번;Cavan
+uk;Каван;Cavan
+ur;کیوان;Cavan
+ru;Каслтауншенд;Castletownshend
+ru;Каслтаунроч;Castletownroche
+ru;Каслмартир;Castlemartyr
+cy;Baile na Martra;Castlemartyr
+ja;キャッスルマーター;Castlemartyr
+ru;Каслмейн;Castlemaine
+he;קאסלמיין;Castlemaine
+ru;Касллайонс;Castlelyons
+cy;Caisleán Ó Liatháin;Castlelyons
+ja;キャッスルライアンズ;Castlelyons
+fa;کسلناک;Castleknock
+ru;Каслнок;Castleknock
+gd;Caisleán Cnucha;Castleknock
+be;Каслнок;Castleknock
+hy;Քասլնոք;Castleknock
+zh;卡索諾;Castleknock
+ar;كاسلنوك;Castleknock
+ja;カッスルノック;Castleknock
+he;קאסלנוק;Castleknock
+hu;Castledermoti nagykeresztek;Castledermot
+mk;Каслдермот;Castledermot
+ru;Каслдермат;Castledermot
+lt;Kasldermotas;Castledermot
+cy;Diseart Diarmad;Castledermot
+ja;キャッスルダーモット;Castledermot
+ru;Каслбридж;Castlebridge
+lt;Kaslbridžas;Castlebridge
+ru;Каслблейни;Castleblayney
+lt;Kaslbleinis;Castleblayney
+ja;カースルブレイニー;Castleblayney
+ru;Каслбеллингем;Castlebellingham
+lt;Kaslbelinheimas;Castlebellingham
+uk;Замок Беллінгам;Castlebellingham
+he;קסלבלינגהם;Castlebellingham
+lt;Kaslbaras;Castlebar
+bg;Касълбар;Castlebar
+gd;Caisleán an Bharraigh;Castlebar
+fa;کسلبار;Castlebar
+sr;Каслбар;Castlebar
+ru;Каслбар;Castlebar
+ja;カスルバー;Castlebar
+ka;კასლბარი;Castlebar
+hy;Կասլբար;Castlebar
+ko;캐슬바;Castlebar
+uk;Каслбар;Castlebar
+ur;کیسلبار;Castlebar
+zh;卡斯尔巴;Castlebar
+ru;Карригтохилл;Carrigtwohill
+lt;Karigtohilis;Carrigtwohill
+ja;キャリトヒル;Carrigtwohill
+gd;Carraig Thuathail;Carrigtwohill
+ur;کیریگٹوہل;Carrigtwohill
+ru;Карриганимми;Carriganimmy
+bg;Каригалайн;Carrigaline
+fa;کاریگالاین;Carrigaline
+gd;Carraig Uí Leighin;Carrigaline
+ja;カリガライン;Carrigaline
+lt;Karigalinas;Carrigaline
+ur;کاریگالائن;Carrigaline
+ru;Карригалин;Carrigaline
+zh;卡里格萊恩;Carrigaline
+zh-Hans;卡里格莱恩;Carrigaline
+ru;Карригадрохид;Carrigadrohid
+bg;Карик он Шур;Carrick-on-Suir
+ka;კერიკ-ონ-შური;Carrick-on-Suir
+ur;کیرک-آن-سوئر;Carrick-on-Suir
+ru;Каррик-он-Шур;Carrick-on-Suir
+bg;Карик он Шанън;Carrick-on-Shannon
+gv;Cora Droma Rúisc;Carrick-on-Shannon
+ja;キャリック＝オン＝シャノン;Carrick-on-Shannon
+ka;კერიკ-ონ-შენონი;Carrick-on-Shannon
+lt;Karikas prie Šanono;Carrick-on-Shannon
+sr;Карик на Шенону;Carrick-on-Shannon
+ru;Каррик-он-Шаннон;Carrick-on-Shannon
+ko;캐릭온섀넌;Carrick-on-Shannon
+uk;Каррік-на-Шанноні;Carrick-on-Shannon
+ur;کیرک-آن-شینن;Carrick-on-Shannon
+zh;香农河畔卡里克;Carrick-on-Shannon
+ru;Каррикмайнс;Carrickmines
+bg;Карикмакрос;Carrickmacross
+ur;کیرکمیکراس;Carrickmacross
+ru;Каррикмакросс;Carrickmacross
+lt;Karikmakrosas;Carrickmacross
+sr;Карикмакрос;Carrickmacross
+ja;カリクマクロス;Carrickmacross
+he;קריקמקרוס;Carrickmacross
+ru;Каррикбег;Carrickbeg
+ru;Карнаросс;Carnaross
+gv;Carn na Ros;Carnaross
+ru;Карбери;Carbury
+lt;Karburis;Carbury
+ur;کاربری، کاؤنٹی کلڈیئر;Carbury
+gd;Baile Chainín;Canningstown
+ru;Кампайл;Campile
+ja;キャンパイル;Campile
+ru;Кальверстаун;Calverstown
+ru;Кэрсивин;Cahersiveen
+lt;Kersivinas;Cahersiveen
+cy;Cathair Saidhbhín;Cahersiveen
+ja;カアサイビーン;Cahersiveen
+he;קאהרסיבין;Cahersiveen
+bg;Кеър;Cahir
+ru;Кэр;Cahir
+uk;Кер;Cahir
+el;Κέαρ;Cahir
+zh;克合;Cahir
+mdf;Кэр;Cahir
+ja;カハ;Cahir
+ru;Кабинтили;Cabinteely
+lt;Kabintilis;Cabinteely
+ja;キャビンティーリー;Cabinteely
+fa;کبینتیلی;Cabinteely
+gd;Cábán tSíle;Cabinteely
+ru;Батлерс-Бридж;Butlersbridge
+bg;Бутлерсбридге;Butlersbridge
+gd;Droichead an Bhuitléaraigh;Butlersbridge
+bg;Бунратй;Bunratty
+ru;Банмахон;Bunmahon
+bg;Бъндоран;Bundoran
+gv;Bun Dobhráin;Bundoran
+ru;Бандоран;Bundoran
+ka;ბანდორანი;Bundoran
+uk;Бандоран;Bundoran
+ru;Брафф;Bruff
+bg;Бруф;Bruff
+ru;Бродфорд;Broadford
+bg;Бридебридге;Bridebridge
+ru;Брей;Bray
+sr;Бреј;Bray
+ja;ブレイ;Bray
+lt;Brėjus;Bray
+bg;Брей;Bray
+fa;بری، ایرلند;Bray
+ka;ბრეი;Bray
+zh;布雷;Bray
+ko;브레이;Bray
+hy;Բրեյ;Bray
+uk;Брей;Bray
+ur;بری، آئر لینڈ;Bray
+be;Брэй;Bray
+zh-HK;布瑞;Bray
+he;בריי;Bray
+hy;Բրակնա;Bracknagh
+ru;Бракна;Bracknagh
+zh;布拉克納;Bracknagh
+ar;بويل;Boyle
+ka;ბოილი;Boyle
+ru;Бойл;Boyle
+fa;بلانچردستاون;Blanchardstown
+gd;Baile Bhlainséir;Blanchardstown
+ru;Бланчардстаун;Blanchardstown
+lt;Blančardstaunas;Blanchardstown
+zh;布蘭查斯頓;Blanchardstown
+zh-Hant;布蘭察斯鎮;Blanchardstown
+ja;ブランチャーズタウン;Blanchardstown
+ur;بلینچرڈس ٹاؤن;Blanchardstown
+fa;بلکراک;Blackrock
+ru;Блэкрок;Blackrock
+lt;Blakrokas;Blackrock
+hy;Բլեքրոք;Blackrock
+zh;布莱克罗克;Blackrock
+ar;بلاكروك;Blackrock
+he;בלקרוק;Blackrock
+ru;Бирр;Birr
+bg;Бир;Birr
+ka;ბირი;Birr
+ru;Беттистаун;Bettystown
+bg;Бетистаун;Bettystown
+zh;米斯郡;Bettystown
+gv;Baile an Bhiataigh;Bettystown
+ja;ベティースタウン;Bettystown
+ar;بينيتسبريدج;Bennettsbridge
+ru;Беннетсбридж;Bennettsbridge
+bg;Бенетцбридге;Bennettsbridge
+ru;Белтурбет;Belturbet
+gd;Beul Tairbeirt;Belturbet
+ka;ბელტურბეტი;Belturbet
+ru;Белтёрбет;Belturbet
+ru;Беллавэри;Bellavary
+ka;ბელავერი;Bellavary
+gd;Béal Átha Bhearaigh;Bellavary
+zh;貝勒韋里;Bellavary
+ru;Баллинод;Bellanode
+bg;Беланоде;Bellanode
+ceb;Bellananagh;Ballinagh
+ru;Баллина;Ballinagh
+bg;Белананагх;Ballinagh
+gd;Béal Átha na nEach;Ballinagh
+ru;Белланамаллия;Bellanamullia
+ka;ბელანამულია;Bellanamullia
+ru;Белланагэр;Bellanagare
+bg;Беланагаре;Bellanagare
+ka;ბელანაგერი;Bellanagare
+ja;ベラナゲア;Bellanagare
+ru;Белгули;Belgooly
+bg;Белголй;Belgooly
+ru;Баттерстаун;Batterstown
+gv;Baile an Bhóthair;Batterstown
+ru;Барнадерг;Barnaderg
+ka;ბარნადერგი;Barnaderg
+ru;Барна;Barna
+ka;ბარნა;Barna
+ja;バーナ;Barna
+bg;Бантри;Bantry
+ka;ბანტრი;Bantry
+ko;밴트리;Bantry
+ru;Бантри;Bantry
+zh;班特里;Bantry
+lt;Bantris;Bantry
+ja;バントリー;Bantry
+fa;بانتری;Bantry
+ru;Банша;Bansha
+bg;Бандън;Bandon
+gd;Droichead na Bandan;Bandon
+ka;ბანდონი;Bandon
+ru;Бандон;Bandon
+be;Бандан;Bandon
+lt;Bandonas;Bandon
+zh-Hans;班顿;Bandon
+ur;بینڈن، کاؤنٹی کورک;Bandon
+sr;Бандон;Bandon
+zh;班頓;Bandon
+cy;Droichead na Bandan;Bandon
+ja;バンドン;Bandon
+he;בנדון;Bandon
+ru;Банахер;Banagher
+ru;Балтрей;Baltray
+ru;Балтингласс;Baltinglass
+bg;Балтинглас;Baltinglass
+lt;Baltinglasas;Baltinglass
+ru;Болтимор;Baltimore
+uk;Балтимор;Baltimore
+ja;ボルティモア;Baltimore
+ru;Балротери;Balrothery
+bg;Балротхерй;Balrothery
+ru;Балливильям;Ballywilliam
+bg;Балишанън;Ballyshannon
+gv;Béal Átha Seanaidh;Ballyshannon
+ka;ბალიშენონი;Ballyshannon
+ru;Баллишаннон;Ballyshannon
+uk;Баллішаннон;Ballyshannon
+ru;Баллинакорра;Ballinacurra
+bg;Балймурн;Ballymurn
+ja;バリーマーン;Ballymurn
+ru;Баллимо;Ballymoe
+ka;ბალიმო;Ballymoe
+ja;バリーモー;Ballymoe
+ru;Баллилуби;Ballylooby
+ru;Баллилонгфорд;Ballylongford
+bg;Балйлонгфорд;Ballylongford
+ar;باليلونغفورد;Ballylongford
+he;בלילונגפורד;Ballylongford
+ru;Баллиланин;Ballylaneen
+ru;Баллихонис;Ballyhaunis
+bg;Балйхаунис;Ballyhaunis
+lt;Balihonisas;Ballyhaunis
+ka;ბალიჰონისი;Ballyhaunis
+ja;バリーハウニス;Ballyhaunis
+gd;Béal Átha hAmhnais;Ballyhaunis
+ru;Баллихейз;Ballyhaise
+bg;Балйхаисе;Ballyhaise
+gd;Béal Átha hÉis;Ballyhaise
+ru;Баллифарнан;Ballyfarnan
+bg;Балйфарнан;Ballyfarnan
+ka;ბალიფარნანი;Ballyfarnan
+gd;Béal Átha Fearnáin;Ballyfarnan
+ru;Балликоммон;Ballycommon
+ru;Балликарни;Ballycarney
+ru;Балликанью;Ballycanew
+ru;Баллибриттас;Ballybrittas
+bg;Балйбритас;Ballybrittas
+lt;Balibritas;Ballybrittas
+ru;Баллиагран;Ballyagran
+bg;Балягран;Ballyagran
+ru;Баллинтемпл;Ballintemple
+be;Балінтэмпл;Ballintemple
+hy;Բելինթեմփըլ;Ballintemple
+ka;ბალინტემპლი;Ballintemple
+tg;Баллинтемпл;Ballintemple
+ja;バリンテンプル;Ballintemple
+az;Ballintempl;Ballintemple
+fa;بالینتمپل;Ballintemple
+he;בולינטמפל;Ballintemple
+ru;Баллинспитл;Ballinspittle
+bg;Балинспитле;Ballinspittle
+gd;Baile an Ròba;Ballinrobe
+ka;ბალინრობი;Ballinrobe
+ru;Баллинроб;Ballinrobe
+bg;Балинробе;Ballinrobe
+lt;Balinrobas;Ballinrobe
+zh;巴林罗布;Ballinrobe
+ja;バリンローデ;Ballinrobe
+ru;Баллинхассиг;Ballinhassig
+lt;Balinheisingas;Ballinhassig
+ru;Баллиндин;Ballindine
+bg;Балиндине;Ballindine
+ka;ბალინდინი;Ballindine
+gd;Baile an Daighin;Ballindine
+ru;Баллиндеррин;Ballinderreen
+ka;ბალინდერინი;Ballinderreen
+fa;بالینکولیگ;Ballincollig
+ru;Баллинколлиг;Ballincollig
+zh;巴林科利格;Ballincollig
+bg;Балинаслоу;Ballinasloe
+gv;Beeal Aah ny Sluigh;Ballinasloe
+ja;バリナスロー;Ballinasloe
+ka;ბალინასლო;Ballinasloe
+ru;Баллинасло;Ballinasloe
+ko;발리나슬로;Ballinasloe
+ru;Баллинади;Ballinadee
+fa;بالینا;Ballina
+sr;Балина;Ballina
+gv;Beeal yn Aah;Ballina
+bg;Балина;Ballina
+ru;Баллина;Ballina
+zh;巴利纳;Ballina
+ka;ბალინა;Ballina
+ko;밸리나;Ballina
+be;Баліна;Ballina
+lt;Balina;Ballina
+hy;Բալլինա;Ballina
+uk;Балліна;Ballina
+gd;Béal an Átha;Ballina
+ur;بالینا، کاؤنٹی میو;Ballina
+el;Μπάλινα;Ballina
+ja;バリナー;Ballina
+he;באלינה;Ballina
+ru;Балликмойлер;Ballickmoyler
+ru;Балдойл;Baldoyle
+bg;Балдойле;Baldoyle
+ja;バルドイル;Baldoyle
+gd;Baile Dúill;Baldoyle
+bg;Балбриган;Balbriggan
+fa;بالبریگان;Balbriggan
+ka;ბალბრიგანი;Balbriggan
+sr;Балбриган;Balbriggan
+ru;Балбригган;Balbriggan
+lt;Balbriganas;Balbriggan
+zh;巴爾布里根;Balbriggan
+zh-Hans;巴尔布里根;Balbriggan
+el;Μπαλμπριγκαν;Balbriggan
+ja;バルブリガン;Balbriggan
+bg;Адай;Athy
+sr;Атај;Athy
+ka;ათაი;Athy
+ru;Атай;Athy
+ru;Атлиг;Athleague
+ka;ათლიგი;Athleague
+ru;Атлакка;Athlacca
+bg;Адънрай;Athenry
+gv;Aah yn Ree;Athenry
+ka;ათენრაი;Athenry
+ru;Атенрай;Athenry
+fa;اتن‌رای;Athenry
+ko;아덴라이;Athenry
+lt;Atenris;Athenry
+ja;アトンライ;Athenry
+ru;Атбой;Athboy
+bg;Атбой;Athboy
+lt;Atbojus;Athboy
+gv;Baile Átha Buí;Athboy
+ru;Аскитон;Askeaton
+bg;Аскеатон;Askeaton
+ja;アスキートン;Askeaton
+bg;Ашборн;Ashbourne
+gv;Cill Dhéagláin;Ashbourne
+ru;Ашборн;Ashbourne
+ru;Артурстаун;Arthurstown
+ja;アーサーズタウン;Arthurstown
+fa;آرکلو;Arklow
+gv;Inver Mooar;Arklow
+sr;Арклоу;Arklow
+bg;Арклоу;Arklow
+ka;არკლოუ;Arklow
+ru;Арклоу;Arklow
+ko;아클로;Arklow
+zh;阿克洛;Arklow
+ru;Ардпатрик;Ardpatrick
+ru;Арднакраша;Ardnacrusha
+lt;Adnakrušas;Ardnacrusha
+ru;Ардфиннан;Ardfinnan
+bg;Ардфинан;Ardfinnan
+lt;Ardfinanas;Ardfinnan
+ru;Ардфилд;Ardfield
+ja;アードフィールド;Ardfield
+ru;Ардкрони;Ardcrony
+ru;Арда;Ardagh
+mk;Арда;Ardagh
+ru;Аннадаун;Annaghdown
+ka;ანადაუნი;Annaghdown
+gd;Eanach Dhúin;Annaghdown
+ru;Ахерла;Aherla
+bg;Ахерла;Aherla
+fa;اهرلا;Aherla
+ur;اہرلا;Aherla
+ru;Аглиш;Aglish
+bg;Аглиш;Aglish
+fa;اگلیش;Aglish
+ur;اگلیش;Aglish
+ru;Ахамор;Aghamore
+ka;ახამორი;Aghamore
+fa;اقامور;Aghamore
+ur;اقامور;Aghamore
+ru;Ахада;Aghada
+bg;Агхада;Aghada
+ar;أغادا;Aghada
+fa;اقادا;Aghada
+ur;اقادا;Aghada
+fa;اقبولگو;Aghabullogue
+ur;اقبولگو;Aghabullogue
+ru;Ахабуллог;Aghabullogue
+ru;Аббисайд;Abbeyside
+ar;آبيسايد;Abbeyside
+uk;Аббісайд;Abbeyside
+he;אביסייד;Abbeyside
+be;Пасёлак Абілейкс;Abbeyleix
+fa;ابیلیکس;Abbeyleix
+lt;Abileiksas;Abbeyleix
+uk;Аббілейкс;Abbeyleix
+ru;Аббилейкс;Abbeyleix
+zh;阿比莱克斯;Abbeyleix
+zh-Hant;阿比萊克斯;Abbeyleix
+zh-HK;阿比萊克斯;Abbeyleix
+ja;アビーリーシュ;Abbeyleix
+ru;Аббидорни;Abbeydorney
+bg;Абейдорней;Abbeydorney
+uk;Аббідорні;Abbeydorney
+fa;ابیدورنی;Abbeydorney
+ru;Балликоннили;Ballyconneely
+ka;ბალიკონილი;Ballyconneely
+ja;バリーコニーリー;Ballyconneely
+ru;Кладдадафф;Claddaghduff
+ru;Темплно;Templenoe
+zh;天普列諾;Templenoe
+bg;Лйре;Lyre
+ru;Лемибрин;Lemybrien
+bg;Лемйбриен;Lemybrien
+ru;Каригин;Carrigeen
+bg;Балинабранагх;Ballinabranagh
+ru;Аннакотти;Annacotty
+zh;阿納科蒂鎮;Annacotty
+ru;Розгрин;Rosegreen
+bg;Росегрен;Rosegreen
+ru;Термон;Termon
+cy;An Tearmann;Termon
+ru;Баллимасканлан;Ballymascanlan
+ru;Шаннон;Shannon
+be;Шэнан;Shannon
+bg;Шанън;Shannon
+ko;섀넌;Shannon
+lt;Šanonas;Shannon
+sr;Шенон;Shannon
+ur;شینن، کاؤنٹی کلیئر;Shannon
+ru;Спейниш-Порт;Spanish Point
+ja;スパニッシュ・ポイント海岸;Spanish Point
+ru;Касл-Болдвин;Castlebaldwin
+ka;კასლბოლდვინი;Castlebaldwin
+ru;Нокнахер;Knocknahur
+ru;Драмконг;Drumcong
+ka;დრამკონგი;Drumcong
+ru;Бакод;Buckode
+ka;ბაკოდი;Buckode
+gv;Bocóid;Buckode
+ja;アスローン;Athlone
+gv;Balley Aah Luain;Athlone
+lt;Atlonas;Athlone
+bg;Атлоун;Athlone
+sr;Атлон;Athlone
+ka;ათლონი;Athlone
+ru;Атлон;Athlone
+lv;Atlona;Athlone
+hy;Աթլոն;Athlone
+uk;Атлон;Athlone
+ur;اتھلون;Athlone
+zh;阿斯隆;Athlone
+ar;أثلون;Athlone
+fa;آثلونه;Athlone
+gd;Baile Átha Luain;Athlone
+ko;애슬론;Athlone
+he;את'לונה;Athlone
+bg;Киленард;Killenard
+ru;Гленкаллен;Glencullen
+ja;グレンカレン;Glencullen
+fa;گلنکالن;Glencullen
+ru;Бриттас;Brittas
+ka;ბრიტასი;Brittas
+ur;بیلی ماؤنٹ;Ballymount
+ru;Фёрхаус;Firhouse
+bg;Фирхоусе;Firhouse
+hy;Ֆեյրհաուս;Firhouse
+uk;Фергаус;Firhouse
+ja;ファーハウス;Firhouse
+fa;فرهاوس;Firhouse
+gd;Teach Giúise;Firhouse
+ru;Сандифорд;Sandyford
+bg;Сандйфорд;Sandyford
+ur;سینڈی فورڈ;Sandyford
+zh;桑迪福德;Sandyford
+ru;Лепардстаун;Leopardstown
+ja;レパーズタウン;Leopardstown
+gd;Baile na Lobhar;Leopardstown
+ur;لیپیرڈس ٹاؤن;Leopardstown
+ru;Фоксрок;Foxrock
+zh;福克斯羅克;Foxrock
+ja;フォックスロック;Foxrock
+fa;فاکسراک;Foxrock
+gd;Carraig an tSionnaigh;Foxrock
+he;פוקסרוק;Foxrock
+ru;Динсгрейндж;Deansgrange
+be;Дынсгрэйндж;Deansgrange
+gd;Gráinseach an Déin;Deansgrange
+zh;迪恩斯格兰奇;Deansgrange
+ru;Ратгар;Rathgar
+bg;Ратхгар;Rathgar
+crh;Ratgar;Rathgar
+gd;Ráth Garbh;Rathgar
+zh;拉斯加;Rathgar
+gv;Ráth Garbh;Rathgar
+ja;ラスガー;Rathgar
+az;Ratqar;Rathgar
+hy;Ռենելա;Ranelagh
+el;Ράνελα;Ranelagh
+zh;拉内拉格;Ranelagh
+ru;Ренела;Ranelagh
+gd;Raghnallach;Ranelagh
+he;רנלה;Ranelagh
+ru;Килбаррак;Kilbarrack
+gd;Cill Bharróg;Kilbarrack
+gd;Droim Conrach;Drumcondra
+ru;Драмкондра;Drumcondra
+el;Ντραμκόντρα;Drumcondra
+zh;德拉姆科德拉;Drumcondra
+ja;ドラムコンドラ;Drumcondra
+fa;درامکندرا;Drumcondra
+ur;ڈرمکونڈرا، ڈبلن;Drumcondra
+he;דרמקונדרה;Drumcondra
+ru;Баллимун;Ballymun
+bg;Балймун;Ballymun
+lt;Balimunas;Ballymun
+zh;巴利蒙;Ballymun
+ja;バリームン;Ballymun
+gd;Baile Munna;Ballymun
+ru;Уолкинстаун;Walkinstown
+ur;واکنز ٹاؤن;Walkinstown
+ru;Баллифермот;Ballyfermot
+gd;An Seanbhábhún;Oldbawn
+ru;Атимасс;Attymass
+ka;ატიმასი;Attymass
+ru;Каслхилл;Castlehill
+ka;კასლჰილი;Castlehill
+ru;Дамастаун;Damastown
+ru;Бельюстаун;Bellewstown
+gv;Baile an Bheileogaigh;Bellewstown
+ru;Бейсайд;Bayside
+fa;بی ساید;Bayside
+gd;Cois Bá;Bayside
+ru;Террелстаун;Tyrrelstown
+ru;Баллилики;Ballylickey
+ceb;Ross Carbery;Rosscarbery
+ru;Росс-Карбери;Rosscarbery
+bg;Мойрос;Moyross
+ru;Мойрос;Moyross
+ru;Фэрвью;Fairview
+gd;Fionnradharc;Fairview
+ur;فیئرویو، ڈبلن;Fairview
+ru;Килмадин;Kilmeaden
+bg;Килмеаден;Kilmeaden
+lt;Kilmidinas;Kilmeaden
+ru;Килтернан;Kilternan
+ja;キルターナン;Kilternan
+ru;Ноклайн;Knocklyon
+gd;Cnoc Lín;Knocklyon
+ru;Палмерстаун;Palmerstown
+zh;帕默斯頓;Palmerstown
+fa;پالمرستاون;Palmerstown
+gd;Baile Phámar;Palmerstown
+ru;Ратмайкл;Rathmichael
+ru;Тедавнет;Tydavnet
+ja;テダブネット村;Tydavnet
+ru;Клонлара;Clonlara
+ru;Клондрохид;Clondrohid
+ru;Каслфин;Castlefin
+bg;Касълфин;Castlefin
+ru;Джобстаун;Jobstown
+ka;ჯობსტაუნი;Jobstown
+gd;Ráth Miontáin;Jobstown
+ru;Киллестер;Killester
+bg;Килестер;Killester
+gd;Cill Easra;Killester
+uk;Портобелло;Portobello
+ru;Портобелло;Portobello
+ru;Аббинокмой;Abbeyknockmoy
+uk;Аббінокмой;Abbeyknockmoy
+ka;აბინოკმოი;Abbeyknockmoy
+fa;ابیکناکموی;Abbeyknockmoy
+ru;Солтхилл;Salthill
+lt;Solthilis;Salthill
+ceb;Newtown Sandes;Moyvane
+ru;Мавянь;Moyvane
+sv;Newtown Sandes;Moyvane
+ru;Ньютаун-Форбс;Newtownforbes
+ja;ニュータウンフォーブス;Newtownforbes
+ka;კარნაკონი;Carnacon
+ru;Драмкондра;Drumconrath
+gv;Droim Conrach;Drumconrath
+ru;Кентстаун;Kentstown
+ja;ケンツタウン;Kentstown
+gv;Baile an Cheantaigh;Kentstown
+ru;Термонбарри;Tarmonbarry
+bg;Тармонбарй;Tarmonbarry
+ka;ტარმონბერი;Tarmonbarry
+ru;Ратгормак;Rathgormack
+ru;Карракло;Curracloe
+ja;キャリグローヘイン;Carrigrohane
+zh;卡里格罗汉;Carrigrohane
+bg;Балалй;Balally
+ru;Балалй;Balally
+bg;Барндариг;Barndarrig
+ru;Килклон;Kilcloon
+he;קליקלון;Kilcloon
+gv;Cill Chluain;Kilcloon
+ru;Сливро;Slieverue
+bg;Слиеверуе;Slieverue
+bg;Балйоулстер;Ballyoulster
+ru;Балликаннан;Ballycannan
+bg;Байлин;Baylin
+ru;Клохдов;Cloughduv
+ru;Тиньюр;Tinure
+bg;Тинуре;Tinure
+gd;An Currach Dearg;Curraghderrig

@@ -3562,3 +3562,5792 @@ de;Mendel-Polarstation;Mendel Polar Station
 es;Base Johann Gregor Mendel;Mendel Polar Station
 pt;Estação Polar Mendel;Mendel Polar Station
 it;Stazione polare Mendel;Mendel Polar Station
+lt;Saratė;Zárate
+fa;سراته;Zárate
+ka;სარატე;Zárate
+kk;Зарате;Zárate
+ky;Зарате;Zárate
+bn;জারাতে;Zárate
+ur;زاراتے;Zárate
+am;ዛራተ;Zárate
+pa;ਜ਼ਾਰਾਤੇ;Zárate
+ps;زاراتې;Zárate
+tg;Зарате;Zárate
+tt;Зарате;Zárate
+ka;ვილდე;Wilde
+uk;Вільде;Wilde
+fa;ویلده;Wilde
+kk;Вилла Паранаситo;Villa Paranacito
+ky;Вилла Паранаситo;Villa Paranacito
+bn;ভিলা পারানসিতো;Villa Paranacito
+ur;ویلا پارانسیتو;Villa Paranacito
+am;ቪላ ፓራናሲቶ;Villa Paranacito
+fa;ویلا پارانسیتو;Villa Paranacito
+pa;ਵਿਲਾ ਪਾਰਾਨਸੀਟੋ;Villa Paranacito
+ps;ویلا پارانسیتو;Villa Paranacito
+tg;Вилла Паранаситo;Villa Paranacito
+tt;Вилла Паранаситo;Villa Paranacito
+kk;Вильягуай;Villaguay
+ky;Вильягуай;Villaguay
+bn;ভিলাগুয়ে;Villaguay
+ur;ویلاگوے;Villaguay
+am;ቪላጓይ;Villaguay
+fa;ویلاگوئی;Villaguay
+pa;ਵਿਲਾਗੁਏ;Villaguay
+ps;ویلاګوی;Villaguay
+tg;Вильягуай;Villaguay
+tt;Вильягуай;Villaguay
+fa;وییا بایستر;Villa Ballester
+lt;Vilja Balesteris;Villa Ballester
+uk;Вілья-Бальєстер;Villa Ballester
+ceb;Villa Alsina;Valentín Alsina
+sv;Villa Alsina;Valentín Alsina
+be;Валентын-Альсіна;Valentín Alsina
+hy;Վալենտին Ալսինա;Valentín Alsina
+uk;Валентин-Альсіна;Valentín Alsina
+fa;والنتین آلسینا، بوئنوس آیرس;Valentín Alsina
+be;Вісентэ-Лопес;Vicente López
+lt;Visente Lopesas;Vicente López
+lv;Visentelopesa;Vicente López
+bn;ভিন্সেন্ত লোপেজ;Vicente López
+hy;Վիսենտե Լոպես;Vicente López
+ka;ვისენტე-ლოპესი;Vicente López
+si;විසේන්ටේ ලෝපස්;Vicente López
+uk;Вісенте-Лопес;Vicente López
+ur;ویکینتی لوپز;Vicente López
+sr;Висенте Лопез;Vicente López
+kn;ವಿಸೆಂಟೆ ಲೋಪೆಜ್;Vicente López
+mr;विसेंट लोपेज;Vicente López
+el;Βισέντε Λόπες;Vicente López
+ta;விசிண்டே லோபெஸ்;Vicente López
+gu;વિસેન્ટ લોપેઝ;Vicente López
+te;విసెంటే లోపెజ్;Vicente López
+th;บีเซนเต โลเปซ;Vicente López
+he;ויסנטה לופס;Vicente López
+kk;Вероника;Verónica
+ky;Вероника;Verónica
+bn;ভেরোনিকা;Verónica
+ur;ویرونیکا;Verónica
+am;ቬሮኒካ;Verónica
+fa;ورونیکا;Verónica
+pa;ਵੇਰੋਨਿਕਾ;Verónica
+ps;ویرونیکا;Verónica
+tg;Вероника;Verónica
+tt;Вероника;Verónica
+fa;توردرا;Turdera
+ur;توردرا;Turdera
+uk;Тортугітас;Tortuguitas
+fa;تورتوگیتاس;Tortuguitas
+fa;تاندیل;Tandil
+sr;Тандил;Tandil
+lt;Tandilis;Tandil
+he;טנדיל;Tandil
+ka;ტანდილი;Tandil
+kk;Тандил;Tandil
+ky;Тандил;Tandil
+bn;তান্ডিল;Tandil
+ur;تندیل;Tandil
+am;ታንዲል;Tandil
+pa;ਤਾਂਡਿਲ;Tandil
+ps;تندیل;Tandil
+tg;Тандил;Tandil
+tt;Тандил;Tandil
+th;ลาตาบลาดา;La Tablada
+ka;ლა-ტაბლადა;La Tablada
+uk;Ла-Таблада;La Tablada
+fa;لا تابلادا;La Tablada
+kk;Суйпача;Suipacha
+ky;Суйпача;Suipacha
+bn;সুইপাছা;Suipacha
+ur;سویپاچھا;Suipacha
+am;ሱይፓቻ;Suipacha
+fa;سویپاچا;Suipacha
+pa;ਸੁਇਪਾਚਾ;Suipacha
+ps;سویپاچا;Suipacha
+tg;Суйпача;Suipacha
+tt;Суйпача;Suipacha
+uk;Сьєрра-де-лос-Падрес;Sierra de los Padres
+kk;Соус;Sauce
+ky;Соус;Sauce
+bn;সস;Sauce
+ur;ساس;Sauce
+am;ሶስ;Sauce
+fa;سوس;Sauce
+pa;ਸੌਸ;Sauce
+ps;ساس;Sauce
+tg;Соус;Sauce
+tt;Соус;Sauce
+kk;Сан-Висенте;San Vicente
+ky;Сан-Висенте;San Vicente
+bn;সান ভিসেন্টে;San Vicente
+ur;سان ویسنتے;San Vicente
+am;ሳን ቪሴንቴ;San Vicente
+fa;سن ویسنته;San Vicente
+pa;ਸੈਂ ਵਿਸੈਂਟੇ;San Vicente
+ps;سان ویسنتې;San Vicente
+tg;Сан-Висенте;San Vicente
+tt;Сан-Висенте;San Vicente
+kk;Санто-Томе;Santo Tomé
+ky;Санто-Томе;Santo Tomé
+bn;সান্টো টোমে;Santo Tomé
+ur;سانتو ٹومے;Santo Tomé
+am;ሳንቶ ቶሜ;Santo Tomé
+fa;سانتو تومه;Santo Tomé
+pa;ਸੈਂਟੋ ਟੋਮੇ;Santo Tomé
+ps;سانتو ټومې;Santo Tomé
+tg;Санто-Томе;Santo Tomé
+tt;Санто-Томе;Santo Tomé
+ka;სანტოს-ლუგარესი;Santos Lugares
+fa;سانتوس لوگارس;Santos Lugares
+kk;Санта-Люсия;Santa Lucía
+ky;Санта-Люсия;Santa Lucía
+bn;সান্টা লুসিয়া;Santa Lucía
+ur;سانتا لوسیا;Santa Lucía
+am;ሳንታ ሉሲያ;Santa Lucía
+fa;سانتا لوسیا;Santa Lucía
+pa;ਸੈਂਟਾ ਲੂਸੀਆ;Santa Lucía
+ps;سانتا لوسیا;Santa Lucía
+tg;Санта-Люсия;Santa Lucía
+tt;Санта-Люсия;Santa Lucía
+kk;Санта-Ана;Santa Ana
+ky;Санта-Ана;Santa Ana
+bn;সান্টা আনা;Santa Ana
+ur;سانتا انا;Santa Ana
+am;ሳንታ አና;Santa Ana
+fa;سانتا آنا;Santa Ana
+pa;ਸੈਂਟਾ ਅਨਾ;Santa Ana
+ps;سانتا انا;Santa Ana
+tg;Санта-Ана;Santa Ana
+tt;Санта-Ана;Santa Ana
+kk;Сан-Сальвадор;San Salvador
+ky;Сан-Сальвадор;San Salvador
+bn;সান সালভেডর;San Salvador
+ur;سان سلواڈور;San Salvador
+am;ሳን ሳልቫዶር;San Salvador
+fa;سن سالوادور;San Salvador
+pa;ਸੈਂ ਸਲਵਾਡੋਰ;San Salvador
+ps;سان سلواډور;San Salvador
+tg;Сан-Сальвадор;San Salvador
+tt;Сан-Сальвадор;San Salvador
+kk;Сан-Рок;San Roque
+ky;Сан-Рок;San Roque
+bn;সান রোক;San Roque
+ur;سان روک;San Roque
+am;ሳን ሮክ;San Roque
+fa;سن روک;San Roque
+pa;ਸੈਂ ਰੌਕ;San Roque
+ps;سان روک;San Roque
+tg;Сан-Рок;San Roque
+tt;Сан-Рок;San Roque
+kk;Сан-Педро;San Pedro
+ky;Сан-Педро;San Pedro
+bn;সান পেড্রো;San Pedro
+ur;سان پیڈرو;San Pedro
+am;ሳን ፔድሮ;San Pedro
+fa;سن پدرو;San Pedro
+pa;ਸੈਂ ਪੇਡਰੋ;San Pedro
+ps;سان پیډرو;San Pedro
+tg;Сан-Педро;San Pedro
+tt;Сан-Педро;San Pedro
+kk;Сан-Мигель-дель-Монте;San Miguel del Monte
+ky;Сан-Мигель-дель-Монте;San Miguel del Monte
+bn;সান মিগুয়েল ডেল মন্টে;San Miguel del Monte
+ur;سان میگویل ڈیل مونتے;San Miguel del Monte
+am;ሳን ሚጋኤል ደል ሞንተ;San Miguel del Monte
+fa;سن میگوئل دل مونته;San Miguel del Monte
+pa;ਸੈਂ ਮਿਗੁਏਲ ਡੈਲ ਮੌਂਟੇ;San Miguel del Monte
+ps;سان میګویل ډیل مونتی;San Miguel del Monte
+tg;Сан-Мигель-дель-Монте;San Miguel del Monte
+tt;Сан-Мигель-дель-Монте;San Miguel del Monte
+kk;Сан-Мигель;San Miguel
+ky;Сан-Мигель;San Miguel
+bn;সান মিগুয়েল;San Miguel
+ur;سان میگویل;San Miguel
+am;ሳን ሚጋኤል;San Miguel
+fa;سن میگوئل;San Miguel
+pa;ਸੈਂ ਮਿਗੁਏਲ;San Miguel
+ps;سان میګویل;San Miguel
+tg;Сан-Мигель;San Miguel
+tt;Сан-Мигель;San Miguel
+kk;Сан-Луис-дель-Пальмар;San Luis del Palmar
+ky;Сан-Луис-дель-Пальмар;San Luis del Palmar
+bn;সান লুইস ডেল পালমার;San Luis del Palmar
+ur;سان لویس ڈیل پالمار;San Luis del Palmar
+am;ሳን ሉዊስ ደል ፓልማር;San Luis del Palmar
+fa;سن لویس دل پالمار;San Luis del Palmar
+pa;ਸੈਂ ਲੂਈਸ ਡੈਲ ਪਾਲਮਾਰ;San Luis del Palmar
+ps;سان لویس ډیل پالمار;San Luis del Palmar
+tg;Сан-Луис-дель-Пальмар;San Luis del Palmar
+tt;Сан-Луис-дель-Пальмар;San Luis del Palmar
+uk;Сан-Хусто;San Justo
+kk;Сан-Хусто;San Justo
+ky;Сан-Хусто;San Justo
+bn;সান জুস্তো;San Justo
+ur;سان جسٹو;San Justo
+am;ሳን ሁስቶ;San Justo
+fa;سن خوستو;San Justo
+pa;ਸੈਂ ਜਸਤੋ;San Justo
+ps;سان جسټو;San Justo
+tg;Сан-Хусто;San Justo
+tt;Сан-Хусто;San Justo
+kk;Сан-Хосе-де-Фелисиано;San José de Feliciano
+ky;Сан-Хосе-де-Фелисиано;San José de Feliciano
+bn;সান জোসে ডে ফেলিসিআনো;San José de Feliciano
+ur;سان جوسے ڈے فیلیسیانو;San José de Feliciano
+am;ሳን ሆሴ ዴ ፌሊሲያኖ;San José de Feliciano
+fa;سن خوسه دی فلیسیانو;San José de Feliciano
+pa;ਸੈਂ ਜੋਸੇ ਡੇ ਫੇਲਿਸਿਆਨੋ;San José de Feliciano
+ps;سان جوسې ډې فیلیسیانو;San José de Feliciano
+tg;Сан-Хосе-де-Фелисиано;San José de Feliciano
+tt;Сан-Хосе-де-Фелисиано;San José de Feliciano
+kk;Сан-Харьер;San Javier
+ky;Сан-Харьер;San Javier
+bn;সান জেভিয়ার;San Javier
+ur;سان جیویئر;San Javier
+am;ሳን ሃቬየር;San Javier
+fa;سن خاویر;San Javier
+pa;ਸੈਂ ਜੇਵੀਅਰ;San Javier
+ps;سان جویر;San Javier
+tg;Сан-Харьер;San Javier
+tt;Сан-Харьер;San Javier
+fa;سان ایسیدرو;San Isidro
+sr;Сан Исидро;San Isidro
+kk;Сан-Исидро;San Isidro
+ky;Сан-Исидро;San Isidro
+bn;সান ইসিড্রো;San Isidro
+ur;سان اسیڈرو;San Isidro
+am;ሳን ኢሲድሮ;San Isidro
+pa;ਸੈਂ ਇਸਿਡ੍ਰੋ;San Isidro
+ps;سان ایزیډرو;San Isidro
+tg;Сан-Исидро;San Isidro
+tt;Сан-Исидро;San Isidro
+kk;Сан-Игнасио;San Ignacio
+ky;Сан-Игнасио;San Ignacio
+bn;সান ইগনাসিও;San Ignacio
+ur;سان اگناسیو;San Ignacio
+am;ሳን ኢግናሲዮ;San Ignacio
+fa;سن ایگناسیو;San Ignacio
+pa;ਸੈਂ ਇਗਨਾਸੀਓ;San Ignacio
+ps;سان اگناسیو;San Ignacio
+tg;Сан-Игнасио;San Ignacio
+tt;Сан-Игнасио;San Ignacio
+kk;Сан-Франсиско-де-Лаиши;San Francisco de Laishi
+ky;Сан-Франсиско-де-Лаиши;San Francisco de Laishi
+bn;সান ফ্রান্সিস্কো ডে লাইশি;San Francisco de Laishi
+ur;سان فرانسسکو ڈے لائشی;San Francisco de Laishi
+am;ሳን ፍራንሲስኮ ዴ ላይሺ;San Francisco de Laishi
+fa;سن فرانسیسکو دی لایشی;San Francisco de Laishi
+pa;ਸੈਂ ਫ੍ਰਾਂਸਿਸਕੋ ਡੇ ਲਾਈਸ਼ੀ;San Francisco de Laishi
+ps;سان فرانسسکو ډی لایشی;San Francisco de Laishi
+tg;Сан-Франсиско-де-Лаиши;San Francisco de Laishi
+tt;Сан-Франсиско-де-Лаиши;San Francisco de Laishi
+kk;Сан-Космо;San Cosme
+ky;Сан-Космо;San Cosme
+bn;সান কসমে;San Cosme
+ur;سان کوسمے;San Cosme
+am;ሳን ኮስሜ;San Cosme
+fa;سن کوسمه;San Cosme
+pa;ਸੈਂ ਕੋਸਮੇ;San Cosme
+ps;سان کوسمي;San Cosme
+tg;Сан-Космо;San Cosme
+tt;Сан-Космо;San Cosme
+kk;Сан-Каетано;San Cayetano
+ky;Сан-Каетано;San Cayetano
+bn;সান কায়েতানো;San Cayetano
+ur;سان کایتانو;San Cayetano
+am;ሳን ካየታኖ;San Cayetano
+fa;سن کایتانو;San Cayetano
+pa;ਸੈਂ ਕਾਏਤਾਨੋ;San Cayetano
+ps;سان کایتانو;San Cayetano
+tg;Сан-Каетано;San Cayetano
+tt;Сан-Каетано;San Cayetano
+fa;سان آنتونیو ده پادوا;San Antonio de Padua
+be;Сан-Антоніа-дэ-Падуа;San Antonio de Padua
+kk;Сан-Антонио-де-Аресо;San Antonio de Areco
+ky;Сан-Антонио-де-Аресо;San Antonio de Areco
+bn;সান আন্তোনিও ডে আরেকো;San Antonio de Areco
+ur;سان انتونیو ڈے اریکو;San Antonio de Areco
+am;ሳን ኣንቶኒዮ ዴ አሬኮ;San Antonio de Areco
+fa;سن آنتونیو دی آریکو;San Antonio de Areco
+pa;ਸੈਂ ਅੰਟੋਨੀਓ ਡੇ ਅਰੇਕੋ;San Antonio de Areco
+ps;سان انتونیو ډی اریکو;San Antonio de Areco
+tg;Сан-Антонио-де-Аресо;San Antonio de Areco
+tt;Сан-Антонио-де-Аресо;San Antonio de Areco
+kk;Сан-Антонио;San Antonio
+ky;Сан-Антонио;San Antonio
+bn;সান আন্তোনিও;San Antonio
+ur;سان انتونیو;San Antonio
+am;ሳን ኣንቶኒዮ;San Antonio
+fa;سن آنتونیو;San Antonio
+pa;ਸੈਂ ਅੰਟੋਨੀਓ;San Antonio
+ps;سان انتونیو;San Antonio
+tg;Сан-Антонио;San Antonio
+tt;Сан-Антонио;San Antonio
+kk;Сан-Андрес-де-Хилес;San Andrés de Giles
+ky;Сан-Андрес-де-Хилес;San Andrés de Giles
+bn;সান আন্দ্রেস ডে গিলেস;San Andrés de Giles
+ur;سان اندریس ڈے گیلز;San Andrés de Giles
+am;ሳን አንድሬስ ዴ ጂለስ;San Andrés de Giles
+fa;سن اندریس دی جیلز;San Andrés de Giles
+pa;ਸੈਂ ਐਂਡਰਿਸ ਡੇ ਗਿਲਜ਼;San Andrés de Giles
+ps;سان اندریس ډی جیلز;San Andrés de Giles
+tg;Сан-Андрес-де-Хилес;San Andrés de Giles
+tt;Сан-Андрес-де-Хилес;San Andrés de Giles
+kk;Саладильо;Saladillo
+ky;Саладильо;Saladillo
+bn;সালাডিলো;Saladillo
+ur;سلادیلو;Saladillo
+am;ሳላዲሎ;Saladillo
+fa;سالادیلو;Saladillo
+pa;ਸਾਲਾਡਿਲੋ;Saladillo
+ps;سلادیلو;Saladillo
+tg;Саладильо;Saladillo
+tt;Саладильо;Saladillo
+kk;Салядас;Saladas
+ky;Салядас;Saladas
+bn;সালাদাস;Saladas
+ur;سلاداس;Saladas
+am;ሳላዳስ;Saladas
+fa;سالاداس;Saladas
+pa;ਸਾਲਾਦਾਸ;Saladas
+ps;سلاداس;Saladas
+tg;Салядас;Saladas
+tt;Салядас;Saladas
+kk;Росарио дель Тала;Rosario del Tala
+ky;Росарио дель Тала;Rosario del Tala
+bn;রোসারিও ডেল তালা;Rosario del Tala
+ur;روسارو ڈیل تالا;Rosario del Tala
+am;ሮሳሪዮ ደል ታላ;Rosario del Tala
+fa;روزاریو دل تالا;Rosario del Tala
+pa;ਰੋਸਾਰੀਓ ਡੇਲ ਤਾਲਾ;Rosario del Tala
+ps;روسارو ډیل تالا;Rosario del Tala
+tg;Росарио дель Тала;Rosario del Tala
+tt;Росарио дель Тала;Rosario del Tala
+kk;Роке Перес;Roque Pérez
+ky;Роке Перес;Roque Pérez
+bn;রোকে পেরেজ;Roque Pérez
+ur;روکے پیریز;Roque Pérez
+am;ሮክ ፔሬዝ;Roque Pérez
+fa;روکه پریز;Roque Pérez
+pa;ਰੋਕੇ ਪੇਰੇਜ;Roque Pérez
+ps;روکے پیریز;Roque Pérez
+tg;Роке Перес;Roque Pérez
+tt;Роке Перес;Roque Pérez
+bg;Ресистенсия;Resistencia
+lt;Resistensija;Resistencia
+fa;رزیستنسیا;Resistencia
+hr;Resistancia;Resistencia
+sr;Ресистенсија;Resistencia
+ka;რესისტენსია;Resistencia
+uk;Ресістенсія;Resistencia
+sgs;Resistensėjė;Resistencia
+he;רסיסטנסיה;Resistencia
+hy;Ռեսիստենսիա;Resistencia
+lv;Resistensija;Resistencia
+th;เรซิสเตนเซีย;Resistencia
+ur;رزیستنسیا، چاکو;Resistencia
+bn;রেজিস্টেনসিয়া;Resistencia
+am;ሬሲስቴንሲያ;Resistencia
+pa;ਰੈਜ਼ਿਸਟੈਂਸੀਆ;Resistencia
+ps;ریزسټنسیا;Resistencia
+kk;Реконкиста;Reconquista
+ky;Реконкиста;Reconquista
+bn;রিকনকোয়েস্টা;Reconquista
+ur;ری کنکویسٹا;Reconquista
+am;ሪኮንክዊስታ;Reconquista
+fa;رکونکوئیستا;Reconquista
+pa;ਰੀਕੌਨਕਵਿਸਟਾ;Reconquista
+ps;ری کنکویسټا;Reconquista
+tg;Реконкиста;Reconquista
+tt;Реконкиста;Reconquista
+kk;Раух;Rauch
+ky;Раух;Rauch
+bn;রাউচ;Rauch
+ur;راؤچ;Rauch
+am;ራውች;Rauch
+fa;راوچ;Rauch
+pa;ਰਾਚ;Rauch
+ps;راؤچ;Rauch
+tg;Раух;Rauch
+tt;Раух;Rauch
+kk;Ранчос;Ranchos
+ky;Ранчос;Ranchos
+bn;রাঞ্চোস;Ranchos
+ur;رینچوز;Ranchos
+am;ራንቾስ;Ranchos
+fa;رانچوز;Ranchos
+pa;ਰਾਂਚੋਜ਼;Ranchos
+ps;رینچوز;Ranchos
+tg;Ранчос;Ranchos
+tt;Ранчос;Ranchos
+fa;راموس مخیا;Ramos Mejía
+ka;რამოს-მეხია;Ramos Mejía
+bg;Килмес;Quilmes
+fa;کیلمس;Quilmes
+ka;კილმესი;Quilmes
+lt;Kilmesas;Quilmes
+sr;Килмес;Quilmes
+uk;Кільмес;Quilmes
+he;קילמס;Quilmes
+hy;Կիլմես;Quilmes
+kk;Килмес;Quilmes
+ky;Килмес;Quilmes
+bn;কুইলমেস;Quilmes
+ur;کویلمیس;Quilmes
+am;ኪልሜስ;Quilmes
+pa;ਕਿਲਮੇਸ;Quilmes
+ps;کویلمیس;Quilmes
+tg;Килмес;Quilmes
+tt;Килмес;Quilmes
+kk;Пуэрто Тирол;Puerto Tirol
+ky;Пуэрто Тирол;Puerto Tirol
+bn;পুয়ের্তো তিরোল;Puerto Tirol
+ur;پویرٹو تیرول;Puerto Tirol
+am;ፖርቶ ቲሮል;Puerto Tirol
+fa;پورتو تیرول;Puerto Tirol
+pa;ਪੁਏਰਟੋ ਟਿਰੋਲ;Puerto Tirol
+ps;پویرٹو تیرول;Puerto Tirol
+tg;Пуэрто Тирол;Puerto Tirol
+tt;Пуэрто Тирол;Puerto Tirol
+kk;Пуэрто-Рико;Puerto Rico
+tr;Porto Riko;Puerto Rico
+uz;Puerto Riko;Puerto Rico
+ky;Пуэрто-Рико;Puerto Rico
+id;Puerto Riko;Puerto Rico
+ms;Puerto Riko;Puerto Rico
+bn;পুয়ের্তো রিকো;Puerto Rico
+ur;پویرٹو ریکو;Puerto Rico
+am;ፖርቶ ሪኮ;Puerto Rico
+az;Puerto Riko;Puerto Rico
+fa;پورتوریکو;Puerto Rico
+jv;Puerto Riko;Puerto Rico
+pa;ਪੁਏਰਟੋ ਰਿਕੋ;Puerto Rico
+ps;پویرٹو ریکو;Puerto Rico
+tg;Пуэрто-Рико;Puerto Rico
+tt;Пуэрто-Рико;Puerto Rico
+lt;Puerto Igvasu;Puerto Iguazú
+fa;پورتو یواسو;Puerto Iguazú
+uk;Пуерто-Іґуасу;Puerto Iguazú
+ckb;پوێرتۆ ئیگواسوو;Puerto Iguazú
+he;פוארטו איגואסו;Puerto Iguazú
+vep;Puerto Iguasu;Puerto Iguazú
+hy;Պուերտո Իգուասու;Puerto Iguazú
+kk;Пуэрто Эсперанса;Puerto Esperanza
+ky;Пуэрто Эсперанса;Puerto Esperanza
+bn;পুয়ের্তো এসপেরানজা;Puerto Esperanza
+ur;پویرٹو ایسپیرانزا;Puerto Esperanza
+am;ፖርቶ ፋይዳ;Puerto Esperanza
+fa;پورتو امیدواری;Puerto Esperanza
+pa;ਪੁਏਰਟੋ ਐਸਪੇਰਾਂਜ਼ਾ;Puerto Esperanza
+ps;پویرٹو ایسپیرانزا;Puerto Esperanza
+tg;Пуэрто Эсперанса;Puerto Esperanza
+tt;Пуэрто Эсперанса;Puerto Esperanza
+kk;Президенсия де ла Плаза;Presidencia de la Plaza
+ky;Президенсия де ла Плаза;Presidencia de la Plaza
+bn;প্রেসিডেন্সিয়া ডে লা প্লাজা;Presidencia de la Plaza
+ur;صدارتِ ِِالساحہ;Presidencia de la Plaza
+am;ፕሬዚዴንሲያ ደ ላ ፕላዛ;Presidencia de la Plaza
+fa;رئاسة الساحة;Presidencia de la Plaza
+pa;ਪ੍ਰੈਜ਼ੀਡੈਂਸੀਆ ਦੇ ਲਾ ਪਲਾਜ਼ਾ;Presidencia de la Plaza
+ps;صدارتِ الساحہ;Presidencia de la Plaza
+tg;Президенсия де ла Плаза;Presidencia de la Plaza
+tt;Президенсия де ла Плаза;Presidencia de la Plaza
+lt;Posadasas;Posadas
+bg;Посадас;Posadas
+sr;Посадас;Posadas
+he;פוסאדאס;Posadas
+uk;Посадас;Posadas
+ka;პოსადასი;Posadas
+fa;پوساداس;Posadas
+hy;Պոսադաս;Posadas
+lv;Posadasa;Posadas
+ur;پاساداس، میسیونس;Posadas
+bn;পসাদাস;Posadas
+am;ፖሳዳስ;Posadas
+pa;ਪੋਸਾਡਾਸ;Posadas
+ps;پوسادس;Posadas
+fa;پونته‌ودرا;Pontevedra
+kk;Пиране;Pirané
+ky;Пиране;Pirané
+bn;পিরানে;Pirané
+ur;پیرانے;Pirané
+am;ፒራኔ;Pirané
+fa;پیرانه;Pirané
+pa;ਪਿਰਾਨੇ;Pirané
+ps;پیرانے;Pirané
+tg;Пиране;Pirané
+tt;Пиране;Pirané
+kk;Пинамар;Pinamar
+ky;Пинамар;Pinamar
+bn;পিনামার;Pinamar
+ur;پیناماور;Pinamar
+am;ፒናማር;Pinamar
+fa;پیناماز;Pinamar
+pa;ਪਿਨਾਮਾਰ;Pinamar
+ps;پیناماور;Pinamar
+tg;Пинамар;Pinamar
+tt;Пинамар;Pinamar
+kk;Пилар;Pilar
+ky;Пилар;Pilar
+bn;পিলার;Pilar
+ur;پلار;Pilar
+am;ፒላር;Pilar
+fa;پیلار;Pilar
+pa;ਪਿਲਾਰ;Pilar
+ps;پلار;Pilar
+tg;Пилар;Pilar
+tt;Пилар;Pilar
+kk;Пила;Pila
+ky;Пила;Pila
+bn;পিলা;Pila
+ur;پلا;Pila
+am;ፒላ;Pila
+fa;پیلا;Pila
+pa;ਪਿਲਾ;Pila
+ps;پلا;Pila
+tg;Пила;Pila
+tt;Пила;Pila
+kk;Пасо де лос Либрес;Paso de los Libres
+ky;Пасо де лос Либрес;Paso de los Libres
+bn;পাসো ডি লস লিব্রেস;Paso de los Libres
+ur;پاسو ڈی لوس لیبریس;Paso de los Libres
+am;ፓሶ ዴ ሎስ ሊብሬስ;Paso de los Libres
+fa;پاسو د لوس لیبریس;Paso de los Libres
+pa;ਪਾਸੋ ਡੇ ਲੋਸ ਲਿਬ੍ਰੇਸ;Paso de los Libres
+ps;پاسو ډی لوس لیبریس;Paso de los Libres
+tg;Пасо де лос Либрес;Paso de los Libres
+tt;Пасо де лос Либрес;Paso de los Libres
+bg;Оливос;Olivos
+fa;اولیووس;Olivos
+ka;ოლივოსი;Olivos
+uk;Олівос;Olivos
+kk;Оливос;Olivos
+ky;Оливос;Olivos
+bn;অলিভোস;Olivos
+ur;اولیوس;Olivos
+am;ኦሊቮስ;Olivos
+pa;ਓਲੀਵੋਸ;Olivos
+ps;اولیوس;Olivos
+tg;Оливос;Olivos
+tt;Оливос;Olivos
+fa;اوبرا;Oberá
+he;אוברה;Oberá
+kk;Оберá;Oberá
+ky;Оберá;Oberá
+bn;ওবেরা;Oberá
+ur;اوبیرا;Oberá
+am;ኦቤራ;Oberá
+pa;ਓਬੇਰਾ;Oberá
+ps;اوبیرا;Oberá
+tg;Оберá;Oberá
+tt;Оберá;Oberá
+kk;Нуэстра Сеньора дель Росарио де Каа Каті;Nuestra Señora del Rosario de Caá Catí
+ky;Нуэстра Сеньора дель Росарио де Каа Каті;Nuestra Señora del Rosario de Caá Catí
+bn;নুয়েস্ত্রা সেনোরা ডেল রোসারিও ডে কাআ কাতি;Nuestra Señora del Rosario de Caá Catí
+ur;نویسٹرا سنیورا ڈیل روسارو ڈی کاا کاتی;Nuestra Señora del Rosario de Caá Catí
+am;ኗእስተ ሴኞራ ደል ሮሳሪዮ ደ ካአ ካቲ;Nuestra Señora del Rosario de Caá Catí
+fa;خانم ما از رزاریو کاا کاتی;Nuestra Señora del Rosario de Caá Catí
+pa;ਨੁਏਸਟ੍ਰਾ ਸੇਨਿਓਰਾ ਡੇਲ ਰੋਸਾਰੀਓ ਡੇ ਕਾਆ ਕਾਤੀ;Nuestra Señora del Rosario de Caá Catí
+ps;نویسٹرا سنیورا ډیل روسارو ډی کاا کاتی;Nuestra Señora del Rosario de Caá Catí
+tg;Нуэстра Сеньора дель Росарио де Каа Каті;Nuestra Señora del Rosario de Caá Catí
+tt;Нуэстра Сеньора дель Росарио де Каа Каті;Nuestra Señora del Rosario de Caá Catí
+kk;Ногойá;Nogoyá
+ky;Ногойá;Nogoyá
+bn;নোগোয়া;Nogoyá
+ur;نوگویا;Nogoyá
+am;ኖጐያ;Nogoyá
+fa;نوگویا;Nogoyá
+pa;ਨੋਗੋਯਾ;Nogoyá
+ps;نوگویا;Nogoyá
+tg;Ногойá;Nogoyá
+tt;Ногойá;Nogoyá
+fa;نکوچئا;Necochea
+lt;Nekočėja;Necochea
+ka;ნეკოჩეა;Necochea
+kk;Некочеа;Necochea
+ky;Некочеа;Necochea
+bn;নেকোচেয়া;Necochea
+ur;نیکوچیا;Necochea
+am;ነኮቼያ;Necochea
+pa;ਨੈਕੋਚੇਆ;Necochea
+ps;نیکوچیا;Necochea
+tg;Некочеа;Necochea
+tt;Некочеа;Necochea
+kk;Наварро;Navarro
+ky;Наварро;Navarro
+bn;নাভারো;Navarro
+ur;ناوارو;Navarro
+am;ናቫሮ;Navarro
+fa;ناوارو;Navarro
+pa;ਨਾਵਾਰੋ;Navarro
+ps;ناوارو;Navarro
+tg;Наварро;Navarro
+tt;Наварро;Navarro
+fa;مورون;Morón
+sr;Морон;Morón
+uk;Морон;Morón
+ka;მორონი;Morón
+kk;Морон;Morón
+ky;Морон;Morón
+bn;মোরোন;Morón
+ur;مورون;Morón
+am;ሞሮን;Morón
+pa;ਮੋਰੋਨ;Morón
+ps;مورون;Morón
+tg;Морон;Morón
+tt;Морон;Morón
+tt;Монте-Гранде;Monte Grande
+uk;Монте-Гранде;Monte Grande
+ur;مونٹے جراندی;Monte Grande
+mr;मोंटे ग्रांडे;Monte Grande
+el;Μόντε Γκράντε;Monte Grande
+fa;مونته گرانده;Monte Grande
+bn;মন্টে গ্রান্ডে;Monte Grande
+ka;მონტე-გრანდე;Monte Grande
+si;මොන්ටේ ග්‍රෑන්ඩ්;Monte Grande
+kn;ಮಾಂಟೆ ಗ್ರಾಂಡೆ;Monte Grande
+ta;மான்டே கிராண்டே;Monte Grande
+gu;મોન્ટે ગ્રાંડે;Monte Grande
+te;మోంటే గ్రాండే;Monte Grande
+th;มอนเตกรันเด;Monte Grande
+ka;მონტე-ჩინგოლო;Monte Chingolo
+uk;Монте-Чінголо;Monte Chingolo
+fa;مونته چینگولو;Monte Chingolo
+lt;Monte Kaserosas;Monte Caseros
+kk;Монте Касерос;Monte Caseros
+ky;Монте Касерос;Monte Caseros
+bn;মন্টে কাসেরোস;Monte Caseros
+ur;مونٹے کاسیروس;Monte Caseros
+am;ሞንቴ ካሴሮስ;Monte Caseros
+fa;مونته کاسروس;Monte Caseros
+pa;ਮੋਂਟੇ ਕਾਸੇਰੋਸ;Monte Caseros
+ps;مونٹے کاسیروس;Monte Caseros
+tg;Монте Касерос;Monte Caseros
+tt;Монте Касерос;Monte Caseros
+kk;Монтекарло;Montecarlo
+uz;Montekarlo;Montecarlo
+ky;Монтекарло;Montecarlo
+id;Montekarlo;Montecarlo
+ms;Montekarlo;Montecarlo
+bn;মন্টেকার্লো;Montecarlo
+ur;مونٹے کارلو;Montecarlo
+am;ሞንቴካርሎ;Montecarlo
+az;Montekarlo;Montecarlo
+fa;مونته کارلو;Montecarlo
+jv;Montekarlo;Montecarlo
+pa;ਮੋਂਟੇਕਾਰਲੋ;Montecarlo
+ps;مونٹے کارلو;Montecarlo
+tg;Монтекарло;Montecarlo
+tt;Монтекарло;Montecarlo
+kk;Мирамар;Miramar
+ky;Мирамар;Miramar
+bn;মিরামার;Miramar
+ur;میراماور;Miramar
+am;ሚራማር;Miramar
+fa;میرامار;Miramar
+pa;ਮਿਰਾਮਾਰ;Miramar
+ps;میراماور;Miramar
+tg;Мирамар;Miramar
+tt;Мирамар;Miramar
+uk;Мерло;Merlo
+fa;مرلو;Merlo
+sr;Мерло;Merlo
+hy;Մերլո;Merlo
+kk;Мерло;Merlo
+ky;Мерло;Merlo
+bn;মেরলো;Merlo
+ur;میرلو;Merlo
+am;መርሎ;Merlo
+pa;ਮੇਰਲੋ;Merlo
+ps;میرلو;Merlo
+tg;Мерло;Merlo
+tt;Мерло;Merlo
+fa;مرسدس، بوئنوس آیرس;Mercedes
+lt;Mersedesas;Mercedes
+uk;Мерседес;Mercedes
+kk;Мерседес;Mercedes
+ky;Мерседес;Mercedes
+bn;মার্সিডিজ;Mercedes
+ur;مرسیڈیز;Mercedes
+am;ሜርሴዴስ;Mercedes
+pa;ਮਰਸੀਡੀਜ਼;Mercedes
+ps;مرسیڈیز;Mercedes
+tg;Мерседес;Mercedes
+tt;Мерседес;Mercedes
+fa;مرسدس;Mercedes
+kk;Мбуруküя;Mburucuyá
+ky;Мбуруküя;Mburucuyá
+bn;ম্বুরুকুয়া;Mburucuyá
+ur;مبوروکویا;Mburucuyá
+am;ምቡሩኩያ;Mburucuyá
+fa;مبوروکویا;Mburucuyá
+pa;ਮ੍ਬੁਰੁਕੁਆ;Mburucuyá
+ps;مبوروکویا;Mburucuyá
+tg;Мбуруküя;Mburucuyá
+tt;Мбуруküя;Mburucuyá
+tt;Мартинес;Martínez
+ka;მარტინესი;Martínez
+uk;Мартінес;Martínez
+fa;مارتینس;Martínez
+he;מרטינס;Martínez
+kk;Маргарита Белен;Margarita Belén
+ky;Маргарита Белен;Margarita Belén
+bn;মার্গারিটা বেলেন;Margarita Belén
+ur;مارگریتا بیلین;Margarita Belén
+am;ማርጋሪታ ቤለን;Margarita Belén
+fa;مارگریتا بیلین;Margarita Belén
+pa;ਮਾਰਗਰਿਤਾ ਬੇਲੇਨ;Margarita Belén
+ps;مارګریتا بیلین;Margarita Belén
+tg;Маргарита Белен;Margarita Belén
+tt;Маргарита Белен;Margarita Belén
+kk;Мар дель Туйу;Mar del Tuyú
+ky;Мар дель Туйу;Mar del Tuyú
+bn;মার ডেল তুইউ;Mar del Tuyú
+ur;مار ڈیل تویو;Mar del Tuyú
+am;ማር ዴል ቱዩ;Mar del Tuyú
+fa;مار دل تویو;Mar del Tuyú
+pa;ਮਾਰ ਡੇਲ ਤੁਯੁ;Mar del Tuyú
+ps;مار ډل تویو;Mar del Tuyú
+tg;Мар дель Туйу;Mar del Tuyú
+tt;Мар дель Туйу;Mar del Tuyú
+bg;Мар дел Плата;Mar del Plata
+uk;Мар-дель-Плата;Mar del Plata
+os;Мар-дель-Платæ;Mar del Plata
+sr;Мар дел Плата;Mar del Plata
+fa;مار دل پلاتا;Mar del Plata
+ka;მარ-დელ-პლატა;Mar del Plata
+he;מאר דל פלאטה;Mar del Plata
+be;Мар-дэль-Плата;Mar del Plata
+el;Μαρ ντελ Πλάτα;Mar del Plata
+hy;Մար-դել-Պլատա;Mar del Plata
+th;มาร์เดลปลาตา;Mar del Plata
+bn;মার ডেল প্লাটা;Mar del Plata
+vep;Mar Del Plat;Mar del Plata
+kk;Мар дель Плата;Mar del Plata
+ky;Мар дель Плата;Mar del Plata
+ur;مار ڈیل پلاٹا;Mar del Plata
+am;ማር ዴል ፕላታ;Mar del Plata
+pa;ਮਾਰ ਡੇਲ ਪਲਾਟਾ;Mar del Plata
+ps;مار ډل پلاتا;Mar del Plata
+tg;Мар дель Плата;Mar del Plata
+tt;Мар дель Плата;Mar del Plata
+uk;Маркос-Пас;Marcos Paz
+kk;Маркос Paz;Marcos Paz
+ky;Маркос Paz;Marcos Paz
+bn;মার্কোস পাজ;Marcos Paz
+ur;مارکوس پاز;Marcos Paz
+am;ማርኮስ ፓዝ;Marcos Paz
+fa;مارکوس پاز;Marcos Paz
+pa;ਮਾਰਕੋਸ ਪਾਜ਼;Marcos Paz
+ps;مارکوس پاز;Marcos Paz
+tg;Маркос Paz;Marcos Paz
+tt;Маркос Paz;Marcos Paz
+kk;Макалле;Makallé
+ky;Макалле;Makallé
+bn;মাকল্লে;Makallé
+ur;مکالے;Makallé
+am;ማካለ;Makallé
+fa;مکالی;Makallé
+pa;ਮਕਲੇ;Makallé
+ps;مکالے;Makallé
+tg;Макалле;Makallé
+tt;Макалле;Makallé
+kk;Майпу;Maipú
+ky;Майпу;Maipú
+bn;মাইপু;Maipú
+ur;میپو;Maipú
+am;ማይፑ;Maipú
+fa;مایپو;Maipú
+pa;ਮਾਈਪੂ;Maipú
+ps;میپو;Maipú
+tg;Майпу;Maipú
+tt;Майпу;Maipú
+kk;Магдалена;Magdalena
+ky;Магдалена;Magdalena
+bn;ম্যাগডালেনা;Magdalena
+ur;میگڈالینا;Magdalena
+am;ማግዳሌና;Magdalena
+fa;مگدالنا;Magdalena
+pa;ਮੈਗਡਲੀਨਾ;Magdalena
+ps;میگډالینا;Magdalena
+tg;Магдалена;Magdalena
+tt;Магдалена;Magdalena
+fa;لوخان;Luján
+hy;Լուխան;Luján
+ka;ლუხანი;Luján
+kk;Лухан;Luján
+ky;Лухан;Luján
+bn;লুজান;Luján
+ur;لوجان;Luján
+am;ሉዃን;Luján
+pa;ਲੁਜਾਨ;Luján
+ps;لوجان;Luján
+tg;Лухан;Luján
+tt;Лухан;Luján
+kk;Ломас де Замора;Lomas de Zamora
+ky;Ломас де Замора;Lomas de Zamora
+bn;লোমাস ডে জামোরা;Lomas de Zamora
+ur;لوماس ڈے زمورا;Lomas de Zamora
+am;ሎማስ ደ ዛሞራ;Lomas de Zamora
+fa;لوماس دی زاموراا;Lomas de Zamora
+pa;ਲੋਮਾਸ ਡੇ ਜ਼ਮੋਰਾ;Lomas de Zamora
+ps;لوماس ډي زمورا;Lomas de Zamora
+tg;Ломас де Замора;Lomas de Zamora
+tt;Ломас де Замора;Lomas de Zamora
+kk;Лобос;Lobos
+ky;Лобос;Lobos
+bn;লোবোস;Lobos
+ur;لوبوس;Lobos
+am;ሎቦስ;Lobos
+fa;لوبوس;Lobos
+pa;ਲੋਬੋਸ;Lobos
+ps;لوبوس;Lobos
+tg;Лобос;Lobos
+tt;Лобос;Lobos
+kk;Лобария;Lobería
+ky;Лобария;Lobería
+bn;লোবেরিয়া;Lobería
+ur;لوبیریا;Lobería
+am;ሎበሪያ;Lobería
+fa;لوبریا;Lobería
+pa;ਲੋਬੇਰੀਆ;Lobería
+ps;لوبيریا;Lobería
+tg;Лобария;Lobería
+tt;Лобария;Lobería
+fa;یاوایول;Llavallol
+fa;لیبرتاد;Libertad
+ka;ლიბერტადი;Libertad
+tt;Либертад;Libertad
+lt;Libertadas;Libertad
+lv;Libertada;Libertad
+bn;লিবারটেড;Libertad
+si;ලිබර්ටෑඩ්;Libertad
+uk;Лібертад;Libertad
+ur;لیبیرتاد;Libertad
+kn;ಲಿಬರ್ಟಾಡ್;Libertad
+mr;लिबर्टाद;Libertad
+el;Λιμπερτάτ;Libertad
+ta;லிபேர்ட்டட்;Libertad
+gu;લિબરટેડ;Libertad
+te;లిబెర్తాడ్;Libertad
+th;ลิเบร์ตัด;Libertad
+kk;Леандро Н. Алем;Leandro N. Alem
+ky;Леандро Н. Алем;Leandro N. Alem
+bn;লিয়েন্দ্রো এন. আলেম;Leandro N. Alem
+ur;لیاندرو این. الم;Leandro N. Alem
+am;ሊያንድሮ ኤን. አሌም;Leandro N. Alem
+fa;لیاندروو ن. الم;Leandro N. Alem
+pa;ਲੀਐਂਡ੍ਰੋ ਐਨ. ਅਲੇਮ;Leandro N. Alem
+ps;لیاندرو ن. الم;Leandro N. Alem
+tg;Леандро Н. Алем;Leandro N. Alem
+tt;Леандро Н. Алем;Leandro N. Alem
+kk;Лас Флорес;Las Flores
+ky;Лас Флорес;Las Flores
+bn;লাস ফ্লোরেস;Las Flores
+ur;لاس فلورس;Las Flores
+am;ላስ ፍሎረስ;Las Flores
+fa;لاس فلورس;Las Flores
+pa;ਲਾਸ ਫਲੋਰੇਸ;Las Flores
+ps;لاس فلورس;Las Flores
+tg;Лас Флорес;Las Flores
+tt;Лас Флорес;Las Flores
+bg;Ла Плата;La Plata
+fa;لا پلاتا;La Plata
+uk;Ла-Плата;La Plata
+os;Ла-Платæ;La Plata
+ka;ლა-პლატა;La Plata
+th;ลาปลาตา;La Plata
+bn;লা প্লাতা;La Plata
+el;Λα Πλάτα;La Plata
+he;לה פלאטה;La Plata
+be;Ла-Плата;La Plata
+sr;Ла Плата;La Plata
+ky;Ла-Плата шаары;La Plata
+lv;Laplata;La Plata
+mr;ला प्लाता;La Plata
+ur;لا پلاتا;La Plata
+vep;La Plat;La Plata
+yue;拉普拉塔;La Plata
+am;ላ ፕላታ;La Plata
+pa;ਲਾ ਪਲਾਤਾ;La Plata
+ps;لا پلاتا;La Plata
+kk;Ла-Paz;La Paz
+ky;Ла-Paz;La Paz
+bn;লা পাজ;La Paz
+ur;لا پاز;La Paz
+am;ላ ፓዝ;La Paz
+fa;لاپاز;La Paz
+pa;ਲਾ ਪਾਜ਼;La Paz
+ps;لا پاز;La Paz
+tg;Ла-Paz;La Paz
+tt;Ла-Paz;La Paz
+bg;Ланус;Lanús
+fa;لانوس;Lanús
+hy;Լանուս;Lanús
+ka;ლანუსი;Lanús
+lt;Lanusas;Lanús
+mn;Ланус;Lanús
+sr;Ланус;Lanús
+uk;Ланус;Lanús
+kk;Ланус;Lanús
+ky;Ланус;Lanús
+bn;লানুস;Lanús
+ur;لانوس;Lanús
+am;ላኑስ;Lanús
+pa;ਲਾਨੁਸ;Lanús
+ps;لانوس;Lanús
+tg;Ланус;Lanús
+tt;Ланус;Lanús
+kk;Ла Леонеса;La Leonesa
+ky;Ла Леонеса;La Leonesa
+bn;লা লিওনেসা;La Leonesa
+ur;لا لیونیسا;La Leonesa
+am;ላ ሊዮኔሳ;La Leonesa
+fa;لا لئونسا;La Leonesa
+pa;ਲਾ ਲਿਓਨੇਸਾ;La Leonesa
+ps;لا لیونسا;La Leonesa
+tg;Ла Леонеса;La Leonesa
+tt;Ла Леонеса;La Leonesa
+kk;Ла Круз;La Cruz
+ky;Ла Круз;La Cruz
+bn;লা ক্রুজ;La Cruz
+ur;لا کروز;La Cruz
+am;ላ ክሩዝ;La Cruz
+fa;لاکروز;La Cruz
+pa;ਲਾ ਕ੍ਰੂਜ਼;La Cruz
+ps;لا کروز;La Cruz
+tg;Ла Круз;La Cruz
+tt;Ла Круз;La Cruz
+lt;Chardin Amerika;Jardín América
+ur;جردین امیرکا;Jardín América
+fa;ایتوساینگو;Ituzaingó
+ka;იტუსაინგო;Ituzaingó
+kk;Итусаинго;Ituzaingó
+ky;Итусаинго;Ituzaingó
+bn;ইটুজাইংগো;Ituzaingó
+ur;اٹوزائنگو;Ituzaingó
+am;ኢቱዛይንጎ;Ituzaingó
+pa;ਇਟੁਜ਼ੈਂਗੋ;Ituzaingó
+ps;اټوزاینګو;Ituzaingó
+tg;Итусаинго;Ituzaingó
+tt;Итусаинго;Ituzaingó
+fa;ایتوزاینگو;Ituzaingó
+kk;Итати;Itatí
+ky;Итати;Itatí
+bn;ইটাটী;Itatí
+ur;اٹاتی;Itatí
+am;ኢታቲ;Itatí
+fa;ایتاتی;Itatí
+pa;ਇਟਾਟੀ;Itatí
+ps;اټاتي;Itatí
+tg;Итати;Itatí
+tt;Итати;Itatí
+fa;ایسیدرو کاسانووا;Isidro Casanova
+ka;ისიდრო-კასანოვა;Isidro Casanova
+tt;Исидро-Касанова;Isidro Casanova
+lt;Isidro Kazanova;Isidro Casanova
+lv;Isidrokasanova;Isidro Casanova
+bn;ইসিদ্র কাসানোভা;Isidro Casanova
+si;ඉසිද්‍රෝ කැසනොවා;Isidro Casanova
+uk;Ісідро-Касанова;Isidro Casanova
+ur;اسیڈرہ کیسونوا;Isidro Casanova
+kn;ಇಸಿಡ್ರೊ ಕ್ಯಾಸನೋವಾ;Isidro Casanova
+mr;इसिड्रो कॅसनोव्हा;Isidro Casanova
+el;Ισίδρο Καζανόβα;Isidro Casanova
+ta;இஸிட்ரா காஸநோவா;Isidro Casanova
+gu;ઇસિડ્રો કાસાનોવા;Isidro Casanova
+te;ఇసిడ్రో కాసనోవా;Isidro Casanova
+th;อิสิโดร กาซาโนวา;Isidro Casanova
+he;איסידרו קסנובה;Isidro Casanova
+tr;Isıdro Casanova;Isidro Casanova
+fa;اینجنیرو ماسچویتس;Ingeniero Maschwitz
+kk;Хурлингем;Hurlingham
+ky;Хурлингем;Hurlingham
+bn;হার্লিংহ্যাম;Hurlingham
+ur;ہرلنگھم;Hurlingham
+am;ሁርሊንግሃም;Hurlingham
+fa;هرلینگهام;Hurlingham
+pa;ਹਰਲਿੰਘਮ;Hurlingham
+ps;هرلنګهام;Hurlingham
+tg;Хурлингем;Hurlingham
+tt;Хурлингем;Hurlingham
+fa;گوالگوایچو;Gualeguaychú
+lt;Gualeguaiču;Gualeguaychú
+he;גואלגואיצו;Gualeguaychú
+ka;გუალეგუაიჩუ;Gualeguaychú
+kk;Гуалегуайчу;Gualeguaychú
+ky;Гуалегуайчу;Gualeguaychú
+bn;গুয়ালেগুয়াইচু;Gualeguaychú
+ur;گوالیگوائیچو;Gualeguaychú
+am;ጓለጓይቹ;Gualeguaychú
+pa;ਗਵੇਲੇਗਵਾਈਚੁ;Gualeguaychú
+ps;گوالیګوایچو;Gualeguaychú
+tg;Гуалегуайчу;Gualeguaychú
+tt;Гуалегуайчу;Gualeguaychú
+fa;گوالگوای;Gualeguay
+he;גואלגואי;Gualeguay
+lt;Gualeguajus;Gualeguay
+kk;Гуалегай;Gualeguay
+ky;Гуалегай;Gualeguay
+bn;গুয়ালেগাই;Gualeguay
+ur;گوالیگائے;Gualeguay
+am;ጓለግአይ;Gualeguay
+pa;ਗਵੇਲੇਗਾਈ;Gualeguay
+ps;گوالیګای;Gualeguay
+tg;Гуалегай;Gualeguay
+tt;Гуалегай;Gualeguay
+ka;გრანდ-ბოურგი;Grand Bourg
+uk;Гран-Бур;Grand Bourg
+fa;گراند بورگ;Grand Bourg
+lt;Goja;Goya
+kk;Гойя;Goya
+ky;Гойя;Goya
+bn;গয়া;Goya
+ur;گویا;Goya
+am;ጎያ;Goya
+fa;گویا;Goya
+pa;ਗੋਆ;Goya
+ps;ګويا;Goya
+tg;Гойя;Goya
+tt;Гойя;Goya
+tt;Гонсалес-Катан;González Catán
+lt;Gonzales Katanas;González Catán
+lv;Gonsaleskatana;González Catán
+bn;গঞ্জালেস কাতান;González Catán
+hy;Գոնսալես Կատան;González Catán
+si;ගොන්සාලේස් කැටන්;González Catán
+uk;Гонсалес-Катан;González Catán
+ur;جونزالیز کاتان;González Catán
+kn;ಗೊಂಜಾಲೆಜ್ ಕ್ಯಾಟನ್;González Catán
+mr;गोन्झालेझ कॅटान;González Catán
+el;Γκονζάλεζ Κατάν;González Catán
+ta;கோன்சலேஸ் காட்டன்;González Catán
+gu;ગોન્ઝાલેઝ કેટાન;González Catán
+te;గోన్జాలెజ్ కాటాన్;González Catán
+th;กอนซาเลส คาทาน;González Catán
+fa;گونسالس کاتن;González Catán
+fa;خرلی;Gerli
+kk;Сьюдад дель Либертадор Генерал Сан Мартин;Ciudad del Libertador General San Martín
+ky;Сьюдад дель Либертадор Генерал Сан Мартин;Ciudad del Libertador General San Martín
+bn;সিউদাদ ডেল লিবার্তাডোর জেনারেল সান মার্টিন;Ciudad del Libertador General San Martín
+ur;سيوداد ڈيل لبرتادور جنرل سان مارٹن;Ciudad del Libertador General San Martín
+am;ሲዋዳድ ዴል ሊበርታዶር ጄነራል ሳን ማርቲን;Ciudad del Libertador General San Martín
+fa;سیوداد دل لیبرتادور جنرال سان مارتین;Ciudad del Libertador General San Martín
+pa;ਸਿਉਦਾਦ ਡੇਲ ਲੀਬਰਟਾਡੋਰ ਜਨਰਲ ਸਾਨ ਮਾਰਟਿਨ;Ciudad del Libertador General San Martín
+ps;سيوداد ديل لبرتادور جنرال سان مارتین;Ciudad del Libertador General San Martín
+tg;Сьюдад дель Либертадор Генерал Сан Мартин;Ciudad del Libertador General San Martín
+tt;Сьюдад дель Либертадор Генерал Сан Мартин;Ciudad del Libertador General San Martín
+kk;Генерал Родригес;General Rodríguez
+ky;Генерал Родригес;General Rodríguez
+bn;জেনারেল রোড্রিগেজ;General Rodríguez
+ur;جنرل رودریگز;General Rodríguez
+am;ጄነራል ሮድሪጉዝ;General Rodríguez
+fa;جنرال رودریگز;General Rodríguez
+pa;ਜਨਰਲ ਰੋਡ੍ਰਿਗੇਜ਼;General Rodríguez
+ps;جنرال رودریگز;General Rodríguez
+tg;Генерал Родригес;General Rodríguez
+tt;Генерал Родригес;General Rodríguez
+uk;Хенераль-Пачеко;General Pacheco
+fa;خنرال پاچیکو;General Pacheco
+kk;Генерал Лаваль;General Lavalle
+ky;Генерал Лаваль;General Lavalle
+bn;জেনারেল লাভাল্লে;General Lavalle
+ur;جنرل لاویل;General Lavalle
+am;ጄነራል ላቫሌ;General Lavalle
+fa;جنرال لاوال;General Lavalle
+pa;ਜਨਰਲ ਲਾਵਲੇ;General Lavalle
+ps;جنرال لاویل;General Lavalle
+tg;Генерал Лаваль;General Lavalle
+tt;Генерал Лаваль;General Lavalle
+kk;Генерал Лас Хераз;General Las Heras
+ky;Генерал Лас Хераз;General Las Heras
+bn;জেনারেল লাস হেরাস;General Las Heras
+ur;جنرل لاس ہیرس;General Las Heras
+am;ጄነራል ላስ ሄራስ;General Las Heras
+fa;جنرال لاس هراس;General Las Heras
+pa;ਜਨਰਲ ਲਾਸ ਹੇਰਾਸ;General Las Heras
+ps;جنرال لاس هیرس;General Las Heras
+tg;Генерал Лас Хераз;General Las Heras
+tt;Генерал Лас Хераз;General Las Heras
+kk;Генерал Хуан Мадариага;General Juan Madariaga
+ky;Генерал Хуан Мадариага;General Juan Madariaga
+bn;জেনারেল জুয়ান মাদারিয়াগা;General Juan Madariaga
+ur;جنرل خوان مادریاگا;General Juan Madariaga
+am;ጄነራል ሁዋን ማዳሪያጋ;General Juan Madariaga
+fa;جنرال خوان مادریاگا;General Juan Madariaga
+pa;ਜਨਰਲ ਜੁਆਨ ਮਾਦਰਿਆਗਾ;General Juan Madariaga
+ps;جنرال خوان مادریاګا;General Juan Madariaga
+tg;Генерал Хуан Мадариага;General Juan Madariaga
+tt;Генерал Хуан Мадариага;General Juan Madariaga
+lt;Cheneral Chose de San Martinas;General José de San Martín
+kk;Генерал Хосе де Сан Мартин;General José de San Martín
+uz;General Xose de San Martin;General José de San Martín
+ky;Генерал Хосе де Сан Мартин;General José de San Martín
+bn;জেনারেল জোসে ডে সান মার্টিন;General José de San Martín
+ur;جنرل جوسے ڈے سان مارٹن;General José de San Martín
+am;ጄነራል ሆሴ ደ ሳን ማርቲን;General José de San Martín
+az;General Xose de San Martin;General José de San Martín
+fa;ژنرال خوسه د سان مارتین;General José de San Martín
+om;Jeneraal Jose de San Martin;General José de San Martín
+pa;ਜਨਰਲ ਜੋਸੇ ਡੇ ਸੈਨ ਮਾਰਟਿਨ;General José de San Martín
+ps;جنرال خوسې د سان مارتین;General José de San Martín
+sw;Jenerali Jose de San Martin;General José de San Martín
+tg;Генерал Хосе де Сан Мартин;General José de San Martín
+tt;Генерал Хосе де Сан Мартин;General José de San Martín
+kk;Генерал Гвидо;General Guido
+ky;Генерал Гвидо;General Guido
+bn;জেনারেল গুইডো;General Guido
+ur;جنرل گائیڈو;General Guido
+am;ጄነራል ጊዲዮ;General Guido
+fa;ژنرال گویدو;General Guido
+om;Jeneraal Guido;General Guido
+pa;ਜਨਰਲ ਗੁਇਡੋ;General Guido
+ps;جنرال ګویدو;General Guido
+sw;Jenerali Guido;General Guido
+tg;Генерал Гвидо;General Guido
+tt;Генерал Гвидо;General Guido
+kk;Генерал Конеса;General Conesa
+uz;General Konesa;General Conesa
+ky;Генерал Конеса;General Conesa
+bn;জেনারেল কোনেসা;General Conesa
+ur;جنرل کونیسا;General Conesa
+am;ጄነራል ኮነሳ;General Conesa
+az;General Konesa;General Conesa
+fa;ژنرال کونسا;General Conesa
+jv;General Konesa;General Conesa
+om;Jeneraal Konesa;General Conesa
+pa;ਜਨਰਲ ਕੋਨੇਸਾ;General Conesa
+ps;جنرال کونیسا;General Conesa
+sw;Jenerali Konesa;General Conesa
+tg;Генерал Конеса;General Conesa
+tt;Генерал Конеса;General Conesa
+kk;Генерал Бельграно;General Belgrano
+ky;Генерал Бельграно;General Belgrano
+bn;জেনারেল বেলগ্রানো;General Belgrano
+ur;جنرل بیلگرانو;General Belgrano
+am;ጄነራል ቤልግራኖ;General Belgrano
+az;General Belqrano;General Belgrano
+fa;ژنرال بلگرانو;General Belgrano
+om;Jeneraal Belgurano;General Belgrano
+pa;ਜਨਰਲ ਬੇਲਗ੍ਰਾਨੋ;General Belgrano
+ps;جنرال بیلګرانو;General Belgrano
+sw;Jenerali Belgrano;General Belgrano
+tg;Генерал Бельграно;General Belgrano
+tt;Генерал Бельграно;General Belgrano
+bg;Формоса;Formosa
+fa;فورموزا;Formosa
+he;פורמוסה;Formosa
+ka;ფორმოსა;Formosa
+sr;Формоса;Formosa
+uk;Формоса;Formosa
+hy;Ֆորմոսա;Formosa
+ur;فورموسا، ارجنٹائن;Formosa
+bn;ফরমোসা;Formosa
+am;ፎርሞሳ;Formosa
+pa;ਫਾਰਮੋਸਾ;Formosa
+ps;فارموسا;Formosa
+kk;Сан-Хуан-Баутиста;San Juan Bautista
+ky;Сан-Хуан-Баутиста;San Juan Bautista
+bn;সান জুয়ান বাউটিস্তা;San Juan Bautista
+ur;سان جوآن باؤتسطا;San Juan Bautista
+am;ሳን ዋን ባውቲስታ;San Juan Bautista
+fa;سان خوان باوتیستا;San Juan Bautista
+pa;ਸੈਨ ਜੁਆਨ ਬਾਉਤੀਸਤਾ;San Juan Bautista
+ps;سان خوان باؤتستا;San Juan Bautista
+tg;Сан-Хуан-Баутиста;San Juan Bautista
+tt;Сан-Хуан-Баутиста;San Juan Bautista
+kk;Федераль;Federal
+ky;Федераль;Federal
+bn;ফেডারেল;Federal
+ur;فیڈرل;Federal
+am;ፌደራል;Federal
+fa;فدرال;Federal
+pa;ਫੈਡਰਲ;Federal
+ps;فیډرال;Federal
+tg;Федераль;Federal
+tt;Федераль;Federal
+kk;Федерасьон;Federación
+tr;Federasyon;Federación
+uz;Federasyon;Federación
+ky;Федерасьон;Federación
+id;Federasi;Federación
+ms;Federasi;Federación
+bn;ফেডারেশন;Federación
+ur;فیڈریشن;Federación
+am;ፌደሬሽን;Federación
+az;Federasyon;Federación
+fa;فدراسیون;Federación
+ha;Federashun;Federación
+jv;Federasi;Federación
+om;Federasyon;Federación
+pa;ਫੈਡਰੇਸ਼ਨ;Federación
+ps;فیډریشن;Federación
+so;Federasyon;Federación
+sw;Federesheni;Federación
+tg;Федерасьон;Federación
+tt;Федерасьон;Federación
+fa;اسیسا;Ezeiza
+sr;Езеиза;Ezeiza
+kk;Эсеиса;Ezeiza
+ky;Эсеиса;Ezeiza
+bn;এজেইজা;Ezeiza
+ur;ایزیزا;Ezeiza
+am;ኤዜይዛ;Ezeiza
+pa;ਈਜ਼ਿਆ;Ezeiza
+ps;ایزیزا;Ezeiza
+tg;Эсеиса;Ezeiza
+tt;Эсеиса;Ezeiza
+kk;Эскина;Esquina
+uz;Eskina;Esquina
+ky;Эскина;Esquina
+bn;এসকুইনা;Esquina
+ur;اسکوینا;Esquina
+am;ኤስክዋይና;Esquina
+az;Eskina;Esquina
+fa;اسکوینا;Esquina
+jv;Eskina;Esquina
+om;Eskina;Esquina
+pa;ਈਸਕਾਈਨਾ;Esquina
+ps;اسکوینا;Esquina
+tg;Эскина;Esquina
+tt;Эскина;Esquina
+kk;Эль Эспинильо;El Espinillo
+ky;Эль Эспинильо;El Espinillo
+bn;এল এসপিনিলো;El Espinillo
+ur;ایل اسپنیلو;El Espinillo
+am;ኤል ኤስፒኒሎ;El Espinillo
+fa;ال اسپینیلو;El Espinillo
+pa;ਐਲ ਈਸਪਿਨੀਲੋ;El Espinillo
+ps;ال اسپنیلو;El Espinillo
+tg;Эль Эспинильо;El Espinillo
+tt;Эль Эспинильо;El Espinillo
+kk;Энсенада;Ensenada
+ky;Энсенада;Ensenada
+bn;এনসেনাডা;Ensenada
+ur;انسینادا;Ensenada
+am;ኤንሴናዳ;Ensenada
+fa;انسنادا;Ensenada
+pa;ਐਨਸੇਨਾਡਾ;Ensenada
+ps;انسینادا;Ensenada
+tg;Энсенада;Ensenada
+tt;Энсенада;Ensenada
+kk;Эмпедрадо;Empedrado
+ky;Эмпедрадо;Empedrado
+bn;এমপেড্রাডো;Empedrado
+ur;امپیڈرادو;Empedrado
+am;ኤምፔድራዶ;Empedrado
+fa;امپدرادو;Empedrado
+pa;ਐਮਪੇਦ੍ਰਾਡੋ;Empedrado
+ps;امپیدرادو;Empedrado
+tg;Эмпедрадо;Empedrado
+tt;Эмпедрадо;Empedrado
+kk;Эль Собербио;El Soberbio
+ky;Эль Собербио;El Soberbio
+bn;এল সোবারবিও;El Soberbio
+ur;ایل سوبربیو;El Soberbio
+am;ኤል ሶበርቢዮ;El Soberbio
+fa;ال سوبربیو;El Soberbio
+pa;ਐਲ ਸੋਬਰਬਿਓ;El Soberbio
+ps;ال سوبربیو;El Soberbio
+tg;Эль Собербио;El Soberbio
+tt;Эль Собербио;El Soberbio
+kk;Эльдорадо;Eldorado
+ky;Эльдорадо;Eldorado
+bn;এলডোরাডো;Eldorado
+ur;ایلڈوراڈو;Eldorado
+am;ኤልዶራዶ;Eldorado
+fa;الدورادو;Eldorado
+pa;ਐਲਡੋਰਾਡੋ;Eldorado
+ps;الدورادو;Eldorado
+tg;Эльдорадо;Eldorado
+tt;Эльдорадо;Eldorado
+fa;دون تورکواتو;Don Torcuato
+ka;დონ-ტორკუატო;Don Torcuato
+uk;Дон Торкуато;Don Torcuato
+kk;Долорес;Dolores
+ky;Долорес;Dolores
+bn;ডোলোরেস;Dolores
+ur;ڈولورس;Dolores
+am;ዶሎረስ;Dolores
+fa;دولورس;Dolores
+pa;ਡੋਲੋਰਸ;Dolores
+ps;ډولورس;Dolores
+tg;Долорес;Dolores
+tt;Долорес;Dolores
+fa;کوروسو کواتیا;Curuzú Cuatiá
+lt;Kurusu Kvatija;Curuzú Cuatiá
+kk;Курусу Куатиа;Curuzú Cuatiá
+uz;Kuruzu Kwatiya;Curuzú Cuatiá
+ky;Курусу Куатиа;Curuzú Cuatiá
+bn;কুরুজু কুয়াতিয়া;Curuzú Cuatiá
+ur;کوروزو کواتیا;Curuzú Cuatiá
+am;ኩሩዙ ኩዋትያ;Curuzú Cuatiá
+az;Kuruzu Kwatiya;Curuzú Cuatiá
+jv;Kuruzu Kwatiya;Curuzú Cuatiá
+om;Kuruzu Kwatiya;Curuzú Cuatiá
+pa;ਕੁਰੁਜ਼ੂ ਕੁਆਤਿਆ;Curuzú Cuatiá
+ps;کوروزو کواتیا;Curuzú Cuatiá
+sw;Kuruzu Kwatiya;Curuzú Cuatiá
+tg;Курусу Куатиа;Curuzú Cuatiá
+tt;Курусу Куатиа;Curuzú Cuatiá
+lt;Korjentesas;Corrientes
+bg;Кориентес;Corrientes
+ka;კორიენტესი;Corrientes
+sr;Коријентес;Corrientes
+uk;Коррієнтес;Corrientes
+fa;کورینتس;Corrientes
+be;Карыентэс;Corrientes
+he;קוריינטס;Corrientes
+ur;کورینتس;Corrientes
+bn;কোরিয়েন্টেস;Corrientes
+am;ኮሪየንተስ;Corrientes
+pa;ਕੋਰੀਐਂਟਸ;Corrientes
+ps;کوریئنتس;Corrientes
+bg;Корпус;Corpus
+cs;Jazykový korpus;Corpus
+el;Σώμα κειμένων;Corpus
+eu;Testu corpus;Corpus
+ms;Korpus;Corpus
+sk;Korpus;Corpus
+th;คลังข้อความ;Corpus
+kk;Полковник Видаль;Coronel Vidal
+uz;Kolonel Vidal;Coronel Vidal
+ky;Полковник Видаль;Coronel Vidal
+id;Kolonel Vidal;Coronel Vidal
+ms;Kolonel Vidal;Coronel Vidal
+bn;কর্নেল ভিডাল;Coronel Vidal
+ur;کرنل ویڈل;Coronel Vidal
+am;ኮሎኔል ቪዳል;Coronel Vidal
+az;Polkovnik Vidal;Coronel Vidal
+fa;سروان وید;Coronel Vidal
+jv;Kolonel Vidal;Coronel Vidal
+om;Kolonel Vidal;Coronel Vidal
+pa;ਕਰਨਲ ਵਿਡਲ;Coronel Vidal
+ps;کرنل ویډل;Coronel Vidal
+sw;Karneli Vidal;Coronel Vidal
+tg;Полковник Видаль;Coronel Vidal
+tt;Полковник Видаль;Coronel Vidal
+lt;Konkordija;Concordia
+sr;Конкордија;Concordia
+fa;کونکوردیا;Concordia
+he;קונקורדיה;Concordia
+hy;Կոնկորդիա;Concordia
+kk;Конкордия;Concordia
+uz;Konkordiya;Concordia
+ky;Конкордия;Concordia
+bn;কনকর্ডিয়া;Concordia
+ur;کنکورڈیا;Concordia
+am;ኮንኮርዲያ;Concordia
+az;Konkordiya;Concordia
+jv;Konkordiya;Concordia
+om;Konkordiya;Concordia
+pa;ਕੋਨਕੋਰਡੀਆ;Concordia
+ps;کنکوردیا;Concordia
+sw;Konkordiya;Concordia
+tg;Конкордия;Concordia
+tt;Конкордия;Concordia
+lt;Konsepsion del Urugvajus;Concepción del Uruguay
+fa;کنسپسیون دل اوروگوای;Concepción del Uruguay
+uk;Консепсьйон-дель-Уругвай;Concepción del Uruguay
+he;קונספסיון דל אורוגוואי;Concepción del Uruguay
+ka;კონსეპსიონ-დელ-ურუგვაი;Concepción del Uruguay
+kk;Консепсьон-дель-Уругвай;Concepción del Uruguay
+uz;Konsepsyon del Urugvay;Concepción del Uruguay
+ky;Консепсьон-дель-Уругвай;Concepción del Uruguay
+id;Konsepsi del Uruguay;Concepción del Uruguay
+ms;Konsepsyon del Uruguay;Concepción del Uruguay
+bn;কনসেপশন দেল উরুগুয়ে;Concepción del Uruguay
+ur;کنسیپسیون ڈیل اوروگوے;Concepción del Uruguay
+am;ኮንሴፕሲዮን ደል ኡሩጓይ;Concepción del Uruguay
+az;Konsepsyon del Uruqvay;Concepción del Uruguay
+jv;Konsepsyon del Urugway;Concepción del Uruguay
+om;Konsepsyon del Uruguway;Concepción del Uruguay
+pa;ਕੋਨਸੇਪਸੀਓਨ ਡੇਲ ਉਰੂਗਵੇ;Concepción del Uruguay
+ps;کنسیپسیون ډیل اوروګواى;Concepción del Uruguay
+sw;Konsepsyon del Uruguay;Concepción del Uruguay
+tg;Консепсьон-дель-Уругвай;Concepción del Uruguay
+tt;Консепсьон-дель-Уругвай;Concepción del Uruguay
+kk;Консепсьон-де-ла-Сьерра;Concepción de la Sierra
+uz;Konsepsyon de la Syerra;Concepción de la Sierra
+ky;Консепсьон-де-ла-Сьерра;Concepción de la Sierra
+id;Konsepsi de la Sierra;Concepción de la Sierra
+ms;Konsepsyon de la Sierra;Concepción de la Sierra
+bn;কনসেপশন দে লা সিয়েরা;Concepción de la Sierra
+ur;کنسیپسیون ڈے لا سیرا;Concepción de la Sierra
+am;ኮንሴፕሲዮን ደ ላ ሴራ;Concepción de la Sierra
+az;Konsepsyon de la Syerra;Concepción de la Sierra
+fa;کنسپسیون د لا سیرا;Concepción de la Sierra
+jv;Konsepsyon de la Syerra;Concepción de la Sierra
+om;Konsepsyon de la Syerra;Concepción de la Sierra
+pa;ਕੋਨਸੇਪਸੀਓਨ ਡੇ ਲਾ ਸਿਏਰਾ;Concepción de la Sierra
+ps;کنسیپسیون ډې لا سیرا;Concepción de la Sierra
+sw;Konsepsyon de la Sierra;Concepción de la Sierra
+tg;Консепсьон-де-ла-Сьерра;Concepción de la Sierra
+tt;Консепсьон-де-ла-Сьерра;Concepción de la Sierra
+kk;Консепсьон;Concepción
+uz;Konsepsyon;Concepción
+ky;Консепсьон;Concepción
+id;Konsepsi;Concepción
+ms;Konsepsyon;Concepción
+bn;কনসেপশন;Concepción
+ur;کنسیپسیون;Concepción
+am;ኮንሴፕሲዮን;Concepción
+az;Konsepsyon;Concepción
+fa;کنسپسیون;Concepción
+jv;Konsepsyon;Concepción
+om;Konsepsyon;Concepción
+pa;ਕੋਨਸੇਪਸੀਓਨ;Concepción
+ps;کنسیپسیون;Concepción
+sw;Konsepsyon;Concepción
+tg;Консепсьон;Concepción
+tt;Консепсьон;Concepción
+kk;Командант Фонтана;Comandante Fontana
+tr;Komutan Fontana;Comandante Fontana
+uz;Komandant Fontana;Comandante Fontana
+ky;Командант Фонтана;Comandante Fontana
+id;Komandan Fontana;Comandante Fontana
+ms;Komandan Fontana;Comandante Fontana
+bn;কমান্ডান্ট ফন্টানা;Comandante Fontana
+ur;کمانڈنٹ فونٹانا;Comandante Fontana
+am;ኮማንዳንተ ፎንታና;Comandante Fontana
+az;Komandant Fontana;Comandante Fontana
+fa;فرمانده فونتانا;Comandante Fontana
+ha;Komandi Fontana;Comandante Fontana
+jv;Komandan Fontana;Comandante Fontana
+om;Komandant Fontana;Comandante Fontana
+pa;ਕਮਾਂਡਾਂਟ ਫੋਂਤਾਨਾ;Comandante Fontana
+ps;کمانډنت فونتانا;Comandante Fontana
+so;Komandi Fontana;Comandante Fontana
+sw;Mkuu Fontana;Comandante Fontana
+tg;Командант Фонтана;Comandante Fontana
+tt;Командант Фонтана;Comandante Fontana
+kk;Колония Елиса;Colonia Elisa
+tr;Koloni Elisa;Colonia Elisa
+uz;Koloniya Elisa;Colonia Elisa
+ky;Колония Елиса;Colonia Elisa
+id;Koloni Elisa;Colonia Elisa
+ms;Koloni Elisa;Colonia Elisa
+bn;কলোনিয়া এলিসা;Colonia Elisa
+ur;کلونیا الیسا;Colonia Elisa
+am;ኮሎኒያ ኤሊሳ;Colonia Elisa
+az;Koloniya Elisa;Colonia Elisa
+fa;کلنی الیسا;Colonia Elisa
+ha;Koloni Elisa;Colonia Elisa
+jv;Koloni Elisa;Colonia Elisa
+om;Koloni Elisa;Colonia Elisa
+pa;ਕਲੋਨੀਆ ਐਲੀਸਾ;Colonia Elisa
+ps;کولونیا الیسا;Colonia Elisa
+so;Koloni Elisa;Colonia Elisa
+sw;Koloni Elisa;Colonia Elisa
+tg;Колония Елиса;Colonia Elisa
+tt;Колония Елиса;Colonia Elisa
+he;אביגדור;Colonia Avigdor
+kk;Колон;Colón
+uz;Kolon;Colón
+ky;Колон;Colón
+id;Kolon;Colón
+ms;Kolon;Colón
+bn;কলন;Colón
+ur;کولون;Colón
+am;ኮሎን;Colón
+az;Kolon;Colón
+fa;کولون;Colón
+jv;Kolon;Colón
+om;Kolon;Colón
+pa;ਕੋਲੋਨ;Colón
+ps;کولون;Colón
+sw;Kolon;Colón
+tg;Колон;Colón
+tt;Колон;Colón
+kk;Клоринда;Clorinda
+uz;Klorinda;Clorinda
+ky;Клоринда;Clorinda
+bn;ক্লোরিন্ডা;Clorinda
+ur;کلورندا;Clorinda
+am;ክሎሪንዳ;Clorinda
+az;Klorinda;Clorinda
+fa;کلورینده;Clorinda
+jv;Klorinda;Clorinda
+om;Klorinda;Clorinda
+pa;ਕਲੋਰਿੰਡਾ;Clorinda
+ps;کلورندا;Clorinda
+tg;Клоринда;Clorinda
+tt;Клоринда;Clorinda
+fa;سیتی بل;City Bell
+kk;Часкомус;Chascomús
+uz;Chaskomus;Chascomús
+ky;Часкомус;Chascomús
+id;Chaskomus;Chascomús
+ms;Chaskomus;Chascomús
+bn;চ্যাস্কোমাস;Chascomús
+ur;چاسکوماس;Chascomús
+am;ቻስኮሙስ;Chascomús
+az;Chaskomus;Chascomús
+fa;چاسکوموس;Chascomús
+jv;Chaskomus;Chascomús
+om;Chaskomus;Chascomús
+pa;ਚਾਸਕੋਮਸ;Chascomús
+ps;چاسکوموس;Chascomús
+sw;Chaskomus;Chascomús
+tg;Часкомус;Chascomús
+tt;Часкомус;Chascomús
+kk;Чарадай;Charadai
+ky;Чарадай;Charadai
+bn;চারাদাই;Charadai
+ur;چارادائی;Charadai
+am;ቻራዳይ;Charadai
+az;Çaradai;Charadai
+fa;چارادای;Charadai
+pa;ਚਾਰਾਦਈ;Charadai
+ps;چارادای;Charadai
+tg;Чарадай;Charadai
+tt;Чарадай;Charadai
+kk;Кастелли;Castelli
+uz;Kastelli;Castelli
+ky;Кастелли;Castelli
+bn;ক্যাস্টেলি;Castelli
+ur;کاسٹیلی;Castelli
+am;ካስቴሊ;Castelli
+az;Kastelli;Castelli
+fa;کاستللی;Castelli
+jv;Kastelli;Castelli
+om;Kastelli;Castelli
+pa;ਕੱਸਟੇਲੀ;Castelli
+ps;کاسټیلي;Castelli
+sw;Kastelli;Castelli
+tg;Кастелли;Castelli
+tt;Кастелли;Castelli
+bg;Кастелар;Castelar
+fa;کاستلار;Castelar
+ka;კასტელარი;Castelar
+be;Кастэлар;Castelar
+lt;Kastelaras;Castelar
+lv;Kastelara;Castelar
+bn;ক্যাস্টেলা;Castelar
+uk;Кастелар;Castelar
+si;කැස්ටෙලා;Castelar
+ur;کاستیلار;Castelar
+kn;ಕ್ಯಾಸ್ಟಲಾರ್;Castelar
+mr;कास्टेलार;Castelar
+el;Καστελάρ;Castelar
+ta;காஸ்டெல்லர்;Castelar
+gu;કાસ્ટેલર;Castelar
+te;కాస్తెలర్;Castelar
+th;แคสเตล่า;Castelar
+he;קסטלאר;Castelar
+fa;کاسروس;Caseros
+ka;კასეროსი;Caseros
+kk;Касерос;Caseros
+uz;Kaseros;Caseros
+ky;Касерос;Caseros
+id;Kaseros;Caseros
+ms;Kaseros;Caseros
+bn;ক্যাসেরোস;Caseros
+ur;کاسیروس;Caseros
+am;ካሰሮስ;Caseros
+az;Kaseros;Caseros
+jv;Kaseros;Caseros
+om;Kaseros;Caseros
+pa;ਕੈਸੇਰੋਸ;Caseros
+ps;کاسیروس;Caseros
+sw;Kaseros;Caseros
+tg;Касерос;Caseros
+tt;Касерос;Caseros
+kk;Кармен де Арехо;Carmen de Areco
+uz;Karmen de Areko;Carmen de Areco
+ky;Кармен де Арехо;Carmen de Areco
+id;Karmen de Areko;Carmen de Areco
+ms;Karmen de Areko;Carmen de Areco
+bn;কার্মেন দে আরেকো;Carmen de Areco
+ur;کارمن ڈے اریکو;Carmen de Areco
+am;ካርመን ደ አሬኮ;Carmen de Areco
+az;Karmen de Areko;Carmen de Areco
+fa;کارمن د آریکو;Carmen de Areco
+jv;Karmen de Areko;Carmen de Areco
+om;Karmen de Areko;Carmen de Areco
+pa;ਕਾਰਮੇਨ ਡੇ ਅਰੇਕੋ;Carmen de Areco
+ps;کارمن ډې اریکو;Carmen de Areco
+sw;Karmen de Areko;Carmen de Areco
+tg;Кармен де Арехо;Carmen de Areco
+tt;Кармен де Арехо;Carmen de Areco
+kk;Капитан Сармьенто;Capitán Sarmiento
+tr;Kapitan Sarmiento;Capitán Sarmiento
+uz;Kapitan Sarmyento;Capitán Sarmiento
+ky;Капитан Сармьенто;Capitán Sarmiento
+id;Kapitan Sarmiento;Capitán Sarmiento
+ms;Kapitan Sarmiento;Capitán Sarmiento
+bn;ক্যাপিটান সারমিয়েন্তো;Capitán Sarmiento
+ur;کیپٹن سارمینتو;Capitán Sarmiento
+am;ካፒታን ሳርሚንቶ;Capitán Sarmiento
+az;Kapitan Sarmyento;Capitán Sarmiento
+fa;کاپیتان سارمینتو;Capitán Sarmiento
+ha;Kapitan Sarmiento;Capitán Sarmiento
+jv;Kapitan Sarmiento;Capitán Sarmiento
+om;Kapitan Sarmiyentoo;Capitán Sarmiento
+pa;ਕੈਪਿਟਨ ਸਾਰਮੀਐਂਟੋ;Capitán Sarmiento
+ps;کپتن سارمینتو;Capitán Sarmiento
+so;Kapitan Sarmiento;Capitán Sarmiento
+sw;Kapitan Sarmiento;Capitán Sarmiento
+tg;Капитан Сармьенто;Capitán Sarmiento
+tt;Капитан Сармьенто;Capitán Sarmiento
+kk;Капилья-дель-Сеньор;Capilla del Señor
+tr;Kapilla del Señor;Capilla del Señor
+uz;Kapilla del Señor;Capilla del Señor
+ky;Капилья-дель-Сеньор;Capilla del Señor
+id;Kapilla del Señor;Capilla del Señor
+ms;Kapilla del Señor;Capilla del Señor
+bn;কাপিলা ডেল সেনিয়র;Capilla del Señor
+ur;کاپیلا ڈیل سینیور;Capilla del Señor
+am;ካፒላ ዴል ሴኞር;Capilla del Señor
+az;Kapilla del Señor;Capilla del Señor
+fa;کاپیلا دل سنیور;Capilla del Señor
+ha;Kapilla del Señor;Capilla del Señor
+jv;Kapilla del Señor;Capilla del Señor
+om;Kapilla del Señor;Capilla del Señor
+pa;ਕਪਿਲਾ ਡੈਲ ਸੇਨਿਅਰ;Capilla del Señor
+ps;کاپیلا ډل سینیور;Capilla del Señor
+so;Kapilla del Señor;Capilla del Señor
+sw;Kapilla del Señor;Capilla del Señor
+tg;Капилья-дель-Сеньор;Capilla del Señor
+tt;Капилья-дель-Сеньор;Capilla del Señor
+kk;Канюэлас;Cañuelas
+uz;Kanuelas;Cañuelas
+ky;Канюэлас;Cañuelas
+bn;ক্যানুয়েলাস;Cañuelas
+ur;کانویلاس;Cañuelas
+am;ካኑዌላስ;Cañuelas
+az;Kanuelas;Cañuelas
+fa;کانوئلاس;Cañuelas
+om;Kanuelas;Cañuelas
+pa;ਕਾਨੁਏਲਾਸ;Cañuelas
+ps;کانویلاس;Cañuelas
+tg;Канюэлас;Cañuelas
+tt;Канюэлас;Cañuelas
+kk;Кампо-Гранде;Campo Grande
+ky;Кампо-Гранде;Campo Grande
+bn;ক্যাম্পো গ্র্যান্ডে;Campo Grande
+ur;کیمپو گرانڈے;Campo Grande
+am;ካምፖ ግራንዴ;Campo Grande
+fa;کامپو گرانده;Campo Grande
+pa;ਕੈਂਪੋ ਗ੍ਰਾਂਡੇ;Campo Grande
+ps;کیمپو گرانډې;Campo Grande
+tg;Кампо-Гранде;Campo Grande
+tt;Кампо-Гранде;Campo Grande
+kk;Кампана;Campana
+uz;Kampana;Campana
+ky;Кампана;Campana
+bn;ক্যাম্পানা;Campana
+ur;کیمپانا;Campana
+am;ካምፓና;Campana
+az;Kampana;Campana
+fa;کامپانا;Campana
+jv;Kampana;Campana
+om;Kampana;Campana
+pa;ਕੈਂਪਾਨਾ;Campana
+ps;کیمپانا;Campana
+tg;Кампана;Campana
+tt;Кампана;Campana
+fa;بورساکو;Burzaco
+ka;ბურსაკო;Burzaco
+el;Μπουένος ΄Aιρες;Buenos Aires
+bg;Буенос Айрес;Buenos Aires
+uk;Буенос-Айрес;Buenos Aires
+os;Буэнос-Айрес;Buenos Aires
+crh;Buenos Ayres;Buenos Aires
+bo;པུ་ཨེ་ནོ་སི་ཨས་རི་སི།;Buenos Aires
+hy;Բուենոս Այրես;Buenos Aires
+bn;বুয়েনোস আইরেস;Buenos Aires
+myv;Буэнос-Айрес ош;Buenos Aires
+lv;Buenosairesa;Buenos Aires
+tl;Lungsod ng Buenos Aires;Buenos Aires
+be;Буэнас-Айрэс;Buenos Aires
+he;בואנוס איירס;Buenos Aires
+tk;Buenos-Aýres;Buenos Aires
+az;Buenos Ayres;Buenos Aires
+el;Μπουένος Άιρες;Buenos Aires
+th;บัวโนสไอเรส;Buenos Aires
+zh-TW;布宜諾斯艾利斯;Buenos Aires
+tg;Буэнос Айрес;Buenos Aires
+ur;بیونس آئرس;Buenos Aires
+gl;Bos Aires;Buenos Aires
+ta;புவெனஸ் ஐரிஸ்;Buenos Aires
+fa;بوئنوس آیرس;Buenos Aires
+am;ብዌኖስ አይሬስ;Buenos Aires
+mr;बुएनोस आइरेस;Buenos Aires
+sah;Буэнос Айрес;Buenos Aires
+ky;Буэнос-Айрес;Buenos Aires
+kn;ಬ್ಯೂನಸ್ ಐರಿಸ್;Buenos Aires
+mk;Буенос Аирес;Buenos Aires
+sr;Буенос Ајрес;Buenos Aires
+mn;Буэнос-Айрес;Buenos Aires
+ml;ബ്യൂണസ് അയേഴ്സ്;Buenos Aires
+ka;ბუენოს-აირესი;Buenos Aires
+ug;Buénos Ayrés;Buenos Aires
+rue;Буенос Аірес;Buenos Aires
+ab;Буенос-Аирес;Buenos Aires
+my;ဗျူနိုအေးရိစ်မြို့;Buenos Aires
+ckb;بۆینس ئایرس;Buenos Aires
+tpi;Buenos Ares;Buenos Aires
+kk;Корнель Брандсен;Coronel Brandsen
+tr;Korosel Brandsen;Coronel Brandsen
+uz;Kornel Brandsen;Coronel Brandsen
+ky;Корнель Брандсен;Coronel Brandsen
+id;Kolosel Brandsen;Coronel Brandsen
+ms;Kolonel Brandsen;Coronel Brandsen
+bn;কর্নেল ব্র্যান্ডসেন;Coronel Brandsen
+ur;کرنل برانڈسن;Coronel Brandsen
+am;ኮሎኔል ብራንድሴን;Coronel Brandsen
+az;Polkovnik Brandsen;Coronel Brandsen
+fa;کرنل برانزن;Coronel Brandsen
+ha;Kolonel Brandsen;Coronel Brandsen
+jv;Kolonel Brandsen;Coronel Brandsen
+om;Kolonel Brandsen;Coronel Brandsen
+pa;ਕਰਨਲ ਬ੍ਰਾਂਡਸੇਨ;Coronel Brandsen
+ps;کرنل برانډسن;Coronel Brandsen
+so;Kolonel Brandsen;Coronel Brandsen
+sw;Kolonel Brandsen;Coronel Brandsen
+tg;Корнель Брандсен;Coronel Brandsen
+tt;Корнель Брандсен;Coronel Brandsen
+kk;Берон-де-Астрада;Berón de Astrada
+ky;Берон-де-Астрада;Berón de Astrada
+bn;বেরন ডি এস্ট্রাডা;Berón de Astrada
+ur;بیرون ڈے استرادا;Berón de Astrada
+am;ቤሮን ዲ አስትራዳ;Berón de Astrada
+fa;برون د استرادا;Berón de Astrada
+pa;ਬੇਰਾਂ ਡੇ ਅਸਟ੍ਰਾਡਾ;Berón de Astrada
+ps;بیرون ډی استرادا;Berón de Astrada
+tg;Берон-де-Астрада;Berón de Astrada
+tt;Берон-де-Астрада;Berón de Astrada
+kk;Бернардо-де-Иригойен;Bernardo de Irigoyen
+ky;Бернардо-де-Иригойен;Bernardo de Irigoyen
+bn;বার্নার্ডো ডি ইরিগোয়েন;Bernardo de Irigoyen
+ur;برنارڈو ڈے ایریگویں;Bernardo de Irigoyen
+am;በርናርዶ ዲ ኢሪጎየን;Bernardo de Irigoyen
+fa;برناردو د ایریگویین;Bernardo de Irigoyen
+pa;ਬਰਨਾਰਡੋ ਡੇ ਇਰੀਗੋਏਨ;Bernardo de Irigoyen
+ps;برنارډو ډی ایریګوین;Bernardo de Irigoyen
+tg;Бернардо-де-Иригойен;Bernardo de Irigoyen
+tt;Бернардо-де-Иригойен;Bernardo de Irigoyen
+bg;Берисо;Berisso
+lt;Berisas;Berisso
+uk;Беріссо;Berisso
+kk;Берисо;Berisso
+uz;Berissо;Berisso
+ky;Берисо;Berisso
+bn;বেরিসো;Berisso
+ur;بیریسو;Berisso
+am;በሪሶ;Berisso
+fa;بریسو;Berisso
+om;Berissoo;Berisso
+pa;ਬੇਰਿਸੋ;Berisso
+ps;بیریسو;Berisso
+tg;Берисо;Berisso
+tt;Берисо;Berisso
+tt;Берасатеги;Berazategui
+lt;Berasategis;Berazategui
+lv;Berasategija;Berazategui
+hy;Բերասատեգի;Berazategui
+uk;Берасатегі;Berazategui
+ur;بیرازاتیجوی;Berazategui
+sgs;Berasategs;Berazategui
+mr;बाराझतेगुई;Berazategui
+el;Μπεραζατεκούι;Berazategui
+eu;Berazategi;Berazategui
+fa;براساتئی;Berazategui
+bn;বার্মোজাতেগুই;Berazategui
+si;බෙරසටෙගුයි;Berazategui
+sr;Беразатеги;Berazategui
+kn;ಬೆರಾಜಟೂಯಿ;Berazategui
+ta;பெராஸ்ட்டேகுய்;Berazategui
+gu;બેરાજાટેગ્યુઇ;Berazategui
+te;బేరాజాతెగి;Berazategui
+th;เบรัสเตกี;Berazategui
+kk;Бенито Хуарес;Benito Juárez
+uz;Benito Xwares;Benito Juárez
+ky;Бенито Хуарес;Benito Juárez
+bn;বেনিটো জুয়ারেজ;Benito Juárez
+ur;بینیٹو خوارز;Benito Juárez
+am;በኔቶ ሁዋሬዝ;Benito Juárez
+az;Benito Xwares;Benito Juárez
+fa;بنیتو خوارز;Benito Juárez
+pa;ਬੇਨਿਟੋ ਜੁਆਰੇਜ਼;Benito Juárez
+ps;بینیتو خوارز;Benito Juárez
+tg;Бенито Хуарес;Benito Juárez
+tt;Бенито Хуарес;Benito Juárez
+kk;Белла-Виста;Bella Vista
+ky;Белла-Виста;Bella Vista
+bn;বেলা ভিস্টা;Bella Vista
+ur;بیلا ویسٹا;Bella Vista
+am;ቤላ ቪስታ;Bella Vista
+fa;بلا ویستا;Bella Vista
+pa;ਬੈਲਾ ਵਿਸਤਾ;Bella Vista
+ps;بیلا ویستا;Bella Vista
+tg;Белла-Виста;Bella Vista
+tt;Белла-Виста;Bella Vista
+kk;Белен-де-Эскобар;Belén de Escobar
+uz;Belen de Eskobar;Belén de Escobar
+ky;Белен-де-Эскобар;Belén de Escobar
+bn;বেলেন ডি এসকোবার;Belén de Escobar
+ur;بیلین ڈے اسکوبار;Belén de Escobar
+am;በለን ዲ ኤስኮባር;Belén de Escobar
+az;Belen de Eskobar;Belén de Escobar
+fa;بلن د اسکوبار;Belén de Escobar
+om;Belen de Eskobar;Belén de Escobar
+pa;ਬੇਲਨ ਡੇ ਐਸਕੋਬਾਰ;Belén de Escobar
+ps;بیلین ډی اسکوبار;Belén de Escobar
+tg;Белен-де-Эскобар;Belén de Escobar
+tt;Белен-де-Эскобар;Belén de Escobar
+kk;Барадеро;Baradero
+ky;Барадеро;Baradero
+bn;বারাডেরো;Baradero
+ur;بارادیرو;Baradero
+am;ባራዴሮ;Baradero
+fa;بارادرو;Baradero
+pa;ਬਾਰਾਡੇਰੋ;Baradero
+ps;بارادیرو;Baradero
+tg;Барадеро;Baradero
+tt;Барадеро;Baradero
+fa;بانفیلد;Banfield
+hy;Բանֆիլդ;Banfield
+fa;بالکارسه;Balcarce
+kk;Балькарсе;Balcarce
+uz;Balkarbe;Balcarce
+ky;Балькарсе;Balcarce
+bn;বালকার্স;Balcarce
+ur;بالکارسے;Balcarce
+am;ባልካርሴ;Balcarce
+az;Balkarbe;Balcarce
+om;Balkarbe;Balcarce
+pa;ਬਾਲਕਾਰਸੇ;Balcarce
+ps;بالکارسې;Balcarce
+tg;Балькарсе;Balcarce
+tt;Балькарсе;Balcarce
+fa;آسول;Azul
+lt;Asulis;Azul
+kk;Асуль;Azul
+ky;Асуль;Azul
+bn;আজুল;Azul
+ur;ازول;Azul
+am;አዙል;Azul
+pa;ਅਜ਼ੂਲ;Azul
+ps;ازول;Azul
+tg;Асуль;Azul
+tt;Асуль;Azul
+kk;Аякучо;Ayacucho
+uz;Ayakucho;Ayacucho
+ky;Аякучо;Ayacucho
+bn;আয়াকুচো;Ayacucho
+ur;ایاکوچو;Ayacucho
+am;አያኩቾ;Ayacucho
+az;Ayakucho;Ayacucho
+fa;آیاکوچو;Ayacucho
+om;Ayakucho;Ayacucho
+pa;ਅਯਾਕੂਚੋ;Ayacucho
+ps;ایاکوچو;Ayacucho
+tg;Аякучо;Ayacucho
+tt;Аякучо;Ayacucho
+kk;Альвеар;Alvear
+ky;Альвеар;Alvear
+bn;আলভিয়ার;Alvear
+ur;الویر;Alvear
+am;አልቬር;Alvear
+fa;الویار;Alvear
+pa;ਅਲਵੇਅਰ;Alvear
+ps;الویر;Alvear
+tg;Альвеар;Alvear
+tt;Альвеар;Alvear
+fa;الدیا سان جوان;Aldea San Juan
+fa;الدیا اسونسیون;Aldea Asunción
+kk;Альба-Посе;Alba Posse
+ky;Альба-Посе;Alba Posse
+bn;আল্বা পসে;Alba Posse
+ur;البا پاسے;Alba Posse
+am;አልባ ፖሴ;Alba Posse
+fa;البا پسه;Alba Posse
+pa;ਅਲਬਾ ਪੋਸੇ;Alba Posse
+ps;البا پاسې;Alba Posse
+tg;Альба-Посе;Alba Posse
+tt;Альба-Посе;Alba Posse
+fa;اکاسوسو;Acassuso
+kk;Герника;Guernica
+tr;Guernika;Guernica
+uz;Guernika;Guernica
+ky;Герника;Guernica
+id;Guernika;Guernica
+ms;Guernika;Guernica
+bn;গেরনিকা;Guernica
+ur;گرنیکا;Guernica
+am;ጌርኒካ;Guernica
+az;Guernika;Guernica
+fa;گرنیکا;Guernica
+ha;Guernika;Guernica
+jv;Guernika;Guernica
+om;Guernika;Guernica
+pa;ਗੈਰਨੀਕਾ;Guernica
+ps;گرنیکا;Guernica
+so;Guernika;Guernica
+sw;Guernika;Guernica
+tg;Герника;Guernica
+tt;Герника;Guernica
+kk;Вилла-Басилио-Ниевас;Villa Basilio Nievas
+ky;Вилла-Басилио-Ниевас;Villa Basilio Nievas
+bn;ভিলা বাসিলিও নিয়েভাস;Villa Basilio Nievas
+ur;ویلا باسیلیو نیوواس;Villa Basilio Nievas
+am;ቪላ ባስილዮ ኒየቫስ;Villa Basilio Nievas
+fa;ویلا باسیلیو نیواس;Villa Basilio Nievas
+pa;ਵਿਲਾ ਬਾਸੀਲੀਓ ਨੀਏਵਾਸ;Villa Basilio Nievas
+ps;ویلا باسیلیو نیواس;Villa Basilio Nievas
+tg;Вилла-Басилио-Ниевас;Villa Basilio Nievas
+tt;Вилла-Басилио-Ниевас;Villa Basilio Nievas
+fa;ساپالا;Zapala
+lt;Sapala;Zapala
+uk;Сапала;Zapala
+hy;Սապալա;Zapala
+kk;Сапала;Zapala
+ky;Сапала;Zapala
+bn;জাপালা;Zapala
+ur;زپالا;Zapala
+am;ዛፓላ;Zapala
+pa;ਜ਼ਾਪਾਲਾ;Zapala
+ps;زاپالا;Zapala
+tg;Сапала;Zapala
+tt;Сапала;Zapala
+kk;Йерба-Буэна;Yerba Buena
+ky;Йерба-Буэна;Yerba Buena
+bn;ইয়ারবা বুয়েনা;Yerba Buena
+ur;یرباؤنہ;Yerba Buena
+am;የርባ ቡዋና;Yerba Buena
+fa;یربا بوئنا;Yerba Buena
+pa;ਯਰਬਾ ਬੁਏਨਾ;Yerba Buena
+ps;یرباؤنه;Yerba Buena
+tg;Йерба-Буэна;Yerba Buena
+tt;Йерба-Буэна;Yerba Buena
+kk;Винчина;Vinchina
+ky;Винчина;Vinchina
+bn;ভিঞ্চিনা;Vinchina
+ur;ونچینا;Vinchina
+am;ቪንቺና;Vinchina
+fa;ونچینا;Vinchina
+pa;ਵਿਨਚੀਨਾ;Vinchina
+ps;ونچینا;Vinchina
+tg;Винчина;Vinchina
+tt;Винчина;Vinchina
+kk;Вилла-Унион;Villa Unión
+ky;Вилла-Унион;Villa Unión
+bn;ভিলা ইউনিয়ন;Villa Unión
+ur;ویلا یونین;Villa Unión
+am;ቪላ ዩኒዮን;Villa Unión
+fa;ویلا یونیون;Villa Unión
+pa;ਵਿਲਾ ਯੂਨੀਅਨ;Villa Unión
+ps;ویلا یونین;Villa Unión
+tg;Вилла-Унион;Villa Unión
+tt;Вилла-Унион;Villa Unión
+kk;Вилла-Тулумба;Villa Tulumba
+ky;Вилла-Тулумба;Villa Tulumba
+bn;ভিলা তুলুম্বা;Villa Tulumba
+ur;ویلا تولمبا;Villa Tulumba
+am;ቪላ ቱሉምባ;Villa Tulumba
+fa;ویلا تولومبا;Villa Tulumba
+pa;ਵਿਲਾ ਤੁਲੁਮਬਾ;Villa Tulumba
+ps;ویلا تولمبا;Villa Tulumba
+tg;Вилла-Тулумба;Villa Tulumba
+tt;Вилла-Тулумба;Villa Tulumba
+kk;Вилла-Санта-Роса;Villa Santa Rosa
+ky;Вилла-Санта-Роса;Villa Santa Rosa
+bn;ভিলা সান্তা রোসা;Villa Santa Rosa
+ur;ویلا سانتا روزا;Villa Santa Rosa
+am;ቪላ ሳንታ ሮዛ;Villa Santa Rosa
+fa;ویلا سانتا روزا;Villa Santa Rosa
+pa;ਵਿਲਾ ਸਾਂਤਾ ਰੋਜ਼ਾ;Villa Santa Rosa
+ps;ویلا سانتا روزا;Villa Santa Rosa
+tg;Вилла-Санта-Роса;Villa Santa Rosa
+tt;Вилла-Санта-Роса;Villa Santa Rosa
+kk;Вилла-Охо-де-Агва;Villa Ojo de Agua
+ky;Вилла-Охо-де-Агва;Villa Ojo de Agua
+bn;ভিলা ওজো ডি আগুয়া;Villa Ojo de Agua
+ur;ویلا اوخو ڈے آگوا;Villa Ojo de Agua
+am;ቪላ ኦሆ ዲ አጓ;Villa Ojo de Agua
+fa;ویلا اوخو د آگوا;Villa Ojo de Agua
+pa;ਵਿਲਾ ਓਖੋ ਡੇ ਅਗੁਆ;Villa Ojo de Agua
+ps;ویلا اوخو ډې آګوا;Villa Ojo de Agua
+tg;Вилла-Охо-де-Агва;Villa Ojo de Agua
+tt;Вилла-Охо-де-Агва;Villa Ojo de Agua
+kk;Вилла-Медиа-Агва;Villa Media Agua
+ky;Вилла-Медиа-Агва;Villa Media Agua
+bn;ভিলা মিডিয়া আগুয়া;Villa Media Agua
+ur;ویلا میڈیا آگوا;Villa Media Agua
+am;ቪላ ሚዲያ አጓ;Villa Media Agua
+fa;ویلا مدیا آگوا;Villa Media Agua
+pa;ਵਿਲਾ ਮੀਡਿਆ ਅਗੁਆ;Villa Media Agua
+ps;ویلا میډیا آګوا;Villa Media Agua
+tg;Вилла-Медиа-Агва;Villa Media Agua
+tt;Вилла-Медиа-Агва;Villa Media Agua
+lt;Vilja Marija;Villa María
+fa;وییا ماریا;Villa María
+he;ויזה מריה;Villa María
+ka;ვილია-მარია;Villa María
+kk;Вилла-Мария;Villa María
+ky;Вилла-Мария;Villa María
+bn;ভিলা মারিয়া;Villa María
+ur;ویلا ماریا;Villa María
+am;ቪላ ማሪያ;Villa María
+pa;ਵਿਲਾ ਮਾਰੀਆ;Villa María
+ps;ویلا ماریا;Villa María
+tg;Вилла-Мария;Villa María
+tt;Вилла-Мария;Villa María
+he;ויזה לה אנגוסטורה;Villa La Angostura
+lt;Vilja La Angostura;Villa La Angostura
+kk;Вилла Краузе;Villa Krause
+ky;Вилла Краузе;Villa Krause
+bn;ভিলা ক্রাউজে;Villa Krause
+ur;ویلا کراؤزے;Villa Krause
+am;ቪላ ክራውዜ;Villa Krause
+fa;ویلا کراوزه;Villa Krause
+pa;ਵਿਲਾ ਕ੍ਰਾਊਜ਼ੇ;Villa Krause
+ps;ویلا کراوزې;Villa Krause
+tg;Виллаи Краузе;Villa Krause
+tt;Вилла Краузе;Villa Krause
+kk;Вилла Уидобро;Villa Huidobro
+ky;Вилла Уидобро;Villa Huidobro
+bn;ভিলা হুইডোব্রো;Villa Huidobro
+ur;ویلا ہویڈوبرو;Villa Huidobro
+am;ቪላ ሁዩዶብሮ;Villa Huidobro
+fa;ویلا هویدوبرو;Villa Huidobro
+pa;ਵਿਲਾ ਹੁਇਡੋਬਰੋ;Villa Huidobro
+ps;ویلا هویډوبرو;Villa Huidobro
+tg;Виллаи Хуидобро;Villa Huidobro
+tt;Вилла Хуидобро;Villa Huidobro
+kk;Вилла Генерал Рока;Villa General Roca
+ky;Вилла Генерал Рока;Villa General Roca
+bn;ভিলা জেনারেল রোকা;Villa General Roca
+ur;ویلا جنرل روکا;Villa General Roca
+am;ቪላ ጀነራል ሮካ;Villa General Roca
+fa;ویلا جنرال روکا;Villa General Roca
+pa;ਵਿਲਾ ਜਨਰਲ ਰੋਕਾ;Villa General Roca
+ps;ویلا جنرال روکا;Villa General Roca
+tg;Виллаи Генерал Рока;Villa General Roca
+tt;Вилла Генерал Рока;Villa General Roca
+kk;Вилла де Мария;Villa de María
+ky;Вилла де Мария;Villa de María
+bn;ভিলা ডি মারিয়া;Villa de María
+ur;ویلا ڈی ماریا;Villa de María
+am;ቪላ ደ ማሪያ;Villa de María
+fa;ویلا دی ماریا;Villa de María
+pa;ਵਿਲਾ ਡੀ ਮਾਰੀਆ;Villa de María
+ps;ویلا دي ماریا;Villa de María
+tg;Виллаи де Мария;Villa de María
+tt;Вилла де Мария;Villa de María
+kk;Вилла дел Тоторал;Villa del Totoral
+ky;Вилла дел Тоторал;Villa del Totoral
+bn;ভিলা ডেল টোটোরাল;Villa del Totoral
+ur;ویلا ڈیل ٹوٹورال;Villa del Totoral
+am;ቪላ ዴል ቶቶራል;Villa del Totoral
+fa;ویلا دل توتورال;Villa del Totoral
+pa;ਵਿਲਾ ਡੈਲ ਟੋਟੋਰਾਲ;Villa del Totoral
+ps;ویلا ډل ټوټورال;Villa del Totoral
+tg;Виллаи дел Тоторал;Villa del Totoral
+tt;Вилла дел Тоторал;Villa del Totoral
+kk;Вилла Эль Сальвадор;Villa El Salvador
+ky;Вилла Эль Сальвадор;Villa El Salvador
+bn;ভিলা এল সালভেডর;Villa El Salvador
+ur;ویلا الساڈور;Villa El Salvador
+am;ቪላ ኤል ሳልቫዶር;Villa El Salvador
+fa;ویلا ال سالوادور;Villa El Salvador
+pa;ਵਿਲਾ ਐਲ ਸਲਵਾਡੋਰ;Villa El Salvador
+ps;ویلا ال سالوادور;Villa El Salvador
+tg;Виллаи Эл Сальвадор;Villa El Salvador
+tt;Вилла Эль Сальвадор;Villa El Salvador
+kk;Вилла дел Росарио;Villa del Rosario
+ky;Вилла дел Росарио;Villa del Rosario
+bn;ভিলা ডেল রোসারিও;Villa del Rosario
+ur;ویلا ڈیل روزاریو;Villa del Rosario
+am;ቪላ ዴል ሮሳሪዮ;Villa del Rosario
+fa;ویلا دل روزاریو;Villa del Rosario
+pa;ਵਿਲਾ ਡੈਲ ਰੋਸਾਰੀਓ;Villa del Rosario
+ps;ویلا ډل روزاریو;Villa del Rosario
+tg;Виллаи дел Росарио;Villa del Rosario
+tt;Вилла дел Росарио;Villa del Rosario
+kk;Вилла Кура Брочеро;Villa Cura Brochero
+ky;Вилла Кура Брочеро;Villa Cura Brochero
+bn;ভিলা কুরা ব্রোচেরো;Villa Cura Brochero
+ur;ویلا کورا بروچیرو;Villa Cura Brochero
+am;ቪላ ኩራ ብሮቼሮ;Villa Cura Brochero
+fa;ویلا کورا بروچرو;Villa Cura Brochero
+pa;ਵਿਲਾ ਕੁਰਾ ਬ੍ਰੋਚੇਰੋ;Villa Cura Brochero
+ps;ویلا کورا بروچیرو;Villa Cura Brochero
+tg;Виллаи Кура Брочеро;Villa Cura Brochero
+tt;Вилла Кура Брочеро;Villa Cura Brochero
+fa;وییا کونستیتوسیون;Villa Constitución
+kk;Вилла Конституциондігі;Villa Constitución
+ky;Вилла Конституциондүгү;Villa Constitución
+bn;ভিলা কনস্টিটিউসিয়ন;Villa Constitución
+ur;ویلا کنسٹیٹوشن;Villa Constitución
+am;ቪላ ሕገወጥ;Villa Constitución
+pa;ਵਿਲਾ ਸੰਵਿਧਾਨ;Villa Constitución
+ps;ویلا کنسټیټوشن;Villa Constitución
+tg;Виллаи Конститусён;Villa Constitución
+tt;Вилла Конституциондагы;Villa Constitución
+kk;Вилла Кастелли;Villa Castelli
+ky;Вилла Кастелли;Villa Castelli
+bn;ভিলা কাস্তেলি;Villa Castelli
+ur;ویلا کاسٹیلی;Villa Castelli
+am;ቪላ ካስቴሊ;Villa Castelli
+fa;ویلا کاستلی;Villa Castelli
+pa;ਵਿਲਾ ਕਾਸਟੇਲੀ;Villa Castelli
+ps;ویلا کاسټیلي;Villa Castelli
+tg;Виллаи Кастелли;Villa Castelli
+tt;Вилла Кастелли;Villa Castelli
+lt;Vilja Karlos Pasas;Villa Carlos Paz
+fa;وییا کارلوس پاس;Villa Carlos Paz
+he;ויזה קרלוס פאס;Villa Carlos Paz
+hy;Վիլյա Կառլոս Պաս;Villa Carlos Paz
+ka;ვილია-კარლოს-პასი;Villa Carlos Paz
+kk;Вилла Берте;Villa Berthet
+ky;Вилла Берте;Villa Berthet
+bn;ভিলা বার্থেট;Villa Berthet
+ur;ویلا برتھیٹ;Villa Berthet
+am;ቪላ በርተት;Villa Berthet
+fa;ویلا برتت;Villa Berthet
+pa;ਵਿਲਾ ਬਰਥੇਟ;Villa Berthet
+ps;ویلا برتھیٹ;Villa Berthet
+tg;Виллаи Берте;Villa Berthet
+tt;Вилла Берте;Villa Berthet
+kk;Вилла Атамискуи;Villa Atamisqui
+ky;Вилла Атамискуи;Villa Atamisqui
+bn;ভিলা অতামিস্কী;Villa Atamisqui
+ur;ویلا اتمسکوی;Villa Atamisqui
+am;ቪላ አታሚስክዊ;Villa Atamisqui
+fa;ویلا اتامیسکی;Villa Atamisqui
+pa;ਵਿਲਾ ਅਤਮਿਸਕੁਈ;Villa Atamisqui
+ps;ویلا اتمسکوی;Villa Atamisqui
+tg;Виллаи Атамискуи;Villa Atamisqui
+tt;Вилла Атамискуи;Villa Atamisqui
+fa;وییا آنخلا;Villa Ángela
+he;ויזה אנחלה;Villa Ángela
+lt;Vilja Anchela;Villa Ángela
+kk;Вилла Анжела;Villa Ángela
+ky;Вилла Анжела;Villa Ángela
+bn;ভিলা এঞ্জেলা;Villa Ángela
+ur;ویلا انجیلا;Villa Ángela
+am;ቪላ አንጀላ;Villa Ángela
+pa;ਵਿਲਾ ਐਂਜੇਲਾ;Villa Ángela
+ps;ویلا انجیلا;Villa Ángela
+tg;Виллаи Анжела;Villa Ángela
+tt;Вилла Анжела;Villa Ángela
+kk;Вилла Аберастаин;Villa Aberastain
+ky;Вилла Аберастаин;Villa Aberastain
+bn;ভিলা এবেরাস্টাইন;Villa Aberastain
+ur;ویلا ابیراسٹین;Villa Aberastain
+am;ቪላ አበራስታይን;Villa Aberastain
+fa;ویلا آبراستین;Villa Aberastain
+pa;ਵਿਲਾ ਅਬੇਰਾਸਟੇਨ;Villa Aberastain
+ps;ویلا ابیراسټین;Villa Aberastain
+tg;Виллаи Аберастаин;Villa Aberastain
+tt;Вилла Аберастаин;Villa Aberastain
+lt;Vjedma;Viedma
+th;เบียดมา;Viedma
+bg;Виедма;Viedma
+el;Βιέδμα;Viedma
+ka;ვიედმა;Viedma
+fa;ویدما;Viedma
+os;Вьедмæ;Viedma
+uk;Вєдма;Viedma
+he;ויידמה;Viedma
+hy;Վիեդմա;Viedma
+bn;ভিয়েডমা;Viedma
+ur;وایڈما;Viedma
+am;ቪዬድማ;Viedma
+pa;ਵਿਏਡਮਾ;Viedma
+ps;وايدما;Viedma
+kk;Викторика;Victorica
+ky;Викторика;Victorica
+bn;ভিক্টোরিকা;Victorica
+ur;وکٹوریکا;Victorica
+am;ቪክቶሪካ;Victorica
+fa;ویکتوریکا;Victorica
+pa;ਵਿਕਟੋਰਿਕਾ;Victorica
+ps;وکٹوریکا;Victorica
+tg;Викторика;Victorica
+tt;Викторика;Victorica
+lt;Viktorija;Victoria
+ur;وکٹوریہ، انترے ریوس;Victoria
+kk;Вера;Vera
+ky;Вера;Vera
+bn;ভেরা;Vera
+ur;ویرا;Vera
+am;ቬራ;Vera
+fa;ورا;Vera
+pa;ਵੇਰਾ;Vera
+ps;ویرا;Vera
+tg;Вера;Vera
+tt;Вера;Vera
+fa;وانادو تورتو;Venado Tuerto
+lt;Venado Tuertas;Venado Tuerto
+el;Βενάδο Τουέρτο;Venado Tuerto
+he;ונדו טוארטו;Venado Tuerto
+ka;ვენადო-ტუერტო;Venado Tuerto
+kk;Вейнтисинко де Майо;Veinticinco de Mayo
+ky;Вейнтисинко де Майо;Veinticinco de Mayo
+bn;ভেইন্টিসিংকো ডি মায়ো;Veinticinco de Mayo
+ur;ویئنٹیسنکو ڈی مایو;Veinticinco de Mayo
+am;ቬይንቲሲንኮ ዴ ማዮ;Veinticinco de Mayo
+fa;وینتیسینکو دی مایو;Veinticinco de Mayo
+pa;ਵੇਈਂਟੀਸਿੰਕੋ ਡੀ ਮਾਯੋ;Veinticinco de Mayo
+ps;ویئنتیسینکو دی مایو;Veinticinco de Mayo
+tg;Вейнтисинко де Майо;Veinticinco de Mayo
+tt;Вейнтисинко де Майо;Veinticinco de Mayo
+kk;Ведиа;Vedia
+ky;Ведиа;Vedia
+bn;ভেডিয়া;Vedia
+ur;ویڈیا;Vedia
+am;ቬዲያ;Vedia
+fa;ودیا;Vedia
+pa;ਵੇਡੀਆ;Vedia
+ps;ویډیا;Vedia
+tg;Ведиа;Vedia
+tt;Ведиа;Vedia
+kk;Валле Гранде;Valle Grande
+ky;Валле Гранде;Valle Grande
+bn;ভ্যালে গ্রান্ডে;Valle Grande
+ur;ویلے گرانڈ;Valle Grande
+am;ቫሌ ግራንዴ;Valle Grande
+fa;ولی گرند;Valle Grande
+pa;ਵੈਲੀ ਗ੍ਰਾਂਡੇ;Valle Grande
+ps;ویلي ګرانډ;Valle Grande
+tg;Валле Гранде;Valle Grande
+tt;Валле Гранде;Valle Grande
+kk;Валчета;Valcheta
+ky;Валчета;Valcheta
+bn;ভ্যালচেটা;Valcheta
+ur;والچیٹا;Valcheta
+am;ቫልቼታ;Valcheta
+fa;والچتا;Valcheta
+pa;ਵਾਲਚੇਟਾ;Valcheta
+ps;والچیټا;Valcheta
+tg;Валчета;Valcheta
+tt;Валчета;Valcheta
+bg;Ушуая;Ushuaia
+he;אושואיה;Ushuaia
+lt;Ušuaja;Ushuaia
+el;Ουσουάια;Ushuaia
+fa;اوسوایا;Ushuaia
+bn;উসুয়াইয়া;Ushuaia
+ka;უშუაია;Ushuaia
+uk;Ушуая;Ushuaia
+kn;ಉಶುವಿಯಾ;Ushuaia
+os;Ушуая;Ushuaia
+be;Ушуая;Ushuaia
+th;อูซัวยา;Ushuaia
+az;Uşuaya;Ushuaia
+hy;Ուշուայա;Ushuaia
+lv;Ušvaja;Ushuaia
+sr;Ушуаја;Ushuaia
+ur;اشویا;Ushuaia
+am;ኡሁዋያ;Ushuaia
+pa;ਉਸ਼ੁਆਇਆ;Ushuaia
+ps;اشویا;Ushuaia
+kk;Улапес;Ulapes
+ky;Улапес;Ulapes
+bn;উলেপস;Ulapes
+ur;اولاپیس;Ulapes
+am;ውላፔስ;Ulapes
+fa;اولاپس;Ulapes
+pa;ਉਲਾਪੇਸ;Ulapes
+ps;اولاپیس;Ulapes
+tg;Улапес;Ulapes
+tt;Улапес;Ulapes
+kk;Тупунгато;Tupungato
+ky;Тупунгато;Tupungato
+bn;টুপুঙ্গাটো;Tupungato
+ur;ٹوپونگاٹو;Tupungato
+am;ቱፑንጋቶ;Tupungato
+fa;توپونگاتو;Tupungato
+pa;ਟੁਪੁੰਗਾਟੋ;Tupungato
+ps;ټوپونګاټو;Tupungato
+tg;Тупунгато;Tupungato
+tt;Тупунгато;Tupungato
+kk;Тунуян;Tunuyán
+ky;Тунуян;Tunuyán
+bn;টুনুয়ান;Tunuyán
+ur;تنویان;Tunuyán
+am;ቱኑያን;Tunuyán
+fa;تونویان;Tunuyán
+pa;ਤੁਨੁਯਾਨ;Tunuyán
+ps;تنویان;Tunuyán
+tg;Тунуян;Tunuyán
+tt;Тунуян;Tunuyán
+kk;Тумбайя;Tumbaya
+ky;Тумбайя;Tumbaya
+bn;তুম্বায়া;Tumbaya
+ur;تمبایا;Tumbaya
+am;ተምባያ;Tumbaya
+fa;تومبایا;Tumbaya
+pa;ਤੁਮਬਾਯਾ;Tumbaya
+ps;تمبایا;Tumbaya
+tg;Тумбайя;Tumbaya
+tt;Тумбайя;Tumbaya
+lt;Trevelinas;Trevelin
+lv;Trevelina;Trevelin
+kk;Трес Лома;Tres Lomas
+ky;Трес Лома;Tres Lomas
+bn;ট্রেস লোমাস;Tres Lomas
+ur;ٹریس لوماس;Tres Lomas
+am;ትሬስ ሎማስ;Tres Lomas
+fa;تریس لوماس;Tres Lomas
+pa;ਟ੍ਰੇਸ ਲੋਮਾਸ;Tres Lomas
+ps;ټریس لوماس;Tres Lomas
+tg;Трес Лома;Tres Lomas
+tt;Трес Лома;Tres Lomas
+kk;Трес Исдета;Tres Isletas
+ky;Трес Исдета;Tres Isletas
+bn;ট্রেস ইসলেটাস;Tres Isletas
+ur;ٹریس ایسلیٹاس;Tres Isletas
+am;ትሬስ ኢስሌታስ;Tres Isletas
+fa;تریس اسلتاس;Tres Isletas
+pa;ਟ੍ਰੇਸ ਆਈਸਲੇਟਾਸ;Tres Isletas
+ps;ټریس ایسلیټاس;Tres Isletas
+tg;Трес Исдета;Tres Isletas
+tt;Трес Исдета;Tres Isletas
+fa;ترس آرویوس;Tres Arroyos
+lt;Tres Arojosas;Tres Arroyos
+kk;Трес Арройос;Tres Arroyos
+ky;Трес Арройос;Tres Arroyos
+bn;ট্রেস অ্যারয়োস;Tres Arroyos
+ur;ٹریس ارویوس;Tres Arroyos
+am;ትሬስ አሮዮስ;Tres Arroyos
+pa;ਟ੍ਰੇਸ ਅਰੋਓਸ;Tres Arroyos
+ps;ټریس ارویوس;Tres Arroyos
+tg;Трес Арройос;Tres Arroyos
+tt;Трес Арройос;Tres Arroyos
+lt;Tres Algarobosas;Tres Algarrobos
+uk;Трес-Альгарробос;Tres Algarrobos
+he;טרס אלגרובוס;Tres Algarrobos
+fa;ترنکه لائوکن;Trenque Lauquen
+kk;Тренке Лаукен;Trenque Lauquen
+ky;Тренке Лаукен;Trenque Lauquen
+bn;ট্রেনকে লাউকুয়েন;Trenque Lauquen
+ur;ٹرینکے لاؤکوئن;Trenque Lauquen
+am;ትሬንቀ ላውቁዬን;Trenque Lauquen
+pa;ਟ੍ਰੇਨਕਿਊ ਲਾਉਕਿਊਨ;Trenque Lauquen
+ps;ترینکه لاوکون;Trenque Lauquen
+tg;Тренке Лаукен;Trenque Lauquen
+tt;Тренке Лаукен;Trenque Lauquen
+kk;Тренель;Trenel
+ky;Тренель;Trenel
+bn;ট্রেনেল;Trenel
+ur;ٹرینل;Trenel
+am;ትሬነል;Trenel
+fa;ترنل;Trenel
+pa;ਟ੍ਰੇਨੇਲ;Trenel
+ps;ترینل;Trenel
+tg;Тренель;Trenel
+tt;Тренель;Trenel
+lt;Trelju;Trelew
+fa;ترلئو;Trelew
+he;טרלאו;Trelew
+ka;ტრელევი;Trelew
+kk;Транкас;Trancas
+ky;Транкас;Trancas
+bn;ট্রানকাস;Trancas
+ur;ٹرانکاس;Trancas
+am;ትራንካስ;Trancas
+az;Trankkas;Trancas
+fa;ترانکاس;Trancas
+pa;ਟ੍ਰਾਂਕਾਸ;Trancas
+ps;ترانکاس;Trancas
+tg;Транкас;Trancas
+tt;Транкас;Trancas
+kk;Тостадо;Tostado
+ky;Тостадо;Tostado
+bn;টোস্টাডো;Tostado
+ur;ٹوسٹادو;Tostado
+am;ቶስታዶ;Tostado
+fa;توستادو;Tostado
+pa;ਟੋਸਟਾਡੋ;Tostado
+ps;توستادو;Tostado
+tg;Тостадо;Tostado
+tt;Тостадо;Tostado
+kk;Торнквист;Tornquist
+ky;Торнквист;Tornquist
+bn;টর্নকুইস্ট;Tornquist
+ur;ٹورنکوسٹ;Tornquist
+am;ቶርንኩዊስት;Tornquist
+az;Tornkvit;Tornquist
+fa;تورنکویست;Tornquist
+pa;ਟੋਰਨਕੁਇਸਟ;Tornquist
+ps;تورنکویست;Tornquist
+tg;Торнквист;Tornquist
+tt;Торнквист;Tornquist
+kk;Тоай;Toay
+ky;Тоай;Toay
+bn;টোআই;Toay
+ur;ٹوآئے;Toay
+am;ቶአይ;Toay
+fa;توای;Toay
+pa;ਟੋਆਏ;Toay
+ps;توای;Toay
+tg;Тоай;Toay
+tt;Тоай;Toay
+fa;تیو پوزو;Tío Pozo
+el;Τινογάστα;Tinogasta
+kk;Тиногаста;Tinogasta
+ky;Тиногаста;Tinogasta
+bn;টিনোগাস্তা;Tinogasta
+ur;ٹنوگاستا;Tinogasta
+am;ቲኖጋስታ;Tinogasta
+fa;تینوگاستا;Tinogasta
+pa;ਟਿਨੋਗਾਸਤਾ;Tinogasta
+ps;تینوگاستا;Tinogasta
+tg;Тиногаста;Tinogasta
+tt;Тиногаста;Tinogasta
+kk;Тилкара;Tilcara
+ky;Тилкара;Tilcara
+bn;তিলকারা;Tilcara
+ur;ٹلکارا;Tilcara
+am;ቲልካራ;Tilcara
+az;Tilkara;Tilcara
+fa;تیلکارا;Tilcara
+pa;ਤਿਲਕਾਰਾ;Tilcara
+ps;تیلکارا;Tilcara
+tg;Тилкара;Tilcara
+tt;Тилкара;Tilcara
+kk;Термас-де-Рио-Ондо;Termas de Río Hondo
+ky;Термас-де-Рио-Ондо;Termas de Río Hondo
+bn;টেরমাস ডে রিও হন্ডো;Termas de Río Hondo
+ur;ٹرماس ڈی ریو ہوندو;Termas de Río Hondo
+am;ቴርማስ ደ ሪዮ ሆንዶ;Termas de Río Hondo
+fa;ترماس د ریو هندو;Termas de Río Hondo
+pa;ਟਰਮਾਸ ਡੇ ਰਿਓ ਹੋਂਡੋ;Termas de Río Hondo
+ps;ترماس ډې ریو هندو;Termas de Río Hondo
+tg;Термас-де-Рио-Ондо;Termas de Río Hondo
+tt;Термас-де-Рио-Ондо;Termas de Río Hondo
+kk;Телсен;Telsen
+ky;Телсен;Telsen
+bn;টেলসেন;Telsen
+ur;ٹیلسن;Telsen
+am;ቴልሰን;Telsen
+az;Telson;Telsen
+fa;تلسن;Telsen
+pa;ਟੇਲਸੇਨ;Telsen
+ps;تیلسن;Telsen
+tg;Телсен;Telsen
+tt;Телсен;Telsen
+kk;Текка;Tecka
+ky;Текка;Tecka
+bn;টেক্কা;Tecka
+ur;ٹیکا;Tecka
+am;ቴክካ;Tecka
+az;Tekka;Tecka
+fa;تکا;Tecka
+pa;ਟੇਕਾ;Tecka
+ps;تیکا;Tecka
+tg;Текка;Tecka
+tt;Текка;Tecka
+fa;تارتاگال;Tartagal
+lt;Tartagalis;Tartagal
+el;Ταρταγάλ;Tartagal
+he;טרטגל;Tartagal
+kk;Тартагал;Tartagal
+ky;Тартагал;Tartagal
+bn;তারতাগাল;Tartagal
+ur;ٹارٹاگال;Tartagal
+am;ታርታጋል;Tartagal
+pa;ਤਾਰਤਾਗਾਲ;Tartagal
+ps;تارتاګال;Tartagal
+tg;Тартагал;Tartagal
+tt;Тартагал;Tartagal
+kk;Тапалькё;Tapalqué
+ky;Тапалькё;Tapalqué
+bn;তাপালকে;Tapalqué
+ur;ٹاپالکی;Tapalqué
+am;ታፓልቄ;Tapalqué
+az;Tapalke;Tapalqué
+fa;تاپالکی;Tapalqué
+pa;ਤਾਪਾਲਕੇ;Tapalqué
+ps;تاپالکی;Tapalqué
+tg;Тапалькё;Tapalqué
+tt;Тапалькё;Tapalqué
+kk;Тамберес;Tamberías
+ky;Тамберес;Tamberías
+bn;তাম্বেরিয়াস;Tamberías
+ur;ٹیمبیریاس;Tamberías
+am;ታምበሪያስ;Tamberías
+fa;تامبریاس;Tamberías
+pa;ਤਾਂਬੇਰਿਆਸ;Tamberías
+ps;تامبیریاس;Tamberías
+tg;Тамберес;Tamberías
+tt;Тамберес;Tamberías
+kk;Тама;Tama
+ky;Тама;Tama
+bn;তামা;Tama
+ur;تاما;Tama
+am;ታማ;Tama
+fa;تاما;Tama
+pa;ਤਾਮਾ;Tama
+ps;تاما;Tama
+tg;Тама;Tama
+tt;Тама;Tama
+kk;Тафи-Вьехо;Tafí Viejo
+ky;Тафи-Вьехо;Tafí Viejo
+bn;তাফি ভিয়েজো;Tafí Viejo
+ur;تافی ویجو;Tafí Viejo
+am;ታፊ ቪዬጆ;Tafí Viejo
+fa;تافی ویخو;Tafí Viejo
+pa;ਤਾਫੀ ਵਿਏਜੋ;Tafí Viejo
+ps;تافي ویخو;Tafí Viejo
+tg;Тафи-Вьехо;Tafí Viejo
+tt;Тафи-Вьехо;Tafí Viejo
+kk;Тафи-дель-Валье;Tafí del Valle
+ky;Тафи-дель-Валье;Tafí del Valle
+bn;তাফি ডেল ভালে;Tafí del Valle
+ur;تافی ڈیل ویلے;Tafí del Valle
+am;ታፊ ዴል ቫሌ;Tafí del Valle
+fa;تافی دل وال;Tafí del Valle
+pa;ਤਾਫੀ ਡੇਲ ਵੈਲੇ;Tafí del Valle
+ps;تافي ډل ویل;Tafí del Valle
+tg;Тафи-дель-Валье;Tafí del Valle
+tt;Тафи-дель-Валье;Tafí del Valle
+kk;Сускес;Susques
+ky;Сускес;Susques
+bn;সুস্কেস;Susques
+ur;سسکس;Susques
+am;ሱስኬስ;Susques
+az;Suskes;Susques
+fa;سوسکس;Susques
+pa;ਸੁਸਕੇਸ;Susques
+ps;سسکس;Susques
+tg;Сускес;Susques
+tt;Сускес;Susques
+uk;Суріяко;Suriyaco
+kk;Сунчо-Коррал;Suncho Corral
+ky;Сунчо-Коррал;Suncho Corral
+bn;সুনচো কোরাল;Suncho Corral
+ur;سنچھو کورال;Suncho Corral
+am;ሱንቾ ኮራል;Suncho Corral
+fa;سونچو کورال;Suncho Corral
+pa;ਸੁੰਚੋ ਕੋਰਲ;Suncho Corral
+ps;سنچو کورال;Suncho Corral
+tg;Сунчо-Коррал;Suncho Corral
+tt;Сунчо-Коррал;Suncho Corral
+kk;Сумампа;Sumampa
+ky;Сумампа;Sumampa
+bn;সুমাম্পা;Sumampa
+ur;سمامپا;Sumampa
+am;ሱማምፓ;Sumampa
+fa;سومامپا;Sumampa
+pa;ਸੁਮਾਮਪਾ;Sumampa
+ps;سمامپا;Sumampa
+tg;Сумампа;Sumampa
+tt;Сумампа;Sumampa
+kk;Симока;Simoca
+ky;Симока;Simoca
+bn;সিমোকা;Simoca
+ur;سموکا;Simoca
+am;ስሞካ;Simoca
+az;Simoka;Simoca
+fa;سیموکا;Simoca
+pa;ਸਿਮੋਕਾ;Simoca
+ps;سموکا;Simoca
+tg;Симока;Simoca
+tt;Симока;Simoca
+kk;Сьерра-Колорада;Sierra Colorada
+ky;Сьерра-Колорада;Sierra Colorada
+bn;সিয়েরা কোলোরাডা;Sierra Colorada
+ur;سیرا کولوراڈا;Sierra Colorada
+am;ሲዬራ ኮሎራዳ;Sierra Colorada
+az;Serra Koloarado;Sierra Colorada
+fa;سیرا کلرادا;Sierra Colorada
+pa;ਸਿਏਰਾ ਕੋਲੋਰਾਡਾ;Sierra Colorada
+ps;سیرا کولورادا;Sierra Colorada
+tg;Сьерра-Колорада;Sierra Colorada
+tt;Сьерра-Колорада;Sierra Colorada
+kk;Сельва;Selva
+ky;Сельва;Selva
+bn;সেলভা;Selva
+ur;سیلوا;Selva
+am;ሴልቫ;Selva
+fa;سلوا;Selva
+pa;ਸੇਲਵਾ;Selva
+ps;سیلوا;Selva
+tg;Сельва;Selva
+tt;Сельва;Selva
+kk;Саухиль;Saujil
+ky;Саухиль;Saujil
+bn;সাউজিল;Saujil
+ur;ساؤجل;Saujil
+am;ሳውጂል;Saujil
+fa;ساوجیل;Saujil
+pa;ਸਾਉਜਿਲ;Saujil
+ps;ساوجیل;Saujil
+tg;Саухиль;Saujil
+tt;Саухиль;Saujil
+kk;Састре;Sastre
+ky;Састре;Sastre
+bn;সাস্ত্রে;Sastre
+ur;ساسترے;Sastre
+am;ሳስተሬ;Sastre
+fa;ساسترا;Sastre
+pa;ਸਾਸਤ੍ਰੇ;Sastre
+ps;ساسترې;Sastre
+tg;Састре;Sastre
+tt;Састре;Sastre
+lt;Sarmjentas;Sarmiento
+kk;Сармьенто;Sarmiento
+ky;Сармьенто;Sarmiento
+bn;সার্মিয়েন্তো;Sarmiento
+ur;سارمینتو;Sarmiento
+am;ሳርሚዬንቶ;Sarmiento
+az;Sarmyento;Sarmiento
+fa;سارمیندو;Sarmiento
+pa;ਸਾਰਮਿਏਂਤੋ;Sarmiento
+ps;سارمینتو;Sarmiento
+tg;Сармьенто;Sarmiento
+tt;Сармьенто;Sarmiento
+lt;Santjago del Esteras;Santiago del Estero
+th;ซานเตียโกเดลเอสเตโร;Santiago del Estero
+ka;სანტიაგო-დელ-ესტერო;Santiago del Estero
+uk;Сантьяго-дель-Естеро;Santiago del Estero
+oc;Província de Santiago del Estero;Santiago del Estero
+sr;Сантијаго дел Естеро;Santiago del Estero
+fa;سانتیاگو دل استرو;Santiago del Estero
+be;Сантяга-дэль-Эстэра;Santiago del Estero
+bg;Сантяго дел Естеро;Santiago del Estero
+he;סנטיאגו דל אסטרו;Santiago del Estero
+mn;Сантьяго-дель-Эстеро;Santiago del Estero
+hy;Սանտիագո դել Էստերո;Santiago del Estero
+ur;سانتیاگو دل استرو;Santiago del Estero
+bn;সান্টিয়াগো ডেল এস্টেরো;Santiago del Estero
+am;ሳንቲያጎ ዴል ኤስቴሮ;Santiago del Estero
+pa;ਸੈਂਟੀਆਗੋ ਡੇਲ ਅੰਤੇਰੋ;Santiago del Estero
+ps;سانتیاگو ديل استيرو;Santiago del Estero
+kk;Санта-Виктория;Santa Victoria
+ky;Санта-Виктория;Santa Victoria
+bn;সান্তা ভিক্টোরিয়া;Santa Victoria
+ur;سانتا ویکٹوریا;Santa Victoria
+am;ሳንታ ቫክቶሪያ;Santa Victoria
+az;Santa Viktoriya;Santa Victoria
+fa;سانتا ویکتوریا;Santa Victoria
+pa;ਸਾਂਤਾ ਵਿਕਟੋਰੀਆ;Santa Victoria
+ps;سانتا ویکتوریا;Santa Victoria
+tg;Санта-Виктория;Santa Victoria
+tt;Санта-Виктория;Santa Victoria
+kk;Санта-Сильвина;Santa Sylvina
+ky;Санта-Сильвина;Santa Sylvina
+bn;সান্তা সিলভিনা;Santa Sylvina
+ur;سانتا سلوینا;Santa Sylvina
+am;ሳንታ ሲልቪና;Santa Sylvina
+az;Santa Silvina;Santa Sylvina
+fa;سانتا سیلوینا;Santa Sylvina
+pa;ਸਾਂਤਾ ਸਿਲਵੀਨਾ;Santa Sylvina
+ps;سانتا سلوینا;Santa Sylvina
+tg;Санта-Сильвина;Santa Sylvina
+tt;Санта-Сильвина;Santa Sylvina
+kk;Санта-Роза-де-Рио-Примеро;Santa Rosa de Río Primero
+ky;Санта-Роза-де-Рио-Примеро;Santa Rosa de Río Primero
+bn;সান্তা রোজা ডে রিও প্রাইমেরো;Santa Rosa de Río Primero
+ur;سانتا روزا ڈی ریو پریمیرو;Santa Rosa de Río Primero
+am;ሳንታ ሮዛ ደ ሪዮ ፕሪመሮ;Santa Rosa de Río Primero
+fa;سانتا روزا د ریو پریمرو;Santa Rosa de Río Primero
+pa;ਸਾਂਤਾ ਰੋਜ਼ਾ ਡੇ ਰਿਓ ਪ੍ਰਾਈਮੇਰੋ;Santa Rosa de Río Primero
+ps;سانتا روزا ډی ریو پریمرو;Santa Rosa de Río Primero
+tg;Санта-Роза-де-Рио-Примеро;Santa Rosa de Río Primero
+tt;Санта-Роза-де-Рио-Примеро;Santa Rosa de Río Primero
+kk;Санта-Роза-дель-Конлара;Santa Rosa del Conlara
+ky;Санта-Роза-дель-Конлара;Santa Rosa del Conlara
+bn;সান্তা রোজা ডেল কনলারা;Santa Rosa del Conlara
+ur;سانتا روزا ڈیل کنلارا;Santa Rosa del Conlara
+am;ሳንታ ሮዛ ዴል ኮንላራ;Santa Rosa del Conlara
+az;Santa Rosa del Konlara;Santa Rosa del Conlara
+fa;سانتا روزا دل کنلارا;Santa Rosa del Conlara
+pa;ਸਾਂਤਾ ਰੋਜ਼ਾ ਡੇਲ ਕਾਨਲਾਰਾ;Santa Rosa del Conlara
+ps;سانتا روزا ډل کنلارا;Santa Rosa del Conlara
+tg;Санта-Роза-дель-Конлара;Santa Rosa del Conlara
+tt;Санта-Роза-дель-Конлара;Santa Rosa del Conlara
+pl;Santa Rosa de Toay;Santa Rosa
+bg;Санта Роса;Santa Rosa
+ka;სანტა-როსა;Santa Rosa
+fa;سانتا روسا;Santa Rosa
+sr;Санта Роса де Тоај;Santa Rosa
+uk;Санта-Роса;Santa Rosa
+he;סנטה רוסה;Santa Rosa
+hy;Սանտա Ռոսա;Santa Rosa
+ur;سانتا روسا، لا پامپا;Santa Rosa
+bn;সান্তা রোজা;Santa Rosa
+am;ሳንታ ሮዛ;Santa Rosa
+pa;ਸਾਂਤਾ ਰੋਜ਼ਾ;Santa Rosa
+ps;سانتا روزا;Santa Rosa
+kk;Санта-Роза;Santa Rosa
+ky;Санта-Роза;Santa Rosa
+ur;سانتا روزا;Santa Rosa
+fa;سانتا روزا;Santa Rosa
+tg;Санта-Роза;Santa Rosa
+tt;Санта-Роза;Santa Rosa
+kk;Санта-Мария;Santa María
+ky;Санта-Мария;Santa María
+bn;সান্তা মারিয়া;Santa María
+ur;سانتا ماریا;Santa María
+am;ሳንታ ማሪያ;Santa María
+az;Santa Mariya;Santa María
+fa;سانتا ماریا;Santa María
+pa;ਸਾਂਤਾ ਮਾਰੀਆ;Santa María
+ps;سانتا ماریا;Santa María
+tg;Санта-Мария;Santa María
+tt;Санта-Мария;Santa María
+uz;Santa Lusiya;Santa Lucía
+bn;সান্তা লুসিয়া;Santa Lucía
+az;Santa Lusiya;Santa Lucía
+pa;ਸਾਂਤਾ ਲੂਸੀਆ;Santa Lucía
+ps;سانتا لوسيا;Santa Lucía
+kk;Санта-Исабель;Santa Isabel
+uz;Santa Izabel;Santa Isabel
+ky;Санта-Исабель;Santa Isabel
+bn;সান্তা ইসাবেল;Santa Isabel
+ur;سانتا ازابیل;Santa Isabel
+am;ሳንታ ይሳቤል;Santa Isabel
+az;Santa İzabel;Santa Isabel
+fa;سانتا ایزابل;Santa Isabel
+pa;ਸਾਂਤਾ ਈਸਾਬੇਲ;Santa Isabel
+ps;سانتا ازابيل;Santa Isabel
+tg;Санта-Исабель;Santa Isabel
+tt;Санта-Исабель;Santa Isabel
+bg;Санта Фе;Santa Fe
+bn;সান্তা ফে;Santa Fe
+ur;سانتا فے;Santa Fe
+am;ሳንታ ፌ;Santa Fe
+fa;سانتاف;Santa Fe
+pa;ਸਾਂਤਾ ਫੇ;Santa Fe
+ps;سانتا فې;Santa Fe
+kk;Санта-Клара;Santa Clara
+uz;Santa Klara;Santa Clara
+ky;Санта-Клара;Santa Clara
+bn;সান্তা ক্লারা;Santa Clara
+ur;سانتا کلارا;Santa Clara
+am;ሳንታ ክላራ;Santa Clara
+az;Santa Klara;Santa Clara
+fa;سانتا کلارا;Santa Clara
+pa;ਸਾਂਤਾ ਕਲਾਰਾ;Santa Clara
+ps;سانتا کلارا;Santa Clara
+tg;Санта-Клара;Santa Clara
+tt;Санта-Клара;Santa Clara
+kk;Санта-Каталина;Santa Catalina
+uz;Santa Katalina;Santa Catalina
+ky;Санта-Каталина;Santa Catalina
+bn;সান্তা ক্যাটালিনা;Santa Catalina
+ur;سانتا کاتالینا;Santa Catalina
+am;ሳንታ ካታሊና;Santa Catalina
+az;Santa Katalina;Santa Catalina
+fa;سانتا کاتالینا;Santa Catalina
+pa;ਸਾਂਤਾ ਕੈਟਾਲੀਨਾ;Santa Catalina
+ps;سانتا کاتالينا;Santa Catalina
+tg;Санта-Каталина;Santa Catalina
+tt;Санта-Каталина;Santa Catalina
+lt;San Salvador de Chuchujus;San Salvador de Jujuy
+bg;Сан Салвадор де Хухуй;San Salvador de Jujuy
+uk;Сан-Сальвадор-де-Жужуй;San Salvador de Jujuy
+ka;სან-სალვადორ-დე-ხუხუი;San Salvador de Jujuy
+be;Сан-Сальвадор-дэ-Жужуй;San Salvador de Jujuy
+fa;سان سالوادور ده خوخوئی;San Salvador de Jujuy
+sr;Сан Салвадор де Хухуј;San Salvador de Jujuy
+he;סן סלבדור דה חוחוי;San Salvador de Jujuy
+hy;Սան Սալվադոր դե Խուխույ;San Salvador de Jujuy
+ur;سان سالوادور دل خوخوئی;San Salvador de Jujuy
+bn;সান সালভেডোর ডি জুজুয়ে;San Salvador de Jujuy
+am;ሳን ሳልቫዶር ዴ ሁሁይ;San Salvador de Jujuy
+pa;ਸੈਨ ਸਲਵਾਡੋਰ ਡੇ ਜੁਜਿਓ;San Salvador de Jujuy
+ps;سان سلواډور دې جوجوی;San Salvador de Jujuy
+bg;Сан Рамон де ла Нуева Оран;San Ramón de la Nueva Orán
+fa;سان رامون ده لا نوئوا اوران;San Ramón de la Nueva Orán
+he;סן רמון דה לה נואבה אוראן;San Ramón de la Nueva Orán
+hy;Սան Ռամոն դե լա Նուևա Օրան;San Ramón de la Nueva Orán
+ka;სან-რამონ-დე-ლა-ნუევა-ორანი;San Ramón de la Nueva Orán
+lt;San Ramon de la Nueva Oranas;San Ramón de la Nueva Orán
+fa;سان رافائل;San Rafael
+lt;San Rafaelis;San Rafael
+sr;Сан Рафаел;San Rafael
+uk;Сан-Рафаель;San Rafael
+he;סן רפאל;San Rafael
+ka;სან-რაფაელი;San Rafael
+kk;Сан-Рафаэль;San Rafael
+ky;Сан-Рафаэль;San Rafael
+bn;সান রাফায়েল;San Rafael
+ur;سان رافیل;San Rafael
+am;ሳን ራፋኤል;San Rafael
+pa;ਸੈਨ ਰਾਫੇਲ;San Rafael
+ps;سان رافايل;San Rafael
+tg;Сан-Рафаэль;San Rafael
+tt;Сан-Рафаэль;San Rafael
+kk;Сан-Педро-де-Гуасаян;San Pedro de Guasayán
+ky;Сан-Педро-де-Гуасаян;San Pedro de Guasayán
+bn;সান পেড্রো ডে গুয়াসায়ান;San Pedro de Guasayán
+ur;سان پیڈرو ڈی گواسایان;San Pedro de Guasayán
+am;ሳን ፔድሮ ደ ጓሳያን;San Pedro de Guasayán
+fa;سان پدرو د گواسایان;San Pedro de Guasayán
+pa;ਸੈਨ ਪੇਡ੍ਰੋ ਡੀ ਗੁਆਸਾਇਆਨ;San Pedro de Guasayán
+ps;سان پیدرو دی گواسایان;San Pedro de Guasayán
+tg;Сан-Педро-де-Гуасаян;San Pedro de Guasayán
+tt;Сан-Педро-де-Гуасаян;San Pedro de Guasayán
+kk;Сан-Педро-де-Жужуй;San Pedro de Jujuy
+ky;Сан-Педро-де-Жужуй;San Pedro de Jujuy
+bn;সান পেড্রো ডে জুজুই;San Pedro de Jujuy
+ur;سان پیڈرو ڈی جوجوئے;San Pedro de Jujuy
+am;ሳን ፔድሮ ደ ጁጁይ;San Pedro de Jujuy
+fa;سان پدرو د جوجوی;San Pedro de Jujuy
+pa;ਸੈਨ ਪੇਡ੍ਰੋ ਡੀ ਜੁਜੁਏ;San Pedro de Jujuy
+ps;سان پیدرو دی جوجوی;San Pedro de Jujuy
+tg;Сан-Педро-де-Жужуй;San Pedro de Jujuy
+tt;Сан-Педро-де-Жужуй;San Pedro de Jujuy
+kk;Саногаста;Sañogasta
+ky;Саногаста;Sañogasta
+bn;সানোগাস্তা;Sañogasta
+ur;سانوگاستا;Sañogasta
+am;ሳኖጋስታ;Sañogasta
+fa;سانوگاستا;Sañogasta
+pa;ਸਾਨੋਗਾਸਤਾ;Sañogasta
+ps;سانوگاستا;Sañogasta
+tg;Саногаста;Sañogasta
+tt;Саногаста;Sañogasta
+lt;San Nikolas de los Arojosas;San Nicolás de los Arroyos
+pl;San Nicolás;San Nicolás de los Arroyos
+fa;سان نیکولاس ده لوس آرویس;San Nicolás de los Arroyos
+bg;Сан Николас де лос Аройос;San Nicolás de los Arroyos
+th;ซานนีโกลาสเดโลสอาร์โรโยส;San Nicolás de los Arroyos
+he;סן ניקולאס דה לוס ארוזוס;San Nicolás de los Arroyos
+ka;სან-ნიკოლას-დე-ლოს-აროიოსი;San Nicolás de los Arroyos
+kk;Сан-Николас-де-лос-Арройос;San Nicolás de los Arroyos
+uz;San Nikolas de los Aroyos;San Nicolás de los Arroyos
+ky;Сан-Николас-де-лос-Арройос;San Nicolás de los Arroyos
+bn;সান নিকোলাস ডে লস অ্যারয়োস;San Nicolás de los Arroyos
+ur;سان نکولس ڈے لوس أروئیوس;San Nicolás de los Arroyos
+am;ሳን ኒኮላስ ደ ሎስ አሮዮስ;San Nicolás de los Arroyos
+az;San Nikolas de los Aroyos;San Nicolás de los Arroyos
+pa;ਸੈਨ ਨਿਕੋਲਾਸ ਡੀ ਲੋਸ ਅਰੋਯੋਸ;San Nicolás de los Arroyos
+ps;سان نیکولاس دی لوس اروویوس;San Nicolás de los Arroyos
+tg;Сан-Николас-де-лос-Арройос;San Nicolás de los Arroyos
+tt;Сан-Николас-де-лос-Арройос;San Nicolás de los Arroyos
+da;Tucuman;San Miguel de Tucumán
+id;Tucumán;San Miguel de Tucumán
+pl;Tucumán;San Miguel de Tucumán
+ro;Tucumán;San Miguel de Tucumán
+bg;Тукуман;San Miguel de Tucumán
+lt;Tukumanas;San Miguel de Tucumán
+he;טוקומאן;San Miguel de Tucumán
+ka;სან-მიგელ-დე-ტუკუმანი;San Miguel de Tucumán
+uk;Сан-Мігель-де-Тукуман;San Miguel de Tucumán
+fa;سانتیاگو دوتوکومان;San Miguel de Tucumán
+sr;Сан Мигел де Тукуман;San Miguel de Tucumán
+be;Сан-Мігель-дэ-Тукуман;San Miguel de Tucumán
+el;Σαν Μιγκέλ ντε Τουκουμάν;San Miguel de Tucumán
+th;ซานมีเกลเดตูกูมัน;San Miguel de Tucumán
+hy;Տուկուման;San Miguel de Tucumán
+vep;San Migel De Tukuman;San Miguel de Tucumán
+bn;সান মিগুয়েল ডি তুকুমান;San Miguel de Tucumán
+ur;سان مگئل ڈی تکومان;San Miguel de Tucumán
+am;ሳን ሚጌል ዴ ቱኩማን;San Miguel de Tucumán
+pa;ਸੈਨ ਮਿਗਿਊਏਲ ਡੇ ਤੁਕੁਮਾਨ;San Miguel de Tucumán
+ps;سان مايجل دې توکومان;San Miguel de Tucumán
+he;סן מרטין דה לוס אנדס;San Martín de los Andes
+lt;Andų San Martinas;San Martín de los Andes
+fa;سان مارتین;San Martín
+he;סן מרטין;San Martín
+kk;Сан-Мартин;San Martín
+ky;Сан-Мартин;San Martín
+bn;সান মার্টিন;San Martín
+ur;سان مارٹن;San Martín
+am;ሳን ማርቲን;San Martín
+pa;ਸੈਨ ਮਾਰਟਿਨ;San Martín
+ps;سان مارتین;San Martín
+tg;Сан-Мартин;San Martín
+tt;Сан-Мартин;San Martín
+kk;Вилла Хенераль Сан-Мартин;Villa General San Martín
+ky;Вилла Хенераль Сан-Мартин;Villa General San Martín
+bn;ভিলা জেনারেল সান মার্টিন;Villa General San Martín
+ur;وِلا جنرل سان مارٹن;Villa General San Martín
+am;ቪላ ጄነራል ሳን ማርቲን;Villa General San Martín
+fa;ویلا جنرال سان مارتین;Villa General San Martín
+pa;ਵਿਲਾ ਜਨਰਲ ਸੈਨ ਮਾਰਟਿਨ;Villa General San Martín
+ps;ویلا جنرل سان مارتین;Villa General San Martín
+tg;Вилла Хенераль Сан-Мартин;Villa General San Martín
+tt;Вилла Хенераль Сан-Мартин;Villa General San Martín
+lt;San Luisas;San Luis
+bg;Сан Луис;San Luis
+fa;سان لوئیس;San Luis
+he;סן לואיס;San Luis
+ka;სან-ლუისი;San Luis
+sr;Сан Луис;San Luis
+uk;Сан-Луїс;San Luis
+hy;Սան Լուիս;San Luis
+ur;سان لوئیس، ارجنٹائن;San Luis
+bn;সান লুইস;San Luis
+am;ሳን ሉዊስ;San Luis
+pa;ਸੈਨ ਲੁਈਸ;San Luis
+ps;سان لویس;San Luis
+kk;Сан-Лоренцо;San Lorenzo
+ky;Сан-Лоренцо;San Lorenzo
+bn;সান লোরেঞ্জো;San Lorenzo
+ur;سان لورنزو;San Lorenzo
+am;ሳን ሎሬንዞ;San Lorenzo
+fa;سان لورنزو;San Lorenzo
+pa;ਸੈਨ ਲੋਰੇਂਜੋ;San Lorenzo
+ps;سان لورنزو;San Lorenzo
+tg;Сан-Лоренцо;San Lorenzo
+tt;Сан-Лоренцо;San Lorenzo
+am;ሳን ጁስቶ;San Justo
+fa;سان جوستو;San Justo
+pa;ਸੈਨ ਜੁਸਤੋ;San Justo
+ps;سان جسٹو;San Justo
+lt;San Chuanas;San Juan
+sr;Сан Хуан;San Juan
+uk;Сан-Хуан;San Juan
+ka;სან-ხუანი;San Juan
+fa;سان خوآن، آرژانتین;San Juan
+ca;San Juan de la Frontera;San Juan
+he;סן חואן;San Juan
+be;Сан-Хуан;San Juan
+bg;Сан Хуан;San Juan
+hy;Սան Խուան;San Juan
+tl;Lalawigan ng San Juan;San Juan
+ur;سان خوآن، ارجنٹائن;San Juan
+bn;সান জুয়ান;San Juan
+am;ሳን ዋን;San Juan
+pa;ਸੈਨ ਜੁਆਨ;San Juan
+ps;سان خوان;San Juan
+lt;San Chose de Chačalis;San José de Jáchal
+kk;Сан-Хосе-де-Чачаль;San José de Jáchal
+uz;San Xose de Jachal;San José de Jáchal
+ky;Сан-Хосе-де-Чачаль;San José de Jáchal
+bn;সান জোসে ডে জাচাল;San José de Jáchal
+ur;سان خوسے ڈی جاچھال;San José de Jáchal
+am;ሳን ሆሴ ደ ጃቻል;San José de Jáchal
+az;San Xose de Jachal;San José de Jáchal
+fa;سان خوسه د جاچال;San José de Jáchal
+pa;ਸੈਨ ਹੋਸੇ ਡੀ ਜਾਚਲ;San José de Jáchal
+ps;سان خوسے دی جاچھال;San José de Jáchal
+tg;Сан-Хосе-де-Чачаль;San José de Jáchal
+tt;Сан-Хосе-де-Чачаль;San José de Jáchal
+kk;Сан-Хосе;San José
+uz;San Xose;San José
+ky;Сан-Хосе;San José
+bn;সান জোসে;San José
+ur;سان خوسے;San José
+am;ሳን ሆሴ;San José
+az;San Xose;San José
+fa;سان خوسه;San José
+pa;ਸੈਨ ਹੋਸੇ;San José
+ps;سان خوسے;San José
+tg;Сан-Хосе;San José
+tt;Сан-Хосе;San José
+ur;سان ایسیڈرو;San Isidro
+fa;سان ایزیدرو;San Isidro
+pa;ਸੈਨ ਈਸੀਡ੍ਰੋ;San Isidro
+ps;سان ایسیڈرو;San Isidro
+kk;Сан-Франциско-дель-Монте-де-Оро;San Francisco del Monte de Oro
+uz;San Fransisko del Monte de Oro;San Francisco del Monte de Oro
+ky;Сан-Франциско-дель-Монте-де-Оро;San Francisco del Monte de Oro
+bn;সান ফ্রান্সিসকো ডেল মন্তে দে ওরো;San Francisco del Monte de Oro
+ur;سان فرانسسکو ڈیل مونٹے ڈے اورو;San Francisco del Monte de Oro
+am;ሳን ፍራንሲስኮ ዴል ሞንቴ ዴ ኦሮ;San Francisco del Monte de Oro
+az;San Fransisko del Monte de Oro;San Francisco del Monte de Oro
+fa;سان فرانسیسکو دل مونته د اورو;San Francisco del Monte de Oro
+pa;ਸੈਨ ਫ੍ਰਾਂਸਿਸਕੋ ਡੈਲ ਮੌਂਟੇ ਡੀ ਓਰੋ;San Francisco del Monte de Oro
+ps;سان فرانسسکو ډیل مونتے ډے اورو;San Francisco del Monte de Oro
+tg;Сан-Франциско-дель-Монте-де-Оро;San Francisco del Monte de Oro
+tt;Сан-Франциско-дель-Монте-де-Оро;San Francisco del Monte de Oro
+kk;Сан-Франциско-дель-Чанар;San Francisco del Chañar
+uz;San Fransisko del Chanar;San Francisco del Chañar
+ky;Сан-Франциско-дель-Чанар;San Francisco del Chañar
+bn;সান ফ্রান্সিসকো ডেল চানার;San Francisco del Chañar
+ur;سان فرانسسکو ڈیل چانار;San Francisco del Chañar
+am;ሳን ፍራንሲስኮ ዴል ቻናር;San Francisco del Chañar
+az;San Fransisko del Chanar;San Francisco del Chañar
+fa;سان فرانسیسکو دل چانار;San Francisco del Chañar
+pa;ਸੈਨ ਫ੍ਰਾਂਸਿਸਕੋ ਡੈਲ ਚਾਨਾਰ;San Francisco del Chañar
+ps;سان فرانسسکو ډیل چانار;San Francisco del Chañar
+tg;Сан-Франциско-дель-Чанар;San Francisco del Chañar
+tt;Сан-Франциско-дель-Чанар;San Francisco del Chañar
+fa;سان فرانسیسکو;San Francisco
+lt;San Fransiskas;San Francisco
+he;סן פרנסיסקו;San Francisco
+kk;Сан-Франциско;San Francisco
+uz;San Fransisko;San Francisco
+ky;Сан-Франциско;San Francisco
+bn;সান ফ্রান্সিসকো;San Francisco
+ur;سان فرانسسکو;San Francisco
+am;ሳን ፍራንሲስኮ;San Francisco
+az;San Fransisko;San Francisco
+pa;ਸੈਨ ਫ੍ਰਾਂਸਿਸਕੋ;San Francisco
+ps;سان فرانسسکو;San Francisco
+tg;Сан-Франциско;San Francisco
+tt;Сан-Франциско;San Francisco
+lt;Katamarka;Catamarca
+nn;San Fernando del Valle de Catamarca;Catamarca
+no;San Fernando del Valle de Catamarca;Catamarca
+os;Сан-Фернандо-дель-Валле-де-Катамаркæ;Catamarca
+ka;სან-ფერნანდო-დელ-ვალიე-დე-კატამარკა;Catamarca
+bg;Сан Фернандо дел Вале де Катамарка;Catamarca
+uk;Сан-Фернандо-дель-Вайє-де-Катамарка;Catamarca
+fa;سان فرناندودل وله دکاتامارکا;Catamarca
+sr;Катамарка;Catamarca
+sgs;Katamarka;Catamarca
+he;קטמרקה;Catamarca
+hy;Սան Ֆերնանդո դել Վալյե դե Կատամարկա;Catamarca
+ur;سان فرناندو دل والے دے کاتامارکا;Catamarca
+bn;ক্যাটামার্কা;Catamarca
+am;ካታማርካ;Catamarca
+az;Katamarka;Catamarca
+pa;ਕਟਾਮਾਰਕਾ;Catamarca
+ps;کاتامارکا;Catamarca
+tg;Katamarka;Catamarca
+tt;Katamarka;Catamarca
+kk;Сан-Кристобаль;San Cristóbal
+uz;San Kristobal;San Cristóbal
+ky;Сан-Кристобаль;San Cristóbal
+bn;সান ক্রিস্টোবাল;San Cristóbal
+ur;سان کرسٹوبل;San Cristóbal
+am;ሳን ክሪስቶባል;San Cristóbal
+az;San Kristobal;San Cristóbal
+fa;سان کریستوبال;San Cristóbal
+pa;ਸੈਨ ਕ੍ਰਿਸਤੋਬਲ;San Cristóbal
+ps;سان کرسٹوبل;San Cristóbal
+tg;Сан-Кристобаль;San Cristóbal
+tt;Сан-Кристобаль;San Cristóbal
+kk;Сан-Карлос-де-Боливар;San Carlos de Bolívar
+uz;San Karlos de Bolivar;San Carlos de Bolívar
+ky;Сан-Карлос-де-Боливар;San Carlos de Bolívar
+bn;সান কার্লোস ডে বলিভার;San Carlos de Bolívar
+ur;سان کارلوس ڈی بولیور;San Carlos de Bolívar
+am;ሳን ካርሎስ ደ ቦሊቫር;San Carlos de Bolívar
+az;San Karlos de Bolivar;San Carlos de Bolívar
+fa;سان کارلوس د بولیوار;San Carlos de Bolívar
+pa;ਸੈਨ ਕਾਰਲੋਸ ਡੀ ਬੋਲੀਵਰ;San Carlos de Bolívar
+ps;سان کارلوس دی بولیور;San Carlos de Bolívar
+tg;Сан-Карлос-де-Боливар;San Carlos de Bolívar
+tt;Сан-Карлос-де-Боливар;San Carlos de Bolívar
+kk;Сан-Карлос-Минас;San Carlos Minas
+uz;San Karlos Minas;San Carlos Minas
+ky;Сан-Карлос-Минас;San Carlos Minas
+bn;সান কার্লোস মিনাস;San Carlos Minas
+ur;سان کارلوس منیاس;San Carlos Minas
+am;ሳን ካርሎስ ሚናስ;San Carlos Minas
+az;San Karlos Minas;San Carlos Minas
+fa;سان کارلوس مینیس;San Carlos Minas
+pa;ਸੈਨ ਕਾਰਲੋਸ ਮਿਨਾਸ;San Carlos Minas
+ps;سان کارلوس منیاس;San Carlos Minas
+tg;Сан-Карлос-Минас;San Carlos Minas
+tt;Сан-Карлос-Минас;San Carlos Minas
+kk;Сан-Карлос;San Carlos
+uz;San Karlos;San Carlos
+ky;Сан-Карлос;San Carlos
+bn;সান কার্লোস;San Carlos
+ur;سان کارلوس;San Carlos
+am;ሳን ካርሎስ;San Carlos
+az;San Karlos;San Carlos
+fa;سان کارلوس;San Carlos
+pa;ਸੈਨ ਕਾਰਲੋਸ;San Carlos
+ps;سان کارلوس;San Carlos
+tg;Сан-Карлос;San Carlos
+tt;Сан-Карлос;San Carlos
+kk;Сан-Блас-де-лос-Саусес;San Blas
+tr;San Blas de los Sauces;San Blas
+uz;San Blas de los Sauces;San Blas
+ky;Сан-Блас-де-лос-Саусес;San Blas
+id;San Blas de los Sauces;San Blas
+ms;San Blas de los Sauces;San Blas
+bn;সান ব্লাস ডে লস সাউসেস;San Blas
+ur;سان بلاس ڈی لوس ساؤسیس;San Blas
+am;ሳን ብላስ ደ ሎስ ሳውሴስ;San Blas
+az;San Blas de los Sauces;San Blas
+fa;سان بلاس د لوس سائوسیس;San Blas
+ha;San Blas de los Sauces;San Blas
+jv;San Blas de los Sauces;San Blas
+om;San Blas de los Sauces;San Blas
+pa;ਸੈਨ ਬਲਾਸ ਡੀ ਲੋਸ ਸਾਊਸੇਸ;San Blas
+ps;سان بلاس دی لوس ساؤسیس;San Blas
+so;San Blas de los Sauces;San Blas
+sw;San Blas de los Sauces;San Blas
+tg;Сан-Блас-де-лос-Саусес;San Blas
+tt;Сан-Блас-де-лос-Саусес;San Blas
+kk;Сан-Бернардо;San Bernardo
+ky;Сан-Бернардо;San Bernardo
+bn;সান বার্নার্ডো;San Bernardo
+ur;سان برناردو;San Bernardo
+am;ሳን በርናርዶ;San Bernardo
+fa;سان برناردو;San Bernardo
+pa;ਸੈਨ ਬਰਨਾਰਡੋ;San Bernardo
+ps;سان برناردو;San Bernardo
+tg;Сан-Бернардо;San Bernardo
+tt;Сан-Бернардо;San Bernardo
+kk;Сан-Антонио-Оэсте;San Antonio Oeste
+ky;Сан-Антонио-Оэсте;San Antonio Oeste
+bn;সান আন্তোনিও ওয়েস্তে;San Antonio Oeste
+ur;سان انتونیو اویسٹے;San Antonio Oeste
+am;ሳን አንቶኒዮ ኦየስተ;San Antonio Oeste
+fa;سان آنتونیو اویسته;San Antonio Oeste
+pa;ਸੈਨ ਅਨਤੋਨੀਓ ਓਏਸਟੇ;San Antonio Oeste
+ps;سان انتونیو اویسٹے;San Antonio Oeste
+tg;Сан-Антонио-Оэсте;San Antonio Oeste
+tt;Сан-Антонио-Оэсте;San Antonio Oeste
+he;סן אנטוניו דה לוס קוברס;San Antonio de los Cobres
+lt;San Antonio de los Kobresas;San Antonio de los Cobres
+kk;Сан-Антонио-де-лос-Кобрес;San Antonio de los Cobres
+ky;Сан-Антонио-де-лос-Кобрес;San Antonio de los Cobres
+bn;সান আন্তোনিও ডে লস কোব্রেস;San Antonio de los Cobres
+ur;سان انتونیو ڈی لوس کوبریس;San Antonio de los Cobres
+am;ሳን አንቶኒዮ ደ ሎስ ኮብሬስ;San Antonio de los Cobres
+fa;سان آنتونیو د لوس کوبریس;San Antonio de los Cobres
+pa;ਸੈਨ ਅਨਤੋਨੀਓ ਡੀ ਲੋਸ ਕੋਬ੍ਰੇਸ;San Antonio de los Cobres
+ps;سان انتونیو دی لوس کوبریس;San Antonio de los Cobres
+tg;Сан-Антонио-де-лос-Кобрес;San Antonio de los Cobres
+tt;Сан-Антонио-де-лос-Кобрес;San Antonio de los Cobres
+am;ሳን አንቶኒዮ;San Antonio
+fa;سان آنتونیو;San Antonio
+pa;ਸੈਨ ਅਨਤੋਨੀਓ;San Antonio
+kk;Вилла Сан-Агустин;Villa San Agustín
+ky;Вилла Сан-Агустин;Villa San Agustín
+bn;ভিলা সান আগুস্টিন;Villa San Agustín
+ur;وِلا سان آگستین;Villa San Agustín
+am;ቪላ ሳን አጉስቲን;Villa San Agustín
+fa;ویلا سان آگوستین;Villa San Agustín
+pa;ਵਿਲਾ ਸੈਨ ਅਗਸਤੀਨ;Villa San Agustín
+ps;وِلا سان آگستین;Villa San Agustín
+tg;Вилла Сан-Агустин;Villa San Agustín
+tt;Вилла Сан-Агустин;Villa San Agustín
+kk;Сан-Агустин;San Agustín
+ky;Сан-Агустин;San Agustín
+bn;সান আগুস্টিন;San Agustín
+ur;سان آگستین;San Agustín
+am;ሳን አጉስቲን;San Agustín
+fa;سان آگوستین;San Agustín
+pa;ਸੈਨ ਅਗਸਤੀਨ;San Agustín
+ps;سان آگستین;San Agustín
+tg;Сан-Агустин;San Agustín
+tt;Сан-Агустин;San Agustín
+kk;Салто;Salto
+ky;Салто;Salto
+bn;সালতো;Salto
+ur;سالتو;Salto
+am;ሳልቶ;Salto
+fa;سالتو;Salto
+pa;ਸਾਲਤੋ;Salto
+ps;سالتو;Salto
+tg;Салто;Salto
+tt;Салто;Salto
+he;סלטה;Salta
+bg;Салта;Salta
+uk;Сальта;Salta
+sr;Салта;Salta
+fa;سالتا;Salta
+ka;სალტა;Salta
+be;Сальта;Salta
+el;Σάλτα;Salta
+hy;Սալտա;Salta
+ur;سالتا;Salta
+bn;সালটা;Salta
+am;ሳልታ;Salta
+pa;ਸਾਲਟਾ;Salta
+ps;سالتا;Salta
+kk;Салсакате;Salsacate
+ky;Салсакате;Salsacate
+bn;সালসাকাতে;Salsacate
+ur;سالساکاتے;Salsacate
+am;ሳልሳካቴ;Salsacate
+fa;سالساکاته;Salsacate
+pa;ਸਾਲਸਾਕਾਤੇ;Salsacate
+ps;سالساکاتې;Salsacate
+tg;Салсакате;Salsacate
+tt;Салсакате;Salsacate
+kk;Саллакело;Salliqueló
+ky;Саллькелло;Salliqueló
+bn;সালিকোয়েলো;Salliqueló
+ur;سالیکویلو;Salliqueló
+am;ሳሊኩዌሎ;Salliqueló
+fa;سالیکوئلو;Salliqueló
+pa;ਸਾਲਿਕਵੇਲੋ;Salliqueló
+ps;سالیکویلو;Salliqueló
+tg;Саллакело;Salliqueló
+tt;Саллакело;Salliqueló
+kk;Росарио де Лерма;Rosario de Lerma
+ky;Росарио де Лерма;Rosario de Lerma
+bn;রোসারিও ডে লার্মা;Rosario de Lerma
+ur;روساریو ڈے لرما;Rosario de Lerma
+am;ሮሳሪዮ ደ ለርማ;Rosario de Lerma
+fa;روزاریو دل لرما;Rosario de Lerma
+pa;ਰੋਸਾਰੀਓ ਡੇ ਲੇਰਮਾ;Rosario de Lerma
+ps;روساریو ډې لرما;Rosario de Lerma
+tg;Росарио де Лерма;Rosario de Lerma
+tt;Росарио де Лерма;Rosario de Lerma
+kk;Росарио де ла Фронтера;Rosario de la Frontera
+ky;Росарио де ла Фронтера;Rosario de la Frontera
+bn;রোসারিও ডে লা ফ্রন্টেরা;Rosario de la Frontera
+ur;روساریو ڈے لا فرونتیرا;Rosario de la Frontera
+am;ሮሳሪዮ ደ ላ ፍሮንቴራ;Rosario de la Frontera
+fa;روزاریو دل فرونتیرا;Rosario de la Frontera
+pa;ਰੋਸਾਰੀਓ ਡੇ ਲਾ ਫ੍ਰੋਨਟੇਰਾ;Rosario de la Frontera
+ps;روساریو ډې لا فرونتیرا;Rosario de la Frontera
+tg;Росарио де ла Фронтера;Rosario de la Frontera
+tt;Росарио де ла Фронтера;Rosario de la Frontera
+bg;Росарио;Rosario
+lt;Rosarijas;Rosario
+mr;रोझारियो;Rosario
+el;Ροσάριο;Rosario
+sr;Росарио;Rosario
+os;Росарио;Rosario
+uk;Росаріо;Rosario
+hy;Ռոսարիո;Rosario
+he;רוסאריו;Rosario
+ku;Rozarîyo;Rosario
+fa;روساریو، سانتا فه;Rosario
+ka;როსარიო;Rosario
+th;โรซารีโอ;Rosario
+be;Расарыа;Rosario
+ce;Росарио;Rosario
+mn;Росарио;Rosario
+bn;রোসারিও;Rosario
+kk;Росарио;Rosario
+ky;Росарио;Rosario
+ur;روساریو، سانتا فے;Rosario
+yue;羅沙里奧;Rosario
+am;ሮሳሪዮ;Rosario
+pa;ਰੋਸਾਰੀਓ;Rosario
+ps;روساریو;Rosario
+tg;Росарио;Rosario
+tt;Росарио;Rosario
+kk;Рохас;Rojas
+ky;Рохас;Rojas
+bn;রোজাস;Rojas
+ur;روجاس;Rojas
+am;ሮሃስ;Rojas
+fa;روخاس;Rojas
+pa;ਰੋਜਾਸ;Rojas
+ps;روجاس;Rojas
+tg;Рохас;Rojas
+tt;Рохас;Rojas
+kk;Родео;Rodeo
+ky;Родео;Rodeo
+bn;রোডিও;Rodeo
+ur;روڈیو;Rodeo
+am;ሮዲዮ;Rodeo
+fa;رودئو;Rodeo
+pa;ਰੋਡੇਓ;Rodeo
+ps;روډیو;Rodeo
+tg;Родео;Rodeo
+tt;Родео;Rodeo
+kk;Ривадавиа;Rivadavia
+ky;Ривадавия;Rivadavia
+bn;রিভাডাভিয়া;Rivadavia
+ur;ریوادویا;Rivadavia
+am;ሪቫዳቪያ;Rivadavia
+fa;ریوادویا;Rivadavia
+pa;ਰਿਵਾਡਵਿਆ;Rivadavia
+ps;ریوادویا;Rivadavia
+tg;Ривадавиа;Rivadavia
+tt;Ривадавиа;Rivadavia
+fa;ریو گرانده، تیرا دل فوئگو;Río Grande
+nn;Rio Grande på Eldlandet;Río Grande
+he;ריו גראנדה;Río Grande
+kk;Рио-Гранде;Río Grande
+ky;Рио-Гранде;Río Grande
+bn;রিও গ্রান্ডে;Río Grande
+ur;ریو گرانڈے;Río Grande
+am;ሪዮ ግራንዴ;Río Grande
+pa;ਰਿਓ ਗ੍ਰਾਂਡੇ;Río Grande
+ps;ریو گرانډ;Río Grande
+tg;Рио-Гранде;Río Grande
+tt;Рио-Гранде;Río Grande
+lt;Rio Galjegosas;Río Gallegos
+bg;Рио Галегос;Río Gallegos
+fa;ریوگالگوس;Río Gallegos
+he;ריו גזגוס;Río Gallegos
+ka;რიო-გალიეგოსი;Río Gallegos
+os;Рио-Гальегос;Río Gallegos
+uk;Ріо-Гальєгос;Río Gallegos
+hy;Ռիո Գալյեգոս;Río Gallegos
+ur;ریو گالیگوس، سانتا کروز;Río Gallegos
+bn;রিও গ্যালেগোস;Río Gallegos
+am;ሪዮ ጋለጎስ;Río Gallegos
+pa;ਰੀਓ ਗਾਲੇਗੋਸ;Río Gallegos
+ps;ريو ګالیګوس;Río Gallegos
+lt;Rio Kuartas;Río Cuarto
+az;Rio-Kuarto;Río Cuarto
+bg;Рио Куарто;Río Cuarto
+fa;ریو کوارتو;Río Cuarto
+sr;Рио Кварто;Río Cuarto
+uk;Ріо-Кварто;Río Cuarto
+he;ריו קוארטו;Río Cuarto
+hy;Ռիո Կուարտո;Río Cuarto
+ka;რიო-კუარტო;Río Cuarto
+kk;Рио-Куарто;Río Cuarto
+ky;Рио-Куарто;Río Cuarto
+bn;রিও কোয়ার্টো;Río Cuarto
+ur;ریو کوارٹو;Río Cuarto
+am;ሪዮ ኩዋርቶ;Río Cuarto
+pa;ਰਿਓ ਕੁਆਰਟੋ;Río Cuarto
+ps;ریو کوارتو;Río Cuarto
+tg;Рио-Куарто;Río Cuarto
+tt;Рио-Куарто;Río Cuarto
+kk;Рио-Колорадо;Río Colorado
+ky;Рио-Колорадо;Río Colorado
+bn;রিও কোলোরাডো;Río Colorado
+ur;ریو کولوراڈو;Río Colorado
+am;ሪዮ ኮሎራዶ;Río Colorado
+fa;ریوکلرادو;Río Colorado
+pa;ਰਿਓ ਕੋਲੋਰਾਡੋ;Río Colorado
+ps;ریو کولورادو;Río Colorado
+tg;Рио-Колорадо;Río Colorado
+tt;Рио-Колорадо;Río Colorado
+kk;Ринконада;Rinconada
+ky;Ринконада;Rinconada
+bn;রিনকোনাডা;Rinconada
+ur;رنکونادا;Rinconada
+am;ሪንኮናዳ;Rinconada
+fa;رینکونادا;Rinconada
+pa;ਰਿਨਕੋਨਾਡਾ;Rinconada
+ps;رنکونادا;Rinconada
+tg;Ринконада;Rinconada
+tt;Ринконада;Rinconada
+lt;Rekreo;Recreo
+hy;Ռեկրեո;Recreo
+kk;Рекреo;Recreo
+ky;Рекреo;Recreo
+bn;রিক্রিও;Recreo
+ur;ریکریو;Recreo
+am;ሬክሬዮ;Recreo
+fa;رکریو;Recreo
+pa;ਰੇਕ੍ਰਿਓ;Recreo
+ps;ریکریو;Recreo
+tg;Рекреo;Recreo
+tt;Рекреo;Recreo
+kk;Реалико;Realicó
+ky;Реалико;Realicó
+bn;রিয়েলিকো;Realicó
+ur;ریلیکو;Realicó
+am;ሬአሊኮ;Realicó
+fa;رئالیکو;Realicó
+pa;ਰੇਲੀਕੋ;Realicó
+ps;ریلیکو;Realicó
+tg;Реалико;Realicó
+tt;Реалико;Realicó
+uk;Реаль-дель-Падре;Real del Padre
+lt;Rosonas;Rawson
+ka;რავსონი;Rawson
+os;Росон;Rawson
+uk;Росон;Rawson
+fa;راوسون;Rawson
+bg;Росон;Rawson
+sgs;Ruosuons;Rawson
+he;ראוסון;Rawson
+hy;Ռոսոն;Rawson
+lv;Rosona;Rawson
+ur;راوسون، چوبوت;Rawson
+bn;রসন;Rawson
+am;ራውሶን;Rawson
+pa;ਰਾਉਸਨ;Rawson
+ps;راوسن;Rawson
+kk;Рамало;Ramallo
+ky;Рамало;Ramallo
+bn;রামাল্লো;Ramallo
+ur;رامالو;Ramallo
+am;ራማሎ;Ramallo
+fa;راماللو;Ramallo
+pa;ਰਾਮਾਲੋ;Ramallo
+ps;رامالو;Ramallo
+tg;Рамало;Ramallo
+tt;Рамало;Ramallo
+fa;رافائلا;Rafaela
+th;ราฟาเอลา;Rafaela
+he;רפאלה;Rafaela
+ka;რაფაელა;Rafaela
+kk;Рафаэла;Rafaela
+ky;Рафаэла;Rafaela
+bn;রাফেলা;Rafaela
+ur;رافیلا;Rafaela
+am;ራፋኤላ;Rafaela
+pa;ਰਾਫੇਲਾ;Rafaela
+ps;رافیلا;Rafaela
+tg;Рафаэла;Rafaela
+tt;Рафаэла;Rafaela
+lt;Rada Tili;Rada Tilly
+kk;Кутилипи;Quitilipi
+ky;Кутилипи;Quitilipi
+bn;কুইটিলিপি;Quitilipi
+ur;کیوٹیلپی;Quitilipi
+am;ኩቲልፒ;Quitilipi
+fa;کوئیتیلیپی;Quitilipi
+pa;ਕਿਤਿਲਿਪੀ;Quitilipi
+ps;کیوټیلپي;Quitilipi
+tg;Кутилипи;Quitilipi
+tt;Кутилипи;Quitilipi
+kk;Кимили;Quimilí
+ky;Кимили;Quimilí
+bn;কুইমিলি;Quimilí
+ur;کیومیلی;Quimilí
+am;ኩሚሊ;Quimilí
+fa;کیمیلی;Quimilí
+pa;ਕਿਮਿਲੀ;Quimilí
+ps;کیومیلي;Quimilí
+tg;Кимили;Quimilí
+tt;Кимили;Quimilí
+kk;Кему-Кему;Quemú Quemú
+ky;Кему-Кему;Quemú Quemú
+bn;কোয়েমু কোয়েমু;Quemú Quemú
+ur;کویمو کویمو;Quemú Quemú
+am;ኩኤሙ ኩኤሙ;Quemú Quemú
+fa;کوئمو کوئمو;Quemú Quemú
+pa;ਕੇਮੂ ਕੇਮੂ;Quemú Quemú
+ps;کویمو کویمو;Quemú Quemú
+tg;Кему-Кему;Quemú Quemú
+tt;Кему-Кему;Quemú Quemú
+hy;Պունտա դե Վակաս;Punta de Vacas
+fa;پونتا د واکاس;Punta de Vacas
+kk;Пунта-Альта;Punta Alta
+ky;Пунта-Альта;Punta Alta
+bn;পুন্তা আল্তা;Punta Alta
+ur;پنتا الٹا;Punta Alta
+am;ፑንታ አልታ;Punta Alta
+fa;پونتا آلتا;Punta Alta
+pa;ਪੁੰਤਾ ਅਲਤਾ;Punta Alta
+ps;پنتا الټا;Punta Alta
+tg;Пунта-Альта;Punta Alta
+tt;Пунта-Альта;Punta Alta
+ceb;Puiggari;Estación Puiggari
+sv;Puiggari;Estación Puiggari
+fa;پوگیگری;Estación Puiggari
+lt;Puerto Santa Krusas;Puerto Santa Cruz
+kk;Пуэрто-Санта-Крус;Puerto Santa Cruz
+ky;Пуэрто-Санта-Крус;Puerto Santa Cruz
+bn;পুয়ের্তো সান্তা ক্রুজ;Puerto Santa Cruz
+ur;پورٹو سانتا کروز;Puerto Santa Cruz
+am;ፖርቶ ሳንታ ክሩዝ;Puerto Santa Cruz
+fa;پورتو سانتاکروز;Puerto Santa Cruz
+pa;ਪਿਊਰਟੋ ਸਾਂਤਾ ਕਰੁਜ਼;Puerto Santa Cruz
+ps;پورټو سانتا کروز;Puerto Santa Cruz
+tg;Пуэрто-Санта-Крус;Puerto Santa Cruz
+tt;Пуэрто-Санта-Крус;Puerto Santa Cruz
+kk;Пуэрто-Сан-Хулиан;Puerto San Julián
+ky;Пуэрто-Сан-Хулиан;Puerto San Julián
+bn;পুয়ের্তো সান জুলিয়ান;Puerto San Julián
+ur;پورٹو سان جولین;Puerto San Julián
+am;ፖርቶ ሳን ሁልያን;Puerto San Julián
+fa;پورتو سان جولیان;Puerto San Julián
+pa;ਪਿਊਰਟੋ ਸਾਨ ਜੁਲੀਅਨ;Puerto San Julián
+ps;پورټو سان جولیان;Puerto San Julián
+tg;Пуэрто-Сан-Хулиан;Puerto San Julián
+tt;Пуэрто-Сан-Хулиан;Puerto San Julián
+lt;Puerto Madrinas;Puerto Madryn
+cy;Porth Madryn;Puerto Madryn
+fa;پورتو مادرین;Puerto Madryn
+he;פוארטו מדרין;Puerto Madryn
+el;Πουέρτο Μάδριν;Puerto Madryn
+hy;Պուրետո Մադրին;Puerto Madryn
+kk;Пуэрто-Мадрин;Puerto Madryn
+ky;Пуэрто-Мадрин;Puerto Madryn
+bn;পুয়ের্তো মাড্রিন;Puerto Madryn
+ur;پورٹو میڈرین;Puerto Madryn
+am;ፖርቶ ማድሪን;Puerto Madryn
+pa;ਪਿਊਰਟੋ ਮਾਡਰਿਨ;Puerto Madryn
+ps;پورټو مادرین;Puerto Madryn
+tg;Пуэрто-Мадрин;Puerto Madryn
+tt;Пуэрто-Мадрин;Puerto Madryn
+he;פוארטו דסאדו;Puerto Deseado
+kk;Пуэрто-Десеадо;Puerto Deseado
+ky;Пуэрто-Десеадо;Puerto Deseado
+bn;পুয়ের্তো ডেসেআডো;Puerto Deseado
+ur;پورٹو ڈیزیاڈو;Puerto Deseado
+am;ፖርቶ ደሰያዶ;Puerto Deseado
+fa;پورتو دسیادو;Puerto Deseado
+pa;ਪਿਊਰਟੋ ਡੇਸੇਆਡੋ;Puerto Deseado
+ps;پورټو ډیزیادو;Puerto Deseado
+tg;Пуэрто-Десеадо;Puerto Deseado
+tt;Пуэрто-Десеадо;Puerto Deseado
+kk;Пуэльчес;Puelches
+ky;Пуэльчес;Puelches
+bn;পুয়েলচেস;Puelches
+ur;پویلچس;Puelches
+am;ፑየልችስ;Puelches
+fa;پوئلچس;Puelches
+pa;ਪੁਏਲਚੇਸ;Puelches
+ps;پویلچس;Puelches
+tg;Пуэльчес;Puelches
+tt;Пуэльчес;Puelches
+kk;Пуан;Puán
+ky;Пуан;Puán
+bn;পুয়ান;Puán
+ur;پوان;Puán
+am;ፑአን;Puán
+fa;پوآن;Puán
+pa;ਪੁਆਨ;Puán
+ps;پوان;Puán
+tg;Пуан;Puán
+tt;Пуан;Puán
+lt;Presidensija Roke Saens Penja;Presidencia Roque Sáenz Peña
+fa;روکه سائنز پنیا;Presidencia Roque Sáenz Peña
+he;פרסידנסיה רוקה סאנס פניה;Presidencia Roque Sáenz Peña
+ka;პრესიდენსია-როკე-საენს-პენია;Presidencia Roque Sáenz Peña
+kk;Президенсия Рокье Саэнс Пеня;Presidencia Roque Sáenz Peña
+ky;Президенсия Рокье Саэнс Пеня;Presidencia Roque Sáenz Peña
+bn;প্রেসিডেনশিয়া রোক সাইনজ পেনা;Presidencia Roque Sáenz Peña
+ur;صدارت روکے ساینز پنیا;Presidencia Roque Sáenz Peña
+am;ፕሬሲዴንሲያ ሮከ ሳዕንዝ ፔንያ;Presidencia Roque Sáenz Peña
+pa;ਪ੍ਰੈਸੀਡੈਂਸੀਆ ਰੋਕੇ ਸਾਏਨਜ਼ ਪੇਨਾ;Presidencia Roque Sáenz Peña
+ps;صدارت روکے ساینز پنیا;Presidencia Roque Sáenz Peña
+tg;Президенсия Рокье Саэнс Пеня;Presidencia Roque Sáenz Peña
+tt;Президенсия Рокье Саэнс Пеня;Presidencia Roque Sáenz Peña
+kk;Позо Ондо;Pozo Hondo
+ky;Позо Ондо;Pozo Hondo
+bn;পোজো হোন্ডো;Pozo Hondo
+ur;پوزو ہونڈو;Pozo Hondo
+am;ፖዞ ሆንዶ;Pozo Hondo
+fa;پوزو هوندو;Pozo Hondo
+pa;ਪੋਜ਼ੋ ਹੋਂਡੋ;Pozo Hondo
+ps;پوزو هونډو;Pozo Hondo
+tg;Позо Ондо;Pozo Hondo
+tt;Позо Ондо;Pozo Hondo
+kk;Пилканийеу;Pilcaniyeu
+ky;Пилканийеу;Pilcaniyeu
+bn;পিলকানিয়েউ;Pilcaniyeu
+ur;پلکانیو;Pilcaniyeu
+am;ፒልካኒየው;Pilcaniyeu
+fa;پیلکانیو;Pilcaniyeu
+pa;ਪਿਲਕਾਨੀਊ;Pilcaniyeu
+ps;پیلکانیو;Pilcaniyeu
+tg;Пилканийеу;Pilcaniyeu
+tt;Пилканийеу;Pilcaniyeu
+kk;Пигуэ;Pigüé
+tr;Piguee;Pigüé
+uz;Piguee;Pigüé
+ky;Пигуэ;Pigüé
+id;Piguee;Pigüé
+ms;Piguee;Pigüé
+bn;পিগুই;Pigüé
+ur;پیگوی;Pigüé
+am;ፒጉዌ;Pigüé
+az;Piguee;Pigüé
+fa;پیگوئی;Pigüé
+ha;Piguee;Pigüé
+jv;Piguee;Pigüé
+om;Piguee;Pigüé
+pa;ਪਿਗੁਈ;Pigüé
+ps;پیگوی;Pigüé
+so;Piguee;Pigüé
+sw;Piguee;Pigüé
+tg;Пигуэ;Pigüé
+tt;Пигуэ;Pigüé
+kk;Пьедра дель Агила;Piedra del Águila
+ky;Пьедра дель Агила;Piedra del Águila
+bn;পিয়েড্রা ডেল আগুইলা;Piedra del Águila
+ur;پیڈرا ڈیل آگیلا;Piedra del Águila
+am;ፒዴራ ዴል አጊላ;Piedra del Águila
+fa;پیدرا دل آگیلا;Piedra del Águila
+pa;ਪਿਏਦਰਾ ਡੇਲ ਆਗੁਇਲਾ;Piedra del Águila
+ps;پیدرا ډیل آگیلا;Piedra del Águila
+tg;Пьедра дель Агила;Piedra del Águila
+tt;Пьедра дель Агила;Piedra del Águila
+kk;Пикун Лейфу;Picún Leufú
+ky;Пикун Лейфу;Picún Leufú
+bn;পিকুন লেউফু;Picún Leufú
+ur;پیکون لیفو;Picún Leufú
+am;ፒኩን ሌውፉ;Picún Leufú
+fa;پیکون لئوفو;Picún Leufú
+pa;ਪਿਕੁਨ ਲੇਉਫੁ;Picún Leufú
+ps;پیکون لیفو;Picún Leufú
+tg;Пикун Лейфу;Picún Leufú
+tt;Пикун Лейфу;Picún Leufú
+he;פיקו טרונקדו;Pico Truncado
+hy;Պիկո Տրունկադո;Pico Truncado
+lt;Piko Trunkadas;Pico Truncado
+kk;Перито Морено;Perito Moreno
+ky;Перито Морено;Perito Moreno
+bn;পেরিটো মোরেনো;Perito Moreno
+ur;پیریٹو مورینو;Perito Moreno
+am;ፐሪቶ ሞሬኖ;Perito Moreno
+fa;پریتو مورنو;Perito Moreno
+pa;ਪੇਰਿਟੋ ਮੋਰੇਨੋ;Perito Moreno
+ps;پیریتو مورنو;Perito Moreno
+tg;Перито Морено;Perito Moreno
+tt;Перито Морено;Perito Moreno
+kk;Пергамино;Pergamino
+ky;Пергамино;Pergamino
+bn;পেরগামিনো;Pergamino
+ur;پرگامینو;Pergamino
+am;ፐርጋሚኖ;Pergamino
+fa;پرگامینو;Pergamino
+pa;ਪੇਰਗਾਮਿਨੋ;Pergamino
+ps;پرگامینو;Pergamino
+tg;Пергамино;Pergamino
+tt;Пергамино;Pergamino
+kk;Пеллегрини;Pellegrini
+ky;Пеллегрини;Pellegrini
+bn;পেল্লেগ্রিনি;Pellegrini
+ur;پیلیگرینی;Pellegrini
+am;ፐለግሪኒ;Pellegrini
+fa;پلیگرینی;Pellegrini
+pa;ਪੇਲਲੇਗ੍ਰਿਨੀ;Pellegrini
+ps;پیلیگرینی;Pellegrini
+tg;Пеллегрини;Pellegrini
+tt;Пеллегрини;Pellegrini
+fa;پهواخو;Pehuajó
+el;Πεουαχό;Pehuajó
+kk;Пеуахо;Pehuajó
+ky;Пеуахо;Pehuajó
+bn;পেহুয়াজো;Pehuajó
+ur;پیہواجو;Pehuajó
+am;ፐሁአጆ;Pehuajó
+pa;ਪੇਹੁਆਜੋ;Pehuajó
+ps;پیهواجو;Pehuajó
+tg;Пеуахо;Pehuajó
+tt;Пеуахо;Pehuajó
+kk;Патквиа;Patquía
+ky;Патквиа;Patquía
+bn;পাতকিয়া;Patquía
+ur;پاتکیا;Patquía
+am;ፓትኪያ;Patquía
+fa;پاتکیا;Patquía
+pa;ਪਾਤਕਿਆ;Patquía
+ps;پاتکیا;Patquía
+tg;Патквиа;Patquía
+tt;Патквиа;Patquía
+kk;Пасо де Индиос;Paso de Indios
+ky;Пасо де Индиос;Paso de Indios
+bn;পাসো ডে ইন্ডিয়োস;Paso de Indios
+ur;پاسو ڈے انڈیوس;Paso de Indios
+am;ፓሶ ዴ ኢንዲዮስ;Paso de Indios
+fa;پاسو د اندیوس;Paso de Indios
+pa;ਪਾਸੋ ਡੇ ਇਂਡੀਓਸ;Paso de Indios
+ps;پاسو ډې انډیوس;Paso de Indios
+tg;Пасо де Индиос;Paso de Indios
+tt;Пасо де Индиос;Paso de Indios
+kk;Парера;Parera
+ky;Парера;Parera
+bn;পারেরা;Parera
+ur;پاریرا;Parera
+am;ፓረራ;Parera
+fa;پاریرا;Parera
+pa;ਪਾਰੇਰਾ;Parera
+ps;پاریرا;Parera
+tg;Парера;Parera
+tt;Парера;Parera
+bg;Парана;Paraná
+lij;Çittæ de Paraná;Paraná
+el;Παρανά;Paraná
+ka;პარანა;Paraná
+uk;Парана;Paraná
+fa;پارانا;Paraná
+sr;Парана;Paraná
+he;פרנה;Paraná
+hy;Պարանա;Paraná
+ur;پارانا، انترے ریوس;Paraná
+bn;পারানা;Paraná
+am;ፓራና;Paraná
+pa;ਪਰਾਨਾ;Paraná
+ps;پارانا;Paraná
+kk;Пампа дель Инфиерно;Pampa del Infierno
+ky;Пампа дель Инфиерно;Pampa del Infierno
+bn;পাম্পা ডেল ইনফিয়ার্নো;Pampa del Infierno
+ur;پمپا ڈیل انفیرنو;Pampa del Infierno
+am;ፓምፓ ዴል ኢንፊየርኖ;Pampa del Infierno
+fa;پامپا دل اینفیرنو;Pampa del Infierno
+pa;ਪਾਮਪਾ ਡੇਲ ਇਨਫਿਏਰਨੋ;Pampa del Infierno
+ps;پمپا ډیل انفیرنو;Pampa del Infierno
+tg;Пампа дель Инфиерно;Pampa del Infierno
+tt;Пампа дель Инфиерно;Pampa del Infierno
+kk;Палпала;Palpalá
+ky;Палпала;Palpalá
+bn;পালপালা;Palpalá
+ur;پالپالا;Palpalá
+am;ፓልፓላ;Palpalá
+fa;پالپالا;Palpalá
+pa;ਪਾਲਪਾਲਾ;Palpalá
+ps;پالپالا;Palpalá
+tg;Палпала;Palpalá
+tt;Палпала;Palpalá
+kk;Олта;Olta
+ky;Олта;Olta
+bn;ওল্টা;Olta
+ur;اولتا;Olta
+am;ኦልታ;Olta
+fa;الطا;Olta
+pa;ਓਲਟਾ;Olta
+ps;اولتا;Olta
+tg;Олта;Olta
+tt;Олта;Olta
+kk;Олива;Oliva
+ky;Олива;Oliva
+bn;ওলিভা;Oliva
+ur;اولیوا;Oliva
+am;ኦሊቫ;Oliva
+fa;الیوا;Oliva
+pa;ਓਲੀਵਾ;Oliva
+ps;اولیوا;Oliva
+tg;Олива;Oliva
+tt;Олива;Oliva
+fa;اولاواریا;Olavarría
+lt;Olavarija;Olavarría
+sr;Олаварија;Olavarría
+th;โอลาบาร์รีอา;Olavarría
+ka;ოლავარია;Olavarría
+kk;Олаваррия;Olavarría
+ky;Олаваррия;Olavarría
+bn;ওলাভর্রিয়া;Olavarría
+ur;اولاواریا;Olavarría
+am;ኦላቫሪያ;Olavarría
+pa;ਓਲਾਵਰਿਆ;Olavarría
+ps;اولاواریا;Olavarría
+tg;Олаваррия;Olavarría
+tt;Олаваррия;Olavarría
+kk;Нуэве де Хулио;Nueve de Julio
+ky;Нуэве де Хулио;Nueve de Julio
+bn;নুয়েভে ডে জুলিও;Nueve de Julio
+ur;نویوی ڈے جولیو;Nueve de Julio
+am;ኑዌቬ ዴ ሁሊዮ;Nueve de Julio
+fa;نوه د ژولیو;Nueve de Julio
+pa;ਨੁਏਵੇ ਡੇ ਜੁਲੀਓ;Nueve de Julio
+ps;نویوې ډې جولیو;Nueve de Julio
+tg;Нуэве де Хулио;Nueve de Julio
+tt;Нуэве де Хулио;Nueve de Julio
+kk;Нуэва Эсперанса;Nueva Esperanza
+ky;Нуэва Эсперанса;Nueva Esperanza
+bn;নুয়েভা এস্পেরানজা;Nueva Esperanza
+ur;نویا اسپیرانزہ;Nueva Esperanza
+am;ኑዌቫ ሙከራ;Nueva Esperanza
+fa;نوا امیدوار;Nueva Esperanza
+pa;ਨੁਏਵਾ ਐਸਪੇਰਾਨਜ਼ਾ;Nueva Esperanza
+ps;نویا امید;Nueva Esperanza
+tg;Нуэва Эсперанса;Nueva Esperanza
+tt;Нуэва Эсперанса;Nueva Esperanza
+kk;Норкинко;Ñorquincó
+ky;Норкинко;Ñorquincó
+bn;নোরকুইনকো;Ñorquincó
+ur;نورکوینکو;Ñorquincó
+am;ኖርኩይንኮ;Ñorquincó
+fa;نورکوینکو;Ñorquincó
+pa;ਨੋਰਕਿਨਕੋ;Ñorquincó
+ps;نورکوینکو;Ñorquincó
+tg;Норкинко;Ñorquincó
+tt;Норкинко;Ñorquincó
+lt;Neukenas;Neuquén
+sr;Неукен;Neuquén
+fa;نئوکن;Neuquén
+bg;Неукен;Neuquén
+he;נאוקן;Neuquén
+ka;ნეუკენი;Neuquén
+be;Неўкен;Neuquén
+uk;Неукен;Neuquén
+os;Неукен;Neuquén
+oc;Vila de Neuquén;Neuquén
+hy;Նեուկեն;Neuquén
+ur;نیوکوین;Neuquén
+bn;নিউকুয়েন;Neuquén
+am;ኔውኬን;Neuquén
+az;Neyken;Neuquén
+pa;ਨਯੂਕੁਏਨ;Neuquén
+ps;نیوکن;Neuquén
+tg;Neyken;Neuquén
+tt;Neyken;Neuquén
+kk;Монтерос;Monteros
+ky;Монтерос;Monteros
+bn;মন্টেরোস;Monteros
+ur;مونٹیروس;Monteros
+am;ሞንቴሮስ;Monteros
+fa;مونتروس;Monteros
+pa;ਮੋਂਟੇਰੋਸ;Monteros
+ps;مونٹیروس;Monteros
+tg;Монтерос;Monteros
+tt;Монтерос;Monteros
+kk;Монте Кемадо;Monte Quemado
+ky;Монте Кемадо;Monte Quemado
+bn;মোন্তে কেমাডো;Monte Quemado
+ur;مونٹے کیمادو;Monte Quemado
+am;ሞንቴ ኩሞ;Monte Quemado
+fa;مونته کمادو;Monte Quemado
+pa;ਮੋਂਟੇ ਕੁਇਮਾਡੋ;Monte Quemado
+ps;مونٹې کیمادو;Monte Quemado
+tg;Монте Кемадо;Monte Quemado
+tt;Монте Кемадо;Monte Quemado
+kk;Монте Эрмосо;Monte Hermoso
+ky;Монте Эрмосо;Monte Hermoso
+bn;মোন্তে হার্মোসো;Monte Hermoso
+ur;مونٹے ہرموسو;Monte Hermoso
+am;ሞንቴ ኢርሞሶ;Monte Hermoso
+fa;مونته هرموسو;Monte Hermoso
+pa;ਮੋਂਟੇ ਹਰਮੋਸੋ;Monte Hermoso
+ps;مونٹې هرموسو;Monte Hermoso
+tg;Монте Эрмосо;Monte Hermoso
+tt;Монте Эрмосо;Monte Hermoso
+kk;Молинос;Molinos
+ky;Молинос;Molinos
+bn;মোলিনোস;Molinos
+ur;مولینوس;Molinos
+am;ሞሊኖስ;Molinos
+fa;مولینوس;Molinos
+pa;ਮੋਲਿਨੋਸ;Molinos
+ps;مولینوس;Molinos
+tg;Молинос;Molinos
+tt;Молинос;Molinos
+fa;مینا پیرکیتاس;Mina Pirquitas
+sr;Мина Пиркитас;Mina Pirquitas
+kk;Миларго;Milagro
+ky;Миларго;Milagro
+bn;মিলাগ্রো;Milagro
+ur;میلاگرو;Milagro
+am;ሚላግሮ;Milagro
+fa;میلاگرو;Milagro
+pa;ਮਿਲਾਗ੍ਰੋ;Milagro
+ps;میلاگرو;Milagro
+tg;Миларго;Milagro
+tt;Миларго;Milagro
+kk;Сан-Хосе-де-Метан;San José de Metán
+ky;Сан-Хосе-де-Метан;San José de Metán
+bn;সান হোসে দে মেতান;San José de Metán
+ur;سان جوسے ڈے میتان;San José de Metán
+am;ሳን ሆሴ ዴ ሜታን;San José de Metán
+fa;سان خوسه د متان;San José de Metán
+pa;ਸੈਂ ਹੋਸੇ ਡੇ ਮੇਤਾਨ;San José de Metán
+ps;سان هوسې ډې متان;San José de Metán
+tg;Сан-Хосе-де-Метан;San José de Metán
+tt;Сан-Хосе-де-Метан;San José de Metán
+lt;Merlas;Merlo
+be;Мендоса;Mendoza
+bg;Мендоса;Mendoza
+el;Μεντόσα;Mendoza
+fa;مندوزا;Mendoza
+he;מנדוסה;Mendoza
+hu;Capital megye;Mendoza
+hy;Մենդոսա;Mendoza
+ka;მენდოსა;Mendoza
+lt;Mendosa;Mendoza
+lv;Mendosa;Mendoza
+oc;Vila de Mendoza;Mendoza
+os;Мендосæ;Mendoza
+sr;Мендоза;Mendoza
+th;เมนโดซา;Mendoza
+uk;Мендоса;Mendoza
+ur;مندوسا، ارجنٹائن;Mendoza
+vep;Mendos;Mendoza
+bn;মেন্ডোজা;Mendoza
+am;መንዶዛ;Mendoza
+pa;ਮੇਂਡੋਜ਼ਾ;Mendoza
+ps;مندوزا;Mendoza
+kk;Мелинкуэ;Melincué
+ky;Мелинкуэ;Melincué
+bn;মেলিনকুই;Melincué
+ur;میلنکویو;Melincué
+am;ሜሊንኩዌ;Melincué
+fa;ملینکویه;Melincué
+pa;ਮੇਲਿਨਕੁਈ;Melincué
+ps;میلنکویو;Melincué
+tg;Мелинкуэ;Melincué
+tt;Мелинкуэ;Melincué
+kk;Мединос;Médanos
+ky;Мединос;Médanos
+bn;মেডানোস;Médanos
+ur;میڈانوس;Médanos
+am;ሜዳኖስ;Médanos
+fa;مدانوس;Médanos
+pa;ਮੇਡਾਨੋਸ;Médanos
+ps;میډانوس;Médanos
+tg;Мединос;Médanos
+tt;Мединос;Médanos
+kk;Маркос Хуарес;Marcos Juárez
+ky;Маркос Хуарес;Marcos Juárez
+bn;মার্কোস জুয়ারেজ;Marcos Juárez
+ur;مارکوس جوارز;Marcos Juárez
+am;ማርኮስ ዋሪዝ;Marcos Juárez
+fa;مارکوس خوارز;Marcos Juárez
+pa;ਮਾਰਕੋਸ ਜੁਆਰੇਜ਼;Marcos Juárez
+ps;مارکوس جوارز;Marcos Juárez
+tg;Маркос Хуарес;Marcos Juárez
+tt;Маркос Хуарес;Marcos Juárez
+kk;Макинчао;Maquinchao
+ky;Макинчао;Maquinchao
+bn;মাকিনচাও;Maquinchao
+ur;ماکینچاؤ;Maquinchao
+am;ማኪንቻዎ;Maquinchao
+az;Maquinçao;Maquinchao
+fa;ماکینچائو;Maquinchao
+pa;ਮਕਿੰਚਾਓ;Maquinchao
+ps;ماکینچاو;Maquinchao
+tg;Мақинчао;Maquinchao
+el;Μαλάργουε;Malargüe
+lt;Malargujė;Malargüe
+kk;Маларгуэ;Malargüe
+ky;Маларгуэ;Malargüe
+bn;মালারগুয়ে;Malargüe
+ur;مالارگویے;Malargüe
+am;ማላርጌ;Malargüe
+fa;مالارگوئه;Malargüe
+pa;ਮਾਲਾਰਗੂਏ;Malargüe
+ps;مالارګویې;Malargüe
+tg;Маларгуэ;Malargüe
+kk;Маланзан;Malanzán
+ky;Маланзан;Malanzán
+bn;মালানজান;Malanzán
+ur;مالنزان;Malanzán
+am;ማላንዛን;Malanzán
+fa;مالانزان;Malanzán
+pa;ਮਾਲਾਂਜ਼ਾਨ;Malanzán
+ps;مالنزان;Malanzán
+tg;Маланзан;Malanzán
+pa;ਮੈਪੂ;Maipú
+ps;مایپو;Maipú
+uk;Маймара;Maimará
+kk;Мачагай;Machagai
+ky;Мачагай;Machagai
+bn;মাচাগাই;Machagai
+ur;ماچاگائی;Machagai
+am;ማቻጋይ;Machagai
+az;Maçagai;Machagai
+fa;ماچاگای;Machagai
+pa;ਮਚਾਗਈ;Machagai
+ps;ماچاګای;Machagai
+tg;Мачагай;Machagai
+ur;میکاپیلو;Macapillo
+kk;Макакин;Macachín
+ky;Макакин;Macachín
+bn;মাকাচিন;Macachín
+ur;ماکاچن;Macachín
+am;ማካቺን;Macachín
+fa;ماکاچین;Macachín
+pa;ਮਕਾਚਿਨ;Macachín
+ps;ماکاچین;Macachín
+tg;Макакин;Macachín
+kk;Лулес;Lules
+ky;Лулес;Lules
+bn;লুলেস;Lules
+ur;لولیس;Lules
+am;ሉለስ;Lules
+fa;لولس;Lules
+pa;ਲੁਲੇਸ;Lules
+ps;لولس;Lules
+tg;Лулес;Lules
+kk;Лухан-де-Куйо;Luján de Cuyo
+ky;Лухан-де-Куйо;Luján de Cuyo
+bn;লুজান দে কুয়ো;Luján de Cuyo
+ur;لوجان دے کویو;Luján de Cuyo
+am;ሉሃን ደ ኩዮ;Luján de Cuyo
+az;Lujan de Kuyo;Luján de Cuyo
+fa;لوخان دو کوی‌و;Luján de Cuyo
+pa;ਲੁਜ਼ਾਨ ਦੇ ਕੁਯੋ;Luján de Cuyo
+ps;لوجان دې کویو;Luján de Cuyo
+tg;Лухан-де-Куйо;Luján de Cuyo
+kk;Лос-Телярес;Los Telares
+ky;Лос-Телярес;Los Telares
+bn;লস তেলারেস;Los Telares
+ur;لوس تیلاریز;Los Telares
+am;ሎስ ቴላሬስ;Los Telares
+fa;لاس تلارس;Los Telares
+pa;ਲੋਸ ਤੇਲਾਰਸ;Los Telares
+ps;لوس تیلاریز;Los Telares
+tg;Лос-Телярес;Los Telares
+kk;Лонкопуэ;Loncopué
+ky;Лонкопуэ;Loncopué
+bn;লোনকোপুয়ে;Loncopué
+ur;لونکوپویہ;Loncopué
+am;ሎንኮፑዌ;Loncopué
+fa;لونکوپوئه;Loncopué
+pa;ਲੋਨਕੋਪੁਏ;Loncopué
+ps;لونکوپویه;Loncopué
+tg;Лонкопуэ;Loncopué
+kk;Линкольн;Lincoln
+uz;Linkoln;Lincoln
+ky;Линкольн;Lincoln
+bn;লিংকন;Lincoln
+ur;لنکن;Lincoln
+am;ሊንከን;Lincoln
+az;Linkoln;Lincoln
+fa;لینکلن;Lincoln
+pa;ਲਿਨਕਨ;Lincoln
+ps;لنکن;Lincoln
+tg;Линкольн;Lincoln
+tt;Linkoln;Lincoln
+kk;Лимай-Мауида;Limay Mahuida
+ky;Лимай-Мауида;Limay Mahuida
+bn;লিমায় মাহুইদা;Limay Mahuida
+ur;لیمے ماہویڈا;Limay Mahuida
+am;ሊመይ ማሁዊዳ;Limay Mahuida
+fa;لیمای ماهویدا;Limay Mahuida
+pa;ਲਿਮੇ ਮਾਹੁਇਦਾ;Limay Mahuida
+ps;لیمې ماهویډا;Limay Mahuida
+tg;Лимай-Мауида;Limay Mahuida
+kk;Либертадор-Хенераль-Сан-Мартин;Libertador General San Martín
+ky;Либертадор-Хенераль-Сан-Мартин;Libertador General San Martín
+bn;লিবার্টাডর জেনারাল সান মার্টিন;Libertador General San Martín
+ur;لبرٹادور جنرل سان مارٹن;Libertador General San Martín
+am;ሊበርታዶር ጄነራል ሳን ማርቲን;Libertador General San Martín
+fa;لیبرتادور جنرال سان مارتین;Libertador General San Martín
+pa;ਲਿਬਰਟਾਡੋਰ ਜਨਰਲ ਸੈਨ ਮਾਰਟਿਨ;Libertador General San Martín
+ps;لبرتادور جنرل سان مارتین;Libertador General San Martín
+tg;Либертадор-Хенераль-Сан-Мартин;Libertador General San Martín
+kk;Лелеке;Leleque
+ky;Лелеке;Leleque
+bn;লেলেকে;Leleque
+ur;لیلیک;Leleque
+am;ሌሌክ;Leleque
+fa;لله‌که;Leleque
+pa;ਲੇਲੇਕ;Leleque
+ps;لیلیک;Leleque
+tg;Лелеке;Leleque
+kk;Ла-Виньа;La Viña
+ky;Ла-Виньа;La Viña
+bn;লা ভিনা;La Viña
+ur;لا ونیا;La Viña
+am;ላ ቪና;La Viña
+fa;لا ویینا;La Viña
+pa;ਲਾ ਵਿਨਾ;La Viña
+ps;لا ونیا;La Viña
+tg;Ла-Виньа;La Viña
+kk;Ла-Тома;La Toma
+ky;Ла-Тома;La Toma
+bn;লা তোমা;La Toma
+ur;لا ٹوما;La Toma
+am;ላ ቶማ;La Toma
+fa;لا توما;La Toma
+pa;ਲਾ ਤੋਮਾ;La Toma
+ps;لا ټوما;La Toma
+tg;Ла-Тома;La Toma
+kk;Лас-Росас;Las Rosas
+ky;Лас-Росас;Las Rosas
+bn;লাস রোসাস;Las Rosas
+ur;لاس روزاس;Las Rosas
+am;ላስ ሮሳስ;Las Rosas
+fa;لاس روزاس;Las Rosas
+pa;ਲਾਸ ਰੋਸਾਸ;Las Rosas
+ps;لاس روزاس;Las Rosas
+tg;Лас-Росас;Las Rosas
+kk;Лас-Плумас;Las Plumas
+ky;Лас-Плумас;Las Plumas
+bn;লাস প্লুমাস;Las Plumas
+ur;لاس پلوماس;Las Plumas
+am;ላስ ፕሉማስ;Las Plumas
+fa;لاس پلوماس;Las Plumas
+pa;ਲਾਸ ਪਲੂਮਾਸ;Las Plumas
+ps;لاس پلومه;Las Plumas
+tg;Лас-Плумас;Las Plumas
+kk;Лас-Лахас;Las Lajas
+ky;Лас-Лахас;Las Lajas
+bn;লাস লাহাস;Las Lajas
+ur;لاس لاہاس;Las Lajas
+am;ላስ ላጃስ;Las Lajas
+fa;لاس لاخاس;Las Lajas
+pa;ਲਾਸ ਲਾਹਾਸ;Las Lajas
+ps;لاس لاهاس;Las Lajas
+tg;Лас-Лахас;Las Lajas
+kk;Лас-Эрас;Las Heras
+ky;Лас-Эрас;Las Heras
+bn;লাস হেরাস;Las Heras
+ur;لاس ہیراس;Las Heras
+am;ላስ ሄራስ;Las Heras
+fa;لاس هراس;Las Heras
+pa;ਲਾਸ ਹੇਰਾਸ;Las Heras
+ps;لاس هیرास;Las Heras
+tg;Лас-Эрас;Las Heras
+hy;Լաս Կոլորադաս;Las Coloradas
+lt;Las Koloradasas;Las Coloradas
+kk;Лас-Колорадас;Las Coloradas
+ky;Лас-Колорадас;Las Coloradas
+bn;লাস কোলোরাডাস;Las Coloradas
+ur;لاس کولورادس;Las Coloradas
+am;ላስ ኮሎራዳስ;Las Coloradas
+fa;لاس کولورادو;Las Coloradas
+pa;ਲਾਸ ਕੋਲੋਰਾਡਾਸ;Las Coloradas
+ps;لاس کولورادس;Las Coloradas
+tg;Лас-Колорадас;Las Coloradas
+kk;Лас-Бреньяс;Las Breñas
+ky;Лас-Бреньяс;Las Breñas
+bn;লাস ব্রেনাস;Las Breñas
+ur;لاس بریناس;Las Breñas
+am;ላስ ብሬናስ;Las Breñas
+fa;لاس برئناس;Las Breñas
+pa;ਲਾਸ ਬਰੇਨਾਸ;Las Breñas
+ps;لاس بریناس;Las Breñas
+tg;Лас-Бреньяс;Las Breñas
+lt;La Riocha;La Rioja
+be;Ла-Рыёха;La Rioja
+bg;Ла Риоха;La Rioja
+fa;لا ریوخا، آرژانتین;La Rioja
+he;לה ריוחה;La Rioja
+ka;ლა-რიოხა;La Rioja
+lv;Larjoha;La Rioja
+sr;Риоха;La Rioja
+uk;Ла-Ріоха;La Rioja
+gl;A Rioxa;La Rioja
+hy;Լա Ռիոխա;La Rioja
+ur;لا ریوجا، ارجنٹین;La Rioja
+bn;লা রিওজা;La Rioja
+am;ላ ሪዮሃ;La Rioja
+pa;ਲਾ ਰੀਓਜਾ;La Rioja
+ps;لا ریوخا;La Rioja
+he;לה קיאקה;La Quiaca
+hy;Լա Կիակա;La Quiaca
+lt;La Kiaka;La Quiaca
+kk;Ла-Киака;La Quiaca
+ky;Ла-Киака;La Quiaca
+bn;লা কুইয়াকা;La Quiaca
+ur;لا کویاکا;La Quiaca
+am;ላ ኩያካ;La Quiaca
+fa;لا کیاکا;La Quiaca
+pa;ਲਾ ਕਿਆਕਾ;La Quiaca
+ps;لا کویاکا;La Quiaca
+tg;Ла-Киака;La Quiaca
+kk;Ла-Пуэрта;La Puerta
+ky;Ла-Пуэрта;La Puerta
+bn;লা পুয়ার্তা;La Puerta
+ur;لا پویرٹا;La Puerta
+am;ላ ፑエርታ;La Puerta
+fa;لا پورتا;La Puerta
+pa;ਲਾ ਪਲਾਟਾ;La Puerta
+ps;لا پویرتا;La Puerta
+tg;Ла-Пуэрта;La Puerta
+kk;Лаприда;Laprida
+ky;Лаприда;Laprida
+bn;লাপ্রিডা;Laprida
+ur;لاپریڈا;Laprida
+am;ላፕሪዳ;Laprida
+fa;لاپریدا;Laprida
+pa;ਲਾਪ੍ਰੀਡਾ;Laprida
+ps;لاپریډا;Laprida
+tg;Лаприда;Laprida
+kk;Ла-Пома;La Poma
+ky;Ла-Пома;La Poma
+bn;লা পোমা;La Poma
+ur;لا پوما;La Poma
+am;ላ ፖማ;La Poma
+fa;لا پوما;La Poma
+pa;ਲਾ ਪੋਮਾ;La Poma
+ps;لا پوما;La Poma
+tg;Ла-Пома;La Poma
+fa;کلونیا لاپین;Colonia Lapin
+kk;Ла-Пас;La Paz
+ky;Ла-Пас;La Paz
+ur;لاپاز;La Paz
+pa;ਲਾ ਪਾਜ;La Paz
+ps;لاپاز;La Paz
+tg;Ла-Пас;La Paz
+kk;Ла-Мерсед;La Merced
+ky;Ла-Мерсед;La Merced
+bn;লা মের্সেড;La Merced
+ur;لا مرسید;La Merced
+am;ላ መርሴድ;La Merced
+fa;لا مرسد;La Merced
+pa;ਲਾ ਮਰਸਿਡ;La Merced
+ps;لا مرسید;La Merced
+tg;Ла-Мерсед;La Merced
+kk;Лагуна-Йема;Laguna Yema
+ky;Лагуна-Йема;Laguna Yema
+bn;লাগুনা ইয়েমা;Laguna Yema
+ur;لاگونا یما;Laguna Yema
+am;ላጉና ዬማ;Laguna Yema
+fa;لاگونا یما;Laguna Yema
+pa;ਲਾਗੁਨਾ ਯੇਮਾ;Laguna Yema
+ps;لاګونا یما;Laguna Yema
+tg;Лагуна-Йема;Laguna Yema
+uk;Ла-Фальда;La Falda
+ur;لا فالڈا;La Falda
+kk;Ла-Консульта;La Consulta
+ky;Ла-Консульта;La Consulta
+bn;লা কনসুল্তা;La Consulta
+ur;لا کونسولتا;La Consulta
+am;ላ ኮንሱልታ;La Consulta
+fa;لا کونسولتا;La Consulta
+pa;ਲਾ ਕਨਸਲਤਾ;La Consulta
+ps;لا کونسولتا;La Consulta
+tg;Ла-Консульта;La Consulta
+tt;Ла-Консульта;La Consulta
+kk;Ла-Коча;La Cocha
+ky;Ла-Коча;La Cocha
+bn;লা কোচা;La Cocha
+ur;لا کوچا;La Cocha
+am;ላ ኮቻ;La Cocha
+fa;لا کوچا;La Cocha
+pa;ਲਾ ਕੋਚਾ;La Cocha
+ps;لا کوچا;La Cocha
+tg;Ла-Коча;La Cocha
+tt;Ла-Коча;La Cocha
+lt;La Karlota;La Carlota
+ur;لا کارلوٹا، ارجنٹائن;La Carlota
+kk;Ла-Карлота;La Carlota
+ky;Ла-Карлота;La Carlota
+bn;লা কার্লোটা;La Carlota
+am;ላ ካርሎታ;La Carlota
+fa;لا کارلوتا;La Carlota
+pa;ਲਾ ਕਾਰਲੋਟਾ;La Carlota
+ps;لا کارلوتا;La Carlota
+tg;Ла-Карлота;La Carlota
+tt;Ла-Карлота;La Carlota
+kk;Ла-Канделарья;La Candelaria
+ky;Ла-Канделарья;La Candelaria
+bn;লা ক্যান্ডেলারিয়া;La Candelaria
+ur;لا کینڈیلاریا;La Candelaria
+am;ላ ካንደላሪያ;La Candelaria
+fa;لا کاندیلاریا;La Candelaria
+pa;ਲਾ ਕਾਂਡੇਲਾਰੀਆ;La Candelaria
+ps;لا کاندیلاریا;La Candelaria
+tg;Ла-Канделаря;La Candelaria
+tt;Ла-Канделаря;La Candelaria
+kk;Ла-Канада;La Cañada
+ky;Ла-Канада;La Cañada
+bn;লা ক্যানাডা;La Cañada
+ur;لا کینیڈا;La Cañada
+am;ላ ካናዳ;La Cañada
+fa;لا کانادا;La Cañada
+pa;ਲਾ ਕਨਾਡਾ;La Cañada
+ps;لا کینیڈا;La Cañada
+tg;Ла-Канада;La Cañada
+tt;Ла-Канада;La Cañada
+kk;Ла-Калдера;La Caldera
+ky;Ла-Калдера;La Caldera
+bn;লা ক্যালডেরা;La Caldera
+ur;لا کالڈیرا;La Caldera
+am;ላ ካልዴራ;La Caldera
+fa;لا کالدرا;La Caldera
+pa;ਲਾ ਕਲਡੇਰਾ;La Caldera
+ps;لا کالڈیرا;La Caldera
+tg;Ла-Калдера;La Caldera
+tt;Ла-Калдера;La Caldera
+kk;Лабуле;Laboulaye
+ky;Лабуле;Laboulaye
+bn;লাবুলাই;Laboulaye
+ur;لابولائے;Laboulaye
+am;ላቡሌ;Laboulaye
+fa;لابولای;Laboulaye
+pa;ਲਾਬੁਲਾਏ;Laboulaye
+ps;لابولائے;Laboulaye
+tg;Лабуле;Laboulaye
+tt;Лабуле;Laboulaye
+kk;Ла-Банда;La Banda
+ky;Ла-Банда;La Banda
+bn;লা ব্যান্ডা;La Banda
+ur;لا بانڈا;La Banda
+am;ላ ባንዳ;La Banda
+fa;لا باندا;La Banda
+pa;ਲਾ ਬਾਂਡਾ;La Banda
+ps;لا بانډا;La Banda
+tg;Ла-Банда;La Banda
+tt;Ла-Банда;La Banda
+lt;Andų Chuninas;Junín de los Andes
+kk;Хунин-де-лос-Андес;Junín de los Andes
+ky;Хунин-де-лос-Андес;Junín de los Andes
+bn;জুনিন দে লস আন্দেস;Junín de los Andes
+ur;جونین ڈے لوس اندس;Junín de los Andes
+am;ጁኒን ደ ሎስ አንደስ;Junín de los Andes
+fa;خونین دی لوس اندس;Junín de los Andes
+pa;ਜੁਨੀਨ ਡੇ ਲੋਸ ਐਂਡੇਸ;Junín de los Andes
+ps;جونین ډي لوس اندس;Junín de los Andes
+tg;Хунин-де-лос-Андес;Junín de los Andes
+tt;Хунин-де-лос-Андес;Junín de los Andes
+fa;خونین;Junín
+lt;Chuninas;Junín
+ka;ხუნინი;Junín
+kk;Хунин;Junín
+ky;Хунин;Junín
+bn;জুনিন;Junín
+ur;جونین;Junín
+am;ጁኒን;Junín
+pa;ਜੁਨੀਨ;Junín
+ps;جونین;Junín
+tg;Хунин;Junín
+tt;Хунин;Junín
+kk;Хосе-де-Сан-Мартин;José de San Martín
+ky;Хосе-де-Сан-Мартин;José de San Martín
+bn;জোসে ডে সান মার্টিন;José de San Martín
+ur;جوزے ڈے سان مارٹن;José de San Martín
+am;ሆሴ ደ ሳን ማርቲን;José de San Martín
+fa;خوسه دی سان مارتین;José de San Martín
+pa;ਜੋਸੇ ਡੇ ਸਾਨ ਮਾਰਟਿਨ;José de San Martín
+ps;جوزې ډی سان مارتن;José de San Martín
+tg;Хосе-де-Сан-Мартин;José de San Martín
+tt;Хосе-де-Сан-Мартин;José de San Martín
+kk;Хесус-Мария;Jesús María
+ky;Хесус-Мария;Jesús María
+bn;জেসাস মারিয়া;Jesús María
+ur;یسوع ماریا;Jesús María
+am;ኢየሱስ ማሪያ;Jesús María
+fa;یسوع ماریا;Jesús María
+pa;ਜੀਸਸ ਮਾਰੀਆ;Jesús María
+ps;عیسیٰ ماریا;Jesús María
+tg;Хесус-Мария;Jesús María
+tt;Хесус-Мария;Jesús María
+ceb;Iturbe;Hipólito Yrigoyen
+sv;Iturbe;Hipólito Yrigoyen
+kk;Ируя;Iruya
+ky;Ируя;Iruya
+bn;ইরুয়া;Iruya
+ur;ایرویا;Iruya
+am;ኢሩያ;Iruya
+fa;ایروایا;Iruya
+pa;ਇਰੁਆ;Iruya
+ps;ایروایا;Iruya
+tg;Ируя;Iruya
+tt;Ируя;Iruya
+kk;Интендентте Альвеар;Intendente Alvear
+ky;Интендентте Альвеар;Intendente Alvear
+bn;ইন্টেন্ডেন্তে আলভিয়ার;Intendente Alvear
+ur;انتندنتے الویئر;Intendente Alvear
+am;ኢንተንደንቴ አልቬር;Intendente Alvear
+fa;اینتندنته الویئر;Intendente Alvear
+pa;ਇਨਟੈਂਡੈਂਤੇ ਅਲਵਿਅਰ;Intendente Alvear
+ps;انتندنته الویر;Intendente Alvear
+tg;Интендентте Альвеар;Intendente Alvear
+tt;Интендентте Альвеар;Intendente Alvear
+lt;Inchenjero Chakobačis;Ingeniero Jacobacci
+lv;Hakobasi;Ingeniero Jacobacci
+kk;Инженеро Гильермо Н. Хуарес;Ingeniero Guillermo N. Juárez
+ky;Инженеро Гильермо Н. Хуарес;Ingeniero Guillermo N. Juárez
+bn;ইঞ্জিনিয়েরো গুইলার্মো এন. জুয়ারেজ;Ingeniero Guillermo N. Juárez
+ur;انجنیرو گیلرمو ایں جوارز;Ingeniero Guillermo N. Juárez
+am;ኢንጅኒየሮ ግሊርሞ ኤን. ሁዋሬዝ;Ingeniero Guillermo N. Juárez
+fa;اینجنیرو گیلرمو ان. خوارز;Ingeniero Guillermo N. Juárez
+pa;ਇਨਜੀਨੀਅਰੋ ਗੁਇਲਰਮੋ ਐਨ. ਜੁਆਰੇਜ਼;Ingeniero Guillermo N. Juárez
+ps;انجنیرو گیلرمو ان جوارز;Ingeniero Guillermo N. Juárez
+tg;Инженеро Гильермо Н. Хуарес;Ingeniero Guillermo N. Juárez
+tt;Инженеро Гильермо Н. Хуарес;Ingeniero Guillermo N. Juárez
+kk;Умауака;Humahuaca
+ky;Умауака;Humahuaca
+bn;হুমাহুয়াকা;Humahuaca
+ur;ہماہواکا;Humahuaca
+am;ሁማሁአካ;Humahuaca
+fa;هوماهواکا;Humahuaca
+pa;ਹੁਮਾਹੁਆਕਾ;Humahuaca
+ps;هوماهواکا;Humahuaca
+tg;Умауака;Humahuaca
+tt;Умауака;Humahuaca
+kk;Эррера;Herrera
+ky;Эррера;Herrera
+bn;হেরেরা;Herrera
+ur;ہررہ;Herrera
+am;ሄረራ;Herrera
+fa;هررا;Herrera
+pa;ਹੈਰੇਰਾ;Herrera
+ps;ہررا;Herrera
+tg;Эррера;Herrera
+tt;Эррера;Herrera
+kk;Эрмосо-Кампо;Hermoso Campo
+ky;Эрмосо-Кампо;Hermoso Campo
+bn;হারমোসো ক্যাম্পো;Hermoso Campo
+ur;ہرموسو کیمپو;Hermoso Campo
+am;ሄርሞሶ ካምጶ;Hermoso Campo
+fa;هرموسو کامپو;Hermoso Campo
+pa;ਹਰਮੋਸੋ ਕੈਂਪੋ;Hermoso Campo
+ps;هرموسو کیمپو;Hermoso Campo
+tg;Эрмосо-Кампо;Hermoso Campo
+tt;Эрмосо-Кампо;Hermoso Campo
+kk;Хендерсон;Henderson
+ky;Хендерсон;Henderson
+bn;হেন্ডারসন;Henderson
+ur;ہینڈرسن;Henderson
+am;ሔንደርሰን;Henderson
+fa;هندرسون;Henderson
+pa;ਹੈਂਡਰਸਨ;Henderson
+ps;هندرسن;Henderson
+tg;Хендерсон;Henderson
+tt;Хендерсон;Henderson
+kk;Элвесия;Helvecia
+ky;Элвесия;Helvecia
+bn;হেলভেসিয়া;Helvecia
+ur;ہیلوسیا;Helvecia
+am;ሄልቬሲያ;Helvecia
+fa;هلوسیا;Helvecia
+pa;ਹੈਲਵੇਸ਼ੀਆ;Helvecia
+ps;هیلوسیا;Helvecia
+tg;Элвесия;Helvecia
+tt;Элвесия;Helvecia
+kk;Гуатраче;Guatraché
+ky;Гуатраче;Guatraché
+bn;গুয়াট্রাচে;Guatraché
+ur;گواٹراچے;Guatraché
+am;ጉዋትራቼ;Guatraché
+fa;گواتراچه;Guatraché
+pa;ਗੁਆਤਰਾਚੇ;Guatraché
+ps;گواتراچه;Guatraché
+tg;Гуатраче;Guatraché
+tt;Гуатраче;Guatraché
+kk;Гуамини;Guaminí
+ky;Гуамини;Guaminí
+bn;গুয়ামিনি;Guaminí
+ur;گوامینی;Guaminí
+am;ጉዋሚኒ;Guaminí
+fa;گوامینی;Guaminí
+pa;ਗੁਆਮਿਨੀ;Guaminí
+ps;ګوامینې;Guaminí
+tg;Гуамини;Guaminí
+tt;Гуамини;Guaminí
+kk;Гуачипас;Guachipas
+ky;Гуачипас;Guachipas
+bn;গুয়াচিপাস;Guachipas
+ur;گواچیپاس;Guachipas
+am;ጉዋችፓስ;Guachipas
+fa;گواچیپاس;Guachipas
+pa;ਗੁਆਚਿਪਾਸ;Guachipas
+ps;گواچیپاس;Guachipas
+tg;Гуачипас;Guachipas
+tt;Гуачипас;Guachipas
+kk;Гранерос;Graneros
+ky;Гранерос;Graneros
+bn;গ্রানেরোস;Graneros
+ur;گرانیروس;Graneros
+am;ግራነሮስ;Graneros
+fa;گرانروس;Graneros
+pa;ਗ੍ਰਾਨੇਰੋਸ;Graneros
+ps;ګرانیروس;Graneros
+tg;Гранерос;Graneros
+tt;Гранерос;Graneros
+kk;Годой-Крус;Godoy Cruz
+ky;Годой-Крус;Godoy Cruz
+bn;গোডয় ক্রুজ;Godoy Cruz
+ur;گڈائے کروز;Godoy Cruz
+am;ጎዶይ ክሩዝ;Godoy Cruz
+fa;گودوی کروز;Godoy Cruz
+pa;ਗੋਡੋਇ ਕਰੂਜ;Godoy Cruz
+ps;ګڈائی کروز;Godoy Cruz
+tg;Годой-Крус;Godoy Cruz
+tt;Годой-Крус;Godoy Cruz
+kk;Гобернадор-Грегорес;Gobernador Gregores
+ky;Гобернадор-Грегорес;Gobernador Gregores
+bn;গোবারনাডর গ্রেগরেস;Gobernador Gregores
+ur;گوبرنادور گریگورس;Gobernador Gregores
+am;ጋበርናዶር ግሬጎረስ;Gobernador Gregores
+fa;گوبرنادور گریگورس;Gobernador Gregores
+pa;ਗੋਬਰਨਾਡੋਰ ਗ੍ਰੇਗੋਰੇਸ;Gobernador Gregores
+ps;ګوبرنادور ګریګورس;Gobernador Gregores
+tg;Гобернадор-Грегорес;Gobernador Gregores
+tt;Гобернадор-Грегорес;Gobernador Gregores
+ceb;Gobernador Garmendia;Garmendia
+sv;Gobernador Garmendia;Garmendia
+uk;Гобернадор-Гармендія;Garmendia
+bg;Хенерал Вилегас;General Villegas
+kk;Генерал-Вильегас;General Villegas
+ky;Генерал-Вильегас;General Villegas
+bn;জেনারেল ভিলেগাস;General Villegas
+ur;جنرل ولیگاس;General Villegas
+am;ጀነራል ቪልጌጋስ;General Villegas
+fa;ژنرال ویلیگاس;General Villegas
+pa;ਜਨਰਲ ਵਿਲੇਗਾਸ;General Villegas
+ps;جنرال ولیګاس;General Villegas
+tg;Генерал-Вильегас;General Villegas
+tt;Генерал-Вильегас;General Villegas
+kk;Лос-Тольдос;Los Toldos
+ky;Лос-Тольдос;Los Toldos
+bn;লস টোল্ডোস;Los Toldos
+ur;لوس ٹولڈوس;Los Toldos
+am;ሎስ ቶልዶስ;Los Toldos
+fa;لوس تولدوس;Los Toldos
+pa;ਲੌਸ ਟੋਲਡੋਸ;Los Toldos
+ps;لوس تولدوس;Los Toldos
+tg;Лос-Тольдос;Los Toldos
+tt;Лос-Тольдос;Los Toldos
+lt;Cheneral Roka;General Roca
+fa;خنرال روکا;General Roca
+he;חנרל רוקה;General Roca
+ka;ხენერალ-როკა;General Roca
+kk;Генерал-Пинто;General Pinto
+ky;Генерал-Пинто;General Pinto
+bn;জেনারেল পিন্টো;General Pinto
+ur;جنرل پنٹو;General Pinto
+am;ጀነራል ፒንቶ;General Pinto
+fa;ژنرال پینتو;General Pinto
+pa;ਜਨਰਲ ਪਿਨਤੋ;General Pinto
+ps;جنرال پنتو;General Pinto
+tg;Генерал-Пинто;General Pinto
+tt;Генерал-Пинто;General Pinto
+kk;Генерал Пинедо;General Pinedo
+ky;Генерал Пинедо;General Pinedo
+bn;জেনারেল পিনেডো;General Pinedo
+ur;جنرل پنیڈو;General Pinedo
+am;ጀነራል ፒኔዶ;General Pinedo
+fa;ژنرال پینیدو;General Pinedo
+pa;ਜਨਰਲ ਪਿਨੇਡੋ;General Pinedo
+ps;جنرال پینیډو;General Pinedo
+tg;Генерали Пинедо;General Pinedo
+tt;Генерал Пинедо;General Pinedo
+fa;خنرال پیکو;General Pico
+lt;Cheneral Pikas;General Pico
+he;חנרל פיקו;General Pico
+kk;Генерал Пико;General Pico
+ky;Генерал Пико;General Pico
+bn;জেনারেল পিকো;General Pico
+ur;جنرل پیکو;General Pico
+am;ጀነራል ፒኮ;General Pico
+pa;ਜਨਰਲ ਪਿਕੋ;General Pico
+ps;جنرال پیکو;General Pico
+tg;Генерали Пико;General Pico
+tt;Генерал Пико;General Pico
+kk;Генерал Гемес;General Güemes
+ky;Генерал Гемес;General Güemes
+bn;জেনারেল গুয়েমেস;General Güemes
+ur;جنرل گویمز;General Güemes
+am;ጀነራል ጉዌመስ;General Güemes
+fa;ژنرال گویمز;General Güemes
+pa;ਜਨਰਲ ਗੁਏਮੇਸ;General Güemes
+ps;جنرال ګویمس;General Güemes
+tg;Генерали Гемес;General Güemes
+tt;Генерал Гемес;General Güemes
+kk;Вилла Тулумайя;Villa Tulumaya
+ky;Вилла Тулумайя;Villa Tulumaya
+bn;ভিল্লা তুলুমায়া;Villa Tulumaya
+ur;ولا تولوما یا;Villa Tulumaya
+am;ቪላ ቱሉማያ;Villa Tulumaya
+fa;ویلا تولوماییا;Villa Tulumaya
+pa;ਵਿਲਾ ਤੁਲੁਮਾਯਾ;Villa Tulumaya
+ps;ویلا تولومایا;Villa Tulumaya
+tg;Вилла Тулумайя;Villa Tulumaya
+tt;Вилла Тулумайя;Villa Tulumaya
+kk;Генерал Ла Мадрид;General La Madrid
+ky;Генерал Ла Мадрид;General La Madrid
+bn;জেনারেল লা ম্যাড্রিড;General La Madrid
+ur;جنرل لا میڈرڈ;General La Madrid
+am;ጀነራል ላ ማድሪድ;General La Madrid
+fa;ژنرال لا مادرید;General La Madrid
+pa;ਜਨਰਲ ਲਾ ਮੈਡ੍ਰਿਡ;General La Madrid
+ps;جنرال لا مادریډ;General La Madrid
+tg;Генерали Ла Мадрид;General La Madrid
+tt;Генерал Ла Мадрид;General La Madrid
+kk;Генерал Москони;General Mosconi
+ky;Генерал Москони;General Mosconi
+bn;জেনারেল মস্কোনি;General Mosconi
+ur;جنرل موسکونی;General Mosconi
+am;ጀነራል ሞስኮኒ;General Mosconi
+fa;ژنرال موسکونی;General Mosconi
+pa;ਜਨਰਲ ਮੋਸਕੋਨੀ;General Mosconi
+ps;جنرال موسکونی;General Mosconi
+tg;Генерали Москони;General Mosconi
+tt;Генерал Москони;General Mosconi
+am;ጀነራል ኮነሳ;General Conesa
+ps;جنرال کونسا;General Conesa
+tg;Генерали Конеса;General Conesa
+kk;Генерал Аренальес;General Arenales
+ky;Генерал Аренальес;General Arenales
+bn;জেনারেল এরেনালেস;General Arenales
+ur;جنرل ارینالیس;General Arenales
+am;ጀነራል አረናሌስ;General Arenales
+fa;ژنرال آرنالس;General Arenales
+pa;ਜਨਰਲ ਐਰੇਨਾਲੇਸ;General Arenales
+ps;جنرال ارنالس;General Arenales
+tg;Генерали Аренальес;General Arenales
+tt;Генерал Аренальес;General Arenales
+kk;Генерал Альвеар;General Alvear
+ky;Генерал Альвеар;General Alvear
+bn;জেনারেল আলভিয়ার;General Alvear
+ur;جنرل الویئر;General Alvear
+am;ጀነራል አልቬር;General Alvear
+fa;ژنرال آلویار;General Alvear
+pa;ਜਨਰਲ ਆਲਵੀਅਰ;General Alvear
+ps;جنرال الویر;General Alvear
+tg;Генерали Альвеар;General Alvear
+tt;Генерал Альвеар;General Alvear
+kk;Генерал Ача;General Acha
+ky;Генерал Ача;General Acha
+bn;জেনারেল আচা;General Acha
+ur;جنرل آچھا;General Acha
+am;ጀነራል አጫ;General Acha
+fa;ژنرال آچا;General Acha
+pa;ਜਨਰਲ ਅਚਾ;General Acha
+ps;جنرال اچا;General Acha
+tg;Генерали Ача;General Acha
+tt;Генерал Ача;General Acha
+kk;Гастре;Gastre
+ky;Гастре;Gastre
+bn;গ্যাস্ট্রে;Gastre
+ur;گاسترے;Gastre
+am;ገስተረ;Gastre
+fa;گاسترا;Gastre
+pa;ਗਾਸਤਰੇ;Gastre
+ps;گاسترا;Gastre
+tg;Гастре;Gastre
+tt;Гастре;Gastre
+kk;Гарса;Garza
+ky;Гарса;Garza
+bn;গারজা;Garza
+ur;گارزا;Garza
+am;ጋርዛ;Garza
+fa;گارزا;Garza
+pa;ਗਾਰਜ਼ਾ;Garza
+ps;ګارزا;Garza
+tg;Гарса;Garza
+tt;Гарса;Garza
+kk;Гайман;Gaiman
+ky;Гайман;Gaiman
+bn;গাইম্যান;Gaiman
+ur;گیمان;Gaiman
+am;ጋይማን;Gaiman
+fa;گیمان;Gaiman
+pa;ਗੈਮਾਨ;Gaiman
+ps;ګیمان;Gaiman
+tg;Гайман;Gaiman
+tt;Гайман;Gaiman
+kk;Фриас;Frías
+ky;Фриас;Frías
+bn;ফ্রিয়াস;Frías
+ur;فریاس;Frías
+am;ፍሪያስ;Frías
+fa;فریاس;Frías
+pa;ਫ੍ਰਿਆਸ;Frías
+ps;فریاس;Frías
+tg;Фриас;Frías
+tt;Фриас;Frías
+kk;Фернандес;Fernández
+ky;Фернандес;Fernández
+bn;ফার্নান্দেজ;Fernández
+ur;فرنانڈیز;Fernández
+am;ፌርናንዴዝ;Fernández
+fa;فرناندز;Fernández
+pa;ਫਰਨਾਂਡੇਜ਼;Fernández
+ps;فرنانديز;Fernández
+tg;Фернандес;Fernández
+tt;Фернандес;Fernández
+kk;Фаматина;Famatina
+ky;Фаматина;Famatina
+bn;ফামাতিনা;Famatina
+ur;فاماتینا;Famatina
+am;ፋማቲና;Famatina
+fa;فاماتینا;Famatina
+pa;ਫਾਮਾਤਿਨਾ;Famatina
+ps;فاماتينا;Famatina
+tg;Фаматина;Famatina
+tt;Фаматина;Famatina
+kk;Фамаилья;Famaillá
+ky;Фамаилья;Famaillá
+bn;ফামাইলা;Famaillá
+ur;فامیلا;Famaillá
+am;ፋማይላ;Famaillá
+fa;فامایلا;Famaillá
+pa;ਫਾਮੈਲਾ;Famaillá
+ps;فاميلا;Famaillá
+tg;Фамаилья;Famaillá
+tt;Фамаилья;Famaillá
+he;אסקל;Esquel
+lt;Eskelis;Esquel
+kk;Эсперанса;Esperanza
+ky;Эсперанса;Esperanza
+bn;এসপেরানজা;Esperanza
+ur;ایسپیرانزا;Esperanza
+am;ኢስፔራንዛ;Esperanza
+fa;اسپرانزا;Esperanza
+pa;ਏਸਪੇਰਾਂਜ਼ਾ;Esperanza
+ps;اسپرانزا;Esperanza
+tg;Эсперанса;Esperanza
+tt;Эсперанса;Esperanza
+kk;Эль Уэку;El Huecú
+ky;Эль Уэку;El Huecú
+bn;এল হুয়েকু;El Huecú
+ur;ایل ہویکو;El Huecú
+am;ኤል ሁዌኩ;El Huecú
+fa;ال هویکو;El Huecú
+pa;ਐਲ ਹੁਏਕੁ;El Huecú
+ps;ایل ہویکو;El Huecú
+tg;Эль Уэку;El Huecú
+tt;Эль Уэку;El Huecú
+kk;Эль Кай;El Cuy
+ky;Эль Кай;El Cuy
+bn;এল কুয়;El Cuy
+ur;ایل کوے;El Cuy
+am;ኤል ኩይ;El Cuy
+fa;ال کویی;El Cuy
+pa;ਐਲ ਕੁਏ;El Cuy
+ps;ایل کوے;El Cuy
+tg;Эль Кай;El Cuy
+tt;Эль Кай;El Cuy
+uk;Ель-Чаньяр;El Chañar
+kk;Эль Кармен;El Carmen
+ky;Эль Кармен;El Carmen
+bn;এল কার্মেন;El Carmen
+ur;ایل کارمن;El Carmen
+am;ኤል ካርመን;El Carmen
+fa;ال کارمن;El Carmen
+pa;ਐਲ ਕਾਰਮੇਨ;El Carmen
+ps;ایل کارمن;El Carmen
+tg;Эль Кармен;El Carmen
+tt;Эль Кармен;El Carmen
+lt;El Kalafatė;El Calafate
+uk;Ель-Калафате;El Calafate
+he;אל קלפטה;El Calafate
+he;אל בולסון;El Bolsón
+lt;El Bolsonas;El Bolsón
+kk;Эль Альто;El Alto
+ky;Эль Альто;El Alto
+bn;এল আলটো;El Alto
+ur;ایل الٹو;El Alto
+am;ኤል ዓልቶ;El Alto
+fa;ال آلتو;El Alto
+pa;ਐਲ ਅਲਟੋ;El Alto
+ps;ایل الٹو;El Alto
+tg;Эль Альто;El Alto
+tt;Эль Альто;El Alto
+kk;Эдуардо Кастекс;Eduardo Castex
+ky;Эдуардо Кастекс;Eduardo Castex
+bn;এডুয়ার্দো কাস্টেক্স;Eduardo Castex
+ur;ایڈورڈو کاسٹیکس;Eduardo Castex
+am;ኤዱዋርዶ ካስቴክስ;Eduardo Castex
+fa;ادواردو کاستکس;Eduardo Castex
+pa;ਏਡੁਆਰਡੋ ਕਾਸਟੇਕਸ;Eduardo Castex
+ps;ایڈورډو کاستکس;Eduardo Castex
+tg;Эдуардо Кастекс;Eduardo Castex
+tt;Эдуардо Кастекс;Eduardo Castex
+kk;Диаманте;Diamante
+ky;Диаманте;Diamante
+bn;ডায়ামান্তে;Diamante
+ur;ڈیامانٹی;Diamante
+am;ዲያማንተ;Diamante
+fa;دیاماته;Diamante
+pa;ਡਾਇਅਮਾਂਤੇ;Diamante
+ps;ډیامانتی;Diamante
+tg;Диаманте;Diamante
+tt;Диаманте;Diamante
+uk;Дельфін-Гальйо;Delfín Gallo
+kk;Дин Фунес;Deán Funes
+ky;Дин Фунес;Deán Funes
+bn;ডিন ফিউনেস;Deán Funes
+ur;ڈین فیونز;Deán Funes
+am;ዲያን ፉንስ;Deán Funes
+fa;دین فونس;Deán Funes
+pa;ਡੀਨ ਫ਼ਿਊਨਸ;Deán Funes
+ps;ډین فونس;Deán Funes
+tg;Дин Фунес;Deán Funes
+tt;Дин Фунес;Deán Funes
+kk;Дайро;Daireaux
+ky;Дайро;Daireaux
+bn;ডায়ারেউক্স;Daireaux
+ur;ڈائرو;Daireaux
+am;ዳይሪክስ;Daireaux
+fa;دایرو;Daireaux
+pa;ਡੇਰੋ;Daireaux
+ps;ډائرو;Daireaux
+tg;Дайро;Daireaux
+tt;Дайро;Daireaux
+kk;Кучильо Ко;Cuchillo Có
+ky;Кучильо Ко;Cuchillo Có
+bn;কুচিলো কো;Cuchillo Có
+ur;کوچیلو کو;Cuchillo Có
+am;ኩቺሎ ኮ;Cuchillo Có
+fa;کوچیلو کو;Cuchillo Có
+pa;ਕੁਚਿਲੋ ਕੋ;Cuchillo Có
+ps;کوچیلو کو;Cuchillo Có
+tg;Кучильо Ко;Cuchillo Có
+tt;Кучильо Ко;Cuchillo Có
+kk;Крус дель Эхе;Cruz del Eje
+ky;Крус дель Эхе;Cruz del Eje
+bn;ক্রুজ ডেল এজ;Cruz del Eje
+ur;کروز ڈیل ایجے;Cruz del Eje
+am;ክሩዝ ዴል ኤዜ;Cruz del Eje
+fa;کروز دل اخه;Cruz del Eje
+pa;ਕ੍ਰੂਜ਼ ਡੇਲ ਏਜ਼;Cruz del Eje
+ps;کروز ډل اخه;Cruz del Eje
+tg;Крус дель Эхе;Cruz del Eje
+tt;Крус дель Эхе;Cruz del Eje
+lt;Koskinas;Cosquín
+kk;Косквин;Cosquín
+ky;Косквин;Cosquín
+bn;কসকুইন;Cosquín
+ur;کوسکوئن;Cosquín
+am;ኮስኩይን;Cosquín
+fa;کوسکوین;Cosquín
+pa;ਕੋਸਕਿਊਨ;Cosquín
+ps;کوسکوین;Cosquín
+tg;Косквин;Cosquín
+tt;Косквин;Cosquín
+kk;Корсуэла;Corzuela
+uz;Korzuela;Corzuela
+ky;Корсуэла;Corzuela
+bn;কোরজুয়েলা;Corzuela
+ur;کورزویلا;Corzuela
+am;ኮርዙዌላ;Corzuela
+az;Korzuela;Corzuela
+fa;کورزوئلا;Corzuela
+pa;ਕੋਰਜ਼ੁਏਲਾ;Corzuela
+ps;کورزویلا;Corzuela
+tg;Корзуэла;Corzuela
+tt;Корзуэла;Corzuela
+sr;Коронел Суарез;Coronel Suárez
+kk;Полковник Суарес;Coronel Suárez
+uz;Polkovnik Suarez;Coronel Suárez
+ky;Полковник Суарес;Coronel Suárez
+bn;কর্নেল সুয়ারেজ;Coronel Suárez
+ur;کرنل سوارز;Coronel Suárez
+am;ኮሮኔል ሱአሬዝ;Coronel Suárez
+az;Polkovnik Suarez;Coronel Suárez
+fa;کرنل سوارز;Coronel Suárez
+pa;ਕਰਨਲ ਸੁਆਰੇਜ਼;Coronel Suárez
+ps;کرنل سوارز;Coronel Suárez
+tg;Полковник Суарес;Coronel Suárez
+tt;Полковник Суарес;Coronel Suárez
+kk;Полковник Принглес;Coronel Pringles
+uz;Polkovnik Pringles;Coronel Pringles
+ky;Полковник Принглес;Coronel Pringles
+bn;কর্নেল প্রিংগলেস;Coronel Pringles
+ur;کرنل پرنگلز;Coronel Pringles
+am;ኮሮኔል ፕሪንግለስ;Coronel Pringles
+az;Polkovnik Pringles;Coronel Pringles
+fa;کرنل پرینگلز;Coronel Pringles
+pa;ਕਰਨਲ ਪ੍ਰਿੰਗਲੇਸ;Coronel Pringles
+ps;کرنل پرنګلز;Coronel Pringles
+tg;Полковник Принглес;Coronel Pringles
+tt;Полковник Принглес;Coronel Pringles
+kk;Полковник Доррего;Coronel Dorrego
+uz;Polkovnik Dorrego;Coronel Dorrego
+ky;Полковник Доррего;Coronel Dorrego
+bn;কর্নেল ডোরেগো;Coronel Dorrego
+ur;کرنل ڈوریگو;Coronel Dorrego
+am;ኮሮኔል ዶሬጎ;Coronel Dorrego
+az;Polkovnik Dorrego;Coronel Dorrego
+fa;کرنل دوریگو;Coronel Dorrego
+pa;ਕਰਨਲ ਡੋਰੇਗੋ;Coronel Dorrego
+ps;کرنل ډوریګو;Coronel Dorrego
+tg;Полковник Доррего;Coronel Dorrego
+tt;Полковник Доррего;Coronel Dorrego
+kk;Коронда;Coronda
+uz;Koronda;Coronda
+ky;Коронда;Coronda
+bn;কোরোন্ডা;Coronda
+ur;کورونڈا;Coronda
+am;ኮሮንዳ;Coronda
+az;Koronda;Coronda
+fa;کرونداً;Coronda
+pa;ਕੋਰੋਂਡਾ;Coronda
+ps;کورونډا;Coronda
+tg;Коронда;Coronda
+tt;Коронда;Coronda
+he;קורדובה;Córdoba
+lt;Kordoba;Córdoba
+bg;Кордоба;Córdoba
+lv;Kordova;Córdoba
+be;Кордава;Córdoba
+sr;Кордоба;Córdoba
+mr;कोर्दोबा;Córdoba
+os;Кордовæ;Córdoba
+fa;کوردوبا، آرژانتین;Córdoba
+ka;კორდოვა;Córdoba
+uk;Кордова;Córdoba
+ce;Кордова;Córdoba
+th;กอร์โดบา;Córdoba
+el;Κόρδοβα;Córdoba
+mn;Кордова хот;Córdoba
+oc;Vila de Córdoba;Córdoba
+sgs;Kuorduoba;Córdoba
+hy;Կորդովա;Córdoba
+ky;Кордова;Córdoba
+nn;Córdoba i Argentina;Córdoba
+ur;قرطبہ، ارجنٹائن;Córdoba
+vep;Kordov;Córdoba
+bn;কর্ডোবা;Córdoba
+am;ኮርዶባ;Córdoba
+pa;ਕੋਰਡੋਬਾ;Córdoba
+ps;کوردوبا;Córdoba
+tg;Kordova;Córdoba
+tt;Kordova;Córdoba
+fa;کنسپسیون، توکومان;Concepción
+he;קונספסיון;Concepción
+lt;Konsepsjonas;Concepción
+kk;Консепсион;Concepción
+uz;Kontsepyon;Concepción
+ky;Консепсион;Concepción
+bn;কনসেপসিয়ন;Concepción
+ur;کونسیپسیون;Concepción
+az;Kontsepsion;Concepción
+ps;کونسپسیون;Concepción
+tg;Консепсион;Concepción
+tt;Консепсион;Concepción
+kk;Конкаран;Concarán
+uz;Konkaran;Concarán
+ky;Конкаран;Concarán
+bn;কনকারান;Concarán
+ur;کونکاران;Concarán
+am;ኮንካራን;Concarán
+az;Konkaran;Concarán
+fa;کونکاران;Concarán
+pa;ਕੋਨਕਾਰਾਨ;Concarán
+ps;کونکاران;Concarán
+tg;Конкаран;Concarán
+tt;Конкаран;Concarán
+lt;Komodoro Rivadavija;Comodoro Rivadavia
+uk;Комодоро-Рівадавія;Comodoro Rivadavia
+fa;کومودورو ریواداویا;Comodoro Rivadavia
+bg;Комодоро Ривадавия;Comodoro Rivadavia
+sr;Комодоро Ривадавија;Comodoro Rivadavia
+he;קומודורו ריבדביה;Comodoro Rivadavia
+hy;Կոմորոդո Ռիվադավիա;Comodoro Rivadavia
+kk;Коммодоро Ривадавия;Comodoro Rivadavia
+uz;Komodoro Rivadaviya;Comodoro Rivadavia
+ky;Коммодоро Ривадавия;Comodoro Rivadavia
+bn;কোমোডোরো রিভাডাভিয়া;Comodoro Rivadavia
+ur;کوموڈورو ریواڈاویا;Comodoro Rivadavia
+am;ኮሞዶሮ ሪቫዳቪያ;Comodoro Rivadavia
+az;Komodoro Rivadaviya;Comodoro Rivadavia
+pa;ਕੋਮੋਡੋਰੋ ਰਿਵਾਡਾਵੀਆ;Comodoro Rivadavia
+ps;کوموډورو ریوادویا;Comodoro Rivadavia
+tg;Коммодоро Ривадавия;Comodoro Rivadavia
+tt;Коммодоро Ривадавия;Comodoro Rivadavia
+bn;কোলোন;Colón
+fa;سیپویتی;Cipolletti
+lt;Čipoletis;Cipolletti
+uk;Чіполлетті;Cipolletti
+he;ציפולטי;Cipolletti
+hy;Չիպոլետի;Cipolletti
+ka;სიპოლიეტი;Cipolletti
+kk;Чумбича;Chumbicha
+ky;Чумбича;Chumbicha
+bn;চুম্বিচা;Chumbicha
+ur;چمبیچا;Chumbicha
+am;ቹምቢቻ;Chumbicha
+az;Çumbiça;Chumbicha
+fa;چومبیچا;Chumbicha
+pa;ਚੁਮਬਿਚਾ;Chumbicha
+ps;چومبیچا;Chumbicha
+tg;Чумбича;Chumbicha
+tt;Чумбича;Chumbicha
+hy;Չոս Մալալ;Chos Malal
+lt;Čos Malalis;Chos Malal
+kk;Чос-Малал;Chos Malal
+ky;Чос-Малал;Chos Malal
+bn;চোস মালাল;Chos Malal
+ur;چوس مالال;Chos Malal
+am;ቾስ ማላል;Chos Malal
+az;Ços Malal;Chos Malal
+fa;چوس مالال;Chos Malal
+pa;ਚੋਸ ਮਾਲਾਲ;Chos Malal
+ps;چوس مالال;Chos Malal
+tg;Чос-Малал;Chos Malal
+tt;Чос-Малал;Chos Malal
+kk;Чоэле-Чоэль;Choele Choel
+ky;Чоэле-Чоэль;Choele Choel
+bn;চোয়েলে চোয়েল;Choele Choel
+ur;چویل چویل;Choele Choel
+am;ቾዌሌ ቾዌል;Choele Choel
+az;Çoele Çoel;Choele Choel
+fa;چوئله چوئل;Choele Choel
+pa;ਚੋਏਲੇ ਚੋਏਲ;Choele Choel
+ps;چویل چویل;Choele Choel
+tg;Чоэле-Чоэль;Choele Choel
+tt;Чоэле-Чоэль;Choele Choel
+fa;چیویلکوی;Chivilcoy
+kk;Чивилкой;Chivilcoy
+uz;Chivilkoy;Chivilcoy
+ky;Чивилкой;Chivilcoy
+bn;চিভিলকয়;Chivilcoy
+ur;چیولکوے;Chivilcoy
+am;ቺቪልኮይ;Chivilcoy
+az;Çivilkoy;Chivilcoy
+pa;ਚਿਵਿਲਕਾਇ;Chivilcoy
+ps;چیولکوی;Chivilcoy
+tg;Чивилкой;Chivilcoy
+tt;Чивилкой;Chivilcoy
+kk;Чимбас;Chimbas
+ky;Чимбас;Chimbas
+bn;চিম্বাস;Chimbas
+ur;چمبس;Chimbas
+am;ቺምባስ;Chimbas
+az;Çimbas;Chimbas
+fa;چیمباس;Chimbas
+pa;ਚਿਮਬਾਸ;Chimbas
+ps;چمبس;Chimbas
+tg;Чимбас;Chimbas
+tt;Чимбас;Chimbas
+fa;چیلسیتو;Chilecito
+he;צילסיטו;Chilecito
+hy;Չիլեսիտո;Chilecito
+lt;Čilesitas;Chilecito
+uk;Чілесіто;Chilecito
+kk;Чилесито;Chilecito
+uz;Chilesito;Chilecito
+ky;Чилесито;Chilecito
+bn;চিলেসিটো;Chilecito
+ur;چیلیسیتو;Chilecito
+am;ቺሌሲቶ;Chilecito
+az;Çilesito;Chilecito
+pa;ਚਿਲੇਸਿਟੋ;Chilecito
+ps;چیلیسیتو;Chilecito
+tg;Чилесито;Chilecito
+tt;Чилесито;Chilecito
+kk;Чикоана;Chicoana
+uz;Chikoana;Chicoana
+ky;Чикоана;Chicoana
+bn;চিকোয়ানা;Chicoana
+ur;چیکوانا;Chicoana
+am;ቺኮአና;Chicoana
+az;Çikoana;Chicoana
+fa;چیکوانا;Chicoana
+pa;ਚਿਕੋਆਨਾ;Chicoana
+ps;چیکوانا;Chicoana
+tg;Чикоана;Chicoana
+tt;Чикоана;Chicoana
+ceb;Chepes Viejo;Villa Chepes
+sv;Chepes Viejo;Villa Chepes
+uk;Чепес;Villa Chepes
+pl;Chepes;Villa Chepes
+he;צ'פס;Villa Chepes
+tr;Chepes;Villa Chepes
+kk;Чепес;Chepes
+ky;Чепес;Chepes
+bn;চেপেস;Chepes
+ur;چیپس;Chepes
+am;ቼፔስ;Chepes
+az;Çepes;Chepes
+fa;چپس;Chepes
+pa;ਚੇਪੇਸ;Chepes
+ps;چیپس;Chepes
+tg;Чепес;Chepes
+tt;Чепес;Chepes
+kk;Чарата;Charata
+ky;Чарата;Charata
+bn;চারাতা;Charata
+ur;چاراتا;Charata
+am;ቻራታ;Charata
+az;Çarata;Charata
+fa;چاراتا;Charata
+pa;ਚਾਰਾਤਾ;Charata
+ps;چاراتا;Charata
+tg;Чарата;Charata
+tt;Чарата;Charata
+kk;Чамикаль;Chamical
+uz;Chamikal;Chamical
+ky;Чамикаль;Chamical
+bn;চামিকাল;Chamical
+ur;چامیکل;Chamical
+am;ቻሚካል;Chamical
+az;Çamikal;Chamical
+fa;چامیکال;Chamical
+pa;ਚਾਮਿਕਾਲ;Chamical
+ps;چامیکل;Chamical
+tg;Чамикаль;Chamical
+tt;Чамикаль;Chamical
+kk;Чакабуко;Chacabuco
+uz;Chakabuko;Chacabuco
+ky;Чакабуко;Chacabuco
+bn;চাকাবুকো;Chacabuco
+ur;چاکابوکو;Chacabuco
+am;ቻካቡኮ;Chacabuco
+az;Çakabuko;Chacabuco
+fa;چاکابوکو;Chacabuco
+pa;ਚਾਕਾਬੁਕੋ;Chacabuco
+ps;چاکابوکو;Chacabuco
+tg;Чакабуко;Chacabuco
+tt;Чакабуко;Chacabuco
+kk;Серрильос;San José de los Cerrillos
+tr;Cerrillos;San José de los Cerrillos
+uz;Serrillos;San José de los Cerrillos
+ky;Серрильос;San José de los Cerrillos
+id;Cerrillos;San José de los Cerrillos
+ms;Cerrillos;San José de los Cerrillos
+bn;সেরিলোস;San José de los Cerrillos
+ur;سیریلوس;San José de los Cerrillos
+am;ሴሪሎስ;San José de los Cerrillos
+az;Serillos;San José de los Cerrillos
+fa;سریلوس;San José de los Cerrillos
+ha;Cerrillos;San José de los Cerrillos
+jv;Cerrillos;San José de los Cerrillos
+om;Cerrillos;San José de los Cerrillos
+pa;ਸੇਰਿਲੋਸ;San José de los Cerrillos
+ps;سیریلوس;San José de los Cerrillos
+so;Cerrillos;San José de los Cerrillos
+sw;Cerrillos;San José de los Cerrillos
+tg;Серрильос;San José de los Cerrillos
+tt;Серрильос;San José de los Cerrillos
+lt;Kausetė;Caucete
+kk;Каусете;Caucete
+uz;Kausete;Caucete
+ky;Каусете;Caucete
+bn;কসেটে;Caucete
+ur;کاؤسیٹے;Caucete
+am;ካውሴቴ;Caucete
+az;Kausete;Caucete
+fa;کاوسته;Caucete
+pa;ਕੌਸੇਟੇ;Caucete
+ps;کاؤسیټې;Caucete
+tg;Каусете;Caucete
+tt;Каусете;Caucete
+kk;Катрило;Catriló
+uz;Katrilo;Catriló
+ky;Катрило;Catriló
+bn;ক্যাট্রিলো;Catriló
+ur;کاٹرلو;Catriló
+am;ካትሪሎ;Catriló
+az;Katrilo;Catriló
+fa;کاتریلو;Catriló
+pa;ਕੈਟ੍ਰਿਲੋ;Catriló
+ps;کاټرلو;Catriló
+tg;Катрило;Catriló
+tt;Катрило;Catriló
+kk;Хуан Хосе Кастелли;Juan José Castelli
+uz;Huan Hose Kastelli;Juan José Castelli
+ky;Хуан Хосе Кастелли;Juan José Castelli
+bn;জুয়ান জোসে কাস্তেলি;Juan José Castelli
+ur;خوان جوسے کاسٹیلی;Juan José Castelli
+am;ሁዋን ሆሴ ካስቴሊ;Juan José Castelli
+az;Huan Hose Kastelli;Juan José Castelli
+fa;خوان خوسه کاستلی;Juan José Castelli
+pa;ਜੁਆਨ ਜੋਸੇ ਕਾਸਟੇਲੀ;Juan José Castelli
+ps;خوان جوسے کاسټیلی;Juan José Castelli
+tg;Хуан Хосе Кастелли;Juan José Castelli
+tt;Хуан Хосе Кастелли;Juan José Castelli
+kk;Касильда;Casilda
+uz;Kasilda;Casilda
+ky;Касильда;Casilda
+bn;কাসিল্ডা;Casilda
+ur;کاسلڈا;Casilda
+am;ካሲልዳ;Casilda
+az;Kasilda;Casilda
+fa;کاسیلدا;Casilda
+pa;ਕਾਸਿਲਡਾ;Casilda
+ps;کاسیلډا;Casilda
+tg;Касильда;Casilda
+tt;Касильда;Casilda
+bg;Кармен де Патагонес;Carmen de Patagones
+he;קרמן דה פטגונס;Carmen de Patagones
+uk;Кармен-де-Патагонес;Carmen de Patagones
+hy;Կարմեն դե Պատագոնես;Carmen de Patagones
+kk;Кармен де Патагонес;Carmen de Patagones
+uz;Karmen de Patagones;Carmen de Patagones
+ky;Кармен де Патагонес;Carmen de Patagones
+bn;কার্মেন ডে প্যাটাগোনেস;Carmen de Patagones
+ur;کارمن ڈی پیٹاگونز;Carmen de Patagones
+am;ካርመን ደ ፓታጎኒስ;Carmen de Patagones
+az;Karmen de Patagones;Carmen de Patagones
+fa;کارمن د پاتاگونس;Carmen de Patagones
+pa;ਕਾਰਮੇਨ ਦੇ ਪੈਟਾਗੋਨਸ;Carmen de Patagones
+ps;کارمن ډی پیټاګونز;Carmen de Patagones
+tg;Кармен де Патагонес;Carmen de Patagones
+tt;Кармен де Патагонес;Carmen de Patagones
+kk;Карлос Техедор;Carlos Tejedor
+uz;Karlos Tejedor;Carlos Tejedor
+ky;Карлос Техедор;Carlos Tejedor
+bn;কার্লোস তেজেদর;Carlos Tejedor
+ur;کارلوس ٹیجیڈور;Carlos Tejedor
+am;ካርሎስ ቴხዶር;Carlos Tejedor
+az;Karlos Tejedor;Carlos Tejedor
+fa;کارلوس تخدور;Carlos Tejedor
+pa;ਕਾਰਲੋਸ ਟੇਜੇਡੋਰ;Carlos Tejedor
+ps;کارلوس تخدور;Carlos Tejedor
+tg;Карлос Техедор;Carlos Tejedor
+tt;Карлос Техедор;Carlos Tejedor
+kk;Карлос Касарес;Carlos Casares
+uz;Karlos Kasares;Carlos Casares
+ky;Карлос Касарес;Carlos Casares
+bn;কার্লোস কাসারেস;Carlos Casares
+ur;کارلوس کاسارز;Carlos Casares
+am;ካርሎስ ካሳሬስ;Carlos Casares
+az;Karlos Kasares;Carlos Casares
+fa;کارلوس کاسارز;Carlos Casares
+pa;ਕਾਰਲੋਸ ਕਸਾਰੇਸ;Carlos Casares
+ps;کارلوس کاسارز;Carlos Casares
+tg;Карлос Касарес;Carlos Casares
+tt;Карлос Касарес;Carlos Casares
+kk;Карху;Carhué
+uz;Karhu;Carhué
+ky;Карху;Carhué
+bn;কারহু;Carhué
+ur;کارہو;Carhué
+am;ካርሁ;Carhué
+az;Karhu;Carhué
+fa;کارهو;Carhué
+pa;ਕਾਰਹੁ;Carhué
+ps;کارهو;Carhué
+tg;Карху;Carhué
+tt;Карху;Carhué
+lt;Kapilja del Montė;Capilla del Monte
+kk;Канада де Гомес;Cañada de Gómez
+uz;Kanada de Gomez;Cañada de Gómez
+ky;Канада де Гомес;Cañada de Gómez
+bn;কানাডা দে গমেজ;Cañada de Gómez
+ur;کنیڈا ڈی گومز;Cañada de Gómez
+am;ካናዳ ደ ጎሜዝ;Cañada de Gómez
+az;Kanada de Gomez;Cañada de Gómez
+fa;کانادا د گومز;Cañada de Gómez
+pa;ਕਨਾਡਾ ਦੇ ਗੋਮੇਜ਼;Cañada de Gómez
+ps;کنیډا ډی ګومز;Cañada de Gómez
+tg;Канада де Гомес;Cañada de Gómez
+tt;Канада де Гомес;Cañada de Gómez
+kk;Кампо-Ларго;Campo Largo
+ky;Кампо-Ларго;Campo Largo
+bn;ক্যাম্পো লার্গো;Campo Largo
+ur;کیمپو لارگو;Campo Largo
+am;ካምፖ ላርጎ;Campo Largo
+fa;کامپو لارگو;Campo Largo
+pa;ਕੈਂਪੋ ਲਾਰਗੋ;Campo Largo
+ps;کامپو لارگو;Campo Largo
+tg;Кампо-Ларго;Campo Largo
+tt;Кампо-Ларго;Campo Largo
+kk;Кампо-Гальо;Campo Gallo
+ky;Кампо-Гальо;Campo Gallo
+bn;ক্যাম্পো গালো;Campo Gallo
+ur;کیمپو گالو;Campo Gallo
+am;ካምፖ ጋሎ;Campo Gallo
+fa;کامپو گالو;Campo Gallo
+pa;ਕੈਂਪੋ ਗੈਲੋ;Campo Gallo
+ps;کامپو گالو;Campo Gallo
+tg;Кампо-Гальо;Campo Gallo
+tt;Кампо-Гальо;Campo Gallo
+lt;Kamaronesas;Camarones
+kk;Камаронес;Camarones
+ky;Камаронес;Camarones
+bn;ক্যামারোনেস;Camarones
+ur;کامارونیس;Camarones
+am;ካማሮንስ;Camarones
+fa;کامارونس;Camarones
+pa;ਕੈਮਰੋਨਸ;Camarones
+ps;کامارونس;Camarones
+tg;Камаронес;Camarones
+tt;Камаронес;Camarones
+fa;کالتا اولیویا;Caleta Olivia
+lt;Kaleta Olivija;Caleta Olivia
+he;קלטה אוליביה;Caleta Olivia
+hy;Կալետա Օլիվիա;Caleta Olivia
+fa;کافایاته;Cafayate
+he;קפזאטה;Cafayate
+lt;Kafajatė;Cafayate
+kk;Качи;Cachi
+ky;Качи;Cachi
+bn;ক্যাচি;Cachi
+ur;کاچی;Cachi
+am;ካቺ;Cachi
+fa;کاچی;Cachi
+pa;ਕਾਚੀ;Cachi
+ps;کاچی;Cachi
+tg;Качи;Cachi
+tt;Качи;Cachi
+kk;Вилья-Буррухаку;Villa Burruyacú
+ky;Вилья-Буррухаку;Villa Burruyacú
+bn;ভিল্লা বুররুয়াকু;Villa Burruyacú
+ur;ویلا بورویاکو;Villa Burruyacú
+am;ቪላ ቡሩያኩ;Villa Burruyacú
+fa;ویلا بوررویاکو;Villa Burruyacú
+pa;ਵਿਲਾ ਬੁਰੂਯਾਕੂ;Villa Burruyacú
+ps;ویلا بورویاکو;Villa Burruyacú
+tg;Вилья-Буррухаку;Villa Burruyacú
+tt;Вилья-Буррухаку;Villa Burruyacú
+kk;Буэна-Эсперанса;Buena Esperanza
+ky;Буэна-Эсперанса;Buena Esperanza
+bn;বুয়েনা এস্পেরান্জা;Buena Esperanza
+ur;بوینا اسپیرانزہ;Buena Esperanza
+am;ቡዋና እስፔራንዛ;Buena Esperanza
+fa;بوئنا اسپرانزا;Buena Esperanza
+pa;ਬੁਏਨਾ ਐਸਪੇਰਾਂਜ਼ਾ;Buena Esperanza
+ps;بوینا اسپیرانزا;Buena Esperanza
+tg;Буэна-Эсперанса;Buena Esperanza
+tt;Буэна-Эсперанса;Buena Esperanza
+kk;Бреа-Позо;Brea Pozo
+ky;Бреа-Позо;Brea Pozo
+bn;ব্রেয়া পোজো;Brea Pozo
+ur;بریا پوزو;Brea Pozo
+am;ብሪያ ፖዞ;Brea Pozo
+fa;بریا پوزو;Brea Pozo
+pa;ਬ੍ਰੇਆ ਪੋਜ਼ੋ;Brea Pozo
+ps;بریا پوزو;Brea Pozo
+tg;Бреа-Позо;Brea Pozo
+tt;Бреа-Позо;Brea Pozo
+fa;براگادو;Bragado
+kk;Брагадо;Bragado
+ky;Брагадо;Bragado
+bn;ব্রাগাডো;Bragado
+ur;براگادو;Bragado
+am;ብራጋዶ;Bragado
+pa;ਬ੍ਰਾਗਾਡੋ;Bragado
+ps;براگادو;Bragado
+tg;Брагадо;Bragado
+tt;Брагадо;Bragado
+kk;Бернасконі;Bernasconi
+ky;Бернасконі;Bernasconi
+bn;বার্নাসকোনি;Bernasconi
+ur;برناسکونی;Bernasconi
+am;በርናስኮኒ;Bernasconi
+fa;برناسکونی;Bernasconi
+pa;ਬਰਨਾਸਕੋਨੀ;Bernasconi
+ps;برناسکونی;Bernasconi
+tg;Бернасконі;Bernasconi
+tt;Бернасконі;Bernasconi
+fa;بل ویل;Bell Ville
+kk;Белл-Віль;Bell Ville
+ky;Белл-Віль;Bell Ville
+bn;বেল ভিল;Bell Ville
+ur;بیل ویل;Bell Ville
+am;ቤል ቪል;Bell Ville
+pa;ਬੇਲ ਵਿਲ;Bell Ville
+ps;بیل ویل;Bell Ville
+tg;Белл-Віль;Bell Ville
+tt;Белл-Віль;Bell Ville
+kk;Белла-Віста;Bella Vista
+ky;Белла-Віста;Bella Vista
+bn;বেলা ভিস্তা;Bella Vista
+pa;ਬੇਲਾ ਵਿਸਟਾ;Bella Vista
+ps;بیلا ویسٹا;Bella Vista
+tg;Белла-Віста;Bella Vista
+tt;Белла-Віста;Bella Vista
+he;בלן;Belén
+lt;Belenas;Belén
+kk;Белен;Belén
+ky;Белен;Belén
+bn;বেলেন;Belén
+ur;بیلن;Belén
+am;በለን;Belén
+fa;بلن;Belén
+pa;ਬੇਲਨ;Belén
+ps;بیلن;Belén
+tg;Белен;Belén
+tt;Белен;Belén
+kk;Бандера;Bandera
+ky;Бандера;Bandera
+bn;বান্ডেরা;Bandera
+ur;بندیرا;Bandera
+am;ባንዴራ;Bandera
+fa;باندرا;Bandera
+pa;ਬੰਡੇਰਾ;Bandera
+ps;بندیرا;Bandera
+tg;Бандера;Bandera
+tt;Бандера;Bandera
+kk;Банда-дель-Ріо-Салі;Banda del Río Salí
+ky;Банда-дель-Ріо-Салі;Banda del Río Salí
+bn;বান্ডা ডেল রিও সালি;Banda del Río Salí
+ur;بندا ڈیل ریو سالی;Banda del Río Salí
+am;ባንዳ ዴል ሪዮ ሳሊ;Banda del Río Salí
+fa;باندا دل ریو سالی;Banda del Río Salí
+pa;ਬੰਡਾ ਡੇਲ ਰੀਓ ਸਾਲੀ;Banda del Río Salí
+ps;بندا ډیل ریو سالي;Banda del Río Salí
+tg;Банда-дель-Ріо-Салі;Banda del Río Salí
+tt;Банда-дель-Ріо-Салі;Banda del Río Salí
+kk;Банадо-де-Ованта;Bañado de Ovanta
+ky;Банадо-де-Ованта;Bañado de Ovanta
+bn;বানাডো ডে ওভান্তা;Bañado de Ovanta
+ur;بنادو ڈے اوانتا;Bañado de Ovanta
+am;ባናዶ ዴ ኦዋንታ;Bañado de Ovanta
+fa;بنادو دی اوانتا;Bañado de Ovanta
+pa;ਬਾਨਾਡੋ ਡੇ ਓਵਾਂਤਾ;Bañado de Ovanta
+ps;بنادو ډې اوانتا;Bañado de Ovanta
+tg;Банадо-де-Ованта;Bañado de Ovanta
+tt;Банадо-де-Ованта;Bañado de Ovanta
+lt;Bahija Blanka;Bahía Blanca
+ka;ბაია-ბლანკა;Bahía Blanca
+os;Баия-Бланкæ;Bahía Blanca
+uk;Баїя-Бланка;Bahía Blanca
+sr;Баија Бланка;Bahía Blanca
+fa;باییا بلانکا;Bahía Blanca
+he;באיה בלנקה;Bahía Blanca
+kk;Баїя-Бланка;Bahía Blanca
+ky;Баїя-Бланка;Bahía Blanca
+bn;বাহিয়া ব্লাঙ্কা;Bahía Blanca
+ur;باہیا بلانکا;Bahía Blanca
+am;ባሂያ ብላንካ;Bahía Blanca
+pa;ਬਾਹੀਆ ਬਲਾਂਕਾ;Bahía Blanca
+ps;باهیا بلانکا;Bahía Blanca
+tg;Баїя-Бланка;Bahía Blanca
+tt;Баїя-Бланка;Bahía Blanca
+gl;Arroyo de La Ventana;Arroyo Ventana
+ca;Arroyo de La Ventana;Arroyo Ventana
+kk;Арресіфес;Arrecifes
+ky;Арресіфес;Arrecifes
+bn;আরেসিফেস;Arrecifes
+ur;ارسیفس;Arrecifes
+am;አረሲፌስ;Arrecifes
+fa;اریسیفس;Arrecifes
+pa;ਅਰੇਸੀਫਸ;Arrecifes
+ps;ارسیفس;Arrecifes
+tg;Арресіфес;Arrecifes
+tt;Арресіфес;Arrecifes
+kk;Аррага;Árraga
+ky;Аррага;Árraga
+bn;আররাগা;Árraga
+ur;اراگا;Árraga
+am;አራጋ;Árraga
+fa;اراگا;Árraga
+pa;ਅਰਾਗਾ;Árraga
+ps;اراگا;Árraga
+tg;Аррага;Árraga
+tt;Аррага;Árraga
+kk;Антофагаста-де-ла-Сьєрра;Antofagasta de la Sierra
+ky;Антофагаста-де-ла-Сьєрра;Antofagasta de la Sierra
+bn;এন্টোফাগাস্তা ডি লা সিয়েরা;Antofagasta de la Sierra
+ur;انتوفاگاستا ڈے لا سیرا;Antofagasta de la Sierra
+am;አንቶፋጋስታ ዴ ላ ሲየራ;Antofagasta de la Sierra
+fa;انتوفاگاستا د لا سیرا;Antofagasta de la Sierra
+pa;ਅੰਤੋਫਾਗਾਸਤਾ ਡੇ ਲਾ ਸਿਏਰਾ;Antofagasta de la Sierra
+ps;انتوفاګاستا د لا سیرا;Antofagasta de la Sierra
+tg;Антофагаста-де-ла-Сьєрра;Antofagasta de la Sierra
+tt;Антофагаста-де-ла-Сьєрра;Antofagasta de la Sierra
+kk;Анело;Añelo
+ky;Анело;Añelo
+bn;আনেলো;Añelo
+ur;انیلو;Añelo
+am;አንኤሎ;Añelo
+fa;انلو;Añelo
+pa;ਅਨੇਲੋ;Añelo
+ps;انیلو;Añelo
+tg;Анело;Añelo
+tt;Анело;Añelo
+kk;Андальгала;Andalgalá
+ky;Андальгала;Andalgalá
+bn;এন্ডালগালা;Andalgalá
+ur;اندالگالا;Andalgalá
+am;አንዳልጋላ;Andalgalá
+fa;اندالگالا;Andalgalá
+pa;ਅੰਡਾਲਗਾਲਾ;Andalgalá
+ps;اندالګالا;Andalgalá
+tg;Андальгала;Andalgalá
+tt;Андальгала;Andalgalá
+kk;Андаколло;Andacollo
+ky;Андаколло;Andacollo
+bn;এন্ডাকোলো;Andacollo
+ur;اندا کولو;Andacollo
+am;አንዳኮሎ;Andacollo
+fa;اندا کولو;Andacollo
+pa;ਅੰਡਾਕੋਲੋ;Andacollo
+ps;اندا کولو;Andacollo
+tg;Андаколло;Andacollo
+tt;Андаколло;Andacollo
+kk;Анкасті;Ancasti
+ky;Анкасті;Ancasti
+bn;এনকাস্তি;Ancasti
+ur;انکاستی;Ancasti
+am;አንካስቲ;Ancasti
+fa;انکاستی;Ancasti
+pa;ਅੰਕਾਸਟੀ;Ancasti
+ps;انکاسټي;Ancasti
+tg;Анкасті;Ancasti
+tt;Анкасті;Ancasti
+kk;Анатуя;Añatuya
+ky;Анатуя;Añatuya
+bn;এনাতুয়া;Añatuya
+ur;انا تویا;Añatuya
+am;አናቱያ;Añatuya
+fa;انا تویا;Añatuya
+pa;ਅਨਾਤੁਯਾ;Añatuya
+ps;انا تويا;Añatuya
+tg;Анатуя;Añatuya
+tt;Анатуя;Añatuya
+fa;امپاسکاجی;Ampascachi
+kk;Амінга;Aminga
+ky;Амінга;Aminga
+bn;আমিঙ্গা;Aminga
+ur;امینگا;Aminga
+am;አሚንጋ;Aminga
+fa;امینگا;Aminga
+pa;ਅਮਿਂਗਾ;Aminga
+ps;امينګا;Aminga
+tg;Амінга;Aminga
+tt;Амінга;Aminga
+kk;Флорентіно-Амегіно;Florentino Ameghino
+ky;Флорентіно-Амегіно;Florentino Ameghino
+bn;ফ্লোরেন্তিনো আমেগিনো;Florentino Ameghino
+ur;فلورینٹینو امیگینو;Florentino Ameghino
+am;ፍሎረንቲኖ አሜጊኖ;Florentino Ameghino
+fa;فلورنتینو امهینو;Florentino Ameghino
+pa;ਫਲੋਰੈਨਟੀਨੋ ਅਮੇਗੀਨੋ;Florentino Ameghino
+ps;فلورنتينو امیغينو;Florentino Ameghino
+tg;Флорентіно-Амегіно;Florentino Ameghino
+tt;Флорентіно-Амегіно;Florentino Ameghino
+fa;امایچا دل وال;Amaicha del Valle
+kk;Алюміне;Aluminé
+ky;Алюміне;Aluminé
+bn;অ্যালুমিন;Aluminé
+ur;الومین;Aluminé
+am;አሉሚን;Aluminé
+fa;الومین;Aluminé
+pa;ਅਲੂਮਿਨ;Aluminé
+ps;الومين;Aluminé
+tg;Алюміне;Aluminé
+tt;Алюміне;Aluminé
+kk;Альто-Ріо-Сенгер;Alto Río Senguer
+ky;Альто-Ріо-Сенгер;Alto Río Senguer
+bn;আল্টো রিও সেনগুয়ার;Alto Río Senguer
+ur;الٹو ریو سینگر;Alto Río Senguer
+am;ኣልቶ ሪዮ ሰንገር;Alto Río Senguer
+fa;الٹو ریو سنگور;Alto Río Senguer
+pa;ਅਲਟੋ ਰੀਓ ਸੇਂਗੁਏਰ;Alto Río Senguer
+ps;الټو ریو سنګر;Alto Río Senguer
+tg;Альто-Ріо-Сенгер;Alto Río Senguer
+tt;Альто-Ріо-Сенгер;Alto Río Senguer
+bg;Алта Грасия;Alta Gracia
+fa;آلتا گراسیا;Alta Gracia
+lt;Alta Grasija;Alta Gracia
+kk;Альта-Грасія;Alta Gracia
+ky;Альта-Грасія;Alta Gracia
+bn;আল্টা গ্রেসিয়া;Alta Gracia
+ur;الٹا گریشیا;Alta Gracia
+am;ኣልታ ግራሲያ;Alta Gracia
+pa;ਅਲਟਾ ਗ੍ਰੇਸੀਆ;Alta Gracia
+ps;الٹا ګریشیا;Alta Gracia
+tg;Альта-Грасія;Alta Gracia
+tt;Альта-Грасія;Alta Gracia
+uk;Альпасінче;Alpasinche
+fa;الپاسینچ;Alpasinche
+fa;الین، ریو نگرو;Allen
+kk;Алгарробо-дель-Агіла;Algarrobo del Águila
+ky;Алгарробо-дель-Агіла;Algarrobo del Águila
+bn;এলগারোবো ডেল আগুইলা;Algarrobo del Águila
+ur;الگاروبو ڈیل اگیلا;Algarrobo del Águila
+am;አልጋሮቦ ዴል አጊላ;Algarrobo del Águila
+fa;الگاروبو دل اگیلا;Algarrobo del Águila
+pa;ਅਲਗਰੋਬੋ ਡੇਲ ਅਗੁਇਲਾ;Algarrobo del Águila
+ps;الګاروبو ډیل اګیلا;Algarrobo del Águila
+tg;Алгарробо-дель-Агіла;Algarrobo del Águila
+tt;Алгарробо-дель-Агіла;Algarrobo del Águila
+fa;الدیا پروتستانت;Aldea Protestante
+kk;Альберти;Alberti
+ky;Альберти;Alberti
+bn;আলবার্তি;Alberti
+ur;البرٹی;Alberti
+am;አልበርቲ;Alberti
+fa;آلبرتی;Alberti
+pa;ਅਲਬਰਟੀ;Alberti
+ps;البرتي;Alberti
+tg;Алберти;Alberti
+tt;Альберти;Alberti
+kk;Аймогаста;Aimogasta
+ky;Аймогаста;Aimogasta
+bn;আইমোগাস্তা;Aimogasta
+ur;ایموگاسٹا;Aimogasta
+am;አይሞጋስታ;Aimogasta
+fa;ایموگاستا;Aimogasta
+pa;ਐਮੋਗਾਸਤਾ;Aimogasta
+ps;ايموگاستا;Aimogasta
+tg;Аймогаста;Aimogasta
+tt;Аймогаста;Aimogasta
+kk;Агиларес;Aguilares
+ky;Агиларес;Aguilares
+bn;আগুইলারেস;Aguilares
+ur;ایگیلاریس;Aguilares
+am;አጉይላሬስ;Aguilares
+fa;آگیلاریس;Aguilares
+pa;ਅਗੁਇਲਾਰੇਸ;Aguilares
+ps;اګيلاريس;Aguilares
+tg;Агиларес;Aguilares
+tt;Агиларес;Aguilares
+fa;اگوادا دو گرو;Aguada de Guerra
+ur;اگوادا د گرا;Aguada de Guerra
+fa;اگوادا سسیلیو;Aguada Cecilio
+ur;اگوادا سیسیلیو;Aguada Cecilio
+kk;Адольфо Гонсалес Чавес;Adolfo Gonzáles Chaves
+ky;Адольфо Гонсалес Чавес;Adolfo Gonzáles Chaves
+bn;এডোলফো গোনজালেস চাভেস;Adolfo Gonzáles Chaves
+ur;ایڈولفو گونزالیس چاویز;Adolfo Gonzáles Chaves
+am;adolfo ጎንዛሌስ ቻቬስ;Adolfo Gonzáles Chaves
+fa;آدولفو گونزالس چاویس;Adolfo Gonzáles Chaves
+pa;ਅਡੋਲਫੋ ਗੋਂਜ਼ਾਲੇਸ ਚਾਵੇਜ਼;Adolfo Gonzáles Chaves
+ps;ادولفو گونزالس چاويز;Adolfo Gonzáles Chaves
+tg;Адольфо Гонсалес Чавес;Adolfo Gonzáles Chaves
+tt;Адольфо Гонсалес Чавес;Adolfo Gonzáles Chaves
+kk;Абра Памpa;Abra Pampa
+ky;Абра Памpa;Abra Pampa
+bn;আব্রা পাম্পা;Abra Pampa
+ur;ابرا پامپا;Abra Pampa
+am;አብራ ፓምፓ;Abra Pampa
+fa;ابرا پامپا;Abra Pampa
+pa;ਅਬਰਾ ਪਾਂਪਾ;Abra Pampa
+ps;ابرا پامپا;Abra Pampa
+tg;Абра Памpa;Abra Pampa
+tt;Абра Памpa;Abra Pampa
+lt;El Čaltenas;El Chaltén
+os;Эль-Чалтен;El Chaltén
+fa;لا کامبرسیتا;La Cumbrecita
+ur;لا کومبریسیتا;La Cumbrecita
+fa;کاریلو;Cariló
+fa;وییا مرسدس;Villa Mercedes
+lt;Vilja Mersedesas;Villa Mercedes
+sr;Виља Мерседес;Villa Mercedes
+he;ויזה מרסדס;Villa Mercedes
+ka;ვილია-მერსედესი;Villa Mercedes
+bg;Авелянеда;Avellaneda
+fa;آویاندا;Avellaneda
+he;אבזאנדה;Avellaneda
+ka;აველიანედა;Avellaneda
+lt;Aveljaneda;Avellaneda
+sr;Авељанеда;Avellaneda
+uk;Авельянеда;Avellaneda
+kk;Авельянеда;Avellaneda
+ky;Авельянеда;Avellaneda
+bn;এভেলানেডা;Avellaneda
+ur;ایولانیڈا;Avellaneda
+am;አቬላኔዳ;Avellaneda
+pa;ਅਵੇਲਾਨੇਡਾ;Avellaneda
+ps;اويلانيدا;Avellaneda
+tg;Авельянеда;Avellaneda
+tt;Авельянеда;Avellaneda
+fa;ویلا مارتلی;Villa Martelli
+fa;وییا آدلینا;Villa Adelina
+uk;Вілья-Аделіна;Villa Adelina
+fa;سان میگوئل;San Miguel
+sr;Сан Мигел;San Miguel
+uk;Лас-Грутас;Las Grutas
+lt;San Karlos de Bariločė;San Carlos de Bariloche
+uk;Сан-Карлос-де-Барілоче;San Carlos de Bariloche
+fa;باریلوچه;San Carlos de Bariloche
+is;Bariloche;San Carlos de Bariloche
+he;בארילוצה;San Carlos de Bariloche
+af;Bariloche;San Carlos de Bariloche
+bg;Сан Карлос де Барилоче;San Carlos de Bariloche
+pl;Bariloche;San Carlos de Bariloche
+ckb;باریلۆچی;San Carlos de Bariloche
+hy;Սան Կառլոս դե Բարիլոչե;San Carlos de Bariloche
+ka;სან-კარლოს-დე-ბარილოჩე;San Carlos de Bariloche
+fa;مورنو;Moreno
+hy;Մորենո;Moreno
+ka;მორენო;Moreno
+sr;Морено;Moreno
+uk;Адроге;Adrogué
+az;Adroge;Adrogué
+fa;آدروگو;Adrogué
+kk;Толуин;Tolhuin
+ky;Толуин;Tolhuin
+bn;টোলহুইন;Tolhuin
+ur;ٹولہوین;Tolhuin
+am;ቶልሁዊን;Tolhuin
+fa;تولهوئین;Tolhuin
+pa;ਟੋਲਹੁਇਨ;Tolhuin
+ps;تولهوین;Tolhuin
+tg;Толуин;Tolhuin
+tt;Толуин;Tolhuin
+kk;Ринкон де Лос Саусес;Rincón de Los Sauces
+ky;Ринкон де Лос Саусес;Rincón de Los Sauces
+bn;রিনকন ডে লস সাউসেস;Rincón de Los Sauces
+ur;رنکون ڈے لوس ساوسز;Rincón de Los Sauces
+am;ሪንኮን ዴ ሎስ ሳውሴስ;Rincón de Los Sauces
+fa;رینکون د لوس ساوسس;Rincón de Los Sauces
+pa;ਰਿਨਕੋਨ ਡੇ ਲੋਸ ਸਾਊਸੇਸ;Rincón de Los Sauces
+ps;رينکون ډي لوس ساوسز;Rincón de Los Sauces
+tg;Ринкон де Лос Саусес;Rincón de Los Sauces
+tt;Ринкон де Лос Саусес;Rincón de Los Sauces
+kk;Хосе К. Пас;José C. Paz
+ky;Хосе К. Пас;José C. Paz
+bn;জোসে সি. পাজ;José C. Paz
+ur;جوسے سی پاز;José C. Paz
+am;ሆሴ ሲ. ፓዝ;José C. Paz
+fa;خوسه سی پاز;José C. Paz
+pa;ਜੋਸੇ ਸੀ. ਪਾਜ਼;José C. Paz
+ps;جوسې سی پاز;José C. Paz
+tg;Хосе К. Пас;José C. Paz
+tt;Хосе К. Пас;José C. Paz
+kk;Ла Колония;La Colonia
+ky;Ла Колония;La Colonia
+bn;লা কোলোনিয়া;La Colonia
+ur;لا کولونیا;La Colonia
+am;ላ ኮሎኒያ;La Colonia
+fa;لا کولونیا;La Colonia
+pa;ਲਾ ਕੋਲੋਨੀਆ;La Colonia
+ps;لا کولونیا;La Colonia
+tg;Ла Колония;La Colonia
+tt;Ла Колония;La Colonia
+mk;База Оркадас;Orcadas Base
+mk;Оркадас;Orcadas Base
+lv;Orkadasa;Orcadas Base
+tr;Orcadas Üssü;Orcadas Base
+el;Βάση Ορκάδας;Orcadas Base
+hu;Orcadas kutatóállomás;Orcadas Base
+nn;Orcadas-Basen;Orcadas Base
+ro;Baza Orcadas;Orcadas Base
+id;Pangkalan Orkadas;Orcadas Base
+pl;Stacja Badawcza Antarktyczna Arctowskiego;Arctowski Station
+pl;Stacja Antarktyczna Arctowskiego;Arctowski Station
+pl;Polska Stacja Antarktyczna im. Henryka Arctowskiego;Arctowski Station
+uk;Арцтовський;Arctowski Station
+lv;Arctovski;Arctowski Station
+nn;Henryk Arctowski-Stasjonen;Arctowski Station
+fi;Henryk Arctowskin tutkimusasema;Arctowski Station
+uk;Артігас;General Artigas
+hr;Istraživačka baza Artigas;General Artigas
+lv;Artigasa;General Artigas
+ne;Artigas-Basis;General Artigas
+nn;Artigas-Basen;General Artigas
+mk;База Капетан Артуро Прат;Arturo Prat Base
+mk;Капетан Артуро Прат;Arturo Prat Base
+uk;Капітан Артуро Прат;Arturo Prat Base
+lv;Arturoprata;Arturo Prat Base
+fi;Arturo Pratin asema;Arturo Prat Base
+el;Βάση Μπελγράνο II;Belgrano II Base
+hu;Belgrano II kutatóállomás;Belgrano II Base
+nn;Belgrano II-basen;Belgrano II Base
+fi;General Belgrano II;Belgrano II Base
+bg;Белингсхаузен;Bellingshausen Station
+uk;Беллінсгаузен;Bellingshausen Station
+cv;Беллинсгаузен;Bellingshausen Station
+az;Bellinshauzen;Bellingshausen Station
+lv;Belinshauzena;Bellingshausen Station
+lt;Belinshauzeno stotis;Bellingshausen Station
+nn;Bellingshausen-stasjonen;Bellingshausen Station
+tr;Bellingshausen İstasyonu;Bellingshausen Station
+mk;База Карлини;Carlini Base
+mk;Карлини;Carlini Base
+lv;Karlini;Carlini Base
+lij;Bâze Carlini;Carlini Base
+hu;Carlini kutatóállomás;Carlini Base
+nn;Carlini-Stasjonen;Carlini Base
+uk;Команданте Ферраз;Comandante Ferraz
+lv;Komandanteferrasa;Comandante Ferraz
+mk;Командант Фераз;Comandante Ferraz
+mk;Антарктичката станица Командант Фераз;Comandante Ferraz
+tr;Comandante Ferraz Antarktika İstasyonu;Comandante Ferraz
+az;Komandante Ferras;Comandante Ferraz
+nn;Comandante Ferraz-Basen;Comandante Ferraz
+cs;Výzkumná stanice Eco Nelson;Eco-Nelson
+lv;Ekonelsona;Eco-Nelson
+uk;Професор Хуліо Ескудеро;Julio Escudero Station
+lv;Hulioeskudero;Julio Escudero Station
+nn;Profesor Julio Escudero-basen;Julio Escudero Station
+vi;Trạm Trường Thành;Great Wall Station
+mk;Антарктички Голем Ѕид;Great Wall Station
+mk;Станица Антарктички Голем Ѕид;Great Wall Station
+uk;Великий мур;Great Wall Station
+tr;Çin Seddi İstasyonu;Great Wall Station
+az;Böyük sədd;Great Wall Station
+lv;Čančena;Great Wall Station
+nn;Great Wall-stasjonen;Great Wall Station
+pl;Wielki Mur;Great Wall Station
+ta;அண்டார்க்டிக்கா பெருஞ்சுவர் ஆய்வுக்கூடம்;Great Wall Station
+uk;Сан-Мартін;San Martín Base
+mk;Сан Мартин;San Martín Base
+lv;Sanmartina;San Martín Base
+nn;San Martin-Basen;San Martín Base
+fa;پایگاه پژوهشی ورندسکی;Vernadsky Research Base
+uk;Академік Вернадський;Vernadsky Research Base
+be;Акадэмік Вярнадскі;Vernadsky Research Base
+lv;Vernadska;Vernadsky Research Base
+mk;Вернадски;Vernadsky Research Base
+tr;Akademik Vernadski;Vernadsky Research Base
+no;Vernadskij;Vernadsky Research Base
+nn;Vernadskij-stasjonen;Vernadsky Research Base
+pl;Wiernadski;Vernadsky Research Base
+sl;Raziskovalna baza Vernadski;Vernadsky Research Base
+hy;Ակադեմիկոս Վերնադսկի;Vernadsky Research Base
+id;Pangkalan Penelitian Vernadsky;Vernadsky Research Base
+fa;پایگاه هوایی مارامبیو;Marambio Base
+mk;Марамбио;Marambio Base
+uk;Марамбіо;Marambio Base
+fa;ایستگاه سجونگ کبیر;King Sejong Station
+uk;Король Седжон;King Sejong Station
+lv;Sedžona;King Sejong Station
+nn;King Sejong-stasjonen;King Sejong Station
+uk;Браун;Brown Station
+eu;Brown Basea;Brown Station
+lv;Brauna;Brown Station
+hu;Brown kutatóállomás;Brown Station
+nn;Almirante Brown-basen;Brown Station
+lv;Kamara;Camara Base
+hu;Cámara kutatóállomás;Camara Base
+nn;Cámara-basen;Camara Base
+lv;Karvahala;Teniente Luis Carvajal Villaroel Antarctic Base
+nn;Teniente Luis Carvajal Villaroel-basen;Teniente Luis Carvajal Villaroel Antarctic Base
+lv;Dalmana;Dallmann Laboratory
+mk;Дисепшен;Deception Station
+lv;Desepsjona;Deception Station
+hu;Decepción kutatóállomás;Deception Station
+mk;Антарктичката научна станица Руперто Еличирибехети;Ruperto Elichiribehety Antarctic Scientific Station
+mk;Руперто Еличирибехети;Ruperto Elichiribehety Antarctic Scientific Station
+mk;Еличирибехети;Ruperto Elichiribehety Antarctic Scientific Station
+mk;Базата Габриел де Кастиља;Gabriel de Castilla Base
+mk;Габриел де Кастиља;Gabriel de Castilla Base
+uk;Габріель де Кастилья;Gabriel de Castilla Base
+eu;Gabriel de Castilla Basea;Gabriel de Castilla Base
+lv;Gabrjela de Kastilja;Gabriel de Castilla Base
+no;Base Antártica Gabriel de Castilla;Gabriel de Castilla Base
+lv;Giljermomanna;Doctor Guillermo Mann Base
+mk;Хуан Карлос I;Juan Carlos I Antarctic Base
+ca;Base Antàrtica Joan Carles I;Juan Carlos I Antarctic Base
+eu;Juan Carlos I.a antartikar basea;Juan Carlos I Antarctic Base
+lv;Huankarlosa I;Juan Carlos I Antarctic Base
+nn;Juan Carlos I-basen;Juan Carlos I Antarctic Base
+pl;Ripamonti;Julio Ripamonti Base
+lv;Hulioripamonti;Julio Ripamonti Base
+lv;Pīterlenī;Captain Pieter J. Lenie Base
+nn;Maldonado-Basen;Maldonado Base
+mk;Матиенцо;Lieutenant Benjamín Matienzo Air Base
+lv;Matjenso;Lieutenant Benjamín Matienzo Air Base
+lv;Melhiora;Melchior Base
+hu;Melchior kutatóállomás;Melchior Base
+cs;Česká vědecká stanice Johanna Gregora Mendela;Mendel Polar Station
+mk;Мендел;Mendel Polar Station
+lv;Mendela;Mendel Polar Station
+fa;ایستگاه قطبی مندل;Mendel Polar Station
+eu;Mendel polo estazioa;Mendel Polar Station
+cs;Mendelova polární stanice;Mendel Polar Station

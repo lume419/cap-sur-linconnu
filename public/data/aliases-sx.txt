@@ -5,3 +5,23 @@ ko;필립스뷔르흐;Philipsburg
 zh;菲利普斯堡;Philipsburg
 ar;فيليبسبورج;Philipsburg
 ru;Лоуэр-Принс-Куотер;Lower Prince’s Quarter
+be;Філіпсбург;Philipsburg
+bg;Филипсбург;Philipsburg
+el;Φίλιπσμπουργκ;Philipsburg
+fa;فیلیپسبورگ، سینت مارتن;Philipsburg
+ka;ფილიპსბურგი;Philipsburg
+lt;Filipsburgas;Philipsburg
+sr;Филипсбург;Philipsburg
+ta;பிலிப்சுபர்கு;Philipsburg
+th;ฟิลิปส์บืร์ค;Philipsburg
+uk;Філіпсбург;Philipsburg
+ur;فلپسبرگ;Philipsburg
+lv;Filipsburga;Philipsburg
+hy;Ֆիլիպսբուրգ;Philipsburg
+mk;Филипсбург;Philipsburg
+az;Filipsburq;Philipsburg
+os;Филипсбург;Philipsburg
+he;פיליפסבורג;Philipsburg
+fa;لوئر پرنس کوارٹر;Lower Prince’s Quarter
+lt;Louer Prins Kvoteris;Lower Prince’s Quarter
+hy;Լոուր Պրինսես Քուաթր;Lower Prince’s Quarter

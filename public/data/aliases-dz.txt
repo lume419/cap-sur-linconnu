@@ -672,3 +672,929 @@ ar;دلدول;Deldoul
 ar;طالمين;Talmine
 ar;بئر لبيض;Bir Labied
 en;Bir Labiadh;Bir Labied
+kk;Бумердас;Boumerdas
+ky;Бумердас;Boumerdas
+hi;बौमर्दास;Boumerdas
+bn;বুমেরদাস;Boumerdas
+ur;بومرداس;Boumerdas
+am;ቦውመርዳስ;Boumerdas
+fa;بومرداس;Boumerdas
+ja;ブムルダス;Boumerdas
+pa;ਬੌਮਰਦਾਸ;Boumerdas
+ps;بومرداس;Boumerdas
+tg;Бумердас;Boumerdas
+tt;Бумердас;Boumerdas
+pl;Zaghamra;Zerhamra
+fa;زلفانه;Zelfana
+fa;وادی شرفاء;Oued Chorfa
+fa;تقورت، الجزایر;Touggourt
+ja;トゥーグラ;Touggourt
+kk;Туггурт қаласы;Touggourt
+ko;투구르트;Touggourt
+lt;Tugurtas;Touggourt
+pl;Tukkurt;Touggourt
+zh;图古尔特;Touggourt
+ky;Туггурт;Touggourt
+hi;तौग्गौर्ट;Touggourt
+bn;তৌগ্গৌর্ট;Touggourt
+ur;تقرت;Touggourt
+am;ቶውግጉርት;Touggourt
+pa;ਤੌਗ੍ਗੌਰਤ;Touggourt
+ps;تقرت;Touggourt
+tg;Туггурт;Touggourt
+tt;Туггурт;Touggourt
+pl;Tilimsan;Tlemcen
+ca;Tilimsen;Tlemcen
+fa;تلمسان;Tlemcen
+ja;トレムセン;Tlemcen
+mk;Тлемсен;Tlemcen
+th;ตเลมเซน;Tlemcen
+sw;Wilaya ya Tlemcen;Tlemcen
+ko;틀렘센;Tlemcen
+nah;Tremecen;Tlemcen
+ur;تلمسان;Tlemcen
+lt;Tlemsenas;Tlemcen
+uk;Тлемсен;Tlemcen
+eu;Tilimsen;Tlemcen
+he;תלמסאן;Tlemcen
+be;Тлемсен;Tlemcen
+kk;Тлемсен қаласы;Tlemcen
+zh;特莱姆森;Tlemcen
+ky;Тлемсен;Tlemcen
+hi;त्लेमसेन;Tlemcen
+bn;ত্লেমসেন;Tlemcen
+am;ትለምሴን;Tlemcen
+az;Tlemsen;Tlemcen
+pa;ਤ੍ਲੇਮਸੇਨ;Tlemcen
+ps;تلمسان;Tlemcen
+tg;Тлемсен;Tlemcen
+tt;Тлемсен;Tlemcen
+mk;Тизи Узу;Tizi Ouzou
+pl;Tizi Wuzu;Tizi Ouzou
+ko;티지우주;Tizi Ouzou
+fa;تیزی وزو;Tizi Ouzou
+zh;提济乌祖;Tizi Ouzou
+kk;Тизи-Узу;Tizi Ouzou
+ky;Тизи-Узу;Tizi Ouzou
+hi;तिजी उजु;Tizi Ouzou
+bn;তিজি ওউজু;Tizi Ouzou
+ur;تيزي وزو;Tizi Ouzou
+am;ቲዚ ኦውዙ;Tizi Ouzou
+az;Tizi Uzou;Tizi Ouzou
+ja;ティジ・ウズー;Tizi Ouzou
+pa;ਤਿਜ਼ੀ ਓਜ਼ੂ;Tizi Ouzou
+ps;تيزي وزو;Tizi Ouzou
+tg;Тизи-Узу;Tizi Ouzou
+tt;Тизи-Узу;Tizi Ouzou
+kk;Тиссемсилт;Tissemsilt
+ky;Тиссемсилт;Tissemsilt
+hi;तिस्सेमसिल्ट;Tissemsilt
+bn;টিস্সেমসিল্ট;Tissemsilt
+ur;تسمسيلت;Tissemsilt
+am;ቲሰምሲልት;Tissemsilt
+fa;تسمسيلت;Tissemsilt
+ja;ティセムシルト;Tissemsilt
+pa;ਤਿਸੇਮਸਿਲਤ;Tissemsilt
+ps;تسمسيلت;Tissemsilt
+tg;Тиссемсилт;Tissemsilt
+tt;Тиссемсилт;Tissemsilt
+pl;Tipaza;Tipasa
+ro;Tipaza;Tipasa
+fa;تی‌پازه;Tipasa
+he;תיפאזה;Tipasa
+hu;Tipáza;Tipasa
+ja;ティパサ;Tipasa
+ka;ტიპასა;Tipasa
+ko;티파자;Tipasa
+uk;Тіпаза;Tipasa
+zh;提帕薩;Tipasa
+ky;Типаса;Tipasa
+ne;तिपजा;Tipasa
+ur;تیبازہ;Tipasa
+kk;Типаза;Tipasa
+hi;तिपासा;Tipasa
+bn;টিপাসা;Tipasa
+am;ቲፓሳ;Tipasa
+pa;ਤਿਪਾਸਾ;Tipasa
+ps;تيباسة;Tipasa
+tg;Типаза;Tipasa
+tt;Типаза;Tipasa
+id;Provinsi Tindouf;Tindouf
+pl;Tinduf;Tindouf
+cs;Tindúf;Tindouf
+eu;Tinduf;Tindouf
+fa;تندوف;Tindouf
+ja;ティンドゥフ;Tindouf
+ko;틴두프;Tindouf
+lt;Tindufas;Tindouf
+sr;Тиндуф;Tindouf
+zh;廷杜夫;Tindouf
+kk;Тиндуф;Tindouf
+ky;Тиндуф;Tindouf
+hi;तिंदौफ;Tindouf
+bn;টিন্ডৌফ;Tindouf
+ur;تندوف;Tindouf
+am;ቲንዶፍ;Tindouf
+pa;ਤਿਨਦੌਫ;Tindouf
+ps;تندوف;Tindouf
+tg;Тиндуф;Tindouf
+tt;Тиндуф;Tindouf
+kk;Тимимун;Timimoun
+ky;Тимимун;Timimoun
+hi;तिमिमौन;Timimoun
+bn;টিমিমৌন;Timimoun
+ur;تيميمون;Timimoun
+am;ቲሚሙን;Timimoun
+fa;تیمیمون;Timimoun
+ja;ティミムン;Timimoun
+pa;ਤਿਮਿਮੌਨ;Timimoun
+ps;تيميمون;Timimoun
+tg;Тимимун;Timimoun
+tt;Тимимун;Timimoun
+he;תימגאד;Timgad
+ja;ティムガッド;Timgad
+ka;ტიმგადი;Timgad
+lt;Timgadas;Timgad
+ml;ടിംഗാഡ്;Timgad
+sr;Тимгад;Timgad
+uk;Тімгад;Timgad
+fa;تیارت;Tiaret
+kk;Тиарет;Tiaret
+lt;Tiaretas;Tiaret
+uk;Тіарет;Tiaret
+pl;Tijarat;Tiaret
+zh;提亚雷特;Tiaret
+ky;Тиарет;Tiaret
+hi;तियारेट;Tiaret
+bn;টিয়ারেট;Tiaret
+ur;تيارت;Tiaret
+am;ቲያሬት;Tiaret
+ja;ティアレト;Tiaret
+pa;ਤਿਆਰੇਟ;Tiaret
+ps;تيارت;Tiaret
+tg;Тиарет;Tiaret
+tt;Тиарет;Tiaret
+pl;Tibissa;Tébessa
+fa;تبسه، الجزایر;Tébessa
+kk;Тебесса қаласы;Tébessa
+lt;Tebesa;Tébessa
+zh;泰贝萨;Tébessa
+ky;Тебесса;Tébessa
+hi;तेबेस्सा;Tébessa
+bn;তেবেস্সা;Tébessa
+ur;تبسة;Tébessa
+am;ተበሳ;Tébessa
+ja;テベッサ;Tébessa
+pa;ਤੇਬੇਸਾ;Tébessa
+ps;تبسة;Tébessa
+tg;Тебесса;Tébessa
+tt;Тебесса;Tébessa
+ms;Tabalbala;Tabelbala
+fa;سوق اثنین;Souk et Tenine
+fa;سوق اهراس، الجزایر;Souk Ahras
+hu;Szúk Ahrász;Souk Ahras
+lt;Suk Ahrasas;Souk Ahras
+nds;Souq Ahras;Souk Ahras
+pl;Suk Ahras;Souk Ahras
+zh;苏格艾赫拉斯;Souk Ahras
+ko;수크아라스;Souk Ahras
+uk;Сук-Ахрас;Souk Ahras
+ur;سوق اہراس;Souk Ahras
+kk;Сук-Ахрас;Souk Ahras
+ky;Сук-Ахрас;Souk Ahras
+hi;सौक अहरास;Souk Ahras
+bn;সৌক আহরাস;Souk Ahras
+am;ሶክ አህራስ;Souk Ahras
+az;Suk Aharas;Souk Ahras
+ja;スーク・アハラス;Souk Ahras
+pa;ਸੌਕ ਅਹਰਾਸ;Souk Ahras
+ps;سوق أهراس;Souk Ahras
+tg;Сук-Ахрас;Souk Ahras
+tt;Сук-Ахрас;Souk Ahras
+pl;Sukajkida;Skikda
+mk;Скикда;Skikda
+be;Скікда;Skikda
+bg;Скикда;Skikda
+bn;স্কিকদা;Skikda
+kk;Скикда қаласы;Skikda
+ko;스킥다;Skikda
+uk;Скікда;Skikda
+zh;斯基克达;Skikda
+ky;Скикда;Skikda
+hi;स्किकदा;Skikda
+ur;سكيكدة;Skikda
+am;ስኪክዳ;Skikda
+fa;سکیکده;Skikda
+ja;スキクダ;Skikda
+pa;ਸਕਿਕਦਾ;Skikda
+ps;سكيكدة;Skikda
+tg;Скикда;Skikda
+tt;Скикда;Skikda
+fa;سیدی صافی;Sidi Safi
+bg;Сиди Бел Абес;Sidi Bel Abbes
+mk;Сиди Бел Абес;Sidi Bel Abbes
+pl;Sidi Bu-l-Abbas;Sidi Bel Abbes
+be;Сіды-Бель-Абес;Sidi Bel Abbes
+he;סידי בל-עבאס;Sidi Bel Abbes
+id;Sidi Bilabbas;Sidi Bel Abbes
+kk;Сиди-Бель-Аббес қаласы;Sidi Bel Abbes
+lt;Sidi bel Abesas;Sidi Bel Abbes
+zh;西迪贝勒阿巴斯;Sidi Bel Abbes
+fa;سیدی بلعباس، الجزایر;Sidi Bel Abbes
+ko;시디벨아베스;Sidi Bel Abbes
+uk;Сіді-Бель-Аббес;Sidi Bel Abbes
+ky;Сиди-Бель-Аббес;Sidi Bel Abbes
+hi;सिदी बेल अब्बास;Sidi Bel Abbes
+bn;সিদী বেল আব্বেস;Sidi Bel Abbes
+ur;سيدي بلعباس;Sidi Bel Abbes
+am;ሲዲ ቤል ዓባስ;Sidi Bel Abbes
+az;Sidi Bel Abbas;Sidi Bel Abbes
+ja;シディ・ベル・アッバス;Sidi Bel Abbes
+pa;ਸਿਦੀ ਬੇਲ ਅੱਬਾਸ;Sidi Bel Abbes
+ps;سيدي بلعباس;Sidi Bel Abbes
+tg;Сиди-Бель-Аббес;Sidi Bel Abbes
+tt;Сиди-Бель-Аббес;Sidi Bel Abbes
+pl;Satif;Sétif
+mk;Сетиф;Sétif
+ko;세티프;Sétif
+bg;Сетиф;Sétif
+be;Сетыф;Sétif
+kk;Сетиф қаласы;Sétif
+id;Sathif;Sétif
+ja;セティフ;Sétif
+ca;Sitifis;Sétif
+lt;Setifas;Sétif
+uk;Сетіф;Sétif
+zh;塞提夫;Sétif
+he;סטיף;Sétif
+ky;Сетиф;Sétif
+hi;सेतिफ;Sétif
+bn;সেতিফ;Sétif
+ur;سطيف;Sétif
+am;ሴቲፍ;Sétif
+fa;ستیف;Sétif
+pa;ਸੇਤਿਫ;Sétif
+ps;سطيف;Sétif
+tg;Сетиф;Sétif
+tt;Сетиф;Sétif
+fa;سعیده، الجزایر;Saïda
+ja;サイダ;Saïda
+ko;사이다;Saïda
+uk;Саїда;Saïda
+ur;سعیدہ، الجزائر;Saïda
+pl;Sa’ida;Saïda
+zh;塞伊达;Saïda
+kk;Саида;Saïda
+ky;Саида;Saïda
+hi;साइदा;Saïda
+bn;সাইদা;Saïda
+am;ሳይዳ;Saïda
+pa;ਸਾਇਦਾ;Saïda
+ps;سعيدة;Saïda
+tg;Саида;Saïda
+tt;Саида;Saïda
+pl;Prowincja Relizane;Relizane
+fa;غلیزان;Relizane
+kk;Релизан;Relizane
+ky;Релизан;Relizane
+hi;रेलिजेन;Relizane
+bn;রেলিজেন;Relizane
+ur;غليزان;Relizane
+am;ረሊዛን;Relizane
+az;Relizan;Relizane
+ja;レリザン;Relizane
+pa;ਰੇਲਿਜੇਨ;Relizane
+ps;غليزان;Relizane
+tg;Релизан;Relizane
+tt;Релизан;Relizane
+zh;艾因茲瓦耶;Aïn Zaouïa
+fa;عین زاویه;Aïn Zaouïa
+kk;Умм-эль-Бувайи;Oum el Bouaghi
+ky;Умм-эль-Бувайи;Oum el Bouaghi
+hi;उम एल बुआघी;Oum el Bouaghi
+bn;ওম এল বুয়াগি;Oum el Bouaghi
+ur;أم البواقي;Oum el Bouaghi
+am;ኦም ኤል ቦዋጊ;Oum el Bouaghi
+az;Umm el Buvayi;Oum el Bouaghi
+fa;ام البواقی;Oum el Bouaghi
+ja;ウム・エル・ブアギ;Oum el Bouaghi
+pa;ਓਮ ਏਲ ਬੁਆਘੀ;Oum el Bouaghi
+ps;أم البواقي;Oum el Bouaghi
+tg;Умм-эль-Бувайи;Oum el Bouaghi
+tt;Умм-эль-Бувайи;Oum el Bouaghi
+kk;Улед-Джеллаль;Ouled Djellal
+ky;Улед-Джеллаль;Ouled Djellal
+hi;ओउलेद जेल्लाल;Ouled Djellal
+bn;ওউলেদ জেলাল;Ouled Djellal
+ur;أولاد جلال;Ouled Djellal
+am;ዖለድ ጃላል;Ouled Djellal
+az;Oulad Jellal;Ouled Djellal
+fa;اولاد جلال;Ouled Djellal
+ja;ウレド・ジェラル;Ouled Djellal
+pa;ਓਲੇਦ ਜੇਲਾਲ;Ouled Djellal
+ps;أولاد جلال;Ouled Djellal
+tg;Улед-Джеллаль;Ouled Djellal
+tt;Улед-Джеллаль;Ouled Djellal
+fa;عفران;Oufrane
+fa;وادی سمار;Oued Smar
+ur;وادی سمار;Oued Smar
+fa;وادی سلی;Oued Sly
+ur;وادی سلی;Oued Sly
+fa;وادی غیر;Oued Ghir
+fa;وادی عنب;Oued el Aneb
+pl;Warkala;Ouargla
+fa;ورقله، الجزایر;Ouargla
+ja;ワルグラ;Ouargla
+kk;Уаргла қаласы;Ouargla
+ko;우아르글라;Ouargla
+lt;Uargla;Ouargla
+th;วาร์กลา;Ouargla
+zh;瓦尔格拉;Ouargla
+ky;Уаргла;Ouargla
+hi;वारग्ला;Ouargla
+bn;ওয়ার্গলা;Ouargla
+ur;ورقلة;Ouargla
+am;ዋርግላ;Ouargla
+az;Varcla;Ouargla
+pa;ਵਾਰਗਲਾ;Ouargla
+ps;ورقلة;Ouargla
+tg;Уаргла;Ouargla
+tt;Уаргла;Ouargla
+ca;Orà;Oran
+he;אוראן;Oran
+mk;Оран;Oran
+ka;ორანი;Oran
+ce;Оран;Oran
+kk;Оран қаласы;Oran
+uk;Оран;Oran
+fa;وهران، الجزایر;Oran
+sr;Оран;Oran
+ko;오랑;Oran
+bg;Оран;Oran
+th;ออราน;Oran
+ja;オラン;Oran
+lt;Oranas;Oran
+bn;ওরান;Oran
+ckb;وەھران;Oran
+zh;瓦赫蘭;Oran
+be;Аран;Oran
+el;Οράν;Oran
+lv;Orāna;Oran
+mn;Оран;Oran
+pa;ਵਹਿਰਾਨ;Oran
+ky;Оран;Oran
+hi;ओरान;Oran
+ur;وهران;Oran
+am;ኦራን;Oran
+ps;وهران;Oran
+tg;Оран;Oran
+tt;Оран;Oran
+kk;Наама;Naama
+ky;Наама;Naama
+hi;नामा;Naama
+bn;নামা;Naama
+ur;النعامة;Naama
+am;ናዓማ;Naama
+fa;النعامه;Naama
+ja;ナアマ;Naama
+pa;ਨਾਮਾ;Naama
+ps;النعامة;Naama
+tg;Наама;Naama
+tt;Наама;Naama
+kk;Мсила;M'Sila
+ky;Мсила;M'Sila
+hi;एम'सिला;M'Sila
+bn;এম'সিলা;M'Sila
+ur;المسيلة;M'Sila
+am;ሞሲላ;M'Sila
+fa;مسیله;M'Sila
+ja;ムシラ;M'Sila
+pa;ਐੱਮ'ਸਿਲਾ;M'Sila
+ps;المسيلة;M'Sila
+tg;Мсила;M'Sila
+tt;Мсила;M'Sila
+fa;مولای العربی;Moulay Larbi
+ur;مولای العربی;Moulay Larbi
+pl;Mustaghanam;Mostaganem
+fa;مستغانم;Mostaganem
+sr;Мостаганем;Mostaganem
+lt;Mostaganemas;Mostaganem
+ka;მოსთაღანემი;Mostaganem
+zh;穆斯塔加奈姆;Mostaganem
+kk;Мостаганем;Mostaganem
+ky;Мостаганем;Mostaganem
+hi;मोस्तागनेम;Mostaganem
+bn;মোস্তাগনেম;Mostaganem
+ur;مستغانم;Mostaganem
+am;ሞስታጋንም;Mostaganem
+ja;モスタガネム;Mostaganem
+pa;ਮੋਸਤਾਗਨੇਮ;Mostaganem
+ps;مستغانم;Mostaganem
+tg;Мостаганем;Mostaganem
+tt;Мостаганем;Mostaganem
+ko;밀라;Mila
+ur;میلہ، الجزائر;Mila
+kk;Мила;Mila
+ky;Мила;Mila
+hi;मिला;Mila
+bn;মিলা;Mila
+am;ሚላ;Mila
+fa;میله;Mila
+ja;ミラ;Mila
+pa;ਮਿਲਾ;Mila
+ps;ميلة;Mila
+tg;Мила;Mila
+tt;Мила;Mila
+fa;مقلع;Mekla
+fa;المدیه، الجزایر;Médéa
+ko;메데아;Médéa
+lt;Medėja;Médéa
+uk;Медеа;Médéa
+ur;مدیہ;Médéa
+pl;Al-Madijja;Médéa
+zh;麦迪亚;Médéa
+kk;Медеа;Médéa
+ky;Медеа;Médéa
+hi;मेडिया;Médéa
+bn;মেডিয়া;Médéa
+am;ሜዲያ;Médéa
+ja;メディア;Médéa
+pa;ਮੇਡੀਆ;Médéa
+ps;المدية;Médéa
+tg;Медеа;Médéa
+tt;Медеа;Médéa
+bg;Маскара;Mascara
+bn;মাস্কারা;Mascara
+ja;マスカラ;Mascara
+ko;마스카라;Mascara
+uk;Маскара;Mascara
+ur;معسکر، الجزائر;Mascara
+pl;Mu’askar;Mascara
+sv;Muaskar;Mascara
+zh;穆阿斯凯尔;Mascara
+kk;Маскара;Mascara
+ky;Маскара;Mascara
+hi;मस्कारा;Mascara
+am;ማስካራ;Mascara
+az;Maskara;Mascara
+fa;مسکره;Mascara
+pa;ਮਸਕਾਰਾ;Mascara
+ps;معسكر;Mascara
+tg;Маскара;Mascara
+tt;Маскара;Mascara
+dz;يسر;Les Issers
+pl;Al-Aghwat;Laghouat
+fa;الاغواط، الجزایر;Laghouat
+he;לאגוואט;Laghouat
+lt;Laguatas;Laghouat
+zh;艾格瓦特;Laghouat
+kk;Лагоат;Laghouat
+ky;Лагоат;Laghouat
+hi;लाघोआत;Laghouat
+bn;লাগোয়াত;Laghouat
+ur;الأغواط;Laghouat
+am;ላጋወት;Laghouat
+az;Lagvat;Laghouat
+ja;ラゴアット;Laghouat
+pa;ਲਾਘੋਆਤ;Laghouat
+ps;الأغواط;Laghouat
+tg;Лагоат;Laghouat
+tt;Лагоат;Laghouat
+kk;Хенчела;Khenchela
+ky;Хенчела;Khenchela
+hi;खेंचेला;Khenchela
+bn;খেঞ্চেলা;Khenchela
+ur;خنشلة;Khenchela
+am;ቅንጤላ;Khenchela
+az;Xençela;Khenchela
+fa;خنشله;Khenchela
+ja;ケンチェラ;Khenchela
+pa;ਖੇਂਚੇਲਾ;Khenchela
+ps;خنشلة;Khenchela
+tg;Хенчела;Khenchela
+tt;Хенчела;Khenchela
+ca;Gíger;Jijel
+ja;ジジェル;Jijel
+lt;Džidželis;Jijel
+fa;جیجل، الجزایر;Jijel
+pl;Dżidżili;Jijel
+zh;吉杰勒;Jijel
+kk;Джиджель;Jijel
+ky;Джиджель;Jijel
+hi;जिजेल;Jijel
+bn;জিজেল;Jijel
+ur;جيجل;Jijel
+am;ጂጄል;Jijel
+az;Cical;Jijel
+pa;ਜਿਜੇਲ;Jijel
+ps;جيجل;Jijel
+tg;Джиджель;Jijel
+tt;Джиджель;Jijel
+fa;ادلس;Idelès
+bg;Хаси Месауд;Hassi Messaoud
+ko;하시메사우드;Hassi Messaoud
+zh;哈西迈萨乌德;Hassi Messaoud
+pl;Kalima;Guelma
+fa;قالمه، الجزایر;Guelma
+lt;Gelma;Guelma
+uk;Гельма;Guelma
+zh;盖勒马;Guelma
+kk;Гельма;Guelma
+ky;Гельма;Guelma
+hi;गुएल्मा;Guelma
+bn;গুয়েলমা;Guelma
+ur;قالمہ;Guelma
+am;ጉዓልማ;Guelma
+ja;グエルマ;Guelma
+pa;ਗੁਏਲਮਾ;Guelma
+ps;قالمہ;Guelma
+tg;Гельма;Guelma
+tt;Гельма;Guelma
+pl;Ghardaja;Ghardaïa
+bg;Гардая;Ghardaïa
+cs;Ghardája;Ghardaïa
+fa;غردایه;Ghardaïa
+ja;ガルダイア;Ghardaïa
+kk;Гардая қаласы;Ghardaïa
+ko;가르다이아;Ghardaïa
+lt;Gardaja;Ghardaïa
+sw;Jimbo ya Ghardaïa;Ghardaïa
+zh;盖尔达耶;Ghardaïa
+uz;Gardaia;Ghardaïa
+ky;Гардая;Ghardaïa
+hi;घरदाया;Ghardaïa
+bn;ঘর্দায়া;Ghardaïa
+ur;غردایہ;Ghardaïa
+am;ጋርዳያ;Ghardaïa
+az;Qardaya;Ghardaïa
+pa;ਘਾਰਦਾਇਆ;Ghardaïa
+ps;غردایہ;Ghardaïa
+tg;Гардая;Ghardaïa
+tt;Гардая;Ghardaïa
+kk;Эль-Тараф;El Tarf
+ky;Эль-Тараф;El Tarf
+hi;एल तारफ;El Tarf
+bn;এল তারফ;El Tarf
+ur;الطارف;El Tarf
+am;ኤል ታርፍ;El Tarf
+fa;الطارف;El Tarf
+ja;エル・タルフ;El Tarf
+pa;ਅਲ ਤਾਰਫ;El Tarf
+ps;الطارف;El Tarf
+tg;Эль-Тараф;El Tarf
+tt;Эль-Тараф;El Tarf
+he;אל-ואד;El Oued
+kk;Эль-Уэд қаласы;El Oued
+lt;Uedas;El Oued
+pl;Al-Wadi;El Oued
+zh;瓦德;El Oued
+ky;Эль-Уэд;El Oued
+hi;अल वादी;El Oued
+bn;এল ওয়েড;El Oued
+ur;الوادی;El Oued
+am;ኤል ዋድ;El Oued
+fa;الوادی;El Oued
+ja;エル・ウエド;El Oued
+pa;ਅਲ ਵਾਡੀ;El Oued
+ps;الوادی;El Oued
+tg;Эль-Уэд;El Oued
+tt;Эль-Уэд;El Oued
+kk;Эль-Мегайер;El Meghaïer
+ky;Эль-Мегайер;El Meghaïer
+hi;अल मेघायर;El Meghaïer
+bn;এল মেঘায়ের;El Meghaïer
+ur;المغیر;El Meghaïer
+am;ኤል መግሃየር;El Meghaïer
+fa;المغیر;El Meghaïer
+ja;エル・メガイエル;El Meghaïer
+pa;ਅਲ ਮੇਘਾਈਰ;El Meghaïer
+ps;المغیر;El Meghaïer
+tg;Эль-Мегайер;El Meghaïer
+tt;Эль-Мегайер;El Meghaïer
+ur;الہاشمیہ;El Hachimia
+fa;هاشمیه;El Hachimia
+bg;Шлеф;Chlef
+ja;シュレフ;Chlef
+lt;Šelifas;Chlef
+pl;Szalif;Chlef
+zh;谢利夫;Chlef
+ur;شلف;Chlef
+fa;شلف;Chlef
+kk;Хлеф;Chlef
+ky;Хлеф;Chlef
+hi;हलेफ;Chlef
+bn;ছলেফ;Chlef
+am;ክለፍ;Chlef
+az;Hlef;Chlef
+pa;ਚਲੇਫ;Chlef
+ps;شلف;Chlef
+tg;Хлеф;Chlef
+tt;Хлеф;Chlef
+ur;دویرہ;Douéra
+pl;Dżamila;Djemila
+fa;دراق;Derrag
+ur;دراق;Derrag
+zh;君士坦丁;Constantine
+ja;コンスタンティーヌ;Constantine
+he;קונסטנטין;Constantine
+hi;कांस्टैंटाइन;Constantine
+fa;قسنطینه;Constantine
+el;Κωνσταντίνη;Constantine
+kk;Константина;Constantine
+ky;Константина;Constantine
+bn;কনস্টান্টিন;Constantine
+ur;قسطنطینہ;Constantine
+am;ኮንስታንቲን;Constantine
+pa;ਕੋਨਸਟੈਂਟਾਈਨ;Constantine
+ps;قسطنطینہ;Constantine
+tg;Константина;Constantine
+tt;Константина;Constantine
+ca;Sersell;Cherchell
+uk;Шершель;Cherchell
+be;Шэршэль;Cherchell
+pl;Szarszal;Cherchell
+zh;歇爾謝爾;Cherchell
+kg;Iol Caesarea;Cherchell
+kk;Буира;Bouïra
+ky;Буира;Bouïra
+hi;बोइरा;Bouïra
+bn;বুইরা;Bouïra
+ur;بویرہ;Bouïra
+am;ቦዊራ;Bouïra
+az;Buira;Bouïra
+fa;بویره;Bouïra
+ja;ブイラ;Bouïra
+pa;ਬੌਇਰਾ;Bouïra
+ps;بویرہ;Bouïra
+tg;Буира;Bouïra
+tt;Буира;Bouïra
+pl;Burdż Bu Urajridż;Bordj Bou Arreridj
+kk;Бордж-Бу-Арреридж;Bordj Bou Arreridj
+ky;Бордж-Бу-Арреридж;Bordj Bou Arreridj
+hi;बोर्ज बू अर्रेरिज;Bordj Bou Arreridj
+bn;বোর্জ বু আরেরিজ;Bordj Bou Arreridj
+ur;برج بوعریریج;Bordj Bou Arreridj
+am;ቦርጅ ቦ አሪሪጅ;Bordj Bou Arreridj
+fa;برج بوعریریج;Bordj Bou Arreridj
+ja;ボルジ・ブ・アレリドジ;Bordj Bou Arreridj
+pa;ਬੋਰਜ ਬੂ ਅਰੇਰਿਜ;Bordj Bou Arreridj
+ps;برج بوعریریج;Bordj Bou Arreridj
+tg;Бордж-Бу-Арреридж;Bordj Bou Arreridj
+tt;Бордж-Бу-Арреридж;Bordj Bou Arreridj
+pl;Al-Bulajda;Blida
+mk;Блида;Blida
+be;Бліда;Blida
+ko;블리다;Blida
+uk;Бліда;Blida
+fa;البلیده;Blida
+bg;Блида;Blida
+ja;ブリダ;Blida
+br;El Bouleida;Blida
+zh;卜利达;Blida
+mn;Блида;Blida
+sn;Bilda;Blida
+th;บลีดา;Blida
+kk;Блида;Blida
+ky;Блида;Blida
+hi;ब्लिडा;Blida
+bn;ব্লিডা;Blida
+ur;بلیدہ;Blida
+am;ብልዳ;Blida
+pa;ਬਲੀਡਾ;Blida
+ps;بلیدہ;Blida
+tg;Блида;Blida
+tt;Блида;Blida
+pl;Biskira;Biskra
+fa;بسکره;Biskra
+ko;비스크라;Biskra
+ja;ビスクラ;Biskra
+bn;বিসক্রা;Biskra
+zh;比斯克拉;Biskra
+bg;Бискра;Biskra
+uk;Біскра;Biskra
+kk;Бискра;Biskra
+ky;Бискра;Biskra
+hi;बिस्क्रा;Biskra
+ur;بسکرہ;Biskra
+am;ቢስክራ;Biskra
+pa;ਬਿਸਕਰਾ;Biskra
+ps;بسکرہ;Biskra
+tg;Бискра;Biskra
+tt;Бискра;Biskra
+kk;Бени-Аббес;Béni Abbès
+ky;Бени-Аббес;Béni Abbès
+hi;बेनी अब्बेस;Béni Abbès
+bn;বেনি অ্যাবেস;Béni Abbès
+ur;بنی عباس;Béni Abbès
+am;በኒ አበስ;Béni Abbès
+az;Beni Abbas;Béni Abbès
+fa;بنی عباس;Béni Abbès
+ja;ベニ・アベス;Béni Abbès
+pa;ਬੇਨੀ ਅਬਬਸ;Béni Abbès
+ps;بنی عباس;Béni Abbès
+tg;Бени-Аббес;Béni Abbès
+tt;Бени-Аббес;Béni Abbès
+mk;Беџаја;Béjaïa
+ca;Bugia;Béjaïa
+fa;بجایه;Béjaïa
+ur;بجایہ;Béjaïa
+kk;Беджая;Béjaïa
+ky;Беджая;Béjaïa
+hi;बेजाया;Béjaïa
+bn;বেজাইয়া;Béjaïa
+am;በጃያ;Béjaïa
+az;Bejayd;Béjaïa
+ja;ベジャイア;Béjaïa
+pa;ਬੇਜਾਇਆ;Béjaïa
+ps;بجایہ;Béjaïa
+tg;Беджая;Béjaïa
+tt;Беджая;Béjaïa
+id;Basyar;Béchar
+lt;Bešaras;Béchar
+ko;베샤르;Béchar
+ja;ベシャール;Béchar
+fa;بشار، الجزایر;Béchar
+pl;Baszszar;Béchar
+zh;贝沙尔;Béchar
+eu;Bexar;Béchar
+kk;Бешар;Béchar
+ky;Бешар;Béchar
+hi;बेचर;Béchar
+bn;বেচার;Béchar
+ur;بیشار;Béchar
+am;በቻር;Béchar
+az;Beşar;Béchar
+pa;ਬੇਚਾਰ;Béchar
+ps;بیشار;Béchar
+tg;Бешар;Béchar
+tt;Бешар;Béchar
+fa;باتنه، الجزایر;Batna
+uk;Батна;Batna
+ce;Батна;Batna
+id;Batnah;Batna
+bg;Батна;Batna
+pl;Batina;Batna
+zh;巴特纳;Batna
+mn;Батна;Batna
+be;Батна;Batna
+ja;バトナ;Batna
+kk;Батна қаласы;Batna
+ko;바트나;Batna
+ur;باتنہ، الجزائر;Batna
+ky;Батна;Batna
+hi;बतना;Batna
+bn;বাতনা;Batna
+am;ባትና;Batna
+pa;ਬਾਤਨਾ;Batna
+ps;باتنہ;Batna
+tg;Батна;Batna
+tt;Батна;Batna
+fa;باب‌الزوار;Bab Ezzouar
+ur;باب الزوار;Bab Ezzouar
+ms;Azzefoun;Azeffoun
+vi;Azzefoun;Azeffoun
+mk;Анаба;Annaba
+ko;안나바;Annaba
+uk;Аннаба;Annaba
+kk;Аннаба қаласы;Annaba
+sw;Hippo;Annaba
+ja;アンナバ;Annaba
+lt;Anaba;Annaba
+sr;Анаба;Annaba
+fa;عنابه;Annaba
+hy;Աննաբա;Annaba
+bn;আন্নাবা;Annaba
+bg;Анаба;Annaba
+zh;安纳巴;Annaba
+ur;عنابہ;Annaba
+ky;Аннаба;Annaba
+hi;अन्नाबा;Annaba
+am;አናባ;Annaba
+pa;ਅਨਾਬਾ;Annaba
+ps;عنابہ;Annaba
+tg;Аннаба;Annaba
+tt;Аннаба;Annaba
+bg;Алжир;Alger
+da;Algier;Alger
+he;אלגיר;Alger
+id;Aljir;Alger
+is;Algeirsborg;Alger
+ja;アルジェ;Alger
+ko;알제;Alger
+lt;Alžyras;Alger
+pl;Algier;Alger
+sk;Alžír;Alger
+sr;Алжир;Alger
+zh-TW;阿爾及爾;Alger
+hr;Alžir;Alger
+mk;Алжир;Alger
+el;Αλγέρι;Alger
+am;አልጀርስ;Alger
+bs;Alžir;Alger
+cs;Alžír;Alger
+et;Alžiir;Alger
+mr;अल्जीयर्स;Alger
+sw;Algiers;Alger
+uk;Алжир;Alger
+ckb;جەزائیر;Alger
+lij;Algê;Alger
+ku;Cezayir;Alger
+kk;Алжир;Alger
+wo;Alse;Alger
+ka;ალჟირი;Alger
+jv;Aljir;Alger
+ps;الجزيره;Alger
+nah;Argel;Alger
+vep;Alžir;Alger
+pa;ਅਲ-ਜਜ਼ਾਇਰ;Alger
+cv;Алжир;Alger
+os;Алжир;Alger
+ur;الجزائر شہر;Alger
+oc;Argièr;Alger
+ug;ئالجىر;Alger
+hy;Ալժիր;Alger
+br;Aljer;Alger
+hu;Algír;Alger
+bo;ཨཱལ་ཇི་ཡར་སི།;Alger
+ht;Alje;Alger
+bn;আলজিয়ার্স;Alger
+mrj;Алжир;Alger
+udm;Алжир;Alger
+hsb;Alžěr;Alger
+be;Алжыр;Alger
+tl;Arhel;Alger
+az;Əlcəzair;Alger
+th;แอลเจียร์;Alger
+tg;Алҷазоир;Alger
+ta;அல்ஜியர்ஸ்;Alger
+gl;Alxer;Alger
+su;Aljir;Alger
+ml;അൾജിയേഴ്സ്;Alger
+sl;Alžir;Alger
+mdf;Алжир;Alger
+lv;Alžīra;Alger
+ln;Alje;Alger
+fa;الجزیره;Alger
+eu;Aljer;Alger
+ky;Алжир шаары;Alger
+zh;阿爾及爾;Alger
+sgs;Alžīrs;Alger
+ce;Алжир;Alger
+ga;Cathair na hAilgéire;Alger
+hi;अल्जीयर्स;Alger
+mn;Алжир хот;Alger
+yue;阿爾及爾;Alger
+my;အယ်လဂျီးယားမြို့;Alger
+ne;अल्जीएर्स;Alger
+uz;Jazoir;Alger
+ur;عین تموشنت;Aïn Temouchent
+fa;عین تموشنت;Aïn Temouchent
+kk;Эйн-Темушент;Aïn Temouchent
+ky;Эйн-Темушент;Aïn Temouchent
+hi;अैन टेमोशेंट;Aïn Temouchent
+bn;আইন তেমোচেন্ট;Aïn Temouchent
+am;አይን ተሞውሼንት;Aïn Temouchent
+ja;アイン・テムーシェント;Aïn Temouchent
+pa;ਅਾਇਨ ਤੇਮੌਸ਼ੇਂਟ;Aïn Temouchent
+ps;عین تموشنت;Aïn Temouchent
+tg;Эйн-Темушент;Aïn Temouchent
+tt;Эйн-Темушент;Aïn Temouchent
+kk;Эйн-Дефла;Aïn Defla
+ky;Эйн-Дефла;Aïn Defla
+hi;अैन डेफला;Aïn Defla
+bn;আইন ডেফলা;Aïn Defla
+ur;عین دفلیٰ;Aïn Defla
+am;አይን ደፍላ;Aïn Defla
+fa;عین دفلیٰ;Aïn Defla
+ja;アイン・デフラ;Aïn Defla
+pa;ਅਾਇਨ ਡੇਫਲਾ;Aïn Defla
+ps;عین دفلیٰ;Aïn Defla
+tg;Эйн-Дефла;Aïn Defla
+tt;Эйн-Дефла;Aïn Defla
+fa;اگودال;Aguedal
+ur;اگودال;Aguedal
+lt;Adraras;Adrar
+th;อาดราร์;Adrar
+uk;Адрар;Adrar
+zh;阿德拉尔;Adrar
+ko;아드라르;Adrar
+ur;ادرار، الجزائر;Adrar
+kk;Адрар;Adrar
+ky;Адрар;Adrar
+hi;अद्रार;Adrar
+bn;আদ্রার;Adrar
+am;አድራር;Adrar
+fa;ادرار;Adrar
+ja;アドラール;Adrar
+pa;ਅਦਰਾਰ;Adrar
+ps;ادرار;Adrar
+tg;Адрар;Adrar
+tt;Адрар;Adrar
+fa;قجال;Guidjal
+ja;インサラー;In Salah
+ko;인살라;In Salah
+lt;Ain Sala;In Salah
+uk;Айн-Салах;In Salah
+pl;Ajn Salih;In Salah
+zh;因萨拉赫;In Salah
+fa;عین صالح;In Salah

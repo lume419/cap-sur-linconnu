@@ -1,0 +1,201 @@
+// Noms alternatifs multilingues de TOUS les pays, dans TOUTES les langues d'interface (septembre 2026).
+//
+// POURQUOI — chaque lot de pays avait son propre script d'alias (build-aliases.js, build-asie-aliases.js…), avec la
+// liste des langues gérées AU MOMENT de l'ajout du lot ; les langues ajoutées ensuite n'étaient jamais reportées sur les
+// pays déjà présents. Résultat : Berlin n'avait que 3 noms alternatifs (italien, néerlandais, portugais), « Берлин » ou
+// « ベルリン » ne trouvaient rien ; la France, l'Arménie et la Syrie n'avaient aucun fichier.
+//
+// PRINCIPE — ADDITIF : chaque fichier aliases-xx.txt existant est gardé tel quel (ses filtres propres restent acquis) ;
+// on y ajoute les noms alternatifs GeoNames (alternateNamesV2, scripts/altnames/XX.txt) de ses lieux publiés, dans toute
+// langue d'interface (public/js/i18n.js, SUPPORTED) ou déjà acceptée par un script d'alias existant (variantes de
+// recherche : zh-TW, yue, nb, quz…). Mêmes règles que ces scripts : noms historiques (et, pour les ajouts, familiers)
+// exclus, nom identique au nom publié (après normalisation) exclu, doublons (langue, nom, lieu) exclus.
+//
+// RATTACHEMENT lieu publié -> geonameid (scripts/dump/XX_dump.txt) :
+//   1. mêmes coordonnées à 4 décimales (lieux repris de GeoNames) : l'entrée de même nom, sinon l'unique entrée de
+//      classe P à ce point (noms publiés corrigés, ex. Lisbon -> Lisboa) ;
+//   2. sinon (France : communes IGN ; Arménie, Syrie : reconstructions) même nom normalisé, entrée de classe P la plus
+//      proche à moins de 10 km.
+//
+// FILTRES REPRIS : dsb -> hsb (sorabe) ; nrf -> nrf-je / nrf-gg (Jersey, Guernesey) ; pap -> pap-AW (Aruba) / pap-CW
+// (Curaçao, Bonaire) ; au Royaume-Uni, en Irlande et à Man, noms celtiques recopiés sous une autre langue écartés, et au
+// Royaume-Uni, gallois / gaélique écossais / cornique / irlandais limités à leur aire (voir build-aliases.js).
+//
+// Usage : node scripts/build-all-aliases.js [--dry] [--min-pop=N] [CC ...]
+//   --dry        mesure seulement (alias ajoutés par langue, taille), n'écrit rien
+//   --min-pop=N  langues AJOUTÉES seulement pour les lieux d'au moins N habitants (0 par défaut)
+const fs = require('fs');
+const path = require('path');
+const { COUNTRIES } = require('../public/js/trip-data.js');
+const { normalizeCityName } = require('../lib/trip-engine.js').internals;
+
+const ROOT = path.join(__dirname, '..');
+const DATA = path.join(ROOT, 'public', 'data');
+const args = process.argv.slice(2);
+const DRY = args.includes('--dry');
+const MIN_POP = Number((args.find(a => a.startsWith('--min-pop=')) || '=0').split('=')[1]) || 0;
+const ONLY = args.filter(a => /^[A-Z]{2}$/.test(a));
+
+// Langues : interface + toutes celles déjà acceptées par un script d'alias.
+function langList(){
+  const set = new Set();
+  const i18n = fs.readFileSync(path.join(ROOT, 'public', 'js', 'i18n.js'), 'utf8');
+  const sup = i18n.match(/var SUPPORTED = (\[[^\]]*\]);/);
+  JSON.parse(sup[1].replace(/'/g, '"')).forEach(l => set.add(l));
+  fs.readdirSync(__dirname).filter(f => /^build-.*aliases\.js$/.test(f) && f !== path.basename(__filename)).forEach(f => {
+    const m = fs.readFileSync(path.join(__dirname, f), 'utf8').match(/SUPPORTED_LANGS = new Set\(\[([\s\S]*?)\]\)/);
+    if(m) (m[1].match(/'[^']+'/g) || []).forEach(q => set.add(q.slice(1, -1)));
+  });
+  return set;
+}
+const LANGS = langList();
+const LANG_REMAP = { dsb: 'hsb' };
+const LANG_REMAP_BY_COUNTRY = { JE: { nrf: 'nrf-je' }, GG: { nrf: 'nrf-gg' }, AW: { pap: 'pap-AW' }, CW: { pap: 'pap-CW' }, BQ: { pap: 'pap-CW' } };
+const CELTIC_PROBE_LANGS = new Set(['cy', 'gd', 'kw', 'gv', 'ga']);
+const CELTIC_CHECK = new Set(['GB', 'IE', 'IM']);
+// Aires linguistiques au Royaume-Uni : reprises de build-aliases.js (GB_REGION_RESTRICTED_LANGS), par la région publiée.
+const GB_REGION_RESTRICTED_LANGS = (() => {
+  const src = fs.readFileSync(path.join(__dirname, 'build-aliases.js'), 'utf8');
+  const block = src.match(/const GB_REGION_RESTRICTED_LANGS = \{([\s\S]*?)\n\};/)[1];
+  const out = {};
+  block.split(/\n\s*(?=[a-z]{2}: new Set)/).forEach(part => {
+    const m = part.match(/([a-z]{2}): new Set\(\[([\s\S]*?)\]\)/);
+    if(m) out[m[1]] = new Set((m[2].match(/'[^']+'/g) || []).map(q => q.slice(1, -1)));
+  });
+  return out;
+})();
+
+function eachLine(raw, fn){
+  let pos = 0;
+  while(pos < raw.length){
+    let nl = raw.indexOf('\n', pos);
+    if(nl < 0) nl = raw.length;
+    if(nl > pos) fn(raw.slice(pos, nl));
+    pos = nl + 1;
+  }
+}
+const toRad = Math.PI / 180;
+function km(aLat, aLon, bLat, bLon){
+  const h = Math.sin((bLat - aLat) * toRad / 2) ** 2 + Math.cos(aLat * toRad) * Math.cos(bLat * toRad) * Math.sin((bLon - aLon) * toRad / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
+}
+
+const totals = { added: 0, bytes: 0, byLang: {} };
+for(const cc of Object.keys(COUNTRIES)){
+  if(ONLY.length && !ONLY.includes(cc)) continue;
+  const communesPath = path.join(DATA, COUNTRIES[cc].file);
+  // XX_dump.txt, ou XX.txt pour les premiers pays ajoutés (Géorgie)
+  let dumpPath = path.join(__dirname, 'dump', cc + '_dump.txt');
+  if(!fs.existsSync(dumpPath)) dumpPath = path.join(__dirname, 'dump', cc + '.txt');
+  const altPath = path.join(__dirname, 'altnames', cc + '.txt');
+  if(!fs.existsSync(communesPath)) continue;
+  if(!fs.existsSync(dumpPath) || !fs.existsSync(altPath)){ console.log(cc + ' : fichiers GeoNames absents, ignoré'); continue; }
+
+  // Lieux publiés
+  const published = [];
+  eachLine(fs.readFileSync(communesPath, 'utf8'), line => {
+    const p = line.split(';');
+    const ll = p[1].split(',');
+    published.push({ pop: parseInt(p[0], 10) || 0, lon: parseFloat(ll[0]), lat: parseFloat(ll[1]), region: p[3], name: p[4], norm: normalizeCityName(p[4]) });
+  });
+
+  // Entrées GeoNames : par point (4 décimales) et, pour la classe P, par nom normalisé.
+  const byPoint = new Map(), pByName = new Map();
+  eachLine(fs.readFileSync(dumpPath, 'utf8'), line => {
+    const c = line.split('\t');
+    const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
+    if(isNaN(lat) || isNaN(lon)) return;
+    const e = { id: c[0], norm: normalizeCityName(c[1]), ascii: normalizeCityName(c[2]), cls: c[6], lat, lon };
+    const k = lat.toFixed(4) + ',' + lon.toFixed(4);
+    const l = byPoint.get(k); if(l) l.push(e); else byPoint.set(k, [e]);
+    if(c[6] === 'P'){
+      [e.norm, e.ascii].forEach((n, i) => { if(i && n === e.norm) return; const m = pByName.get(n); if(m) m.push(e); else pByName.set(n, [e]); });
+    }
+  });
+
+  // geonameid -> lieu publié (nom canonique, population, région)
+  const placeById = new Map();
+  let byCoords = 0, byName = 0;
+  for(const p of published){
+    const here = byPoint.get(p.lat.toFixed(4) + ',' + p.lon.toFixed(4));
+    let e = null;
+    if(here){
+      e = here.find(x => x.norm === p.norm || x.ascii === p.norm);
+      if(!e){ const ps = here.filter(x => x.cls === 'P'); if(ps.length === 1) e = ps[0]; }
+      if(e) byCoords++;
+    }
+    if(!e){
+      let best = null, bestKm = 10;
+      for(const x of pByName.get(p.norm) || []){ const d = km(p.lat, p.lon, x.lat, x.lon); if(d < bestKm){ bestKm = d; best = x; } }
+      if(best){ e = best; byName++; }
+    }
+    if(e && !placeById.has(e.id)) placeById.set(e.id, p);
+  }
+
+  // Fichier existant : gardé, et sert au dédoublonnage.
+  const outPath = path.join(DATA, 'aliases-' + cc.toLowerCase() + '.txt');
+  let existing = fs.existsSync(outPath) ? fs.readFileSync(outPath, 'utf8').split('\n').filter(Boolean) : [];
+  // Lignes orphelines héritées des premiers scripts : nom canonique absent des lieux publiés (« Copenhagen » quand le
+  // lieu s'appelle København, « Gothenburg » pour Göteborg, « Sibbo » pour Sipoo…), ou ligne mal formée (point-virgule
+  // dans le nom). Rattachées au nom publié quand une ligne du même groupe le donne comme nom alternatif
+  // (da;København;Copenhagen -> København), écartées sinon.
+  const publishedNames = new Set(published.map(p => p.name));
+  const renameOrphan = new Map();
+  existing.forEach(l => { const p = l.split(';'); if(p.length === 3 && !publishedNames.has(p[2]) && publishedNames.has(p[1])) renameOrphan.set(p[2], p[1]); });
+  let fixedOrphans = 0, droppedOrphans = 0;
+  existing = existing.map(l => {
+    const p = l.split(';');
+    if(p.length !== 3 || !p[1]){ droppedOrphans++; return null; }
+    if(publishedNames.has(p[2])) return l;
+    const target = renameOrphan.get(p[2]);
+    if(!target){ droppedOrphans++; return null; }
+    if(normalizeCityName(p[1]) === normalizeCityName(target)){ droppedOrphans++; return null; }
+    fixedOrphans++;
+    return p[0] + ';' + p[1] + ';' + target;
+  }).filter(Boolean);
+  existing = [...new Set(existing)];
+  if(fixedOrphans || droppedOrphans) console.log(cc + ' : lignes orphelines rattachées ' + fixedOrphans + ', écartées ' + droppedOrphans);
+  const seen = new Set(existing.map(l => { const p = l.split(';'); return p[0] + '|' + normalizeCityName(p[1]) + '|' + p[2]; }));
+  const existingLangs = new Set(existing.map(l => l.split(';')[0]));
+
+  const alt = fs.readFileSync(altPath, 'utf8');
+  let celticNames = null;
+  if(CELTIC_CHECK.has(cc)){
+    celticNames = new Set();
+    eachLine(alt, line => { const c = line.split('\t'); if(CELTIC_PROBE_LANGS.has(c[2]) && c[3]) celticNames.add(normalizeCityName(c[3])); });
+  }
+  const remap = LANG_REMAP_BY_COUNTRY[cc] || {};
+  const added = [];
+  eachLine(alt, line => {
+    const c = line.split('\t');
+    const p = placeById.get(c[1]);
+    if(!p) return;
+    const rawLang = c[2], text = c[3];
+    // Noms historiques (isHistoric) et familiers (isColloquial : « Ville-Lumière » pour Paris) exclus.
+    if(!text || c[7] === '1' || c[6] === '1') return;
+    const lang = remap[rawLang] || LANG_REMAP[rawLang] || rawLang;
+    if(!LANGS.has(lang)) return;
+    // Langue nouvelle pour ce pays : seuil de population éventuel (--min-pop).
+    if(MIN_POP && !existingLangs.has(lang) && p.pop < MIN_POP) return;
+    const norm = normalizeCityName(text);
+    if(!norm || norm === p.norm) return;
+    if(celticNames && !CELTIC_PROBE_LANGS.has(rawLang) && celticNames.has(norm)) return;
+    if(cc === 'GB' && GB_REGION_RESTRICTED_LANGS[rawLang] && !GB_REGION_RESTRICTED_LANGS[rawLang].has(p.region || '')) return;
+    if(/[;\n\r]/.test(text)) return;
+    const k = lang + '|' + norm + '|' + p.name;
+    if(seen.has(k)) return;
+    seen.add(k);
+    added.push(lang + ';' + text + ';' + p.name);
+  });
+
+  const bytes = added.reduce((s, l) => s + Buffer.byteLength(l, 'utf8') + 1, 0);
+  totals.added += added.length; totals.bytes += bytes;
+  added.forEach(l => { const lg = l.slice(0, l.indexOf(';')); totals.byLang[lg] = (totals.byLang[lg] || 0) + 1; });
+  console.log(cc + ' : ' + published.length + ' lieux, ' + placeById.size + ' rattachés (' + byCoords + ' par coordonnées, ' + byName +
+    ' par nom), ' + existing.length + ' alias existants, +' + added.length + (DRY ? ' (mesure)' : ''));
+  if(!DRY && (added.length || fixedOrphans || droppedOrphans)){
+    fs.writeFileSync(outPath, existing.concat(added).join('\n') + '\n', 'utf8');
+  }
+}
+console.log('TOTAL +' + totals.added + ' alias, +' + (totals.bytes / 1048576).toFixed(1) + ' Mo');
+console.log('par langue : ' + Object.entries(totals.byLang).sort((a, b) => b[1] - a[1]).map(e => e[0] + ' ' + e[1]).join(', '));

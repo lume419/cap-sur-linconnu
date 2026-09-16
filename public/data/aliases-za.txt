@@ -188,3 +188,907 @@ en;Moreletta Park;Moreletapark
 fr;Messina;Musina
 af;Rondebosch-Oos;Rondebosch East
 de;Gariep-Damm;Gariep Dam
+hi;रोएडपोोर्ट;Roodepoort
+lt;Rodeportas;Roodepoort
+lv;Rūdeporta;Roodepoort
+uk;Рудепурт;Roodepoort
+ur;رودیپورت;Roodepoort
+mr;रुडेपुर्ट;Roodepoort
+el;Ρούντερπορτ;Roodepoort
+zh;魯德普特;Roodepoort
+ja;ロードポート;Roodepoort
+az;Rudepurt;Roodepoort
+ru;Рудепурт;Roodepoort
+be;Рудэпурт;Roodepoort
+bn;রুডেপোর্ট;Roodepoort
+si;රූඩේපූර්ට්;Roodepoort
+kn;ರೂಡ್ ಪೋರ್ಟ್;Roodepoort
+ko;로데포르트;Roodepoort
+ta;ரூடிபூர்ட்;Roodepoort
+gu;રૂડેપોર્ટ;Roodepoort
+te;రూడేపోర్ట్;Roodepoort
+th;โรเดอโปร์ต;Roodepoort
+he;רודפורט;Roodepoort
+zh;茲韋利查;Zwelitsha
+ja;ズウェリチャ;Zwelitsha
+be;Эмалахлені;Emalahleni
+lt;Vitbankas;Emalahleni
+uk;Вітбанк;Emalahleni
+ru;Эмалахлени;Emalahleni
+zh;威特班克;Emalahleni
+ru;Вестонария;Westonaria
+ja;ウェルコム;Welkom
+lt;Velkomas;Welkom
+ru;Велком;Welkom
+zh;韋爾科姆;Welkom
+hy;Վելկոմ;Welkom
+ru;Фрейхейд;Vryheid
+ru;Фрейбурга;Vryburg
+ru;Фрейбург;Vryburg
+zh;弗雷堡;Vryburg
+zh;福斯盧勒斯;Vosloorus
+zh-Hans;福斯卢勒斯;Vosloorus
+ru;Вирджиния;Virginia
+zh-Hans;费吕拉姆;Verulam
+ur;ویرولام، کوازولو ناتال;Verulam
+zh;費呂拉姆;Verulam
+ru;Верулам;Verulam
+ru;Феринихинг;Vereeniging
+ja;フェリーニヒング;Vereeniging
+ko;페레이니힝;Vereeniging
+lt;Verenigingas;Vereeniging
+sr;Веренигинг;Vereeniging
+uk;Ферінігінг;Vereeniging
+zh;弗里尼欣;Vereeniging
+fa;ورینیگینگ;Vereeniging
+fa;وندربیجلپرک;Vanderbijlpark
+mr;फांडरबीलपार्क;Vanderbijlpark
+sr;Фандербајпарк;Vanderbijlpark
+ru;Фандербейлпарк;Vanderbijlpark
+zh;范德拜爾帕克;Vanderbijlpark
+ko;어핑턴;Upington
+ru;Апингтон;Upington
+zh;烏平通;Upington
+ru;Умтата;Mthatha
+zh;烏姆塔塔;Mthatha
+ce;Умтата;Mthatha
+ja;ウムタタ;Mthatha
+ur;متھاتھا;Mthatha
+ru;Умлази;eMlaza
+zh;烏姆拉濟;eMlaza
+et;Umlazi;eMlaza
+zh-Hans;乌姆拉济;eMlaza
+hy;Ումլազի;eMlaza
+oc;Umlazi;eMlaza
+ja;ウマラジ;eMlaza
+ro;Umlazi;eMlaza
+ca;Umlazi;eMlaza
+ru;Улунди;Ulundi
+hy;Ուլունդի;Ulundi
+ja;ウルンディ;Ulundi
+ko;울룬디;Ulundi
+uk;Улунді;Ulundi
+zh;烏倫迪;Ulundi
+bg;Ютънхах;Kariega
+fa;اویتنهاگ;Kariega
+ja;オイテンハーヘ;Kariega
+uk;Ейтенхахе;Kariega
+ru;Эйтенхахе;Kariega
+ceb;Uitenhage;Kariega
+fi;Uitenhage;Kariega
+zh-Hant;尤坦黑格;Kariega
+sl;Utienhage;Kariega
+ga;Uitenhage;Kariega
+gd;Uitenhage;Kariega
+ur;یوٹینہیج;Kariega
+ca;Uitenhage;Kariega
+zh;尤丹赫支;Kariega
+et;Uitenhage;Kariega
+nb;Uitenhage;Kariega
+th;ออยเทนฮาเก;Kariega
+pl;Uitenhage;Kariega
+ro;Uitenhage;Kariega
+da;Uitenhage;Kariega
+fa;زانین;Tzaneen
+ru;Тзанеен;Tzaneen
+zh;察嫩;Tzaneen
+ta;டோங்காட்;Tongaat
+ur;ٹونگاٹ;Tongaat
+zh;通加特;Tongaat
+ru;Токоза;Tokoza
+uk;Тхохояндоу;Thohoyandou
+ru;Тхохояндоу;Thohoyandou
+zh;索赫燕杜;Thohoyandou
+ru;Тениссен;Theunissen
+ru;Тембиса;Thembisa
+bg;Швелендам;Swellendam
+ru;Свеллендам;Swellendam
+sv;Republiken Swellendam;Swellendam
+zh;斯韋倫丹;Swellendam
+ru;Квадукуза;KwaDukuza
+ru;Стандертон;Standerton
+hy;Սփրինգս;Springs
+he;סווטו;Soweto
+lt;Sovetas;Soweto
+ru;Соуэто;Soweto
+ja;ソウェト;Soweto
+ko;소웨토;Soweto
+el;Σοβέτο;Soweto
+ka;სოვეტო;Soweto
+lv;Soueto;Soweto
+zh;索韦托;Soweto
+sr;Совето;Soweto
+uk;Совето;Soweto
+hi;सॉवेटो;Soweto
+hy;Սոուետո;Soweto
+zh-Hant;索韋托;Soweto
+ur;سوویتو;Soweto
+mr;सोव्हिटो;Soweto
+az;Soveto;Soweto
+fa;سووتو;Soweto
+bg;Совето;Soweto
+bn;সোয়েতো;Soweto
+si;සොවෙටෝ;Soweto
+kn;ಸೌಏತೋ;Soweto
+zh-HK;索韋托;Soweto
+ta;சோயிட்டோ;Soweto
+gu;સોવેટો;Soweto
+te;సోవెటో;Soweto
+th;โซเวโต;Soweto
+ru;Сошангуве;Soshanguve
+ru;Сесхего;Seshego
+zh;塞斯赫戈;Seshego
+ja;セシェゴ;Seshego
+ru;Секунда;Secunda
+ru;Сасолбург;Sasolburg
+ru;Санта Лючия;Saint Lucia
+ru;Рюстенбург;Rustenburg
+sr;Рустенбург;Rustenburg
+am;ሩስተንበርግ;Rustenburg
+lt;Rustenburgas;Rustenburg
+ko;루스텐버그;Rustenburg
+lv;Restenberha;Rustenburg
+ja;ルステンブルク;Rustenburg
+bg;Рустенбург;Rustenburg
+ca;Rustemburg;Rustenburg
+he;רסטנבורג;Rustenburg
+uk;Рустенбург;Rustenburg
+th;รุสเทนเบิร์ก;Rustenburg
+fa;راستنبرگ;Rustenburg
+mr;रुस्टेनबर्ग;Rustenburg
+zh;勒斯滕堡;Rustenburg
+ur;روسٹنبرگ;Rustenburg
+sr;Ричардс Беј;Richards Bay
+ru;Ричардс-Бей;Richards Bay
+ru;Рандфонтейн;Randfontein
+zh;蘭德方坦;Randfontein
+hi;रैंडबर्ग;Randburg
+lt;Randburgas;Randburg
+lv;Randburga;Randburg
+zh-Hans;兰德堡;Randburg
+uk;Рандбург;Randburg
+ur;راندبورج;Randburg
+mr;रँडबुर्ग;Randburg
+el;Ράντμπουργκ;Randburg
+zh;蘭德堡;Randburg
+ja;ランドバーグ;Randburg
+ru;Рандбург;Randburg
+bn;রেন্ডবার্গ;Randburg
+si;රැන්ඩ්බර්ග්;Randburg
+kn;ರಾಂಡ್ಬರ್ಗ್;Randburg
+ko;랜드버그;Randburg
+ta;ரேண்ட்பர்க்;Randburg
+gu;રેન્ડબર્ગ;Randburg
+te;రాండ్బర్గ్;Randburg
+th;ราเดบูร์ก;Randburg
+tr;Rendburg;Randburg
+ru;Квинстаун;Queenstown
+zh;昆士敦;Queenstown
+ru;Куинстаун;Queenstown
+el;Πρετόρια/Πόλη του Ακρωτηρίου;Pretoria
+am;ፕሪቶሪያ;Pretoria
+bg;Претория;Pretoria
+he;פרטוריה;Pretoria
+ja;プレトリア;Pretoria
+ko;프리토리아;Pretoria
+lt;Pretorija;Pretoria
+mk;Преторија;Pretoria
+ru;Претория;Pretoria
+th;พริทอเรีย;Pretoria
+ug;Prétoriye;Pretoria
+sl;Pretorija;Pretoria
+te;ప్రిటోరియా;Pretoria
+udm;Претория;Pretoria
+ta;பிரிட்டோரியா;Pretoria
+mdf;Претория;Pretoria
+mr;प्रिटोरिया;Pretoria
+sr;Преторија;Pretoria
+ckb;پرێتۆریا;Pretoria
+lv;Pretorija;Pretoria
+el;Πρετόρια;Pretoria
+ka;პრეტორია;Pretoria
+uk;Преторія;Pretoria
+az;Pretoriya;Pretoria
+fa;پرتوریا;Pretoria
+ur;پریٹوریا;Pretoria
+pa;ਪ੍ਰਿਟੋਰੀਆ;Pretoria
+os;Претори;Pretoria
+hy;Պրետորիա;Pretoria
+bo;ཕི་རི་ཐོ་རི་ཡ།;Pretoria
+be;Прэторыя;Pretoria
+zh;比勒陀利亞;Pretoria
+ce;Претори;Pretoria
+hi;प्रिटोरिया;Pretoria
+yue;普利托里亞;Pretoria
+kk;Претория;Pretoria
+ky;Претория;Pretoria
+ml;പ്രിട്ടോറിയ;Pretoria
+uz;Pretoriya;Pretoria
+vep;Pretorii;Pretoria
+ps;پرتوریا;Pretoria
+zh-Hans;比勒陀利亚;Pretoria
+zh-Hant;普利托利亞;Pretoria
+ab;Преториа;Pretoria
+qu;Priturya;Pretoria
+ba;Претория;Pretoria
+bn;প্রিটোরিয়া;Pretoria
+si;ප්‍රිටෝරියා;Pretoria
+mzn;پرتوریا;Pretoria
+kn;ಪ್ರಿಟೋರಿಯಾ;Pretoria
+cs;Pretorie;Pretoria
+tg;Претория;Pretoria
+mi;Piritōria;Pretoria
+ne;प्रिटोरीया;Pretoria
+nv;Tsindiitłʼííshí;Pretoria
+gu;પ્રિટોરિયા;Pretoria
+ru;Потгитерсрус;Mokopane
+ru;Мокопане;Mokopane
+zh;莫科帕內;Mokopane
+ru;Почефструм;Potchefstroom
+ko;포체프스트롬;Potchefstroom
+mr;पॉचेफस्ट्रूम;Potchefstroom
+ja;ポチェフストルーム;Potchefstroom
+ru;Потчефструм;Potchefstroom
+zh;波切夫斯特魯姆;Potchefstroom
+ml;പൊച്ചെഫെസ്ട്രൂം;Potchefstroom
+ru;Порт-Шепстон;Port Shepstone
+zh;謝普斯敦港;Port Shepstone
+pl;Port Elizabeth;Gqeberha
+sv;Port Elizabeth;Gqeberha
+lt;Port Elizabetas;Gqeberha
+mk;Порт Елизабет;Gqeberha
+fi;Port Elizabeth;Gqeberha
+mr;पोर्ट एलिझाबेथ;Gqeberha
+ko;포트엘리자베스;Gqeberha
+ja;ポート・エリザベス;Gqeberha
+be;Порт-Элізабет;Gqeberha
+th;พอร์ตเอลิซาเบท;Gqeberha
+sr;Порт Елизабет;Gqeberha
+lv;Portelizabeta;Gqeberha
+ka;პორტ-ელიზაბეთი;Gqeberha
+bg;Порт Елизабет;Gqeberha
+el;Πορτ Ελίζαμπεθ;Gqeberha
+ca;Port Elisabeth;Gqeberha
+vep;Port Elizabet;Gqeberha
+am;ፖርት ኤልሳቤጥ;Gqeberha
+he;פורט אליזבת;Gqeberha
+uk;Порт-Елізабет;Gqeberha
+fa;پورت الیزابت;Gqeberha
+ru;Порт-Элизабет;Gqeberha
+zh;伊莉莎白港;Gqeberha
+gl;Porto Elizabeth;Gqeberha
+hi;पोर्ट एलिज़ाबेथ;Gqeberha
+ur;پورٹ الزبتھ;Gqeberha
+ru;Порт-Альфред;Port Alfred
+zh;艾尔弗雷德港;Port Alfred
+ru;Плеттенберг-Бей;Plettenberg Bay
+ru;Пайнтаун;Pinetown
+lt;Polokvanė;Polokwane
+mk;Полокване;Polokwane
+sr;Полокване;Polokwane
+th;โพโลเควน;Polokwane
+mr;पोलोक्वाने;Polokwane
+am;ፖሎክዋኔ;Polokwane
+ja;ポロクワネ;Polokwane
+lv;Polokvane;Polokwane
+fa;پولوکوین;Polokwane
+uk;Полокване;Polokwane
+ko;폴로콰네;Polokwane
+he;פולוקוואנה;Polokwane
+be;Палакванэ;Polokwane
+bg;Полокване;Polokwane
+ru;Полокване;Polokwane
+zh;波羅克瓦尼;Polokwane
+el;Πολοκουάνε;Polokwane
+hi;पोलक्वानी;Polokwane
+ur;پولوکوانے;Polokwane
+vep;Polokvane;Polokwane
+kk;Полокване;Polokwane
+ky;Полокване;Polokwane
+bn;পোলোক্ওয়ানে;Polokwane
+pa;ਪੋਲੋਕਵਾਨੇ;Polokwane
+ps;پولوکوانه;Polokwane
+tg;Полокване;Polokwane
+tt;Полокване;Polokwane
+lt;Pitermaricburgas;Pietermaritzburg
+mk;Питермарицбург;Pietermaritzburg
+ko;피터마리츠버그;Pietermaritzburg
+bg;Питърмарицбург;Pietermaritzburg
+be;Пітэрмарыцбург;Pietermaritzburg
+th;ปีเตอร์มาริตซ์เบิร์ก;Pietermaritzburg
+uk;Пітермаріцбург;Pietermaritzburg
+sr;Питермарицбург;Pietermaritzburg
+mr;पीटरमारित्झबर्ग;Pietermaritzburg
+ja;ピーターマリッツバーグ;Pietermaritzburg
+ru;Питермарицбург;Pietermaritzburg
+zh;彼得马里茨堡;Pietermaritzburg
+fa;پیترماریتسبرگ;Pietermaritzburg
+hi;पीटरमैरिट्सबर्ग;Pietermaritzburg
+ur;پیٹرماریٹزبرگ;Pietermaritzburg
+vep;Pitermaricburg;Pietermaritzburg
+kk;Пиетермарицбург;Pietermaritzburg
+ky;Пиетермарицбург;Pietermaritzburg
+bn;পিটারমেরিটজবার্গ;Pietermaritzburg
+am;ፒተርማሪትስበርግ;Pietermaritzburg
+pa;ਪੀਟਰਮਾਰਿਟਜ਼ਬਰਗ;Pietermaritzburg
+ps;پيترمارتسبرگ;Pietermaritzburg
+tg;Пиетермарицбург;Pietermaritzburg
+tt;Пиетермарицбург;Pietermaritzburg
+ja;フェニックス;Phoenix
+ur;فینکس، ڈربن;Phoenix
+ta;போனெக்ஸ்;Phoenix
+ru;Палаборва;Phalaborwa
+ru;Пхалаборва;Phalaborwa
+zh;帕拉博魯瓦;Phalaborwa
+ru;Парис;Parys
+bg;Оудсхорн;Oudtshoorn
+ru;Оудсхорн;Oudtshoorn
+zh;奧茨胡恩;Oudtshoorn
+ru;Оркнейские;Orkney
+bg;Орания;Orania
+ru;Орания;Orania
+os;Орани;Orania
+uk;Оранія;Orania
+ru;Найджел;Nigel
+ru;Ньюкасл;Newcastle
+ja;ネルスプロイト;Mbombela
+mk;Нелспруит;Mbombela
+sr;Мбомбела;Mbombela
+mr;म्बोम्बेला;Mbombela
+ko;넬스프루이트;Mbombela
+bg;Нелспройт;Mbombela
+he;נלספרייט;Mbombela
+am;ኔልስፕሩዊት;Mbombela
+th;เนลสไปรต์;Mbombela
+uk;Нельспрюйт;Mbombela
+fa;نلسپرویت;Mbombela
+ru;Мбомбела;Mbombela
+zh;内尔斯普雷特;Mbombela
+az;Nelspreyt;Mbombela
+hi;म्बोमबेला;Mbombela
+ur;نلسپرویت;Mbombela
+kk;Мбомбела;Mbombela
+ky;Мбомбела;Mbombela
+bn;এমবোম্বেলা;Mbombela
+pa;ਮਬੋਮਬੇਲਾ;Mbombela
+ps;مبومبيلا;Mbombela
+tg;Мбомбела;Mbombela
+tt;Мбомбела;Mbombela
+ru;Мпумаланга;Mpumalanga
+ro;Hammarsdale;Mpumalanga
+ca;Epumalanga;Mpumalanga
+ru;Моссел-Бей;Mossel Bay
+bg;Мосъл Бей;Mossel Bay
+id;Teluk Mossel;Mossel Bay
+uk;Моссел-Бей;Mossel Bay
+zh;莫塞爾貝;Mossel Bay
+ru;Мидделбург;Middelburg
+zh;米德爾堡;Middelburg
+ru;Мдантсане;Mdantsane
+pl;Mahikeng;Mafikeng
+hu;Mahikeng;Mafikeng
+ja;マフィケング;Mafikeng
+lt;Mafikengas;Mafikeng
+sr;Мафикенг;Mafikeng
+sv;Mahikeng;Mafikeng
+da;Mahikeng;Mafikeng
+ru;Макфикенг;Mafikeng
+kk;Макфикенг;Mafikeng
+ky;Макфикенг;Mafikeng
+hi;माफिकेंग;Mafikeng
+bn;মাফিকেং;Mafikeng
+ur;مافیکینگ;Mafikeng
+am;ማፊኬንግ;Mafikeng
+fa;مافیکنگ;Mafikeng
+pa;ਮਾਫਿਕੇਂਗ;Mafikeng
+ps;مافيکينج;Mafikeng
+tg;Макфикенг;Mafikeng
+tt;Макфикенг;Mafikeng
+ru;Мабопане;Mabopane
+ja;ライデンバーグ;Lydenburg
+ru;Машишинг;Lydenburg
+zh;萊登堡;Lydenburg
+ja;ルイス・トリハート;Louis Trichardt
+ru;Луис-Тричард;Louis Trichardt
+zh;路易特里哈特;Louis Trichardt
+ru;Лихтенбурге;Lichtenburg
+ta;லெனேஷியா;Lenasia
+zh;蘭薩尼亞;Lenasia
+ur;لئیناسیا;Lenasia
+ta;லாடியம்;Laudium
+ur;لؤڈیم;Laudium
+zh;拉烏迪姆;Laudium
+ru;Ладийсмис;Ladysmith
+ja;クワ＝テマ;KwaThema
+he;קוות'מה;KwaThema
+th;คุรุมาน;Kuruman
+uk;Куруман;Kuruman
+ru;Куруман;Kuruman
+zh;庫魯曼;Kuruman
+lt;Krugersdorpas;Krugersdorp
+ru;Крюгерсдорпа;Krugersdorp
+uk;Крюгерсдорп;Krugersdorp
+ru;Крюгерсдорп;Krugersdorp
+zh;克魯格斯多普;Krugersdorp
+fa;کرونستاد;Kroonstad
+ru;Крунстад;Kroonstad
+zh;克龍斯塔德;Kroonstad
+uk;Книсна;Knysna
+ru;Найсна;Knysna
+zh;克尼斯納;Knysna
+ru;Клерксдорп;Klerksdorp
+be;Клерксдорп;Klerksdorp
+zh;克萊克斯多普;Klerksdorp
+ko;킴벌리;Kimberley
+lt;Kimberlis;Kimberley
+ru;Кимберли;Kimberley
+he;קימברלי;Kimberley
+bg;Кимбърли;Kimberley
+be;Кімберлі;Kimberley
+ja;キンバリー;Kimberley
+sr;Кимберли;Kimberley
+fa;کیمبرلی;Kimberley
+uk;Кімберлі;Kimberley
+zh;金伯利;Kimberley
+az;Kimberli;Kimberley
+hi;किम्बरली;Kimberley
+ur;کمبرلی، شمالی کیپ;Kimberley
+uz;Kimberli;Kimberley
+kk;Кимберли;Kimberley
+ky;Кимберли;Kimberley
+bn;কিম্বারলি;Kimberley
+am;ኪምበርሊ;Kimberley
+pa;ਕਿੰਬਰਲੀ;Kimberley
+ps;کمبرلي;Kimberley
+tg;Кимберли;Kimberley
+tt;Кимберли;Kimberley
+ru;Кенсингтон;Kensington
+uk;Кемптон-Парк;Kempton Park
+zh;肯普頓公園;Kempton Park
+bg;Йоханесбург;Johannesburg
+fa;ژوهانسبورگ;Johannesburg
+he;יוהנסבורג;Johannesburg
+is;Jóhannesarborg;Johannesburg
+ja;ヨハネスブルグ;Johannesburg
+ko;요하네스버그;Johannesburg
+sr;Јоханезбург;Johannesburg
+lt;Johanesburgas;Johannesburg
+mk;Јоханесбург;Johannesburg
+sr;Јоханесбург;Johannesburg
+ug;Yohannésburg;Johannesburg
+ru;Йоханнесбург;Johannesburg
+gl;Xohanesburgo;Johannesburg
+ml;ജൊഹാനസ്‌ബർഗ്;Johannesburg
+be;Ёганесбург;Johannesburg
+el;Γιοχάνεσμπουργκ;Johannesburg
+ur;جوہانسبرگ;Johannesburg
+hy;Յոհաննեսբուրգ;Johannesburg
+mr;जोहान्सबर्ग;Johannesburg
+lv;Johannesburga;Johannesburg
+hi;जोहान्सबर्ग;Johannesburg
+os;Йоханнесбург;Johannesburg
+ta;ஜோகானஸ்பேர்க்;Johannesburg
+ka;იოჰანესბურგი;Johannesburg
+my;ဂျိုဟန္နက်စဗတ်မြို့;Johannesburg
+uk;Йоганнесбург;Johannesburg
+th;โจฮันเนสเบิร์ก;Johannesburg
+az;Yohannesburq;Johannesburg
+cv;Йоханнесбург;Johannesburg
+lez;Йогьаннесбург;Johannesburg
+pa;ਜੋਹਾਨਿਸਬਰਗ;Johannesburg
+eu;Johannesburgo;Johannesburg
+mhr;Йоханнесбург;Johannesburg
+am;ጆሃንስበርግ;Johannesburg
+ky;Йоханнесбург;Johannesburg
+zh;约翰内斯堡;Johannesburg
+ce;Йоханнесбург;Johannesburg
+hak;Yok-hon-nì-sṳ̂-páu;Johannesburg
+tt;Yohannesburg;Johannesburg
+ckb;جۆھانسبێرگ;Johannesburg
+kk;Йоханнесбург;Johannesburg
+mzn;ژوهانسبورگ;Johannesburg
+sah;Йоханнесбург;Johannesburg
+uz;Yoxannesburg;Johannesburg
+yue;約翰尼斯堡;Johannesburg
+bn;জোহানেসবার্গ;Johannesburg
+ps;جوهانسبرج;Johannesburg
+tg;Йоханнесбург;Johannesburg
+zh;傑弗里斯貝;Jeffreys Bay
+ru;Джеффрис-Бей;Jeffreys Bay
+ru;Гейдельберг;Heidelberg
+ru;Гаррисмит;Harrismith
+ru;Хамманскраал;Hammanskraal
+ko;그레이엄스타운;Grahamstown
+ja;グラハムズタウン;Grahamstown
+ru;Грэхэмстаун;Grahamstown
+zh;格拉罕鎮;Grahamstown
+ja;グラーフ＝ライネ;Graaff Reinet
+ru;Храфф-Рейнет;Graaff Reinet
+zh;格拉夫-里內特;Graaff Reinet
+sr;Гермистон;Germiston
+uk;Джермістон;Germiston
+ru;Джермистон;Germiston
+zh;傑米斯頓;Germiston
+ru;Джордж;George
+ko;조지;George
+uk;Джордж;George
+ja;ジョージ;George
+ta;ஜார்ஜ் டவுன்;George
+zh;喬治;George
+ur;فورٹ بیوفورٹ;Fort Beaufort
+ru;Форт-Бофорт;Fort Beaufort
+zh;博福特港;Fort Beaufort
+zh-Hans;伊瓦顿;Evaton
+zh;伊瓦頓;Evaton
+ru;Еватон;Evaton
+zh;埃斯特科特;Estcourt
+ru;Эрмело;Ermelo
+zh;埃爾默洛;Ermelo
+ru;Ембаленхле;eMbalenhle
+pl;KuGompo City;East London
+da;KuGompo City;East London
+fi;KuGompo City;East London
+lt;Yst Londonas;East London
+bg;Източен Лондон;East London
+he;איסט לונדון;East London
+ja;イースト・ロンドン;East London
+uk;Іст-Лондон;East London
+sr;Источни Лондон;East London
+ko;이스트런던;East London
+be;Іст-Лондан;East London
+mr;ईस्ट लंडन;East London
+ru;Ист-Лондон;East London
+zh;東倫敦;East London
+hak;Tûng Lùn-tûn;East London
+ja;ダーバン;Durban
+lt;Durbanas;Durban
+mk;Дурбан;Durban
+ur;ڈربن;Durban
+zh;德班;Durban
+ru;Дурбан;Durban
+hi;डरबन;Durban
+bg;Дърбан;Durban
+uk;Дурбан;Durban
+lv;Durbana;Durban
+kk;Дурбан;Durban
+te;డర్బన్;Durban
+th;เดอร์บัน;Durban
+fa;دوربان;Durban
+he;דרבן;Durban
+ko;더반;Durban
+os;Дурбан;Durban
+am;ደርባን;Durban
+ka;დურბანი;Durban
+kn;ಡರ್ಬನ್;Durban
+el;Ντέρμπαν;Durban
+ta;டர்பன்;Durban
+be;Дурбан;Durban
+mr;डर्बन;Durban
+ml;ഡർബൻ;Durban
+sr;Дурбан;Durban
+ce;Дурбан;Durban
+mhr;Дурбан;Durban
+pa;ਡਰਬਨ;Durban
+yue;爹濱;Durban
+hy;Դուրբան;Durban
+my;ဒါဘန်မြို့;Durban
+ru;Данди;Dundee
+ru;Дудуза;Duduza
+uk;Дудуза;Duduza
+ja;ドゥドゥザ;Duduza
+he;דודוזה;Duduza
+ru;Дельмас;Delmas
+be;Дэ-Ар;De Aar
+hy;Դե Աար;De Aar
+ru;Де-Ар;De Aar
+zh;德阿爾;De Aar
+ru;Дейвитон;Daveyton
+zh;大衛頓;Daveyton
+ja;デイヴィートン;Daveyton
+ru;Куллинан;Cullinan
+zh;克拉多克;Cradock
+zh;科爾斯伯格;Colesberg
+ru;Карлетонвилл;Carletonville
+ru;Баттерворта;Butterworth
+ru;Британцы;Brits
+ru;Бритс;Brits
+zh;布里茨;Brits
+bg;Бредасдорп;Bredasdorp
+zh;布雷達斯多普;Bredasdorp
+ru;Бредасдорп;Bredasdorp
+ru;Бракпан;Brakpan
+ru;Ботшабело;Botshabelo
+ru;Ботавилль;Bothaville
+ru;Боксбург;Boksburg
+hy;Բոկսբուրգ;Boksburg
+lt;Boksburgas;Boksburg
+ja;ボイパトン;Boipatong
+el;Μποϊπατόνγκ;Boipatong
+zh;博伊帕通;Boipatong
+bg;Блумфонтейн;Bloemfontein
+ja;ブルームフォンテーン;Bloemfontein
+lt;Blumfonteinas;Bloemfontein
+ru;Блумфонтейн;Bloemfontein
+zh;布隆方丹;Bloemfontein
+el;Μπλουμφοντέιν;Bloemfontein
+he;בלומפונטיין;Bloemfontein
+mk;Блумфонтејн;Bloemfontein
+be;Блумфантэйн;Bloemfontein
+pa;ਬਲੂਮਫੋਂਟੈਨ;Bloemfontein
+uk;Блумфонтейн;Bloemfontein
+th;บลูมฟอนเทน;Bloemfontein
+mr;ब्लूमफाँटेन;Bloemfontein
+ckb;بلوومفۆنتەین;Bloemfontein
+ko;블룸폰테인;Bloemfontein
+az;Blumfonteyn;Bloemfontein
+am;ብሉምፎንቴይን;Bloemfontein
+lv;Blumfonteina;Bloemfontein
+fa;بلومفونتن;Bloemfontein
+ml;ബ്ലൂംഫൗണ്ടെയിൻ;Bloemfontein
+sr;Блумфонтејн;Bloemfontein
+ka;ბლუმფონტეინი;Bloemfontein
+ce;Блумфонтейн;Bloemfontein
+hi;ब्लूमफ़ोनटेन;Bloemfontein
+hy;Բլումֆոնթեյն;Bloemfontein
+kk;Блумфонтейн;Bloemfontein
+ur;بلومفونٹین;Bloemfontein
+yue;布隆方丹;Bloemfontein
+ky;Блумфонтейн;Bloemfontein
+bn;ব্লোমফন্টেইন;Bloemfontein
+ps;بلومفونتين;Bloemfontein
+tg;Блумфонтейн;Bloemfontein
+tt;Блумфонтейн;Bloemfontein
+pl;Bisho;Bhisho
+da;Bisho;Bhisho
+lt;Bišo;Bhisho
+ru;Бишо;Bhisho
+bg;Бишо;Bhisho
+ja;ビショ;Bhisho
+ko;비쇼;Bhisho
+mr;भिशो;Bhisho
+sr;Бишо;Bhisho
+uk;Бішо;Bhisho
+zh;比绍;Bhisho
+ur;بھیشو;Bhisho
+kk;Бишо;Bhisho
+ky;Бишо;Bhisho
+hi;भीशो;Bhisho
+bn;ভিশো;Bhisho
+am;ቢሾ;Bhisho
+fa;بیشو;Bhisho
+pa;ਭੀਸ਼ੋ;Bhisho
+ps;بيشو;Bhisho
+tg;Бишо;Bhisho
+tt;Бишо;Bhisho
+ru;Вифлеем;Bethlehem
+bg;Бенони;Benoni
+uk;Беноні;Benoni
+ru;Бенони;Benoni
+hy;Բենոնի;Benoni
+hi;बेनोनी;Benoni
+zh-Hans;伯诺尼;Benoni
+ur;بینونی، گاؤٹینگ;Benoni
+ml;ബെനോനി;Benoni
+mr;बेनोनी;Benoni
+zh;伯諾尼;Benoni
+ja;ベノーニ;Benoni
+be;Бэноні;Benoni
+he;באנוני;Benoni
+ur;بیوفورٹ غربی;Beaufort West
+ru;Бофорт-Уэст;Beaufort West
+zh;西博福特;Beaufort West
+ru;Беконсфилд;Beaconsfield
+zh;東巴克利;Barkly East
+zh;巴伯頓;Barberton
+ru;Бальфур;Balfour
+zh;亞特山維爾;Atteridgeville
+zh;北阿利瓦爾;Aliwal North
+fa;آلیوال شمال;Aliwal North
+fa;الیس، کیپ شرقی;Alice
+ru;Элис;Alice
+ru;Альбертон;Alberton
+ur;البرٹن، جنوبی افریقہ;Alberton
+zh;艾伯頓;Alberton
+ja;アルバートン;Alberton
+fa;البرتون، گاوتنگ;Alberton
+ru;Агульяс;Agulhas
+ru;Сомароборо;Somaroboro
+ru;Мидранд;Midrand
+bg;Мидранд;Midrand
+ru;Центурион;Centurion
+mr;सेंच्युरियन;Centurion
+hi;सेंचुरियन;Centurion
+ur;سینچورین، گاؤٹینگ;Centurion
+ml;സെഞ്ചൂറിയൻ;Centurion
+zh;杉球恩;Centurion
+pa;ਸੰਚਰੀਆਨ;Centurion
+ja;センチュリオン;Centurion
+ru;Вустер;Worcester
+no;Worcester i Western Cape;Worcester
+be;Вустэр;Worcester
+zh;伍斯特;Worcester
+ja;ウースター;Worcester
+bg;Вредехоек;Vredehoek
+bg;Тамбоерсклоф;Tamboerskloof
+zh;泰堡維;Table View
+ru;Стелленбос;Stellenbosch
+ja;ステレンボッシュ;Stellenbosch
+ko;스텔렌보스;Stellenbosch
+zh;斯泰倫博斯;Stellenbosch
+hy;Սթելլենբոս;Stellenbosch
+ja;スプリングボック;Springbok
+ru;Спрингбок;Springbok
+zh;斯普林博克;Springbok
+ru;Салдана;Saldanha
+ur;روزبینک، کیپ ٹاؤن;Rosebank
+ru;Паарл;Paarl
+zh;帕阿爾;Paarl
+ja;パール;Paarl
+zh-Hans;米歇尔平原;Mitchells Plain
+zh;米歇爾平原;Mitchells Plain
+zh;科梅杰;Kommetjie
+ru;Кюбус;Khubus
+fa;کایلیتشا;Khayelitsha
+ko;카옐리차;Khayelitsha
+zh;卡雅利沙;Khayelitsha
+ja;カエリチャ;Khayelitsha
+bg;Калкбаи;Kalkbaai
+zh;卡爾克灣;Kalkbaai
+ur;کالک بے;Kalkbaai
+tr;Kalk Bay;Kalkbaai
+ru;Калбаскрал;Kalbaskraal
+ro;Houtbaai;Hout Bay
+zh;赫爾馬努斯;Hermanus
+ja;フランシュフック;Franschhoek
+ru;Франсхук;Franschhoek
+ru;Констанция;Constantia
+zh;康斯坦奇亞;Constantia
+hy;Կոնստանցիա;Constantia
+nb;Cap Constantia;Constantia
+ja;コンスタンシア;Constantia
+zh;克利夫頓;Clifton
+ru;Клэрмонт;Claremont
+zh;克萊蒙;Claremont
+hy;Քլերմոնտ;Claremont
+ja;クレアモント;Claremont
+ur;کلیرمونٹ، کیپ ٹاؤن;Claremont
+ru;Церера;Ceres
+zh;塞雷斯;Ceres
+bg;Кейптаун;Cape Town
+ca;Ciutat del Cap;Cape Town
+da;Kapstaden;Cape Town
+et;Kaplinn;Cape Town
+fi;Kapkaupunki;Cape Town
+gl;Cidade do Cabo;Cape Town
+he;קייפטאון;Cape Town
+hu;Fokváros;Cape Town
+ja;ケープタウン;Cape Town
+ko;케이프타운;Cape Town
+lb;Kapstad;Cape Town
+lt;Keiptaunas;Cape Town
+pl;Kapsztad;Cape Town
+sk;Kapské Mesto;Cape Town
+sl;Kaapstad;Cape Town
+sv;Kapstaden;Cape Town
+cy;Tref y Penrhyn;Cape Town
+eu;Lurmutur Hiria;Cape Town
+mk;Кејптаун;Cape Town
+ru;Кейптаун;Cape Town
+ug;Kapétown;Cape Town
+zh-TW;開普敦;Cape Town
+cs;Kapské Město;Cape Town
+lv;Keiptauna;Cape Town
+is;Höfðaborg;Cape Town
+sco;Cape Toun;Cape Town
+mn;Кейптаун;Cape Town
+mr;केपटाउन;Cape Town
+ta;கேப் டவுன்;Cape Town
+am;ኬፕ ታውን;Cape Town
+az;Keyptaun;Cape Town
+ps;کېپ ټاون;Cape Town
+kn;ಕೇಪ್ ಟೌನ್;Cape Town
+el;Κέιπ Τάουν;Cape Town
+os;Кейптаун;Cape Town
+oc;Lo Cap;Cape Town
+ht;Li Kap;Cape Town
+tk;Keýptaun;Cape Town
+so;Kab town;Cape Town
+sr;Кејптаун;Cape Town
+fo;Høvdastaður;Cape Town
+be;Кейптаўн;Cape Town
+hi;केपटाउन;Cape Town
+bn;কেপ টাউন;Cape Town
+br;Ar Chab;Cape Town
+fa;کیپ‌تاون;Cape Town
+hy;Քեյփթաուն;Cape Town
+uk;Кейптаун;Cape Town
+ur;کیپ ٹاؤن;Cape Town
+ka;კეიპტაუნი;Cape Town
+sah;Кейптаун;Cape Town
+nah;Altepetl In Cabo;Cape Town
+hsb;Kapstadt;Cape Town
+th;เคปทาวน์;Cape Town
+te;కేప్ టౌన్;Cape Town
+gu;કેપ ટાઉન;Cape Town
+ml;കേപ് ടൗൺ;Cape Town
+rue;Капске Місто;Cape Town
+kk;Кейптаун;Cape Town
+lij;Çittæ do Cavo;Cape Town
+ckb;کەیپ تاون;Cape Town
+ba;Кейптаун;Cape Town
+pa;ਕੇਪਟਾਊਨ;Cape Town
+or;କେପ ଟାଉନ;Cape Town
+my;ကိပ်တောင်းမြို့;Cape Town
+zh;開普敦;Cape Town
+ce;Кейптаун;Cape Town
+gn;Yvy akua Táva;Cape Town
+mhr;Кейптаун;Cape Town
+uz;Keyptaun;Cape Town
+yue;好望角鎮;Cape Town
+sgs;Keiptauns;Cape Town
+bxr;Кейптаун;Cape Town
+kaa;Keyptaun;Cape Town
+ky;Кейптаун;Cape Town
+tt;Keyptawn;Cape Town
+vep;Keiptaun;Cape Town
+tpi;Kep Taun;Cape Town
+tg;Кейптаун;Cape Town
+bg;Ботхасиг;Bothasig
+mr;बेलव्हिल;Bellville
+ru;Беллвилл;Bellville
+ru;Атлантида;Atlantis
+zh;亞特蘭提斯;Atlantis
+ja;アトランティス（西ケープ州）;Atlantis
+he;אטלנטיס;Atlantis
+ru;Александер-Бей;Alexander Bay
+ro;Somerset-Wes;Somerset West
+uk;Сомерсет-Вест;Somerset West
+ru;Сомерсет-Уэст;Somerset West
+ru;Фисхук;Fish Hoek
+mr;फिशहोक;Fish Hoek
+ta;பிஷ் ஓயிக்;Fish Hoek
+zh;釣魚鎮;Fish Hoek
+uk;Фісхук;Fish Hoek
+ro;Vishoek;Fish Hoek
+ru;Рондебош;Rondebosch
+bg;Рондебосч;Rondebosch
+zh;龍德博斯;Rondebosch
+hy;Ռոնդեբոշ;Rondebosch
+ja;ロンデボッシュ;Rondebosch
+ur;روندیبوش;Rondebosch
+ja;ニューランズ;Newlands
+ur;نیو لینڈز، کیپ ٹاؤن;Newlands
+ru;Лепхалале;Lephalale
+zh;萊帕拉萊;Lephalale
+ru;Бо-Каап;Bo-Kaap
+bn;বো-কাপ;Bo-Kaap
+hy;Բո-Կաապ;Bo-Kaap
+uk;Бо-Каап музей;Bo-Kaap
+ja;ボ・カープ;Bo-Kaap
+ja;ムシナ;Musina
+lb;Messina;Musina
+ru;Мусина;Musina
+zh;穆西納;Musina
+ru;Колчестер;Colchester
+ru;Етуатуа;Etwatwa
+ru;Нтузума;Ntuzuma

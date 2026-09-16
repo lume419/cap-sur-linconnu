@@ -95,3 +95,250 @@ ru;Сэнди-Хилл;Sandy Hill
 ar;ساندي هيل;Sandy Hill
 hi;सैंडी हिल;Sandy Hill
 ja;サンディヒル;Sandy Hill
+kk;Батыс Соңы Ауылы;West End Village
+tr;West End Köyü;West End Village
+uz;West End Qishlog'i;West End Village
+ky;Батыш Чокусу Айылы;West End Village
+id;Desa West End;West End Village
+ms;Kampung West End;West End Village
+bn;ওয়েস্ট এন্ড গ্রাম;West End Village
+ur;ویسٹ اینڈ گاؤں;West End Village
+am;ወስ ተርሚናል መንደር;West End Village
+az;Qərb Ucü Kəndü;West End Village
+fa;روستای وست اند;West End Village
+ha;Kauyeni West End;West End Village
+jv;Desa West End;West End Village
+om;Gandaa West End;West End Village
+pa;ਵੈਸਟ ਐਂਡ ਵਿਲਜ;West End Village
+ps;د ویسټ اینډ کلي;West End Village
+so;Tuulo West End;West End Village
+sw;Kijiji cha West End;West End Village
+tg;Деҳаи West End;West End Village
+tt;West End Авылы;West End Village
+el;Δε Βάλεϊ;The Valley
+he;הוואלי;The Valley
+be;Валі;The Valley
+bg;Вали;The Valley
+fa;د ولی;The Valley
+ka;ვალი;The Valley
+lt;Valis;The Valley
+sr;Вали;The Valley
+th;เดอะแวลลีย์;The Valley
+uk;Валлі;The Valley
+ur;دی ویلی;The Valley
+ky;Валли;The Valley
+ta;தி வேல்லி;The Valley
+kk;Ойпатынсы;The Quarter
+tr;Mahalle;The Quarter
+uz;Chorak;The Quarter
+ky;Квартал;The Quarter
+id;Kuartal;The Quarter
+ms;Kuartal;The Quarter
+bn;কোয়ার্টার;The Quarter
+ur;کوارٹر;The Quarter
+am;ሩብ;The Quarter
+az;Kvartal;The Quarter
+fa;محله;The Quarter
+ha;Sharudda;The Quarter
+jv;Kuartal;The Quarter
+om;Kutaa;The Quarter
+pa;ਕੁਆਰਟਰ;The Quarter
+ps;کوارتر;The Quarter
+so;Rubuc;The Quarter
+sw;Kanda;The Quarter
+tg;Махаллаи;The Quarter
+tt;Квартал;The Quarter
+kk;Фаррингтон;Farrington
+ky;Фаррингтон;Farrington
+bn;ফারিংটন;Farrington
+ur;فیرنگٹن;Farrington
+am;ፋሪንግተን;Farrington
+az;Farrinqton;Farrington
+fa;فارینگتون;Farrington
+pa;ਫੈਰਿੰਗਟਨ;Farrington
+ps;فارنګټن;Farrington
+tg;Фаррингтон;Farrington
+tt;Фаррингтон;Farrington
+kk;Тасты Жер;Stoney Ground
+uz;Tosh Yer;Stoney Ground
+ky;Таштуу Жер;Stoney Ground
+id;Tanah Berbatu;Stoney Ground
+ms;Tanah Berbatu;Stoney Ground
+bn;পাথুরে মাটি;Stoney Ground
+ur;پتھریلی زمین;Stoney Ground
+am;ድንጋይ መሬት;Stoney Ground
+az;Daş Yer;Stoney Ground
+fa;زمین سنگی;Stoney Ground
+ha;Wurin Dutse;Stoney Ground
+jv;Tanah Batu;Stoney Ground
+om;Lafaa Dhagaa;Stoney Ground
+pa;ਪੱਥਰ ਲੱਗੀ ਜ਼ਮੀਨ;Stoney Ground
+ps;د سنګي ځمکه;Stoney Ground
+so;Dhulka Dhagaxa;Stoney Ground
+sw;Ardhi ya Mawe;Stoney Ground
+tg;Хоки Санги;Stoney Ground
+tt;Таштуу Җир;Stoney Ground
+kk;Оңтүстік Тепе Ауылы;South Hill Village
+tr;South Hill Köyü;South Hill Village
+uz;Janubiy Tepa Qishlog'i;South Hill Village
+ky;Түштүк Чокусу Айылы;South Hill Village
+id;Desa South Hill;South Hill Village
+ms;Kampung South Hill;South Hill Village
+bn;সাউথ হিল গ্রাম;South Hill Village
+ur;ساؤتھ ہل گاؤں;South Hill Village
+am;ደቡብ ኮንቶ መንደር;South Hill Village
+az;Cənub Təpəsi Kəndü;South Hill Village
+fa;روستای ساوث هیل;South Hill Village
+ha;Kauyeni South Hill;South Hill Village
+jv;Desa South Hill;South Hill Village
+om;Gandaa South Hill;South Hill Village
+pa;ਸਾਊਥ ਹਿਲ ਵਿਲਜ;South Hill Village
+ps;د سوت ھيل کلي;South Hill Village
+so;Tuulo South Hill;South Hill Village
+sw;Kijiji cha South Hill;South Hill Village
+tg;Деҳаи South Hill;South Hill Village
+tt;South Hill Авылы;South Hill Village
+kk;Құмды Жер Ауылы;Sandy Ground Village
+tr;Sandy Ground Köyü;Sandy Ground Village
+uz;Qumli Yer Qishlog'i;Sandy Ground Village
+ky;Кумдуу Жер Айылы;Sandy Ground Village
+id;Desa Tanah Pasir;Sandy Ground Village
+ms;Kampung Tanah Berpasir;Sandy Ground Village
+bn;স্যান্ডি গ্রাউন্ড গ্রাম;Sandy Ground Village
+ur;سینڈی گراؤنڈ گاؤں;Sandy Ground Village
+am;ሸን መሬት መንደር;Sandy Ground Village
+az;Qumlu Yer Kəndü;Sandy Ground Village
+fa;روستای ریگی;Sandy Ground Village
+ha;Kauyeni Sandy;Sandy Ground Village
+jv;Desa Sandy Ground;Sandy Ground Village
+om;Gandaa Sandy;Sandy Ground Village
+pa;ਸੈਂਡੀ ਗ੍ਰਾਊਂਡ ਵਿਲਜ;Sandy Ground Village
+ps;د شني ځمکې کلي;Sandy Ground Village
+so;Tuulo Sandy;Sandy Ground Village
+sw;Kijiji cha Sandy;Sandy Ground Village
+tg;Деҳаи Sandy Ground;Sandy Ground Village
+tt;Sandy Ground Авылы;Sandy Ground Village
+kk;Түндік Жағасы;North Side
+tr;Kuzey Tarafı;North Side
+uz;Shimoliy Taraf;North Side
+ky;Түндүк Жагасы;North Side
+id;Sisi Utara;North Side
+ms;Sebelah Utara;North Side
+bn;উত্তর পাশ;North Side
+ur;شمال کی طرف;North Side
+am;ሰሜን ጎን;North Side
+az;Şimal Tərəfi;North Side
+fa;سمت شمال;North Side
+ha;Gefen Arewa;North Side
+jv;Sisi Lor;North Side
+om;Gama Kaaba;North Side
+pa;ਉੱਤਰ ਪੱਖ;North Side
+ps;شمالي خوا;North Side
+so;Dhinaca Woqooyi;North Side
+sw;Upande wa Kaskazini;North Side
+tg;Ҷониби Шимол;North Side
+tt;Төньяк Ягы;North Side
+kk;Түндік Тепе Ауылы;North Hill Village
+tr;North Hill Köyü;North Hill Village
+uz;Shimoliy Tepa Qishlog'i;North Hill Village
+ky;Түндүк Чокусу Айылы;North Hill Village
+id;Desa North Hill;North Hill Village
+ms;Kampung North Hill;North Hill Village
+bn;নর্থ হিল গ্রাম;North Hill Village
+ur;نارتھ ہل گاؤں;North Hill Village
+am;ሰሜን ኮንቶ መንደር;North Hill Village
+az;Şimal Təpəsi Kəndü;North Hill Village
+fa;روستای نورث هیل;North Hill Village
+ha;Kauyeni North Hill;North Hill Village
+jv;Desa North Hill;North Hill Village
+om;Gandaa North Hill;North Hill Village
+pa;ਨਾਰਥ ਹਿਲ ਵਿਲਜ;North Hill Village
+ps;د شمالي ھيل کلي;North Hill Village
+so;Tuulo North Hill;North Hill Village
+sw;Kijiji cha North Hill;North Hill Village
+tg;Деҳаи North Hill;North Hill Village
+tt;North Hill Авылы;North Hill Village
+kk;Арал Иісі;Island Harbour
+tr;Island Limanı;Island Harbour
+uz;Orol Bandari;Island Harbour
+ky;Аралдын Иманы;Island Harbour
+id;Pelabuhan Pulau;Island Harbour
+ms;Pelabuhan Pulau;Island Harbour
+bn;আইল্যান্ড হার্বার;Island Harbour
+ur;جزیرہ کی بندرگاہ;Island Harbour
+am;የደሴት ወደብ;Island Harbour
+az;Adacıq Limanı;Island Harbour
+fa;بندر جزیره;Island Harbour
+ha;Filin Gida na Tsibiri;Island Harbour
+jv;Pelabuhan Pulo;Island Harbour
+om;Giddetu Karaa;Island Harbour
+pa;ਆਈਲੈਂਡ ਹਾਰਬਰ;Island Harbour
+ps;د جزيرې بندر;Island Harbour
+so;Ganacsiga Isla;Island Harbour
+sw;Bandari ya Kisiwa;Island Harbour
+tg;Бандари Дарёи;Island Harbour
+tt;Утрау Иманы;Island Harbour
+kk;Джордж Тепе;George Hill
+tr;George Tepesi;George Hill
+uz;Jorj Tepa;George Hill
+ky;Джордж Чокусу;George Hill
+bn;জর্জ হিল;George Hill
+ur;جارج ہل;George Hill
+am;ጆርጅ ኮንቶ;George Hill
+az;Corcan Təpəsi;George Hill
+fa;تپه جورج;George Hill
+pa;ਜਾਰਜ ਹਿਲ;George Hill
+ps;جورج هيل;George Hill
+tg;Қуллаи Jorj;George Hill
+tt;George Тепе;George Hill
+kk;Шығыс Соңы Ауылы;East End Village
+tr;East End Köyü;East End Village
+uz;Sharqiy Soʻng Qishlog'i;East End Village
+ky;Чыгыш Чокусу Айылы;East End Village
+id;Desa East End;East End Village
+ms;Kampung East End;East End Village
+bn;ইস্ট এন্ড গ্রাম;East End Village
+ur;ایسٹ اینڈ گاؤں;East End Village
+am;ምስራቅ ጫፍ መንደር;East End Village
+az;Şərq Ucü Kəndü;East End Village
+fa;روستای ایسٹ اند;East End Village
+ha;Kauyeni East End;East End Village
+jv;Desa East End;East End Village
+om;Gandaa East End;East End Village
+pa;ਈਸਟ ਐਂਡ ਵਿਲਜ;East End Village
+ps;د ختيځ اینډ کلي;East End Village
+so;Tuulo East End;East End Village
+sw;Kijiji cha East End;East End Village
+tg;Деҳаи East End;East End Village
+tt;East End Авылы;East End Village
+kk;Соғу Нүктесі Ауылы;Blowing Point Village
+tr;Blowing Point Köyü;Blowing Point Village
+uz;Puflash Nuqta Qishlog'i;Blowing Point Village
+ky;Согуш Чекити Айылы;Blowing Point Village
+id;Desa Blowing Point;Blowing Point Village
+ms;Kampung Blowing Point;Blowing Point Village
+bn;ব্লোয়িং পয়েন্ট গ্রাম;Blowing Point Village
+ur;بلونگ پوائنٹ گاؤں;Blowing Point Village
+am;የአየር ነጥብ መንደር;Blowing Point Village
+az;Esən Nöqtə Kəndü;Blowing Point Village
+fa;روستای نقطه باد;Blowing Point Village
+ha;Kauyeni Blowing;Blowing Point Village
+jv;Desa Blowing Point;Blowing Point Village
+om;Gandaa Blowing Point;Blowing Point Village
+pa;ਬਲੋਇੰਗ ਪੁਆਇਨਟ ਵਿਲਜ;Blowing Point Village
+ps;د د پوهې ځمکې کلي;Blowing Point Village
+so;Tuulo Blowing Point;Blowing Point Village
+sw;Kijiji cha Blowing Point;Blowing Point Village
+tg;Деҳаи Blowing Point;Blowing Point Village
+tt;Blowing Point Авылы;Blowing Point Village
+kk;Құмды Тепе;Sandy Hill
+uz;Qumli Tepa;Sandy Hill
+ky;Кумдуу Чокусу;Sandy Hill
+bn;স্যান্ডি হিল;Sandy Hill
+ur;سینڈی ہل;Sandy Hill
+am;ሸን ኮንቶ;Sandy Hill
+az;Qumlu Təpə;Sandy Hill
+fa;تپه شنی;Sandy Hill
+pa;ਸੈਂਡੀ ਹਿਲ;Sandy Hill
+ps;شني ھيل;Sandy Hill
+tg;Қуллаи Qumli;Sandy Hill

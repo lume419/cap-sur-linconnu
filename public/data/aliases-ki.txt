@@ -65,3 +65,25 @@ de;Tauma;Tauma Village
 fr;Tauma;Tauma Village
 de;Taungaeaka;Taungaeaka Village
 fr;Taungaeaka;Taungaeaka Village
+fa;تاکو;Taku Village
+mk;Такарано;Takarano Village
+fa;تابیاوئا;Tabiauea Village
+pl;Tabiauea;Tabiauea Village
+bg;Рунгата;Rungata
+fa;رورتی;Roreti Village
+pl;Roreti;Roreti Village
+fi;South Tarawa;Tarawa
+he;דרום טאראווה;Tarawa
+da;South Tarawa;Tarawa
+ro;South Tarawa;Tarawa
+uk;Тарава;Tarawa
+fa;آنتای;Antai Village
+sl;Paelau;Napia Village
+no;Napari;Napari Village
+sv;London;London Village
+gl;London;London Village
+lt;Londonas;London Village
+fa;لندن;London Village
+pl;London;London Village
+no;Kanton;Kanton Village
+pl;Bairiki;Bairiki Village

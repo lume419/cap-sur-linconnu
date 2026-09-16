@@ -166,3 +166,531 @@ en;Kambakwe;Kamba
 en;Sembetwa;Msambatwa
 en;Nyakawangala;Nyakawanga
 en;Idahi;Idayi
+ru;Занзибар;Zanzibar
+be;Занзібар;Zanzibar
+bg;Занзибар;Zanzibar
+da;Zanzibar by;Zanzibar
+el;Πόλη της Ζανζιβάρης;Zanzibar
+fa;زنگبار;Zanzibar
+ja;ザンジバルシティ;Zanzibar
+ko;잔지바르시티;Zanzibar
+lt;Zanzibaras;Zanzibar
+no;Zanzibar by;Zanzibar
+sr;Занзибар;Zanzibar
+uk;Занзібар;Zanzibar
+ur;زنجبار شہر;Zanzibar
+yo;Ìlú Zanzibar;Zanzibar
+zh;桑给巴尔市;Zanzibar
+cy;Sansibar;Zanzibar
+he;זנזיבר סיטי;Zanzibar
+ka;ზანზიბარი;Zanzibar
+uz;Zanjibar;Zanzibar
+kk;Занзибар;Zanzibar
+ky;Занзибар;Zanzibar
+hi;ज़ंजीबार;Zanzibar
+bn;জাঞ্জিবার;Zanzibar
+am;ዛንዚባር;Zanzibar
+pa;زنجبار;Zanzibar
+ps;زنجبار;Zanzibar
+tg;Зanjибор;Zanzibar
+ru;Вето;Wete
+hi;वेटे;Wete
+bn;ওয়েটে;Wete
+ur;ویٹے;Wete
+am;ወ!ተ;Wete
+fa;وتی;Wete
+ja;ウェテ;Wete
+pa;ویٹے;Wete
+ps;ویته;Wete
+hi;व्वावा;Vwawa
+bn;ভওয়াওয়া;Vwawa
+ur;ووावا;Vwawa
+am;ቮዋዋ;Vwawa
+fa;ووافا;Vwawa
+ja;ヴワワ;Vwawa
+pa;ووافا;Vwawa
+ps;ووافا;Vwawa
+he;אוגיגי;Ujiji
+ru;Уджиджи;Ujiji
+be;Уджыджы;Ujiji
+ja;ウジジ;Ujiji
+ko;우지지;Ujiji
+lt;Udžidžis;Ujiji
+uk;Уджиджи;Ujiji
+zh;烏吉吉;Ujiji
+ru;Тундума;Tunduma
+ru;Тариме;Tarime
+ru;Танга;Tanga
+be;Танга;Tanga
+bg;Танга;Tanga
+fa;تانگا، تانزانیا;Tanga
+he;טאנגה;Tanga
+ja;タンガ;Tanga
+ko;탕가;Tanga
+zh;坦噶;Tanga
+el;Τάνγκα;Tanga
+ur;تانگا، تنزانیہ;Tanga
+hi;तांगा;Tanga
+bn;তাঙ্গা;Tanga
+am;ታንጋ;Tanga
+pa;تانگا;Tanga
+ps;تانگا;Tanga
+bg;Табора;Tabora
+fa;تابورا;Tabora
+ja;タボラ;Tabora
+ko;타보라;Tabora
+ru;Табора;Tabora
+zh;塔波拉;Tabora
+el;Ταμπόρα;Tabora
+ur;تابورا;Tabora
+hi;तबोरा;Tabora
+bn;তাবোরা;Tabora
+am;ታቦራ;Tabora
+pa;تابورا;Tabora
+ps;تابورا;Tabora
+bg;Сумбауанга;Sumbawanga
+fa;سومباوانگا;Sumbawanga
+ja;スンバワンガ;Sumbawanga
+ko;숨바왕가;Sumbawanga
+lt;Sumbavanga;Sumbawanga
+ur;سومباوانگا;Sumbawanga
+ru;Сумбаванга;Sumbawanga
+zh;松巴萬加;Sumbawanga
+hi;सुम्बावांगा;Sumbawanga
+bn;সুম্বাওয়াঙ্গা;Sumbawanga
+am;ሱምባዋንጋ;Sumbawanga
+pa;سمبوانگا;Sumbawanga
+ps;سمبوانګا;Sumbawanga
+ru;Сингида;Singida
+hi;सिंगिडा;Singida
+bn;সিঙ্গিদা;Singida
+ur;سنگیڈا;Singida
+am;ሲንግዲያ;Singida
+fa;سینگیدا;Singida
+ja;シンギダ;Singida
+pa;سنگیڈا;Singida
+ps;سنګیډا;Singida
+bg;Шинянга;Shinyanga
+fa;شینیانگا;Shinyanga
+ja;シニャンガ;Shinyanga
+ko;시니앙가;Shinyanga
+lt;Šinjanga;Shinyanga
+ur;شینیانگا;Shinyanga
+ru;Шиньянга;Shinyanga
+zh;欣延加;Shinyanga
+hi;शिन्यांगा;Shinyanga
+bn;শিনিয়াঙ্গা;Shinyanga
+am;ሺንያንጋ;Shinyanga
+pa;شنیانگا;Shinyanga
+ps;شنیانګا;Shinyanga
+ru;Сенгерема;Sengerema
+ru;Нзега;Nzega
+hi;न्जोम्बे;Njombe
+bn;এনজোম্বে;Njombe
+ur;نجومبے;Njombe
+am;ንጆምቤ;Njombe
+fa;نجومبه;Njombe
+ja;ンジョンベ;Njombe
+pa;نجومبے;Njombe
+ps;نجومبي;Njombe
+ru;Нгара;Ngara
+ja;ンガラ;Ngara
+sr;Мванза;Mwanza
+ja;ムワンザ;Mwanza
+bg;Муанза;Mwanza
+fa;موانزا;Mwanza
+lt;Mvanza;Mwanza
+ko;므완자;Mwanza
+ru;Мванза;Mwanza
+zh;姆万扎;Mwanza
+be;Мванза;Mwanza
+ka;მვანზა;Mwanza
+ky;Мванза;Mwanza
+ur;موانزا;Mwanza
+hi;म्वांजा;Mwanza
+bn;মোয়ানজা;Mwanza
+am;ምዋንዛ;Mwanza
+pa;موانزا;Mwanza
+ps;موانزا;Mwanza
+ru;Мусома;Musoma
+bg;Мусома;Musoma
+fa;ماسوما;Musoma
+ja;ムソマ;Musoma
+ko;무소마;Musoma
+mn;Мусома;Musoma
+ur;موسوما;Musoma
+zh;穆索馬;Musoma
+hi;मुसोमा;Musoma
+bn;মুসোমা;Musoma
+am;ሙሶማ;Musoma
+pa;موسوما;Musoma
+ps;موسوما;Musoma
+be;Мсога;Msoga
+hi;म्पांडा;Mpanda
+bn;এমপান্ডা;Mpanda
+ur;مپانڈا;Mpanda
+am;ምጳንዳ;Mpanda
+fa;مپانداا;Mpanda
+ja;ムパンダ;Mpanda
+pa;مپانڈا;Mpanda
+ps;مپانډا;Mpanda
+ru;Моши;Moshi
+bg;Моши;Moshi
+el;Μόσι;Moshi
+fa;موشی;Moshi
+he;מושי;Moshi
+ja;モシ;Moshi
+ko;모시;Moshi
+lt;Mošis;Moshi
+sr;Моши;Moshi
+ur;موشی، تنزانیہ;Moshi
+zh;莫希;Moshi
+hi;मोशी;Moshi
+bn;মোশি;Moshi
+am;ሞሺ;Moshi
+pa;موشی;Moshi
+ps;موشی;Moshi
+ja;モロゴロ;Morogoro
+ru;Морогоро;Morogoro
+be;Марагора;Morogoro
+bg;Морогоро;Morogoro
+fa;موروگورو;Morogoro
+ko;모로고로;Morogoro
+lt;Morogoras;Morogoro
+uk;Морогоро;Morogoro
+zh;莫罗戈罗;Morogoro
+el;Μορογκόρο;Morogoro
+ur;موروگورو;Morogoro
+hi;मोरोगोरो;Morogoro
+bn;মোরোগোরো;Morogoro
+am;ሞሮጎሮ;Morogoro
+pa;موروگورو;Morogoro
+ps;موروګورو;Morogoro
+bg;Млимба;Mlimba
+el;Μλίμπα;Mlimba
+ru;Млимба;Mlimba
+hi;म्कोकोटनी;Mkokotoni
+bn;এমকোকোটনি;Mkokotoni
+ur;مکوکوٹنی;Mkokotoni
+am;ምኮኮቶኒ;Mkokotoni
+fa;مکوکوتنی;Mkokotoni
+ja;ムココトニ;Mkokotoni
+pa;مکوکوٹنی;Mkokotoni
+ps;مکوکوتونی;Mkokotoni
+bg;Мкоани;Mkoani
+el;Μκοάνι;Mkoani
+uk;Мкоані;Mkoani
+ja;ムコアニ;Mkoani
+fa;شهرستان امکوانی;Mkoani
+ru;Мкоани;Mkoani
+ru;Мбее;Mbeya
+bg;Мбея;Mbeya
+fa;امبیا;Mbeya
+ja;ムベヤ;Mbeya
+ko;므베야;Mbeya
+lt;Mbeja;Mbeya
+ru;Мбея;Mbeya
+zh;姆貝亞;Mbeya
+uk;Мбея;Mbeya
+ur;مبیا;Mbeya
+kk;Мбея;Mbeya
+ky;Мбея;Mbeya
+hi;म्बेया;Mbeya
+bn;ম্বেয়া;Mbeya
+am;ምቤያ;Mbeya
+pa;ملیا;Mbeya
+ps;مبیا;Mbeya
+tg;Мбея;Mbeya
+ru;Макамбако;Makumbako
+ru;Коани;Koani
+kk;Коани;Koani
+ky;Коани;Koani
+hi;कोअनी;Koani
+bn;কোয়ানি;Koani
+ur;کوانی;Koani
+am;ኮአኒ;Koani
+fa;کوانی;Koani
+ja;コアニ;Koani
+pa;کوانی;Koani
+ps;کوانی;Koani
+tg;Коани;Koani
+ru;Кивенгва;Kiwengwa
+ja;キルワ・マソコ;Kilwa Masoko
+el;Κίλουα Μασόκο;Kilwa Masoko
+ru;Килоса;Kilosa
+el;Κιλόσα;Kilosa
+uk;Кілоса;Kilosa
+ja;キロサ;Kilosa
+bg;Килиматинде;Kilimatinde
+ru;Килиматинде;Kilimatinde
+he;קיגומה;Kigoma
+ru;Кигоме;Kigoma
+be;Кігома;Kigoma
+bg;Кигома;Kigoma
+fa;کیگوما;Kigoma
+ja;キゴマ;Kigoma
+ko;키고마;Kigoma
+ru;Кигома;Kigoma
+zh;基戈馬;Kigoma
+ur;کیگوما;Kigoma
+kk;Кигома;Kigoma
+ky;Кигома;Kigoma
+hi;किगोमा;Kigoma
+bn;কিগোমা;Kigoma
+am;ኪጎማ;Kigoma
+pa;کیگوما;Kigoma
+ps;کیگوما;Kigoma
+tg;Кигома;Kigoma
+ru;Кибаха;Kibaha
+kk;Кибаха;Kibaha
+ky;Кибаха;Kibaha
+hi;किबाहा;Kibaha
+bn;কিবাহা;Kibaha
+ur;کیباہا;Kibaha
+am;ክባሃ;Kibaha
+fa;کیباها;Kibaha
+ja;キバハ;Kibaha
+pa;کیباہا;Kibaha
+ps;کیباها;Kibaha
+tg;Кибаха;Kibaha
+ru;Катумба;Katumba
+ru;Касулу;Kasulu
+bg;Касулу;Kasulu
+el;Αστική Περιοχή Κασούλου;Kasulu
+zh;卡蘇盧;Kasulu
+uk;Касулу;Kasulu
+ru;Кахама;Kahama
+zh;卡哈馬;Kahama
+uk;Кахама;Kahama
+ja;カハマ;Kahama
+ru;Исака;Isaka
+ru;Иринга;Iringa
+bg;Иринга;Iringa
+fa;ایرینگا;Iringa
+ja;イリンガ;Iringa
+ko;이링가;Iringa
+zh;伊林加;Iringa
+el;Ιρίνγκα;Iringa
+kk;Иринга;Iringa
+ky;Иринга;Iringa
+hi;इरिंगा;Iringa
+bn;ইরিঙ্গা;Iringa
+ur;ایرنگا;Iringa
+am;ኢሪንጋ;Iringa
+pa;ایرنگا;Iringa
+ps;ایرنګا;Iringa
+tg;Иринга;Iringa
+ru;Ифакара;Ifakara
+ru;Хандени;Handeni
+ru;Геита;Geita
+kk;Геита;Geita
+ky;Гейта;Geita
+hi;गेइटा;Geita
+bn;গেইটা;Geita
+ur;گیٹا;Geita
+am;ገይታ;Geita
+fa;گیتا;Geita
+ja;ゲイタ;Geita
+pa;گیٹا;Geita
+ps;ګیتا;Geita
+tg;Геита;Geita
+he;דודומה;Dodoma
+ja;ドドマ;Dodoma
+ru;Додома;Dodoma
+fa;دودوما;Dodoma
+am;ዶዶማ;Dodoma
+bg;Додома;Dodoma
+mr;डोडोमा;Dodoma
+sr;Додома;Dodoma
+be;Дадома;Dodoma
+ce;Додома;Dodoma
+ckb;دۆدۆما;Dodoma
+el;Ντοντόμα;Dodoma
+hi;दोदोमा;Dodoma
+hy;Դոդոմա;Dodoma
+ka;დოდომა;Dodoma
+kk;Додома;Dodoma
+ko;도도마;Dodoma
+ky;Додома;Dodoma
+mk;Додома;Dodoma
+mrj;Додома;Dodoma
+pa;ਦੋਦੋਮਾ;Dodoma
+ps;دودوما;Dodoma
+ta;டொடோமா;Dodoma
+tg;Додома;Dodoma
+th;โดโดมา;Dodoma
+udm;Додома;Dodoma
+uk;Додома;Dodoma
+ur;دودوما;Dodoma
+yue;杜篤瑪;Dodoma
+zh;多多马;Dodoma
+vep;Dodom;Dodoma
+ja;ダルエスサラーム;Dar es Salaam
+lt;Dar es Salamas;Dar es Salaam
+pl;Dar es Salam;Dar es Salaam
+sk;Dar es Salám;Dar es Salaam
+ko;다르에스살람;Dar es Salaam
+el;Ντοντόμα;Dar es Salaam
+bg;Дар ес-Салаам;Dar es Salaam
+ru;Дар-эс-Салам;Dar es Salaam
+sr;Дар ес Салам;Dar es Salaam
+he;דאר א-סלאם;Dar es Salaam
+az;Dar əs Salam;Dar es Salaam
+sgs;Dar es Salams;Dar es Salaam
+be;Дар-эс-Салам;Dar es Salaam
+bo;ཏ་རེ་སི་ས་ལམ།;Dar es Salaam
+ce;Дар-эс-Салам;Dar es Salaam
+el;Νταρ ες Σαλάμ;Dar es Salaam
+fa;دارالسلام;Dar es Salaam
+ga;Dárasalám;Dar es Salaam
+hi;दार अस सलाम;Dar es Salaam
+ka;დარ-ეს-სალამი;Dar es Salaam
+ky;Дар-эс-Салам шаары;Dar es Salaam
+lv;Dāresalāma;Dar es Salaam
+mk;Дар ес Салам;Dar es Salaam
+mr;दार एस सलाम;Dar es Salaam
+mrj;Дар-эс-Салам;Dar es Salaam
+my;ဒါအက်စ် ဆယ်လန်းမြို့;Dar es Salaam
+os;Дар-эс-Салам;Dar es Salaam
+pa;ਦਾਰ ਅਸ ਸਲਾਮ;Dar es Salaam
+ta;தாருஸ்ஸலாம்;Dar es Salaam
+th;ดาร์-เอส-ซาลาม;Dar es Salaam
+tr;Darüsselam;Dar es Salaam
+ug;دارېسسالام;Dar es Salaam
+uk;Дар-ес-Салам;Dar es Salaam
+ur;دارالسلام;Dar es Salaam
+vep;Dar Es Salam;Dar es Salaam
+yue;三蘭港;Dar es Salaam
+zh;达累斯萨拉姆;Dar es Salaam
+kk;Дар-ес-Салам;Dar es Salaam
+bn;দার এস সালাম;Dar es Salaam
+am;ዳር ኢስ ሳላም;Dar es Salaam
+ps;دار السلام;Dar es Salaam
+tg;Дар ас-Салом;Dar es Salaam
+ru;Чаке Чаке;Chake Chake
+kk;Чаке Чаке;Chake Chake
+ky;Чаке Чаке;Chake Chake
+hi;चाके चाके;Chake Chake
+bn;চাকে চাকে;Chake Chake
+ur;چاکے چاکے;Chake Chake
+am;ቻኬ ቻኬ;Chake Chake
+az;Çakə Çakə;Chake Chake
+fa;چاکه چاکه;Chake Chake
+ja;チャケチャケ;Chake Chake
+pa;چاکے چاکے;Chake Chake
+ps;چاکې چاکې;Chake Chake
+tg;Чаке Чаке;Chake Chake
+ru;Бунда;Bunda
+ru;Букоба;Bukoba
+be;Букоба;Bukoba
+bg;Букоба;Bukoba
+fa;بوکوبا;Bukoba
+ja;ブコバ;Bukoba
+ko;부코바;Bukoba
+zh;布科巴;Bukoba
+kk;Бухоба;Bukoba
+ky;Бухоба;Bukoba
+hi;बुकोबा;Bukoba
+bn;বুকোবা;Bukoba
+ur;بوکوبا;Bukoba
+am;ቡኮባ;Bukoba
+pa;بوکوبا;Bukoba
+ps;بوکوبا;Bukoba
+tg;Бухоба;Bukoba
+ru;Бихарамуло;Biharamulo
+uk;Бихарамуло;Biharamulo
+ru;Бариади;Bariadi
+bg;Багамойо;Bagamoyo
+ja;バガモヨ;Bagamoyo
+ko;바가모요;Bagamoyo
+ru;Багамойо;Bagamoyo
+zh;巴加莫約;Bagamoyo
+bg;Бабати;Babati
+fa;باباتی;Babati
+he;בבטי;Babati
+ja;ババティ;Babati
+ko;바바티;Babati
+lt;Babatis;Babati
+uk;Бабаті;Babati
+ru;Бабати;Babati
+zh;巴巴蒂;Babati
+kk;Бабати;Babati
+ky;Бабати;Babati
+hi;बाबती;Babati
+bn;ববাতি;Babati
+ur;بابتی;Babati
+am;ባባቲ;Babati
+pa;بابتی;Babati
+ps;بابتي;Babati
+tg;Бабати;Babati
+ja;アルーシャ;Arusha
+fa;آروشا;Arusha
+sr;Аруша;Arusha
+zh;阿鲁沙;Arusha
+ru;Аруша;Arusha
+kk;Аруша;Arusha
+ky;Аруша;Arusha
+hi;अरुषा;Arusha
+bn;আরুশা;Arusha
+ur;اروشا;Arusha
+am;አሩሻ;Arusha
+az;Aruşa;Arusha
+pa;اروشا;Arusha
+ps;اروشا;Arusha
+tg;Аруша;Arusha
+ru;Сонгеа;Songea
+bg;Сонгея;Songea
+fa;سانگی;Songea
+ja;ソンゲア;Songea
+ko;송게아;Songea
+ur;سونگیا;Songea
+zh;松蓋阿;Songea
+kk;Сонгеа;Songea
+ky;Сонгеа;Songea
+hi;सोंगिया;Songea
+bn;সোঙ্গেয়া;Songea
+am;ሶንጊያ;Songea
+pa;سونگیا;Songea
+ps;سونګيا;Songea
+tg;Сонгеа;Songea
+ru;Нданда;Ndanda
+be;Нданда;Ndanda
+ru;Мтвара;Mtwara
+bg;Мтвара;Mtwara
+fa;امتوارا;Mtwara
+ja;ムトワラ;Mtwara
+ko;므트와라;Mtwara
+lt;Mtvara;Mtwara
+ur;متوارا;Mtwara
+kk;Мтвара;Mtwara
+ky;Мтвара;Mtwara
+hi;म्टवारा;Mtwara
+bn;ম্টওয়ারা;Mtwara
+am;ምትዋራ;Mtwara
+az;Mtvara;Mtwara
+pa;متوارا;Mtwara
+ps;متوارا;Mtwara
+tg;Мтвара;Mtwara
+ja;ミキンダニ;Mikindani
+zh;米金达尼;Mikindani
+ru;Масаси;Masasi
+ru;Линда;Lindi
+bg;Линди;Lindi
+el;Λίντι;Lindi
+fa;لیندی;Lindi
+ja;リンディ;Lindi
+ko;린디;Lindi
+lt;Lindis;Lindi
+ur;لیندی;Lindi
+ru;Линди;Lindi
+zh;林迪;Lindi
+kk;Линди;Lindi
+ky;Линди;Lindi
+hi;लिंदी;Lindi
+bn;লিন্দি;Lindi
+am;ሊንዲ;Lindi
+pa;لندی;Lindi
+ps;لندي;Lindi
+tg;Линди;Lindi
+bg;Киндимба;Kindimba
+ru;Нунгви;Nungwi

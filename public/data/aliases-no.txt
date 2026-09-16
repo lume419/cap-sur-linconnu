@@ -809,3 +809,1663 @@ no;Tempelsetra;Tempelseter
 no;Ølensvåg;Olensvag
 no;Skitenelva;Skittenelv
 no;Skitnelv;Skittenelv
+ru;Итре-Хиберг;Kiberg
+ru;Итре-Биллефьорд;Gorbovuotna
+bg;Вардьо;Vardø
+fi;Vuoreija;Vardø
+hu;Vardő;Vardø
+ru;Варде;Vardø
+ru;Варангерботи;Vuonnabahta
+fi;Vesisaari;Vadsø
+sv;Vadsø kommun;Vadsø
+ru;Вадсе;Vadsø
+ar;فادسو;Vadsø
+kk;Вадсё;Vadsø
+tr;Vadso;Vadsø
+ky;Вадсё;Vadsø
+id;Vadso;Vadsø
+ms;Vadso;Vadsø
+hi;वाडसो;Vadsø
+bn;ভাডসো;Vadsø
+ur;وادسو;Vadsø
+am;ቫድሶ;Vadsø
+fa;وادسو;Vadsø
+ha;Vadso;Vadsø
+ja;ヴァッツォ;Vadsø
+jv;Vadso;Vadsø
+om;Vadso;Vadsø
+pa;ਵਾਡਸੋ;Vadsø
+ps;وادسو;Vadsø
+so;Vadso;Vadsø
+sw;Vadso;Vadsø
+tg;Вадсё;Vadsø
+tt;Вадсё;Vadsø
+bg;Талвик;Talvik
+ru;Свартнес;Svartnes
+ru;Снефьорд;Muorral
+ru;Смельрорен;Smellror
+ru;Слоттен;Muotki
+ru;Скуганварре;Skoganvarre
+ru;Щетнингберг;Skjøtningberg
+ko;시파구라;Skiippagurra
+ru;Скарсвог;Skarsvåg
+ru;Сандвика;Sandvikvær
+ru;Ревснесхамн;Revsneshamn
+ru;Репвог;Reiffváhki
+ru;Реппен;Reahpen
+ru;Паддебю;Paddeby
+ru;Оллернес;Oldernes
+ru;Нуортит-Сиейда;Nuorttit Sieiddá
+ru;Нессебю;Unjárga
+ru;Нейден;Neiden
+fi;Näätämö;Neiden
+zh;內伊登;Neiden
+ru;Мескельв;Meskelv
+ru;Мехамн;Mehamn
+ru;Литле-Фьорд;Lillefjord
+ru;Лебесбю;Lebesby
+ru;Лангфьорднесет;Goalsevuohppi
+ur;لانگفجورڈہامن;Langfjordhamn
+ru;Лаксэльв;Lakselv
+be;Лаксэльв;Lakselv
+bg;Лакселв;Lakselv
+fi;Lemmijoki;Lakselv
+ur;لاکسیلو;Lakselv
+zh;拉克塞爾夫;Lakselv
+ru;Крамвик;Kramvik
+ru;Конгсфьорд;Kongsfjord
+uk;Конґсфйорд;Kongsfjord
+ru;Кумагвер;Komagvær
+ru;Клуббукт;Klubbukt
+ru;Киркенес;Kirkenes
+fi;Kirkkoniemi;Kirkenes
+ko;시르케네스;Kirkenes
+os;Киркенес;Kirkenes
+el;Κίρκενες;Kirkenes
+lt;Kirkenesas;Kirkenes
+bg;Хиркенес;Kirkenes
+uk;Кіркенес;Kirkenes
+ja;キルケネス;Kirkenes
+zh;希尔克内斯;Kirkenes
+fa;کیرکنس;Kirkenes
+sr;Ћирћенес;Kirkenes
+ru;Хифьорд;Kifjord
+ru;Кентан;Kentán
+ru;Карлеботн;Karlebotn
+ru;Карасйок;Kárášjohka
+sv;Karasjok;Kárášjohka
+ru;Камейвер;Kamøyvær
+ru;Якобснес;Jakobsnes
+ru;Лявонарка;Jakobsnes
+sv;Vestre Jacobselv;Vestre Jakobselv
+ru;Саннвик;Njárga
+ru;Индре-Биллефьорд;Billávuotna
+ru;Хоннингсвог;Honningsvåg
+bg;Хонингсвог;Honningsvåg
+ja;ホニングスヴォーグ;Honningsvåg
+zh;洪寧斯沃格;Honningsvåg
+fa;هنینگسواگ;Honningsvåg
+lt;Honingsvogas;Honningsvåg
+sr;Хонингсвог;Honningsvåg
+ru;Хессенг;Hesseng
+ru;Хавесунн;Ávanuorri
+he;המרפסט;Hammerfest
+ru;Хаммерфест;Hammerfest
+os;Хаммерфест;Hammerfest
+sr;Хамерфест;Hammerfest
+ar;هامرفست;Hammerfest
+et;Hammerfesti vald;Hammerfest
+ja;ハンメルフェスト;Hammerfest
+bg;Хамерфест;Hammerfest
+mk;Хамерфест;Hammerfest
+zh;亨墨菲斯;Hammerfest
+hu;Hammerfest község;Hammerfest
+ru;Есвер;Gjesvær
+zh;耶斯韋爾;Gjesvær
+nn;Furuflata;Furuflaten
+ceb;Furuflata;Furuflaten
+nb;Furuflata;Furuflaten
+ru;Эльвенес;Elvenes
+ru;Букта;Bukta
+ru;Бугейнес;Bugøynes
+fi;Pykeija;Bugøynes
+zh;比圭內斯;Bugøynes
+zh-Hans;比圭内斯;Bugøynes
+ja;ブゴイネス;Bugøynes
+fa;بوئینس;Bugøynes
+ru;Бреннгам;Brenngam
+ru;Бреннельв;Brennelv
+ru;Берсельв;Etelänpuoli
+zh;比约内湖;Bjørnevatn
+ru;Берлевог;Berlevåg
+ru;Ботсфьорд;Båtsfjord
+et;Båtsfjordi vald;Båtsfjord
+ja;ボツフィヨール;Båtsfjord
+sv;Båtsfjords kommun;Båtsfjord
+zh;博茨菲尤爾;Båtsfjord
+ru;Орвиксанн;Årvik
+fa;التیدت;Alteidet
+fi;Alattio;Alta
+et;Alta vald;Alta
+ru;Алта;Alta
+sr;Алта;Alta
+mk;Алта;Alta
+bg;Алта;Alta
+ko;알타;Alta
+uk;Алта;Alta
+ja;アルタ;Alta
+zh;阿尔塔;Alta
+ar;ألتا;Alta
+fa;التا;Alta
+ja;リペフィヨルド;Rypefjord
+pl;Å;Å, Moskenes
+fi;Å i Lofoten;Å, Moskenes
+nn;Å i Lofoten;Å, Moskenes
+sv;Å;Å, Moskenes
+ru;А и Лофотен;Å, Moskenes
+ur;یٹتیرن;Ytteren
+ur;یٹرے  رمسے;Ytre Ramse
+ur;یٹرے  وپپیڈل;Ytre Oppedal
+bg;Вос;Voss
+et;Vossi vald;Voss
+ja;ヴォス;Voss
+ko;보스;Voss
+mk;Вос;Voss
+uk;Восс;Voss
+ru;Восс;Voss
+sv;Voss kommun;Voss
+zh;沃斯;Voss
+nn;Vollen i Asker;Vollen
+sv;Volda kommun;Volda
+bg;Волда;Volda
+ru;Волда;Volda
+zh;沃爾達;Volda
+ja;ヴィケルスン;Vikersund
+ru;Викерсунд;Vikersund
+bg;Вигеланд;Vigeland
+ru;Вигеланд;Vigeland
+ja;ヴェヴァン;Vevang
+ru;Вестфоссен;Vestfossen
+bg;Вестфосен;Vestfossen
+zh;维斯特富森;Vestfossen
+ar;فستفوسن;Vestfossen
+ru;Вестбю;Vestby
+sv;Vestby kommun;Vestby
+zh;韋斯特比;Vestby
+pl;Vereide;Gloppen
+sv;Gloppens kommun;Gloppen
+ru;Глоппен;Gloppen
+zh;格洛彭;Gloppen
+nb;Vereide;Gloppen
+ms;Vereide;Gloppen
+sv;Vennesla kommun;Vennesla
+fa;ونشمن;Venneshamn
+fa;وبلونگسنس;Veblungsnes
+nn;Vassenden i Jølster;Vassenden
+zh;華晨登;Vassenden
+fa;وسندن;Vassenden
+fa;وانسه;Vanse
+nn;Vangsvik;Vangsvika
+sv;Vangsvik;Vangsvika
+ms;Vangsvik;Vangsvika
+ar;فانغسفيك;Vangsvika
+nb;Vangsvik;Vangsvika
+fa;ونگسویک;Vangsvika
+ar;فانغسهيلا;Vangshylla
+fa;ونگشیلا;Vangshylla
+nn;Valsøyfjorden;Valsøyfjord
+ar;فالسويفيورد;Valsøyfjord
+ar;فالويا;Valøya
+nn;Valen i Sunnhordland;Valen
+ru;Вадхейм;Vadheim
+ko;바드헤임;Vadheim
+bg;Вадхеим;Vadheim
+sv;Utsira kommun;Utsira
+ru;Ундредаль;Undredal
+bg;Ундредал;Undredal
+bg;Улстайнвик;Ulsteinvik
+lt;Ulsteinvikas;Ulsteinvik
+sr;Улстејнвик;Ulsteinvik
+ru;Ульстейнвик;Ulsteinvik
+zh;于爾斯泰因維克;Ulsteinvik
+sv;Tysværs kommun;Tysvær
+ru;Тюсвер;Tysvær
+zh;蒂斯韋爾;Tysvær
+ru;Тюсседаль;Tyssedal
+bg;Тйседал;Tyssedal
+fa;تیسهدال;Tyssedal
+sv;Tysnes kommun;Tysnes
+ru;Тюнсет;Tynset
+sv;Tynsets kommun;Tynset
+zh;廷瑟;Tynset
+bg;Тведестран;Tvedestrand
+et;Tvedestrandi vald;Tvedestrand
+ru;Тведестранн;Tvedestrand
+sv;Tvedestrands kommun;Tvedestrand
+zh;特韋德斯特蘭;Tvedestrand
+fa;توسویک;Tusvik
+ur;تسویک;Tusvik
+bg;Трондхайм;Trondheim
+ja;トロンヘイム;Trondheim
+lt;Trondheimas;Trondheim
+bg;Тронхейм;Trondheim
+he;טרונדהיים;Trondheim
+ja;トロンハイム;Trondheim
+el;Τρόντχαιμ;Trondheim
+ru;Тронхейм;Trondheim
+sr;Трондхејм;Trondheim
+is;Þrándheimur;Trondheim
+ka;ტრონჰეიმი;Trondheim
+be;Тронхейм;Trondheim
+lv;Tronheima;Trondheim
+ar;تروندهايم;Trondheim
+os;Тронхейм;Trondheim
+th;ทรอนด์เฮม;Trondheim
+fa;تروندهایم;Trondheim
+ko;트론헤임;Trondheim
+uk;Тронгейм;Trondheim
+zh;特隆赫姆;Trondheim
+sgs;Truondhėims;Trondheim
+ce;Тронхейм;Trondheim
+mk;Трондхејм;Trondheim
+mn;Тронхейм;Trondheim
+fi;Tromssa;Tromsø
+ja;トロムソ;Tromsø
+ko;트롬쇠;Tromsø
+lt;Trumsė;Tromsø
+sv;Tromsö kommun;Tromsø
+ru;Тромсё;Tromsø
+he;טרומסה;Tromsø
+tr;Tromso;Tromsø
+mr;ट्रोम्सो;Tromsø
+bg;Тромсьо;Tromsø
+lv;Trumse;Tromsø
+os;Тромсё;Tromsø
+fa;ترومسا;Tromsø
+ka;ტრომსე;Tromsø
+th;ทรมเซอ;Tromsø
+mk;Тромсе;Tromsø
+sr;Тромсе;Tromsø
+be;Тромсё;Tromsø
+uk;Тромсе;Tromsø
+zh;特罗姆瑟;Tromsø
+ar;ترومسو;Tromsø
+sv;Tromsö;Tromsø
+kk;Тромсё;Tromsø
+ky;Тромсё;Tromsø
+ms;Tromso;Tromsø
+hi;ट्रॉमसो;Tromsø
+bn;ট্রমসো;Tromsø
+ur;ٹروموسو;Tromsø
+am;ትሮምሶ;Tromsø
+ha;Tromso;Tromsø
+jv;Tromso;Tromsø
+om;Tromso;Tromsø
+pa;ਟ੍ਰੌਮਸੋ;Tromsø
+ps;ټروموسو;Tromsø
+so;Tromso;Tromsø
+sw;Tromso;Tromsø
+tg;Тромсё;Tromsø
+tt;Тромсё;Tromsø
+ms;Tranøy;Tranøya
+jv;Tranøy;Tranøya
+bg;Транбй;Tranby
+ru;Транбй;Tranby
+bg;Товик;Tovik
+ja;トーヴィック;Tovik
+sv;Torsken kommun;Torsken
+zh;滕斯贝格;Tønsberg
+ar;تونسبيرغ;Tønsberg
+ja;トンスベルグ;Tønsberg
+lt;Tionsbergas;Tønsberg
+uk;Тенсберг;Tønsberg
+os;Тёнсберг;Tønsberg
+bg;Тьонсберг;Tønsberg
+sr;Тенсберг;Tønsberg
+ko;퇸스베르그;Tønsberg
+be;Цёнсберг;Tønsberg
+ru;Тёнсберг;Tønsberg
+sv;Tönsberg;Tønsberg
+kk;Тёнсберг;Tønsberg
+tr;Tonsberg;Tønsberg
+uz;Tonsberg;Tønsberg
+ky;Тёнсберг;Tønsberg
+id;Tonsberg;Tønsberg
+ms;Tonsberg;Tønsberg
+hi;टोन्सबर्ग;Tønsberg
+bn;টোনসবার্গ;Tønsberg
+ur;ٹونسبرگ;Tønsberg
+am;ቶንስበርግ;Tønsberg
+az;Tonsberg;Tønsberg
+fa;تونسبرگ;Tønsberg
+ha;Tonsberg;Tønsberg
+jv;Tonsberg;Tønsberg
+om;Tonsberg;Tønsberg
+pa;ਟੋਨਸਬਰਗ;Tønsberg
+ps;ټونسبرج;Tønsberg
+so;Tonsberg;Tønsberg
+sw;Tonsberg;Tønsberg
+tg;Тёнсберг;Tønsberg
+tt;Тёнсберг;Tønsberg
+bg;Томтер;Tomter
+ja;トムター;Tomter
+ru;Томтер;Tomter
+nn;Tofte i Hurum;Tofte
+zh;托夫特;Tofte
+nn;Tjongsfjord;Tjong
+nb;Tjongsfjord;Tjong
+bg;Тьоме;Tjøme
+nds;Kommun Tjøme;Tjøme
+nn;Tjøme kommune;Tjøme
+ru;Хьёме;Tjøme
+sv;Tjøme kommun;Tjøme
+zh;徹默島;Tjøme
+pl;Gmina Time;Time
+sv;Time kommun;Time
+ur;ٹائم، ناروے;Time
+ru;Тиме;Time
+zh;蒂默;Time
+el;Τένφγιορντ;Tennfjord
+nn;Tangen i Stange;Tangen
+ko;타피오르;Tafjord
+nn;Sylte i Fræna;Sylte
+bg;Сволвер;Svolvær
+mk;Сволвер;Svolvær
+sr;Сволвер;Svolvær
+ru;Свольвер;Svolvær
+zh;斯沃尔韦尔;Svolvær
+sv;Svelvik kommun;Svelvik
+ru;Свелвик;Svelvik
+sv;Sveio kommun;Sveio
+zh;孫達爾瑟拉;Sunndalsøra
+nn;Eidsvoll;Sundet
+lt;Eidsvolas;Sundet
+nn;Sunnan;Sundan
+sv;Sunnan;Sundan
+nb;Sunnan;Sundan
+ms;Sunnan;Sundan
+jv;Sunnan;Sundan
+ru;Стрюн;Stryn
+et;Stryni vald;Stryn
+sv;Stryns kommun;Stryn
+zh;斯特林;Stryn
+el;Στρέμεν;Strømmen
+lt;Striomenas;Strømmen
+zh;斯托勒曼;Strømmen
+sv;Strands kommun;Strand
+ar;ستراند;Strand
+ru;Странн;Strand
+zh;斯特蘭;Strand
+nn;Stø i Vesterålen;Stø
+ru;Стё;Stø
+fa;ایستو;Stø
+ru;Схьёрдалсхалсен;Stjørdalshalsen
+bg;Стьордалсхалсен;Stjørdalshalsen
+lt;Schjordalshalsenas;Stjørdalshalsen
+ja;スチェルダールシャルセン;Stjørdalshalsen
+fa;استیوردالزهالسن;Stjørdalshalsen
+sr;Стјердалхалсен;Stjørdalshalsen
+ru;Стейнкьер;Steinkjer
+ar;شتاينكجير;Steinkjer
+kk;Стейнкьер;Steinkjer
+ky;Стейнкьер;Steinkjer
+hi;स्टेनक्जेर;Steinkjer
+bn;স্টেইনকজার;Steinkjer
+ur;سٹین کجر;Steinkjer
+am;ስቴንክጄር;Steinkjer
+fa;استاینکجر;Steinkjer
+ja;スタインキャー;Steinkjer
+pa;ਸਟੈਨਕਜਰ;Steinkjer
+ps;سټاين کجر;Steinkjer
+tg;Стейнкьер;Steinkjer
+tt;Стейнкьер;Steinkjer
+bg;Ставангер;Stavanger
+ja;スタヴァンゲル;Stavanger
+is;Stafangur;Stavanger
+lv;Stavangera;Stavanger
+ru;Ставангер;Stavanger
+ar;ستافانجر;Stavanger
+kk;Ставангер;Stavanger
+ky;Ставангер;Stavanger
+hi;स्टावेंजर;Stavanger
+bn;স্টাভাঞ্জার;Stavanger
+ur;سٹاونجر;Stavanger
+am;ስታቫንገር;Stavanger
+fa;استاونجر;Stavanger
+pa;ਸਟਾਵੇਂਜਰ;Stavanger
+ps;سټاونجر;Stavanger
+tg;Ставангер;Stavanger
+tt;Ставангер;Stavanger
+ru;Статхелле;Stathelle
+bg;Статхеле;Stathelle
+zh;斯塔特赫勒;Stathelle
+fa;استاتله;Stathelle
+zh;斯堂赫勒;Stanghelle
+ru;Стамсунн;Stamsund
+bg;Стамсунд;Stamsund
+ja;スタムスンド;Stamsund
+nb;Stamneshella;Stamnes
+ms;Stamneshella;Stamnes
+jv;Stamneshella;Stamnes
+ceb;Sponviken;Sponvika
+bg;Спонвикен;Sponvika
+bg;Спарбу;Sparbu
+fa;اسپاربو;Sparbu
+sv;Sortlands kommun;Sortland
+ru;Сортланд;Sortland
+ja;ソルトラン;Sortland
+bg;Сортлан;Sortland
+ru;Сортланн;Sortland
+zh;苏特兰;Sortland
+zh;索恩;Son
+fa;سان، نروژ;Son
+ru;Соммарёй;Sommarøy
+fa;ساماروی;Sommarøy
+ur;ساماروی;Sommarøy
+ko;솔보른;Solvorn
+zh;索爾貝格爾瓦;Solbergelva
+sv;Sola kommun;Sola
+et;Sola vald;Sola
+hu;Sola község;Sola
+ru;Сола;Sola
+zh;蘇拉;Sola
+bg;Сокнедал;Soknedal
+uk;Сукнедал;Soknedal
+sv;Søgne kommun;Søgne
+sv;Snillfjord kommun;Snillfjord
+uk;Слемместад;Slemmestad
+nb;Slangsvold;Slangsvoll
+ru;Скуденесхавн;Skudeneshavn
+nb;Skorovas;Skorovatn
+bg;Скогн;Skogn
+fa;اسکوگن;Skogn
+ru;Скогн;Skogn
+ru;Шолль;Skjold
+nn;Skjold i Vindafjord;Skjold
+ru;Скьерстад;Skjerstad
+zh;謝爾斯塔德;Skjerstad
+uk;Шеггедал;Skjeggedal
+ru;Шеберг;Skjeberg
+ko;셰베르그;Skjeberg
+bg;Шиен;Skien
+et;Skieni vald;Skien
+ko;시엔;Skien
+be;Шыен;Skien
+uk;Шієн;Skien
+lt;Šienas;Skien
+sr;Шијен;Skien
+ja;シーエン;Skien
+ru;Шиен;Skien
+zh;希恩;Skien
+sgs;Šėins;Skien
+ar;سكيان;Skien
+kk;Скиен;Skien
+ky;Скиен;Skien
+hi;स्किएन;Skien
+bn;স্কিয়েন;Skien
+ur;سکین;Skien
+am;ስክየን;Skien
+fa;اسکین;Skien
+pa;ਸਕਿਅਨ;Skien
+ps;سکین;Skien
+tg;Скиен;Skien
+tt;Скиен;Skien
+bg;Ши;Ski
+lt;Ši;Ski
+sr;Ши;Ski
+ru;Ши;Ski
+sv;Ski kommun;Ski
+zh;希;Ski
+sv;Skauns kommun;Skaun
+ru;Скёун;Skaun
+zh;斯凱于恩;Skaun
+nn;Skare i Odda;Skare
+ru;Скаланн;Skaland
+ar;اسكافسة;Skafså
+ko;스코부;Skåbu
+ja;オップラン県;Skåbu
+ru;Шушен;Sjusjøen
+ko;슈셰엔;Sjusjøen
+bg;Шушьоен;Sjusjøen
+ru;Щьёхолт;Sjøholt
+ko;셰홀트;Sjøholt
+sr;Шехолт;Sjøholt
+ur;ساوک;Sævik
+ms;Seljeskogen;Seljeskog
+nn;Selje i Nordfjord;Selje
+ru;Селье;Selje
+sv;Sauda kommun;Sauda
+sv;Sarpsborgs kommun;Sarpsborg
+ru;Сарпсборг;Sarpsborg
+ja;サルプスボルグ;Sarpsborg
+uk;Сарпсборг;Sarpsborg
+bg;Сарпсборг;Sarpsborg
+ko;사릅스보르그;Sarpsborg
+be;Сарпсборг;Sarpsborg
+lt;Sarpsborgas;Sarpsborg
+sr;Сарпсборг;Sarpsborg
+zh;萨尔普斯堡;Sarpsborg
+sgs;Sarpsbuorgs;Sarpsborg
+ar;سارپسبرج;Sarpsborg
+kk;Сарпсборг;Sarpsborg
+ky;Сарпсборг;Sarpsborg
+hi;सार्पसबर्ग;Sarpsborg
+bn;সার্পসবার্গ;Sarpsborg
+ur;سارپس برگ;Sarpsborg
+am;ሳርፕስበርግ;Sarpsborg
+fa;سارپسبرگ;Sarpsborg
+pa;ਸਾਰਪਸਬਰਗ;Sarpsborg
+ps;سارپسبرج;Sarpsborg
+tg;Сарпсборг;Sarpsborg
+tt;Сарпсборг;Sarpsborg
+ru;Сандвика;Sandvika
+bg;Санвика;Sandvika
+fa;سندویکا;Sandvika
+sr;Сандвика;Sandvika
+ru;Саннвика;Sandvika
+zh;桑維卡;Sandvika
+ru;Сандвика;Sandviga
+uk;Санднессйоен;Sandnessjøen
+ru;Саннесшёэн;Sandnessjøen
+bg;Саннесшьоен;Sandnessjøen
+sr;Санднесшеен;Sandnessjøen
+sv;Sandnes kommun;Sandnes
+fo;Sandefjord kommuna;Sandefjord
+uk;Саннефіорд;Sandefjord
+bg;Санефьор;Sandefjord
+et;Sandefjordi vald;Sandefjord
+lt;Sandefjordas;Sandefjord
+sr;Сандефјорд;Sandefjord
+ko;산네피오르;Sandefjord
+ru;Саннефьорд;Sandefjord
+zh;桑德尔福德;Sandefjord
+et;Sande vald;Sande
+nn;Sande kommune i Vestfold;Sande
+ru;Санне;Sande
+sv;Sande kommun;Sande
+zh;桑訥;Sande
+ru;Сандане;Sandane
+ko;뤼스타;Rysstad
+fa;ریکهنا;Rykene
+ro;Rygene;Rykene
+ru;Рюгге;Rygge
+nn;Rudsgrendi;Rudsgrend
+sv;Rudsgrendi;Rudsgrend
+nb;Rudsgrendi;Rudsgrend
+ms;Rudsgrendi;Rudsgrend
+ru;Рёрвик;Rørvik
+sr;Рерос;Røros
+ja;レーロース;Røros
+bg;Рьорос;Røros
+he;ררוס;Røros
+be;Рорус;Røros
+lt;Rerusas;Røros
+ka;რიორუსი;Røros
+et;Rørosi vald;Røros
+ru;Рёрус;Røros
+sv;Røros kommun;Røros
+zh;勒羅斯;Røros
+et;Rømskogi vald;Rømskog
+nds;Kommun Rømskog;Rømskog
+nn;Rømskog kommune;Rømskog
+ru;Рёмскуг;Rømskog
+sv;Rømskogs kommun;Rømskog
+zh;勒姆斯庫格;Rømskog
+nn;Roald i Giske;Roald
+bg;Рюкан;Rjukan
+ko;리우칸;Rjukan
+ru;Рьюкан;Rjukan
+zh;尤坎;Rjukan
+sr;Рјукан;Rjukan
+sv;Risørs kommun;Risør
+ru;Рисёр;Risør
+bg;Рисьор;Risør
+et;Risøri vald;Risør
+zh;里瑟爾;Risør
+pl;Rennebu;Voll
+nb;Rennebu;Voll
+nn;Rennebu;Voll
+sv;Rennebu kommun;Voll
+fa;رئین;Reine
+hy;Ռեյնե;Reine
+ja;レーヌ;Reine
+mk;Рејне;Reine
+os;Рейне;Reine
+uk;Рейне;Reine
+ru;Рейне;Reine
+zh;雷讷;Reine
+no;Rugland vestre;Rugland
+sv;Randaberg kommun;Randaberg
+nn;Råkvågen;Råkvåg
+nb;Portør havn;Portør
+ru;Пушгрён;Porsgrunn
+ru;Порсгрунн;Porsgrunn
+bg;Пошгрун;Porsgrunn
+et;Porsgrunni vald;Porsgrunn
+ko;포르스그룬;Porsgrunn
+lt;Pošgriūnas;Porsgrunn
+sr;Порсгрун;Porsgrunn
+sv;Porsgrunns kommun;Porsgrunn
+zh;波什格伦;Porsgrunn
+ar;أوسلو;Oslo
+bg;Осло;Oslo
+el;Όσλο;Oslo
+fa;اسلو;Oslo
+he;אוסלו;Oslo
+hi;ओस्लो;Oslo
+ja;オスロ;Oslo
+ko;오슬로;Oslo
+lt;Oslas;Oslo
+ru;Осло;Oslo
+sr;Осло;Oslo
+be;Осла;Oslo
+th;ออสโล;Oslo
+hy;Օսլո;Oslo
+ka;ოსლო;Oslo
+tg;Осло;Oslo
+uk;Осло;Oslo
+am;ኦስሎ;Oslo
+ur;اوسلو;Oslo
+or;ଅସଲୋ;Oslo
+os;Осло;Oslo
+ug;ئوسلو;Oslo
+udm;Осло;Oslo
+bo;ཨོ་སི་ལོ།;Oslo
+mrj;Осло;Oslo
+tt;Осло;Oslo
+lez;Осло;Oslo
+ta;ஒஸ்லோ;Oslo
+ne;ओस्लो;Oslo
+my;အော့စလိုမြို့;Oslo
+mr;ओस्लो;Oslo
+mi;Ōhoro;Oslo
+mk;Осло;Oslo
+ml;ഓസ്ലൊ;Oslo
+ky;Осло;Oslo
+myv;Осло ош;Oslo
+kv;Осло;Oslo
+ckb;ئۆسلۆ;Oslo
+kk;Осло;Oslo
+sah;Осло;Oslo
+mzn;اسلو;Oslo
+cv;Осло;Oslo
+pa;ਓਸਲੋ;Oslo
+zh;奥斯陆;Oslo
+bn;অজলো;Oslo
+zh-TW;奧斯陸;Oslo
+pl;Os w Hedmark;Os
+nn;Os i Østerdalen;Os
+sv;Urnes;Ornes
+fa;اورنس، سون اوگ فوردان;Ornes
+sr;Оркангер;Orkanger
+ru;Оркангер;Orkanger
+ru;Опланн;Oppland
+sv;Oppdals kommun;Oppdal
+et;Oppdali vald;Oppdal
+bg;Опдал;Oppdal
+ru;Оппдал;Oppdal
+zh;奧普達爾;Oppdal
+sv;Odda kommun;Odda
+ru;Одда;Odda
+ru;Никсунд;Nyksund
+ru;Нюбергсунн;Nybergsund
+sv;Nøtterøy kommun;Nøtterøy
+ru;Нутодден;Notodden
+nn;Nordvik i Hordaland;Nordvika
+nb;Nordvik;Nordvika
+ms;Nordvik;Nordvika
+jv;Nordvik;Nordvika
+ro;Nordvik;Nordvika
+et;Nord-Froni vald;Nord-Fron
+ru;Нур-Фрон;Nord-Fron
+sv;Nord-Frons kommun;Nord-Fron
+zh;北弗龍;Nord-Fron
+ru;Нурфолл;Nordfold
+nn;Norddalsfjord;Norddal
+sv;Norddalsfjord;Norddal
+nb;Norddalsfjord;Norddal
+ro;Norddalsfjord;Norddal
+nb;Nipe i Risør;Nipe
+sv;Nevlunghavn;Nevlunghamn
+nb;Nevlunghavn;Nevlunghamn
+ko;네블룽하븐;Nevlunghamn
+zh;奈斯頓站;Nesttun
+bg;Нарвик;Narvik
+ko;나르비크;Narvik
+pl;Narwik;Narvik
+sv;Narviks kommun;Narvik
+ja;ナルヴィク;Narvik
+os;Нарвик;Narvik
+sr;Нарвик;Narvik
+lt;Narvikas;Narvik
+mk;Нарвик;Narvik
+uk;Нарвік;Narvik
+hy;Նարվիկ;Narvik
+el;Νάρβικ;Narvik
+he;נרוויק;Narvik
+ru;Нарвик;Narvik
+zh;纳尔维克;Narvik
+bg;Намсос;Namsos
+ja;ナムソス;Namsos
+ko;남소스;Namsos
+sr;Намсос;Namsos
+ru;Намсус;Namsos
+zh;納姆索斯;Namsos
+ar;نامسوس;Namsos
+fa;نامسوس;Namsos
+no;Nakholmen;Nakkholmen
+ur;میکلیبوسٹاد;Myklebustad
+ms;Muruvika;Muruvik
+sv;Moss kommun;Moss
+ru;Мосс;Moss
+et;Mossi vald;Moss
+bg;Мос;Moss
+he;מוס;Moss
+ka;მოსი;Moss
+ko;모스;Moss
+lt;Mosas;Moss
+sr;Мос;Moss
+uk;Мосс;Moss
+zh;莫斯;Moss
+ar;موس;Moss
+fa;موس، نروژ;Moss
+bg;Мушьоен;Mosjøen
+ru;Мушёэн;Mosjøen
+zh;莫舍恩;Mosjøen
+sv;Molde kommun;Molde
+ru;Молде;Molde
+ja;モルデ;Molde
+os;Молде;Molde
+uk;Молде;Molde
+ar;مولده;Molde
+ko;몰데;Molde
+sr;Молде;Molde
+bg;Молде;Molde
+be;Моле;Molde
+zh;莫尔德;Molde
+sgs;Muoldė;Molde
+kk;Мольде;Molde
+ky;Мольде;Molde
+hi;मोल्डे;Molde
+bn;মোল্ডে;Molde
+ur;مولڈے;Molde
+am;ሞልደ;Molde
+fa;مولده;Molde
+pa;ਮੋਲਡੇ;Molde
+ps;مولده;Molde
+tg;Мольде;Molde
+tt;Мольде;Molde
+ja;モー・イ・ラーナ;Mo i Rana
+ko;모이라나;Mo i Rana
+mk;Мо и Рана;Mo i Rana
+sr;Мо и Рана;Mo i Rana
+bg;Му и Рана;Mo i Rana
+ru;Му-и-Рана;Mo i Rana
+zh;摩城;Mo i Rana
+ar;مو إي رانا;Mo i Rana
+lt;Mu i Rana;Mo i Rana
+vep;Mu i Ran;Mo i Rana
+fa;میننهسون;Minnesund
+sv;Midsund kommun;Midsund
+ru;Мерокер;Meråker
+sv;Meråkers kommun;Meråker
+zh;梅羅克;Meråker
+ja;メルソンヴィク;Melsomvik
+nn;Melfjorden i Rødøy;Melfjordbotn
+ms;Melfjorden;Melfjordbotn
+jv;Melfjorden;Melfjordbotn
+ru;Мельбу;Melbu
+bg;Мелбу;Melbu
+zh;梅尔比;Melbu
+nb;Melandsjøen;Melandsjø
+sv;Melands kommun;Meland
+ru;Меланн;Meland
+zh;梅蘭;Meland
+zh;卡德法涅斯;Medby
+sv;Masfjorden kommun;Masfjorden
+ms;Mortenshals;Mortenhals
+sv;Mandals kommun;Mandal
+ru;Мандал;Mandal
+bg;Мандал;Mandal
+et;Mandali vald;Mandal
+ja;マンダール;Mandal
+ko;만달;Mandal
+lt;Mandalis;Mandal
+sr;Мандал;Mandal
+zh;曼达尔;Mandal
+sv;Malvik kommun;Malvik
+ru;Малвик;Malvik
+bg;Мольой;Måløy
+sr;Молеј;Måløy
+ru;Молёй;Måløy
+zh;莫呂;Måløy
+hy;Մոլյոյ;Måløy
+uk;Молей;Måløy
+fa;مولوی، نروژ;Måløy
+sv;Lysøysund;Lysøysundet
+nb;Lysøysund;Lysøysundet
+ro;Lysøysund;Lysøysundet
+ru;Люсакер;Lysaker
+be;Люсакер;Lysaker
+hy;Լիսակեր;Lysaker
+ka;ლიუსაკერი;Lysaker
+ja;リッサーケル;Lysaker
+fa;لینگر;Lyngør
+sv;Lyngdal kommun;Lyngdal
+nn;Lundermoen;Lunderåsen
+ceb;Lundermoen;Lunderåsen
+sv;Lundermoen;Lunderåsen
+nb;Lundermoen;Lunderåsen
+ms;Lundermoen;Lunderåsen
+jv;Lundermoen;Lunderåsen
+ro;Lundermoen;Lunderåsen
+nn;Lunde i Telemark;Lunde
+ru;Лунде;Lunde
+pl;Lom;Fossbergom
+sv;Loms kommun;Fossbergom
+ru;Лом;Fossbergom
+ru;Лёккен Верк;Løkken Verk
+ru;Лёдинг;Løding
+bg;Лилестрьом;Lillestrøm
+lt;Lilestriomas;Lillestrøm
+sr;Лилестрем;Lillestrøm
+uk;Ліллестрем;Lillestrøm
+ru;Лиллестрём;Lillestrøm
+zh;利勒斯特罗姆;Lillestrøm
+sv;Lillesand kommun;Lillesand
+ru;Лиллесанн;Lillesand
+he;לילהאמר;Lillehammer
+ja;リレハンメル;Lillehammer
+sv;Lillehammers kommun;Lillehammer
+ru;Лиллехаммер;Lillehammer
+fa;لیلهامر;Lillehammer
+lv;Lillehammere;Lillehammer
+lt;Lilehameris;Lillehammer
+os;Лиллехаммер;Lillehammer
+uk;Ліллегаммер;Lillehammer
+bg;Лилехамер;Lillehammer
+ko;릴레함메르;Lillehammer
+el;Λιλεχάμερ;Lillehammer
+be;Лілехамер;Lillehammer
+tt;Лиллехаммер;Lillehammer
+sr;Лилехамер;Lillehammer
+ar;ليلهامر;Lillehammer
+mk;Лилехамер;Lillehammer
+zh;利勒哈默尔;Lillehammer
+sgs;Lėlehameris;Lillehammer
+kk;Лиллехаммер;Lillehammer
+ky;Лиллехаммер;Lillehammer
+hi;लिलेहैमर;Lillehammer
+bn;লিল্লেহ্যামার;Lillehammer
+ur;لیلے ہیمر;Lillehammer
+am;ሊለሃመር;Lillehammer
+pa;ਲਿਲਹੈਮਰ;Lillehammer
+ps;لیلهامیر;Lillehammer
+tg;Лиллехаммер;Lillehammer
+ko;레방에르;Levanger
+bg;Левангер;Levanger
+ru;Левангер;Levanger
+sv;Levangers kommun;Levanger
+zh;莱旺厄尔;Levanger
+sv;Lenvik kommun;Lenvik
+ru;Лейнес;Leines
+nn;Laukvik;Laukvika
+ceb;Laukvik;Laukvika
+nb;Laukvik;Laukvika
+ms;Laukvik;Laukvika
+jv;Laukvik;Laukvika
+sv;Larviks kommun;Larvik
+ru;Ларвик;Larvik
+bg;Ларвик;Larvik
+et;Larviki vald;Larvik
+ja;ラルヴィク;Larvik
+ko;라르비크;Larvik
+lt;Larvikas;Larvik
+sr;Ларвик;Larvik
+uk;Ларвік;Larvik
+zh;拉尔维克;Larvik
+ur;لانگیڈ;Langeid
+ur;لانگانگین;Langangen
+ur;لالم;Lalm
+ur;لاکسیواگ;Laksevåg
+ur;لاکسیلوبوکٹ;Lakselvbukt
+pl;Lærdal;Lærdalsøyri
+nn;Lærdal;Lærdalsøyri
+ur;لابیرگ، سالانگین;Laberg
+sv;Kvinesdal kommun;Kvinesdal
+sv;Krokeidet;Krokeide
+bg;Крокеиде;Krokeide
+el;Κροκάιντε;Krokeide
+sv;Kristiansund kommun;Kristiansund
+ru;Кристиансунн;Kristiansund
+bg;Кристиансанд;Kristiansand
+he;כריסטיאנסנד;Kristiansand
+lv;Krisjānsanna;Kristiansand
+zh;克里斯蒂安桑;Kristiansand
+ru;Кристиансанн;Kristiansand
+be;Крысціянсан;Kristiansand
+ar;كريستيانساند;Kristiansand
+kk;Кристиансанн;Kristiansand
+ky;Кристиансанн;Kristiansand
+hi;क्रिस्टियनसांड;Kristiansand
+bn;ক্রিস্টিয়ানসান্ড;Kristiansand
+ur;کریستیانسینڈ;Kristiansand
+am;ክርስቲያንሳንድ;Kristiansand
+fa;کریستیانسند;Kristiansand
+ja;クリスティアンサンド;Kristiansand
+pa;ਕ੍ਰਿਸ਼ਿਆਨਸੈਂਡ;Kristiansand
+ps;کریستیانسند;Kristiansand
+tg;Кристиансанн;Kristiansand
+tt;Кристиансанн;Kristiansand
+bg;Крагерьо;Kragerø
+et;Kragerø vald;Kragerø
+ru;Крагерё;Kragerø
+sv;Kragerø kommun;Kragerø
+zh;克拉格勒;Kragerø
+bg;Копервик;Kopervik
+zh;科珀維克;Kopervik
+ru;Копервик;Kopervik
+zh;康斯摩;Konsmo
+ru;Конгсвингер;Kongsvinger
+sr;Конгсвингер;Kongsvinger
+ko;콩스빙에르;Kongsvinger
+bg;Конгсвингер;Kongsvinger
+lt;Kongsvingeris;Kongsvinger
+zh;孔斯温厄尔;Kongsvinger
+sv;Kongsberg kommun;Kongsberg
+ru;Конгсберг;Kongsberg
+ru;Кольверайд;Kolvereid
+bg;Колверай;Kolvereid
+zh;科尔沃雷德;Kolvereid
+zh-Hant;科爾沃雷德;Kolvereid
+fa;کولوراید;Kolvereid
+nb;Knarrlagsund;Knarrlaget
+ms;Knarrlagsund;Knarrlaget
+zh;克勒夫塔;Kløfta
+fa;کلوفتا;Kløfta
+nn;Klepp stasjon;Klepp
+sv;Klepp kommun;Klepp
+nb;Klepp stasjon;Klepp
+ms;Klepp stasjon;Klepp
+jv;Klepp stasjon;Klepp
+ru;Кьеррингёй;Kjerringøy
+ru;Кабельвог;Kabelvåg
+os;Кабельвог;Kabelvåg
+ru;Йювик;Jøvik
+sv;Jondal kommun;Jondal
+bg;Йесхайм;Jessheim
+ru;Йессхейм;Jessheim
+ar;يار;Jar
+ja;ヤール;Jar
+ur;جار، ناروے;Jar
+sv;Skogrand;Ingeborgrud
+ro;Skogbygda;Ingeborgrud
+nb;Store-Standal;Indre Standal
+ms;Store Standal;Indre Standal
+jv;Store Standal;Indre Standal
+ru;Ибестад;Ibestad
+sv;Ibestads kommun;Ibestad
+zh;伊伯斯特;Ibestad
+sv;Hyllestad kommun;Hyllestad
+ja;ヴィドステン;Hvitsten
+hu;Hurdal község;Hurdal
+nds;Kommun Hurdal;Hurdal
+ru;Хурдал;Hurdal
+sv;Hurdals kommun;Hurdal
+zh;許達爾;Hurdal
+ja;ヘイヨール;Høyjord
+lt;Hiojordas;Høyjord
+nn;Hovin i Gauldal;Hovin
+sv;Hortens kommun;Horten
+ru;Хортен;Horten
+bg;Хутен;Horten
+ko;호르텐;Horten
+lt;Hortenas;Horten
+sr;Хортен;Horten
+zh;霍尔滕;Horten
+ar;هورتن;Horten
+fa;هورتن;Horten
+bg;Хьонефос;Hønefoss
+ko;회네포스;Hønefoss
+lt;Hionefosas;Hønefoss
+sr;Хенефос;Hønefoss
+ru;Хёнефосс;Hønefoss
+zh;赫讷福斯;Hønefoss
+fa;هونفوس;Hønefoss
+ja;ホルタ;Holta
+ru;Холмсбю;Holmsbu
+bg;Холмсбу;Holmsbu
+sv;Holmestrand kommun;Holmestrand
+ru;Хольменколлен;Holmenkollen
+ru;Холменколлен;Holmenkollen
+bg;Холменколен;Holmenkollen
+be;Холменколен;Holmenkollen
+lt;Holmenkolenas;Holmenkollen
+lv;Holmenkollene;Holmenkollen
+uk;Гольменколлен;Holmenkollen
+zh;霍爾門科倫;Holmenkollen
+he;הולמנקולן;Holmenkollen
+nn;Høllen i Lindesnes;Høllen
+ar;هولن;Høllen
+ru;Хьельсет;Hjelset
+ru;Хермансверк;Hermansverk
+ar;هيرمانسفيرك;Hermansverk
+kk;Хермансверк;Hermansverk
+ky;Хермансверк;Hermansverk
+hi;हर्मन्सवर्क;Hermansverk
+bn;হারম্যানসভার্ক;Hermansverk
+ur;ہرمنسورک;Hermansverk
+am;ሄርማንስቬርክ;Hermansverk
+fa;هرمانسورک;Hermansverk
+ja;ヘルマンスベルク;Hermansverk
+pa;ਹਰਮਨਸਵਰਕ;Hermansverk
+ps;هرمانسورک;Hermansverk
+tg;Хермансверк;Hermansverk
+tt;Хермансверк;Hermansverk
+be;Херадсбюгд;Heradsbygd
+ru;Хеннингсвер;Henningsvær
+sv;Hemnningsvær;Henningsvær
+zh;亨宁斯韦尔;Henningsvær
+ja;ヘニングスヴァール;Henningsvær
+ru;Хегра;Hegra
+nb;Havråtunet;Havrå
+ru;Хаугезунд;Haugesund
+ko;헤우게순;Haugesund
+lt;Haugesiundas;Haugesund
+bg;Хаугесун;Haugesund
+sr;Хавесунд;Haugesund
+ja;ハウゲスン;Haugesund
+uk;Гаугесун;Haugesund
+ru;Хёугесунн;Haugesund
+zh;海于格松;Haugesund
+ru;Харстад;Harstad
+ru;Харам;Haram
+sv;Harams kommun;Haram
+zh;哈拉姆;Haram
+ru;Хамар;Hammer
+zh;哈马尔;Hamar
+ru;Хамар;Hamar
+sr;Хамар;Hamar
+lt;Hamaras;Hamar
+ja;ハーマル;Hamar
+uk;Гамар;Hamar
+bg;Хамар;Hamar
+ko;하마르;Hamar
+be;Хамар;Hamar
+sgs;Hamars;Hamar
+ps;هامار;Hamar
+ar;هامار;Hamar
+kk;Хамар;Hamar
+ky;Хамар;Hamar
+hi;हामार;Hamar
+bn;হামার;Hamar
+ur;ہامار;Hamar
+am;ሃማር;Hamar
+fa;هامار;Hamar
+pa;ਹਾਮਾਰ;Hamar
+tg;Хамар;Hamar
+tt;Хамар;Hamar
+nn;Halsa i Meløy;Halsa
+sv;Halhjem;Haljem
+nb;Halhjem;Haljem
+ru;Халден;Halden
+sv;Gulens kommun;Gulen
+fo;Gulen kommuna;Gulen
+et;Guleni vald;Gulen
+ru;Гулен;Gulen
+zh;居倫;Gulen
+ru;Гудванген;Gudvangen
+ko;구드방엔;Gudvangen
+he;גודוונגן;Gudvangen
+nn;Gryting i Gjerstad;Gryting
+nb;Gryting i Gjerstad;Gryting
+nn;Grønning i Vesterålen;Grønning
+nb;Grønning i Vesterålen;Grønning
+nn;Grødem;Grødeim
+nb;Grødem;Grødeim
+ru;Гримстад;Grimstad
+bg;Гримста;Grimstad
+et;Grimstadi vald;Grimstad
+ja;グリムスタッド;Grimstad
+ko;그림스타드;Grimstad
+sr;Гримстад;Grimstad
+zh;格里姆斯塔;Grimstad
+nn;Gravvik;Gravika
+sv;Gravvik;Gravika
+nb;Gravvik;Gravika
+ms;Gravvik;Gravika
+jv;Gravvik;Gravika
+sv;Granvin kommun;Granvin
+ko;글롬피오르;Glomfjord
+sv;Gjøviks kommun;Gjøvik
+bg;Йовик;Gjøvik
+et;Gjøviki vald;Gjøvik
+ko;예비크;Gjøvik
+lt;Jovikas;Gjøvik
+sr;Јевик;Gjøvik
+ru;Йёвик;Gjøvik
+zh;约维克;Gjøvik
+sv;Gjövik;Gjøvik
+ko;예라;Gjøra
+nb;Råbygda;Gjølme
+ru;Гардермуэн;Gardermoen
+ru;Ганддал;Ganddal
+nn;Frogner i Lillestrøm;Frogner
+ru;Фрогнер;Frogner
+be;Фрогнер;Frogner
+ms;Frei;Nedre Frei
+jv;Frei;Nedre Frei
+ja;フレドリクスタ;Fredrikstad
+ru;Фредрикстад;Fredrikstad
+bg;Фолафос;Follafoss
+bg;Флурьо;Florø
+ru;Флурё;Florø
+zh;弗盧勒;Florø
+fa;فلورا، شهر;Florø
+sr;Флоре;Florø
+nn;Flora i Stjørdal;Flornes
+nb;Flora;Flornes
+bg;Флекефьор;Flekkefjord
+ru;Флеккефьорд;Flekkefjord
+sv;Flekkefjords kommun;Flekkefjord
+zh;弗萊克菲尤爾;Flekkefjord
+ja;フレッケフィヨール;Flekkefjord
+ja;アーケシュフース県;Flateby
+ru;Флом;Flåm
+ja;フロム;Flåm
+zh;弗洛姆;Flåm
+ru;Фьелльдал;Fjelldal
+ar;فجلدال;Fjelldal
+zh;菲耶兰;Fjærland
+sv;Fitjar kommun;Fitjar
+ja;フィスケボール;Fiskebøl
+hy;Ֆինսե;Finse
+ru;Финнснес;Finnsnes
+bg;Финснес;Finnsnes
+sr;Финснес;Finnsnes
+zh;芬斯內斯;Finnsnes
+ja;フィムレイテ;Fimreite
+zh;菲麥特;Fimreite
+uk;Фіггйо;Figgjo
+bg;Фетсун;Fetsund
+ja;フェトスン;Fetsund
+ru;Фетсун;Fetsund
+sv;Fedje kommun;Fedje
+ru;Фауске;Fauske
+ur;فاگیرسٹرانڈ;Fagerstrand
+bg;Фагернес;Fagernes
+lt;Fagernesas;Fagernes
+sr;Фајернес;Fagernes
+zh;法格內斯;Fagernes
+ru;Фагернес;Fagernes
+fa;فهویک;Færvik
+ur;فیرویک;Færvik
+ru;Фоберг;Fåberg
+sv;Etne kommun;Etne
+nn;Espeland i Bergen;Espeland
+ru;Энгенес;Engenes
+uk;Енгенес;Engenes
+nn;Engelsviken;Engalsvik
+sv;Engelsviken;Engalsvik
+nb;Engelsviken;Engalsvik
+nn;Engan;Engjan
+sv;Engan;Engjan
+nb;Engan;Engjan
+ru;Эльверум;Elverum
+bg;Елверум;Elverum
+et;Elverumi vald;Elverum
+sr;Елверум;Elverum
+zh;埃尔沃吕姆;Elverum
+sv;Eidsvoll kommun;Eidsvoll
+sv;Eidfjords kommun;Eidfjord
+bg;Ейдфьорд;Eidfjord
+ru;Эйдфьорд;Eidfjord
+zh;埃德菲尤爾;Eidfjord
+sv;Eide kommun;Eide
+bg;Айерсун;Egersund
+zh;埃格尔松;Egersund
+fa;اگشن;Egersund
+sr;Ејерсунд;Egersund
+ur;ایگرسوند;Egersund
+ru;Айерсун;Egersund
+ceb;Myre;Dverberg
+ru;Дверберг;Dverberg
+ms;Myre;Dverberg
+jv;Myre;Dverberg
+hy;Դվերբերգ;Dverberg
+ja;ドベルベルグ;Dverberg
+ar;دروباك;Drøbak
+bg;Дрьобак;Drøbak
+sr;Дребак;Drøbak
+ru;Дрёбак;Drøbak
+zh;德勒巴克;Drøbak
+ru;Драммен;Drammen
+ko;드람멘;Drammen
+bg;Драмен;Drammen
+be;Драмен;Drammen
+ja;ドランメン;Drammen
+lt;Dramenas;Drammen
+uk;Драммен;Drammen
+sr;Драмен;Drammen
+he;דראמן;Drammen
+zh;德拉门;Drammen
+sgs;Dramens;Drammen
+el;Ντράμεν;Drammen
+fa;درامن;Drammen
+th;ดรัมเมน;Drammen
+ar;درامن;Drammen
+kk;Драммен;Drammen
+ky;Драммен;Drammen
+hi;ड्रामेन;Drammen
+bn;ড্রামেন;Drammen
+ur;ڈرامن;Drammen
+am;ድራመን;Drammen
+pa;ਡ੍ਰਾਮਨ;Drammen
+ps;درامن;Drammen
+tg;Драммен;Drammen
+tt;Драммен;Drammen
+zh;杜姆奥斯;Dombås
+ro;Gilja;Dirdal
+et;Bykle vald;Bykle
+ru;Бюкле;Bykle
+sv;Bykle kommun;Bykle
+zh;比克勒;Bykle
+ru;Бюгланнсфьорд;Byglandsfjord
+ko;뷔글란스피오르;Byglandsfjord
+bg;Бруланд;Bruland
+bg;Брьоньойсун;Brønnøysund
+ru;Брённёйсунн;Brønnøysund
+zh;布倫尼;Brønnøysund
+ru;Бревик;Brevik
+be;Брэвік;Brevik
+bg;Бревик;Brevik
+hy;Բրևիկ;Brevik
+zh-Hant;布雷維克;Brevik
+el;Μπρέβικ;Brevik
+ta;பிரெவிக்;Brevik
+zh;布雷维克;Brevik
+fa;برویک;Brevik
+ru;Брекстад;Brekstad
+bg;Брекста;Brekstad
+zh;布雷克斯塔德;Brekstad
+fa;برکستاد;Brekstad
+sr;Брекстад;Brekstad
+nn;Bustrak;Bostrak
+nn;Borgen i Ullensaker;Børgen
+ceb;Borgen;Børgen
+vi;Borgen;Børgen
+nb;Borgen;Børgen
+ms;Borgen;Børgen
+jv;Borgen;Børgen
+ro;Borgen;Børgen
+ru;Букн;Bokn
+hy;Բուկն;Bokn
+zh;博肯;Bokn
+nds;Kommun Bokn;Bokn
+lt;Budė;Bodø
+sv;Bodö;Bodø
+ru;Бодо;Bodø
+sr;Боде;Bodø
+mk;Буде;Bodø
+ja;ボードー;Bodø
+et;Bodø vald;Bodø
+uk;Буде;Bodø
+be;Будзё;Bodø
+bg;Будьо;Bodø
+ko;보되;Bodø
+os;Будё;Bodø
+ru;Будё;Bodø
+zh;博德;Bodø
+ar;بودو;Bodø
+sgs;Bodė;Bodø
+fa;بودو، نروژ;Bodø
+lv;Būdē;Bodø
+kk;Бодё;Bodø
+ky;Бодё;Bodø
+id;Bodo;Bodø
+ms;Bodo;Bodø
+hi;बोडो;Bodø
+bn;বোডো;Bodø
+ur;بودو;Bodø
+am;ቦዶ;Bodø
+ha;Bodo;Bodø
+jv;Bodo;Bodø
+om;Bodo;Bodø
+pa;ਬੋਡੋ;Bodø
+ps;بودو;Bodø
+so;Bodo;Bodø
+sw;Bodo;Bodø
+tg;Бодё;Bodø
+tt;Бодё;Bodø
+et;Bø vald;Bø
+ja;ボー;Bø
+nn;Bø kommune i Nordland;Bø
+ru;Бё;Bø
+sv;Bø kommun;Bø
+zh;伯;Bø
+nn;Bleie i Hardanger;Bleie
+nb;Bleie i Hardanger;Bleie
+hy;Բյորնսքին;Bjørnskinn
+ru;Бьёрнскинн;Bjørnskinn
+he;ביונשין;Bjørnskinn
+nn;Bjørke på Sunnmøre;Bjørke
+ja;ビェルクビク;Bjerkvik
+fa;بیرکویک;Bjerkvik
+sv;Bjerkreim kommun;Bjerkreim
+bg;Берген;Bergen
+he;ברגן;Bergen
+is;Björgvin;Bergen
+ja;ベルゲン;Bergen
+lt;Bergenas;Bergen
+ru;Берген;Bergen
+lv;Bergena;Bergen
+zh;卑爾根;Bergen
+sr;Берген;Bergen
+ko;베르겐;Bergen
+be;Берген;Bergen
+th;แบร์เกน;Bergen
+ar;برغن;Bergen
+ta;பேர்கன்;Bergen
+ka;ბერგენი;Bergen
+mr;बार्गन;Bergen
+os;Берген;Bergen
+fa;برگن;Bergen
+el;Μπέργκεν;Bergen
+uk;Берген;Bergen
+kk;Берген;Bergen
+ky;Берген;Bergen
+hi;बर्गन;Bergen
+bn;বার্গেন;Bergen
+ur;برغن;Bergen
+am;በርገን;Bergen
+pa;ਬਰਜਨ;Bergen
+ps;برغن;Bergen
+tg;Берген;Bergen
+tt;Берген;Bergen
+et;Bergi vald;Berg
+ro;Comuna Berg;Berg
+pl;Gmina Berg;Berg
+ru;Берг;Berg
+sv;Bergs kommun;Berg
+zh;貝格;Berg
+ar;برغ;Berg
+ko;방순;Bangsund
+sv;Balsfjords kommun;Balsfjord
+fi;Paatsivuono;Balsfjord
+et;Balsfjordi vald;Balsfjord
+ru;Балсфьорд;Balsfjord
+zh;巴爾斯菲尤爾;Balsfjord
+ru;Баллстад;Ballstad
+bg;Баланген;Ballangen
+et;Ballangeni vald;Ballangen
+ja;バランゲン;Ballangen
+ru;Балланген;Ballangen
+sv;Ballangens kommun;Ballangen
+zh;巴朗恩;Ballangen
+ru;Балестранн;Balestrand
+sv;Balestrands kommun;Balestrand
+zh;巴勒斯特蘭;Balestrand
+sv;Austevolls kommun;Austevoll
+ru;Эустеволл;Austevoll
+zh;艾于斯特沃爾;Austevoll
+sv;Aure kommun;Aure
+bg;Ауре;Aure
+ru;Эуре;Aure
+zh;艾于勒;Aure
+sv;Aukra kommun;Aukra
+bg;Ашим;Askim
+et;Askimi vald;Askim
+ko;아심;Askim
+sr;Ашим;Askim
+ru;Ашим;Askim
+zh;阿希姆;Askim
+sv;Askers kommun;Asker
+et;Askeri vald;Asker
+bg;Аскер;Asker
+kk;Аскер;Asker
+ko;아스케르;Asker
+ja;アスケー;Asker
+hu;Asker község;Asker
+fo;Asker kommuna;Asker
+lt;Askeris;Asker
+ru;Аскер;Asker
+zh;阿斯克尔;Asker
+nn;Sørarnøy;Sør-Arnøy
+ru;Сёрарнёй;Sør-Arnøy
+nb;Sørarnøy;Sør-Arnøy
+ms;Sørarnøy;Sør-Arnøy
+jv;Sørarnøy;Sør-Arnøy
+ru;Арнеберг;Arneberg
+sv;Arendals kommun;Arendal
+ru;Арендал;Arendal
+ar;أرندال;Arendal
+sr;Арендал;Arendal
+ja;アーレンダール;Arendal
+os;Арендал;Arendal
+lt;Arendalis;Arendal
+et;Arendali vald;Arendal
+uk;Арендал;Arendal
+be;Арэндал;Arendal
+ko;아렌달;Arendal
+bg;Арендал;Arendal
+zh;阿伦达尔;Arendal
+sgs;Arendalės;Arendal
+lv;Ārendāle;Arendal
+kk;Арендал;Arendal
+ky;Арендал;Arendal
+hi;अरेंडल;Arendal
+bn;আরেন্ডাল;Arendal
+ur;اریندال;Arendal
+am;አረንዳል;Arendal
+fa;اریندال;Arendal
+pa;ਅਰੇਂਡਲ;Arendal
+ps;اریندال;Arendal
+tg;Арендал;Arendal
+tt;Арендал;Arendal
+nn;Angvik;Angvika
+nb;Angvik;Angvika
+ms;Angvik;Angvika
+jv;Angvik;Angvika
+ro;Angvik;Angvika
+ru;Аннсэльв;Andselv
+bg;Анденес;Andenes
+fa;اندینس;Andenes
+ru;Анденес;Andenes
+zh;安德內斯;Andenes
+ru;Ондалснес;Åndalsnes
+bg;Ондалснес;Åndalsnes
+ja;オンダルスネス;Åndalsnes
+zh;翁達爾斯內斯;Åndalsnes
+sr;Ондалснес;Åndalsnes
+et;Åmli vald;Åmli
+ru;Омли;Åmli
+sv;Åmli kommun;Åmli
+zh;奧姆利;Åmli
+sv;Alvdal kommun;Alvdal
+fa;السواگ;Alsvåg
+is;Álasund;Ålesund
+ru;Олесунн;Ålesund
+lt;Olesiundas;Ålesund
+ja;オーレスン;Ålesund
+os;Олесунн;Ålesund
+uk;Олесунн;Ålesund
+sr;Олесунд;Ålesund
+ko;올레순;Ålesund
+mk;Олесунд;Ålesund
+bg;Олесун;Ålesund
+zh;奥勒松;Ålesund
+bg;Окрехамн;Åkrehamn
+ar;أوكرهامن;Åkrehamn
+fa;اوکرهام;Åkrehamn
+sr;Окрехамн;Åkrehamn
+ru;Окрехамн;Åkrehamn
+fa;اکلاند;Akland
+ko;오헤임;Åheim
+fa;اگلی;Agle
+ur;اگلے;Agle
+fa;اگلاپسویک;Aglapsvik
+ur;اگلاپسویک;Aglapsvik
+nb;Å;Aa
+ms;Å;Aa
+pl;Å;Aa
+ur;آ، ٹرانوئے;Aa
+et;Å;Aa
+nn;Å;Aa
+sv;Å;Aa
+jv;Å;Aa
+ja;オー;Aa
+id;Å;Aa
+ur;آ، آنڈوئے;Aa
+tr;Å;Aa
+pl;Å;Å i Åfjord
+nn;Å;Å i Åfjord
+sv;Åfjord kommun;Å i Åfjord
+ms;Å;Å i Åfjord
+is;Å;Å i Åfjord
+nb;Å;Å i Åfjord
+ur;آ، آفجورڈ;Å i Åfjord
+ro;Å;Å i Åfjord
+bg;Вормедал;Vormedal
+ru;Вормедал;Vormedal
+bg;Алнес;Alnes
+fa;النز;Alnes
+nn;Kvenvær kommune;Kvenvær
+ar;فانفيكان;Vanvikan
+fa;ونویکن;Vanvikan
+ru;Олден;Olden
+fa;وتنبو;Vatnebu
+ru;Мюре;Myre
+nb;Abbedissen;Abbedisso
+bg;Йоща;Ørsta
+ru;Эрста;Ørsta
+zh;厄什塔;Ørsta
+hy;Բրանդբու;Brandbu
+ar;براندبوه;Brandbu
+ja;ブランブ;Brandbu
+ru;Брандбу;Brandbu
+sv;Vestnes kommun;Vestnes
+zh;巴杜弗斯;Bardufoss
+ja;バルドゥフォス;Bardufoss
+nn;Heggelia i Målselv;Heggelia
+ru;Кинсарвик;Kinsarvik
+ru;Гайрангер;Geiranger
+ru;Гейрангер;Geiranger
+is;Geirangur;Geiranger
+ja;ビヨルリ;Bjorli
+ur;ہیبس لینڈ;Håbbesland
+ko;셰오센;Sjøåsen
+ru;Фроста;Frosta
+ru;Вик;Vik
+ru;Согдаль;Sogndal
+lt;Sogndalis;Sogndal
+ru;Согндал;Sogndal
+zh;松達爾;Sogndal
+et;Vangi vald;Vang
+ru;Ванг;Vang
+sv;Vangs kommun;Vang
+zh;旺;Vang
+ar;فانغ;Vang
+fa;ونگ، اپلند;Vang
+ru;Хуф;Hof
+sv;Hofs kommun;Hof
+zh;霍夫;Hof
+ru;Сурнадал;Surnadal
+sv;Surnadals kommun;Surnadal
+zh;敘納達爾;Surnadal
+ru;Рисса;Rissa
+zh;里薩;Rissa
+ar;ريسا;Rissa
+ar;روان;Roan
+ru;Руан;Roan
+sv;Roans kommun;Roan
+zh;魯安;Roan
+zh;斯特倫;Støren
+ru;Клебу;Klæbu
+sv;Klæbu kommun;Klæbu
+zh;克萊比;Klæbu
+ja;レクスヴィク;Leksvik
+ja;ムースヴィキ;Mosvik
+ru;Хаттфьелльдал;Hattfjelldal
+sv;Hattfjelldals kommun;Hattfjelldal
+zh;哈特菲耶爾達爾;Hattfjelldal
+et;Aurlandi vald;Aurland
+ru;Эурланн;Aurland
+sv;Aurlands kommun;Aurland
+zh;艾于蘭;Aurland
+ru;Спангерай;Spangereid
+no;Skiringsal;Skiringssal
+nn;Kapp på Toten;Kapp
+ja;カップ;Kapp
+ru;Лустер;Luster
+sv;Lusters kommun;Luster
+zh;呂斯特;Luster
+nn;Langhus i Ski;Langhus
+ja;ラングヒュース;Langhus
+ur;لانگھوس;Langhus
+fa;اکرهاگن;Akkerhaugen
+nn;Valestrandsfossen;Valestrandfossen
+ru;Валестраннсфоссен;Valestrandfossen
+nb;Valestrandsfossen;Valestrandfossen
+ro;Valestrandsfossen;Valestrandfossen
+ru;Эвре-Ордал;Øvre Årdal
+ja;エヴェレ・オーダル;Øvre Årdal
+ar;أوركدال;Orkdal
+ru;Оркдал;Orkdal
+sv;Orkdals kommun;Orkdal
+zh;奧克達爾;Orkdal
+nb;Vikhammer;Vikhamar
+ms;Vikhammer;Vikhamar
+ja;コダル;Kodal
+nn;Mo i Odal;Mo
+ru;Фьелль;Fjell
+zh;菲耶爾;Fjell
+lt;Fjelas;Fjell
+nb;Klakksjorda;Klakkjorda
+nn;Finnfjordbotn;Vuodnabatta
+nb;Finnfjordbotn;Vuodnabatta
+ms;Finnfjordbotn;Vuodnabatta
+nn;Brekken;Brekkebygd
+sv;Brekken;Brekkebygd
+nb;Brekken;Brekkebygd
+ms;Brekken;Brekkebygd
+nn;Husøy i Senja;Husøy
+nb;Hausvik;Haus
+et;Seli vald;Sel
+ru;Сель;Sel
+sv;Sels kommun;Sel
+zh;塞爾;Sel
+et;Ullensvangi vald;Ullensvang
+nn;Ullensvang herad;Ullensvang
+ru;Улленсванг;Ullensvang
+sv;Ullensvangs kommun;Ullensvang
+zh;于倫斯旺;Ullensvang
+ko;아발스네스;Avaldsnes
+is;Ögvaldsnes;Avaldsnes
+zh;阿瓦爾斯內斯;Avaldsnes
+uk;Авальдснес;Avaldsnes
+no;Kleiverud;Kleiverød
+fa;استرنگریهد;Strengereid
+ru;Экне;Ekne
+bg;Екне;Ekne
+nn;Vinterbro;Vinterbru
+ceb;Vinterbro;Vinterbru
+nb;Vinterbro;Vinterbru
+ms;Vinterbro;Vinterbru
+jv;Vinterbro;Vinterbru
+fa;الورساند;Alversund
+fa;وسس;Vassås
+no;Århus;Aarhus
+nb;Rørvika;Ráluokta
+ms;Rørvika;Ráluokta
+jv;Rørvika;Ráluokta
+nn;Hergot;Hergotta
+nb;Hergot;Hergotta
+fa;تومرنست;Tømmerneset
+nn;Ploganes;Bru
+fi;Ploganes;Bru
+nb;Ploganes;Bru
+ro;Ploganes;Bru
+ru;Боргунн;Borgund
+zh;拉姆内斯;Ramnes
+hy;Ռամես;Ramnes
+zh-Hant;拉姆內斯;Ramnes

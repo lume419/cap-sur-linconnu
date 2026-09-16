@@ -7,3 +7,12 @@ ru;Гибралтар;Gibraltar
 sr;Гибралтар;Gibraltar
 uk;Ґібралтар;Gibraltar
 en;East Side;Catalan Bay
+ar;محمية جبل طارق;Gibraltar
+fa;جبل‌الطارق;Gibraltar
+he;גיברלטר;Gibraltar
+ja;ジブラルタル;Gibraltar
+ko;지브롤터;Gibraltar
+mi;Kamaka;Gibraltar
+tr;Cebelitarık;Gibraltar
+zh;直布罗陀;Gibraltar
+ar;جبل طارق;Gibraltar

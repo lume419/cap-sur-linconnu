@@ -12,3 +12,148 @@ ar;مافيتينج;Mafeteng
 ar;هلوتسي;Hlotse
 ar;بوثا بوثي;Butha-Buthe
 ar;ثابا تسيكا;Thaba-Tseka
+ru;Тейатейанeng;Teyateyaneng
+kk;Тейатейанeng;Teyateyaneng
+ky;Тейатейанeng;Teyateyaneng
+hi;तेयातेयानeng;Teyateyaneng
+bn;তেয়াতেয়ানeng;Teyateyaneng
+ur;تیاتیانeng;Teyateyaneng
+am;ተያተያነング;Teyateyaneng
+fa;تیاتیانeng;Teyateyaneng
+ja;テヤテヤネング;Teyateyaneng
+pa;ਤੇਯਾਤੇਯਾਨeང;Teyateyaneng
+ps;تیاتیانeng;Teyateyaneng
+tg;Тейатейанeng;Teyateyaneng
+tt;Тейатейанeng;Teyateyaneng
+ru;Рома;Roma
+zh;羅馬;Roma
+zh-Hans;罗马;Roma
+ja;ローマ;Roma
+he;רומה;Roma
+ru;Цгутинг;Quthing
+kk;Құтинг;Quthing
+ky;Құтинг;Quthing
+hi;कुथिंग;Quthing
+bn;কুথিং;Quthing
+ur;قوتھنگ;Quthing
+am;ቁቲንግ;Quthing
+fa;قوتینگ;Quthing
+ja;クシング;Quthing
+pa;ਕੁਥਿੰਗ;Quthing
+ps;قوتھنگ;Quthing
+tg;Құтинг;Quthing
+tt;Кутинг;Quthing
+zh;莫里亚;Morija
+zh-Hant;莫里亞;Morija
+uk;Морія;Morija
+ur;موریجا;Morija
+he;מוריה;Morija
+ru;Мохотлонг;Mokhotlong
+kk;Мокхотлонг;Mokhotlong
+ky;Мокхотлонг;Mokhotlong
+hi;मोखोटलॉंग;Mokhotlong
+bn;মোখোটলং;Mokhotlong
+ur;موکھوٹلونگ;Mokhotlong
+am;ሞክሖትሎንግ;Mokhotlong
+fa;موخوتلونگ;Mokhotlong
+ja;モコートロング;Mokhotlong
+pa;ਮੋਖੋਟਲੌਂਗ;Mokhotlong
+ps;موکھوٹلونگ;Mokhotlong
+tg;Мокхотлонг;Mokhotlong
+tt;Мокхотлонг;Mokhotlong
+ru;Мохалес-Хук;Mohale's Hoek
+kk;Мохалес-Хук;Mohale's Hoek
+ky;Мохалес-Хук;Mohale's Hoek
+hi;मोहेल्स हुक;Mohale's Hoek
+bn;মোহালে'স হুক;Mohale's Hoek
+ur;موہیلس ہوک;Mohale's Hoek
+am;ሞሃሌስ ሁክ;Mohale's Hoek
+fa;موهالس هوک;Mohale's Hoek
+ja;モハレスフック;Mohale's Hoek
+pa;ਮੋਹੇਲਸ ਹੁੱਕ;Mohale's Hoek
+ps;موہیلس ہوک;Mohale's Hoek
+tg;Мохалес-Хук;Mohale's Hoek
+tt;Мохалес-Хук;Mohale's Hoek
+bg;Масеру;Maseru
+he;מסרו;Maseru
+ja;マセル;Maseru
+ko;마세루;Maseru
+fa;ماسرو;Maseru
+ru;Масеру;Maseru
+el;Μασερού;Maseru
+sr;Масеру;Maseru
+th;มาเซรู;Maseru
+am;መሴሩ;Maseru
+be;Масеру;Maseru
+bo;མ་སི་རུ།;Maseru
+ce;Масеру;Maseru
+ckb;ماسێرو;Maseru
+el;Μαζέρου;Maseru
+ht;Maserou;Maseru
+hy;Մասերու;Maseru
+ka;მასერუ;Maseru
+ky;Масеру;Maseru
+mk;Масеру;Maseru
+mr;मासेरू;Maseru
+os;Масеру;Maseru
+pa;ਮਸੇਰੂ;Maseru
+tg;Масеру;Maseru
+udm;Масеру;Maseru
+uk;Масеру;Maseru
+ur;ماسیرو;Maseru
+yue;馬些盧;Maseru
+zh;马塞卢;Maseru
+ta;மசேரு;Maseru
+ru;Мафетенг;Mafeteng
+kk;Мафетенг;Mafeteng
+ky;Мафетенг;Mafeteng
+hi;माफेटेंग;Mafeteng
+bn;মাফেটেং;Mafeteng
+ur;مافیٹنگ;Mafeteng
+am;ማፌተንግ;Mafeteng
+fa;مافتنگ;Mafeteng
+ja;マフェテング;Mafeteng
+pa;ਮਾਫੇਟੇਂਗ;Mafeteng
+ps;مافیٹنگ;Mafeteng
+tg;Мафетенг;Mafeteng
+tt;Мафетенг;Mafeteng
+sv;Leribe;Hlotse
+ru;Лерибе;Hlotse
+kk;Хлотсе;Hlotse
+ky;Хлотсе;Hlotse
+hi;ह्लोत्से;Hlotse
+bn;হ্লোতসে;Hlotse
+ur;ہلوتسے;Hlotse
+am;ህሎትሰ;Hlotse
+fa;هلوتسه;Hlotse
+ja;ローツェ;Hlotse
+pa;ਹ੍ਲੋਤਸੇ;Hlotse
+ps;ہلوتسے;Hlotse
+tg;Хлотсе;Hlotse
+tt;Хлотсе;Hlotse
+ru;Бута-Бутэ;Butha-Buthe
+kk;Бута-Буте;Butha-Buthe
+ky;Бута-Буте;Butha-Buthe
+hi;बुथा-बुथे;Butha-Buthe
+bn;বুথা-বুথে;Butha-Buthe
+ur;بوتھا بوتھے;Butha-Buthe
+am;ቡታ-ቡተ;Butha-Buthe
+fa;بوتا بوته;Butha-Buthe
+ja;ブタ・ブテ;Butha-Buthe
+pa;ਬੁਥਾ-ਬੁਥੇ;Butha-Buthe
+ps;بوتھا بوتھے;Butha-Buthe
+tg;Бута-Буте;Butha-Buthe
+tt;Бута-Буте;Butha-Buthe
+ru;Таба-Цека;Thaba-Tseka
+kk;Таба-Цека;Thaba-Tseka
+ky;Таба-Цека;Thaba-Tseka
+hi;थाबा-त्सेका;Thaba-Tseka
+bn;থাবা-সেকা;Thaba-Tseka
+ur;تھابا تسیکا;Thaba-Tseka
+am;ታባ-ፀካ;Thaba-Tseka
+fa;تابا تسکا;Thaba-Tseka
+ja;ターバ・ツェカ;Thaba-Tseka
+pa;ਥਾਬਾ-ਤਸੇਕਾ;Thaba-Tseka
+ps;تھابا تسیکا;Thaba-Tseka
+tg;Таба-Цека;Thaba-Tseka
+tt;Таба-Цека;Thaba-Tseka

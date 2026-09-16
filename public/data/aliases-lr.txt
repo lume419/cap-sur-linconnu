@@ -50,3 +50,272 @@ en;Gwin Town;Gwein
 nl;Gwin Town;Gwein
 ar;آرثلينغتون، ليبيريا;Arthington
 en;Tappita;Tappita City
+ru;Зведру;Zwedru
+kk;Зведру;Zwedru
+ky;Зведру;Zwedru
+hi;ज्वेड्रु;Zwedru
+bn;জ্বেড্রু;Zwedru
+ur;زویڈرو;Zwedru
+am;ዝወድሩ;Zwedru
+fa;زودرو;Zwedru
+ja;ズウェドゥル;Zwedru
+pa;ਜ਼ਵੇਦਰੂ;Zwedru
+ps;زویدرو;Zwedru
+tg;Зведру;Zwedru
+tt;Зведру;Zwedru
+ru;Зорзор;Zorzor
+ur;زورزور;Zorzor
+zh;佐爾佐爾;Zorzor
+lt;Jekepa;New Yekepa
+zh;耶凱帕;New Yekepa
+zh-Hans;耶凯帕;New Yekepa
+ja;イェケパ;New Yekepa
+pl;Yekepa;New Yekepa
+da;Yekepa;New Yekepa
+ur;یکیپا;New Yekepa
+he;יקפה;New Yekepa
+ru;Воинджама;Voinjama
+kk;Воинджама;Voinjama
+ky;Воинжама;Voinjama
+hi;वोइंजामा;Voinjama
+bn;ভোইনজামা;Voinjama
+ur;ووئنجاما;Voinjama
+am;ቮይንጃማ;Voinjama
+fa;وینجاما;Voinjama
+ja;ヴォインジャマ;Voinjama
+pa;ਵੋਇਨਜਾਮਾ;Voinjama
+ps;ووينجاما;Voinjama
+tg;Воинджама;Voinjama
+tt;Воинджама;Voinjama
+ru;Тубманбург;Tubmanburg
+kk;Тубманбург;Tubmanburg
+ky;Тубманбург;Tubmanburg
+hi;टबमानबर्ग;Tubmanburg
+bn;টাবম্যানবার্গ;Tubmanburg
+ur;ٹبمان برگ;Tubmanburg
+am;ቱብማንበርግ;Tubmanburg
+fa;تابمنبرگ;Tubmanburg
+ja;タブマンバーグ;Tubmanburg
+pa;ਤੁਬਮਾਨਬਰਗ;Tubmanburg
+ps;ټبمانبرگ;Tubmanburg
+tg;Тубманбург;Tubmanburg
+tt;Тубманбург;Tubmanburg
+ru;Фиш-Таун;Fish Town
+kk;Балық қаласы;Fish Town
+ky;Балык Шахары;Fish Town
+hi;फिश टाउन;Fish Town
+bn;ফিশ টাউন;Fish Town
+ur;فش ٹاؤن;Fish Town
+am;ሙዓት ከተማ;Fish Town
+fa;فیش تاون;Fish Town
+ja;フィッシュタウン;Fish Town
+pa;ਫਿਸ਼ ਟਾਊਨ;Fish Town
+ps;ماهي ښار;Fish Town
+tg;Фиш-Таун;Fish Town
+tt;Фиш-Таун;Fish Town
+ru;Саннийкелли;Sanniquellie
+kk;Саннықелли;Sanniquellie
+ky;Саннийкелли;Sanniquellie
+hi;सन्निक्वेली;Sanniquellie
+bn;সান্নিকোয়েলি;Sanniquellie
+ur;سانیکویلی;Sanniquellie
+am;ሳንኒክዌሊ;Sanniquellie
+fa;سانیکولی;Sanniquellie
+ja;サンニクエリ;Sanniquellie
+pa;ਸੰਨੀਕਵੇਲੀ;Sanniquellie
+ps;سانیکویلي;Sanniquellie
+tg;Саннийкелли;Sanniquellie
+tt;Саннийкелли;Sanniquellie
+ru;Робертспорт;Robertsport
+kk;Робертспорт;Robertsport
+ky;Робертспорт;Robertsport
+hi;रॉबर्ट्सपोर्ट;Robertsport
+bn;রবার্টসপোর্ট;Robertsport
+ur;رابرٹس پورٹ;Robertsport
+am;ሮበርትስፖርት;Robertsport
+fa;رابرتسپورت;Robertsport
+ja;ロバーツポート;Robertsport
+pa;ਰਾਬਰਟਸਪੋਰਟ;Robertsport
+ps;رابرټس پورټ;Robertsport
+tg;Робертспорт;Robertsport
+tt;Робертспорт;Robertsport
+ru;Ривер-Сесс;River Cess
+kk;Река Сесс;River Cess
+ky;Ривер Сесс;River Cess
+hi;रिवर सेस;River Cess
+bn;রিভার সেস;River Cess
+ur;ریور سیس;River Cess
+am;ወንድ ሴስ;River Cess
+fa;رودخانه سس;River Cess
+ja;リバーセス;River Cess
+pa;ਰਿਵਰ ਸੇਸ;River Cess
+ps;سیند سیس;River Cess
+tg;Ривер-Сесс;River Cess
+tt;Ривер-Сесс;River Cess
+ru;Плибо;Pleebo City
+uz;Pleebo;Pleebo City
+zh;普利博;Pleebo City
+hy;Պլեեբո;Pleebo City
+ja;プレーボ;Pleebo City
+pl;Pleebo;Pleebo City
+ur;پلیبو;Pleebo City
+he;מונרוביה;Monrovia
+ko;몬로비아;Monrovia
+pl;Monrowia;Monrovia
+zh;蒙罗维亚;Monrovia
+fa;مونروویا;Monrovia
+mk;Монровија;Monrovia
+ru;Монровия;Monrovia
+zh;蒙羅維亞;Monrovia
+el;Μονρόβια;Monrovia
+ja;モンロビア;Monrovia
+am;ሞንሮቪያ;Monrovia
+lt;Monrovija;Monrovia
+ckb;مۆنرۆڤیا;Monrovia
+uk;Монровія;Monrovia
+mr;मोन्रोव्हिया;Monrovia
+ur;مونروویا;Monrovia
+sr;Монровија;Monrovia
+bo;མོང་རོ་ཝི་ཡ།;Monrovia
+so;Monrofia;Monrovia
+lv;Monrovija;Monrovia
+hy;Մոնրովիա;Monrovia
+udm;Монровия;Monrovia
+be;Манровія;Monrovia
+ka;მონროვია;Monrovia
+ky;Монровия;Monrovia
+bg;Монровия;Monrovia
+ta;மொன்றோவியா;Monrovia
+mrj;Монрови;Monrovia
+tg;Монровия;Monrovia
+az;Monroviya;Monrovia
+th;มันโรเวีย;Monrovia
+pa;ਮੋਨਰੋਵੀਆ;Monrovia
+bn;মনরোভিয়া;Monrovia
+ce;Монрови;Monrovia
+sl;Monrovija;Monrovia
+kk;Монровия;Monrovia
+uz;Monroviya;Monrovia
+vep;Monrovii;Monrovia
+yue;蒙羅維亞;Monrovia
+ru;Какта;Kakata
+kk;Какта;Kakata
+ky;Какта;Kakata
+hi;काकता;Kakata
+bn;কাকাতা;Kakata
+ur;کاکاتا;Kakata
+am;ካካታ;Kakata
+fa;کاکاتا;Kakata
+ja;カカタ;Kakata
+pa;ਕਾਕਤਾ;Kakata
+ps;کاکاتا;Kakata
+tg;Какта;Kakata
+tt;Какта;Kakata
+uz;Kaba shaharchasi;Kaba Town
+ru;Харпер;Harper
+kk;Харпер;Harper
+ky;Харпер;Harper
+hi;हार्पर;Harper
+bn;হার্পার;Harper
+ur;ہارپر;Harper
+am;ሃርፐር;Harper
+fa;هارپر;Harper
+ja;ハーパー;Harper
+pa;ਹਾਰਪਰ;Harper
+ps;هارپر;Harper
+tg;Харпер;Harper
+tt;Харпер;Harper
+ru;Гринвилл;Greenville
+kk;Гринвилл;Greenville
+ky;Гринвилл;Greenville
+hi;ग्रीनविल;Greenville
+bn;গ্রিনভিল;Greenville
+ur;گرین ویل;Greenville
+am;ግሪንቪል;Greenville
+fa;گرین ویل;Greenville
+ja;グリーンビル;Greenville
+pa;ਗ੍ਰੀਨਵਿਲ;Greenville
+ps;ګرین ویل;Greenville
+tg;Гринвилл;Greenville
+tt;Гринвилл;Greenville
+uz;Yeebo shahri;Yeebo Town
+ru;Гбарнге;Gbarnga
+kk;Гбарнга;Gbarnga
+ky;Гбарнга;Gbarnga
+hi;ग्बारंगा;Gbarnga
+bn;গ্বার্নগা;Gbarnga
+ur;گبارنگا;Gbarnga
+am;ግባርንጋ;Gbarnga
+fa;گبارنگا;Gbarnga
+ja;グバルンガ;Gbarnga
+pa;ਗਬਾਰਨਗਾ;Gbarnga
+ps;ګبارنګا;Gbarnga
+tg;Гбарнга;Gbarnga
+tt;Гбарнга;Gbarnga
+he;גרדנרסוויל;Gardnersville
+ja;クララ・タウン;Clara Town
+ur;کیریزبرگ، لائبیریا;Careysburg
+ru;Бьюкенен;Buchanan
+az;Byukenen;Buchanan
+he;ביוקנן;Buchanan
+hy;Բուչանան;Buchanan
+ja;ブキャナン;Buchanan
+ko;뷰캐넌;Buchanan
+lt;Biukenenas;Buchanan
+uk;Бюкенен;Buchanan
+ur;بیوکینن، لائبیریا;Buchanan
+zh;布坎南;Buchanan
+kk;Бюканан;Buchanan
+ky;Бюканан;Buchanan
+hi;बुकानन;Buchanan
+bn;বুকানান;Buchanan
+am;ቢውካናን;Buchanan
+fa;بوکانان;Buchanan
+pa;ਬੁਕਾਨਾਨ;Buchanan
+ps;بوکانان;Buchanan
+tg;Бьюканан;Buchanan
+tt;Бьюканан;Buchanan
+ru;Боползу;Bopolu
+kk;Бопола;Bopolu
+ky;Бопола;Bopolu
+hi;बोपोलु;Bopolu
+bn;বোপোলু;Bopolu
+ur;بوپولو;Bopolu
+am;ቦፖሉ;Bopolu
+fa;بوپولو;Bopolu
+ja;ボポル;Bopolu
+pa;ਬੋਪੋਲੂ;Bopolu
+ps;بوپولو;Bopolu
+tg;Боползу;Bopolu
+tt;Боползу;Bopolu
+ru;Бенсонвилле;Bensonville
+kk;Бенсонвилл;Bensonville
+ky;Бенсонвилл;Bensonville
+hi;बेंसनविल;Bensonville
+bn;বেনসনভিল;Bensonville
+ur;بینسن ویل;Bensonville
+am;ቤንሰንቪል;Bensonville
+fa;بنسون ویل;Bensonville
+ja;ベンソンビル;Bensonville
+pa;ਬੇਨਸਨਵਿਲ;Bensonville
+ps;بنسن ویل;Bensonville
+tg;Бенсонвилл;Bensonville
+tt;Бенсонвилл;Bensonville
+ru;Барклейвилл;Barclayville
+kk;Барклейвилл;Barclayville
+ky;Барклейвилл;Barclayville
+hi;बार्क्लेविल;Barclayville
+bn;বার্ক্লেভিল;Barclayville
+ur;بارکلے ویل;Barclayville
+am;ባርክሌቪል;Barclayville
+fa;باركلي ویل;Barclayville
+ja;バークレイビル;Barclayville
+pa;ਬਾਰਕਲੇਵਿਲ;Barclayville
+ps;باركلے ویل;Barclayville
+tg;Барклейвилл;Barclayville
+tt;Барклейвилл;Barclayville
+zh;阿辛頓;Arthington
+hy;Արթինգտոն;Arthington
+ja;アーシントン;Arthington
+ur;آرتھنگٹن، لائبیریا;Arthington
+he;ארת'ינגטון;Arthington

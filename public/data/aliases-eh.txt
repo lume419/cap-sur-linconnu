@@ -58,3 +58,33 @@ ar;أم ادريكة‎;Oum Dreyga
 ber;ⵓⵎ ⴷⵔⵉⴳⴰ;Oum Dreyga
 es;Um Dreiga;Oum Dreyga
 ar;الجريفية;Jraifia
+hi;तिफ़ारिति;Tifariti
+be;Тыфарыці;Tifariti
+bg;Тифарити;Tifariti
+lt;Tifaritis;Tifariti
+hy;Թիֆարիտի;Tifariti
+uk;Тифаріті;Tifariti
+ur;تیفاریتی;Tifariti
+ko;티파리티;Tifariti
+el;Τιφαρίτη;Tifariti
+ta;தீபாரீத்தீ;Tifariti
+zh;提法里提;Tifariti
+mdf;Тифарити;Tifariti
+ja;ティファリティ;Tifariti
+fa;تیفاریتی;Tifariti
+he;טיפריטי;Tifariti
+ca;Al-Aaiun;Laâyoune
+gl;O Aaiún;Laâyoune
+ja;アイウン;Laâyoune
+ko;엘아이운;Laâyoune
+pl;Al-Ujun;Laâyoune
+sk;El-Aaiún;Laâyoune
+sv;Al-Ayun;Laâyoune
+fa;العیون;Laâyoune
+id;El Aaiún;Laâyoune
+mk;Ел Ајун;Laâyoune
+zh;阿尤恩;Laâyoune
+sw;El Aaiún;Laâyoune
+eu;Aaiun;Laâyoune
+no;El Aaiún;Laâyoune
+fa;داخله;Dakhla

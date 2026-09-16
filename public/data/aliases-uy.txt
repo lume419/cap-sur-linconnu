@@ -363,3 +363,668 @@ ru;Куарейм;Cuareim
 ru;Колония-Пальма;Colonia Palma
 es;Portezuelo;Sauce de Portezuelo
 ru;Пунта Бальена;Punta Ballena
+hy;Սապիկան;Zapicán
+fa;یانگ، اروگوئه;Young
+hy;Յանգ;Young
+ka;იანგი;Young
+lt;Jangas;Young
+ur;یونگ، یوروگوئے;Young
+lv;Janga;Young
+bn;ইয়ং;Young
+si;යන්ග්;Young
+uk;Янг;Young
+kn;ಯಂಗ್;Young
+mr;यंग;Young
+el;Γιανγκ;Young
+ta;யங்;Young
+gu;યંગ;Young
+te;యంగ్;Young
+th;ยัง;Young
+lt;Vilja del Seras;Villa del Cerro
+hy;Վիչադերո;Vichadero
+hy;Վեկասկես;Velázquez
+fa;ولازقوز، اروگوئه;Velázquez
+hy;Վեինտիսինկո դե Մայո;25 de Mayo
+nb;Veinticinco de Mayo;25 de Mayo
+fa;وینتیکینکو دو مایو، اروگوئه;25 de Mayo
+ca;Isla Mala;25 de Mayo
+hy;Վեինտիսինկո դե Ագոստո;25 de Agosto
+nb;Veinticinco de Agosto;25 de Agosto
+fa;وینتیکینکو دو اگوستو;25 de Agosto
+ca;Veinticinco de Agosto;25 de Agosto
+ceb;Valdense;Colonia Valdense
+bg;Валденсе;Colonia Valdense
+ur;کولونیا بالدینسے;Colonia Valdense
+hy;Տուպամբե;Tupambaé
+bg;Тринидад;Trinidad
+fa;ترینیداد، اروگوئه;Trinidad
+lt;Trinidadas;Trinidad
+uk;Тринідад;Trinidad
+hy;Տրինիդադ;Trinidad
+ka;ტრინიდადი;Trinidad
+ur;ترینیداد، یوراگوئے;Trinidad
+kk;Тринидад;Trinidad
+ky;Тринидад;Trinidad
+bn;ট্রিনিডাড;Trinidad
+am;ትሪኒዳድ;Trinidad
+pa;ਟ੍ਰਿਨਿਡਾਡ;Trinidad
+ps;ټرینیډاډ;Trinidad
+tg;Тринидад;Trinidad
+tt;Тринидад;Trinidad
+bg;Трейнта и Трес;Treinta y Tres
+fa;ترینتا ای ترس;Treinta y Tres
+hy;Տրեյնտա ի Տրես;Treinta y Tres
+ka;ტრეინტა-ი-ტრესი;Treinta y Tres
+lt;Treinta i Tresas;Treinta y Tres
+uk;Трейнта-і-Трес;Treinta y Tres
+ur;ترینتا ی تریس;Treinta y Tres
+kk;Тринта-и-Трес;Treinta y Tres
+ky;Тринта-и-Трес;Treinta y Tres
+bn;ট্রেইন্টা ই ট্রেস;Treinta y Tres
+am;ትሬንታ ዪ ትሬስ;Treinta y Tres
+pa;ਟ੍ਰੈਂਟਾ ਵਾਈ ਟ੍ਰੇਸ;Treinta y Tres
+ps;ترینتا ای تریس;Treinta y Tres
+tg;Тринта-и-Трес;Treinta y Tres
+tt;Тринта-и-Трес;Treinta y Tres
+hy;Թոմաս Գոմենսորո;Tomás Gomensoro
+uk;Томас-Ґоменсоро;Tomás Gomensoro
+hy;Տարարիրաս;Tarariras
+fa;تاراریراس;Tarariras
+ur;تاراریراس;Tarariras
+hy;Տալա;Tala
+uk;Тала;Tala
+fa;تالا، اروگوئه;Tala
+ur;تالا، یوراگوئے;Tala
+he;טאלה;Tala
+bg;Такуарембо;Tacuarembó
+fa;تاکوآرمبو;Tacuarembó
+lt;Takuarembo;Tacuarembó
+hy;Տակուարեմբո;Tacuarembó
+ka;ტაკუარემბო;Tacuarembó
+ta;தக்குவாறிம்போ;Tacuarembó
+ur;تاکواریمبو;Tacuarembó
+vep;Takuarembo;Tacuarembó
+kk;Такуарембо;Tacuarembó
+uz;Takuarembo;Tacuarembó
+ky;Такуарембо;Tacuarembó
+bn;তাকুয়ারেম্বো;Tacuarembó
+am;ታኩዋሬምቦ;Tacuarembó
+az;Takuarembo;Tacuarembó
+pa;ਤਕੁਆਰੇਮਬੋ;Tacuarembó
+ps;تکوارمبو;Tacuarembó
+tg;Такуарембо;Tacuarembó
+tt;Такуарембо;Tacuarembó
+ceb;Soriano;Villa Soriano
+uk;Соріано;Villa Soriano
+hy;Սաուսե;Sauce
+fa;سس، اروگوئه;Sauce
+ur;ساوسے، یوراگوئے;Sauce
+hy;Սարանդի Գրանդե;Sarandí Grande
+uk;Саранді Гранде;Sarandí Grande
+fa;ساراندی گرانده;Sarandí Grande
+ur;ساراندی گراندے;Sarandí Grande
+bn;সান্তা রোসা;Santa Rosa
+ur;سانتا روسا، یوراگوئے;Santa Rosa
+lt;Santa Lusija;Santa Lucía
+lv;Santalusija;Santa Lucía
+bn;সান্তা লুসিয়া;Santa Lucía
+hy;Սանտա Լուսիա;Santa Lucía
+si;සැන්ටා ලුසියා;Santa Lucía
+uk;Санта-Лусія;Santa Lucía
+ur;سانتا لوسیا، یوراگوئے;Santa Lucía
+kn;ಸಾಂಟಾ ಲುಸಿಯಾ;Santa Lucía
+mr;सांता लुसेया;Santa Lucía
+el;Σάντα Λουτσία;Santa Lucía
+ta;சாண்டா லூசியா;Santa Lucía
+gu;સાંતા લુસિઆ;Santa Lucía
+te;శాంటా లూసియా;Santa Lucía
+th;ซานตาลูชีอา;Santa Lucía
+fa;سانتا لوسیا، اروگوئه;Santa Lucía
+hy;Սանտա Կատալինա;Santa Catalina
+hy;Սանտա Բերնարդինա;Santa Bernardina
+hy;Սան Լուիս ալ Մեդիո;San Luis al Medio
+bg;Сан Хосе де Майо;San José de Mayo
+fa;سان خوزه دمایو;San José de Mayo
+lt;San Chose de Majas;San José de Mayo
+hy;Սան Խոսե դե Մայո;San José de Mayo
+ka;სან-ხოსე-დე-მაიო;San José de Mayo
+uk;Сан Хосе де Майо;San José de Mayo
+ur;سان خوسے دے ماجو;San José de Mayo
+kk;Сан-Хосе-де-Майо;San José de Mayo
+ky;Сан-Хосе-де-Майо;San José de Mayo
+bn;সান হোসে দে মায়ো;San José de Mayo
+am;ሳን ሆሴ ዲ ማዮ;San José de Mayo
+pa;ਸੈਨ ਜੋਸੇ ਡੀ ਮਾਯੋ;San José de Mayo
+ps;سان جوسه دی مایو;San José de Mayo
+tg;Сан-Хосе-де-Майо;San José de Mayo
+tt;Сан-Хосе-де-Майо;San José de Mayo
+hy;Սան Ֆելիքս;San Félix
+uk;Сан-Фелікс;San Félix
+fa;سن کارلوس، اروگوئه;San Carlos
+hy;Սան Կարլոս;San Carlos
+ka;სან-კარლოსი;San Carlos
+lt;San Karlosas;San Carlos
+ur;سان کارلوس، یوراگوئے;San Carlos
+lv;Sankarlosa;San Carlos
+bn;সান কার্লোস;San Carlos
+si;සැන් කාර්ලොස්;San Carlos
+uk;Сан-Карлос;San Carlos
+kn;ಸ್ಯಾನ್ ಕಾರ್ಲೋಸ್;San Carlos
+mr;सॅन कार्लोस;San Carlos
+el;Σαν Κάρλος;San Carlos
+ta;சான் கார்லாஸ்;San Carlos
+gu;સાન કાર્લોસ;San Carlos
+te;శాన్ కార్లోస్;San Carlos
+th;ซาน คาร์ลอส;San Carlos
+bn;সান বাউটিস্তা;San Bautista
+ur;سان باوتیستا;San Bautista
+he;סן באוטיסטה;San Bautista
+uk;Сальто;Salto
+bg;Салто;Salto
+lt;Saltas;Salto
+fa;سالتو، اروگوئه;Salto
+bn;সালতো;Salto
+he;סלטו;Salto
+th;ซัลโต;Salto
+hy;Սալտո;Salto
+ka;სალტო;Salto
+mr;साल्तो;Salto
+ur;سالتو، یوراگوئے;Salto
+kk;Салто;Salto
+ky;Салто;Salto
+am;ሳልቶ;Salto
+pa;ਸਾਲਟੋ;Salto
+ps;سالتو;Salto
+tg;Салто;Salto
+tt;Салто;Salto
+fa;روزاریو، اروگوئه;Rosario
+hy;Ռոսարիո;Rosario
+ur;روساریو، یوراگوئے;Rosario
+lt;Rasarija;Rosario
+bn;রোজারীও;Rosario
+si;රොසයිරෝ;Rosario
+uk;Росаріо;Rosario
+kn;ರೊಸಾರಿಯೋ;Rosario
+mr;रोज़ारियो;Rosario
+el;Ροσάριο;Rosario
+ta;ரொசாரியோ;Rosario
+gu;રોઝારિયો;Rosario
+te;రొసారియో;Rosario
+th;โรซาริโอ้;Rosario
+he;רוסאריו;Rosario
+bg;Роча;Rocha
+lt;Roča;Rocha
+fa;روچا;Rocha
+hy;Ռոչա;Rocha
+ka;როჩა;Rocha
+ur;روچا، یوراگوئے;Rocha
+kk;Роча;Rocha
+ky;Роча;Rocha
+bn;রোচা;Rocha
+am;ሮቻ;Rocha
+pa;ਰੋਚਾ;Rocha
+ps;روچا;Rocha
+tg;Роча;Rocha
+tt;Роча;Rocha
+bg;Ривера;Rivera
+bn;রিবেরা;Rivera
+fa;ریورا;Rivera
+he;ריברה;Rivera
+th;รีเบรา;Rivera
+hy;Ռիվերա;Rivera
+ka;რივერა;Rivera
+sr;Ривера;Rivera
+uk;Рівера;Rivera
+ur;ریویرا;Rivera
+kk;Риверa;Rivera
+ky;Риверa;Rivera
+am;ሪቬራ;Rivera
+pa;ਰਿਵੇਰਾ;Rivera
+ps;ریویرا;Rivera
+tg;Риверa;Rivera
+tt;Риверa;Rivera
+bg;Рисо;Risso
+fa;ریو برانکو، اروگوئه;Río Branco
+hy;Ռիո Բրանկո;Río Branco
+ur;ریو برانکو، یوراگوئے;Río Branco
+hy;Ռայգոն;Raigón
+hy;Ռաֆաել Պերասսա;Rafael Perazza
+el;Πούντα ντελ Έστε;Punta del Este
+fa;پونتا دل استه;Punta del Este
+he;פונטה דל אסטה;Punta del Este
+hr;Punte del Este;Punta del Este
+sr;Пунта дел Есте;Punta del Este
+th;ปุนตาเดลเอสเต;Punta del Este
+bg;Пунта дел Есте;Punta del Este
+uk;Пунта-дель-Есте;Punta del Este
+ur;پونتا دیل ایستے;Punta del Este
+hy;Պունտա դել Էստե;Punta del Este
+lt;Progresas;Progreso
+bn;প্রোগ্রেসো;Progreso
+hy;Պրոգրեսո;Progreso
+si;ප්‍රොග්රෙසෝ;Progreso
+uk;Прогресо;Progreso
+ur;پروگریسو، یوراگوئے;Progreso
+kn;ಪ್ರೊಗ್ರೇಸೋ;Progreso
+mr;प्रोग्रेसो;Progreso
+el;Προγκρέσο;Progreso
+ta;ப்ரோக்ரேசோ;Progreso
+gu;પ્રોગ્રેસો;Progreso
+te;ప్రోగ్రె సో;Progreso
+th;โปรเกรสโซ่;Progreso
+hy;Պորվենիր;Porvenir
+fa;پیریاپلیس;Piriápolis
+ur;پیریاپولیس;Piriápolis
+hy;Պիրիապոլիս;Piriápolis
+hy;Պիրարախա;Pirarajá
+fa;پایساندو;Paysandú
+bg;Пайсанду;Paysandú
+bn;পায়সান্দু;Paysandú
+be;Пайсанду;Paysandú
+lt;Paisandu;Paysandú
+uk;Пайсанду;Paysandú
+th;ไปย์ซันดู;Paysandú
+hy;Պայսանդու;Paysandú
+ka;პაისანდუ;Paysandú
+kk;Пайсанду;Paysandú
+ur;پایساندو;Paysandú
+vep;Paisandu;Paysandú
+ky;Пайсандú;Paysandú
+am;ፓይሳንዱ;Paysandú
+pa;ਪਾਏਸਾਂਦੂ;Paysandú
+ps;پایسانډو;Paysandú
+tg;Пайсандú;Paysandú
+tt;Пайсандú;Paysandú
+fa;پاسو د لوس‌تروس;Paso de los Toros
+hy;Պասո դե լոս Տորոս;Paso de los Toros
+ur;پاسو دے لوس توروس;Paso de los Toros
+lt;Paso de los Torosas;Paso de los Toros
+bn;পাসো দে লস টোরোস;Paso de los Toros
+si;පාසෝ ඩි ලොස්‌ ටොරෝස්;Paso de los Toros
+uk;Пасо-де-лос-Торос;Paso de los Toros
+kn;ಪ್ಯಾಸೊ ಡೆ ಲಾಸ್ ಟೊರೊಸ್;Paso de los Toros
+mr;पासो डे लॉस टॉरोस;Paso de los Toros
+el;Πάσο Ντε Λος Τόρος;Paso de los Toros
+ta;பாஸொ டே லாஸ் டோரோஸ்;Paso de los Toros
+gu;પાસો દે લોસ ટોરોસ;Paso de los Toros
+te;పాసో డి లాస్ టోరోస్;Paso de los Toros
+th;ปาโซ เดอ ลา แพทเทรีย;Paso de los Toros
+he;פאסו דה לוס טורוס;Paso de los Toros
+hy;Պասո դել Սերրո;Paso del Cerro
+lt;Pandas;Pando
+hy;Պանդո;Pando
+uk;Пандо;Pando
+ur;پاندو، یوراگوئے;Pando
+mr;पांडो;Pando
+el;Πάντο;Pando
+fa;پندو، اروگوئه;Pando
+be;Панда;Pando
+bn;পান্ডো;Pando
+ka;პანდო;Pando
+si;පැන්ඩෝ;Pando
+kn;ಪಾಂಡೊ;Pando
+ta;பண்டோ;Pando
+gu;પાંડો;Pando
+te;పాండో;Pando
+th;แพนโด;Pando
+he;פנדו;Pando
+hy;Պալմիտաս;Palmitas
+hy;Օրգորոսո;Orgoroso
+bg;Оргоросо;Orgoroso
+ur;اومبویس دے لاوائیے;Ombúes de Lavalle
+he;נואבו ברלין;Nuevo Berlín
+fa;نوئوا پالمیرا;Nueva Palmira
+ur;نویوا پالمیرا;Nueva Palmira
+fa;نوئوا هلوکا;Nueva Helvecia
+hy;Նուեվա Էլվեսիա;Nueva Helvecia
+ur;نویوا ہیلویسیا;Nueva Helvecia
+hy;Նիկո Պերես;Nico Pérez
+uk;Ніко Перес;Nico Pérez
+bg;Монтевидео;Montevideo
+he;מונטווידאו;Montevideo
+lt;Montevidėjas;Montevideo
+fa;مونته‌ویدئ;Montevideo
+fa;مونته‌ویدئو;Montevideo
+el;Μοντεβιδέο;Montevideo
+am;ሞንቴቪዴዎ;Montevideo
+ka;მონტევიდეო;Montevideo
+th;มอนเตวิเดโอ;Montevideo
+ug;مونتېۋىدېئو;Montevideo
+os;Монтевидео;Montevideo
+uk;Монтевідео;Montevideo
+bn;মোন্তেবিদেও;Montevideo
+hy;Մոնտեվիդեո;Montevideo
+bo;མཱོན་ཊི་ཝི་ཌོ།;Montevideo
+be;Мантэвідэа;Montevideo
+mr;मोन्तेविदेओ;Montevideo
+ml;മൊണ്ടേവീഡിയോ;Montevideo
+ab;Монтевидео;Montevideo
+sr;Монтевидео;Montevideo
+mk;Монтевидео;Montevideo
+pa;ਮੋਂਤੇਵੀਦਿਓ;Montevideo
+tet;Montevideu;Montevideo
+ur;مونتیبیدیو;Montevideo
+my;မွန်တီဗစ်ဒီအိုမြို့;Montevideo
+sgs;Montevidiejos;Montevideo
+ce;Монтевидео;Montevideo
+or;ମଣ୍ଟିଭିଡ଼ିଓ;Montevideo
+ta;மொண்டேவீடியோ;Montevideo
+tt;Монтевидео;Montevideo
+yue;蒙特維多;Montevideo
+kk;Монтевидео;Montevideo
+ky;Монтевидео;Montevideo
+lez;Монтевидео;Montevideo
+lrc;مونته ویدئو;Montevideo
+bg;Минас;Minas
+fa;میناس، اروگوئه;Minas
+lt;Minasas;Minas
+hy;Մինաս;Minas
+ka;მინასი;Minas
+uk;Мінас;Minas
+ur;میناس، یوراگوئے;Minas
+kk;Минас;Minas
+ky;Минас;Minas
+bn;মিনাস;Minas
+am;ሚናስ;Minas
+pa;ਮਿਨਾਸ;Minas
+ps;مینا;Minas
+tg;Минас;Minas
+tt;Минас;Minas
+bg;Мигуес;Migues
+ur;میغیس;Migues
+hy;Միգելետե;Miguelete
+hy;Մերինոս;Merinos
+bg;Меринос;Merinos
+bg;Мерседес;Mercedes
+bn;মের্সেদেস;Mercedes
+fa;مرسدس، اروگوئه;Mercedes
+lt;Mersedesas;Mercedes
+el;Μερσέδες;Mercedes
+hy;Մերսեդես;Mercedes
+ka;მერსედესი;Mercedes
+uk;Мерседес;Mercedes
+ur;میرسیدیس، یوراگوئے;Mercedes
+kk;Мерседес;Mercedes
+ky;Мерседес;Mercedes
+am;መርሴድስ;Mercedes
+pa;ਮਰਸੀਡੀਜ;Mercedes
+ps;مرسیڈز;Mercedes
+tg;Мерседес;Mercedes
+tt;Мерседес;Mercedes
+lt;Melas;Melo
+bg;Мело;Melo
+bn;মেলো;Melo
+fa;ملو، اروگوئه;Melo
+hy;Մելո;Melo
+ka;მელო;Melo
+uk;Мело;Melo
+ur;میلو، یوراگوئے;Melo
+kk;Мело;Melo
+ky;Мело;Melo
+am;መሎ;Melo
+pa;ਮੇਲੋ;Melo
+ps;میلو;Melo
+tg;Мело;Melo
+tt;Мело;Melo
+bg;Масолер;Masoller
+fa;مالدونادو، اروگوئه;Maldonado
+uk;Мальдонадо;Maldonado
+bg;Малдонадо;Maldonado
+lt;Maldonadas;Maldonado
+hy;Մալդոնադո;Maldonado
+ka;მალდონადო;Maldonado
+ur;مالدونادو، یوراگوئے;Maldonado
+kk;Малдонадо;Maldonado
+ky;Малдонадо;Maldonado
+bn;মালডোনাডো;Maldonado
+am;ማልዶናዶ;Maldonado
+pa;ਮਾਲਡੋਨਾਡੋ;Maldonado
+ps;مالډوناډو;Maldonado
+tg;Малдонадо;Maldonado
+tt;Малдонадо;Maldonado
+hy;Լորենսո Գեյրես;Lorenzo Geyres
+lt;Libertadas;Libertad
+lv;Libertada;Libertad
+bn;লিবারতাদ;Libertad
+hy;Լիբերտադ;Libertad
+si;ලිබර්ටඩ්;Libertad
+uk;Лібертад;Libertad
+ur;لیورتاد، یوراگوئے;Libertad
+kn;ಲಿಬರ್ಟಾಡ್;Libertad
+mr;लिबर्टाद;Libertad
+el;Λιμπερτάντ;Libertad
+ta;லிபெர்ட்டட்;Libertad
+gu;લિબર્ટેડ;Libertad
+te;లిబర్తాడ్;Libertad
+th;ลิแบร์ตัด;Libertad
+fa;لیبرتاد، اروگوئه;Libertad
+ur;لاس ٹوسکاس، کانیلونیس;Las Toscas
+bg;Лас Пиедрас;Las Piedras
+bn;লাস পিয়েদ্রাস;Las Piedras
+fa;لاس‌پیدراس، اروگوئه;Las Piedras
+hy;Լաս Պեդրաս;Las Piedras
+ka;ლას-პიედრასი;Las Piedras
+lt;Las Piedrasas;Las Piedras
+ur;لاس پیڈراس، یوراگوئے;Las Piedras
+vep;Las Pjedras;Las Piedras
+bg;Лапуенте;Lapuente
+ur;لپوئینٹی;Lapuente
+lt;La Pasas;La Paz
+lv;Laspasa;La Paz
+hy;Լա Պաս;La Paz
+uk;Ла-Пас;La Paz
+ur;لا پاز، یوراگوئے;La Paz
+mr;ला पाझ;La Paz
+el;Λα Παζ;La Paz
+fa;لا پاز، اروگوئه;La Paz
+bn;লা পাজ;La Paz
+ka;ლა-პასი;La Paz
+si;ලා පාස්;La Paz
+kn;ಲಾ ಪಾಜ್;La Paz
+ta;லா பாஸ்;La Paz
+gu;લા પાઝ;La Paz
+te;లా పాజ్;La Paz
+th;ลาปาซ;La Paz
+he;לה פאס;La Paz
+ur;لا پاز، کولونیا;La Paz
+hy;Լա Պալոմա;La Paloma
+uk;Ла-Палома;La Paloma
+ur;لا پالوما، روچا;La Paloma
+ur;لا فلوریستا، یوراگوئے;La Floresta
+hy;Լա Կորոնիլիա;La Coronilla
+ur;لا کورونیلا;La Coronilla
+hy;Խոսե Էնրիկե Ռոդո;José Enrique Rodó
+ur;جویر دے  ویانا;Javier de Viana
+hy;Խեներալ Էնրիկե Մարտինես;General Enrique Martínez
+fa;فرای بنتوس;Fray Bentos
+bg;Фрай Бентос;Fray Bentos
+lt;Frai Bentosas;Fray Bentos
+hy;Ֆրայ Բենտոս;Fray Bentos
+ka;ფრაი-ბენტოსი;Fray Bentos
+uk;Фрей Бентос;Fray Bentos
+ur;فرای بینتوس;Fray Bentos
+kk;Фрай-Бентос;Fray Bentos
+ky;Фрай-Бентос;Fray Bentos
+bn;ফ্রে বেন্টোস;Fray Bentos
+am;ፍራይ ቤንቶስ;Fray Bentos
+pa;ਫ੍ਰੇ ਬੈਂਟੋਸ;Fray Bentos
+ps;فریے بینتوس;Fray Bentos
+tg;Фрай-Бентос;Fray Bentos
+tt;Фрай-Бентос;Fray Bentos
+kk;Флорида;Florida
+ky;Флорида;Florida
+bn;ফ্লোরিডা;Florida
+ur;فلوریڈا;Florida
+am;ፍሎሪዳ;Florida
+fa;فلوریدا;Florida
+pa;ਫਲੋਰੀਡਾ;Florida
+ps;فلوریډا;Florida
+tg;Флорида;Florida
+tt;Флорида;Florida
+hy;Էլ Սեմիլերո;El Semillero
+hy;Էլ Էուկալիպտո;El Eucalipto
+ceb;El Eucaliptus;El Eucalipto
+bg;Дурасно;Durazno
+fa;دورازنو;Durazno
+lt;Durasnas;Durazno
+hy;Դուրասնո;Durazno
+ka;დურასნო;Durazno
+uk;Дурасно;Durazno
+ur;دوراسنو;Durazno
+kk;Дурасно;Durazno
+ky;Дурасно;Durazno
+bn;দুরাজনো;Durazno
+am;ዱራዝኖ;Durazno
+pa;ਦੁਰਾਜ਼ਨੋ;Durazno
+ps;دورازنو;Durazno
+tg;Дураснo;Durazno
+tt;Дураснo;Durazno
+fa;دولورس، اروگوئه;Dolores
+hy;Դոլորես;Dolores
+ka;დოლორესი;Dolores
+lt;Doloresas;Dolores
+ur;دولوریس، یوراگوئے;Dolores
+lv;Doloresa;Dolores
+bn;ডলোরেস;Dolores
+si;ඩොලොරෙස්;Dolores
+uk;Долорес;Dolores
+kn;ಡೊಲೊರೆಸ್;Dolores
+mr;डोलरेस;Dolores
+el;Ντολόρες;Dolores
+ta;டோலோரெஸ்;Dolores
+gu;ડોલોરેસ;Dolores
+te;డొలోరెస్;Dolores
+th;โดโลเรส;Dolores
+hy;Դիեսիոչո դե Խուլիո;Dieciocho de Julio
+uk;Д'єсіочо-де-Хуліо;Dieciocho de Julio
+pl;18 de Julio;Dieciocho de Julio
+hy;Կոնչիլիաս;Conchillas
+lt;Kolonija;Colonia del Sacramento
+lt;Kolonija del Sakramentas;Colonia del Sacramento
+uk;Колонія-дель-Сакраменто;Colonia del Sacramento
+fa;کولونیا دل ساکرامنتو;Colonia del Sacramento
+bg;Колония дел Сакраменто;Colonia del Sacramento
+ka;კოლონია-დელ-საკრამენტო;Colonia del Sacramento
+sr;Колонија дел Сакраменто;Colonia del Sacramento
+he;קולוניה דל סקרמנטו;Colonia del Sacramento
+el;Κολόνια ντελ Σακραμέντο;Colonia del Sacramento
+bn;কোলোনিয়া দেল সাক্রামেন্তো;Colonia del Sacramento
+az;Sakramento koloniyası;Colonia del Sacramento
+hy;Կոլոնիա դել Սակրամենտո;Colonia del Sacramento
+ta;சாக்ரமெந்தோ குடியேற்றப் பகுதி;Colonia del Sacramento
+ur;کولونیا دیل ساکرامینتو;Colonia del Sacramento
+kk;Колония-дель-Сакраменто;Colonia del Sacramento
+uz;Kolonia del Sacramento;Colonia del Sacramento
+ky;Колония-дель-Сакраменто;Colonia del Sacramento
+am;ኮሎኒያ ደል ሳክራሜንቶ;Colonia del Sacramento
+pa;ਕੋਲੋਨੀਆ ਡੇਲ ਸੈਕ੍ਰਾਮੈਂਟੋ;Colonia del Sacramento
+ps;کولونیا ديل ساکرامنتو;Colonia del Sacramento
+tg;Колония-дель-Сакраменто;Colonia del Sacramento
+tt;Колония-дель-Сакраменто;Colonia del Sacramento
+hy;Չույ;Chui
+ur;چوی;Chui
+hy;Չապիկույ;Chapicuy
+hy;Սեբոլիատի;Cebollatí
+hy;Կասպուա;Casupá
+fa;کارملو، اروگوئه;Carmelo
+hy;Կարմելո;Carmelo
+ka;კარმელო;Carmelo
+lt;Karmelas;Carmelo
+be;Кармела;Carmelo
+lv;Karmelo;Carmelo
+bn;কারমেলো;Carmelo
+si;කාර්මෙලෝ;Carmelo
+uk;Кармело;Carmelo
+ur;کارمیلو;Carmelo
+kn;ಕಾರ್ಮೆಲೋ;Carmelo
+mr;कार्मेलो;Carmelo
+el;Καρμέλο;Carmelo
+ta;கார்மெலோ;Carmelo
+gu;કાર્મેલો;Carmelo
+te;కర్మెలో;Carmelo
+th;การ์เมโล;Carmelo
+he;קרמלו;Carmelo
+kk;Канелонес;Canelones
+uz;Kanelones;Canelones
+ky;Канелонес;Canelones
+bn;ক্যানেলোনেস;Canelones
+ur;کینیلونز;Canelones
+am;ካኔሎንስ;Canelones
+az;Kanelones;Canelones
+fa;کانلونس;Canelones
+pa;ਕੈਨੀਲੋਨੇਸ;Canelones
+ps;کانیلونس;Canelones
+tg;Канелонес;Canelones
+tt;Канелонес;Canelones
+fa;بوسئو;Buceo
+bg;Биасини;Biassini
+fa;بلا یونیون;Bella Unión
+hy;Բելյա Ունոն;Bella Unión
+lt;Belja Unionas;Bella Unión
+uk;Белья Уніон;Bella Unión
+ur;بیا اونین;Bella Unión
+uk;Бальтасар-Брум;Baltasar Brum
+ceb;Balneario Solís;Solís
+be;Атлантыда;Atlántida
+fa;آتلانتیدا، اروگوئه;Atlántida
+hy;Ատլանտիդա;Atlántida
+ur;اتلانتیدا، یوراگوئے;Atlántida
+bg;Артигас;Artigas
+fa;آرتیگاس، اروگوئه;Artigas
+lt;Artigasas;Artigas
+uk;Артигас;Artigas
+el;Αρτίγας;Artigas
+hy;Արտիգաս;Artigas
+ka;არტიგასი;Artigas
+ur;آرتیگاس، یوراگوئے;Artigas
+kk;Артигас;Artigas
+ky;Артигас;Artigas
+bn;আর্টিগাস;Artigas
+am;አርቲጋስ;Artigas
+pa;ਆਰਟੀਗਾਸ;Artigas
+ps;آرتیگاس;Artigas
+tg;Артигас;Artigas
+tt;Артигас;Artigas
+bg;Ансина;Ansina
+hy;Անսինա;Ansina
+hy;Ալգորտա;Algorta
+fa;الگورتا، اوراگوای;Algorta
+bg;Албису;Albisu
+fa;البیسو;Albisu
+fa;اگواس کورینتس;Aguas Corrientes
+ur;اگواس کورینتس;Aguas Corrientes
+fa;اگراسیدا;Agraciada
+ur;آگراسیادا;Agraciada
+hy;Աչար;Achar
+fa;اچار، اروگوئه;Achar
+fa;بارا دو کاراسکو;Barra de Carrasco
+hy;Պունտաս դել Դիաբլո;Punta del Diablo
+uk;Пунта-дель-Діабло;Punta del Diablo
+fa;سیوداد دلا کاستا;Ciudad de la Costa
+lt;Siudad de la Kosta;Ciudad de la Costa
+hy;Սյուդադ դե լա Կոստա;Ciudad de la Costa
+ka;სიუდად-დე-ლა-კოსტა;Ciudad de la Costa
+ur;سیوداد دے لا کوستا;Ciudad de la Costa
+vep;Sjudad de la Kost;Ciudad de la Costa
+tt;Сьюдад-де-ла-Коста;Ciudad de la Costa
+lv;Sjudada de la Kosta;Ciudad de la Costa
+uk;Сьюдад-де-ла-Коста;Ciudad de la Costa
+mr;सियुडॅड दे ला कोस्टा;Ciudad de la Costa
+el;Τσιουντάντ ντε λα Κόστα;Ciudad de la Costa
+bn;সিউদাদ দে লা কোস্তা;Ciudad de la Costa
+si;සියුඩඩ් ඩි ලා කොස්ටා;Ciudad de la Costa
+kn;ಸಿಯುಡಾಡ್ ಡೆ ಲಾ ಕೋಸ್ಟಾ;Ciudad de la Costa
+ta;கியுடேட் டே லா கோஸ்டா;Ciudad de la Costa
+gu;સિયુદાદ દે લા કોસ્ટા;Ciudad de la Costa
+te;సియుడాడ్ డి లా కోస్టా;Ciudad de la Costa
+th;ซิวดาดเดลาคอสต้า;Ciudad de la Costa
+uk;Солімар;Solymar
+bg;Лагомар;Lagomar
+ur;لاگومار;Lagomar
+nb;Parque Carrasco;City Park
+ca;Parque Carrasco;City Park
+he;אסטסיון אטלנטידה;Estación Atlántida
+ceb;Cainsa Itacumbú;Cainsa
+ca;Palma;Colonia Palma
+eu;Portezuelo;Sauce de Portezuelo
+he;פונטה באז'נה;Punta Ballena

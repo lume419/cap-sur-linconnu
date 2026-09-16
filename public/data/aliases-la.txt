@@ -457,3 +457,90 @@ lo;ມ. ສີໂຄດຕະບອງ;Don Xing Xou
 lo;ເຊກອງ;Dark Man
 lo;ມ. ດັກຈຶງ;Dark Man
 lo;ມ. ແກ້ວອຸດົມ;Donesayoudoom
+pl;Wientian;Vientiane
+sk;Vientian;Vientiane
+et;Viangchan;Vientiane
+he;ויינטיאן;Vientiane
+el;Βιεντιάν;Vientiane
+am;ቭየንትዬን;Vientiane
+lt;Vientianas;Vientiane
+ht;Vyantyàn;Vientiane
+udm;Вьентьян;Vientiane
+oc;Viengchan;Vientiane
+uk;Вєнтьян;Vientiane
+mk;Виентијан;Vientiane
+be;Венцьян;Vientiane
+ka;ვიენტიანი;Vientiane
+sr;Вијентијан;Vientiane
+az;Vyentyan;Vientiane
+hy;Վիենտյան;Vientiane
+nah;Vianchan;Vientiane
+cv;Вьентьян;Vientiane
+os;Вьентьян;Vientiane
+hu;Vientián;Vientiane
+bg;Виентян;Vientiane
+lv;Vjenčana;Vientiane
+eu;Vientian;Vientiane
+ckb;ڤیێنتیان;Vientiane
+ce;Вьентьян;Vientiane
+lrc;وینتیان;Vientiane
+vep;Vjentjan;Vientiane
+uk;Сам Неуа;Xam Nua
+am;ዛም ኑዋ;Xam Nua
+tt;Сам Нуа;Xam Nua
+am;ሳቫናხት;Savannakhet
+tt;Саваннахет;Savannakhet
+am;ሳላቫን;Salavan
+tt;Саланван;Salavan
+am;ፎንግሳሊ;Phôngsali
+tt;Фонгсали;Phôngsali
+bg;Паксе;Pakse
+ce;Паксе;Pakse
+da;Pakxe;Pakse
+ka;პაქსე;Pakse
+mk;Паксе;Pakse
+uk;Паксе;Pakse
+am;ፓክሴ;Pakse
+tt;Паксе;Pakse
+am;ሙዋንግ ሳይ;Muang Xay
+tt;Муанг Сай;Muang Xay
+pl;Sayaboury;Sainyabuli
+am;ሳይንያቡሊ;Sainyabuli
+tt;Саньябули;Sainyabuli
+am;ሙዋንግ ፎንሳቫን;Muang Phônsavan
+tt;Муанг Фонсаван;Muang Phônsavan
+am;ሙዋንግ ፎን-ሆንግ;Muang Phôn-Hông
+tt;Муанг Фон-Хонг;Muang Phôn-Hông
+el;Μουάνγκ Φιάνγκ;Muang Phiang
+am;ፓክሳን;Pakxan
+tt;Пакхан;Pakxan
+am;ታኸክ;Thakhèk
+tt;Такхек;Thakhèk
+fi;Louangphabang;Luang Prabang
+sv;Louang Prabang;Luang Prabang
+bg;Луанпрабан;Luang Prabang
+ce;Луангпхабанг;Luang Prabang
+cv;Луанг-Прабанг;Luang Prabang
+he;לואנג פרבאנג;Luang Prabang
+hu;Luangprabang;Luang Prabang
+ka;ლუანგპრაბანგი;Luang Prabang
+lt;Luangprabangas;Luang Prabang
+lv;Luanpabana;Luang Prabang
+sr;Луанг Прабанг;Luang Prabang
+uk;Луанг-Прабанг;Luang Prabang
+am;ሉዋንግ ፕራባንግ;Luang Prabang
+tt;Луангпхабанг;Luang Prabang
+ka;ლუანგნამტჰა;Luang Namtha
+am;ሉዋንግ ናምታ;Luang Namtha
+tt;Луангнамтха;Luang Namtha
+am;ባን ሁዋይሳይ;Ban Houayxay
+tt;Бан Хуайсай;Ban Houayxay
+el;Μπαν Μπο Σάνε;Ban Bosan
+ka;ატაპი;Attapeu
+am;አታፔው;Attapeu
+tt;Аттапеу;Attapeu
+am;ሴኮንግ;Sekong
+tt;Секонг;Sekong
+uk;Дансаван;Ban Dansavan
+pl;Złoty Trójkąt;Ban Khoan
+uk;Золотий Трикутник;Ban Khoan

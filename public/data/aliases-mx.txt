@@ -24869,3 +24869,1519 @@ es;Coatlapila;Tizapán
 es;El Rancho del Padre;Tlalica
 es;Jicopantla;Xicopantla
 es;Los Tepetates;La Arcina
+sr;Зумпанго дел Рио;Zumpango del Río
+sr;Запотитлан дел Рио;Zapotitlán del Río
+sr;Закапоастла;Zacapoaxtla
+sr;Јаскопоил;Yaxcopoil
+sr;Сул-А;Xul-Ha
+ca;Xtul;Xtuul
+sr;Сосокотла;Xoxocotla
+sr;С-Кан;X-Cán
+lt;Škalakas;Xcalak
+sr;Скалак;Xcalak
+sr;Виљаермоса;Villahermosa
+fa;ویلاهرمسا، تاباسکو;Villahermosa
+lt;Viljahermosa;Villahermosa
+bg;Виляермоса;Villahermosa
+ka;ვილიაერმოსა;Villahermosa
+he;וייארמוסה;Villahermosa
+ur;بیائرموسا;Villahermosa
+kk;Вильяэрмоса;Villahermosa
+ky;Вильяэрмоса;Villahermosa
+bn;ভিলাহার্মোসা;Villahermosa
+am;ቪላሄርሞሳ;Villahermosa
+pa;ਵਿਲਾਹਰਮੋਸਾ;Villahermosa
+ps;ویلاهرموسا;Villahermosa
+tg;Вильяхермоса;Villahermosa
+tt;Вильяэрмоса;Villahermosa
+uk;Веракрус;Veracruz
+mrj;Веракрус;Veracruz
+fa;وراکروس;Veracruz
+ka;ვერაკრუსი;Veracruz
+sr;Веракруз;Veracruz
+nn;Veracruz i Veracruz;Veracruz
+mr;बेराक्रुथ;Veracruz
+th;เวรากรุซ;Veracruz
+bg;Веракрус;Veracruz
+lt;Verakrusas;Veracruz
+ta;வேராகுரூசு;Veracruz
+sr;Ваљадолид;Valladolid
+uk;Вальядолід;Valladolid
+lt;Valadolidas;Valladolid
+lv;Valadolida;Valladolid
+hy;Վալյադոլիդ;Valladolid
+ur;والادولید;Valladolid
+mr;वॅलॅडॉलिड;Valladolid
+el;Βαγιαδολίδ;Valladolid
+bn;বাইয়াদোলিদ;Valladolid
+si;වල්ලාඩොලිඩ්;Valladolid
+kn;ವಲ್ಲಾಡೋಲಿಡ್;Valladolid
+zh-HK;巴利亞多利德;Valladolid
+ta;வல்லடோலிட்;Valladolid
+gu;વૅલૅડોલિડ;Valladolid
+te;వాల్లాడోలిడ్;Valladolid
+th;บายาโดลิด;Valladolid
+he;ואיאדוליד;Valladolid
+sr;Уајма;Uayma
+sr;Зукакаб;Tzucacab
+ca;Tuxtla Gutiérrez;Tuxtla
+cs;Tuxtla Gutiérrez;Tuxtla
+pl;Tuxtla Gutiérrez;Tuxtla
+sv;Tuxtla Gutiérrez;Tuxtla
+fa;توکسلا گوتیرس٬ چیاپاس;Tuxtla
+sr;Тукстла Гутијерез;Tuxtla
+ka;ტუსტლა-გუტიერესი;Tuxtla
+el;Τούξτλα Γκουτιέρρες;Tuxtla
+bg;Тустла Гутиерес;Tuxtla
+th;ตุซตลากูตีเอร์เรซ;Tuxtla
+lt;Tustla Gutjeresas;Tuxtla
+ur;توستلا گیوتیرس;Tuxtla
+he;טוסטלה גוטיירס;Tuxtla
+uk;Тустла-Ґутьєррес;Tuxtla
+kk;Тустла;Tuxtla
+ky;Тустла;Tuxtla
+bn;টাক্সটলা;Tuxtla
+am;ቱክስትላ;Tuxtla
+pa;ਟਕਸਟਲਾ;Tuxtla
+ps;توکستلا;Tuxtla
+tg;Тустла;Tuxtla
+tt;Тустла;Tuxtla
+sr;Тула де Аљенде;Tula de Allende
+ka;ტოლუკა;Toluca
+mr;तोलुका;Toluca
+el;Τολούκα;Toluca
+fa;تولوکا;Toluca
+bg;Толука;Toluca
+th;โตลูกา;Toluca
+lt;Toluka;Toluca
+kk;Толука;Toluca
+ky;Толука;Toluca
+bn;টোলুকা;Toluca
+ur;ٹولوکا;Toluca
+am;ቶሉካ;Toluca
+pa;ਟੋਲੂਕਾ;Toluca
+ps;تولوکا;Toluca
+tg;Толука;Toluca
+tt;Толука;Toluca
+sr;Тлајакапан;Tlayacapan
+th;ตลัลนีแพนตลา;Tlalnepantla
+sr;Тлакотлапилко;Tlacotlapilco
+sr;Тлакоапа;Tlacoapa
+tt;Тистла де Герреро;Tixtla de Guerrero
+ce;Тистла де Герреро;Tixtla de Guerrero
+he;טישטלה;Tixtla de Guerrero
+sco;Tixtla;Tixtla de Guerrero
+sr;Тистла де Гереро;Tixtla de Guerrero
+he;טיקול;Ticul
+sr;Тикул;Ticul
+pl;Texcoco;Texcoco de Mora
+ca;Texcoco;Texcoco de Mora
+gl;Texcoco;Texcoco de Mora
+no;Texcoco;Texcoco de Mora
+sr;Тетела дел Волкан;Tetela del Volcán
+sr;Текискијапан;Tequisquiapan
+sr;Тепатепек;Tepatepec
+sr;Темозон;Temozon
+fa;تمیکسکو;Temixco
+uz;Tekax;Tecax
+sr;Текас де Алваро Обрегон;Tecax
+bg;Теуакан;Tehuacán
+fa;تهواکان;Tehuacán
+ka;ტეუაკანი;Tehuacán
+sr;Тевакан;Tehuacán
+ur;تیہواکان;Tehuacán
+sv;Tecoanapa;Tecomulapa
+sv;Tecoh;Tekoh
+bg;Текох;Tekoh
+sco;Tecoh;Tekoh
+sr;Теко;Tekoh
+sr;Теабо;Teabo
+ca;Taxco;Taxco de Alarcón
+cs;Taxco;Taxco de Alarcón
+da;Taxco;Taxco de Alarcón
+no;Taxco;Taxco de Alarcón
+sr;Тапихулапа;Tapijulapa
+fa;تاپاچولا;Tapachula
+bg;Тапачула;Tapachula
+sr;Тапаћула;Tapachula
+be;Тампіка;Tampico
+lt;Tampikas;Tampico
+sr;Тампико;Tampico
+fa;تامپیکو;Tampico
+mr;टॅम्पिको;Tampico
+uk;Сисаль;Sisal
+sr;Сисал;Sisal
+bg;Сейбаплая;Seybaplaya
+sr;Сејбаплаја;Seybaplaya
+sr;Санто Доминго Занатепек;Santo Domingo Zanatepec
+ca;Santo Domingo de Tehuantepec;Santo Domingo Tehuantepec
+sr;Санта Марија Ахолоапан;Santa María Ajoloapan
+ceb;Santa Lucía;Sanata Lucía
+sv;Santa Lucía;Sanata Lucía
+bn;সান্তা লুসিয়া;Sanata Lucía
+sco;Santa Lucía;Sanata Lucía
+sr;Санта Лусија;Sanata Lucía
+sr;Санта Исабел Истапан;Santa Isabel Ixtapan
+sr;Санта Катарина Хукила;Santa Catarina Juquila
+sr;Сан Салвадор Атенко;San Salvador Atenco
+pl;Mitla;San Pablo Villa de Mitla
+tt;Сан-Пабло-де-лос-Салинас;San Pablo de las Salinas
+bg;Сан Пабло де лас Салинас;San Pablo de las Salinas
+bn;সান পাবলো দে লাস সালিনাস;San Pablo de las Salinas
+ckb;سانت پاوڵی سالیناس;San Pablo de las Salinas
+sr;Сан Пабло де лас Салинас;San Pablo de las Salinas
+sv;San Martín Huamelulpan;San Martín Huamelúlpam
+sr;Сан Мартин Уамелулпам;San Martín Huamelúlpam
+za;Quiavini;San Lucas Quiaviní
+sr;Сан Хуан Зитлалтепек;San Juan Zitlaltepec
+sr;Сан Хуан Копала;San Juan Copala
+uk;Сан-Хуан-Какауатепек;San Juan Cacahuatepec
+ur;سان خوآن کاکاواتیپیک;San Juan Cacahuatepec
+sr;Сан Хуан Какаватепек;San Juan Cacahuatepec
+tt;Сан-Хван-Баутиста-Тустепек;Tuxtepec
+lt;Tustepekas;Tuxtepec
+ur;سان خوان ناوتیتستا توکستیپیک;Tuxtepec
+sco;San Juan Bautista Tuxtepec;Tuxtepec
+sr;Сан Хуан Баутиста Тустепек;Tuxtepec
+sv;San Juan Bautista Tuxtepec;Tuxtepec
+sw;San Juan Bautista Tuxtepec;Tuxtepec
+eu;San Juan Bautista Tuxtepec;Tuxtepec
+vi;San Juan Bautista Tuxtepec;Tuxtepec
+nb;San Juan Bautista Tuxtepec;Tuxtepec
+tl;San Juan Bautista Tuxtepec;Tuxtepec
+fa;سن خوان باوتیستا توکستپک;Tuxtepec
+pl;San Juan Bautista Tuxtepec;Tuxtepec
+sr;Сан Франсиско Акваутла;San Francisco Acuautla
+bn;সান বের্নার্দিনো;San Bernardino
+sr;Сан Бернардино;San Bernardino
+uk;Саліна-Крус;Salina Cruz
+lt;Salina Krusas;Salina Cruz
+sr;Салина Круз;Salina Cruz
+he;סאלינה קרוס;Salina Cruz
+sr;Рио Лагартос;Río Lagartos
+sr;Рио Фрио де Хуарез;Río Frío de Juárez
+fa;رینوسا تامائولیپاس;Reynosa
+ka;რეინოსა;Reynosa
+sr;Рејноса;Reynosa
+bg;Рейноса;Reynosa
+he;ריינוסה;Reynosa
+ur;ریئنوسا;Reynosa
+sr;Пустунич;Pustunich
+sr;Хавијер Рохо Гомез;Punta Allen
+pa;ਪੂਏਰਤੋ ਏਸਕੋਂਦੀਦੋ;Puerto Escondido
+sr;Нуево Пуерто Ариста;Puerto Arista
+bn;পুয়ের্তো আনহেল;Puerto Ángel
+sr;Пуерто Анхел;Puerto Ángel
+sr;Пуенте Насионал;Puente Nacional
+sr;Пуенте де Истла;Puente de Ixtla
+bg;Пуебла;Puebla
+ca;Heroica Puebla de Zaragoza;Puebla
+ca;Puebla de Zaragoza;Puebla
+fi;Puebla de Zaragoza;Puebla
+he;פואבלה;Puebla
+sv;Puebla de Zaragoza;Puebla
+be;Эроіка-Пуэбла-дэ-Сарагоса;Puebla
+ce;Пуэбла-де-Сарагоса;Puebla
+el;Πουέμπλα;Puebla
+fa;پوئبلا٬ پوئبلا;Puebla
+ka;პუებლა;Puebla
+lv;Puebla de Saragosa;Puebla
+mr;पुएब्ला;Puebla
+nn;Byen Puebla;Puebla
+os;Пуэблæ-де-Сарагосæ;Puebla
+pa;ਪੁਐਬਲਾ;Puebla
+ro;Puebla de los Ángeles;Puebla
+sr;Пуебла;Puebla
+tl;Lungsod ng Puebla;Puebla
+uk;Пуебла;Puebla
+ur;پوئبلا، پوئبلا;Puebla
+vep;Puebl;Puebla
+kk;Пуэбла;Puebla
+ky;Пуэбла;Puebla
+bn;পুয়েবলা;Puebla
+am;ፑዌብላ;Puebla
+ps;پویبلا;Puebla
+tg;Пуэбла;Puebla
+tt;Пуэбла;Puebla
+tt;Поса-Рика-де-Идальго;Poza Rica de Hidalgo
+lt;Posa Rika;Poza Rica de Hidalgo
+ur;پوسا ریکا;Poza Rica de Hidalgo
+sr;Поза Рика де Идалго;Poza Rica de Hidalgo
+ce;Поза Рика де Идальго;Poza Rica de Hidalgo
+gl;Poza Rica;Poza Rica de Hidalgo
+fa;پوزا ریکا، وراکروز;Poza Rica de Hidalgo
+ckb;پۆزا ڕیکا;Poza Rica de Hidalgo
+pl;Poza Rica;Poza Rica de Hidalgo
+he;פוסה ריקה;Poza Rica de Hidalgo
+he;פלאיה דל כרמן;Playa del Carmen
+ur;پلائیا دیل کارمین;Playa del Carmen
+tt;Плая-дел-Кармен;Playa del Carmen
+lt;Plaja del Karmen;Playa del Carmen
+lv;Plaja del Karmena;Playa del Carmen
+hy;Պլայա դել Կարմեն;Playa del Carmen
+uk;Плая-дель-Кармен;Playa del Carmen
+mr;प्लाइया देल कारमेन;Playa del Carmen
+el;Πλάγια ντελ Κάρμεν;Playa del Carmen
+bg;Плая дел Кармен;Playa del Carmen
+bn;প্যালায়া ডেল কামেন;Playa del Carmen
+si;ප්ලයා දෙල් කර්මෙන්;Playa del Carmen
+sr;Плаја дел Кармен;Playa del Carmen
+kn;ಪ್ಲಾಯಾ ಡೆಲ್ ಕಾರ್ಮೆನ್;Playa del Carmen
+ta;பிளாயா டெல் கார்மென்;Playa del Carmen
+gu;પ્લાયા ​​ડેલ કાર્મેન;Playa del Carmen
+te;ప్లాయా డెల్ కార్మెన్;Playa del Carmen
+th;ปลายาเดลการ์เมน;Playa del Carmen
+ckb;پلایا دێل کارمێن;Playa del Carmen
+lt;Pichichiapanas;Pijijiapan
+uk;Піхіхіапан;Pijijiapan
+mk;Пихихјапан;Pijijiapan
+sr;Пихихијапан;Pijijiapan
+he;פיחיחיאפן;Pijijiapan
+sr;Пето;Peto
+lt;Palenkė;Palenque
+sr;Пачукиља;Pachuquilla
+ca;Pachuca;Pachuca de Soto
+bg;Пачука;Pachuca de Soto
+uk;Пачука-де-Сото;Pachuca de Soto
+fa;پاچوکا٬ ایدالگو;Pachuca de Soto
+sr;Пачука де Сото;Pachuca de Soto
+lt;Pačuka;Pachuca de Soto
+ka;პაჩუკა;Pachuca de Soto
+kk;Пачука-де-Сото;Pachuca de Soto
+ky;Пачука-де-Сото;Pachuca de Soto
+bn;পাচুকা দে সোতো;Pachuca de Soto
+ur;پاچوکا ڈے سوتو;Pachuca de Soto
+am;ፓቹካ ደ ሶቶ;Pachuca de Soto
+pa;ਪਾਚੂਕਾ ਦੇ ਸੋਤੋ;Pachuca de Soto
+ps;پاچوکا دي سوتو;Pachuca de Soto
+tg;Пачука-де-Сото;Pachuca de Soto
+tt;Пачука-де-Сото;Pachuca de Soto
+pl;Oxkutzcab;Oxkutzkab
+sr;Оскускаб;Oxkutzkab
+bg;Оахака де Хуарес;Oaxaca
+no;Oaxaca by;Oaxaca
+sv;Oaxaca de Juárez;Oaxaca
+sr;Оахака;Oaxaca
+mr;वाशाका दे हुआरेझ;Oaxaca
+nn;Byen Oaxaca;Oaxaca
+am;ወሓካ ዴ ዋሬዝ;Oaxaca
+lt;Oachaka;Oaxaca
+os;Оахакæ-де-Хуарес;Oaxaca
+fa;اوآخاکا د خوارز;Oaxaca
+uk;Оахака-де-Хуарес;Oaxaca
+hy;Օախակա դե Խուարես;Oaxaca
+bo;གའཀགྲོང་།;Oaxaca
+th;วาฮากา;Oaxaca
+ka;ოახაკა-დე-ხუარესი;Oaxaca
+el;Οαχάκα ντε Χουάρες;Oaxaca
+he;אואחאקה;Oaxaca
+lv;Oahaka;Oaxaca
+mn;Оаксака де Хуарез;Oaxaca
+pa;ਵਾਹਾਕਾ ਦੇ ਖ਼ੁਆਰਿਸ;Oaxaca
+tl;Lungsod ng Oaxaca;Oaxaca
+ur;اوکساکا سٹی;Oaxaca
+kk;Оахака;Oaxaca
+ky;Оахака;Oaxaca
+bn;ওয়াক্সাকা;Oaxaca
+ps;واهاکا;Oaxaca
+tg;Оахака;Oaxaca
+tt;Оахака;Oaxaca
+sr;Осумасинта;Osumacinta
+bg;Нуево Ларедо;Nuevo Laredo
+lt;Nuevo Laredas;Nuevo Laredo
+ka;ნუევო-ლარედო;Nuevo Laredo
+fa;نوئوو لاردو;Nuevo Laredo
+sr;Нуево Ларедо;Nuevo Laredo
+he;נואבו לארדו;Nuevo Laredo
+ur;نوئوو لاریدو;Nuevo Laredo
+bg;Сиудад Николас Ромеро;Nicolás Romero
+fa;نیکولاس رومرو، مکزیکو;Nicolás Romero
+sco;Ciudad Nicolás Romero;Nicolás Romero
+sr;Сијудад Николас Ромеро;Nicolás Romero
+no;Naucalpan;Naucalpan de Juárez
+bg;Наукалпан;Naucalpan de Juárez
+el;Ναουκάλπαν;Naucalpan de Juárez
+fa;ناوکالپان د خوارز، استادو د مخیکو;Naucalpan de Juárez
+ka;ნაუკალპანი;Naucalpan de Juárez
+sr;Наукалпан де Хуарез;Naucalpan de Juárez
+ur;کاوکالپان;Naucalpan de Juárez
+lt;Motulas;Motul
+lv;Motula;Motul
+bn;মোটুল;Motul
+hu;Motul de Carrillo Puerto;Motul
+si;මොටුල්;Motul
+uk;Мотуль;Motul
+ur;موتول ، یوکاتان;Motul
+sr;Мотул де Кариљо Пуерто;Motul
+kn;ಮೋಟುಲ್;Motul
+mr;मोतुल;Motul
+el;Μότουλ;Motul
+ta;மொட்டுல்;Motul
+gu;મોટુલ;Motul
+te;మోతుల్;Motul
+th;โมตุล;Motul
+sr;Монтепио;Montepío
+sr;Митонтик;Mitontic
+fa;میناتیتلان;Minatitlán
+bg;Метепек;Metepec
+fa;متپک;Metepec
+mk;Мерида;Mérida
+bg;Мерида;Mérida
+sr;Мерида;Mérida
+be;Мерыда;Mérida
+nn;Mérida i Yucatán;Mérida
+el;Μέριδα;Mérida
+uk;Меріда;Mérida
+ka;მერიდა;Mérida
+fa;مریدا، یوکاتان;Mérida
+kk;Мерида;Mérida
+ky;Мерида;Mérida
+bn;মেরিডা;Mérida
+ur;میریڈا;Mérida
+am;መሪዳ;Mérida
+pa;ਮੇਰੀਡਾ;Mérida
+ps;میریدا;Mérida
+tg;Мерида;Mérida
+tt;Мерида;Mérida
+gl;Matías Romero;Matías Romero Avendaño
+vi;Matías Romero;Matías Romero Avendaño
+nb;Matías Romero;Matías Romero Avendaño
+sco;Matías Romero;Matías Romero Avendaño
+ca;Matías Romero;Matías Romero Avendaño
+sr;Матијас Ромеро Авендањо;Matías Romero Avendaño
+lt;Mahahualis;Mahahual
+sr;Мавал;Mahahual
+sv;Magdalena Chichicaspa;La Magdalena Chichicaspa
+sr;Магдалена Чичикаспа;La Magdalena Chichicaspa
+fa;ماکوسپانا;Macuspana
+ur;میکولٹیپیک;Macultepec
+sr;Макултепек;Macultepec
+pl;Los Reyes Acozac;Reyes Acozac
+ca;Los Reyes Acozac;Reyes Acozac
+sr;Лос Рејес Акозак;Reyes Acozac
+tt;Линарес;Linares
+bn;লিনারেস;Linares
+he;לינרס;Linares
+sr;Линарес;Linares
+sr;Лерма;Lerma
+th;เลอร์มา เด วิลลาดา;Lerma de Villada
+sr;Кочол;Kochol
+sr;Кава;Kaua
+sr;Хикипилас;Jiquipilas
+ca;Xalapa;Xalapa de Enríquez
+pl;Jalapa Enriques;Xalapa de Enríquez
+sv;Xalapa;Xalapa de Enríquez
+no;Jalapa;Xalapa de Enríquez
+kk;Халапа-де-Энрикес;Xalapa de Enríquez
+ky;Халапа-де-Энрикес;Xalapa de Enríquez
+bn;জালাপা দে এনরিকেজ;Xalapa de Enríquez
+ur;خالاپا ڈے انریکیز;Xalapa de Enríquez
+am;ሳላፓ ደ እንሪቀዝ;Xalapa de Enríquez
+fa;خالاپا د انریکز;Xalapa de Enríquez
+pa;ਜਾਲਾਪਾ ਦੇ ਐਨਰਿਕੇਜ;Xalapa de Enríquez
+ps;خالاپا دي انریکیز;Xalapa de Enríquez
+tg;Халапа-де-Энрикес;Xalapa de Enríquez
+tt;Халапа-де-Энрикес;Xalapa de Enríquez
+sr;Искуинкитлапилко;Ixcuinquitlapilco
+fa;ایگوالا;Iguala de la Independencia
+sr;Уизила;Huitzila
+sr;Уичивајан;Huichihuayan
+uk;Ескуїнтла;Escuintla
+sr;Ескуинтла;Escuintla
+bn;সান লুকাস;San Lucas
+sr;Сан Лукас;San Lucas
+sr;Ел Лонгорењо;El Longoreño
+sr;Дзитбалче;Dzitbalché
+sr;Дзидзантун;Dzidzantun
+sr;Дзибикак;Dzibikak
+ce;Дос Риос;Dos Ríos
+sr;Дос Риос;Dos Ríos
+be;Куэрнавака;Cuernavaca
+bg;Куернавака;Cuernavaca
+fa;کورناواک;Cuernavaca
+ka;კუერნავაკა;Cuernavaca
+lt;Kuernavaka;Cuernavaca
+ml;കെർണവാക്കാ;Cuernavaca
+sr;Куернавака;Cuernavaca
+kk;Куэрнавака;Cuernavaca
+ky;Куэрнавака;Cuernavaca
+bn;কুয়ের্নাভাকা;Cuernavaca
+ur;کویرناوکا;Cuernavaca
+am;ኩዌርናቫካ;Cuernavaca
+pa;ਕੁਏਰਨਵਾਕਾ;Cuernavaca
+ps;کویرناواکا;Cuernavaca
+tg;Куэрнавака;Cuernavaca
+tt;Куэрнавака;Cuernavaca
+sr;Куахимолојас;San Antonio Cuajimoloyas
+fa;کوردوبا، وراکروز;Córdoba
+lt;Kordoba;Córdoba
+ur;کوردوبا، ویراکروز;Córdoba
+vep;Kordov;Córdoba
+sr;Колотепек;Colotepec
+sr;Коломбија;Colombia
+bg;Коацакоалкос;Coatzacoalcos
+lt;Koacakoalkosas;Coatzacoalcos
+uk;Коацакоалькос;Coatzacoalcos
+ka;კოაცაკოალკოსი;Coatzacoalcos
+sr;Коацакоалкос;Coatzacoalcos
+fa;کواتزاکوالکوس;Coatzacoalcos
+bg;Сиудад Виктория;Ciudad Victoria
+fa;سیوداد ویکتوریا;Ciudad Victoria
+ka;სიუდად-ვიქტორია;Ciudad Victoria
+lt;Siudad Viktorija;Ciudad Victoria
+sr;Сијудад Викторија;Ciudad Victoria
+th;ซิวดัดวิกโตเรีย;Ciudad Victoria
+vi;Victoria;Ciudad Victoria
+he;סיודד ויקטוריה;Ciudad Victoria
+tl;Lungsod ng Victoria;Ciudad Victoria
+ur;سیوداد وکٹوریہ;Ciudad Victoria
+kk;Сьюдад-Виктория;Ciudad Victoria
+ky;Сьюдад-Виктория;Ciudad Victoria
+bn;সিউদাদ ভিক্তোরিয়া;Ciudad Victoria
+am;ሲውዳድ ቪክቶሪያ;Ciudad Victoria
+pa;ਸਿਊਦਾਦ ਵਿਕਟੋਰੀਆ;Ciudad Victoria
+ps;سيوداد ويکتوريا;Ciudad Victoria
+tg;Сьюдад-Виктория;Ciudad Victoria
+tt;Сьюдад-Виктория;Ciudad Victoria
+lt;Nesahualkojotlis;Ciudad Nezahualcoyotl
+cs;Nezahualcóyotl;Ciudad Nezahualcoyotl
+no;Nezahualcóyotl;Ciudad Nezahualcoyotl
+bg;Сиудад Мадеро;Ciudad Madero
+fa;سیوداد مادرو;Ciudad Madero
+lt;Siudad Maderas;Ciudad Madero
+bg;Мексико;Mexico City
+ca;Ciutat de Mèxic;Mexico City
+cs;Ciudad de México;Mexico City
+et;México;Mexico City
+eu;Mexiko Hiria;Mexico City
+fa;مکزیکوسیتی;Mexico City
+fi;México;Mexico City
+gl;Cidade de México;Mexico City
+he;מקסיקו סיטי;Mexico City
+hr;Ciudad de Mexico;Mexico City
+is;Mexíkóborg;Mexico City
+lt;Meksikas;Mexico City
+lv;Mehiko;Mexico City
+nn;Mexico by;Mexico City
+no;Mexico by;Mexico City
+pl;Meksyk;Mexico City
+ro;Mexico;Mexico City
+sk;Mexiko;Mexico City
+sl;Ciudad de México;Mexico City
+sr;Мексико Сити;Mexico City
+tl;México;Mexico City
+tr;Ciudad de Mexico;Mexico City
+ka;მეხიკო;Mexico City
+uk;Мехіко;Mexico City
+ug;مېكسىكا شەھىرى;Mexico City
+el;Πόλη του Μεξικού;Mexico City
+fa;مکزیکو;Mexico City
+oc;Ciutat de Mexic;Mexico City
+ro;Ciudad de México;Mexico City
+th;เม็กซิโกซิตี;Mexico City
+tl;Lungsod ng México;Mexico City
+id;Ciudad de México;Mexico City
+mr;मेक्सिको सिटी;Mexico City
+sr;Мексико;Mexico City
+sw;Mexico;Mexico City
+vi;Ciudad de Mexico;Mexico City
+bn;মেক্সিকো;Mexico City
+hr;Grad Mexico;Mexico City
+hr;Mexico;Mexico City
+da;Carmen;Ciudad del Carmen
+fa;سیوداد دل کارمن;Ciudad del Carmen
+bg;Чунхухуб;Chunhuhub
+mk;Чунхухуб;Chunhuhub
+sr;Чунхухуб;Chunhuhub
+fa;چولولا;Cholula
+mk;Чолула;Cholula
+hu;San Andrés Cholula;Cholula
+lt;Čolula;Cholula
+sr;Чолула де Ривадавија;Cholula
+sv;Chilpancingo de los Bravo;Chilpancingo
+kk;Чилпансинго;Chilpancingo
+ky;Чилпансинго;Chilpancingo
+bn;চিলপানসিঙ্গো;Chilpancingo
+ur;چلپانسنگو;Chilpancingo
+am;ቺልፓንሲንጎ;Chilpancingo
+fa;چیلپانسینگو;Chilpancingo
+pa;ਚਿਲਪਾਂਸਿਙ੍ਗੋ;Chilpancingo
+ps;چيلپانسينگو;Chilpancingo
+tg;Чилпансинго;Chilpancingo
+tt;Чилпансинго;Chilpancingo
+sr;Чичен Ица;Chichén-Itzá
+ta;சிச்சென் இட்சா;Chichén-Itzá
+lt;Čiapa de Korsas;Chiapa de Corzo
+bg;Четумал;Chetumal
+ka;ჩეტუმალი;Chetumal
+fa;چتومال٬ کینتانا رو;Chetumal
+lt;Četumalis;Chetumal
+sr;Ћетумал;Chetumal
+th;เชตูมัล;Chetumal
+he;צטומל;Chetumal
+ur;چتومال;Chetumal
+kk;Четумаль;Chetumal
+ky;Четумаль;Chetumal
+bn;চেতুমাল;Chetumal
+am;ቼቱማል;Chetumal
+pa;ਚੇਟੁਮਲ;Chetumal
+ps;چیتومل;Chetumal
+tg;Четумаль;Chetumal
+tt;Четумаль;Chetumal
+sr;Чемас;Chemax
+sv;San Juan Chamula;Chamula
+eu;San Juan Chamula;Chamula
+pl;San Juan Chamula;Chamula
+sr;Чамула;Chamula
+lt;Kankunas;Cancún
+my;ကင်န်ကွန်မြို့;Cancún
+lv;Kankuna;Cancún
+fa;کانکون٬ کینتانا رو;Cancún
+th;กังกุน;Cancún
+ka;კანკუნი;Cancún
+sr;Канкун;Cancún
+uk;Канкун;Cancún
+hy;Կանկուն;Cancún
+el;Κανκούν;Cancún
+bg;Канкун;Cancún
+be;Канкун;Cancún
+he;קנקון;Cancún
+mr;कान्कुन;Cancún
+yue;港觀;Cancún
+ky;Канкун;Cancún
+mk;Канкун;Cancún
+sah;Канкун;Cancún
+ur;کانکون;Cancún
+kk;Кампече;Campeche
+ky;Кампече;Campeche
+bn;ক্যাম্পেচে;Campeche
+ur;کمپیچے;Campeche
+am;ካምፔቼ;Campeche
+fa;کامپچه;Campeche
+pa;ਕੈਂਪੇਚੇ;Campeche
+ps;کمپیچه;Campeche
+tg;Кампече;Campeche
+tt;Кампече;Campeche
+bg;Бока дел Рио;Boca del Rio
+fa;بوک دل ریو، وراکروز;Boca del Rio
+ur;بوکا دیل ریو، ویراکروز;Boca del Rio
+sr;Бака;Baca
+lt;Atliskas;Atlixco
+hy;Ատլիսկո;Atlixco
+uk;Атліско;Atlixco
+ka;ატლისკო;Atlixco
+sr;Атлиско;Atlixco
+fa;اتلیکسکو;Atlixco
+he;אננקואילקו;Anenecuilco
+sr;Аненекуилко;Anenecuilco
+vi;Amozoc;Amozoc de Mota
+fa;اموزوک دو موتا;Amozoc de Mota
+ur;آموسوک دے موتا;Amozoc de Mota
+sr;Амозок де Мота;Amozoc de Mota
+ceb;Amecameca de Juárez;Amecameca
+sv;Amecameca de Juárez;Amecameca
+nb;Amecameca de Juárez;Amecameca
+ga;Amecameca de Juárez;Amecameca
+ca;Amecameca de Juárez;Amecameca
+sr;Амекамека де Хуарез;Amecameca
+sr;Амакузак;Amacuzac
+bg;Акумал;Akumal
+fa;اکومال;Akumal
+sr;Акумал;Akumal
+fa;اکتوپان، هیدالگو;Actopan
+sr;Актопан;Actopan
+sr;Сан Херонимо Аказулко;San Jerónimo Acazulco
+da;Acapulco;Acapulco de Juárez
+et;Acapulco;Acapulco de Juárez
+fi;Acapulco;Acapulco de Juárez
+gl;Acapulco;Acapulco de Juárez
+pl;Acapulco;Acapulco de Juárez
+sv;Acapulco;Acapulco de Juárez
+uk;Акапулько;Acapulco de Juárez
+ca;Acapulco;Acapulco de Juárez
+cs;Acapulco;Acapulco de Juárez
+no;Acapulco;Acapulco de Juárez
+sr;Акапулко;Acapulco de Juárez
+tr;Acapulco;Acapulco de Juárez
+id;Acapulco;Acapulco de Juárez
+az;Akapulko;Acapulco de Juárez
+be;Акапулька;Acapulco de Juárez
+bg;Акапулко;Acapulco de Juárez
+el;Ακαπούλκο;Acapulco de Juárez
+fa;آکاپولکو، گوئررو;Acapulco de Juárez
+he;אקפולקו;Acapulco de Juárez
+is;Akapúlkó;Acapulco de Juárez
+ka;აკაპულკო;Acapulco de Juárez
+lt;Akapulkas;Acapulco de Juárez
+lv;Akapulko;Acapulco de Juárez
+mk;Акапулко;Acapulco de Juárez
+ml;അക്കാപുൽകോ;Acapulco de Juárez
+mrj;Акапулько;Acapulco de Juárez
+th;อากาปุลโก;Acapulco de Juárez
+sr;Серо Монеда;Cerro Moneda
+sr;Мазунте;Mazunte
+sr;Сан Агустиниљо;San Agustinillo
+sr;Сан Андрес Јутатио;San Andrés Yutatío
+eu;Temascaltepec;Temascal
+vi;San Miguel Soyaltepec;Temascal
+sr;Темаскал;Temascal
+sr;Тлалчијавалика;Tlalchiyahualica
+sv;Ocotlán;Ocatlán
+pl;Ocotlán;Ocatlán
+sr;Окотлан Темалакајукан;Ocatlán
+bg;Цакателко;Zacatelco
+kk;Тлаксқала;Tlaxcala
+ky;Тлаксқала;Tlaxcala
+bn;তলাক্সকালা;Tlaxcala
+ur;تلاکسالا;Tlaxcala
+am;ትላክስካላ;Tlaxcala
+fa;تلاکسکالا;Tlaxcala
+pa;ਤਲਾਕਸਾਲਾ;Tlaxcala
+ps;تلاکسالا;Tlaxcala
+tg;Тлаксқала;Tlaxcala
+tt;Тлаксқала;Tlaxcala
+ceb;San Isidro Buensuceso;San Isidro Buen Suceso
+sv;San Isidro Buensuceso;San Isidro Buen Suceso
+sr;Сан Исидро Буен Сусесо;San Isidro Buen Suceso
+ur;سان آندریس چولولا، پوئبلا;San Andrés Cholula
+bn;সান আন্দ্রেস চোলুলা;San Andrés Cholula
+sr;Сан Андрес Чолула;San Andrés Cholula
+ceb;Raboso;San Juan Raboso
+sv;Raboso;San Juan Raboso
+sr;Сан Хуан Рабосо;San Juan Raboso
+sr;Аксаксакуалко;Axaxacualco
+bn;লাস কোলোরাদাস;Las Coloradas
+sr;Лас Колорадас;Las Coloradas
+sr;Канкаб;Kancab
+sr;Леона Викарио;Leona Vicario
+bn;নুয়েবো দুরাঙ্গো;Nuevo Durango
+sr;Нуево Дуранго;Nuevo Durango
+sr;Тиосуко;Tihosuco
+sr;Тепич;Tepich
+sr;С-Азил Сур;X-Hazil Sur
+sr;Алваро Обрегон;Álvaro Obregón
+sr;Тепостеко;Tepoxteco
+sr;Сан Мигел Тотокуитлапилко;San Miguel Totocuitlapilco
+sr;Гвадалупе Јанкуиктлалпан, Гвалупита;Guadalupe Yancuictlalpan
+sr;Сан Педро Атокпан;San Pedro Atocpan
+bn;রোসারিও;Rosario
+ro;Rosario de Tesopaco;Rosario
+sr;Росарио;Rosario
+sr;Лас Кончас;Las Conchas
+sr;Сан Педро Окотлан;San Pedro Ocotlán
+bn;লাস ফ্লোরেস;Las Flores
+sr;Лас Флорес;Las Flores
+sr;Камалу;Camalú
+ceb;Punta Colonet;Ejido Punta Colnett
+sv;Punta Colonet;Ejido Punta Colnett
+ca;Ejido Punta Colonet;Ejido Punta Colnett
+sr;Ехидо Мексико, Пунта Колонет;Ejido Punta Colnett
+bn;প্রোগ্রেসো;Progreso
+sr;Прогресо;Progreso
+sv;Zihuatanejo;Ixtapa-Zihuatanejo
+fa;خوزه ازوتا، گوئررو;Ixtapa-Zihuatanejo
+vi;José Azueta;Ixtapa-Zihuatanejo
+sr;Запоки;Zapoqui
+lt;Sapopanas;Zapopan
+fa;زاپوپان، خالیسکو;Zapopan
+bg;Сапопан;Zapopan
+sr;Запопан;Zapopan
+ka;საპოპანი;Zapopan
+be;Сапапан;Zapopan
+ce;Сапопан;Zapopan
+el;Σαπόπαν;Zapopan
+fa;زاکاتکاس ٬زاکاتکاس;Zacatecas
+lt;Sakatekas;Zacatecas
+ka;საკატეკასი;Zacatecas
+uk;Сакатекас;Zacatecas
+bg;Сакатекас;Zacatecas
+ur;زاکاٹیکاس;Zacatecas
+he;סקטקס;Zacatecas
+hy;Սակատեկաս;Zacatecas
+kk;Сакатекас;Zacatecas
+ky;Сакатекас;Zacatecas
+bn;জাকাটেকাস;Zacatecas
+am;ዛካቴካስ;Zacatecas
+pa;ਜ਼ਾਕਾਤੇਕਾਸ;Zacatecas
+ps;زاکاتیکاس;Zacatecas
+tg;Сакатекас;Zacatecas
+tt;Сакатекас;Zacatecas
+sr;Јепачик;Yepachic
+sr;Јаварос;Yavaros
+bn;বিইয়া উনিওন;Villa Unión
+sr;Виља Унион;Villa Unión
+sr;Виља Мендоза;Villa Mendoza
+bn;বিইয়া ইদাল্গো;Villa Hidalgo
+sr;Виља Идалго;Villa Hidalgo
+sr;Валтијериља;Valtierrilla
+bg;Уруапан;Uruapan
+el;Ουρουάπαν;Uruapan
+fa;اورواپان;Uruapan
+sr;Уруапан дел Прогресо;Uruapan
+ur;اورواپان;Uruapan
+fa;تاکسپن دو بلنس;Tuxpan de Bolaños
+ur;تاکسپن د بولانوس;Tuxpan de Bolaños
+sr;Туспан де Болањос;Tuxpan de Bolaños
+sr;Трапиче де Абра;Trapiche de Abra
+el;Τορρεόν;Torreón
+bg;Тореон;Torreón
+ka;ტორეონი;Torreón
+fa;تورئون٬ کواویلا;Torreón
+lt;Toreonas;Torreón
+sr;Тореон;Torreón
+sr;Тоничи;Tónichi
+bg;Тонала;Tonalá
+fa;تونالا، خالیسکو;Tonalá
+ka;ტონალა;Tonalá
+sr;Тонала;Tonalá
+sr;Тлазазалка;Tlazazalca
+bg;Тлакепаке;Tlaquepaque
+fa;تلاکوپاکو;Tlaquepaque
+ka;ტლაკეპაკე;Tlaquepaque
+lt;Tlakepakė;Tlaquepaque
+sr;Тлакепаке;Tlaquepaque
+ca;Tlacote;Tlacote el Bajo
+sr;Тлакоте ел Бахо;Tlacote el Bajo
+uk;Тіхуана;Tijuana
+bg;Тихуана;Tijuana
+mn;Тихуана;Tijuana
+he;טיחואנה;Tijuana
+fa;تیخوانا;Tijuana
+el;Τιχουάνα;Tijuana
+be;Тыхуана;Tijuana
+ka;ტიხუანა;Tijuana
+lt;Tichuana;Tijuana
+mr;तिहुआना;Tijuana
+ml;ടീഹ്വാന;Tijuana
+sr;Тихуана;Tijuana
+os;Тихуанæ;Tijuana
+ce;Тихуана;Tijuana
+lv;Tihuana;Tijuana
+pa;ਤੀਖ਼ਵਾਨਾ;Tijuana
+ky;Тихуана;Tijuana
+th;ตีฮัวนา;Tijuana
+ur;تیخوانا;Tijuana
+az;Tixuana;Tijuana
+fa;تکیلا، خالیسکو;Tequila
+ka;ტეკილა;Tequila
+uk;Текіла;Tequila
+ka;ტეპიკი;Tepic
+sr;Тепик;Tepic
+lt;Tepikas;Tepic
+he;טפיק;Tepic
+bg;Тепик;Tepic
+kk;Тепик;Tepic
+uz;Tepik;Tepic
+ky;Тепик;Tepic
+bn;টেপিক;Tepic
+ur;ٹیپِک;Tepic
+am;ቴፒክ;Tepic
+az;Tepik;Tepic
+fa;تپیک;Tepic
+pa;ਟੇਪਿਕ;Tepic
+ps;ټيپيک;Tepic
+tg;Тепик;Tepic
+tt;Тепик;Tepic
+bg;Текате;Tecate
+fa;تکت;Tecate
+ur;تیکاتے;Tecate
+sr;Сан Антонио Таријакури;San Antonio Tariácuri
+bn;কোলোনিয়া সোতো;Colonia Soto
+sr;Колонија Сото;Colonia Soto
+sr;Сан Франсиско Хавијер де Сатево;San Francisco Javier de Satevó
+bn;সান্তো তোমাস;Santo Tomás
+sr;Санто Томас;Santo Tomás
+bg;Сантяго Папаскиаро;Santiago Papasquiaro
+hy;Սանտիագո Պապասկիարո;Santiago Papasquiaro
+he;סנטיאגו פפסקיארו;Santiago Papasquiaro
+sr;Сантијаго Папаскијаро;Santiago Papasquiaro
+sr;Санта Роса Хауреги;Santa Rosa Jáuregui
+bn;সান্তা মারিয়া দেল ওরো;Santa María del Oro
+sr;Санта Марија дел Оро;Santa María del Oro
+bn;সান পেদ্রো;San Pedro
+sr;Сан Педро;San Pedro
+bg;Сан Николас де лос Гарса;San Nicolás de los Garza
+fa;سن نیکولاس د لوس گارزا;San Nicolás de los Garza
+ka;სან-ნიკოლას-დე-ლოს-გარსა;San Nicolás de los Garza
+sr;Сан Николас де лос Гарза;San Nicolás de los Garza
+sr;Сан Мигел де ла Сијера;San Miguel de la Sierra
+ka;სან-მიგელ-დე-ალიენდე;San Miguel de Allende
+fa;سن میگول د الند;San Miguel de Allende
+uk;Сан-Міґель-де-Альєнде;San Miguel de Allende
+he;סן מיגל דה איינדה;San Miguel de Allende
+lt;San Migel de Aljendė;San Miguel de Allende
+tt;Сан Мигел де Альенде;San Miguel de Allende
+be;Сан-Мігель-дэ-Альендэ;San Miguel de Allende
+sr;Сан Мигел де Аљенде;San Miguel de Allende
+ce;Сан Мигел де Альенде;San Miguel de Allende
+zh-HK;聖米格爾德阿連德;San Miguel de Allende
+el;Σαν Μιγκέλ ντε Αγιέντε;San Miguel de Allende
+bn;সান মার্তিন ইদাল্গো;San Martín Hidalgo
+hu;San Martín de Hidalgo;San Martín Hidalgo
+fa;سان مارتین د هیدالگو;San Martín Hidalgo
+sr;Сан Мартин Идалго;San Martín Hidalgo
+fa;سن لوئیس ریو کلرادو;San Luis Río Colorado
+ur;سان لویس ریو کولورادو;San Luis Río Colorado
+sr;Сан Луис Потоси;San Luis Potosí
+ka;სან-ლუის-პოტოსი;San Luis Potosí
+fa;سان لوئیس پوتوسی، سان لوئیس پوتوسی;San Luis Potosí
+bg;Сан Луис Потоси;San Luis Potosí
+be;Сан-Луіс-Патасі;San Luis Potosí
+el;Σαν Λουίς Ποτοσί;San Luis Potosí
+he;סן לואיס פוטוסי;San Luis Potosí
+hy;Սան Լուիս;San Luis Potosí
+ur;سان لوئیس پوتوسی سٹی;San Luis Potosí
+kk;Сан-Луис-Потосі;San Luis Potosí
+ky;Сан-Луис-Потосі;San Luis Potosí
+bn;সান লুইস পটোসি;San Luis Potosí
+am;ሳን ሉዊስ ፖቶሲ;San Luis Potosí
+pa;ਸੈਨ ਲੁਈਸ ਪੋਟੋਸੀ;San Luis Potosí
+ps;سان لويس پوتوسي;San Luis Potosí
+tg;Сан-Луис-Потосі;San Luis Potosí
+tt;Сан-Луис-Потосі;San Luis Potosí
+bg;Кабо Сан Лукас;Cabo San Lucas
+fa;کابو سن لوکاس;Cabo San Lucas
+os;Кабо-Сан-Лукас;Cabo San Lucas
+lt;Kabo san Lukas;Cabo San Lucas
+lv;Kabo Sanlukasa;Cabo San Lucas
+hy;Կաբո Սան Լուկաս;Cabo San Lucas
+uk;Кабо-Сан-Лукас;Cabo San Lucas
+ur;کابو سن لوکس;Cabo San Lucas
+mr;काबो सान लुकास;Cabo San Lucas
+el;Κάβο Σαν Λούκας;Cabo San Lucas
+bn;কাবু সান লুকাস;Cabo San Lucas
+si;කබෝ සැන් ලුකස්;Cabo San Lucas
+sk;Mys svätého Lukáša;Cabo San Lucas
+sr;Кабо Сан Лукас;Cabo San Lucas
+kn;ಕಾಬೊ ಸ್ಯಾನ್ ಲ್ಯೂಕಾಸ್;Cabo San Lucas
+ta;கோபோ சான் லூகாஸ்;Cabo San Lucas
+gu;કેબો સેન લુકાસ;Cabo San Lucas
+te;కాబో షాన్ లూకాస్;Cabo San Lucas
+th;กาโบซันลูกัส;Cabo San Lucas
+ckb;کابۆ سان لوکاس;Cabo San Lucas
+he;קאבו סן לוקאס;Cabo San Lucas
+sr;Сан Хуан де ла Вега;San Juan de la Vega
+bg;Сан Хосе дел Кабо;San José del Cabo
+mr;सान होजे देल काबो;San José del Cabo
+sr;Сан Херонимо;San Jerónimo
+sr;Сан Гаспар де лос Рејес;San Gaspar de los Reyes
+bg;Сан Фелипе;San Felipe
+lv;Sanfelipe;San Felipe
+bn;সান ফেলিপে;San Felipe
+si;සැන් ෆිලිපේ;San Felipe
+uk;Сан-Феліпе;San Felipe
+ur;سن فیلیپی;San Felipe
+sr;Сан Фелипе;San Felipe
+kn;ಸ್ಯಾನ್ ಫೆಲಿಪ್;San Felipe
+mr;सॅन फेलीप;San Felipe
+el;Σαν Φελίπε;San Felipe
+ta;சான் பிலிப்;San Felipe
+gu;સાન ફેલિપ;San Felipe
+te;శాన్ ఫెలిప్;San Felipe
+th;ซาน เฟลิเป้;San Felipe
+bn;পুয়ের্তো সান কার্লোস;Puerto San Carlos
+sco;San Carlos;Puerto San Carlos
+sr;Пуерто Сан Карлос;Puerto San Carlos
+sr;Сан Антонио де лас Алазанас;San Antonio de las Alazanas
+bn;সান আন্তোনিও;San Antonio
+sr;Сан Антонио;San Antonio
+sr;Салтиљо;Saltillo
+uk;Сальтільйо;Saltillo
+fa;سالتییو، کواویلا;Saltillo
+bg;Салтильо;Saltillo
+ka;სალტილიო;Saltillo
+he;סלטיו;Saltillo
+ur;سالتیو;Saltillo
+uz;Saltilo;Saltillo
+kk;Сальтильо;Saltillo
+ky;Сальтильо;Saltillo
+bn;সালটিলো;Saltillo
+am;ሳልቲሎ;Saltillo
+pa;ਸਾਲਟੀਲੋ;Saltillo
+ps;سالتيللو;Saltillo
+tg;Сальтильо;Saltillo
+tt;Сальтильо;Saltillo
+fa;سلامانکا، گوآناخوآتو;Salamanca
+ur;سالامانکا، گواناخواتو;Salamanca
+sr;Ринкон де Тамајо;Rincón de Tamayo
+mr;सान्तियागो दे केरेतारो;Santiago de Querétaro
+bg;Сантяго де Керетаро;Santiago de Querétaro
+lt;Santjago de Keretaras;Santiago de Querétaro
+uk;Сантьяго-де-Керетаро;Santiago de Querétaro
+el;Σαντιάγο ντε Κερέταρο;Santiago de Querétaro
+sr;Сантијаго де Керетаро;Santiago de Querétaro
+th;เกเรตาโร;Santiago de Querétaro
+ka;სანტიაგო-დე-კერეტარო;Santiago de Querétaro
+fa;کرتارو، کرتارو;Santiago de Querétaro
+he;קרטרו;Santiago de Querétaro
+ky;Kepeтapo;Santiago de Querétaro
+ur;کوارتارو، کوارتارو;Santiago de Querétaro
+uz;Keretaro;Santiago de Querétaro
+kk;Сантьяго-де-Керетаро;Santiago de Querétaro
+bn;সান্তিয়াগো দে কেরেটারো;Santiago de Querétaro
+am;ሳንቲያጎ ዴ ከሪታሮ;Santiago de Querétaro
+pa;ਸੈਂਟੀਆਗੋ ਡੇ ਕ੍ਵੇਰੇਟਾਰੋ;Santiago de Querétaro
+ps;سانتياغو دي کويريتارو;Santiago de Querétaro
+tg;Сантьяго-де-Керетаро;Santiago de Querétaro
+tt;Сантьяго-де-Керетаро;Santiago de Querétaro
+bg;Пуерто Валярта;Puerto Vallarta
+fa;پورتو بایارتا، خالیسکو;Puerto Vallarta
+tt;Пверто-Вальярта;Puerto Vallarta
+lt;Puerto Valarta;Puerto Vallarta
+lv;Puertovalarta;Puerto Vallarta
+hy;Պուերտո Վալյարտա;Puerto Vallarta
+uk;Пуерто-Вальярта;Puerto Vallarta
+ur;پورتو ویئیارتا;Puerto Vallarta
+mr;प्वेर्टो वलर्टा;Puerto Vallarta
+el;Πουέρτο Βαλάρτα;Puerto Vallarta
+bn;পুয়ের্তো বাইয়ার্তা;Puerto Vallarta
+si;පුවර්ටෝ වල්ලර්ටා;Puerto Vallarta
+sr;Пуерто Ваљарта;Puerto Vallarta
+kn;ಪೋರ್ಟೊ ವಲ್ಲರ್ಟಾ;Puerto Vallarta
+zh-HK;巴亞爾塔港;Puerto Vallarta
+ta;புயெர்டோ வல்லார்ட்ட;Puerto Vallarta
+gu;પ્યુર્ટો વલાર્તા;Puerto Vallarta
+te;పుర్తె వల్లార్త;Puerto Vallarta
+th;ปอร์ตู บาร์ยาตา;Puerto Vallarta
+ckb;ڤالارتا;Puerto Vallarta
+he;פוארטו ואיארטה;Puerto Vallarta
+bn;পুয়ের্তো এস্কোন্দিদো;Puerto Escondido
+sr;Пуерто Ескондидо;Puerto Escondido
+sr;Платерос;Plateros
+ur;پیئدراس نیگراس، كواہويلا;Piedras Negras
+sr;Пједрас Неграс;Piedras Negras
+th;ปัตซ์กวาโร;Pátzcuaro
+ca;Ojitos de Santa Lucía;Ojitos
+sr;Охитос;Ojitos
+lt;Nuevo Kasas Grandesas;Nuevo Casas Grandes
+lv;Nuevo Kasasa Grandesa;Nuevo Casas Grandes
+bn;নুয়েবো কাসাস গ্রান্দেস;Nuevo Casas Grandes
+si;නුඉවෝ කසාස් ග්‍රන්ඩිස්;Nuevo Casas Grandes
+uk;Нуево-Касас-Грандес;Nuevo Casas Grandes
+ur;نویوو کاساس جراندیس;Nuevo Casas Grandes
+sr;Нуево Касас Грандес;Nuevo Casas Grandes
+kn;ನ್ಯೂವೊ ಕ್ಯಾಸಾಸ್ ಗ್ರ್ಯಾಂಡೆಸ್;Nuevo Casas Grandes
+mr;नूवे कॉस ग्रांडेस;Nuevo Casas Grandes
+el;Νουέβο Κάσας Γκράντες;Nuevo Casas Grandes
+ta;நுவெவோ காஸஸ் க்ராண்ட்ஸ்;Nuevo Casas Grandes
+gu;નુએવો કાસ ગ્રાન્ડેસ;Nuevo Casas Grandes
+te;నువో కాసస్ గ్రాండెస్;Nuevo Casas Grandes
+th;นูเอโบกาซัสกรันเดส;Nuevo Casas Grandes
+bn;নুয়েবা রোসিতা;Nueva Rosita
+sr;Нуева Росита;Nueva Rosita
+fa;ناوویوا;Navojoa
+ur;ناووخوا;Navojoa
+fa;نایکا;Naica
+he;נאיקה;Naica
+sr;Наика;Naica
+sr;Ероика Мулехе;Mulegé
+fa;مورلیا، میچوآکان;Morelia
+lt;Morelija;Morelia
+bg;Морелия;Morelia
+ka;მორელია;Morelia
+uk;Морелія;Morelia
+sr;Морелија;Morelia
+th;มอเรเลีย;Morelia
+he;מורליה;Morelia
+hy;Մորելիա;Morelia
+ur;موریلیا;Morelia
+kk;Морелия;Morelia
+ky;Морелия;Morelia
+bn;মোরেলিয়া;Morelia
+am;ሞሬሊያ;Morelia
+pa;ਮੋਰੇਲੀਆ;Morelia
+ps;موریلیا;Morelia
+tg;Морелия;Morelia
+tt;Морелия;Morelia
+th;มอนเตรเรย์;Monterrey
+ka;მონტერეი;Monterrey
+sr;Монтереј;Monterrey
+bo;མཱོན་ཊི་རེ།;Monterrey
+be;Мантэрэй;Monterrey
+lt;Monterėjus;Monterrey
+os;Монтеррей;Monterrey
+fa;مونتری;Monterrey
+uk;Монтеррей;Monterrey
+nn;Monterrey i Nuevo León;Monterrey
+bg;Монтерей;Monterrey
+he;מונטריי;Monterrey
+mr;माँतेरे;Monterrey
+lv;Monterreja;Monterrey
+el;Μοντερρέι;Monterrey
+ce;Монтеррей;Monterrey
+pa;ਮੋਂਤੇਰੇਈ;Monterrey
+hy;Մոնտերեյ;Monterrey
+kk;Монтеррей;Monterrey
+ur;مونتےرئی;Monterrey
+vep;Monterrei;Monterrey
+ky;Монтеррей;Monterrey
+bn;মন্টেরে;Monterrey
+am;ሞንቴሬ;Monterrey
+ps;مونتيري;Monterrey
+tg;Монтеррей;Monterrey
+tt;Монтеррей;Monterrey
+bg;Монклова;Monclova
+fa;مونکلووا;Monclova
+lt;Monklova;Monclova
+ur;مونکلووا;Monclova
+bn;মিরাফ্লোরেস;Miraflores
+sr;Мирафлорес;Miraflores
+lt;Meksikalis;Mexicali
+fa;مخیکالی;Mexicali
+ka;მეხიკალი;Mexicali
+sr;Мехикали;Mexicali
+uk;Мехікалі;Mexicali
+el;Μεξικάλι;Mexicali
+nn;Mexicali i Baja California;Mexicali
+bg;Мехикали;Mexicali
+be;Мехікалі;Mexicali
+he;מקסיקלי;Mexicali
+ur;میکسیکالی;Mexicali
+kk;Мехикали;Mexicali
+th;เมคีกาลี;Mexicali
+uz;Meksikali;Mexicali
+ky;Мексикали;Mexicali
+bn;মেক্সিকালি;Mexicali
+am;ሜክሲካሊ;Mexicali
+az;Meksikali;Mexicali
+pa;ਮੈਕਸੀਕਾਲੀ;Mexicali
+ps;مکسيکالي;Mexicali
+tg;Мексикали;Mexicali
+tt;Мексикали;Mexicali
+lt;Masatlanas;Mazatlán
+ka;მასატლანი;Mazatlán
+be;Мацатлан;Mazatlán
+bg;Масатлан;Mazatlán
+sr;Мазатлан;Mazatlán
+fa;مزاتلان، سینالوآ;Mazatlán
+el;Μαζατλάν;Mazatlán
+he;מסטלאן;Mazatlán
+ur;ماساتلان;Mazatlán
+sr;Баиа де Матанчен;Matanchén
+he;מנסניו;Manzanillo
+fa;مانزانیلو;Manzanillo
+sr;Лос Вергара;Los Vergara
+bg;Лос Мочис;Los Mochis
+fa;لوس موچیس;Los Mochis
+ka;ლოს-მოჩისი;Los Mochis
+sr;Лос Моћис;Los Mochis
+he;לוס מוציס;Los Mochis
+ur;لوس موچیس;Los Mochis
+sr;Лос Мазос;Los Mazos
+bn;লোমা ব্লাঙ্কা;Loma Blanca
+sr;Лома Бланка;Loma Blanca
+ca;León;León de los Aldama
+da;Leon Guanajuato;León de los Aldama
+pl;León;León de los Aldama
+ur;لا وینٹانا;La Ventana
+sr;Ла Вентана;La Ventana
+sr;Лас Варас;Las Varas
+sr;Ла Рехина;La Regina
+kk;Ла-Пас;La Paz
+ky;Ла-Пас;La Paz
+bn;লা পাজ;La Paz
+ur;لا پاز;La Paz
+am;ላ ፓዝ;La Paz
+fa;لاپاز;La Paz
+pa;ਲਾ ਪਾਜ਼;La Paz
+ps;لا پاز;La Paz
+tg;Ла-Пас;La Paz
+tt;Ла-Пас;La Paz
+sr;Ла Монкада;La Moncada
+sr;Ла Манзаниља;La Manzanilla
+bn;লা এস্মেরালদা;La Esmeralda
+sr;Ла Есмералда;La Esmeralda
+bn;লা ক্রুস;La Cruz
+ur;لا کروز، سینالوا;La Cruz
+he;לה קרוס;La Cruz
+sr;Ла Круз;La Cruz
+sl;Barre de Navidad;Barra de Navidad
+he;בארה דה נבידאד;Barra de Navidad
+sr;Бара де Навидад;Barra de Navidad
+ka;ირაპუატო;Irapuato
+lt;Irapuatas;Irapuato
+sr;Ирапуато;Irapuato
+fa;ایرپواتو، گوانخواتو;Irapuato
+bg;Ирапуато;Irapuato
+ur;ایراپواتو;Irapuato
+sr;Ипазолтик;Ipazoltic
+sr;Ивазио;Ihuatzio
+sr;Уимилпан;Huimilpan
+bn;ইগেরা দে সারাগোসা;Higuera de Zaragoza
+sr;Игера де Зарагоза;Higuera de Zaragoza
+bg;Парал;Hidalgo del Parral
+fa;پارال، چیئوائوا;Hidalgo del Parral
+ur;پارال، چہواہوا;Hidalgo del Parral
+bg;Ногалес;Nogales
+fa;نوگالس، سونورا;Nogales
+ur;نوگالیس، سونورا;Nogales
+bg;Ермосильо;Hermosillo
+fa;ارموسییو، سونورا;Hermosillo
+sr;Ермосиљо;Hermosillo
+th;เอร์โมซีโย;Hermosillo
+he;ארמוסיו;Hermosillo
+ka;ერმოსილიო;Hermosillo
+lt;Hermosiljas;Hermosillo
+uk;Ермосійо;Hermosillo
+ur;ارموسیو;Hermosillo
+kk;Гермосильо;Hermosillo
+ky;Гермосильо;Hermosillo
+bn;হারমোসিলো;Hermosillo
+am;ሄርሞሲሎ;Hermosillo
+pa;ਹਰਮੋਸਿਲੋ;Hermosillo
+ps;هيرموسيلو;Hermosillo
+tg;Гермосильо;Hermosillo
+tt;Гермосильо;Hermosillo
+sv;Guaymas;Heroica Guaymas
+fa;گوایماس;Heroica Guaymas
+fa;گواساو;Guasave
+bg;Гуанахуато;Guanajuato
+fa;گوآناخوآتو، گوآناخوآتو;Guanajuato
+ka;გუანახუატო;Guanajuato
+lt;Gvanachuatas;Guanajuato
+mrj;Гуанахуато;Guanajuato
+nn;Byen Guanajuato;Guanajuato
+th;เอสตาโด เด เกวนาฮัวโต;Guanajuato
+uk;Гуанахуато;Guanajuato
+he;גואנחואטו;Guanajuato
+sr;Гванахуато;Guanajuato
+uz;Guanaxuato;Guanajuato
+kk;Гуанахуато;Guanajuato
+ky;Гуанахуато;Guanajuato
+bn;গুয়ানাহুয়াতো;Guanajuato
+ur;گوانا ہواتو;Guanajuato
+am;ጓናሃዋቶ;Guanajuato
+pa;ਗੁਆਨਾਜੁਆਤੋ;Guanajuato
+ps;غواناخواتو;Guanajuato
+tg;Гуанахуато;Guanajuato
+tt;Гуанахуато;Guanajuato
+sr;Гванахуатиљо;Guanajuatillo
+pl;Villa de Guadalupe;Guadalupe
+sv;Ciudad Guadalupe;Guadalupe
+he;גוודלחרה;Guadalajara
+lt;Gvadalachara;Guadalajara
+uk;Гвадалахара;Guadalajara
+th;กวาดาลาฮารา;Guadalajara
+be;Гвадалахара;Guadalajara
+ka;გვადალახარა;Guadalajara
+nn;Guadalajara i Jalisco;Guadalajara
+bg;Гуадалахара;Guadalajara
+os;Гвадалахарæ;Guadalajara
+lv;Gvadalahara;Guadalajara
+fa;گوادالاخارا، خالیسکو;Guadalajara
+gl;Guadalaxara;Guadalajara
+sr;Гвадалахара;Guadalajara
+mk;Гвадалахара;Guadalajara
+el;Γουαδαλαχάρα;Guadalajara
+mr;ग्वादालाहारा;Guadalajara
+ce;Гвадалахара;Guadalajara
+ml;ഗൗതലജാറ;Guadalajara
+pa;ਗੁਆਦਾਲਾਹਾਰਾ;Guadalajara
+ur;گواڈلہارا;Guadalajara
+kk;Гвадалахара;Guadalajara
+uz;Guadalaxara;Guadalajara
+ky;Гвадалахара;Guadalajara
+bn;গুয়াডালাহারা;Guadalajara
+am;ጓዳላሃራ;Guadalajara
+az;Qvadalaxara;Guadalajara
+ps;غوادالاخارا;Guadalajara
+tg;Гвадалахара;Guadalajara
+tt;Гвадалахара;Guadalajara
+fa;فرسنیلو;Fresnillo
+lt;Fresniljas;Fresnillo
+ur;فریسنیو;Fresnillo
+ka;ენსენადა;Ensenada
+he;אנסנדה;Ensenada
+bg;Енсенада;Ensenada
+fa;انسنادا، باخا کالیفرنیا;Ensenada
+sr;Енсенада;Ensenada
+th;เอนเซนาดา;Ensenada
+ur;اینسینادا، باخا کیلیفورنیا;Ensenada
+sr;Ел Триунфо;El Triunfo
+sr;Ел Тепевахе де Морелос;El Tepehuaje
+sr;Ел Салитре;El Salitre
+bn;এল রেমোলিনো;El Remolino
+sr;Ел Ремолино;El Remolino
+ur;جلاپا، بجا کیلی فورنیا;Ejido Jalapa
+sco;Jalapa;Ejido Jalapa
+sr;Ехидо Халапа;Ejido Jalapa
+sr;Сиудад Инсурхентес;Ciudad Insurgentes
+pl;Durango;Victoria de Durango
+da;Durango;Victoria de Durango
+eu;Durango;Victoria de Durango
+fi;Durango;Victoria de Durango
+sv;Durango;Victoria de Durango
+bg;Дуранго;Victoria de Durango
+fa;دورانگو، دورانگو;Victoria de Durango
+he;דורנגו;Victoria de Durango
+ka;დურანგო;Victoria de Durango
+lt;Durangas;Victoria de Durango
+nn;Byen Durango;Victoria de Durango
+sr;Викторија де Дуранго;Victoria de Durango
+ur;دورانگو سٹی;Victoria de Durango
+sr;Купарео;Cupareo
+sr;Кулијакансито;Culiacancito
+ka;კულიაკანი;Culiacán
+bg;Кулиакан;Culiacán
+lt;Kuljakanas;Culiacán
+th;กูเลียกัน;Culiacán
+sr;Кулијакан;Culiacán
+kk;Кульякан;Culiacán
+uz;Kulyakan;Culiacán
+ky;Кульякан;Culiacán
+bn;কুলিয়াকান;Culiacán
+ur;کولیاکن;Culiacán
+am;ኩሊያካን;Culiacán
+az;Kulyakan;Culiacán
+fa;کولیاکان;Culiacán
+pa;ਕੁਲਿਆਕਾਨ;Culiacán
+ps;کوليتاکان;Culiacán
+tg;Кульякан;Culiacán
+tt;Кульякан;Culiacán
+bn;এল ক্রুসেরো দে সান্তা মারিয়া;El Crucero de Santa María
+sr;Ел Крусеро де Санта Марија;El Crucero de Santa María
+ceb;Villa de Costa Rica;Costa Rica
+sv;Villa de Costa Rica;Costa Rica
+sr;Коста Рика;Costa Rica
+bn;কোলোনিয়া এস্পেরান্সা;Colonia Esperanza
+sr;Колонија Есперанза;Colonia Esperanza
+kk;Колима;Colima
+uz;Kolima;Colima
+ky;Колима;Colima
+bn;কোলিমা;Colima
+ur;کولیما;Colima
+am;ኮሊማ;Colima
+az;Kolima;Colima
+fa;کولیما;Colima
+pa;ਕੋਲਿਮਾ;Colima
+ps;کوليما;Colima
+tg;Колима;Colima
+tt;Колима;Colima
+sr;Клоете;Cloete
+bg;Сиудад Обрегон;Ciudad Obregón
+fa;سیوداد اوبرگن;Ciudad Obregón
+ka;სიუდად-ობრეგონი;Ciudad Obregón
+lt;Siudad Obregonas;Ciudad Obregón
+sr;Сијудад Обрегон;Ciudad Obregón
+he;סיודד אוברגון;Ciudad Obregón
+tl;Lungsod ng Obregón;Ciudad Obregón
+uk;Сьюдад Обрегон;Ciudad Obregón
+ur;سیوداد اوبریگون;Ciudad Obregón
+lt;Chuaresas;Ciudad Juárez
+sv;Juárez;Ciudad Juárez
+tl;Lungsod Juárez;Ciudad Juárez
+lt;Siudad Chuaresas;Ciudad Juárez
+uk;Сьюдад-Хуарес;Ciudad Juárez
+ka;სიუდად-ხუარესი;Ciudad Juárez
+mr;सिउदाद हुआरेझ;Ciudad Juárez
+el;Σιουδάδ Χουάρες;Ciudad Juárez
+bg;Сиудад Хуарес;Ciudad Juárez
+be;Сьюдад-Хуарэс;Ciudad Juárez
+os;Сьюдад-Хуарес;Ciudad Juárez
+he;סיודאד חוארס;Ciudad Juárez
+fa;سیوداد خوارس٬ چیئوائوا;Ciudad Juárez
+sr;Сјудад Хварез;Ciudad Juárez
+ce;Сьюдад-Хуарес;Ciudad Juárez
+ur;سیوداد خواریز;Ciudad Juárez
+hy;Սյուդատ Խուարես;Ciudad Juárez
+lv;Huaresa;Ciudad Juárez
+fa;سیوداد گوزمان;Ciudad Guzmán
+tt;Делисьяс;Ciudad Delicias
+lt;Delisijasas;Ciudad Delicias
+lv;Delisijasa;Ciudad Delicias
+hu;Delicias;Ciudad Delicias
+uk;Делісіяс;Ciudad Delicias
+id;Delicias;Ciudad Delicias
+ur;دیلیسیاس، چہواہوا;Ciudad Delicias
+mr;डेलिसिस;Ciudad Delicias
+ms;Delicias;Ciudad Delicias
+el;Ντελίσιας;Ciudad Delicias
+vi;Delicias;Ciudad Delicias
+nb;Delicias;Ciudad Delicias
+fa;دلیسیاس;Ciudad Delicias
+ceb;Delicias;Ciudad Delicias
+fi;Akitakata;Ciudad Delicias
+bn;ডেলিসিয়া;Ciudad Delicias
+si;ඩෙලිසියාස්;Ciudad Delicias
+ca;Delicias;Ciudad Delicias
+sr;Делисијас;Ciudad Delicias
+sv;Delicias;Ciudad Delicias
+kn;ಡೆಲಿಷಿಯಸ್;Ciudad Delicias
+ta;டெலிசியாஸ்;Ciudad Delicias
+gu;ડેલિસિસ;Ciudad Delicias
+te;డెలిసియాస్;Ciudad Delicias
+th;เดลิเชียส;Ciudad Delicias
+pl;Delicias;Ciudad Delicias
+da;Delicias;Ciudad Delicias
+he;דליסיאס;Ciudad Delicias
+tr;Delicias;Ciudad Delicias
+bg;Сиудад Акуня;Ciudad Acuña
+fa;اکونا، کواویلا;Ciudad Acuña
+he;אקוניה;Ciudad Acuña
+tl;Lungsod ng Acuña;Ciudad Acuña
+sr;Сибута;Cíbuta
+sr;Чоис;Choix
+lt;Čihuahua;Chihuahua
+lt;Čiuaua;Chihuahua
+el;Τσιουάουα;Chihuahua
+no;Chihuahua by;Chihuahua
+bg;Чиуауа;Chihuahua
+nn;Byen Chihuahua;Chihuahua
+fa;چیئوائوا٬ چیئوائوا;Chihuahua
+ka;ჩიუაუა;Chihuahua
+sr;Чивава;Chihuahua
+uk;Чіуауа;Chihuahua
+os;Чиуауæ;Chihuahua
+ceb;Dakbayan sa Chihuahua;Chihuahua
+ur;چہواہوا;Chihuahua
+yue;芝華華市;Chihuahua
+he;ציוואווה;Chihuahua
+kk;Чиуауа;Chihuahua
+uz;Chivava;Chihuahua
+ky;Чиуауа;Chihuahua
+bn;চিহুয়াহুয়া;Chihuahua
+am;ቺዋዋ;Chihuahua
+az;Çivava;Chihuahua
+pa;ਚਿਹੁਆਹੁਆ;Chihuahua
+ps;تشيواوا;Chihuahua
+tg;Чиуауа;Chihuahua
+tt;Чиуауа;Chihuahua
+sr;Чакала;Chacala
+sr;Серокави;Cerocahui
+sr;Селаја;Celaya
+bg;Селая;Celaya
+ka;სელაია;Celaya
+lt;Selaja;Celaya
+fa;سلایا;Celaya
+hy;Ցելայա;Celaya
+ur;سیلائیا;Celaya
+th;เซลายา;Celaya
+sr;Катавиња;Cataviña
+sr;Капиља де Гвадалупе;Capilla de Guadalupe
+lt;Kananėja;Cananea
+sr;Камахапита;Camajapita
+sv;Mismaloya;Boca Mismaloya
+sr;Мисмалоја;Boca Mismaloya
+sr;Бока де Томатлан;Boca de Tomatlán
+sr;Басучил;Basúchil
+sr;Баранка де Отатес, Баранка де Отатан;Barranca de Otates
+sr;Баранка де лос Лаурелес;Barranca de los Laureles
+uk;Атояк-де-Альварес;Atoyac de Álvarez
+sr;Атојак де Алварез;Atoyac de Álvarez
+sr;Атотонилко ел Бахо;Atotonilco el Bajo
+bg;Аподака;Ciudad Apodaca
+sr;Сијудад Аподака;Ciudad Apodaca
+fa;آپوداکا;Ciudad Apodaca
+ka;აპოდაკა;Ciudad Apodaca
+ur;آپوداکا;Ciudad Apodaca
+fa;اپاتزینگان;Apatzingán
+fa;امیکا، جالیسکو;Ameca
+fa;اماتپک;Amatepec
+sr;Аматепек;Amatepec
+sr;Алтата;Altata
+sr;Ахихик;Ajijic
+bg;Агуаскалиентес;Aguascalientes
+fa;آگوئاسکالینتس;Aguascalientes
+ka;აგუასკალიენტესი;Aguascalientes
+lt;Aguaskaljentesas;Aguascalientes
+mrj;Агуаскальентес;Aguascalientes
+nn;Byen Aguascalientes;Aguascalientes
+no;Aguascalientes by;Aguascalientes
+sr;Агваскалијентес;Aguascalientes
+th;อากวัสกาเลียนเตส;Aguascalientes
+uk;Аґуаскальєнтес;Aguascalientes
+ur;آگوسکالینٹس;Aguascalientes
+he;אגואסקליינטס;Aguascalientes
+uz;Aguaskalentes;Aguascalientes
+kk;Агуаскалиентес;Aguascalientes
+ky;Агуаскалиентес;Aguascalientes
+bn;আগুয়াসক্যালিয়েন্তেস;Aguascalientes
+am;አጓስካሊዬንቴስ;Aguascalientes
+az;Aguaskalienti;Aguascalientes
+pa;ਅਗੁਆਸਕਾਲੀਅੰਤੇਸ;Aguascalientes
+ps;أغواسكاليينتس;Aguascalientes
+tg;Агуаскалиентес;Aguascalientes
+tt;Агуаскалиентес;Aguascalientes
+fa;اکامبارو;Acámbaro
+uk;Акамбаро;Acámbaro
+hu;Dolores Hidalgo Cuna de la Independencia Nacional;Dolores Hidalgo
+uk;Долорес-Ідальґо;Dolores Hidalgo
+ceb;Dolores Hidalgo Cuna de la Independencia Nacional;Dolores Hidalgo
+sr;Општина Долорес Идалго Куна де ла Индепенденсија Насионал;Dolores Hidalgo
+he;דולורס אידלגו;Dolores Hidalgo
+sv;Casacuarán;San Pablo Casacuarán
+ca;Casacuarán;San Pablo Casacuarán
+sr;Сан Пабло Касакуаран;San Pablo Casacuarán
+sr;Поруљо;Porullo
+sr;Капула;Capula
+sr;Плаја Азул;Playa Azul
+bn;সান লুইস দে লা লোমা;San Luis de La Loma
+sr;Сан Луис де ла Лома;San Luis de La Loma
+sr;Кујутлан;Cuyutlán
+es;El Magristal de Abajo;El Magistral
+sr;Гудињос;Gudiños
+sr;Салдаријага;Saldarriaga
+sr;Уречо;Urecho
+sr;Апапатаро;Apapátaro
+fa;زیپولیت;Zipolite
+sr;Плаја Зиполите;Zipolite
+sr;Реал де Каторсе;Real de Catorce
+sr;Пунта Абреохос;Punta Abreojos
+bn;সান আন্তোনিও দেল মার;San Antonio del Mar
+sr;Сан Антонио дел Мар;San Antonio del Mar
+ur;سانتا کروز امیلپاس;Santa Cruz Amilpas
+sr;Општина Санта Круз Амилпас;Santa Cruz Amilpas
+bn;সান লুইস;San Luis
+sr;Сан Луис;San Luis
+bn;লাস দেলিসিয়াস;Las Delicias
+sr;Лас Делисијас;Las Delicias
+sr;Тронконес;Troncones
+sr;Алта Сима;Alta Cima
+sr;Пунта Чуека;Punta Chueca
+sr;Ел Чанате;El Chanate
+sr;Фуентес дел Ваље;Fuentes del Valle
+sr;Сан Буенавентура;San Buenaventura
+sr;Портикос де Сан Антонио;Pórticos de San Antonio
+sr;Теразас дел Ваље;Terrazas del Valle
+sr;Ел Нињо;El Niño
+sr;Макловио Рохас;Maclovio Rojas
+sr;Чанал;Chanal
+sr;Кинта дел Седро;Quinta del Cedro
+bn;পোসিতোস;Pocitos
+sr;Поситос;Pocitos
+sr;Ел Сентенарио;El Centenario
+sr;Ла Галарза;La Galarza
+sr;Сан Мигел Халтокан;San Miguel Jaltocan
+sr;Општина Закуалпан;Zacualpan de Amilpas
+sr;Ваљеситос де Зарагоза;Vallecitos de Zaragoza
+sr;Мелитон Албањез Домингез;Melitón Albáñez Domínguez
+sr;Атламахалсинго дел Монте;Atlamajalcingo del Monte
+sr;Санто Доминго дел Естадо;Santo Domingo del Estado
+sr;Болањос;Bolaños
+sr;Ел Тезал;El Tezal
+sr;Колонија Уитескалко;Colonia Huitexcalco
+bg;Аяхуалтемпа;Ayahualtempa
+sr;Ајавалтемпа;Ayahualtempa
+sr;Сонотла;Xonotla
+sr;Етчовакила;Etchohuaquila
+sr;Каризалиљо;Carrizalillo
+sr;Милпиљас де Аљенде;Milpillas de Allende
+sr;Халапа дел Ваље;Jalapa del Valle
+sr;Ел Оасис;El Oasis
+sr;Платанитос;Platanitos
+bn;রাঞ্চো নুয়েবো;Rancho Nuevo
+sr;Ранчо Нуево;Rancho Nuevo
+bn;সান নিকোলাস দে লাস ফ্লোরেস;San Nicolás de las Flores
+sr;Сан Николас де лас Флорес;San Nicolás de las Flores
+sr;Агва Пуерка;Agua Puerca
+bn;এল ক্রুসেরো;El Crucero
+sr;Ел Крусеро;El Crucero
+sr;Ла Мартуча;La Martucha
+tt;Айозинапа;Ayotzinapa
+ce;Айозинапа;Ayotzinapa
+bg;Айотзинапа;Ayotzinapa
+sr;Ајозинапа;Ayotzinapa
+sr;Ел Санто Нињо;El Santo Niño
+sr;Намурачи;Namurachi
+es;La Guadalupana;La Guadalupe
+sr;Круз де Уанакастле;Cruz de Huanacaxtle

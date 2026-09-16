@@ -572,3 +572,647 @@ es;Nancomahuida;Ñancomahuida
 es;Rinconada de Cato;Rinconada
 es;Idahue Bajo;Idahue Chico
 es;El Arenal del 25;El Arenal del Veinticinco
+ur;یومبل;Yumbel
+sr;Виња дел Мар;Viña del Mar
+lt;Vinja del Maras;Viña del Mar
+bg;Виня дел Мар;Viña del Mar
+he;ויניה דל מאר;Viña del Mar
+uk;Віня-дель-Мар;Viña del Mar
+fa;وینیا دل مار;Viña del Mar
+hy;Վինյա դել Մար;Viña del Mar
+be;Вільярыка;Villarrica
+lt;Viljarika;Villarrica
+fa;ویلاریکا;Villarrica
+sr;Виљарика;Villarrica
+uk;Вілья-Алемана;Villa Alemana
+fa;ویا آلمانا;Villa Alemana
+sr;Виља Алемана;Villa Alemana
+lt;Vikunija;Vicuña
+ka;ვიქტორია;Victoria
+ur;وکٹوریہ، چلی;Victoria
+bg;Валпараисо;Valparaíso
+nds;Valparais;Valparaíso
+lt;Valparaisas;Valparaíso
+fa;والپارایزو;Valparaíso
+ab;Валпараисо;Valparaíso
+he;ולפראיסו;Valparaíso
+ka;ვალპარაისო;Valparaíso
+sr;Валпараисо;Valparaíso
+el;Βαλπαραΐσο;Valparaíso
+th;บัลปาราอีโซ;Valparaíso
+mr;बाल्परेझो;Valparaíso
+mk;Валпараисо;Valparaíso
+os;Вальпараисо;Valparaíso
+uk;Вальпараїсо;Valparaíso
+am;ቫልፓራይሶ;Valparaíso
+as;वालपाराईसो;Valparaíso
+sgs;Valparaėsos;Valparaíso
+be;Вальпараіса;Valparaíso
+bn;ভালপারাইসো;Valparaíso
+bo;བལྤ་རཨིསོ;Valparaíso
+ceb;Dakbayan sa Valparaíso;Valparaíso
+ckb;ڤالپارایسۆ;Valparaíso
+dv;ވަލޕަރައިސޮ;Valparaíso
+dz;བལྤ་རཨིསོ;Valparaíso
+gu;વાલ્પારાઇસો;Valparaíso
+hy;Վալպարաիսո;Valparaíso
+ml;വൽപറാസിയോ;Valparaíso
+mn;Вальпараисо;Valparaíso
+ms;Balparaiso;Valparaíso
+my;ဗလၲပရမိစော;Valparaíso
+mzn;والپرایزو;Valparaíso
+ne;वालपारैसो;Valparaíso
+or;ବଲ୍ପରଇ େସା;Valparaíso
+pa;ਬਾਲਪਰਾਈਸੋ;Valparaíso
+si;වල්පරයිසෝ;Valparaíso
+ta;வல்பெய்ரசோவ்;Valparaíso
+te;వల్పరైజో;Valparaíso
+tt;Вальпараисо;Valparaíso
+ur;بآلپارایسو;Valparaíso
+yue;瓦爾帕萊索;Valparaíso
+ky;Вальпараисо;Valparaíso
+kk;Валпараисо;Valparaíso
+ps;والپارایسو;Valparaíso
+tg;Валпараисо;Valparaíso
+uk;Вальдівія;Valdivia
+lt;Valdivija;Valdivia
+th;บัลดีเบีย;Valdivia
+bg;Валдивия;Valdivia
+el;Βαλδίβια;Valdivia
+ka;ვალდივია;Valdivia
+sgs;Valdėvėjė;Valdivia
+be;Вальдывія;Valdivia
+fa;بالدیبیا;Valdivia
+he;ואלדיביה;Valdivia
+sr;Валдивија;Valdivia
+kk;Валдивия;Valdivia
+ky;Валдивия;Valdivia
+bn;ভালডিভিয়া;Valdivia
+ur;والڈیویا;Valdivia
+am;ቫልዲቪያ;Valdivia
+pa;ਵਾਲਡੀਵੀਆ;Valdivia
+ps;والدیویا;Valdivia
+tg;Валдивия;Valdivia
+tt;Валдивия;Valdivia
+fa;توکاپل;Tucapel
+ur;توکاپل;Tucapel
+sr;Томе;Tomé
+lt;Tokopilija;Tocopilla
+uk;Токопілья;Tocopilla
+fa;توکوپیلا;Tocopilla
+sr;Токопиља;Tocopilla
+ka;ტემუკო;Temuco
+el;Τεμούκο;Temuco
+lv;Temuko;Temuco
+th;เตมูโก;Temuco
+lt;Temukas;Temuco
+uk;Темуко;Temuco
+sr;Темуко;Temuco
+bg;Темуко;Temuco
+mk;Тeмуко;Temuco
+ml;ടെമ്യൂകോ;Temuco
+sgs;Temuks;Temuco
+hy;Տեմուկո;Temuco
+kk;Темуко;Temuco
+ky;Темуко;Temuco
+bn;তেমুকো;Temuco
+ur;ٹیمیوکو;Temuco
+am;ተሙኮ;Temuco
+az;Temuko;Temuco
+fa;تموکو;Temuco
+pa;ਤੇਮੁਕੋ;Temuco
+ps;ټیمویکو;Temuco
+tg;Темуко;Temuco
+tt;Темуко;Temuco
+fa;تال تال;Taltal
+bg;Талкауано;Talcahuano
+lv;Talkavano;Talcahuano
+mk;Талкауано;Talcahuano
+be;Талькауана;Talcahuano
+fa;تالکاهوانو;Talcahuano
+lt;Talkahuanas;Talcahuano
+uk;Талькауано;Talcahuano
+sr;Талкауано;Talcahuano
+th;ตัลกาอัวโน;Talcahuano
+be;Талька;Talca
+lt;Talka;Talca
+bg;Талка;Talca
+ka;ტალკა;Talca
+el;Τάλκα;Talca
+sgs;Talka;Talca
+uk;Талька;Talca
+fa;تالکا;Talca
+sr;Талка;Talca
+kk;Талька;Talca
+uz;Talka;Talca
+ky;Талька;Talca
+bn;তালকা;Talca
+ur;تالکا;Talca
+am;ታልካ;Talca
+az;Talka;Talca
+pa;ਤਾਲਕਾ;Talca
+ps;تالکا;Talca
+tg;Талька;Talca
+tt;Талька;Talca
+sr;Талаганте;Talagante
+bg;Сантяго де Чили;Santiago
+cs;Santiago de Chile;Santiago
+da;Santiago de Chile;Santiago
+fi;Santiago de Chile;Santiago
+gl;Santiago de Chile;Santiago
+he;סנטיאגו דה צ'ילה;Santiago
+ka;სანტიაგო დე ჩილე;Santiago
+lt;Čilės Santjagas;Santiago
+no;Santiago de Chile;Santiago
+pl;Santiago de Chile;Santiago
+ro;Santiago de Chile;Santiago
+sv;Santiago de Chile;Santiago
+hu;Santiago de Chile;Santiago
+ug;سانتىياگو;Santiago
+el;Σαντιάγο;Santiago
+hr;Santiago de Chile;Santiago
+lv;Santjago;Santiago
+oc;Santiago de Chile;Santiago
+sl;Santiago de Chile;Santiago
+am;ሳንቲያጎ;Santiago
+bg;Сантяго де Чиле;Santiago
+ca;Santiago de Xile;Santiago
+fa;سانتیاگو;Santiago
+th;ซันติอาโก;Santiago
+el;Σαντιάγκο;Santiago
+bn;সান্টিয়াগো;Santiago
+zh-TW;聖地亞哥;Santiago
+sr;Сантјаго;Santiago
+ba;Санта-Крус;Santa Cruz
+el;Σαν Πέδρο ντε Ατακάμα;San Pedro de Atacama
+lt;San Pedro de Atakama;San Pedro de Atacama
+uk;Сан-Педро-де-Атакама;San Pedro de Atacama
+hy;Սան Պեդրո դե Ատակամա;San Pedro de Atacama
+fa;سن پدرو د آتاکاما;San Pedro de Atacama
+he;סן פדרו דה אטקמה;San Pedro de Atacama
+gl;San Javier de Loncomilla;San Javier
+sr;Сан Хавијер;San Javier
+bg;Сан Антонио;San Antonio
+az;Salamanka;Salamanca
+ba;Саламанка;Salamanca
+bn;সালামানকা;Salamanca
+el;Σαλαμάνκα;Salamanca
+fa;سالامانکا;Salamanca
+he;סלמנקה;Salamanca
+lt;Salamanka;Salamanca
+ml;സലമന്ചാ;Salamanca
+si;සළමන්ක;Salamanca
+sr;Саламанка;Salamanca
+te;స్యాలమెంక;Salamanca
+th;ซาลามังกา;Salamanca
+tw;Salamanka;Salamanca
+uk;Саламанка;Salamanca
+ur;سالامانکا;Salamanca
+ba;Ренго;Rengo
+sr;Ренго;Rengo
+lt;Rankagva;Rancagua
+ka;რანკაგუა;Rancagua
+uk;Ранкагуа;Rancagua
+el;Ρανκάγουα;Rancagua
+sgs;Rankagva;Rancagua
+th;รังกากวา;Rancagua
+kk;Ранкагуа;Rancagua
+ky;Ранкагуа;Rancagua
+bn;রানকাগুয়া;Rancagua
+ur;رانکاگوا;Rancagua
+am;ራንካጓ;Rancagua
+az;Rancaqua;Rancagua
+fa;رانکاگوا;Rancagua
+pa;ਰਾਨਕਾਗੁਆ;Rancagua
+ps;رانکاگوا;Rancagua
+tg;Ранкагуа;Rancagua
+tt;Ранкагуа;Rancagua
+ba;Кинта-де-Тилькоко;Quinta de Tilcoco
+lt;Kiljota;Quillota
+bg;Кийота;Quillota
+sr;Киљота;Quillota
+th;กีโยตา;Quillota
+sr;Киликура;Quilicura
+ka;პუტრე;Putre
+uk;Путре;Putre
+be;Пунта Арэнас;Punta Arenas
+bg;Пунта Аренас;Punta Arenas
+lt;Punta Arenasas;Punta Arenas
+os;Пунта-Аренас;Punta Arenas
+el;Πούντα Αρένας;Punta Arenas
+sr;Пунта Аренас;Punta Arenas
+uk;Пунта-Аренас;Punta Arenas
+ka;პუნტა-არენასი;Punta Arenas
+lv;Puntaarenasa;Punta Arenas
+th;ปุนตาอาเรนัส;Punta Arenas
+he;פונטה ארנס;Punta Arenas
+sgs;Ponta Arenasos;Punta Arenas
+fa;پونتا آرناس;Punta Arenas
+kk;Пунта-Аренас;Punta Arenas
+ky;Пунта-Аренас;Punta Arenas
+bn;পুন্তা আরেনাস;Punta Arenas
+ur;پونتہ ارینس;Punta Arenas
+am;ፑንታ አሬናስ;Punta Arenas
+pa;ਪੁੰਤਾ ਅਰੇਨਾਸ;Punta Arenas
+ps;پونتا ارینس;Punta Arenas
+tg;Пунта-Аренас;Punta Arenas
+tt;Пунта-Аренас;Punta Arenas
+lt;Puerto Viljamsas;Puerto Williams
+th;ปวยร์โตวีเลียนส์;Puerto Williams
+be;Пуэрта-Уільямс;Puerto Williams
+uk;Пуерто-Вільямс;Puerto Williams
+lt;Puerto Varasas;Puerto Varas
+sr;Пуерто Варас;Puerto Varas
+ka;პუერტო-ვარასი;Puerto Varas
+uk;Пуерто-Варас;Puerto Varas
+mk;Пуерто Варас;Puerto Varas
+fa;پوئرتو واراس;Puerto Varas
+lt;Puerto Natalesas;Puerto Natales
+uk;Пуерто-Наталес;Puerto Natales
+lv;Puerto Natalesa;Puerto Natales
+hy;Պուերտո-Նատալես;Puerto Natales
+ur;پویرتو ناتالیس;Puerto Natales
+mr;प्वेर्टो नतालस;Puerto Natales
+el;Πουέρτο Νατάλες;Puerto Natales
+fa;پوئرتو ناتالس;Puerto Natales
+bn;পোয়ের্তো নাটালেস;Puerto Natales
+si;පුවර්ටෝ නටාලෙස්;Puerto Natales
+kn;ಪೋರ್ಟೊ ನಟಾಲ್ಸ್;Puerto Natales
+os;Пуэрто-Наталес;Puerto Natales
+ta;புவேர்ட்டோ நட்டல்ஸ்;Puerto Natales
+gu;પ્યુર્ટો નાતાલેસ;Puerto Natales
+te;పుయెట్రో నతాల్స్;Puerto Natales
+th;เปอร์โต นาตาเลส;Puerto Natales
+bg;Пуерто Монт;Puerto Montt
+mk;Пуерто Монт;Puerto Montt
+sr;Пуерто Монт;Puerto Montt
+lt;Puerto Montas;Puerto Montt
+lv;Puertomonta;Puerto Montt
+el;Πουέρτο Μοντ;Puerto Montt
+fa;پرتو مونت;Puerto Montt
+he;פוארטו מונט;Puerto Montt
+uk;Пуерто-Монтт;Puerto Montt
+ka;პუერტო-მონტი;Puerto Montt
+sgs;Puerta Muonts;Puerto Montt
+kk;Пуэрто-Монт;Puerto Montt
+ky;Пуэрто-Монт;Puerto Montt
+bn;পুয়েরতো মন্ট;Puerto Montt
+ur;پویرٹو مونٹ;Puerto Montt
+am;ፑዋርቶ ሞንት;Puerto Montt
+pa;ਪੋਰਟੋ ਮੋਂਟ;Puerto Montt
+ps;پویرتو مونت;Puerto Montt
+tg;Пуэрто-Монт;Puerto Montt
+tt;Пуэрто-Монт;Puerto Montt
+bg;Пуенте Алто;Puente Alto
+ka;პუენტე-ალტო;Puente Alto
+lt;Pukonas;Pucón
+be;Парвенір;Porvenir
+hy;Պորվենիր;Porvenir
+nn;Porvenir i Chile;Porvenir
+uk;Порвенір;Porvenir
+lv;Pičilemu;Pichilemu
+sr;Пичилему;Pichilemu
+sc;Picilemu;Pichilemu
+ml;പിറ്റ്ഷ്ലെമു;Pichilemu
+mr;पिच्हिलेमु;Pichilemu
+lt;Pičilemas;Pichilemu
+be;Пічылему;Pichilemu
+tet;Pixilemu;Pichilemu
+hr;Pičilemu;Pichilemu
+el;Πιτσιλέμου;Pichilemu
+uk;Пічилему;Pichilemu
+he;פיצילמו;Pichilemu
+tl;Pitsilemu;Pichilemu
+yo;Pítsílẹ́mu;Pichilemu
+fa;پیچیلمو;Pichilemu
+bg;Пичилему;Pichilemu
+ta;பிச்சிலெமு;Pichilemu
+az;Piçilemu;Pichilemu
+th;ปีชีเลมู;Pichilemu
+he;פנקו;Penco
+sr;Пенко;Penco
+ka;პენიალოლენი;Peñalolén
+sr;Пењалолен;Peñalolén
+ba;Паредонес;Paredones
+uk;Пангіпульї;Panguipulli
+el;Πανγκιπούγι;Panguipulli
+fa;پانگویی پولی;Panguipulli
+he;פאנגואיפואי;Panguipulli
+lt;Ovaljė;Ovalle
+bg;Осорно;Osorno
+ba;Монте-Патрия;Monte Patria
+lt;Monte Patrija;Monte Patria
+sr;Мелипиља;Melipilla
+ba;Мачали;Machalí
+sr;Мачали;Machalí
+he;לוטה;Lota
+fa;لوتا، شیلی;Lota
+sr;Лота;Lota
+uk;Лота;Lota
+lt;Los Vilosas;Los Vilos
+ba;Лос-Вилос;Los Vilos
+az;Los Anceles;Los Ángeles
+he;לוס אנחלס;Los Ángeles
+th;โลสอังเฮเลส;Los Ángeles
+uk;Лос-Анхелес;Los Ángeles
+fa;لوس آنخلس;Los Ángeles
+sr;Ло Барнечеа;Lo Barnechea
+sr;Лимаче;Limache
+sr;Лебу;Lebu
+fa;لا یونیون;La Unión
+sr;Ла Унион;La Unión
+ur;لا ونیون، چلی;La Unión
+uk;Ла-Серена;La Serena
+ka;ლა-სერენა;La Serena
+bg;Ла Серена;La Serena
+he;לה סרנה;La Serena
+hy;Լա Սերենա;La Serena
+sr;Серена;La Serena
+ba;Ла-Серена;La Serena
+fa;لاسرنا;La Serena
+lv;Laserena;La Serena
+ur;لا سیرینا، چلی;La Serena
+kk;Ла-Серена;La Serena
+ky;Ла-Серена;La Serena
+bn;লা সেরেনা;La Serena
+am;ላ ሴሬና;La Serena
+pa;ਲਾ ਸੇਰੇਨਾ;La Serena
+ps;لا سیرینا;La Serena
+tg;Ла-Серена;La Serena
+tt;Ла-Серена;La Serena
+sr;Ла Рејна;La Reina
+ur;لا رینا;La Reina
+lt;La Ligva;La Ligua
+hy;Լա Լիգուա;La Ligua
+uk;Ла-Лігуа;La Ligua
+ur;لا لیگوا;La Ligua
+fa;لا لیگوآ;La Ligua
+ka;ლა-ფლორიდა;La Florida
+sr;Ла Флорида;La Florida
+ur;لا فلورایڈا، چلی;La Florida
+bg;Ла Калера;La Calera
+lt;La Kalera;La Calera
+sr;Ла Калера;La Calera
+ur;لا کالیرا، چلی;La Calera
+be;Ікіке;Iquique
+bg;Икике;Iquique
+he;איקיקה;Iquique
+sr;Икике;Iquique
+uk;Ікіке;Iquique
+el;Ικίκε;Iquique
+ka;იკიკე;Iquique
+lt;Ikikė;Iquique
+sgs;Ikikė;Iquique
+hy;Իկիկե;Iquique
+kk;Икике;Iquique
+uz;Ikike;Iquique
+ky;Икике;Iquique
+bn;ইকিকে;Iquique
+ur;اکیکے;Iquique
+am;ኢኪኬ;Iquique
+az;İkike;Iquique
+fa;ایکیکه;Iquique
+pa;ਇਕਿਕਾ;Iquique
+ps;اکیکی;Iquique
+tg;Икике;Iquique
+tt;Икике;Iquique
+lt;Iljapelis;Illapel
+lt;Huaskas;Huasco
+ba;Уаско;Huasco
+sr;Уалпен;Hualpén
+lt;Ichuelasas;Hijuelas
+ba;Гранерос;Graneros
+sr;Гранерос;Graneros
+fa;فیوترونو، شیلی;Futrono
+fa;فیوتالیوفو، شیلی;Futaleufú
+fa;فریرینا، شیلی;Freirina
+ba;Доньиуэ;Doñihue
+fa;دونیهیو، شیلی;Doñihue
+el;Νταλκάουε;Dalcahue
+fa;دالکاهیو، شیلی;Dalcahue
+lt;Dalkahuė;Dalcahue
+uk;Далькауе;Dalcahue
+uk;Куріко;Curicó
+th;กูรีโก;Curicó
+bg;Курико;Curicó
+fa;کوریکو، شیلی;Curicó
+lt;Kuriko;Curicó
+sr;Курико;Curicó
+fa;کیورپتو، شیلی;Curepto
+fa;کیورانایلاهیو، شیلی;Curanilahue
+sr;Куранилаве;Curanilahue
+fa;کیوراکافای، شیلی;Curacaví
+fa;کورال، شیلی;Corral
+bg;Коронел;Coronel
+lt;Kokimbas;Coquimbo
+uk;Кокімбо;Coquimbo
+bg;Кокимбо;Coquimbo
+sr;Кокимбо;Coquimbo
+sw;Mkoa wa Coquimbo;Coquimbo
+th;โกกิมโบ;Coquimbo
+az;Kopiapo;Copiapó
+lt;Kopjapo;Copiapó
+bg;Копиапо;Copiapó
+uk;Копіапо;Copiapó
+ka;კოპიაპო;Copiapó
+el;Κοπιαπό;Copiapó
+sgs;Kuopėjapa;Copiapó
+ba;Копиапо;Copiapó
+fa;کوپیاپو، شیلی;Copiapó
+sr;Копијапо;Copiapó
+ur;کوپیاپو;Copiapó
+kk;Копиапо;Copiapó
+uz;Kopiapó;Copiapó
+ky;Копиапо;Copiapó
+bn;কোপিয়াপো;Copiapó
+am;ኮፒያፖ;Copiapó
+pa;ਕੋਪਿਆਪੋ;Copiapó
+ps;کوپیاپو;Copiapó
+tg;Копиапо;Copiapó
+tt;Копиапо;Copiapó
+fa;کانستیتسیون، شیلی;Constitución
+sr;Конститусјон;Constitución
+fa;کانکن، شیلی;Concón
+sr;Конкон;Concón
+ab;Консeпcион;Concepción
+am;ኮንሴፕሲዮን;Concepción
+az;Konsepsion;Concepción
+sgs;Konsepsjuons;Concepción
+be;Кансепсьён;Concepción
+bg;Консепсион;Concepción
+bxr;Консепсьон;Concepción
+crh;Konsepsyon;Concepción
+cv;Консепçион;Concepción
+el;Κονσεπσιόν;Concepción
+fa;کنسپسیون، شیلی;Concepción
+he;קונספסיון;Concepción
+hy;Կոնսեպսիոն;Concepción
+ka;კონსეფსიონი;Concepción
+kbd;Консепсион;Concepción
+kk;Консепсьон;Concepción
+lt;Konsepsjonas;Concepción
+ltg;Konsepsjons;Concepción
+lv;Konsepsjona;Concepción
+mk;Консепсион;Concepción
+mn;Консепшон;Concepción
+mr;कन्सेप्सियान;Concepción
+mrj;Консепсьон;Concepción
+os;Консепсьон;Concepción
+rue;Конceпсіон;Concepción
+sah;Консепсьон;Concepción
+sr;Консепсион;Concepción
+ta;கன்செப்சியான்;Concepción
+th;กอนเซปซีออน;Concepción
+tk;Konsepsion;Concepción
+tt;Консепсьон;Concepción
+udm;Консепсьон;Concepción
+uk;Консепсьйон;Concepción
+uz;Konsepsion;Concepción
+vep;Konsepsjon;Concepción
+ky;Консепсьон;Concepción
+id;Konsepsi;Concepción
+ms;Konsepsi;Concepción
+bn;কনসেপসিয়ন;Concepción
+ur;کونسیپسیون;Concepción
+jv;Konsepsi;Concepción
+pa;ਕੰਸੇਪਸ਼ਨ;Concepción
+ps;کونسیپسیون;Concepción
+tg;Консепсьон;Concepción
+ba;Комбарбала;Combarbalá
+lt;Kombarbala;Combarbalá
+sq;Kolina;Colina
+he;קולינה;Colina
+fa;کولچین، شیلی;Colchane
+fa;کولبون، شیلی;Colbún
+kk;Койайке;Coyhaique
+uz;Koyyayke;Coyhaique
+ky;Койайке;Coyhaique
+bn;কয়হাইক;Coyhaique
+ur;کویہیک;Coyhaique
+am;ኮይሃይቀ;Coyhaique
+az;Koyayke;Coyhaique
+fa;کویایکه;Coyhaique
+pa;ਕੋਇਹਾਇਕ;Coyhaique
+ps;کویهایکه;Coyhaique
+tg;Койайке;Coyhaique
+tt;Койайке;Coyhaique
+fa;کوکرین، شیلی;Cochrane
+lt;Kokreinas;Cochrane
+fa;چونچی، شیلی;Chonchi
+kk;Чильян;Chillán
+ky;Чильян;Chillán
+bn;চিলান;Chillán
+ur;چیلان;Chillán
+am;ቺላን;Chillán
+az;Çillan;Chillán
+fa;چیلان;Chillán
+pa;ਚਿਲਾਨ;Chillán
+ps;چیلان;Chillán
+tg;Чильян;Chillán
+tt;Чильян;Chillán
+fa;شیگوانتی، شیلی;Chiguayante
+sr;Чигуајанте;Chiguayante
+ba;Чаньяраль;Chañaral
+fa;شانارال، شیلی;Chañaral
+lt;Čanjaralis;Chañaral
+sr;Ћањарал;Chañaral
+lt;Čaitenas;Chaitén
+uk;Чайтен;Chaitén
+fa;چایتن، شیلی;Chaitén
+sr;Каукенес;Cauquenes
+he;קסטרו;Castro
+lt;Kastras;Castro
+os;Кастро;Castro
+ba;Кальдера;Caldera
+lt;Kaldera;Caldera
+uk;Кальбуко;Calbuco
+fa;کالبوکو;Calbuco
+az;Kalama;Calama
+lt;Kalama;Calama
+th;กาลามา;Calama
+bg;Калама;Calama
+fa;کالاما;Calama
+sr;Калама;Calama
+bg;Арика;Arica
+he;אריקה;Arica
+lt;Arika;Arica
+uk;Аріка;Arica
+el;Αρίκα;Arica
+ka;არიკა;Arica
+sgs;Arėka;Arica
+fa;آریکا;Arica
+hy;Արիկա;Arica
+lv;Arika;Arica
+pa;ਆਰੀਕਾ;Arica
+sr;Арика;Arica
+yue;阿列卡;Arica
+kk;Арика;Arica
+uz;Arika;Arica
+ky;Арика;Arica
+bn;আরিকা;Arica
+ur;اریکا;Arica
+am;አሪካ;Arica
+az;Arika;Arica
+ps;اریکا;Arica
+tg;Арика;Arica
+tt;Арика;Arica
+be;Антафагаста;Antofagasta
+bg;Антофагаста;Antofagasta
+uk;Антофагаста;Antofagasta
+sgs;Antuofagasta;Antofagasta
+el;Αντοφαγάστα;Antofagasta
+fa;آنتوفاگاستا;Antofagasta
+ka;ანტოფაგასტა;Antofagasta
+mr;अंतोफागास्ता;Antofagasta
+sr;Антофагаста;Antofagasta
+th;อันโตฟากัสตา;Antofagasta
+tt;Антофагаста;Antofagasta
+vep;Antofagast;Antofagasta
+am;ኣንቶፋጋስታ;Antofagasta
+bo;ཨན་ཏོ་ཕ་ག་སི་ཏ;Antofagasta
+he;אנטופגסטה;Antofagasta
+kk;Антофагаста;Antofagasta
+mn;Антофагаста;Antofagasta
+ur;انتوفاگاستا;Antofagasta
+yue;安托法加斯塔;Antofagasta
+ky;Антофагаста;Antofagasta
+bn;আন্তোফাগাস্তা;Antofagasta
+az;Antofaqasta;Antofagasta
+pa;ਅੰਤੋਫਾਗਾਸਤਾ;Antofagasta
+ps;انتوفاګاستا;Antofagasta
+tg;Антофагаста;Antofagasta
+lt;Angolis;Angol
+ba;Андакольо;Andacollo
+fa;انداکالو;Andacollo
+lt;Andakoljas;Andacollo
+el;Ανκούδ;Ancud
+lt;Ankudas;Ancud
+uk;Анкуд;Ancud
+fa;انکاد;Ancud
+sr;Анкуд;Ancud
+fa;التو هاسپیکیو;Alto Hospicio
+sr;Алто Осписио;Alto Hospicio
+fa;التو دل کارمن;Alto del Carmen
+lt;Alto del Karmenas;Alto del Carmen
+fa;الگارابو، چیل;Algarrobo
+hy;Ալգառոբո;Algarrobo
+be;Ханга-Роа;Hanga Roa
+bg;Ханга Роа;Hanga Roa
+ka;ჰანგა-როა;Hanga Roa
+lv;Hanaroa;Hanga Roa
+os;Ханга-Роа;Hanga Roa
+sr;Ханга Роа;Hanga Roa
+uk;Ханга-Роа;Hanga Roa
+ur;ہانگا روا;Hanga Roa
+he;האנגה רואה;Hanga Roa
+ta;கங்கா உரோவா;Hanga Roa
+bg;Сан Педро де ла Пас;San Pedro de la Paz
+fa;سن پدرو دلاپاز;San Pedro de la Paz
+lv;Sanpedro de la Pasa;San Pedro de la Paz
+mk;Сан Педро де ла Паз;San Pedro de la Paz
+sr;Сан Педро де ла Паз;San Pedro de la Paz
+uk;Сан-Педро-де-ла-Пас;San Pedro de la Paz
+sr;Ла Пинтана;La Pintana
+ur;لا پینٹانا;La Pintana
+sr;Ло Прадо;Lo Prado
+ba;Сан-Фернандо;San Fernando

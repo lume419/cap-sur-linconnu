@@ -1441,3 +1441,443 @@ es;Independencia Nuevo;Independencia
 es;Independencia Nueva;Independencia
 es;Las Barreras;La Cruceña
 es;La Estación;Charagua
+bo;རོ་བྷོ་རེ་;Roboré
+hy;Ռոբորե;Roboré
+lt;Puerto Suaresas;Puerto Suárez
+uk;Пуерто-Суарес;Puerto Suárez
+ceb;Villa Zudáñez;Zudáñez
+fa;زودانز;Zudáñez
+ur;یامپرایز;Yamparáez
+ur;یکو;Yaco
+ka;ვარნესი;Warnes
+tt;Варнес;Warnes
+bg;Витичи;Vitichi
+bg;Винто;Vinto
+bn;ভিন্তু;Vinto
+si;වින්ටෝ;Vinto
+uk;Вінто;Vinto
+ur;وینٹو;Vinto
+kn;ವಿಂಟೋ;Vinto
+mr;विनटो;Vinto
+el;Βίντο;Vinto
+ta;விண்டோ;Vinto
+gu;વિન્ટો;Vinto
+te;వింటో;Vinto
+th;วินตัน;Vinto
+fa;وینتو;Vinto
+ka;ვილიასონი;Villazón
+lt;Viljasonas;Villazón
+ka;ვილიამონტესი;Villamontes
+uk;Вілья-Монтес;Villamontes
+ka;ვიაჩა;Viacha
+lt;Viača;Viacha
+mk;Вијача;Viacha
+bg;Вайегранде;Vallegrande
+ka;ვალიეგრანდე;Vallegrande
+lt;Valjegrandė;Vallegrande
+ur;والیگراندے;Vallegrande
+fa;والاگراندی;Vallegrande
+lt;Ujūnis;Uyuni
+uk;Уюні;Uyuni
+bg;Уюни;Uyuni
+os;Уюни;Uyuni
+gu;ઉયૂની;Uyuni
+fa;اویونی;Uyuni
+he;אויוני;Uyuni
+ka;ტუპისა;Tupiza
+lt;Tupisa;Tupiza
+lv;Tupisa;Tupiza
+uk;Тупіса;Tupiza
+ur;توپیزا;Tupiza
+mr;टुपिजा;Tupiza
+el;Τούπιζα;Tupiza
+fa;توپیزا;Tupiza
+bg;Тупиза;Tupiza
+bn;টুপিজা;Tupiza
+si;ටුපිසා;Tupiza
+kn;ತುಪಿಜಾ;Tupiza
+ta;டுபிஸா;Tupiza
+gu;ટુપિઝા;Tupiza
+te;టుపిజా;Tupiza
+th;ทูพิซา;Tupiza
+he;טרינידד;Trinidad
+ka;ტრინიდადი;Trinidad
+lt;Trinidadas;Trinidad
+mk;Тринидад;Trinidad
+uk;Тринідад;Trinidad
+ur;ٹرینیڈاڈ، بولیویا;Trinidad
+kk;Тринидад;Trinidad
+ky;Тринидад;Trinidad
+bn;ট্রিনিডাড;Trinidad
+am;ትሪኒዳድ;Trinidad
+fa;ترینیداد;Trinidad
+pa;ਟ੍ਰਿਨਿਡਾਡ;Trinidad
+ps;ټرينيډاډ;Trinidad
+tg;Тринидад;Trinidad
+tt;Тринидад;Trinidad
+ka;ტიკიპაია;Tiquipaya
+fa;تیکوییپایا;Tiquipaya
+ca;Tiwanaku;Tiahuanaco
+fi;Tiwanaku;Tiahuanaco
+he;טיאהואנקו;Tiahuanaco
+nn;Tiwanaku;Tiahuanaco
+sl;Tiavanaku;Tiahuanaco
+sv;Tiwanaku;Tiahuanaco
+bg;Татаси;Tatasi
+ka;ტარიხა;Tarija
+uk;Таріха;Tarija
+lt;Taricha;Tarija
+mk;Тариха;Tarija
+ur;تاریخا;Tarija
+kk;Тариха;Tarija
+ky;Тариха;Tarija
+bn;তারিজা;Tarija
+am;ታሪጃ;Tarija
+fa;تاریخا;Tarija
+pa;ਤਾਰਿਜਾ;Tarija
+ps;تاریجا;Tarija
+tg;Тариха;Tarija
+tt;Тариха;Tarija
+fa;تاراتا، کوچاباما;Tarata
+he;סוקרה;Sucre
+lt;Sukrė;Sucre
+fa;سوکره;Sucre
+ug;سۇكرې;Sucre
+bo;སུ་ཁུ་རེ།;Sucre
+hy;Սուկրե;Sucre
+mk;Сукре;Sucre
+th;ซูเกร;Sucre
+sr;Сукре;Sucre
+uk;Сукре;Sucre
+is;Súkre;Sucre
+ur;سکرے;Sucre
+tg;Иёлоти Сукре;Sucre
+hu;Sucre történelmi óvárosa;Sucre
+bg;Сукре;Sucre
+az;Sukre;Sucre
+el;Σούκρε;Sucre
+ka;სუკრე;Sucre
+pa;ਸੂਕਰੇ;Sucre
+be;Сукрэ;Sucre
+mr;सुक्रे;Sucre
+lv;Sukre;Sucre
+os;Сукре;Sucre
+ce;Сукре;Sucre
+tt;Sukre;Sucre
+yue;蘇克雷;Sucre
+uz;Sukre;Sucre
+vep;Sukre;Sucre
+fa;سوراتا;Sorata
+fa;سانتیوانز;Santiváñez
+ceb;Santa Rosa;Santa Rosa de Yacuma
+sv;Santa Rosa;Santa Rosa de Yacuma
+fa;سانت روزا دل یاکوما;Santa Rosa de Yacuma
+fa;سانتا کروز دلاسیه‌را;Santa Cruz de la Sierra
+pl;Santa Cruz;Santa Cruz de la Sierra
+eu;Santa Cruz;Santa Cruz de la Sierra
+fi;Santa Cruz;Santa Cruz de la Sierra
+be;Санта-Крус-дэ-ла-Сьера;Santa Cruz de la Sierra
+he;סנטה קרוס דה לה סיירה;Santa Cruz de la Sierra
+sr;Санта Круз де ла Сијера;Santa Cruz de la Sierra
+uk;Санта-Крус-де-ла-Сьєрра;Santa Cruz de la Sierra
+kk;Санта-Крус-де-ла-Сьерра;Santa Cruz de la Sierra
+ky;Санта-Крус-де-ла-Сьерра;Santa Cruz de la Sierra
+bn;সান্তা ক্রুজ দে লা সিয়েরা;Santa Cruz de la Sierra
+ur;سانتا کروز دے لا سیئرا;Santa Cruz de la Sierra
+am;ሳንታ ክሩዝ ደ ላ ሲየራ;Santa Cruz de la Sierra
+pa;ਸਾਂਤਾ ਕਰੂਜ਼ ਦੇ ਲਾ ਸਿਏਰਾ;Santa Cruz de la Sierra
+ps;سانتا کروز دې لا سیرا;Santa Cruz de la Sierra
+tg;Санта-Крус-де-ла-Сьерра;Santa Cruz de la Sierra
+tt;Санта-Крус-де-ла-Сьерра;Santa Cruz de la Sierra
+sv;San Pedro de Tiquina;San Pedro
+nb;San Pedro de Tiquina;San Pedro
+pl;San Pedro de Tiquina;San Pedro
+bn;সান পেদ্রো দে তিকিনা;San Pedro
+ceb;San Pablo;San Pablo de Tiquina
+uk;Сан-Пабло-де-Тікіна;San Pablo de Tiquina
+bn;সান পাবলো দে তিকিনা;San Pablo de Tiquina
+lt;San Chosė de Čikitosas;San José de Chiquitos
+lv;Sanhosē de Čikitos;San José de Chiquitos
+bn;সান হোসে দে চিকিতোস;San José de Chiquitos
+bo;སན་ཧོ་སེ་དེ་ཅི་ཁི་ཏོ་སི་;San José de Chiquitos
+si;සැන් ජොසේ ඩි චිකිටෝස්;San José de Chiquitos
+uk;Сан-Хосе-де-Чікіотос;San José de Chiquitos
+ur;سن جوسی دے چیقویتوس;San José de Chiquitos
+kn;ಸ್ಯಾನ್ ಜೋಸ್ ಡಿ ಚುಕ್ವಿಟೋಸ್;San José de Chiquitos
+mr;सॅन होझ डी चिक्तिओस;San José de Chiquitos
+el;Σαν Χοσέ ντε Τσικουίτος;San José de Chiquitos
+ta;சான்  ஜோஸ் டே  சிகுய்ட்டோஸ்;San José de Chiquitos
+gu;સાન જોસ ડે ચિક્વિટોસ;San José de Chiquitos
+te;శాన్ జోస్ డి చికిటోస్;San José de Chiquitos
+th;ซานโฆเซเดชิกิโตส;San José de Chiquitos
+lt;San Ignasio de Velaskas;San Ignacio de Velasco
+ka;სან-იგნასიო-დე-ველასკო;San Ignacio de Velasco
+bg;Саипина;Saipina
+uk;Сакабамба;Sacabamba
+fa;ساکابامبا;Sacabamba
+ur;سکبمبا;Sacabamba
+ka;საკაბა;Sacaba
+lt;Sakaba;Sacaba
+mk;Сакаба;Sacaba
+ur;ساکبہ;Sacaba
+tt;Сакаба;Sacaba
+lv;Sakaba;Sacaba
+uk;Сакаба;Sacaba
+mr;सिकबा;Sacaba
+el;Σακάμπα;Sacaba
+fa;ساکابا;Sacaba
+bn;সাকাবা;Sacaba
+si;සකබා;Sacaba
+kn;ಸಕಾಬಾ;Sacaba
+ta;சாக் ஆபா;Sacaba
+gu;સકાબા;Sacaba
+te;సకాబా;Sacaba
+th;ซาคาบ้า;Sacaba
+he;רורנבאקה;Rurrenabaque
+lt;Rurenabakė;Rurrenabaque
+fa;روره‌ناباکه;Rurrenabaque
+ka;რიბერალტა;Riberalta
+mk;Рибералта;Riberalta
+ka;კილიაკოლიო;Quillacollo
+lt;Kiljakoljas;Quillacollo
+mk;Квилјаколјо;Quillacollo
+tt;Кильякольо;Quillacollo
+lv;Kiljakoljo;Quillacollo
+uk;Кіяколо;Quillacollo
+ur;قویلاکولو;Quillacollo
+mr;क्विलॅको;Quillacollo
+el;Κουίλακολο;Quillacollo
+fa;کیاکویو;Quillacollo
+bn;কিউল্লাকলো;Quillacollo
+si;ක්විලාකොල්ලෝ;Quillacollo
+kn;ಕ್ವಿಲ್ಲಕೊಲ್ಲೊ;Quillacollo
+ta;குல்லாக் ஒல்லோ;Quillacollo
+gu;ક્વિલાકોલો;Quillacollo
+te;క్విలకోలో;Quillacollo
+th;คิวลาโคลโล;Quillacollo
+bn;পোনাটা;Punata
+ka;პუნატა;Punata
+si;පුනාටා;Punata
+uk;Пуната;Punata
+ur;پوناتا;Punata
+kn;ಪುನಾಟಾ;Punata
+mr;पूनता;Punata
+el;Πουνάτα;Punata
+ta;புனாடா;Punata
+gu;પુનાટા;Punata
+te;పునాట;Punata
+th;ปูนาตา;Punata
+fa;پوناتا;Punata
+ceb;Puesto de Pailas;Puerto Pailas
+sv;Puesto de Pailas;Puerto Pailas
+he;פוטוסי;Potosí
+mk;Потоси;Potosí
+el;Ποτοσί;Potosí
+ka;პოტოსი;Potosí
+bg;Потоси;Potosí
+uk;Потосі;Potosí
+fa;پوتوسی;Potosí
+hy;Պոտոսի;Potosí
+kk;Потоси;Potosí
+th;โปโตซี;Potosí
+ur;پوتوسی;Potosí
+ky;Потосі;Potosí
+bn;পটোসি;Potosí
+am;ፖቶሲ;Potosí
+pa;ਪੋਟੋਸੀ;Potosí
+ps;پوتوسي;Potosí
+tg;Потосі;Potosí
+tt;Потосі;Potosí
+bg;Портачуело;Portachuelo
+bg;Паурито;Paurito
+fa;پاوریتو;Paurito
+bg;Паротани;Parotani
+bg;Отуйо;Otuyo
+el;Οτούγιο;Otuyo
+lt;Oruras;Oruro
+ka;ორურო;Oruro
+uk;Оруро;Oruro
+mk;Оруро;Oruro
+sr;Оруро;Oruro
+hy;Օրուրո;Oruro
+ur;اورورو، بولیویا;Oruro
+kk;Оруро;Oruro
+ky;Оруро;Oruro
+bn;ওরুরো;Oruro
+am;ኦሩሮ;Oruro
+fa;اورورو;Oruro
+pa;ਓਰੁਰੋ;Oruro
+ps;اورورو;Oruro
+tg;Оруро;Oruro
+tt;Оруро;Oruro
+fa;موروچاتا;Morochata
+ka;მონტერო;Montero
+lt;Monteras;Montero
+mk;Монтеро;Montero
+fa;مونتیاگودو، بولیوی;Monteagudo
+uk;Міске;Mizque
+fa;میزکه;Mizque
+he;מיסקה;Mizque
+bg;Маирана;Mairana
+ur;ماچاکامارکا;Machacamarca
+bg;Лурибай;Luribay
+fa;لورتو، بنی;Loreto
+ur;لا ریویرا;La Rivera
+gl;A Paz;La Paz
+he;לה פאס;La Paz
+el;Σούκρε/Λα Παζ;La Paz
+am;ላፓዝ;La Paz
+lt;La Pasas;La Paz
+th;ลาปาซ;La Paz
+el;Λα Πας;La Paz
+pa;ਲਾ ਪਾਸ;La Paz
+or;ଲାପାଜ;La Paz
+os;Ла-Пас;La Paz
+be;Ла-Пас;La Paz
+ur;لا پاز;La Paz
+bg;Ла Пас;La Paz
+ckb;لاپاز;La Paz
+uk;Ла-Пас;La Paz
+hy;Լա Պաս;La Paz
+mk;Ла Паз;La Paz
+sr;Ла Паз;La Paz
+mr;ला पाझ;La Paz
+az;La Pas;La Paz
+ta;லா பாஸ்;La Paz
+ka;ლა-პასი;La Paz
+fa;لاپاز;La Paz
+lv;Lapasa;La Paz
+ml;ലാ പാസ്;La Paz
+tt;La-Pas;La Paz
+uz;La-Pas;La Paz
+yue;拉巴斯;La Paz
+bn;লা পাজ;La Paz
+kk;Ла-Пас;La Paz
+ky;Ла-Пас шаары;La Paz
+lrc;لاپاز;La Paz
+vep;La Pas;La Paz
+sr;Ла Пас;La Paz
+ur;لاجما;Lajma
+ur;لاہواچاکا;Lahuachaca
+el;Λα Ιγκέρα;La Higuera
+bg;Ла Игера;La Higuera
+fa;لا ایگرا، بولیوی;La Higuera
+ka;ლა-იგერა;La Higuera
+lt;La Igera;La Higuera
+os;Ла-Игерæ;La Higuera
+ur;لا ہیگویرا;La Higuera
+hy;Լա Իգերա;La Higuera
+uk;ГЕС Ла-Ігера;La Higuera
+be;Ла-Ігера;La Higuera
+bn;লা ইগেরা;La Higuera
+sr;Ла Игера;La Higuera
+he;לה איגרה;La Higuera
+ur;لا بیلگیکا;La Bélgica
+bg;Ирупана;Irupana
+bg;Хуарина;Huarina
+bg;Хуануни;Huanuni
+ka;გუაიარამერინი;Guayaramerín
+lt;Guajaramerinas;Guayaramerín
+lv;Guajaramerina;Guayaramerín
+bn;গোয়ারামেরিন;Guayaramerín
+si;ගයරමෙරින්;Guayaramerín
+uk;Гуаярамерін;Guayaramerín
+ur;جوایارامیرین;Guayaramerín
+kn;ಗುಯಾರಮೆರೀನ್;Guayaramerín
+mr;गुआरामेरिन;Guayaramerín
+el;Γκουαγιαραμερίν;Guayaramerín
+ta;கயாராமெரின்;Guayaramerín
+gu;ગુઆરામેરિન;Guayaramerín
+te;గుయారామెరిన్;Guayaramerín
+th;กัวยาราเมอริน;Guayaramerín
+fa;گوایارانیرین;Guayaramerín
+ur;ساودرا;General Saavedra
+bg;Тингуипая;Tinguipaya
+zh-HK;恩特雷里奧斯;Entre Ríos
+ka;კოტოკა;Cotoca
+lt;Koroikas;Coroico
+uk;Коройко;Coroico
+el;Κοπακαμπάνα;Copacabana
+lt;Kopakabana;Copacabana
+lt;Konsepsjonas;Concepción
+lt;Komarapa;Comarapa
+ceb;Colquiri;Campamento Colquiri
+sv;Colquiri;Campamento Colquiri
+pl;Colquiri;Campamento Colquiri
+uk;Колькечака;Colquechaca
+fa;کولکه‌چاکا;Colquechaca
+uk;Кольчані;Colchani
+lt;Kolkapirua;Colcapirhua
+lv;Kolkapirua;Colcapirhua
+bn;কলকাপিহোয়া;Colcapirhua
+ka;კოლკაპირუა;Colcapirhua
+si;කොල්කපිරුආ;Colcapirhua
+uk;Колкапіруа;Colcapirhua
+ur;کولکاپیرحوا;Colcapirhua
+mk;Колкапируа;Colcapirhua
+kn;ಕೋಲ್ಕೀರ್ಹುವಾ;Colcapirhua
+mr;कॉकपीरहुआ;Colcapirhua
+el;Κολκαπίρουα;Colcapirhua
+ta;கோல்காபிறகுஆ;Colcapirhua
+gu;કોલ્કાપીરહુઆ;Colcapirhua
+te;కొల్ఫిర్హుహ;Colcapirhua
+th;โกลกาปิรัว;Colcapirhua
+fa;کوکاپیرهوا;Colcapirhua
+he;קוצבמבה;Cochabamba
+bg;Кочабамба;Cochabamba
+uk;Кочабамба;Cochabamba
+mk;Кочабамба;Cochabamba
+ka;კოჩაბამბა;Cochabamba
+lt;Kočabamba;Cochabamba
+bo;ཀོ་ཅ་བང་ལྦ་;Cochabamba
+fa;کوچابامبا;Cochabamba
+ky;Кочабамба;Cochabamba
+th;โกชาบัมบา;Cochabamba
+ur;کوچابامبا;Cochabamba
+vep;Kočabamb;Cochabamba
+kk;Кочабамба;Cochabamba
+bn;কোচাবাম্বা;Cochabamba
+am;ኮቻባምባ;Cochabamba
+pa;ਕੋਚਾਬਾਂਬਾ;Cochabamba
+ps;کوچابامبا;Cochabamba
+tg;Кочабамба;Cochabamba
+tt;Кочабамба;Cochabamba
+ka;კობიხა;Cobija
+lt;Kobicha;Cobija
+mk;Кобиха;Cobija
+uk;Кобіха;Cobija
+ur;کوبیخا;Cobija
+kk;Кобіха;Cobija
+ky;Кобіха;Cobija
+bn;কোবিজা;Cobija
+am;ኮቢጃ;Cobija
+fa;کوبیخا;Cobija
+pa;ਕੋਬਿਜਾ;Cobija
+ps;کوبیجا;Cobija
+tg;Кобіха;Cobija
+tt;Кобіха;Cobija
+fa;کلیزا;Cliza
+bg;Чулумани;Chulumani
+az;Çulumani;Chulumani
+uk;Чиморе;Chimoré
+fa;چیموره;Chimoré
+bg;Чалапата;Challapata
+lt;Karanavis;Caranavi
+ka;კამირი;Camiri
+bg;Боюибе;Boyuibe
+ka;ბერმეხო;Bermejo
+fa;آرانی، بولیوی;Arani
+bg;Амарете;Amarete
+fa;امریت;Amarete
+bg;Ачири;Achiri
+fa;اچیری;Achiri
+lt;Ačakačis;Achacachi
+fa;اکاساچی;Achacachi
+uk;Ачакачі;Achacachi
+ur;اچاکاچی;Achacachi
+fa;آباپو;Abapó Viejo
+lt;San Migel de Velaskas;San Miguel de Velasco
+lt;San Borcha;San Borja
+ka;სან-ბორხა;San Borja
+uk;Сан-Борха;San Borja
+fa;سن بورخا;San Borja

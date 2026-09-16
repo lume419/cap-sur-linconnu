@@ -14,3 +14,22 @@ ja;ハガニア;Hagåtña
 ko;하갓냐;Hagåtña
 ru;Хагатна;Hagåtña
 zh;阿加尼亚;Hagåtña
+gl;Agaña;Hagåtña
+ca;Agana;Hagåtña
+ar;هاغاتنيا;Hagåtña
+az;Haqatna;Hagåtña
+be;Вёска Аганья;Hagåtña
+bg;Хагатна;Hagåtña
+el;Αγκάνα;Hagåtña
+fa;هاگاتنیا;Hagåtña
+hy;Հագատնա;Hagåtña
+ka;ჰაგატნა;Hagåtña
+lt;Aganija;Hagåtña
+mk;Хагатња;Hagåtña
+mr;हेगात्न्या;Hagåtña
+sr;Хагатња;Hagåtña
+th;ฮากาตญา;Hagåtña
+uk;Хагатна;Hagåtña
+ur;هاگاتنا;Hagåtña
+kk;Хагатна;Hagåtña
+ta;அகாத்ன;Hagåtña

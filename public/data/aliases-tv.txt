@@ -47,3 +47,99 @@ hi;सवावे गांव;Savave Village
 de;Dorf Savave;Savave Village
 ja;サバベ村;Savave Village
 pt;Aldeia Savave;Savave Village
+ar;قرية توجا;Toga Village
+kk;Тога ауылы;Toga Village
+tr;Toga Köyü;Toga Village
+uz;Toga qishlog'i;Toga Village
+ky;Тога айылы;Toga Village
+bn;টোগা গ্রাম;Toga Village
+ur;ٹوگا گاؤں;Toga Village
+am;ቶጋ መንደር;Toga Village
+az;Toqa kəndi;Toga Village
+fa;روستای توگا;Toga Village
+ha;Gidan Toga;Toga Village
+jv;Desa Toga;Toga Village
+om;Tuula Toga;Toga Village
+pa;ਟੋਗਾ ਪਿੰਡ;Toga Village
+ps;د توګا کلي;Toga Village
+so;Tuulo Toga;Toga Village
+sw;Kijiji cha Toga;Toga Village
+tg;Қишлоқи Тога;Toga Village
+tt;Тога авылы;Toga Village
+ar;قرية تنراكي;Tanrake Village
+kk;Танраке ауылы;Tanrake Village
+tr;Tanrake Köyü;Tanrake Village
+uz;Tanrake qishlog'i;Tanrake Village
+ky;Танраке айылы;Tanrake Village
+bn;টানরাকে গ্রাম;Tanrake Village
+ur;ٹنراکے گاؤں;Tanrake Village
+am;ታንራኬ መንደር;Tanrake Village
+az;Tanrake kəndi;Tanrake Village
+fa;روستای تنراکه;Tanrake Village
+ha;Gidan Tanrake;Tanrake Village
+jv;Desa Tanrake;Tanrake Village
+om;Tuula Tanrake;Tanrake Village
+pa;ਤਨਰਾਕੇ ਪਿੰਡ;Tanrake Village
+ps;د تنراکي کلي;Tanrake Village
+so;Tuulo Tanrake;Tanrake Village
+sw;Kijiji cha Tanrake;Tanrake Village
+tg;Қишлоқи Танраке;Tanrake Village
+tt;Танраке авылы;Tanrake Village
+ar;قرية كوليا;Kulia Village
+kk;Құлиа ауылы;Kulia Village
+tr;Kulia Köyü;Kulia Village
+uz;Kulia qishlog'i;Kulia Village
+ky;Кулия айылы;Kulia Village
+bn;কুলিয়া গ্রাম;Kulia Village
+ur;کولیا گاؤں;Kulia Village
+am;ኩሊያ መንደር;Kulia Village
+az;Kulya kəndi;Kulia Village
+fa;روستای کولیا;Kulia Village
+ha;Gidan Kulia;Kulia Village
+jv;Desa Kulia;Kulia Village
+om;Tuula Kulia;Kulia Village
+pa;ਕੁਲੀਆ ਪਿੰਡ;Kulia Village
+ps;د کولیا کلي;Kulia Village
+so;Tuulo Kulia;Kulia Village
+sw;Kijiji cha Kulia;Kulia Village
+tg;Қишлоқи Кулиа;Kulia Village
+tt;Кулиа авылы;Kulia Village
+el;Φουναφούτι;Funafuti
+ar;قرية أساو;Asau Village
+kk;Асау ауылы;Asau Village
+tr;Asau Köyü;Asau Village
+uz;Asau qishlog'i;Asau Village
+ky;Асау айылы;Asau Village
+bn;আসাউ গ্রাম;Asau Village
+ur;اسائو گاؤں;Asau Village
+am;አሳዉ መንደር;Asau Village
+az;Asau kəndi;Asau Village
+fa;روستای اسائو;Asau Village
+ha;Gidan Asau;Asau Village
+jv;Desa Asau;Asau Village
+om;Tuula Asau;Asau Village
+pa;ਅਸਾਊ ਪਿੰਡ;Asau Village
+ps;د اسائو کلي;Asau Village
+so;Tuulo Asau;Asau Village
+sw;Kijiji cha Asau;Asau Village
+tg;Қишлоқи Асау;Asau Village
+tt;Асау авылы;Asau Village
+ar;قرية سافافي;Savave Village
+kk;Сававе ауылы;Savave Village
+tr;Savave Köyü;Savave Village
+uz;Savave qishlog'i;Savave Village
+ky;Сававе айылы;Savave Village
+bn;সাভাভে গ্রাম;Savave Village
+ur;ساواوے گاؤں;Savave Village
+am;ሳቫቬ መንደር;Savave Village
+az;Savave kəndi;Savave Village
+fa;روستای ساواوه;Savave Village
+ha;Gidan Savave;Savave Village
+jv;Desa Savave;Savave Village
+om;Tuula Savave;Savave Village
+pa;ਸਵਾਵੇ ਪਿੰਡ;Savave Village
+ps;د ساواوې کلي;Savave Village
+so;Tuulo Savave;Savave Village
+sw;Kijiji cha Savave;Savave Village
+tg;Қишлоқи Сававе;Savave Village
+tt;Сававе авылы;Savave Village

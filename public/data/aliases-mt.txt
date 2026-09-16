@@ -113,3 +113,1154 @@ it;Figura;Fgura
 mt;Casal Balzan;Balzan
 fr;Bahar iċ-Ċagħaq;Baħar iċ-Ċagħaq
 mt;Kemmuna;Comino
+ru;Марсашлокк;Marsaxlokk
+ar;مرسكسلوك;Marsaxlokk
+kk;Марсаксломк;Marsaxlokk
+ky;Марсаксломк;Marsaxlokk
+hi;मार्सक्सलोक्क;Marsaxlokk
+bn;মার্সাক্সলোক্ক;Marsaxlokk
+ur;مارسکسلوک;Marsaxlokk
+am;ማርሳክስሎክ;Marsaxlokk
+fa;مارسکسلوک;Marsaxlokk
+ja;マルサクスロック;Marsaxlokk
+pa;ਮਾਰਸਕਸਲੋਕ;Marsaxlokk
+ps;مارسکسلوک;Marsaxlokk
+tg;Марсаксломк;Marsaxlokk
+tt;Марсаксломк;Marsaxlokk
+ce;Зеббудж;Żurrieq
+ckb;زوریق;Żurrieq
+el;Ζουριέκ;Żurrieq
+fa;زوریک;Żurrieq
+ko;주리크;Żurrieq
+lt;Zurikas;Żurrieq
+uk;Зуррік;Żurrieq
+ur;زوریئا;Żurrieq
+ru;Зуррик;Żurrieq
+zh;祖里格;Żurrieq
+ar;زوريق;Żurrieq
+kk;Зурриек;Żurrieq
+ky;Зурриек;Żurrieq
+hi;जुर्रिएक;Żurrieq
+bn;জুরিয়েক;Żurrieq
+am;ዙሪቅ;Żurrieq
+ja;ズッリエク;Żurrieq
+pa;ਜ਼ੁਰੀਏਕ;Żurrieq
+ps;زریق;Żurrieq
+tg;Зурриек;Żurrieq
+tt;Зурриек;Żurrieq
+ckb;زەیتوون، ماڵتا;Żejtun
+fa;زیتون، مالت;Żejtun
+lt;Zeitūnas;Żejtun
+sr;Зејтун;Żejtun
+uk;Зейтун;Żejtun
+zh;榟橔;Żejtun
+ko;제이툰;Żejtun
+ur;زیتون، مالٹا;Żejtun
+ru;Зейтун;Żejtun
+ar;زيتون;Żejtun
+kk;Зейтун;Żejtun
+ky;Зейтун;Żejtun
+hi;जेजतुन;Żejtun
+bn;জেজতুন;Żejtun
+am;ዜጁቱን;Żejtun
+ja;ゼイトゥン;Żejtun
+pa;ਜੇਜਤੁਨ;Żejtun
+ps;زیتون;Żejtun
+tg;Зейтун;Żejtun
+tt;Зейтун;Żejtun
+ko;제부지;Żebbuġ
+lt;Zebudžas;Żebbuġ
+ur;زیبوج، گوزو;Żebbuġ
+ru;Зеббуг;Żebbuġ
+ar;زبّوج;Żebbuġ
+kk;Зеббуг;Żebbuġ
+ky;Зеббуг;Żebbuġ
+hi;जेब्बुग;Żebbuġ
+bn;জেব্বুগ;Żebbuġ
+am;ዜቡግ;Żebbuġ
+fa;زیبّوج;Żebbuġ
+ja;ゼッブグ;Żebbuġ
+pa;ਜੇੱਬੁਗ;Żebbuġ
+ps;زیبّوج;Żebbuġ
+tg;Зеббуг;Żebbuġ
+tt;Зеббуг;Żebbuġ
+ru;Зеббудж;Haz-Zebbug
+ar;حاز-زبّوج;Haz-Zebbug
+kk;Хаз-Зеббуг;Haz-Zebbug
+ky;Хаз-Зеббуг;Haz-Zebbug
+hi;हाज़-जेब्बुग;Haz-Zebbug
+bn;হাজ-জেব্বুগ;Haz-Zebbug
+ur;ہاز-زیبّوج;Haz-Zebbug
+am;ሃዝ-ዜቡግ;Haz-Zebbug
+fa;هاز-زیبّوج;Haz-Zebbug
+ja;ハズ-ゼッブグ;Haz-Zebbug
+pa;ਹਾਜ਼-ਜੇੱਬੁਗ;Haz-Zebbug
+ps;هاز-زیبّوج;Haz-Zebbug
+tg;Хаз-Зеббуг;Haz-Zebbug
+tt;Хаз-Зеббуг;Haz-Zebbug
+ce;Заббар;Żabbar
+ceb;Ħaż-Żabbar;Żabbar
+ckb;زابار;Żabbar
+fa;زابار;Żabbar
+ko;자바르;Żabbar
+lt;Zabaras;Żabbar
+sr;Забар;Żabbar
+uk;Заббар;Żabbar
+ur;زابار;Żabbar
+zh;扎巴爾;Żabbar
+ru;Заббар;Żabbar
+ar;زبّار;Żabbar
+kk;Заббар;Żabbar
+ky;Заббар;Żabbar
+hi;जब्बार;Żabbar
+bn;জাব্বার;Żabbar
+am;ዛባር;Żabbar
+ja;ザッバル;Żabbar
+pa;ਜੱਬਾਰ;Żabbar
+ps;زبّار;Żabbar
+tg;Заббар;Żabbar
+tt;Заббар;Żabbar
+ru;Кхайра;Xgħajra
+ar;خحايرا;Xgħajra
+kk;Кхайра;Xgħajra
+tr;Xghajra;Xgħajra
+uz;Xghajra;Xgħajra
+ky;Кхайра;Xgħajra
+id;Xghajra;Xgħajra
+ms;Xghajra;Xgħajra
+hi;क्घैजरा;Xgħajra
+bn;খগাজরা;Xgħajra
+ur;خحایرا;Xgħajra
+am;ኽሓይራ;Xgħajra
+az;Xghajra;Xgħajra
+fa;خحایرا;Xgħajra
+ha;Xghajra;Xgħajra
+ja;ングハイラ;Xgħajra
+jv;Xghajra;Xgħajra
+om;Xghajra;Xgħajra
+pa;ਖ਼ਗ਼ਾਜ਼ਰਾ;Xgħajra
+ps;خحایرا;Xgħajra
+so;Xghajra;Xgħajra
+sw;Xghajra;Xgħajra
+tg;Кхайра;Xgħajra
+tt;Кхайра;Xgħajra
+ar;شوكية;Xewkija
+ko;셰우키야;Xewkija
+lt;Šeukidža;Xewkija
+ur;شیوکیا;Xewkija
+ru;Кьюкия;Xewkija
+kk;Кьюкия;Xewkija
+ky;Кьюкия;Xewkija
+hi;क्यूकिजा;Xewkija
+bn;ক্যুকিজা;Xewkija
+am;ክዩክያ;Xewkija
+fa;خیوکیجا;Xewkija
+ja;クユキヤ;Xewkija
+pa;ਕ੍ਯੂਕਿਜਾ;Xewkija
+ps;خیوکیجا;Xewkija
+tg;Кьюкия;Xewkija
+tt;Кьюкия;Xewkija
+ru;Кахра;Xagħra
+ar;خاغرا;Xagħra
+kk;Кахра;Xagħra
+tr;Xaghra;Xagħra
+uz;Xaghra;Xagħra
+ky;Кахра;Xagħra
+id;Xaghra;Xagħra
+ms;Xaghra;Xagħra
+hi;खाघ्रा;Xagħra
+bn;খাঘ্রা;Xagħra
+ur;خاغرا;Xagħra
+am;ካግራ;Xagħra
+az;Xaghra;Xagħra
+fa;خاغرا;Xagħra
+ha;Xaghra;Xagħra
+ja;カグラ;Xagħra
+jv;Xaghra;Xagħra
+om;Xaghra;Xagħra
+pa;ਖਾਘ਼ਰਾ;Xagħra
+ps;خاغرا;Xagħra
+so;Xaghra;Xagħra
+sw;Xaghra;Xagħra
+tg;Кахра;Xagħra
+tt;Кахра;Xagħra
+ar;فاليتا;Valletta
+he;ולטה;Valletta
+ja;バレッタ;Valletta
+ko;발레타;Valletta
+mk;Ла Валета;Valletta
+ru;Валлетта;Valletta
+sk;Valetta;Valletta
+sr;Валета;Valletta
+be;Валета;Valletta
+lt;Valeta;Valletta
+el;Βαλέττα;Valletta
+ca;La Valletta;Valletta
+eu;Valleta;Valletta
+ka;ვალეტა;Valletta
+mk;Валета;Valletta
+oc;La Valeta;Valletta
+sq;Valeta;Valletta
+am;ቫሌታ;Valletta
+el;Βαλέτα;Valletta
+fa;والتا;Valletta
+ga;Vaileite;Valletta
+lv;Valleta;Valletta
+gl;A Valeta;Valletta
+bg;Валета;Valletta
+bn;ভাল্লেত্তা;Valletta
+wo;Waleta;Valletta
+vep;Vallett;Valletta
+os;Валлеттæ;Valletta
+cv;Валлетта;Valletta
+uk;Валлетта;Valletta
+ur;والیٹا;Valletta
+udm;Валлетта;Valletta
+ht;La Valèt;Valletta
+bo;ཝ་ལེ་ཐ།;Valletta
+hy;Վալետա;Valletta
+tt;Валлетта;Valletta
+th;วัลเลตตา;Valletta
+tl;La Valeta;Valletta
+mr;व्हॅलेटा;Valletta
+tg;Валлетта;Valletta
+ta;வல்லெட்டா;Valletta
+pa;ਵਲੈਟਾ;Valletta
+zh;瓦莱塔;Valletta
+ce;Валлетта;Valletta
+ckb;ڤالێتا;Valletta
+yue;華列他;Valletta
+kk;Валлетта;Valletta
+ky;Валлетта;Valletta
+lrc;والتا;Valletta
+ml;വലേറ്റ;Valletta
+mn;Валлетта;Valletta
+myv;Валлетта ош;Valletta
+ne;भलेट;Valletta
+ru;Та-Шбиш;Ta’ Xbiex
+ar;تاع كبيكس;Ta’ Xbiex
+kk;Та Кбиекс;Ta’ Xbiex
+ky;Та Кбиекс;Ta’ Xbiex
+hi;ता' क्बिएक्स;Ta’ Xbiex
+bn;তা' ক্বিয়েক্স;Ta’ Xbiex
+ur;تاع کبیکس;Ta’ Xbiex
+am;ታ' ክቢዕ;Ta’ Xbiex
+fa;تاع کبیکس;Ta’ Xbiex
+ja;ター クビエクス;Ta’ Xbiex
+pa;ਤਾ' ਕ੍ਬਿਐਕਸ;Ta’ Xbiex
+ps;تاع کبیکس;Ta’ Xbiex
+tg;Та Кбиекс;Ta’ Xbiex
+tt;Та Кбиекс;Ta’ Xbiex
+ru;Таршин;Tarxien
+ce;Таршин;Tarxien
+ckb;تارشین;Tarxien
+fa;ترزین;Tarxien
+ko;타르신;Tarxien
+lt;Taršinas;Tarxien
+uk;Таршіен;Tarxien
+zh;塔爾欣;Tarxien
+ur;تارشیئن;Tarxien
+ar;تاركسيان;Tarxien
+kk;Таркьен;Tarxien
+ky;Таркьен;Tarxien
+hi;तार्क्सिएन;Tarxien
+bn;তার্ক্সিয়েন;Tarxien
+am;ታርክሲዓን;Tarxien
+ja;タークシエン;Tarxien
+pa;ਤਾਰਕ੍ਸਿਐਨ;Tarxien
+ps;تارکسیان;Tarxien
+tg;Таркьен;Tarxien
+tt;Таркьен;Tarxien
+ru;Та-Али;Ta’ Qali
+ru;Слима;Sliema
+ce;Слима;Sliema
+ckb;سلیما;Sliema
+fa;سلیما;Sliema
+he;סלימה;Sliema
+ko;슬리마;Sliema
+lt;Slima;Sliema
+sr;Слијема;Sliema
+uk;Сліма;Sliema
+zh;斯利馬;Sliema
+el;Σλιέμα;Sliema
+ur;سلیما;Sliema
+ar;سليما;Sliema
+kk;Слима;Sliema
+ky;Слима;Sliema
+hi;स्लिएमा;Sliema
+bn;স্লিয়েমা;Sliema
+am;ስሊማ;Sliema
+ja;スリエマ;Sliema
+pa;ਸ੍ਲਿਏਮਾ;Sliema
+ps;سلیما;Sliema
+tg;Слима;Sliema
+tt;Слима;Sliema
+ckb;سیجیوی;Siġġiewi
+fa;سیگیوی;Siġġiewi
+ko;시지위;Siġġiewi
+lt;Sidživis;Siġġiewi
+sr;Сигијеви;Siġġiewi
+ur;سیججیوی;Siġġiewi
+zh;錫傑維;Siġġiewi
+ru;Сиджиеви;Siġġiewi
+ar;سيجيوي;Siġġiewi
+kk;Сиджиеви;Siġġiewi
+ky;Сиджиеви;Siġġiewi
+hi;सिग्गिएवी;Siġġiewi
+bn;সিগ্গিয়েভি;Siġġiewi
+am;ሲጂዩዊ;Siġġiewi
+ja;シッジェウィ;Siġġiewi
+pa;ਸਿੱਜਿਏਵੀ;Siġġiewi
+ps;سیجیوی;Siġġiewi
+tg;Сиджиеви;Siġġiewi
+tt;Сиджиеви;Siġġiewi
+ru;Санта Венера;Santa Venera
+ar;سانتا فينيرا;Santa Venera
+kk;Санта Венера;Santa Venera
+ky;Санта Венера;Santa Venera
+hi;सांता वेनेरा;Santa Venera
+bn;সান্তা ভেনেরা;Santa Venera
+ur;سانتا ونیرا;Santa Venera
+am;ሳንታ ቬነራ;Santa Venera
+fa;سانتا ونیرا;Santa Venera
+ja;サンタ ベネラ;Santa Venera
+pa;ਸਾਂਤਾ ਵੇਨਰਾ;Santa Venera
+ps;سانتا ونیرا;Santa Venera
+tg;Санта Венера;Santa Venera
+tt;Санта Венера;Santa Venera
+pl;Santa Luċija;Saint Lucia
+hu;Santa Luċija;Saint Lucia
+ru;Сан-Паул иль-Бахар;San Pawl il-Baħar
+ar;سان باول إل بحر;San Pawl il-Baħar
+kk;Сан-Паул иль-Бахар;San Pawl il-Baħar
+tr;San Pawl il-Bahar;San Pawl il-Baħar
+uz;San Pawl il-Bahar;San Pawl il-Baħar
+ky;Сан-Паул иль-Бахар;San Pawl il-Baħar
+id;San Pawl il-Bahar;San Pawl il-Baħar
+ms;San Pawl il-Bahar;San Pawl il-Baħar
+hi;सैन पॉल इल-बहर;San Pawl il-Baħar
+bn;সান পল ইল-বাহার;San Pawl il-Baħar
+ur;سان پال الباحر;San Pawl il-Baħar
+am;ሳን ፓውል ኢል-ባሃር;San Pawl il-Baħar
+az;San Pawl il-Bahar;San Pawl il-Baħar
+fa;سان پال الباحر;San Pawl il-Baħar
+ha;San Pawl il-Bahar;San Pawl il-Baħar
+ja;サン パウル イル-バハル;San Pawl il-Baħar
+jv;San Pawl il-Bahar;San Pawl il-Baħar
+om;San Pawl il-Bahar;San Pawl il-Baħar
+pa;ਸੈਨ ਪਾਲ ਅਲ-ਬਾਹਿਰ;San Pawl il-Baħar
+ps;سان پال الباحر;San Pawl il-Baħar
+so;San Pawl il-Bahar;San Pawl il-Baħar
+sw;San Pawl il-Bahar;San Pawl il-Baħar
+tg;Сан-Паул иль-Бахар;San Pawl il-Baħar
+tt;Сан-Паул иль-Бахар;San Pawl il-Baħar
+ko;사나트;Sannat
+lt;Sanatas;Sannat
+ur;ساننات;Sannat
+ru;Саннат;Sannat
+ar;سناط;Sannat
+kk;Саннат;Sannat
+ky;Саннат;Sannat
+hi;सन्नात;Sannat
+bn;সান্নাত;Sannat
+am;ሳናት;Sannat
+fa;سنّاط;Sannat
+ja;サンナット;Sannat
+pa;ਸਨਾਤ;Sannat
+ps;سنّاط;Sannat
+tg;Саннат;Sannat
+tt;Саннат;Sannat
+ru;Сан-Лавренц;San Lawrenz
+ar;سان لورينز;San Lawrenz
+kk;Сан-Лавренц;San Lawrenz
+ky;Сан-Лавренц;San Lawrenz
+hi;सैन लौरेंज;San Lawrenz
+bn;সান লাউরেন্জ;San Lawrenz
+ur;سان لورنز;San Lawrenz
+am;ሳን ላውረንዝ;San Lawrenz
+fa;سان لورنز;San Lawrenz
+ja;サン ラウレンツ;San Lawrenz
+pa;ਸੈਨ ਲੋਰੇਂਜ;San Lawrenz
+ps;سان لورنز;San Lawrenz
+tg;Сан-Лавренц;San Lawrenz
+tt;Сан-Лавренц;San Lawrenz
+ro;St. Julian's;San Ġiljan
+sv;St. Julian's;San Ġiljan
+ru;Сент-Джулианс;San Ġiljan
+ar;سان جيليان;San Ġiljan
+kk;Сан-Джильян;San Ġiljan
+ky;Сан-Джильян;San Ġiljan
+hi;सैन गिलजान;San Ġiljan
+bn;সান গিলজান;San Ġiljan
+ur;سان گیلیان;San Ġiljan
+am;ሳን ጊልያን;San Ġiljan
+fa;سان گیلیان;San Ġiljan
+ja;サン ギルヤン;San Ġiljan
+pa;ਸੈਨ ਗਿਲਜਾਨ;San Ġiljan
+ps;سان گیلیان;San Ġiljan
+tg;Сан-Джильян;San Ġiljan
+tt;Сан-Джильян;San Ġiljan
+ru;Сафи;Safi
+ar;صافي;Safi
+kk;Сафи;Safi
+ky;Сафи;Safi
+hi;सफी;Safi
+bn;সাফি;Safi
+ur;صافی;Safi
+am;ሳፊ;Safi
+fa;صافی;Safi
+ja;サフィ;Safi
+pa;ਸਾਫੀ;Safi
+ps;صافی;Safi
+tg;Сафи;Safi
+tt;Сафи;Safi
+ckb;پائۆلا;Paola
+el;Πάολα;Paola
+fa;پائولا;Paola
+ko;파올라;Paola
+ur;پاولا، مالٹا;Paola
+ru;Паола;Paola
+zh;保拉;Paola
+ar;باولا;Paola
+kk;Паола;Paola
+ky;Паола;Paola
+hi;पाओला;Paola
+bn;পাওলা;Paola
+am;ፓኦላ;Paola
+ja;パオラ;Paola
+pa;ਪਾਓਲਾ;Paola
+ps;پاولا;Paola
+tg;Паола;Paola
+tt;Паола;Paola
+he;ויקטוריה;Victoria
+ru;Виктория;Victoria
+ru;Рабат;Victoria
+ce;Виктори;Victoria
+ckb;ڤیکتۆریا، ماڵتا;Victoria
+fa;ویکتوریا، مالت;Victoria
+ko;빅토리아;Victoria
+lt;Viktorija;Victoria
+nn;Victoria på Gozo;Victoria
+sr;Викторија;Victoria
+uk;Вікторія;Victoria
+ur;وکٹوریہ، گوزو;Victoria
+zh;維多利亞;Victoria
+ar;فيكتوريا;Victoria
+kk;Виктория;Victoria
+ky;Виктория;Victoria
+hi;विक्टोरिया;Victoria
+bn;ভিক্টোরিয়া;Victoria
+am;ቪክቶሪያ;Victoria
+ja;ヴィクトリア;Victoria
+pa;ਵਿਕਟੋਰੀਆ;Victoria
+ps;ویکٹوریا;Victoria
+tg;Виктория;Victoria
+tt;Виктория;Victoria
+ru;Рабат;Rabat
+ce;Рабат;Rabat
+ckb;ڕابات، ماڵتا;Rabat
+el;Ραμπάτ;Rabat
+fa;ربات، مالت;Rabat
+ko;라바트;Rabat
+lt;Rabatas;Rabat
+sr;Рабат;Rabat
+uk;Рабат;Rabat
+ur;رابات، مالٹا;Rabat
+zh;拉巴特;Rabat
+ko;렌디;Qrendi
+lt;Krendis;Qrendi
+ur;آریندی;Qrendi
+zh;奎倫迪;Qrendi
+ru;Кренди;Qrendi
+ar;قرندي;Qrendi
+kk;Кренди;Qrendi
+ky;Кренди;Qrendi
+hi;क्रेंडी;Qrendi
+bn;কিরেন্ডি;Qrendi
+am;ቅረንዲ;Qrendi
+fa;قرندی;Qrendi
+ja;クレンディ;Qrendi
+pa;ਕਿਰੇਂਦੀ;Qrendi
+ps;قرندی;Qrendi
+tg;Кренди;Qrendi
+tt;Кренди;Qrendi
+ce;Корми;Qormi
+ckb;قۆرمی;Qormi
+fa;کورمی;Qormi
+lt;Kormis;Qormi
+sr;Корми;Qormi
+uk;Кормі;Qormi
+ru;Корми;Qormi
+zh;戈爾米;Qormi
+el;Όρμι;Qormi
+ko;오르미;Qormi
+ur;آورمی;Qormi
+ar;قرمي;Qormi
+kk;Корми;Qormi
+ky;Корми;Qormi
+hi;कॉर्मी;Qormi
+bn;কর্মী;Qormi
+am;ቆርሚ;Qormi
+ja;コルミ;Qormi
+pa;ਕੋਰਮੀ;Qormi
+ps;قرمی;Qormi
+tg;Корми;Qormi
+tt;Корми;Qormi
+ru;Аура;Qawra
+ko;알라;Qala
+ur;آلا، مالٹا;Qala
+ko;피에타;Pietà
+ur;پیئتا، مالٹا;Pietà
+ru;Пьета;Pietà
+ar;بيتا;Pietà
+kk;Пиета;Pietà
+ky;Пиета;Pietà
+hi;पिएता;Pietà
+bn;পিয়েতা;Pietà
+am;ፒታ;Pietà
+fa;پیتا;Pietà
+ja;ピエタ;Pietà
+pa;ਪਿਏਤਾ;Pietà
+ps;پیتا;Pietà
+tg;Пиета;Pietà
+tt;Пиета;Pietà
+ckb;ناشار;Naxxar
+fa;ناسار;Naxxar
+ko;나샤르;Naxxar
+lt;Našaras;Naxxar
+ur;ناشار;Naxxar
+zh;納沙爾;Naxxar
+ru;Наксар;Naxxar
+ar;ناكسار;Naxxar
+kk;Наксар;Naxxar
+ky;Наксар;Naxxar
+hi;नक्सार;Naxxar
+bn;নাক্সার;Naxxar
+am;ናክሳር;Naxxar
+ja;ナクサル;Naxxar
+pa;ਨਾਕ੍ਸਾਰ;Naxxar
+ps;ناکسار;Naxxar
+tg;Наксар;Naxxar
+tt;Наксар;Naxxar
+ru;Надур;Nadur
+ar;نادور;Nadur
+kk;Надур;Nadur
+ky;Надур;Nadur
+hi;नादुर;Nadur
+bn;নাদুর;Nadur
+ur;نادور;Nadur
+am;ናዱር;Nadur
+fa;نادور;Nadur
+ja;ナドゥル;Nadur
+pa;ਨਾਦੁਰ;Nadur
+ps;نادور;Nadur
+tg;Надур;Nadur
+tt;Надур;Nadur
+ru;Мункса;Munxar
+ar;منكسار;Munxar
+kk;Мункса;Munxar
+ky;Мункса;Munxar
+hi;मुंक्सार;Munxar
+bn;মুনক্সার;Munxar
+ur;منکسار;Munxar
+am;ሙንክሳር;Munxar
+fa;منکسار;Munxar
+ja;ムンクサル;Munxar
+pa;ਮੁਨਕ੍ਸਾਰ;Munxar
+ps;منکسار;Munxar
+tg;Мункса;Munxar
+tt;Мункса;Munxar
+ru;Имтарфа;Imtarfa
+ar;إمطرفة;Imtarfa
+kk;Имтарфа;Imtarfa
+ky;Имтарфа;Imtarfa
+hi;इमतर्फा;Imtarfa
+bn;ইমতারফা;Imtarfa
+ur;امطرفہ;Imtarfa
+am;ኢምታርፋ;Imtarfa
+fa;امطرفہ;Imtarfa
+ja;インタルファ;Imtarfa
+pa;ਇਮਤਾਰਫਾ;Imtarfa
+ps;امطرفہ;Imtarfa
+tg;Имтарфа;Imtarfa
+tt;Имтарфа;Imtarfa
+ru;Мсида;Imsida
+ar;إمسيدة;Imsida
+kk;Имсида;Imsida
+ky;Імсіда;Imsida
+hi;इमसिदा;Imsida
+bn;ইমসিদা;Imsida
+ur;امسیدہ;Imsida
+am;ኢምሲዳ;Imsida
+fa;امسیدہ;Imsida
+ja;イムシダ;Imsida
+pa;ਇਮਸੀਦਾ;Imsida
+ps;امسیدہ;Imsida
+tg;Імсіда;Imsida
+tt;Імсіда;Imsida
+ru;Мкабба;Mqabba
+ar;مقابة;Mqabba
+kk;Мкабба;Mqabba
+ky;Мкабба;Mqabba
+hi;मकब्बा;Mqabba
+bn;মকাব্বা;Mqabba
+ur;مقابہ;Mqabba
+am;ም᎐ባ;Mqabba
+fa;مقابہ;Mqabba
+ja;ムカッバ;Mqabba
+pa;ਮਕਬਾ;Mqabba
+ps;مقابہ;Mqabba
+tg;Мкабба;Mqabba
+tt;Мкабба;Mqabba
+ru;Моста;Mosta
+ar;موستا;Mosta
+kk;Моста;Mosta
+ky;Моста;Mosta
+hi;मोस्टा;Mosta
+bn;মোস্টা;Mosta
+ur;موسٹا;Mosta
+am;ሞስታ;Mosta
+fa;موستا;Mosta
+ja;モスタ;Mosta
+pa;ਮੋਸਤਾ;Mosta
+ps;موستا;Mosta
+tg;Моста;Mosta
+tt;Моста;Mosta
+ru;Мгар;Imġarr
+ar;إمغار;Imġarr
+kk;Имгарр;Imġarr
+ky;Имгарр;Imġarr
+hi;इमगर;Imġarr
+bn;ইমগার;Imġarr
+ur;امگار;Imġarr
+am;ኢምጋር;Imġarr
+az;İmqarr;Imġarr
+fa;امغار;Imġarr
+ja;イムガール;Imġarr
+pa;ਇਮਗਾਰ;Imġarr
+ps;امغار;Imġarr
+tg;Имгарр;Imġarr
+tt;Имгарр;Imġarr
+ru;Меллиха;Mellieħa
+ar;ملليحة;Mellieħa
+kk;Меллиха;Mellieħa
+tr;Mellieha;Mellieħa
+uz;Mellieha;Mellieħa
+ky;Меллиха;Mellieħa
+id;Mellieha;Mellieħa
+ms;Mellieha;Mellieħa
+hi;मेलिहा;Mellieħa
+bn;মেলিহা;Mellieħa
+ur;ملیہا;Mellieħa
+am;ሜልሊሓ;Mellieħa
+az;Mellieha;Mellieħa
+fa;ملیحه;Mellieħa
+ha;Mellieha;Mellieħa
+ja;メルリーハ;Mellieħa
+jv;Mellieha;Mellieħa
+om;Mellieha;Mellieħa
+pa;ਮੇਲੀਹਾ;Mellieħa
+ps;ملليحة;Mellieħa
+so;Mellieha;Mellieħa
+sw;Mellieha;Mellieħa
+tg;Меллиха;Mellieħa
+tt;Меллиха;Mellieħa
+cy;Mdina a Rabat;Imdina
+sv;Mdina;Imdina
+cs;Mdina;Imdina
+fi;Mdina;Imdina
+ru;Мдина;Imdina
+ar;إمدينة;Imdina
+kk;Имдина;Imdina
+ky;Имдина;Imdina
+hi;इमदिना;Imdina
+bn;ইমদিনা;Imdina
+ur;امدینہ;Imdina
+am;ኢምዲና;Imdina
+fa;ایمدینا;Imdina
+ja;イムディーナ;Imdina
+pa;ਇਮਦੀਨਾ;Imdina
+ps;إمدينة;Imdina
+tg;Имдина;Imdina
+tt;Имдина;Imdina
+ru;Марсаскала;Marsaskala
+ar;مرسع سقالة;Marsaskala
+kk;Марсаскала;Marsaskala
+ky;Марсаскала;Marsaskala
+hi;मर्सास्काला;Marsaskala
+bn;মার্সাস্কালা;Marsaskala
+ur;مارسا سکالا;Marsaskala
+am;ማርሳስካላ;Marsaskala
+fa;مارسا سکالا;Marsaskala
+ja;マルサスカラ;Marsaskala
+pa;ਮਾਰਸਾਸਕਾਲਾ;Marsaskala
+ps;مرسع سقالة;Marsaskala
+tg;Марсаскала;Marsaskala
+tt;Марсаскала;Marsaskala
+ckb;مارسا;Marsa
+el;Μάρσα;Marsa
+fa;مارسا;Marsa
+hy;Մարսա;Marsa
+ko;마르사;Marsa
+uk;Марса;Marsa
+ur;مارسا، مالٹا;Marsa
+ru;Марса;Marsa
+zh;馬爾薩;Marsa
+ar;مرسى;Marsa
+kk;Марса;Marsa
+ky;Марса;Marsa
+hi;मार्सा;Marsa
+bn;মার্সা;Marsa
+am;ማርሳ;Marsa
+ja;マルサ;Marsa
+pa;ਮਾਰਸਾ;Marsa
+ps;مرسى;Marsa
+tg;Марса;Marsa
+tt;Марса;Marsa
+ru;Лука;Luqa
+ar;لوقا;Luqa
+kk;Лука;Luqa
+ky;Лука;Luqa
+hi;लुका;Luqa
+bn;লুকা;Luqa
+ur;لوقا;Luqa
+am;ሉቃ;Luqa
+fa;لوقا;Luqa
+ja;ルカ;Luqa
+pa;ਲੂਕਾ;Luqa
+ps;لوقا;Luqa
+tg;Лука;Luqa
+tt;Лука;Luqa
+ru;Сенглеа;Senglea
+ru;Исла;Senglea
+ar;سنجليا;Senglea
+el;Σενγκλέα;Senglea
+he;סנגלאה;Senglea
+ko;셍글레아;Senglea
+sr;Сенглеа;Senglea
+ur;سینگلیا;Senglea
+zh;森格萊阿;Senglea
+kk;Сенглея;Senglea
+ky;Сенглея;Senglea
+hi;सेंग्ले;Senglea
+bn;সেংলিয়া;Senglea
+am;ሴንግሌ;Senglea
+fa;سنگلیا;Senglea
+ja;セングレア;Senglea
+pa;ਸੈਂਗਲੀਆ;Senglea
+ps;سينجليا;Senglea
+tg;Сенглея;Senglea
+tt;Сенглей;Senglea
+ru;Л-Иклин;L-Iklin
+ar;إل إكلين;L-Iklin
+kk;Л-Иклин;L-Iklin
+ky;Л-Иклин;L-Iklin
+hi;एल-इक्लिन;L-Iklin
+bn;এল-ইক্লিন;L-Iklin
+ur;ایل-اکلین;L-Iklin
+am;ኤል-ኢክሊን;L-Iklin
+fa;ال-اکلین;L-Iklin
+ja;エル-イクリン;L-Iklin
+pa;ਐਲ-ਇਕਲਿਨ;L-Iklin
+ps;إل إكلين;L-Iklin
+tg;Л-Иклин;L-Iklin
+tt;Л-Иклин;L-Iklin
+ko;리야;Lija
+lt;Lidža;Lija
+ur;لییا;Lija
+ru;Лиджа;Lija
+ar;ليجا;Lija
+kk;Лиджа;Lija
+ky;Лиджа;Lija
+hi;लिजा;Lija
+bn;লিজা;Lija
+am;ሊጃ;Lija
+fa;لیجا;Lija
+ja;リジャ;Lija
+pa;ਲਿਜਾ;Lija
+ps;ليجا;Lija
+tg;Лиджа;Lija
+tt;Лиджа;Lija
+ru;Киркоп;Kirkop
+ar;كيركوب;Kirkop
+kk;Киркоп;Kirkop
+ky;Киркоп;Kirkop
+hi;किरकॉप;Kirkop
+bn;কিরকপ;Kirkop
+ur;کرکاپ;Kirkop
+am;ኪርኮፕ;Kirkop
+fa;کیرکاپ;Kirkop
+ja;カークオップ;Kirkop
+pa;ਕਿਰਕੋਪ;Kirkop
+ps;كيركوب;Kirkop
+tg;Киркоп;Kirkop
+tt;Киркоп;Kirkop
+ru;Керцем;Kerċem
+ar;كركيم;Kerċem
+kk;Керцем;Kerċem
+ky;Керцем;Kerċem
+hi;केरसेम;Kerċem
+bn;কেরসেম;Kerċem
+ur;کرسیم;Kerċem
+am;ኬርሴም;Kerċem
+fa;کرسیم;Kerċem
+ja;ケルセム;Kerċem
+pa;ਕੇਰਸੇਮ;Kerċem
+ps;كركيم;Kerċem
+tg;Керцем;Kerċem
+tt;Керцем;Kerċem
+ru;Калкара;Kalkara
+ar;كالكارا;Kalkara
+kk;Калкара;Kalkara
+ky;Калкара;Kalkara
+hi;कलकारा;Kalkara
+bn;কালকারা;Kalkara
+ur;کلکارا;Kalkara
+am;ካልካራ;Kalkara
+fa;کالکارا;Kalkara
+ja;カルカラ;Kalkara
+pa;ਕਲਕਾਰਾ;Kalkara
+ps;كالكارا;Kalkara
+tg;Калкара;Kalkara
+tt;Калкара;Kalkara
+ckb;سویقی;Swieqi
+fa;سویکی;Swieqi
+ko;스위이;Swieqi
+lt;Svikis;Swieqi
+ur;سویئای;Swieqi
+ru;Свийи;Swieqi
+zh;斯維吉;Swieqi
+ar;سويقي;Swieqi
+kk;Свиеки;Swieqi
+ky;Свиеки;Swieqi
+hi;स्विएकी;Swieqi
+bn;স্বিয়েকি;Swieqi
+am;ስዊቂ;Swieqi
+ja;スウィエキ;Swieqi
+pa;ਸਵੀਕੀ;Swieqi
+ps;سويقي;Swieqi
+tg;Свиеки;Swieqi
+tt;Свиеки;Swieqi
+ru;Гзира;Gżira
+ar;غزيرا;Gżira
+kk;Гзира;Gżira
+ky;Гзира;Gżira
+hi;गज़ीरा;Gżira
+bn;গজিরা;Gżira
+ur;غزیرا;Gżira
+am;ግዚራ;Gżira
+fa;غزیرا;Gżira
+ja;ギジーラ;Gżira
+pa;ਗਜ਼ੀਰਾ;Gżira
+ps;غزيرا;Gżira
+tg;Гзира;Gżira
+tt;Гзира;Gżira
+ru;Флориана;Floriana
+el;Φλοριάνα;Floriana
+he;פלוריאנה;Floriana
+ko;플로리아나;Floriana
+uk;Флоріана;Floriana
+ur;فلوریانا;Floriana
+ar;فلوريانا;Floriana
+kk;Флориана;Floriana
+ky;Флориана;Floriana
+hi;फ्लोरियाना;Floriana
+bn;ফ্লোরিয়ানা;Floriana
+am;ፍሎሪያና;Floriana
+fa;فلورانا;Floriana
+ja;フロリアーナ;Floriana
+pa;ਫਲੋਰਿਆਨਾ;Floriana
+ps;فلوريانا;Floriana
+tg;Флориана;Floriana
+tt;Флориана;Floriana
+pl;Birgu;Vittoriosa
+sv;Birgu;Vittoriosa
+ru;Биргу;Vittoriosa
+ru;Витториоза;Vittoriosa
+ar;فيتوريوزا;Vittoriosa
+kk;Витториоза;Vittoriosa
+ky;Витториоза;Vittoriosa
+hi;विट्टोरियोसा;Vittoriosa
+bn;ভিট্টোরিওজা;Vittoriosa
+ur;وٹوریوسا;Vittoriosa
+am;ቪቶርዮሳ;Vittoriosa
+fa;ویتوریوسا;Vittoriosa
+ja;ヴィットリオーサ;Vittoriosa
+pa;ਵਿੱਟੋਰੀਓਸਾ;Vittoriosa
+ps;فيتوريوزا;Vittoriosa
+tg;Витториоза;Vittoriosa
+tt;Витториоза;Vittoriosa
+ru;Хамрун;Ħamrun
+ar;حمرون;Ħamrun
+kk;Хамрун;Ħamrun
+tr;Hamrun;Ħamrun
+uz;Hamrun;Ħamrun
+ky;Хамрун;Ħamrun
+id;Hamrun;Ħamrun
+ms;Hamrun;Ħamrun
+hi;हमरून;Ħamrun
+bn;হামরুন;Ħamrun
+ur;ہمرون;Ħamrun
+am;ሃምሩን;Ħamrun
+az;Hamrun;Ħamrun
+fa;حمرون;Ħamrun
+ha;Hamrun;Ħamrun
+ja;ハムルン;Ħamrun
+jv;Hamrun;Ħamrun
+om;Hamrun;Ħamrun
+pa;ਹਮਰੂਨ;Ħamrun
+ps;حمرون;Ħamrun
+so;Hamrun;Ħamrun
+sw;Hamrun;Ħamrun
+tg;Хамрун;Ħamrun
+tt;Хамрун;Ħamrun
+ru;Гуджа;Gudja
+ar;غودجة;Gudja
+kk;Гуджа;Gudja
+ky;Гуджа;Gudja
+hi;गुडजा;Gudja
+bn;গুডজা;Gudja
+ur;گودجا;Gudja
+am;ጉድጃ;Gudja
+fa;گودجا;Gudja
+ja;グドゥジャ;Gudja
+pa;ਗੁਡਜਾ;Gudja
+ps;غودجة;Gudja
+tg;Гуджа;Gudja
+tt;Гуджа;Gudja
+ru;Гхаксак;Għaxaq
+ar;غاكساق;Għaxaq
+kk;Гхаксак;Għaxaq
+tr;Ghaxaq;Għaxaq
+uz;Ghaxaq;Għaxaq
+ky;Гхаксак;Għaxaq
+id;Ghaxaq;Għaxaq
+ms;Ghaxaq;Għaxaq
+hi;घाक्साक;Għaxaq
+bn;ঘাক্সাক;Għaxaq
+ur;غاکساق;Għaxaq
+am;ገሃክሳቅ;Għaxaq
+az;Ghaxaq;Għaxaq
+fa;غاکساق;Għaxaq
+ha;Ghaxaq;Għaxaq
+ja;ガハクサク;Għaxaq
+jv;Ghaxaq;Għaxaq
+om;Ghaxaq;Għaxaq
+pa;ਘਾਕਸਾਕ;Għaxaq
+ps;غاكساق;Għaxaq
+so;Ghaxaq;Għaxaq
+sw;Ghaxaq;Għaxaq
+tg;Гхаксак;Għaxaq
+tt;Гхаксак;Għaxaq
+ru;Хал Гаргур;Hal Gharghur
+ar;حال غرغور;Hal Gharghur
+kk;Хал Гаргур;Hal Gharghur
+ky;Хал Гаргур;Hal Gharghur
+hi;हल घारगूर;Hal Gharghur
+bn;হাল ঘারঘুর;Hal Gharghur
+ur;ہال غارغور;Hal Gharghur
+am;ሃል ጋርጉር;Hal Gharghur
+fa;حال غرغور;Hal Gharghur
+ja;ハル・ガルグール;Hal Gharghur
+pa;ਹਾਲ ਘਾਰਘੂਰ;Hal Gharghur
+ps;حال غرغور;Hal Gharghur
+tg;Хал Гаргур;Hal Gharghur
+tt;Хал Гаргур;Hal Gharghur
+ru;Гарб;Għarb
+ar;غرب;Għarb
+kk;Гарб;Għarb
+tr;Gharb;Għarb
+uz;Gharb;Għarb
+ky;Гарб;Għarb
+id;Gharb;Għarb
+ms;Gharb;Għarb
+hi;घारब;Għarb
+bn;ঘারব;Għarb
+ur;غارب;Għarb
+am;ገርብ;Għarb
+az;Gharb;Għarb
+fa;غارب;Għarb
+ha;Gharb;Għarb
+ja;ガルブ;Għarb
+jv;Gharb;Għarb
+om;Gharb;Għarb
+pa;ਘਾਰਬ;Għarb
+ps;غرب;Għarb
+so;Gharb;Għarb
+sw;Gharb;Għarb
+tg;Гарб;Għarb
+tt;Гарб;Għarb
+ru;Гхайнсилем;Għajnsielem
+ar;غاجنسيليم;Għajnsielem
+kk;Гхайнсилем;Għajnsielem
+tr;Ghajnsielem;Għajnsielem
+uz;Ghajnsielem;Għajnsielem
+ky;Гхайнсилем;Għajnsielem
+id;Ghajnsielem;Għajnsielem
+ms;Ghajnsielem;Għajnsielem
+hi;घाजनसिलेम;Għajnsielem
+bn;ঘাজনসিলেম;Għajnsielem
+ur;غاجنسیلم;Għajnsielem
+am;ገጃንስሌም;Għajnsielem
+az;Ghajnsielem;Għajnsielem
+fa;غاجنسیلم;Għajnsielem
+ha;Ghajnsielem;Għajnsielem
+ja;ガジンシレム;Għajnsielem
+jv;Ghajnsielem;Għajnsielem
+om;Ghajnsielem;Għajnsielem
+pa;ਘਾਜਨਸੀਲਮ;Għajnsielem
+ps;غاجنسيليم;Għajnsielem
+so;Ghajnsielem;Għajnsielem
+sw;Ghajnsielem;Għajnsielem
+tg;Гхайнсилем;Għajnsielem
+tt;Гхайнсилем;Għajnsielem
+ru;Фгура;Fgura
+ckb;فگورا;Fgura
+fa;فگورا;Fgura
+ko;프구라;Fgura
+ur;فگورا;Fgura
+zh;弗古拉;Fgura
+ru;Динgli;Dingli
+ar;دينجلي;Dingli
+kk;Динглі;Dingli
+ky;Динглі;Dingli
+hi;डिंगली;Dingli
+bn;ডিংলি;Dingli
+ur;ڈنگلی;Dingli
+am;ዲንግሊ;Dingli
+fa;دینگلی;Dingli
+ja;ディングリ;Dingli
+pa;ਡਿੰਗਲੀ;Dingli
+ps;دينجلي;Dingli
+tg;Динглі;Dingli
+tt;Динглі;Dingli
+ru;Буджибба;Buġibba
+ar;كوسبيكو;Cospicua
+ce;Бормла;Cospicua
+ckb;کۆسپیکوا;Cospicua
+el;Κοσπίκουα;Cospicua
+fa;کاسپیکوا;Cospicua
+hy;Բորմլա;Cospicua
+ko;보름라;Cospicua
+sr;Бормла;Cospicua
+uk;Бормла;Cospicua
+ur;کوسپیکوا;Cospicua
+ru;Бормла;Cospicua
+zh;科斯皮夸;Cospicua
+kk;Коспикуа;Cospicua
+ky;Коспикуа;Cospicua
+hi;कोस्पीकुआ;Cospicua
+bn;কসপিকুয়া;Cospicua
+am;ኮስፒኩዋ;Cospicua
+ja;コスピクア;Cospicua
+pa;ਕੋਸਪੀਕੁਆ;Cospicua
+ps;كوسبيكوا;Cospicua
+tg;Коспикуа;Cospicua
+tt;Коспикуа;Cospicua
+ru;Бирзеббуджа;Birżebbuġa
+ar;بيرزيبوغا;Birżebbuġa
+kk;Бирзеббуга;Birżebbuġa
+ky;Бирзеббуга;Birżebbuġa
+hi;बिर्जेब्बुगा;Birżebbuġa
+bn;বিরজেব্বুগা;Birżebbuġa
+ur;بیرزیبوگا;Birżebbuġa
+am;ብርዜቡጋ;Birżebbuġa
+fa;بیرزیبوگا;Birżebbuġa
+ja;ビルゼッブーガ;Birżebbuġa
+pa;ਬਿਰਜੇਬੁਗਾ;Birżebbuġa
+ps;بيرزيبوغا;Birżebbuġa
+tg;Бирзеббуга;Birżebbuġa
+tt;Бирзеббуга;Birżebbuġa
+he;בירקירקרה;Birkirkara
+am;ቢርኪርካራ;Birkirkara
+ru;Биркиркара;Birkirkara
+ar;بيركيركارا;Birkirkara
+kk;Биркиркара;Birkirkara
+ky;Биркиркара;Birkirkara
+hi;बिरकिरकारा;Birkirkara
+bn;বিরকিরকারা;Birkirkara
+ur;بیرکرکارا;Birkirkara
+fa;بیرکرکارا;Birkirkara
+ja;バーキルカラ;Birkirkara
+pa;ਬਿਰਕਿਰਕਾਰਾ;Birkirkara
+ps;بيركيركارا;Birkirkara
+tg;Биркиркара;Birkirkara
+tt;Биркиркара;Birkirkara
+ru;Балзан;Balzan
+ar;بالزان;Balzan
+kk;Балзан;Balzan
+ky;Балзан;Balzan
+hi;बालजान;Balzan
+bn;বালজান;Balzan
+ur;بالزان;Balzan
+am;ባልዛን;Balzan
+fa;بالزان;Balzan
+ja;バルザン;Balzan
+pa;ਬਾਲਜ਼ਾਨ;Balzan
+ps;بالزان;Balzan
+tg;Балзан;Balzan
+tt;Балзан;Balzan
+ru;Аттард;Attard
+ar;عتّاد;Attard
+kk;Аттард;Attard
+ky;Аттард;Attard
+hi;अत्तर्द;Attard
+bn;আত্তার্দ;Attard
+ur;عتاد;Attard
+am;አትታርድ;Attard
+fa;عتاد;Attard
+ja;アットアルド;Attard
+pa;ਅਤਾਰਦ;Attard
+ps;عتّاد;Attard
+tg;Аттард;Attard
+tt;Аттард;Attard
+ru;Сан-Гванн;San Ġwann
+ar;سان غوان;San Ġwann
+kk;Сан-Гванн;San Ġwann
+ky;Сан-Гванн;San Ġwann
+hi;सान ग्वान;San Ġwann
+bn;সান গুয়ান;San Ġwann
+ur;سان گوان;San Ġwann
+am;ሳን ግዋን;San Ġwann
+fa;سان گوان;San Ġwann
+ja;サン・グワン;San Ġwann
+pa;ਸਾਨ ਗੁਆਨ;San Ġwann
+ps;سان غوان;San Ġwann
+tg;Сан-Гванн;San Ġwann
+tt;Сан-Гванн;San Ġwann
+ru;Шленди;Xlendi
+hy;Փեյսվիլ;Paceville
+ja;パーチャビル;Paceville
+zh;帕斯維爾;Paceville
+ru;Комино;Comino
+ru;Фонтана;Fontana
+ar;فونتانا;Fontana
+kk;Фонтана;Fontana
+ky;Фонтана;Fontana
+hi;फॉन्टाना;Fontana
+bn;ফন্টানা;Fontana
+ur;فونٹانا;Fontana
+am;ፎንታና;Fontana
+fa;فونتانا;Fontana
+ja;フォンタナ;Fontana
+pa;ਫੌਂਟਾਨਾ;Fontana
+ps;فونتانا;Fontana
+tg;Фонтана;Fontana
+tt;Фонтана;Fontana
+el;Πέμπροουκ;Pembroke
+ko;펨브로크;Pembroke
+lt;Pembrukas;Pembroke
+ur;پیمبروک، مالٹا;Pembroke
+ru;Пембрук;Pembroke
+ar;بيمبروك;Pembroke
+kk;Пембрук;Pembroke
+ky;Пембрук;Pembroke
+hi;पेम्ब्रोक;Pembroke
+bn;পেম্ব্রোক;Pembroke
+am;ፔምብሮክ;Pembroke
+fa;پمبروک;Pembroke
+ja;ペンブローク;Pembroke
+pa;ਪੇਮਬ੍ਰੋਕ;Pembroke
+ps;پيمبروک;Pembroke
+tg;Пембрук;Pembroke
+tt;Пембрук;Pembroke

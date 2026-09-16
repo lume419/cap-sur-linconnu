@@ -211,3 +211,408 @@ am;ቀርጨጬ;Kercheche
 am;ኤዶ;Edo
 am;አንካ ሮብ;Anka Oruwa
 en;Oromitu;Alemitu
+ru;Йирга-Алем;Yirga ‘Alem
+sw;Irgalem;Yirga ‘Alem
+hr;Irgalem;Yirga ‘Alem
+zu;Irgalem;Yirga ‘Alem
+pl;Irgalem;Yirga ‘Alem
+ro;Irgalem;Yirga ‘Alem
+he;ירגעלם;Yirga ‘Alem
+zh;烏查里;Wich’alē
+zh-Hans;乌查里;Wich’alē
+ja;ウッチャリ;Wich’alē
+zu;Wuchale;Wich’alē
+ro;Wuchale;Wich’alē
+he;ווצ'אלה;Wich’alē
+ru;Верэта;Werota
+zh;沃雷塔;Werota
+ja;ウォレタ;Werota
+zu;Wereta;Werota
+pl;Wereta;Werota
+he;ורטה;Werota
+ca;Wereta;Werota
+ru;Уордер;Warder
+ru;Uol’go;Welgo
+ru;Уольдыя;Weldiya
+hr;Veldija;Weldiya
+zh;沃爾迪亞;Weldiya
+zh-Hans;沃尔迪亚;Weldiya
+fa;ولدیا;Weldiya
+ro;Woldia;Weldiya
+sr;Veldija;Weldiya
+ru;Турми;Turmi
+bg;Турми;Turmi
+zh;圖爾米;Turmi
+zh-Hans;图尔米;Turmi
+ur;ترمی;Turmi
+zh;滕塔;Tenta
+ru;Шилабо;Shilabo
+sv;Sheikh Hussein;Shēh Husēn
+da;Sheikh Hussein;Shēh Husēn
+ro;Sheikh Hussein;Shēh Husēn
+he;שייח' חוסיין;Shēh Husēn
+zh;謝赫·侯賽因;Shēh Husēn
+pl;Shashemene;Shashamane
+ru;Шашэмэнне;Shashamane
+zh;沙基索;Shakiso
+ru;Себета;Sebeta
+ru;Нэкэмте;Nek’emtē
+ja;ネジョ;Nejo
+zh;內喬;Nejo
+ru;Нэгаш;Negash
+bg;Негаш;Negash
+zh;内加什;Negash
+zh-Hant;內加什;Negash
+ur;نجاش;Negash
+ru;Назрет;Nazrēt
+ru;Мэтэма;Metemma
+fa;ماتهارا;Metahāra
+pl;Metehara;Metahāra
+zh;梅特哈拉;Metahāra
+zh;梅拉羅;Meraro
+ru;Менди;Mendī
+he;מקלה;Mek'ele
+mn;Мэкэле;Mek'ele
+sr;Мекеле;Mek'ele
+sw;Mekelle;Mek'ele
+th;เมเคเล;Mek'ele
+ur;میکیلے;Mek'ele
+pl;Mekelie;Mek'ele
+ru;Мэкэле;Mek'ele
+zh;默克萊;Mek'ele
+zh;馬夏;Masha
+ru;Malawal’;Malwal
+ru;Оморате;Lobuni
+ur;لاساراٹ;Lasarat
+sr;Лалибела;Lalibela
+da;Klippekirkerne i Lalibela;Lalibela
+zh;拉利貝拉;Lalibela
+ru;Лалибэла;Lalibela
+hy;Լալիբելա;Lalibela
+zh-Hans;拉利贝拉;Lalibela
+uk;Лалібела;Lalibela
+ur;لالیبیلا;Lalibela
+ml;ലലിബെല;Lalibela
+el;Λαλιμπέλα;Lalibela
+my;လာလီဘယ်လာမြို့;Lalibela
+vi;Nhà thờ tạc đá ở Lalibela;Lalibela
+ja;ラリベラ;Lalibela
+fa;لالی‌بلا;Lalibela
+ba;Лалибэла;Lalibela
+be;Лалібэла;Lalibela
+bg;Лалибела;Lalibela
+yue;拉利貝拉;Lalibela
+sk;Lalibäla;Lalibela
+ga;Eaglaisí Lalibela;Lalibela
+ko;랄리벨라;Lalibela
+th;ลาลีเบอลา;Lalibela
+he;לליבלה;Lalibela
+bg;Корем;Korem
+ja;コレム;Korem
+ru;Корем;Korem
+ru;Консо;Konso
+ru;Комбольча;Kombolcha
+hi;कॉमबोलचा;Kombolcha
+lt;Kombolča;Kombolcha
+hr;Kombolča;Kombolcha
+lv;Kombolča;Kombolcha
+bn;কম্বলখা;Kombolcha
+si;කොම්බෝල්චා;Kombolcha
+uk;Комбольча;Kombolcha
+ur;کومبولچا;Kombolcha
+sr;Kombolča;Kombolcha
+kn;ಕೊಂಬೊಲ್ಚಾ;Kombolcha
+ko;콤볼차;Kombolcha
+mr;कॉमबॉलचा;Kombolcha
+el;Κομπόλτσα;Kombolcha
+ta;கொம்போல்ச்சா;Kombolcha
+zh;孔博勒查;Kombolcha
+gu;કોમ્બોલ્ચા;Kombolcha
+te;కొంబోల్ చా;Kombolcha
+th;คมบอลซา;Kombolcha
+ja;コムボルチャ;Kombolcha
+fa;کومبولچا;Kombolcha
+pl;Kembolcza;Kombolcha
+he;כומבולצ'ה;Kombolcha
+ru;Kombol’cha;Kembolcha
+hi;जिमा;Jimma
+lt;Džima;Jimma
+lv;Džima;Jimma
+hy;Ջիմմա;Jimma
+zh-Hans;吉马;Jimma
+uk;Джимма;Jimma
+ur;جیمما;Jimma
+mr;जिममा;Jimma
+el;Τζίμα;Jimma
+zh;吉馬;Jimma
+eu;Jima;Jimma
+ja;ジンマ;Jimma
+fa;جیما;Jimma
+ceb;Jīma;Jimma
+ru;Джимма;Jimma
+bn;জিম্মা;Jimma
+si;ජිම්මා;Jimma
+sv;Jima;Jimma
+kn;ಜಿಮ್ಮಾ;Jimma
+ko;짐마;Jimma
+ta;ஜீம்மா;Jimma
+gu;જિમ્મા;Jimma
+te;జిమ్మా;Jimma
+th;กิมเมลวาลด์;Jimma
+pl;Dżimma;Jimma
+he;ג'ימה;Jimma
+ru;Джиджига;Jijiga
+cs;Džidžiga;Jijiga
+he;גיגיגה;Jijiga
+ko;지지가;Jijiga
+pl;Dżidżiga;Jijiga
+zh;吉吉加;Jijiga
+ur;جیجیگا;Jijiga
+ru;Ында-Сылласе;Inda Silasē
+bg;Хурута;Huruta
+ru;Хурута;Huruta
+ru;Хосаына;Hosa’ina
+ru;Khil’tu;Hiltu
+ru;Хильмило;Hilmilo
+ru;Khidaga Bar’ya;Hidaga Barya
+he;חווזיאן;Hawzēn
+pl;Harer;Harar
+et;Harer;Harar
+el;Χαράρ;Harar
+he;הרר;Harar
+hi;हरार;Harar
+ja;ハラール;Harar
+ka;ჰარარი;Harar
+ko;하라르;Harar
+lt;Hararas;Harar
+mr;हरार;Harar
+pa;ਹਾਰਰ;Harar
+sr;Харар;Harar
+uk;Харер;Harar
+ru;Харэр;Harar
+zh;哈勒尔;Harar
+be;Харэр;Harar
+ur;ہرار;Harar
+ru;Горгора;Gorgora
+he;גונדר;Gonder
+ru;Гондар;Gonder
+ru;Гондэр;Gonder
+zh-TW;貢德爾;Gonder
+bg;Гондар;Gonder
+el;Γκόνταιρ;Gonder
+ja;ゴンダール;Gonder
+ko;곤다르;Gonder
+lt;Gonderas;Gonder
+mn;Гондэр;Gonder
+sr;Гондар;Gonder
+zh;貢德爾;Gonder
+ru;Года;Goda
+ru;Гоба;Goba
+zh;加塔瑪;Getema
+ru;Женя;Genet
+bg;Гелемсо;Gelemso
+ru;Гелемсо;Gelemso
+ru;Гандаба;Gandaba
+ru;Гамбеле;Gambēla
+ru;Eil’ Garaf;Eil Garas
+ru;Dauichel’;Duaeichel
+ru;Додола;Dodola
+ko;디레 다와;Dire Dawa
+pl;Dire Daua;Dire Dawa
+he;דירה דאווה;Dire Dawa
+ru;Диредавы;Dire Dawa
+ru;Дила;Dīla
+pl;Desje;Dessie
+lt;Desė;Dessie
+hi;देस्सी;Dessie
+hr;Dese;Dessie
+lv;Dese;Dessie
+uk;Дессе;Dessie
+ur;دیسیی;Dessie
+mr;डेसी;Dessie
+el;Ντέσιε;Dessie
+zh;德西;Dessie
+eu;Dese;Dessie
+ja;デセ;Dessie
+fa;دیسی، اتیوپی;Dessie
+ceb;Desē;Dessie
+ru;Дэссе;Dessie
+be;Дэсэ;Dessie
+bn;দেশি;Dessie
+ka;დესიე;Dessie
+si;දෙස්සී;Dessie
+ca;Dese;Dessie
+sv;Dese;Dessie
+kn;ಡೆಸ್ಸಿ;Dessie
+ko;데시;Dessie
+sw;Dese;Dessie
+ta;டெஸ்ஸி;Dessie
+gu;ડેસી;Dessie
+te;డెస్సి;Dessie
+th;เดซี่;Dessie
+da;Dese;Dessie
+he;דסה;Dessie
+zh;登蓋貝爾;Dengel Ber
+ru;Дэбрэ-Зэйт;Bishoftu
+lt;Debre Taboras;Debre Tabor
+zh-Hans;德布雷塔博尔;Debre Tabor
+zh-Hant;德佈雷塔博爾;Debre Tabor
+zh;德卜勒塔博爾;Debre Tabor
+ja;デブレ・タボール;Debre Tabor
+fa;دبره تابور;Debre Tabor
+he;דברה תבור;Debre Tabor
+ru;Дебре Табор;Debre Tabor
+ta;டெப்ரே சேலம்;Debre Selam
+ru;Дэбрэ-Маркос;Debre Mark’os
+hi;देब्रे बेरहान;Debre Birhan
+ru;Дэбрэ-Бырхан;Debre Birhan
+fi;Debre Berhan;Debre Birhan
+lt;Debre Birhanas;Debre Birhan
+hr;Debre Berhan;Debre Birhan
+lv;Debre Birhana;Debre Birhan
+bn;ডেব্রি বেরহা;Debre Birhan
+hu;Debre Berhan;Debre Birhan
+zh-Hans;德保贝尔韩;Debre Birhan
+uk;Дебре-Берхан;Debre Birhan
+si;දෙබ්රේ බර්හාන්;Debre Birhan
+sl;Debre Berhan;Debre Birhan
+id;Debre Berhan;Debre Birhan
+ur;دیبری بیرحان;Debre Birhan
+kn;ಡೆಬ್ರೆ ಬರ್ಹನ್;Debre Birhan
+ko;데브레 베르한;Debre Birhan
+mr;डेब्रे बेरहान;Debre Birhan
+ms;Debre Berhan;Debre Birhan
+el;Ντέμπρε Μπέρχαν;Debre Birhan
+ta;டெப்ரே பெர்ஹான்;Debre Birhan
+gu;ડેબ્રે બેરહાન;Debre Birhan
+zh;德伯勒伯爾漢;Debre Birhan
+te;దెబ్రే బెర్హాన్;Debre Birhan
+vi;Debre Berhan;Debre Birhan
+nb;Debre Berhan;Debre Birhan
+th;เดบริ บาฮาน;Debre Birhan
+ja;デブレ・ベルハン;Debre Birhan
+fa;دبره برهان;Debre Birhan
+zu;Debre Berhan;Debre Birhan
+pl;Debre Byrhan;Debre Birhan
+ro;Debre Berhan;Debre Birhan
+da;Debre Berhan;Debre Birhan
+tr;Debre Berhan;Debre Birhan
+ru;Ch’irarwa (1);Ch’irarwa
+ru;Буря;Burē
+ru;Бонга;Bonga
+ru;Bogol’-Man’o;Bogol Manyo
+bg;Бичена;Bichena
+zh;比徹納;Bichena
+ru;Бичена;Bichena
+zh;貝德薩;Bedēsa
+zu;Badessa;Bedēsa
+pl;Bedessa;Bedēsa
+sr;Badessa;Bedēsa
+ru;Бако;Bako
+he;בהר דר;Bahir Dar
+ru;Бахр-Дар;Bahir Dar
+el;Μπαχρ-Νταρ;Bahir Dar
+ka;ბაჰრ-დარი;Bahir Dar
+sr;Бахир Дар;Bahir Dar
+pl;Bahyr Dar;Bahir Dar
+zh;巴赫達爾;Bahir Dar
+ko;바히르다르;Bahir Dar
+ur;بحر دار;Bahir Dar
+pl;Ayikel;Āykel
+ru;Lager’ 1;Āydora
+ru;Lager’ 2;Āydora
+he;אווסה;Awasa
+ru;Авасе;Awasa
+ru;Асоса;Āsosa
+ru;Асэлла;Āsela
+ru;Асэлла;Asegela
+ru;Асайита;Asaita
+bg;Асаита;Asaita
+zh;阿萨伊塔;Asaita
+zh-Hant;阿薩伊塔;Asaita
+uk;Асаїта;Asaita
+ja;アサイタ;Asaita
+pl;Asajta;Asaita
+ca;Asayita;Asaita
+ru;Арба-Мынч;Arba Minch
+ru;Араби;Ārabī
+gl;Axum;Aksum
+ro;Axum;Aksum
+bg;Аксум;Aksum
+eu;Axum;Aksum
+ru;Аксум;Aksum
+ru;Ахыса;Āhisa’ā
+pl;Adua;Adwa
+fi;Adowa;Adwa
+lt;Adva;Adwa
+hr;Adva;Adwa
+lv;Adva;Adwa
+uk;Адуа;Adwa
+ur;ادوا;Adwa
+mr;अडवा;Adwa
+el;Αντόουα;Adwa
+zh;阿杜瓦;Adwa
+ja;アドワ;Adwa
+fa;آدوا;Adwa
+ru;Адуа;Adwa
+be;Адуа;Adwa
+yue;阿杜華;Adwa
+bn;আদওয়া;Adwa
+si;අද්වා;Adwa
+ca;Adua;Adwa
+kn;ಅದ್ವಾ;Adwa
+sw;Adowa;Adwa
+ta;அடோவா;Adwa
+gu;અડવા;Adwa
+te;అదవ;Adwa
+th;แอดวา;Adwa
+he;עדווה;Adwa
+tr;Adva;Adwa
+ru;Аддис-Зэмэн;Ādīs Zemen
+fa;ادیس زمن;Ādīs Zemen
+zu;Addis Zemen;Ādīs Zemen
+pl;Addis Zemen;Ādīs Zemen
+bg;Адис Абеба;Addis Ababa
+bs;Adis Abeba;Addis Ababa
+ca;Addis Abeba;Addis Ababa
+cs;Addis Abeba;Addis Ababa
+fa;آدیس آبابا;Addis Ababa
+fi;Addis Abeba;Addis Ababa
+he;אדיס אבבה;Addis Ababa
+hr;Adis Abeba;Addis Ababa
+ja;アディスアベバ;Addis Ababa
+ko;아디스아바바;Addis Ababa
+lt;Adis Abeba;Addis Ababa
+mg;Addis Abeba;Addis Ababa
+nn;Addis Abeba;Addis Ababa
+no;Addis Abeba;Addis Ababa
+os;Аддис-Абебæ;Addis Ababa
+pl;Addis Abeba;Addis Ababa
+ru;Аддис-Абеба;Addis Ababa
+sk;Addis Abeba;Addis Ababa
+sl;Adis Abeba;Addis Ababa
+sv;Addis Abeba;Addis Ababa
+uk;Аддис-Абеба;Addis Ababa
+zh-TW;阿迪斯阿貝巴;Addis Ababa
+hu;Addisz-Abeba;Addis Ababa
+et;Addis Abeba;Addis Ababa
+ug;ئەددىس -ئەبىبە;Addis Ababa
+el;Αντίς Αμπέμπα;Addis Ababa
+hy;Ադիս Աբեբա;Addis Ababa
+eu;Addis Abeba;Addis Ababa
+gl;Adís Abeba;Addis Ababa
+lv;Adisabeba;Addis Ababa
+mr;अदिस अबाबा;Addis Ababa
+bn;আদ্দিস আবাবা;Addis Ababa
+tpi;Adis Ababa;Addis Ababa
+az;Əddis-Əbəbə;Addis Ababa
+ka;ადის-აბება;Addis Ababa
+be;Адыс-Абеба;Addis Ababa
+sr;Адис Абеба;Addis Ababa
+ru;Адди-Грат;Ādīgrat
+ru;Адама;Addama
+ru;Mal’ka Gersey;Malca Ghersei
+ru;Атфакарье;Atfakarye
+ka;სემერა;Samara
+ru;Содо;Sodo
+ru;Бураю;Burayu

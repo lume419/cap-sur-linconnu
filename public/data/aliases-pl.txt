@@ -1358,3 +1358,8636 @@ de;Wernersdorf;Bernacice Górne
 de;Krotfeld;Krotoszyn
 de;Wolmsdorf;Rogóżka
 de;Neudorf;Mościce Dolne
+ru;Житкеймы;Żytkiejmy
+lt;Žydkiemis;Żytkiejmy
+uk;Житкейми;Żytkiejmy
+lv;Žirardova;Żyrardów
+bg;Жирардов;Żyrardów
+lt;Žyrarduvas;Żyrardów
+uk;Жирардув;Żyrardów
+ru;Жирардув;Żyrardów
+zh;日拉爾杜夫;Żyrardów
+he;זירארדוב;Żyrardów
+sr;Жирардов;Żyrardów
+lt;Žiliniai;Żyliny
+bg;Зволен;Zwoleń
+lv;Zvoleņa;Zwoleń
+uk;Зволень;Zwoleń
+ru;Зволень;Zwoleń
+zh;茲沃倫;Zwoleń
+he;זבולן;Zwoleń
+sr;Зволењ;Zwoleń
+lv;Zvežiņeca;Zwierzyniec
+uk;Звежинець;Zwierzyniec
+ru;Звежинец;Zwierzyniec
+zh;茲維日涅茨;Zwierzyniec
+ar;زفيجينيتس;Zwierzyniec
+sr;Звјежињец;Zwierzyniec
+ru;Журоминек;Żurominek
+ru;Жолибож;Żoliborz
+uk;Жолібож;Żoliborz
+ka;ჟოლიბოჟი;Żoliborz
+sr;Жолибож;Żoliborz
+el;Ζολίμπος;Żoliborz
+zh;若利博日区;Żoliborz
+ja;ジョリボルシェ;Żoliborz
+fa;ژولیبوژ;Żoliborz
+he;ורשה/ז'וליבוז';Żoliborz
+sk;Gmina Żmudź;Żmudź
+uk;Ґміна Жмудзь;Żmudź
+ru;Жмудзь;Żmudź
+ru;Злоторя;Złotoria
+ru;Злотоклос;Złotokłos
+sk;Gmina Złota;Złota
+uk;Ґміна Злота;Złota
+ru;Злота;Złota
+ru;Зеленка;Zielonka
+bg;Жельонка;Zielonka
+lv;Zelonka;Zielonka
+sr;Зјелонка;Zielonka
+uk;Зельонка;Zielonka
+zh;傑隆卡;Zielonka
+ru;Зеленец;Zieleniec
+ru;Згон;Zgon
+lt;Zelva;Zelwa
+lv;Želehova;Żelechów
+sr;Желехов;Żelechów
+uk;Желехув;Żelechów
+ru;Желехув;Żelechów
+zh;熱萊胡夫;Żelechów
+he;זלחוב;Żelechów
+ja;ジェラゾヴァ・ヴォラ;Żelazowa Wola
+sr;Желазова Вола;Żelazowa Wola
+mk;Желазова Вола;Żelazowa Wola
+uk;Желязова Воля;Żelazowa Wola
+ru;Желязова-Воля;Żelazowa Wola
+ru;Желязна-Гура;Żelazna Góra
+ru;Жеготы;Żegoty
+ru;Здоры;Zdory
+ru;Збучинка;Zbuczyn
+ru;Збуйна;Zbójna
+ru;Жбики;Żbiki
+lv;Zavihosta;Zawichost
+sr;Завихост;Zawichost
+uk;Завихост;Zawichost
+ru;Завихост;Zawichost
+zh;扎維霍斯特;Zawichost
+he;זוויחוסט;Zawichost
+ru;Завады;Zawady
+lt;Zavadų valsčius;Zawady
+ro;Comuna Zawady;Zawady
+sk;Gmina Zawady;Zawady
+uk;Ґміна Завади;Zawady
+ru;Заторы;Zatory
+ru;Засядки;Zasiadki
+ru;Зарембы Косьцельне;Zaręby Kościelne
+lv;Zamosca;Zamość
+ru;Замосць;Zamość
+uk;Замостя;Zamość
+bg;Замошч;Zamość
+be;Замасць;Zamość
+th;ซามอชช์;Zamość
+el;Ζάμοστς;Zamość
+he;זמושץ;Zamość
+ko;자모시치;Zamość
+ka;ზამოსცი;Zamość
+ja;ザモシチ;Zamość
+lt;Zamostė;Zamość
+zh;扎莫希奇;Zamość
+tt;Замосць;Zamość
+hy;Զամոշչ;Zamość
+sr;Замошћ;Zamość
+uk;Замбрув;Zambrów
+lt;Zambruvas;Zambrów
+he;זמברוב;Zambrów
+lv;Zambrova;Zambrów
+bg;Замбров;Zambrów
+ru;Замбрув;Zambrów
+zh;贊布魯夫;Zambrów
+sr;Замбров;Zambrów
+ru;Залузе;Załuże
+ru;Залесе-Гурне;Zalesie Górne
+ru;Заляс;Zalas
+ru;Закрочим;Zakroczym
+he;זקרוצים;Zakroczym
+lv;Zakročima;Zakroczym
+sr;Закрочим;Zakroczym
+uk;Закрочим;Zakroczym
+zh;扎克羅奇姆;Zakroczym
+bg;Закликов;Zaklików
+he;זקליקוב;Zaklików
+sr;Закликов;Zaklików
+ru;Закликов;Zaklików
+sk;Gmina Zakliczyn;Zakliczyn
+uk;Ґміна Заклічин;Zakliczyn
+ru;Закличин;Zakliczyn
+lv;Zagoža;Zagórz
+uk;Загіря;Zagórz
+ru;Загуж;Zagórz
+zh;扎古日;Zagórz
+bg;Загож;Zagórz
+sr;Загож;Zagórz
+ur;زگورض;Zagórz
+ur;زاگنانسک;Zagnańsk
+sr;Жабно;Żabno
+uk;Жабно;Żabno
+ru;Жабно;Żabno
+zh;扎布諾;Żabno
+bg;Жабно;Żabno
+he;זאבנו;Żabno
+ur;زابنو;Żabno
+ru;Заблудув;Zabłudów
+be;Заблудаў;Zabłudów
+lt;Zabluduvas;Zabłudów
+lv;Zabludova;Zabłudów
+uk;Заблудів;Zabłudów
+zh;扎布武杜夫;Zabłudów
+he;זבלודוב;Zabłudów
+sr;Заблудов;Zabłudów
+ur;ضابوادوو;Zabłudów
+ru;Зомбки;Ząbki
+bg;Зомбки;Ząbki
+lv;Zombki;Ząbki
+sr;Зомпки;Ząbki
+uk;Зомбки;Ząbki
+zh;宗布基;Ząbki
+lt;Zombkai;Ząbki
+ur;زوبکی;Ząbki
+lt;Žabynai;Żabin
+uk;Жабин;Żabin
+ur;زابن، ورمان-مسریاں صوبہ;Żabin
+ru;Забеле;Zabiele
+sk;Gmina Żabia Wola;Żabia Wola
+uk;Ґміна Жабя Воля;Żabia Wola
+ru;Жабя-Воля;Żabia Wola
+ru;Жабце;Żabce
+he;וישוגרוד;Wyszogród
+lv;Višogroda;Wyszogród
+sr;Вишогрод;Wyszogród
+uk;Вишогруд;Wyszogród
+ru;Вышогруд;Wyszogród
+zh;維紹格魯德;Wyszogród
+ru;Вышкув;Wyszków
+az;Vişkuv;Wyszków
+bg;Вишков;Wyszków
+he;וישקוב;Wyszków
+lt;Viškuvas;Wyszków
+lv;Viškova;Wyszków
+uk;Вишкув;Wyszków
+zh;維什庫夫;Wyszków
+sr;Вишков;Wyszków
+lt;Viškų valsčius;Wyszki
+ro;Comuna Wyszki;Wyszki
+sk;Gmina Wyszki;Wyszki
+uk;Ґміна Вишкі;Wyszki
+ru;Вышки;Wyszki
+ru;Высова-Здруй;Wysowa-Zdrój
+lv;Visoke Mazovecke;Wysokie Mazowieckie
+uk;Високе-Мазовецьке;Wysokie Mazowieckie
+he;ויסוקה מזובייצק;Wysokie Mazowieckie
+bg;Високе Мазовецке;Wysokie Mazowieckie
+lt;Mazovijos Vysokis;Wysokie Mazowieckie
+ru;Высоке-Мазовецке;Wysokie Mazowieckie
+zh;馬佐夫舍地區維索凱;Wysokie Mazowieckie
+sr;Високје Мазовјецкје;Wysokie Mazowieckie
+ru;Высоке;Wysokie
+ru;Высока;Wysoka
+lv;Vismežice;Wyśmierzyce
+sr;Висмјежице;Wyśmierzyce
+uk;Висьмежице;Wyśmierzyce
+ru;Высмежице;Wyśmierzyce
+zh;維希梅日采;Wyśmierzyce
+ru;Выкрот;Wykrot
+ru;Выгода;Wygoda
+ru;Выдмины;Wydminy
+ru;Вротнув;Wrotnów
+ru;Возлавки;Wozławki
+uk;Воломін;Wołomin
+sr;Воломин;Wołomin
+bg;Воломин;Wołomin
+lv;Volomina;Wołomin
+ru;Воломин;Wołomin
+zh;沃沃明;Wołomin
+be;Валомін;Wołomin
+he;וולומין;Wołomin
+ko;보워민;Wołomin
+lt;Volominas;Wołomin
+pl;Wólka pod Lasem;Wólka Podleśna
+pl;Nowa Wólka;Wólka
+ru;Воля-Гутовска;Wola Grutowska
+ru;Воля;Wola
+ru;Войнувка;Wojnówka
+sr;Војњич;Wojnicz
+uk;Войнич;Wojnicz
+ru;Войнич;Wojnicz
+zh;沃伊尼奇;Wojnicz
+bg;Войнич;Wojnicz
+sk;Gmina Wojciechowice;Wojciechowice
+uk;Ґміна Войцеховіце;Wojciechowice
+ru;Войцеховице;Wojciechowice
+sk;Gmina Wodzisław;Wodzisław
+uk;Ґміна Водзіслав;Wodzisław
+ru;Водзислав;Wodzisław
+ru;Водукаймы;Wodukajmy
+uk;Володава;Włodawa
+bg;Влодава;Włodawa
+he;ולודבה;Włodawa
+ru;Влодава;Włodawa
+zh;弗沃達瓦;Włodawa
+be;Уладава;Włodawa
+sr;Влодава;Włodawa
+ru;Визна;Wizna
+he;ויזנה;Wizna
+lt;Vizna;Wizna
+ru;Вижайны;Wiżajny
+lt;Vižainis;Wiżajny
+ru;Вислица;Wiślica
+he;וישליצה;Wiślica
+uk;Віслиця;Wiślica
+ru;Вискитки;Wiskitki
+tt;Вискитки;Wiskitki
+ce;Вискитки;Wiskitki
+be;Віскіткі;Wiskitki
+uk;Віскіткі;Wiskitki
+fa;ویسکیتکی;Wiskitki
+he;ויסקיטקי;Wiskitki
+ru;Випсово;Wipsowo
+ru;Винница;Winnica
+ru;Винда;Winda
+pl;Wilkołaz Pierwszy (do 1999);Wilkołaz
+ru;Вилянув;Wilanów
+be;Вілянаў;Wilanów
+el;Βιλάνουφ;Wilanów
+zh;維拉諾夫區;Wilanów
+hy;Վիլյանուվ;Wilanów
+uk;Вілянів;Wilanów
+ka;ვილიანუვი;Wilanów
+ru;Велички;Wieliczki
+sk;Gmina Wieliczki;Wieliczki
+uk;Гміна Велічкі;Wieliczki
+lv;Velička;Wieliczka
+uk;Величка;Wieliczka
+ru;Величка;Wieliczka
+ja;ヴィエリチカ;Wieliczka
+lt;Velička;Wieliczka
+ko;비엘리치카;Wieliczka
+bg;Величка;Wieliczka
+zh;維利奇卡;Wieliczka
+sr;Вјеличка;Wieliczka
+ar;فياليتشكا;Wieliczka
+he;וייליצקה;Wieliczka
+ru;Вельбарк;Wielbark
+ru;Вейсуны;Wejsuny
+ru;Венгрув;Węgrów
+bg;Венгров;Węgrów
+lt;Vengruvas;Węgrów
+lv;Vengrova;Węgrów
+uk;Венгрув;Węgrów
+zh;文格魯夫;Węgrów
+be;Вэнграў;Węgrów
+he;ונגרוב;Węgrów
+sr;Венгров;Węgrów
+bg;Венгожево;Węgorzewo
+lt;Ungura;Węgorzewo
+uk;Венгожево;Węgorzewo
+lv;Vengoževo;Węgorzewo
+ru;Венгожево;Węgorzewo
+zh;文戈熱沃;Węgorzewo
+sr;Венгожево;Węgorzewo
+ru;Вавер;Wawer
+bg;Василков;Wasilków
+he;וסילקוב;Wasilków
+lt;Vasilkuvas;Wasilków
+lv;Vasilkova;Wasilków
+sr;Василков;Wasilków
+uk;Васильків;Wasilków
+ru;Василькув;Wasilków
+zh;瓦西爾庫夫;Wasilków
+ar;وارسو;Warszawa
+bg;Варшава;Warszawa
+bs;Varšava;Warszawa
+ca;Varsòvia;Warszawa
+cs;Varšava;Warszawa
+cv;Варшава;Warszawa
+et;Varssavi;Warszawa
+fa;ورشو;Warszawa
+fi;Varsova;Warszawa
+ga;Vársá;Warszawa
+gl;Varsovia;Warszawa
+he;ורשה;Warszawa
+hu;Varsó;Warszawa
+id;Warsawa;Warszawa
+is;Varsjá;Warszawa
+ja;ワルシャワ;Warszawa
+ka;ვარშავა;Warszawa
+ko;바르샤바;Warszawa
+lt;Varšuva;Warszawa
+mk;Варшава;Warszawa
+ro;Varșovia;Warszawa
+na;Warsaw;Warszawa
+os;Варшавæ;Warszawa
+ru;Варшава;Warszawa
+sk;Varšava;Warszawa
+sl;Varšava;Warszawa
+sq;Varshava;Warszawa
+sr;Варшава;Warszawa
+tr;Varşova;Warszawa
+uk;Варшава;Warszawa
+el;Βαρσοβία;Warszawa
+eu;Barsobia;Warszawa
+tet;Varsóvia;Warszawa
+th;วอร์ซอ;Warszawa
+ug;ۋارشاۋا;Warszawa
+zh;華沙;Warszawa
+af;Warskou;Warszawa
+be;Варшава;Warszawa
+br;Varsovia;Warszawa
+eu;Varsovia;Warszawa
+hr;Varšava;Warszawa
+hy;Վարշավա;Warszawa
+am;ዋርሶው;Warszawa
+cy;Warsaw;Warszawa
+gd;Warsaw;Warszawa
+jv;Warsawa;Warszawa
+mr;वॉर्सो;Warszawa
+udm;Варшава;Warszawa
+zh-TW;華沙;Warszawa
+az;Varşava;Warszawa
+crh;Varşava;Warszawa
+ru;Варпуны;Warpuny
+he;וורקא;Warka
+uk;Варка;Warka
+ru;Варка;Warka
+zh;瓦爾卡;Warka
+sr;Варка;Warka
+ru;Вапник;Wapnik
+ru;Ваксмунд;Waksmund
+lv;Vonhocka;Wąchock
+uk;Вонхоцьк;Wąchock
+bg;Вонхоцк;Wąchock
+ru;Вонхоцк;Wąchock
+zh;翁霍茨克;Wąchock
+sr;Вонхоцк;Wąchock
+he;וונחוצק;Wąchock
+ru;Уздово;Uzdowo
+uk;Устрики-Долішні;Ustrzyki Dolne
+bg;Устшики Долне;Ustrzyki Dolne
+lv;Ustšiki Dolne;Ustrzyki Dolne
+ru;Устшики-Дольне;Ustrzyki Dolne
+zh;下烏斯奇基;Ustrzyki Dolne
+he;אוסציקי דולנה;Ustrzyki Dolne
+sr;Устшики Долне;Ustrzyki Dolne
+vi;Warszawa-Ursus;Ursus
+ru;Урсус;Ursus
+zh;烏爾蘇斯區;Ursus
+uk;Урсус;Ursus
+ka;ურსუსი;Ursus
+sr;Урсус;Ursus
+ru;Унецк;Unieck
+uk;Угерці Мінеральні;Uherce Mineralne
+sk;Gmina Uchanie;Uchanie
+uk;Ґміна Ухане;Uchanie
+ru;Ухане;Uchanie
+lv;Tišovce;Tyszowce
+uk;Тишовце;Tyszowce
+ru;Тышовце;Tyszowce
+zh;蒂紹夫采;Tyszowce
+fa;تیسوک;Tyszowce
+he;טישובצה;Tyszowce
+sr;Тишовице;Tyszowce
+fa;تیمبارک;Tymbark
+ru;Тымбарк;Tymbark
+ru;Тылич;Tylicz
+ru;Тыкоцин;Tykocin
+uk;Тикоцин;Tykocin
+he;טיקטין;Tykocin
+lv;Tikocina;Tykocin
+lt;Tikocinas;Tykocin
+zh;蒂科欽;Tykocin
+be;Тыкоцін;Tykocin
+fa;تیکوچین;Tykocin
+sr;Тикоћин;Tykocin
+bg;Тичин;Tyczyn
+he;טיצין;Tyczyn
+lv;Tičina;Tyczyn
+sr;Тичињ;Tyczyn
+uk;Тичин;Tyczyn
+ru;Тычин;Tyczyn
+zh;蒂琴;Tyczyn
+ru;Твароги;Twarogi
+fa;تورسکو ویلکیه;Tursko Wielkie
+ur;ترسکو ویلکی;Tursko Wielkie
+fa;تورسکو مو;Tursko Małe
+ur;ترسکو مو;Tursko Małe
+fa;توربین، استان لوبین;Turobin
+ur;توروبن، صوبہ لوبن;Turobin
+ru;Туробин;Turobin
+ru;Туловице;Tułowice
+ru;Тулавки;Tuławki
+lv;Tuhova;Tuchów
+uk;Тухув;Tuchów
+ru;Тухув;Tuchów
+zh;圖胡夫;Tuchów
+he;טוחוב;Tuchów
+sr;Тухов;Tuchów
+bg;Тухов;Tuchów
+fa;توخو;Tuchów
+ur;توخو;Tuchów
+fa;اشچینیتزا، وئیودشیپ پودکارپاکیه;Trzcinica
+ur;اشچینیکا، صوبہ پودکارپاکی;Trzcinica
+fa;اشچیانکا، شهرستان استاسزو;Trzcianka
+ur;چچانکا، ستاشوف کاؤنٹی;Trzcianka
+ru;Трускав;Truskaw
+ru;Трошково;Troszkowo
+ab;Трояны;Trojany
+am;ትሮያኒ፣ ማሶቪያ;Trojany
+ar;تروياني;Trojany
+av;Трояны;Trojany
+ba;Трояны;Trojany
+sgs;Truojanā;Trojany
+bg;Трояни;Trojany
+bxr;Трояны;Trojany
+ce;Трояны;Trojany
+crh;Troyanı;Trojany
+cv;Трояны;Trojany
+el;Τρογιάνε Μασοβίας;Trojany
+fa;ترویانی;Trojany
+ja;トロヤニ;Trojany
+kbd;Трояны;Trojany
+ko;트로야니;Trojany
+koi;Трояны;Trojany
+krc;Трояны;Trojany
+kv;Трояны;Trojany
+lt;Trojanai;Trojany
+lv;Trojani;Trojany
+mdf;Трояны;Trojany
+mhr;Трояны;Trojany
+mn;Трояны;Trojany
+mrj;Трояны;Trojany
+myv;Трояны веле;Trojany
+os;Трояны;Trojany
+sah;Трояны;Trojany
+sr;Тројани;Trojany
+tg;Трояни;Trojany
+udm;Трояны;Trojany
+uk;Трояни;Trojany
+xal;Трояны;Trojany
+ru;Трояны;Trojany
+zh;特洛疆尼;Trojany
+he;טרבלינקה;Treblinka
+ru;Треблинка;Treblinka
+ru;Тракишки;Trakiszki
+ru;Топшины;Toprzyny
+ru;Топчево;Topczewo
+lv;Tomašova Mazovecka;Tomaszów Mazowiecki
+ru;Томашув-Мазовецкий;Tomaszów Mazowiecki
+lt;Mazovijos Tomašuvas;Tomaszów Mazowiecki
+bg;Томашов Мазовецки;Tomaszów Mazowiecki
+uk;Томашув-Мазовецький;Tomaszów Mazowiecki
+zh;馬佐夫舍地區托馬舒夫;Tomaszów Mazowiecki
+he;טומשוב מזובייצקי;Tomaszów Mazowiecki
+sr;Томашов Мазовјецки;Tomaszów Mazowiecki
+th;ตอมาชูฟมาซอเวียตสกี;Tomaszów Mazowiecki
+tt;Томашув-Мазовецки;Tomaszów Mazowiecki
+ru;Томашув-Любельски;Tomaszów Lubelski
+uk;Томашів;Tomaszów Lubelski
+ja;トマシュフ・ルベルスキ;Tomaszów Lubelski
+bg;Томашов Любелски;Tomaszów Lubelski
+lv;Tomašova Lubelska;Tomaszów Lubelski
+ru;Томашув-Любельский;Tomaszów Lubelski
+zh;盧布林地區托馬舒夫;Tomaszów Lubelski
+he;טומשוב לובלסקי;Tomaszów Lubelski
+lt;Liublino Tomašuvas;Tomaszów Lubelski
+sr;Томашов Лубелски;Tomaszów Lubelski
+ru;Тоболово;Tobołowo
+ru;Тлущ;Tłuszcz
+pl;Tereszpol Zaorenda;Tereszpol
+ru;Тересполь;Terespol
+be;Цярэспаль;Terespol
+ja;テレスポル;Terespol
+lt;Terespolis;Terespol
+lv;Terespole;Terespol
+uk;Тереспіль;Terespol
+zh;泰雷斯波爾;Terespol
+ru;Тересин;Teresin
+sk;Gmina Teresin;Teresin
+uk;Ґміна Тересін;Teresin
+pl;Gmina Teresin;Teresin
+ru;Телатын;Telatyn
+ru;Теляки;Telaki
+ru;Тартак;Tartak
+ja;タルヌフ;Tarnów
+lv;Tarnova;Tarnów
+uk;Тарнув;Tarnów
+lt;Tarnuvas;Tarnów
+be;Тарнуў;Tarnów
+fa;تارنوف;Tarnów
+ko;타르누프;Tarnów
+bg;Тарнов;Tarnów
+he;טרנוב;Tarnów
+ru;Тарнув;Tarnów
+zh;塔爾努夫;Tarnów
+lt;Tarnogrudas;Tarnogród
+uk;Терногород;Tarnogród
+lv;Tarnogroda;Tarnogród
+ru;Тарногруд;Tarnogród
+zh;塔爾諾格魯德;Tarnogród
+he;טרנוגרוד;Tarnogród
+sr;Тарногрод;Tarnogród
+lv;Tarnobžega;Tarnobrzeg
+ru;Тарнобжеге;Tarnobrzeg
+bg;Тарнобжег;Tarnobrzeg
+crh;Tarnobjeg;Tarnobrzeg
+fa;تارنوبزک;Tarnobrzeg
+he;טרנובזג;Tarnobrzeg
+ja;タルノブジェク;Tarnobrzeg
+ko;타르노브제크;Tarnobrzeg
+lt;Tarnobžegas;Tarnobrzeg
+mk;Тарнобжег;Tarnobrzeg
+sr;Тарнобжег;Tarnobrzeg
+uk;Тарнобжег;Tarnobrzeg
+ru;Тарнобжег;Tarnobrzeg
+zh;塔尔诺布热格;Tarnobrzeg
+be;Тарнобжаг;Tarnobrzeg
+tt;Тарнобжег;Tarnobrzeg
+ru;Тарнаватка;Tarnawatka
+he;טרלוב;Tarłów
+ru;Таргувек;Targówek
+lv;Tarčina;Tarczyn
+uk;Тарчин;Tarczyn
+ru;Тарчин;Tarczyn
+zh;塔爾琴;Tarczyn
+he;טרצין;Tarczyn
+sr;Тарчин;Tarczyn
+ru;Шиплишки;Szypliszki
+lt;Šipliškės valsčius;Szypliszki
+sk;Gmina Szypliszki;Szypliszki
+uk;Ґміна Шиплішкі;Szypliszki
+lt;Šipliškė;Szypliszki
+ru;Шимонка;Szymonka
+ru;Шиманы;Szymany
+ru;Шимаки;Szymaki
+lt;Šydlovecas;Szydłowiec
+sl;Šydloviéc;Szydłowiec
+lv;Šidloveca;Szydłowiec
+uk;Шидловець;Szydłowiec
+ru;Шидловец;Szydłowiec
+bg;Шидловец;Szydłowiec
+zh;希德沃維茨;Szydłowiec
+he;שידלובייץ;Szydłowiec
+be;Шыдловец;Szydłowiec
+sr;Шидловјец;Szydłowiec
+sk;Gmina Szydłów;Szydłów
+uk;Ґміна Шидлув;Szydłów
+ru;Шидлув;Szydłów
+ru;Штабин;Sztabin
+ru;Шреньск;Szreńsk
+ru;Шпаки;Szpaki
+ru;Шевница;Szewnica
+ru;Шестно;Szestno
+ru;Шепетово-Стацья;Szepietowo
+lt;Šepetovas;Szepietowo
+lv;Šepetovo;Szepietowo
+sr;Шепјетово;Szepietowo
+ru;Шепетово;Szepietowo
+pl;Stary Szelków (do 1999);Szelków
+ru;Щитно;Szczytno
+bg;Шчитно;Szczytno
+lv;Ščitno;Szczytno
+lt;Ščytnas;Szczytno
+uk;Щитно;Szczytno
+zh;什奇特諾;Szczytno
+sr;Шчитно;Szczytno
+uk;Щутків;Szczutków
+he;שצוצין;Szczuczyn
+lt;Ščučinas;Szczuczyn
+lv;Ščučina;Szczuczyn
+sr;Шчучин;Szczuczyn
+uk;Щучин;Szczuczyn
+ru;Щучин;Szczuczyn
+zh;什丘琴;Szczuczyn
+bg;Шчучин;Szczucin
+he;שצוצין;Szczucin
+lv;Ščucina;Szczucin
+sr;Шчућин;Szczucin
+uk;Щуцин;Szczucin
+ru;Щуцин;Szczucin
+zh;什丘欽;Szczucin
+ru;Щепанково;Szczepankowo
+lv;Ščebžešina;Szczebrzeszyn
+uk;Щебрешин;Szczebrzeszyn
+ru;Щебжешин;Szczebrzeszyn
+zh;什切布熱申;Szczebrzeszyn
+he;שצבזשין;Szczebrzeszyn
+sr;Шчебжешин;Szczebrzeszyn
+ru;Щавница;Szczawnica
+lv;Ščavņica;Szczawnica
+sr;Шчавњица;Szczawnica
+uk;Щавниця;Szczawnica
+zh;什恰夫尼察;Szczawnica
+bg;Шчавница;Szczawnica
+tt;Шчавнитса;Szczawnica
+be;Шчаўніца;Szczawnica
+lt;Ščavnica;Szczawnica
+ce;Щавница;Szczawnica
+ko;슈차브니차;Szczawnica
+el;Στσαβνίτσα;Szczawnica
+ja;シュチャヴニツァ;Szczawnica
+fa;سوچاوونیکا;Szczawnica
+he;שצ'אבניקה;Szczawnica
+ru;Шомбрук;Sząbruk
+ru;Сыпитки;Sypitki
+he;שוויינטה ליפקה;Święta Lipka
+ru;Свентайно;Świętajno
+ru;Свиебоджин;Świebodzin
+ru;Свидры;Świdry
+lt;Suvalkai;Suwałki
+lv;Suvalki;Suwałki
+na;Suwalki;Suwałki
+bg;Сувалки;Suwałki
+ja;スヴァウキ;Suwałki
+ko;수바우키;Suwałki
+uk;Сувалки;Suwałki
+be;Сувалкі;Suwałki
+he;סובאלק;Suwałki
+ru;Сувалки;Suwałki
+zh;苏瓦乌基;Suwałki
+ru;Сураж;Suraż
+be;Сураж;Suraż
+lt;Suražas;Suraż
+lv;Suraža;Suraż
+sr;Сураж;Suraż
+uk;Сураж;Suraż
+zh;蘇拉日;Suraż
+ru;Супрасль;Supraśl
+lt;Supraslio valsčius;Supraśl
+sk;Gmina Supraśl;Supraśl
+uk;Ґміна Супрасль;Supraśl
+bg;Сулейовек;Sulejówek
+ka;სულეიუვეკი;Sulejówek
+lv;Sulejuveka;Sulejówek
+sr;Сулејовек;Sulejówek
+uk;Сулеювек;Sulejówek
+ru;Сулеювек;Sulejówek
+ru;Суленцин;Sulęcin Szlachecki
+ru;Сухожебры;Suchożebry
+be;Сухаволя;Suchowola
+lt;Suchovola;Suchowola
+lv;Suhovola;Suchowola
+uk;Суховоля;Suchowola
+ru;Суховоля;Suchowola
+zh;蘇霍沃拉;Suchowola
+he;סוחובולה;Suchowola
+sr;Суховола;Suchowola
+lv;Suhedņova;Suchedniów
+sr;Сухедњов;Suchedniów
+uk;Сухеднюв;Suchedniów
+ru;Сухеднюв;Suchedniów
+zh;蘇海德紐夫;Suchedniów
+he;סוחדניוב;Suchedniów
+ru;Сухцице;Suchcice
+ru;Ступск;Stupsk
+ru;Студзянки;Studzianki
+ru;Стубно;Stubno
+he;סטזיזוב;Strzyżów
+bg;Стшижов;Strzyżów
+lv;Stšižova;Strzyżów
+uk;Стрижів;Strzyżów
+ru;Стшижув;Strzyżów
+zh;斯奇茹夫;Strzyżów
+sr;Стшижов;Strzyżów
+ru;Стшегово-Осада;Strzegowo
+pl;Strzegowo-Osada;Strzegowo
+ru;Страдуны;Straduny
+ru;Страхувка;Strachówka
+ru;Страбля;Strabla
+ru;Стожне;Stożne
+he;סטופניצה;Stopnica
+lv;Stočeka Lukovska;Stoczek Łukowski
+uk;Сточек-Луковський;Stoczek Łukowski
+ru;Сточек-Луковский;Stoczek Łukowski
+zh;武庫夫地區斯托切克;Stoczek Łukowski
+he;סטוצק לוקובסקי;Stoczek Łukowski
+sr;Сточек Луковски;Stoczek Łukowski
+ru;Сточек;Stoczek
+ru;Стердынь;Sterdyń
+ru;Стембарк;Stębark
+ja;ステンバルク;Stębark
+lt;Tanenbergas;Stębark
+uk;Стембарк;Stębark
+ru;Ставорово;Staworowo
+uk;Ставіські;Stawiski
+lt;Staviskai;Stawiski
+lv;Staviski;Stawiski
+ru;Стависки;Stawiski
+zh;斯塔維斯基;Stawiski
+he;סטוויסקי;Stawiski
+sr;Стависки;Stawiski
+ru;Ставигута;Stawiguda
+lv;Stašova;Staszów
+he;סטשוב;Staszów
+uk;Сташув;Staszów
+ru;Сташув;Staszów
+bg;Сташов;Staszów
+zh;斯塔舒夫;Staszów
+sr;Сташов;Staszów
+uk;Старий Сонч;Stary Sącz
+lv;Stari Sonča;Stary Sącz
+ru;Старый Сонч;Stary Sącz
+zh;舊松奇;Stary Sącz
+sr;Стари Сонч;Stary Sącz
+be;Стары Сонч;Stary Sącz
+bg;Стари Сонч;Stary Sącz
+hu;Ószandec;Stary Sącz
+ar;كيس قديم;Stary Sącz
+ru;Старе-Юхы;Stare Juchy
+ru;Стары-Гуты;Stare Guty
+ru;Стара-Весь;Stara Wieś
+lv;Starahovice;Starachowice
+lt;Starachovicės;Starachowice
+uk;Стараховіце;Starachowice
+bg;Стараховице;Starachowice
+ru;Стараховице;Starachowice
+zh;斯塔拉霍維采;Starachowice
+el;Σταραχοβίτσε;Starachowice
+sr;Стараховице;Starachowice
+he;סטרחוביצה;Starachowice
+tt;Стараховице;Starachowice
+sk;Gmina Stąporków;Stąporków
+uk;Ґміна Стомпоркув;Stąporków
+ru;Стомпоркув;Stąporków
+ru;Станиславув;Stanisławów
+uk;Станіславчик;Stanisławczyk
+lv;Stalova Vola;Stalowa Wola
+lt;Staliova Volia;Stalowa Wola
+uk;Стальова Воля;Stalowa Wola
+bg;Стальова Воля;Stalowa Wola
+ru;Сталёва-Воля;Stalowa Wola
+zh;斯塔洛瓦沃拉;Stalowa Wola
+sr;Сталова Вола;Stalowa Wola
+tt;Сталёва-Воля;Stalowa Wola
+ru;Сроково;Srokowo
+ka;შრუდმიეშციე;Śródmieście
+ro;Warszawa-Śródmieście;Śródmieście
+sk;Warszawa-Śródmieście;Śródmieście
+vi;Warszawa-Śródmieście;Śródmieście
+ru;Средместье;Śródmieście
+uk;Середмістя;Śródmieście
+ru;Сребрна;Srebrna
+ru;Спыхово;Spychowo
+ru;Сорквиты;Sorkwity
+ru;Соньск;Sońsk
+ru;Сомянка;Somianka
+ru;Солтманы;Sołtmany
+ru;Соколы;Sokoły
+ru;Соколув-Подляски;Sokołów Podlaski
+lv;Sokolova Podlaska;Sokołów Podlaski
+uk;Соколув-Підляський;Sokołów Podlaski
+bg;Соколов Подляски;Sokołów Podlaski
+lt;Palenkės Sokoluvas;Sokołów Podlaski
+ru;Соколув-Подляский;Sokołów Podlaski
+zh;波德拉謝地區索科武夫;Sokołów Podlaski
+be;Саколаў Падляскі;Sokołów Podlaski
+he;סוקולוב פודלסקי;Sokołów Podlaski
+sr;Соколов Подласки;Sokołów Podlaski
+bg;Соколов Малополски;Sokołów Małopolski
+bg;Соколув Малополски;Sokołów Małopolski
+he;סוקולוב מאלופולסקי;Sokołów Małopolski
+lv;Sokolova Malopolska;Sokołów Małopolski
+ru;Соколув-Малопольски;Sokołów Małopolski
+sr;Соколов Малополски;Sokołów Małopolski
+uk;Соколів-Малопольський;Sokołów Małopolski
+zh;小波蘭地區索科武夫;Sokołów Małopolski
+ru;Сокулки;Sokółki
+bg;Соколка;Sokółka
+be;Сакулка;Sokółka
+uk;Сокулка;Sokółka
+ru;Сокулка;Sokółka
+zh;索庫烏卡;Sokółka
+he;סוקולקה;Sokółka
+sr;Соколка;Sokółka
+ru;Сохоцин;Sochocin
+ru;Сохачев;Sochaczew
+lv;Sohačeva;Sochaczew
+uk;Сохачев;Sochaczew
+he;סוכצב;Sochaczew
+bg;Сохачев;Sochaczew
+ja;ソハチェフ;Sochaczew
+ko;소하체프;Sochaczew
+zh;索哈契夫;Sochaczew
+lt;Sochačevas;Sochaczew
+sr;Сохачев;Sochaczew
+ru;Соболево;Sobolewo
+ru;Соболев;Sobolew
+he;סובקוב;Sobków
+ru;Снядово;Śniadowo
+ru;Смоляйны;Smolajny
+ru;Слончево;Słończewo
+bg;Сломники;Słomniki
+lv;Slomņiki;Słomniki
+sr;Сломњики;Słomniki
+uk;Сломники;Słomniki
+ru;Сломники;Słomniki
+ru;Слохы-Аннопольске;Słochy Annopolskie
+uk;Гміна Славно;Sławno
+ru;Славно;Sławno
+be;Славатычы;Sławatycze
+he;סלווטיצ'ה;Sławatycze
+lt;Slavatičė;Sławatycze
+ru;Славатыче;Sławatycze
+ru;Скупово;Skupowo
+ru;Скомацк-Вельки;Skomack Wielki
+ru;Сколиты;Skolity
+ru;Скерневице;Skierniewice
+cs;Skiernievice;Skierniewice
+ja;スキェルニェヴィツェ;Skierniewice
+lt;Skernevicės;Skierniewice
+lv;Skerņevice;Skierniewice
+ko;스키에르니에비체;Skierniewice
+bg;Скерневице;Skierniewice
+uk;Скерневіце;Skierniewice
+zh;斯凱爾涅維采;Skierniewice
+be;Скернявіцы;Skierniewice
+he;סקרנביץ;Skierniewice
+sr;Скјерњевице;Skierniewice
+ru;Скаржиско-Каменна;Skarżysko-Kamienna
+bg;Скаржиско-Каменна;Skarżysko-Kamienna
+lv;Skaržisko-Kamenna;Skarżysko-Kamienna
+lt;Skaržyskas-Kamena;Skarżysko-Kamienna
+uk;Скаржисько-Каменна;Skarżysko-Kamienna
+zh;斯卡日斯科-卡緬納;Skarżysko-Kamienna
+he;סקרזיסקו-קמיינה;Skarżysko-Kamienna
+sr;Скаржиско-Камјена;Skarżysko-Kamienna
+udm;Скаржыско-Каменна;Skarżysko-Kamienna
+he;סקרישב;Skaryszew
+lv;Skariševa;Skaryszew
+sr;Скаришев;Skaryszew
+uk;Скаришев;Skaryszew
+ru;Скарышев;Skaryszew
+zh;斯卡雷謝夫;Skaryszew
+he;סקלבמייז;Skalbmierz
+lv;Skalbmeža;Skalbmierz
+sr;Скалбмјеж;Skalbmierz
+uk;Скальбмеж;Skalbmierz
+ru;Скальбмеж;Skalbmierz
+zh;斯卡爾布梅日;Skalbmierz
+sk;Gmina Sienno;Sienno
+uk;Ґміна Сенно;Sienno
+ru;Сенно;Sienno
+ru;Сенница;Siennica
+sk;Gmina Siennica;Siennica
+uk;Ґміна Сенниця;Siennica
+bg;Шенява;Sieniawa
+he;שיניאווה;Sieniawa
+lv;Seņava;Sieniawa
+sr;Сјењава;Sieniawa
+uk;Сенява;Sieniawa
+ru;Сенява;Sieniawa
+zh;谢尼亚瓦;Sieniawa
+be;Сямяноўка;Siemianówka
+be;Семятычы;Siemiatycze
+uk;Сімятичі;Siemiatycze
+lt;Semiatičė;Siemiatycze
+lv;Semjatiče;Siemiatycze
+he;סמיאטיץ;Siemiatycze
+bg;Шемятиче;Siemiatycze
+ru;Семятыче;Siemiatycze
+zh;謝米亞蒂切;Siemiatycze
+sr;Сјемјатиче;Siemiatycze
+pl;Siemiątkowo Koziebrodzkie;Siemiątkowo
+sk;Gmina Siemiątkowo;Siemiątkowo
+uk;Ґміна Семьонтково;Siemiątkowo
+ru;Семёнтково;Siemiątkowo
+lv;Sedlce;Siedlce
+ru;Седльце;Siedlce
+uk;Седльце;Siedlce
+bg;Шедълце;Siedlce
+lt;Sedlcos;Siedlce
+ko;시에들체;Siedlce
+zh;謝德爾采;Siedlce
+mn;Седльце;Siedlce
+be;Седльцы;Siedlce
+he;שדליץ;Siedlce
+sr;Сједлице;Siedlce
+tt;Седльце;Siedlce
+ru;Сидра;Sidra
+ru;Серокомла;Serokomla
+ru;Сероцк;Serock
+lt;Serockas;Serock
+lv;Serocka;Serock
+uk;Сероцьк;Serock
+zh;塞羅茨克;Serock
+he;סרוצק;Serock
+sr;Сероцк;Serock
+be;Семпопаль;Sępopol
+uk;Семпополь;Sępopol
+lv;Sempopole;Sępopol
+ru;Семпополь;Sępopol
+zh;森波波爾;Sępopol
+sr;Сенпопол;Sępopol
+lt;Seinai;Sejny
+ru;Сейны;Sejny
+bg;Сенджишов Малополски;Sędziszów Małopolski
+lv;Seņdzišova Malopolska;Sędziszów Małopolski
+sr;Сенђишов Малополски;Sędziszów Małopolski
+uk;Сендзішув-Малопольський;Sędziszów Małopolski
+ru;Сендзишув-Малопольски;Sędziszów Małopolski
+zh;小波蘭地區森濟舒夫;Sędziszów Małopolski
+lv;Seņdzišova;Sędziszów
+sr;Сенђишов;Sędziszów
+uk;Сендзішув;Sędziszów
+ru;Сендзишув;Sędziszów
+zh;森濟舒夫;Sędziszów
+he;סנדזישוב;Sędziszów
+sk;Gmina Sawin;Sawin
+uk;Ґміна Савін;Sawin
+ru;Савин;Sawin
+ru;Сарново;Sarnowo
+ru;Сарнаки;Sarnaki
+lt;Sarnakų valsčius;Sarnaki
+sk;Gmina Sarnaki;Sarnaki
+uk;Ґміна Сарнакі;Sarnaki
+uk;Сянік;Sanok
+hy;Սանոկ;Sanok
+ko;사노크;Sanok
+lv;Sanoka;Sanok
+ja;サノク;Sanok
+bg;Санок;Sanok
+he;סאנוק;Sanok
+ru;Санок;Sanok
+zh;萨诺克;Sanok
+lt;Sanokas;Sanok
+ka;სანოკი;Sanok
+sr;Санок;Sanok
+cs;Sandoměř;Sandomierz
+sv;Sandomir;Sandomierz
+uk;Сандомир;Sandomierz
+be;Сандомеж;Sandomierz
+bg;Сандомеж;Sandomierz
+ka;სანდომირი;Sandomierz
+ko;산도미에시;Sandomierz
+lt;Sandomieras;Sandomierz
+lv;Sandomeža;Sandomierz
+sr;Сандомјеж;Sandomierz
+ru;Сандомир;Sandomierz
+zh;桑多梅日;Sandomierz
+he;סנדומייז;Sandomierz
+ru;Самолюбе;Samolubie
+ru;Самлавки;Samławki
+ru;Самин;Saminek
+ru;Самагово;Samagowo
+lt;Sadovnės valsčius;Sadowne
+sk;Gmina Sadowne;Sadowne
+uk;Ґміна Садовне;Sadowne
+ru;Садовне;Sadowne
+sk;Gmina Sadowie;Sadowie
+uk;Ґміна Садове;Sadowie
+ru;Садове;Sadowie
+ru;Садовне;Sadoles
+sk;Gmina Sadkowice;Sadkowice
+uk;Ґміна Садковіце;Sadkowice
+ru;Садковице;Sadkowice
+lt;Sabnių valsčius;Sabnie
+uk;Ґміна Сабне;Sabnie
+ru;Сабне;Sabnie
+el;Ρζόχουφ;Rzochów
+cs;Řešov;Rzeszów
+ja;ジェシュフ;Rzeszów
+lv;Žešova;Rzeszów
+ru;Жешув;Rzeszów
+he;זשוב;Rzeszów
+ar;جيشوف;Rzeszów
+vep;Žešuv;Rzeszów
+crh;Jeşuv;Rzeszów
+sr;Жешов;Rzeszów
+lt;Žešuvas;Rzeszów
+uk;Ряшів;Rzeszów
+fa;ژشوف;Rzeszów
+ko;제슈프;Rzeszów
+bg;Жешов;Rzeszów
+be;Жэшаў;Rzeszów
+zh;热舒夫;Rzeszów
+th;เชชูฟ;Rzeszów
+az;Jeşuv;Rzeszów
+el;Ζέσουφ;Rzeszów
+kk;Жешув;Rzeszów
+uz;Rjeshov;Rzeszów
+ky;Жешув;Rzeszów
+hi;रजेशो;Rzeszów
+bn;রজেশো;Rzeszów
+ur;رزیشو;Rzeszów
+am;ርዘሾው;Rzeszów
+om;Rzeshoo;Rzeszów
+pa;ਰਜੇਸ਼ੋ;Rzeszów
+ps;رزیشو;Rzeszów
+so;Rzeshoo;Rzeszów
+tg;Ржешув;Rzeszów
+tt;Җешув;Rzeszów
+ru;Жекунь;Rzekuń
+sk;Gmina Rzeczyca;Rzeczyca
+uk;Ґміна Жечиця;Rzeczyca
+ru;Жечица;Rzeczyca
+ru;Рытро;Rytro
+lv;Rina;Ryn
+uk;Рин;Ryn
+lt;Rynas;Ryn
+ru;Рын;Ryn
+zh;雷恩;Ryn
+sr;Рин;Ryn
+uk;Риманів-Здрій;Rymanów-Zdrój
+he;רימנוב;Rymanów
+uk;Риманів;Rymanów
+ru;Рыманув;Rymanów
+lv;Rimanova;Rymanów
+zh;雷馬努夫;Rymanów
+bg;Риманов;Rymanów
+fa;ریمانوف;Rymanów
+sr;Риманов;Rymanów
+lv;Riki;Ryki
+uk;Рики;Ryki
+ru;Рыки;Ryki
+zh;雷基;Ryki
+bg;Рики;Ryki
+he;ריקי;Ryki
+sr;Рики;Ryki
+ru;Рыхново;Rychnowo
+ru;Рыболы;Ryboły
+lt;Ribolai;Ryboły
+ru;Рыбна;Rybno
+ru;Рыбно;Rybno
+ru;Рутки;Rutki
+ru;Рутка-Тартах;Rutka Tartak
+ru;Руново;Runowo
+ru;Румы;Rumy
+ru;Рудзенко;Rudzienko
+bg;Рудник над Санем;Rudnik nad Sanem
+he;רודניק על נהר סן;Rudnik nad Sanem
+lv;Rudņika pie Sanas;Rudnik nad Sanem
+sr;Рудник над Санем;Rudnik nad Sanem
+uk;Рудник-над-Сяном;Rudnik nad Sanem
+ru;Рудник-над-Санем;Rudnik nad Sanem
+zh;桑河畔鲁德尼克;Rudnik nad Sanem
+ru;Рудка;Rudka
+lt;Rudkos valsčius;Rudka
+ro;Comuna Rudka;Rudka
+sk;Gmina Rudka;Rudka
+uk;Ґміна Рудка;Rudka
+ru;Рудавка;Rudawka
+ru;Руда;Ruda
+lv;Rucjane-Ņida;Ruciane-Nida
+uk;Руцяне-Нида;Ruciane-Nida
+ru;Ручане-Нида;Ruciane-Nida
+zh;魯恰內尼達;Ruciane-Nida
+sr;Рућане-Њида;Ruciane-Nida
+ru;Рухна;Ruchna
+ru;Розоги;Rozogi
+bg;Ропчице;Ropczyce
+lv;Ropčice;Ropczyce
+uk;Ропчице;Ropczyce
+ru;Ропчице;Ropczyce
+zh;羅普奇采;Ropczyce
+he;רופשיץ;Ropczyce
+sr;Ропчице;Ropczyce
+ru;Ропа;Ropa
+ru;Романувка;Romanówka
+ru;Романовце;Romanowce
+lt;Ramoniškė;Romanowce
+ru;Рокитно;Rokitno
+ru;Рогушин;Roguszyn
+ru;Рогозничка;Rogoźnica
+ru;Рогале;Rogale
+ru;Родново;Rodnowo
+ru;Решель;Reszel
+uk;Решель;Reszel
+lt;Rešlius;Reszel
+lv;Rešela;Reszel
+zh;雷謝爾;Reszel
+sr;Решел;Reszel
+tt;Решел;Reszel
+be;Рэшаль;Reszel
+zh-Hans;雷谢尔;Reszel
+ce;Решель;Reszel
+el;Ρέσελ;Reszel
+ja;レシェル;Reszel
+ru;Репки;Repki
+he;רמברטוב;Rembertów
+ru;Рембертув;Rembertów
+el;Ρεμπέρτουφ;Rembertów
+zh;倫貝托夫區;Rembertów
+uk;Рембертув;Rembertów
+ka;რემბერტუვი;Rembertów
+ja;レンベルトゥフ;Rembertów
+sr;Рембетов;Rembertów
+lv;Rejovecfabrični;Rejowiec Fabryczny
+sr;Рејовјец Фабрични;Rejowiec Fabryczny
+uk;Рейовець-Фабричний;Rejowiec Fabryczny
+ru;Реёвец-Фабрычны;Rejowiec Fabryczny
+zh;雷約維茨法布里奇內;Rejowiec Fabryczny
+ru;Регимин;Regimin
+uk;Рава-Мазовецька;Rawa Mazowiecka
+lv;Rava Mazovecka;Rawa Mazowiecka
+bg;Рава Мазовецка;Rawa Mazowiecka
+ru;Рава-Мазовецкая;Rawa Mazowiecka
+zh;馬佐夫舍地區拉瓦;Rawa Mazowiecka
+he;רווה מזובייצקה;Rawa Mazowiecka
+sr;Рава Мазовјецка;Rawa Mazowiecka
+ru;Раковиче;Rakowicze
+he;רקוב;Raków
+ru;Райгруд;Rajgród
+lt;Raigardas;Rajgród
+lv;Rajgroda;Rajgród
+uk;Райгруд;Rajgród
+zh;拉伊格魯德;Rajgród
+he;ראיגרוד;Rajgród
+sr;Рајгрод;Rajgród
+ru;Рафалувка;Rafałówka Borowiki
+uk;Радинь-Підляський;Radzyń Podlaski
+bg;Радзин Подляски;Radzyń Podlaski
+lv;Radziņa Podlaska;Radzyń Podlaski
+ru;Радзынь-Подляский;Radzyń Podlaski
+zh;波德拉謝地區拉曾;Radzyń Podlaski
+be;Радзынь Падляскі;Radzyń Podlaski
+he;רדזין פודלסקי;Radzyń Podlaski
+lt;Palenkės Radzinas;Radzyń Podlaski
+sr;Рађин Подласки;Radzyń Podlaski
+lv;Radzimina;Radzymin
+uk;Радзимін;Radzymin
+sr;Рађимин;Radzymin
+ru;Радзымин;Radzymin
+zh;拉濟明;Radzymin
+he;ראדזימין;Radzymin
+ru;Радзивиллувка;Radziwiłłówka
+ru;Радзилув;Radziłów
+he;רדזילוב;Radziłów
+lt;Radziluvas;Radziłów
+ru;Радзее;Radzieje
+lt;Radzijai;Radzieje
+ru;Радзанув;Radzanów
+lv;Radimno;Radymno
+sr;Радимно;Radymno
+uk;Радимно;Radymno
+ru;Радымно;Radymno
+zh;拉迪姆诺;Radymno
+bg;Радимно;Radymno
+he;ראדימנו;Radymno
+bg;Радуч;Raducz
+cv;Радуч;Raducz
+hr;Raduč;Raducz
+sr;Радуч;Raducz
+uk;Радуч;Raducz
+ru;Радуч;Raducz
+he;ראדושיצה;Radoszyce
+ru;Родостово;Radostowo
+bg;Радом;Radom
+he;ראדום;Radom
+lv;Radoma;Radom
+ru;Радом;Radom
+zh;拉多姆;Radom
+be;Радам;Radom
+ko;라돔;Radom
+sr;Радом;Radom
+lt;Radomas;Radom
+fa;رادوم;Radom
+uk;Радом;Radom
+ja;ラドム;Radom
+ka;რადომი;Radom
+th;ราดอม;Radom
+ar;رادوم;Radom
+el;Ράντομ;Radom
+hak;Là-tô-mê;Radom
+hy;Ռադոմ;Radom
+tt;Радом;Radom
+ru;Рачки;Raczki
+lt;Račkos;Raczki
+lv;Racjonža;Raciąż
+uk;Рацьонж;Raciąż
+ru;Рачёнж;Raciąż
+zh;拉瓊日;Raciąż
+he;רציונז;Raciąż
+sr;Раћонж;Raciąż
+sk;Gmina Rachanie;Rachanie
+uk;Ґміна Рахане;Rachanie
+ru;Рахане;Rachanie
+sk;Gmina Puszcza Mariańska;Puszcza Mariańska
+uk;Ґміна Пуща-Марянська;Puszcza Mariańska
+ru;Пуща-Маряньска;Puszcza Mariańska
+ru;Пурда;Purdka
+sk;Gmina Purda;Purda
+uk;Ґміна Пурда;Purda
+ru;Пурда;Purda
+ru;Пуньск;Puńsk
+lt;Punskas;Puńsk
+bg;Пултуск;Pułtusk
+he;פולטוסק;Pułtusk
+lv;Pultuska;Pułtusk
+uk;Пултуськ;Pułtusk
+ru;Пултуск;Pułtusk
+zh;普烏圖斯克;Pułtusk
+be;Пултуск;Pułtusk
+sr;Пултуск;Pułtusk
+ja;プワヴィ;Puławy
+ru;Пулавы;Puławy
+be;Пулавы;Puławy
+bg;Пулави;Puławy
+lt;Pulavai;Puławy
+ltg;Pulavi;Puławy
+lv;Pulavi;Puławy
+uk;Пулави;Puławy
+zh;普瓦維;Puławy
+he;פולאווי;Puławy
+sr;Пулави;Puławy
+tt;Пулавы;Puławy
+ru;Псуцин;Psucin
+pl;Psary;Psary-Stara Wieś
+he;פשיטיק;Przytyk
+he;פשיסחה;Przysucha
+bg;Пшисуха;Przysucha
+lv;Pšisuha;Przysucha
+uk;Пшисуха;Przysucha
+ru;Пшисуха;Przysucha
+zh;普日蘇哈;Przysucha
+sr;Пшисуха;Przysucha
+uk;Переворськ;Przeworsk
+lv;Pševorska;Przeworsk
+bg;Пшеворск;Przeworsk
+ru;Пшеворск;Przeworsk
+zh;普熱沃斯克;Przeworsk
+cs;Převorsk;Przeworsk
+sr;Пшеворск;Przeworsk
+ru;Пшеросль;Przerośl
+lt;Prieraslis;Przerośl
+uk;Перемишль;Przemyśl
+ru;Перемышль;Przemyśl
+lt;Peremyšlis;Przemyśl
+lv;Pšemisla;Przemyśl
+sr;Пшемисл;Przemyśl
+ja;プシェムィシル;Przemyśl
+ko;프셰미실;Przemyśl
+cs;Přemyšl;Przemyśl
+bg;Пшемишъл;Przemyśl
+he;פשמישל;Przemyśl
+ru;Пшемысль;Przemyśl
+zh;普热梅希尔;Przemyśl
+tt;Пшемысль;Przemyśl
+bg;Пшецлав;Przecław
+lv;Pšeclava;Przecław
+sr;Пшецлав;Przecław
+ru;Пшецлав;Przecław
+zh;普熱茨瓦夫;Przecław
+lv;Pšasniša;Przasnysz
+lt;Pšasnyšas;Przasnysz
+uk;Пшасниш;Przasnysz
+bg;Пшасниш;Przasnysz
+ru;Пшасныш;Przasnysz
+zh;普扎斯内什;Przasnysz
+ar;برزاسنيسز;Przasnysz
+sr;Пшасниш;Przasnysz
+lv;Pruškova;Pruszków
+sr;Прушков;Pruszków
+uk;Прушкув;Pruszków
+lt;Pruškuvas;Pruszków
+bg;Прушков;Pruszków
+ja;プルシュクフ;Pruszków
+ru;Прушкув;Pruszków
+zh;普魯斯科夫;Pruszków
+tt;Прушкув;Pruszków
+ru;Прушкова;Pruszków
+tt;Прухник;Pruchnik
+be;Прухнік;Pruchnik
+ru;Прухник;Pruchnik
+bg;Прухник;Pruchnik
+lv;Pruhņika;Pruchnik
+uk;Порохник;Pruchnik
+sr;Прухњик;Pruchnik
+ce;Прухник;Pruchnik
+zh;普魯赫尼克;Pruchnik
+az;Pruçnik;Pruchnik
+fa;پروچنیک;Pruchnik
+he;פרוחניק;Pruchnik
+bg;Прошовице;Proszowice
+uk;Прошовіце;Proszowice
+lv;Prošovice;Proszowice
+ru;Прошовице;Proszowice
+zh;普羅紹維采;Proszowice
+sr;Прошовице;Proszowice
+ru;Простынь;Prostyń
+ru;Простки;Prostki
+ru;Промна;Promna
+ru;Прухенки;Prochenki
+ru;Позездже;Pozezdrze
+sk;Gmina Potworów;Potworów
+uk;Ґміна Потворув;Potworów
+ru;Потворув;Potworów
+uk;Ґміна Поток-Велькі;Potok Wielki
+ru;Поток-Вельки;Potok Wielki
+ru;Сейны;Posejny
+ru;Порыте;Poryte
+ru;Поремба;Poręba
+lv;Poņatova;Poniatowa
+sr;Поњатова;Poniatowa
+uk;Понятова;Poniatowa
+ru;Понятова;Poniatowa
+zh;波尼亞托瓦;Poniatowa
+ru;Полонь;Połoń
+sk;Gmina Policzna;Policzna
+uk;Ґміна Полічна;Policzna
+ru;Полична;Policzna
+sk;Gmina Połaniec;Połaniec
+uk;Ґміна Поланець;Połaniec
+ru;Поланец;Połaniec
+ru;Погожель;Pogorzel
+ru;Подось;Podoś Stary
+ru;Махарце;Podmacharce
+ru;Подлесьна;Podleśna
+ru;Подкова-Лесьна;Podkowa Leśna
+ru;Побикры;Pobikry
+ru;Пневник;Pniewnik
+ru;Плюты;Pluty
+ru;Плосница;Płośnica
+ru;Плески;Ploski
+he;פלונסק;Płońsk
+lv;Ploņska;Płońsk
+ru;Плоньск;Płońsk
+bg;Плонск;Płońsk
+lt;Plonskas;Płońsk
+uk;Плонськ;Płońsk
+zh;普翁斯克;Płońsk
+sr;Плоњск;Płońsk
+ur;پونسک;Płońsk
+lv;Pivņičnazdroja;Piwniczna-Zdrój
+uk;Північна-Здруй;Piwniczna-Zdrój
+jv;Piwniczna;Piwniczna-Zdrój
+ru;Пивнична-Здруй;Piwniczna-Zdrój
+zh;皮夫尼奇納-兹德魯伊;Piwniczna-Zdrój
+sr;Пивњична-Здрој;Piwniczna-Zdrój
+bg;Пивнична-Здруй;Piwniczna-Zdrój
+ru;Пиш;Pisz
+bg;Пиш;Pisz
+lt;Pišas;Pisz
+lv;Piša;Pisz
+uk;Піш;Pisz
+zh;皮什;Pisz
+sr;Пиш;Pisz
+ru;Петрашево;Piotraszewo
+lv;Pjonki;Pionki
+bg;Пьонки;Pionki
+uk;Пйонкі;Pionki
+ru;Пёнки;Pionki
+zh;皮翁基;Pionki
+lt;Pionkos;Pionki
+sr;Пјонки;Pionki
+bg;Пинчов;Pińczów
+lv;Piņčova;Pińczów
+uk;Пінчув;Pińczów
+ru;Пиньчув;Pińczów
+zh;平丘夫;Pińczów
+lt;Pinčuvas;Pińczów
+sr;Пињчов;Pińczów
+be;Піньчаў;Pińczów
+he;פינצוב;Pińczów
+bg;Пилзно;Pilzno
+he;פילזנו;Pilzno
+sr;Пилзно;Pilzno
+uk;Пільзно;Pilzno
+ru;Пильзно;Pilzno
+zh;皮爾茲諾;Pilzno
+lv;Pilava;Pilawa
+sr;Пилава;Pilawa
+uk;Пілява;Pilawa
+ru;Пилява;Pilawa
+zh;皮拉瓦;Pilawa
+lv;Peņenžno;Pieniężno
+uk;Пененжно;Pieniężno
+ru;Пененжно;Pieniężno
+zh;佩尼恩日諾;Pieniężno
+sr;Пјењенжно;Pieniężno
+ru;Пецки;Piecki
+sk;Gmina Piecki;Piecki
+uk;Гміна Пецький;Piecki
+lt;Piontnica;Piątnica
+ru;Пясутно;Piasutno
+bg;Пястов;Piastów
+lt;Piastuvas;Piastów
+lv;Pjastova;Piastów
+sr;Пјастов;Piastów
+uk;Пястув;Piastów
+ru;Пястув;Piastów
+zh;皮亞斯圖夫;Piastów
+pl;Piaski Luterskie;Piaski
+pl;Piaski Wielkie;Piaski
+ru;Пяски;Piaski
+sr;Пјасечно;Piaseczno
+ar;بياسيتشنو;Piaseczno
+bg;Пясечно;Piaseczno
+uk;Пясечно;Piaseczno
+lv;Pjasečno;Piaseczno
+ru;Пясечно;Piaseczno
+zh;皮亞塞奇諾;Piaseczno
+he;פיאסצנו;Piaseczno
+lt;Piasečnas;Piaseczno
+ru;Петрыказы;Petrykozy
+ru;Перлы;Perły
+lt;Perlai;Perły
+lt;Peleliai;Pełele
+sk;Gmina Pawłów;Pawłów
+uk;Ґміна Павлув;Pawłów
+ru;Павлув;Pawłów
+uk;Павензув;Pawężów
+ru;Пасым;Pasym
+lv;Pasima;Pasym
+uk;Пасим;Pasym
+zh;帕瑟姆;Pasym
+sr;Пасим;Pasym
+ru;Пасеки;Pasieki
+he;פרצב;Parczew
+uk;Парчів;Parczew
+lv;Parčeva;Parczew
+bg;Парчев;Parczew
+ru;Парчев;Parczew
+zh;帕爾切夫;Parczew
+lt;Parčevas;Parczew
+sr;Парчев;Parczew
+ru;Парцяки;Parciaki
+ru;Папротня;Paprotnia
+ru;Пакоше;Pakosze
+bg;Пацанов;Pacanów
+he;פצאנוב;Pacanów
+ru;Пацанов;Pacanów
+bg;Ожаров Мазовецки;Ożarów Mazowiecki
+uk;Ожарув-Мазовецький;Ożarów Mazowiecki
+lv;Ožarova Mazovecka;Ożarów Mazowiecki
+sr;Ожаров Мазовјецки;Ożarów Mazowiecki
+ru;Ожарув-Мазовецкий;Ożarów Mazowiecki
+zh;馬佐夫舍地區奧扎魯夫;Ożarów Mazowiecki
+ce;Ожарув-Мазовецки;Ożarów Mazowiecki
+he;אוזרוב;Ożarów
+lv;Ožarova;Ożarów
+sr;Ожаров;Ożarów
+uk;Ожарув;Ożarów
+ru;Ожарув;Ożarów
+zh;奧扎魯夫;Ożarów
+zh;奥恰尔尼亚;Owczarnia
+sr;Отвоцк;Otwock
+lv;Otvocka;Otwock
+he;אוטבוצק;Otwock
+uk;Отвоцьк;Otwock
+bg;Отвоцк;Otwock
+lt;Otvockas;Otwock
+ru;Отвоцк;Otwock
+zh;奧特沃茨克;Otwock
+ru;Островско;Ostrowsko
+ru;Острув-Мазовецка;Ostrów Mazowiecka
+lv;Ostrova Mazovecka;Ostrów Mazowiecka
+he;אוסטרוב מזובייצקה;Ostrów Mazowiecka
+bg;Остров Мазовецка;Ostrów Mazowiecka
+uk;Острув-Мазовецька;Ostrów Mazowiecka
+zh;馬佐夫舍地區奧斯特魯夫;Ostrów Mazowiecka
+ce;Острув-Мазовецка;Ostrów Mazowiecka
+lt;Mazovijos Ostruva;Ostrów Mazowiecka
+sr;Остров Мазовјецка;Ostrów Mazowiecka
+lv;Ostroveca Sventokšiska;Ostrowiec Świętokrzyski
+th;ออสตรอเวียตซ์ชเฟียนตอกชิสกี;Ostrowiec Świętokrzyski
+lt;Švento Kryžiaus Ostrovecas;Ostrowiec Świętokrzyski
+bg;Островец Швентокшиски;Ostrowiec Świętokrzyski
+uk;Островець-Свентокшиський;Ostrowiec Świętokrzyski
+ru;Островец-Свентокшиский;Ostrowiec Świętokrzyski
+zh;聖十字地區奧斯特羅維茨;Ostrowiec Świętokrzyski
+he;אוסטרובייץ שוויינטוקזיסקי;Ostrowiec Świętokrzyski
+sr;Островјец Свјентокшиски;Ostrowiec Świętokrzyski
+tt;Островец-Свентокшижски;Ostrowiec Świętokrzyski
+lv;Ostrolenka;Ostrołęka
+ja;オストロウェンカ;Ostrołęka
+lt;Ostrolenka;Ostrołęka
+bg;Остроленка;Ostrołęka
+ko;오스트로웽카;Ostrołęka
+uk;Остроленка;Ostrołęka
+ru;Остроленка;Ostrołęka
+zh;奧斯特羅文卡;Ostrołęka
+be;Астралэнка;Ostrołęka
+he;אוסטרולנקה;Ostrołęka
+sr;Остроленка;Ostrołęka
+tt;Остроленка;Ostrołęka
+zh;蘭奧索布尼察;Osobnica
+uk;Осек;Osiek
+ru;Осек;Osiek
+ru;Осьцислово;Ościsłowo
+ru;Ожиш;Orzysz
+lv;Ožiša;Orzysz
+uk;Ожиш;Orzysz
+zh;奧日什;Orzysz
+sr;Ожиш;Orzysz
+ru;Орнета;Orneta
+uk;Орнета;Orneta
+zh;奥尔内塔;Orneta
+sr;Орнета;Orneta
+ru;Орля;Orla
+lt;Orlos valsčius;Orla
+ro;Comuna Orla;Orla
+sk;Gmina Orla;Orla
+uk;Ґміна Орля;Orla
+zh;奧爾拉;Orla
+sk;Gmina Opole Lubelskie;Opole Lubelskie
+uk;Ґміна Ополе-Любельське;Opole Lubelskie
+ru;Ополе-Любельске;Opole Lubelskie
+ru;Ополе;Opole
+ru;Опочно;Opoczno
+lv;Opočno;Opoczno
+uk;Опочно;Opoczno
+bg;Опочно;Opoczno
+zh;奧波奇諾;Opoczno
+he;אופוצנו;Opoczno
+lt;Opočnas;Opoczno
+sr;Опочно;Opoczno
+sk;Gmina Opatowiec;Opatowiec
+uk;Ґміна Опатовець;Opatowiec
+ru;Опатовец;Opatowiec
+lv;Opatova;Opatów
+bg;Опатов;Opatów
+uk;Опатув;Opatów
+he;אפטא;Opatów
+ru;Опатув;Opatów
+zh;奧帕圖夫;Opatów
+sr;Опатов;Opatów
+lv;Olštineka;Olsztynek
+uk;Ольштинек;Olsztynek
+lt;Olštynekas;Olsztynek
+ru;Ольштынек;Olsztynek
+zh;奧爾什蒂內克;Olsztynek
+be;Альштынек;Olsztynek
+sr;Олштинек;Olsztynek
+ru;Ольштын;Olsztyn
+be;Ольштын;Olsztyn
+cs;Olštýn;Olsztyn
+uk;Ольштин;Olsztyn
+lt;Olštynas;Olsztyn
+sr;Олштин;Olsztyn
+ar;أولشتين;Olsztyn
+kk;Олштын;Olsztyn
+uz;Olshtin;Olsztyn
+ky;Олштын;Olsztyn
+hi;ओलज़्टिन;Olsztyn
+bn;ওলজটিন;Olsztyn
+ur;اولسزٹن;Olsztyn
+am;ኦልስዝቲን;Olsztyn
+az;Olştin;Olsztyn
+fa;اولشتین;Olsztyn
+ja;オルシュティン;Olsztyn
+om;Olshtin;Olsztyn
+pa;ਓਲਜ਼ਟਨ;Olsztyn
+ps;اولسزټن;Olsztyn
+so;Olshtin;Olsztyn
+tg;Ольштын;Olsztyn
+tt;Олштын;Olsztyn
+zh;奧爾薩尼察;Olszanica
+zh;奧爾薩納;Olszana
+ru;Олесно;Olesno
+zh;奧萊斯尼察;Oleśnica
+ru;Олексин;Oleksin
+bg;Олецко;Olecko
+lt;Alėcka;Olecko
+uk;Олецько;Olecko
+ru;Олецко;Olecko
+zh;奧萊茨科;Olecko
+sr;Олецко;Olecko
+ru;Окунев;Okuniew
+ru;Окса;Oksa
+lt;Aradnykai;Ogrodniki
+ru;Огроднички;Ogrodniczki
+pl;Ogonken;Ogonki
+zh;奧傑霍瓦;Odrzechowa
+zh;奧喬特尼察戈爾納;Ochotnica Górna
+zh;奧喬特尼察下爾納;Ochotnica Dolna
+uk;Охота;Ochota
+ru;Охота;Ochota
+hy;Օխոտա;Ochota
+ka;ოხოტა;Ochota
+sl;Ohota;Ochota
+sr;Охота;Ochota
+zh;奥霍塔区;Ochota
+ja;オホタ;Ochota
+fa;اوخوتا;Ochota
+he;ורשה/אוחוטה;Ochota
+zh;奧喬塔;Ochota
+ru;Обрыте;Obryte
+pl;Stacja Nurzec;Nurzec-Stacja
+ru;Нужеч-Стацья;Nurzec-Stacja
+pl;Nurzec;Nurzec-Stacja
+ru;Нур;Nur
+ru;Новы-Жмигруд;Nowy Żmigród
+he;נובי זמיגרוד;Nowy Żmigród
+ka;ნოვი-ტარგი;Nowy Targ
+lt;Naujasis Targas;Nowy Targ
+lv;Novi Targa;Nowy Targ
+sk;Nový Targ;Nowy Targ
+ru;Новы-Тарг;Nowy Targ
+ja;ノヴィ・タルク;Nowy Targ
+uk;Новий Тарг;Nowy Targ
+bg;Нови Тарг;Nowy Targ
+zh;新塔爾格;Nowy Targ
+sr;Нови Тарг;Nowy Targ
+he;נובי טארג;Nowy Targ
+hu;Újszandec;Nowy Sącz
+ja;ノヴィ・ソンチ;Nowy Sącz
+lv;Novi Sonča;Nowy Sącz
+ko;노비송치;Nowy Sącz
+bg;Нови Сонч;Nowy Sącz
+lt;Naujasis Sončas;Nowy Sącz
+uk;Новий Сонч;Nowy Sącz
+ru;Новы-Сонч;Nowy Sącz
+zh;新松奇;Nowy Sącz
+he;נובי סונץ;Nowy Sącz
+sr;Нови Сонч;Nowy Sącz
+be;Новы-Сонч;Nowy Sącz
+fa;نووی سونتس;Nowy Sącz
+ka;ნოვი-სონჩი;Nowy Sącz
+tt;Новы-Сонч;Nowy Sącz
+he;נובי קורצין;Nowy Korczyn
+ru;Новы-Двур-Мазовецки;Nowy Dwór Mazowiecki
+sr;Нови Двор Мазовјецки;Nowy Dwór Mazowiecki
+uk;Новий-Двір-Мазовецький;Nowy Dwór Mazowiecki
+bg;Нови Двур Мазовецки;Nowy Dwór Mazowiecki
+lv;Novi Dvora Mazovecka;Nowy Dwór Mazowiecki
+he;נובידבור מזובייצקי;Nowy Dwór Mazowiecki
+lt;Mazovijos Novy Dvuras;Nowy Dwór Mazowiecki
+ru;Новы-Двур-Мазовецкий;Nowy Dwór Mazowiecki
+zh;馬佐夫舍地區新莊園;Nowy Dwór Mazowiecki
+lt;Naujadvaris;Nowy Dwór
+uk;Новотанець;Nowotaniec
+ru;Новосады;Nowosady
+ru;Новогруд;Nowogród
+lt;Novogrudas;Nowogród
+lv;Novogroda;Nowogród
+sr;Новогрод;Nowogród
+uk;Новоґруд;Nowogród
+zh;諾沃格魯德;Nowogród
+lt;Naujinė;Nowinka
+lv;Nove Mjasto pie Pilicas;Nowe Miasto nad Pilicą
+uk;Нове-Място-над-Пилицею;Nowe Miasto nad Pilicą
+ru;Нове-Място-над-Пилицон;Nowe Miasto nad Pilicą
+zh;皮利察河畔新城;Nowe Miasto nad Pilicą
+he;נובה מיאסטו על הפיליצה;Nowe Miasto nad Pilicą
+sr;Нове Мјасто над Пилицом;Nowe Miasto nad Pilicą
+ru;Нове-Място;Nowe Miasto
+uk;Нова Воля;Nowa Wola
+ru;Нова Воля;Nowa Wola
+bg;Нова Сажина;Nowa Sarzyna
+lv;Nova Sažina;Nowa Sarzyna
+sr;Нова Сажина;Nowa Sarzyna
+uk;Нова Сажина;Nowa Sarzyna
+ru;Нова-Сажина;Nowa Sarzyna
+zh;新薩日納;Nowa Sarzyna
+bg;Нова Хута;Nowa Huta
+el;Νόβα Χούτα;Nowa Huta
+zh;新胡塔;Nowa Huta
+uk;Нова Гута;Nowa Huta
+ja;ノーヴァ・フータ;Nowa Huta
+he;קרקוב/מזרח העיר;Nowa Huta
+sr;Нова Хута;Nowa Huta
+bg;Нова Демба;Nowa Dęba
+lv;Nova Demba;Nowa Dęba
+sr;Нова Демба;Nowa Dęba
+uk;Нова Демба;Nowa Dęba
+ru;Нова-Демба;Nowa Dęba
+zh;新登巴;Nowa Dęba
+bg;Ниско;Nisko
+uk;Нисько;Nisko
+ru;Ниско;Nisko
+zh;尼斯科;Nisko
+sr;Њиско;Nisko
+ru;Непоренг;Nieporęt
+uk;Неполоміце;Niepołomice
+lv;Ņepolomice;Niepołomice
+ru;Неполомице;Niepołomice
+zh;涅波沃米采;Niepołomice
+sr;Њеполомице;Niepołomice
+bg;Неполомице;Niepołomice
+ru;Немойки;Niemojki
+cv;Негоцин;Niegocin
+lt;Negocinas;Niegocin
+sr;Његоћин;Niegocin
+uk;Негоцін;Niegocin
+ru;Негоцин;Niegocin
+zh;涅戈欽湖;Niegocin
+ru;Недзвядна;Niedźwiadna
+ru;Недзице;Niedzica
+ru;Нецеце;Nieciece
+uk;Нідзиця;Nidzica
+bg;Ниджица;Nidzica
+ru;Нидзица;Nidzica
+zh;尼濟察;Nidzica
+sr;Ниђица;Nidzica
+tt;Ниҗитса;Nidzica
+be;Нідзіца;Nidzica
+zh-Hans;尼济察;Nidzica
+mk;Ниѓица;Nidzica
+ce;Нидзица;Nidzica
+ko;니지차;Nidzica
+ja;ニジツァ;Nidzica
+fa;نیجیتسا;Nidzica
+ru;Насельск;Nasielsk
+sk;Gmina Nasielsk;Nasielsk
+uk;Ґміна Насельськ;Nasielsk
+ru;Нарушево;Naruszewo
+sk;Gmina Narol;Narol
+uk;Гміна Наріль;Narol
+ru;Нароль;Narol
+ru;Наревка;Narewka
+lt;Narevka;Narewka
+ru;Нарев;Narew
+lt;Narevo valsčius;Narew
+sk;Gmina Narew;Narew
+uk;Ґміна Нарев;Narew
+ru;Напивода;Napiwoda
+lv;Nalenčova;Nałęczów
+lt;Nalenčuvas;Nałęczów
+uk;Наленчув;Nałęczów
+ru;Наленчув;Nałęczów
+zh;納文丘夫;Nałęczów
+sr;Наленчов;Nałęczów
+ru;Накомяды;Nakomiady
+ru;Нагошевка;Nagoszewo
+ru;Нацпольск;Nacpolsk
+lv;Mišiņeca;Myszyniec
+sr;Мишињец;Myszyniec
+uk;Мишинець;Myszyniec
+ru;Мышинец;Myszyniec
+zh;梅希涅茨;Myszyniec
+ru;Мышэдла;Myszadła
+uk;Мушина;Muszyna
+he;מושינה;Muszyna
+ru;Мушина;Muszyna
+zh;穆希納;Muszyna
+lv;Mušina;Muszyna
+sr;Мушина;Muszyna
+bg;Мушина;Muszyna
+ar;مشتشونوف;Mszczonów
+bg;Мшчонов;Mszczonów
+el;Μστσόνουβ;Mszczonów
+ja;ムシチョヌフ;Mszczonów
+he;אמשינוב;Mszczonów
+lv;Mščonova;Mszczonów
+mk;Мшчонов;Mszczonów
+uk;Мщонув;Mszczonów
+ru;Мщонув;Mszczonów
+zh;姆什喬努夫;Mszczonów
+sr;Мшчонов;Mszczonów
+lv;Mšana Dolna;Mszana Dolna
+sr;Мшана Долна;Mszana Dolna
+uk;Мшана-Дольна;Mszana Dolna
+ru;Мшана-Дольна;Mszana Dolna
+zh;下姆沙納;Mszana Dolna
+bg;Мшана Долна;Mszana Dolna
+he;משאנה דולנה;Mszana Dolna
+ru;Мсьцихы;Mścichy
+ru;Мрозы;Mrozy
+sk;Gmina Mrozy;Mrozy
+uk;Ґміна Мрози;Mrozy
+ru;Мронгово;Mrągowo
+sr;Мрагово;Mrągowo
+uk;Мронгово;Mrągowo
+vep;Mrongovo;Mrągowo
+ja;ムロンゴヴォ;Mrągowo
+lv;Mrongovo;Mrągowo
+bg;Мронгово;Mrągowo
+lt;Mrongovas;Mrągowo
+zh;姆龍戈沃;Mrągowo
+ru;Мостувка;Mostówka
+pl;Prosnów;Mostów
+ru;Местково;Mostkowo
+ru;Морды;Mordy
+he;מורדי;Mordy
+lt;Mordai;Mordy
+lv;Mordi;Mordy
+sr;Морди;Mordy
+uk;Морди;Mordy
+zh;莫爾迪;Mordy
+sk;Gmina Morawica;Morawica
+uk;Ґміна Моравиця;Morawica
+ru;Моравица;Morawica
+be;Монькі;Mońki
+bg;Монки;Mońki
+lt;Monkos;Mońki
+uk;Монькі;Mońki
+ru;Моньки;Mońki
+zh;蒙基;Mońki
+sr;Моњки;Mońki
+ru;Мокотув;Mokotów
+be;Макотаў;Mokotów
+el;Μοκότουφ;Mokotów
+zh;莫科托夫區;Mokotów
+uk;Мокотув;Mokotów
+ru;Мокободы;Mokobody
+he;מוגיילניצה;Mogielnica
+lv;Mogelņica;Mogielnica
+sr;Могјелњица;Mogielnica
+uk;Моґельниця;Mogielnica
+ru;Могельница;Mogielnica
+zh;莫蓋爾尼察;Mogielnica
+sk;Gmina Modliborzyce;Modliborzyce
+uk;Ґміна Модлібожице;Modliborzyce
+ru;Модлибожице;Modliborzyce
+ru;Млодзешин;Młodzieszyn
+ru;Млоцк;Młock
+uk;Млава;Mława
+bg;Млава;Mława
+ru;Млава;Mława
+zh;姆瓦瓦;Mława
+he;מלאווה;Mława
+sr;Млава;Mława
+ru;Миньск-Мазовецки;Mińsk Mazowiecki
+uk;Мінськ-Мазовецький;Mińsk Mazowiecki
+lt;Mazovijos Minskas;Mińsk Mazowiecki
+lv;Miņska Mazovecka;Mińsk Mazowiecki
+be;Міньск Мазавецкі;Mińsk Mazowiecki
+bg;Минск Мазовецки;Mińsk Mazowiecki
+ru;Миньск-Мазовецкий;Mińsk Mazowiecki
+zh;馬佐夫舍地區明斯克;Mińsk Mazowiecki
+ce;Миньск-Мазовецки;Mińsk Mazowiecki
+he;מינסק מזובייצקי;Mińsk Mazowiecki
+sr;Мињск Мазовјецки;Mińsk Mazowiecki
+ru;Мингайны;Mingajny
+ru;Милки;Miłki
+ru;Милейчице;Milejczyce
+ru;Милянувек;Milanówek
+bg;Миляновек;Milanówek
+lv;Milanuveka;Milanówek
+sr;Милановек;Milanówek
+uk;Мілянувек;Milanówek
+zh;米拉努韋克;Milanówek
+ru;Милаково;Miłakowo
+lv;Milakovo;Miłakowo
+uk;Мілаково;Miłakowo
+sr;Милаково;Miłakowo
+ru;Миколайки;Mikołajki
+sk;Gmina Mikołajki;Mikołajki
+uk;Гміна Міколайкі;Mikołajki
+ru;Микашувка;Mikaszówka
+ru;Мельник;Mielnik
+lv;Meleca;Mielec
+ru;Мелец;Mielec
+bg;Мелец;Mielec
+lt;Melecas;Mielec
+uk;Мелець;Mielec
+zh;梅萊茨;Mielec
+he;מיילץ;Mielec
+th;มีเอเลตส์;Mielec
+sr;Мјелец;Mielec
+tt;Мелец;Mielec
+az;Mendzıjets-Podlyaski;Międzyrzec Podlaski
+lt;Palenkės Mendzižecas;Międzyrzec Podlaski
+lv;Meņdzižeca Podlaska;Międzyrzec Podlaski
+ru;Мендзыжец-Подляски;Międzyrzec Podlaski
+uk;Межиріччя;Międzyrzec Podlaski
+ar;ميتسيرزيك بودلاسكي;Międzyrzec Podlaski
+ko;미엥지제츠포들라스키;Międzyrzec Podlaski
+sr;Мјендзижец Подласки;Międzyrzec Podlaski
+ja;ミェンヅィジェツ・ポドラスキ;Międzyrzec Podlaski
+he;מיינדזיזץ פודלסקי;Międzyrzec Podlaski
+fa;میندسیژتس پودلاسکی;Międzyrzec Podlaski
+be;Мендзырэч Падляскі;Międzyrzec Podlaski
+bg;Мендзижец Подляски;Międzyrzec Podlaski
+el;Μιεντζίρζετς Ποντλάσκι;Międzyrzec Podlaski
+zh;缅济热茨;Międzyrzec Podlaski
+sgs;Polėnkės Miendzīžiečos;Międzyrzec Podlaski
+ru;Медзна;Miedzna
+uk;Мехув;Miechów
+lv;Mehova;Miechów
+bg;Мехов;Miechów
+ru;Мехув;Miechów
+zh;梅胡夫;Miechów
+sr;Мјехов;Miechów
+he;מייחוב;Miechów
+ru;Михалово;Michałowo
+lt;Michalovas;Michałowo
+lv;Mihalovo;Michałowo
+uk;Міхалово;Michałowo
+zh;米哈沃沃;Michałowo
+sr;Михалово;Michałowo
+pl;Michałowice-Osiedle;Michałowice
+sk;Gmina Michałów;Michałów
+uk;Ґміна Міхалув;Michałów
+ru;Михалув;Michałów
+pl;Miasto Komorów Ogród;Miasto Ogród Komorów
+pl;Komorów;Miasto Ogród Komorów
+ru;Мястково;Miastkowo
+ru;Медыка;Medyka
+ru;Мдзево;Mdzewko
+ru;Мазуры;Mazury
+ru;Маркова;Markowa
+bg;Марки;Marki
+uk;Маркі;Marki
+sr;Марки;Marki
+ru;Марки;Marki
+zh;馬爾基;Marki
+ko;마르키;Marki
+lt;Markos;Marki
+ru;Малы-Плоцк;Mały Płock
+ru;Малюжин;Malużyn
+he;מלוגושץ;Małogoszcz
+lv;Malogošča;Małogoszcz
+sr;Малогошч;Małogoszcz
+uk;Малогощ;Małogoszcz
+ru;Малогощ;Małogoszcz
+zh;馬沃戈什奇;Małogoszcz
+ru;Малинники;Malinniki
+ru;Малеше;Malesze
+uk;Макув-Мазовецький;Maków Mazowiecki
+lv;Makova Mazovecka;Maków Mazowiecki
+bg;Маков Мазовецки;Maków Mazowiecki
+ru;Макув-Мазовецки;Maków Mazowiecki
+zh;馬佐夫舍地區馬庫夫;Maków Mazowiecki
+he;מקוב מזובייצקי;Maków Mazowiecki
+sr;Маков Мазовјецки;Maków Mazowiecki
+he;מגנושב;Magnuszew
+pl;Łysobyki;Jeziorzany
+pl;Przetoczno;Jeziorzany
+ru;Лысе;Łyse
+ru;Лына;Łyna
+ru;Лютры;Lutry
+ru;Лутовиска;Lutowiska
+ru;Лукта;Łukta
+ru;Лукув;Łuków
+bg;Луков;Łuków
+uk;Луків;Łuków
+az;Lukuv;Łuków
+lv;Lukova;Łuków
+ja;ウクフ;Łuków
+zh;武庫夫;Łuków
+he;לוקוב;Łuków
+lt;Lukuvas;Łuków
+sr;Луков;Łuków
+sk;Gmina Ludwin;Ludwin
+uk;Ґміна Людвін;Ludwin
+ru;Людвин;Ludwin
+ru;Любомино;Lubomino
+bg;Люблин;Lublin
+he;לובלין;Lublin
+ja;ルブリン;Lublin
+lt;Liublinas;Lublin
+lv;Ļubļina;Lublin
+ru;Люблин;Lublin
+sr;Лублин;Lublin
+uk;Люблін;Lublin
+ka;ლუბლინი;Lublin
+be;Люблін;Lublin
+fa;لوبلین;Lublin
+el;Λούμπλιν;Lublin
+ar;لوبلين;Lublin
+os;Люблин;Lublin
+ko;루블린;Lublin
+zh;卢布林;Lublin
+ce;Люблин;Lublin
+mr;लुब्लिन;Lublin
+tt;Люблин;Lublin
+sgs;Lioblėns;Lublin
+hak;Lû-pu-lìm;Lublin
+hy;Լյուբլին;Lublin
+ky;Люблин шаары;Lublin
+myv;Люблин ош;Lublin
+th;ลูบลิน;Lublin
+ur;لوبلین;Lublin
+yue;盧布林;Lublin
+kk;Люблин;Lublin
+uz;Lyublin;Lublin
+hi;लुबलिन;Lublin
+bn;লুবলিন;Lublin
+am;ሉብሊን;Lublin
+az;Lyublin;Lublin
+om;Lubliin;Lublin
+pa;ਲੁਬਲਿਨ;Lublin
+ps;لبلن;Lublin
+so;Lubliin;Lublin
+tg;Люблин;Lublin
+lv;Lubartova;Lubartów
+bg;Любартов;Lubartów
+uk;Любартів;Lubartów
+ru;Любартув;Lubartów
+zh;盧巴爾圖夫;Lubartów
+he;לוברטוב;Lubartów
+lt;Liubartuvas;Lubartów
+sr;Лубартов;Lubartów
+bg;Любачов;Lubaczów
+lv;Lubačova;Lubaczów
+uk;Любачів;Lubaczów
+ru;Любачув;Lubaczów
+zh;盧巴丘夫;Lubaczów
+he;לובאצוב;Lubaczów
+sr;Лубачов;Lubaczów
+ru;Лозово;Łozowo
+ru;Лосинка;Łosinka
+uk;Лосіце;Łosice
+bg;Лошице;Łosice
+lt;Losicė;Łosice
+lv;Losice;Łosice
+ru;Лосице;Łosice
+zh;沃西采;Łosice
+be;Ласіцы;Łosice
+he;לושיצה;Łosice
+sr;Лосице;Łosice
+ru;Ломжа;Łomżyca
+lv;Lomža;Łomża
+ja;ウォムジャ;Łomża
+ru;Ломжа;Łomża
+ko;웜자;Łomża
+be;Ломжа;Łomża
+th;วอมชา;Łomża
+lt;Lomža;Łomża
+he;לומזה;Łomża
+uk;Ломжа;Łomża
+bg;Ломжа;Łomża
+ba;Ломжа;Łomża
+zh;沃姆扎;Łomża
+tt;Ломжа;Łomża
+ru;Ломна;Łomna
+lv;Lomjanki;Łomianki
+uk;Ломянкі;Łomianki
+bg;Ломянки;Łomianki
+sr;Ломјанки;Łomianki
+ru;Ломянки;Łomianki
+zh;沃米安基;Łomianki
+ce;Ломянки;Łomianki
+he;לומאזי;Łomazy
+lt;Lomazai;Łomazy
+lv;Lohova;Łochów
+sr;Лохов;Łochów
+uk;Лохув;Łochów
+ru;Лохув;Łochów
+zh;沃胡夫;Łochów
+ru;Лив;Liw
+lt;Livo valsčius;Liw
+sk;Gmina Liw;Liw
+uk;Ґміна Лів;Liw
+bg;Липско;Lipsko
+uk;Ліпсько;Lipsko
+ru;Липско;Lipsko
+zh;利普斯科;Lipsko
+he;ליפסקו;Lipsko
+sr;Липско;Lipsko
+ru;Липск;Lipsk
+lt;Liepinė;Lipsk
+lv;Lipska;Lipsk
+sr;Липск;Lipsk
+uk;Ліпськ;Lipsk
+zh;利普斯克;Lipsk
+ru;Липовец;Lipowiec
+ru;Липники;Lipniki
+ru;Липинки;Lipinki
+ru;Липница;Lipnica
+ru;Липица;Lipica
+ru;Линово;Linowo
+uk;Ліманова;Limanowa
+bg;Лиманова;Limanowa
+lv;Limanova;Limanowa
+ru;Лиманова;Limanowa
+zh;利馬諾瓦;Limanowa
+sr;Лиманова;Limanowa
+he;לימנובה;Limanowa
+vep;Limanov;Limanowa
+ru;Лидзбарк-Варминьски;Lidzbark Warmiński
+ru;Лидзбарк-Варминьский;Lidzbark Warmiński
+bg;Лидзбарк Вармински;Lidzbark Warmiński
+lv;Lidzbarka Varmiņska;Lidzbark Warmiński
+uk;Лідзбарк-Вармінський;Lidzbark Warmiński
+lt;Varmės Lidzbarkas;Lidzbark Warmiński
+zh;瓦爾米亞地區利茲巴克;Lidzbark Warmiński
+sr;Лидзбарк Вармињски;Lidzbark Warmiński
+lt;Ležaiskas;Leżajsk
+uk;Лежайськ;Leżajsk
+bg;Лежайск;Leżajsk
+lv;Ležajska;Leżajsk
+he;ליזנסק;Leżajsk
+ru;Лежайск;Leżajsk
+zh;莱扎伊斯克;Leżajsk
+sr;Лежајск;Leżajsk
+ru;Летники;Letniki
+ru;Лешно;Leszno
+lt;Palenkės Lešnos valsčius;Leśna Podlaska
+ro;Comuna Leśna Podlaska;Leśna Podlaska
+sk;Gmina Leśna Podlaska;Leśna Podlaska
+uk;Ґміна Лешна-Подляська;Leśna Podlaska
+ru;Лесьна-Подляска;Leśna Podlaska
+be;Лясная;Leśna
+uk;Лісько;Lesko
+bg;Леско;Lesko
+he;לסקו;Lesko
+ru;Леско;Lesko
+zh;莱斯科;Lesko
+ru;Леман;Leman
+ru;Лельково;Lelkowo
+pl;Łęki Strzyżowskie;Łęki
+lv;Legonovo;Legionowo
+sr;Легионово;Legionowo
+bg;Легьоново;Legionowo
+lt;Legionovas;Legionowo
+uk;Леґьоново;Legionowo
+ru;Легьоново;Legionowo
+zh;萊吉奧諾沃;Legionowo
+tt;Легьоново;Legionowo
+ru;Ленгайны;Łęgajny
+bg;Ленчна;Łęczna
+uk;Ленчна;Łęczna
+lv;Lenčna;Łęczna
+lt;Lenčna;Łęczna
+ru;Ленчна;Łęczna
+zh;文奇納;Łęczna
+he;לנצנה;Łęczna
+ko;웽치나;Łęczna
+sr;Ленчна;Łęczna
+ru;Лазы;Łazy
+ru;Лавск;Ławsk
+pl;Łaszców;Łaszczów
+ru;Ласкова;Laskowa
+he;לסקזב;Łaskarzew
+lv;Laskaževa;Łaskarzew
+sr;Ласкажев;Łaskarzew
+uk;Ласкажев;Łaskarzew
+ru;Ласкажев;Łaskarzew
+zh;瓦斯卡熱夫;Łaskarzew
+ru;Лапы;Łapy
+bg;Лапи;Łapy
+ja;ワピ;Łapy
+lt;Lapiai;Łapy
+lv;Lapi;Łapy
+uk;Лапи;Łapy
+zh;瓦佩;Łapy
+sr;Лапи;Łapy
+ru;Пянганки;Langanki
+he;לנצוט;Łańcut
+bg;Ланцут;Łańcut
+lv;Laņcuta;Łańcut
+uk;Ланьцут;Łańcut
+ru;Ланьцут;Łańcut
+zh;萬楚特;Łańcut
+sr;Лањцут;Łańcut
+he;לגוב;Łagów
+ru;Лагув;Łagów
+ru;Лаха;Łacha
+ru;Кузница;Kuźnica
+uk;Кужняки;Kuźniaki
+ru;Кузе;Kuzie
+am;ኩሩቭ;Kurów
+ar;كوروف;Kurów
+az;Kurov;Kurów
+be;Вёска Кураў;Kurów
+bg;Куров;Kurów
+bs;Kurov;Kurów
+cv;Курув;Kurów
+dv;ކުރޫފް;Kurów
+el;Κούροβ;Kurów
+fa;روستای کورو;Kurów
+gl;Curóv;Kurów
+he;קורוב;Kurów
+hi;कुरुफ़;Kurów
+hy;Կուրուվ;Kurów
+ja;クルフ;Kurów
+ka;კუროვი;Kurów
+ko;쿠루프;Kurów
+lt;Kuruvas;Kurów
+lv;Kurova;Kurów
+mk;Куров;Kurów
+ml;കുറൊവ്;Kurów
+ro;Курув;Kurów
+mr;कुरुफ;Kurów
+ne;कुरुफ;Kurów
+os;Курув;Kurów
+ru;Куров;Kurów
+si;කුරුෆ්;Kurów
+sl;Kurov;Kurów
+sr;Куров;Kurów
+te;కురోవ్;Kurów
+th;คูรูฟ;Kurów
+udm;Курув;Kurów
+uk;Курів;Kurów
+fa;کوروف;Kurów
+ky;Куров;Kurów
+ru;Курув;Kurów
+ta;குரோவ்;Kurów
+ab;Курув;Kurów
+as;কুৰৌ;Kurów
+ay;Kuruw;Kurów
+ba;Курув;Kurów
+sgs;Kuruvs;Kurów
+bn;কুরভ;Kurów
+bxr;Курув;Kurów
+ce;Курув;Kurów
+ch;Kurou;Kurów
+ckb;کوروف;Kurów
+crh;Kuruv;Kurów
+gag;Kuruv;Kurów
+glk;کوروۆ;Kurów
+gu;કુરોવ;Kurów
+kk;Курув;Kurów
+kn;ಕುರೊವ್;Kurów
+koi;Курув;Kurów
+krc;Курув;Kurów
+kv;Курув;Kurów
+lo;ຄູໂຣ;Kurów
+ltg;Kurova;Kurów
+mdf;Курув;Kurów
+mhr;Курув;Kurów
+mn;Куров;Kurów
+mrj;Курув;Kurów
+myv;Курув веле;Kurów
+mzn;کوروف;Kurów
+pa;ਕੂਰੋਫ;Kurów
+ps;کوروف;Kurów
+sah;Курув;Kurów
+tg;Куров;Kurów
+ur;کوروف;Kurów
+vep;Kuruv;Kurów
+xal;Курув;Kurów
+yue;庫魯夫市;Kurów
+zh;库鲁夫;Kurów
+hak;Khù-lû-fû;Kurów
+my;ကူးရိုးရွာ;Kurów
+ru;Курки;Kurki
+he;קונוב;Kunów
+sr;Кунов;Kunów
+uk;Кунув;Kunów
+ru;Кунув;Kunów
+zh;庫努夫;Kunów
+ru;Кумельск;Kumielsk
+ru;Кумельск;Kumelsk
+ru;Кулеше;Kulesze
+ru;Куклин;Kuklin
+ru;Куцице;Kucice
+sk;Gmina Księżpol;Księżpol
+uk;Ґміна Ксенжполь;Księżpol
+ru;Ксенжполь;Księżpol
+he;קשיונז ויילקי;Książ Wielki
+ru;Ксёнж-Вельки;Książ Wielki
+ru;Крыск;Krysk
+ru;Крынки;Krynki
+be;Крынкі;Krynki
+he;קרינקי;Krynki
+lt;Krinkai;Krynki
+lv;Krinki;Krynki
+sr;Кринки;Krynki
+uk;Кринкі;Krynki
+zh;克倫基;Krynki
+ru;Крынка;Krynka
+ro;Krynica;Krynica-Zdrój
+uk;Криниця-Здруй;Krynica-Zdrój
+lv;Kriņicazdroja;Krynica-Zdrój
+ru;Крыница-Здруй;Krynica-Zdrój
+zh;克雷尼察-茲德魯伊;Krynica-Zdrój
+sr;Крињица-Здрој;Krynica-Zdrój
+bg;Криница-Здруй;Krynica-Zdrój
+he;קריניצה זדרוי;Krynica-Zdrój
+ka;კრინიცა-ზდრუი;Krynica-Zdrój
+ru;Крушиняны;Kruszyniany
+ru;Крушки;Kruszki
+ru;Крушево;Kruszewo
+ru;Крупин;Krupin
+ru;Круково;Krukowo
+ru;Круклянки;Kruklanki
+tt;Кругель Великий;Kruhel Wielki
+ce;Кругель Велики;Kruhel Wielki
+uk;Кругель Великий;Kruhel Wielki
+ru;Кросно;Krosno
+bg;Кросно;Krosno
+ko;크로스노;Krosno
+uk;Коросно;Krosno
+zh;克羅斯諾;Krosno
+be;Кросна;Krosno
+he;קרוסנו;Krosno
+lt;Krosnas;Krosno
+sr;Кросно;Krosno
+ru;Крамерово;Kromerowo
+ru;Крочево;Kroczewo
+ru;Кремпна;Krempna
+lt;Kreiviniai;Krejwińce
+ru;Крашево;Kraszewo
+be;Красныстаў;Krasnystaw
+lv;Krasnistava;Krasnystaw
+uk;Красностав;Krasnystaw
+bg;Краснистав;Krasnystaw
+ru;Красныстав;Krasnystaw
+zh;克拉斯內斯塔夫;Krasnystaw
+lt;Krasnystavas;Krasnystaw
+he;קרסניסטב;Krasnystaw
+sr;Краснистав;Krasnystaw
+ru;Красныбур;Krasny Bór
+ru;Красносельц;Krasnosielc
+he;קראסנושיילץ;Krasnosielc
+ru;Краснополь;Krasnopol
+lt;Krasnopolis;Krasnopol
+lt;Krasnapolio valsčius;Krasnopol
+sk;Gmina Krasnopol;Krasnopol
+uk;Ґміна Краснополь;Krasnopol
+he;קראסנוברוד;Krasnobród
+lv;Krasnobroda;Krasnobród
+sr;Красноброд;Krasnobród
+uk;Краснобруд;Krasnobród
+ru;Краснобруд;Krasnobród
+zh;克拉斯諾布魯德;Krasnobród
+ru;Красник;Kraśnik
+bg;Крашник;Kraśnik
+lv;Krasņika;Kraśnik
+uk;Красник;Kraśnik
+zh;克拉希尼克;Kraśnik
+lt;Krasnikas;Kraśnik
+he;קרשניק;Kraśnik
+sr;Красњик;Kraśnik
+uk;Краснічин;Kraśniczyn
+ru;Красне;Krasne
+ru;Красково;Kraskowo
+ru;Козлы;Kozły
+lv;Kozeņice;Kozienice
+bg;Коженице;Kozienice
+uk;Козеніце;Kozienice
+ru;Козенице;Kozienice
+zh;科傑尼采;Kozienice
+lt;Kozenicai;Kozienice
+he;קוזיניצה;Kozienice
+sr;Козјењице;Kozienice
+ru;Ковнаты;Kownaty
+ru;Ковесы;Kowiesy
+ru;Ковале-Олецки;Kowale Oleckie
+pl;Kowala-Stępocina (do 1999);Kowala
+ru;Ковала;Kowala
+ru;Котунь;Kotuń
+ru;Кот;Kot
+ru;Костки;Kostki
+ru;Косув-Ляцки;Kosów Lacki
+he;קוסוב לאצקי;Kosów Lacki
+lt;Kosuv Lackai;Kosów Lacki
+lv;Kosova Lacka;Kosów Lacki
+sr;Косов Лацки;Kosów Lacki
+uk;Косув-Ляцький;Kosów Lacki
+ru;Корытница;Korytnica
+ru;Корыцин;Korycin
+ru;Кортово;Kortowo
+ru;Корше;Korsze
+lv;Korše;Korsze
+uk;Корше;Korsze
+zh;科爾謝;Korsze
+sr;Корше;Korsze
+pl;Korczowa;Korczowe
+ru;Корчев;Korczew
+uk;Копшивниця;Koprzywnica
+lv;Kopšivņica;Koprzywnica
+ru;Копшивница;Koprzywnica
+sr;Копшивњица;Koprzywnica
+he;קופשיווניצה;Koprzywnica
+ru;Константынув;Konstantynów
+ru;Констанцин-Езерна;Konstancin-Jeziorna
+lv;Konstancina-Jezjorna;Konstancin-Jeziorna
+uk;Констанцин-Єзьорна;Konstancin-Jeziorna
+bg;Констанчин-Йежьорна;Konstancin-Jeziorna
+zh;康斯坦欽-耶焦爾納;Konstancin-Jeziorna
+sr;Констанћин-Језјорна;Konstancin-Jeziorna
+bg;Консковоля;Końskowola
+he;קונסקובולה;Końskowola
+ru;Коньсковоля;Końskowola
+ab;Конисковолиа;Końskowola
+am;ኮኝስኮቮላ;Końskowola
+ar;كونسكوولا;Końskowola
+az;Konskovolya;Końskowola
+ba;Коньсковоля;Końskowola
+sgs;Konskovolė;Końskowola
+be;Вёска Каньскаволя;Końskowola
+bn;কনিয়স্কভলা;Końskowola
+bxr;Коньсковоля;Końskowola
+ce;Коньсковоля;Końskowola
+crh;Konskovolâ;Końskowola
+cv;Коньсковола;Końskowola
+dv;ކޮންސްކޮވޯލާ;Końskowola
+ee;Kɔnyskɔvɔla;Końskowola
+el;Κονσκοβόλα;Końskowola
+fa;کونسکوولا;Końskowola
+glk;کونسکووه‌لا;Końskowola
+gu;કઞ્સ્કવલા;Końskowola
+hi;कोंस्कोवोला;Końskowola
+hy;Քոնսքօուօլա;Końskowola
+ja;コィンスコヴォラ;Końskowola
+ka;კონსკოვოლა;Końskowola
+kk;Коньсковоля;Końskowola
+kn;ಕೊನ್‌ಸ್ಕೊವೊಲಾ;Końskowola
+ko;코인스코볼라;Końskowola
+kv;Коньсковоля;Końskowola
+ky;Коньсковоля;Końskowola
+lo;ໂກຣິສໂກໂວລາ;Końskowola
+lt;Konskovolia;Końskowola
+lv;Koņskovola;Końskowola
+mdf;Коньсковоля;Końskowola
+mk;Коњсковола;Końskowola
+ml;കൊന്സ്കൊവൊല;Końskowola
+mn;Консковол;Końskowola
+mr;कॉन्स्कोवोला;Końskowola
+myv;Коньсковоля веле;Końskowola
+mzn;کونسکوولا;Końskowola
+ne;कोन्स्कोभोला;Końskowola
+os;Коньсковоля;Końskowola
+pa;ਕਞ੍ਸ੍ਕਵਲਾ;Końskowola
+ps;كونسكوولا;Końskowola
+sah;Коньсковоля;Końskowola
+si;කෝඤ්ශ්කෝවෝලා;Końskowola
+sr;Коњсковола;Końskowola
+ta;கோன்ஸ்கோவோலா;Końskowola
+te;కొన్‌స్కొవొలా;Końskowola
+tg;Коньсковоля;Końskowola
+th;คอนสกอวอลา;Końskowola
+udm;Коньсковоля;Końskowola
+uk;Конськоволя;Końskowola
+ur;کونسکوولا;Końskowola
+xal;Коньсковоля;Końskowola
+yue;官士哥窩拿;Końskowola
+zh;孔斯科沃拉;Końskowola
+ru;Коньске;Końskie
+sk;Gmina Końskie;Końskie
+uk;Ґміна Конське;Końskie
+ru;Конечна;Konieczna
+uk;Команча;Komańcza
+ru;Команча;Komańcza
+zh;奧帕克茲-科洛尼亞;Kolonia Opacz
+sk;Gmina Kolno;Kolno
+uk;Ґміна Кольно;Kolno
+ru;Кольно;Kolno
+he;קולנה;Kolno
+lt;Kolnas;Kolno
+uk;Кольно;Kolno
+bg;Колно;Kolno
+zh;科爾諾;Kolno
+sr;Колно;Kolno
+ru;Кольница;Kolnica
+uk;Кольбушова;Kolbuszowa
+lv;Kolbušova;Kolbuszowa
+bg;Колбушова;Kolbuszowa
+ru;Кольбушова;Kolbuszowa
+zh;科爾布紹瓦;Kolbuszowa
+he;קולבושובה;Kolbuszowa
+sr;Колбушова;Kolbuszowa
+ru;Колбель;Kołbiel
+bg;Колачице;Kołaczyce
+he;קולאציצה;Kołaczyce
+lv;Kolačice;Kołaczyce
+sr;Колачице;Kołaczyce
+ru;Колачице;Kołaczyce
+ru;Колачково;Kołaczków
+ru;Кодлутово;Kodłutowo
+he;קוצק;Kock
+lv;Kocka;Kock
+uk;Коцьк;Kock
+ru;Коцк;Kock
+zh;科茨克;Kock
+ar;كوك;Kock
+sr;Коцк;Kock
+bg;Кобилка;Kobyłka
+lt;Kobylka;Kobyłka
+lv;Kobilka;Kobyłka
+sr;Кобилка;Kobyłka
+uk;Кобилка;Kobyłka
+ru;Кобылка;Kobyłka
+zh;科貝烏卡;Kobyłka
+lt;Kobilin Božimai;Kobylin-Borzymy
+ru;Кобыланка;Kobylanka
+ru;Кобулты;Kobułty
+ru;Кнышин;Knyszyn
+be;Кнышын;Knyszyn
+he;קנישין;Knyszyn
+lt;Knišinas;Knyszyn
+lv;Knišina;Knyszyn
+sr;Книшин;Knyszyn
+uk;Книшин;Knyszyn
+zh;克內申;Knyszyn
+ru;Кнорыды;Knorydy
+ru;Клюсы;Kłusy
+ru;Клюково;Klukowo
+ru;Клюковиче;Klukowicze
+ru;Клопоты-Станиславы;Kłopoty Stanisławy
+ru;Климашевница;Klimaszewnica
+ru;Клещеле;Kleszczele
+lt;Kleščelė;Kleszczele
+lv;Kleščele;Kleszczele
+uk;Кліщелі;Kleszczele
+zh;克萊什切萊;Kleszczele
+he;קלשצ'לה;Kleszczele
+sr;Клешчеле;Kleszczele
+tt;Клеччеле;Kleszczele
+be;Кляшчэле;Kleszczele
+zh-Hans;克莱什切莱;Kleszczele
+ce;Клещеле;Kleszczele
+ru;Клейники;Kleniki
+ru;Кивиты;Kiwity
+sk;Gmina Kije;Kije
+uk;Ґміна Кіє;Kije
+ru;Кийе;Kije
+gv;Baljaght Kije;Kije
+bg;Келце;Kielce
+ja;キェルツェ;Kielce
+lv;Kelce;Kielce
+ru;Кельце;Kielce
+ar;كيلسي;Kielce
+be;Кельцы;Kielce
+fa;کیلتس;Kielce
+he;קיילצה;Kielce
+ko;키엘체;Kielce
+lt;Kelcai;Kielce
+sr;Кјелце;Kielce
+uk;Кельце;Kielce
+vep;Kelce;Kielce
+zh;凯尔采;Kielce
+hak;Khái-ngì-chhái;Kielce
+ka;კელცე;Kielce
+mk;Кјељце;Kielce
+tt;Кельце;Kielce
+udm;Кельце;Kielce
+ur;کیئلتسہ;Kielce
+kk;Келце;Kielce
+uz;Keltse;Kielce
+ky;Келце;Kielce
+hi;किएल्त्से;Kielce
+bn;কিয়েলসে;Kielce
+am;ኪየልጤ;Kielce
+az;Keltse;Kielce
+om;Kieltse;Kielce
+pa;ਕਿਏਲਸੇ;Kielce
+ps;کیلسې;Kielce
+so;Kieltse;Kielce
+tg;Кельце;Kielce
+ru;Кички;Kiczki
+uk;Кентшин;Kętrzyn
+bg;Кентшин;Kętrzyn
+ko;켕트신;Kętrzyn
+ja;ケントシン;Kętrzyn
+lv;Kentšina;Kętrzyn
+lt;Kentšynas;Kętrzyn
+ru;Кентшин;Kętrzyn
+zh;肯琴;Kętrzyn
+fa;کنتشین;Kętrzyn
+sr;Кентшин;Kętrzyn
+ur;کینتشن;Kętrzyn
+ru;Казимеж-Дольны;Kazimierz Dolny
+he;קזימייז דולני;Kazimierz Dolny
+lv;Kazimeždolni;Kazimierz Dolny
+uk;Казімеж-Дольни;Kazimierz Dolny
+zh;卡齊米日多爾尼;Kazimierz Dolny
+sr;Казимјеж Долни;Kazimierz Dolny
+lv;Kazimeža Velka;Kazimierza Wielka
+uk;Казімежа-Велика;Kazimierza Wielka
+bg;Кажимежа Велка;Kazimierza Wielka
+ru;Казимежа-Велька;Kazimierza Wielka
+sr;Казимјежа Вјелка;Kazimierza Wielka
+he;קזימייזה ויילקה;Kazimierza Wielka
+uk;Kazimierowka;Kazimierzówka
+ru;Карвица;Karwica
+ru;Карнево;Karniewo
+lv;Karčeva;Karczew
+uk;Карчев;Karczew
+ru;Карчев;Karczew
+zh;卡爾切夫;Karczew
+he;קארצב;Karczew
+sr;Карчев;Karczew
+ru;Капице;Kapice
+uk;Канюв;Kaniów
+ru;Канигово;Kanigowo
+ru;Кандыты;Kandyty
+bg;Канчуга;Kańczuga
+he;קנצוגה;Kańczuga
+lv;Kaņčuga;Kańczuga
+sr;Кањчуга;Kańczuga
+uk;Каньчуга;Kańczuga
+ru;Каньчуга;Kańczuga
+zh;坎丘加;Kańczuga
+ru;Кампинос;Kampinos
+ru;Каменки;Kamionki
+ru;Каменка-Стара;Kamionka Stara
+ru;Калушин;Kałuszyn
+he;קאלושין;Kałuszyn
+lv;Kalušina;Kałuszyn
+sr;Калушин;Kałuszyn
+uk;Калушин;Kałuszyn
+zh;卡武申;Kałuszyn
+ru;Калиново;Kalinowo
+ru;Кадзидло;Kadzidło
+hu;Szepesgyörke;Jurgów
+sk;Jurgov;Jurgów
+ru;Юргув;Jurgów
+lt;Juchnovec Košcelnai;Juchnowiec Kościelny
+lv;Juzefova;Józefów
+he;יוזפוב;Józefów
+sr;Јозефов;Józefów
+uk;Юзефув;Józefów
+ru;Юзефув;Józefów
+zh;約瑟夫烏;Józefów
+sk;Gmina Józefów nad Wisłą;Józefów nad Wisłą
+uk;Ґміна Юзефув-над-Віслою;Józefów nad Wisłą
+ru;Юзефув-над-Вислон;Józefów nad Wisłą
+ru;Йонково;Jonkowo
+ru;Езераны;Jeziorany
+lv;Jezjorani;Jeziorany
+sr;Језјорани;Jeziorany
+uk;Єзьорани;Jeziorany
+zh;耶焦拉內;Jeziorany
+ru;Еньки;Jeńki
+ru;Еленево;Jeleniewo
+lt;Jeleniavas;Jeleniewo
+ru;Еленки;Jelenie
+ru;Едвабно;Jedwabno
+ru;Едвабне;Jedwabne
+he;ידוובנה;Jedwabne
+bg;Йедвабне;Jedwabne
+lt;Jedvabnas;Jedwabne
+lv;Jedvabne;Jedwabne
+uk;Єдвабне;Jedwabne
+zh;耶德瓦布內;Jedwabne
+sr;Једвабне;Jedwabne
+sk;Gmina Jędrzejów;Jędrzejów
+uk;Гміна Єнджеюв;Jędrzejów
+ru;Енджеюв;Jędrzejów
+ru;Еднорожец;Jednorożec
+sk;Gmina Jedlińsk;Jedlińsk
+uk;Гміна Єдлінськ;Jedlińsk
+ru;Едлиньск;Jedlińsk
+bg;Йедличе;Jedlicze
+lv;Jedliče;Jedlicze
+sr;Једличе;Jedlicze
+uk;Єдліче;Jedlicze
+ru;Едличе;Jedlicze
+zh;耶德利切;Jedlicze
+ru;Ясвилы;Jaświły
+crh;Âstrjenbiâ;Jastrzębia
+ru;Ястшомбка;Jastrząbka
+ru;Ясло;Jasło
+uk;Ясло;Jasło
+be;Ясла;Jasło
+bg;Ясло;Jasło
+lv;Jaslo;Jasło
+zh;亚斯沃;Jasło
+he;יאסלו;Jasło
+lt;Jaslas;Jasło
+sr;Јасло;Jasło
+ur;یسوو;Jasło
+uk;Яслиська;Jaśliska
+ur;جاسلاسکا;Jaśliska
+ru;Яслиська;Jaśliska
+ru;Яроты;Jaroty
+uk;Ярослав;Jarosław
+lt;Jaroslavas;Jarosław
+bg;Ярослав;Jarosław
+lv;Jaroslava;Jarosław
+ru;Ярослав;Jarosław
+zh;雅罗斯瓦夫;Jarosław
+he;ירוסלב;Jarosław
+sr;Јарослав;Jarosław
+ur;جاروسواو;Jarosław
+crh;Âroslav Polʹşa;Jarosław
+ru;Яроцин;Jarocin
+uk;Яротин;Jarocin
+ur;جروکن، پودکرپککئی صوبہ;Jarocin
+ru;Янув-Подляски;Janów Podlaski
+ru;Яново;Janowo
+lv;Janova Lubelska;Janów Lubelski
+bg;Янов Любелски;Janów Lubelski
+uk;Янів-Любельський;Janów Lubelski
+ru;Янув-Любельский;Janów Lubelski
+zh;盧布林地區亞努夫;Janów Lubelski
+sr;Јанов Лубелски;Janów Lubelski
+ur;جنوو لبلسکی;Janów Lubelski
+ru;Янувка;Janówka
+ur;جنوویک کوسکیلنے;Janowiec Kościelny
+ru;Янув;Janów
+he;יאנוב;Janów
+lt;Januvas;Janów
+ur;جنوو، پودلسکئی صوبہ;Janów
+ru;Ямины;Jaminy
+ru;Ялувка;Jałówka
+ru;Якунувко;Jakunówko
+ru;Якторув;Jaktorów
+ur;جدوونیکی، لیسسر پولینڈ صوبہ;Jadowniki
+ru;Ядув;Jadów
+ru;Яблоново;Jabłonowo
+pl;Jabłonna Pierwsza (do 1999);Jabłonna
+ru;Яблонка;Jabłonka
+ru;Яблонка;Jabłonka Kościelna
+lt;Jablonka Košcelna;Jabłonka Kościelna
+ur;جبوانکا کوسکیلنا;Jabłonka Kościelna
+crh;Âblonka (Subcarpathia);Jabłonka
+crh;Âblonica Polʹşa;Jabłonica Polska
+he;איזביצה;Izbica
+lv;Ivoņičzdroja;Iwonicz-Zdrój
+uk;Івонич-Здруй;Iwonicz-Zdrój
+ru;Ивонич-Здруй;Iwonicz-Zdrój
+zh;伊沃尼奇-茲德魯伊;Iwonicz-Zdrój
+bg;Ивонич-Здруй;Iwonicz-Zdrój
+sr;Ивоњич-Здрој;Iwonicz-Zdrój
+ru;Ивкова;Iwkowa
+he;איווניסקה;Iwaniska
+lv;Ilža;Iłża
+uk;Ілжа;Iłża
+he;אילזה;Iłża
+ru;Илжа;Iłża
+zh;伊烏扎;Iłża
+sr;Илжа;Iłża
+he;אילוב;Iłów
+ru;Хушлев;Huszlew
+lt;Hušlevas;Huszlew
+ru;Хруд;Hrud
+be;Грубешаў;Hrubieszów
+bg;Хрубешов;Hrubieszów
+lv;Hrubešova;Hrubieszów
+uk;Грубешів;Hrubieszów
+ru;Хрубешув;Hrubieszów
+zh;赫魯別舒夫;Hrubieszów
+he;הרוביישוב;Hrubieszów
+sr;Хрубјешов;Hrubieszów
+ru;Хорново;Hornowo
+ru;Холубля;Hołubla
+ru;Хенрыково;Henrykowo
+ru;Хейдык;Hejdyk
+lv;Halinova;Halinów
+sr;Халинов;Halinów
+uk;Халінув;Halinów
+ru;Халинув;Halinów
+zh;哈利努夫;Halinów
+uk;Гайнівка;Hajnówka
+lt;Hainuvka;Hajnówka
+be;Гайнаўка;Hajnówka
+bg;Хайновка;Hajnówka
+lv;Hajnuvka;Hajnówka
+ru;Хайнувка;Hajnówka
+zh;哈伊努夫卡;Hajnówka
+sr;Хајновка;Hajnówka
+fa;هاچیف;Haczów
+ru;Гвиздалы;Gwizdały
+ru;Гузув;Guzów
+ru;Гутково;Gutkowo
+tt;Гжехотки;Grzechotki
+ce;Гжехотки;Grzechotki
+ru;Гжехотки;Grzechotki
+el;Γκζεχότκι;Grzechotki
+zh;格热霍特基;Grzechotki
+zh-Hant;格熱霍特基;Grzechotki
+uk;Ґжехоткі;Grzechotki
+mk;Гжехотки;Grzechotki
+ru;Грыэлины;Gryźliny
+lv;Gribova;Grybów
+sr;Грибов;Grybów
+uk;Грибів;Grybów
+ru;Грыбув;Grybów
+zh;格雷布夫;Grybów
+bg;Грибов;Grybów
+he;גריבוב;Grybów
+ru;Грудуск;Grudusk
+pl;Gródek;Grudki
+ru;Грудек;Grudki
+ru;Гром;Grom
+uk;Груєць;Grójec
+lv;Grujeca;Grójec
+bg;Гройец;Grójec
+ru;Груец;Grójec
+zh;格魯耶茨;Grójec
+he;גרוייץ;Grójec
+sr;Гројец;Grójec
+ru;Гродзиск-Мазовецки;Grodzisk Mazowiecki
+he;גרודזיסק מזובייצקי;Grodzisk Mazowiecki
+uk;Гродзиськ-Мазовецький;Grodzisk Mazowiecki
+lv;Grodziska Mazovecka;Grodzisk Mazowiecki
+bg;Гроджиск Мазовецки;Grodzisk Mazowiecki
+sr;Грођиск Мазовјецки;Grodzisk Mazowiecki
+ru;Гродзиск-Мазовецкий;Grodzisk Mazowiecki
+zh;馬佐夫舍地區格羅濟斯克;Grodzisk Mazowiecki
+lt;Mazovijos Grodziskas;Grodzisk Mazowiecki
+ru;Гродзиск;Grodzisk
+be;Гміна Гродзіск;Grodzisk
+lt;Grodzisko valsčius;Grodzisk
+sk;Gmina Grodzisk;Grodzisk
+uk;Ґміна Ґродзіськ;Grodzisk
+ru;Грембкув;Grębków
+ru;Гране;Granne
+ru;Гралево;Gralewo
+ru;Граево;Grajewo
+lv;Grajevo;Grajewo
+bg;Грайево;Grajewo
+lt;Grajevas;Grajewo
+uk;Граєво;Grajewo
+zh;格拉耶沃;Grajewo
+be;Граева;Grajewo
+he;גרייבו;Grajewo
+sr;Грајево;Grajewo
+ru;Грабово;Grabowo
+uk;Ґрабово;Grabowo
+ru;Грабник;Grabnik
+ru;Говорово;Goworowo
+pl;Gościeradów Ukazowy (do 1999);Gościeradów
+ru;Гожекалы;Gorzekały
+uk;Гурово-Ілавецьке;Górowo Iławeckie
+lv;Gurovo Ilavecke;Górowo Iławeckie
+ru;Гурово-Илавецке;Górowo Iławeckie
+zh;古羅沃伊瓦韋茨凱;Górowo Iławeckie
+sr;Горово Илавецкје;Górowo Iławeckie
+uk;Ґурне;Górne
+he;גורליצה;Gorlice
+ru;Горлице;Gorlice
+bg;Горлице;Gorlice
+uk;Горлиці;Gorlice
+zh;戈爾利采;Gorlice
+sr;Горлице;Gorlice
+lt;Gorlicės;Gorlice
+pl;Górki Kampinoskie;Górki
+bg;Гора Калвария;Góra Kalwaria
+he;גורה קלוואריה;Góra Kalwaria
+lv;Gura Kalvarja;Góra Kalwaria
+uk;Ґура-Кальварія;Góra Kalwaria
+ru;Гура-Кальвария;Góra Kalwaria
+zh;古拉卡爾瓦里亞;Góra Kalwaria
+sr;Гора Калварија;Góra Kalwaria
+ru;Гонендз;Goniądz
+ru;Голымин-Осьродек;Gołymin-Ośrodek
+lv;Goldapa;Gołdap
+bg;Голдап;Gołdap
+uk;Голдап;Gołdap
+he;גולדאפ;Gołdap
+lt;Geldapė;Gołdap
+ru;Голдап;Gołdap
+zh;戈乌达普;Gołdap
+sr;Голдап;Gołdap
+sk;Gmina Gnojno;Gnojno
+uk;Ґміна Ґнойно;Gnojno
+ru;Гнойно;Gnojno
+ru;Гняздово;Gniazdowo
+bg;Глогов Малополски;Głogów Małopolski
+he;גלוגוב מלופולסקי;Głogów Małopolski
+lv;Glogova Malopolska;Głogów Małopolski
+sr;Глогов Малополски;Głogów Małopolski
+uk;Глогув-Малопольський;Głogów Małopolski
+ru;Глогув-Малопольский;Głogów Małopolski
+zh;小波蘭地區格沃古夫;Głogów Małopolski
+ru;Глиноецк;Glinojeck
+lv;Glinojecka;Glinojeck
+uk;Гліноєцьк;Glinojeck
+zh;格利諾耶茨克;Glinojeck
+sr;Глинојецк;Glinojeck
+ru;Глеба;Gleba
+ko;기지츠코;Giżycko
+ja;ギジツコ;Giżycko
+bg;Гижицко;Giżycko
+lv;Gižicko;Giżycko
+lt;Lėcius;Giżycko
+uk;Гіжицько;Giżycko
+ru;Гижицко;Giżycko
+zh;吉日茨科;Giżycko
+sr;Гижицко;Giżycko
+ru;Гибы;Giby
+lt;Gibai;Giby
+ru;Гонсоцин;Gąsocin
+ru;Гонски;Gąski
+uk;Гарволін;Garwolin
+lv;Garvolina;Garwolin
+bg;Гарволин;Garwolin
+ru;Гарволин;Garwolin
+zh;加爾沃林;Garwolin
+sr;Гарволин;Garwolin
+ru;Галины;Galiny
+ru;Фрогново;Frygnowo
+ru;Фрыдман;Frydman
+ru;Фредропол;Fredropol
+ru;Франкново;Franknowo
+lv;Frampole;Frampol
+sr;Фрампол;Frampol
+uk;Фрамполь;Frampol
+ru;Фрамполь;Frampol
+zh;弗蘭波爾;Frampol
+ru;Фронцки;Frącki
+ru;Филипув;Filipów
+lt;Pilypavas;Filipów
+lv;Elka;Ełk
+no;Elk;Ełk
+bg;Елк;Ełk
+lt;Lukas;Ełk
+uk;Елк;Ełk
+ru;Элк;Ełk
+zh;埃烏克;Ełk
+he;אלק;Ełk
+ja;エウク;Ełk
+th;เอลก์;Ełk
+sr;Елк;Ełk
+tt;Элк;Ełk
+ru;Дзевуле;Dziewule
+sk;Gmina Dzierzgowo;Dzierzgowo
+uk;Ґміна Дзежґово;Dzierzgowo
+ru;Дзежгово;Dzierzgowo
+ay;Dziecinuw;Dziecinów
+sgs;Dziecinuvs;Dziecinów
+crh;Ceçinuv;Dziecinów
+ja;ヂェチヌフ;Dziecinów
+lv;Dzecinova;Dziecinów
+sl;Dziecinov;Dziecinów
+sr;Дзецинув;Dziecinów
+uk;Дзецинув;Dziecinów
+ru;Дзецинув;Dziecinów
+fa;دژسینوف;Dziecinów
+lv;Dzjalošice;Działoszyce
+sr;Ђалошице;Działoszyce
+uk;Дзялошице;Działoszyce
+ru;Дзялошице;Działoszyce
+zh;賈沃希采;Działoszyce
+he;דזיאלושיצה;Działoszyce
+bg;Джялдово;Działdowo
+uk;Дзялдово;Działdowo
+lt;Dzialdovas;Działdowo
+lv;Dzjaldovo;Działdowo
+ru;Дзялдово;Działdowo
+zh;賈烏多沃;Działdowo
+sr;Ђалдово;Działdowo
+th;เจาดอวอ;Działdowo
+ru;Дзядковице;Dziadkowice
+ru;Дывиты;Dywity
+ru;Дыс;Dys
+he;דינוב;Dynów
+lv;Dinova;Dynów
+uk;Динів;Dynów
+ru;Дынув;Dynów
+zh;迪努夫;Dynów
+bg;Динов;Dynów
+sr;Динов;Dynów
+ru;Дылево;Dylewo
+ru;Дунаек;Dunajek
+bg;Дукля;Dukla
+he;דוקלה;Dukla
+uk;Дукля;Dukla
+ru;Дукля;Dukla
+zh;杜克拉;Dukla
+sr;Дукла;Dukla
+ru;Дубно;Dubno
+ru;Дубенинки;Dubeninki
+lt;Dubininkai;Dubeninki
+uk;Дубенинки;Dubeninki
+he;דזוויצה;Drzewica
+lv;Dževica;Drzewica
+sr;Джевица;Drzewica
+uk;Джевиця;Drzewica
+ru;Джевица;Drzewica
+zh;德熱維察;Drzewica
+ru;Дрохичин;Drohiczyn
+ru;Долистово;Dolistowo
+ru;Добрыляс;Dobry Las
+ru;Добре-Място;Dobre Miasto
+lv;Dobre Mjasto;Dobre Miasto
+uk;Добре Місто;Dobre Miasto
+zh;多布雷城;Dobre Miasto
+sr;Добре Мјасто;Dobre Miasto
+ru;Добре;Dobre
+ru;Добра;Dobra
+bg;Добчице;Dobczyce
+he;דובציצה;Dobczyce
+lv;Dobčice;Dobczyce
+sr;Допчице;Dobczyce
+uk;Добчице;Dobczyce
+ru;Добчице;Dobczyce
+zh;多布奇采;Dobczyce
+ru;Дмусы;Dmusy
+ru;Длугоседло;Długosiodło
+ru;Длуголенка;Długołęka
+ru;Дерц;Derc
+ru;Дембск;Dębsk
+lv;Demblina;Dęblin
+bg;Демблин;Dęblin
+uk;Демблін;Dęblin
+ru;Демблин;Dęblin
+zh;登布林;Dęblin
+he;דמבלין;Dęblin
+sr;Демблин;Dęblin
+he;דמביצה;Dębica
+uk;Дембиця;Dębica
+bg;Дембица;Dębica
+ru;Дембица;Dębica
+zh;登比察;Dębica
+sr;Дембица;Dębica
+ru;Даше;Dasze
+lv;Dalešice;Daleszyce
+sr;Далешице;Daleszyce
+uk;Далешице;Daleszyce
+ru;Далешице;Daleszyce
+zh;達萊希采;Daleszyce
+be;Вёска Дамбруўна;Dąbrówno
+ru;Домбрувно;Dąbrówno
+ru;Домбрувка;Dąbrówka
+bg;Домброва Тарновска;Dąbrowa Tarnowska
+ja;ドンブロヴァ・タルノフスカ;Dąbrowa Tarnowska
+uk;Домброва-Тарновська;Dąbrowa Tarnowska
+ru;Домброва-Тарновска;Dąbrowa Tarnowska
+zh;塔爾努夫的棟布羅瓦;Dąbrowa Tarnowska
+sr;Домброва Тарновска;Dąbrowa Tarnowska
+he;דומברובה טרנובסקה;Dąbrowa Tarnowska
+be;Дамброва-Беластоцкая;Dąbrowa Białostocka
+lt;Dambrava;Dąbrowa Białostocka
+lv;Dombrova Bjalostocka;Dąbrowa Białostocka
+uk;Домброва-Білостоцька;Dąbrowa Białostocka
+ru;Домброва-Бялостоцка;Dąbrowa Białostocka
+zh;比亞韋斯托克的棟布羅瓦;Dąbrowa Białostocka
+he;דומברובה ביאלוסטוצקה;Dąbrowa Białostocka
+sr;Домброва Бјалостоцка;Dąbrowa Białostocka
+ru;Чижев-Осада;Czyżew
+pl;Czyżew-Osada;Czyżew
+lt;Čiževo valsčius;Czyżew
+sk;Gmina Czyżew-Osada;Czyżew
+uk;Ґміна Чижев;Czyżew
+ru;Чижев;Czyżew
+ru;Червонка;Czerwonka
+pl;Czerwonka Włościańska (do 1999);Czerwonka
+ru;Червоне;Czerwone
+ru;Черск;Czersk
+ru;Чернице-Борове;Czernice Borowe
+bg;Чхув;Czchów
+lv;Čhova;Czchów
+sr;Чхов;Czchów
+uk;Чхув;Czchów
+ru;Чхув;Czchów
+zh;奇胡夫;Czchów
+sk;Gmina Czarnocin;Czarnocin
+uk;Ґміна Чарноцин;Czarnocin
+ru;Чарноцин;Czarnocin
+ru;Чарна-Бялостоцка;Czarna Białostocka
+lt;Čarna Bialostocka;Czarna Białostocka
+lv;Čarna Bjalostocka;Czarna Białostocka
+uk;Чарна-Білостоцька;Czarna Białostocka
+ru;Чарна-Белостоцка;Czarna Białostocka
+zh;黑比亞沃斯托茨卡;Czarna Białostocka
+sr;Чарна Бјалостоцка;Czarna Białostocka
+pl;Czarna Górna (do 1999);Czarna
+lv;Cmelova;Ćmielów
+sr;Ћмјелов;Ćmielów
+uk;Цмелюв;Ćmielów
+ru;Чмелюв;Ćmielów
+zh;奇梅盧夫;Ćmielów
+he;צמיילוב;Ćmielów
+uk;Тісна;Cisna
+ru;Цимохы;Cimochy
+bg;Ченжковице;Ciężkowice
+lv;Cenžkovice;Ciężkowice
+sr;Ћеншковице;Ciężkowice
+uk;Ценжковіце;Ciężkowice
+ru;Ченжковице;Ciężkowice
+zh;錢日科維采;Ciężkowice
+uk;Tishaniv;Cieszanów
+he;ציעשינאוו;Cieszanów
+bg;Чешанов;Cieszanów
+lv;Cešanova;Cieszanów
+sr;Ћешанов;Cieszanów
+uk;Цішанів;Cieszanów
+ru;Цешанув;Cieszanów
+zh;切沙努夫;Cieszanów
+lt;Cechanoveco valsčius;Ciechanowiec
+sk;Gmina Ciechanowiec;Ciechanowiec
+uk;Ґміна Цехановець;Ciechanowiec
+ru;Цехановец;Ciechanowiec
+he;צחאנוב;Ciechanów
+fa;تسیخانوو;Ciechanów
+ko;치에하누프;Ciechanów
+bg;Чеханов;Ciechanów
+lv;Cehanova;Ciechanów
+lt;Cechanuvas;Ciechanów
+uk;Цеханув;Ciechanów
+ru;Цеханув;Ciechanów
+zh;切哈努夫;Ciechanów
+pl;Chyżówki;Chyszówki
+sk;Gmina Chynów;Chynów
+uk;Ґміна Хинув;Chynów
+ru;Хынув;Chynów
+be;Хжонхаў;Chrząchów
+bg;Хжонхов;Chrząchów
+ja;フションフフ;Chrząchów
+ru;Хжонхув;Chrząchów
+uk;Хжонхув;Chrząchów
+pl;Chruślin (Rokitno);Chruślin
+ru;Хожеле;Chorzele
+lv;Hožele;Chorzele
+uk;Хожеле;Chorzele
+zh;霍熱萊;Chorzele
+he;חוזלה;Chorzele
+sr;Хожеле;Chorzele
+ru;Хорощ;Choroszcz
+lt;Choroščas;Choroszcz
+lv;Horošča;Choroszcz
+sr;Хорошч;Choroszcz
+uk;Хорощ;Choroszcz
+zh;霍羅什奇;Choroszcz
+ru;Хоечно;Chojeczno
+ru;Хоцишево;Chociszewo
+he;חמיילניק;Chmielnik
+lv;Hmelņika;Chmielnik
+sr;Хмјелњик;Chmielnik
+uk;Хмельник;Chmielnik
+ru;Хмельник;Chmielnik
+zh;赫梅爾尼克;Chmielnik
+sk;Gmina Chełmiec;Chełmiec
+uk;Ґміна Хелмець;Chełmiec
+ru;Хелмец;Chełmiec
+he;חלם;Chełm
+lv;Helma;Chełm
+uk;Холм;Chełm
+ru;Хелм;Chełm
+ko;헤움;Chełm
+be;Хэлм;Chełm
+ja;ヘウム;Chełm
+bg;Хелм;Chełm
+lt;Chelmas;Chełm
+zh;海乌姆;Chełm
+tt;Хелм;Chełm
+sr;Хелм;Chełm
+uk;Хенцини;Chęciny
+lv;Hencini;Chęciny
+he;חנטשין;Chęciny
+ru;Хенцины;Chęciny
+zh;亨齊內;Chęciny
+sr;Хенћини;Chęciny
+ru;Церанув;Ceranów
+ru;Целестынув;Celestynów
+ru;Цеглув;Cegłów
+ru;Быстра;Bystra
+he;ביחאווה;Bychawa
+lv;Bihava;Bychawa
+sr;Бихава;Bychawa
+uk;Бихава;Bychawa
+ru;Быхава;Bychawa
+zh;貝哈瓦;Bychawa
+ru;Бутрыны;Butryny
+sr;Буско-Здрој;Busko-Zdrój
+uk;Бусько-Здруй;Busko-Zdrój
+lv;Buskozdroja;Busko-Zdrój
+bg;Буско-Здруй;Busko-Zdrój
+ru;Буско-Здруй;Busko-Zdrój
+zh;布斯科茲德魯伊;Busko-Zdrój
+he;בוסקו-זדרוי;Busko-Zdrój
+ru;Бульково;Bulkowo
+uk;Буківсько;Bukowsko
+he;בוקובסקו;Bukowsko
+ru;Буковско;Bukowsko
+sk;Tatranská Bukovina;Bukowina Tatrzańska
+pl;Budy Zosine;Budy Zosiny
+ru;Будры;Budry
+lt;Budriai;Budry
+ru;Будомеж;Budomierz
+sr;Бжозов;Brzozów
+uk;Березів;Brzozów
+ru;Бжозув;Brzozów
+lv;Bžozova;Brzozów
+zh;布若祖夫;Brzozów
+bg;Бжозов;Brzozów
+he;בזוזוב;Brzozów
+ur;برزوزوو;Brzozów
+bg;Бжостек;Brzostek
+he;בזוסטק;Brzostek
+lv;Bžosteka;Brzostek
+sr;Бжостек;Brzostek
+uk;Бжостек;Brzostek
+ur;برزوسٹیک;Brzostek
+ru;Бжостек;Brzostek
+zh;布若斯泰克;Brzostek
+ru;Бжезины;Brzeziny
+ru;Бжеско;Brzesko
+cs;Gmina Brwinów;Brwinów
+sk;Gmina Brwinów;Brwinów
+uk;Ґміна Брвінув;Brwinów
+ru;Брвинув;Brwinów
+ru;Брошкув;Broszków
+ru;Броново;Bronowo
+ru;Брок;Brok
+be;Брок;Brok
+he;ברוק;Brok
+lv;Broka;Brok
+sr;Брок;Brok
+uk;Брок;Brok
+zh;布羅克;Brok
+ru;Броды;Brody
+sk;Gmina Brochów;Brochów
+uk;Ґміна Брохув;Brochów
+ru;Брохув;Brochów
+ru;Бредынки;Bredynki
+uk;Бранськ;Brańsk
+lv;Braņska;Brańsk
+lt;Branskas;Brańsk
+ru;Браньск;Brańsk
+zh;布蘭斯克;Brańsk
+he;בראנסק;Brańsk
+sr;Брањск;Brańsk
+ru;Брамки;Bramki
+ru;Борова;Borowa
+ru;Борки;Borki
+ru;Борек;Borek
+ru;Боравске;Borawskie
+ru;Болимув;Bolimów
+ru;Бохукалы;Bohukały
+ru;Богуты-Пянки;Boguty-Pianki
+ru;Богужин;Bogurzyn
+ru;Богухвалы;Boguchwały
+sk;Gmina Bogoria;Bogoria
+uk;Ґміна Боґорія;Bogoria
+ru;Богоря;Bogoria
+ru;Богданки;Bogdanki
+ru;Богате;Bogate
+lv;Bodzentina;Bodzentyn
+uk;Бодзентин;Bodzentyn
+ru;Бодзентын;Bodzentyn
+zh;博曾滕;Bodzentyn
+sr;Бодзентин;Bodzentyn
+he;בודזנטין;Bodzentyn
+ru;Бодзанув;Bodzanów
+sk;Gmina Bodzanów;Bodzanów
+uk;Ґміна Бодзанув;Bodzanów
+ru;Воцьки;Boćki
+lt;Bočkų valsčius;Boćki
+ro;Comuna Boćki;Boćki
+sk;Gmina Boćki;Boćki
+uk;Ґміна Боцькі;Boćki
+ru;Боцьки;Boćki
+ab;Вохотница;Bochotnica
+am;ቦኾትኒጻ;Bochotnica
+ar;بوخوتنيتسا;Bochotnica
+ba;Вохотница;Bochotnica
+be;Вёска Бахатніца;Bochotnica
+bg;Бохотница;Bochotnica
+ce;Бохотница;Bochotnica
+crh;Bohotnitsa;Bochotnica
+cv;Вохотница;Bochotnica
+ee;Bɔhɔtnísa;Bochotnica
+fa;بوخوتنیتسا;Bochotnica
+ja;ボホトニツァ;Bochotnica
+ka;ბოხოტნიცა;Bochotnica
+ko;보호트니차;Bochotnica
+kv;Бохотница;Bochotnica
+lv;Bohotņica;Bochotnica
+mk;Бохотница;Bochotnica
+myv;Бохотница;Bochotnica
+ne;बोकोट्निका;Bochotnica
+os;Бохотницæ;Bochotnica
+ps;بوښوتنيکا;Bochotnica
+sah;Бохотница;Bochotnica
+sr;Бохотњица;Bochotnica
+tg;Бохотнитса;Bochotnica
+udm;Бохотница;Bochotnica
+uk;Бохотніца;Bochotnica
+xal;Бохотница;Bochotnica
+yue;波葛列查;Bochotnica
+ru;Бохотница;Bochotnica
+zh;波葛列查;Bochotnica
+sr;Бохња;Bochnia
+ru;Бохня;Bochnia
+he;בוכניה;Bochnia
+lv;Bohņa;Bochnia
+uk;Бохня;Bochnia
+bg;Бохня;Bochnia
+ja;ボフニャ;Bochnia
+zh;博赫尼亞;Bochnia
+ru;Бобровники;Bobrowniki
+ru;Бобрубка;Bobrówka
+bg;Бобова;Bobowa
+he;בובובה;Bobowa
+sr;Бобова;Bobowa
+uk;Бобова;Bobowa
+ru;Бобова;Bobowa
+zh;博博瓦;Bobowa
+tt;Бобова;Bobowa
+be;Бабова;Bobowa
+lv;Bobova;Bobowa
+ce;Бобова;Bobowa
+el;Μπομπόβα;Bobowa
+fa;بوبووا;Bobowa
+lv;Bloņe;Błonie
+uk;Блоне;Błonie
+sr;Блоње;Błonie
+ru;Блоне;Błonie
+zh;布沃涅;Błonie
+ce;Блоне;Błonie
+he;בלוניה;Błonie
+bg;Блажова;Błażowa
+he;בלאזובה;Błażowa
+lv;Blažova;Błażowa
+sr;Блажова;Błażowa
+uk;Блажова;Błażowa
+ru;Блажова;Błażowa
+zh;布瓦若瓦;Błażowa
+ru;Биштынек;Bisztynek
+lv;Bištineka;Bisztynek
+sr;Биштинек;Bisztynek
+uk;Біштинек;Bisztynek
+zh;比什蒂內克;Bisztynek
+sr;Бискупјец;Biskupiec
+lv;Biskupeca;Biskupiec
+uk;Біскупець;Biskupiec
+ru;Бискупец;Biskupiec
+zh;比斯庫佩茨;Biskupiec
+ru;Бинарова;Binarowa
+lv;Bilgoraja;Biłgoraj
+ru;Билгорай;Biłgoraj
+sr;Билгорај;Biłgoraj
+uk;Білґорай;Biłgoraj
+he;בילגוריי;Biłgoraj
+bg;Билгорай;Biłgoraj
+be;Білгорай;Biłgoraj
+zh;比烏戈拉伊;Biłgoraj
+lt;Bilgorajus;Biłgoraj
+ru;Бесаль;Biesal
+ru;Бельск-Подляски;Bielsk Podlaski
+sr;Бјелск Подласки;Bielsk Podlaski
+uk;Більськ-Підляський;Bielsk Podlaski
+bg;Белск Подляски;Bielsk Podlaski
+be;Бельск-Падляшскі;Bielsk Podlaski
+lv;Belska Podlaska;Bielsk Podlaski
+lt;Bielskas;Bielsk Podlaski
+zh;波德拉謝地區別爾斯克;Bielsk Podlaski
+pl;Bieliny Kapitulne (do 1999);Bieliny
+ru;Беляны;Bielany
+zh;别拉内区;Bielany
+hy;Բելյանի;Bielany
+uk;Беляни;Bielany
+ka;ბელიანი;Bielany
+ja;ビエラニー;Bielany
+fa;بیلانه;Bielany
+sr;Биелани;Bielany
+sr;Бјеч;Biecz
+lv;Beča;Biecz
+uk;Беч;Biecz
+ru;Беч;Biecz
+zh;別奇;Biecz
+bg;Беч;Biecz
+he;בייץ;Biecz
+be;Беласток;Białystok
+bg;Бялисток;Białystok
+he;ביאליסטוק;Białystok
+ja;ビャウィストク;Białystok
+ko;비아위스토크;Białystok
+lt;Balstogė;Białystok
+lv;Bjalistoka;Białystok
+ro;Белосток;Białystok
+ru;Белосток;Białystok
+eu;Bialystok;Białystok
+el;Μπιάλιστοκ;Białystok
+ba;Белосток;Białystok
+ka;ბელოსტოკი;Białystok
+uk;Білосток;Białystok
+fa;بیاویستوک;Białystok
+sr;Бјалисток;Białystok
+zh;比亚韦斯托克;Białystok
+az;Belostok;Białystok
+ar;بياليستوك;Białystok
+kk;Беластоқ;Białystok
+tr;Bialystok;Białystok
+uz;Belostok;Białystok
+ky;Беластоқ;Białystok
+ms;Bialystok;Białystok
+hi;बियालिस्तोक;Białystok
+bn;বিয়ালিস্টক;Białystok
+ur;بیالسٹاک;Białystok
+am;ቢያሊስቶክ;Białystok
+ha;Bialystok;Białystok
+om;Bialastoq;Białystok
+pa;ਬਿਆਲਿਸਟੋਕ;Białystok
+ps;بیالسټاک;Białystok
+so;Bialastoq;Białystok
+sw;Bialystok;Białystok
+tg;Белосток;Białystok
+tt;Беластоқ;Białystok
+uk;Біловежа;Białowieża
+lt;Bialovieža;Białowieża
+cs;Bělověž;Białowieża
+be;Вёска Белавежа;Białowieża
+ru;Беловежа;Białowieża
+ru;Бялоусы;Białousy
+ru;Бялоленка;Białołeka
+ru;Бялобжеги;Białobrzegi
+bg;Бялобжеги;Białobrzegi
+he;ביאלובזגי;Białobrzegi
+lv;Bjalobžegi;Białobrzegi
+sr;Бјалобжеги;Białobrzegi
+uk;Білобжегі;Białobrzegi
+zh;比亞沃布熱吉;Białobrzegi
+ru;Бялеблото;Białe Błoto Kobyle
+sr;Бјала Равска;Biała Rawska
+cs;Biala Ravska;Biała Rawska
+uk;Біла-Равська;Biała Rawska
+lv;Bjala Ravska;Biała Rawska
+ru;Бяла-Равска;Biała Rawska
+zh;比亞瓦拉夫斯卡;Biała Rawska
+he;ביאלה ראווסקה;Biała Rawska
+ru;Бяла-Подляска;Biała Podlaska
+lv;Bjala Podlaska;Biała Podlaska
+sr;Бјала Подласка;Biała Podlaska
+bg;Бяла Подляска;Biała Podlaska
+be;Бяла-Падляска;Biała Podlaska
+he;ביאלא פודולסק;Biała Podlaska
+lt;Palenkės Biala;Biała Podlaska
+ko;비아와포들라스카;Biała Podlaska
+uk;Біла Підляська;Biała Podlaska
+zh;比亞瓦-波德拉斯卡;Biała Podlaska
+ru;Бяла-Писка;Biała Piska
+lv;Bjala Piska;Biała Piska
+sr;Бјала Писка;Biała Piska
+uk;Біла Піска;Biała Piska
+zh;比亞瓦皮斯卡;Biała Piska
+ru;Безледы;Bezledy
+ru;Беско;Besko
+ru;Бержники;Berżniki
+pl;Brzegi Górne;Berehy Górne
+ru;Беняминув;Beniaminów
+ru;Бемово;Bemowo
+lv;Belžice;Bełżyce
+sr;Белжице;Bełżyce
+uk;Белжице;Bełżyce
+ru;Белжице;Bełżyce
+zh;貝烏日采;Bełżyce
+he;בלזיצה;Bełżyce
+ru;Беднары;Bednary
+uk;Барвінок;Barwinek
+sr;Бартошице;Bartoszyce
+lt;Barštynas;Bartoszyce
+bg;Бартошице;Bartoszyce
+lv;Bartošice;Bartoszyce
+uk;Бартошице;Bartoszyce
+ru;Бартошице;Bartoszyce
+zh;巴爾托希采;Bartoszyce
+ru;Бартники;Bartniki
+uk;Бортне;Bartne
+ru;Бартне;Bartne
+ru;Барглув Косцельны;Bargłów Kościelny
+lt;Barglavo valsčius;Bargłów Kościelny
+ro;Comuna Bargłów Kościelny;Bargłów Kościelny
+sk;Gmina Bargłów Kościelny;Bargłów Kościelny
+uk;Ґміна Барґлув-Косьцельни;Bargłów Kościelny
+gl;Concello de Bargłów Kościelny;Bargłów Kościelny
+sr;Барчево;Barczewo
+uk;Барчево;Barczewo
+lv;Barčevo;Barczewo
+ru;Барчево;Barczewo
+zh;巴爾切沃;Barczewo
+ru;Барчевко;Barczewko
+ru;Барцяны;Barciany
+lt;Bartėnai;Barciany
+ru;Бараново;Baranowo
+ru;Бане-Мазурске;Banie Mazurskie
+lt;Benkaimis;Banie Mazurskie
+uk;Бані Мазурські;Banie Mazurskie
+lt;Bakalariavos valsčius;Bakałarzewo
+sk;Gmina Bakałarzewo;Bakałarzewo
+uk;Ґміна Бакалажево;Bakałarzewo
+ru;Бакалажево;Bakałarzewo
+ru;Байтково;Bajtkowo
+ru;Бацюты;Baciuty
+ar;بابسك;Babsk
+be;Вёска Бабск;Babsk
+bg;Бабск;Babsk
+cv;Бабск;Babsk
+el;Μπαμπσκ;Babsk
+fa;بابسک;Babsk
+he;באבסק;Babsk
+hi;बाप्स्क;Babsk
+hy;Բաբսկ;Babsk
+ja;バプスク;Babsk
+ko;밥스크;Babsk
+lt;Babskas;Babsk
+lv;Babska;Babsk
+mk;Бабск;Babsk
+sr;Бабск;Babsk
+uk;Бабськ;Babsk
+ru;Бабск;Babsk
+zh;巴布斯克;Babsk
+ru;Бабошево;Baboszewo
+ru;Бабента;Babięta
+ru;Бабяк;Babiak
+ru;Аугустово;Augustowo
+ru;Августов;Augustów
+lt;Augustavas;Augustów
+sr;Аугустов;Augustów
+uz;Avgustova;Augustów
+ro;Аннопол;Annopol
+sr;Анопол;Annopol
+he;אנופול;Annopol
+lv;Annopole;Annopol
+uk;Аннополь;Annopol
+ru;Аннополь;Annopol
+zh;安諾波爾;Annopol
+lt;Andrejavas;Andrzejewo
+be;Адамаў;Adamów
+uk;Адамув;Adamów
+ru;Адамув;Adamów
+lv;Živeca;Żywiec
+uk;Живець;Żywiec
+bg;Живец;Żywiec
+ja;ジヴィエツ;Żywiec
+ru;Живец;Żywiec
+zh;日維茨;Żywiec
+sr;Живјец;Żywiec
+ko;지비에츠;Żywiec
+lt;Žyvecas;Żywiec
+ru;Жихлин;Żychlin
+lv;Žihlina;Żychlin
+uk;Жихлін;Żychlin
+zh;日赫林;Żychlin
+he;זיכלין;Żychlin
+sr;Жихлин;Żychlin
+ru;Журомин;Żuromin
+bg;Журомин;Żuromin
+lv;Žuromina;Żuromin
+uk;Журомін;Żuromin
+zh;茹羅明;Żuromin
+he;זורומין;Żuromin
+sr;Журомин;Żuromin
+ru;Жулавка-Штумска;Żuławka Sztumska
+hu;Felsőzubrica;Zubrzyca Górna
+lv;Žori;Żory
+ru;Жоры;Żory
+bg;Жори;Żory
+ja;ジョルィ;Żory
+ko;조리;Żory
+lt;Žoros;Żory
+sr;Жори;Żory
+th;ชอรือ;Żory
+uk;Жори;Żory
+zh;若雷;Żory
+be;Жоры;Żory
+tt;Жоры;Żory
+bg;Жнин;Żnin
+lt;Žninas;Żnin
+lv;Žņina;Żnin
+uk;Жнін;Żnin
+ru;Жнин;Żnin
+zh;日寧;Żnin
+sr;Жњин;Żnin
+lv;Žmigroda;Żmigród
+uk;Жміґруд;Żmigród
+ru;Жмигруд;Żmigród
+zh;日米格魯德;Żmigród
+bg;Жмигрод;Żmigród
+sr;Жмигрод;Żmigród
+lv;Zloti Stoka;Złoty Stok
+uk;Злоти Сток;Złoty Stok
+ru;Злоты-Сток;Złoty Stok
+zh;茲沃蒂斯托克;Złoty Stok
+bg;Злоти Сток;Złoty Stok
+sr;Злоти Сток;Złoty Stok
+ru;Злотово;Złotowo
+sl;Zlotuv;Złotów
+uk;Злотув;Złotów
+bg;Злотов;Złotów
+lv;Zlotova;Złotów
+be;Злотаў;Złotów
+ru;Злотув;Złotów
+zh;茲沃圖夫;Złotów
+sr;Злотов;Złotów
+bs;Zlotuv;Złotów
+bg;Zlotuv;Złotów
+hr;Zlotuv;Złotów
+ltg;Zlotova;Złotów
+sr;Zlotuv;Złotów
+sv;Flatow;Złotów
+bg;Злотория;Złotoryja
+lv;Zlotorija;Złotoryja
+uk;Злотория;Złotoryja
+ru;Злоторыя;Złotoryja
+zh;茲沃托雷亞;Złotoryja
+sr;Злоторија;Złotoryja
+ru;Злотники-Куявске;Złotniki Kujawskie
+lv;Zločeva;Złoczew
+uk;Злочев;Złoczew
+ru;Злочев;Złoczew
+zh;茲沃切夫;Złoczew
+he;זלוצב;Złoczew
+sr;Злочев;Złoczew
+lv;Zloceņeca;Złocieniec
+sr;Злоћењец;Złocieniec
+uk;Злоценець;Złocieniec
+ru;Злоценец;Złocieniec
+zh;茲沃切涅茨;Złocieniec
+be;Злаценец;Złocieniec
+sk;Gmina Zławieś Wielka;Zławieś Wielka
+uk;Ґміна Злавесь-Велька;Zławieś Wielka
+ru;Злавесь-Велька;Zławieś Wielka
+ru;Зеленка-Пасленцка;Zielonka Pasłęcka
+ja;ジェロナ・グラ;Zielona Góra
+lv;Zelona Gura;Zielona Góra
+zh-TW;綠山城;Zielona Góra
+bg;Жельона Гора;Zielona Góra
+ko;지엘로나구라;Zielona Góra
+el;Ζιελόνα Γκόρα;Zielona Góra
+fa;ژلونا گورا;Zielona Góra
+uk;Зелена Гура;Zielona Góra
+be;Зялёна-Гура;Zielona Góra
+vep;Zelöna Gur;Zielona Góra
+lt;Zeliona Gura;Zielona Góra
+ru;Зелёна-Гура;Zielona Góra
+zh;綠山城;Zielona Góra
+sr;Зјелона Гора;Zielona Góra
+ar;جلونا غورا;Zielona Góra
+hy;Զիելոնա Գուրա;Zielona Góra
+th;แชลอนากูรา;Zielona Góra
+tt;Зелёна-Гура;Zielona Góra
+ur;ژیلونا گورا;Zielona Góra
+kk;Зелона Гура;Zielona Góra
+uz;Zelona Gura;Zielona Góra
+ky;Зелона Гура;Zielona Góra
+hi;जिएलोना गोरा;Zielona Góra
+bn;জিয়েলোনা গোরা;Zielona Góra
+am;ዚእሎና ጎራ;Zielona Góra
+az;Zelona Qura;Zielona Góra
+om;Zelona Gura;Zielona Góra
+pa;ਜ਼ੀਲੋਨਾ ਗੋਰਾ;Zielona Góra
+ps;زیلونا گورا;Zielona Góra
+so;Zelona Gura;Zielona Góra
+tg;Зелёна-Гура;Zielona Góra
+lv;Zembice;Ziębice
+uk;Зембіце;Ziębice
+ru;Зембице;Ziębice
+zh;津比采;Ziębice
+az;Zembise;Ziębice
+bg;Жембице;Ziębice
+sr;Зјембице;Ziębice
+ru;Згожелец;Zgorzelec
+ja;ズゴジェレツ;Zgorzelec
+uk;Зґожелець;Zgorzelec
+lv;Zgoželeca;Zgorzelec
+bg;Згожелец;Zgorzelec
+ko;즈고젤레츠;Zgorzelec
+zh;茲戈熱萊茨;Zgorzelec
+lt;Zgoželecas;Zgorzelec
+he;זגוזלץ;Zgorzelec
+sr;Згожелец;Zgorzelec
+ar;غورلتس;Zgorzelec
+lv;Zgeža;Zgierz
+ru;Згеж;Zgierz
+bg;Згеж;Zgierz
+ko;즈기에시;Zgierz
+th;เซอเกียร์ช;Zgierz
+ja;ズギェシ;Zgierz
+el;Ζγκιες;Zgierz
+sr;Згјеж;Zgierz
+lt;Zgežas;Zgierz
+be;Згеж;Zgierz
+uk;Згеж;Zgierz
+zh;兹盖日;Zgierz
+he;זגייז;Zgierz
+tt;Згеж;Zgierz
+be;Жэркаў;Żerków
+lv;Žerkova;Żerków
+uk;Жеркув;Żerków
+ru;Жеркув;Żerków
+zh;熱爾庫夫;Żerków
+sr;Жерков;Żerków
+lv;Zelova;Zelów
+uk;Зелюв;Zelów
+ru;Зелюв;Zelów
+zh;澤盧夫;Zelów
+bg;Зджешовице;Zdzieszowice
+lv;Zdzešovice;Zdzieszowice
+sr;Зђешовице;Zdzieszowice
+uk;Здзешовіце;Zdzieszowice
+ru;Здзешовице;Zdzieszowice
+zh;茲傑紹維采;Zdzieszowice
+ru;Жджары;Żdżary
+lv;Zduni;Zduny
+sr;Здуни;Zduny
+uk;Здуни;Zduny
+ru;Здуны;Zduny
+zh;茲杜內;Zduny
+lt;Zdunska Volia;Zduńska Wola
+bg;Здунска Воля;Zduńska Wola
+lv;Zduņska Vola;Zduńska Wola
+uk;Здунська Воля;Zduńska Wola
+ru;Здуньская-Воля;Zduńska Wola
+zh;茲敦斯卡沃拉;Zduńska Wola
+he;זדונסקה וולה;Zduńska Wola
+sr;Здуњска Вола;Zduńska Wola
+ru;Здрое;Zdroje
+ru;Збуйно;Zbójno
+ro;Comuna Zbójno;Zbójno
+sk;Gmina Zbójno;Zbójno
+uk;Ґміна Збуйно;Zbójno
+ru;Зблево;Zblewo
+lv;Zbonšineka;Zbąszynek
+sr;Збоншинек;Zbąszynek
+uk;Збоншинек;Zbąszynek
+ru;Збоншинек;Zbąszynek
+zh;兹邦希内克;Zbąszynek
+lv;Zbonšiņa;Zbąszyń
+uk;Збоншинь;Zbąszyń
+ru;Збоншинь;Zbąszyń
+zh;茲邦申;Zbąszyń
+sr;Збоншињ;Zbąszyń
+lv;Zaverce;Zawiercie
+ru;Заверце;Zawiercie
+uk;Заверце;Zawiercie
+lt;Zavercis;Zawiercie
+bg;Заверче;Zawiercie
+zh;扎维尔切;Zawiercie
+sr;Завјерће;Zawiercie
+sgs;Zaviercis;Zawiercie
+he;זוויירצה;Zawiercie
+tt;Заверце;Zawiercie
+pl;Zawidz Kościelny;Zawidz
+lv;Zavidova;Zawidów
+uk;Завідув;Zawidów
+ru;Завидув;Zawidów
+zh;扎維杜夫;Zawidów
+sr;Завидов;Zawidów
+bg;Завадзке;Zawadzkie
+lv;Zavadzke;Zawadzkie
+sr;Завадскје;Zawadzkie
+uk;Завадзьке;Zawadzkie
+ru;Завадзке;Zawadzkie
+zh;扎瓦茲凱;Zawadzkie
+tt;Завада;Zawada
+ce;Завада;Zawada
+uk;Завада;Zawada
+ru;Заставно;Zastawno
+ru;Жара;Żary
+lv;Žari;Żary
+ca;Sorau;Żary
+bg;Жари;Żary
+uk;Жари;Żary
+ru;Жары;Żary
+zh;扎雷;Żary
+sr;Жари;Żary
+lt;Žarai;Żary
+pl;Żarska Wieś;Żarska
+lv;Žarova;Żarów
+sr;Жаров;Żarów
+uk;Жарув;Żarów
+ru;Жарув;Żarów
+zh;扎魯夫;Żarów
+bg;Жарки;Żarki
+he;זרקי;Żarki
+sr;Жарки;Żarki
+uk;Жарки;Żarki
+ru;Жарки;Żarki
+zh;札基;Żarki
+lv;Zalevo;Zalewo
+uk;Залево;Zalewo
+ru;Залево;Zalewo
+zh;扎萊沃;Zalewo
+sr;Залево;Zalewo
+bg;Закопане;Zakopane
+he;זאקופנה;Zakopane
+ja;ザコパネ;Zakopane
+ru;Закопане;Zakopane
+ko;자코파네;Zakopane
+kk;Закопане;Zakopane
+ar;زكوبن;Zakopane
+sr;Закопане;Zakopane
+uk;Закопане;Zakopane
+zh;扎科帕內;Zakopane
+be;Закапанэ;Zakopane
+fa;زکوپانا;Zakopane
+ka;ზაკოპანე;Zakopane
+ur;زگورضی سلوسکے;Zagórze Śląskie
+lv;Zagurova;Zagórów
+uk;Загурув;Zagórów
+ru;Загурув;Zagórów
+zh;扎古魯夫;Zagórów
+he;זגורוב;Zagórów
+sr;Загоров;Zagórów
+ur;زگوروو;Zagórów
+cs;Zaháň;Żagań
+ja;ジャガン;Żagań
+ru;Жагань;Żagań
+sr;Жагањ;Żagań
+tt;Jaganʻ;Żagań
+uk;Жагань;Żagań
+uk;Жаґань;Żagań
+lv;Žagaņa;Żagań
+el;Ζάγκαν;Żagań
+ar;زاجان;Żagań
+az;Jaqan;Żagań
+lt;Žaganis;Żagań
+bg;Жаган;Żagań
+hi;ज़ागान;Żagań
+fa;زاگان;Żagań
+zh;薩根;Żagań
+ur;زاگان;Żagań
+ur;زاجیم;Zadzim
+lv;Zabže;Zabrze
+ru;Забже;Zabrze
+he;זאבזה;Zabrze
+ko;자브제;Zabrze
+th;ซาบเช;Zabrze
+bg;Забже;Zabrze
+ja;ザブジェ;Zabrze
+bs;Zabže;Zabrze
+fa;زابژه;Zabrze
+lt;Zabžas;Zabrze
+uk;Забже;Zabrze
+zh;扎布热;Zabrze
+sr;Забже;Zabrze
+uz;Zabje;Zabrze
+ar;زابجه;Zabrze
+be;Забжэ;Zabrze
+hy;Զաբժե;Zabrze
+tt;Забже;Zabrze
+ur;زبرزے;Zabrze
+ur;زوبرووو، پومیرانیان وویوودشپ;Ząbrowo
+ru;Зомброво;Ząbrowo
+ur;زابنیکا، سیلسیان صوبہ;Żabnica
+lv;Zombkovice Slonske;Ząbkowice Śląskie
+bg;Зомбковице Шльонске;Ząbkowice Śląskie
+uk;Зомбковіце-Шльонське;Ząbkowice Śląskie
+ru;Зомбковице-Слёнске;Ząbkowice Śląskie
+zh;希隆斯克地區宗布科維采;Ząbkowice Śląskie
+sr;Зомпковице Слонскје;Ząbkowice Śląskie
+ur;زوبکووکے سلوسکے;Ząbkowice Śląskie
+sk;Gmina Zabierzów;Zabierzów
+uk;Ґміна Забежув;Zabierzów
+ru;Забежув;Zabierzów
+ru;Вышецино;Wyszecino
+lv;Visoka;Wysoka
+sr;Висока;Wysoka
+uk;Висока;Wysoka
+zh;維索卡;Wysoka
+ru;Высин;Wysin
+lt;Vižiskas;Wyrzysk
+lv;Vižiska;Wyrzysk
+uk;Вижиськ;Wyrzysk
+ru;Выжиск;Wyrzysk
+zh;維日斯克;Wyrzysk
+sr;Вижиск;Wyrzysk
+ru;Выры;Wyry
+lv;Vshova;Wschowa
+bg;Въсхова;Wschowa
+uk;Всхова;Wschowa
+lt;Vshova;Wschowa
+ru;Всхова;Wschowa
+zh;弗斯霍瓦;Wschowa
+sr;Всхова;Wschowa
+uk;Вжесьня;Września
+bg;Вжешня;Września
+lv;Vžesņa;Września
+be;Ужэсня;Września
+ru;Вжесня;Września
+zh;弗熱希尼亞;Września
+vep;Vžesn;Września
+lt;Vžesnia;Września
+sr;Вжесња;Września
+ru;Вроновы;Wronowy
+fa;ورونکی;Wronki
+lt;Vronkos;Wronki
+lv;Vronki;Wronki
+uk;Вронкі;Wronki
+ru;Вронки;Wronki
+zh;弗龍基;Wronki
+sr;Вронки;Wronki
+bg;Вроцлав;Wrocław
+cs;Vratislav;Wrocław
+eu;Wroclaw;Wrocław
+he;ורוצלב;Wrocław
+crh;Vrotslav;Wrocław
+ja;ヴロツワフ;Wrocław
+ltg;Vroclava;Wrocław
+ko;브로츠와프;Wrocław
+lt;Vroclavas;Wrocław
+lv;Vroclava;Wrocław
+sgs;Vruoclavs;Wrocław
+ru;Вроцлав;Wrocław
+sk;Vroclav;Wrocław
+sr;Вроцлав;Wrocław
+fa;وروتسواف;Wrocław
+tet;Vroklave;Wrocław
+os;Вроцлав;Wrocław
+el;Βρότσλαβ;Wrocław
+mr;व्रोत्सवाफ;Wrocław
+vep;Vroclav;Wrocław
+uk;Вроцлав;Wrocław
+ug;Wroklaw;Wrocław
+ka;ვროცლავი;Wrocław
+be;Вроцлаў;Wrocław
+th;วรอตสวัฟ;Wrocław
+az;Vroslav;Wrocław
+ta;விராத்ஸ்சாஃப்;Wrocław
+ar;فروتسواف;Wrocław
+sq;Vrocuav;Wrocław
+mk;Вроцлав;Wrocław
+ckb;ڤرۆتسواف;Wrocław
+zh;弗罗茨瓦夫;Wrocław
+sl;Vroclav;Wrocław
+kk;Вроцлав;Wrocław
+tr;Wroclaw;Wrocław
+uz;Vroslav;Wrocław
+ky;Вроцлав;Wrocław
+id;Wroclaw;Wrocław
+ms;Wroclaw;Wrocław
+hi;व्रोस्लाव;Wrocław
+bn;ভ্রোকলাভ;Wrocław
+ur;وروسلاف;Wrocław
+am;ብሮትስላቭ;Wrocław
+ha;Wroclaw;Wrocław
+jv;Wroclaw;Wrocław
+om;Vroslav;Wrocław
+pa;ਵਰੋਸਲਾਵ;Wrocław
+ps;وروسلاف;Wrocław
+so;Vroslav;Wrocław
+sw;Wroclaw;Wrocław
+tg;Вроцлав;Wrocław
+tt;Вроцлав;Wrocław
+ru;Вроцки;Wrocki
+ru;Врублина;Wróblina
+bg;Волщин;Wolsztyn
+uk;Вольштин;Wolsztyn
+lv;Volština;Wolsztyn
+be;Вольштын;Wolsztyn
+ru;Вольштын;Wolsztyn
+zh;沃尔什滕;Wolsztyn
+sr;Волштин;Wolsztyn
+uk;Волув;Wołów
+lv;Volova;Wołów
+bg;Волов;Wołów
+ru;Волув;Wołów
+zh;沃武夫;Wołów
+sr;Волов;Wołów
+ru;Волин;Wolin
+uk;Волін;Wolin
+sr;Волин;Wolin
+da;Wollin;Wolin
+lv;Volina;Wolin
+zh;沃林;Wolin
+be;Волін;Wolin
+lv;Volčina;Wołczyn
+uk;Волчин;Wołczyn
+ru;Волчин;Wołczyn
+zh;沃烏琴;Wołczyn
+bg;Волчин;Wołczyn
+sr;Волчин;Wołczyn
+he;וולברום;Wolbrom
+lv;Volbroma;Wolbrom
+sr;Волбром;Wolbrom
+uk;Вольбром;Wolbrom
+ru;Вольбром;Wolbrom
+zh;沃爾布羅姆;Wolbrom
+bg;Волбром;Wolbrom
+bg;Волбож;Wolbórz
+lv;Volboža;Wolbórz
+sr;Волбож;Wolbórz
+ru;Вольбуж;Wolbórz
+zh;沃爾博日;Wolbórz
+ru;Вола;Wola
+ru;Войталь;Wojtal
+bg;Войковице;Wojkowice
+ja;ヴォイコヴィツェ;Wojkowice
+lv;Vojkovice;Wojkowice
+sr;Војковице;Wojkowice
+uk;Войковіце;Wojkowice
+ru;Войковице;Wojkowice
+zh;沃伊科維采;Wojkowice
+ru;Вуйцин;Wójcin
+lv;Vojcešova;Wojcieszów
+uk;Войцешув;Wojcieszów
+ru;Войцешув;Wojcieszów
+zh;沃伊切舒夫;Wojcieszów
+sr;Војћешов;Wojcieszów
+lt;Silezijos Vodzislavas;Wodzisław Śląski
+he;וודזיסלאב שלזיה;Wodzisław Śląski
+uk;Водзіслав-Шльонський;Wodzisław Śląski
+lv;Vodzislava Slonska;Wodzisław Śląski
+bg;Воджислав Шльонски;Wodzisław Śląski
+ru;Водзислав-Слёнски;Wodzisław Śląski
+zh;希隆斯克地區沃濟斯瓦夫;Wodzisław Śląski
+sr;Вођислав Слонски;Wodzisław Śląski
+tt;Водзислав-Шлёнски;Wodzisław Śląski
+uk;Влощова;Włoszczowa
+bg;Влошчова;Włoszczowa
+lv;Vloščova;Włoszczowa
+he;ולושצובה;Włoszczowa
+ru;Влощова;Włoszczowa
+zh;弗沃什喬瓦;Włoszczowa
+sr;Влошчова;Włoszczowa
+lv;Vloclaveka;Włocławek
+no;Wloclawek;Włocławek
+ru;Влоцлавек;Włocławek
+uk;Влоцлавек;Włocławek
+he;ולוצלאווק;Włocławek
+ja;ヴウォツワヴェク;Włocławek
+bg;Влоцлавек;Włocławek
+fa;ووتس‌واوک;Włocławek
+be;Улацлавак;Włocławek
+lt;Vloclavekas;Włocławek
+th;ววอตซวาเวก;Włocławek
+ko;브워츠와베크;Włocławek
+zh;弗沃茨瓦韦克;Włocławek
+ar;فوتسوافك;Włocławek
+sr;Влоцлавек;Włocławek
+tt;Влоцлавек;Włocławek
+bg;Владиславово;Władysławowo
+uk;Владиславово;Władysławowo
+lv;Vladislavovo;Władysławowo
+ru;Владыславово;Władysławowo
+zh;弗瓦迪斯瓦沃沃;Władysławowo
+fa;ووادیسواوووو;Władysławowo
+sr;Владиславово;Władysławowo
+sk;Gmina Władysławów;Władysławów
+uk;Ґміна Владиславув;Władysławów
+ru;Владыславув;Władysławów
+ru;Витоня;Witonia
+lv;Vitņica;Witnica
+sr;Витњица;Witnica
+uk;Вітниця;Witnica
+ru;Витница;Witnica
+zh;維特尼察;Witnica
+be;Віткова;Witkowo
+lv;Vitkovo;Witkowo
+uk;Вітково;Witkowo
+ru;Витково;Witkowo
+zh;維特科沃;Witkowo
+sr;Витково;Witkowo
+el;Βιλκοβίγιε;Wilkowyje
+pl;Wilkowia;Wilkowyja
+bg;Вилямовице;Wilamowice
+lv;Vilamovice;Wilamowice
+sr;Виламовице;Wilamowice
+uk;Вілямовіце;Wilamowice
+vep;Vilämovice;Wilamowice
+ru;Вилямовице;Wilamowice
+zh;維拉莫維采;Wilamowice
+bg;Верушов;Wieruszów
+lv;Verušova;Wieruszów
+uk;Верушув;Wieruszów
+ru;Верушув;Wieruszów
+zh;維魯舒夫;Wieruszów
+he;ויירושוב;Wieruszów
+sr;Вјерушов;Wieruszów
+ru;Велюнь;Wieluń
+be;Велюнь;Wieluń
+bg;Велюн;Wieluń
+el;Βιέλουν;Wieluń
+fa;ویلون;Wieluń
+he;ויילון;Wieluń
+ja;ヴィエルニ;Wieluń
+ko;비엘룬;Wieluń
+lt;Veliunis;Wieluń
+lv;Veluņa;Wieluń
+sr;Вјелуњ;Wieluń
+uk;Велюнь;Wieluń
+zh;维隆;Wieluń
+lv;Velihovo;Wielichowo
+sr;Вјелихово;Wielichowo
+uk;Веліхово;Wielichowo
+ru;Велихово;Wielichowo
+zh;維利霍沃;Wielichowo
+lt;Vielenė;Wieleń
+lv;Veleņa;Wieleń
+sr;Вјелењ;Wieleń
+uk;Велень;Wieleń
+ru;Велень;Wieleń
+zh;维伦;Wieleń
+lv;Vencborka;Więcbork
+uk;Венцборк;Więcbork
+ru;Венцборк;Więcbork
+zh;溫茨堡;Więcbork
+sr;Вјенцборк;Więcbork
+sk;Gmina Widawa;Widawa
+uk;Ґміна Відава;Widawa
+ru;Видава;Widawa
+sk;Gmina Wicko;Wicko
+uk;Ґміна Вицько;Wicko
+ru;Вицко;Wicko
+bg;Вьонзов;Wiązów
+lv;Vjonzova;Wiązów
+sr;Вјонжов;Wiązów
+uk;Вйонзув;Wiązów
+ru;Вёнзув;Wiązów
+zh;維翁祖夫;Wiązów
+uk;Венеця;Wenecja
+ja;ヴェイヘロヴォ;Wejherowo
+lt;Veiherovas;Wejherowo
+lv;Vejherovo;Wejherowo
+bg;Вейхерово;Wejherowo
+uk;Вейгерово;Wejherowo
+ru;Вейхерово;Wejherowo
+zh;韋伊海羅沃;Wejherowo
+sr;Вејхерово;Wejherowo
+be;Вэнгажына;Węgorzyno
+crh;Veñgojıno;Węgorzyno
+lv;Vengožino;Węgorzyno
+sr;Венгожино;Węgorzyno
+uk;Венгожино;Węgorzyno
+ru;Венгожино;Węgorzyno
+zh;文戈日諾;Węgorzyno
+lv;Vengliņeca;Węgliniec
+uk;Венґлінець;Węgliniec
+ru;Венглинец;Węgliniec
+zh;文格利涅茨;Węgliniec
+sr;Венглињец;Węgliniec
+ru;Венгерск;Węgiersk
+lv;Vonsoša;Wąsosz
+uk;Вонсош;Wąsosz
+ru;Вонсош;Wąsosz
+zh;翁索什;Wąsosz
+sr;Вонсош;Wąsosz
+ru;Варта;Warta
+ru;Варлюбе;Warlubie
+ru;Вапно;Wapno
+ru;Вомперск;Wąpiersk
+cs;Vambeřice;Wambierzyce
+ru;Валим;Walim
+lt;Valčas;Wałcz
+lv;Valča;Wałcz
+bg;Валч;Wałcz
+uk;Валч;Wałcz
+sr;Валч;Wałcz
+ru;Валч;Wałcz
+zh;瓦烏奇;Wałcz
+be;Валч;Wałcz
+lv;Valbžiha;Wałbrzych
+zh-TW;瓦烏布日赫;Wałbrzych
+ru;Валбжих;Wałbrzych
+ko;바우브지흐;Wałbrzych
+lt;Valbžychas;Wałbrzych
+bg;Валбжих;Wałbrzych
+th;วาลบ์จิก;Wałbrzych
+uk;Валбжих;Wałbrzych
+ja;ヴァウブジフ;Wałbrzych
+fa;واوب ژیخ;Wałbrzych
+zh;瓦烏布日赫;Wałbrzych
+be;Валбжых;Wałbrzych
+ar;واوب جيخ;Wałbrzych
+he;ולבזיך;Wałbrzych
+sr;Валбжих;Wałbrzych
+tt;Валбжих;Wałbrzych
+ru;Вонгровец;Wągrowiec
+uk;Вонгровець;Wągrowiec
+lv;Vongroveca;Wągrowiec
+bg;Вонгровец;Wągrowiec
+zh;翁格羅維茨;Wągrowiec
+lt;Vongrovecas;Wągrowiec
+sr;Вонгровјец;Wągrowiec
+bg;Вадовице;Wadowice
+el;Βαντοβίτσε;Wadowice
+he;ודוביצה;Wadowice
+ja;ヴァドヴィツェ;Wadowice
+ko;바도비체;Wadowice
+uk;Вадовіце;Wadowice
+be;Вадавіцы;Wadowice
+lv;Vadovice;Wadowice
+ru;Вадовице;Wadowice
+zh;瓦多維采;Wadowice
+sr;Вадовице;Wadowice
+ja;ヴォンブジェジノ;Wąbrzeźno
+lv;Vombžezno;Wąbrzeźno
+bg;Вомбжежно;Wąbrzeźno
+uk;Вомбжезьно;Wąbrzeźno
+ru;Вомбжезьно;Wąbrzeźno
+zh;翁布熱伊諾;Wąbrzeźno
+sr;Вомбжезно;Wąbrzeźno
+lv;Ustroņa;Ustroń
+bg;Устрон;Ustroń
+uk;Устронь;Ustroń
+ru;Устронь;Ustroń
+zh;烏斯特龍;Ustroń
+sr;Устроњ;Ustroń
+zh;乌斯特卡;Ustka
+uk;Устка;Ustka
+bg;Устка;Ustka
+ja;ウストカ;Ustka
+ko;우스트카;Ustka
+ru;Устка;Ustka
+sr;Устка;Ustka
+ru;Урово;Urowo
+ru;Унислав;Unisław
+he;אונייוב;Uniejów
+lv;Uņejova;Uniejów
+uk;Унеюв;Uniejów
+ru;Унеюв;Uniejów
+zh;烏涅尤夫;Uniejów
+sr;Уњејов;Uniejów
+lv;Ujsce;Ujście
+sr;Ујшће;Ujście
+uk;Уйсце;Ujście
+ru;Уйсьце;Ujście
+zh;烏伊希切;Ujście
+bg;Уязд;Ujazd
+he;אוייזד;Ujazd
+lv;Ujazda;Ujazd
+sr;Ујазд;Ujazd
+uk;Уязд;Ujazd
+ru;Уязд;Ujazd
+zh;烏亞茲德;Ujazd
+ru;Тылово;Tyłowo
+lv;Tihi;Tychy
+crh;Tıhı;Tychy
+ko;티히;Tychy
+ja;ティヒ;Tychy
+th;ทิคี;Tychy
+fa;تیشی;Tychy
+uk;Тихи;Tychy
+bg;Тихи;Tychy
+lt;Tychos;Tychy
+ru;Тыхы;Tychy
+zh;蒂黑;Tychy
+lv;Tihovo;Tychowo
+sr;Тихово;Tychowo
+zh;蒂霍沃;Tychowo
+lv;Tvardogura;Twardogóra
+uk;Твардоґура;Twardogóra
+ru;Твардогура;Twardogóra
+zh;特瓦爾多古拉;Twardogóra
+sr;Твардогора;Twardogóra
+ru;Твардава;Twardawa
+fa;توچین;Tuszyn
+lv;Tušina;Tuszyn
+sr;Тушин;Tuszyn
+uk;Тушин;Tuszyn
+ur;توچین;Tuszyn
+ru;Тушин;Tuszyn
+zh;圖申;Tuszyn
+ru;Турек;Turek
+tt;Тупадли;Tupadły
+ce;Тупадли;Tupadły
+uk;Тупадли;Tupadły
+ru;Тулишкув;Tuliszków
+sk;Gmina Tuliszków;Tuliszków
+uk;Ґміна Тулішкув;Tuliszków
+lv;Tučno;Tuczno
+sr;Тучно;Tuczno
+uk;Тучно;Tuczno
+ru;Тучно;Tuczno
+zh;圖奇諾;Tuczno
+lv;Tuhola;Tuchola
+uk;Тухоля;Tuchola
+ru;Тухоля;Tuchola
+zh;圖霍拉;Tuchola
+bg;Тухоля;Tuchola
+fa;توخلا;Tuchola
+sr;Тухола;Tuchola
+lv;Tšemešno;Trzemeszno
+uk;Тшемешно;Trzemeszno
+ru;Тшемешно;Trzemeszno
+zh;切梅什諾;Trzemeszno
+fa;چمسنو;Trzemeszno
+sr;Тшемешно;Trzemeszno
+lv;Tšebņica;Trzebnica
+bg;Тшебница;Trzebnica
+uk;Тшебниця;Trzebnica
+ru;Тшебница;Trzebnica
+zh;切布尼察;Trzebnica
+fa;چبنیکا;Trzebnica
+sr;Тшебњица;Trzebnica
+ar;ترزبينيا;Trzebinia
+bg;Тшебиня;Trzebinia
+he;טשביניה;Trzebinia
+ja;トシェビニャ;Trzebinia
+lv;Tšebiņa;Trzebinia
+sr;Тшебиња;Trzebinia
+uk;Тшебіня;Trzebinia
+ru;Тшебиня;Trzebinia
+zh;切比尼亞;Trzebinia
+fa;چبینیا;Trzebinia
+fa;چبیژ;Trzebież
+fa;چبیلینو;Trzebielino
+fa;چبیل;Trzebiel
+ja;トシェビャトゥフ;Trzebiatów
+lv;Tšebjatova;Trzebiatów
+sr;Тшебјатов;Trzebiatów
+uk;Тшебятув;Trzebiatów
+ru;Тшебятув;Trzebiatów
+zh;切比亞圖夫;Trzebiatów
+be;Тшэбятаў;Trzebiatów
+fa;چبیاتو;Trzebiatów
+hy;Տշեբյատուվ;Trzebiatów
+lt;Tšebiatuvas;Trzebiatów
+fa;اشچیل;Trzciel
+lv;Tšcela;Trzciel
+sr;Тшћел;Trzciel
+uk;Тшцель;Trzciel
+ur;چچیل;Trzciel
+ru;Тшцель;Trzciel
+zh;奇切爾;Trzciel
+uk;Тшцянка;Trzcianka
+lv;Tšcjanka;Trzcianka
+bg;Тшчянка;Trzcianka
+ru;Тшчанка;Trzcianka
+zh;奇強卡;Trzcianka
+fa;اشچیانکا;Trzcianka
+sr;Тшћанка;Trzcianka
+ur;چچانکا;Trzcianka
+ru;Трусколасы;Truskolasy
+ru;Трумейки;Trumiejki
+ru;Тропы-Штумске;Tropy
+fa;ترومپکی ویلکیه;Trąbki Wielkie
+he;טושק;Toszek
+lv;Tošeka;Toszek
+sr;Тошек;Toszek
+uk;Тошек;Toszek
+ru;Тошек;Toszek
+zh;托謝克;Toszek
+bg;Тошек;Toszek
+tt;Тошек;Toszek
+be;Тошак;Toszek
+zh-Hans;托谢克;Toszek
+ce;Тошек;Toszek
+ja;トセク;Toszek
+fa;توسزک;Toszek
+ru;Тожим;Torzym
+ar;تورزيم;Torzym
+lv;Tožima;Torzym
+sr;Тожим;Torzym
+uk;Тожим;Torzym
+zh;托日姆;Torzym
+bg;Торун;Toruń
+ja;トルン;Toruń
+lt;Torunė;Toruń
+lv;Toruņa;Toruń
+no;Thorn;Toruń
+ru;Торунь;Toruń
+sl;Torunj;Toruń
+zh;托伦;Toruń
+th;ทอรูน;Toruń
+az;Toruni;Toruń
+ka;ტორუნი;Toruń
+ar;تورون;Toruń
+sr;Торуњ;Toruń
+uk;Торунь;Toruń
+ckb;تۆرون;Toruń
+he;טורון;Toruń
+ko;토룬;Toruń
+el;Τόρουν;Toruń
+be;Торунь;Toruń
+fa;ترونی;Toruń
+ce;Торунь;Toruń
+tt;Торунь;Toruń
+ur;تورینی;Toruń
+mk;Торуњ;Toruń
+hy;Թորուն;Toruń
+ru;Топулька;Topólka
+ru;Толькмицко;Tolkmicko
+uk;Толькмицько;Tolkmicko
+zh;托爾克米茨科;Tolkmicko
+sr;Толкмицко;Tolkmicko
+fa;توومتسوو;Tłumaczów
+ru;Терешево;Tereszewo
+ab;Tенцынеҟ;Tenczynek
+ru;Тчев;Tczew
+lt;Tčevas;Tczew
+lv;Tčeva;Tczew
+ko;타르노프스키에구리;Tarnowskie Góry
+lt;Tarnovske Gurai;Tarnowskie Góry
+lv;Tarnovske Guri;Tarnowskie Góry
+bg;Тарновске Гори;Tarnowskie Góry
+ja;タルノフスキェ・グルィ;Tarnowskie Góry
+uk;Тарновські Гури;Tarnowskie Góry
+ru;Тарновске-Гуры;Tarnowskie Góry
+zh;塔爾諾夫斯凱古雷;Tarnowskie Góry
+sr;Тарновскје Гори;Tarnowskie Góry
+tt;Тарновске-Гуры;Tarnowskie Góry
+pl;Tarnawa Rzepińska;Tarnawa
+sk;Gmina Szubin;Szubin
+uk;Ґміна Шубін;Szubin
+ru;Шубин;Szubin
+lt;Štumas;Sztum
+uk;Штум;Sztum
+lv;Štuma;Sztum
+bg;Щум;Sztum
+ru;Штум;Sztum
+zh;什圖姆;Sztum
+sr;Штум;Sztum
+th;ชตุม;Sztum
+pl;Śreniawa;Szreniawa
+lv;Šprotava;Szprotawa
+sr;Шпротава;Szprotawa
+uk;Шпротава;Szprotawa
+ru;Шпротава;Szprotawa
+zh;什普羅塔瓦;Szprotawa
+ru;Шпеталь-Гурны;Szpetal Górny
+lv;Šlihtingova;Szlichtyngowa
+sr;Шлихтингова;Szlichtyngowa
+uk;Шліхтинґова;Szlichtyngowa
+ru;Шлихтынгова;Szlichtyngowa
+zh;什利赫滕戈瓦;Szlichtyngowa
+ru;Шклярска-Поремба;Szklarska Poręba
+lv;Šklarska Poremba;Szklarska Poręba
+uk;Шклярська Поремба;Szklarska Poręba
+zh;什克拉爾斯卡-波倫巴;Szklarska Poręba
+bg;Шклярска Поремба;Szklarska Poręba
+fa;اشکلارسکا پرمبا;Szklarska Poręba
+sr;Шкларска Поремба;Szklarska Poręba
+ru;Шемуд;Szemud
+ru;Житна;Szczytna
+lv;Ščitna;Szczytna
+sr;Шчитна;Szczytna
+uk;Щитна;Szczytna
+ru;Щитна;Szczytna
+ru;Щирк;Szczyrk
+lv;Ščirka;Szczyrk
+uk;Щирк;Szczyrk
+zh;什切爾克;Szczyrk
+sr;Шчирк;Szczyrk
+bg;Шчирк;Szczyrk
+he;שצרצוב;Szczerców
+be;Шчэкаціны;Szczekociny
+ko;슈체코치니;Szczekociny
+lv;Ščekocini;Szczekociny
+sr;Шчекоћини;Szczekociny
+uk;Щекоцини;Szczekociny
+ru;Щекоцины;Szczekociny
+zh;什切科齊內;Szczekociny
+bg;Шчекочини;Szczekociny
+he;שצקוציני;Szczekociny
+ru;Щецинек;Szczecinek
+bg;Шчечинек;Szczecinek
+lt;Ščecinekas;Szczecinek
+lv;Ščecineka;Szczecinek
+sr;Шчећинек;Szczecinek
+uk;Щецинек;Szczecinek
+zh;什切齊內克;Szczecinek
+be;Шчацінак;Szczecinek
+bg;Шчечин;Szczecin
+cs;Štětín;Szczecin
+da;Stettin;Szczecin
+ja;シュチェチン;Szczecin
+ko;슈체친;Szczecin
+lv;Ščecina;Szczecin
+ru;Щецин;Szczecin
+sk;Štetín;Szczecin
+sr;Шчећин;Szczecin
+sv;Stettin.;Szczecin
+uk;Щецин;Szczecin
+zh;什切青;Szczecin
+be;Шчэцін;Szczecin
+lt;Ščecinas;Szczecin
+sv;Stettin;Szczecin
+ug;Shchétsin;Szczecin
+ka;შჩეცინი;Szczecin
+os;Щецин;Szczecin
+uz;Shchetsin;Szczecin
+mr;श्टेचिन;Szczecin
+ar;شتتين;Szczecin
+he;שצ'צ'ין;Szczecin
+crh;Şçetsin;Szczecin
+mdf;Щечин;Szczecin
+el;Στσέτσιν;Szczecin
+mk;Шчеќин;Szczecin
+vep;Ščecin;Szczecin
+fa;شچچین;Szczecin
+az;Şçeçin;Szczecin
+kk;Щецин;Szczecin
+ky;Щецин;Szczecin
+hi;श्तचेचिन;Szczecin
+bn;শ্চেচিন;Szczecin
+ur;شچیسین;Szczecin
+am;ስቼቺን;Szczecin
+om;Shchechin;Szczecin
+pa;ਸ਼ਚੇਚਿਨ;Szczecin
+ps;شچیسین;Szczecin
+so;Shchechin;Szczecin
+tg;Щецин;Szczecin
+tt;Щецин;Szczecin
+lv;Ščavnozdroja;Szczawno-Zdrój
+uk;Щавно-Здруй;Szczawno-Zdrój
+ru;Щавно-Здруй;Szczawno-Zdrój
+sr;Шчавно-Здрој;Szczawno-Zdrój
+ur;شچاونو-زدروئی;Szczawno-Zdrój
+pl;Szczawin Kościelny;Szczawin
+ja;シャモトゥウィ;Szamotuły
+lv;Šamotuli;Szamotuły
+uk;Шамотули;Szamotuły
+bg;Шамотули;Szamotuły
+be;Шаматулы;Szamotuły
+ru;Шамотулы;Szamotuły
+zh;沙莫圖維;Szamotuły
+sr;Шамотули;Szamotuły
+lv;Šadeka;Szadek
+uk;Шадек;Szadek
+ru;Шадек;Szadek
+zh;沙代克;Szadek
+he;שאדק;Szadek
+sr;Шадек;Szadek
+lv;Sicova;Syców
+uk;Сицув;Syców
+ru;Сыцув;Syców
+zh;瑟楚夫;Syców
+sr;Сицов;Syców
+bg;Швиноуйшче;Świnoujście
+cs;Svinoústí;Świnoujście
+el;Σβινόουστσιε;Świnoujście
+ru;Свиноуйсьце;Świnoujście
+uk;Свіноуйсьце;Świnoujście
+ko;시비노우이시치에;Świnoujście
+be;Свінауйсьце;Świnoujście
+he;סווינוצ'י;Świnoujście
+az;Svinouyscie;Świnoujście
+lt;Svinouiscis;Świnoujście
+th;ชฟีนออูอีชเช;Świnoujście
+ja;シフィノウイシチェ;Świnoujście
+lv;Svinoujsce;Świnoujście
+mr;स्विनूज्सी;Świnoujście
+sr;Свиноујшће;Świnoujście
+fa;اشوینواویشچه;Świnoujście
+zh;希維諾烏伊希切;Świnoujście
+ru;Свинице-Варцке;Świnice Warckie
+ru;Свентослав;Świętosław
+ar;شفينتوخوفيتسه;Świętochłowice
+bg;Швентохловице;Świętochłowice
+bs;Svjetohlovice;Świętochłowice
+el;Σβιετοχλόβιτσε;Świętochłowice
+eu;Swietochlowice;Świętochłowice
+fa;اشفینتوخوویتسه;Świętochłowice
+ja;シフィエントフウォヴィツェ;Świętochłowice
+lt;Sventochlovicės;Świętochłowice
+lv;Sventohlovice;Świętochłowice
+ms;Swietochlowice;Świętochłowice
+ru;Свентохловице;Świętochłowice
+sr;Свјентохловице;Świętochłowice
+uk;Свентохловіце;Świętochłowice
+ko;시비엥토흐워비체;Świętochłowice
+he;שוויינטוחלוביצה;Świętochłowice
+zh;希维托赫洛维采;Świętochłowice
+lv;Svežava;Świerzawa
+sr;Свјежава;Świerzawa
+uk;Швежава;Świerzawa
+ru;Свежава;Świerzawa
+ru;Сверадув-Здруй;Świeradów-Zdrój
+lv;Sveradovzdroja;Świeradów-Zdrój
+uk;Шверадув-Здруй;Świeradów-Zdrój
+zh;希維拉杜夫-茲德魯伊;Świeradów-Zdrój
+sr;Свјерадов-Здрој;Świeradów-Zdrój
+ru;Свебодзин;Świebodzin
+sk;Gmina Świebodzin;Świebodzin
+uk;Ґміна Свебодзін;Świebodzin
+sk;Gmina Świecie;Świecie
+uk;Ґміна Свеце;Świecie
+ru;Свеце;Świecie
+ru;Свебодзице;Świebodzice
+bg;Швебоджице;Świebodzice
+lv;Svebodzice;Świebodzice
+uk;Свебодзіце;Świebodzice
+zh;希維博濟采;Świebodzice
+he;שווייבודזיצה;Świebodzice
+lt;Svebodzicės;Świebodzice
+sr;Свјебођице;Świebodzice
+bg;Швидвин;Świdwin
+lv;Svidvina;Świdwin
+sr;Свидвин;Świdwin
+uk;Свідвин;Świdwin
+ru;Свидвин;Świdwin
+zh;希維德溫;Świdwin
+be;Свідвін;Świdwin
+lt;Svidvinas;Świdwin
+cs;Svídnice;Świdnica
+lv;Svidņica;Świdnica
+ru;Свидница;Świdnica
+lt;Svidnica;Świdnica
+uk;Свідниця;Świdnica
+bg;Швидница;Świdnica
+zh;希维德尼察;Świdnica
+he;שווידניצה;Świdnica
+sr;Свидњица;Świdnica
+tt;Свидница;Świdnica
+bg;Швьонтники Горне;Świątniki Górne
+lv;Svjontņiki Gurni;Świątniki Górne
+sr;Свјонтњики Горне;Świątniki Górne
+uk;Свьонтники-Ґурне;Świątniki Górne
+ru;Свёнтники-Гурне;Świątniki Górne
+be;Сважэндз;Swarzędz
+bg;Сважендз;Swarzędz
+lv;Svažendza;Swarzędz
+uk;Сважендз;Swarzędz
+ru;Сважендз;Swarzędz
+zh;斯瓦任兹;Swarzędz
+lt;Svažendzas;Swarzędz
+sr;Сважендз;Swarzędz
+lv;Suša;Susz
+lt;Sušas;Susz
+uk;Суш;Susz
+ru;Суш;Susz
+sr;Суш;Susz
+ru;Сурове;Surowe
+ru;Сурадувек;Suradówko
+lv;Sulmežice;Sulmierzyce
+sr;Сулмјежице;Sulmierzyce
+uk;Сульмежице;Sulmierzyce
+ru;Сульмежице;Sulmierzyce
+bg;Сулковице;Sułkowice
+lv;Sulkovice;Sułkowice
+sr;Сулковице;Sułkowice
+uk;Сулковіце;Sułkowice
+ru;Сулковице;Sułkowice
+pl;Sulinowo;Borne Sulinowo
+lt;Borne Sulinovas;Borne Sulinowo
+lv;Borne Sulinovo;Borne Sulinowo
+sr;Борне Сулиново;Borne Sulinowo
+uk;Борне-Суліново;Borne Sulinowo
+ru;Борне-Сулиново;Borne Sulinowo
+zh;博爾內蘇利諾沃;Borne Sulinowo
+lv;Sulejova;Sulejów
+uk;Сулеюв;Sulejów
+ru;Сулеюв;Sulejów
+sr;Сулејов;Sulejów
+ru;Суленцин;Sulęcin
+be;Сулехаў;Sulechów
+bg;Сулехов;Sulechów
+ja;スレフフ;Sulechów
+lt;Sulechuvas;Sulechów
+lv;Sulehova;Sulechów
+sr;Сулехов;Sulechów
+uk;Сулехув;Sulechów
+ru;Сулехув;Sulechów
+zh;苏莱胡夫;Sulechów
+lv;Suhaņa;Suchań
+sr;Сухањ;Suchań
+uk;Сухань;Suchań
+ru;Сухань;Suchań
+pl;Sucha;Sucha Beskidzka
+bg;Суха Бескидзка;Sucha Beskidzka
+fa;سوچا بسکیتسکا;Sucha Beskidzka
+uk;Суха-Бескидзька;Sucha Beskidzka
+lv;Suha Beskidzka;Sucha Beskidzka
+ru;Суха-Бескидзка;Sucha Beskidzka
+zh;貝斯基德地區蘇哈;Sucha Beskidzka
+sr;Суха Бескидска;Sucha Beskidzka
+ar;سوتشا بسكيتسكا;Sucha Beskidzka
+ru;Субковы;Subkowy
+ro;Comuna Studzienice;Studzienice
+sk;Gmina Studzienice;Studzienice
+uk;Ґміна Студзеніце;Studzienice
+ru;Студзенице;Studzienice
+ru;Стшепч;Strzepcz
+el;Στσεμιεσίτσε Μάουε;Strzemieszyce Małe
+sq;Strzemieszyce Male;Strzemieszyce Małe
+ru;Стшельно;Strzelno
+lv;Stšelno;Strzelno
+uk;Стшельно;Strzelno
+zh;斯切爾諾;Strzelno
+sr;Стшелно;Strzelno
+sk;Gmina Strzelin;Strzelin
+uk;Ґміна Стшелін;Strzelin
+ru;Стшелин;Strzelin
+ru;Стшельце-Опольске;Strzelce Opolskie
+bg;Стшелце Ополске;Strzelce Opolskie
+lt;Opolės Stšelcės;Strzelce Opolskie
+lv;Stšelce Opolske;Strzelce Opolskie
+sr;Стшелце Ополскје;Strzelce Opolskie
+th;ซตแชลต์แซออปอลสกีแย;Strzelce Opolskie
+uk;Стшельце-Опольські;Strzelce Opolskie
+zh;斯切爾采奧波萊斯基;Strzelce Opolskie
+uk;Стшельце-Краєнське;Strzelce Krajeńskie
+bg;Стшелце Крайенске;Strzelce Krajeńskie
+lv;Stšelce Krajeņske;Strzelce Krajeńskie
+ru;Стшельце-Краеньске;Strzelce Krajeńskie
+zh;斯切爾采-克拉延斯凱;Strzelce Krajeńskie
+sr;Стшелце Крајењскје;Strzelce Krajeńskie
+lv;Stšegoma;Strzegom
+bg;Стшегом;Strzegom
+uk;Стшеґом;Strzegom
+ru;Стшегом;Strzegom
+zh;斯切戈姆;Strzegom
+sr;Стшегом;Strzegom
+uk;Стрикув;Stryków
+lv;Strikova;Stryków
+ru;Стрыкув;Stryków
+zh;斯特雷庫夫;Stryków
+he;סטריקוב;Stryków
+sr;Стриков;Stryków
+ru;Стружина;Strużyna
+ru;Стругенице;Strugienice
+ru;Стронно;Stronno
+lv;Stroņe Slonske;Stronie Śląskie
+uk;Строне-Шльонські;Stronie Śląskie
+ru;Строне-Слёнске;Stronie Śląskie
+zh;斯托尼拉斯奇;Stronie Śląskie
+sr;Строње Слонске;Stronie Śląskie
+ru;Страшево;Straszewo
+ru;Стольно;Stolno
+sk;Gmina Stężyca;Stężyca
+uk;Ґміна Стенжиця;Stężyca
+ru;Стенжица;Stężyca
+lv;Stenševa;Stęszew
+uk;Стеншев;Stęszew
+ru;Стеншев;Stęszew
+zh;斯滕謝夫;Stęszew
+sr;Стеншев;Stęszew
+sr;Степњица;Stepnica
+ru;Стегны;Stegny
+ru;Стегна;Stegna
+lv;Stavišina;Stawiszyn
+sr;Ставишин;Stawiszyn
+uk;Ставішин;Stawiszyn
+ru;Ставишин;Stawiszyn
+zh;斯塔維申;Stawiszyn
+ru;Стажино;Starzyno
+ru;Стары-Тарг;Stary Targ
+ru;Стары-Джезгонь;Stary Dzierzgoń
+ru;Старозьребы;Staroźreby
+ru;Старогард-Гданьски;Starogard Gdański
+lv;Starogarda Gdaņska;Starogard Gdański
+uk;Старогард-Ґданський;Starogard Gdański
+bg;Старогард Гдански;Starogard Gdański
+ja;スタロガルド・グダニスキ;Starogard Gdański
+lt;Gdansko Starogardas;Starogard Gdański
+ru;Старогард-Гданьский;Starogard Gdański
+zh;格但斯克舊城;Starogard Gdański
+fa;استاروگارد گدانسکی;Starogard Gdański
+sr;Старогард Гдањски;Starogard Gdański
+ar;ستارغارد زتسيسينسكي;Stargard
+bg;Старгард Шчечински;Stargard
+bg;Старгард;Stargard
+el;Στάργκαρντ;Stargard
+ja;スタルガルト;Stargard
+lv;Stargarda;Stargard
+ru;Старгард;Stargard
+uk;Старгард;Stargard
+uk;Старгард-Щецинський;Stargard
+lt;Stargardas;Stargard
+fa;استارگارت اشچچینسکی;Stargard
+be;Старгард;Stargard
+ko;스타르가르트슈체친스키;Stargard
+sr;Старгард;Stargard
+zh;什切青旧城;Stargard
+th;สตาร์การ์ดชเชชีงสกี;Stargard
+ru;Старе-Седлиско;Stare Siedlisko
+ru;Старе-Поле;Stare Pole
+ru;Старе-Място;Stare Miasto
+bg;Шрода Велкополска;Środa Wielkopolska
+lv;Sroda Velkopolska;Środa Wielkopolska
+uk;Сьрода-Великопольська;Środa Wielkopolska
+be;Сьрода-Велькапольска;Środa Wielkopolska
+ru;Сьрода-Велькопольска;Środa Wielkopolska
+zh;大波蘭地區希羅達;Środa Wielkopolska
+lt;Didžiosios Lenkijos Sroda;Środa Wielkopolska
+sr;Срода Вјелкополска;Środa Wielkopolska
+uk;Сьрода-Шльонська;Środa Śląska
+bg;Шрода Шльонска;Środa Śląska
+lv;Sroda Slonska;Środa Śląska
+ru;Сьрода-Слёнска;Środa Śląska
+zh;希隆斯克地區希羅達;Środa Śląska
+sr;Срода Слонска;Środa Śląska
+ru;Срем;Śrem
+sk;Gmina Śrem;Śrem
+uk;Ґміна Сьрем;Śrem
+ru;Сьрем;Śrem
+ru;Сосново;Sosnowo
+bg;Сосновец;Sosnowiec
+lt;Sosnovecas;Sosnowiec
+lv;Sosnoveca;Sosnowiec
+ru;Сосновец;Sosnowiec
+be;Сасновец;Sosnowiec
+cs;Sosnovec;Sosnowiec
+sr;Сосновјец;Sosnowiec
+he;סוסנוביץ;Sosnowiec
+uk;Сосновець;Sosnowiec
+bg;Сопот;Sopot
+ru;Сопот;Sopot
+cs;Sopoty;Sopot
+lt;Sopotas;Sopot
+be;Сопат;Sopot
+lv;Sopota;Sopot
+ar;سوبوت;Sopot
+sr;Сопот;Sopot
+uk;Сопот;Sopot
+ja;ソポト;Sopot
+fa;سوپوت;Sopot
+ko;소포트;Sopot
+zh;索波特;Sopot
+ru;Сомпольно;Sompolno
+sk;Gmina Sompolno;Sompolno
+uk;Ґміна Сомпольно;Sompolno
+ru;Сомонино;Somonino
+ru;Солец-Куявски;Solec Kujawski
+bg;Солец Куявски;Solec Kujawski
+lv;Soleca Kujavska;Solec Kujawski
+sr;Солец Кујавски;Solec Kujawski
+uk;Солець-Куявський;Solec Kujawski
+vi;Solec Kujawski…;Solec Kujawski
+zh;庫亞維地區索萊茨;Solec Kujawski
+bg;Соколовско;Sokołowsko
+sk;Gmina Sokolniki;Sokolniki
+uk;Ґміна Сокольники;Sokolniki
+ru;Сокольники;Sokolniki
+ru;Собовидз;Sobowidz
+lv;Sobutka;Sobótka
+uk;Собутка;Sobótka
+ru;Собутка;Sobótka
+zh;索布特卡;Sobótka
+sr;Соботка;Sobótka
+ru;Смольник;Smolnik
+lv;Smigela;Śmigiel
+sr;Смигел;Śmigiel
+uk;Смігель;Śmigiel
+ru;Смигель;Śmigiel
+zh;希米蓋爾;Śmigiel
+ru;Служево;Służewo
+lv;Slupska;Słupsk
+ro;Слупск;Słupsk
+no;Slupsk;Słupsk
+ru;Слупск;Słupsk
+ja;スウプスク;Słupsk
+lt;Slupskas;Słupsk
+fa;سووپسک;Słupsk
+uk;Слупськ;Słupsk
+ko;스웁스크;Słupsk
+bg;Слупск;Słupsk
+be;Слупск;Słupsk
+zh;斯武普斯克;Słupsk
+ar;سووبسك;Słupsk
+sr;Слупск;Słupsk
+tt;Слупск;Słupsk
+udm;Слупск;Słupsk
+vep;Slupsk;Słupsk
+ru;Слупно;Słupno
+ru;Слупя;Słupia
+lv;Slupca;Słupca
+uk;Слупца;Słupca
+bg;Слупца;Słupca
+ru;Слупца;Słupca
+zh;斯武普察;Słupca
+sr;Слупца;Słupca
+ru;Слубице;Słubice
+sk;Gmina Słubice;Słubice
+uk;Ґміна Слубіце;Słubice
+lv;Slubice;Słubice
+bg;Слубице;Słubice
+ko;스우비체;Słubice
+uk;Слубіце;Słubice
+lt;Slubicės;Słubice
+zh;斯武比采;Słubice
+sr;Слубице;Słubice
+he;סלוביצה;Słubice
+ka;სლუბიცე;Słubice
+ru;Слонечник;Słonecznik
+ru;Сливице;Śliwice
+sk;Gmina Śliwice;Śliwice
+uk;Ґміна Слівіце;Śliwice
+ru;Слесин;Ślesin
+lv;Slesina;Ślesin
+uk;Слесін;Ślesin
+zh;希萊辛;Ślesin
+sr;Слесин;Ślesin
+lv;Slavno;Sławno
+uk;Славно;Sławno
+sr;Славно;Sławno
+zh;斯瓦夫諾;Sławno
+be;Слаўна;Sławno
+bg;Славно;Sławno
+uk;Славкув;Sławków
+lv;Slavkova;Sławków
+bg;Славков;Sławków
+sr;Славков;Sławków
+ja;スワフクフ;Sławków
+ru;Славкув;Sławków
+zh;斯瓦夫庫夫;Sławków
+he;סלווקוב;Sławków
+lv;Slava;Sława
+sr;Слава;Sława
+uk;Слава;Sława
+ru;Слава;Sława
+zh;斯瓦瓦;Sława
+uk;Сквежина;Skwierzyna
+lv;Skvežina;Skwierzyna
+ru;Сквежина;Skwierzyna
+zh;斯克維日納;Skwierzyna
+sr;Сквјежина;Skwierzyna
+ru;Скульск;Skulsk
+ru;Скрвильно;Skrwilno
+lv;Skorča;Skórcz
+uk;Скурч;Skórcz
+ru;Скурч;Skórcz
+zh;斯庫爾奇;Skórcz
+sr;Скорч;Skórcz
+ru;Скомлин;Skomlin
+be;Скокі;Skoki
+uk;Скокі;Skoki
+ru;Скоки;Skoki
+zh;斯科基;Skoki
+sr;Скоки;Skoki
+lv;Skočova;Skoczów
+uk;Скочув;Skoczów
+cs;Skočov;Skoczów
+bg;Скочов;Skoczów
+ru;Скочув;Skoczów
+zh;斯科丘夫;Skoczów
+sr;Скочов;Skoczów
+ru;Скемпе;Skępe
+lv;Skempe;Skępe
+sr;Скенпе;Skępe
+uk;Скемпе;Skępe
+zh;斯肯佩;Skępe
+ru;Скавинки;Skawinki
+ru;Скавина;Skawina
+bg;Скавина;Skawina
+sr;Скавина;Skawina
+uk;Скавіна;Skawina
+zh;斯卡維納;Skawina
+lt;Skavina;Skawina
+lv;Skavina;Skawina
+lv;Skarševi;Skarszewy
+uk;Скаршеви;Skarszewy
+ru;Скаршевы;Skarszewy
+zh;斯卡爾謝維;Skarszewy
+sr;Скаршеви;Skarszewy
+ru;Скарлин;Skarlin
+bg;Скала;Skała
+lv;Skala;Skała
+sr;Скала;Skała
+uk;Скала;Skała
+ru;Скала;Skała
+zh;斯卡瓦;Skała
+ru;Синогура;Sinogóra
+lv;Seveža;Siewierz
+sr;Сјевјеж;Siewierz
+uk;Севеж;Siewierz
+ru;Севеж;Siewierz
+zh;謝維日;Siewierz
+bg;Шевеж;Siewierz
+de;Grunau;Siestrzechowice
+uk;Серпць;Sierpc
+he;שרפץ;Sierpc
+bg;Шерпц;Sierpc
+lv;Serpca;Sierpc
+ru;Серпц;Sierpc
+zh;謝爾普茨;Sierpc
+sr;Сјерпц;Sierpc
+ru;Серослав;Sierosław
+sk;Gmina Sierakowice;Sierakowice
+uk;Ґміна Сераковіце;Sierakowice
+ru;Сераковице;Sierakowice
+lv;Serakova;Sieraków
+uk;Серакув;Sieraków
+be;Сяракаў;Sieraków
+ru;Серакув;Sieraków
+zh;謝拉庫夫;Sieraków
+sr;Сјераков;Sieraków
+ru;Серадз;Sieradz
+uk;Серадз;Sieradz
+bg;Шерадз;Sieradz
+lv;Seradza;Sieradz
+lt;Seradzas;Sieradz
+fa;شیرادز;Sieradz
+zh;謝拉茲;Sieradz
+el;Σίερατζ;Sieradz
+he;שייראדז;Sieradz
+sr;Сјерадз;Sieradz
+ru;Семяны;Siemiany
+lv;Semjanovice Slonske;Siemianowice Śląskie
+bg;Шемяновице Силезко;Siemianowice Śląskie
+ja;シェミャノヴィツェ・シロンスキェ;Siemianowice Śląskie
+ko;시에미아노비체실롱스키에;Siemianowice Śląskie
+lt;Silezijos Semianovicai;Siemianowice Śląskie
+uk;Семяновіце-Шльонські;Siemianowice Śląskie
+ru;Семяновице-Слёнске;Siemianowice Śląskie
+zh;希隆斯克地區謝米亞諾維采;Siemianowice Śląskie
+ro;Comuna Sicienko;Sicienko
+sk;Gmina Sicienko;Sicienko
+uk;Ґміна Сіценко;Sicienko
+ru;Сиценко;Sicienko
+ru;Щаново;Sianowo
+lv;Sjanova;Sianów
+sr;Сјанов;Sianów
+uk;Сянув;Sianów
+ru;Сянув;Sianów
+zh;夏努夫;Sianów
+ru;Сербы;Serby
+uk;Семпульно-Краєнське;Sępólno Krajeńskie
+lv;Sempulno Krajeņske;Sępólno Krajeńskie
+bg;Семполно Крайенске;Sępólno Krajeńskie
+ru;Семпульно-Краеньске;Sępólno Krajeńskie
+zh;森普爾諾-克拉延斯凱;Sępólno Krajeńskie
+sr;Сенполно Крајењскје;Sępólno Krajeńskie
+pl;Seligów;Selogów
+sk;Gmina Sędziejowice;Sędziejowice
+uk;Ґміна Сендзейовіце;Sędziejowice
+ru;Сендзеёвице;Sędziejowice
+lv;Scinava;Ścinawa
+uk;Шцинава;Ścinawa
+ru;Сьцинава;Ścinawa
+zh;希齊納瓦;Ścinawa
+sr;Шћинава;Ścinawa
+ru;Санток;Santok
+ru;Санники;Sanniki
+ru;Санка;Sanka
+ru;Самборово;Samborowo
+ru;Садлово;Sadłowo
+ru;Садльно;Sadlno
+ru;Садлинки;Sadlinki
+ru;Садки;Sadki
+tt;Сончув;Sączów
+ce;Сончув;Sączów
+uk;Сончув;Sączów
+ur;سکزوو;Sączów
+ru;Жепин;Rzepin
+pl;Rypin Lubuski;Rzepin
+ja;ジェピン;Rzepin
+lv;Žepina;Rzepin
+sr;Жепин;Rzepin
+uk;Жепін;Rzepin
+zh;熱平;Rzepin
+uk;Рипін;Rypin
+lv;Ripina;Rypin
+bg;Рипин;Rypin
+ru;Рыпин;Rypin
+zh;雷平;Rypin
+he;ריפין;Rypin
+sr;Рипин;Rypin
+ru;Рыньск;Ryńsk
+lv;Ridzina;Rydzyna
+sr;Ридзина;Rydzyna
+uk;Ридзина;Rydzyna
+ru;Рыдзына;Rydzyna
+zh;雷濟納;Rydzyna
+ru;Рыдултовы;Rydułtowy
+bg;Ридултови;Rydułtowy
+lv;Ridultovi;Rydułtowy
+sr;Ридултови;Rydułtowy
+uk;Ридултови;Rydułtowy
+zh;雷杜烏托維;Rydułtowy
+lt;Rydultovai;Rydułtowy
+sk;Gmina Ryczywół;Ryczywół
+uk;Ґміна Ричивул;Ryczywół
+ru;Рычивул;Ryczywół
+lv;Rihvala;Rychwał
+sr;Рихвал;Rychwał
+uk;Рихвал;Rychwał
+ru;Рыхвал;Rychwał
+zh;雷赫瓦烏;Rychwał
+ru;Рыхлики;Rychliki
+sk;Gmina Rybno;Rybno
+uk;Гміна Рибно;Rybno
+ja;リブニク;Rybnik
+lv;Ribņika;Rybnik
+bg;Рибник;Rybnik
+ko;리브니크;Rybnik
+uk;Рибник;Rybnik
+lt;Rybnikas;Rybnik
+fa;ربنیک;Rybnik
+el;Ρίμπνικ;Rybnik
+ru;Рыбник;Rybnik
+zh;雷布尼克;Rybnik
+sr;Рибњик;Rybnik
+ar;ريبنيك;Rybnik
+be;Рыбнік;Rybnik
+tt;Рыбник;Rybnik
+ru;Руссоцице;Russocice
+ro;Comuna Rusiec;Rusiec
+sk;Gmina Rusiec;Rusiec
+uk;Ґміна Русець;Rusiec
+ru;Русец;Rusiec
+uk;Румія;Rumia
+bg;Румя;Rumia
+ru;Румя;Rumia
+zh;魯米亞;Rumia
+sr;Румија;Rumia
+ru;Рудзенице;Rudzienice
+ru;Руды;Rudy
+ab;Рyднo;Rudno
+ru;Рудно;Rudno
+ru;Рудна;Rudna
+ab;Рyдaвa;Rudawa
+ru;Рудава;Rudawa
+lv;Ruda Slonska;Ruda Śląska
+ru;Руда-Сленска;Ruda Śląska
+th;รูดาซลอนสกา;Ruda Śląska
+lt;Silezijos Ruda;Ruda Śląska
+bg;Руда Силезка;Ruda Śląska
+ko;루다실롱스카;Ruda Śląska
+uk;Руда-Шльонська;Ruda Śląska
+ja;ルダ・シロンスカ;Ruda Śląska
+fa;رودا شلوسکا;Ruda Śląska
+ru;Руда-Слёнская;Ruda Śląska
+zh;鲁达希隆斯卡;Ruda Śląska
+ru;Рузиново;Rozinowo
+ru;Роженталь;Rożental
+pl;Prochowiec;Rosiejewo
+ru;Росьцишево;Rościszewo
+ro;Comuna Rojewo;Rojewo
+sk;Gmina Rojewo;Rojewo
+uk;Ґміна Роєво;Rojewo
+ru;Роево;Rojewo
+ru;Рогузьно;Rogóźno
+ru;Рогузьно;Rogoźno
+uk;Рогозьно;Rogoźno
+ru;Рогозьно;Rogoźno
+zh;羅戈伊諾;Rogoźno
+sr;Рогозно;Rogoźno
+ru;Реваль;Rewal
+sr;Реско;Resko
+uk;Ресько;Resko
+ru;Реско;Resko
+zh;雷斯科;Resko
+be;Рэска;Resko
+bg;Реда;Reda
+uk;Реда;Reda
+ru;Реда;Reda
+zh;雷達;Reda
+sr;Реда;Reda
+ru;Речице;Reczyce
+uk;Реч;Recz
+sr;Реч;Recz
+lv;Reča;Recz
+ru;Реч;Recz
+zh;雷奇;Recz
+ru;Равич;Rawicz
+uk;Равич;Rawicz
+lv;Raviča;Rawicz
+bg;Равич;Rawicz
+be;Равіч;Rawicz
+zh;拉維奇;Rawicz
+he;ראביץ;Rawicz
+lt;Ravičius;Rawicz
+sr;Равич;Rawicz
+be;Рашкаў;Raszków
+lv;Raškova;Raszków
+sr;Рашков;Raszków
+uk;Рашкув;Raszków
+ru;Рашкув;Raszków
+zh;拉什庫夫;Raszków
+ru;Ракутово;Rakutowo
+ru;Раковице;Rakowice
+lv;Rakoņevice;Rakoniewice
+sr;Ракоњевице;Rakoniewice
+uk;Раконевіце;Rakoniewice
+ru;Раконевице;Rakoniewice
+zh;拉科涅維采;Rakoniewice
+ru;Радзынь-Хелминьски;Radzyń Chełmiński
+lv;Radziņa Helmiņska;Radzyń Chełmiński
+sr;Рађин Хелмињски;Radzyń Chełmiński
+uk;Радзинь-Хелмінський;Radzyń Chełmiński
+bg;Раджьонков;Radzionków
+lt;Radzionkuvas;Radzionków
+lv;Radzjonkova;Radzionków
+sr;Рађонков;Radzionków
+uk;Радзьонкув;Radzionków
+ru;Радзёнкув;Radzionków
+zh;拉濟翁科夫;Radzionków
+ru;Радзеюв;Radziejów
+bg;Раджейов;Radziejów
+lv;Radzejova;Radziejów
+uk;Радзеюв;Radziejów
+zh;拉傑尤夫;Radziejów
+lt;Radzechovai;Radziechowy
+mk;Раѓехови;Radziechowy
+uk;Радзехови;Radziechowy
+ru;Радзеховы;Radziechowy
+ru;Радзаново;Radzanowo
+sk;Gmina Radzanowo;Radzanowo
+uk;Ґміна Радзаново;Radzanowo
+ru;Радошки;Radoszki
+ru;Радомско;Radomsko
+bg;Радомско;Radomsko
+he;ראדומסק;Radomsko
+ja;ラドムスコ;Radomsko
+ko;라돔스코;Radomsko
+lt;Radomskas;Radomsko
+uk;Радомсько;Radomsko
+zh;拉多姆斯科;Radomsko
+sr;Радомско;Radomsko
+tt;Радомско;Radomsko
+ru;Радомно;Radomno
+ru;Радомин;Radomin
+ru;Радомице;Radomice
+ru;Радлин;Radlin
+lt;Radkuvas;Radków
+lv;Radkova;Radków
+uk;Радкув;Radków
+ru;Радкув;Radków
+zh;拉德庫夫;Radków
+sr;Радков;Radków
+ja;ラチブシュ;Racibórz
+lv;Raciboža;Racibórz
+ru;Ратибор;Racibórz
+uk;Ратибор;Racibórz
+bg;Рачибож;Racibórz
+ar;راسيبورز;Racibórz
+mk;Раќибож;Racibórz
+el;Ρατσίμπορζ;Racibórz
+ko;라치부시;Racibórz
+lt;Racibužas;Racibórz
+crh;Ratsibuj;Racibórz
+hi;रसिबोर्ज्;Racibórz
+os;Рацибуж;Racibórz
+be;Рацібуж;Racibórz
+th;ราชีบุร์ช;Racibórz
+cs;Ratiboř;Racibórz
+tg;Рацибуж;Racibórz
+sr;Раћибож;Racibórz
+fa;راسیبورز;Racibórz
+he;רטיבור;Racibórz
+ru;Рацибуж;Racibórz
+zh;拉齐布日;Racibórz
+az;Rasibuj;Racibórz
+sgs;Racėbužos;Racibórz
+ab;Рацибуж;Racibórz
+tt;Рацибуж;Racibórz
+pl;Rabka;Rabka-Zdrój
+lv;Rabkazdroja;Rabka-Zdrój
+jv;Rabka;Rabka-Zdrój
+ro;Rabka;Rabka-Zdrój
+uk;Рабка-Здруй;Rabka-Zdrój
+ru;Рабка-Здруй;Rabka-Zdrój
+zh;拉布卡-茲德魯伊;Rabka-Zdrój
+sr;Рапка-Здрој;Rabka-Zdrój
+bg;Рабка-Здруй;Rabka-Zdrój
+he;ראבקה זדרוי;Rabka-Zdrój
+lv;Pizdri;Pyzdry
+sr;Пиздри;Pyzdry
+uk;Пиздри;Pyzdry
+ru;Пыздры;Pyzdry
+zh;佩茲德雷;Pyzdry
+bg;Писковице;Pyskowice
+lv;Piskovice;Pyskowice
+sr;Писковице;Pyskowice
+uk;Писковіце;Pyskowice
+ru;Пысковице;Pyskowice
+zh;佩斯科維采;Pyskowice
+sr;Пижице;Pyrzyce
+lv;Pižice;Pyrzyce
+bg;Пижице;Pyrzyce
+uk;Пижице;Pyrzyce
+ru;Пыжице;Pyrzyce
+zh;佩日采;Pyrzyce
+be;Пыжыцы;Pyrzyce
+th;ปือชึตแซ;Pyrzyce
+lv;Puščikovo;Puszczykowo
+sr;Пушчиково;Puszczykowo
+uk;Пущиково;Puszczykowo
+ru;Пущиково;Puszczykowo
+zh;普什奇科沃;Puszczykowo
+cs;Puncov;Puńców
+ru;Пуцк;Puck
+lv;Pšova;Pszów
+sr;Пшов;Pszów
+uk;Пшув;Pszów
+ru;Пшув;Pszów
+zh;普舒夫;Pszów
+bg;Пшув;Pszów
+lv;Pščina;Pszczyna
+bg;Пшчина;Pszczyna
+uk;Пщина;Pszczyna
+ru;Пщина;Pszczyna
+zh;普什奇納;Pszczyna
+sr;Пшчина;Pszczyna
+lt;Pščyna;Pszczyna
+ru;Псары;Psary
+sk;Gmina Przywidz;Przywidz
+uk;Ґміна Пшивідз;Przywidz
+ru;Пшивидз;Przywidz
+lv;Pšemkova;Przemków
+uk;Пшемкув;Przemków
+ru;Пшемкув;Przemków
+zh;普熱姆庫夫;Przemków
+sr;Пшемков;Przemków
+ru;Пшедеч;Przedecz
+lt;Pšedečas;Przedecz
+lv;Pšedeča;Przedecz
+sr;Пшедеч;Przedecz
+uk;Пшедеч;Przedecz
+zh;普熱代奇;Przedecz
+ru;Пшедбуж;Przedbórz
+sk;Gmina Przedbórz;Przedbórz
+uk;Ґміна Пшедбуж;Przedbórz
+ru;Пшебрно;Przebrno
+ru;Прущ;Pruszcz
+pl;Pruszcz Pomorski;Pruszcz
+sk;Gmina Pruszcz;Pruszcz
+uk;Ґміна Прущ;Pruszcz
+uk;Прущ-Ґданський;Pruszcz Gdański
+bg;Прушч Гдански;Pruszcz Gdański
+lv;Prušča Gdaņska;Pruszcz Gdański
+ru;Прущ-Гданьский;Pruszcz Gdański
+zh;格但斯克普魯什奇;Pruszcz Gdański
+lt;Gdansko Pruščas;Pruszcz Gdański
+sr;Прушч Гдањски;Pruszcz Gdański
+sr;Прусице;Prusice
+uk;Прусіце;Prusice
+ru;Прусице;Prusice
+zh;普魯西采;Prusice
+tt;Пручитсе;Prusice
+be;Прусіцы;Prusice
+zh-Hans;普鲁西采;Prusice
+ce;Прусице;Prusice
+ru;Прудник;Prudnik
+uk;Прудник;Prudnik
+lv;Prudņika;Prudnik
+ka;პრუდნიკი;Prudnik
+bg;Прудник;Prudnik
+zh;普魯德尼克;Prudnik
+lt;Prudnikas;Prudnik
+sr;Прудњик;Prudnik
+th;ปรูดญิก;Prudnik
+lv;Pruškova;Prószków
+uk;Прушкув;Prószków
+ru;Прушкув;Prószków
+zh;普魯什庫夫;Prószków
+bg;Прошков;Prószków
+sr;Прошков;Prószków
+ru;Проково;Prokowo
+lv;Prohovice;Prochowice
+sr;Проховице;Prochowice
+uk;Проховіце;Prochowice
+ru;Проховице;Prochowice
+zh;普羅霍維采;Prochowice
+tt;Проховитсе;Prochowice
+be;Прахавіцы;Prochowice
+zh-Hans;普罗霍维采;Prochowice
+ce;Проховице;Prochowice
+ja;プロホビツェ;Prochowice
+bg;Прашка;Praszka
+he;פראשקה;Praszka
+lv;Praška;Praszka
+sr;Прашка;Praszka
+uk;Прашка;Praszka
+ru;Прашка;Praszka
+zh;普拉什卡;Praszka
+ru;Прабуты;Prabuty
+lt;Prabutai;Prabuty
+lv;Prabuti;Prabuty
+uk;Прабути;Prabuty
+zh;普拉布蒂;Prabuty
+sr;Прабути;Prabuty
+ru;Познань;Poznań
+mr;पोझ्नान;Poznań
+ta;போசுனான்;Poznań
+sl;Poznanj;Poznań
+sr;Познањ;Poznań
+crh;Pоznan;Poznań
+lt;Poznanė;Poznań
+lv;Poznaņa;Poznań
+fa;پوزنان;Poznań
+ckb;پۆزنان;Poznań
+ka;პოზნანი;Poznań
+el;Πόζναν;Poznań
+ko;포즈난;Poznań
+th;พอซนาน;Poznań
+uk;Познань;Poznań
+he;פוזנן;Poznań
+ar;بوزنان;Poznań
+ja;ポズナン;Poznań
+os;Познань;Poznań
+hr;Poznanj;Poznań
+bo;ཕྰོ་ཟོ་ནན།;Poznań
+bg;Познан;Poznań
+be;Познань;Poznań
+zh;波茲南;Poznań
+ce;Познань;Poznań
+hak;Pô-tsṳ-nàm;Poznań
+hy;Պոզնան;Poznań
+ky;Познань;Poznań
+myv;Познань ош;Poznań
+tt;Познань;Poznań
+udm;Познань;Poznań
+ur;پوزنان;Poznań
+yue;波茲南;Poznań
+kk;Познань;Poznań
+hi;पोज़्नान;Poznań
+bn;পজনান;Poznań
+am;ፖዝናን;Poznań
+pa;ਪੋਜ਼ਨਾਨ;Poznań
+ps;پوزنان;Poznań
+tg;Познань;Poznań
+ro;Comuna Potęgowo;Potęgowo
+sk;Gmina Potęgowo;Potęgowo
+uk;Ґміна Потенґово;Potęgowo
+ru;Потенгово;Potęgowo
+ru;Постолин;Postolin
+bg;Поремба;Poręba
+lv;Poremba;Poręba
+sr;Поренба;Poręba
+uk;Поремба;Poręba
+zh;波倫巴;Poręba
+pl;Pobłocie;Popłocie Wierzchuckie
+pl;Pobłocie (powiat słupski);Popłocie Wierzchuckie
+ru;Поплацин;Popłacin
+be;Понец;Poniec
+lv;Poņeca;Poniec
+sr;Поњец;Poniec
+uk;Понець;Poniec
+ru;Понец;Poniec
+zh;波涅茨;Poniec
+ru;Поморска-Весь;Pomorska Wieś
+sk;Gmina Polska Cerekiew;Polska Cerekiew
+uk;Ґміна Польська Церекев;Polska Cerekiew
+ru;Польска-Церекев;Polska Cerekiew
+ru;Польковице;Polkowice
+bg;Полковице;Polkowice
+lt;Polkovicės;Polkowice
+lv;Polkovice;Polkowice
+uk;Польковіце;Polkowice
+zh;波爾科維采;Polkowice
+he;פולקוביצה;Polkowice
+sr;Полковице;Polkowice
+ru;Полиция;Police
+bg;Полице;Police
+ko;폴리체;Police
+nn;Police i Polen;Police
+sr;Полице;Police
+uk;Поліце;Police
+ru;Полице;Police
+zh;波利采;Police
+sr;Полчин-Здрој;Połczyn-Zdrój
+lv;Polčinzdroja;Połczyn-Zdrój
+uk;Полчин-Здруй;Połczyn-Zdrój
+ru;Полчин-Здруй;Połczyn-Zdrój
+zh;波烏琴-茲德魯伊;Połczyn-Zdrój
+sr;Поланов;Polanów
+lv;Polanova;Polanów
+uk;Полянув;Polanów
+ru;Полянув;Polanów
+zh;波拉努夫;Polanów
+ru;Поляница-Здруй;Polanica-Zdrój
+uk;Поляниця-Здруй;Polanica-Zdrój
+lv;Polaņicazdroja;Polanica-Zdrój
+ar;بلنيتسا زدري;Polanica-Zdrój
+zh;波蘭尼卡-茲德魯伊;Polanica-Zdrój
+sr;Полањица-Здрој;Polanica-Zdrój
+ru;Погродзе;Pogrodzie
+lv;Pogožela;Pogorzela
+sr;Погожела;Pogorzela
+uk;Погожеля;Pogorzela
+ru;Погожеля;Pogorzela
+zh;波戈熱拉;Pogorzela
+hu;Podvilk;Podwilk
+ru;Подвилк;Podwilk
+cs;Podsviňošov;Podświnioszów
+sk;Gmina Poddębice;Poddębice
+uk;Ґміна Поддембіце;Poddębice
+ru;Поддембице;Poddębice
+lv;Pobedziska;Pobiedziska
+uk;Победзіська;Pobiedziska
+ru;Победзиска;Pobiedziska
+zh;波別濟斯卡;Pobiedziska
+sr;Побјеђиска;Pobiedziska
+lt;Pnevai;Pniewy
+lv;Pņevi;Pniewy
+uk;Пневи;Pniewy
+ru;Пневы;Pniewy
+zh;普涅維;Pniewy
+sr;Пњеви;Pniewy
+uk;Плоти;Płoty
+sr;Плоти;Płoty
+lv;Ploti;Płoty
+ru;Плоты;Płoty
+zh;普沃蒂;Płoty
+be;Плоты;Płoty
+hy;Պլոտի;Płoty
+ru;Плоскиня;Płoskinia
+lv;Plocka;Płock
+ru;Плоцк;Płock
+ja;プウォツク;Płock
+he;פלוצק;Płock
+uk;Плоцьк;Płock
+lt;Plockas;Płock
+be;Плоцк;Płock
+fa;پوتسک;Płock
+eu;Plock;Płock
+bg;Плоцк;Płock
+ko;프워츠크;Płock
+sr;Плоцк;Płock
+zh;普沃茨克;Płock
+ar;بوتسك;Płock
+hy;Պլոցկ;Płock
+tt;Плоцк;Płock
+ru;Плевиска;Plewiska
+be;Плешаў;Pleszew
+bg;Плешев;Pleszew
+lv;Pleševa;Pleszew
+uk;Плешев;Pleszew
+ru;Плешев;Pleszew
+zh;普萊謝夫;Pleszew
+sr;Плешев;Pleszew
+pl;Platerowo;Platerówka
+pl;Lipy Dolne;Platerówka
+pl;Zalipie Dolne;Platerówka
+ru;Бурдайны;Plajny
+lv;Pjotrkova Tribunalska;Piotrków Trybunalski
+ru;Пётркув-Трыбунальский;Piotrków Trybunalski
+bg;Пьотърков Трибуналски;Piotrków Trybunalski
+he;פיוטרקוב טריבונלסקי;Piotrków Trybunalski
+th;ปียอตร์กุฟตรือบูนัลสกี;Piotrków Trybunalski
+lt;Petrakavas;Piotrków Trybunalski
+uk;Пйотркув-Трибунальський;Piotrków Trybunalski
+ko;피오트르쿠프트리부날스키;Piotrków Trybunalski
+ja;ピョートルクフ・トルィブナルスキ;Piotrków Trybunalski
+zh;彼得庫夫特雷布納爾斯基;Piotrków Trybunalski
+be;Пётркаў-Трыбунальскі;Piotrków Trybunalski
+sr;Пјотрков Трибуналски;Piotrków Trybunalski
+tt;Пётркув-Трыбунальски;Piotrków Trybunalski
+he;פיוטרקוב קויאבסקי;Piotrków Kujawski
+lv;Pjotrkova Kujavska;Piotrków Kujawski
+sr;Пјотрков Кујавски;Piotrków Kujawski
+uk;Пйотркув-Куявський;Piotrków Kujawski
+ru;Пётркув-Куявский;Piotrków Kujawski
+zh;庫亞維地區彼得庫夫;Piotrków Kujawski
+ru;Пинчин;Pinczyn
+cs;Pilšť;Pilszcz
+cs;Pilšč;Pilszcz
+cs;Plšť;Pilszcz
+ru;Пильщ;Pilszcz
+lv;Pilava Gurna;Piława Górna
+uk;Пілава-Ґурна;Piława Górna
+ru;Пилава-Гурна;Piława Górna
+zh;上皮瓦瓦;Piława Górna
+sr;Пилава Горна;Piława Górna
+ru;Пилы;Piła
+be;Піла;Piła
+bg;Пила;Piła
+ja;ピワ;Piła
+ko;피와;Piła
+lv;Pila;Piła
+uk;Піла;Piła
+ru;Пила;Piła
+zh;皮瓦;Piła
+lt;Pila;Piła
+sr;Пила;Piła
+tt;Пила;Piła
+lv;Pešice;Pieszyce
+uk;Пешице;Pieszyce
+ru;Пешице;Pieszyce
+zh;佩希采;Pieszyce
+sr;Пјешице;Pieszyce
+th;ปีแยชึตแซ;Pieszyce
+ru;Перане;Pieranie
+lv;Peņska;Pieńsk
+sr;Пјењск;Pieńsk
+uk;Пенськ;Pieńsk
+ru;Пеньск;Pieńsk
+zh;片斯克;Pieńsk
+hu;Pekelnik;Piekielnik
+bg;Пекари Шльонске;Piekary Śląskie
+ja;ピェカルィ・シロンスキェ;Piekary Śląskie
+ko;피에카리실롱스키에;Piekary Śląskie
+lt;Pekarai;Piekary Śląskie
+lv;Pekari Slonski;Piekary Śląskie
+sr;Пјекари Слонскје;Piekary Śląskie
+uk;Пекари-Шльонські;Piekary Śląskie
+ru;Пекары-Слёнске;Piekary Śląskie
+zh;希隆斯克地區佩卡雷;Piekary Śląskie
+be;Пякары Слёнске;Piekary Śląskie
+tt;Пекары-Шлёнске;Piekary Śląskie
+lv;Pehovice;Piechowice
+uk;Пеховіце;Piechowice
+ru;Пеховице;Piechowice
+zh;佩霍維采;Piechowice
+sr;Пјеховице;Piechowice
+ru;Пеце;Piece
+sk;Gmina Piątek;Piątek
+uk;Ґміна Пйонтек;Piątek
+ru;Пёнтек;Piątek
+sk;Gmina Piaski;Piaski
+uk;Ґміна Пяскі;Piaski
+jv;Pelpin;Pelplin
+uk;Пельплін;Pelplin
+ro;Pelpin;Pelplin
+lv;Pelplina;Pelplin
+ru;Пельплин;Pelplin
+lv;Pelčice;Pełczyce
+sr;Пелчице;Pełczyce
+uk;Пелчице;Pełczyce
+ru;Пелчице;Pełczyce
+zh;佩烏奇采;Pełczyce
+th;แปวต์ชึตแซ;Pełczyce
+sk;Gmina Pawłowiczki;Pawłowiczki
+uk;Ґміна Павловічкі;Pawłowiczki
+ru;Павловички;Pawłowiczki
+tt;Павловице-Велики;Pawłowice Wielkie
+ce;Павловице-Велики;Pawłowice Wielkie
+uk;Павловіце-Великі;Pawłowice Wielkie
+uk;Пасленк;Pasłęk
+lt;Paslenkas;Pasłęk
+lv;Paslenka;Pasłęk
+ru;Пасленк;Pasłęk
+zh;帕斯文克;Pasłęk
+sr;Пасленк;Pasłęk
+sk;Gmina Parzęczew;Parzęczew
+uk;Ґміна Паженчев;Parzęczew
+ru;Паженчев;Parzęczew
+ru;Папроканы;Paprocany
+ru;Папово-Бискупе;Papowo Biskupie
+ru;Панки;Panki
+ru;Пакосць;Pakość
+lv;Pakosca;Pakość
+sr;Пакошћ;Pakość
+uk;Пакосць;Pakość
+zh;帕科希奇;Pakość
+bg;Пайенчно;Pajęczno
+uk;Паєнчно;Pajęczno
+lv;Pajenčno;Pajęczno
+ru;Паенчно;Pajęczno
+zh;帕延奇諾;Pajęczno
+he;פאיינצנו;Pajęczno
+sr;Пајенчно;Pajęczno
+lv;Pačkova;Paczków
+uk;Пачкув;Paczków
+ru;Пачкув;Paczków
+zh;帕奇庫夫;Paczków
+bg;Пачков;Paczków
+sr;Пачков;Paczków
+ru;Пацина;Pacyna
+lv;Pabjaņice;Pabianice
+sr;Пабјањице;Pabianice
+ru;Пабьянице;Pabianice
+bg;Пабянице;Pabianice
+lt;Pabianicės;Pabianice
+be;Паб'яніцы;Pabianice
+ba;Пабьянице;Pabianice
+uk;Пабяніце;Pabianice
+zh;帕比亞尼采;Pabianice
+he;פביאניצה;Pabianice
+tt;Пабьянице;Pabianice
+uk;Озоркув;Ozorków
+bg;Озорков;Ozorków
+lv;Ozorkova;Ozorków
+he;אוזורקוב;Ozorków
+ru;Озоркув;Ozorków
+zh;奧佐爾庫夫;Ozorków
+lt;Ozorkuvas;Ozorków
+sr;Озорков;Ozorków
+lv;Ozimeka;Ozimek
+uk;Озімек;Ozimek
+ru;Озимек;Ozimek
+zh;奧濟梅克;Ozimek
+bg;Ожимек;Ozimek
+sr;Озимек;Ozimek
+tt;Оҗимек;Ozimek
+be;Азімак;Ozimek
+zh-Hans;奥济梅克;Ozimek
+ce;Озимек;Ozimek
+os;Озимек;Ozimek
+th;ออชีแมก;Ozimek
+fa;اوزیمک;Ozimek
+he;אוזימק;Ozimek
+pl;Ochla;Otyń
+cs;Otrubkov;Otrębów
+lv;Otmuhova;Otmuchów
+uk;Отмухув;Otmuchów
+ru;Отмухув;Otmuchów
+zh;奧特穆胡夫;Otmuchów
+bg;Отмухов;Otmuchów
+sr;Отмухов;Otmuchów
+bg;Освиенцим;Oświęcim
+cs;Auschwitz;Oświęcim
+da;Auschwitz;Oświęcim
+el;Οσβιέτσιμ;Oświęcim
+fi;Auschwitz;Oświęcim
+ja;オシフィエンチム;Oświęcim
+ru;Освенцим;Oświęcim
+lv;Osvencima;Oświęcim
+mr;ओश्फिन्चिम;Oświęcim
+ko;오시비엥침;Oświęcim
+sk;Osvienčim;Oświęcim
+lt;Osvencimas;Oświęcim
+uk;Освенцим;Oświęcim
+he;אושוויינצ'ים;Oświęcim
+zh;奥斯威辛;Oświęcim
+lv;Ostšešova;Ostrzeszów
+uk;Остшешув;Ostrzeszów
+bg;Остшешов;Ostrzeszów
+be;Астшэшаў;Ostrzeszów
+ru;Остшешув;Ostrzeszów
+zh;奧斯切舒夫;Ostrzeszów
+sr;Остшешов;Ostrzeszów
+ru;Островы;Ostrowy
+zh;奧斯特羅維奧克薩;Ostrowy nad Okszą
+lv;Ostrova Velkopolska;Ostrów Wielkopolski
+ru;Острув-Велькопольски;Ostrów Wielkopolski
+uk;Острув-Великопольський;Ostrów Wielkopolski
+bg;Остров Велкополски;Ostrów Wielkopolski
+lt;Didžiosios Lenkijos Ostruvas;Ostrów Wielkopolski
+be;Остраў-Велькапольскі;Ostrów Wielkopolski
+ru;Острув-Велькопольский;Ostrów Wielkopolski
+zh;大波蘭地區奧斯特魯夫;Ostrów Wielkopolski
+ar;اوسترو ولكوبوليسكي;Ostrów Wielkopolski
+sr;Остров Вјелкополски;Ostrów Wielkopolski
+tt;Острув-Велькопольски;Ostrów Wielkopolski
+lt;Astrava;Ostrów Wielkopolski
+ru;Островите;Ostrowite
+lv;Ostroroga;Ostroróg
+sr;Остророг;Ostroróg
+uk;Остроруг;Ostroróg
+ru;Остроруг;Ostroróg
+zh;奧斯特羅魯格;Ostroróg
+lt;Ostruda;Ostróda
+bg;Острода;Ostróda
+uk;Оструда;Ostróda
+lv;Ostruda;Ostróda
+ru;Оструда;Ostróda
+zh;奧斯特魯達;Ostróda
+ja;オストルダ;Ostróda
+fa;استرودا;Ostróda
+he;אוסטרודה;Ostróda
+sr;Острода;Ostróda
+ru;Осташево;Ostaszewo
+zh;奥索瓦;Osowa
+ru;Осова;Osowa
+pl;Ośno;Ośno Lubuskie
+lv;Osno Lubuske;Ośno Lubuskie
+sr;Осно Лубелскје;Ośno Lubuskie
+uk;Ошно-Любуське;Ośno Lubuskie
+ru;Осьно-Любуске;Ośno Lubuskie
+ru;Осмолин;Osmolin
+tt;Ослонин;Osłonin
+ce;Ослонин;Osłonin
+uk;Ослонін;Osłonin
+uk;Осьякув;Osjaków
+ru;Осьякув;Osjaków
+zh;奧西耶克納德諾特奇亞;Osiek nad Notecią
+sk;Gmina Osiek Mały;Osiek Mały
+uk;Ґміна Осек-Мали;Osiek Mały
+ru;Осек-Малы;Osiek Mały
+ru;Осеки;Osieki
+sk;Gmina Osiek;Osiek
+uk;Ґміна Осек;Osiek
+ru;Осечна;Osieczna
+sk;Gmina Osieczna;Osieczna
+uk;Ґміна Осечна;Osieczna
+lv;Osečna;Osieczna
+sr;Осјечна;Osieczna
+uk;Осечна;Osieczna
+zh;奧謝奇納;Osieczna
+ru;Осенцины;Osięciny
+ro;Comuna Osięciny;Osięciny
+sk;Gmina Osięciny;Osięciny
+uk;Ґміна Осенцини;Osięciny
+ru;Любич;Osada Lubicz
+bg;Ожеше;Orzesze
+lv;Ožeše;Orzesze
+sr;Ожеше;Orzesze
+uk;Ожеше;Orzesze
+ru;Ожеше;Orzesze
+ru;Оршевице;Orszewice
+ru;Орле;Orle
+he;אופולה;Opole
+ja;オポーレ;Opole
+cs;Opolí;Opole
+bg;Ополе;Opole
+be;Аполе;Opole
+ko;오폴레;Opole
+sr;Ополе;Opole
+ar;أبولوسكي;Opole
+th;ออปอเล;Opole
+uk;Ополе;Opole
+fa;اوپوله;Opole
+zh;奥波莱;Opole
+kk;Опольe;Opole
+ky;Опольe;Opole
+hi;ओपोले;Opole
+bn;ওপোল;Opole
+ur;اوپول;Opole
+am;ኦፖሌ;Opole
+pa;ਓਪੋਲੇ;Opole
+ps;اوپول;Opole
+tg;Опольe;Opole
+tt;Опольe;Opole
+ru;Опоки;Opoczki
+ru;Опалене;Opalenie
+uk;Опалениця;Opalenica
+ru;Опаленица;Opalenica
+zh;奧帕萊尼察;Opalenica
+sr;Опалењица;Opalenica
+zh;奧爾札;Olza
+zh;奥尔齐纳;Olszyna
+lv;Olkuša;Olkusz
+bg;Олкуш;Olkusz
+uk;Олькуш;Olkusz
+he;אולקוש;Olkusz
+ru;Олькуш;Olkusz
+zh;奧爾庫什;Olkusz
+sr;Олкуш;Olkusz
+lt;Olkušas;Olkusz
+ru;Олива;Oliwa
+uk;Олесно;Olesno
+bg;Олесно;Olesno
+zh;奧萊斯諾;Olesno
+sr;Олесно;Olesno
+th;ออแลสนอ;Olesno
+ru;Олесница;Oleśnica
+uk;Олесьниця;Oleśnica
+cs;Olešnice;Oleśnica
+bg;Олешница;Oleśnica
+zh;奧萊希尼察;Oleśnica
+he;אולשניצה;Oleśnica
+sr;Олесњица;Oleśnica
+ru;Олава;Oława
+uk;Олава;Oława
+bg;Олава;Oława
+lv;Olava;Oława
+zh;奧瓦瓦;Oława
+lt;Olava;Oława
+he;אולאווה;Oława
+sr;Олава;Oława
+ru;Оконин;Okonin
+sk;Gmina Okonek;Okonek
+uk;Ґміна Оконек;Okonek
+ru;Оконек;Okonek
+ru;Окалевко;Okalewko
+ru;Ойцов;Ojców
+bg;Огродженец;Ogrodzieniec
+lv;Ogrodzeneca;Ogrodzieniec
+sr;Огрођењец;Ogrodzieniec
+uk;Огродзенець;Ogrodzieniec
+ru;Огродзенец;Ogrodzieniec
+zh;奧格羅傑涅茨;Ogrodzieniec
+lv;Odolanova;Odolanów
+uk;Одолянув;Odolanów
+ru;Одолянув;Odolanów
+zh;奧多拉努夫;Odolanów
+sr;Одоланов;Odolanów
+ru;Оцыпель;Ocypel
+zh;奥克拉;Ochla
+lv;Obžicko;Obrzycko
+sr;Обжицко;Obrzycko
+uk;Обжицько;Obrzycko
+ru;Обжицко;Obrzycko
+zh;奧布日茨科;Obrzycko
+ru;Оброво;Obrowo
+ru;Оборники-Слёнске;Oborniki Śląskie
+lv;Oborņiki Slonski;Oborniki Śląskie
+sr;Оборњики Слонскје;Oborniki Śląskie
+uk;Оборники-Шльонські;Oborniki Śląskie
+zh;希隆斯克地區奧博爾尼基;Oborniki Śląskie
+bg;Оборники;Oborniki
+uk;Оборники;Oborniki
+ru;Оборники;Oborniki
+zh;奧博爾尼基;Oborniki
+sr;Оборњики;Oborniki
+ru;Обора;Obora
+ja;ニサ;Nysa
+lv;Nisa;Nysa
+bg;Ниса;Nysa
+ar;نيسا;Nysa
+uk;Ниса;Nysa
+nn;Nysa i Polen;Nysa
+ko;니사;Nysa
+ru;Ныса;Nysa
+zh;尼斯;Nysa
+sr;Ниса;Nysa
+th;นือซา;Nysa
+be;Новы-Томысль;Nowy Tomyśl
+bg;Нови Томишъл;Nowy Tomyśl
+lv;Novi Tomisla;Nowy Tomyśl
+sr;Нови Томисл;Nowy Tomyśl
+uk;Новий Томишль;Nowy Tomyśl
+ru;Новы-Томысль;Nowy Tomyśl
+zh;新托梅希爾;Nowy Tomyśl
+ru;Новы-Став;Nowy Staw
+lv;Novi Stava;Nowy Staw
+sr;Нови Став;Nowy Staw
+uk;Новий Став;Nowy Staw
+zh;新斯塔夫;Nowy Staw
+lv;Novi Dvora Gdaņska;Nowy Dwór Gdański
+bg;Нови Двур Гдански;Nowy Dwór Gdański
+uk;Новий Двур-Ґданський;Nowy Dwór Gdański
+ru;Новы-Двур-Гданьский;Nowy Dwór Gdański
+zh;格但斯克新莊園;Nowy Dwór Gdański
+sr;Нови Двор Гдањски;Nowy Dwór Gdański
+ru;Новы-Дунинув;Nowy Duninów
+sk;Gmina Nowosolna;Nowosolna
+uk;Ґміна Новосольна;Nowosolna
+ru;Новосольна;Nowosolna
+lv;Novogrodzeca;Nowogrodziec
+sr;Новогрођец;Nowogrodziec
+uk;Новоґродзець;Nowogrodziec
+ru;Новогродзец;Nowogrodziec
+zh;諾沃格羅傑茨;Nowogrodziec
+sk;Gmina Nowogród Bobrzański;Nowogród Bobrzański
+uk;Ґміна Новоґруд-Бобжанський;Nowogród Bobrzański
+ru;Новогруд-Бобжаньский;Nowogród Bobrzański
+lv;Novogarda;Nowogard
+bg;Новогард;Nowogard
+uk;Новогард;Nowogard
+sr;Новогард;Nowogard
+ru;Новогард;Nowogard
+zh;諾沃加德;Nowogard
+be;Навогард;Nowogard
+lv;Nove Varpno;Nowe Warpno
+uk;Нове Варпно;Nowe Warpno
+sr;Нове Варпно;Nowe Warpno
+ru;Нове-Варпно;Nowe Warpno
+zh;新瓦爾普諾;Nowe Warpno
+pl;Skalmierzyce Nowe;Nowe Skalmierzyce
+pl;Skalmierzyce;Nowe Skalmierzyce
+lv;Nove Skalmežice;Nowe Skalmierzyce
+sr;Нове Скалмјежице;Nowe Skalmierzyce
+uk;Нове Скальмежице;Nowe Skalmierzyce
+ru;Нове-Скальмежице;Nowe Skalmierzyce
+zh;新斯卡爾梅日采;Nowe Skalmierzyce
+ru;Нове-Място;Nowe Miasto Lubawskie
+lv;Nove Mjasto Lubavske;Nowe Miasto Lubawskie
+he;נובה מיאסטו;Nowe Miasto Lubawskie
+uk;Нове-Място-Любавське;Nowe Miasto Lubawskie
+bg;Нове Място Любавске;Nowe Miasto Lubawskie
+ru;Нове-Място-Любавске;Nowe Miasto Lubawskie
+zh;盧巴瓦新城;Nowe Miasto Lubawskie
+sr;Нове Мјасто Лубавскје;Nowe Miasto Lubawskie
+kk;Нове;Nowe
+lv;Nove;Nowe
+uk;Нове;Nowe
+ru;Нове;Nowe
+zh;諾韋;Nowe
+sr;Нове;Nowe
+tt;Нове;Nowe
+be;Новэ;Nowe
+zh-Hans;诺韦;Nowe
+ce;Нове;Nowe
+ko;노베;Nowe
+el;Νόβε;Nowe
+th;นอแว;Nowe
+ja;ノヴェ;Nowe
+fa;نووه;Nowe
+uk;Нова Суль;Nowa Sól
+lv;Nova Sola;Nowa Sól
+bg;Нова Сол;Nowa Sól
+ru;Нова-Суль;Nowa Sól
+zh;新蘇爾;Nowa Sól
+sr;Нова Сол;Nowa Sól
+lt;Nova Sulė;Nowa Sól
+ru;Нова-Руда;Nowa Ruda
+bg;Нова Руда;Nowa Ruda
+lv;Nova Ruda;Nowa Ruda
+uk;Нова Руда;Nowa Ruda
+zh;新魯達;Nowa Ruda
+he;נובה רודה;Nowa Ruda
+ko;노바루다;Nowa Ruda
+lt;Naujoji Ruda;Nowa Ruda
+sr;Нова Руда;Nowa Ruda
+zh;尼基佐維克;Nikiszowiec
+lv;Ņešava;Nieszawa
+sr;Њешава;Nieszawa
+uk;Нешава;Nieszawa
+ru;Нешава;Nieszawa
+zh;涅沙瓦;Nieszawa
+ru;Неслухово;Niesłuchowo
+ru;Немодлин;Niemodlin
+lv;Ņemodlina;Niemodlin
+uk;Немодлін;Niemodlin
+zh;涅莫德林;Niemodlin
+bg;Немодлин;Niemodlin
+sr;Њемодлин;Niemodlin
+bg;Немча;Niemcza
+lv;Ņemča;Niemcza
+uk;Немча;Niemcza
+ru;Немча;Niemcza
+zh;涅姆恰;Niemcza
+sr;Њемча;Niemcza
+tt;Немча;Niemcza
+be;Немча;Niemcza
+lt;Ņemča;Niemcza
+ce;Немча;Niemcza
+el;Νιέμτσα;Niemcza
+ru;Ницвальд;Nicwałd
+be;Некля;Nekla
+sr;Некла;Nekla
+uk;Некля;Nekla
+ru;Некля;Nekla
+ru;Направа;Naprawa
+bg;Намислов;Namysłów
+lt;Namysluvas;Namysłów
+lv;Namislova;Namysłów
+uk;Намислув;Namysłów
+ru;Намыслув;Namysłów
+zh;納梅斯武夫;Namysłów
+sr;Намислов;Namysłów
+bg;Накло над Нотечьон;Nakło nad Notecią
+uk;Накло-над-Нотецем;Nakło nad Notecią
+lv;Naklo pie Notecas;Nakło nad Notecią
+ru;Накло-над-Нотецён;Nakło nad Notecią
+zh;諾泰奇河畔納克沃;Nakło nad Notecią
+sr;Накло над Нотећом;Nakło nad Notecią
+ru;Надруж;Nadróż
+ru;Мышков;Myszków
+uk;Мишкув;Myszków
+ja;ムィシュクフ;Myszków
+bg;Мишков;Myszków
+lv;Miškova;Myszków
+ru;Мышкув;Myszków
+zh;梅什库夫;Myszków
+sr;Мишков;Myszków
+lt;Myškuvas;Myszków
+lv;Mislovice;Mysłowice
+ru;Мысловице;Mysłowice
+uk;Мисловіце;Mysłowice
+ja;ムィスウォヴィツェ;Mysłowice
+ko;미스워비체;Mysłowice
+lt;Myslovicės;Mysłowice
+bg;Мисловице;Mysłowice
+zh;梅斯沃維采;Mysłowice
+sr;Мисловице;Mysłowice
+be;Мыславіцы;Mysłowice
+tt;Мысловице;Mysłowice
+ru;Мыслице;Myślice
+lt;Myslibužas;Myślibórz
+lv;Misliboža;Myślibórz
+bg;Мишлибож;Myślibórz
+sr;Мислибож;Myślibórz
+uk;Мислібуж;Myślibórz
+ru;Мыслибуж;Myślibórz
+zh;梅希利布日;Myślibórz
+be;Мыслібуж;Myślibórz
+bg;Мишленице;Myślenice
+uk;Мисленіце;Myślenice
+lv;Misleņice;Myślenice
+ru;Мысленице;Myślenice
+zh;梅希萊尼采;Myślenice
+sr;Мислењице;Myślenice
+sk;Gmina Mycielin;Mycielin
+uk;Ґміна Мицелін;Mycielin
+ru;Мыцелин;Mycielin
+lv;Murovana Goslina;Murowana Goślina
+uk;Мурована Ґосліна;Murowana Goślina
+ru;Мурована-Гослина;Murowana Goślina
+zh;穆羅瓦納-戈希利納;Murowana Goślina
+sr;Мурована Гослина;Murowana Goślina
+ru;Мжезино;Mrzezino
+ru;Мрочно;Mroczno
+bg;Мроча;Mrocza
+lv;Mroča;Mrocza
+sr;Мроча;Mrocza
+uk;Мроча;Mrocza
+ru;Мроча;Mrocza
+zh;姆羅恰;Mrocza
+sk;Gmina Moszczenica;Moszczenica
+uk;Ґміна Мощениця;Moszczenica
+ru;Мощеница;Moszczenica
+ru;Мосты;Mosty
+be;Масіна;Mosina
+uk;Мосіна;Mosina
+ru;Мосина;Mosina
+zh;莫西納;Mosina
+fa;موشینا;Mosina
+sr;Мосина;Mosina
+lv;Moriņa;Moryń
+sr;Морињ;Moryń
+uk;Моринь;Moryń
+ru;Морынь;Moryń
+zh;莫倫;Moryń
+lv;Moronga;Morąg
+uk;Моронг;Morąg
+lt;Morongas;Morąg
+be;Моранг;Morąg
+ru;Моронг;Morąg
+zh;莫龍格;Morąg
+sr;Мордонг;Morąg
+ru;Мокрско;Mokrsko
+bg;Могилно;Mogilno
+uk;Моґільно;Mogilno
+ru;Могильно;Mogilno
+zh;莫吉爾諾;Mogilno
+sr;Могилно;Mogilno
+ru;Млынары;Młynary
+lv;Mlinari;Młynary
+sr;Млинари;Młynary
+uk;Млинари;Młynary
+zh;姆維納雷;Młynary
+lv;Mirska;Mirsk
+uk;Мірськ;Mirsk
+ru;Мирск;Mirsk
+zh;米爾斯克;Mirsk
+sr;Мирск;Mirsk
+he;מירוסלאבייץ;Mirosławiec
+lv;Miroslaveca;Mirosławiec
+sr;Мирославјец;Mirosławiec
+uk;Мирославець;Mirosławiec
+ru;Мирославец;Mirosławiec
+zh;米羅斯瓦維茨;Mirosławiec
+be;Мілослаў;Miłosław
+lv;Miloslava;Miłosław
+sr;Милослав;Miłosław
+uk;Мілослав;Miłosław
+ru;Милослав;Miłosław
+zh;米沃斯瓦夫;Miłosław
+ru;Миломлын;Miłomłyn
+lv;Milomlina;Miłomłyn
+sr;Миломлин;Miłomłyn
+uk;Міломлин;Miłomłyn
+zh;米沃姆溫;Miłomłyn
+uk;Мілич;Milicz
+be;Міліч;Milicz
+bg;Милич;Milicz
+lv;Miliča;Milicz
+ru;Милич;Milicz
+zh;米利奇;Milicz
+sr;Милич;Milicz
+ru;Милеево;Milejewo
+be;Мікстат;Mikstat
+lv;Mikstata;Mikstat
+sr;Микстат;Mikstat
+uk;Мікстат;Mikstat
+ru;Микстат;Mikstat
+zh;米克斯塔特;Mikstat
+fi;Nikolaus;Mikołów
+hu;Miklós;Mikołów
+ja;ミコウフ;Mikołów
+nn;Nikolaus;Mikołów
+no;Nikolaus;Mikołów
+ru;Миколув;Mikołów
+sk;Mikuláš;Mikołów
+sv;Nikolaus;Mikołów
+lv;Mikolova;Mikołów
+bg;Миколов;Mikołów
+uk;Міколув;Mikołów
+zh;米科武夫;Mikołów
+sr;Миколов;Mikołów
+lt;Mikoluvas;Mikołów
+ru;Миколайки-Поморске;Mikołajki Pomorskie
+lv;Meškovice;Mieszkowice
+uk;Мешковіце;Mieszkowice
+sr;Мјешковице;Mieszkowice
+ru;Мешковице;Mieszkowice
+zh;梅什科維采;Mieszkowice
+tt;Межинув;Mierzynów
+ce;Межинув;Mierzynów
+uk;Межинув;Mierzynów
+lv;Merošova;Mieroszów
+uk;Мерошув;Mieroszów
+ru;Мерошув;Mieroszów
+zh;梅羅舒夫;Mieroszów
+sr;Мјерошов;Mieroszów
+ru;Мельно;Mielno
+tt;Мелно;Mielno
+ce;Мельно;Mielno
+be;Мельна;Mielno
+uk;Мельно;Mielno
+ja;ミエルノ;Mielno
+sk;Gmina Miękinia;Miękinia
+uk;Ґміна Мєнкіня;Miękinia
+ru;Менкиня;Miękinia
+lv;Mejska Gurka;Miejska Górka
+sr;Мјејска Горка;Miejska Górka
+uk;Мейська Гурка;Miejska Górka
+ru;Мейска-Гурка;Miejska Górka
+zh;梅伊斯卡古爾卡;Miejska Górka
+lv;Meņdzizdroje;Międzyzdroje
+uk;Мєндзиздроє;Międzyzdroje
+sr;Мјендзиздроје;Międzyzdroje
+ru;Мендзыздрое;Międzyzdroje
+zh;緬濟茲德羅耶;Międzyzdroje
+uk;Мендзижеч;Międzyrzecz
+lv;Mendzižeča;Międzyrzecz
+lt;Mendzyžečas;Międzyrzecz
+bg;Мендзижеч;Międzyrzecz
+ru;Мендзыжеч;Międzyrzecz
+zh;緬濟熱奇;Międzyrzecz
+sr;Мјендзижеч;Międzyrzecz
+be;Мендзырэч;Międzyrzecz
+lv;Mendzilese;Międzylesie
+uk;Мєндзилесе;Międzylesie
+cs;Mezilesí;Międzylesie
+ru;Мендзылесе;Międzylesie
+zh;緬濟萊謝;Międzylesie
+sr;Мјендзилесје;Międzylesie
+ja;ミェンヅィフト;Międzychód
+lv;Mendzihoda;Międzychód
+uk;Мендзихуд;Międzychód
+bg;Мендзиход;Międzychód
+ru;Мендзыхуд;Międzychód
+zh;緬濟胡德;Międzychód
+sr;Мјендзиход;Międzychód
+lv;Mendziboža;Międzybórz
+sr;Мјендзибож;Międzybórz
+uk;Мєндзибуж;Międzybórz
+ru;Мендзыбуж;Międzybórz
+zh;緬濟布日;Międzybórz
+sr;Међубор;Międzybórz
+hu;Miásztkó;Miastko
+lv;Mjastko;Miastko
+uk;Мястко;Miastko
+ru;Мястко;Miastko
+zh;米亞斯特科;Miastko
+pl;Miasteczko Kraińskie;Miasteczko Krajeńskie
+lv;Maševo;Maszewo
+sr;Машево;Maszewo
+uk;Машево;Maszewo
+ru;Машево;Maszewo
+zh;馬謝沃;Maszewo
+uk;Ґміна Масловіце;Masłowice
+ru;Масловице;Masłowice
+ru;Маженцино;Marzęcino
+ru;Марыновы;Marynowy
+ru;Марвалд;Marwałd
+lv;Margoņina;Margonin
+sr;Маргоњин;Margonin
+uk;Маргонін;Margonin
+ru;Маргонин;Margonin
+zh;馬爾戈寧;Margonin
+cs;Gmina Marcinowice;Marcinowice
+sk;Gmina Marcinowice;Marcinowice
+uk;Ґміна Марциновіце;Marcinowice
+ru;Марциновице;Marcinowice
+ru;Мамлич;Mamlicz
+lv;Malomice;Małomice
+sr;Маломице;Małomice
+uk;Маломіце;Małomice
+ru;Маломице;Małomice
+zh;馬沃米采;Małomice
+sk;Gmina Malechowo;Malechowo
+uk;Ґміна Малехово;Malechowo
+ru;Малехово;Malechowo
+ru;Малдыты;Małdyty
+lt;Malborkas;Malbork
+lv;Malborka;Malbork
+ru;Мальборк;Malbork
+uk;Мальборк;Malbork
+ru;Мала-Нешавка;Mała Nieszawka
+ru;Максымиляново;Maksymilianowo
+bg;Максимиляново;Maksymilianowo
+lv;Makova Podhalaņska;Maków Podhalański
+sr;Маков Потхалањски;Maków Podhalański
+uk;Маків-Підхалянський;Maków Podhalański
+ru;Макув-Подхаляньский;Maków Podhalański
+bg;Маков Подхалянски;Maków Podhalański
+ru;Макувец;Makowiec
+ru;Монколице;Mąkolice
+ru;Лыски;Lyski
+sk;Gmina Lwówek Śląski;Lwówek Śląski
+uk;Ґміна Львувек-Шльонський;Lwówek Śląski
+ru;Львувек-Слёнски;Lwówek Śląski
+sk;Gmina Lwówek;Lwówek
+uk;Ґміна Львувек;Lwówek
+ru;Львувек;Lwówek
+ru;Люзино;Luzino
+sk;Gmina Lututów;Lututów
+uk;Ґміна Лютутув;Lututów
+ru;Лютутув;Lututów
+sk;Gmina Lutomiersk;Lutomiersk
+uk;Ґміна Лютомерськ;Lutomiersk
+ru;Лютомерск;Lutomiersk
+cs;Lidměřice;Ludmierzyce
+ru;Людмежице;Ludmierzyce
+ru;Лубы;Łuby
+ru;Любстув;Lubstów
+sr;Лупско;Lubsko
+uk;Любсько;Lubsko
+ru;Любско;Lubsko
+zh;盧布斯科;Lubsko
+ko;룹스코;Lubsko
+ru;Любранец;Lubraniec
+lt;Lubranecas;Lubraniec
+lv;Lubraņeca;Lubraniec
+sr;Лубрањец;Lubraniec
+uk;Любранець;Lubraniec
+ru;Любовидз;Lubowidz
+ru;Любонек;Luboniek
+ru;Любон;Luboń
+bg;Любон;Luboń
+lv;Luboņa;Luboń
+uk;Любонь;Luboń
+ru;Любонь;Luboń
+zh;盧邦;Luboń
+lt;Liubonis;Luboń
+sr;Лубоњ;Luboń
+lv;Lubomeža;Lubomierz
+sr;Лубомјеж;Lubomierz
+th;ลูบอมีแยช;Lubomierz
+uk;Любомеж;Lubomierz
+ru;Любомеж;Lubomierz
+ru;Любоцень;Lubocien
+ru;Любневице;Lubniewice
+lv;Lubņevice;Lubniewice
+sr;Лубњевице;Lubniewice
+uk;Любневіце;Lubniewice
+zh;盧布涅維采;Lubniewice
+sk;Gmina Łubniany;Łubniany
+uk;Ґміна Лубняни;Łubniany
+ru;Лубняны;Łubniany
+ja;ルブリニェツ;Lubliniec
+ru;Люблинец;Lubliniec
+bg;Люблинец;Lubliniec
+lv;Lubliņeca;Lubliniec
+uk;Люблінець;Lubliniec
+zh;盧布利涅茨;Lubliniec
+lt;Liublinecas;Lubliniec
+sr;Лублињец;Lubliniec
+ru;Люблево;Lublewo Gdańskie
+lv;Lubina;Lubin
+ru;Любин;Lubin
+uk;Любін;Lubin
+mr;ल्युबिन;Lubin
+ja;ルビン;Lubin
+ko;루빈;Lubin
+lt;Liubinas;Lubin
+bg;Любин;Lubin
+zh;盧賓;Lubin
+be;Любін;Lubin
+he;לובין;Lubin
+sr;Лубин;Lubin
+tt;Любин;Lubin
+ru;Лубянка;Łubianka
+lv;Lubavka;Lubawka
+uk;Любавка;Lubawka
+ru;Любавка;Lubawka
+zh;盧巴夫卡;Lubawka
+sr;Лубавка;Lubawka
+lt;Liubava;Lubawa
+lv;Lubava;Lubawa
+sr;Лубава;Lubawa
+uk;Любава;Lubawa
+ru;Любава;Lubawa
+zh;盧巴瓦;Lubawa
+ru;Любане;Lubanie
+ru;Любань;Lubań
+bg;Любан;Lubań
+be;Любань;Lubań
+lv;Lubaņa;Lubań
+uk;Любань;Lubań
+zh;盧班;Lubań
+he;לובן;Lubań
+lt;Liubanis;Lubań
+sr;Лубањ;Lubań
+ru;Ловинек;Łowinek
+lv;Loviča;Łowicz
+bg;Лович;Łowicz
+uk;Лович;Łowicz
+lt;Lovičius;Łowicz
+ja;ウォヴィチ;Łowicz
+ru;Лович;Łowicz
+zh;沃維奇;Łowicz
+ko;워비치;Łowicz
+he;לוביץ;Łowicz
+sr;Лович;Łowicz
+bg;Лодз;Łódź
+eu;Lodz;Łódź
+he;לודז;Łódź
+ja;ウッチ;Łódź
+lv;Lodza;Łódź
+ru;Лодзь;Łódź
+sr;Лођ;Łódź
+cs;Lodž;Łódź
+gl;Lodz;Łódź
+lt;Lodzė;Łódź
+sk;Lodž;Łódź
+uk;Лодзь;Łódź
+ar;وودج;Łódź
+ko;우치;Łódź
+th;วูช;Łódź
+az;Lodz;Łódź
+kk;Лодзь;Łódź
+ka;ლოძი;Łódź
+pap;Lodz;Łódź
+os;Лодзь;Łódź
+be;Лодзь;Łódź
+mr;वूत्श;Łódź
+mk;Лоѓ;Łódź
+fa;ووچ;Łódź
+vep;Lodz;Łódź
+el;Λοτζ;Łódź
+sl;Lodž;Łódź
+crh;Luc;Łódź
+zh;罗兹;Łódź
+ce;Лодзь;Łódź
+hy;Լոձ;Łódź
+mn;Лодзь;Łódź
+hak;Lò-tsṳ;Łódź
+myv;Лодзь ош;Łódź
+tpi;Lodz;Łódź
+tt;Лодзь;Łódź
+udm;Луӟ;Łódź
+ur;ووچ;Łódź
+uz;Lodz;Łódź
+yue;羅茲;Łódź
+ky;Лодзь;Łódź
+ms;Lodz;Łódź
+hi;लोड़्ज़;Łódź
+bn;লজ;Łódź
+am;ሎዝ;Łódź
+ha;Lodz;Łódź
+om;Lodz;Łódź
+pa;ਲੋਜ਼;Łódź
+ps;لوډز;Łódź
+so;Lodz;Łódź
+sw;Lodz;Łódź
+tg;Лодзь;Łódź
+bg;Лобженица;Łobżenica
+lv;Lobžeņica;Łobżenica
+sr;Лобжењица;Łobżenica
+uk;Лобжениця;Łobżenica
+ru;Лобженица;Łobżenica
+zh;沃布熱尼察;Łobżenica
+uk;Лобез;Łobez
+lv;Lobeza;Łobez
+bg;Лобез;Łobez
+sr;Лобез;Łobez
+lt;Lobezas;Łobez
+crh;Lobez;Łobez
+ru;Лобез;Łobez
+zh;沃貝茲;Łobez
+ab;Лобез;Łobez
+am;ዎበስ;Łobez
+ar;لوبيز;Łobez
+av;Лобез;Łobez
+az;Lobez;Łobez
+ba;Лобез;Łobez
+sgs;Luobezos;Łobez
+be;Лобаз;Łobez
+ce;Лобез;Łobez
+cv;Лобез;Łobez
+ee;Lobez;Łobez
+el;Λόμπεζ;Łobez
+fa;لوبس;Łobez
+kaa;Lobez;Łobez
+kbd;Лобез;Łobez
+kk;Лобез;Łobez
+ko;워베스;Łobez
+ky;Лобез;Łobez
+ltg;Lobez;Łobez
+mdf;Лобез;Łobez
+mhr;Лобез;Łobez
+mk;Лобез;Łobez
+mn;Лобез;Łobez
+myv;Лобез ош;Łobez
+os;Лобез;Łobez
+su;Lobez;Łobez
+tg;Лобез;Łobez
+udm;Лобез;Łobez
+vep;Lobez;Łobez
+xal;Лобез;Łobez
+ru;Лисево;Lisewo Malborskie
+ru;Лисево;Lisewo
+ru;Липова;Lipowa
+ru;Липно;Lipno
+sk;Gmina Lipno;Lipno
+uk;Ґміна Ліпно;Lipno
+hu;Alsólipnica;Lipnica Wielka
+sk;Dolná Lipnica;Lipnica Wielka
+sk;Nižná Lipnica;Lipnica Wielka
+hu;Felsőlipnica;Lipnica Mała
+ru;Липка;Lipka
+ru;Липинка;Lipinka
+lv;Lipjani;Lipiany
+sr;Липјани;Lipiany
+uk;Ліпяни;Lipiany
+ru;Липяны;Lipiany
+zh;利皮亞內;Lipiany
+ru;Липянки;Lipianki
+ru;Линьск;Lińsk
+ru;Лигово;Ligówko
+ru;Лидзбарк;Lidzbark
+lv;Lidzbarka;Lidzbark
+uk;Лідзбарк;Lidzbark
+zh;利茲巴克;Lidzbark
+sr;Лидзбарк;Lidzbark
+ru;Личе;Licze
+be;Лібёнж;Libiąż
+bg;Либьонж;Libiąż
+lv;Libjonža;Libiąż
+sr;Либјонж;Libiąż
+uk;Лібйонж;Libiąż
+ru;Либёнж;Libiąż
+zh;利比翁日;Libiąż
+sk;Gmina Łęczyce;Łęczyce
+uk;Ґміна Ленчице;Łęczyce
+ru;Ленчице;Łęczyce
+pl;Lewin;Lewin Kłodzki
+ru;Левин-Бжески;Lewin Brzeski
+bg;Левин Бжески;Lewin Brzeski
+lv;Levina Bžeska;Lewin Brzeski
+sr;Левин Бжески;Lewin Brzeski
+uk;Левін-Бжеський;Lewin Brzeski
+ru;Левин-Бжеский;Lewin Brzeski
+lv;Lešno;Leszno
+uk;Лешно;Leszno
+lt;Lešnas;Leszno
+bg;Лешно;Leszno
+he;לשנו;Leszno
+ko;레슈노;Leszno
+be;Лешна;Leszno
+zh;莱什诺;Leszno
+ja;レシュノ;Leszno
+cs;Lešno;Leszno
+sr;Лешно;Leszno
+tt;Лешно;Leszno
+cs;Horní Líštná;Leszna Górna
+ru;Леснево;Leśniewo
+uk;Лешна;Leśna
+ru;Лесьна;Leśna
+zh;萊希納;Leśna
+sr;Лесна;Leśna
+ru;Лембарг;Lembarg
+he;ללוב;Lelów
+ru;Лялице;Lelice
+lv;Lenkņica;Łęknica
+sr;Ленкњица;Łęknica
+uk;Ленкниця;Łęknica
+ru;Ленкница;Łęknica
+zh;文克尼察;Łęknica
+bg;Ленкница;Łęknica
+ru;Легница;Legnica
+he;לגניצה;Legnica
+ja;レグニツァ;Legnica
+be;Лягніца;Legnica
+ko;레그니차;Legnica
+cs;Lehnice;Legnica
+fa;لگنیتسا;Legnica
+uk;Легниця;Legnica
+bg;Легница;Legnica
+zh;萊格尼察;Legnica
+ar;لغنيتسا;Legnica
+hy;Լեգնիցա;Legnica
+sr;Легњица;Legnica
+tt;Легница;Legnica
+bg;Ленджини;Lędziny
+ja;レンジニ;Lędziny
+lv;Leņdzini;Lędziny
+mdf;Лендзины;Lędziny
+sr;Ленђини;Lędziny
+uk;Лендзіни;Lędziny
+ru;Лендзины;Lędziny
+zh;倫濟內;Lędziny
+ja;ウェンチツァ;Łęczyca
+lv;Lenčica;Łęczyca
+uk;Ленчиця;Łęczyca
+bg;Ленчица;Łęczyca
+ru;Ленчица;Łęczyca
+zh;文奇察;Łęczyca
+he;לנציצה;Łęczyca
+sr;Ленчица;Łęczyca
+lt;Lemborkas;Lębork
+uk;Лемборк;Lębork
+lv;Lemborka;Lębork
+bg;Лемборк;Lębork
+ru;Лемборк;Lębork
+zh;倫堡;Lębork
+ja;レンボルク;Lębork
+sr;Лемборк;Lębork
+th;แลมบอร์ก;Lębork
+ru;Лебно;Łebno
+ru;Лебч;Łebcz
+ru;Леба;Łeba
+lv;Leba;Łeba
+uk;Леба;Łeba
+zh;韋巴;Łeba
+sr;Леба;Łeba
+bg;Лази;Łazy
+ja;ワジ;Łazy
+lv;Lazi;Łazy
+sr;Лази;Łazy
+uk;Лази;Łazy
+zh;瓦濟;Łazy
+ja;ワジ;Łazy Bledowskie
+lv;Lazi;Łazy Bledowskie
+sr;Лази;Łazy Bledowskie
+uk;Лази;Łazy Bledowskie
+ru;Лазы;Łazy Bledowskie
+zh;瓦濟;Łazy Bledowskie
+bg;Лажиска Горне;Łaziska Górne
+uk;Лазиська-Гурне;Łaziska Górne
+lv;Laziska Gurne;Łaziska Górne
+ru;Лазиска-Гурне;Łaziska Górne
+zh;上瓦濟斯卡;Łaziska Górne
+sr;Лазиска Горне;Łaziska Górne
+lt;Aukštutiniai Laziskai;Łaziska Górne
+ru;Лясковице;Laskowice
+bg;Ласк;Łask
+uk;Ласьк;Łask
+lv;Laska;Łask
+ru;Ласк;Łask
+zh;瓦斯克;Łask
+he;לאסק;Łask
+sr;Ласк;Łask
+ru;Ласин;Łasin
+lv;Lasina;Łasin
+sr;Ласин;Łasin
+uk;Ласін;Łasin
+zh;瓦辛;Łasin
+ru;Ласек;Lasek
+ru;Лясечно;Laseczno
+ru;Ланента;Łanięta
+sk;Gmina Łanięta;Łanięta
+uk;Ґміна Ланента;Łanięta
+ur;لانکورونا;Lanckorona
+ru;Лалики;Laliki
+ru;Ладек Здрой;Lądek-Zdrój
+uk;Льондек-Здруй;Lądek-Zdrój
+lv;Londekzdroja;Lądek-Zdrój
+ru;Лёндек-Здруй;Lądek-Zdrój
+zh;隆代克-茲德魯伊;Lądek-Zdrój
+sr;Лондек-Здрој;Lądek-Zdrój
+lv;Labišina;Łabiszyn
+sr;Лабишин;Łabiszyn
+uk;Лабішин;Łabiszyn
+ru;Лабишин;Łabiszyn
+zh;瓦比申;Łabiszyn
+lt;Kvidzynas;Kwidzyn
+uk;Квідзин;Kwidzyn
+lv;Kvidzina;Kwidzyn
+bg;Квидзин;Kwidzyn
+ru;Квидзын;Kwidzyn
+zh;克维曾;Kwidzyn
+sr;Квидзин;Kwidzyn
+th;กฟิดซึน;Kwidzyn
+bg;Кужня Рачиборска;Kuźnia Raciborska
+lv;Kuzņa Raciborska;Kuźnia Raciborska
+sr;Кузња Раћиборска;Kuźnia Raciborska
+uk;Кузня-Рациборська;Kuźnia Raciborska
+ru;Кузня-Рациборская;Kuźnia Raciborska
+ru;Кутно;Kutno
+bg;Кутно;Kutno
+uk;Кутно;Kutno
+lt;Kutnas;Kutno
+zh;库特娜;Kutno
+he;קוטנו;Kutno
+sr;Кутно;Kutno
+ru;Куп;Kup
+ru;Куны;Kuny
+pl;Kulin Kłodzki;Kulin
+pl;Kudowa;Kudowa-Zdrój
+uk;Кудова-Здруй;Kudowa-Zdrój
+lv;Kudovazdroja;Kudowa-Zdrój
+ru;Кудова-Здруй;Kudowa-Zdrój
+zh;庫多瓦-茲德魯伊;Kudowa-Zdrój
+sr;Кудова Здрој;Kudowa-Zdrój
+pl;Książ;Książ Wielkopolski
+sk;Gmina Książ Wielkopolski;Książ Wielkopolski
+uk;Ґміна Ксьонж-Велькопольський;Książ Wielkopolski
+ru;Ксёнж-Велькопольский;Książ Wielkopolski
+lv;Kšiža Velkopolska;Krzyż Wielkopolski
+sr;Кшиж Вјелкополски;Krzyż Wielkopolski
+uk;Кшиж-Великопольський;Krzyż Wielkopolski
+ru;Кшиж-Велькопольский;Krzyż Wielkopolski
+lv;Kšiviņa;Krzywiń
+sr;Кшивињ;Krzywiń
+uk;Кшивінь;Krzywiń
+ru;Кшивинь;Krzywiń
+zh;克日溫;Krzywiń
+mk;Кжешовице;Krzeszowice
+lv;Kšešovice;Krzeszowice
+lt;Kšešovicė;Krzeszowice
+uk;Кшешовіце;Krzeszowice
+ru;Кшешовице;Krzeszowice
+zh;克熱紹維采;Krzeszowice
+sr;Кшешовице;Krzeszowice
+bg;Кшешовице;Krzeszowice
+fa;کششوویتسه;Krzeszowice
+ru;Кшешув;Krzeszów
+lv;Kšepice;Krzepice
+sr;Кшепице;Krzepice
+uk;Кшепіце;Krzepice
+ru;Кшепице;Krzepice
+zh;克熱皮采;Krzepice
+bg;Кшепице;Krzepice
+he;קשפיצה;Krzepice
+bg;Кшановице;Krzanowice
+lv;Kšanovice;Krzanowice
+sr;Кшановице;Krzanowice
+uk;Кшановіце;Krzanowice
+ru;Кшановице;Krzanowice
+zh;克扎諾維采;Krzanowice
+ru;Крыры;Kryry
+ru;Крыница-Морска;Krynica Morska
+lv;Kriņica Morska;Krynica Morska
+sr;Крињица Морска;Krynica Morska
+uk;Криниця-Морська;Krynica Morska
+zh;克里尼查謨爾斯卡;Krynica Morska
+ru;Крушвица;Kruszwica
+lv;Krušvica;Kruszwica
+uk;Крушвиця;Kruszwica
+zh;克魯什維察;Kruszwica
+sr;Крушвица;Kruszwica
+ru;Кротошин;Krotoszyn
+lv;Krotošina;Krotoszyn
+bg;Кротошин;Krotoszyn
+uk;Кротошин;Krotoszyn
+be;Кратошын;Krotoszyn
+zh;克羅托申;Krotoszyn
+lt;Krotošynas;Krotoszyn
+sr;Кротошин;Krotoszyn
+lv;Krosno Odžaņske;Krosno Odrzańskie
+bg;Кросно Оджанске;Krosno Odrzańskie
+uk;Кросно-Оджанське;Krosno Odrzańskie
+ru;Кросно-Оджаньске;Krosno Odrzańskie
+zh;奧得河畔克羅斯諾;Krosno Odrzańskie
+sr;Кросно Оджањскје;Krosno Odrzańskie
+ru;Кросневице;Krośniewice
+lv;Krosņevice;Krośniewice
+uk;Кросневіце;Krośniewice
+zh;克羅希涅維采;Krośniewice
+he;קרושנייוויצה;Krośniewice
+sr;Кросњевице;Krośniewice
+sk;Gmina Krośnice;Krośnice
+uk;Ґміна Крошніце;Krośnice
+ru;Кроснице;Krośnice
+uk;Крокова;Krokowa
+ru;Крокова;Krokowa
+lv;Krobja;Krobia
+sr;Кробја;Krobia
+uk;Кробія;Krobia
+ru;Кробя;Krobia
+zh;克羅比亞;Krobia
+tt;Кретомино;Kretomino
+ce;Кретомино;Kretomino
+uk;Кретоміно;Kretomino
+uk;Крапковіце;Krapkowice
+bg;Крапковице;Krapkowice
+lt;Krapkovicės;Krapkowice
+lv;Krapkovice;Krapkowice
+ru;Крапковице;Krapkowice
+zh;克拉普科維采;Krapkowice
+sr;Крапковице;Krapkowice
+th;กรัปกอวิตแซ;Krapkowice
+ru;Крамск;Kramsk
+bg;Краков;Kraków
+ca;Cracòvia;Kraków
+cs;Krakov;Kraków
+eu;Krakovia;Kraków
+fi;Krakova;Kraków
+gl;Cracovia;Kraków
+he;קרקוב;Kraków
+hu;Krakkó;Kraków
+ja;クラクフ;Kraków
+ka;კრაკოვი;Kraków
+lt;Krokuva;Kraków
+lv;Krakova;Kraków
+ro;Краковия;Kraków
+ro;Cracovia;Kraków
+ru;Краков;Kraków
+sk;Krakov;Kraków
+sr;Краков;Kraków
+uk;Краків;Kraków
+be;Кракаў;Kraków
+hr;Krakov;Kraków
+el;Κρακοβία;Kraków
+is;Kraká;Kraków
+ko;크라쿠프;Kraków
+bs;Krakov;Kraków
+sl;Krakov;Kraków
+th;กรากุฟ;Kraków
+hy;Կրակով;Kraków
+my;ကရားကော့မြို့;Kraków
+ar;كراكوف;Kraków
+mr;क्राकूफ;Kraków
+mn;Краков;Kraków
+mk;Краков;Kraków
+sq;Krakovi;Kraków
+crh;Krakоv;Kraków
+fa;کراکوف;Kraków
+ky;Краков;Kraków
+cv;Краков;Kraków
+tet;Krakóvia;Kraków
+os;Краков;Kraków
+oc;Cracòvia;Kraków
+zh;克拉科夫;Kraków
+kk;Краков;Kraków
+hi;क्राकोव;Kraków
+bn;ক্রাকো;Kraków
+ur;کراکو;Kraków
+am;ክራኮው;Kraków
+om;Krakoo;Kraków
+pa;ਕ੍ਰਾਕੋ;Kraków
+ps;کراکو;Kraków
+so;Krakoo;Kraków
+tg;Краков;Kraków
+tt;Краков;Kraków
+sr;Крајенка;Krajenka
+uk;Краєнка;Krajenka
+ru;Краенка;Krajenka
+zh;克拉延卡;Krajenka
+uk;Кожухув;Kożuchów
+lv;Kožuhova;Kożuchów
+ru;Кожухув;Kożuchów
+zh;科茹胡夫;Kożuchów
+sr;Кожухов;Kożuchów
+lv;Kozmina Velkopolska;Koźmin Wielkopolski
+uk;Козьмін-Великопольський;Koźmin Wielkopolski
+ru;Козмин-Велькопольски;Koźmin Wielkopolski
+sr;Козмин Вјелкополски;Koźmin Wielkopolski
+ru;Кожлины;Koźliny
+bg;Кожеглови;Koziegłowy
+lv;Kozeglovi;Koziegłowy
+sr;Козјеглови;Koziegłowy
+uk;Козеґлови;Koziegłowy
+ru;Козегловы;Koziegłowy
+zh;科傑格沃維;Koziegłowy
+ru;Козажев;Kozarzew
+lv;Kovari;Kowary
+uk;Ковари;Kowary
+ru;Ковары;Kowary
+zh;科瓦雷;Kowary
+sr;Ковари;Kowary
+ru;Ковалево-Поморске;Kowalewo Pomorskie
+lv;Kovalevo Pomorske;Kowalewo Pomorskie
+sr;Ковалево Поморскје;Kowalewo Pomorskie
+uk;Ковалево-Поморське;Kowalewo Pomorskie
+zh;波莫瑞地區科瓦萊沃;Kowalewo Pomorskie
+ru;Ковале;Kowale
+ru;Коваль;Kowal
+ar;حدادة;Kowal
+az;Dəmirçi;Kowal
+lv;Kovala;Kowal
+uk;Коваль;Kowal
+zh;科瓦爾;Kowal
+he;קובאל;Kowal
+sr;Ковал;Kowal
+ru;Котомеж;Kotomierz
+ru;Котлин;Kotlin
+ru;Котла;Kotla
+ru;Кошвалы;Koszwały
+lv;Košalina;Koszalin
+ru;Кошалин;Koszalin
+ja;コシャリン;Koszalin
+lt;Košalinas;Koszalin
+uk;Кошалін;Koszalin
+bg;Кошалин;Koszalin
+be;Кашалін;Koszalin
+fa;کشالین;Koszalin
+sr;Кошалин;Koszalin
+ko;코샬린;Koszalin
+zh;科沙林;Koszalin
+ar;كشالين;Koszalin
+th;กอชาลิน;Koszalin
+tt;Кошалин;Koszalin
+udm;Кошалин;Koszalin
+uz;Koshalin;Koszalin
+bg;Костшин над Одром;Kostrzyn nad Odrą
+ja;コストシン・ナド・オドロン;Kostrzyn nad Odrą
+uk;Костшин-над-Одрою;Kostrzyn nad Odrą
+lv;Kostšina pie Odras;Kostrzyn nad Odrą
+sr;Костшин на Одри;Kostrzyn nad Odrą
+ru;Костшин-над-Одрон;Kostrzyn nad Odrą
+zh;奥得河畔科斯琴;Kostrzyn nad Odrą
+lt;Kostšynas prie Odros;Kostrzyn nad Odrą
+lv;Kostšina;Kostrzyn
+uk;Костшин;Kostrzyn
+ru;Костшин;Kostrzyn
+zh;科斯琴;Kostrzyn
+sr;Костшин;Kostrzyn
+sk;Gmina Kostomłoty;Kostomłoty
+uk;Ґміна Костомлоти;Kostomłoty
+ru;Костомлоты;Kostomłoty
+sk;Gmina Koszęcin;Koszęcin
+uk;Ґміна Кошенцин;Koszęcin
+ru;Кошенцин;Koszęcin
+bg;Кошчежина;Kościerzyna
+uk;Косьцежина;Kościerzyna
+lv;Koscežina;Kościerzyna
+ru;Косьцежина;Kościerzyna
+zh;科希切日納;Kościerzyna
+lt;Koscežyna;Kościerzyna
+sr;Кошћежина;Kościerzyna
+ru;Косьцелец;Kościelec
+sk;Gmina Kościelec;Kościelec
+uk;Ґміна Косьцелець;Kościelec
+ru;Косцелец;Kościelec
+uk;Косцян;Kościan
+lv;Koscjana;Kościan
+bg;Кошчян;Kościan
+be;Косцян;Kościan
+ru;Косьцян;Kościan
+zh;科希強;Kościan
+lt;Koscianas;Kościan
+sr;Кошћан;Kościan
+ru;Косаково;Kosakowo
+lv;Koronovo;Koronowo
+uk;Короново;Koronowo
+ru;Короново;Koronowo
+zh;科羅諾沃;Koronowo
+sr;Короново;Koronowo
+lv;Kurņika;Kórnik
+uk;Курник;Kórnik
+ba;Бургштедт;Kórnik
+ru;Курник;Kórnik
+zh;庫爾尼克;Kórnik
+sr;Корњик;Kórnik
+lv;Korfantova;Korfantów
+uk;Корфантув;Korfantów
+ru;Корфантув;Korfantów
+zh;科爾凡圖夫;Korfantów
+bg;Корфантов;Korfantów
+sr;Корфантов;Korfantów
+bg;Константинов Лодзки;Konstantynów Łódzki
+lt;Lodzės Konstantynuvas;Konstantynów Łódzki
+lv;Konstantinova Ludzka;Konstantynów Łódzki
+uk;Константинув-Лодзький;Konstantynów Łódzki
+ru;Константынув-Лодзинский;Konstantynów Łódzki
+zh;羅茲省康斯坦丁努夫;Konstantynów Łódzki
+he;קונסטנטינוב לודזקי;Konstantynów Łódzki
+sr;Константинов Лодски;Konstantynów Łódzki
+ru;Конотоп;Konotop
+ru;Конописка;Konopiska
+ru;Конин;Konin
+lv;Koņina;Konin
+ar;كونين;Konin
+be;Конін;Konin
+bg;Конин;Konin
+he;קונין;Konin
+ko;코닌;Konin
+lt;Koninas;Konin
+tt;Конин;Konin
+uk;Конін;Konin
+zh;科寧;Konin
+lv;Koņecpole;Koniecpol
+sr;Коњецпол;Koniecpol
+uk;Конецполь;Koniecpol
+ru;Конецполь;Koniecpol
+zh;科涅茨波尔;Koniecpol
+bg;Конецпол;Koniecpol
+he;קונייצפול;Koniecpol
+ru;Конецк;Koneck
+cs;Velké Kunčice;Kończyce Wielkie
+ru;Коньчевице;Kończewice
+ru;Конажины;Konarzyny
+ro;Comuna Konarzyny;Konarzyny
+sk;Gmina Konarzyny;Konarzyny
+uk;Ґміна Конажини;Konarzyny
+ru;Конары;Konary
+lv;Koluški;Koluszki
+uk;Колюшкі;Koluszki
+ru;Колюшки;Koluszki
+zh;科卢什基;Koluszki
+he;קולושקי;Koluszki
+sr;Колушки;Koluszki
+ru;Колско;Kolsko
+bg;Кольоновске;Kolonowskie
+lv;Kolonovske;Kolonowskie
+sr;Колоновскје;Kolonowskie
+uk;Кольоновське;Kolonowskie
+ru;Колёновске;Kolonowskie
+zh;科洛諾夫斯凱;Kolonowskie
+ru;Колодзеево;Kołodziejewko
+ru;Колобжег;Kołobrzeg
+cs;Kolobřeh;Kołobrzeg
+uk;Колобжег;Kołobrzeg
+sr;Колобжег;Kołobrzeg
+ko;코워브제크;Kołobrzeg
+bg;Колобжег;Kołobrzeg
+lv;Kolobžega;Kołobrzeg
+tg;Колобжег;Kołobrzeg
+lt;Kolobžegas;Kołobrzeg
+fa;کووبژک;Kołobrzeg
+zh;科沃布热格;Kołobrzeg
+ar;كووبجك;Kołobrzeg
+be;Калабжэг;Kołobrzeg
+hy;Կոլոբժեգ;Kołobrzeg
+th;กอวอบแชก;Kołobrzeg
+lt;Kolas;Koło
+ru;Коло;Koło
+be;Кола;Koło
+bg;Коло;Koło
+ja;コウォ;Koło
+lv;Kolo;Koło
+uk;Коло;Koło
+zh;科沃;Koło
+ru;Колбуды;Kolbudy
+be;Кабылін;Kobylin
+lv;Kobilina;Kobylin
+uk;Кобилін;Kobylin
+ru;Кобылин;Kobylin
+zh;科貝林;Kobylin
+sr;Кобилин;Kobylin
+ru;Кобыле;Kobyle
+bg;Кнуров;Knurów
+ja;クヌルフ;Knurów
+lt;Knuruvas;Knurów
+lv;Knurova;Knurów
+sr;Кнуров;Knurów
+uk;Кнурув;Knurów
+ru;Кнурув;Knurów
+zh;克努魯夫;Knurów
+ru;Клуки;Kluki
+ru;Ключборк;Kluczbork
+uk;Ключборк;Kluczbork
+bg;Ключборк;Kluczbork
+lt;Kliučborkas;Kluczbork
+lv;Klučborka;Kluczbork
+zh;克盧奇堡;Kluczbork
+sr;Клучборк;Kluczbork
+th;กลุดช์บอร์ก;Kluczbork
+ru;Клонова;Klonowa
+cs;Kladsko;Kłodzko
+ru;Клодзко;Kłodzko
+lv;Klodzko;Kłodzko
+bg;Клодзко;Kłodzko
+uk;Клодзько;Kłodzko
+zh;克沃茲科;Kłodzko
+lt;Klodzkas;Kłodzko
+he;קלודצקו;Kłodzko
+sr;Клодско;Kłodzko
+pl;Kłódka;Kłódka Szlachecka
+lv;Klodava;Kłodawa
+lt;Klodava;Kłodawa
+uk;Клодава;Kłodawa
+ru;Клодава;Kłodawa
+zh;克沃達瓦;Kłodawa
+he;קלודאווה;Kłodawa
+sr;Клодава;Kłodawa
+he;קלובוצק;Kłobuck
+lv;Klobucka;Kłobuck
+bg;Клобуцк;Kłobuck
+ja;クウォブツク;Kłobuck
+uk;Клобуцьк;Kłobuck
+ru;Клобуцк;Kłobuck
+zh;克沃布茨克;Kłobuck
+lt;Klobuckas;Kłobuck
+sr;Клобуцк;Kłobuck
+ru;Клечев;Kleczew
+lv;Klečeva;Kleczew
+uk;Клечев;Kleczew
+zh;克萊切夫;Kleczew
+he;קלצב;Kleczew
+sr;Клечев;Kleczew
+be;Клецка;Kłecko
+lv;Klecko;Kłecko
+sr;Клецко;Kłecko
+uk;Клецько;Kłecko
+ru;Клецко;Kłecko
+zh;克韋茨科;Kłecko
+sk;Gmina Kiszkowo;Kiszkowo
+uk;Ґміна Кішково;Kiszkowo
+ru;Кишково;Kiszkowo
+ru;Киселице;Kisielice
+lv;Kiselice;Kisielice
+sr;Киселице;Kisielice
+uk;Кіселіце;Kisielice
+zh;基謝利采;Kisielice
+ru;Кикул;Kikół
+ru;Кезмарк;Kiezmark
+ru;Кетш;Kietrz
+bg;Кетш;Kietrz
+cs;Ketř;Kietrz
+sr;Кјетш;Kietrz
+uk;Кетш;Kietrz
+zh;凱奇;Kietrz
+ru;Кернозя;Kiernozia
+ru;Келпины;Kiełpiny
+ru;Келпино;Kiełpino
+bg;Кенти;Kęty
+lt;Kentai;Kęty
+lv;Kenti;Kęty
+sr;Кенти;Kęty
+uk;Кенти;Kęty
+ru;Кенты;Kęty
+zh;肯蒂;Kęty
+ja;ケンプノ;Kępno
+lv;Kempno;Kępno
+bg;Кемпно;Kępno
+uk;Кемпно;Kępno
+be;Кэмпна;Kępno
+ru;Кемпно;Kępno
+zh;肯普諾;Kępno
+lt;Kempnas;Kępno
+sr;Кемпно;Kępno
+uk;Кемпіце;Kępice
+lv;Kempice;Kępice
+ru;Кемпице;Kępice
+zh;肯皮采;Kępice
+sr;Кемпице;Kępice
+ru;Кендзежин-Козле;Kędzierzyn-Koźle
+bg;Кенджежин-Кожле;Kędzierzyn-Koźle
+lt;Kendzežynas-Kozlė;Kędzierzyn-Koźle
+lv;Keņdzežina-Kozle;Kędzierzyn-Koźle
+uk;Кендзежин-Козьле;Kędzierzyn-Koźle
+zh;肯傑任科茲萊;Kędzierzyn-Koźle
+sr;Кенђежин Козле;Kędzierzyn-Koźle
+th;แกนแจชึน-กอชแล;Kędzierzyn-Koźle
+tt;Кендзежин-Козле;Kędzierzyn-Koźle
+lv;Kciņa;Kcynia
+uk;Кциня;Kcynia
+ru;Кцыня;Kcynia
+zh;克齊尼亞;Kcynia
+sr;Кциња;Kcynia
+ru;Казимеж Бискупи;Kazimierz Biskupi
+sk;Gmina Kawęczyn;Kawęczyn
+uk;Ґміна Кавенчин;Kawęczyn
+ru;Кавенчин;Kawęczyn
+lv;Konti Vroclavske;Kąty Wrocławskie
+uk;Конти-Вроцлавські;Kąty Wrocławskie
+ru;Конты-Вроцлавске;Kąty Wrocławskie
+zh;弗羅茨瓦夫的孔蒂;Kąty Wrocławskie
+sr;Конти Вроцлавскје;Kąty Wrocławskie
+ru;Конты-Рыбацке;Kąty Rybackie
+am;ካቶቪጸ;Katowice
+ar;كاتوفيتسه;Katowice
+ar;مستخدم:محمد القيرواني;Katowice
+bg;Катовице;Katowice
+cs;Katovice;Katowice
+cv;Катовица;Katowice
+dv;ކެޓޮވިސް;Katowice
+el;Κατοβίτσε;Katowice
+fa;کاتوویتس;Katowice
+he;קטוביץ;Katowice
+hy;Կատովիցե;Katowice
+ja;カトヴィツェ;Katowice
+ka;კატოვიცე;Katowice
+kk;Катовице;Katowice
+ko;카토비체;Katowice
+ky;Катовице;Katowice
+lt;Katovicai;Katowice
+lv;Katovice;Katowice
+mi;Katowihi;Katowice
+mk;Катовице;Katowice
+mr;कातोवित्सा;Katowice
+ne;क्याटोभिस;Katowice
+ru;Катовице;Katowice
+sk;Katovice;Katowice
+sl;Katovice;Katowice
+sr;Катовице;Katowice
+th;คะโตวิตซ;Katowice
+th;คาโตวีตเซ;Katowice
+tt;Katovitse;Katowice
+uk;Катовіце;Katowice
+udm;Катовице;Katowice
+ba;Катовице;Katowice
+be;Катавіцы;Katowice
+crh;Katovitse;Katowice
+kn;ಕತೋವೀಸ್ಸ;Katowice
+ku;Katovîts;Katowice
+mdf;Катовице;Katowice
+os;Катовице;Katowice
+vep;Katovice;Katowice
+zh;卡托维兹;Katowice
+hak;Khà-thok-vì-chṳ;Katowice
+myv;Катовице ош;Katowice
+ur;کاتوویتس;Katowice
+yue;卡托維治;Katowice
+hi;कटोविचे;Katowice
+bn;কাটোভিসে;Katowice
+az;Katovitse;Katowice
+om;Katovitse;Katowice
+pa;ਕਾਟੋਵਿਸੇ;Katowice
+ps;کاتوویتسه;Katowice
+so;Katovitse;Katowice
+tg;Катовице;Katowice
+uk;Картузи;Kartuzy
+bg;Картузи;Kartuzy
+lv;Kartuzi;Kartuzy
+ru;Картузы;Kartuzy
+zh;卡爾圖濟;Kartuzy
+lt;Kartūzai;Kartuzy
+sr;Картузи;Kartuzy
+tt;Картузы;Kartuzy
+zh-Hans;卡尔图济;Kartuzy
+el;Καρτούζι;Kartuzy
+ja;カルトゥジ;Kartuzy
+fa;کارتوزه;Kartuzy
+be;Картузы;Kartuzy
+ce;Картузы;Kartuzy
+ko;카르투지;Kartuzy
+os;Картузы;Kartuzy
+ru;Каршнице-Друже;Karsznice Duże
+lv;Karpača;Karpacz
+uk;Карпач;Karpacz
+ru;Карпач;Karpacz
+zh;卡爾帕奇;Karpacz
+bg;Карпач;Karpacz
+sr;Карпач;Karpacz
+sr;Карлино;Karlino
+kk;Карлино;Karlino
+uk;Карліно;Karlino
+ru;Карлино;Karlino
+zh;卡爾利諾;Karlino
+tt;Карлино;Karlino
+be;Карліна;Karlino
+zh-Hans;卡尔利诺;Karlino
+ce;Карлино;Karlino
+ja;カルリノ;Karlino
+lv;Kargova;Kargowa
+sr;Каргова;Kargowa
+uk;Карґова;Kargowa
+ru;Каргова;Kargowa
+zh;卡爾戈瓦;Kargowa
+ru;Камык;Kamyk
+he;קאמיינסק;Kamieńsk
+lv;Kameņska;Kamieńsk
+sr;Камјењск;Kamieńsk
+uk;Каменськ;Kamieńsk
+ru;Каменьск;Kamieńsk
+zh;卡緬斯克;Kamieńsk
+uk;Камінь-Поморський;Kamień Pomorski
+sr;Камјењ Поморски;Kamień Pomorski
+ko;카미엔포모르스키;Kamień Pomorski
+bg;Камен Поморски;Kamień Pomorski
+lv;Kameņa Pomorska;Kamień Pomorski
+ru;Камень-Поморский;Kamień Pomorski
+zh;波莫瑞地區卡緬;Kamień Pomorski
+bg;Каменна Гора;Kamienna Góra
+lt;Kamena Gura;Kamienna Góra
+lv;Kamenna Gura;Kamienna Góra
+uk;Каменна Ґура;Kamienna Góra
+ru;Каменна-Гура;Kamienna Góra
+zh;卡缅纳古拉;Kamienna Góra
+he;קאמיינה גורה;Kamienna Góra
+sr;Камјена Гора;Kamienna Góra
+pl;Kamień;Kamień Krajeński
+lv;Kameņa Krajeņska;Kamień Krajeński
+sr;Камјењ Крајењски;Kamień Krajeński
+uk;Камень-Краєнський;Kamień Krajeński
+ru;Камень-Краеньский;Kamień Krajeński
+ru;Каменец;Kamieniec
+lv;Kalvarja Zebžidovska;Kalwaria Zebrzydowska
+ru;Кальвария Зебжидовска;Kalwaria Zebrzydowska
+uk;Кальварія-Зебжидовська;Kalwaria Zebrzydowska
+sr;Калварија Зебжидовска;Kalwaria Zebrzydowska
+hr;Kalvarija Zebrzydowska;Kalwaria Zebrzydowska
+ja;カルヴァリア・ゼブジトフスカ;Kalwaria Zebrzydowska
+bg;Калвария Зебжидовска;Kalwaria Zebrzydowska
+ka;კალვარია-ზაბჟიდოვსკა;Kalwaria Zebrzydowska
+zh;卡爾瓦里亞-澤布日多夫斯卡;Kalwaria Zebrzydowska
+lt;Kalvarija Zebžydovska;Kalwaria Zebrzydowska
+he;קלוואריה זבזידובסקה;Kalwaria Zebrzydowska
+sk;Gmina Kalisz Pomorski;Kalisz Pomorski
+uk;Ґміна Каліш-Поморський;Kalisz Pomorski
+ru;Калиш-Поморский;Kalisz Pomorski
+lv;Kališa;Kalisz
+ru;Калиш;Kalisz
+fa;کالیش;Kalisz
+lt;Kališas;Kalisz
+uk;Каліш;Kalisz
+ja;カリシュ;Kalisz
+ko;칼리시;Kalisz
+bg;Калиш;Kalisz
+be;Каліш;Kalisz
+he;קאליש;Kalisz
+zh;卡利什;Kalisz
+ar;كاليش;Kalisz
+hy;Կալիշ;Kalisz
+sr;Калиш;Kalisz
+tt;Калиш;Kalisz
+ru;Калиска;Kaliska
+bg;Калети;Kalety
+lv;Kaleti;Kalety
+sr;Калети;Kalety
+uk;Калети;Kalety
+ru;Калеты;Kalety
+zh;卡萊蒂;Kalety
+cs;Kačice;Kaczyce
+lv;Jutrosina;Jutrosin
+sr;Јутросин;Jutrosin
+uk;Ютросин;Jutrosin
+ru;Ютросин;Jutrosin
+zh;尤特羅辛;Jutrosin
+be;Юрата;Jurata
+el;Γιουράτα;Jurata
+ja;ユラタ;Jurata
+lv;Jordanova;Jordanów
+sr;Јорданов;Jordanów
+uk;Йорданув;Jordanów
+ru;Йорданув;Jordanów
+zh;約爾達努夫;Jordanów
+bg;Йорданов;Jordanów
+ru;Йодловно;Jodłowno
+sk;Gmina Jeżewo;Jeżewo
+uk;Гміна Єжево;Jeżewo
+ru;Ежево;Jeżewo
+sk;Gmina Jemielno;Jemielno
+uk;Ґміна Ємельно;Jemielno
+ru;Емельно;Jemielno
+ru;Еленки;Jelonki
+bg;Йеленя Гура;Jelenia Góra
+lv;Jeleņa Gura;Jelenia Góra
+ko;옐레니아구라;Jelenia Góra
+ar;يلينيا غورا;Jelenia Góra
+ru;Йеленя Гура;Jelenia Góra
+ru;Егловник;Jegłownik
+lv;Jedlinazdroja;Jedlina-Zdrój
+uk;Єдліна-Здруй;Jedlina-Zdrój
+ru;Едлина-Здруй;Jedlina-Zdrój
+zh;耶德利納-茲德魯伊;Jedlina-Zdrój
+sr;Једлина-Здрој;Jedlina-Zdrój
+ru;Язова;Jazowa
+bg;Явожина Шльонска;Jaworzyna Śląska
+lv;Javožina Slonska;Jaworzyna Śląska
+sr;Јавожиња Слонска;Jaworzyna Śląska
+uk;Явожина-Шльонська;Jaworzyna Śląska
+ru;Явожина-Слёнска;Jaworzyna Śląska
+zh;希隆斯克地區亞沃日納;Jaworzyna Śląska
+ru;Явожно;Jaworzno
+lv;Javožno;Jaworzno
+ja;ヤヴォジュノ;Jaworzno
+be;Явожна;Jaworzno
+bg;Явожно;Jaworzno
+fa;یاووژنو;Jaworzno
+lt;Javožnas;Jaworzno
+uk;Явожно;Jaworzno
+ko;야보주노;Jaworzno
+ar;يافورجنو;Jaworzno
+zh;亚沃日诺;Jaworzno
+crh;Âvojna;Jaworzno
+ru;Явор;Jawor
+bg;Явор;Jawor
+lv;Javora;Jawor
+uk;Явор;Jawor
+zh;亚沃尔;Jawor
+he;יאבור;Jawor
+lt;Javoras;Jawor
+sr;Јавор;Jawor
+ur;جسزکووا گورنہ;Jaszkowa Górna
+lv;Jastšembe Zdroja;Jastrzębie Zdrój
+ru;Ястшембе-Здруй;Jastrzębie Zdrój
+crh;Âstrenbiâ Gora;Jastrzębia Góra
+lt;Jastrovė;Jastrowie
+lv;Jastrove;Jastrowie
+uk;Ястрове;Jastrowie
+ru;Ястрове;Jastrowie
+zh;亞斯特羅維;Jastrowie
+sr;Јастровје;Jastrowie
+ur;جسترووئے;Jastrowie
+ru;Ястарня;Jastarnia
+lv;Jastarņa;Jastarnia
+sr;Јастарња;Jastarnia
+uk;Ястарня;Jastarnia
+ur;جسترنیہ;Jastarnia
+zh;亞斯塔爾尼亞;Jastarnia
+crh;Ястарния;Jastarnia
+crh;Âstarniâ;Jastarnia
+ur;جسینیکا، سیلسیان صوبہ;Jasienica
+crh;Âsienica;Jasienica
+ur;جسین، پومیرانیان صوبہ;Jasień
+uk;Яроцин;Jarocin
+lv;Jarocina;Jarocin
+bg;Ярочин;Jarocin
+be;Яроцін;Jarocin
+zh;亚罗钦;Jarocin
+lt;Jarocinas;Jarocin
+sr;Јароћин;Jarocin
+ur;جروکن;Jarocin
+tt;Яротсин;Jarocin
+hy;Յարոցին;Jarocin
+ce;Яроцин;Jarocin
+el;Γιαρότσιν;Jarocin
+ja;ヤロチン;Jarocin
+fa;ژاروسین;Jarocin
+he;יארוצ'ין;Jarocin
+ru;Ярантовице;Jarantowiczki
+tt;Ярачево;Jaraczewo
+ce;Ярачево;Jaraczewo
+be;Ярачэва;Jaraczewo
+uk;Ярачево;Jaraczewo
+fa;یاراچوو;Jaraczewo
+ur;جراکزوو، جروکن کاؤنٹی;Jaraczewo
+ru;Янтар;Jantar
+lv;Janoveca Velkopolska;Janowiec Wielkopolski
+sr;Јановјец Вјелкополски;Janowiec Wielkopolski
+uk;Яновець-Велькопольський;Janowiec Wielkopolski
+ur;جنوویک ویلکوپولسکی;Janowiec Wielkopolski
+ru;Яновец-Велькопольский;Janowiec Wielkopolski
+zh;大波蘭地區亞諾維茨;Janowiec Wielkopolski
+ur;جنووکے ویلکئی;Janowice Wielkie
+ru;Яниково;Janikowo
+ru;Ямно;Jamno
+ru;Ямельник;Jamielnik
+ru;Яксице;Jaksice
+ur;جگیلنو، لوئر سیلسیان صوبہ;Jagielno
+pl;Jadowniki Rycerskie;Jadowniki
+ru;Яцковице;Jackowice
+ru;Яблоново-Поморске;Jabłonowo Pomorskie
+lv;Jablonovo Pomorske;Jabłonowo Pomorskie
+sr;Јаблоново Поморскје;Jabłonowo Pomorskie
+uk;Яблоново-Поморське;Jabłonowo Pomorskie
+ur;جبوؤںووو پومورسکئی;Jabłonowo Pomorskie
+zh;波莫瑞地區亞布沃諾沃;Jabłonowo Pomorskie
+hu;Jablonka;Jabłonka
+crh;Âblonka (Kiçik Polʹşa);Jabłonka
+ru;Избица-Куявска;Izbica Kujawska
+he;איזביצה קויאווסקה;Izbica Kujawska
+lt;Kujavijos Izbica;Izbica Kujawska
+lv;Izbica Kujavska;Izbica Kujawska
+uk;Ізбиця-Куявська;Izbica Kujawska
+sr;Избица Кујавска;Izbica Kujawska
+el;Ιστέμπνα;Istebna
+ru;Истебна;Istebna
+uk;Інсько;Ińsko
+sr;Ињско;Ińsko
+ru;Иньско;Ińsko
+zh;因斯科;Ińsko
+lv;Inovroclava;Inowrocław
+bg;Иновроцлав;Inowrocław
+ja;イノヴロツワフ;Inowrocław
+uk;Іновроцлав;Inowrocław
+lt;Inovroclavas;Inowrocław
+ru;Иновроцлав;Inowrocław
+zh;伊诺弗罗茨瓦夫;Inowrocław
+be;Інаўроцлаў;Inowrocław
+sr;Иновроцлав;Inowrocław
+th;อีนอวรอตสวัฟ;Inowrocław
+tt;Иновроцлав;Inowrocław
+bg;Имелин;Imielin
+ja;イミェリン;Imielin
+lv;Imelina;Imielin
+sr;Имјелин;Imielin
+uk;Імелін;Imielin
+ru;Имелин;Imielin
+zh;伊梅林;Imielin
+lv;Ilova;Iłowa
+sr;Илова;Iłowa
+uk;Ілова;Iłowa
+ru;Илова;Iłowa
+zh;伊沃瓦;Iłowa
+th;อีวอวา;Iłowa
+ja;イワヴァ;Iława
+no;Ilawa;Iława
+uk;Ілава;Iława
+bg;Илава;Iława
+lv;Ilava;Iława
+lt;Ylava;Iława
+ru;Илава;Iława
+zh;伊瓦瓦;Iława
+sr;Илава;Iława
+ru;Хопы;Hopy
+ru;Хель;Hel
+ja;ヘル;Hel
+lt;Helas;Hel
+uk;Гель;Hel
+zh;赫爾;Hel
+sr;Хел;Hel
+be;Губін;Gubin
+lt;Gubinas;Gubin
+uk;Ґубін;Gubin
+lv;Gubina;Gubin
+bg;Губин;Gubin
+ru;Губин;Gubin
+zh;古賓;Gubin
+sr;Губин;Gubin
+lv;Grifova Slonska;Gryfów Śląski
+uk;Ґрифув-Шльонський;Gryfów Śląski
+ru;Грыфув-Слёнский;Gryfów Śląski
+zh;希隆斯克地區格雷富夫;Gryfów Śląski
+bg;Грифов Шльонски;Gryfów Śląski
+sr;Грифов Слонски;Gryfów Śląski
+sv;Greifenhagen;Gryfino
+ru;Грыфино;Gryfino
+sr;Грифино;Gryfino
+bg;Грифино;Gryfino
+lv;Grifino;Gryfino
+uk;Грифіно;Gryfino
+zh;格雷菲諾;Gryfino
+be;Грыфіна;Gryfino
+lt;Gryfinas;Gryfino
+uk;Грифіце;Gryfice
+sr;Грифице;Gryfice
+bg;Грифице;Gryfice
+lv;Grifice;Gryfice
+ru;Грыфице;Gryfice
+zh;格雷菲采;Gryfice
+be;Грыфіцы;Gryfice
+hy;Գրիֆիցե;Gryfice
+ru;Грута;Gruta
+lv;Grudzjondza;Grudziądz
+ru;Грудзендз;Grudziądz
+sr;Груђондз;Grudziądz
+fa;گروجونتس;Grudziądz
+bg;Груджьондз;Grudziądz
+lt;Grudziondzas;Grudziądz
+ko;그루지옹츠;Grudziądz
+uk;Грудзьондз;Grudziądz
+th;กรูจอนตส์;Grudziądz
+ja;グルジョンツ;Grudziądz
+zh;格魯瓊茲;Grudziądz
+ar;غروجونتس;Grudziądz
+be;Грудзёндз;Grudziądz
+tt;Грудзёндз;Grudziądz
+ru;Гручно;Gruczno
+ru;Гроново;Gronowo
+uk;Гродзиськ-Великопольський;Grodzisk Wielkopolski
+lt;Didžiosios Lenkijos Grodziskas;Grodzisk Wielkopolski
+bg;Гроджиск Велкополски;Grodzisk Wielkopolski
+lv;Grodziska Velkopolska;Grodzisk Wielkopolski
+ru;Гродзиск-Велькопольский;Grodzisk Wielkopolski
+zh;大波蘭地區格羅濟斯克;Grodzisk Wielkopolski
+sr;Грођиск Вјелкополски;Grodzisk Wielkopolski
+ru;Гродзец;Grodziec
+lv;Grodkova;Grodków
+uk;Ґродкув;Grodków
+ru;Гродкув;Grodków
+zh;格羅德庫夫;Grodków
+bg;Гродков;Grodków
+sr;Гродков;Grodków
+ru;Градово;Gradowo
+sk;Gmina Grabów nad Prosną;Grabów nad Prosną
+uk;Ґміна Ґрабув-над-Просною;Grabów nad Prosną
+ru;Грабув-над-Проснон;Grabów nad Prosną
+ru;Грабово;Grabówko
+ru;Грабувец;Grabowiec
+ru;Грабув;Grabów
+sk;Gmina Grabica;Grabica
+uk;Ґміна Ґрабиця;Grabica
+ru;Грабица;Grabica
+ru;Гоздово;Gozdowo
+sr;Гоздњица;Gozdnica
+uk;Гоздниця;Gozdnica
+ru;Гоздница;Gozdnica
+zh;戈茲德尼察;Gozdnica
+lv;Gostiņina;Gostynin
+bg;Гостинин;Gostynin
+uk;Гостинін;Gostynin
+ru;Гостынин;Gostynin
+zh;戈斯蒂寧;Gostynin
+he;גוסטינין;Gostynin
+sr;Гостињин;Gostynin
+ru;Гостын;Gostyń
+uk;Гостинь;Gostyń
+bg;Гостин;Gostyń
+lv;Gostiņa;Gostyń
+ru;Гостынь;Gostyń
+zh;戈斯滕;Gostyń
+lt;Gostynis;Gostyń
+sr;Гостињ;Gostyń
+ru;Гослице;Goślice
+bg;Гошчино;Gościno
+sr;Гошћино;Gościno
+ru;Госьцино;Gościno
+zh;戈希齊諾;Gościno
+ru;Госцицино;Gościcino
+lv;Gožova Velkopolska;Gorzów Wielkopolski
+ru;Гожув-Велькопольски;Gorzów Wielkopolski
+ko;고주프비엘코폴스키;Gorzów Wielkopolski
+sr;Гожов Вјелкополски;Gorzów Wielkopolski
+ja;ゴジュフ・ヴィエルコポルスキ;Gorzów Wielkopolski
+lt;Gožuvas;Gorzów Wielkopolski
+uk;Ґожув-Велькопольський;Gorzów Wielkopolski
+fa;گورژوف ویلکوپولسکی;Gorzów Wielkopolski
+bg;Гожов Велкополски;Gorzów Wielkopolski
+be;Гожаў Велькапольскі;Gorzów Wielkopolski
+vep;Gožuv-Velkopolski;Gorzów Wielkopolski
+th;กอร์ซูฟเวียลคอปอลสกี;Gorzów Wielkopolski
+ru;Гожув-Велькопольский;Gorzów Wielkopolski
+zh;大波蘭地區戈茹夫;Gorzów Wielkopolski
+ar;غورجوف ويلكوبولسكي;Gorzów Wielkopolski
+hak;Thai Pô-làn Thi-khî Kô-yî-fû;Gorzów Wielkopolski
+he;גוזוב ויילקופולסקי;Gorzów Wielkopolski
+hy;Գորժուվ-Վելկապոլսկացի;Gorzów Wielkopolski
+tt;Гожув-Велькопольски;Gorzów Wielkopolski
+ur;گورژوو ویئلوپولسکی;Gorzów Wielkopolski
+kk;Гожув-Великопольский;Gorzów Wielkopolski
+uz;Gorzow Velikopolski;Gorzów Wielkopolski
+ky;Гожув-Великопольский;Gorzów Wielkopolski
+hi;गोरजोव विएलकोपोल्स्की;Gorzów Wielkopolski
+bn;গোরজো ভিয়েলকোপলস্কি;Gorzów Wielkopolski
+am;ጎርዞው ቪይልኮፖልስኪ;Gorzów Wielkopolski
+az;Gorzow Velikopolski;Gorzów Wielkopolski
+om;Gorzow Velikopolski;Gorzów Wielkopolski
+pa;ਗੋਰਜੋ ਵਿਅਲਕੋਪੋਲਸਕੀ;Gorzów Wielkopolski
+ps;گورزو ویلکوپولسکی;Gorzów Wielkopolski
+so;Gorzow Velikopolski;Gorzów Wielkopolski
+tg;Гожув-Великопольский;Gorzów Wielkopolski
+bg;Гожов Шльонски;Gorzów Śląski
+lv;Gožova Slonska;Gorzów Śląski
+sr;Гожов Сласки;Gorzów Śląski
+uk;Гожув-Шльонський;Gorzów Śląski
+ru;Гожув-Слёнский;Gorzów Śląski
+zh;希隆斯克地區戈茹夫;Gorzów Śląski
+lv;Gužno;Górzno
+sr;Гожно;Górzno
+uk;Ґужно;Górzno
+ru;Гужно;Górzno
+zh;古日諾;Górzno
+lv;Gura;Góra
+uk;Ґура;Góra
+bg;Гора;Góra
+ru;Гура;Góra
+zh;古拉;Góra
+sr;Гора;Góra
+th;กูรา;Góra
+sk;Gmina Gołuchów;Gołuchów
+uk;Гміна Голухув;Gołuchów
+ru;Голухув;Gołuchów
+ru;Голубе;Gołubie
+bg;Голюб-Добжин;Golub-Dobrzyń
+lv;Goluba-Dobžiņa;Golub-Dobrzyń
+uk;Ґолюб-Добжинь;Golub-Dobrzyń
+ru;Голюб-Добжинь;Golub-Dobrzyń
+zh;戈盧布-多布任;Golub-Dobrzyń
+he;גולוב-דובזין;Golub-Dobrzyń
+sr;Голуб-Добжињ;Golub-Dobrzyń
+ru;Голина;Golina
+he;גולינה;Golina
+sr;Голина;Golina
+uk;Голіна;Golina
+zh;戈利納;Golina
+ru;Голешин;Goleszyn
+cs;Holešov;Goleszów
+ru;Голенюв;Goleniów
+ja;ゴレニュフ;Goleniów
+bg;Голеньов;Goleniów
+lv;Goleņova;Goleniów
+uk;Голенюв;Goleniów
+sr;Голењов;Goleniów
+zh;戈萊紐夫;Goleniów
+be;Галенеў;Goleniów
+lt;Goleniuvas;Goleniów
+kk;Гюльцов;Golczewo
+lv;Golčevo;Golczewo
+sr;Голчево;Golczewo
+uk;Гольчево;Golczewo
+ru;Гольчево;Golczewo
+zh;戈爾切夫;Golczewo
+lv;Golanča;Gołańcz
+sr;Голањч;Gołańcz
+uk;Голаньч;Gołańcz
+ru;Голаньч;Gołańcz
+zh;戈萬奇;Gołańcz
+ru;Гуйск;Gójsk
+bg;Гоголин;Gogolin
+sr;Гоголин;Gogolin
+th;กอกอลิน;Gogolin
+uk;Гоголін;Gogolin
+ru;Гоголин;Gogolin
+zh;戈戈林;Gogolin
+ru;Годково;Godkowo
+lv;Gņezno;Gniezno
+ru;Гнезно;Gniezno
+uk;Гнезно;Gniezno
+ka;გნეზნო;Gniezno
+sr;Гњезно;Gniezno
+cs;Hnězdno;Gniezno
+lt;Gnieznas;Gniezno
+th;กเนียซนอ;Gniezno
+bg;Гнезно;Gniezno
+ko;그니에즈노;Gniezno
+ja;グニェズノ;Gniezno
+be;Гнезна;Gniezno
+zh;格涅兹诺;Gniezno
+fa;گینیزنا;Gniezno
+he;גנייזנו;Gniezno
+tt;Гнезно;Gniezno
+lv;Gņevkovo;Gniewkowo
+uk;Гневково;Gniewkowo
+ru;Гневково;Gniewkowo
+zh;格涅夫科沃;Gniewkowo
+sr;Гњевково;Gniewkowo
+ru;Гневино;Gniewino
+el;Γκνιεβίνο;Gniewino
+uk;Гневіно;Gniewino
+ru;Гнев;Gniew
+lv;Gņeva;Gniew
+uk;Гнев;Gniew
+zh;格涅夫;Gniew
+sr;Гњев;Gniew
+lv;Glušica;Głuszyca
+uk;Ґлушиця;Głuszyca
+ru;Глушица;Głuszyca
+zh;格武希察;Głuszyca
+sr;Глушица;Głuszyca
+bg;Глухолази;Głuchołazy
+cs;Hlucholazy;Głuchołazy
+lv;Gluholazi;Głuchołazy
+uk;Ґлухолази;Głuchołazy
+ru;Глухолазы;Głuchołazy
+zh;格武霍瓦濟;Głuchołazy
+sr;Глухолази;Głuchołazy
+ru;Глухе;Głuche
+cs;Hlubčice;Głubczyce
+uk;Ґлубчице;Głubczyce
+bg;Глубчице;Głubczyce
+lv;Glubčice;Głubczyce
+ru;Глубчице;Głubczyce
+zh;格武布奇采;Głubczyce
+bg;Гловно;Głowno
+uk;Гловно;Głowno
+ru;Гловно;Głowno
+zh;格沃夫諾;Głowno
+he;גלובנו;Głowno
+sr;Гловно;Głowno
+ro;Comuna Główczyce;Główczyce
+sk;Gmina Główczyce;Główczyce
+uk;Ґміна Ґлувчице;Główczyce
+ru;Глувчице;Główczyce
+lv;Gloguveka;Głogówek
+uk;Глогувек;Głogówek
+ru;Глогувек;Głogówek
+zh;格沃古韋克;Głogówek
+bg;Глоговек;Głogówek
+sr;Глоговек;Głogówek
+bg;Глогов;Głogów
+cs;Hlohov;Głogów
+ja;グウォグフ;Głogów
+lv;Glogova;Głogów
+no;Glogow;Głogów
+zh;格沃古夫;Głogów
+ko;그워구프;Głogów
+uk;Ґлоґув;Głogów
+lt;Gloguvas;Głogów
+ru;Глогув;Głogów
+th;กวอกูฟ;Głogów
+he;גלוגוב;Głogów
+sr;Глогов;Głogów
+tt;Глогув;Głogów
+ja;グリヴィツェ;Gliwice
+lv;Glivice;Gliwice
+ru;Гливице;Gliwice
+ar;غليفيتسه;Gliwice
+crh;Glivitse;Gliwice
+fa;گلیویتسه;Gliwice
+uk;Глівіце;Gliwice
+ko;글리비체;Gliwice
+lt;Glivicės;Gliwice
+bg;Гливице;Gliwice
+zh;格利维采;Gliwice
+be;Глівіцы;Gliwice
+sr;Гљивице;Gliwice
+he;גליביצה;Gliwice
+hy;Գլիվիցե;Gliwice
+ne;ग्लिविस;Gliwice
+tt;Гливице;Gliwice
+ur;گلیویتسہ;Gliwice
+vep;Glivice;Gliwice
+el;Γκλιβίτσε;Gliwice
+ru;Гембице;Gębice
+bg;Гдиня;Gdynia
+ja;グディニャ;Gdynia
+lt;Gdynė;Gdynia
+lv;Gdiņa;Gdynia
+ru;Гдыня;Gdynia
+cs;Gdyně;Gdynia
+el;Γκντίνια;Gdynia
+ar;غدينيا;Gdynia
+ka;გდინია;Gdynia
+sr;Гдиња;Gdynia
+sk;Gdyňa;Gdynia
+uk;Гдиня;Gdynia
+hy;Գդինյա;Gdynia
+fa;گدنیا;Gdynia
+ko;그디니아;Gdynia
+be;Гдыня;Gdynia
+he;גדיניה;Gdynia
+zh;格丁尼亚;Gdynia
+hak;Kak-tên-nì-â;Gdynia
+ky;Гдыня;Gdynia
+tt;Гдыня;Gdynia
+udm;Гдыня;Gdynia
+uz;Gdinya;Gdynia
+az;Qdınya;Gdynia
+be;Гданьск;Gdańsk
+bg;Гданск;Gdańsk
+cy;Gydanysg;Gdańsk
+el;Γκντανσκ;Gdańsk
+he;גדנסק;Gdańsk
+ja;グダニスク;Gdańsk
+ko;그단스크;Gdańsk
+lt;Gdanskas;Gdańsk
+lv;Gdaņska;Gdańsk
+ru;Гданьск;Gdańsk
+sr;Гдањск;Gdańsk
+uk;Гданськ;Gdańsk
+az;Qdansk;Gdańsk
+os;Гданьск;Gdańsk
+fa;گدانسک;Gdańsk
+th;กดัญสก์;Gdańsk
+ar;غدانسك;Gdańsk
+cv;Гданьск;Gdańsk
+mr;गदान्स्क;Gdańsk
+mk;Гдањск;Gdańsk
+ka;გდანსკი;Gdańsk
+hr;Gdanjsk;Gdańsk
+ta;கதான்ஸ்க்;Gdańsk
+ckb;گدانسک;Gdańsk
+zh;格但斯克;Gdańsk
+ce;Гданьск;Gdańsk
+hy;Գդանսկ;Gdańsk
+mhr;Гданьск;Gdańsk
+sv;Danzig;Gdańsk
+kk;Гданськ;Gdańsk
+ky;Гданськ;Gdańsk
+hi;गदान्स्क;Gdańsk
+bn;গদানস্ক;Gdańsk
+ur;گڈانسک;Gdańsk
+am;გდანስክ;Gdańsk
+pa;ਗਡਾਨਸਕ;Gdańsk
+ps;گډانسک;Gdańsk
+tg;Гданськ;Gdańsk
+tt;Гданськ;Gdańsk
+ru;Госки;Gąski
+ru;Гардея;Gardeja
+ru;Гомбин;Gąbin
+lv;Gombina;Gąbin
+uk;Гомбін;Gąbin
+zh;貢賓;Gąbin
+he;גומבין;Gąbin
+sr;Гомбин;Gąbin
+ru;Фрыдек;Frydek
+ru;Фромборк;Frombork
+uk;Фромборк;Frombork
+lv;Fromborka;Frombork
+zh;弗龙堡;Frombork
+ce;Фромборк;Frombork
+sr;Фромборк;Frombork
+ru;Фредновы;Frednowy
+ru;Фронца;Frąca
+ru;Фордон;Fordon
+ru;Эльблонг;Elbląg
+lv;Elblonga;Elbląg
+be;Эльблёнг;Elbląg
+bg;Елбльонг;Elbląg
+fa;البلنگ;Elbląg
+he;אלבלונג;Elbląg
+ja;エルブロンク;Elbląg
+ko;엘블롱크;Elbląg
+lt;Elbingas;Elbląg
+sr;Елблаг;Elbląg
+th;เอลบลองก์;Elbląg
+uk;Ельблонг;Elbląg
+zh;埃爾布隆格;Elbląg
+ar;البلنغ;Elbląg
+tt;Эльблонг;Elbląg
+el;Έλμπλονγκ;Elbląg
+lv;Dzivnova;Dziwnów
+sr;Ђивнов;Dziwnów
+uk;Дзівнув;Dziwnów
+ru;Дзивнув;Dziwnów
+zh;濟夫努夫;Dziwnów
+lv;Dzeržoņova;Dzierżoniów
+bg;Джержоньов;Dzierżoniów
+uk;Дзержонюв;Dzierżoniów
+ru;Дзержонюв;Dzierżoniów
+zh;傑爾若紐夫;Dzierżoniów
+he;דזרזוניוב;Dzierżoniów
+lt;Dzeržoniuvas;Dzierżoniów
+sr;Ђержоњов;Dzierżoniów
+lv;Dzežgoņa;Dzierzgoń
+sr;Ђежгоњ;Dzierzgoń
+uk;Дзежґонь;Dzierzgoń
+ru;Дзежгонь;Dzierzgoń
+zh;傑日貢;Dzierzgoń
+cs;Děhylov;Dzięgielów
+ru;Дзялынь;Działyń
+he;דזיאלושין;Działoszyn
+lv;Dzjalošina;Działoszyn
+sr;Ђалошин;Działoszyn
+uk;Дзялошин;Działoszyn
+ru;Дзялошин;Działoszyn
+zh;賈沃申;Działoszyn
+pl;Duszniki;Duszniki-Zdrój
+ru;Душники-Здруй;Duszniki-Zdrój
+uk;Душники-Здруй;Duszniki-Zdrój
+lv;Dušņikizdroja;Duszniki-Zdrój
+zh;杜什尼基-茲德魯伊;Duszniki-Zdrój
+sr;Душњики-Здрој;Duszniki-Zdrój
+sk;Gmina Duszniki;Duszniki
+uk;Ґміна Душники;Duszniki
+ru;Душники;Duszniki
+ru;Дробин;Drobin
+he;דרובין;Drobin
+lv;Drobina;Drobin
+sr;Дробин;Drobin
+uk;Дробін;Drobin
+zh;得羅賓;Drobin
+hy;Դրիզենկո;Drezdenko
+lt;Drezdenkas;Drezdenko
+sr;Дрезденко;Drezdenko
+uk;Дрезденко;Drezdenko
+ru;Дрезденко;Drezdenko
+zh;德雷兹登科;Drezdenko
+ru;Древница;Drewniczka
+lv;Dravsko Pomorske;Drawsko Pomorskie
+bg;Дравско Поморско;Drawsko Pomorskie
+uk;Дравсько-Поморське;Drawsko Pomorskie
+sr;Дравско Поморскје;Drawsko Pomorskie
+ru;Дравско-Поморске;Drawsko Pomorskie
+zh;波莫瑞地區德拉夫斯科;Drawsko Pomorskie
+be;Драўска Паморске;Drawsko Pomorskie
+tt;Дравско-Поморске;Drawsko Pomorskie
+zh-Hans;波莫瑞地区德拉夫斯科;Drawsko Pomorskie
+ce;Дравско-Поморске;Drawsko Pomorskie
+el;Ντράφσκο Πομόρσκιε;Drawsko Pomorskie
+mdf;Дравско Поморске;Drawsko Pomorskie
+ja;ドランベルク;Drawsko Pomorskie
+ru;Дравско;Drawsko
+lv;Dravno;Drawno
+sr;Дравно;Drawno
+uk;Дравно;Drawno
+ru;Дравно;Drawno
+zh;德拉夫諾;Drawno
+pl;Dragacz;Dragasz
+ru;Доминово;Dominowo
+sk;Gmina Domaniów;Domaniów
+uk;Ґміна Доманюв;Domaniów
+ru;Доманюв;Domaniów
+uk;Дольськ;Dolsk
+lt;Dolskas;Dolsk
+lv;Dolska;Dolsk
+be;Дольск;Dolsk
+ru;Дольск;Dolsk
+zh;多爾斯克;Dolsk
+sr;Долск;Dolsk
+tt;Дольск;Dolsk
+zh-Hans;多尔斯克;Dolsk
+ce;Дольск;Dolsk
+fa;دالسک;Dolsk
+he;דובזין על נהר ויסלה;Dobrzyń nad Wisłą
+lv;Dobžiņa pie Vislas;Dobrzyń nad Wisłą
+sr;Добжин над Вислом;Dobrzyń nad Wisłą
+uk;Добжинь-над-Віслою;Dobrzyń nad Wisłą
+ru;Добжинь-над-Вислон;Dobrzyń nad Wisłą
+zh;維斯瓦河畔多布任;Dobrzyń nad Wisłą
+sr;Добжица;Dobrzyca
+ru;Добжица;Dobrzyca
+lv;Dobžani;Dobrzany
+sr;Добжани;Dobrzany
+uk;Добжани;Dobrzany
+ru;Добжаны;Dobrzany
+zh;多布扎內;Dobrzany
+ru;Добросолово;Dobrosołowo
+lv;Gogolina;Dobrodzień
+uk;Добродзень;Dobrodzień
+ru;Добродзень;Dobrodzień
+zh;多布羅津;Dobrodzień
+bg;Доброджен;Dobrodzień
+sr;Доброђењ;Dobrodzień
+ro;Comuna Dobrcz;Dobrcz
+sk;Gmina Dobrcz;Dobrcz
+uk;Ґміна Добрч;Dobrcz
+ru;Добрч;Dobrcz
+be;Добра;Dobra
+jv;Dobra Nowogardzka;Dobra
+sr;Добра;Dobra
+uk;Добра;Dobra
+zh;多布拉;Dobra
+he;דוברה;Dobra
+lv;Dobegņeva;Dobiegniew
+uk;Добеґнев;Dobiegniew
+ru;Добегнев;Dobiegniew
+zh;多别格涅夫;Dobiegniew
+sr;Добјегњев;Dobiegniew
+ru;Дебжно;Debrzno
+lv;Debžno;Debrzno
+uk;Дебжно;Debrzno
+zh;代布日諾;Debrzno
+sr;Дебжно;Debrzno
+uk;Дембно;Dębno
+sr;Дембно;Dębno
+lv;Dembno;Dębno
+ru;Дембно;Dębno
+zh;登布諾;Dębno
+be;Дэмбна;Dębno
+uk;Дарлово;Darłowo
+sr;Дарлово;Darłowo
+lv;Darlovo;Darłowo
+ru;Дарлово;Darłowo
+zh;達爾沃沃;Darłowo
+be;Дарлова;Darłowo
+ru;Дарлувко;Darłówko
+el;Νταρουούφκο;Darłówko
+kk;Дамно;Damno
+ru;Домбровице;Dąbrowice
+lv;Dombrova Gurņiča;Dąbrowa Górnicza
+fa;دومبرووه گورنیچا;Dąbrowa Górnicza
+ko;동브로바구르니차;Dąbrowa Górnicza
+lt;Dombrova Gurniča;Dąbrowa Górnicza
+he;דומברובה;Dąbrowa Górnicza
+bg;Домброва Гурнича;Dąbrowa Górnicza
+uk;Домброва-Гурнича;Dąbrowa Górnicza
+ja;ドンブロヴァ・グルニチャ;Dąbrowa Górnicza
+ru;Домброва-Гурнича;Dąbrowa Górnicza
+zh;栋布罗瓦古尔尼恰;Dąbrowa Górnicza
+sk;Gmina Dąbie;Dąbie
+uk;Ґміна Домбе;Dąbie
+ru;Домбе;Dąbie
+bg;Члухов;Człuchów
+lv;Čluhova;Człuchów
+uk;Члухув;Człuchów
+ru;Члухув;Człuchów
+zh;奇武胡夫;Człuchów
+sr;Члухов;Człuchów
+lv;Člopa;Człopa
+sr;Члопа;Człopa
+uk;Члопа;Człopa
+ru;Члопа;Człopa
+zh;奇沃帕;Człopa
+bg;Ченстохова;Częstochowa
+he;צנסטוחובה;Częstochowa
+lt;Čenstakava;Częstochowa
+lv;Čenstohova;Częstochowa
+ru;Ченстохова;Częstochowa
+zh;琴斯托霍瓦;Częstochowa
+cs;Čenstochová;Częstochowa
+be;Чанстахова;Częstochowa
+crh;Çenstohova;Częstochowa
+fa;چستوهووا;Częstochowa
+ja;チェンストホヴァ;Częstochowa
+ko;쳉스토호바;Częstochowa
+sk;Čenstochová;Częstochowa
+sl;Čenstohova;Częstochowa
+sr;Ченстохова;Częstochowa
+th;เชนสโตโควา;Częstochowa
+uk;Ченстохова;Częstochowa
+ar;تشيستوخوفا;Częstochowa
+hak;Khìm-sṳ̂-thok-khok-ngá;Częstochowa
+hy;Չեստոխովա;Częstochowa
+tt;Ченстохова;Częstochowa
+udm;Ӵенстохова;Częstochowa
+az;Çenstoxova;Częstochowa
+el;Τσενστοχόβα;Częstochowa
+pl;Czerwionka;Czerwionka-Leszczyny
+pl;Leszczyny;Czerwionka-Leszczyny
+bg;Червьонка-Лешчини;Czerwionka-Leszczyny
+lt;Červionka-Leščynos;Czerwionka-Leszczyny
+lv;Červjonka-Leščini;Czerwionka-Leszczyny
+sr;Червјонка-Лешчини;Czerwionka-Leszczyny
+uk;Червйонка-Лещини;Czerwionka-Leszczyny
+ru;Червёнка-Лещины;Czerwionka-Leszczyny
+lv;Červeņska;Czerwieńsk
+sr;Червјењск;Czerwieńsk
+uk;Червенськ;Czerwieńsk
+ru;Червеньск;Czerwieńsk
+zh;切爾維延斯克;Czerwieńsk
+uk;Черськ;Czersk
+lv;Čerska;Czersk
+zh;切爾斯克;Czersk
+sr;Черск;Czersk
+ru;Черниково;Czernikowo
+lv;Čerņejevo;Czerniejewo
+sr;Черњејево;Czerniejewo
+uk;Чернеєво;Czerniejewo
+ru;Чернеево;Czerniejewo
+zh;切爾涅耶沃;Czerniejewo
+sk;Gmina Czermin;Czermin
+uk;Ґміна Чермін;Czermin
+ru;Чермин;Czermin
+lv;Čempiņa;Czempiń
+uk;Чемпінь;Czempiń
+ru;Чемпинь;Czempiń
+zh;琴平;Czempiń
+sr;Чемпињ;Czempiń
+uk;Чеховіце-Дзедзіце;Czechowice-Dziedzice
+lv;Čehovice-Dzedzice;Czechowice-Dziedzice
+bg;Чеховице-Джеджице;Czechowice-Dziedzice
+ru;Чеховице-Дзедзице;Czechowice-Dziedzice
+zh;切霍維采-傑濟采;Czechowice-Dziedzice
+sr;Чеховице-Ђеђице;Czechowice-Dziedzice
+lt;Čechovicės-Dzedzicės;Czechowice-Dziedzice
+sk;Čierny Dunajec;Czarny Dunajec
+bg;Чарновонси;Czarnowąsy
+bg;Чарнков;Czarnków
+lv;Čarnkova;Czarnków
+uk;Чарнкув;Czarnków
+be;Чарнкаў;Czarnków
+ru;Чарнкув;Czarnków
+zh;恰恩庫夫;Czarnków
+sr;Чарнков;Czarnków
+ru;Чарне-Дольне;Czarne Dolne
+lv;Čarne;Czarne
+sr;Чарне;Czarne
+uk;Чарне;Czarne
+ru;Чарне;Czarne
+zh;恰尔内;Czarne
+ru;Чарна-Вода;Czarna Woda
+ru;Чарлин;Czarlin
+sr;Чаплинек;Czaplinek
+lv;Čaplineka;Czaplinek
+uk;Чаплінек;Czaplinek
+ru;Чаплинек;Czaplinek
+zh;恰普利內克;Czaplinek
+ru;Цыпрянка;Cyprianka
+lv;Cibinka;Cybinka
+sr;Цибинка;Cybinka
+uk;Цибінка;Cybinka
+ru;Цыбинка;Cybinka
+zh;齊賓卡;Cybinka
+cs;Tisovnice;Cisownica
+sk;Gmina Cisek;Cisek
+uk;Ґміна Цисек;Cisek
+ru;Цисек;Cisek
+sk;Tešín;Cieszyn
+cs;Těšín;Cieszyn
+he;צ'שין;Cieszyn
+lv;Cešina;Cieszyn
+ru;Цешин;Cieszyn
+be;Цешын;Cieszyn
+bg;Чешин;Cieszyn
+he;צשין;Cieszyn
+ja;チェシン;Cieszyn
+ko;치에신;Cieszyn
+lt;Cešynas;Cieszyn
+sr;Ћешин;Cieszyn
+uk;Цешин;Cieszyn
+zh;切申;Cieszyn
+ru;Церпице;Cierpice
+ru;Теплице;Cieplice Śląskie Zdrój
+ru;Цехоцинек;Ciechocinek
+he;צחוצינק;Ciechocinek
+lv;Cehocineka;Ciechocinek
+uk;Цехоцинек;Ciechocinek
+zh;切霍齊內克;Ciechocinek
+sr;Ћехоћинек;Ciechocinek
+ru;Цехоцин;Ciechocin
+hu;Chizsne;Chyżne
+he;כשאנוב;Chrzanów
+ar;كرزنو;Chrzanów
+az;Xşanov;Chrzanów
+bg;Хшанов;Chrzanów
+el;Χρζάνοβ;Chrzanów
+fa;زانوف;Chrzanów
+ja;フシャヌフ;Chrzanów
+ko;흐샤누프;Chrzanów
+lt;Chšanuvas;Chrzanów
+lv;Hšanova;Chrzanów
+mk;Хшанув;Chrzanów
+sr;Хшанов;Chrzanów
+uk;Хшанув;Chrzanów
+ru;Хшанув;Chrzanów
+zh;赫扎努夫;Chrzanów
+ru;Хрусьцель;Chruściel
+uk;Хощно;Choszczno
+sr;Хошчно;Choszczno
+lv;Hoščno;Choszczno
+bg;Хошчно;Choszczno
+ru;Хощно;Choszczno
+zh;霍什奇诺;Choszczno
+be;Хошчна;Choszczno
+fa;خوژوف;Chorzów
+lv;Hožova;Chorzów
+ru;Хожув;Chorzów
+ko;호주프;Chorzów
+be;Хожаў;Chorzów
+ar;خوجوف;Chorzów
+bg;Хожов;Chorzów
+ja;ホジュフ;Chorzów
+uk;Хожув;Chorzów
+lt;Chožuvas;Chorzów
+zh;霍茹夫;Chorzów
+sr;Хожов;Chorzów
+hy;Խոժուվ;Chorzów
+tt;Хожув;Chorzów
+sr;Хојнов;Chojnów
+uk;Хойнув;Chojnów
+lv;Hojnova;Chojnów
+fa;خوینوف;Chojnów
+ru;Хойнув;Chojnów
+zh;霍伊努夫;Chojnów
+ja;ホイニツェ;Chojnice
+sr;Хојњице;Chojnice
+ru;Хойнице;Chojnice
+lt;Choinicės;Chojnice
+lv;Hojņice;Chojnice
+uk;Хойніце;Chojnice
+bg;Хойнице;Chojnice
+zh;霍伊尼采;Chojnice
+sr;Хојна;Chojna
+lv;Hojna;Chojna
+uk;Хойна;Chojna
+ru;Хойна;Chojna
+zh;霍伊納;Chojna
+ja;ホジェシュ;Chodzież
+sr;Хођеж;Chodzież
+bg;Ходжеж;Chodzież
+lv;Hodzeža;Chodzież
+uk;Ходзеж;Chodzież
+be;Ходзеж;Chodzież
+ru;Ходзеж;Chodzież
+zh;霍傑日;Chodzież
+sk;Gmina Chodów;Chodów
+uk;Ґміна Ходув;Chodów
+ru;Ходув;Chodów
+ru;Ходеч;Chodecz
+he;חודץ;Chodecz
+lv;Hodeča;Chodecz
+sr;Ходеч;Chodecz
+uk;Ходеч;Chodecz
+zh;霍代奇;Chodecz
+uk;Хоцивель;Chociwel
+sr;Хоћивел;Chociwel
+ru;Хоцивель;Chociwel
+lv;Hocivela;Chociwel
+zh;霍齊韋爾;Chociwel
+lv;Hocjanova;Chocianów
+sr;Хоћанов;Chocianów
+uk;Хоцянув;Chocianów
+ru;Хоцянув;Chocianów
+zh;霍恰努夫;Chocianów
+sk;Gmina Chmielno;Chmielno
+uk;Ґміна Хмельно;Chmielno
+ru;Хмельно;Chmielno
+lv;Helmža;Chełmża
+sr;Хелмжа;Chełmża
+bg;Хелмжа;Chełmża
+uk;Хелмжа;Chełmża
+ru;Хелмжа;Chełmża
+zh;海烏姆扎;Chełmża
+he;חלמנו;Chełmno
+sr;Хелмно;Chełmno
+lv;Helmno;Chełmno
+lt;Kulmas;Chełmno
+uk;Хелмно;Chełmno
+bg;Хелмно;Chełmno
+ja;ヘウムノ;Chełmno
+ru;Хелмно;Chełmno
+zh;海烏姆諾;Chełmno
+be;Хэлмна;Chełmno
+bg;Хелмек;Chełmek
+lv;Helmeka;Chełmek
+sr;Хелмек;Chełmek
+uk;Хелмек;Chełmek
+ru;Хелмек;Chełmek
+zh;海烏梅克;Chełmek
+ru;Хелмце;Chełmce
+pl;Chąśno Drugie (do 1999);Chąśno
+ru;Халин;Chalin
+ru;Цекцын;Cekcyn
+lv;Cediņa;Cedynia
+sr;Цедиња;Cedynia
+uk;Цединя;Cedynia
+ru;Цедыня;Cedynia
+zh;采迪尼亞;Cedynia
+sr;Битов;Bytów
+lv;Bitova;Bytów
+bg;Битов;Bytów
+uk;Битів;Bytów
+ru;Бытув;Bytów
+zh;貝圖夫;Bytów
+lv;Bitoma Odžaņska;Bytom Odrzański
+sr;Битом Оджањски;Bytom Odrzański
+uk;Битом-Оджанський;Bytom Odrzański
+ru;Бытом-Оджаньский;Bytom Odrzański
+zh;奧得河畔比托姆;Bytom Odrzański
+lv;Bitoma;Bytom
+ru;Бытом;Bytom
+sr;Битом;Bytom
+zh;比托姆;Bytom
+crh;Bıtom;Bytom
+ja;ビトム;Bytom
+lt;Bytomas;Bytom
+uk;Битом;Bytom
+fa;بیتوم;Bytom
+bg;Битом;Bytom
+ko;비톰;Bytom
+he;ביטום;Bytom
+be;Бытaм;Bytom
+lv;Bistšica Klodzka;Bystrzyca Kłodzka
+uk;Бистшиця-Клодзька;Bystrzyca Kłodzka
+sr;Бистрица Клодска;Bystrzyca Kłodzka
+vi;Bystrzyca Klodzka;Bystrzyca Kłodzka
+ru;Быстшица-Клодзка;Bystrzyca Kłodzka
+zh;貝斯奇察克沃茲卡;Bystrzyca Kłodzka
+bg;Бистшица Клодзка;Bystrzyca Kłodzka
+ru;Бысево;Bysewo
+bg;Бидгошч;Bydgoszcz
+cs;Bydhošť;Bydgoszcz
+he;בידגושץ;Bydgoszcz
+ja;ブィドゴシュチュ;Bydgoszcz
+ko;비드고슈치;Bydgoszcz
+lv;Bidgošča;Bydgoszcz
+ru;Быдгощ;Bydgoszcz
+sk;Bydhošť;Bydgoszcz
+uk;Бидгощ;Bydgoszcz
+lt;Bydgoščius;Bydgoszcz
+fa;بیدگوشچ;Bydgoszcz
+el;Μπιντγκός;Bydgoszcz
+mn;Быдгощ;Bydgoszcz
+sr;Бидгошч;Bydgoszcz
+ka;ბიდგოშჩი;Bydgoszcz
+crh;Bıdgoşç;Bydgoszcz
+zh;比得哥什;Bydgoszcz
+be;Быдгашч;Bydgoszcz
+az;Bıdqoş;Bydgoszcz
+ar;بيدغوشتش;Bydgoszcz
+vep;Bidgošč;Bydgoszcz
+ce;Быдгощ;Bydgoszcz
+kk;Быдгощ;Bydgoszcz
+uz;Bydgoshch;Bydgoszcz
+ky;Быдгощ;Bydgoszcz
+hi;बिडगोश्चज़;Bydgoszcz
+bn;বিডগোশচ;Bydgoszcz
+ur;بِدگاشچ;Bydgoszcz
+am;ብድጎሽች;Bydgoszcz
+om;Bydgoshch;Bydgoszcz
+pa;ਬਿਡਗੋਸ਼ਚ;Bydgoszcz
+ps;بِدگاشچ;Bydgoszcz
+so;Bydgoshch;Bydgoszcz
+tg;Быдгощ;Bydgoszcz
+tt;Быдгощ;Bydgoszcz
+lv;Bičina;Byczyna
+sr;Бичина;Byczyna
+uk;Бичина;Byczyna
+ru;Бычина;Byczyna
+zh;貝奇納;Byczyna
+bg;Бичина;Byczyna
+ur;بائسزینا;Byczyna
+he;בוזנין;Burzenin
+lv;Bukovno;Bukowno
+sr;Буковно;Bukowno
+uk;Буковно;Bukowno
+ru;Буковно;Bukowno
+zh;布科夫諾;Bukowno
+bg;Буковно;Bukowno
+ru;Буковец;Bukowiec
+be;Бук;Buk
+lv;Buka;Buk
+sr;Бук;Buk
+uk;Бук;Buk
+ru;Бук;Buk
+zh;布克;Buk
+ru;Бжоза;Brzoza
+ur;برزےزنو;Brzeźnio
+pl;Brzeźnica Krajeńska;Brzeźnica
+ko;브셰지니;Brzeziny
+bg;Бжежини;Brzeziny
+uk;Бжезіни;Brzeziny
+sr;Бжезини;Brzeziny
+lv;Bžezini;Brzeziny
+zh;布札希尼;Brzeziny
+he;בזזיני;Brzeziny
+ur;برززننے;Brzeziny
+be;Бжэшчы;Brzeszcze
+lv;Bžešče;Brzeszcze
+sr;Бжешче;Brzeszcze
+uk;Бжеще;Brzeszcze
+ru;Бжеще;Brzeszcze
+zh;布熱什切;Brzeszcze
+bg;Бжешче;Brzeszcze
+ur;برزسزکزے;Brzeszcze
+sr;Бжешћ Кујавски;Brześć Kujawski
+lt;Kujavijos Brestas;Brześć Kujawski
+lv;Bžesca Kujavska;Brześć Kujawski
+uk;Бжесць-Куявський;Brześć Kujawski
+ru;Бжесць-Куявский;Brześć Kujawski
+zh;庫亞維地區布熱希奇;Brześć Kujawski
+he;בזשץ קויאבסקי;Brześć Kujawski
+ur;برزےسچ کجوسکی;Brześć Kujawski
+ru;Бресть Куявский;Brześć Kujawski
+ja;ブジェク・ドルニ;Brzeg Dolny
+sr;Бжег Долни;Brzeg Dolny
+lv;Bžegdolni;Brzeg Dolny
+uk;Бжеґ-Дольни;Brzeg Dolny
+ru;Бжег-Дольны;Brzeg Dolny
+zh;下布熱格;Brzeg Dolny
+bg;Бжег Долни;Brzeg Dolny
+ur;برزگ ڈولنے;Brzeg Dolny
+tt;Бжег-Дольны;Brzeg Dolny
+be;Бжэг Дольны;Brzeg Dolny
+lt;Dyernfurtė;Brzeg Dolny
+zh-Hans;下布热格;Brzeg Dolny
+ce;Бжег-Дольны;Brzeg Dolny
+el;Μπζεγκ Ντόλνι;Brzeg Dolny
+mdf;Бжэг Дольны;Brzeg Dolny
+fa;بژگ دولنه;Brzeg Dolny
+he;דיהרנפורט;Brzeg Dolny
+ja;ブジェク;Brzeg
+sr;Бжег;Brzeg
+be;Бжэг;Brzeg
+bg;Бжег;Brzeg
+lv;Bžega;Brzeg
+uk;Бжеґ;Brzeg
+ru;Бжег;Brzeg
+zh;布熱格;Brzeg
+lt;Bžegas;Brzeg
+th;บแชก;Brzeg
+ur;برزگ;Brzeg
+ur;برینکا، وپولے کاؤنٹی;Brynica
+sr;Бруси;Brusy
+lv;Brusi;Brusy
+uk;Бруси;Brusy
+ru;Брусы;Brusy
+zh;布魯瑟;Brusy
+tt;Брусы;Brusy
+be;Брусы;Brusy
+zh-Hans;布鲁瑟;Brusy
+mk;Бруси;Brusy
+ce;Брусы;Brusy
+fa;بروسه;Brusy
+ru;Брудзев;Brudzew
+ru;Брудзенды;Brudzędy Małe
+ru;Бродница Гурна;Brodnica Dolna
+sr;Бродњица;Brodnica
+bg;Бродница;Brodnica
+uk;Бродниця;Brodnica
+ru;Бродница;Brodnica
+zh;布罗德尼察;Brodnica
+sk;Gmina Brodnica;Brodnica
+uk;Ґміна Бродниця;Brodnica
+ru;Бренно;Brenno
+ru;Бренна;Brenna
+lt;Brduvas;Brdów
+ru;Брдув;Brdów
+sr;Брањево;Braniewo
+bg;Бранево;Braniewo
+be;Бранева;Braniewo
+lv;Braņevo;Braniewo
+lt;Branevas;Braniewo
+uk;Бранево;Braniewo
+ru;Бранево;Braniewo
+zh;布拉涅沃;Braniewo
+udm;Бранево;Braniewo
+ru;Бралин;Bralin
+ru;Боровно;Borowno
+sk;Gmina Borów;Borów
+uk;Ґміна Борув;Borów
+ru;Борув;Borów
+ru;Борек-Велькопольски;Borek Wielkopolski
+ru;Болькув;Bolków
+sk;Gmina Bolków;Bolków
+uk;Ґміна Болькув;Bolków
+ja;ブンツラウ;Bolesławiec
+sr;Болеславјец;Bolesławiec
+ru;Болеславец;Bolesławiec
+lv;Bojanovo;Bojanowo
+sr;Бојаново;Bojanowo
+uk;Бояново;Bojanowo
+ru;Бояново;Bojanowo
+zh;博亞諾沃;Bojanowo
+ja;ボグシュフ＝ゴルツェ;Boguszów-Gorce
+sr;Богушов-Горце;Boguszów-Gorce
+bg;Богушов-Горце;Boguszów-Gorce
+lv;Bogušova-Gorce;Boguszów-Gorce
+uk;Боґушув-Ґорце;Boguszów-Gorce
+ru;Богушув-Горце;Boguszów-Gorce
+zh;博古舒夫-戈爾采;Boguszów-Gorce
+sr;Богатиња;Bogatynia
+uk;Богатиня;Bogatynia
+bg;Богатиня;Bogatynia
+lv;Bogatiņa;Bogatynia
+ru;Богатыня;Bogatynia
+zh;博加蒂尼亞;Bogatynia
+ro;Comuna Bobrowo;Bobrowo
+sk;Gmina Bobrowo;Bobrowo
+uk;Ґміна Боброво;Bobrowo
+ru;Боброво;Bobrowo
+ru;Бобово;Bobowo
+uk;Боболіце;Bobolice
+ru;Боболице;Bobolice
+zh;博博利采;Bobolice
+sr;Боболице;Bobolice
+ru;Блудово;Błudowo
+ru;Бленна;Błenna
+ru;Блендово;Błędowo
+sk;Gmina Błaszki;Błaszki
+uk;Ґміна Блашкі;Błaszki
+ru;Блашки;Błaszki
+ru;Блондзим;Błądzin
+lv;Bežuņa;Bieżuń
+sr;Бјежуњ;Bieżuń
+uk;Бежунь;Bieżuń
+ru;Бежунь;Bieżuń
+zh;別容;Bieżuń
+he;בייזון;Bieżuń
+lv;Berutova;Bierutów
+sr;Бјерутов;Bierutów
+uk;Берутув;Bierutów
+ru;Берутув;Bierutów
+zh;別魯圖夫;Bierutów
+bg;Берутов;Bierutów
+bg;Берун;Bieruń
+cs;Beruň;Bieruń
+ja;ビェルニ;Bieruń
+lv;Beruņa;Bieruń
+sr;Бјеруњ;Bieruń
+uk;Берунь;Bieruń
+ru;Берунь;Bieruń
+zh;別倫;Bieruń
+cs;Bílsko-Bělá;Bielsko-Biała
+eu;Bielsko-Biala;Bielsko-Biała
+ja;ビェルスコ＝ビャワ;Bielsko-Biała
+lv;Belsko-Bjala;Bielsko-Biała
+ru;Бельско-Бяла;Bielsko-Biała
+sr;Бјелско-Бјала;Bielsko-Biała
+ko;비엘스코비아와;Bielsko-Biała
+ms;Bielsko-Biala;Bielsko-Biała
+lt;Belsko-Biala;Bielsko-Biała
+uk;Бельсько-Бяла;Bielsko-Biała
+fa;بیلسکو بیاوا;Bielsko-Biała
+bg;Белско-Бяла;Bielsko-Biała
+he;ביילסקו-ביאלה;Bielsko-Biała
+zh;别尔斯科-比亚瓦;Bielsko-Biała
+sk;Gmina Bielice;Bielice
+uk;Ґміна Беліце;Bielice
+ru;Белице;Bielice
+lv;Belava;Bielawa
+uk;Белява;Bielawa
+bg;Белява;Bielawa
+ru;Белява;Bielawa
+zh;別拉瓦;Bielawa
+he;ביילבה;Bielawa
+lt;Beliava;Bielawa
+sr;Бјелава;Bielawa
+sr;Бјали Бор;Biały Bór
+lv;Bjali Bora;Biały Bór
+uk;Білий Бір;Biały Bór
+ru;Бялы-Бур;Biały Bór
+zh;比亞維布爾;Biały Bór
+sr;Бјалогард;Białogard
+lv;Bjalogarda;Białogard
+bg;Бялогард;Białogard
+uk;Білоґард;Białogard
+ru;Бялогард;Białogard
+zh;比亞沃加德;Białogard
+be;Бялогард;Białogard
+lt;Bialogardas;Białogard
+ja;ビャワ・プルドニツカ;Biała
+sr;Бјала;Biała
+uk;Біла;Biała
+jv;Biała Prudnicka;Biała
+ms;Biała Prudnicka;Biała
+lv;Bjala;Biała
+ru;Бяла;Biała
+zh;比亞瓦普魯德尼茨卡;Biała
+ru;Бествинка;Bestwinka
+ru;Бествина;Bestwina
+lv;Belhatova;Bełchatów
+ru;Белхатув;Bełchatów
+sr;Белхатов;Bełchatów
+bg;Белхатов;Bełchatów
+lt;Belchatuvas;Bełchatów
+he;בלחטוב;Bełchatów
+uk;Белхатув;Bełchatów
+ko;베우하투프;Bełchatów
+ja;ベウハトゥフ;Bełchatów
+zh;貝烏哈圖夫;Bełchatów
+tt;Белхатув;Bełchatów
+lv;Beņdzina;Będzin
+ru;Бендзин;Będzin
+bg;Бенджин;Będzin
+he;בנדין;Będzin
+lt;Bendzinas;Będzin
+uk;Бендзин;Będzin
+sr;Бенђин;Będzin
+zh;本津;Będzin
+ko;벵진;Będzin
+th;แบนจิน;Będzin
+tt;Бендзин;Będzin
+uz;Bendzin;Będzin
+ru;Бедльно;Bedlno
+cs;Bažanovice;Bażanowice
+lv;Barvice;Barwice
+sr;Барвице;Barwice
+uk;Барвіце;Barwice
+ru;Барвице;Barwice
+zh;巴爾維采;Barwice
+ru;Барложно;Barłożno
+bg;Барлинек;Barlinek
+uk;Барлінек;Barlinek
+sr;Барлинек;Barlinek
+lv;Barlineka;Barlinek
+ru;Барлинек;Barlinek
+zh;巴爾利內克;Barlinek
+be;Барлінак;Barlinek
+uk;Бардо;Bardo
+sr;Бардо;Bardo
+jv;Bardo Śląskie;Bardo
+ru;Бардо;Bardo
+zh;巴爾多;Bardo
+bg;Бардо;Bardo
+sr;Барћин;Barcin
+tr;Barçın;Barcin
+lv;Barcina;Barcin
+uk;Барцин;Barcin
+ru;Барцин;Barcin
+zh;巴爾欽;Barcin
+ru;Гмина Бане;Banie
+sk;Gmina Banie;Banie
+uk;Ґміна Бане;Banie
+ru;Бане;Banie
+sk;Gmina Bądkowo;Bądkowo
+uk;Ґміна Бондково;Bądkowo
+ru;Бондково;Bądkowo
+bg;Баборов;Baborów
+lv;Baborova;Baborów
+sr;Баборов;Baborów
+uk;Баборув;Baborów
+ru;Баборув;Baborów
+zh;巴博魯夫;Baborów
+sr;Бабимост;Babimost
+lv;Babimosta;Babimost
+uk;Бабімост;Babimost
+ru;Бабимост;Babimost
+zh;巴比莫斯特;Babimost
+pl;Babice Duże;Babice
+sk;Gmina Babiak;Babiak
+uk;Ґміна Бабяк;Babiak
+be;Гміна Бабяк;Babiak
+bg;Андрихов;Andrychów
+he;אנדריכוב;Andrychów
+lv;Andrihova;Andrychów
+sr;Андрихов;Andrychów
+uk;Андрихув;Andrychów
+ru;Андрыхув;Andrychów
+lt;Andrychuvas;Andrychów
+ru;Андреспол;Andrespol
+ro;Алверня;Alwernia
+sr;Алверња;Alwernia
+lv;Alverņa;Alwernia
+uk;Альверня;Alwernia
+ru;Альверня;Alwernia
+zh;阿爾韋尼亞;Alwernia
+bg;Алверня;Alwernia
+fa;الورنیا;Alwernia
+sr;Александров Лођски;Aleksandrów Łódzki
+uk;Александрув-Лодзький;Aleksandrów Łódzki
+lv;Aleksandrova Ludzka;Aleksandrów Łódzki
+bg;Александров Лодзки;Aleksandrów Łódzki
+ru;Александрув-Лодзинский;Aleksandrów Łódzki
+zh;羅茲地區亞歷山德魯夫;Aleksandrów Łódzki
+he;אלכסנדר לודז;Aleksandrów Łódzki
+fa;الکساندرا لودزکی;Aleksandrów Łódzki
+lt;Lodzės Aleksandruvas;Aleksandrów Łódzki
+ru;Александрув-Куявски;Aleksandrów Kujawski
+ro;Александрув Куявский;Aleksandrów Kujawski
+sr;Александров Кујавски;Aleksandrów Kujawski
+uk;Александрув-Куявський;Aleksandrów Kujawski
+lv;Aleksandrova Kujavska;Aleksandrów Kujawski
+bg;Александров Куявски;Aleksandrów Kujawski
+ru;Александрув-Куявский;Aleksandrów Kujawski
+zh;庫亞維地區亞歷山德魯夫;Aleksandrów Kujawski
+fa;الکساندرا کوجاوسکی;Aleksandrów Kujawski
+he;אלכסנדרוב קויאבסקי;Aleksandrów Kujawski
+uk;Ґміна Александрув;Aleksandrów
+ru;Александрув;Aleksandrów
+be;Гміна Аляксандраў;Aleksandrów
+be;Прымор’е;Przymorze
+uk;Урсинув;Ursynów
+ru;Урсынов;Ursynów
+ru;Прага-Полудне;Praga Południe
+pl;Domaszków;Domasków
+he;זגוב;Rzgów
+lv;Žgova;Rzgów
+sr;Жгов;Rzgów
+uk;Жгув;Rzgów
+ru;Жгув;Rzgów
+lt;Štutovas;Sztutowo
+uk;Штутово;Sztutowo
+ru;Штутово;Sztutowo
+sk;Gmina Mała Wieś;Mała Wieś
+uk;Ґміна Мала Весь;Mała Wieś
+ru;Мала-Весь;Mała Wieś
+uk;Ґміна Коцежев-Полудньови;Kocierzew Południowy
+ru;Коцежев-Полуднёвы;Kocierzew Południowy
+ru;Ротманка;Rotmanka
+pl;Mierzyn k. Szczecina;Mierzyn
+be;Залессе Дольнэ;Zalesie Dolne
+pl;Seroki;Seroki Wieś
+pl;Iwiczna Stara;Stara Iwiczna
+pl;Czarna Łąka;Czarna Laka
+zh;奧波卡-科洛尼亞;Opoka-Kolonia
+pl;Dobrylewo;Gutenwerder
+pl;Jadowniki Bielskie;Wartenberg
+pl;Wiklina;Wikoline
+ru;Липково;Lipkowo
+pl;Jawor;Stary Jawor
+ru;Малта;Malta
+uk;Сад;Sad

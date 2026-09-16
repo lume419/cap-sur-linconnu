@@ -1854,7 +1854,6 @@ he;קרית אונו;Kiryat Ono
 he;קריית אונו;Kiryat Ono
 he;קִרְיַת אוֹנוֹ;Kiryat Ono
 he;אום בטין;Umm Batin
-ar;أم بطين‎;;Umm Batin
 he;אל סייד;AlSayid Tribe
 ar;السي;AlSayid Tribe
 he;ביר הדאג';Bir Hadaj
@@ -1874,3 +1873,1302 @@ he;שִׁבְּלִי-אֻם אל-עַ'נַם;Shibli–Umm al-Ghanam
 ar;بسمة‎;Basma
 he;בסמה;Basma
 he;בסמ\ה;Basma
+cs;Tel Kacir;Tel Qatsir
+nn;Tel Katzir;Tel Qatsir
+ceb;Bayt Katsīr;Tel Qatsir
+pl;Tel Katzir;Tel Qatsir
+fa;غجر;Ghajar
+zh;蓋傑爾;Ghajar
+cs;Ghadžar;Ghajar
+syr;ܐܘܪܫܠܡ;Yerushalayim
+hy;Երուսաղեմ;Yerushalayim
+syr;ܨܗܝܘܢ;Yerushalayim
+be;Іерусалім;Yerushalayim
+bg;Йерусалим;Yerushalayim
+bn;জেরুসালেম;Yerushalayim
+ca;Jerusalem;Yerushalayim
+cs;Jeruzalém;Yerushalayim
+cy;Jeriwsalem;Yerushalayim
+da;Jerusalem;Yerushalayim
+et;Jeruusalemm;Yerushalayim
+eu;Jerusalem;Yerushalayim
+fa;اورشلیم;Yerushalayim
+fi;Jerusalem;Yerushalayim
+fj;Jerusalemi;Yerushalayim
+ga;Iarúsailéim;Yerushalayim
+gl;Xerusalén;Yerushalayim
+hi;यरुशलम;Yerushalayim
+hr;Jeruzalem;Yerushalayim
+hu;Jeruzsálem;Yerushalayim
+id;Yerusalem;Yerushalayim
+ja;エルサレム;Yerushalayim
+jv;Yérusalem;Yerushalayim
+ka;იერუსალიმი;Yerushalayim
+ko;예루살렘;Yerushalayim
+lb;Jerusalem;Yerushalayim
+lt;Jeruzalė;Yerushalayim
+lv;Jeruzaleme;Yerushalayim
+ms;Baitulmuqaddis;Yerushalayim
+nn;Jerusalem;Yerushalayim
+no;Jerusalem;Yerushalayim
+pl;Jerozolima;Yerushalayim
+ro;Ierusalim;Yerushalayim
+sk;Jeruzalem;Yerushalayim
+sl;Jeruzalem;Yerushalayim
+sm;Ierusalema;Yerushalayim
+sr;Јерусалим;Yerushalayim
+sv;Jerusalem;Yerushalayim
+th;เยรูซาเลม;Yerushalayim
+tl;Jerusalem;Yerushalayim
+uk;Єрусалим;Yerushalayim
+vi;Jerusalem;Yerushalayim
+zh;耶路撒冷;Yerushalayim
+sq;Jerusalemi;Yerushalayim
+tl;Herusalem;Yerushalayim
+ug;قۇدس;Yerushalayim
+am;እየሩሳሌም;Yerushalayim
+gd;Ierusalem;Yerushalayim
+rm;Jerusalem;Yerushalayim
+tg;Уршалим;Yerushalayim
+tpi;Yerusalem;Yerushalayim
+tw;Yerusalem;Yerushalayim
+ur;یروشلم;Yerushalayim
+yo;Jerúsálẹ́mù;Yerushalayim
+is;Jerúsalem;Yerushalayim
+hak;Yâ-lu-sat-lâng;Yerushalayim
+hsb;Jeruzalem;Yerushalayim
+mr;जेरुसलेम;Yerushalayim
+nah;Ierusalem;Yerushalayim
+mn;Иерусалим;Yerushalayim
+mk;Ерусалим;Yerushalayim
+ml;ജെറുസലേം;Yerushalayim
+rw;Yerusalemu;Yerushalayim
+ln;Yerusalémi;Yerushalayim
+ps;بيت المقدس;Yerushalayim
+su;Yerusalem;Yerushalayim
+sw;Yerusalemu;Yerushalayim
+ku;Orşelîm;Yerushalayim
+sah;Иерусалим;Yerushalayim
+tt;Иерусалим;Yerushalayim
+gn;Herusalẽ;Yerushalayim
+tk;Iýerusalim;Yerushalayim
+ta;எருசலேம்;Yerushalayim
+te;జెరూసలేం;Yerushalayim
+sc;Gerusalemme;Yerushalayim
+so;Qudus;Yerushalayim
+kab;Orcalim;Yerushalayim
+fo;Jerúsalem;Yerushalayim
+dv;ޤުދުސް;Yerushalayim
+mwl;Jarusalen;Yerushalayim
+mhr;Иерусалим;Yerushalayim
+cv;Иерусалим;Yerushalayim
+oc;Jerusalèm;Yerushalayim
+ckb;ئورشەلیم;Yerushalayim
+os;Иерусалим;Yerushalayim
+br;Jeruzalem;Yerushalayim
+bo;ཇེ་རུ་ས་ལེམ།;Yerushalayim
+my;ဂျေရုဆလင်မြို့;Yerushalayim
+uz;Quddus;Yerushalayim
+lij;Gerusalemme;Yerushalayim
+kv;Иерусалим;Yerushalayim
+kn;ಜೆರುಸಲೆಂ;Yerushalayim
+kk;Иерусалим;Yerushalayim
+rue;Єрусалим;Yerushalayim
+mdf;Ерусалим;Yerushalayim
+csb;Jerozolëma;Yerushalayim
+ceb;Jerusalen;Yerushalayim
+pap;Herusalem;Yerushalayim
+az;Qüds;Yerushalayim
+crh;Qudus;Yerushalayim
+ky;Кудус;Yerushalayim
+or;ଜେରୁସାଲେମ;Yerushalayim
+pa;ਜੇਰੂਸਲਮ;Yerushalayim
+av;Байтул Макъдис;Yerushalayim
+kaa;Al-Qudıs;Yerushalayim
+vep;Jerusalim;Yerushalayim
+lez;Иерусалим;Yerushalayim
+sgs;Jerozalė;Yerushalayim
+ce;Къудс-ГӀала;Yerushalayim
+yue;耶路撒冷;Yerushalayim
+ba;Иерусалим;Yerushalayim
+bxr;Иерусалим;Yerushalayim
+km;ເຢ​ຣູ​ຊາ​ເລັມ;Yerushalayim
+lo;ເຢ​ຣູ​ຊາ​ເລັມ;Yerushalayim
+mi;Hiruharama;Yerushalayim
+ne;जेरुसेलम;Yerushalayim
+xh;IJerusalem;Yerushalayim
+fa;اورسلیمان;Yerushalayim
+fa;قُدس;Yerushalayim
+fa;بَیْت‌المُقدَّس;Yerushalayim
+az;Yerusəlim;Yerushalayim
+cs;Cofit;Tsofit
+nn;Tzofit;Tsofit
+vi;Tzofit;Tsofit
+pl;Zofit;Tsofit
+ur;صوفیت;Tsofit
+cs;Zejtan;Zetan
+nn;Zeitan;Zetan
+cs;Celafon;Tselafon
+nn;Tzelafon;Tselafon
+pl;Zelafon;Tselafon
+bg;Сафед;Safed
+et;Tsfat;Safed
+fa;صفد;Safed
+ja;ツファット;Safed
+ka;ცფათი;Safed
+ko;제파트;Safed
+sk;Cfat;Safed
+sr;Сафед;Safed
+uk;Цфат;Safed
+ur;صفد;Safed
+zh;采法特;Safed
+ta;சேப்பாத்;Safed
+tt;Сәфед;Safed
+hi;सफ़ेद;Safed
+lt;Safedas;Safed
+lv;Safeda;Safed
+hy;Ցֆաթ;Safed
+mk;Сафед;Safed
+mn;Цфат;Safed
+mr;सफेड;Safed
+be;Цфат;Safed
+bn;সাফেদ;Safed
+sd;صفد;Safed
+si;සෆෙඩ්;Safed
+kk;Сафад;Safed
+kn;ಸಫೆಡ್;Safed
+os;Сафед;Safed
+gu;સફેડ;Safed
+te;సఫేద్;Safed
+th;ซาเฟด;Safed
+da;Safad;Safed
+cs;Jinon;Yinnon
+nn;Yinon;Yinnon
+pl;Jinon;Yinnon
+nn;Yeruham;Yeroẖam
+fi;Yeruham;Yeroẖam
+cs;Jerucham;Yeroẖam
+vi;Yeruham;Yeroẖam
+nb;Yeruham;Yeroẖam
+pl;Yeruham;Yeroẖam
+ur;یرحم;Yeroẖam
+ro;Yeruham;Yeroẖam
+ca;Jeroham;Yeroẖam
+hr;Jeruham;Yeroẖam
+bg;Йехуд;Yehud
+lt;Jehudas;Yehud
+zh;耶胡德;Yehud
+cs;Jehud;Yehud
+uk;Єгуд;Yehud
+fa;یهود;Yehud
+ur;یہود;Yehud
+ceb;Jamnia;Yavné
+cs;Javne;Yavné
+fa;یبنه;Yavné
+id;Yamnia;Yavné
+ja;ヤブネ;Yavné
+ko;야브네;Yavné
+lt;Javnė;Yavné
+uk;Явне;Yavné
+pl;Jawne;Yavné
+sv;Javne;Yavné
+zh;亞夫內;Yavné
+cs;Jašreš;Yashresh
+pl;Jaszresz;Yashresh
+cs;Jarchiv;Yarẖiv
+pl;Jarchiv;Yarẖiv
+zh;雅姑珥;Yagur
+cs;Jagur;Yagur
+uk;Ягур;Yagur
+fa;یاگور;Yagur
+pl;Jagur;Yagur
+cs;Jad Rambam;Yad Rambam
+pl;Jad Rambam;Yad Rambam
+cs;Jad Binjamin;Yad Binyamin
+fa;عزیز;‘Uzayr
+ur;عزیر;‘Uzayr
+cs;Uzejr;‘Uzayr
+nn;Uzeir;‘Uzayr
+ceb;‘Uzeir;‘Uzayr
+sv;‘Uzeir;‘Uzayr
+pl;Uzeir;‘Uzayr
+fa;ام‌الفحم;Umm el Faḥm
+ur;ام الفحم;Umm el Faḥm
+cs;Tirat Jehuda;Tirat Yehuda
+pl;Tirat Jehuda;Tirat Yehuda
+bg;Тимрат;Timrat
+pl;Tyberiada;Tiberias
+ca;Tiberíades;Tiberias
+hr;Tiberijada;Tiberias
+fa;طبریه;Tiberias
+eu;Tiberiades;Tiberias
+az;Tiberiya;Tiberias
+bg;Тиберия;Tiberias
+ko;티베리아스;Tiberias
+ka;ტიბერია;Tiberias
+sr;Тиберијада;Tiberias
+sk;Tverja;Tiberias
+uk;Тверія;Tiberias
+ja;ティベリア;Tiberias
+sl;Tiberija;Tiberias
+lt;Tiberijas;Tiberias
+zh;提比里亞;Tiberias
+csb;Tiberiada;Tiberias
+ta;திபேரியு;Tiberias
+ur;طبریہ;Tiberias
+zh;特拉蒙德;Tel Mond
+uk;Тель-Монд;Tel Mond
+ja;テル・モンド;Tel Mond
+fa;تل موند;Tel Mond
+bg;Тел Авив;Tel Aviv-Yafo
+ca;Tel Aviv;Tel Aviv-Yafo
+cs;Tel Aviv;Tel Aviv-Yafo
+da;Tel Aviv;Tel Aviv-Yafo
+fa;تل‌آویو;Tel Aviv-Yafo
+fi;Tel Aviv;Tel Aviv-Yafo
+hr;Tel Aviv;Tel Aviv-Yafo
+id;Tel Aviv;Tel Aviv-Yafo
+ja;テルアビブ;Tel Aviv-Yafo
+ka;თელ-ავივი;Tel Aviv-Yafo
+lb;Tel Aviv;Tel Aviv-Yafo
+lt;Tel Avivas;Tel Aviv-Yafo
+ro;Tel Aviv;Tel Aviv-Yafo
+sk;Tel Aviv-Jafo;Tel Aviv-Yafo
+sr;Тел Авив;Tel Aviv-Yafo
+sv;Tel Aviv;Tel Aviv-Yafo
+tl;Tel Aviv;Tel Aviv-Yafo
+pl;Tel Awiw;Tel Aviv-Yafo
+tl;Lungsod ng Tel Aviv-Yafo;Tel Aviv-Yafo
+ug;تېلاۋىف;Tel Aviv-Yafo
+bs;Tel Aviv;Tel Aviv-Yafo
+gl;Tel Aviv;Tel Aviv-Yafo
+nn;Tel Aviv;Tel Aviv-Yafo
+no;Tel Aviv;Tel Aviv-Yafo
+th;เทลอาวีฟ;Tel Aviv-Yafo
+ko;텔아비브;Tel Aviv-Yafo
+hu;Tel-Aviv;Tel Aviv-Yafo
+is;Tel Avív;Tel Aviv-Yafo
+ur;تل ابیب;Tel Aviv-Yafo
+os;Тель-Авив;Tel Aviv-Yafo
+uk;Тель-Авів;Tel Aviv-Yafo
+hy;Թել Ավիվ;Tel Aviv-Yafo
+lv;Telaviva;Tel Aviv-Yafo
+ckb;تێل ئەڤیڤ;Tel Aviv-Yafo
+bn;তেল আভিভ;Tel Aviv-Yafo
+be;Тэль-Авіў;Tel Aviv-Yafo
+am;ቴል አቪቭ;Tel Aviv-Yafo
+ta;டெல் அவீவ்;Tel Aviv-Yafo
+az;Tel-Əviv;Tel Aviv-Yafo
+mr;तेल अवीव;Tel Aviv-Yafo
+mn;Тел-Авив;Tel Aviv-Yafo
+mk;Тел Авив;Tel Aviv-Yafo
+ml;ടെൽ അവീവ്;Tel Aviv-Yafo
+fo;Tel Aviv-Jaffa;Tel Aviv-Yafo
+sgs;Tel Avėvs;Tel Aviv-Yafo
+ce;Тель-Авив;Tel Aviv-Yafo
+hi;तेल अविव;Tel Aviv-Yafo
+kk;Тель-Авив;Tel Aviv-Yafo
+sah;Тель-Авив;Tel Aviv-Yafo
+uz;Tel-aviv;Tel Aviv-Yafo
+yue;特拉維夫;Tel Aviv-Yafo
+zh;特拉维夫;Tel Aviv-Yafo
+fa;تل‌آویو یافو;Tel Aviv-Yafo
+fa;تلاویو;Tel Aviv-Yafo
+fa;تل آویو;Tel Aviv-Yafo
+fa;تل‌اویو;Tel Aviv-Yafo
+fa;تل اویو;Tel Aviv-Yafo
+fa;تل آویو یافو;Tel Aviv-Yafo
+fa;تل‌اویو یافو;Tel Aviv-Yafo
+fa;تل اویو یافو;Tel Aviv-Yafo
+lrc;تل آڤیڤ;Tel Aviv-Yafo
+bn;তেলআবিব;Tel Aviv-Yafo
+zh-TW;特拉維夫;Tel Aviv-Yafo
+nn;Tel Adashim;Tel ‘Adashim
+cs;Tel Adašim;Tel ‘Adashim
+ja;テル・アダシム;Tel ‘Adashim
+sl;Tel Adashim;Tel ‘Adashim
+fa;تل عدشیم;Tel ‘Adashim
+pl;Tel Adaszim;Tel ‘Adashim
+da;Tel Adashim;Tel ‘Adashim
+ka;ტამრა;Tamra
+ta;தம்ரா;Tamra
+ur;طمرہ;Tamra
+zh;塔姆拉;Tamra
+fa;طمره;Tamra
+cs;Tal Šachar;Tal Shaẖar
+cs;Sitrija;Sitriyya
+nn;Sitria;Sitriyya
+pl;Sitriya;Sitriyya
+cs;Šoreš;Shoresh
+pl;Szoresz;Shoresh
+sl;Šlomi;Shlomi
+hr;Šlomi;Shlomi
+bg;Шефаийм;Shefayim
+cs;Šefajim;Shefayim
+fa;شفاییم;Shefayim
+pl;Szefajim;Shefayim
+cs;Acmon;‘Atsmon Segev
+nn;Atzmon;‘Atsmon Segev
+pl;Segev;‘Atsmon Segev
+ceb;Sedot Yam;Sdot Yam
+cs;Sdot Jam;Sdot Yam
+ja;スドット・ヤム;Sdot Yam
+fa;سدوت یام;Sdot Yam
+pl;Sedot Yam;Sdot Yam
+ca;Sederot;Sderot
+et;Sederot;Sderot
+fa;سخنین;Sakhnīn
+ur;سخنین;Sakhnīn
+lt;Sachninas;Sakhnīn
+zh-Hans;萨赫宁;Sakhnīn
+ka;სახნინი;Sakhnīn
+uk;Сахнін;Sakhnīn
+sr;Сахнин;Sakhnīn
+ko;사크닌;Sakhnīn
+am;ሳሕኒን;Sakhnīn
+zh;薩赫寧;Sakhnīn
+cs;Sachnín;Sakhnīn
+ja;サフニン;Sakhnīn
+pl;Sachnin;Sakhnīn
+zh;罗什平纳;Rosh Pinna
+cs;Roš Pina;Rosh Pinna
+ja;ロシュ・ピナ;Rosh Pinna
+pl;Rosz Pina;Rosh Pinna
+ro;Roș Pina;Rosh Pinna
+ur;روش پنہ;Rosh Pinna
+ca;Roix Pinà;Rosh Pinna
+cs;Rišpon;Rishpon
+pl;Riszon le-Cijjon;Rishon LeTsiyyon
+da;Rishon LeZion;Rishon LeTsiyyon
+no;Rishon LeZion;Rishon LeTsiyyon
+bg;Ревивим;Revivim
+ka;რევივიმ;Revivim
+bg;Решафим;Reshafim
+cs;Rešafim;Reshafim
+fa;رشافیم;Reshafim
+pl;Reszafim;Reshafim
+pl;Rechowot;Reẖovot
+bg;Реховот;Reẖovot
+ca;Rehobot;Reẖovot
+cs;Ramot Menaše;Ramot Menashe
+pl;Ramot Menasze;Ramot Menashe
+sv;Ramle;Ramla
+sr;Рамла;Ramla
+ko;라믈라;Ramla
+bg;Рамла;Ramla
+ja;ラムラ;Ramla
+zh;拉姆拉;Ramla
+fa;رمله;Ramla
+ur;رملہ، اسرائیل;Ramla
+nn;Ramat Yishai;Ramat Yishay
+fi;Ramat Yishai;Ramat Yishay
+cs;Ramat Jišaj;Ramat Yishay
+cy;Ramat Yishai;Ramat Yishay
+ja;ラマット・イシャイ;Ramat Yishay
+pl;Ramat Jiszaj;Ramat Yishay
+ur;رمات یشائی;Ramat Yishay
+cs;Ramat ha-Šofet;Ramat HaShofet
+pl;Ramat HaSzofet;Ramat HaShofet
+ca;Ramat ha-Xaron;Ramat HaSharon
+cs;Ramat ha-Šaron;Ramat HaSharon
+fa;رمت هشارون;Ramat HaSharon
+ka;რამათ-ჰაშარონი;Ramat HaSharon
+ko;라마트하샤론;Ramat HaSharon
+lt;Ramat Hašaronas;Ramat HaSharon
+pl;Ramat ha-Szaron;Ramat HaSharon
+zh;拉马特沙龙;Ramat HaSharon
+ur;رمت ہشارون;Ramat HaSharon
+cs;Ramat ha-Koveš;Ramat HaKovesh
+ka;რამათ-განი;Ramat Gan
+ja;ラマト・ガン;Ramat Gan
+sr;Рамат Ган;Ramat Gan
+ur;رمت غان;Ramat Gan
+uk;Рамат-Ган;Ramat Gan
+lt;Ramat Ganas;Ramat Gan
+fa;رمت گن;Ramat Gan
+be;Рамат-Ган;Ramat Gan
+ko;라마트간;Ramat Gan
+bg;Рамат Ган;Ramat Gan
+zh;拉馬干;Ramat Gan
+az;Ramat-Qan;Ramat Gan
+ce;Рамат-Ган;Ramat Gan
+lt;Kirjat Šmona;Qiryat Shmona
+hr;Kirjat Šmona;Qiryat Shmona
+zh-Hant;謝莫納城;Qiryat Shmona
+uk;Кір'ят-Шмона;Qiryat Shmona
+id;Kiryat Shmona;Qiryat Shmona
+ur;کریات شمونہ;Qiryat Shmona
+sco;Kiryat Shmona;Qiryat Shmona
+zh;谢莫纳城;Qiryat Shmona
+vi;Kiryat Shmona;Qiryat Shmona
+nb;Qiryat Shemona;Qiryat Shmona
+ja;キリヤット・シュモナ;Qiryat Shmona
+fa;کریات‌شمونا;Qiryat Shmona
+ro;Kiriat Șmona;Qiryat Shmona
+nn;Kiryat Shmona;Qiryat Shmona
+ceb;Qiryat Shemona;Qiryat Shmona
+fi;Kirjat Shmona;Qiryat Shmona
+ka;კირიათ-შმონა;Qiryat Shmona
+sl;Kirjat Šmona;Qiryat Shmona
+ga;Kiryat Shmona;Qiryat Shmona
+ca;Qiryat Xemonà;Qiryat Shmona
+sr;Кирјат Шмона;Qiryat Shmona
+kl;Kiryat Shmona;Qiryat Shmona
+sv;Qiryat Shemona;Qiryat Shmona
+ko;키르야트시모나;Qiryat Shmona
+sw;Kiryat Shmona;Qiryat Shmona
+zh-HK;謝莫納城;Qiryat Shmona
+gv;Kiryat Shmona;Qiryat Shmona
+cs;Kirjat Šmona;Qiryat Shmona
+tl;Kiryat Shmona;Qiryat Shmona
+pl;Kirjat Szmona;Qiryat Shmona
+da;Kiryat Shmona;Qiryat Shmona
+ca;Malaquies;Qiryat Mal’akhi
+ca;Gat;Kiryat Gat
+sk;Kirjat Gat;Kiryat Gat
+cs;Porija Ilit;Poria Illit
+pl;Poriah Illit;Poria Illit
+hi;पेटह टिकवा;Petaẖ Tiqva
+lt;Petah Tikva;Petaẖ Tiqva
+lv;Petah-Tikva;Petaẖ Tiqva
+hu;Petah Tikva;Petaẖ Tiqva
+hy;Պետահ Տիկվա;Petaẖ Tiqva
+uk;Петах-Тіква;Petaẖ Tiqva
+id;Petah Tikva;Petaẖ Tiqva
+ur;فتح تکو;Petaẖ Tiqva
+sco;Petah Tikva;Petaẖ Tiqva
+ml;പെറ്റ ടിക്വ;Petaẖ Tiqva
+mn;Петах-Тиква;Petaẖ Tiqva
+mr;पेताह तिक्वाह;Petaẖ Tiqva
+af;Petah Tikva;Petaẖ Tiqva
+ms;Petah Tikva;Petaẖ Tiqva
+zh;佩塔提克瓦;Petaẖ Tiqva
+mdf;Пэтах-Тиква;Petaẖ Tiqva
+et;Petaẖ-Tikva;Petaẖ Tiqva
+eu;Petah Tikva;Petaẖ Tiqva
+vi;Petah Tikva;Petaẖ Tiqva
+nb;Petah Tiqwa;Petaẖ Tiqva
+ja;ペタフ・ティクヴァ;Petaẖ Tiqva
+az;Petah-Tikva;Petaẖ Tiqva
+fa;پتخ تیکوا;Petaẖ Tiqva
+ro;Petah Tikva;Petaẖ Tiqva
+ba;Петах-Тиква;Petaẖ Tiqva
+nn;Petah Tikva;Petaẖ Tiqva
+ceb;Petaẖ Tiqwa;Petaẖ Tiqva
+fi;Petah Tikva;Petaẖ Tiqva
+be;Петах-Тыква;Petaẖ Tiqva
+bg;Петах Тиква;Petaẖ Tiqva
+bn;পেটা ঠিকভা;Petaẖ Tiqva
+ka;ფეთახ თიკვა;Petaẖ Tiqva
+si;පෙටා ටික්වා;Petaẖ Tiqva
+sl;Petah Tikva;Petaẖ Tiqva
+ga;Petah Tikva;Petaẖ Tiqva
+sr;Петах Тиква;Petaẖ Tiqva
+kl;Petah Tikva;Petaẖ Tiqva
+sv;Petaẖ Tiqwa;Petaẖ Tiqva
+kn;ಪೆಟಾ ಟಿಕ್ವಾ;Petaẖ Tiqva
+ko;페타티크바;Petaẖ Tiqva
+sw;Petah Tikva;Petaẖ Tiqva
+os;Петах-Тиква;Petaẖ Tiqva
+ta;பெடஹ் டிக்வா;Petaẖ Tiqva
+gu;પેતાહ ટિક્વા;Petaẖ Tiqva
+gv;Petah Tikva;Petaẖ Tiqva
+cs;Petach Tikva;Petaẖ Tiqva
+te;పెతః తిక్వ;Petaẖ Tiqva
+th;เปตะห์ติกวา;Petaẖ Tiqva
+cy;Petah Tikva;Petaẖ Tiqva
+lb;Petah Tikva;Petaẖ Tiqva
+tl;Petah Tikva;Petaẖ Tiqva
+ckb;پێتا تیکڤا;Petaẖ Tiqva
+pl;Petach Tikwa;Petaẖ Tiqva
+da;Petah Tiqwa;Petaẖ Tiqva
+ceb;Pardesiyya;Pardesiya
+sv;Pardesiyya;Pardesiya
+bg;Пардесийя;Pardesiya
+cs;Pardesija;Pardesiya
+fa;پردسیه، منطقه مسکونی;Pardesiya
+pl;Pardesijja;Pardesiya
+cs;Or Jehuda;Or Yehuda
+fa;اور یهودا;Or Yehuda
+ja;オル・イェフダ;Or Yehuda
+ka;ორ-იეჰუდა;Or Yehuda
+ko;오르예후다;Or Yehuda
+ur;اور یہودا;Or Yehuda
+pl;Or Jehuda;Or Yehuda
+fa;اورا;Ora
+nn;Ora i Israel;Ora
+hr;Omer;‘Omer
+cs;Oleš;‘Olesh
+nn;Olesh;‘Olesh
+pl;Olesh;‘Olesh
+cs;Nir Galim;Nir Gallim
+nn;Nir Galim;Nir Gallim
+zh;尼爾加利;Nir Gallim
+cs;Neve Jarak;Neve Yaraq
+nn;Neve Yarak;Neve Yaraq
+vi;Neve Yarak;Neve Yaraq
+pl;Neve Jaraq;Neve Yaraq
+cs;Neve Jamin;Neve Yamin
+pl;Neve Jamin;Neve Yamin
+fa;نتیوت;Netivot
+ka;ნეთივოთი;Netivot
+uk;Нетівот;Netivot
+zh;內提沃特;Netivot
+ur;نتیووت;Netivot
+pl;Netiwot;Netivot
+cs;Netanja;Netanya
+pl;Netanja;Netanya
+tl;Ntanya;Netanya
+ro;Netania;Netanya
+fa;نتانیا;Netanya
+sr;Нетанја;Netanya
+ko;네타냐;Netanya
+be;Нетанія;Netanya
+ja;ネタニヤ;Netanya
+lt;Netanija;Netanya
+uk;Нетанья;Netanya
+bg;Нетания;Netanya
+zh;内坦亚;Netanya
+hu;Netánja;Netanya
+ta;நத்தானியா;Netanya
+th;นาตาเนีย;Netanya
+sq;Netania;Netanya
+ur;نتانیا;Netanya
+hi;नेतान्या;Netanya
+lv;Netanija;Netanya
+hy;Նեթանյա;Netanya
+zh-Hant;內坦亞;Netanya
+mk;Нетанја;Netanya
+mn;Нетания;Netanya
+mr;नेटानिया;Netanya
+mdf;Нэтания;Netanya
+bn;নেতানিয়া;Netanya
+ka;ნათანია;Netanya
+si;නෙටන්යා;Netanya
+kn;ನೇತನ್ಯ;Netanya
+zh-HK;內坦亞;Netanya
+gu;નેતાન્યા;Netanya
+te;నతన్య;Netanya
+cs;Nes Cijona;Ness Ziona
+fa;نس زیونا;Ness Ziona
+ro;Nes Ționa;Ness Ziona
+tl;Nes Tziyona;Ness Ziona
+pl;Nes Cijjona;Ness Ziona
+zh;耐斯茨奧納;Ness Ziona
+ur;نیس ضیونا;Ness Ziona
+pl;Neszer;Nesher
+ca;Neixer;Nesher
+cs;Nešer;Nesher
+lt;Nešeras;Nesher
+ur;نیشر;Nesher
+zh;内谢尔;Nesher
+nn;Nein;Nayn
+ceb;Nein;Nayn
+fi;Nain;Nayn
+bg;Неин;Nayn
+id;Nain;Nayn
+ur;نین، اسرائیل;Nayn
+ca;Nain;Nayn
+sv;Nain;Nayn
+ko;이스라엘 나인;Nayn
+cs;Najn;Nayn
+ja;ナイン;Nayn
+fa;نین;Nayn
+pl;Najn;Nayn
+fa;ناتسرات عیلیت;Naẕerat ‘Illit
+ur;ناصرہ علیا;Naẕerat ‘Illit
+pl;Nazaret;Nazareth
+ca;Natzaret;Nazareth
+cs;Nazaret;Nazareth
+et;Naatsaret;Nazareth
+fi;Nasaret;Nazareth
+hr;Nazaret;Nazareth
+id;Nazaret;Nazareth
+ja;ナザレ;Nazareth
+ko;나사렛;Nazareth
+lt;Nazaretas;Nazareth
+nn;Nasaret;Nazareth
+no;Nasaret;Nazareth
+sv;Nasaret;Nazareth
+ta;நாசரேத்து;Nazareth
+tl;Lungsod ng Nazaret;Nazareth
+uk;Назарет;Nazareth
+zh;拿撒勒;Nazareth
+ckb;ناسرە;Nazareth
+ug;نازارې;Nazareth
+ur;ناصرہ;Nazareth
+sl;Nazaret;Nazareth
+bg;Нахария;Nahariyya
+cs;Naharija;Nahariyya
+fa;نهاریا;Nahariyya
+ja;ナハリヤ;Nahariyya
+ka;ნაჰარია;Nahariyya
+ro;Nahariia;Nahariyya
+sr;Нахарија;Nahariyya
+uk;Нагарія;Nahariyya
+pl;Naharijja;Nahariyya
+zh;納哈里亞;Nahariyya
+ur;نہاریا;Nahariyya
+hu;Naharija;Nahariyya
+hy;Նագարիա;Nahariyya
+zh-Hans;纳哈里亚;Nahariyya
+id;Nahariya;Nahariyya
+sco;Nahariya;Nahariyya
+vi;Nahariya;Nahariyya
+nb;Nahariya;Nahariyya
+nn;Nahariya;Nahariyya
+ceb;Nahariya;Nahariyya
+fi;Nahariya;Nahariyya
+sc;Nahariya;Nahariyya
+sv;Nahariya;Nahariyya
+sw;Nahariya;Nahariyya
+gv;Nahariya;Nahariyya
+tl;Nahariya;Nahariyya
+da;Nahariya;Nahariyya
+hr;Naharija;Nahariyya
+sl;Naharija;Nahariyya
+hr;Micpe Ramon;Mitzpe Ramon
+cs;Micpe Ramon;Mitzpe Ramon
+sr;Мицпе Рамон;Mitzpe Ramon
+pl;Micpe Ramon;Mitzpe Ramon
+cs;Mišmeret;Mishmeret
+bg;Мишмарот;Mishmarot
+zh;米什马罗特;Mishmarot
+cs;Mišmarot;Mishmarot
+zh-Hant;米希馬羅特;Mishmarot
+zh;米什马尔·哈内盖夫;Mishmar HaNegev
+cs;Mišmar ha-Negev;Mishmar HaNegev
+fa;میشمار هانیگیف;Mishmar HaNegev
+pl;Miszmar HaNegev;Mishmar HaNegev
+cs;Michmoret;Mikhmoret
+pl;Michmoret;Mikhmoret
+nn;Migdal HaEmek;Migdal Ha‘Emeq
+fi;Migdal HaEmek;Migdal Ha‘Emeq
+zh-Hans;米格达勒埃梅克;Migdal Ha‘Emeq
+ka;მიგდალ-ჰაემეკი;Migdal Ha‘Emeq
+id;Migdal HaEmek;Migdal Ha‘Emeq
+ur;مجدال ہعیمق;Migdal Ha‘Emeq
+sco;Migdal HaEmek;Migdal Ha‘Emeq
+ca;Migdal HaEmek;Migdal Ha‘Emeq
+sr;Мигдал Хаемек;Migdal Ha‘Emeq
+sw;Migdal HaEmek;Migdal Ha‘Emeq
+zh;米格達勒埃梅克;Migdal Ha‘Emeq
+cs;Migdal ha-Emek;Migdal Ha‘Emeq
+vi;Migdal HaEmek;Migdal Ha‘Emeq
+tl;Migdal HaEmek;Migdal Ha‘Emeq
+fa;میگدال هائمک;Migdal Ha‘Emeq
+pl;Migdal HaEmek;Migdal Ha‘Emeq
+nn;Migdal i Israel;Migdal
+lt;Magdala;Migdal
+ja;ミグダル;Migdal
+nn;Mevaseret Zion;Mevasseret Tsiyyon
+ceb;Mevasseret Ẕiyyon;Mevasseret Tsiyyon
+fi;Mevasseret Zion;Mevasseret Tsiyyon
+hy;Մևասերետ Ցիոն;Mevasseret Tsiyyon
+zh-Hans;梅瓦塞莱特锡安;Mevasseret Tsiyyon
+zh-Hant;梅瓦塞萊特錫安;Mevasseret Tsiyyon
+uk;Мевасерет-Ціон;Mevasseret Tsiyyon
+ga;Mevaseret Zion;Mevasseret Tsiyyon
+sco;Mevaseret Zion;Mevasseret Tsiyyon
+sv;Mevasseret Ẕiyyon;Mevasseret Tsiyyon
+zh;梅瓦賽萊特錫安;Mevasseret Tsiyyon
+cs;Mevaseret Cijon;Mevasseret Tsiyyon
+ja;メヴァセレト・シオン;Mevasseret Tsiyyon
+fa;منطقه مواسرت;Mevasseret Tsiyyon
+pl;Mevasseret Syjon;Mevasseret Tsiyyon
+ro;Mevaseret Zion;Mevasseret Tsiyyon
+hr;Mavaseret Cijon;Mevasseret Tsiyyon
+sr;Мевасерет-Цијон;Mevasseret Tsiyyon
+uk;Метула;Metula
+cs;Mesilat Cijon;Mesillat Tsiyyon
+nn;Mesilat Zion;Mesillat Tsiyyon
+uk;Месілат Ціон;Mesillat Tsiyyon
+lb;Mesilat Zion;Mesillat Tsiyyon
+sl;Mesilat Zion;Mesillat Tsiyyon
+pl;Mesillat Syjon;Mesillat Tsiyyon
+cs;Mefalsim;Mefallesim
+nn;Mefalsim;Mefallesim
+sv;Mefalsim;Mefallesim
+pl;Mefalsim;Mefallesim
+ca;Mefalsim;Mefallesim
+zh;梅法勒西姆;Mefallesim
+zh;麥紮奇納特巴特雅;Mazkeret Batya
+mdf;Мазкэрэт Батья;Mazkeret Batya
+cs;Mazkeret Batja;Mazkeret Batya
+uk;Мазкерет Батья;Mazkeret Batya
+pl;Mazkeret Batja;Mazkeret Batya
+cs;Magal;Maggal
+nn;Magal;Maggal
+fa;مجال، منطقه مسکونی;Maggal
+pl;Magal;Maggal
+ka;ლოდი;Lod
+uk;Лод;Lod
+lt;Lodas;Lod
+ko;로드;Lod
+fa;لاد;Lod
+ja;ロード;Lod
+ml;ലുദ്ദ്;Lod
+sr;Лод;Lod
+zh;卢德;Lod
+ur;لد;Lod
+nn;Kfar Vitkin;Kefar Vitqin
+fi;Kfar Vitkin;Kefar Vitqin
+zh;克法維特金;Kefar Vitqin
+cs;Kfar Vitkin;Kefar Vitqin
+ja;クファー・ヴィトキン;Kefar Vitqin
+pl;Kfar Vitkin;Kefar Vitqin
+ja;クファル・シルキン;Kfar Sirkin
+ur;کفر سیرقین;Kfar Sirkin
+zh;西尔金村;Kfar Sirkin
+ceb;Kefar Shemaryahu;Kfar Shmaryahu
+sv;Kefar Shemaryahu;Kfar Shmaryahu
+fi;Kfar Shemaryahu;Kfar Shmaryahu
+cs;Kfar Šmarjahu;Kfar Shmaryahu
+ka;ქფარ-შმარიაჰუ;Kfar Shmaryahu
+uk;Кфар-Шмарьягу;Kfar Shmaryahu
+fa;کفر شمریاهو;Kfar Shmaryahu
+pl;Kefar Szemarjahu;Kfar Shmaryahu
+ca;Kefar Xemaryahu;Kfar Shmaryahu
+fa;کفار سابا;Kfar Saba
+et;Kfar Sava;Kfar Saba
+ms;Kefar Sava;Kfar Saba
+sr;Кфар Сава;Kfar Saba
+id;Kefar Sava;Kfar Saba
+uk;Кфар-Сава;Kfar Saba
+zh;卡法薩巴;Kfar Saba
+ur;کفر سبا;Kfar Saba
+pl;Kefar Sawa;Kfar Saba
+uk;Кфар Гесс;Kfar Hess
+ja;クファル・ヘス;Kfar Hess
+nn;Kfar Chabad;Kfar H̱abad
+ceb;Kefar H̱abad;Kfar H̱abad
+sv;Kefar H̱abad;Kfar H̱abad
+zh;卡法哈巴德;Kfar H̱abad
+cs;Kfar Chabad;Kfar H̱abad
+uk;Кфар-Хабад;Kfar H̱abad
+pl;Kfar Chabad;Kfar H̱abad
+nn;Kiryat Ekron;Qiryat ‘Eqron
+fi;Kirjat Ekron;Qiryat ‘Eqron
+zh;基列以革倫;Qiryat ‘Eqron
+cs;Kirjat Ekron;Qiryat ‘Eqron
+pl;Kiryat Ekron;Qiryat ‘Eqron
+sco;Kiryat Ekron;Qiryat ‘Eqron
+nn;Kafr Qara;Kafr Qari‘
+cs;Kafr Kara;Kafr Qari‘
+ja;クファル・カラ;Kafr Qari‘
+fa;کفر قرا;Kafr Qari‘
+pl;Kafr Kara;Kafr Qari‘
+sco;Kafr Qara;Kafr Qari‘
+ca;Kafr Qara;Kafr Qari‘
+ur;کفر کنا;Kafr Kannā
+fa;کفر کما;Kafr Kammā
+fa;کفر برا;Kafr Barā
+ur;کفر برا;Kafr Barā
+nn;Kabul i Israel;Kābūl
+zh;卡布勒;Kābūl
+ur;کابول;Kābūl
+sr;Кавул;Kābūl
+nn;Kabri i Israel;Kabri
+nn;Jaljulia;Jaljūlya
+zh;贾尔朱利亚;Jaljūlya
+cs;Džaldžulja;Jaljūlya
+fa;جلجولیه;Jaljūlya
+pl;Dżaldżulja;Jaljūlya
+ur;جلجولیہ;Jaljūlya
+sco;Jaljulia;Jaljūlya
+pl;Cholon;H̱olon
+bg;Холон;H̱olon
+cs;Hod ha-Šaron;Hod HaSharon
+fa;هود هشارون;Hod HaSharon
+ro;Hod HaȘaron;Hod HaSharon
+sr;Ход Хашарон;Hod HaSharon
+uk;Год-га-Шарон;Hod HaSharon
+pl;Hod ha-Szaron;Hod HaSharon
+zh;霍德夏沙隆;Hod HaSharon
+ur;ہود ہشارون;Hod HaSharon
+ca;Hertseliyya;Herzliya
+id;Herzliyya;Herzliya
+tl;Herẕliyya;Herzliya
+tl;Lungsod ng Herẕliyya;Herzliya
+pl;Herclijja;Herzliya
+bg;Хайфа;Haifa
+ja;ハイファ;Haifa
+pl;Hajfa;Haifa
+tl;Ḥeyfa;Haifa
+fa;حیفا;Haifa
+sk;Hajfa;Haifa
+tl;Lungsod ng Ḥefa;Haifa
+zh;海法;Haifa
+az;Hayfa;Haifa
+uz;Hayfa;Haifa
+uk;Хайфа;Haifa
+os;Хайфæ;Haifa
+th;ไฮฟา;Haifa
+sr;Хајфа;Haifa
+ml;ഹൈഫ;Haifa
+mr;हैफा;Haifa
+ne;हाइफा;Haifa
+hy;Հայֆա;Haifa
+ka;ხაიფა;Haifa
+ko;하이파;Haifa
+kn;ಹೈಫ;Haifa
+kk;Хайфа;Haifa
+be;Хайфа;Haifa
+oc;Aifa;Haifa
+ce;Хайфа;Haifa
+ckb;حەیفا;Haifa
+ta;கைஃபா;Haifa
+hi;हैफ़ा;Haifa
+ur;حیفا;Haifa
+nn;Hatzor HaGlilit;H̱atsor HaGlilit
+fi;Hatzor HaGlilit;H̱atsor HaGlilit
+cs;Chacor ha-Gelilit;H̱atsor HaGlilit
+ja;ハツォル・ハグリリート;H̱atsor HaGlilit
+pl;Chacor HaGlilit;H̱atsor HaGlilit
+ur;حاصور ہگلیلیلت;H̱atsor HaGlilit
+pl;Chadera;Hadera
+fa;گیواتائیم;Givatayim
+ur;جفعاتایم;Givatayim
+bg;Гилат;Gilat
+cs;Geva Karmel;Geva‘ Karmel
+nn;Geva Karmel;Geva‘ Karmel
+pl;Geva Karmel;Geva‘ Karmel
+cs;Gešer ha-Ziv;Gesher HaZiv
+ka;გეშერ ჰაზივ;Gesher HaZiv
+pl;Geszer HaZiv;Gesher HaZiv
+ca;Guederà;Gedera
+fa;گدرا;Gedera
+ko;게데라;Gedera
+zh;盖代拉;Gedera
+uk;Гедера;Gedera
+bg;Гедера;Gedera
+ka;გდერა;Gedera
+ur;غدیرا;Gedera
+nb;Gederea;Gedera
+ja;ゲデラ;Gedera
+zh;艾凡耶胡達;Even Yehuda
+cs;Even Jehuda;Even Yehuda
+cs;Ejn Vered;Ein Vered
+ja;エイン・ベレド;Ein Vered
+cs;Ejn Sarid;Ein Sarid
+cs;Ejn Ajala;‘En Ayyala
+nn;Ein Ayala;‘En Ayyala
+pl;Ein Ajala;‘En Ayyala
+bg;Елякхин;Elyakhin
+cs;Eljachin;Elyakhin
+cs;Ejlon;Elon
+nn;Eilon;Elon
+cs;Elišama;Elishama‘
+nn;Elisjama i Israel;Elishama‘
+pl;Elishama;Elishama‘
+bg;Ейлат;Eilat
+hu;Elat;Eilat
+ja;エイラート;Eilat
+pl;Ejlat;Eilat
+sr;Еилат;Eilat
+tl;Elat;Eilat
+ca;Elat;Eilat
+tl;Lungsod ng Elat;Eilat
+zh;埃拉特;Eilat
+ur;ایلات;Eilat
+bn;ইলাত;Eilat
+cs;Ejlat;Eilat
+lt;Elatas;Eilat
+hy;Էյլաթ;Eilat
+uk;Ейлат;Eilat
+ka;ეილათი;Eilat
+ko;에일라트;Eilat
+fa;ایلات;Eilat
+be;Эйлат;Eilat
+lv;Elata;Eilat
+sk;Ejlat;Eilat
+ta;ஏலாத்;Eilat
+fa;عین رافا;‘Ein Rāfa
+ur;عین رافا;‘Ein Rāfa
+cs;Ajn Rafa;‘Ein Rāfa
+nn;Ein Rafa;‘Ein Rāfa
+pl;Ein Rafa;‘Ein Rāfa
+bg;Димона;Dimona
+fa;دیمونا;Dimona
+ja;ディモナ;Dimona
+ka;დიმონა;Dimona
+ko;디모나;Dimona
+uk;Дімона;Dimona
+zh;迪莫納;Dimona
+ur;دیمونہ;Dimona
+ceb;Dāliyat el Karmil;Daliyat al Karmel
+sv;Dāliyat el Karmil;Daliyat al Karmel
+cs;Ir Karmel;Daliyat al Karmel
+ka;ქარმელი;Daliyat al Karmel
+tl;Karmel;Daliyat al Karmel
+fa;کارمل;Daliyat al Karmel
+pl;Ir ha-Karmel;Daliyat al Karmel
+ur;کرمل شہر;Daliyat al Karmel
+ca;Ir ha-Karmel;Daliyat al Karmel
+nn;Daburiyya;Dabbūrīya
+fi;Daburiyya;Dabbūrīya
+cs;Daburija;Dabbūrīya
+fa;دبوریه;Dabbūrīya
+pl;Daburija;Dabbūrīya
+cs;Bustan ha-Galil;Bustan HaGalil
+pl;Bustan ha-Galil;Bustan HaGalil
+nn;Burgata;Burgeta
+pl;Burgata;Burgeta
+ca;Binyamina;Binyamina-Giv‘at ‘Ada
+cs;Bejt Zajit;Bet Zayit
+nn;Beit Zayit;Bet Zayit
+fa;بیت زایت;Bet Zayit
+pl;Bet Zait;Bet Zayit
+zh;貝茨札伊;Bet Zayit
+cs;Bejt Jehošua;Bet Yehoshua‘
+nn;Beit Yehoshua;Bet Yehoshua‘
+pl;Beit Jehoszua;Bet Yehoshua‘
+ca;Betxèmeix;Bet Shemesh
+ro;Beit Şemeș;Bet Shemesh
+be;Бейт-Шэмеш;Bet Shemesh
+hr;Bejt Šemeš;Bet Shemesh
+cs;Bejt Šemeš;Bet Shemesh
+sr;Бет Шемеш;Bet Shemesh
+uk;Бейт-Шемеш;Bet Shemesh
+pl;Bet Sze'an;Bet She’an
+hi;बेथ शीआन;Bet She’an
+lt;Beit Šeanas;Bet She’an
+hu;Bét-Seán;Bet She’an
+hy;Բեյթ-Շեան;Bet She’an
+zh-Hans;贝特谢安;Bet She’an
+uk;Бейт-Шеан;Bet She’an
+id;Beit She'an;Bet She’an
+ur;بیت شیان;Bet She’an
+sco;Beit She'an;Bet She’an
+mk;Бет Шеан;Bet She’an
+zh;貝特謝安;Bet She’an
+vi;Beit She'an;Bet She’an
+nb;Bet-Sjean;Bet She’an
+ja;ベト・シェアン;Bet She’an
+fa;بیت شنان;Bet She’an
+ro;Beit Șe'an;Bet She’an
+nn;Beit She'an;Bet She’an
+fi;Beit She'an;Bet She’an
+bg;Бейт-Шеан;Bet She’an
+kab;Bisan;Bet She’an
+ka;ბეთ-შეანი;Bet She’an
+ca;Beit She'an;Bet She’an
+sr;Бет Шеан;Bet She’an
+ko;베트셰안;Bet She’an
+sw;Beit She'an;Bet She’an
+cs;Bejt Še'an;Bet She’an
+th;เบตชิอัน;Bet She’an
+tl;Beit She'an;Bet She’an
+cs;Bejt Kama;Bet Qama
+nn;Beit Kama;Bet Qama
+pl;Beit Kama;Bet Qama
+nn;Beit Alfa;Bet Alfa
+cs;Bejt Alfa;Bet Alfa
+zh-Hans;拜特阿尔法;Bet Alfa
+zh-Hant;拜特阿爾法;Bet Alfa
+nb;Beit Alfa;Bet Alfa
+uk;Бейт-Альфа;Bet Alfa
+fa;بیت آلفا;Bet Alfa
+pl;Beit Alfa;Bet Alfa
+ca;Beit Alfa;Bet Alfa
+cs;Berechja;Berekhya
+pl;Berechja;Berekhya
+cs;Ben Zakaj;Ben Zakkay
+nn;Ben Zakai;Ben Zakkay
+pl;Ben Zakkaj;Ben Zakkay
+nn;Moledet i Israel;Moledet
+lt;Bene Berakas;Bnei Brak
+hu;Bein Berak;Bnei Brak
+hy;Բնեյ Բրակ;Bnei Brak
+zh-Hans;贝内贝拉克;Bnei Brak
+uk;Бней-Брак;Bnei Brak
+ur;بنئی برق;Bnei Brak
+mn;Бней-Брак;Bnei Brak
+zh;貝內貝拉克;Bnei Brak
+ja;ブネイ・ブラク;Bnei Brak
+fa;بنی برق;Bnei Brak
+ceb;Bené Beraq;Bnei Brak
+be;Бней-Брак;Bnei Brak
+bg;Бней Берак;Bnei Brak
+ka;ბნეი-ბრაკი;Bnei Brak
+ca;Bené-Berac;Bnei Brak
+sr;Бнеј Брак;Bnei Brak
+ko;브네이브라크;Bnei Brak
+cs;Bnej Brak;Bnei Brak
+pl;Bene Berak;Bnei Brak
+cs;Bejt Džan;Beit Jann
+pl;Beit Dżan;Beit Jann
+ca;Bet Jan;Beit Jann
+bg;Беер Шева;Be'er Sheva
+ca;Beerxeba;Be'er Sheva
+da;Beersheba;Be'er Sheva
+hu;Beér-Seva;Be'er Sheva
+lt;Beer Ševa;Be'er Sheva
+pl;Beer Szewa;Be'er Sheva
+ro;Beer Șeva;Be'er Sheva
+sv;Beer Sheba;Be'er Sheva
+tl;B’er Sheva‘;Be'er Sheva
+tl;Berseba;Be'er Sheva
+fi;Beerseba;Be'er Sheva
+id;Bersyeba;Be'er Sheva
+ko;베르셰바;Be'er Sheva
+lb;Beersheba;Be'er Sheva
+sk;Beer Ševa;Be'er Sheva
+et;Beer-Sheva;Be'er Sheva
+hr;Beer Ševa;Be'er Sheva
+ka;ბეერ-შევა;Be'er Sheva
+ja;ベエルシェバ;Be'er Sheva
+eu;Beer-Xeva;Be'er Sheva
+uk;Беер-Шева;Be'er Sheva
+fa;بئرشبع;Be'er Sheva
+cs;Beerševa;Be'er Sheva
+sr;Биршеба;Be'er Sheva
+ur;بئر السبع;Be'er Sheva
+hy;Բեեր Շևա;Be'er Sheva
+zh;贝尔谢巴;Be'er Sheva
+am;ቤርሳቤ;Be'er Sheva
+th;เบียร์ชีบา;Be'er Sheva
+az;Beer-Şeva;Be'er Sheva
+sgs;Beėršėva;Be'er Sheva
+gl;Bersebá;Be'er Sheva
+lv;Beerševa;Be'er Sheva
+mk;Бершева;Be'er Sheva
+ta;பீர்சேபா;Be'er Sheva
+ur;بیر سبع;Be'er Sheva
+hr;Beršeba;Be'er Sheva
+pl;Bat Jam;Bat Yam
+bg;Бат Ям;Bat Yam
+cs;Bat Jam;Bat Yam
+fa;بت یام;Bat Yam
+ja;バト・ヤム;Bat Yam
+ka;ბათ-იამი;Bat Yam
+ko;바트얌;Bat Yam
+lt;Bat Jamas;Bat Yam
+sr;Бат Јам;Bat Yam
+uk;Бат-Ям;Bat Yam
+zh;巴特亚姆;Bat Yam
+ur;بات یام;Bat Yam
+hi;बैट याम;Bat Yam
+hu;Bat Jam;Bat Yam
+hy;Բաթ Յամ;Bat Yam
+zh-Hant;巴特亞姆;Bat Yam
+mn;Бат-Ям;Bat Yam
+be;Бат-Ям;Bat Yam
+os;Бат-Ям;Bat Yam
+zh-HK;巴特亞姆;Bat Yam
+cv;Бат-Ям;Bat Yam
+nn;Basmat Tab'un;Basmat Ṭab‘ūn
+cs;Basmat Tab'un;Basmat Ṭab‘ūn
+pl;Basmat Tab'un;Basmat Ṭab‘ūn
+sco;Basmat Tab'un;Basmat Ṭab‘ūn
+nn;Bareket;Bareqet
+cs;Bareket;Bareqet
+uk;Барекет;Bareqet
+pl;Bareket;Bareqet
+hi;बाक अल-ग़रबियाय;Bāqa el Gharbīya
+fi;Baqa al-Gharbiyya;Bāqa el Gharbīya
+sw;Baqa al-Gharbiyye;Bāqa el Gharbīya
+zh;西巴盖;Bāqa el Gharbīya
+cs;Báka al-Gharbíja;Bāqa el Gharbīya
+hy;Բակա ալ-Գարբյահ;Bāqa el Gharbīya
+zh-Hant;西巴蓋;Bāqa el Gharbīya
+uk;Бака аль-Гарбія;Bāqa el Gharbīya
+fa;باکا الغربیا;Bāqa el Gharbīya
+ur;باقہ الغربیہ;Bāqa el Gharbīya
+cs;Azrikam;‘Azriqam
+nn;Azrikam;‘Azriqam
+pl;Azrikam;‘Azriqam
+fa;آزور;Azor
+cs;Ajelet ha-Šachar;Ayyelet HaShaẖar
+nn;Ayelet HaShahar;Ayyelet HaShaẖar
+pl;Ajjelet ha-Szachar;Ayyelet HaShaẖar
+ceb;‘Atlit;Atlit
+be;Атліт;Atlit
+hy;Ատլիտ;Atlit
+ur;عتلیت;Atlit
+sv;‘Atlit;Atlit
+zh;阿特里特;Atlit
+ja;アトリット;Atlit
+pl;Aszdod;Ashdod
+ca;Asdod;Ashdod
+ro;Așdod;Ashdod
+hr;Ašdod;Ashdod
+ja;アシュドッド;Ashdod
+uk;Ашдод;Ashdod
+cs;Ašdod;Ashdod
+fa;اشدود;Ashdod
+crh;Aşdod;Ashdod
+sr;Ашдод;Ashdod
+bg;Ашдод;Ashdod
+ko;아슈도드;Ashdod
+ka;აშდოდი;Ashdod
+lt;Ašdodas;Ashdod
+hy;Աշդոդ;Ashdod
+wo;Asot;Ashdod
+ba;Ашдод;Ashdod
+zh;阿什杜德;Ashdod
+eu;Axdod;Ashdod
+hu;Asdód;Ashdod
+az;Aşdod;Ashdod
+ml;അഷ്ദോദ്;Ashdod
+ta;அஸ்தோது;Ashdod
+ur;اشدود;Ashdod
+vep;Ašdod;Ashdod
+pl;Akka;Acre
+af;Akko;Acre
+cs;Akko;Acre
+da;Akko;Acre
+fi;Akko;Acre
+ja;アッコ;Acre
+no;Akko;Acre
+sk;Akko;Acre
+sv;Akko;Acre
+uk;Акко;Acre
+zh;阿科;Acre
+hi;आकरे;Acre
+hr;Ako;Acre
+hu;Akko;Acre
+hy;Աքքա;Acre
+id;Akko;Acre
+az;Əkka;Acre
+ro;Acra;Acre
+ba;Акә;Acre
+ceb;‘Akko;Acre
+be;Ака;Acre
+bg;Акра;Acre
+bn;একে;Acre
+br;Akko;Acre
+ka;აკო;Acre
+si;ඇක්රි;Acre
+sl;Ako;Acre
+sr;Ако;Acre
+mzn;عکا;Acre
+ce;Ӏакка;Acre
+kn;ಎಕರೆ;Acre
+ko;아코;Acre
+sw;Akko;Acre
+ku;Eka;Acre
+ta;அக்ரே;Acre
+te;ఏకర్;Acre
+cv;Акко;Acre
+th;เอเคอร์;Acre
+lt;Akas;Acre
+lv;Ako;Acre
+ug;ئەككا;Acre
+ur;عکہ;Acre
+mk;Ако;Acre
+ml;ഏക്കർ;Acre
+mn;Акко;Acre
+uz;Akka;Acre
+mr;एकर;Acre
+ms;Akko;Acre
+mdf;Акко;Acre
+et;Akko;Acre
+eu;Akre;Acre
+vi;Akko;Acre
+nb;Akko;Acre
+fa;عکا;Acre
+nn;Akko;Acre
+oc;Sant Joan d'Acre;Acre
+gu;એકર;Acre
+ckb;عەکا;Acre
+hi;आफ़ला;Afula
+hy;Աֆուլա;Afula
+uk;Афула;Afula
+ur;عفولہ;Afula
+mr;आफुला;Afula
+zh;阿富拉;Afula
+ja;アフラ;Afula
+fa;عفوله;Afula
+ceb;‘Afula;Afula
+be;Афула;Afula
+bg;Афула;Afula
+bn;আফোলা;Afula
+ka;აფულა;Afula
+si;අෆුලා;Afula
+sr;Афула;Afula
+sv;‘Afula;Afula
+kn;ಅಫುರಾ;Afula
+ko;아풀라;Afula
+ta;அபியூலா;Afula
+gu;આફુલા;Afula
+te;అఫులా;Afula
+th;อฟูล่า;Afula
+nn;Afikim;Afiqim
+cs;Afikim;Afiqim
+ja;アフィキム;Afiqim
+fa;آفیکیم;Afiqim
+pl;Afikim;Afiqim
+nn;Abu Snan;Abū Sinān
+cs;Abu Snan;Abū Sinān
+uk;Абу-Снан;Abū Sinān
+fa;ابو سنان;Abū Sinān
+pl;Abu Snan;Abū Sinān
+ur;ابو سنان;Abū Sinān
+sco;Abu Snan;Abū Sinān
+no;Abu Ghosh;Abū Ghaush
+fa;ابو غوش;Abū Ghaush
+ur;ابو غوش;Abū Ghaush
+cs;Rumat al-Hejb;Rumat al-Hayb
+nn;Rumat al-Heib;Rumat al-Hayb
+ceb;Rumat Heib;Rumat al-Hayb
+sv;Rumat Heib;Rumat al-Hayb
+fa;رمه الهیب;Rumat al-Hayb
+pl;Rumat al-Hejjb;Rumat al-Hayb
+cs;Salláma;Salama
+nn;Sallama;Salama
+ceb;Sallama;Salama
+sv;Sallama;Salama
+bg;Салама;Salama
+pl;Sallama;Salama
+ceb;Kefar Weradim;Kfar Vradim
+sv;Kefar Weradim;Kfar Vradim
+hy;Կֆար Վրադիմ;Kfar Vradim
+bg;Лехавим;Lehavim
+zh;萊哈維姆;Lehavim
+ja;レハヴィム;Lehavim
+zh;凯撒利亚;Caesarea
+uk;Кесарія;Caesarea
+cs;Mejtar;Meitar
+ka;მეითარ;Meitar
+ja;メタル;Meitar
+fa;میتار;Meitar
+ca;Metar;Meitar
+cs;Merkaz Šapira;Merkaz Shapira
+pl;Merkaz Szapira;Merkaz Shapira
+fa;زیمر;Zemer
+ur;زیمر;Zemer
+cs;Ajn Nakuba;‘Ein Naqūbā
+nn;Ein Naqquba;‘Ein Naqūbā
+fa;عین نقوبا;‘Ein Naqūbā
+pl;Ein Naquba;‘Ein Naqūbā
+fa;رهط;Rahat
+ka;რაჰატი;Rahat
+sr;Рахат;Rahat
+uk;Рахат;Rahat
+zh;拉哈特;Rahat
+ur;رہط;Rahat
+bn;শাকিব আল-সালাম;Segev Shalom
+cs;Segev Šalom;Segev Shalom
+fa;شقیب السلام;Segev Shalom
+pl;Segev-Szalom;Segev Shalom
+ca;Seguev Xalom;Segev Shalom
+cs;Nof Ajalon;Nof Ayalon
+fa;نوف آیلون;Nof Ayalon
+pl;Nof Ajalon;Nof Ayalon
+bg;Лапид;Lapid
+fa;زرزیر;Zarzir
+bg;Хардуф;Harduf
+fa;هاردف;Harduf
+cs;Adi;‘Adi
+nn;Adi i Israel;‘Adi
+fa;ادی، اسرائیل;‘Adi
+pl;Adi;‘Adi
+ml;അടി;‘Adi
+hr;Tel Ševa;Tel Sheva‘
+mn;Шохам;Shoham
+zh;索哈姆;Shoham
+cs;Šoham;Shoham
+ja;ショハム;Shoham
+fa;شوهام، منطقه مسکونی;Shoham
+pl;Szoham;Shoham

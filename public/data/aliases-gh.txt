@@ -1306,3 +1306,392 @@ en;Nsutem;Nsuontem
 en;Kwamikrom;Kwamekurom
 en;Tapachudi;Twabidi
 en;Basewakrom;Twabidi
+sv;Yeji;Yegyi
+vi;Yeji;Yegyi
+ja;イェジ;Yegyi
+pl;Yeji;Yegyi
+ur;یجی;Yegyi
+ur;یامفو;Yamfo
+ru;Виннебе;Winneba
+ru;Виамоасе;Wiamuasi
+nn;Wenchi;Wankyi
+ceb;Wenchi;Wankyi
+sv;Wenchi;Wankyi
+sw;Wenchi;Wankyi
+zh;溫奇;Wankyi
+nb;Wenchi;Wankyi
+yo;Wenchi;Wankyi
+ja;ウェンチ;Wankyi
+pl;Wenchi;Wankyi
+ur;وینچی;Wankyi
+ja;ワムフィー;Wamfie
+zh;瓦梅菲埃;Wamfie
+ja;ワレワレ;Walewale
+ru;Ва;Wa
+ko;와;Wa
+lt;Va;Wa
+th;วา;Wa
+ur;وا، گھانا;Wa
+ru;Туифу Прасо;Twifu Praso
+sv;Tuobodom;Tuobodum
+ja;トゥオボドゥム;Tuobodum
+ja;ツム;Tumu
+ru;Тема;Tema
+ja;テマ;Tema
+ko;테마;Tema
+zh;特马;Tema
+fa;تما;Tema
+hi;टेमा;Tema
+hy;Տեմա;Tema
+zh-Hant;特馬;Tema
+uk;Тема;Tema
+ur;تیما;Tema
+mr;तेमा;Tema
+el;Τέμα;Tema
+be;Тэма;Tema
+bn;টেমা;Tema
+si;ටෙමා;Tema
+kn;ಟೇಮಾ;Tema
+zh-HK;特馬;Tema
+ta;தேமா;Tema
+gu;તેમા;Tema
+te;టేమా;Tema
+th;เทมะ;Tema
+he;טמה;Tema
+ru;Тарква;Tarkwa
+ja;タークワ;Tarkwa
+ur;تارکوا;Tarkwa
+ru;Тамале;Tamale
+ru;Такоради;Takoradi
+sv;Agona Swedru;Swedru
+fi;Agona Swedru;Swedru
+ko;아고나스웨드루;Swedru
+sw;Agona Swedru;Swedru
+ja;アゴナ・スウェドゥル;Swedru
+fa;اگونا سویدرو;Swedru
+pl;Agona;Swedru
+ur;اگونا سویدرو;Swedru
+ko;수니아니;Sunyani
+lt;Sunjanis;Sunyani
+uk;Суньяні;Sunyani
+zh;蘇尼亞尼;Sunyani
+bg;Сухум;Suhum
+ja;スフム;Suhum
+ur;سوہوم، گھانا;Suhum
+ru;Сухум;Suhum
+ja;ソマニャ;Somanya
+sv;Sogakope;Sogakofe
+ru;Секонди;Sekondi-Takoradi
+be;Секанды-Такарады;Sekondi-Takoradi
+bg;Секонди Такоради;Sekondi-Takoradi
+he;סקונדי-טקורדי;Sekondi-Takoradi
+ja;セコンディ・タコラディ;Sekondi-Takoradi
+ko;세콘디타코라디;Sekondi-Takoradi
+lt;Sekondis-Takoradis;Sekondi-Takoradi
+th;เซกันดี-ตาโกราดี;Sekondi-Takoradi
+uk;Секонді-Такораді;Sekondi-Takoradi
+ru;Секонди-Такоради;Sekondi-Takoradi
+zh;塞康第─塔科拉迪;Sekondi-Takoradi
+fa;سکوندی-تاکورادی;Sekondi-Takoradi
+ur;سیکونڈی-ٹاکوراڈی;Sekondi-Takoradi
+bg;Савелугу;Savelugu
+ja;サベルグ;Savelugu
+ur;سایلوگو;Savelugu
+ru;Савелугу;Savelugu
+ru;Солтпонд;Saltpond
+bg;Салтпонд;Saltpond
+uk;Солтпонд;Saltpond
+ja;ソルトポンド;Saltpond
+ur;سالٹ پونڈ;Saltpond
+ko;살라가;Salaga
+bg;Салага;Salaga
+ja;サラガ;Salaga
+ur;سالاگا;Salaga
+ru;Салага;Salaga
+bg;Престеа;Prestea
+ja;プレスティ;Prestea
+ur;پریستیا;Prestea
+ru;Престеа;Prestea
+ru;Прампрам;Prampram
+ja;プラムプラム;Prampram
+zh;普拉姆普蘭;Prampram
+ja;パガ;Paga
+ru;Старый Ниго;Old Nigo
+sv;Ofoase Kese;Ofoase
+sw;Oduponkpehe;Kasoa
+ja;オドゥポンクペヘ;Kasoa
+pl;Oduponkpehe;Kasoa
+ur;کاسوا;Kasoa
+ru;Ода;Akim Oda
+ja;アキム・オダ;Akim Oda
+fa;اکیم اودا;Akim Oda
+pl;Oda;Akim Oda
+ur;اکیم اودا;Akim Oda
+sv;Obuasi;Obuase
+lt;Obuasis;Obuase
+ru;Обуаси;Obuase
+ja;ニャクロム;Nyakrom
+ur;نیاکروم;Nyakrom
+zh;恩蘇塔;Nsuta
+ru;Нсоатре;Nsoatre
+he;נסואטרה;Nsoatre
+sv;Nsawkaw;Nsoko
+yo;Nsawkaw;Nsoko
+ja;ンソウカウ;Nsoko
+zh;恩索考;Nsoko
+zh;恩薩瓦姆;Nsawam
+ja;ンサワム;Nsawam
+ur;نساوام;Nsawam
+sv;Nkawie;Nkawiekuma
+pl;Nkawie;Nkawiekuma
+nb;Mankessim;Mankesim
+pl;Mankessim;Mankesim
+he;מנקסים;Mankesim
+ru;Мампонг;Mampong
+zh;曼龐;Mampong
+ja;マンポン;Mampong
+ur;مامپونگ;Mampong
+he;ממפונג;Mampong
+ru;Медина Естатес;Medina Estates
+ko;레곤;Legon
+ja;レゴン;Legon
+zh;拉拉班加;Larabanga
+ka;ლარაბანგას მეჩეთი;Larabanga
+ja;ララバンガ;Larabanga
+ur;لارابانگا;Larabanga
+ja;クワメ・ダンソ;Kwame Danso
+zh;夸梅丹索;Kwame Danso
+sv;Kuntanase;Kuntanasi
+ko;쿠마시;Kumasi
+lt;Kumasis;Kumasi
+zh;库马西;Kumasi
+ru;Кумаси;Kumasi
+sr;Кумаси;Kumasi
+hy;Կումասի;Kumasi
+uk;Кумасі;Kumasi
+mn;Кумаси;Kumasi
+be;Кумасі;Kumasi
+bg;Кумаси;Kumasi
+ja;クマシ;Kumasi
+pa;ਕੁਮਾਸੀ;Kumasi
+fa;کوماسی;Kumasi
+ky;Кумаси шаары;Kumasi
+ur;کوماسی;Kumasi
+sv;Kpando;Kpandu
+bg;Кпанду;Kpandu
+ja;クパンドゥ;Kpandu
+ur;کپاندو;Kpandu
+he;קפאנדו;Kpandu
+ca;Kpando;Kpandu
+ru;Кпанду;Kpandu
+lt;Kokrobitas;Kokrobite
+ru;Кофоридуа;Koforidua
+fa;کوفوریدوئا;Koforidua
+ko;코포리두아;Koforidua
+ur;کوفوریدوا;Koforidua
+zh;科福里杜亞;Koforidua
+ru;Кета;Keta
+hy;Կետա;Keta
+ur;کیٹا;Keta
+ko;케타;Keta
+zh;凱塔;Keta
+ja;ケタ;Keta
+fa;کتا;Keta
+sv;Kenyasi;Kenyase Number Two
+yo;Kenyasi;Kenyase Number Two
+ja;ケニャシ;Kenyase Number Two
+ja;ジャシカン;Jasikan
+ur;جسکان;Jasikan
+ru;Хо;Ho
+fa;هو٬ غنا;Ho
+ja;ホ;Ho
+ko;호;Ho
+uk;Хо;Ho
+ur;ہو، گھانا;Ho
+sv;Half Assini;Awiane
+ru;Халф-Асини;Awiane
+uk;Хаф-Ассіні;Awiane
+ko;감바가;Gambaga
+bg;Гамбага;Gambaga
+zh;嘎巴嘎;Gambaga
+ja;ガンバガ;Gambaga
+sv;Enchi;Enkye
+ja;エンチ;Enkye
+ru;Элмина;Elmina
+he;אלמינה;Elmina
+ja;エルミナ;Elmina
+ko;엘미나;Elmina
+sr;Елмина;Elmina
+ur;ایلمینا;Elmina
+bg;Елмина;Elmina
+uk;Ельміна;Elmina
+zh;埃尔米纳;Elmina
+sv;Dunkwa-on-Offin;Dunkwa
+sw;Dunkwa-on-Offin;Dunkwa
+ja;ドゥンクワ・オン・オフィン;Dunkwa
+pl;Dunkwa-on-Offin;Dunkwa
+ur;دنکوا-آن-اوفن;Dunkwa
+zh;奥芬河畔Dunkwa;Dunkwa
+ru;Дом;Dome
+ru;Диксков;Dixcove
+he;דיקסקוב;Dixcove
+zh;迪克斯多夫;Dixcove
+sv;Dadieso;Dadeeso
+ja;ダディソ;Dadeeso
+ko;케이프코스트;Cape Coast
+ja;ケープ・コースト;Cape Coast
+lt;Keip Kostas;Cape Coast
+ru;Кейп-Кост;Cape Coast
+zh;海岸角;Cape Coast
+fa;کیپ کوست;Cape Coast
+uk;Кейп-Кост;Cape Coast
+ur;کیپ کوسٹ;Cape Coast
+ja;ブスニャ;Busunya
+zh;布蘇尼亞;Busunya
+ja;ブンクプルグ;Bunkpurugu
+zh;本普魯克;Bunkpurugu
+ru;Болгатанге;Bolgatanga
+ja;ボルガタンガ;Bolgatanga
+ko;볼가탕가;Bolgatanga
+ru;Болгатанга;Bolgatanga
+zh;博爾加坦加;Bolgatanga
+zh;博戈索;Bogoso
+yo;Bodwesango;Bodweseanwo
+sv;Bimbilla;Bimbila
+yo;Bimbilla;Bimbila
+pl;Bimbilla;Bimbila
+ig;Bambilla;Bimbila
+ru;Биг-Ада;Big Ada
+zh-Hant;貝因;Beyin
+ru;Бейин;Beyin
+zh;贝因;Beyin
+ja;ベクワイ;Bekwai
+yo;Ayanfuri;Ayamfor
+ru;Авасо;Awaso
+fa;ادابراکا;Adabraka
+he;אדאבראקה;Adabraka
+zh;阿泰布布;Atebubu
+ja;アテブブ;Atebubu
+hi;अश्यमेन;Ashaiman
+ru;Ашаиман;Ashaiman
+fi;Ashiaman;Ashaiman
+lt;Ašaimanas;Ashaiman
+hr;Ashiaman;Ashaiman
+lv;Ašaimana;Ashaiman
+bn;অ্যাশিয়ামান;Ashaiman
+zh-Hans;奥巴西;Ashaiman
+si;අසහියාමන්;Ashaiman
+uk;Ашаіман;Ashaiman
+id;Ashiaman;Ashaiman
+ur;اشیامان;Ashaiman
+kn;ಆಶಿಯಾಮನ್;Ashaiman
+ko;아시아만;Ashaiman
+mr;अशिमान;Ashaiman
+ms;Ashiaman;Ashaiman
+el;Ασχαϊμάν;Ashaiman
+ta;அஷியாமண்;Ashaiman
+gu;અશિઅમન;Ashaiman
+te;ఆశియామాన్;Ashaiman
+vi;Ashiaman;Ashaiman
+nb;Ashiaman;Ashaiman
+th;เซียแมน;Ashaiman
+ja;アシャマン;Ashaiman
+pl;Ashiaman;Ashaiman
+da;Ashiaman;Ashaiman
+tr;Ashiaman;Ashaiman
+bg;Асаманкесе;Asamankese
+ja;アサマンケセ;Asamankese
+ur;اسامانکیسے;Asamankese
+ru;Асаманкесе;Asamankese
+ru;Апам;Apam
+ja;アパム;Apam
+ur;اپام;Apam
+zh-Hant;安亞科;Anyako
+zh;安亚科;Anyako
+ru;Аномабу;Anomabu
+ja;アノマブ;Anomabu
+bg;Анлога;Anloga
+ja;アンロガ;Anloga
+ur;انلوگا;Anloga
+ru;Анлога;Anloga
+vi;Anaji;Anagyi
+fa;اناجی;Anagyi
+ru;Амасаман;Amasaman
+fa;اماسامان;Amasaman
+fa;امانتن;Amantin
+ru;Аманфром;Amanfrom
+ko;아코솜보;Akosombo
+ja;アコソンボ;Akosombo
+lt;Akosombas;Akosombo
+fa;اکوسامبو;Akosombo
+sv;Gomoa Afransi;Afransi
+ceb;Achiaman;Atsiaman
+sv;Achiaman;Atsiaman
+bg;Ачиаман;Atsiaman
+sv;Ashaiman;Atsiaman
+ru;Ачиаман;Atsiaman
+fa;اکرنسوا;Akyerensua
+bg;Акра;Accra
+he;אקרה;Accra
+ja;アクラ;Accra
+ko;아크라;Accra
+lt;Akra;Accra
+os;Аккрæ;Accra
+pl;Akra;Accra
+ru;Аккра;Accra
+sk;Akkra;Accra
+sl;Akra;Accra
+uk;Аккра;Accra
+mk;Акра;Accra
+el;΄Aκκρα;Accra
+am;አክራ;Accra
+eu;Akkra;Accra
+mr;आक्रा;Accra
+tr;Akra;Accra
+tg;Аккра;Accra
+el;Άκκρα;Accra
+az;Akkra;Accra
+cv;Аккра;Accra
+mrj;Аккра;Accra
+ta;அக்ரா;Accra
+ky;Аккра;Accra
+be;Акра;Accra
+or;ଆକ୍ରା;Accra
+my;အက်ခရာမြို့;Accra
+th;อักกรา;Accra
+ur;اکرا;Accra
+sr;Акра;Accra
+pa;ਅਕਰਾ;Accra
+ml;അക്ര;Accra
+yo;Aakrá;Accra
+udm;Аккра;Accra
+ckb;ئەکرا;Accra
+bo;ཨ་ཁ་ར།;Accra
+hy;Աքրա;Accra
+is;Akkra;Accra
+ka;აკრა;Accra
+ceb;Acra;Accra
+fa;آکرا;Accra
+zh;阿克拉;Accra
+bn;আক্রা;Accra
+ce;Аккра;Accra
+hi;अक्रा;Accra
+yue;阿克拉;Accra
+kaa;Akkra;Accra
+so;Akara;Accra
+uz;Akkra;Accra
+vep;Akkr;Accra
+fa;ابرافو;Abrafo
+bg;Абосо;Aboso
+ja;アボソ;Aboso
+fa;ابوسو;Aboso
+ru;Абосо;Aboso
+fa;ابوکوبی;Abokobi
+fa;ابوفور;Abofour
+fa;ابتیفی;Abetifi
+uk;Абакрампа;Abakrampa
+fa;آباکرامپا;Abakrampa
+sv;Akontombra;Sefwi Akontombra
+ja;セフィ・アコントンブラ;Sefwi Akontombra
+pl;Awoshie;Awoshi
+ru;Секонди;Sekondi

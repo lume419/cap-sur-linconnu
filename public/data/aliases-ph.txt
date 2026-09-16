@@ -4669,3 +4669,323 @@ fil;Canclaran;Cangclaran
 fil;Bagasbas;Dapdap
 fil;Tamdagar;Tamdagan
 fil;San Julian;San Juan
+bg;Замбоанга;Zamboanga
+uk;Замбоанга;Zamboanga
+sr;Замбоанга;Zamboanga
+he;ויגאן;Vigan
+ka;ვიგანი;Vigan
+el;Βιγκάν;Vigan
+no;Valencia City;NIA Valencia
+no;Tuguegaro;Tuguegarao
+am;ቱጉገራዖ;Tuguegarao
+tt;Түгегарао;Tuguegarao
+tt;Талисай;Talisay
+lt;Talisėjus;Talisay
+lv;Taliseja;Talisay
+uk;Талісей;Talisay
+el;Ταλισέι;Talisay
+tt;Тагум;Magugpo Poblacion
+ty;Tagum;Magugpo Poblacion
+ho;Tagum;Magugpo Poblacion
+lt;Tagumas;Magugpo Poblacion
+lv;Taguma;Magugpo Poblacion
+hu;Tagum;Magugpo Poblacion
+nah;Tagum;Magugpo Poblacion
+uk;Тагум;Magugpo Poblacion
+yo;Tagum;Magugpo Poblacion
+jam;Tagum;Magugpo Poblacion
+mg;Tagum;Magugpo Poblacion
+mi;Tagum;Magugpo Poblacion
+ig;Tagum;Magugpo Poblacion
+sco;Tagum;Magugpo Poblacion
+el;Τάγκουμ;Magugpo Poblacion
+eu;Tagum;Magugpo Poblacion
+na;Tagum;Magugpo Poblacion
+nb;Tagum;Magugpo Poblacion
+zu;Tagum;Magugpo Poblacion
+fi;Tagum;Magugpo Poblacion
+fj;Tagum;Magugpo Poblacion
+sl;Tagum;Magugpo Poblacion
+ga;Tagum;Magugpo Poblacion
+sm;Tagum;Magugpo Poblacion
+kg;Tagum;Magugpo Poblacion
+ca;Tagum;Magugpo Poblacion
+om;Tagum;Magugpo Poblacion
+sv;Tagum;Magugpo Poblacion
+sw;Tagum;Magugpo Poblacion
+tpi;Tagum;Magugpo Poblacion
+xh;Tagum;Magugpo Poblacion
+cy;Tagum;Magugpo Poblacion
+ha;Tagum;Magugpo Poblacion
+pl;Tagum;Magugpo Poblacion
+da;Tagum;Magugpo Poblacion
+lt;Tagajtajus;Tagaytay
+lv;Tagajtaja;Tagaytay
+uk;Тагайтай;Tagaytay
+el;Τάγκεϊταϊ;Tagaytay
+ka;ტაგაიტაი;Tagaytay
+am;ታክሎባን;Tacloban
+uk;Таклобан;Tacloban
+he;טקלובן;Tacloban
+lt;Taklobanas;Tacloban
+lv;Taklobana;Tacloban
+os;Таклобан;Tacloban
+mk;Таклобан;Tacloban
+cv;Таклопан;Tacloban
+el;Τακλομπάν;Tacloban
+bg;Таклобан;Tacloban
+af;Takloban;Tacloban
+sr;Таклобан;Tacloban
+no;Tabaco City;Tabaco
+bg;Сумпонг;Sumpong
+tt;Сан-Пабло;San Pablo
+lt;San Pablas;San Pablo
+lv;Sanpablo;San Pablo
+uk;Сан-Пабло;San Pablo
+el;Σαν Πάμπλο;San Pablo
+sv;San Pablo City;San Pablo
+tt;Сан-Хосе;San Jose
+lt;San Chosė;San Jose
+lv;Sanhosē;San Jose
+uk;Сан-Хосе;San Jose
+el;Σαν Χοσέ;San Jose
+sv;San Jose City;San Jose
+he;סן חוסה;San Jose
+lt;San Fernandas;San Fernando
+bg;Сан Фернандо;San Fernando
+am;ሳን ፈርናንዶ;San Fernando
+tt;Сан-Фернандо;San Fernando
+mrj;Самал;Samal
+sv;Sagay City;Sagay
+fil;Lungsod ng Roxas;Roxas City
+fil;Cadiz;Roxas City
+sr;Кезон Сити;Quezon City
+uk;Кесон-Сіті;Quezon City
+bg;Пуерто Принсеса;Puerto Princesa
+da;Puerto Princesa City;Puerto Princesa
+hy;Պանդաչան;Pandacan
+tt;Панабо;Panabo
+lt;Panabas;Panabo
+uk;Панабо;Panabo
+el;Πανάμπο;Panabo
+ty;Palayan;Palayan City
+ho;Palayan;Palayan City
+lt;Palajanas;Palayan City
+lv;Palajana;Palayan City
+hu;Palayan;Palayan City
+nah;Palayan;Palayan City
+uk;Палаян;Palayan City
+yo;Palayan;Palayan City
+jam;Palayan;Palayan City
+mg;Palayan;Palayan City
+mi;Palayan;Palayan City
+ig;Palayan;Palayan City
+sco;Palayan;Palayan City
+el;Παλαγιάν;Palayan City
+eu;Palayan;Palayan City
+na;Palayan;Palayan City
+nb;Palayan;Palayan City
+zu;Palayan;Palayan City
+fi;Palayan;Palayan City
+fj;Palayan;Palayan City
+ga;Palayan;Palayan City
+sm;Palayan;Palayan City
+kg;Palayan;Palayan City
+om;Palayan;Palayan City
+ca;Palayan;Palayan City
+sv;Palayan;Palayan City
+sw;Palayan;Palayan City
+tpi;Palayan;Palayan City
+xh;Palayan;Palayan City
+cy;Palayan;Palayan City
+ha;Palayan;Palayan City
+pl;Palayan;Palayan City
+da;Palayan;Palayan City
+am;ፓጋድያን;Pagadian
+tt;Пагадиан;Pagadian
+no;City of Naga;Naga
+ca;Montserrat;Monserrat
+bg;Манила;Manila
+he;מנילה;Manila
+mk;Манила;Manila
+el;Μανίλα;Manila
+am;ማኒላ;Manila
+sr;Манила;Manila
+be;Маніла;Manila
+os;Манилæ;Manila
+uk;Маніла;Manila
+ht;Manyl;Manila
+nah;Manillah;Manila
+ckb;مانیلا;Manila
+mg;Manille;Manila
+ga;Mainile;Manila
+sah;Манила;Manila
+ka;მანილა;Manila
+tt;Мандалуйоң;Mandaluyong City
+ty;Mandaluyong;Mandaluyong City
+ho;Mandaluyong;Mandaluyong City
+lt;Manadalujongas;Mandaluyong City
+lv;Manadalujonga;Mandaluyong City
+hu;Mandaluyong;Mandaluyong City
+nah;Mandaluyong;Mandaluyong City
+uk;Мандалуйонг;Mandaluyong City
+yo;Mandaluyong;Mandaluyong City
+jam;Mandaluyong;Mandaluyong City
+mg;Mandaluyong;Mandaluyong City
+mi;Mandaluyong;Mandaluyong City
+sco;Mandaluyong;Mandaluyong City
+ig;Mandaluyong;Mandaluyong City
+mk;Мандалујонг;Mandaluyong City
+el;Μανταλουγιόνκ;Mandaluyong City
+eu;Mandaluyong;Mandaluyong City
+na;Mandaluyong;Mandaluyong City
+nb;Mandaluyong;Mandaluyong City
+zu;Mandaluyong;Mandaluyong City
+fi;Mandaluyong;Mandaluyong City
+be;Мандалуён;Mandaluyong City
+fj;Mandaluyong;Mandaluyong City
+ga;Mandaluyong;Mandaluyong City
+sm;Mandaluyong;Mandaluyong City
+kg;Mandaluyong;Mandaluyong City
+om;Mandaluyong;Mandaluyong City
+ca;Mandaluyong;Mandaluyong City
+sv;Mandaluyong;Mandaluyong City
+sw;Mandaluyong;Mandaluyong City
+tpi;Mandaluyong;Mandaluyong City
+xh;Mandaluyong;Mandaluyong City
+cy;Mandaluyong;Mandaluyong City
+ha;Mandaluyong;Mandaluyong City
+pl;Mandaluyong;Mandaluyong City
+da;Mandaluyong;Mandaluyong City
+bg;Манагок;Managok
+no;Malaybalay City;Malaybalay
+bg;Маилаг;Mailag
+bg;Линабо;Linabo
+pl;Lapu-Lapu;Lapu-Lapu City
+bg;Лагуитас;Laguitas
+lt;La Karlota;La Carlota
+lv;Lakarlota;La Carlota
+uk;Ла-Карлота;La Carlota
+el;Λα Καρλότα;La Carlota
+he;לה קרלוטה;La Carlota
+am;ኮሮናዳል;Koronadal
+tt;Коронадаль;Koronadal
+bg;Киналансан;Kinalansan
+he;קוויט;Kawit
+ka;დუმაგეტე;Dumaguete
+tt;Думагете;Dumaguete
+lt;Dumagetas;Dumaguete
+lv;Dumageta;Dumaguete
+uk;Думагете;Dumaguete
+el;Ντουμαγκουέτε;Dumaguete
+he;דומגטה;Dumaguete
+no;Digos City;Digos
+uk;Давао;Davao
+bg;Давао;Davao
+sah;Давао;Davao
+sr;Давао;Davao
+af;Davao Stad;Davao
+be;Даваа;Davao
+he;דבאו סיטי;Davao
+am;ዳቫዎ;Davao
+tt;Давао;Davao
+chk;Ciudad de Dapitan;Dapitan
+lt;Dapitanas;Dapitan
+lv;Dapitana;Dapitan
+uk;Дапітан;Dapitan
+el;Ντάπιταν;Dapitan
+lt;Dagupanas;Dagupan
+mrj;Кулион;Culion
+am;ኮታባቶ;Cotabato
+az;Kotabato;Cotabato
+tt;Котабато;Cotabato
+no;Cebu;Cebu City
+uk;Себу;Cebu City
+am;ሴቡ ከተማ;Cebu City
+az;Sebu Şəhəri;Cebu City
+ha;Garin Cebu;Cebu City
+om;Magaalaa Cebu;Cebu City
+so;Magaalada Cebu;Cebu City
+sw;Jiji la Cebu;Cebu City
+tt;Себу Шәһәре;Cebu City
+be;Калукан;Caloocan
+fi;Lungsod ng Caloocan;Caloocan
+he;קלואוקן;Caloocan
+sr;Калоокан;Caloocan
+uk;Калоокан;Caloocan
+pl;Calbayog;Calbayog City
+am;ካላፓን;Calapan
+az;Kalapan;Calapan
+tt;Калапан;Calapan
+no;Calamba City;Calamba
+am;ካላምባ;Calamba
+az;Kalamba;Calamba
+tt;Каламба;Calamba
+lt;Kagajan de Oras;Cagayan de Oro
+pl;Cabanatuan;Cabanatuan City
+ka;კაბადბარანი;Cabadbaran
+lt;Butuanas;Butuan
+sv;Butuan City;Butuan
+am;ቡቱዋን;Butuan
+tt;Бутуан;Butuan
+bg;Бусди;Busdi
+et;Bulusani vald;Bulusan
+no;Borongan City;Borongan
+no;Bogo City;Bogo
+mk;Билиран;Biliran
+tt;Баяван;Bayawan
+lt;Bajavanas;Bayawan
+lv;Bajavana;Bayawan
+uk;Баяван;Bayawan
+el;Μπαγιαβάν;Bayawan
+ka;ბაიავანი;Bayawan
+sv;Bais City;Bais
+lt;Bagijas;Baguio
+az;Bagio;Baguio
+lv;Bagio;Baguio
+am;ባጊዮ;Baguio
+tt;Багио;Baguio
+tt;Баго;Bago City
+ty;Bago;Bago City
+ho;Bago;Bago City
+lt;Bagas;Bago City
+lv;Bago;Bago City
+hu;Bago;Bago City
+nah;Bago;Bago City
+uk;Баго;Bago City
+yo;Bago;Bago City
+jam;Bago;Bago City
+mg;Bago;Bago City
+mi;Bago;Bago City
+ig;Bago;Bago City
+sco;Bago;Bago City
+el;Μπάγκο;Bago City
+eu;Bago;Bago City
+na;Bago;Bago City
+nb;Bago;Bago City
+zu;Bago;Bago City
+fi;Bago;Bago City
+fj;Bago;Bago City
+ka;ბაგო;Bago City
+ga;Bago;Bago City
+sm;Bago;Bago City
+kg;Bago;Bago City
+om;Bago;Bago City
+ca;Bago;Bago City
+sw;Bago;Bago City
+tpi;Bago;Bago City
+xh;Bago;Bago City
+cy;Bago;Bago City
+ha;Bago;Bago City
+pl;Bago;Bago City
+da;Bago;Bago City
+pl;Bacolod;Bacolod City
+bg;Аглаян;Aglayan
+gl;San Xoán;San Juan
+az;San Xuan;San Juan
+el;Σαν Χουάν;San Juan
+bg;Сан Хуан;San Juan
+mk;Сан Хуан;San Juan
+ka;სან-ხუანი;San Juan
+hy;Սան Խուան;San Juan
+he;סן חואן;San Juan

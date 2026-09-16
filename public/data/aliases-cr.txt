@@ -348,3 +348,144 @@ es;Sheuab;Shewab
 es;San Antonio;Yolillal
 es;Quebrada;Rincón
 es;Buenos Aires;Horquetas
+bn;সান্তা আনা;Santa Ana
+he;סנטה אנה;Santa Ana
+el;Σαν Χοσέ;San José
+he;סאן חוסה;San José
+he;סן חוסה;San José
+lt;San Chosė;San José
+zh-TW;聖荷西;San José
+am;ሳን ሆዜ;San José
+th;ซันโฮเซ;San José
+uk;Сан-Хосе;San José
+bn;স্যান হোসে;San José
+hu;San José de Costa Rica;San José
+fa;سان خوزه;San José
+sah;Сан Хосе;San José
+ka;სან-ხოსე;San José
+os;Сан-Хосе;San José
+pa;ਸਾਨ ਹੋਸੇ;San José
+ur;سان خوزے، کوسٹاریکا;San José
+gl;San Xosé;San José
+sr;Сан Хосе;San José
+ta;சான் ஹொசே;San José
+az;San-Xose;San José
+bg;Сан Хосе;San José
+nn;San José i Costa Rica;San José
+be;Сан-Хасэ;San José
+ug;سان خوسې;San José
+bo;སན་ཇོ་སེ།;San José
+hy;Սան Խոսե;San José
+mr;सान होजे;San José
+lv;Sanhosē;San José
+mk;Сан Хозе;San José
+ce;Сан-Хосе;San José
+kaa;San Xose;San José
+vep;San Hose;San José
+yue;聖荷西;San José
+el;Σαν Ισίδρο δε Ελ Χενεράλ;San Isidro
+el;Σιουδάδ Κεσάδα;Quesada
+hy;Կեսադա;Quesada
+lt;Kesada;Quesada
+el;Πουνταρένας;Puntarenas
+lt;Puntarenasas;Puntarenas
+uk;Пунтаренас;Puntarenas
+he;פונטרנס;Puntarenas
+hy;Պունտարենաս;Puntarenas
+ur;پونتاریناس;Puntarenas
+kk;Пунтаренас;Puntarenas
+ky;Пунтаренас;Puntarenas
+bn;পুন্তারেনাস;Puntarenas
+am;ፑንታሬናስ;Puntarenas
+fa;پونتارناس;Puntarenas
+pa;ਪੁਂਤਾਰੇਨਾਸ;Puntarenas
+ps;پونتارینس;Puntarenas
+tg;Пунтаренас;Puntarenas
+tt;Пунтаренас;Puntarenas
+ca;Província de Limón;Limón
+id;Provinsi Limón;Limón
+el;Πουέρτο Λιμόν;Limón
+lt;Limonas;Limón
+he;לימון;Limón
+hy;Լիմոն;Limón
+ur;لیمون;Limón
+kk;Лимон;Limón
+ky;Лимон;Limón
+bn;লিমন;Limón
+am;ሊሞን;Limón
+fa;لیمون;Limón
+pa;ਲਿਮਨ;Limón
+ps;لیمون;Limón
+tg;Лимон;Limón
+tt;Лимон;Limón
+el;Νικόγια;Nicoya
+hy;Նիկոյա;Nicoya
+lt;Nikoja;Nicoya
+el;Λιμπέρια;Liberia
+lt;Liberija;Liberia
+he;ליבריה;Liberia
+hy;Լիբերիա;Liberia
+ur;لیبیریا، کوسٹاریکا;Liberia
+vep;Liberii;Liberia
+kk;Либерия;Liberia
+tr;Liberya;Liberia
+uz;Liberiya;Liberia
+ky;Либерия;Liberia
+bn;লাইবেরিয়া;Liberia
+am;ላይቤሪያ;Liberia
+az;Liberiya;Liberia
+fa;لیبریا;Liberia
+pa;ਲਾਈਬੇਰੀਆ;Liberia
+ps;لایبیریا;Liberia
+tg;Либерия;Liberia
+tt;Либерия;Liberia
+bg;Ередия;Heredia
+el;Ερέδια;Heredia
+lt;Heredija;Heredia
+he;ארדיה;Heredia
+hy;Էրեդիա;Heredia
+ur;ایریدیا، کوسٹاریکا;Heredia
+kk;Эредия;Heredia
+ky;Эредия;Heredia
+bn;হেরেডিয়া;Heredia
+am;ሄሬዲያ;Heredia
+fa;هریدیا;Heredia
+pa;ਹੇਰੇਡੀਆ;Heredia
+ps;هریډیا;Heredia
+tg;Эредия;Heredia
+tt;Эредия;Heredia
+lt;Kartagas;Cartago
+el;Καρτάγο;Cartago
+fa;کارتاگو، کاستاریکا;Cartago
+he;קרטגו;Cartago
+hy;Կարտագո;Cartago
+ur;کارتاگو، کوسٹاریکا;Cartago
+kk;Картаго;Cartago
+tr;Kartago;Cartago
+uz;Kartago;Cartago
+ky;Картаго;Cartago
+bn;কার্টাগো;Cartago
+am;ካርታጎ;Cartago
+az;Kartago;Cartago
+pa;ਕਾਰਟਾਗੋ;Cartago
+ps;کارتاګو;Cartago
+tg;Картаго;Cartago
+tt;Картаго;Cartago
+ca;Boruques;Boruca
+lt;Borukai;Boruca
+el;Αλαχουέλα;Alajuela
+lt;Alachuela;Alajuela
+fa;آلاخوئلا;Alajuela
+he;אלחואלה;Alajuela
+hy;Ալախուելա;Alajuela
+ur;الاخویلا;Alajuela
+kk;Алахуэла;Alajuela
+ky;Алахуэла;Alajuela
+bn;অলাহুয়েলা;Alajuela
+am;አላሁዌላ;Alajuela
+pa;ਅਲਾਹੁਏਲਾ;Alajuela
+ps;الاخویلا;Alajuela
+tg;Алахуэла;Alajuela
+tt;Алахуэла;Alajuela
+hy;Տամարինդո;Tamarindo
+lt;Tamarindas;Tamarindo

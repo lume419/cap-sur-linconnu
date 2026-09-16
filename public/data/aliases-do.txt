@@ -228,3 +228,321 @@ ru;Санто-Доминго-Эсте;Santo Domingo Este
 ar;سانتو دومينغو إيسте;Santo Domingo Este
 hi;सांतो डोमिंगो एस्ते;Santo Domingo Este
 ja;サントドミンゴエステ;Santo Domingo Este
+ur;یاسکا ارربہ;Yásica Arriba
+mk;Вила Мела;Villa Mella
+el;Σάντο Ντομίνγκο;Santo Domingo
+az;Santo-Dominqo;Santo Domingo
+be;Санта-Дамінга;Santo Domingo
+he;סנטו דומינגו;Santo Domingo
+sr;Санто Доминго;Santo Domingo
+uk;Санто-Домінго;Santo Domingo
+el;Σαντιάγο δε λος Καμπαγιέρος;Santiago de los Caballeros
+lt;Santjago de los Kabaljerosas;Santiago de los Caballeros
+he;סנטיאגו דה לוס קביירוס;Santiago de los Caballeros
+uk;Сантьяго-де-лос-Трейнта-Кабальєрос;Santiago de los Caballeros
+ur;سانتیاغو دے لوس کابائیروس;Santiago de los Caballeros
+kk;Сантьяго-де-лос-Кабальерос;Santiago de los Caballeros
+ky;Сантьяго-де-лос-Кабальерос;Santiago de los Caballeros
+bn;সান্টিয়াগো ডে লস কাবালেরোস;Santiago de los Caballeros
+am;ሳንቲያጎ ዴ ሎስ ካባሌሮስ;Santiago de los Caballeros
+fa;سانتیاگو دلس کابالیروس;Santiago de los Caballeros
+pa;ਸੈਂਟੀਆਗੋ ਦੇ ਲੋਸ ਕੈਬਾਲੇਰੋਸ;Santiago de los Caballeros
+ps;سانتیاګو دی لوس کابالیروس;Santiago de los Caballeros
+tg;Сантьяго-де-лос-Кабальерос;Santiago de los Caballeros
+kk;Санта-Крус-де-Эль-Сейбо;Santa Cruz de El Seibo
+ky;Санта-Крус-де-Эль-Сейбо;Santa Cruz de El Seibo
+bn;সান্তা ক্রুজ ডে এল সেইবো;Santa Cruz de El Seibo
+ur;سانتا کروز ڈی ایل سیبو;Santa Cruz de El Seibo
+am;ሳንታ ክሩዝ ዴ ኤል ሴቦ;Santa Cruz de El Seibo
+fa;سانتا کروز دل سیبو;Santa Cruz de El Seibo
+pa;ਸੈਂਤਾ ਕਰੂਜ਼ ਦੇ ਏਲ ਸੇਇਬੋ;Santa Cruz de El Seibo
+ps;سانتا کروز دی ایل سیبو;Santa Cruz de El Seibo
+tg;Санта-Крус-де-Эль-Сейбо;Santa Cruz de El Seibo
+kk;Санта-Крус-де-Барахона;Santa Cruz de Barahona
+ky;Санта-Крус-де-Барахона;Santa Cruz de Barahona
+bn;সান্তা ক্রুজ ডে বারাহোনা;Santa Cruz de Barahona
+ur;سانتا کروز ڈی بارہونا;Santa Cruz de Barahona
+am;ሳንታ ክሩዝ ዴ ባራሆና;Santa Cruz de Barahona
+fa;سانتا کروز دباراهونا;Santa Cruz de Barahona
+pa;ਸੈਂਤਾ ਕਰੂਜ਼ ਦੇ ਬਾਰਾਹੋਨਾ;Santa Cruz de Barahona
+ps;سانتا کروز دی بارہونا;Santa Cruz de Barahona
+tg;Санта-Крус-де-Барахона;Santa Cruz de Barahona
+kk;Самана;Samaná
+ky;Самана;Samaná
+bn;সামানা;Samaná
+ur;سمانا;Samaná
+am;ሳማና;Samaná
+fa;سامانا;Samaná
+pa;ਸਮਾਨਾ;Samaná
+ps;سمانا;Samaná
+tg;Самана;Samaná
+kk;Сан-Педро-де-Макорис;San Pedro de Macorís
+ky;Сан-Педро-де-Макорис;San Pedro de Macorís
+bn;সান পেড্রো ডে মাকোরিস;San Pedro de Macorís
+ur;سان پیڈرو ڈی مکوریس;San Pedro de Macorís
+am;ሳን ፔድሮ ዴ ማኮሪስ;San Pedro de Macorís
+fa;سان پدرو دماکوریس;San Pedro de Macorís
+pa;ਸੈਨ ਪੇਡ੍ਰੋ ਦੇ ਮਾਕੋਰਿਸ;San Pedro de Macorís
+ps;سان پیڈرو دی ماکوریس;San Pedro de Macorís
+tg;Сан-Педро-де-Макорис;San Pedro de Macorís
+kk;Сан-Хуан-де-ла-Магуана;San Juan de la Maguana
+ky;Сан-Хуан-де-ла-Магуана;San Juan de la Maguana
+bn;সান জুয়ান ডে লা মাগুয়ানা;San Juan de la Maguana
+ur;سان جوان ڈی لا ماگوانا;San Juan de la Maguana
+am;ሳን ሁዋን ዴ ላ ማጓአና;San Juan de la Maguana
+fa;سان خوان دلا ماغوانا;San Juan de la Maguana
+pa;ਸੈਨ ਜੁਆਨ ਦੇ ਲਾ ਮਾਗੁਆਨਾ;San Juan de la Maguana
+ps;سان جوان دی لا ماګوانا;San Juan de la Maguana
+tg;Сан-Хуан-де-ла-Магуана;San Juan de la Maguana
+kk;Сан-Хосе-де-Окоа;San José de Ocoa
+ky;Сан-Хосе-де-Окоа;San José de Ocoa
+bn;সান জোসে ডে ওকোয়া;San José de Ocoa
+ur;سان جوزے ڈی اوکوا;San José de Ocoa
+am;ሳን ሆሴ ዴ ኦኮአ;San José de Ocoa
+fa;سان خوسه دأوکوا;San José de Ocoa
+pa;ਸੈਨ ਜੋਸ ਦੇ ਓਕੋਆ;San José de Ocoa
+ps;سان جوزې دی اوکوا;San José de Ocoa
+tg;Сан-Хосе-де-Окоа;San José de Ocoa
+kk;Сан-Франсиско-де-Макорис;San Francisco de Macorís
+ky;Сан-Франсиско-де-Макорис;San Francisco de Macorís
+bn;সান ফ্রান্সিসকো ডে মাকোরিস;San Francisco de Macorís
+ur;سان فرانسسکو ڈی مکوریس;San Francisco de Macorís
+am;ሳን ፍራንሲስኮ ዴ ማኮሪስ;San Francisco de Macorís
+fa;سان فرانسیسکو دماکوریس;San Francisco de Macorís
+pa;ਸੈਨ ਫਰਾਂਸਿਸਕੋ ਦੇ ਮਾਕੋਰਿਸ;San Francisco de Macorís
+ps;سان فرانسسکو دی ماکوریس;San Francisco de Macorís
+tg;Сан-Франсиско-де-Макорис;San Francisco de Macorís
+kk;Сан-Фернандо-де-Монте-Кристи;San Fernando de Monte Cristi
+ky;Сан-Фернандо-де-Монте-Кристи;San Fernando de Monte Cristi
+bn;সান ফার্নান্দো ডে মোন্তে ক্রিস্টি;San Fernando de Monte Cristi
+ur;سان فرنانڈو ڈی مونٹے کرستی;San Fernando de Monte Cristi
+am;ሳን ፌርናንዶ ዴ ሞንቴ ክሪስቲ;San Fernando de Monte Cristi
+fa;سان فرناندو دمونتهکریستی;San Fernando de Monte Cristi
+pa;ਸੈਨ ਫਰਨਾਂਡੋ ਦੇ ਮੋਂਤੇ ਕਰਿਸਤੀ;San Fernando de Monte Cristi
+ps;سان فرناندو دی مونتې کریستی;San Fernando de Monte Cristi
+tg;Сан-Фернандо-де-Монте-Кристи;San Fernando de Monte Cristi
+tg;Вилояти Пуэрто Плата;Puerto Plata
+sk;San Felipe de Puerto Plata;Puerto Plata
+uk;Сан-Феліпе-де-Пуерто-Плата;Puerto Plata
+he;פוארטו פלטה;Puerto Plata
+ur;پورتو پلاتا;Puerto Plata
+kk;Пуэрто-Плата;Puerto Plata
+ky;Пуэрто-Плата;Puerto Plata
+bn;পুয়ের্তো প্লাতা;Puerto Plata
+am;ፖርቶ ፕላታ;Puerto Plata
+fa;پوئرتو پلاتا;Puerto Plata
+pa;ਪੁਏਰਤੋ ਪਲਾਤਾ;Puerto Plata
+ps;پیورتو پلاتا;Puerto Plata
+kk;Сальвалеон-де-Игуэй;Salvaleón de Higüey
+tr;Salvaleon de Higueey;Salvaleón de Higüey
+uz;Salvaleon de Higueey;Salvaleón de Higüey
+ky;Сальвалеон-де-Игуэй;Salvaleón de Higüey
+id;Salvaleon de Higueey;Salvaleón de Higüey
+ms;Salvaleon de Higueey;Salvaleón de Higüey
+bn;সালভালিওন ডে হিগুয়ে;Salvaleón de Higüey
+ur;سالوالیون ڈی ہیگویے;Salvaleón de Higüey
+am;ሳልቫሌዖን ዴ ሂጉዬ;Salvaleón de Higüey
+az;Salvaleon de Higueey;Salvaleón de Higüey
+fa;سالوالئون دهیغویی;Salvaleón de Higüey
+ha;Salvaleon de Higueey;Salvaleón de Higüey
+jv;Salvaleon de Higueey;Salvaleón de Higüey
+om;Salvaleon de Higueey;Salvaleón de Higüey
+pa;ਸਾਲਵਾਲਿਓਨ ਦੇ ਹਿਗੁਈ;Salvaleón de Higüey
+ps;سالوالیون دی ہیگویې;Salvaleón de Higüey
+so;Salvaleon de Higueey;Salvaleón de Higüey
+sw;Salvaleon de Higueey;Salvaleón de Higüey
+tg;Сальвалеон-де-Игуэй;Salvaleón de Higüey
+tt;Salvaleon de Higueey;Salvaleón de Higüey
+kk;Салcедо;Salcedo
+ky;Салcедо;Salcedo
+bn;সালসেডো;Salcedo
+ur;سالسیڈو;Salcedo
+am;ሳልሴዶ;Salcedo
+fa;سالسیدو;Salcedo
+pa;ਸਾਲਸੇਡੋ;Salcedo
+ps;سالسیډو;Salcedo
+tg;Салcедо;Salcedo
+kk;Сан-Игнасио-де-Сабанета;San Ignacio de Sabaneta
+ky;Сан-Игнасио-де-Сабанета;San Ignacio de Sabaneta
+bn;সান ইগনাসিও ডে সাবানেতা;San Ignacio de Sabaneta
+ur;سان اگناسیو ڈی سابانیتا;San Ignacio de Sabaneta
+am;ሳን ኢግናሲዮ ዴ ሳባኔታ;San Ignacio de Sabaneta
+fa;سان اغناسیو دسابانیتا;San Ignacio de Sabaneta
+pa;ਸੈਨ ਇਗਨਾਸਿਓ ਦੇ ਸਾਬਾਨੇਤਾ;San Ignacio de Sabaneta
+ps;سان اگناسیو دی سابانیتا;San Ignacio de Sabaneta
+tg;Сан-Игнасио-де-Сабанета;San Ignacio de Sabaneta
+ur;سبانہ دل پورٹو;Sabana del Puerto
+ur;سبانہ بے;Sabana Buey
+lt;Punta Kana;Punta Cana
+bg;Пизарете;Pizarrete
+kk;Педерналес;Pedernales
+ky;Педерналес;Pedernales
+bn;পেডার্নালেস;Pedernales
+ur;پیڈرنالس;Pedernales
+am;ፐደርናለስ;Pedernales
+fa;پدرنالس;Pedernales
+pa;ਪੇਡਰਨਾਲਸ;Pedernales
+ps;پیډرنالس;Pedernales
+tg;Педерналес;Pedernales
+kk;Нейба;Neiba
+ky;Нейба;Neiba
+bn;নেইবা;Neiba
+ur;نیبا;Neiba
+am;ኔባ;Neiba
+fa;نیبا;Neiba
+pa;ਨੇਇਬਾ;Neiba
+ps;نیبا;Neiba
+tg;Нейба;Neiba
+kk;Нагуа;Nagua
+ky;Нагуа;Nagua
+bn;নাগুয়া;Nagua
+ur;ناگوا;Nagua
+am;ናጓ;Nagua
+fa;ناگوا;Nagua
+pa;ਨਾਗੁਆ;Nagua
+ps;ناګوا;Nagua
+tg;Нагуа;Nagua
+kk;Монте-Плата;Monte Plata
+ky;Монте-Плата;Monte Plata
+bn;মোন্তে প্লাতা;Monte Plata
+ur;مونٹے پلاتا;Monte Plata
+am;ሞንቴ ፕላታ;Monte Plata
+fa;مونتهپلاتا;Monte Plata
+pa;ਮੋਂਤੇ ਪਲਾਤਾ;Monte Plata
+ps;مونتې پلاتا;Monte Plata
+tg;Монте-Плата;Monte Plata
+kk;Мока;Moca
+ky;Мока;Moca
+bn;মোকা;Moca
+ur;موکا;Moca
+am;ሞካ;Moca
+fa;موکا;Moca
+pa;ਮੋਕਾ;Moca
+ps;موکا;Moca
+tg;Мока;Moca
+bg;Матая;Matayaya
+kk;Мао;Mao
+ky;Мао;Mao
+bn;মাও;Mao
+ur;ماؤ;Mao
+am;ማዎ;Mao
+fa;ماو;Mao
+pa;ਮਾਓ;Mao
+ps;ماو;Mao
+tg;Мао;Mao
+he;לה רומנה;La Romana
+ur;لا رومانا، جمہوریہ ڈومینیکن;La Romana
+kk;Ла-Романа;La Romana
+ky;Ла-Романа;La Romana
+bn;লা রোমানা;La Romana
+am;ላ ሮማና;La Romana
+fa;لا رومانا;La Romana
+pa;ਲਾ ਰੋਮਾਨਾ;La Romana
+ps;لا رومانا;La Romana
+tg;Ла-Романа;La Romana
+ur;لا جایبا;La Jaiba
+ur;لا کایا;La Caya
+kk;Химани;Jimaní
+bn;জিমানি;Jimaní
+ur;جیمانی;Jimaní
+am;ጂማኒ;Jimaní
+fa;جیمانی;Jimaní
+pa;ਜਿਮਾਨੀ;Jimaní
+ps;جیمانی;Jimaní
+tg;Химани;Jimaní
+kk;Хато-Майор-дель-Рей;Hato Mayor del Rey
+ky;Хато-Майор-дель-Рей;Hato Mayor del Rey
+bn;হাতো মেয়র ডেল রে;Hato Mayor del Rey
+ur;ہاتو مایر ڈیل ری;Hato Mayor del Rey
+am;ሃቶ ሜዮር ዴል ሬ;Hato Mayor del Rey
+fa;هاتومایوردلری;Hato Mayor del Rey
+pa;ਹਾਤੋ ਮੇਅਰ ਡੇਲ ਰੇ;Hato Mayor del Rey
+ps;هاتو مایر دیل ری;Hato Mayor del Rey
+tg;Хато-Майор-дель-Рей;Hato Mayor del Rey
+kk;Дахабон;Dajabón
+ky;Дахабон;Dajabón
+bn;দাজাবন;Dajabón
+ur;داجابون;Dajabón
+am;ዳጃቦን;Dajabón
+fa;داجابون;Dajabón
+pa;ਦਾਜਾਬਨ;Dajabón
+ps;داجابون;Dajabón
+tg;Дахабон;Dajabón
+kk;Котуи;Cotuí
+ky;Котуи;Cotuí
+bn;কোটুই;Cotuí
+ur;کوتوئی;Cotuí
+am;ኮቱይ;Cotuí
+fa;کوتویی;Cotuí
+pa;ਕੋਟੁਈ;Cotuí
+ps;کوتوی;Cotuí
+tg;Котуи;Cotuí
+el;Κονσεπσιόν δε Λα Βέγα;La Vega
+he;קונספסיון דה לה וגה;La Vega
+uk;Консепсьйон-де-ла-Вега;La Vega
+ur;لا ویغا;La Vega
+kk;Ла-Вега;La Vega
+ky;Ла-Вега;La Vega
+bn;লা ভেগা;La Vega
+am;ላ ቬጋ;La Vega
+fa;لاویگا;La Vega
+pa;ਲਾ ਵੇਗਾ;La Vega
+ps;لا ویګا;La Vega
+tg;Ла-Вега;La Vega
+kk;Коменадор;Comendador
+ky;Коменадор;Comendador
+bn;কোমেন্ডাডোর;Comendador
+ur;کومیندادور;Comendador
+am;ኮሜንዳዶር;Comendador
+fa;کومندادور;Comendador
+pa;ਕੋਮੇਂਡਾਡੋਰ;Comendador
+ps;کومندادور;Comendador
+tg;Коменадор;Comendador
+kk;Бонао;Bonao
+ky;Бонао;Bonao
+bn;বোনাও;Bonao
+ur;بوناؤ;Bonao
+am;ቦናዖ;Bonao
+fa;بوناو;Bonao
+pa;ਬੋਨਾਓ;Bonao
+ps;بوناو;Bonao
+tg;Бонао;Bonao
+kk;Сан-Кристобаль;San Cristóbal
+ky;Сан-Кристобаль;San Cristóbal
+bn;সান ক্রিস্টোবাল;San Cristóbal
+ur;سان کرسٹوبال;San Cristóbal
+am;ሳን ክሪስቶባል;San Cristóbal
+fa;سان کریستوبال;San Cristóbal
+pa;ਸੈਨ ਕਰਿਸਤੋਬਾਲ;San Cristóbal
+ps;سان کریستوبال;San Cristóbal
+tg;Сан-Кристобаль;San Cristóbal
+bg;Баяхибе;Bayahibe
+kk;Бани;Baní
+ky;Бани;Baní
+bn;বানি;Baní
+ur;بانی;Baní
+am;ባኒ;Baní
+fa;بانی;Baní
+pa;ਬਾਨੀ;Baní
+ps;بانی;Baní
+tg;Бани;Baní
+kk;Асуа;Azua
+ky;Асуа;Azua
+bn;আজুয়া;Azua
+ur;ازوآ;Azua
+am;አዙዋ;Azua
+fa;ازوا;Azua
+pa;ਅਜੁਆ;Azua
+ps;ازوا;Azua
+tg;Асуа;Azua
+fa;اگوا سانتا دل یونا;Agua Santa del Yuna
+ur;اگوا سانتا دل یونا;Agua Santa del Yuna
+kk;Санто-Доминго-Есте;Santo Domingo Este
+ky;Санто-Доминго-Эсте;Santo Domingo Este
+bn;সান্তো ডোমিঙ্গো এস্তে;Santo Domingo Este
+ur;سانتو ڈومنگو ایسٹے;Santo Domingo Este
+am;ሳንቶ ዶሚንጎ ኢስቴ;Santo Domingo Este
+fa;سانتو دومینگو استه;Santo Domingo Este
+pa;ਸਾਂਤੋ ਡੋਮਿਂਗੋ ਏਸਟੇ;Santo Domingo Este
+ps;سانتو دومینګو استه;Santo Domingo Este
+tg;Санто-Доминго-Эсте;Santo Domingo Este

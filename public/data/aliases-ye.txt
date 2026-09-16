@@ -41263,3 +41263,352 @@ ar;مصبيح;Maşbīḩ
 ar;ركب;Rakb
 ar;حرم;Ḩaram
 ar;المصلا;Al Muşallā
+kk;Зинджибар;Zinjibār
+ky;Зинджибар;Zinjibār
+hi;ज़िंजिबार;Zinjibār
+bn;জিনজিবার;Zinjibār
+ur;زنجبار;Zinjibār
+am;ዚንጂባር;Zinjibār
+ja;ジンジバル;Zinjibār
+pa;ਜ਼ਿੰਜ਼ੀਬਾਰ;Zinjibār
+ps;زنجبار;Zinjibār
+so;Sinjibaar;Zinjibār
+sw;Zinjibari;Zinjibār
+tg;Зинҷибор;Zinjibār
+tt;Зинджибар;Zinjibār
+ur;یون;Yuwan
+ur;یختل;Yakhtul
+ur;وریاہ، یمن;`Uwayrah
+ur;تبر;Tubr
+kk;Таиз;Taiz
+ky;Таиз;Taiz
+hi;ताइज़;Taiz
+bn;তাইজ;Taiz
+ur;تعز;Taiz
+am;ታዓዝ;Taiz
+ja;タイズ;Taiz
+pa;ਤਾਇਜ਼;Taiz
+ps;تعز;Taiz
+so;Taaciz;Taiz
+sw;Taizi;Taiz
+tg;Таиз;Taiz
+tt;Таиз;Taiz
+hr;Sukhra;Shuqrah
+uk;Шукра;Shuqrah
+ja;シュクラ;Shuqrah
+he;סיאון;Seiyun
+ja;サユーン;Seiyun
+el;Σάνα;Sanaa
+am;ሳና;Sanaa
+br;Sana'a;Sanaa
+et;Şana‘ā';Sanaa
+he;צנעא;Sanaa
+ja;サヌア;Sanaa
+ko;사나;Sanaa
+tg;Сана;Sanaa
+tg;Санъо;Sanaa
+no;Sana;Sanaa
+hr;Sana;Sanaa
+sl;Sana;Sanaa
+sr;Сана;Sanaa
+uk;Сана;Sanaa
+be;Сана;Sanaa
+kk;Сада;Sa'dah
+uz;Sada;Sa'dah
+ky;Сада;Sa'dah
+hi;सादा;Sa'dah
+bn;সাদাহ;Sa'dah
+ur;صعدہ;Sa'dah
+am;ሳዓዳ;Sa'dah
+ja;サアダ;Sa'dah
+pa;ਸਾਦਾ;Sa'dah
+ps;صعدة;Sa'dah
+so;Caadah;Sa'dah
+sw;Sadaa;Sa'dah
+tg;Сода;Sa'dah
+tt;Сада;Sa'dah
+nn;Subar;Şabir
+kk;Мариб;Ma'rib
+uz;Marib;Ma'rib
+ky;Мариб;Ma'rib
+hi;मारिब;Ma'rib
+bn;মারিব;Ma'rib
+ur;معرب;Ma'rib
+am;ማዓሪብ;Ma'rib
+ja;マーリブ;Ma'rib
+pa;ਮਾਰਿਬ;Ma'rib
+ps;معرب;Ma'rib
+so;Maarib;Ma'rib
+sw;Maribu;Ma'rib
+tg;Мориб;Ma'rib
+tt;Мариб;Ma'rib
+ur;مدھبال;Madhbal
+ur;لاہروم;Lahrum
+kk;Лахидж;Laḩij
+ky;Лахидж;Laḩij
+hi;लाहिज;Laḩij
+bn;লাহিজ;Laḩij
+ur;لاہج;Laḩij
+am;ላሂጅ;Laḩij
+ja;ラヒジ;Laḩij
+pa;ਲਾਹਿਜ;Laḩij
+ps;لاهج;Laḩij
+so;Lahaaj;Laḩij
+sw;Lahiji;Laḩij
+tg;Лоҳидж;Laḩij
+tt;Лахидж;Laḩij
+bg;Килмиа;Kilmia
+uk;Кілмія;Kilmia
+he;איב;Ibb
+ja;イッブ;Ibb
+ko;이브;Ibb
+lt;Ibas;Ibb
+uk;Ібб;Ibb
+ur;اب;Ibb
+zh;伊卜;Ibb
+kk;Ибб;Ibb
+ky;Ибб;Ibb
+hi;इब्ब;Ibb
+bn;ইব্ব;Ibb
+am;ኢብ;Ibb
+pa;ਇਬ;Ibb
+ps;ای بی;Ibb
+sw;Ibbu;Ibb
+tg;Ибб;Ibb
+tt;Ибб;Ibb
+kk;Хажжа;Ḩajjah
+uz;Hojja;Ḩajjah
+ky;Хажжа;Ḩajjah
+hi;हज्जा;Ḩajjah
+bn;হাজ্জাহ;Ḩajjah
+ur;حجہ;Ḩajjah
+am;ሃጃህ;Ḩajjah
+ja;ハッジャ;Ḩajjah
+pa;ਹੱਜਾ;Ḩajjah
+ps;حجه;Ḩajjah
+sw;Hajja;Ḩajjah
+tg;Ҳаҷҷа;Ḩajjah
+tt;Хаджа;Ḩajjah
+kk;Дамар;Dhamār
+uz;Damar;Dhamār
+ky;Дамар;Dhamār
+hi;धमार;Dhamār
+bn;ধামার;Dhamār
+ur;ذمار;Dhamār
+am;ዳማር;Dhamār
+ja;ダマール;Dhamār
+pa;ਧਮਾਰ;Dhamār
+ps;ذمار;Dhamār
+so;Damar;Dhamār
+sw;Damari;Dhamār
+tg;Дамор;Dhamār
+tt;Дамар;Dhamār
+he;בית רדם;Bayt Radm
+nn;`Awrumah;Awrumah
+ur;اوروما، یمن;Awrumah
+kk;Атақ;Ataq
+uz;Atoq;Ataq
+ky;Атак;Ataq
+hi;अताक़;Ataq
+bn;আতাক;Ataq
+ur;عتق;Ataq
+am;አታቅ;Ataq
+ja;アタク;Ataq
+pa;ਅਤਾਕ;Ataq
+ps;عتق;Ataq
+so;Aataq;Ataq
+sw;Ataki;Ataq
+tg;Атоқ;Ataq
+tt;Атак;Ataq
+nn;As Samn;Samn
+kk;Амран;‘Amrān
+uz;Amron;‘Amrān
+ky;Амран;‘Amrān
+id;'Amran;‘Amrān
+ms;'Amran;‘Amrān
+hi;अमरान;‘Amrān
+bn;আমরান;‘Amrān
+ur;عمران;‘Amrān
+am;አምራን;‘Amrān
+ha;'Amran;‘Amrān
+ja;アムラン;‘Amrān
+jv;'Amran;‘Amrān
+om;'Amran;‘Amrān
+pa;ਅਮਰਾਨ;‘Amrān
+ps;عمران;‘Amrān
+so;Camraan;‘Amrān
+sw;Amrani;‘Amrān
+tg;Амрон;‘Amrān
+tt;Амран;‘Amrān
+hr;Mokka;Mocha
+hy;Մոխա;Mocha
+uk;Моха;Mocha
+ur;مخا، یمن;Mocha
+ms;Makha;Mocha
+el;Μοχά;Mocha
+zh;穆哈;Mocha
+eu;Moka;Mocha
+nb;Mokka;Mocha
+ja;モカ;Mocha
+nn;Mokka;Mocha
+be;Моха;Mocha
+yue;莫卡;Mocha
+ca;Mokha;Mocha
+sr;Мока;Mocha
+kk;Моха;Mocha
+sv;Mocka;Mocha
+ko;모카;Mocha
+zh-HK;摩卡;Mocha
+cs;Mokka;Mocha
+th;โมคา;Mocha
+pl;Mokka;Mocha
+da;Mokka;Mocha
+he;מוח'א;Mocha
+pl;Al-Mukalla;Mukalla
+no;Al Mukalla;Mukalla
+uk;Ель-Мукалла;Mukalla
+kk;Мукалла;Mukalla
+uz;Mukolla;Mukalla
+ky;Мукалла;Mukalla
+hi;मुकल्ला;Mukalla
+bn;মুকাল্লা;Mukalla
+ur;المکلا;Mukalla
+am;ሙካላ;Mukalla
+ja;ムカッラ;Mukalla
+pa;ਮੁਕੱਲਾ;Mukalla
+ps;المکلا;Mukalla
+so;Muqadisho;Mukalla
+tg;Мукалла;Mukalla
+tt;Мукалла;Mukalla
+kk;Аль-Махвит;Al Maḩwīt
+uz;Al Mexvit;Al Maḩwīt
+ky;Альмахвит;Al Maḩwīt
+hi;अल महवित;Al Maḩwīt
+bn;আল মাহউইট;Al Maḩwīt
+ur;المحویت;Al Maḩwīt
+am;አልማሕዊት;Al Maḩwīt
+ja;アルマハウィト;Al Maḩwīt
+pa;ਅਲਮਾਹਵਿਤ;Al Maḩwīt
+ps;المحویت;Al Maḩwīt
+sw;Al Mahwiti;Al Maḩwīt
+tg;Аль-Махвит;Al Maḩwīt
+tt;Аль-Махвит;Al Maḩwīt
+nn;Al Mahal;Al Maḩall
+uz;Al Xabr;Al Khabr
+uz;Al Kavd;Al Kawd
+ca;Irqah;Al ‘Irqah
+kk;Аль-Худайда;Al Ḩudaydah
+uz;Al Xudayda;Al Ḩudaydah
+ky;Альхудайда;Al Ḩudaydah
+hi;अल हुदेदा;Al Ḩudaydah
+bn;আল হুদায়দাহ;Al Ḩudaydah
+ur;الحدیدہ;Al Ḩudaydah
+am;አልሁዳይዳ;Al Ḩudaydah
+ja;アルフダイダ;Al Ḩudaydah
+pa;ਅਲਹੁਦਾਈਦਾ;Al Ḩudaydah
+ps;الحدیده;Al Ḩudaydah
+sw;Al Hudaidha;Al Ḩudaydah
+tg;Аль-Худайда;Al Ḩudaydah
+tt;Аль-Худайда;Al Ḩudaydah
+kk;Аль-Хазм;Al Ḩazm
+ky;Альхазм;Al Ḩazm
+hi;अल हज़म;Al Ḩazm
+bn;আল হাজম;Al Ḩazm
+ur;الحزم;Al Ḩazm
+am;አልሃዝም;Al Ḩazm
+ja;アルハズム;Al Ḩazm
+pa;ਅਲਹਜ਼ਮ;Al Ḩazm
+ps;الحزم;Al Ḩazm
+sw;Al Hazmi;Al Ḩazm
+tg;Аль-Хазм;Al Ḩazm
+tt;Аль-Хазм;Al Ḩazm
+kk;Аль-Гайза;Al Ghayz̧ah
+uz;Al Gaiza;Al Ghayz̧ah
+ky;Альгайза;Al Ghayz̧ah
+hi;अल गैजा;Al Ghayz̧ah
+bn;আল গাইজা;Al Ghayz̧ah
+ur;الغیضہ;Al Ghayz̧ah
+am;አልጋይዛ;Al Ghayz̧ah
+ja;アルガイザ;Al Ghayz̧ah
+pa;ਅਲਗਾਈਜ਼ਾ;Al Ghayz̧ah
+ps;الغیضہ;Al Ghayz̧ah
+sw;Al Ghayzahi;Al Ghayz̧ah
+tg;Аль-Гайза;Al Ghayz̧ah
+tt;Аль-Гайза;Al Ghayz̧ah
+kk;Аль-Байда;Al Bayda
+ky;Альбайда;Al Bayda
+hi;अल बैदा;Al Bayda
+bn;আল বায়দা;Al Bayda
+ur;البیضاء;Al Bayda
+am;አልባይዳ;Al Bayda
+ja;アルバイダ;Al Bayda
+pa;ਅਲਬਾਈਦਾ;Al Bayda
+ps;البیضاء;Al Bayda
+sw;Al Baydha;Al Bayda
+tg;Аль-Байда;Al Bayda
+tt;Аль-Байда;Al Bayda
+kk;Ад-Дали;Aḑ Ḑāli‘
+uz;Ad Doli;Aḑ Ḑāli‘
+ky;Аддали;Aḑ Ḑāli‘
+id;Ad Dali`;Aḑ Ḑāli‘
+ms;Ad Dali`;Aḑ Ḑāli‘
+hi;अद दली;Aḑ Ḑāli‘
+bn;আদ দালি;Aḑ Ḑāli‘
+ur;الضالع;Aḑ Ḑāli‘
+am;አድዳሊ;Aḑ Ḑāli‘
+ha;Ad Dali`;Aḑ Ḑāli‘
+ja;アッダーリ;Aḑ Ḑāli‘
+jv;Ad Dali`;Aḑ Ḑāli‘
+om;Ad Dali`;Aḑ Ḑāli‘
+pa;ਅੱਦਦਾਲੀ;Aḑ Ḑāli‘
+ps;الضالع;Aḑ Ḑāli‘
+so;Ad Dali;Aḑ Ḑāli‘
+sw;Ad Dali;Aḑ Ḑāli‘
+tg;Ад-Дали;Aḑ Ḑāli‘
+tt;Ад-Дали;Aḑ Ḑāli‘
+kk;Аль-Джабин;Al Jabīn
+ky;Альджабин;Al Jabīn
+hi;अल जबीन;Al Jabīn
+bn;আল জাবিন;Al Jabīn
+ur;الجبین;Al Jabīn
+am;አልጃቢን;Al Jabīn
+ja;アルジャビン;Al Jabīn
+pa;ਅਲਜਾਬਿਨ;Al Jabīn
+ps;الجبین;Al Jabīn
+sw;Al Jabini;Al Jabīn
+tg;Аль-Джабин;Al Jabīn
+tt;Аль-Джабин;Al Jabīn
+ur;میڈوال;Madwal
+he;עדן;Aden
+ja;アデン;Aden
+ko;아덴;Aden
+uk;Аден;Aden
+hi;अदन;Aden
+hy;Ադեն;Aden
+sr;Аден;Aden
+mr;एडन;Aden
+ur;عدن;Aden
+my;အေဒင်မြို့;Aden
+so;Cadan;Aden
+cv;Аден;Aden
+lt;Adenas;Aden
+be;Адэн;Aden
+kk;Аден;Aden
+bg;Аден;Aden
+th;เอเดน;Aden
+zh;亞丁;Aden
+el;Άντεν;Aden
+lv;Adena;Aden
+mn;Аден хот;Aden
+uz;Adan;Aden
+ga;Áidin;Aden
+kab;Ɛaden;Aden
+ky;Аден шаары;Aden
+bn;অ্যাডেন;Aden
+am;አደን;Aden
+pa;ਅਡਨ;Aden
+ps;عدن;Aden
+sw;Adeni;Aden
+tg;Адан;Aden
+tt;Аден;Aden
+aa;المورد;Al Mawrad

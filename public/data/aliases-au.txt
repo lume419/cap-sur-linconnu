@@ -1310,3 +1310,1910 @@ en;Eden Dale 2;Eden Dale Two
 en;Grevillia Gorge;The Gorge
 en;Pigtree;Figtree
 en;Saint Andrews Stud;St. Andrews Stud
+ur;یارک، مغربی آسٹریلیا;York
+uk;Вумера;Woomera
+be;Уаяла;Whyalla
+el;Γουαϊάλλα;Whyalla
+ka;უაიალა;Whyalla
+sr;Вајала;Whyalla
+uk;Вайалла;Whyalla
+ckb;وایالا;Whyalla
+he;ויאלה;Whyalla
+ur;ہوائالا، جنوبی آسٹریلیا;Whyalla
+ar;وايالا;Whyalla
+kk;Уайалла;Whyalla
+uz;Vayalla;Whyalla
+ky;Уайалла;Whyalla
+bn;হোয়াইয়ালা;Whyalla
+am;ዋያላ;Whyalla
+az;Vayalla;Whyalla
+fa;وایالا;Whyalla
+pa;ਵਹਾਇਲਾ;Whyalla
+ps;وايالا;Whyalla
+tg;Вайалла;Whyalla
+tt;Уайалла;Whyalla
+ckb;ڤیکتۆر ھاربۆر;Victor Harbor
+he;ויקטור הארבור;Victor Harbor
+ka;ვიქტორ-ჰარბორი;Victor Harbor
+uk;Віктор-Гарбор;Victor Harbor
+ur;وکٹر ہاربر، جنوبی آسٹریلیا;Victor Harbor
+fa;تننت کریک;Tennant Creek
+he;טננט קריק;Tennant Creek
+ka;ტენანტ-კრიკი;Tennant Creek
+uk;Теннант-Крік;Tennant Creek
+fa;سلیکس هیل، استرالیای جنوبی;Sellicks Hill
+fa;سالیسبوری، ساوت استرالیا;Salisbury
+sr;Рокингам;Rockingham
+uk;Рокінгем;Rockingham
+ur;راکنگھم، مغربی آسٹریلیا;Rockingham
+ar;روكينغهام;Rockingham
+kk;Рокингем;Rockingham
+uz;Rokingem;Rockingham
+ky;Рокингем;Rockingham
+bn;রকিংহ্যাম;Rockingham
+am;ሮኪንግሃም;Rockingham
+az;Rokinqem;Rockingham
+fa;راکینگهام;Rockingham
+pa;ਰਾਕਿੰਘਮ;Rockingham
+ps;راکينګهام;Rockingham
+tg;Рокингем;Rockingham
+tt;Рокингем;Rockingham
+mk;Проспект;Prospect
+fa;پراسپکت;Prospect
+ka;პორტ-პირი;Port Pirie
+ckb;پۆرت پیێری;Port Pirie
+he;פורט פירי;Port Pirie
+kk;Порт-Пири;Port Pirie
+uk;Порт-Пірі;Port Pirie
+ur;پورٹ پیری;Port Pirie
+ar;بورت بيري;Port Pirie
+uz;Port Piri;Port Pirie
+ky;Порт-Пири;Port Pirie
+bn;পোর্ট পাইরি;Port Pirie
+am;ፖርት ፒሪ;Port Pirie
+az;Port Piri;Port Pirie
+fa;پورت پیری;Port Pirie
+pa;ਪੋਰਟ ਪਿਰੀ;Port Pirie
+ps;پورت پيري;Port Pirie
+tg;Порт-Пири;Port Pirie
+tt;Порт-Пири;Port Pirie
+ka;პორტ-ლინკოლნი;Port Lincoln
+uk;Порт-Лінкольн;Port Lincoln
+uk;Порт-Гедленд;Port Hedland
+ka;პორტ-ჰედლანდი;Port Hedland
+sr;Порт Хедланд;Port Hedland
+he;פורט הדלנד;Port Hedland
+ka;პორტ-ოგასტა;Port Augusta
+uk;Порт-Огаста;Port Augusta
+ckb;پۆرت ئۆگەستا;Port Augusta
+he;פורט אוגוסטה;Port Augusta
+ur;پورٹ آگسٹا، جنوبی آسٹریلیا;Port Augusta
+lv;Portogasta;Port Augusta
+hy;Պորտ Օգաստա;Port Augusta
+ml;പോർട്ട് അഗസ്റ്റ;Port Augusta
+ab;Порт-Августа;Port Augusta
+mr;पोर्ट ऑगस्टा;Port Augusta
+el;Πορτ Ωγκούστα;Port Augusta
+ar;ميناء أوغستا;Port Augusta
+fa;پورت آگوستا;Port Augusta
+be;Порт-Агаста;Port Augusta
+bn;পোর্ট অগাস্টা;Port Augusta
+si;පෝර්ට් ඔගස්ටා;Port Augusta
+kn;ಪೋರ್ಟ್ ಆಗಸ್ಟಾ;Port Augusta
+ta;போர்ட் அகஸ்டா;Port Augusta
+gu;પોર્ટ ઑગસ્ટા;Port Augusta
+te;పోర్ట్ అగస్టా;Port Augusta
+th;พอร์ทออกัสตา;Port Augusta
+ar;بيرث;Perth
+bg;Пърт;Perth
+fa;پرت;Perth
+he;פרת';Perth
+lt;Pertas;Perth
+gd;Peairt;Perth
+ta;பேர்த்;Perth
+mr;पर्थ;Perth
+sr;Перт;Perth
+my;ပါ့သ်မြို့;Perth
+uk;Перт;Perth
+kn;ಪರ್ತ್;Perth
+el;Περθ;Perth
+sah;Пертһ;Perth
+cv;Перт;Perth
+ka;პერთი;Perth
+os;Перт;Perth
+ml;പെർത്ത്;Perth
+mk;Перт;Perth
+hy;Պերթ;Perth
+be;Перт;Perth
+th;เพิร์ท;Perth
+lv;Pērta;Perth
+kk;Перт;Perth
+uz;Pert;Perth
+ky;Перт;Perth
+bn;পার্থ;Perth
+ur;پرتھ;Perth
+am;ፐርత;Perth
+az;Pert;Perth
+pa;ਪਰਥ;Perth
+ps;پرت;Perth
+tg;Перт;Perth
+tt;Перт;Perth
+fa;نهولونبوی;Nhulunbuy
+he;נולונביי;Nhulunbuy
+ur;نیومین، مغربی آسٹریلیا;Newman
+ckb;مووری برێج، باشووری ئوسترالیا;Murray Bridge
+fa;مورای بریج;Murray Bridge
+he;מארי ברידג;Murray Bridge
+hy;Մարրի-Բրիջ;Murray Bridge
+ka;მურეი-ბრიჯი;Murray Bridge
+uk;Маррі-Брідж;Murray Bridge
+ur;مرے بریج، جنوبی آسٹریلیا;Murray Bridge
+sr;Маунт Ајза;Mount Isa
+sah;Моунт Айза;Mount Isa
+ka;მაუნტ-აიზა;Mount Isa
+uk;Маунт-Айза;Mount Isa
+bg;Маунт Айза;Mount Isa
+ckb;ماونت ئیسا;Mount Isa
+he;מאונט איסה;Mount Isa
+ar;ماونت إيزا;Mount Isa
+kk;Маунт-Айза;Mount Isa
+uz;Maunt Iza;Mount Isa
+ky;Маунт-Айза;Mount Isa
+bn;মাউন্ট আইসা;Mount Isa
+ur;ماؤنٹ عیسیٰ;Mount Isa
+am;ሙን ኢሳ;Mount Isa
+az;Mount Iza;Mount Isa
+fa;مائونت ایزا;Mount Isa
+pa;ਮਾਊਂਟ ਈਸਾ;Mount Isa
+ps;ماونت عيسیٰ;Mount Isa
+tg;Маунт-Айза;Mount Isa
+tt;Маунт-Айза;Mount Isa
+ur;ماؤنٹ بارکر، جنوبی آسٹریلیا;Mount Barker
+ar;ميتشام;Mitcham
+kk;Митчем;Mitcham
+uz;Mitchem;Mitcham
+ky;Митчем;Mitcham
+bn;মিচ্যাম;Mitcham
+ur;مچھم;Mitcham
+am;ሚቻም;Mitcham
+az;Mitckem;Mitcham
+fa;میچام;Mitcham
+pa;ਮਿਚਮ;Mitcham
+ps;ميچام;Mitcham
+tg;Митчем;Mitcham
+tt;Митчем;Mitcham
+ur;مے لینڈز، ویسٹرن آسٹریلیا;Maylands
+fa;ماریون، استرالیای جنوبی;Marion
+uk;Маргарет;Margaret River
+fa;ماراناگا، استرالیای جنوبی;Marananga
+sv;Manjimup Shire;Manjimup
+ar;ماندوراه;Mandurah
+fa;مندورا;Mandurah
+ka;მონდურაჰი;Mandurah
+sr;Мандура;Mandurah
+ckb;مێندیۆرا;Mandurah
+uk;Мандура;Mandurah
+ur;ماندورہ;Mandurah
+kk;Мандура;Mandurah
+uz;Mandura;Mandurah
+ky;Мандура;Mandurah
+bn;ম্যান্ডুরাহ;Mandurah
+am;ማንዱራህ;Mandurah
+az;Mandura;Mandurah
+pa;ਮੰਡੁਰਾ;Mandurah
+ps;ماندوراه;Mandurah
+tg;Мандура;Mandurah
+tt;Мандура;Mandurah
+fa;کجارنا;Kojarena
+uk;Кінгскот;Kingscote
+he;קתרין;Katherine
+he;קמבלדה;Kambalda
+ar;كالغورلي;Kalgoorlie
+ka;კალგურლი;Kalgoorlie
+sr;Калгурли-Болдер;Kalgoorlie
+uk;Калгурлі;Kalgoorlie
+sv;Kalgoorlie-Boulder;Kalgoorlie
+ckb;کالگورڵی;Kalgoorlie
+he;קלגורלי;Kalgoorlie
+ur;کالگورلئی;Kalgoorlie
+fa;هوتن، استرالیای جنوبی;Houghton
+el;Χάντορφ;Hahndorf
+fa;هاهندورف;Hahndorf
+fa;گرنج، استرالیای جنوبی;Grange
+fa;گولوا;Goolwa
+ar;جيرالدتون;Geraldton
+ka;ჯერალდტონი;Geraldton
+sr;Џералдтон;Geraldton
+uk;Джеральдтон;Geraldton
+ckb;جێراڵدتن;Geraldton
+he;גרלדטון;Geraldton
+ur;جیرالڈٹن;Geraldton
+kk;Джеральдтон;Geraldton
+ky;Джеральдтон;Geraldton
+bn;গেরাল্ডটন;Geraldton
+am;ጄራልድተን;Geraldton
+az;Heraldton;Geraldton
+fa;جرالدتون;Geraldton
+pa;ਜੇਰਾਲਡਟਨ;Geraldton
+ps;جيرالدتون;Geraldton
+tg;Джеральдтон;Geraldton
+tt;Джеральдтон;Geraldton
+fa;گاولر;Gawler
+sr;Голер;Gawler
+ar;جولر;Gawler
+kk;Голер;Gawler
+uz;Goler;Gawler
+ky;Голер;Gawler
+bn;গাওলার;Gawler
+ur;گالر;Gawler
+am;ጋውለር;Gawler
+az;Qoler;Gawler
+pa;ਗਾਲਰ;Gawler
+ps;جولر;Gawler
+tg;Голер;Gawler
+tt;Голер;Gawler
+ka;ესპერანსე;Esperance
+uk;Есперанс;Esperance
+sgs;Esperansos;Esperance
+ur;الزبتھ، جنوبی آسٹریلیا;Elizabeth
+fa;الیزابت، استرالیای جنوبی;Elizabeth
+ml;എലിസബത്ത്;Elizabeth
+sgs;Dvelingops;Dwellingup
+lt;Derbis;Derby
+ar;دنمارك;Denmark
+he;דרווין;Darwin
+ta;டார்வின்;Darwin
+th;ดาร์วิน;Darwin
+ka;დარვინი;Darwin
+az;Darvin;Darwin
+ar;داروين;Darwin
+mr;डार्विन;Darwin
+sr;Дарвин;Darwin
+os;Дарвин;Darwin
+lv;Dārvina;Darwin
+lt;Darvinas;Darwin
+uk;Дарвін;Darwin
+sah;Дарвин;Darwin
+fa;داروین;Darwin
+bn;ডারউইন;Darwin
+be;Дарвін;Darwin
+bg;Дарвин;Darwin
+el;Ντάργουιν;Darwin
+pa;ਡਾਰਵਿਨ;Darwin
+ur;ڈارون;Darwin
+ckb;داروین;Darwin
+hy;Դարվին;Darwin
+kk;Дарвин;Darwin
+ml;ഡാർവിൻ;Darwin
+my;ဒါဝင်မြို့;Darwin
+ne;डार्विन;Darwin
+vep;Darvin;Darwin
+uz;Darvin;Darwin
+ky;Дарвин;Darwin
+am;ዳርዊን;Darwin
+ps;ډاروین;Darwin
+tg;Дарвин;Darwin
+tt;Дарвин;Darwin
+fi;Dampierin satama;Dampier
+fa;کرافرز، استرالیای جنوبی;Crafers
+fa;کاول;Cowell
+ur;کوٹیسلو، مغربی آسٹریلیا;Cottesloe
+sgs;Kūlgardės;Coolgardie
+he;קרנרבון;Carnarvon
+ar;كارنارفون;Carnarvon
+kk;Карнарвон;Carnarvon
+uz;Karnarvon;Carnarvon
+ky;Карнарвон;Carnarvon
+bn;কার্নার্ভন;Carnarvon
+ur;کارنارون;Carnarvon
+am;ካርናርቮን;Carnarvon
+az;Karnarvon;Carnarvon
+fa;کارنارون;Carnarvon
+pa;ਕਾਰਨਾਰਵਨ;Carnarvon
+ps;كارنارفون;Carnarvon
+tg;Карнарвон;Carnarvon
+tt;Карнарвон;Carnarvon
+mk;Кемпбелтаун;Campbelltown
+ar;بوسلتون;Busselton
+ka;ბუსელტონი;Busselton
+ckb;باسڵتن;Busselton
+he;בסלטון;Busselton
+ur;بیسیلٹن;Busselton
+kk;Бассельтон;Busselton
+uz;Basselton;Busselton
+ky;Бассельтон;Busselton
+bn;বাসেলটন;Busselton
+am;ቡሴልተን;Busselton
+az;Basselton;Busselton
+fa;بوسلتون;Busselton
+pa;ਬਸੇਲਟਨ;Busselton
+ps;بوسيلتون;Busselton
+tg;Бассельтон;Busselton
+tt;Бассельтон;Busselton
+ka;ბანბერი;Bunbury
+sr;Банбери;Bunbury
+ar;بانباري;Bunbury
+sgs;Banberis;Bunbury
+ckb;بانبوری، ڕۆژاوای ئوسترالیا;Bunbury
+he;בנברי;Bunbury
+ur;بنبری، مغربی آسٹریلیا;Bunbury
+kk;Банбери;Bunbury
+uz;Bunberi;Bunbury
+ky;Банбери;Bunbury
+bn;বানবারি;Bunbury
+am;ብን ቤሪ;Bunbury
+az;Banberi;Bunbury
+fa;بانبری;Bunbury
+pa;ਬਨਬਰੀ;Bunbury
+ps;بنبري;Bunbury
+tg;Банбери;Bunbury
+tt;Банбери;Bunbury
+ka;ბრუმი;Broome
+mr;ब्रूम;Broome
+uk;Брум;Broome
+he;ברום;Broome
+be;Брайтан;Brighton
+el;Μπράιτον;Brighton
+fa;برایتن;Brighton
+ur;برائٹن، جنوبی آسٹریلیا;Brighton
+he;ברייטון;Brighton
+ur;برج ٹاؤن، مغربی آسٹریلیا;Bridgetown
+fa;بلینمن;Blinman
+fa;بدفورد پارک، استرالیای جنوبی;Bedford Park
+ur;بیڈفورڈ پارک، جنوبی آسٹریلیا;Bedford Park
+fa;بیوماونت، استرالیای جنوبی;Beaumont
+fa;بچلور;Batchelor
+bg;Балаклава;Balaklava
+fa;بالاکلاوا;Balaklava
+ur;آگسٹا، مغربی آسٹریلیا;Augusta
+fa;انگاستون;Angaston
+zh-TW;愛麗斯泉;Alice Springs
+mr;ॲलिस स्प्रिंग्ज;Alice Springs
+fa;آلیس اسپرینگز;Alice Springs
+sr;Алис Спрингс;Alice Springs
+uk;Аліс-Спрінгс;Alice Springs
+bg;Алис Спрингс;Alice Springs
+os;Алис-Спрингс;Alice Springs
+lt;Elis Springsas;Alice Springs
+ka;ალის-სპრინგსი;Alice Springs
+he;אליס ספרינגס;Alice Springs
+lv;Alisspringsa;Alice Springs
+yue;愛麗絲坪;Alice Springs
+ar;ألِيس سبرينغز;Alice Springs
+kk;Алис-Спрингс;Alice Springs
+uz;Elis Springs;Alice Springs
+ky;Алис-Спрингс;Alice Springs
+bn;অ্যালিস স্প্রিংস;Alice Springs
+ur;ایلس سپرنگز;Alice Springs
+am;አሊስ ስፕሪንግስ;Alice Springs
+az;Elis Springs;Alice Springs
+pa;ਅਲਿਸ ਸਪ੍ਰਿੰਗਸ;Alice Springs
+ps;ايليس سپرنګز;Alice Springs
+tg;Алис-Спрингс;Alice Springs
+tt;Алис-Спрингс;Alice Springs
+ar;ألباني;Albany
+sr;Албани;Albany
+uk;Олбані;Albany
+ka;ოლბანი;Albany
+ce;Албани;Albany
+ckb;ئاڵبانی، ڕۆژاوای ئوسترالیا;Albany
+he;אולבני;Albany
+ur;البانی، مغربی آسٹریلیا;Albany
+kk;Олбани;Albany
+uz;Albani;Albany
+ky;Олбани;Albany
+bn;অ্যালবানি;Albany
+am;ኤልበኒ;Albany
+az;Albani;Albany
+fa;آلبانی;Albany
+pa;ਅਲਬਨੀ;Albany
+ps;البانی;Albany
+tg;Олбани;Albany
+tt;Олбани;Albany
+fa;آدلاید ریور;Adelaide River
+sr;Аделејд Ривер;Adelaide River
+ca;Adelàida;Adelaide
+pl;Adelajda;Adelaide
+bg;Аделейд;Adelaide
+fa;آدلاید;Adelaide
+gl;Adelaida;Adelaide
+he;אדלייד;Adelaide
+ta;அடிலெயிட்;Adelaide
+uk;Аделаїда;Adelaide
+th;แอดิเลด;Adelaide
+ka;ადელაიდა;Adelaide
+ar;أديليد;Adelaide
+mr;ॲडलेड;Adelaide
+sr;Аделејд;Adelaide
+cv;Аделаида;Adelaide
+lv;Adelaida;Adelaide
+os;Аделаидæ;Adelaide
+ug;ئادېلايدې;Adelaide
+oc;Adelaïda;Adelaide
+eu;Adelaida;Adelaide
+el;Αδελαΐδα;Adelaide
+kn;ಅಡಿಲೇಡ್;Adelaide
+be;Адэлаіда;Adelaide
+hy;Ադելաիդա;Adelaide
+te;అడిలైడ్;Adelaide
+gu;એડિલેઇડ;Adelaide
+my;အက်ဒလိတ်မြို့;Adelaide
+ml;അഡിലെയ്‌ഡ്;Adelaide
+ky;Аделаида;Adelaide
+ce;Аделаида;Adelaide
+kk;Аделаида;Adelaide
+uz;Adelaida;Adelaide
+bn;অ্যাডিলেড;Adelaide
+ur;ایڈلیڈ;Adelaide
+am;አዴሌድ;Adelaide
+pa;ਐਡੀਲੇਡ;Adelaide
+ps;اډلید;Adelaide
+tg;Аделаида;Adelaide
+tt;Аделаида;Adelaide
+fa;سیکلیف، استرالیای جنوبی;Seacliff
+el;Χάιντμαρς;Hindmarsh
+fa;هیندمارش، استرالیای جنوبی;Hindmarsh
+ur;ہندمارش، جنوبی آسٹریلیا;Hindmarsh
+ar;فرمنتل الشرقية;East Fremantle
+uk;Іст Фрімантл;East Fremantle
+fa;فرمنتل شرقی، استرالیای غربی;East Fremantle
+ur;ایسٹ فریمینٹل، مغربی آسٹریلیا;East Fremantle
+ur;کلیرمونٹ، مغربی آسٹریلیا;Claremont
+uk;Джуріен-Бей;Jurien Bay
+sgs;Eksmouts;Exmouth
+hy;Զիան;Zeehan
+fa;زیهان;Zeehan
+ur;ینگ، نیو ساؤتھ ویلز;Young
+fa;یوگالی;Yoogali
+fa;یی، ویکتوریا;Yea
+uk;Ясс;Yass
+fa;وولگولگا;Woolgoolga
+ur;وولگولگا، نیو ساؤتھ ویلز;Woolgoolga
+bg;Ууденд;Woodend
+fa;وودند، ویکتوریا;Woodend
+ka;უოდონგა;Wodonga
+ckb;وێدانگا;Wodonga
+fa;وودونگا;Wodonga
+ur;ویڈانگا;Wodonga
+lt;Vudonga;Wodonga
+lv;Vudonga;Wodonga
+uk;Уодонга;Wodonga
+mr;वोडॉंगा;Wodonga
+el;Γουοντόνγκα;Wodonga
+ar;وودونغا;Wodonga
+yue;禾東加;Wodonga
+bn;ওদোংগা;Wodonga
+si;වොඩොන්ගා;Wodonga
+sr;Водонга;Wodonga
+kn;ವೊಡಂಗ;Wodonga
+ta;ஒடோங்கா;Wodonga
+gu;વોડોન્ગા;Wodonga
+te;వోడోంగ;Wodonga
+th;วอดองก้า;Wodonga
+fa;ویل‌بریگی، نیوساوت ولز;Willbriggie
+fa;وایتمور، تاسمانیا;Whitemore
+fa;ساحل نهنگ، نیو ساوت ولز;Whale Beach
+fa;وستر وی، تاسمانی;Westerway
+ar;وينتورث;Wentworth
+ur;وینٹورت، نیو ساؤتھ ویلز;Wentworth
+ur;ویڈربرن، وکٹوریہ;Wedderburn
+fa;واترفال، نیو ساوت ولز;Waterfall
+el;Γουόρναμπουλ;Warrnambool
+ka;უორნამბული;Warrnambool
+sr;Ворнамбул;Warrnambool
+ckb;وارنمبووڵ;Warrnambool
+he;ווארנאמבול;Warrnambool
+ur;وارنامبول;Warrnambool
+lt;Varnambulas;Warrnambool
+lv;Varnambula;Warrnambool
+uk;Варнамбул;Warrnambool
+mr;वॉरनमूब;Warrnambool
+ar;وارنامبول;Warrnambool
+fa;وارنامبول;Warrnambool
+bn;ওয়ারনামবুল;Warrnambool
+si;වරනම්බුල්;Warrnambool
+kn;ವಾರ್ರ್ನಂಬೂಲ್;Warrnambool
+ta;வார்னம்பூள்;Warrnambool
+gu;વૉરનમબૂલ;Warrnambool
+te;వర్ణంబూల్;Warrnambool
+th;วอรร์นามบูล;Warrnambool
+tr;Warnambool;Warrnambool
+ur;واراگل;Warragul
+ka;უონგარატა;Wangaratta
+uk;Вангаратта;Wangaratta
+ckb;وانگراتا، ڤیکتۆریا;Wangaratta
+ur;وانگاراٹا، وکٹوریہ;Wangaratta
+lt;Vangarata;Wangaratta
+lv;Vangarata;Wangaratta
+hy;Վանգարատա;Wangaratta
+mr;वांजरटा;Wangaratta
+uz;Vangaratta;Wangaratta
+el;Γουανγκαράτα;Wangaratta
+ar;وانجارتا;Wangaratta
+fa;وانگاراتا;Wangaratta
+bn;ওয়াংগারাত্তা;Wangaratta
+si;වන්ගරට්ටා;Wangaratta
+kn;ವಂಗರಾಟ್ಟಾ;Wangaratta
+ta;வான்கரைட்டா;Wangaratta
+gu;વાંગારત્તા;Wangaratta
+te;వాంగారట్ట;Wangaratta
+th;วางกาแรตต้า;Wangaratta
+tr;Wangratta;Wangaratta
+fa;واموران، کوئینزلند;Wamuran
+fa;والان، ویکتوریا;Wallan
+he;טוויד הידס;Tweed Heads
+ka;ტუიდ-ჰედსი;Tweed Heads
+sr;Твид Хедс;Tweed Heads
+ur;ٹوید ہیڈز، نیو ساؤتھ ویلز;Tweed Heads
+ur;ٹورامورا، نیو ساؤتھ ویلز;Turramurra
+hu;Tuggeranong kerület;Tuggeranong
+fa;تریابونا;Triabunna
+uk;Травалла;Trawalla
+fa;تراوالا، ویکتوریا;Trawalla
+he;טראוואלה;Trawalla
+ckb;ترارالگن;Traralgon
+he;טרארלגון;Traralgon
+ka;ტრარალგონი;Traralgon
+sr;Траралгон;Traralgon
+ur;ٹرارالگون;Traralgon
+ar;ترارالغون;Traralgon
+bn;ত্রারাল্গন;Traralgon
+si;ටරල්ගොන්;Traralgon
+kn;ಟ್ರ್ಯಾರಲ್ಗನ್;Traralgon
+ta;ட்ராரல்கொண்;Traralgon
+te;ట్రారాల్గొన్;Traralgon
+tg;Траралгон;Traralgon
+th;ทรารัลกอน;Traralgon
+lt;Traralgonas;Traralgon
+lv;Traralgona;Traralgon
+uk;Траралгон;Traralgon
+mn;Траралгон;Traralgon
+mr;ट्रायलॉगन;Traralgon
+el;Τράραλγκον;Traralgon
+fa;ترارالگون;Traralgon
+gu;ટ્રારલગોન;Traralgon
+ar;تاونسفيل;Townsville
+bg;Таунсвил;Townsville
+fa;تاونزویل;Townsville
+he;טאונסוויל;Townsville
+ka;ტაუნზვილი;Townsville
+lt;Taunsvilis;Townsville
+mr;टाउन्सव्हिल;Townsville
+sr;Таунсвил;Townsville
+uk;Таунсвіль;Townsville
+yue;湯士威路;Townsville
+ckb;تاونزڤیل;Townsville
+ur;ٹاؤنسول;Townsville
+he;טורקי;Torquay
+sr;Тувумба;Toowoomba
+ka;ტუვუმბა;Toowoomba
+uk;Тувумба;Toowoomba
+ta;துவும்பா;Toowoomba
+ar;توومبا;Toowoomba
+bg;Тууомба;Toowoomba
+ckb;تووومبا;Toowoomba
+ur;ٹووومبا;Toowoomba
+uk;Тарі;Taree
+lt;Taris;Taree
+lv;Tari;Taree
+bn;তারী;Taree
+hy;Թարի;Taree
+si;ටරී;Taree
+sah;Тари;Taree
+ur;تاری;Taree
+kn;ತರೀ;Taree
+mr;टेरी;Taree
+el;Ταρί;Taree
+ta;தாரீ;Taree
+gu;ટારી;Taree
+ar;تاري;Taree
+te;తారీ;Taree
+th;ธารี;Taree
+fa;تاری، استرالیا;Taree
+ar;تامورث;Tamworth
+ckb;تام وۆرس;Tamworth
+he;טאמוורת;Tamworth
+ka;ტამუერთი;Tamworth
+sah;Тэмуортч;Tamworth
+sr;Тамворт;Tamworth
+ur;ٹیمورتھ، نیو ساؤتھ ویلز;Tamworth
+kk;Тамуорт;Tamworth
+uz;Tamvort;Tamworth
+ky;Тамуорт;Tamworth
+bn;ট্যামওয়ার্থ;Tamworth
+am;ታምወርዝ;Tamworth
+az;Tamvort;Tamworth
+fa;تامورث;Tamworth
+pa;ਟਮਵਰਥ;Tamworth
+ps;تامورث;Tamworth
+tg;Тамуорт;Tamworth
+tt;Тамуорт;Tamworth
+ar;سيدني;Sydney
+bg;Сидни;Sydney
+fa;سیدنی;Sydney
+gl;Sidney;Sydney
+he;סידני;Sydney
+ku;Sîdney;Sydney
+lt;Sidnėjus;Sydney
+sr;Сиднеј;Sydney
+th;ซิดนีย์;Sydney
+tr;Sidney;Sydney
+uk;Сідней;Sydney
+ta;சிட்னி;Sydney
+ug;Sidnéy;Sydney
+bo;སིད་ནེ།;Sydney
+lv;Sidneja;Sydney
+mk;Сиднеј;Sydney
+kn;ಸಿಡ್ನಿ;Sydney
+sah;Сидней;Sydney
+ka;სიდნეი;Sydney
+mzn;سیدنی;Sydney
+pa;ਸਿਡਨੀ;Sydney
+os;Сидней;Sydney
+hy;Սիդնեյ;Sydney
+gu;સીડની;Sydney
+tk;Sidneý;Sydney
+az;Sidney;Sydney
+ky;Сидней;Sydney
+mr;सिडनी;Sydney
+ab;Сиднеи;Sydney
+el;Σίδνεϋ;Sydney
+km;ស៊ីដនីយ៏;Sydney
+kk;Сидней;Sydney
+cv;Сидней;Sydney
+uz;Sidney;Sydney
+ur;سڈنی;Sydney
+bn;সিডনি;Sydney
+tt;Сидней;Sydney
+be;Сідней;Sydney
+krc;Сидней;Sydney
+te;సిడ్నీ;Sydney
+my;ဆစ်ဒနီမြို့;Sydney
+am;ሲድኒ;Sydney
+mn;Сидней;Sydney
+ml;സിഡ്നി;Sydney
+rue;Сідні;Sydney
+ce;Сидней;Sydney
+ba;Сидней;Sydney
+ckb;سیدنی;Sydney
+sgs;Sėdniejos;Sydney
+hak;Sit-nì;Sydney
+mhr;Сидней;Sydney
+yue;雪梨;Sydney
+kaa;Sidney;Sydney
+lez;Сидней;Sydney
+ne;सिड्नी;Sydney
+si;සිඩ්නි;Sydney
+vep;Sidnei;Sydney
+ps;سډني;Sydney
+tg;Сидней;Sydney
+hy;Սուոնսի;Swansea
+fa;سوآنزسی، تاسمانی;Swansea
+fa;سوان هیل;Swan Hill
+ka;სუონ-ჰილი;Swan Hill
+ur;سوان ہل، وکٹوریہ;Swan Hill
+rue;Свон Гилл;Swan Hill
+lt;Svon Hilis;Swan Hill
+hy;Սուոն Հիլ;Swan Hill
+uz;Suon-Hill;Swan Hill
+ar;مدينة سوان هيل;Swan Hill
+he;סטרון;Strahan
+hy;Ստրահան;Strahan
+fa;استراهان، تاسمانی;Strahan
+hy;Սթենլի;Stanley
+ka;სტენლი;Stanley
+uk;Стенлі;Stanley
+el;Στάνλεϊ;Stanley
+fa;استنلی، تاسمانی;Stanley
+he;סטנלי;Stanley
+fa;ساوث آرم، تاسمانی;South Arm
+bg;Снъг;Snug
+fa;اسناگ;Snug
+ka;შეპარტონი;Shepparton
+mn;Шеппартон;Shepparton
+sr;Шепартон;Shepparton
+ckb;شێپێرتن، ڤیکتۆریا;Shepparton
+he;שפרטון;Shepparton
+ur;شیپارٹن;Shepparton
+lt;Šepartonas;Shepparton
+lv;Šepartona;Shepparton
+hy;Շեփարթոն;Shepparton
+uk;Шепартон;Shepparton
+mr;शेपटन;Shepparton
+el;Σέπαρτον;Shepparton
+ar;شيبارتون;Shepparton
+fa;شپارتون;Shepparton
+be;Шэпартан;Shepparton
+bn;শেপ্পার্টন;Shepparton
+si;ශේපර්ටෝන්;Shepparton
+kn;ಶೆಪ್ಪಾರ್ಟನ್;Shepparton
+ta;ஷேப்பார்டோன்;Shepparton
+gu;શેપાર્ટન;Shepparton
+te;షెప్పర్ట్న్;Shepparton
+th;เชปเปอร์ตัน;Shepparton
+ceb;Shellharbour Village;Shellharbour
+sv;Shellharbour Village;Shellharbour
+uk;Шеллгарбор;Shellharbour
+mg;Shellharbour Village;Shellharbour
+fa;شل هاربور، نیو ساوت ولز;Shellharbour
+he;שלהרבור;Shellharbour
+ur;شیل ہاربر، نیو ساؤتھ ویلز;Shellharbour
+ar;سيمور;Seymour
+fa;سیمور، ویکتوریا;Seymour
+fa;اسکاتسدیل، تاسمانیا;Scottsdale
+ur;سکاٹس ڈیل، تسمانیہ;Scottsdale
+fa;اسکمندر;Scamander
+ka;სალე;Sale
+ckb;سێیڵ، ڤیکتۆریا;Sale
+uk;Сейл;Sale
+ur;سیل، وکٹوریہ;Sale
+fa;سینت هلنز، تاسمانی;St Helens
+hu;St. Helens;St Helens
+fa;راس، تاسمانی;Ross
+ka;როკჰემპტონი;Rockhampton
+fa;راکهمپتون;Rockhampton
+sr;Рокхемптон;Rockhampton
+uk;Рокгемптон;Rockhampton
+ckb;ڕاکھەمپتن;Rockhampton
+he;רוקהאמפטון;Rockhampton
+ur;راکہیمپٹن;Rockhampton
+lt;Rokhemptonas;Rockhampton
+lv;Rokhemptona;Rockhampton
+hy;Ռոքհեմփթոն;Rockhampton
+mr;रॉकहॅम्पटन;Rockhampton
+el;Ρόκχάμπτον;Rockhampton
+ar;روكهامبتون;Rockhampton
+be;Ракгемптан;Rockhampton
+bn;রোকাম্পটন;Rockhampton
+si;රොක්හැම්ප්ටන්;Rockhampton
+kn;ರಾಕ್ಹ್ಯಾಂಪ್ಟನ್;Rockhampton
+ta;றோக்கம்ப்பிதோன்;Rockhampton
+gu;રોકહેમ્પટન;Rockhampton
+te;రోక్ఖాంప్టొన్;Rockhampton
+th;ร็อกแฮมตัน;Rockhampton
+hy;Ռոչեսթեր;Rochester
+fa;راچستر، ویکتوریا;Rochester
+ur;روچیسٹر، وکٹوریہ;Rochester
+he;רושסטר;Rochester
+fa;رینگاروما;Ringarooma
+ga;Riddells Creek;Riddell
+fa;ریدلز کریک;Riddell
+pl;Riddells Creek;Riddell
+uk;Річмонд;Richmond
+fa;ریچموند، تاسمانی;Richmond
+ur;رچمنڈ، تسمانیہ;Richmond
+mk;Ричмонд;Richmond
+ka;რიჩმონდი;Richmond
+sr;Ричмонд;Richmond
+ar;ريتشموند;Richmond
+fa;ریچموند، نیو ساوت ولز;Richmond
+ur;رچمنڈ، نیو ساؤتھ ویلز;Richmond
+fa;رنمارک، استرالیای جنوبی;Renmark
+he;רדפרן;Redfern
+fa;رانلاغ، تاسمانیا;Ranelagh
+ka;კუნიბეი;Queanbeyan
+sr;Квинбијан;Queanbeyan
+lt;Kvenbejanas;Queanbeyan
+lv;Kvīnbejana;Queanbeyan
+hy;Քուինբիան;Queanbeyan
+uk;Квінбеян;Queanbeyan
+ur;کوینبیان;Queanbeyan
+mr;क्वीयानबीयन;Queanbeyan
+el;Κουινμπέγιαν;Queanbeyan
+ar;كوينبيان;Queanbeyan
+fa;کوئینبیان;Queanbeyan
+bn;কুইনবিয়েন;Queanbeyan
+si;ක්වීන්බෙයන්;Queanbeyan
+kn;ಕುಯಾನ್ಬೆಯಾನ್;Queanbeyan
+ta;க்கியன்பெயன்;Queanbeyan
+gu;ક્વીયાનબિયાન;Queanbeyan
+te;క్వీన్బియన్;Queanbeyan
+th;ควีนเบยัน;Queanbeyan
+ckb;کوین بیێن;Queanbeyan
+he;קויאנביאן;Queanbeyan
+tr;Quenbeyan;Queanbeyan
+fa;پایاگانا;Pyengana
+uk;Просерпайн;Proserpine
+fa;پورت سورل;Port Sorell
+ka;პორტ-მაკუარი;Port Macquarie
+sr;Порт Маквори;Port Macquarie
+ur;پورٹ مکوائری;Port Macquarie
+ar;بورت ماكواري;Port Macquarie
+cy;Porth Macquarie;Port Macquarie
+fa;پورت مکوایر;Port Macquarie
+he;פורט מקווארי;Port Macquarie
+ckb;پۆرتلەند، ڤیکتۆریا;Portland
+ur;پورٹلینڈ، وکٹوریہ;Portland
+th;พอร์ตอาร์เทอร์;Port Arthur
+cy;Porth Arthur;Port Arthur
+fa;پایپرز ریور، تاسمانی;Pipers River
+fa;پرث، تاسمانی;Perth
+fa;پینگوئین;Penguin
+fa;پراتاه;Parattah
+fa;آربوست;Orbost
+he;אורבוסט;Orbost
+lt;Orandža;Orange
+lv;Orandža;Orange
+uk;Орандж;Orange
+ur;اورینج، نیو ساؤتھ ویلز;Orange
+mr;ऑरेंज;Orange
+el;Όραντζ;Orange
+ar;أورانج;Orange
+az;Orinc;Orange
+fa;اورنج، نیو ساوت ولز;Orange
+bn;ওরেঞ্জ;Orange
+ka;ორენჯი;Orange
+si;ඔරේන්ජ්;Orange
+gd;Orains;Orange
+sr;Оринџ;Orange
+kn;ಆರೆಂಜ್;Orange
+ta;ஆரெஞ்;Orange
+gu;ઓરેન્જ;Orange
+te;ఆరెంజ్;Orange
+th;ออเรนจ์;Orange
+ckb;ئۆرێینج، نیو ساوت وێلز;Orange
+he;אורנג';Orange
+fa;نوبینا;Nubeena
+he;נוביינה;Nubeena
+ka;ნოვრა;Nowra
+ar;بلدة ناورا;Nowra
+ur;ناروا، نیو ساؤتھ ویلز;Nowra
+fa;ناورا، استرالیا;Nowra
+ckb;نۆورا، نیو ساوت وێڵز;Nowra
+fa;نوسا هدز، کوئینزلند;Noosa Heads
+fa;نیو پورت، نیو ساوت ولز;Newport
+fa;نیو نورفولک;New Norfolk
+be;Ньюкасл;Newcastle
+bg;Нюкасъл;Newcastle
+sr;Њукасл;Newcastle
+uk;Ньюкасл;Newcastle
+he;ניוקאסל;Newcastle
+fa;نیوکاسل، نیو ساوت ولز;Newcastle
+ka;ნიუკასლი;Newcastle
+lt;Niukaslas;Newcastle
+mn;Австралын Ньюкасл;Newcastle
+sah;Ньюкасл;Newcastle
+ar;نيوكاسل;Newcastle
+ckb;نیوکاسڵ;Newcastle
+kk;Ньюкасл;Newcastle
+mr;न्यूकॅसल;Newcastle
+ta;நியூகாசில்;Newcastle
+ur;نیو کیسل، نیو ساؤتھ ویلز;Newcastle
+uz;Nyukasl;Newcastle
+ky;Ньюкасл;Newcastle
+bn;নিউক্যাসল;Newcastle
+am;ኒውካስል;Newcastle
+az;Nyukasl;Newcastle
+pa;ਨਿਊਕੈਸਲ;Newcastle
+ps;نيوکاسل;Newcastle
+tg;Ньюкасл;Newcastle
+tt;Ньюкасл;Newcastle
+fa;نلسونز پلینز، نیو ساوت ولز;Nelsons Plains
+ar;بلدة ناروما;Narooma
+fa;نارانگبا، کوئینزلند;Narangba
+fa;مایرتلفورد;Myrtleford
+ka;მაუნტ-გამბირი;Mount Gambier
+sr;Маунт Гамбир;Mount Gambier
+uk;Маунт-Гамбір;Mount Gambier
+ckb;ماونت گەمبیێر;Mount Gambier
+he;מאונט גמבייר;Mount Gambier
+ur;ماؤنٹ گمبیئر، جنوبی آسٹریلیا;Mount Gambier
+lt;Maunt Gambjeras;Mount Gambier
+lv;Mauntgambjera;Mount Gambier
+hy;Մաունթ Գամբիեր;Mount Gambier
+ab;Маунт-Гамбиер;Mount Gambier
+mr;माउंट गाम्बियर;Mount Gambier
+el;Μάουντ Γκάμπιερ;Mount Gambier
+ar;مونت غامبير;Mount Gambier
+fa;ماونت گامبیر;Mount Gambier
+bn;মাউন্ট গাম্বিয়ার;Mount Gambier
+si;මවුන්ට් ගැම්බියර්;Mount Gambier
+kn;ಮೌನ್ಟ್ ಗ್ಯಾಂಬಿಯೆರ್;Mount Gambier
+zh-HK;芒特甘比爾;Mount Gambier
+ta;மவுண்ட் காம்பிர்;Mount Gambier
+gu;માઉન્ટ ગૅમ્બિઅર;Mount Gambier
+te;మౌంట్ గాంబియర్;Mount Gambier
+th;เมาท์แกมเบียร์;Mount Gambier
+bg;Моруел;Morwell
+ka;მორუელი;Morwell
+ckb;مۆروێڵ، ڤیکتۆریا;Morwell
+ur;موریل، وکٹوریہ;Morwell
+fa;مورول;Morwell
+fa;مونا ویل، نیو ساوت ولز;Mona Vale
+fa;مول کریک;Mole Creek
+ka;მოე;Moe
+ckb;مۆیی، ڤیکتۆریا;Moe
+ar;مو;Moe
+fa;مو، ویکتوریا;Moe
+sr;Милдјура;Mildura
+ka;მილდიურა;Mildura
+ckb;میلدۆرا;Mildura
+he;מילדורה;Mildura
+hy;Միլդուրա;Mildura
+ur;ملدورا;Mildura
+ar;ملبورن;Melbourne
+bg;Мелбърн;Melbourne
+fa;ملبورن;Melbourne
+he;מלבורן;Melbourne
+lt;Melburnas;Melbourne
+sr;Мелбурн;Melbourne
+ta;மெல்போர்ன்;Melbourne
+ug;مېلبۇرن;Melbourne
+bo;མེར་བུན;Melbourne
+th;เมลเบิร์น;Melbourne
+lv;Melburna;Melbourne
+el;Μελβούρνη;Melbourne
+zh-TW;墨爾本;Melbourne
+uk;Мельбурн;Melbourne
+sgs;Melborns;Melbourne
+hy;Մելբուռն;Melbourne
+kk;Мельбурн;Melbourne
+uz;Melburn;Melbourne
+ky;Мельбурн;Melbourne
+bn;মেলবোর্ন;Melbourne
+ur;میلبرن;Melbourne
+am;መልበርን;Melbourne
+az;Melburn;Melbourne
+pa;ਮੈਲਬਰਨ;Melbourne
+ps;ملبورن;Melbourne
+tg;Мельбурн;Melbourne
+tt;Мельбурн;Melbourne
+uk;Мерісвіль;Marysville
+ur;میریزویل، وکٹوریہ;Marysville
+ckb;مەریبۆرۆ، ڤیکتۆریا;Maryborough
+ar;ماريبوروه;Maryborough
+fa;ماری‌بورو، ویکتوریا;Maryborough
+he;מאריבורו;Maryborough
+ur;میریبورو، وکٹوریہ;Maryborough
+uk;Меріборо;Maryborough
+ka;მერიბორო;Maryborough
+sr;Мериборо;Maryborough
+sah;Мэриборо;Maryborough
+bg;Мериборо;Maryborough
+ckb;مەریبۆرۆ، کوینزلەند;Maryborough
+lt;Meriboras;Maryborough
+lv;Meriboro;Maryborough
+hy;Մերիբորո;Maryborough
+ur;مریبورووگھ;Maryborough
+mk;Мериборо;Maryborough
+mr;मेरीबोरॉफ;Maryborough
+el;Μέριμποροου;Maryborough
+ar;ماريبورو;Maryborough
+fa;ماریبورو;Maryborough
+be;Мэрыбара;Maryborough
+bn;মেরিবুরু;Maryborough
+si;මේරිබරෝ;Maryborough
+kn;ಮೇರಿಬರೋ;Maryborough
+ta;மரிபோரோ;Maryborough
+gu;મેરીબોરોઘ;Maryborough
+te;మారి బరో;Maryborough
+th;แมรี่โบรอท;Maryborough
+he;מריבורו;Maryborough
+fa;مالمزبری، ویکتوریا;Malmsbury
+sr;Мејтланд;Maitland
+ka;მეიტლენდი;Maitland
+ckb;مێیتلەند، نیو ساوت وێلز;Maitland
+ur;میئٹلینڈ، نیو ساؤتھ ویلز;Maitland
+ar;مايتلاند;Maitland
+kk;Мейтленд;Maitland
+uz;Meytlend;Maitland
+ky;Мейтленд;Maitland
+bn;মেটলেন্ড;Maitland
+am;ሜትላንድ;Maitland
+az;Meytlend;Maitland
+fa;میتلند;Maitland
+pa;ਮੈਟਲੈਂਡ;Maitland
+ps;مايتلاند;Maitland
+tg;Мейтленд;Maitland
+tt;Мейтленд;Maitland
+bg;Макай;Mackay
+sr;Макај;Mackay
+fa;مکای;Mackay
+uk;Маккай;Mackay
+ka;მაკაი;Mackay
+ckb;مەکای، کوینزلەند;Mackay
+he;מאקאי;Mackay
+ur;مکائے، کوئنزلینڈ;Mackay
+ar;ماكاي;Mackay
+kk;Макай;Mackay
+uz;Makay;Mackay
+ky;Макай;Mackay
+bn;ম্যাকে;Mackay
+am;ማካይ;Mackay
+az;Makay;Mackay
+pa;ਮੈਕੇ;Mackay
+ps;ماکاي;Mackay
+tg;Макай;Mackay
+tt;Макай;Mackay
+fa;ماسدون، ویکتوریا;Macedon
+ar;لوكستون;Loxton
+kk;Локстон;Loxton
+uz;Lokston;Loxton
+ky;Локстон;Loxton
+bn;লক্সটন;Loxton
+ur;لاکسٹن;Loxton
+am;ሎክስተን;Loxton
+az;Lokston;Loxton
+fa;لاکستون;Loxton
+pa;ਲੋਕਸਟਨ;Loxton
+ps;لوکستون;Loxton
+tg;Локстон;Loxton
+tt;Локстон;Loxton
+am;ሊቨርፑል፣ አውስትራልያ;Liverpool
+fa;لیورپول، استرالیا;Liverpool
+ka;ლივერპული;Liverpool
+ur;لیورپول، نیو ساؤتھ ویلز;Liverpool
+ar;ليفربول;Liverpool
+kk;Ливерпуль;Liverpool
+uz;Liverpul;Liverpool
+ky;Ливерпуль;Liverpool
+bn;লিভারপুল;Liverpool
+az;Liverpul;Liverpool
+pa;ਲਿਵਰਪੂਲ;Liverpool
+ps;ليورپول;Liverpool
+tg;Ливерпуль;Liverpool
+tt;Ливерпуль;Liverpool
+am;ሊትጎ;Lithgow
+ka;ლითგოუ;Lithgow
+ckb;لیسگەو;Lithgow
+lt;Litgou;Lithgow
+lv;Litgova;Lithgow
+uk;Літгоу;Lithgow
+ur;لیتحجوو;Lithgow
+mr;लिथगो;Lithgow
+el;Λίθγκοου;Lithgow
+ar;ليثغو;Lithgow
+fa;لیتگو، نیو ساوت ولز;Lithgow
+bn;লিথগু;Lithgow
+si;ලිත්ගොව්;Lithgow
+kn;ಲಿಥ್ಗೋವ್;Lithgow
+ta;லீக்கௌ;Lithgow
+gu;લિથગો;Lithgow
+te;లిథ్గో;Lithgow
+th;ลิธโกว์;Lithgow
+sr;Лизмор;Lismore
+fa;لیسمور، استرالیا;Lismore
+ka;ლისმორი;Lismore
+ckb;لیزمۆر;Lismore
+fa;لیلیدیل، تاسمانیا;Lilydale
+fa;لورا، نیو ساوت ولز;Leura
+fa;لاوسن;Lawson
+uk;Лонсестон;Launceston
+sr;Лонсестон;Launceston
+ka;ლონსესტონი;Launceston
+fa;لانسستون، تاسمانی;Launceston
+ar;لاونسستون;Launceston
+az;Lonseston;Launceston
+ckb;لانسێستن، تاسمانیا;Launceston
+he;לונסטון;Launceston
+ta;லான்செசுடன்;Launceston
+ur;لانسسٹن، تسمانیا;Launceston
+kk;Лаунсестон;Launceston
+uz;Launseston;Launceston
+ky;Лаунсестон;Launceston
+bn;লঞ্চেস্টন;Launceston
+am;ላውንሴስተን;Launceston
+pa;ਲੌਨਸੇਸਟਨ;Launceston
+ps;لاونسيستون;Launceston
+tg;Лаунсестон;Launceston
+tt;Лаунсестон;Launceston
+fa;لیدی بارون، تاسمانیا;Lady Barron
+fa;کاینتون;Kyneton
+he;קנייטון;Kyneton
+ur;کائنیٹن;Kyneton
+fa;کیولوا، نیو ساوت ولز;Kioloa
+ar;كيمبسي;Kempsey
+kk;Кемпси;Kempsey
+uz;Kempsi;Kempsey
+ky;Кемпси;Kempsey
+bn;কেম্পসে;Kempsey
+ur;کیمپسی;Kempsey
+am;ኬምፕሴ;Kempsey
+az;Kempsi;Kempsey
+fa;کمپسی;Kempsey
+pa;ਕੇਮਪਸੇ;Kempsey
+ps;کيمپسي;Kempsey
+tg;Кемпси;Kempsey
+tt;Кемпси;Kempsey
+fa;کلسو، نیو ساوت ولز;Kelso
+sah;Катумба;Katoomba
+uk;Катумба;Katoomba
+ar;كاتومبا;Katoomba
+kk;Катумба;Katoomba
+uz;Katumba;Katoomba
+ky;Катумба;Katoomba
+bn;কাটুম্বা;Katoomba
+ur;کاٹومبا;Katoomba
+am;ካቶምባ;Katoomba
+az;Katumba;Katoomba
+fa;کاتومبا;Katoomba
+pa;ਕਾਟੂੰਬਾ;Katoomba
+ps;کاتومبا;Katoomba
+tg;Катумба;Katoomba
+tt;Катумба;Katoomba
+pl;Terytorium Jervis Bay;Jervis Bay Village
+fi;Jervis Bay Territory;Jervis Bay Village
+sk;Teritórium Jervis Bay;Jervis Bay Village
+fa;اریمپل، ویکتوریا;Irymple
+ka;იფსუიჩი;Ipswich
+ar;إينيسفيل;Innisfail
+uk;Інгем;Ingham
+fa;هاسکیسون، نیو ساوت ولز;Huskisson
+ka;ჰორშემი;Horsham
+ckb;ھۆرشەم، ڤیکتۆریا;Horsham
+ur;ہوشیم، وکٹوریہ;Horsham
+lt;Horšamas;Horsham
+lv;Horšama;Horsham
+bn;হরশাম;Horsham
+si;හෝර්ෂැම්;Horsham
+uk;Горшам;Horsham
+kn;ಹಾರ್ಶಾಂ;Horsham
+mr;हॉर्शम;Horsham
+el;Χόρσαμ;Horsham
+ta;ஹார்ஷம்;Horsham
+gu;હોર્શમ;Horsham
+ar;هورشام;Horsham
+te;హోర్ షం;Horsham
+th;ฮอร์ชัม;Horsham
+fa;هورشام، ویکتوریا;Horsham
+he;הורשם;Horsham
+el;Χόρσμπι;Hornsby
+fa;هورنزبی، نیو ساوت ولز;Hornsby
+he;הורנסבי;Hornsby
+ur;ہارنزبی، نیو ساؤتھ ویلز;Hornsby
+mr;होबार्ट;Hobart
+or;ହୋବାର୍ଟ;Hobart
+uk;Гобарт;Hobart
+he;הובארט;Hobart
+bo;ཧོ་སྦར་ཐེ།;Hobart
+bg;Хоубарт;Hobart
+be;Хобарт;Hobart
+os;Хобарт;Hobart
+fa;هوبارت;Hobart
+ar;هوبارت;Hobart
+th;โฮบาร์ต;Hobart
+ta;ஹோபார்ட்;Hobart
+sr;Хобарт;Hobart
+mk;Хобарт;Hobart
+lv;Hobārta;Hobart
+lt;Hobartas;Hobart
+cv;Хобарт;Hobart
+ka;ჰობარტი;Hobart
+el;Χόμπαρτ;Hobart
+mn;Хобарт;Hobart
+pa;ਹੋਬਾਰਟ;Hobart
+si;හෝබාර්ට්;Hobart
+ur;ہوبارٹ;Hobart
+yue;霍巴特;Hobart
+kk;Хобарт;Hobart
+ky;Хобарт;Hobart
+bn;হোবার্ট;Hobart
+am;ሆባርት;Hobart
+ps;هوبارت;Hobart
+tg;Хобарт;Hobart
+tt;Хобарт;Hobart
+ar;هاي;Hay
+kk;Хей;Hay
+uz;Xey;Hay
+ky;Хей;Hay
+bn;হে;Hay
+ur;ہے;Hay
+am;ሓይ;Hay
+az;Hey;Hay
+fa;هی;Hay
+pa;ਹੇ;Hay
+ps;هے;Hay
+tg;Хей;Hay
+tt;Хей;Hay
+fa;هانوود، نیو ساوت ولز;Hanwood
+fa;همیلتون;Hamilton
+he;המילטון;Hamilton
+sr;Хамилтон;Hamilton
+ka;ჰამილტონი;Hamilton
+ckb;ھەمیڵتن، ڤیکتۆریا;Hamilton
+ur;ہیملٹن، وکٹوریہ;Hamilton
+fa;هدسپن، تاسمانی;Hadspen
+ckb;گیمپی;Gympie
+fa;گریفیت، استرالیا;Griffith
+ka;გრიფითი;Griffith
+ckb;گریفیس;Griffith
+fa;گرین‌ول پوینت;Greenwell Point
+he;גרסי;Grassy
+ka;გრაფტონი;Grafton
+am;ግራፍተን;Grafton
+uk;Графтон;Grafton
+ckb;گرافتن، نیو ساوت وێلز;Grafton
+lt;Graftonas;Grafton
+lv;Graftona;Grafton
+ur;گرافٹون;Grafton
+mr;ग्रॅफ्टोन;Grafton
+el;Γκράφτον;Grafton
+ar;جرافتون;Grafton
+fa;گرافتون، نیو ساوت ولز;Grafton
+be;Графтан;Grafton
+bn;গ্রাফটন;Grafton
+si;ග්රෆ්ටන්;Grafton
+kn;ಗ್ರಾಫ್ಟನ್;Grafton
+ta;க்ராபிடோன்;Grafton
+gu;ગ્રેફટન;Grafton
+te;గ్రాఫ్టన్;Grafton
+th;เกรฟ ตัน;Grafton
+he;גרפטון;Grafton
+am;ጎልበርን;Goulburn
+ka;გოულბერნი;Goulburn
+sr;Голберн;Goulburn
+ckb;گوولبۆرن، نیو ساوت وێلز;Goulburn
+hy;Գոուլբեռն;Goulburn
+el;Γκούλμπερν;Goulburn
+ar;غولبرن;Goulburn
+fa;گولبرن، نیو ساوت ولز;Goulburn
+be;Гоўлберн;Goulburn
+yue;高賓;Goulburn
+zh-HK;古爾本;Goulburn
+he;גולברן;Goulburn
+he;גורמנסטון;Gormanston
+fa;گلن دیویس، نیو ساوت ولز;Glen Davis
+fa;گلنبروک;Glenbrook
+ckb;گلەدستۆن;Gladstone
+ka;გლადსტონი;Gladstone
+sr;Гледстон;Gladstone
+uk;Гладстон;Gladstone
+ur;گلیڈسٹون، کوئنزلینڈ;Gladstone
+ar;جلادستون;Gladstone
+kk;Глэдстон;Gladstone
+uz;Gledston;Gladstone
+ky;Глэдстон;Gladstone
+bn;গ্ল্যাডস্টোন;Gladstone
+am;ግላድስቶን;Gladstone
+az;Gledston;Gladstone
+fa;گلادستون;Gladstone
+pa;ਗਲੈਡਸਟੋਨ;Gladstone
+ps;جلادستون;Gladstone
+tg;Глэдстон;Gladstone
+tt;Глэдстон;Gladstone
+fa;گیسبورن، ویکتوریا;Gisborne
+ur;گیسبورن، وکٹوریہ;Gisborne
+fa;گیوستون;Geeveston
+ar;غيلونغ;Geelong
+uk;Джилонг;Geelong
+sr;Џилонг;Geelong
+lt;Džilongas;Geelong
+he;גילונג;Geelong
+fa;جیلانگ;Geelong
+ka;ჯილონგი;Geelong
+mn;Желон;Geelong
+ckb;جیڵانگ;Geelong
+kk;Джелонг;Geelong
+ur;جیلانگ;Geelong
+fa;گنمین;Ganmain
+fa;گلستون، نیو ساوت ولز;Galston
+fa;فرانکلین، تاسمانی;Franklin
+fa;فینگال، تازمانیا;Fingal
+fa;اروئا;Euroa
+ur;یوروا;Euroa
+uk;Емералд;Emerald
+fa;اکوکا;Echuca
+hy;Էչուկա;Echuca
+ur;ایچوکا;Echuca
+ar;إتشوكا;Echuca
+az;Eçuka;Echuca
+he;אצ'וקה;Echuca
+ka;დაბო;Dubbo
+sr;Дабо;Dubbo
+am;ዱቦ;Dubbo
+bg;Дабо;Dubbo
+ckb;دۆببۆ;Dubbo
+he;דובו;Dubbo
+ur;ڈوبو;Dubbo
+lt;Dabo;Dubbo
+lv;Dabbo;Dubbo
+hy;Դաբբո;Dubbo
+uk;Даббо;Dubbo
+mr;दुब्बो;Dubbo
+el;Ντούμπο;Dubbo
+ar;دوبو;Dubbo
+az;Dabbo;Dubbo
+fa;دابو، استرالیا;Dubbo
+be;Даба;Dubbo
+bn;ডুব্য;Dubbo
+si;ඩබෝ;Dubbo
+kn;ಡಬ್ಬೊ;Dubbo
+ta;டூப்போ;Dubbo
+gu;ડુબો;Dubbo
+te;దబ్బో;Dubbo
+th;ดับโบ;Dubbo
+fa;درویین، استرالیا;Drouin
+ur;ڈروین، وکٹوریہ;Drouin
+ka;დორიგო;Dorrigo
+ml;ഡോൺ;Don
+fa;دوونپورت، تاسمانی;Devonport
+ka;დევონპორტი;Devonport
+sr;Девонпорт;Devonport
+ckb;دێڤنپۆرت، تاسمانیا;Devonport
+he;דוונפורט;Devonport
+uk;Девонпорт;Devonport
+ur;ڈیونپورٹ، تسمانیا;Devonport
+lt;Devonportas;Devonport
+lv;Devonporta;Devonport
+hy;Դևոնպորտ;Devonport
+mr;डेव्हनपोर्ट;Devonport
+el;Ντέβονπορτ;Devonport
+ar;دافنبورت;Devonport
+bn;ডেভনপোর্ট;Devonport
+si;ඩෙවන්පෝර්ට්;Devonport
+kn;ಡೆವನ್ ಪೋರ್ಟ್;Devonport
+ta;டேவோன்போர்ட்;Devonport
+gu;ડેવનપોર્ટ;Devonport
+te;డెవన్ పోర్ట్;Devonport
+th;เดวอนพอร์ต;Devonport
+fa;دیبورو، کوئینزلند;Dayboro
+ar;كوري;Currie
+kk;Керри;Currie
+uz;Kerri;Currie
+ky;Керри;Currie
+bn;কারি;Currie
+ur;کری;Currie
+am;ኩሪ;Currie
+az;Kerri;Currie
+fa;کوری;Currie
+pa;ਕਰੀ;Currie
+ps;کوری;Currie
+tg;Керри;Currie
+tt;Керри;Currie
+fa;کورا رونگ، نیو ساوت ولز;Currarong
+uk;Кресвік;Creswick
+fa;کوز ویکتوریا;Cowes
+fa;کوریانگ;Corryong
+fa;کوتاموندرا;Cootamundra
+sah;Кунабарабран;Coonabarabran
+uk;Куктаун;Cooktown
+mr;कूकटाउन;Cooktown
+fa;کویی، تاسمانیا;Cooee
+fa;کولز بی، تاسمانیا;Coles Bay
+ckb;کۆلاک، ڤیکتۆریا;Colac
+lt;Kolakas;Colac
+ar;كولاك;Colac
+uk;Колак;Colac
+fa;کولک، ویکتوریا;Colac
+ka;კოფს-ჰარბური;Coffs Harbour
+sr;Кофс Харбор;Coffs Harbour
+ckb;بەندەری کافس;Coffs Harbour
+fa;بندر کافس;Coffs Harbour
+he;קופס הארבור;Coffs Harbour
+ur;کافس ہاربر;Coffs Harbour
+lt;Kofs Harboras;Coffs Harbour
+lv;Kofshārbora;Coffs Harbour
+hy;Կոֆս Հարբոր;Coffs Harbour
+uk;Кофс-Гарбор;Coffs Harbour
+mr;कॉफ्स हार्बर;Coffs Harbour
+el;Κοφς Χάρμπορ;Coffs Harbour
+ar;كوفس هاربور;Coffs Harbour
+be;Кофс-Харбар;Coffs Harbour
+bn;কফস হারবার;Coffs Harbour
+si;කොෆ්ස් හාර්බර්;Coffs Harbour
+kn;ಕಾಫ್ಸ್ ಹಾರ್ಬರ್;Coffs Harbour
+ta;காப்ஸ் ஹார்பர்;Coffs Harbour
+gu;કોફ્સ હાર્બર;Coffs Harbour
+te;కఫ్స్ హార్బర్;Coffs Harbour
+th;คอฟฟ์ ฮาร์เบอร์;Coffs Harbour
+fa;کلونس، ویکتوریا;Clunes
+he;קלונז;Clunes
+yue;吉朗卡列;Cloncurry
+fa;کلرویل، نیو ساوت ولز;Clareville
+ro;Clareville Beach;Clareville
+bg;Уулонгонг;Wollongong
+sr;Вулонгонг;Wollongong
+fa;ولونگونگ;Wollongong
+uk;Вуллонгонг;Wollongong
+lt;Vulongongas;Wollongong
+ka;ვულონგონგი;Wollongong
+ar;ولونغونغ;Wollongong
+mr;वूलाँगाँग;Wollongong
+be;Вуланганг;Wollongong
+mn;Вуллонгон;Wollongong
+ckb;وۆڵۆنگانگ;Wollongong
+he;וולונגונג;Wollongong
+kk;Вуллонгонг;Wollongong
+ur;وولونگونگ;Wollongong
+uz;Vollonggong;Wollongong
+ky;Вуллонгонг;Wollongong
+bn;উলংগং;Wollongong
+am;ወሎሎንጋንግ;Wollongong
+az;Vollonggong;Wollongong
+pa;ਵੋਲੋਂਗੋਂਗ;Wollongong
+ps;ولونګونګ;Wollongong
+tg;Вуллонгонг;Wollongong
+tt;Вуллонгонг;Wollongong
+be;Чылтэрн;Chiltern
+fa;چیلترن، ویکتوریا;Chiltern
+he;צ'ילטרן;Chiltern
+ar;تشايلدرز;Childers
+ka;ჩარეტერს-ტაუერსი;Charters Towers
+ka;სესნოკი;Cessnock
+am;ሴስኖክ;Cessnock
+ar;سيسنوك;Cessnock
+ckb;سێسناک، نیو ساو وێلز;Cessnock
+lt;Sesnokas;Cessnock
+lv;Sesnoka;Cessnock
+uk;Сеснок;Cessnock
+ur;کیسنوک;Cessnock
+mr;सेस्नाक;Cessnock
+el;Κέσνοκ;Cessnock
+fa;سسنوک;Cessnock
+bn;সেচনক;Cessnock
+si;සෙස්නොක්;Cessnock
+kn;ಸೆಸ್ನಾಕ್;Cessnock
+ta;செஸ்நாக்;Cessnock
+gu;સેસ્નૉક;Cessnock
+te;సేస్ నాక్;Cessnock
+th;เชสส์น็อค;Cessnock
+ar;كولفيلد;Caulfield
+fa;کالفیلد، ویکتوریا;Caulfield
+he;קופילד;Caulfield
+ur;کالفیلڈ، وکٹوریہ;Caulfield
+ckb;کەسڵمێین، ڤیکتۆریا;Castlemaine
+fa;کستلماین، ویکتوریا;Castlemaine
+he;קאסלמיין;Castlemaine
+ur;کیسل مین، وکٹوریہ;Castlemaine
+sr;Карик;Carrick
+nn;Cardwell i Queensland;Cardwell
+ur;کارڈویل، کوئنزلینڈ;Cardwell
+bn;ক্যানবেরা;Canberra
+fa;کانبرا;Canberra
+he;קנברה;Canberra
+lt;Kanbera;Canberra
+sr;Канбера;Canberra
+tr;Kanberra;Canberra
+tet;Kamberra;Canberra
+th;แคนเบอร์รา;Canberra
+ug;Kanbérra;Canberra
+el;Καμπέρα;Canberra
+am;ካንበራ;Canberra
+hy;Կանբերրա;Canberra
+lv;Kanbera;Canberra
+mr;कॅनबेरा;Canberra
+ta;கான்பரா;Canberra
+cv;Канберра;Canberra
+ku;Kanberra;Canberra
+uk;Канберра;Canberra
+ka;კანბერა;Canberra
+mhr;Канберре;Canberra
+sah;Канберра;Canberra
+ar;كانبرا;Canberra
+bg;Канбера;Canberra
+os;Канберрæ;Canberra
+bo;ཁན་པེ་ར།;Canberra
+ht;Kanbera;Canberra
+so;Kanbera;Canberra
+mk;Канбера;Canberra
+be;Канбера;Canberra
+tt;Канберра;Canberra
+tg;Канберра;Canberra
+ur;کینبرا;Canberra
+mn;Канберра;Canberra
+az;Kanberra;Canberra
+si;කැන්බරා;Canberra
+ky;Канберра;Canberra
+nah;Camberra;Canberra
+pa;ਕੈਨਬਰਾ;Canberra
+vep;Kanberr;Canberra
+or;କାନବେରା;Canberra
+ce;Канберра;Canberra
+za;Canberrah;Canberra
+ml;കാൻബറ;Canberra
+yue;坎培拉;Canberra
+sgs;Kanbera;Canberra
+ckb;کانبێرا;Canberra
+gl;Camberra;Canberra
+hak;Khâm-phì-là;Canberra
+kaa;Kanberra;Canberra
+kk;Канберра;Canberra
+ne;क्यानबरा;Canberra
+uz;Kanberra;Canberra
+fa;کامپرداون، ویکتوریا;Camperdown
+fa;کمبل تاون، تاسمانی;Campbell Town
+am;ካምቤልታውን;Campbelltown
+ka;კემპბელტაუნი;Campbelltown
+fa;کامپانیا;Campania
+uk;Калаундра;Caloundra
+sr;Калаундра;Caloundra
+ka;კალაუნდრა;Caloundra
+ckb;کلاوندرا;Caloundra
+ur;کلاؤنڈرا;Caloundra
+zh-TW;凱恩斯;Cairns
+lv;Kērnsa;Cairns
+bg;Кернс;Cairns
+lt;Kernsas;Cairns
+my;ကိန်းမြို့;Cairns
+ka;კერნსი;Cairns
+ar;كيرنز، كوينزلاند;Cairns
+sr;Кернс;Cairns
+fa;کنز;Cairns
+he;קיירנס;Cairns
+uk;Кернс;Cairns
+ckb;کێنز;Cairns
+mr;केर्न्स;Cairns
+ur;کیرنز;Cairns
+tt;Кернс;Cairns
+hy;Քերնս;Cairns
+mk;Кернс;Cairns
+el;Κενζ;Cairns
+be;Кэрнс;Cairns
+bn;কেয়ার্নস;Cairns
+si;කෙයාන්ස්;Cairns
+gd;Cùirn;Cairns
+kn;ಕೈರ್ನ್ಸ್;Cairns
+os;Кэрнс;Cairns
+ta;கேய்ர்ன்ஸ்;Cairns
+gu;કેઇર્ન્સ;Cairns
+te;క్రెయిన్స్;Cairns
+th;แคนส์;Cairns
+sah;Байрон Бэй;Byron Bay
+uk;Байрон-Бей;Byron Bay
+ar;خليج بايرون;Byron Bay
+uk;Берні;Burnie
+ka;ბერნი;Burnie
+fa;برنی، تاسمانی;Burnie
+ckb;بورنی، تاسمانیا;Burnie
+he;בורני;Burnie
+ar;بيرني;Burnie
+kk;Барни;Burnie
+uz;Berni;Burnie
+ky;Барни;Burnie
+bn;বার্নি;Burnie
+ur;برنی;Burnie
+am;ቡርኒ;Burnie
+az;Berni;Burnie
+pa;ਬਰਨੀ;Burnie
+ps;برني;Burnie
+tg;Барни;Burnie
+tt;Барни;Burnie
+sr;Бундаберг;Bundaberg
+ka;ბანდაბერგი;Bundaberg
+ar;بوندابيرج;Bundaberg
+uk;Бундаберг;Bundaberg
+bg;Бъндабърг;Bundaberg
+ckb;باندابێرگ;Bundaberg
+lv;Bandaberga;Bundaberg
+ur;بنڈابرگ;Bundaberg
+fa;بروکلین، نیو ساوت ولز;Brooklyn
+ur;بروکلن، نیو ساؤتھ ویلز;Brooklyn
+lt;Broken Hilas;Broken Hill
+lv;Brokenhila;Broken Hill
+hy;Բրոքեն Հիլ;Broken Hill
+uk;Брокен-Гілл;Broken Hill
+ur;بروکن ہل;Broken Hill
+mr;ब्रोकन हिल;Broken Hill
+el;Μπρόκεν Χιλ;Broken Hill
+am;ብሮክን ሂል;Broken Hill
+ar;بروكن هيل;Broken Hill
+fa;بروکن هیل;Broken Hill
+bn;ব্রোকেন হিল;Broken Hill
+ka;ბროკენ-ჰილი;Broken Hill
+si;බ්‍රෝකන් හිල්;Broken Hill
+gd;Cnoc Briste;Broken Hill
+kn;ಬ್ರೋಕನ್ ಹಿಲ್;Broken Hill
+zh-HK;布羅肯希爾;Broken Hill
+ta;ப்ரோகென் ஹில்;Broken Hill
+gu;બ્રોકન હિલ;Broken Hill
+te;బ్రోకెన్ హిల్;Broken Hill
+th;โบรคเคนฮิลล์;Broken Hill
+ckb;برۆکن ھیڵ، نیو ساوت وێلز;Broken Hill
+he;ברוקן היל;Broken Hill
+bg;Бризбейн;Brisbane
+fa;بریزبن;Brisbane
+he;בריזביין;Brisbane
+ug;برىسبان;Brisbane
+ar;بريزبن;Brisbane
+lt;Brisbenas;Brisbane
+ta;பிரிஸ்பேன்;Brisbane
+th;บริสเบน;Brisbane
+am;ብርዝበን;Brisbane
+az;Brisben;Brisbane
+sgs;Brėsbens;Brisbane
+be;Брысбен;Brisbane
+bn;ব্রিসবেন;Brisbane
+ce;Брисбен;Brisbane
+ckb;بریزبێن;Brisbane
+el;Μπρίσμπεϊν;Brisbane
+hak;Pu-lî-sṳ̂-pân;Brisbane
+ka;ბრიზბენი;Brisbane
+kk;Брисбен;Brisbane
+kn;ಬ್ರಿಸ್ಬೇನ್‌;Brisbane
+ky;Брисбен;Brisbane
+lv;Brisbena;Brisbane
+mhr;Брисбен;Brisbane
+mk;Бризбејн;Brisbane
+ml;ബ്രിസ്ബെയ്ൻ;Brisbane
+mn;Брисбэн;Brisbane
+mr;ब्रिस्बेन;Brisbane
+my;ဘရစ်စဘိန်းမြို့;Brisbane
+ne;ब्रिसबेन;Brisbane
+os;Брисбен;Brisbane
+pa;ਬ੍ਰਿਜ਼ਬਨ;Brisbane
+sah;Брисбен;Brisbane
+sr;Бризбејн;Brisbane
+te;బ్రిస్బేన్;Brisbane
+uk;Брисбен;Brisbane
+ur;برسبین;Brisbane
+uz;Brisben;Brisbane
+vep;Brisben;Brisbane
+yue;布里斯本;Brisbane
+ps;برسبان;Brisbane
+tg;Брисбен;Brisbane
+tt;Брисбен;Brisbane
+fa;برایت، ویکتوریا;Bright
+fa;بریدپورت، تاسمانیا;Bridport
+fa;برکنل، تاسمانی;Bracknell
+ar;بوين;Bowen
+kk;Бауэн;Bowen
+uz;Bouen;Bowen
+ky;Бауэн;Bowen
+bn;বোয়েন;Bowen
+ur;بوئن;Bowen
+am;ቦዌን;Bowen
+az;Bouen;Bowen
+fa;بوئن;Bowen
+pa;ਬੋਵੇਨ;Bowen
+ps;بوين;Bowen
+tg;Бауэн;Bowen
+tt;Бауэн;Bowen
+fa;بوتول، تاسمانیا;Bothwell
+ar;بوناه;Boonah
+ka;ბომადერი;Bomaderry
+fa;بومادری، استرالیا;Bomaderry
+fa;بلکوود کریک، تاسمانی;Blackwood Creek
+fa;بری، نیو ساوت ولز;Berry
+bg;Бендиго;Bendigo
+el;Μπέντιγκο;Bendigo
+ka;ბენდიგო;Bendigo
+uk;Бендіго;Bendigo
+sr;Бендиго;Bendigo
+mn;Бендиго;Bendigo
+ckb;بێندیگۆ;Bendigo
+he;בנדיגו;Bendigo
+ur;بینڈگو;Bendigo
+ar;بينديغو;Bendigo
+kk;Бендиго;Bendigo
+ky;Бендиго;Bendigo
+bn;বেন্ডিগো;Bendigo
+am;ቤንዲጎ;Bendigo
+fa;بندیگو;Bendigo
+pa;ਬੇਂਡਿਗੋ;Bendigo
+ps;بنديګو;Bendigo
+tg;Бендиго;Bendigo
+tt;Бендиго;Bendigo
+ckb;بێنالا;Benalla
+ka;ბენალა;Benalla
+uk;Беналла;Benalla
+ur;بینالہ، وکٹوریہ;Benalla
+hy;Բենալա;Benalla
+fa;بنالا;Benalla
+fa;بلینگام، تاسمانیا;Bellingham
+fa;بلرایو، تاسمانی;Bellerive
+ur;بیللیریو;Bellerive
+uz;Bichvort;Beechworth
+el;Μπιτσγουορθ;Beechworth
+fa;بیچ‌ورث;Beechworth
+sr;Батерст;Bathurst
+am;ባተርስት;Bathurst
+uk;Бетхерст;Bathurst
+ka;ბათერსტი;Bathurst
+fa;باتورست، نیو ساوت ولز;Bathurst
+az;Baterst;Bathurst
+ckb;بەتۆرست، نیو ساوت وێلز;Bathurst
+ur;باتھرسٹ، نیو ساؤتھ ویلز;Bathurst
+ar;باثرست;Bathurst
+kk;Батерст;Bathurst
+uz;Baterst;Bathurst
+ky;Батерст;Bathurst
+bn;ব্যাথার্স্ট;Bathurst
+pa;ਬੈਥਰਸਟ;Bathurst
+ps;باتهرست;Bathurst
+tg;Батерст;Bathurst
+tt;Батерст;Bathurst
+bg;Баларат;Ballarat
+lt;Balaratas;Ballarat
+ka;ბალარატი;Ballarat
+uk;Балларат;Ballarat
+sr;Баларат;Ballarat
+el;Μπαλαράτ;Ballarat
+mn;Балларат;Ballarat
+ar;بالارات;Ballarat
+ckb;بەلێرات;Ballarat
+fa;بلرت;Ballarat
+he;בלאראט;Ballarat
+ur;بالاراٹ;Ballarat
+hy;Բալլարատ;Ballarat
+be;Баларат;Ballarat
+bn;ব্যালারেট;Ballarat
+si;බැලරට්;Ballarat
+kn;ಬಲ್ಲಾರಟ್;Ballarat
+ta;பல்லரட்;Ballarat
+te;బల్లరాట్;Ballarat
+th;บาลเลแรท;Ballarat
+tt;Бәлерәт;Ballarat
+lv;Balarata;Ballarat
+mr;बेल्लारत;Ballarat
+yue;巴罅辣;Ballarat
+gu;બેલારાત;Ballarat
+ckb;بیرنزدێل;Bairnsdale
+uk;Бернсдейл;Bairnsdale
+ur;برینزڈیل، وکٹوریہ;Bairnsdale
+fa;باکس مارش;Bacchus Marsh
+fa;اونل، ویکتوریا;Avenel
+ur;ایونیل، وکٹوریہ;Avenel
+fa;آستینز فری، تاسمانی;Austins Ferry
+cv;Армидейл;Armidale
+ka;არმიდეილი;Armidale
+uk;Армідейл;Armidale
+ar;آرمدال;Armidale
+am;አርሚዳል;Armidale
+fa;آرمیدال;Armidale
+sah;Армидейл;Armidale
+ckb;ئارمیداڵ;Armidale
+hy;Արմիդեյլ;Armidale
+bn;আর্মিডেল;Armidale
+si;ආමිඩේල්;Armidale
+kn;ಆರ್ಮಿಡೇಲ್;Armidale
+ta;ஆர்மீடேல்;Armidale
+te;అర్మిడేల్;Armidale
+th;อมิดาเล;Armidale
+lt;Armideilas;Armidale
+lv;Armideila;Armidale
+ur;ارمیدالی;Armidale
+mr;आर्मिडेल;Armidale
+el;Άρμιντεϊλ;Armidale
+gu;આર્મિડેલ;Armidale
+he;ארמידייל;Armidale
+uk;Арарат;Ararat
+ka;არარატი;Ararat
+ckb;ئارارات، ڤیکتۆریا;Ararat
+hy;Արարատ;Ararat
+ur;ارارات، وکٹوریہ;Ararat
+bg;Арарат;Ararat
+lt;Araratas;Ararat
+ar;أرارات;Ararat
+fa;آرارات، ویکتوریا;Ararat
+fa;النزفورد، ویکتوریا;Allansford
+ur;ایلانس فورڈ، وکٹوریہ;Allansford
+sv;Alfredtown;Alfred Town
+fa;آلفردتاون;Alfred Town
+ur;الیگزینڈرا، وکٹوریہ;Alexandra
+ka;ოლბერი;Albury
+lt;Olberis;Albury
+ar;ألبوري;Albury
+sr;Олбери;Albury
+am;አልበሪ;Albury
+fa;آلبری;Albury
+ckb;ئەڵبوری;Albury
+he;אולבורי;Albury
+ur;ایلبری;Albury
+fa;مورپث;Morpeth
+ur;مورپیتھ، نیوساؤتھ ویلز;Morpeth
+el;Νιου Λάμπτον;New Lambton
+fa;نیو لمبتن، نیو ساوت ولز;New Lambton
+fa;سیسترز بیچ، تاسمانی;Sisters Beach
+ka;პალმერსტონი;Palmerston
+sr;Палмерстон;Palmerston
+lt;Palmerstonas;Palmerston
+th;พาล์เมอร์สตัน;Palmerston
+fa;پالمرستون;Palmerston
+ckb;پالمێرستن;Palmerston
+ar;خليج هيرفي;Hervey Bay
+ka;ჰერვი-ბეი;Hervey Bay
+sr;Харви Беј;Hervey Bay
+ckb;ھێرڤێی بێی;Hervey Bay
+ur;ہاروی بے;Hervey Bay
+ka;კარათა;Karratha
+he;קראטה;Karratha
+ar;كاراثا;Karratha
+kk;Карраста;Karratha
+ky;Карраста;Karratha
+bn;করাথা;Karratha
+ur;کراتھا;Karratha
+am;ካራታ;Karratha
+fa;کاراتا;Karratha
+pa;ਕਰਾਥਾ;Karratha
+ps;کراتا;Karratha
+tg;Карраста;Karratha
+tt;Карраста;Karratha
+fa;کلمزیگ، استرالیای جنوبی;Klemzig
+fa;برس‌وود، استرالیای غربی;Burswood
+ur;برسووڈ، مغربی آسٹریلیا;Burswood
+fa;الکساندرا هدلند، کوئینزلند;Alexandra Headland
+ur;جوندالوپ;Joondalup
+fa;بلر آتول، استرالیای جنوبی;Blair Athol
+fa;اتل‌استون، استرالیای جنوبی;Athelstone
+mk;Ателстон;Athelstone
+fa;وینچنتا، نیو ساوت ولز;Vincentia
+fa;مدیندی، استرالیای جنوبی;Medindie
+ur;پارک سائیڈ;Parkside
+cy;Logan;Logan City
+ka;ლოგანი;Logan City
+ar;لوغان سيتي;Logan City
+ar;باراماتا;Parramatta
+kk;Парраматта;Parramatta
+ky;Парраматта;Parramatta
+bn;পারামাট্টা;Parramatta
+ur;پیراماٹا;Parramatta
+am;ፓራማታ;Parramatta
+fa;پاراماتا;Parramatta
+pa;ਪਰਾਮੱਟਾ;Parramatta
+ps;پاراماتا;Parramatta
+tg;Парраматта;Parramatta
+tt;Парраматта;Parramatta
+fa;تورمینا، نیو ساوت ولز;Toormina
+fa;شوال‌هیون هدز;Shoalhaven Heads
+fa;بالوین شمالی;Balwyn North
+fa;بلمونت;Belmont
+ar;أغنيس بانكس، نيو ساوث ويلز;Agnes Banks
+fa;آگنس بانکس، نیو ساوت ولز;Agnes Banks
+uk;Локхарт-Ривер;Lockhart River
+ar;نكوکور;Ngukurr
+fa;نگوکور;Ngukurr
+ml;എൻഗുകുർ;Ngukurr
+fa;رابین‌ویل;Robinvale
+ur;رابن ویل، وکٹوریہ;Robinvale
+af;Rottnest-eiland;Rottnest Island
+cs;Rottnest;Rottnest Island
+pl;Rottnest;Rottnest Island
+sv;Rottnest;Rottnest Island
+fa;جزیره راتنست;Rottnest Island
+ar;مدينة كوكبيرن;City of Cockburn
+kk;Кокберн қаласы;City of Cockburn
+tr;Cockburn Şehri;City of Cockburn
+uz;Cockburn shahari;City of Cockburn
+ky;Кокберн шаары;City of Cockburn
+bn;ককবার্ন শহর;City of Cockburn
+ur;شہر کاک برن;City of Cockburn
+am;የኮክበርን ከተማ;City of Cockburn
+az;Cockburn Şəhəri;City of Cockburn
+fa;شهر کاکبرن;City of Cockburn
+ha;Garin Cockburn;City of Cockburn
+jv;Kutha Cockburn;City of Cockburn
+om;Magaalaa Cockburn;City of Cockburn
+pa;ਕੌਕਬਰਨ ਸ਼ਹਿਰ;City of Cockburn
+ps;د کاک برن ښار;City of Cockburn
+so;Magaalada Cockburn;City of Cockburn
+sw;Jiji la Cockburn;City of Cockburn
+tg;Шахри Кокберн;City of Cockburn
+tt;Кокберн шәһәре;City of Cockburn
+fa;مانیانا، بوتسوانا;Manyana
+ar;جدول كاروليس;Carrolls Creek
+kk;Кэрролл өзені;Carrolls Creek
+ky;Кэрролл Крик;Carrolls Creek
+bn;ক্যারোলস ক্রিক;Carrolls Creek
+ur;کیرولز کریک;Carrolls Creek
+am;ካሮልስ ክሪክ;Carrolls Creek
+fa;کریک کاروللز;Carrolls Creek
+pa;ਕੈਰੋਲਸ ਕ੍ਰੀਕ;Carrolls Creek
+ps;کیرولز کریک;Carrolls Creek
+tg;Крик Кэрролл;Carrolls Creek
+tt;Кэрролл Крик;Carrolls Creek
+fa;آلبیون پارک ریل، نیو ساوت ولز;Albion Park Rail
+fa;باراک هایتس، نیو ساوت ولز;Barrack Heights
+ar;ساحل الشمس;Sunshine Coast
+kk;Күннің жағасы;Sunshine Coast
+ky;Күндүн Чокусу;Sunshine Coast
+bn;সানশাইন কোস্ট;Sunshine Coast
+ur;سن شائن کوسٹ;Sunshine Coast
+am;ሌላይት ሐይ;Sunshine Coast
+fa;ساحل آفتابی;Sunshine Coast
+pa;ਸਨਸ਼ਾਈਨ ਕੋਸਟ;Sunshine Coast
+ps;سن شاین ساحل;Sunshine Coast
+tg;Сохили Офтоб;Sunshine Coast
+ar;كالامندا;Kalamunda
+kk;Каламунда;Kalamunda
+ky;Каламунда;Kalamunda
+bn;কালামুন্ডা;Kalamunda
+ur;کالامنڈا;Kalamunda
+am;ካላሙንዳ;Kalamunda
+fa;کالامندا;Kalamunda
+pa;ਕਾਲਾਮੁੰਡਾ;Kalamunda
+ps;کالامندا;Kalamunda
+tg;Каламунда;Kalamunda
+tt;Каламунда;Kalamunda
+uk;Норт-Госфорд;North Gosford
+ml;ഡെസേർട്ട് സ്പ്രിംഗ്സ്;Desert Springs
+fa;میلوود، کوئینزلند;Millwood

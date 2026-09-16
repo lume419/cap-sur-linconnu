@@ -27,3 +27,32 @@ ja;アロフィ;Alofi
 ru;Алофи;Alofi
 ko;알로피;Alofi
 zh;阿洛菲;Alofi
+ceb;Tuapa;Tuapa Village
+bg;Туапа;Tuapa Village
+uk;Туапа;Tuapa Village
+ha;Tuapa;Tuapa Village
+pl;Tuapa;Tuapa Village
+da;Tuapa;Tuapa Village
+bg;Муталау;Mutalau
+uk;Муталау;Mutalau
+uk;Макефу;Makefu Village
+ha;Makefu;Makefu Village
+pl;Makefu;Makefu Village
+mk;Макефу;Makefu Village
+uk;Лакепа;Lakepa
+mk;Лакепа;Lakepa
+bg;Хакупу;Hakupu
+uk;Хакупу;Hakupu
+ur;ہاکوپو;Hakupu
+fa;الوفی;Alofi
+be;Пасёлак Алофі;Alofi
+bg;Алофи;Alofi
+el;Αλόφι;Alofi
+ka;ალოფი;Alofi
+lt;Alofis;Alofi
+mk;Алофи;Alofi
+ml;അലാഫി;Alofi
+mr;अलोफी;Alofi
+th;อาโลฟี;Alofi
+uk;Алофі;Alofi
+ur;الوفی;Alofi

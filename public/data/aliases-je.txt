@@ -18,3 +18,5 @@ en;St. Clements;Saint Clements
 en;St Clement;Saint Clements
 de;St. Martin;St Martin
 en;St Quen;St Ouen Town
+ru;Сент-Хельер;Saint Helier
+ko;세인트헬리어;Saint Helier

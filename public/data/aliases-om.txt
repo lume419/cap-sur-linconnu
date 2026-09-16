@@ -4538,3 +4538,189 @@ ar;أركوت;Arkūt
 ar;صاع;Şā‘
 ar;الصويحرة;Aş Şuwayḩirah
 ar;سداق;Sidāq
+el;Σουρ;Sur
+ja;スール;Sur
+ko;수르;Sur
+lt;Suras;Sur
+uk;Сур;Sur
+ur;صور، عمان;Sur
+zh;苏尔;Sur
+kk;Сур;Sur
+ky;Сур;Sur
+hi;सुर;Sur
+bn;সুর;Sur
+am;ሱር;Sur
+pa;ਸੂਰ;Sur
+ps;صور;Sur
+tg;Сур;Sur
+tt;Сур;Sur
+ca;Suhar;Sohar
+cs;Suhár;Sohar
+ja;ソハール;Sohar
+ko;소하르;Sohar
+lt;Soharas;Sohar
+no;Suhar;Sohar
+ur;صحار;Sohar
+pl;Suhar;Sohar
+zh;苏哈尔;Sohar
+kk;Сохар;Sohar
+ky;Сохар;Sohar
+hi;सोहार;Sohar
+bn;সোহার;Sohar
+am;ሶሃር;Sohar
+pa;ਸੋਹਾਰ;Sohar
+ps;صحار;Sohar
+tg;Сохар;Sohar
+tt;Сохар;Sohar
+pl;Salala;Şalālah
+uk;Салала;Şalālah
+kk;Салала;Şalālah
+uz;Salola;Şalālah
+ky;Салала;Şalālah
+hi;सलालह;Şalālah
+bn;সালালাহ;Şalālah
+ur;سلالہ;Şalālah
+am;ሳላላህ;Şalālah
+ja;サラーラ;Şalālah
+pa;ਸਲਾਲਾਹ;Şalālah
+ps;سلالة;Şalālah
+tg;Салала;Şalālah
+tt;Салала;Şalālah
+ur;سیلال;Sailal
+nn;Qarthit;Qarz̧īt
+kk;Низуа;Nizwá
+uz;Nizva;Nizwá
+ky;Низуа;Nizwá
+hi;निज़वा;Nizwá
+bn;নিজওয়া;Nizwá
+ur;نزوی;Nizwá
+am;ኒዝዋ;Nizwá
+ja;ニズワ;Nizwá
+pa;ਨਿਜ਼ਵਾ;Nizwá
+ps;نزوى;Nizwá
+tg;Низуа;Nizwá
+tt;Низуа;Nizwá
+fi;Masqat;Muscat
+he;מסקט;Muscat
+ja;マスカット;Muscat
+ko;무스카트;Muscat
+lb;Maskat;Muscat
+pl;Maskat;Muscat
+sk;Maskat;Muscat
+sv;Muskat;Muscat
+el;Μουσκάτ;Muscat
+et;Masqaţ;Muscat
+hy;Մասկատ;Muscat
+tg;Масқат;Muscat
+am;መስከት;Muscat
+lt;Maskatas;Muscat
+sw;Muskat;Muscat
+no;Muskat;Muscat
+mr;मस्कत;Muscat
+ka;მასკატი;Muscat
+kl;Masqat;Muscat
+id;Muskat;Muscat
+ca;Masqat;Muscat
+cv;Маскат;Muscat
+is;Múskat;Muscat
+or;ମସ୍କଟ;Muscat
+os;Маскат;Muscat
+ug;مۇسكات;Muscat
+oc;Mascate;Muscat
+uk;Маскат;Muscat
+gl;Mascate;Muscat
+bs;Muskat;Muscat
+te;మస్కట్;Muscat
+sr;Маскат;Muscat
+ur;مسقط;Muscat
+mn;Маскат;Muscat
+br;Masqat;Muscat
+tl;Maskate;Muscat
+th;มัสกัต;Muscat
+ta;மஸ்கத்;Muscat
+mk;Мускат;Muscat
+lv;Maskata;Muscat
+hr;Muskat;Muscat
+pa;ਮਸਕਟ;Muscat
+bn;মাস্কাট;Muscat
+bo;མི་སི་ཁ་ཁྲི།;Muscat
+hu;Maszkat;Muscat
+bg;Маскат;Muscat
+hi;मस्क़त;Muscat
+be;Маскат;Muscat
+zh;马斯喀特;Muscat
+ce;Маскат;Muscat
+kab;Masqaṭ;Muscat
+mg;Masqat;Muscat
+ml;മസ്കറ്റ്;Muscat
+pih;Muskat;Muscat
+yue;馬斯喀特;Muscat
+ky;Маскат;Muscat
+cs;Chasab;Khasab
+ja;ハサブ;Khasab
+ko;하사브;Khasab
+lt;Chasabas;Khasab
+ur;خصب، عمان;Khasab
+pl;Chasab;Khasab
+kk;Хасаб;Khasab
+uz;Xasab;Khasab
+ky;Хасаб;Khasab
+hi;खसब;Khasab
+bn;খাসাব;Khasab
+am;ኃሳብ;Khasab
+pa;ਖਸਬ;Khasab
+ps;خصب;Khasab
+tg;Хасаб;Khasab
+tt;Хасаб;Khasab
+no;Ibri;‘Ibrī
+kk;Ибра;Ibrā’
+uz;Ibro;Ibrā’
+ky;Ибра;Ibrā’
+hi;इब्रा;Ibrā’
+bn;ইব্রা;Ibrā’
+ur;ابراء;Ibrā’
+am;ኢብራ;Ibrā’
+ja;イブラ;Ibrā’
+pa;ਇਬਰਾ;Ibrā’
+ps;ابراء;Ibrā’
+tg;Ибра;Ibrā’
+tt;Ибра;Ibrā’
+kk;Хайма;Haymā’
+uz;Xaymo;Haymā’
+ky;Хайма;Haymā’
+hi;हयमा;Haymā’
+bn;হায়মা;Haymā’
+ur;ہیماء;Haymā’
+am;ሃይማ;Haymā’
+ja;ハイマ;Haymā’
+pa;ਹਾਇਮਾ;Haymā’
+ps;هيماء;Haymā’
+tg;Хайма;Haymā’
+tt;Хайма;Haymā’
+ur;ہبکیت;Habkayt
+nn;Bandar Jissah;Al Jişşah
+ce;Сиб;Seeb
+cs;Síb;Seeb
+hu;Szíb;Seeb
+ko;시브;Seeb
+lt;Sybas;Seeb
+ms;As Sib;Seeb
+ur;السیب;Seeb
+pl;As-Sib;Seeb
+sv;As-Sib;Seeb
+zh;锡卜;Seeb
+kk;Әл-Бурайми;Al Buraymī
+uz;Buraymi;Al Buraymī
+ky;Аль-Бурайми;Al Buraymī
+hi;अल बुरैमी;Al Buraymī
+bn;আল বুরাইমি;Al Buraymī
+ur;البریمی;Al Buraymī
+am;አል ቡራይሚ;Al Buraymī
+ja;アルブライミ;Al Buraymī
+pa;ਅਲ ਬੁਰੈਮੀ;Al Buraymī
+ps;البريمي;Al Buraymī
+tg;Аль-Бурайми;Al Buraymī
+tt;Аль-Бурайми;Al Buraymī
+nn;Yenkit;Yankit
+ur;ینکیت;Yankit
+nn;Ad Duss;Daşş

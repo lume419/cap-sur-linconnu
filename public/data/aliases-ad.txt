@@ -17,3 +17,140 @@ gl;Andorra a Vella;Andorra la Vella
 pt;Andorra-a-Velha;Andorra la Vella
 oc;Andòrra la Vièlha;Andorra la Vella
 en;Bordes de Envalira;Bordes d'Envalira
+uk;Тоссалет і Віньяльс;Tossalet i Vinyals
+ru;Сольдеу;Soldeu
+uk;Сольдеу;Soldeu
+ja;スルデウ;Soldeu
+fa;سولدو;Soldeu
+he;סולדאו;Soldeu
+ru;Эл Тартер;El Tarter
+fa;ال تارتر;El Tarter
+sr;Ел Тартер;El Tarter
+ja;サン・ジュリア・デ・ロリア教区;Sant Julià de Lòria
+ru;Сант-Жулия-де-Лория;Sant Julià de Lòria
+zh;圣胡利娅－德洛里亚;Sant Julià de Lòria
+kk;Сант-Жулиа-де-Лория;Sant Julià de Lòria
+ar;سانت جوليا دي لوريا;Sant Julià de Lòria
+ky;Сант-Жулия-де-Лория;Sant Julià de Lòria
+hi;सांट जूलिया डी लोरिया;Sant Julià de Lòria
+bn;সান্ট জুলিয়া ডি লোরিয়া;Sant Julià de Lòria
+ur;سانت جولیا ڈی لوریا;Sant Julià de Lòria
+am;ሳንት ጁሊያ ደ ሎሪያ;Sant Julià de Lòria
+fa;سانت جولیا دی لوریا;Sant Julià de Lòria
+pa;ਸੈਂਟ ਜੂਲੀਆ ਡੀ ਲੋਰੀਆ;Sant Julià de Lòria
+ps;سانت جولیا دي لوریا;Sant Julià de Lòria
+tg;Сант-Жулия-де-Лория;Sant Julià de Lòria
+tt;Сант-Жулия-де-Лория;Sant Julià de Lòria
+ru;Пас де ла Каса;Pas de la Casa
+ja;オルディノ教区;Ordino
+ru;Ордино;Ordino
+ar;أوردينو;Ordino
+kk;Ордино;Ordino
+ky;Ордино;Ordino
+hi;ऑर्डिनो;Ordino
+bn;অর্ডিনো;Ordino
+ur;آرڈینو;Ordino
+am;ኦርዲኖ;Ordino
+fa;اوردینو;Ordino
+pa;ਓਰਡੀਨੋ;Ordino
+ps;آردینو;Ordino
+tg;Ордино;Ordino
+tt;Ордино;Ordino
+fa;ملریس;Molleres
+pl;Escaldes-Engordany;les Escaldes
+ja;エスカルデス＝エンゴルダニ教区;les Escaldes
+na;Escaldes-Engordany;les Escaldes
+ru;Эскальдес-Энджордани;les Escaldes
+sq;Escaldes-Engordany;les Escaldes
+zh;萊塞斯卡爾德－恩戈爾達;les Escaldes
+zh-TW;萊塞斯卡爾德-恩戈爾達;les Escaldes
+ar;إسكالديس-إنجورداني;les Escaldes
+kk;Эскальдес-Энгордани;les Escaldes
+tr;Escaldes-Engordany;les Escaldes
+uz;Escaldes-Engordany;les Escaldes
+ky;Эскальдес-Энгордани;les Escaldes
+id;Escaldes-Engordany;les Escaldes
+ms;Escaldes-Engordany;les Escaldes
+hi;एस्कलडेस-एनगोर्डानी;les Escaldes
+bn;এসকালডেস-এনগোর্ডানি;les Escaldes
+ur;اسکالڈس-انگورڈانی;les Escaldes
+am;ኢስካልዴስ-ኤንጎርዳኒ;les Escaldes
+az;Escaldes-Engordany;les Escaldes
+fa;اسکالدس-انگوردانی;les Escaldes
+ha;Escaldes-Engordany;les Escaldes
+jv;Escaldes-Engordany;les Escaldes
+om;Escaldes-Engordany;les Escaldes
+pa;ਐਸਕਾਲਡੇਸ-ਇਨਗੋਰਡਾਨੀ;les Escaldes
+ps;اسکالدس-انګوردانی;les Escaldes
+so;Escaldes-Engordany;les Escaldes
+sw;Escaldes-Engordany;les Escaldes
+tg;Эскальдес-Энгордани;les Escaldes
+tt;Эскальдес-Энгордани;les Escaldes
+ja;ラ・マサナ教区;la Massana
+ru;Ла-Массана;la Massana
+ar;لا ماسانا;la Massana
+kk;Ла-Массана;la Massana
+ky;Ла-Массана;la Massana
+hi;ला मसाना;la Massana
+bn;লা মাসানা;la Massana
+ur;لا ماسانا;la Massana
+am;ላ ማሳና;la Massana
+fa;لا ماسانا;la Massana
+pa;ਲਾ ਮਾਸਾਨਾ;la Massana
+ps;لا ماسانا;la Massana
+tg;Ла-Массана;la Massana
+tt;Ла-Массана;la Massana
+ja;エンカンプ教区;Encamp
+ru;Энкам;Encamp
+zh;恩坎普;Encamp
+ar;إنكامب;Encamp
+kk;Энкамп;Encamp
+ky;Энкамп;Encamp
+hi;एनकैम्प;Encamp
+bn;এনক্যাম্প;Encamp
+ur;انکیمپ;Encamp
+am;ኢንካምፕ;Encamp
+fa;انکمپ;Encamp
+pa;ਐਨਕੈਂਪ;Encamp
+ps;انکیمپ;Encamp
+tg;Энкамп;Encamp
+tt;Энкамп;Encamp
+ja;カニーリョ教区;Canillo
+ru;Канильо;Canillo
+zh;卡尼略;Canillo
+ar;كانيلو;Canillo
+kk;Канильо;Canillo
+ky;Канильо;Canillo
+hi;कैनिलो;Canillo
+bn;ক্যানিলো;Canillo
+ur;کنیلو;Canillo
+am;ካኒሎ;Canillo
+fa;کانیلو;Canillo
+pa;ਕੈਨਿਲੋ;Canillo
+ps;کنیلو;Canillo
+tg;Канильо;Canillo
+tt;Канильо;Canillo
+ru;Аринсал;Arinsal
+fa;آرینسال;Arinsal
+lt;Arinsalis;Arinsal
+ru;Аринсаль;Arinsal
+ar;أندورا لا فيلا;Andorra la Vella
+be;Андора ля Вэлья;Andorra la Vella
+bg;Андора ла Веля;Andorra la Vella
+he;אנדורה לה וולה;Andorra la Vella
+ja;アンドラ・ラ・ヴェリャ;Andorra la Vella
+ko;안도라라베야;Andorra la Vella
+lt;Andora;Andorra la Vella
+ru;Андорра-ла-Велья;Andorra la Vella
+sr;Андора ла Веља;Andorra la Vella
+zh-TW;安道爾城;Andorra la Vella
+sk;Andorra;Andorra la Vella
+tet;Andorra Tuan;Andorra la Vella
+el;Ανδόρρα;Andorra la Vella
+pl;Andora;Andorra la Vella
+ht;Andò-la-Vyèy;Andorra la Vella
+am;አንዶራ ላ ቬላ;Andorra la Vella
+fa;ایکساز;Aixàs
+ru;Мархинеда;La Margineda
+ja;ラ・マルギネーダ;La Margineda
+ur;لا مارگینیڈا;La Margineda

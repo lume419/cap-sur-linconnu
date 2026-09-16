@@ -784,3 +784,321 @@ es;Hacienda La Bendita;La Bendita
 es;El Guato;El Huato
 es;Ciano Viejo;Ciano
 es;San Vicente del Almendral;San Vicente
+kk;Замора;Zamora
+ky;Замора;Zamora
+bn;জামোরা;Zamora
+ur;زامورا;Zamora
+am;ዛሞራ;Zamora
+fa;زامورا;Zamora
+pa;ਜ਼ਾਮੋਰਾ;Zamora
+ps;زامورا;Zamora
+tg;Замора;Zamora
+tt;Замора;Zamora
+lt;Vinsesas;Vinces
+be;Тулькан;Tulcán
+fa;تولکان;Tulcán
+lt;Tulkanas;Tulcán
+uk;Тулькан;Tulcán
+ur;تولکان;Tulcán
+kk;Түлкан;Tulcán
+ky;Түлкан;Tulcán
+bn;তুলকান;Tulcán
+am;ቱልካን;Tulcán
+pa;ਤੁਲਕਾਨ;Tulcán
+ps;تولکان;Tulcán
+tg;Тулқон;Tulcán
+ur;تینا، ایکواڈور;Tena
+kk;Тена;Tena
+ky;Тена;Tena
+bn;তেনা;Tena
+am;ቴና;Tena
+fa;تنا;Tena
+pa;ਤੇਨਾ;Tena
+ps;تینا;Tena
+tg;Тена;Tena
+pl;Santo Domingo;Santo Domingo de los Colorados
+kk;Санто-Доминго-де-лос-Колорадос;Santo Domingo de los Colorados
+ky;Санто-Доминго-де-лос-Колорадос;Santo Domingo de los Colorados
+bn;সান্তো ডোমিঙ্গো দে লস কোলোরাডোস;Santo Domingo de los Colorados
+ur;سانتو ڈومنگو ڈی لوس کولورادوس;Santo Domingo de los Colorados
+am;ሳንቶ ዶሚንጎ ዴ ሎስ ኮሎራዶስ;Santo Domingo de los Colorados
+fa;سانتو دومینگو دی لوس کلورادوس;Santo Domingo de los Colorados
+pa;ਸਾਂਤੋ ਡੋਮਿਂਗੋ ਡੀ ਲੌਸ ਕੋਲੋਰਾਡੋਸ;Santo Domingo de los Colorados
+ps;سانتو ډومینګو ډی لوس کولورادوس;Santo Domingo de los Colorados
+tg;Санто-Доминго-де-лос-Колорадос;Santo Domingo de los Colorados
+bn;সান্তা রোসা;Santa Rosa
+fa;سانتا النا;Santa Elena
+mk;Санта Елена;Santa Elena
+ur;سانتا الینا، ایکواڈور;Santa Elena
+kk;Санта-Елена;Santa Elena
+ky;Санта-Елена;Santa Elena
+bn;সান্তা এলেনা;Santa Elena
+am;ሳንታ ኤለና;Santa Elena
+pa;ਸਾਂਤਾ ਅਲੈਨਾ;Santa Elena
+ps;سانتا الینا;Santa Elena
+tg;Санта-Елена;Santa Elena
+ceb;San Miguel de Salcedo;San Miguel
+sv;San Miguel de Salcedo;San Miguel
+gl;San Miguel de Salcedo;San Miguel
+eu;San Miguel de Salcedo;San Miguel
+pl;Salcedo;San Miguel
+ca;San Miguel de Salcedo;San Miguel
+lt;Sangolkis;Sangolquí
+hy;Սանգոլկի;Sangolquí
+sr;Санголки;Sangolquí
+lt;Salinasas;Salinas
+uk;Салінас;Salinas
+he;ריובמבה;Riobamba
+th;รีโอบัมบา;Riobamba
+ka;რიობამბა;Riobamba
+uk;Ріобамба;Riobamba
+ur;ریوبامبا;Riobamba
+kk;Риобамба;Riobamba
+ky;Риобамба;Riobamba
+bn;রিওবাম্বা;Riobamba
+am;ሪዮባምባ;Riobamba
+fa;ریوبامبا;Riobamba
+pa;ਰਿਓਬਾਂਬਾ;Riobamba
+ps;ریوبامبا;Riobamba
+tg;Риобамба;Riobamba
+el;Κίτο;Quito
+am;ኪቶ;Quito
+be;Кіта;Quito
+he;קיטו;Quito
+hy;Կիտո;Quito
+lt;Kitas;Quito
+lv;Kito;Quito
+sr;Кито;Quito
+th;กีโต;Quito
+uk;Кіто;Quito
+ug;كىتو;Quito
+bo;ཁེ་ཐོ།;Quito
+os;Кито;Quito
+mk;Кито;Quito
+ka;კიტო;Quito
+bg;Кито;Quito
+fa;کیتو;Quito
+mr;क्वितो;Quito
+ur;کیٹو;Quito
+az;Kito;Quito
+kk;Кито;Quito
+pa;ਕੀਤੋ;Quito
+sq;Kuito;Quito
+ce;Кито;Quito
+ml;ക്വിറ്റോ;Quito
+tt;Кито;Quito
+yue;基多;Quito
+ba;Кито;Quito
+ky;Кито;Quito
+lrc;کیتو;Quito
+ta;கித்தோ;Quito
+vep;Kito;Quito
+ka;კევედო;Quevedo
+lt;Kevedas;Quevedo
+be;Пуё;Puyo
+lt;Pujas;Puyo
+uk;Пуйо;Puyo
+ur;پویو، ایکواڈور;Puyo
+kk;Пуйо;Puyo
+ky;Пуйо;Puyo
+bn;পুয়ো;Puyo
+am;ፑዮ;Puyo
+fa;پویو;Puyo
+pa;ਪੁਯੋ;Puyo
+ps;پویو;Puyo
+tg;Пуйо;Puyo
+lt;Puerto Viljamilis;Puerto Villamil
+uk;Пуерто-Віяміл;Puerto Villamil
+kk;Пуэрто-Франсиско-де-Орельяна;Puerto Francisco de Orellana
+ky;Пуэрто-Франсиско-де-Орельяна;Puerto Francisco de Orellana
+bn;পুয়ের্তো ফ্রান্সিসকো দে ওরেলানা;Puerto Francisco de Orellana
+ur;پویرتو فرانسسکو ڈی اوریلانا;Puerto Francisco de Orellana
+am;ፖርቱ ፍራንሲስኮ ዴ ኦሬላና;Puerto Francisco de Orellana
+fa;پویرتو فرانسیسکو دی اورلیانا;Puerto Francisco de Orellana
+pa;ਪੁਏਰਤੋ ਫ੍ਰਾਂਸਿਸਕੋ ਦੀ ਓਰੇਲਾਨਾ;Puerto Francisco de Orellana
+ps;پویرتو فرانسیسکو ډی اورلیانا;Puerto Francisco de Orellana
+tg;Пуэрто-Франсиско-де-Орельяна;Puerto Francisco de Orellana
+he;פוארטו בקריסו מורנו;Puerto Baquerizo Moreno
+lt;Puerto Bakeriso Morenas;Puerto Baquerizo Moreno
+os;Пуэрто-Бакерисо-Морено;Puerto Baquerizo Moreno
+uk;Пуерто-Бакерісо-Морено;Puerto Baquerizo Moreno
+ur;پویرتو باکویریسو مورینو;Puerto Baquerizo Moreno
+kk;Пуэрто-Бакерисо-Морено;Puerto Baquerizo Moreno
+ky;Пуэрто-Бакерисо-Морено;Puerto Baquerizo Moreno
+bn;পুয়ের্তো বাকেরিজো মোরেনো;Puerto Baquerizo Moreno
+am;ፖርቱ ባከሪዞ ሞሬኖ;Puerto Baquerizo Moreno
+fa;پویرتو باکریزو مورنو;Puerto Baquerizo Moreno
+pa;ਪੁਏਰਤੋ ਬਾਕੇਰਿਜ਼ੋ ਮੋਰੇਨੋ;Puerto Baquerizo Moreno
+ps;پویرتو باکریزو مورینو;Puerto Baquerizo Moreno
+tg;Пуэрто-Бакерисо-Морено;Puerto Baquerizo Moreno
+lt;Portovjechas;Portoviejo
+be;Партаўеха;Portoviejo
+ka;პორტოვიეხო;Portoviejo
+ur;پورتوبیخو;Portoviejo
+kk;Портовьехо;Portoviejo
+ky;Портовьехо;Portoviejo
+bn;পোর্তোভিয়েজো;Portoviejo
+am;ፖርቶቪዬጆ;Portoviejo
+fa;پورتوویجو;Portoviejo
+pa;ਪੋਰਟੋਵਿਏਜੋ;Portoviejo
+ps;پورتوویجو;Portoviejo
+tg;Портовьехо;Portoviejo
+ceb;General Villamil;Playas
+sv;General Villamil;Playas
+gl;General Villamil;Playas
+lt;Plajasas;Playas
+hy;Պլեյաս;Playas
+pl;General Villamil;Playas
+ca;General Villamil;Playas
+fa;پلیلئو، اکوادور;Pelileo
+lt;Otavalas;Otavalo
+uk;Отавало;Otavalo
+fa;اوتاوالو;Otavalo
+ka;მილაგრო;Milagro
+lt;Milagras;Milagro
+tt;Милагро;Milagro
+uk;Мілагро;Milagro
+ur;میلاجرو;Milagro
+mr;मिलग्रो;Milagro
+el;Μιλάγκρο;Milagro
+fa;میلاگرو;Milagro
+bn;মিলাগ্রো;Milagro
+si;මිලාග්රෝ;Milagro
+kn;ಮಿಲಾಗ್ರೊ;Milagro
+ta;மிளகிறோ;Milagro
+gu;મિલાગ્રો;Milagro
+te;మిలాగ్రో;Milagro
+th;มิลาโกร;Milagro
+be;Манта;Manta
+ka;მანტა;Manta
+fa;ماچالا;Machala
+lt;Mačala;Machala
+be;Мачала;Machala
+uk;Мачала;Machala
+he;מצאלה;Machala
+ka;მაჩალა;Machala
+lv;Mačala;Machala
+ur;ماچالا;Machala
+sr;Маћала;Machala
+kk;Мачала;Machala
+ky;Мачала;Machala
+bn;মাচালা;Machala
+am;ማቻላ;Machala
+pa;ਮਚਾਲਾ;Machala
+ps;مچھالا;Machala
+tg;Мачала;Machala
+ur;ماچاچی;Machachi
+kk;Макас;Macas
+ky;Макас;Macas
+bn;মাকাস;Macas
+ur;ماکاس;Macas
+am;ማካስ;Macas
+fa;ماکاس;Macas
+pa;ਮਾਕਾਸ;Macas
+ps;ماکاس;Macas
+tg;Макас;Macas
+ur;میکارا;Macará
+he;מקארה;Macará
+lt;Locha;Loja
+ka;ლოხა;Loja
+lv;Loha;Loja
+ur;لوخا، ایکواڈور;Loja
+kk;Лоха;Loja
+ky;Лоха;Loja
+bn;লোজা;Loja
+am;ሎጃ;Loja
+fa;لوخا;Loja
+pa;ਲੋਜਾ;Loja
+ps;لوجا;Loja
+tg;Лоха;Loja
+be;Латакунга;Latacunga
+lt;Latakunga;Latacunga
+fa;لاتاکونگا، اکوادور;Latacunga
+ur;لاتاکونگا;Latacunga
+kk;Латакунга;Latacunga
+ky;Латакунга;Latacunga
+bn;লাতাকুঙ্গা;Latacunga
+am;ላታኩንጋ;Latacunga
+pa;ਲਾਤਾਕੁਂਗਾ;Latacunga
+ps;لاتاکونګا;Latacunga
+tg;Латакунга;Latacunga
+be;Нуэва-Лоха;Nueva Loja
+lt;Nueva Locha;Nueva Loja
+uk;Нуева-Лоха;Nueva Loja
+ur;نویوا لوخا;Nueva Loja
+kk;Нуэва-Лоха;Nueva Loja
+ky;Нуэва-Лоха;Nueva Loja
+bn;নুয়েভা লোজা;Nueva Loja
+am;ኑዋ ሎጃ;Nueva Loja
+fa;نویا لوخا;Nueva Loja
+pa;ਨੁਏਵਾ ਲੋਜਾ;Nueva Loja
+ps;نویوا لوجا;Nueva Loja
+tg;Нуэва-Лоха;Nueva Loja
+kk;Ибарра;Ibarra
+ky;Ибарра;Ibarra
+bn;ইবারা;Ibarra
+ur;ابارا;Ibarra
+am;ኢባራ;Ibarra
+fa;ایبارا;Ibarra
+be;Гуаякіль;Guayaquil
+lt;Gvajakilis;Guayaquil
+el;Γουαγιακίλ;Guayaquil
+sr;Гвајакил;Guayaquil
+lv;Gvajakila;Guayaquil
+fa;گوایاکیول;Guayaquil
+uk;Ґуаякіль;Guayaquil
+sk;Santiago de Guayaquil;Guayaquil
+th;กวายากิล;Guayaquil
+mk;Гвајакил;Guayaquil
+mr;ग्वायाकिल;Guayaquil
+os;Гуаякиль;Guayaquil
+bg;Гуаякил;Guayaquil
+he;גואיאקיל;Guayaquil
+ce;Гуаякиль;Guayaquil
+pa;ਗੁਆਇਆਕੀਲ;Guayaquil
+ka;გუაიაკილი;Guayaquil
+ur;گوایاکل;Guayaquil
+vep;Guajakil;Guayaquil
+be;Гуаранда;Guaranda
+uk;Ґуаранда;Guaranda
+ur;گواراندا;Guaranda
+lt;Gulaseo;Gualaceo
+gl;El Guabo;Guabo
+pl;El Guabo;Guabo
+ca;El Guabo;Guabo
+pl;Durán;Eloy Alfaro
+be;Куэнка;Cuenca
+he;קואנקה;Cuenca
+lt;Kuenka;Cuenca
+os;Куэнкæ;Cuenca
+uk;Куенка;Cuenca
+ka;კუენკა;Cuenca
+th;เกวงกา;Cuenca
+hy;Կուենկա;Cuenca
+fa;کوانکا;Cuenca
+ky;Куэнка шаары;Cuenca
+ur;کوئنکا، ایکواڈور;Cuenca
+sr;Квенка;Cuenca
+lt;Kotakačis;Cotacachi
+uk;Котакачі;Cotacachi
+lt;Čonė;Chone
+lt;Kalseta;Calceta
+gl;Buena Fe;San Jacinto de Buena Fé
+pl;Buena Fe;San Jacinto de Buena Fé
+ca;Buena Fe;San Jacinto de Buena Fé
+lt;Bahija de Karakesas;Bahía de Caráquez
+ro;Bahia;Bahía de Caráquez
+lt;Babahojas;Babahoyo
+ur;باباویو;Babahoyo
+lt;Asogesas;Azogues
+ur;آسوگوس;Azogues
+nn;San Juan de Ambato;Ambato
+uk;Амбато;Ambato
+lt;Ambatas;Ambato
+sk;San Juan de Ambato;Ambato
+fa;آمباتو، اکوادور;Ambato
+be;Амбата;Ambato
+hy;Ամբատո;Ambato
+ka;ამბატო;Ambato
+ur;امباتو، ایکواڈور;Ambato
+fa;الامور;Alamor

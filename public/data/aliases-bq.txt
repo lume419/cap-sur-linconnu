@@ -14,3 +14,39 @@ zh;克拉伦代克;Kralendijk
 ar;كراليندايك;Kralendijk
 ko;크랄렌데이크;Kralendijk
 ko;린콘;Dorp Rincon
+kk;Де-Боттом;The Bottom
+ky;Де-Боттом;The Bottom
+bn;দ্য বটম;The Bottom
+ur;دی بوٹم;The Bottom
+am;ዘ ቦታም;The Bottom
+fa;دی باتم;The Bottom
+pa;ਦ ਬੌਟਮ;The Bottom
+ps;د بوټم;The Bottom
+tg;Де-Боттом;The Bottom
+tt;Де-Боттом;The Bottom
+be;Араньестад;Oranjestad
+el;Οράνιεστατ;Oranjestad
+ka;ორანესტადი;Oranjestad
+lt;Oranjestadas;Oranjestad
+nn;Oranjestad på Sint Eustatius;Oranjestad
+sr;Орањестад;Oranjestad
+ur;اورنجسٹیڈ، سینٹ ایوسٹائیس;Oranjestad
+kk;Ораньестад;Oranjestad
+ky;Ораньестад;Oranjestad
+bn;ওরানজেস্টাড;Oranjestad
+am;ኦራንጄስታድ;Oranjestad
+fa;اورانجه استاد;Oranjestad
+pa;ਓਰਾਂਜੇਸਟਾਡ;Oranjestad
+ps;اورانجې سټاد;Oranjestad
+tg;Ораньестад;Oranjestad
+tt;Ораньестад;Oranjestad
+be;Кралендэйк;Kralendijk
+bg;Кралендайк;Kralendijk
+el;Κράλεντικ;Kralendijk
+fa;کرالن‌دیک;Kralendijk
+ka;კრალენდეიკი;Kralendijk
+mk;Кралендајк;Kralendijk
+sr;Кралендајк;Kralendijk
+ur;کرالندیک;Kralendijk
+hy;Կրալենդիյկ;Kralendijk
+lt;Kralendeikas;Kralendijk

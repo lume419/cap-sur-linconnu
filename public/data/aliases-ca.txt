@@ -1970,3 +1970,2467 @@ en;Belle Cote;Belle Côte
 fr;Baie-des-Hérons;Heron Bay
 en;Dysart et al;United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde
 en;Dysart and Others;United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde
+ur;105 مائل  ہاؤس;105 Mile House
+ur;فورٹ سینٹ جیمز;Fort St. James
+lt;Abotsfordas;Abbotsford
+sr;Аботсфорд;Abbotsford
+uk;Абботсфорд;Abbotsford
+ur;ایبٹس فورڈ، برٹش کولمبیا;Abbotsford
+fa;ابوتسفورد، بریتیش کلمبیا;Abbotsford
+fa;اکادیا والی، البرتا;Acadia Valley
+el;Άκτον Βέιλ;Acton Vale
+fa;اکتون وال، کبک;Acton Vale
+sr;Актон Вејл;Acton Vale
+fa;ادستوک، کبک;Adstock
+sr;Ердри;Airdrie
+fa;ایردری;Airdrie
+ur;ائیرڈرائی، البرٹا;Airdrie
+uk;Аджакс;Ajax
+sr;Ејџакс;Ajax
+fa;اجاکس، انتاریو;Ajax
+fa;اکلاویک;Aklavik
+mrj;Аклавик;Aklavik
+sr;Албертон;Alberton
+fa;آلبرتون، جزیره پرنس ادوارد;Alberton
+fa;الدرسان، البرتا;Alderson
+be;Алістан;Alliston
+el;Άλιστον;Alliston
+hy;Էլիսթոն;Alliston
+fa;الیستون، انتاریو;Alliston
+he;אליסטון;Alliston
+sr;Алма;Alma
+uk;Альма;Alma
+fa;آلما، کبک;Alma
+fa;التونا، مانیتوبا;Altona
+sr;Алтона;Altona
+ur;الٹونا، مینی ٹوبا;Altona
+fa;امادجوئاک;Amadjuak
+fa;دره امبر، البرتا;Amber Valley
+fa;امسبری، البرتا;Amesbury
+fa;امهرست، نوا اسکاتیا;Amherst
+gd;Ceann Amherst;Amherst Head
+gd;Oirthir Amherst;Amherst Shore
+sr;Амос;Amos
+uk;Амос;Amos
+fa;آموس، کبک;Amos
+fa;آنژ-گارین، کبک;Ange-Gardien
+fa;آناپولیس رویال;Annapolis Royal
+ga;Antigonis;Antigonish
+gd;Antigonis;Antigonish
+fa;آنتیگونیش٬ نوا اسکوشیا;Antigonish
+uk;Антіґоніш;Antigonish Harbour
+gd;Acarsaid Antigonis;Antigonish Harbour
+uk;Арктік-Бей;Arctic Bay
+fa;آرمسترانگ، بریتیش کلمبیا;Armstrong
+sr;Армстронг;Armstrong
+ur;آرمسٹرانگ، برٹش کولمبیا;Armstrong
+fa;آرنپریور;Arnprior
+sr;Арнпрајор;Arnprior
+uk;Арвіат;Arviat
+ur;ارویات;Arviat
+fa;اسکات کورنر، کبک;Ascot Corner
+fa;آسینیبوئیا، ساسکاچوان;Assiniboia
+sr;Асинибоја;Assiniboia
+fa;آستون-جونکسیون، کبک;Aston-Jonction
+sr;Атабаска;Athabasca
+sah;Атабаска;Athabasca
+sr;Орора;Aurora
+be;Арора;Aurora
+uk;Арора;Aurora
+ur;ارورا، اونٹاریو;Aurora
+fa;اوتیه-نورد، کبک;Authier-Nord
+ga;Badaig;Baddeck
+gd;Badaig;Baddeck
+uk;Бе-Комо;Baie-Comeau
+sr;Бе Комо;Baie-Comeau
+fa;به-کومو;Baie-Comeau
+fa;به-دو-فور، کبک;Baie-du-Febvre
+fa;به-جیمز، کبک;Baie-James
+fa;به-ژوآن-بیتز، کبک;Baie-Johan-Beetz
+uk;Бейкер-Лейк;Baker Lake
+ur;بیکر لیک;Baker Lake
+gd;Muileann Baile Mhoireil;Balmoral Mills
+bg;Бамфиелд;Bamfield
+sr;Бенкрофт;Bancroft
+lt;Banfas;Banff
+sr;Банф;Banff
+fa;بنف;Banff
+ka;ბანფი;Banff
+uk;Банфф;Banff
+fa;باروت، کبک;Barraute
+uk;Барргейвен;Barrhaven
+fa;بارهاون;Barrhaven
+lt;Barhedas;Barrhead
+sr;Бархед;Barrhead
+lt;Baris;Barrie
+sr;Бари;Barrie
+fa;بری، انتاریو;Barrie
+uk;Беррі;Barrie
+ur;باری، اونٹاریو;Barrie
+bg;Бари;Barrie
+ur;بیرنگٹن، نووا سکوٹیا;Barrington
+bg;Барис Бей;Barry's Bay
+fa;باتیسکان، کبک;Batiscan
+sr;Бетлфорд;Battleford
+fa;بیکونسفیلد، کبک;Beaconsfield
+sr;Биконсфилд;Beaconsfield
+he;בימסוויל;Beamsville
+ur;بئیر لیک، برٹش کولمبیا;Bear Lake
+fa;بوآرنوآ، کبک;Beauharnois
+sr;Боарноа;Beauharnois
+fa;بولاک-گاردبی، کبک;Beaulac-Garthby
+sr;Бомонт;Beaumont
+uk;Бомонт;Beaumont
+fa;بومونت، آلبرتا;Beaumont
+sr;Биверлоџ;Beaverlodge
+sr;Беканкур;Bécancour
+fa;بکانکور، کبک;Bécancour
+lt;Bilivailas;Belleville
+sr;Белвил;Belleville
+ur;بیلول، اونٹاریو;Belleville
+uk;Бельвіль;Belleville
+fa;بلویل، انتاریو;Belleville
+fa;بلز کورنرز;Bells Corners
+fa;بلوی، کبک;Beloeil
+sr;Белоеј;Beloeil
+pl;Belœil;Beloeil
+sr;Бигар;Biggar
+lt;Blaind Riveris;Blind River
+sr;Блајнд Ривер;Blind River
+fa;بولتون-است، کبک;Bolton-Est
+sr;Бонивил;Bonnyville
+sr;Бушервил;Boucherville
+fa;بوشرویل;Boucherville
+sr;Брејсбриџ;Bracebridge
+bg;Брамптън;Brampton
+lt;Bramptonas;Brampton
+si;බ්‍රැම්ටන්;Brampton
+ne;ब्राम्टन;Brampton
+te;బ్రాంప్టన్;Brampton
+ta;பிராம்ப்டன்;Brampton
+ur;برامپٹن، انٹاریو;Brampton
+pa;ਬਰੈਂਪਟਨ;Brampton
+ml;ബ്രംപ്ടൺ;Brampton
+sr;Брамптон;Brampton
+uk;Брамптон;Brampton
+gu;બ્રેમ્પ્ટન;Brampton
+fa;برمپتون، انتاریو;Brampton
+uk;Брендон;Brandon
+az;Brendon;Brandon
+el;Μπράντον;Brandon
+sr;Брандон;Brandon
+lt;Brantfordas;Brantford
+uk;Брантфорд;Brantford
+ur;برانٹفورڈ;Brantford
+sr;Брантфорд;Brantford
+bg;Брантфорд;Brantford
+fa;برنتفورد، انتاریو;Brantford
+fa;بریج واتر;Bridgewater
+sr;Брајтон;Brighton
+ur;برائٹن، اونٹاریو;Brighton
+ur;بروک-ول;Brockville
+be;Броквіл;Brockville
+lt;Brukvailas;Brockville
+sr;Броквил;Brockville
+uk;Броквіль;Brockville
+fa;براکویل;Brockville
+fa;برومون، کبک;Bromont
+sr;Бромон;Bromont
+ur;بروکفیلڈ، نووا سکوشیا;Brookfield
+az;Broks;Brooks
+ka;ბროკსი;Brooks
+ur;بروکس، البرٹا;Brooks
+fa;بروکس;Brooks
+sr;Брукс;Brooks
+sr;Бросар;Brossard
+fa;بروسار;Brossard
+yue;寶樂沙;Brossard
+ur;برلنگٹن، نیو فاؤنڈ لینڈ اور لیبراڈور;Burlington
+ur;برلنگٹن، اونٹاریو;Burlington
+uk;Берлінгтон;Burlington
+sr;Берлингтон;Burlington
+fa;برلینگتون، انتاریو;Burlington
+ur;برنابے;Burnaby
+os;Бёрнаби;Burnaby
+uk;Бернабі;Burnaby
+bg;Бърнаби;Burnaby
+sah;Бөрнаби;Burnaby
+lt;Barnabis;Burnaby
+sr;Бернаби;Burnaby
+yue;本拿比;Burnaby
+fa;برنابی;Burnaby
+lv;Bērnabija;Burnaby
+zh-HK;伯沃什蘭丁;Burwash Landing
+uk;Бервош-Лендінг;Burwash Landing
+fa;برواش لندینگ;Burwash Landing
+pa;ਕੈਲੇਡਨ;Caledon
+sr;Каледон;Caledon
+uk;Каледон;Caledon
+ur;کیلڈون;Caledon
+ur;کیلیڈونیا، انٹاریو;Caledonia
+sr;Калгари;Calgary
+fa;کلگری;Calgary
+he;קלגרי;Calgary
+kn;ಕ್ಯಾಲ್ಗರಿ;Calgary
+tg;Калгари;Calgary
+ta;கால்கரி;Calgary
+el;Κάλγκαρι;Calgary
+my;ကယ်လ်ဂရီမြို့;Calgary
+mn;Калгари;Calgary
+sah;Калгари;Calgary
+bg;Калгари;Calgary
+az;Kalqari;Calgary
+lt;Kalgaris;Calgary
+lv;Kalgari;Calgary
+os;Калгари;Calgary
+be;Калгары;Calgary
+uk;Калгарі;Calgary
+te;కాల్గరీ;Calgary
+mr;कॅल्गारी;Calgary
+ug;Kalgari;Calgary
+ka;კალგარი;Calgary
+th;แคลกะรี;Calgary
+hy;Կալգարի;Calgary
+ce;Калгари;Calgary
+pa;ਕੈਲਗਰੀ;Calgary
+yue;卡加利;Calgary
+kk;Калгари;Calgary
+ur;کیلگری;Calgary
+uz;Kalgari;Calgary
+uk;Кембридж;Cambridge
+sr;Кембриџ;Cambridge
+fa;کمبریج، انتاریو;Cambridge
+ur;کیمبرج، انٹاریو;Cambridge
+ur;کیمبرج بے، نُناوُت;Cambridge Bay
+uk;Кеймбридж-Бей;Cambridge Bay
+sr;Кембел Ривер;Campbell River
+uk;Кемпбелл-Рівер;Campbell River
+el;Κάμπελ Ρίβερ;Campbell River
+fa;کمبل ریور، بریتیش کلمبیا;Campbell River
+ur;کیمپبل ریور، برٹش کولمبیا;Campbell River
+ur;کیمروز، البرٹا;Camrose
+sr;Камроуз;Camrose
+fa;کمروز;Camrose
+lt;Keimrozas;Camrose
+uk;Камрось;Camrose
+fa;کاندیاک، کبک;Candiac
+sr;Кандјак;Candiac
+sr;Канмор;Canmore
+uk;Кенмор;Canmore
+sr;Канора;Canora
+gd;Baile Chanso;Canso
+fa;کاپ-شا، کبک;Cap-Chat
+sr;Кап Ша;Cap-Chat
+uk;Кейп-Дорсет;Kinngait
+ur;کیپ ڈورسٹ، نُناوُت;Kinngait
+sr;Карбери;Carberry
+uk;Каркросс;Carcross
+fa;کارکراس;Carcross
+ur;کارکراس;Carcross
+he;קארקרוס;Carcross
+ml;കാർക്രോസ്;Carcross
+sr;Кардстон;Cardston
+fa;کارینیان، کبک;Carignan
+sr;Карињан;Carignan
+fa;کارلتون پلیس;Carleton Place
+sr;Карлтон Плејс;Carleton Place
+fa;کارلینگتون;Carlington
+sr;Карман;Carman
+fa;کارتیه‌ویل;Cartierville
+sr;Каслгар;Castlegar
+fa;کسلگر، بریتیش کلمبیا;Castlegar
+ur;کیسلگر، برٹش کولمبیا;Castlegar
+fa;کایامان، کبک;Cayamant
+sr;Шамбли;Chambly
+uk;Шамблі;Chambly
+fa;شامبلی، کبک;Chambly
+fa;چمبورد، کبک;Chambord
+bg;Чампнеуф;Champneuf
+fa;شامنوف، کبک;Champneuf
+os;Шарлоттаун;Charlottetown
+lt;Šarlotetaunas;Charlottetown
+uk;Шарлоттаун;Charlottetown
+az;Şarlottaun;Charlottetown
+he;שרלוטטאון;Charlottetown
+ka;შარლოტტაუნი;Charlottetown
+fa;شارلوت‌تاون;Charlottetown
+el;Σάρλοτταουν;Charlottetown
+sr;Шарлоттаун;Charlottetown
+bg;Шарлъттаун;Charlottetown
+ta;சார்லட்டவுன்;Charlottetown
+gd;Baile Sheàrlot;Charlottetown
+pa;ਸ਼ਾਰਲਟਟਾਊਨ;Charlottetown
+ur;شارلٹٹاؤن;Charlottetown
+kk;Шарлоттаун;Charlottetown
+ky;Шарлоттаун;Charlottetown
+bn;চার্লোটটাউন;Charlottetown
+am;ቻርሎትታውን;Charlottetown
+ps;چارلوټ ټاون;Charlottetown
+tg;Шарлоттаун;Charlottetown
+tt;Шарлоттаун;Charlottetown
+fa;شاتوگه، کبک;Châteauguay
+sr;Шатоге;Châteauguay
+uk;Шатоге;Châteauguay
+bg;Чазел;Chazel
+fa;شازل، کبک;Chazel
+fa;چلسی، کبک;Chelsea
+fa;چستر٬ نوا اسکوشیا;Chester
+sr;Честермир;Chestermere
+fa;چسترویل، کبک;Chesterville
+uk;Четікамп;Chéticamp
+fa;شیتکمپ، نوا اسکوشیا;Chéticamp
+fa;شیبوکامو;Chibougamau
+sr;Шибугамо;Chibougamau
+lt;Čerčilis;Churchill
+uk;Черчилл;Churchill
+fa;کلروال، کبک;Clerval
+tt;Клинтон;Clinton
+el;Κλίντον;Clinton
+fa;کلینتون، انتاریو;Clinton
+ur;کلنٹن، انٹاریو;Clinton
+en;Coaticook Regional County Municipality;Coaticook
+sr;Кобург;Cobourg
+uk;Кобург;Cobourg
+mr;कोक्रेन;Cochrane
+sr;Кокран;Cochrane
+fa;کلد لیک;Cold Lake
+ur;کولڈ لیک، البرٹا;Cold Lake
+az;Kold Leyk;Cold Lake
+bg;Колд Лейк;Cold Lake
+lt;Kold Leikas;Cold Lake
+sr;Колд Лејк;Cold Lake
+uk;Колд-Лейк;Cold Lake
+lv;Koldleika;Cold Lake
+mr;कोल्ड लेक;Cold Lake
+el;Κόλντ Λέικ;Cold Lake
+bn;কোল্ড লেক;Cold Lake
+si;කෝල්ඩ් ලේක්;Cold Lake
+kn;ಕೋಲ್ಡ್ ಲೇಕ್;Cold Lake
+ta;கோல்டு லேக்;Cold Lake
+gu;કોલ્ડ લેક;Cold Lake
+te;కోల్డ్ లేక్;Cold Lake
+th;โคลด์ เลค;Cold Lake
+fa;کلمن، آلبرتا;Coleman
+sr;Колингвуд;Collingwood
+uk;Колінгвуд;Collingwood
+fa;کالینگوود، انتاریو;Collingwood
+sr;Колвуд;Colwood
+fa;کال وود، بریتیش کلمبیا;Colwood
+ur;کول وڈ، برٹش کولمبیا;Colwood
+sco;Greater Montreal;Communauté métropolitaine de Montréal
+fa;کمپتون، کبک;Compton
+he;קומפטון;Compton
+ur;کونسیپشن بے ساؤتھ;Conception Bay South
+uk;Коквітлам;Coquitlam
+fa;کوکیتلام;Coquitlam
+yue;高貴林;Coquitlam
+sr;Коквитлам;Coquitlam
+ur;کوکوئٹلم;Coquitlam
+he;קורנר ברוק;Corner Brook
+uk;Корнер-Брук;Corner Brook
+lt;Korner Brukas;Corner Brook
+lv;Kornerbrūka;Corner Brook
+ur;کارنر بروک;Corner Brook
+mr;कॉर्नर ब्रूक;Corner Brook
+el;Κόρνερ Μπρουκ;Corner Brook
+fa;کرنر بروک;Corner Brook
+be;Корнер-Брук;Corner Brook
+bn;কর্নার ব্রুক;Corner Brook
+si;කොර්නර් බ්රුක්;Corner Brook
+kn;ಕಾರ್ನರ್ ಬ್ರೂಕ್;Corner Brook
+zh-HK;科納布魯克;Corner Brook
+ta;கோர்னெர் புரூக்;Corner Brook
+gu;કોર્નર બ્રૂક;Corner Brook
+te;కార్నర్ బ్రూక్;Corner Brook
+th;คอร์เนอร์ บรูค;Corner Brook
+sr;Корнвол;Cornwall
+uk;Корнвол;Cornwall
+fa;کورنوال، انتاریو;Cornwall
+ur;کورنوال، انٹاریو;Cornwall
+fa;کورسل، کبک;Courcelles
+ur;کورٹینی، برٹش کولمبیا;Courtenay
+uk;Кортні;Courtenay
+sr;Кортни;Courtenay
+fa;کورتنی;Courtenay
+fa;کاونسویل، کبک;Cowansville
+sr;Кауансвил;Cowansville
+bn;ক্রেগ হেনরি;Craig Henry
+sr;Кранбрук;Cranbrook
+fa;کرنبروک;Cranbrook
+ur;کرین بروک، برٹش کولمبیا;Cranbrook
+fa;درل بی;Darrell Bay
+ml;ഡാർട്മൗത്;Dartmouth
+lt;Dartmutas;Dartmouth
+lv;Dārtmuta;Dartmouth
+bn;ডার্টমাউথ;Dartmouth
+si;ඩාට්මවුත්;Dartmouth
+uk;Дартмут;Dartmouth
+ur;ڈارٹ ماؤتھ;Dartmouth
+kn;ಡಾರ್ಟ್ಮೌತ್;Dartmouth
+mr;डार्टमाउथ;Dartmouth
+el;Ντάρτμουθ;Dartmouth
+ta;டார்ட்மோவூத்;Dartmouth
+gu;ડાર્ટમાઉથ;Dartmouth
+te;డార్ట్ మౌత్;Dartmouth
+th;ดาร์ตมัธ;Dartmouth
+fa;دارتموث، نوا اسکوشیا;Dartmouth
+he;דארטמות;Dartmouth
+tr;Darmouth;Dartmouth
+sr;Дофен;Dauphin
+ur;ڈافن، مینی ٹوبا;Dauphin
+uk;Дофін;Dauphin
+lt;Dofinas;Dauphin
+lv;Dofina;Dauphin
+bn;ডুপিন;Dauphin
+si;ඩොෆින්;Dauphin
+kn;ಡೌಫಿನ್;Dauphin
+mr;डॉफिन;Dauphin
+el;Ντωφέν;Dauphin
+ta;தாபின்;Dauphin
+gu;ડૌફિન;Dauphin
+te;డౌఫిన్;Dauphin
+th;ดอฟิน;Dauphin
+fa;دافین، منیتوبا;Dauphin
+sr;Досон Крик;Dawson Creek
+th;ดอว์สันครีก;Dawson Creek
+fa;داوسون کریک;Dawson Creek
+ur;ڈاسن کریک;Dawson Creek
+gd;An Sruthan Domhain;Deep Brook
+sr;Дип Ривер;Deep River
+fa;دلاور، انتاریو;Delaware
+he;דלתה;Delta
+uk;Дельта;Delta
+el;Ντεσαγιόν-συρ-Σαιν-Λωράν;Deschaillons-sur-Saint-Laurent
+fa;دشاییون-سور-سن-لوران، کبک;Deschaillons-sur-Saint-Laurent
+sr;Девон;Devon
+uk;Д'юберрі;Dewberry
+sr;Дидсбери;Didsbury
+ur;دیئپ، نیو برنزویک;Dieppe
+fa;دیگبی;Digby
+fa;دیکسویل، کبک;Dixville
+fa;دولبو-میستاسینی، کبک;Dolbeau-Mistassini
+sr;Долбо Мистасини;Dolbeau-Mistassini
+fa;دولار-ده-اورمو;Dollard-Des Ormeaux
+sr;Долар дез Ормо;Dollard-Des Ormeaux
+bn;ডন মিলস;Don Mills
+fa;دوروال;Dorval
+sr;Дорвал;Dorval
+sr;Дрејтон Вали;Drayton Valley
+lt;Dramhelerio nederlingosios žemės;Drumheller
+sr;Драмхелер;Drumheller
+uk;Дромгелер;Drumheller
+uk;Драммонвіль;Drummondville
+sr;Драмондвил;Drummondville
+fa;دروموندویل;Drummondville
+ur;ڈرمونڈویل;Drummondville
+sr;Драјден;Dryden
+uk;Драйден;Dryden
+fa;درایدن;Dryden
+lt;Draidenas;Dryden
+lv;Draidena;Dryden
+bn;ড্রাইডেন;Dryden
+si;ඩ්‍රයිඩන්;Dryden
+ur;دریدین ، ونتاریو;Dryden
+kn;ಡ್ರೈಡೆನ್;Dryden
+mr;ड्रायडन;Dryden
+el;Ντράιντεν;Dryden
+ta;ட்ரய்டான்;Dryden
+gu;ડ્રાયડેન;Dryden
+te;డ్రైడన్;Dryden
+th;ดรายเดน;Dryden
+sr;Дак Лејк;Duck Lake
+bg;Духамел;Duhamel
+el;Ντυαμέλ;Duhamel
+fa;دوآمل، کبک;Duhamel
+sr;Данкан;Duncan
+ur;ڈنکن، برٹش کولمبیا;Duncan
+bg;Дунвиле;Dunnville
+fa;دانویل، انتاریو;Dunnville
+gd;Allt an Duitsich;Dutch Brook
+fa;ایست انگوس، کبک;East Angus
+sr;Ист Ангус;East Angus
+fa;است فارنام، کبک;East Farnham
+sr;Ист Гвилимбери;East Gwillimbury
+uk;Іст-Гвіллімбері;East Gwillimbury
+fa;ایست هیرفورد، کبک;East Hereford
+he;אדמונטון;Edmonton
+lt;Edmontonas;Edmonton
+uk;Едмонтон;Edmonton
+be;Эдмантан;Edmonton
+fa;ادمونتون;Edmonton
+sr;Едмонтон;Edmonton
+ka;ედმონტონი;Edmonton
+mr;एडमंटन;Edmonton
+ta;எட்மன்டன்;Edmonton
+lv;Edmontona;Edmonton
+bo;ཨེ་ཏི་མོན་ཐོན།;Edmonton
+os;Эдмонтон;Edmonton
+bg;Едмънтън;Edmonton
+el;Έντμοντον;Edmonton
+ce;Эдмонтон;Edmonton
+pa;ਐਡਮੰਟਨ;Edmonton
+sah;Эдмонтон;Edmonton
+hy;Էդմոնտոն;Edmonton
+kk;Эдмонтон;Edmonton
+th;เอดมันตัน;Edmonton
+ur;ایڈمنٹن;Edmonton
+ky;Эдмонтон;Edmonton
+bn;এডমন্টন;Edmonton
+am;ኤድሞንተን;Edmonton
+ps;ادمونتن;Edmonton
+tg;Эдмонтон;Edmonton
+tt;Эдмонтон;Edmonton
+sr;Едсон;Edson
+sr;Елиот Лејк;Elliot Lake
+fa;الیوت لیک;Elliot Lake
+sr;Емерсон;Emerson
+sr;Ендерби;Enderby
+ur;اینڈربی، برٹش کولمبیا;Enderby
+bg;Ериксдале;Eriksdale
+sr;Ирин;Erin
+sr;Еспанола;Espanola
+sr;Есекс;Essex
+fa;اسکس، انتاریو;Essex
+sr;Естеван;Estevan
+uk;Естеван;Estevan
+lt;Estevanas;Estevan
+lv;Estevana;Estevan
+ur;ایسٹ ایون;Estevan
+mr;एस्टेवन;Estevan
+el;Έστεβαν;Estevan
+fa;استیون، ساسکاچوان;Estevan
+bg;Естеван;Estevan
+bn;স্টিভেন;Estevan
+si;එස්ටවන්;Estevan
+kn;ಎಸ್ಟೆವನ್;Estevan
+ta;எஸ்டெவன்;Estevan
+gu;એસ્ટેવન;Estevan
+te;ఎస్టీవన్;Estevan
+th;เอสตาวาน;Estevan
+he;אסטבן;Estevan
+he;אקסטר;Exeter
+sr;Фервју;Fairview
+ur;فیئرویو، البرٹا;Fairview
+sr;Фарнам;Farnham
+fa;فارنام، کبک;Farnham
+bg;Фасет;Fassett
+fa;فاست، کبک;Fassett
+sr;Ферни;Fernie
+ur;فرنی، برٹش کولمبیا;Fernie
+uk;Флін-Флон;Flin Flon
+ur;فلن فلان، مینی ٹوبا;Flin Flon
+sr;Флин Флон;Flin Flon
+fa;فلین فلون;Flin Flon
+fa;فورت-کولونی، کبک;Fort-Coulonge
+uk;Форт-Ері;Fort Erie
+sr;Форт Ири;Fort Erie
+sr;Форт Франсес;Fort Frances
+sr;Форт Маклауд;Fort Macleod
+lt;Fort Makleodas;Fort Macleod
+fa;فورت مک‌موری;Fort McMurray
+sr;Форт Макмари;Fort McMurray
+uk;Форт-МакМеррей;Fort McMurray
+az;Fort-MakMerrey;Fort McMurray
+mrj;Телит-Же;Fort McPherson
+fa;فورت نلسون;Fort Nelson
+uk;Форт-Релайянс;Fort Reliance
+he;פורט ריליאנס;Fort Reliance
+sr;Форт Саскачеван;Fort Saskatchewan
+lt;Fort Saskačevanas;Fort Saskatchewan
+fa;فرت ساسکاچوان;Fort Saskatchewan
+ur;فورٹ ساسکیچوان;Fort Saskatchewan
+ur;فورٹ سمپسن;Fort Simpson
+sr;Форт Сент Џон;Fort St. John
+fa;فورت سنت جان;Fort St. John
+ur;فورٹ سینٹ جان، برٹش کولمبیا;Fort St. John
+sr;Фокс Крик;Fox Creek
+gd;Muileann an Fhrisealaich;Frasers Mills
+el;Φρέντρικτον;Fredericton
+sr;Фредериктон;Fredericton
+lt;Frederiktonas;Fredericton
+bg;Фредериктън;Fredericton
+uk;Фредеріктон;Fredericton
+ur;فریڈریکٹن;Fredericton
+os;Фредериктон;Fredericton
+fa;فردریکتون;Fredericton
+be;Фрэдэрыктан;Fredericton
+he;פרדריקטון;Fredericton
+ka;ფრედერიკტონი;Fredericton
+ta;ஃபிரெடெரிக்டன்;Fredericton
+mr;फ्रेडरिक्टन;Fredericton
+kk;Фредериктон;Fredericton
+ky;Фредериктон;Fredericton
+bn;ফ্রেডেরিক্টন;Fredericton
+am;ፍሬደሪክተን;Fredericton
+az;Frederikton;Fredericton
+pa;ਫ੍ਰੈਡਰਿਕਟਨ;Fredericton
+ps;فريدريكتن;Fredericton
+tg;Фредериктон;Fredericton
+tt;Фредериктон;Fredericton
+bg;Фрелигхсбург;Frelighsburg
+fa;فرلیگسبورگ، کبک;Frelighsburg
+fa;فرونتناک، کبک;Frontenac
+uk;Ґедсбі;Gadsby
+fa;گدزبی، آلبرتا;Gadsby
+bg;Галичан;Gallichan
+fa;گالیشان، کبک;Gallichan
+uk;Гандер;Gander
+he;גנדר;Gander
+sr;Гаспе;Gaspé
+uk;Гаспе;Gaspé
+fa;گاسپه، کبک;Gaspé
+he;גאספה;Gaspé
+os;Гатино;Gatineau
+uk;Гатіно;Gatineau
+sr;Гатино;Gatineau
+ky;Гатино;Gatineau
+bg;Гатино;Gatineau
+ka;გატინო;Gatineau
+fa;گاتینو;Gatineau
+ta;கெட்டினோவ்;Gatineau
+ur;گیتینؤ;Gatineau
+sr;Џорџтаун;Georgetown
+ur;جارج ٹاؤن، پرنس ایڈورڈ آئی لینڈ;Georgetown
+ur;جارج ٹاؤن، اونٹاریو;Georgetown
+fa;جرج‌تاون، انتاریو;Georgetown
+he;ג'ורג'טאון;Georgetown
+sr;Гилберт Плејнс;Gilbert Plains
+mr;गिमली;Gimli
+sr;Гимли;Gimli
+fa;ژیراردویل، کبک;Girardville
+ceb;Réserve indienne Gitanyow 1;Gitanyow
+sv;Gitanyow Indian Reserve 1;Gitanyow
+ga;Glasbaidh;Glace Bay
+gd;Glasbaidh;Glace Bay
+ur;گوڈرچ، اونٹاریو;Goderich
+sr;Годрич;Goderich
+ur;گولڈن، برٹش کولمبیا;Golden
+uk;Ґуд-Гоуп-Лейк;Good Hope Lake
+sr;Гранби;Granby
+be;Гранбі;Granby
+uk;Гранбі;Granby
+fa;گرانبی، کبک;Granby
+fa;گرند بند;Grand Bend
+sr;Гранд Бенд;Grand Bend
+sr;Гранд Кеш;Grande Cache
+az;Qrand-Preri;Grande Prairie
+uk;Гранд-Прері;Grande Prairie
+sr;Гранд Прери;Grande Prairie
+fa;گرند پریری;Grande Prairie
+be;Гранд-Прэры;Grande Prairie
+ka;გრანდე-პრერია;Grande Prairie
+ur;گرینڈ پریری;Grande Prairie
+lt;Gran Preri;Grande Prairie
+fa;گراند-پیل;Grandes-Piles
+sr;Гранд Форкс;Grand Forks
+ur;گرینڈ فورکس، برٹش کولمبیا;Grand Forks
+gd;Rathad an Loch Mhòir;Grand Lake Road
+ga;A' Mhira Mhór;Grand Mira North
+sr;Гранд Рапидс;Grand Rapids
+ca;Sudbury;Greater Sudbury
+lt;Sadberis;Greater Sudbury
+sr;Велики Садбери;Greater Sudbury
+uk;Садбері;Greater Sudbury
+fa;سادبری بزرگ;Greater Sudbury
+he;גרייטר סדברי;Greater Sudbury
+ta;சட்பறி பெரும்பாகம்;Greater Sudbury
+ur;گریٹر سڈبری;Greater Sudbury
+nn;Gravenhurst i Ontario;Gravenhurst
+sr;Грејвенхерст;Gravenhurst
+fa;گرین وود;Greenwood
+sr;Гринвуд;Greenwood
+ur;گرین وڈ، برٹش کولمبیا;Greenwood
+fa;گرنویل-سور-لا-روژ، کبک;Grenville-sur-la-Rouge
+he;גרטנה;Gretna
+sr;Гретна;Gretna
+sr;Гримсби;Grimsby
+uk;Грімсбі;Grimsby
+sr;Гримшо;Grimshaw
+ca;Aujuittuq;Grise Fiord
+he;גרייס פיורד;Grise Fiord
+lt;Grise Fiordas;Grise Fiord
+sr;Грис Фјорд;Grise Fiord
+lt;Guelfas;Guelph
+sr;Гвелф;Guelph
+uk;Гвелф;Guelph
+fa;گولف;Guelph
+ur;گویلف;Guelph
+mr;हॅमिल्टन;Hamilton
+sr;Хамилтон;Hamilton
+ur;ہیملٹن، انٹاریو;Hamilton
+os;Гамильтон;Hamilton
+lv;Hamiltona;Hamilton
+lt;Hamiltonas;Hamilton
+uk;Гамільтон;Hamilton
+fa;همیلتون، انتاریو;Hamilton
+be;Гамільтан;Hamilton
+bg;Хамилтън;Hamilton
+nn;Hamilton i Ontario;Hamilton
+he;המילטון;Hamilton
+ta;ஆமில்டன்;Hamilton
+ka;ჰამილტონი;Hamilton
+hy;Համիլտոն;Hamilton
+si;හැමිල්ටන්;Hamilton
+uz;Gamilton;Hamilton
+sah;Һанна;Hanna
+sr;Хана;Hanna
+sr;Хановер;Hanover
+he;הפי וואלי-גוס ביי;Happy Valley-Goose Bay
+ur;ہیپی ویلی-گوز بے;Happy Valley-Goose Bay
+sr;Хоксбери;Hawkesbury
+fa;هاوکسبری;Hawkesbury
+sr;Херст;Hearst
+fa;آنریویل، کبک;Henryville
+sr;Хај Левел;High Level
+sr;Хај Прери;High Prairie
+sr;Хај Ривер;High River
+sr;Хинтон;Hinton
+ur;ہنٹن، البرٹا;Hinton
+bg;Хинтонбург;Hintonburg
+uk;Гоуп;Hope
+fa;هاویک، کبک;Howick
+sr;Хамболт;Humboldt
+lt;Humboldas;Humboldt
+lv;Humbolta;Humboldt
+bn;হামবোল্ডট;Humboldt
+si;හම්බෝල්ට්;Humboldt
+uk;Гумбольдт;Humboldt
+ur;ہمبولدت;Humboldt
+kn;ಹಮ್ಬೋಲ್ಟ್;Humboldt
+mr;हम्बोल्ड;Humboldt
+el;Χάμπολντ;Humboldt
+ta;ஹம்போல்ட்;Humboldt
+gu;હમ્બોલ્ટ;Humboldt
+te;హమ్ బోల్డ్ట్;Humboldt
+pa;ਹਮਬੋਲਟ;Humboldt
+th;ฮัมโบลต์;Humboldt
+fa;هومبولت، ساسکاچوان;Humboldt
+sr;Хантсвил;Huntsville
+sr;Хјурон Ист;Huron East
+bg;Иглулик;Igloolik
+sq;Iglulik;Igloolik
+tr;İglulik;Igloolik
+ur;اگلولک;Igloolik
+sr;Ингерсол;Ingersoll
+uk;Інгерсолл;Ingersoll
+sr;Инисфејл;Innisfail
+mrj;Инувик;Inuvik
+ur;انوئک;Inuvik
+uk;Інувік;Inuvik
+be;Аён-Стэйшн;Iona Station
+lt;Ikaluitas;Iqaluit
+sr;Икалуит;Iqaluit
+mr;इक्वाल्युईत;Iqaluit
+he;איקאלואיט;Iqaluit
+ta;இக்காலுயிட்;Iqaluit
+ka;იკალუიტი;Iqaluit
+ur;اکالوئٹ;Iqaluit
+be;Ікалуіт;Iqaluit
+kv;Икалуит;Iqaluit
+el;Ικαλούιτ;Iqaluit
+uk;Ікалуїт;Iqaluit
+os;Икалуит;Iqaluit
+lv;Ikaluita;Iqaluit
+fa;ایکالویت;Iqaluit
+bg;Икалуит;Iqaluit
+kk;Икалуит;Iqaluit
+ky;Икалуит;Iqaluit
+bn;ইকালুইট;Iqaluit
+am;ኢቃሉይት;Iqaluit
+az;İkaliuit;Iqaluit
+pa;ਇਕਾਲੁਇਟ;Iqaluit
+ps;اقالويت;Iqaluit
+tg;Икалуит;Iqaluit
+tt;Икалуит;Iqaluit
+ca;Irlanda;Irlande
+fa;ایزکوت;Iskut
+fa;ژولیت;Joliette
+sr;Жолијет;Joliette
+uk;Жольєт;Joliette
+ur;کاملوپس;Kamloops
+uk;Камлупс;Kamloops
+sr;Камлупс;Kamloops
+he;קאמלופס;Kamloops
+pa;ਕੈਮਲੂਪਸ;Kamloops
+uk;Каната;Kanata
+bg;Капъскейсинг;Kapuskasing
+uk;Капускейсінг;Kapuskasing
+sr;Капускејсинг;Kapuskasing
+bg;Казабазуа;Kazabazua
+fa;کازابازوا، کبک;Kazabazua
+ur;کیلوونا;Kelowna
+lt;Kelouna;Kelowna
+uk;Келоуна;Kelowna
+sr;Келоуна;Kelowna
+mn;Келоуна;Kelowna
+ba;Келоуна;Kelowna
+fa;کلونا;Kelowna
+he;קלונה;Kelowna
+bg;Кемптвиле;Kemptville
+uk;Кемптвілл;Kemptville
+fa;کمپتویل;Kemptville
+sr;Кенора;Kenora
+uk;Кенора;Kenora
+fa;کنورا;Kenora
+be;Кімберлі;Kimberley
+sr;Кимберли;Kimberley
+ur;کمبرلے، برٹش کولمبیا;Kimberley
+sr;Кинкардин;Kincardine
+uk;Кінг;King
+fa;کینگ، انتاریو;King
+ur;کنگ سٹی، اونٹاریو;King City
+zh-TW;京士頓;Kingston
+sr;Кингстон;Kingston
+lt;Kingstonas;Kingston
+bg;Кингстън;Kingston
+be;Кінгстан;Kingston
+uk;Кінгстон;Kingston
+fa;کینگستون، انتاریو;Kingston
+ur;کنگسٹن، اونٹاریو;Kingston
+yue;京士頓;Kingston
+sr;Кингсвил;Kingsville
+fa;کرکلند، کبک;Kirkland
+sr;Киркланд;Kirkland
+sr;Киркланд Лејк;Kirkland Lake
+fa;کیچنر;Kitchener
+lt;Kičeneris;Kitchener
+ur;کچنر;Kitchener
+he;קיצנר;Kitchener
+be;Кітчэнер;Kitchener
+uk;Кіченер;Kitchener
+sr;Киченер;Kitchener
+ka;კიტჩენერი;Kitchener
+th;คิตเชเนอร์;Kitchener
+uk;Клондайк;Klondike
+uk;Куглуктук;Kugluktuk
+ur;کگ لک تک، نناوت;Kugluktuk
+uk;Кууджуак;Kuujjuaq
+uk;Кууджуарапік;Kuujjuarapik
+he;לברדור סיטי;Labrador City
+el;Λακ-ντε-Πλαζ;Lac-des-Plages
+fa;لاک-ده-پلاژ، کبک;Lac-des-Plages
+fa;لاک -دروله، کبک;Lac-Drolet
+fa;لاک-دو-سرف، کبک;Lac-du-Cerf
+fa;لاک-ادوارد، کبک;Lac-Édouard
+fa;لشوت;Lachute
+sr;Лашит;Lachute
+ur;لاک لا بیچی، البرٹا;Lac La Biche
+fa;لاک-مگانتیک، کبک;Lac-Mégantic
+sr;Лак Мегантик;Lac-Mégantic
+el;Λακόλ;Lacolle
+fa;لاکول، کبک;Lacolle
+fa;لکومب;Lacombe
+sr;Лаком;Lacombe
+ur;لاکومب، البرٹا;Lacombe
+lt;Lakombė;Lacombe
+lv;Lakombe;Lacombe
+bn;লেকুম্বে;Lacombe
+si;ලකොම්බේ;Lacombe
+uk;Лакомб;Lacombe
+kn;ಲಕೋಂಬೆ;Lacombe
+mr;लॅकोम्बे;Lacombe
+el;Λακόμπε;Lacombe
+ta;லகோம்பே;Lacombe
+gu;લેકોમ્બે;Lacombe
+te;లకామ్బే;Lacombe
+th;ลาคอมเบ;Lacombe
+he;לקומב;Lacombe
+fa;لا کونسپسیون، کبک;La Conception
+fa;لا کورن، کبک;La Corne
+bg;Лейдисмит;Ladysmith
+he;ליידיסמית;Ladysmith
+sr;Лејк Луиз;Lake Louise
+ur;لیک لوئس، البرٹا;Lake Louise
+sr;Лејкшор;Lakeshore
+ur;لیکشور، انٹاریو;Lakeshore
+gd;Gleann an Locha;Lakevale
+fa;لا ماکازا، کبک;La Macaza
+fa;لامبتون، کبک;Lambton
+sr;Ламтон Шорс;Lambton Shores
+sv;Thedford;Lambton Shores
+sr;Ламонт;Lamont
+ur;لامونٹ، البرٹا;Lamont
+fa;لنگفورد;Langford
+sr;Лангфорд;Langford
+sr;Лангли;Langley
+el;Λα Πατρί;La Patrie
+fa;لا پاتری، کبک;La Patrie
+fa;لا پرری، کبک;La Prairie
+sr;Ла Прери;La Prairie
+sr;Ласал;LaSalle
+fa;لا سار، کبک;La Sarre
+sr;Ла Сар;La Sarre
+fa;لسانسیون، کبک;L'Ascension
+sr;Лавал;Laval
+lt;Lavalis;Laval
+bg;Лавал;Laval
+he;לאוואל;Laval
+uk;Лаваль;Laval
+el;Λαβάλ;Laval
+fa;لاوال، کبک;Laval
+be;Лаваль;Laval
+yue;拉瓦勒;Laval
+fa;لوونیر، کبک;L'Avenir
+sr;Лимингтон;Leamington
+fa;لوکلرکویل، کبک;Leclercville
+fa;لودوک;Leduc
+sr;Ледук;Leduc
+ur;لیڈک، البرٹا;Leduc
+lt;Ledukas;Leduc
+lv;Leduka;Leduc
+uk;Ледук;Leduc
+ml;ലെഡക്;Leduc
+mr;लेड्यूक;Leduc
+el;Λεντούκ;Leduc
+bn;লেদাক;Leduc
+si;ලෙඩක්;Leduc
+kn;ಲೆಡುಕ್;Leduc
+ta;லெடுக்;Leduc
+gu;લેડુક;Leduc
+te;లేడుక్;Leduc
+th;เลอดูก;Leduc
+he;לדוק;Leduc
+fa;لومیو، کبک;Lemieux
+pl;Le Moyne;LeMoyne
+tr;Le Moyne;LeMoyne
+fa;له کوتو، کبک;Les Coteaux
+lt;Letbridžas;Lethbridge
+ur;لیتھ برج;Lethbridge
+uk;Летбридж;Lethbridge
+az;Letbric;Lethbridge
+sr;Летбриџ;Lethbridge
+fa;لث‌بریج;Lethbridge
+he;לתברידג;Lethbridge
+sr;Линколн;Lincoln
+uk;Лінкольн;Lincoln
+ur;لنکن، اونٹاریو;Lincoln
+fa;لیل-او-آلومت، کبک;L'Isle-aux-Allumettes
+fa;لیورپول٬ نوا اسکوشیا;Liverpool
+cy;Lerpwl;Liverpool
+fa;لویدمینستر;Lloydminster
+ur;لائڈ منسٹر;Lloydminster
+uk;Ллойдмінстер;Lloydminster
+sr;Лојдминстер;Lloydminster
+fa;لندن، انتاریو;London
+he;לונדון;London
+sr;Лондон;London
+uk;Лондон;London
+os;Лондон;London
+lt;Londonas;London
+ur;لندن، اونٹاریو;London
+ka;ლონდონი;London
+bg;Лондон;London
+lv;Landona;London
+uk;Лонгьой;Longueuil
+sr;Лонгеј;Longueuil
+be;Лангёй;Longueuil
+fa;لونگوی;Longueuil
+uk;Луїсбург;Louisbourg
+fa;لوییزویل، کبک;Louiseville
+sr;Луивил;Louiseville
+gd;Bun na h-Aibhne Deas;Lower South River
+vi;Lunnenburg;Lunenburg
+he;לוננבורג;Lunenburg
+uk;Луненбург;Lunenburg
+ka;ლუნენბურგი;Lunenburg
+az;Lunenburq;Lunenburg
+fa;لاننبورگ، نوا اسکوشیا;Lunenburg
+gd;Macan;Maccan
+uk;Макгрегор;MacGregor
+fa;مکگرگر، منیتوبا;MacGregor
+sr;Макгрегор;MacGregor
+ur;میکینزی، بریٹیش کولمبیا;Mackenzie
+fa;ماگوگ، کبک;Magog
+sr;Магог;Magog
+ur;میگوگ، کیوبیک;Magog
+sr;Магро;Magrath
+gd;Malagais;Malagash
+fa;مانیواکی، کبک;Maniwaki
+sr;Маниваки;Maniwaki
+sr;Менинг;Manning
+fa;میپل، انتاریو;Maple
+uk;Маркем;Markham
+sr;Маркам;Markham
+ur;مارکھم، انٹاریو;Markham
+bg;Маркъм;Markham
+fa;مارکام، انتاریو;Markham
+bg;Мартинвиле;Martinville
+fa;مارتینویل، کبک;Martinville
+fa;ماسکوش;Mascouche
+sr;Маскуш;Mascouche
+fa;ماتاگامی;Matagami
+sr;Матагами;Matagami
+sr;Матава;Mattawa
+fa;مک‌مستروویل، کبک;McMasterville
+sr;Медоу Лејк;Meadow Lake
+lt;Medisin Hetas;Medicine Hat
+fa;مدیسین هت;Medicine Hat
+uk;Медисин-Гет;Medicine Hat
+az;Medikan Hat;Medicine Hat
+sr;Медисин Хат;Medicine Hat
+ur;میڈیسن ہیٹ;Medicine Hat
+tt;Медисин-Һат;Medicine Hat
+lv;Medisinheta;Medicine Hat
+hy;Մեդիսին Հաթ;Medicine Hat
+mr;मेडिसिन हॅट;Medicine Hat
+el;Μέντισιν Χατ;Medicine Hat
+be;Медысін-Хат;Medicine Hat
+yue;美迪辛哈;Medicine Hat
+bn;মেডিসিন হাট;Medicine Hat
+si;මෙඩිසින් හැට්;Medicine Hat
+kn;ಮೆಡಿಸಿನ್ ಹ್ಯಾಟ್;Medicine Hat
+ta;மெடிசின் ஹாட்;Medicine Hat
+gu;મેડિસિન હેટ;Medicine Hat
+te;మెడిసిన్ హ్యాట్;Medicine Hat
+th;เมดิซีน แฮต;Medicine Hat
+he;מדיסין הט;Medicine Hat
+sr;Мелфорт;Melfort
+sr;Мелита;Melita
+sr;Мелвил;Melville
+uk;Мелвілл;Melville
+sr;Мерит;Merritt
+ur;میریٹ، برٹش کولمبیا;Merritt
+fa;میدلتون;Middleton
+gd;Am Baile Meadhanach;Middleton
+sr;Мидланд;Midland
+uk;Мідланд;Midland
+fa;میدلند، انتاریو;Midland
+fa;میلان، کبک;Milan
+ur;میلان، کیوبیک;Milan
+ml;മിലൻ;Milan
+sr;Милк Ривер;Milk River
+el;Μιλ-Ιλ;Mille-Isles
+fa;میل-ایل، کبک;Mille-Isles
+be;Мілтан;Milton
+sr;Милтон;Milton
+uk;Мілтон;Milton
+sr;Минедоса;Minnedosa
+fa;میرابل، کبک;Mirabel
+sr;Мирабел;Mirabel
+uk;Мірамічі;Miramichi
+ur;مشن، برٹش کولمبیا;Mission
+si;මිසිසාගා;Mississauga
+bg;Мисисага;Mississauga
+sr;Мисисога;Mississauga
+pa;ਮਿਸੀਸਾਗਾ;Mississauga
+uk;Міссісога;Mississauga
+lt;Misisoga;Mississauga
+ur;مسس ساگا;Mississauga
+he;מיסיסוגה;Mississauga
+mr;मिसिसागा;Mississauga
+ckb;میسیساگا;Mississauga
+fa;میسیساگا;Mississauga
+he;מיצ'ל;Mitchell
+uk;Монктон;Moncton
+el;Μόνκτον;Moncton
+lt;Monktonas;Moncton
+th;มองก์ตัน;Moncton
+fa;مونکتون;Moncton
+he;מונקטון;Moncton
+ur;مانکٹن;Moncton
+sr;Монтагју;Montague
+fa;مونسرف-لیتون، کبک;Montcerf-Lytton
+fa;مونت‌بلو، کبک;Montebello
+fa;مون-لوریه;Mont-Laurier
+sr;Мон Лорје;Mont-Laurier
+uk;Мон-Лорьє;Mont-Laurier
+bg;Монреал;Montréal
+ca;Mont-real;Montréal
+el;Μόντρεαλ;Montréal
+fa;مونترآل;Montréal
+fa;مونتریال;Montréal
+he;מונטריאול;Montréal
+ka;მონრეალი;Montréal
+lt;Monrealis;Montréal
+lv;Monreāla;Montréal
+sq;Montreali;Montréal
+sr;Монтреал;Montréal
+tl;Lungsod ng Montréal;Montréal
+ug;مونترېئال;Montréal
+uk;Монреаль;Montréal
+az;Monreal;Montréal
+be;Манрэаль;Montréal
+hy;Մոնրեալ;Montréal
+fa;مون-سن-ایلر، کبک;Mont-Saint-Hilaire
+sr;Мон Сент Илер;Mont-Saint-Hilaire
+fa;مون-ترومبلان، کبک;Mont-Tremblant
+sr;Мон Трамблан;Mont-Tremblant
+uk;Мон-Трамблан;Mont-Tremblant
+sr;Мус Џо;Moose Jaw
+lt;Mūs Džo;Moose Jaw
+sah;Муус-джо;Moose Jaw
+uk;Мус-Джо;Moose Jaw
+sr;Мусони;Moosonee
+sr;Морден;Morden
+ur;مورڈن، مینی ٹوبا;Morden
+uk;Морден;Morden
+bg;Мордън;Morden
+lt;Mordenas;Morden
+el;Μόρντεν;Morden
+fa;موردن، منیتوبا;Morden
+he;מורדן;Morden
+uk;Накавік;Nackawic
+fa;ناکاوک;Nackawic
+fa;نانایمو;Nanaimo
+fa;نانایمو، بریتیش کلمبیا;Nanaimo
+sr;Нанајмо;Nanaimo
+ur;ننائیمو;Nanaimo
+uk;Нанаймо;Nanaimo
+sr;Нелсон;Nelson
+ur;نیلسن، برٹش کولمبیا;Nelson
+ga;Glaschu Úr;New Glasgow
+fa;نیو گلاسگو;New Glasgow
+gd;Glaschu Ùr;New Glasgow
+fa;نیو لاندن، جزیره پرنس ادوارد;New London
+he;ניו לונדון;New London
+uk;Ньюмаркет;Newmarket
+sr;Њумаркет;Newmarket
+fa;نیومارکت، انتاریو;Newmarket
+sr;Њу Вестминстер;New Westminster
+yue;新西敏;New Westminster
+sv;New Westminister;New Westminster
+he;ניו וסטמינסטר;New Westminster
+ur;نیو ویسٹ منسٹر;New Westminster
+fa;نیاگارا فالز، انتاریو;Niagara Falls
+uk;Ніагара-Фоллс;Niagara Falls
+sr;Најагара Фолс;Niagara Falls
+lt;Niagara Folsas;Niagara Falls
+ur;نیاگرا فالز، انٹاریو;Niagara Falls
+cy;Rhaeadr Niagara;Niagara Falls
+sr;Најагара на Језеру;Niagara-on-the-Lake
+he;ניאגרה און דה לייק;Niagara-on-the-Lake
+uk;Ніагара-он-да-Лейк;Niagara-on-the-Lake
+fa;نیکوله، کبک;Nicolet
+sr;Николет;Nicolet
+gd;Nictaux a Deas;Nictaux South
+bg;Номинингуе;Nominingue
+fa;نومیننگ، کبک;Nominingue
+uk;Норман-Веллс;Norman Wells
+sr;Норт Бетлфорд;North Battleford
+uk;Норт-Бетлфорд;North Battleford
+uk;Норт-Бей;North Bay
+sr;Норт Беј;North Bay
+be;Норт-Бей;North Bay
+fa;نورث بی;North Bay
+sr;Норт Перт;North Perth
+gd;Sidni-a-Tuath;North Sydney
+fa;ونکوور شمالی;North Vancouver
+id;Vancouver Utara;North Vancouver
+sr;Норт Ванкувер;North Vancouver
+ur;نارتھ وینکوور;North Vancouver
+ur;نارویچ، اونٹاریو;Norwich
+fa;نوتر-دام-دو-مونتوبان، کبک;Notre-Dame-de-Montauban
+el;Νοτρ-Νταμ-ντε-Μοντωμπάν;Notre-Dame-de-Montauban
+fa;نوتر-دام-دو-لو، کبک;Notre-Dame-du-Laus
+fa;نوتر-دام-دو-نورد، کبک;Notre-Dame-du-Nord
+bg;Ноян;Noyan
+fa;نوایان، کبک;Noyan
+fa;اوک‌ویل;Oakville
+sah;Оквил;Oakville
+uk;Оквілл;Oakville
+sr;Оквил;Oakville
+mk;Оквил;Oakville
+uk;Оушен-Фоллс;Ocean Falls
+az;Ouşen Fals;Ocean Falls
+fa;اوکا، کبک;Oka
+fa;اوکناگن فالز;Okanagan Falls
+sr;Окотокс;Okotoks
+sr;Оулдс;Olds
+sr;Орилија;Orillia
+uk;Оріллія;Orillia
+fa;اوریلیا، انتاریو;Orillia
+fa;اورمستاون، کبک;Ormstown
+uk;Ошава;Oshawa
+sr;Ошава;Oshawa
+fa;اوشاوا;Oshawa
+ka;ოშავა;Oshawa
+lt;Ošava;Oshawa
+lv;Ošava;Oshawa
+ur;اوشاوا;Oshawa
+am;ኦታዋ;Ottawa
+bg;Отава;Ottawa
+el;Οττάβα;Ottawa
+fa;اتاوا;Ottawa
+gl;Otava;Ottawa
+he;אוטווה;Ottawa
+hy;Օտտավա;Ottawa
+lt;Otava;Ottawa
+lv;Otava;Ottawa
+sr;Отава;Ottawa
+ta;ஒட்டாவா;Ottawa
+uk;Оттава;Ottawa
+zh-TW;渥太華;Ottawa
+el;AA¬²±;Ottawa
+mzn;اوتآوآ;Ottawa
+sah;Оттава;Ottawa
+ka;ოტავა;Ottawa
+cv;Оттава;Ottawa
+pa;ਓਟਾਵਾ;Ottawa
+os;Оттавæ;Ottawa
+ur;اوٹاوا;Ottawa
+az;Ottava;Ottawa
+bo;ཨོ་ཏ་ཝ།;Ottawa
+bn;অটোয়া;Ottawa
+be;Атава;Ottawa
+th;ออตตาวา;Ottawa
+av;Оттава;Ottawa
+mr;ओटावा;Ottawa
+mn;Оттава;Ottawa
+ml;ഓട്ടവ;Ottawa
+mk;Отава;Ottawa
+or;ଓଟାୱା;Ottawa
+ckb;ئۆتاوا;Ottawa
+kn;ಆಟ್ಟಾವಾ;Ottawa
+kk;Оттава;Ottawa
+my;အော့တဝမြို့;Ottawa
+sr;Овен Саунд;Owen Sound
+fa;اوون ساوند;Owen Sound
+uk;Пангніртанг;Pangnirtung
+ur;پنگ نرتنگ، نناوت;Pangnirtung
+el;Παπινωβίλ;Papineauville
+fa;پاپینوویل، کبک;Papineauville
+sr;Парксвил;Parksville
+ur;پارکسویل، برٹش کولمبیا;Parksville
+uk;Паррі-Саунд;Parry Sound
+sr;Пари Саунд;Parry Sound
+sr;Пис Ривер;Peace River
+uk;Піс-Рівер;Peace River
+sr;Пенетангвишин;Penetanguishene
+sr;Пентиктон;Penticton
+ur;پینٹیکٹن;Penticton
+sr;Перт;Perth
+uk;Перт;Perth
+fa;پرت، انتاریو;Perth
+uk;Пітерборо;Peterborough
+sr;Питерборо;Peterborough
+fa;پیتربورو، انتاریو;Peterborough
+ur;پیٹربرو، انٹاریو;Peterborough
+vep;Piterboro;Peterborough
+uk;Пікерінг;Pickering
+sr;Пикеринг;Pickering
+fa;پیکرینگ، انتاریو;Pickering
+fa;پیکتو;Pictou
+gd;Piogto;Pictou
+gd;Àite an Luchd-Àiteachaidh;Pictou Landing
+sr;Пинчер Крик;Pincher Creek
+bg;Пиополис;Piopolis
+fa;پیوپولیس، کبک;Piopolis
+sr;Пит Медоус;Pitt Meadows
+ur;پٹ میڈوز;Pitt Meadows
+el;Πλαιζάνς;Plaisance
+fa;پلزانس، کبک;Plaisance
+fa;پوئنت-کالومه، کبک;Pointe-Calumet
+fa;پوئنت-کلر;Pointe-Claire
+sr;Поент Клер;Pointe-Claire
+yue;布彎卡利;Pointe-Claire
+uk;Понд-Інлет;Pond Inlet
+ur;پانڈ ان لٹ;Pond Inlet
+sr;Понока;Ponoka
+fa;پونتیاک، کبک;Pontiac
+sr;Портиџ ла Прери;Portage la Prairie
+uk;Портедж-ла-Прері;Portage la Prairie
+ur;پورٹیج لا پریری، مینی ٹوبا;Portage la Prairie
+lt;Portaž de la Prerė;Portage la Prairie
+lv;Portedža la Prērija;Portage la Prairie
+mr;पोर्टेज ला प्रेरी;Portage la Prairie
+el;Πορτάτζε λα Πρέϊρι;Portage la Prairie
+fa;پرتاژ لا پرری;Portage la Prairie
+bn;পোর্তেজ লা প্রায়রি;Portage la Prairie
+si;පොර්ටගේ ලා ප්‍රයිරියේ;Portage la Prairie
+kn;ಪೋರ್ಟೇಜ್ ಲಾ ಪ್ರೈರೀ;Portage la Prairie
+ta;போர்ட்டேஜ் லா ப்ரைரி;Portage la Prairie
+gu;પોર્ટ્રેજ લા પ્રેઇરી;Portage la Prairie
+te;పోర్టగే లా ప్రైరీ;Portage la Prairie
+th;พอร์เทจ ลาแพร์รี;Portage la Prairie
+sr;Порт Алберни;Port Alberni
+el;Πορτ Άλμπερνι;Port Alberni
+ur;پورٹ البرنی، برٹش کولمبیا;Port Alberni
+fa;پورت-کارتیه، کبک;Port-Cartier
+sr;Пор Картје;Port-Cartier
+sr;Порт Колборн;Port Colborne
+uk;Порт-Колборн;Port Colborne
+fa;پورت کولبورن;Port Colborne
+sr;Порт Коквитлам;Port Coquitlam
+fa;پورت کردیت;Port Credit
+uk;Порт-Гоксбері;Port Hawkesbury
+fa;پورت هاوکسبری;Port Hawkesbury
+sr;Порт Хоуп;Port Hope
+sr;Порт Муди;Port Moody
+yue;滿地寶;Port Moody
+ur;پورٹ موڈی;Port Moody
+gd;Port Rìoghail;Port Royal
+nn;Port Royal i Nova Scotia;Port Royal
+bg;Поулариес;Poularies
+fa;پولاری، کبک;Poularies
+sr;Пауел Ривер;Powell River
+fa;پریساک، کبک;Preissac
+sr;Прескот;Prescott
+fa;پرسکات، انتاریو;Prescott
+sah;Принс-Альберт;Prince Albert
+uk;Принс-Альберт;Prince Albert
+sr;Принс Алберт;Prince Albert
+fa;پرینس آلبرت;Prince Albert
+ur;پرنس جارج، برٹش کولمبیا;Prince George
+fa;پرنس جرج، بریتیش کلمبیا;Prince George
+sr;Принс Џорџ;Prince George
+uk;Прінс-Джордж;Prince George
+th;พรินซ์จอร์จ;Prince George
+he;פרינס גורג;Prince George
+uk;Прінс-Руперт;Prince Rupert
+sr;Принс Руперт;Prince Rupert
+ur;پرنس رپرٹ، برٹش کولمبیا;Prince Rupert
+sr;Квенел;Quesnel
+fa;کوئزنل;Quesnel
+ur;کوئیسنل، برٹش کولمبیا;Quesnel
+fa;کوئینت غربی;Quinte West
+sr;Квинти Вест;Quinte West
+ur;کوئنتے ویسٹ;Quinte West
+ur;کویسپیمسیس;Quispamsis
+uk;Ранкін-Інлет;Rankin Inlet
+ur;رنکن ان لٹ، نناوت;Rankin Inlet
+fa;رپید-دانسور، کبک;Rapide-Danseur
+fa;رپید-ده-ژوآکئم، کبک;Rapides-des-Joachims
+fa;راودون، کبک;Rawdon
+he;רודון;Rawdon
+sr;Рејмонд;Raymond
+ur;ریمنڈ، البرٹا;Raymond
+lt;Red Dyras;Red Deer
+fa;رد دیر;Red Deer
+ur;ریڈ ڈئیر، البرٹا;Red Deer
+sr;Ред Дир;Red Deer
+uk;Ред-Дір;Red Deer
+he;רד דיר;Red Deer
+tt;Ред-Дир;Red Deer
+lv;Reddīra;Red Deer
+ml;റെഡ് ഡീർ;Red Deer
+mr;रेड डिअर;Red Deer
+el;Ρεντ Ντιρ;Red Deer
+bg;Ред Диър;Red Deer
+yue;紅鹿市;Red Deer
+bn;রেড ডিয়ার;Red Deer
+si;රෙඩ් දියර;Red Deer
+kn;ರೆಡ್ ಡೀರ್;Red Deer
+os;Ред-Дир;Red Deer
+ta;ரெட் டீர்;Red Deer
+gu;રેડ ડિઅર;Red Deer
+te;రెడ్ డీర్;Red Deer
+th;เรดเดียร์;Red Deer
+sr;Ред Лејк;Red Lake
+sr;Редвотер;Redwater
+sr;Реџајна;Regina
+zh-TW;里賈納;Regina
+ta;ரெஜைனா;Regina
+os;Реджайнæ;Regina
+ka;რეჯაინა;Regina
+fa;رجاینا;Regina
+uk;Реджайна;Regina
+sah;Риджайна;Regina
+el;Ρεγγίνα;Regina
+he;רגיינה;Regina
+lt;Redžaina;Regina
+be;Рэджайна;Regina
+bg;Риджайна;Regina
+nn;Regina i Saskatchewan;Regina
+hy;Ռեջայնա;Regina
+lv;Ridžaina;Regina
+mr;रेजिना;Regina
+pa;ਰਿਜਾਇਨਾ;Regina
+ur;ریجینا، ساسکچیوان;Regina
+kk;Реджайна;Regina
+ky;Реджайна;Regina
+bn;রেজিনা;Regina
+am;ሬጂና;Regina
+az;Rejina;Regina
+ps;ريجينا;Regina
+tg;Реджайна;Regina
+tt;Реджайна;Regina
+sr;Ренфру;Renfrew
+fa;رنفرو، انتاریو;Renfrew
+bg;Реноус;Renous
+fa;رپانتینی، کبک;Repentigny
+sr;Репантињи;Repentigny
+bg;Резолют;Resolute
+uk;Резольют;Resolute
+sr;Ревелстоук;Revelstoke
+ur;ریولسٹوک، برٹش کولمبیا;Revelstoke
+he;רקסדייל;Rexdale
+pa;ਰਿਚਮੰਡ;Richmond
+bg;Ричмънд;Richmond
+lt;Ričmondas;Richmond
+os;Ричмонд;Richmond
+uk;Річмонд;Richmond
+sr;Ричмонд;Richmond
+yue;列治文;Richmond
+ur;رچمنڈ، برٹش کولمبیا;Richmond
+fa;ریچموند هیل، انتاریو;Richmond Hill
+sr;Ричмонд Хил;Richmond Hill
+uk;Ричмонд-Гілл;Richmond Hill
+fa;ریگو، کبک;Rigaud
+el;Ριπόν;Ripon
+fa;ریپون، کبک;Ripon
+gd;Abhainn Eòin;River John
+ur;ریورویو، نیو برنزویک;Riverview
+fa;ریوییر-ا-پیر، کبک;Rivière-à-Pierre
+fa;ریوییر-روژ، کبک;Rivière-Rouge
+sr;Ривјер Руж;Rivière-Rouge
+ur;روجرزویل، نیو برنسوک;Rogersville
+fa;روزمر، کبک;Rosemère
+sr;Розмер;Rosemère
+sr;Росланд;Rossland
+ur;روسلینڈ، برٹش کولمبیا;Rossland
+sr;Руин Норанда;Rouyn-Noranda
+fa;روین-نوراندا;Rouyn-Noranda
+uk;Руен-Норанда;Rouyn-Noranda
+fa;روکستون پون، کبک;Roxton Pond
+bg;Русагонис;Rusagonis
+el;Σανάισον;Saanichton
+ur;سکولے، نیو برنسوک;Sackville
+lt;Sagenė;Saguenay
+uk;Сагне;Saguenay
+sr;Сагне;Saguenay
+fa;ساگونه، کبک;Saguenay
+he;סאגנה;Saguenay
+ur;سگینے، کیوبک;Saguenay
+fa;سن-الکساندر، کبک;Saint-Alexandre
+ur;سینٹ-ٖےشندڑے، کیوبک;Saint-Alexandre
+fa;سن-آمبل، کبک;Saint-Amable
+ur;سینٹ-امبلے، کیوبک;Saint-Amable
+ur;سینٹ-انتوینے، نیو برنسوک;Saint-Antoine
+uk;Сен-Арман;Saint-Armand
+ur;سینٹ-آرمنڈ، کیوبک;Saint-Armand
+el;Σαιντ-Αρμάν;Saint-Armand
+fa;سن-ارمان، کبک;Saint-Armand
+fa;سن-بازیل-لو-گراند، کبک;Saint-Basile-le-Grand
+sr;Сен Базил ле Гран;Saint-Basile-le-Grand
+ur;سینٹ-بسلے-لے-گرینڈ، کیوبک;Saint-Basile-le-Grand
+fa;سن-بلز-سور-ریشولیو، کبک;Saint-Blaise-sur-Richelieu
+ur;سینٹ-بلاسے-سر-ریچلیو، کیوبک;Saint-Blaise-sur-Richelieu
+el;Σαιν-Μπρουνό;Saint-Bruno
+fa;سن-برونو، کبک;Saint-Bruno
+ur;سینٹ-برونو، کیوبک;Saint-Bruno
+fa;سن-برونو-دو-مونتارویل;Saint-Bruno-de-Montarville
+sr;Сен Брино де Монтарвил;Saint-Bruno-de-Montarville
+ur;سینٹ-برونو-دے-مونترولے;Saint-Bruno-de-Montarville
+sd;سينٽ لشتي، ڪيوبڪ;Saint-Calixte
+fa;سن-کالیکست، کبک;Saint-Calixte
+ur;سینٹ-لشتے، کیوبک;Saint-Calixte
+el;Σαιν-Σαρλ-ντε-Μπουρζέ;Saint-Charles-de-Bourget
+fa;سن-شارل-دو-بورژه، کبک;Saint-Charles-de-Bourget
+ur;سینٹ-چارلس-دے-بورگٹ، کیوبک;Saint-Charles-de-Bourget
+el;Σαιν-Σαρλ-συρ-Ρισελιέ;Saint-Charles-sur-Richelieu
+fa;سن-شارل-سور-ریشولیو، کبک;Saint-Charles-sur-Richelieu
+ur;سینٹ-چارلس-سر-ریچلیو، کیوبک;Saint-Charles-sur-Richelieu
+fa;سن-کله، کبک;Saint-Clet
+ur;سینٹ-کلیت، کیوبک;Saint-Clet
+fa;سن-کونستان، کبک;Saint-Constant
+sr;Сен Констан;Saint-Constant
+ur;سینٹ-کانسٹنٹ، کیوبک;Saint-Constant
+fa;سن-دونی-سور-ریشولیو، کبک;Saint-Denis-sur-Richelieu
+ur;سینٹ-ڈینس-سر-ریچلیو، کیوبک;Saint-Denis-sur-Richelieu
+fa;سن-دومینیک، کبک;Saint-Dominique
+ur;سینٹ-ڈومینک، کیوبک;Saint-Dominique
+fa;سن-دومینیک-دو-روزر، کبک;Saint-Dominique-du-Rosaire
+ur;سینٹ-ڈومینک-دو-روسیرے، کیوبک;Saint-Dominique-du-Rosaire
+fa;سنت-آن-دو-بلوو، کبک;Sainte-Anne-de-Bellevue
+sr;Сент Ан де Белви;Sainte-Anne-de-Bellevue
+ur;سین-این-دے-بلووے، کیوبک;Sainte-Anne-de-Bellevue
+fa;سنت-آن-دو-لا-روشل، کبک;Sainte-Anne-de-la-Rochelle
+ur;سین-این-دے-لا-روچلے، کیوبک;Sainte-Anne-de-la-Rochelle
+fa;سنت-آن-ده-مون، کبک;Sainte-Anne-des-Monts
+sr;Сент Ан де Мон;Sainte-Anne-des-Monts
+ur;سین-این-دس-مونٹس، کیوبک;Sainte-Anne-des-Monts
+fa;سنت-آن-ده-پلن، کبک;Sainte-Anne-des-Plaines
+sr;Сент Ан де Плен;Sainte-Anne-des-Plaines
+ur;سین-این-دس-پلائنس، کیوبک;Sainte-Anne-des-Plaines
+fa;سنت-آن-دو-لاک، کبک;Sainte-Anne-du-Lac
+ur;سین-این-دو-لاک، لہرینتیدس، کیوبک;Sainte-Anne-du-Lac
+fa;سنت-بریژید-دیبرویل، کبک;Sainte-Brigide-d'Iberville
+ur;سین-برگدے-دبرولے، کیوبک;Sainte-Brigide-d'Iberville
+fa;سنت-کاترین، کبک;Sainte-Catherine
+sr;Сент Катрин;Sainte-Catherine
+ur;سین-کیتھرین، کیوبک;Sainte-Catherine
+fa;سنت-کاترین-دو-هتلی، کبک;Sainte-Catherine-de-Hatley
+ur;سین-کیتھرین-دے-ہٹلے، کیوبک;Sainte-Catherine-de-Hatley
+ur;سین-کرسٹین-دوورگنے، کیوبک;Sainte-Christine-d'Auvergne
+fa;سنت-کریستین-دوورین، کبک;Sainte-Christine-d'Auvergne
+fa;سنت- کلوتیلد-دو-اورتون، کبک;Sainte-Clotilde-de-Horton
+ur;سین-کلوتیلدے-دے-ہورتوں ، کیوبک;Sainte-Clotilde-de-Horton
+fa;سنت-ژنوییو-دو-باتیسکان، کبک;Sainte-Geneviève-de-Batiscan
+ur;سین-گنویوے-دے-بتیسکن، کیوبک;Sainte-Geneviève-de-Batiscan
+fa;سنت-گرترود-مانویل، کبک;Sainte-Gertrude-Manneville
+ur;سین-گرترودے-منولے، کیوبک;Sainte-Gertrude-Manneville
+fa;سنت-ژولی، کبک;Sainte-Julie
+sr;Сент Жили;Sainte-Julie
+ur;سین-جلے، کیوبک;Sainte-Julie
+fa;سنت-ژولین، کبک;Sainte-Julienne
+ur;سین-جلینے، کیوبک;Sainte-Julienne
+el;Σαιντ-Λυσί-ντε-Λωραντίντ;Sainte-Lucie-des-Laurentides
+fa;سنت-لوسی-ده-لورانتید، کبک;Sainte-Lucie-des-Laurentides
+ur;سین-لکے-دس-لہرینتیدس، کیوبک;Sainte-Lucie-des-Laurentides
+fa;سنت-مارسلین-دو-کیلدار، کبک;Sainte-Marcelline-de-Kildare
+ur;سین-مرکلنے-دے-کلدہرے، کیوبک;Sainte-Marcelline-de-Kildare
+fa;سنت-مارت، کبک;Sainte-Marthe
+ur;سین-مارتھ، کیوبک;Sainte-Marthe
+fa;سن-اوستاش، کبک;Saint-Eustache
+sr;Сент Есташ;Saint-Eustache
+fa;سن-فرانسوا-دو-لاک، کبک;Saint-François-du-Lac
+ur;سینٹ-فرانکوئس-دو-لاک، کیوبک;Saint-François-du-Lac
+fa;سن-گابریل-دو-والکارتیه، کبک;Saint-Gabriel-de-Valcartier
+ur;سینٹ-گیبریل-دے-ولکرٹیر;Saint-Gabriel-de-Valcartier
+sr;Сент Ијасент;Saint-Hyacinthe
+be;Сен-Іасент;Saint-Hyacinthe
+uk;Сент-Іасент;Saint-Hyacinthe
+fa;سن-اییسنت، کبک;Saint-Hyacinthe
+el;Σαιν-Ζακ-λε-Μινέρ;Saint-Jacques-le-Mineur
+fa;سن-ژاک-لو-مینور، کبک;Saint-Jacques-le-Mineur
+ur;سینٹ-جکقوس-لے-منور، کیوبک;Saint-Jacques-le-Mineur
+sr;Сен Жан сир Ришеље;Saint-Jean-sur-Richelieu
+fa;سن-ژان-سور-ریشولیو;Saint-Jean-sur-Richelieu
+uk;Сен-Жан-сюр-Рішельйо;Saint-Jean-sur-Richelieu
+ur;سینٹ-ژاں -سر-ریچلیو;Saint-Jean-sur-Richelieu
+fa;سن-ژروم، کبک;Saint-Jérôme
+sr;Сен Жером;Saint-Jérôme
+uk;Сен-Жером;Saint-Jérôme
+fa;سن-ژوآکئم-دو-شفورد، کبک;Saint-Joachim-de-Shefford
+ur;سینٹ-جوکھم-دے-شیففورڈ، کیوبک;Saint-Joachim-de-Shefford
+sr;Сент Џон;Saint John
+be;Сент-Джон;Saint John
+fa;سنت جان;Saint John
+mr;सेंट जॉन;Saint John
+bg;Сейнт Джон;Saint John
+ka;სენტ-ჯონი;Saint John
+uk;Сент-Джон;Saint John
+th;เซนต์จอห์น;Saint John
+he;סנט גון;Saint John
+sc;Saint-Jean;Saint John
+ur;سینٹ جان، نیو برنسوک;Saint John
+fa;سن-لازار، کبک;Saint-Lazare
+sr;Сен Лазар;Saint-Lazare
+fa;سن-لیبوآر، کبک;Saint-Liboire
+ur;سینٹ-لبویرے، کیوبک;Saint-Liboire
+fa;سن-لوجه، کبک;Saint-Ludger
+ur;سینٹ-لدگر، کیوبک;Saint-Ludger
+fa;سن-ماتیاس-سور-ریشولیو، کبک;Saint-Mathias-sur-Richelieu
+ur;سینٹ-مٹھاس-سر-ریچلیو، کیوبک;Saint-Mathias-sur-Richelieu
+fa;سن-مودست، کبک;Saint-Modeste
+ur;سینٹ-مودستے، کیوبک;Saint-Modeste
+fa;سن-روبر-بلارمن، کبک;Saint-Robert-Bellarmin
+ur;سین-رابرٹ-بلآڑمین، کیوبک;Saint-Robert-Bellarmin
+fa;سن-رومن، کبک;Saint-Romain
+ur;سین-رومین، کیوبک;Saint-Romain
+fa;سن-تئوفیل، کبک;Saint-Théophile
+el;Σαιντ-Υμπάλντ;Saint-Ubalde
+fa;سن-اوبالد، کبک;Saint-Ubalde
+fa;سن-اوربن-پرمیر، کبک;Saint-Urbain-Premier
+fa;سالابری-دو-ولیفیلد;Salaberry-de-Valleyfield
+sr;Салабери де Валефелд;Salaberry-de-Valleyfield
+uk;Саллуїт;Salluit
+sr;Самон Арм;Salmon Arm
+ur;سالمن آرم;Salmon Arm
+ta;சார்னியா;Sarnia
+uk;Сарнія;Sarnia
+be;Сарнія;Sarnia
+ur;سارنیہ;Sarnia
+sr;Сарнија;Sarnia
+fa;سارنیا;Sarnia
+bg;Сарния;Sarnia
+sah;Саскатун;Saskatoon
+ka;სასკატუნი;Saskatoon
+os;Саскатун;Saskatoon
+ta;சாஸ்கடூன்;Saskatoon
+sr;Саскатун;Saskatoon
+lt;Saskatūnas;Saskatoon
+lv;Saskatūna;Saskatoon
+be;Саскатун;Saskatoon
+fa;ساسکاتون;Saskatoon
+uk;Саскатун;Saskatoon
+bg;Саскатун;Saskatoon
+el;Σασκατούν;Saskatoon
+ba;Саскатун;Saskatoon
+he;ססקטון;Saskatoon
+hy;Սասկատուն;Saskatoon
+mr;सास्काटून;Saskatoon
+ur;ساسکاٹون;Saskatoon
+sr;Су Сент Мари;Sault Ste. Marie
+th;ซูเซนต์มารี;Sault Ste. Marie
+uk;Су-Сент-Марі;Sault Ste. Marie
+ro;Sault Sainte Marie;Sault Ste. Marie
+sq;Sault Sainte Marie;Sault Ste. Marie
+ka;სუ-სენტ-მარი;Sault Ste. Marie
+yue;蘇聖瑪麗;Sault Ste. Marie
+fa;سو سنت‌ماری;Sault Ste. Marie
+ur;سو سینت ماری، انٹاریو;Sault Ste. Marie
+fa;شفرویل، کبک;Schefferville
+sr;Шефервил;Schefferville
+uk;Шеффервіль;Schefferville
+uk;Селкірк;Selkirk
+sr;Селкирк;Selkirk
+ur;سل کرک، مینی ٹوبا;Selkirk
+lt;Selkirkas;Selkirk
+lv;Selkirka;Selkirk
+mr;सेलकर्क;Selkirk
+el;Σέλκερκ;Selkirk
+fa;سلکریک، منیتوبا;Selkirk
+bn;সেলকির্ক;Selkirk
+si;සෙල්කාර්ක්;Selkirk
+kn;ಸೇಲ್ಕಿರ್ಕ್;Selkirk
+ta;செல்கிர்க்;Selkirk
+gu;સેલકર્ક;Selkirk
+te;సెల్కర్క్;Selkirk
+th;เซลเคิร์ค;Selkirk
+he;סלקירק;Selkirk
+uk;Сет-Іль;Sept-Îles
+sr;Сет Ил;Sept-Îles
+fa;ست-ایل، کبک;Sept-Îles
+sr;Сексмит;Sexsmith
+sr;Шавиниган;Shawinigan
+fa;شاوینیگان;Shawinigan
+fa;شلبرن، نوا اسکوشیا;Shelburne
+sr;Шелберн;Shelburne
+sr;Шербрук;Sherbrooke
+bg;Шербрук;Sherbrooke
+be;Шэрбрук;Sherbrooke
+uk;Шербрук;Sherbrooke
+lt;Šerbrukas;Sherbrooke
+os;Шербрук;Sherbrooke
+ka;შერბრუკი;Sherbrooke
+fa;شربروک;Sherbrooke
+yue;舍布碌;Sherbrooke
+ur;شیربروک;Sherbrooke
+sr;Шервуд Парк;Sherwood Park
+lt;Šervudo Parkas;Sherwood Park
+lv;Šervudparka;Sherwood Park
+bn;শেরউড পার্ক;Sherwood Park
+si;ෂර්වුඩ් පාර්ක්;Sherwood Park
+uk;Шервуд-Парк;Sherwood Park
+ur;شیروود پارک;Sherwood Park
+kn;ಶೇರ್ವುಡ್ ಪಾರ್ಕ್;Sherwood Park
+mr;शेरवुड पार्क;Sherwood Park
+el;Σέργουντ Παρκ;Sherwood Park
+ta;ஷெரவுட் பார்க்;Sherwood Park
+gu;શેરવુડ પાર્ક;Sherwood Park
+te;షేర్వుడ్ పార్క్;Sherwood Park
+nb;Sherwoos Park;Sherwood Park
+th;เชอร์วุดพาร์ก;Sherwood Park
+sr;Су Лукаут;Sioux Lookout
+bg;Скидегате;Skidegate
+sr;Слејв Лејк;Slave Lake
+sr;Сурис;Souris
+uk;Саут-Індіан-Лейк;South Indian Lake
+uk;Спенсес-Брідж;Spences Bridge
+az;Spryus-Qruv;Spruce Grove
+fa;اسپروس گروو;Spruce Grove
+lt;Spras Grouvas;Spruce Grove
+sr;Спрус Гроув;Spruce Grove
+ur;سپروس گروو;Spruce Grove
+lt;Sen Alberas;St. Albert
+ka;სენტ-ალბერტი;St. Albert
+sr;Сент Алберт;St. Albert
+fa;سنت آلبرت;St. Albert
+sq;Saint Albert;St. Albert
+ca;Saint Albert;St. Albert
+ur;سینٹ البرٹ، البرٹا;St. Albert
+fa;استنبریج است، کبک;Stanbridge East
+fa;استنبریج استاسیون، کبک;Stanbridge Station
+fa;ستنستید، کبک;Stanstead
+sr;Станстед;Stanstead
+fa;استنستید-است، کبک;Stanstead-Est
+hy;Սենթ Քաթարինս;St. Catharines
+th;เซนต์แคเทอรีนส์;St. Catharines
+sr;Сент Кетринс;St. Catharines
+lt;Sent Katerinsas;St. Catharines
+ka;სენტ-კატარინსი;St. Catharines
+be;Сент-Катарынс;St. Catharines
+uk;Сент-Кетерінс;St. Catharines
+fa;سنت کاترینز، انتاریو;St. Catharines
+ur;سینٹ کیتھرائنز;St. Catharines
+ur;سٹین بیچ، مانیٹوبا;Steinbach
+uk;Стайнбек;Steinbach
+sr;Стајнбак;Steinbach
+lt;Steinbachas;Steinbach
+lv;Steinbeha;Steinbach
+hy;Սթայնբեք;Steinbach
+mr;स्टीनबॅक;Steinbach
+el;Στάινμπακ;Steinbach
+fa;استینباخ، مانیتوبا;Steinbach
+bn;স্টাইনবাক;Steinbach
+si;ස්ටයින් බච්;Steinbach
+kn;ಸ್ಟೈನ್ಬ್ಯಾಕ್;Steinbach
+ta;ஸ்டீன்பாக்;Steinbach
+gu;સ્ટેઇનબેક;Steinbach
+te;స్టెయిన్బ్యాచ్;Steinbach
+th;ชไตน์บัค;Steinbach
+uk;Стівенвілл;Stephenville
+sr;Стетлер;Stettler
+ur;سینٹ جارج، نیو برنسوک;St. George
+az;Sent-Loran;St. Laurent
+sr;Сент Марис;St. Marys
+uk;Сент Маріс;St. Marys
+fa;سنت‌ماریس، انتاریو;St. Marys
+sr;Стоунвол;Stonewall
+sr;Стони Плејн;Stony Plain
+bg;Стоуфвиле;Stouffville
+sr;Стратфорд;Stratford
+uk;Стретфорд;Stratford
+fa;استراتفورد، انتاریو;Stratford
+sr;Стратмор;Strathmore
+sr;Сент Томас;St. Thomas
+fa;سنت توماس، انتاریو;St. Thomas
+ur;سینٹ تھامس، اونٹاریو;St. Thomas
+sr;Самерсајд;Summerside
+fa;سامرساید;Summerside
+he;סארי;Surrey
+bg;Съри;Surrey
+uk;Суррей;Surrey
+sr;Сари;Surrey
+sr;Свон Ривер;Swan River
+uk;Свастика;Swastika
+he;קנדה;Swastika
+uk;Свіфт-Каррент;Swift Current
+sr;Свифт Карент;Swift Current
+lt;Sviftkurentas;Swift Current
+lv;Sviftkarenta;Swift Current
+ur;سویفٹ کرنٹ;Swift Current
+mr;स्विफ्ट करंट;Swift Current
+el;Σουίφτ Κάρρεντ;Swift Current
+fa;سویفت کارنت;Swift Current
+bn;সুইফট কারেন্ট;Swift Current
+si;ස්විෆ්ට් කරන්ට්;Swift Current
+kn;ಸ್ವಿಫ್ಟ್ ಕರೆಂಟ್;Swift Current
+ta;ஸ்விப்ட் கரண்ட்;Swift Current
+gu;સ્વિફ્ટ કરંટ;Swift Current
+te;స్విఫ్ట్ కరెంట్;Swift Current
+th;สวิฟท์ เคอร์เรนท์;Swift Current
+fa;سیدنام، شهرستان فرانت‌ناک، انتاریو;Sydenham
+sr;Силван Лејк;Sylvan Lake
+sr;Тејбер;Taber
+ur;ٹیلر، برٹش کولمبیا;Taylor
+sr;Текамси;Tecumseh
+uk;Телеграф-Крік;Telegraph Creek
+sr;Темагами;Temagami
+fa;تمیسکامنگ، کبک;Témiscaming
+sr;Темискаминг;Témiscaming
+sr;Темискаминг Шорс;Temiskaming Shores
+pl;New Liskeard;Temiskaming Shores
+sr;Терас;Terrace
+ur;ٹیریس، برٹش کولمبیا;Terrace
+fa;تراس-وودروی، کبک;Terrasse-Vaudreuil
+sr;Тербон;Terrebonne
+fa;تربون، کبک;Terrebonne
+he;טורונטו/יורקוויל ואנקס;The Annex
+uk;Де-Па;The Pas
+sr;Де Па;The Pas
+ur;دی پاس، مینی ٹوبا;The Pas
+yue;Le Pas;The Pas
+ur;تھامپسن، مینی ٹوبا;Thompson
+sr;Томпсон;Thompson
+uk;Томпсон;Thompson
+lt;Tompsonas;Thompson
+lv;Tompsona;Thompson
+mr;थॉम्पसन;Thompson
+el;Τόμπσον;Thompson
+fa;تامپسون، منیتوبا;Thompson
+bn;থমপসন;Thompson
+si;තොම්ප්සන්;Thompson
+kn;ಥಾಂಪ್ಸನ್;Thompson
+ta;தாம்ப்ஸன்;Thompson
+gu;થોમ્પસન;Thompson
+te;థాంప్సన్;Thompson
+th;ธอมป์สัน;Thompson
+he;תומפסון;Thompson
+sr;Торолд;Thorold
+uk;Торолд;Thorold
+uk;Тандер-Бей;Thunder Bay
+lt;Tander Bėjus;Thunder Bay
+ur;تھنڈربے، انٹاریو;Thunder Bay
+os;Тандер-Бей;Thunder Bay
+ml;തണ്ടർ ബേ;Thunder Bay
+sr;Тандер Беј;Thunder Bay
+bg;Тъндърбей;Thunder Bay
+he;תאנדר ביי;Thunder Bay
+fa;ثاندر بی;Thunder Bay
+sr;Тилсонбург;Tillsonburg
+sr;Тиминс;Timmins
+he;טימינס;Timmins
+uk;Тіммінс;Timmins
+fa;تیمینس، انتاریو;Timmins
+uk;Тоберморі;Tobermory
+fa;توبرموری، انتاریو;Tobermory
+bg;Торонто;Toronto
+el;Τορόντο;Toronto
+fa;تورنتو;Toronto
+he;טורונטו;Toronto
+lt;Torontas;Toronto
+sr;Торонто;Toronto
+ta;ரொறன்ரோ;Toronto
+th;โทรอนโต;Toronto
+uk;Торонто;Toronto
+ug;تورونتو;Toronto
+mk;Торонто;Toronto
+bn;টরোন্টো;Toronto
+te;టొరంటో;Toronto
+be;Таронта;Toronto
+sah;Торонто;Toronto
+ka;ტორონტო;Toronto
+mn;Торонто;Toronto
+mr;टोराँटो;Toronto
+pa;ਟੋਰਾਂਟੋ;Toronto
+os;Торонто;Toronto
+ur;ٹورانٹو;Toronto
+ml;ടോറോണ്ടോ;Toronto
+kn;ಟೊರಾಂಟೋ;Toronto
+cv;Торонто;Toronto
+tt;Торонто;Toronto
+hy;Տորոնտո;Toronto
+ne;टोरन्टो;Toronto
+my;တိုရွန်တိုမြို့;Toronto
+zh-TW;多倫多;Toronto
+kk;Торонто;Toronto
+ky;Торонто;Toronto
+am;ቶሮንቶ;Toronto
+ps;تورنتو;Toronto
+tg;Торонто;Toronto
+sr;Трејл;Trail
+ur;ٹریل، برٹش کولمبیا;Trail
+ur;ٹرینٹن، اونٹاریو;Trenton
+fa;تروا-ریو، کبک;Trois-Rives
+be;Труа-Рывэ;Trois-Rives
+el;Τρουά-Ριβ;Trois-Rives
+bg;Троа Ривиер;Trois-Rivières
+lt;Trua Rivjeras;Trois-Rivières
+be;Труа-Рыўер;Trois-Rivières
+os;Труа-Ривьер;Trois-Rivières
+uk;Труа-Рівєр;Trois-Rivières
+sr;Троа Ривјер;Trois-Rivières
+fa;تروا ریویر;Trois-Rivières
+yue;三河市;Trois-Rivières
+ur;ترو-ریویائر;Trois-Rivières
+fa;ترواکس، ساسکاچوان;Truax
+uk;Труро;Truro
+fa;ترورو، نوا اسکوشیا;Truro
+bg;Туламен;Tulameen
+el;Γιούκλουλετ;Ucluelet
+fa;یوکلولت;Ucluelet
+uk;Юклулет;Ucluelet
+ur;اکلویلیٹ;Ucluelet
+ur;یونینویل، اونٹاریو;Unionville
+uk;Уксбридж;Uxbridge
+fa;والکور، کبک;Valcourt
+sr;Валкур;Valcourt
+fa;وال-ده-لاک، کبک;Val-des-Lacs
+sr;Вал д'Ор;Val-d'Or
+uk;Валь-д'Ор;Val-d'Or
+fa;وال-دور;Val-d'Or
+sr;Валивју;Valleyview
+fa;ولی‌ویو، آلبرتا;Valleyview
+fa;ون اندا، بریتیش کلمبیا;Van Anda
+bg;Ванкувър;Vancouver
+el;Βανκούβερ;Vancouver
+fa;ونکوور، بریتیش کلمبیا;Vancouver
+he;ונקובר;Vancouver
+os;Ванкувер;Vancouver
+sr;Ванкувер;Vancouver
+zh-TW;溫哥華;Vancouver
+fa;ونکوور;Vancouver
+ug;Wankuwér;Vancouver
+lv;Vankūvera;Vancouver
+bo;ཝན་ཁུ་ཝེར།;Vancouver
+ku;Venkûver;Vancouver
+sah;Ванкувер;Vancouver
+koi;Ванкувер;Vancouver
+ka;ვანკუვერი;Vancouver
+hy;Վանկուվեր;Vancouver
+pa;ਵੈਨਕੂਵਰ;Vancouver
+uk;Ванкувер;Vancouver
+th;แวนคูเวอร์;Vancouver
+bn;ভ্যানকুভার;Vancouver
+be;Ванкувер;Vancouver
+az;Vankuver;Vancouver
+ta;வான்கூவர்;Vancouver
+mr;व्हँकूव्हर;Vancouver
+my;ဗန်ကူးဗားမြို့;Vancouver
+mn;Ванкувер;Vancouver
+lt;Vankuveris;Vancouver
+tt;Ванкувер;Vancouver
+ce;Ванкувер;Vancouver
+uz;Vankuver;Vancouver
+yue;溫哥華;Vancouver
+am;ቫንኩቨር;Vancouver
+kk;Ванкувер;Vancouver
+ky;Ванкувер;Vancouver
+ur;وینکوور;Vancouver
+vep;Vankuver;Vancouver
+fa;وندرهوف، بریتیش کلمبیا;Vanderhoof
+fa;ونیر، انتاریو;Vanier
+fa;وارن، کبک;Varennes
+sr;Варен;Varennes
+sr;Водреј Дорион;Vaudreuil-Dorion
+fa;وودروی-دوریون;Vaudreuil-Dorion
+uk;Водрей-Доріон;Vaudreuil-Dorion
+sr;Вон;Vaughan
+uk;Вон;Vaughan
+ur;وان، انٹاریو;Vaughan
+bg;Вон;Vaughan
+fa;وان;Vaughan
+fa;وونبی;Vavenby
+sr;Вегревил;Vegreville
+uk;Веґревіль;Vegreville
+fa;وگرویل، آلبرتا;Vegreville
+fa;ورشر، کبک;Verchères
+fa;ورمیلیون، آلبرتا;Vermilion
+sr;Вермилион;Vermilion
+uk;Вернон;Vernon
+sr;Вернон;Vernon
+ur;ورنن، برٹش کولمبیا;Vernon
+fa;ورنن، بریتیش کلمبیا;Vernon
+ur;وکٹوریہ، پرنس ایڈورڈ آئی لینڈ;Victoria
+he;ויקטוריה;Victoria
+zh-TW;維多利亞;Victoria
+sr;Викторија;Victoria
+ka;ვიქტორია;Victoria
+th;วิกตอเรีย;Victoria
+ta;விக்டோரியா;Victoria
+mr;व्हिक्टोरिया;Victoria
+lt;Viktorija;Victoria
+os;Виктори;Victoria
+ur;وکٹوریا، برٹش کولمبیا;Victoria
+uk;Вікторія;Victoria
+fa;ویکتوریا، بریتیش کلمبیا;Victoria
+ug;Wiktoriye;Victoria
+el;Βικτώρια Βρετανικής Κολομβίας;Victoria
+bg;Виктория;Victoria
+sq;Viktoria;Victoria
+lv;Viktorija;Victoria
+az;Viktoriya;Victoria
+pa;ਵਿਕਟੋਰੀਆ;Victoria
+hy;Վիկտորիա;Victoria
+kk;Виктория;Victoria
+uz;Viktoriya;Victoria
+ky;Виктория;Victoria
+bn;ভিক্টোরিয়া;Victoria
+am;ቪክቶሪያ;Victoria
+ps;ويکتوريا;Victoria
+tg;Виктория;Victoria
+tt;Виктория;Victoria
+sr;Викторијавил;Victoriaville
+uk;Вікторіявіль;Victoriaville
+fa;ویکتوریاویل;Victoriaville
+bg;Видора;Vidora
+sr;Вајкинг;Viking
+sr;Верден;Virden
+ur;ورڈن، مینی ٹوبا;Virden
+sr;Валкан;Vulcan
+uk;Вабамун;Wabamun
+fa;وابامون، نیوبرانزویک;Wabamun
+sr;Вејнрајт;Wainwright
+fa;والیس ریج، لوئیزیانا;Wallace Ridge
+gd;Druim Uallais;Wallace Ridge
+sr;Ворман;Warman
+sr;Вотердаун;Waterdown
+uk;Ватерлоо;Waterloo
+fa;واترلو، انتاریو;Waterloo
+sr;Вотерлу;Waterloo
+ur;واٹرلو، انٹاریو;Waterloo
+sr;Вова;Wawa
+fa;ویدن، کبک;Weedon
+sr;Веланд;Welland
+uk;Велланд;Welland
+fa;ولند، انتاریو;Welland
+ur;ویلینڈ;Welland
+fa;ونتوورت-نورد، کبک;Wentworth-Nord
+gd;Lochabar-an-Iar;West Lochaber
+sr;Вестмаунт;Westmount
+fa;وستمونت، کبک;Westmount
+bg;Уестмаунт;Westmount
+az;Vetaskivin;Wetaskiwin
+fa;وتاسکیوین;Wetaskiwin
+lt;Vetaskivinas;Wetaskiwin
+sr;Ветаскивин;Wetaskiwin
+uk;Ветаскивин;Wetaskiwin
+ur;ویٹاسکیون;Wetaskiwin
+lv;Vetaskivina;Wetaskiwin
+ml;വെറ്റാസ്‌കിവിൻ;Wetaskiwin
+mr;वेटस्कीविन;Wetaskiwin
+el;Γουετάσκιγουιν;Wetaskiwin
+be;Ветасківін;Wetaskiwin
+bn;ওয়েটাসকিভিন;Wetaskiwin
+si;වෙටස්කිවින්;Wetaskiwin
+kn;ವೆಟಸ್ಕಿವಿನ್;Wetaskiwin
+ta;வேடாஸ்கிவின்;Wetaskiwin
+gu;વેટસ્કિવિન;Wetaskiwin
+te;వెటస్కివిన్;Wetaskiwin
+th;เวตาสกีวิน;Wetaskiwin
+sr;Вејберн;Weyburn
+uk;Вейберн;Weyburn
+hy;Ուեյբերն;Weyburn
+ur;وییبورن;Weyburn
+mr;वेबर्न;Weyburn
+el;Γουέιμπερν;Weyburn
+fa;ویبرن;Weyburn
+bn;ওয়েবার্ন;Weyburn
+si;වෙබර්න්;Weyburn
+kn;ವೈಬರ್ನ್;Weyburn
+ta;வேபர்ன்;Weyburn
+gu;વેબર્ન;Weyburn
+te;వేబర్న్;Weyburn
+th;เวย์เบิร์น;Weyburn
+he;וייבורן;Weyburn
+uk;Вейл-Ков;Whale Cove
+lv;Vistlera;Whistler
+uk;Вістлер;Whistler
+os;Уистлер;Whistler
+lt;Vistleris;Whistler
+sr;Вислер;Whistler
+bg;Уислър;Whistler
+nn;Whistler i British Columbia;Whistler
+uk;Вітбі;Whitby
+sr;Витби;Whitby
+ur;ویٹبی، انٹاریو;Whitby
+uk;Іст-Гвіллімбері;Whitchurch-Stouffville
+sr;Витчерч-Стовил;Whitchurch-Stouffville
+sr;Вајткорт;Whitecourt
+sr;Вајтхорс;Whitehorse
+zh-TW;白馬市;Whitehorse
+uk;Вайтхорс;Whitehorse
+be;Уайтхорс;Whitehorse
+el;Γουάιτχορς;Whitehorse
+bg;Уайтхорс;Whitehorse
+ur;وائٹ ہارس، یوکون;Whitehorse
+az;Vaythors;Whitehorse
+ka;უაიტჰორსი;Whitehorse
+mk;Вајтхорс;Whitehorse
+lt;Vaithorsas;Whitehorse
+os;Уайтхорс;Whitehorse
+ta;வைட்ஹார்ஸ்;Whitehorse
+he;וייטהורס;Whitehorse
+vep;Uaithors;Whitehorse
+fa;وایت‌هورس، یوکان;Whitehorse
+kk;Уайтхорс;Whitehorse
+ky;Уайтхорс;Whitehorse
+bn;হোয়াইটহর্স;Whitehorse
+am;ዋይትሆርስ;Whitehorse
+pa;ਵ੍ਹਾਈਟਹਾਰਸ;Whitehorse
+ps;وايټ هورس;Whitehorse
+tg;Уайтхорс;Whitehorse
+tt;Уайтхорс;Whitehorse
+sr;Вајт Рок;White Rock
+yue;白石;White Rock
+fa;وایت راک ، بریتیش کلمبیا;White Rock
+ur;وائٹ راک، برٹش کولمبیا;White Rock
+sr;Вајтстоун;Whitestone
+fa;ویکهام، کبک;Wickham
+sr;Вилијамс Лејк;Williams Lake
+ur;ویلو بنچ، سسکیچوان;Willow Bunch
+el;Βίλνο;Wilno
+lt;Vilnas;Wilno
+fa;ویندسور٬ نوا اسکوشیا;Windsor
+fa;وینزر، انتاریو;Windsor
+ka;უინძორი;Windsor
+sr;Виндзор;Windsor
+mk;Виндзор;Windsor
+lt;Vindzoras;Windsor
+ur;ونڈسر، انٹاریو;Windsor
+uk;Віндзор;Windsor
+bn;উইন্ডসর;Windsor
+he;וינדזור;Windsor
+bg;Уиндзър;Windsor
+fa;وینگهام، انتاریو;Wingham
+hy;Ուիգհեմ;Wingham
+ka;უინგჰემი;Wingham
+el;Ουίνγκχαμ;Wingham
+he;וינגהם;Wingham
+sr;Винклер;Winkler
+uk;Вінклер;Winkler
+ur;ونکلر، مینی ٹوبا;Winkler
+lt;Vinkleris;Winkler
+lv;Vinklera;Winkler
+bn;ওইঙ্কার;Winkler
+si;වින්ක්ලර්;Winkler
+kn;ವಿಂಕ್ಲೇರ್;Winkler
+mr;विंकलर;Winkler
+el;Γουίνκλερ;Winkler
+ta;வின்க்லெர்;Winkler
+gu;વિન્કલર;Winkler
+te;వింక్లర్;Winkler
+th;วิงเคลอร์;Winkler
+fa;وینکلر;Winkler
+he;וינקלר;Winkler
+he;ויניפג;Winnipeg
+uk;Вінніпег;Winnipeg
+fa;وینیپگ;Winnipeg
+sr;Винипег;Winnipeg
+uk;Вінніпеґ;Winnipeg
+tr;Vinnipeg;Winnipeg
+bg;Уинипег;Winnipeg
+my;ဝင်နီပက်မြို့;Winnipeg
+mr;विनिपेग;Winnipeg
+be;Вініпег;Winnipeg
+ta;வினிப்பெக்;Winnipeg
+sah;Уиннипег;Winnipeg
+el;Γουίνιπεγκ;Winnipeg
+ur;ونی پیگ;Winnipeg
+lt;Vinipegas;Winnipeg
+th;วินนิเพก;Winnipeg
+ka;უინიპეგი;Winnipeg
+os;Виннипег;Winnipeg
+lv;Vinipega;Winnipeg
+az;Vinnipeq;Winnipeg
+pa;ਵਿਨੀਪੈਗ;Winnipeg
+hy;Վիննիպեգ;Winnipeg
+ky;Виннипег;Winnipeg
+kk;Виннипег;Winnipeg
+bn;উইনিপেগ;Winnipeg
+am;ዊኒፔግ;Winnipeg
+ps;ونی پيګ;Winnipeg
+tg;Виннипег;Winnipeg
+tt;Виннипег;Winnipeg
+el;Γουίντερ Χάρμπουρ;Winter Harbour
+fa;ولف ویل;Wolfville
+lt;Vudstokas;Woodstock
+sr;Вудсток;Woodstock
+uk;Вудсток;Woodstock
+fa;وودستاک، انتاریو;Woodstock
+fa;یاماشیش، کبک;Yamachiche
+ur;یاماچچے ، کیوبک;Yamachiche
+os;Ярмут;Yarmouth
+fa;یارموت;Yarmouth
+ur;یارموتھ، نوا سکوٹیا;Yarmouth
+az;Yellounayf;Yellowknife
+mk;Јелоунајф;Yellowknife
+lt;Jelounaifas;Yellowknife
+ka;იელოუნაიფი;Yellowknife
+uk;Єллоунайф;Yellowknife
+ta;யெலோனைஃப்;Yellowknife
+sr;Јелоунајф;Yellowknife
+os;Йеллоунайф;Yellowknife
+ur;یلوکنیفے;Yellowknife
+fa;یلونایف;Yellowknife
+sah;Йэллоунайф;Yellowknife
+he;ילונייף;Yellowknife
+bg;Йелоунайф;Yellowknife
+be;Елаўнайф;Yellowknife
+el;Γελοουνάιφ;Yellowknife
+lv;Jelounaifa;Yellowknife
+kk;Йеллоунайф;Yellowknife
+ky;Йеллоунайф;Yellowknife
+bn;ইয়েলোনাইফ;Yellowknife
+pa;ਯੈਲੋਨਾਈਫ;Yellowknife
+ps;يلو نايف;Yellowknife
+tg;Йеллоунайф;Yellowknife
+tt;Йеллоунайф;Yellowknife
+uk;Йорктон;Yorkton
+sr;Јорктон;Yorkton
+ur;یورکتون;Yorkton
+lt;Jorktonas;Yorkton
+lv;Jorktona;Yorkton
+mr;यॉर्कटून;Yorkton
+el;Γιόρκτον;Yorkton
+fa;یورکتون;Yorkton
+bg;Йорктон;Yorkton
+bn;ইয়র্কটন;Yorkton
+si;යෝර්ක්ටන්;Yorkton
+kn;ಯಾರ್ಕ್ಟನ್;Yorkton
+ta;யார்கடன்;Yorkton
+gu;યોર્કટન;Yorkton
+te;యార్క్ టన్;Yorkton
+pa;ਯੌਰਕਟਨ;Yorkton
+th;ยอร์กตัน;Yorkton
+he;יורקטון;Yorkton
+fa;بوسویل، کبک;Beauceville
+sr;Босвил;Beauceville
+kk;Халифакс;Halifax
+ky;Халифакс;Halifax
+bn;হ্যালিফ্যাক্স;Halifax
+ur;ہیلیفیکس;Halifax
+am;ሃሊፋክስ;Halifax
+az;Halifaks;Halifax
+fa;هالیفاکس;Halifax
+pa;ਹੈਲੀਫੈਕਸ;Halifax
+ps;هاليفاکس;Halifax
+tg;Халифакс;Halifax
+tt;Халифакс;Halifax
+sr;Сент Џонс;St. John's
+os;Сент-Джонс;St. John's
+gd;Baile Naoimh Eòin;St. John's
+el;Άγιος Ιωάννης Νέας Γης;St. John's
+sq;Saint John's;St. John's
+mk;Сент Џонс;St. John's
+ga;Baile Sheáin;St. John's
+he;סנט ג'ונס;St. John's
+lt;Sent Džonsas;St. John's
+ur;سینٹ جانز، نیوفنلینڈ اور لیبراڈار;St. John's
+uk;Сент-Джонс;St. John's
+ca;Saint John's;St. John's
+eu;Saint John's;St. John's
+et;Saint John's;St. John's
+bg;Сейнт Джонс;St. John's
+be;Сент-Джонс;St. John's
+ta;செயின்ட் ஜான்ஸ்;St. John's
+ka;სენტ-ჯონზი;St. John's
+no;Saint John's;St. John's
+kk;Сент-Джонс;St. John's
+uz;Sent-Jons;St. John's
+ky;Сент-Джонс;St. John's
+bn;সেন্ট জন্স;St. John's
+am;ሴንት ጆንስ;St. John's
+az;Sent-Cons;St. John's
+fa;سنت جانز;St. John's
+pa;ਸੇਂਟ ਜੌਨਜ਼;St. John's
+ps;سنت جانز;St. John's
+tg;Сент-Джонс;St. John's
+tt;Сент-Джонс;St. John's
+el;Μπερτιέ-συρ-Μερ;Berthier-Sur-Mer
+fa;برتیه-سور-مر، کبک;Berthier-Sur-Mer
+fa;کپ-سن-اییناس، کبک;Cap-Saint-Ignace
+bg;Квебек;Québec
+tl;Lungsod ng Québec;Québec
+ug;Kwébék Shehiri;Québec
+id;Kota Quebec;Québec
+vi;Thành phố Québec;Québec
+ur;کیوبک شہر;Québec
+ga;Cathair Québec;Québec
+lv;Kvebeka;Québec
+sr;Квебек;Québec
+is;Québecborg;Québec
+ca;Ciutat de Quebec;Québec
+sl;Quebec City;Québec
+os;Квебек;Québec
+lt;Kvebekas;Québec
+eu;Quebec Hiria;Québec
+fa;کبک;Québec
+oc;Vila de Quebèc;Québec
+uk;Квебек;Québec
+ms;Bandaraya Quebec;Québec
+af;Quebecstad;Québec
+ka;კვებეკი;Québec
+th;ควิเบก;Québec
+mr;क्वेबेक सिटी;Québec
+el;Κεμπέκ;Québec
+he;קוויבק סיטי;Québec
+ta;கியூபெக் நகரம்;Québec
+sah;Куэбэк;Québec
+be;Квебек;Québec
+sco;Quebec Ceety;Québec
+sw;Jiji la Quebec;Québec
+kk;Квебек;Québec
+br;Kebek;Québec
+sq;Kebeku;Québec
+az;Kvebek;Québec
+hak;Québec-sṳ;Québec
+pa;ਕੇਬੈਕ ਸ਼ਹਿਰ;Québec
+yue;魁北克市;Québec
+ug;Kwébék;Québec
+ce;Квебек;Québec
+hy;Քվեբեկ;Québec
+ky;Квебек;Québec
+uz;Kvebek;Québec
+bn;কিউবেক;Québec
+am;ኵቤክ;Québec
+ps;کيبک;Québec
+tg;Квебек;Québec
+tt;Квебек;Québec
+fa;لوی، کبک;Lévis
+os;Леви;Lévis
+sr;Леви;Lévis
+uk;Леві;Lévis
+fa;لیل-ورت، کبک;L'Isle-Verte
+el;Λ'Ιλ-Βερτ;L'Isle-Verte
+fa;مونمایینی، کبک;Montmagny
+sr;Монмањи;Montmagny
+uk;Монмані;Montmagny
+fa;نوویل، کبک;Neuville
+sr;Невил;Neuville
+fa;پورتنوف، کبک;Portneuf
+sr;Порнеф;Portneuf
+fa;ریموسکی;Rimouski
+sr;Римуски;Rimouski
+uk;Рімускі;Rimouski
+fa;ریوییر-دو-لو;Rivière-du-Loup
+uk;Рівєр-дю-Лю;Rivière-du-Loup
+sr;Ривјер ди Лу;Rivière-du-Loup
+gd;Shidni;Sydney
+ga;Baile Shidni;Sydney
+bg;Сидни;Sydney
+fa;سیدنی٬ نوا اسکوشیا;Sydney
+lt;Sidnėjus;Sydney
+lv;Sidneja;Sydney
+uk;Сідні;Sydney
+ur;سڈنی;Sydney
+mr;सिडनी;Sydney
+uz;Sidney;Sydney
+el;Σίδνεϋ;Sydney
+nb;Sydney i Nova Scotia;Sydney
+bn;সিডনি;Sydney
+ka;სიდნეი;Sydney
+si;සිඩ්නි;Sydney
+kn;ಸಿಡ್ನಿ;Sydney
+ta;சிட்நீ;Sydney
+gu;સિડની;Sydney
+te;సిడ్నీ;Sydney
+th;ซิดนีย์;Sydney
+he;סידני;Sydney
+el;Τοφίνο;Tofino
+fa;جاسپر;Jasper
+sr;Џаспер;Jasper
+ur;جسپر، البرٹا;Jasper
+uk;Едмундстон;Edmundston
+sr;Лашин;Lachine
+pl;Grand-Sault;Grand Falls
+el;Μπαι-Σαιντ-Κατρίν;Baie-Sainte-Catherine
+fa;به-سنت-کاترین، کبک;Baie-Sainte-Catherine
+fa;تادوساک، کبک;Tadoussac
+fa;به-سن-پل، کبک;Baie-Saint-Paul
+sr;Бе Сен Пол;Baie-Saint-Paul
+uk;Бе-Сен-Поль;Baie-Saint-Paul
+fa;کارلتون-سور-مر;Carleton-sur-Mer
+sr;Карлтон сир Мер;Carleton-sur-Mer
+uk;Хопдейл;Hopedale
+bg;Боисчател;Boischatel
+fa;بوآشاتل، کبک;Boischatel
+fa;کاکونا، کبک;Cacouna
+uk;Батерст;Bathurst
+lt;Baterstas;Bathurst
+lv;Batersta;Bathurst
+ur;باتحورست;Bathurst
+mr;बाथर्स्ट;Bathurst
+el;Μπάθερστ;Bathurst
+fa;بثرست;Bathurst
+be;Батэрст;Bathurst
+bn;বাথাস্ট;Bathurst
+si;බේතර්ස්ට්;Bathurst
+kn;ಬಾಥುರ್ಸ್ಟ್;Bathurst
+ta;புதூர்ஸ்ட்;Bathurst
+gu;બાથર્સ્ટ;Bathurst
+te;బాతర్స్ట్;Bathurst
+th;บาเทิร์ส;Bathurst
+he;בת'רסט;Bathurst
+sr;Матан;Matane
+fa;ماتان;Matane
+uk;Матан;Matane
+ur;لینگڈن، البرٹا;Langdon
+fa;اکسشاو;Exshaw
+ur;پیرس، انٹاریو;Paris
+uk;Інкерман;Inkerman
+uk;Каракет;Caraquet
+sr;Амкви;Amqui
+fa;آمکی;Amqui
+uk;Перт-Андовер;Perth-Andover
+fa;پرس اندور;Perth-Andover
+uk;Доусон-Сіті;Dawson City
+da;Dawson;Dawson City
+id;Dawson;Dawson City
+sk;Dawson;Dawson City
+he;דוסון סיטי;Dawson City
+ur;ڈاوسن شہر;Dawson City
+ur;لامیقوی;Lamèque
+ps;لامیقوی;Lamèque
+uk;Ламек;Lamèque
+fa;لمک، نیوبرانزویک;Lamèque
+fa;مورداکویل، کبک;Murdochville
+sr;Мердоквил;Murdochville
+fa;لاک-او-سومون، کبک;Lac-au-Saumon
+fa;کابانو;Cabano
+fa;مون-ژولی;Mont-Joli
+sr;Мон Жоли;Mont-Joli
+el;Λακ-Ετσεμέν;Lac-Etchemin
+fa;لاک-اتشومن، کبک;Lac-Etchemin
+fa;سن-مالاشی، کبک;Saint-Malachie
+ur;سینٹ-ملاچئے، کیوبک;Saint-Malachie
+fa;سن-آنزلم، کبک;Saint-Anselme
+ur;سینٹ-انسلمے، کیوبک;Saint-Anselme
+el;Σαιντ-Ανσέλμ;Saint-Anselme
+fa;دژولی، کبک;Dégelis
+sr;Дежли;Dégelis
+fa;لا مالبه، کبک;La Malbaie
+sr;Ла Малбе;La Malbaie
+sr;Дандас;Dundas
+fa;له اسکومن، کبک;Les Escoumins
+fa;چرچهیل فالز، نیوفاندلند و لیبرادور;Churchill Falls
+ur;ویسٹ کیلونا;West Kelowna
+bg;Шенборо;Sheenboro
+fa;شینبرو، کبک;Sheenboro
+gd;Mèinnean Baile Shidni;Sydney Mines
+fa;سنت-آن-دو-بوپره، کبک;Sainte-Anne-de-Beaupré
+sr;Сент Ан де Бопре;Sainte-Anne-de-Beaupré
+ur;سین-این-دے-بوپرے;Sainte-Anne-de-Beaupré
+fa;سن-اوگوستن-دو-دمور، کبک;Saint-Augustin-de-Desmaures
+sr;Сент Огистен де Демор;Saint-Augustin-de-Desmaures
+ur;سینٹ-اوگسٹن-دے-دسمرس;Saint-Augustin-de-Desmaures
+fa;لا پوکاتییر، کبک;La Pocatière
+sr;Ла Покатјер;La Pocatière
+fa;سن-ژوزف-دو-بوس، کبک;Saint-Joseph-de-Beauce
+sr;Сен Жозеф де Бос;Saint-Joseph-de-Beauce
+ur;سینٹ-جوسف-دے-بوکے، کیوبک;Saint-Joseph-de-Beauce
+ur;یالے، برٹش کولمبیا;Yale
+ur;سینٹ-لیونارڈ، نیو برنسوک;Saint-Léonard
+bg;Омеме;Omemee
+ms;Pekan Cina;Chinatown
+yue;多倫多中區唐人街;Chinatown
+fa;محله چینی‌ها;Chinatown
+uk;Горілчаний квартал;Distillery District
+fa;محله دیستیلری;Distillery District
+he;רובע המזקקות;Distillery District
+fa;منطقه اقتصادی، تورنتو;Financial District
+he;שוק קנסינגטון;Kensington Market
+fa;بازار کنزینگتون;Kensington Market
+fa;پورت لندز;Port Lands
+ur;پورٹ لینڈز;Port Lands
+fa;ویچ وود پارک;Wychwood Park
+fa;کورسو ایتالیا;Corso Italia
+mr;लिबर्टी विलेज;Liberty Village
+fa;لیتل ایتالی;Little Italy
+fa;برگ کریک;Bragg Creek
+fa;المونت، انتاریو;Almonte
+be;Элмант;Almonte
+he;אלמון;Almonte
+fa;بلا، انتاریو;Bala
+fa;انکستر، انتاریو;Ancaster
+fa;سن-لامبر-دو-لوزون، کبک;Saint-Lambert-de-Lauzon
+ur;سینٹ-لیمبرٹ-دے-لوزوں ، کیوبک;Saint-Lambert-de-Lauzon
+el;Παλιό Τορόντο;Old Toronto
+hy;Հին Տորոնտո;Old Toronto
+uk;Олд Торонто;Old Toronto
+fa;تورنتوی قدیم;Old Toronto
+he;טורונטו הישנה;Old Toronto
+bg;Западен Ванкувър;West Vancouver
+fa;ونکوور غربی;West Vancouver
+id;Vancouver Barat;West Vancouver
+sq;West Vankuver;West Vancouver
+fa;سن-اولریک;Saint-Ulric
+fa;کاپلان، کبک;Caplan
+ur;برسٹل، نیو برنزویک;Florenceville-Bristol
+uk;Флоренсвілль-Брістоль;Florenceville-Bristol
+fa;فلورنسویل بریستول;Florenceville-Bristol
+fa;سن-پل-دو-مونتمینی، کبک;Saint-Paul-de-Montminy
+ur;سین-پال-دے-مونتمن، کیوبک;Saint-Paul-de-Montminy
+ur;برٹرینڈ، نیو برنزوک;Bertrand
+fa;وله-ژونکسیون، کبک;Vallée-Jonction
+el;Πετί-Σαγκναί;Petit-Saguenay
+fa;پتی-ساگونه، کبک;Petit-Saguenay
+fa;ایست بروتون، کبک;East Broughton
+bg;Лйстер;Lyster
+fa;لیستر، کبک;Lyster
+fa;سن-رمون، کبک;Saint-Raymond
+sr;Сен Ремон;Saint-Raymond
+ur;سین-ریمنڈ، کیوبک;Saint-Raymond
+el;Σαιντ-Απολιναίρ;Saint-Apollinaire
+fa;سن-آپولینر، کبک;Saint-Apollinaire
+ur;سینٹ-اپولنیرے، کیوبک;Saint-Apollinaire
+fa;سایابک;Sayabec
+fa;وال-برییان، کبک;Val-Brillant
+fa;کوزاپسکال، کبک;Causapscal
+sr;Козаскал;Causapscal
+fa;امبرون;Embrun
+fa;سن-لئون-دو-استاندون، کبک;Saint-Léon-de-Standon
+ur;سینٹ-لوں -دے-ستاندوں ، کیوبک;Saint-Léon-de-Standon
+fa;سن-فیلمون، کبک;Saint-Philémon
+ur;سین-فلمون، کیوبک;Saint-Philémon
+fa;نوول، کبک;Nouvelle
+fa;سن-پیر-دو- بروتون، کبک;Saint-Pierre-de-Broughton
+ur;سین-پیری-دے-برگٹن، کیوبک;Saint-Pierre-de-Broughton
+fa;سن-آنتونن، کبک;Saint-Antonin
+ur;سینٹ-انٹونیں ، کیوبک;Saint-Antonin
+uk;Алерт;Alert
+el;Αλέρτ;Alert
+be;Алерт;Alert
+he;אלרט;Alert

@@ -28,3 +28,204 @@ en;Tosu;Tuso
 en;Nyandehun;Shinbekihun
 en;Sieromco Mokanje;Jaiyahun Junction
 en;Mile 30;Mile 30.
+ru;Йонибана;Yonibana
+bg;Йонибана;Yonibana
+ur;یونیبانہ;Yonibana
+hi;वॉटरलू;Waterloo
+ru;Уотерлу;Waterloo
+lt;Vaterlu;Waterloo
+lv;Vaterlū;Waterloo
+bn;ওয়াটারলু;Waterloo
+zh-Hans;滑铁卢，塞拉利昂;Waterloo
+si;වෝටර්ලු;Waterloo
+uk;Ватерлоо;Waterloo
+ur;واٹرلو، سیرالیون;Waterloo
+kn;ವಾಟರ್ಲೂ;Waterloo
+ko;워털루;Waterloo
+mr;वॉटरलू;Waterloo
+el;Γουότερλου;Waterloo
+ta;வாட்டர்லூ;Waterloo
+gu;વોટરલૂ;Waterloo
+te;వాటర్లూ;Waterloo
+th;เซียร์ราลีโอน;Waterloo
+ja;ウォータールー;Waterloo
+he;ווטרלו;Waterloo
+ru;Томбоду;Tombodu
+bg;Томбоду;Tombodu
+uk;Тіконко;Tikonko
+ru;Сегбвема;Segbwema
+zh;塞格布玛;Segbwema
+ru;Рокупр;Rokupr
+ru;Порт-Локо;Port Loko
+kk;Порт-Локо;Port Loko
+ky;Порт-Локо;Port Loko
+hi;पोर्ट लोको;Port Loko
+bn;পোর্ট লোকো;Port Loko
+ur;پورٹ لوکو;Port Loko
+am;ፖርት ሎኮ;Port Loko
+fa;پورت لوکو;Port Loko
+ja;ポートロコ;Port Loko
+pa;ਪੋਰਟ ਲੋਕੋ;Port Loko
+ps;پورت لوکو;Port Loko
+tg;Порт-Локо;Port Loko
+tt;Порт-Локо;Port Loko
+ru;Моямба;Moyamba
+lt;Mojamba;Moyamba
+zh;莫揚巴;Moyamba
+ja;モヤンバ;Moyamba
+uk;Монґері;Mongeri
+ru;Макени;Makeni
+bg;Макени;Makeni
+el;Μακένι;Makeni
+ja;マケニ;Makeni
+ko;마케니;Makeni
+lt;Makenis;Makeni
+ur;ماکینی;Makeni
+zh;馬卡尼;Makeni
+kk;Макени;Makeni
+ky;Макени;Makeni
+hi;मकेनी;Makeni
+bn;মাকেনি;Makeni
+am;ማከኒ;Makeni
+fa;ماکنی;Makeni
+pa;ਮਾਕੇਨੀ;Makeni
+ps;ماکنی;Makeni
+tg;Макени;Makeni
+tt;Макени;Makeni
+ru;Магбурака;Magburaka
+bg;Магбурака;Magburaka
+zh;馬布拉卡;Magburaka
+ja;マグブラカ;Magburaka
+ru;Лунсаре;Lunsar
+bg;Лунсар;Lunsar
+he;לונסאר;Lunsar
+ru;Коинду;Koindu
+bg;Коинду;Koindu
+zh;科英杜;Koindu
+hi;कोईदु;Koidu
+ru;Сефаду;Koidu
+bg;Койду-Сефаду;Koidu
+lt;Koidu Taunas;Koidu
+lv;Koidutauna;Koidu
+bn;কইদুটাউন- সেফাদু;Koidu
+si;කොඉඩු ටවුන් සෙෆාදු;Koidu
+uk;Койдутаун-Сефаду;Koidu
+id;Koidutown-Sefadu;Koidu
+ur;کوئیدو ٹاؤن-سیفادو;Koidu
+sv;Koidu-Sefadu;Koidu
+kn;ಕೊಯಿಡುಟೌನ್-ಸೆಫುಡ್;Koidu
+ko;코이두;Koidu
+zh-HK;考度;Koidu
+mr;कोयूनुटाउन-सेफ्यूडू;Koidu
+ms;Koidutown-Sefadu;Koidu
+el;Κόιντου;Koidu
+ta;கொய்டுடௌன்-செபாடு;Koidu
+zh;科伊杜;Koidu
+gu;કોઈડુટાઉન-સેફાડુ;Koidu
+te;కొయ్ డు పట్టణం;Koidu
+vi;Koidutown-Sefadu;Koidu
+nb;Koidu-Sefadu;Koidu
+th;คอยดุทาว เซฟาดู;Koidu
+ja;コイドゥ;Koidu
+da;Koidu-Sefadu;Koidu
+he;קואדו;Koidu
+ru;Кенеме;Kenema
+bg;Кенема;Kenema
+ja;ケネマ;Kenema
+ko;케네마;Kenema
+ru;Кенема;Kenema
+zh;凯内马;Kenema
+el;Κενέμα;Kenema
+ur;کینیما;Kenema
+kk;Кенема;Kenema
+ky;Кенема;Kenema
+hi;केनेमा;Kenema
+bn;কেনেমা;Kenema
+am;ከነማ;Kenema
+fa;کنما;Kenema
+pa;ਕੇਨੇਮਾ;Kenema
+ps;کینیما;Kenema
+tg;Кенема;Kenema
+tt;Кенема;Kenema
+ru;Камакви;Kamakwie
+ru;Кайлахун;Kailahun
+bg;Кайлахун;Kailahun
+el;Καϊλαχούν;Kailahun
+lt;Kailahunas;Kailahun
+zh;凱拉洪;Kailahun
+ru;Кабала;Kabala
+zh;卡巴拉;Kabala
+ja;カバラ;Kabala
+he;קבאלה;Kabala
+ru;Гандорхун;Gandorhun
+fa;فری‌تاون;Freetown
+ja;フリータウン;Freetown
+ko;프리타운;Freetown
+ru;Фритаун;Freetown
+zh;自由市;Freetown
+lt;Fritaunas;Freetown
+mk;Фритаун;Freetown
+el;Φρίταουν;Freetown
+am;ፍሪታውን;Freetown
+he;פריטאון;Freetown
+zh;弗里敦;Freetown
+mr;फ्रीटाउन;Freetown
+bg;Фрийтаун;Freetown
+pa;ਫ਼ਰੀਟਾਊਨ;Freetown
+bo;ཕིརི་ཊའུན།;Freetown
+ta;பிரீடவுன்;Freetown
+ky;Фритаун;Freetown
+tg;Фритаун;Freetown
+ka;ფრიტაუნი;Freetown
+sr;Фритаун;Freetown
+udm;Фритаун;Freetown
+uk;Фрітаун;Freetown
+mrj;Фритаун;Freetown
+ht;Fritonn;Freetown
+th;ฟรีทาวน์;Freetown
+be;Фрытаўн;Freetown
+az;Fritaun;Freetown
+ur;فری ٹاؤن;Freetown
+lv;Frītauna;Freetown
+hy;Ֆրիթաուն;Freetown
+ce;Фритаун;Freetown
+ckb;فریتاون;Freetown
+hi;फ़्रीटाउन;Freetown
+kn;ಫ್ರೀಟೌನ್;Freetown
+uz;Fritaun;Freetown
+vep;Fritaun;Freetown
+ja;フェラバ;Falaba
+ur;فالابا;Falaba
+ru;Бумпе;Bumpe
+uk;Бумпе;Bumpe
+ru;Бонте;Bonthe
+lt;Bontė;Bonthe
+zh;邦特;Bonthe
+ja;ボンティ;Bonthe
+ru;Бо;Bo
+bg;Бо;Bo
+he;בו;Bo
+ja;ボー;Bo
+ko;보;Bo
+zh;博城;Bo
+el;Μπο;Bo
+ur;بو، سیرالیون;Bo
+kk;Бо;Bo
+ky;Бо;Bo
+hi;बो;Bo
+bn;বো;Bo
+am;ቦ;Bo
+fa;بو;Bo
+pa;ਬੋ;Bo
+ps;بو;Bo
+tg;Бо;Bo
+tt;Бо;Bo
+uk;Бінколо;Binkolo
+he;בינקולו;Binkolo
+ru;Байима;Palima
+bg;Палима;Palima
+ro;Baiima;Palima
+ru;Пуджехун;Pujehun
+lt;Pudžehunas;Pujehun
+zh;普傑洪;Pujehun
+zh-Hans;普杰洪;Pujehun

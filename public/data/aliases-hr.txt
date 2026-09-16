@@ -114,3 +114,1986 @@ it;Golobici;Golubići
 it;Snidarici;Žnjidarići
 it;Craici;Krajići
 it;Perelici;Pirelići
+bg;Жупаня;Županja
+ja;ジュパニャ;Županja
+sr;Жупања;Županja
+ru;Жупаня;Županja
+hu;Zsumberk;Žumberak
+ro;Comuna Žumberak;Žumberak
+sr;Жумберак;Žumberak
+ru;Жумберак;Žumberak
+ru;Жрново;Žrnovo
+hr;Zrenj - Stridone;Zrenj
+ro;Comuna Žminj;Žminj
+sr;Жмињ;Žminj
+hu;Vörösmart;Zmajevac
+ckb;زلاتار;Zlatar
+fa;زلاتار، کرواسی;Zlatar
+sr;Златар;Zlatar
+uk;Златар;Zlatar
+ru;Златор;Zlatar
+zh;茲拉塔爾;Zlatar
+hr;Zlarino;Zlarin
+ru;Зларин;Zlarin
+hr;Velika Gora;Zelinska Gora
+ckb;سڤێتی ایڤان زێلینا;Sveti Ivan Zelina
+fa;سوتی ایوان زلینا;Sveti Ivan Zelina
+sr;Свети Иван Зелина;Sveti Ivan Zelina
+uk;Светі-Іван-Зеліна;Sveti Ivan Zelina
+ru;Свети-Иван-Зелина;Sveti Ivan Zelina
+zh;聖伊萬澤利納;Sveti Ivan Zelina
+hr;Zebanec;Zebanec Selo
+hu;Alsóhideghegy;Zebanec Selo
+ru;Ждралови;Ždralovi
+hr;Završje - Piemonte d'Istria;Završje
+ru;Затон;Zaton
+hu;Gyümölcshegy;Zasadbreg
+fa;زاپرشیچ;Zaprešić
+ckb;زاپرێشیچ;Zaprešić
+uk;Запрешич;Zaprešić
+ja;ザプレシチ;Zaprešić
+lt;Zaprešičius;Zaprešić
+sr;Запрешић;Zaprešić
+ru;Запрешич;Zaprešić
+zh;扎普雷希奇;Zaprešić
+ar;زابرشيتش;Zaprešić
+ko;자프레시치;Zaprešić
+ur;زاپریشیچ;Zaprešić
+hr;Zambratija - Zambrattia;Zambratija
+ru;Загвозд;Zagvozd
+ar;زغرب;Zagreb
+be;Заграб;Zagreb
+bg;Загреб;Zagreb
+bn;জাগরেব;Zagreb
+cs;Záhřeb;Zagreb
+he;זאגרב;Zagreb
+hu;Zágráb;Zagreb
+ja;ザグレブ;Zagreb
+ko;자그레브;Zagreb
+lt;Zagrebas;Zagreb
+lv;Zagreba;Zagreb
+mk;Загреб;Zagreb
+pl;Zagrzeb;Zagreb
+ru;Загреб;Zagreb
+sk;Záhreb;Zagreb
+sr;Загреб;Zagreb
+th;ซาเกร็บ;Zagreb
+tr;Zagrep;Zagreb
+el;Ζάγκρεμπ;Zagreb
+ka;ზაგრები;Zagreb
+sq;Zagrebi;Zagreb
+tg;Загреб;Zagreb
+am;ዛግሬብ;Zagreb
+ta;சாகிரேப்;Zagreb
+mr;झाग्रेब;Zagreb
+tl;Lungsod ng Zagreb;Zagreb
+hy;Զագրեբ;Zagreb
+kv;Загреб;Zagreb
+pih;Sakreb;Zagreb
+ga;Ságrab;Zagreb
+udm;Загреб;Zagreb
+bo;ཛག་རེབ།;Zagreb
+fa;زاگرب;Zagreb
+sah;Загреб;Zagreb
+mhr;Загреб;Zagreb
+cv;Загреб;Zagreb
+os;Загреб;Zagreb
+uk;Загреб;Zagreb
+ur;زغرب;Zagreb
+ckb;زاگرێب;Zagreb
+wo;Sagreb;Zagreb
+az;Zaqreb;Zagreb
+za;Sagwzlwgbouh;Zagreb
+pa;ਜ਼ਾਗਰਬ;Zagreb
+kk;Загреб;Zagreb
+zh;萨格勒布;Zagreb
+sgs;Zagrėbs;Zagreb
+ce;Загреб;Zagreb
+mn;Загреб;Zagreb
+yue;薩格勒布;Zagreb
+ky;Загреб;Zagreb
+lrc;زاگرب;Zagreb
+ml;സാഗ്രെബ്;Zagreb
+na;Zagrev;Zagreb
+ne;जग्रिब;Zagreb
+tt;Загреб;Zagreb
+hr;Zagore;Zagorje
+ru;Задворско;Zadvorsko
+bg;Задар;Zadar
+el;Ζαντάρ;Zadar
+ja;ザダル;Zadar
+ko;자다르;Zadar
+lv;Zadara;Zadar
+mk;Задар;Zadar
+ru;Задар;Zadar
+sr;Задар;Zadar
+lt;Zadaras;Zadar
+fa;زادار;Zadar
+uk;Задар;Zadar
+ckb;زادار;Zadar
+he;זאדאר;Zadar
+be;Задар;Zadar
+ar;زادار;Zadar
+am;ዛዳር;Zadar
+zh;扎達爾;Zadar
+ce;Задар;Zadar
+ka;ზადარი;Zadar
+tt;Задар;Zadar
+ur;زدار;Zadar
+hr;Začretje;Sveti Križ Začretje
+hr;Sv. Križ Začretje;Sveti Križ Začretje
+ru;Забок;Zabok
+hr;Žabjak;Žabljak
+lt;Vukovaras;Vukovar
+sr;Вуковар;Vukovar
+ja;ヴコヴァル;Vukovar
+ru;Вуковар;Vukovar
+ckb;ڤوکۆڤار;Vukovar
+uk;Вуковар;Vukovar
+fa;ووکوار;Vukovar
+ko;부코바르;Vukovar
+he;ווקובר;Vukovar
+be;Вукавар;Vukovar
+bg;Вуковар;Vukovar
+ar;فوكوفار;Vukovar
+sq;Vukovari;Vukovar
+zh;武科瓦尔;Vukovar
+ce;Вуковар;Vukovar
+ru;Вука;Vuka
+hr;Vežnaveri;Vržnaveri
+hr;Varvari;Vrvari
+ru;Врси;Vrsi
+ru;Врсар;Vrsar
+ro;Comuna Vrsar;Vrsar
+sr;Врсар;Vrsar
+uk;Врсар;Vrsar
+ru;Врполе;Vrpolje
+hr;Vrnjak - Vergnacco;Vrnjak
+sr;Врлика;Vrlika
+ckb;ڤرلیکا;Vrlika
+fa;ورلیکا;Vrlika
+uk;Врліка;Vrlika
+ru;Врлика;Vrlika
+zh;弗爾利卡;Vrlika
+sr;Врховине;Vrhovine
+ru;Врховине;Vrhovine
+hr;Gradski Vrhovci;Vrhovci Gradski
+hr;Crkveni Vrhovci;Vrhovci Crkveni
+sr;Вргинмост;Vrginmost
+ru;Вргинмост;Vrginmost
+hr;Pavlovac Vrebački;Pavlovac
+ru;Врбовско;Vrbovsko
+hr;Vrhovec;Vrhovec Rakovečki
+bg;Върбовец;Vrbovec
+ckb;ڤربۆڤێتس;Vrbovec
+fa;وربوتس;Vrbovec
+ja;ヴルボヴェツ;Vrbovec
+sr;Врбовец;Vrbovec
+uk;Врбовец;Vrbovec
+ru;Врбовец;Vrbovec
+zh;弗爾博韋茨;Vrbovec
+hr;Vrbovac;Vrbovac Podborski
+ru;Врбоска;Vrboska
+ru;Врбник;Vrbnik
+hr;Vrbica;Vrbica Trojstvena
+hu;Murasiklós;Vratišinec
+ru;Вратишинец;Vratišinec
+sl;Vranjča;Seget Vranjica
+hr;Vranići kod Višnjana;Vranići
+ru;Володер;Voloder
+ru;Войнич;Vojnić
+ar;فودنيان;Vodnjan
+ckb;ڤۆدنیان;Vodnjan
+fa;ودنیان;Vodnjan
+sr;Водњан;Vodnjan
+uk;Воднян;Vodnjan
+ru;Воднян;Vodnjan
+zh;沃德年;Vodnjan
+ckb;ڤۆدیتسێ;Vodice
+fa;ودیتسه، کرواسی;Vodice
+ja;ヴォディツェ;Vodice
+sr;Водице;Vodice
+uk;Водіце;Vodice
+ru;Водице;Vodice
+zh;沃迪采;Vodice
+ru;Вочин;Voćin
+ja;ヴィジナダ;Vižinada
+ro;Comuna Vižinada;Vižinada
+sr;Вижинада;Vižinada
+ru;Вижинада;Vižinada
+ru;Високо;Visoko
+ro;Comuna Višnjan;Višnjan - Visignano
+sr;Вишњан;Višnjan - Visignano
+ru;Вишньян;Višnjan - Visignano
+hr;Višnjan;Višnjan - Visignano
+ru;Вис;Vis
+hu;Verőce;Virovitica
+sr;Вировитица;Virovitica
+ru;Вировитица;Virovitica
+ru;Вир;Vir
+sr;Винковци;Vinkovci
+hu;Vinkovce;Vinkovci
+ja;ヴィンコヴツィ;Vinkovci
+uk;Вінковці;Vinkovci
+lt;Vinkovcai;Vinkovci
+ko;빈코브치;Vinkovci
+bg;Винковци;Vinkovci
+ckb;ڤینکۆڤتسی;Vinkovci
+fa;وینکوتسی;Vinkovci
+ru;Винковцы;Vinkovci
+zh;溫科夫齊;Vinkovci
+sr;Винковачки Бановци;Vinkovački Banovci
+hr;Vinkovec;Vinkovac
+ru;Винеж;Vinež
+ru;Вилево;Viljevo
+hr;Vilanija - Villania;Vilanija
+hr;Vidovići;Vidović
+hr;Vidovac Cesarički;Vidovac
+ru;Вели Лошинь;Veli Lošinj
+hr;Velo Grablje;Veliko Grablje
+hr;Veliki Modruš Potok;Veliki Modrušpotok
+ru;Вели Дрвеник;Veliki Drvenik
+hr;Drvenik Veliki;Veliki Drvenik
+hu;Nagygorica;Velika Gorica
+sr;Велика Горица;Velika Gorica
+ja;ヴェリカ・ゴリツァ;Velika Gorica
+fa;ولیکا گریتسا;Velika Gorica
+uk;Велика Гориця;Velika Gorica
+ckb;ڤێلیکا گۆریتسا;Velika Gorica
+bg;Велика Горица;Velika Gorica
+ru;Велика-Горица;Velika Gorica
+zh;大戈里察;Velika Gorica
+hr;Čista Velika;Velika Čista
+hr;Velika Branjska;Velika Brajinska
+hu;Velike;Velika
+ro;Comuna Velika;Velika
+sr;Велика;Velika
+ru;Велика;Velika
+hr;Ježenj;Veli Ježenj
+hr;Velike Drage;Vele Drage
+ru;Вела-Лука;Vela Luka
+hr;Lovrečka Varoš;Varoš Lovrečka
+ckb;ڤاراژدینسکێ تۆپلیتسێ;Varaždinske Toplice
+fa;واراژدینسکه تپلیتسه;Varaždinske Toplice
+hu;Varasdfürdő;Varaždinske Toplice
+sr;Вараждинске Топлице;Varaždinske Toplice
+uk;Вараждинське Топлице;Varaždinske Toplice
+ru;Вараждинске-Топлице;Varaždinske Toplice
+zh;瓦拉日丁托普利采;Varaždinske Toplice
+hu;Varasd;Varaždin
+ru;Вараждин;Varaždin
+sr;Вараждин;Varaždin
+ar;فاراجدين;Varaždin
+be;Вараждзін;Varaždin
+bg;Вараждин;Varaždin
+ce;Вараждин;Varaždin
+ckb;ڤاراژدین;Varaždin
+el;Βαράζντιν;Varaždin
+fa;واراژدین;Varaždin
+he;ואראז'דין;Varaždin
+hy;Վարաժդին;Varaždin
+ja;ヴァラジュディン;Varaždin
+ka;ვარაჟდინი;Varaždin
+ko;바라주딘;Varaždin
+lt;Varaždinas;Varaždin
+mk;Вараждин;Varaždin
+sq;Varazhdin;Varaždin
+tt;Вараждин;Varaždin
+uk;Вараждин;Varaždin
+ur;واراژدن;Varaždin
+zh;瓦拉日丁;Varaždin
+hu;Valpó;Valpovo
+ro;Валпово;Valpovo
+sr;Валпово;Valpovo
+ru;Валпово;Valpovo
+hr;Valica - Valizza;Valica
+el;Ούμαγκ;Umag
+sr;Умаг;Umag
+ru;Умаг;Umag
+ckb;ئوماگ;Umag
+uk;Умаг;Umag
+ja;ウマグ;Umag
+fa;اوماگ;Umag
+zh;烏馬格;Umag
+hr;Umag - Umago;Umag
+hr;Ugrinić;Ugrinići
+ru;Удбина;Udbina
+hr;Uble;Ubli
+hr;Turkovčina;Turkovšćina
+ru;Турань;Turanj
+ru;Тухель;Tuhelj
+ru;Тучепи;Tučepi
+hr;Trstenik;Trstenik Pušćanski
+ru;Трсат;Trsat
+bg;Търсат;Trsat
+zh;特爾塞;Trsat
+uk;Трсат;Trsat
+ja;トゥルサト;Trsat
+sr;Трсат;Trsat
+ro;Comuna Trpanj;Trpanj
+sr;Трпањ;Trpanj
+ru;Трпань;Trpanj
+hr;Treglava;Trojeglava
+hu;Trau;Trogir
+ru;Трогир;Trogir
+sr;Трогир;Trogir
+he;טרוגיר;Trogir
+ckb;ترۆگیر;Trogir
+fa;تروگیر;Trogir
+uk;Трогір;Trogir
+mk;Трогир;Trogir
+ja;トロギル;Trogir
+bg;Трогир;Trogir
+ko;트로기르;Trogir
+el;Τρογκίρ;Trogir
+ka;ტროგირი;Trogir
+lt;Trogiras;Trogir
+zh;特罗吉尔;Trogir
+hr;Trnovec;Trnovec Bartolovečki
+hu;Drávamagyaród;Trnovec
+hr;Trnovac Sokolovački;Trnovac
+ru;Трнава;Trnava
+ru;Триль;Trilj
+ru;Трибунь;Tribunj
+hr;Triban - Tribano;Triban
+ru;Товарник;Tovarnik
+ru;Тоунь;Tounj
+hr;Toranj;Toranj Požeški
+sr;Топуско;Topusko
+ru;Топуско;Topusko
+hr;Topolovec;Topolovac Vrbovečki
+hr;Tomaševec;Tomaševec Bisački
+ru;Ткон;Tkon
+hr;Tisovac;Tisovac Zabrdski
+ru;Тисно;Tisno
+hr;Tekić;Tekići
+ru;Тар;Tar
+hr;Svinica Krstinjska;Svinica
+ru;Светвинченат;Svetvinčenat
+hr;Sv. Urban;Sveti Urban
+hu;Szentorbánhegy;Sveti Urban
+hr;Sveti Petar;Sveti Petar Ludbreški
+hr;Sv. Martin na Muri;Sveti Martin na Muri
+hu;Muraszentmárton;Sveti Martin na Muri
+ru;Свети-Мартин-на-Мури;Sveti Martin na Muri
+sr;Свети Мартин на Мури;Sveti Martin na Muri
+uk;Светий Мартин-на-Мурі;Sveti Martin na Muri
+hr;Selo Sveti Marko;Markovo Selo
+hr;Sveta Nedelja;Sveta Nedjelja
+hr;Sveta Nedjelja;Sveta Nedelja
+sr;Швајцарница;Švajcarnica
+hu;Őrhely;Švajcarnica
+ru;Сутиван;Sutivan
+hr;Sušanj Cesarički;Sušanj
+fa;سوساک;Susak
+sr;Сусак;Susak
+uk;Сусак;Susak
+ru;Сусак;Susak
+zh;蘇薩克島;Susak
+sr;Супетар;Supetar
+ru;Супетар;Supetar
+ckb;سوپێتار;Supetar
+fa;سوپتار;Supetar
+ja;スペタル;Supetar
+uk;Супетар;Supetar
+zh;蘇佩塔爾;Supetar
+hr;Šumetlica;Šumetlica Cernička
+sr;Шумарина;Šumarina
+hu;Benge;Šumarina
+ru;Сукошан;Sukošan
+ru;Суджурадж;Sudurad
+hr;Suđurađ;Sudurad
+ru;Сучурай;Sućuraj
+hu;Muraréthát;Štrukovec
+hr;Podstrana – Strožanac Donji;Strožanac - Donji
+hr;Podstrana - Strožanac Donji;Strožanac - Donji
+sr;Стрмица;Strmica
+ru;Стризивойна;Strizivojna
+hu;Stridóvár;Štrigova
+sr;Штригова;Štrigova
+uk;Штригова;Štrigova
+ru;Штригова;Štrigova
+hr;Strezojevo;Strezoj
+ru;Стон;Ston
+ja;ストン;Ston
+sr;Стон;Ston
+uk;Стон;Ston
+ru;Стобреч;Stobreč
+ru;Штитар;Štitar
+hr;Šterna - Sterna;Šterna
+ru;Штефане;Štefanje
+hr;Stažnjevec;Stažnjevci
+hr;Stari Slatinik;Stari Slatnik
+hr;Laminac;Stari Laminac
+ru;Стари Град;Starigrad
+ru;Стари Град;Stari Grad
+bg;Стари град;Stari Grad
+ckb;ستاری گراد;Stari Grad
+fa;ستاری گراد;Stari Grad
+he;סטארי גראד;Stari Grad
+ja;スタリー・グラード;Stari Grad
+ko;스타리그라드;Stari Grad
+mk;Стари град;Stari Grad
+sr;Стари Град;Stari Grad
+uk;Старий Град;Stari Grad
+ru;Стариград;Stari Grad
+zh;斯塔里格勒;Stari Grad
+hu;Ógradiska;Stara Gradiška
+sr;Стара Градишка;Stara Gradiška
+ru;Стара Градишка;Stara Gradiška
+ru;Градина;Gradina
+hr;Brezovica;Stara Brezovica
+sr;Моравице;Moravice
+hr;Srednji Mosti;Srednje Mosti
+hr;Srednje Selo;Srednje Selo na Šolti
+ru;Сребрено;Srebreno
+bg;Сплит;Split
+el;Σπλιτ;Split
+he;ספליט;Split
+ja;スプリト;Split
+lt;Splitas;Split
+lv;Splita;Split
+ru;Сплит;Split
+sr;Сплит;Split
+zh;斯普利特;Split
+hy;Սպլիտ;Split
+mk;Сплит;Split
+ar;سبليت;Split
+ka;სპლიტი;Split
+os;Сплит;Split
+mr;स्प्लिट;Split
+fa;اسپلیت;Split
+uk;Спліт;Split
+ko;스플리트;Split
+be;Спліт;Split
+ce;Сплит;Split
+ur;سپلٹ، کروشیا;Split
+ru;Собра;Sobra
+hu;Szata;Sotin
+sr;Сотин;Sotin
+ru;Солин;Solin
+sr;Солин;Solin
+bg;Солин;Solin
+ckb;سۆلین;Solin
+fa;سلین، کرواسی;Solin
+hu;Salona;Solin
+ja;ソリン;Solin
+uk;Солін;Solin
+ur;سولین;Solin
+zh;索林;Solin
+be;Солін;Solin
+ko;솔린;Solin
+lt;Solinas;Solin
+hr;Sokolovac;Sokolovac Daruvarski
+hu;Szluin;Slunj
+sr;Слуњ;Slunj
+uk;Слунь;Slunj
+ckb;سلونی;Slunj
+fa;سلونی;Slunj
+ru;Слунь;Slunj
+zh;斯盧尼;Slunj
+hr;Brod;Slavonski Brod
+bg;Славонски брод;Slavonski Brod
+hu;Bród;Slavonski Brod
+sr;Славонски Брод;Slavonski Brod
+ru;Славонски-Брод;Slavonski Brod
+ja;スラヴォンスキ・ブロド;Slavonski Brod
+fa;اسلاونسکی برد;Slavonski Brod
+lt;Slavonski Brodas;Slavonski Brod
+uk;Славонський Брод;Slavonski Brod
+ckb;سلاڤۆنسکی برۆد;Slavonski Brod
+he;סלבונסקי ברוד;Slavonski Brod
+ar;سلافونسكي برود;Slavonski Brod
+ko;슬라본스키브로드;Slavonski Brod
+zh;斯拉沃尼亞布羅德;Slavonski Brod
+ce;Славонски-Брод;Slavonski Brod
+th;สลาวอนสกีบรอด;Slavonski Brod
+hu;Szlavónbród;Slavonski Brod
+hu;Pozsega;Požega
+sr;Пожега;Požega
+uk;Пожега;Požega
+bg;Пожега;Požega
+ja;ポジェガ;Požega
+ko;포제가;Požega
+fa;پژگا، کرواسی;Požega
+ckb;پۆژێگا;Požega
+ru;Пожега;Požega
+zh;波熱加;Požega
+ce;Пожега;Požega
+ar;بوزيغا;Požega
+ka;პოჟეგა;Požega
+ur;پوژیگا، کرویئشا;Požega
+hr;Slavica;Donja Slavica
+hr;Slatina;Slatina Ravenska
+ru;Слано;Slano
+ru;Шкрлево;Škrljevo
+ru;Скрадин;Skradin
+be;Скрадзін;Skradin
+bg;Скрадин;Skradin
+ckb;سکرادین;Skradin
+fa;سکرادین;Skradin
+sr;Скрадин;Skradin
+uk;Скрадін;Skradin
+zh;斯克拉丁;Skradin
+ru;Скрад;Skrad
+hr;Škrabutnik;Škrabutnik Potok
+hr;Oskoruš - Oscurus;Oskoruš
+hr;Škabrnja;Škabrnje
+ru;Шкабрне;Škabrnje
+hu;Sziszek;Sisak
+ru;Сисак;Sisak
+sl;Sisek;Sisak
+sr;Сисак;Sisak
+bg;Сисак;Sisak
+lt;Sisakas;Sisak
+ja;シサク;Sisak
+el;Σίσακ;Sisak
+uk;Сісак;Sisak
+ar;سيساك;Sisak
+ckb;سیساک;Sisak
+fa;سیساک;Sisak
+ko;시사크;Sisak
+zh;錫薩克;Sisak
+be;Сісак;Sisak
+ce;Сисак;Sisak
+ru;Сирач;Sirač
+ja;シニ;Sinj
+ckb;سینی;Sinj
+fa;سینی، کرواسی;Sinj
+mk;Сињ;Sinj
+sr;Сињ;Sinj
+uk;Сінь;Sinj
+ru;Синь;Sinj
+zh;錫尼;Sinj
+he;סיני;Sinj
+ko;신;Sinj
+hr;Sigetac;Sigetac Novski
+sr;Шидски Бановци;Banovci
+hr;Dicmo Sičane;Sičane
+ja;シベニク;Šibenik
+pl;Szybenik;Šibenik
+sr;Шибеник;Šibenik
+ru;Шибеник;Šibenik
+ko;시베니크;Šibenik
+ckb;شیبێنیک;Šibenik
+lt;Šibenikas;Šibenik
+he;שיבניק;Šibenik
+fa;سیبنیک;Šibenik
+uk;Шибеник;Šibenik
+ar;شيبينيك;Šibenik
+sq;Shibeniku;Šibenik
+bg;Шибеник;Šibenik
+zh;希贝尼克;Šibenik
+ce;Шибеник;Šibenik
+hu;Szebenikó;Šibenik
+ru;Северин;Severin
+ru;Сесвете;Sesvete
+ru;Шестановац;Šestanovac
+hu;Szentilona;Šenkovec
+ja;セニ;Senj
+ru;Сень;Senj
+sr;Сењ;Senj
+lt;Senis;Senj
+ca;Senya;Senj
+bg;Сен;Senj
+ckb;سێنی;Senj
+fa;سنی;Senj
+ko;센;Senj
+uk;Сень;Senj
+zh;塞尼;Senj
+hr;Selnik;Selnik Maruševečki
+hu;Szelenczehegy;Selnica
+hu;Szelencze;Selnica
+hr;Selca kod Starog Grada;Selca kod Starigrada
+hr;Sekirevo Selo;Sekirovo Selo
+hr;Seget - Seghetto;Seget
+hr;Savudrija - Salvore;Savudrija
+ru;Сарваш;Sarvaš
+sr;Самобор;Samobor
+ru;Самобор;Samobor
+ru;Сали;Sali
+ru;Саборско;Saborsko
+ru;Рунович;Runović
+sr;Ругвица;Rugvica
+ru;Ругвица;Rugvica
+ru;Руде;Rude
+ru;Рубеши;Rubeši
+ru;Ровинь;Rovinj
+sr;Ровињ;Rovinj
+ar;روفينج;Rovinj
+bg;Ровин;Rovinj
+fa;رووینی;Rovinj
+he;רוביני;Rovinj
+ja;ロヴィニ;Rovinj
+ko;로빈;Rovinj
+os;Ровинь;Rovinj
+sq;Rovinji;Rovinj
+uk;Ровінь;Rovinj
+zh;羅維尼;Rovinj
+el;Ρόβινι;Rovinj
+ru;Рогач;Rogač
+bg;Риека;Rijeka
+hu;Fiume;Rijeka
+ja;リエカ;Rijeka
+ru;Риека;Rijeka
+sl;Reka;Rijeka
+sr;Ријека;Rijeka
+ro;Comuna Ribnik;Ribnik
+sr;Рибник;Ribnik
+ru;Рибник;Ribnik
+ru;Решетари;Rešetari
+hr;Remetinec;Remetinec Križevački
+ru;Река;Reka
+hr;Ratkovec;Ratkovec Zlatarski
+ro;Comuna Raša;Raša
+sr;Раша;Raša
+ru;Раша;Raša
+sr;Раковица;Rakovica
+ru;Раковица;Rakovica
+hr;Rajić;Rajić Gudovački
+hr;Radašinovci;Radošinovac
+ru;Радобой;Radoboj
+hr;Radini - Radini;Radini
+ru;Раб;Rab
+sr;Раб;Rab
+el;Ραμπ;Rab
+he;ראב;Rab
+ja;ラブ島;Rab
+uk;Раб;Rab
+zh;拉布島;Rab
+id;Pulau Rab;Rab
+ru;Пунат;Punat
+ja;プーラ;Pula
+ro;Pola;Pula
+ru;Пула;Pula
+sl;Pulj;Pula
+sr;Пула;Pula
+uk;Пула;Pula
+zh;普拉;Pula
+hy;Պուլա;Pula
+fa;پولا;Pula
+ckb;پولا;Pula
+he;פולה;Pula
+ko;풀라;Pula
+bg;Пула;Pula
+ar;بولا;Pula
+el;Πούλα;Pula
+ka;პულა;Pula
+mk;Пула;Pula
+tt;Пула;Pula
+vep;Pul;Pula
+hr;Prnjavor;Prnjavor Slavonski
+hr;Čuntić Prnjavor;Prnjavor Čuntićki
+ru;Привлака;Privlaka
+ru;Примоштен;Primošten
+hr;Mjesto Primišlje;Primišlje
+ru;Придрага;Pridraga
+ru;Пргомет;Prgomet
+sr;Превршац;Prevršac
+hu;Hétvezér;Preseka
+ro;Comuna Preseka;Preseka
+sr;Пресека;Preseka
+ru;Пресека;Preseka
+ru;Прелог;Prelog
+ckb;پرێلۆگ;Prelog
+el;Πρέλογκ;Prelog
+fa;پرلگ، کرواسی;Prelog
+sr;Прелог;Prelog
+uk;Прелог;Prelog
+zh;普雷洛格;Prelog
+ru;Преграда;Pregrada
+ckb;پرێگرادا;Pregrada
+fa;پرگرادا;Pregrada
+sr;Преграда;Pregrada
+uk;Преграда;Pregrada
+zh;普雷格拉達;Pregrada
+hr;Pražnica;Pražnice
+hu;Paphegy;Praporčan
+ru;Повляна;Povljana
+ru;Постира;Postira
+ru;Пореч;Poreč
+sr;Пореч;Poreč
+fa;پرچ;Poreč
+ja;ポレッチ;Poreč
+uk;Пореч;Poreč
+bg;Пореч;Poreč
+he;פורץ;Poreč
+ko;포레치;Poreč
+ckb;پۆرێچ;Poreč
+lt;Porečas;Poreč
+zh;波雷奇;Poreč
+el;Πόρετς;Poreč
+hr;Poreč - Parenzo;Poreč
+hr;Popovići;Popović
+hr;Popovac;Popovac Voćinski
+hr;Popovac;Popovac Subocki
+ru;Поповача;Popovača
+hr;Poljana;Poljana Vrbovečka
+ru;Поличник;Poličnik
+ru;Полач;Polače
+ru;Полача;Polača
+ru;Покупско;Pokupsko
+ru;Подвине;Podvinje
+ru;Подтурен;Podturen
+ru;Подстрана;Podstrana
+sr;Подстрана;Podstrana
+uk;Подстрана;Podstrana
+zh;波茲塔納;Podstrana
+ckb;سلاتینا;Slatina
+fa;سلاتینا، کرواسی;Slatina
+sr;Слатина;Slatina
+uk;Слатина;Slatina
+ru;Слатина;Slatina
+zh;斯拉蒂納;Slatina
+ru;Подхум;Podhum
+hr;Podgorje Bistričko;Podgorje
+hr;Podgorje;Podgorje Požeško
+ru;Подгорач;Podgorač
+ru;Подгора;Podgora
+hr;Posavski Podgajci;Podgajci Posavski
+sr;Плоче;Ploče
+ru;Плоче;Ploče
+ru;Плитвицкие Озёра;Jezerce
+ckb;پلێتێرنیتسا;Pleternica
+fa;پلترنیتسا;Pleternica
+ja;プレテルニツァ;Pleternica
+sr;Плетерница;Pleternica
+uk;Плетерниця;Pleternica
+ru;Плетерница;Pleternica
+zh;普萊泰爾尼察;Pleternica
+hu;Pleterniceszentmiklós;Pleternica
+hu;Bányahegy;Pleškovec
+ru;Плашки;Plaški
+hr;Pivnica Slavonska;Pivnica
+ru;Питомача;Pitomača
+ru;Пишкоревци;Piškorevci
+ru;Писаровина;Pisarovina
+hr;Pirakovec;Pirakovec Vrbovečki
+ru;Пичан;Pićan
+ru;Петровско;Petrovsko
+hr;Petrovija - Petrovia;Petrovija
+hr;Petrovci;Petrovcy
+ru;Петриня;Petrinja
+hu;Bányavár;Peklenica
+ru;Пазин;Pazin
+ar;بازين;Pazin
+ce;Пазин;Pazin
+ckb;پازین;Pazin
+fa;پازین;Pazin
+he;פאזין;Pazin
+ja;パジン;Pazin
+ko;파진;Pazin
+lt;Pazinas;Pazin
+sr;Пазин;Pazin
+uk;Пазин;Pazin
+zh;帕津;Pazin
+ka;პაზინი;Pazin
+ur;پازین;Pazin
+hr;Gradečki Pavlovec;Pavlovec Gradečki
+hr;Pavlovci;Pavlovci Požeški
+ru;Пашман;Pašman
+hr;Paruževac;Paruževec
+sr;Пакрац;Pakrac
+ru;Пакрац;Pakrac
+ru;Пакоштане;Pakoštane
+lt;Pagas;Pag
+ru;Паг;Pag
+sr;Паг;Pag
+ru;Оток;Otok
+ckb;ئۆتۆچاتس;Otočac
+fa;اتچاتس;Otočac
+hu;Otocsán;Otočac
+sr;Оточац;Otočac
+uk;Оточац;Otočac
+ru;Оточац;Otočac
+zh;奧托查茨;Otočac
+hu;Eszék;Osijek
+lt;Osijekas;Osijek
+sr;Осијек;Osijek
+el;Οσιγιέκ;Osijek
+ru;Осиек;Osijek
+th;โอซีเยค;Osijek
+ja;オシエク;Osijek
+lv;Osijeka;Osijek
+ru;Орле;Orle
+ru;Оребич;Orebić
+ru;Опузен;Opuzen
+ro;Comuna Oprtalj;Oprtalj
+sr;Опртаљ;Oprtalj
+uk;Опрталь;Oprtalj
+ru;Опрталь;Oprtalj
+hr;Oprtalj - Portole;Oprtalj
+hu;Abbázia;Opatija
+ru;Опатия;Opatija
+bg;Опатия;Opatija
+ja;オパティヤ;Opatija
+ru;Омиш;Omiš
+sr;Омиш;Omiš
+ru;Окучани;Okučani
+ru;Оклай;Oklaj
+ru;Огулин;Ogulin
+uk;Огулін;Ogulin
+ckb;ئۆگولین;Ogulin
+sr;Огулин;Ogulin
+fa;اگولین;Ogulin
+zh;奧古林;Ogulin
+ar;أوغولين;Ogulin
+he;אוגולין;Ogulin
+ru;Одра;Odra
+ckb;ئۆبرۆڤاتس;Obrovac
+fa;ابرواتس، کرواسی;Obrovac
+sr;Обровац;Obrovac
+uk;Обровац;Obrovac
+ru;Обровац;Obrovac
+zh;奧布羅瓦茨;Obrovac
+ru;Нуштар;Nuštar
+ru;Новска;Novska
+hr;Novo Selo;Novo Selo na Dravi
+hr;Novo Selo Koreničko;Novo Selo
+hr;Novo Selo;Novo Selo Požeško
+sr;Нови Винодолски;Novi Vinodolski
+ru;Нови Винодольски;Novi Vinodolski
+ckb;نۆڤی ڤینۆدۆلسکی;Novi Vinodolski
+fa;نوی ویندولسکی;Novi Vinodolski
+uk;Нові-Вінодолскі;Novi Vinodolski
+ru;Нови-Винодолски;Novi Vinodolski
+zh;新維諾多爾斯基;Novi Vinodolski
+ru;Новиград;Novigrad
+ckb;نۆڤیگراد;Novigrad
+fa;نوی‌گراد، ایالت ایستریا;Novigrad
+ja;ノヴィグラード;Novigrad
+sr;Новиград;Novigrad
+uk;Новіград;Novigrad
+zh;諾維格勒;Novigrad
+hr;Novigrad - Cittanova;Novigrad
+hu;Újbezdán;Novi Bezdan
+hr;Nova Ves Petrijanečka;Nova Ves
+hr;Nova Vas - Villanova;Nova Vas
+ckb;نۆڤالا;Novalja
+fa;نوالیا;Novalja
+ja;ノヴァリャ;Novalja
+sr;Новаља;Novalja
+uk;Новаля;Novalja
+ru;Новаля;Novalja
+zh;諾瓦利亞;Novalja
+hr;Novaki;Novaki Maruševečki
+hr;Novaki Petrovinski;Novaki
+hr;Novaki Ozaljski;Novaki
+hr;Nerežišća;Nerežišće
+hu;Drávavásárhely;Nedelišće
+sr;Нашице;Našice
+ru;Нашице;Našice
+hr;Potok Musulinski;Musulinski Potok
+hu;Muraszerdahely;Mursko Središće
+ckb;مورسکۆ سرێدیشچێ;Mursko Središće
+fa;مورسکو سردیشچه;Mursko Središće
+sr;Мурско Средишће;Mursko Središće
+uk;Мурско Средіще;Mursko Središće
+ru;Мурско-Средишче;Mursko Središće
+zh;穆爾斯科斯雷迪什切;Mursko Središće
+ru;Муртер;Murter
+hr;Mugeba - Monghebbo;Mugeba
+hr;Mrkoplje;Mrkopolje
+ru;Мркопаль;Mrkopalj
+ru;Мотовун;Motovun
+hr;Momjan - Momiano;Momjan
+ru;Молве;Molve
+ru;Млини;Mlini
+hr;Mlaka;Mlaka Rakovečka
+hr;Dalmatinska Zagora;Mirlović Zagora
+hr;Mirca;Mirce
+ru;Милна;Milna
+hr;Milaševac;Milaševci
+hr;Milanlug;Milan-Lug
+hr;Mikluševci;Mikloševcy
+ru;Миклеуш;Mikleuš
+hu;Drávaszentmihály;Mihovljan
+ru;Миховлян;Mihovljan
+hr;Pleternički Mihaljevci;Mihaljevci
+sr;Метковић;Metković
+ckb;مێتکۆڤیچ;Metković
+fa;متکویچ;Metković
+ja;メトコヴィチ;Metković
+lt;Metkovičius;Metković
+uk;Меткович;Metković
+ru;Меткович;Metković
+zh;梅特科維奇;Metković
+bg;Меткович;Metković
+hr;Merišće - Merischie;Merišće
+hu;Morzsahegy;Merhatovec
+ru;Медулин;Medulin
+sr;Меченчани;Mečenčani
+ru;Матули;Matulji
+hr;Matulini - Mattulini;Matulini
+hr;Materada - Matterada;Materada
+hr;Marušići - Marussici;Marušići
+hr;Martinac;Martinac Trojstveni
+hr;Donji Martijanec;Martijanec
+hr;D. Martijanec;Martijanec
+hu;Majorlak;Marof
+hr;Trojstveni Markovac;Markovac Trojstveni
+hr;Dubravski Markovac;Markovac Dubravski
+hr;Marijanci;Marjanci
+ru;Мариничи;Marinići
+ru;Марина;Marina
+hr;Sveta Marija na Krasu;Marija na Krasu
+hr;Sveta Marija na Krasu - Madonna del Carso;Marija na Krasu
+ru;Мария-Бистрица;Marija Bistrica
+ru;Марчели;Marčelji
+ro;Comuna Marčana;Marčana
+sr;Марчана;Marčana
+ru;Марчана;Marčana
+ru;Малинска;Malinska
+hr;Mali Modruš Potok;Mali Modrušpotok
+sr;Мали Лошињ;Mali Lošinj
+ru;Мали Лошинь;Mali Lošinj
+ckb;مالی لۆشینی;Mali Lošinj
+fa;مالی لشینی;Mali Lošinj
+ja;マリ・ロシニ;Mali Lošinj
+uk;Малі-Лошинь;Mali Lošinj
+zh;小洛希尼;Mali Lošinj
+hr;Maletići;Maletić
+hr;Čista Mala;Mala Čista
+hr;Mala Branjska;Mala Brajinska
+ru;Макарска;Makarska
+sr;Макарска;Makarska
+bg;Макарска;Makarska
+ckb;ماکارسکا;Makarska
+da;Makarska og Podgora;Makarska
+fa;ماکارسکا;Makarska
+ja;マカルスカ;Makarska
+mk;Макарска;Makarska
+uk;Макарська;Makarska
+zh;馬卡爾斯卡;Makarska
+hr;Majur;Majur Farkaševački
+hu;Miksavár;Macinec
+hr;Gornji Macelj;Gronji Macelj
+ru;Лупоглав;Lupoglav
+ru;Лумбарда;Lumbarda
+hr;Lukovo;Lukovo Lovrečko
+hr;Luka;Luka Vrbovečka
+hr;Lukač;Lukač Požeški
+ru;Лукач;Lukač
+ru;Лудбрег;Ludbreg
+ru;Лучко;Lučko
+hu;Lucs;Luč
+hr;Ložišća;Ložišće
+hr;Lovrečica - San Lorenzo;Lovrečica
+hr;Lovrečan;Lovrečan Podbelski
+hr;Sveti Lovreč Pazenatički;Sveti Lovreč
+ru;Ловреч;Lovreć
+ru;Ловран;Lovran
+ru;Ловас;Lovas
+ru;Лопуд;Lopud
+ru;Лопар;Lopar
+hr;Lokvičići;Lokvičič
+ru;Локве;Lokve
+cs;Lipovec;Ljudevit Selo
+hr;Livade - Levade;Livade
+hr;Lisičić;Lisičići
+hr;Lipovac Hrastinski;Lipovac
+sr;Липовача;Lipovača
+ru;Липик;Lipik
+ckb;لیپیک;Lipik
+fa;لیپیک;Lipik
+ja;リピク;Lipik
+sr;Липик;Lipik
+uk;Ліпік;Lipik
+zh;利皮克;Lipik
+hr;Lijevi Dubrovčak;Lijevi Dubravčak
+sr;Лијева Мартинска Вес;Martinska Ves
+hu;Lijeva Martinska Ves;Martinska Ves
+sr;Лепоглава;Lepoglava
+ckb;لێپۆگلاڤا;Lepoglava
+fa;لپگلاوا;Lepoglava
+uk;Лепоглава;Lepoglava
+ru;Лепоглава;Lepoglava
+zh;萊波格拉瓦;Lepoglava
+ru;Лекеник;Lekenik
+ru;Леград;Legrad
+hr;Ledenik Cesarički;Ledenik
+hr;Vasine Laze;Laze Vasine
+hr;Ćosine Laze;Laze Ćosine
+ru;Ластово;Lastovo
+ro;Comuna Lanišće;Lanišće
+sr;Ланишће;Lanišće
+ur;لانیشکی;Lanišće
+hr;Ladislav Sokolovački;Ladislav
+ru;Лабин;Labin
+sr;Лабин;Labin
+ckb;لابین;Labin
+fa;لابین;Labin
+uk;Лабін;Labin
+zh;拉賓;Labin
+ur;لابین;Labin
+ckb;کوتیێڤۆ;Kutjevo
+fa;کوتیوو;Kutjevo
+sr;Кутјево;Kutjevo
+uk;Кутєво;Kutjevo
+ru;Кутьево;Kutjevo
+zh;庫特耶沃;Kutjevo
+hr;Trnjanski Kuti;Kuti Trnjanski
+sr;Кутина;Kutina
+ru;Кутина;Kutina
+hr;Kupčina Žumberačka;Kupčina
+hr;Kućišta Cesarička;Kućišta
+hr;Kućibreg - Cucibrec;Kućibreg
+hr;Kuberton - Cuberton;Kuberton
+hr;Dicmo Krušvar;Krušvar
+ro;Comuna Kršan;Kršan
+sr;Кршан;Kršan
+ru;Кршан;Kršan
+ro;Comuna Krnjak;Krnjak
+sr;Крњак;Krnjak
+hr;Krmpotske Vodice;Krmpote-Vodice
+zh;克爾克;Krk
+uk;Крк;Krk
+sr;Крк;Krk
+ru;Крк;Krk
+fa;کرک;Krk
+hu;Muraszentkereszt;Križovec
+hr;Križ Hrastovački;Križ Hrastovički
+hu;Kőrös;Križevci
+mk;Крижевци;Križevci
+sr;Крижевци;Križevci
+uk;Крижевці;Križevci
+ru;Крижевцы;Križevci
+zh;克里熱夫齊;Križevci
+ko;크리제브치;Križevci
+hr;Sv. Križ;Sveti Križ
+hr;Krivaja Pustara;Krivaja
+hr;Križci;Krišci
+hr;Kričke;Kričke Zabrdske
+hr;Krčenik;Krčenik Moslavački
+ru;Краварско;Kravarsko
+hr;Krasno;Krasno Polje
+hr;Krasno {Krasno Polje};Krasno Polje
+hr;Krasica - Crassiza;Krasica
+ro;Comuna Krašić;Krašić
+sr;Крашић;Krašić
+ru;Крашич;Krašić
+ja;クラピナ;Krapina
+sr;Крапина;Krapina
+ru;Крапина;Krapina
+hr;Danilo Kraljice;Kraljice
+sr;Краљевица;Kraljevica
+bg;Кралевица;Kraljevica
+ckb;کرالێڤیتسا;Kraljevica
+fa;کرالیویتسا;Kraljevica
+uk;Кралєвіца;Kraljevica
+ru;Кралевица;Kraljevica
+zh;克拉列維察;Kraljevica
+hr;Kupinečki Kraljevec;Kraljevec Kupinečki
+hr;Kraljevac;Kraljevac Križevački
+hr;Slovinska Kovačica;Kovačica Slovinska
+hr;Kovačevac;Kovačevac Križevački
+hu;Kotor;Kotoriba
+ru;Коториба;Kotoriba
+ru;Кошуте;Košute
+ru;Кострена;Kostrena
+hr;Kostanjica - Castagna;Kostanjica
+hr;Kostanj;Kostanje
+ru;Хрватска Костайница;Hrvatska Kostajnica
+ckb;خرڤاتسکا کۆستاینیتسا;Hrvatska Kostajnica
+fa;خرواتسکا کستاینیتسا;Hrvatska Kostajnica
+ja;フルヴァツカ・コスタイニツァ;Hrvatska Kostajnica
+sr;Хрватска Костајница;Hrvatska Kostajnica
+uk;Хорватська Костайниця;Hrvatska Kostajnica
+zh;科斯塔伊尼察;Hrvatska Kostajnica
+ru;Кошка;Koška
+hr;Korog;Korođ
+ru;Корчула;Korčula
+sr;Корчула;Korčula
+hr;Koranski Lug;Lug Koranski
+hr;Rijeka Koprivnička;Koprivnička Rijeka
+hu;Kapronca;Koprivnica
+sr;Копривница;Koprivnica
+ar;كوبريفنيتسا;Koprivnica
+bg;Копривница;Koprivnica
+ce;Копривница;Koprivnica
+ckb;کۆپریڤنیتسا;Koprivnica
+fa;کپریونیتسا;Koprivnica
+ja;コプリヴニツァ;Koprivnica
+ko;코프리브니차;Koprivnica
+uk;Копривниця;Koprivnica
+ru;Копривница;Koprivnica
+zh;科普里夫尼察;Koprivnica
+ka;კოპრივნიცა;Koprivnica
+vep;Koprivnic;Koprivnica
+hr;Konšćica;Konjšćica
+hr;Komuševac;Komuševci
+sr;Комижа;Komiža
+ckb;کۆمیژا;Komiža
+fa;کمیژا;Komiža
+ja;コミジャ;Komiža
+uk;Коміжа;Komiža
+ru;Комижа;Komiža
+zh;科米扎;Komiža
+hr;Kometnik-Zubići;Kometnik
+hr;Kolarina;Kolarine
+ru;Колан;Kolan
+hu;Tinin;Knin
+sr;Книн;Knin
+bg;Книн;Knin
+fa;کنین;Knin
+ko;크닌;Knin
+os;Книн;Knin
+uk;Кнін;Knin
+sq;Knini;Knin
+ja;クニン;Knin
+mr;क्निन;Knin
+ckb;کنین;Knin
+ru;Книн;Knin
+zh;克宁;Knin
+ur;کنین;Knin
+ar;كنين;Knin
+hr;Kmeti - Metti;Kmeti
+hr;Ilovski Klokočevac;Klokočevac Ilovski
+ru;Клис;Klis
+ru;Кленовник;Klenovnik
+ckb;کلانیێتس;Klanjec
+fa;کلانیتس;Klanjec
+sr;Клањец;Klanjec
+uk;Кланєц;Klanjec
+ru;Кланец;Klanjec
+zh;克拉涅茨;Klanjec
+mk;Клањец;Klanjec
+ru;Клана;Klana
+ru;Клакар;Klakar
+hr;Kladnjice;Kladnice
+hr;Katun - Cattuni;Katun
+ru;Каштелир;Kaštelir
+hr;Kaštel - Castelvenere;Kaštel
+ru;Кастав;Kastav
+ckb;کاستاڤ;Kastav
+fa;کاستاو;Kastav
+ja;カスタヴ;Kastav
+sr;Кастав;Kastav
+uk;Кастав;Kastav
+zh;卡斯塔夫;Kastav
+ru;Кашина;Kašina
+hr;Kršete;Karšete
+hr;Kršete - Carsette;Karšete
+ru;Каройба;Karojba
+ru;Карлобаг;Karlobag
+ru;Каптол;Kaptol
+ru;Капела;Kapela
+ru;Канфанар;Kanfanar
+ro;Comuna Kanfanar;Kanfanar
+sr;Канфанар;Kanfanar
+ru;Камане;Kamanje
+ru;Калник;Kalnik
+ru;Кали;Kali
+hr;Kaldanija - Caldanìa;Kaldanija
+hr;Juricani - Giurizzani;Juricani
+ru;Йосипдол;Josipdol
+hr;Jošani;Jošan
+hr;Johovec;Johovac
+hr;Jezero I Dio;Jezero
+hr;Jasenice;Jesenice
+ro;Comuna Jelsa;Jelsa
+sr;Јелса;Jelsa
+uk;Єлса;Jelsa
+sk;Jelisavec;Jelisavac
+sr;Јастребарско;Jastrebarsko
+fa;یاستربارسکو;Jastrebarsko
+uk;Ястребарско;Jastrebarsko
+ckb;یاسترێبارسکۆ;Jastrebarsko
+ru;Ястребарско;Jastrebarsko
+zh;亞斯特雷巴斯科;Jastrebarsko
+ur;جستربرسکو;Jastrebarsko
+hr;Jasenovica - Frassineto;Jasenovica
+ja;ヤセノヴァツ;Jasenovac
+sr;Јасеновац;Jasenovac
+uk;Ясеновац;Jasenovac
+ur;جسنوواک، سسک-موسلونا کاؤنٹی;Jasenovac
+ru;Ясеновац;Jasenovac
+zh;亚塞诺瓦茨;Jasenovac
+hu;Erzsébetlak;Jalšovec
+hr;Jakopovac;Jakopovac Kapelski
+hr;Jakići Gorinji;Jakići
+hr;Jakići Gorinji - Iachici;Jakići
+ru;Иванска;Ivanska
+hr;Ivanovci;Ivanovci Požeški
+ru;Иванково;Ivankovo
+ckb;ئیڤانیچ-گراد;Ivanić-Grad
+fa;ایوانیچ-گراد;Ivanić-Grad
+sr;Иванић-Град;Ivanić-Grad
+uk;Іванич-Град;Ivanić-Grad
+ru;Иванич-Град;Ivanić-Grad
+zh;伊萬尼奇格勒;Ivanić-Grad
+hr;Ivanec Križevački;Ivanec Vojakovački
+ckb;ئیڤانێتس;Ivanec
+fa;ایوانتس;Ivanec
+sr;Иванец;Ivanec
+uk;Іванець;Ivanec
+ru;Иванец;Ivanec
+zh;伊萬內茨;Ivanec
+sr;Имотски;Imotski
+ckb;ئیمۆتسکی;Imotski
+fa;ایمتسکی;Imotski
+ja;イモツキ;Imotski
+uk;Імотський;Imotski
+ru;Имотски;Imotski
+zh;伊莫茨基;Imotski
+ar;إيموتسكي;Imotski
+hr;Imbriovec Jalžabetski;Imbrijovec Jalžabetski
+hr;Imbriovec;Imbrijovec
+hr;Imrijevci;Imbrijevci
+hu;Újlak;Ilok
+sr;Илок;Ilok
+ckb;ئیلۆک;Ilok
+fa;ایلک;Ilok
+ja;イロク;Ilok
+uk;Ілок;Ilok
+ru;Илок;Ilok
+zh;伊洛克;Ilok
+he;אילוק;Ilok
+ru;Игране;Igrane
+ru;Хвар;Hvar
+ru;Хум;Hum
+hr;Čuntić Hrvatski;Hrvatski Čuntić
+hr;Hrvatski Blagaj;Blagaj
+ru;Хрелин;Hreljin
+ru;Хорвати;Horvati
+ru;Ходошан;Hodošan
+ru;Хлебине;Hlebine
+hu;Lapány;Hlapičina
+hr;Sveta Helena;Helena
+ckb;گروبیشنۆ پۆلێ;Grubišno Polje
+fa;گروبیشنو پلیه;Grubišno Polje
+sr;Грубишно Поље;Grubišno Polje
+uk;Грубішно-Полє;Grubišno Polje
+ru;Грубишно-Поле;Grubišno Polje
+zh;格魯比什諾波列;Grubišno Polje
+ru;Грожнян;Grožnjan
+hr;Grožnjan - Grisignana;Grožnjan
+ru;Грохоте;Grohote
+hr;Grobnik;Gromnik
+hu;Göröghegy;Grkaveščak
+hr;Grižane-Belgrad;Grižane
+hr;Gredice;Donje Gredice
+hr;Greda;Greda Peskovečka
+hr;Greda;Greda Maruševečka
+hr;Gradište;Gradište Bekteško
+ru;Градиште;Gradište
+hr;Gradinje - Gradigne;Gradinje
+hr;Gradina;Gradine
+ru;Градичи;Gradići
+ro;Comuna Gradec;Gradec
+sq;Gradeci;Gradec
+sr;Градец;Gradec
+ru;Градец;Gradec
+hr;Gradec Pokupski;Gradac
+hr;Gračanica Šišinečka;Gračanica
+sr;Грачац;Gračac
+ru;Грачац;Gračac
+hr;Grabarje;Grabarje Brodsko
+ru;Госпич;Gospić
+sr;Госпић;Gospić
+ar;غوسبيتش;Gospić
+ce;Госпич;Gospić
+ckb;گۆسپیچ;Gospić
+fa;گسپیچ;Gospić
+ja;ゴスピッチ;Gospić
+ko;고스피치;Gospić
+lt;Gospičius;Gospić
+uk;Госпич;Gospić
+zh;戈斯皮奇;Gospić
+ka;გოსპიჩი;Gospić
+ur;گوسپیچ;Gospić
+hr;Goruševnjak;Gorušenjak
+hr;G. Zebanec;Gornji Zebanec
+hu;Felsőhideghegy;Gornji Zebanec
+sr;Горњи Варош;Gornji Varoš
+hr;Seget Gornji;Gornji Seget
+hr;G. Mihaljevec;Gornji Mihaljevec
+hr;Gornji Maslarac;Gornji Maslarec
+hr;Gornji Kućan;Kućan Gornji
+hr;Križ Gornji;Gornji Križ
+hr;Kraj Gornji;Gornji Kraj
+hu;Felsővéghegy;Gornji Koncovčak
+hr;G. Koncovčak;Gornji Koncovčak
+hr;G. Hrašćan;Gornji Hrašćan
+cs;Horní Daruvar;Gornji Daruvar
+hr;Sredice Gornje;Gornje Sredice
+hr;Gornji Rogolji;Gornje Rogolje
+ro;Comuna Gornja Stubica;Gornja Stubica
+sr;Горња Стубица;Gornja Stubica
+uk;Горня Стубиця;Gornja Stubica
+ru;Горня-Стубица;Gornja Stubica
+hr;Nugla;Gornja Nugla
+hr;Glavnica Gornja;Gornja Glavnica
+hu;Muracsány;Goričan
+ru;Горичан;Goričan
+sr;Голубић;Golubić
+ru;Гола;Gola
+hr;Glinice;Glinica
+hr;Veljunska Glina;Glina Veljunska
+ckb;گلینا;Glina
+fa;گلینا;Glina
+sr;Глина;Glina
+uk;Ґліна;Glina
+ru;Глина;Glina
+zh;格利納;Glina
+sr;Генералски Стол;Generalski Stol
+ru;Генералски Стол;Generalski Stol
+ckb;گارێشنیتسا;Garešnica
+fa;گارشنیتسا;Garešnica
+ja;ガレシュニツァ;Garešnica
+sr;Гарешница;Garešnica
+uk;Гарешниця;Garešnica
+ru;Гарешница;Garešnica
+zh;加雷什尼察;Garešnica
+ru;Гарчин;Garčin
+hr;Gamboci - Gambozzi;Gamboci
+ru;Галижана;Galižana
+hr;Gaj;Gaj Vrbovečki
+ru;Фужине;Fužine
+hr;Fuškulin - Foscolino;Fuškulin
+ru;Фунтана;Funtana
+hr;Fiorini - Fiorini;Fiorini
+ru;Фажана;Fažana
+hr;Dvorišće;Dvorišće Rakovečko
+hr;Dvorište Vivodinsko;Dvorišće
+ja;ドヴォル;Dvor
+ru;Двор;Dvor
+hr;Dunave;Dunave Krajnje
+ckb;دوگۆ سێلۆ;Dugo Selo
+fa;دوگو سلو;Dugo Selo
+sr;Дуго Село;Dugo Selo
+uk;Дуго-Село;Dugo Selo
+ru;Дуго-Село;Dugo Selo
+zh;杜戈村;Dugo Selo
+ru;Дугополе;Dugopolje
+ckb;دوگا ڕێسا;Duga Resa
+fa;دوگا رسا;Duga Resa
+sr;Дуга Реса;Duga Resa
+uk;Дуга Реса;Duga Resa
+ru;Дуга-Реса;Duga Resa
+zh;杜加雷薩;Duga Resa
+bg;Дубровник;Dubrovnik
+ja;ドゥブロヴニク;Dubrovnik
+lt;Dubrovnikas;Dubrovnik
+pl;Dubrownik;Dubrovnik
+ru;Дубровник;Dubrovnik
+sr;Дубровник;Dubrovnik
+zh;杜布羅夫尼克;Dubrovnik
+be;Дуброўнік;Dubrovnik
+he;דוברובניק;Dubrovnik
+hr;Dubravčani;Dubrovčani
+hr;Dubrava kod Šibenika;Dubrava
+ru;Дубрава;Dubrava
+hr;Dubrava kod Tisna;Dubrava
+hr;Duba Pelješka;Duba
+ru;Дрне;Drnje
+sr;Дрниш;Drniš
+ckb;درنیش;Drniš
+fa;درنیش;Drniš
+uk;Дрніш;Drniš
+ru;Дрниш;Drniš
+zh;德爾尼什;Drniš
+hr;Drenovac Banski;Drenovac
+ru;Дрене;Drenje
+hr;Draga;Draga Požeška
+hr;Draganić;Draganići
+ru;Драганичи;Draganići
+ru;Драгалич;Dragalić
+hr;Dračevac - Monspinoso;Dračevac
+hr;D. Zebanec;Donji Zebanec
+hu;Alsóhideghegy;Donji Zebanec
+hr;Seget Donji;Donji Seget
+hr;Rebić;Donji Rebić
+hr;Mekinjar;Donji Mekinjar
+hr;Donji Maslarac;Donji Maslarec
+hu;Murakirály;Donji Kraljevec
+hr;Kraj Donji;Donji Kraj
+hu;Alsóvéghegy;Donji Koncovčak
+hr;D. Koncovčak;Donji Koncovčak
+cs;Dolní Daruvar;Donji Daruvar
+hr;Donje Zdjelice;Donje Zdelice
+hr;Donje Selo;Donje Selo na Šolti
+hr;Rašćane;Donje Rašćane
+hr;Donje Bazije;Donje Bazje
+ckb;دۆنیا ستوبیتسا;Donja Stubica
+fa;دنیا ستوبیتسا;Donja Stubica
+mhr;Донья-Стубица;Donja Stubica
+sr;Доња Стубица;Donja Stubica
+uk;Доня Стубиця;Donja Stubica
+ru;Доня-Стубица;Donja Stubica
+zh;下斯图比察;Donja Stubica
+hu;Alsódomboru;Donja Dubrava
+ru;Брела;Brela
+hu;Damása;Domašinec
+hr;Domankuš;Domanjkuš
+cs;Dolany;Doljani
+ru;Добродол;Dobrodol
+ru;Добринь;Dobrinj
+sr;Десинић;Desinić
+ru;Десинич;Desinić
+ro;Comuna Desinić;Desinić
+ckb;دێلنیتسێ;Delnice
+fa;دلنیتسه;Delnice
+sr;Делнице;Delnice
+uk;Делніце;Delnice
+ru;Делнице;Delnice
+zh;代爾尼采;Delnice
+hr;Ðeletovci;Đeletovci
+ru;Давор;Davor
+sr;Дарувар;Daruvar
+ckb;داروڤار;Daruvar
+fa;دارووار;Daruvar
+uk;Дарувар;Daruvar
+ru;Дарувар;Daruvar
+zh;達魯瓦爾;Daruvar
+he;דארובאר;Daruvar
+mk;Дарувар;Daruvar
+sr;Дарда;Darda
+ru;Дарда;Darda
+sr;Даљ;Dalj
+zh;達利;Dalj
+hu;Diakovár;Đakovo
+ru;Джяково;Đakovo
+sr;Ђаково;Đakovo
+bg;Джаково;Đakovo
+ckb;داکۆڤۆ;Đakovo
+fa;جاکوو;Đakovo
+he;גקובו;Đakovo
+ja;ジャコヴォ;Đakovo
+ko;자코보;Đakovo
+lt;Džakovas;Đakovo
+uk;Джаково;Đakovo
+zh;賈科沃;Đakovo
+hr;Dajla - Daila;Dajla
+hr;Červar;Červar - Cervera
+hr;Pribić Crkveni;Crkveni Pribić
+ru;Цриквеница;Crikvenica
+sr;Цриквеница;Crikvenica
+ckb;تسریکڤێنیتسا;Crikvenica
+fa;تسریکونیتسا;Crikvenica
+uk;Цриквениця;Crikvenica
+zh;茨里克韋尼察;Crikvenica
+ru;Црес;Cres
+sr;Црес;Cres
+el;Κρες;Cres
+et;Cresi saar;Cres
+he;צרס;Cres
+ja;ツレス島;Cres
+uk;Црес;Cres
+zh;茨雷斯島;Cres
+ar;كريس;Cres
+be;Востраў Црэс;Cres
+ka;ცრესი;Cres
+lv;Cresa;Cres
+mk;Црес;Cres
+hr;Ćosinac;Ćošinci
+ro;Comuna Cetingrad;Cetingrad
+sr;Цетинград;Cetingrad
+ru;Цетинград;Cetingrad
+hr;Cerje;Cerje Vrbovečko
+hr;Cerje Samoborsko;Cerje
+hr;Čepljani - Ceppiani;Čepljani
+hu;Csepin;Čepin
+ru;Чепин;Čepin
+hr;Čepić - Ceppich;Čepić
+hr;Purgarija Čepić;Pulgarija Čepić
+sr;Чеминац;Čeminac
+hu;Laskafalu;Čeminac
+ru;Чеминац;Čeminac
+hu;Csázma;Čazma
+sr;Чазма;Čazma
+ckb;چازما;Čazma
+fa;چازما;Čazma
+ja;チャズマ;Čazma
+uk;Чазма;Čazma
+ru;Чазма;Čazma
+zh;察茲馬;Čazma
+mk;Чазма;Čazma
+ru;Цавтат;Cavtat
+bg;Цавтат;Cavtat
+ja;ツァヴタット;Cavtat
+sr;Цавтат;Cavtat
+uk;Цавтат;Cavtat
+ru;Чавле;Čavle
+hu;Csáktornya;Čakovec
+sr;Чаковец;Čakovec
+ko;차코베츠;Čakovec
+ckb;چاکۆڤێتس;Čakovec
+ar;تشاكوفيتش;Čakovec
+lt;Čakovecas;Čakovec
+ja;チャコヴェツ;Čakovec
+uk;Чаковец;Čakovec
+fa;چاکوتس;Čakovec
+ru;Чаковец;Čakovec
+zh;查科韋茨;Čakovec
+ce;Чаковец;Čakovec
+be;Чакавец;Čakovec
+ka;ჩაკოვეცი;Čakovec
+ur;چاکووتس;Čakovec
+he;צ'אקובץ;Čakovec
+az;Çakovets;Čakovec
+hu;Csákovác;Čakovci
+hu;Cseglény;Čaglin
+ro;Comuna Čaglin;Čaglin
+sr;Чаглин;Čaglin
+ru;Чаглин;Čaglin
+ckb;چابار;Čabar
+fa;چابار;Čabar
+sr;Чабар;Čabar
+uk;Чабар;Čabar
+ru;Чабар;Čabar
+zh;查巴爾;Čabar
+hr;Bužinija - Businìa;Bužinija
+ru;Бузин;Buzin
+ru;Бузет;Buzet
+ckb;بوزێت;Buzet
+fa;بوزت;Buzet
+hy;Բուզետ;Buzet
+ja;ブゼト;Buzet
+sr;Бузет;Buzet
+uk;Бузет;Buzet
+zh;布澤特;Buzet
+hr;Buroli - Buroli;Buroli
+hr;Bukvik;Bukvik-Blatni Lug
+ru;Буковле;Bukovlje
+hr;Bukovica;Bukovica Čemernička
+hr;Bukovac Svetojanski;Bukovac
+sr;Бује;Buje
+ckb;بویێ;Buje
+fa;بویه;Buje
+ja;ブイェ;Buje
+uk;Бує;Buje
+ru;Буе;Buje
+zh;布耶;Buje
+hr;Buje - Buie;Buje
+ru;Будиншчина;Budinšćina
+ru;Будашево;Budaševo
+hr;Brtonigla - Verteneglio;Brtonigla
+ru;Бртонигла;Brtonigla
+hr;Brodski Drenovac;Drenovac
+ro;Comuna Brod Moravice;Brod Moravice
+sr;Брод Моравице;Brod Moravice
+ru;Брод-Моравице;Brod Moravice
+ru;Брназе;Brnaze
+hr;Brištani;Brištane
+ru;Брине;Brinje
+ru;Брибир;Bribir
+hr;Brezovljani Vojlovički;Brezovljani
+hr;Brezovac;Brezovac Subocki
+hr;Brezje;Brezje Dubravsko
+hr;Brest;Brest Pokupski
+hu;Brestovac Pozaski;Brestovac
+ro;Comuna Brestovac;Brestovac
+sr;Брестовац;Brestovac
+ru;Брестовац;Brestovac
+hr;Daruvarski Brestovac;Brestovac Daruvarski
+hr;Brest Pod Učkom;Brest
+ru;Брегана;Bregana
+hr;Brdo Utinjsko;Brdo
+hr;Bastajski Brđani;Brđani Bastajski
+hr;Požeški Brđani;Brđani
+hr;Brdo - Berda;Brdo
+hr;Bratovići - Bratovici;Bratovići
+hr;Bratiškovci;Bratiškovici
+sr;Брањин Врх;Branjin Vrh
+hr;Bosiljevo;Bosiljevo Česmansko
+hu;Bosiljevo Čazmansko;Bosiljevo
+ro;Comuna Bosiljevo;Bosiljevo
+sr;Босиљево;Bosiljevo
+sr;Боројевићи;Borojevići
+ro;Comuna Bol;Bol
+sr;Бол;Bol
+uk;Бол;Bol
+ru;Бол;Bol
+hr;Bok;Bok Palanječki
+hr;Bockovac;Bockovci
+hr;Bobovišća;Bobovišće
+ru;Бобота;Bobota
+ru;Блато;Blato
+hu;Belovár;Bjelovar
+ru;Беловар;Bjelovar
+ar;بيلوفار;Bjelovar
+bg;Беловар;Bjelovar
+ce;Беловар;Bjelovar
+ckb;بیێلۆڤار;Bjelovar
+fa;بیلوار;Bjelovar
+hy;Բելովար;Bjelovar
+ja;ビェロヴァル;Bjelovar
+ko;벨로바르;Bjelovar
+lt;Bjelovaras;Bjelovar
+sr;Бјеловар;Bjelovar
+uk;Беловар;Bjelovar
+zh;别洛瓦尔;Bjelovar
+he;ביילובאר;Bjelovar
+ka;ბელოვარი;Bjelovar
+mk;Бјеловар;Bjelovar
+ur;بیئلووار;Bjelovar
+ru;Бьеловар;Bjelovar
+ro;Биоград на Мору;Biograd na Moru
+ru;Биоград-на-Мору;Biograd na Moru
+sr;Биоград на Мору;Biograd na Moru
+ckb;بیۆگراد نا مۆرو;Biograd na Moru
+fa;بیوگراد نا مرو;Biograd na Moru
+hy;Բիոգրադ նա Մորու;Biograd na Moru
+ja;ビオグラード・ナ・モル;Biograd na Moru
+uk;Біоград-на-Мору;Biograd na Moru
+ur;بیوگراد نا مورو;Biograd na Moru
+zh;比奧格勒納莫魯;Biograd na Moru
+ru;Биле;Bilje
+ru;Бибине;Bibinje
+ru;Берек;Berek
+hr;Benkovac;Benkovac Okučanski
+ckb;بنکۆڤاتس;Benkovac
+fa;بنکوواتس;Benkovac
+hy;Բենկովաց;Benkovac
+ja;ベンコヴァツ;Benkovac
+sr;Бенковац;Benkovac
+uk;Бенковац;Benkovac
+ru;Бенковац;Benkovac
+zh;本科瓦茨;Benkovac
+hr;Bencani - Benzani;Bencani
+ru;Беловар;Belovar
+ro;Белишче;Belišće
+sr;Белишће;Belišće
+ckb;بێلیشچێ;Belišće
+fa;بلیشچه;Belišće
+hu;Belistye;Belišće
+hy;Բելիշցե;Belišće
+uk;Беліще;Belišće
+ru;Белишче;Belišće
+zh;貝利什切;Belišće
+hu;Pélmonostor;Beli Manastir
+ro;Бели Манастир;Beli Manastir
+sr;Бели Манастир;Beli Manastir
+ckb;بێلی ماناستیر;Beli Manastir
+fa;بلی ماناستیر;Beli Manastir
+hy;Բելի Մանաստիր;Beli Manastir
+uk;Белі Манастір;Beli Manastir
+ru;Бели-Манастир;Beli Manastir
+zh;貝利馬納斯蒂爾;Beli Manastir
+hr;Begovac;Begovac Plaščanski
+ro;Comuna Bednja;Bednja
+sr;Бедња;Bednja
+ru;Бедня;Bednja
+ru;Бедековчина;Bedekovčina
+ru;Бебрина;Bebrina
+hr;Batinske;Batinska
+hr;Batinjani;Batinjani Podborski
+hr;Batinjani;Batinjani Pakrački
+ru;Башка-Вода;Baška Voda
+ru;Башка;Baška
+hr;Bašanija - Bassania;Bašanija
+hr;Barušići;Barušić
+ro;Comuna Barilović;Barilović
+sr;Бариловић;Barilović
+ru;Барилович;Barilović
+hr;Baredine - Baredine;Baredine
+ru;Барбат;Barbat
+ro;Comuna Barban;Barban
+sr;Барбан;Barban
+ru;Барбан;Barban
+hr;Barat;Baratto
+hr;Bansko Vrpolje;Vrpolje Bansko
+ru;Баньол;Banjol
+hr;Baničevec;Baničevec Rakovečki
+ru;Бале;Bale
+ro;Бакар;Bakar
+sr;Бакар;Bakar
+ckb;باکار;Bakar
+fa;باکار;Bakar
+hy;Բակար;Bakar
+uk;Бакар;Bakar
+ru;Бакар;Bakar
+zh;巴卡爾;Bakar
+he;באקאר;Bakar
+hr;Baderna - Mompaderno;Baderna
+hr;Babinac;Babinac Ivanski
+hr;Antonci - Antonzi;Antonci
+hr;Antenal - Antenal;Antenal
+hr;Antunovac;Aleksandrovac Požeški
+ru;Млиниште;Mlinište
+hr;Zamaslina;Zamasline
+ru;Новаки;Novaki
+hr;Maljevačko Selište;Selište
+hr;Bezavina;Bezovina
+hr;Veljun Primorski;Veljun
+hr;Sabljaki Modruški;Sabljaki
+hr;Crni Potok;Crni Potok Brodski
+hr;Kaldrma;Lička-Kaldrma
+sr;Доњи Вињани;Donji Vinjani
+uk;Доні Виняни;Donji Vinjani
+ru;Дони Виняни;Donji Vinjani
+hr;Vanići;Vanjići
+hr;Mlinari;Mlinari Vučinci
+hr;Tomići;Tomić Draga
+hr;Dubovac;Dubovac Okučanski
+hr;Novo Selo Bosiljevsko;Novo Selo
+ro;Comuna Netretić;Netretić
+sr;Нетретић;Netretić
+ru;Нетретич;Netretić
+hr;Donje Mrzlo Polje Mrežničko;Donje Mrzlo Polje
+sr;Грабово;Grabovo
+hr;Brođani;Brodani
+hr;Podgrađe;Podgradje
+hr;Štifanići - Stifanici;Stifanići
+ru;Липовляни;Lipovljani
+hr;Cernička Šagovina;Šagovina-Cernička
+hr;Velika Veternička;Veternička Velika
+ru;Лобор;Lobor
+ru;Преко;Preko
+hr;Rajsavac;Rajsavci
+hr;Brestovec Orehovički;Brestovec
+hr;Pobrđani Vojakovački;Pobrdani
+hr;Draganovec;Draganovac
+ru;Стариград;Starigrad
+hr;Grbaševec;Grbaševac
+hr;Vlaislav;Vlaistav
+hr;Bibali - Bibali;Bibali
+hr;Dubrava Križovljanska;Dubrava
+hr;Makovci - Macovzi;Makovci
+hr;Grgurice;Grgurica
+hr;Krneza;Krneša
+hr;Vrbovečki Pavlovec;Pavlovec Vrbovecki
+ru;Фаркашевац;Farkaševac
+sr;Нин;Nin
+ckb;نین;Nin
+fa;نین، کرواسی;Nin
+ja;ニン;Nin
+mk;Нин;Nin
+uk;Нін;Nin
+ur;نین;Nin
+ru;Нин;Nin
+zh;寧;Nin
+hr;Žiroslavlje;Žiroslavlie
+hr;Stara Vas;Stari Vas
+hr;Cerovac;Cerovac Bruvanjski
+hr;Drvenik Mali;Mali Drvenik
+hr;Breštani;Breštane
+hr;Novoselo Trnovačko;Novoselo
+hr;Kaniža Gospićka;Kaniža
+hr;Pavković Selo;Pavkovići
+hr;Male Srakane;Srakane Male
+hr;Donji Štrbci;Donji Štrpci
+hr;Prkos Lasinjski;Prkos
+hr;Popovača Pazariška;Popovača
+hr;Kompolje Koreničko;Kompolje
+hr;Oborovo Bistransko;Oborovo
+ru;Кампор;Kampor
+hr;Brajdić Selo;Brajdići
+hr;Novo Selo;Slunj Novo Selo
+hr;Završje;Završje Požeško
+hr;Ivandol;Ivan-Dol
+hr;Marindvor;Marin Dvor
+hr;Bankovci;Bankovci Požeški
+hr;Krivaj;Krivaja Požeška
+hr;Markovac;Markovac Požeški
+hr;Potočani;Potočani Požeški
+hr;Šušnjari;Šušnjari Kamenski
+hr;Klisa;Klisa Požeška
+hr;Trnovac;Trnovac Požeški
+hr;Viškovci;Viskovci-Požeški
+hr;Resnik;Resnik Požeški
+hr;Bresnica;Bresnica Požeška
+hr;Novoselci;Novoselci Jakšićki
+hr;Lakušija;Lakušije
+hr;Cerovac;Cerovac Jakšićki
+hr;Nova Lipovica;Nova Lipa
+hr;Ovčare;Ovčara
+hr;Mitrovac;Gornji Mitrovac
+hr;Blažević Dol;Blaževića Dol
+hr;Mlaka Antinska;Velika Mlaka
+hr;Borovo Selo;Borovo
+sr;Борово;Borovo
+sr;Борово село;Borovo
+ru;Борово;Borovo
+hr;Vodovadja;Vodovođa
+hr;Gornja Vodovođa;Vodovođa
+hr;Vodovađa;Vodovođa
+hr;Šilješki;Šilješci
+ru;Чилипи;Čilipi
+hr;Gornji Štrbci;Gornji Štrpci
+hr;Bukovac Perušićki;Bukovac
+hr;Gradina Korenička;Gradina
+hr;Selište Drežničko;Selište
+hr;Selo Korana;Korana
+hr;Gubavčevo Polje;Grubačevo Polje
+hr;Drakulić Rijeka;Drakulića Rijeka
+hr;Rakovičko Selište;Selište
+hr;Lipovac;Gornji Lipovac
+hr;Potkonje;Podkonje
+hr;Čukur;Veliki Čukur
+hr;Selište Kostajničko;Selišće Kostajničko
+hr;Drenovac Osredački;Drenovac
+hr;Šiljkovača;Gornja Šiljkovača
+hr;Budimiri;Budimir
+hr;Bilo;Bilo Cetinsko
+hr;Zrinska Draga;Draga
+ru;Камен;Kamen
+ru;Кучине;Kučine
+hr;Biokovsko Selo;Vranješi
+hr;Buinja;Bujinja
+ru;Каменмост;Kamenmost
+hr;Lađevačko Selište;Selište Lađevačko
+hr;Gornji Popovac;Gonji Popovac
+ru;Греда;Greda
+sr;Грабовци;Grabovci
+ru;Грабовци;Grabovci
+hr;Višnjica;Gornja Višnjica
+hr;Stanić Polje;Stanića Polje
+hr;Grobnik;Grobnik Veljunski
+ro;Comuna Slivno;Slivno
+sr;Сливно;Slivno
+ru;Сливно;Slivno
+hr;Martinovci;Savski Bok
+hr;Pižinovac;Pižnovac
+ru;Влака;Vlaka
+sr;Vilak);Bair
+hr;Šarić Struga;Šarića Struga
+sr;Ораховље;Orahovlje
+hr;Podmelnica;Slunj Podmelnica
+hr;Kuzminec;Kuzminec-Veternički
+hr;Montižana - Montisana;Montižana
+hr;Bonaci - Bonazzi;Bonaci
+hr;Križanci;Križanici
+hr;Karigador - Carigador;Karigador
+hr;Crveni Vrh - Monte Rosso;Crveni Vrh
+hr;Murine - Morno;Murine
+hr;Babići - Babici;Babići
+hr;Plovanija - Plovanìa;Plovanija
+hr;Bijele Zemlje - Terre Bianche;Bijele Zemlje
+hr;Strpačići;Sterpazzi
+hr;Sovišćina;Bartolići
+hr;Sveti Ivan - San Giovanni;Sveti Ivan
+hu;Károlyváros;Karlovac
+bg;Карловац;Karlovac
+uk;Карловац;Karlovac
+lt;Karlovacas;Karlovac
+ko;카를로바츠;Karlovac
+ja;カルロヴァツ;Karlovac
+fa;کارلواتس;Karlovac
+sk;Karlovec;Karlovac
+ar;كارلوفاتش;Karlovac
+sl;Karlovec;Karlovac
+ckb;کارلۆڤاتس;Karlovac
+sr;Карловац;Karlovac
+ru;Карловац;Karlovac
+zh;卡爾洛瓦茨;Karlovac
+ce;Карловац;Karlovac
+ka;კარლოვაცი;Karlovac
+mk;Карловац;Karlovac
+tt;Карловац;Karlovac
+ur;کارلوواتس;Karlovac
+ru;Помена;Pomena
+ru;Драмаль;Dramalj
+ru;Вишково;Viškovo
+el;Σόλτα;Šolta
+ja;ショルタ島;Šolta
+sr;Шолта;Šolta
+uk;Шолта;Šolta
+ru;Шолта;Šolta
+zh;紹爾塔島;Šolta
+hr;Križine - Crisine;Križine
+hr;Podstrana – Grljevac;Grljevac
+hr;Podstrana - Grljevac;Grljevac
+hr;Kanegra - Canegra;Kanegra
+sr;Плитвичка Језера;Plitvička Jezera
+uk;Плитвицька Єзера;Plitvička Jezera
+hr;Finida - Finida;Finida
+hr;Mareda - Mareda;Mareda
+ru;Валбандон;Valbandon
+hr;Benčani;Benzani
+ru;Палит;Palit
+hr;Duga Luka;Duga Luka (Prtlog)
+hr;Stranići kod Nove Vasi;Stranići
+hr;Sveti Bartul;Sveti Bartol
+hr;Pavja Luka;Pavija Luka
+hr;Bašarinka - Balzarini;Bašarinka
+hu;Szentmargithegy;Kapelščak
+hr;Sveta Margeta;Kapelščak
+hu;Bánfihegy;Banfi
+hu;Vashegy;Železna Gora
+ru;Параг;Parag
+hu;Ormos;Vrhovljan
+hu;Hétház;Čestijanec
+hr;Toplice Sv. Martin;Toplice Sveti Martin
+hr;Vučkovec;Toplice Sveti Martin
+hu;Bucskovec;Toplice Sveti Martin
+hu;Bükkösd;Bukovec
+hu;Faluhegy;Zaveščak
+hu;Kopaszhegy;Plešivica
+hu;Békásd;Žabnik
+hu;Farkashegy;Vukanovec
+hr;M. Mihaljevec;Mali Mihaljevec
+hr;G. Kuršanec;Gornji Kuršanec
+hr;Donji Nikšić;Nikšić
+hr;Prokljuvani;Prokuvljani
+ru;Сроки;Sroki
+ru;Саршони;Saršoni
+ru;Младеничи;Mladenići
+hr;Podstrana – Miljevac;Podstrana - Miljevac
+hr;Podstrana – Žminjača;Podstrana - Žminjača
+hr;Podstrana – Sv. Martin;Podstrana – Sveti Martin
+hr;Podstrana - Sv. Martin;Podstrana – Sveti Martin
+hr;Podstrana – Grbavac;Podstrana - Grbavac
+hr;Podstrana – Strožanac Gornji;Podstrana - Strožanac Gornji
+sr;Шећерана;Šećerana
+hu;Cukorgyár;Šećerana
+hr;Gornje Mrzlo Polje Mrežničko;Gornje Mrzlo Polje
+sr;Грабово-део;Grabovo-dio
+hr;Grabovo – dio (Ovčara, Jakobovac);Grabovo-dio
+hr;Grabovo - dio (Ovčara, Jakobovac);Grabovo-dio
+hr;Vugrovec Donji;Vugrovec
+hr;Sveti Đurađ;Sveti Djuradj
+hr;Kućeli;Kućeli-gornji
+hr;Đuba;Djuba
+hr;Đuba – Giubba;Djuba
+hr;Vardica - Vardiza;Vardica
+hr;Monterol - Monterol;Monterol
+hr;Katoro - Catoro;Katoro
+hr;Stancija Vodopija - Stanzia Bevilacqua;Stancija Vodopija
+hr;Garbina - Garbina;Garbina
+hr;Čuši - Ciussi;Čuši
+hr;Šušnjići - Susnici;Šušnjići
+hr;Rakovci - Racovaz;Rakovci
+hr;Banki - Banchi;Banki
+hr;Starići - Starici;Starići
+hr;Šeraje - Seraie;Šeraje
+hr;Lozari - Lozari;Lozari
+hr;Brič - Briz;Brič
+hr;Martinčići - Martincici;Martinčići
+hr;Donja Podgora;Donja_Podgora
+hr;Novi Đurđic;Novi Djurdjic
+hr;Đivan;Djivan
+hr;Klupci – dio;Klupci
+hr;Klupci - dio;Klupci
+hr;Donja Batina – dio (217 – 258);Donja Batina - dio
+hr;Donja Batina - dio (217 – 258);Donja Batina - dio
+hr;Donji Sušobreg;Sušobreg - dio
+hr;Sušobreg – dio (Donji Sušobreg);Sušobreg - dio
+hr;Sušobreg - dio (Donji Sušobreg);Sušobreg - dio
+ru;Нагличи;Naglići
+ru;Долуш;Doluš
+ru;Горняки;Gornjaki
+hr;Balići I;Balići
+ru;Бродич;Brodić
+ru;Подребар;Podrebar
+hr;Donji Okrug;Mjesto Donji Okrug
+hr;Vižintini - Visintini;Vižintini
+hr;Šorgi - Sorghi;Šorgi
+hr;Sveta Lucija - Santa Lucia;Sveta Lucija
+hr;Vižintini Vrhi - Visintini Monti;Vižintini Vrhi
+hr;Ipši - Ipsi;Ipši
+hr;Golubići - Golobici;Golubići
+hr;Žnjidarići - Snidarici;Žnjidarići
+hr;Krajići - Craici;Krajići
+hr;Pirelići - Perelici;Pirelići
+hr;Martinska Ves;Martinjska Ves
+hr;Gornje Zagorje;Gornje_Zagorje
+hr;Krvavac 2;Krvavac II
+hr;Zorkovac;Zorkovac_
+hr;Jurići - Iurici;Jurići
+hr;Rupeni - Rupena;Rupeni
+hr;Podstrana – Mutogras;Podstrana - Mutogras
+hr;Podstrana – Sita;Podstrana - Sita
+hr;Sveta Marija na Krasu - Madonna del Carso;Sveta Marija na Krasu
+ru;Либерполис;Liberpolis

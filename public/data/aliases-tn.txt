@@ -286,3 +286,523 @@ en;Kerkennah;Qarqannah
 ru;Ел Моуроуй;El Mourouj
 ar;حمام بورقيبة;Hammam Bourguiba
 ar;الزراوة;At Wizru
+el;Ζαγκουάν;Zaghouan
+fa;زغوان;Zaghouan
+ko;자구완;Zaghouan
+uk;Загуан;Zaghouan
+zh;宰格萬;Zaghouan
+kk;Загуан;Zaghouan
+ky;Загуан;Zaghouan
+hi;ज़ाग़वान;Zaghouan
+bn;জাগুয়ান;Zaghouan
+ur;زغوان;Zaghouan
+am;ዛግዋን;Zaghouan
+ja;ザグアン;Zaghouan
+pa;ਜ਼ਾਗੁਆਨ;Zaghouan
+ps;زغوان;Zaghouan
+tg;Загуан;Zaghouan
+ur;زعفران، تیونس;Zaafrane
+bg;Тунис;Tunis
+fa;تونس;Tunis
+he;תוניס;Tunis
+hu;Tunisz;Tunis
+ja;チュニス;Tunis
+ko;튀니스;Tunis
+sr;Тунис;Tunis
+zh;突尼斯;Tunis
+mk;Тунис;Tunis
+el;Τύνιδα;Tunis
+am;ቱኒስ;Tunis
+os;Тунис;Tunis
+zh;突尼斯市;Tunis
+lt;Tunisas;Tunis
+mr;ट्युनिस;Tunis
+ky;Тунис шаары;Tunis
+xal;Тунисин Орн;Tunis
+ckb;توونس;Tunis
+ka;ტუნისი;Tunis
+ga;Túinis;Tunis
+cv;Тунис;Tunis
+ur;تونس شہر;Tunis
+udm;Тунис;Tunis
+ml;ടൂണിസ്സ്;Tunis
+uk;Туніс;Tunis
+mrj;Тунис;Tunis
+ht;Tinis;Tunis
+ug;تۇنىس شەھىرى;Tunis
+hy;Թունիս;Tunis
+br;Tuniz;Tunis
+bo;ཊུ་ནིསི།;Tunis
+be;Туніс;Tunis
+hi;ट्यूनिस;Tunis
+tg;Тунис;Tunis
+th;ตูนิส;Tunis
+ta;தூனிஸ்;Tunis
+lv;Tunisa;Tunis
+pa;ਤੂਨਿਸ;Tunis
+ce;Тунис;Tunis
+cy;Tiwnis;Tunis
+mn;Тунис хот;Tunis
+sah;Тунис;Tunis
+yue;突尼斯;Tunis
+ja;トズール;Tozeur
+ko;토죄르;Tozeur
+lt;Tauzaras;Tozeur
+uk;Таузар;Tozeur
+pl;Tauzar;Tozeur
+zh;托泽尔;Tozeur
+kk;Тозер;Tozeur
+ky;Тозер;Tozeur
+hi;तोज़ेउर;Tozeur
+bn;তোজেউর;Tozeur
+ur;توزر;Tozeur
+am;ቶዘር;Tozeur
+fa;توزر;Tozeur
+pa;ਤੋਜ਼ੇਉਰ;Tozeur
+ps;توزر;Tozeur
+tg;Тозер;Tozeur
+fa;تطاوین;Tataouine
+ja;タタウイヌ;Tataouine
+ko;타타우인;Tataouine
+lt;Tatavinas;Tataouine
+uk;Татауїн;Tataouine
+pl;Tatawin;Tataouine
+zh;泰塔溫;Tataouine
+kk;Татауин;Tataouine
+ky;Татауин;Tataouine
+hi;तातावीन;Tataouine
+bn;তাতাউইন;Tataouine
+ur;تطاوین;Tataouine
+am;ታታውይን;Tataouine
+pa;ਤਾਤਾਉਈਨ;Tataouine
+ps;تطاوین;Tataouine
+tg;Татауин;Tataouine
+ko;타바르카;Tabarka
+uk;Табарка;Tabarka
+zh;塔巴卡;Tabarka
+pl;Susa;Sousse
+ja;スース;Sousse
+he;סוסה;Sousse
+hu;Szúsza;Sousse
+ko;수스;Sousse
+be;Сус;Sousse
+ka;სუსი;Sousse
+sr;Сус;Sousse
+ca;Sussa;Sousse
+lt;Susas;Sousse
+uk;Сус;Sousse
+fa;سوسه;Sousse
+zh;苏塞;Sousse
+sk;Súsa;Sousse
+az;Sus;Sousse
+bg;Сус;Sousse
+cs;Súsa;Sousse
+hy;Սուս;Sousse
+kk;Сус;Sousse
+ky;Сус;Sousse
+hi;सूस;Sousse
+bn;সুসা;Sousse
+ur;سوسہ;Sousse
+am;ሱሳ;Sousse
+pa;ਸੂਸ;Sousse
+ps;سوسه;Sousse
+tg;Сус;Sousse
+fa;سبیطله;Sbeitla
+uk;Сбейтла;Sbeitla
+pl;Subajtila;Sbeitla
+kk;Силиана;Siliana
+ky;Силиана;Siliana
+hi;सिलियाना;Siliana
+bn;সিলিয়ানা;Siliana
+ur;سلیانہ;Siliana
+am;ሲሊያና;Siliana
+fa;سلیانه;Siliana
+ja;シリアナ;Siliana
+pa;ਸਿਲਿਆਨਾ;Siliana
+ps;سلیانه;Siliana
+tg;Силиана;Siliana
+cs;Sídí Bú Zíd;Sidi Bouzid
+el;Σιντί Μπουζίντ;Sidi Bouzid
+hu;Szidi Bú Zid;Sidi Bouzid
+ko;시디부지드;Sidi Bouzid
+uk;Сіді-Бузід;Sidi Bouzid
+pl;Sidi Bu Zajd;Sidi Bouzid
+zh;西迪布濟德;Sidi Bouzid
+kk;Сиди-Бузид;Sidi Bouzid
+ky;Сиди-Бузид;Sidi Bouzid
+hi;सिदी बौजिद;Sidi Bouzid
+bn;সিদি বৌজিদ;Sidi Bouzid
+ur;سیدی بوزید;Sidi Bouzid
+am;ሲዲ ቡዞድ;Sidi Bouzid
+fa;سیدی بوزید;Sidi Bouzid
+ja;シディ・ブジド;Sidi Bouzid
+pa;ਸਿਦੀ ਬੌਜਿਦ;Sidi Bouzid
+ps;سیدی بوزید;Sidi Bouzid
+tg;Сиди-Бузид;Sidi Bouzid
+he;ספקס;Sfax
+pl;Safakis;Sfax
+ja;スファックス;Sfax
+th;สฟักซ์;Sfax
+sr;Сфакс;Sfax
+lt;Sfaksas;Sfax
+uk;Сфакс;Sfax
+ka;სფაქსი;Sfax
+fa;صفاقس;Sfax
+ko;스팍스;Sfax
+el;Σφαξ;Sfax
+be;Сфакс;Sfax
+hu;Szfaksz;Sfax
+zh;斯法克斯;Sfax
+bg;Сфакс;Sfax
+kk;Сфакс;Sfax
+ky;Сфакс;Sfax
+hi;स्फाक्स;Sfax
+bn;স্ফাক্স;Sfax
+ur;صفاقس;Sfax
+am;ስፋክስ;Sfax
+az;Sfaks;Sfax
+pa;ਸਫ਼ਾਕਸ;Sfax
+ps;صفاقس;Sfax
+tg;Сфакс;Sfax
+fa;رادس;Radès
+ja;ラデス;Radès
+ko;라데스;Radès
+lt;Radesas;Radès
+uk;Радес;Radès
+ur;رادس;Radès
+pl;Radis;Radès
+zh;拉迪斯;Radès
+kk;Кебили;Kebili
+ky;Кебили;Kebili
+hi;केबिली;Kebili
+bn;কেবিলি;Kebili
+ur;قبلی;Kebili
+am;ቀብሊ;Kebili
+fa;قبلی;Kebili
+ja;ケビリ;Kebili
+pa;ਕੇਬਿਲੀ;Kebili
+ps;قبلی;Kebili
+tg;Кебили;Kebili
+pl;Kafsa;Gafsa
+el;Κάφσα;Gafsa
+fa;قفصه;Gafsa
+he;גאפסה;Gafsa
+ja;ガフサ;Gafsa
+kk;Гафса;Gafsa
+ko;가프사;Gafsa
+th;กัฟซา;Gafsa
+uk;Гафса;Gafsa
+zh;加夫薩;Gafsa
+ky;Гафса;Gafsa
+hi;गाफ़सा;Gafsa
+bn;গাফসা;Gafsa
+ur;قفصہ;Gafsa
+am;ጋፋሳ;Gafsa
+az;Qafsa;Gafsa
+pa;ਗਾਫ਼ਸਾ;Gafsa
+ps;قفصه;Gafsa
+tg;Гафса;Gafsa
+bg;Габес;Gabès
+el;Γκαμπές;Gabès
+fa;قابس;Gabès
+ja;ガベス;Gabès
+ko;가베스;Gabès
+lt;Gabesas;Gabès
+th;กาแบ็ส;Gabès
+uk;Габес;Gabès
+pl;Kabis;Gabès
+zh;加貝斯;Gabès
+ur;قابس;Gabès
+kk;Габес;Gabès
+ky;Габес;Gabès
+hi;गेबस;Gabès
+bn;গাবেস;Gabès
+am;ጋቤስ;Gabès
+az;Qabes;Gabès
+pa;ਗਾਬੇਸ;Gabès
+ps;قابس;Gabès
+tg;Габес;Gabès
+kk;Набел;Nabeul
+ky;Набел;Nabeul
+hi;नाबेल;Nabeul
+bn;নাবেল;Nabeul
+ur;نابل;Nabeul
+am;ናቤል;Nabeul
+az;Nabel;Nabeul
+fa;نابل;Nabeul
+ja;ナブール;Nabeul
+pa;ਨਾਬੇਲ;Nabeul
+ps;نابل;Nabeul
+tg;Набел;Nabeul
+el;Λα Μανουμπά;Manouba
+ko;마누바;Manouba
+uk;Мануба;Manouba
+zh;馬努巴;Manouba
+kk;Мануба;Manouba
+ky;Мануба;Manouba
+hi;मनौबा;Manouba
+bn;মানোবা;Manouba
+ur;منوبہ;Manouba
+am;ማኑባ;Manouba
+fa;منوبه;Manouba
+ja;マヌーバ;Manouba
+pa;ਮਾਨੋਬਾ;Manouba
+ps;منوبه;Manouba
+tg;Мануба;Manouba
+el;Μεντενίν;Medenine
+fa;مدنین;Medenine
+ko;메드닌;Medenine
+lt;Medeninas;Medenine
+uk;Меденін;Medenine
+zh;梅德寧;Medenine
+kk;Меденин;Medenine
+ky;Меденин;Medenine
+hi;मेडेनिन;Medenine
+bn;মেডেনাইন;Medenine
+ur;مدنین;Medenine
+am;መዴንይን;Medenine
+ja;メデニーン;Medenine
+pa;ਮੇਡੇਨੀਨ;Medenine
+ps;مدنین;Medenine
+tg;Меденин;Medenine
+kk;Джендуба;Jendouba
+ky;Джендуба;Jendouba
+hi;जेंडौबा;Jendouba
+bn;জেন্ডোউবা;Jendouba
+ur;جندوبہ;Jendouba
+am;ጀንዱባ;Jendouba
+az;Jenduba;Jendouba
+fa;جندوبه;Jendouba
+ja;ジェンドゥーバ;Jendouba
+pa;ਜੇਂਡੋਬਾ;Jendouba
+ps;جندوبه;Jendouba
+tg;Джендуба;Jendouba
+fa;جرجیس;Zarzis
+hu;Dzsardzsísz;Zarzis
+ja;ザルジス;Zarzis
+ko;자르지스;Zarzis
+uk;Зарзіс;Zarzis
+ur;جرجیس;Zarzis
+pl;Dżardżis;Zarzis
+zh;傑爾吉斯;Zarzis
+uk;Гібун;Hiboun
+fa;هیبون;Hiboun
+fa;حومه السوق;Houmt Souk
+uk;Хумт-Сук;Houmt Souk
+zh;豪邁特蘇格;Houmt Souk
+ur;حومۃ السوق;Houmt Souk
+eu;Goleta;La Goulette
+fa;حلق الوادی;La Goulette
+he;לה גולט;La Goulette
+ja;ラ・グレット;La Goulette
+ko;라굴레트;La Goulette
+lt;Chalk el Uedas;La Goulette
+uk;Ла-Ґулєт;La Goulette
+be;Хальк-эль-Уэд;La Goulette
+ur;لا گولیتی;La Goulette
+uk;Гідра;Haïdra
+ko;벤아루스;Ben Arous
+el;Μπιν Αρούς;Ben Arous
+pl;Bin Arus;Ben Arous
+lt;Ben Arusas;Ben Arous
+uk;Бен-Арус;Ben Arous
+fa;بن عروس;Ben Arous
+zh;本阿鲁斯;Ben Arous
+kk;Бен-Арус;Ben Arous
+ky;Бен-Арус;Ben Arous
+hi;बेन अरस;Ben Arous
+bn;বেন আরাউস;Ben Arous
+ur;بن عروس;Ben Arous
+am;ቤን አሩስ;Ben Arous
+ja;ベンアルース;Ben Arous
+pa;ਬੇਨ ਆਰੂਸ;Ben Arous
+ps;بن عروس;Ben Arous
+tg;Бен-Арус;Ben Arous
+fa;باردو;Le Bardo
+ja;レ・バルドー;Le Bardo
+uk;Бардо;Le Bardo
+ur;باردو;Le Bardo
+pl;Bardau;Le Bardo
+zh;巴爾杜;Le Bardo
+fi;Biserta;Bizerte
+he;ביזרטה;Bizerte
+pl;Bizerta;Bizerte
+ca;Bizerta;Bizerte
+fa;بنزرت;Bizerte
+el;Μπιζέρτα;Bizerte
+ja;ビゼルト;Bizerte
+bg;Бизерта;Bizerte
+sr;Бизерта;Bizerte
+uk;Бізерта;Bizerte
+kk;Бизерта қаласы;Bizerte
+ko;비제르테;Bizerte
+zh;比塞大;Bizerte
+ky;Бизерта;Bizerte
+hi;बिज़र्ट;Bizerte
+bn;বিজার্তে;Bizerte
+ur;بنزرت;Bizerte
+am;ቢዛርት;Bizerte
+az;Bizerta;Bizerte
+pa;ਬਿਜਰਟਾ;Bizerte
+ps;بنزرت;Bizerte
+tg;Бизерта;Bizerte
+lt;Badža;Béja
+uk;Беджа;Béja
+fa;باجه;Béja
+el;Μπατζά;Béja
+ko;베자;Béja
+pl;Badża;Béja
+zh;巴杰;Béja
+kk;Баджа;Béja
+ky;Баджа;Béja
+hi;बेजा;Béja
+bn;বেজা;Béja
+ur;باجہ;Béja
+am;ቤጃ;Béja
+ja;ベジャ;Béja
+pa;ਬੇਜਾ;Béja
+ps;باجه;Béja
+tg;Баджа;Béja
+el;Αρυάνα;Aryanah
+fa;اریانه;Aryanah
+ko;아리아나;Aryanah
+uk;Аряна;Aryanah
+pl;Arjana;Aryanah
+zh;艾尔亚奈;Aryanah
+kk;Ариана;Aryanah
+ky;Ариана;Aryanah
+hi;अरियाना;Aryanah
+bn;আরিয়ানাহ;Aryanah
+ur;اریانہ;Aryanah
+am;አርያና;Aryanah
+az;Ariana;Aryanah
+ja;アリアナ;Aryanah
+pa;ਅਰਿਆਨਾ;Aryanah
+ps;اریانه;Aryanah
+tg;Ариана;Aryanah
+uk;Ремла;Er-Remla
+pl;Ramla;Er-Remla
+ca;Remla;Er-Remla
+he;קירואן;Kairouan
+pl;Kairuan;Kairouan
+bg;Кайруан;Kairouan
+ja;ケルアン;Kairouan
+ko;카이르완;Kairouan
+et;Al-Qayrawān;Kairouan
+uk;Кайруан;Kairouan
+lt;Kairuanas;Kairouan
+sr;Keruan;Kairouan
+ka;კაირუანი;Kairouan
+kk;Қайруан қаласы;Kairouan
+bs;Kairuan;Kairouan
+fa;قیروان;Kairouan
+ca;Kairuan;Kairouan
+el;Καϊρουάν;Kairouan
+hr;Kairuan;Kairouan
+zh;凯鲁万;Kairouan
+eu;Kairuan;Kairouan
+ky;Кайруан;Kairouan
+uz;Qayruvon;Kairouan
+hi;कैरौन;Kairouan
+bn;কায়রোয়ান;Kairouan
+ur;قیروان;Kairouan
+am;ካይሮዋን;Kairouan
+az;Qayravan;Kairouan
+pa;ਕੈਰੂਆਨ;Kairouan
+ps;قیروان;Kairouan
+tg;Кайруан;Kairouan
+el;Αλ Κασράυν;Kasserine
+fa;القصرین;Kasserine
+ja;カスリーヌ;Kasserine
+ko;카세린;Kasserine
+lt;Kaserinas;Kasserine
+uk;Касерін;Kasserine
+pl;Al-Kasrajn;Kasserine
+zh;卡塞林;Kasserine
+kk;Кассерин;Kasserine
+ky;Кассерин;Kasserine
+hi;कसरीन;Kasserine
+bn;কাসেরিন;Kasserine
+ur;قصرین;Kasserine
+am;ካስሰሪን;Kasserine
+pa;ਕਾਸਰੀਨ;Kasserine
+ps;قصرین;Kasserine
+tg;Кассерин;Kasserine
+pl;Monastyr;Monastir
+bg;Монастир;Monastir
+uk;Монастір;Monastir
+el;Μοναστίρ;Monastir
+sr;Монастир;Monastir
+hu;Monasztir;Monastir
+be;Манасцір;Monastir
+lt;Monastyras;Monastir
+ka;მონასტირი;Monastir
+ja;モナスティル;Monastir
+az;Monastır;Monastir
+ko;모나스티르;Monastir
+zh;莫纳斯提尔;Monastir
+fa;المنستیر;Monastir
+hy;Մոնաստիր;Monastir
+ur;منستیر، تیونس;Monastir
+kk;Монастыр;Monastir
+ky;Монастыр;Monastir
+hi;मोनास्टिर;Monastir
+bn;মোনাস্টির;Monastir
+am;ሞናስቲር;Monastir
+pa;ਮੋਨਾਸਤੀਰ;Monastir
+ps;منستیر;Monastir
+tg;Монастир;Monastir
+el;Αλ Μαντίγια;Mahdia
+fa;المهدیه;Mahdia
+ja;マーディア;Mahdia
+ko;마디아;Mahdia
+lt;Mahdija;Mahdia
+uk;Махдія;Mahdia
+pl;Al-Mahdijja;Mahdia
+zh;马赫迪耶;Mahdia
+ur;مہدیہ;Mahdia
+kk;Махдия;Mahdia
+ky;Махдия;Mahdia
+hi;महदिया;Mahdia
+bn;মাহদিয়া;Mahdia
+am;ማህዲያ;Mahdia
+az;Mahdiya;Mahdia
+pa;ਮਾਹਦੀਆ;Mahdia
+ps;مهدیه;Mahdia
+tg;Махдия;Mahdia
+kk;Эль-Кеф;El Kef
+ky;Эль-Кеф;El Kef
+hi;एल केफ;El Kef
+bn;এল কেফ;El Kef
+ur;الکاف;El Kef
+am;ኤል ኬፍ;El Kef
+fa;الکاف;El Kef
+ja;エルケフ;El Kef
+pa;ਐਲ ਕੇਫ;El Kef
+ps;الکاف;El Kef
+tg;Эль-Кеф;El Kef
+be;Хамамет;Hammamet
+bg;Хамамет;Hammamet
+fa;الحمامات;Hammamet
+id;Al-Hammamat;Hammamet
+ja;ハンマメット;Hammamet
+ko;함마메트;Hammamet
+lt;Hamametas;Hammamet
+sr;Хамамет;Hammamet
+uk;Хаммамет;Hammamet
+ur;حمامات، تیونس;Hammamet
+zh;哈马马特;Hammamet
+cs;Marsá al-Qantáwí;Port el Kantaoui
+uk;Порт-ель-Кантауї;Port el Kantaoui
+pl;Marsa al-Kantawi;Port el Kantaoui
+he;נמל אל קנטאווי;Port el Kantaoui
+bg;Керкуан;Kerkouane
+fi;Kerkuane;Kerkouane
+he;קרקואן;Kerkouane
+hr;Kerkuane;Kerkouane
+ja;ケルクアン;Kerkouane
+ka;კერკუანე;Kerkouane
+lt;Kerkuanas;Kerkouane
+uk;Керкуан;Kerkouane
+pl;Karkawan;Kerkouane
+sv;Kerkuan;Kerkouane

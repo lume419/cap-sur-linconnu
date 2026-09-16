@@ -382,3 +382,227 @@ ja;ルングテンザムパ;Lungtenzampa
 pa;ਲੁੰਗਤੇਨਜਾਮਪਾ;Lungtenzampa
 ps;لنګتنزمپا;Lungtenzampa
 tg;Лунгтензампа;Lungtenzampa
+tt;Йувак;Yuwak
+ce;Йувак;Yuwak
+am;ዋንግዱ ፎድራንግ;Wangdue Phodrang
+az;Vangdu Podrang;Wangdue Phodrang
+tt;Вангду Подранг;Wangdue Phodrang
+tt;Вангчуклинг;Wangchukling
+ce;Вангчуклинг;Wangchukling
+tt;Це-канг;Tse Kang
+ce;Це-канг;Tse Kang
+tt;Тормошангса;Tormoshangsa
+ce;Тормошангса;Tormoshangsa
+am;ትሮንግሳ;Trongsa
+tt;Тронгса;Trongsa
+tt;Тонгла-Кенга;Tongla Kenga
+ce;Тонгла-Кенга;Tongla Kenga
+tt;Тобранг;Tobrang
+ce;Тобранг;Tobrang
+tt;Кхенпа-дзонг;Khenpa Dzong
+ce;Кхенпа-дзонг;Khenpa Dzong
+tt;Тзумгаон;Thumgaon
+ce;Тзумгаон;Thumgaon
+he;טהימפהו;Thimphu
+no;Thimpu;Thimphu
+sk;Thimbu;Thimphu
+lt;Timpu;Thimphu
+da;Timphu;Thimphu
+el;Τιμπού (θερινή) Πουνάκα (χειμερινή);Thimphu
+am;ጢምጱ;Thimphu
+bg;Тхимпху;Thimphu
+sr;Тимбу;Thimphu
+mk;Тимбу;Thimphu
+os;Тхимпху;Thimphu
+hy;Թհիմփհու;Thimphu
+nah;Timbu;Thimphu
+ka;თიმფუ;Thimphu
+hu;Timpu;Thimphu
+ht;Timfou;Thimphu
+uk;Тхімпху;Thimphu
+el;Θίμφου;Thimphu
+ckb;تیمفوو;Thimphu
+be;Тхімпху;Thimphu
+is;Timfú;Thimphu
+ce;Тхимпху;Thimphu
+ba;Тхимпху;Thimphu
+sgs;Tėmpu;Thimphu
+kab;Timfu;Thimphu
+lrc;تیمپو;Thimphu
+tt;Тебонг;Thebong
+ce;Тебонг;Thebong
+am;ትራሺ ያንግሴ;Trashi Yangtse
+tt;Траши Янгце;Trashi Yangtse
+am;ትራሺጋንግ;Trashigang
+tt;Трашиганг;Trashigang
+tt;Тамчжи;Tamji
+ce;Тамчжи;Tamji
+am;ዳጋ;Daga
+tt;Дага;Daga
+tt;Суча;Suchha
+ce;Суча;Suchha
+tt;Сингъе-дзонг;Singye Dzong
+ce;Сингъе-дзонг;Singye Dzong
+he;סנג' ג'ונג;Singye Dzong
+tt;Шодуг;Shodug
+ce;Шодуг;Shodug
+tt;Шингкарап;Shingkarap
+ce;Шингкарап;Shingkarap
+tt;Шингби;Shingbe
+ce;Шингби;Shingbe
+tt;Шарисанг;Sharithang
+ce;Шарисанг;Sharithang
+tt;Шапанг;Shapang
+ce;Шапанг;Shapang
+am;ሸምጋንግ;Shemgang
+az;Şemgang;Shemgang
+tt;Шемганг;Shemgang
+tt;Шаблинг;Shabling
+ce;Шаблинг;Shabling
+tt;Сенгор;Sengor
+ce;Сенгор;Sengor
+tt;Сасока;Sasoka
+ce;Сасока;Sasoka
+am;ሳርፓንግ;Sarpang
+tt;Сарпанг;Sarpang
+tt;Сангкари;Sangkari
+ce;Сангкари;Sangkari
+tt;Самтенганг;Samtengang
+ce;Самтенганг;Samtengang
+tt;Сактенг;Sakteng
+ce;Сактенг;Sakteng
+he;סאקטנג;Sakteng
+tt;Рунгзунг;Rungzyung
+ce;Рунгзунг;Rungzyung
+am;ፑናካ;Punākha
+tt;Пунакха;Punākha
+tt;Пинсопери;Pinsoperi
+ce;Пинсопери;Pinsoperi
+tt;Пими;Pimi
+ce;Пими;Pimi
+be;Пхунчолінг;Phuntsholing
+et;Phuentsholing;Phuntsholing
+lt;Punčolingas;Phuntsholing
+sr;Пхунчолинг;Phuntsholing
+uk;Пхунчолінг;Phuntsholing
+sv;Phuentsholing;Phuntsholing
+be;Паро;Paro
+el;Πάρο;Paro
+ka;პარო;Paro
+lt;Paras;Paro
+sr;Паро;Paro
+uk;Паро;Paro
+am;ፓሮ;Paro
+tt;Паро;Paro
+tt;Пачу;Pachu
+ce;Пачу;Pachu
+tt;Нингсанг-ла;Ningsang La
+ce;Нингсанг-ла;Ningsang La
+tt;Наспе;Naspe
+ce;Наспе;Naspe
+tt;Нактсанг;Naktsang
+ce;Нактсанг;Naktsang
+tt;Монка;Monka
+ce;Монка;Monka
+am;ሞንጋር;Mongar
+tt;Монгар;Mongar
+tt;Маникянгза;Manikyangsa
+ce;Маникянгза;Manikyangsa
+tt;Лобниг;Lobnig
+ce;Лобниг;Lobnig
+am;ልሁዌንፆ;Lhuentse
+tt;Лхуэнце;Lhuentse
+tt;Чапча;Chapchha
+ce;Чапча;Chapchha
+tt;Кунгтар;Kungtar
+ce;Кунгтар;Kungtar
+tt;Кисона;Kisona
+ce;Кисона;Kisona
+tt;Кхитокха;Khitokha
+ce;Кхитокха;Khitokha
+tt;Кечунгка;Kechungka
+ce;Кечунгка;Kechungka
+tt;Кангпар;Kangpar
+ce;Кангпар;Kangpar
+am;ሃ;Ha
+tt;Һа;Ha
+tt;Гхункарах;Ghunkarah
+ce;Гхункарах;Ghunkarah
+am;ጋሳ;Gasa
+az;Qasa;Gasa
+tt;Газа;Gasa
+tt;Дунгна;Dungna
+ce;Дунгна;Dungna
+tt;Дотананг;Dotanang
+ce;Дотананг;Dotanang
+tt;Доринг;Doring
+ce;Доринг;Doring
+tt;Дафу;Daphu
+ce;Дафу;Daphu
+tt;Чуйул;Chuyul
+ce;Чуйул;Chuyul
+am;ፆራንግ;Tsirang
+tt;Цирань;Tsirang
+am;ፆማሻም;Tsimasham
+tt;Цимашам;Tsimasham
+tt;Чемайто;Chemaito
+ce;Чемайто;Chemaito
+tt;Чангчукха-дзонг;Changchukha Dzong
+ce;Чангчукха-дзонг;Changchukha Dzong
+tt;Чалэйка;Chalaika
+ce;Чалэйка;Chalaika
+tt;Бъярадингка;Byaradingka
+ce;Бъярадингка;Byaradingka
+tt;Битана;Bitana
+ce;Битана;Bitana
+tt;Бхергаон;Bhurgaon
+ce;Бхергаон;Bhurgaon
+tt;Балфай;Balfai
+ce;Балфай;Balfai
+tt;Алла;Alla
+ce;Алла;Alla
+lt;Džakaras;Jakar
+sr;Џакар;Jakar
+uk;Джакар;Jakar
+pl;Dzakar;Jakar
+am;ጃካር;Jakar
+az;Cakar;Jakar
+tt;Джакар;Jakar
+tt;Курджей;Kurjey
+ce;Курджей;Kurjey
+tt;Панбанг;Panbang
+ce;Панбанг;Panbang
+uk;Панбанг;Panbang
+am;ሳምፆ;Samtse
+tt;Самце;Samtse
+tt;Сибсу;Sibsu
+ce;Сибсу;Sibsu
+el;Νταμφού;Damphu
+lt;Dampu;Damphu
+uk;Дампху;Damphu
+tt;Дагапела;Dagapela
+ce;Дагапела;Dagapela
+el;Νταγκαπέλα;Dagapela
+tt;Сримшинг;Thrimshing
+ce;Сримшинг;Thrimshing
+tt;Вамронг;Wamrong
+ce;Вамронг;Wamrong
+am;ፔማጋትሸል;Pemagatshel
+tt;Пемагатшел;Pemagatshel
+tt;Цешинанг;Tseshinang
+ce;Цешинанг;Tseshinang
+tt;Дамсанг;Damthang
+ce;Дамсанг;Damthang
+tt;Атцо-Чубар;Atsho Chhubar
+ce;Атцо-Чубар;Atsho Chhubar
+tt;Дайфам;Daifam
+ce;Дайфам;Daifam
+tt;Бхангтаг;Bhangtar
+ce;Бхангтаг;Bhangtar
+am;ሳምድሩፕ ጆንግካር;Samdrup Jongkhar
+tt;Самдруп Джонгхар;Samdrup Jongkhar
+tt;Канглунг;Kanglung
+ce;Канглунг;Kanglung
+uk;Канглунг;Kanglung
+am;ሉንግተንዛምፓ;Lungtenzampa
+tt;Лунгтензампа;Lungtenzampa

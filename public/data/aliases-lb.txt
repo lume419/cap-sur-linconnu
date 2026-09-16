@@ -176,3 +176,348 @@ it;Tibnin;Tebnine
 fr;Tibnine;Tebnine
 ar;تبنين;Tebnine
 he;תבנין;Tebnine
+bg;Захла;Zahlé
+be;Захле;Zahlé
+fa;زحله، لبنان;Zahlé
+ja;ザーレ;Zahlé
+ko;자흘레;Zahlé
+mzn;زحله;Zahlé
+sr;Захле;Zahlé
+uk;Захла;Zahlé
+ur;زحلہ;Zahlé
+pl;Zahla;Zahlé
+zh;扎赫勒;Zahlé
+eu;Zahleh;Zahlé
+gl;Sahla;Zahlé
+hy;Զահլե;Zahlé
+az;Zəhlə;Zahlé
+kk;Захле;Zahlé
+ky;Захле;Zahlé
+hi;ज़ाहले;Zahlé
+bn;জাহলে;Zahlé
+am;ዛህሌ;Zahlé
+pa;ਜ਼ਾਹਲੇ;Zahlé
+ps;زحله;Zahlé
+tg;Захле;Zahlé
+tt;Захле;Zahlé
+ca;Trípoli;Trâblous
+fa;طرابلس;Trâblous
+id;Tripoli;Trâblous
+ja;トリポリ;Trâblous
+pl;Trypolis;Trâblous
+sl;Tripoli;Trâblous
+ro;Tripoli;Trâblous
+et;Tripoli;Trâblous
+fa;ترابلس;Trâblous
+no;Tripoli;Trâblous
+sv;Tripoli;Trâblous
+th;ตริโปลี;Trâblous
+mzn;طرابلس;Trâblous
+uk;Триполі;Trâblous
+hi;त्रिपोली;Trâblous
+sr;Триполи;Trâblous
+oc;Trípol;Trâblous
+ml;ട്രിപ്പൊളി;Trâblous
+cs;Tripolis;Trâblous
+ka;ტრიპოლი;Trâblous
+ur;طرابلس الشام;Trâblous
+ko;트리폴리;Trâblous
+bg;Триполи;Trâblous
+zh;的黎波里;Trâblous
+be;Трыпалі;Trâblous
+hy;Տրիպոլի;Trâblous
+lt;Tripolis;Trâblous
+gl;Trípoli;Trâblous
+lv;Tripole;Trâblous
+mr;त्रिपोली;Trâblous
+nn;Tripoli i Libanon;Trâblous
+sk;Tripolis;Trâblous
+hr;Tripoli;Trâblous
+kk;Триполи;Trâblous
+uz;Tripoli;Trâblous
+ky;Триполи;Trâblous
+ms;Tripoli;Trâblous
+bn;ত্রিপোলি;Trâblous
+am;ትሪፖሊ;Trâblous
+az;Tripoli;Trâblous
+ha;Tripoli;Trâblous
+jv;Tripoli;Trâblous
+om;Tripoli;Trâblous
+pa;ਟ੍ਰਿਪੋਲੀ;Trâblous
+ps;طرابلس;Trâblous
+so;Tripoli;Trâblous
+sw;Tripoli;Trâblous
+tg;Триполи;Trâblous
+tt;Триполи;Trâblous
+pl;Tyr;Soûr
+br;Tir;Soûr
+bs;Tir;Soûr
+ca;Tir;Soûr
+cs;Týros;Soûr
+fa;صور;Soûr
+fi;Tyros;Soûr
+id;Tyre;Soûr
+is;Týros;Soûr
+ja;ティルス;Soûr
+lt;Tyras;Soûr
+no;Tyr;Soûr
+sk;Tyros;Soûr
+sl;Tir;Soûr
+sr;Тир;Soûr
+sv;Tyros;Soûr
+uk;Тір;Soûr
+zh-TW;泰爾;Soûr
+hr;Tir;Soûr
+az;Sur;Soûr
+hy;Տյուրոս;Soûr
+fa;صریفا;Srîfa
+pl;Sydon;Saïda
+ja;サイダ;Saïda
+sl;Sidon;Saïda
+id;Sidon;Saïda
+is;Sídon;Saïda
+no;Sidon;Saïda
+sv;Sayda;Saïda
+hr;Sidon;Saïda
+lt;Sidonas;Saïda
+be;Сайда;Saïda
+ko;시돈;Saïda
+gl;Sidón;Saïda
+th;ไซดอน;Saïda
+ka;სიდონი;Saïda
+sr;Сидон;Saïda
+mzn;صیدا;Saïda
+cs;Sidón;Saïda
+ur;صیدا;Saïda
+ca;Sidó;Saïda
+uk;Сідон;Saïda
+fa;صیدا;Saïda
+et;Şaydā;Saïda
+bg;Сайда;Saïda
+zh;赛达;Saïda
+csb;Sydón;Saïda
+hy;Սայդա;Saïda
+hu;Szidón;Saïda
+sw;Sidoni;Saïda
+uz;Sayda;Saïda
+kk;Сидон;Saïda
+ky;Сидон;Saïda
+ms;Sidon;Saïda
+hi;सिडोन;Saïda
+bn;সিডন;Saïda
+am;ሲዶን;Saïda
+az;Sidon;Saïda
+ha;Sidon;Saïda
+jv;Sidon;Saïda
+om;Sidon;Saïda
+pa;ਸਿਡਨ;Saïda
+ps;صيدا;Saïda
+so;Sidon;Saïda
+tg;Сидон;Saïda
+tt;Сидон;Saïda
+pl;Kana;Qâna
+bs;Kana;Qâna
+fa;قانا;Qâna
+hu;Kána;Qâna
+ja;カナ;Qâna
+sr;Кана;Qâna
+cs;Kana;Qâna
+hr;Džunije;Jounieh
+uk;Джунія;Jounieh
+az;Cuniyə;Jounieh
+bg;Библос (Biblos);Byblos
+ca;Biblos;Byblos
+ja;ビブロス;Byblos
+no;Jbeil;Byblos
+sl;Biblos;Byblos
+hu;Büblosz;Byblos
+az;Bibl;Byblos
+az;Cübeyl;Byblos
+be;Бібл;Byblos
+hr;Biblos;Byblos
+hy;Բիբլոս;Byblos
+sr;Библос;Byblos
+uk;Бібл;Byblos
+fa;جبیل;Byblos
+fa;حراجل;Hrajel
+kk;Халба;Halba
+ky;Халба;Halba
+hi;हल्बा;Halba
+bn;হালবা;Halba
+ur;حلبا;Halba
+am;ሀልባ;Halba
+fa;حلبا;Halba
+ja;ハルバ;Halba
+pa;ਹਲਬਾ;Halba
+ps;حلبا;Halba
+tg;Халба;Halba
+tt;Халба;Halba
+hr;Bšari;Bsharri
+hy;Բիշարի;Bsharri
+sl;Bšari;Bsharri
+uk;Бішарі;Bsharri
+cs;Bšarré;Bsharri
+fa;بشری;Bsharri
+nn;Bhamdoun;Bhamdoûn el Mhatta
+uk;Багамдун;Bhamdoûn el Mhatta
+fa;بحمدون;Bhamdoûn el Mhatta
+pl;Bahamdun;Bhamdoûn el Mhatta
+ur;بحمدون;Bhamdoûn el Mhatta
+ca;Bhamdoun;Bhamdoûn el Mhatta
+bg;Бейрут;Beyrouth
+bs;Bejrut;Beyrouth
+ca;Beirut;Beyrouth
+cs;Bejrút;Beyrouth
+da;Beirut;Beyrouth
+fa;بیروت;Beyrouth
+fi;Beirut;Beyrouth
+gl;Beirut;Beyrouth
+hr;Bejrut;Beyrouth
+id;Beirut;Beyrouth
+ja;ベイルート;Beyrouth
+ko;베이루트;Beyrouth
+lt;Beirutas;Beyrouth
+nn;Beirut;Beyrouth
+no;Beirut;Beyrouth
+pl;Bejrut;Beyrouth
+ro;Beirut;Beyrouth
+sk;Bejrút;Beyrouth
+sl;Bejrut;Beyrouth
+sr;Бејрут;Beyrouth
+sv;Beirut;Beyrouth
+bo;པེ་རུ་ཐེ།;Beyrouth
+et;Beirut;Beyrouth
+hy;Բեյ­րութ;Beyrouth
+tg;Бейрут;Beyrouth
+is;Beirút;Beyrouth
+or;ବିରୁଟ;Beyrouth
+ku;Bêrût;Beyrouth
+ga;Béiriút;Beyrouth
+ky;Бейрут;Beyrouth
+ckb;بەیرووت;Beyrouth
+kn;ಬೈರುತ್;Beyrouth
+kk;Бейрут;Beyrouth
+ka;ბეირუთი;Beyrouth
+sah;Бейрут;Beyrouth
+mzn;بیروت;Beyrouth
+os;Бейрут;Beyrouth
+th;เบรุต;Beyrouth
+kab;Birut;Beyrouth
+tet;Beirute;Beyrouth
+ur;بیروت;Beyrouth
+uk;Бейрут;Beyrouth
+oc;Beirot;Beyrouth
+ug;بېيرۇت;Beyrouth
+gag;Beyrut;Beyrouth
+tt;Бәйрут;Beyrouth
+be;Бейрут;Beyrouth
+bn;বৈরুত;Beyrouth
+ht;Bewout;Beyrouth
+hu;Bejrút;Beyrouth
+hi;बेयरूत;Beyrouth
+az;Beyrut;Beyrouth
+br;Beirout;Beyrouth
+mn;Бейрут;Beyrouth
+af;Beiroet;Beyrouth
+am;ቤይሩት;Beyrouth
+ta;பெய்ரூத்;Beyrouth
+my;ဘေရွတ်မြို့;Beyrouth
+mr;बैरूत;Beyrouth
+mk;Бејрут;Beyrouth
+ml;ബെയ്‌റൂത്ത്;Beyrouth
+sq;Bejruti;Beyrouth
+mdf;Бейрут ошсь;Beyrouth
+lv;Beirūta;Beyrouth
+pa;ਬੇਰੂਤ;Beyrouth
+zh;贝鲁特;Beyrouth
+sgs;Beirots;Beyrouth
+ce;Бейрут;Beyrouth
+mhr;Бейрут;Beyrouth
+yue;貝魯特;Beyrouth
+kaa;Beyrut;Beyrouth
+lrc;بیروت;Beyrouth
+mwl;Beirute;Beyrouth
+uz;Bayrut;Beyrouth
+crh;Beyrut;Beyrouth
+bg;Баалбек;Baalbek
+fa;بعلبک;Baalbek
+ja;バールベック;Baalbek
+hy;Բաալբեկ;Baalbek
+ka;ბაალბექი;Baalbek
+kk;Бағлабек;Baalbek
+ko;바알베크;Baalbek
+lt;Baalbekas;Baalbek
+mzn;بعلبک;Baalbek
+sr;Баалбек;Baalbek
+uk;Баальбек;Baalbek
+zh;巴勒贝克;Baalbek
+az;Bəəlbək;Baalbek
+be;Баальбек;Baalbek
+ky;Баальбек;Baalbek
+ml;ബാൽബെക്ക്;Baalbek
+ne;बालबेक;Baalbek
+ur;بعلبک;Baalbek
+hi;बाल्बेक;Baalbek
+bn;বাআলবেক;Baalbek
+am;ባአልቤክ;Baalbek
+pa;ਬਾਲਬੇਕ;Baalbek
+ps;بعلبك;Baalbek
+tg;Баальбек;Baalbek
+tt;Баальбек;Baalbek
+bg;Баабда;Baabda
+pl;Babda;Baabda
+hy;Բաաբդա;Baabda
+mzn;بعبدا;Baabda
+fa;بعبدا، لبنان;Baabda
+sr;Баабда;Baabda
+zh;巴卜達;Baabda
+ko;바브다;Baabda
+lt;Babda;Baabda
+uk;Баабда;Baabda
+ur;بعبدا;Baabda
+kk;Баабда;Baabda
+ky;Баабда;Baabda
+hi;बाब्दा;Baabda
+bn;বাবদা;Baabda
+am;ባብዳ;Baabda
+ja;バアブダ;Baabda
+pa;ਬਾਬਦਾ;Baabda
+ps;بعبدا;Baabda
+tg;Баабда;Baabda
+tt;Баабда;Baabda
+gl;Ain Ibil;Ain Ebel
+fa;عین ابل;Ain Ebel
+pl;Ajn Ibil;Ain Ebel
+nn;Naqoura;En Nâqoûra
+sv;Naqoura;En Nâqoûra
+be;Эн-Накура;En Nâqoûra
+nb;Naqoura;En Nâqoûra
+uk;Ен-Накура;En Nâqoûra
+ja;ナクラ;En Nâqoûra
+fa;ناقوره;En Nâqoûra
+pl;An-Nakura;En Nâqoûra
+da;Naqoura;En Nâqoûra
+kk;Набатия және Тахта;Nabatîyé et Tahta
+uz;Nabatiye va Tahta;Nabatîyé et Tahta
+ky;Набатия жана Тахта;Nabatîyé et Tahta
+hi;नबतिये एट तहता;Nabatîyé et Tahta
+bn;নাবাতিয়ে এট তাহতা;Nabatîyé et Tahta
+ur;نبطیہ والطہطا;Nabatîyé et Tahta
+am;ናባቲዬ ከ ታህታ;Nabatîyé et Tahta
+az;Nabatiye və Tahta;Nabatîyé et Tahta
+fa;نبطیه و طهطا;Nabatîyé et Tahta
+ja;ナバティエ・エット・タハタ;Nabatîyé et Tahta
+pa;ਨਬਾਤਿਏ ਏਟ ਤਾਹਤਾ;Nabatîyé et Tahta
+ps;نبطيه والطهطا;Nabatîyé et Tahta
+tg;Набатия ва Тахта;Nabatîyé et Tahta
+tt;Набатия һәм Тахта;Nabatîyé et Tahta
+hr;ע'אזיה;Ghazieh
+hr;Gazije;Ghazieh
+uk;Алей;Aley
+cy;Ajaltoun;Aajaltoûn
+fa;عجلتون;Aajaltoûn
+bg;Тебнин;Tebnine
+nb;Tibnin;Tebnine
+fa;تبنين;Tebnine
+pl;Tibnin;Tebnine
+ur;تبنین;Tebnine

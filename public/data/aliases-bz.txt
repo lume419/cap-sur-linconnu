@@ -70,3 +70,115 @@ ar;مدينة بليز;Belize City
 es;Zona Libre de Belice;Santa Elena
 en;Alta Mira;Altamira
 es;Santa Marta;Santa Martha
+uk;Ксайбе;Xaibe
+uk;Сартенея;Sarteneja
+be;Сан-Педра;San Pedro
+he;סן פדרו;San Pedro
+hr;San Pedro Town;San Pedro
+lt;San Pedras;San Pedro
+pl;San Pedro Columbia;San Pedro
+nds;San Pedro Columbia;San Pedro
+uk;Сан-Нарцісо;San Narciso
+uk;Сан-Хосе Пальмар;San Jose Palmar
+uk;Сан-Ігнасіо-Кайо;San Ignacio
+he;סן איגנסיו;San Ignacio
+lt;San Ignasijas;San Ignacio
+ur;سان اگناسیو، بیلیز;San Ignacio
+be;Сан-Ігнасіа;San Ignacio
+mr;सान इग्नासियो;San Ignacio
+tg;Сан-Игнасио;San Ignacio
+pl;San Ignacio Cayo;San Ignacio
+nds;San Ignacio/Santa Elena;San Ignacio
+uk;Куппер Банк;San Fernando
+nds;Copper Bank;San Fernando
+bg;Пунта Горда;Punta Gorda
+he;פונטה גורדה;Punta Gorda
+ur;پنتا گوردا، بیلیز;Punta Gorda
+kk;Пунта-Гордa;Punta Gorda
+ky;Пунта-Гордa;Punta Gorda
+bn;পুন্তা গর্ডা;Punta Gorda
+am;ፑንታ ጎርዳ;Punta Gorda
+fa;پونتاگوردا;Punta Gorda
+pa;ਪੁੰਟਾ ਗੋਰਡਾ;Punta Gorda
+ps;پونتا ګوردا;Punta Gorda
+tg;Пунта-Гордa;Punta Gorda
+he;פלאסנסיה;Placencia
+kk;Оранж Уок;Orange Walk
+ky;Оранж Уок;Orange Walk
+bn;অরেঞ্জ ওয়াক;Orange Walk
+ur;آرنج واک;Orange Walk
+am;ኦሬንጅ ዋልክ;Orange Walk
+fa;اورنج واک;Orange Walk
+pa;ਆਰੇਂਜ ਵਾਕ;Orange Walk
+ps;اورنج واک;Orange Walk
+tg;Оранж Уок;Orange Walk
+nds;Ontario;Ontario Village
+uk;Літтл Беліз;Little Belize
+kk;Дангрига;Dangriga
+ky;Дангрига;Dangriga
+bn;ড্যাঙ্গ্রিগা;Dangriga
+ur;ڈانگریگا;Dangriga
+am;ዳንግሪጋ;Dangriga
+fa;دانگریگا;Dangriga
+pa;ਡਾਂਗਰਿਗਾ;Dangriga
+ps;دانګریګا;Dangriga
+tg;Дангрига;Dangriga
+kk;Корозаль;Corozal
+ky;Корозаль;Corozal
+bn;কোরোজাল;Corozal
+ur;کوروزال;Corozal
+am;ኮሮዛል;Corozal
+fa;کوروزال;Corozal
+pa;ਕੋਰੋਜ਼ਲ;Corozal
+ps;کوروزال;Corozal
+tg;Корозаль;Corozal
+uk;Чунокс;Chunox
+uk;Чан Пайн Рідж;Chan Pine Ridge
+bg;Белмопан;Belmopan
+he;בלמופן;Belmopan
+lt;Belmopanas;Belmopan
+sr;Белмопан;Belmopan
+zh-TW;貝爾墨邦;Belmopan
+mk;Белмопан;Belmopan
+el;Μπελμοπάν;Belmopan
+fa;بلموپان;Belmopan
+hy;Բելմոպան;Belmopan
+am;ቤልሞፓን;Belmopan
+sah;Белмопан;Belmopan
+ka;ბელმოპანი;Belmopan
+ur;بلموپان;Belmopan
+uk;Бельмопан;Belmopan
+bo;པེར་མོ་ཕན།;Belmopan
+ta;பெல்மோப்பான்;Belmopan
+be;Бельмапан;Belmopan
+th;เบลโมแพน;Belmopan
+mr;बेल्मोपान;Belmopan
+lv;Belmopana;Belmopan
+pa;ਬੈਲਮੋਪਾਨ;Belmopan
+yue;貝爾莫潘;Belmopan
+lt;Belizas;Belize City
+vi;Thành phố Belize;Belize City
+ug;بېلىز شەھىرى;Belize City
+cy;Dinas Belize;Belize City
+uk;Беліз;Belize City
+el;Πόλη του Μπελίζ;Belize City
+bg;Белиз Сити;Belize City
+my;ဘလိဇ်မြို့;Belize City
+th;เบลีซซิตี;Belize City
+he;בליז סיטי;Belize City
+mk;Белизе;Belize City
+fa;بلیز سیتی;Belize City
+gl;Cidade de Belize;Belize City
+id;Kota Belize;Belize City
+mr;बेलीझ सिटी;Belize City
+ms;Bandaraya Belize;Belize City
+sco;Belize Ceety;Belize City
+ur;بیلیز شہر;Belize City
+vep;Beliz;Belize City
+kk;Белиз-Сити;Belize City
+ky;Белиз-Сити;Belize City
+bn;বেলিজ সিটি;Belize City
+am;በሊዝ ሲቲ;Belize City
+pa;ਬੇਲੀਜ਼ ਸਿਟੀ;Belize City
+ps;بیلیز سیٹی;Belize City
+tg;Белиз-Сити;Belize City

@@ -14,3 +14,7 @@ it;Vaticano;Città del Vaticano
 hr;Grad Vatikan;Città del Vaticano
 nl;Vaticaan-Stad;Città del Vaticano
 cs;Vatikán;Città del Vaticano
+ru;Ватикан;Città del Vaticano
+ko;바티칸 시;Città del Vaticano
+ko;바티칸;Città del Vaticano
+bo;ཝ་ཏི་ཀན་གྲོང་ཁྱོར།;Città del Vaticano

@@ -61,3 +61,121 @@ ar;ألبينا;Albina
 hi;अलबीना;Albina
 ja;アルビナ;Albina
 en;Palumeu;Paloemeu
+lt;Zanderis;Zanderij
+kk;Тотнесс;Totness
+ky;Тотнесс;Totness
+bn;টটনেস;Totness
+ur;ٹوٹنیس;Totness
+am;ቶትነስ;Totness
+fa;توتنس;Totness
+pa;ਟੌਟਨੇਸ;Totness
+ps;توتنس;Totness
+tg;Тотнесс;Totness
+tt;Тотнесс;Totness
+ur;سبکوے;Sabakoe
+uk;Паранам;Paranam
+lt;Paranamas;Paranam
+bg;Парамарибо;Paramaribo
+he;פרמריבו;Paramaribo
+os;Парамарибо;Paramaribo
+fa;پاراماریبو;Paramaribo
+el;Παραμαρίμπο;Paramaribo
+am;ፓራማሪቦ;Paramaribo
+lt;Paramaribas;Paramaribo
+hy;Պարամարիբո;Paramaribo
+uk;Парамарібо;Paramaribo
+be;Парамарыба;Paramaribo
+bo;པེ་ར་མེ་རི་བོ།;Paramaribo
+mk;Парамарибо;Paramaribo
+gu;પારામારિબો;Paramaribo
+sr;Парамарибо;Paramaribo
+ka;პარამარიბო;Paramaribo
+mr;पारामारिबो;Paramaribo
+pa;ਪਾਰਾਮਾਰੀਬੋ;Paramaribo
+th;ปารามารีโบ;Paramaribo
+cv;Парамарибо;Paramaribo
+ur;پاراماریبو;Paramaribo
+ce;Парамарибо;Paramaribo
+yue;巴拉馬利波;Paramaribo
+kk;Парамарибо;Paramaribo
+ky;Парамарибо;Paramaribo
+ta;பரமாரிபோ;Paramaribo
+kk;Онверхахт;Onverwacht
+ky;Онверхахт;Onverwacht
+bn;অনভেরওয়াখট;Onverwacht
+ur;آن ورواخٹ;Onverwacht
+am;ኦንቨርዋሕት;Onverwacht
+fa;آنفروخت;Onverwacht
+pa;ਆਨਵਰਵਾਚਟ;Onverwacht
+ps;آن ورواخت;Onverwacht
+tg;Онверхахт;Onverwacht
+tt;Онверхахт;Onverwacht
+kk;Нивю-Никкерия;Nieuw Nickerie
+tr;Yeni Nickerie;Nieuw Nickerie
+ky;Нивю-Никкерия;Nieuw Nickerie
+bn;নিউ নিকেরি;Nieuw Nickerie
+ur;نیو نکیری;Nieuw Nickerie
+am;ኒው ኒከሪ;Nieuw Nickerie
+az;Yeni Nikeri;Nieuw Nickerie
+fa;نیو نیکری;Nieuw Nickerie
+ha;Sabuwar Nickerie;Nieuw Nickerie
+pa;ਨਿਊ ਨਿਕੇਰੀ;Nieuw Nickerie
+ps;نيو نيكيري;Nieuw Nickerie
+tg;Нивю-Никкерия;Nieuw Nickerie
+tt;Нивю-Никкерия;Nieuw Nickerie
+kk;Нивю-Амстердам;Nieuw Amsterdam
+tr;Yeni Amsterdam;Nieuw Amsterdam
+ky;Нивю-Амстердам;Nieuw Amsterdam
+bn;নিউ এমস্টার্ডাম;Nieuw Amsterdam
+ur;نیو ایمسٹرڈیم;Nieuw Amsterdam
+am;ኒው አምስተርዳም;Nieuw Amsterdam
+az;Yeni Amsterdam;Nieuw Amsterdam
+fa;نیو آمستردام;Nieuw Amsterdam
+ha;Sabuwar Amsterdam;Nieuw Amsterdam
+pa;ਨਿਊ ਐਮਸਟਰਡੈਮ;Nieuw Amsterdam
+ps;نيو أمستردام;Nieuw Amsterdam
+tg;Нивю-Амстердам;Nieuw Amsterdam
+tt;Нивю-Амстердам;Nieuw Amsterdam
+kk;Лелидорп;Lelydorp
+ky;Лелидорп;Lelydorp
+bn;লেলিডর্প;Lelydorp
+ur;لیلی ڈورپ;Lelydorp
+am;ሌሊዶርፕ;Lelydorp
+fa;لیلیدورپ;Lelydorp
+pa;ਲੇਲੀਡੋਰਪ;Lelydorp
+ps;ليليدورب;Lelydorp
+tg;Лелидорп;Lelydorp
+tt;Лелидорп;Lelydorp
+kk;Гронинген;Groningen
+ky;Гронинген;Groningen
+bn;গ্রোনিনগেন;Groningen
+ur;گرونینگن;Groningen
+am;ግሮኒንገን;Groningen
+fa;گرونینگن;Groningen
+pa;ਗ੍ਰੋਨਿੰਗਨ;Groningen
+ps;غرونينغن;Groningen
+tg;Гронинген;Groningen
+tt;Гронинген;Groningen
+kk;Брокопондо;Brokopondo
+ky;Брокопондо;Brokopondo
+bn;ব্রোকোপন্ডো;Brokopondo
+ur;بروکوپونڈو;Brokopondo
+am;ብሮኮፖንዶ;Brokopondo
+fa;بروکوپوندو;Brokopondo
+pa;ਬ੍ਰੋਕੋਪੋਂਡੋ;Brokopondo
+ps;بروكوبوندو;Brokopondo
+tg;Брокопондо;Brokopondo
+tt;Брокопондо;Brokopondo
+ca;Witagron;Bitagron
+bg;Бенздорп;Benzdorp
+kk;Албина;Albina
+ky;Албина;Albina
+bn;আলবিনা;Albina
+ur;البینا;Albina
+am;አልቢና;Albina
+fa;البینا;Albina
+pa;ਅਲਬੀਨਾ;Albina
+ps;ألبينا;Albina
+tg;Албина;Albina
+tt;Албина;Albina
+br;Itatuba;Kabana-vo

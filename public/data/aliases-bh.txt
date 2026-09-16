@@ -183,3 +183,153 @@ tr;Er Rifaa;Ar Rifā‘
 ar;اَلْقَلْعَة;Al Qal‘ah
 ar;ضاحية السيف;Seef
 fa;السیف;Seef
+el;Σουφάλα;Sufālah
+id;Sufala;Sufālah
+he;סיטרה;Sitrah
+ur;سترہ;Sitrah
+nn;Sanad i Bahrain;Sanad
+nn;Galali;Qalālī
+el;Καλάλι;Qalālī
+nn;Isa by;Madīnat ‘Īsá
+lt;Madinat Isa;Madīnat ‘Īsá
+bn;ঈসা শহর;Madīnat ‘Īsá
+zh-Hans;伊萨城;Madīnat ‘Īsá
+ur;مدینہ عیسیٰ;Madīnat ‘Īsá
+sv;Madinat 'Isa;Madīnat ‘Īsá
+ko;이사타운;Madīnat ‘Īsá
+el;Μαντίνατ Ίσα;Madīnat ‘Īsá
+zh;伊薩城;Madīnat ‘Īsá
+eu;Madinat Isa;Madīnat ‘Īsá
+te;ఇసా టౌన్;Madīnat ‘Īsá
+nb;Isa by;Madīnat ‘Īsá
+ja;イーサ・タウン;Madīnat ‘Īsá
+tl;Madinat 'Isa;Madīnat ‘Īsá
+pl;Madinat 'Isa;Madīnat ‘Īsá
+ro;Madinat 'Isa;Madīnat ‘Īsá
+he;עיסא;Madīnat ‘Īsá
+ja;ジャウウ;Jaww
+nn;Hamad by;Madīnat Ḩamad
+lt;Madinat Hamadas;Madīnat Ḩamad
+bn;হামাদ শহর;Madīnat Ḩamad
+zh-Hans;哈马德镇;Madīnat Ḩamad
+ur;مدینہ حمد;Madīnat Ḩamad
+ko;하마드타운;Madīnat Ḩamad
+el;Μαντίνατ Χαμάντ;Madīnat Ḩamad
+zh;哈馬德鎮;Madīnat Ḩamad
+nb;Hamad by;Madīnat Ḩamad
+ja;ハマド・タウン;Madīnat Ḩamad
+he;חמד;Madīnat Ḩamad
+nn;Zallaq;Az Zallāq
+el;Ζαλάκ;Az Zallāq
+zh;宰拉格;Az Zallāq
+cs;Zallak;Az Zallāq
+ja;ザラーク;Az Zallāq
+ur;زلاق;Az Zallāq
+he;זאלאכ;Az Zallāq
+nn;Shakhura;Ash Shākhūrah
+nn;Nuwaidrat;An Nuwaydirāt
+el;Νουουαϊντράτ;An Nuwaydirāt
+sco;Nuwaidrat;An Nuwaydirāt
+pl;Al Muharrak;Al Muharraq
+bg;Манама;Manama
+ca;Al-Manama;Manama
+he;מנאמה;Manama
+id;Al-Manamah;Manama
+ja;マナーマ;Manama
+ko;마나마;Manama
+os;Манамæ;Manama
+sr;Манама;Manama
+uk;Манама;Manama
+el;Μανάμα;Manama
+bn;মানামা;Manama
+hy;Մանամա;Manama
+tg;Манама;Manama
+am;ማናማ;Manama
+th;มานามา;Manama
+nah;Manamah;Manama
+bo;མ་ན་མ།;Manama
+be;Манама;Manama
+mk;Манама;Manama
+su;Al-Manamah;Manama
+ur;منامہ;Manama
+ta;மனாமா;Manama
+mr;मनामा;Manama
+mn;Манама;Manama
+vep;Manam;Manama
+ce;Манама;Manama
+ka;მანამა;Manama
+kk;Манама;Manama
+pa;ਮਨਾਮਾ;Manama
+et;Al-Manāmah;Manama
+or;ମାନାମା;Manama
+zh;麦纳麦;Manama
+pih;Manaama;Manama
+yue;麥納瑪;Manama
+ky;Манама;Manama
+ml;മനാമ;Manama
+nn;Jasra;Al Jasrah
+el;Τζάσρα;Al Jasrah
+ja;アルジャスラ;Al Jasrah
+he;אל-ג'סרה;Al Jasrah
+ur;جسرہ;Al Jasrah
+ca;Jasra;Al Jasrah
+nn;Budaiya;Al Budayyi‘
+lt;Budaija;Al Budayyi‘
+bn;বুদাইয়া শহর;Al Budayyi‘
+zh-Hans;布戴亚;Al Budayyi‘
+ur;البدیع;Al Budayyi‘
+sco;Budaiya;Al Budayyi‘
+el;Μπουντάιγια;Al Budayyi‘
+zh;布戴亞;Al Budayyi‘
+nb;Budaiya;Al Budayyi‘
+ja;ブダイヤ;Al Budayyi‘
+tl;Al-Budayyi';Al Budayyi‘
+pl;Al-Budajji;Al Budayyi‘
+ro;Al-Budayyi';Al Budayyi‘
+he;בודיעא;Al Budayyi‘
+nn;Diraz;Ad Dirāz
+el;Ντιράζ;Ad Dirāz
+tl;Diraz;Ad Dirāz
+ro;Diraz;Ad Dirāz
+ur;دراز;Ad Dirāz
+hi;रीफा;Ar Rifā‘
+lt;Rifa;Ar Rifā‘
+lv;Rifa;Ar Rifā‘
+hy;Ռիֆֆա;Ar Rifā‘
+uk;Ріффа;Ar Rifā‘
+id;Riffa;Ar Rifā‘
+ur;رفاع;Ar Rifā‘
+sco;Riffa;Ar Rifā‘
+mn;Риффа;Ar Rifā‘
+mr;रिफा;Ar Rifā‘
+ms;Riffa;Ar Rifā‘
+el;Ριφά;Ar Rifā‘
+zh;里法;Ar Rifā‘
+eu;Ar-Rifa;Ar Rifā‘
+vi;Riffa;Ar Rifā‘
+nb;Riffa;Ar Rifā‘
+ja;リファー;Ar Rifā‘
+ro;Riffa;Ar Rifā‘
+nn;Riffa;Ar Rifā‘
+fi;Al-Riffa;Ar Rifā‘
+be;Рыфа;Ar Rifā‘
+bn;রিফা;Ar Rifā‘
+si;රිෆා;Ar Rifā‘
+ga;Riffa;Ar Rifā‘
+ca;Riffa;Ar Rifā‘
+kl;Riffa;Ar Rifā‘
+ce;РиффаӀ;Ar Rifā‘
+kn;ರಿಫಾ;Ar Rifā‘
+ko;리파;Ar Rifā‘
+ta;ரிஃபா;Ar Rifā‘
+gu;રિફા;Ar Rifā‘
+cs;Riffa;Ar Rifā‘
+pa;ਰਿਫ਼ਾ;Ar Rifā‘
+te;రిఫ్ఫా;Ar Rifā‘
+th;ริไฟนา;Ar Rifā‘
+tl;Riffa;Ar Rifā‘
+pl;Ar Rifa`;Ar Rifā‘
+he;רפאע;Ar Rifā‘
+da;Riffa;Ar Rifā‘
+ja;シーフ;Seef
+ur;سیف، بحرین;Seef

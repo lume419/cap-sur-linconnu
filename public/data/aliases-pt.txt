@@ -116,3 +116,982 @@ pt;Adofreire;A-do-Freire
 pt;Catrivana;Catribana
 pt;Ribeira d' Elos;Ribeira de Elos
 pt;Ribeira d'Elos;Ribeira de Elos
+el;Βίλα Ρεάλ ντε Σάντο Αντόνιο;Vila Real de Santo António
+ru;Вила-ду-Бишпу;Vila do Bispo
+ru;Торреш;Torres Vedras
+fa;تورس ودراس;Torres Vedras
+ka;ტორეშ-ვედრაში;Torres Vedras
+lt;Tores Vedrasas;Torres Vedras
+ms;Lapangan Terbang Santa Cruz;Torres Vedras
+mzn;تورس ودراس;Torres Vedras
+uk;Торреш-Ведраш;Torres Vedras
+ru;Торриш-Ведраш;Torres Vedras
+zh;托雷斯韋德拉什;Torres Vedras
+kk;Торран;Torrão
+ru;Торран;Torrão
+ru;Томар;Tomar
+ar;تومار;Tomar
+bg;Томар;Tomar
+fa;تومار;Tomar
+hi;तोमर;Tomar
+he;טומאר;Tomar
+ka;ტომარი;Tomar
+ja;トマール;Tomar
+sr;Томар;Tomar
+uk;Томар;Tomar
+ur;تومار;Tomar
+zh;托馬爾;Tomar
+el;Ταβίρα;Tavira
+ru;Тавира;Tavira
+bg;Тавира;Tavira
+fa;تاویرا;Tavira
+ja;タヴィラ;Tavira
+ka;ტავირა;Tavira
+mzn;تاویرا;Tavira
+uk;Тавіра;Tavira
+zh;塔維拉;Tavira
+el;Σίντρα;Sintra
+ja;シントラ;Sintra
+ru;Синтра;Sintra
+ar;سينترا;Sintra
+be;Сінтра;Sintra
+fa;سینترا;Sintra
+ko;신트라;Sintra
+hy;Սինտրա;Sintra
+he;סינטרה;Sintra
+ka;სინტრა;Sintra
+ml;സിൻട്ര;Sintra
+sr;Синтра;Sintra
+th;ซิงตรา;Sintra
+uk;Сінтра;Sintra
+zh;辛特拉;Sintra
+fa;ساینس، پرتغال;Sines
+ja;シーネス;Sines
+ka;სინესი;Sines
+mzn;ساینس، پرتغال;Sines
+sr;Синеш;Sines
+uk;Сінеш;Sines
+ru;Синиш;Sines
+zh;锡尼什;Sines
+sr;Силвеш;Silves
+ru;Силвеш;Silves
+ru;Сесимбра;Sesimbra
+el;Σετούμπαλ;Setúbal
+fa;ستوبال;Setúbal
+ru;Сетубал;Setúbal
+ko;세투발;Setúbal
+ka;სეტუბალი;Setúbal
+ja;セトゥーバル;Setúbal
+bg;Сетубал;Setúbal
+th;ซือตูบัล;Setúbal
+be;Сетубал;Setúbal
+ar;سيتوبال;Setúbal
+lt;Setubalis;Setúbal
+he;סטובל;Setúbal
+lv;Setubala;Setúbal
+am;ሴቱባል;Setúbal
+mzn;ستوبال;Setúbal
+sr;Сетубал;Setúbal
+uk;Сетубал;Setúbal
+zh;塞图巴尔;Setúbal
+mn;Сетубал;Setúbal
+ur;سیتوبال;Setúbal
+kk;Сетубал;Setúbal
+ky;Сетубал;Setúbal
+hi;सेतुबल;Setúbal
+bn;সেতুবাল;Setúbal
+pa;ਸੇਤੁਬਾਲ;Setúbal
+ps;سیتوبال;Setúbal
+tg;Сетубал;Setúbal
+tt;Сетубал;Setúbal
+ru;Серпа;Serpa
+ru;Сан-Висенте;São Vicente
+uk;Сан-Вісенте;São Vicente
+ru;Сан-Висенти;São Vicente
+zh;聖維森特;São Vicente
+uk;Сан-Браш-де-Алпортел;São Brás de Alportel
+ru;Сан-Браш-ди-Алпортел;São Brás de Alportel
+zh;聖布拉什迪阿爾波特爾;São Brás de Alportel
+el;Σανταρέμ;Santarém
+ru;Сантарен;Santarém
+ar;سانتارين;Santarém
+kk;Сантарен;Santarém
+ky;Сантарен;Santarém
+hi;सांतारेम;Santarém
+bn;সান্তারেম;Santarém
+ur;سانتارم;Santarém
+am;ሳንታረም;Santarém
+fa;سانتارم;Santarém
+ja;サンタレン;Santarém
+pa;ਸੰਤਾਰੇਮ;Santarém
+ps;سانتارم;Santarém
+tg;Сантарен;Santarém
+tt;Сантарен;Santarém
+ru;Сантана;Santana
+el;Σάντα Κρουζ;Santa Cruz
+fa;سانتا کروز، مادیرا;Santa Cruz
+ka;სანტა-კრუში;Santa Cruz
+ko;산타크루스;Santa Cruz
+mzn;سانتا کروز، مادیرا;Santa Cruz
+uk;Санта-Круж;Santa Cruz
+ru;Санта-Круш;Santa Cruz
+zh;聖克魯斯;Santa Cruz
+ru;Сагреш;Sagres
+ar;شقبان;Sacavém
+bg;Сакавен;Sacavém
+el;Σακαβέμ;Sacavém
+fa;ساکاوم;Sacavém
+ja;サカヴェン;Sacavém
+ka;საკავენი;Sacavém
+kk;Сакавен;Sacavém
+lt;Sakavenas;Sacavém
+lv;Sakavena;Sacavém
+mk;Сакавен;Sacavém
+mzn;ساکاوم;Sacavém
+sr;Сакавен;Sacavém
+tet;Sakavain;Sacavém
+uk;Сакавень;Sacavém
+ru;Сакавен;Sacavém
+zh;萨卡文;Sacavém
+el;Ριβέιρα Μπράβα;Ribeira Brava
+sr;Регенгош де Монсараж;Reguengos de Monsaraz
+ru;Регенгош Де Монсараж;Reguengos de Monsaraz
+ru;Келуш;Queluz
+nn;Queluz i Portugal;Queluz
+tt;Келуж;Queluz
+be;Келуш;Queluz
+lt;Kelusas;Queluz
+ka;კელუში;Queluz
+kk;Келуш;Queluz
+mzn;کیوئلز، پرتغال;Queluz
+el;Κελούζ;Queluz
+zh;克盧什;Queluz
+ar;كويلوز;Queluz
+ja;ケルシュ;Queluz
+fa;کیوئلز، پرتغال;Queluz
+he;קואלוז';Queluz
+ru;Празереш;Prazeres
+ru;Прая-ду-Рибатежу;Praia do Ribatejo
+kk;Прайа-ду-Рибатежу;Praia do Ribatejo
+ru;Повуа-де-Санта-Ирия;Póvoa de Santa Iria
+ru;Порту-Мониш;Porto Moniz
+ru;Порту-Кову;Porto Covo
+ru;Портиман;Portimão
+ru;Порталегре;Portalegre
+ar;بورتاليغري;Portalegre
+ar;بورتاليجري;Portalegre
+fa;پرتالگره;Portalegre
+ur;پورتالیگرے;Portalegre
+kk;Порталегри;Portalegre
+ky;Порталегри;Portalegre
+hi;पोर्टालेग्रे;Portalegre
+bn;পোর্টালেগ্রে;Portalegre
+am;ፖርታሌግሬ;Portalegre
+ja;ポルタレグレ;Portalegre
+pa;ਪੋਰਟਾਲੇਗ੍ਰੇ;Portalegre
+ps;پورتالیگری;Portalegre
+tg;Порталегри;Portalegre
+tt;Порталегри;Portalegre
+el;Πόντα ντο Σολ;Ponta do Sol
+ru;Понта-ду-Паргу;Ponta do Pargo
+ru;Помбал;Pombal
+ru;Паул-ду-Мар;Paul do Mar
+kk;Паршал;Parchal
+ru;Паршал;Parchal
+kk;Санта-Мария-душ-Оливайш;Olivais
+tr;Santa Maria dos Olivais;Olivais
+ru;Санта-Мария-дуз-Оливайш;Olivais
+fa;اودیولاس;Odivelas
+ru;Обидуш;Óbidos
+el;Όμπιδος;Óbidos
+ko;오비두스;Óbidos
+he;אובידוש;Óbidos
+th;ออบีดุช;Óbidos
+uk;Обідуш;Óbidos
+zh;奧比杜什;Óbidos
+ru;Монте;Nossa Senhora do Monte
+el;Ναζαρέ;Nazaré
+ja;ナザレ;Nazaré
+ru;Назаре;Nazaré
+ko;나자레;Nazaré
+uk;Назаре;Nazaré
+zh;納扎雷;Nazaré
+ka;მორა;Moura
+lt;Mora;Moura
+uk;Моура;Moura
+ru;Мора;Moura
+zh;莫拉;Moura
+sr;Мовра;Moura
+ru;Монтихо;Montijo
+ru;Монсанто;Monsanto
+ar;مارتلة;Mértola
+ja;メルトラ;Mértola
+uk;Мертола;Mértola
+ru;Мертола;Mértola
+zh;梅爾圖拉;Mértola
+ru;Марван;Marvão
+ru;Мармелете;Marmelete
+kk;Лумиар;Lumiar
+ru;Лумиар;Lumiar
+ru;Лугар-де-Байшу;Lugar de Baixo
+el;Λόυρες;Loures
+ru;Лола;Loulé
+sr;Ловле;Loulé
+ar;لشبونة;Lisboa
+bg;Лисабон;Lisboa
+cs;Lisabon;Lisboa
+cy;Lisbon;Lisboa
+da;Lissabon;Lisboa
+el;Λισαβώνα;Lisboa
+et;Lissabon;Lisboa
+fa;لیسبون;Lisboa
+fi;Lissabon;Lisboa
+ga;Liospóin;Lisboa
+he;ליסבון;Lisboa
+hi;लिस्बन;Lisboa
+hu;Lisszabon;Lisboa
+is;Lissabon;Lisboa
+ja;リスボン;Lisboa
+ko;리스본;Lisboa
+lt;Lisabona;Lisboa
+lv;Lisabona;Lisboa
+mh;Lisbon;Lisboa
+mr;लिस्बन;Lisboa
+ms;Lisbon;Lisboa
+pl;Lizbona;Lisboa
+ro;Lisabona;Lisboa
+ru;Лиссабон;Lisboa
+sk;Lisabon;Lisboa
+sl;Lizbona;Lisboa
+sr;Лисабон;Lisboa
+sv;Lissabon;Lisboa
+be;Лісабон;Lisboa
+bs;Lisabon;Lisboa
+hr;Lisabon;Lisboa
+ka;ლისაბონი;Lisboa
+tet;Lizboa;Lisboa
+tg;Лиссабон;Lisboa
+th;ลิสบอน;Lisboa
+tr;Lizbon;Lisboa
+ug;لىسابون;Lisboa
+af;Lissabon;Lisboa
+am;ሊዝቦን;Lisboa
+gd;Lisbon;Lisboa
+hy;Լիսաբոն;Lisboa
+ady;Лиссабон;Lisboa
+gn;Lisimbã;Lisboa
+av;Лиссабон;Lisboa
+az;Lissabon;Lisboa
+bn;লিসবন;Lisboa
+ba;Лиссабон;Lisboa
+bo;ལི་སི་བཱོན།;Lisboa
+el;Λεϊρία;Leiria
+he;לייריה;Leiria
+ru;Лейрия;Leiria
+sr;Лејрија;Leiria
+ar;لييريا;Leiria
+kk;Лейрия;Leiria
+ky;Лейрия;Leiria
+hi;लेरिया;Leiria
+bn;লেইরিয়া;Leiria
+ur;لیریا;Leiria
+am;ልየሪያ;Leiria
+fa;لیریا;Leiria
+ja;レイリア;Leiria
+pa;ਲੇਰਿਆ;Leiria
+ps;لیریا;Leiria
+tg;Лейрия;Leiria
+tt;Лейрия;Leiria
+sr;Лагош;Lagos
+ru;Лагош;Lagos
+ru;Жардин-ду-Мар;Jardim do Mar
+uk;Іданья-а-Нова;Idanha-a-Nova
+ru;Иданья-а-Нова;Idanha-a-Nova
+zh;新伊達尼亞;Idanha-a-Nova
+uk;Грандола;Grândola
+ru;Грандола;Grândola
+zh;格蘭杜拉;Grândola
+bg;Фуншал;Funchal
+el;Φουντσάλ;Funchal
+ja;フンシャル;Funchal
+ru;Фуншал;Funchal
+lt;Funšalis;Funchal
+be;Фуншал;Funchal
+uz;Funshal;Funchal
+lv;Funšala;Funchal
+ko;푼샬;Funchal
+mr;फुंकल;Funchal
+he;פונשל;Funchal
+fa;فونچال;Funchal
+mzn;فونچال;Funchal
+os;Фуншал;Funchal
+sr;Фуншал;Funchal
+ar;فونشال;Funchal
+uk;Фуншал;Funchal
+ka;ფუნშალი;Funchal
+th;ฟุงชาล;Funchal
+zh;丰沙尔;Funchal
+kk;Фуншал;Funchal
+ky;Фуншал;Funchal
+hi;फुंचल;Funchal
+bn;ফানশাল;Funchal
+ur;فنچل;Funchal
+am;ፉንቻል;Funchal
+pa;ਫੁੰਚਲ;Funchal
+ps;فنچل;Funchal
+tg;Фуншал;Funchal
+tt;Фуншал;Funchal
+ru;Фигуэйра де Гинчо;Figueira do Guincho
+ru;Гинчо;Figueira do Guincho
+uk;Феррейра-ду-Алентежу;Ferreira do Alentejo
+ru;Феррейра-ду-Алентежу;Ferreira do Alentejo
+zh;費雷拉杜阿連特茹;Ferreira do Alentejo
+el;Φάτιμα;Fátima
+ja;ファティマ;Fátima
+ru;Фатима;Fátima
+uk;Фатіма;Fátima
+zh-TW;花地瑪;Fátima
+os;Фатимæ;Fátima
+mzn;فاطیما;Fátima
+bg;Фатима;Fátima
+ko;파티마;Fátima
+sr;Фатима;Fátima
+fa;فاتیما;Fátima
+ml;ഫാത്തിമ;Fátima
+ar;فاطمة;Fátima
+zh;花地瑪;Fátima
+ru;Фару;Faro
+ar;فارو;Faro
+kk;Фару;Faro
+ky;Фару;Faro
+hi;फारो;Faro
+bn;ফারো;Faro
+ur;فارو;Faro
+am;ፋሮ;Faro
+fa;فارو;Faro
+ja;ファロ;Faro
+pa;ਫਾਰੋ;Faro
+ps;فارو;Faro
+tg;Фару;Faro
+tt;Фару;Faro
+ru;Фажан-да-Овелья;Fajã da Ovelha
+ru;Эвора;Évora
+ar;إيفورا;Évora
+kk;Эвора;Évora
+ky;Эвора;Évora
+hi;एवोरा;Évora
+bn;এভোরা;Évora
+ur;ایووارا;Évora
+am;ኢቮራ;Évora
+fa;اووا;Évora
+ja;エヴォラ;Évora
+pa;ਈਵੋਰਾ;Évora
+ps;ایووارا;Évora
+tg;Эвора;Évora
+tt;Эвора;Évora
+sr;Ештремож;Estremoz
+ru;Ештремож;Estremoz
+ru;Эштрейту-да-Кальета;Estreito da Calheta
+el;Εστορίλ;Estoril
+ja;エストリル;Estoril
+bg;Ещорил;Estoril
+ru;Эшторил;Estoril
+ar;إستوريل;Estoril
+kk;Эшторил;Estoril
+lt;Estorilis;Estoril
+sr;Ешторил;Estoril
+uk;Ештуріл;Estoril
+fa;اشتوریل;Estoril
+ko;이스토릴;Estoril
+ka;ეშტორილი;Estoril
+ru;Куррал-даш-Фрейраш;Curral das Freiras
+ru;Шарнека;Charneca de Caparica
+uk;Каштру-Верді;Castro Verde
+ru;Каштру-Верди;Castro Verde
+ru;Каштелу-де-Виде;Castelo de Vide
+ru;Каштелу-Бранку;Castelo Branco
+sr;Каштело Бранко;Castelo Branco
+ar;كاستيلو برانكو;Castelo Branco
+kk;Кастелу-Бранку;Castelo Branco
+ky;Кастелу-Бранку;Castelo Branco
+hi;कास्टेलो ब्रांको;Castelo Branco
+bn;ক্যাস্টেলো ব্রাঙ্কো;Castelo Branco
+ur;کاسٹیلو برانکو;Castelo Branco
+am;ካስቴሎ ብራንኮ;Castelo Branco
+fa;کاستلو برانکو;Castelo Branco
+ja;カステロ・ブランコ;Castelo Branco
+pa;ਕੈਸਟੇਲੋ ਬ੍ਰਾਂਕੋ;Castelo Branco
+ps;کاسٹیلو برانکو;Castelo Branco
+tg;Кастелу-Бранку;Castelo Branco
+tt;Кастелу-Бранку;Castelo Branco
+bg;Кашкайш;Cascais
+el;Κασκάις;Cascais
+ja;カスカイス;Cascais
+lt;Kaškaišas;Cascais
+sr;Кашкајш;Cascais
+uk;Кашкайш;Cascais
+ru;Кашкайш;Cascais
+zh;卡斯凯什;Cascais
+ru;Карвоейро;Carvoeiro
+ru;Каррапатейра;Carrapateira
+ru;Карнашиде;Carnaxide
+ru;Канисал;Caniçal
+kk;Канисал;Caniçal
+uk;Канісал;Caniçal
+kk;Камполиде;Campolide
+ru;Камполиде;Campolide
+ru;Камарате;Camarate
+el;Καμάρα ντε Λόμπος;Câmara de Lobos
+ru;Камара-де-Лобос;Câmara de Lobos
+ar;كامارا دي لوبوس;Câmara de Lobos
+fa;کامارا دلوبوس;Câmara de Lobos
+ka;კამარა-დი-ლობუში;Câmara de Lobos
+mzn;کامارا دلوبوس;Câmara de Lobos
+uk;Камара-де-Лобуш;Câmara de Lobos
+ru;Камара-ди-Лобуш;Câmara de Lobos
+zh;卡馬拉-德洛布什;Câmara de Lobos
+ru;Камаша;Camacha
+ru;Кальета;Calheta
+uk;Кальєта;Calheta
+he;קלייטה;Calheta
+ko;칼례타;Calheta
+zh;卡列塔;Calheta
+mzn;کالداس داراینیا;Caldas da Rainha
+fa;کالداس داراینیا;Caldas da Rainha
+ja;カルダス・ダ・ライーニャ;Caldas da Rainha
+sr;Калдаш да Рајња;Caldas da Rainha
+ru;Калдаш-да-Раинья;Caldas da Rainha
+ka;კალდაშ-და-რაინია;Caldas da Rainha
+kbd;Къуапэ Рока;Cabo da Roca
+af;Kaap Roca;Cabo da Roca
+az;Roka burnu;Cabo da Roca
+be;Мыс Рока;Cabo da Roca
+bg;Кабу да Рока;Cabo da Roca
+cs;Mys Roca;Cabo da Roca
+da;Kap Roca;Cabo da Roca
+ko;호카곶;Cabo da Roca
+hr;Stjenoviti rt;Cabo da Roca
+is;Rocahöfði;Cabo da Roca
+he;קאבו דה רוקה;Cabo da Roca
+ka;როკის კონცხი;Cabo da Roca
+lt;Uolos kyšulys;Cabo da Roca
+hu;Szikla-fok;Cabo da Roca
+ja;ロカ岬;Cabo da Roca
+no;Kapp Roca;Cabo da Roca
+nn;Kapp Roca;Cabo da Roca
+ru;Мыс Рока;Cabo da Roca
+sco;Cape Roca;Cabo da Roca
+sl;Rt Roca;Cabo da Roca
+sr;Кабо да Рока;Cabo da Roca
+sv;Kap Roca;Cabo da Roca
+tr;Roca Burnu;Cabo da Roca
+uk;Мис Рока;Cabo da Roca
+zh;罗卡角;Cabo da Roca
+ru;Борба;Borba
+pl;Torre de Belém;Belém
+fi;Belémin torni;Belém
+hu;Belém torony;Belém
+is;Betlehemsturninn;Belém
+zh;贝伦塔;Belém
+ru;Беха;Beja
+ar;بيجا;Beja
+kk;Беха;Beja
+ky;Беха;Beja
+hi;बेजा;Beja
+bn;বেজা;Beja
+ur;بیجا;Beja
+am;በጃ;Beja
+fa;بیجا;Beja
+ja;ベジャ;Beja
+pa;ਬੇਜਾ;Beja
+ps;بیجا;Beja
+tg;Беха;Beja
+tt;Беха;Beja
+el;Μπατάλια;Batalha
+lt;Batalja;Batalha
+ja;バターリャ;Batalha
+ru;Баталья;Batalha
+uk;Баталя;Batalha
+zh;巴塔利亞;Batalha
+ru;Баррейру;Barreiro
+ru;Баран-де-Сан-Жуан;Barão de São João
+uk;Азамбужа;Azambuja
+ru;Азамбужа;Azambuja
+zh;阿贊布雅;Azambuja
+ru;Аррентела;Arrentela
+ru;Арку-да-Кальета;Arco da Calheta
+el;Αμαδόρα;Amadora
+ru;Амадора;Amadora
+ru;Алмограве;Almograve
+ru;Алмансил;Almancil
+el;Αλμάντα;Almada
+ru;Алмада;Almada
+ru;Алкобаса;Alcobaça
+ar;ألكوباكا;Alcobaça
+fa;آلکوباسا;Alcobaça
+hy;Ալկոբասա;Alcobaça
+lt;Alkobasa;Alcobaça
+mzn;آلکوباسا;Alcobaça
+uk;Алкобаса;Alcobaça
+zh;阿爾科巴薩;Alcobaça
+fa;الکانینا;Alcanena
+kk;Алканена;Alcanena
+uk;Алканена;Alcanena
+ru;Алканена;Alcanena
+zh;阿尔卡内纳;Alcanena
+ar;الكاسر دو سال;Alcácer do Sal
+ja;アルカセル・ド・サル;Alcácer do Sal
+ka;ალკასერ-დუ-სალი;Alcácer do Sal
+mzn;آلکاسر دوسال;Alcácer do Sal
+uk;Алкасер-ду-Сал;Alcácer do Sal
+ru;Алкасер-ду-Сал;Alcácer do Sal
+ru;Алкабидеше;Alcabideche
+fa;آلبوفیرا;Albufeira
+ru;Албуфейра;Albufeira
+sr;Албуфејра;Albufeira
+ru;Абрантиш;Abrantes
+zh;阿布兰特什;Abrantes
+ar;آبرانتس;Abrantes
+be;Абрантыш;Abrantes
+fa;آبرانتس;Abrantes
+ja;アブランテス;Abrantes
+ka;აბრანტეში;Abrantes
+mzn;ابرانتس;Abrantes
+uk;Абрантіш;Abrantes
+uz;Abrantish;Abrantes
+sr;Абрантеш;Abrantes
+fa;ابلهیرا;Abelheira
+ru;Визела;Vizela
+ru;Визеу;Viseu
+ar;فيسيو;Viseu
+kk;Визеу;Viseu
+ky;Визеу;Viseu
+hi;विसेउ;Viseu
+bn;ভিসিউ;Viseu
+ur;ویسیو;Viseu
+am;ቪሴው;Viseu
+fa;ویزئو;Viseu
+ja;ヴィセウ;Viseu
+pa;ਵਿਸਿਊ;Viseu
+ps;ویسیو;Viseu
+tg;Визеу;Viseu
+tt;Визеу;Viseu
+uk;Віньяйш;Vinhais
+ru;Виньяйш;Vinhais
+zh;维尼艾什;Vinhais
+kk;Вилар-Формозу;Vilar Formoso
+ru;Вилар-Формозу;Vilar Formoso
+el;Βίλα Ρεάλ;Vila Real
+ru;Вила-Реал;Vila Real
+mzn;ویلا رئال;Vila Real
+lt;Vila Realas;Vila Real
+fa;ویلا رئال;Vila Real
+zh;雷阿爾城;Vila Real
+ja;ヴィラ・レアル;Vila Real
+ka;ვილა-რეალი;Vila Real
+sr;Вила Реал;Vila Real
+ar;فيلا ريال;Vila Real
+kk;Вила-Реал;Vila Real
+ky;Вила-Реал;Vila Real
+hi;विला रिओल;Vila Real
+bn;ভিলা রিয়াল;Vila Real
+ur;ویلا ریال;Vila Real
+am;ቪላ ሪአል;Vila Real
+pa;ਵਿਲਾ ਰੀਅਲ;Vila Real
+ps;ویلا ریال;Vila Real
+tg;Вила-Реал;Vila Real
+tt;Вила-Реал;Vila Real
+el;Βίλα Νόβα ντε Γκάια;Vila Nova de Gaia
+ru;Вила-Нова-де-Гайя;Vila Nova de Gaia
+el;Βίλα ντο Κόντε;Vila do Conde
+ru;Вила-ду-Конде;Vila do Conde
+fa;ویلا دو کنده;Vila do Conde
+lt;Vila do Kondė;Vila do Conde
+mzn;ویلا دو کنده;Vila do Conde
+ru;Вила-ду-Конди;Vila do Conde
+ka;ვილა-დუ-კონდე;Vila do Conde
+zh;孔迪镇;Vila do Conde
+sr;Вјана до Каштело;Viana do Castelo
+ru;Виана-ду-Каштелу;Viana do Castelo
+ar;فيانا دو كاستيلو;Viana do Castelo
+kk;Виана-ду-Каштелу;Viana do Castelo
+ky;Виана-ду-Каштелу;Viana do Castelo
+hi;विआना डु कास्टेलो;Viana do Castelo
+bn;ভিয়ানা দো কাস্টেলো;Viana do Castelo
+ur;ویانا ڈو کاسٹیلو;Viana do Castelo
+am;ቪያና ዱ ካስቴሎ;Viana do Castelo
+fa;ویانا دو کاستلو;Viana do Castelo
+ja;ヴィアナ・ドゥ・カステロ;Viana do Castelo
+pa;ਵਿਆਨਾ ਡੂ ਕੈਸਟੇਲੋ;Viana do Castelo
+ps;ویانا ډو کاسٹیلو;Viana do Castelo
+tg;Виана-ду-Каштелу;Viana do Castelo
+tt;Виана-ду-Каштелу;Viana do Castelo
+ru;Валонгу;Valongo
+ru;Тондела;Tondela
+fa;توندلا;Tondela
+ka;ტონდელა;Tondela
+mzn;توندلا;Tondela
+zh;通德拉;Tondela
+el;Σούρε;Soure
+ms;Perbandaran Soure;Soure
+ru;Сори;Soure
+sr;Совре;Soure
+ru;Сан-Мамед-де-Инфешта;São Mamede de Infesta
+ru;Сан-Жуан-да-Мадейра;São João da Madeira
+fa;سابوگال;Sabugal
+mzn;سابوگال;Sabugal
+ur;سبگل بلدیہ;Sabugal
+ru;Сабугал;Sabugal
+zh;薩布加爾;Sabugal
+ru;Рубиайнш;Rubiãis
+fa;ریو تینتو;Rio Tinto
+ka;რიო-ტინტო;Rio Tinto
+kk;Риу-Тинту;Rio Tinto
+mzn;ریو تینتو;Rio Tinto
+nn;Rio Tinto i Portugal;Rio Tinto
+ru;Риу-Тинту;Rio Tinto
+zh;里奧廷托;Rio Tinto
+kk;Рамалде;Ramalde
+ru;Рамалде;Ramalde
+zh;拉马尔迪;Ramalde
+el;Πόβοα ντε Βαρζίμ;Póvoa de Varzim
+fa;پووا دوارزیم;Póvoa de Varzim
+sr;Повоа де Варзим;Póvoa de Varzim
+lt;Povua de Varzinas;Póvoa de Varzim
+mzn;پووا دوارزیم;Póvoa de Varzim
+ru;Повуа-ди-Варзин;Póvoa de Varzim
+zh;波瓦-迪瓦爾津;Póvoa de Varzim
+ka;პოვუა-დე-ვარშინი;Póvoa de Varzim
+ar;بورتو;Porto
+bg;Порто;Porto
+el;Πόρτο;Porto
+fa;پورتو;Porto
+he;פורטו;Porto
+ja;ポルト;Porto
+ka;პორტუ;Porto
+lv;Portu;Porto
+ru;Порту;Porto
+tet;Portu;Porto
+uk;Порту;Porto
+zh-TW;波圖;Porto
+ga;Oporto;Porto
+kk;Порту;Porto
+ky;Порту;Porto
+hi;पोर्टो;Porto
+bn;পোর্তো;Porto
+ur;پورٹو;Porto
+am;ፖርቶ;Porto
+pa;ਪੋਰਟੋ;Porto
+ps;پورٹو;Porto
+tg;Порту;Porto
+tt;Порту;Porto
+ru;Понте де Лима;Ponte de Lima
+uk;Понте-да-Барка;Ponte da Barca
+ru;Понти-да-Барка;Ponte da Barca
+zh;蓬蒂達巴爾卡;Ponte da Barca
+fa;پسو دا رگوا;Peso da Régua
+ka;პეზუ-და-რეგუა;Peso da Régua
+mzn;پسو دا رگوا;Peso da Régua
+ru;Пезу-да-Регуа;Peso da Régua
+el;Πεναφιέλ;Penafiel
+ka;პენაფიელი;Penafiel
+lt;Penafjelis;Penafiel
+ru;Пенафиел;Penafiel
+zh;佩納菲耶爾;Penafiel
+kk;Параньюш;Paranhos
+ru;Параньюш;Paranhos
+zh;帕拉纽什;Paranhos
+el;Παμπιλιόσα ντα Σέρα;Pampilhosa da Serra
+el;Πάσος ντε Φερέϊρα;Paços de Ferreira
+ru;Овар;Ovar
+el;Ολιβέιρα ντο Όσπιταλ;Oliveira do Hospital
+fa;اولیویرا دو هاسپیتال;Oliveira do Hospital
+ka;ოლივეირა-დუ-ოშპიტალი;Oliveira do Hospital
+kk;Оливейра-ду-Ошпитал;Oliveira do Hospital
+mzn;اولیویرا دو هاسپیتال;Oliveira do Hospital
+ru;Оливейра-ду-Ошпитал;Oliveira do Hospital
+zh;奧利韋拉杜奧什皮塔爾;Oliveira do Hospital
+ru;Оливейра-ди-Аземейш;Oliveira de Azemeis
+ru;Монтемор-о-Велью;Montemor-o-Velho
+ka;მონტემორ-უ-ველიუ;Montemor-o-Velho
+kk;Монтемор-у-Велью;Montemor-o-Velho
+ru;Монтемор-у-Велью;Montemor-o-Velho
+zh;舊蒙特莫爾;Montemor-o-Velho
+ru;Монсанту;Monsanto
+ru;Мирандела;Mirandela
+fa;میراندا دودوئورو;Miranda do Douro
+ja;ミランダ・ド・ドウロ;Miranda do Douro
+ka;მირანდა-დუ-დორუ;Miranda do Douro
+lt;Miranda do Doras;Miranda do Douro
+mzn;میراندا دودوئورو;Miranda do Douro
+uk;Міранда-ду-Дору;Miranda do Douro
+ru;Миранда-ду-Дору;Miranda do Douro
+el;Μιράντα ντο Κόρβο;Miranda do Corvo
+fa;ماتوسینوس;Matosinhos
+ka;მატოზინიუში;Matosinhos
+lt;Matozinjosas;Matosinhos
+mzn;ماتوسینوس;Matosinhos
+ru;Матозиньюш;Matosinhos
+pl;Marco de Canaveses;Marco de Canavezes
+ro;Marco de Canaveses;Marco de Canavezes
+tr;Marco de Canaveses;Marco de Canavezes
+ru;Мантейгас;Manteigas
+ru;Мангуалде;Mangualde
+fa;مانگولاد;Mangualde
+ka;მანგუალდი;Mangualde
+mzn;مانگولاد;Mangualde
+ru;Мангуалди;Mangualde
+ru;Майя;Maia
+ru;Лусу;Luso
+el;Λούζα;Lousã
+kk;Лорделу-ду-Ору;Lordelo do Ouro
+ru;Лорделу-ду-Ору;Lordelo do Ouro
+el;Γκιμαράες;Guimarães
+ru;Гимарайнш;Guimarães
+sr;Гимарајш;Guimarães
+ru;Гуарда;Guarda
+ja;グアルダ;Guarda
+ar;غوردا;Guarda
+kk;Гуарда;Guarda
+ky;Гуарда;Guarda
+hi;गुआर्दा;Guarda
+bn;গুয়ার্দা;Guarda
+ur;گوارڈا;Guarda
+am;ጋርዳ;Guarda
+fa;گوارد;Guarda
+pa;ਗੁਆਰਦਾ;Guarda
+ps;گوارډا;Guarda
+tg;Гуарда;Guarda
+tt;Гуарда;Guarda
+ru;Гондомар;Gondomar
+ru;Гандра;Gandra
+uk;Фрейшу-ді-Ешпада-а-Сінта;Freixo de Espada à Cinta
+ru;Фрейшу-ди-Эшпада-а-Синта;Freixo de Espada à Cinta
+ru;Фреамунде;Freamunde
+ru;Фигейра-ди-Каштелу-Родригу;Figueira de Castelo Rodrigo
+el;Φιγκέιρα ντα Φους;Figueira da Foz
+ru;Фигейра-да-Фош;Figueira da Foz
+sr;Фигејра да Фош;Figueira da Foz
+fa;فیگوئرا دافوش;Figueira da Foz
+lt;Figeira da Fosas;Figueira da Foz
+mzn;فیگوئرا دافوش;Figueira da Foz
+ko;피게이라다포스;Figueira da Foz
+zh;菲蓋拉-達福什;Figueira da Foz
+ka;ფიგეირა-და-ფოში;Figueira da Foz
+el;Φέλγκεϊρας;Felgueiras
+ru;Фафе;Fafe
+fa;استارژا;Estarreja
+ka;ეშტარეჟა;Estarreja
+mzn;استارژا;Estarreja
+uk;Ештаррежа;Estarreja
+ru;Эштаррежа;Estarreja
+zh;埃斯塔雷雅;Estarreja
+el;Εσπίνιο;Espinho
+ja;エスピーニョ;Espinho
+lt;Espinjas;Espinho
+ru;Эшпинью;Espinho
+ru;Эрмезинде;Ermesinde
+ru;Ковильян;Covilhã
+el;Κόιμπρα;Coimbra
+ja;コインブラ;Coimbra
+ru;Коимбра;Coimbra
+sr;Коимбра;Coimbra
+tet;Koímbra;Coimbra
+zh;科英布拉;Coimbra
+ar;كويمبرا;Coimbra
+kk;Коимбра;Coimbra
+ky;Коимбра;Coimbra
+hi;कोइम्ब्रा;Coimbra
+bn;কোইম্ব্রা;Coimbra
+ur;کوئمبرا;Coimbra
+am;ኮይምብራ;Coimbra
+fa;کویمبرا;Coimbra
+pa;ਕੋਇਮਬਰਾ;Coimbra
+ps;کویمبرا;Coimbra
+tg;Коимбра;Coimbra
+tt;Коимбра;Coimbra
+kk;Кампаньян;Campanhã
+ru;Кампаньян;Campanhã
+zh;坎帕尼扬;Campanhã
+ar;كامينيا;Caminha
+bg;Каминя;Caminha
+uk;Камінья;Caminha
+ru;Каминья;Caminha
+zh;卡米尼亞;Caminha
+uk;Кабесейраш-ді-Башту;Cabeceiras de Basto
+ru;Кабесейраш-ди-Башту;Cabeceiras de Basto
+zh;卡貝塞拉什德巴什圖;Cabeceiras de Basto
+ru;Браганца;Bragança
+ar;براغانسا;Bragança
+kk;Брагань;Bragança
+ky;Брагань;Bragança
+hi;ब्रागान्का;Bragança
+bn;ব্রাগানসা;Bragança
+ur;براگانسا;Bragança
+am;ብራጋንሳ;Bragança
+fa;براگانسا;Bragança
+ja;ブラガンサ;Bragança
+pa;ਬ੍ਰਾਗਾਂਸਾ;Bragança
+ps;براگانسا;Bragança
+tg;Брагань;Bragança
+tt;Брагань;Bragança
+el;Μπράγκα;Braga
+fa;براگا;Braga
+ja;ブラガ;Braga
+ru;Брага;Braga
+ar;براغا;Braga
+kk;Брага;Braga
+ky;Брага;Braga
+hi;ब्रागा;Braga
+bn;ব্রাগা;Braga
+ur;براگا;Braga
+am;ብራጋ;Braga
+pa;ਬ੍ਰਾਗਾ;Braga
+ps;براگا;Braga
+tg;Брага;Braga
+tt;Брага;Braga
+sr;Барселос;Barcelos
+uk;Барселуш;Barcelos
+mzn;بارسلوس;Barcelos
+ja;バルセロス;Barcelos
+fa;بارسلوس;Barcelos
+lt;Barselosas;Barcelos
+ar;بارسيلوس;Barcelos
+ru;Барселуш;Barcelos
+zh;巴塞卢什;Barcelos
+ka;ბარსელუში;Barcelos
+el;Αβέιρο;Aveiro
+ru;Авейру;Aveiro
+sr;Авејро;Aveiro
+ar;أفيرو;Aveiro
+kk;Авейру;Aveiro
+ky;Авейру;Aveiro
+hi;अवेइरो;Aveiro
+bn;এভেইরো;Aveiro
+ur;اویرو;Aveiro
+am;አቬይሮ;Aveiro
+fa;آویرو;Aveiro
+ja;アヴェイロ;Aveiro
+pa;ਅਵੇਇਰੋ;Aveiro
+ps;اویرو;Aveiro
+tg;Авейру;Aveiro
+tt;Авейру;Aveiro
+kk;Арганил;Arganil
+ru;Арганил;Arganil
+zh;阿加尼爾;Arganil
+fa;آنادیا;Anadia
+ka;ანადია;Anadia
+kk;Анадия;Anadia
+mzn;آنادیا;Anadia
+uk;Анадія;Anadia
+ru;Анадия;Anadia
+ar;المائدة;Almeida
+kk;Алижо;Alijó
+uk;Аліжо;Alijó
+ru;Алижо;Alijó
+ru;Альфарелошь;Alfarelos
+fa;الدیا دو سانتا مارگاریدا;Aldeia de Santa Margarida
+kk;Алдейя-де-Санта-Маргарида;Aldeia de Santa Margarida
+ru;Алдея-ди-Санта-Маргарида;Aldeia de Santa Margarida
+ru;Агиар-да-Бейра;Aguiar da Beira
+fa;آگوئدا;Águeda
+ka;აგედა;Águeda
+kk;Агеда;Águeda
+mzn;آگوئدا;Águeda
+uk;Агеда;Águeda
+uz;Ageda;Águeda
+ru;Агеда;Águeda
+zh;阿格達;Águeda
+ko;벨라스;Velas
+lt;Velašas;Velas
+ru;Велаш;Velas
+zh;韋拉斯;Velas
+ru;Терра-Шан;Terra Chã
+ru;Сете-Сидадеш;Sete Cidades
+ru;Сан-Роке-ду-Пику;São Roque do Pico
+ko;산타크루스다스플로르스;Santa Cruz das Flores
+lt;Santa Kruz das Florešas;Santa Cruz das Flores
+ru;Санта-Круш-даш-Флориш;Santa Cruz das Flores
+zh;聖克魯什達什弗洛里什;Santa Cruz das Flores
+ko;산타크루스다그라시오자;Santa Cruz da Graciosa
+lt;Santa Kruz da Grasioza;Santa Cruz da Graciosa
+ru;Санта-Круш-да-Грасиоза;Santa Cruz da Graciosa
+zh;聖克魯什達格拉西奧薩;Santa Cruz da Graciosa
+fa;ریبیرا گرانده;Ribeira Grande
+ka;რიბეირა-გრანდე;Ribeira Grande
+uk;Рібейра-Гранде;Ribeira Grande
+ru;Рибейра-Гранди;Ribeira Grande
+zh;大里貝拉;Ribeira Grande
+ko;히베이라그란드;Ribeira Grande
+ar;ريبيرا غراندي;Ribeira Grande
+ru;Флореш;Lajes das Flores
+ko;라즈스다스플로르스;Lajes das Flores
+ru;Лажиш-даш-Флориш;Lajes das Flores
+zh;拉日什達什弗洛里什;Lajes das Flores
+he;לגואה;Lagoa
+ko;라고아;Lagoa
+uk;Лагоа;Lagoa
+ru;Лагоа;Lagoa
+zh;拉古阿;Lagoa
+ka;ორტა;Horta
+mzn;اورتا;Horta
+ru;Орта;Horta
+be;Орта;Horta
+he;הורטה;Horta
+ko;오르타;Horta
+zh;奧爾塔;Horta
+ru;Фурнаш;Furnas
+ko;푸르나스 화산;Furnas
+ru;Фетейра;Feteira
+zh;科爾武鎮;Vila do Corvo
+ru;Вила-ду-Корву;Vila do Corvo
+ko;빌라두코르부;Vila do Corvo
+ru;Бишкойтуш;Biscoitos
+ru;Ангуштиаш;Angústias
+el;Άγκρα ντο Ερόϊσμο;Angra do Heroísmo
+fa;آنگرا دو هروئیسمو;Angra do Heroísmo
+ja;アングラ・ド・エロイズモ;Angra do Heroísmo
+ka;ანგრა-დუ-ეროიჟმუ;Angra do Heroísmo
+kk;Aнгра ду Эроижму;Angra do Heroísmo
+lt;Angra do Heroišmas;Angra do Heroísmo
+mzn;آنگرا دو هروئیسمو;Angra do Heroísmo
+sr;Ангра до Ероизмо;Angra do Heroísmo
+ru;Ангра-ду-Эроишму;Angra do Heroísmo
+zh;英雄港;Angra do Heroísmo
+ru;Алтареш;Altares
+ru;Виламура;Vilamoura
+ru;Валенса;Valenza
+ja;シアード;Chiado
+zh;希亚多;Chiado
+ru;Байрру-Алту;Bairro Alto
+zh;里斯本上城;Bairro Alto
+ja;バイロ・アルト;Bairro Alto
+he;באיירו אלטו;Bairro Alto
+ar;بونتا ديلغادا;Ponta Delgada
+be;Понта-Дэлгада;Ponta Delgada
+bg;Понта Делгада;Ponta Delgada
+el;Πόντα Ντελγάδα;Ponta Delgada
+he;פונטה דלגדה;Ponta Delgada
+ja;ポンタ・デルガダ;Ponta Delgada
+ka;პონტა-დელგადა;Ponta Delgada
+ko;폰타델가다;Ponta Delgada
+mzn;پونتا دلگادا;Ponta Delgada
+os;Понтæ-Делгадæ;Ponta Delgada
+sr;Понта Делгада;Ponta Delgada
+th;ปงตาแดลกาดา;Ponta Delgada
+uk;Понта-Делгада;Ponta Delgada
+ru;Понта-Делгада;Ponta Delgada
+zh;蓬塔德爾加達;Ponta Delgada
+kk;Понта-Делгада;Ponta Delgada
+ky;Понта-Делгада;Ponta Delgada
+hi;पोन्ता डेलगाडा;Ponta Delgada
+bn;পোন্তা ডেলগাডা;Ponta Delgada
+ur;پونتا ڈیلگادا;Ponta Delgada
+am;ፖንታ ዴልጋዳ;Ponta Delgada
+fa;پونتا دلگادا;Ponta Delgada
+pa;ਪੋਂਤਾ ਡੈਲਗਾਡਾ;Ponta Delgada
+ps;پونتا ډیلګادا;Ponta Delgada
+tg;Понта-Делгада;Ponta Delgada
+tt;Понта-Делгада;Ponta Delgada
+he;תמרה;Tamera
+ru;Алмоурол;Almourol

@@ -322,3 +322,148 @@ ar;ام قرين;Umm Qarīn
 ar;معيذر الوكير;Mu‘aydhar al Wakīr
 ar;ام العمد;Umm al ‘Amad
 ru;Лусаил;Lusail
+kk;Умм Салал Әли;Umm Şalāl ‘Alī
+uz;Umm Salal Ali;Umm Şalāl ‘Alī
+ky;Умм Салал Али;Umm Şalāl ‘Alī
+id;Umm Salal Ali;Umm Şalāl ‘Alī
+ms;Umm Salal Ali;Umm Şalāl ‘Alī
+hi;उम्म सलाल अली;Umm Şalāl ‘Alī
+bn;উম্ম সালাল আলি;Umm Şalāl ‘Alī
+ur;ام سلال علی;Umm Şalāl ‘Alī
+am;ኡም ሳላል ዓሊ;Umm Şalāl ‘Alī
+ha;Umm Salal Ali;Umm Şalāl ‘Alī
+ja;ウムサラルアリ;Umm Şalāl ‘Alī
+jv;Umm Salal Ali;Umm Şalāl ‘Alī
+om;Umm Salal Ali;Umm Şalāl ‘Alī
+pa;ਉੰਮ ਸਲਾਲ ਅਲੀ;Umm Şalāl ‘Alī
+ps;ام سلال علي;Umm Şalāl ‘Alī
+so;Umm Salal Ali;Umm Şalāl ‘Alī
+sw;Umm Salal Ali;Umm Şalāl ‘Alī
+tg;Умм Салал Алӣ;Umm Şalāl ‘Alī
+tt;Умм Салал Әли;Umm Şalāl ‘Alī
+kk;Мадинат аш-Шамал;Madīnat ash Shamāl
+ky;Мадинат аш-Шамал;Madīnat ash Shamāl
+hi;मदीनत अश शमाल;Madīnat ash Shamāl
+bn;মাদিনাত আশ শামাল;Madīnat ash Shamāl
+ur;مدینہ اش شمال;Madīnat ash Shamāl
+am;ማዲናት አሽ ሻማል;Madīnat ash Shamāl
+ja;マディナットアシュシャマル;Madīnat ash Shamāl
+pa;ਮਦੀਨਤ ਅਸ਼ ਸ਼ਮਾਲ;Madīnat ash Shamāl
+ps;مدينة الشمال;Madīnat ash Shamāl
+tg;Мадинат аш-Шамал;Madīnat ash Shamāl
+tt;Мадинат аш-Шамал;Madīnat ash Shamāl
+kk;Аз-Заайын;Az̧ Z̧a‘āyin
+uz;Az Za'ayin;Az̧ Z̧a‘āyin
+ky;Аз-Заайын;Az̧ Z̧a‘āyin
+id;Az Za'ayin;Az̧ Z̧a‘āyin
+ms;Az Za'ayin;Az̧ Z̧a‘āyin
+hi;अज़ ज़ायिन;Az̧ Z̧a‘āyin
+bn;আজ জায়িন;Az̧ Z̧a‘āyin
+ur;اززاعین;Az̧ Z̧a‘āyin
+am;አዝ ዛአይን;Az̧ Z̧a‘āyin
+ha;Az Za'ayin;Az̧ Z̧a‘āyin
+ja;アッザアイン;Az̧ Z̧a‘āyin
+jv;Az Za'ayin;Az̧ Z̧a‘āyin
+om;Az Za'ayin;Az̧ Z̧a‘āyin
+pa;ਅਜ਼ ਜ਼ਾਇਨ;Az̧ Z̧a‘āyin
+ps;الزعيم;Az̧ Z̧a‘āyin
+so;Az Za'ayin;Az̧ Z̧a‘āyin
+sw;Az Za'ayin;Az̧ Z̧a‘āyin
+tg;Аз-Заайин;Az̧ Z̧a‘āyin
+tt;Аз-Заайин;Az̧ Z̧a‘āyin
+uz;Al-Taqob;Ath Thaqab
+ja;アス・サカブ;Ath Thaqab
+kk;Аш-Шиханиялы;Ash Shīḩānīyah
+ky;Аш-Шиханиялы;Ash Shīḩānīyah
+hi;अश शिहानियाह;Ash Shīḩānīyah
+bn;আশ শিহানিয়াহ;Ash Shīḩānīyah
+ur;اش شہانیہ;Ash Shīḩānīyah
+am;አሽ ሺሃንያህ;Ash Shīḩānīyah
+ja;アッシュシハニヤ;Ash Shīḩānīyah
+pa;ਅਸ਼ ਸ਼ਿਹਾਨੀਆਹ;Ash Shīḩānīyah
+ps;الشحانية;Ash Shīḩānīyah
+tg;Аш-Шиханиялы;Ash Shīḩānīyah
+tt;Аш-Шиханиялы;Ash Shīḩānīyah
+kk;Ар-Раян;Ar Rayyān
+ky;Ар-Раян;Ar Rayyān
+hi;अर रैयान;Ar Rayyān
+bn;আর রায়্যান;Ar Rayyān
+ur;ارریان;Ar Rayyān
+am;አር ራያን;Ar Rayyān
+ja;アッラーヤン;Ar Rayyān
+pa;ਅਰ ਰੈਯਾਨ;Ar Rayyān
+ps;الريان;Ar Rayyān
+tg;Ар-Раян;Ar Rayyān
+tt;Ар-Раян;Ar Rayyān
+kk;Әл-Вакра;Al Wakrah
+ky;Әл-Вакра;Al Wakrah
+hi;अल वकरा;Al Wakrah
+bn;আল ওয়াকরা;Al Wakrah
+ur;الوکرہ;Al Wakrah
+am;አል ዋክራ;Al Wakrah
+ja;アルワクラ;Al Wakrah
+pa;ਅਲ ਵਕਰਾ;Al Wakrah
+ps;الوكرة;Al Wakrah
+tg;Аль-Вакра;Al Wakrah
+tt;Әл-Вакра;Al Wakrah
+ko;알코르;Al Khawr
+lt;Chauras;Al Khawr
+mk;Хор;Al Khawr
+uk;Аль-Хор;Al Khawr
+ur;الخور و الدخیرہ;Al Khawr
+vi;Al Khor;Al Khawr
+pl;Al-Chaur;Al Khawr
+kk;Әл-Хаур;Al Khawr
+ky;Әл-Хаур;Al Khawr
+hi;अल खौर;Al Khawr
+bn;আল খাওর;Al Khawr
+am;አል ኃውር;Al Khawr
+ja;アルハウル;Al Khawr
+pa;ਅਲ ਖਾਉਰ;Al Khawr
+ps;الخور;Al Khawr
+tg;Аль-Хаур;Al Khawr
+tt;Әл-Хаур;Al Khawr
+et;Ad-Dawḩah;Doha
+he;דוחא;Doha
+he;דוחה;Doha
+ja;ドーハ;Doha
+ko;도하;Doha
+pl;Ad-Dauha;Doha
+sk;Dauhá;Doha
+zh;多哈;Doha
+el;Ντόχα;Doha
+am;ዶሃ;Doha
+tg;Доҳа;Doha
+sr;Доха;Doha
+ur;دوحہ;Doha
+mk;Доха;Doha
+ps;دوحه;Doha
+pa;ਦੋਹਾ;Doha
+ka;დოჰა;Doha
+bg;Доха;Doha
+mr;दोहा;Doha
+ml;ദോഹ;Doha
+th;โดฮา;Doha
+bo;དྷོ་ཧ།;Doha
+be;Доха;Doha
+os;Дохæ;Doha
+ug;دوھا;Doha
+bn;দোহা;Doha
+cs;Dauhá;Doha
+hy;Դոհա;Doha
+kn;ದೊಹಾ;Doha
+uk;Доха;Doha
+ta;தோகா;Doha
+mn;Доха;Doha
+kab;Dawḥa;Doha
+sgs;Duoha;Doha
+ce;Доха;Doha
+mhr;Дохо;Doha
+uz;Doʻha;Doha
+yue;多哈;Doha
+ba;Доһа;Doha
+kk;Доха;Doha
+ky;Доха;Doha
+my;ဒိုဟာမြို့;Doha
+so;Dooxa;Doha
+vep;Doh;Doha

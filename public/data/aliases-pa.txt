@@ -742,3 +742,169 @@ es;Los Saltos;El Salto
 es;Finca 2;Finca Dos
 es;Milla 10;Milla Diez
 es;Teria;Teriá
+fa;وکامونته;Puerto Vacamonte
+ka;სანტიაგო-დე-ვერაგუასი;Santiago de Veraguas
+lt;Veragvaso Santjagas;Santiago de Veraguas
+lv;Santjago de Veragvasa;Santiago de Veraguas
+ur;سانتیاگو دے ویراگواس;Santiago de Veraguas
+kk;Сантьяго-де-Веррагус;Santiago de Veraguas
+ky;Сантьяго-де-Веррагус;Santiago de Veraguas
+bn;সান্টিয়াগো ডে ভেরাগুয়াস;Santiago de Veraguas
+am;ሳንቲያጎ ደ ቬራጓስ;Santiago de Veraguas
+fa;سانتیاگو دو ورگاس;Santiago de Veraguas
+pa;ਸੈਂਟਿਆਗੋ ਡੇ ਵੇਰਾਗੁਆਸ;Santiago de Veraguas
+ps;سانتیاگو ډې ویراګواس;Santiago de Veraguas
+tg;Сантьяго-де-Веррагус;Santiago de Veraguas
+tt;Сантьяго-де-Веррагус;Santiago de Veraguas
+fa;ریو ریتا;Río Rita
+ceb;Punta de Burica;Burica
+ka;ბურიკა;Burica
+uk;Бурика;Burica
+he;פורטובלו;Portobelo
+ka;პორტობელო;Portobelo
+lt;Portobelas;Portobelo
+uk;Портобело;Portobelo
+kk;Пенономе;Penonomé
+ky;Пенономе;Penonomé
+bn;পেনোনোমে;Penonomé
+ur;پینونومے;Penonomé
+am;ፔኖኖሜ;Penonomé
+fa;پنونومه;Penonomé
+pa;ਪੇਨੋਨੋਮੇ;Penonomé
+ps;پینونومی;Penonomé
+tg;Пенономе;Penonomé
+tt;Пенономе;Penonomé
+bg;Панама;Panama City
+cy;Panamá;Panama City
+fi;Panamá;Panama City
+he;פנמה סיטי;Panama City
+lt;Panama;Panama City
+no;Panama by;Panama City
+pl;Panama;Panama City
+zh-TW;巴拿馬城;Panama City
+fa;شهر پاناما;Panama City
+sk;Panama;Panama City
+el;Πόλη του Παναμά;Panama City
+am;ፓናማ ከተማ;Panama City
+ca;Ciutat de Panamà;Panama City
+eu;Panama Hiria;Panama City
+mr;पनामा सिटी;Panama City
+th;ปานามาซิตี;Panama City
+ka;მატა-დელ-ნანსე;Mata del Nance
+kk;Льяно Тугри;Llano Tugrí
+ky;Льяно Тугри;Llano Tugrí
+bn;লানো তুগরি;Llano Tugrí
+ur;لانو توگری;Llano Tugrí
+am;ላኖ ቱግሪ;Llano Tugrí
+fa;لانو تاگری;Llano Tugrí
+pa;ਲਾਨੋ ਤੁਗਰੀ;Llano Tugrí
+ps;لانو توگری;Llano Tugrí
+tg;Льяно Тугри;Llano Tugrí
+tt;Льяно Тугри;Llano Tugrí
+kk;Лас-Таблас;Las Tablas
+ky;Лас-Таблас;Las Tablas
+bn;লাস তাবলাস;Las Tablas
+ur;لاس ٹیبلاس;Las Tablas
+am;ላስ ታብላስ;Las Tablas
+fa;لاس تابلاس;Las Tablas
+pa;ਲਾਸ ਤਾਬਲਾਸ;Las Tablas
+ps;لاس ټابلاس;Las Tablas
+tg;Лас-Таблас;Las Tablas
+tt;Лас-Таблас;Las Tablas
+kk;Ла-Палма;La Palma
+ky;Ла-Палма;La Palma
+bn;লা পালমা;La Palma
+ur;لا پالما;La Palma
+am;ላ ፓልማ;La Palma
+fa;لا پالما;La Palma
+pa;ਲਾ ਪਾਲਮਾ;La Palma
+ps;لا پالما;La Palma
+tg;Ла-Палма;La Palma
+tt;Ла-Палма;La Palma
+kk;Ла-Чоррера;La Chorrera
+ky;Ла-Чоррера;La Chorrera
+bn;লা চোরেরা;La Chorrera
+ur;لا چھوریرا;La Chorrera
+am;ላ ቾሬራ;La Chorrera
+fa;لا چوریرا;La Chorrera
+pa;ਲਾ ਚੋਰੇਰਾ;La Chorrera
+ps;لا چوریرا;La Chorrera
+tg;Ла-Чоррера;La Chorrera
+tt;Ла-Чоррера;La Chorrera
+ka;გარიჩე;Gariché
+ka;ენტრადერო;Entradero
+gd;San José de David;David
+he;דויד;David
+ka;დავიდი;David
+lt;Davidas;David
+lv;Davida;David
+uk;Давид;David
+ur;ڈیوڈ، چیرکی;David
+kk;Давид;David
+ky;Давид;David
+bn;ডেভিড;David
+am;ዳዊት;David
+fa;داود;David
+pa;ਡੇਵਿਡ;David
+ps;ډيويډ;David
+tg;Давид;David
+tt;Давид;David
+bg;Колон;Colón
+lt;Kolonas;Colón
+he;קולון;Colón
+hy;Կոլոն;Colón
+ka;კოლონი;Colón
+yue;告郎;Colón
+lv;Kolona;Colón
+uk;Колон;Colón
+ur;کولون، پاناما;Colón
+kk;Колон;Colón
+ky;Колон;Colón
+bn;কোলন;Colón
+am;ኮሎን;Colón
+fa;کولون;Colón
+pa;ਕੋਲਨ;Colón
+ps;کولون;Colón
+tg;Колон;Colón
+tt;Колон;Colón
+ka;ჩურუკიტა-გრანდე;Churuquita Grande
+kk;Читре;Chitré
+ky;Читре;Chitré
+bn;চিত্রে;Chitré
+ur;چترے;Chitré
+am;ቺትሬ;Chitré
+fa;چیتره;Chitré
+pa;ਚਿਤਰੇ;Chitré
+ps;چترې;Chitré
+tg;Читре;Chitré
+tt;Читре;Chitré
+ka;ჩიგორე;Chigoré
+be;Бокас-дэль-Тора;Bocas del Toro
+ka;ბოკას-დელ-ტორო;Bocas del Toro
+lt;Bokas del Toras;Bocas del Toro
+uk;Бокас-дель-Торо;Bocas del Toro
+ur;بوکاس ٹاؤن، بوکاس دیل تورو;Bocas del Toro
+kk;Бокас-дель-Торо;Bocas del Toro
+ky;Бокас-дель-Торо;Bocas del Toro
+bn;বোকাস দেল তোরো;Bocas del Toro
+am;ቦካስ ደል ቶሮ;Bocas del Toro
+fa;بوکاس دل تورو;Bocas del Toro
+pa;ਬੋਕਾਸ ਡੈਲ ਟੋਰੋ;Bocas del Toro
+ps;بوکاس ډیل توروه;Bocas del Toro
+tg;Бокас-дель-Торо;Bocas del Toro
+tt;Бокас-дель-Торо;Bocas del Toro
+ka;ბალბოა;Balboa
+uk;Бальбоа;Balboa
+ur;بالبوا، پاناما;Balboa
+yue;巴波亞;Balboa
+ceb;Ipetí;Ipetí Chocó
+kk;Унион-Чоко;Unión Chocó
+ky;Унион-Чоко;Unión Chocó
+bn;ইউনিয়ন চোকো;Unión Chocó
+ur;یونین چوکو;Unión Chocó
+am;ዩኒየን ቾኮ;Unión Chocó
+fa;یونیون چوکو;Unión Chocó
+pa;ਯੂਨੀਅਨ ਚੋਕੋ;Unión Chocó
+ps;یونین چوکو;Unión Chocó
+tg;Унион-Чоко;Unión Chocó
+tt;Унион-Чоко;Unión Chocó

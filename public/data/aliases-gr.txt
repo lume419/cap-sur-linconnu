@@ -17073,3 +17073,974 @@ el;Μικρολίμανο;Mikrolímano
 el;Δορούφι;Doroúfi
 el;Ντεπώ;Depot
 el;Λιμποβίτσι;Libovitsi
+ceb;Zefiría;Zefyría
+ar;زاركو;Zárkos
+nn;Zálongo;Zálogko
+ru;Залонгон;Zálogko
+zh-Hant;扎隆戈;Zálogko
+ja;ザロンゴ;Zálogko
+ru;Закинтос;Zákynthos
+zh;扎金索斯;Zákynthos
+ja;ザキントス;Zákynthos
+ko;자킨토스;Zákynthos
+ar;زاكينثوس;Zákynthos
+ru;Гени;Yénion
+ru;Вуле;Voúla
+he;וולוס;Vólos
+ru;Волос;Vólos
+ru;Визитца;Vyzítsa
+ru;Вики;Víki
+ru;Велестино;Velestíno
+ru;Ватия;Vátheia
+ja;ヴァティア;Vátheia
+ru;Вати;Vathí
+ko;바티;Vathý
+uk;Ваті;Vathý
+zh;瓦西;Vathý
+ru;Вати;Vathý
+ru;Триполи;Trípoli
+ru;Трипити;Trypití
+uk;Тріпіті;Trypití
+tr;Tırhala;Tríkala
+ru;Трикала;Tríkala
+ru;Трианта;Ialysós
+ru;Лалисос;Ialysós
+ru;Трново;Týrnavos
+ru;Тиринф;Tírins
+zh;梯林斯;Tírins
+ru;Фира;Firá
+ru;Фермопи́лы;Thermopílai
+ceb;Nisída Télendos;Télendos
+zh;泰倫佐斯島;Télendos
+zh-Hans;泰伦佐斯岛;Télendos
+ru;Таврос;Távros
+ar;تاوروس، أتيكي;Távros
+hy;Տավրոս;Távros
+uk;Таврос;Távros
+ur;تاوروس;Távros
+ru;Стоупа;Stoúpa
+ru;Стилос;Stỳlos
+tr;Eşkiloz;Stỳlos
+ru;Стилида;Stylída
+nn;Stefanovíkio;Stefanovíkeio
+ru;Стефановикион;Stefanovíkeio
+ar;ستيفانوفيكيون، ماغنيسيا;Stefanovíkeio
+ru;Спартохори;Spartokhórion
+ru;Спарта;Spárti
+ru;Сурпи;Soúrpi
+ja;スルピ;Soúrpi
+nn;Skotiní;Skoteiní
+ru;Скотини;Skoteiní
+ru;Скирос;Skýros
+ru;Скиатос;Skiáthos
+ar;غاليني;Schinokápsala
+ru;Сивота;Sývota
+ru;Сития;Sitia
+ar;سيتيا;Sitia
+fa;سیتیا;Sitia
+uk;Сітія;Sitia
+zh;锡蒂亚;Sitia
+ceb;Sýrna;Sírna
+ru;Сими;Sými
+ru;Сикион;Sikyón
+ru;Сиана;Siána
+ru;Серизиана;Serizianá
+ru;Серифос;Sérifos
+uk;Серіфос;Sérifos
+ru;Самос;Samos
+ru;Сами;Sámi
+zh;萨米;Sámi
+ar;سامي، كيفالينيا;Sámi
+uk;Самі;Sámi
+ja;サミ;Sámi
+ru;Саламина;Salamína
+ar;روييتيكا، أهيا;Royítika
+ru;Ретимнон;Rethymno
+tr;Resmo;Rethymno
+ja;レティムノ;Rethymno
+id;Rethimno;Rethymno
+ar;ريثيمنو;Rethymno
+he;רת'ימנו;Rethymno
+ko;레팀노;Rethymno
+lt;Retimnas;Rethymno
+uk;Ретимно;Rethymno
+fa;رتیمنون;Rethymno
+zh;罗希姆诺;Rethymno
+ru;Птелеос;Pteleós
+ar;بتيليوس;Pteleós
+ja;プテレオス;Pteleós
+ru;Агиос-Николаос;Ágios Nikólaos
+ru;Просимна;Prósimna
+uk;Просімна;Prósimna
+tr;Preveze;Préveza
+ru;Порос;Póros
+ru;Деригово;Polýgyros
+ru;Плитра;Plítra
+nn;Plateés;Plataiés
+ru;Платеэ;Plataiés
+zh;普拉迪厄斯（Plataies）;Plataiés
+ru;Плакиас;Plakiás
+ru;Плака;Pláka
+ru;Пиргос-Диру;Pýrgos Diroú
+ru;Пиргос;Pýrgos Ithómis
+ru;Пиргос;Pýrgos
+ja;ピレウス;Peiraiás
+ru;Пирей;Peiraiás
+uk;Пірей;Peiraiás
+he;פיראוס;Peiraiás
+lv;Pireja;Peiraiás
+zh;比雷埃夫斯;Peiraiás
+ar;بيرايوس;Peiraiás
+lt;Pirėjas;Peiraiás
+tr;Pire;Peiraiás
+be;Пірэй;Peiraiás
+ce;Пирей;Peiraiás
+vi;Piraeus;Peiraiás
+th;ไพรีอัส;Peiraiás
+nn;Pireus;Peiraiás
+mn;Пирей;Peiraiás
+ko;피레아스;Peiraiás
+jv;Piraeus;Peiraiás
+id;Piraeus;Peiraiás
+fa;پیره;Peiraiás
+et;Pireus;Peiraiás
+ru;Петроуполис;Petroúpolis
+ru;Перистерион;Peristéri
+ru;Перама;Pérama
+nn;Pelasjía;Pelasgía
+ru;Пелазьия;Pelasgía
+zh;佩拉斯基亚;Pelasgía
+ar;بيلاسييا، فثيوتيس;Pelasgía
+he;פטרס;Pátra
+ja;パトラ;Pátra
+zh;帕特雷;Pátra
+id;Patras;Pátra
+tr;Patras;Pátra
+ru;Патра;Pátra
+ru;Патмос;Pátmos
+nn;Patitíri;Patitírion
+ar;باتيتيري;Patitírion
+ru;Парос;Páros
+ru;Парга;Párga
+ar;باراليون أستروس، أركاديا;Parálio Ástros
+ceb;Parálion Ástros;Parálio Ástros
+ru;Паралион-Астрос;Parálio Ástros
+nn;Pápigo;Pápigkon
+ru;Панормитис;Panormítis
+ru;Пало;Páloi
+ru;Палини;Pallíni
+be;Паліні;Pallíni
+lt;Palinis;Pallíni
+hy;Պալլինի;Pallíni
+uk;Палліні;Pallíni
+ur;پالینی;Pallíni
+ko;팔리니;Pallíni
+zh;帕利尼;Pallíni
+ar;باليني;Pallíni
+ja;パリニ;Pallíni
+fa;پالینی;Pallíni
+ru;Каллифея;Kallithéa
+ru;Палеопиргос;Palaiópyrgos
+ja;パレイオピルゴス;Palaiópyrgos
+ru;Псара;Psará
+uk;Псара;Psará
+ru;Орхомен;Orchomenós
+he;אויטי;Oíti
+nn;Inoússes;Oinoússes
+ru;Инуссес;Oinoússes
+vi;Inousses;Oinoússes
+ru;Папагос;Papágou
+ar;باباغو;Papágou
+ja;パパーゴー;Papágou
+ur;پاپاگوس;Papágou
+tr;Papagu;Papágou
+ru;Ия;Oía
+ru;Никия;Nikiá
+ru;Нидри;Nidhríon
+nn;Nydrí;Nidhríon
+ar;نينيتا، هيوس;Nénita
+fa;نینیتا;Nénita
+ru;Неа-Макри;Néa Mákri
+hy;Նեա Մակրի;Néa Mákri
+zh-Hant;新馬克立;Néa Mákri
+uk;Неа-Макрі;Néa Mákri
+ur;نیا ماکری;Néa Mákri
+ko;네아마크리;Néa Mákri
+zh;新马克立;Néa Mákri
+ar;نيا ماكري;Néa Mákri
+ja;ネア・マクリ;Néa Mákri
+fa;نئا ماکری;Néa Mákri
+he;נאה מקרי;Néa Mákri
+ar;إرتريا الجديدة;Néa Erythraía
+ja;ナフプリオ;Náfplio
+tr;Mora Yenişehri;Náfplio
+ru;Нафплион;Náfplio
+tr;Inebahtı;Náfpaktos
+ru;Навпакт;Náfpaktos
+ja;ムレシ;Mouresi
+zh;莫雷遜;Mouresi
+ru;Монолитос;Monólithos
+tr;Benefşe;Monemvasía
+tr;Menekşe;Monemvasía
+tk;Benefşe;Monemvasía
+lt;Monemvasija;Monemvasía
+hy;Մոնեմվասիա;Monemvasía
+uk;Монемваcія;Monemvasía
+zh;莫奈姆瓦夏;Monemvasía
+ar;مونيمفاسيا;Monemvasía
+vi;Monemvassia;Monemvasía
+ja;モネンバシア;Monemvasía
+fa;مونمواسیا;Monemvasía
+ru;Монемвасия;Monemvasía
+be;Манемвасія;Monemvasía
+ka;მონემვასია;Monemvasía
+ko;모넴바시아;Monemvasía
+he;מונמבסיה;Monemvasía
+ru;Митилини;Mytilíni
+tr;Midilli;Mytilíni
+am;ሚጢሊኒ;Mytilíni
+fa;موتیلنه;Mytilíni
+ko;미틸레네;Mytilíni
+id;Metilene;Mytilíni
+he;מיטילנה;Mytilíni
+lt;Mitilėnė;Mytilíni
+ms;Mytilene;Mytilíni
+ja;ミティリーニ;Mytilíni
+uk;Мітіліні;Mytilíni
+zh;米蒂利尼;Mytilíni
+ja;ミストラス;Mystrás
+ru;Мистра;Mystrás
+uk;Мілос;Mílos
+ru;Милос;Mílos
+he;מלוס;Mílos
+nn;Mýli;Mýloi
+ar;ميلوي، أرغوليس;Mýloi
+ru;Мили;Mýloi
+uk;Мецово;Metsovo
+ar;ميتسوفو;Metsovo
+ru;Ме́цово;Metsovo
+ru;Метана;Méthana
+hy;Մետանա;Méthana
+zh;邁薩納;Méthana
+ar;ميثانا;Méthana
+ja;メタナ;Méthana
+fa;متانا;Méthana
+he;מתאנה;Méthana
+tr;Metana;Méthana
+ceb;Mendhenítsa;Mendenítsa
+ru;Менденица;Mendenítsa
+nn;Melívia;Melívoia
+ru;Меливия;Melívoia
+ar;ميليفويا;Melívoia
+ja;メリヴィア;Melívoia
+ru;Мелиссия;Melíssia
+ko;메가라;Mégara
+ru;Мегара;Mégara
+he;מגלופוליס;Megalópoli
+ru;Матала;Mátala
+ru;Марафон;Marathónas
+zh;马拉松;Marathónas
+uk;Марафон;Marathónas
+ja;マラトン;Marathónas
+nn;Marathókambos;Marathókampos
+ru;Маратокамбос;Marathókampos
+ar;ماراثوكامبوس;Marathókampos
+ja;マラトカンボス;Marathókampos
+ru;Мандраки;Mandráki
+ru;Малия;Mália
+ru;Малакаса;Malakása
+ja;マラカサ;Malakása
+ru;Малес;Máles
+ja;マレ;Máles
+ru;Макрину;Makrinoú
+ru;Макринон;Makríno
+ar;ليثاكيا;Lithakiá
+zh;利薩基亞;Lithakiá
+ko;레프카다;Lefkáda
+ru;Лефкас;Lefkáda
+uk;Лефкада;Lefkáda
+zh;莱夫卡扎;Lefkáda
+uk;Лівадія;Livadeiá
+ru;Левадия;Livadeiá
+fa;یوادیا;Livadeiá
+ar;ليفاذيا;Livadeiá
+ko;리바디아;Livadeiá
+ja;リヴァディア;Livadeiá
+zh;莱瓦贾;Livadeiá
+ru;Лионтари;Leondárion
+nn;Lékheo;Lékhaio
+ru;Лехеон;Lékhaio
+lv;Lehaja;Lékhaio
+ar;ليخايو;Lékhaio
+ja;レカエウム;Lékhaio
+ru;Лаврион;Lávrio
+ru;Лавдани;Lávdani
+ja;ラヴダニ;Lávdani
+tr;Yenişehir;Lárisa
+ru;Лариса;Lárisa
+ar;لمياء;Lamía
+tr;Izdin;Lamía
+ru;Ламия;Lamía
+ru;Куцунари;Koutsounári
+ru;Куцоподион;Koutsopódi
+ar;كوتسوبودي;Koutsopódi
+ja;クツォポディ;Koutsopódi
+ru;Кунупица;Kounoupítsa
+ru;Порто-Куфо;Pórto Koufó
+ru;Кос;Kos
+he;קורינתוס;Kórinthos
+ja;コリントス;Kórinthos
+ru;Коринф;Kórinthos
+zh;科林斯;Kórinthos
+tr;Korint;Kórinthos
+ar;كورينث;Kórinthos
+nn;Kontovázena;Kontovázaina
+ru;Кондовазена;Kontovázaina
+ja;コンドヴァゼナ;Kontovázaina
+ru;Колимбия;Kolýmpia
+ru;Кносс;Knosós
+ru;Кисамос;Kíssamos
+ru;Киони;Kióni
+uk;Кіфісія;Kifisiá
+ru;Кифисия;Kifisiá
+nn;Khóra i Messinía;Chóra
+ceb;Khóra;Chóra
+ru;Хора;Chóra
+ja;ホラ;Chóra
+tr;Sakız;Chios
+ru;Хиос;Chios
+ko;히오스;Chios
+nn;Khíos;Chios
+uk;Хіос;Chios
+ru;Хилиомоди;Khiliomódhi
+ru;Херсониссос;Khersónisos
+ru;Ханиоти;Chaniotis
+tr;Hanya;Chaniá
+ru;Ханья;Chaniá
+he;כלקיס;Chalkída
+ru;Халкида;Chalkída
+ru;Кератея;Keratéa
+ar;كيراتيا;Keratéa
+hy;Կերատեա;Keratéa
+uk;Кератеа;Keratéa
+ja;ケラテア;Keratéa
+ru;Капесовон;Kapésovo
+ru;Кефалос;Kéfalos
+hy;Կեֆալոս;Kéfalos
+uk;Кефалос;Kéfalos
+zh;凱法洛斯;Kéfalos
+ar;كيفالوس، دوديكانيسوس;Kéfalos
+ja;ケファロス;Kéfalos
+ru;Каттавия;Kattavía
+ru;Сунион;Káto Soúnion
+ru;Катомери;Katomérion
+ru;Кастраки;Kastráki
+ru;Карпатос;Karpathos
+tr;Kardiça;Kardítsa
+ru;Кардица;Kardítsa
+ru;Кардамили;Kardamýli
+ru;Кардамила;Kardámyla
+ru;Пефкохори;Pefkochóri
+ar;بيفكوخوري;Pefkochóri
+ar;كاناليا، ماغنيسيا;Kanália
+nn;Kámbos i Messinía;Kámpos
+hy;Կամպոս;Kámpos
+ru;Камбос;Kámpos
+he;קמפוס;Kámpos
+nn;Kamateró;Kamaterón
+hi;कमातेरो;Kamaterón
+ru;Каматерон;Kamaterón
+lt;Kamateras;Kamaterón
+lv;Kamatero;Kamaterón
+bn;কামাতেরো;Kamaterón
+hy;Կամատերոն;Kamaterón
+zh-Hans;卡马托罗;Kamaterón
+uk;Каматеро;Kamaterón
+si;කමටෙරෝ;Kamaterón
+id;Kamatero;Kamaterón
+ur;کاماریرو;Kamaterón
+kn;ಕಾಮೆಟೊರೊ;Kamaterón
+ko;카마테로;Kamaterón
+mr;कामेटरो;Kamaterón
+ms;Kamatero;Kamaterón
+ta;கமடேரோ;Kamaterón
+gu;કામેટરો;Kamaterón
+ar;كاماتيرو;Kamaterón
+te;కమతేరో;Kamaterón
+vi;Kamatero;Kamaterón
+nb;Kamatero;Kamaterón
+th;คามาเทโร;Kamaterón
+ja;カマテロ;Kamaterón
+fa;کاماترون;Kamaterón
+tr;Kamatero;Kamaterón
+ru;Тифроний;Tithrónio
+ar;كاليثيا;Kallithéa
+fa;کالیته‌آ;Kallithéa
+lt;Kalitėja;Kallithéa
+uk;Каллітея;Kallithéa
+ar;كاليفس;Kalýves
+ceb;Kalívai;Kalýves
+ceb;Kalapódhion;Kalapódi
+ru;Калабака;Kalampáka
+ar;كالاماتا;Kalamata
+ru;Каламата;Kalamata
+ru;Кесариани;Kaisarianí
+ru;Итеа;Itéa
+id;Heraklion;Irákleion
+ja;イラクリオン;Irákleion
+tr;Kandiye;Irákleion
+lv;Iraklija;Irákleion
+ru;Ираклион;Irákleion
+he;הרקליון;Irákleion
+nn;Iráklio;Irákleion
+tr;Yanya;Ioánnina
+ru;Янина;Ioánnina
+ru;Игуменица;Igoumenítsa
+tr;Yerapetra;Ierápetra
+ru;Иерапетра;Ierápetra
+ru;Гревенитион;Greveníti
+ru;Гувес;Goúves
+ar;غافالو;Gavaloú
+ru;Галаксиди;Galaxídhion
+nn;Galaxídi;Galaxídhion
+zh;加拉克西季;Galaxídhion
+ar;غالاكسيدي;Galaxídhion
+ja;ガラヒディ;Galaxídhion
+he;גלקסידי;Galaxídhion
+ru;Фрикес;Fríkes
+ru;Фри;Fry
+ru;Фолегандрос;Folégandros
+ru;Фили;Fylí
+ar;فاني، دوديكانيسوس;Fanes
+ar;إكساميليا;Examília
+ar;إرتريا;Erétria
+ru;Эретрия;Erétria
+ru;Эмпориос;Emporeiós
+tr;Empona;Émponas
+ru;Элунда;Eloúnda
+ru;Элафониси;Elafónisos
+ru;Экали;Ekáli
+ar;إكالي;Ekáli
+hy;Էկալի;Ekáli
+ja;エカリ;Ekáli
+ur;ایکالی;Ekáli
+ru;Донуса;Donoúsa
+he;דיאו וונה;Dhío Vouná
+fa;دلفی;Delphi
+he;דלפי;Delphi
+ja;デルポイ;Delphi
+ru;Дельфы;Delphi
+uk;Дельфи;Delphi
+zh;德尔菲;Delphi
+zh;德尔斐;Delphi
+et;Delfi;Delphi
+ru;Бралос;Brálos
+zh;布拉洛斯;Brálos
+ru;Бали;Balíon
+ru;Агиос-Николаос;Koilioménos
+ru;Айос-Констандинос;Ágios Konstantínos
+nn;Áji Theódori;Ágioi Theódoroi
+ru;Айи-Теодори;Ágioi Theódoroi
+ko;아기오이 테오도로이;Ágioi Theódoroi
+ar;أغيوي ثيودوروي;Ágioi Theódoroi
+ja;アイイ・テオドリ;Ágioi Theódoroi
+ru;Агия Румели;Agía Rouméli
+ru;Агия-Пелагия;Agía Pelagía
+ar;أثينا;Athína
+az;Afina;Athína
+be;Атэны;Athína
+et;Ateena;Athína
+fo;Athen;Athína
+he;אתונה;Athína
+id;Athena;Athína
+is;Aþena;Athína
+ja;アテネ;Athína
+ka;ათენი;Athína
+ko;아테네;Athína
+lt;Atėnai;Athína
+lv;Atēnas;Athína
+mr;अथेन्स;Athína
+nn;Aten;Athína
+ru;Афины;Athína
+ta;ஏதென்ஸ்;Athína
+th;เอเธนส์;Athína
+tr;Atina;Athína
+uk;Афіни;Athína
+zh;雅典;Athína
+ko;아테네 시;Athína
+tl;Lungsod ng Athína;Athína
+ug;ئافېنا;Athína
+hy;Աթենք;Athína
+id;Kota Athena;Athína
+fa;آتن;Athína
+sw;Athens;Athína
+tpi;Aten;Athína
+ru;Аспрохома;Asprókhoma
+ru;Аспрокамбос;Asprókambos
+ja;アスプロカンポス;Asprókambos
+ar;آرتا;Árta
+ru;Арта;Árta
+nn;Aroánia i Akhaía;Aroanía
+ru;Ароания;Aroanía
+ja;アロアニア;Aroanía
+fa;آروئانیا;Aroanía
+ru;Олимпия;Archaía Olympía
+he;ארגוס;Árgos
+lt;Argas;Árgos
+ru;Аргос;Árgos
+zh;阿尔戈斯;Árgos
+ru;Арахова;Aráchova
+ru;Аполония;Apollonía
+nn;Ánixi;Anoixi
+ru;Аниксис;Anoixi
+ar;أنيكسي;Anoixi
+ja;アニクシ;Anoixi
+fa;آنیشی;Anoixi
+tr;Aniksi;Anoixi
+nn;Andírio;Antirrio
+uk;Антіріо;Antirrio
+ar;أنتيريو;Antirrio
+ru;Анавра;Anávra
+ar;أنافرا;Anávra
+ja;アナヴラ;Anávra
+ru;Амаринтос;Amárynthos
+zh;阿马林索斯;Amárynthos
+ar;باثية;Amárynthos
+zh-Hant;阿馬林索斯;Amárynthos
+ja;アマリントス;Amárynthos
+ar;أماليابوليس، ماغنيسيا;Amaliapolis
+ru;Амальяполис;Amaliapolis
+ru;Амадес;Amádes
+ru;Эйо;Aígio
+ru;Эдипсос;Aidipsós
+uk;Едіпсос;Aidipsós
+ru;Агринион;Agrínio
+ru;Адамас;Adámas
+uk;Адамас;Adámas
+ru;Родос;Ródos
+he;לינדוס;Líndos
+ru;Линдос;Líndos
+ru;Лардос;Lárdos
+fa;کارفاس;Karfás
+ru;Нагос;Nagós
+ru;Яница;Giannitsá
+ar;ييراكارو، ثيسالونيكي;Gerakaroú
+tr;Topsín;Géfyra
+ru;Ксанти;Xánthi
+ru;Воринон;Voreinó
+ru;Волак;Vólakas
+ar;فوغاتسيكو، كاستوريا;Vogatsikó
+ja;ヴェルギナ;Vergína
+ru;Верия;Véroia
+tr;Demir Beyli;Vénna
+tr;Kovitsa;Vathýlakkos
+ru;Ватилак;Vathýlakkos
+ru;Василиада;Vasileiáda
+tg;Василиада;Vasileiáda
+fa;واروارا;Varvára
+ru;Варикон;Varikó
+ar;فامفاكوفيتون، سيرري;Vamvakófyto
+ru;Валтонера;Valtónera
+ar;تريلوفون، ثيسالونيكي;Trílofos
+ceb;Trílofo;Trílofos
+ar;تريانتافيليا، سيرري;Triantafylliá
+he;סלוניקה;Thessaloníki
+tr;Selânik;Thessaloníki
+is;Þessalóníka;Thessaloníki
+ar;سالونيك;Thessaloníki
+he;סלוניקי;Thessaloníki
+ja;テッサロニキ;Thessaloníki
+ku;Tesalonîkî;Thessaloníki
+lt;Salonikai;Thessaloníki
+lv;Saloniki;Thessaloníki
+ru;Салоники;Thessaloníki
+tl;Tesalonica;Thessaloníki
+uk;Салоніки;Thessaloníki
+ar;تيربني، سيرري;Terpní
+ar;ستريمونيكو;Strymonikó
+ja;ストリモニコ;Strymonikó
+fa;استریمونیکو;Strymonikó
+tr;Baraklı;Stylári
+id;Stagira;Stágeira
+ko;스타게이라;Stágeira
+ru;Стагир;Stágeira
+uk;Стагіра;Stágeira
+ru;Софлу;Souflí
+nn;Skoutári i Sérres;Skoútari
+ru;Скутари;Skoútari
+ru;Склитрон;Sklíthro
+ru;Сивири;Síviri
+tr;Tekelí;Síndos
+ru;Сикея;Sykiá
+ar;سيكي، هالكيديكي;Sykiá
+zh-Hant;賽基亞;Sykiá
+fa;سیکی;Sykiá
+ru;Сачишта;Siátista
+tr;Serez;Sérres
+ru;Серре;Sérres
+ja;セレス;Sérres
+zh;塞雷;Sérres
+uk;Серрес;Sérres
+he;סֶרֶס;Sérres
+ko;세레스;Sérres
+tr;Gökçeler;Sélero
+ru;Сарти;Sárti
+nn;Pévka;Péfka
+ar;بيوكا، ثيسالونيكي;Péfka
+ja;ペフカ;Péfka
+ur;پیفکا;Péfka
+tr;Kayılar;Ptolemaḯda
+ru;Псарадес;Psarádes
+zh;普萨拉德斯;Psarádes
+ja;サラデス;Psarádes
+ar;بروفاتاس، سيرري;Provatás
+ja;ポリギロス;Polýgyros
+ko;폴리이로스;Polýgyros
+nn;Polýjyros;Polýgyros
+ru;Полийирос;Polýgyros
+uk;Поліїрос;Polýgyros
+zh;波利伊罗斯;Polýgyros
+ar;بوليخرونو;Políkhronon
+ru;Полихни;Políchni
+nn;Políkhni;Políchni
+ar;بوليخني;Políchni
+uk;Поліхні;Políchni
+ja;ポリフニ;Políchni
+fa;پولیخنی;Políchni
+ur;پولیخنی;Políchni
+uk;Полианемо;Polyánemo
+ru;Писодери;Pisodhérion
+tr;İpsoder;Pisodhérion
+ru;Пиргос;Chalástra
+ru;Пили;Pýli
+ru;Пилеа;Pylaía
+nn;Pyléa;Pylaía
+lt;Pilėja;Pylaía
+uk;Пілея;Pylaía
+ur;پیلایا;Pylaía
+zh;皮萊亞;Pylaía
+ar;بيلايا;Pylaía
+ja;ピレア;Pylaía
+fa;پیلا;Pylaía
+ru;Петре;Pétres
+ru;Перазма;Pérasma
+ar;بينتابوليس، سيرري;Pentápoli
+ru;Пелла;Pélla
+ar;باليوكوريون، هالكيديكي;Palaiochóri
+ru;Палеохори;Palaiochóri
+ru;Уранополис;Ouranoupolis
+ru;Урануполи;Ouranoupolis
+ru;Ормилия;Ormýlia
+ru;Инои;Oinói
+ru;Нотия;Nótia
+zh;诺蒂亚;Nótia
+zh-Hant;諾蒂亞;Nótia
+tr;Nutya;Nótia
+nn;Nymféo;Nymfaío
+ru;Нимфеон;Nymfaío
+ru;Никомидино;Nikomidinó
+ru;Никищан;Nikísiani
+zh;尼基;Níki
+ja;ニキ;Níki
+ru;Нигрита;Nigríta
+ru;Неон-Гинекокастрон;Néo Gynaikókastro
+nn;Neokhoráki i Flórina;Neochoráki
+ru;Неа Зихни;Néa Zíchni
+ru;Неа-Рода;Néa Róda
+ar;نيا رودا;Néa Róda
+ru;Неа-Потидея;Néa Poteídaia
+tr;Lapçişte;Neápoli
+tr;Nasliç;Neápoli
+ru;Нова Пела;Néa Pélla
+ru;Олинф;Ólynthos
+uk;Олінфос;Ólynthos
+uk;Неа-Муданія;Néa Moudhaniá
+ru;Неа Мудания;Néa Moudhaniá
+ar;ني ميسيمفريا، ثيسالونيكي;Néa Mesimvría
+he;צהריים חדשים;Néa Mesimvría
+ja;ネーア・メシンブリア;Néa Mesimvría
+ru;Нов Малград;Néa Málgara
+ru;Мурие;Mouriés
+ar;مورييس;Mouriés
+ja;ムリエス;Mouriés
+ru;Моливдоскепастос;Molyvdosképastos
+be;Маліўдаскепастас;Molyvdosképastos
+ru;Милея;Miliá
+tr;Dogantzi;Ágios Antónios
+tr;Kücüklü;Ágios Antónios
+ru;Менемени;Meneméni
+ru;Мелити;Melíti
+ar;ميليتي;Melíti
+nn;Livádia i Kilkís;Livádia
+ru;Ливадия;Livádia
+ja;リヴァディア;Livádia
+ru;Маняк;Maniákoi
+hy;Մանյակի;Maniáki
+ru;Мандалево;Mándalo
+ar;لودياس;Loudías
+uk;Литија;Lithiá
+ru;Лефкон;Lefkónas
+ar;ليفكوناس;Lefkónas
+ja;レフコナス;Lefkónas
+nn;Lagadás;Lagkadás
+ru;Лангадас;Lagkadás
+ar;لانكاداس;Lagkadás
+ja;ラガダス;Lagkadás
+tr;Langaza;Lagkadás
+uk;Кранохори;Kranochóri
+ru;Козани;Kozáni
+ar;كوروميلي، كيلكيس;Koromiliá
+ru;Кормиста;Kormísta
+ar;كورميستا;Kormísta
+ja;コルミスタ;Kormísta
+ru;Коница;Kónitsa
+tr;Gümülcine;Komotiní
+ar;كوموتيني;Komotiní
+fa;کموتینی;Komotiní
+he;קוֹמוֹטִינִי;Komotiní
+ja;コモティニ;Komotiní
+ko;코모티니;Komotiní
+lt;Komotinė;Komotiní
+ru;Комотини;Komotiní
+uk;Комотіні;Komotiní
+zh;科莫蒂尼;Komotiní
+uk;Комнинадес;Komninádes
+nn;Khrýso;Chrysó
+nn;Khortiátis i Thessaloníki;Chortiátis
+ar;خورتياتيس;Chortiátis
+ja;ホルティアティス;Chortiátis
+nn;Khérso;Chérso
+ru;Херсо;Chérso
+ar;خيرسو;Chérso
+ja;ヘルソ;Chérso
+tr;Has Köy;Khatísion
+ru;Кела;Kélli
+ar;قولة;Kavála
+ru;Кавала;Kavála
+zh;卡瓦拉;Kavála
+uk;Кавала;Kavála
+ja;カヴァラ;Kavála
+ar;كاتو سكولاريون، ثيسالونيكي;Káto Scholári
+nn;Káto Klinés;Káto Kleinés
+ru;Като-Клине;Káto Kleinés
+ru;Долна Камила;Káto Kamíla
+uk;Долно Каленик;Káto Kalliníki
+ru;Кастрон;Kástro
+tr;Kesriye;Kastoria
+be;Касторыя;Kastoria
+zh;卡斯托里亚;Kastoria
+uk;Касторія;Kastoria
+ru;Кастория;Kastoria
+ja;カストリア;Kastoria
+lt;Kastorija;Kastoria
+he;קסטוריה;Kastoria
+ko;카스토리아;Kastoria
+ru;Касандрия;Kassándreia
+tr;Karajohalí;Kardía
+uk;Калохори;Kalochóri
+ar;كاليثي، هالكيديكي;Kallithéa
+ru;Каливес Полигиру;Kalýves Polygýrou
+tr;Kalamarya;Kalamariá
+ru;Каламария;Kalamariá
+ru;Календра;Kalá Déndra
+ru;Итея;Itéa
+ru;Лехово;Léchovo
+ru;Ираклион;Iráklion
+ar;إراكليون، ثيسالونيكي;Iráklion
+nn;Iráklia;Irákleia
+nn;Ieropijí;Ieropigí
+ru;Йерисос;Ierissós
+ru;Идруса;Ydroússa
+vep;Gumeniss;Gouménissa
+ru;Гумениса;Gouménissa
+ar;غومينيسا;Gouménissa
+hy;Գումենիսա;Gouménissa
+uk;Гуменіса;Gouménissa
+ja;グメニサ;Gouménissa
+ar;غازوروس، سيرري;Gázoros
+ru;Лерин;Flórina
+tr;Yalijík;Fíliro
+nn;Fílyro;Fíliro
+ar;فيليرون، ثيسالونيكي;Fíliro
+ru;Филиро;Fíliro
+ru;Эвропос;Evropós
+ar;إفروبوس;Evropós
+uk;Европос;Evropós
+ja;エヴロポス;Evropós
+fa;اوروپوس;Evropós
+tr;Harmanköj;Évosmos
+tr;Harmankioi;Évosmos
+nn;Evkarpía;Efkarpía
+ar;إوكاربيا، ثيسالونيكي;Efkarpía
+ja;エフカルピア;Efkarpía
+ur;ایفکارپیا;Efkarpía
+ar;إمانويل بابباس، سيرري;Emmanouíl Pappás
+nn;Elevtherés;Eleftherés
+ru;Элефтере;Eleftherés
+ar;إليوثيري، كافالا;Eleftherés
+ja;エレフテレス;Eleftherés
+tr;Şahin Köyü;Echínos
+he;דרמה;Dráma
+ar;ذراما;Dráma
+ru;Драма;Dráma
+ar;دروساتون، كيلكيس;Drosáto
+ar;درافيسكوس، سيرري;Dravískos
+ru;Дравискос;Dravískos
+ar;دافنوديون، سيرري;Dafnoúdi
+ru;Айос-Ерманос;Ágios Germanós
+ar;أييوس بانتيليمون، فلورينا;Ágios Panteleímonas
+ru;Айос-Панделеимон;Ágios Panteleímonas
+ru;Айос-Николаос;Ágios Nikólaos
+ar;أييوس نيكولاوس، هالكيديكي;Ágios Nikólaos
+hy;Այոս Նիկոլաոս;Ágios Nikólaos
+ar;أييوس ماماس، هالكيديكي;Ágios Mámas
+ru;Агиос Мамас;Ágios Mámas
+tr;Kavaklí;Ágios Athanásios
+ar;أييون بنيوما، سيرري;Ágio Pnévma
+ru;Айо Пневма;Ágio Pnévma
+he;אגיו פניומה;Ágio Pnévma
+tr;Hacıköy;Agiochóri
+nn;Ajía Triáda i Thessaloníki;Agía Triáda
+ar;أييا ترياس، ثيسالونيكي;Agía Triáda
+ja;アヤ・トリアダ;Agía Triáda
+ru;Агия Триада;Agía Triáda
+ru;Айя Параскеви;Agía Paraskeví
+tr;Yenikoÿ;Agía Paraskeví
+ru;Авьи;Avgí
+tr;Breştani;Avgí
+tr;Kireç Kjoj;Asvestochóri
+tr;Kozlukebir;Arrianá
+ru;Арнея;Arnaía
+ar;أرنايا;Arnaía
+hy;Արնեյա;Arnaía
+ja;アルネア;Arnaía
+fa;آرنایا;Arnaía
+ar;أرمينوكوريون، فلورينا;Armenokhórion
+ru;Архангелос;Archángelos
+nn;Áno Vrondoú;Áno Vrontoú
+ru;Ано-Вронду;Áno Vrontoú
+ar;أنو فرونتو;Áno Vrontoú
+uk;Ано Вронту;Áno Vrontoú
+tr;Gorno Brodi;Áno Vrontoú
+tr;Basislí;Áno Scholári
+uk;Птерия;Pteriá
+ar;أنو بورويا;Áno Poróïa
+uk;Горно Каленик;Áno Kalliníki
+ru;Ано-Идруса;Áno Ydroússa
+tr;Inglís;Anchíalos
+ar;أنخيالوس;Anchíalos
+ru;Анхиалос;Anchíalos
+nn;Ágistro;Ágkistro
+ru;Ангистрон;Ágkistro
+ar;أموكوريون، فلورينا;Ammochóri
+ru;Аминдео;Amýntaio
+ja;アンフィポリ;Amfípoli
+ru;Амфиполис;Amfípoli
+tr;Amfipolis;Amfípoli
+uk;Амфіполіс;Amfípoli
+tr;Dedeağaç;Alexandroupoli
+ar;أليكساندروبولي;Alexandroupoli
+ru;Александруполис;Alexandroupoli
+ru;Акритас;Akrítas
+ru;Тахино;Achinós
+ar;أفيتوس;Áfytos
+nn;Aetós i Flórina;Aetós
+ru;Аэтос;Aetós
+tr;Kirjilár;Ádendro
+ru;Дойран;Doïráni
+ru;Ксифиани;Xifianí
+he;ניסאקי;Nisáki
+ru;Корфу;Kérkyra
+zh;克基拉市;Kérkyra
+ru;Керкира;Kérkyra
+uk;Керкіра;Kérkyra
+ja;ケルキラ;Kérkyra
+he;קורפו;Kérkyra
+ko;케르키라;Kérkyra
+fa;شهر کورفو;Kérkyra
+ar;غوفيا، كيركيرا;Gouviá
+ru;Гувья;Gouviá
+ur;گوویہ;Gouviá
+ru;Эвропули;Evropoúloi
+ru;Беницес;Benítses
+ar;أوليوتي، كيركيرا;Avliótes
+ru;Авлиоте;Avliótes
+ar;أليبو، كيركيرا;Alepoú
+ru;Агрос;Agrós
+ru;Фалираки;Faliraki
+ar;فاليراكي;Faliraki
+fa;فالیراکی;Faliraki
+ru;Вурвуру;Vourvourou
+ru;Пефки;Pefki
+ru;Фискардо;Fiskardo
+ru;Потос;Potós
+ru;Педи;Pedi
+ru;Айос-Гордиос;Agios Górdios
+ru;Агиос-Георгиос;Agios Georgis
+uk;Агиос Георгиос;Agios Georgis
+ru;Георгиополи;Georgioupolis
+ar;باستيدا، دوديكانيسوس;Pastida
+nn;Posidonía;Poseidonia
+ru;Посидония;Poseidonia
+ja;ポシドニア;Poseidonia
+he;זגוריה;Zagorochória
+ar;إكسوكي، ثيسالونيكي;Exochi
+uk;Екзохі;Exochi
+ru;Ексохи;Exochi
+ru;Агнондас;Agnontas
+ru;Халки;Chalki
+ru;Стени-Вала;Stení Vála
+ru;Терма;Therma
+ru;Глика-Нера;Glyka Nera
+zh;格利卡内拉;Glyka Nera
+ar;غليكا نيرا;Glyka Nera
+hy;Գլիկա Ներա;Glyka Nera
+uk;Гліка-Нера;Glyka Nera
+ja;グリカ・ネラ;Glyka Nera
+ur;گلیکا نیرا;Glyka Nera
+tr;Glika Nera;Glyka Nera
+ru;Клима;Klíma
+uk;Клима;Klíma
+ru;Драпецона;Drapetsóna
+ar;درابيتسونا;Drapetsóna
+hy;Դրապեցոնա;Drapetsóna
+ja;ドラペツォナ;Drapetsóna
+ur;دراپیتسونا;Drapetsóna
+nn;Néo Psykhikó;Néo Psychikó
+ru;Неон-Психикон;Néo Psychikó
+ar;نيو بسيخيكو;Néo Psychikó
+uk;Нео-Псіхіко;Néo Psychikó
+ur;نئو پسیخیکو;Néo Psychikó
+tr;Neo Psihiko;Néo Psychikó
+ru;Родохори;Rodochori
+ru;Астероскопио;Asteroskopeío
+uk;Астероскопіо;Asteroskopeío
+uk;Плаки;Pláka
+ru;Варибоб;Varybóbi
+ru;Неа Врасна;Néa Vrasná
+uk;Неа-Іонія;Néa Ionía
+ru;Неа Йония;Néa Ionía
+ru;Тракомакедонес;Thrakomakedónes
+ar;ثراكوماكيدونيس;Thrakomakedónes
+ja;トラコマケドネス;Thrakomakedónes
+nn;Néa Khalkidóna;Néa Chalkidóna
+ru;Неа-Халкидон;Néa Chalkidóna
+zh;新哈尔基佐纳;Néa Chalkidóna
+ar;نيا خالكيدونا;Néa Chalkidóna
+fa;نی کالسدونا;Néa Chalkidóna
+tr;Nea Halkidona;Néa Chalkidóna
+ru;Акрополь;Akrópoli
+fa;آگیوس استفانوس;Agios Stéfanos Avliotón
+ru;Перама;Perama
+ru;Стафилос;Stafylos
+ar;كريتيري، لاريسا;Kritiri
+ar;ديمينيكا;Demenika
+ru;Неаполис;Neapoli
+hy;Նեապոլիս;Neapoli
+uk;Неаполі;Neapoli
+ur;نیاپولی، تھیسالونیکی;Neapoli
+zh;奈阿波利;Neapoli
+ar;نيابولي;Neapoli
+ja;ネアポリ;Neapoli
+fa;نئاپولی;Neapoli
+ru;Аликес;Alykes

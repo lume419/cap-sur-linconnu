@@ -9,3 +9,25 @@ ar;هاميلتون;Hamilton
 ru;Гамильтон;Hamilton
 zh;哈密尔顿;Hamilton
 en;Saint George's Parish;St George's Parish
+fa;سنت جورج، برمودا;Saint George
+he;סנט גורגס;Saint George
+ka;სენტ-ჯორჯესი;Saint George
+lt;Sent Džordžas;Saint George
+ur;سینٹ جارج، برمودا;Saint George
+be;Гамільтан;Hamilton
+bg;Хамилтън;Hamilton
+el;Χάμιλτον;Hamilton
+lt;Hamiltonas;Hamilton
+fa;همیلتون;Hamilton
+nn;Hamilton på Bermuda;Hamilton
+ur;ہیملٹن;Hamilton
+th;แฮมิลตัน;Hamilton
+ka;ჰამილტონი;Hamilton
+uk;Гамільтон;Hamilton
+he;המילטון;Hamilton
+mr;हॅमिल्टन;Hamilton
+os;Гамильтон;Hamilton
+mk;Хамилтон;Hamilton
+sr;Хамилтон;Hamilton
+ky;Гамильтон;Hamilton
+ta;ஆமில்டன்;Hamilton

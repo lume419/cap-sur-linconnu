@@ -9,3 +9,84 @@ de;Edinburgh der Sieben Meere;Edinburgh of the Seven Seas
 ha;Edinburgh na Bakin Ruwa Bakwai;Edinburgh of the Seven Seas
 ar;جيمس تاون;Jamestown
 es;Planta Árida;Barren Ground
+az;Corctaun;Georgetown
+hy;Ջորջթաուն;Georgetown
+ja;ジョージタウン;Georgetown
+ko;조지타운;Georgetown
+lt;Džordžtaunas;Georgetown
+lv;Džordžtauna;Georgetown
+nn;Georgetown på Ascension;Georgetown
+sr;Џорџтаун;Georgetown
+ta;ஜார்ஜ் டவுன்;Georgetown
+th;จอร์จทาวน์;Georgetown
+uk;Джорджтаун;Georgetown
+ur;جارج ٹاؤن، جزیرہ اسینشن;Georgetown
+ru;Джорджтаун;Georgetown
+zh;乔治敦;Georgetown
+kk;Джорджтаун;Georgetown
+uz;Jorjtown;Georgetown
+ky;Джорджтаун;Georgetown
+hi;जॉर्जटाउन;Georgetown
+bn;জর্জটাউন;Georgetown
+am;ጆርጅታውን;Georgetown
+fa;جورجتاون;Georgetown
+pa;ਜਾਰਜ ਟਾਊਨ;Georgetown
+ps;جارج ټاون;Georgetown
+tg;Джорджтаун;Georgetown
+tt;Джорджтаун;Georgetown
+az;Yeddi dəniz Edinburqu;Edinburgh of the Seven Seas
+be;Эдынбург-Сямі-Мораў;Edinburgh of the Seven Seas
+he;אדינבורו על שבעת הימים;Edinburgh of the Seven Seas
+ja;エディンバラ・オブ・ザ・セブン・シーズ;Edinburgh of the Seven Seas
+lt;Edinburgas;Edinburgh of the Seven Seas
+sr;Единбург Седам Мора;Edinburgh of the Seven Seas
+th;เอดินเบิร์กออฟเดอะเซเวนซีส์;Edinburgh of the Seven Seas
+uk;Единбург семи морів;Edinburgh of the Seven Seas
+ru;Эдинбург;Edinburgh of the Seven Seas
+gd;Èideann na Seachd Muir;Edinburgh of the Seven Seas
+gl;Edimburgo dos Sete Mares;Edinburgh of the Seven Seas
+hy;Յոթ ծովերի Էդինբուրգ;Edinburgh of the Seven Seas
+kw;Karedin an Seyth Moryow;Edinburgh of the Seven Seas
+lv;Edinburga Septiņās Jūrās;Edinburgh of the Seven Seas
+ur;سات سمندر کا ایڈنبرا;Edinburgh of the Seven Seas
+zh;七海爱丁堡;Edinburgh of the Seven Seas
+kk;Жеті теңіздің Эдинбургы;Edinburgh of the Seven Seas
+tr;Yedi Deniz Edinburgh;Edinburgh of the Seven Seas
+uz;Yetti Dengiz Edinburgi;Edinburgh of the Seven Seas
+ky;Жети Деңиздин Эдинбурги;Edinburgh of the Seven Seas
+id;Edinburgh dari Tujuh Laut;Edinburgh of the Seven Seas
+ms;Edinburgh Tujuh Lautan;Edinburgh of the Seven Seas
+hi;सात समुद्रों की एडिनबर्ग;Edinburgh of the Seven Seas
+bn;সাতটি সমুদ্রের এডিনবার্গ;Edinburgh of the Seven Seas
+am;ሰባት ባህረ ሞገስ ኤድንበርግ;Edinburgh of the Seven Seas
+fa;ادینبورگ هفت دریا;Edinburgh of the Seven Seas
+jv;Edinburgh Pitung Segara;Edinburgh of the Seven Seas
+om;Edinburgh Dalaloota Torba;Edinburgh of the Seven Seas
+pa;ਸਤ ਸਮੁੰਦਰਾਂ ਦੀ ਐਡਿਨਬਰਾ;Edinburgh of the Seven Seas
+ps;د اوو سمندرونو اډنبرا;Edinburgh of the Seven Seas
+so;Edinburgh ee Toddobaadka;Edinburgh of the Seven Seas
+sw;Edinburgh ya Bahari Saba;Edinburgh of the Seven Seas
+tg;Эдинбурги Ҳафти Баҳр;Edinburgh of the Seven Seas
+tt;Җиде Диңгез Эдинбурги;Edinburgh of the Seven Seas
+az;Ceymstaun;Jamestown
+be;Джэймстаўн;Jamestown
+bg;Джеймстаун;Jamestown
+ckb;جەیمستاون;Jamestown
+el;Τζέιμσταουν;Jamestown
+fa;جیمزتاون، سینت هلینا;Jamestown
+he;גיימסטאון;Jamestown
+ja;ジェームズタウン;Jamestown
+ka;ჯეიმზტაუნი;Jamestown
+ko;제임스타운;Jamestown
+lt;Džeimstaunas;Jamestown
+lv;Džeimstauna;Jamestown
+mr;जेम्सटाउन;Jamestown
+os;Джеймстаун;Jamestown
+sr;Џејмстаун;Jamestown
+th;เจมส์ทาวน์;Jamestown
+uk;Джеймстаун;Jamestown
+ur;جیمز ٹاون، سینٹ ہلینا;Jamestown
+ru;Джеймстаун;Jamestown
+zh;詹姆斯敦;Jamestown
+ky;Жеймстаун;Jamestown
+ta;ஜேம்ஸ்டவுன்;Jamestown

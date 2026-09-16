@@ -3326,6 +3326,88 @@ avec ~1,8 Go de mémoire au lieu de ~3 Go (le moteur ne charge plus les alias). 
 disponible en ~2 s, tirages en ~12 s. Le premier démarrage après chaque déploiement de nouvelles données reconstruit
 l'index (plusieurs minutes sur l'hébergement mutualisé).
 
+### Villes du pays de la langue en tête des suggestions (septembre 2026)
+
+Les suggestions de ville de départ montrent d'abord les lieux du **pays associé à la langue d'interface**, puis ceux des autres
+pays — qui gardent toujours au moins 3 des 8 places s'il y en a (`mergePreferred`, lib/search-index.js), les places
+inutilisées d'un côté revenant à l'autre ; chaque groupe par population décroissante. En allemand, « san » propose Sankt
+Augustin, Sankt Ingbert, Sankt Wendel, Sangerhausen, Xanten, puis Shanghai, São Paulo, Saint-Pétersbourg ; en français,
+Sannois, Sanary-sur-Mer… puis les mêmes grandes villes. Le pays vient du drapeau de la langue (`I18N.country()` : `de` → DE, `ca` → ES,
+`haw` → US ; marquisien et tahitien → FR, les collectivités d'outre-mer étant rangées sous FR ; occitan → FR, amazighe → MA),
+envoyé dans `/api/search-city?country=XX`. Un lieu du pays passe devant ceux des autres pays, même tout petit : en français,
+« berlin » propose Berling (Moselle) puis Berlin.
+
+**Index disque inchangé** (pas de reconstruction) : les lieux d'un pays y occupent des numéros consécutifs, un fichier de pays
+étant traité à la fois ; la plage de chaque pays est retrouvée par dichotomie au premier besoin (quelques centaines de lectures
+de 2 octets). La recherche en mémoire du moteur (repli) applique le même ordre.
+
+### Nom alternatif affiché entre parenthèses (septembre 2026)
+
+La recherche porte aussi sur les noms alternatifs multilingues (alias GeoNames), si bien que « san » proposait Xanten,
+Shanghai ou São Paulo sans qu'on voie pourquoi. Quand un lieu est trouvé **par un nom alternatif** (et non par son nom ni son
+code), ce nom est renvoyé (`matchedName`) et affiché entre parenthèses : « Xanten (Santen) » (bas-allemand), « Shanghai
+(Şanghay) » (turc), « São Paulo (San Paolo) » (italien). Si plusieurs noms alternatifs du lieu correspondent, **celui de la
+langue d'interface** est préféré (`/api/search-city?lang=`) : « Saint Petersburg (Sankt Petersburg) » en allemand, « (San
+Petersburgo) » en espagnol. Rien n'est ajouté quand le nom alternatif figure déjà dans le nom (« Donostia / San Sebastián »).
+
+**Index disque en version 3** : le texte des alias n'y était pas (seule sa forme normalisée, sans accents ni majuscules, servait
+de clé) ; deux fichiers s'ajoutent, `aliases.dat` (« langue 	 alias » par rang global d'alias) et `aliasoff.bin` (~130 Mo à
+eux deux). Le changement de version rend l'ancien index périmé : **au premier démarrage après la mise à jour, le serveur le
+reconstruit seul** (~2 min en ligne, recherche servie par le moteur en mémoire entre-temps). La recherche en mémoire du moteur
+(repli) renvoie les mêmes noms.
+
+**Liste des suggestions** : sur écran large (≥ 700 px), elle fait au moins 24 rem au lieu de la largeur du champ (~200 px), où
+les noms étaient coupés (« Sankt Wen… ») ; les noms longs passent à la ligne au lieu d'être tronqués. Sur mobile, elle garde la
+largeur du champ, qui occupe déjà tout l'écran.
+
+### Noms alternatifs dans toutes les langues, pour tous les pays (septembre 2026)
+
+Chaque lot de pays avait son script d'alias, avec la liste des langues gérées au moment de son ajout ; les langues ajoutées
+ensuite n'étaient jamais reportées. Berlin n'avait que 3 noms alternatifs (Berlino, Berlijn, Berlim) : « Берлин » ou
+« ベルリン » ne trouvaient rien. La France, l'Arménie et la Syrie n'avaient aucun fichier (« Parigi », « Երևան » introuvables),
+et 15 langues d'interface aucun nom alternatif.
+
+`scripts/build-all-aliases.js` complète désormais **tous** les fichiers `aliases-xx.txt`, de façon **additive** (lignes
+existantes gardées, avec leurs filtres propres), avec les noms alternatifs GeoNames de chaque lieu publié dans toute langue
+d'interface ou déjà acceptée par un script d'alias (variantes zh-TW, yue, nb, quz…) :
+- **rattachement** lieu publié → entrée GeoNames : mêmes coordonnées à 4 décimales (même nom, ou unique lieu habité à ce
+  point), sinon même nom à moins de 10 km (France : communes IGN ; Arménie, Syrie) — au moins 90 % des lieux rattachés dans
+  chaque pays, 97 % en France ;
+- **filtres** : noms historiques et familiers (« Ville-Lumière ») exclus, nom identique au nom publié exclu ; sorabe dsb → hsb,
+  normand nrf → nrf-je / nrf-gg, papiamento pap → pap-AW / pap-CW ; noms celtiques recopiés sous une autre langue et aires du
+  gallois, du gaélique, du cornique et de l'irlandais au Royaume-Uni (repris de `build-aliases.js`).
+
+**+404 553 noms alternatifs** (1,31 → 1,72 million), bundle d'alias 38,7 → 51,6 Mo (13,97 Mo en brotli), index de recherche
+16,4 → 17,6 millions d'entrées (construction : mémoire max 648 Mo, inchangée). Les plus nombreux : russe, persan, ukrainien,
+serbe, chinois, tatar, kazakh, tchétchène, ourdou, bulgare, japonais. Exemples : « Берлин » → Berlin, « Parigi » → Paris,
+« Marsylia » → Marseille, « Estrasburgo » → Strasbourg, « Երևան » → Yerevan, « Münih » → München. Les fichiers GeoNames des
+33 pays européens (`scripts/dump`, `scripts/altnames`, non commités) ont été retéléchargés pour l'occasion.
+
+**Limite** : un nom alternatif est rattaché au NOM canonique (format `langue;alias;nom`) : dans un pays, il s'applique à tous
+les lieux homonymes, comme avant.
+
+**Lignes orphelines réparées** : 55 lignes héritées des premiers scripts visaient un nom absent des lieux publiés
+(« Copenhagen », « Gothenburg », « Sibbo », « Tirana » alors que les lieux s'appellent København, Göteborg, Sipoo, Tiranë) ou
+étaient mal formées : 25 rattachées au bon nom (« Copenaghen » retrouve København), 30 écartées.
+
+**Nom affiché entre parenthèses** — parmi les noms alternatifs d'un lieu qui correspondent à la saisie, choix dans cet ordre :
+langue d'interface, nom tapé tel quel, nom tapé sans accents (« Münih » affiche « Münih » et non « Munîh », de même forme sans
+accents). Codes GeoNames équivalents aux langues d'interface (`aliasLangRank`, lib/search-index.js) : zh-TW, zh-HK, yue →
+chinois traditionnel ; zh-Hans, zh-CN → chinois ; nb, nn → norvégien ; pap → papiamento d'Aruba et de Curaçao ; qu, qug →
+kichwa ; quz → quechua ; tl → filipino ; nrf → jèrriais et guernésiais ; kmr → kurde ; prs → persan ; dsb → sorabe ; sr-Latn,
+hbs → serbe, monténégrin, bosnien, croate. Aucune parenthèse quand le nom choisi figure déjà dans le nom du lieu (« Juan de
+Nova » pour « Île Juan de Nova »), plutôt qu'un nom d'une autre langue à sa place.
+
+**Contrôle automatique** : `node scripts/check-alias-languages.js [N]` tire N noms alternatifs de chaque langue d'interface,
+les tape dans la recherche (index disque, pays du lieu prioritaire, langue d'interface correspondante) et vérifie que le lieu
+est trouvé et que la parenthèse est dans cette langue. Résultat (septembre 2026, N = 100) : **151 langues sur 161 testées,
+12 146 lieux trouvés sur 12 223, parenthèse dans la bonne langue 12 146 fois sur 12 146**. Les 77 lieux non trouvés portent un
+nom très répandu dans leur pays (« Krajan », « San Jose », « Ban Mai », « Campo »…) : des centaines de lieux passent avant eux
+au classement par population — limite du classement, pas de la langue. **10 langues n'ont aucun nom alternatif** dans GeoNames
+(guernésiais, vlaški, touroyo, créole seychellois, ndébélé, marquisien, maya yucatèque, k'iche', kaqchikel, q'eqchi') : leurs
+locuteurs utilisent en pratique les noms de la langue officielle (espagnol, français, anglais…), trouvés et affichés comme
+tels. Recherche en mémoire du moteur (repli) : mêmes résultats que l'index disque sur les cas testés.
+
 ### Kerkennah, Dalma, Coron et Busuanga : lieux ajoutés (septembre 2026)
 
 Trois îles sans aucun lieu dans les données, pour trois raisons différentes :

@@ -6964,3 +6964,365 @@ ur;Molvi Shah seri;Brahmi Seri
 sd;ڳوٺ حاجي علي محمد راهو;Village Haji Ali Muhammad Rahu
 ru;Хуб;Hub
 sd;دل شير بروهي;Dil Sher Brohi
+uk;Горівала;Ghoriwala
+hr;Ravalakot;Rawalakot
+sr;Равалакот;Rawalakot
+be;Вазірабад;Wazirabad
+lt;Vazirabadas;Wazirabad
+sr;Вазирабад;Wazirabad
+el;Ουαζιραμπάντ;Wazirabad
+he;טהאטה;Thatta
+ka;თატა;Thatta
+lt;Tata;Thatta
+sr;Сукур;Sukkur
+be;Сукур;Sukkur
+lt;Sukuras;Sukkur
+hu;Szukkúr;Sukkur
+sr;Скарду;Skardu
+uk;Скарду;Skardu
+lt;Sibis;Sibi
+uk;Сібі;Sibi
+be;Сіялкот;Sialkot
+lt;Sialkotas;Sialkot
+sr;Сијалкот;Sialkot
+pl;Sijalkot;Sialkot
+vep;Sijalkot;Sialkot
+uk;Сіялкот;Sialkot
+el;Σιαλκότ;Sialkot
+he;סיאלקוט;Sialkot
+sr;Шеикхупура;Shekhupura
+pl;Śekhupura;Shekhupura
+lt;Sargoda;Sargodha
+sr;Саргода;Sargodha
+be;Сахівал;Sahiwal
+lt;Sahivalas;Sahiwal
+sr;Сахивал;Sahiwal
+lt;Renala Kchurdas;Renala Khurd
+lv;Renala Hurda;Renala Khurd
+uk;Ренала-Хурд;Renala Khurd
+el;Ρενάλα Κούρντ;Renala Khurd
+lt;Ravalpindis;Rawalpindi
+az;Ravalpindi;Rawalpindi
+bg;Равалпинди;Rawalpindi
+ce;Равалпинди;Rawalpindi
+cs;Rávalpindí;Rawalpindi
+he;רוואלפינדי;Rawalpindi
+hu;Ravalpindi;Rawalpindi
+lv;Rāvalpindi;Rawalpindi
+sr;Равалпинди;Rawalpindi
+uk;Равалпінді;Rawalpindi
+hy;Ռավալպինդի;Rawalpindi
+be;Равалпіндзі;Rawalpindi
+hr;Ravalpindi;Rawalpindi
+el;Ραβαλπίντι;Rawalpindi
+sl;Ravalpindi;Rawalpindi
+bg;Ратодеро;Ratodero
+lt;Ratoderas;Ratodero
+uk;Ратодеро;Ratodero
+el;Ρατοντέρο;Ratodero
+sr;Рахијар Хан;Rahim Yar Khan
+pl;Rahimjar Khan;Rahim Yar Khan
+uk;Рагім Яр Хан;Rahim Yar Khan
+vep;Rahimjarhan;Rahim Yar Khan
+pl;Kweta;Quetta
+ka;კვეტა;Quetta
+cs;Kvéta;Quetta
+uk;Кветта;Quetta
+sr;Квета;Quetta
+bg;Куета;Quetta
+lt;Kveto;Quetta
+be;Квета;Quetta
+az;Kvetta;Quetta
+hu;Kvetta;Quetta
+am;ኩዌታ;Quetta
+tt;Квета;Quetta
+pl;Peszawar;Peshawar
+el;Πεσαβάρ;Peshawar
+lt;Pešavaras;Peshawar
+af;Pesjawar;Peshawar
+az;Pişəvər;Peshawar
+be;Пешавар;Peshawar
+bg;Пешавар;Peshawar
+ce;Пешавар;Peshawar
+cs;Péšávar;Peshawar
+he;פשאוור;Peshawar
+hu;Pesavar;Peshawar
+ka;პეშავარი;Peshawar
+lv;Pešāvara;Peshawar
+sr;Пешавар;Peshawar
+uk;Пешавар;Peshawar
+hy;Փեշավար;Peshawar
+hr;Pešavar;Peshawar
+sl;Pešavar;Peshawar
+am;ፔሻዋር;Peshawar
+tt;Пешавар;Peshawar
+bg;Патоки;Pattoki
+bg;Пасни;Pasni
+fi;Ormara Tehsil;Ormara
+lt;Ormara Tesilas;Ormara
+uk;Ормара;Ormara
+sv;Ormara Tehsil;Ormara
+el;Ορμάρα;Ormara
+nb;Ormara Tehsil;Ormara
+pl;Ormara Tehsil;Ormara
+da;Tahsil;Ormara
+hr;Mirpur;New Mirpur City
+sr;Мирпур;New Mirpur City
+sl;Mirpur;New Mirpur City
+lt;Nankana Sachibas;Nankana Sahib
+lv;Nankana Sahiba;Nankana Sahib
+uk;Нанкана-Сахіб;Nankana Sahib
+el;Νανκάνα Σαχίμπ;Nankana Sahib
+sr;Музафаргарх;Muzaffargarh
+sr;Музафарабад;Muzaffarābād
+az;Müzəffərabad;Muzaffarābād
+be;Музафарабад;Muzaffarābād
+hr;Muzafarabad;Muzaffarābād
+sl;Muzafarabad;Muzaffarābād
+uk;Музаффарабад;Muzaffarābād
+am;ሙዛፋራባድ;Muzaffarābād
+tt;Музаффарабад;Muzaffarābād
+sr;Муридке;Muridke
+lt;Multanas;Multan
+be;Мултан;Multan
+el;Μουλτάν;Multan
+hr;Μultan;Multan
+he;מולטאן;Multan
+sr;Мултан;Multan
+uk;Мултан;Multan
+ka;მირპურქასი;Mirpur Khas
+sr;Мирпур Хас;Mirpur Khas
+fi;Miranshah;Miran Shah
+pl;Miramszah;Miran Shah
+da;Miranshah;Miran Shah
+ca;Miranshah;Miran Shah
+sr;Мингаора;Mingora
+hy;Մինգորա;Mingora
+uk;Мінгора;Mingora
+el;Μινγκάορα;Mingora
+az;Minqora;Mingora
+be;Мінгора;Mingora
+bg;Мингора;Mingora
+os;Мингора;Mingora
+he;מינגורה;Mingora
+lt;Mardanas;Mardan
+sr;Мардан;Mardan
+pl;Mamu Kandźan;Mamu Kanjan
+bg;Маилси;Mailsi
+he;לאהור;Lahore
+pl;Lahaur;Lahore
+bs;Lahor;Lahore
+ka;ლაჰორი;Lahore
+lt;Lahoras;Lahore
+sr;Лахор;Lahore
+az;Lahor;Lahore
+be;Лахор;Lahore
+bg;Лахор;Lahore
+ce;Лахор;Lahore
+cs;Láhaur;Lahore
+el;Λαχόρη;Lahore
+hu;Lahor;Lahore
+lv;Lahora;Lahore
+mhr;Лахор;Lahore
+mk;Лахор;Lahore
+mzn;لاهور;Lahore
+sk;Láhaur;Lahore
+uk;Лахор;Lahore
+ckb;لاھۆر;Lahore
+hy;Լահոր;Lahore
+vep;Lahor;Lahore
+am;ላሆር;Lahore
+tt;Лахор;Lahore
+sr;Котли;Kotli
+uk;Котлі;Kotli
+bg;Карачи;Karachi
+he;קראצי;Karachi
+lt;Karačis;Karachi
+lv;Karāči;Karachi
+pl;Karaczi;Karachi
+eu;Karatxi;Karachi
+sk;Karáči;Karachi
+sr;Карачи;Karachi
+cs;Karáčí;Karachi
+rue;Карачі;Karachi
+ku;Keraçî;Karachi
+el;Καράτσι;Karachi
+mhr;Карачи;Karachi
+sah;Карачи;Karachi
+ka;კარაჩი;Karachi
+bs;Karači;Karachi
+hy;Կարաչի;Karachi
+os;Карачи;Karachi
+uk;Карачі;Karachi
+hu;Karacsi;Karachi
+be;Карачы;Karachi
+hsb;Karači;Karachi
+az;Kəraçi;Karachi
+af;Karatsji;Karachi
+so;Karaaji;Karachi
+sl;Karači;Karachi
+ckb;کەراچی;Karachi
+ba;Карачи;Karachi
+sgs;Karačės;Karachi
+ce;Карачи;Karachi
+tt;Karaçi;Karachi
+am;ከራቺ;Karachi
+bxr;Карачи;Karachi
+ln;Karaci;Karachi
+mzn;کراچی;Karachi
+vep;Karači;Karachi
+tpi;Karasi;Karachi
+hr;Karači;Karachi
+ca;Kappar;Taj Mahammad Kappar Log
+et;Kappar;Taj Mahammad Kappar Log
+lt;Kachuta;Kahuta
+lv;Kaguta;Kahuta
+uk;Кахута;Kahuta
+el;Καχούτα;Kahuta
+sv;Kabal;Kabbal
+nb;Kabal Tehsil;Kabbal
+lt;Dželamas;Jhelum
+sr;Џелам;Jhelum
+pl;Dźhelam;Jhelum
+ckb;جێھلۆم;Jhelum
+fi;Jhang Sadar;Jhang Sadr
+lt;Džchang Sadaras;Jhang Sadr
+lv;Džhang-Sadara;Jhang Sadr
+uk;Джанг-Садар;Jhang Sadr
+sv;Jhang Sadar;Jhang Sadr
+el;Ζανγκ Σαντάρ;Jhang Sadr
+nb;Jhang Sadar;Jhang Sadr
+pl;Jhang Sadar;Jhang Sadr
+da;Jhang Sadar;Jhang Sadr
+lt;Jaranvala;Jaranwala
+lv;Džaranvala;Jaranwala
+uk;Джаранвала;Jaranwala
+el;Τζαράνγουαλα;Jaranwala
+nb;Jarnawala;Jaranwala
+sr;Џаранвала;Jaranwala
+cs;Džamrúd;Jamrud
+pl;Dżamrud;Jamrud
+pl;Dźalalpur Pirwala;Jalalpur Pirwala
+pl;Dżehangira;Jahangira
+el;Ισλαμαμπάντ;Islamabad
+hu;Iszlámábád;Islamabad
+hy;Իսլամաբադ;Islamabad
+bg;Исламабад;Islamabad
+be;Ісламабад;Islamabad
+sr;Исламабад;Islamabad
+he;איסלמבאד;Islamabad
+sq;Islamabadi;Islamabad
+lt;Islamabadas;Islamabad
+lv;Islāmābāda;Islamabad
+ckb;ئیسلاماباد;Islamabad
+sah;Исламабад;Islamabad
+ka;ისლამაბადი;Islamabad
+mzn;اسلام آباد;Islamabad
+am;ኢስላማባድ;Islamabad
+mk;Исламабад;Islamabad
+uk;Ісламабад;Islamabad
+os;Исламабад;Islamabad
+lez;Исламабад;Islamabad
+ce;Исламабад;Islamabad
+pl;Hajdarabad;Hyderabad
+bg;Хайдарабад;Hyderabad
+ce;Хайдарабад;Hyderabad
+el;Χαϊντεραμπάντ;Hyderabad
+he;היידראבאד;Hyderabad
+lt;Haidarabadas;Hyderabad
+sr;Хајдерабад;Hyderabad
+uk;Хайдарабад;Hyderabad
+hu;Hiderábád;Hyderabad
+ka;ჰაიდარაბადი;Hyderabad
+nn;Hyderabad i Pakistan;Hyderabad
+hr;Hajderabad;Hyderabad
+sl;Hajderabad;Hyderabad
+uk;Гавеліан;Havelian
+lv;Hasilpura;Hasilpur
+uk;Хасілпур;Hasilpur
+el;Χάσιλμπουρ;Hasilpur
+lt;Harapa;Harappa
+be;Харапа;Harappa
+bg;Харапа;Harappa
+hy;Հարապպա;Harappa
+ka;ჰარაპა;Harappa
+uk;Хараппа;Harappa
+be;Гвадар;Gwadar
+lt;Gvadaras;Gwadar
+be;Гуджрат;Gujrat
+hr;Gudžrat;Gujrat
+sr;Гуџрат;Gujrat
+az;Qucranvala;Gujranwala
+be;Гуджранвала;Gujranwala
+cs;Gudžranvala;Gujranwala
+he;גוג'ראנוואלה;Gujranwala
+pl;Gudźranwala;Gujranwala
+sr;Гујранвала;Gujranwala
+sl;Gudžranvala;Gujranwala
+hr;Gudžranvala;Gujranwala
+uk;Гуджранвала;Gujranwala
+sr;Гојра;Gojra
+lt;Goira;Gojra
+lv;Godžra;Gojra
+uk;Годжра;Gojra
+el;Γκότζρα;Gojra
+be;Гілгіт;Gilgit
+el;Γκιλγκίτ;Gilgit
+he;גילגיט;Gilgit
+sr;Гилгит;Gilgit
+uk;Гілгіт;Gilgit
+am;ጊልግት;Gilgit
+tt;Гилгит;Gilgit
+bg;Гагоки;Gagoki
+pl;Fajsalabad;Faisalabad
+lv;Faisalābāda;Faisalabad
+lt;Feisalabadas;Faisalabad
+hr;Fajsalabad;Faisalabad
+sr;Фејсалабад;Faisalabad
+az;Feysəlabad;Faisalabad
+be;Фейсалабад;Faisalabad
+bg;Файсалабад;Faisalabad
+uk;Фейсалабад;Faisalabad
+he;פייסלאבאד;Faisalabad
+sl;Fajsalabad;Faisalabad
+bg;Докри;Dokri
+sv;Depalpur;Dipalpur
+uk;Діпалпур;Dipalpur
+sr;Дера Гази Хан;Dera Ghazi Khan
+lt;Dera Gazi Chanas;Dera Ghazi Khan
+bs;Čitral;Chitral
+uk;Читрал;Chitral
+pl;Czitral;Chitral
+sr;Чиштијан;Chishtian
+sr;Чиниот;Chiniot
+lt;Čamanas;Chaman
+uk;Чаман;Chaman
+bg;Бхириа;Bhiria
+lt;Banava;Bhawana
+lv;Bhavana;Bhawana
+uk;Бхавана;Bhawana
+el;Μπχαβάνα;Bhawana
+lt;Balvalas;Bhalwal
+lv;Bhalvala;Bhalwal
+uk;Бгалвал;Bhalwal
+el;Μπχαλβάλ;Bhalwal
+lt;Banu;Bannu
+pl;Bahawalpur;Bahawalnagar
+gl;Bahawalpur;Bahawalnagar
+sv;Bahawalpur;Bahawalnagar
+sr;Ахмадпур Ист;Ahmadpur East
+pl;Ahmedpur Śarki;Ahmadpur East
+bg;Нартопа;Nartopa
+tt;Читти Гатти;Chitti Gatti
+ca;Jumma Núria;Goth Juma Khan Nario
+oc;Jumma Núria;Goth Juma Khan Nario
+eu;Jumma Núria;Goth Juma Khan Nario
+he;תהוראר;Thorar
+aa;Goth Sameja;Goth Samejo
+aa;Goth Chaudhary Lāl Khān;Lal Khan
+el;Τάξιλα;Taxila
+he;תכסילא;Taxila
+hr;Taksila;Taxila
+pl;Taksila;Taxila
+sr;Таксила;Taxila
+uk;Таксила;Taxila

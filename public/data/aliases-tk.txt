@@ -20,3 +20,52 @@ hi;अटाफु गाँव;Atafu Village
 de;Dorf Atafu;Atafu Village
 ja;アタフ村;Atafu Village
 pt;Aldeia de Atafu;Atafu Village
+ar;مستوطنة فالي القديمة;Fale old settlement
+kk;Фале eski ауылы;Fale old settlement
+tr;Fale eski yerleşimi;Fale old settlement
+uz;Fale qadimgi jamoasi;Fale old settlement
+ky;Фале эски жайгашуусу;Fale old settlement
+bn;ফালে পুরানো বসতি;Fale old settlement
+ur;فالے پرانی آبادی;Fale old settlement
+am;ፋሌ ድሮ መኖሪያ;Fale old settlement
+az;Fale köhnə yaşayış yeri;Fale old settlement
+fa;شهرک قدیمی فاله;Fale old settlement
+ha;Tsohon gidaje Fale;Fale old settlement
+jv;Pemukiman lawas Fale;Fale old settlement
+om;Yeroo durii jidhaala Fale;Fale old settlement
+pa;ਫਾਲੇ ਪੁਰਾਣੀ ਬਸਤੀ;Fale old settlement
+ps;د فالې پراتې سکونت;Fale old settlement
+so;Magalada hore ee Fale;Fale old settlement
+sw;Makazi ya zamani ya Fale;Fale old settlement
+tg;Абадии кӯҳнаи Фале;Fale old settlement
+tt;Фале искә ясаулыгы;Fale old settlement
+ar;نوكونونو;Nukunonu
+kk;Нукуному;Nukunonu
+ky;Нукуному;Nukunonu
+bn;নুকুনোনু;Nukunonu
+ur;نوکونونو;Nukunonu
+am;ኑኩኖኑ;Nukunonu
+fa;نوکونونو;Nukunonu
+pa;ਨੁਕੁਨੋਨੁ;Nukunonu
+ps;نوکونونو;Nukunonu
+tg;Нукуному;Nukunonu
+tt;Нукуному;Nukunonu
+ar;قرية أتافو;Atafu Village
+kk;Атафу ауылы;Atafu Village
+tr;Atafu Köyü;Atafu Village
+uz;Atafu qishlog'i;Atafu Village
+ky;Атафу айылы;Atafu Village
+bn;আতাফু গ্রাম;Atafu Village
+ur;آتافو گاؤں;Atafu Village
+am;አታፉ መንደር;Atafu Village
+az;Atafu kəndi;Atafu Village
+fa;روستای آتافو;Atafu Village
+ha;Atafu gida;Atafu Village
+jv;Desa Atafu;Atafu Village
+om;Tuulo Atafu;Atafu Village
+pa;ਅਟਾਫੂ ਪਿੰਡ;Atafu Village
+ps;د آتافو کلي;Atafu Village
+so;Tuulo Atafu;Atafu Village
+sw;Kijiji cha Atafu;Atafu Village
+tg;Дехаи Атафу;Atafu Village
+tt;Atafu авылы;Atafu Village

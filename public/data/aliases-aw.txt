@@ -9,3 +9,24 @@ ar;أورنجستاد;Oranjestad
 ko;오라녜스타트;Oranjestad
 zh;奥拉涅斯塔德;Oranjestad
 pap;Playa;Oranjestad
+pl;Ceru Colorado;Sero Colorado
+ceb;Pos Chikito;Pos Chiquito
+sv;Pos Chikito;Pos Chiquito
+pap-AW;Pos Chikito;Pos Chiquito
+bg;Оранестад;Oranjestad
+be;Араньестад;Oranjestad
+el;Οράνιεστατ;Oranjestad
+he;אורנייסטאד;Oranjestad
+ka;ორანესტადი;Oranjestad
+lt;Oranjestadas;Oranjestad
+mr;ओरांजेश्टाड;Oranjestad
+nn;Oranjestad på Aruba;Oranjestad
+os;Ораньестад;Oranjestad
+sr;Орањестад;Oranjestad
+th;โอรันเยสตัด;Oranjestad
+uk;Ораньєстад;Oranjestad
+ur;اورنجسٹیڈ، اروبا;Oranjestad
+fa;اورنجستاد;Oranjestad
+ky;Ораньестад;Oranjestad
+lv;Oranjestade;Oranjestad
+ta;ஒரானியெசுத்தாடு;Oranjestad

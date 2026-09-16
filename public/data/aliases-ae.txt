@@ -247,3 +247,268 @@ ar;شعبية إصفني;Esfini
 ar;اصفني‎;Esfini
 ar;غوب;Ghub
 ar;شعبية الوعب‎;Sha'biyyat Al Wa'ab
+kk;Умм-әл-Қувейн;Umm Al Quwain City
+uz;Umm Al Quwain;Umm Al Quwain City
+ky;Умм-аль-Кувейн;Umm Al Quwain City
+id;Umm Al Quwain;Umm Al Quwain City
+ms;Umm Al Quwain;Umm Al Quwain City
+hi;उम्म अल क़ुवैन;Umm Al Quwain City
+bn;উম্ম আল কুওয়াইন;Umm Al Quwain City
+ur;ام القیون;Umm Al Quwain City
+am;ኦም አል ቁዋይን;Umm Al Quwain City
+ha;Umm Al Quwain;Umm Al Quwain City
+ja;ウンム・アル・カイワイン;Umm Al Quwain City
+jv;Umm Al Quwain;Umm Al Quwain City
+om;Umm Al Quwain;Umm Al Quwain City
+pa;ਉੰਮ ਅਲ ਕੁਵੈਨ;Umm Al Quwain City
+ps;ام القيوين;Umm Al Quwain City
+so;Umm Al Quwain;Umm Al Quwain City
+sw;Umm Al Quwain;Umm Al Quwain City
+tg;Умм-аль-Қувайн;Umm Al Quwain City
+tt;Умм-әл-Қувайн;Umm Al Quwain City
+nn;Saqamqam;Sakamkam
+be;Рас-эль-Хайма;Ras Al Khaimah
+hr;Ras al-Hajma;Ras Al Khaimah
+he;ראס אל-ח'ימה;Ras Al Khaimah
+pl;Ras al-Chajma;Ras Al Khaimah
+sl;Ras al Hajma;Ras Al Khaimah
+sr;Рас ел Хајма;Ras Al Khaimah
+uk;Рас-ель-Хайма;Ras Al Khaimah
+kk;Рас-әл-Хайма;Ras Al Khaimah
+ky;Рас-аль-Хайма;Ras Al Khaimah
+hi;रास अल खैमाह;Ras Al Khaimah
+bn;রাস আল খাইমাহ;Ras Al Khaimah
+ur;راس الخیمہ;Ras Al Khaimah
+am;ራስ አል ኃይማህ;Ras Al Khaimah
+ja;ラス・アル・ハイマ;Ras Al Khaimah
+pa;ਰਾਸ ਅਲ ਖੈਮਾ;Ras Al Khaimah
+ps;راس الخيمة;Ras Al Khaimah
+tg;Рас-аль-Хайма;Ras Al Khaimah
+tt;Рас-әл-Хайма;Ras Al Khaimah
+uz;Al-Qurm;Qurm
+nn;Mukhtaraqah;Al Muhtarqah
+nn;Muaifi;Nedaifi
+ur;خت;Khatt
+bg;Дубай;Dubai
+et;Dubai emiraat;Dubai
+hi;दुबई;Dubai
+is;Dúbæ;Dubai
+ja;ドバイ;Dubai
+ko;두바이;Dubai
+lt;Dubajus;Dubai
+pl;Dubaj;Dubai
+ta;துபை;Dubai
+zh;杜拜;Dubai
+he;דובאי;Dubai
+hu;Dubaj;Dubai
+sr;Дубаи;Dubai
+th;ดูไบ;Dubai
+cs;Dubaj;Dubai
+sk;Dubaj;Dubai
+ur;دبئی;Dubai
+zh;迪拜;Dubai
+sah;Дубай;Dubai
+kk;Дубай;Dubai
+el;Ντουμπάι;Dubai
+ka;დუბაი;Dubai
+kn;ದುಬೈ;Dubai
+os;Дубай;Dubai
+hy;Դուբայ;Dubai
+ug;دۇبائى;Dubai
+uk;Дубай;Dubai
+bn;দুবাই;Dubai
+be;Дубай;Dubai
+te;దుబాయ్;Dubai
+lv;Dubaija;Dubai
+ml;ദുബായ്;Dubai
+mr;दुबई;Dubai
+sl;Dubaj;Dubai
+mk;Дубаи;Dubai
+zh-TW;杜拜;Dubai
+ky;Дубай;Dubai
+am;ዱቤ;Dubai
+pa;ਦੁਬਈ;Dubai
+ps;دبي;Dubai
+tg;Дубай;Dubai
+tt;Дубай;Dubai
+pl;Dafta;Daftah
+ml;ദഫ്താഹ്;Daftah
+ml;ദാദ്ന;Ḑadnā
+pl;Szardża;Sharjah
+bg;Шарджа;Sharjah
+ca;Xarjah;Sharjah
+et;Ash-Shāriqah emiraat;Sharjah
+he;שארגה;Sharjah
+ja;シャールジャ;Sharjah
+lb;Schardscha;Sharjah
+ta;சார்ஜா;Sharjah
+be;Шарджа;Sharjah
+br;Charjah;Sharjah
+cs;Šardžá;Sharjah
+eu;Xarja;Sharjah
+fi;Sharja;Sharjah
+hi;शारजाह;Sharjah
+hy;Շարժա;Sharjah
+kn;ಶಾರ್ಜ;Sharjah
+ko;샤르자;Sharjah
+lt;Šardža;Sharjah
+ml;ഷാർജ;Sharjah
+sr;Шарџа;Sharjah
+th;ชาร์จาห์;Sharjah
+uk;Шарджа;Sharjah
+ur;شارجہ;Sharjah
+zh;夏尔迦;Sharjah
+hu;Sardzsa;Sharjah
+ka;შარჯა;Sharjah
+mr;शारजा;Sharjah
+pa;ਸ਼ਾਰਜਾ;Sharjah
+sah;Шарджа куорат;Sharjah
+te;షార్జా;Sharjah
+tt;Шарҗә;Sharjah
+hr;Šardža;Sharjah
+sl;Šardža;Sharjah
+kk;Шарджа;Sharjah
+ky;Шарджа;Sharjah
+bn;শারজাহ;Sharjah
+am;ሻርጃ;Sharjah
+ps;شارجه;Sharjah
+tg;Шарджа;Sharjah
+nn;Ruwais;Ar Ruways
+zh;鲁瓦斯;Ar Ruways
+zh-Hant;魯瓦斯;Ar Ruways
+nb;Ruwais;Ar Ruways
+tl;Ruwais;Ar Ruways
+ur;الرویس;Ar Ruways
+ca;Ruwais;Ar Ruways
+ml;റുവൈസ്;Ar Ruways
+uz;Al-Qurayya;Al Qurayyah
+bn;আল কুরাইয়্যাহ;Al Qurayyah
+bg;Фуджейра;Fujairah
+et;Al-Fujayrah' emiraat;Fujairah
+ja;フジャイラ;Fujairah
+lb;Fudschaira;Fujairah
+zh;富吉拉;Fujairah
+hr;Fudžajra;Fujairah
+he;פוג'יירה;Fujairah
+pl;Fudżajra;Fujairah
+sl;Fudžajra;Fujairah
+sr;Фуџејра;Fujairah
+uk;Ель-Фуджайра;Fujairah
+kk;Фужайра;Fujairah
+ky;Фужайра;Fujairah
+hi;फुजैराह;Fujairah
+bn;ফুজাইরা;Fujairah
+ur;فجیرہ;Fujairah
+am;ፉጃይራ;Fujairah
+pa;ਫੁਜੈਰਾ;Fujairah
+ps;فجيره;Fujairah
+tg;Фужайра;Fujairah
+tt;Фужайра;Fujairah
+pl;Al-Ajn;Al Ain City
+fi;Al-Ain;Al Ain City
+lb;Al Ain;Al Ain City
+ja;アル・アイン;Al Ain City
+ml;അൽ ഐൻ;Al Ain City
+ca;Al-Ain;Al Ain City
+hy;Ալ-Ային;Al Ain City
+ko;알아인;Al Ain City
+ta;அல் ஐன்;Al Ain City
+lt;Ainas;Al Ain City
+he;אל-עין;Al Ain City
+cs;Al Ajn;Al Ain City
+ka;ალ-აინი;Al Ain City
+zh;艾因;Al Ain City
+da;Al-Ain;Al Ain City
+ur;العین;Al Ain City
+uz;Al Ayn;Al Ain City
+hu;El-Ajn;Al Ain City
+kab;Al Ɛayn;Al Ain City
+ne;एल एन;Al Ain City
+sr;Ел Аин;Al Ain City
+vep;El Ain;Al Ain City
+hr;Adschman;Ajman
+be;Аджман;Ajman
+he;עג'מאן;Ajman
+pl;Adżman;Ajman
+sr;Аџман;Ajman
+sl;Adžman;Ajman
+uk;Аджман;Ajman
+kk;Аджман;Ajman
+ky;Аджман;Ajman
+hi;अजमान;Ajman
+bn;আজমান;Ajman
+ur;اجمان;Ajman
+am;አጃማን;Ajman
+ja;アジュマーン;Ajman
+pa;ਅਜਮਾਨ;Ajman
+ps;عجمان;Ajman
+tg;Аджман;Ajman
+tt;Аджман;Ajman
+nn;Dhaid;Adh Dhayd
+zh;達伊德;Adh Dhayd
+pl;Az-Zajd;Adh Dhayd
+ur;ذید;Adh Dhayd
+ca;Dhaid;Adh Dhayd
+ml;ദൈദ്;Adh Dhayd
+bg;Абу Даби;Abu Dhabi
+cs;Abú Zabí;Abu Dhabi
+et;Abu Dhabi emiraat;Abu Dhabi
+gl;Abu Zabi;Abu Dhabi
+he;אבו דאבי;Abu Dhabi
+is;Abú Dabí;Abu Dhabi
+ja;アブダビ;Abu Dhabi
+ko;아부다비;Abu Dhabi
+lt;Abu Dabis;Abu Dhabi
+pl;Abu Zabi;Abu Dhabi
+sk;Abú Zabí;Abu Dhabi
+uk;Абу-Дабі;Abu Dhabi
+zh;阿布扎比;Abu Dhabi
+el;Αμπού Ντάμπι;Abu Dhabi
+af;Aboe Dhabi;Abu Dhabi
+os;Абу-Даби;Abu Dhabi
+si;අබුඩාබි;Abu Dhabi
+pa;ਅਬੂ ਧਾਬੀ;Abu Dhabi
+am;አቡ ዳቢ;Abu Dhabi
+sah;Абу Даби;Abu Dhabi
+ur;ابوظبی;Abu Dhabi
+kk;Абу-Даби;Abu Dhabi
+sr;Абу Даби;Abu Dhabi
+lv;Abū Dabī;Abu Dhabi
+hu;Abu-Dzabi;Abu Dhabi
+kab;Abu Ḍabi;Abu Dhabi
+ga;Abú Daibí;Abu Dhabi
+ht;Abou Dabi;Abu Dhabi
+or;ଆବୁଧାବି;Abu Dhabi
+tt;Әбу-Даби;Abu Dhabi
+mr;अबु धाबी;Abu Dhabi
+th;อาบูดาบี;Abu Dhabi
+kn;ಅಬು ಧಾಬಿ;Abu Dhabi
+my;အဘူဒါဘီမြို့;Abu Dhabi
+be;Абу-Дабі;Abu Dhabi
+hi;अबू धाबी;Abu Dhabi
+mn;Абу-Даби хот;Abu Dhabi
+tg;Абу Даби;Abu Dhabi
+bn;আবুধাবি;Abu Dhabi
+bo;ཨ་པོའུ་དྷ་པེ།;Abu Dhabi
+vep;Abu Dabi;Abu Dhabi
+ta;அபுதாபி;Abu Dhabi
+sq;Ebu Dhabi;Abu Dhabi
+hy;Աբու Դաբի;Abu Dhabi
+sl;Abu Dabi;Abu Dhabi
+ml;അബുദാബി;Abu Dhabi
+mk;Абу Даби;Abu Dhabi
+ka;აბუ-დაბი;Abu Dhabi
+sgs;Abu Dabis;Abu Dhabi
+ce;Абу-Даби;Abu Dhabi
+uz;Abu-Dabi;Abu Dhabi
+yue;阿布扎比;Abu Dhabi
+hak;Â-pu-tha̍t-pí;Abu Dhabi
+kaa;Abu Dabi;Abu Dhabi
+ky;Абу-Даби;Abu Dhabi
+ne;अबू धाबी;Abu Dhabi
+so;Abu Dabi;Abu Dhabi
+tpi;Abu Dabi;Abu Dhabi
+ar;جزيرة دلما;Dalma Island
+ar;شعبية دلما الجديدة;Shabiat Dalma Al Jadeedah
+ar;شعبية دلما;Shabiat Dalma
+ar;شعبية دلما الجبل;Shabiat Dalma Al Jabel

@@ -46,3 +46,39 @@ es;Fitz Roy;Fitzroy Settlement
 en;Roy Cove;Roy Cove Settlement
 es;Ensenada Roy;Roy Cove Settlement
 nl;Roy Cove;Roy Cove Settlement
+fi;Port Stanley;Stanley
+he;סטנלי;Stanley
+sv;Port Stanley;Stanley
+bg;Порт Стенли;Stanley
+sk;Port Stanley;Stanley
+lt;Puerto Archentinas/Stenlis;Stanley
+lt;Stenlis;Stanley
+lv;Stenli;Stanley
+uk;Порт-Стенлі;Stanley
+ur;اسٹینلے، جزائر فاکلینڈ;Stanley
+os;Порт-Стэнли;Stanley
+mr;पोर्ट स्टॅन्ली;Stanley
+hy;Պորտ Սթենլի;Stanley
+el;Στάνλεϋ;Stanley
+th;สแตนลีย์;Stanley
+be;Стэнлі;Stanley
+az;Stenli;Stanley
+sgs;Port Stenlis;Stanley
+fa;استنلی، جزایر فالکلند;Stanley
+ml;സ്റ്റാൻലി;Stanley
+gl;Porto Arxentino/Stanley;Stanley
+kbd;Стенли;Stanley
+kk;Порт-Стэнли;Stanley
+sr;Стенли;Stanley
+ta;இசுடான்லி;Stanley
+yue;斯坦利港;Stanley
+ceb;Port San Carlos;Port San Carlos Settlement
+sv;Port San Carlos;Port San Carlos Settlement
+nb;Port San Carlos;Port San Carlos Settlement
+pl;North Arm;North Arm Settlement
+sv;Goose Green;Goose Green Settlement
+hr;Goose Green;Goose Green Settlement
+nb;Goose Green;Goose Green Settlement
+pl;Goose Green;Goose Green Settlement
+he;גוז גרין;Goose Green Settlement
+ur;گوز گرین;Goose Green Settlement

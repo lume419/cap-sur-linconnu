@@ -13,3 +13,9 @@ th;ฟลายอิงฟิชโคฟ;Flying Fish Cove
 ur;فلائینگ فش کوو;Flying Fish Cove
 ru;Флайинг-Фиш-Коув;Flying Fish Cove
 zh;飞鱼湾;Flying Fish Cove
+az;Flayinq Fiş Kouv;Flying Fish Cove
+be;Флаін-Фіш-Коўв;Flying Fish Cove
+bg;Флаинг Фиш Коув;Flying Fish Cove
+ka;ფლაინგ-ფიში;Flying Fish Cove
+mk;Флаинг Фиш Коув;Flying Fish Cove
+sr;Флајинг Фиш Коув;Flying Fish Cove

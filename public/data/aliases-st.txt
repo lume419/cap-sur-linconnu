@@ -121,3 +121,65 @@ pt;Sao Joao;São João
 pt;Sao Pedro;São Pedro
 pt;Guegue Velho;Guegue
 pt;Plancas II;Plancas Dois
+ja;サントメ;São Tomé
+ko;상투메;São Tomé
+sk;Svätý Tomáš;São Tomé
+sr;Сао Томе;São Tomé
+da;Söo Tomé;São Tomé
+el;Σάο Τομέ;São Tomé
+he;סאו טומה;São Tomé
+ru;Сан-Томе;São Tomé
+am;ሳን ቶሜ;São Tomé
+lt;San Tomė;São Tomé
+az;San-Tome;São Tomé
+be;Сан-Тамэ;São Tomé
+bg;Сао Томе;São Tomé
+bo;སའོ་ཊོ་མེ།;São Tomé
+ckb;ساو تۆمێ;São Tomé
+fa;سائوتومه;São Tomé
+gl;San Tomé;São Tomé
+hy;Սան Տոմե;São Tomé
+ka;სან-ტომე;São Tomé
+ky;Сан-Томе;São Tomé
+lv;Santome;São Tomé
+mk;Сао Томе;São Tomé
+ml;സാവോ ടോം;São Tomé
+mr;साओ टोमे;São Tomé
+mrj;Сан-Томе;São Tomé
+pa;ਸਾਓ ਤੋਮੇ;São Tomé
+pap;Santo Tomé;São Tomé
+tg;Сан-Томе;São Tomé
+th;เซาตูเม;São Tomé
+tl;San Tomas;São Tomé
+udm;Сан-Томе;São Tomé
+uk;Сан-Томе;São Tomé
+ur;ساؤ ٹومے;São Tomé
+zh;圣多美;São Tomé
+ce;Сан-Томе;São Tomé
+ta;சாவோ தொமே;São Tomé
+uz;San-Tome;São Tomé
+vep;San Tome;São Tomé
+yue;聖多美;São Tomé
+be;Санту-Антонью;Santo António
+bg;Санто Антонио;Santo António
+fa;سانتو آنتونیو;Santo António
+ja;サント・アントニオ;Santo António
+ko;산투안토니우;Santo António
+lt;Santo Antonijus;Santo António
+mk;Санто Антонио;Santo António
+sr;Санто Антонио;Santo António
+th;ซังตูอังตอนีอู;Santo António
+ur;سانتو انتونیو;Santo António
+ru;Санту-Антонью;Santo António
+zh;聖安東尼奧;Santo António
+kk;Санто-Антониу;Santo António
+ky;Санто-Антониу;Santo António
+hi;सैंटो एंटोनियो;Santo António
+bn;সান্তো আন্তোনিও;Santo António
+am;ሳንቶ አንቶኒዮ;Santo António
+pa;ਸੈਂਟੋ ਅੰਤੋਨੀਓ;Santo António
+ps;سانتو انتونيو;Santo António
+tg;Санто-Антониу;Santo António
+tt;Санто-Антониу;Santo António
+ja;サンタ・クロティルデ;Santa Clotilde
+ja;リベリア・アフォンソ;Ribeira Afonso

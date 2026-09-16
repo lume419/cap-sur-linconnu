@@ -77,3 +77,103 @@ hi;सेंट पॉल पेरिश;St. Paul Parish
 de;St. Paul Gemeinde;St. Paul Parish
 ja;セント・ポール教区;St. Paul Parish
 pt;Paróquia de São Paulo;St. Paul Parish
+ur;ولیکیز;Willikies
+ur;ارلنگس;Urlings
+az;Svites;Swetes
+fa;سوئتز;Swetes
+ur;سویٹس;Swetes
+fa;سیویو فارم;Sea View Farm
+fi;St. John's;Saint John’s
+he;סנט ג'ונס;Saint John’s
+id;St. John's;Saint John’s
+lt;Sent Džonsas;Saint John’s
+da;St.John.s;Saint John’s
+el;Σεντ Τζονς;Saint John’s
+am;ሴንት ጆንስ፥ አንቲጋ እና ባርቡዳ;Saint John’s
+az;Sent Cons;Saint John’s
+lij;San Gioàn;Saint John’s
+fa;پاترز ویلیج;Potters Village
+pl;Pigotts;Piggotts
+ur;پگوٹس;Piggotts
+fa;پیگاتس;Piggotts
+el;Πίγκοτς;Piggotts
+kk;Пигготтс;Piggotts
+ky;Пигготтс;Piggotts
+bn;পিগটস;Piggotts
+am;ፒጎትስ;Piggotts
+pa;ਪਿਗੋਟਸ;Piggotts
+ps;پيګاټس;Piggotts
+tg;Пигготтс;Piggotts
+tt;Пигготтс;Piggotts
+lt;Parhamas;Parham
+ur;پارہیم;Parham
+fa;پرهم;Parham
+el;Πάρχαμ;Parham
+kk;Парэм;Parham
+ky;Парэм;Parham
+bn;পারহাম;Parham
+am;ፓርሃም;Parham
+pa;ਪਾਰਹਮ;Parham
+ps;پارهام;Parham
+tg;Парэм;Parham
+tt;Парэм;Parham
+lt;Old Roudas;Old Road
+el;Λίμπερτα;Liberta
+ur;لیبرٹا، سینٹ پال;Liberta
+fa;لیبرتا;Liberta
+he;ליברטה;Liberta
+kk;Фалмут;Falmouth
+ky;Фалмут;Falmouth
+bn;ফ্যালমাউথ;Falmouth
+ur;فالماؤتھ;Falmouth
+am;ፋልሙዝ;Falmouth
+fa;فالماوث;Falmouth
+pa;ਫਾਲਮਾਊਥ;Falmouth
+ps;فالماوت;Falmouth
+tg;Фалмут;Falmouth
+tt;Фалмут;Falmouth
+he;קודרינגטון;Codrington
+lt;Kodringtonas;Codrington
+ur;کوڈرنگٹن، باربوڈا;Codrington
+el;Κόντρινγκτον;Codrington
+fa;کادرینگتون;Codrington
+kk;Кодрингтон;Codrington
+ky;Кодрингтон;Codrington
+bn;কোড্রিংটন;Codrington
+am;ኮድሪንግተን;Codrington
+pa;ਕੋਡਰਿੰਗਟਨ;Codrington
+ps;کوډرنګتن;Codrington
+tg;Кодрингтон;Codrington
+tt;Кодрингтон;Codrington
+el;Μπόλαντς;Bolands
+fa;بولانز;Bolands
+ur;بولینڈز;Bolands
+kk;Болэндс;Bolands
+ky;Болэндс;Bolands
+bn;বোল্যান্ডস;Bolands
+am;ቦላንድስ;Bolands
+pa;ਬੋਲੈਂਡਜ਼;Bolands
+ps;بولاندز;Bolands
+tg;Болэндс;Bolands
+tt;Болэндс;Bolands
+lv;Ol Sentsas;All Saints
+ur;آل سینٹس، اینٹیگوا و باربوڈا;All Saints
+fa;آل سینتس;All Saints
+el;Ολ Σεντς;All Saints
+th;ออลเซนส์;All Saints
+kk;Сент-Пол аудандығы;St. Paul Parish
+tr;St. Paul Kilisesi;St. Paul Parish
+uz;St. Paul Priorati;St. Paul Parish
+ky;Сент-Пол сынчасы;St. Paul Parish
+id;Paroki St. Paul;St. Paul Parish
+ms;Paroki St. Paul;St. Paul Parish
+bn;সেন্ট পল প্যারিশ;St. Paul Parish
+ur;سینٹ پال پیرش;St. Paul Parish
+am;ሴንት ፖል ወገን;St. Paul Parish
+az;St. Paul Kilsəsi;St. Paul Parish
+fa;سنت پل پریش;St. Paul Parish
+jv;Paroki St. Paul;St. Paul Parish
+pa;ਸੇਂਟ ਪੌਲ ਪੈਰਿਸ਼;St. Paul Parish
+ps;سنت پال رعيت;St. Paul Parish
+tg;Приход Сент-Пол;St. Paul Parish
+tt;Сент-Пол прихода;St. Paul Parish

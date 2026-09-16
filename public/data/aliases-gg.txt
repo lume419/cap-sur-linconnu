@@ -12,3 +12,28 @@ en;St. George;Saint George
 en;Mont St;Mont Saint
 en;St. Saviour;Saint Saviour
 de;St. Martin;St Martin
+ja;セント・ピーター・ポート;Saint Peter Port
+sr;Сент Питер Порт;Saint Peter Port
+sv;St. Peter Port;Saint Peter Port
+ru;Сент-Питер-Порт;Saint Peter Port
+ar;سان بيتر بورت;Saint Peter Port
+az;Sent Piter Port;Saint Peter Port
+be;Сент-Пітэр-Порт;Saint Peter Port
+bg;Сейнт Питър Порт;Saint Peter Port
+br;Saint Pierre Port;Saint Peter Port
+cy;St Peter Port;Saint Peter Port
+fa;سن پتر پورت;Saint Peter Port
+he;סנט פיטר פורט;Saint Peter Port
+ka;სენტ-პიტერ-პორტი;Saint Peter Port
+ko;세인트피터포트;Saint Peter Port
+lt;Sent Piter Portas;Saint Peter Port
+mi;St Peter Port;Saint Peter Port
+nn;St Peter Port;Saint Peter Port
+no;St Peter Port;Saint Peter Port
+os;Сент-Питер-Порт;Saint Peter Port
+th;เซนต์ปีเตอร์พอร์ต;Saint Peter Port
+udm;Сент-Питер-Порт;Saint Peter Port
+uk;Сент-Пітер-Порт;Saint Peter Port
+ur;سینٹ پیٹر پورٹ;Saint Peter Port
+zh;圣彼得港;Saint Peter Port
+lv;Sentpīterporta;Saint Peter Port

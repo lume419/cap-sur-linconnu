@@ -6,3 +6,6 @@ ar;بانتام;Bantam Village
 ru;Бантам;Bantam Village
 ko;웨스트 섬;West Island
 es;Isla oeste;West Island
+ca;Bantam;Bantam Village
+be;Бантам;Bantam Village
+uk;Бантам;Bantam Village

@@ -68,3 +68,315 @@ pt;Palhal;Pathal
 pt;Zona Tenda/Zona Bela Vista;Zona Tenda
 en;Old City Center São Filipe;Centro Histórico
 pt;Lomba Tantum;Tantum
+ru;Нова-Синтра;Nova Sintra
+kk;Нова-Синтра;Nova Sintra
+ky;Нова-Синтра;Nova Sintra
+hi;नोवा सिंत्रा;Nova Sintra
+bn;নোভা সিন্ত্রা;Nova Sintra
+ur;نوویا سنترا;Nova Sintra
+am;ኖቫ ሲንትራ;Nova Sintra
+fa;نوا سینترا;Nova Sintra
+ja;ノバシントラ;Nova Sintra
+pa;ਨੋਵਾ ਸਿੰਤਰਾ;Nova Sintra
+ps;نوا سنترا;Nova Sintra
+tg;Нова-Синтра;Nova Sintra
+zh;新辛特拉;Nova Sintra
+ru;Вила-ду-Майо;Vila do Maio
+kk;Вила-ду-Майо;Vila do Maio
+ky;Вила-ду-Майо;Vila do Maio
+hi;विला डू मैयो;Vila do Maio
+bn;ভিলা ডু মাইও;Vila do Maio
+ur;ویلا ڈو مایو;Vila do Maio
+am;ቪላ ዶ ማዮ;Vila do Maio
+fa;ویلا دو مایو;Vila do Maio
+ja;ビラドマイオ;Vila do Maio
+pa;ਵਿਲਾ ਡੂ ਮਾਈਓ;Vila do Maio
+ps;ویلا دو مایو;Vila do Maio
+tg;Вила-ду-Майо;Vila do Maio
+ru;Рибейра-Брава;Ribeira Brava
+kk;Рибейра-Брава;Ribeira Brava
+ky;Рибейра-Брава;Ribeira Brava
+hi;रिबेइरा ब्रावा;Ribeira Brava
+bn;রিবেইরা ব্রাভা;Ribeira Brava
+ur;ریبیرا براوا;Ribeira Brava
+am;ሪቤራ ብራቫ;Ribeira Brava
+fa;ریبیرا براوا;Ribeira Brava
+ja;リベイラブラヴァ;Ribeira Brava
+pa;ਰਿਬੇਇਰਾ ਬਰਾਵਾ;Ribeira Brava
+ps;ریبیرا براوا;Ribeira Brava
+tg;Рибейра-Брава;Ribeira Brava
+ru;Тарrafal де Сан-Николау;Tarrafal de São Nicolau
+kk;Тарrafal де Сан-Николау;Tarrafal de São Nicolau
+ky;Тарrafal де Сан-Николау;Tarrafal de São Nicolau
+hi;तारराफल डी साओ निकोलाऊ;Tarrafal de São Nicolau
+bn;তারাফাল ডি সাও নিকোলাউ;Tarrafal de São Nicolau
+ur;تارافال ڈی ساؤ نکولاؤ;Tarrafal de São Nicolau
+am;ታራፋል ዴ ሳዎ ኒኮላዩ;Tarrafal de São Nicolau
+fa;تارافال دی ساو نیکولاو;Tarrafal de São Nicolau
+ja;タラファルデサンニコラウ;Tarrafal de São Nicolau
+pa;ਤਾਰਾਫਲ ਡੇ ਸਾਓ ਨਿਕੋਲਾਉ;Tarrafal de São Nicolau
+ps;تارافال دی ساو نکولاو;Tarrafal de São Nicolau
+tg;Тарrafal де Сан-Николау;Tarrafal de São Nicolau
+ru;Тарrafal;Tarrafal
+kk;Тарrafal;Tarrafal
+ky;Тарrafal;Tarrafal
+hi;तारराफल;Tarrafal
+bn;তারাফাল;Tarrafal
+ur;تارافال;Tarrafal
+am;ታራፋል;Tarrafal
+fa;تارافال;Tarrafal
+ja;タラファル;Tarrafal
+pa;ਤਾਰਾਫਲ;Tarrafal
+ps;تارافال;Tarrafal
+tg;Тарrafal;Tarrafal
+sv;Saint Philip;São Filipe
+zh;聖菲利普縣;São Filipe
+ru;Сан-Филипи;São Filipe
+kk;Сан-Филипи;São Filipe
+ky;Сан-Филипи;São Filipe
+hi;साओ फिलिपे;São Filipe
+bn;সাও ফিলিপে;São Filipe
+ur;ساؤ فیلیپے;São Filipe
+am;ሳዎ ፊሊጴ;São Filipe
+fa;ساو فیلیپه;São Filipe
+ja;サンフィリペ;São Filipe
+pa;ਸਾਓ ਫਿਲਿਪੇ;São Filipe
+ps;ساو فیلیپه;São Filipe
+tg;Сан-Филипи;São Filipe
+ru;Сан-Домингос;São Domingos
+kk;Сан-Доминго;São Domingos
+ky;Сан-Доминго;São Domingos
+hi;साओ डोमिंगोस;São Domingos
+bn;সাও ডমিঙ্গোস;São Domingos
+ur;ساؤ ڈومنگوس;São Domingos
+am;ሳዎ ዶሚንጎስ;São Domingos
+fa;ساو دومینگوس;São Domingos
+ja;サンドミンゴス;São Domingos
+pa;ਸਾਓ ਡੋਮਿੰਗੋਸ;São Domingos
+ps;ساو دومنگوس;São Domingos
+tg;Сан-Доминго;São Domingos
+ru;Санта-Мария;Santa Maria
+lt;Santa Marija;Santa Maria
+zh-Hans;圣玛丽亚;Santa Maria
+uk;Санта-Марія;Santa Maria
+ko;산타마리아;Santa Maria
+zh;聖瑪麗亞;Santa Maria
+ja;サンタ・マリア;Santa Maria
+he;סנטה מריה;Santa Maria
+ru;Сал-Рей;Sal Rei
+kk;Сал-Рей;Sal Rei
+ky;Сал-Рей;Sal Rei
+hi;साल रेई;Sal Rei
+bn;সাল রেই;Sal Rei
+ur;سال ری;Sal Rei
+am;ሳል ሬይ;Sal Rei
+fa;سال ری;Sal Rei
+ja;サルレイ;Sal Rei
+pa;ਸਾਲ ਰੇਈ;Sal Rei
+ps;سال ری;Sal Rei
+tg;Сал-Рей;Sal Rei
+he;פראיה;Praia
+ja;プライア;Praia
+ko;프라이아;Praia
+zh-TW;培亞;Praia
+lt;Praja;Praia
+mk;Праја;Praia
+ru;Прая;Praia
+el;Πράγια;Praia
+am;ፕራያ;Praia
+lv;Praja;Praia
+sr;Праја;Praia
+so;Braia;Praia
+fa;پرایا;Praia
+ky;Прая;Praia
+th;ไปรอา;Praia
+ka;პრაია;Praia
+mrj;Прая;Praia
+az;Praya;Praia
+os;Прая;Praia
+tg;Прая;Praia
+ckb;پڕایا;Praia
+bo;ཕུ་ར་ཡ།;Praia
+udm;Прая;Praia
+hy;Պրայա;Praia
+ug;پرايا;Praia
+uk;Прая;Praia
+ur;پرائیا;Praia
+el;Πράια;Praia
+be;Прая;Praia
+mr;प्राईया;Praia
+pa;ਪ੍ਰਾਈਆ;Praia
+zh;培亞;Praia
+sgs;Prajė;Praia
+bg;Прая;Praia
+ce;Прая;Praia
+uz;Praya;Praia
+yue;培亞;Praia
+ru;Порто-Ново;Porto Novo
+kk;Порто-Ново;Porto Novo
+ky;Порто-Ново;Porto Novo
+hi;पोर्टो नोवो;Porto Novo
+bn;পোর্টো নোভো;Porto Novo
+ur;پورٹو نووو;Porto Novo
+am;ፖርቶ ኖቮ;Porto Novo
+fa;پورتو نوو;Porto Novo
+ja;ポルトノボ;Porto Novo
+pa;ਪੋਰਟੋ ਨੋਵੋ;Porto Novo
+ps;پورتو نوو;Porto Novo
+tg;Порто-Ново;Porto Novo
+ru;Помбаш;Pombas
+kk;Помбаш;Pombas
+ky;Помбаш;Pombas
+hi;पोम्बास;Pombas
+bn;পম্বাস;Pombas
+ur;پومباس;Pombas
+am;ፖምባስ;Pombas
+fa;پومباس;Pombas
+ja;ポンバス;Pombas
+pa;ਪੋਮਬਾਸ;Pombas
+ps;پومباس;Pombas
+tg;Помбаш;Pombas
+ru;Пикос;Picos
+kk;Пикос;Picos
+ky;Пикос;Picos
+hi;पिकोस;Picos
+bn;পিকোস;Picos
+ur;پیکوس;Picos
+am;ፒኮስ;Picos
+fa;پیکوس;Picos
+ja;ピコス;Picos
+pa;ਪਿਕੋਸ;Picos
+ps;پیکوس;Picos
+tg;Пикос;Picos
+zh;伊格雷雅;Picos
+zh;阿沙达伊格雷雅;Picos
+ru;Минделу;Mindelo
+el;Μιντέλο;Mindelo
+bg;Минделу;Mindelo
+ja;ミンデロ;Mindelo
+lt;Mindelas;Mindelo
+zh;明德盧;Mindelo
+ko;민델루;Mindelo
+ky;Минделу;Mindelo
+uk;Мінделу;Mindelo
+kk;Миндело;Mindelo
+hi;मिंडेलो;Mindelo
+bn;মিন্ডেলো;Mindelo
+ur;مندیلو;Mindelo
+am;ሚንደሎ;Mindelo
+fa;مندلو;Mindelo
+pa;ਮਿੰਡੇਲੋ;Mindelo
+ps;مندیلو;Mindelo
+tg;Миндело;Mindelo
+zh;伊格雷雅;Igreja
+ru;Кова-Фигейра;Cova Figueira
+kk;Кова-Фигейра;Cova Figueira
+ky;Кова-Фигейра;Cova Figueira
+hi;कोवा फिगुएरा;Cova Figueira
+bn;কোভা ফিগুয়েরা;Cova Figueira
+ur;کووا فیگویرا;Cova Figueira
+am;ኮቫ ፊጓይራ;Cova Figueira
+fa;کووا فیگویرا;Cova Figueira
+ja;コヴァフィゲイラ;Cova Figueira
+pa;ਕੋਵਾ ਫਿਗੁਏਰਾ;Cova Figueira
+ps;کووا فیگویرا;Cova Figueira
+tg;Кова-Фигейра;Cova Figueira
+zh;科瓦菲蓋拉;Cova Figueira
+ru;Сидаде Велья;Cidade Velha
+el;Σιδάδε Βέλια;Cidade Velha
+he;סידאדה וליה;Cidade Velha
+ja;シダーデ・ヴェーリャ;Cidade Velha
+ka;სიდადე-ველია;Cidade Velha
+ko;시다드벨랴;Cidade Velha
+lt;Sidade Velja;Cidade Velha
+uk;Сідаде-Велья;Cidade Velha
+ru;Сидади-Велья;Cidade Velha
+zh;舊城;Cidade Velha
+kk;Сидаде-Велья;Cidade Velha
+ky;Сидаде-Велья;Cidade Velha
+hi;सिडेड वेल्हा;Cidade Velha
+bn;সিডাডে ভেলহা;Cidade Velha
+ur;سیڈیڈ ویلہا;Cidade Velha
+am;ሲዳደ ቬልሃ;Cidade Velha
+fa;سیداده ولها;Cidade Velha
+pa;ਸਿਡੇਡ ਵੇਲਹਾ;Cidade Velha
+ps;سیڈیڈ ویلہا;Cidade Velha
+tg;Сидаде-Велья;Cidade Velha
+ru;Калета;Calheta
+zh;卡列塔;Calheta
+ru;Калета;Calheta de São Miguel
+kk;Калета;Calheta de São Miguel
+tr;Calheta;Calheta de São Miguel
+uz;Calheta;Calheta de São Miguel
+ky;Калета;Calheta de São Miguel
+id;Calheta;Calheta de São Miguel
+ms;Calheta;Calheta de São Miguel
+hi;कल्हेटा;Calheta de São Miguel
+bn;কালহেটা;Calheta de São Miguel
+ur;کالہیتا;Calheta de São Miguel
+am;ካልሔታ;Calheta de São Miguel
+az;Calheta;Calheta de São Miguel
+fa;کالهتا;Calheta de São Miguel
+ja;カリェタ;Calheta de São Miguel
+jv;Calheta;Calheta de São Miguel
+om;Calheta;Calheta de São Miguel
+pa;ਕਾਲਹੇਟਾ;Calheta de São Miguel
+ps;کالہیتا;Calheta de São Miguel
+so;Calheta;Calheta de São Miguel
+sw;Calheta;Calheta de São Miguel
+tg;Калета;Calheta de São Miguel
+tt;Calheta;Calheta de São Miguel
+zh;卡列塔-迪圣米格尔;Calheta de São Miguel
+ja;バフレイラ;Bofareira
+fa;بوفاریرا;Bofareira
+ca;Bofarreira;Bofareira
+ml;ബോഫറേര;Bofareira
+ru;Ассомада;Assomada
+kk;Ассомада;Assomada
+ky;Ассомада;Assomada
+hi;असोमादा;Assomada
+bn;আসোমাডা;Assomada
+ur;اسومادا;Assomada
+am;አሶማዳ;Assomada
+fa;اسومادا;Assomada
+ja;アッソマダ;Assomada
+pa;ਅਸੋਮਾਡਾ;Assomada
+ps;اسومادا;Assomada
+tg;Ассомада;Assomada
+zh;阿索馬達;Assomada
+ru;Жуан-Тевеш;João Teves
+kk;Жуан-Тевеш;João Teves
+ky;Жуан-Тевеш;João Teves
+hi;जोआओ तेवेस;João Teves
+bn;জোয়াও তেভেস;João Teves
+ur;جوائو تیویس;João Teves
+am;ጆአዎ ተቬስ;João Teves
+fa;جوائو تویس;João Teves
+ja;ジョアオテベス;João Teves
+pa;ਜੋਆਓ ਤੇਵੇਸ;João Teves
+ps;جوائو تیویس;João Teves
+tg;Жуан-Тевеш;João Teves
+ru;Педра-Бадежу;Pedra Badejo
+kk;Педра-Бадежу;Pedra Badejo
+ky;Педра-Бадежу;Pedra Badejo
+hi;पेड्रा बादेजो;Pedra Badejo
+bn;পেড্রা বাদেজো;Pedra Badejo
+ur;پیڈرا بادیجو;Pedra Badejo
+am;ፔድራ ባደጆ;Pedra Badejo
+fa;پدرا بادیجو;Pedra Badejo
+ja;ペドラバデージョ;Pedra Badejo
+pa;ਪੇਡਰਾ ਬਾਦੇਜੋ;Pedra Badejo
+ps;پیڈرا بادیجو;Pedra Badejo
+tg;Педра-Бадежу;Pedra Badejo
+ru;Эспаргуш;Espargos
+kk;Эспаргуш;Espargos
+ky;Эспаргуш;Espargos
+hi;एस्पर्गोस;Espargos
+bn;এসপার্গোস;Espargos
+ur;اسپارگوس;Espargos
+am;ስፓርጎስ;Espargos
+fa;اسپارگوس;Espargos
+ja;エスパルゴス;Espargos
+pa;ਐਸਪਾਰਗੋਸ;Espargos
+ps;اسپارگوس;Espargos
+tg;Эспаргуш;Espargos

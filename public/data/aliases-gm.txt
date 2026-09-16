@@ -20,3 +20,172 @@ de;Albreda;Albadarr
 en;Albreda;Albadarr
 fr;Albreda;Albadarr
 nl;Albreda;Albadarr
+ko;탄지;Tanji
+zh;灘基;Tanji
+zh-Hans;滩基;Tanji
+ja;タンジ;Tanji
+fa;تانجی، گامبیا;Tanji
+ru;Сукута;Sukuta
+zh;蘇庫塔;Sukuta
+zh-Hans;苏库塔;Sukuta
+ja;スクタ;Sukuta
+fa;سوکوتا، گامبیا;Sukuta
+ja;ソマ;Soma
+ko;소마;Soma
+zh;索馬;Soma
+pl;Serrekunda;Serekunda
+af;Serrekunda;Serekunda
+sv;Serrekunda;Serekunda
+ja;セレクンダ;Serekunda
+ru;Серекунда;Serekunda
+bg;Санканди;Sankandi
+fa;سنکندی، گامبیا;Sankandi
+ur;کونتاور;Kuntaur
+ru;Кололи;Kololi
+zh;科洛里;Kololi
+uk;Кололі;Kololi
+fa;کلولی، گامبیا;Kololi
+ru;Канилаи;Kanilai
+zh;卡尼拉伊;Kanilai
+hy;Կանիլայի;Kanilai
+uk;Канілаі;Kanilai
+ja;カニライ;Kanilai
+fa;کانیلای;Kanilai
+ur;کانیلائی;Kanilai
+he;קנילאי;Kanilai
+nn;Juffure;Jufureh
+sv;Juffure;Jufureh
+zh;珠富雷;Jufureh
+ja;ジュフレ;Jufureh
+fa;جعفره، گامبیا;Jufureh
+he;ג׳ופרה;Jufureh
+ca;Juffureh;Jufureh
+zh;加納鎮;Ghana Town
+zh-Hans;加纳镇;Ghana Town
+fa;شهر غنا;Ghana Town
+fa;جنیری;Genieri
+zh;傑涅里;Genieri
+fa;فتاتندا، غنا;Fattatenda
+zh;法塔滕達;Fattatenda
+he;פאראפני;Farafenni
+ja;ファラフェニ;Farafenni
+ko;파라페니;Farafenni
+lt;Farafenis;Farafenni
+zh;法拉芬尼;Farafenni
+fa;فارابا بانتا;Faraba Banta
+he;פאראבה בנטה;Faraba Banta
+zh;法拉巴班塔;Faraba Banta
+zh-Hant;馬拉加（甘比亞）;Fajara
+uk;Фаджара;Fajara
+ja;ファジャラ;Fajara
+fa;فجارا، گامبیا;Fajara
+ur;فاجارا;Fajara
+zh;马拉加（冈比亚）;Fajara
+bg;Есау;Essau
+fa;عیسو، گامبیا;Essau
+zh;埃紹;Essau
+ru;Есау;Essau
+bg;Диабугу;Diabugu
+fa;دیابوگو;Diabugu
+zh;迪亞布古;Diabugu
+ru;Диабугу;Diabugu
+zh;達魯里爾萬;Daru Rilwan
+fa;چاموی;Chamoi
+zh;查莫伊;Chamoi
+fa;بویام;Bwiam
+he;בוויאם;Bwiam
+zh;布維安;Bwiam
+fa;بولوک، گامبیا;Bulok
+zh;布洛克（甘比亞）;Bulok
+zh;布魯夫特;Brufut
+zh-Hans;布鲁夫特;Brufut
+fa;بروفوت;Brufut
+fa;بریکاما با;Brikama Ba
+zh;布里卡馬巴;Brikama Ba
+ru;Брикаме;Brikama
+ja;ブリカマ;Brikama
+ko;브리카마;Brikama
+ru;Брикама;Brikama
+zh;布里卡馬;Brikama
+ur;بریکاما;Brikama
+as;ব্ৰিফু;Brifu
+bg;Брифу;Brifu
+fa;بریفو، گامبیا;Brifu
+zh;布里夫;Brifu
+ru;Брифу;Brifu
+fa;بورو مودی بان;Boro Modi Bane
+zh;博羅莫迪貝內;Boro Modi Bane
+ja;バセ・サンタ・ス;Basse Santa Su
+ko;바세산타수;Basse Santa Su
+lt;Bas Santa Su;Basse Santa Su
+zh;巴塞聖蘇;Basse Santa Su
+fa;بارو کوندا;Baro Kunda
+zh;巴羅崑達;Baro Kunda
+fa;بانتانتو;Bantanto
+zh;班坦托;Bantanto
+fa;بانتانگو کوتو;Bantango Koto
+zh;班坦戈科托;Bantango Koto
+ko;반상;Bansang
+bg;Бансанг;Bansang
+zh;班桑;Bansang
+fa;بانسانگ;Bansang
+ru;Бансанг;Bansang
+he;בנגול;Banjul
+ja;バンジュール;Banjul
+ko;반줄;Banjul
+lt;Bandžulis;Banjul
+pl;Bandżul;Banjul
+zh;班珠尔;Banjul
+ru;Банжул;Banjul
+uk;Банжул;Banjul
+mk;Банџул;Banjul
+zh;班竹;Banjul
+el;Μπανζούλ;Banjul
+am;ባንጁል;Banjul
+fa;بانجول;Banjul
+hy;Բանջուլ;Banjul
+be;Банжул;Banjul
+ur;بانجول;Banjul
+bg;Банджул;Banjul
+nah;Banyul;Banjul
+ht;Banjoul;Banjul
+bo;བཱན་ཇཱུ་ལ།;Banjul
+udm;Банжул;Banjul
+mrj;Банжул;Banjul
+hi;बाञ्जुल;Banjul
+sr;Банџул;Banjul
+ky;Банжул;Banjul
+tg;Банҷул;Banjul
+th;บันจูล;Banjul
+ckb;بانجول;Banjul
+ta;பஞ்சுல்;Banjul
+mr;बंजुल;Banjul
+ka;ბანჯული;Banjul
+lv;Bandžula;Banjul
+pa;ਬੰਜੁਲ;Banjul
+fa;بامبالی;Bambali
+zh;班巴利;Bambali
+ko;바카우;Bakau
+zh;巴考;Bakau
+bg;Бакадагй;Bakadagy
+el;Μπακαντατζί;Bakadagy
+fa;باکداجی;Bakadagy
+zh;巴卡達吉;Bakadagy
+ru;Бакадагй;Bakadagy
+fa;الجامدو;Aljamdu
+zh;阿爾賈姆杜;Aljamdu
+nn;Albreda;Albadarr
+ru;Альбреда;Albadarr
+fi;Albréda;Albadarr
+bg;Албадар;Albadarr
+zh;阿爾布雷達;Albadarr
+zh-Hans;阿尔布雷达;Albadarr
+uk;Альбреда;Albadarr
+ja;アルブレダ;Albadarr
+fa;البردا;Albadarr
+pl;Albreda;Albadarr
+ca;Albreda;Albadarr
+ru;Абуко;Abuko
+bg;Абуко;Abuko
+fa;ابوکو;Abuko
+he;אבוקו;Abuko

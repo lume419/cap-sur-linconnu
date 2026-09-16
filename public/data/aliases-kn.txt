@@ -72,3 +72,146 @@ ar;باستير;Basseterre
 ht;Bastè;Basseterre
 ko;바스테르;Basseterre
 zh;巴斯特尔;Basseterre
+kk;Тринити;Trinity
+ky;Тринити;Trinity
+bn;ট্রিনিটি;Trinity
+ur;ٹرنٹی;Trinity
+am;ትሪኒቲ;Trinity
+fa;ترینیتی;Trinity
+pa;ਟ੍ਰਿਨਿਟੀ;Trinity
+ps;ترينيتي;Trinity
+tg;Тринити;Trinity
+kk;Сэнди-Пойнт-Таун;Sandy Point Town
+ky;Сэнди-Пойнт-Таун;Sandy Point Town
+bn;স্যান্ডি পয়েন্ট টাউন;Sandy Point Town
+ur;سینڈی پوائنٹ ٹاؤن;Sandy Point Town
+am;ሳንዲ ፖይንት タウን;Sandy Point Town
+fa;شهر سندی پوینت;Sandy Point Town
+pa;ਸੈਂਡੀ ਪੁਆਇੰਟ ਟਾਊਨ;Sandy Point Town
+ps;سندي پوينټ ښار;Sandy Point Town
+tg;Шахри Сэнди-Пойнт;Sandy Point Town
+kk;Сент-Полс;Saint Paul’s
+ky;Сент-Полс;Saint Paul’s
+bn;সেন্ট পলস;Saint Paul’s
+ur;سینٹ پالز;Saint Paul’s
+am;ሴንት ፖልስ;Saint Paul’s
+fa;سنت پولز;Saint Paul’s
+pa;ਸੇਂਟ ਪਾਲਜ਼;Saint Paul’s
+ps;سنت پولز;Saint Paul’s
+tg;Сент-Полс;Saint Paul’s
+fa;اولد رود تاون;Old Road Town
+ur;اولڈ روڈ ٹاؤن;Old Road Town
+mk;Олд Роуд Таун;Old Road Town
+kk;Никола-Таун;Nicola Town
+ky;Никола-Таун;Nicola Town
+bn;নিকোলা টাউন;Nicola Town
+ur;نکولا ٹاؤن;Nicola Town
+am;ኒኮላ ታውን;Nicola Town
+fa;شهر نیکولا;Nicola Town
+pa;ਨਿਕੋਲਾ ਟਾਊਨ;Nicola Town
+ps;نيکولا ښار;Nicola Town
+tg;Шахри Никола;Nicola Town
+kk;Ньюкасл;Newcastle
+ky;Ньюкасл;Newcastle
+bn;নিউকাসেল;Newcastle
+ur;نیو کیسل;Newcastle
+am;ኒውካስል;Newcastle
+fa;نیوکاسل;Newcastle
+pa;ਨਿਊਕੈਸਲ;Newcastle
+ps;نيوکاسل;Newcastle
+tg;Ньюкасл;Newcastle
+kk;Манки-Хилл;Monkey Hill
+ky;Манки-Хилл;Monkey Hill
+bn;মাঙ্কি হিল;Monkey Hill
+ur;منکی ہل;Monkey Hill
+am;ሞንኪ ሂል;Monkey Hill
+fa;تپه میمون;Monkey Hill
+pa;ਮੰਕੀ ਹਿਲ;Monkey Hill
+ps;ميشته غر;Monkey Hill
+tg;Манки-Хилл;Monkey Hill
+kk;Миддл-Айленд;Middle Island
+ky;Миддл-Айленд;Middle Island
+bn;মিডল দ্বীপ;Middle Island
+ur;درمیانی جزیرہ;Middle Island
+am;መካከለኛ ደሴት;Middle Island
+fa;جزیره میانی;Middle Island
+pa;ਮਿਡਲ ਆਈਲੈਂਡ;Middle Island
+ps;درمياني جزيره;Middle Island
+tg;Миддл-Айленд;Middle Island
+kk;Маркет-Шоп;Market Shop
+ky;Маркет-Шоп;Market Shop
+bn;মার্কেট শপ;Market Shop
+ur;مارکیٹ شاپ;Market Shop
+am;ገበያ ሸንተረር;Market Shop
+fa;فروشگاه بازار;Market Shop
+pa;ਮਾਰਕਿਟ ਦੁਕਾਨ;Market Shop
+ps;بازار دوکان;Market Shop
+tg;Маркет-Шоп;Market Shop
+kk;Фиг-Три;Fig Tree
+ky;Фиг-Три;Fig Tree
+bn;ডুমুর গাছ;Fig Tree
+ur;انجیر کا درخت;Fig Tree
+am;ምስር ዛፍ;Fig Tree
+fa;درخت انجیر;Fig Tree
+pa;ਅੰਜੀਰ ਦਾ ਰੁੱਖ;Fig Tree
+ps;انجير ونه;Fig Tree
+tg;Фиг-Три;Fig Tree
+kk;Дьепп-Бэй-Таун;Dieppe Bay Town
+ky;Дьепп-Бэй-Таун;Dieppe Bay Town
+bn;ডিয়েপ বে টাউন;Dieppe Bay Town
+ur;ڈیپ بے ٹاؤن;Dieppe Bay Town
+am;ዲየፕ ቤ ታውን;Dieppe Bay Town
+fa;شهر خلیج دیپ;Dieppe Bay Town
+pa;ਡੀਅੱਪ ਬੇ ਟਾਊਨ;Dieppe Bay Town
+ps;ديپ بے ښار;Dieppe Bay Town
+tg;Шахри Дьепп-Бэй;Dieppe Bay Town
+kk;Коттон-Граунд;Cotton Ground
+ky;Коттон-Граунд;Cotton Ground
+bn;কটন গ্রাউন্ড;Cotton Ground
+ur;کاٹن گراؤنڈ;Cotton Ground
+am;ሙቅ መሬት;Cotton Ground
+fa;زمین پنبه;Cotton Ground
+pa;ਕਾਟਨ ਗ੍ਰਾਉਂਡ;Cotton Ground
+ps;کتن ځمکه;Cotton Ground
+tg;Коттон-Граунд;Cotton Ground
+kk;Чарльзтаун;Charlestown
+ky;Чарльзтаун;Charlestown
+bn;চার্লসটাউন;Charlestown
+ur;چارلز ٹاؤن;Charlestown
+am;ቻርልስታውን;Charlestown
+fa;چارلزتون;Charlestown
+pa;ਚਾਰਲਜ਼ਟਾਊਨ;Charlestown
+ps;چارلز ټاون;Charlestown
+tg;Чарльзтаун;Charlestown
+kk;Кайон;Cayon
+ky;Кайон;Cayon
+bn;ক্যায়োন;Cayon
+ur;کائیون;Cayon
+am;ካዮን;Cayon
+fa;کایون;Cayon
+pa;ਕੈਯੋਨ;Cayon
+ps;کایون;Cayon
+tg;Кайон;Cayon
+lt;Basteras;Basseterre
+sr;Бастер;Basseterre
+uk;Бастер;Basseterre
+el;Μπαστέρ;Basseterre
+he;באסטר;Basseterre
+am;ባስቴር;Basseterre
+fa;باسه‌تر;Basseterre
+az;Baster;Basseterre
+be;Бастэр;Basseterre
+bg;Бастер;Basseterre
+bo;པ་སི་ཐེར།;Basseterre
+ce;Бастер;Basseterre
+ka;ბასტერი;Basseterre
+lv;Bastera;Basseterre
+mk;Бастер;Basseterre
+mr;बासेतेर;Basseterre
+sah;Бастер;Basseterre
+ta;பாசெட்டெரே;Basseterre
+th;บาสแตร์;Basseterre
+ur;باسیتیر;Basseterre
+ky;Бастер;Basseterre
+uz;Baster;Basseterre
+vep;Baster;Basseterre

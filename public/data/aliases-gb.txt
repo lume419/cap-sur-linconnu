@@ -1495,3 +1495,6922 @@ cy;Llyn Penmaen;Penmaenpool
 gd;Sgarasta;Scarista
 gd;Am Baile;Balla
 gd;Leacanaisigh;Leacanashie
+ar;زنر;Zennor
+bg;Ъстрадгънлайс;Ystradgynlais
+ru;Ъстрадгънлайс;Ystradgynlais
+he;יורק;York
+ru;Йорк;York
+uk;Йорк;York
+zh;約克;York
+ja;ヨーク;York
+mzn;یورک;York
+ckb;یۆرک;York
+lt;Jorkas;York
+lv;Jorka;York
+fa;یورک;York
+hy;Յորք;York
+ko;요크;York
+el;Γιορκ;York
+bg;Йорк;York
+kk;Йорк;York
+be;Ёрк;York
+sr;Јорк;York
+ka;იორკი;York
+ta;யார்க்;York
+ar;يورك;York
+th;ยอร์ก;York
+mr;यॉर्क;York
+ru;Йеовиль;Yeovil
+ko;요빌;Yeovil
+lt;Jouvilis;Yeovil
+bg;Йоувил;Yeovil
+fa;یئوویل;Yeovil
+zh;約維爾;Yeovil
+nn;Yeadon i West Yorkshire;Yeadon
+ru;Яттон;Yatton
+fa;یاته;Yate
+ru;Ярмут;Yarmouth
+ko;야머스;Yarmouth
+nn;Yarmouth på Isle of Wight;Yarmouth
+fa;یارموث، جزیره وایت;Yarmouth
+fa;یارم;Yarm
+ar;وريسبوري;Wraysbury
+fa;ویموندهام;Wymondham
+uk;Рексем;Wrexham
+lt;Reksamas;Wrexham
+bg;Рексъм;Wrexham
+ko;렉섬;Wrexham
+el;Ρέξαμ;Wrexham
+he;רקסהאם;Wrexham
+ja;レクサム;Wrexham
+ru;Рексем;Wrexham
+zh;雷克斯漢姆;Wrexham
+fa;ورکسام;Wrexham
+hy;Ռեքսհեմ;Wrexham
+fa;اوتون-آندر-اج;Wotton-under-Edge
+ja;ワージング;Worthing
+sr;Вортинг;Worthing
+fa;وورتینگ;Worthing
+ru;Вортинг;Worthing
+bg;Уърксоп;Worksop
+ru;Уэрксоп;Worksop
+fa;وورکساپ;Worksop
+bg;Уъркингтън;Workington
+fa;وورکینگتون;Workington
+zh;沃金頓;Workington
+ru;Уъркингтън;Workington
+ru;Вустер;Worcester
+sr;Вустер;Worcester
+ar;وستر;Worcester
+ja;ウスター;Worcester
+th;วุร์สเตอร์;Worcester
+mzn;ورکستر;Worcester
+lt;Vusteris;Worcester
+uk;Вустер;Worcester
+hy;Վուսթեր;Worcester
+fa;ووستر;Worcester
+ko;우스터;Worcester
+be;Вустэр;Worcester
+zh;伍斯特;Worcester
+bg;Устър;Worcester
+kk;Вустер;Worcester
+ur;ووسٹر;Worcester
+yue;窩士打;Worcester
+fa;رویال ووتون باست;Royal Wootton Bassett
+fa;وول‌ویچ;Woolwich
+bn;ওউলিচ;Woolwich
+ru;Вулидж;Woolwich
+zh;伍利奇;Woolwich
+az;Vulviç;Woolwich
+ko;울리치;Woolwich
+ja;ウーリッジ;Woolwich
+zh;胡尔顿;Woolton
+zh-Hant;伍爾頓;Woolton
+ja;ウールトン;Woolton
+fa;وولتون;Woolton
+he;וולטון;Woolton
+fa;وولر;Wooler
+uk;Вудсток;Woodstock
+ko;우드스톡;Woodstock
+nn;Woodstock i Oxfordshire;Woodstock
+be;Вудстак;Woodstock
+bg;Удсток;Woodstock
+ru;Вудсток;Woodstock
+zh;伍德斯托克;Woodstock
+fa;وودستوک، آکسفوردشر;Woodstock
+fa;وودلی، برکشر;Woodley
+fa;وود گرین;Wood Green
+zh;伍德格林;Wood Green
+hi;वुडफ़र्ड ग्रीन;Woodford Green
+nn;Woodbridge i Suffolk;Woodbridge
+ru;Вудбридж;Woodbridge
+fa;وودبریج، سافک;Woodbridge
+bg;Улвърхамптън;Wolverhampton
+he;וולברהמפטון;Wolverhampton
+fa;ولورهمپتون;Wolverhampton
+lv;Vulverhemptona;Wolverhampton
+lt;Vulverhamptonas;Wolverhampton
+uk;Вулвергемптон;Wolverhampton
+el;Γουλβερχάμπτον;Wolverhampton
+ko;울버햄프턴;Wolverhampton
+ar;وولفرهامبتون;Wolverhampton
+ja;ウォルヴァーハンプトン;Wolverhampton
+ka;ვულვერჰემპტონი;Wolverhampton
+sr;Вулверхемптон;Wolverhampton
+hy;Վուլվերհեմպտոն;Wolverhampton
+ru;Вулвергемптон;Wolverhampton
+zh-TW;伍爾弗漢普頓;Wolverhampton
+mzn;ولورهمپتون;Wolverhampton
+az;Vulverhempton;Wolverhampton
+th;วุลเวอร์แฮมป์ตัน;Wolverhampton
+zh;伍爾弗漢普頓;Wolverhampton
+ru;Уокингхем;Wokingham
+bg;Уокингам;Wokingham
+ko;오킹엄;Wokingham
+fa;ووکینگهام;Wokingham
+ru;Уокинге;Woking
+bg;Уокинг;Woking
+lt;Vokingas;Woking
+ru;Уокинг;Woking
+zh;沃金;Woking
+ja;ウォキング;Woking
+fa;وودکینگ;Woking
+ur;ووکنگ;Woking
+fa;ووبورن، بدفوردشر;Woburn
+fa;ویونهوئه;Wivenhoe
+fa;ویلزکم;Wiveliscombe
+ru;Уитни;Witney
+bg;Уитни;Witney
+fa;ویتنی;Witney
+ru;Уитернси;Withernsea
+fa;ویترنسی;Withernsea
+fa;ویتهام;Witham
+uk;Вішоу;Wishaw
+fa;ویشاو;Wishaw
+zh;威蕭;Wishaw
+ru;Визбич;Wisbech
+bg;Уисбийч;Wisbech
+fa;ویسبچ;Wisbech
+lt;Visbičas;Wisbech
+fa;ویرکسوورث;Wirksworth
+nn;Winslow i Buckinghamshire;Winslow
+ru;Уинслоу;Winslow
+fa;وینسلو، باکینگهام‌شر;Winslow
+ur;وینسلو، بکنگھم شائر;Winslow
+fa;وینسفورد;Winsford
+ja;ウィンザー;Windsor
+ru;Виндзор;Windsor
+nn;Windsor i Berkshire;Windsor
+ko;윈저;Windsor
+bg;Уиндзор;Windsor
+uk;Віндзор;Windsor
+ar;ونزر;Windsor
+zh;溫莎;Windsor
+fa;ویندسور، برکشر;Windsor
+hy;Վինձոր;Windsor
+lt;Vindzoras;Windsor
+sr;Виндзор;Windsor
+ur;ونڈسر، بارکشائر;Windsor
+ar;ويندرمير;Windermere
+fa;ویندرمر، کامبریا;Windermere
+ja;ウィンダミア;Windermere
+nn;Byen Windermere;Windermere
+zh;文德米爾;Windermere
+bg;Уинчестър;Winchester
+ja;ウィンチェスター;Winchester
+sr;Винчестер;Winchester
+uk;Вінчестер;Winchester
+ru;Винчестер;Winchester
+te;వించెస్టర్;Winchester
+th;วินเชสเตอร์;Winchester
+hy;Վինչեսթեր;Winchester
+ko;윈체스터;Winchester
+hi;विनचेस्टर;Winchester
+kn;ವಿಂಚೆಸ್ಟರ್;Winchester
+ar;ونشستر;Winchester
+ru;Уинчестер;Winchester
+zh;温彻斯特;Winchester
+be;Вінчэстэр;Winchester
+fa;وینچستر;Winchester
+he;וינצסטר;Winchester
+ka;უინჩესტერი;Winchester
+lt;Vinčesteris;Winchester
+ur;ونچیسٹر;Winchester
+yue;溫車士打;Winchester
+fa;وینچلسی;Winchelsea
+bg;Уимборн Минстър;Wimborne Minster
+fa;ویمبورن مینستر;Wimborne Minster
+zh;溫伯恩明斯特;Wimborne Minster
+ru;Уимборн Минстър;Wimborne Minster
+bg;Уилтън;Wilton
+uk;Вілтон;Wilton
+fa;ویلتون، ویلتشر;Wilton
+ur;ولٹن، ویلٹشائر;Wilton
+ru;Уилтън;Wilton
+hi;विल्सडन;Willesden
+ur;ولیزڈن;Willesden
+fa;ویلسدن;Willesden
+fa;ویلنهال;Willenhall
+ru;Уигтаун;Wigtown
+fa;ویگتون;Wigton
+ru;Уиган;Wigan
+uk;Віган;Wigan
+sr;Виган;Wigan
+ko;위건;Wigan
+fa;ویگان;Wigan
+bg;Уигън;Wigan
+ja;ウィガン;Wigan
+lt;Viganas;Wigan
+zh;威根;Wigan
+sr;Виднес;Widnes
+fa;ویدنز;Widnes
+zh;威德尼斯;Widnes
+ru;Виднес;Widnes
+fa;ویکهام;Wickham
+zh;威肯比;Wickenby
+bg;Уик;Wick
+os;Уик;Wick
+nn;Wick i Skottland;Wick
+ru;Уик;Wick
+lt;Vikas;Wick
+zh;維克;Wick
+fa;ویتوورث، لانکاشر;Whitworth
+nn;Whitworth i Lancashire;Whitworth
+fa;ویتلسی;Whittlesey
+ru;Уитстабл;Whitstable
+ru;Витстабл;Whitstable
+ar;وايتستابل;Whitstable
+ja;ウィットキーク;Whitkirk
+bg;Уайтхейвън;Whitehaven
+fa;وهیتهاون;Whitehaven
+nn;Whitchurch i Shropshire;Whitchurch
+fa;ویتچورچ، شروپ‌شر;Whitchurch
+fa;ویتچورچ، همپشر;Whitchurch
+lt;Vitbis;Whitby
+ko;휘트비;Whitby
+ru;Уитби;Whitby
+fa;ویتبای;Whitby
+ja;ウィットビー;Whitby
+bg;Уеймът;Weymouth
+ko;웨이머스;Weymouth
+nn;Weymouth i Dorset;Weymouth
+ar;وايمث;Weymouth
+sr;Вејмут;Weymouth
+ru;Уэймут;Weymouth
+zh;韦茅斯;Weymouth
+fa;ویموث، دورست;Weymouth
+ja;ウェイマス;Weymouth
+hy;Վեյբրիջ;Weybridge
+uk;Вейбридж;Weybridge
+ru;Вейбридж;Weybridge
+fa;ویبریج;Weybridge
+ko;웨더비;Wetherby
+uk;Везербі;Wetherby
+ru;Уэтерби;Wetherby
+fa;وتربی;Wetherby
+pl;Heene;West Worthing
+ja;ウェスト・ワディ;West Woodhay
+ru;Вест-Уикхэм;West Wickham
+hi;वेस्ट विकहम;West Wickham
+ur;ویسٹ وکہم;West Wickham
+fa;وست تیلبوری;West Tilbury
+bg;Уестън-Сюпър-Меър;Weston-super-Mare
+sr;Вестон на Меру;Weston-super-Mare
+fa;وستون-سوپر-مار;Weston-super-Mare
+ko;웨스턴슈퍼메어;Weston-super-Mare
+ru;Уэстон-сьюпер-Мэр;Weston-super-Mare
+ja;ウェストン＝スーパー＝メア;Weston-super-Mare
+ru;Вестминстер;City of Westminster
+fa;وست مالینگ;West Malling
+ru;Уэст-Кирби;West Kirby
+lt;Vest Kirbis;West Kirby
+bn;ওয়েস্ট কির্বি;West Kirby
+zh-Hans;西柯尔比;West Kirby
+zh-Hant;西柯爾比;West Kirby
+ur;ویسٹ کیربی;West Kirby
+kn;ವೆಸ್ಟ್ ಕಿರ್ಬಿ;West Kirby
+ko;웨스트 커비;West Kirby
+ta;மேற்கு  கிர்பி;West Kirby
+zh;西柯比;West Kirby
+gu;પશ્ચિમ કિર્બી;West Kirby
+te;వెస్ట్ కిర్బీ;West Kirby
+ja;西カービー;West Kirby
+he;וסט קירבי;West Kirby
+fa;وستهوتون;Westhoughton
+ja;ウェスト・ハム;West Ham
+fa;وست هام;West Ham
+ko;웨스트햄;West Ham
+yue;韋斯咸;West Ham
+zh;西漢姆;West Ham
+ru;Вестгейт-он-Си;Westgate on Sea
+fa;وسترهام;Westerham
+hi;वेस्ट ड्रेटन;West Drayton
+ar;ويست ديربي;West Derby
+ur;ویسٹ ڈربی;West Derby
+zh;西德比;West Derby
+nn;Westbury i Wiltshire;Westbury
+ar;ويسبري;Westbury
+fa;وستبوری، ویلتشر;Westbury
+bg;Уест Бромич;West Bromwich
+th;เวสต์บรอมมิช;West Bromwich
+ja;ウェスト・ブロムウィッチ;West Bromwich
+ko;웨스트브로미치;West Bromwich
+lt;Vest Bromičas;West Bromwich
+uk;Вест-Бромвіч;West Bromwich
+sr;Вест Бромвич;West Bromwich
+fa;وست برومویچ;West Bromwich
+ru;Уэст-Бромидж;West Bromwich
+zh;西布羅米奇;West Bromwich
+hy;Ուեստ Բրոմիջ;West Bromwich
+yue;西布朗;West Bromwich
+tt;Вест-Бромвич;West Bromwich
+lv;Vestbromviča;West Bromwich
+zh-Hans;西布罗米奇;West Bromwich
+ur;ویسٹ برامچ;West Bromwich
+el;Γουέστ Μπρόμιτς;West Bromwich
+ar;ويست بروميتش;West Bromwich
+az;Uest-Bromiç;West Bromwich
+be;Уэст-Бромідж;West Bromwich
+bn;ওয়েস্ট ব্রোমিচ;West Bromwich
+ka;უესტ-ბრომვიჩი;West Bromwich
+kn;ವೆಸ್ಟ್ ಬ್ರಾಮ್ವಿಚ್;West Bromwich
+ta;வெஸ்ட் ப்ரோம்விச்;West Bromwich
+gu;પશ્ચિમ બ્રોમવિચ;West Bromwich
+te;వెస్ట్ బ్రోమ్విచ్;West Bromwich
+he;וסט ברומיץ';West Bromwich
+fa;وست بریجفورد;West Bridgford
+sr;Вест Бриџфорд;West Bridgford
+bg;Уест Бриджфорд;West Bridgford
+ru;Уест Бриджфорд;West Bridgford
+ar;وندرن;Wendron
+fa;ونداور;Wendover
+hi;वेम्बली;Wembley
+mk;Вембли;Wembley
+ja;ウェンブリー;Wembley
+bg;Уембли;Wembley
+ur;ویمبلے;Wembley
+ko;웸블리;Wembley
+zh;温布利;Wembley
+fa;ومبلی;Wembley
+fa;وم، شروپ‌شر;Wem
+ko;웸;Wem
+ja;ウェリン・ガーデン・シティ;Welwyn Garden City
+ko;웰린가든시티;Welwyn Garden City
+ru;Уэлин-Гарден-Сити;Welwyn Garden City
+fa;ولوین گاردن سیتی;Welwyn Garden City
+no;Welvyn Garden City;Welwyn Garden City
+zh;韋林花園市;Welwyn Garden City
+bg;Уелшпул;Welshpool
+ko;웰시풀;Welshpool
+lt;Velšpulas;Welshpool
+zh;韋爾什普爾;Welshpool
+ru;Уэлшпул;Welshpool
+bn;ওয়েলশপুল;Welshpool
+zh-Hans;韦尔什普尔;Welshpool
+uk;Уэлшпул;Welshpool
+ur;ویلشپول;Welshpool
+kn;ವೆಲ್ಷ್ಪುಲ್;Welshpool
+ta;வெல்சிஹ்பூல்;Welshpool
+gu;વેલ્શપુલ;Welshpool
+te;వెల్స్పూల్;Welshpool
+ja;ウェルシュプール;Welshpool
+fa;ولشپول;Welshpool
+fa;ولز-نکس-ده-سی;Wells-next-the-Sea
+ja;ウェルズ;Wells
+mzn;ولز، انگلستان;Wells
+fa;ولز، انگلستان;Wells
+ru;Уэлс;Wells
+zh;韋爾斯;Wells
+hy;Ուելս;Wells
+ko;웰스;Wells
+lt;Velsas;Wells
+ru;Веллингтон;Wellington
+nn;Wellington i Somerset;Wellington
+fa;ولینگتون، سامرست;Wellington
+ru;Веллингборо;Wellingborough
+fa;ولینگ‌بورو;Wellingborough
+sr;Велингборо;Wellingborough
+bg;Уелингбъроу;Wellingborough
+zh;韋靈伯勒;Wellingborough
+ru;Уэллингборо;Wellingborough
+ur;ویلنگ;Welling
+ur;چرچ ہل، ویسٹ مڈلینڈز;Wednesbury
+fa;واتون، نورفک;Watton
+nn;Watton i Norfolk;Watton
+fa;واتلینگتون، آکسفوردشر;Watlington
+he;וטפורד;Watford
+ru;Уотфорд;Watford
+he;ווטפורד;Watford
+ja;ワトフォード;Watford
+ko;왓퍼드;Watford
+lt;Votfordas;Watford
+fa;واتفورد;Watford
+sr;Вотфорд;Watford
+zh;沃特福德;Watford
+ja;シーフォース;Seaforth
+ru;Уотерлувиль;Waterlooville
+fa;واترلوویل;Waterlooville
+sr;Вотерлувил;Waterlooville
+bg;Уочет;Watchet
+fa;واتچت;Watchet
+ru;Вашингтон;Washington
+fa;واشینگتن;Washington
+nn;Washington i Tyne and Wear;Washington
+sr;Вашингтон;Washington
+zh;華盛頓;Washington
+ru;Уорик;Warwick
+ar;ورك;Warwick
+uk;Ворік;Warwick
+lt;Vorikas;Warwick
+ja;ウォリック;Warwick
+ko;워릭;Warwick
+fa;وارویک;Warwick
+ur;وارک;Warwick
+zh;瓦立克;Warwick
+ru;Уоррингтон;Warrington
+sr;Ворингтон;Warrington
+fa;وارینگتون;Warrington
+ko;워링턴;Warrington
+zh;沃灵顿;Warrington
+bg;Уорънпойнт;Warrenpoint
+ru;Уорренпойнт;Warrenpoint
+fa;وارمینستر;Warminster
+ar;ورغروف;Wargrave
+bg;Уеърхам;Wareham
+zh;韋勒姆;Wareham
+fa;وارهام، دورست;Wareham
+fa;ور، هرتفوردشر;Ware
+fa;وانتج;Wantage
+hi;वंस्टेड;Wanstead
+ur;لندن بورو وینڈزورتھ;Wandsworth
+vi;Khu Wandsworth của Luân Đôn;Wandsworth
+lv;Vandsvorta;Wandsworth
+uk;Вандзверт;Wandsworth
+hi;वंड्सवर्थ बरो;Wandsworth
+ja;ワンズワース区;Wandsworth
+he;וונדסוורת;Wandsworth
+zh;旺茲沃思區;Wandsworth
+ru;Уондсуэрт;Wandsworth
+ar;واندزورث;Wandsworth
+fa;منطقه واندزوورث لندن;Wandsworth
+ko;완즈워스 구;Wandsworth
+el;Γουόλτον-ον-Τέιμς;Walton-on-Thames
+fa;واتون-آن-تیمز;Walton-on-Thames
+ur;والٹن-آن-ٹیمز;Walton-on-Thames
+ur;والٹن-آن-دی-نیز;Walton-on-the-Naze
+ru;Уолтемстоу;Walthamstow
+bg;Уолтъмстоу;Walthamstow
+fa;والتامستو;Walthamstow
+zh;沃爾瑟姆斯托;Walthamstow
+fa;والتهام کراس;Waltham Cross
+nn;Waltham Abbey i Essex;Waltham Abbey
+fa;والتهام ابی;Waltham Abbey
+bg;Уолсол;Walsall
+ko;월솔;Walsall
+sr;Волсол;Walsall
+lt;Volslas;Walsall
+fa;والسال;Walsall
+az;Uolsoll;Walsall
+ru;Уолсолл;Walsall
+zh;沃爾索爾;Walsall
+ja;ウォルソール;Walsall
+hy;Ուոլսոլ;Walsall
+ru;Уолсенд;Wallsend
+fa;وایسند;Wallsend
+zh;沃爾森德;Wallsend
+ko;월링퍼드;Wallingford
+uk;Воллінгфорд;Wallingford
+fa;والینگفورد، آکسفوردشر;Wallingford
+ru;Уолласи;Wallasey
+sr;Воласи;Wallasey
+fa;والاسی;Wallasey
+ko;월러시;Wallasey
+zh;沃勒西;Wallasey
+ru;Уокер;Walker
+zh;紐卡斯爾Walke;Walker
+ja;ウォーカー;Walker
+az;Vaker;Walker
+he;ווקר;Walker
+ur;واکر، نیوکاسل اپون ٹائین;Walker
+ru;Уэльс;Wales
+ko;웨이크필드;Wakefield
+sr;Вејкфилд;Wakefield
+bg;Уейкфийлд;Wakefield
+ar;ويكفيلد;Wakefield
+ja;ウェイクフィールド;Wakefield
+hy;Ուեյքֆիլդ;Wakefield
+lt;Veikfildas;Wakefield
+ru;Уэйкфилд;Wakefield
+zh;韦克菲尔德;Wakefield
+ru;Уэдсли;Wadsley
+ja;ワズリー;Wadsley
+fa;وادهورست;Wadhurst
+fa;وادبریج;Wadebridge
+ar;ودسدن;Waddesdon
+fa;وروود;Verwood
+ru;Вентнор;Ventnor
+fa;ونتنور;Ventnor
+hi;अक्सब्रिज;Uxbridge
+bg;Ъксбридж;Uxbridge
+zh;烏克斯橋;Uxbridge
+bg;Ъксътър;Uttoxeter
+fa;اوتوکستر;Uttoxeter
+bg;Ъск;Usk
+ru;Аск;Usk
+zh;阿斯克;Usk
+bg;Ъпингам;Uppingham
+fa;آپینگهام;Uppingham
+ru;Ъпингам;Uppingham
+ja;アッパー・ブロートン;Upper Broughton
+bg;Ъпминстър;Upminster
+ja;アップミンスター;Upminster
+ru;Ъпминстър;Upminster
+ar;أبْتِّشرش;Upchurch
+bg;Ълвърстън;Ulverston
+fa;اولرستون;Ulverston
+zh;阿爾弗斯頓;Ulverston
+ru;Ълвърстън;Ulverston
+lt;Alapulas;Ullapool
+ru;Аллапул;Ullapool
+lt;Ulapulis;Ullapool
+zh;阿勒浦;Ullapool
+bg;Ъкфийлд;Uckfield
+fa;اوکفیلد;Uckfield
+ru;Ъкфийлд;Uckfield
+fa;تایموث;Tynemouth
+zh;泰恩茅斯;Tynemouth
+ko;트위크넘;Twickenham
+hi;ट्विकनहम;Twickenham
+ru;Туикенем;Twickenham
+ar;تويكنهام;Twickenham
+be;Твікэнэм;Twickenham
+uk;Твікенем;Twickenham
+fa;تویینکهام;Twickenham
+ja;トゥイッケナム;Twickenham
+bg;Търиф;Turriff
+ru;Търиф;Turriff
+ja;ターンベリー;Turnberry
+ru;Труро;Truro
+ja;トゥルーロ;Truro
+mzn;ترورو;Truro
+os;Труро;Truro
+fa;ترورو;Truro
+el;Τρούρο;Truro
+ko;트루로;Truro
+zh;特魯羅;Truro
+uk;Труро;Truro
+ar;ترورو;Truro
+hy;Տրուրո;Truro
+ur;ٹرورو;Truro
+ru;Троубридже;Trowbridge
+ar;تروبريدج;Trowbridge
+ko;트로브리지;Trowbridge
+ru;Троубридж;Trowbridge
+fa;تروبریج;Trowbridge
+zh;特羅布里奇;Trowbridge
+uk;Трун;Troon
+ru;Трун;Troon
+zh;特伦;Troon
+bg;Тринг;Tring
+fa;ترینگ;Tring
+ru;Тринг;Tring
+ja;トレンサム;Trentham
+ru;Трехарис;Treharris
+lt;Treharis;Treharris
+bn;ত্রেহ্যারিস;Treharris
+zh-Hans;特里哈里斯;Treharris
+zh-Hant;特里哈里斯;Treharris
+uk;Трегарріс;Treharris
+ur;تریہاریس;Treharris
+kn;ಟ್ರೆಹಾರ್ರಿಸ್;Treharris
+ko;트레해리스;Treharris
+ta;ட்ரெஹாரிஸ்;Treharris
+zh;特雷哈里斯;Treharris
+gu;ટ્રેહેરિસ;Treharris
+te;ట్రెహరిస్;Treharris
+ja;トレハリス;Treharris
+fa;ترهاریس;Treharris
+bg;Трегарон;Tregaron
+zh-Hans;特雷加伦;Tregaron
+zh;特雷加倫;Tregaron
+fa;ترگارون، ولز;Tregaron
+ru;Трегарон;Tregaron
+bg;Тредегар;Tredegar
+uk;Тредегар;Tredegar
+zh;特雷迪加;Tredegar
+ru;Тредегар;Tredegar
+lt;Tredegaras;Tredegar
+bn;ট্রেডেগার;Tredegar
+hy;Տրեդեգար;Tredegar
+zh-Hans;特列德格;Tredegar
+zh-Hant;特列德格;Tredegar
+ur;تریدیگر;Tredegar
+kn;ಟ್ರೆಡ್ಗರ್;Tredegar
+ko;트레데거;Tredegar
+ta;ட்ரேடிகர்;Tredegar
+gu;ટ્રેડેગર;Tredegar
+te;ట్రెడ్గర్;Tredegar
+ja;トレデガー;Tredegar
+fa;تردگار;Tredegar
+he;טרדגר;Tredegar
+fa;ترافورد پارک;Trafford Park
+hi;ट्रैफर्ड पार्क;Trafford Park
+ar;تودنك;Towednack
+fa;تادوکناک;Towednack
+bg;Тоустър;Towcester
+fa;تاوکستر;Towcester
+ru;Тоустър;Towcester
+hi;टॉटरिज;Totteridge
+ja;トッテリッジ;Totteridge
+ur;ٹوٹرج، بارنیٹ;Totteridge
+ar;توتنهام;Tottenham
+fa;تاتنهام;Tottenham
+lt;Totenamas;Tottenham
+ko;토트넘;Tottenham
+ru;Тоттенем;Tottenham
+zh;托特納姆;Tottenham
+az;Tottenhem;Tottenham
+ckb;تۆتنھام;Tottenham
+he;טוטנהאם;Tottenham
+ja;トッテナム;Tottenham
+uk;Тоттенем;Tottenham
+bg;Тотнис;Totnes
+ru;Тотнес;Totnes
+fa;توتنس;Totnes
+ja;トーキー;Torquay
+ru;Торквей;Torquay
+ru;Торки;Torquay
+he;טורקי;Torquay
+fa;تورکی;Torquay
+lt;Torki;Torquay
+uk;Торкі;Torquay
+ko;토키;Torquay
+bg;Торки;Torquay
+sr;Торки;Torquay
+az;Torki;Torquay
+zh;托基;Torquay
+fa;تورپوینت;Torpoint
+fa;توپشام، دوون;Topsham
+ru;Тонбридж;Tonbridge
+fa;تونبریج;Tonbridge
+ja;トミッチ;Tomich
+zh-Hant;湯姆頓;Tomdoun
+zh;汤姆顿;Tomdoun
+zh-Hant;湯瑪丁;Tomatin
+zh;汤玛丁;Tomatin
+fa;تودموردن;Todmorden
+ar;تددينغتون;Toddington
+he;טוברמורי;Tobermory
+ru;Тобермори;Tobermory
+nn;Tiverton i Devon;Tiverton
+bg;Тивъртън;Tiverton
+fa;تیورتون، دوون;Tiverton
+ru;Тивъртън;Tiverton
+fa;تیسبوری، ویلتشر;Tisbury
+ur;ٹسبری، ویلٹشائر;Tisbury
+fa;تیپتون;Tipton
+ur;ٹنسلے، ساؤتھ یارکشائر;Tinsley
+fa;تیلبوری;Tilbury
+ja;サーソー;Thurso
+uk;Терсо;Thurso
+ru;Терсо;Thurso
+zh;瑟索;Thurso
+ar;تورلي;Thurleigh
+fa;تراپستون;Thrapston
+fa;تورن، یورک‌شر جنوبی;Thorne
+bg;Торнбъри;Thornbury
+nn;Thornbury i South Gloucestershire;Thornbury
+ru;Торнбъри;Thornbury
+fa;تورنابی-آن-تین;Thornaby-on-Tees
+fa;تریسک;Thirsk
+ru;Тетфорд;Thetford
+am;ጤትፎርድ;Thetford
+fa;تتفورد;Thetford
+fa;تاکستد;Thaxted
+fa;تاچهام;Thatcham
+fa;تیم، آکسفوردشر;Thame
+bg;Тюксбъри;Tewkesbury
+ru;Тьюксбери;Tewkesbury
+fa;توکسبوری;Tewkesbury
+ja;テッテンホール;Tettenhall
+fa;تتبوری;Tetbury
+fa;تنتردن;Tenterden
+bg;Тенби;Tenby
+ru;Тенби;Tenby
+ar;تينبي;Tenby
+fa;تنبوری ولز;Tenbury Wells
+ja;テンプルボロー;Templeborough
+zh;坦普爾伯勒羅馬堡壘;Templeborough
+hy;Թինմութ;Teignmouth
+os;Тинмут;Teignmouth
+uk;Тінмут;Teignmouth
+ru;Тинмут;Teignmouth
+fa;تینموث;Teignmouth
+hi;टेडिंगटन;Teddington
+bg;Тависток;Tavistock
+ru;Тависток;Tavistock
+fa;تاویستوک، دوون;Tavistock
+ja;タヴィストック;Tavistock
+ko;태비스톡;Tavistock
+fa;تاونتون;Taunton
+sr;Тонтон;Taunton
+ko;톤턴;Taunton
+bg;Тоунтън;Taunton
+ru;Тонтон;Taunton
+zh;湯頓;Taunton
+ja;トーントン;Taunton
+ur;ولٹن، سومرسیٹ;Taunton
+ar;تورفين;Tarvin
+ar;تربرلي;Tarporley
+sr;Тамворт;Tamworth
+lt;Tamvertas;Tamworth
+zh;塔姆沃思;Tamworth
+fa;تم‌وورث، استافوردشایر;Tamworth
+ru;Тамворт;Tamworth
+bg;Талгарт;Talgarth
+ru;Талгарт;Talgarth
+zh;泰恩;Tain
+ru;Тайбек;Taibach
+bg;Таибач;Taibach
+lt;Taj Bakas;Taibach
+bn;থাই বেচ;Taibach
+zh-Hans;泰佰克;Taibach
+zh-Hant;泰佰克;Taibach
+ur;تایباچ;Taibach
+kn;ತೈಬಚ್;Taibach
+ko;타이-바쉬;Taibach
+ta;டைபாச்;Taibach
+gu;તાઇબેક;Taibach
+te;టైబాచ్;Taibach
+ja;タイ・バック;Taibach
+fa;تادلی;Tadley
+ru;Тадкастер;Tadcaster
+fa;تادکاستر;Tadcaster
+fa;سیستون;Syston
+zh-Hans;斯温顿;Swinton
+zh-Hant;斯溫頓;Swinton
+ja;スウィンドン;Swindon
+ru;Свиндон;Swindon
+ko;스윈던;Swindon
+th;สวินดัน;Swindon
+bg;Суиндън;Swindon
+ar;سويندون;Swindon
+az;Svindon;Swindon
+fa;سوئیندون;Swindon
+sr;Свиндон;Swindon
+lt;Svindonas;Swindon
+ru;Суиндон;Swindon
+zh;斯温顿;Swindon
+hy;Սուինդոն;Swindon
+uk;Свіндон;Swindon
+bg;Суонзи;Swansea
+ja;スウォンジ;Swansea
+ja;スウæォンジ;Swansea
+ru;Суонси;Swansea
+zh;斯旺西;Swansea
+ar;سوانزي;Swansea
+mr;स्वॉन्झी;Swansea
+sr;Свонзи;Swansea
+uk;Свонсі;Swansea
+lt;Svonsis;Swansea
+fa;سوانزی;Swansea
+hy;Սուոնսի;Swansea
+hi;स्वान्ज़ी;Swansea
+ko;스완지;Swansea
+el;Σουόνσι;Swansea
+he;סוונסי;Swansea
+az;Suonsi;Swansea
+th;สวอนซี;Swansea
+fa;سوانلی;Swanley
+bg;Суонидж;Swanage
+fa;سوانج;Swanage
+fa;اسوافهام;Swaffham
+ko;서턴콜드필드;Sutton Coldfield
+lt;Saton Koldfildas;Sutton Coldfield
+sr;Сатон Колдфилд;Sutton Coldfield
+fa;ساتن کولدفیلد;Sutton Coldfield
+ja;サットン・コールドフィールド;Sutton Coldfield
+nn;Royal Sutton Coldfield;Sutton Coldfield
+ceb;Royal Sutton Coldfield;Sutton Coldfield
+fi;Royal Sutton Coldfield;Sutton Coldfield
+ru;Саттон-Колдфилд;Sutton Coldfield
+bn;সাটন কোল্ডফিল্ড;Sutton Coldfield
+hu;Royal Sutton Coldfield;Sutton Coldfield
+hy;Սաթոն Քոլդֆիլդ;Sutton Coldfield
+uk;Саттон-Колдфілд;Sutton Coldfield
+sl;Royal Sutton Coldfield;Sutton Coldfield
+ur;سٹن کولڈ فیلڈ;Sutton Coldfield
+sv;Royal Sutton Coldfield;Sutton Coldfield
+kn;ಸುಟ್ಟನ್ ಕೋಲ್ಡ್ಫೀಲ್ಡ್;Sutton Coldfield
+ta;சுட்டோன் கோல்டுபிஎல்ட்;Sutton Coldfield
+zh;萨顿科尔德菲尔德;Sutton Coldfield
+gu;સટન કોલ્ડફિલ્ડ;Sutton Coldfield
+te;సుట్టన్ కోల్డ్ ఫీల్డ్;Sutton Coldfield
+az;Satton-Koldfield;Sutton Coldfield
+pl;Royal Sutton Coldfield;Sutton Coldfield
+ro;Royal Sutton Coldfield;Sutton Coldfield
+da;Royal Sutton Coldfield;Sutton Coldfield
+he;סאטון קולדפילד;Sutton Coldfield
+lt;Saton Bridžas;Sutton Bridge
+hu;Sutton kerület;Sutton
+ru;Саттон;Sutton
+ar;سونينغدل;Sunningdale
+lv;Sanderlenda;Sunderland
+ru;Сандерленд;Sunderland
+sr;Сандерланд;Sunderland
+bg;Съндърланд;Sunderland
+ar;سندرلاند;Sunderland
+az;Sanderlend;Sunderland
+mr;संडरलँड;Sunderland
+lt;Sanderlandas;Sunderland
+ko;선덜랜드;Sunderland
+uk;Сандерленд;Sunderland
+fa;ساندرلند، تاین و ور;Sunderland
+ja;サンダーランド;Sunderland
+zh;桑德兰;Sunderland
+mzn;ساندرلند;Sunderland
+el;Σάντερλαντ;Sunderland
+he;סנדרלנד;Sunderland
+hy;Սանդերլենդ;Sunderland
+vep;Sanderlend;Sunderland
+fa;استورمینستر نیوتون;Sturminster Newton
+ru;Страуд;Stroud
+az;Straud;Stroud
+bg;Страуд;Stroud
+ko;스트라우드;Stroud
+fa;استرود، گلاسترشر;Stroud
+zh;斯托申;Strontian
+ja;ストロンティーアン;Strontian
+he;סטרונטיאן;Strontian
+he;סטרומנס;Stromness
+ko;스트롬니스;Stromness
+os;Стромнесс;Stromness
+zh;斯特罗姆内斯;Stromness
+ru;Стромнесс;Stromness
+ar;سترتهام;Stretham
+ru;Стретфорд;Stretford
+he;סטרטפורד;Stretford
+ar;سترتفورد;Stretford
+bg;Стрийтли;Streetly
+ja;ストリートリー;Streetly
+ar;ستريتلي;Streatley
+ur;سٹریٹہم;Streatham
+zh;斯特里漢姆;Streatham
+fa;استراتون، کورن‌وال;Stratton
+ja;ストラトフォード＝アポン＝エイヴォン;Stratford-upon-Avon
+ko;스트랫퍼드어폰에이번;Stratford-upon-Avon
+bg;Стратфорд на Ейвън;Stratford-upon-Avon
+ru;Стратфорд-на-Эйвоне;Stratford-upon-Avon
+my;စထရက်ဖို့အက်ပွန်းဧဗွန်မြို့;Stratford-upon-Avon
+sr;Стратфорд на Ејвону;Stratford-upon-Avon
+fa;استراتفورد;Stratford-upon-Avon
+uk;Стретфорд-на-Ейвоні;Stratford-upon-Avon
+be;Стратфард-он-Эйван;Stratford-upon-Avon
+zh;埃文河畔斯特拉特福;Stratford-upon-Avon
+ce;Стратфорд-Эйвонехь;Stratford-upon-Avon
+ar;ستراتفورد;Stratford-upon-Avon
+ru;Стратфорд-апон-Эйвон;Stratford-upon-Avon
+he;סטרטפורד;Stratford
+ja;ストラトフォード;Stratford
+ru;Стратфорд;Stratford
+ko;스트랫퍼드;Stratford
+yue;史察福;Stratford
+fa;استراتفورد، لندن;Stratford
+zh;斯特拉特福德;Stratford
+bg;Странрар;Stranraer
+uk;Странрар;Stranraer
+ru;Странрар;Stranraer
+bg;Страбан;Strabane
+ru;Страбан;Strabane
+zh;斯特拉班;Strabane
+fa;استومارکت;Stowmarket
+fa;استورپورت-آن-سورن;Stourport-on-Severn
+ru;Стоурбридж;Stourbridge
+lt;Stauerbridžas;Stourbridge
+th;สเตาร์บริดจ์;Stourbridge
+sr;Стауербриџ;Stourbridge
+fa;استاوربریج;Stourbridge
+ru;Стаурбридж;Stourbridge
+lt;Stornovėjus;Stornoway
+ko;스토너웨이;Stornoway
+uk;Сторновей;Stornoway
+os;Сторновей;Stornoway
+ru;Сторновей;Stornoway
+ja;ストーノーウェイ;Stornoway
+az;Stornavey;Stornoway
+zh;斯托诺韦;Stornoway
+ar;ستوني ستافورد;Stony Stratford
+fa;استونی استرتفورد;Stony Stratford
+uk;Стонгейвен;Stonehaven
+lt;Stonhevenas;Stonehaven
+ru;Стонгейвен;Stonehaven
+nn;Stone i Staffordshire;Stone
+hu;The Potteries;Stoke-on-Trent
+ru;Сток-он-Трент;Stoke-on-Trent
+ar;ستوك-أون-ترينت;Stoke-on-Trent
+az;Stok-on-Trent;Stoke-on-Trent
+sr;Стоук на Тренту;Stoke-on-Trent
+mk;Стоук на Трент;Stoke-on-Trent
+uk;Сток-он-Трент;Stoke-on-Trent
+ja;ストーク・オン・トレント;Stoke-on-Trent
+lv;Stoka pie Trentas;Stoke-on-Trent
+fa;استوک-آن-ترنت;Stoke-on-Trent
+lt;Stokas prie Trento;Stoke-on-Trent
+be;Сток-он-Трэнт;Stoke-on-Trent
+mzn;استوک-آن-ترنت;Stoke-on-Trent
+el;Στόουκ ον Τρεντ;Stoke-on-Trent
+ko;스토크온트렌트;Stoke-on-Trent
+bg;Стоук он Трент;Stoke-on-Trent
+zh;特倫特河畔斯托克;Stoke-on-Trent
+ar;ستك مندويل;Stoke Mandeville
+fa;استوک مندویل;Stoke Mandeville
+ja;ストーク・マンデヴィル;Stoke Mandeville
+ko;스토크맨더빌;Stoke Mandeville
+ru;Сток-Мандевилл;Stoke Mandeville
+zh;斯托克·曼德維爾;Stoke Mandeville
+ru;Стоктон-он-Тис;Stockton-on-Tees
+bg;Стоктън он Тийс;Stockton-on-Tees
+ja;ストックトン＝オン＝ティーズ;Stockton-on-Tees
+sr;Стоктон на Тизу;Stockton-on-Tees
+fa;استاکتون-آن-تیز;Stockton-on-Tees
+zh;蒂斯河畔斯托克頓;Stockton-on-Tees
+fa;استوکزبریج;Stocksbridge
+ru;Стокпорт;Stockport
+sr;Стокпорт;Stockport
+fa;استاک‌پورت;Stockport
+th;สต็อกพอร์ต;Stockport
+ko;스톡포트;Stockport
+lt;Stokportas;Stockport
+be;Стокпарт;Stockport
+bg;Стокпорт;Stockport
+zh;斯托克波特;Stockport
+ja;ストックポート;Stockport
+ar;ستوكبورت;Stockport
+hy;Ստոկպորտ;Stockport
+fa;استیرلینگ;Stirling
+ru;Стерлинг;Stirling
+zh-TW;史特靈;Stirling
+lt;Stirlingas;Stirling
+ja;スターリング;Stirling
+uk;Стерлінг;Stirling
+hy;Ստերլինգ;Stirling
+bg;Стърлинг;Stirling
+ko;스털링;Stirling
+th;สเตอร์ลิง;Stirling
+zh;史特靈;Stirling
+ar;استيرلينغ;Stirling
+az;Stirlinq;Stirling
+ur;سٹرلنگ;Stirling
+sr;Стенинг;Steyning
+fa;استینین;Steyning
+ru;Стенинг;Steyning
+be;Стывенстан;Stevenston
+ru;Стивенстон;Stevenston
+ru;Стивенедж;Stevenage
+fa;استیونج;Stevenage
+th;สตีเวนิจ;Stevenage
+ja;スティーブニッジ;Stevenage
+ko;스테버니지;Stevenage
+sr;Стивениџ;Stevenage
+zh;斯蒂夫尼奇;Stevenage
+ml;സ്റ്റീവനേജ്;Stevenage
+ur;اسٹیوینڈیج;Stevenage
+tt;Стивениҗ;Stevenage
+lt;Stiveneidžas;Stevenage
+hy;Սթիվենջ;Stevenage
+uk;Стівенидж;Stevenage
+mk;Стивенеџ;Stevenage
+el;Στίβενεϊτζ;Stevenage
+mdf;Стивэнидж;Stevenage
+ar;ستيفينيدج;Stevenage
+be;Стывенедж;Stevenage
+bg;Стивънидж;Stevenage
+yue;史提芬尼治;Stevenage
+bn;স্টিভেনেজ;Stevenage
+kn;ಸ್ಟೀವೆನೇಜ್;Stevenage
+ta;ஸ்டெவெனஜ்;Stevenage
+gu;સ્ટીવનેજ;Stevenage
+te;స్టీవెన్ఏజ్;Stevenage
+he;סטיבנג';Stevenage
+he;סטפני;Stepney
+hi;स्टेपनी;Stepney
+ja;ステップニー;Stepney
+ko;스테프니;Stepney
+ur;سٹیپنی، لندن;Stepney
+fa;استپنی;Stepney
+ru;Степни;Stepney
+fa;استاولی، دربی‌شر;Staveley
+nn;Staveley i Derbyshire;Staveley
+fa;استاپلفورد، ناتینگهام‌شر;Stapleford
+nn;Stapleford i Nottinghamshire;Stapleford
+ja;スタンウィック;Stanwix
+ja;スタンウェル;Stanwell
+hi;स्टैनमोर;Stanmore
+fa;استانهوپ، کانتی دورهام;Stanhope
+ru;Стэнграунд;Stanground
+kn;ಸ್ಟ್ಯಾಂಗ್ಲ್ಯಾಂಡ್;Stanground
+ko;스탠그라우;Stanground
+lt;Stangroundas;Stanground
+bn;স্ট্যানগ্রাউন্ড;Stanground
+ta;ஸ்டாங்ரௌண்ட்;Stanground
+gu;સ્ટેંગ્રાઉન્ડ;Stanground
+zh-Hans;斯当格劳德;Stanground
+te;స్టాన్గ్రౌండ్;Stanground
+zh-Hant;斯當格勞德;Stanground
+ja;スタングラウンド;Stanground
+ur;اسٹانجرووند;Stanground
+is;Stanfurðubryggja;Stamford Bridge
+ko;스탬퍼드;Stamford
+nn;Stamford i Lincolnshire;Stamford
+ru;Стамфорд;Stamford
+ru;Сталибридж;Stalybridge
+fa;استالی‌بریج;Stalybridge
+fa;استالهام;Stalham
+fa;استاینز;Staines
+sr;Стејнс;Staines
+zh;斯坦斯;Staines
+ru;Стаффорд;Stafford
+bg;Стафорд;Stafford
+sr;Стафорд;Stafford
+uk;Стаффорд;Stafford
+fa;استافورد، انگلستان;Stafford
+ko;스태퍼드;Stafford
+zh;斯塔福德;Stafford
+ja;スタッフォード;Stafford
+zh-Hans;斯邦登;Spondon
+zh-Hant;斯邦登;Spondon
+ur;سپوندون;Spondon
+ja;スポンドン;Spondon
+ru;Спондон;Spondon
+bn;স্পন্ডন;Spondon
+kn;ಸ್ಪೊಂಡನ್;Spondon
+ko;스펀돈;Spondon
+ta;ஸ்பாண்டன்;Spondon
+gu;સ્પોનડન;Spondon
+te;స్పాండన్;Spondon
+fa;اسپیلسبی;Spilsby
+bg;Спетчлей;Spetchley
+fa;اسپنیمور;Spennymoor
+ja;スピーク;Speke
+nn;Spalding i Lincolnshire;Spalding
+fa;اسپالدینگ، لینکلن‌شر;Spalding
+lt;Spoldingas;Spalding
+fa;ساوت‌وود;Southwold
+nn;Southwell i Nottinghamshire;Southwell
+fa;ساوتول، ناتینگهام‌شر;Southwell
+fa;تیدوورث;Tidworth
+ko;사우스실즈;South Shields
+sr;Саут Шилдс;South Shields
+fa;ساوت شیلدز;South Shields
+bg;Саут Шийлдс;South Shields
+zh;南希尔兹;South Shields
+ja;サウス・シールズ;South Shields
+ru;Саут-Шилдс;South Shields
+ko;사우스포트;Southport
+sr;Саутпорт;Southport
+fa;ساوت‌پورت;Southport
+zh;紹斯波特;Southport
+ja;サウスポート;Southport
+ru;Саутпорт;Southport
+fa;ساوت پترتون;South Petherton
+fa;ساوت مولتون;South Molton
+el;Σάουθγκεϊτ;Southgate
+fa;ساوت‌گیت، لندن;Southgate
+ja;サウスゲイト;Southgate
+ur;ساؤتھ گیٹ، لندن;Southgate
+ru;Саутенд-он-Си;Southend-on-Sea
+fa;ساوت المسال;South Elmsall
+fa;ساوت کیو;South Cave
+bg;Саутхамптън;Southampton
+ja;サウサンプトン;Southampton
+ru;Саутгемптон;Southampton
+uk;Саутгемптон;Southampton
+my;ဆောက်သမ္ပတန်မြို့;Southampton
+be;Саўтгемптан;Southampton
+sr;Саутхемптон;Southampton
+mzn;ساوت‌همپتون;Southampton
+el;Σαουθάμπτον;Southampton
+th;เซาแทมป์ตัน;Southampton
+lv;Sauthemptona;Southampton
+ar;ساوثهامبتون;Southampton
+az;Sauthempton;Southampton
+kk;Саутгемптон;Southampton
+lt;Sautamptonas;Southampton
+he;סאות'המפטון;Southampton
+ko;사우샘프턴;Southampton
+fa;ساوت‌همپتون;Southampton
+zh;南安普敦;Southampton
+ar;ساوثهام;Southam
+fa;ساوتام;Southam
+hi;साउथॉल;Southall
+ur;ساؤتھ ہال;Southall
+fa;ساوتهال;Southall
+pa;ਸਾਊਥਾਲ;Southall
+zh;紹索爾;Southall
+ar;سنينغ;Sonning
+fa;سامرتون;Somerton
+pl;Somerby by Brigg;Somerby
+sr;Солихал;Solihull
+lt;Solihalas;Solihull
+fa;سولیهال;Solihull
+ja;ソリフル;Solihull
+ru;Солихалл;Solihull
+ar;سوليهل;Solihull
+ko;솔리헐;Solihull
+zh;索利赫爾;Solihull
+fa;سوهام;Soham
+fa;اسنودلند;Snodland
+lt;Smedikas;Smethwick
+fa;اسمت‌ویک;Smethwick
+ru;Сметвик;Smethwick
+hy;Սմոլ Հիթ;Small Heath
+zh;小希夫;Small Heath
+ja;スモールヒース;Small Heath
+he;סמול הית';Small Heath
+ru;Слау;Slough
+ar;سليفورد;Sleaford
+fa;اسلیفورد;Sleaford
+ru;Скирбек;Skirbeck
+fa;اسکیپتون;Skipton
+ja;スケンフリス;Skenfrith
+fa;اسکلمرسدیل;Skelmersdale
+bg;Скелмерсдале;Skelmersdale
+zh;斯克爾默斯代爾;Skelmersdale
+ja;スケルマースデール;Skelmersdale
+he;סקלמרסדייל;Skelmersdale
+ru;Скелмерсдале;Skelmersdale
+fa;اسگنس;Skegness
+fa;سیتینگبورو;Sittingbourne
+ar;سيلفرستون;Silverstone
+lt;Silverstonas;Silverstone
+uk;Сільверстоун;Silverstone
+ru;Сильверстоун;Silverstone
+zh;銀石;Silverstone
+fa;سیلوث;Silloth
+zh;西爾切斯特;Silchester
+bg;Сидмът;Sidmouth
+ru;Сидмут;Sidmouth
+fa;سیدموث;Sidmouth
+ur;سڈکپ، لندن;Sidcup
+bg;Шрюсбъри;Shrewsbury
+ru;Шрусбери;Shrewsbury
+ar;شوريهام;Shoreham-by-Sea
+fa;شورهام-بای-سی;Shoreham-by-Sea
+ru;Шордитч;Shoreditch
+lv;Šordiča;Shoreditch
+ur;شورڈچ;Shoreditch
+mk;Шордич;Shoreditch
+ko;쇼어디치;Shoreditch
+zh;肖迪奇;Shoreditch
+ar;شورديتش;Shoreditch
+ja;ショーディッチ;Shoreditch
+fa;شوردیچ;Shoreditch
+he;שורדיץ';Shoreditch
+hy;Շիրհեմպտոն;Shirehampton
+ja;シャーハンプトン;Shirehampton
+he;שיירהמפטון;Shirehampton
+fa;شایربروک;Shirebrook
+bg;Шипли;Shipley
+nn;Shipley i West Yorkshire;Shipley
+ru;Шипли;Shipley
+fa;شیلدون;Shildon
+fa;شیفنال;Shifnal
+zh;希爾代格;Shieldaig
+ru;Шерингем;Sheringham
+fa;شرینگهام;Sheringham
+uk;Шерборн;Sherborne
+fa;شربورن;Sherborne
+ru;Шерборн;Sherborne
+bg;Шептън Молит;Shepton Mallet
+sv;Simon Browne;Shepton Mallet
+fa;شپتون مالت;Shepton Mallet
+ru;Шептън Молит;Shepton Mallet
+fa;شپشد;Shepshed
+ru;Шеппертон;Shepperton
+zh;仙非爾;Shenfield
+ja;シェンフィールド;Shenfield
+fa;شنفیلد;Shenfield
+bg;Шефилд;Sheffield
+ja;シェフィールド;Sheffield
+lt;Šefildas;Sheffield
+ru;Шеффилд;Sheffield
+lv;Šefīlda;Sheffield
+sr;Шефилд;Sheffield
+mr;शेफील्ड;Sheffield
+ko;셰필드;Sheffield
+mk;Шефилд;Sheffield
+hy;Շեֆիլդ;Sheffield
+he;שפילד;Sheffield
+el;Σέφιλντ;Sheffield
+fa;شفیلد;Sheffield
+te;షెఫీల్డ్;Sheffield
+be;Шэфілд;Sheffield
+th;เชฟฟีลด์;Sheffield
+ar;شفيلد;Sheffield
+hi;शेफ़ील्ड;Sheffield
+uk;Шеффілд;Sheffield
+az;Şeffild;Sheffield
+os;Шеффилд;Sheffield
+mzn;شفیلد;Sheffield
+ckb;شێفیڵد;Sheffield
+ka;შეფილდი;Sheffield
+zh;谢菲尔德;Sheffield
+ru;Ширнесс;Sheerness
+ru;Шанклин;Shanklin
+fa;شانکلین;Shanklin
+fa;شافتسبوری;Shaftesbury
+bg;Севъноукс;Sevenoaks
+ru;Севенокс;Sevenoaks
+ko;세븐오크스;Sevenoaks
+fa;سونوکس;Sevenoaks
+ja;セブノークス;Sevenoaks
+fa;ستل;Settle
+ar;سنن;Sennen
+fa;سلسی;Selsey
+ru;Селси;Selsey
+lt;Seli Oukas;Selly Oak
+ja;セリー・オーク;Selly Oak
+fa;سلی اوک;Selly Oak
+ur;سیلی اوک;Selly Oak
+ja;セラフィールド;Sellafield
+ru;Селкерк;Selkirk
+zh;塞尔扣克;Selkirk
+ru;Селби;Selby
+fa;سلبی;Selby
+zh;塞爾比;Selby
+pl;Metropolitan Borough of Sefton;Sefton
+zh;塞夫頓都會自治市;Sefton
+fa;سدبر;Sedbergh
+zh;塞德伯;Sedbergh
+fa;سیتون، دوون;Seaton
+nn;Seaton i Devon;Seaton
+ru;Сихем;Seaham
+fa;سیهام;Seaham
+nn;Seaford i East Sussex;Seaford
+fa;سیفورد، ساسکس شرقی;Seaford
+zh;西福德;Seaford
+ja;シークロフト;Seacroft
+fa;سی‌کرافت;Seacroft
+zh;斯肯索普;Scunthorpe
+ru;Сканторпе;Scunthorpe
+lt;Skantorpas;Scunthorpe
+fa;اسکان‌ثورپ;Scunthorpe
+sr;Сканторп;Scunthorpe
+ru;Сканторп;Scunthorpe
+ja;スカンソープ;Scunthorpe
+ko;스컨소프;Scunthorpe
+uk;Сканторп;Scunthorpe
+zh;斯克拉布斯特;Scrabster
+ja;スクラブスター港;Scrabster
+fi;Sgonnsair;Sconser
+bg;Скарбъроу;Scarborough
+ko;스카버러;Scarborough
+uk;Скарборо;Scarborough
+ru;Скарборо;Scarborough
+ja;スカーブラ;Scarborough
+ar;سكاربورو;Scarborough
+fa;اسکاربرو، یورک‌شر شمالی;Scarborough
+he;סקרבורו;Scarborough
+zh;斯卡布羅;Scarborough
+fa;ساکسماندهام;Saxmundham
+ar;سوستون;Sawston
+fa;ساوبریج‌وورث;Sawbridgeworth
+nn;Sandy i Bedfordshire;Sandy
+fa;سندی، بدفوردشر;Sandy
+fa;ساندویچ، کنت;Sandwich
+ja;サンドウィッチ;Sandwich
+nn;Sandwich i Kent;Sandwich
+ru;Сэндвич;Sandwich
+zh;桑威治;Sandwich
+bg;Сандрингам;Sandringham
+he;סאנדרינגהאם;Sandringham
+ru;Сандаун;Sandown
+fa;ساندون;Sandown
+ja;サンドネス;Sandness
+zh;桑德内斯;Sandness
+fa;ساندیاکر;Sandiacre
+ru;Сандхерст;Sandhurst
+fa;ساندهورست، برکشر;Sandhurst
+zh;桑赫斯特;Sandhurst
+fa;سنباچ;Sandbach
+zh;薩爾特利;Saltley
+uk;Солткотс;Saltcoats
+ru;Солткотс;Saltcoats
+uk;Солтберн-бай-зе-Сі;Saltburn-by-the-Sea
+fa;سالتش;Saltash
+ar;سالتير;Saltaire
+he;סלטייר;Saltaire
+hu;Saltaire ipari falu;Saltaire
+ja;ソルテア;Saltaire
+ka;სალტეირი;Saltaire
+ru;Солтейр;Saltaire
+zh;索尔泰尔;Saltaire
+be;Солтэйр;Saltaire
+hy;Սոլթեյր;Saltaire
+zh-Hant;索爾泰爾;Saltaire
+zh-HK;索爾泰爾;Saltaire
+tg;Солтейр;Saltaire
+fa;سالتایر;Saltaire
+bg;Солсбъри;Salisbury
+he;סולסברי;Salisbury
+ja;ソールズベリー;Salisbury
+ru;Солсбери;Salisbury
+el;Σόλσμπερι;Salisbury
+bn;সল্‌স্‌বারি;Salisbury
+ko;솔즈베리;Salisbury
+am;ሳልዝብሪ;Salisbury
+ar;ساليسبري;Salisbury
+fa;سالزبری;Salisbury
+mr;सॉल्झब्री;Salisbury
+th;ซอลส์บรี;Salisbury
+lt;Solsberis;Salisbury
+mzn;سالزبری;Salisbury
+uk;Солсбері;Salisbury
+zh;索爾茲伯里;Salisbury
+sr;Солсбери;Salisbury
+hy;Սոլսբերի;Salisbury
+lv;Solsberi;Salisbury
+ur;سالسبری;Salisbury
+yue;梳士巴利;Salisbury
+ko;솔퍼드;Salford
+bg;Солфорд;Salford
+uk;Солфорд;Salford
+be;Солфард;Salford
+sr;Солфорд;Salford
+ar;سالفورد;Salford
+ru;Солфорд;Salford
+zh;索爾福德;Salford
+ja;サルフォード;Salford
+ce;Солфорд;Salford
+kk;Солфорд;Salford
+lt;Salfordas;Salford
+bg;Сейл;Sale
+fa;سیل، منچستر بزرگ;Sale
+nn;Sale i Stor-Manchester;Sale
+sr;Сејл;Sale
+ru;Сейл;Sale
+zh;塞爾;Sale
+ko;세일;Sale
+fa;سالکومب;Salcombe
+ru;Саинт Петерс;Saint Peters
+fa;سنت ماری کرای;St Mary Cray
+hi;सेंट मेरी क्रे;St Mary Cray
+ur;سینٹ میری کرے;St Mary Cray
+os;Сент-Айвс;St Ives
+no;St. Ives;St Ives
+ja;セント・アイヴス;St Ives
+nn;St. Ives i Cornwall;St Ives
+my;စိန့်အိုက်ဗ်မြို့;St Ives
+ru;Сент-Айвс;St Ives
+zh;圣艾夫斯;St Ives
+fa;سنت ایوس، کورنوال;St Ives
+ru;Сент-Хеленс;St Helens
+ru;Сент-Дэвидз;Saint Davids
+hi;सेंट डेविड्स;Saint Davids
+lt;Sent Deividsas;Saint Davids
+lv;Sentdeividsa;Saint Davids
+hy;Սենթ Դեյվիդս;Saint Davids
+zh-Hans;圣戴维斯;Saint Davids
+uk;Сент-Дейвідс;Saint Davids
+ur;سینٹ ڈیوڈز;Saint Davids
+mr;सेंट डेव्हिड्स;Saint Davids
+el;Σεντ Ντέιβιντς;Saint Davids
+zh;聖戴維斯;Saint Davids
+ar;سانت ديفيد;Saint Davids
+ja;セント・デイビッズ;Saint Davids
+fa;سنت دیویدز;Saint Davids
+ceb;Saint David's;Saint Davids
+fi;St David's;Saint Davids
+bg;Сейнт Дейвидс;Saint Davids
+bn;স্টুয়ার্ট ডেভিস;Saint Davids
+si;ශාන්ත ඩේවිඩ්ස්;Saint Davids
+sl;St David's;Saint Davids
+sv;St David's;Saint Davids
+kn;ಸೇಂಟ್ ಡೇವಿಡ್ಸ್;Saint Davids
+ko;세인트데이비즈;Saint Davids
+ta;ஸ்ட டேவிட்ஸ;Saint Davids
+gu;સેન્ટ ડેવિડ્સ;Saint Davids
+te;సెయింట్ డేవిడ్స్;Saint Davids
+th;เซ้า เดวิท;Saint Davids
+tl;St David's;Saint Davids
+pl;St David's;Saint Davids
+he;סנט דייווידס;Saint Davids
+nn;St. Austell;St Austell
+no;St. Austell;St Austell
+os;Сент-Остелл;St Austell
+fa;سنت آستل;St Austell
+ru;Сент-Остелл;St Austell
+bg;Сейнт Андрюс;Saint Andrews
+cs;St. Andrews;Saint Andrews
+fi;St Andrews;Saint Andrews
+hu;St. Andrews;Saint Andrews
+ja;セント・アンドルーズ;Saint Andrews
+no;St. Andrews;Saint Andrews
+ru;Сент-Андрус;Saint Andrews
+sv;St Andrews;Saint Andrews
+no;St. Albans;St Albans
+ru;Сент-Элбанс;St Albans
+ru;Сент-Олбанс;St Albans
+ar;سانت ألبانز;St Albans
+bg;Сейнт Олбанс;St Albans
+fa;سنت آلبنز;St Albans
+ja;セント・オールバンズ;St Albans
+ko;세인트올번스;St Albans
+sr;Сент Олбанс;St Albans
+uk;Сент-Олбанс;St Albans
+zh;聖奧爾本斯;St Albans
+be;Сент-Олбанс;St Albans
+tt;Сент-Олбанс;St Albans
+hi;सेंट अल्बंस;St Albans
+lt;Sent Albanas;St Albans
+lv;Sentalbana;St Albans
+hy;Սենթ Օլբանս;St Albans
+zh-Hans;圣奥尔本斯;St Albans
+id;Santa Albans;St Albans
+ur;سٹ البانس;St Albans
+mk;Сент Олбанс;St Albans
+mr;सेंट अल्बान्स;St Albans
+el;Σεντ Άλμπανς;St Albans
+mdf;Сэнт Олбанс;St Albans
+nb;St. Albans;St Albans
+az;Sant Albans;St Albans
+nn;St. Albans;St Albans
+bn;সেন্ট আলব্ন্স;St Albans
+si;සෙන්ට් ඇල්බන්ස්;St Albans
+kn;ಸೇಂಟ್ ಅಲ್ಬೇನ್ಸ್;St Albans
+ku;Saint Albans;St Albans
+ta;செயின்ட் ஆல்பெண்ஸ்;St Albans
+gu;સેન્ટ આલ્બન્સ;St Albans
+te;సెయింట్ అల్బన్స్;St Albans
+th;เซนต์อัลบัน;St Albans
+he;סנט אולבנס;St Albans
+fa;سافرون والدن;Saffron Walden
+ru;Сафрон-Уолден;Saffron Walden
+zh;薩弗倫沃爾登;Saffron Walden
+uk;Рай;Rye
+nn;Rye i East Sussex;Rye
+ru;Рай;Rye
+fa;ری، ساسکس شرقی;Rye
+zh;萊伊;Rye
+ru;Райд;Ryde
+fa;راید;Ryde
+lt;Ridinas;Ruthin
+uk;Ратін;Ruthin
+bg;Ридин;Ruthin
+ru;Ритин;Ruthin
+ko;루딘;Ruthin
+zh;魯思因;Ruthin
+uk;Рутерглен;Rutherglen
+az;Razerqlen;Rutherglen
+fa;رودرگلن;Rutherglen
+ru;Рутерглен;Rutherglen
+bg;Ръшдън;Rushden
+fa;راشدن;Rushden
+ru;Ръшдън;Rushden
+sr;Ранкорн;Runcorn
+fa;رانکورن;Runcorn
+zh;朗科恩;Runcorn
+ru;Ранкорн;Runcorn
+hi;राइस्लिप;Ruislip
+zh;莱斯里普;Ruislip
+bg;Ръджли;Rugeley
+fa;روجلی;Rugeley
+sr;Рагби;Rugby
+ko;럭비;Rugby
+lv;Ragbi;Rugby
+nn;Rugby i Warwickshire;Rugby
+ru;Рагби;Rugby
+zh;拉格比;Rugby
+fa;راگبی، وارویک‌شایر;Rugby
+ja;ラグビー;Rugby
+th;รักบี้;Rugby
+ar;راجبي;Rugby
+ta;ரக்பி;Rugby
+nn;Royston i Hertfordshire;Royston
+fa;رویستون، هرتفوردشر;Royston
+sr;Ројал Танбриџ Велс;Royal Tunbridge Wells
+fa;رویال تانبریج ولز;Royal Tunbridge Wells
+zh;皇家唐橋井;Royal Tunbridge Wells
+fa;راولی رجیس;Rowley Regis
+bg;Родсей;Rothesay
+ja;ロスシー;Rothesay
+uk;Ротсей;Rothesay
+ru;Ротсей;Rothesay
+ru;Ротерем;Rotherham
+fa;راترهام;Rotherham
+bg;Родъръм;Rotherham
+lt;Roderamas;Rotherham
+sr;Ротерам;Rotherham
+ja;ロザラム;Rotherham
+hy;Ռոտերեմ;Rotherham
+ko;로더럼;Rotherham
+uk;Ротергем;Rotherham
+zh;羅瑟勒姆;Rotherham
+fa;روتبوری;Rothbury
+ja;ロサイス;Rosyth
+uk;Росайт;Rosyth
+ru;Росайт;Rosyth
+fa;رامسی;Romsey
+zh;罗姆西;Romsey
+ko;롬퍼드;Romford
+fa;رامفورد;Romford
+zh;羅姆福德;Romford
+ru;Рок Ферри;Rock Ferry
+he;רוק פריי;Rock Ferry
+zh;罗克费里;Rock Ferry
+bg;Рочфорд;Rochford
+fa;روچفورد;Rochford
+ru;Рочфорд;Rochford
+el;Ρότσεστερ;Rochester
+ru;Рочестер;Rochester
+uk;Рочестер;Rochester
+is;Rochester í Kent;Rochester
+nn;Rochester i Kent;Rochester
+be;Рочэстэр;Rochester
+ko;로체스터;Rochester
+ja;ロチェスター;Rochester
+fa;روچستر، کنت;Rochester
+ur;روچیسٹر، کینٹ;Rochester
+zh;羅徹斯特;Rochester
+ru;Рочдейл;Rochdale
+sr;Рочдејл;Rochdale
+lt;Ročdeilis;Rochdale
+ko;로치데일;Rochdale
+fa;روچدیل;Rochdale
+bg;Рочдейл;Rochdale
+uk;Рочдейл;Rochdale
+ja;ロッチデール;Rochdale
+ur;راچڈیل;Rochdale
+zh;羅奇代爾;Rochdale
+ar;ريسلي;Riseley
+ru;Рипон;Ripon
+fa;ریپون;Ripon
+mzn;ریپون;Ripon
+ja;リポン;Ripon
+sr;Рипон;Ripon
+uk;Ріпон;Ripon
+ar;ريبون;Ripon
+bg;Рипън;Ripon
+hy;Ռիպոն;Ripon
+ko;리펀;Ripon
+ur;رپن;Ripon
+zh;里彭;Ripon
+hi;रिपन;Ripon
+lt;Riponas;Ripon
+lv;Ripona;Ripon
+zh-Hans;利邦;Ripon
+zh-Hant;利邦;Ripon
+mr;रिपन;Ripon
+el;Ρίπον;Ripon
+bn;রিপন;Ripon
+si;රිපන්;Ripon
+kn;ರಿಪೋನ್;Ripon
+ta;ரிபன்;Ripon
+gu;રિપન;Ripon
+te;రిపన్;Ripon
+th;ริปอน;Ripon
+he;ריפון;Ripon
+nn;Ripley i Derbyshire;Ripley
+ru;Рипли;Ripley
+fa;ریپلی، دربی‌شر;Ripley
+fa;رینگوود;Ringwood
+nn;Richmond i North Yorkshire;Richmond
+ko;리치먼드;Richmond
+zh;里士满;Richmond
+fa;ریچموند، یورک‌شر شمالی;Richmond
+ur;رچمنڈ، شمالی یارکشائر;Richmond
+ru;Рил;Rhyl
+lt;Rilis;Rhyl
+bg;Рил;Rhyl
+uk;Ріл;Rhyl
+zh;萊爾;Rhyl
+bg;Ридлан;Rhuddlan
+ru;Ридлан;Rhuddlan
+zh;羅西里;Rhossili
+fa;رونتا;Rhondda
+sr;Ронда;Rhondda
+kk;Ронта;Rhondda
+bg;Рейъдър;Rhayader
+lt;Rajaderis;Rhayader
+ar;رينفرو;Renfrew
+be;Рэнфру;Renfrew
+uk;Ренфрю;Renfrew
+ru;Ренфру;Renfrew
+ko;렌프루;Renfrew
+fa;رنفرو;Renfrew
+zh;倫弗魯;Renfrew
+ru;Райгейт;Reigate
+ru;Райгит;Reigate
+fa;ریگیت;Reigate
+fa;ریپهام، نورفک;Reepham
+bg;Редрът;Redruth
+ko;레드루스;Redruth
+fa;ردروث;Redruth
+ru;Редрът;Redruth
+ja;レディッチ;Redditch
+ru;Реддитч;Redditch
+lt;Redičas;Redditch
+fa;ردیچ;Redditch
+sr;Редич;Redditch
+bg;Редич;Redditch
+ko;레디치;Redditch
+ru;Реддич;Redditch
+zh;雷迪奇;Redditch
+ko;레드카;Redcar
+ar;ردكار;Redcar
+fa;ردکار;Redcar
+uk;Редкар;Redcar
+ur;ویسٹ فیلڈ، ریڈکار;Redcar
+zh;雷德卡;Redcar
+ru;Редкар;Redcar
+ja;レイ;Reay
+bg;Рединг;Reading
+ru;Рединг;Reading
+fa;راوتنستال;Rawtenstall
+fa;روندز;Raunds
+ru;Рандалстаун;Randalstown
+bg;Рандалстаун;Randalstown
+zh;蘭德爾斯敦;Randalstown
+ja;ランダルストウン;Randalstown
+ru;Рамсгейт;Ramsgate
+ko;램스게이트;Ramsgate
+ja;ラムズゲート;Ramsgate
+ru;Рамсгит;Ramsgate
+fa;رامس‌گیت;Ramsgate
+fa;رمزی، کمبریج‌شر;Ramsey
+ur;ریمسی، کیمبرجشائر;Ramsey
+ar;رينهام;Rainham
+ru;Радсток;Radstock
+fa;رادستوک;Radstock
+ur;جنوبی کوئنزفیری;Queensferry
+fa;کویین‌بورو;Queenborough
+os;Пулхели;Pwllheli
+bg;Пулхели;Pwllheli
+ru;Пулхели;Pwllheli
+zh-Hant;珀頓;Purton
+zh-Hans;珀顿;Purton
+bg;Пъдси;Pudsey
+fa;پادسی;Pudsey
+fa;پرودو;Prudhoe
+fa;پرنس ریسبورو;Princes Risborough
+uk;Прествік;Prestwick
+ja;プレストウィック;Prestwick
+ru;Престуик;Prestwick
+zh;普雷斯特威克;Prestwick
+he;פרסטון;Preston
+ru;Престон;Preston
+be;Прэстан;Preston
+hi;प्रेस्टन;Preston
+bg;Престън;Preston
+ar;برستون;Preston
+sr;Престон;Preston
+lt;Prestonas;Preston
+ja;プレストン;Preston
+ko;프레스턴;Preston
+uk;Престон;Preston
+zh;普雷斯顿;Preston
+fa;پرستون;Preston
+hy;Պրեստոն;Preston
+ur;پریسٹن، لنکاشائر;Preston
+bg;Престийн;Presteigne
+ru;Престин;Presteigne
+zh;普利斯提恩;Presteigne
+fa;پرستین;Presteigne
+ar;برستبوري;Prestbury
+lt;Prestburis;Prestbury
+uk;Престатін;Prestatyn
+lt;Prestatinas;Prestatyn
+bg;Престатин;Prestatyn
+zh;普雷斯塔廷;Prestatyn
+ru;Престатин;Prestatyn
+bn;প্রেস্টাটিন;Prestatyn
+zh-Hans;普雷斯塔汀;Prestatyn
+zh-Hant;普雷斯塔汀;Prestatyn
+ur;پریستاتین;Prestatyn
+kn;ಪ್ರೆಸ್ಟಟೈನ್;Prestatyn
+ko;프레스타틴;Prestatyn
+ta;பெஸ்டாட்டின்;Prestatyn
+gu;પ્રેસ્ટેટીન;Prestatyn
+te;ప్రస్టటైన్;Prestatyn
+ja;プレスタティン;Prestatyn
+fa;پرستاتین;Prestatyn
+fa;پرسکوت;Prescot
+fa;پوینتون-ویت-وورث;Poynton
+fa;پوتون;Potton
+lt;Port Talbotas;Port Talbot
+uk;Порт-Толбот;Port Talbot
+ko;포트탤벗;Port Talbot
+bg;Порт Толбът;Port Talbot
+ru;Порт-Толбот;Port Talbot
+zh;塔爾伯特港;Port Talbot
+ja;ポート・サンライト;Port Sunlight
+ru;Порт-Санлайт;Port Sunlight
+zh;陽光港;Port Sunlight
+uk;Порт-Санлайт;Port Sunlight
+fa;پورت سانلایت;Port Sunlight
+ur;پورٹ سن لائٹ;Port Sunlight
+bg;Портстюарт;Portstewart
+ru;Портстьюарт;Portstewart
+zh;斯圖爾特港;Portstewart
+ar;بورتستيورت;Portstewart
+ja;ポートスチュワート;Portstewart
+fa;پورت‌استیوارت;Portstewart
+ja;ポーツマス;Portsmouth
+ru;Портсмут;Portsmouth
+mzn;پورتسموث;Portsmouth
+sr;Портсмут;Portsmouth
+lv;Portsmuta;Portsmouth
+lt;Portsmutas;Portsmouth
+ckb;پۆرتسموت;Portsmouth
+uk;Портсмут;Portsmouth
+fa;پورتسموث;Portsmouth
+hy;Պորտսմութ;Portsmouth
+bn;পোর্টস্‌মাথ;Portsmouth
+el;Πόρτσμουθ;Portsmouth
+az;Portsmut;Portsmouth
+bg;Портсмът;Portsmouth
+ko;포츠머스;Portsmouth
+he;פורטסמות';Portsmouth
+be;Портсмут;Portsmouth
+mr;पोर्टस्मथ;Portsmouth
+ar;بورتسموث;Portsmouth
+th;พอร์ตสมัท;Portsmouth
+zh;朴次茅斯;Portsmouth
+bg;Порцладе;Portslade
+zh;波茨莱德;Portslade
+ar;بورتسليد;Portslade
+zh-Hant;波茨萊德;Portslade
+uk;Портслейд;Portslade
+ja;ポートスライド＝バイ＝シー;Portslade
+he;פורטסלייד;Portslade
+ur;پورٹ سلیڈ;Portslade
+ja;ポーツケッラ;Portskerra
+bg;Портръш;Portrush
+ru;Портраш;Portrush
+zh;波特拉什;Portrush
+ja;ポートラッシュ;Portrush
+fa;پورتراش;Portrush
+os;Портри;Portree
+ru;Портри;Portree
+zh;波特里;Portree
+ar;برتريث;Portreath
+ja;ポートマホマック;Portmahomack
+ko;포티스헤드;Portishead
+nn;Portishead i Somerset;Portishead
+ru;Портисхед;Portishead
+bg;Портмадог;Porthmadog
+lt;Portmadogas;Porthmadog
+ru;Портмадог;Porthmadog
+fa;پورتلون;Porthleven
+ar;برثكورنو;Porthcurno
+ko;포츠쿠르노;Porthcurno
+bg;Порткаул;Porthcawl
+uk;Портковл;Porthcawl
+zh;波斯考尔;Porthcawl
+ru;Порткоул;Porthcawl
+lt;Portkovlis;Porthcawl
+bn;পোর্টকাল;Porthcawl
+zh-Hans;坡特斯考;Porthcawl
+zh-Hant;坡特斯考;Porthcawl
+ur;پورتھکاول;Porthcawl
+kn;ಪೊರ್ಟ್ಕಾವ್ಲ್;Porthcawl
+ko;포스카울;Porthcawl
+ta;போர்த்க்காவ்ல்;Porthcawl
+gu;પોર્થકૉલ;Porthcawl
+te;పోర్త్ కాల్;Porthcawl
+ar;بورثكاول;Porthcawl
+ja;ポーチコール;Porthcawl
+fa;پورتکاول;Porthcawl
+he;פורת'קאול;Porthcawl
+ar;برثلو;Porthallow
+uk;Порт-Глазго;Port Glasgow
+ru;Порт-Глазго;Port Glasgow
+os;Порт-Эллен;Port Ellen
+ru;Порт-Эллен;Port Ellen
+lt;Portadaunas;Portadown
+bg;Портадаун;Portadown
+ru;Портадаун;Portadown
+zh-Hans;波塔当;Portadown
+zh-Hant;波塔鎮;Portadown
+ko;포터다운;Portadown
+el;Πόρτανταουν;Portadown
+zh;波塔當;Portadown
+ar;بورتاداون;Portadown
+ja;ポータダウン;Portadown
+fa;پورتاداون;Portadown
+he;פורטאדון;Portadown
+hi;पॉप्लर;Poplar
+ur;پوپلر، لندن;Poplar
+ru;Пул;Poole
+az;Puul;Poole
+bg;Пул;Poole
+fa;پول، انگلستان;Poole
+ja;プール;Poole
+lt;Pulas;Poole
+sr;Пул;Poole
+uk;Пул;Poole
+zh;普爾;Poole
+hy;Պուլ;Poole
+ur;پول، انگلستان;Poole
+ru;Понтиприте;Pontypridd
+ko;폰티프리드;Pontypridd
+lt;Pontepridas;Pontypridd
+bg;Понтъприд;Pontypridd
+ru;Понтиприт;Pontypridd
+zh;龐特普里斯;Pontypridd
+uk;Понтіпул;Pontypool
+ko;폰티풀;Pontypool
+bg;Понтъпул;Pontypool
+zh;龐蒂浦;Pontypool
+ru;Понтъпул;Pontypool
+bg;Понтифракт;Pontefract
+uk;Понтефракт;Pontefract
+ko;폰트프랙트;Pontefract
+fa;پونتفراکت;Pontefract
+bg;Понтардауе;Pontardawe
+ru;Понтардоуи;Pontardawe
+lt;Pontardavė;Pontardawe
+bn;পন্টারডাউ;Pontardawe
+zh-Hans;庞特道埃;Pontardawe
+ur;پونتارداوی;Pontardawe
+kn;ಪೋಂಟಾರ್ಡವೆ;Pontardawe
+ko;폰타다웨;Pontardawe
+ta;போன்டர்டாவெ;Pontardawe
+zh;龐特道埃;Pontardawe
+gu;પોન્ટારડેવ;Pontardawe
+te;పొంట్అర్డేవ్;Pontardawe
+ja;ポンターダーウィー;Pontardawe
+fa;پونتارداو;Pontardawe
+he;פונטרדאו;Pontardawe
+fa;پاندرز اند;Ponders End
+ar;بلبريو;Polperro
+ru;Полперро;Polperro
+ru;Полмонте;Polmont
+uk;Полмонт;Polmont
+ru;Полмонт;Polmont
+fa;پولگیت;Polegate
+fa;پوکلینگتون;Pocklington
+ru;Плимсток;Plymstock
+lt;Plimstok Radfordas;Plymstock
+bn;পলিমস্টক ড্যানস্টোন;Plymstock
+zh-Hans;普莱斯拓;Plymstock
+zh-Hant;普萊斯拓;Plymstock
+ur;پلیمستوک;Plymstock
+kn;ಪ್ಲೈಮ್ಸ್ಟಾಕ್;Plymstock
+ko;플림스톡 던스톤;Plymstock
+ta;பிலிம்ஸ்டாக்;Plymstock
+gu;પ્લાયમસ્ટોક;Plymstock
+te;ప్లైస్టాక్;Plymstock
+ja;プライムストック・ダンストーン;Plymstock
+fa;پلیمستاک;Plymstock
+zh;普林普頓;Plympton
+hy;Պլիմպթոն;Plympton
+zh-Hans;普来姆顿;Plympton
+zh-Hant;普來姆頓;Plympton
+ja;プラインプトン・セイント・マリー;Plympton
+az;Plimpton;Plympton
+ru;Плимптон;Plympton
+be;Плімптан;Plympton
+bn;প্লাইমা্পটন সেন্ট ভ্যালি;Plympton
+kn;ಪ್ಲೈಂಪ್ಟನ್;Plympton
+ko;플리프턴 세인트 메리;Plympton
+ta;பிலிம்ப்டன்;Plympton
+te;ప్లైప్టన్;Plympton
+uk;Плімптон;Plympton
+ur;پلیمپٹن;Plympton
+fa;پلمپتون;Plympton
+gu;પ્લાય્મટન;Plympton
+he;פלימפטון;Plympton
+ru;Плимут;Plymouth
+zh;普利茅斯;Plymouth
+ja;プリマス;Plymouth
+az;Plimut;Plymouth
+th;พลิมัท;Plymouth
+mr;प्लिमथ;Plymouth
+sr;Плимут;Plymouth
+lt;Plimutas;Plymouth
+mzn;پلیموث;Plymouth
+lv;Plimuta;Plymouth
+ckb;پلیموت;Plymouth
+fa;پلیموث;Plymouth
+uk;Плімут;Plymouth
+ug;Plimowt;Plymouth
+bg;Плимът;Plymouth
+ko;플리머스;Plymouth
+el;Πλίμουθ;Plymouth
+he;פלימות';Plymouth
+ar;بليموث;Plymouth
+ja;プロックトン;Plockton
+ru;Питтенуим;Pittenweem
+ru;Питлохри;Pitlochry
+hi;पिनर;Pinner
+uk;Піннер;Pinner
+nn;Pickering i North Yorkshire;Pickering
+fa;پیکرینگ، یورک‌شر شمالی;Pickering
+ur;پکرنگ، شمالی یارکشائر;Pickering
+uk;Певенсі;Pevensey
+zh;佩文西;Pevensey
+fa;پیترسفیلد;Petersfield
+ru;Петерли;Peterlee
+fa;پترلی;Peterlee
+bg;Питърли;Peterlee
+lt;Peterlis;Peterlee
+bn;পিটারলি;Peterlee
+ur;پیتیرلیی;Peterlee
+kn;ಪೀಟರ್ಲೀ;Peterlee
+ko;피터리;Peterlee
+ta;பெட்டர்லீ;Peterlee
+gu;પીટરલી;Peterlee
+zh;彼得利;Peterlee
+te;పెటేర్లీ;Peterlee
+ja;ピーターリー;Peterlee
+he;פיטרלי;Peterlee
+uk;Пітерхед;Peterhead
+bg;Питърхед;Peterhead
+lt;Pyterhedas;Peterhead
+fa;پیترهد;Peterhead
+ru;Питерхед;Peterhead
+zh;彼得黑德;Peterhead
+ja;ピーターカルター;Peterculter
+ja;ピーターバラ;Peterborough
+ru;Питерборо;Peterborough
+uk;Пітерборо;Peterborough
+fa;پیتربورو;Peterborough
+ko;피터버러;Peterborough
+sr;Питерборо;Peterborough
+lv;Pīterboro;Peterborough
+lt;Piterboras;Peterborough
+zh;彼得伯勒;Peterborough
+mzn;پیتربورو;Peterborough
+bg;Пърт;Perth
+ru;Перт;Perth
+ko;퍼스;Perth
+nn;Perth i Skottland;Perth
+os;Перт;Perth
+uk;Перт;Perth
+fa;پرت;Perth
+ja;パース;Perth
+lt;Pertas;Perth
+zh;伯斯;Perth
+ar;بيرث;Perth
+az;Pert;Perth
+el;Περθ;Perth
+he;פרת;Perth
+ur;پرتھ، سکاٹ لینڈ;Perth
+fa;پرشور;Pershore
+lt;Peri Baras;Perry Barr
+ar;برنبرث;Perranporth
+ru;Перранпорт;Perranporth
+hi;पेरिवेल;Perivale
+ur;پریویل;Perivale
+bg;Пензанс;Penzance
+ja;ペンザンス;Penzance
+el;Πενζάνς;Penzance
+my;ပင်န်ဇန့်မြို့;Penzance
+os;Пензанс;Penzance
+ru;Пензанс;Penzance
+zh;彭赞斯;Penzance
+fa;پنوورتهام;Penwortham
+bg;Пенсхърст;Penshurst
+fa;پنرین، کورنوال;Penryn
+bg;Пенрит;Penrith
+nn;Penrith i England;Penrith
+ru;Пенрит;Penrith
+zh;彭里斯;Penrith
+fa;پنریث، کامبریا;Penrith
+hy;Պենհինդեդրա;Penrhyndeudraeth
+zh;彭希登德雷斯;Penrhyndeudraeth
+ja;ペンリュンデウドラエス;Penrhyndeudraeth
+az;Penhindedra;Penrhyndeudraeth
+he;פנרהינדיידריית';Penrhyndeudraeth
+ko;펜폰트;Penpont
+zh;彭庞特;Penpont
+zh-Hant;彭龐特;Penpont
+ja;ペンポント;Penpont
+ar;بينمون;Penmon
+bg;Пенмайнмаур;Penmaenmawr
+ru;Пенмайнмаур;Penmaenmawr
+fa;پنیستون;Penistone
+uk;Пенікюїк;Penicuik
+fa;پنیکوک;Penicuik
+bg;Пенарт;Penarth
+uk;Пенарт;Penarth
+zh;珀納斯;Penarth
+ru;Пенарт;Penarth
+zh-Hans;珀纳斯;Penarth
+ar;بنارث;Penarth
+ja;ペンアルス;Penarth
+fa;پنارث;Penarth
+he;פנארת';Penarth
+bg;Пембрук Док;Pembroke Dock
+ru;Пембрук-Док;Pembroke Dock
+bg;Пембрук;Pembroke
+ko;펨브로크;Pembroke
+ru;Пембрук;Pembroke
+zh;彭布羅克;Pembroke
+zh;皮布尔斯;Peebles
+fa;پاتلی بریج;Pateley Bridge
+ja;パッチャム;Patcham
+zh;帕查姆;Patcham
+ar;بنغبورن;Pangbourne
+ru;Пейсли;Paisley
+be;Пейслі;Paisley
+bg;Пейзли;Paisley
+uk;Пейслі;Paisley
+ko;페이즐리;Paisley
+ja;ペイズリー;Paisley
+fa;پیزلی;Paisley
+lt;Peislis;Paisley
+sr;Пејсли;Paisley
+zh;佩斯利;Paisley
+az;Peysli;Paisley
+he;פייזלי;Paisley
+fa;پاینزویک;Painswick
+ja;ペインスウィック;Painswick
+ru;Пэйнтон;Paignton
+bg;Пейнтън;Paignton
+sr;Пејнтон;Paignton
+fa;پینتون;Paignton
+ru;Пейнтон;Paignton
+zh;佩恩頓;Paignton
+ja;ペイントン;Paignton
+fa;پادستو;Padstow
+fa;پادیهام;Padiham
+fa;پادوک وود;Paddock Wood
+bg;Падингтън;Paddington
+ko;패딩턴;Paddington
+hi;पैडिंगटन;Paddington
+be;Падзінгтан;Paddington
+he;פדינגטון;Paddington
+ur;پیڈنگٹن، لندن;Paddington
+ja;パディントン;Paddington
+uk;Паддінгтон;Paddington
+ru;Паддингтон;Paddington
+zh;帕丁頓;Paddington
+az;Paddinqton;Paddington
+fa;پدینگتون;Paddington
+ar;أكسفورد;Oxford
+bg;Оксфорд;Oxford
+he;אוקספורד;Oxford
+ja;オックスフォード;Oxford
+ko;옥스퍼드;Oxford
+lt;Oksfordas;Oxford
+pl;Oksford;Oxford
+ru;Оксфорд;Oxford
+is;Uxavað;Oxford
+vep;Oksford;Oxford
+uk;Оксфорд;Oxford
+is;Öxnafurða;Oxford
+tg;Оксфорд;Oxford
+sq;Oksford;Oxford
+el;Οξφόρδη;Oxford
+sr;Оксфорд;Oxford
+mzn;آکسفورد;Oxford
+ka;ოქსფორდი;Oxford
+kn;ಆಕ್ಸ್‌ಫರ್ಡ್;Oxford
+ug;Oksford;Oxford
+bn;অক্সফোর্ড;Oxford
+my;အောက်စဖို့မြို့;Oxford
+az;Oksford;Oxford
+be;Оксфард;Oxford
+tt;Оксфорд;Oxford
+hi;ऑक्सफोर्ड;Oxford
+te;ఆక్స్‌ఫర్డ్;Oxford
+ab;Оқсфорд;Oxford
+mr;ऑक्सफर्ड;Oxford
+th;อ๊อกซฟอร์ด;Oxford
+fa;آکسفورد;Oxford
+lv;Oksforda;Oxford
+zh;牛津;Oxford
+sgs;Oksfuords;Oxford
+ce;Оксфорд;Oxford
+pa;ਆਕਸਫ਼ੋਰਡ;Oxford
+ta;ஆக்சுபோர்டு;Oxford
+hy;Օքսֆորդ;Oxford
+fa;اوندل;Oundle
+ar;أوتري سانت ماري;Ottery St Mary
+fa;اوتری سنت ماری;Ottery St Mary
+ko;오틀리;Otley
+fa;اوتلی;Otley
+lt;Osvestris;Oswestry
+bg;Озуъстри;Oswestry
+ru;Озуэстри;Oswestry
+fa;اوسوستری;Oswestry
+bg;Осет;Ossett
+ru;Оссетт;Ossett
+fa;اوست;Ossett
+hi;ओर्पिंगटन;Orpington
+ur;اورپنگٹن، لندن;Orpington
+zh;奧爾平頓;Orpington
+fa;اورمسکیرک;Ormskirk
+ru;Ормскирк;Ormskirk
+zh;奧姆斯柯克;Ormskirk
+fa;اورفورد، سافک;Orford
+ja;オア;Ore
+zh-Hant;奧彭肖;Openshaw
+zh;奥彭肖;Openshaw
+zh-Hant;奧尼赫;Onich
+zh;奥尼赫;Onich
+zh;翁斯布鲁韦德;Once Brewed
+zh-Hant;翁斯布魯韋德;Once Brewed
+ru;Ома;Omagh
+bg;Оума;Omagh
+ar;أوماه;Omagh
+lt;Oma;Omagh
+ko;오마;Omagh
+ja;オマー;Omagh
+zh;奧馬;Omagh
+he;אולטון;Olton
+ar;أولني;Olney
+fa;اولنی، باکینگهام‌شر;Olney
+nn;Olney i Buckinghamshire;Olney
+zh;奧爾尼;Olney
+ar;الد ويندزر;Old Windsor
+pl;Old Meldrum;Oldmeldrum
+ru;Олдмелдрум;Oldmeldrum
+ru;Олдем;Oldham
+lt;Oldamas;Oldham
+ar;أولدهام;Oldham
+uk;Олдем;Oldham
+ja;オールダム;Oldham
+fa;اولدهام;Oldham
+th;โอลดัม;Oldham
+lv;Oldema;Oldham
+he;אולדהאם;Oldham
+ko;올덤;Oldham
+bg;Олдъм;Oldham
+sr;Олдам;Oldham
+zh;奧爾德姆;Oldham
+el;Όλνταμ;Oldham
+hy;Օլդեմ;Oldham
+lt;Oldberis;Oldbury
+pl;Oldbury-Smethwick;Oldbury
+zh;奧爾德伯里;Oldbury
+fa;اولدبوری، میدلندز غربی;Oldbury
+zh-Hant;阿伯丁老城區;Old Aberdeen
+ja;オールド・アバディーン;Old Aberdeen
+zh;阿伯丁老城区;Old Aberdeen
+fa;اوکهامپتون;Okehampton
+bg;Одихем;Odiham
+ru;Одихем;Odiham
+bg;Оубън;Oban
+ru;Обан;Oban
+uk;Обан;Oban
+ja;オーバン;Oban
+zh;奧本;Oban
+ko;오컴;Oakham
+ru;Окем;Oakham
+fa;اوکهام;Oakham
+zh;奧克姆;Oakham
+bg;Оудби;Oadby
+ru;Нанитон;Nuneaton
+fa;نانیتون;Nuneaton
+sr;Нанитон;Nuneaton
+zh;納尼頓;Nuneaton
+ja;ヌニートン;Nuneaton
+ar;نوتنغهام;Nottingham
+ru;Ноттингем;Nottingham
+zh;诺丁汉;Nottingham
+zh;諾定咸;Nottingham
+ja;ノッティンガム;Nottingham
+he;נוטינגהאם;Nottingham
+tg;Ноттингҳам;Nottingham
+ar;نورويتش;Norwich
+ru;Норидж;Norwich
+ja;ノリッチ;Norwich
+sr;Норич;Norwich
+ko;노리치;Norwich
+bg;Норич;Norwich
+lt;Noridžas;Norwich
+uk;Норвіч;Norwich
+fa;نورویچ;Norwich
+th;นอริช;Norwich
+zh;諾里奇;Norwich
+kk;Норидж;Norwich
+mzn;نورویچ;Norwich
+az;Norviç;Norwich
+el;Νόργουιτς;Norwich
+hi;नॉर्थवुड;Northwood
+ru;Нортвич;Northwich
+lt;Nortvičas;Northwich
+fa;نورتویچ;Northwich
+fa;نورث والشام;North Walsham
+fa;نورث پترتون;North Petherton
+hi;नॉर्थहॉल्ट;Northolt
+ur;نورتھولٹ;Northolt
+ja;ノースリーチ;Northleach
+el;Νόρθφλιτ;Northfleet
+fa;نورثفلیت;Northfleet
+ja;ノースフィールド;Northfield
+ur;نارتھفیلڈ، برمنگھم;Northfield
+uk;Норт-Бервік;North Berwick
+ru;Норт-Берик;North Berwick
+bg;Нортхамптън;Northampton
+ru;Нортгемптон;Northampton
+az;Norsempton;Northampton
+sr;Нортхемптон;Northampton
+ml;നോർത്താംപ്റ്റൺ;Northampton
+ja;ノーザンプトン;Northampton
+lt;Nortamptonas;Northampton
+uk;Нортгемптон;Northampton
+fa;نورث‌همپتون;Northampton
+el;Νορθάμπτον;Northampton
+ko;노샘프턴;Northampton
+zh;北安普顿;Northampton
+ar;نورثامبتون;Northampton
+hy;Նորթհեմփթոն;Northampton
+ur;نارتھیمپٹن;Northampton
+ko;노샐러턴;Northallerton
+fa;نورثالرتون;Northallerton
+zh;諾斯阿勒頓;Northallerton
+ru;Найтон;Niton
+ru;Нейланд;Neyland
+bg;Нийланд;Neyland
+lt;Neilandas;Neyland
+bn;নেল্যান্ড;Neyland
+zh-Hans;内兰;Neyland
+uk;Нейланд;Neyland
+ur;نییلینڈ;Neyland
+kn;ನೆಯ್ಲ್ಯಾಂಡ್;Neyland
+ko;네이랜드;Neyland
+ta;நெய்லன்ட்;Neyland
+zh;內蘭;Neyland
+gu;નેલેન્ડ;Neyland
+te;నెయ్లాండ్;Neyland
+ja;ネイランド;Neyland
+fa;نیلند;Neyland
+bg;Нютаунардс;Newtownards
+lt;Niutonardsas;Newtownards
+ru;Ньютаунардс;Newtownards
+zh;紐敦納茲;Newtownards
+ru;Ньютонэббей;Newtownabbey
+bg;Нютаунаби;Newtownabbey
+fa;تیوتاون‌ابی;Newtownabbey
+sr;Њутонаби;Newtownabbey
+ru;Ньютаунабби;Newtownabbey
+zh;紐敦阿比;Newtownabbey
+bg;Нютаун;Newtown
+lt;Niutaunas;Newtown
+ur;نیو ٹاؤن، پوویز;Newtown
+bg;Нютън Стюарт;Newton Stewart
+fa;نیوتن مرنز;Newton Mearns
+uk;Ньютон-Мірнс;Newton Mearns
+fa;نیوتون-له-ویلووز;Newton-le-Willows
+ru;Ньютон-Хит;Newton Heath
+zh;牛顿希思;Newton Heath
+ar;نیوتون هیث;Newton Heath
+th;นิวตันฮีท;Newton Heath
+uk;Ньютон Гіт;Newton Heath
+ja;ニュートン・ヒース;Newton Heath
+fa;نیوتون هیث، منچستر;Newton Heath
+zh;牛頓艾克利夫;Newton Aycliffe
+zh-Hans;纽顿·艾克利夫;Newton Aycliffe
+zh-Hant;紐頓·艾克利夫;Newton Aycliffe
+ja;ニュートンエイクリフ;Newton Aycliffe
+fa;نیوتون، آیکلیف;Newton Aycliffe
+ur;نیوٹن اکلف;Newton Aycliffe
+bg;Нютън Абът;Newton Abbot
+ru;Ньютон-Эббот;Newton Abbot
+fa;نیوتون آبوت;Newton Abbot
+ja;スクーン;Scone
+nn;Scone i Perthshire;Scone
+zh;斯昆;Scone
+ru;Ньюри;Newry
+fa;نیوری;Newry
+bg;Нюри;Newry
+lt;Niūris;Newry
+zh;纽里;Newry
+ja;ニューリー;Newry
+he;ניורי;Newry
+hy;Նյուրի;Newry
+ko;뉴리;Newry
+ur;نیوری;Newry
+fa;نیو رامنی;New Romney
+os;Ньюки;Newquay
+bg;Нюкий;Newquay
+ja;ニューキー;Newquay
+fa;نیوکی;Newquay
+bg;Нюпорт Пагнел;Newport Pagnell
+fa;نیوپورت پاگنل;Newport Pagnell
+ru;Нюпорт Пагнел;Newport Pagnell
+ru;Ньюпорт;Newport
+bg;Нюпорт;Newport
+ur;نیوپورٹ، پیمبروک شائر;Newport
+ru;Нюпорт;Newport
+ar;نيوبورت;Newport
+hi;न्यूपोर्ट;Newport
+el;Νιούπορτ;Newport
+th;นิวพอร์ต;Newport
+ko;뉴포트;Newport
+ja;ニューポート;Newport
+lt;Niuportas;Newport
+sr;Њупорт;Newport
+fa;نیوپورت;Newport
+uk;Ньюпорт;Newport
+hy;Նյուպորտ;Newport
+zh;纽波特;Newport
+az;Nyuport;Newport
+be;Ньюпарт;Newport
+he;ניופורט;Newport
+kk;Ньюпорт;Newport
+lv;Ņūporta;Newport
+ur;نیوپورٹ، ویلز;Newport
+nn;Newport på Isle of Wight;Newport
+zh;紐波特;Newport
+fa;نیوپورت، جزیره وایت;Newport
+ja;ニューパッセージ;New Passage
+fa;نیو میلتن;New Milton
+fa;نیو میلز;New Mills
+ta;நியூ மில்ஸ்;New Mills
+nn;Newmarket i Suffolk;Newmarket
+ru;Ньюмаркет;Newmarket
+fa;نیومارکت، سافک;Newmarket
+ja;ニューマーケット;Newmarket
+fa;نیولین;Newlyn
+ru;Ньюлин;Newlyn
+zh;紐林;Newlyn
+ja;ニューリン;Newlyn
+he;ניולין;Newlyn
+zh-Hant;新盧斯;New Luce
+zh;新卢斯;New Luce
+nn;Newhaven i East Sussex;Newhaven
+fa;نیوهاون، اسکس شرقی;Newhaven
+zh;紐黑文;Newhaven
+fa;نیونت;Newent
+ar;نيوكاسل أبون تاين;Newcastle upon Tyne
+fa;نیوکاسل;Newcastle upon Tyne
+ja;ニューカッスル・アポン・タイン;Newcastle upon Tyne
+cs;Newcastle;Newcastle upon Tyne
+he;ניוקאסל;Newcastle upon Tyne
+ru;Ньюкасл-апон-Тайн;Newcastle upon Tyne
+vi;Newcastle trên sông Tyne;Newcastle upon Tyne
+az;Nyukasl apon Tayn;Newcastle upon Tyne
+mzn;نیوکاسل;Newcastle upon Tyne
+th;นิวคาสเซิลอะพอนไทน์;Newcastle upon Tyne
+el;Νιούκασλ;Newcastle upon Tyne
+bn;নিউক্যাসল আপন ট্যাইন;Newcastle upon Tyne
+mr;न्यूकॅसल अपॉन टाईन;Newcastle upon Tyne
+ko;뉴캐슬어폰타인;Newcastle upon Tyne
+ka;ნიუკასლ-აპონ-ტაინი;Newcastle upon Tyne
+sr;Њукасл на Тајну;Newcastle upon Tyne
+bg;Нюкасъл ъпон Тайн;Newcastle upon Tyne
+lt;Niukaslas prie Taino;Newcastle upon Tyne
+lv;Ņūkāsla pie Tainas;Newcastle upon Tyne
+uk;Ньюкасл-апон-Тайн;Newcastle upon Tyne
+be;Ньюкасл-апан-Тайн;Newcastle upon Tyne
+ckb;نیوکاسڵ;Newcastle upon Tyne
+zh;泰恩河畔纽卡斯尔;Newcastle upon Tyne
+ru;Ньюкасл-андер-Лайм;Newcastle under Lyme
+bg;Нюкасъл Емлин;Newcastle Emlyn
+zh;紐卡索爾埃姆林;Newcastle Emlyn
+zh-Hans;纽卡索尔埃姆林;Newcastle Emlyn
+ja;ニューカッスル・エムリン;Newcastle Emlyn
+fa;نیوکاسل املین;Newcastle Emlyn
+ja;ニュービー・ブリッジ;Newby Bridge
+zh;纽拜桥;Newby Bridge
+ru;Ньюбери;Newbury
+lt;Niuberis;Newbury
+nn;Newbury i Berkshire;Newbury
+bg;Нюбъри;Newbury
+zh;纽伯里;Newbury
+fa;نیوبوری، برکشر;Newbury
+ja;ニューベリー;Newbury
+ru;Ньюбёрн;Newburn
+ja;ニューバーン;Newburn
+zh;紐伯恩;Newburn
+fa;نیوبیگین-بای-ده-سی;Newbiggin-by-the-Sea
+fa;نیو اولرسفورد;New Alresford
+bg;Невин;Nefyn
+fa;نستون;Neston
+fa;نلسون، لانکاشر;Nelson
+ar;نيلستن;Neilston
+fa;نیدهام مارکت;Needham Market
+ru;Нит;Neath
+bg;Нийт;Neath
+lt;Nitas;Neath
+zh;尼思;Neath
+bg;Нарбърт;Narberth
+ru;Нарбърт;Narberth
+fa;نانت‌ویچ;Nantwich
+zh;楠特威奇;Nantwich
+uk;Нерн;Nairn
+ru;Нэрн;Nairn
+zh;奈恩;Nairn
+fa;نایلسوورث;Nailsworth
+fa;نایلسی;Nailsea
+mk;Маселбург;Musselburgh
+uk;Масселбург;Musselburgh
+ru;Масселборо;Musselburgh
+zh;馬瑟爾堡;Musselburgh
+az;Masselboro;Musselburgh
+fa;ماسلبرگ;Musselburgh
+ar;مولين;Mullion
+ja;マッチ・ウェンロック;Much Wenlock
+ko;머치웬록;Much Wenlock
+zh;溫洛克;Much Wenlock
+fa;ماچ ونلاک;Much Wenlock
+ar;موسهل;Mousehole
+ru;Мазервелл;Motherwell
+ko;머더웰;Motherwell
+ja;マザーウェル;Motherwell
+bg;Мъдъруел;Motherwell
+lt;Madervelis;Motherwell
+uk;Мотервелл;Motherwell
+ru;Мотеруэлл;Motherwell
+az;Mazervell;Motherwell
+fa;مادرول;Motherwell
+zh;馬瑟威爾;Motherwell
+fa;موسلی;Mossley
+ja;モーズリー;Moseley
+zh;莫斯利;Moseley
+ko;모페스;Morpeth
+ru;Морпет;Morpeth
+fa;مورپث، نورث‌آمبرلند;Morpeth
+zh;莫珀斯;Morpeth
+bg;Морли;Morley
+fa;مورلی، یورکشایر غربی;Morley
+nn;Morley i West Yorkshire;Morley
+sr;Морли;Morley
+ru;Морли;Morley
+fa;مورتونهامپستید;Moretonhampstead
+ru;Моркам;Morecambe
+sr;Моркам;Morecambe
+uk;Моркем;Morecambe
+lt;Morkamas;Morecambe
+zh;莫克姆;Morecambe
+fa;مورکم;Morecambe
+zh;莫登;Morden
+uk;Монтроз;Montrose
+nn;Montrose i Angus;Montrose
+bg;Монтроуз;Montrose
+ru;Монтроз;Montrose
+lt;Montrozas;Montrose
+bg;Монтгомъри;Montgomery
+ur;مونٹگومری، پاویس;Montgomery
+ru;Монмут;Monmouth
+ml;മൊൻമത്;Monmouth
+mr;विकिपीडिया शहर;Monmouth
+ne;मनमाउथ;Monmouth
+ja;モンマス;Monmouth
+sr;Монмут;Monmouth
+bg;Монмът;Monmouth
+ko;몬머스;Monmouth
+uk;Монмут;Monmouth
+hi;मॉनमाउथ;Monmouth
+he;מונמות;Monmouth
+ba;Монмут;Monmouth
+zh;蒙茅斯;Monmouth
+be;Монмут;Monmouth
+el;Μόνμουθ;Monmouth
+ar;منكس ريسبرو;Monks Risborough
+bg;Монифийт;Monifieth
+ru;Монифийт;Monifieth
+lt;Moldas;Mold
+uk;Молд;Mold
+bg;Моулд;Mold
+ko;몰드;Mold
+zh;莫爾德;Mold
+bg;Мойра;Moira
+ru;Мойра;Moira
+bg;Мофат;Moffat
+ru;Мофат;Moffat
+fa;میتچلدین;Mitcheldean
+bg;Мърфийлд;Mirfield
+fa;میرفیلد;Mirfield
+ru;Мърфийлд;Mirfield
+fa;مینهید;Minehead
+ru;Милтон-Кинс;Milton Keynes
+lt;Milton Keinsas;Milton Keynes
+ja;ミルトン・キーンズ;Milton Keynes
+az;Milton Kins;Milton Keynes
+ko;밀턴케인스;Milton Keynes
+zh;米尔顿凯恩斯;Milton Keynes
+uk;Мілтон-Кінз;Milton Keynes
+ar;ميلتون كينز;Milton Keynes
+fa;میلتون کینز;Milton Keynes
+hy;Միլթոն-Քինս;Milton Keynes
+th;มิลตัน คีย์นส์;Milton Keynes
+uk;Мілнгеві;Milngavie
+az;Molqay;Milngavie
+fa;میلوم;Millom
+bg;Милфорд Хейвън;Milford Haven
+lt;Milford Heivenas;Milford Haven
+ar;ميلفورد هافن;Milford Haven
+ur;میلفورڈ ہیون;Milford Haven
+zh;米爾福德港;Milford Haven
+ru;Милфорд Хейвън;Milford Haven
+fa;میلدنهال، سافک;Mildenhall
+ru;Милденхолл;Mildenhall
+fa;میدسومر نورتون;Midsomer Norton
+fa;میدهورست;Midhurst
+fa;میدلویچ;Middlewich
+bg;Мидълзбро;Middlesbrough
+he;מידלסברו;Middlesbrough
+be;Мідлсбра;Middlesbrough
+lt;Midlsbro;Middlesbrough
+ja;ミドルズブラ;Middlesbrough
+fa;میدلزبورو;Middlesbrough
+uk;Мідлсбро;Middlesbrough
+th;มิดเดิลส์เบรอ;Middlesbrough
+az;Midlsbro;Middlesbrough
+ka;მიდლზბრო;Middlesbrough
+el;Μίντλεσμπρο;Middlesbrough
+sr;Мидлсбро;Middlesbrough
+mr;मिडल्सब्रो;Middlesbrough
+ko;미들즈브러;Middlesbrough
+ar;ميدلزبرة;Middlesbrough
+ru;Мидлсбро;Middlesbrough
+zh;米德爾斯伯勒;Middlesbrough
+fa;میدلهام;Middleham
+ja;ミックルオーバー;Mickleover
+he;מיקלאובר;Mickleover
+fa;مکسبورو;Mexborough
+ar;موغيسي;Mevagissey
+bg;Медил;Methil
+lt;Metilas;Methil
+ru;Медил;Methil
+ru;Мертир-Тидвил;Merthyr Tydfil
+bg;Мърдър Тидфил;Merthyr Tydfil
+uk;Мертір-Тідвіл;Merthyr Tydfil
+lt;Merter Tidvilis;Merthyr Tydfil
+ko;머서티드빌 주;Merthyr Tydfil
+zh;梅瑟蒂德菲尔;Merthyr Tydfil
+ja;マーサー・ティドビル;Merthyr Tydfil
+fa;مره، ویلتشر;Mere
+bg;Менай Бридж;Menai Bridge
+uk;Менай-Брідж;Menai Bridge
+ru;Мэнай-Бридж;Menai Bridge
+lt;Menai Bridžas;Menai Bridge
+bn;মেনাই ব্রিজ;Menai Bridge
+zh-Hans;波赛绥;Menai Bridge
+zh-Hant;波賽綏;Menai Bridge
+ur;مینای بریج;Menai Bridge
+kn;ಮೆನಾಯ್ ಸೇತುವೆ;Menai Bridge
+ko;메나이 브리지;Menai Bridge
+ta;மீனை பிரிட்ஜ்;Menai Bridge
+zh;梅奈橋;Menai Bridge
+gu;મેનાઈ બ્રિજ;Menai Bridge
+te;మనాయ్ బ్రిడ్జి;Menai Bridge
+ja;メナイ・ブリッジ;Menai Bridge
+fa;منای بریج;Menai Bridge
+ja;メルヴィッチ;Melvich
+bg;Мелтън Моубрей;Melton Mowbray
+fa;ملتون موبری;Melton Mowbray
+ru;Мелтън Моубрей;Melton Mowbray
+hy;Մելրոուզ;Melrose
+nn;Melrose i Skottland;Melrose
+ru;Мелроз;Melrose
+zh;梅尔罗斯;Melrose
+ar;مالكشم;Melksham
+fa;ملکشام;Melksham
+nn;Melbourne i Derbyshire;Melbourne
+ur;ملبورن، ڈربیشائر;Melbourne
+bg;Мейфеър;Mayfair
+hi;मेफ़ेयर;Mayfair
+he;מייפייר;Mayfair
+ur;مے فیئر;Mayfair
+uk;Мейфер;Mayfair
+ja;メイフェア;Mayfair
+be;Мейфэр;Mayfair
+ru;Мейфэр;Mayfair
+zh;梅费尔;Mayfair
+fa;می‌فر;Mayfair
+ko;메이페어;Mayfair
+zh;梅博尔;Maybole
+ru;Мохлин;Mauchline
+zh;莫赫林;Mauchline
+ko;매틀록;Matlock
+fa;ماتلوک، دربی‌شر;Matlock
+sv;Matlock Town;Matlock
+fa;ماسام;Masham
+bg;Мерипорт;Maryport
+fa;ماریپورت;Maryport
+zh;瑪麗波特;Maryport
+ru;Мерипорт;Maryport
+zh-Hans;玛丽丘;Maryhill
+zh;瑪麗丘;Maryhill
+ja;メアリーヒル;Maryhill
+az;Merihil;Maryhill
+be;Мэрыхіл;Maryhill
+he;מריהיל;Maryhill
+he;מרלבורו;Marlborough
+ko;말버러;Marlborough
+nn;Marlborough i Wiltshire;Marlborough
+fa;مارلبورو، ویلتشر;Marlborough
+hi;मालबर;Marlborough
+ur;مارلبورو، ویلٹشائر;Marlborough
+fa;مارکت ویتون;Market Weighton
+fa;مارکت راسن;Market Rasen
+bg;Маркет Харбъро;Market Harborough
+fa;مارکت هاربورو;Market Harborough
+ru;Маркет Харбъро;Market Harborough
+fa;مارکت درایتون;Market Drayton
+fa;مارکت دپینگ;Market Deeping
+uk;Босвортський ринок;Market Bosworth
+ru;Босвортский рынок;Market Bosworth
+fa;مارکت بوسوورث;Market Bosworth
+bg;Маргейт;Margate
+sr;Маргејт;Margate
+fa;مارگیت;Margate
+ru;Маргит;Margate
+zh;马盖特;Margate
+ja;マーゲイト;Margate
+ru;Маргэм;Margam
+be;Маргэм;Margam
+bg;Маргам;Margam
+lt;Margamas;Margam
+bn;মারগাম;Margam
+zh-Hans;马格姆;Margam
+ur;مرجام;Margam
+kn;ಮಾರ್ಗಮ್;Margam
+ko;마갬;Margam
+zh-HK;馬錦;Margam
+ta;மார்க்கம்;Margam
+zh;馬格姆;Margam
+gu;માર્ગમ;Margam
+te;మార్గం;Margam
+ja;マーガム;Margam
+fa;مارگام;Margam
+he;מרגם;Margam
+nn;March i Cambridgeshire;March
+bg;Марч;March
+fa;مارچ، کمبریج‌شر;March
+lt;Marčas;March
+ru;Марч;March
+ar;مربوري;Marbury
+fa;مارازیون;Marazion
+ru;Мэнсфилд;Mansfield
+sr;Менсфилд;Mansfield
+ko;맨스필드;Mansfield
+bg;Мансфийлд;Mansfield
+uk;Менсфілд;Mansfield
+fa;منزفیلد;Mansfield
+lt;Mansfildas;Mansfield
+zh;曼斯菲爾德;Mansfield
+ja;マンスフィールド;Mansfield
+he;מנספילד;Mansfield
+fa;مانینگتری;Manningtree
+bg;Манчестър;Manchester
+fa;منچستر;Manchester
+he;מנצ'סטר;Manchester
+ja;マンチェスター;Manchester
+lt;Mančesteris;Manchester
+ru;Манчестер;Manchester
+th;แมนเชสเตอร์;Manchester
+ka;მანჩესტერი;Manchester
+ar;مانشستر;Manchester
+sr;Манчестер;Manchester
+te;మాంచెస్టర్;Manchester
+az;منچئستئر;Manchester
+ta;மான்செஸ்டர்;Manchester
+hi;मैन्चेस्टर;Manchester
+mr;मँचेस्टर;Manchester
+mk;Манчестер;Manchester
+ko;맨체스터;Manchester
+kk;Манчестер;Manchester
+el;Μάντσεστερ;Manchester
+kn;ಮ್ಯಾಂಚೆಸ್ಟರ್;Manchester
+lv;Mančestra;Manchester
+os;Манчестер;Manchester
+uk;Манчестер;Manchester
+am;ማንችስተር;Manchester
+be;Манчэстэр;Manchester
+bn;ম্যানচেস্টার;Manchester
+ml;മാഞ്ചസ്റ്റർ;Manchester
+ja;モルヴァーン・リンク;Malvern Link
+nn;Malton i North Yorkshire;Malton
+fa;مالتون، یورک‌شر شمالی;Malton
+fa;مالتبی، یورک‌شر جنوبی;Maltby
+nn;Maltby i South Yorkshire;Maltby
+uk;Мальмсбері;Malmesbury
+fa;مالمزبوری;Malmesbury
+zh;马莱格;Mallaig
+ru;Мелдона;Maldon
+nn;Maldon i Essex;Maldon
+ru;Молдон;Maldon
+fa;مالدون، اسکس;Maldon
+os;Молдон;Maldon
+ru;Мейдстон;Maidstone
+fa;میدنستون;Maidstone
+bg;Мейдстоун;Maidstone
+el;Μέιντστοουν;Maidstone
+ja;メードストン;Maidstone
+ko;메이드스톤;Maidstone
+sr;Мејдстон;Maidstone
+zh;梅德斯通;Maidstone
+ur;میڈسٹون;Maidstone
+sr;Мејденхед;Maidenhead
+fa;میدنهد;Maidenhead
+ja;メイデンヘッド;Maidenhead
+ru;Мейденхед;Maidenhead
+zh;梅登黑德;Maidenhead
+fa;ماگول;Maghull
+bg;Махърафелт;Magherafelt
+ru;Марафелт;Magherafelt
+bg;Махъра;Maghera
+ru;Махъра;Maghera
+lt;Maisteigas;Maesteg
+uk;Мастег;Maesteg
+bg;Майстег;Maesteg
+zh;邁斯泰格;Maesteg
+bg;Махънлет;Machynlleth
+ru;Махинлет;Machynlleth
+lt;Mačynletas;Machynlleth
+bn;ম্যাকিনলেথ;Machynlleth
+zh-Hans;马汉莱斯;Machynlleth
+ur;ماچینلیتھ;Machynlleth
+kn;ಮ್ಯಾಕಿನ್ಲೆಥ್;Machynlleth
+ko;마킨레스;Machynlleth
+ta;மார்கரேட்டிங்;Machynlleth
+zh;馬漢萊斯;Machynlleth
+gu;મૅચિનલેથ;Machynlleth
+te;మచ్యన్ల్లెంత్;Machynlleth
+ja;マキ―ンレス;Machynlleth
+he;מחינל'ת';Machynlleth
+lt;Maklsfildas;Macclesfield
+fa;مک‌کلسفیلد;Macclesfield
+bg;Макълсфийлд;Macclesfield
+ko;메이클즈필드;Macclesfield
+sr;Маклсфилд;Macclesfield
+ru;Линхем;Lyneham
+ru;Лимпн;Lympne
+ar;ليمم;Lymm
+bg;Лим;Lymm
+ru;Лимингтон;Lymington
+ko;리밍턴;Lymington
+fa;لیمینگتون;Lymington
+uk;Лайм-Реджис;Lyme Regis
+mr;लाईम रेगीस;Lyme Regis
+ru;Лайм-Риджис;Lyme Regis
+zh;莱姆里杰斯;Lyme Regis
+fa;لایم ریجیس;Lyme Regis
+ur;لائم رجیس;Lyme Regis
+ja;ライ;Lye
+fa;لیدنی;Lydney
+fa;لید، کنت;Lydd
+ja;リブスター;Lybster
+zh;利布斯特;Lybster
+fa;لاتروورث;Lutterworth
+ru;Лутон;Luton
+lt;Lutonas;Luton
+fa;لوتون;Luton
+ko;루턴;Luton
+sr;Лутон;Luton
+bg;Лутън;Luton
+ar;لوتن;Luton
+ja;ルートン;Luton
+zh;卢顿;Luton
+lt;Lerganas;Lurgan
+bg;Лърган;Lurgan
+ru;Лурган;Lurgan
+lt;Ladlou;Ludlow
+bg;Лъдлоу;Ludlow
+ru;Ладлоу;Ludlow
+fa;لودلاو;Ludlow
+ru;Лоустофт;Lowestoft
+fa;لوئستافت;Lowestoft
+sr;Лоустофт;Lowestoft
+ko;로스토프트;Lowestoft
+zh;洛斯托夫特;Lowestoft
+ru;Лаут;Louth
+nn;Louth i Lincolnshire;Louth
+fa;لوث، لینکلن‌شر;Louth
+fa;لاوتون;Loughton
+sr;Лафборо;Loughborough
+bg;Лъфбъроу;Loughborough
+fa;لافبورو;Loughborough
+ja;ラフバラー;Loughborough
+ru;Лафборо;Loughborough
+zh;拉夫堡;Loughborough
+th;ลัฟบะระ;Loughborough
+ko;러프버러;Loughborough
+uk;Лафборо;Loughborough
+ja;ロスベッグ;Lothbeg
+ar;لوستويزيل;Lostwithiel
+fa;لاستویتیل;Lostwithiel
+uk;Лоссімут;Lossiemouth
+ru;Лоссимут;Lossiemouth
+ja;ロングウィック;Longwick
+fa;لانگ ساتون، لینکلن‌شر;Long Sutton
+fa;لانگریج;Longridge
+ja;ロングポート;Longport
+ru;Лонг-Итон;Long Eaton
+el;Λόνγκμπριτζ;Longbridge
+ru;Лонгбридж;Longbridge
+zh;朗布里奇的;Longbridge
+ja;ロングブリッジ;Longbridge
+fa;لانگبریج;Longbridge
+fi;Londonderry;Derry
+he;דרי;Derry
+hu;Londonderry;Derry
+ja;ロンドンデリー;Derry
+ru;Дерри;Derry
+ko;데리;Derry
+lt;Londonderis;Derry
+ar;ديري;Derry
+fa;دری;Derry
+uk;Деррі;Derry
+bg;Дери;Derry
+sr;Дери;Derry
+zh;德里;Derry
+uk;Лондонське сіті;City of London
+ms;Bandaraya London;City of London
+ar;مدينة لندن;City of London
+tl;Lungsod ng Londres;City of London
+th;นครลอนดอน;City of London
+mr;सिटी ऑफ लंडन;City of London
+sr;Сити;City of London
+ja;シティ・オブ・ロンドン;City of London
+vi;Thành phố Luân Đôn;City of London
+fi;Lontoon City;City of London
+lv;Londonas Sitija;City of London
+is;Lundúnaborg;City of London
+ceb;Dakbayan sa Londres;City of London
+lt;Londono Sitis;City of London
+ko;시티오브런던;City of London
+fa;سیتی لندن;City of London
+hy;Լոնդոնյան Սիթի;City of London
+el;Σίτι του Λονδίνου;City of London
+bg;Сити;City of London
+hi;सिटी ऑफ़ लंदन;City of London
+be;Сіці;City of London
+tr;Londra Şehri;City of London
+zu;Idolobha weLondon;City of London
+he;הסיטי של לונדון;City of London
+ru;Сити;City of London
+zh;倫敦金融城;City of London
+id;Kota London;City of London
+ur;لندن شہر;City of London
+yue;倫敦市;City of London
+af;Londen;London
+ar;لندن;London
+be;Лондан;London
+bg;Лондон;London
+cs;Londýn;London
+el;Λονδίνο;London
+fi;Lontoo;London
+gu;લંડન;London
+he;לונדון;London
+hi;लंदन;London
+ja;ロンドン;London
+ka;ლონდონი;London
+ko;런던;London
+ln;Londoni;London
+lt;Londonas;London
+lv;Londona;London
+mk;Лондон;London
+pl;Londyn;London
+ro;Londra;London
+ru;Лондон;London
+sk;Londýn;London
+sr;Лондон;London
+ta;இலண்டன்;London
+th;ลอนดอน;London
+tr;Londra;London
+tt;Лондон;London
+uk;Лондон;London
+vi;Luân Đôn;London
+sq;Londra;London
+fa;لندن;London
+ug;لوندون;London
+am;ለንደን;London
+bn;লন্ডন;London
+hy;Լոնդոն;London
+mr;लंडन;London
+os;Лондон;London
+tg;Лондон;London
+ur;لندن;London
+is;Lundúnir;London
+mzn;لندن;London
+tpi;Landen;London
+cv;Лондон;London
+ckb;لەندەن;London
+mhr;Лондон;London
+bo;ལོན་ཊོན།;London
+ml;ലണ്ടൻ;London
+ba;Лондон;London
+ne;लण्डन;London
+my;လန်ဒန်မြို့;London
+ab;Лондан;London
+mn;Лондон;London
+nah;Londres;London
+haw;Lākana;London
+mi;Rānana;London
+yo;Lọndọnu;London
+mrj;Лондон;London
+te;లండన్;London
+tl;Londres;London
+kv;Лондон;London
+tet;Londres;London
+ky;Лондон;London
+kk;Лондон;London
+krc;Лондон;London
+kn;ಲಂಡನ್;London
+udm;Лондон;London
+wo;Londar;London
+ht;Lonn;London
+sah;Лондон;London
+koi;Лондон;London
+chr;ᎫᎴ ᏗᏍᎪᏂᎯᏱ;London
+lez;Лондон;London
+lo;ລອນດອນ;London
+or;ଲଣ୍ଡନ;London
+gn;Londye;London
+ps;لندن;London
+si;ලන්ඩන්;London
+zu;ILondon;London
+zh;伦敦;London
+sgs;Londons;London
+bxr;Лондон;London
+ce;Лондон;London
+fj;Lodoni;London
+hak;Lùn-tûn;London
+kbd;Лондон;London
+lrc;لأندأن;London
+myv;Лондон ош;London
+om;Landan;London
+pa;ਲੰਡਨ;London
+yue;倫敦;London
+zh-TW;倫敦;London
+zh;倫敦;London
+fa;لودون، نورفک;Loddon
+ar;لوكربي;Lockerbie
+ru;Локерби;Lockerbie
+th;ล็อคเกอร์บี;Lockerbie
+th;ล็อกเกอร์บี;Lockerbie
+bg;Локърби;Lockerbie
+ko;로커비;Lockerbie
+mr;लॉकरबी;Lockerbie
+zh;洛克比;Lockerbie
+uk;Локербі;Lockerbie
+az;Loxqilpxed;Lochgilphead
+fa;لوکگیلپهید;Lochgilphead
+he;לוכגילפהד;Lochgilphead
+uk;Лохгілпхед;Lochgilphead
+ru;Лохгилпхед;Lochgilphead
+zh;洛赫卡伦;Lochcarron
+zh-Hant;洛赫卡倫;Lochcarron
+bg;Лануртид Уелс;Llanwrtyd Wells
+bg;Лантуит Мейджър;Llantwit Major
+uk;Ллантвіт-Мейджор;Llantwit Major
+ru;Ллатвит-Фардр;Llantwit Fardre
+bg;Лантуит Фардръ;Llantwit Fardre
+lt;Latvit Fardras;Llantwit Fardre
+bn;ল্যান্টউইট ফারদ্রে;Llantwit Fardre
+zh-Hans;兰特威特法尔德勒;Llantwit Fardre
+zh-Hant;蘭特威特法爾德勒;Llantwit Fardre
+ur;لانتویت فاردری;Llantwit Fardre
+kn;ಲಾಂಟ್ವಿಟ್ ಫಾರ್ಡ್ರೆ;Llantwit Fardre
+ko;랜트윗 파드레;Llantwit Fardre
+ta;லாண்ட்விட் பார்டரே;Llantwit Fardre
+gu;લેન્ટવિટ ફાર્ડ્રે;Llantwit Fardre
+te;ల్లంట్విత్  ఫర్దర్;Llantwit Fardre
+ja;ラントウィット・ファードレー;Llantwit Fardre
+fa;لانتوئیت فاردره;Llantwit Fardre
+ar;لانتريسانت;Llantrisant
+bg;Лантрисант;Llantrisant
+ru;Лантрисант;Llantrisant
+bg;Ланруст;Llanrwst
+os;Лланруст;Llanrwst
+bg;Ланидлойс;Llanidloes
+lt;Lanidloisas;Llanidloes
+ru;Ланидлойс;Llanidloes
+ar;لانغوايلوغ;Llangwyllog
+el;Λανγκόλλεν;Llangollen
+bg;Ланголен;Llangollen
+he;לנגולן;Llangollen
+ru;Лланголлен;Llangollen
+bg;Лангевни;Llangefni
+ja;スランゲヴニ;Llangefni
+ko;랑게프니;Llangefni
+lt;Langevnis;Llangefni
+uk;Ллангевні;Llangefni
+zh;蘭蓋夫尼;Llangefni
+ru;Лангевни;Llangefni
+et;Llanfair­pwllgwyn­gyllgo­gery­chwyrn­drobwll­llanty­silio­gogo­goch;Llanfairpwllgwyngyll
+ja;ランヴァイル・プルグウィンギル・ゴゲリフウィルンドロブル・ランティシリオゴゴゴホ;Llanfairpwllgwyngyll
+ko;랜바이어푸흘귄기흘;Llanfairpwllgwyngyll
+ru;Лланвайр-Пуллгвингилл;Llanfairpwllgwyngyll
+ar;لانفيربوولجوينجيلجوجيريتشويرندروبويللانتيسيليوجوجوجوتش;Llanfairpwllgwyngyll
+bg;Ланвайрвехан;Llanfairfechan
+zh-Hans;兰韦尔弗亨;Llanfairfechan
+ur;لھان وائر ویخن;Llanfairfechan
+zh;蘭韋爾弗亨;Llanfairfechan
+ja;スランバイルベハン;Llanfairfechan
+fa;لنفیرفچان;Llanfairfechan
+ru;Ланвайрвехан;Llanfairfechan
+ru;Лланелли;Llanelli
+uk;Лланеллі;Llanelli
+bg;Ланели;Llanelli
+fa;لنلی;Llanelli
+lt;Lanelis;Llanelli
+ur;خلانیتھلی;Llanelli
+ko;흘라네흘리;Llanelli
+zh;拉內利;Llanelli
+ar;لاندوين;Llanedwen
+ja;スランエドウェン;Llanedwen
+bg;Ландъсил;Llandysul
+zh-Hans;兰达西尔;Llandysul
+zh;蘭達西爾;Llandysul
+fa;لندیسول;Llandysul
+ru;Ландъсил;Llandysul
+bg;Ландйсилио;Llandysilio
+ar;لاندايفريدوغ;Llandyfrydog
+uk;Лландадно;Llandudno
+bg;Ландидно;Llandudno
+lt;Landidnas;Llandudno
+ru;Лландидно;Llandudno
+zh;蘭迪德諾;Llandudno
+tr;Llundadno;Llandudno
+bg;Ландриндод Уелс;Llandrindod Wells
+ko;랜드린도드웰스;Llandrindod Wells
+uk;Лландріндод-Веллс;Llandrindod Wells
+zh;蘭德林多德威爾斯;Llandrindod Wells
+ru;Ландриндод Уелс;Llandrindod Wells
+bg;Ландъври;Llandovery
+ru;Лландовери;Llandovery
+zh-Hans;兰达弗里;Llandovery
+zh-Hant;藍達夫里;Llandovery
+zh;蘭達弗里;Llandovery
+ja;ランドヴァリー;Llandovery
+fa;لندووری;Llandovery
+he;לנדוברי;Llandovery
+bg;Ландейло;Llandeilo
+ru;Ландейло;Llandeilo
+bg;Ланберис;Llanberis
+ru;Лланберис;Llanberis
+ar;لانبابو;Llanbabo
+ru;Ливингстон;Livingston
+sr;Ливингстон;Livingston
+uk;Лівінгстон;Livingston
+lt;Livingstonas;Livingston
+nn;Livingston i Skottland;Livingston
+fa;لیوینگستون، اسکاتلند;Livingston
+az;Livinqston;Livingston
+ur;لیونگسٹن، مغربی لوتھیان;Livingston
+zh;利文斯通;Livingston
+ar;ليفربول;Liverpool
+bg;Ливърпул;Liverpool
+fa;لیورپول;Liverpool
+he;ליברפול;Liverpool
+ja;リヴァプール;Liverpool
+lt;Liverpulis;Liverpool
+lv;Liverpūle;Liverpool
+ru;Ливерпуль;Liverpool
+th;ลิเวอร์พูล;Liverpool
+zh;利物浦;Liverpool
+el;Λίβερπουλ;Liverpool
+ka;ლივერპული;Liverpool
+ug;Liwérpol;Liverpool
+ko;리버풀;Liverpool
+sr;Ливерпул;Liverpool
+cv;Ливерпуль;Liverpool
+os;Ливерпуль;Liverpool
+hy;Լիվերպուլ;Liverpool
+uk;Ліверпуль;Liverpool
+mr;लिव्हरपूल;Liverpool
+be;Ліверпул;Liverpool
+az;Liverpul;Liverpool
+hi;लिवरपूल;Liverpool
+ta;லிவர்பூல்;Liverpool
+am;ሊቨርፑል፣ እንግሊዝ;Liverpool
+mn;Ливерпүүл;Liverpool
+mk;Ливерпул;Liverpool
+ml;ലിവർപൂൾ;Liverpool
+kn;ಲಿವರ್‌ಪೂಲ್;Liverpool
+lez;Ливерпуль;Liverpool
+ckb;لیڤەرپوول;Liverpool
+mzn;لیورپول;Liverpool
+ar;ليتل بثريك;Little Petherick
+ja;リトルオーバー;Littleover
+ur;ہالینڈ-آن-سی;Holland-on-Sea
+ko;리틀햄프턴;Littlehampton
+sr;Литлхемптон;Littlehampton
+fa;لیتل‌هامپتون;Littlehampton
+zh;利特爾漢普頓;Littlehampton
+ru;Литлхемптон;Littlehampton
+ja;リトルフェリー;Littleferry
+bg;Литхерланд;Litherland
+ru;Литхерланд;Litherland
+ru;Лисс;Liss
+fa;لیسکارد;Liskeard
+ru;Лисберн;Lisburn
+fa;لیسبورن;Lisburn
+bg;Лисбърн;Lisburn
+lt;Lisbernas;Lisburn
+ko;리즈번;Lisburn
+sr;Лизберн;Lisburn
+zh;利斯本;Lisburn
+ja;リスバーン;Lisburn
+ro;Districtul Lisburn;Lisburn
+ur;لسبرن;Lisburn
+uk;Лінлітгоу;Linlithgow
+ru;Линлитгоу;Linlithgow
+ja;リンリスゴー;Linlithgow
+hi;लिन्लिथगो;Linlithgow
+zh;林利斯哥;Linlithgow
+ko;링컨;Lincoln
+ru;Линкольн;Lincoln
+ja;リンカン;Lincoln
+mzn;لینکلن، انگلستان;Lincoln
+th;ลิงคอล์น;Lincoln
+sr;Линколн;Lincoln
+my;လင်ကွန်းမြို့၊ အင်္ဂလန်;Lincoln
+lt;Linkolnas;Lincoln
+fa;لینکلن، انگلستان;Lincoln
+uk;Лінкольн;Lincoln
+bg;Линкълн;Lincoln
+nn;Lincoln i England;Lincoln
+he;לינקולן;Lincoln
+zh;林肯;Lincoln
+ar;لنكولن;Lincoln
+be;Лінкальн;Lincoln
+bn;লিঙ্কোন;Lincoln
+hy;Լինքոլն;Lincoln
+ka;ლინკოლნი;Lincoln
+ur;لنکن، انگلستان;Lincoln
+bg;Лимавади;Limavady
+lt;Limavadis;Limavady
+ru;Лимавади;Limavady
+zh;利馬瓦迪;Limavady
+ru;Личфилд;Lichfield
+fa;لیچفیلد;Lichfield
+mzn;لیچفیلد;Lichfield
+bg;Личфийлд;Lichfield
+zh;利奇菲爾德;Lichfield
+ja;リッチフィールド;Lichfield
+hy;Լիչֆիլդ;Lichfield
+ko;리치필드;Lichfield
+ur;لیچفیلڈ;Lichfield
+hi;लीचफिल्ड;Lichfield
+lt;Ličfildas;Lichfield
+lv;Ličfīlda;Lichfield
+zh-Hans;利奇菲尔德;Lichfield
+uk;Лічфілд;Lichfield
+mk;Личфилд;Lichfield
+mr;लीचफिल्ड;Lichfield
+el;Λίτσφιλντ;Lichfield
+ar;ليشفيلد;Lichfield
+az;Liçfild;Lichfield
+be;Лічфілд;Lichfield
+bn;লিচফিল্ড;Lichfield
+si;ලිච්ෆීල්ඩ්;Lichfield
+kn;ಲಿಕ್ ಫೀಲ್ಡ್;Lichfield
+zh-HK;李治菲特;Lichfield
+ta;லிச்பீல்டு;Lichfield
+gu;લિચફિલ્ડ;Lichfield
+te;లిచ్ఫీల్డ్;Lichfield
+th;ลิชฟิลด์;Lichfield
+he;ליצ'פילד;Lichfield
+zh;利伯顿;Liberton
+fa;لیتون، لندن بزرگ;Leyton
+fa;لیبورن، یورک‌شر شمالی;Leyburn
+bg;Луис;Lewes
+ko;루이스;Lewes
+ru;Льюис;Lewes
+ja;ルイス;Lewes
+fa;لوئس;Lewes
+ur;لویس;Lewes
+zh;雷威斯;Lewes
+ja;ラーウィック;Lerwick
+ru;Леруик;Lerwick
+lt;Lervikas;Lerwick
+os;Леруик;Lerwick
+is;Leirvík;Lerwick
+be;Леруік;Lerwick
+he;לרוויק;Lerwick
+ko;러윅;Lerwick
+uk;Лервік;Lerwick
+zh;勒威克;Lerwick
+az;Lervik;Lerwick
+el;Λέργουικ;Lerwick
+fa;لرویک;Lerwick
+sr;Лервик;Lerwick
+ru;Леминстер;Leominster
+fa;لمستر;Leominster
+th;ลีธ;Leith
+ru;Лит;Leith
+ko;리스;Leith
+zh;利斯;Leith
+be;Лейт;Leith
+hy;Լիթ;Leith
+ka;ლეითი;Leith
+uk;Лейт;Leith
+kk;Лит;Leith
+el;Λιθ;Leith
+ar;ليث;Leith
+ja;リース;Leith
+he;ליית';Leith
+fa;لیستون;Leiston
+ar;ليتون برمسولد;Leighton Bromswold
+nn;Leigh i Stor-Manchester;Leigh
+ar;لي;Leigh
+fa;لی، منچستر بزرگ;Leigh
+ar;لايستر;Leicester
+he;לסטר;Leicester
+ru;Лестер;Leicester
+ja;レスター;Leicester
+ar;لستر;Leicester
+el;Λέστερ;Leicester
+mzn;لستر;Leicester
+uk;Лестер;Leicester
+th;เลสเตอร์;Leicester
+be;Лестэр;Leicester
+bg;Лестър;Leicester
+lv;Lestera;Leicester
+lt;Lesteris;Leicester
+az;Lester;Leicester
+ko;레스터;Leicester
+ug;Léyséstér;Leicester
+fa;لستر;Leicester
+sr;Лестер;Leicester
+zh;莱斯特;Leicester
+bg;Лийк;Leek
+nn;Leek i Staffordshire;Leek
+fa;لیک، استافوردشر;Leek
+ru;Лик;Leek
+ar;ليدز;Leeds
+bg;Лийдс;Leeds
+he;לידס;Leeds
+ja;リーズ;Leeds
+ru;Лидс;Leeds
+fa;لیدز;Leeds
+lt;Lidsas;Leeds
+lv;Līdsa;Leeds
+mr;लीड्स;Leeds
+hi;लीड्स;Leeds
+az;Lids;Leeds
+te;లీడ్స్;Leeds
+mk;Лидс;Leeds
+kn;ಲೀಡ್ಸ್;Leeds
+be;Лідс;Leeds
+ko;리즈;Leeds
+el;Ληντς;Leeds
+ka;ლიდზი;Leeds
+sr;Лидс;Leeds
+os;Лидс;Leeds
+uk;Лідс;Leeds
+ug;Ritis;Leeds
+gu;લીડ્ઝ;Leeds
+hy;Լիդս;Leeds
+th;ลีดส์;Leeds
+zh;利兹;Leeds
+ce;Лидс;Leeds
+mzn;لیدز;Leeds
+tg;Лидс;Leeds
+uz;Lids;Leeds
+ur;لیڈز;Leeds
+vep;Lids;Leeds
+yue;列斯;Leeds
+fa;لدبوری;Ledbury
+fa;لچلید;Lechlade
+fa;لیترهید;Leatherhead
+ru;Лемингтон Спа;Royal Leamington Spa
+fa;رویال لیمینگتون اسپا;Royal Leamington Spa
+ja;ロイヤル・レミントン・スパ;Royal Leamington Spa
+lt;Rojal Lemington Spa;Royal Leamington Spa
+sr;Ројал Лемингтон Спа;Royal Leamington Spa
+ru;Ройал-Лемингтон-Спа;Royal Leamington Spa
+zh;皇家利明頓溫泉;Royal Leamington Spa
+ru;Лавенем;Lavenham
+nn;Launceston i Cornwall;Launceston
+ru;Лонстон;Launceston
+bg;Ларн;Laugharne
+ru;Лохарн;Laugharne
+zh;劳德;Lauder
+he;לרן;Larne
+bg;Ларн;Larne
+lt;Larnas;Larne
+ru;Ларн;Larne
+zh;拉恩;Larne
+ja;ラーン;Larne
+ar;لارن;Larne
+uk;Ларкхолл;Larkhall
+ru;Ларкхолл;Larkhall
+be;Ларгс;Largs
+bg;Ларгс;Largs
+uk;Ларгс;Largs
+ru;Ларгс;Largs
+he;לפרויג;Laphroaig
+fa;لانگپورت;Langport
+ru;Ланкастер;Lancaster
+ja;ランカスター;Lancaster
+he;לנקסטר;Lancaster
+ko;랭커스터;Lancaster
+uk;Ланкастер;Lancaster
+ug;Lankastér;Lancaster
+zh;蘭卡斯特;Lancaster
+ar;لانكستر;Lancaster
+be;Ланкастэр;Lancaster
+hy;Լանքասթեր;Lancaster
+lt;Lankasteris;Lancaster
+sr;Ланкастер;Lancaster
+ur;لنکاسٹر، لنکاشائر;Lancaster
+ja;ラナーク;Lanark
+fa;لنارک;Lanark
+uk;Ланарк;Lanark
+ru;Ланарк;Lanark
+bg;Лампитър;Lampeter
+el;Λάμπετερ;Lampeter
+th;แลมเปเตอร์;Lampeter
+ja;ランペター;Lampeter
+zh;兰佩特;Lampeter
+ru;Лампитър;Lampeter
+ar;لمبورن;Lambourn
+bg;Лаирг;Lairg
+zh;萊爾格;Lairg
+zh-Hans;莱尔格;Lairg
+ja;レアグ;Lairg
+hy;Լեյնդոն;Laindon
+ja;エセックス;Laindon
+he;ליינדון;Laindon
+ru;Кайл-оф-Лохалш;Kyle of Lochalsh
+ru;Натсфорд;Knutsford
+fa;ناتسفورد;Knutsford
+fa;نب‌ورد;Knebworth
+ru;Нейрсборо;Knaresborough
+fa;نارسبورو;Knaresborough
+bg;Киримюър;Kirriemuir
+lt;Kerkvolas;Kirkwall
+el;Κέρκγουολ;Kirkwall
+he;קירקוול;Kirkwall
+ja;カークウォール;Kirkwall
+ko;커크월;Kirkwall
+os;Керкуолл;Kirkwall
+uk;Керкволл;Kirkwall
+ru;Керкуолл;Kirkwall
+zh;柯克沃尔;Kirkwall
+az;Kirkvol;Kirkwall
+sr;Кирквол;Kirkwall
+ja;カークストール;Kirkstall
+fa;کرکستال;Kirkstall
+uk;Керкінтіллох;Kirkintilloch
+ru;Керкинтиллох;Kirkintilloch
+az;Kirkintillox;Kirkintilloch
+fa;کرکینتیلف;Kirkintilloch
+nn;Kirkham i Lancashire;Kirkham
+fa;کیرکهام، لانکاشر;Kirkham
+uk;Керкубрі;Kirkcudbright
+ru;Керкубри;Kirkcudbright
+uk;Керколді;Kirkcaldy
+lt;Kerkoldis;Kirkcaldy
+bg;Кърколди;Kirkcaldy
+ru;Керколди;Kirkcaldy
+ce;Керколди;Kirkcaldy
+el;Κιρκάλντυ;Kirkcaldy
+fa;کرکودی;Kirkcaldy
+ko;커콜디;Kirkcaldy
+os;Керколди;Kirkcaldy
+zh;柯科迪;Kirkcaldy
+fa;کیربی استیون;Kirkby Stephen
+fa;کیربیمورساید;Kirkbymoorside
+fa;کیربی لانسدیل;Kirkby Lonsdale
+ru;Керби;Kirkby
+ja;カークビーン;Kirkbean
+zh;金尤西;Kingussie
+nn;Kington i Herefordshire;Kington
+fa;کینگتون، هرفوردشر;Kington
+ru;Кингсвуд;Kingswood
+sr;Кингсвуд;Kingswood
+ja;キングスウィンフォード;Kingswinford
+he;האל;Kingston upon Hull
+sv;Hull;Kingston upon Hull
+zh-TW;赫爾河畔京士頓;Kingston upon Hull
+ru;Кингстон-апон-Халл;Kingston upon Hull
+ru;Кинсторп;Kingsthorpe
+he;קינגסתרופ;Kingsthorpe
+zh-Hant;金斯諾頓;Kings Norton
+ja;キングズ・ノートン;Kings Norton
+zh;金斯诺顿;Kings Norton
+ru;Кингслинн;King's Lynn
+bg;Кингс Лин;King's Lynn
+lt;Kings Linas;King's Lynn
+he;קינגס לאנגלי;Kings Langley
+fa;کینگزبری;Kingsbury
+ru;Кингсбридж;Kingsbridge
+fa;کینگزبریج;Kingsbridge
+fa;کیمبرلی، ناتینگهام‌شر;Kimberley
+nn;Kimberley i Nottinghamshire;Kimberley
+uk;Кілвіннінг;Kilwinning
+ru;Килуиннинг;Kilwinning
+fa;کیلوینینگ;Kilwinning
+zh;基爾溫寧;Kilwinning
+lt;Kilsitas;Kilsyth
+ru;Килмарнок;Kilmarnock
+lt;Kilmarnokas;Kilmarnock
+ja;キルマーノック;Kilmarnock
+az;Kilmarnok;Kilmarnock
+fa;کیلمارناک;Kilmarnock
+ko;킬마녹;Kilmarnock
+uk;Кілмарнок;Kilmarnock
+zh;基爾馬諾克;Kilmarnock
+be;Кілбірні;Kilbirnie
+ru;Килбирни;Kilbirnie
+bg;Кидуели;Kidwelly
+zh;基德韋利;Kidwelly
+ru;Кидуели;Kidwelly
+bg;Кидсгроув;Kidsgrove
+fa;کیدسگرو;Kidsgrove
+ru;Кидсгроув;Kidsgrove
+lt;Kiderminsteris;Kidderminster
+fa;کیدرمینستر;Kidderminster
+sr;Кидерминстер;Kidderminster
+zh;基德明斯特;Kidderminster
+ru;Кидерминстер;Kidderminster
+fa;کینشام;Keynsham
+hi;क्यू;Kew
+ja;キュー;Kew
+ko;큐;Kew
+ru;Кеттеринг;Kettering
+bg;Кетъринг;Kettering
+sr;Кетеринг;Kettering
+fa;کترینگ;Kettering
+ko;케터링;Kettering
+zh;凱特靈;Kettering
+ja;ケタリング;Kettering
+ru;Кесвик;Keswick
+nn;Keswick i Cumbria;Keswick
+zh;凯西克;Keswick
+ja;ケズィック;Keswick
+fa;کزیک، کامبریا;Keswick
+hi;केंटन;Kenton
+ur;کینٹون;Kenton
+az;Kensinqton;Kensington
+fa;کنزینگتون;Kensington
+ko;켄징턴;Kensington
+hi;केंसिंग्टन;Kensington
+bg;Кенсингтън;Kensington
+ja;ケンジントン;Kensington
+he;קנזינגטון;Kensington
+be;Кенсінгтон;Kensington
+ru;Кенсингтон;Kensington
+zh;肯辛顿;Kensington
+yue;肯星頓;Kensington
+bg;Кенилуърт;Kenilworth
+fa;کنیل‌وورث;Kenilworth
+ru;Кенилуърт;Kenilworth
+ru;Кендал;Kendal
+bg;Кендал;Kendal
+ja;ケンダル;Kendal
+fa;کندال;Kendal
+ko;켄들;Kendal
+zh;肯德爾;Kendal
+fa;کمپستون;Kempston
+uk;Келсо;Kelso
+hy;Քելսո;Kelso
+ru;Келсо;Kelso
+zh;凯尔索;Kelso
+ru;Кейли;Keighley
+sr;Китли;Keighley
+fa;کیلی;Keighley
+ru;Китли;Keighley
+zh;基斯利;Keighley
+fa;جانستون;Johnstone
+uk;Джонстон;Johnstone
+ru;Джонстон;Johnstone
+ja;ジェドバラ;Jedburgh
+ru;Джедборо;Jedburgh
+zh;杰德堡;Jedburgh
+ru;Джарроу;Jarrow
+fa;جارو، تاین و ور;Jarrow
+zh;雅羅;Jarrow
+fa;آیوی‌بریج;Ivybridge
+ar;اور;Iver
+fa;آیور;Iver
+ja;イズリントン;Islington
+ur;ازلنگٹن، لندن;Islington
+he;איזלינגטון;Islington
+ka;იზლინგტონი;Islington
+ru;Ислингтон;Islington
+ko;이즐링턴;Islington
+az;İslinqton;Islington
+be;Ізлінгтан;Islington
+fa;ایزلینتن;Islington
+zh;伊斯靈頓;Islington
+ar;ايزلورث;Isleworth
+hi;आइज़लवर्थ;Isleworth
+ja;アイズルワース;Isleworth
+nn;Irvine i Ayrshire;Irvine
+uk;Ірвін;Irvine
+bg;Ървин;Irvine
+ru;Эрвин;Irvine
+ja;アーバイン;Irvine
+az;Örvin;Irvine
+fa;اروین;Irvine
+zh;歐文;Irvine
+fa;ایرتلینگ‌بورو;Irthlingborough
+ru;Ирлэм;Irlam
+bg;Ирлам;Irlam
+lt;Irlamas;Irlam
+bn;ইর্লাম;Irlam
+zh-Hans;埃尔兰姆;Irlam
+zh-Hant;埃爾蘭姆;Irlam
+ur;یرلام;Irlam
+kn;ಇರ್ಲಂ;Irlam
+ko;이램;Irlam
+ta;இரலம்;Irlam
+gu;ઈર્લામ;Irlam
+te;ఐర్లం;Irlam
+ja;イーラム;Irlam
+fa;ایرلام;Irlam
+he;אירלם;Irlam
+ar;إبسوتش;Ipswich
+bg;Ипсуич;Ipswich
+ka;იფსუიჩი;Ipswich
+ja;イプスウィッチ;Ipswich
+fa;ایپسوییچ;Ipswich
+th;อิปสวิช;Ipswich
+ta;இப்ஸ்விச்;Ipswich
+sr;Ипсвич;Ipswich
+lt;Ipsvičas;Ipswich
+ko;입스위치;Ipswich
+he;איפסוויץ;Ipswich
+ru;Ипсуич;Ipswich
+zh;伊普斯威奇;Ipswich
+hy;Իպսուիչ;Ipswich
+uk;Іпсвіч;Ipswich
+uk;Інверурі;Inverurie
+bg;Инвърури;Inverurie
+ru;Инверури;Inverurie
+lt;Inveruris;Inverurie
+zh;因弗鲁里;Inverurie
+bg;Инвърнес;Inverness
+ja;インヴァネス;Inverness
+ru;Инвернесс;Inverness
+zh-TW;印威內斯;Inverness
+fa;اینورنس;Inverness
+ar;إنفرنيس;Inverness
+el;Ινβερνές;Inverness
+he;אינוורנס;Inverness
+hy;Ինվերնես;Inverness
+ko;인버네스;Inverness
+lt;Invernesas;Inverness
+os;Инвернесс;Inverness
+th;อินเวอร์เนสส์;Inverness
+uk;Інвернесс;Inverness
+zh;印威內斯;Inverness
+kk;Инвернесс;Inverness
+sr;Инвернес;Inverness
+ur;اینورنس;Inverness
+ru;Инверкитинг;Inverkeithing
+ru;Инвергордон;Invergordon
+zh;因弗戈登;Invergordon
+bg;Инвергарй;Invergarry
+he;אינוורארי;Inveraray
+ja;インヴァラン;Inveran
+ja;インヴァー;Inver
+fa;ایمینگهام;Immingham
+zh;伊明漢姆;Immingham
+fa;ایلمینستر;Ilminster
+fa;ایلکی;Ilkley
+fa;ایلکستون;Ilkeston
+fa;ایلفراکم;Ilfracombe
+hi;इलफ़र्ड;Ilford
+ru;Илфорд;Ilford
+ko;일퍼드;Ilford
+fa;ایلفورد;Ilford
+ja;イルフォード;Ilford
+zh;伊爾福德;Ilford
+zh;伊爾切斯特;Ilchester
+zh-Hant;艾德爾;Idle
+ko;이들;Idle
+zh;艾德尔;Idle
+ar;ايكلتون;Ickleton
+hi;इकनहम;Ickenham
+ru;Хайт;Hythe
+nn;Hythe i Kent;Hythe
+ru;Хит;Hythe
+fa;هایت، کنت;Hythe
+ka;ჰითი;Hythe
+ru;Хейтон;Huyton
+zh-Hant;胡頓;Hutton
+zh;胡顿;Hutton
+bg;Хънтли;Huntly
+zh;亨特利;Huntly
+ru;Хънтли;Huntly
+bg;Хънтингдън;Huntingdon
+uk;Гантінгдон;Huntingdon
+ko;헌팅던;Huntingdon
+ru;The Huntingdon;Huntingdon
+fa;هانتینگدون;Huntingdon
+ja;ハンティンドン;Huntingdon
+ur;ہنٹنگڈن;Huntingdon
+zh;亨廷登;Huntingdon
+fa;هانستانتون;Hunstanton
+lt;Hanstantonas;Hunstanton
+fa;هانگرفورد;Hungerford
+be;Хютаўн;Hugh Town
+hy;Հյուջ Թաուն;Hugh Town
+mk;Хју Таун;Hugh Town
+os;Хьютаун;Hugh Town
+zh;休镇;Hugh Town
+ru;Хаддерсфилд;Huddersfield
+bg;Хъдърсфийлд;Huddersfield
+fa;هادرزفیلد;Huddersfield
+ar;هدرسفيلد;Huddersfield
+az;Haddersfild;Huddersfield
+uk;Гаддерсфілд;Huddersfield
+sr;Хадерсфилд;Huddersfield
+lt;Hadersfildas;Huddersfield
+be;Хадэрсфілд;Huddersfield
+ko;허더즈필드;Huddersfield
+ja;ハダースフィールド;Huddersfield
+zh;哈德斯菲爾德;Huddersfield
+ta;அட்டர்சுபீல்டு;Huddersfield
+hy;Հադերսֆիլդ;Huddersfield
+ka;ჰადერზფილდი;Huddersfield
+el;Χάντερσφιλντ;Huddersfield
+bg;Хъкнал;Hucknall
+ru;Хъкнал;Hucknall
+fa;هودن;Howden
+ru;Хов;Hove
+fa;هوو، انگلستان;Hove
+sr;Хоув;Hove
+nn;Hove i England;Hove
+ja;ホヴ;Hove
+ar;هونسلو;Hounslow
+hu;Hounslow kerület;Hounslow
+hi;हाउंस्लो;Hounslow
+ja;ハウンズロー;Hounslow
+ur;ہانزلو;Hounslow
+zh;豪恩斯洛;Hounslow
+fa;هوتون رجیس;Houghton Regis
+fa;هورویچ;Horwich
+ru;Хоршэм;Horsham
+bg;Хоршъм;Horsham
+sr;Хоршам;Horsham
+fa;هورشم;Horsham
+zh;霍斯福斯;Horsforth
+fa;هورسفورث;Horsforth
+fa;هورنسی، لندن بزرگ;Hornsey
+fa;هورنسی، ریدینگ شرقی یورکشر;Hornsea
+he;הורנינגלו;Horninglow
+fa;هورنکستل، لینکلن‌شر;Horncastle
+fa;هورلی;Horley
+fa;هونیتون;Honiton
+bg;Хоулиуд;Holywood
+he;הוליווד;Holywood
+ru;Холивуд;Holywood
+zh;霍利伍德;Holywood
+bg;Хоулиуел;Holywell
+lt;Holivelis;Holywell
+lt;Holihedas;Holyhead
+ja;ホリーヘッド;Holyhead
+ko;홀리헤드;Holyhead
+bg;Хоулихед;Holyhead
+uk;Голігед;Holyhead
+os;Холихед;Holyhead
+ru;Холихед;Holyhead
+he;הוליהד;Holyhead
+zh;霍利希德;Holyhead
+fa;هولت، نورفک;Holt
+nn;Holsworthy i Devon;Holsworthy
+fa;هولسوورتی، دوون;Holsworthy
+ar;هولمز تشابل;Holmes Chapel
+bg;Холмс Чапъл;Holmes Chapel
+sr;Holms Čapel;Holmes Chapel
+ru;Холмс Чапъл;Holmes Chapel
+ja;ホーム・ピアポント;Holme Pierrepont
+ru;Холлинвуд;Hollinwood
+ja;ホリンウッド;Hollinwood
+zh;霍林伍德;Hollinwood
+ja;ホリントン;Hollington
+hi;हॉलबोर्न;Holborn
+he;הוברן;Holborn
+bg;Холбърн;Holborn
+ru;Холборн;Holborn
+be;Холбарн;Holborn
+ur;ہوبورن;Holborn
+hy;Հոլբորն;Holborn
+ja;ホルボーン;Holborn
+zh;霍本;Holborn
+fa;هولبیچ;Holbeach
+lt;Holbičas;Holbeach
+ru;Ходдсдон;Hoddesdon
+fa;هودسدون;Hoddesdon
+fa;هیتچین;Hitchin
+ko;히친;Hitchin
+zh;希欽;Hitchin
+fa;هینگهام، نورفک;Hingham
+ru;Хинкли;Hinckley
+ko;힝클리;Hinckley
+bg;Хинкли;Hinckley
+fa;هینکلی;Hinckley
+bg;Хай Уикъмб;High Wycombe
+sr;Хај Виком;High Wycombe
+fa;های وایکام;High Wycombe
+ko;하이위컴;High Wycombe
+ru;Хай-Уиком;High Wycombe
+zh;海威科姆;High Wycombe
+ja;ハイ・ウィカム;High Wycombe
+th;ไฮวิคัมบ์;High Wycombe
+tt;Һай-Виком;High Wycombe
+hy;Հայ Ուիքոմ;High Wycombe
+ur;ہائی ویکام;High Wycombe
+mk;Хај Викам;High Wycombe
+el;Χάι Ουίκαμ;High Wycombe
+be;Хай-Уікам;High Wycombe
+yue;海韋甘比;High Wycombe
+ka;ჰაი-უიკომი;High Wycombe
+he;היי וייקומב;High Wycombe
+fa;هایوورث;Highworth
+ar;هايغيت;Highgate
+ur;ہائیگیٹ، لندن;Highgate
+ru;Хайгейт;Highgate
+be;Вёска Хайгейт;Highgate
+ja;ハイゲート;Highgate
+bn;হাইবারি;Highbury
+fa;هایبری;Highbury
+hi;हाइबरी;Highbury
+th;ไฮบรี;Highbury
+ur;ہائبری، ازلنگٹن;Highbury
+ja;ハイベリー;Highbury
+nn;Highbridge i Somerset;Highbridge
+fa;هیگهام فررز;Higham Ferrers
+ru;Хексем;Hexham
+fa;هکسهام;Hexham
+fa;هسل;Hessle
+ru;Хертфорд;Hertford
+ko;하트퍼드;Hertford
+ja;ハートフォード;Hertford
+ka;ჰერტფორდი;Hertford
+fa;هرتفورد;Hertford
+ur;ہارٹفورڈ;Hertford
+zh;哈特福;Hertford
+nn;Herne Bay i Kent;Herne Bay
+ru;Херефорде;Hereford
+he;הרפורד;Hereford
+uk;Герефорд;Hereford
+ja;ヘレフォード;Hereford
+ko;헤리퍼드;Hereford
+th;เฮริฟอร์ด;Hereford
+lt;Herefordas;Hereford
+sr;Херефорд;Hereford
+ru;Херефорд;Hereford
+zh;赫里福德;Hereford
+fa;هرفورد، انگلستان;Hereford
+mzn;هرفورد;Hereford
+bg;Херефорд;Hereford
+hy;Հերերֆորդ;Hereford
+yue;禧福;Hereford
+hi;हेंडन;Hendon
+ur;ہینڈن، لندن;Hendon
+ko;헨던;Hendon
+zh;亨頓;Hendon
+fa;هندون;Hendon
+ru;Хендон;Hendon
+ko;헤멀헴프스터드;Hemel Hempstead
+sr;Хемел Хемпстед;Hemel Hempstead
+fa;همل همپستد;Hemel Hempstead
+ja;ヘメル・ヘムステッド;Hemel Hempstead
+zh;赫默爾亨普斯特德;Hemel Hempstead
+tt;Һемел-Һемпстед;Hemel Hempstead
+ru;Хемел-Хемпстед;Hemel Hempstead
+hy;Հեմել Հեմփսթեդ;Hemel Hempstead
+zh-Hans;赫默尔亨普斯特德;Hemel Hempstead
+uk;Гемел-Гемпстед;Hemel Hempstead
+ur;ہیمل ہیمپسٹڈ;Hemel Hempstead
+el;Χίμελ Χέμπστεντ;Hemel Hempstead
+ar;هيميل هيمبستيد;Hemel Hempstead
+he;המל המפסטיד;Hemel Hempstead
+fa;هلستون;Helston
+ar;هلسبي;Helsby
+fa;هلمسلی;Helmsley
+bg;Хелмсдале;Helmsdale
+zh;赫尔姆斯代尔;Helmsdale
+zh-Hant;赫爾姆斯代爾;Helmsdale
+ja;ヘルムズデール;Helmsdale
+bg;Хелънсбърг;Helensburgh
+uk;Геленсбург;Helensburgh
+be;Хеленсбург;Helensburgh
+ru;Хеленсборо;Helensburgh
+ja;ヘレンズバラ;Helensburgh
+lt;Helensburgas;Helensburgh
+zh;海倫斯堡;Helensburgh
+fa;هدون;Hedon
+lt;Hensfordas;Hednesford
+fa;هدنسفورد;Hednesford
+uk;Геббурн;Hebburn
+ru;Геббурн;Hebburn
+nn;Heathfield i East Sussex;Heathfield
+fa;هیتفیلد، ساسکس شرقی;Heathfield
+fa;هینور و لوسکو;Heanor
+hy;Հինոր;Heanor
+zh;黑丁頓;Headington
+bg;Хейуърдс Хийт;Haywards Heath
+fa;هایواردز هیث;Haywards Heath
+ja;ヘイ・ミルズ;Hay Mills
+bg;Хейл;Hayle
+fa;هایل;Hayle
+ur;ہیز، بروملی;Hayes
+ru;Хоэрт;Haworth
+ja;ハワース;Haworth
+ja;ホークヘッド;Hawkhead
+uk;Хоїк;Hawick
+ru;Хоик;Hawick
+zh;霍伊克;Hawick
+ru;Хаварден;Hawarden
+bg;Хавърфордуест;Haverfordwest
+lt;Haverfordvestas;Haverfordwest
+uk;Гейверфордвест;Haverfordwest
+ru;Хаверфордуэст;Haverfordwest
+zh;哈弗福韦斯特;Haverfordwest
+ru;Хавант;Havant
+fa;هاوانت;Havant
+zh;哈文特;Havant
+nn;Hatfield i Hertfordshire;Hatfield
+zh;哈特菲尔德;Hatfield
+fa;هاتفیلد، هرتفوردشر;Hatfield
+ru;Хатфилд;Hatfield
+lt;Hetfildas;Hatfield
+hy;Հաթֆիլդ;Hatfield
+zh-Hant;哈特菲爾德;Hatfield
+ur;ہاتفیلڈ;Hatfield
+el;Χάτφιλντ;Hatfield
+ar;هاتفيلد;Hatfield
+ja;ハットフィールド;Hatfield
+be;Хатфілд;Hatfield
+bn;হ্যাটফিল্ড;Hatfield
+kn;ಹ್ಯಾಟ್ಫೀಲ್ಡ್;Hatfield
+ko;하트필드;Hatfield
+zh-HK;克菲路;Hatfield
+ta;ஹட்பீல்ட்;Hatfield
+gu;હોટફીલ્ડ;Hatfield
+te;హాట్ఫిల్డ్;Hatfield
+he;הטפילד;Hatfield
+ar;هيستنغس;Hastings
+bg;Хейстингс;Hastings
+ru;Гастингс;Hastings
+sr;Хејстингс;Hastings
+ja;ヘイスティングス;Hastings
+ko;헤이스팅스;Hastings
+lt;Heistingsas;Hastings
+uk;Гастінгс;Hastings
+fa;هیستینگز;Hastings
+hy;Հասթինգս;Hastings
+zh;海斯廷斯;Hastings
+fa;هاسلینگدن;Haslingden
+fa;هاسلمر;Haslemere
+ru;Харвич;Harwich
+ru;Харидж;Harwich
+fa;هارویچ;Harwich
+ru;Харвел;Harwell
+ru;Хартлпул;Hartlepool
+fa;هارتل‌پول;Hartlepool
+sr;Хартлпул;Hartlepool
+th;ฮาร์ตลีพูล;Hartlepool
+lt;Hartlepulas;Hartlepool
+zh;哈特爾浦;Hartlepool
+ja;ハートルプール;Hartlepool
+cs;Harrow;Harrow on the Hill
+hu;Harrow kerület;Harrow on the Hill
+no;Harrow;Harrow on the Hill
+ro;Harrow;Harrow on the Hill
+nn;Harrow i London;Harrow
+fa;هارو، لندن;Harrow
+ja;ハーロウ;Harrow
+zh;哈羅;Harrow
+ru;Харроу;Harrow
+ru;Харрогейт;Harrogate
+fa;هروگیت;Harrogate
+ar;هاروغيت;Harrogate
+ja;ハロゲイト;Harrogate
+ka;ჰეროგეიტი;Harrogate
+zh;哈罗盖特;Harrogate
+fa;هارپندن;Harpenden
+zh;哈彭登;Harpenden
+el;Χάρλοου Χιλ;Harlow Hill
+ru;Харлоу;Harlow
+ko;할로;Harlow
+ja;ハーロウ;Harlow
+bg;Харлоу;Harlow
+fa;هارلو;Harlow
+be;Харлаў;Harlow
+ar;هارلو;Harlow
+ur;ہارلو;Harlow
+tt;Һарлоу;Harlow
+lt;Harlou;Harlow
+hy;Հարլոու;Harlow
+uk;Гарлов;Harlow
+mk;Харлоу;Harlow
+zh;哈洛;Harlow
+mdf;Гарлов;Harlow
+az;Harlov;Harlow
+yue;哈勞;Harlow
+bn;হারলো;Harlow
+kn;ಹಾರ್ಲೋ;Harlow
+ta;ஹார்லோவ்;Harlow
+gu;હાર્લો;Harlow
+te;హర్లౌ;Harlow
+he;הרלאו;Harlow
+hi;हार्ल्सडन;Harlesden
+ur;ہارلزڈین;Harlesden
+bg;Харлех;Harlech
+ja;ハーレック;Harlech
+he;הרלך;Harlech
+ko;할렉;Harlech
+zh;哈勒赫;Harlech
+fa;هارلک;Harlech
+ru;Харлех;Harlech
+hi;हेरफ़ील्ड;Harefield
+ja;ハーボーン;Harborne
+ja;ヘイズブラ;Happisburgh
+ko;헤이즈버러;Happisburgh
+zh;黑斯堡;Happisburgh
+hi;हैनवर्थ;Hanworth
+ur;ہینویل، لندن;Hanwell
+hi;हैनवेल;Hanwell
+ja;ハムワーシー;Hamworthy
+he;המפסטד;Hampstead
+ko;햄프스티드;Hampstead
+be;Хампстэд;Hampstead
+ur;ہیمپسٹیڈ;Hampstead
+az;Hampsted;Hampstead
+ru;Хампстед;Hampstead
+fa;همپستید;Hampstead
+ja;ハムステッド;Hampstead
+zh;汉普斯特得;Hampstead
+hi;हैमरस्मिथ;Hammersmith
+ko;해머스미스;Hammersmith
+ru;Хаммерсмит;Hammersmith
+zh;哈默史密斯;Hammersmith
+ar;هامرسميث;Hammersmith
+fa;همرسمیت;Hammersmith
+ja;ハマースミス;Hammersmith
+ru;Гамильтон;Hamilton
+lt;Hamiltonas;Hamilton
+bg;Хамилтън;Hamilton
+nn;Hamilton i Skottland;Hamilton
+uk;Гамільтон;Hamilton
+ja;ハミルトン;Hamilton
+az;Həmilton;Hamilton
+fa;همیلتون;Hamilton
+ur;ہیملٹن، جنوبی لینکاشائر;Hamilton
+zh;漢密爾頓;Hamilton
+fa;هالتویستل;Haltwhistle
+fa;هالستید، اسکس;Halstead
+ru;Галифакс;Halifax
+nn;Halifax i England;Halifax
+sr;Халифакс;Halifax
+bg;Халифакс;Halifax
+fa;هلیفکس;Halifax
+ja;ハリファクス;Halifax
+ko;핼리팩스;Halifax
+zh;哈利法克斯;Halifax
+fa;هالسوورث;Halesworth
+ru;Хейлсовен;Halesowen
+sr;Хејлсовен;Halesowen
+fa;هیلزاوون;Halesowen
+lt;Heilsovenas;Halesowen
+fa;هایلشام;Hailsham
+zh;哈格利;Hagley
+fa;هادلی، سافک;Hadleigh
+az;Haddinqton;Haddington
+uk;Гаддінгтон;Haddington
+zh;哈丁敦;Haddington
+ar;ريدوغ;Gwredog
+ar;غونب;Gwennap
+ru;Гайзли;Guiseley
+fa;گویسبورو;Guisborough
+ar;غلدفورد;Guildford
+ru;Гилфорд;Guildford
+sr;Гилфорд;Guildford
+ko;길퍼드;Guildford
+lt;Gildfordas;Guildford
+uk;Гілфорд;Guildford
+fa;گیلدفورد;Guildford
+zh;吉爾福德;Guildford
+ja;ギルフォード;Guildford
+ur;گیلڈفورڈ;Guildford
+ja;グリムスソープ;Grimsthorpe
+fa;گریمسبای;Grimsby
+ko;그림즈비;Grimsby
+sr;Гримсби;Grimsby
+bg;Гримзби;Grimsby
+lt;Grimsbis;Grimsby
+ja;グリムズビー;Grimsby
+zh;格里姆斯比;Grimsby
+ar;جريفثستاون;Griffithstown
+zh-Hant;格里菲斯鎮;Griffithstown
+zh;格里菲斯镇;Griffithstown
+bg;Гретна Грийн;Gretna Green
+fa;گرتنا گرین;Gretna Green
+ja;グレトナ・グリーン;Gretna Green
+ru;Гретна-Грин;Gretna Green
+ar;جرينوسايد;Grenoside
+bg;Грийнок;Greenock
+ru;Гринок;Greenock
+lt;Grinokas;Greenock
+uk;Грінок;Greenock
+ko;그리녹;Greenock
+zh;格里诺克;Greenock
+ja;グリーノック;Greenock
+ka;გრინოკი;Greenock
+az;Qrinok;Greenock
+ce;Гринок;Greenock
+fa;گرینوک;Greenock
+ru;Гринло;Greenlaw
+zh;格林劳;Greenlaw
+bg;Грийнайланд;Greenisland
+ru;Грийнайланд;Greenisland
+hi;ग्रीनफ़र्ड;Greenford
+ur;گرینفورڈ;Greenford
+fa;گرینفورد;Greenford
+be;Грэйт-Ярмут;Great Yarmouth
+fa;گریت یارموث;Great Yarmouth
+ja;グレート・ヤーマス;Great Yarmouth
+ko;그레이트야머스;Great Yarmouth
+sr;Грејт Јармут;Great Yarmouth
+ru;Грейт-Ярмут;Great Yarmouth
+fa;گریت تورینگتون;Great Torrington
+ar;غريت ميسندن;Great Missenden
+el;Γκρέιτ Χάργουντ;Great Harwood
+fa;گریت دانمو;Great Dunmow
+fa;دریفیلد;Driffield
+ru;Грэйт-Берстед;Great Burstead
+kn;ಗ್ರೇಟ್ ಬರ್ಸ್ಟ್ಡ್;Great Burstead
+ko;그레이트 버스테드;Great Burstead
+lt;Didysis Burstedas;Great Burstead
+bn;গ্রেট বারস্টিড;Great Burstead
+ta;கிரேட்  பர்ஸ்டீட்;Great Burstead
+gu;ગ્રેટ બર્સટેડ;Great Burstead
+zh-Hans;大博斯达;Great Burstead
+te;గ్రేట్ బస్ట్స్టెడ్;Great Burstead
+zh-Hant;大博斯達;Great Burstead
+ja;グレート・バーステッド;Great Burstead
+ur;گریٹ برستیاد;Great Burstead
+uk;Грейт-Барр;Great Barr
+ja;グレート・バー;Great Barr
+ur;گریٹ بار;Great Barr
+fa;گریز، انگلستان;Grays
+ko;그레이스;Grays
+sr;Грејз;Grays
+zh;格雷斯;Grays
+ko;그레이브젠드;Gravesend
+sr;Грејвсенд;Gravesend
+ru;Грейвзенд;Gravesend
+zh;格雷夫森德;Gravesend
+fa;گریوزند;Gravesend
+ru;Гранты;Grantham
+bg;Грантъм;Grantham
+sr;Grantam;Grantham
+ru;Грантем;Grantham
+zh;格兰瑟姆;Grantham
+ja;グランサム;Grantham
+fa;گرانتهام;Grantham
+zh;加文;Govan
+az;Qaven;Govan
+ru;Гован;Govan
+hy;Գովան;Govan
+uk;Говань;Govan
+el;Γκόβαν;Govan
+ar;غوفان;Govan
+ja;ガバン;Govan
+fa;گوان;Govan
+he;גובן;Govan
+uk;Гурок;Gourock
+ru;Гурок;Gourock
+fa;گاسپورت;Gosport
+sr;Госпорт;Gosport
+ru;Госпорт;Gosport
+zh;戈斯波特;Gosport
+nn;Gosforth i Newcastle;Gosforth
+ja;ゴスフォース;Gosforth
+ur;گوسفورتھ;Gosforth
+bg;Горсейнон;Gorseinon
+ru;Горсейнон;Gorseinon
+ar;جوول;Goole
+ru;Гул;Goole
+fa;گول، ریدینگ شرقی یورکشر;Goole
+fa;گودمنچستر;Godmanchester
+ru;Годалминге;Godalming
+lt;Godlmingas;Godalming
+ko;고덜밍;Godalming
+ka;გოდელმინგი;Godalming
+kk;Годалминг;Godalming
+ru;Годалминг;Godalming
+fa;گودالمینگ;Godalming
+ar;غلوستر;Gloucester
+zh;格洛斯特;Gloucester
+ru;Глостер;Gloucester
+ja;グロスター;Gloucester
+sr;Глостер;Gloucester
+lt;Glosteris;Gloucester
+bg;Глостър;Gloucester
+ko;글로스터;Gloucester
+uk;Глостер;Gloucester
+mzn;گلاستر;Gloucester
+th;กลอสเตอร์;Gloucester
+fa;گلاستر;Gloucester
+ug;Glutséstér;Gloucester
+be;Глостэр;Gloucester
+he;גלוסטר;Gloucester
+hy;Գլոստեր;Gloucester
+ur;گلوسٹر;Gloucester
+yue;告羅士打;Gloucester
+bg;Глосъп;Glossop
+fa;گلوسوپ;Glossop
+ru;Глосъп;Glossop
+ko;글렌로시스;Glenrothes
+uk;Гленротс;Glenrothes
+ru;Гленротес;Glenrothes
+lt;Glenrotesas;Glenrothes
+az;Qlenrots;Glenrothes
+fa;گلنراتیس;Glenrothes
+zh;格倫羅西斯;Glenrothes
+kk;Гленфиннан;Glenfinnan
+ru;Гленфиннан;Glenfinnan
+zh;格蘭芬南;Glenfinnan
+ja;グレンフィナン;Glenfinnan
+fa;گلنفینان;Glenfinnan
+nn;Glenfield i England;Glenfield
+zh-Hant;格倫博羅代爾;Glenborrodale
+zh;格伦博罗代尔;Glenborrodale
+he;גלסטונברי;Glastonbury
+ko;글래스턴베리;Glastonbury
+el;Γκλάστονμπερι;Glastonbury
+sr;Гластонбери;Glastonbury
+uk;Гластонбері;Glastonbury
+ru;Гластонбери;Glastonbury
+zh;格拉斯頓伯里;Glastonbury
+fa;گلاستونبوری;Glastonbury
+ja;グラストンベリー;Glastonbury
+bg;Глазгоу;Glasgow
+el;Γλασκώβη;Glasgow
+he;גלאזגו;Glasgow
+ja;グラスゴー;Glasgow
+lt;Glazgas;Glasgow
+lv;Glāzgova;Glasgow
+ru;Глазго;Glasgow
+zh;格拉斯哥;Glasgow
+th;กลาสโกว์;Glasgow
+fa;گلاسگو;Glasgow
+ug;گلاسگوۋ;Glasgow
+ko;글래스고;Glasgow
+hi;ग्लासगो;Glasgow
+ka;გლაზგო;Glasgow
+sr;Глазгов;Glasgow
+mk;Глазгов;Glasgow
+my;ဂလပ်စဂိုးမြို့;Glasgow
+kn;ಗ್ಲ್ಯಾಸ್ಗೋ;Glasgow
+ta;கிளாஸ்கோ;Glasgow
+ar;غلاسكو;Glasgow
+mr;ग्लासगो;Glasgow
+os;Глазго;Glasgow
+be;Глазга;Glasgow
+tet;Glázgua;Glasgow
+uk;Глазго;Glasgow
+hy;Գլազգո;Glasgow
+te;గ్లాస్గో;Glasgow
+az;Qlazqo;Glasgow
+kv;Глазго;Glasgow
+ce;Глазго;Glasgow
+sgs;Glazgos;Glasgow
+ckb;گلاسگۆ;Glasgow
+tt;Glazgo;Glasgow
+ur;گلاسگو;Glasgow
+am;ግላዝጎ;Glasgow
+bn;গ্লাসগো;Glasgow
+hak;Kak-là-sṳ̂-kô;Glasgow
+kk;Глазго;Glasgow
+ky;Глазго;Glasgow
+pa;ਗਲਾਸਗੋ;Glasgow
+uz;Glazgo;Glasgow
+vep;Glazgo;Glasgow
+yue;格拉斯哥;Glasgow
+ru;Герван;Girvan
+zh;格文;Girvan
+ru;Гилмертон;Gilmerton
+pa;ਗਿੱਲਜ;Gills
+he;גילינגהאם;Gillingham
+ru;Джиллингем;Gillingham
+lt;Džilingamas;Gillingham
+sr;Џилингам;Gillingham
+fa;جیلینگهام، کنت;Gillingham
+ja;ジリンガム;Gillingham
+fa;جیلینگهام، سامرست;Gillingham
+nn;Gillingham i Dorset;Gillingham
+ru;Гиллингем;Gillingham
+uk;Гіффнок;Giffnock
+ru;Гиффнок;Giffnock
+az;Qiffnok;Giffnock
+he;גייטסהד;Gateshead
+ru;Гейтсхед;Gateshead
+fa;گیتس‌هد;Gateshead
+ar;جيتشيد;Gateshead
+lt;Geitshedas;Gateshead
+sr;Гејтсхед;Gateshead
+ko;게이츠헤드;Gateshead
+zh;蓋茨黑德;Gateshead
+be;Гейтсхед;Gateshead
+ja;ゲーツヘッド;Gateshead
+ka;გეიტსჰედი;Gateshead
+zh;加特尼斯;Gartness
+fa;گارستنگ;Garstang
+el;Γκάρφορθ;Garforth
+ar;غملينغي;Gamlingay
+uk;Ґалстон;Galston
+ru;Голстон;Galston
+hy;Գալաշիլս;Galashiels
+uk;Галашилс;Galashiels
+ru;Галашилс;Galashiels
+zh;加拉希尔斯;Galashiels
+nn;Gainsborough i Lincolnshire;Gainsborough
+fa;گینزبورو، لینکلن‌شر;Gainsborough
+zh;根斯堡;Gainsborough
+az;Fulhem;Fulham
+fa;فولام;Fulham
+he;פולהאם;Fulham
+hi;फ़ुलहम;Fulham
+ja;フラム;Fulham
+ko;풀럼;Fulham
+sr;Фулам;Fulham
+uk;Фулем;Fulham
+yue;富林;Fulham
+ru;Фулем;Fulham
+zh;富勒姆;Fulham
+bg;Фрум;Frome
+ru;Фрум;Frome
+fa;فروم، سامرست;Frome
+zh;弗罗姆;Frome
+fa;فوردشام;Frodsham
+hi;फ़्रायर्न बार्नेट;Friern Barnet
+ur;فریرن بارنیٹ;Friern Barnet
+ru;Фремингтон;Fremington
+uk;Фрейзербург;Fraserburgh
+lt;Freizerburgas;Fraserburgh
+zh;弗雷泽堡;Fraserburgh
+ru;Фрейзербург;Fraserburgh
+fa;فراملینگهام;Framlingham
+fa;فوی، کورنوال;Fowey
+ja;フォー・オークス;Four Oaks
+he;פורט ויליאם;Fort William
+ru;Форт Вильям;Fort William
+ja;フォート・ウィリアム;Fort William
+nn;Fort William i Skottland;Fort William
+uk;Форт-Вільям;Fort William
+ru;Форт-Уильям;Fort William
+lt;Fort Viljamas;Fort William
+zh;威廉堡;Fort William
+ja;フォート・オーガスタス;Fort Augustus
+bg;Форфар;Forfar
+be;Форфар;Forfar
+uk;Форфар;Forfar
+ru;Форфар;Forfar
+lt;Forfaras;Forfar
+zh;弗福爾;Forfar
+fa;فوردینگ‌بریج;Fordingbridge
+ru;Фолкстон;Folkestone
+ar;فولكستون;Folkestone
+zh;福克斯通;Folkestone
+fa;فوکستون;Folkestone
+sr;Фокстон;Folkestone
+ja;フロディガリー;Flodigarry
+bg;Флинт;Flint
+lt;Flintas;Flint
+uk;Флінт;Flint
+zh;弗林特;Flint
+ru;Флинт;Flint
+he;פליטווד;Fleetwood
+fa;فلیتوود، لانکاشر;Fleetwood
+fa;فلیت، همپشر;Fleet
+nn;Fleet i Hampshire;Fleet
+bg;Фледбороугх;Fledborough
+bg;Фишгард;Fishguard
+ru;Фишгард;Fishguard
+he;פינסבורי;Finsbury
+ur;فنزبری;Finsbury
+ar;فينغست;Fingest
+zh;芬格斯特;Fingest
+ur;فنچلے، لندن;Finchley
+hi;फ़िंचली;Finchley
+he;פינצלי;Finchley
+fa;فینچلی;Finchley
+fa;فیلتون;Filton
+zh;費爾頓;Filton
+fa;فیلی، یورک‌شر شمالی;Filey
+hi;फ़ेल्ठम;Feltham
+ru;Филикстоу;Felixstowe
+zh;费利克斯托;Felixstowe
+fa;فلیکستو;Felixstowe
+fa;فیترستون;Featherstone
+uk;Фейвешем;Faversham
+fa;فاورشام;Faversham
+ru;Фейвешем;Faversham
+ar;فارنهام;Farnham
+fa;فارنهام;Farnham
+ru;Фарнборо;Farnborough
+nn;Farnborough i Hampshire;Farnborough
+sr;Фарнборо;Farnborough
+zh;法恩伯勒;Farnborough
+fa;فارن‌بورو، همپشر;Farnborough
+ar;فارنبرة;Farnborough
+he;פארנבורו;Farnborough
+fa;فارینگدون;Faringdon
+th;แฟร์อัม;Fareham
+fa;فارهام;Fareham
+zh;費勒姆;Fareham
+ru;Фалмут;Falmouth
+ja;ファルマス;Falmouth
+ko;팰머스;Falmouth
+bg;Фолмът;Falmouth
+zh;法尔茅斯;Falmouth
+fa;فالموث، کورنوال;Falmouth
+ru;Фалкирк;Falkirk
+lt;Folkerkas;Falkirk
+uk;Фолкерк;Falkirk
+bg;Фолкърк;Falkirk
+ru;Фолкерк;Falkirk
+az;Folkirk;Falkirk
+fa;فالکرک;Falkirk
+ja;フォルカーク;Falkirk
+ko;폴커크;Falkirk
+ur;فالکیرک;Falkirk
+zh;福爾柯克;Falkirk
+fa;فاکنهام;Fakenham
+fa;فایرفورد;Fairford
+hy;Այմութ;Eyemouth
+ru;Аймут;Eyemouth
+zh;艾茅斯;Eyemouth
+nn;Eye i Suffolk;Eye
+uk;Ай;Eye
+fa;ای، سافک;Eye
+ko;엑스머스;Exmouth
+ru;Эксмут;Exmouth
+fa;اکسموث;Exmouth
+uk;Ексмут;Exmouth
+ar;إكزتر;Exeter
+ja;エクセター;Exeter
+th;เอ็กซิเตอร์;Exeter
+ru;Эксетер;Exeter
+th;เอกเซเตอร์;Exeter
+zh;埃克塞特;Exeter
+uk;Ексетер;Exeter
+ko;엑서터;Exeter
+mzn;اکستر;Exeter
+lt;Ekseteris;Exeter
+os;Эксетер;Exeter
+fa;اکستر;Exeter
+bg;Ексетър;Exeter
+sr;Ексетер;Exeter
+he;אקסטר;Exeter
+hy;Էքսետեր;Exeter
+lv;Eksetera;Exeter
+ur;ایکسٹر;Exeter
+vep;Ekseter;Exeter
+yue;雅息特;Exeter
+bg;Ившам;Evesham
+fa;ایوشام;Evesham
+ru;Ившам;Evesham
+zh;艾威里克斯;Evelix
+ru;Эвантон;Evanton
+ru;Итон;Eton
+bg;Итън;Eton
+lt;Itonas;Eton
+nn;Eton i Berkshire;Eton
+zh;伊顿;Eton
+fa;اتون، برکشر;Eton
+ja;イートン;Eton
+uk;Ітон;Eton
+ru;Эшер;Esher
+ur;ایرتھ;Erith
+el;Έριθ;Erith
+fa;ایرت;Erith
+ja;エリボール;Eriboll
+fa;اردینگتون;Erdington
+fa;اپوورث، لینکلن‌شر;Epworth
+nn;Epworth i Lincolnshire;Epworth
+uk;Епворт;Epworth
+ru;Епворт;Epworth
+ru;Эпсом;Epsom
+ko;엡솜;Epsom
+ja;エプソム;Epsom
+zh;埃普索姆;Epsom
+lo;ເມືອງເອັບຊຳ;Epsom
+ko;에핑;Epping
+ru;Эппинг;Epping
+zh;埃潘;Epping
+yue;艾坪;Epping
+fa;اپینگ;Epping
+el;Ενισκίλεν;Enniskillen
+bg;Енискилън;Enniskillen
+ru;Эннискиллен;Enniskillen
+ja;エニスキレン;Enniskillen
+ko;에니스킬린;Enniskillen
+zh;恩尼斯基林;Enniskillen
+ru;Энфилд;Enfield Town
+fa;امسوورث;Emsworth
+zh;伊利;Ely
+ja;イーリー;Ely
+mzn;الی، کمریجشایر;Ely
+ko;일리;Ely
+bg;Или;Ely
+fa;الی، کمبریج‌شایر;Ely
+ru;Или;Ely
+uk;Ілі;Ely
+ar;إيلي;Ely
+hy;Իլի;Ely
+lt;Ilis;Ely
+ur;ایلی، کیمبرجشائر;Ely
+zh;埃爾瑟姆;Eltham
+ar;الستو;Elstow
+sr;Елсмир Порт;Ellesmere Port Town
+fa;الزمر پورت;Ellesmere Port Town
+zh;埃爾斯米爾港;Ellesmere Port Town
+ru;Елсмир Порт;Ellesmere Port Town
+fa;الزمیر، شروپ‌شر;Ellesmere
+fa;ایلند، یورکشر غربی;Elland
+bg;Елгин;Elgin
+ru;Элгин;Elgin
+ko;엘긴;Elgin
+uk;Елгін;Elgin
+ar;إلغين;Elgin
+ja;エルギン;Elgin
+az;Elqin;Elgin
+fa;الگین;Elgin
+zh;埃爾金;Elgin
+nn;Egremont i Cumbria;Egremont
+fa;اگرمونت، کامبریا;Egremont
+ru;Эгхем;Egham
+fa;ادمونتون، لندن;Edmonton
+bg;Единбург;Edinburgh
+fa;ادینبرو;Edinburgh
+he;אדינבורו;Edinburgh
+is;Edinborg;Edinburgh
+ja;エディンバラ;Edinburgh
+ko;에든버러;Edinburgh
+lt;Edinburgas;Edinburgh
+pl;Edynburg;Edinburgh
+ru;Эдинбург;Edinburgh
+sr;Единбург;Edinburgh
+th;เอดินบะระ;Edinburgh
+ug;Idinburg;Edinburgh
+af;Edinburg;Edinburgh
+el;Εδιμβούργο;Edinburgh
+lv;Edinburga;Edinburgh
+sl;Edinburg;Edinburgh
+bn;এডিনবরা;Edinburgh
+hi;एडिनबरा;Edinburgh
+az;Edinburq;Edinburgh
+ka;ედინბურგი;Edinburgh
+kn;ಎಡಿನ್‌ಬರ್ಗ್‌‌;Edinburgh
+cv;Эдинбург;Edinburgh
+hy;Էդինբուրգ;Edinburgh
+os;Эдинбург;Edinburgh
+uk;Единбург;Edinburgh
+ht;Edinbo;Edinburgh
+mn;Эдинбург;Edinburgh
+ar;إدنبرة;Edinburgh
+tt;Эдинбург;Edinburgh
+be;Эдынбург;Edinburgh
+ta;எடின்பரோ;Edinburgh
+mr;एडिनबरा;Edinburgh
+ml;എഡിൻബറോ;Edinburgh
+sq;Edinburg;Edinburgh
+mk;Единбург;Edinburgh
+ce;Эдинбург;Edinburgh
+my;အက်ဒင်ဗာရာမြို့;Edinburgh
+ur;ایڈنبرا;Edinburgh
+ckb;ئێدینبەرە;Edinburgh
+kk;Эдинбург;Edinburgh
+zh;爱丁堡;Edinburgh
+zh-TW;愛丁堡;Edinburgh
+ja;エッジウェア;Edgware
+hi;एजवेयर;Edgware
+ur;ایجویر، لنڈن;Edgware
+fa;ادجوار;Edgware
+zh;埃奇韋爾;Edgware
+fa;ادنبریج، کنت;Edenbridge
+ar;اكلستون;Eccleston
+fa;اکسهال;Eccleshall
+fa;اکلز، منچستر بزرگ;Eccles
+bg;Ебу Вейл;Ebbw Vale
+lt;Ebu Veilis;Ebbw Vale
+uk;Еббу-Вейл;Ebbw Vale
+nn;Eastwood i Nottinghamshire;Eastwood
+fa;ایستوود، ناتینگهام‌شر;Eastwood
+fa;رتفورد;Retford
+fa;ایست‌لی;Eastleigh
+sr;Истли;Eastleigh
+zh;伊斯特利;Eastleigh
+ru;Истли;Eastleigh
+ko;이스트킬브라이드;East Kilbride
+bg;Ист Килбрайд;East Kilbride
+uk;Іст-Кілбрайд;East Kilbride
+fa;ایست کیلبراید;East Kilbride
+sr;Ист Килбрајд;East Kilbride
+ja;イースト・キルブライド;East Kilbride
+lt;Ist Kilbraidas;East Kilbride
+az;İst Kilbrayd;East Kilbride
+zh;東基爾布萊德;East Kilbride
+ru;Ист Килбрайд;East Kilbride
+fa;ایست هام;East Ham
+ja;イースト・ハム;East Ham
+zh;伊斯特漢姆;East Ham
+ja;イースト・グリンステッド;East Grinstead
+fa;ایست گرینستید;East Grinstead
+ru;Истборн;Eastbourne
+sr;Истборн;Eastbourne
+lt;Istbornas;Eastbourne
+uk;Істборн;Eastbourne
+bg;Истборн;Eastbourne
+fa;ایست‌بورن;Eastbourne
+ja;イーストボーン;Eastbourne
+zh;伊斯特本;Eastbourne
+ar;إيست بورن;Eastbourne
+fa;ایسینگوود;Easingwold
+zh;厄尔斯顿;Earlston
+fa;ایرلی، برکشر;Earley
+ja;イーリング;Ealing
+hu;Ealing kerület;Ealing
+he;אילינג;Ealing
+hi;ईलिंग;Ealing
+zh;伊灵;Ealing
+ko;일링;Ealing
+ur;ایلنگ، لندن;Ealing
+fa;ایلینگ;Ealing
+ru;Дай­зу­эрт;Dysart
+zh;戴撒;Dysart
+ja;ダイザート;Dysart
+fa;دایسارت، فایف;Dysart
+ru;Датхил;Duthil
+ar;فيرنون درسلي;Dursley
+fa;دورسلی;Dursley
+lt;Dernesas;Durness
+bg;Дурнес;Durness
+zh;德内斯;Durness
+zh-Hant;杜內斯;Durness
+ja;ダーネス;Durness
+he;ריספונד;Durness
+ru;Дарем;Durham
+th;เดอรัม;Durham
+ar;درم;Durham
+sr;Дарам;Durham
+ko;더럼;Durham
+mzn;دورهام;Durham
+uk;Дарем;Durham
+fa;دورهام;Durham
+he;דרהאם;Durham
+ja;ダラム;Durham
+bg;Дърам;Durham
+zh;達拉謨;Durham
+be;Дарэм;Durham
+hy;Դարհեմ;Durham
+lt;Daramas;Durham
+ur;ڈرہم، انگلستان;Durham
+yue;對衡;Durham
+fa;دانویچ;Dunwich
+sr;Данстабл;Dunstable
+fa;دانستیبل;Dunstable
+zh;鄧斯特布爾;Dunstable
+ar;دونستابل;Dunstable
+el;Ντάνστεϊμπλ;Dunstable
+ja;ダンスタブル;Dunstable
+ru;Данстабл;Dunstable
+zh;邓斯;Duns
+ru;Данкелд;Dunkeld
+bg;Дънгивън;Dungiven
+ru;Дънгивън;Dungiven
+bg;Дънганън;Dungannon
+lt;Danganonas;Dungannon
+ru;Данганнон;Dungannon
+zh;鄧甘嫩;Dungannon
+ru;Данфермлин;Dunfermline
+fa;دانفرم‌لاین;Dunfermline
+ar;دمفرلين;Dunfermline
+lt;Danfermlinas;Dunfermline
+uk;Данфермлін;Dunfermline
+ja;ダンファームリン;Dunfermline
+be;Данфермлін;Dunfermline
+bg;Дънфърмлин;Dunfermline
+th;ดันเฟิร์มลิน;Dunfermline
+hy;Դանֆրմլին;Dunfermline
+zh;鄧弗姆林;Dunfermline
+bg;Дъндоналд;Dundonald
+ru;Дундональд;Dundonald
+zh;鄧唐納德;Dundonald
+ur;ڈنڈونالڈ، کاؤنٹی ڈاؤن;Dundonald
+bg;Дънди;Dundee
+ja;ダンディー;Dundee
+ru;Данди;Dundee
+fa;داندی;Dundee
+sr;Данди;Dundee
+hy;Դանդի;Dundee
+ko;던디;Dundee
+ka;დანდი;Dundee
+ar;دندي;Dundee
+th;ดันดี;Dundee
+el;Νταντί;Dundee
+lt;Dandi;Dundee
+lv;Dandī;Dundee
+uk;Данді;Dundee
+mr;डंडी;Dundee
+az;Dandi;Dundee
+zh;邓迪;Dundee
+be;Данды;Dundee
+he;דנדי;Dundee
+yue;登地;Dundee
+mk;Данди;Dundee
+ur;ڈنڈی، سکاٹ لینڈ;Dundee
+ru;Данблейн;Dunblane
+zh;鄧布蘭;Dunblane
+bg;Дунбеатх;Dunbeath
+zh;邓比斯;Dunbeath
+uk;Данбар;Dunbar
+ru;Данбар;Dunbar
+zh;鄧巴;Dunbar
+uk;Дамфріс;Dumfries
+ko;덤프리스;Dumfries
+lt;Damfrisas;Dumfries
+bg;Дъмфрийс;Dumfries
+ru;Дамфрис;Dumfries
+be;Дамфрыс;Dumfries
+ja;ダンフリーズ;Dumfries
+az;Damfris;Dumfries
+fa;دامفریس;Dumfries
+zh;鄧弗里斯;Dumfries
+ru;Дамбартон;Dumbarton
+be;Дамбартан;Dumbarton
+lt;Dambartonas;Dumbarton
+ar;دمبارتون;Dumbarton
+uk;Дамбартон;Dumbarton
+zh;邓巴顿;Dumbarton
+ja;ダンバートン;Dumbarton
+az;Dambarton;Dumbarton
+fa;دامبرتون;Dumbarton
+yue;登巴頓;Dumbarton
+fa;دالورتون;Dulverton
+fa;داکینفیلد;Dukinfield
+ru;Дафтаун;Dufftown
+ru;Дадли;Dudley
+bg;Дъдли;Dudley
+th;ดัดลีย์;Dudley
+lt;Dadlis;Dudley
+uk;Дадлі;Dudley
+az;Dadli;Dudley
+fa;دادلی، انگلستان;Dudley
+sr;Дадли;Dudley
+el;Ντάντλεϊ;Dudley
+zh;達德利;Dudley
+ja;ダドリー;Dudley
+hy;Դադլի;Dudley
+fa;درونفیلد;Dronfield
+bg;Дроумор;Dromore
+ru;Дромор;Dromore
+zh;德羅莫爾;Dromore
+fa;درویویچ اسپا;Droitwich
+bg;Даунпатрик;Downpatrick
+ru;Даунпатрик;Downpatrick
+ko;다운패트릭;Downpatrick
+ur;ڈاونپیٹرک;Downpatrick
+zh;唐帕特里克;Downpatrick
+fa;داونهام مارکت;Downham Market
+ar;دوفر;Dover
+he;דובר;Dover
+ja;ドーバー;Dover
+ko;도버;Dover
+ru;Дувр;Dover
+ur;آبنائے ڈوور;Dover
+uk;Дувр;Dover
+ka;დუვრი;Dover
+bg;Дувър;Dover
+mr;डोव्हर;Dover
+be;Дуўр;Dover
+sr;Довер;Dover
+zh;多佛尔;Dover
+ce;Дувр;Dover
+el;Ντόβερ;Dover
+fa;دوور;Dover
+yue;度華;Dover
+ja;ドーンレイ;Dounreay
+ru;Дорнох;Dornoch
+zh;多诺赫;Dornoch
+bg;Дорние;Dornie
+sr;Доркинг;Dorking
+hy;Դորկինգ;Dorking
+ru;Доркинг;Dorking
+fa;دورکینگ;Dorking
+ko;도킹;Dorking
+bg;Дорчестър;Dorchester
+nn;Dorchester i Dorset;Dorchester
+ja;ドーチェスター;Dorchester
+ko;도체스터;Dorchester
+uk;Дорчестер;Dorchester
+ru;Дорчестер;Dorchester
+fa;دورچستر، دورست;Dorchester
+ur;ڈورچسٹر، ڈورسٹ;Dorchester
+yue;道徹斯特;Dorchester
+zh;多爾切斯特;Dorchester
+ja;ドンカスター;Doncaster
+th;ดองคัสเตอร์;Doncaster
+ru;Донкастер;Doncaster
+sr;Донкастер;Doncaster
+ko;동커스터;Doncaster
+uk;Донкастер;Doncaster
+lt;Donkasteris;Doncaster
+fa;دونکاستر;Doncaster
+bg;Донкастър;Doncaster
+zh;唐卡斯特;Doncaster
+ar;دونكاستر;Doncaster
+be;Данкастэр;Doncaster
+yue;唐卡士打;Doncaster
+bg;Доунахади;Donaghadee
+ru;Донахади;Donaghadee
+zh;多納哈迪;Donaghadee
+ja;ドナハディー;Donaghadee
+mk;Донахади;Donaghadee
+bg;Долгелай;Dolgellau
+zh;多爾蓋萊;Dolgellau
+zh-Hans;多尔盖莱;Dolgellau
+ja;ドルゲラウ;Dolgellau
+fa;دالجلاو;Dolgellau
+he;דולגלאו;Dolgellau
+ru;Долгелай;Dolgellau
+ja;ディッチリング;Ditchling
+nn;Diss i England;Diss
+fa;دیس، نورفک;Diss
+bg;Дингуол;Dingwall
+lt;Dingvolas;Dingwall
+uk;Дінгволл;Dingwall
+ru;Дингуолл;Dingwall
+zh;丁沃尔;Dingwall
+ru;Дидкот;Didcot
+uk;Дідкот;Didcot
+fa;دیدکات;Didcot
+ru;Дьюсбери;Dewsbury
+sr;Дјузбери;Dewsbury
+fa;دوزبری;Dewsbury
+bg;Дюсбъри;Dewsbury
+zh;迪斯伯里;Dewsbury
+lt;Diusberis;Dewsbury
+bg;Девънпорт;Devonport
+ru;Девонпорт;Devonport
+uk;Девонпорт;Devonport
+ur;ڈیونپورٹ، پلایماؤت;Devonport
+zh;德文港;Devonport
+ar;ديفونبورت،ديفون;Devonport
+ja;デヴォンポート;Devonport
+fa;دونپورت، پلیموث;Devonport
+he;דבאנפורט;Devonport
+fa;دوایزز;Devizes
+fa;دسبورو;Desborough
+ar;ديربي;Derby
+ja;ダービー;Derby
+ru;Дерби;Derby
+hi;डर्बी;Derby
+am;ደርቢ;Derby
+be;Дэрбі;Derby
+uk;Дербі;Derby
+az;Derbi;Derby
+lv;Dārbi;Derby
+he;דרבי;Derby
+ko;더비;Derby
+hy;Դերբի;Derby
+fa;داربی، انگلستان;Derby
+ug;Dérbi;Derby
+bg;Дарби;Derby
+sr;Дарби;Derby
+nn;Derby i Derbyshire;Derby
+lt;Derbis;Derby
+th;ดาร์บี;Derby
+mr;डर्बी;Derby
+mzn;داربی، انگلستان;Derby
+bn;ডার্বি;Derby
+el;Ντέρμπι;Derby
+zh;德比;Derby
+ar;دتفورد;Deptford
+ru;Дептфорд;Deptford
+ar;دنهم;Denham
+bg;Денби;Denbigh
+ur;ڈینبی;Denbigh
+ru;Денби;Denbigh
+fa;داولیش;Dawlish
+ru;Давентри;Daventry
+bg;Дейвънтри;Daventry
+fa;داونتری;Daventry
+ar;دتشت;Datchet
+ru;Дарвен;Darwen
+el;Ντάργουιν;Darwen
+fa;دارون;Darwen
+mk;Дарвел;Darvel
+ru;Дарвел;Darvel
+nn;Dartmouth i Devon;Dartmouth
+ml;ഡാർട്മൗത്;Dartmouth
+ru;Дартмут;Dartmouth
+ko;다트머스;Dartmouth
+el;Ντάρτμουθ;Dartmouth
+fa;دارتموث، دوون;Dartmouth
+ru;Дартфорде;Dartford
+bg;Дартфорд;Dartford
+sr;Дартфорд;Dartford
+fa;دارتفورد;Dartford
+ko;다트퍼드;Dartford
+ru;Дартфорд;Dartford
+zh;達特福德;Dartford
+lt;Dartfordas;Dartford
+ru;Дарлингтон;Darlington
+ko;달링턴;Darlington
+ja;ダーリントン;Darlington
+lt;Darlingtonas;Darlington
+uk;Дарлінгтон;Darlington
+sr;Дарлингтон;Darlington
+fa;دارلینگتون;Darlington
+zh;达灵顿;Darlington
+ar;دارلينغتون;Darlington
+yue;達靈頓;Darlington
+he;דארלי אבי;Darley Abbey
+ru;Дэрсбёри;Daresbury
+zh;達爾維尼;Dalwhinnie
+ru;Далкит;Dalkeith
+uk;Далкіт;Dalkeith
+az;Dalkit;Dalkeith
+lt;Dalkitas;Dalkeith
+ru;Далбитти;Dalbeattie
+ko;대거넘;Dagenham
+hi;डेगनहम;Dagenham
+ar;داجنهام;Dagenham
+fa;داگنهام;Dagenham
+ja;ダゲナム;Dagenham
+yue;達根林;Dagenham
+ru;Дагенем;Dagenham
+ja;ダドリントン;Dadlington
+ko;쿰브란;Cwmbran
+lt;Kumbranas;Cwmbran
+uk;Кумбран;Cwmbran
+fa;کومبرن;Cwmbran
+bg;Кумбран;Cwmbran
+tt;Кумбран;Cwmbran
+ru;Кумбран;Cwmbran
+bn;কামব্রান সেন্ট্রাল;Cwmbran
+zh-Hans;昆布兰;Cwmbran
+ur;کومبران;Cwmbran
+kn;ಕ್ವೆಬ್ರನ್;Cwmbran
+el;Κιούμπραν;Cwmbran
+ta;சவ்ம்ப்ரன்;Cwmbran
+zh;昆布蘭;Cwmbran
+gu;સ્વામબ્રેન;Cwmbran
+te;క్వంబ్రాన్;Cwmbran
+ar;كومبرن;Cwmbran
+ja;クンブラン;Cwmbran
+zh;庫珀;Cupar
+ja;カンバーノールド;Cumbernauld
+fa;کامبرنولد;Cumbernauld
+lt;Kambernoldas;Cumbernauld
+uk;Камбернолд;Cumbernauld
+bg;Къмбърнолд;Cumbernauld
+th;คัมเบอร์นอลด์;Cumbernauld
+zh;坎伯諾爾德;Cumbernauld
+ja;カルトロー;Cultra
+he;קלטרה;Cultra
+fa;کالومپتون;Cullompton
+ru;Каллен;Cullen
+ar;كولتشث;Culcheth
+fa;کرویدون;Croydon
+zh;克羅伊登;Croydon
+az;Kroydon;Croydon
+bg;Кройдън;Croydon
+ja;クロイドン;Croydon
+ru;Кройдон;Croydon
+fa;کرولند;Crowland
+uk;Кроуборо;Crowborough
+fa;کروبورو;Crowborough
+nn;Crook i County Durham;Crook
+he;קרומפורד;Cromford
+fa;کرومر;Cromer
+ja;クロムデール;Cromdale
+ja;クロマーティ;Cromarty
+ko;크리프;Crieff
+uk;Кріфф;Crieff
+bg;Крийф;Crieff
+ru;Крифф;Crieff
+ur;کرکلوڈ، لندن;Cricklewood
+hi;क्रिकलवुड;Cricklewood
+fa;کریکلید;Cricklade
+ko;크리클레이드;Cricklade
+uk;Криклейд;Cricklade
+ru;Криклейд;Cricklade
+bg;Крикхауъл;Crickhowell
+ru;Крикхауэлл;Crickhowell
+zh-Hans;克里克豪厄尔;Crickhowell
+uk;Крікгавел;Crickhowell
+zh;克里克豪厄爾;Crickhowell
+ar;كيركهاول;Crickhowell
+ja;クリックホーウェル;Crickhowell
+fa;کیرکهاول;Crickhowell
+he;קריקהוול;Crickhowell
+bg;Крикийт;Criccieth
+ru;Криккиет;Criccieth
+zh;克里基厄斯;Criccieth
+ja;クリクキエス;Criccieth
+fa;کریکیث;Criccieth
+he;קריקיית';Criccieth
+fa;کروکرن;Crewkerne
+bg;Крю;Crewe
+lt;Kru;Crewe
+ko;크루;Crewe
+fa;کرو، چشر;Crewe
+sr;Кру;Crewe
+ru;Кру;Crewe
+zh;克魯;Crewe
+ja;クルー;Crewe
+uk;Кру;Crewe
+fa;کردیتون;Crediton
+ru;Кроули;Crawley
+lt;Krolis;Crawley
+fa;کریون آرمز;Craven Arms
+nn;Cranbrook i Kent;Cranbrook
+fa;کرانبروک، کنت;Cranbrook
+zh;克拉蒙德;Cramond
+ru;Крамлингтон;Cramlington
+fa;کراملینگتون;Cramlington
+bg;Коули;Cowley
+zh;考利;Cowley
+ja;コーリー;Cowley
+ur;کاؤلی، آکسفورڈ;Cowley
+ru;Каус;Cowes
+ru;Коуз;Cowes
+fa;کووز;Cowes
+uk;Коуз;Cowes
+uk;Ковденбіт;Cowdenbeath
+ru;Кауденбит;Cowdenbeath
+bg;Коубридж;Cowbridge
+ru;Коубит;Cowbit
+ar;كوفنتري;Coventry
+he;קובנטרי;Coventry
+ja;コヴェントリー;Coventry
+zh;考文垂;Coventry
+ru;Ковентри;Coventry
+my;ကိုဗင်ထရီမြို့;Coventry
+mr;कॉव्हेंट्री;Coventry
+lv;Koventrija;Coventry
+ka;კოვენტრი;Coventry
+sr;Ковентри;Coventry
+th;คอเวนทรี;Coventry
+az;Koventri;Coventry
+mzn;کاونتری;Coventry
+lt;Koventris;Coventry
+fa;کاونتری;Coventry
+uk;Ковентрі;Coventry
+be;Ковентры;Coventry
+el;Κόβεντρι;Coventry
+ko;코번트리;Coventry
+bg;Ковънтри;Coventry
+ja;コーヴ;Cove
+fa;کولسدون;Coulsdon
+zh;科舍姆;Cosham
+fa;کوشام;Cosham
+bg;Коруен;Corwen
+zh;科文;Corwen
+fa;کورون;Corwen
+fa;کورشهام;Corsham
+ru;Корби;Corby
+fa;کوربی;Corby
+sr;Корби;Corby
+ja;コービー;Corby
+tt;Корби;Corby
+lt;Korbis;Corby
+hy;Քորբի;Corby
+uk;Корбі;Corby
+ur;کوربی;Corby
+ko;코비;Corby
+uz;Corby shahri;Corby
+zh;科爾比;Corby
+he;קורבי;Corby
+fa;کوربریج;Corbridge
+bg;Кукстаун;Cookstown
+ru;Кукстаун;Cookstown
+zh;庫克斯敦;Cookstown
+ar;كوهم;Cookham
+ru;Конуи;Conwy
+ar;كنوي;Conwy
+bg;Конуи;Conwy
+he;קונווי;Conwy
+ja;コンウィ;Conwy
+kn;ಕಾನ್ವಿ;Conwy
+ko;콘위;Conwy
+lt;Konvis;Conwy
+uk;Конві;Conwy
+zh;康維;Conwy
+ru;Консетт;Consett
+bg;Консет;Consett
+fa;کونیسبورو;Conisbrough
+ru;Конглтон;Congleton
+fa;کونگلتون;Congleton
+bg;Комбър;Comber
+lt;Komberis;Comber
+ru;Комбер;Comber
+bg;Колуин Бей;Colwyn Bay
+lt;Kolvin Bėjus;Colwyn Bay
+uk;Колвін-Бей;Colwyn Bay
+zh;科爾溫灣;Colwyn Bay
+fa;کولن، لانکاشر;Colne
+ar;كلنبروك;Colnbrook
+ru;Колрэйн;Coleraine
+bg;Коулрейн;Coleraine
+lt;Kolreinas;Coleraine
+ro;Districtul Coleraine;Coleraine
+uk;Колрейн;Coleraine
+ru;Колрейн;Coleraine
+zh;科爾雷因;Coleraine
+ar;كوليرين;Coleraine
+ur;کولرین;Coleraine
+ja;コル・グリーン;Cole Green
+hy;Քոլդստրիմ;Coldstream
+uk;Колдстрім;Coldstream
+ru;Колдстрим;Coldstream
+zh;科尔德斯特里姆;Coldstream
+bg;Колчестър;Colchester
+sr;Колчестер;Colchester
+fa;کولچستر;Colchester
+uk;Колчестер;Colchester
+ja;コルチェスター;Colchester
+ko;콜체스터;Colchester
+ar;كولشيستر;Colchester
+he;קולצ'סטר;Colchester
+lt;Kolčesteris;Colchester
+ru;Колчестер;Colchester
+zh;科尔切斯特;Colchester
+hy;Կոլչեստր;Colchester
+yue;高車士打;Colchester
+tt;Колчестер;Colchester
+hi;कोलचेस्टर;Colchester
+lv;Kolčestera;Colchester
+zh-Hant;科赤斯特;Colchester
+ur;کولچسٹر;Colchester
+mk;Колчестер;Colchester
+el;Κόλτσεστερ;Colchester
+be;Колчэстэр;Colchester
+bn;কোলচেস্টার;Colchester
+ka;კოლჩესტერი;Colchester
+kn;ಕಾಲ್ಚೆಸ್ಟರ್;Colchester
+zh-HK;高車士打;Colchester
+ta;வில்லிங்டோன்;Colchester
+gu;કોલચેસ્ટર;Colchester
+te;కాల్చేస్టార్;Colchester
+tg;Кулчестер;Colchester
+th;โคลเชสเตอร์;Colchester
+fa;کوجشال;Coggeshall
+ja;コッカーマス;Cockermouth
+fa;کوکرموث;Cockermouth
+zh;科克茅斯;Cockermouth
+uk;Котбрідж;Coatbridge
+lt;Koutbridžas;Coatbridge
+ru;Котбридж;Coatbridge
+fa;کوتبریج;Coatbridge
+zh;科特布里奇;Coatbridge
+bg;Коулвил;Coalville
+bg;Коулайланд;Coalisland
+ru;Колайленд;Coalisland
+zh;科萊蘭;Coalisland
+uk;Колбрукдейл;Coalbrookdale
+uk;Клайдбанк;Clydebank
+ko;클라이드뱅크;Clydebank
+az;Klaydbank;Clydebank
+fa;کلایدبنک;Clydebank
+zh;克萊德班克;Clydebank
+ru;Клайдбанк;Clydebank
+fa;کلون،;Clun
+ar;كليذرو;Clitheroe
+fa;کلیترو;Clitheroe
+bg;Клийвдън;Clevedon
+fa;کلیودون;Clevedon
+fa;کلئوبوری مورتیمر;Cleobury Mortimer
+ru;Клитхорпс;Cleethorpes
+lt;Klitorpsas;Cleethorpes
+fa;کلیتورپس;Cleethorpes
+fa;کلیتور مور;Cleator Moor
+ru;Клитор-Мур;Cleator Moor
+fa;کلر، سافک;Clare
+sr;Клактон на Мору;Clacton-on-Sea
+fa;کلکتون-آن-سی;Clacton-on-Sea
+ru;Клактон-он-Си;Clacton-on-Sea
+lt;Pajūrio Klaktonas;Clacton-on-Sea
+bg;Сайрънсестър;Cirencester
+ko;시런세스터;Cirencester
+uk;Чиренчестер;Cirencester
+ja;サイレンセスター;Cirencester
+fa;سایرن‌سستر;Cirencester
+ru;Сайренсестер;Cirencester
+fa;کیندرفورد;Cinderford
+ur;چرویل;Churwell
+lt;Čerč Stretonas;Church Stretton
+fa;چروچ استرتون;Church Stretton
+fa;چادلی;Chudleigh
+ru;Крайстчерч;Christchurch
+nn;Christchurch i Dorset;Christchurch
+ko;크라이스트처치;Christchurch
+bg;Крайстчърч;Christchurch
+ja;クライストチャーチ;Christchurch
+fa;چریستچورچ، دورست;Christchurch
+lt;Kraistčerčas;Christchurch
+sd;ڪرائسٽ چرچ، ڊورسٽ;Christchurch
+uk;Крайстчерч;Christchurch
+ur;کرائسٹ چرچ، ڈورسٹ;Christchurch
+zh;克賴斯特徹奇;Christchurch
+fa;چورلیوود;Chorleywood
+fa;چورلی;Chorley
+lt;Čorlis;Chorley
+ar;تشلسبوري;Cholesbury
+hi;चिसलहर्स्ट;Chislehurst
+ur;چزلہرسٹ، لندن;Chislehurst
+ru;Чизлхерст;Chislehurst
+he;ציזלהרסט;Chislehurst
+bg;Чърк;Chirk
+lt;Čerkas;Chirk
+ru;Чърк;Chirk
+fa;چیپینگ سوبوری;Chipping Sodbury
+fa;چیپینگ اونگار;Chipping Ongar
+bg;Чипинг Кампдън;Chipping Campden
+fa;چیپینگ کمپدن;Chipping Campden
+ja;チッピング・カムデン;Chipping Campden
+ru;Чипинг Кампдън;Chipping Campden
+ru;Чиппенем;Chippenham
+ar;تشبنهام;Chippenham
+fa;چیپنهام;Chippenham
+lt;Čipenhamas;Chippenham
+fa;چینگفورد;Chingford
+ru;Чичестер;Chichester
+ko;치체스터;Chichester
+th;ชิชิสเตอร์;Chichester
+mzn;چیچستر;Chichester
+fa;چیچستر;Chichester
+ja;チチェスター;Chichester
+sr;Чичестер;Chichester
+am;ቺቸስተር;Chichester
+zh;奇切斯特;Chichester
+lt;Čičesteris;Chichester
+uk;Чічестер;Chichester
+ar;تشيتشستر;Chichester
+bg;Чичестър;Chichester
+hy;Չիչեստեր;Chichester
+ur;چیچیسٹر;Chichester
+fa;چستر لی استریت;Chester-le-Street
+zh;切斯特勒街;Chester-le-Street
+fa;چسترفیلد;Chesterfield
+sr;Честерфилд;Chesterfield
+ko;체스터필드;Chesterfield
+lt;Česterfildas;Chesterfield
+bg;Честърфийлд;Chesterfield
+ru;Честерфилд;Chesterfield
+ja;チェスターフィールド;Chesterfield
+ka;ჩესტერფილდი;Chesterfield
+hy;Չեստըրֆիլտ;Chesterfield
+ur;چیسٹرفیلڈ;Chesterfield
+yue;車士打菲特;Chesterfield
+bg;Честър;Chester
+ru;Честер;Chester
+uk;Честер;Chester
+he;צסטר;Chester
+ar;تشستر;Chester
+am;ቸስተር;Chester
+lt;Česteris;Chester
+my;ချက်စတာမြို့;Chester
+fa;چستر;Chester
+el;Τσέστερ;Chester
+mzn;چستر;Chester
+ja;チェスター;Chester
+ko;체스터;Chester
+sr;Честер;Chester
+zh;切斯特;Chester
+th;เชสเตอร์;Chester
+hy;Չեստեր;Chester
+ur;چیسٹر;Chester
+yue;車士打;Chester
+hi;चेसिंग्टन;Chessington
+sr;Чесант;Cheshunt
+fa;چزنت;Cheshunt
+zh;切森特;Cheshunt
+ru;Чесант;Cheshunt
+bg;Чесъм;Chesham
+fa;چشهام;Chesham
+ru;Чесъм;Chesham
+fa;چرتسی;Chertsey
+zh;切特西;Chertsey
+bg;Чепстоу;Chepstow
+hi;चेप्स्टो;Chepstow
+uk;Чепстоу;Chepstow
+ru;Чепстоу;Chepstow
+zh;切普斯托;Chepstow
+ja;チェルトナム;Cheltenham
+sr;Челтенам;Cheltenham
+lt;Čeltnamas;Cheltenham
+ar;شلتنهام;Cheltenham
+bg;Челтнъм;Cheltenham
+th;เชลต์นัม;Cheltenham
+fa;چلتنهام;Cheltenham
+ko;첼트넘;Cheltenham
+he;צ'לטנהאם;Cheltenham
+ru;Челтнем;Cheltenham
+zh;切爾滕納姆;Cheltenham
+tt;Челтнәм;Cheltenham
+hy;Չելթնեմ;Cheltenham
+zh-Hans;切尔滕纳姆;Cheltenham
+uk;Челтнем;Cheltenham
+ur;چیلٹین ہیم;Cheltenham
+el;Τσέλτεναμ;Cheltenham
+be;Чэлтнэм;Cheltenham
+yue;車頓咸;Cheltenham
+bn;চেলটেনহ্যাম;Cheltenham
+ka;ჩელტნემი;Cheltenham
+kn;ಚೆಲ್ಟೆನ್ಹಾಮ್;Cheltenham
+zh-HK;卓特咸;Cheltenham
+ta;செல்டென்ஹாம்;Cheltenham
+gu;ચેલ્તેનહામ;Cheltenham
+te;చెల్టిన్హమ్;Cheltenham
+ru;Челмсфорд;Chelmsford
+ko;첼름스퍼드;Chelmsford
+lt;Čelmsfordas;Chelmsford
+he;צלמספורד;Chelmsford
+sr;Челмсфорд;Chelmsford
+fa;چلمزفورد;Chelmsford
+am;ቸልምስፎርድ;Chelmsford
+zh;切爾姆斯福德;Chelmsford
+sgs;Čelmsfuords;Chelmsford
+ja;チェルムスフォード;Chelmsford
+ar;تشيلمسفورد;Chelmsford
+uk;Челмсфорд;Chelmsford
+ur;چلمسفورڈ;Chelmsford
+ja;チェダー;Cheddar
+ko;체더;Cheddar
+ru;Чеддер;Cheddar
+ar;شيدر;Cheddar
+ru;Чедл-Халм;Cheadle Hulme
+zh;奇德爾休姆;Cheadle Hulme
+ja;チードル・ヒューム;Cheadle Hulme
+he;צ'ידל הולם;Cheadle Hulme
+fa;چاتریس;Chatteris
+lt;Čaterisas;Chatteris
+ru;Чатем;Chatham
+lt;Čatamas;Chatham
+nn;Chatham i Kent;Chatham
+sr;Чатам;Chatham
+fa;چاتهام، کنت;Chatham
+ja;チャタム;Chatham
+ko;채텀;Chatham
+fa;چارلبوری;Charlbury
+fa;چارد، سامرست;Chard
+ceb;Chapletown;Chapeltown
+sv;Chapletown;Chapeltown
+he;צ'אפלטון;Chapeltown
+fa;چاگفورد;Chagford
+ja;チャッデスデン;Chaddesden
+ar;كوفرشم;Caversham
+ru;Каттерик;Catterick
+ja;キャスカート;Cathcart
+zh;卡特福德;Catford
+bg;Касълфорд;Castleford
+fa;کسلفورد;Castleford
+ru;Касълфорд;Castleford
+ja;カースル・クーム;Castle Combe
+fa;کستل کری;Castle Cary
+fa;کارترتون، آکسفوردشر;Carterton
+nn;Carterton i Oxfordshire;Carterton
+fa;کارشالتون;Carshalton
+bg;Карикфъргъс;Carrickfergus
+lt;Karikfergusas;Carrickfergus
+ru;Каррикфергус;Carrickfergus
+ro;Districtul Carrickfergus;Carrickfergus
+ur;کیرکفیرگس;Carrickfergus
+zh;卡里克弗格斯;Carrickfergus
+uk;Карноусті;Carnoustie
+bg;Карнусти;Carnoustie
+ja;カーヌスティ;Carnoustie
+ko;카누스티;Carnoustie
+ru;Карнусти;Carnoustie
+fa;کارنفورث;Carnforth
+bg;Кармартън;Carmarthen
+ja;カーマーゼン;Carmarthen
+ko;카마던;Carmarthen
+uk;Кармартен;Carmarthen
+lt;Karmardenas;Carmarthen
+ru;Кармартен;Carmarthen
+zh;卡马森;Carmarthen
+uk;Карлук;Carluke
+ru;Карлук;Carluke
+fa;کارلتون، ناتینگهام‌شر;Carlton
+sr;Карлтон;Carlton
+ur;کارلٹن، نوٹنگھم شائر;Carlton
+ru;Карлайл;Carlisle
+ko;칼라일;Carlisle
+bg;Карлайл;Carlisle
+th;คาร์ไลล์;Carlisle
+sr;Карлајл;Carlisle
+ja;カーライル;Carlisle
+lt;Karlailas;Carlisle
+uk;Карлайл;Carlisle
+zh;卡萊爾;Carlisle
+ar;كارلايل;Carlisle
+el;Καρλάιλ;Carlisle
+fa;کارلایل، کامبریا;Carlisle
+hy;Կարլայլ;Carlisle
+ka;კარლაილი;Carlisle
+ur;کارلایل، کامبریا;Carlisle
+bg;Кардиган;Cardigan
+ja;カーディガン;Cardigan
+ru;Кардиган;Cardigan
+ru;Кардифф;Cardiff
+ka;კარდიფი;Cardiff
+el;Κάρντιφ;Cardiff
+ckb;کاردیف;Cardiff
+ko;카디프;Cardiff
+kk;Кардифф;Cardiff
+uk;Кардіфф;Cardiff
+ja;カーディフ;Cardiff
+os;Кардифф;Cardiff
+lt;Kardifas;Cardiff
+be;Кардыф;Cardiff
+hy;Քարդիֆ;Cardiff
+bg;Кардиф;Cardiff
+ht;Kadif;Cardiff
+bn;কার্ডিফ;Cardiff
+lv;Kārdifa;Cardiff
+tl;Kardip;Cardiff
+hi;कार्डिफ़;Cardiff
+he;קארדיף;Cardiff
+my;ကားဒစ်မြို့;Cardiff
+th;คาร์ดิฟฟ์;Cardiff
+az;Kardiff;Cardiff
+ta;கார்டிஃப்;Cardiff
+ar;كارديف;Cardiff
+mr;कार्डिफ;Cardiff
+sr;Кардиф;Cardiff
+ml;കാർഡിഫ്;Cardiff
+fa;کاردیف;Cardiff
+pa;ਕਾਰਡਿਫ਼;Cardiff
+zh;加的夫;Cardiff
+zh-Hant;卡佩爾;Capel-y-ffin
+zh;卡佩尔;Capel-y-ffin
+ar;كانتربيري;Canterbury
+ja;カンタベリー;Canterbury
+ru;Кентербери;Canterbury
+zh;坎特伯雷;Canterbury
+is;Kantaraborg;Canterbury
+he;קנטרברי;Canterbury
+mk;Кантербери;Canterbury
+be;Кентэрберы;Canterbury
+el;Κάντερμπερι;Canterbury
+fa;کنتربری;Canterbury
+bg;Кентърбъри;Canterbury
+hy;Քենթերբերի;Canterbury
+uk;Кентербері;Canterbury
+ko;캔터베리;Canterbury
+sr;Кентербери;Canterbury
+kk;Кентербери;Canterbury
+ky;Кентербери;Canterbury
+lt;Kenterberis;Canterbury
+lv;Kenterberija;Canterbury
+yue;根德伯里;Canterbury
+ru;Каннок;Cannock
+ko;캐넉;Cannock
+sr;Канок;Cannock
+fa;کانوک;Cannock
+bg;Канък;Cannock
+lt;Kanokas;Cannock
+ja;カニスベイ;Canisbay
+uk;Кемпбелтаун;Campbeltown
+ja;キャンベルタウン;Campbeltown
+ru;Кэмпбелтаун;Campbeltown
+zh;坎貝爾城;Campbeltown
+fa;کملفورد;Camelford
+uk;Камбусленг;Cambuslang
+fa;کمبسلنگ;Cambuslang
+ru;Камбусленг;Cambuslang
+ar;كامبريدج;Cambridge
+bg;Кеймбридж;Cambridge
+he;קיימברידג';Cambridge
+ja;ケンブリッジ;Cambridge
+ko;케임브리지;Cambridge
+ru;Кембридж;Cambridge
+th;เคมบริดจ์;Cambridge
+uk;Кембридж;Cambridge
+uk;Кембрідж;Cambridge
+zh-TW;劍橋;Cambridge
+fa;کمبریج;Cambridge
+sr;Кембриџ;Cambridge
+lt;Kembridžas;Cambridge
+hak;Kiam-khiâu;Cambridge
+bn;ক্যামব্রিজ;Cambridge
+ug;Kambrij;Cambridge
+hy;Քեմբրիջ;Cambridge
+tg;Кембриҷ;Cambridge
+be;Кембрыдж;Cambridge
+az;Kembric;Cambridge
+my;ကိန်းဘရစ်ချ်မြို့;Cambridge
+ml;കേംബ്രിഡ്ജ്;Cambridge
+mr;केंब्रिज;Cambridge
+ka;კემბრიჯი;Cambridge
+mzn;کمبریج;Cambridge
+lv;Kembridža;Cambridge
+kn;ಕೇಂಬ್ರಿಜ್;Cambridge
+el;Κέμπριτζ;Cambridge
+zh;劍橋;Cambridge
+bg;Камборн;Camborne
+fa;کامبورن;Camborne
+ru;Камборн;Camborne
+ru;Кемберли;Camberley
+zh;坎伯利;Camberley
+ar;كلستك;Calstock
+ar;كان;Calne
+zh;卡恩;Calne
+fa;کالن;Calne
+fa;کایستور;Caistor
+bg;Кайрсус;Caersws
+lt;Kersusas;Caersws
+ru;Керфили;Caerphilly
+lt;Kernarvonas;Caernarfon
+uk;Карнарвон;Caernarfon
+ko;카나번;Caernarfon
+ja;カーナーヴォン;Caernarfon
+bg;Карнарвън;Caernarfon
+he;קרנארפון;Caernarfon
+th;คายร์นาร์วอน;Caernarfon
+zh;卡納芬;Caernarfon
+ar;كارليون;Caerleon
+ko;벅스턴;Buxton
+zh;巴克斯頓;Buxton
+fa;بوکستون;Buxton
+ar;بكستون;Buxton
+bg;Бушмилс;Bushmills
+ru;Бушмилс;Bushmills
+ja;ブッシュベリー;Bushbury
+uk;Бері-Сент-Едмендс;Bury St Edmunds
+ko;베리세인트에드먼즈;Bury St Edmunds
+nn;Bury St. Edmunds;Bury St Edmunds
+no;Bury St. Edmunds;Bury St Edmunds
+ru;Бери-Сент-Эдмендс;Bury St Edmunds
+fa;باری سنت ادموندز;Bury St Edmunds
+sr;Бери;Bury
+ko;베리;Bury
+bg;Бери;Bury
+lt;Beris;Bury
+uk;Бері;Bury
+fa;بری;Bury
+ru;Бери;Bury
+ja;ベリー;Bury
+yue;貝利;Bury
+zh;伯里;Bury
+ja;バーウィック;Burwick
+ar;بورول;Burwell
+ru;Бертонвуд;Burtonwood
+bg;Бъртън ъпон Трент;Burton upon Trent
+lt;Bertonas prie Trento;Burton upon Trent
+ko;버턴어폰트렌트;Burton upon Trent
+ru;Бертон-апон-Трент;Burton upon Trent
+fa;بارتون آپون ترنت;Burton upon Trent
+zh;特倫河畔伯頓;Burton upon Trent
+fa;بورسلم;Burslem
+bg;Бъри Порт;Burry Port
+ru;Бъри Порт;Burry Port
+fa;بارنتوود;Burntwood
+bg;Бърнтайланд;Burntisland
+ru;Бернтайленд;Burntisland
+he;ברנלי;Burnley
+ru;Бернли;Burnley
+bg;Бърнли;Burnley
+lt;Bernlis;Burnley
+uk;Бернлі;Burnley
+sr;Бернли;Burnley
+fa;برنلی;Burnley
+el;Μπέρνλεϊ;Burnley
+ko;번리;Burnley
+zh;伯恩利;Burnley
+ja;バーンリー;Burnley
+yue;般尼;Burnley
+ar;بورنهم;Burnham
+nn;Burnham i Buckinghamshire;Burnham
+ar;بورفيلد;Burghfield
+ja;バーフォード;Burford
+bg;Бърфорд;Burford
+fa;بورفورد;Burford
+ko;버퍼드;Burford
+zh;伯福德;Burford
+ru;Бърфорд;Burford
+fa;بانتینگفورد;Buntingford
+fa;بانگی، سافک;Bungay
+fa;بولول;Bulwell
+bg;Билт Уелс;Builth Wells
+ru;Билт Уелс;Builth Wells
+fa;بودلی سالترتون;Budleigh Salterton
+os;Бьюд;Bude
+ru;Бьюд;Bude
+bg;Бъкли;Buckley
+ar;بوكلبوري;Bucklebury
+he;באקלברי;Bucklebury
+ru;Бакингем;Buckingham
+fa;باکینگهام;Buckingham
+ur;بکنگھم;Buckingham
+zh;白金漢;Buckingham
+ru;Баки;Buckie
+fa;باکفستلی;Buckfastleigh
+ar;بوكدن;Buckden
+bg;Бринмаур;Brynmawr
+fa;برینمور;Brynmawr
+uk;Брінмавр;Brynmawr
+ru;Бринмаур;Brynmawr
+fa;بروتون، سامرست;Bruton
+fa;براکسبرن;Broxburn
+lt;Broksbernas;Broxburn
+nn;Broxburn i West Lothian;Broxburn
+uk;Броксберн;Broxburn
+ru;Броксберн;Broxburn
+ru;Браунхиллс;Brownhills
+ar;بروسلي;Broseley
+fa;بروزلی;Broseley
+zh;布罗拉;Brora
+ko;브롬스그로브;Bromsgrove
+lt;Bromsgrovas;Bromsgrove
+fa;برومزگرو;Bromsgrove
+hu;Bromley kerület;Bromley
+sr;Бромли;Bromley
+ur;بروملی;Bromley
+hi;ब्रॉमली;Bromley
+uk;Бромлі;Bromley
+fa;بروملی;Bromley
+ja;ブロムリー;Bromley
+ko;브롬리;Bromley
+zh;布羅姆利;Bromley
+ru;Бромли;Bromley
+ru;Бродик;Brodick
+zh;布羅迪克;Brodick
+ja;ブロードウェイ;Broadway
+uk;Бродстейрз;Broadstairs
+sr;Бродстерс;Broadstairs
+bg;Бриксам;Brixham
+fa;بریکسهام;Brixham
+zh;布里克瑟姆;Brixham
+ru;Бриксам;Brixham
+bg;Бритън Фери;Briton Ferry
+lt;Briton Feris;Briton Ferry
+ru;Бритън Фери;Briton Ferry
+ar;بريستول;Bristol
+bg;Бристъл;Bristol
+ja;ブリストル;Bristol
+ru;Бристоль;Bristol
+sr;Бристол;Bristol
+lv;Bristole;Bristol
+lt;Bristolis;Bristol
+os;Бристоль;Bristol
+fa;بریستول;Bristol
+uk;Бристоль;Bristol
+el;Μπρίστολ;Bristol
+ko;브리스틀;Bristol
+kn;ಬ್ರಿಸ್ಟಲ್‌;Bristol
+hi;ब्रिस्टल;Bristol
+he;בריסטול;Bristol
+ka;ბრისტოლი;Bristol
+mr;ब्रिस्टल;Bristol
+mk;Бристол;Bristol
+th;บริสตอล;Bristol
+mzn;بریستول;Bristol
+hy;Բրիստոլ;Bristol
+be;Брысталь;Bristol
+zh;布里斯托尔;Bristol
+ru;Брислингтон;Brislington
+ja;ブリスリントン;Brislington
+ur;برسلنگٹن;Brislington
+ar;بريل;Brill
+ar;برايتون;Brighton
+he;ברייטון;Brighton
+bn;ব্রাইটন;Brighton
+ja;ブライトン;Brighton
+ru;Брайтон;Brighton
+mr;ब्रायटन;Brighton
+ko;브라이턴;Brighton
+th;ไบรตัน;Brighton
+ka;ბრაიტონი;Brighton
+sr;Брајтон;Brighton
+os;Брайтон;Brighton
+lt;Braitonas;Brighton
+lv;Braitona;Brighton
+bg;Брайтън;Brighton
+uk;Брайтон;Brighton
+fa;برایتون;Brighton
+el;Μπράιτον;Brighton
+zh;布赖顿;Brighton
+be;Брайтан;Brighton
+hy;Բրայթոն;Brighton
+ur;برائٹن;Brighton
+yue;白禮頓;Brighton
+fa;برایتلینگسی;Brightlingsea
+bg;Бригаус;Brighouse
+fa;بریج‌هاوس;Brighouse
+ru;Бригаус;Brighouse
+nn;Brigg i North Lincolnshire;Brigg
+fa;بریج;Brigg
+uk;Брідпорт;Bridport
+ru;Бридпорт;Bridport
+fa;بریدپورت;Bridport
+fa;بریدلینگتون;Bridlington
+ru;Бриджуотер;Bridgwater
+bg;Бриджуотър;Bridgwater
+fa;بریج‌واتر;Bridgwater
+ka;ბრიჯუოტერი;Bridgwater
+ko;브리지워터;Bridgwater
+ur;برج واٹر، سومرسیٹ;Bridgwater
+fa;بریج‌نورث;Bridgnorth
+ru;Бридженд;Bridgend
+lt;Bridžendas;Bridgend
+bg;Бридженд;Bridgend
+ja;ブリジェンド;Bridgend
+ko;브리젠드;Bridgend
+bg;Брентуд;Brentwood
+ko;브렌트우드;Brentwood
+nn;Brentwood i Essex;Brentwood
+ru;Брентвуд;Brentwood
+fa;برنتوود، اسکس;Brentwood
+ur;برینٹووڈ، ایسیکس;Brentwood
+zh;布倫特伍德;Brentwood
+ja;ブレントフォード;Brentford
+hi;ब्रेंटफ़र्ड;Brentford
+ru;Брентфорд;Brentford
+ko;브렌트퍼드;Brentford
+fa;برنتفورد;Brentford
+ur;برینٹفرڈ;Brentford
+yue;賓福特;Brentford
+zh;賓福特;Brentford
+bg;Брекън;Brecon
+ko;브레콘;Brecon
+sl;HMS Brecon;Brecon
+uk;Брекон;Brecon
+ru;Брекон;Brecon
+ar;بريكون;Brecon
+zh;布雷肯;Brecon
+bg;Брихин;Brechin
+lt;Brichinas;Brechin
+ru;Брихин;Brechin
+ru;Брайтон;Brayton
+ar;براي;Bray
+ru;Браунтон;Braunton
+fa;براندون، سافک;Brandon
+ur;برینڈن، سفولک;Brandon
+bg;Брейнтрий;Braintree
+nn;Braintree i Essex;Braintree
+fa;براینتری، اسکس;Braintree
+ru;Брейнтрий;Braintree
+bg;Бреймар;Braemar
+fa;برادینگ;Brading
+ru;Брадфорд;Bradford
+uk;Бредфорд;Bradford
+ar;برادفورد;Bradford
+lt;Bradfordas;Bradford
+ur;بریڈفورڈ;Bradford
+mzn;برادفورد;Bradford
+kk;Брэдфорд;Bradford
+be;Брэдфард;Bradford
+az;Brədford;Bradford
+hy;Բրեդֆորդ;Bradford
+ka;ბრედფორდი;Bradford
+bg;Брадфорд;Bradford
+ja;ブラッドフォード;Bradford
+sr;Бредфорд;Bradford
+ko;브래드퍼드;Bradford
+lv;Bredforda;Bradford
+el;Μπράντφορντ;Bradford
+mk;Брадфорд;Bradford
+am;ብራድፎርድ;Bradford
+fa;برادفورد;Bradford
+zh;布拉德福德;Bradford
+he;ברדפורד;Bradford
+yue;巴拉福特;Bradford
+sr;Бракнел;Bracknell
+fa;براکنل;Bracknell
+zh;布拉克內爾;Bracknell
+ru;Бракнел;Bracknell
+fa;براکلی;Brackley
+ja;ボックス;Box
+ja;ボウモア;Bowmore
+ru;Лагерь Бовингтон;Bovington Camp
+hy;Բովինգթոն Ճամբար;Bovington Camp
+zh-Hans;巴温顿军营;Bovington Camp
+zh-Hant;巴溫頓軍營;Bovington Camp
+uk;табір Бовінгтон;Bovington Camp
+ur;بووینگٹن کیمپ;Bovington Camp
+mk;логор Бовингтон;Bovington Camp
+el;Μπόβινγκτον Καμπ;Bovington Camp
+zh;伯文頓營;Bovington Camp
+ja;ボービントン駐屯地;Bovington Camp
+az;Bovinqton düşərgəsi;Bovington Camp
+fa;بووینگتن;Bovington Camp
+he;מחנה בובינגטון;Bovington Camp
+fa;بووی تریسی;Bovey Tracey
+ru;Борнмут;Bournemouth
+ja;ボーンマス;Bournemouth
+fa;بورنموث;Bournemouth
+lt;Bornmutas;Bournemouth
+bg;Борнмът;Bournemouth
+ka;ბორნმუთი;Bournemouth
+th;โบร์นมัท;Bournemouth
+uk;Борнмут;Bournemouth
+az;Bornmut;Bournemouth
+sr;Борнмут;Bournemouth
+ar;بورنموث;Bournemouth
+ko;본머스;Bournemouth
+bn;বোর্ন্‌মাথ;Bournemouth
+zh;伯恩茅斯;Bournemouth
+ar;بورن اند;Bourne End
+nn;Bourne i Lincolnshire;Bourne
+fa;بورن، لینکلن‌شر;Bourne
+nn;Bottesford i Leicestershire;Bottesford
+fa;بوتول;Bothwell
+ru;Босуэлл;Bothwell
+ru;Бостон;Boston
+ar;بوسطن;Boston
+ko;보스턴;Boston
+nn;Boston i England;Boston
+ja;ボストン;Boston
+fa;بوستون، لینکلن‌شر;Boston
+lt;Bostonas;Boston
+ru;Боскомб;Boscombe
+ur;بوسکومبے;Boscombe
+zh;博斯科姆;Boscombe
+ar;بسكستل;Boscastle
+fa;بوروبریج;Boroughbridge
+zh;博勒姆伍德;Borehamwood
+ru;Бутл;Bootle
+fa;بوتل، انگلستان;Bootle
+sr;Бутл;Bootle
+zh;布特爾;Bootle
+lt;Butlis;Bootle
+uk;Боннірігг;Bonnyrigg
+ru;Болтон;Bolton
+sr;Болтон;Bolton
+ar;بولتن;Bolton
+ka;ბოლტონი;Bolton
+th;โบลตัน;Bolton
+lt;Boltonas;Bolton
+bg;Болтън;Bolton
+fa;بولتون;Bolton
+ko;볼턴;Bolton
+uk;Болтон;Bolton
+zh;博尔顿;Bolton
+ja;ボルトン;Bolton
+hy;Բոլթոն;Bolton
+yue;保頓;Bolton
+fa;بولینگتون;Bollington
+fa;باگنور رجیس;Bognor Regis
+sr;Богнор Риџис;Bognor Regis
+lt;Bognor Ridžisas;Bognor Regis
+zh;博格諾里吉斯;Bognor Regis
+ru;Бодмин;Bodmin
+zh;博德明;Bodmin
+fa;بودمین;Bodmin
+zh;柏特加滕;Boat of Garten
+ru;Блит;Blyth
+nn;Blyth i Northumberland;Blyth
+fa;بلایث، نورث‌آمبرلند;Blyth
+uk;Бланделл-Сендс;Blundellsands
+fa;بلچلی;Bletchley
+sr;Блечли;Bletchley
+zh;布莱奇利;Bletchley
+ru;Блечли;Bletchley
+bg;Бландфорд Форъм;Blandford Forum
+ru;Бландфорд-Форум;Blandford Forum
+fa;بلندفورد فورم;Blandford Forum
+hi;ब्लेनावों;Blaenavon
+lt;Blaenavonas;Blaenavon
+zh-Hans;布雷纳凡;Blaenavon
+zh-Hant;布雷納凡;Blaenavon
+uk;Блайневон;Blaenavon
+ur;بلایناوون;Blaenavon
+zh;布莱纳文;Blaenavon
+ja;ブレナヴォン;Blaenavon
+fa;بلین‌آون;Blaenavon
+ru;Блэнавон;Blaenavon
+bg;Блайнавон;Blaenavon
+bn;ব্লেনাভন;Blaenavon
+ka;ბლაენავონი;Blaenavon
+kn;ಬ್ಲೇನಾವೊನ್;Blaenavon
+ko;블레이네이번;Blaenavon
+ta;பிளேனாவோன்;Blaenavon
+gu;બ્લેનવૉન;Blaenavon
+te;బ్లెనావన్;Blaenavon
+he;בלנאפון;Blaenavon
+fa;بلکرود;Blackrod
+bn;ব্ল্যাকপুল;Blackpool
+ja;ブラックプール;Blackpool
+lt;Blakpulas;Blackpool
+ru;Блэкпул;Blackpool
+zh;黑潭;Blackpool
+sr;Блекпул;Blackpool
+bg;Блакпул;Blackpool
+az;Bləkpul;Blackpool
+uk;Блекпул;Blackpool
+th;แบล็กพูล;Blackpool
+ar;بلاكبول;Blackpool
+ka;ბლეკპული;Blackpool
+ko;블랙풀;Blackpool
+fa;بلک‌پول;Blackpool
+zh;布莱克本;Blackburn
+ru;Блэкберн;Blackburn
+zh;布萊克本;Blackburn
+he;בלקברן;Blackburn
+lt;Blakbernas;Blackburn
+fa;بلک‌برن;Blackburn
+ja;ブラックバーン;Blackburn
+uk;Блекберн;Blackburn
+ko;블랙번;Blackburn
+bg;Блекбърн;Blackburn
+th;แบล็กเบิร์น;Blackburn
+sr;Блекберн;Blackburn
+az;Blakbörn;Blackburn
+hy;Բլեկբերն;Blackburn
+yue;布力般;Blackburn
+fa;بیشاپس والتام;Bishops Waltham
+sv;Bishop's Waltham;Bishops Waltham
+pl;Bishop's Stortford;Bishops Stortford
+el;Μπίσοπς Στόρτφορντ;Bishops Stortford
+fa;بیشاپس استورتفورد;Bishops Stortford
+zh;畢曉普斯托福德;Bishops Stortford
+fa;بیشاپ بریگز;Bishopbriggs
+uk;Бішопбріггс;Bishopbriggs
+ru;Бишопбриггс;Bishopbriggs
+ar;بيشاب بريغز;Bishopbriggs
+az;Bişopbriqqs;Bishopbriggs
+ru;Бишоп-Окленд;Bishop Auckland
+fa;بیشاپ اوکلند;Bishop Auckland
+ar;برمينغهام;Birmingham
+bg;Бирмингам;Birmingham
+he;ברמינגהאם;Birmingham
+ja;バーミンガム;Birmingham
+lt;Birmingamas;Birmingham
+lv;Birmingema;Birmingham
+ru;Бирмингем;Birmingham
+th;เบอร์มิงแฮม;Birmingham
+uk;Бірмінгем;Birmingham
+zh;伯明翰;Birmingham
+zh;伯明翰市;Birmingham
+ug;Birmin'gxam;Birmingham
+ko;버밍엄;Birmingham
+sr;Бирмингем;Birmingham
+el;Μπέρμιγχαμ;Birmingham
+ka;ბირმინგემი;Birmingham
+hi;बर्मिंघम;Birmingham
+fa;بیرمنگام;Birmingham
+te;బర్మింగ్‌హామ్;Birmingham
+ta;பர்மிங்காம்;Birmingham
+os;Бирмингем;Birmingham
+mk;Бирмингем;Birmingham
+mr;बर्मिंगहॅम;Birmingham
+cv;Бирмингем;Birmingham
+gu;બર્મિંગહામ;Birmingham
+kn;ಬರ್ಮಿಂಗ್ಹ್ಯಾಮ್;Birmingham
+hy;Բիրմինգհեմ;Birmingham
+be;Бірмінгем;Birmingham
+am;በርሚንግሃም;Birmingham
+az;Birmingem;Birmingham
+ru;Биркенхед;Birkenhead
+ko;버컨헤드;Birkenhead
+lt;Berkenhedas;Birkenhead
+uk;Беркенгед;Birkenhead
+ml;ബ്രിക്കൻഹെഡ്;Birkenhead
+fa;برکن‌هد;Birkenhead
+sr;Беркенхед;Birkenhead
+ja;バーケンヘッド;Birkenhead
+th;เบอร์เคนเฮด;Birkenhead
+ru;Беркенхед;Birkenhead
+fa;بینگلی;Bingley
+ru;Бингли;Bingley
+fa;بینگهام، ناتینگهام‌شر;Bingham
+nn;Bingham i Nottinghamshire;Bingham
+ur;بنگہم، ناٹنگھم شائر;Bingham
+ar;بينفيلد;Binfield
+fa;بیلستون;Bilston
+ru;Биллингем;Billingham
+bg;Билингам;Billingham
+el;Μπίλιγχαμ;Billingham
+fa;بیلینگام;Billingham
+zh;比林漢姆;Billingham
+ru;Биллерикей;Billericay
+fa;بیلریکای;Billericay
+fa;بیگلسوید;Biggleswade
+ur;بیئرلی، ویسٹ یارکشائر;Bierley
+hy;Բիլդսայդ;Bieldside
+ja;ビールドサイド;Bieldside
+he;בילדסייד;Bieldside
+bg;Байдфорд;Bideford
+fa;بیدفورد;Bideford
+ru;Байдфорд;Bideford
+fa;بیدولف;Biddulph
+fa;بیسستر;Bicester
+ur;بیسسٹر;Bicester
+ur;بیکزلیہیتھ;Bexleyheath
+hi;बेक्सलीहीथ;Bexleyheath
+ko;벡슬리히스;Bexleyheath
+sr;Лондонска општина Бексли;Bexley
+hu;Bexley kerület;Bexley
+fa;بکسلی;Bexley
+ur;بیکزلی، لندن;Bexley
+ru;Бексли;Bexley
+zh;比尤德利;Bewdley
+fa;بودلی;Bewdley
+ko;베벌리;Beverley
+bg;Бевърли;Beverley
+fa;بورلی;Beverley
+zh;貝弗利;Beverley
+ru;Бевърли;Beverley
+zh-Hant;貝文頓;Bevendean
+zh;贝文顿;Bevendean
+ru;Бервик-апон-Твид;Berwick-Upon-Tweed
+hi;बर्मंडसी;Bermondsey
+uk;Беркхемстед;Berkhamsted
+bg;Бъркхамстед;Berkhamsted
+zh;伯克翰斯德;Berkhamsted
+fa;برکمستد;Berkhamsted
+fa;برکلی، گلاسترشر;Berkeley
+ru;Беркли;Berkeley
+bg;Бембридж;Bembridge
+ru;Бембридж;Bembridge
+ru;Белпер;Belper
+he;בלפר;Belper
+bg;Белпър;Belper
+fa;بلفاست;Belfast
+he;בלפאסט;Belfast
+ja;ベルファスト;Belfast
+ko;밸파스트;Belfast
+ru;Белфаст;Belfast
+zh;贝尔法斯特;Belfast
+bg;Белфаст;Belfast
+be;Белфаст;Belfast
+ko;벨파스트;Belfast
+zh;貝爾法斯特;Belfast
+el;Μπέλφαστ;Belfast
+lv;Belfāsta;Belfast
+sr;Белфаст;Belfast
+ar;بلفاست;Belfast
+bn;বেলফাস্ট;Belfast
+hy;Բելֆաստ;Belfast
+ka;ბელფასტი;Belfast
+kn;ಬೆಲ್‌ಫಾಸ್ಟ್‌;Belfast
+lt;Belfastas;Belfast
+mr;बेलफास्ट;Belfast
+my;ဗဲလဖတ်မြို့;Belfast
+os;Белфаст;Belfast
+ta;பெல்பாஸ்ட்;Belfast
+th;เบลฟัสต์;Belfast
+tl;Belpas;Belfast
+uk;Белфаст;Belfast
+yue;貝爾法斯特;Belfast
+nn;Beeston i Nottinghamshire;Beeston
+lt;Bistonas;Beeston
+ru;Бедворс;Bedworth
+fa;بدوورث;Bedworth
+lt;Bedvortas;Bedworth
+ar;بدولتي;Bedwellty
+ja;ベッドウェルティ;Bedwellty
+fa;وست بدلینگتون;Bedlington
+ru;Бедфорд;Bedford
+uk;Бедфорд;Bedford
+ar;بيدفورد;Bedford
+ko;베드퍼드;Bedford
+fa;بدفورد، انگلستان;Bedford
+sr;Бедфорд;Bedford
+fa;بیدیل;Bedale
+hi;बेकेनहम;Beckenham
+ur;بیکنہیم، لندن;Beckenham
+fa;بکنهام;Beckenham
+ja;ベックナム;Beckenham
+fa;بکلس;Beccles
+fa;ببینگتون;Bebington
+sr;Бебингтон;Bebington
+zh;貝賓頓;Bebington
+ru;Бебингтон;Bebington
+bg;Биумарис;Beaumaris
+ru;Бомарис;Beaumaris
+zh;波馬利斯;Beaumaris
+ru;Бьюли;Beaulieu
+uk;Бірсден;Bearsden
+ru;Берсден;Bearsden
+az;Bersden;Bearsden
+fa;برزدن;Bearsden
+ru;Беминстер;Beaminster
+fa;بیمینستر;Beaminster
+ar;بيكونسفيلد، كيبك;Beaconsfield
+bg;Бекънсфийлд;Beaconsfield
+zh;比肯斯菲尔德;Beaconsfield
+fa;بکونزفیلد;Beaconsfield
+ru;Беконсфилд;Beaconsfield
+fa;باوتری;Bawtry
+ru;Баттл;Battle
+nn;Battle i East Sussex;Battle
+ko;배틀;Battle
+zh;巴特尔;Battle
+bg;Батъл;Battle
+fa;باتل، ساسکس شرقی;Battle
+ja;バトル;Battle
+bg;Батли;Batley
+sr;Батли;Batley
+zh;巴特利;Batley
+fa;باتلی;Batley
+ru;Батли;Batley
+uk;Батгейт;Bathgate
+ko;배스게이트;Bathgate
+fa;بسگیت;Bathgate
+zh;巴斯蓋特;Bathgate
+ru;Батгейт;Bathgate
+ar;باث;Bath
+fa;باث;Bath
+he;באת;Bath
+ja;バース;Bath
+ru;Бат;Bath
+zh;巴斯;Bath
+th;บาธ;Bath
+ka;ბათი;Bath
+ko;바스;Bath
+uk;Бат;Bath
+hy;Բաթ;Bath
+sr;Бат;Bath
+bg;Бат;Bath
+lv;Bāta;Bath
+be;Бат;Bath
+mzn;باث;Bath
+lt;Batas;Bath
+az;Bat;Bath
+el;Μπαθ;Bath
+kk;Бат;Bath
+ur;باتھ، سومرسیٹ;Bath
+fa;باسینگستوک;Basingstoke
+sr;Бејзингстоук;Basingstoke
+ko;베이싱스토크;Basingstoke
+he;בייסינגסטוק;Basingstoke
+zh;貝辛斯托克;Basingstoke
+ja;ベイジングストーク;Basingstoke
+el;Μπέιζινγκστοουκ;Basingstoke
+kk;Бэйсингсток;Basingstoke
+tt;Бейзиңстоук;Basingstoke
+lt;Beizingstokas;Basingstoke
+hy;Բեյսինգսթոուք;Basingstoke
+zh-Hans;贝辛斯托克;Basingstoke
+ur;بیزنگسٹوک;Basingstoke
+ar;باسينجستوك;Basingstoke
+ru;Бейсингсток;Basingstoke
+bg;Басингстоке;Basingstoke
+bn;বাসিংস্টোক;Basingstoke
+kn;ಬೇಸಿಂಗ್ಸ್ಟೋಕ್;Basingstoke
+ta;பசிங்ஸ்டாக்;Basingstoke
+gu;બેસિંગસ્ટોક;Basingstoke
+te;బసింగ్స్టోక్;Basingstoke
+ru;Басилдон;Basildon
+sr;Базилдон;Basildon
+fa;بزیلدون;Basildon
+lt;Bazildonas;Basildon
+bg;Базилдън;Basildon
+ko;배질던;Basildon
+ru;Базилдон;Basildon
+zh;巴西爾登;Basildon
+ja;バジルドン;Basildon
+be;Базілдан;Basildon
+ru;Барри;Barry
+sr;Бери;Barry
+bg;Бари;Barry
+lt;Baris;Barry
+uk;Баррі;Barry
+nn;Barry i Wales;Barry
+zh;巴里;Barry
+fa;بری، ولز;Barry
+he;בארי;Barry
+uk;Баррхед;Barrhead
+lt;Barhedas;Barrhead
+ru;Баррхед;Barrhead
+fa;بارهد;Barrhead
+bg;Барнстъпъл;Barnstaple
+ko;반스터플;Barnstaple
+ru;Барнстапл;Barnstaple
+fa;بارنستاپل;Barnstaple
+lt;Barnstaplis;Barnstaple
+ru;Барнсли;Barnsley
+ko;반즐리;Barnsley
+ar;بارنزلي;Barnsley
+lt;Barnslis;Barnsley
+bg;Барнзли;Barnsley
+uk;Барнслі;Barnsley
+fa;بارنزلی;Barnsley
+sr;Барнсли;Barnsley
+zh;巴恩斯利;Barnsley
+ja;バーンズリー;Barnsley
+be;Барнслі;Barnsley
+yue;班士利;Barnsley
+fa;بارنولدزویک;Barnoldswick
+hi;बार्नेट;Barnet
+uk;Барнет;Barnet
+ur;بارنٹ، لندن;Barnet
+sr;Лондонска општина Барнет;Barnet
+hy;Բարնեթ;Barnet
+ja;バーネット・ロンドン特別区;Barnet
+hu;Barnet kerület;Barnet
+he;בארנט;Barnet
+pl;High Barnet;Barnet
+ru;Барнет;Barnet
+sv;London Borough of Barnet;Barnet
+zh;巴尼特區;Barnet
+hi;बार्न्स;Barnes
+fa;بانس، لندن;Barnes
+fa;برنارد کستل;Barnard Castle
+ar;برنك;Barnack
+bg;Бармът;Barmouth
+ru;Бармут;Barmouth
+lt;Barmutas;Barmouth
+bn;বারমাউথ;Barmouth
+zh-Hans;巴尔茅斯;Barmouth
+zh-Hant;巴爾茅夫;Barmouth
+ur;بارموود;Barmouth
+kn;ಬಾರ್ಮೌತ್;Barmouth
+ko;바르무트;Barmouth
+ta;பார்மௌத்;Barmouth
+zh;巴茅斯;Barmouth
+gu;બરમાઉથ;Barmouth
+te;బార్ మౌత్;Barmouth
+ja;バーマウス;Barmouth
+fa;بارموث;Barmouth
+he;ברמות';Barmouth
+hi;बार्किंग;Barking
+nn;Barking i England;Barking
+fa;بارکینگ;Barking
+ja;バーキング;Barking
+ru;Баркинг;Barking
+bg;Банстед;Banstead
+ru;Банстед;Banstead
+bg;Банъкбърн;Bannockburn
+ru;Банъкбърн;Bannockburn
+ru;Бангор;Bangor
+bg;Бангор;Bangor
+fa;بنگور، کانتی داون;Bangor
+ja;バンガー;Bangor
+lt;Bangoras;Bangor
+nn;Bangor i Nord-Irland;Bangor
+sr;Бангор;Bangor
+uk;Бангор;Bangor
+zh;班戈;Bangor
+el;Μπάνγκορ;Bangor
+ka;ბანგორი;Bangor
+fa;بنگور، ولز;Bangor
+ar;بانغور;Bangor
+ko;뱅고어;Bangor
+hy;Բանգոր;Bangor
+he;בנגור;Bangor
+ur;بینگور، گوینڈ;Bangor
+cs;Banff a Macduff;Banff
+ja;バンフ;Banff
+nn;Banff i Skottland;Banff
+pl;Banff i Macduff;Banff
+zh;班夫;Banff
+zh;班科里;Banchory
+ru;Банбери;Banbury
+bg;Банбъри;Banbury
+lt;Banberis;Banbury
+fa;بنبری;Banbury
+ja;バンベリー;Banbury
+hy;Բանբերի;Banbury
+bg;Банбридж;Banbridge
+ru;Банбридж;Banbridge
+uk;Бамптон;Bampton
+ru;Бамптон;Bampton
+bg;Балинахинч;Ballynahinch
+ru;Баллинахинч;Ballynahinch
+bg;Балимъни;Ballymoney
+ru;Баллимони;Ballymoney
+ro;Districtul Ballymoney;Ballymoney
+ru;Бэллимена;Ballymena
+ko;밸리미나;Ballymena
+lt;Balimena;Ballymena
+bg;Балимина;Ballymena
+ar;بيليمينا;Ballymena
+mn;Бэллимена;Ballymena
+ro;Districtul Ballymena;Ballymena
+ru;Баллимина;Ballymena
+he;באלמינה;Ballymena
+zh;巴利米納;Ballymena
+bg;Баликлеър;Ballyclare
+lt;Balikleras;Ballyclare
+ru;Балликлер;Ballyclare
+zh;巴利克萊爾;Ballyclare
+zh-Hans;巴利克莱尔;Ballyclare
+ja;バリークレア;Ballyclare
+he;בליקלייר;Ballyclare
+bg;Баликасъл;Ballycastle
+ru;Балликасл;Ballycastle
+zh;巴勒特;Ballater
+bg;Балъм;Balham
+ru;Балъм;Balham
+bg;Балерно;Balerno
+zh;巴勒诺;Balerno
+zh-Hant;巴勒諾;Balerno
+ja;バレルノ;Balerno
+ru;Балерно;Balerno
+bg;Бала;Bala
+ru;Бала;Bala
+fa;بیکاپ;Bacup
+ru;Эр;Ayr
+lt;Eras;Ayr
+uk;Ер;Ayr
+ja;エア;Ayr
+az;Eyr;Ayr
+fa;ایر;Ayr
+he;אייר;Ayr
+zh;艾尔;Ayr
+fa;آیلشام;Aylsham
+ru;Эйлсбери;Aylesbury
+zh;艾爾斯伯里;Aylesbury
+sr;Ејлсбери;Aylesbury
+ko;에일즈베리;Aylesbury
+be;Эйлсберы;Aylesbury
+ja;アリスバーリー;Aylesbury
+lt;Eilsberis;Aylesbury
+fa;آیلزبری;Aylesbury
+ar;أيلزبري;Aylesbury
+cs;Axminsterský koberec;Axminster
+fa;اکسمینستر;Axminster
+uk;Аксмінстер;Axminster
+fa;اکسریج;Axbridge
+zh;阿维莫尔;Aviemore
+bg;Авелей;Aveley
+zh;艾維利;Aveley
+ar;أفيلاي;Aveley
+ja;エイヴリー;Aveley
+he;אייבלי;Aveley
+ur;ایویلی;Aveley
+ru;Авелей;Aveley
+fi;Aveburyn kivikehä;Avebury
+bg;Аултбеа;Aultbea
+ar;اودلم;Audlem
+fa;اتلبرو;Attleborough
+zh;阿斯顿皮格特;Aston Pigott
+fa;اسپاتریا;Aspatria
+ru;Эштон-андер-Лайн;Ashton-under-Lyne
+fa;اشتون-آندر-لین;Ashton-under-Lyne
+fa;اشینگتون;Ashington
+nn;Ashford i Surrey;Ashford
+ru;Эшфорд;Ashford
+sr;Ешфорд;Ashford
+ko;애슈퍼드;Ashford
+nn;Ashford i Kent;Ashford
+zh;阿什福德;Ashford
+fa;اشفورد، کنت;Ashford
+lt;Ašfordas;Ashford
+fa;اشبورتون، دوون;Ashburton
+nn;Ashburton i Devon;Ashburton
+ar;أسكوت;Ascot
+bg;Аскът;Ascot
+ru;Аскот;Ascot
+zh;雅士谷;Ascot
+bg;Аръндел;Arundel
+uk;Ерандел;Arundel
+fa;آروندل;Arundel
+zh;阿倫德爾;Arundel
+ru;Арнольд;Arnold
+bg;Арнолд;Arnold
+ur;آرنلڈ، ناٹنگھمشائر;Arnold
+ja;アーマー;Armagh
+lt;Arma;Armagh
+ko;아마;Armagh
+bg;Арма;Armagh
+fa;آرما;Armagh
+hy;Արմա;Armagh
+ru;Арма;Armagh
+zh;阿馬;Armagh
+uk;Арма;Armagh
+ur;آرماہ;Armagh
+fa;ارلسی;Arlesey
+ja;アリセグ;Arisaig
+he;אריסאיג;Arisaig
+uk;Ардроссан;Ardrossan
+be;Ардросан;Ardrossan
+ru;Ардроссан;Ardrossan
+uk;Арброт;Arbroath
+bg;Арброут;Arbroath
+ru;Арброт;Arbroath
+lt;Arbrotas;Arbroath
+fa;آربروث;Arbroath
+zh;阿布羅斯;Arbroath
+lt;Antrimas;Antrim
+bg;Антрим;Antrim
+ja;アントリム;Antrim
+ru;Антрим;Antrim
+ro;Districtul Antrim;Antrim
+bg;Анан;Annan
+ko;아난;Annan
+ru;Анан;Annan
+th;แอนโดเวอร์;Andover
+nn;Andover i Hampshire;Andover
+ja;アンドーヴァー;Andover
+ru;Андовер;Andover
+hi;एंडोवर;Andover
+ko;앤도버;Andover
+fa;اندوور، همپشر;Andover
+bg;Аманфорд;Ammanford
+uk;Амманфорд;Ammanford
+ru;Амманфорд;Ammanford
+lt;Amanfordas;Ammanford
+bn;আমানফোর্ড;Ammanford
+zh-Hans;安曼福特;Ammanford
+zh-Hant;安曼福特;Ammanford
+ur;اممانفورڈ;Ammanford
+kn;ಅಮ್ಮನ್ಫೋರ್ಡ್;Ammanford
+ko;암마포드;Ammanford
+el;Άμανφορντ;Ammanford
+ta;அம்மன்போர்ட்;Ammanford
+zh;阿曼福德;Ammanford
+gu;અમાનફોર્ડ;Ammanford
+te;అమ్మన్ఫోర్డ్;Ammanford
+ja;アンマンフォード;Ammanford
+fa;آمانفورد;Ammanford
+he;אמנפורד;Ammanford
+ko;에임즈버리;Amesbury
+uk;Еймсбері;Amesbury
+fa;آمسبوری;Amesbury
+ru;Эймсбери;Amesbury
+zh;埃姆斯伯里;Amesbury
+ru;Амершам;Amersham
+ru;Амблсайд;Ambleside
+fa;امبلساید;Ambleside
+zh;安布賽德;Ambleside
+fa;امبل، نورث‌آمبرلند;Amble
+zh;奥尔特灵厄姆;Altrincham
+fa;آلترینکهام;Altrincham
+bg;Олтън;Alton
+uk;Алтон;Alton
+nn;Alton i Hampshire;Alton
+fa;آلتون، همپشر;Alton
+ur;الٹن، ہیمپشائر;Alton
+ja;アルトナハラ;Altnaharra
+ar;الترنون;Altarnun
+nn;Alston i Cumbria;Alston
+fa;آلستون، کامبریا;Alston
+fa;السیجر;Alsager
+ru;Алник;Alnwick
+ar;ألنويك;Alnwick
+fa;آلنویک;Alnwick
+ja;アニック;Alnwick
+ur;اینک;Alnwick
+zh;阿尔内斯;Alness
+bg;Алоа;Alloa
+ru;Аллоа;Alloa
+uk;Аллоа;Alloa
+fa;الوآ;Alloa
+ru;Аллестри;Allestree
+zh;奧爾弗里斯頓;Alfriston
+ru;Алфретон;Alfreton
+lt;Oldridžas;Aldridge
+ko;올더숏;Aldershot
+lt;Olderšotas;Aldershot
+fa;الدرشات;Aldershot
+sr;Олдершот;Aldershot
+ru;Олдершот;Aldershot
+zh;奧爾德肖特;Aldershot
+ja;アルダーショット;Aldershot
+ar;ألدرشوت;Aldershot
+he;אלדרשוט;Aldershot
+uk;Олдершот;Aldershot
+ar;الدرمستون;Aldermaston
+ar;إلدرلي إدج;Alderley Edge
+ru;Олдборо;Aldeburgh
+fa;ادلبورو;Aldeburgh
+ja;オールドバラ;Aldeburgh
+fa;آلکستر;Alcester
+uk;Ейрдрі;Airdrie
+lt;Erdris;Airdrie
+ko;에어드리;Airdrie
+nn;Airdrie i North Lanarkshire;Airdrie
+fa;اردری;Airdrie
+zh;埃爾德里;Airdrie
+ja;エインズデール;Ainsdale
+be;Эдві;Advie
+fa;ادلینگتون، لانکاشر;Adlington
+nn;Adlington i Lancashire;Adlington
+ru;Адлингтон;Adlington
+bg;Актън;Acton
+fa;آکتون، لندن;Acton
+hi;ऐक्टन;Acton
+ja;アクトン;Acton
+nn;Acton i London;Acton
+ur;ایکٹون، لندن;Acton
+yue;厄頓;Acton
+ru;Актон;Acton
+ur;ویسٹ فیلڈ، نیویارک;Acomb
+zh-Hant;阿赫納欣;Achnasheen
+zh;阿赫纳欣;Achnasheen
+lt;Akringtonas;Accrington
+ru;Аккрингтон;Accrington
+zh;阿克寧頓;Accrington
+ar;أكرينجتون;Accrington
+fa;آکرینگتون;Accrington
+ko;애크링턴;Accrington
+yue;艾寧頓;Accrington
+ru;Абингдон;Abingdon
+bg;Абингдън;Abingdon
+fa;ابینگدن، آکسفوردشر;Abingdon
+ja;アビンドン＝オン＝テムズ;Abingdon
+ko;애빙던온템스;Abingdon
+lt;Abingdonas;Abingdon
+nn;Abingdon i Oxfordshire;Abingdon
+ur;ایبینگڈن-آن-ٹیمز;Abingdon
+zh;泰晤士河畔阿賓頓;Abingdon
+ru;Аберистуит;Aberystwyth
+zh;阿伯里斯特威斯;Aberystwyth
+uk;Аберіствіт;Aberystwyth
+bg;Абъристуит;Aberystwyth
+ar;آبريستويث;Aberystwyth
+ko;에버리스트위스;Aberystwyth
+lt;Aberistvitas;Aberystwyth
+ja;アベリストウィス;Aberystwyth
+fa;آبریستویث;Aberystwyth
+kk;Аберистуит;Aberystwyth
+bg;Абъртилъри;Abertillery
+uk;Абертіллері;Abertillery
+ru;Абертиллери;Abertillery
+zh;阿貝迪勒利;Abertillery
+lt;Abertileris;Abertillery
+bn;আবেরটিলি;Abertillery
+zh-Hans;阿贝迪勒利;Abertillery
+ur;ابیرتیلیری;Abertillery
+kn;ಆಬರ್ಟಿಲ್ಲರಿ;Abertillery
+ko;애버틸러리;Abertillery
+ta;அபெர்ட்டிலரி;Abertillery
+gu;એબર્ટિલરી;Abertillery
+te;అబెర్టిల్లెరి;Abertillery
+ja;アバーティレリー;Abertillery
+fa;ابرتیلری;Abertillery
+ru;Аберзихан;Abersychan
+bg;Аберсъхан;Abersychan
+lt;Abersičanas;Abersychan
+bn;এবারসিচ্যান;Abersychan
+zh-Hans;阿伯萨钦;Abersychan
+zh-Hant;阿伯薩欽;Abersychan
+ur;ابیرسیچان;Abersychan
+kn;ಅಬರ್ಸಿಯಾನ್;Abersychan
+ko;에버시찬;Abersychan
+ta;ஏபேரசிச்சன்;Abersychan
+gu;એબર્સિચેન;Abersychan
+zh;亞伯薩欽;Abersychan
+te;అబెర్సీచాన్;Abersychan
+ja;エイバーシーチャン;Abersychan
+fa;ابرسیچان;Abersychan
+bg;Абергеле;Abergele
+uk;Абергіл;Abergele
+ru;Абергеле;Abergele
+bn;অ্যাবারগিল;Abergele
+zh-Hans;阿贝尔格莱;Abergele
+ur;ابیرجیلی;Abergele
+kn;ಅಬೆರ್ಜೆಲ್;Abergele
+ko;애버겔;Abergele
+ta;அபேர்கெளே;Abergele
+zh;阿貝爾格萊;Abergele
+gu;એબરગેલ;Abergele
+te;అబెర్గేలే;Abergele
+ja;アバゲール;Abergele
+fa;آبرگل;Abergele
+he;אברגלי;Abergele
+hi;एबर्गावेनी;Abergavenny
+lt;Abergavenis;Abergavenny
+bg;Абъргавени;Abergavenny
+uk;Абергейвенні;Abergavenny
+ru;Абергавенни;Abergavenny
+zh;阿伯加文尼;Abergavenny
+ar;أبرففرو;Aberffraw
+uk;Аберфрау;Aberffraw
+ru;Аберфрау;Aberffraw
+bg;Абърдийн;Aberdeen
+fa;ابردین;Aberdeen
+ja;アバディーン;Aberdeen
+mk;Абердин;Aberdeen
+ru;Абердин;Aberdeen
+zh;阿伯丁;Aberdeen
+sr;Абердин;Aberdeen
+el;Αμπερντήν;Aberdeen
+ko;애버딘;Aberdeen
+kk;Абердин;Aberdeen
+ka;აბერდინი;Aberdeen
+os;Абердин;Aberdeen
+uk;Абердин;Aberdeen
+hy;Աբերդին;Aberdeen
+be;Абердзін;Aberdeen
+hi;एबरडीन;Aberdeen
+he;אברדין;Aberdeen
+az;Aberdin;Aberdeen
+th;แอเบอร์ดีน;Aberdeen
+te;అబెర్డీన్;Aberdeen
+ar;أبردين;Aberdeen
+my;အဘာဒင်းမြို့;Aberdeen
+mr;अ‍ॅबर्डीन;Aberdeen
+ml;അബർഡീൻ;Aberdeen
+lv;Aberdīna;Aberdeen
+lt;Aberdynas;Aberdeen
+sgs;Aberdīns;Aberdeen
+mn;Абердин;Aberdeen
+uz;Aberdin;Aberdeen
+yue;鴨巴甸;Aberdeen
+bn;অ্যাবরদিন;Aberdeen
+hak;Â-pak-tên;Aberdeen
+ur;ابرڈین;Aberdeen
+os;Абердарон;Aberdaron
+ko;애버데어;Aberdare
+bg;Абърдеър;Aberdare
+lt;Aberderas;Aberdare
+uk;Абердер;Aberdare
+ru;Абердэр;Aberdare
+zh;阿伯代爾;Aberdare
+bg;Аберкънон;Abercynon
+ru;Аберкънон;Abercynon
+ru;Аберкарн;Abercarn
+bg;Аберкарн;Abercarn
+lt;Aberkarnas;Abercarn
+bn;এবারকার্ন;Abercarn
+zh-Hans;阿巴卡恩;Abercarn
+zh-Hant;阿巴卡恩;Abercarn
+uk;Аберкорн;Abercarn
+ur;ابیرکارن;Abercarn
+kn;ಅಬರ್ಕಾರ್ನ್;Abercarn
+ko;애버칸;Abercarn
+ta;அபேர்க்காரன்;Abercarn
+zh;阿伯卡恩;Abercarn
+gu;એબરકાર્ન;Abercarn
+te;అబెర్కార్న్;Abercarn
+ar;أبيركارن;Abercarn
+ja;アバーカーン;Abercarn
+fa;ابرکارن;Abercarn
+bg;Аберайрон;Aberaeron
+uk;Аберарон;Aberaeron
+ru;Аберайрон;Aberaeron
+zh;阿貝拉尼;Aberaeron
+uk;Ебботс-Ленглі;Abbots Langley
+ru;Клифтонвилл;Cliftonville
+uk;Кліфтонвілл;Cliftonville
+he;קליפטונוויל;Cliftonville
+ja;メルカム・レジス;Melcombe Regis
+fa;ملکوم رگیس;Melcombe Regis
+fa;ایست کووز;East Cowes
+ru;Ист-Каус;East Cowes
+fa;لو;Looe
+ja;ベセスダ;Bethesda
+bg;Тонъпанди;Tonypandy
+zh;湯尼潘帝;Tonypandy
+ru;Тонипанди;Tonypandy
+lt;Tonipandis;Tonypandy
+bn;টনিপান্ডি;Tonypandy
+zh-Hans;汤尼潘帝;Tonypandy
+uk;Тоніпанді;Tonypandy
+ur;ٹنیپاندی;Tonypandy
+kn;ಟೋನಿಪ್ಯಾಂಡಿ;Tonypandy
+ko;토니팬디;Tonypandy
+ta;டொனிப்பாண்டி;Tonypandy
+gu;ટોનીપેંડી;Tonypandy
+te;టోనిప్యాండి;Tonypandy
+ja;トニイパンディ;Tonypandy
+fa;تونیپاندی;Tonypandy
+bg;Блекуд;Blackwood
+uk;Блеквуд;Blackwood
+he;קמדן טאון;Camden Town
+ko;캠던타운;Camden Town
+ur;کیمڈن ٹاؤن;Camden Town
+ja;カムデン・タウン;Camden Town
+zh;康登鎮;Camden Town
+hi;केम्बरवेल;Camberwell
+zh;坎伯韦尔;Camberwell
+ru;Камберуэлл;Camberwell
+ru;Телфорд;Telford
+lt;Telfordas;Telford
+ja;テルフォード;Telford
+zh;特爾福德;Telford
+be;Тэлфард;Telford
+fa;تلفورد;Telford
+hy;Թելֆորդ;Telford
+ru;Крейгавон;Craigavon
+bg;Крейгейвън;Craigavon
+fa;کریگ‌آوون;Craigavon
+sr;Крејгавон;Craigavon
+ro;Districtul Craigavon;Craigavon
+zh;克雷加文;Craigavon
+he;קרייגבון;Craigavon
+ur;کریگایون;Craigavon
+ru;Буфстаун;Boothstown
+kn;ಬೂತ್ಸ್ಟೌನ್;Boothstown
+ko;부스타운;Boothstown
+lt;Butaunas;Boothstown
+bn;বোথসটাউন;Boothstown
+ta;பூத்ஸ்டவுன்;Boothstown
+gu;બૂથસ્તોવ્ન;Boothstown
+zh-Hans;布斯陶恩;Boothstown
+te;బ్రూత్స్టౌన్;Boothstown
+zh-Hant;布斯陶恩;Boothstown
+ja;ブースタウン;Boothstown
+ur;بوتھستوون;Boothstown
+he;ווקסהול;Vauxhall
+bg;Воксхол;Vauxhall
+ja;ヴォクソール;Vauxhall
+ur;ووکسہول، لندن;Vauxhall
+zh;沃克斯豪爾;Vauxhall
+ur;کیننگٹن;Kennington
+bg;Тъуин;Tywyn
+bg;Браунси;Brownsea Island
+cs;Brownsea;Brownsea Island
+fi;Brownsean saari;Brownsea Island
+id;Pulau Brownsea;Brownsea Island
+ja;ブラウンシー島;Brownsea Island
+jv;Pulo Brownsea;Brownsea Island
+vi;Đảo Brownsea;Brownsea Island
+pl;Brownsea;Brownsea Island
+ru;Браунси;Brownsea Island
+zh;白浪島;Brownsea Island
+fa;یاتلی;Yateley
+ru;Тинтерн;Tintern
+bg;Балнаин;Balnain
+zh;巴寧;Balnain
+ru;Портмерион;Portmeirion
+ru;Вирджиния Уотер;Virginia Water
+ar;غررردس كراس;Gerrards Cross
+ur;ساؤتھ گیٹ، مغربی سسیکس;Southgate
+az;Erskin;Erskine
+fa;ارسکین;Erskine
+uk;Ерскін;Erskine
+ja;ボアズ・ヒル;Boars Hill
+hi;क्लर्कनवेल;Clerkenwell
+ur;کلرکنویل، لندن;Clerkenwell
+ru;Клеркенвелл;Clerkenwell
+hy;Քլերքենվել;Clerkenwell
+zh-Hans;克拉肯韦尔区;Clerkenwell
+zh-Hant;克拉肯韋爾區;Clerkenwell
+ko;클라컨웰;Clerkenwell
+zh;克勒肯維爾;Clerkenwell
+ar;كليركينويل;Clerkenwell
+ja;クラーケンウェル;Clerkenwell
+fa;کلارکنول;Clerkenwell
+he;קלרקנוול;Clerkenwell
+ur;نائیٹسبرج;Knightsbridge
+hi;नाइट्सब्रिज;Knightsbridge
+he;נייטסברידג;Knightsbridge
+ja;ナイツブリッジ;Knightsbridge
+zh;骑士桥;Knightsbridge
+fa;نایتسبریج;Knightsbridge
+ja;ウッディンディーン;Woodingdean
+ur;کینٹش ٹاؤن;Kentish Town
+ms;Taman Finsbury;Finsbury Park
+ru;Финсбери;Finsbury Park
+zh;芬斯伯里公園;Finsbury Park
+bn;শ্যাডওয়েল;Shadwell
+hi;शैडवेल;Shadwell
+ur;شیڈویل، لندن;Shadwell
+hi;मॉटिंगहम;Mottingham
+ur;موٹنگٹم، لندن;Mottingham
+hi;टॉलवर्थ;Tolworth
+hi;किंग्स्टन अपॉन टेम्स;Kingston upon Thames
+ru;Кингстон-апон-Темс;Kingston upon Thames
+uk;Кінгстон-на-Темзі;Kingston upon Thames
+fa;کینگستون آپون تیمز;Kingston upon Thames
+ko;킹스턴어폰템스;Kingston upon Thames
+zh;泰晤士河畔金斯頓;Kingston upon Thames
+hi;सर्बिटन;Surbiton
+ru;Сербитон;Surbiton
+fa;ساربیتون;Surbiton
+ru;Фэйлзуорт;Failsworth
+ru;Семпрингхем;Sempringham
+fa;فرنداون;Ferndown
+ru;Ферндаун;Ferndown
+uk;Морар;Morar
+ja;モラー;Morar
+he;בנוול;Benwell
+fa;ایرل شیلتون;Earl Shilton
+no;Lytham St. Annes;Lytham St Annes
+nn;Lytham St. Annes;Lytham St Annes
+bg;Лидъм Сейнт Аннс;Lytham St Annes
+fa;لیتهام سنت آنس;Lytham St Annes
+fa;اگبریگ;Agbrigg
+hi;क्रिस्टल पैलस;Crystal Palace
+ur;کرسٹل پیلس، لندن;Crystal Palace
+ja;クリスタル・パレス;Crystal Palace
+sr;Кристал палас;Crystal Palace
+ru;Кристал Палас;Crystal Palace
+fa;ویتسن، مرزیساید;Whiston
+nn;Whiston i Merseyside;Whiston
+th;วิสตัน;Whiston
+ja;バーンウッド;Barnwood
+zh;阿勒顿堂区;Chapel Allerton
+zh-Hant;阿勒頓堂區;Chapel Allerton
+fa;چاپل آلرتون;Chapel Allerton
+hi;हेडिंग्ले;Headingley
+ja;ヘディングリー;Headingley
+fa;هدینگلی;Headingley
+ur;ہیڈنگلے;Headingley
+bg;Нюкасъл;Newcastle
+ru;Ньюкасл;Newcastle
+el;Νέο Λάναρκ;New Lanark
+he;ניו לנארק;New Lanark
+ja;ニュー・ラナーク;New Lanark
+ka;ნიუ-ლანარკი;New Lanark
+zh;新拉纳克;New Lanark
+lt;Niu Lanarkas;New Lanark
+ru;Нью-Ланарк;New Lanark
+he;גלנגורמלי;Glengormley
+ru;Челмсли-Вуд;Chelmsley Wood
+kn;ಚೆಲ್ಮ್ಸ್ಲೇ ವುಡ್;Chelmsley Wood
+ko;첼름즐리 우드;Chelmsley Wood
+lt;Chelmnas Vudas;Chelmsley Wood
+bn;চেমসলে;Chelmsley Wood
+ta;செல்ம்சளே வுட்;Chelmsley Wood
+gu;ચેલ્મસ્લી વુડ;Chelmsley Wood
+zh-Hans;彻姆斯雷伍德;Chelmsley Wood
+te;చెమ్లీస్ వుడ్;Chelmsley Wood
+zh-Hant;徹姆斯雷伍德;Chelmsley Wood
+uk;Челмслі-Вуд;Chelmsley Wood
+ja;チェルムスリー・ウッド;Chelmsley Wood
+ur;چیلمسلے ووڈ;Chelmsley Wood
+fa;پولهم مارکت;Pulham Market
+es;Abadía de Bolton;Bolton Abbey
+ar;وست ويكمب;West Wycombe
+bg;Кенчестер;Kenchester
+hy;Սուրբ Ագնեսայի կղզի;St Agnes
+nn;St Agnes i Scillyøyane;St Agnes
+zh;圣艾格尼丝岛;St Agnes
+ar;بلاكهيث;Blackheath
+ko;블랙히스;Blackheath
+hi;हार्मंड्सवर्थ;Harmondsworth
+fa;استودی;Stody
+ja;ハタースリー;Hattersley
+zh;哈特斯利;Hattersley
+ja;ヒースロー;Heathrow
+nn;Malvern i Worcestershire;Malvern
+fa;مالورن، ووسترشر;Malvern
+ur;ایبی وڈ;Abbey Wood
+ja;ショーランズ;Shawlands
+hi;किंग्स क्रॉस;Kings Cross
+ur;کنگز کروس، لندن;Kings Cross
+hi;गोल्डर्स ग्रीन;Golders Green
+ur;گولڈرز گرین;Golders Green
+he;גולדרס גרין;Golders Green
+zh;菲纳文;Finavon
+ja;ブラックフォード;Blackford
+ru;Лод;Lode
+ru;Гленко;Glencoe
+zh;格伦科;Glencoe
+ja;グレンコー;Glencoe
+pl;Glen Coe;Glencoe
+et;Canvey saar;Canvey Island
+fa;جزیرخ کانوی;Canvey Island
+sr;Канви;Canvey Island
+ar;ميدلبورت;Middleport
+ja;ミドルポート;Middleport
+zh;諾蒂阿什;Knotty Ash
+he;אולד סוואן;Old Swan
+ja;マーシュ;Marsh
+hy;Հեյրհիլս;Harehills
+bg;Хеърхилс;Harehills
+he;הרהילס;Harehills
+zh-Hant;里士满希爾;Richmond Hill
+zh;里士满希尔;Richmond Hill
+fa;پیسهیون;Peacehaven
+zh;蒙彼利埃;Montpellier
+be;Бабакомб;Babbacombe
+uk;Баббакомб;Babbacombe
+ko;애플비인웨스트멀런드;Appleby-in-Westmorland
+fa;اپلبی-این-وستمورلند;Appleby-in-Westmorland
+zh;威斯摩蘭阿普比;Appleby-in-Westmorland
+bg;Ардгай;Ardgay
+sr;Хејлинг;Hayling Island
+bg;Лангадог;Llangadog
+fa;لنگادوگ;Llangadog
+ja;ティンタジェル;Tintagel
+el;Τίνταγκελ;Tintagel
+he;טינטאגל;Tintagel
+ar;تينتغل;Tintagel
+zh;廷塔哲;Tintagel
+ar;ألفاستون;Alvaston
+ja;アルバストン;Alvaston
+ar;كينغزبري;Kingsbury
+hi;किंग्सबरी;Kingsbury
+ur;کنگزبری، لندن;Kingsbury
+hi;कॉलिनडेल;Colindale
+ur;کولنڈیل، لندن;Colindale
+bg;Смалфорд;Smallford
+ja;チャールトン;Charlton
+yue;查爾頓;Charlton
+hi;आर्क्ली;Arkley
+ja;アークリー;Arkley
+ur;آرکلے، لندن;Arkley
+be;Сток;Stoke
+ru;Сток;Stoke
+zh;斯托克达默勒尔;Stoke
+zh-Hant;斯托克達默勒爾;Stoke
+ja;ストーク;Stoke
+he;סטרוק;Stoke
+be;Стокбрыдж;Stockbridge
+ru;Стокбридж;Stockbridge
+lv;Stokbridža;Stockbridge
+hy;Սթոքբրիջ;Stockbridge
+he;סטוקברידג';Stockbridge
+ar;كمبورن;Cambourne
+ru;Камбурн;Cambourne
+hu;Dungeness-fok;Dungeness
+hi;हैम्पटन विक;Hampton Wick
+ur;ہیمپٹن وک;Hampton Wick
+ar;بندين;Pendeen
+ru;Калгари;Calgary
+ja;ブリッジ・オヴ・ドン;Bridge of Don
+zh;布萊克多格;Blackdog
+he;שירווטר;Sheerwater
+ur;شیئرواٹر;Sheerwater
+ja;ニュークレイグホール;Newcraighall
+ja;セリー・パーク;Selly Park
+zh;塞利公园;Selly Park
+ja;ゴッドストウ;Godstow
+ar;سوار;Soar
+ar;تريفدريث;Trefdraeth
+ar;بارادوايس;Paradwys
+ar;كابل ماوار;Capel Mawr
+ja;スケレイ;Skerray
+ru;Вулстхорп-бай-Колстерворт;Woolsthorpe-by-Colsterworth
+bg;Улстхорп бай Колстъруърт;Woolsthorpe-by-Colsterworth
+lt;Vulstorpas prie Kolsterverto;Woolsthorpe-by-Colsterworth
+hy;Վուլսթորփ-բայ-Քոլսթերուորս;Woolsthorpe-by-Colsterworth
+zh-Hant;伍爾索普;Woolsthorpe-by-Colsterworth
+ka;ვულსთჰორპ-ბაი-კოლსტერვორთი;Woolsthorpe-by-Colsterworth
+ur;وولزتھورپ-بائی-کولسٹرورتھ;Woolsthorpe-by-Colsterworth
+mk;Вулсторп крај Колстерворт;Woolsthorpe-by-Colsterworth
+zh;伍尔索普;Woolsthorpe-by-Colsterworth
+ja;ウールスソープ＝バイ＝カールスターワース;Woolsthorpe-by-Colsterworth
+fa;وولزثروپ-بای-کالسترورث;Woolsthorpe-by-Colsterworth
+he;וולסתורפ;Woolsthorpe-by-Colsterworth
+zh;凱普斯霍特;Kempshott
+hi;ऑल्डर्सब्रुक;Aldersbrook
+ur;والٹن، ایلزبری;Walton
+ja;モスリーヒル;Mossley Hill
+ru;Аллертон;Allerton
+zh;阿勒頓;Allerton
+ru;Раундхэй;Roundhay
+zh;朗德海;Roundhay
+ja;ラウンドヘイ;Roundhay
+zh-Hans;布劳顿;Broughton
+ja;ブロートン;Broughton
+zh;布勞頓;Broughton
+he;לידיוול;Ladywell
+uk;Портсвуд;Portswood
+ru;Портсвуд;Portswood
+uk;Сауз-Хілтон;South Hylton
+zh-Hant;圖廷貝克;Tooting Bec
+ja;トゥーティング・ベク;Tooting Bec
+ur;ٹوتنگ بیک;Tooting Bec
+zh;图廷贝克;Tooting Bec
+ja;ブロックストウ;Broxtowe
+ja;ストーク・ビショップ;Stoke Bishop
+uk;В'юпарк;Viewpark
+ru;В'Юпарк;Viewpark
+ja;ブルフォード・キャンプ;Bulford Camp
+he;מחנה בולפורד;Bulford Camp
+zh;巴爾福德營;Bulford Camp
+ja;スパークブルック;Sparkbrook
+ru;Аркхуаи;Archway
+ar;ردول;Radwell
+fa;ردول، بدفوردشر;Radwell
+ja;シンフィン;Sinfin
+ja;リベル;Riber
+ja;サウス・ウィールド;South Weald
+he;דרום וילד‏;South Weald
+ja;ゲートエイカー;Gateacre
+ru;Харперхей;Harpurhey
+hy;Հարփերհեյ;Harpurhey
+fa;هارپورهی;Harpurhey
+he;הארפורהיי;Harpurhey
+zh;波洛克灣;Porlock Weir
+ja;ヘンベリー;Henbury
+ar;تايلرز جرين;Tylers Green
+ru;Платт-Бридж;Platt Bridge
+ja;ラドフォード;Radford
+ja;ドール;Doll
+zh;布洛頓;Broughton
+pl;Platts Heath;Platt's Heath
+ko;그래프턴;Grafton
+ja;カートランド;Cartland
+ja;ノーソール;Northall
+bg;Инглебй;Ingleby
+zh;恩格爾比;Ingleby
+ja;イングルビー;Ingleby
+ur;ملٹن، ڈربی شائر;Milton
+lt;Veston Hilsas;Weston Hills
+fa;هاو وود;How Wood
+ar;وودسيد;Woodside
+ja;ウッドサイド;Woodside
+fa;وودساید، بدفوردشر;Woodside
+ru;Беркот;Burcot
+zh-Hant;安東斯高特;Anton's Gowt
+zh;安东斯高特;Anton's Gowt
+ja;サンドフォード;Sandford
+ja;ティニンガム;Tyninghame
+ur;تھورنسیٹ;Thornsett
+zh-Hant;斯塔希爾;Start Hill
+zh;斯塔希尔;Start Hill
+ar;زوش;Zouch
+ja;ストーズ;Storrs
+ur;ایکٹن، سٹیفورڈشائر;Acton
+ja;エイコル;Acol
+zh;克利夫頓;Clifton
+ja;ウォルターズ・アッシュ;Walter's Ash
+ja;マージェリー;Margery
+zh;阿斯顿麦格纳;Aston Magna
+fa;بی‌ورث;Bayworth
+he;הנווד;Henwood
+ja;ウッドイェーツ;Woodyates
+ja;ハマーウッド;Hammerwood
+ur;لیپٹن، ویسٹ یارکشائر;Lepton
+ja;レイコック;Laycock
+ja;ゴッデン・グリーン;Godden Green
+ja;ローズアングラウス;Rose-an-Grouse
+zh;马尔格雷夫港;Port Mulgrave
+zh;克拉拉谷;Clara Vale
+ar;تيبس أند;Tipps End

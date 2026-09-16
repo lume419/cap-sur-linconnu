@@ -1197,3 +1197,1375 @@ hu;Erdeiházak;Pădureni
 hu;Zsábár;Jabăr
 hu;Szirbova;Sârbova
 hu;Érsemjén;Șimian
+tr;Zimniçe;Zimnicea
+fa;زیمنیچه;Zimnicea
+he;זימניצה;Zimnicea
+ko;짐니체아;Zimnicea
+lt;Zimniča;Zimnicea
+tg;Зимнича;Zimnicea
+uk;Зімніча;Zimnicea
+ru;Зимнича;Zimnicea
+zh;濟姆尼恰;Zimnicea
+ru;Залэу;Zalău
+lt;Zaleu;Zalău
+ko;잘러우;Zalău
+ar;زالاو;Zalău
+tg;Залэу;Zalău
+uk;Залеу;Zalău
+fa;زلئو;Zalău
+zh;札勒烏;Zalău
+ka;ზალეუ;Zalău
+tt;Залыу;Zalău
+ur;زالیو;Zalău
+kk;Залау;Zalău
+ky;Залау;Zalău
+hi;ज़ालाउ;Zalău
+bn;জালাউ;Zalău
+am;ዛላዉ;Zalău
+ja;ザラウ;Zalău
+pa;ਜ਼ਾਲਾਉ;Zalău
+ps;زالاو;Zalău
+ru;Волунтари;Voluntari
+ru;Вискри;Viscri
+ru;Виделе;Videle
+ar;فاترا دورنه;Vatra Dornei
+fa;وتره دورنه;Vatra Dornei
+he;ואטרה דורניי;Vatra Dornei
+ja;ヴァトラ・ドルネイ;Vatra Dornei
+ka;ვატრა-დორნეი;Vatra Dornei
+tg;Ватра-Дорней;Vatra Dornei
+uk;Ватра-Дорней;Vatra Dornei
+ru;Ватра-Дорней;Vatra Dornei
+zh;瓦特拉多爾內;Vatra Dornei
+ru;Васлуй;Vaslui
+ar;فاسلوي;Vaslui
+fa;وزلو;Vaslui
+he;וסלוי;Vaslui
+ja;ヴァスルイ;Vaslui
+ko;바슬루이;Vaslui
+lt;Vaslujus;Vaslui
+tg;Васлуй;Vaslui
+uk;Васлуй;Vaslui
+zh;瓦斯盧伊;Vaslui
+tt;Васлуй;Vaslui
+ur;واسلوی;Vaslui
+kk;Васлуй;Vaslui
+ky;Васлуй;Vaslui
+hi;वास्लुई;Vaslui
+bn;ভাসলুই;Vaslui
+am;ቫስሉይ;Vaslui
+pa;ਵਾਸਲੁਈ;Vaslui
+ps;واسلوي;Vaslui
+uk;Вама;Vama
+ru;Вама;Vama
+fa;ولنی ده مونته;Vălenii de Munte
+tg;Вэлений-де-Мунте;Vălenii de Munte
+uk;Веленій-де-Мунте;Vălenii de Munte
+ru;Вэлений-Де-Мунте;Vălenii de Munte
+fa;وله لویی میهی;Valea lui Mihai
+tg;Валя-луй-Михай;Valea lui Mihai
+uk;Валя-луй-Міхай;Valea lui Mihai
+zh;米哈伊谷鄉;Valea lui Mihai
+ru;Валя-Луй-Михай;Valea lui Mihai
+fa;اورزیچه;Urziceni
+he;אורזיצן;Urziceni
+ja;ウルジチェニ;Urziceni
+ko;우르지체니;Urziceni
+lt;Urzičenis;Urziceni
+tg;Урзичени;Urziceni
+uk;Урзічень;Urziceni
+ru;Урзичени;Urziceni
+zh;乌尔济切尼;Urziceni
+fa;تورنو مگورل;Turnu Măgurele
+ja;トゥルヌ・マグレレ;Turnu Măgurele
+ko;투르누머구렐레;Turnu Măgurele
+tg;Турну-Мэгуреле;Turnu Măgurele
+uk;Турну-Мегуреле;Turnu Măgurele
+ru;Турну-Мэгуреле;Turnu Măgurele
+zh;圖爾努默古雷萊;Turnu Măgurele
+ja;トゥルダ;Turda
+ru;Турда;Turda
+fa;توردا;Turda
+tg;Турда;Turda
+uk;Турда;Turda
+zh;圖爾達;Turda
+ka;ტურდა;Turda
+tt;Турда;Turda
+tr;Tulca;Tulcea
+lt;Tulča;Tulcea
+ru;Тулча;Tulcea
+ar;تولتشيا;Tulcea
+fa;تولچا;Tulcea
+he;טולצאה;Tulcea
+ja;トゥルチャ;Tulcea
+ko;툴체아;Tulcea
+tg;Тулча;Tulcea
+uk;Тульча;Tulcea
+zh;圖爾恰;Tulcea
+be;Тулча;Tulcea
+hy;Տուլչա;Tulcea
+tt;Тулчә;Tulcea
+ur;تولچا;Tulcea
+kk;Тулча;Tulcea
+uz;Tulcha;Tulcea
+ky;Тулча;Tulcea
+hi;तुलसिया;Tulcea
+bn;তুলসিয়া;Tulcea
+am;ቱልቼያ;Tulcea
+az;Tulça;Tulcea
+pa;ਤੁਲਸਿਆ;Tulcea
+ps;تولچيا;Tulcea
+ru;Тополовени;Topoloveni
+ru;Титу;Titu
+ja;トゥルナヴェニ;Târnăveni
+fa;ترگو سکوئیس;Târgu Secuiesc
+ja;トゥルグ・セクイエスク;Târgu Secuiesc
+ko;트르구세쿠이에스크;Târgu Secuiesc
+tg;Тиргу-Секуйеск;Târgu Secuiesc
+uk;Тиргу-Секуєск;Târgu Secuiesc
+zh;特尔古-塞奎斯;Târgu Secuiesc
+ru;Тыргу-Секуйеск;Târgu Secuiesc
+fa;ترگو اوکنا;Târgu Ocna
+hy;Տիրգու Օկնա;Târgu Ocna
+tg;Тиргу-Окна;Târgu Ocna
+uk;Тиргу-Окна;Târgu Ocna
+ru;Тыргу-Окна;Târgu Ocna
+zh;特爾古奧克納;Târgu Ocna
+he;טרגו מורש;Târgu Mureş
+ru;Тыргу-Муреш;Târgu Mureş
+be;Тыргу-Мурэш;Târgu Mureş
+uk;Тиргу-Муреш;Târgu Mureş
+ar;تارغو موريس;Târgu Mureş
+kk;Тыргу-Муреш;Târgu Mureş
+ky;Тыргу-Муреш;Târgu Mureş
+hi;तारगु मुरेस;Târgu Mureş
+bn;তারগু মুরেস;Târgu Mureş
+ur;تارگو مورس;Târgu Mureş
+am;ታርጉ ሙረስ;Târgu Mureş
+fa;تارگو موریش;Târgu Mureş
+ja;タルグ・ムレシュ;Târgu Mureş
+pa;ਤਾਰਗੁ ਮੁਰੇਸ;Târgu Mureş
+ps;تارګو موريس;Târgu Mureş
+tg;Тыргу-Муреш;Târgu Mureş
+tt;Тыргу-Муреш;Târgu Mureş
+he;טרגו זיו;Târgu Jiu
+ar;ترجو جيو;Târgu Jiu
+fa;ترگو ژی;Târgu Jiu
+ja;トゥルグ・ジウ;Târgu Jiu
+ko;트르구지우;Târgu Jiu
+lt;Tirgu Žiu;Târgu Jiu
+tg;Тиргу-Жиу;Târgu Jiu
+uk;Тиргу-Жіу;Târgu Jiu
+ru;Тыргу-Жиу;Târgu Jiu
+zh;特爾古日烏;Târgu Jiu
+ka;ტირგუ-ჟიუ;Târgu Jiu
+tt;Тыргу-Жиу;Târgu Jiu
+ur;تیرگو ژیو;Târgu Jiu
+kk;Тыргу-Жиу;Târgu Jiu
+ky;Тыргу-Жиу;Târgu Jiu
+hi;तारगु जिउ;Târgu Jiu
+bn;তারগু জিউ;Târgu Jiu
+am;ታርጉ ጂዩ;Târgu Jiu
+pa;ਤਾਰਗੁ ਜਿਉ;Târgu Jiu
+ps;تارګو جيو;Târgu Jiu
+ru;Тыргу-Фрумос;Târgu Frumos
+lt;Tirgovištė;Târgovişte
+ja;トゥルゴヴィシュテ;Târgovişte
+ru;Тырговиште;Târgovişte
+ar;تارغوفيشتي;Târgovişte
+kk;Тырговиште;Târgovişte
+uz;Targovishte;Târgovişte
+ky;Тырговиште;Târgovişte
+hi;तारगोविस्ते;Târgovişte
+bn;তারগোভিস্তে;Târgovişte
+ur;تارگوویشتے;Târgovişte
+am;ታርጎቪሽቴ;Târgovişte
+fa;تارگوویشته;Târgovişte
+pa;ਤਾਰਗੋਵਿਸ਼ਤੇ;Târgovişte
+ps;تارګوويشتي;Târgovişte
+tg;Тырговиште;Târgovişte
+tt;Тырговиште;Târgovişte
+ar;تيميشوارا;Timişoara
+he;טימישוארה;Timişoara
+ja;ティミショアラ;Timişoara
+ko;티미쇼아라;Timişoara
+ru;Тимишоара;Timişoara
+tr;Temeşvar;Timişoara
+kk;Тимишоара;Timişoara
+ky;Тимишоара;Timişoara
+hi;तिमिशोरा;Timişoara
+bn;তিমিশোয়ারা;Timişoara
+ur;ٹیمیشوارا;Timişoara
+am;ቲሚሽዋራ;Timişoara
+az;Temişvar;Timişoara
+fa;تیمیشوارا;Timişoara
+pa;ਤਿਮਿਸ਼ੋਆਰਾ;Timişoara
+ps;تيميشوارا;Timişoara
+tg;Тимишоара;Timişoara
+ru;Текуч;Tecuci
+fa;تکوچ;Tecuci
+ja;テクチ;Tecuci
+lt;Tekučis;Tecuci
+tg;Текуч;Tecuci
+uk;Текуч;Tecuci
+zh;泰庫奇;Tecuci
+ar;سولينا;Sulina
+fa;سولینا;Sulina
+he;סולינה;Sulina
+hy;Սուլինա;Sulina
+ja;スリナ;Sulina
+ka;სულინა;Sulina
+tg;Сулина;Sulina
+uk;Сулина;Sulina
+ru;Сулина;Sulina
+zh;蘇利納;Sulina
+he;סוצאבה;Suceava
+ja;スチャヴァ;Suceava
+ru;Сучава;Suceava
+uk;Сучава;Suceava
+be;Сучава;Suceava
+lt;Sučava;Suceava
+fa;سوچاوا;Suceava
+ko;수체아바;Suceava
+ar;سوتشافا;Suceava
+tg;Сучава;Suceava
+zh;蘇恰瓦;Suceava
+hy;Սուչավա;Suceava
+ka;სუჩავა;Suceava
+tt;Сучәва;Suceava
+ur;سوچاوا;Suceava
+kk;Сучава;Suceava
+tr;Suçava;Suceava
+uz;Sucha;Suceava
+ky;Сучава;Suceava
+hi;सुचावा;Suceava
+bn;সুচাভা;Suceava
+am;ሱቻቫ;Suceava
+az;Suçava;Suceava
+pa;ਸੁਚਾਵਾ;Suceava
+ps;سوچاوا;Suceava
+fa;سوت;Sovata
+tg;Совата;Sovata
+uk;Совата;Sovata
+ru;Совата;Sovata
+zh;索瓦塔;Sovata
+ru;Слобозия;Slobozia
+ru;Слатина;Slatina
+ar;سلاتينا;Slatina
+fa;ستیئا;Slatina
+ja;スラティナ;Slatina
+ko;슬라티나;Slatina
+nn;Slatina i Romania;Slatina
+tg;Слатина;Slatina
+uk;Слатіна;Slatina
+zh;斯拉蒂納;Slatina
+ur;سلاتینا، رومانیہ;Slatina
+kk;Слатина;Slatina
+ky;Слатина;Slatina
+hi;स्लातीना;Slatina
+bn;স্লাতিনা;Slatina
+am;ስላቲና;Slatina
+pa;ਸਲਾਤੀਨਾ;Slatina
+ps;سلاتينا;Slatina
+tt;Слатина;Slatina
+he;סירט;Siret
+ja;シレト;Siret
+ko;시레트;Siret
+tg;Сирет;Siret
+uk;Серет;Siret
+ru;Сирет;Siret
+zh;錫雷特;Siret
+fa;سیره;Siret
+hy;Սիրետ;Siret
+fa;سننیکولئو مره;Sânnicolau Mare
+lv;Sannikolau Mare;Sânnicolau Mare
+tg;Синниколау-Маре;Sânnicolau Mare
+uk;Синніколау-Маре;Sânnicolau Mare
+ru;Сынниколау-Маре;Sânnicolau Mare
+he;סינאיה;Sinaia
+ar;سينايا;Sinaia
+be;Сіная;Sinaia
+fa;سینایا;Sinaia
+ja;シナヤ;Sinaia
+ko;시나이아;Sinaia
+lt;Sinaja;Sinaia
+tg;Синая;Sinaia
+uk;Сіная;Sinaia
+ru;Синая;Sinaia
+zh;錫納亞;Sinaia
+bn;সিনায়া;Sinaia
+ka;სინაია;Sinaia
+fa;سیمریا;Simeria
+lt;Simerija;Simeria
+tg;Симерия;Simeria
+uk;Сімерія;Simeria
+zh;錫梅里亞;Simeria
+ru;Симерия;Simeria
+he;סיגט;Sighetu Marmaţiei
+uk;Сигіт Мармароський;Sighetu Marmaţiei
+ja;シビウ;Sibiu
+ko;시비우;Sibiu
+ar;سيبيو;Sibiu
+he;סיביו;Sibiu
+be;Сібіу;Sibiu
+uk;Сібіу;Sibiu
+th;ซีบีอู;Sibiu
+tg;Сибиу;Sibiu
+tk;Hermanştat;Sibiu
+fa;سیبیو;Sibiu
+mr;सिबिव;Sibiu
+ru;Сибиу;Sibiu
+zh;錫比烏;Sibiu
+ka;სიბიუ;Sibiu
+mn;Сибиу;Sibiu
+tt;Сибиу;Sibiu
+ur;سیبیو;Sibiu
+kk;Сибиу;Sibiu
+ky;Сибиу;Sibiu
+hi;सिबिउ;Sibiu
+bn;সিবিউ;Sibiu
+am;ሲቢው;Sibiu
+pa;ਸਿਬਿਉ;Sibiu
+ps;سيبيو;Sibiu
+ru;Сфэнту-Георг;Sfântu Gheorghe
+ar;سفانتو جيورجي;Sfântu Gheorghe
+kk;Сфынту Георге;Sfântu Gheorghe
+ky;Сфынту Георге;Sfântu Gheorghe
+hi;सफांटु घेयोर्घे;Sfântu Gheorghe
+bn;স্ফান্তু ঘেয়োর্ঘে;Sfântu Gheorghe
+ur;سفانتو گیورجے;Sfântu Gheorghe
+am;ስፋንቱ ገዮርገ;Sfântu Gheorghe
+fa;سفانتو جئورجه;Sfântu Gheorghe
+ja;スファントゥ・ゲオルゲ;Sfântu Gheorghe
+pa;ਸਫਾਂਤੁ ਘੇਓਰਘੇ;Sfântu Gheorghe
+ps;سفانتو جيورجي;Sfântu Gheorghe
+tg;Сфынту Георге;Sfântu Gheorghe
+tt;Сфынту Георге;Sfântu Gheorghe
+ru;Сеини;Seini
+ru;Себеш;Sebeş
+ru;Скорничешт;Scorniceşti
+ru;Сату-Маре;Satu Mare
+he;סטו מארה;Satu Mare
+uk;Сату-Маре;Satu Mare
+he;סאטו מארה;Satu Mare
+ja;サトゥ・マーレ;Satu Mare
+ko;사투마레;Satu Mare
+tg;Сату-Маре;Satu Mare
+ar;ساتو ماري;Satu Mare
+fa;ستو ماره;Satu Mare
+be;Сату-Марэ;Satu Mare
+zh;薩圖馬雷;Satu Mare
+tt;Сату-Маре;Satu Mare
+ur;ساتو مارے;Satu Mare
+kk;Сату-Маре;Satu Mare
+tr;Szatmárnémeti;Satu Mare
+ky;Сату-Маре;Satu Mare
+hi;सातु मारे;Satu Mare
+bn;সাতু মারে;Satu Mare
+am;ሳቱ ማሬ;Satu Mare
+pa;ਸਾਤੁ ਮਾਰੇ;Satu Mare
+ps;ساتو ماري;Satu Mare
+tt;Сетмерел;Sătmărel
+ce;Сетмерел;Sătmărel
+uk;Сетмерел;Sătmărel
+ru;Салонта;Salonta
+fa;سلونته;Salonta
+ja;サロンタ;Salonta
+tg;Салонта;Salonta
+uk;Салонта;Salonta
+zh;薩隆塔;Salonta
+ko;살론타;Salonta
+ru;Сэчеле;Săcele
+fa;ساچله;Săcele
+tg;Сэчеле;Săcele
+uk;Сечеле;Săcele
+ur;سکیلے;Săcele
+zh;瑟切萊;Săcele
+uk;Себерень;Săbăreni
+ru;Себерень;Săbăreni
+ru;Рупя;Rupea
+ar;روشيا مونتانا;Roșia Montană
+uk;Рошія-Монтане;Roșia Montană
+he;רומאן;Roman
+fa;رومان;Roman
+uk;Роман;Roman
+nn;Roman i Romania;Roman
+lt;Romanas;Roman
+ru;Роман;Roman
+zh;羅曼;Roman
+ko;로만;Roman
+ru;Ръшнов;Râşnov
+ar;رمينكو فيلتشا;Râmnicu Vâlcea
+fa;رمنیکو ولچا;Râmnicu Vâlcea
+he;רמניקו ולצה;Râmnicu Vâlcea
+ja;ルムニク・ヴルチャ;Râmnicu Vâlcea
+ko;름니쿠블체아;Râmnicu Vâlcea
+lt;Rimniku Vilča;Râmnicu Vâlcea
+tg;Римнику-Вилча;Râmnicu Vâlcea
+uk;Римніку-Вилча;Râmnicu Vâlcea
+ru;Рымнику-Вылча;Râmnicu Vâlcea
+zh;勒姆尼庫沃爾恰;Râmnicu Vâlcea
+ka;რიმნიკუ-ვილჩა;Râmnicu Vâlcea
+tt;Рымнику-Вылча;Râmnicu Vâlcea
+ur;ریمنیکو ویلچا;Râmnicu Vâlcea
+kk;Рымнику-Вылча;Râmnicu Vâlcea
+ky;Рымнику-Вылча;Râmnicu Vâlcea
+hi;रामनिकु वालसिया;Râmnicu Vâlcea
+bn;রামনিকু ভালসিয়া;Râmnicu Vâlcea
+am;ራምኒኩ ቫልቼያ;Râmnicu Vâlcea
+pa;ਰਾਮਨਿਕੁ ਵਾਲਸਿਆ;Râmnicu Vâlcea
+ps;رامنيكو فالچيا;Râmnicu Vâlcea
+fa;رمنیکو سره;Râmnicu Sărat
+he;רמניקו סראט;Râmnicu Sărat
+ja;ルムニク・サラト;Râmnicu Sărat
+tg;Римнику-Сэрат;Râmnicu Sărat
+uk;Римник;Râmnicu Sărat
+ru;Рымнику-Сэрат;Râmnicu Sărat
+be;Рымніку-Сэрат;Râmnicu Sărat
+uk;Решица;Reşiţa
+ru;Ресица;Reşiţa
+ar;ريسيتا;Reşiţa
+kk;Ресица;Reşiţa
+ky;Ресица;Reşiţa
+hi;रेसिता;Reşiţa
+bn;রেসিতা;Reşiţa
+ur;ریسیتا;Reşiţa
+am;ሬሲታ;Reşiţa
+fa;رِسیتا;Reşiţa
+ja;レシツァ;Reşiţa
+pa;ਰੇਸਿਤਾ;Reşiţa
+ps;ريسيتا;Reşiţa
+tg;Ресица;Reşiţa
+tt;Ресица;Reşiţa
+ja;レギン;Reghin
+tg;Регин;Reghin
+fa;رگین;Reghin
+uk;Регін;Reghin
+ru;Регин;Reghin
+zh;雷京;Reghin
+ru;Радауци;Rădăuți
+ru;Рэдэуци;Rădăuți
+uk;Радівці;Rădăuți
+fa;ردوتس;Rădăuți
+he;רדאוץ;Rădăuți
+ja;ラダウツィ;Rădăuți
+tg;Рэдэутси;Rădăuți
+zh;勒德烏齊;Rădăuți
+ru;Предял;Predeal
+fa;پردا;Predeal
+he;פרדיאל;Predeal
+tg;Предял;Predeal
+uk;Предял;Predeal
+zh;普雷代亞爾;Predeal
+uk;Поляни;Poienile de sub Munte
+uk;Poliany;Poienile de sub Munte
+uk;Polyany;Poienile de sub Munte
+ru;Погоанеле;Pogonele
+ru;Поду-Илоаей;Podu Iloaiei
+ru;Плопени;Plopeni
+he;פלוישטי;Ploieşti
+he;פלוישט;Ploieşti
+uk;Плоєшть;Ploieşti
+ru;Плоешти;Ploieşti
+ar;بلويشتي;Ploieşti
+kk;Плоешти;Ploieşti
+ky;Плоешти;Ploieşti
+hi;प्लोइएस्ती;Ploieşti
+bn;প্লয়েস্তি;Ploieşti
+ur;پلویشتی;Ploieşti
+am;ፕሎይስቲ;Ploieşti
+fa;پلویشتی;Ploieşti
+ja;プロイエシュティ;Ploieşti
+pa;ਪਲੋਇਸ਼ਤੀ;Ploieşti
+ps;پلويشتي;Ploieşti
+tg;Плоешти;Ploieşti
+tt;Плоешти;Ploieşti
+he;פיטשט;Piteşti
+ru;Питешты;Piteşti
+uk;Пітешть;Piteşti
+ar;بيتشتي;Piteşti
+kk;Питешти;Piteşti
+ky;Питешти;Piteşti
+hi;पितेस्ती;Piteşti
+bn;পিতেস্তি;Piteşti
+ur;پیتیشتی;Piteşti
+am;ፒቴስቲ;Piteşti
+fa;پیتیشتی;Piteşti
+ja;ピテシュティ;Piteşti
+pa;ਪਿਤੇਸ਼ਤੀ;Piteşti
+ps;پيتشتي;Piteşti
+tg;Питешти;Piteşti
+tt;Питешти;Piteşti
+uk;Пятра-Нямц;Piatra Neamţ
+ru;Пятра-Нямц;Piatra Neamţ
+ar;بياترا نيامتس;Piatra Neamţ
+kk;Пятра-Нямц;Piatra Neamţ
+ky;Пятра-Нямц;Piatra Neamţ
+hi;पियात्रा नेम्त;Piatra Neamţ
+bn;পিয়াত্রা নেয়্যামত;Piatra Neamţ
+ur;پیاترا نیامتس;Piatra Neamţ
+am;ፒያትራ ነያምጥ;Piatra Neamţ
+fa;پیاترا نیامتس;Piatra Neamţ
+ja;ピアトラ・ネアムト;Piatra Neamţ
+pa;ਪਿਆਤ੍ਰਾ ਨੇਅਮਤ;Piatra Neamţ
+ps;پياترا نيامتس;Piatra Neamţ
+tg;Пятра-Нямц;Piatra Neamţ
+tt;Пятра-Нямц;Piatra Neamţ
+ru;Петрошани;Petroşani
+uk;Періправа;Periprava
+tt;Пелтиниш;Păltiniș
+uk;Пелтініш;Păltiniș
+ja;パルティニシュ;Păltiniș
+ce;Пелтиниш;Păltiniș
+ru;Овидиу;Ovidiu
+ru;Отопени;Otopeni
+fa;اوتوپه;Otopeni
+he;אוטופן;Otopeni
+lt;Otopenis;Otopeni
+tg;Отопени;Otopeni
+uk;Отопень;Otopeni
+ru;Отопень;Otopeni
+zh;奧托佩尼;Otopeni
+ru;Оршова;Orşova
+uk;Оршова;Orşova
+ru;Орэштие;Orăştie
+he;אוראדיה;Oradea
+ja;オラデア;Oradea
+ko;오라데아;Oradea
+ru;Орадя;Oradea
+ta;ஒராதேயா;Oradea
+tt;Oradä;Oradea
+lt;Oradia;Oradea
+tg;Орадя;Oradea
+lv;Oradja;Oradea
+fa;اورادئا;Oradea
+ar;أوراديا;Oradea
+uk;Орадя;Oradea
+zh;奥拉迪亚;Oradea
+be;Арадзя;Oradea
+ka;ორადია;Oradea
+mn;Орадя хот;Oradea
+ur;اورادیا;Oradea
+kk;Оради;Oradea
+ky;Оради;Oradea
+hi;ओरेडिया;Oradea
+bn;ওরাডিয়া;Oradea
+am;ኦራዲያ;Oradea
+pa;ਓਰਾਡੀਆ;Oradea
+ps;اورادياه;Oradea
+ru;Олтенице;Olteniţa
+fa;اودورهیو سکویس;Odorheiu Secuiesc
+ja;オドルヘユ・セクイエスク;Odorheiu Secuiesc
+lt;Odorheju Sekujeskas;Odorheiu Secuiesc
+tg;Одорхею-Секуйеск;Odorheiu Secuiesc
+uk;Одорхею-Секуєск;Odorheiu Secuiesc
+ru;Одорхею-Секуеск;Odorheiu Secuiesc
+zh;奧多爾黑尤-塞庫耶斯克;Odorheiu Secuiesc
+ru;Нэводари;Năvodari
+tt;Молдова-Веке;Moldova Veche
+ce;Молдова-Веке;Moldova Veche
+uk;Молдова-Веке;Moldova Veche
+ja;モルドバ・ヴェッキ;Moldova Veche
+ar;مولدوفا نوا;Moldova Nouă
+fa;مولدوا نوئه;Moldova Nouă
+tg;Молдова-Ноуэ;Moldova Nouă
+uk;Молдова-Ноуе;Moldova Nouă
+ru;Молдова-Ноуэ;Moldova Nouă
+zh;新摩爾多瓦;Moldova Nouă
+ru;Мизил;Mizil
+fa;میزیل;Mizil
+tg;Мизил;Mizil
+uk;Мізіл;Mizil
+zh;米濟爾;Mizil
+ru;Калэраши;Călăraşi
+ar;كالاراشي;Călăraşi
+kk;Калэраши;Călăraşi
+ky;Калэраши;Călăraşi
+hi;कलारशी;Călăraşi
+bn;কালারাশি;Călăraşi
+ur;کالاراشی;Călăraşi
+am;ካላራሺ;Călăraşi
+fa;کالاراشی;Călăraşi
+ja;カララシ;Călăraşi
+pa;ਕਾਲਾਰਾਸ਼ੀ;Călăraşi
+ps;كالاراشي;Călăraşi
+tg;Калэраши;Călăraşi
+tt;Калэраши;Călăraşi
+ru;Меркуря-Чук;Miercurea-Ciuc
+uk;Меркуря-Чук;Miercurea-Ciuc
+ar;ميركوريا تشيوك;Miercurea-Ciuc
+kk;Миеркуря-Чюк;Miercurea-Ciuc
+ky;Миеркуря-Чюк;Miercurea-Ciuc
+hi;मियर्कुरिया-चिउक;Miercurea-Ciuc
+bn;মিয়ারকুরিয়া-চিউক;Miercurea-Ciuc
+ur;میرکوریا-چیوک;Miercurea-Ciuc
+am;ሚርኩርያ-ቺዉክ;Miercurea-Ciuc
+fa;میرکوریا-چیوک;Miercurea-Ciuc
+ja;ミエルクレア・チウク;Miercurea-Ciuc
+pa;ਮਿਰਕੁਰੀਆ-ਚਿਉਕ;Miercurea-Ciuc
+ps;ميركوريا تشيوك;Miercurea-Ciuc
+tg;Миеркуря-Чюк;Miercurea-Ciuc
+tt;Миеркуря-Чюк;Miercurea-Ciuc
+tr;Mecidiye;Medgidia
+ru;Меджидия;Medgidia
+ar;مجيدية;Medgidia
+fa;مدجیجا;Medgidia
+ko;메드지디아;Medgidia
+lt;Medžidija;Medgidia
+tg;Меҷидия;Medgidia
+tt;Мәҗидия;Medgidia
+uk;Меджидія;Medgidia
+zh;梅吉迪亞;Medgidia
+fa;مرگیته;Marghita
+he;מרגיטה;Marghita
+ja;マルギタ;Marghita
+tg;Маргита;Marghita
+uk;Маргіта;Marghita
+ru;Маргита;Marghita
+zh;馬爾吉塔;Marghita
+ru;Марашешт;Mărășești
+tr;Mankalya;Mangalia
+ru;Мангалия;Mangalia
+ar;مانغالايا;Mangalia
+fa;منگلیا;Mangalia
+tg;Мангалия;Mangalia
+uk;Мангалія;Mangalia
+zh;曼加利亞;Mangalia
+ka;მანგალია;Mangalia
+ko;만갈리아;Mangalia
+uk;Andraszfalwa;Măneuţi
+ru;Мамая;Mamaia-Sat
+ru;Лупени;Lupeni
+ru;Лугож;Lugoj
+ar;لوغوج;Lugoj
+fa;لوگوژ;Lugoj
+ja;ルゴジ;Lugoj
+tg;Лугож;Lugoj
+uk;Лугож;Lugoj
+zh;盧戈日;Lugoj
+ko;루고지;Lugoj
+be;Лугаж;Lugoj
+he;לוגוז;Lugoj
+ru;Липова;Lipova
+fa;لیپوه، آراد;Lipova
+tg;Липова;Lipova
+uk;Ліпова;Lipova
+zh;利波瓦;Lipova
+uk;Ленаугайм;Lenauheim
+ru;Ленаугайм;Lenauheim
+fa;جیمبولیا;Jimbolia
+tg;Жимболия;Jimbolia
+uk;Жимболія;Jimbolia
+ru;Жимболия;Jimbolia
+zh;任博利亞;Jimbolia
+tg;Жибоу;Jibou
+uk;Жибоу;Jibou
+fa;ژیبو;Jibou
+zh;日博烏;Jibou
+ru;Жибоу;Jibou
+fa;ایساکچه;Isaccea
+tg;Исакча;Isaccea
+uk;Ісакча;Isaccea
+ru;Исакча;Isaccea
+zh;伊薩克恰;Isaccea
+ru;Инеу;Ineu
+tr;Yanova;Ineu
+fa;اینئو;Ineu
+tg;Инеу;Ineu
+uk;Інеу;Ineu
+zh;伊內烏;Ineu
+he;יאשי;Iaşi
+ja;ヤシ;Iaşi
+lv;Jasi;Iaşi
+uk;Ясси;Iaşi
+ru;Яссы;Iaşi
+zh;雅西;Iaşi
+ar;ياش;Iaşi
+tr;Yaş;Iaşi
+hy;Յասի;Iaşi
+lt;Jasai;Iaşi
+be;Ясы;Iaşi
+ko;이아시;Iaşi
+tg;Яш;Iaşi
+th;ยาช;Iaşi
+mr;याश;Iaşi
+fa;یاش;Iaşi
+az;Yassı;Iaşi
+ka;იასი;Iaşi
+kk;Яссы;Iaşi
+ky;Яссы;Iaşi
+hi;याशी;Iaşi
+bn;ইয়াশি;Iaşi
+ur;یاشی;Iaşi
+am;ያሺ;Iaşi
+pa;ਯਾਸ਼ੀ;Iaşi
+ps;ياش;Iaşi
+tt;Яссы;Iaşi
+ru;Гуси;Huşi
+he;חונדוארה;Hunedoara
+ru;Хунедоара;Hunedoara
+ru;Хуедин;Huedin
+fa;هوئدی;Huedin
+tg;Хуедин;Huedin
+uk;Гуєдін;Huedin
+zh;胡埃丁;Huedin
+ru;Хорезу;Horezu
+ru;Хърсово;Hârşova
+fa;گورا هومورول;Gura Humorului
+he;גורה הומורולוי;Gura Humorului
+tg;Гура-Хуморулуй;Gura Humorului
+uk;Ґурагумора;Gura Humorului
+ru;Гура-Гуморулуй;Gura Humorului
+ka;გიურგიუ;Giurgiu
+tr;Yergöğü;Giurgiu
+uk;Джурджу;Giurgiu
+ru;Джурджу;Giurgiu
+ar;جيورجيو;Giurgiu
+kk;Джурджу;Giurgiu
+ky;Джурджу;Giurgiu
+hi;गिउर्जिउ;Giurgiu
+bn;গিউর্জিউ;Giurgiu
+ur;گیورجیو;Giurgiu
+am;ጊዩርጂዩ;Giurgiu
+fa;گیورجیو;Giurgiu
+ja;ジウルジウ;Giurgiu
+pa;ਗਿਉਰਜਿਉ;Giurgiu
+ps;جيورجيو;Giurgiu
+tg;Джурджу;Giurgiu
+tt;Джурджу;Giurgiu
+ru;Герла;Gherla
+fa;گرله;Gherla
+he;גרלה;Gherla
+hy;Գեռլա;Gherla
+ja;ゲルラ;Gherla
+tg;Герла;Gherla
+uk;Герла;Gherla
+zh;蓋爾拉;Gherla
+hy;Հայաքաղաք;Gherla
+fa;گئورگه;Gheorgheni
+ja;ゲオルゲニ;Gheorgheni
+ka;გეორგიენი;Gheorgheni
+tg;Георгени;Gheorgheni
+uk;Георгень;Gheorgheni
+ru;Георгени;Gheorgheni
+zh;格奧爾蓋尼;Gheorgheni
+ru;Онешт;Onesti
+fa;گتایا;Gătaia
+uk;Гетая;Gătaia
+ru;Гэтая;Gătaia
+zh;格塔亞;Gătaia
+he;גאלץ;Galaţi
+ru;Галац;Galaţi
+zh;加拉茨;Galaţi
+he;גאלאץ;Galaţi
+ar;غالاتس;Galaţi
+ce;Галац;Galaţi
+fa;گالاتسی;Galaţi
+ja;ガラツィ;Galaţi
+ko;갈라치;Galaţi
+lt;Galacis;Galaţi
+tg;Галатс;Galaţi
+uk;Галац;Galaţi
+kk;Галац;Galaţi
+ky;Галац;Galaţi
+hi;गलाती;Galaţi
+bn;গালাতি;Galaţi
+ur;گالاتی;Galaţi
+am;ጋላቲ;Galaţi
+az;Galatz;Galaţi
+pa;ਗਾਲਾਤੀ;Galaţi
+ps;غالاتسي;Galaţi
+tt;Галац;Galaţi
+uk;Fratiwci Stari Nimecki;Frătăuţii Vechi
+uk;Frawici Stari Rumuński;Frătăuţii Vechi
+uk;Fratiwci Nowi;Frătăuţii Noi
+he;פוקשאן;Focșani
+he;פוקשאני;Focșani
+be;Факшані;Focșani
+ru;Фокшани;Focșani
+uk;Фокшани;Focșani
+ar;فوكساني;Focșani
+kk;Фокшаны;Focșani
+ky;Фокшаны;Focșani
+hi;फोक्सानी;Focșani
+bn;ফোক্সানি;Focșani
+ur;فوکسانی;Focșani
+am;ፎክሳኒ;Focșani
+fa;فوکسانی;Focșani
+ja;フォクシャニ;Focșani
+pa;ਫੋਕਸਾਨੀ;Focșani
+ps;فوكساني;Focșani
+tg;Фокшаны;Focșani
+tt;Фокшаны;Focșani
+hy;Ֆոկշան;Focșani
+ru;Фиени;Fieni
+ru;Фетешт;Feteşti
+ru;Фэлтичени;Fălticeni
+fa;فالتیچه;Fălticeni
+he;פלטיצן;Fălticeni
+ja;ファルティチェニ;Fălticeni
+lt;Feltičenis;Fălticeni
+tg;Фэлтичени;Fălticeni
+uk;Фелтічень;Fălticeni
+zh;弗爾蒂切尼;Fălticeni
+ru;Фэджет;Făget
+fa;فجه;Făget
+tg;Фэҷет;Făget
+uk;Феджет;Făget
+ur;فاگیٹ;Făget
+zh;弗傑特;Făget
+ru;Фэгэраш;Făgăraș
+fa;فگره;Făgăraș
+ja;ファガラシュ;Făgăraș
+ka;ფეგერაში;Făgăraș
+lt;Fegerašas;Făgăraș
+tg;Фэгэраш;Făgăraș
+th;ฟาการาช;Făgăraș
+uk;Фегераш;Făgăraș
+ur;فاگاراس;Făgăraș
+zh;弗格拉什;Făgăraș
+ru;Ефорие;Eforie
+ar;دروبيتا تورنو سيفيرين;Drobeta-Turnu Severin
+fa;دروبتا-تورنو سورین;Drobeta-Turnu Severin
+he;דרובטה-טורנו סברין;Drobeta-Turnu Severin
+ja;ドロベタ＝トゥルヌ・セヴェリン;Drobeta-Turnu Severin
+ko;드로베타투르누세베린;Drobeta-Turnu Severin
+lt;Drobeta-Turnu Severinas;Drobeta-Turnu Severin
+tg;Дробета-Турну-Северин;Drobeta-Turnu Severin
+th;โดรเบตา-ทูร์นูเซเวรีน;Drobeta-Turnu Severin
+uk;Дробета-Турну-Северін;Drobeta-Turnu Severin
+ru;Дробета-Турну-Северин;Drobeta-Turnu Severin
+zh;德羅貝塔-塞維林堡;Drobeta-Turnu Severin
+be;Драбета-Турну-Северын;Drobeta-Turnu Severin
+ka;დრობეტა-ტურნუ-სევერინი;Drobeta-Turnu Severin
+tt;Дробета-Турну-Северин;Drobeta-Turnu Severin
+ur;دروبیتا-تورنو سیویرین;Drobeta-Turnu Severin
+kk;Дробета-Турну-Северин;Drobeta-Turnu Severin
+ky;Дробета-Турну-Северин;Drobeta-Turnu Severin
+hi;ड्रोबेटा-तुर्नू सेवेरिन;Drobeta-Turnu Severin
+bn;ড্রোবেটা-টুর্নু সেভেরিন;Drobeta-Turnu Severin
+am;ድሮቤታ-ቱርኑ ሴቬሪን;Drobeta-Turnu Severin
+pa;ਡ੍ਰੋਬਿਟਾ-ਤੁਰਨੂ ਸੇਵੇਰਿਨ;Drobeta-Turnu Severin
+ps;دروبيتا تورنو سيفرين;Drobeta-Turnu Severin
+ru;Дрэгэшани;Drăgăşani
+ru;Дорохой;Dorohoi
+fa;دوروهو;Dorohoi
+he;דורוחוי;Dorohoi
+ja;ドロホイ;Dorohoi
+tg;Дорохой;Dorohoi
+uk;Дорохой;Dorohoi
+zh;多羅霍伊;Dorohoi
+fa;شته;Ștei
+lt;Štėjus;Ștei
+tg;Штей;Ștei
+uk;Штей;Ștei
+ru;Штей;Ștei
+ar;ديفا;Deva
+ko;데바;Deva
+tg;Дева;Deva
+fa;دوا;Deva
+ja;デヴァ;Deva
+nn;Deva i Romania;Deva
+uk;Дева;Deva
+ru;Дева;Deva
+zh;德瓦;Deva
+ka;დევა;Deva
+tt;Дева;Deva
+ur;دیوا، رومانیہ;Deva
+ru;Дета;Deta
+ru;Дей;Dej
+fa;ده;Dej
+he;דז;Dej
+ja;デジ;Dej
+lt;Dežas;Dej
+tg;Деж;Dej
+uk;Деж;Dej
+ru;Деж;Dej
+zh;代日;Dej
+ru;Дарабани;Darabani
+fa;کورتیچ;Curtici
+tg;Куртичи;Curtici
+uk;Куртіч;Curtici
+ru;Куртичи;Curtici
+zh;庫爾蒂奇;Curtici
+fa;کوجی;Cugir
+lt;Kudžiras;Cugir
+tg;Куҷир;Cugir
+uk;Куджир;Cugir
+ru;Куджир;Cugir
+zh;庫吉爾;Cugir
+fa;کریستورو سکوئیسک;Cristuru Secuiesc
+tg;Кристуру-Секуеск;Cristuru Secuiesc
+uk;Крістуру-Секуєск;Cristuru Secuiesc
+zh;達拉巴尼;Cristuru Secuiesc
+ru;Кристуру-Секуеск;Cristuru Secuiesc
+he;קראיובה;Craiova
+he;קריובה;Craiova
+lv;Krajova;Craiova
+zh;克拉約瓦;Craiova
+be;Краёва;Craiova
+ko;크라이오바;Craiova
+lt;Krajova;Craiova
+fa;کرایووا;Craiova
+uk;Крайова;Craiova
+tg;Крайова;Craiova
+ar;كرايوفا;Craiova
+ps;کرايووا;Craiova
+ja;クラヨーヴァ;Craiova
+ru;Крайова;Craiova
+ce;Крайова;Craiova
+mn;Крайова хот;Craiova
+tt;Крайова;Craiova
+ur;کرایووا;Craiova
+vep;Kraiov;Craiova
+kk;Крайова;Craiova
+ky;Крайова;Craiova
+hi;क्रायोवा;Craiova
+bn;ক্রায়োভা;Craiova
+am;ክራዮቫ;Craiova
+pa;ਕ੍ਰਾਇਓਵਾ;Craiova
+ru;Костинешт;Costineşti
+fa;کوربیا;Corabia
+ja;コラビア;Corabia
+tg;Корабия;Corabia
+uk;Корабія;Corabia
+ru;Корабия;Corabia
+zh;科拉比亞;Corabia
+he;קונסטנצה;Constanţa
+ja;コンスタンツァ;Constanţa
+ka;კონსტანცა;Constanţa
+ko;콘스탄차;Constanţa
+lv;Konstanca;Constanţa
+ru;Констанца;Constanţa
+tr;Köstence;Constanţa
+zh;康斯坦察;Constanţa
+tr;Küstence;Constanţa
+be;Канстанца;Constanţa
+fa;کونستانسا;Constanţa
+ar;كونستانتسا;Constanţa
+os;Констанцæ;Constanţa
+lt;Konstanca;Constanţa
+uk;Констанца;Constanţa
+tg;Константса;Constanţa
+az;Konstansa;Constanţa
+th;คอนสตันซา;Constanţa
+ce;Констанца;Constanţa
+hy;Կոնստանցա;Constanţa
+mr;कोन्स्तांत्सा;Constanţa
+crh;Köstence;Constanţa
+kk;Констанца;Constanţa
+uz;Konstanca;Constanţa
+ky;Констанца;Constanţa
+ms;Konstanta;Constanţa
+hi;कॉन्स्टांटा;Constanţa
+bn;কনস্টান্টা;Constanţa
+ur;قسطنطینہ;Constanţa
+am;ኮንስታንታ;Constanţa
+jv;Konstanta;Constanţa
+om;Konstanta;Constanţa
+pa;ਕੌਨਸਟੰਟਾ;Constanţa
+ps;قسطنطة;Constanţa
+so;Konstanta;Constanţa
+sw;Konstanta;Constanţa
+tt;Констанца;Constanţa
+uk;Комлеуша;Comlăușa
+uk;Komleusha;Comlăușa
+ru;Команешт;Comăneşti
+fa;کودله;Codlea
+ja;コドレア;Codlea
+tg;Кодля;Codlea
+uk;Кодля;Codlea
+ru;Кодля;Codlea
+zh;科德萊亞;Codlea
+he;קלוז-נאפוקה;Cluj-Napoca
+ja;クルジュ＝ナポカ;Cluj-Napoca
+lv;Kluža-Napoka;Cluj-Napoca
+ko;클루지나포카;Cluj-Napoca
+uk;Клуж-Напока;Cluj-Napoca
+ps;کلوژ-ناپوکا;Cluj-Napoca
+lt;Klužas-Napoka;Cluj-Napoca
+fa;کلوژ-نپوکا;Cluj-Napoca
+th;คลูช-นาโปกา;Cluj-Napoca
+be;Клуж-Напока;Cluj-Napoca
+mr;क्लुज-नापोका;Cluj-Napoca
+zh;克卢日-纳波卡;Cluj-Napoca
+ce;Клуж-Напока;Cluj-Napoca
+hy;Կլուժ-Նապոկա;Cluj-Napoca
+tr;Kaloşvar;Cluj-Napoca
+ka;კლუჟ-ნაპოკა;Cluj-Napoca
+mn;Клуж-Напока хот;Cluj-Napoca
+ur;کلوژ ناپوکا;Cluj-Napoca
+vep;Kluž Napok;Cluj-Napoca
+ru;Клуж-Напока;Cluj-Napoca
+ar;كلوج نابوكا;Cluj-Napoca
+kk;Клуж-Напока;Cluj-Napoca
+tr;Kolozsvár;Cluj-Napoca
+ky;Клуж-Напока;Cluj-Napoca
+hi;क्लुज-नापोका;Cluj-Napoca
+bn;ক্লুজ-নাপোকা;Cluj-Napoca
+ur;کلوج-ناپوکا;Cluj-Napoca
+am;ክሉዝ-ናፖካ;Cluj-Napoca
+az;Kolozsvár;Cluj-Napoca
+fa;کلوج-ناپوکا;Cluj-Napoca
+ja;クルージュ・ナポカ;Cluj-Napoca
+pa;ਕਲੂਜ-ਨਾਪੋਕਾ;Cluj-Napoca
+ps;کلوج نابوکا;Cluj-Napoca
+tg;Клуж-Напока;Cluj-Napoca
+tt;Клуж-Напока;Cluj-Napoca
+fa;کومپولونگ مولدومنه;Câmpulung Moldovenesc
+he;קמפולונג מולדובנסק;Câmpulung Moldovenesc
+ja;クンプルング・モルドヴェネスク;Câmpulung Moldovenesc
+ka;კიმპულუნგ-მოლდოვენესკი;Câmpulung Moldovenesc
+lt;Kimpulung Moldoveneskas;Câmpulung Moldovenesc
+tg;Кимпулунг-Молдовенеск;Câmpulung Moldovenesc
+uk;Кимполунг;Câmpulung Moldovenesc
+ru;Кымпулунг-Молдовенеск;Câmpulung Moldovenesc
+zh;摩爾多瓦地區肯普隆格;Câmpulung Moldovenesc
+fa;کمپولون;Câmpulung
+lt;Kimpulungas;Câmpulung
+tg;Кимпулунг-Мусчел;Câmpulung
+uk;Кимпулунг;Câmpulung
+ru;Кымпулунг;Câmpulung
+zh;肯普隆格;Câmpulung
+fa;کمپیا;Câmpina
+lt;Kimpina;Câmpina
+tg;Кимпина;Câmpina
+uk;Кимпіна;Câmpina
+ru;Кымпина;Câmpina
+zh;坎皮納;Câmpina
+fa;کمپیا تورزی;Câmpia Turzii
+ja;クンピア・トゥルジー;Câmpia Turzii
+lt;Kimpija Turzis;Câmpia Turzii
+tg;Кимпия-Турзий;Câmpia Turzii
+uk;Кимпія-Турзій;Câmpia Turzii
+ru;Кымпия-Турзи;Câmpia Turzii
+zh;肯皮亞圖爾濟;Câmpia Turzii
+fa;کمپه;Câmpeni
+tg;Кимпени;Câmpeni
+uk;Кимпень;Câmpeni
+zh;肯佩尼;Câmpeni
+tr;Boğazköy;Cernavodă
+ar;تشرنافودا;Cernavodă
+fa;چرنودا;Cernavodă
+hy;Չերնավոդե;Cernavodă
+ja;チェルナヴォダ;Cernavodă
+tg;Чернавода;Cernavodă
+uk;Чернаводе;Cernavodă
+ru;Чернаводэ;Cernavodă
+zh;切爾納沃德;Cernavodă
+crh;Boğazköy;Cernavodă
+uk;Ченад;Cenad
+fa;کهو سیلوانیه;Cehu Silvaniei
+tg;Чеху-Силванией;Cehu Silvaniei
+uk;Чеху-Сілванієй;Cehu Silvaniei
+zh;切胡錫爾瓦涅伊;Cehu Silvaniei
+ru;Чеху-Силванией;Cehu Silvaniei
+ja;カレイ;Carei
+tg;Карей;Carei
+fa;کره;Carei
+uk;Карей;Carei
+ru;Карей;Carei
+zh;卡雷;Carei
+ru;Карансебеше;Caransebeş
+fa;کرکل;Caracal
+ja;カラカル;Caracal
+lt;Karakalis;Caracal
+tg;Каракал;Caracal
+uk;Каракал;Caracal
+ru;Каракал;Caracal
+zh;卡拉卡爾;Caracal
+ru;Калараси;Călăraşi
+fa;کلفه;Calafat
+ko;칼라파트;Calafat
+lt;Kalafatas;Calafat
+tg;Калафат;Calafat
+uk;Калафат;Calafat
+ru;Калафат;Calafat
+zh;卡拉法特;Calafat
+he;בוזאו;Buzău
+fa;بوزائو;Buzău
+uk;Бузеу;Buzău
+tg;Бузэу;Buzău
+ko;부저우;Buzău
+ar;بوزاو;Buzău
+ru;Бузэу;Buzău
+zh;布澤烏;Buzău
+ja;ブザウ;Buzău
+tt;Бузыу;Buzău
+ur;بوزاو;Buzău
+be;Бузэў;Buzău
+kk;Бузау;Buzău
+ky;Бузау;Buzău
+hi;बुजाऊ;Buzău
+bn;বুজাউ;Buzău
+am;ቡዛዉ;Buzău
+pa;ਬੁਜਾਉ;Buzău
+ps;بوزاو;Buzău
+ar;بوفتيا;Buftea
+fa;بوفته;Buftea
+ja;ブフテア;Buftea
+ko;부프테아;Buftea
+tg;Буфтя;Buftea
+uk;Буфтя;Buftea
+ur;بوفتیا;Buftea
+ru;Буфтя;Buftea
+zh;布夫泰亞;Buftea
+uk;Будешть;Budeşti
+uk;Budesht;Budeşti
+ru;Будешть;Budeşti
+et;Bukarest;Bucureşti
+fa;بخارست;Bucureşti
+he;בוקרשט;Bucureşti
+id;Bukarest;Bucureşti
+is;Búkarest;Bucureşti
+ja;ブカレスト;Bucureşti
+ka;ბუქარესტი;Bucureşti
+ko;부쿠레슈티;Bucureşti
+lt;Bukareštas;Bucureşti
+lv;Bukareste;Bucureşti
+ru;Бухарест;Bucureşti
+tet;Bukareste;Bucureşti
+tr;Bükreş;Bucureşti
+uk;Бухарест;Bucureşti
+zh;布加勒斯特;Bucureşti
+ar;بوخارست;Bucureşti
+ug;بۇخارېست;Bucureşti
+am;ቡካረስት;Bucureşti
+bo;པུ་ཁ་རེ་སིད;Bucureşti
+hy;Բուխարեստ;Bucureşti
+tg;Бухарест;Bucureşti
+az;Buxarest;Bucureşti
+be;Бухарэст;Bucureşti
+crh;Bükreş;Bucureşti
+gag;Bukureşt;Bucureşti
+ku;Bûkareşt;Bucureşti
+he;ברשוב;Braşov
+ko;브라쇼브;Braşov
+ru;Брашов;Braşov
+ja;ブラショフ;Braşov
+ar;براشوف;Braşov
+kk;Брашов;Braşov
+ky;Брашов;Braşov
+hi;ब्रासोव;Braşov
+bn;ব্রাসোভ;Braşov
+ur;براشوف;Braşov
+am;ብራሾቭ;Braşov
+fa;براشوف;Braşov
+pa;ਬ੍ਰਾਸੋਵ;Braşov
+ps;براشوف;Braşov
+tg;Брашов;Braşov
+tt;Брашов;Braşov
+tr;İbrail;Brăila
+he;בראילה;Brăila
+lt;Breila;Brăila
+uz;Breila;Brăila
+tr;Berâil;Brăila
+uk;Бреїла;Brăila
+ru;Брэила;Brăila
+ar;براila;Brăila
+kk;Браила;Brăila
+ky;Браила;Brăila
+hi;ब्राइला;Brăila
+bn;ব্রাইলা;Brăila
+ur;براءیلا;Brăila
+am;ብራይላ;Brăila
+fa;براIلا;Brăila
+ja;ブライラ;Brăila
+pa;ਬ੍ਰਾਈਲਾ;Brăila
+ps;براila;Brăila
+tg;Браила;Brăila
+tt;Браила;Brăila
+ru;Брад;Brad
+fa;بره;Brad
+ja;ブラド;Brad
+uk;Брад;Brad
+zh;布拉德;Brad
+he;בוטושאן;Botoşani
+be;Баташані;Botoşani
+ru;Ботошани;Botoşani
+uk;Ботошані;Botoşani
+ar;بوتوشاني;Botoşani
+kk;Ботошани;Botoşani
+uz;Botoshani;Botoşani
+ky;Ботошани;Botoşani
+hi;बोटोशानी;Botoşani
+bn;বোটোশানি;Botoşani
+ur;بوتوشانی;Botoşani
+am;ቦቶሻኒ;Botoşani
+az;Botoshani;Botoşani
+fa;بوتوشانی;Botoşani
+ha;Botoshani;Botoşani
+ja;ボトシャニ;Botoşani
+jv;Botoshani;Botoşani
+om;Botoshani;Botoşani
+pa;ਬੋਟੋਸ਼ਾਨੀ;Botoşani
+ps;بوتوشاني;Botoşani
+so;Botoshani;Botoşani
+tg;Ботошани;Botoşani
+tt;Ботошани;Botoşani
+fa;بورسه;Borsec
+he;בורסק;Borsec
+ka;ბორსეკი;Borsec
+tg;Борсек;Borsec
+uk;Борсек;Borsec
+ru;Борсек;Borsec
+zh;博爾塞克;Borsec
+ru;Болинтин-Вале;Bolintin Vale
+ru;Блай;Blaj
+fa;بله;Blaj
+ja;ブラジ;Blaj
+lt;Blažas;Blaj
+tg;Блаж;Blaj
+uk;Блаж;Blaj
+ru;Блаж;Blaj
+zh;布拉日;Blaj
+ja;ビストリツァ;Bistriţa
+uk;Бістріца;Bistriţa
+ru;Бистрица;Bistriţa
+ar;بيستريتسا;Bistriţa
+kk;Бистрица;Bistriţa
+tr;Bistritza;Bistriţa
+uz;Bistrisa;Bistriţa
+ky;Бистрица;Bistriţa
+hi;बिस्त्रित्सा;Bistriţa
+bn;বিস্ট্রিতসা;Bistriţa
+ur;بسترتسا;Bistriţa
+am;ቢስትሪተሳ;Bistriţa
+az;Bistrisa;Bistriţa
+fa;بیستریتسا;Bistriţa
+ha;Bistrisa;Bistriţa
+jv;Bistrisa;Bistriţa
+om;Bistrisa;Bistriţa
+pa;ਬਿਸਤ੍ਰਿਤਸਾ;Bistriţa
+ps;بيستريتسا;Bistriţa
+uk;Бистрий;Bistra
+uk;Bystryi;Bistra
+ru;Бистрий;Bistra
+uk;Бирсана;Bârsana
+ru;Бирсана;Bârsana
+fa;برله;Bârlad
+he;ברלאד;Bârlad
+ka;ბირლადი;Bârlad
+ko;브를라드;Bârlad
+lt;Birladas;Bârlad
+tg;Бирлад;Bârlad
+tt;Бырлад;Bârlad
+uk;Бирлад;Bârlad
+ru;Бырлад;Bârlad
+zh;伯尔拉德;Bârlad
+az;Birlad;Bârlad
+be;Бырлад;Bârlad
+hy;Բռլադ;Bârlad
+uk;Білед;Biled
+ru;Билед;Biled
+ja;ビエルタン;Biertan
+uk;Бєртан;Biertan
+ru;Биертан;Biertan
+fa;بیهور;Beiuş
+tg;Беюш;Beiuş
+lt;Bejušas;Beiuş
+uk;Беюш;Beiuş
+zh;貝尤什;Beiuş
+ru;Беюш;Beiuş
+tr;Başpunar;Fântâna Mare
+ru;Бараолт;Baraolt
+ru;Бэиле-Тушнад;Băile Tuşnad
+fa;بیله هرکولانه;Băile Herculane
+he;מרחצאות הרקולאנה;Băile Herculane
+ka;ბეილე-ერკულანე;Băile Herculane
+lt;Beile Herkulanė;Băile Herculane
+tg;Бэиле-Херкулане;Băile Herculane
+uk;Беїле-Херкулане;Băile Herculane
+ru;Бэиле-Еркулане;Băile Herculane
+zh;伯伊萊海爾庫拉內;Băile Herculane
+ru;Бая-Маре;Baia Mare
+he;בקאו;Bacău
+ru;Бакэу;Bacău
+uk;Бакеу;Bacău
+tr;Babadağı;Babadag
+ru;Авриг;Avrig
+fa;اردود;Ardud
+uk;Ардуд;Ardud
+ru;Ардуд;Ardud
+zh;阿爾杜德;Ardud
+ru;Арад;Arad
+he;ערד;Arad
+ru;Аниноаса;Aninoasa
+ru;Анина;Anina
+fa;انینا;Anina
+tg;Анина;Anina
+uk;Аніна;Anina
+zh;阿尼納;Anina
+ar;أليكساندريا;Alexandria
+fa;الکزاندریا;Alexandria
+ja;アレクサンドリア;Alexandria
+ko;알렉산드리아;Alexandria
+lt;Aleksandrija;Alexandria
+nn;Alexandria i Romania;Alexandria
+uk;Александрія;Alexandria
+ur;الیکساندریا، رومانیہ;Alexandria
+ru;Александрия;Alexandria
+zh;亚历山德里亚;Alexandria
+tr;Belgrad-i Erdel;Alba Iulia
+ta;அல்பா லூலியா;Alba Iulia
+ar;ألبا يوليا;Alba Iulia
+ja;アルバ・ユリア;Alba Iulia
+ko;알바이울리아;Alba Iulia
+lt;Alba Julija;Alba Iulia
+ka;ალბა-იულია;Alba Iulia
+uk;Алба-Юлія;Alba Iulia
+fa;آلبا ایولیا;Alba Iulia
+he;אלבה יוליה;Alba Iulia
+tg;Алба-Юлия;Alba Iulia
+ru;Алба-Юлия;Alba Iulia
+zh;阿爾巴尤利亞;Alba Iulia
+be;Алба-Юлія;Alba Iulia
+tt;Алба-Юлия;Alba Iulia
+ur;البا یولیا;Alba Iulia
+lv;Alba Julija;Alba Iulia
+ar;ألباك;Albac
+fa;الباک;Albac
+uk;Албак;Albac
+zh;阿尔巴克乡;Albac
+ru;Албак;Albac
+ru;Айуд;Aiud
+sgs;Ajuds;Aiud
+fa;ایو;Aiud
+lt;Ajudas;Aiud
+tg;Аюд;Aiud
+uk;Аюд;Aiud
+ru;Аюд;Aiud
+zh;阿尤德;Aiud
+vep;Ajud;Aiud
+ru;Агнита;Agnita
+fa;اگنیت;Agnita
+tg;Агнита;Agnita
+uk;Агніта;Agnita
+zh;阿格尼塔;Agnita
+fa;ابرو;Abrud
+tg;Абруд;Abrud
+uk;Абруд;Abrud
+ru;Абруд;Abrud
+zh;阿布鲁德;Abrud
+tt;Сатурн;Saturn
+ce;Сатурн;Saturn
+zh;薩圖恩;Saturn
+uk;Сатурн;Saturn
+ar;منتجع نبتون;Neptun
+hy;Նեպտուն;Neptun
+fa;نپتون، رومانی;Neptun
+he;נפטון;Neptun
+he;סיגישוארה;Sighișoara
+ar;سيغيشوارا;Sighișoara
+ja;シギショアラ;Sighișoara
+lt;Sigišoara;Sighișoara
+uk;Сігішоара;Sighișoara
+tg;Сигишоара;Sighișoara
+ko;시기쇼아라;Sighișoara
+fa;سیگیشوآرا;Sighișoara
+ru;Сигишоара;Sighișoara
+zh;锡吉什瓦拉;Sighișoara
+be;Сігішаара;Sighișoara
+ka;სიგიშოარა;Sighișoara
+lt;Slobozija;Slobozia
+ru;Слободзея;Slobozia

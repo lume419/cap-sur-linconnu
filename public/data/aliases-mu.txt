@@ -26,3 +26,252 @@ en;Ebene City;Ebene
 ar;بورت ماثورين;Port Mathurin
 ar;كارجادوس كاراخوس;Cargados Carajos
 ar;فينت سينك;Vingt Cinq
+ru;Вакоас;Vacoas
+ru;Триолет;Triolet
+ru;Тамарин;Tamarin
+kk;Тамарин;Tamarin
+ky;Тамарин;Tamarin
+hi;तमारिन;Tamarin
+bn;তামারিন;Tamarin
+ur;تمارین;Tamarin
+am;ታማሪን;Tamarin
+fa;تامارین;Tamarin
+ja;タマリン;Tamarin
+pa;ਤਮਾਰਿਨ;Tamarin
+ps;تمارين;Tamarin
+tg;Тамарин;Tamarin
+ja;シュリナム;Surinam
+ur;سرینام;Surinam
+zh;苏里南村;Surinam
+ru;Суйак;Souillac
+kk;Суйлак;Souillac
+uz;Suillak;Souillac
+ky;Суйллак;Souillac
+hi;सुइलैक;Souillac
+bn;সুইলাক;Souillac
+ur;سویلاک;Souillac
+am;ሱይላክ;Souillac
+az;Suillak;Souillac
+fa;سویلاک;Souillac
+ja;スイヤック;Souillac
+pa;ਸੁਇਲੈਕ;Souillac
+ps;سويلاك;Souillac
+tg;Суйллак;Souillac
+ru;Сен-Мартен;Saint Martin
+ru;Сент-Обен;Saint Aubin
+ru;Роз-Бель;Rose Belle
+kk;Роз Белль;Rose Belle
+uz;Roze Bell;Rose Belle
+ky;Роз Белль;Rose Belle
+hi;रोज़ बेल;Rose Belle
+bn;রোজ বেল;Rose Belle
+ur;روز بیل;Rose Belle
+am;ሮዝ ቤል;Rose Belle
+az;Roze Bell;Rose Belle
+fa;روز بل;Rose Belle
+ja;ローズベル;Rose Belle
+pa;ਰੋਜ਼ ਬੇਲ;Rose Belle
+ps;روز بيل;Rose Belle
+tg;Роз Белль;Rose Belle
+ru;Ривьер-дю-Ремпар;Rivière du Rempart
+kk;Ривьер-дю-Ремпар;Rivière du Rempart
+ky;Ривьер-дю-Ремпар;Rivière du Rempart
+hi;रिविएरे डु रेमपार्ट;Rivière du Rempart
+bn;রিভিয়ার ডু রেমপার্ট;Rivière du Rempart
+ur;ریویئر ڈو ریمپارٹ;Rivière du Rempart
+am;ሪቪየር ዱ ሬምፓር;Rivière du Rempart
+fa;ریویر دو رمپار;Rivière du Rempart
+ja;リビエールデュランパール;Rivière du Rempart
+pa;ਰਿਵਿਅਰ ਡੂ ਰੈਮਪਾਰਟ;Rivière du Rempart
+ps;ريفيير دو رمبار;Rivière du Rempart
+tg;Ривьер-дю-Ремпар;Rivière du Rempart
+ru;Ривьер-дю-Пост;Rivière du Poste
+ru;Ривер-дез-Ангий;Rivière des Anguilles
+ru;Кватье Милитер;Quartier Militaire
+kk;Кватье Милитер;Quartier Militaire
+uz;Kvartier Militaire;Quartier Militaire
+ky;Кватье Милитер;Quartier Militaire
+hi;क्वार्टियर मिलिटेयर;Quartier Militaire
+bn;কোয়ার্টিয়ার মিলিটেয়ার;Quartier Militaire
+ur;کوارٹیئر ملٹری;Quartier Militaire
+am;ኳርቲየር ሚሊተር;Quartier Militaire
+az;Kvartier Hərbi;Quartier Militaire
+fa;کوارتیه نظامی;Quartier Militaire
+ja;カルティエ・ミリテール;Quartier Militaire
+pa;ਕੁਆਰਟੀਅਰ ਮਿਲਿਟੇਅਰ;Quartier Militaire
+ps;كوارتير ميليتير;Quartier Militaire
+tg;Кватье Милитер;Quartier Militaire
+he;פור לואי;Port Louis
+ja;ポートルイス;Port Louis
+ko;포트루이스;Port Louis
+sr;Порт Луис;Port Louis
+ru;Порт-Луи;Port Louis
+zh;路易港;Port Louis
+el;Πορ Λουί;Port Louis
+fa;پورت‌لوئیس;Port Louis
+am;ፖርት ሉዊስ;Port Louis
+lt;Port Luisas;Port Louis
+os;Порт-Луи;Port Louis
+ka;პორტ-ლუი;Port Louis
+uk;Порт-Луї;Port Louis
+tg;Порт-Луи;Port Louis
+hy;Պորտ Լուի;Port Louis
+udm;Порт-Луи;Port Louis
+ht;Pò-Loui;Port Louis
+bo;ལོ་ཡི་སི་གྲུ་ཁ།;Port Louis
+lv;Portluī;Port Louis
+ky;Порт-Луи;Port Louis
+be;Порт-Луі;Port Louis
+bg;Порт Луи;Port Louis
+hi;पोर्ट लुई;Port Louis
+az;Port Luiz;Port Louis
+th;พอร์ตหลุยส์;Port Louis
+ckb;پۆرت لویس;Port Louis
+or;ପୋର୍ଟ ଲୁଇସ;Port Louis
+ta;போர்ட் லூயிஸ்;Port Louis
+ur;پورٹ لوئس;Port Louis
+so;Bort Lois;Port Louis
+mk;Порт Луис;Port Louis
+cv;Порт Луи;Port Louis
+is;Port Lois;Port Louis
+mr;पोर्ट लुईस;Port Louis
+pa;ਪੋਰਟ ਲੂਈ;Port Louis
+bn;পোর্ট লুইস;Port Louis
+ce;Порт-Луи;Port Louis
+yue;路易港;Port Louis
+kk;Порт-Луи;Port Louis
+ml;പോർട്ട് ലൂയിസ്;Port Louis
+uz;Port-lui;Port Louis
+vep;Port Lui;Port Louis
+ru;Птит-Ривьер;Petite Rivière
+ru;Памплемусс;Pamplemousses
+kk;Памплемусс;Pamplemousses
+uz;Pamplemuss;Pamplemousses
+ky;Памплемусс;Pamplemousses
+hi;पैम्पलमौसेस;Pamplemousses
+bn;পাম্পলমাউসেস;Pamplemousses
+ur;پام پلیموسز;Pamplemousses
+am;ፓምፕሌሙሰስ;Pamplemousses
+az;Pamplemuss;Pamplemousses
+fa;پامپلموس;Pamplemousses
+ja;パンプルムース;Pamplemousses
+pa;ਪੈਂਪਲੀਮੂਸਸ;Pamplemousses
+ps;بامبلموس;Pamplemousses
+tg;Памплемусс;Pamplemousses
+ru;Махеборг;Mahébourg
+zh-HK;馬喜埔;Mahébourg
+lt;Majeburas;Mahébourg
+yue;馬可邦;Mahébourg
+zh;马埃堡;Mahébourg
+zh-Hant;馬可邦;Mahébourg
+ja;マエブール;Mahébourg
+ru;Гранд-Бе;Grand Baie
+zh;格朗德贝;Grand Baie
+ru;Гран-Буа;Grand Bois
+bg;Годландс;Goodlands
+zh;古德兰兹;Goodlands
+ja;グッドランズ;Goodlands
+he;גודלנדס;Goodlands
+ru;Годландс;Goodlands
+zh;丰迪萨克;Fond du Sac
+sr;Кјурпајп;Curepipe
+ru;Кюрпип;Curepipe
+ja;キュールピップ;Curepipe
+ko;쿠레피페;Curepipe
+lt;Kiurpipas;Curepipe
+th;กูร์ปีป;Curepipe
+ur;کیورپیپہ;Curepipe
+ru;Кьюрпайп;Curepipe
+zh;居爾皮普;Curepipe
+ru;Шмен-Гренье;Chemin Grenier
+zh;舍曼格勒涅;Chemin Grenier
+ru;Шамарель;Chamarel
+bg;Чамарел;Chamarel
+zh;沙马雷勒;Chamarel
+uk;Шамарель;Chamarel
+ja;シャマレル;Chamarel
+ru;Центр де Флак;Centre de Flacq
+kk;Центр де Флак;Centre de Flacq
+uz;Sentр de Flacq;Centre de Flacq
+ky;Центр де Флак;Centre de Flacq
+hi;सेंटर डे फ्लैक;Centre de Flacq
+bn;সেন্ট্রে দে ফ্ল্যাক;Centre de Flacq
+ur;سینٹر دے فلاک;Centre de Flacq
+am;ሴንተር ደ ፍላክ;Centre de Flacq
+az;Sent-dе Flack;Centre de Flacq
+fa;سنتر د فلاک;Centre de Flacq
+ja;サントル・ド・フラック;Centre de Flacq
+pa;ਸੈਂਟਰ ਡੇ ਫ੍ਲੈਕ;Centre de Flacq
+ps;مركز دي فلاك;Centre de Flacq
+tg;Центр де Флак;Centre de Flacq
+zh;馬勒勒角;Cap Malheureux
+zh-Hans;马勒勒角;Cap Malheureux
+ru;Бель-Омбр;Bel Ombre
+ja;ベル・エア・リビエール・セシェ;Bel Air Rivière Sèche
+pl;Bel Air;Bel Air Rivière Sèche
+he;בל אייר;Bel Air Rivière Sèche
+zh;贝莱尔;Bel Air Rivière Sèche
+ru;Бо Бассен-Роз Хилл;Beau Bassin-Rose Hill
+kk;Бо Бассен-Роз Хилл;Beau Bassin-Rose Hill
+uz;Bo Bassin-Roze Kholmi;Beau Bassin-Rose Hill
+ky;Бо Бассен-Роз Хилл;Beau Bassin-Rose Hill
+hi;बॉ बेसिन-रोज़ हिल;Beau Bassin-Rose Hill
+bn;বো বেসিন-রোজ হিল;Beau Bassin-Rose Hill
+ur;بو باسن-روز ہل;Beau Bassin-Rose Hill
+am;ቦ ባሲን-ሮዝ ሂል;Beau Bassin-Rose Hill
+az;Bo Bassin-Roze Təpə;Beau Bassin-Rose Hill
+fa;بو باسین-رز هیل;Beau Bassin-Rose Hill
+ja;ボーバッサン-ローズヒル;Beau Bassin-Rose Hill
+pa;ਬੋ ਬਾਸਿਨ-ਰੋਜ਼ ਹਿਲ;Beau Bassin-Rose Hill
+ps;بو باسين - روز هيل;Beau Bassin-Rose Hill
+tg;Бо Бассен-Роз Хилл;Beau Bassin-Rose Hill
+hi;बैम्बॉस;Bambous
+bg;Бамбоус;Bambous
+yue;班布斯;Bambous
+zh;邦布;Bambous
+ja;バンブース;Bambous
+ru;Бамбоус;Bambous
+ru;Бе-дю-Кап;Baie du Cap
+ru;Ла-Флора;La Flora
+bg;Мапоу;Mapou
+yue;馬普;Mapou
+zh;馬普;Mapou
+zh-Hans;马普;Mapou
+ja;マプー;Mapou
+ru;Мапоу;Mapou
+ru;Пор Матюрен;Port Mathurin
+kk;Пор Матюрен;Port Mathurin
+ky;Пор Матюрен;Port Mathurin
+hi;पोर्ट मथुरिन;Port Mathurin
+bn;পোর্ট ম্যাথুরিন;Port Mathurin
+ur;پورٹ میتھورن;Port Mathurin
+am;ፖርት ማቱሪን;Port Mathurin
+fa;پورت ماتورین;Port Mathurin
+ja;ポルト・マテュラン;Port Mathurin
+pa;ਪੋਰਟ ਮਾਥੁਰਿਨ;Port Mathurin
+ps;بورت ماثورين;Port Mathurin
+ru;Каргадос Караджос;Cargados Carajos
+kk;Каргадос Караджос;Cargados Carajos
+ky;Каргадос Караджос;Cargados Carajos
+hi;कार्गाडोस कराजोस;Cargados Carajos
+bn;কার্গাডোস কারাজোস;Cargados Carajos
+ur;کارگاڈوس کاراجوس;Cargados Carajos
+am;ካርጋዶስ ካራሆስ;Cargados Carajos
+az;Cargados Karakos;Cargados Carajos
+fa;کارگادوس کاراجوس;Cargados Carajos
+ja;カルガドス・カラジョス;Cargados Carajos
+pa;ਕਾਰਗਾਡੋਸ ਕਾਰਾਜੋਸ;Cargados Carajos
+ps;كارجادوس كاراخوس;Cargados Carajos
+tg;Каргадос Караджос;Cargados Carajos
+ru;Вэнь Сэнк;Vingt Cinq
+kk;Вэнь Сэнк;Vingt Cinq
+ky;Вэнь Сэнк;Vingt Cinq
+hi;विन्ट सिंक;Vingt Cinq
+bn;ভিংট সিঙ্ক;Vingt Cinq
+ur;ونٹ سنک;Vingt Cinq
+am;ቪንግት ሲንክ;Vingt Cinq
+fa;وینت سینک;Vingt Cinq
+ja;ヴァンサンク;Vingt Cinq
+pa;ਵਿੰਟ ਸਿੰਕ;Vingt Cinq
+ps;فينت سينك;Vingt Cinq
+tg;Вэнь Сэнк;Vingt Cinq

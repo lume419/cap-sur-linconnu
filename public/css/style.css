@@ -260,6 +260,12 @@
     z-index:20;
   }
   .suggest-list.show{display:block;}
+  /* Écran large : le champ est dans une colonne étroite (~200 px) où le nom et son nom alternatif entre parenthèses
+     étaient coupés (« Sankt Wen… », « Xanten (Sa… ») — la liste déborde sur la colonne voisine. Sur mobile le champ
+     occupe déjà toute la largeur. */
+  @media (min-width: 700px){
+    .suggest-list{inset-inline-end:auto; width:max(100%, 24rem);}
+  }
   .suggest-item{
     display:flex; align-items:center; justify-content:space-between; gap:.7rem;
     padding:.5rem .6rem;
@@ -269,7 +275,8 @@
   .suggest-item:hover, .suggest-item.active{background:var(--surface-2);}
   .suggest-item.active{outline:1.5px solid var(--accent-3);}
   .suggest-name{display:inline-flex; align-items:center; gap:.4rem; font:600 .88rem/1.2 var(--font-body); color:var(--ink); min-width:0;}
-  .suggest-name>span{overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .suggest-name>span{overflow-wrap:anywhere;} /* nom long : retour à la ligne plutôt que coupure */
+  .suggest-matched{font-weight:400; color:var(--ink-soft, var(--ink)); opacity:.8;}
   .suggest-flag{flex:none; font-size:1rem; line-height:1;}
   .suggest-cp{font:var(--font-mono); font-size:.72rem; color:var(--ink-faint); white-space:nowrap; flex:none;}
   .suggest-empty{padding:.6rem; font-size:.82rem; color:var(--ink-faint); font-style:italic;}

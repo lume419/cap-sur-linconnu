@@ -17,3 +17,50 @@ ja;ブレイズ;Brades
 ko;브레이즈;Brades
 ru;Брейдс;Brades
 zh;布莱兹;Brades
+kk;Санкт-Петербург;Saint Peters
+tr;Saint Petersburg;Saint Peters
+uz;Sankt-Peterburg;Saint Peters
+ky;Санкт-Петербург;Saint Peters
+id;Saint Petersburg;Saint Peters
+ms;Saint Petersburg;Saint Peters
+bn;সেন্ট পিটার্সবার্গ;Saint Peters
+ur;سینٹ پیٹرز برگ;Saint Peters
+am;ሴንት ፒተርስበርግ;Saint Peters
+az;Sankt-Peterburq;Saint Peters
+fa;سن پترزبورگ;Saint Peters
+ha;Saint Petersburg;Saint Peters
+jv;Saint Petersburg;Saint Peters
+om;Saint Petersburg;Saint Peters
+pa;ਸੇਂਟ ਪੀਟਰਸਬਰਗ;Saint Peters
+ps;سینټ پیترزبرګ;Saint Peters
+so;Saint Petersburg;Saint Peters
+sw;Saint Petersburg;Saint Peters
+tg;Санкт-Петербург;Saint Peters
+tt;Санкт-Петербург;Saint Peters
+az;Plimut;Plymouth
+be;Плімут;Plymouth
+bg;Плимът;Plymouth
+he;פלימות;Plymouth
+ka;პლიმუთი;Plymouth
+lt;Plimutas;Plymouth
+nn;Plymouth på Montserrat;Plymouth
+sr;Плимут;Plymouth
+th;พลิมัท;Plymouth
+uk;Плімут;Plymouth
+ur;پلایماؤت، مانٹسریٹ;Plymouth
+el;Πλίμουθ;Plymouth
+fa;پلی‌موث، مونتسرات;Plymouth
+az;Breyds;Brades
+be;Вёска Брэйдс;Brades
+bg;Брейдс;Brades
+el;Μπρέιντς;Brades
+fa;بریدز;Brades
+he;בראדס;Brades
+ka;ბრეიდსი;Brades
+lt;Breidsas;Brades
+mk;Брејдс;Brades
+sr;Брејдс;Brades
+ta;பிராதெ;Brades
+th;เบรดส์;Brades
+uk;Брейдс;Brades
+ur;بریڈیس;Brades

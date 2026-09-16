@@ -17,3 +17,43 @@ gv;Creneash;Cregneish
 gv;Balley Chashtal;Castletown
 ga;Baile Chaistil;Castletown
 gv;Bayr Garroo;Barregarrow
+ru;Рамси;Ramsey
+gd;Rhumsaa;Ramsey
+lt;Ramsis;Ramsey
+ru;Порт-Эрин;Port Erin
+gd;Purt ny hInshey;Peel
+lt;Pylas;Peel
+ru;Пил;Peel
+lt;Onkanas;Onchan
+ru;Онкан;Onchan
+ru;Лакси;Laxey
+gd;Doolish;Douglas
+ja;ダグラス;Douglas
+lt;Daglasas;Douglas
+sr;Даглас;Douglas
+ru;Дуглас;Douglas
+ur;ڈگلس;Douglas
+he;דאגלס;Douglas
+be;Дуглас;Douglas
+udm;Дуглас;Douglas
+mr;डग्लस;Douglas
+bg;Дъглас;Douglas
+el;Ντάγκλας;Douglas
+lv;Daglasa;Douglas
+ko;더글러스;Douglas
+ka;დუგლასი;Douglas
+os;Дуглас;Douglas
+nn;Douglas på Isle of Man;Douglas
+th;ดักลาส;Douglas
+uk;Дуглас;Douglas
+az;Duqlas;Douglas
+fa;دوگلاس;Douglas
+zh;道格拉斯;Douglas
+ar;دوغلاس;Douglas
+mk;Даглас;Douglas
+pa;ਡਗਲਸ;Douglas
+ta;டக்லசு;Douglas
+ru;Каслтаун;Castletown
+lt;Kasltaunas;Castletown
+sco;Castletoun;Castletown
+gd;Balley Chashtal;Castletown

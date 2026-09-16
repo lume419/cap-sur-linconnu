@@ -2813,3 +2813,6428 @@ gl;Vilameá;Villameá
 es;La Manchica;A Manchica
 es;San Esteban de Ribas de Miño;Santo Estevo de Ribas de Miño
 en;Los Castaños;Barriada Los Castaños
+ar;زوريتا;Zorita
+uk;Соріта;Zorita
+ru;Сорита;Zorita
+zh;索里塔;Zorita
+ru;Замора;Zamora
+ru;Саара-де-лос-Атунес;Zahara de los Atunes
+ja;サフラ;Zafra
+uk;Сафра;Zafra
+ar;صفراء، بطليوس;Zafra
+ru;Сафра;Zafra
+zh;萨夫拉;Zafra
+sr;Зафра;Zafra
+ar;يستي;Yeste
+fa;یسته;Yeste
+uk;Єсте;Yeste
+ru;Есте;Yeste
+ar;ييبيس;Yepes
+kk;Епес;Yepes
+uk;Єпес;Yepes
+ru;Епес;Yepes
+zh;耶佩斯;Yepes
+ru;Екла;Yecla
+uk;Єкла;Yecla
+ar;يكلا، مرسية;Yecla
+zh;耶克拉;Yecla
+ru;Яиса;Yaiza
+ru;Виверос;Viveros
+ar;فايفار;Viver
+uk;Вівер;Viver
+ru;Вивер;Viver
+zh;比韦尔;Viver
+ru;Виналеса;Vinalesa
+ru;Вильена;Villena
+ru;Виллариба;Villarrubia
+el;Βιλλαρροβλέδο;Villarrobledo
+ja;ビリャロブレド;Villarrobledo
+ru;Вильярробледо;Villarrobledo
+ru;Вильярреаль;Vila-real
+ar;فيلارالتو;Villaralto
+uk;Вільяральто;Villaralto
+ru;Вильяральто;Villaralto
+zh;比利亚拉尔托;Villaralto
+ar;فيانويفا ديل روساريو;Villanueva del Rosario
+hy;Վիլյանուևա դել Ռոսարիո;Villanueva del Rosario
+kk;Вильянуэва-дель-Росарио;Villanueva del Rosario
+uk;Вільянуева-дель-Росаріо;Villanueva del Rosario
+ru;Вильянуэва-дель-Росарио;Villanueva del Rosario
+zh;罗萨里奥新镇;Villanueva del Rosario
+ru;Вильянуэва-де-ла-Серена;Villanueva de la Serena
+ar;فيلانيوفا دي لا سيرينا;Villanueva de la Serena
+uk;Вільянуева-де-ла-Серена;Villanueva de la Serena
+ja;ビジャヌエバ・デ・ラ・セレーナ;Villanueva de la Serena
+zh;塞雷纳新镇;Villanueva de la Serena
+ar;فيلانيوفا دي لا خارا;Villanueva de la Jara
+kk;Вильянуэва-де-ла-Хара;Villanueva de la Jara
+uk;Вільянуева-де-ла-Хара;Villanueva de la Jara
+ru;Вильянуэва-де-ла-Хара;Villanueva de la Jara
+zh;哈拉新镇;Villanueva de la Jara
+ar;فيلامالور;Villamalur
+uk;Вільямалур;Villamalur
+ru;Вильямалур;Villamalur
+zh;比利亚马卢尔;Villamalur
+ar;فياكاريو;Villacarrillo
+fa;بییاکارییو;Villacarrillo
+uk;Вільякаррільйо;Villacarrillo
+ru;Вильякаррильо;Villacarrillo
+zh;比利亚卡里略;Villacarrillo
+ar;فيلتشيس;Vilches
+fa;بیلچس;Vilches
+hy;Վիլչես;Vilches
+uk;Вільчес;Vilches
+ru;Вильчес;Vilches
+zh;比尔切斯;Vilches
+ru;Вилафлор;Vilaflor
+ar;بيكار;Vícar
+fa;بیکار;Vícar
+uk;Вікар;Vícar
+mk;Викар;Vícar
+ru;Викар;Vícar
+zh;比卡尔;Vícar
+ru;Вера;Vera
+ru;Велес-Малага;Vélez-Málaga
+ar;فيليث-مالقة;Vélez-Málaga
+kk;Вeлес-Мaлага;Vélez-Málaga
+sr;Велез-Малага;Vélez-Málaga
+ja;ベレス＝マラガ;Vélez-Málaga
+uk;Велес-Малага;Vélez-Málaga
+zh;贝莱斯-马拉加;Vélez-Málaga
+el;Μπέλεθ-Μάλαγα;Vélez-Málaga
+hy;Վելես Մալագա;Vélez-Málaga
+ru;Велада;Velada
+ar;فيخير دي لا فرونتيرا;Vejer de la Frontera
+ja;ベヘール・デ・ラ・フロンテーラ;Vejer de la Frontera
+uk;Вехер-де-ла-Фронтера;Vejer de la Frontera
+ru;Вехер-де-ла-Фронтера;Vejer de la Frontera
+zh;贝赫尔德拉夫龙特拉;Vejer de la Frontera
+ru;Вальверде;Valverde
+zh-TW;法德摩薩;Valldemossa
+ar;فالنسيا دي الكنتارا;Valencia de Alcántara
+uk;Валенсія-де-Алькантара;Valencia de Alcántara
+ru;Валенсия-де-Алькантара;Valencia de Alcántara
+zh;巴伦西亚德亚尔坎塔拉;Valencia de Alcántara
+pl;Walencja;Valencia
+ar;بلنسية;Valencia
+bg;Валенсия;Valencia
+bs;Valencija;Valencia
+cs;Valencie;Valencia
+he;ולנסיה;Valencia
+ja;バレンシア;Valencia
+ka;ვალენსია;Valencia
+lt;Valensija;Valencia
+lv;Valensija;Valencia
+ru;Валенсия;Valencia
+sl;Valencija;Valencia
+tr;Valensiya;Valencia
+zh-TW;巴倫西亞;Valencia
+th;บาเลนเซีย;Valencia
+be;Валенсія;Valencia
+uk;Валенсія;Valencia
+os;Валенси;Valencia
+ug;Walénsiye;Valencia
+hy;Վալենսիա;Valencia
+sr;Валенсија;Valencia
+mg;Valantsa;Valencia
+mr;वालेन्सिया;Valencia
+kk;Валенсия;Valencia
+az;Valensiya;Valencia
+ta;வாலேன்சியா;Valencia
+mk;Валенсија;Valencia
+ckb;ڤالێنسیا;Valencia
+pih;Valensyaa;Valencia
+ko;발렌시아;Valencia
+el;Βαλένθια;Valencia
+fa;والنسیا;Valencia
+zh;巴倫西亞;Valencia
+sgs;Valensėjė;Valencia
+ce;Валенси;Valencia
+mhr;Валенсий;Valencia
+mn;Валенсиа;Valencia
+pa;ਵਾਲੈਂਸੀਆ;Valencia
+uz;Valensiya;Valencia
+yue;華倫西亞;Valencia
+hak;Pâ-lùn-sî-â;Valencia
+kaa;Valensiya;Valencia
+ky;Валенсия;Valencia
+ur;ویلنسیا;Valencia
+vep;Valensii;Valencia
+ru;Валдеторрес;Valdetorres
+ru;Вальдепеньясе;Valdepeñas
+ru;Валдеморалес;Valdemorales
+ru;Утрера;Utrera
+uk;Утьєль;Utiel
+ru;Утьель;Utiel
+zh;乌铁尔;Utiel
+ru;Урда;Urda
+kk;Умбрете;Umbrete
+uk;Умбрете;Umbrete
+ru;Умбрете;Umbrete
+zh;温夫雷特;Umbrete
+ru;Уга;Uga
+ar;أقليش;Uclés
+ja;ウクレス;Uclés
+uk;Уклес;Uclés
+ru;Уклес;Uclés
+zh;乌克莱斯;Uclés
+ja;ウベダ;Úbeda
+ka;უბედა;Úbeda
+ar;أبدة;Úbeda
+ko;우베다;Úbeda
+uk;Убеда;Úbeda
+bg;Убеда;Úbeda
+ru;Убеда;Úbeda
+zh;乌韦达;Úbeda
+fa;اوبدا;Úbeda
+ar;تورري;Turre
+fa;توره;Turre
+mk;Туре;Turre
+uk;Турре;Turre
+ru;Турре;Turre
+zh;图雷;Turre
+hy;Տուռե;Turre
+ms;Toixa;Tuéjar
+uk;Туехар;Tuéjar
+ru;Туэхар;Tuéjar
+zh;图埃哈尔;Tuéjar
+ja;トルヒーリョ;Trujillo
+ar;تريغيروس;Trigueros
+hy;Տրիգերոս;Trigueros
+kk;Тригерос;Trigueros
+uk;Трігерос;Trigueros
+ru;Тригерос;Trigueros
+zh;特里格罗斯;Trigueros
+ru;Трибалдос;Tribaldos
+ru;Тотана;Totana
+ar;طرش;Torrox
+kk;Торрокс;Torrox
+uk;Торрокс;Torrox
+ru;Торрокс;Torrox
+zh;托罗斯;Torrox
+ru;Торревьеха;Torrevieja
+ar;توريفايجا;Torrevieja
+uk;Торревєха;Torrevieja
+fa;تربیخا;Torrevieja
+sr;Торевијеха;Torrevieja
+kk;Торревьеха;Torrevieja
+bg;Торевиеха;Torrevieja
+ja;トレビエハ;Torrevieja
+zh;托雷维耶哈;Torrevieja
+he;טורבייחה;Torrevieja
+hy;Տոռեվիեխա;Torrevieja
+ru;Торрес;Torres
+ru;Торре-Пачеко;Torre-Pacheco
+ru;Торрент;Torrent
+ru;Торремолинос;Torremolinos
+ar;توريمولينوس;Torremolinos
+el;Τορρεμολίνος;Torremolinos
+kk;Торремолинос;Torremolinos
+sr;Торемолинос;Torremolinos
+uk;Торремолінос;Torremolinos
+zh;托雷莫利诺斯;Torremolinos
+ar;توريخونسييو;Torrejoncillo
+uk;Торрехонсільйо;Torrejoncillo
+ru;Торрехонсильо;Torrejoncillo
+zh;托雷洪西略;Torrejoncillo
+ar;توريدونخيمينو;Torredonjimeno
+fa;تردنخیمنو;Torredonjimeno
+uk;Торредонхімено;Torredonjimeno
+ru;Торредонхимено;Torredonjimeno
+zh;托雷东希梅诺;Torredonjimeno
+ar;تورالبا ديل باينار;Torralba del Pinar
+uk;Торральба-дель-Пінар;Torralba del Pinar
+ru;Торральба-дель-Пинар;Torralba del Pinar
+zh;托拉尔瓦德尔皮纳尔;Torralba del Pinar
+ru;Тормос;Tormos
+ru;Торил;Toril
+ru;Томельосо;Tomelloso
+ar;توميلوسو، سيوداد ريال;Tomelloso
+ja;トメジョーソ;Tomelloso
+kk;Томельосо;Tomelloso
+sr;Томељосо;Tomelloso
+uk;Томельйосо;Tomelloso
+zh;托梅略索;Tomelloso
+ru;Томарес;Tomares
+ar;طليطلة;Toledo
+bg;Толедо;Toledo
+he;טולדו;Toledo
+ja;トレド;Toledo
+ru;Толедо;Toledo
+zh-TW;托萊多;Toledo
+ka;ტოლედო;Toledo
+th;โตเลโด;Toledo
+am;ቶሌዶ;Toledo
+sr;Толедо;Toledo
+mr;तोलेदो;Toledo
+lt;Toledas;Toledo
+os;Толедо;Toledo
+ur;طلیطلہ;Toledo
+fa;تولدو، اسپانیا;Toledo
+uk;Толедо;Toledo
+hy;Տոլեդո;Toledo
+hi;तोलेदो;Toledo
+ko;톨레도;Toledo
+el;Τολέδο;Toledo
+be;Таледа;Toledo
+nn;Toledo i Spania;Toledo
+zh;托萊多;Toledo
+pa;ਤੋਲੇਦੋ;Toledo
+ta;டொலேடோ;Toledo
+yue;托利多;Toledo
+ru;Тобарра;Tobarra
+ar;تيخولا;Tíjola
+fa;تیخولا;Tíjola
+mk;Тијола;Tíjola
+uk;Тіхола;Tíjola
+ru;Тихола;Tíjola
+zh;蒂霍拉;Tíjola
+ar;تايباي;Tibi
+fa;تیبی;Tibi
+kk;Тиби;Tibi
+uk;Тібі;Tibi
+ru;Тиби;Tibi
+zh;蒂维;Tibi
+ar;تيرور;Teror
+uk;Терор;Teror
+ru;Терор;Teror
+zh;特罗尔;Teror
+fa;تمبلکه;Tembleque
+hy;Տեմբլեկե;Tembleque
+kk;Темблеке;Tembleque
+uk;Темблеке;Tembleque
+ru;Темблеке;Tembleque
+zh;滕夫莱克;Tembleque
+ru;Тельде;Telde
+bg;Телде;Telde
+sr;Телде;Telde
+ar;تيلدي;Telde
+uk;Тельде;Telde
+zh;特尔德;Telde
+ar;تيخيدا;Tejeda
+uk;Техеда;Tejeda
+ru;Техеда;Tejeda
+zh;特赫达;Tejeda
+ar;تيبا، مالقة;Teba
+uk;Теба;Teba
+ru;Теба;Teba
+zh;特瓦;Teba
+ar;تاثاكورتي;Tazacorte
+uk;Тасакорте;Tazacorte
+ru;Тасакорте;Tazacorte
+zh;塔萨科尔特;Tazacorte
+ru;Тарифа;Tarifa
+ko;타리파;Tarifa
+ja;タリファ;Tarifa
+uk;Таріфа;Tarifa
+ar;طريفا;Tarifa
+bg;Тарифа;Tarifa
+be;Тарыфа;Tarifa
+zh;塔里法;Tarifa
+ru;Талес;Tales
+ar;تالايلا;Talayuela
+uk;Талаюела;Talayuela
+ru;Талаюэла;Talayuela
+zh;塔莱韦拉;Talayuela
+th;ตาลาเบราเดลาเรย์นา;Talavera de la Reina
+ja;タラベラ・デ・ラ・レイナ;Talavera de la Reina
+sr;Талавера де ла Реина;Talavera de la Reina
+hi;टालावेरा दी ला रीना;Talavera de la Reina
+uk;Талавера-де-ла-Рейна;Talavera de la Reina
+kk;Талавера де ла Рейна;Talavera de la Reina
+am;ታላቬራ ዴ ላ ሬና;Talavera de la Reina
+ar;طلبيرة;Talavera de la Reina
+ru;Талавера де ла Рейна;Talavera de la Reina
+zh;塔拉韦拉德拉雷纳;Talavera de la Reina
+uk;Талаван;Talaván
+ar;تالافان;Talaván
+ru;Талаван;Talaván
+zh;塔拉万;Talaván
+ru;Таганана;Taganana
+ar;تاكورونتي;Tacoronte
+fa;تاکرنته;Tacoronte
+uk;Такоронте;Tacoronte
+ru;Такоронте;Tacoronte
+zh;塔科龙特;Tacoronte
+ru;Табернас;Tabernas
+ru;Сорбас;Sorbas
+ar;سون سيرفيرا;Son Servera
+ru;Сон-Сервера;Son Servera
+zh;松塞尔韦拉;Son Servera
+ar;سونيخا;Soneja
+uk;Сонеха;Soneja
+ru;Сонеха;Soneja
+zh;索内哈;Soneja
+ar;سويير;Sóller
+ru;Сольер;Sóller
+zh;索列尔;Sóller
+ja;ソーリェル;Sóller
+lv;Soļera;Sóller
+ar;سوكويلاموس، سيوداد ريال;Socuéllamos
+kk;Сокуэльямос;Socuéllamos
+uk;Сокуельямос;Socuéllamos
+ru;Сокуэльямос;Socuéllamos
+zh;索库埃利亚莫斯;Socuéllamos
+ru;Сисанте;Sisante
+ru;Силес;Siles
+ar;إشبيلية;Sevilla
+be;Севілья;Sevilla
+ja;セビリャ;Sevilla
+ja;セビリア;Sevilla
+lt;Sevilija;Sevilla
+lv;Sevilja;Sevilla
+pl;Sewilla;Sevilla
+ro;Sevilia;Sevilla
+ru;Севилья;Sevilla
+bg;Севиля;Sevilla
+el;Σεβίλλη;Sevilla
+he;סביליה;Sevilla
+sco;Seville;Sevilla
+tl;Lungsod ng Sevilla;Sevilla
+ka;სევილია;Sevilla
+sr;Севиља;Sevilla
+ko;세비야;Sevilla
+th;เซบียา;Sevilla
+ur;اشبیلیہ;Sevilla
+uk;Севілья;Sevilla
+ug;Séwéliye;Sevilla
+hy;Սևիլյա;Sevilla
+ta;செவீயா;Sevilla
+mr;सेबिया;Sevilla
+mk;Севилја;Sevilla
+fa;سویا;Sevilla
+mg;Sevila;Sevilla
+sl;Sevilja;Sevilla
+sq;Sevilja;Sevilla
+kbd;Севиджэ;Sevilla
+os;Севилья;Sevilla
+ckb;سێڤیلیا;Sevilla
+kk;Севилья;Sevilla
+az;Sevilya;Sevilla
+zh;塞维利亚;Sevilla
+sgs;Sevilėjė;Sevilla
+ce;Севилья;Sevilla
+pa;ਇਸ਼ਬੀਲੀਆ;Sevilla
+yue;塞維亞;Sevilla
+ru;Серрато;Serrato
+ru;Серра;Serra
+ru;Семпере;Sempere
+ru;Селва;Selva
+ar;سيغورا دي لا سييرا;Segura de la Sierra
+fa;سگورا د لا سیرا;Segura de la Sierra
+uk;Сегура-де-ла-Сьєрра;Segura de la Sierra
+ru;Сегура-де-ла-Сьерра;Segura de la Sierra
+zh;塞古拉德拉谢拉;Segura de la Sierra
+ar;سايالونغا;Sayalonga
+hy;Սայալոնգա;Sayalonga
+kk;Сайялонга;Sayalonga
+uk;Саялонга;Sayalonga
+ru;Саялонга;Sayalonga
+zh;赛阿隆加;Sayalonga
+ar;ساوسيدايلا;Saucedilla
+uk;Сауседілья;Saucedilla
+ru;Сауседилья;Saucedilla
+zh;绍塞迪利亚;Saucedilla
+ru;Сан-Висенте;San Vicente
+ru;Сантомера;Santomera
+ru;Санта-Пола;Santa Pola
+ar;سانتا بولا;Santa Pola
+fa;سانتا پلا;Santa Pola
+kk;Санта-Пола;Santa Pola
+uk;Санта-Пола;Santa Pola
+zh;圣波拉;Santa Pola
+zh;圣卢西亚;Santa Lucía
+ar;سانتا إيولاليا ديل ريو;Santa Eulària des Riu
+ru;Санта-Эулалия-дель-Рио;Santa Eulària des Riu
+zh;滨河圣埃乌拉利亚;Santa Eulària des Riu
+ja;サンタ・クルス・デ・テネリフェ;Santa Cruz de Tenerife
+ru;Санта-Крус-де-Тенерифе;Santa Cruz de Tenerife
+fi;Teneriffa;Santa Cruz de Tenerife
+no;Tenerife;Santa Cruz de Tenerife
+lv;Santakrusa de Tenerife;Santa Cruz de Tenerife
+fa;سانتا کروس;Santa Cruz de Tenerife
+uk;Санта-Крус-де-Тенеріфе;Santa Cruz de Tenerife
+el;Σάντα Κρουθ ντε Τενερίφε;Santa Cruz de Tenerife
+az;Santa Kruz de Tenerife;Santa Cruz de Tenerife
+ko;산타크루스데테네리페;Santa Cruz de Tenerife
+hi;सान्ता क्रूस दे तेनरीफ़;Santa Cruz de Tenerife
+ka;სანტა-კრუს-დე-ტენერიფე;Santa Cruz de Tenerife
+bg;Санта Крус де Тенерифе;Santa Cruz de Tenerife
+be;Санта-Крус-дэ-Тэнэрыфэ;Santa Cruz de Tenerife
+ar;سانتا كروث دي تينيريفه;Santa Cruz de Tenerife
+os;Санта-Крус-де-Тенерифе;Santa Cruz de Tenerife
+he;סנטה קרוס דה טנריפה;Santa Cruz de Tenerife
+sr;Санта Круз де Тенерифе;Santa Cruz de Tenerife
+lt;Tenerifės Santa Krusas;Santa Cruz de Tenerife
+zh;圣克鲁斯-德特内里费;Santa Cruz de Tenerife
+bn;সান্টা ক্রুজ দে তেনেরিফে;Santa Cruz de Tenerife
+ce;Санта-Крус-де-Тенерифе;Santa Cruz de Tenerife
+mn;Санта Круз де Тенерифе;Santa Cruz de Tenerife
+mr;सांता क्रुझ दे तेनेरीफ;Santa Cruz de Tenerife
+th;ซานตากรุซเดเตเนรีเฟ;Santa Cruz de Tenerife
+ur;سانتا کروز ٹینرائف;Santa Cruz de Tenerife
+ar;سانتا كروز دي لا زارزا;Santa Cruz de la Zarza
+kk;Санта-Крус-де-ла-Сарса;Santa Cruz de la Zarza
+uk;Санта-Крус-де-ла-Сарса;Santa Cruz de la Zarza
+ru;Санта-Крус-де-ла-Сарса;Santa Cruz de la Zarza
+zh;圣克鲁斯德拉萨尔萨;Santa Cruz de la Zarza
+ru;Санта-Крус-де-ла-Пальма;Santa Cruz de la Palma
+ar;سان سيباستيان دي لا غوميرا;San Sebastián de la Gomera
+be;Сан-Себасцьян-дэ-ла-Гамера;San Sebastián de la Gomera
+fa;سان سباستیان د لا گمرا;San Sebastián de la Gomera
+lt;La Gomeros San Sebastianas;San Sebastián de la Gomera
+uk;Сан-Себастьян-де-ла-Гомера;San Sebastián de la Gomera
+ru;Сан-Себастьян-де-ла-Гомера;San Sebastián de la Gomera
+zh;圣塞瓦斯蒂安德拉戈梅拉;San Sebastián de la Gomera
+ru;Сан-Педро-де-Алькантара;San Pedro Alcántara
+ru;Сан Мигуэль;San Miguel de Salinas
+ar;سان لويس;Sant Lluís
+ru;Сан-Луис;Sant Lluís
+zh;桑特柳伊斯;Sant Lluís
+ru;Санлукар-де-Баррамеда;Sanlúcar de Barrameda
+ar;شلوقة;Sanlúcar de Barrameda
+bg;Санлукар де Барамеда;Sanlúcar de Barrameda
+ja;サンルーカル・デ・バラメーダ;Sanlúcar de Barrameda
+ka;სანლუკარ-დე-ბარამედა;Sanlúcar de Barrameda
+ko;산루카르데바라메다;Sanlúcar de Barrameda
+nah;San Lucar de Barrameda;Sanlúcar de Barrameda
+sr;Санлукар де Барамеда;Sanlúcar de Barrameda
+th;ซานลูการ์เดบาร์ราเมดา;Sanlúcar de Barrameda
+uk;Санлукар-де-Баррамеда;Sanlúcar de Barrameda
+zh;桑卢卡尔德瓦拉梅达;Sanlúcar de Barrameda
+kk;Сан-Хуан-де-Аснальфараче;San Juan de Aznalfarache
+uk;Сан-Хуан-де-Аснальфараче;San Juan de Aznalfarache
+ru;Сан-Хуан-де-Аснальфараче;San Juan de Aznalfarache
+zh;圣胡安德亚斯纳尔法拉切;San Juan de Aznalfarache
+ru;Сан Хосе;San José
+ru;Сан Исидро;San Isidro
+sr;Сан Фернандо;San Fernando
+uk;Сан-Фернандо;San Fernando
+ar;سان فرناندو، قادس;San Fernando
+nn;San Fernando i Spania;San Fernando
+ja;サン・フェルナンド;San Fernando
+ru;Сан-Фернандо;San Fernando
+zh;圣费尔南多;San Fernando
+fi;San Cristóbal de La Laguna;La Laguna
+ru;Ла-Лагуна;La Laguna
+ru;Сан - Бартоломе;San Bartolomé
+sv;San Antonio;Sant Antoni de Portmany
+no;San Antonio;Sant Antoni de Portmany
+ar;سان أنطونيو أباد;Sant Antoni de Portmany
+da;San Antonio;Sant Antoni de Portmany
+ru;Сан-Антонио-Абад;Sant Antoni de Portmany
+zh;桑坦托尼德波尔特马尼;Sant Antoni de Portmany
+ru;Салтерас;Salteras
+ru;Салорино;Salorino
+ru;Салобре;Salobre
+ru;Салинас;Salinas
+ru;Саларес;Salares
+ru;Салар;Salar
+he;סגונטום;Sagunto
+ru;Сагунто;Sagunto
+sv;Rute församling;Rute
+ru;Руте;Rute
+ru;Рус;Rus
+ru;Рубите;Rubite
+ru;Рота;Rota
+ru;Рокетас-де-Мар;Roquetas de Mar
+uk;Рокетас-де-Мар;Roquetas de Mar
+ja;ロケタス・デ・マル;Roquetas de Mar
+fa;رکتاس د مار;Roquetas de Mar
+ar;روكويتاس دي مار;Roquetas de Mar
+sr;Рокетас де Мар;Roquetas de Mar
+mk;Рокетас де Мар;Roquetas de Mar
+zh;罗克塔斯德马尔;Roquetas de Mar
+ru;Ронда;Ronda
+fa;رخالس;Rojales
+kk;Рохалес;Rojales
+uk;Рохалес;Rojales
+ru;Рохалес;Rojales
+zh;罗哈莱斯;Rojales
+hy;Ռոխալես;Rojales
+ru;Робледо;Robledo
+ru;Ринкон-де-ла-Виктория;Rincón de la Victoria
+ar;رينكون دي لا فيكتوريا;Rincón de la Victoria
+kk;Ринкон-де-ла-Викториа;Rincón de la Victoria
+uk;Рінкон-де-ла-Вікторія;Rincón de la Victoria
+ru;Ринкон-де-ла-Викториа;Rincón de la Victoria
+zh;林孔德拉维克托里亚;Rincón de la Victoria
+ja;レケナ;Requena
+uk;Рекена;Requena
+ru;Рекена;Requena
+zh;雷克纳;Requena
+ru;Рена;Rena
+fa;ردوبان;Redován
+kk;Редован;Redován
+uk;Редован;Redován
+ru;Редован;Redován
+zh;雷多万;Redován
+fa;رافال;Rafal
+kk;Рафаль;Rafal
+uk;Рафаль;Rafal
+ru;Рафаль;Rafal
+zh;拉法尔;Rafal
+ar;بورتشينا;Purchena
+fa;پورچنا;Purchena
+mk;Пурчена;Purchena
+uk;Пурчена;Purchena
+ru;Пурчена;Purchena
+zh;普尔切纳;Purchena
+ru;Пунта-Мухерес;Punta de Mujeres
+ru;Пуэрто-Реаль;Puerto Real
+ar;بويرتو ريال;Puerto Real
+ko;푸에르토레알;Puerto Real
+uk;Пуерто-Реаль;Puerto Real
+zh;王港市;Puerto Real
+ru;Пуэрто Наос;Puerto Naos
+ru;Пуэртольяно;Puertollano
+kk;Пуэртольяно;Puertollano
+uk;Пуертояно;Puertollano
+ar;بورتولانو;Puertollano
+ja;プエルトリャノ;Puertollano
+sr;Пуертољано;Puertollano
+zh;普埃尔托利亚诺;Puertollano
+hy;Պուերտոլյանո;Puertollano
+ru;Пуэрто де Сантьяго;Puerto de Santiago
+ru;Пуэрто-дель-Росарио;Puerto del Rosario
+lt;Puerto de la Krusas;Puerto de la Cruz
+ar;بويرتو دي لا كروث;Puerto de la Cruz
+uk;Пуерто-де-ла-Крус;Puerto de la Cruz
+bg;Пуерто де ла Крус;Puerto de la Cruz
+ru;Пуэрто-де-ла-Крус;Puerto de la Cruz
+zh;普埃尔托德拉克鲁斯;Puerto de la Cruz
+ar;بويبلا دي المنارة;Puebla de Almenara
+kk;Пуэбла-де-Альменара;Puebla de Almenara
+uk;Пуебла-де-Альменара;Puebla de Almenara
+ru;Пуэбла-де-Альменара;Puebla de Almenara
+zh;普埃夫拉德亚尔梅纳拉;Puebla de Almenara
+mk;Пуебла де Алосер;Puebla de Alcocer
+uk;Пуебла-де-Алькосер;Puebla de Alcocer
+ar;باويبلا دي الكوكير;Puebla de Alcocer
+ru;Пуэбла-де-Алькосер;Puebla de Alcocer
+zh;普埃夫拉德亚尔科塞尔;Puebla de Alcocer
+ru;Пруна;Pruna
+ar;بريغو دي قرطبة، قرطبة;Priego de Córdoba
+uk;Прієго-де-Кордова;Priego de Córdoba
+ru;Прьего-де-Кордоба;Priego de Córdoba
+zh;普列戈德科尔多瓦;Priego de Córdoba
+ar;بوزويلو دي كالاترافا;Pozuelo de Calatrava
+hy;Պոսուելո դե Կալատրավա;Pozuelo de Calatrava
+kk;Посуэло-де-Калатрава;Pozuelo de Calatrava
+uk;Посуело-де-Калатрава;Pozuelo de Calatrava
+ru;Посуэло-де-Калатрава;Pozuelo de Calatrava
+zh;波苏埃洛德卡拉特拉瓦;Pozuelo de Calatrava
+ar;بوزوروبيو;Pozorrubio
+hu;Pozorrubio de Santiago;Pozorrubio
+kk;Посоррубио;Pozorrubio
+uk;Посоррубіо;Pozorrubio
+ru;Посоррубио;Pozorrubio
+zh;波索鲁维奥;Pozorrubio
+ar;بوزوبلانكو، قرطبة;Pozoblanco
+uk;Пособланко;Pozoblanco
+ru;Пособланко;Pozoblanco
+zh;波索夫兰科;Pozoblanco
+ru;Посадас;Posadas
+sv;Porto Colom;Portocolom
+ru;Порререс;Porreres
+ru;Полопос;Polopos
+ar;بولوب;Polop
+fa;پلپ;Polop
+kk;Полоп;Polop
+uk;Полоп;Polop
+ru;Полоп;Polop
+zh;波洛普;Polop
+fa;پلان، اسپانیا;Polán
+hy;Պոլան;Polán
+kk;Полан;Polán
+uk;Полан;Polán
+ru;Полан;Polán
+zh;波兰;Polán
+ru;Поблете;Poblete
+ru;Плайя Бланка;Playa Blanca
+el;Πλάγια Μπλάνκα;Playa Blanca
+ja;プラジャ・ブランカ;Playa Blanca
+fa;پلانس;Planes
+kk;Планес;Planes
+uk;Планес;Planes
+ru;Планес;Planes
+zh;普拉内斯;Planes
+ar;بينوس بوينتي;Pinos Puente
+ja;ピノス・プエンテ;Pinos Puente
+kk;Пинос-Пуэнте;Pinos Puente
+uk;Пінос-Пуенте;Pinos Puente
+ru;Пинос-Пуэнте;Pinos Puente
+zh;皮诺斯蓬特;Pinos Puente
+ar;إل باينوس;Pinoso
+fa;پینسو;Pinoso
+kk;Пиносо;Pinoso
+uk;Ел-Пінос;Pinoso
+pl;El Pinós;Pinoso
+ru;Пиносо;Pinoso
+zh;皮诺索;Pinoso
+ru;Пинет;Pinet
+ru;Пилес;Piles
+ru;Пилас;Pilas
+ar;بايلار دي لا هورادادا;Pilar de la Horadada
+fa;پیلار دلا هورادادا;Pilar de la Horadada
+kk;Пилар-де-ла-Орадада;Pilar de la Horadada
+uk;Пілар-де-ла-Орадада;Pilar de la Horadada
+ru;Пилар-де-ла-Орадада;Pilar de la Horadada
+zh;皮拉尔德拉奥拉达达;Pilar de la Horadada
+bg;Петра;Petra
+ru;Петра;Petra
+ar;بينيارويا-بويبلونييفو;Peñarroya-Pueblonuevo
+uk;Пеньярроя-Пуеблонуево;Peñarroya-Pueblonuevo
+ru;Пеньярроя-Пуэблонуэво;Peñarroya-Pueblonuevo
+zh;佩尼亚罗亚-普埃夫洛努埃沃;Peñarroya-Pueblonuevo
+ar;بينيالسوردو;Peñalsordo
+mk;Пењалсордо;Peñalsordo
+uk;Пеньяльсордо;Peñalsordo
+ru;Пеньяльсордо;Peñalsordo
+zh;佩尼亚尔索尔多;Peñalsordo
+hy;Պեդրերա;Pedrera
+kk;Педрера;Pedrera
+uk;Педрера;Pedrera
+ru;Педрера;Pedrera
+zh;佩德雷拉;Pedrera
+ru;Педралба;Pedralba
+ru;Патерна;Paterna
+ja;パテルナ;Paterna
+uk;Патерна;Paterna
+sr;Патерна;Paterna
+zh;帕特尔纳;Paterna
+ru;Парадас;Paradas
+pl;Palos;Palos de la Frontera
+uk;Палос-де-ла-Фронтера;Palos de la Frontera
+ar;بالوس دي لا فرونتيرا;Palos de la Frontera
+ja;パロス・デ・ラ・フロンテーラ;Palos de la Frontera
+kk;Палос-де-ла-Фронтера;Palos de la Frontera
+ru;Палос-де-ла-Фронтера;Palos de la Frontera
+zh;帕洛斯德拉夫龙特拉;Palos de la Frontera
+ru;Паломас;Palomas
+ru;Палмера;Palmera
+pl;Palma de Mallorca;Palma
+ar;ميورقة;Palma
+cs;Palma de Mallorca;Palma
+fi;Palma de Mallorca;Palma
+he;פלמה דה מיורקה;Palma
+hr;Palma de Mallorca;Palma
+id;Palma de Mallorca;Palma
+ja;パルマ・デ・マリョルカ;Palma
+ko;팔마데마요르카;Palma
+no;Palma de Mallorca;Palma
+ro;Palma de Mallorca;Palma
+ru;Пальма;Palma
+sk;Palma de Mallorca;Palma
+sv;Palma de Mallorca;Palma
+tr;Palma de Mallorca;Palma
+zh-TW;帕爾馬;Palma
+ru;Пальма-дель-Рио;Palma del Río
+ar;بالما ديل ريو;Palma del Río
+uk;Пальма-дель-Ріо;Palma del Río
+zh;帕尔马德尔里奥;Palma del Río
+el;Πάλμα δελ Ρίο;Palma del Río
+ru;Пайпорта;Paiporta
+ru;Падулес;Padules
+ru;Падул;Padul
+ru;Отура;Otura
+ru;Отос;Otos
+ru;Отеро;Otero
+ar;أشونة;Osuna
+ja;オスナ;Osuna
+kk;Осуна;Osuna
+uk;Осуна;Osuna
+ru;Осуна;Osuna
+zh;奥苏纳;Osuna
+ru;Оропеса;Oropesa
+uk;Оргіва;Órgiva
+ru;Оргива;Órgiva
+ru;Ориуэла;Orihuela
+ar;أوريويلا;Orihuela
+uk;Оріуела;Orihuela
+fa;اریهوئلا;Orihuela
+kk;Ориуэла;Orihuela
+ja;オリウエラ;Orihuela
+sr;Оривела;Orihuela
+el;Οριουέλα;Orihuela
+zh;奥里韦拉;Orihuela
+hy;Օրիուելա;Orihuela
+kk;Оргас;Orgaz
+uk;Оргас;Orgaz
+ru;Оргас;Orgaz
+zh;奥尔加斯;Orgaz
+ar;أوريلانا لا فايجا;Orellana la Vieja
+mk;Орелана ла Виеха;Orellana la Vieja
+uk;Орельяна-ла-Вєха;Orellana la Vieja
+ru;Орельяна-ла-Вьеха;Orellana la Vieja
+zh;奥雷利亚纳拉维耶哈;Orellana la Vieja
+ru;Орба;Orba
+ru;Онтур;Ontur
+ru;Онтеньенте;Ontinyent
+ar;أونايل;Onil
+fa;انیل;Onil
+kk;Ониль;Onil
+uk;Оніл;Onil
+ru;Ониль;Onil
+zh;奥尼尔;Onil
+ru;Ондара;Ondara
+ru;Онда;Onda
+ar;أوندا;Onda
+uk;Онда;Onda
+zh;翁达;Onda
+ar;أولفيرا;Olvera
+fa;اولویرا;Olvera
+hy;Օլվերա;Olvera
+uk;Ольвера;Olvera
+ru;Ольвера;Olvera
+zh;奥尔维拉;Olvera
+hy;Օլիվարես;Olivares
+kk;Оливарес;Olivares
+uk;Оліварес;Olivares
+ru;Оливарес;Olivares
+zh;奥利瓦雷斯;Olivares
+ar;أولايفا دي ميرايدا;Oliva de Mérida
+mk;Олива де Мерида;Oliva de Mérida
+uk;Оліва-де-Меріда;Oliva de Mérida
+ru;Олива-де-Мерида;Oliva de Mérida
+zh;奥利瓦德梅里达;Oliva de Mérida
+ar;أولايفا دي لا فرونتيرا;Oliva de la Frontera
+mk;Олива де ла Фронтера;Oliva de la Frontera
+uk;Оліва-де-ла-Фронтера;Oliva de la Frontera
+ru;Олива-де-ла-Фронтера;Oliva de la Frontera
+zh;奥利瓦德拉夫龙特拉;Oliva de la Frontera
+ru;Олива;Oliva
+ru;Нулес;Nules
+ru;Новельда;Novelda
+ru;Нихар;Níjar
+ar;لبلة;Niebla
+hy;Նիեբլա;Niebla
+kk;Ньебла;Niebla
+uk;Ньєбла;Niebla
+ru;Ньебла;Niebla
+zh;涅夫拉;Niebla
+ru;Нерва;Nerva
+ru;Назарет;Nazaret
+ar;نافالفايلار دي بيلا;Navalvillar de Pela
+mk;Навалвилар де Пела;Navalvillar de Pela
+uk;Навальвільяр-де-Пела;Navalvillar de Pela
+ru;Навальвильяр-де-Пела;Navalvillar de Pela
+zh;纳瓦尔维利亚尔德佩拉;Navalvillar de Pela
+ru;Навалпино;Navalpino
+uk;Навальмораль-де-ла-Мата;Navalmoral de la Mata
+ar;نافالمورال دي لا ماتا;Navalmoral de la Mata
+ru;Навальмораль-де-ла-Мата;Navalmoral de la Mata
+zh;纳瓦尔莫拉尔德拉马塔;Navalmoral de la Mata
+ar;نافاخاس;Navajas
+uk;Навахас;Navajas
+ru;Навахас;Navajas
+zh;纳瓦哈斯;Navajas
+ru;Нарбонета;Narboneta
+ru;Мусерос;Museros
+ru;Муртас;Murtas
+ru;Муро;Muro
+ru;Мурла;Murla
+ar;مرسية;Murcia
+fa;مورسیا;Murcia
+he;מורסיה;Murcia
+pl;Murcja;Murcia
+ru;Мурсия;Murcia
+ja;ムルシア;Murcia
+lv;Mursija;Murcia
+ru;Мунера;Munera
+ru;Мула;Mula
+ru;Мотриль;Motril
+sr;Мотрил;Motril
+ja;モトリル;Motril
+uk;Мотріль;Motril
+ar;موتريل;Motril
+zh;莫特里尔;Motril
+ru;Морон-де-ла-Фронтера;Morón de la Frontera
+uk;Морон-де-ла-Фронтера;Morón de la Frontera
+kk;Морон-де-ла-Фронтера;Morón de la Frontera
+zh;莫龙德拉夫龙特拉;Morón de la Frontera
+ar;مورور;Morón de la Frontera
+ru;Морайра;Moraira
+ru;Мора;Mora
+ar;مونتوركوي، قرطبة;Monturque
+uk;Монтурке;Monturque
+ru;Монтурке;Monturque
+zh;蒙图尔克;Monturque
+ru;Монторо;Montoro
+ru;Монтилья;Montilla
+ar;مونتيلا، قرطبة;Montilla
+ko;몬티야;Montilla
+uk;Монтілья;Montilla
+zh;蒙蒂利亚;Montilla
+ru;Монтеса;Montesa
+ar;مونتيفريو;Montefrío
+kk;Монтефрио;Montefrío
+uk;Монтефріо;Montefrío
+ru;Монтефрио;Montefrío
+zh;蒙特夫里奥;Montefrío
+ar;مونتانشيز;Montánchez
+uk;Монтанчес;Montánchez
+ru;Монтанчес;Montánchez
+zh;蒙坦切斯;Montánchez
+ru;Монтанья Бланка;Montaña Blanca
+ru;Монталвос;Montalvos
+ru;Монталбо;Montalbo
+ar;مونتالبان دي قرطبة، قرطبة;Montalbán de Córdoba
+uk;Монтальбан-де-Кордова;Montalbán de Córdoba
+ru;Монтальбан-де-Кордоба;Montalbán de Córdoba
+zh;蒙塔尔万德科尔多瓦;Montalbán de Córdoba
+ru;Монтабернер;Montaberner
+ru;Монсеррат;Monserrat
+ar;مونوفار;Monóvar
+fa;مونوبار;Monóvar
+uk;Моновер;Monóvar
+kk;Моновар;Monóvar
+ru;Моновар;Monóvar
+zh;莫诺瓦尔;Monóvar
+ms;Monòver;Monóvar
+fa;منفرته دل سید;Monforte del Cid
+kk;Монфорте-дель-Сид;Monforte del Cid
+uk;Монфорте-дель-Сід;Monforte del Cid
+ru;Монфорте-дель-Сид;Monforte del Cid
+zh;蒙福尔特德尔西德;Monforte del Cid
+ar;موندا;Monda
+hy;Մոնդա;Monda
+kk;Монда;Monda
+uk;Монда;Monda
+ru;Монда;Monda
+zh;蒙达;Monda
+ru;Монкада;Moncada
+ru;Молина-де-Сегура;Molina de Segura
+ar;مولينا دي سيغورا;Molina de Segura
+ja;モリナ・デ・セグラ;Molina de Segura
+sr;Молина де Сегура;Molina de Segura
+uk;Моліна-де-Сегура;Molina de Segura
+zh;莫利纳德塞古拉;Molina de Segura
+sv;Mojacar Pueblo;Mojacar
+uk;Могер;Moguer
+kk;Могер;Moguer
+ar;موغير;Moguer
+ru;Могер;Moguer
+zh;莫格尔;Moguer
+ru;Мислата;Mislata
+uk;Міслата;Mislata
+zh;米斯拉塔;Mislata
+ru;Мирамар;Miramar
+ar;ميرابل;Mirabel
+uk;Мірабель;Mirabel
+ru;Мирабель;Mirabel
+zh;米拉韦尔;Mirabel
+ar;ميرا، قونكة;Mira
+kk;Мира;Mira
+uk;Міра;Mira
+ru;Мира;Mira
+zh;米拉;Mira
+ar;مينغلانيلا;Minglanilla
+kk;Мингланилья;Minglanilla
+uk;Мінгланілья;Minglanilla
+ru;Мингланилья;Minglanilla
+zh;明拉尼利亚;Minglanilla
+ru;Михас;Mijas
+ar;ميخاس;Mijas
+ja;ミハス;Mijas
+kk;Михас;Mijas
+sr;Михас;Mijas
+uk;Міхас;Mijas
+zh;米哈斯;Mijas
+ar;ميغويلتورا;Miguelturra
+kk;Мигельтурра;Miguelturra
+uk;Мігельтурра;Miguelturra
+ru;Мигельтурра;Miguelturra
+zh;米格尔图拉;Miguelturra
+ar;مياخاداس;Miajadas
+uk;Міахадас;Miajadas
+ru;Мьяхадас;Miajadas
+zh;米亚哈达斯;Miajadas
+fa;مریدا;Mérida
+he;מרידה;Mérida
+ja;メリダ;Mérida
+ru;Мерида;Mérida
+ar;ماردة;Mérida
+ar;مريدا;Mérida
+ur;میریدا;Mérida
+ru;Менасалбас;Menasalbas
+ar;مليلية;Melilla
+he;מלייה;Melilla
+ja;メリリャ;Melilla
+ka;მელილია;Melilla
+ko;멜리야;Melilla
+ru;Мелилья;Melilla
+sr;Мелиља;Melilla
+zh;梅利利亚;Melilla
+bg;Мелила;Melilla
+fa;ملیلیه;Melilla
+sr;Корисник:Славен Косановић/Мелиља;Melilla
+tl;Lungsod ng Melilla;Melilla
+bs;Melila;Melilla
+th;เมลียา;Melilla
+ru;Масаррон;Mazarrón
+ru;Матет;Matet
+ru;Маспаломас;Maspalomas
+bg;Маспаломас;Maspalomas
+zh-Hans;马斯帕洛马斯;Maspalomas
+uk;Маспаломас;Maspalomas
+zh;馬斯帕洛馬斯;Maspalomas
+ja;マスパロマス;Maspalomas
+he;מספלומס;Maspalomas
+ru;Маска;Masca
+uk;Маска;Masca
+ru;Мартос;Martos
+ar;مارتوس، خاين;Martos
+fa;مارتس;Martos
+uk;Мартос;Martos
+zh;马尔托斯;Martos
+ru;Маррачи;Marratxí
+ar;مارموليخو;Marmolejo
+fa;مارملخو;Marmolejo
+hy;Մարմոլեխո;Marmolejo
+uk;Мармолехо;Marmolejo
+ru;Мармолехо;Marmolejo
+zh;马尔莫莱霍;Marmolejo
+ru;Маринес;Marines
+kk;Мариналеда;Marinaleda
+uk;Маріналеда;Marinaleda
+ru;Мариналеда;Marinaleda
+zh;马里纳莱达;Marinaleda
+ar;ماربيا;Marbella
+ar;ماربيلا;Marbella
+sr;Марбеља;Marbella
+ru;Марбелья;Marbella
+ko;마르베야;Marbella
+bg;Марбеля;Marbella
+lt;Marbelja;Marbella
+ja;マルベーリャ;Marbella
+uk;Марбелья;Marbella
+kk;Марбeлья;Marbella
+zh;马贝拉;Marbella
+be;Марбелля;Marbella
+el;Μαρβέγια;Marbella
+fa;ماربلا;Marbella
+hy;Մարբելյա;Marbella
+ur;ماربیا;Marbella
+ru;Манисес;Manises
+ru;Манилва;Manilva
+ru;Манакор;Manacor
+ar;مالبارتيدا دي بلاسينثيا;Malpartida de Plasencia
+uk;Мальпартіда-де-Пласенсія;Malpartida de Plasencia
+ru;Мальпартида-де-Пласенсиа;Malpartida de Plasencia
+zh;马尔帕尔蒂达德普拉森西亚;Malpartida de Plasencia
+ar;مالبارتيدا دي قصرش;Malpartida de Cáceres
+uk;Мальпартіда-де-Касерес;Malpartida de Cáceres
+ru;Мальпартида-де-Касерес;Malpartida de Cáceres
+zh;马尔帕尔蒂达德卡塞雷斯;Malpartida de Cáceres
+ar;مالاجون، سيوداد ريال;Malagón
+kk;Малагон;Malagón
+uk;Малагон;Malagón
+ru;Малагон;Malagón
+zh;马拉贡;Malagón
+ar;ملقة;Málaga
+fa;مالاگا;Málaga
+he;מלאגה;Málaga
+ja;マラガ;Málaga
+ru;Малага;Málaga
+ar;مالقة;Málaga
+he;מאלגה;Málaga
+bg;Малага;Málaga
+sr;Малага;Málaga
+th;มาลากา;Málaga
+hy;Մալագա;Málaga
+kk;Малага;Málaga
+ckb;مەلەگا;Málaga
+ko;말라가;Málaga
+el;Μάλαγα;Málaga
+ka;მალაგა;Málaga
+uk;Малага;Málaga
+os;Малагæ;Málaga
+mk;Малага;Málaga
+az;Malaqa;Málaga
+mr;मलागा;Málaga
+be;Малага;Málaga
+ta;மாலாகா;Málaga
+zh;马拉加;Málaga
+ce;Малага;Málaga
+yue;馬拉加;Málaga
+ar;مالكا;Málaga
+ar;مَاَلقَة;Málaga
+ar;مالاغا;Málaga
+kk;Майрена-дель-Альхарафе;Mairena del Aljarafe
+uk;Майрена-дель-Альхарафе;Mairena del Aljarafe
+ru;Майрена-дель-Альхарафе;Mairena del Aljarafe
+zh;迈雷纳德拉尔哈拉费;Mairena del Aljarafe
+ru;Мао;Maó
+kk;Мадридехос;Madridejos
+uk;Мадрідехос;Madridejos
+ru;Мадридехос;Madridejos
+zh;马德里德霍斯;Madridejos
+fa;مادریدخس;Madridejos
+hy;Մադրիդեխոս;Madridejos
+ru;Мачер;Mácher
+ar;ماكايل;Macael
+fa;ماکائل;Macael
+mk;Макаел;Macael
+uk;Макаель;Macael
+ru;Макаэль;Macael
+zh;马凯尔;Macael
+ar;بويرتو لوبريراس;Puerto Lumbreras
+uk;Пуерто-Лумбрерас;Puerto Lumbreras
+ru;Пуэрто-Лумбрерас;Puerto Lumbreras
+zh;普埃尔托伦夫雷拉斯;Puerto Lumbreras
+fa;لوس مونتسینوس;Los Montesinos
+kk;Лос-Монтесинос;Los Montesinos
+uk;Лос-Монтесінос;Los Montesinos
+ru;Лос-Монтесинос;Los Montesinos
+zh;洛斯蒙特西诺斯;Los Montesinos
+ar;لوس يانوس دي أريداني;Los Llanos de Aridane
+uk;Лос-Льянос-де-Арідане;Los Llanos de Aridane
+pl;Llanos de Aridane;Los Llanos de Aridane
+ru;Лос-Льянос-де-Аридане;Los Llanos de Aridane
+zh;洛斯利亚诺斯德亚里达内;Los Llanos de Aridane
+lt;Los Kristianosas;Los Cristianos
+ru;Лос-Кристианос;Los Cristianos
+tt;Лос-Кристианос;Los Cristianos
+ce;Лос-Кристианос;Los Cristianos
+ja;ロス・クリスティアーノス;Los Cristianos
+ru;Лос Каньос де Мека;Los Caños de Meca
+uk;Лос-Барріос;Los Barrios
+ar;لوس باريوس;Los Barrios
+ru;Лос-Барриос;Los Barrios
+zh;洛斯巴里奥斯;Los Barrios
+he;לוס בריוס;Los Barrios
+he;לורקה;Lorca
+ru;Лорка;Lorca
+uk;Лорка;Lorca
+ar;لوركا، مرسية;Lorca
+sr;Лорка;Lorca
+ja;ロルカ;Lorca
+ar;لورة;Lora del Río
+kk;Лора-дель-Рио;Lora del Río
+uk;Лора-дель-Ріо;Lora del Río
+ru;Лора-дель-Рио;Lora del Río
+zh;洛拉德尔里奥;Lora del Río
+ru;Лопера;Lopera
+ru;Лоха;Loja
+uk;Логросан;Logrosán
+ar;لوغروسان;Logrosán
+ru;Логросан;Logrosán
+zh;洛格罗桑;Logrosán
+ru;Лобрас;Lobras
+mk;Љерена;Llerena
+uk;Льєрена;Llerena
+ru;Льерена;Llerena
+zh;列雷纳;Llerena
+fa;یرنا;Llerena
+hy;Լյերենա;Llerena
+ru;Линарес;Linares
+ru;Летур;Letur
+ru;Лепе;Lepe
+ru;Лебриха;Lebrija
+ar;لا فيكتوريا;La Victoria
+hy;Լա Վիկտորիա;La Victoria
+uk;Ла-Вікторія;La Victoria
+ur;لا ویکتوریا، ہسپانیہ;La Victoria
+ru;Ла-Виктория;La Victoria
+zh;拉维克托里亚;La Victoria
+ar;لا أونيون;La Unión
+fa;لا اونین;La Unión
+uk;Ла-Уньйон;La Unión
+ur;لا ونیون، مورکیا;La Unión
+ru;Ла-Уньон;La Unión
+zh;劳尼翁;La Unión
+ar;أندرش;Laujar de Andarax
+fa;لاوخار د آنداراکس;Laujar de Andarax
+mk;Лајуар де Андаракс;Laujar de Andarax
+uk;Лаухар-де-Андаракс;Laujar de Andarax
+ru;Лаухар-де-Андаракс;Laujar de Andarax
+zh;劳哈尔德亚恩达拉斯;Laujar de Andarax
+ja;ラス・パルマス・デ・グラン・カナリア;Las Palmas de Gran Canaria
+lv;Laspalmasa;Las Palmas de Gran Canaria
+ru;Лас-Пальмас-де-Гран-Канария;Las Palmas de Gran Canaria
+sr;Лас Палмас де Гран Канариа;Las Palmas de Gran Canaria
+no;Las Palmas;Las Palmas de Gran Canaria
+ru;Лас Галлетас;Las Galletas
+ja;ラ・サビーナ;La Savina
+ur;لا ساوینا;La Savina
+ru;Ларва;Larva
+ar;لا رودا;La Roda
+fa;لا ردا;La Roda
+uk;Ла-Рода;La Roda
+ru;Ла-Рода;La Roda
+zh;拉罗达;La Roda
+ru;Ла-Ринконада;La Rinconada
+kk;Ла-Ринконада;La Rinconada
+uk;Ла-Рінконада;La Rinconada
+zh;拉林科纳达;La Rinconada
+ar;لا رمبلة;La Rambla
+uk;Ла-Рамбла;La Rambla
+ru;Ла-Рамбла;La Rambla
+zh;拉兰夫拉;La Rambla
+nn;Arguineguin;La Playa de Arguineguín
+sv;Arguineguin;La Playa de Arguineguín
+ru;Аргинегин;La Playa de Arguineguín
+be;Аргінегін;La Playa de Arguineguín
+zh;阿尔基内金;La Playa de Arguineguín
+zh-Hant;阿爾基內金;La Playa de Arguineguín
+nb;Arguineguín;La Playa de Arguineguín
+uk;Аргуїнегун;La Playa de Arguineguín
+ja;アルギネグイン;La Playa de Arguineguín
+he;ארגינגין;La Playa de Arguineguín
+tr;Arguineguín;La Playa de Arguineguín
+ar;لا بالما ديل كوندادو;La Palma del Condado
+el;Πάλμα δελ Κοντάδο;La Palma del Condado
+hy;Լա Պալմա դել Կոնդադո;La Palma del Condado
+kk;Ла-Пальма-дель-Кондадо;La Palma del Condado
+uk;Ла-Пальма-дель-Кондадо;La Palma del Condado
+ur;لا پالما ڈیل کونڈاڈو;La Palma del Condado
+ru;Ла-Пальма-дель-Кондадо;La Palma del Condado
+zh;拉帕尔马德尔孔达多;La Palma del Condado
+ar;لا أوروتافا;La Orotava
+uk;Ла-Оротава;La Orotava
+bg;Оротава;La Orotava
+ru;Ла-Оротава;La Orotava
+zh;劳罗塔瓦;La Orotava
+ru;Ла-Нусиа;la Nucia
+ru;Ландете;Landete
+ar;لا متانثا دي أثينتيخو;La Matanza de Acentejo
+fa;لا ماتانسا د آسنتخو;La Matanza de Acentejo
+uk;Ла-Матанса-де-Асентехо;La Matanza de Acentejo
+ur;لا ماتانزا دے اسنتیجو;La Matanza de Acentejo
+ru;Ла-Матанса-де-Асентехо;La Matanza de Acentejo
+zh;拉马坦萨德亚森特霍;La Matanza de Acentejo
+ru;Ла-Линеа-де-ла-Консепсьон;La Línea de la Concepción
+sr;Линеа де Консепсион;La Línea de la Concepción
+ja;ラ・リネア・デ・ラ・コンセプション;La Línea de la Concepción
+ar;لا يينا دي لا كونسيبسيون;La Línea de la Concepción
+be;Ла-Лінеа-дэ-ла-Кансепсьён;La Línea de la Concepción
+uk;Ла-Лінеа-де-ла-Консепсьйон;La Línea de la Concepción
+zh;拉利内亚德拉孔塞普西翁;La Línea de la Concepción
+ar;لا غوارديا دي خاين;La Guardia de Jaén
+fa;لا گواردیا د خائن;La Guardia de Jaén
+uk;Ла-Гуардія-де-Хаен;La Guardia de Jaén
+ru;Ла-Гвардиа-де-Хаэн;La Guardia de Jaén
+zh;拉瓜尔迪亚德海恩;La Guardia de Jaén
+hy;Լա Գուարդիա;La Guardia
+kk;Ла Гардиа;La Guardia
+uk;Ла-Гуардія;La Guardia
+ru;Ла-Гуардия;La Guardia
+zh;拉瓜尔迪亚;La Guardia
+ar;لاتشار;Láchar
+kk;Лачар;Láchar
+uk;Лачар;Láchar
+ru;Лачар;Láchar
+zh;拉查尔;Láchar
+ar;لا كارلوتا;La Carlota
+ja;ラ・カルロータ;La Carlota
+uk;Ла-Карлота;La Carlota
+ru;Ла-Карлота;La Carlota
+ur;لا کارلوٹا، سپاین;La Carlota
+ru;Хумилье;Jumilla
+ar;خوميا;Jumilla
+uk;Хумілья;Jumilla
+ru;Хумилья;Jumilla
+zh;胡米利亚;Jumilla
+ar;خيمينا دي لا فرونتيرا;Jimena de la Frontera
+uk;Хімена-де-ла-Фронтера;Jimena de la Frontera
+ru;Химена-де-ла-Фронтера;Jimena de la Frontera
+zh;希梅纳德拉夫龙特拉;Jimena de la Frontera
+ar;خيريكا;Jérica
+uk;Херіка;Jérica
+ru;Херика;Jérica
+zh;赫里卡;Jérica
+uk;Херес-де-лос-Кабальєрос;Jerez de los Caballeros
+mk;Херес де лос Кабалерос;Jerez de los Caballeros
+ar;جيريز دي لوس كاباليروس;Jerez de los Caballeros
+ru;Херес-де-лос-Кабальерос;Jerez de los Caballeros
+zh;赫雷斯德洛斯卡瓦列罗斯;Jerez de los Caballeros
+ja;ヘレス・デ・ラ・フロンテーラ;Jerez de la Frontera
+ar;شريش;Jerez de la Frontera
+he;חרס דה לה פרונטרה;Jerez de la Frontera
+lt;Cheres de la Frontera;Jerez de la Frontera
+ko;헤레스데라프론테라;Jerez de la Frontera
+uk;Херес-де-ла-Фронтера;Jerez de la Frontera
+bg;Херес де ла Фронтера;Jerez de la Frontera
+sr;Херез де ла Фронтера;Jerez de la Frontera
+ru;Херес-де-ла-Фронтера;Jerez de la Frontera
+zh;赫雷斯-德拉弗龙特拉;Jerez de la Frontera
+be;Херэс-дэ-ла-Франтэра;Jerez de la Frontera
+ar;شاطبة;Xàtiva
+ru;Хатива;Xàtiva
+ms;Xarafull;Jarafuel
+uk;Харафуель;Jarafuel
+ur;جرافول;Jarafuel
+ru;Харафуэль;Jarafuel
+zh;哈拉富埃尔;Jarafuel
+ar;جالون;Jalón
+fa;خالن;Jalón
+kk;Халон;Jalón
+ko;할론;Jalón
+uk;Шало;Jalón
+ur;جلون;Jalón
+pl;Xaló;Jalón
+ru;Халон;Jalón
+zh;哈隆;Jalón
+ja;ハエン;Jaén
+ar;جيان;Jaén
+ru;Хаэн;Jaén
+uk;Ісла-Крістіна;Isla Cristina
+ar;إسلا كريستينا;Isla Cristina
+ja;イスラ・クリスティナ;Isla Cristina
+kk;Исла-Кристина;Isla Cristina
+ru;Исла-Кристина;Isla Cristina
+zh;伊斯拉克里斯蒂纳;Isla Cristina
+ar;إينيستا;Iniesta
+kk;Иньеста;Iniesta
+uk;Іньєста;Iniesta
+ru;Иньеста;Iniesta
+zh;伊涅斯塔;Iniesta
+hy;Ինիեստա;Iniesta
+ru;Инфантес;Infantes
+ru;Инка;Inca
+ar;إكود دي لوس فينوس;Icod de los Vinos
+fa;ایکد د لس بینس;Icod de los Vinos
+uk;Ікод-де-лос-Вінос;Icod de los Vinos
+ru;Икод-де-лос-Винос;Icod de los Vinos
+zh;伊科德洛斯维诺斯;Icod de los Vinos
+ru;Иброс;Ibros
+ru;Ибица;Ibiza
+ru;Иби;Ibi
+ar;إلبي;Ibi
+fa;ایبی;Ibi
+kk;Иби;Ibi
+uk;Ібі;Ibi
+zh;伊维;Ibi
+hy;Իբի;Ibi
+uk;Уетор-Тахар;Huétor-Tájar
+ar;أويتور تاخار;Huétor-Tájar
+kk;Уэтор-Тахар;Huétor-Tájar
+ru;Уэтор-Тахар;Huétor-Tájar
+zh;韦托尔-塔哈尔;Huétor-Tájar
+kk;Уэскар;Huéscar
+uk;Уескар;Huéscar
+ar;أويسكار;Huéscar
+ru;Уэскар;Huéscar
+zh;韦斯卡尔;Huéscar
+ar;هويركال-أوفيرا;Huercal-Overa
+fa;اوئرکال-اوورا;Huercal-Overa
+mk;Хуерцал Овера;Huercal-Overa
+uk;Уеркаль-Овера;Huercal-Overa
+ru;Уэркаль-Овера;Huercal-Overa
+zh;韦尔卡尔-奥韦拉;Huercal-Overa
+ja;ウェルバ;Huelva
+ja;ウエルバ;Huelva
+ru;Уэльва;Huelva
+ar;هويسايجا;Huécija
+fa;اوئسیخا;Huécija
+mk;Хуеција;Huécija
+uk;Уесіха;Huécija
+ru;Уэсиха;Huécija
+zh;韦西哈;Huécija
+ar;هورناتشوس;Hornachos
+mk;Хорначос;Hornachos
+uk;Орначос;Hornachos
+ru;Орначос;Hornachos
+zh;奥尔纳乔斯;Hornachos
+fa;هوندون د لوس فرایلس;Hondón de los Frailes
+kk;Ондон-де-лос-Фрайлес;Hondón de los Frailes
+uk;Ондон-де-лос-Фрайлес;Hondón de los Frailes
+ru;Ондон-де-лос-Фрайлес;Hondón de los Frailes
+zh;翁东德洛斯夫赖莱斯;Hondón de los Frailes
+ar;هينوخوسا ديل دوكوي، قرطبة;Hinojosa del Duque
+uk;Інохоса-дель-Дуке;Hinojosa del Duque
+ru;Инохоса-дель-Дуке;Hinojosa del Duque
+zh;伊诺霍萨德尔杜克;Hinojosa del Duque
+ar;هيغويرا لا ريال;Higuera la Real
+fa;هیگرا لا رئال;Higuera la Real
+mk;Игера ла Реал;Higuera la Real
+uk;Ігера-ла-Реаль;Higuera la Real
+ru;Игера-ла-Реаль;Higuera la Real
+zh;伊格拉拉雷亚尔;Higuera la Real
+mk;Ерера дел Дуке;Herrera del Duque
+ar;هيريرا ديل دوكوي;Herrera del Duque
+uk;Еррера-дель-Дуке;Herrera del Duque
+ru;Эррера-дель-Дуке;Herrera del Duque
+zh;埃雷拉德尔杜克;Herrera del Duque
+fa;هررا دل دوکه;Herrera del Duque
+hy;Էռերա դել Դուկե;Herrera del Duque
+kk;Эррера;Herrera
+uk;Еррера;Herrera
+ru;Эррера;Herrera
+zh;埃雷拉;Herrera
+hy;Էռերա;Herrera
+ar;إرميغوا;Hermigua
+fa;هرمیگوا;Hermigua
+lt;Hermigva;Hermigua
+uk;Ермігуа;Hermigua
+ru;Эрмигуа;Hermigua
+zh;埃尔米瓜;Hermigua
+ru;Эльине;Hellín
+fa;هیین;Hellín
+uk;Ельїн;Hellín
+ar;إيين;Hellín
+ru;Эльин;Hellín
+zh;埃林;Hellín
+ar;غيا دي إسورا;Guía de Isora
+uk;Гіа-де-Ісора;Guía de Isora
+ru;Гия-де-Исора;Guía de Isora
+zh;吉亚德索拉;Guía de Isora
+fa;گویا د ایسرا;Guía de Isora
+ru;Гуатиса;Guatiza
+bg;Гуатиза;Guatiza
+el;Γκουατίθα;Guatiza
+ru;Гвадикс;Guadix
+ar;وادي آش;Guadix
+kk;Гуадис;Guadix
+uk;Гуадікс;Guadix
+ja;グアディクス;Guadix
+ru;Гуадис;Guadix
+zh;瓜迪斯;Guadix
+kk;Гвадамур;Guadamur
+uk;Гуадамур;Guadamur
+ru;Гвадамур;Guadamur
+zh;瓜达穆尔;Guadamur
+ja;グアダルーペ;Guadalupe
+uk;Гвадалупе;Guadalupe
+ar;غوادالوبي;Guadalupe
+ru;Гуадалупе;Guadalupe
+zh;瓜达卢佩;Guadalupe
+hy;Գվադալուպե;Guadalupe
+kk;Гвадальканаль;Guadalcanal
+uk;Гуадальканаль;Guadalcanal
+ru;Гуадальканаль;Guadalcanal
+zh;瓜达尔卡纳尔;Guadalcanal
+hy;Գուադալկանալ;Guadalcanal
+ar;غراناديا دي أبونا;Granadilla de Abona
+uk;Гранаділья-де-Абона;Granadilla de Abona
+ru;Гранадилья-де-Абона;Granadilla de Abona
+zh;格拉纳迪利亚德亚沃纳;Granadilla de Abona
+ar;غرناطة;Granada
+bg;Гранада;Granada
+fa;گرانادا;Granada
+he;גרנדה;Granada
+ja;グラナダ;Granada
+pl;Grenada;Granada
+ru;Гранада;Granada
+ar;جرينادا;Granada
+bg;Гренада;Granada
+bs;Grenada;Granada
+el;Γρανάδα;Granada
+et;Grenada;Granada
+fi;Grenada;Granada
+hr;Grenada;Granada
+hu;Grenada;Granada
+id;Grenada;Granada
+ja;グレナダ;Granada
+ko;그라나다;Granada
+kw;Grenayd;Granada
+lt;Grenada;Granada
+lv;Grenada;Granada
+mk;Гренада;Granada
+ms;Grenada;Granada
+na;Grenada;Granada
+ps;ګرېنادا;Granada
+ro;Grenada;Granada
+sk;Grenada;Granada
+sl;Grenada;Granada
+sq;Grenada;Granada
+sr;Гранада;Granada
+sv;Grenada;Granada
+th;กรานาดา;Granada
+tl;Lungsod ng Granada;Granada
+tr;Gırnata;Granada
+ug;گرېنادا;Granada
+uk;Гранада;Granada
+vi;Grenada;Granada
+zh;格拉纳达;Granada
+kk;Гранада;Granada
+ka;გრანადა;Granada
+ur;غرناطہ;Granada
+bn;গ্রানাডা;Granada
+be;Гранада;Granada
+mr;ग्रानादा;Granada
+az;Qranada;Granada
+ta;கிரனாதா;Granada
+am;ግራናዳ;Granada
+ckb;گرانادا;Granada
+ar;جبل العيون;Gibraleón
+hy;Խիբրալեոն;Gibraleón
+kk;Хибралеон;Gibraleón
+uk;Хібралеон;Gibraleón
+ru;Хибралеон;Gibraleón
+zh;希夫拉莱翁;Gibraleón
+ar;جيلدو;Geldo
+hy;Խելդո;Geldo
+uk;Хельдо;Geldo
+ru;Хельдо;Geldo
+zh;赫尔多;Geldo
+ar;غارافيا;Garafía
+et;Garafía vald;Garafía
+uk;Гарафія;Garafía
+ru;Гарафиа;Garafía
+zh;加拉菲亚;Garafía
+ru;Гарачико;Garachico
+ru;Гандия;Gandia
+ar;جاليستيو;Galisteo
+uk;Галістео;Galisteo
+ru;Галистео;Galisteo
+zh;加利斯特奥;Galisteo
+ru;Гальдар;Gáldar
+zh;福恩吉罗拉;Fuengirola
+ar;فوينخيرولا;Fuengirola
+kk;Фуэнхирoла;Fuengirola
+sr;Фуенхирола;Fuengirola
+uk;Фуенхірола;Fuengirola
+ru;Фуэнхирола;Fuengirola
+zh;丰希罗拉;Fuengirola
+ar;سهيل;Fuengirola
+ru;Фронтера;Frontera
+uk;Фрехеналь-де-ла-Сьєрра;Fregenal de la Sierra
+mk;Фрегенал де ла Сиера;Fregenal de la Sierra
+ar;فريجينال دي لا سايرا;Fregenal de la Sierra
+ru;Фрехеналь-де-ла-Сьерра;Fregenal de la Sierra
+zh;夫雷赫纳尔德拉谢拉;Fregenal de la Sierra
+am;ፍሬኄናል ዴ ላ ሲዬራ;Fregenal de la Sierra
+ru;Фортуна;Fortuna
+ru;Фонелас;Fonelas
+ar;فاينسترات;Finestrat
+fa;فینسترات;Finestrat
+kk;Финестрат;Finestrat
+uk;Фінестрат;Finestrat
+ru;Финестрат;Finestrat
+zh;菲内斯特拉特;Finestrat
+ru;Финес;Fines
+ar;فيرنان-نونييز، قرطبة;Fernán-Núñez
+uk;Фернан-Нуньєс;Fernán-Núñez
+ru;Фернан-Нуньес;Fernán-Núñez
+zh;费尔南-努涅斯;Fernán-Núñez
+ar;فيرايا;Feria
+fa;فریا، اسپانیا;Feria
+hy;Ֆերիա;Feria
+mk;Ферија;Feria
+uk;Ферія;Feria
+ru;Ферия;Feria
+zh;费里亚;Feria
+ru;Фавара;Favara
+bg;Естепона;Estepona
+ar;إستيبونا;Estepona
+ja;エステポナ;Estepona
+kk;Эстепона;Estepona
+sr;Естепона;Estepona
+uk;Естепона;Estepona
+ru;Эстепона;Estepona
+zh;埃斯特波纳;Estepona
+ar;إستبة;Estepa
+kk;Эстепа;Estepa
+uk;Естепа;Estepa
+ru;Эстепа;Estepa
+zh;埃斯特帕;Estepa
+ar;إسبارجوزا دي لارس;Esparragosa de Lares
+mk;Еспарагоса де Ларес;Esparragosa de Lares
+uk;Еспаррагоса-де-Ларес;Esparragosa de Lares
+ru;Эспаррагоса-де-Ларес;Esparragosa de Lares
+zh;埃斯帕拉戈萨德拉雷斯;Esparragosa de Lares
+ar;إل تورو;El Toro
+hy;Էլ Տորո;El Toro
+uk;Ель-Торо;El Toro
+ru;Эль-Торо;El Toro
+zh;埃尔托罗;El Toro
+ar;التوبوسو;El Toboso
+kk;Эль-Тобосо;El Toboso
+uk;Ель-Тобосо;El Toboso
+ru;Эль-Тобосо;El Toboso
+zh;埃尔托沃索;El Toboso
+ru;Эль-Пуэрто-де-Санта-Мария;El Puerto de Santa María
+uk;Ель-Пуерто-де-Санта-Марія;El Puerto de Santa María
+ar;إل بويرتو دي سانتا ماريا;El Puerto de Santa María
+ja;エル・プエルト・デ・サンタ・マリア;El Puerto de Santa María
+ko;엘푸에르토데산타마리아;El Puerto de Santa María
+sr;Пуерто де Санта Марија;El Puerto de Santa María
+zh;圣玛丽亚港;El Puerto de Santa María
+th;เอลปวยร์โตเดซานตามารีอา;El Puerto de Santa María
+ar;إل باسو، سانتا كروث دي تينيريفه;El Paso
+uk;Ель-Пасо;El Paso
+ru;Эль-Пасо;El Paso
+zh;埃尔帕索;El Paso
+ru;Эль Медано;El Médano
+ru;Эль-Эхидо;El Ejido
+ar;إلإيجايدو;El Ejido
+mk;Ел Еџидо;El Ejido
+uk;Ель-Ехідо;El Ejido
+sr;Ехидо;El Ejido
+fa;ال اخیدو;El Ejido
+ja;エル・エヒド;El Ejido
+zh;埃莱希多;El Ejido
+ru;Эльда;Elda
+bg;Елда;Elda
+kk;Эльда;Elda
+uk;Ельда;Elda
+fa;الدا;Elda
+ar;إلدا;Elda
+sr;Елда;Elda
+zh;埃尔达;Elda
+th;เอลดา;Elda
+hy;Էլդա;Elda
+ru;Эль-Чорро;El Chorro
+ar;إلش;Elche
+fi;Elx;Elche
+he;אלש;Elche
+zh;埃爾切;Elche
+ja;エルチェ;Elche
+no;Elx;Elche
+ro;Elx;Elche
+ru;Эльч;Elche
+sr;Елч;Elche
+pl;Elx;Elche
+kk;Эльче;Elche
+fa;الچه;Elche
+uk;Ельче;Elche
+mk;Елче;Elche
+bg;Елче;Elche
+lt;Elčė;Elche
+th;เอลเช;Elche
+ka;ელჩე;Elche
+ko;엘체;Elche
+ru;Кабо де Гата;El Cabo de Gata
+ru;Ареналь;s'Arenal
+ru;Эсиха;Écija
+nah;Exija;Écija
+uk;Есіха;Écija
+kk;Эсиха;Écija
+ar;إستجة;Écija
+zh;埃西哈;Écija
+sr;Дос Ерманас;Dos Hermanas
+ru;Дос Ерманас;Dos Hermanas
+ms;Dosaigües;Dos Aguas
+uk;Дос-Агуас;Dos Aguas
+pl;Dosaigües;Dos Aguas
+ru;Дос-Агуас;Dos Aguas
+zh;多萨瓜斯;Dos Aguas
+ru;Дон-Бенито;Don Benito
+uk;Дон-Беніто;Don Benito
+ar;دون بينايتو;Don Benito
+ja;ドン・ベニート;Don Benito
+mk;Дон Бенито;Don Benito
+zh;东韦尼托;Don Benito
+ru;Долорес;Dolores
+ru;Дения;Denia
+ar;ديئيساس دي غواديكس;Dehesas de Guadix
+hy;Դեեսաս դե Գուադիքս;Dehesas de Guadix
+kk;Деесас-де-Гвадикс;Dehesas de Guadix
+uk;Деесас-де-Гуадікс;Dehesas de Guadix
+ru;Деэсас-де-Гуадикс;Dehesas de Guadix
+zh;德埃萨斯德瓜迪斯;Dehesas de Guadix
+ru;Дарро;Darro
+ar;دلاية;Dalías
+fa;دالیاس;Dalías
+mk;Далиас;Dalías
+uk;Даліас;Dalías
+ru;Далиас;Dalías
+zh;达利亚斯;Dalías
+ar;دايميل، سيوداد ريال;Daimiel
+kk;Даймьель;Daimiel
+uk;Даймєль;Daimiel
+ru;Даймьель;Daimiel
+zh;代米耶尔;Daimiel
+ru;Кульера;Cullera
+uk;Кульєра;Cullera
+zh;库列拉;Cullera
+uk;Куевас-дель-Альмансора;Cuevas del Almanzora
+ja;クエバス・デル・アルマンソーラ;Cuevas del Almanzora
+ar;كهوف المنصورة;Cuevas del Almanzora
+mk;Кевас дел Алмазора;Cuevas del Almanzora
+fa;کوئباس دل آلمانسورا;Cuevas del Almanzora
+ru;Куэвас-дель-Альмансора;Cuevas del Almanzora
+zh;库埃瓦斯德拉尔曼索拉;Cuevas del Almanzora
+ru;Куарт-де-Поблет;Quart de Poblet
+ru;Кревильенте;Crevillente
+ru;Коральехо;Corralejo
+zh;科拉莱霍;Corralejo
+ja;コラレッホ;Corralejo
+ja;コリア・デル・リオ;Coria del Río
+ru;Кориа-дель-Рио;Coria del Río
+ar;كوردوبايلا دي لاكارا;Cordobilla de Lácara
+mk;Кордобила де Лакара;Cordobilla de Lácara
+uk;Кордобілья-де-Лакара;Cordobilla de Lácara
+ru;Кордобилья-де-Лакара;Cordobilla de Lácara
+zh;科尔多维利亚德拉卡拉;Cordobilla de Lácara
+ar;قرطبة;Córdoba
+be;Кордава;Córdoba
+fa;کوردوبا;Córdoba
+he;קורדובה;Córdoba
+ja;コルドバ;Córdoba
+pl;Kordoba;Córdoba
+ru;Кордова;Córdoba
+sr;Кордоба;Córdoba
+ur;قرطبہ;Córdoba
+bs;Kordoba;Córdoba
+fa;قرطبه;Córdoba
+th;กอร์โดบา;Córdoba
+lv;Kordova;Córdoba
+nn;Córdoba i Spania;Córdoba
+kk;Кордоба;Córdoba
+ta;குர்துபா;Córdoba
+mr;कोर्दोबा;Córdoba
+el;Κόρδοβα;Córdoba
+ckb;کۆردۆبا;Córdoba
+ko;코르도바;Córdoba
+ka;კორდობა;Córdoba
+uk;Кордова;Córdoba
+id;Kordoba;Córdoba
+ku;Kordoba;Córdoba
+lt;Kordoba;Córdoba
+ug;Kordowa;Córdoba
+bg;Кордоба;Córdoba
+zh;科爾多瓦;Córdoba
+ru;Кордоба;Córdoba
+hy;Կորդովա;Córdoba
+az;Kordova;Córdoba
+ky;Кордова;Córdoba
+yue;哥多華;Córdoba
+kk;Консуэгра;Consuegra
+uk;Консуегра;Consuegra
+ru;Консуэгра;Consuegra
+zh;孔苏埃格拉;Consuegra
+kk;Константина;Constantina
+uk;Константіна;Constantina
+ru;Константина;Constantina
+zh;孔斯坦蒂纳;Constantina
+ar;كونكويستا دي لا سايرا;Conquista de la Sierra
+uk;Конкіста-де-ла-Сьєрра;Conquista de la Sierra
+ru;Конкиста-де-ла-Сьерра;Conquista de la Sierra
+zh;孔基斯塔德拉谢拉;Conquista de la Sierra
+ar;كونفاريدز;Confrides
+fa;کونفریدس;Confrides
+kk;Конфридес;Confrides
+uk;Конфрідес;Confrides
+ru;Конфридес;Confrides
+zh;孔夫里德斯;Confrides
+ms;Cofrents;Cofrentes
+uk;Кофрентес;Cofrentes
+ru;Кофрентес;Cofrentes
+zh;科夫伦特斯;Cofrentes
+ar;كوكينتاينا;Cocentaina
+fa;کوسنتاینا;Cocentaina
+kk;Косентайна;Cocentaina
+uk;Косентайна;Cocentaina
+ru;Косентайна;Cocentaina
+zh;科森泰纳;Cocentaina
+ja;シウダー・レアル;Ciudad Real
+zh-TW;雷阿爾城;Ciudad Real
+ru;Сьюдад-Реаль;Ciudad Real
+sr;Сјудад Реал;Ciudad Real
+be;Сьюдад-Рэаль;Ciudad Real
+he;סיודאד ריאל;Ciudad Real
+ko;시우다드레알;Ciudad Real
+fa;سیوداد رئال;Ciudad Real
+uk;Сьюдад-Реаль;Ciudad Real
+ar;ثيوداد ريال;Ciudad Real
+zh;雷阿爾城;Ciudad Real
+ru;Сьеса;Cieza
+ar;ثيثا;Cieza
+fa;سیسا;Cieza
+hy;Սիեսա;Cieza
+uk;Сьєса;Cieza
+zh;希耶萨;Cieza
+pl;Xiva de Bunyol;Chiva
+ru;Чива;Chiva
+zh;奇瓦;Chiva
+ru;Чиривелья;Xirivella
+ar;تشايبيونا;Chipiona
+ko;치피오나;Chipiona
+uk;Чипіона;Chipiona
+ru;Чипиона;Chipiona
+zh;奇皮奥纳;Chipiona
+ru;Чиклана-де-ла-Фронтера;Chiclana de la Frontera
+uk;Чельва;Chelva
+ru;Чельва;Chelva
+zh;切尔瓦;Chelva
+hy;Չելվա;Chelva
+ar;كاثورلا، خاين;Cazorla
+fa;کاسرلا;Cazorla
+uk;Касорла;Cazorla
+ru;Касорла;Cazorla
+zh;卡索尔拉;Cazorla
+ar;كاترال;Catral
+fa;کاترال;Catral
+kk;Катраль;Catral
+uk;Катраль;Catral
+ru;Катраль;Catral
+zh;卡特拉尔;Catral
+ru;Катаррох;Catarroja
+ar;كاستويرا;Castuera
+mk;Кастуера;Castuera
+uk;Кастуера;Castuera
+ru;Кастуэра;Castuera
+zh;卡斯图埃拉;Castuera
+ar;كاسترو ديل ريو، قرطبة;Castro del Río
+uk;Кастро-дель-Ріо;Castro del Río
+ru;Кастро-дель-Рио;Castro del Río
+zh;卡斯特罗德尔里奥;Castro del Río
+ar;كاستريل، غرناطة;Castril
+kk;Кастриль;Castril
+uk;Кастріль;Castril
+ru;Кастриль;Castril
+zh;卡斯特里尔;Castril
+ar;كاستيلبلانكو;Castilblanco
+uk;Кастільбланко;Castilblanco
+mk;Кастилбланко;Castilblanco
+ru;Кастильбланко;Castilblanco
+zh;卡斯蒂尔夫兰科;Castilblanco
+pl;Castellón;Castelló de la Plana
+he;קאסטיון דה לה פלאנה;Castelló de la Plana
+zh-TW;卡斯特利翁-德拉普拉納;Castelló de la Plana
+pl;Castellón de la Plana;Castelló de la Plana
+fi;Castellón de la Plana;Castelló de la Plana
+id;Castellón de la Plana;Castelló de la Plana
+sr;Кастељон де ла Плана;Castelló de la Plana
+ja;カステリョン・デ・ラ・プラナ;Castelló de la Plana
+ru;Кастельон-де-ла-Плана;Castelló de la Plana
+sv;Castellón de la Plana;Castelló de la Plana
+ar;كاستيلار دي لا فرونتيرا;Castellar de la Frontera
+uk;Кастельяр-де-ла-Фронтера;Castellar de la Frontera
+ru;Кастельяр-де-ла-Фронтера;Castellar de la Frontera
+zh;卡斯特利亚尔德拉夫龙特拉;Castellar de la Frontera
+ar;كاستالا;Castalla
+fa;کاستایا;Castalla
+uk;Касталья;Castalla
+kk;Касталья;Castalla
+ru;Касталья;Castalla
+zh;卡斯塔利亚;Castalla
+ar;كاساسيمارو;Casasimarro
+kk;Касасимарро;Casasimarro
+uk;Касасімарро;Casasimarro
+ru;Касасимарро;Casasimarro
+zh;卡萨西马罗;Casasimarro
+kk;Касариче;Casariche
+uk;Касаріче;Casariche
+ru;Касариче;Casariche
+zh;卡萨里切;Casariche
+ar;كاساريس;Casares
+fa;کاسارس;Casares
+hy;Կասարես;Casares
+kk;Касарес;Casares
+uk;Касарес;Casares
+ru;Касарес;Casares
+zh;卡萨雷斯;Casares
+ar;كاسار دي قصرش;Casar de Cáceres
+hy;Կասար դե Կասերես;Casar de Cáceres
+uk;Касар-де-Касерес;Casar de Cáceres
+ru;Касар-де-Касерес;Casar de Cáceres
+zh;卡萨尔德卡塞雷斯;Casar de Cáceres
+ar;كارتاما;Cártama
+kk;Картама;Cártama
+uk;Картама;Cártama
+ru;Картама;Cártama
+zh;卡尔塔马;Cártama
+he;קרטחנה;Cartagena
+ja;カルタヘナ;Cartagena
+pl;Kartagena;Cartagena
+ru;Картахена;Cartagena
+sr;Картахена;Cartagena
+uk;Картагена;Cartagena
+bg;Картахена;Cartagena
+ar;كارتاخينا;Cartagena
+ko;카르타헤나;Cartagena
+be;Картахена;Cartagena
+nn;Cartagena i Spania;Cartagena
+ka;კარტახენა;Cartagena
+el;Καρθαγένη;Cartagena
+mr;कार्ताजिना;Cartagena
+lt;Kartachena;Cartagena
+mn;Картахена;Cartagena
+mk;Картагина;Cartagena
+sq;Kartagjena;Cartagena
+zh;卡塔赫纳;Cartagena
+am;ካርታሔና;Cartagena
+fa;کارتاگنا;Cartagena
+kk;Картахена;Cartagena
+lv;Kartahena;Cartagena
+ru;Кармона;Carmona
+uk;Карлет;Carlet
+ru;Карлет;Carlet
+zh;卡尔莱特;Carlet
+ru;Каркахенте;Carcaixent
+ar;كاربونيراس;Carboneras
+fa;کاربونراس;Carboneras
+mk;Карбонерас;Carboneras
+uk;Карбонерас;Carboneras
+ru;Карбонерас;Carboneras
+zh;卡尔沃内拉斯;Carboneras
+ar;كابايلا;Capilla
+fa;کاپییا;Capilla
+mk;Капила;Capilla
+uk;Капілья;Capilla
+ru;Капилья;Capilla
+zh;卡皮利亚;Capilla
+ar;كابديبيرا;Capdepera
+ru;Капдепера;Capdepera
+zh;卡普德佩拉;Capdepera
+ar;كانياس دي أثيتونو;Canillas de Aceituno
+kk;Канильяс-де-Асейтуно;Canillas de Aceituno
+uk;Канільяс-де-Асейтуно;Canillas de Aceituno
+ru;Канильяс-де-Асейтуно;Canillas de Aceituno
+zh;卡尼利亚斯德亚塞图诺;Canillas de Aceituno
+ar;كانيتي لا ريال;Cañete la Real
+fa;کانیته لا ریال;Cañete la Real
+hy;Կանիետե լա Ռեալ;Cañete la Real
+kk;Каньете-ла-Реаль;Cañete la Real
+uk;Каньєте-ла-Реаль;Cañete la Real
+ru;Каньете-ла-Реаль;Cañete la Real
+zh;卡涅特拉雷亚尔;Cañete la Real
+ru;Канделарии;Candelaria
+ar;كانديلاريا، سانتا كروث دي تينيريفه;Candelaria
+bg;Канделария;Candelaria
+el;Κανδελάρια;Candelaria
+he;קאנדלאריה;Candelaria
+ja;カンデラリア;Candelaria
+uk;Канделарія;Candelaria
+ru;Канделария;Candelaria
+zh;坎德拉里亚;Candelaria
+ar;كانياميرو;Cañamero
+uk;Каньямеро;Cañamero
+ru;Каньямеро;Cañamero
+zh;卡尼亚梅罗;Cañamero
+uk;Кампорроблес;Camporrobles
+ru;Кампорроблес;Camporrobles
+zh;坎波罗夫莱斯;Camporrobles
+ar;كامبو دي كرايبتانا;Campo de Criptana
+kk;Кампо-де-Криптана;Campo de Criptana
+uk;Кампо-де-Кріптана;Campo de Criptana
+ru;Кампо-де-Криптана;Campo de Criptana
+zh;坎波德克里普塔纳;Campo de Criptana
+mk;Кампанарио;Campanario
+uk;Кампанаріо;Campanario
+ru;Кампанарио;Campanario
+zh;坎帕纳里奥;Campanario
+fa;کامپاناریو;Campanario
+ru;Камас;Camas
+hy;Կամաս;Camas
+kk;Камас;Camas
+uk;Камас;Camas
+zh;卡马斯;Camas
+bg;Калвиа;Calvià
+sr;Калвија;Calvià
+ar;كالفيا;Calvià
+ja;カルビア;Calvià
+ru;Кальвия;Calvià
+zh;卡尔维亚;Calvià
+th;กัลบีอา;Calvià
+fa;کالبیا;Calvià
+uk;Кальвія;Calvià
+pl;Calpe;Calp
+ar;كالبي;Calp
+bg;Калп;Calp
+fa;کالپ;Calp
+kk;Кальп;Calp
+uk;Калп;Calp
+ru;Кальп;Calp
+zh;卡尔佩;Calp
+ar;كالوسا دي سوجورا;Callosa de Segura
+fa;کایوسا د سگورا;Callosa de Segura
+kk;Кальоса-де-Сегура;Callosa de Segura
+uk;Кальйоса-де-Сегура;Callosa de Segura
+ru;Кальоса-де-Сегура;Callosa de Segura
+zh;卡略萨德塞古拉;Callosa de Segura
+hy;Կալյոսա դե Սեգուրա;Callosa de Segura
+ar;كالاسبارا;Calasparra
+uk;Каласпарра;Calasparra
+ru;Каласпарра;Calasparra
+zh;卡拉斯帕拉;Calasparra
+ru;Кала-Мильо;Cala Millor
+ko;칼라미요르;Cala Millor
+uk;Кала Міллор;Cala Millor
+zu;Iungadir;Cadiz
+pl;Kadyks;Cadiz
+ar;قادس;Cadiz
+ja;カディス;Cadiz
+ru;Кадис;Cadiz
+zh;加的斯;Cadiz
+sr;Кадиз;Cadiz
+th;กาดิซ;Cadiz
+he;קדיס;Cadiz
+bg;Кадис;Cadiz
+am;ካዲዝ;Cadiz
+el;Κάντιθ;Cadiz
+lt;Kadisas;Cadiz
+fa;کادیس;Cadiz
+uk;Кадіс;Cadiz
+ko;카디스;Cadiz
+os;Кадис;Cadiz
+ka;კადისი;Cadiz
+he;קסרס;Cáceres
+ja;カセレス;Cáceres
+ru;Касерес;Cáceres
+sr;Касерес;Cáceres
+be;Касерэс;Cáceres
+th;กาเซเรส;Cáceres
+ka;კასერესი;Cáceres
+ar;قصرش;Cáceres
+el;Κάθερες;Cáceres
+ko;카세레스;Cáceres
+nn;Cáceres i Spania;Cáceres
+fa;کاسرس;Cáceres
+uk;Касерес;Cáceres
+zh;卡塞雷斯;Cáceres
+hi;काकेरेस;Cáceres
+lt;Kaseresas;Cáceres
+lv;Kaseresa;Cáceres
+pa;ਕਾਥੇਰੇਸ;Cáceres
+ur;کاسیریس;Cáceres
+yue;卡沙利斯;Cáceres
+ar;قشرش;Cáceres
+ar;كاثيريس;Cáceres
+ar;كاثيرس;Cáceres
+ru;Кабра;Cabra
+uk;Кабеса-дель-Буей;Cabeza del Buey
+mk;Кабеза дел Беј;Cabeza del Buey
+ar;كابيزا ديل بي;Cabeza del Buey
+ru;Кабеса-дель-Буэй;Cabeza del Buey
+zh;卡韦萨德尔武埃;Cabeza del Buey
+ar;بوسوت;Busot
+fa;بوسوت;Busot
+hy;Բուսոտ;Busot
+kk;Бусот;Busot
+uk;Бузот;Busot
+ru;Бусот;Busot
+zh;布索特;Busot
+uk;Борріана;Burriana
+ar;بوراينا;Burriana
+ru;Бурриана;Burriana
+zh;布里亚纳;Burriana
+ru;Бурхасот;Burjassot
+ru;Буньоль;Buñol
+ja;ブニョール;Buñol
+ko;부뇰;Buñol
+uk;Буньйоль;Buñol
+zh;布尼奥尔;Buñol
+ms;Bunyol;Buñol
+ar;بوخالانكي، قرطبة;Bujalance
+uk;Бухалансе;Bujalance
+ru;Бухалансе;Bujalance
+zh;布哈兰塞;Bujalance
+ar;بوغير;Búger
+fa;بوخر;Búger
+ru;Бужер;Búger
+zh;布赫尔;Búger
+fa;بوفالی;Bufali
+uk;Буфалі;Bufali
+ru;Буфали;Bufali
+zh;布法利;Bufali
+ru;Буэнависта-дель-Норте;Buenavista del Norte
+ar;بوينافيستا ديل نورتي;Buenavista del Norte
+uk;Буенавіста-дель-Норте;Buenavista del Norte
+zh;布埃纳维斯塔德尔诺尔特;Buenavista del Norte
+ar;بروزاس;Brozas
+uk;Бросас;Brozas
+ru;Бросас;Brozas
+zh;布罗萨斯;Brozas
+kk;Бренес;Brenes
+uk;Бренес;Brenes
+ru;Бренес;Brenes
+zh;布雷内斯;Brenes
+ru;Борнос;Bornos
+ru;Бонете;Bonete
+ru;Бонарес;Bonares
+fa;بلبایته;Bolbaite
+ms;Bolbait;Bolbaite
+uk;Больбайте;Bolbaite
+ru;Больбайте;Bolbaite
+zh;博尔瓦伊特;Bolbaite
+ar;بولانيوس دي كالاترافا;Bolaños de Calatrava
+kk;Боланьос-де-Калатрава;Bolaños de Calatrava
+uk;Боланьйос-де-Калатрава;Bolaños de Calatrava
+ru;Боланьос-де-Калатрава;Bolaños de Calatrava
+zh;博拉尼奥斯德卡拉特拉瓦;Bolaños de Calatrava
+ar;بني سالم;Binissalem
+ar;بينيساليم;Binissalem
+ar;بنو سالم;Binissalem
+ar;بنو سلام;Binissalem
+ru;Биниссалем;Binissalem
+ar;باينفينايدا;Bienvenida
+fa;بینبنیدا;Bienvenida
+hy;Բիենվենիդա;Bienvenida
+mk;Бјенвенида;Bienvenida
+uk;Бєнвеніда;Bienvenida
+ru;Бьенвенида;Bienvenida
+zh;比恩韦尼达;Bienvenida
+ar;بيار;Biar
+fa;بیار;Biar
+kk;Бьяр;Biar
+uk;Біар;Biar
+ru;Бьяр;Biar
+zh;比亚尔;Biar
+ar;بيرزوكانا;Berzocana
+uk;Берсокана;Berzocana
+ru;Берсокана;Berzocana
+zh;贝尔索卡纳;Berzocana
+mk;Берџа;Berja
+ar;برجة;Berja
+uk;Берха;Berja
+fa;برخا;Berja
+ru;Берха;Berja
+zh;贝尔哈;Berja
+crh;Berha;Berja
+ru;Бенсу;Benzú
+ru;Бениссода;Benissoda
+ru;Бенисса;Benissa
+ru;Бенимуслем;Benimuslem
+ru;Бенимодо;Benimodo
+ar;بينايميلاي;Benimeli
+fa;بنیملی;Benimeli
+kk;Бенимели;Benimeli
+uk;Бенімелі;Benimeli
+ru;Бенимели;Benimeli
+zh;贝尼梅利;Benimeli
+ru;Бенимассот;Benimassot
+ar;بني مخلد;Benimaclet
+ja;ベニマクレート;Benimaclet
+ar;بينايلوبا;Benilloba
+fa;بنییوبا;Benilloba
+kk;Бенильоба;Benilloba
+uk;Бенільйоба;Benilloba
+ru;Бенильоба;Benilloba
+zh;贝尼略瓦;Benilloba
+ru;Бенидорм;Benidorm
+bg;Бенидорм;Benidorm
+kk;Бенидорм;Benidorm
+ar;بنيدورم;Benidorm
+ja;ベニドルム;Benidorm
+uk;Бенідорм;Benidorm
+sr;Бенидорм;Benidorm
+fa;بنیدورم;Benidorm
+zh;贝尼多尔姆;Benidorm
+hy;Բենիդորմ;Benidorm
+ko;베니도름;Benidorm
+ar;بينياريس;Beniarrés
+fa;بنیارس;Beniarrés
+kk;Бениаррес;Beniarrés
+uk;Беніаррес;Beniarrés
+ru;Беньяррес;Beniarrés
+zh;贝尼亚雷斯;Beniarrés
+ar;بينفيرراي;Benferri
+fa;بنفری;Benferri
+kk;Бенферри;Benferri
+uk;Бенферрі;Benferri
+ru;Бенферри;Benferri
+zh;本费里;Benferri
+ru;Бенавитес;Benavites
+ar;بني رباح;Benarrabá
+ar;بينارابا;Benarrabá
+ru;Бенальмадена;Benalmádena
+ar;بينالمادينا;Benalmádena
+kk;Бенальмадена;Benalmádena
+ko;베날마데나;Benalmádena
+sr;Беналмадена;Benalmádena
+uk;Бенальмадена;Benalmádena
+zh;贝纳尔马德纳;Benalmádena
+fa;بنالمادنا;Benalmádena
+hy;Բենալմադենա;Benalmádena
+fa;بناخبر;Benagéber
+mk;Бенахебер;Benagéber
+ms;Benaixeve;Benagéber
+uk;Бенахебер;Benagéber
+vi;Benagébe;Benagéber
+ru;Бенахебер;Benagéber
+zh;贝纳赫韦尔;Benagéber
+ru;Белмонте;Belmonte
+ar;بلالكزار;Belalcázar
+uk;Белалькасар;Belalcázar
+ru;Белалькасар;Belalcázar
+zh;贝拉尔卡萨尔;Belalcázar
+ur;بلال قصر;Belalcázar
+uk;Беас-де-Сегура;Beas de Segura
+ar;بياس دي سيغورا;Beas de Segura
+ru;Беас-де-Сегура;Beas de Segura
+zh;贝亚斯德塞古拉;Beas de Segura
+fa;بئاس د سگورا;Beas de Segura
+ar;بياس;Beas
+hy;Բեաս;Beas
+uk;Беас;Beas
+ru;Беас;Beas
+zh;贝亚斯;Beas
+ru;База;Baza
+ru;Батерно;Baterno
+bg;Баранда;Barranda
+fa;باراندا;Barranda
+ru;Барловенто;Barlovento
+ru;Барбате;Barbate
+ar;بانيوس دي لا إنثينا;Baños de la Encina
+fa;بانیس د لا انسینا;Baños de la Encina
+hy;Բանիոս դե լա Էնսիտա;Baños de la Encina
+uk;Баньйос-де-ла-Енсіна;Baños de la Encina
+ru;Баньос-де-ла-Энсина;Baños de la Encina
+zh;巴尼奥斯德莱恩西纳;Baños de la Encina
+ru;Балонес;Balones
+ar;بايلين;Bailén
+fa;بایلن;Bailén
+ko;바일렌;Bailén
+uk;Байлен;Bailén
+ru;Байлен;Bailén
+zh;拜伦;Bailén
+ru;Баэна;Baena
+ar;بيانة;Baena
+uk;Баена;Baena
+zh;拜纳;Baena
+ru;Бадолатоса;Badolatosa
+ar;باداخوز;Badajoz
+ru;Бадахос;Badajoz
+sr;Бадахос;Badajoz
+ja;バダホス;Badajoz
+ar;بطليوس;Badajoz
+fa;باداخوس;Badajoz
+ur;بطليوس;Badajoz
+ar;أزواغا;Azuaga
+fa;آسواگا;Azuaga
+mk;Азуага;Azuaga
+uk;Асуага;Azuaga
+ru;Асуага;Azuaga
+zh;阿苏阿加;Azuaga
+ms;Aiora;Ayora
+uk;Айора;Ayora
+ru;Айора;Ayora
+zh;艾奥拉;Ayora
+fa;آیرا;Ayora
+ar;أين;Ayna
+fa;آینا;Ayna
+uk;Аїна;Ayna
+yue;艾納;Ayna
+ru;Айна;Ayna
+zh;艾纳;Ayna
+ar;أيامونتي;Ayamonte
+kk;Айямонте;Ayamonte
+uk;Аямонте;Ayamonte
+ru;Айямонте;Ayamonte
+zh;艾阿蒙特;Ayamonte
+ru;Атарфе;Atarfe
+ru;Атамария;Atamaría
+fa;آسپه;Aspe
+ar;أسبي;Aspe
+kk;Аспе;Aspe
+uk;Аспе;Aspe
+ru;Аспе;Aspe
+zh;阿斯佩;Aspe
+ru;Арукас;Arucas
+ru;Артенара;Artenara
+ru;Артана;Artana
+he;ארטה;Artà
+ar;أرتا، جزر البليار;Artà
+ru;Арта;Artà
+zh;阿尔塔;Artà
+ar;أرويو دي لا لوز;Arroyo de la Luz
+uk;Арройо-де-ла-Лус;Arroyo de la Luz
+ru;Арройо-де-ла-Лус;Arroyo de la Luz
+zh;阿罗约德拉卢斯;Arroyo de la Luz
+ru;Аресифе;Arrecife
+ru;Арон;Arona
+ar;أرونا، إسبانيا;Arona
+bg;Арона;Arona
+nn;Arona på Tenerife;Arona
+sr;Арона;Arona
+uk;Арона;Arona
+ru;Арона;Arona
+zh;阿罗纳;Arona
+ar;أرميا;Armilla
+hy;Արմիլյա;Armilla
+kk;Армилья;Armilla
+uk;Армілья;Armilla
+ru;Армилья;Armilla
+zh;阿尔米利亚;Armilla
+ar;أرخونا;Arjona
+fa;آرخنا;Arjona
+hy;Արխոնա;Arjona
+uk;Архона;Arjona
+ru;Архона;Arjona
+zh;阿尔霍纳;Arjona
+fa;آرخس;Argés
+hy;Արխես;Argés
+kk;Архес;Argés
+uk;Архес;Argés
+ru;Архес;Argés
+zh;阿尔赫斯;Argés
+ru;Аренас;Arenas
+ru;Ардалес;Ardales
+fa;آرکس د لاس سالیناس;Arcos de las Salinas
+kk;Аркос-де-лас-Салинас;Arcos de las Salinas
+uk;Аркос-де-лас-Салінас;Arcos de las Salinas
+ru;Аркос-де-лас-Салинас;Arcos de las Salinas
+zh;阿尔科斯德拉萨利纳斯;Arcos de las Salinas
+ru;Аркос-де-ла-Фронтера;Arcos de la Frontera
+ar;أركوس ديلا فرونتيرا;Arcos de la Frontera
+ja;アルコス・デ・ラ・フロンテーラ;Arcos de la Frontera
+ko;아르코스데라프론테라;Arcos de la Frontera
+uk;Аркос-де-ла-Фронтера;Arcos de la Frontera
+zh;阿尔科斯-德拉弗龙特拉;Arcos de la Frontera
+kk;Арчидона;Archidona
+ar;أرشذونة;Archidona
+uk;Арчидона;Archidona
+ru;Арчидона;Archidona
+zh;阿尔奇多纳;Archidona
+ru;Арафо;Arafo
+ru;Арасена;Aracena
+ar;أراثينا;Aracena
+kk;Арасена;Aracena
+uk;Арасена;Aracena
+zh;阿拉塞纳;Aracena
+ru;Антекера;Antequera
+kk;Антекера;Antequera
+ar;أنتقيرة;Antequera
+uk;Антекера;Antequera
+zh;安特克拉;Antequera
+ru;Антас;Antas
+ru;Анна;Anna
+ja;アンドゥハル;Andújar
+lt;Anducharas;Andújar
+ar;أندوجر;Andújar
+uk;Андухар;Andújar
+ru;Андухар;Andújar
+zh;安杜哈尔;Andújar
+fa;آندوخار;Andújar
+ar;التورا;Altura
+uk;Альтура;Altura
+ru;Альтура;Altura
+ru;Алпера;Alpera
+ru;Алосно;Alosno
+ru;Алора;Alora
+ru;Алмуссафес;Almussafes
+ar;المنكب;Almuñécar
+ja;アルムニェーカル;Almuñécar
+kk;Альмуньекар;Almuñécar
+ko;알무녜카르;Almuñécar
+uk;Альмуньєкар;Almuñécar
+ru;Альмуньекар;Almuñécar
+zh;阿尔穆涅卡尔;Almuñécar
+ar;ألمورادي;Almoradí
+fa;آلمورادی;Almoradí
+kk;Альморади;Almoradí
+uk;Альмораді;Almoradí
+ru;Альморади;Almoradí
+zh;阿尔莫拉迪;Almoradí
+ar;ألمونتي;Almonte
+fa;المونت، اسپانیا;Almonte
+hy;Ալմոնտե;Almonte
+kk;Альмонте;Almonte
+uk;Альмонте;Almonte
+ru;Альмонте;Almonte
+zh;阿尔蒙特;Almonte
+ja;アルメリア;Almería
+sr;Алмерија;Almería
+ar;ألمرية;Almería
+ru;Альмерия;Almería
+ko;알메리아;Almería
+el;Αλμερία;Almería
+lt;Almerija;Almería
+os;Альмери;Almería
+uk;Альмерія;Almería
+fa;آلمریا;Almería
+ta;அல்மேரீயா;Almería
+bg;Алмерия;Almería
+be;Альмерыя;Almería
+zh;阿尔梅里亚;Almería
+ce;Альмери;Almería
+he;אלמריה;Almería
+hy;Ալմերիա;Almería
+lv;Almerija;Almería
+mr;आल्मेरिया;Almería
+ur;المریہ;Almería
+ru;Альмендралехо;Almendralejo
+lt;Almendralechas;Almendralejo
+mk;Алмендралехо;Almendralejo
+ar;ألمندراليخو;Almendralejo
+uk;Альмендралехо;Almendralejo
+zh;阿尔门德拉莱霍;Almendralejo
+ar;الميندرال;Almendral
+fa;آلمندرال;Almendral
+mk;Алмендрал;Almendral
+uk;Альмендраль;Almendral
+ru;Альмендраль;Almendral
+zh;阿尔门德拉尔;Almendral
+ru;Алменара;Almenara
+ru;Алмедина;Almedina
+ru;Алмассора;Almassora
+ru;Альманса;Almansa
+fa;آلمانسا;Almansa
+ar;المنسى;Almansa
+uk;Альманса;Almansa
+zh;阿尔曼萨;Almansa
+yue;顏曼莎;Almansa
+ar;المادن;Almadén
+ka;ალმადენი;Almadén
+kk;Альмаден;Almadén
+lt;Almadenas;Almadén
+uk;Альмаден;Almadén
+ru;Альмаден;Almadén
+zh;阿尔马登;Almadén
+ru;Алиседа;Aliseda
+ar;ألَلَقَنْت;Alicante
+ja;アリカンテ;Alicante
+zh;阿利坎特;Alicante
+ru;Аликанте;Alicante
+is;Alíkante;Alicante
+be;Алікантэ;Alicante
+bg;Аликанте;Alicante
+el;Αλικάντε;Alicante
+fa;آلیکانته;Alicante
+gd;Alacant;Alicante
+hak;Â-li-kham-thi̍t;Alicante
+he;אליקנטה;Alicante
+hy;Ալիկանտե;Alicante
+ka;ალიკანტე;Alicante
+kk;Аликанте;Alicante
+ko;알리칸테;Alicante
+lt;Alikantė;Alicante
+lv;Alikante;Alicante
+mr;आलिकांते;Alicante
+sr;Аликанте;Alicante
+tg;Аликанте;Alicante
+th;อาลีกันเต;Alicante
+uk;Аліканте;Alicante
+ur;الیکانتے;Alicante
+uz;Alikante;Alicante
+uk;Алія;Alía
+ar;أليا;Alía
+ru;Алиа;Alía
+zh;阿利亚;Alía
+ar;ألاورين لا غراندي;Alhaurín el Grande
+kk;Альхаурин-эль-Гранде;Alhaurín el Grande
+uk;Алаурін-ель-Гранде;Alhaurín el Grande
+ru;Алаурин-эль-Гранде;Alhaurín el Grande
+zh;阿尔奥里内尔格兰德;Alhaurín el Grande
+ar;برج الهواريين;Alhaurín de la Torre
+fa;الهائورین دو لا تور;Alhaurín de la Torre
+hy;Ալաուրին դե լա Տոռե;Alhaurín de la Torre
+kk;Альхаурин-де-ла-Торре;Alhaurín de la Torre
+uk;Алаурін-де-ла-Торре;Alhaurín de la Torre
+ru;Алаурин-де-ла-Торре;Alhaurín de la Torre
+zh;阿尔奥林德拉托雷;Alhaurín de la Torre
+ar;ألاما دي مرسية;Alhama de Murcia
+uk;Алама-де-Мурсія;Alhama de Murcia
+ru;Альхама-де-Мурсия;Alhama de Murcia
+zh;阿尔阿马德穆尔西亚;Alhama de Murcia
+ar;ألاما دي غرانادا;Alhama de Granada
+kk;Альхама-де-Гранада;Alhama de Granada
+uk;Алама-де-Гранада;Alhama de Granada
+ru;Альхама-де-Гранада;Alhama de Granada
+zh;阿尔阿马德格拉纳达;Alhama de Granada
+ar;حمة المرية;Alhama de Almería
+fa;آلاما د آلمریا;Alhama de Almería
+mk;Алхама де Алмерија;Alhama de Almería
+uk;Алама-де-Альмерія;Alhama de Almería
+ru;Альхама-де-Альмериа;Alhama de Almería
+zh;阿尔阿马德亚尔梅里亚;Alhama de Almería
+ar;ألغينيا;Algueña
+fa;آلگوئنیا;Algueña
+kk;Альгенья;Algueña
+uk;Альгенья;Algueña
+ru;Альгенья;Algueña
+zh;阿尔格尼亚;Algueña
+ar;الغرفة;Algorfa
+fa;آلگورفا;Algorfa
+kk;Альгорфа;Algorfa
+uk;Альгорфа;Algorfa
+ru;Альгорфа;Algorfa
+zh;阿尔戈尔法;Algorfa
+uk;Алджемезі;Algemesí
+ru;Альхемеси;Algemesí
+zh;阿尔赫梅西;Algemesí
+ja;アルヘシラス;Algeciras
+sr;Алхесирас;Algeciras
+bg;Алхесирас;Algeciras
+lt;Alchesirasas;Algeciras
+el;Αλχεθίρας;Algeciras
+ar;الجزيرة الخضراء;Algeciras
+uk;Альхесірас;Algeciras
+ko;알헤시라스;Algeciras
+ru;Альхесирас;Algeciras
+be;Альхесірас;Algeciras
+zh;阿尔赫西拉斯;Algeciras
+fa;آلفارپ;Alfarp
+ms;Alfarb;Alfarp
+uk;Альфарп;Alfarp
+vi;Alfarb;Alfarp
+ru;Альфарп;Alfarp
+zh;阿尔法尔普;Alfarp
+ru;Алфарнате;Alfarnate
+ru;Алфафара;Alfafara
+uk;Алфафар;Alfafar
+ru;Альфафар;Alfafar
+zh;阿尔法法尔;Alfafar
+ru;Аледо;Aledo
+ru;Альдайя;Aldaia
+ru;Алька;Alcoy
+lt;Alkojus;Alcoy
+sr;Алкој;Alcoy
+ja;アルコイ;Alcoy
+ar;ألكوي;Alcoy
+uk;Алькой;Alcoy
+fa;آلکوی;Alcoy
+ru;Алькой;Alcoy
+zh;阿尔科伊;Alcoy
+ru;Альсира;Alzira
+ar;جزيرة شقر;Alzira
+lt;Alsira;Alzira
+uk;Алзіра;Alzira
+zh;阿尔西拉;Alzira
+fa;الزیرا، والنسیا;Alzira
+hy;Ալսիրա;Alzira
+ru;Алькасар-де-Сан-Хуан;Alcázar de San Juan
+kk;Алькасар-де-Сан-Хуан;Alcázar de San Juan
+uk;Алькасар-де-Сан-Хуан;Alcázar de San Juan
+ar;الكزار دي سان خوان;Alcázar de San Juan
+zh;阿尔卡萨尔德圣胡安;Alcázar de San Juan
+uk;Алькарас;Alcaraz
+ar;الكرز، البسيط;Alcaraz
+fa;آلکاراس;Alcaraz
+ru;Алькарас;Alcaraz
+ar;الكاراكيخوس، قرطبة;Alcaracejos
+uk;Алькарасехос;Alcaracejos
+ru;Алькарасехос;Alcaracejos
+zh;阿尔卡拉塞霍斯;Alcaracejos
+ru;Алькантарилья;Alcantarilla
+ja;アルカンタラ;Alcántara
+ko;알칸타라;Alcántara
+el;Αλκάνταρα;Alcántara
+lt;Alkantara;Alcántara
+uk;Алькантара;Alcántara
+ar;الكنتارا;Alcántara
+ru;Алькантара;Alcántara
+zh;阿尔坎塔拉;Alcántara
+ar;ألكالالي;Alcalalí
+fa;آلکالالی;Alcalalí
+kk;Алькалали;Alcalalí
+uk;Алкалалі;Alcalalí
+ru;Алькалали;Alcalalí
+zh;阿尔卡拉利;Alcalalí
+ru;Алькала-ла-Реаль;Alcalá la Real
+ar;ألكالا لا ريال;Alcalá la Real
+fa;آلکالا لا رئال;Alcalá la Real
+ja;アルカラ・ラ・レアル;Alcalá la Real
+uk;Алькала-ла-Реаль;Alcalá la Real
+zh;阿尔卡拉拉雷亚尔;Alcalá la Real
+ar;الكالا ديل فالي;Alcalá del Valle
+fa;الکالا دل وال;Alcalá del Valle
+hy;Ալկալա դել Վալյե;Alcalá del Valle
+uk;Алькала-дель-Вальє;Alcalá del Valle
+ru;Алькала-дель-Валье;Alcalá del Valle
+zh;巴列堡;Alcalá del Valle
+ru;Алькала-де-Гвадаира;Alcalá de Guadaira
+ar;القصر;Alcàsser
+ru;Альборайя;Alboraya
+uk;Альборая;Alboraya
+zh;阿尔沃赖阿;Alboraya
+fa;آلبرایا;Alboraya
+hy;Ալբորայա;Alboraya
+ru;Альборая;Alboraya
+ru;Алболоте;Albolote
+ar;ألباتيرا;Albatera
+fa;آلباترا;Albatera
+kk;Альбатера;Albatera
+uk;Альбатера;Albatera
+ru;Альбатера;Albatera
+zh;阿尔瓦特拉;Albatera
+ru;Албатана;Albatana
+ar;ألبالات دي لا ريبيرا;Albalat de la Ribera
+fa;آلبالات د لا ریبرا;Albalat de la Ribera
+uk;Албалат-де-ла-Рібера;Albalat de la Ribera
+ru;Альбалат-де-ла-Рибера;Albalat de la Ribera
+zh;阿尔瓦拉特德拉里韦拉;Albalat de la Ribera
+ru;Албал;Albal
+he;אלבסטה;Albacete
+ru;Альбасете;Albacete
+ja;アルバセテ;Albacete
+sr;Албасете;Albacete
+ar;البسيط;Albacete
+bg;Албасете;Albacete
+ko;알바세테;Albacete
+lv;Albasete;Albacete
+lt;Albasetė;Albacete
+uk;Альбасете;Albacete
+fa;آلباسته;Albacete
+zh;阿尔瓦塞特;Albacete
+be;Альбасетэ;Albacete
+uz;Albasete;Albacete
+yue;阿爾瓦塞特;Albacete
+ar;الباسيتي;Albacete
+ar;بسيط;Albacete
+ru;Аламеда;Alameda
+ru;Алакуас;Alaquàs
+ru;Агуимес;Agüimes
+sr;Агвимес;Agüimes
+ru;Агилас;Águilas
+ko;아길라스;Águilas
+ja;アギラス;Águilas
+uk;Агілас;Águilas
+ar;أغيلاس;Águilas
+zh;阿吉拉斯;Águilas
+ar;أغريس;Agres
+fa;آگرس;Agres
+kk;Агрес;Agres
+uk;Агрес;Agres
+ru;Агрес;Agres
+zh;阿格雷斯;Agres
+ar;أغوست;Agost
+fa;دهستان آگست;Agost
+hy;Ագոստ;Agost
+kk;Агост;Agost
+uk;Агост;Agost
+ru;Агост;Agost
+zh;阿戈斯特;Agost
+ar;أغايتي;Agaete
+ja;アガエテ;Agaete
+uk;Агаете;Agaete
+ru;Агаэте;Agaete
+zh;阿盖特;Agaete
+ru;Адра;Adra
+ru;Адор;Ador
+ar;أديخي;Adeje
+bg;Адехе;Adeje
+lt;Adechė;Adeje
+uk;Адехе;Adeje
+ru;Адехе;Adeje
+zh;阿德赫;Adeje
+ru;Абла;Abla
+ru;Абертура;Abertura
+ar;أبانيا;Abanilla
+el;Αβανίγια;Abanilla
+uk;Абанілья;Abanilla
+ru;Абанилья;Abanilla
+zh;阿瓦尼利亚;Abanilla
+ar;ثوماراغا;Zumarraga
+bg;Сумарага;Zumarraga
+hy;Սումառագա;Zumarraga
+ja;スマラガ;Zumarraga
+ko;수마라가;Zumarraga
+uk;Сумаррага;Zumarraga
+ru;Сумаррага;Zumarraga
+zh;苏马拉加;Zumarraga
+ar;ثويرا;Zuera
+kk;Суэра;Zuera
+uk;Суера;Zuera
+ru;Суэра;Zuera
+zh;苏埃拉;Zuera
+ar;سرقسطة;Zaragoza
+be;Сарагоса;Zaragoza
+he;סרגוסה;Zaragoza
+ja;サラゴサ;Zaragoza
+pl;Saragossa;Zaragoza
+ru;Сарагоса;Zaragoza
+lv;Saragosa;Zaragoza
+kk;Сарагоса;Zaragoza
+mk;Сарагоса;Zaragoza
+fa;ساراگوسا;Zaragoza
+ckb;سەرەگۆسا;Zaragoza
+el;Σαραγόσα;Zaragoza
+mr;सारागोसा;Zaragoza
+uk;Сарагоса;Zaragoza
+bg;Сарагоса;Zaragoza
+th;ซาราโกซา;Zaragoza
+ko;사라고사;Zaragoza
+ka;სარაგოსა;Zaragoza
+os;Сарагосæ;Zaragoza
+ug;Saragossa;Zaragoza
+sr;Сарагоса;Zaragoza
+az;Saraqosa;Zaragoza
+tet;Saragosa;Zaragoza
+lt;Saragosa;Zaragoza
+hy;Սարագոսա;Zaragoza
+zh;萨拉戈萨;Zaragoza
+sgs;Saragosa;Zaragoza
+ce;Сарагоса;Zaragoza
+mhr;Сарагосо;Zaragoza
+pa;ਤਾਰਾਗੋਤਾ;Zaragoza
+ar;زامورا;Zamora
+bn;থামোরা;Zamora
+ja;サモラ;Zamora
+ru;Самора;Zamora
+kk;Янгвас;Yanguas
+uk;Янгуас;Yanguas
+ru;Янгвас;Yanguas
+zh;伊安瓜斯;Yanguas
+kk;Восмедиано;Vozmediano
+uk;Восмедіано;Vozmediano
+ru;Восмедиано;Vozmediano
+zh;博斯梅迪亚诺;Vozmediano
+fi;Vitoria-Gasteiz;Gasteiz / Vitoria
+he;ויטוריה;Gasteiz / Vitoria
+id;Vitoria;Gasteiz / Vitoria
+ro;Vitoria;Gasteiz / Vitoria
+ro;Vitoria-Gasteiz;Gasteiz / Vitoria
+sv;Vitoria;Gasteiz / Vitoria
+pl;Vitoria;Gasteiz / Vitoria
+hr;Vitoria;Gasteiz / Vitoria
+bg;Витория;Gasteiz / Vitoria
+ja;ビトリア;Gasteiz / Vitoria
+tr;Vitoria-Gasteiz;Gasteiz / Vitoria
+ru;Витория-Гастейс;Gasteiz / Vitoria
+kk;Витигудино;Vitigudino
+uk;Вітігудіно;Vitigudino
+ru;Витигудино;Vitigudino
+zh;比蒂古迪诺;Vitigudino
+ru;Вита;Vita
+kk;Винуэса;Vinuesa
+uk;Вінуеса;Vinuesa
+ru;Винуэса;Vinuesa
+zh;比努埃萨;Vinuesa
+ru;Винебре;Vinebre
+ru;Виндел;Vindel
+ru;Винаросе;Vinaròs
+ar;فيلفيستري ديل باينار;Vilviestre del Pinar
+uk;Вільвєстре-дель-Пінар;Vilviestre del Pinar
+ru;Вильвьестре-дель-Пинар;Vilviestre del Pinar
+zh;比尔维耶斯特雷德尔皮纳尔;Vilviestre del Pinar
+kk;Вильвестре;Vilvestre
+uk;Вільвестре;Vilvestre
+ru;Вильвестре;Vilvestre
+zh;比尔韦斯特雷;Vilvestre
+ru;Вильявисиоса-де-Одон;Villaviciosa de Odón
+uk;Вільятурєль;Villaturiel
+ru;Вильятурьель;Villaturiel
+zh;比利亚图列尔;Villaturiel
+kk;Вильярино-де-лос-Айрес;Villarino de los Aires
+uk;Вільяріно-де-лос-Айрес;Villarino de los Aires
+ru;Вильярино-де-лос-Айрес;Villarino de los Aires
+zh;比利亚里诺德洛赛雷斯;Villarino de los Aires
+kk;Вильяр-дель-Рио;Villar del Río
+uk;Вільяр-дель-Ріо;Villar del Río
+ru;Вильяр-дель-Рио;Villar del Río
+zh;比利亚尔德尔里奥;Villar del Río
+uk;Вільякіламбре;Villaquilambre
+ru;Вильякиламбре;Villaquilambre
+zh;比利亚基兰夫雷;Villaquilambre
+ar;فيانويفا دي أوسكوس;Villanueva de Oscos
+fa;بییانوئبا د اسکس;Villanueva de Oscos
+uk;Вільянуева-де-Оскос;Villanueva de Oscos
+ru;Вильянуэва-де-Оскос;Villanueva de Oscos
+zh;奥斯科斯新镇;Villanueva de Oscos
+ar;فيلانيوفا دي لافيرا;Villanueva de la Vera
+uk;Вільянуева-де-ла-Вера;Villanueva de la Vera
+ru;Вильянуэва-де-ла-Вера;Villanueva de la Vera
+zh;贝拉新镇;Villanueva de la Vera
+ru;Вильянуэва-де-Вильяэскуса;Villanueva de Villaescusa
+uk;Вільянуа;Villanúa
+ru;Вильянуа;Villanúa
+zh;比利亚努阿;Villanúa
+hy;Վիլիամեդիանա դե Իրեգուա;Villamediana de Iregua
+kk;Вильямедиана-де-Ирегва;Villamediana de Iregua
+uk;Вільямедіана-де-Ірегуа;Villamediana de Iregua
+ru;Вильямедьяна-де-Ирегуа;Villamediana de Iregua
+zh;比利亚梅迪亚纳德雷瓜;Villamediana de Iregua
+ja;ビジャマニン;Villamanín
+uk;Вільяманін;Villamanín
+ru;Вильяманин;Villamanín
+zh;比利亚马宁;Villamanín
+uk;Вільяманьян;Villamañán
+ru;Вильяманьян;Villamañán
+zh;比利亚马尼扬;Villamañán
+uk;Вільяльпандо;Villalpando
+ru;Вильяльпандо;Villalpando
+zh;比利亚尔潘多;Villalpando
+ar;فيلاألبا دي دويرو;Villalba de Duero
+fa;بییالبا د دوئرو;Villalba de Duero
+hy;Վիլյալբա դե Դուերո;Villalba de Duero
+uk;Вільяльба-де-Дуеро;Villalba de Duero
+ru;Вильяльба-де-Дуэро;Villalba de Duero
+zh;比利亚尔瓦德杜埃罗;Villalba de Duero
+ru;Вилалба;Vilalba
+sr;Вилагарсија де Ароуза;Vilagarcía de Arousa
+ru;Вильяфранка-дель-Пенедес;Vilafranca del Penedès
+fa;بییافرانکا د لا سیرا;Villafranca de la Sierra
+kk;Вильяфранка-де-ла-Сьерра;Villafranca de la Sierra
+mk;Вилафранка де ла Сиера;Villafranca de la Sierra
+uk;Вільяфранка-де-ла-Сьєрра;Villafranca de la Sierra
+ar;فيافرانكا دي لا سييرا;Villafranca de la Sierra
+ru;Вильяфранка-де-ла-Сьерра;Villafranca de la Sierra
+zh;谢拉自由镇;Villafranca de la Sierra
+ru;Вильяэскуса;Villaescusa
+ar;فيلادييغو;Villadiego
+uk;Вільядієго;Villadiego
+ru;Вильядьего;Villadiego
+zh;比利亚迭戈;Villadiego
+ar;فيلا ديل كامبو;Villa del Campo
+uk;Вілья-дель-Кампо;Villa del Campo
+ru;Вилья-дель-Кампо;Villa del Campo
+zh;坎波镇;Villa del Campo
+uk;Вільякастін;Villacastín
+ru;Вильякастин;Villacastín
+zh;比利亚卡斯廷;Villacastín
+ar;فيلاكارايدو;Villacarriedo
+uk;Вільякаррєдо;Villacarriedo
+ru;Вильякаррьедо;Villacarriedo
+zh;比利亚卡列多;Villacarriedo
+uk;Вільябліно;Villablino
+ru;Вильяблино;Villablino
+zh;比利亚夫利诺;Villablino
+ru;Вила-сека;Vilaseca
+ru;Виласантар;Vilasantar
+ru;Вилаплана;Vilaplana
+ru;Виланант;Vilanant
+ru;Вилафант;Vilafant
+ru;Виладасенс;Viladasens
+ru;Виладемулс;Vilademuls
+ru;Виладеканс;Viladecans
+ar;فيلاديكانس;Viladecans
+kk;Виладеканс;Viladecans
+sr;Виладеканс;Viladecans
+uk;Біладаканс;Viladecans
+zh;比拉德坎斯;Viladecans
+ru;Вилада;Vilada
+ru;Вилабертран;Vilabertran
+ar;بقيرة;Viguera
+hy;Վիգերա;Viguera
+kk;Вигера;Viguera
+uk;Вігера;Viguera
+ru;Вигера;Viguera
+zh;比格拉;Viguera
+ru;Виго;Vigo
+ru;Виго;Santa María de Vigo
+fa;بیگو;Vigo
+ja;ビーゴ;Vigo
+he;ויגו;Vigo
+ar;فيغو;Vigo
+be;Віга;Vigo
+bg;Виго;Vigo
+el;Βίγο;Vigo
+hy;Վիգո;Vigo
+ka;ვიგო;Vigo
+kk;Виго;Vigo
+ko;비고;Vigo
+ky;Виго шаары;Vigo
+lt;Vigas;Vigo
+lv;Bigo;Vigo
+os;Виго;Vigo
+sr;Виго;Vigo
+th;บีโก;Vigo
+uk;Віго;Vigo
+ur;ویگو;Vigo
+zh;維戈;Vigo
+ru;Вьелья;Vielha
+ru;Видререс;Vidreres
+ru;Видемала;Videmala
+kk;Виана-де-Дуэро;Viana de Duero
+uk;Віана-де-Дуеро;Viana de Duero
+ru;Виана-де-Дуэро;Viana de Duero
+zh;比亚纳德杜埃罗;Viana de Duero
+ru;Бера;Bera
+ru;Вентурада;Venturada
+ru;Вентроса;Ventrosa
+hy;Վենտոսա;Ventosa
+kk;Вентоса;Ventosa
+uk;Вентоса;Ventosa
+ru;Вентоса;Ventosa
+zh;本托萨;Ventosa
+uk;Вента-де-Баньйос;Venta de Baños
+ru;Вента-де-Баньос;Venta de Baños
+zh;本塔德瓦尼奥斯;Venta de Baños
+ru;Вендрель;El Vendrell
+uk;Велілья-дель-Ріо-Карріон;Velilla del Río Carrión
+ru;Велилья-дель-Рио-Каррион;Velilla del Río Carrión
+zh;贝利利亚德尔里奥卡里翁;Velilla del Río Carrión
+kk;Веламасан;Velamazán
+uk;Веламасан;Velamazán
+ru;Веламасан;Velamazán
+zh;贝拉马桑;Velamazán
+ja;ベガ・デ・バルカルセ;Vega de Valcarce
+uk;Вега-де-Валькарсе;Vega de Valcarce
+ru;Вега-де-Валькарсе;Vega de Valcarce
+zh;贝加德瓦尔卡尔塞;Vega de Valcarce
+ar;فيجا دي باس;Vega de Pas
+uk;Вега-де-Пас;Vega de Pas
+ru;Вега-де-Пас;Vega de Pas
+zh;贝加德帕斯;Vega de Pas
+ar;فيغاديو;Vegadeo
+fa;بگادئو;Vegadeo
+uk;Вегадео;Vegadeo
+ru;Вегадео;Vegadeo
+zh;贝加德奥;Vegadeo
+ja;ベガ・デ・エスピナレーダ;Vega de Espinareda
+uk;Вега-де-Еспінареда;Vega de Espinareda
+ru;Вега-де-Эспинареда;Vega de Espinareda
+zh;贝加德埃斯皮纳雷达;Vega de Espinareda
+ru;Ведра;Vedra
+sr;Бакејра;Baqueira-Beret
+uk;Вальверде-де-ла-Вірхен;Valverde de la Virgen
+ru;Вальверде-де-ла-Вирхен;Valverde de la Virgen
+zh;巴尔韦尔德德拉维尔亨;Valverde de la Virgen
+ru;Валторрес;Valtorres
+kk;Вальтахерос;Valtajeros
+uk;Вальтахерос;Valtajeros
+ru;Вальтахерос;Valtajeros
+zh;巴尔塔赫罗斯;Valtajeros
+ru;Валсалобре;Valsalobre
+ru;Валсалабросо;Valsalabroso
+ru;Валпалмас;Valpalmas
+ru;Балмаседа;Balmaseda
+ru;Валмала;Valmala
+ru;Валмадрид;Valmadrid
+ru;Вальс;Valls
+ar;فالفوغونا دي ريوكرب;Vallfogona de Riucorb
+fa;بایفگنا د ریوکرب;Vallfogona de Riucorb
+hy;Վալֆոգոնա դե Ռիուկորբ;Vallfogona de Riucorb
+ru;Вальфогона-де-Риукорб;Vallfogona de Riucorb
+zh;巴利福戈纳德留科尔布;Vallfogona de Riucorb
+ar;بلد الوليد;Valladolid
+be;Вальядалід;Valladolid
+he;ואיאדוליד;Valladolid
+ja;バリャドリッド;Valladolid
+ru;Вальядолид;Valladolid
+mn;Вальядолид;Valladolid
+uk;Вальядолід;Valladolid
+tl;Lungsod ng Valladolid;Valladolid
+th;บายาโดลิด;Valladolid
+bg;Валядолид;Valladolid
+sr;Ваљадолид;Valladolid
+lt;Valjadolidas;Valladolid
+lv;Valjadolida;Valladolid
+mr;वायादोलिद;Valladolid
+os;Вальядолид;Valladolid
+el;Βαγιαδολίδ;Valladolid
+ckb;ڤایادۆلید;Valladolid
+ka;ვალიადოლიდი;Valladolid
+ko;바야돌리드;Valladolid
+kk;Вальядолид;Valladolid
+fa;وایادولید;Valladolid
+zh;巴利亚多利德;Valladolid
+uz;Valyadolid;Valladolid
+kk;Вальганьон;Valgañón
+uk;Вальганьйон;Valgañón
+ru;Вальганьон;Valgañón
+zh;巴尔加尼翁;Valgañón
+hy;Վալգանիոն;Valgañón
+ru;Валфарта;Valfarta
+ru;Валеро;Valero
+uk;Валенсія-де-Дон-Хуан;Valencia de Don Juan
+ru;Валенсия-де-Дон-Хуан;Valencia de Don Juan
+zh;巴伦西亚德东胡安;Valencia de Don Juan
+ru;Валдоррос;Valdorros
+uk;Вальдевімбре;Valdevimbre
+ru;Вальдевимбре;Valdevimbre
+zh;巴尔德温夫雷;Valdevimbre
+ru;Валдесотос;Valdesotos
+uk;Вальдесамаріо;Valdesamario
+ru;Вальдесамарио;Valdesamario
+zh;巴尔德萨马里奥;Valdesamario
+kk;Вальдерродилья;Valderrodilla
+uk;Вальдерроділья;Valderrodilla
+ru;Вальдерродилья;Valderrodilla
+zh;巴尔德罗迪利亚;Valderrodilla
+ru;Валдерробрес;Valderrobres
+fa;والدراس;Valderas
+uk;Вальдерас;Valderas
+ru;Вальдерас;Valderas
+zh;巴尔德拉斯;Valderas
+ru;Валдепрадос;Valdeprados
+ru;Валдепрадо;Valdeprado
+ru;Валдеполо;Valdepolo
+kk;Вальдепеньяс-де-ла-Сьерра;Valdepeñas de la Sierra
+uk;Вальдепеньяс-де-ла-Сьєрра;Valdepeñas de la Sierra
+ru;Вальдепеньяс-де-ла-Сьерра;Valdepeñas de la Sierra
+zh;巴尔德佩尼亚斯德拉谢拉;Valdepeñas de la Sierra
+ru;Валденебро;Valdenebro
+ru;Вальдеморо;Valdemoro
+uk;Вальдеморо;Valdemoro
+sr;Валдеморо;Valdemoro
+zh;巴尔德莫罗;Valdemoro
+ar;فلاديمورو;Valdemoro
+ru;Валдемора;Valdemora
+kk;Вальдемалуке;Valdemaluque
+uk;Вальдемалуке;Valdemaluque
+ru;Вальдемалуке;Valdemaluque
+zh;巴尔德马卢克;Valdemaluque
+ru;Валдемадера;Valdemadera
+ru;Валделтормо;Valdeltormo
+ru;Валделоса;Valdelosa
+ru;Валделинарес;Valdelinares
+fa;بالدلاگوا دل سرو;Valdelagua del Cerro
+kk;Вальделагва-дель-Серро;Valdelagua del Cerro
+uk;Вальделагуа-дель-Серро;Valdelagua del Cerro
+ru;Вальделагуа-дель-Серро;Valdelagua del Cerro
+zh;巴尔德拉瓜德尔塞罗;Valdelagua del Cerro
+ja;バルデフレスノ;Valdefresno
+uk;Вальдефресно;Valdefresno
+ru;Вальдефресно;Valdefresno
+zh;巴尔德夫雷斯诺;Valdefresno
+ar;فالديكاسا;Valdecasa
+fa;بالدکاسا;Valdecasa
+kk;Вальдекаса;Valdecasa
+mk;Валдекаса;Valdecasa
+uk;Вальдекаса;Valdecasa
+ru;Вальдекаса;Valdecasa
+zh;巴尔德卡萨;Valdecasa
+ru;Валбона;Valbona
+ru;Васиамадрид;Rivas-Vaciamadrid
+ru;Утебо;Utebo
+ru;Утанде;Utande
+ru;Усурбил;Usurbil
+ru;Усед;Used
+ar;أونكاستيو;Uncastillo
+kk;Ункастильо;Uncastillo
+uk;Ункастільйо;Uncastillo
+ru;Ункастильо;Uncastillo
+zh;温卡斯蒂略;Uncastillo
+ru;Ултраморт;Ultramort
+uk;Ухуе;Ujué
+ru;Ухуэ;Ujué
+zh;乌胡埃;Ujué
+kk;Усеро;Ucero
+uk;Усеро;Ucero
+ru;Усеро;Ucero
+zh;乌塞罗;Ucero
+ru;Тулебрас;Tulebras
+ru;Тудела;Tudela
+ar;توبايلا ديل أغوا;Tubilla del Agua
+uk;Тубілья-дель-Агуа;Tubilla del Agua
+ru;Тубилья-дель-Агва;Tubilla del Agua
+zh;图维利亚德拉瓜;Tubilla del Agua
+uk;Тручас;Truchas
+zh;特鲁查斯;Truchas
+ru;Тручас;Truchas
+hy;Տրիլյո;Trillo
+kk;Трильо;Trillo
+uk;Трільйо;Trillo
+ru;Трильо;Trillo
+zh;特里略;Trillo
+ru;Тресвисо;Tresviso
+fa;ترسپادرنه;Trespaderne
+uk;Треспадерне;Trespaderne
+ru;Треспадерне;Trespaderne
+zh;特雷斯帕德尔内;Trespaderne
+ru;Тремп;Tremp
+ru;Траспинедо;Traspinedo
+ru;Трасобарес;Trasobares
+ru;Трасмирас;Trasmiras
+ru;Трамакастилья-де-Тена;Tramacastilla de Tena
+ja;トラバデーロ;Trabadelo
+uk;Трабадело;Trabadelo
+ru;Трабадело;Trabadelo
+zh;特拉瓦德洛;Trabadelo
+ru;Трабада;Trabada
+ar;تورو;Touro
+fa;توارو;Touro
+ja;トウロ;Touro
+mk;Тоуро;Touro
+uk;Тоуро;Touro
+ru;Тоуро;Touro
+ru;Тосос;Tosos
+ru;Тосес;Toses
+ru;Тосантос;Tosantos
+he;טורטוסה;Tortosa
+ja;トゥルトーザ;Tortosa
+uk;Туртоза;Tortosa
+ru;Тортоса;Tortosa
+zh;托尔托萨;Tortosa
+ar;طرطوشة;Tortosa
+sr;Тортоза;Tortosa
+ru;Торресменудас;Torresmenudas
+ru;Торресандино;Torresandino
+ru;Торремонталбо;Torremontalbo
+ru;Торрелодонес;Torrelodones
+ru;Торрелавега;Torrelavega
+ar;توريلافيجا;Torrelavega
+hy;Տոռելավեգա;Torrelavega
+ja;トレラベーガ;Torrelavega
+sr;Торелавега;Torrelavega
+uk;Торрелавега;Torrelavega
+zh;托雷拉韦加;Torrelavega
+ru;Торрелара;Torrelara
+ar;توريلاجونا;Torrelaguna
+uk;Торрелагуна;Torrelaguna
+ru;Торрелагуна;Torrelaguna
+zh;托雷拉古纳;Torrelaguna
+ru;Торрехон-де-Ардос;Torrejón de Ardoz
+uk;Торрехон-де-Ардос;Torrejón de Ardoz
+lt;Torechon de Ardosas;Torrejón de Ardoz
+ja;トレホン・デ・アルドス;Torrejón de Ardoz
+sr;Торехон де Ардос;Torrejón de Ardoz
+bg;Торехон де Ардос;Torrejón de Ardoz
+zh;托雷洪德亚尔多斯;Torrejón de Ardoz
+ru;Торрефаррера;Torrefarrera
+ru;Торредембарра;Torredembarra
+hy;Տոռեսիլիա էն Կամերոս;Torrecilla en Cameros
+kk;Торресилья-эн-Камерос;Torrecilla en Cameros
+uk;Торресілья-ен-Камерос;Torrecilla en Cameros
+ru;Торресилья-эн-Камерос;Torrecilla en Cameros
+zh;托雷西利艾恩卡梅罗斯;Torrecilla en Cameros
+ru;Торребессес;Torrebesses
+ru;Торралба;Torralba
+ru;Торо;Toro
+ru;Торнос;Tornos
+ru;Тормантос;Tormantos
+uk;Торено;Toreno
+ru;Торено;Toreno
+zh;托雷诺;Toreno
+ar;توريلو;Torelló
+ru;Торельо;Torelló
+zh;托雷略;Torelló
+ru;Тордесилос;Tordesilos
+ja;トルデシリャス;Tordesillas
+ko;토르데시야스;Tordesillas
+sr;Тордесиљас;Tordesillas
+uk;Тордесільяс;Tordesillas
+ru;Тордесильяс;Tordesillas
+zh;托尔德西利亚斯;Tordesillas
+ru;Тордера;Tordera
+ru;Тордельего;Tordellego
+ru;Топас;Topas
+ru;Тона;Tona
+ru;Толоса;Tolosa
+ru;Тобед;Tobed
+ru;Тобар;Tobar
+ru;Тивисса;Tivissa
+hy;Տիրգո;Tirgo
+kk;Тирго;Tirgo
+uk;Тірго;Tirgo
+ru;Тирго;Tirgo
+zh;蒂尔戈;Tirgo
+ru;Тирапу;Tirapu
+ar;تينيو;Tineo
+fa;تینئو;Tineo
+uk;Тінео;Tineo
+ru;Тинео;Tineo
+zh;蒂内奥;Tineo
+ja;テルエル;Teruel
+ru;Теруэль;Teruel
+ar;تيروال;Teruel
+be;Тэруэль;Teruel
+bg;Теруел;Teruel
+fa;تروئل;Teruel
+ka;ტერუელი;Teruel
+kk;Теруэль;Teruel
+ko;테루엘;Teruel
+lt;Teruelis;Teruel
+sr;Теруел;Teruel
+uk;Теруель;Teruel
+ur;تیرویل;Teruel
+zh;特鲁埃尔;Teruel
+sr;Тервел;Teruel
+ru;Терроба;Terroba
+ru;Террер;Terrer
+ru;Террадес;Terrades
+kk;Техадо;Tejado
+uk;Техадо;Tejado
+ru;Техадо;Tejado
+zh;特哈多;Tejado
+ru;Тавертет;Tavertet
+ar;تاوستي;Tauste
+kk;Таусте;Tauste
+uk;Таусте;Tauste
+ru;Таусте;Tauste
+zh;陶斯特;Tauste
+ru;Тартанедо;Tartanedo
+el;Τεράσα;Terrassa
+ja;テッラーサ;Terrassa
+ko;테라사;Terrassa
+ru;Террасса;Terrassa
+fa;تاراگونا;Tarragona
+he;טרגונה;Tarragona
+ja;タラゴナ;Tarragona
+ru;Таррагона;Tarragona
+ru;Тарода;Taroda
+kk;Тарделькуэнде;Tardelcuende
+uk;Тарделькуенде;Tardelcuende
+ru;Тарделькуэнде;Tardelcuende
+zh;塔尔德尔昆德;Tardelcuende
+uk;Тарасона;Tarazona
+ar;تاراثونا;Tarazona
+ja;タラソナ;Tarazona
+bg;Тарасона;Tarazona
+kk;Тарасона;Tarazona
+ru;Тарасона;Tarazona
+zh;塔拉索纳;Tarazona
+ar;تارانكون;Tarancón
+kk;Таранкон;Tarancón
+uk;Таранкон;Tarancón
+ru;Таранкон;Tarancón
+zh;塔兰孔;Tarancón
+ar;تاراموندي;Taramundi
+fa;تاراموندی;Taramundi
+uk;Тарамунді;Taramundi
+ru;Тарамунди;Taramundi
+zh;塔拉蒙迪;Taramundi
+ar;تابيا دي كاسارييغو;Tapia de Casariego
+fa;تاپیا د کاساریگو;Tapia de Casariego
+uk;Тапія-де-Касарєго;Tapia de Casariego
+ru;Тапиа-де-Касарьего;Tapia de Casariego
+zh;塔皮亚德卡萨列戈;Tapia de Casariego
+ru;Тамамес;Tamames
+kk;Тамахон;Tamajón
+uk;Тамахон;Tamajón
+ru;Тамахон;Tamajón
+zh;塔马洪;Tamajón
+kk;Тальвейла;Talveila
+uk;Тальвейла;Talveila
+ru;Тальвейла;Talveila
+zh;塔尔韦拉;Talveila
+ru;Таламантес;Talamantes
+ar;تالامانكا دي جاراما;Talamanca de Jarama
+hy;Տալամանկա դե Խարամա;Talamanca de Jarama
+uk;Таламанка-де-Харама;Talamanca de Jarama
+ru;Таламанка-де-Харама;Talamanca de Jarama
+zh;哈拉马河畔塔拉曼卡;Talamanca de Jarama
+am;ታፋላ;Tafalla
+ja;タファリャ;Tafalla
+uk;Тафалья;Tafalla
+ru;Тафалья;Tafalla
+zh;塔法利亚;Tafalla
+uk;Табара;Tábara
+ru;Табара;Tábara
+zh;塔瓦拉;Tábara
+ar;سوسكيدا;Susqueda
+fa;سوسکدا;Susqueda
+hy;Սուսկեդա;Susqueda
+kk;Сускеда;Susqueda
+ru;Сускеда;Susqueda
+zh;苏斯克达;Susqueda
+kk;Суэльякабрас;Suellacabras
+uk;Суельякабрас;Suellacabras
+ru;Суэльякабрас;Suellacabras
+zh;苏埃利亚卡夫拉斯;Suellacabras
+kk;Сотосеррано;Sotoserrano
+uk;Сотосеррано;Sotoserrano
+ru;Сотосеррано;Sotoserrano
+zh;索托塞拉诺;Sotoserrano
+ru;Сотосалбос;Sotosalbos
+hy;Սոտո էն Կամերոս;Soto en Cameros
+kk;Сото-эн-Камерос;Soto en Cameros
+uk;Сото-ен-Камерос;Soto en Cameros
+ru;Сото-эн-Камерос;Soto en Cameros
+zh;索托恩卡梅罗斯;Soto en Cameros
+ru;Сотодосос;Sotodosos
+ar;سوتو ديل باركو;Soto del Barco
+fa;ستو دل بارکو;Soto del Barco
+uk;Сото-дель-Барко;Soto del Barco
+ru;Сото-дель-Барко;Soto del Barco
+zh;索托德尔瓦尔科;Soto del Barco
+ar;سوتيو دي لا أدرادا;Sotillo de la Adrada
+fa;ستییو د لا آدرادا;Sotillo de la Adrada
+kk;Сотильо-де-ла-Адрада;Sotillo de la Adrada
+mk;Сотило де ла Адрада;Sotillo de la Adrada
+uk;Сотільйо-де-ла-Адрада;Sotillo de la Adrada
+ru;Сотильо-де-ла-Адрада;Sotillo de la Adrada
+zh;索蒂略德拉德拉达;Sotillo de la Adrada
+ru;Соталбо;Sotalbo
+ru;Сосес;Soses
+el;Σορτ;Sort
+hy;Սորտ;Sort
+uk;Сор;Sort
+ru;Сорт;Sort
+zh;索尔特;Sort
+ru;Сорлада;Sorlada
+ru;Сория;Soria
+fa;سریا;Soria
+uk;Сорія;Soria
+lv;Sorija;Soria
+sr;Сорија;Soria
+ko;소리아;Soria
+he;סוריה;Soria
+kk;Сория;Soria
+be;Сорыя;Soria
+ja;ソリア;Soria
+lt;Sorija;Soria
+ff;Soriya;Soria
+zh;索里亚;Soria
+ru;Сора;Sora
+ru;Сопела;Sopela
+ru;Сомолинос;Somolinos
+ru;Солсона;Solsona
+ar;سولوسانتشو;Solosancho
+fa;سلسانچو;Solosancho
+kk;Солосанчо;Solosancho
+mk;Солосанчо;Solosancho
+uk;Солосанчо;Solosancho
+ru;Солосанчо;Solosancho
+zh;索洛桑乔;Solosancho
+ru;Соларана;Solarana
+ru;Собрадо;Sobrado
+ru;Собрадело;Sobradelo
+ru;Собер;Sober
+ru;Ситжес;Sitges
+ru;Силс;Sils
+ar;سيغويس;Sigüés
+kk;Сигуэс;Sigüés
+uk;Сігуес;Sigüés
+ru;Сигуэс;Sigüés
+zh;西格斯;Sigüés
+sr;Сигвес;Sigüés
+ja;シグエンサ;Sigüenza
+lt;Siguensa;Sigüenza
+kk;Сигуэнса;Sigüenza
+uk;Сігуенса;Sigüenza
+ru;Сигуэнса;Sigüenza
+zh;西贡萨;Sigüenza
+sr;Сигвенза;Sigüenza
+ru;Сидамон;Sidamon
+ru;Сева;Seva
+ru;Сетилес;Setiles
+ar;سيستاو;Sestao
+uk;Сестао;Sestao
+ru;Сестао;Sestao
+zh;塞斯陶;Sestao
+ru;Сесма;Sesma
+ru;Сеса;Sesa
+ru;Серрада;Serrada
+ru;Сено;Seno
+ru;Сентменат;Sentmenat
+ru;Сенан;Senan
+ru;Селас;Selas
+ru;Сеговия;Segovia
+pl;Segowia;Segovia
+ja;セゴビア;Segovia
+ka;სეგოვია;Segovia
+th;เซโกเบีย;Segovia
+el;Σεγκόβια;Segovia
+ar;شقوبية;Segovia
+sr;Сеговија;Segovia
+ko;세고비아;Segovia
+fa;سگوبیا;Segovia
+he;סגוביה;Segovia
+uk;Сеговія;Segovia
+hi;सेगोविआ;Segovia
+be;Сеговія;Segovia
+bg;Сеговия;Segovia
+zh;塞哥维亚;Segovia
+ru;Седилес;Sediles
+kk;Сауселье;Saucelle
+uk;Саусельє;Saucelle
+ru;Сауселье;Saucelle
+zh;绍塞列;Saucelle
+uk;Саррія;Sarria
+ja;サリア;Sarria
+kk;Сарриа;Sarria
+ru;Сарриа;Sarria
+zh;萨里亚;Sarria
+ru;Саро;Saro
+uk;Сарєгос;Sariegos
+ru;Сарьегос;Sariegos
+zh;萨列戈斯;Sariegos
+ar;سارجينتيس دي لا لورا;Sargentes de la Lora
+uk;Сархентес-де-ла-Лора;Sargentes de la Lora
+ru;Сархентес-де-ла-Лора;Sargentes de la Lora
+zh;萨尔亨特斯德拉洛拉;Sargentes de la Lora
+ga;San Vicenç de Torelló;Sant Vicenç de Torelló
+hy;Սան Վիսենտե դե լա Սոնսիեռա;San Vicente de la Sonsierra
+kk;Сан-Висенте-де-ла-Сонсьерра;San Vicente de la Sonsierra
+uk;Сан-Вісенте-де-ла-Сонсьєрра;San Vicente de la Sonsierra
+ru;Сан-Висенте-де-ла-Сонсьерра;San Vicente de la Sonsierra
+zh;圣比森特德拉松谢拉;San Vicente de la Sonsierra
+ar;سان فايسينت دي لا بارجويرا;San Vicente de la Barquera
+uk;Сан-Вісенте-де-ла-Баркера;San Vicente de la Barquera
+ru;Сан-Висенте-де-ла-Баркера;San Vicente de la Barquera
+zh;圣比森特德拉瓦尔克拉;San Vicente de la Barquera
+ru;Баракалдо;Barakaldo
+ru;Сан-Висенте;San Vicente de Leira
+ar;سانتونيا;Santoña
+uk;Сантонья;Santoña
+ru;Сантония;Santoña
+zh;桑托尼亚;Santoña
+ja;サント・ドミンゴ・デ・ラ・カルサーダ;Santo Domingo de la Calzada
+uk;Санто-Домінго-де-ла-Кальсада;Santo Domingo de la Calzada
+kk;Санто-Доминго-де-ла-Кальсада;Santo Domingo de la Calzada
+ko;산토도밍고데라칼사다;Santo Domingo de la Calzada
+ru;Санто-Доминго-де-ла-Кальсада;Santo Domingo de la Calzada
+zh;圣多明各-德拉卡尔萨达;Santo Domingo de la Calzada
+hy;Սանտո Դոմինգո դե լա Կալսադա;Santo Domingo de la Calzada
+ar;سانتايوردي دي تورانزو;Santiurde de Toranzo
+uk;Сантіурде-де-Торансо;Santiurde de Toranzo
+ru;Сантиурде-де-Торансо;Santiurde de Toranzo
+zh;桑蒂乌尔德德托兰索;Santiurde de Toranzo
+ru;Сантисо;Santiso
+uk;Сантібаньєс-де-ла-Пенья;Santibáñez de la Peña
+ru;Сантибаньес-де-ла-Пенья;Santibáñez de la Peña
+zh;桑蒂瓦涅斯德拉佩尼亚;Santibáñez de la Peña
+uk;Сантібаньєс-де-Бехар;Santibáñez de Béjar
+kk;Сантибаньес-де-Бехар;Santibáñez de Béjar
+ru;Сантибаньес-де-Бехар;Santibáñez de Béjar
+zh;桑蒂瓦涅斯德韦哈尔;Santibáñez de Béjar
+bg;Сантяго де Компостела;Santiago de Compostela
+fa;سانتیاگو د کمپوستلا;Santiago de Compostela
+he;סנטיאגו דה קומפוסטלה;Santiago de Compostela
+ja;サンティアゴ・デ・コンポステーラ;Santiago de Compostela
+ru;Сантьяго-де-Компостела;Santiago de Compostela
+tl;Lungsod ng Santiago de Compostela;Santiago de Compostela
+zh-TW;孔波斯特拉的聖地牙哥;Santiago de Compostela
+ar;سانتياغو دي كومبوستيلا;Santiago de Compostela
+az;Santiaqo de Kompostela;Santiago de Compostela
+be;Сантяга-дэ-Кампастэла;Santiago de Compostela
+el;Σαντιάγο ντε Κομποστέλα;Santiago de Compostela
+hi;सांतिआगो दे कोम्पोस्तेला;Santiago de Compostela
+hy;Սանտիագո դե Կոմպոստելա;Santiago de Compostela
+ka;სანტიაგო-დე-კომპოსტელა;Santiago de Compostela
+ko;산티아고데콤포스텔라;Santiago de Compostela
+lt;Santjago de Kompostela;Santiago de Compostela
+lv;Santjago de Kompostela;Santiago de Compostela
+mk;Сантјаго де Компостела;Santiago de Compostela
+mr;सांतियागो दे कोंपोस्तेला;Santiago de Compostela
+os;Сантьяго-де-Компостелæ;Santiago de Compostela
+pa;ਸਾਂਤੀਆਗੋ ਦੇ ਕੋਮਪੋਸਤੇਲਾ;Santiago de Compostela
+si;සන්තියාගෝ ඩි කොම්පොස්ටෙලා;Santiago de Compostela
+sr;Сантијаго де Компостела;Santiago de Compostela
+ta;சாந்தியாகோ தே கோம்போசுதேலா;Santiago de Compostela
+th;ซานเตียโกเดกอมโปสเตลา;Santiago de Compostela
+uk;Сантьяго-де-Компостела;Santiago de Compostela
+ur;سانتیاگو دے کومپوستیلا;Santiago de Compostela
+yue;聖地亞哥金波斯特拉;Santiago de Compostela
+zh;聖地亞哥-德孔波斯特拉;Santiago de Compostela
+ru;Сантед;Santed
+ru;Санта-Сусанна;Santa Susanna
+be;Сантандэр;Santander
+os;Сантандер;Santander
+ja;サンタンデール;Santander
+he;סנטנדר;Santander
+bg;Сантандер;Santander
+ar;سانتاندير;Santander
+ta;சான்தான்தேர்;Santander
+ko;산탄데르;Santander
+fa;سانتاندر;Santander
+mr;सांतांदेर;Santander
+lv;Santandera;Santander
+lt;Santanderas;Santander
+uk;Сантандер;Santander
+sr;Сантандер;Santander
+ru;Сантандер;Santander
+zh;桑坦德;Santander
+uk;Санта-Марія-ла-Реаль-де-Ньєва;Santa María la Real de Nieva
+ru;Санта-Мария-ла-Реаль-де-Ньева;Santa María la Real de Nieva
+zh;圣马里亚拉雷亚尔德涅瓦;Santa María la Real de Nieva
+uk;Санта-Марія-дель-Парамо;Santa María del Páramo
+ru;Санта-Мария-дель-Парамо;Santa María del Páramo
+zh;圣马里亚德尔帕拉莫;Santa María del Páramo
+ar;سانتا ماريا دي كايون;Santa María de Cayón
+uk;Санта-Марія-де-Кайон;Santa María de Cayón
+ru;Санта-Мария-де-Кайон;Santa María de Cayón
+zh;圣马里亚德凯翁;Santa María de Cayón
+kk;Санта-Крус-де-Янгвас;Santa Cruz de Yanguas
+uk;Санта-Крус-де-Янгуас;Santa Cruz de Yanguas
+ru;Санта-Крус-де-Янгвас;Santa Cruz de Yanguas
+zh;圣克鲁斯德安瓜斯;Santa Cruz de Yanguas
+ar;سانتا كروز دي بيزانا;Santa Cruz de Bezana
+uk;Санта-Крус-де-Бесана;Santa Cruz de Bezana
+ru;Санта-Крус-де-Бесана;Santa Cruz de Bezana
+zh;圣克鲁斯德韦萨纳;Santa Cruz de Bezana
+ru;Санта-Колома-де-Граманет;Santa Coloma de Gramenet
+ru;Сансол;Sansol
+ja;サン・セバスティアン・デ・ロス・レイエス;San Sebastián de los Reyes
+uk;Сан-Себастьян-де-лос-Реєс;San Sebastián de los Reyes
+lt;San Sebastian de los Rejesas;San Sebastián de los Reyes
+sr;Сан Себастијан де лос Рејес;San Sebastián de los Reyes
+ru;Сан-Себастиан-де-лос-Рейес;San Sebastián de los Reyes
+zh;圣塞瓦斯蒂安德洛斯雷埃斯;San Sebastián de los Reyes
+ar;سان سباستيان دي لوس رييس;San Sebastián de los Reyes
+pl;San Sebastián;Donostia / San Sebastián
+ar;سان سباستيان;Donostia / San Sebastián
+et;Donostia;Donostia / San Sebastián
+fi;San Sebastián;Donostia / San Sebastián
+he;סן סבסטיאן;Donostia / San Sebastián
+ja;サン・セバスティアン;Donostia / San Sebastián
+ro;San Sebastián;Donostia / San Sebastián
+sv;San Sebastián;Donostia / San Sebastián
+ru;Сан-Себастьян;Donostia / San Sebastián
+no;San Sebastián;Donostia / San Sebastián
+hy;Սան Ռոման դե Կամերոս;San Román de Cameros
+kk;Сан-Роман-де-Камерос;San Román de Cameros
+uk;Сан-Роман-де-Камерос;San Román de Cameros
+ru;Сан-Роман-де-Камерос;San Román de Cameros
+zh;圣罗曼德卡梅罗斯;San Román de Cameros
+ru;Сант Пол де Мар;Sant Pol de Mar
+uk;Сан-Педро-Манріке;San Pedro Manrique
+kk;Сан-Педро-Манрике;San Pedro Manrique
+ru;Сан-Педро-Манрике;San Pedro Manrique
+zh;圣佩德罗曼里克;San Pedro Manrique
+fi;San Millán;San Millán de la Cogolla
+kk;Сан-Мильян-де-ла-Коголья;San Millán de la Cogolla
+uk;Сан-Мільян-де-ла-Коголья;San Millán de la Cogolla
+ru;Сан-Мильян-де-ла-Коголья;San Millán de la Cogolla
+zh;圣米良德拉科戈利亚;San Millán de la Cogolla
+hy;Սան Միլիան դե լա Կոգոլիա;San Millán de la Cogolla
+sr;Свети Миљан од Когоље;San Millán de la Cogolla
+ar;سان مارتن دي فالديجليسياس;San Martín de Valdeiglesias
+hy;Սան Մարտին դե Վալդեիգլեսիաս;San Martín de Valdeiglesias
+uk;Сан-Мартін-де-Вальдеіглесіас;San Martín de Valdeiglesias
+ru;Сан-Мартин-де-Вальдейглесьяс;San Martín de Valdeiglesias
+zh;圣马丁-德巴尔代格莱西亚斯;San Martín de Valdeiglesias
+ar;سان مارتين دي لا فيغا;San Martín de la Vega
+uk;Сан-Мартін-де-ла-Вега;San Martín de la Vega
+ru;Сан-Мартин-де-ла-Вега;San Martín de la Vega
+zh;圣马尔廷德拉韦加;San Martín de la Vega
+ko;산로렌소데엘에스코리알;San Lorenzo de El Escorial
+uk;Сан-Лоренсо-де-Ель-Ескоріаль;San Lorenzo de El Escorial
+ru;Сан-Лоренсо-де-Эль-Эскориаль;San Lorenzo de El Escorial
+zh;圣洛伦索德埃莱斯科里亚尔;San Lorenzo de El Escorial
+ar;سان لورنزو دي ش الإسكوريال;San Lorenzo de El Escorial
+kk;Сан-Леонардо-де-Ягуэ;San Leonardo de Yagüe
+uk;Сан-Леонардо-де-Ягуе;San Leonardo de Yagüe
+ru;Сан-Леонардо-де-Ягуэ;San Leonardo de Yagüe
+zh;圣莱奥纳尔多德阿格;San Leonardo de Yagüe
+uk;Сан-Хусто-де-ла-Вега;San Justo de la Vega
+ru;Сан-Хусто-де-ла-Вега;San Justo de la Vega
+zh;圣胡斯托德拉韦加;San Justo de la Vega
+uk;Сан-Ільдефонсо;San Ildefonso
+ru;Сан-Ильдефонсо;San Ildefonso
+zh;圣伊尔德丰索;San Ildefonso
+no;Sangüesa;Sangüesa/Zangoza
+uk;Сангуеса;Sangüesa/Zangoza
+ja;サングエサ;Sangüesa/Zangoza
+ru;Сангуэса;Sangüesa/Zangoza
+zh;桑格萨;Sangüesa/Zangoza
+ar;سان فرناندو دي هيناريس;San Fernando de Henares
+hy;Սան Ֆերնանդո դե Էնարես;San Fernando de Henares
+uk;Сан-Фернандо-де-Енарес;San Fernando de Henares
+ru;Сан-Фернандо-де-Энарес;San Fernando de Henares
+zh;埃纳雷斯河畔圣费尔南多;San Fernando de Henares
+ru;Фелиу-де-Льобрегат;Sant Feliu de Llobregat
+ar;سان فيليو دي غيكسولس;Sant Feliu de Guíxols
+fa;سانت فلیو د گیکسلس;Sant Feliu de Guíxols
+hy;Սան Ֆելիու դե Գիշոլս;Sant Feliu de Guíxols
+kk;Сан-Фелиу-де-Гишольс;Sant Feliu de Guíxols
+uk;Сан-Фаліу-да-Ґішулс;Sant Feliu de Guíxols
+uz;San Felíu de Guixols;Sant Feliu de Guíxols
+ru;Сан-Фелиу-де-Гишольс;Sant Feliu de Guíxols
+zh;圣费柳-德吉克索尔斯;Sant Feliu de Guíxols
+kk;Сан-Эстебан-де-Гормас;San Esteban de Gormaz
+uk;Сан-Естебан-де-Гормас;San Esteban de Gormaz
+ru;Сан-Эстебан-де-Гормас;San Esteban de Gormaz
+zh;圣埃斯特万德戈尔马斯;San Esteban de Gormaz
+ar;شنت إشتيبن;San Esteban de Gormaz
+ru;Сандо;Sando
+ru;Сан-Карлос-де-ла-Рапита;Sant Carles de la Ràpita
+hy;Սան Ասենսիո;San Asensio
+kk;Сан-Асенсио;San Asensio
+uk;Сан-Асенсіо;San Asensio
+ru;Сан-Асенсио;San Asensio
+zh;圣阿森西奥;San Asensio
+uk;Сан-Андрес-дель-Рабанедо;San Andrés del Rabanedo
+ru;Сан-Андрес-дель-Рабанедо;San Andrés del Rabanedo
+zh;圣安德雷斯德尔拉瓦内多;San Andrés del Rabanedo
+ar;سان أدريان دي بيزوس;Sant Adrià de Besòs
+ja;サント・アドリアー・ダ・バゾス;Sant Adrià de Besòs
+uk;Сант-Адріа-да-Базос;Sant Adrià de Besòs
+pl;San Adrián de Besós;Sant Adrià de Besòs
+zh;桑塔德里亚德韦索斯;Sant Adrià de Besòs
+ru;Сантпедор;Santpedor
+hy;Սամոս;Samos
+ja;サモス;Samos
+kk;Самос;Samos
+uk;Самос;Samos
+ru;Самос;Samos
+zh;萨莫斯;Samos
+sv;Langreo;Sama
+tr;Langreo;Sama
+ru;Саме;Sama
+ru;Салт;Salt
+ru;Салоу;Salou
+bg;Салоу;Salou
+fa;سالو;Salou
+ja;サロウ;Salou
+zh;萨洛;Salou
+ru;Салобрал;Salobral
+ru;Салморал;Salmoral
+uk;Сальєнт-де-Гальєго;Sallent de Gállego
+ru;Сальент-де-Гальего;Sallent de Gállego
+zh;萨连特德加列戈;Sallent de Gállego
+ru;Салитха;Salitja
+ru;Салдес;Saldes
+uk;Сальданья;Saldaña
+ru;Сальданья;Saldaña
+zh;萨尔达尼亚;Saldaña
+uk;Салас-де-лос-Інфантес;Salas de los Infantes
+ar;سالاس دي لوس إنفانتس;Salas de los Infantes
+ru;Салас-де-лос-Инфантес;Salas de los Infantes
+zh;萨拉斯德洛辛凡特斯;Salas de los Infantes
+ru;Салас;Salas
+ar;سلمنقة;Salamanca
+pl;Salamanka;Salamanca
+ru;Саламанка;Salamanca
+ja;サラマンカ;Salamanca
+fa;ساهاگون;Sahagún
+ja;サアグン;Sahagún
+uk;Саагун;Sahagún
+ur;سہاگن، اسپین;Sahagún
+ru;Саагун;Sahagún
+zh;萨阿贡;Sahagún
+ru;Сада;Sada
+uk;Сабіньяніго;Sabiñánigo
+ru;Сабиньяниго;Sabiñánigo
+zh;萨维尼亚尼戈;Sabiñánigo
+ru;Саберо;Sabero
+ru;Сабадель;Sabadell
+ru;Рупит;Rupit
+hy;Ռուեդա;Rueda
+uk;Руеда;Rueda
+ru;Руэда;Rueda
+ru;Руби;Rubí
+ru;Рубена;Rubena
+ru;Ротурас;Roturas
+ru;Росас;Roses
+ru;Романос;Romanos
+ru;Романонес;Romanones
+fa;ردا د بارا;Roda de Barà
+hu;Roda de Berà;Roda de Barà
+hy;Ռոդա դե Բարա;Roda de Barà
+ru;Рода-де-Бара;Roda de Barà
+zh;罗达德瓦拉;Roda de Barà
+hy;Ռոբրես դել Կաստիլիո;Robres del Castillo
+kk;Робрес-дель-Кастильо;Robres del Castillo
+uk;Робрес-дель-Кастільйо;Robres del Castillo
+ru;Робрес-дель-Кастильо;Robres del Castillo
+zh;罗夫雷斯德尔卡斯蒂略;Robres del Castillo
+ru;Робрес;Robres
+uk;Робледо-де-Чавела;Robledo de Chavela
+ru;Робледо-де-Чавела;Robledo de Chavela
+zh;罗夫莱多德查韦拉;Robledo de Chavela
+ar;روبليدو دي تشافيلا;Robledo de Chavela
+ru;Робледа;Robleda
+ar;روا، برغش;Roa
+uk;Роа;Roa
+ru;Роа;Roa
+zh;罗阿;Roa
+ar;ريبوليت;Ripollet
+fa;ریپیت;Ripollet
+hy;Ռիպոլյետ;Ripollet
+kk;Рипольет;Ripollet
+uk;Ріпульєт;Ripollet
+ru;Рипольет;Ripollet
+zh;里波列特;Ripollet
+hy;Ռինկոն դե Սոտո;Rincón de Soto
+kk;Ринкон-де-Сото;Rincón de Soto
+uk;Рінкон-де-Сото;Rincón de Soto
+ru;Ринкон-де-Сото;Rincón de Soto
+zh;林孔德索托;Rincón de Soto
+uk;Рєльйо;Riello
+ru;Рьельо;Riello
+zh;列略;Riello
+ru;Рибота;Ribota
+ru;Рибесалбес;Ribesalbes
+ru;Рибафорада;Ribaforada
+ar;ريباديسيا;Ribadesella
+fa;ریبادسیا;Ribadesella
+lt;Ribadeselja;Ribadesella
+uk;Рібадеселья;Ribadesella
+ru;Рибадеселья;Ribadesella
+zh;里瓦德塞利亚;Ribadesella
+uk;Ріаса;Riaza
+ru;Риаса;Riaza
+zh;里亚萨;Riaza
+ru;Реус;Reus
+uk;Ретортільйо-де-Сорія;Retortillo de Soria
+kk;Ретортильо-де-Сория;Retortillo de Soria
+ru;Ретортильо-де-Сория;Retortillo de Soria
+zh;雷托尔蒂略德索里亚;Retortillo de Soria
+ru;Ренера;Renera
+ru;Ренедо;Renedo
+ru;Ремондо;Remondo
+ru;Ремолинос;Remolinos
+ja;レイノーサ;Reinosa
+ar;راينوسا;Reinosa
+uk;Рейноса;Reinosa
+ru;Рейноса;Reinosa
+zh;雷诺萨;Reinosa
+ru;Редондела;Redondela
+kk;Рекуэрда;Recuerda
+uk;Рекуерда;Recuerda
+ru;Рекуэрда;Recuerda
+zh;雷库埃尔达;Recuerda
+ar;ريبوليدو دي لا توري;Rebolledo de la Torre
+uk;Ребольєдо-де-ла-Торре;Rebolledo de la Torre
+ru;Ребольедо-де-ла-Торре;Rebolledo de la Torre
+zh;雷沃列多德拉托雷;Rebolledo de la Torre
+kk;Ребольяр;Rebollar
+uk;Ребольяр;Rebollar
+ru;Ребольяр;Rebollar
+ru;Расинес;Rasines
+uk;Раскафрія;Rascafría
+ru;Раскафриа;Rascafría
+zh;拉斯卡夫里亚;Rascafría
+ar;راسكافرا;Rascafría
+ru;Рамиро;Ramiro
+ar;راماليس دي لا فيكتوريا;Ramales de la Victoria
+uk;Рамалес-де-ла-Вікторія;Ramales de la Victoria
+ru;Рамалес-де-ла-Викториа;Ramales de la Victoria
+zh;拉马莱斯德拉维克托里亚;Ramales de la Victoria
+ar;رابانيرا ديل باينار;Rabanera del Pinar
+uk;Рабанера-дель-Пінар;Rabanera del Pinar
+ru;Рабанера-дель-Пинар;Rabanera del Pinar
+zh;拉瓦内拉德尔皮纳尔;Rabanera del Pinar
+ru;Рабанера;Rabanera
+ru;Рабаналес;Rabanales
+uk;Кінтанілья-де-Онсонья;Quintanilla de Onsoña
+ru;Кинтанилья-де-Онсония;Quintanilla de Onsoña
+zh;金塔尼利亚德翁索尼亚;Quintanilla de Onsoña
+kk;Кинтана-Редонда;Quintana Redonda
+uk;Кінтана-Редонда;Quintana Redonda
+ru;Кинтана-Редонда;Quintana Redonda
+zh;金塔纳雷东达;Quintana Redonda
+hy;Կել;Quel
+kk;Кель;Quel
+uk;Кель;Quel
+ru;Кель;Quel
+ru;Пурас;Puras
+ja;ポルトマリン;Portomarín
+kk;Пуэртомарин;Portomarín
+uk;Портомарін;Portomarín
+pl;Puertomarín;Portomarín
+ru;Пуэртомарин;Portomarín
+zh;波尔托马林;Portomarín
+ar;بوينتي فايسجو;Puente Viesgo
+uk;Пуенте-Вєсго;Puente Viesgo
+ru;Пуэнте-Вьесго;Puente Viesgo
+zh;蓬特维耶斯戈;Puente Viesgo
+ja;プエンテ・ラ・レイナ;Puente la Reina
+kk;Пуэнте-ла-Рейна;Puente la Reina
+uk;Пуенте-ла-Рейна;Puente la Reina
+ru;Пуэнте-ла-Рейна;Puente la Reina
+zh;蓬特拉雷纳;Puente la Reina
+uk;Пуебла-де-Сан-Мігель;Puebla de San Miguel
+ru;Пуэбла-де-Сан-Мигель;Puebla de San Miguel
+zh;普埃夫拉德圣米格尔;Puebla de San Miguel
+ja;プエブラ・デ・サナブリア;Puebla de Sanabria
+uk;Пуебла-де-Санабрія;Puebla de Sanabria
+ru;Пуэбла-де-Санабриа;Puebla de Sanabria
+zh;普埃夫拉德萨纳夫里亚;Puebla de Sanabria
+kk;Пуэбла-де-Асаба;Puebla de Azaba
+uk;Пуебла-де-Асаба;Puebla de Azaba
+ru;Пуэбла-де-Асаба;Puebla de Azaba
+zh;普埃夫拉德亚萨瓦;Puebla de Azaba
+ar;برواثا;Proaza
+fa;پرئاسا;Proaza
+uk;Проаса;Proaza
+ru;Проаса;Proaza
+zh;普罗阿萨;Proaza
+ru;Премия-де-Мар;Premià de Mar
+ar;برافيا;Pravia
+fa;پرابیا;Pravia
+uk;Правія;Pravia
+ru;Правиа;Pravia
+zh;普拉维亚;Pravia
+ru;Прадо;Prado
+ru;Прадес;Prades
+hy;Պրադեխոն;Pradejón
+kk;Прадехон;Pradejón
+uk;Прадехон;Pradejón
+ru;Прадехон;Pradejón
+zh;普拉德洪;Pradejón
+ru;Прадалес;Pradales
+ar;بوزيلو دي زارزون;Pozuelo de Zarzón
+uk;Посуело-де-Сарсон;Pozuelo de Zarzón
+ru;Посуэло-де-Сарсон;Pozuelo de Zarzón
+zh;波苏埃洛德萨尔松;Pozuelo de Zarzón
+ru;Посуэло-де-Аларкон;Pozuelo de Alarcón
+ar;بوزويلو دي الاركون;Pozuelo de Alarcón
+ko;포수엘로데알라르콘;Pozuelo de Alarcón
+sr;Позуело де Аларкон;Pozuelo de Alarcón
+uk;Посуело-де-Аларкон;Pozuelo de Alarcón
+zh;波苏埃洛德亚拉尔孔;Pozuelo de Alarcón
+ar;بوزا دي لا سال;Poza de la Sal
+uk;Поса-де-ла-Саль;Poza de la Sal
+ru;Поса-де-ла-Саль;Poza de la Sal
+zh;波萨德拉萨尔;Poza de la Sal
+ru;Поведа;Poveda
+ar;بوتيس;Potes
+uk;Потес;Potes
+ru;Потес;Potes
+zh;波特斯;Potes
+ru;Посада;Posada
+ru;Португалете;Portugalete
+ar;بورتغاليتي;Portugalete
+ja;ポルトゥガレテ;Portugalete
+uk;Португалете;Portugalete
+zh;波尔图加莱特;Portugalete
+ru;Портоново;Portonovo
+ru;Порто;Porto
+ru;Портбу;Portbou
+ru;Портас;Portas
+ru;Понтилс;Pontils
+ja;ポンテベドラ;Pontevedra
+ru;Понтеведра;Pontevedra
+ru;Понферрада;Ponferrada
+ar;بونفيرادا;Ponferrada
+sr;Понферада;Ponferrada
+uk;Понферрада;Ponferrada
+ja;ポンフェラーダ;Ponferrada
+zh;蓬费拉达;Ponferrada
+ko;폰페라다;Ponferrada
+ru;Помер;Pomer
+uk;Помар-де-Вальдівія;Pomar de Valdivia
+ru;Помар-де-Вальдивиа;Pomar de Valdivia
+zh;波马尔德瓦尔迪维亚;Pomar de Valdivia
+ru;Полентинос;Polentinos
+ru;Пола-де-Сьеро;Pola de Siero
+tr;Allande;Pola de Allande
+ru;Пол;Pol
+ru;Пленас;Plenas
+ru;Пласенсиа;Plasencia
+uk;Пласенсія;Plasencia
+ar;بلاسينثيا;Plasencia
+fa;پلاسنسیا;Plasencia
+ja;プラセンシア;Plasencia
+ru;Пласенсия;Plasencia
+zh;普拉森西亞;Plasencia
+ru;Планолес;Planoles
+ru;План;Plan
+ru;Пинто;Pinto
+ar;بينوفرانكويادو;Pinofranqueado
+uk;Пінофранкеадо;Pinofranqueado
+ru;Пинофранкеадо;Pinofranqueado
+zh;皮诺夫兰克阿多;Pinofranqueado
+ru;Пинедас;Pinedas
+ru;Пинеда де Мар;Pineda de Mar
+ar;باينا ديل مونتالجراو;Pina de Montalgrao
+uk;Піна-де-Монтальграо;Pina de Montalgrao
+ru;Пина-де-Монтальграо;Pina de Montalgrao
+zh;皮纳德蒙塔尔格劳;Pina de Montalgrao
+ar;بيدرالافيس;Piedralaves
+fa;پیدرالابس;Piedralaves
+kk;Пьедралавес;Piedralaves
+mk;Пиедралавес;Piedralaves
+uk;Пєдралавес;Piedralaves
+ru;Пьедралавес;Piedralaves
+zh;彼德拉拉韦斯;Piedralaves
+et;Petilla de Aragóni vald;Petilla de Aragón
+uk;Петілья-де-Арагон;Petilla de Aragón
+ru;Петилья-де-Арагон;Petilla de Aragón
+zh;佩蒂利亚德阿拉贡;Petilla de Aragón
+ru;Пертуса;Pertusa
+uk;Переруела;Pereruela
+ru;Переруэла;Pereruela
+zh;佩雷鲁埃拉;Pereruela
+ru;Пералада;Peralada
+uk;Перальта;Peralta
+ru;Перальта;Peralta
+zh;佩拉尔塔;Peralta
+ru;Пералес;Perales
+uk;Пеньяусенде;Peñausende
+ru;Пеньяусенде;Peñausende
+zh;佩尼奥森德;Peñausende
+ja;ペニャランダ・デ・ブラカモンテ;Peñaranda de Bracamonte
+kk;Пеньяранда-де-Бракамонте;Peñaranda de Bracamonte
+uk;Пеньяранда-де-Бракамонте;Peñaranda de Bracamonte
+ru;Пеньяранда-де-Бракамонте;Peñaranda de Bracamonte
+zh;佩尼亚兰达德夫拉卡蒙特;Peñaranda de Bracamonte
+ru;Пелабраво;Pelabravo
+hy;Պեդրոսո;Pedroso
+kk;Педросо;Pedroso
+uk;Педросо;Pedroso
+ru;Педросо;Pedroso
+zh;佩德罗索;Pedroso
+ru;Педрола;Pedrola
+ar;بيدرو بيرناردو;Pedro Bernardo
+fa;پدرو برناردو;Pedro Bernardo
+kk;Педро-Бернардо;Pedro Bernardo
+mk;Педро Бернардо;Pedro Bernardo
+uk;Педро-Бернардо;Pedro Bernardo
+ru;Педро-Бернардо;Pedro Bernardo
+zh;佩德罗韦尔纳尔多;Pedro Bernardo
+ru;Педренья;Pedreña
+ja;ペドレーニャ;Pedreña
+fa;پدرینا;Pedreña
+ru;Патонес;Patones
+ru;Пастрана;Pastrana
+ru;Пасторес;Pastores
+ru;Паррес;Parres
+ru;Парла;Parla
+ar;بارلا;Parla
+bg;Парла;Parla
+sr;Парла;Parla
+uk;Парла;Parla
+zh;帕尔拉;Parla
+ru;Паредес;Paredes
+ru;Пардос;Pardos
+ru;Парадела;Paradela
+pl;Pampeluna;Pamplona
+ar;بنبلونة;Pamplona
+be;Памплона;Pamplona
+ja;パンプローナ;Pamplona
+ru;Памплона;Pamplona
+tl;Lungsod ng Iruñea;Pamplona
+ta;இருனியா;Pamplona
+th;ปัมโปลนา;Pamplona
+os;Памплонæ;Pamplona
+uk;Памплона;Pamplona
+fa;پامپلونا;Pamplona
+hy;Պամպլոնա;Pamplona
+ka;პამპლონა;Pamplona
+bg;Памплона;Pamplona
+ko;팜플로나;Pamplona
+he;פמפלונה;Pamplona
+sr;Памплона;Pamplona
+mr;पाम्पलोना;Pamplona
+gd;Iruña;Pamplona
+zh;潘普洛納;Pamplona
+ru;Палс;Pals
+ru;Паломеро;Palomero
+ru;Пало;Palo
+ja;パレンシア;Palencia
+ru;Паленсия;Palencia
+ko;팔렌시아;Palencia
+fa;پالنسیا;Palencia
+be;Паленсія;Palencia
+sr;Паленсија;Palencia
+uk;Паленсія;Palencia
+ar;بالنثيا;Palencia
+zh;帕伦西亚;Palencia
+ru;Палафружель;Palafrugell
+ru;Падренда;Padrenda
+ar;باديرنوس;Padiernos
+fa;پادیرنس;Padiernos
+kk;Падьернос;Padiernos
+mk;Падиернос;Padiernos
+uk;Падьєрнос;Padiernos
+ru;Падьернос;Padiernos
+zh;帕迭尔诺斯;Padiernos
+ru;Падерне;Paderne
+ar;أويا;Oia
+ja;オイア;Oia
+kk;Ойя;Oia
+uk;Ойя;Oia
+ru;Ойя;Oia
+zh;奥亚;Oia
+ar;أوفييدو;Oviedo
+be;Аўеда;Oviedo
+ja;オビエド;Oviedo
+he;אוביידו;Oviedo
+sr;Овједо;Oviedo
+ru;Овьедо;Oviedo
+ta;ஒவியேதோ;Oviedo
+bg;Овиедо;Oviedo
+lt;Ovjedas;Oviedo
+lv;Ovjedo;Oviedo
+uk;Овєдо;Oviedo
+ko;오비에도;Oviedo
+tet;Oviedu;Oviedo
+os;Овьедо;Oviedo
+fa;ابیدو;Oviedo
+ka;ოვიედო;Oviedo
+mr;ओव्हियेदो;Oviedo
+kk;Овьедо;Oviedo
+th;โอเบียโด;Oviedo
+zh;奥维耶多;Oviedo
+ce;Овьедо;Oviedo
+ar;أوتيس;Outes
+fa;اواتیس;Outes
+ja;オウテス;Outes
+mk;Оутес;Outes
+uk;Оутес;Outes
+ru;Оутес;Outes
+zh;欧特斯;Outes
+ja;オウロル;Ourol
+kk;Ороль;Ourol
+uk;Оуроль;Ourol
+pl;Orol;Ourol
+ru;Ороль;Ourol
+zh;欧罗尔;Ourol
+ar;أورتويلا;Ortuella
+uk;Ортуелья;Ortuella
+ru;Ортуэлья;Ortuella
+zh;奥尔图埃利亚;Ortuella
+ru;Оросо;Oroso
+ru;Орера;Orera
+pl;Orense;Ourense
+id;Orense;Ourense
+ja;オウレンセ;Ourense
+ru;Оренсе;Ourense
+sr;Овренсе;Ourense
+ru;Ордис;Ordis
+ru;Ордес;Ordes
+ms;Orcoyen;Orkoien
+uk;Оркоєн;Orkoien
+vi;Orcoyen;Orkoien
+ru;Оркойен;Orkoien
+zh;奥尔科延;Orkoien
+ru;Орбита;Orbita
+ru;Орбара;Orbara
+ja;オンソニージャ;Onzonilla
+uk;Онсонілья;Onzonilla
+ru;Онсонилья;Onzonilla
+zh;翁索尼利亚;Onzonilla
+ar;أونيا;Oña
+uk;Онья;Oña
+ru;Ония;Oña
+zh;奥尼亚;Oña
+ru;Олот;Olot
+kk;Олот;Olot
+ar;أولوت;Olot
+zh;奥洛特;Olot
+ru;Олост;Olost
+ru;Оломбрада;Olombrada
+ar;أولوكاو ديل ري;Olocau del Rey
+uk;Олокау-дель-Рей;Olocau del Rey
+ru;Олокау-дель-Рей;Olocau del Rey
+zh;奥洛考德尔雷;Olocau del Rey
+ru;Олмедо;Olmedo
+ja;オリテ;Olite-Erriberri
+uk;Оліте;Olite-Erriberri
+ru;Олите;Olite-Erriberri
+zh;奥利特;Olite-Erriberri
+ru;Олейрос;Oleiros
+ar;أوليروس;Oleiros
+be;Алейрас;Oleiros
+fa;اولیروس;Oleiros
+ja;オレイロス;Oleiros
+mk;Олеирос;Oleiros
+uk;Олейрос;Oleiros
+zh;奥莱罗斯;Oleiros
+ru;Олван;Olvan
+ru;Олба;Olba
+kk;Охакастро;Ojacastro
+uk;Охакастро;Ojacastro
+ru;Охакастро;Ojacastro
+zh;奥哈卡斯特罗;Ojacastro
+hy;Օխակաստրո;Ojacastro
+kk;Окон;Ocón
+uk;Окон;Ocón
+ru;Окон;Ocón
+zh;奥孔;Ocón
+ru;Обанос;Obanos
+ar;نونيومأورال;Nuñomoral
+uk;Нуньйомораль;Nuñomoral
+ru;Нуньомораль;Nuñomoral
+zh;努尼奥莫拉尔;Nuñomoral
+ar;نوفو بازتان;Nuevo Baztán
+uk;Нуево-Бастан;Nuevo Baztán
+ru;Нуэво-Бастан;Nuevo Baztán
+zh;新巴斯坦;Nuevo Baztán
+ru;Новалес;Novales
+ar;نورينيا;Noreña
+fa;نرنیا;Noreña
+uk;Норенья;Noreña
+ru;Норения;Noreña
+zh;诺雷尼亚;Noreña
+ru;Нонаспе;Nonaspe
+ru;Номбела;Nombela
+kk;Нолай;Nolay
+nn;Nolay i Spania;Nolay
+uk;Нолай;Nolay
+ru;Нолай;Nolay
+zh;诺莱;Nolay
+uk;Ноайн;Noáin
+ru;Ноайн;Noáin
+ar;نيغران;Nigrán
+ja;ニグラン;Nigrán
+kk;Нигран;Nigrán
+uk;Нігран;Nigrán
+ru;Нигран;Nigrán
+zh;尼格兰;Nigrán
+ru;Нестарес;Nestares
+ru;Непас;Nepas
+ar;نايلا;Neila
+uk;Нейла;Neila
+ru;Нейла;Neila
+zh;内拉;Neila
+ru;Небреда;Nebreda
+ru;Навата;Navata
+ru;Наваррете;Navarrete
+ru;Наваридас;Navaridas
+ru;Наваморалес;Navamorales
+ru;Навалоса;Navalosa
+ar;نافالمورال;Navalmoral
+fa;نابالمرال;Navalmoral
+kk;Навальмораль;Navalmoral
+mk;Навалморал;Navalmoral
+uk;Навальмораль;Navalmoral
+ru;Навальмораль;Navalmoral
+zh;纳瓦尔莫拉尔;Navalmoral
+ru;Навалес;Navales
+kk;Навалено;Navaleno
+uk;Навалено;Navaleno
+ru;Навалено;Navaleno
+zh;纳瓦莱诺;Navaleno
+fa;ناوالنو;Navaleno
+uk;Навалькарнеро;Navalcarnero
+ru;Навалькарнеро;Navalcarnero
+zh;纳瓦尔卡尔内罗;Navalcarnero
+ar;نابالكارنيرو;Navalcarnero
+ru;Навал;Naval
+ru;Нава;Nava
+ru;Наррос;Narros
+ru;Нарон;Narón
+hy;Նալդա;Nalda
+kk;Нальда;Nalda
+uk;Нальда;Nalda
+ru;Нальда;Nalda
+zh;纳尔达;Nalda
+uk;Нахера;Nájera
+kk;Нáхера;Nájera
+he;נאחרה;Nájera
+ja;ナヘラ;Nájera
+ru;Нахера;Nájera
+zh;纳赫拉;Nájera
+ar;ناجرة;Nájera
+kk;Нафриа-де-Усеро;Nafría de Ucero
+uk;Нафрія-де-Усеро;Nafría de Ucero
+ru;Нафриа-де-Усеро;Nafría de Ucero
+zh;纳夫里亚德乌塞罗;Nafría de Ucero
+ru;Мурос;Muros
+hy;Մուրո դե Ագուաս;Muro de Aguas
+kk;Муро-де-Агвас;Muro de Aguas
+uk;Муро-де-Агуас;Muro de Aguas
+ru;Муро-де-Агуас;Muro de Aguas
+zh;穆罗德亚瓜斯;Muro de Aguas
+uk;Мурільйо-ель-Куенде;Murillo el Cuende
+ru;Мурильо-эль-Куэнде;Murillo el Cuende
+zh;穆里略埃尔昆德;Murillo el Cuende
+hy;Մուրիլիո դե Ռիո Լեսա;Murillo de Río Leza
+kk;Мурильо-де-Рио-Леса;Murillo de Río Leza
+uk;Мурільйо-де-Ріо-Леса;Murillo de Río Leza
+ru;Мурильо-де-Рио-Леса;Murillo de Río Leza
+zh;莱萨河畔穆里略;Murillo de Río Leza
+kk;Мурьель-Вьехо;Muriel Viejo
+uk;Мурєль-Вєхо;Muriel Viejo
+ru;Мурьель-Вьехо;Muriel Viejo
+zh;穆列尔维耶霍;Muriel Viejo
+kk;Мурьель-де-ла-Фуэнте;Muriel de la Fuente
+uk;Мурєль-де-ла-Фуенте;Muriel de la Fuente
+ru;Мурьель-де-ла-Фуэнте;Muriel de la Fuente
+zh;穆列尔德拉丰特;Muriel de la Fuente
+uk;Муріас-де-Паредес;Murias de Paredes
+ru;Муриас-де-Паредес;Murias de Paredes
+zh;穆里亚斯德帕雷德斯;Murias de Paredes
+ru;Муреро;Murero
+ru;Мурас;Muras
+ru;Мура;Mura
+hy;Մունիլիա;Munilla
+kk;Мунилья;Munilla
+uk;Мунілья;Munilla
+ru;Мунилья;Munilla
+zh;穆尼利亚;Munilla
+ru;Мундака;Mundaka
+ru;Мухия;Mugia
+ar;موغرادوس;Mugardos
+fa;موگاردوس;Mugardos
+hy;Մուգարդոս;Mugardos
+ja;ムガルドス;Mugardos
+mk;Мугардос;Mugardos
+uk;Мугардос;Mugardos
+ru;Мугардос;Mugardos
+zh;穆加尔多斯;Mugardos
+ar;مويل;Muel
+kk;Муэль;Muel
+uk;Муель;Muel
+ru;Муэль;Muel
+zh;穆埃尔;Muel
+ru;Мутрику;Mutriku
+ru;Мостолес;Móstoles
+ar;موستوليس;Móstoles
+be;Мосталес;Móstoles
+bg;Мостолес;Móstoles
+fa;موستولس;Móstoles
+he;מוסטולס;Móstoles
+ja;モストレス;Móstoles
+ka;მოსტოლესი;Móstoles
+kk;Мостолес;Móstoles
+ko;모스톨레스;Móstoles
+lt;Mostolesas;Móstoles
+os;Мостолес;Móstoles
+sr;Мостолес;Móstoles
+uk;Мостолес;Móstoles
+zh;莫斯托莱斯;Móstoles
+ru;Мос;Mos
+ru;Морос;Moros
+ru;Моронта;Moronta
+kk;Морон-де-Альмасан;Morón de Almazán
+uk;Морон-де-Альмасан;Morón de Almazán
+ru;Морон-де-Альмасан;Morón de Almazán
+zh;莫龙德亚尔马桑;Morón de Almazán
+ru;Морентин;Morentin
+ru;Моратинос;Moratinos
+ru;Морасвердес;Morasverdes
+ru;Моралина;Moralina
+uk;Моралес-дель-Віно;Morales del Vino
+ru;Моралес-дель-Вино;Morales del Vino
+zh;莫拉莱斯德尔维诺;Morales del Vino
+uk;Монсон-де-Кампос;Monzón de Campos
+ru;Монсон-де-Кампос;Monzón de Campos
+zh;蒙松德坎波斯;Monzón de Campos
+ru;Монтферри;Montferri
+ja;モンテローソ;Monterroso
+kk;Монтерросо;Monterroso
+uk;Монтерросо;Monterroso
+ru;Монтерросо;Monterroso
+zh;蒙特罗索;Monterroso
+ru;Монтерде;Monterde
+kk;Монтехо-де-Тьермес;Montejo de Tiermes
+uk;Монтехо-де-Тьєрмес;Montejo de Tiermes
+ru;Монтехо-де-Тьермес;Montejo de Tiermes
+zh;蒙特霍德铁尔梅斯;Montejo de Tiermes
+ar;مونتيهيرموسو;Montehermoso
+fa;منتهرمسو;Montehermoso
+ja;モンテエルモーソ;Montehermoso
+am;ሞንቴርሞሶ;Montehermoso
+lv;Monteermoso;Montehermoso
+uk;Монтеермосо;Montehermoso
+el;Μοντελμόσου;Montehermoso
+ru;Монтеермосо;Montehermoso
+zh;蒙特埃尔莫索;Montehermoso
+ru;Монтедеррамо;Montederramo
+kk;Монтеагудо-де-лас-Викариас;Monteagudo de las Vicarías
+uk;Монтеагудо-де-лас-Вікаріас;Monteagudo de las Vicarías
+ru;Монтеагудо-де-лас-Викариас;Monteagudo de las Vicarías
+zh;蒙特亚古多德拉斯维卡里亚斯;Monteagudo de las Vicarías
+ru;Монблан;Montblanc
+ru;Монтамарта;Montamarta
+ru;Монсалупе;Monsalupe
+uk;Монреаль;Monreal
+ru;Монреаль;Monreal
+zh;蒙雷亚尔;Monreal
+ru;Монлерас;Monleras
+ru;Монистроль-де-Монсеррат;Monistrol de Montserrat
+uk;Монфорте-де-Лемос;Monforte de Lemos
+ja;モンフォルテ・デ・レモス;Monforte de Lemos
+kk;Монфорте-де-Лемос;Monforte de Lemos
+ru;Монфорте-де-Лемос;Monforte de Lemos
+zh;蒙福尔特德莱莫斯;Monforte de Lemos
+ru;Монферо;Monfero
+ru;Монева;Moneva
+ja;モンドニェード;Mondoñedo
+kk;Мондоньедо;Mondoñedo
+uk;Мондоньєдо;Mondoñedo
+ru;Мондоньедо;Mondoñedo
+zh;蒙多涅多;Mondoñedo
+ru;Момблона;Momblona
+ar;مومبيلتران;Mombeltrán
+fa;ممبلتران;Mombeltrán
+kk;Момбельтран;Mombeltrán
+mk;Момбелтран;Mombeltrán
+uk;Момбельтран;Mombeltrán
+ru;Момбельтран;Mombeltrán
+zh;蒙韦尔特兰;Mombeltrán
+ru;Молинос;Molinos
+ja;モリーナセカ;Molinaseca
+uk;Молінасека;Molinaseca
+ru;Молинасека;Molinaseca
+zh;莫利纳塞卡;Molinaseca
+uk;Моліна-де-Арагон;Molina de Aragón
+kk;Молина-де-Арагон;Molina de Aragón
+ru;Молина-де-Арагон;Molina de Aragón
+zh;莫利纳德亚拉贡;Molina de Aragón
+ru;Эль-Молар;el Molar
+ar;موانيا، بونتيفيدرا;Moaña
+uk;Моанья;Moaña
+kk;Моания;Moaña
+ja;モアーニャ;Moaña
+ru;Моания;Moaña
+zh;莫阿尼亚;Moaña
+ru;Миравет;Miravet
+ru;Миранда-де-Эбро;Miranda de Ebro
+ko;미란다데에브로;Miranda de Ebro
+ar;ميراندا دي إيبرو;Miranda de Ebro
+uk;Міранда-де-Ебро;Miranda de Ebro
+ja;ミランダ・デ・エブロ;Miranda de Ebro
+zh;埃布罗河畔米兰达;Miranda de Ebro
+am;ሚራንዳ ዴ ኤብሮ;Miranda de Ebro
+ru;Мирамбел;Mirambel
+uk;Мілагро;Milagro
+ru;Милагро;Milagro
+zh;米拉格罗;Milagro
+kk;Мьеса;Mieza
+uk;Мєса;Mieza
+ru;Мьеса;Mieza
+zh;米耶萨;Mieza
+ru;Мьерес;Mieres
+ba;Ментрида;Méntrida
+kk;Ментрида;Méntrida
+uk;Ментріда;Méntrida
+ru;Ментрида;Méntrida
+zh;门特里达;Méntrida
+ru;Мендаро;Mendaro
+ja;メリーデ;Melide
+mk;Мелиде;Melide
+uk;Меліде;Melide
+ar;ميليدي، لا كرونيا;Melide
+ru;Мельид;Melide
+zh;梅利德;Melide
+ar;ميلغار دي فيرنامينتال;Melgar de Fernamental
+uk;Мельгар-де-Фернаменталь;Melgar de Fernamental
+ru;Мельгар-де-Фернаменталь;Melgar de Fernamental
+zh;梅尔加尔德费尔纳门塔尔;Melgar de Fernamental
+ru;Медрано;Medrano
+ru;Медранда;Medranda
+ar;ميداينا دي بومار;Medina de Pomar
+uk;Медіна-де-Помар;Medina de Pomar
+ru;Медина-де-Помар;Medina de Pomar
+zh;梅迪纳德波马尔;Medina de Pomar
+ru;Медина-дель-Кампо;Medina del Campo
+ja;メディナ・デル・カンポ;Medina del Campo
+uk;Медіна-дель-Кампо;Medina del Campo
+zh;梅迪纳德尔坎波;Medina del Campo
+kk;Мединасели;Medinaceli
+ja;メディナセリ;Medinaceli
+uk;Медінаселі;Medinaceli
+ru;Мединасели;Medinaceli
+zh;梅迪纳塞利;Medinaceli
+ar;مدينة سالم;Medinaceli
+hy;Մայորգա;Mayorga
+uk;Майорга;Mayorga
+ru;Майорга;Mayorga
+zh;迈奥尔加;Mayorga
+ru;Матуте;Matute
+sr;Матаро;Mataró
+bg;Матаро;Mataró
+ja;マタロー;Mataró
+uk;Матаро;Mataró
+ar;ماتارو، برشلونة;Mataró
+kk;Матаро;Mataró
+ru;Матаро;Mataró
+zh;马塔罗;Mataró
+ko;마타로;Mataró
+mr;मातारो;Mataró
+kk;Матамала-де-Альмасан;Matamala de Almazán
+uk;Матамала-де-Альмасан;Matamala de Almazán
+ru;Матамала-де-Альмасан;Matamala de Almazán
+zh;马塔马拉德亚尔马桑;Matamala de Almazán
+uk;Матальяна-де-Торіо;Matallana de Torío
+ru;Матальяна-де-Торио;Matallana de Torío
+zh;马塔利亚纳德托里奥;Matallana de Torío
+kk;Маталебрерас;Matalebreras
+uk;Маталебрерас;Matalebreras
+ru;Маталебрерас;Matalebreras
+zh;马塔莱夫雷拉斯;Matalebreras
+ru;Матадепера;Matadepera
+kk;Масуэко;Masueco
+uk;Масуеко;Masueco
+ru;Масуэко;Masueco
+zh;马苏埃科;Masueco
+ru;Массанес;Massanes
+ru;Масиде;Maside
+ru;Марторелле;Martorell
+ar;مارتوريل;Martorell
+fa;مارتورل;Martorell
+kk;Марторель;Martorell
+uk;Мартурель;Martorell
+ru;Марторель;Martorell
+zh;马尔托雷利;Martorell
+ru;Мартинамор;Martinamor
+ar;ماركاينا-كزيماين;Markina-Xemein
+uk;Маркіна-Шемейн;Markina-Xemein
+uz;Marquina-Jeméin;Markina-Xemein
+ru;Маркина-Хемейн;Markina-Xemein
+zh;马尔基纳-克塞门;Markina-Xemein
+et;Marañóni jõgi;Marañón
+he;מרניון;Marañón
+ru;Мараньон;Marañón
+uk;Мараньйон;Marañón
+zh;马拉尼翁;Marañón
+kk;Маранчон;Maranchón
+uk;Маранчон;Maranchón
+ru;Маранчон;Maranchón
+zh;马兰琼;Maranchón
+ru;Мара;Mara
+ar;مانزاناريس ش ريال;Manzanares el Real
+uk;Мансанарес-ель-Реаль;Manzanares el Real
+ru;Мансанарес-эль-Реаль;Manzanares el Real
+zh;曼萨纳雷塞尔雷亚尔;Manzanares el Real
+ru;Мантинос;Mantinos
+ru;Манреса;Manresa
+sr;Манреза;Manresa
+ar;مانليو;Manlleu
+kk;Манльеу;Manlleu
+ru;Манльеу;Manlleu
+zh;曼列乌;Manlleu
+ru;Мамолар;Mamolar
+ru;Мамблас;Mamblas
+ru;Малва;Malva
+ru;Малпартида;Malpartida
+ru;Махадаонда;Majadahonda
+ar;ماجاداهوندا;Majadahonda
+sr;Махадаонда;Majadahonda
+uk;Махадаонда;Majadahonda
+zh;马哈达翁达;Majadahonda
+kk;Магания;Magaña
+uk;Маганья;Magaña
+ru;Магания;Magaña
+zh;马加尼亚;Magaña
+ar;مادرايغال دي لاس ألتاس توريس;Madrigal de las Altas Torres
+fa;مادریگال د لاس آلتاس ترس;Madrigal de las Altas Torres
+kk;Мадригаль-де-лас-Альтас-Торрес;Madrigal de las Altas Torres
+mk;Мадригал де лас Атлас Торес;Madrigal de las Altas Torres
+uk;Мадрігаль-де-лас-Альтас-Торрес;Madrigal de las Altas Torres
+ru;Мадригаль-де-лас-Альтас-Торрес;Madrigal de las Altas Torres
+zh;马德里加尔德拉萨尔塔斯托雷斯;Madrigal de las Altas Torres
+ru;Мадриданос;Madridanos
+ar;مدريد;Madrid
+be;Мадрыд;Madrid
+bg;Мадрид;Madrid
+el;Μαδρίτη;Madrid
+fa;مادرید;Madrid
+he;מדריד;Madrid
+hi;मद्रिद;Madrid
+ja;マドリード;Madrid
+ko;마드리드;Madrid
+lt;Madridas;Madrid
+lv;Madride;Madrid
+mk;Мадрид;Madrid
+pl;Madryt;Madrid
+ru;Мадрид;Madrid
+sr;Мадрид;Madrid
+th;มาดริด;Madrid
+zh;马德里;Madrid
+ug;مادرىد;Madrid
+zh;馬德里;Madrid
+ja;マドリード市;Madrid
+ka;მადრიდი;Madrid
+sq;Madridi;Madrid
+tl;Lungsod ng Madrid;Madrid
+am;ማድሪድ;Madrid
+ga;Maidrid;Madrid
+hy;Մադրիդ;Madrid
+tg;Мадрид;Madrid
+uk;Мадрид;Madrid
+ur;میدرد;Madrid
+cv;Мадрид;Madrid
+mrj;Мадрид;Madrid
+mhr;Мадрид;Madrid
+myv;Мадрид ош;Madrid
+ba;Мадрид;Madrid
+bn;মাদ্রিদ;Madrid
+koi;Мадрид;Madrid
+bo;མ་ད་རིད།;Madrid
+ab;Мaдрид;Madrid
+mn;Мадрид;Madrid
+haw;Makelika;Madrid
+ky;Мадрид;Madrid
+ta;மத்ரித்;Madrid
+mr;माद्रिद;Madrid
+kk;Мадрид;Madrid
+lez;Мадрид;Madrid
+mzn;مادرید;Madrid
+os;Мадрид;Madrid
+kbd;Мадрид;Madrid
+ml;മാഡ്രിഡ്;Madrid
+kv;Мадрид;Madrid
+ckb;مەدرید;Madrid
+or;ମାଡ୍ରିଦ;Madrid
+my;မဒရစ်မြို့;Madrid
+sah;Мадрид;Madrid
+kn;ಮಡ್ರಿಡ್;Madrid
+udm;Мадрид;Madrid
+sgs;Madrids;Madrid
+ce;Мадрид;Madrid
+pa;ਮਾਦਰੀਦ;Madrid
+yue;馬德里;Madrid
+bxr;Мадрид;Madrid
+hak;Mâ-tet-lî;Madrid
+ne;म्याड्रिड;Madrid
+zh-TW;馬德里;Madrid
+kk;Макотера;Macotera
+uk;Макотера;Macotera
+ru;Макотера;Macotera
+zh;马科特拉;Macotera
+ru;Луна;Luna
+hy;Լումբրերաս;Lumbreras
+kk;Лумбрерас;Lumbreras
+uk;Лумбрерас;Lumbreras
+ru;Лумбрерас;Lumbreras
+zh;伦夫雷拉斯;Lumbreras
+kk;Лумбралес;Lumbrales
+uk;Лумбралес;Lumbrales
+ru;Лумбралес;Lumbrales
+zh;伦夫拉莱斯;Lumbrales
+ja;ルーゴ;Lugo
+ru;Луго;Lugo
+ar;لوغو;Lugo
+ar;لوزامي;Lousame
+uk;Лоусаме;Lousame
+mk;Лусам;Lousame
+ja;ロウサーメ;Lousame
+ru;Лоусаме;Lousame
+zh;洛萨梅;Lousame
+kk;Лос-Вильярес-де-Сория;Los Villares de Soria
+uk;Лос-Вільярес-де-Сорія;Los Villares de Soria
+ru;Лос-Вильярес-де-Сория;Los Villares de Soria
+zh;洛斯维利亚雷斯德索里亚;Los Villares de Soria
+uk;Лос-Корралес-де-Буельна;Los Corrales de Buelna
+ar;لوس كورالس دي بويلنا;Los Corrales de Buelna
+haw;Corrales;Los Corrales de Buelna
+ru;Лос-Корралес-де-Буэльна;Los Corrales de Buelna
+zh;洛斯科拉莱斯德武埃尔纳;Los Corrales de Buelna
+ar;لوسار دي لافيرا;Losar de la Vera
+uk;Лосар-де-ла-Вера;Losar de la Vera
+ru;Лосар-де-ла-Вера;Losar de la Vera
+zh;洛萨尔德拉韦拉;Losar de la Vera
+fa;لماس;Lomas
+hu;Lomas de Campos;Lomas
+uz;Lomas de Campos;Lomas
+ru;Ломас;Lomas
+zh;洛马斯;Lomas
+bg;Логроньо;Logroño
+he;לוגרוניו;Logroño
+ja;ログローニョ;Logroño
+ar;لوغرونيو;Logroño
+be;Лагронья;Logroño
+ko;로그로뇨;Logroño
+th;โลโกรโญ;Logroño
+sr;Логроњо;Logroño
+mr;लोग्रोन्यो;Logroño
+lt;Logronjas;Logroño
+fa;لگرنیو;Logroño
+uk;Логроньйо;Logroño
+ru;Логроньо;Logroño
+zh;洛格罗尼奥;Logroño
+el;Λογρόνιο;Logroño
+hy;Լոգրոնյո;Logroño
+lv;Logronjo;Logroño
+ur;لوگرونو;Logroño
+ru;Лодоса;Lodosa
+sr;Љорет де Мар;Lloret de Mar
+ru;Льорет-де-Мар;Lloret de Mar
+sr;Љорет;Lloret de Mar
+sr;Љорет на Мору;Lloret de Mar
+tr;Llodio;Laudio / Llodio
+ru;Льянсса;Llançà
+ar;يانيس;Llanes
+uk;Льянес;Llanes
+fa;یانس;Llanes
+ja;リャネス;Llanes
+ru;Льянес;Llanes
+zh;利亚内斯;Llanes
+ru;Либрос;Libros
+ru;Лесака;Lesaka
+ru;Лес;Les
+ar;ليرما;Lerma
+uk;Лерма;Lerma
+ru;Лерма;Lerma
+he;ליידה;Lleida
+ja;レリダ;Lleida
+lt;Lerida;Lleida
+sv;Lérida;Lleida
+ja;リェイダ;Lleida
+sr;Љејда;Lleida
+ru;Лерида;Lleida
+ru;Леон;León
+ar;ليون;León
+ja;レオン;León
+sr;Леон;León
+ar;لايايوا;Leioa
+ja;レイオア;Leioa
+uk;Лейоа;Leioa
+ru;Лехона;Leioa
+zh;莱奥阿;Leioa
+ru;Леганес;Leganés
+sr;Леганес;Leganés
+ko;레가네스;Leganés
+lt;Leganesas;Leganés
+ja;レガネス;Leganés
+bg;Леганес;Leganés
+uk;Леганес;Leganés
+zh;萊加內斯;Leganés
+ar;ليجانيس;Leganés
+be;Леганес;Leganés
+ru;Ледрада;Ledrada
+ru;Ледесма;Ledesma
+ru;Лекунберри;Lekunberri
+ar;لا توري;La Torre
+fa;لا تره;La Torre
+mk;Ла Туре;La Torre
+uk;Ла-Торре;La Torre
+ru;Ла-Торре;La Torre
+hy;Լա Տոռե;La Torre
+ru;Лас-Росас-де-Мадрид;Las Rozas de Madrid
+ar;لاس روزاس دي مدريد;Las Rozas de Madrid
+sr;Розас де Мадрид;Las Rozas de Madrid
+uk;Лас-Росас-де-Мадрид;Las Rozas de Madrid
+sv;Las Rozas;Las Rozas de Madrid
+zh;拉斯罗萨斯德马德里德;Las Rozas de Madrid
+ar;لاس نافاس ديل ماركيس;Las Navas del Marqués
+fa;لاس ناباس دل مارکس;Las Navas del Marqués
+mk;Лас Навас дел Маркез;Las Navas del Marqués
+uk;Лас-Навас-дель-Маркес;Las Navas del Marqués
+zh;拉斯纳瓦斯德尔马尔克斯;Las Navas del Marqués
+ru;Ласарте;Lasarte
+kk;Лас-Альдеуэлас;Las Aldehuelas
+uk;Лас-Альдеуелас;Las Aldehuelas
+ru;Лас-Альдеуэлас;Las Aldehuelas
+zh;拉萨尔德韦拉斯;Las Aldehuelas
+uk;Ла-Робла;La Robla
+ru;Ла-Робла;La Robla
+zh;拉罗夫拉;La Robla
+ru;Ларедо;Laredo
+hy;Լարդերո;Lardero
+kk;Лардеро;Lardero
+uk;Лардеро;Lardero
+ur;لارڈیرو;Lardero
+ru;Лардеро;Lardero
+zh;拉尔德罗;Lardero
+uk;Ла-Пола-де-Гордон;La Pola de Gordón
+ru;Ла-Пола-де-Гордон;La Pola de Gordón
+zh;拉波拉德戈尔东;La Pola de Gordón
+uk;Лапобласьйон;Lapoblación
+ru;Лапобласьон;Lapoblación
+zh;拉波夫拉西翁;Lapoblación
+ru;Ла Пинеда;La Pineda
+kk;Ла-Пения;La Peña
+uk;Ла-Пенья;La Peña
+ru;Ла-Пенья;La Peña
+zh;拉佩尼亚;La Peña
+tr;Lantarón;Lantarou
+kk;Ланга-де-Дуэро;Langa de Duero
+uk;Ланга-де-Дуеро;Langa de Duero
+ru;Ланга-де-Дуэро;Langa de Duero
+zh;兰加德杜埃罗;Langa de Duero
+ru;Ланестоса;Lanestosa
+ar;لا مويلا;La Muela
+kk;Ла-Муэла;La Muela
+uk;Ла-Муела;La Muela
+ur;لا مویلا;La Muela
+ru;Ла-Муэла;La Muela
+zh;拉穆埃拉;La Muela
+ru;Ла-Морера-де-Монтсант;la Morera de Montsant
+ru;Лама;Lama
+ru;Лалин;Lalín
+ar;لا أوركاخادا;La Horcajada
+fa;لا هرکاخادا;La Horcajada
+kk;Ла-Оркахада;La Horcajada
+mk;Ла Оркахада;La Horcajada
+uk;Ла-Оркахада;La Horcajada
+ru;Ла-Оркахада;La Horcajada
+zh;拉奥尔卡哈达;La Horcajada
+uk;Лагуна-де-Негрільйос;Laguna de Negrillos
+ru;Лагуна-де-Негрильос;Laguna de Negrillos
+zh;拉古纳德内格里略斯;Laguna de Negrillos
+ru;Лагуна-де-Дуэро;Laguna de Duero
+ar;لاغوارديا;Laguardia
+fa;لاگواردیا;Laguardia
+mk;Лагвардија;Laguardia
+uk;Лагуардія;Laguardia
+ru;Ла Гардиа;Laguardia
+zh;拉瓜尔迪亚;Laguardia
+ur;لا فیلگویرا;La Felguera
+ru;Ла-Эстрада;A Estrada
+ru;Лада;Lada
+ru;Ла Коста;La Cuesta
+ja;ア・コルーニャ;A Coruña
+ro;La Coruña;A Coruña
+ru;Ла-Корунья;A Coruña
+fa;لاکرونیا;A Coruña
+nn;La Coruña;A Coruña
+th;อาโกรูญา;A Coruña
+ka;ლა-კორუნია;A Coruña
+lt;La Korunja;A Coruña
+ar;لا كورونيا;A Coruña
+gd;Corùna;A Coruña
+uk;А-Корунья;A Coruña
+hy;Լա Կորունա;A Coruña
+mk;А Коруња;A Coruña
+bg;Ла Коруня;A Coruña
+sr;Коруња;A Coruña
+no;La Coruña;A Coruña
+ko;라코루냐;A Coruña
+nah;In Coruña;A Coruña
+be;Ла-Карунья;A Coruña
+os;Ла-Корунья;A Coruña
+zh-TW;拉科魯尼亞;A Coruña
+ckb;لا کۆرونیا;A Coruña
+he;א קורוניה;A Coruña
+kk;Ла-Корунья;A Coruña
+lv;Akoruņa;A Coruña
+sk;La Coruña;A Coruña
+uz;La-Korunya;A Coruña
+yue;拉科魯尼亞;A Coruña
+zh;拉科魯尼亞;A Coruña
+ar;لا كوليا;La Colilla
+fa;لاکولیا;La Colilla
+kk;Ла-Колилья;La Colilla
+mk;Ла Колилја;La Colilla
+uk;Ла-Колілья;La Colilla
+ru;Ла-Колилья;La Colilla
+zh;拉科利利亚;La Colilla
+ru;Ла Канонджа;La Canonja
+uk;Ла-Баньєса;La Bañeza
+ru;Ла-Баньеса;La Bañeza
+zh;拉瓦涅萨;La Bañeza
+sr;Л'Амеља де Мар;l'Ametlla de Mar
+sr;Л'Амеља;l'Ametlla de Mar
+sr;Л'Амеља на Мору;l'Ametlla de Mar
+ar;لا أدرادا;La Adrada
+fa;لا آدرادا;La Adrada
+kk;Ла-Адрада;La Adrada
+mk;Ла Адрада;La Adrada
+uk;Ла-Адрада;La Adrada
+ru;Ла-Адрада;La Adrada
+zh;拉德拉达;La Adrada
+ja;ハカ;Jaca
+ko;하카;Jaca
+bg;Хака;Jaca
+uk;Хака;Jaca
+sr;Хака;Jaca
+ru;Хака;Jaca
+zh;哈卡;Jaca
+el;Χάκα;Jaca
+ru;Итурменди;Iturmendi
+ru;Итурен;Ituren
+sr;Изона;Isona
+ru;Исар;Isar
+hy;Իսաբա;Isaba
+uk;Ісаба;Isaba
+ru;Исаба;Isaba
+zh;伊萨瓦;Isaba
+ru;Ирура;Irura
+zh-TW;伊倫;Irun
+ru;Ирун;Irun
+kk;Ильескас;Illescas
+uk;Ільєскас;Illescas
+ru;Ильескас;Illescas
+zh;伊列斯卡斯;Illescas
+fa;اییسکاس;Illescas
+hy;Իլյեսկաս;Illescas
+ar;إيانو;Illano
+fa;اییانو;Illano
+uk;Ільяно;Illano
+zh;伊利亚诺;Illano
+ru;Игуалада;Igualada
+sr;Игвалада;Igualada
+ru;Иворра;Ivorra
+ru;Ибдес;Ibdes
+ru;Ибарра;Ibarra
+ar;هومادا;Humada
+uk;Умада;Humada
+ru;Умада;Humada
+zh;乌马达;Humada
+ar;هويتي، قونكة;Huete
+uk;Уете;Huete
+ru;Уэте;Huete
+zh;韦特;Huete
+he;אואסקה;Huesca
+ja;ウエスカ;Huesca
+ru;Уэска;Huesca
+ko;우에스카;Huesca
+lt;Hueska;Huesca
+ar;وشقة;Huesca
+sr;Уеска;Huesca
+uk;Уеска;Huesca
+bg;Уеска;Huesca
+fa;هوئسکا;Huesca
+be;Уэска;Huesca
+zh;韦斯卡;Huesca
+el;Ουέσκα;Huesca
+hy;Ուերկանոս;Huércanos
+kk;Уэрканос;Huércanos
+uk;Уерканос;Huércanos
+ru;Уэрканос;Huércanos
+ru;Оспиталет-де-Льобрегат;L'Hospitalet de Llobregat
+fa;هینخسا دل کامپو;Hinojosa del Campo
+kk;Инохоса-дель-Кампо;Hinojosa del Campo
+uk;Інохоса-дель-Кампо;Hinojosa del Campo
+ru;Инохоса-дель-Кампо;Hinojosa del Campo
+zh;伊诺霍萨德尔坎波;Hinojosa del Campo
+kk;Иенделаэнсина;Hiendelaencina
+uk;Єнделаенсіна;Hiendelaencina
+ru;Иенделаэнсина;Hiendelaencina
+zh;延德莱恩西纳;Hiendelaencina
+ar;هيرفاس;Hervás
+uk;Ервас;Hervás
+ru;Эрвас;Hervás
+zh;埃尔瓦斯;Hervás
+kk;Эррера-де-Сория;Herrera de Soria
+uk;Еррера-де-Сорія;Herrera de Soria
+ru;Эррера-де-Сория;Herrera de Soria
+zh;埃雷拉德索里亚;Herrera de Soria
+uk;Еррера-де-Пісуерга;Herrera de Pisuerga
+ru;Эррера-де-Писуэрга;Herrera de Pisuerga
+zh;埃雷拉德皮苏埃尔加;Herrera de Pisuerga
+kk;Эррамельури;Herramélluri
+uk;Еррамельюрі;Herramélluri
+ru;Эррамельюри;Herramélluri
+zh;埃拉梅柳里;Herramélluri
+ar;هيرنان-بيريز;Hernán-Pérez
+uk;Ернан-Перес;Hernán-Pérez
+ru;Эрнан-Перес;Hernán-Pérez
+zh;埃尔南-佩雷斯;Hernán-Pérez
+uk;Ернані;Hernani
+bg;Ернани;Hernani
+ar;إرناني، إسبانيا;Hernani
+ru;Эрнани;Hernani
+zh;埃尔纳尼;Hernani
+fa;هاسا;Haza
+uk;Аса;Haza
+ru;Аса;Haza
+kk;Гихуэло;Guijuelo
+uk;Гіхуело;Guijuelo
+ru;Гихуэло;Guijuelo
+zh;吉胡埃洛;Guijuelo
+ar;غيتاريا;Getaria
+ja;ゲタリア;Getaria
+uk;Гетарія;Getaria
+ru;Гетария;Getaria
+zh;赫塔里亚;Getaria
+ar;غينايس;Güeñes
+uk;Гуеньєс;Güeñes
+ru;Гуэньес;Güeñes
+zh;格涅斯;Güeñes
+uk;Гуардо;Guardo
+ru;Гвардо;Guardo
+zh;瓜尔多;Guardo
+ru;Гвадалахара;Guadalajara
+ja;グアダラハラ;Guadalajara
+sr;Гвадалахара;Guadalajara
+ar;إل غروفي;O Grove
+fa;ا گربه;O Grove
+ja;オ・グローベ;O Grove
+uk;О-Грове;O Grove
+ru;О-Грове;O Grove
+zh;奥格罗韦;O Grove
+uk;Граус;Graus
+ru;Граус;Graus
+zh;格劳斯;Graus
+hy;Գրանիոն;Grañón
+kk;Граньон;Grañón
+uk;Граньйон;Grañón
+ru;Граньон;Grañón
+zh;格拉尼翁;Grañón
+ar;غرانداس دي ساليمي;Grandas de Salime
+fa;گرانداس د سالیمه;Grandas de Salime
+uk;Грандас-де-Саліме;Grandas de Salime
+ru;Грандас-де-Салиме;Grandas de Salime
+zh;格兰达斯德萨利梅;Grandas de Salime
+fa;گرادو;Grado
+ar;غرادو، أستورياس;Grado
+uk;Градо;Grado
+ru;Градо;Grado
+zh;格拉多;Grado
+kk;Гормас;Gormaz
+uk;Гормас;Gormaz
+ru;Гормас;Gormaz
+zh;戈尔马斯;Gormaz
+fa;گوردونسییو;Gordoncillo
+uk;Гордонсільйо;Gordoncillo
+ru;Гордонсильо;Gordoncillo
+zh;戈尔东西略;Gordoncillo
+hy;Գոմարա;Gómara
+kk;Гомара;Gómara
+uk;Гомара;Gómara
+ru;Гомара;Gómara
+zh;戈马拉;Gómara
+kk;Гольмайо;Golmayo
+uk;Гольмайо;Golmayo
+ru;Гольмайо;Golmayo
+zh;戈尔迈奥;Golmayo
+uk;Гойсуета;Goizueta
+ru;Гойсуэта;Goizueta
+zh;戈伊苏埃塔;Goizueta
+ja;ヒホン;Gijón
+ar;خيخون;Gijón
+ru;Хихон;Gijón
+os;Хихон;Gijón
+ka;ხიხონი;Gijón
+fa;خیخن;Gijón
+ta;கிகோன்;Gijón
+lt;Chichonas;Gijón
+sr;Хихон;Gijón
+he;חיחון;Gijón
+ckb;خیخۆن;Gijón
+uk;Хіхон;Gijón
+ko;히혼;Gijón
+kk;Хихон;Gijón
+be;Хіхон;Gijón
+th;คีคอน;Gijón
+bg;Хихон;Gijón
+zh;希洪;Gijón
+bg;Хетафе;Getafe
+sr;Хетафе;Getafe
+th;เคตาเฟ;Getafe
+ja;ヘタフェ;Getafe
+lt;Chetafė;Getafe
+ko;헤타페;Getafe
+ar;خيتافي;Getafe
+uk;Хетафе;Getafe
+ru;Хетафе;Getafe
+zh;赫塔费;Getafe
+be;Хетафэ;Getafe
+el;Χετάφε;Getafe
+ja;ジローナ;Girona
+ru;Жерона;Girona
+sr;Жирона;Girona
+ru;Гава;Gavà
+kk;Гаррай;Garray
+uk;Гаррай;Garray
+ru;Гаррай;Garray
+uk;Гаррафе-де-Торіо;Garrafe de Torío
+ru;Гаррафе-де-Торио;Garrafe de Torío
+zh;加拉费德托里奥;Garrafe de Torío
+ar;غاراي;Garai
+hy;Գարայ;Garai
+uk;Гарай;Garai
+uz;Garay;Garai
+ru;Гарай;Garai
+zh;加赖;Garai
+sr;Гандеза;Gandesa
+ru;Гандеза;Gandesa
+ru;Гальдакано;Galdakao
+uk;Галар;Galar
+ru;Галар;Galar
+zh;加拉尔;Galar
+ru;Галапагар;Galapagar
+ar;جالاباجار;Galapagar
+uk;Галапагар;Galapagar
+zh;加拉帕加尔;Galapagar
+ru;Фунес;Funes
+uk;Фуентідуенья;Fuentidueña
+ru;Фуэнтидуэнья;Fuentidueña
+zh;丰蒂杜埃尼亚;Fuentidueña
+kk;Фуэнтес-де-Магания;Fuentes de Magaña
+uk;Фуентес-де-Маганья;Fuentes de Magaña
+ru;Фуэнтес-де-Магания;Fuentes de Magaña
+zh;丰特斯德马加尼亚;Fuentes de Magaña
+kk;Фуэнтес-де-Бехар;Fuentes de Béjar
+uk;Фуентес-де-Бехар;Fuentes de Béjar
+ru;Фуэнтес-де-Бехар;Fuentes de Béjar
+zh;丰特斯德韦哈尔;Fuentes de Béjar
+kk;Фуэнтепинилья;Fuentepinilla
+uk;Фуентепінілья;Fuentepinilla
+ru;Фуэнтепинилья;Fuentepinilla
+zh;丰特皮尼利亚;Fuentepinilla
+kk;Фуэнтельсас-де-Сория;Fuentelsaz de Soria
+uk;Фуентельсас-де-Сорія;Fuentelsaz de Soria
+ru;Фуэнтельсас-де-Сория;Fuentelsaz de Soria
+zh;丰特尔萨斯德索里亚;Fuentelsaz de Soria
+ar;فوينتيسين;Fuentecén
+fa;فوئنتسن;Fuentecén
+uk;Фуентесен;Fuentecén
+ru;Фуэнтесен;Fuentecén
+zh;丰特森;Fuentecén
+kk;Фуэнтекамброн;Fuentecambrón
+uk;Фуентекамброн;Fuentecambrón
+ru;Фуэнтекамброн;Fuentecambrón
+zh;丰特坎夫龙;Fuentecambrón
+kk;Фуэнтеармехиль;Fuentearmegil
+uk;Фуентеармехіль;Fuentearmegil
+ru;Фуэнтеармехиль;Fuentearmegil
+zh;丰特亚尔梅希尔;Fuentearmegil
+hy;Ֆուենմայոր;Fuenmayor
+kk;Фуэнмайор;Fuenmayor
+uk;Фуенмайор;Fuenmayor
+ru;Фуэнмайор;Fuenmayor
+zh;丰迈奥尔;Fuenmayor
+bg;Фуенлабрада;Fuenlabrada
+he;פואנלברדה;Fuenlabrada
+sr;Фуенлабрада;Fuenlabrada
+ja;フエンラブラダ;Fuenlabrada
+uk;Фуенлабрада;Fuenlabrada
+ru;Фуэнлабрада;Fuenlabrada
+zh;丰拉夫拉达;Fuenlabrada
+ar;فوينلابرادا;Fuenlabrada
+be;Фуэнлабрада;Fuenlabrada
+ru;Фрумалес;Frumales
+ru;Фреснедосо;Fresnedoso
+ar;فريسنيديا;Fresnedilla
+fa;فرسندییا;Fresnedilla
+hy;Ֆրեսնեդիլյա;Fresnedilla
+kk;Фреснедилья;Fresnedilla
+mk;Фреснедила;Fresnedilla
+uk;Фреснеділья;Fresnedilla
+ru;Фреснедилья;Fresnedilla
+zh;夫雷斯内迪利亚;Fresnedilla
+ru;Фрадес;Frades
+ru;Фортанете;Fortanete
+ru;Форфоледа;Forfoleda
+ar;فوركال;Forcall
+uk;Форкаль;Forcall
+ru;Форкаль;Forcall
+zh;福尔卡利;Forcall
+uk;Фонс;Fonz
+ru;Фонс;Fonz
+zh;丰斯;Fonz
+ar;فونتيفيروس;Fontiveros
+fa;فنتیبرس;Fontiveros
+kk;Фонтиверос;Fontiveros
+mk;Фонтиверос;Fontiveros
+uk;Фонтіверос;Fontiveros
+ru;Фонтиверос;Fontiveros
+zh;丰蒂韦罗斯;Fontiveros
+ru;Фонтанар;Fontanar
+uk;Фонфрія;Fonfría
+ru;Фонфрия;Fonfría
+zh;丰夫里亚;Fonfría
+ru;Фитеро;Fitero
+ru;Фистерра;Fisterra
+uk;Фігеруела-де-Арріба;Figueruela de Arriba
+ru;Фигеруэла-де-Арриба;Figueruela de Arriba
+zh;上菲格鲁埃拉;Figueruela de Arriba
+ru;Фигейрас;Figueras
+bg;Фигерeс;Figueres
+sr;Фигерeс;Figueres
+ru;Фигерас;Figueres
+uk;Фермосельє;Fermoselle
+ru;Фермоселье;Fermoselle
+zh;费尔莫塞列;Fermoselle
+ru;Фене;Fene
+ru;Фаррера;Farrera
+ru;Фарлете;Farlete
+uk;Фаріса;Fariza
+ru;Фариса;Fariza
+zh;法里萨;Fariza
+ru;Фалсет;Falset
+ru;Фаберо;Fabero
+ru;Фабара;Fabara
+uk;Ескарай;Ezcaray
+kk;Эскарай;Ezcaray
+ru;Эскарай;Ezcaray
+zh;埃斯卡赖;Ezcaray
+hy;Էսկարայ;Ezcaray
+bg;Естела;Estella-Lizarra
+uk;Естелья;Estella-Lizarra
+ja;エステーリャ;Estella-Lizarra
+ru;Эстелья;Estella-Lizarra
+zh;埃斯特利亚;Estella-Lizarra
+uk;Еспіноса-де-лос-Монтерос;Espinosa de los Monteros
+ar;إسباينوزا دي لوس مونتيروس;Espinosa de los Monteros
+ru;Эспиноса-де-лос-Монтерос;Espinosa de los Monteros
+zh;埃斯皮诺萨德洛斯蒙特罗斯;Espinosa de los Monteros
+kk;Эспехон;Espejón
+uk;Еспехон;Espejón
+ru;Эспехон;Espejón
+zh;埃斯佩洪;Espejón
+kk;Эспеха-де-Сан-Марселино;Espeja de San Marcelino
+uk;Еспеха-де-Сан-Марселіно;Espeja de San Marcelino
+ru;Эспеха-де-Сан-Марселино;Espeja de San Marcelino
+zh;埃斯佩哈德圣马尔塞利诺;Espeja de San Marcelino
+ru;Эскориаса;Eskoriatza
+ar;إيرموا;Ermua
+uk;Ермуа;Ermua
+ru;Эрмуа;Ermua
+zh;埃尔穆阿;Ermua
+ru;Эрандио;Erandio
+ar;إيراندايو;Erandio
+ja;エランディオ;Erandio
+uk;Ерандіо;Erandio
+zh;埃兰迪奥;Erandio
+ar;إبيلا;Épila
+kk;Эпила;Épila
+uk;Епіла;Épila
+ru;Эпила;Épila
+zh;埃皮拉;Épila
+ru;Энтрена;Entrena
+am;ኤንትረና;Entrena
+ar;إنترنا;Entrena
+bg;Ентрена;Entrena
+cr;ᐫᑦᕂᓇ;Entrena
+fa;انترنا;Entrena
+he;אנטרנה;Entrena
+ja;エントレナ;Entrena
+kk;Энтрена;Entrena
+ko;엔트레나;Entrena
+mk;Ентрена;Entrena
+mn;Энтрена;Entrena
+sr;Ентрена;Entrena
+uk;Ентрена;Entrena
+zh;恩特雷纳;Entrena
+hy;Էնտրենա;Entrena
+yue;恩特萊納;Entrena
+kk;Энсисо;Enciso
+uk;Енсісо;Enciso
+ru;Энсисо;Enciso
+zh;恩西索;Enciso
+hy;Էնսիսո;Enciso
+ar;إل تيمبلو;El Tiemblo
+fa;ال تیمبلو;El Tiemblo
+kk;Эль-Тьембло;El Tiemblo
+mk;Ел Тиембио;El Tiemblo
+uk;Ель-Тьємбло;El Tiemblo
+ru;Эль-Тьембло;El Tiemblo
+zh;埃尔蒂恩夫洛;El Tiemblo
+ru;Эль Прат;El Prat de Llobregat
+ar;إل بارت دي يوبريغات;El Prat de Llobregat
+ja;アル・プラ・ダ・リョブレガート;El Prat de Llobregat
+sr;Прат де Љобрегат;El Prat de Llobregat
+uk;Ал-Прат-да-Любрагат;El Prat de Llobregat
+ru;Эль-Прат-де-Льобрегат;El Prat de Llobregat
+zh;埃尔普拉特德略夫雷加特;El Prat de Llobregat
+ru;Эль-Пардо;El Pardo
+ar;ألمولار;El Molar
+hy;Էլ Մոլար;El Molar
+uk;Ель-Молар;El Molar
+ru;Эль-Молар;El Molar
+ar;إلخاس;Eljas
+uk;Ельхас;Eljas
+ru;Эльхас;Eljas
+zh;埃尔哈斯;Eljas
+ru;Эмпуриабрава;Empuriabrava
+ar;إل فرانكو;El Franco
+fa;ال فرانکو;El Franco
+uk;Ель-Франко;El Franco
+ru;Эль-Франко;El Franco
+zh;埃尔夫兰科;El Franco
+ru;Феррол;Ferrol
+uk;Ель-Еспінар;El Espinar
+ru;Эль-Эспинар;El Espinar
+zh;埃莱斯皮纳尔;El Espinar
+ja;エル・エスコリアル;El Escorial
+ko;엘에스코리알;El Escorial
+zh;埃尔埃斯科里亚尔;El Escorial
+ar;إليسكوريال;El Escorial
+el;Ελ Εσκοριάλ;El Escorial
+uk;Ель-Ескоріаль;El Escorial
+ru;Эль-Эскориаль;El Escorial
+be;Эль-Эскарыяль;El Escorial
+fa;ال اسکوریال;El Escorial
+hy;Էլ Էսկորիալ;El Escorial
+fa;ال کورتیخو;El Cortijo
+ar;زالا;Zalla
+uk;Салья;Zalla
+ru;Салья;Zalla
+zh;萨利亚;Zalla
+uk;Ель-Кардосо-де-ла-Сьєрра;El Cardoso de la Sierra
+kk;Эль-Кардосо-де-ла-Сьерра;El Cardoso de la Sierra
+ru;Эль-Кардосо-де-ла-Сьерра;El Cardoso de la Sierra
+zh;埃尔卡尔多索德拉谢拉;El Cardoso de la Sierra
+kk;Эль-Кабако;El Cabaco
+uk;Ель-Кабако;El Cabaco
+ru;Эль-Кабако;El Cabaco
+zh;埃尔卡瓦科;El Cabaco
+ar;إل باركو دي أفيلا;El Barco de Ávila
+fa;ال بارکو د آبیلا;El Barco de Ávila
+kk;Эль-Барко-де-Авила;El Barco de Ávila
+mk;Ел Брако де Авила;El Barco de Ávila
+uk;Ель-Барко-де-Авіла;El Barco de Ávila
+ru;Эль-Барко-де-Авила;El Barco de Ávila
+zh;埃尔瓦尔科德亚维拉;El Barco de Ávila
+ar;إل أستيريلو;El Astillero
+uk;Ель-Астільєро;El Astillero
+ru;Эль-Астильеро;El Astillero
+zh;埃拉斯蒂列罗;El Astillero
+ar;إل أرينال;El Arenal
+fa;ال آرنال;El Arenal
+kk;Эль-Ареналь;El Arenal
+mk;Ел Аренал;El Arenal
+uk;Ель-Ареналь;El Arenal
+ru;Эль-Ареналь;El Arenal
+zh;埃拉雷纳尔;El Arenal
+uk;Ехеа-де-лос-Кабальєрос;Ejea de los Caballeros
+ar;إيخيا دي لوس كاباييروس;Ejea de los Caballeros
+kk;Эхеа-де-лос-Кабальерос;Ejea de los Caballeros
+ru;Эхеа-де-лос-Кабальерос;Ejea de los Caballeros
+zh;埃赫亚德洛斯卡瓦列罗斯;Ejea de los Caballeros
+ru;Эйбар;Eibar
+kk;Дуруэло-де-ла-Сьерра;Duruelo de la Sierra
+uk;Дуруело-де-ла-Сьєрра;Duruelo de la Sierra
+ru;Дуруэло-де-ла-Сьерра;Duruelo de la Sierra
+zh;杜鲁埃洛德拉谢拉;Duruelo de la Sierra
+ru;Дуранго;Durango
+uk;Дуеньяс;Dueñas
+ru;Дуэньяс;Dueñas
+zh;杜埃尼亚斯;Dueñas
+hy;Դուենիաս;Dueñas
+ar;دوسرايوس;Dosrius
+fa;دسریوس;Dosrius
+zh;多斯留斯;Dosrius
+ru;Донвидас;Donvidas
+kk;Деса;Deza
+uk;Деса;Deza
+ru;Деса;Deza
+zh;德萨;Deza
+ar;ديفا، غيبوثكوا;Deba
+uk;Деба;Deba
+ru;Дева;Deba
+zh;德瓦;Deba
+ar;ديغانيا;Degaña
+fa;دگانیا;Degaña
+uk;Деганья;Degaña
+ru;Дегания;Degaña
+zh;德加尼亚;Degaña
+ru;Дас;Das
+ar;كونيت;Cunit
+uk;Куніт;Cunit
+ru;Кунит;Cunit
+zh;库尼特;Cunit
+ru;Кульередо;Culleredo
+ar;كوليريدو;Culleredo
+ja;クジェレード;Culleredo
+mk;Кулередо;Culleredo
+uk;Кульєредо;Culleredo
+zh;库列雷多;Culleredo
+ar;كوللا;Culla
+uk;Кулья;Culla
+ru;Кулья;Culla
+zh;库利亚;Culla
+ru;Куэнка;Cuenca
+ar;قونكة;Cuenca
+be;Куэнка;Cuenca
+bg;Куенка;Cuenca
+fa;کوئنکا;Cuenca
+he;קואנקה;Cuenca
+ja;クエンカ;Cuenca
+ka;კუენკა;Cuenca
+ko;쿠엥카;Cuenca
+nn;Cuenca i Spania;Cuenca
+sr;Куенка;Cuenca
+th;เกวงกา;Cuenca
+uk;Куенка;Cuenca
+yue;昆卡;Cuenca
+zh;昆卡;Cuenca
+el;Κουένκα;Cuenca
+hi;कुऐनका;Cuenca
+hy;Կուենկա;Cuenca
+lt;Kuenka;Cuenca
+pa;ਕੁਐਂਕਾ;Cuenca
+ur;کوینکا، ہسپانیہ;Cuenca
+sr;Квенка;Cuenca
+ja;クエリャル;Cuéllar
+uk;Куельяр;Cuéllar
+ru;Куэльяр;Cuéllar
+zh;库埃利亚尔;Cuéllar
+ar;كودييرو;Cudillero
+fa;کودییرو;Cudillero
+uk;Кудільєро;Cudillero
+ru;Кудильеро;Cudillero
+zh;库迪列罗;Cudillero
+kk;Кубо-де-ла-Солана;Cubo de la Solana
+uk;Кубо-де-ла-Солана;Cubo de la Solana
+ru;Кубо-де-ла-Солана;Cubo de la Solana
+zh;库沃德拉索拉纳;Cubo de la Solana
+kk;Коваледа;Covaleda
+uk;Коваледа;Covaleda
+ru;Коваледа;Covaleda
+zh;科瓦莱达;Covaleda
+ru;Ковадонга;Covadonga
+ru;Кослада;Coslada
+sr;Кослада;Coslada
+ja;コスラーダ;Coslada
+uk;Кослада;Coslada
+zh;科斯拉达;Coslada
+ar;كوسلادا;Coslada
+kk;Коскурита;Coscurita
+uk;Коскуріта;Coscurita
+ru;Коскурита;Coscurita
+zh;科斯库里塔;Coscurita
+hy;Կորնագո;Cornago
+kk;Корнаго;Cornago
+uk;Корнаго;Cornago
+ru;Корнаго;Cornago
+zh;科尔纳戈;Cornago
+uk;Корелья;Corella
+ru;Корелья;Corella
+zh;科雷利亚;Corella
+ru;Комильяс;Comillas
+ru;Комбарро;Combarro
+ar;كولونغا;Colunga
+fa;کلونگا;Colunga
+uk;Колунга;Colunga
+ru;Колунга;Colunga
+zh;科伦加;Colunga
+he;קולמנאר וייחו;Colmenar Viejo
+uk;Кольменар-Вєхо;Colmenar Viejo
+ru;Кольменар-Вьехо;Colmenar Viejo
+zh;旧科尔梅纳尔;Colmenar Viejo
+ar;كولمينار فيجو;Colmenar Viejo
+fa;کولمنار ویگو;Colmenar Viejo
+hy;Կոլմենար Վիեխո;Colmenar Viejo
+ru;Кольядо-Вильяльба;Collado-Villalba
+ar;كوليندريس;Colindres
+uk;Коліндрес;Colindres
+ru;Колиндрес;Colindres
+zh;科林德雷斯;Colindres
+sr;Кока;Coca
+uk;Кока;Coca
+ru;Кока;Coca
+zh;科卡;Coca
+ar;كوانيا;Coaña
+fa;کئانیا;Coaña
+uk;Коанья;Coaña
+ru;Коания;Coaña
+zh;科阿尼亚;Coaña
+hy;Կլավիխո;Clavijo
+kk;Клавихо;Clavijo
+uk;Клавіхо;Clavijo
+ru;Клавихо;Clavijo
+zh;克拉维霍;Clavijo
+ru;Сиурана;Siurana
+uk;Сьюдад-Родріго;Ciudad Rodrigo
+kk;Сьюдад-Родриго;Ciudad Rodrigo
+ja;シウダ・ロドリーゴ;Ciudad Rodrigo
+ru;Сьюдад-Родриго;Ciudad Rodrigo
+zh;罗德里戈城;Ciudad Rodrigo
+sr;Сјудад Родриго;Ciudad Rodrigo
+ar;سويداد لينيال;Ciudad Lineal
+ja;シウダー・リネアル;Ciudad Lineal
+qu;Ciudad Lineal distritu;Ciudad Lineal
+ru;Сьюдад-Линеаль;Ciudad Lineal
+hy;Սյուդադ Լինեալ;Ciudad Lineal
+ko;시우다드리네알;Ciudad Lineal
+zh;休达利内亚尔区;Ciudad Lineal
+ar;ثيستيرنا;Cistierna
+uk;Сістьєрна;Cistierna
+ru;Систьерна;Cistierna
+zh;西斯铁尔纳;Cistierna
+uk;Сіснерос;Cisneros
+ru;Сиснерос;Cisneros
+zh;西斯内罗斯;Cisneros
+ar;كايليروس;Cilleros
+uk;Сільєрос;Cilleros
+ru;Сильерос;Cilleros
+zh;西列罗斯;Cilleros
+kk;Сифуэнтес;Cifuentes
+uk;Сіфуентес;Cifuentes
+ru;Сифуэнтес;Cifuentes
+zh;西丰特斯;Cifuentes
+hy;Սիֆուենտես;Cifuentes
+kk;Сидонес;Cidones
+uk;Сідонес;Cidones
+ru;Сидонес;Cidones
+zh;西多内斯;Cidones
+ar;تشينتشون;Chinchón
+uk;Чинчон;Chinchón
+ru;Чинчон;Chinchón
+zh;钦琼;Chinchón
+ru;Чамартин;Chamartín
+hy;Չամարտին;Chamartín
+qu;Chamartín distritu;Chamartín
+ko;차마르틴;Chamartín
+el;Τσαμαρτίν;Chamartín
+zh;查馬丁區;Chamartín
+ja;チャマルティン;Chamartín
+fa;چامارتین;Chamartín
+ar;كيسوراس;Cesuras
+fa;سیسوراس;Cesuras
+ja;セスーラス;Cesuras
+mk;Сесурас;Cesuras
+uk;Сесурас;Cesuras
+ru;Сесурас;Cesuras
+zh;塞苏拉斯;Cesuras
+uk;Сервера-де-Пісуерга;Cervera de Pisuerga
+ru;Сервера-де-Писуэрга;Cervera de Pisuerga
+zh;塞尔韦拉德皮苏埃尔加;Cervera de Pisuerga
+kk;Сервера-дель-Рио-Альхама;Cervera del Río Alhama
+uk;Сервера-дель-Ріо-Алама;Cervera del Río Alhama
+ru;Сервера-дель-Рио-Алама;Cervera del Río Alhama
+zh;阿尔阿马河畔塞尔韦拉德尔;Cervera del Río Alhama
+hy;Սերվերա դել Ռիո Ալամա;Cervera del Río Alhama
+ar;سيريزو دي رايو تايرون;Cerezo de Río Tirón
+uk;Сересо-де-Ріо-Тірон;Cerezo de Río Tirón
+ru;Сересо-де-Рио-Тирон;Cerezo de Río Tirón
+zh;塞雷索德里奥蒂龙;Cerezo de Río Tirón
+hy;Սեպեդա;Cepeda
+kk;Сепеда;Cepeda
+uk;Сепеда;Cepeda
+ru;Сепеда;Cepeda
+zh;塞佩达;Cepeda
+kk;Сентенера-де-Андалус;Centenera de Andaluz
+uk;Сентенера-де-Андалус;Centenera de Andaluz
+ru;Сентенера-де-Андалус;Centenera de Andaluz
+zh;森特内拉德亚恩达卢斯;Centenera de Andaluz
+ar;سي;Cee
+fa;سی گالیسیا;Cee
+ja;セー;Cee
+mk;Сее;Cee
+uk;Сее;Cee
+ru;Сеэ;Cee
+zh;塞埃;Cee
+ar;سيديريا;Cedeira
+fa;سیدیرا;Cedeira
+ja;セデイラ;Cedeira
+mk;Седеира;Cedeira
+uk;Седейра;Cedeira
+ru;Седейра;Cedeira
+zh;塞德拉;Cedeira
+sr;Седејра;Cedeira
+ja;セア;Cea
+uk;Сеа;Cea
+ru;Сеа;Cea
+zh;塞亚;Cea
+ar;كاستروبول;Castropol
+fa;کاسترپل;Castropol
+uk;Кастрополь;Castropol
+ru;Кастрополь;Castropol
+zh;卡斯特罗波尔;Castropol
+ar;كاستيلريلو ديل فال;Castrillo del Val
+uk;Кастрільйо-дель-Валь;Castrillo del Val
+ru;Кастрильо-дель-Валь;Castrillo del Val
+zh;卡斯特里略德尔瓦尔;Castrillo del Val
+kk;Кастильруйс;Castilruiz
+uk;Кастільруїс;Castilruiz
+ru;Кастильруйс;Castilruiz
+zh;卡斯蒂尔鲁伊斯;Castilruiz
+ru;Кастель-Пладжа-де-Аро;Castell-Platja d'Aro
+kk;Кастильфрио-де-ла-Сьерра;Castilfrío de la Sierra
+uk;Кастільфріо-де-ла-Сьєрра;Castilfrío de la Sierra
+ru;Кастильфрио-де-ла-Сьерра;Castilfrío de la Sierra
+zh;卡斯蒂尔夫里奥德拉谢拉;Castilfrío de la Sierra
+kk;Кастельоте;Castellote
+uk;Кастельйоте;Castellote
+ru;Кастельоте;Castellote
+zh;卡斯特略特;Castellote
+ar;كاستيلبايسبال;Castellbisbal
+fa;کاستیبیسبال;Castellbisbal
+hy;Կաստելբիսբալ;Castellbisbal
+uk;Кастельбісбал;Castellbisbal
+zh;比斯瓦尔堡;Castellbisbal
+ar;كاستيلار ديل فاليس;Castellar del Vallès
+kk;Кастельяр-дель-Вальес;Castellar del Vallès
+uk;Касталя-дал-Бальєс;Castellar del Vallès
+ru;Кастельяр-дель-Вальес;Castellar del Vallès
+zh;巴列斯堡;Castellar del Vallès
+fa;کاستیار دل بایس;Castellar del Vallès
+hy;Կաստելյար դել Վալյես;Castellar del Vallès
+ar;كاسبي;Caspe
+kk;Каспе;Caspe
+uk;Каспе;Caspe
+ru;Каспе;Caspe
+zh;卡斯佩;Caspe
+hy;Կասալառեյնա;Casalarreina
+kk;Касаларрейна;Casalarreina
+uk;Касаларрейна;Casalarreina
+ru;Касаларрейна;Casalarreina
+zh;卡萨拉雷纳;Casalarreina
+ar;كارتيس;Cartes
+uk;Картес;Cartes
+ru;Картес;Cartes
+zh;卡尔特斯;Cartes
+uk;Карріон-де-лос-Кондес;Carrión de los Condes
+ru;Каррион-де-лос-Кондес;Carrión de los Condes
+zh;卡里翁德洛斯孔德斯;Carrión de los Condes
+uk;Карбельїно;Carbellino
+ru;Карбельино;Carbellino
+zh;卡尔韦利诺;Carbellino
+ru;Карбальо;Carballo
+ru;Керальбс;Queralbs
+uk;Канталехо;Cantalejo
+ru;Канталехо;Cantalejo
+zh;坎塔莱霍;Cantalejo
+ar;كونايشوسا دي لا سايرا;Canicosa de la Sierra
+uk;Канікоса-де-ла-Сьєрра;Canicosa de la Sierra
+ru;Каникоса-де-ла-Сьерра;Canicosa de la Sierra
+zh;卡尼科萨德拉谢拉;Canicosa de la Sierra
+ar;كانغاس دي أونيس;Cangas de Onís
+fa;کانگاس د انیس;Cangas de Onís
+ja;カンガス・デ・オニス;Cangas de Onís
+uk;Кангас-де-Оніс;Cangas de Onís
+ru;Кангас-де-Онис;Cangas de Onís
+zh;坎加斯德奥尼斯;Cangas de Onís
+uk;Кангас-дель-Нарсеа;Cangas del Narcea
+ar;كانغاس ديل نارثيا;Cangas del Narcea
+fa;کانگاس دل نارکئا;Cangas del Narcea
+ru;Кангас-дель-Нарсеа;Cangas del Narcea
+zh;坎加斯德尔纳尔塞亚;Cangas del Narcea
+uk;Канфранк;Canfranc
+ru;Канфранк;Canfranc
+zh;坎夫兰克;Canfranc
+kk;Кандиличера;Candilichera
+uk;Канділічера;Candilichera
+ru;Кандиличера;Candilichera
+zh;坎迪利切拉;Candilichera
+ar;كاندليدا;Candeleda
+fa;کاندلدا;Candeleda
+kk;Канделеда;Candeleda
+mk;Канделеда;Candeleda
+uk;Канделеда;Candeleda
+ru;Канделеда;Candeleda
+zh;坎德莱达;Candeleda
+sk;Pole;Campo
+kk;Кампильо-де-Ранас;Campillo de Ranas
+uk;Кампільйо-де-Ранас;Campillo de Ranas
+ru;Кампильо-де-Ранас;Campillo de Ranas
+zh;坎皮略德拉纳斯;Campillo de Ranas
+fa;کامپاسپرو;Campaspero
+hy;Կամպասպերո;Campaspero
+uk;Кампасперо;Campaspero
+ru;Кампасперо;Campaspero
+zh;坎帕斯佩罗;Campaspero
+ru;Ланда;Landa
+kk;Каминреаль;Caminreal
+uk;Камінреаль;Caminreal
+ru;Каминреаль;Caminreal
+zh;卡明雷亚尔;Caminreal
+ar;كاماينومورايسكو;Caminomorisco
+uk;Каміноморіско;Caminomorisco
+ru;Каминомориско;Caminomorisco
+zh;卡米诺莫里斯科;Caminomorisco
+ru;Камбрилс;Cambrils
+fa;کمبریلز;Cambrils
+ja;カンブリス;Cambrils
+uk;Камбрілс;Cambrils
+ru;Камбрильс;Cambrils
+zh;坎夫里尔斯;Cambrils
+ar;كامارينياس;Camariñas
+fa;کاماریناس;Camariñas
+ja;カマリーニャス;Camariñas
+mk;Камарињас;Camariñas
+uk;Камаріньяс;Camariñas
+ru;Камариньяс;Camariñas
+zh;卡马里尼亚斯;Camariñas
+ru;Камарго;Camargo
+ar;كامالينيو;Camaleño
+uk;Камаленьйо;Camaleño
+ru;Камаленьо;Camaleño
+zh;卡马莱尼奥;Camaleño
+kk;Кальтохар;Caltojar
+uk;Кальтохар;Caltojar
+ru;Кальтохар;Caltojar
+zh;卡尔托哈尔;Caltojar
+ar;كاليرويغا;Caleruega
+uk;Калеруега;Caleruega
+ru;Калеруэга;Caleruega
+zh;卡莱鲁埃加;Caleruega
+fa;کالروئگا;Caleruega
+ru;Калейя де Палафружель;Calella de Palafrugell
+ru;Кальдас-де-Малавелья;Caldes de Malavella
+fa;کالاتایود;Calatayud
+uk;Калатаюд;Calatayud
+kk;Калатаюд;Calatayud
+ar;قلعة أيوب;Calatayud
+ja;カラタユー;Calatayud
+ru;Калатаюд;Calatayud
+zh;卡拉泰乌德;Calatayud
+uk;Каламоча;Calamocha
+kk;Каламоча;Calamocha
+ru;Каламоча;Calamocha
+zh;卡拉莫查;Calamocha
+ja;カラオラ;Calahorra
+uk;Калаорра;Calahorra
+kk;Калаорра;Calahorra
+ru;Калаорра;Calahorra
+zh;卡拉奥拉;Calahorra
+ar;قلهرة;Calahorra
+hy;Կալաոռա;Calahorra
+ru;Кадакес;Cadaqués
+kk;Кабрехас-дель-Кампо;Cabrejas del Campo
+uk;Кабрехас-дель-Кампо;Cabrejas del Campo
+ru;Кабрехас-дель-Кампо;Cabrejas del Campo
+zh;卡夫雷哈斯德尔坎波;Cabrejas del Campo
+ar;كابيزون دي يبانا;Cabezón de Liébana
+uk;Кабесон-де-Льєбана;Cabezón de Liébana
+ru;Кабесон-де-Льебана;Cabezón de Liébana
+zh;卡韦松德列瓦纳;Cabezón de Liébana
+ar;كابيزون دي لا سايرا;Cabezón de la Sierra
+fa;کابسن د لا سیرا;Cabezón de la Sierra
+hy;Կաբեսոն դե լա Սիեռա;Cabezón de la Sierra
+uk;Кабесон-де-ла-Сьєрра;Cabezón de la Sierra
+ru;Кабесон-де-ла-Сьерра;Cabezón de la Sierra
+zh;卡韦松德拉谢拉;Cabezón de la Sierra
+uk;Кабесон-де-ла-Саль;Cabezón de la Sal
+ar;كابيزون دي لا سال;Cabezón de la Sal
+ru;Кабесон-де-ла-Саль;Cabezón de la Sal
+zh;卡韦松德拉萨尔;Cabezón de la Sal
+kk;Кабанильяс-дель-Кампо;Cabanillas del Campo
+uk;Кабанільяс-дель-Кампо;Cabanillas del Campo
+ru;Кабанильяс-дель-Кампо;Cabanillas del Campo
+zh;卡瓦尼利亚斯德尔坎波;Cabanillas del Campo
+ar;بوستارفيجو;Bustarviejo
+uk;Бустарвєхо;Bustarviejo
+ru;Бустарвьехо;Bustarviejo
+zh;布斯塔尔维耶霍;Bustarviejo
+ru;Бустарес;Bustares
+ru;Бурлата;Burlata
+ar;برغش;Burgos
+bg;Бургос;Burgos
+ja;ブルゴス;Burgos
+ru;Бургос;Burgos
+sr;Бургос;Burgos
+az;Burqos;Burgos
+lt;Burgosas;Burgos
+fa;بورگوس;Burgos
+uk;Бургос;Burgos
+ko;부르고스;Burgos
+th;บูร์โกส;Burgos
+zh;布尔戈斯;Burgos
+be;Бургас;Burgos
+el;Μπούργος;Burgos
+he;בורגוס;Burgos
+hy;Բուրգոս;Burgos
+lv;Burgosa;Burgos
+ur;بورگوس;Burgos
+ar;بورغوهوندو;Burgohondo
+fa;بورگوهوندو;Burgohondo
+kk;Бургоондо;Burgohondo
+mk;Бургохондо;Burgohondo
+uk;Бургоондо;Burgohondo
+ru;Бургоондо;Burgohondo
+zh;布尔戈翁多;Burgohondo
+ru;Бурета;Bureta
+uk;Буїтраго-дель-Лосоя;Buitrago del Lozoya
+ru;Буйтраго-дель-Лосойя;Buitrago del Lozoya
+zh;布伊特拉戈德略索亚;Buitrago del Lozoya
+ar;بويتراجو ديل وزويا;Buitrago del Lozoya
+kk;Буйтраго;Buitrago
+uk;Буїтраго;Buitrago
+ru;Буйтраго;Buitrago
+zh;布伊特拉戈;Buitrago
+ar;بوينديا;Buendía
+kk;Буэндиа;Buendía
+uk;Буендія;Buendía
+ru;Буэндиа;Buendía
+zh;本迪亚;Buendía
+ru;Буберос;Buberos
+ru;Брунете;Brunete
+ru;Брото;Broto
+ar;برايفايسكا;Briviesca
+uk;Брівєска;Briviesca
+ru;Бривьеска;Briviesca
+zh;布里维耶斯卡;Briviesca
+hy;Բրիոնես;Briones
+kk;Брионес;Briones
+uk;Бріонес;Briones
+ru;Брионес;Briones
+zh;布里奥内斯;Briones
+kk;Бриуэга;Brihuega
+uk;Бріуега;Brihuega
+ru;Бриуэга;Brihuega
+ru;Бреда;Breda
+uk;Браньйосера;Brañosera
+ru;Браньосера;Brañosera
+zh;布拉尼奥塞拉;Brañosera
+ar;برابوس;Brabos
+fa;برابس;Brabos
+hy;Բրաբոս;Brabos
+kk;Брабос;Brabos
+mk;Брабос;Brabos
+uk;Брабос;Brabos
+ru;Брабос;Brabos
+zh;布拉沃斯;Brabos
+ru;Боторрита;Botorrita
+ru;Бот;Bot
+ru;Борренес;Borrenes
+kk;Боробиа;Borobia
+uk;Боробія;Borobia
+ru;Боробиа;Borobia
+zh;博罗维亚;Borobia
+ru;Бордилс;Bordils
+ru;Бордалба;Bordalba
+ru;Бонастре;Bonastre
+ru;Бонанса;Bonansa
+ru;Болвир;Bolvir
+ar;بولتانيا;Boltaña
+ja;ボルターニャ;Boltaña
+uk;Больтанья;Boltaña
+ru;Больтания;Boltaña
+zh;博尔塔尼亚;Boltaña
+uk;Босегільяс;Boceguillas
+ru;Босегильяс;Boceguillas
+zh;博塞吉利亚斯;Boceguillas
+ru;Бовера;Bovera
+ar;بوال;Boal
+fa;بئال;Boal
+uk;Боаль;Boal
+ru;Боаль;Boal
+zh;博阿尔;Boal
+ar;بواديلا ديل مونتي;Boadilla del Monte
+he;בואדייה דל מונטה;Boadilla del Monte
+uk;Боаділья-дель-Монте;Boadilla del Monte
+ru;Боадилья-дель-Монте;Boadilla del Monte
+zh;博阿迪利亚德尔蒙特;Boadilla del Monte
+kk;Боада;Boada
+uk;Боада;Boada
+ru;Боада;Boada
+zh;博阿达;Boada
+ru;Блеса;Blesa
+ru;Бланес;Blanes
+ru;Бисимбре;Bisimbre
+ar;بيوتا;Biota
+hy;Բիոտա;Biota
+kk;Биота;Biota
+uk;Біота;Biota
+ru;Биота;Biota
+zh;比奥塔;Biota
+ar;بيمينس;Bimenes
+fa;بیمنس;Bimenes
+uk;Біменес;Bimenes
+ru;Бименес;Bimenes
+zh;比梅内斯;Bimenes
+ru;Бильбао;Bilbao
+ja;ビルバオ;Bilbao
+cy;Bilbo;Bilbao
+os;Бильбао;Bilbao
+ce;Билбао;Bilbao
+fa;بیلبائو;Bilbao
+sr;Билбао;Bilbao
+uk;Більбао;Bilbao
+ug;Bilbaw;Bilbao
+el;Μπιλμπάο;Bilbao
+ko;빌바오;Bilbao
+bg;Билбао;Bilbao
+he;בילבאו;Bilbao
+be;Більбаа;Bilbao
+ka;ბილბაო;Bilbao
+th;บิลบาโอ;Bilbao
+zh;毕尔巴鄂;Bilbao
+ar;بلباو;Bilbao
+mr;बिल्बाओ;Bilbao
+mhr;Бильбао;Bilbao
+hy;Բիլբաո;Bilbao
+mn;Бильбао;Bilbao
+ckb;بیلباو;Bilbao
+kk;Бильбао;Bilbao
+ko;비에스카스;Biescas
+uk;Бєскас;Biescas
+ru;Бьескас;Biescas
+zh;毕斯卡斯;Biescas
+ar;بييل;Biel
+kk;Бьель;Biel
+uk;Бєль;Biel
+ru;Бьель;Biel
+zh;别尔;Biel
+ru;Бетета;Beteta
+ru;Бетелу;Betelu
+ru;Бесалу;Besalú
+gl;Berroxe;Berroge
+ru;Берроби;Berrobi
+ru;Бернардос;Bernardos
+uk;Бермільйо-де-Саяго;Bermillo de Sayago
+ru;Бермильо-де-Сайяго;Bermillo de Sayago
+zh;贝尔米略德赛阿戈;Bermillo de Sayago
+ar;بيرميو;Bermeo
+ja;ベルメオ;Bermeo
+uk;Бермео;Bermeo
+ru;Бермео;Bermeo
+zh;贝尔梅奥;Bermeo
+uk;Берланга-де-Дуеро;Berlanga de Duero
+kk;Берланга-де-Дуэро;Berlanga de Duero
+ru;Берланга-де-Дуэро;Berlanga de Duero
+zh;贝尔兰加德杜埃罗;Berlanga de Duero
+ru;Берберана;Berberana
+kk;Бератон;Beratón
+uk;Бератон;Beratón
+ru;Бератон;Beratón
+zh;贝拉通;Beratón
+ar;بنو قاسم;Benicàssim
+ru;Беникарло;Benicarló
+ru;Бенавидес;Benavides
+ru;Бенавенте;Benavente
+uk;Бенаске;Benasque
+ru;Бенаске;Benasque
+zh;贝纳斯克;Benasque
+el;Μπενάσκε;Benasque
+ru;Бенассал;Benassal
+ja;ベンビブレ;Bembibre
+uk;Бембібре;Bembibre
+ru;Бембибре;Bembibre
+zh;本维夫雷;Bembibre
+uk;Белорадо;Belorado
+ar;بيلورادو;Belorado
+ru;Белорадо;Belorado
+zh;贝洛拉多;Belorado
+ar;بيلتشيتي;Belchite
+kk;Бельчите;Belchite
+uk;Бельчите;Belchite
+ru;Бельчите;Belchite
+zh;贝尔奇特;Belchite
+ru;Белбимбре;Belbimbre
+kk;Бехар;Béjar
+uk;Бехар;Béjar
+ru;Бехар;Béjar
+zh;贝哈尔;Béjar
+fa;بسریل د کامپس;Becerril de Campos
+hy;Բեսեռիլ դե Կամպոս;Becerril de Campos
+uk;Бесерріль-де-Кампос;Becerril de Campos
+ru;Бесерриль-де-Кампос;Becerril de Campos
+zh;贝塞里尔德坎波斯;Becerril de Campos
+kk;Баюбас-де-Арриба;Bayubas de Arriba
+uk;Баюбас-де-Арріба;Bayubas de Arriba
+ru;Баюбас-де-Арриба;Bayubas de Arriba
+zh;拜乌瓦斯德亚里瓦;Bayubas de Arriba
+kk;Баюбас-де-Абахо;Bayubas de Abajo
+uk;Баюбас-де-Абахо;Bayubas de Abajo
+ru;Баюбас-де-Абахо;Bayubas de Abajo
+zh;拜乌瓦斯德亚瓦霍;Bayubas de Abajo
+ru;Батрес;Batres
+uk;Басконсільйос-дель-Тосо;Basconcillos del Tozo
+ar;باسكونسايلوس ديل توزو;Basconcillos del Tozo
+ru;Басконсильос-дель-Тосо;Basconcillos del Tozo
+zh;巴斯孔西略斯德尔托索;Basconcillos del Tozo
+uk;Барруело-де-Сантульян;Barruelo de Santullán
+ru;Барруэло-де-Сантульян;Barruelo de Santullán
+zh;巴鲁埃洛德桑图良;Barruelo de Santullán
+kk;Барруэкопардо;Barruecopardo
+uk;Барруекопардо;Barruecopardo
+ru;Барруэкопардо;Barruecopardo
+zh;巴鲁埃科帕尔多;Barruecopardo
+ru;Барро;Barro
+ru;Баррадо;Barrado
+ar;بارسينا دي بي دي كونتشا;Bárcena de Pie de Concha
+uk;Барсена-де-Пє-де-Конча;Bárcena de Pie de Concha
+ru;Барсена-де-Пье-де-Конча;Bárcena de Pie de Concha
+zh;巴尔塞纳德彼德孔查;Bárcena de Pie de Concha
+ar;بارسينا دي سايسيرو;Bárcena de Cicero
+uk;Барсена-де-Сісеро;Bárcena de Cicero
+ru;Барсена-де-Сисеро;Bárcena de Cicero
+zh;巴尔塞纳德西塞罗;Bárcena de Cicero
+ar;برشلونة;Barcelona
+bg;Барселона;Barcelona
+el;Βαρκελώνη;Barcelona
+fa;بارسلون;Barcelona
+he;ברצלונה;Barcelona
+is;Barselóna;Barcelona
+ja;バルセロナ;Barcelona
+ka;ბარსელონა;Barcelona
+ko;바르셀로나;Barcelona
+lt;Barselona;Barcelona
+lv;Barselona;Barcelona
+ru;Барселона;Barcelona
+sr;Барселона;Barcelona
+th;บาร์เซโลนา;Barcelona
+tr;Barselona;Barcelona
+hy;Բարսելոնա;Barcelona
+tl;Lungsod ng Barcelona;Barcelona
+uk;Барселона;Barcelona
+ur;برشلونہ;Barcelona
+os;Барселонæ;Barcelona
+ckb;بارسێلۆنا;Barcelona
+ku;Barselona;Barcelona
+mzn;بارسلون;Barcelona
+cv;Барселона;Barcelona
+mg;Barselona;Barcelona
+mk;Барселона;Barcelona
+ta;பார்செலோனா;Barcelona
+hi;बार्सिलोना;Barcelona
+ml;ബാഴ്സലോണ;Barcelona
+be;Барселона;Barcelona
+az;Barselona;Barcelona
+mr;बार्सिलोना;Barcelona
+bn;বার্সেলোনা;Barcelona
+bo;བྷར་སེ་ལོ་ནཱ།;Barcelona
+ug;Barsélona;Barcelona
+am;ባርሴሎና;Barcelona
+sgs;Barseluona;Barcelona
+ce;Барселона;Barcelona
+kaa;Barselona;Barcelona
+kab;Barseluna;Barcelona
+kk;Барселона;Barcelona
+ky;Барселона;Barcelona
+lez;Барселона;Barcelona
+lo;ບາກເຊໂລນ;Barcelona
+mhr;Барселоно;Barcelona
+mn;Барселон;Barcelona
+my;ဘာစီလိုနာမြို့;Barcelona
+ne;बार्सिलोना;Barcelona
+pa;ਬਾਰਸੀਲੋਨਾ;Barcelona
+tg;Барселона;Barcelona
+tt;Барселона;Barcelona
+vep;Barselon;Barcelona
+yue;巴薩隆拿;Barcelona
+zh;巴塞罗那;Barcelona
+tpi;Baselona;Barcelona
+zh-TW;巴塞隆納;Barcelona
+kk;Барка;Barca
+ko;바르카;Barca
+uk;Барка;Barca
+ru;Барка;Barca
+zh;巴尔卡;Barca
+ja;バルバストロ;Barbastro
+lt;Barbastras;Barbastro
+uk;Барбастро;Barbastro
+ru;Барбастро;Barbastro
+zh;巴尔瓦斯特罗;Barbastro
+ar;بربشتر;Barbastro
+el;Μπαρμπάστρο;Barbastro
+ru;Барбалос;Barbalos
+hy;Բարասոաին;Barásoain
+uk;Барасоайн;Barásoain
+ru;Барасоайн;Barásoain
+zh;巴拉索阿因;Barásoain
+ru;Бараньяйн;Barañáin
+hy;Բանիոս դե Ռիոխա;Baños de Rioja
+uk;Баньйос-де-Ріоха;Baños de Rioja
+ru;Баньос-де-Риоха;Baños de Rioja
+zh;巴尼奥斯德里奥哈;Baños de Rioja
+tr;Baños de Ebro;Mañueta / Baños de Ebro
+ru;Банде;Bande
+hy;Բանիարես;Bañares
+kk;Баньярес;Bañares
+uk;Баньярес;Bañares
+ru;Баньярес;Bañares
+zh;巴尼亚雷斯;Bañares
+ru;Балтар;Baltar
+uk;Байло;Bailo
+ru;Байло;Bailo
+zh;拜洛;Bailo
+ru;Бага;Bagà
+ru;Бадулес;Badules
+sr;Бадалона;Badalona
+ru;Бадалона;Badalona
+ka;ბადალონა;Badalona
+ar;بادالونا;Badalona
+ja;バダロナ;Badalona
+uk;Бадалона;Badalona
+kk;Бадалона;Badalona
+bg;Бадалона;Badalona
+zh;巴达洛纳;Badalona
+be;Бадалона;Badalona
+el;Μπαδαλόνα;Badalona
+fa;بادالونا;Badalona
+hy;Բադալոնա;Badalona
+ko;바달로나;Badalona
+th;บาดาโลนา;Badalona
+ru;Асукека-де-Энарес;Azuqueca de Henares
+kk;Асукека-де-Энарес;Azuqueca de Henares
+uk;Асукека-де-Енарес;Azuqueca de Henares
+zh;阿苏克卡德埃纳雷斯;Azuqueca de Henares
+ar;أثبيتيا;Azpeitia
+ja;アスペイティア;Azpeitia
+uk;Аспейтія;Azpeitia
+ru;Аспейтиа;Azpeitia
+zh;阿斯佩蒂亚;Azpeitia
+hy;Ասոֆրա;Azofra
+kk;Асофра;Azofra
+uk;Асофра;Azofra
+ru;Асофра;Azofra
+zh;阿索夫拉;Azofra
+ru;Аербе;Ayerbe
+ja;アイェルベ;Ayerbe
+ko;아예르베;Ayerbe
+uk;Аєрбе;Ayerbe
+zh;阿耶韦;Ayerbe
+ru;Авилес;Avilés
+ar;أفيليس;Avilés
+sr;Авилес;Avilés
+fa;آبیلس;Avilés
+ja;アビレス;Avilés
+lt;Avilesas;Avilés
+ko;아빌레스;Avilés
+uk;Авілес;Avilés
+zh;阿维莱斯;Avilés
+ja;アビラ;Ávila
+ru;Авила;Ávila
+bg;Авила;Ávila
+hy;Աուսեխո;Ausejo
+kk;Аусехо;Ausejo
+uk;Аусехо;Ausejo
+ru;Аусехо;Ausejo
+zh;奥塞霍;Ausejo
+ar;أتينثا;Atienza
+el;Ατιένθα;Atienza
+kk;Атьенса;Atienza
+uk;Атьєнса;Atienza
+ru;Атьенса;Atienza
+zh;阿蒂恩萨;Atienza
+ru;Асторга;Astorga
+ru;Аспа;Aspa
+hy;Առոյոմոլինոս;Arroyomolinos
+ko;아로요몰리노스;Arroyomolinos
+uk;Арройомолінос;Arroyomolinos
+ru;Арройомолинос;Arroyomolinos
+ar;أرايغوريغا;Arrigorriaga
+uk;Аррігорріага;Arrigorriaga
+ru;Арригорриага;Arrigorriaga
+zh;阿里戈里亚加;Arrigorriaga
+ru;Арредондо;Arredondo
+ru;Аррабалде;Arrabalde
+ar;أرنيرو;Arnuero
+uk;Арнуеро;Arnuero
+ru;Арнуэро;Arnuero
+zh;阿尔努埃罗;Arnuero
+ar;أرنيدو;Arnedo
+hy;Արնեդո;Arnedo
+ja;アルネド;Arnedo
+kk;Арнедо;Arnedo
+ko;아르네도;Arnedo
+uk;Арнедо;Arnedo
+ru;Арнедо;Arnedo
+zh;阿尔内多;Arnedo
+hy;Արնեդիլիո;Arnedillo
+kk;Арнедильо;Arnedillo
+uk;Арнедільйо;Arnedillo
+ru;Арнедильо;Arnedillo
+zh;阿尔内迪略;Arnedillo
+ru;Арментерос;Armenteros
+ar;أرلانزون;Arlanzón
+fa;آرلانسن;Arlanzón
+hy;Արլանսոն;Arlanzón
+uk;Арлансон;Arlanzón
+ru;Арлансон;Arlanzón
+ru;Арибе;Aribe
+uk;Аргедас;Arguedas
+ru;Аргедас;Arguedas
+zh;阿尔格达斯;Arguedas
+ar;أرغونيوس;Argoños
+uk;Аргоньйос;Argoños
+ru;Аргоньос;Argoños
+zh;阿尔戈尼奥斯;Argoños
+ru;Арганда;Arganda
+kk;Аревало-де-ла-Сьерра;Arévalo de la Sierra
+uk;Аревало-де-ла-Сьєрра;Arévalo de la Sierra
+ru;Аревало-де-ла-Сьерра;Arévalo de la Sierra
+zh;阿雷瓦洛德拉谢拉;Arévalo de la Sierra
+fa;آربالو;Arévalo
+mk;Аревало;Arévalo
+uk;Аревало;Arévalo
+ar;أريفالو;Arévalo
+ja;アレバロ;Arévalo
+kk;Аревало;Arévalo
+ru;Аревало;Arévalo
+zh;阿雷瓦洛;Arévalo
+ru;Аресо;Areso
+ru;Арес;Ares
+ar;أرينيس دي مار;Arenys de Mar
+fa;آرنیس د مار;Arenys de Mar
+hy;Արենիս դե Մար;Arenys de Mar
+kk;Ареньс-де-Мар;Arenys de Mar
+ko;아레니스데마르;Arenys de Mar
+uk;Ареньш-да-Мар;Arenys de Mar
+ru;Ареньс-де-Мар;Arenys de Mar
+zh;滨海阿雷尼斯;Arenys de Mar
+uk;Аренас-де-Сан-Педро;Arenas de San Pedro
+ar;أريناس دي سان بيدرو;Arenas de San Pedro
+fa;آرناس د سان پدرو;Arenas de San Pedro
+mk;Аренас де Сан Педро;Arenas de San Pedro
+kk;Аренас-де-Сан-Педро;Arenas de San Pedro
+ru;Аренас-де-Сан-Педро;Arenas de San Pedro
+zh;阿雷纳斯德圣佩德罗;Arenas de San Pedro
+uk;Аренас-де-Ігунья;Arenas de Iguña
+ar;أريناس دي أغوينيا;Arenas de Iguña
+ru;Аренас-де-Игуния;Arenas de Iguña
+zh;阿雷纳斯德古尼亚;Arenas de Iguña
+uk;Аркос-де-Халон;Arcos de Jalón
+kk;Аркос-де-Халон;Arcos de Jalón
+ru;Аркос-де-Халон;Arcos de Jalón
+zh;阿尔科斯德哈隆;Arcos de Jalón
+ar;أركش;Arcos
+fa;آرکس;Arcos
+hu;Arcos de la Llana;Arcos
+uk;Аркос;Arcos
+uz;Arcos de la Llana;Arcos
+ru;Аркос-де-ла-Льяна;Arcos
+uk;Арсе;Arce
+vi;Arce - Artzi;Arce
+pl;Artzi;Arce
+ru;Арсе;Arce
+zh;阿尔塞;Arce
+ar;أربو;Arbo
+fa;آربو;Arbo
+ja;アルボ;Arbo
+kk;Арбо;Arbo
+uk;Арбо;Arbo
+ru;Арбо;Arbo
+zh;阿尔沃;Arbo
+ru;Арбетета;Arbeteta
+ru;Арас;Aras
+ru;Арапилес;Arapiles
+ru;Арано;Arano
+he;ארנחואס;Aranjuez
+ru;Аранхуэс;Aranjuez
+ja;アランフエス;Aranjuez
+ar;آرنخويث;Aranjuez
+uk;Аранхуес;Aranjuez
+lt;Aranchuesas;Aranjuez
+sr;Аранхуез;Aranjuez
+bg;Аранхуес;Aranjuez
+ko;아란후에스;Aranjuez
+zh;阿兰胡埃斯;Aranjuez
+ru;Аранда-де-Дуэро;Aranda de Duero
+ar;أراندا دي دويرو;Aranda de Duero
+uk;Аранда-де-Дуеро;Aranda de Duero
+ja;アランダ・デ・ドゥエロ;Aranda de Duero
+zh;杜罗河畔阿兰达;Aranda de Duero
+et;Arancóni vald;Arancón
+fa;آرانکون;Arancón
+ja;アランコン;Arancón
+kk;Аранкон;Arancón
+lt;Arankonas;Arancón
+lv;Arankona;Arancón
+sr;Аранкон;Arancón
+tt;Аранкон;Arancón
+uk;Аранкон;Arancón
+ru;Аранкон;Arancón
+zh;阿兰孔;Arancón
+ru;Арама;Arama
+uk;Ансо;Ansó
+ru;Ансо;Ansó
+zh;安索;Ansó
+kk;Ангиано;Anguiano
+uk;Ангіано;Anguiano
+ru;Ангиано;Anguiano
+zh;安吉亚诺;Anguiano
+hy;Անգիանո;Anguiano
+ru;Аненто;Anento
+ru;Андорра;Andorra
+ar;أموريو;Amurrio
+fa;آموریو;Amurrio
+mk;Амурио;Amurrio
+uk;Амурріо;Amurrio
+ru;Амуррио;Amurrio
+zh;阿穆里奥;Amurrio
+ar;أمبيرو;Ampuero
+fa;امپوئرو;Ampuero
+uk;Ампуеро;Ampuero
+ru;Ампуэро;Ampuero
+zh;安普埃罗;Ampuero
+ru;Ампоста;Amposta
+ru;Аморото;Amoroto
+ar;أميفا;Amieva
+fa;آمیبا;Amieva
+uk;Амєва;Amieva
+ru;Амьева;Amieva
+zh;阿米耶瓦;Amieva
+ru;Эймса;Ames
+ru;Амбите;Ambite
+ru;Амбел;Ambel
+ru;Амавида;Amavida
+ru;Алустанте;Alustante
+ru;Алтабле;Altable
+uk;Альцасу;Altsasu
+ru;Альсасуа;Altsasu
+zh;阿尔特萨苏;Altsasu
+ru;Алпенс;Alpens
+ru;Алпедрете;Alpedrete
+ru;Алпартир;Alpartir
+ru;Алп;Alp
+ru;Аловера;Alovera
+ru;Алобрас;Alobras
+ru;Алмостер;Almoster
+ru;Алмендра;Almendra
+kk;Альменар-де-Сория;Almenar de Soria
+uk;Альменар-де-Сорія;Almenar de Soria
+ru;Альменар-де-Сория;Almenar de Soria
+zh;阿尔梅纳尔德索里亚;Almenar de Soria
+ru;Алменар;Almenar
+kk;Альмасуль;Almazul
+uk;Альмасуль;Almazul
+ru;Альмасуль;Almazul
+zh;阿尔马苏尔;Almazul
+fa;آلماسان;Almazán
+ja;アルマサン;Almazán
+mzn;آلمازان;Almazán
+mn;Алмазан;Almazán
+ne;अल्माजान;Almazán
+ay;Almasan;Almazán
+tg;Алмазан;Almazán
+si;අල්මසාන්;Almazán
+uk;Альмасан;Almazán
+ba;Альмазан;Almazán
+ml;അൽമസാൻ;Almazán
+mk;Алмазан;Almazán
+et;Almazáni vald;Almazán
+lt;Almasanas;Almazán
+lv;Almasana;Almazán
+el;Αλμαθάν;Almazán
+sr;Алмазан;Almazán
+he;אלמסאן;Almazán
+ka;ალმასანი;Almazán
+am;አልማዛን;Almazán
+cv;Алмасан;Almazán
+kk;Алмазан;Almazán
+th;อัลมาซัน;Almazán
+ar;المازين;Almazán
+ce;Альмазан;Almazán
+be;Альмасан;Almazán
+ru;Альмасан;Almazán
+zh;艾爾瑪善鎮;Almazán
+sgs;Almasans;Almazán
+mr;आल्माझान;Almazán
+yue;愛爾瑪詹鎮;Almazán
+fa;آلمارزا;Almarza
+ja;アルマルサ;Almarza
+kk;Альмарса;Almarza
+ko;알마르사;Almarza
+lv;Almarsa;Almarza
+uk;Альмарса;Almarza
+ru;Альмарса;Almarza
+zh;阿尔马萨;Almarza
+uk;Альманса;Almanza
+ru;Альманса;Almanza
+zh;阿尔曼萨;Almanza
+ru;Алмадронес;Almadrones
+ru;Алфаро;Alfaro
+ru;Алфамбра;Alfambra
+ru;Алерре;Alerre
+kk;Альдеуэла-де-Ельтес;Aldehuela de Yeltes
+uk;Альдеуела-де-Єльтес;Aldehuela de Yeltes
+ru;Альдеуэла-де-Ельтес;Aldehuela de Yeltes
+zh;阿尔德韦拉德埃尔特斯;Aldehuela de Yeltes
+ja;アルデアルポソ;Aldealpozo
+kk;Альдеальпосо;Aldealpozo
+lv;Aldealposo;Aldealpozo
+uk;Альдеальпосо;Aldealpozo
+ru;Альдеальпосо;Aldealpozo
+zh;阿尔德亚尔波索;Aldealpozo
+ja;アルデアラフエンテ;Aldealafuente
+kk;Альдеалафуэнте;Aldealafuente
+uk;Альдеалафуенте;Aldealafuente
+ru;Альдеалафуэнте;Aldealafuente
+zh;阿尔德亚拉丰特;Aldealafuente
+uk;Альдеадавіла-де-ла-Рібера;Aldeadávila de la Ribera
+kk;Альдеадавила-де-ла-Рибера;Aldeadávila de la Ribera
+ru;Альдеадавила-де-ла-Рибера;Aldeadávila de la Ribera
+zh;阿尔德亚达维拉德拉里韦拉;Aldeadávila de la Ribera
+fa;آلکوبیلا دو لاس پناس;Alcubilla de las Peñas
+kk;Алькубилья-де-лас-Пеньяс;Alcubilla de las Peñas
+lv;Alkuvilja de las Penjasa;Alcubilla de las Peñas
+uk;Алькубілья-де-лас-Пеньяс;Alcubilla de las Peñas
+ru;Алькубилья-де-лас-Пеньяс;Alcubilla de las Peñas
+zh;阿尔库维利亚德拉斯佩尼亚斯;Alcubilla de las Peñas
+ja;アルクビージャ・デ・アベジャネーダ;Alcubilla de Avellaneda
+kk;Алькубилья-де-Авельянеда;Alcubilla de Avellaneda
+uk;Алькубілья-де-Авельянеда;Alcubilla de Avellaneda
+ru;Алькубилья-де-Авельянеда;Alcubilla de Avellaneda
+zh;阿尔库维利亚德亚韦利亚内达;Alcubilla de Avellaneda
+ru;Алькоркон;Alcorcón
+uk;Алькоркон;Alcorcón
+sr;Алкоркон;Alcorcón
+ja;アルコルコン;Alcorcón
+lt;Alkorkonas;Alcorcón
+ar;ألكوركون;Alcorcón
+ko;알코르콘;Alcorcón
+bg;Алкоркон;Alcorcón
+zh;阿尔科尔孔;Alcorcón
+be;Алькаркон;Alcorcón
+az;Alkonaba;Alconaba
+fa;آلکونابا;Alconaba
+kk;Альконаба;Alconaba
+lv;Alkonava;Alconaba
+uk;Альконаба;Alconaba
+ru;Альконаба;Alconaba
+zh;阿尔科纳瓦;Alconaba
+sr;Алкобендас;Alcobendas
+ko;알코벤다스;Alcobendas
+bg;Алкобендас;Alcobendas
+lt;Alkobendasas;Alcobendas
+uk;Алькобендас;Alcobendas
+ja;アルコベンダス;Alcobendas
+ru;Алькобендас;Alcobendas
+zh;阿尔科文达斯;Alcobendas
+ar;ألكوبينداس;Alcobendas
+ru;Альседа;Alceda
+uk;Альканьїс;Alcañiz
+ja;アルカニス;Alcañiz
+kk;Альканьис;Alcañiz
+ru;Альканьис;Alcañiz
+zh;阿尔卡尼伊斯;Alcañiz
+ar;الكنائس;Alcañiz
+ar;ألكانيث;Alcañiz
+uk;Альканьїсес;Alcañices
+ru;Альканьисес;Alcañices
+sv;Alcanizes;Alcañices
+zh;阿尔卡尼伊塞斯;Alcañices
+fa;الکاندر;Alcanadre
+hy;Ալկանադրե;Alcanadre
+uk;Альканадре;Alcanadre
+ru;Альканадре;Alcanadre
+zh;阿尔卡纳德雷;Alcanadre
+ja;アルカラ・デ・エナーレス;Alcalá de Henares
+sr;Алкала де Енарес;Alcalá de Henares
+ka;ალკალა-დე-ენარესი;Alcalá de Henares
+uk;Алькала-де-Енарес;Alcalá de Henares
+he;אלקלה דה אנארס;Alcalá de Henares
+lt;Alkala de Henaresas;Alcalá de Henares
+th;อัลกาลาเดเอนาเรส;Alcalá de Henares
+el;Αλκαλά ντε Ενάρες;Alcalá de Henares
+ko;알칼라데에나레스;Alcalá de Henares
+bg;Алкала де Енарес;Alcalá de Henares
+ru;Алькала-де-Энарес;Alcalá de Henares
+zh;埃纳雷斯堡;Alcalá de Henares
+ar;ألكالا دي إيناريس;Alcalá de Henares
+be;Алькала-дэ-Энарэс;Alcalá de Henares
+ce;Алькала-де-Энарес;Alcalá de Henares
+ru;Алборнос;Albornos
+ru;Албонс;Albons
+ar;البوكاسير;Albocàsser
+lt;Albokaseris;Albocàsser
+uk;Албокасер;Albocàsser
+uz;Albocácer;Albocàsser
+ru;Альбокасер;Albocàsser
+zh;阿尔沃卡塞尔;Albocàsser
+ru;Албета;Albeta
+ru;Албеса;Albesa
+fa;البریت;Alberite
+hy;Ալբերիտե;Alberite
+kk;Альберите;Alberite
+uk;Альберіте;Alberite
+ru;Альберите;Alberite
+zh;阿尔韦里特;Alberite
+ar;البيضاء;Albelda de Iregua
+hy;Ալբելդա դե Իրեգուա;Albelda de Iregua
+kk;Альбельда-де-Ирегва;Albelda de Iregua
+mn;Альбельда-де-Ирегва;Albelda de Iregua
+uk;Альбельда-де-Ірегуа;Albelda de Iregua
+ru;Альбельда-де-Ирегуа;Albelda de Iregua
+zh;阿尔韦尔达德雷瓜;Albelda de Iregua
+ru;Албелда;Albelda
+ar;بني الرزين;Albarracín
+ja;アルバラシン;Albarracín
+kk;Альбаррасин;Albarracín
+lt;Albarasinas;Albarracín
+uk;Альбаррасін;Albarracín
+ru;Альбаррасин;Albarracín
+zh;阿尔瓦拉辛;Albarracín
+ru;Албарес;Albares
+ru;Алба;Alba
+uk;Алар-дель-Рей;Alar del Rey
+ru;Алар-дель-Рей;Alar del Rey
+zh;阿拉尔德尔雷;Alar del Rey
+ru;Аларба;Alarba
+ru;Аламинос;Alaminos
+ar;ألاغون;Alagón
+fa;الاگون، زاراگوزا;Alagón
+kk;Алагон;Alagón
+uk;Алагон;Alagón
+ru;Алагон;Alagón
+zh;阿拉贡;Alagón
+fa;اجامیل;Ajamil
+hy;Ախամիլ;Ajamil
+kk;Ахамиль;Ajamil
+uk;Ахаміль-де-Камерос;Ajamil
+pl;Ajamil de Cameros;Ajamil
+ru;Ахамиль;Ajamil
+zh;阿哈米尔德卡梅罗斯;Ajamil
+uk;Аїса;Aísa
+ru;Аиса;Aísa
+zh;艾萨;Aísa
+fa;اگولار دل ریو الهاما;Aguilar del Río Alhama
+hy;Ագիլար դել Ռիո Ալամա;Aguilar del Río Alhama
+kk;Агилар-дель-Рио-Альхама;Aguilar del Río Alhama
+uk;Агілар-дель-Ріо-Алама;Aguilar del Río Alhama
+ur;اگویلار دیل ریو الہاما;Aguilar del Río Alhama
+ru;Агилар-дель-Рио-Алама;Aguilar del Río Alhama
+zh;阿吉拉尔德尔里奥阿尔阿马;Aguilar del Río Alhama
+fa;اگورو، هاسکا;Agüero
+uk;Агуеро;Agüero
+ur;اگورو، ہاسکا;Agüero
+ru;Агуэро;Agüero
+zh;阿格罗;Agüero
+fa;آگردا;Ágreda
+ja;アグレダ;Ágreda
+kk;Агреда;Ágreda
+ko;아그레다;Ágreda
+uk;Аґреда;Ágreda
+ru;Агреда;Ágreda
+zh;阿格雷达;Ágreda
+ru;Адуна;Aduna
+ru;Адрадос;Adrados
+fa;آدراداس;Adradas
+ja;アドラーダス;Adradas
+kk;Адрадас;Adradas
+ko;아드라다스;Adradas
+lv;Adradasa;Adradas
+uk;Адрадас;Adradas
+ru;Адрадас;Adradas
+zh;阿德拉达斯;Adradas
+ru;Адобес;Adobes
+uk;Адіос;Adiós
+ru;Адьос;Adiós
+zh;阿迪奥斯;Adiós
+uk;Адемус;Ademuz
+ru;Адемус;Ademuz
+zh;阿德穆斯;Ademuz
+ar;أديموز;Ademuz
+fa;ادموز;Ademuz
+ar;أدانيرو;Adanero
+fa;آدانرو;Adanero
+kk;Аданеро;Adanero
+mk;Аданеро;Adanero
+uk;Аданеро;Adanero
+ru;Аданеро;Adanero
+zh;阿达内罗;Adanero
+ru;Абрера;Abrera
+ru;Аблитас;Ablitas
+fa;آبخار;Abejar
+ja;アベハール;Abejar
+kk;Абехар;Abejar
+ko;아베하르;Abejar
+lv;Abehara;Abejar
+uk;Абехар;Abejar
+ru;Абехар;Abejar
+zh;阿韋哈爾;Abejar
+ru;Абанто;Abanto
+ru;Абадес;Abades
+ru;Санта-Понса;Santa Ponsa
+ru;Плая дель Инглес;Playa del Ingles
+ru;Палманова;Palmanova
+ru;Пуэрто-дель-Кармен;Puerto del Carmen
+ru;Камп-де-Мар;Camp de Mar
+ja;コスタ・テギセ;Costa Teguise
+ru;Ла-Манга-дель-Мар-Менор;La Manga del Mar Menor
+ru;Сеута;Ceuta
+ru;Коста Кальма;Costa Calma
+ja;コスタ・カルマ;Costa Calma
+lt;Siera Nevada;Sierra Nevada
+ja;シエラネバダ山脈;Sierra Nevada
+be;Сьера-Невада;Sierra Nevada
+ko;시에라네바다 산맥;Sierra Nevada
+nn;Sierra Nevada i Spania;Sierra Nevada
+bg;Сиера Невада;Sierra Nevada
+ar;جبل الثلج;Sierra Nevada
+uk;Андалузькі гори;Sierra Nevada
+el;Σιέρρα Νεβάδα;Sierra Nevada
+ru;Сьерра-Невада;Sierra Nevada
+zh;內華達山脈;Sierra Nevada
+hy;Սիեռա Նևադա;Sierra Nevada
+mk;Сиера Невада;Sierra Nevada
+sah;Сьерра-Невада;Sierra Nevada
+sr;Ес Пужолс;Es Pujols
+ru;Плайя-Ден-Босса;Platja den Bossa
+sv;Playa d'en Bossa;Platja den Bossa
+ru;Ретамар;Retamar
+el;Θερλέρ;Cerler
+ru;Фаро дэ Кульера;Faro de Cullera
+ru;Весиндарио;Vecindario
+sv;Cala en Bosch;Cala'n Bosch
+ar;بيغو;Pego
+fa;پگو;Pego
+kk;Пего;Pego
+uk;Пего;Pego
+ru;Пего;Pego
+zh;佩戈;Pego
+ru;Делтебре;Deltebre
+fa;الویریا;Elviria
+ru;Гольф Дель Сур;Golf del Sur
+ru;Сондика;Sondika
+ru;Эль-Котильо;El Cotillo
+uk;с.м.т. Великі Амбали;Los Gigantes
+ar;لوس رياليخوس;Los Realejos
+uk;Лос-Реалехос;Los Realejos
+ru;Лос-Реалехос;Los Realejos
+zh;洛斯雷亚莱霍斯;Los Realejos
+ar;باساخيس;Pasaia
+ko;파사이아;Pasaia
+uk;Пасая;Pasaia
+ru;Пасахес;Pasaia
+zh;帕赛阿;Pasaia
+sv;Les Meravelles;Las Maravillas
+ar;إل بينار دي إل هييرو;El Pinar de El Hierro
+uk;Ель-Пінар-де-ель-Єрро;El Pinar de El Hierro
+ru;Эль-Пинар-де-эль-Иерро;El Pinar de El Hierro
+zh;埃尔皮纳尔德埃尔耶罗;El Pinar de El Hierro
+ar;باساوري;Basauri
+ja;バサウリ;Basauri
+uk;Басаурі;Basauri
+ru;Басаури;Basauri
+zh;巴绍里;Basauri
+ar;كاستريون;Castrillón
+fa;کاستریین;Castrillón
+uk;Кастрільйон;Castrillón
+ru;Кастрильон;Castrillón
+zh;卡斯特里利翁;Castrillón
+ru;Ла-Рестинья;La Restinga
+zh;拉雷斯廷加;La Restinga
+ru;Таберно;Taberno
+ar;الصخرة;Zahara de la Sierra
+ar;زهرا;Zahara de la Sierra
+ar;صحراء;Zahara de la Sierra
+ar;كورفيرا دي أستورياس;Corvera de Asturias
+fa;کربرا د آستوریاس;Corvera de Asturias
+uk;Корвера-де-Астуріас;Corvera de Asturias
+ru;Корвера-де-Астуриас;Corvera de Asturias
+zh;科尔韦拉德阿斯图里亚斯;Corvera de Asturias
+sq;Pinar de Campoverde;El Pinar de Campoverde
+ru;Ахуи;Ajuy
+ru;Эль-Гольфо;El Golfo
+ar;نافاريدوندا دي غريدوس;Navarredonda de Gredos
+fa;ناباردندا د گردس;Navarredonda de Gredos
+kk;Наварредонда-де-Гредос;Navarredonda de Gredos
+mk;Наваредонда де Гредос;Navarredonda de Gredos
+uk;Наварредонда-де-Гредос;Navarredonda de Gredos
+ru;Наварредонда-де-Гредос;Navarredonda de Gredos
+zh;纳瓦雷东达德格雷多斯;Navarredonda de Gredos
+ar;تريس سانتوس;Tres Cantos
+uk;Трес-Кантос;Tres Cantos
+ru;Трес-Кантос;Tres Cantos
+zh;特雷斯坎托斯;Tres Cantos
+ru;Сентерада;Senterada
+ceb;San Rafael;Sant Rafel
+sv;San Rafael;Sant Rafel
+ru;Прадольяно;Pradollano
+ru;Морилес;Moriles
+ar;ييندو;Liendo
+hy;Լիենդո;Liendo
+uk;Льєндо;Liendo
+ru;Льендо;Liendo
+zh;连多;Liendo
+ar;أولايفينزا;Olivenza
+fa;الیبنسا;Olivenza
+ja;オリベンサ;Olivenza
+kk;Оливенса;Olivenza
+ko;올리벤사;Olivenza
+mk;Оливенза;Olivenza
+uk;Олівенса;Olivenza
+uz;Olivenza - Olivença;Olivenza
+ru;Оливенса;Olivenza
+zh;奥利文萨;Olivenza
+ru;Убиде;Ubide
+ru;Асин;Asin
+ceb;Tinguatón;Mancha Blanca
+sv;Tinguatón;Mancha Blanca
+ru;Албентоса;Albentosa

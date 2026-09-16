@@ -1183,3 +1183,325 @@ es;Magueyes;Maguelles
 es;Arroyo Seco de Pinares;Arroyo Seco
 es;El Diecisiete de las 1009;El Diecisiete de las Mil Nueve
 es;CP-Quince;Consejo Popular Quince
+sr;Варадеро;Varadero
+uk;Варадеро;Varadero
+fa;وارادرو;Varadero
+ky;Варадеро;Varadero
+bg;Варадеро;Varadero
+ka;ვარადერო;Varadero
+lt;Varaderas;Varadero
+ur;وراڈیرو;Varadero
+be;Трынідад;Trinidad
+he;טרינידד;Trinidad
+ka;ტრინიდადი;Trinidad
+lt;Trinidadas;Trinidad
+mk;Тринидад;Trinidad
+sr;Тринидад;Trinidad
+uk;Тринідад;Trinidad
+fa;ترینیداد، کوبا;Trinidad
+ne;त्रिनिदाद;Trinidad
+ur;ٹرینیڈاڈ، کیوبا;Trinidad
+bg;Сантяго де Куба;Santiago de Cuba
+he;סנטיאגו דה קובה;Santiago de Cuba
+be;Сантяга-дэ-Куба;Santiago de Cuba
+ce;Сантьяго-де-Куба;Santiago de Cuba
+el;Σαντιάγο ντε Κούβα;Santiago de Cuba
+fa;سانتیاگو د کوبا;Santiago de Cuba
+ka;სანტიაგო-დე-კუბა;Santiago de Cuba
+lt;Kubos Santjagas;Santiago de Cuba
+os;Сантьяго-де-Кубæ;Santiago de Cuba
+sr;Сантијаго де Куба;Santiago de Cuba
+uk;Сантьяго-де-Куба;Santiago de Cuba
+kk;Сантьяго-де-Куба;Santiago de Cuba
+uz;Santyago de Kuba;Santiago de Cuba
+ky;Сантьяго-де-Куба;Santiago de Cuba
+bn;সান্টিয়াগো ডে কিউবা;Santiago de Cuba
+ur;سانتیاگو ڈے کیوبا;Santiago de Cuba
+am;ሳንቲያጎ ደ ኩባ;Santiago de Cuba
+az;Santyaqo de Kuba;Santiago de Cuba
+pa;ਸੈਂਟਿਆਗੋ ਡੇ ਕਿਊਬਾ;Santiago de Cuba
+ps;سانتیاګو ډی کیوبا;Santiago de Cuba
+tg;Сантяго де Куба;Santiago de Cuba
+el;Σάντα Κλάρα;Santa Clara
+bg;Санта Клара;Santa Clara
+fa;سانتا کلارا;Santa Clara
+he;סנטה קלרה;Santa Clara
+ka;სანტა-კლარა;Santa Clara
+lt;Santa Klara;Santa Clara
+sr;Санта Клара;Santa Clara
+uk;Санта-Клара;Santa Clara
+ur;سانتا کلارا، کیوبا;Santa Clara
+kk;Санта-Клара;Santa Clara
+uz;Santa Klara;Santa Clara
+ky;Санта-Клара;Santa Clara
+bn;সান্তা ক্লারা;Santa Clara
+am;ሳንታ ክላራ;Santa Clara
+az;Santa Klara;Santa Clara
+pa;ਸਾਂਤਾ ਕਲਾਰਾ;Santa Clara
+ps;سانتا کلارا;Santa Clara
+tg;Санта Клара;Santa Clara
+kk;Сан-Хосе-де-лас-Лахас;San José de las Lajas
+uz;San Hose de las Hahas;San José de las Lajas
+ky;Сан-Хосе-де-лас-Лахас;San José de las Lajas
+bn;সান জোসে দে লাস লাহাস;San José de las Lajas
+ur;سان جوسے ڈے لاس لاہاس;San José de las Lajas
+am;ሳን ሆሴ ደ ላስ ላሃስ;San José de las Lajas
+az;San Hose de las Hahas;San José de las Lajas
+fa;سان خوسه دی لاس لاخاس;San José de las Lajas
+pa;ਸੈਨ ਹੋਸੇ ਡੇ ਲਾਸ ਲਾਹਾਸ;San José de las Lajas
+ps;سان جوسے دی لاس لاهاس;San José de las Lajas
+tg;Сан Хосе де лас Лахас;San José de las Lajas
+kk;Санкти-Спиритус;Sancti Spíritus
+uz;Sankti Spiritus;Sancti Spíritus
+ky;Санкти-Спиритус;Sancti Spíritus
+bn;সাংক্টি স্পিরিটাস;Sancti Spíritus
+ur;سانکتی سپیریٹس;Sancti Spíritus
+am;ሳንክቲ ስፒሪተስ;Sancti Spíritus
+az;Sankti Spiritus;Sancti Spíritus
+fa;سانکتی اسپیریتوس;Sancti Spíritus
+pa;ਸਾਂਕਟੀ ਸਪਿਰਿਟਸ;Sancti Spíritus
+ps;سانکتی سپیریتوس;Sancti Spíritus
+tg;Санкти Спиритус;Sancti Spíritus
+fa;سن آنتونیو دلاس بوئلتاس;San Antonio de las Vueltas
+hy;Պունտա Բրավա;Punta Brava
+eu;Pinar del Rioko probintzia;Pinar del Río
+mk;Пинар дел Рио;Pinar del Río
+kk;Пинар-дель-Рио;Pinar del Río
+ky;Пинар-дель-Рио;Pinar del Río
+bn;পিনার ডেল রিও;Pinar del Río
+ur;پنار ڈیل ریو;Pinar del Río
+am;ፒናር ደል ሪዮ;Pinar del Río
+fa;پینار دل ریو;Pinar del Río
+pa;ਪਿਨਾਰ ਡੇਲ ਰਿਓ;Pinar del Río
+ps;پنار ډیل ریو;Pinar del Río
+tg;Пинар дель Рио;Pinar del Río
+ka;ნუევა-ხერონა;Nueva Gerona
+lt;Nueva Cherona;Nueva Gerona
+sr;Нуева Херона;Nueva Gerona
+uk;Нуева-Херона;Nueva Gerona
+ur;نویوا گیرونا;Nueva Gerona
+kk;Нуэва-Хирона;Nueva Gerona
+ky;Нуэва-Хирона;Nueva Gerona
+bn;নুয়েভা জেরোনা;Nueva Gerona
+am;ኑዋ ጄሮና;Nueva Gerona
+fa;نویا خیرونا;Nueva Gerona
+pa;ਨੁਏਵਾ ਜੇਰੋਨਾ;Nueva Gerona
+ps;نویا جیرونا;Nueva Gerona
+tg;Нуева Хирона;Nueva Gerona
+ka;მორონი;Morón
+sr;Морон;Morón
+ka;მაქსიმო-გომესი;Máximo Gómez
+be;Матансас;Matanzas
+ka;მატანსასი;Matanzas
+lt;Matansasas;Matanzas
+sr;Матанзас;Matanzas
+uk;Матансас;Matanzas
+kk;Матансас;Matanzas
+ky;Матансас;Matanzas
+bn;ম্যাটানজাস;Matanzas
+ur;متانزاس;Matanzas
+am;ማታንዛስ;Matanzas
+fa;ماتانزاس;Matanzas
+pa;ਮਾਤਾਂਜਾਸ;Matanzas
+ps;متانزاس;Matanzas
+tg;Матансас;Matanzas
+he;מנסניו;Manzanillo
+ka;მანსანილიო;Manzanillo
+lt;Mansaniljas;Manzanillo
+sr;Манзаниљо;Manzanillo
+ur;منزانیلو، کیوبا;Manzanillo
+bg;Магарабомба;Magarabomba
+br;Victoria de Las Tunas;Las Tunas
+ceb;Victoria de Las Tunas;Las Tunas
+da;Victoria de Las Tunas;Las Tunas
+he;ויקטוריה דה לאס טונאס;Las Tunas
+ka;ლას-ტუნასი;Las Tunas
+lt;Las Tunasas;Las Tunas
+ro;Victoria de Las Tunas;Las Tunas
+sr;Викторија де Лас Тунас;Las Tunas
+vi;Victoria de Las Tunas;Las Tunas
+bg;Тунас;Las Tunas
+fa;لاس توناس;Las Tunas
+hy;Վիկտորիա դե լաս Տունաս;Las Tunas
+ur;لاس توناس;Las Tunas
+kk;Лас-Тунас;Las Tunas
+ky;Лас-Тунас;Las Tunas
+bn;লাস তুনাস;Las Tunas
+am;ላስ ቱናስ;Las Tunas
+pa;ਲਾਸ ਟੁਨਾਸ;Las Tunas
+ps;لاس تونس;Las Tunas
+tg;Лас Тунас;Las Tunas
+be;Гавана;Havana
+ca;LHavana;Havana
+fi;Havanna;Havana
+gl;A Habana;Havana
+he;הוואנה;Havana
+ka;ჰავანა;Havana
+lv;Havanna;Havana
+nn;Havanna;Havana
+no;Havanna;Havana
+pl;Hawana;Havana
+sr;Хавана;Havana
+sv;Havanna;Havana
+hu;Havanna;Havana
+fa;هاوانا;Havana
+lb;Havanna;Havana
+mk;Хавана;Havana
+el;Αβάνα;Havana
+am;ሀኖይ;Havana
+bg;Хавана;Havana
+bo;ཧ་ཝན;Havana
+oc;LAvana;Havana
+am;ሀቫና;Havana
+et;Havanna;Havana
+eu;Habana;Havana
+vi;La Habana;Havana
+nb;Havanna;Havana
+hy;Հավանա;Havana
+sc;La Havana;Havana
+fo;Havanna;Havana
+uk;Гавана;Havana
+lij;LAvann-a;Havana
+sah;Хавана;Havana
+th;ฮาวานา;Havana
+cv;Гавана;Havana
+os;Гаванæ;Havana
+tg;Ҳавана;Havana
+ta;அவானா;Havana
+mt;Ħavana;Havana
+mr;हवाना;Havana
+pa;ਹਵਾਨਾ;Havana
+ur;ہوانا;Havana
+or;ହାଭାନା;Havana
+za;Hahvaxnaz;Havana
+ml;ഹവാന;Havana
+bn;হাভানা;Havana
+ce;Гавана;Havana
+kk;Гавана;Havana
+mhr;Гаване;Havana
+mn;Гавана;Havana
+yue;夏灣拿;Havana
+ky;Гaванa;Havana
+lrc;هاوانا;Havana
+my;ဟာဗားနားမြို့;Havana
+uz;Gavana;Havana
+vep;Havan;Havana
+tt;Һавана;Havana
+he;אולגין;Holguín
+be;Ольгін;Holguín
+bg;Олгин;Holguín
+ka;ოლგინი;Holguín
+lt;Holginas;Holguín
+sr;Олгин;Holguín
+kk;Ольгин;Holguín
+uz;Holgun;Holguín
+ky;Ольгин;Holguín
+bn;হলগুইন;Holguín
+ur;ہولگوین;Holguín
+am;ሆልጉዊን;Holguín
+az;Holquin;Holguín
+fa;هولگوئین;Holguín
+pa;ਹੋਲਗੁਈਨ;Holguín
+ps;هولگوین;Holguín
+tg;Ольгин;Holguín
+tt;Holgun;Holguín
+bg;Гуайос;Guayos
+be;Гуантанама;Guantánamo
+he;גואנטנמו;Guantánamo
+kk;Гуантанамо;Guantánamo
+ky;Гуантанамо;Guantánamo
+bn;গুয়ান্তানামো;Guantánamo
+ur;گوانتاناموں;Guantánamo
+am;ጋዋንታናሞ;Guantánamo
+fa;گوانتانامو;Guantánamo
+pa;ਗੁਆਂਟਾਨਾਮੋ;Guantánamo
+ps;گوانتاناموں;Guantánamo
+tg;Гуантанамо;Guantánamo
+fa;گوانابو;Guanabo
+ka;ესმერალდა;Esmeralda
+uk;Ель-Кобре;El Cobre
+ka;კოლონი;Colón
+lt;Kolonas;Colón
+sr;Колон;Colón
+ur;کولون، کیوبا;Colón
+be;Сьенфуэгас;Cienfuegos
+he;סיינפואגוס;Cienfuegos
+ka;სიენფუეგოსი;Cienfuegos
+lt;Sjenfuegosas;Cienfuegos
+os;Сьенфуэгос;Cienfuegos
+sr;Сјенфуегос;Cienfuegos
+th;เซียนฟวยโกส;Cienfuegos
+uk;Сьєнфуегос;Cienfuegos
+kk;Сьенфуэгос;Cienfuegos
+uz;Sienfuegos;Cienfuegos
+ky;Сьенфуэгос;Cienfuegos
+bn;সিয়েনফুয়েগোস;Cienfuegos
+ur;سین فویگوس;Cienfuegos
+am;ሲየንፉኤጎስ;Cienfuegos
+az;Sienfuegos;Cienfuegos
+fa;سینفوئگوس;Cienfuegos
+pa;ਸਿਏਨਫਿਏਗੋਸ;Cienfuegos
+ps;سین فویگوس;Cienfuegos
+tg;Сиенфуэгос;Cienfuegos
+tt;Sienfuegos;Cienfuegos
+kk;Сьего-де-Авила;Ciego de Ávila
+uz;Siebo de Avila;Ciego de Ávila
+ky;Сьего-де-Авила;Ciego de Ávila
+bn;সিয়েগো ডে এভিলা;Ciego de Ávila
+ur;سیگو ڈے ایویلا;Ciego de Ávila
+am;ሲኤጎ ደ አቪላ;Ciego de Ávila
+az;Siebo de Avila;Ciego de Ávila
+fa;سیگو دی اویلا;Ciego de Ávila
+pa;ਸਿਏਗੋ ਡੇ ਅਵੀਲਾ;Ciego de Ávila
+ps;سیگو ډی ایویلا;Ciego de Ávila
+tg;Сиего де Авила;Ciego de Ávila
+tt;Siebo de Avila;Ciego de Ávila
+be;Кардэнас;Cárdenas
+ka;კარდენასი;Cárdenas
+lt;Kardenasas;Cárdenas
+sr;Карденас;Cárdenas
+ur;کارڈیناس، کیوبا;Cárdenas
+he;קמאגואיי;Camagüey
+bg;Камагуей;Camagüey
+kk;Камагуэй;Camagüey
+uz;Kamaguey;Camagüey
+ky;Камагуэй;Camagüey
+bn;ক্যামাগুয়ে;Camagüey
+ur;کاماگویے;Camagüey
+am;ካማጋዌ;Camagüey
+az;Kamaguey;Camagüey
+fa;کاماگوئه;Camagüey
+ha;Camagueey;Camagüey
+om;Camagueey;Camagüey
+pa;ਕਾਮਾਗੁਏ;Camagüey
+ps;کاماگویے;Camagüey
+so;Camagueey;Camagüey
+sw;Camagueey;Camagüey
+tg;Камагуэй;Camagüey
+tt;Kamaguey;Camagüey
+ka;კაიბარიენი;Caibarién
+lt;Kaibarjenas;Caibarién
+ur;کیبریئن;Caibarién
+ka;ბეხუკალი;Bejucal
+uk;Бехукаль;Bejucal
+kk;Байамо;Bayamo
+ky;Байамо;Bayamo
+bn;বায়ামো;Bayamo
+ur;بیامو;Bayamo
+am;ባያሞ;Bayamo
+fa;بیامو;Bayamo
+pa;ਬਯਾਮੋ;Bayamo
+ps;بیامو;Bayamo
+tg;Байамо;Bayamo
+bg;Баракоа;Baracoa
+kk;Артемиса;Artemisa
+ky;Артемиса;Artemisa
+bn;আর্টেমিসা;Artemisa
+ur;آرٹیمیسا;Artemisa
+am;አርቴሚሳ;Artemisa
+fa;آرتمیسا;Artemisa
+pa;ਆਰਟੇਮਿਸਾ;Artemisa
+ps;آرٹیمیسا;Artemisa
+tg;Артемиса;Artemisa
+uk;Кайо Коко;Cayo Coco
+uk;Kayo Koko;Cayo Coco

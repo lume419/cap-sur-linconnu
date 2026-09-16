@@ -337,3 +337,481 @@ ar;إمليلي;Imlili
 ar;امليلي;Imlili
 zgh;ⴱⵓⵉⵣⴰⵣⴰⵔⴻⵏ ⵉⵃⴷⴷⴰⴷⵏ;Bouizazarene Ihaddadene
 zgh;ⵙⵉⴷⵙ ⵙⵍⵉⵎⴰⵏ;Sidi Slimane Echcharaa
+bg;Смара;Smara
+kk;Смара қаласы;Smara
+fa;سماره;Smara
+ko;스마라;Smara
+et;Es-Smara;Smara
+ja;スマラ;Smara
+pl;Asmara;Smara
+zh;斯马拉;Smara
+he;סמארה;Smara
+hi;स्मारा;Smara
+zh-Hant;斯馬拉;Smara
+uk;Ес-Семара;Smara
+ur;سمارا;Smara
+mr;स्मारा;Smara
+el;Σμάρα;Smara
+bn;স্মারা;Smara
+si;ස්මරා;Smara
+kn;ಸ್ಮಾರ;Smara
+zh-HK;斯馬拉;Smara
+ta;சமாரா;Smara
+gu;સ્મારા;Smara
+te;స్మర;Smara
+th;สมารา;Smara
+ceb;Touissit;Touissite
+sv;Touissit;Touissite
+bg;Тоуисит;Touissite
+fa;تویسیت;Touissite
+ca;Touissit;Touissite
+fa;توکانه;Touggana
+fa;تزنیت;Tiznit
+lt;Tiznitas;Tiznit
+ur;تزنیت;Tiznit
+zh;提茲尼特;Tiznit
+pl;Tetuan;Tétouan
+fa;تطوان;Tétouan
+mk;Тетуан;Tétouan
+bg;Тетуан;Tétouan
+ca;Tetuan;Tétouan
+el;Τετουάν;Tétouan
+eu;Tetuan;Tétouan
+he;תטואן;Tétouan
+hr;Tetuan;Tétouan
+ja;テトゥアン;Tétouan
+ka;თეტუანი;Tétouan
+kk;Тетуан қаласы;Tétouan
+ko;테투안;Tétouan
+lt;Tetuanas;Tétouan
+sr;Тетуан;Tétouan
+uk;Тетуан;Tétouan
+ur;تطوان;Tétouan
+zh;得土安;Tétouan
+be;Тэтуан;Tétouan
+ky;Тетуан;Tétouan
+ne;तेतोउन;Tétouan
+fa;تازه;Taza
+he;תאזה;Taza
+kk;Таза қаласы;Taza
+zh;塔扎;Taza
+ur;تازہ;Taza
+fa;تارودانت;Taroudant
+lt;Tarudantas;Taroudant
+ur;تارودانت;Taroudant
+sv;Taroudannt;Taroudant
+zh;塔魯丹特;Taroudant
+cs;Tarfaja;Tarfaya
+fa;طرفایه;Tarfaya
+ja;タルファヤ;Tarfaya
+lt;Tarfaja;Tarfaya
+pl;Tarfaja;Tarfaya
+be;Тан-Тан;Tan-Tan
+fa;طانطان;Tan-Tan
+ja;タンタン;Tan-Tan
+lt;Tantanas;Tan-Tan
+pl;Tantan;Tan-Tan
+bg;Танжер;Tanger
+id;Tangier;Tanger
+ca;Tingis;Tanger
+mk;Тангер;Tanger
+zh-TW;坦幾亞;Tanger
+kk;Тангер;Tanger
+uz;Tanjer;Tanger
+ky;Тангер;Tanger
+ms;Tangier;Tanger
+hi;तांजिए;Tanger
+bn;তাঞ্জিয়ার;Tanger
+ur;ٹنجیر;Tanger
+am;ታንጄር;Tanger
+az;Tanjer;Tanger
+fa;تنجه;Tanger
+ha;Tangier;Tanger
+ja;タンジェ;Tanger
+om;Tangier;Tanger
+pa;ਤਾਂਜੀਅਰ;Tanger
+ps;ټنجه;Tanger
+sw;Tangier;Tanger
+tg;Танжа;Tanger
+tt;Танжер;Tanger
+ko;시디이프니;Sidi Ifni
+lt;Sidi Ifnis;Sidi Ifni
+fa;سطات;Settat
+ka;სეტატი;Settat
+ko;세타트;Settat
+lt;Setatas;Settat
+ur;سلطات;Settat
+pl;Sattat;Settat
+zh;塞塔特;Settat
+pl;Sala;Salé
+fa;سلا;Salé
+pl;Asfi;Safi
+mk;Сафи;Safi
+be;Сафі;Safi
+bg;Сафи;Safi
+fa;اسفی;Safi
+he;סאפי;Safi
+hy;Սաֆի;Safi
+ja;サフィ;Safi
+ka;საფი;Safi
+ko;사피;Safi
+zh;薩非;Safi
+ur;اسفی، مراکش;Safi
+fa;رباط;Rabat
+he;רבאט;Rabat
+ja;ラバト;Rabat
+ko;라바트;Rabat
+lt;Rabatas;Rabat
+sr;Рабат;Rabat
+zh;拉巴特;Rabat
+mk;Рабат;Rabat
+el;Ραμπάτ;Rabat
+bg;Рабат;Rabat
+ur;رباط;Rabat
+am;ራባት;Rabat
+bo;ར་བ་ཐེ།;Rabat
+mzn;رباط;Rabat
+or;ରବୋଟ;Rabat
+lv;Rabāta;Rabat
+mrj;Рабат;Rabat
+ps;ربات;Rabat
+ht;Raba;Rabat
+pa;ਰਬਾਤ;Rabat
+cv;Рабат;Rabat
+os;Рабат;Rabat
+ta;ரபாத்;Rabat
+ky;Рабат;Rabat
+ckb;ڕەبات;Rabat
+hy;Ռաբատ;Rabat
+uk;Рабат;Rabat
+ug;رابات;Rabat
+ka;რაბატი;Rabat
+mr;रबात;Rabat
+be;Рабат;Rabat
+th;ราบัต;Rabat
+tg;Рабат;Rabat
+udm;Рабат;Rabat
+bn;রাবাত;Rabat
+ce;Рабат;Rabat
+yue;剌八;Rabat
+ne;रबाट;Rabat
+uz;Rabot;Rabat
+pl;Wadżda;Oujda
+fa;وجده;Oujda
+mk;Уџда;Oujda
+ja;ウジダ;Oujda
+uk;Уджда;Oujda
+ko;우지다;Oujda
+kk;Уджда қаласы;Oujda
+eu;Ujda;Oujda
+lt;Udžda;Oujda
+zh;乌季达;Oujda
+bg;Уджда;Oujda
+he;וגדה;Oujda
+ur;وجدہ;Oujda
+uz;Ujda;Oujda
+ky;Ужда;Oujda
+ms;Ujda;Oujda
+hi;उजडा;Oujda
+bn;উজদা;Oujda
+am;ውጃዳ;Oujda
+az;Ujda;Oujda
+ha;Ujda;Oujda
+jv;Ujda;Oujda
+om;Ujda;Oujda
+pa;ਉਜਡਾ;Oujda
+ps;وجده;Oujda
+so;Ujda;Oujda
+sw;Ujda;Oujda
+tg;Ужда;Oujda
+tt;Ужда;Oujda
+fa;ورزازات;Ouarzazate
+pl;Warzazat;Ouarzazate
+lt;Uarzazatas;Ouarzazate
+uz;Ouaouizert;Wawizaght
+fa;ناظور;Nador
+lt;Nadoras;Nador
+sr;Надор;Nador
+lv;Nādora;Nador
+zh;納祖爾;Nador
+th;นาดอร์;Nador
+ko;나도르;Nador
+ur;ناظور;Nador
+az;Məhəmmədiyyə;Mohammedia
+fa;محمدیه;Mohammedia
+ko;모하메디아;Mohammedia
+lt;Mohamedija;Mohammedia
+ur;محمدیہ;Mohammedia
+pl;Al-Muhammadijja;Mohammedia
+zh;穆罕默迪耶;Mohammedia
+ko;메르주가;Marzouga
+af;Merzouga;Marzouga
+zh;梅爾祖卡;Marzouga
+eu;Merzouga;Marzouga
+hy;Մերզուգա;Marzouga
+fa;مرزوقه;Marzouga
+ca;Merzouga;Marzouga
+fa;مکناس;Meknès
+mk;Мекнес;Meknès
+bg;Мекнес;Meknès
+he;מקנס;Meknès
+ja;メクネス;Meknès
+bg;Маракеш;Marrakech
+ca;Marràqueix;Marrakech
+id;Marrakesh;Marrakech
+ja;マラケシュ;Marrakech
+nds;Marrakesch;Marrakech
+pl;Marrakesz;Marrakech
+mk;Маракеш;Marrakech
+bs;Marakeš;Marrakech
+cs;Marrákeš;Marrakech
+hu;Marrákes;Marrakech
+kk;Марракеш;Marrakech
+uz;Marrakesh;Marrakech
+ky;Марракеш;Marrakech
+ms;Marrakesh;Marrakech
+hi;मराकेश;Marrakech
+bn;মারাকেশ;Marrakech
+ur;مراکش;Marrakech
+am;ማራኬሽ;Marrakech
+az;Marakeş;Marrakech
+fa;مراکش;Marrakech
+ha;Marrakesh;Marrakech
+jv;Marrakesh;Marrakech
+om;Marrakesh;Marrakech
+pa;ਮਾਰਾਕੇਸ਼;Marrakech
+ps;مراکش;Marrakech
+so;Marrakesh;Marrakech
+sw;Marrakesh;Marrakech
+tg;Маррокеш;Marrakech
+tt;Марракеш;Marrakech
+fa;عرائش;Larache
+pl;Al-Araisz;Larache
+bg;Лараш;Larache
+ca;Larraix;Larache
+he;לראצה;Larache
+ja;アライシュ;Larache
+ko;라라슈;Larache
+lt;Larašas;Larache
+th;ลารัช;Larache
+ur;عرایش;Larache
+zh;拉臘什;Larache
+ceb;Lalla Takerkoust;Lake Lalla Takerkoust
+sv;Lalla Takarkoust;Lake Lalla Takerkoust
+ja;ララ・タクルクスト;Lake Lalla Takerkoust
+fa;للا تکرکوست;Lake Lalla Takerkoust
+ur;لالا ٹاکیرکوسٹ;Lake Lalla Takerkoust
+ca;Lalla Takarkoust;Lake Lalla Takerkoust
+fa;خنیفره;Khenifra
+lt;Chenifra;Khenifra
+pl;Chunajfira;Khenifra
+zh;海尼夫拉;Khenifra
+ur;خنیفرہ;Khenifra
+ceb;Khemis du Sahel;Khemis Sahel
+fa;قنیطره;Kénitra
+mk;Кенитра;Kénitra
+be;Кенітра;Kénitra
+he;אל-קניטרה;Kénitra
+ja;ケニトラ;Kénitra
+ka;კენიტრა;Kénitra
+kk;Кенитра қаласы;Kénitra
+ko;케니트라;Kénitra
+zh;蓋尼特拉;Kénitra
+pl;Al-Kunajtira;Kénitra
+ky;Кенитра;Kénitra
+hi;केनित्रा;Kénitra
+bn;কেনিত্রা;Kénitra
+ur;کنیترہ;Kénitra
+am;ኬኒትራ;Kénitra
+az;Kenitre;Kénitra
+pa;ਕੇਨੀਤ੍ਰਾ;Kénitra
+ps;کنيترا;Kénitra
+tg;Кенитра;Kénitra
+tt;Кенитра;Kénitra
+fa;افران;Ifrane
+ko;이프란;Ifrane
+lt;Ifranas;Ifrane
+zh;伊夫兰;Ifrane
+he;איפראן;Ifrane
+ur;افران;Ifrane
+be;Гулімін;Guelmim
+fa;کلمیم;Guelmim
+ja;ゲルミン;Guelmim
+ka;გულიმიმი;Guelmim
+kk;Гулимин қаласы;Guelmim
+ko;겔밈;Guelmim
+lt;Gelmimas;Guelmim
+lv;Gelmīma;Guelmim
+ur;کلمیم;Guelmim
+pl;Kulmim;Guelmim
+zh;蓋勒敏;Guelmim
+ky;Гельмим;Guelmim
+hi;गुएलमिम;Guelmim
+bn;গুয়েলমিম;Guelmim
+am;ጉዌልሚም;Guelmim
+pa;ਗੁਏਲਮਿਮ;Guelmim
+ps;گولمیم;Guelmim
+tg;Гельмим;Guelmim
+tt;Гельмим;Guelmim
+fa;فاس;Fès
+id;Fez;Fès
+ja;フェズ;Fès
+pl;Fez;Fès
+sv;Fez;Fès
+bg;Фес;Fès
+mk;Фес;Fès
+ur;فاس;Fès
+kk;Фес;Fès
+ky;Фес;Fès
+hi;फेस;Fès
+bn;ফেস;Fès
+am;ፌስ;Fès
+pa;ਫੇਸ;Fès
+ps;فاس;Fès
+tg;Фес;Fès
+tt;Фес;Fès
+fa;صویره;Essaouira
+he;אסואירה;Essaouira
+cs;As-Sawíra;Essaouira
+eu;Essauira;Essaouira
+hr;Esauira;Essaouira
+hu;Szavíra;Essaouira
+ja;エッサウィラ;Essaouira
+ka;ელ-სუვაირა;Essaouira
+ko;에사우이라;Essaouira
+lt;Savira;Essaouira
+uk;Ес-Сувейра;Essaouira
+ur;صویرہ;Essaouira
+pl;As-Sawira;Essaouira
+zh;索维拉;Essaouira
+ne;एस्साउरा;Essaouira
+fa;الجدیده;El Jadida
+ur;الجدیدہ;El Jadida
+be;Эль-Джадзіда;El Jadida
+ca;Al-Djadida;El Jadida
+cs;Al-Džadída;El Jadida
+he;אל-גדידה;El Jadida
+ja;アル・ジャディーダ;El Jadida
+ka;ელ-ჯადიდა;El Jadida
+ko;엘자디다;El Jadida
+lt;Džadida;El Jadida
+th;แอลฌาดีดา;El Jadida
+uk;Мазарґан;El Jadida
+pl;Al-Dżadida;El Jadida
+zh;杰迪代;El Jadida
+ne;एल जदिदा;El Jadida
+fi;Diabat;Douar Dyabat
+ca;Dubdu;Debdou
+he;דבדו;Debdou
+fa;کازابلانکا;Casablanca
+he;קזבלנקה;Casablanca
+ja;カサブランカ;Casablanca
+ko;카사블랑카;Casablanca
+lt;Kasablanka;Casablanca
+sr;Казабланка;Casablanca
+mk;Казабланка;Casablanca
+bg;Казабланка;Casablanca
+lv;Kasablanka;Casablanca
+ur;دار البیضاء;Casablanca
+th;กาซาบล็องกา;Casablanca
+my;ကာဆာဘလန်ကာမြို့;Casablanca
+ta;காசாபிளாங்கா;Casablanca
+te;కాసాబ్లాంకా;Casablanca
+uk;Касабланка;Casablanca
+qu;Ad Dar al Bayda;Casablanca
+mr;कासाब्लांका;Casablanca
+kk;Касабланка;Casablanca
+kn;ಕಾಸಾಬ್ಲಾಂಕಾ;Casablanca
+el;Καζαμπλάνκα;Casablanca
+ku;Kazablanka;Casablanca
+ckb;کازابلانکا;Casablanca
+mzn;کازابلانکا;Casablanca
+vep;Kasablank;Casablanca
+pa;ਕਾਸਾਬਲਾਂਕਾ;Casablanca
+os;Касабланкæ;Casablanca
+be;Касабланка;Casablanca
+bn;কাসাব্লাংকা;Casablanca
+az;Kasablanka;Casablanca
+ka;კასაბლანკა;Casablanca
+zh;卡萨布兰卡;Casablanca
+ce;Касабланка;Casablanca
+hy;Կասաբլանկա;Casablanca
+uz;Kasablanka;Casablanca
+lo;ກາຊາບັງກາ;Casablanca
+ml;കാസബ്ലങ്ക;Casablanca
+fa;دارالبیضا;Casablanca
+ky;Касабланка;Casablanca
+hi;कसाबलांका;Casablanca
+am;ካሳብላንካ;Casablanca
+jv;Kasablanka;Casablanca
+ps;کاسابلانکا;Casablanca
+tg;Касабланка;Casablanca
+tt;Касабланка;Casablanca
+fa;برکان;Berkane
+gl;Birkani;Berkane
+ur;برکان;Berkane
+zh;拜爾坎;Berkane
+fa;بنی‌ملال;Beni Mellal
+he;בני מלל;Beni Mellal
+ko;베니멜랄;Beni Mellal
+lt;Beni Melalis;Beni Mellal
+ur;بنی ملال;Beni Mellal
+pl;Bani Mallal;Beni Mellal
+zh;貝尼邁拉勒;Beni Mellal
+kk;Бени-Миллаль;Beni Mellal
+ky;Бени-Миллаль;Beni Mellal
+hi;बेनी मेलाल;Beni Mellal
+bn;বেনি মেলাল;Beni Mellal
+am;ቤኒ ሜላል;Beni Mellal
+ja;ベニ・メッラル;Beni Mellal
+pa;ਬੇਨੀ ਮੇਲਾਲ;Beni Mellal
+ps;بني ملال;Beni Mellal
+tg;Бени-Миллаль;Beni Mellal
+tt;Бени-Миллаль;Beni Mellal
+fa;ازرو;Azrou
+zh;艾茲魯;Azrou
+fa;اصیله;Asilah
+ja;アシラー;Asilah
+ko;아실라;Asilah
+lt;Asila;Asilah
+pl;Asila;Asilah
+sv;Assilah;Asilah
+pl;Al-Husajma;Al Hoceïma
+fa;حسیمه;Al Hoceïma
+fa;اجالدین;Douar Jallidin
+tt;Әҗдир;Ajdir
+el;Ατζντίρ;Ajdir
+zh;阿杰迪尔;Ajdir
+fa;اجدیر;Ajdir
+pl;Adżdir;Ajdir
+he;אז'דיר;Ajdir
+bg;Агадир;Agadir
+fa;اگادیر;Agadir
+ja;アガディール;Agadir
+mk;Агадир;Agadir
+uk;Агадір;Agadir
+zh;阿加迪尔;Agadir
+kk;Агадир;Agadir
+ko;아가디르;Agadir
+sr;Агадир;Agadir
+ur;اگادیر;Agadir
+mr;अगादिर;Agadir
+lt;Agadiras;Agadir
+he;אגאדיר;Agadir
+el;Αγκαντίρ;Agadir
+ky;Агадыр;Agadir
+hi;अगादीर;Agadir
+bn;আগাদির;Agadir
+am;አጋዲር;Agadir
+pa;ਅਗਾਦੀਰ;Agadir
+ps;اګادير;Agadir
+tg;Агадир;Agadir
+tt;Агадыр;Agadir
+ca;Rachidia;Errachidia
+he;א-רשידיה;Errachidia
+lt;Rašidija;Errachidia
+lv;Rāšīdīja;Errachidia
+ro;Er Rachidia;Errachidia
+ur;الرشیدیہ;Errachidia
+pl;Ar-Raszidijja;Errachidia
+zh;拉希迪耶;Errachidia

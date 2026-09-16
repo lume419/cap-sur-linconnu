@@ -3276,3 +3276,1664 @@ ru;Реканто Дас Емас;Recanto das Emas
 pt;Saco Comprido;São Pedro
 pt;Vila Vendinha;Vendinha
 ru;Плано Пилото;Plano Piloto
+kk;Вила-Флор;Vila Flor
+hy;Վիսոզա;Viçosa
+sr;Тукурви;Tucuruí
+kk;Тибау-ду-Сул;Tibau do Sul
+he;תרזינה;Teresina
+tg;Терезина;Teresina
+be;Тэрэзіна;Teresina
+bg;Терезина;Teresina
+ka;ტერეზინა;Teresina
+kk;Терезина;Teresina
+sr;Терезина;Teresina
+th;เตเรซีนา;Teresina
+uk;Терезіна;Teresina
+ky;Терезина;Teresina
+bn;টেরেসিনা;Teresina
+ur;ٹریسینا;Teresina
+am;ቴሬሲና;Teresina
+fa;تریسینا;Teresina
+pa;ਟੇਰੇਸੀਨਾ;Teresina
+ps;تیریسینا;Teresina
+tt;Терезина;Teresina
+hy;Տեյշեյրա;Teixeira
+kk;Тейшейра;Teixeira
+kk;Серра-Тальяда;Serra Talhada
+kk;Серра-Негра-ду-Норти;Serra Negra do Norte
+kk;Сан-Мигел-ду-Тапую;São Miguel do Tapuio
+kk;Сан-Мигел;São Miguel
+gl;São Luís do Maranhão;São Luís
+he;סאו לואיס;São Luís
+tg;Сан-Луис;São Luís
+be;Сан-Луіс;São Luís
+bg;Сао Луис;São Luís
+ka;სან-ლუისი;São Luís
+kk;Сан-Луис;São Luís
+lt;San Luisas;São Luís
+sr;Сао Луис;São Luís
+tet;Saun Luís;São Luís
+uk;Сан-Луїс;São Luís
+el;Σάο Λουίς;São Luís
+fa;سائو لوئیس، مارانهاو;São Luís
+mr;साओ लुईस;São Luís
+ta;சாவோ லூயிசு;São Luís
+ur;ساؤ لوئیس، مارانہاؤ;São Luís
+uz;San Luis;São Luís
+ky;Сан-Луис;São Luís
+bn;সাও লুইস;São Luís
+am;ሳኦ ሉኢስ;São Luís
+az;San Luis;São Luís
+pa;ਸਾਓ ਲੁਈਸ;São Luís
+ps;ساو لويس;São Luís
+tt;Сан-Луис;São Luís
+kk;Сан-Жуан-ду-Пиауи;São João do Piauí
+he;סנטרם;Santarém
+kk;Сантарен;Santarém
+lt;Santarenas;Santarém
+nn;Santarém i Brasil;Santarém
+sr;Сантарем;Santarém
+fa;سانتاری، پارا;Santarém
+th;ซังตาเรย์;Santarém
+kk;Санта-Крус-ду-Капибариби;Santa Cruz do Capibaribe
+kk;Санта-Крус;Santa Cruz
+kk;Риашу-ди-Сантана;Riacho de Santana
+he;רסיפה;Recife
+sr;Ресифе;Recife
+tg;Ресифи;Recife
+be;Рэсіфі;Recife
+bg;Ресифи;Recife
+bn;হেসিফি;Recife
+ce;Ресифи;Recife
+el;Ρεσίφε;Recife
+fa;ریسیف;Recife
+hy;Ռեսիֆի;Recife
+ka;რესიფი;Recife
+kaa;Resife;Recife
+kk;Ресифи;Recife
+lt;Resifė;Recife
+lv;Resifi;Recife
+mn;Ресифи;Recife
+mr;रेसिफे;Recife
+ta;ரெசிஃபி;Recife
+th;เรซีฟี;Recife
+uk;Ресіфі;Recife
+ur;ریسیف;Recife
+uz;Resifi;Recife
+vep;Resifi;Recife
+yue;李斯腓;Recife
+ky;Ресифи;Recife
+am;ሬሲፌ;Recife
+pa;ਰੇਸਿਫੇ;Recife
+ps;ريسيفي;Recife
+tt;Ресифи;Recife
+kk;Рафаэл-Фернандис;Rafael Fernandes
+kk;Порталегри;Portalegre
+kk;Помбал;Pombal
+uk;Помбал;Pombal
+kk;Посиньюс;Pocinhos
+kk;Пилойнс;Pilões
+kk;Пикус;Picos
+kk;Петролина;Petrolina
+sr;Петролина;Petrolina
+uk;Петроліна;Petrolina
+ka;პაულუ-ალფონსუ;Paulo Afonso
+kk;Паулу-Афонсу;Paulo Afonso
+sr;Паулиста;Paulista
+kk;Пау-дус-Феррус;Pau dos Ferros
+kk;Патус;Patos
+hy;Պատուս;Patos
+kk;Парнамирин;Parnamirim
+el;Παρναΐμπα;Parnaíba
+kk;Парнаиба;Parnaíba
+kk;Палмарис;Palmares
+he;אולינדה;Olinda
+ka;ოლინდა;Olinda
+sr;Олинда;Olinda
+bg;Олинда;Olinda
+kk;Олинда;Olinda
+th;โอลิงดา;Olinda
+uk;Олінда;Olinda
+he;נאטאל;Natal
+tg;Натал;Natal
+kk;Натал;Natal
+ky;Натал;Natal
+bn;নাটাল;Natal
+ur;ناتال;Natal
+am;ናታል;Natal
+fa;ناتال;Natal
+pa;ਨਾਤਾਲ;Natal
+ps;ناتال;Natal
+tt;Натал;Natal
+kk;Мосоро;Mossoró
+sr;Мосоро;Mossoró
+fa;مارتینس;Martins
+kk;Мартинс;Martins
+kk;Марселину-Виейра;Marcelino Vieira
+kk;Мараба;Marabá
+kk;Мажор-Салис;Major Sales
+he;מסייאו;Maceió
+tg;Масейо;Maceió
+bg;Масейо;Maceió
+ka;მასეიო;Maceió
+kk;Масейо;Maceió
+lt;Masejas;Maceió
+sr;Масејо;Maceió
+th;มาเซโอ;Maceió
+uk;Масейо;Maceió
+uz;Maseyo;Maceió
+ky;Мацейо;Maceió
+bn;ম্যাসিও;Maceió
+ur;مسیو;Maceió
+am;ማሴዮ;Maceió
+fa;ماسیو;Maceió
+pa;ਮਾਸੇਇਓ;Maceió
+ps;ماسيو;Maceió
+tt;Мацейо;Maceió
+fa;ماکاو;Macau
+kk;Макау;Macau
+ur;مکاؤ، ریو گرانڈی ڈو نورٹی;Macau
+he;מקאפה;Macapá
+tg;Макапа;Macapá
+bg;Макапа;Macapá
+ka;მაკაპა;Macapá
+kk;Макапа;Macapá
+lt;Makapa;Macapá
+mr;मकापा;Macapá
+sr;Макапа;Macapá
+th;มากาปา;Macapá
+uk;Макапа;Macapá
+uz;Makapa;Macapá
+ky;Макапá;Macapá
+bn;ম্যাকাপা;Macapá
+ur;ماکاپا;Macapá
+am;ማካፓ;Macapá
+az;Makapa;Macapá
+fa;ماکاپا;Macapá
+ha;Makapa;Macapá
+om;Makapa;Macapá
+pa;ਮਾਕਾਪਾ;Macapá
+ps;ماكابا;Macapá
+so;Makapa;Macapá
+sw;Makapa;Macapá
+tt;Макапá;Macapá
+kk;Луис-Гомис;Luís Gomes
+hy;Լագոա;Lagoa
+kk;Лагоа;Lagoa
+ur;لاگوا، پارایبا;Lagoa
+kk;Журути;Juruti
+ka;ჟუაზეირუ-დუ-ნორტი;Juazeiro do Norte
+kk;Жуазейру-ду-Норти;Juazeiro do Norte
+lt;Žuazeiro do Nortė;Juazeiro do Norte
+sr;Жвазејро до Норте;Juazeiro do Norte
+kk;Жозе-да-Пенья;José da Penha
+he;ז'ואאו פזואה;João Pessoa
+he;זואאו פסואה;João Pessoa
+tg;Жуан-Песоа;João Pessoa
+be;Жуан-Песоа;João Pessoa
+bg;Жоао Песоа;João Pessoa
+ka;ჟუან-პესოა;João Pessoa
+kk;Жуан-Песоа;João Pessoa
+mr;होआव पेसोआ;João Pessoa
+sr;Жоао Песоа;João Pessoa
+uk;Жуан-Пессоа;João Pessoa
+el;Ζοάο Πεσόα;João Pessoa
+fa;ژواو پسوا، پارائیبا;João Pessoa
+lt;Žoan Pesoa;João Pessoa
+th;โจเอาเปสโซอา;João Pessoa
+ur;جواو پیسوا;João Pessoa
+ky;Жуан-Пессоа;João Pessoa
+bn;জোয়াও পেসোয়া;João Pessoa
+am;ጆአኦ ፔሶዋ;João Pessoa
+pa;ਜੋਆਓ ਪੇਸੋਆ;João Pessoa
+ps;جواو پسوا;João Pessoa
+tt;Жуан-Пессоа;João Pessoa
+kk;Жандуис;Janduís
+ur;جنڈویس;Janduís
+sr;Итајтуба;Itaituba
+ka;იმპერატრისი;Imperatriz
+kk;Императрис;Imperatriz
+lt;Imperatrisas;Imperatriz
+sr;Императриз;Imperatriz
+kk;Игарасу;Igarassu
+kk;Гуарабира;Guarabira
+kk;Гояна;Goiana
+he;פורטלזה;Fortaleza
+tg;Форталеза;Fortaleza
+be;Фарталеза;Fortaleza
+bg;Форталеза;Fortaleza
+bn;ফর্তালিজা;Fortaleza
+ce;Форталеза;Fortaleza
+el;Φορταλέζα;Fortaleza
+fa;فورتالزا;Fortaleza
+ka;ფორტალეზა;Fortaleza
+kk;Форталеза;Fortaleza
+mn;Форталеза;Fortaleza
+mr;फोर्तालेझा;Fortaleza
+os;Форталезæ;Fortaleza
+sr;Форталеза;Fortaleza
+th;ฟอร์ตาเลซา;Fortaleza
+uk;Форталеза;Fortaleza
+yue;福塔雷薩;Fortaleza
+ky;Форталеза;Fortaleza
+ur;فورتالیزا;Fortaleza
+am;ፎርታሌዛ;Fortaleza
+pa;ਫੋਰਟਾਲੇਜ਼ਾ;Fortaleza
+ps;فورتاليزا;Fortaleza
+tt;Форталеза;Fortaleza
+kk;Эстремос;Extremoz
+fa;اکوادور;Equador
+kk;Экуадор;Equador
+kk;Дотор-Севериану;Doutor Severiano
+fa;دوتور سوریانو;Doutor Severiano
+kk;Куррайс-Новус;Currais Novos
+ka;კრატუ;Crato
+kk;Крату;Crato
+kk;Коронел-Жуан-Песоа;Coronel João Pessoa
+hy;Կաշիաս;Caxias
+ka;კაშიასი;Caxias
+kk;Кашиас;Caxias
+lt;Kašijasas;Caxias
+kk;Кастаньял;Castanhal
+hy;Կարոլինա;Carolina
+ka;კაროლინა;Carolina
+kk;Каролина;Carolina
+ka;კანინდე;Canindé
+kk;Канинде;Canindé
+kk;Кангуаретама;Canguaretama
+bg;Кампина Гранди;Campina Grande
+kk;Кампина-Гранди;Campina Grande
+lt;Kampina Grandė;Campina Grande
+sr;Кампина Гранде;Campina Grande
+kk;Кажазейрас;Cajazeiras
+kk;Кайко;Caicó
+hy;Կաբեդելու;Cabedelo
+kk;Кабеделу;Cabedelo
+hy;Բորբա;Borba
+hy;Բելեն;Belém
+kk;Белен;Belém
+gl;Belém do Pará;Belém
+he;בלם;Belém
+tg;Белен;Belém
+sr;Белем;Belém
+os;Белен;Belém
+uk;Белен;Belém
+lv;Belena;Belém
+bn;বেলেঁ;Belém
+mr;बेलेम;Belém
+bg;Белен;Belém
+br;Belém do Pará;Belém
+th;เบเลง;Belém
+ka;ბელენი;Belém
+lt;Belenas;Belém
+fa;بلم;Belém
+be;Белен;Belém
+ce;Белен;Belém
+el;Μπελέμ;Belém
+mn;Белен;Belém
+uz;Belen;Belém
+ky;Белен;Belém
+ur;بیلیم;Belém
+am;ቤሌም;Belém
+pa;ਬੇਲੇਮ;Belém
+ps;بيليم;Belém
+tt;Белен;Belém
+kk;Баиа-Формоза;Baía Formosa
+bg;Арара;Arara
+el;Αραρά;Arara
+et;Arara vald;Arara
+fa;آرارا;Arara
+he;ארארה;Arara
+hy;Արարա;Arara
+ka;არარა;Arara
+kk;Арара;Arara
+mk;Арара;Arara
+sr;Арара;Arara
+ta;அராரா;Arara
+tg;Арара;Arara
+th;อารารา;Arara
+uk;Арара;Arara
+ka;არაკატი;Aracati
+kk;Аракати;Aracati
+fa;آپودی;Apodi
+kk;Аподи;Apodi
+bg;Ананиндеуа;Ananindeua
+fa;انانین‌دوا، پارا;Ananindeua
+he;אננינדאואה;Ananindeua
+hy;Անանինդեուա;Ananindeua
+kk;Ананиндеуа;Ananindeua
+sr;Ананиндеуа;Ananindeua
+uk;Ананіндеуа;Ananindeua
+bg;Алтамира;Altamira
+et;Altamira vald;Altamira
+kk;Алтамира;Altamira
+fa;التمیرا، پارا;Altamira
+hy;Ալտամիրա;Altamira
+kk;Алешандрия;Alexandria
+fa;الکساندریا، ریو گرند دو نورت;Alexandria
+kk;Агуа-Нова;Água Nova
+fa;ابرو ا لیما، پرنامبوکا;Abreu e Lima
+kk;Абреу-и-Лима;Abreu e Lima
+uk;Абреу-і-Ліма;Abreu e Lima
+be;Волта-Рэдонда;Volta Redonda
+kk;Волта-Редонда;Volta Redonda
+sr;Волта Редонда;Volta Redonda
+ka;ვიტორია-და-კონკისტა;Vitória da Conquista
+kk;Витория-да-Конкиста;Vitória da Conquista
+lt;Vitorija da Konkista;Vitória da Conquista
+sr;Виторија да Конкиста;Vitória da Conquista
+he;ויטוריה;Vitória
+tg;Витория;Vitória
+kk;Виториа;Vitória
+uz;Viktoriya;Vitória
+ky;Виториа;Vitória
+bn;ভিটোরিয়া;Vitória
+ur;ویٹوریا;Vitória
+am;ቪቶሪያ;Vitória
+az;Viktoriya;Vitória
+fa;ویتوریا;Vitória
+ha;Viktoriya;Vitória
+om;Viktoriya;Vitória
+pa;ਵਿਟੋਰੀਆ;Vitória
+ps;فيتوريا;Vitória
+so;Viktoriya;Vitória
+tt;Виториа;Vitória
+he;וילה וליה;Vila Velha
+bg;Вила Веля;Vila Velha
+kk;Вила-Велья;Vila Velha
+lt;Vila Velja;Vila Velha
+sr;Вила Веља;Vila Velha
+kk;Висоза;Viçosa
+uk;Вісоза;Viçosa
+kk;Виаман;Viamão
+sr;Вијамао;Viamão
+kk;Васорас;Vassouras
+kk;Варжинья;Varginha
+kk;Валиньюс;Valinhos
+uk;Валіньюс;Valinhos
+hy;Վալենսա;Valença
+kk;Валенса;Valença
+kk;Уругуаяна;Uruguaiana
+lt;Urugvajana;Uruguaiana
+uk;Уругваяна;Uruguaiana
+uk;Уніан-да-Віторія;União da Vitória
+bg;Уберландия;Uberlândia
+kk;Уберландия;Uberlândia
+lt;Uberlandija;Uberlândia
+sr;Уберландија;Uberlândia
+th;อูเบร์ลังเดีย;Uberlândia
+bg;Убераба;Uberaba
+kk;Убераба;Uberaba
+sr;Убераба;Uberaba
+uk;Убераба;Uberaba
+kk;Убатуба;Ubatuba
+kk;Тупан;Tupã
+kk;Тумиритинга;Tumiritinga
+fa;توکانو، باهیا;Tucano
+hu;Ramphastinae;Tucano
+hy;Տուկանու;Tucano
+ka;ტუკანუ;Tucano
+ur;توکانو، باہیا;Tucano
+kk;Триндади;Trindade
+hy;Տրինդադի;Trindade
+ka;ტრინდადი;Trindade
+kk;Трес-Риус;Três Rios
+kk;Трес-Понтас;Três Pontas
+kk;Трес-Лагоас;Três Lagoas
+bg;Трес Корасойнс;Três Corações
+he;טרס קוראסואס;Três Corações
+kk;Трес-Корасойнс;Três Corações
+uk;Трес-Корасойнс;Três Corações
+kk;Торрис;Torres
+lv;Tolīdo;Toledo
+be;Таліда;Toledo
+hy;Թոլեդո;Toledo
+kk;Тимотеу;Timóteo
+kk;Тиете;Tietê
+bg;Терезополис;Teresópolis
+kk;Терезополис;Teresópolis
+kk;Теофилу-Отони;Teófilo Otoni
+th;เตออฟีลูโอโตนี;Teófilo Otoni
+kk;Теодору-Сампаю;Teodoro Sampaio
+lt;Telemako Borba;Telêmaco Borba
+bg;Телемако Борба;Telêmaco Borba
+kk;Таубате;Taubaté
+sr;Таубате;Taubaté
+th;เตาบาเต;Taubaté
+uk;Таубате;Taubaté
+kk;Татуи;Tatuí
+kk;Такуаритинга;Taquaritinga
+kk;Сузану;Suzano
+sr;Сузано;Suzano
+bg;Сумаре;Sumaré
+sr;Сумаре;Sumaré
+uk;Сорокаба;Sorocaba
+kk;Сорокаба;Sorocaba
+lt;Sorokaba;Sorocaba
+bg;Сорокаба;Sorocaba
+sr;Сорокаба;Sorocaba
+kk;Сокорру;Socorro
+kk;Сети-Лагоас;Sete Lagoas
+sr;Сете Лагоас;Sete Lagoas
+kk;Серру;Serro
+kk;Серопедика;Seropédica
+kk;Сан-Висенти-ди-Минас;São Vicente de Minas
+bg;Сао Висенти;São Vicente
+he;סאו ויסנטה;São Vicente
+kk;Сан-Висенти;São Vicente
+lt;San Visentė;São Vicente
+sr;Сао Висенте;São Vicente
+uk;Сан-Вісенті;São Vicente
+kk;Сан-Симан;São Simão
+kk;Сан-Себастьян-ду-Параизу;São Sebastião do Paraíso
+kk;Сан-Себастьян;São Sebastião
+kk;Сан-Педру-да-Алдея;São Pedro da Aldeia
+kk;Сан-Педру;São Pedro
+be;Сан-Паўлу;São Paulo
+bg;Сао Пауло;São Paulo
+el;Σάο Πάολο;São Paulo
+fa;سائوپائولو;São Paulo
+gl;San Paulo;São Paulo
+he;סאו פאולו;São Paulo
+lt;San Paulas;São Paulo
+lv;Sanpaulu;São Paulo
+sr;Сао Пауло;São Paulo
+ug;San Pawlo;São Paulo
+zh-TW;聖保羅;São Paulo
+tet;Saun Paulu;São Paulo
+ml;സാവോ പോളോ;São Paulo
+os;Сан-Паулу;São Paulo
+ab;Сан-Паулу;São Paulo
+mr;साओ पाउलो;São Paulo
+am;ሳው ፓውሉ;São Paulo
+my;ဆောပိုလိုမြို့;São Paulo
+mwl;San Poulo;São Paulo
+ta;சாவோ பாவுலோ;São Paulo
+tpi;San Paulu;São Paulo
+dv;ސައޮ ޕައުލޯ;São Paulo
+tt;Сан-Паулу;São Paulo
+mzn;سائوپائولو;São Paulo
+tk;San-Paulu;São Paulo
+mhr;Сан-Паулу;São Paulo
+kv;Сан-Паулу;São Paulo
+te;శఒ పౌలొ;São Paulo
+tg;Сан-Паулу;São Paulo
+kn;ಸಾವೊ ಪಾಲೊ;São Paulo
+bn;সাঁউ পাউলু;São Paulo
+hy;Սան Պաուլու;São Paulo
+cv;Сан-Паулу;São Paulo
+th;เซาเปาลู;São Paulo
+ka;სან-პაულუ;São Paulo
+mk;Сао Паоло;São Paulo
+ba;Сан-Паулу;São Paulo
+sah;Сан Паулу;São Paulo
+uz;San Paulu;São Paulo
+ur;ساؤ پالو;São Paulo
+rue;Сан Пауло;São Paulo
+uk;Сан-Паулу;São Paulo
+xal;Сан-Паулу;São Paulo
+crh;San Paulu;São Paulo
+ku;Sao Paolo;São Paulo
+kk;Сан-Паулу;São Paulo
+ky;Сан-Паулу;São Paulo
+az;San Paulo;São Paulo
+ha;San Paulo;São Paulo
+om;San Paulo;São Paulo
+pa;ਸਾਓ ਪਾਉਲੋ;São Paulo
+ps;ساو پاولو;São Paulo
+so;San Paulo;São Paulo
+kk;Сан-Леополду;São Leopoldo
+sr;Сао Леополдо;São Leopoldo
+he;סאו זוזה דוס פיניאיס;São José dos Pinhais
+sr;Сао Жосе дос Пињајс;São José dos Pinhais
+uk;Сан-Жозе-дус-Піньяйс;São José dos Pinhais
+fa;ساو خوزه دوس پینهایس;São José dos Pinhais
+kk;Сан-Жозе-дус-Кампус;São José dos Campos
+fa;سائو خوزه دوس کامپس;São José dos Campos
+sr;Сао Жосе дос Кампос;São José dos Campos
+bg;Сао Жозе дос Кампос;São José dos Campos
+lt;San Žozė dos Kamposas;São José dos Campos
+uk;Сан-Жозе-дус-Кампус;São José dos Campos
+bg;Сао Жозе до Рио Прето;São José do Rio Preto
+kk;Сан-Жозе-ду-Риу-Прету;São José do Rio Preto
+lt;San Žozė do Rio Pretas;São José do Rio Preto
+sr;Сао Жозе до Рио Прето;São José do Rio Preto
+uk;Сан-Жозе-ду-Ріу-Прету;São José do Rio Preto
+be;Сан-Жуан-ды-Мерыты;São João de Meriti
+bg;Сао Жоао ди Мерити;São João de Meriti
+kk;Сан-Жуан-ди-Мерити;São João de Meriti
+lt;San Žuan de Meritis;São João de Meriti
+sr;Сао Жоао де Мерити;São João de Meriti
+kk;Сан-Жуан-дел-Рей;São João del Rei
+uk;Сан-Жуан-дел-Рей;São João del Rei
+bg;Сао Гонсало;São Gonçalo
+ka;სან-გონსალუ;São Gonçalo
+kk;Сан-Гонсалу;São Gonçalo
+lt;San Gonsalas;São Gonçalo
+sr;Сао Гонсало;São Gonçalo
+fa;سائو گونسالو;São Gonçalo
+he;סאו פרנסיסקו דו סול;São Francisco do Sul
+kk;Сан-Франсиску-ди-Паула;São Francisco de Paula
+kk;Сан-Франсиску-ди-Асис;São Francisco de Assis
+kk;Сан-Франсиску;São Francisco
+ka;სან-კრისტოვანი;São Cristóvão
+lt;San Kristovanas;São Cristóvão
+kk;Сан-Карлус;São Carlos
+lt;San Karlosas;São Carlos
+sr;Сао Карлос;São Carlos
+uk;Сан-Карлус;São Carlos
+fa;ساو کارلوس;São Carlos
+kk;Сантус-Думонт;Santos Dumont
+be;Сантус;Santos
+bg;Сантос;Santos
+fa;سانتوس;Santos
+he;סנטוס;Santos
+kk;Сантус;Santos
+lt;Santosas;Santos
+lv;Santusa;Santos
+mn;Сантус хот;Santos
+sr;Сантос;Santos
+th;ซังตูส;Santos
+uk;Сантус;Santos
+el;Σάντος;Santos
+ur;سانتوس، ساؤ پاؤلو;Santos
+kk;Санту-Анжелу;Santo Ângelo
+uk;Санту-Анжелу;Santo Ângelo
+br;Santo Amaro da Purificação;Santo Amaro
+hy;Սանտու Ամարու;Santo Amaro
+ka;სანტუ-ამარუ;Santo Amaro
+kk;Санту-Амару;Santo Amaro
+hy;Սանտա Թերեզա;Santa Teresa
+ka;სანტა-ტერეზა;Santa Teresa
+kk;Санта-Тереза;Santa Teresa
+kk;Сантана-ду-Параизу;Santana do Paraíso
+he;סנטנה דו ליברמנטו;Sant'Ana do Livramento
+kk;Сантана-ду-Ливраменту;Sant'Ana do Livramento
+he;סנטה מריה;Santa Maria
+kk;Санта-Мария;Santa Maria
+lt;Santa Marija;Santa Maria
+fa;سانتا ماریا;Santa Maria
+sr;Санта Марија;Santa Maria
+th;ซานตามาเรีย;Santa Maria
+kk;Санта-Лузия;Santa Luzia
+sr;Санта Лузија;Santa Luzia
+kk;Санта-Крус-ду-Сул;Santa Cruz do Sul
+ka;სანტა-ბარბარა;Santa Bárbara
+kk;Санта-Барбара;Santa Bárbara
+uk;Санта-Барбара;Santa Bárbara
+lv;Salvadora;Salvador
+he;סלבדור;Salvador
+sr;Салвадор;Salvador
+tg;Салвадор;Salvador
+be;Сальвадор;Salvador
+eu;Salvador da Bahia;Salvador
+fa;سالوادور;Salvador
+bn;সালভাদোর;Salvador
+ka;სალვადორი;Salvador
+br;Salvador da Bahia;Salvador
+rm;Salvador da Bahia;Salvador
+lt;Salvadoras;Salvador
+kk;Салвадор;Salvador
+os;Салвадор;Salvador
+af;Salvador da Bahia;Salvador
+th;ซัลวาดอร์;Salvador
+mr;साल्व्हादोर दा बाईया;Salvador
+uk;Салвадор;Salvador
+bg;Салвадор;Salvador
+ce;Салвадор;Salvador
+el;Σαλβαδόρ;Salvador
+hu;Salvador da Bahia;Salvador
+mn;Салвадор;Salvador
+ky;Сальвадор;Salvador
+ur;سالوادور;Salvador
+am;ሳልቫዶር;Salvador
+pa;ਸਾਲਵਾਡੋਰ;Salvador
+ps;سالفادور;Salvador
+tt;Сальвадор;Salvador
+kk;Салту-Гранди;Salto Grande
+kk;Салту;Salto
+kk;Салинас;Salinas
+el;Σάγκρες;Sagres
+kk;Сакраменту;Sacramento
+kk;Роки-Гонзалис;Roque Gonzales
+kk;Риу-Верди;Rio Verde
+fa;ریو وارده، گوییاس;Rio Verde
+hy;Ռիու Վերդի;Rio Verde
+ka;რიუ-ვერდი;Rio Verde
+kk;Риу-Парду;Rio Pardo
+bg;Рио де Жанейро;Rio de Janeiro
+ca;Ciutat de Rio de Janeiro;Rio de Janeiro
+fa;ریو دو ژانیرو;Rio de Janeiro
+he;ריו דה זניירו;Rio de Janeiro
+ka;რიო-დე-ჟანეირო;Rio de Janeiro
+lt;Rio de Žaneiras;Rio de Janeiro
+th;รีโอเดจาเนโร;Rio de Janeiro
+sr;Рио де Жанејро;Rio de Janeiro
+be;Рыа-дэ-Жанэйра;Rio de Janeiro
+el;Ρίο ντε Τζανέιρο;Rio de Janeiro
+lv;Riodežaneiro;Rio de Janeiro
+th;รัฐรีโอเดจาเนโร;Rio de Janeiro
+uk;Ріо-де-Жанейро;Rio de Janeiro
+kn;ರಿಯೋ ಡಿ ಜನೈರೊ;Rio de Janeiro
+uz;Rio-de-Janeyro;Rio de Janeiro
+sah;Рио де Жанейро;Rio de Janeiro
+kk;Рио-де-Жанейро;Rio de Janeiro
+tet;Rio de Janeiru;Rio de Janeiro
+mhr;Рио-де-Жанейро;Rio de Janeiro
+cv;Рио-де-Жанейро;Rio de Janeiro
+ur;ریو دے جینیرو;Rio de Janeiro
+os;Рио-де-Жанейро;Rio de Janeiro
+mn;Рио-де-Жанейро;Rio de Janeiro
+hy;Ռիո դե Ժանեյրո;Rio de Janeiro
+ug;Rio dé Janéyro;Rio de Janeiro
+bo;རིའོ་ཌེ་ཇ་ནེའུ་རའོ།;Rio de Janeiro
+bn;রিও দি জেনেরিও;Rio de Janeiro
+az;Rio-de-Janeyro;Rio de Janeiro
+tk;Rio-de-Žaneýro;Rio de Janeiro
+ta;இரியோ டி செனீரோ;Rio de Janeiro
+mr;रियो दि जानेरो;Rio de Janeiro
+mk;Рио де Жанеиро;Rio de Janeiro
+ml;റിയോ ഡി ജനീറോ;Rio de Janeiro
+sq;Rio de Zhaneiro;Rio de Janeiro
+rue;Ріо де Жанейро;Rio de Janeiro
+ky;Рио-де-Жанейро;Rio de Janeiro
+vep;Rio-de-Žaneiro;Rio de Janeiro
+ba;Рио-де-Жанейро;Rio de Janeiro
+my;ရီယို ဒီ ဂျီးနေးရိုးမြို့;Rio de Janeiro
+am;ሪዮ ዴ ጃኔይሮ;Rio de Janeiro
+sgs;Rio dė Žaneiros;Rio de Janeiro
+ce;Рио-де-Жанейро;Rio de Janeiro
+ckb;ڕیۆ دێ ژانێرۆ;Rio de Janeiro
+lez;Рио-де-Жанейро;Rio de Janeiro
+mwl;Riu de Janeiro;Rio de Janeiro
+pa;ਰਿਓ ਡੀ ਜਨੇਰੋ;Rio de Janeiro
+tg;Рио-де-Жанейро;Rio de Janeiro
+tt;Рио-де-Жанейро;Rio de Janeiro
+yue;里約熱內盧;Rio de Janeiro
+bxr;Рио-де-Жанейро;Rio de Janeiro
+ne;रियो दी जेनेरियो;Rio de Janeiro
+zh-TW;里約熱內盧;Rio de Janeiro
+ha;Rio de Janeyro;Rio de Janeiro
+om;Rio de Janeyro;Rio de Janeiro
+ps;ريو دي جانيرو;Rio de Janeiro
+so;Rio de Janeyro;Rio de Janeiro
+kk;Риу-Клару;Rio Claro
+hy;Ռիու Բրիլիանտի;Rio Brilhante
+ka;რიუ-ბრილიანტი;Rio Brilhante
+kk;Риу-Брильянти;Rio Brilhante
+uk;Рібейран-Прету;Ribeirão Preto
+lt;Ribeiran Pretas;Ribeirão Preto
+sr;Рибејрао Прето;Ribeirão Preto
+kk;Рибейран-Прету;Ribeirão Preto
+bg;Рибейрао Прето;Ribeirão Preto
+hy;Ռիաշու դի Սանտանա;Riacho de Santana
+ka;რიაშუ-დი-სანტანა;Riacho de Santana
+kk;Респлендор;Resplendor
+kk;Резенди;Resende
+uk;Резенді;Resende
+fa;ریسندی;Resende
+kk;Куараи;Quaraí
+lt;Kuarajus;Quaraí
+kk;Президенти-Пруденти;Presidente Prudente
+lt;Prezidente Prudentė;Presidente Prudente
+sr;Президенте Пруденте;Presidente Prudente
+th;เปรซีเดงชีปรูเดงชี;Presidente Prudente
+uk;Презіденті-Пруденті;Presidente Prudente
+kk;Прая-Гранди;Praia Grande
+sr;Праја Гранде;Praia Grande
+uk;Прая-Гранді;Praia Grande
+ka;პრადუსი;Prados
+kk;Прадус;Prados
+bg;Пузу Алегри;Pouso Alegre
+kk;Позу-Алегри;Pouso Alegre
+th;โปซูอาเลกรี;Pouso Alegre
+ka;პორტუ-სეგურუ;Porto Seguro
+kk;Порту-Сегуру;Porto Seguro
+bg;Порто Алегри;Porto Alegre
+he;פורטו אלגרה;Porto Alegre
+tg;Порту-Алегре;Porto Alegre
+lv;Portualegri;Porto Alegre
+ur;پورتو الیگرے;Porto Alegre
+os;Порту-Алегри;Porto Alegre
+uk;Порту-Алегрі;Porto Alegre
+fa;پورتو الگره;Porto Alegre
+be;Порту-Алегры;Porto Alegre
+ka;პორტუ-ალეგრი;Porto Alegre
+mr;पोर्तू अलेग्री;Porto Alegre
+sr;Порто Алегре;Porto Alegre
+kk;Порту-Алегри;Porto Alegre
+ce;Порту-Алегри;Porto Alegre
+el;Πόρτο Αλέγκρε;Porto Alegre
+mn;Порту-Алегри;Porto Alegre
+uz;Portu-Alegri;Porto Alegre
+ky;Порту-Алегри;Porto Alegre
+bn;পোর্তো আলেগ্রে;Porto Alegre
+am;ፖርቶ አለግሬ;Porto Alegre
+pa;ਪੋਰਟੋ ਅਲੇਗਰੇ;Porto Alegre
+ps;پورتو الیگري;Porto Alegre
+tt;Порту-Алегри;Porto Alegre
+kk;Понта-Поран;Ponta Porã
+bg;Понта Гроса;Ponta Grossa
+lt;Ponta Grosa;Ponta Grossa
+sr;Понта Гроса;Ponta Grossa
+th;โปนตากรอสซา;Ponta Grossa
+fa;پونتا گروسا;Ponta Grossa
+kk;Посус-ди-Калдас;Poços de Caldas
+kk;Пирапора;Pirapora
+sr;Пирапора;Pirapora
+kk;Пирангинью;Piranguinho
+kk;Пирасунунга;Pirassununga
+bg;Пирасикаба;Piracicaba
+kk;Пирасикаба;Piracicaba
+lt;Pirasikaba;Piracicaba
+sr;Пирасикаба;Piracicaba
+uk;Пірасікаба;Piracicaba
+kk;Пиндамоньянгаба;Pindamonhangaba
+bg;Петрополис;Petrópolis
+he;פטרופוליס;Petrópolis
+sr;Петрополис;Petrópolis
+kk;Петрополис;Petrópolis
+uk;Петрополіс;Petrópolis
+kk;Перуиби;Peruíbe
+kk;Пердизис;Perdizes
+bg;Пелотас;Pelotas
+kk;Пелотас;Pelotas
+lt;Pelotasas;Pelotas
+sr;Пелотас;Pelotas
+az;Pauliniya;Paulínia
+bg;Паулиния;Paulínia
+fa;پائولینیا;Paulínia
+he;פאוליניה;Paulínia
+kk;Паулиния;Paulínia
+lt;Paulinija;Paulínia
+lv;Paulinija;Paulínia
+uk;Паулінія;Paulínia
+kk;Патросиниу;Patrocínio
+kk;Патус-ди-Минас;Patos de Minas
+kk;Пасус;Passos
+kk;Пасу-Фунду;Passo Fundo
+th;ปาสซูฟูนดู;Passo Fundo
+bg;Паса Куатро;Passa Quatro
+kk;Паса-Куатру;Passa Quatro
+kk;Паранаиба;Paranaíba
+el;Παραναγκουά;Paranaguá
+kk;Пара-ди-Минас;Pará de Minas
+kk;Паракату;Paracatu
+hy;Պալմեյրաս;Palmeiras
+ka;პალმეირასი;Palmeiras
+kk;Палмейрас;Palmeiras
+bg;Пальоса;Palhoça
+he;אורו פרטו;Ouro Preto
+ka;ორუ-პრეტუ;Ouro Preto
+kk;Ору-Прету;Ouro Preto
+lt;Oro Pretas;Ouro Preto
+sr;Оро Прето;Ouro Preto
+th;โอรูเปรตู;Ouro Preto
+uk;Ору-Прету;Ouro Preto
+kk;Ору-Фину;Ouro Fino
+kk;Ориньюс;Ourinhos
+kk;Озориу;Osório
+kk;Оливейра;Oliveira
+kk;Нову-Амбургу;Novo Hamburgo
+sr;Ново Амбурго;Novo Hamburgo
+th;โนวูอัมบูร์กู;Novo Hamburgo
+bg;Нова Игуасу;Nova Iguaçu
+ka;ნოვა-იგუასუ;Nova Iguaçu
+kk;Нова-Игуасу;Nova Iguaçu
+lt;Nova Iguasu;Nova Iguaçu
+mr;नोव्हा इग्वासु;Nova Iguaçu
+sr;Нова Игуасу;Nova Iguaçu
+uk;Нова-Ігуасу;Nova Iguaçu
+bg;Нова Фрибурго;Nova Friburgo
+kk;Нова-Фрибургу;Nova Friburgo
+kk;Нилополис;Nilópolis
+kk;Навираи;Naviraí
+kk;Муриаэ;Muriaé
+th;มูเรียแอ;Muriaé
+bg;Монтис Кларос;Montes Claros
+kk;Монтис-Кларус;Montes Claros
+sr;Монтес Кларос;Montes Claros
+hy;Մոնտի Սանտու;Monte Santo
+ka;მონტი-სანტუ;Monte Santo
+kk;Монти-Санту;Monte Santo
+kk;Монтенегру;Montenegro
+kk;Монти-Алту;Monte Alto
+kk;Можи-Мирин;Mogi Mirim
+kk;Можи-Гуасу;Mogi Guaçu
+hy;Միրանդա;Miranda
+ka;მირანდა;Miranda
+kk;Миранда;Miranda
+hy;Միմոզու դու Սուլ;Mimoso do Sul
+ka;მიმოზუ-დუ-სული;Mimoso do Sul
+kk;Мимозу-ду-Сул;Mimoso do Sul
+bg;Мауа;Mauá
+kk;Мауа;Mauá
+sr;Мауа;Mauá
+uk;Мауа;Mauá
+bg;Маринга;Maringá
+sr;Маринга;Maringá
+kk;Марилия;Marília
+lt;Marilija;Marília
+sr;Марилија;Marília
+sr;Маријана;Mariana
+hy;Մարակաժու;Maracaju
+ka;მარაკაჟუ;Maracaju
+kk;Маракажу;Maracaju
+kk;Мантена;Mantena
+kk;Маньюасу;Manhuaçu
+kk;Мангаратиба;Mangaratiba
+hy;Մայրի;Mairi
+ka;მაირი;Mairi
+kk;Майри;Mairi
+bg;Маже;Magé
+kk;Маже;Magé
+sr;Маже;Magé
+kk;Макаэ;Macaé
+uk;Макае;Macaé
+kk;Лорена;Lorena
+bg;Лондрина;Londrina
+fa;لوندرینا;Londrina
+sr;Лондрина;Londrina
+kk;Линс;Lins
+kk;Линьярис;Linhares
+kk;Лимейра;Limeira
+sr;Лимеира;Limeira
+th;ลีเมย์รา;Limeira
+kk;Лима-Дуарти;Lima Duarte
+kk;Лаврас-ду-Сул;Lavras do Sul
+kk;Лаврас;Lavras
+he;לרנז'יירס;Laranjeiras
+ur;لارانجیراس، ریو دے جانیرو;Laranjeiras
+sr;Ларанжеирас;Laranjeiras
+ur;لاپا، پارانا;Lapa
+lt;Lažesas;Lages
+uk;Лажис;Lages
+kk;Лажеаду;Lajeado
+fa;لاگونا;Laguna
+kk;Лагоа-Вермелья;Lagoa Vermelha
+ka;ლაგოა-სანტა;Lagoa Santa
+kk;Лагоа-Санта;Lagoa Santa
+bg;Жундиаи;Jundiaí
+kk;Жундиаи;Jundiaí
+lt;Žundiajus;Jundiaí
+sr;Жундијаи;Jundiaí
+uk;Жундіаї;Jundiaí
+th;จันดี้ไอ;Jundiaí
+uk;Жуїз-ді-Фора;Juiz de Fora
+th;ชวีซ์ดีฟอรา;Juiz de Fora
+sr;Жуиз де Фора;Juiz de Fora
+kk;Жуис-ди-Фора;Juiz de Fora
+bg;Жуиз ди Фора;Juiz de Fora
+lt;Žuis de Fora;Juiz de Fora
+bg;Жойнвили;Joinville
+he;זוינווילי;Joinville
+lt;Žoinvilis;Joinville
+os;Жоинвили;Joinville
+sr;Жоинвиле;Joinville
+kk;Жуан-Пиньейру;João Pinheiro
+kk;Жуан-Монлевади;João Monlevade
+kk;Жекитиньонья;Jequitinhonha
+th;เชกีตินโยนยา;Jequitinhonha
+ka;ჟეკიე;Jequié
+kk;Жекие;Jequié
+kk;Жау;Jaú
+ur;جردم علیگرے;Jardim Alegre
+kk;Жардин;Jardim
+vi;Vườn;Jardim
+hy;Ժարդին;Jardim
+ka;ჟარდინი;Jardim
+ur;جردم، جنوبی ماتو گروسو;Jardim
+kk;Жарагуа;Jaraguá
+hy;Ժարագուա;Jaraguá
+ka;ჟარაგუა;Jaraguá
+ka;ჟაკობინა;Jacobina
+kk;Жакобина;Jacobina
+kk;Жакареи;Jacareí
+sr;Жакареи;Jacareí
+kk;Жаботикабал;Jaboticabal
+hy;Իվինիեմա;Ivinhema
+ka;ივინიემა;Ivinhema
+kk;Ивиньема;Ivinhema
+kk;Итумбиара;Itumbiara
+kk;Итиютаба;Ituiutaba
+kk;Итуэта;Itueta
+kk;Иту;Itu
+uk;Іту;Itu
+hy;Իտաունա;Itaúna
+kk;Итауна;Itaúna
+kk;Итапира;Itapira
+kk;Итапетининга;Itapetininga
+uk;Ітапетінінга;Itapetininga
+kk;Итаперуна;Itaperuna
+th;อีตาปิรูนา;Itaperuna
+hy;Իտապեմիրին;Itapemirim
+ka;იტაპემერინი;Itapemirim
+kk;Итапемирин;Itapemirim
+kk;Итаньоми;Itanhomi
+kk;Итаньяэн;Itanhaém
+kk;Итажуба;Itajubá
+uk;Ітажуба;Itajubá
+kk;Итагуаи;Itaguaí
+bg;Итабуна;Itabuna
+ka;იტაბუნა;Itabuna
+kk;Итабуна;Itabuna
+sr;Итабуна;Itabuna
+bg;Итабораи;Itaboraí
+kk;Итабораи;Itaboraí
+sr;Итабораи;Itaboraí
+kk;Итабира;Itabira
+hy;Իրակարա;Iraquara
+ka;ირაკარა;Iraquara
+kk;Иракара;Iraquara
+bg;Ипатинга;Ipatinga
+kk;Ипатинга;Ipatinga
+sr;Ипатинга;Ipatinga
+fa;ایپانما;Ipanema
+he;איפנמה;Ipanema
+ka;იპანემა;Ipanema
+kk;Ипанема;Ipanema
+mk;Ипанема;Ipanema
+sr;Ипанема;Ipanema
+hy;Իպանեմա;Ipanema
+kk;Индаятуба;Indaiatuba
+ka;ილეუსი;Ilhéus
+kk;Ильеус;Ilhéus
+lt;Iljeusas;Ilhéus
+sr;Иљеус;Ilhéus
+kk;Илья-Солтейра;Ilha Solteira
+kk;Ижуи;Ijuí
+he;איגואפה;Iguape
+kk;Игуапи;Iguape
+kk;Игрежинья;Igrejinha
+hy;Իկոնիա;Iconha
+ka;იკონია;Iconha
+kk;Иконья;Iconha
+hy;Իբիտիրամա;Ibitirama
+ka;იბიტირამა;Ibitirama
+kk;Ибитирама;Ibitirama
+bg;Ортоландия;Hortolândia
+kk;Ортоландия;Hortolândia
+bg;Гуаружа;Guarujá
+kk;Гуаружа;Guarujá
+sr;Гваружа;Guarujá
+uk;Гуаружа;Guarujá
+kk;Гуаратингета;Guaratinguetá
+uk;Гуаратінгета;Guaratinguetá
+sr;Гварапуава;Guarapuava
+he;גוארפארי;Guarapari
+ka;გუანამბი;Guanambi
+kk;Гуанамби;Guanambi
+hy;Գուասուի;Guaçuí
+ka;გუასუი;Guaçuí
+kk;Гуасуи;Guaçuí
+kk;Граватаи;Gravataí
+sr;Граватаи;Gravataí
+bg;Говернадор Валадарис;Governador Valadares
+kk;Говернадор-Валадарис;Governador Valadares
+lt;Governador Valadaresas;Governador Valadares
+sr;Говернадор Валадарес;Governador Valadares
+th;โกเวร์นาโดร์วาลาดาริส;Governador Valadares
+hy;Գովերնադոր Վալադարիս;Governador Valadares
+he;גואיאניה;Goiânia
+ca;Ciutat de Goiânia;Goiânia
+tg;Гояния;Goiânia
+bg;Гояния;Goiânia
+ka;გოიანია;Goiânia
+kk;Гояния;Goiânia
+th;โกยาเนีย;Goiânia
+sr;Гојанија;Goiânia
+mk;Гојанија;Goiânia
+lt;Gojanija;Goiânia
+uk;Гоянія;Goiânia
+ce;Гояни;Goiânia
+mn;Гояния;Goiânia
+uz;Goyaniya;Goiânia
+ky;Гойас;Goiânia
+bn;গয়ানিয়া;Goiânia
+ur;گویانیا;Goiânia
+am;ጎያኒያ;Goiânia
+az;Goyaniya;Goiânia
+fa;گویانیا;Goiânia
+ha;Goyaniya;Goiânia
+om;Goyaniya;Goiânia
+pa;ਗੋਆਂਨੀਆ;Goiânia
+ps;جويانيا;Goiânia
+so;Goyaniya;Goiânia
+tt;Гойас;Goiânia
+hy;Գանդու;Gandu
+ka;განდუ;Gandu
+kk;Ганду;Gandu
+bg;Франка;Franca
+kk;Франка;Franca
+sr;Франка;Franca
+he;פוז דו איגואסו;Foz do Iguaçu
+lt;Foz do Iguasu;Foz do Iguaçu
+uk;Фос-ду-Іґуасу;Foz do Iguaçu
+sr;Фос до Игуасу;Foz do Iguaçu
+bg;Фоз до Игуасу;Foz do Iguaçu
+fa;فوز دو لوآچو;Foz do Iguaçu
+kk;Формига;Formiga
+he;פלוריאנופוליס;Florianópolis
+tg;Флорианополис;Florianópolis
+uk;Флоріанополіс;Florianópolis
+os;Флорианополис;Florianópolis
+bg;Флорианополис;Florianópolis
+sr;Флоријанополис;Florianópolis
+th;โฟลเรียนอโปลิส;Florianópolis
+ka;ფლორიანოპოლისი;Florianópolis
+fa;فلوریانوپلیس;Florianópolis
+lv;Florjanopolisa;Florianópolis
+kk;Флорианополис;Florianópolis
+ky;Флорианополис;Florianópolis
+bn;ফ্লোরিয়ানোপোলিস;Florianópolis
+ur;فلورینوپولس;Florianópolis
+am;ፍሎሪያኖፖሊስ;Florianópolis
+pa;ਫਲੋਰਿਆਨੋਪੋਲਿਸ;Florianópolis
+ps;فلوريانوپوليس;Florianópolis
+tt;Флорианополис;Florianópolis
+bg;Фейра ди Сантана;Feira de Santana
+ka;ფეირა-დი-სანტანა;Feira de Santana
+kk;Фейра-ди-Сантана;Feira de Santana
+sr;Феира де Сантана;Feira de Santana
+kk;Эрешин;Erechim
+hy;Էկոպորանգա;Ecoporanga
+ka;ეკოპორანგა;Ecoporanga
+kk;Экопоранга;Ecoporanga
+bg;Дуки ди Кашиас;Duque de Caxias
+ka;დუკი-დი-კაშიასი;Duque de Caxias
+kk;Дуки-ди-Кашиас;Duque de Caxias
+lt;Duke de Kašijasas;Duque de Caxias
+sr;Дуке де Кашијас;Duque de Caxias
+th;ดูกีจีกาเชียส;Duque de Caxias
+fa;دوکی دی کاشیس، ریو دو ژانیرو;Duque de Caxias
+hy;Դուկի դի Կաշիաս;Duque de Caxias
+kk;Драсена;Dracena
+kk;Дорадус;Dourados
+mn;Дорадус;Dourados
+uk;Дорадус;Dourados
+sr;Доврадос;Dourados
+kk;Дивинополис;Divinópolis
+sr;Дивинополис;Divinópolis
+kk;Курвелу;Curvelo
+pl;Kurytyba;Curitiba
+he;קוריטיבה;Curitiba
+tg;Куритиба;Curitiba
+ab;Куритиба;Curitiba
+am;ኩሪቺባ;Curitiba
+av;Куритиба;Curitiba
+az;Kuritiba;Curitiba
+ba;Куритиба;Curitiba
+be;Курытыба;Curitiba
+bg;Куритиба;Curitiba
+bm;Kuritiba;Curitiba
+bn;কুরিতিবা;Curitiba
+bxr;Куритиба;Curitiba
+ce;Куритиба;Curitiba
+crh;Kuritiba;Curitiba
+cv;Куритиба;Curitiba
+el;Κουριτίμπα;Curitiba
+fa;کوریتیبا;Curitiba
+glk;كوريتيبا;Curitiba
+hy;Կուրիտիբա;Curitiba
+ka;კურიტიბა;Curitiba
+kab;Kuriṭiba;Curitiba
+kbd;Куритиба;Curitiba
+kg;Kuritiba;Curitiba
+kk;Куритиба;Curitiba
+kn;ಕುರಿಟಿಬ;Curitiba
+krc;Куритиба;Curitiba
+kv;Куритиба;Curitiba
+ky;Куритиба;Curitiba
+lez;Куритиба;Curitiba
+lt;Kuritiba;Curitiba
+ltg;Kuritiba;Curitiba
+lv;Kuritiba;Curitiba
+mdf;Куритиба;Curitiba
+mhr;Куритиба;Curitiba
+mk;Куритиба;Curitiba
+mn;Куритиба;Curitiba
+mr;कुरितिबा;Curitiba
+mrj;Куритиба;Curitiba
+myv;Куритиба;Curitiba
+mzn;کوریتیبا;Curitiba
+os;Куритибæ;Curitiba
+ps;كوريتيبا;Curitiba
+rn;Kuritiyba;Curitiba
+rue;Курыціба;Curitiba
+sah;Куритиба;Curitiba
+sr;Куритиба;Curitiba
+ss;Kuritiba;Curitiba
+su;Kuritiba;Curitiba
+ta;குரிடிபே;Curitiba
+te;కురితీబా;Curitiba
+th;กูรีตีบา;Curitiba
+tk;Kuritiba;Curitiba
+tpi;Kuritiba;Curitiba
+tt;Куритиба;Curitiba
+udm;Куритиба;Curitiba
+ug;Kuritiba;Curitiba
+uk;Куритиба;Curitiba
+ur;كوريتيبا;Curitiba
+uz;Kuritiba;Curitiba
+ve;Kuritiba;Curitiba
+xal;Куритиба;Curitiba
+yo;Kùrìtíbà;Curitiba
+yue;古里提巴;Curitiba
+sgs;Kuritiba;Curitiba
+pa;ਕੁਰੀਤੀਬਾ;Curitiba
+vep;Kuritib;Curitiba
+ha;Kuritiba;Curitiba
+om;Kuritiba;Curitiba
+so;Kuritiba;Curitiba
+he;קויאבה;Cuiabá
+tg;Куяба;Cuiabá
+bg;Куяба;Cuiabá
+el;Κουιαμπά;Cuiabá
+fa;کویابا;Cuiabá
+ka;კუიაბა;Cuiabá
+kk;Куяба;Cuiabá
+lt;Kujaba;Cuiabá
+lv;Kujaba;Cuiabá
+mr;कुयाबा;Cuiabá
+sr;Кујаба;Cuiabá
+th;กุยาบา;Cuiabá
+uk;Куяба;Cuiabá
+uz;Kuyaba;Cuiabá
+ky;Куяба;Cuiabá
+bn;কুইয়াবা;Cuiabá
+ur;کویابا;Cuiabá
+am;ኩያባ;Cuiabá
+az;Kuyaba;Cuiabá
+ha;Kuyaba;Cuiabá
+om;Kuyaba;Cuiabá
+pa;ਕੁਯਾਬਾ;Cuiabá
+ps;كويابا;Cuiabá
+so;Kuyaba;Cuiabá
+tt;Куяба;Cuiabá
+cy;Ciwbao;Cubatão
+id;Kuba;Cubatão
+el;Κουμπατάο;Cubatão
+bg;Кубатао;Cubatão
+kk;Крузейру;Cruzeiro
+kk;Крус-Алта;Cruz Alta
+kk;Кристалина;Cristalina
+sr;Крисјума;Criciúma
+kk;Кошин;Coxim
+kk;Корумба;Corumbá
+lt;Korumba;Corumbá
+uk;Корумба;Corumbá
+kk;Коронел-Фабрисиану;Coronel Fabriciano
+lv;Koronelfabrisjanu;Coronel Fabriciano
+uk;Коронел-Фабрісіану;Coronel Fabriciano
+bg;Контажен;Contagem
+kk;Контажен;Contagem
+sr;Контажен;Contagem
+kk;Консельейру-Пена;Conselheiro Pena
+kk;Консельейру-Лафаети;Conselheiro Lafaiete
+lt;Konseljeiro Lafajetė;Conselheiro Lafaiete
+kk;Коншал;Conchal
+hy;Կոնսեյսան դու Կաստելու;Conceição do Castelo
+ka;კონსეისან-დუ-კასტელუ;Conceição do Castelo
+kk;Консейсан-ду-Кастелу;Conceição do Castelo
+hy;Կոնսեյսան դա Բառա;Conceição da Barra
+ka;კონსეისან-და-ბარა;Conceição da Barra
+kk;Консейсан-да-Барра;Conceição da Barra
+sr;Коломбо;Colombo
+he;קולטינה;Colatina
+kk;Колатина;Colatina
+lt;Kolatina;Colatina
+bg;Кашиас до Сул;Caxias do Sul
+kk;Кашиас-ду-Сул;Caxias do Sul
+lt;Kašijas do Sulas;Caxias do Sul
+sr;Кашијас до Сул;Caxias do Sul
+kk;Катандува;Catanduva
+kk;Катагуазис;Cataguases
+th;กาตากวาซิส;Cataguases
+hy;Կաստելու;Castelo
+ka;კასტელუ;Castelo
+kk;Кастелу;Castelo
+kk;Казимиру-ди-Абреу;Casimiro de Abreu
+bn;র‌্যাটল সাপ;Cascavel
+br;Naer-ourouler;Cascavel
+el;Κροταλίας;Cascavel
+fa;مار زنگی;Cascavel
+he;עכסנים;Cascavel
+id;Ular derik;Cascavel
+lt;Kaskavelas;Cascavel
+ml;റാറ്റിൽസ്നേക്;Cascavel
+sr;Каскавел;Cascavel
+th;งูหางกระดิ่ง;Cascavel
+kk;Каска;Casca
+ka;კარანკასი;Carrancas
+kk;Карранкас;Carrancas
+kk;Каратинга;Caratinga
+th;การาตีงกา;Caratinga
+kk;Капелинья;Capelinha
+bg;Каноас;Canoas
+kk;Каноас;Canoas
+lt;Kanoasas;Canoas
+sr;Каноас;Canoas
+uk;Кампус-дус-Гойтаказіс;Campos dos Goytacazes
+he;קמפו גראנדה;Campo Grande
+tg;Кампу-Гранде;Campo Grande
+bg;Кампо Гранди;Campo Grande
+uk;Кампу-Гранді;Campo Grande
+ka;კამპუ-გრანდი;Campo Grande
+th;กังปูกรังจี;Campo Grande
+fa;کامپوگرانده;Campo Grande
+be;Кампу-Гранды;Campo Grande
+kk;Кампу-Гранди;Campo Grande
+lt;Kampo Grandė;Campo Grande
+sr;Кампо Гранде;Campo Grande
+uz;Kampu-Grandi;Campo Grande
+ky;Кампу-Гранде;Campo Grande
+bn;ক্যাম্পো গ্রান্ডে;Campo Grande
+ur;کمپو گرینڈے;Campo Grande
+am;ካምፖ ግራንዴ;Campo Grande
+pa;ਕੈਂਪੋ ਗ੍ਰਾਂਡੇ;Campo Grande
+ps;كامبو غراندي;Campo Grande
+tt;Кампу-Гранде;Campo Grande
+kk;Кампу-Белу;Campo Belo
+be;Кампінас;Campinas
+bg;Кампинас;Campinas
+ce;Кампинас;Campinas
+fa;کمپیناس;Campinas
+he;קמפינאס;Campinas
+ka;კამპინასი;Campinas
+lt;Kampinasas;Campinas
+sr;Кампинас;Campinas
+uk;Кампінас;Campinas
+my;坎博里乌;Camboriú
+ka;კამასარი;Camaçari
+kk;Камасари;Camaçari
+sr;Камасари;Camaçari
+hy;Կոլդաս Նովաս;Caldas Novas
+ka;კალდას-ნოვასი;Caldas Novas
+kk;Калдас-Новас;Caldas Novas
+kk;Калдас;Caldas
+ka;კაეტიტე;Caetité
+kk;Каэтите;Caetité
+he;קשואיירו דה איטפמירין;Cachoeiro de Itapemirim
+kk;Кашуэйру-ди-Итапемирин;Cachoeiro de Itapemirim
+lt;Kašoeiro de Itapemirinas;Cachoeiro de Itapemirim
+ka;კაშუეირა;Cachoeira
+kk;Кашуэйра;Cachoeira
+hy;Կասերիս;Cáceres
+ka;კასერისი;Cáceres
+kk;Касерис;Cáceres
+lt;Kaseresas;Cáceres
+kk;Касапава-ду-Сул;Caçapava do Sul
+kk;Кабу-Фриу;Cabo Frio
+kk;Бури;Buri
+ka;ბრუმადუ;Brumado
+kk;Брумаду;Brumado
+he;ברזיליה;Brasília
+lt;Brazilija;Brasília
+sk;Brazília;Brasília
+el;Μπραζίλια;Brasília
+am;ብራዚሊያ;Brasília
+bs;Brazilija;Brasília
+fa;برازیلیا;Brasília
+hu;Brazíliaváros;Brasília
+hy;Բրազիլիա;Brasília
+sr;Бразилија;Brasília
+tg;Ҳавзаи федералии Бразилиа;Brasília
+ab;Бразилиа;Brasília
+az;Brazilia;Brasília
+sgs;Brazilėjė;Brasília
+be;Бразілія;Brasília
+bg;Бразилия;Brasília
+bo;པུ་རུ་ཟི་ལི་ཡ།;Brasília
+ce;Бразилиа;Brasília
+ckb;بەڕازیلیا;Brasília
+cv;Бразилиа;Brasília
+dv;ބްރަސީލިއާ;Brasília
+ka;ბრაზილია;Brasília
+kk;Бразилиа;Brasília
+kn;ಬ್ರೆಸಿಲಿಯಾ;Brasília
+lez;Бразилиа;Brasília
+lij;Braxìlia;Brasília
+ln;Brazilia;Brasília
+lv;Brazilja;Brasília
+mk;Бразилија;Brasília
+mn;Бразилиа;Brasília
+mr;ब्राझिलिया;Brasília
+my;ဘရာစေးလေးယားမြို့;Brasília
+mzn;برازیلیا;Brasília
+or;ବ୍ରାସିଲିଆ;Brasília
+os;Бразилиа;Brasília
+pa;ਬ੍ਰਾਜ਼ੀਲੀਆ;Brasília
+sq;Brazilia;Brasília
+ta;பிரசிலியா;Brasília
+tet;Brazília;Brasília
+th;บราซีเลีย;Brasília
+tt;Бразилиа;Brasília
+uk;Бразиліа;Brasília
+ur;براسیلیا;Brasília
+uz;Brazilia;Brasília
+za;Bahsihleihya;Brasília
+yue;巴西利亞;Brasília
+bn;ব্রাসিলিয়া;Brasília
+ky;Бразилия шаары;Brasília
+lrc;بئرازیلیا;Brasília
+ml;ബ്രസീലിയ;Brasília
+ne;ब्रसिलिया;Brasília
+pih;Breselya;Brasília
+vep;Brazilia;Brasília
+kk;Браганса-Паулиста;Bragança Paulista
+th;บรากังซาเปาลิสตา;Bragança Paulista
+kk;Ботукату;Botucatu
+lt;Botukatu;Botucatu
+hy;Բոնիտու;Bonito
+ka;ბონიტუ;Bonito
+kk;Бониту;Bonito
+kk;Бон-Жардин-ди-Минас;Bom Jardim de Minas
+hy;Բոն Ժարդին;Bom Jardim
+kk;Бон-Жардин;Bom Jardim
+hy;Բոն Դեսպաշու;Bom Despacho
+ka;ბონ-დესპაშუ;Bom Despacho
+kk;Бон-Деспашу;Bom Despacho
+kk;Боа-Эсперанса;Boa Esperança
+hy;Բոա Էսպերանսա;Boa Esperança
+bg;Блуменау;Blumenau
+os;Блуменау;Blumenau
+sr;Блуменау;Blumenau
+kk;Биригуи;Birigui
+bg;Бетин;Betim
+kk;Бетин;Betim
+sr;Бетим;Betim
+kk;Бертиога;Bertioga
+he;בלו הוריזונטה;Belo Horizonte
+sr;Бело Оризонте;Belo Horizonte
+tg;Белу-Оризонти;Belo Horizonte
+be;Белу-Арызонты;Belo Horizonte
+bg;Бело Оризонти;Belo Horizonte
+ce;Белу-Оризонти;Belo Horizonte
+el;Μπέλο Οριζόντε;Belo Horizonte
+fa;بلو هوریزونته;Belo Horizonte
+ka;ბელუ-ორიზონტი;Belo Horizonte
+kk;Белу-Оризонти;Belo Horizonte
+lv;Belu Orizonti;Belo Horizonte
+mk;Бело Хоризонте;Belo Horizonte
+mn;Белу-Оризонти;Belo Horizonte
+mr;बेलो होरिझोन्ते;Belo Horizonte
+os;Белу-Оризонти;Belo Horizonte
+pa;ਬੈਲੋ ਓਰੀਜ਼ੋਂਤੀ;Belo Horizonte
+ta;பெலோ அரிசாஞ்ச்;Belo Horizonte
+th;เบโลโอรีซอนชี;Belo Horizonte
+uk;Белу-Оризонті;Belo Horizonte
+uz;Belu-Orizonti;Belo Horizonte
+az;Belu-Orizonti;Belo Horizonte
+ky;Белу-Оризонти;Belo Horizonte
+bn;বেলো হোরাইজন্ট;Belo Horizonte
+ur;بیلو ہورائزونٹے;Belo Horizonte
+am;ቤሎ ሆሪዞንቴ;Belo Horizonte
+ps;بيلو أفق;Belo Horizonte
+tt;Белу-Оризонти;Belo Horizonte
+bg;Белфорд Рошо;Belford Roxo
+kk;Белфорд-Рошу;Belford Roxo
+sr;Белфорд Рошо;Belford Roxo
+hy;Բելա Վիստա;Bela Vista
+ka;ბელა-ვისტა;Bela Vista
+kk;Бела-Виста;Bela Vista
+bg;Бауру;Bauru
+he;באורו;Bauru
+kk;Бауру;Bauru
+sr;Бауру;Bauru
+uk;Бауру;Bauru
+kk;Батагуасу;Bataguassu
+kk;Баруэри;Barueri
+sr;Баруери;Barueri
+uk;Баруері;Barueri
+hy;Բառոզու;Barroso
+ka;ბაროზუ;Barroso
+kk;Барретус;Barretos
+lt;Baretosas;Barretos
+sr;Барејрас;Barreiras
+kk;Барра-Манса;Barra Mansa
+lt;Bara Mansa;Barra Mansa
+uk;Барра-Манса;Barra Mansa
+kk;Барра-ду-Пираи;Barra do Piraí
+lt;Bara do Pirajus;Barra do Piraí
+he;בלנאריו קמבוריו;Balneário Camboriú
+kk;Байшу-Гуанду;Baixo Guandu
+kk;Баже;Bagé
+lt;Bažė;Bagé
+uk;Баже;Bagé
+kk;Атибая;Atibaia
+hy;Արկուս;Arcos
+kk;Аркус;Arcos
+kk;Араша;Araxá
+kk;Араруама;Araruama
+kk;Арарас;Araras
+kk;Араракуара;Araraquara
+lt;Ararakvara;Araraquara
+kk;Арагуари;Araguari
+lt;Aragvaris;Araguari
+hy;Արակրուս;Aracruz
+ka;არაკრუსი;Aracruz
+kk;Аракрус;Aracruz
+kk;Арасатуба;Araçatuba
+lt;Arasatuba;Araçatuba
+he;אראקזו;Aracaju
+tg;Аракажу;Aracaju
+be;Аракажу;Aracaju
+bg;Аракажу;Aracaju
+ka;არაკაჟუ;Aracaju
+lt;Arakažu;Aracaju
+sr;Аракажу;Aracaju
+th;อารากาจู;Aracaju
+uk;Аракажу;Aracaju
+kk;Арасажу;Aracaju
+ky;Арасажу;Aracaju
+bn;অ্যারাকাজু;Aracaju
+ur;اراکاجو;Aracaju
+am;አራካጁ;Aracaju
+fa;آراکاجو;Aracaju
+pa;ਅਰਾਕਾਜੂ;Aracaju
+ps;أراكاجو;Aracaju
+tt;Арасажу;Aracaju
+he;אפארסידה;Aparecida
+kk;Апаресида;Aparecida
+lt;Aparesida;Aparecida
+kk;Ангра-дус-Рейс;Angra dos Reis
+kk;Андреландия;Andrelândia
+kk;Андрадас;Andradas
+hy;Անշիետա;Anchieta
+ka;ანშიეტა;Anchieta
+kk;Аншиета;Anchieta
+bg;Анаполис;Anápolis
+kk;Анаполис;Anápolis
+sr;Анаполис;Anápolis
+kk;Ампару;Amparo
+fa;امریکنا، سائو پائولو;Americana
+kk;Американа;Americana
+lt;Amerikana;Americana
+kk;Алваренга;Alvarenga
+fa;آلمیرانته تامانداره;Almirante Tamandaré
+hy;Ալմենարա;Almenara
+ka;ალმენარა;Almenara
+kk;Алменара;Almenara
+kk;Алфенас;Alfenas
+kk;Алегрети;Alegrete
+hy;Ալկոբասա;Alcobaça
+kk;Алкобаса;Alcobaça
+ka;ალაგონიასი;Alagoinhas
+kk;Алагоиньяс;Alagoinhas
+lt;Alagoinjasas;Alagoinhas
+bg;Айморес;Aimorés
+kk;Айморес;Aimorés
+kk;Агуду;Agudo
+uk;Агуас-ди-Сан-Педру;Águas de São Pedro
+be;Леблон;Leblon
+uk;Леблон;Leblon
+sr;Леблон;Leblon
+el;Λεμπλόν;Leblon
+az;Lablon;Leblon
+fa;لبلون;Leblon
+he;לבלון;Leblon
+bg;Ботафого;Botafogo
+ka;ბოტაფოგო;Botafogo
+uk;Ботафогу;Botafogo
+mk;Ботафого;Botafogo
+sr;Ботафого;Botafogo
+he;בוטפוגו;Botafogo
+ka;ლემე;Leme
+uk;Леме;Leme
+he;למי;Leme
+sr;Леме;Leme
+he;פלמס;Palmas
+tg;Палмас;Palmas
+uk;Палмас;Palmas
+kk;Палмас;Palmas
+ky;Палмас;Palmas
+bn;পালমাস;Palmas
+ur;پالماس;Palmas
+am;ፓልማስ;Palmas
+fa;پالماس;Palmas
+pa;ਪਾਲਮਾਸ;Palmas
+ps;بالماس;Palmas
+tt;Палмас;Palmas
+fa;انچیتا، ریو دو ژانیرو;Anchieta
+fa;اکاری، ریو دو ژانیرو;Acari
+fa;توریاچو، ریو دو ژانیرو;Turiaça
+ur;توریاچو، ریو د ژنیرو;Turiaça
+ca;Turiaçu;Turiaça
+tr;Turiaçu;Turiaça
+ur;جاکرے، رودے جنیرو;Jacaré
+ca;Freguesia de Jacarepaguá;Freguesia
+te;అనిల్;Anil
+lt;Sidadi di Deušas;Cidade de Deus
+hy;Սիդադե դե Դեուշ;Cidade de Deus
+uk;Сідаде-де-Деуш;Cidade de Deus
+he;סאו קונרדו;São Conrado
+sr;Сао Конрадо;São Conrado
+sr;Сена Мадурејра;Sena Madureira
+he;ריו ברנקו;Rio Branco
+lt;Rio Brankas;Rio Branco
+bg;Рио Бранко;Rio Branco
+ka;რიუ-ბრანკუ;Rio Branco
+kk;Риу-Бранку;Rio Branco
+mr;रियो ब्रांको;Rio Branco
+sr;Рио Бранко;Rio Branco
+tet;Riu Branco;Rio Branco
+tg;Риу-Бранку;Rio Branco
+th;รีอูบรังกู;Rio Branco
+uk;Ріу-Бранку;Rio Branco
+uz;Riu-Branku;Rio Branco
+el;Ρίο Μπράνκο;Rio Branco
+fa;ریو برانکو;Rio Branco
+lv;Riubranku;Rio Branco
+ur;ریو برانکو;Rio Branco
+ky;Рио-Бранку;Rio Branco
+bn;রিও ব্র্যাংকো;Rio Branco
+am;ሪዮ ብራንኮ;Rio Branco
+pa;ਰਿਓ ਬ੍ਰਾਂਕੋ;Rio Branco
+ps;ريو برانكو;Rio Branco
+tt;Рио-Бранку;Rio Branco
+he;פורטו ולאהו;Porto Velho
+lt;Porto Veljas;Porto Velho
+tg;Порту-Велю;Porto Velho
+he;פורטו וליו;Porto Velho
+bg;Порто Вельо;Porto Velho
+ka;პორტუ-ველიუ;Porto Velho
+kk;Порту-Велью;Porto Velho
+sr;Порто Вељо;Porto Velho
+th;โปร์ตูเวลยู;Porto Velho
+uk;Порту-Велью;Porto Velho
+uz;Porto Velyo;Porto Velho
+ky;Порту-Велью;Porto Velho
+bn;পোর্তো ভেল্হো;Porto Velho
+ur;پورٹو ویلہو;Porto Velho
+am;ፖርቶ ቬልህዮ;Porto Velho
+az;Porto Velyo;Porto Velho
+fa;پورتو ولیو;Porto Velho
+ha;Porto Velyo;Porto Velho
+om;Porto Velyo;Porto Velho
+pa;ਪੋਰਟੋ ਵੇਲ਼ੋ;Porto Velho
+ps;بورتو فيليو;Porto Velho
+so;Porto Velyo;Porto Velho
+tt;Порту-Велью;Porto Velho
+he;מנאוס;Manaus
+tg;Манаус;Manaus
+be;Манаўс;Manaus
+sr;Манаус;Manaus
+uk;Манаус;Manaus
+kk;Манаус;Manaus
+ky;Манаус;Manaus
+bn;মানাউস;Manaus
+ur;مناؤس;Manaus
+am;ማናውስ;Manaus
+fa;مناوس;Manaus
+pa;ਮਾਨਾਉਸ;Manaus
+ps;ماناوس;Manaus
+tt;Манаус;Manaus
+he;אומאיטה;Humaitá
+sr;Фејжо;Feijó
+sr;Ејрунепе;Eirunepé
+bg;Крузейро до Сул;Cruzeiro do Sul
+fa;کروزیرو دو سول;Cruzeiro do Sul
+he;קרוזיירו דו סול;Cruzeiro do Sul
+hy;Կրուզեյրու դու Սուլ;Cruzeiro do Sul
+sr;Крузејро до Сул;Cruzeiro do Sul
+bg;Каракараи;Caracaraí
+hy;Կարակարայիի գավառ;Caracaraí
+kk;Каракараи;Caracaraí
+he;בואה ויסטה;Boa Vista
+tg;Боа-Виста;Boa Vista
+uk;Боавішта;Boa Vista
+kk;Боа-Виста;Boa Vista
+ky;Боа-Виста;Boa Vista
+bn;বোয়া ভিস্তা;Boa Vista
+ur;بوا وسٹا;Boa Vista
+am;ቦዓ ቪስታ;Boa Vista
+fa;بوا ویستا;Boa Vista
+pa;ਬੋਆ ਵਿਸਤਾ;Boa Vista
+ps;بوا فيستا;Boa Vista
+tt;Боа-Виста;Boa Vista
+bg;Барселос;Barcelos
+hy;Բարսելուս;Barcelos
+lt;Barselosas;Barcelos
+bg;Арикемис;Ariquemes
+kk;Арикемис;Ariquemes
+sr;Асајландија;Açailândia
+bg;Апаресида ди Гояния;Aparecida de Goiânia
+kk;Апаресида-ди-Гояния;Aparecida de Goiânia
+sr;Апаресида де Гојанија;Aparecida de Goiânia
+el;Αουρόρα;Aurora
+bg;Жабоатао дос Гуарарапис;Jaboatão dos Guararapes
+kk;Жабоатан-дус-Гуарарапис;Jaboatão dos Guararapes
+sr;Жабоатао дос Гварарапес;Jaboatão dos Guararapes
+uk;Жабуатан-дус-Гуарарапіс;Jaboatão dos Guararapes
+kk;Нова-Андрадина;Nova Andradina
+kk;Парана;Paraná
+sr;Паравапебас;Parauapebas
+kk;Сан-Франсиску-ду-Уэсти;São Francisco do Oeste
+sr;Сао Мигел до Гвапоре;São Miguel do Guaporé
+sr;Тејшејра де Фрејтас;Teixeira de Freitas
+sr;Урвара;Uruará
+fa;ورا کروز دو است;Vera Cruz do Oeste
+sr;Бара да Тижука;Barra da Tijuca
+fa;بارا دا تیجوکا;Barra da Tijuca
+he;בארה דה טיז'וקה;Barra da Tijuca
+yue;Kiki;Barra da Tijuca
+pl;Kiki;Barra da Tijuca
+hy;Բառա դե Տիժուկա;Barra da Tijuca
+el;Μπάρα ντα Τιζούκα;Barra da Tijuca
+ta;பாரா ட இசூக்கா;Barra da Tijuca
+ur;جردم امیرکا، رو دے جنیرو;Jardim América
+fa;وزو لوبو، ریو دو ژانیرو;Vaz Lobo
+el;Αμπολισάο;Abolição
+fa;ابولاشیو، ریو دو ژانیرو;Abolição
+he;רוסיניה;Rocinha
+fa;واسکو دا گاما، ریو دو ژانیرو;Vasco da Gama
+ta;வாஸ்கோ டா காமா;Vasco da Gama
+ur;جردم گوانابڑا، رو دے جنیرو;Jardim Guanabara
+ur;جردم کروکہ، رو دے جنیرو;Jardim Carioca
+hy;Կատեթ;Catete
+sr;Санта Тереза;Santa Teresa
+he;מורו דה סאו פאולו;Morro de São Paulo
+bs;Fundão;Cidade Universitária
+sr;Фундао;Cidade Universitária
+sr;Урка;Urca
+fa;ورگم پقونا، ریو دو ژانیرو;Vargem Pequena

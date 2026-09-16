@@ -38,3 +38,67 @@ zh;帕果帕果;Pago Pago
 ko;파고 파고;Pago Pago
 ko;오토빌;Ottoville
 zh;帕蓋;Pagai
+ar;تاولاغا;Taulaga
+kk;Таулага;Taulaga
+ky;Таулага;Taulaga
+bn;তাউলাগা;Taulaga
+ur;تاؤلاگا;Taulaga
+am;ታውላጋ;Taulaga
+fa;تاولاغا;Taulaga
+pa;ਤਾਉਲਾਗਾ;Taulaga
+ps;تاولاګا;Taulaga
+tg;Таулага;Taulaga
+tt;Таулага;Taulaga
+ar;تاعو;Ta`ū
+kk;Та'у;Ta`ū
+tr;Ta'u;Ta`ū
+uz;Ta'u;Ta`ū
+ky;Та'у;Ta`ū
+bn;তা'উ;Ta`ū
+ur;تاعو;Ta`ū
+am;ታዑ;Ta`ū
+az;Ta'u;Ta`ū
+fa;تاعو;Ta`ū
+ha;Ta'u;Ta`ū
+jv;Ta'u;Ta`ū
+om;Ta'u;Ta`ū
+pa;ਤਾ'ਉ;Ta`ū
+ps;تاعو;Ta`ū
+so;Ta'u;Ta`ū
+sw;Ta'u;Ta`ū
+tg;Та'у;Ta`ū
+tt;Та'у;Ta`ū
+zh-HK;塔富納;Tāfuna
+hy;Տաֆունա;Tāfuna
+fa;تافونا;Tāfuna
+ur;تافونا، امریکی سمووا;Tāfuna
+ar;أوفو;Ofu
+kk;Офу;Ofu
+ky;Офу;Ofu
+bn;ওফু;Ofu
+ur;اوفو;Ofu
+am;ኦፉ;Ofu
+fa;اوفو;Ofu
+pa;ਓਫੂ;Ofu
+ps;اوفو;Ofu
+tg;Офу;Ofu
+tt;Офу;Ofu
+bg;Паго Паго;Pago Pago
+sr;Паго Паго;Pago Pago
+th;ปาโกปาโก;Pago Pago
+az;Paqo Paqo;Pago Pago
+os;Паго-Паго;Pago Pago
+ur;پاگو پاگو;Pago Pago
+he;פאגו פאגו;Pago Pago
+hy;Պագո Պագո;Pago Pago
+uk;Паго-Паго;Pago Pago
+be;Пага-Пага;Pago Pago
+el;Πάγκο Πάγκο;Pago Pago
+ka;პაგო-პაგო;Pago Pago
+mr;पांगो पांगो;Pago Pago
+mk;Паго Паго;Pago Pago
+ar;باغو باغو;Pago Pago
+fa;پاگو پاگو;Pago Pago
+kk;Паго-Паго;Pago Pago
+lv;Pagopago;Pago Pago
+ta;பாகோ பாகோ;Pago Pago

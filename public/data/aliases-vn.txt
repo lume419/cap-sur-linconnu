@@ -2666,3 +2666,268 @@ ru;Фо Ен;Phổ Yên
 ja;イェン・ソン;Yên Sơn
 zh;延山;Yên Sơn
 ru;Туонг Маи;Tương Mai
+uk;Хан Вінь Єн;Khánh Vĩnh Yên
+am;ቪ ታን;Vị Thanh
+tt;Вi Тхань;Vị Thanh
+am;ቪንህ ሎንግ;Vĩnh Long
+tt;Винь Лонг;Vĩnh Long
+bg;Вин;Vinh
+he;וין;Vinh
+lt;Vinis;Vinh
+sr;Вин;Vinh
+uk;Вінь;Vinh
+am;ቪንህ;Vinh
+tt;Винь;Vinh
+am;ቪየት ትሪ;Việt Trì
+tt;Вьет Три;Việt Trì
+am;ቱይ ሆዋ;Tuy Hòa
+tt;Туй Хоа;Tuy Hòa
+am;ቱዬን ኳንግ;Tuyên Quang
+tt;Туйен Куанг;Tuyên Quang
+am;ታን ፎ ትራ ቪንህ;Trà Vinh
+az;Thanh pho Tra Vinh;Trà Vinh
+ha;Thanh pho Tra Vinh;Trà Vinh
+om;Thanh pho Tra Vinh;Trà Vinh
+so;Thanh pho Tra Vinh;Trà Vinh
+sw;Thanh pho Tra Vinh;Trà Vinh
+tt;Тхань Фо Тра Винь;Trà Vinh
+uk;Тхузаумот;Thủ Dầu Một
+am;ቱ ዳው ሞት;Thủ Dầu Một
+tt;Тху Дау Мот;Thủ Dầu Một
+pl;Ho Chi Minh;Ho Chi Minh City
+bg;Хошимин;Ho Chi Minh City
+cs;Ho Či Minovo Město;Ho Chi Minh City
+da;Ho Chi Minh-byen;Ho Chi Minh City
+fi;Hồ Chí Minhin kaupunki;Ho Chi Minh City
+ga;Cathair Ho Chi Minh;Ho Chi Minh City
+he;הו צ'י מין סיטי;Ho Chi Minh City
+hu;Ho Si Minh-város;Ho Chi Minh City
+is;Ho Chi Minh-borg;Ho Chi Minh City
+lv;Hošimina;Ho Chi Minh City
+nn;Ho Chi Minh-byen;Ho Chi Minh City
+no;Ho Chi Minh-byen;Ho Chi Minh City
+sk;Hočiminovo Mesto;Ho Chi Minh City
+sl;Hošiminh;Ho Chi Minh City
+sv;Ho Chi Minh;Ho Chi Minh City
+sv;Ho Chi Minh-staden;Ho Chi Minh City
+hr;Ho Ši Min Grad;Ho Chi Minh City
+hr;Ho Ši Min;Ho Chi Minh City
+az;Hoşimin;Ho Chi Minh City
+be;Хашымін;Ho Chi Minh City
+sr;Хо Ши Мин;Ho Chi Minh City
+uk;Хошимін;Ho Chi Minh City
+uk;Тханьхоа;Thanh Hóa
+be;Тханьхаа;Thanh Hóa
+bg;Тхан Хоа;Thanh Hóa
+tt;Таньһоа;Thanh Hóa
+sr;Тањ Хоа;Thanh Hóa
+hy;Թhանհոա;Thanh Hóa
+ka;თანჰუაია;Thanh Hóa
+am;ታን ሆዋ;Thanh Hóa
+am;ታይ ንጉዬን;Thái Nguyên
+tt;Тхай Нгуен;Thái Nguyên
+be;Тэйнінь;Tây Ninh
+am;ታይ ንንህ;Tây Ninh
+tt;Тай Нинь;Tây Ninh
+am;ታን አን;Tân An
+tt;Тан Ан;Tân An
+am;ታም ኪ;Tam Kỳ
+tt;Там Ки;Tam Kỳ
+am;ሶን ላ;Sơn La
+tt;Сон Ла;Sơn La
+am;ሶክ ትራንግ;Sóc Trăng
+tt;Сок Чанг;Sóc Trăng
+be;Рацьзя;Rạch Giá
+hak;Li̍t-ka-sṳ;Rạch Giá
+lt;Racža;Rạch Giá
+sr;Жаћ Жја;Rạch Giá
+uk;Ратьзя;Rạch Giá
+am;ራች ጂያ;Rạch Giá
+tt;Рач Жа;Rạch Giá
+am;ኩ ንሆን;Qui Nhon
+tt;Куи Нхон;Qui Nhon
+hak;Kóng-ngi-sṳ;Quảng Ngãi
+sr;Кванг Нгај;Quảng Ngãi
+am;ኳንግ ንጋይ;Quảng Ngãi
+tt;Куанг Нгай;Quảng Ngãi
+hak;Pô-lòi-kú;Pleiku
+sr;Плеику;Pleiku
+am;ፕሌኩ;Pleiku
+tt;Плейку;Pleiku
+am;ፉ ሊ;Phủ Lý
+tt;Фу Ли;Phủ Lý
+am;ፋን ትየት;Phan Thiết
+tt;Фан Тхиет;Phan Thiết
+uk;Фанранг-Тхаптям;Phan Rang-Tháp Chàm
+am;ፋን ራንግ-ታፕ ጫም;Phan Rang-Tháp Chàm
+tt;Фан Ранг-Тхап Чам;Phan Rang-Tháp Chàm
+am;ንንህ ብንህ;Ninh Bình
+tt;Нинь Бинь;Ninh Bình
+bg;Ня Чанг;Nha Trang
+lv;Ņačana;Nha Trang
+be;Нячанг;Nha Trang
+uk;Нячанг;Nha Trang
+lez;Нячанг;Nha Trang
+sr;Ња Чанг;Nha Trang
+hak;Ngà-tsông-sṳ;Nha Trang
+lt;Niačangas;Nha Trang
+zu;INhatrang;Nha Trang
+am;ንሃ ትራንግ;Nha Trang
+tt;Нячанг;Nha Trang
+am;ናም ዲንህ;Nam Định
+az;Nam Dinh;Nam Định
+ha;Nam Dinh;Nam Định
+om;Nam Dinh;Nam Định
+so;Nam Dinh;Nam Định
+sw;Nam Dinh;Nam Định
+tt;Нам Динь;Nam Định
+am;ሚ ቶ;Mỹ Tho
+tt;Мита;Mỹ Tho
+am;ሎንግ ዞዋይን;Long Xuyên
+tt;Лонг Суэн;Long Xuyên
+hak;Ló-kiê-sṳ;Lào Cai
+lt;Laokajus;Lào Cai
+sr;Лао Кај;Lào Cai
+uk;Лаокай;Lào Cai
+am;ላዋ ካይ;Lào Cai
+tt;Лаокай;Lào Cai
+am;ላንግ ሶን;Lạng Sơn
+tt;Лангсон;Lạng Sơn
+am;ሁንግ ዬን;Hưng Yên
+tt;Хунгйен;Hưng Yên
+bg;Хюе;Huế
+mk;Хуе;Huế
+el;Χουέ;Huế
+lt;Hujė;Huế
+uk;Хюе;Huế
+sr;Хуе;Huế
+ka;ჰუე;Huế
+hak;Sun-fa-sṳ;Huế
+he;הואה;Huế
+am;ሁዌ;Huế
+tt;Хюэ;Huế
+am;ሃ ሎንግ;Hạ Long
+tt;Халонг;Hạ Long
+he;הוי אן;Hoi An
+ka;ჰოი-ანი;Hoi An
+lt;Hojanas;Hoi An
+sr;Хој Ан;Hoi An
+uk;Хоян;Hoi An
+cv;Хатинь;Hà Tĩnh
+hak;Hò-tshin-sṳ;Hà Tĩnh
+sr;Ха Тин;Hà Tĩnh
+am;ሃ ትንህ;Hà Tĩnh
+tt;Ха Тинь;Hà Tĩnh
+cs;Hanoj;Hanoi
+ga;Ha Noi;Hanoi
+he;האנוי;Hanoi
+lt;Hanojus;Hanoi
+nds;Hà Nội;Hanoi
+sk;Hanoj;Hanoi
+sl;Hanoj;Hanoi
+el;Ανόι;Hanoi
+am;ሀኖይ;Hanoi
+az;Hanoy;Hanoi
+be;Ханой;Hanoi
+bg;Ханой;Hanoi
+br;Ha Noi;Hanoi
+ce;Ханой;Hanoi
+ckb;ھانۆی;Hanoi
+cv;Ханой;Hanoi
+hak;Hò-nui-sṳ;Hanoi
+ht;Anòy;Hanoi
+hy;Հանոյ;Hanoi
+ka;ჰანოი;Hanoi
+lv;Hanoja;Hanoi
+mhr;Ханой;Hanoi
+mk;Ханој;Hanoi
+mzn;هانوی;Hanoi
+os;Ханой;Hanoi
+qu;Ha Nui;Hanoi
+sah;Ханой;Hanoi
+sr;Ханој;Hanoi
+tt;Hanoy;Hanoi
+uk;Ханой;Hanoi
+uk;Ганой;Hanoi
+pl;Hajfong;Haiphong
+sv;Hai Phong;Haiphong
+am;ሃይፎንግ;Haiphong
+az;Hayfon;Haiphong
+tt;Хайфон;Haiphong
+am;ጂያ ንግያ;Gia Nghĩa
+tt;Зя Нгиа;Gia Nghĩa
+sv;Dong Xoai;Đồng Xoài
+am;ጂዖንግ ቦይ;Đồng Xoài
+az;Cong Xoai;Đồng Xoài
+ha;Gjong Xoai;Đồng Xoài
+om;Gjong Xoai;Đồng Xoài
+so;Gjong Xoai;Đồng Xoài
+sw;Gjong Xoai;Đồng Xoài
+tt;Зонг Хоай;Đồng Xoài
+pl;Dong Hoi;Đồng Hới
+no;Dong Hoi;Đồng Hới
+sv;Dong Hoi;Đồng Hới
+da;Dong Hoi;Đồng Hới
+sv;Dong Ha;Ðông Hà
+am;ዶንግ ሃ;Ðông Hà
+az;Dong Ha;Ðông Hà
+ha;Dong Ha;Ðông Hà
+om;Dong Ha;Ðông Hà
+so;Dong Ha;Ðông Hà
+sw;Dong Ha;Ðông Hà
+tt;Донг Ха;Ðông Hà
+bg;Диенбиенфу;Dien Bien Phu
+hak;Thièn-piên-fú;Dien Bien Phu
+lt;Dienbjenfu;Dien Bien Phu
+sr;Дијен Бијен Фу;Dien Bien Phu
+uk;Дьєнбєнфу;Dien Bien Phu
+am;ድየን ብየን ፉ;Dien Bien Phu
+tt;Диен Бен Фу;Dien Bien Phu
+mk;Да Нанг;Da Nang
+no;Danang;Da Nang
+uk;Дананґ;Da Nang
+am;ዳ ናንግ;Da Nang
+tt;Данан;Da Nang
+am;ዳ ላት;Ðà Lạt
+az;Da Lat;Ðà Lạt
+ha;Da Lat;Ðà Lạt
+om;Da Lat;Ðà Lạt
+so;Da Lat;Ðà Lạt
+sw;Da Lat;Ðà Lạt
+tt;Далат;Ðà Lạt
+am;ካኦ ላንህ;Cao Lãnh
+az;Kao Lanh;Cao Lãnh
+tt;Као Ланх;Cao Lãnh
+am;ካኦ ባንግ;Cao Bằng
+az;Kao Bang;Cao Bằng
+tt;Као Банг;Cao Bằng
+am;ካን ቶ;Cần Thơ
+az;Kan Tho;Cần Thơ
+tt;Кан Тхо;Cần Thơ
+am;ካ ማው;Cà Mau
+az;Ka Mau;Cà Mau
+tt;Ка Мау;Cà Mau
+lt;Metuotas;Buôn Ma Thuột
+am;ቡዖን ማ ቱዖት;Buôn Ma Thuột
+tt;Буон Ма Тхуот;Buôn Ma Thuột
+am;ብየን ሆዋ;Biên Hòa
+tt;Бен Хоа;Biên Hòa
+am;ቤን ትሬ;Bến Tre
+tt;Бен Тре;Bến Tre
+am;ባክ ንንህ;Bắc Ninh
+az;Bak Ninh;Bắc Ninh
+tt;Бак Нинь;Bắc Ninh
+bxr;Бакзянг;Bắc Giang
+hak;Pet-kông;Bắc Giang
+lt;Bakziangas;Bắc Giang
+am;ላይ ቻው;Lai Châu
+tt;Лай Чау;Lai Châu
+am;ተዓንህ ፎ ባ ሪያ;Thành Phố Bà Rịa
+az;Tanh Fo Ba Ria;Thành Phố Bà Rịa
+tt;Тхань Фо Ба Риа;Thành Phố Bà Rịa
+uk;Хоангша;Hoàng Sa
+uk;Гоанґша;Hoàng Sa
+am;ንጋ ናም;Ngã Năm
+tt;Нга Нам;Ngã Năm
+uk;Єн-Шон;Yên Sơn
+uk;Yen-Shon;Yên Sơn

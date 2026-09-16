@@ -818,3 +818,54 @@ es;San José Pineda;Pineda
 es;Satex;Satexá
 es;Sacxim;Saquixim
 es;Comunidad Sepacay;Sepacay
+lt;Zakuleu;Zaculeu
+bg;Вилянуева;Villa Nueva
+lt;Vilja Nueva;Villa Nueva
+ur;ویا نویوا، گواتیمالا;Villa Nueva
+lt;San Markosas;San Marcos
+uk;Сан-Маркос;San Marcos
+lt;Kecaltenangas;Quetzaltenango
+el;Κετσαλτενάνγκο;Quetzaltenango
+bg;Кецалтенанго;Quetzaltenango
+uk;Кесальтенанго;Quetzaltenango
+lt;Puerto San Chosė;Puerto San José
+ur;پورتو سان ہوزے;Puerto San José
+bg;Пуерто Бариос;Puerto Barrios
+he;פוארטו באריוס;Puerto Barrios
+lt;Puerto Barijosas;Puerto Barrios
+bg;Уеуетенанго;Huehuetenango
+lt;Huehuetenangas;Huehuetenango
+bn;ফ্লোরেস;Flores
+he;פלורס;Flores
+lt;Floresas;Flores
+uk;Флорес;Flores
+ur;فلوریس، ایل پیتین;Flores
+lt;Eskipulasas;Esquipulas
+bg;Кобан;Cobán
+he;קובאן;Cobán
+lt;Kobanas;Cobán
+bg;Коатепеке;Coatepeque
+lt;Koatepekė;Coatepeque
+ur;کواتیپیکے، کویتسالتینانگو;Coatepeque
+ca;Ciutat de Guatemala;Guatemala City
+fa;شهر گواتمالا;Guatemala City
+fi;Guatemala;Guatemala City
+he;גואטמלה סיטי;Guatemala City
+lt;Gvatemala;Guatemala City
+no;Guatemala by;Guatemala City
+pl;Gwatemala;Guatemala City
+sl;Ciudad Guatemala;Guatemala City
+zh-TW;瓜地馬拉市;Guatemala City
+sk;Guatemala;Guatemala City
+el;Πόλη της Γουατεμάλας;Guatemala City
+et;Guatemala;Guatemala City
+eu;Guatemala Hiria;Guatemala City
+he;גוואטמלה סיטי;Guatemala City
+th;กัวเตมาลาซิตี;Guatemala City
+he;אנטיגואה גואטמלה;Antigua Guatemala
+el;Αντίγουα Γουατεμάλα;Antigua Guatemala
+ka;ანტიგუა-გვატემალა;Antigua Guatemala
+lt;Antigva Gvatemala;Antigua Guatemala
+sr;Антигва Гватемала;Antigua Guatemala
+ta;ஆன்டிகுவா குவாத்தமாலா;Antigua Guatemala
+uk;Антіґуа-Ґватемала;Antigua Guatemala

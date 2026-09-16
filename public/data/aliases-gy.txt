@@ -50,3 +50,49 @@ en;Patientia;Kuruwatikuru
 en;La Bagatelle;Bagatelle
 ja;コリバートン;Corriverton
 ru;Корривертон;Corriverton
+bg;Росигнол;Rosignol
+lt;Rosignolas;Rosignol
+uk;Росігнол;Rosignol
+ur;روزگنول;Rosignol
+be;Нью-Амстэрдам;New Amsterdam
+he;ניו אמסטרדם;New Amsterdam
+lt;Naujasis Amsterdamas;New Amsterdam
+fa;کواکوانی;Kwakwani
+bg;Итуни;Ituni
+lt;Itunis;Ituni
+he;גורגטאון;Georgetown
+fa;جورج‌تاو;Georgetown
+fa;جرج‌تاون;Georgetown
+el;Τζορτζτάουν;Georgetown
+am;ጆርጅታውን;Georgetown
+lt;Džordžtaunas;Georgetown
+mr;जॉर्जटाउन;Georgetown
+sr;Џорџтаун;Georgetown
+mk;Џорџтаун;Georgetown
+ta;ஜோர்ஜ்டவுண்;Georgetown
+th;จอร์จทาวน์;Georgetown
+os;Джорджтаун;Georgetown
+ur;جارج ٹاؤن، گیانا;Georgetown
+or;ଜର୍ଜଟାଉନ;Georgetown
+el;Τζώρτζταουν;Georgetown
+uk;Джорджтаун;Georgetown
+lv;Džordžtauna;Georgetown
+ka;ჯორჯტაუნი;Georgetown
+pa;ਜਾਰਜਟਾਊਨ;Georgetown
+nn;Georgetown i Guyana;Georgetown
+bo;ཅོར་ཅི་ཐོན།;Georgetown
+bg;Джорджтаун;Georgetown
+be;Джорджтаўн;Georgetown
+ce;Джорджтаун;Georgetown
+hy;Ջորջթաուն;Georgetown
+sgs;Džordžtauns;Georgetown
+ky;Жоржтаун;Georgetown
+ml;ജോർജ്ജ് ടൗൺ;Georgetown
+vep;Džordžtaun;Georgetown
+yue;佐治城;Georgetown
+bg;Аишалтон;Aishalton
+lt;Eišaltonas;Aishalton
+fa;ایشالتون;Aishalton
+fa;اچیویبی;Achiwib
+bg;Аракака;Arakaka
+uk;Корривертон;Corriverton

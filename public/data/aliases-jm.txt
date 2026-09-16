@@ -315,3 +315,47 @@ en;Harriottfield;Harrietfield
 en;Denbigh Foga;Foga
 en;Nairne Castle;Nairn Castle
 en;Gainsboro;Gainsborough
+he;שרווד קונטנט;Sherwood Content
+he;ווד הול;Wood Hall
+lt;Spaniš Taunas;Spanish Town
+el;Σπάνις Τάουν;Spanish Town
+ur;سپینش ٹاؤن;Spanish Town
+be;Порт-Роял;Port Royal
+fa;پورت رویال;Port Royal
+uk;Порт-Рояль;Port Royal
+hy;Պորտ Ռոյալ;Port Royal
+sr;Порт Ројал;Port Royal
+zh-HK;羅亞爾港;Port Royal
+he;פורט רויאל;Port Royal
+el;Πορτ Αντόνιο;Port Antonio
+ur;پورٹ انتونیو;Port Antonio
+el;Ότσο Ρίος;Ocho Rios
+uk;Очо-Ріос;Ocho Rios
+be;Оча-Рыяс;Ocho Rios
+he;אוצ'ו ריוס;Ocho Rios
+be;Негрыл;Negril
+bg;Негрил;Negril
+el;Νεγκρίλ;Negril
+az;Neqril;Negril
+fa;نگریل;Negril
+he;נגריל;Negril
+ur;نیگرل;Negril
+lt;Montego Bėjus;Montego Bay
+az;Monteqo-Bey;Montego Bay
+el;Μοντέγκο Μπέυ;Montego Bay
+fa;مونتگوبی;Montego Bay
+mr;माँटेगो बे;Montego Bay
+he;מונטיגו ביי;Montego Bay
+ur;مونٹیگو بے;Montego Bay
+bg;Монеагуе;Moneague
+el;Κίνγκστον;Kingston
+fa;کینگستون;Kingston
+lt;Heisas;Hayes
+he;כריסטינה;Christiana
+bg;Анчовй;Anchovy
+fa;انچاوی، جامایکا;Anchovy
+az;Alliqator-Pond;Alligator Pond
+fa;الیگیتور پاند;Alligator Pond
+fa;شهر البرت، جامایکا;Albert Town
+fa;اکومپانگ;Accompong
+fa;اباو راکس;Above Rocks

@@ -98,3 +98,9 @@ zh;盛港;Sengkang New Town
 ru;Сенгканг Новый город;Sengkang New Town
 ms;Lembah Sungai;River Valley
 zh;自然保护区;Nature Reserve
+el;Σιγκαπούρη;Singapore
+he;סינגפור;Singapore
+hak;Sîn-kâ-po;Singapore
+uk;Сінгапур;Singapore
+hr;Singapur;Singapore
+sl;Singapur;Singapore

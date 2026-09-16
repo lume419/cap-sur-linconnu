@@ -1221,6 +1221,14 @@
       flagSpan.setAttribute('aria-hidden','true'); // décoratif : le nom du pays est repris en texte dans le title ci-dessous
       var nameTextSpan = document.createElement('span');
       nameTextSpan.textContent = r.name;
+      // Trouvé par un nom dans une autre langue (« san » -> Xanten, alias bas-allemand « Santen ») : ce nom est
+      // affiché entre parenthèses, sinon on ne comprend pas pourquoi la ville est proposée.
+      if(r.matchedName){
+        var matchedSpan = document.createElement('span');
+        matchedSpan.className = 'suggest-matched';
+        matchedSpan.textContent = ' (' + r.matchedName + ')';
+        nameTextSpan.appendChild(matchedSpan);
+      }
       nameSpan.appendChild(flagSpan);
       nameSpan.appendChild(nameTextSpan);
       var cpSpan = document.createElement('span');
@@ -1294,7 +1302,9 @@
     var trimmedQuery = query.trim();
     if(trimmedQuery.length < 3 && !(trimmedQuery.length === 2 && /^[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af\uf900-\ufaff]{2}$/.test(trimmedQuery))){ renderSuggestions([]); return; }
     function runSearch(){
-      fetch('/api/search-city?q=' + encodeURIComponent(query) + '&limit=8')
+      // country : pays de la langue d'interface (I18N.country), dont les villes passent en tête des suggestions.
+      fetch('/api/search-city?q=' + encodeURIComponent(query) + '&limit=8&country=' + encodeURIComponent(window.I18N.country()) +
+        '&lang=' + encodeURIComponent(window.I18N.current()))
         .then(function(r){
           // 503 : le serveur vient de démarrer et charge encore ses ~4 millions de lieux (jusqu'à une minute
           // ou plus). On le dit, et on relance la même recherche toutes les 2 s tant que la saisie n'a pas changé.

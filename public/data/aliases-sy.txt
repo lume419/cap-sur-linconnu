@@ -1,0 +1,933 @@
+ar;زاكية;Zākīyah
+ru;Ябруд;Yabrūd
+ar;يبرود;Yabrūd
+ar;طيبة الامام;Ţayyibat al Imām
+en;Tartous;Ţarţūs
+ar;طرطوس;Ţarţūs
+he;טרטוס;Ţarţūs
+fr;Tartous;Ţarţūs
+ru;Тартус;Ţarţūs
+az;Tərtus;Ţarţūs
+el;Ταρτούς;Ţarţūs
+hy;Տարտուս;Ţarţūs
+uk;Тартус;Ţarţūs
+be;Тартус;Ţarţūs
+sr;Тартус;Ţarţūs
+fa;طرطوس;Ţarţūs
+kk;Тартус;Ţarţūs
+ky;Тартус;Ţarţūs
+hi;तरतूस;Ţarţūs
+bn;তারতুস;Ţarţūs
+ur;ترطوس;Ţarţūs
+am;ታርቱስ;Ţarţūs
+ja;タルトゥス;Ţarţūs
+pa;ਤਰਤੁਸ;Ţarţūs
+ps;ترطوس;Ţarţūs
+tg;Тартус;Ţarţūs
+tt;Тартус;Ţarţūs
+ar;تل رفعت;Tall Rif‘at
+ar;تل كلخ;Tallkalakh
+ar;تلكلخ;Tallkalakh
+ar;تلبيسة;Tallbīsah
+ar;طفس;Ţafas
+ru;Тафас;Ţafas
+pl;Palmyra;Tadmur
+es;Palmira;Tadmur
+de;Palmyra;Tadmur
+en;Palmyra;Tadmur
+bg;Палмира;Tadmur
+fr;Palmyre;Tadmur
+he;תדמור;Tadmur
+hu;Palmyra;Tadmur
+it;Palmira;Tadmur
+ja;パルミラ遺跡;Tadmur
+nl;Palmyra;Tadmur
+pt;Palmira;Tadmur
+ru;Пальмира;Tadmur
+sk;Palmýra;Tadmur
+sl;Palmira;Tadmur
+sv;Palmyra;Tadmur
+fi;Palmyra;Tadmur
+ca;Palmira;Tadmur
+cs;Palmýra;Tadmur
+hu;Palmüra;Tadmur
+ar;تدمر;Tadmur
+ar;تادف;Tādif
+ru;Суран;Şūrān
+ar;صوران;Şūrān
+ar;سبيخان;Subaykhān
+ar;صبيخان;Subaykhān
+vi;Sabikhan;Subaykhān
+en;Sabikhan;Subaykhān
+pl;Subajchan;Subaykhān
+ur;صبیخان;Subaykhān
+ar;شيخ مسكين;Shaykh Miskīn
+ar;الشيخ مسكين;Shaykh Miskīn
+ru;Шейх-Мискин;Shaykh Miskīn
+ar;شطحة التحتا;Shaţḩah
+ar;شطحة;Shaţḩah
+ar;شقّا;Shaqqā
+ru;Шакка;Shaqqā
+ar;شهبا;Shahbā
+ru;Шахба;Shahbā
+de;Schahba;Shahbā
+fr;Chahba;Shahbā
+ar;سراقب;Saraqib
+ar;صماد;Şamād
+ru;Смад;Şamād
+ar;سلقين;Salqīn
+ar;صلخد;Şalkhad
+ru;Сальхад;Şalkhad
+fr;Salâkhed;Şalkhad
+en;Salamiyah;As Salamīyah
+ar;سلمية;As Salamīyah
+ar;السلمية;As Salamīyah
+ar;صلاخد;Şalākhid
+ar;صحنايا;Şaḩnāyā
+ar;صافيتا;Şāfītā
+ar;برج صافيتا;Şāfītā
+ar;قطنا;Qaţanā
+ar;جاسم;Jāsim
+ru;Джасим;Jāsim
+ar;قارة;Qārah
+ar;قنوات;Qanawāt
+ru;Эль-Канават;Qanawāt
+ar;قباسين;Kabbasin
+ar;نبل;Nubl
+fr;Naoua;Nawá
+ar;نوى;Nawá
+ru;Нава;Nawá
+el;Ναουά;Nawá
+fa;نوا;Nawá
+he;נווא;Nawá
+hr;Nava;Nawá
+sl;Nava;Nawá
+sr;Нава;Nawá
+uk;Нава;Nawá
+tr;Neva;Nawá
+ar;مورك;Mūrak
+ar;مخيم اليرموك;al-Yarmūk
+ar;اليرموك;al-Yarmūk
+en;Yarmouk;al-Yarmūk
+en;Yarmouk Camp;al-Yarmūk
+cs;Jarmúk;al-Yarmūk
+de;Jarmuk;al-Yarmūk
+hr;Jarmuk;al-Yarmūk
+sl;Jarmuk;al-Yarmūk
+fa;اردوگاه یرموک;al-Yarmūk
+fr;Yarmouk;al-Yarmūk
+he;אל-ירמוך;al-Yarmūk
+ru;Ярмук;al-Yarmūk
+uk;Ярмук;al-Yarmūk
+sr;Јармук;al-Yarmūk
+ar;مخرم الفوقاني;Mukharram al Fawqānī
+ar;المخرم الفوقاني;Mukharram al Fawqānī
+ar;محردة;Maharda
+ar;الكرمة;Maharda
+en;Mharda;Maharda
+en;Mhardeh;Maharda
+ar;معضمية;Muadamiyat al-Sham
+ar;معضمية الشيخ;Muadamiyat al-Sham
+ar;معضمية الشيح;Muadamiyat al-Sham
+ar;معضمية الشام;Muadamiyat al-Sham
+ar;مصياف;Maşyāf
+ar;منبج;Manbij
+de;Manbidsch;Manbij
+es;Manbiy;Manbij
+am;ማንቢጅ;Manbij
+bg;Манбидж;Manbij
+cs;Manbidž;Manbij
+fa;منبج;Manbij
+ja;マンビジ;Manbij
+mzn;منبج;Manbij
+tr;Münbiç;Manbij
+uk;Манбідж;Manbij
+ur;منبج;Manbij
+uz;Giyerapol;Manbij
+pl;Manbidż;Manbij
+ru;Манбидж;Manbij
+zh;曼比季;Manbij
+ru;Маалюля;Ma‘lūlā
+ar;معلولا;Ma‘lūlā
+ar;مجدل شمس;Majdal Shams
+cs;Madždal Šams;Majdal Shams
+fa;مجدل شمس;Majdal Shams
+he;מגדל שמס;Majdal Shams
+pl;Madżdal Szams;Majdal Shams
+ru;Мадждаль-Шамс;Majdal Shams
+ar;مجدل الشمس;Majdal Shams
+he;מג’דל שמס;Majdal Shams
+he;מַגְ'דַל שַׁמְס;Majdal Shams
+ar;مجدل شمس.‎;Majdal Shams
+ar;معرة مصرين;Ma‘arratmişrīn
+ar;معرتمصرين;Ma‘arratmişrīn
+ar;قباسين;Qabbāsīn
+ar;خربة السودة;Qabbāsīn
+ar;خان شيخون;Khān Shaykhūn
+ar;كناكر;Kanākir
+ar;كفر زيتة;Kafr Zaytā
+ar;الزيتية;Kafr Zaytā
+ar;كفر زيتا;Kafr Zaytā
+ar;كفر تخاريم;Kafr Takhārīm
+ar;كفر شمس;Kafr Shams
+ru;Кафр-Насидж;Kafr Nāsij
+ar;كفر ناسج;Kafr Nāsij
+ar;كفر نبل;Kafranbel
+ar;كفرنبل;Kafranbel
+fa;کفرنبل;Kafranbel
+uk;Кафранбель;Kafranbel
+ur;کفر نبل;Kafranbel
+ru;Кафранбель;Kafranbel
+ar;كفر لاها;Kafr Lāhā
+ar;الحولة‎‎;Kafr Lāhā
+ar;كفر بهم;Kafr Buhum
+ar;الغانية;Kafr Buhum
+ar;الغسانية;Kafr Buhum
+ar;كفرصغير;Kafr Şaghīr
+ar;جسر الشغور;Jisr ash Shughūr
+ar;جيرود;Jayrūd
+ar;جرمانا;Jaramānā
+cs;Džaramáná;Jaramānā
+de;Dscharamana;Jaramānā
+el;Τζερμάνα;Jaramānā
+fa;جرمانا;Jaramānā
+fr;Djaramana;Jaramānā
+he;ג׳רמאנא;Jaramānā
+hr;Džaramana;Jaramānā
+ru;Джарамана;Jaramānā
+sl;Džaramana;Jaramānā
+sr;Џарамана;Jaramānā
+tr;Ceramana;Jaramānā
+uk;Джерамана;Jaramānā
+ar;جرابلس;Jarābulus
+ar;جنديرس;Jindayris
+ar;ديندرس;Jindayris
+ar;جبلة;Jablah
+en;Jableh;Jablah
+de;Dschabla;Jablah
+el;Τζαμπλέ;Jablah
+fr;Jablé;Jablah
+he;ג'בלה;Jablah
+hy;Ջաբլե;Jablah
+hr;Džabla;Jablah
+ku;Ceblê;Jablah
+ru;Джабла;Jablah
+sr;Џабла;Jablah
+tr;Ceble;Jablah
+uk;Джебла;Jablah
+ar;جبا;Jabā
+ru;Джеба;Jabā
+ar;ازرع;Izra‘
+ru;Изра;Izra‘
+ar;لسلامين;Lislāmīn
+ar;سلامين;Lislāmīn
+en;Irbin;‘Irbīn
+no;Irbin;‘Irbīn
+ar;عربين;‘Irbīn
+ar;انخل;Inkhil
+ar;إدلب;Idlib
+ru;Идлиб;Idlib
+bg;Идлиб;Idlib
+fa;ادلب;Idlib
+he;אדלב;Idlib
+hi;इदलिब;Idlib
+hy;Իդլիբ;Idlib
+ja;イドリブ;Idlib
+ko;이들리브;Idlib
+lt;Idlibas;Idlib
+mzn;ادلب;Idlib
+tr;İdlip;Idlib
+uk;Ідліб;Idlib
+ur;ادلب;Idlib
+zh;伊德利卜;Idlib
+be;Ідліб;Idlib
+el;Ιντλίμπ;Idlib
+sr;Идлиб;Idlib
+kk;Идлиб;Idlib
+ky;Идлиб;Idlib
+bn;ইদলিব;Idlib
+am;ኢድሊብ;Idlib
+pa;ਇਦਲਿਬ;Idlib
+ps;ادلب;Idlib
+tg;Идлиб;Idlib
+tt;Идлиб;Idlib
+de;Homs;Hims
+en;Homs;Hims
+ar;حمص;Hims
+ar;مدينة حمص;Hims
+ca;Homs;Hims
+fr;Homs;Hims
+he;חומס;Hims
+it;Homs;Hims
+nl;Homs;Hims
+pt;Homs;Hims
+id;Homs;Hims
+no;Homs;Hims
+ur;حمص;Hims
+eu;Homs;Hims
+fi;Homs;Hims
+ru;Хомс;Hims
+sv;Homs;Hims
+el;Χομς;Hims
+uk;Хомс;Hims
+fa;حمص;Hims
+th;ฮอมส์;Hims
+lt;Homsas;Hims
+sr;Хомс;Hims
+ja;ホムス;Hims
+hu;Homsz;Hims
+ko;홈스;Hims
+tr;Humus;Hims
+bg;Хомс;Hims
+kk;Хомс;Hims
+hi;होम्स;Hims
+be;Хомс;Hims
+zh;霍姆斯;Hims
+ce;Хьомс;Hims
+lv;Himsa;Hims
+pa;ਹਿਮਸ;Hims
+en;Hums;Hims
+av;ХІумс;Hims
+hy;Հոմս;Hims
+ka;ჰომსი;Hims
+hr;Homs;Hims
+az;Hüms;Hims
+sl;Homs;Hims
+ky;Химс;Hims
+ms;Homs;Hims
+es;Homs;Hims
+bn;হোমস;Hims
+am;ሆምስ;Hims
+ha;Homs;Hims
+jv;Homs;Hims
+om;Homs;Hims
+ps;حمص;Hims
+so;Homs;Hims
+sw;Homs;Hims
+tg;Химс;Hims
+tt;Химс;Hims
+ar;حرستا;Ḩarastā
+de;Hama;Ḩamāh
+en;Hama;Ḩamāh
+ar;حماة;Ḩamāh
+fr;Hama;Ḩamāh
+nl;Hama;Ḩamāh
+pl;Hama;Ḩamāh
+sl;Hama;Ḩamāh
+it;Hama;Ḩamāh
+ru;Хама;Ḩamāh
+cy;Hama;Ḩamāh
+no;Hama;Ḩamāh
+ar;حماه;Ḩamāh
+uk;Гама;Ḩamāh
+uk;Хама;Ḩamāh
+hr;Hama;Ḩamāh
+az;Həma;Ḩamāh
+el;Χάμα;Ḩamāh
+he;חמה;Ḩamāh
+hy;Համա;Ḩamāh
+sr;Хама;Ḩamāh
+tr;Hama;Ḩamāh
+kk;Хама;Ḩamāh
+uz;Hama;Ḩamāh
+ky;Хама;Ḩamāh
+es;Hama;Ḩamāh
+hi;हमा;Ḩamāh
+bn;হামা;Ḩamāh
+ur;حماة;Ḩamāh
+am;ሃማ;Ḩamāh
+fa;حماة;Ḩamāh
+ja;ハマ;Ḩamāh
+pa;ਹਮਾ;Ḩamāh
+ps;حماة;Ḩamāh
+pt;Hama;Ḩamāh
+tg;Хама;Ḩamāh
+tt;Хама;Ḩamāh
+ar;حلفايا;Ḩalfāyā
+de;Aleppo;Halab
+en;Aleppo;Halab
+es;Alepo;Halab
+ar;حلب;Halab
+fi;Aleppo;Halab
+fr;Alep;Halab
+gl;Alepo;Halab
+it;Aleppo;Halab
+ja;アレッポ;Halab
+ku;Heleb;Halab
+lt;Alepas;Halab
+nl;Aleppo;Halab
+pl;Aleppo;Halab
+pt;Alepo;Halab
+sl;Alep;Halab
+sv;Aleppo;Halab
+tr;Halep;Halab
+no;Aleppo;Halab
+ca;Alep;Halab
+he;חאלב;Halab
+bg;Халеб;Halab
+da;Aleppo;Halab
+id;Aleppo;Halab
+eu;Alepo;Halab
+uk;Алеппо;Halab
+ur;حلب;Halab
+mr;अलेप्पो;Halab
+so;Xalab;Halab
+ka;ალეპო;Halab
+hy;Հալեպ;Halab
+hu;Aleppó;Halab
+os;Халеб;Halab
+sr;Алеп;Halab
+hi;हलब;Halab
+oc;Alèp;Halab
+ml;അലെപ്പോ;Halab
+rw;Alepo;Halab
+tt;Хәлеб;Halab
+fa;حلب;Halab
+be;Халеб;Halab
+av;ХӀалаб;Halab
+kk;Алеппо;Halab
+lv;Haleba;Halab
+az;Hələb;Halab
+el;Χαλέπι;Halab
+ko;알레포;Halab
+zh;阿勒颇;Halab
+bn;আলেপ্পো;Halab
+ce;Халеб;Halab
+gn;Alepo;Halab
+mhr;Халеб;Halab
+mn;Халеб хот;Halab
+pa;ਹਲਬ;Halab
+ta;அலெப்போ;Halab
+th;อะเลปโป;Halab
+bs;Halep;Halab
+is;Aleppó;Halab
+kab;Ḥaleb;Halab
+ru;Халеб;Halab
+hr;Alep;Halab
+ky;Алеппо;Halab
+ms;Aleppo;Halab
+am;አሌፖ;Halab
+ha;Aleppo;Halab
+jv;Aleppo;Halab
+om;Aleppo;Halab
+ps;حلب;Halab
+sw;Aleppo;Halab
+tg;Алеппо;Halab
+ar;غصم;Ghaşam
+ar;دريكيش;Ad Duraykīsh
+ar;الدريكيش;Ad Duraykīsh
+fr;Douma;Dūmā
+ru;Дума;Dūmā
+ar;دوما;Dūmā
+en;Douma;Dūmā
+be;Дума;Dūmā
+ckb;دوما;Dūmā
+el;Ντούμα;Dūmā
+fa;دوما;Dūmā
+hy;Դումա;Dūmā
+sr;Дума;Dūmā
+uk;Дума;Dūmā
+he;דומא;Dūmā
+es;Damasco;Damashq
+de;Damaskus;Damashq
+en;Damascus;Damashq
+ar;دمشق;Damashq
+bg;Дамаск;Damashq
+ca;Damasc;Damashq
+cs;Damašek;Damashq
+da;Damaskus;Damashq
+fi;Damaskos;Damashq
+fr;Damas;Damashq
+he;דמשק;Damashq
+hr;Damask;Damashq
+id;Damaskus;Damashq
+is;Damaskus;Damashq
+it;Damasco;Damashq
+ja;ダマスカス;Damashq
+ko;다마스쿠스;Damashq
+lt;Damaskas;Damashq
+nl;Damascus;Damashq
+no;Damaskus;Damashq
+pl;Damaszek;Damashq
+pt;Damasco;Damashq
+ro;Damasc;Damashq
+ru;Дамаск;Damashq
+sk;Damask;Damashq
+sl;Damask;Damashq
+sr;Дамаск;Damashq
+sv;Damaskus;Damashq
+tr;Şam;Damashq
+zh;大马士革;Damashq
+fa;دمشق;Damashq
+el;Δαμασκός;Damashq
+eu;Damasko;Damashq
+hy;Դամասկոս;Damashq
+tg;Димишқ;Damashq
+ur;دمشق;Damashq
+am;ደማስቆ;Damashq
+bs;Damask;Damashq
+ku;Şam;Damashq
+av;Димишкъ;Damashq
+az;Dəməşq;Damashq
+ba;Дамаск;Damashq
+sgs;Damaskos;Damashq
+be;Дамаск;Damashq
+bn;দামেস্ক;Damashq
+bo;དྷ་མ་སི་ཁོ་སི།;Damashq
+br;Damask;Damashq
+ce;Димашкъ;Damashq
+ckb;دیمەشق;Damashq
+cv;Дамаск;Damashq
+dv;ދިމިޝްޤު;Damashq
+ga;An Damaisc;Damashq
+gl;Damasco;Damashq
+gn;Ndamáko;Damashq
+haw;Kamakeko;Damashq
+hi;दमिश्क;Damashq
+hsb;Damask;Damashq
+hu;Damaszkusz;Damashq
+ka;დამასკი;Damashq
+kk;Дамаск;Damashq
+kn;ಡಮಾಸ್ಕಸ್;Damashq
+kw;Damask;Damashq
+ky;Дамаск;Damashq
+lij;Damasco;Damashq
+lv;Damaska;Damashq
+mg;Damaskosy;Damashq
+mhr;Дамаск;Damashq
+mk;Дамаск;Damashq
+ml;ദമാസ്കസ്;Damashq
+mn;Дамаск;Damashq
+mr;दमास्कस;Damashq
+ms;Damsyik;Damashq
+my;ဒမားစကပ်မြို့;Damashq
+mzn;دمشق;Damashq
+oc;Damasc;Damashq
+or;ଡାମାସକସ;Damashq
+os;Дамаск;Damashq
+pa;ਦਮਸ਼ਕ;Damashq
+ps;د مشق;Damashq
+rue;Дамаск;Damashq
+rw;Damasiko;Damashq
+sah;Дамаскус;Damashq
+sc;Damasco;Damashq
+so;Dimishiq;Damashq
+sq;Damasku;Damashq
+sw;Dameski;Damashq
+ta;திமிஷ்கு;Damashq
+th;ดามัสกัส;Damashq
+tk;Damask;Damashq
+tl;Damasko;Damashq
+tt;Dimäşq;Damashq
+ug;دەمەشىق;Damashq
+uk;Дамаск;Damashq
+yo;Dàmáskù;Damashq
+yue;大馬士革;Damashq
+ar;دير ماكر;Dayr Mākir
+ar;دير حافر;Dayr Ḩāfir
+ar;دير الزور;Deir ez-Zor
+en;Dayr al-Zawr;Deir ez-Zor
+en;Der Ezzor;Deir ez-Zor
+en;Deir Azzor;Deir ez-Zor
+hy;Դեր Զոր;Deir ez-Zor
+zh;代尔祖尔;Deir ez-Zor
+ur;دیر الزور;Deir ez-Zor
+ru;Дейр-эз-Зор;Deir ez-Zor
+ja;デリゾール;Deir ez-Zor
+mzn;دیرالزور;Deir ez-Zor
+ko;데이르에즈조르;Deir ez-Zor
+fa;دیرالزور;Deir ez-Zor
+it;Deir el-Zor;Deir ez-Zor
+bg;Дейр ез-Зор;Deir ez-Zor
+ca;Deir al-Zor;Deir ez-Zor
+cs;Dajr az-Zaur;Deir ez-Zor
+el;Ντέιρ αλ-Ζορ;Deir ez-Zor
+he;דיר א-זור;Deir ez-Zor
+hu;Dajr ez-Zaur;Deir ez-Zor
+hy;Դեյր-էլ-Զոր;Deir ez-Zor
+lt;Deir ez Zoras;Deir ez-Zor
+tr;Deyrizor;Deir ez-Zor
+uk;Дейр-ез-Зор;Deir ez-Zor
+pl;Dajr az-Zaur;Deir ez-Zor
+sv;Dayr az-Zawr;Deir ez-Zor
+en;Dayr az Zawr;Deir ez-Zor
+ka;დეირ-ელ-ზორი;Deir ez-Zor
+ko;데이르에조르;Deir ez-Zor
+uz;Dayr uz-Zur;Deir ez-Zor
+ru;Дайр-эз-Заур;Deir ez-Zor
+en;Deir al-Zour;Deir ez-Zor
+hr;Dajr az-Zaur;Deir ez-Zor
+az;Deyr əz-Zor;Deir ez-Zor
+ku;Dêrezor;Deir ez-Zor
+be;Дэйр-эз-Зор;Deir ez-Zor
+de;Deir-es-Sor;Deir ez-Zor
+sl;Dajr az-Zaur;Deir ez-Zor
+sr;Дајр ез Заур;Deir ez-Zor
+kk;Дейр-эз-Зор;Deir ez-Zor
+ky;Дейр-эз-Зор;Deir ez-Zor
+es;Deyrez-Zor;Deir ez-Zor
+hi;देइर एज़-ज़ोर;Deir ez-Zor
+bn;দেইর এজ-জোর;Deir ez-Zor
+am;ዲር እዝ-ዞር;Deir ez-Zor
+pa;ਦੇਇਰ ਏਜ਼-ਜ਼ੋਰ;Deir ez-Zor
+ps;دير الزور;Deir ez-Zor
+tg;Дейр-эз-Зор;Deir ez-Zor
+tt;Дейр-эз-Зор;Deir ez-Zor
+ar;دير العصافير;Dayr al ‘Aşāfīr
+tr;Darbāsīyah;Ad Darbāsīyah
+ar;الدرباسية;Ad Darbāsīyah
+ar;درباسية;Ad Darbāsīyah
+ru;Дарайе;Dārayyā
+ar;داريّا;Dārayyā
+ar;داريا;Dārayyā
+ar;درعا;Dar‘ā
+en;Daraa;Dar‘ā
+ru;Даръа;Dar‘ā
+az;Dəra;Dar‘ā
+be;Дэр’а;Dar‘ā
+ckb;دەرعا;Dar‘ā
+de;Darʿa;Dar‘ā
+el;Νταράα;Dar‘ā
+fa;درعا;Dar‘ā
+fr;Deraa;Dar‘ā
+he;דרעא;Dar‘ā
+hr;Dara;Dar‘ā
+hy;Դառաա;Dar‘ā
+pl;Dara;Dar‘ā
+cs;Dar'á;Dar‘ā
+sr;Дара;Dar‘ā
+sl;Dara;Dar‘ā
+tr;Dera;Dar‘ā
+uk;Дар'а;Dar‘ā
+kk;Дара;Dar‘ā
+uz;Dara;Dar‘ā
+ky;Дара;Dar‘ā
+id;Dar'a;Dar‘ā
+ms;Dar'a;Dar‘ā
+es;Dara;Dar‘ā
+hi;दर्आ;Dar‘ā
+bn;দারা;Dar‘ā
+ur;درعا;Dar‘ā
+am;ዳራ;Dar‘ā
+ha;Dar'a;Dar‘ā
+ja;ダラア;Dar‘ā
+jv;Dar'a;Dar‘ā
+om;Dar'a;Dar‘ā
+pa;ਦਾਰਾ;Dar‘ā
+ps;درعا;Dar‘ā
+pt;Dara;Dar‘ā
+so;Dar'a;Dar‘ā
+sw;Dar'a;Dar‘ā
+tg;Дара;Dar‘ā
+tt;Дара;Dar‘ā
+ar;داعل;Dā‘il
+ru;Даиль;Dā‘il
+de;Bostra;Buşrá ash Shām
+en;Bosra;Buşrá ash Shām
+ar;بصرى;Buşrá ash Shām
+fr;Bosra;Buşrá ash Shām
+it;Bosra;Buşrá ash Shām
+nl;Bosra;Buşrá ash Shām
+pt;Bosra;Buşrá ash Shām
+sl;Bosra;Buşrá ash Shām
+sv;Bosra;Buşrá ash Shām
+ru;Босра;Buşrá ash Shām
+ar;بصرى الشام;Buşrá ash Shām
+ar;Buşrá;Buşrá ash Shām
+ru;Бусра;Buşrá ash Shām
+ar;برج إسلام;Burj Islām
+fr;Bourj Islam;Burj Islām
+pl;Burdż Islam;Burj Islām
+hr;Burdž Islam;Burj Islām
+ar;بقعاتا;Buq‘ātā
+he;בוקעתה;Buq‘ātā
+ar;بقعاثا;Buq‘ātā
+fa;بقعاثا;Buq‘ātā
+ar;بنش;Binnish
+ar;باتبو;Batabo
+ar;بتبو;Batabo
+ar;بصير;Başīr
+ru;Банияс;Bāniyās
+ar;بانياس;Bāniyās
+hr;Banijas;Bāniyās
+el;Μπανιγιάς;Bāniyās
+he;בניאס;Bāniyās
+fr;Banias;Bāniyās
+hy;Բանիաս;Bāniyās
+uk;Баніяс;Bāniyās
+ar;ببيلا;Babīlā
+ar;باب بيلا;Babīlā
+ar;الزبداني;Az Zabadānī
+en;Azaz;I‘zāz
+ru;Азаз;I‘zāz
+ar;A‘zāz;I‘zāz
+ar;إعزاز;I‘zāz
+ar;أعزاز;I‘zāz
+ru;Аазаз;I‘zāz
+hy;Ազազ;I‘zāz
+ar;Ayū;Ayyūbīyah
+ar;أيوبية;Ayyūbīyah
+ar;ايو;Ayyūbīyah
+ar;عين العرب;‘Ayn al ‘Arab
+ar;عرب بينار;‘Ayn al ‘Arab
+ru;Айн-эль-Араб;‘Ayn al ‘Arab
+ar;التل;At Tall
+ar;ثورة;Al-Tabqa
+ar;الطبقة;Al-Tabqa
+ar;الثورة;Al-Tabqa
+en;Sweida;As-Suwayda
+ar;السويداء;As-Suwayda
+no;As Suwaydah;As-Suwayda
+en;Suwayda;As-Suwayda
+ru;Эс-Сувейда;As-Suwayda
+fr;Soueïda;As-Suwayda
+fa;سویدا;As-Suwayda
+ko;수와이다;As-Suwayda
+he;א-סווידא;As-Suwayda
+zh;苏韦达;As-Suwayda
+uk;Ес-Сувейда;As-Suwayda
+az;Əs-Süveyda;As-Suwayda
+cs;Suvajda;As-Suwayda
+de;Suweida;As-Suwayda
+de;as-Suwaida;As-Suwayda
+el;Ας Σουγουαΐντα;As-Suwayda
+hr;Suvajda;As-Suwayda
+hy;Ալ-Սուեյդա;As-Suwayda
+ku;Siweyda;As-Suwayda
+sl;Suvajda;As-Suwayda
+sr;Сувајда;As-Suwayda
+tr;Süveyda;As-Suwayda
+kk;Сувейда;As-Suwayda
+uz;Suvaida;As-Suwayda
+ky;Сувейда;As-Suwayda
+es;Suwayda;As-Suwayda
+hi;अस-सुवैदा;As-Suwayda
+bn;আস-সুওয়াইদা;As-Suwayda
+ur;السويداء;As-Suwayda
+am;አስ-ሱዋይዳ;As-Suwayda
+ja;アス=スワイダ;As-Suwayda
+pa;ਅਸ-ਸੁਵੈਦਾ;As-Suwayda
+ps;السويداء;As-Suwayda
+tg;Сувейда;As-Suwayda
+tt;Сувейда;As-Suwayda
+ar;السوسة;As Sūsah
+ar;الصنمين;Aş Şanamayn
+ar;صنمين;Aş Şanamayn
+ru;Эс-Санамейн;Aş Şanamayn
+ar;السفيرة;As Safīrah
+ar;سفيرة;As Safīrah
+ar;الرستن;Ar Rastan
+es;Raqqa;Ar Raqqah
+ar;الرقة;Ar Raqqah
+ru;Ар-Ракка;Ar Raqqah
+en;Raqqa;Ar Raqqah
+az;Rəqqə;Ar Raqqah
+be;Рака;Ar Raqqah
+ckb;ڕەققە;Ar Raqqah
+cs;Rakka;Ar Raqqah
+el;Ράκκα;Ar Raqqah
+fa;رقه;Ar Raqqah
+fr;Raqqa;Ar Raqqah
+he;א-רקה;Ar Raqqah
+hr;Raka;Ar Raqqah
+hu;Rakka;Ar Raqqah
+hy;Ալ-Ռակկա;Ar Raqqah
+ku;Reqa;Ar Raqqah
+sr;Рака;Ar Raqqah
+sl;Raka;Ar Raqqah
+tr;Rakka;Ar Raqqah
+uk;Ракка;Ar Raqqah
+kk;Раққа;Ar Raqqah
+uz;Raqqa;Ar Raqqah
+ky;Раққа;Ar Raqqah
+hi;अर राक़्क़ाह;Ar Raqqah
+bn;আর রাক্কাহ;Ar Raqqah
+am;አር ራቃህ;Ar Raqqah
+ja;ラッカ;Ar Raqqah
+pa;ਅਰ ਰਾਕਾਹ;Ar Raqqah
+ps;الرقة;Ar Raqqah
+pt;Raqqa;Ar Raqqah
+tg;Ракка;Ar Raqqah
+tt;Раққа;Ar Raqqah
+ar;عقربا;‘Aqrabā
+ar;النبك;An Nabk
+tr;‘Āmūdah;‘Āmūdā
+ar;عامودة;‘Āmūdā
+ar;عامودا;‘Āmūdā
+ar;الغنطو;Al Ghanţū
+ar;القطيفة;Al Quţayfah
+ar;قطيفة;Al Quţayfah
+ru;Аль-Кусайра;Al Quşayr
+ar;القصير;Al Quşayr
+ar;القريا;Al Qurayyā
+ru;Эль-Курайя;Al Qurayyā
+en;Quneitra;Al Qunayţirah
+ar;القنيطرة;Al Qunayţirah
+ru;Эль-Кунейтра;Al Qunayţirah
+hr;Kunejtra;Al Qunayţirah
+de;Quneitra;Al Qunayţirah
+de;Kuneitra;Al Qunayţirah
+he;קוניטרה;Al Qunayţirah
+uk;Ель-Кунейтра;Al Qunayţirah
+tr;Kuneytire;Al Qunayţirah
+ku;Qinêtra;Al Qunayţirah
+sl;Kunejtra;Al Qunayţirah
+az;Əl-Qüneytirə;Al Qunayţirah
+be;Эль-Кунейтра;Al Qunayţirah
+cs;Kunejtra;Al Qunayţirah
+el;Κουνέιτρα;Al Qunayţirah
+fa;قنیطره;Al Qunayţirah
+fr;Qouneitra;Al Qunayţirah
+hy;Ալ-Կունեյտրա;Al Qunayţirah
+sr;Кунејтра;Al Qunayţirah
+kk;Құнейтра;Al Qunayţirah
+uz;Kuneitra;Al Qunayţirah
+ky;Құнейтра;Al Qunayţirah
+es;Cuneitre;Al Qunayţirah
+hi;अल क़ुनैतिराह;Al Qunayţirah
+bn;আল কুনায়তিরাহ;Al Qunayţirah
+ur;القنيطرة;Al Qunayţirah
+am;አል ቁናይቲራህ;Al Qunayţirah
+ja;ゴラン高原;Al Qunayţirah
+pa;ਅਲ ਕੁਨੈਤਿਰਾਹ;Al Qunayţirah
+ps;القنيطرة;Al Qunayţirah
+pt;Quneitra;Al Qunayţirah
+tg;Куниейтра;Al Qunayţirah
+tt;Құнейтра;Al Qunayţirah
+ar;القريتين;Al Qaryatayn
+de;Qamischli;Al Qāmishlī
+ar;القامشلي;Al Qāmishlī
+fa;قامشلی;Al Qāmishlī
+fi;Kamishli;Al Qāmishlī
+it;Kamishlié;Al Qāmishlī
+ku;Qamişlo;Al Qāmishlī
+ru;Эль-Камышлы;Al Qāmishlī
+ar;القامشلو;Al Qāmishlī
+ar;قامشلو;Al Qāmishlī
+kmr;قامشلۆ;Al Qāmishlī
+ku;قامشلۆ;Al Qāmishlī
+ckb;قامیشلۆ;Al Qāmishlī
+mzn;قامشلی;Al Qāmishlī
+ur;قامشلی;Al Qāmishlī
+hy;Կամիշլի;Al Qāmishlī
+de;Kamischli;Al Qāmishlī
+az;Qamışlı;Al Qāmishlī
+cs;Kámišlí;Al Qāmishlī
+el;Καμισλί;Al Qāmishlī
+fr;Qamichli;Al Qāmishlī
+he;קמישלי;Al Qāmishlī
+hr;Kamišli;Al Qāmishlī
+sl;Kamišli;Al Qāmishlī
+sr;Камишли;Al Qāmishlī
+uk;Камишли;Al Qāmishlī
+ar;المسيفرة;Al Musayfirah
+ru;Мусейфра;Al Musayfirah
+ar;ميادين;Al Mayādīn
+ar;الميادين;Al Mayādīn
+ar;المالكية;Al Mālikīyah
+ar;كير ذيريك;Al Mālikīyah
+ku;Dêrîk;Al Mālikīyah
+ku;دێريك;Al Mālikīyah
+de;Latakia;Al Ladhiqiyah
+en;Latakia;Al Ladhiqiyah
+es;Latakia;Al Ladhiqiyah
+ar;لاذقية;Al Ladhiqiyah
+fa;لاذقیه;Al Ladhiqiyah
+fr;Lattaquié;Al Ladhiqiyah
+he;לטקיה;Al Ladhiqiyah
+it;Latakia;Al Ladhiqiyah
+nl;Latakia;Al Ladhiqiyah
+pl;Latakia;Al Ladhiqiyah
+sv;Latakia;Al Ladhiqiyah
+it;Laodicea;Al Ladhiqiyah
+ru;Латакия;Al Ladhiqiyah
+eu;Latakia;Al Ladhiqiyah
+fi;Lattakia;Al Ladhiqiyah
+tr;Lazkiye;Al Ladhiqiyah
+ar;اللاذقية;Al Ladhiqiyah
+mzn;لاذقیه;Al Ladhiqiyah
+lt;Latakija;Al Ladhiqiyah
+uk;Латакія;Al Ladhiqiyah
+ur;لاذقیہ;Al Ladhiqiyah
+ja;ラタキア;Al Ladhiqiyah
+hy;Լաթակիա;Al Ladhiqiyah
+bg;Латакия;Al Ladhiqiyah
+ko;라타키아;Al Ladhiqiyah
+hr;Latakija;Al Ladhiqiyah
+sr;Латакија;Al Ladhiqiyah
+el;Λαττάκεια;Al Ladhiqiyah
+pt;Lataquia;Al Ladhiqiyah
+zh;拉塔基亚;Al Ladhiqiyah
+cs;Lázikíja;Al Ladhiqiyah
+uz;Latakiya;Al Ladhiqiyah
+az;Əl-Laziqiyyə;Al Ladhiqiyah
+be;Латакія;Al Ladhiqiyah
+hi;लताकिया;Al Ladhiqiyah
+ka;ლათაკია;Al Ladhiqiyah
+ky;Латакия шаары;Al Ladhiqiyah
+lv;Lādikīja;Al Ladhiqiyah
+tt;Lataqiä;Al Ladhiqiyah
+sl;Latakija;Al Ladhiqiyah
+ku;Laziqiye;Al Ladhiqiyah
+kk;Латақия;Al Ladhiqiyah
+id;Latakia;Al Ladhiqiyah
+ms;Latakia;Al Ladhiqiyah
+bn;লাটাকিয়া;Al Ladhiqiyah
+am;ላታቂያ;Al Ladhiqiyah
+ha;Latakia;Al Ladhiqiyah
+jv;Latakia;Al Ladhiqiyah
+om;Latakia;Al Ladhiqiyah
+pa;ਲਾਤਾਕੀਆ;Al Ladhiqiyah
+ps;اللاذقية;Al Ladhiqiyah
+so;Latakia;Al Ladhiqiyah
+sw;Latakia;Al Ladhiqiyah
+tg;Латакия;Al Ladhiqiyah
+ar;الكسوة;Al Kiswah
+ar;كسوة;Al Kiswah
+ar;الحسكة;Al Ḩasakah
+cs;Hasaka;Al Ḩasakah
+ku;حەسیچە;Al Ḩasakah
+en;Hasakah;Al Ḩasakah
+ku;Heseke;Al Ḩasakah
+ku;Hesîçe;Al Ḩasakah
+de;Al-Hasaka;Al Ḩasakah
+el;Αλ-Χάσακα;Al Ḩasakah
+es;Hasaka;Al Ḩasakah
+fa;حسکه;Al Ḩasakah
+fr;Hassaké;Al Ḩasakah
+he;אל-חסכה;Al Ḩasakah
+hr;Hasaka;Al Ḩasakah
+hy;Ալ-Հասաքա;Al Ḩasakah
+ckb;حەسیچە;Al Ḩasakah
+ru;Эль-Хасака;Al Ḩasakah
+sl;Hasaka;Al Ḩasakah
+sr;Хасака;Al Ḩasakah
+tr;Haseke;Al Ḩasakah
+uk;Хасеке;Al Ḩasakah
+kk;Хасака;Al Ḩasakah
+uz;Hasaka;Al Ḩasakah
+ky;Хасака;Al Ḩasakah
+hi;अल हसका;Al Ḩasakah
+bn;আল হাসাকাহ;Al Ḩasakah
+ur;الحسكة;Al Ḩasakah
+am;አል ሃሳካህ;Al Ḩasakah
+az;Hasaka;Al Ḩasakah
+ja;ハサカ;Al Ḩasakah
+pa;ਅਲ ਹਸਾਕਾਹ;Al Ḩasakah
+ps;الحسكة;Al Ḩasakah
+pt;Hasaka;Al Ḩasakah
+tg;Хасака;Al Ḩasakah
+tt;Хасака;Al Ḩasakah
+ar;الحراك;Al Ḩirāk
+ar;الباب;Al Bāb
+ru;Эль-Баб;Al Bāb
+no;Afrin;‘Afrīn
+en;Afrin;‘Afrīn
+ar;عفرين;‘Afrīn
+ar;افس;Afis
+ar;الدانا;Ad Dānā
+ru;Абу-Камаль;Ālbū Kamāl
+ar;البو كمال;Ālbū Kamāl
+ar;أبو كمال;Ālbū Kamāl
+ar;هجين;Hajīn
+ar;كاف الجاع;Kaff al-Jaa

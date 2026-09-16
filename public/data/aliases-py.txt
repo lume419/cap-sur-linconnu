@@ -290,3 +290,307 @@ es;R. I. 3 Corrales;Regimiento de Infantería Tres Corrales
 es;General Higinio Morinigo;General Higinio Morínigo
 es;Karapa’i;Karapaí
 es;Kokue Guasu San Antonio;Kokue Guazú San Antonio
+ur;یگرون;Yaguarón
+he;יגוארון;Yaguarón
+lt;Viljarika;Villarrica
+uk;Вільярріка;Villarrica
+fa;ویاریکا;Villarrica
+ka;ვილიარიკა;Villarrica
+be;Вільярыка;Villarrica
+ur;ویاریکا، پیراگوئے;Villarrica
+kk;Вильяррика;Villarrica
+uz;Villarrika;Villarrica
+ky;Вильяррика;Villarrica
+bn;ভিলাররিকা;Villarrica
+am;ቪላሪካ;Villarrica
+az;Villarrika;Villarrica
+pa;ਵਿਲਾਰਰਿਕਾ;Villarrica
+ps;ویلاریکا;Villarrica
+tg;Вильяррика;Villarrica
+tt;Вильяррика;Villarrica
+kk;Вилья-Айес;Villa Hayes
+ky;Вилья-Айес;Villa Hayes
+bn;ভিলা হেয়েস;Villa Hayes
+ur;ویلا ہیز;Villa Hayes
+am;ቪላ ሃይስ;Villa Hayes
+fa;ویلا هیز;Villa Hayes
+pa;ਵਿਲਾ ਹੇਜ਼;Villa Hayes
+ps;ویلا هیز;Villa Hayes
+tg;Вилья-Айес;Villa Hayes
+tt;Вилья-Айес;Villa Hayes
+kk;Сан-Педро-де-Йкуамандийю;San Pedro de Ycuamandyyú
+ky;Сан-Педро-де-Йкуамандийю;San Pedro de Ycuamandyyú
+bn;সান পেড্রো ডি ইকুয়ামান্দিউ;San Pedro de Ycuamandyyú
+ur;سان پیڈرو ڈی ایکوامندیو;San Pedro de Ycuamandyyú
+am;ሳን ፔድሮ ዴ ይኩዓማንዴዩ;San Pedro de Ycuamandyyú
+fa;سان پدرو دی اکوامندیو;San Pedro de Ycuamandyyú
+pa;ਸੈਨ ਪੇਡਰੋ ਡੀ ਯਕੁਅਮੰਡਿਯੂ;San Pedro de Ycuamandyyú
+ps;سان پیډرو ډی یکوامندیو;San Pedro de Ycuamandyyú
+tg;Сан-Педро-де-Йкуамандийю;San Pedro de Ycuamandyyú
+tt;Сан-Педро-де-Йкуамандийю;San Pedro de Ycuamandyyú
+fa;سن لورنزو، پاراگوئه;San Lorenzo
+ka;სან-ლორენსო;San Lorenzo
+lt;San Lorensas;San Lorenzo
+mk;Сан Лорензо;San Lorenzo
+vep;San Lorenso;San Lorenzo
+kk;Сан-Хуан-Баутиста;San Juan Bautista
+ky;Сан-Хуан-Баутиста;San Juan Bautista
+bn;সান জুয়ান বাউতিস্তা;San Juan Bautista
+ur;سان جوآن باتستا;San Juan Bautista
+am;ሳን ሁዋን ባውቲስታ;San Juan Bautista
+fa;سان خوان باوتیستا;San Juan Bautista
+pa;ਸੈਨ ਜੁਆਨ ਬਾਉਤਿਸਤਾ;San Juan Bautista
+ps;سان جوان باتستا;San Juan Bautista
+tg;Сан-Хуан-Баутиста;San Juan Bautista
+tt;Сан-Хуан-Баутиста;San Juan Bautista
+ka;სალტო-დელ-გუაირა;Salto del Guairá
+lt;Salto del Gvaira;Salto del Guairá
+uk;Сальто-дель-Ґуайра;Salto del Guairá
+ur;سالتو دیل گوایرا;Salto del Guairá
+kk;Салто-дель-Гуаира;Salto del Guairá
+ky;Салто-дель-Гуаира;Salto del Guairá
+bn;সালতো ডেল গুয়াইরা;Salto del Guairá
+am;ሳልቶ ዴል ጉዋይራ;Salto del Guairá
+fa;سالتو دل گوایرا;Salto del Guairá
+pa;ਸਾਲਤੋ ਡੇਲ ਗੁਆਇਰਾ;Salto del Guairá
+ps;سالتو ډیل ګوایرا;Salto del Guairá
+tg;Салто-дель-Гуаира;Salto del Guairá
+tt;Салто-дель-Гуаира;Salto del Guairá
+fa;پیلار;Pilar
+ka;პილარი;Pilar
+uk;Пілар;Pilar
+lt;Pilaras;Pilar
+ur;پیلار، پیراگوئے;Pilar
+kk;Пилар;Pilar
+ky;Пилар;Pilar
+bn;পিলার;Pilar
+am;ፒላር;Pilar
+pa;ਪਿਲਾਰ;Pilar
+ps;پیلار;Pilar
+tg;Пилар;Pilar
+tt;Пилар;Pilar
+bg;Педро Хуан Кабалеро;Pedro Juan Caballero
+fa;پدرو خوآن کابالرو;Pedro Juan Caballero
+ka;პედრო-ხუან-კაბალიერო;Pedro Juan Caballero
+lt;Pedro Chuan Kabaljeras;Pedro Juan Caballero
+uk;Педро-Хуан-Кабальєро;Pedro Juan Caballero
+he;פדרו חואן קבאיירו;Pedro Juan Caballero
+ur;پیدرو خوان کابالیرو، پیراگوئے;Pedro Juan Caballero
+vep;Pedro Huan Kabaljero;Pedro Juan Caballero
+kk;Педро-Хуан-Кабальеро;Pedro Juan Caballero
+ky;Педро-Хуан-Кабальеро;Pedro Juan Caballero
+bn;পেড্রো জুয়ান কাবালেরো;Pedro Juan Caballero
+am;ፔድሮ ሁዋን ካባለሮ;Pedro Juan Caballero
+pa;ਪੇਡਰੋ ਜੁਆਨ ਕੈਬਾਲੇਰੋ;Pedro Juan Caballero
+ps;پیډرو جوان کابالیرو;Pedro Juan Caballero
+tg;Педро-Хуан-Кабальеро;Pedro Juan Caballero
+tt;Педро-Хуан-Кабальеро;Pedro Juan Caballero
+ka;პარაგუარი;Paraguarí
+lt;Paragvari;Paraguarí
+uk;Параґуарі;Paraguarí
+ur;پاراگواری;Paraguarí
+kk;Парагуари;Paraguarí
+uz;Paragvari;Paraguarí
+ky;Парагуари;Paraguarí
+bn;প্যারাগুয়ারি;Paraguarí
+am;ፓራጓሪ;Paraguarí
+az;Paraqvari;Paraguarí
+fa;پاراگوری;Paraguarí
+pa;ਪਾਰਾਗੁਆਰੀ;Paraguarí
+ps;پاراګواري;Paraguarí
+tg;Парагуари;Paraguarí
+tt;Парагуари;Paraguarí
+bg;Луке;Luque
+fa;لوکه;Luque
+ka;ლუკე;Luque
+lt;Lukė;Luque
+mk;Луке;Luque
+vep;Luke;Luque
+fa;لامباره;Lambaré
+ka;ლამბარე;Lambaré
+mk;Ламбаре;Lambaré
+ur;لامباری;Lambaré
+bg;Итаугуа;Itauguá
+fa;ایتائوگوآ;Itauguá
+ka;იტაუგუა;Itauguá
+lt;Itaugva;Itauguá
+ka;ფუერტე-ოლიმპო;Fuerte Olimpo
+lt;Fuerte Olimpas;Fuerte Olimpo
+uk;Фуерте-Олімпо;Fuerte Olimpo
+ur;فویرتی اولیمپو;Fuerte Olimpo
+kk;Фуэрте-Олимпо;Fuerte Olimpo
+ky;Фуэрте-Олимпо;Fuerte Olimpo
+bn;ফুয়ার্তে অলিম্পো;Fuerte Olimpo
+am;ፉዌርቴ ኦሊምፖ;Fuerte Olimpo
+fa;فوئرته الیمپو;Fuerte Olimpo
+pa;ਫੂਏਰਟੇ ਓਲਿਮਪੋ;Fuerte Olimpo
+ps;فویرتې الیمپو;Fuerte Olimpo
+tg;Фуэрте-Олимпо;Fuerte Olimpo
+tt;Фуэрте-Олимпо;Fuerte Olimpo
+fa;فرناندو دلا مورا;Fernando de la Mora
+ka;ფერნანდო-დე-ლა-მორა;Fernando de la Mora
+mk;Фернандо де ла Мора;Fernando de la Mora
+vep;Fernando-de-la-Mor;Fernando de la Mora
+lt;Enkarnasjonas;Encarnación
+ka;ენკარნასიონი;Encarnación
+uk;Енкарнасьйон;Encarnación
+fa;انکارانسیون;Encarnación
+mk;Енкарнасион;Encarnación
+th;เองการ์นาซีออง;Encarnación
+he;אנקרנסיון;Encarnación
+ur;انکارنسیون، پیراگوئے;Encarnación
+kk;Энкарнасьон;Encarnación
+uz;Enkarnasiyon;Encarnación
+ky;Энкарнасьон;Encarnación
+id;Enkarnasi;Encarnación
+bn;এনকারনেশন;Encarnación
+am;እንካርናሲዮን;Encarnación
+az;Enkarnasiyon;Encarnación
+jv;Enkarnasi;Encarnación
+pa;ਐਨਕਾਰਨੇਸ਼ਨ;Encarnación
+ps;انکارناسیون;Encarnación
+tg;Энкарнасьон;Encarnación
+tt;Энкарнасьон;Encarnación
+fa;کورونل اوویدو;Coronel Oviedo
+hy;Կորոնել Օվյեդո;Coronel Oviedo
+ka;კორონელ-ოვიედო;Coronel Oviedo
+lt;Koronel Ovjedas;Coronel Oviedo
+uk;Коронель-Овьєдо;Coronel Oviedo
+ur;کورونیل اوویدو;Coronel Oviedo
+kk;Коронель-Овьедо;Coronel Oviedo
+ky;Коронель-Овьедо;Coronel Oviedo
+bn;কোরোনেল ওভিয়েডো;Coronel Oviedo
+am;ኮሮኔል ኦቪዴዶ;Coronel Oviedo
+pa;ਕੋਰੋਨੇਲ ਓਵਿਏਡੋ;Coronel Oviedo
+ps;کرنیل اویډو;Coronel Oviedo
+tg;Коронель-Овьедо;Coronel Oviedo
+tt;Коронель-Овьедо;Coronel Oviedo
+lt;Konsepsjonas;Concepción
+kk;Консепсьон;Concepción
+uz;Kontsepsyon;Concepción
+ky;Консепсьон;Concepción
+id;Konsepsi;Concepción
+ms;Konsepsyon;Concepción
+bn;কনসেপসিয়ন;Concepción
+ur;کنسپشن;Concepción
+am;ኮንሴፕሲዮን;Concepción
+az;Kontsepsyon;Concepción
+fa;کنسپسیون;Concepción
+jv;Konsepsi;Concepción
+pa;ਕਨਸੇਪਸ਼ਨ;Concepción
+ps;کنسپسیون;Concepción
+tg;Консепсьон;Concepción
+tt;Консепсьон;Concepción
+lt;Siudad del Estė;Ciudad del Este
+zh-TW;東方市;Ciudad del Este
+bg;Сиудад дел Есте;Ciudad del Este
+mk;Сјудад дел Есте;Ciudad del Este
+he;סיודד דל אסטה;Ciudad del Este
+sr;Сијудад дел Есте;Ciudad del Este
+uk;Сьюдад-дель-Есте;Ciudad del Este
+ka;სიუდად-დელ-ესტე;Ciudad del Este
+fa;سیوداد دل استه;Ciudad del Este
+th;ซิวดัดเดลเอสเต;Ciudad del Este
+ur;سیوداد دیل استے;Ciudad del Este
+vep;Sjudad Del Este;Ciudad del Este
+kk;Сьюдад-дель-Эсте;Ciudad del Este
+uz;Syudad del Este;Ciudad del Este
+ky;Сьюдад-дель-Эсте;Ciudad del Este
+id;Kota del Este;Ciudad del Este
+ms;Bandar del Este;Ciudad del Este
+bn;সিউদাদ ডেল এস্টে;Ciudad del Este
+am;ሲውዳድ ዴል ኢስተ;Ciudad del Este
+az;Syudad del Este;Ciudad del Este
+jv;Kota del Este;Ciudad del Este
+pa;ਸਿਉਦਾਦ ਡੇਲ ਐਸਟੇ;Ciudad del Este
+ps;سیودادډیل ایسته;Ciudad del Este
+tg;Сьюдад-дель-Эсте;Ciudad del Este
+tt;Сьюдад-дель-Эсте;Ciudad del Este
+fa;کاپیاتا;Capiatá
+ka;კაპიატა;Capiatá
+lt;Kapjata;Capiatá
+mk;Капијата;Capiatá
+ka;კაასაპა;Caazapá
+lt;Kaasapa;Caazapá
+uk;Каазапа;Caazapá
+ur;کاساپا;Caazapá
+kk;Каазапа;Caazapá
+uz;Kaazapa;Caazapá
+ky;Каазапа;Caazapá
+bn;কাআজাপা;Caazapá
+am;ካአዛፓ;Caazapá
+az;Kaazapa;Caazapá
+fa;کاازاپا;Caazapá
+pa;ਕਆਜਾਪਾ;Caazapá
+ps;کاازاپا;Caazapá
+tg;Каазапа;Caazapá
+tt;Каазапа;Caazapá
+fa;کائاکوپه;Caacupé
+ka;კააკუპე;Caacupé
+uk;Каакупе;Caacupé
+ur;کاکوپے;Caacupé
+kk;Каакупе;Caacupé
+uz;Kaakupe;Caacupé
+ky;Каакупе;Caacupé
+bn;কাকুপে;Caacupé
+am;ካኩፔ;Caacupé
+az;Kaakupe;Caacupé
+pa;ਕਾਕੁਪੇ;Caacupé
+ps;کاکوپې;Caacupé
+tg;Каакупе;Caacupé
+tt;Каакупе;Caacupé
+bg;Асунсион;Asunción
+he;אסונסיון;Asunción
+ur;اسونسیون;Asunción
+lt;Asunsjonas;Asunción
+uk;Асунсьйон;Asunción
+fa;آسونسیون;Asunción
+el;Ασουνθιόν;Asunción
+am;አሱንሲዮን;Asunción
+th;อะซุนซิออง;Asunción
+ka;ასუნსიონი;Asunción
+mzn;آسونسیون;Asunción
+be;Асунсьён;Asunción
+is;Asúnsjón;Asunción
+hy;Ասունսյոն;Asunción
+ug;ئاسۇنسىئون;Asunción
+os;Асунсьон;Asunción
+bo;ཨ་སུན་སི་འན།;Asunción
+ta;அசுன்சியோன்;Asunción
+mr;आसुन्सियोन;Asunción
+ms;Gunung Berapi Asuncion;Asunción
+mk;Асунсион;Asunción
+sr;Асунсион;Asunción
+kn;ಅಸೂನ್‌ಸಿಯಾನ್;Asunción
+lv;Asunsjona;Asunción
+el;Ασουνσιόν;Asunción
+az;Asunson;Asunción
+kk;Асунсьон;Asunción
+tet;Asunsaun;Asunción
+pa;ਅਸੂੰਸੀਓਨ;Asunción
+kk;Арегуа;Areguá
+ky;Арегуа;Areguá
+bn;আরেগুয়া;Areguá
+ur;اریگوا;Areguá
+am;አሬጓ;Areguá
+fa;اریگوا;Areguá
+pa;ਅਰੇਗੁਆ;Areguá
+ps;اریګوا;Areguá
+tg;Арегуа;Areguá
+tt;Арегуа;Areguá
+lt;Filadelfija;Filadelfia
+kk;Филадельфия;Filadelfia
+uz;Filadelfiya;Filadelfia
+ky;Филадельфия;Filadelfia
+bn;ফিলাডেলফিয়া;Filadelfia
+ur;فلاڈیلفیا;Filadelfia
+am;ፍላደልፊያ;Filadelfia
+az;Filadelfiya;Filadelfia
+fa;فیلادلفیا;Filadelfia
+pa;ਫਿਲਾਡੇਲਫਿਆ;Filadelfia
+ps;فيلاډيلفيا;Filadelfia
+tg;Филадельфия;Filadelfia
+tt;Филадельфия;Filadelfia
+lt;Major Pablo Lagerensa;Capitán Pablo Lagerenza
+ro;Mayor Pablo Lagerenza;Capitán Pablo Lagerenza
+tr;Mayor Pablo Lagerenza;Capitán Pablo Lagerenza

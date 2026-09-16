@@ -22,7 +22,7 @@
   'use strict';
 
     var COUNTRIES = {
-      FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true },
+      FR: { code:'FR', name:'France', file:'communes.txt', hasToll:true, aliasFile:'aliases-fr.txt' },
       AD: { code:'AD', name:'Andorre', file:'communes-ad.txt', hasToll:false, aliasFile:'aliases-ad.txt' },
       ES: { code:'ES', name:'Espagne', file:'communes-es.txt', hasToll:true, aliasFile:'aliases-es.txt' },
       PT: { code:'PT', name:'Portugal', file:'communes-pt.txt', hasToll:true, aliasFile:'aliases-pt.txt' },
@@ -277,7 +277,7 @@
       // 775 bureaux de poste d'Haypost (la poste nationale arménienne elle-même — une source PLUS
       // directe que yell.ge pour la Géorgie), rapproché par nom (voir build-am-communes.js) — 458
       // communes retenues.
-      AM: { code:'AM', name:'Arménie', file:'communes-am.txt', hasToll:false, currency:'AMD' },
+      AM: { code:'AM', name:'Arménie', file:'communes-am.txt', hasToll:false, aliasFile:'aliases-am.txt', currency:'AMD' },
       // Azerbaïdjan, dernier ajout en date : `hasToll:true` — un vrai péage proportionnel à la
       // distance existe (route M-1 Bakou-Quba, 129 km, ouverte le 20/10/2023, gérée par l'AAYDA/
       // Agence d'Etat des routes, barème officiel aayda.gov.az/uploads/1698392863.pdf), rejoignant le
@@ -316,7 +316,7 @@
       // fichier alias (comme l'Arménie ci-dessus). Aucun ferry pour véhicule de tourisme identifié
       // (voir FERRY_ROUTES plus bas) : la ligne Mersin-Lattaquié est un cargo Ro-Ro pour remorques
       // (65 places, 12 passagers seulement), pas un ferry touristique.
-      SY: { code:'SY', name:'Syrie', file:'communes-sy.txt', hasToll:false, currency:'SYP' },
+      SY: { code:'SY', name:'Syrie', file:'communes-sy.txt', hasToll:false, aliasFile:'aliases-sy.txt', currency:'SYP' },
       // Chypre, dernier ajout en date : `hasToll:false` — aucun péage routier ni vignette (réseau
       // autoroutier A1/A2/A3/A5/A6/A7/A9 entièrement gratuit). Devise : euro (zone euro depuis 2008),
       // aucun champ `currency` nécessaire. Le grec et le turc, ses deux langues officielles, sont déjà
