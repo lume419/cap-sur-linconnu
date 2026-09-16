@@ -3328,11 +3328,12 @@ l'index (plusieurs minutes sur l'hébergement mutualisé).
 
 ### Villes du pays de la langue en tête des suggestions (septembre 2026)
 
-Les suggestions de ville de départ montrent d'abord les lieux du **pays associé à la langue d'interface**, puis ceux des autres
-pays — qui gardent toujours au moins 3 des 8 places s'il y en a (`mergePreferred`, lib/search-index.js), les places
-inutilisées d'un côté revenant à l'autre ; chaque groupe par population décroissante. En allemand, « san » propose Sankt
-Augustin, Sankt Ingbert, Sankt Wendel, Sangerhausen, Xanten, puis Shanghai, São Paulo, Saint-Pétersbourg ; en français,
-Sannois, Sanary-sur-Mer… puis les mêmes grandes villes. Le pays vient du drapeau de la langue (`I18N.country()` : `de` → DE, `ca` → ES,
+Les suggestions de ville de départ (**20** au plus, liste qui défile) montrent d'abord **tous** les lieux du **pays associé à la
+langue d'interface**, puis — seulement s'il reste de la place — ceux des autres pays, chaque groupe par population décroissante
+(`mergePreferred`, lib/search-index.js). En allemand, « san » ne propose que des lieux allemands (Sankt Augustin, Sankt
+Ingbert…), l'Allemagne en ayant plus de 20 ; « berlin » en français propose Berling (Moselle), seul lieu français, puis Berlin
+et les autres ; « mosk » en allemand, sans lieu allemand, propose directement Moscou.
+(Première version : 8 suggestions dont 3 réservées aux autres pays ; mesure du coût : 20 résultats = ~3 Ko et quelques ms.) Le pays vient du drapeau de la langue (`I18N.country()` : `de` → DE, `ca` → ES,
 `haw` → US ; marquisien et tahitien → FR, les collectivités d'outre-mer étant rangées sous FR ; occitan → FR, amazighe → MA),
 envoyé dans `/api/search-city?country=XX`. Un lieu du pays passe devant ceux des autres pays, même tout petit : en français,
 « berlin » propose Berling (Moselle) puis Berlin.

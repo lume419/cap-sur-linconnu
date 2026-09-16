@@ -1303,7 +1303,7 @@
     if(trimmedQuery.length < 3 && !(trimmedQuery.length === 2 && /^[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af\uf900-\ufaff]{2}$/.test(trimmedQuery))){ renderSuggestions([]); return; }
     function runSearch(){
       // country : pays de la langue d'interface (I18N.country), dont les villes passent en tête des suggestions.
-      fetch('/api/search-city?q=' + encodeURIComponent(query) + '&limit=8&country=' + encodeURIComponent(window.I18N.country()) +
+      fetch('/api/search-city?q=' + encodeURIComponent(query) + '&limit=20&country=' + encodeURIComponent(window.I18N.country()) +
         '&lang=' + encodeURIComponent(window.I18N.current()))
         .then(function(r){
           // 503 : le serveur vient de démarrer et charge encore ses ~4 millions de lieux (jusqu'à une minute
