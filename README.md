@@ -3133,8 +3133,27 @@ index est construit au déploiement et lu directement sur le disque (`lib/search
 - **Effet sur le moteur** : quand l'index est utilisé, le moteur ne charge plus les alias ni son propre index de
   recherche — tirages prêts en ~24 s au lieu de ~40 s en local, et mémoire réduite d'autant.
 
-**Après tout ajout de pays** : `npm run build-bundles` (bundles + index), puis redémarrer le serveur. Sur o2switch,
-« Run NPM Install » le fait automatiquement ; il dure plus longtemps qu'avant (quelques minutes).
+**Après tout ajout de pays** : `npm run build-bundles` (bundles + index), puis redémarrer le serveur.
+
+**Serveur autonome (correctif du même jour)** : sur testroad.lume419.fr, « Run NPM Install » a été rapide et
+l'attente persistait. Diagnostic à distance : le bundle servi faisait 71 Mo en brotli contre 49 Mo pour la version
+précompilée — l'étape de construction de l'installation ne s'exécute pas (ou échoue) sur l'hébergement ; ni
+bundles précompilés ni index, et à chaque démarrage le serveur recompressait ~190 Mo avant même de charger le
+moteur. Désormais :
+- le moteur lit le **texte brut** (bundle précompilé s'il est plus récent que les fichiers de données, sinon simple
+  concaténation) — plus aucune compression au démarrage ; les routes `/data/*-bundle.txt` compressent à la demande ;
+- si l'index de recherche est absent ou périmé, **le serveur le construit lui-même** dans un processus enfant
+  (`--max-old-space-size=1024`), AVANT de charger le moteur pour ne pas additionner les deux pics de mémoire ; l'index
+  est gardé dans `cache/` pour les démarrages suivants ; un verrou (`cache/search-index.lock`) évite deux
+  constructions simultanées ; en cas d'échec, le moteur assure la recherche en mémoire ;
+- **`GET /api/status`** : état de l'index, résultat de la dernière construction (durée, dernières lignes de sortie),
+  état du moteur, mémoire, version de Node — de quoi diagnostiquer l'hébergement sans accès aux journaux.
+
+Mesures locales en reproduisant la situation en ligne (index supprimé) : construction 88 s pendant laquelle la
+recherche répond 503 (liste « Chargement des communes… ») ; puis recherche immédiate et tirages prêts 11 s plus tard,
+avec ~1,8 Go de mémoire au lieu de ~3 Go (le moteur ne charge plus les alias). Démarrages suivants : recherche
+disponible en ~2 s, tirages en ~12 s. Le premier démarrage après chaque déploiement de nouvelles données reconstruit
+l'index (plusieurs minutes sur l'hébergement mutualisé).
 
 ## Photos réelles
 

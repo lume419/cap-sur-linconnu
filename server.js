@@ -1085,45 +1085,130 @@ app.get('/data/aliases-bundle.txt', function(req, res){
 
 // Depuis le passage "recherche et tirage aléatoire côté serveur" (voir README), ces deux routes
 // /data/*-bundle.txt ne sont plus consommées QUE par ce process lui-même (voir juste en dessous) —
-// le navigateur ne les demande plus jamais directement. Gardées telles quelles : lib/trip-engine.js
-// réutilise le même texte brut déjà lu ici (`entry.raw`) plutôt que de relire les fichiers sources
-// une seconde fois, et la route reste utile pour inspecter le bundle brut à la main si besoin.
+// le navigateur ne les demande plus jamais directement. Gardées pour inspecter le bundle brut à la main ; elles
+// compressent à la demande seulement (le moteur lit le texte brut séparément, voir "DÉMARRAGE" ci-dessous).
 //
 // lib/trip-engine.js — voir son commentaire d'en-tête pour le détail complet. Initialisé UNE
 // SEULE FOIS ici, juste après le démarrage du process (donc avant qu'aucun trafic réel ne puisse
 // arriver dans la même tâche) plutôt qu'au premier /api/search-city ou /api/generate-trip reçu :
 // le tout premier visiteur après un redémarrage n'a ainsi jamais à attendre ce calcul.
-if(communesBundlePromise === null){
-  communesBundlePromise = getBundlePromise('communes-bundle', /^communes(?:-([a-z]{2}))?\.txt$/, 'FR');
-}
-if(aliasesBundlePromise === null){
-  aliasesBundlePromise = getBundlePromise('aliases-bundle', /^aliases-([a-z]{2})\.txt$/, '');
-}
-// Index de recherche précalculé sur disque (lib/search-index.js, construit par scripts/build-search-index.js
-// au déploiement) : s'il correspond aux fichiers de données actuels, il sert la recherche de ville
-// IMMÉDIATEMENT, avant même que le moteur n'ait chargé ses lieux ; sinon (absent, périmé), la recherche en
-// mémoire du moteur prend le relais une fois celui-ci prêt.
+// DÉMARRAGE (septembre 2026) — le serveur ne dépend plus de l'étape de construction de « Run NPM Install »,
+// constatée comme non exécutée (ou en échec) sur l'hébergement mutualisé : bundles précompilés absents, index de
+// recherche absent, et à chaque démarrage une recompression inutile de ~190 Mo avant même de charger le moteur.
+// 1. Le moteur reçoit le TEXTE BRUT des lieux : bundle précompilé s'il est plus récent que tous les fichiers de
+//    données, sinon simple concaténation des fichiers — jamais de compression ici (les routes /data/*-bundle.txt
+//    compressent à la demande, elles ne servent plus au navigateur).
+// 2. Index de recherche sur disque (lib/search-index.js) : utilisé s'il est à jour ; sinon, construit par un
+//    processus enfant AVANT le chargement du moteur (pour ne pas additionner les deux pics de mémoire), puis
+//    conservé dans cache/ pour les démarrages suivants. Un verrou évite deux constructions simultanées si
+//    l'hébergeur lance plusieurs processus. En cas d'échec, le moteur assure la recherche en mémoire.
+// 3. GET /api/status expose l'état (index, construction, moteur) pour diagnostiquer l'hébergement à distance.
+const SEARCH_INDEX_DIR = path.join(__dirname, 'cache', 'search-index');
+const SEARCH_INDEX_LOCK = path.join(__dirname, 'cache', 'search-index.lock');
+const startupStatus = { startedAt: new Date().toISOString(), searchIndex: 'absent', build: null, engine: 'en attente', engineSteps: null };
 let diskSearchIndex = null;
-try {
-  diskSearchIndex = searchIndex.open(path.join(__dirname, 'cache', 'search-index'), DATA_DIR, tripEngine.internals);
-  console.log(diskSearchIndex
-    ? '[search-index] index sur disque utilisé (' + diskSearchIndex.entries + ' entrées, ' + diskSearchIndex.places + ' lieux).'
-    : '[search-index] index sur disque absent ou périmé — recherche en mémoire après chargement du moteur (lancer npm run build-bundles).');
-} catch(err){
-  console.error('[search-index] ouverture impossible, repli sur la recherche en mémoire :', err.message);
-  diskSearchIndex = null;
-}
-const featuredTextPromise = fs.promises.readFile(path.join(DATA_DIR, 'featured.txt'), 'utf8');
-Promise.all([communesBundlePromise, aliasesBundlePromise, featuredTextPromise])
-  .then(function(results){
-    var t0 = Date.now();
-    return tripEngine.init(results[0].raw, results[1].raw, results[2], { skipSearchIndex: !!diskSearchIndex }).then(function(){
-      console.log('[trip-engine] prêt en ' + (Date.now() - t0) + ' ms.');
+
+function loadRawBundleText(name, re, franceCode){
+  var bundlePath = path.join(DATA_DIR, name + '.txt');
+  return fs.promises.readdir(DATA_DIR).then(function(files){
+    var sources = files.filter(function(f){ return re.test(f); });
+    return Promise.all(sources.map(function(f){ return fs.promises.stat(path.join(DATA_DIR, f)); })).then(function(stats){
+      var newestSource = stats.reduce(function(m, st){ return Math.max(m, st.mtimeMs); }, 0);
+      return fs.promises.stat(bundlePath).then(function(st){
+        return st.mtimeMs >= newestSource ? fs.promises.readFile(bundlePath, 'utf8') : buildBundleTextAsync(re, franceCode);
+      }, function(){ return buildBundleTextAsync(re, franceCode); });
     });
-  })
-  .catch(function(err){
+  });
+}
+
+function openDiskSearchIndex(){
+  try {
+    diskSearchIndex = searchIndex.open(SEARCH_INDEX_DIR, DATA_DIR, tripEngine.internals);
+  } catch(err){
+    diskSearchIndex = null;
+    startupStatus.searchIndexError = err.message;
+  }
+  startupStatus.searchIndex = diskSearchIndex ? 'disque (' + diskSearchIndex.entries + ' entrées)' : 'absent ou périmé';
+  return diskSearchIndex;
+}
+
+function buildSearchIndexInChild(){
+  return new Promise(function(resolve){
+    fs.mkdirSync(path.dirname(SEARCH_INDEX_LOCK), { recursive: true });
+    // Verrou : si un autre processus construit déjà (verrou de moins de 30 min), on attend qu'il ait fini.
+    try {
+      var lockAge = Date.now() - fs.statSync(SEARCH_INDEX_LOCK).mtimeMs;
+      if(lockAge < 30 * 60 * 1000){
+        startupStatus.build = 'construction en cours dans un autre processus';
+        var waited = 0;
+        var timer = setInterval(function(){
+          waited += 10;
+          if(!fs.existsSync(SEARCH_INDEX_LOCK) || waited > 30 * 60){ clearInterval(timer); resolve(!!openDiskSearchIndex()); }
+        }, 10000);
+        return;
+      }
+    } catch(e){ /* pas de verrou */ }
+    fs.writeFileSync(SEARCH_INDEX_LOCK, String(process.pid));
+    startupStatus.build = 'construction en cours (démarrée le ' + new Date().toISOString() + ')';
+    console.log('[search-index] index absent ou périmé : construction en arrière-plan…');
+    var t0 = Date.now(), output = '';
+    var child = require('child_process').spawn(process.execPath, ['--max-old-space-size=1024', path.join(__dirname, 'scripts', 'build-search-index.js')], { cwd: __dirname });
+    function collect(chunk){ output = (output + chunk.toString()).slice(-2000); }
+    child.stdout.on('data', collect);
+    child.stderr.on('data', collect);
+    child.on('error', function(err){ collect('erreur de lancement : ' + err.message); });
+    child.on('close', function(code, signal){
+      try { fs.unlinkSync(SEARCH_INDEX_LOCK); } catch(e){}
+      var ok = code === 0 && !!openDiskSearchIndex();
+      startupStatus.build = (ok ? 'réussie' : 'ÉCHEC (code ' + code + (signal ? ', signal ' + signal : '') + ')') + ' en '
+        + Math.round((Date.now() - t0) / 1000) + ' s — ' + output.trim().split('\n').slice(-3).join(' | ');
+      console.log('[search-index] ' + startupStatus.build);
+      resolve(ok);
+    });
+  });
+}
+
+function startEngine(){
+  startupStatus.engine = 'chargement';
+  var t0 = Date.now();
+  var needAliases = !diskSearchIndex;
+  return Promise.all([
+    loadRawBundleText('communes-bundle', /^communes(?:-([a-z]{2}))?\.txt$/, 'FR'),
+    needAliases ? loadRawBundleText('aliases-bundle', /^aliases-([a-z]{2})\.txt$/, '') : Promise.resolve(''),
+    fs.promises.readFile(path.join(DATA_DIR, 'featured.txt'), 'utf8')
+  ]).then(function(results){
+    return tripEngine.init(results[0], results[1], results[2], { skipSearchIndex: !needAliases });
+  }).then(function(){
+    startupStatus.engine = 'prêt en ' + Math.round((Date.now() - t0) / 1000) + ' s';
+    console.log('[trip-engine] prêt en ' + (Date.now() - t0) + ' ms.');
+  }).catch(function(err){
+    startupStatus.engine = 'ÉCHEC : ' + err.message;
     console.error('[trip-engine] échec d\'initialisation, /api/search-city et /api/generate-trip resteront indisponibles :', err.message);
   });
+}
+
+if(openDiskSearchIndex()){
+  console.log('[search-index] index sur disque utilisé (' + diskSearchIndex.entries + ' entrées, ' + diskSearchIndex.places + ' lieux).');
+  startEngine();
+} else {
+  buildSearchIndexInChild().then(startEngine);
+}
+
+app.get('/api/status', function(req, res){
+  res.setHeader('Cache-Control', 'no-store');
+  res.json({
+    startedAt: startupStatus.startedAt,
+    uptimeS: Math.round(process.uptime()),
+    searchIndex: startupStatus.searchIndex,
+    searchIndexError: startupStatus.searchIndexError || null,
+    build: startupStatus.build,
+    engine: startupStatus.engine,
+    searchReady: !!diskSearchIndex || tripEngine.isSearchReady(),
+    tripsReady: tripEngine.isReady(),
+    memoryMb: Math.round(process.memoryUsage().rss / 1048576),
+    node: process.version
+  });
+});
 
 app.get('/api/search-city', function(req, res){
   var q = String(req.query.q || '');
